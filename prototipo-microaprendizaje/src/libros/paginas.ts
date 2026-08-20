@@ -7204,7 +7204,546 @@ const COSMOS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Meditaciones, en ocho páginas.
+
+   El libro no está escrito para nadie: son las notas privadas de un
+   emperador, sin orden y sin destinatario, y eso hay que decirlo pronto
+   porque cambia cómo se lee todo lo demás. No hay tesis que seguir; hay un
+   hombre repitiéndose lo mismo durante doce años porque no le sale.
+
+   Ese detalle —que se repita— es el hallazgo del libro y ningún resumen lo
+   cuenta. Aquí va en la página uno.
+
+   Segunda persona con cuidado: Marco Aurelio se habla a sí mismo de tú, así
+   que el resumen puede recogerlo cuando cita, pero no puede convertirse en
+   un manual de consejos.
+   -------------------------------------------------------------------------- */
+
+const MEDITACIONES: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El hombre más poderoso del mundo se escribía notas para aguantar el día",
+      },
+      {
+        b: "texto",
+        texto:
+          "Marco Aurelio gobernó Roma entre los años 161 y 180. Le tocó una peste que mató a millones de personas, una guerra en la frontera del Danubio que duró casi todo su reinado y la rebelión de un general en el que confiaba. De sus trece hijos, ocho murieron antes que él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En las tiendas de campaña de esa frontera, por la noche, escribía en griego unas notas para sí mismo. No tenían título, no eran para publicar y no van dirigidas a ningún lector: el nombre con el que las conocemos se lo pusieron otros mil años después. El primer cuaderno es una lista de agradecimientos a las personas que le enseñaron algo, con nombre y apellido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No es un tratado: es el cuaderno donde un hombre se recordaba a sí mismo cómo quería comportarse al día siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está lo que casi ningún resumen dice, que es lo más interesante del libro. Marco Aurelio se repite. Vuelve una y otra vez sobre las mismas cuatro o cinco cosas durante doce años, y no las repite porque le salgan bien: las repite porque no le salen. Un hombre que hubiera dominado la ira no necesitaría escribir cada pocas semanas cómo tratar a quien le irrita.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: qué está en tus manos y qué no, cómo mirar de frente lo que te enfada, qué hacer con el tiempo que queda, cómo tratar a la gente insoportable y qué pensar de la muerte. La conclusión dice también dónde falla, que aquí hay una parte incómoda.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "De todo lo que te pasa, tuyo es solo lo que haces con ello" },
+      {
+        b: "texto",
+        texto:
+          "La idea que sostiene el libro entero es la división estoica entre lo que depende de uno y lo que no. Lo que no: el cuerpo, la salud, la reputación, el dinero, lo que hagan los demás, lo que pase mañana. Lo que sí: el juicio que uno se forma, lo que decide hacer, cómo reacciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la frase que más se le cita, y que él escribe de varias maneras a lo largo de los cuadernos: si algo externo te aflige, el dolor no viene de la cosa sino del juicio que haces sobre ella, y ese juicio lo puedes revocar ahora mismo. No dice que la cosa no exista ni que no sea grave; dice que entre el hecho y el sufrimiento hay una frase tuya.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quita la opinión y habrá desaparecido la queja. El daño era la opinión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aplicado a lo que dicen los demás, la conclusión es dura y liberadora a partes iguales. Marco Aurelio se pregunta por qué damos tanta importancia a la opinión ajena y anota que quien busca la aprobación de otros ha puesto su tranquilidad en manos de gente a la que no controla. En otro pasaje calcula lo que dura la fama: unas cuantas generaciones, y después el olvido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una prueba práctica que sirve para cualquier disgusto: preguntarse si lo que ha ocurrido impide de verdad ser justo, sensato o valiente ahora mismo. Casi nunca lo impide. Lo que impide es seguir con el humor que uno tenía, y ese es otro asunto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi todo se encoge si lo describes sin adornos" },
+      {
+        b: "texto",
+        texto:
+          "Una de las prácticas más concretas del libro consiste en desmontar las cosas hasta dejarlas en lo que son. Marco Aurelio lo hace consigo mismo y con lo que le rodea: el vino de reserva es zumo de uva fermentado; la púrpura imperial es lana de oveja teñida con sangre de un molusco; un plato exquisito es un pescado muerto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No es desprecio ni amargura, aunque lo parezca. Es una técnica para quitarle a las cosas la capa de prestigio que les hemos puesto encima y que es la que produce el deseo y el miedo. Lo mismo hace con su propio cargo: se recuerda que un emperador es un hombre al que un día le lavarán el cuerpo, y que la corte lo olvidará antes de lo que él cree.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mira las cosas por dentro y descríbelas sin el nombre que las envuelve. Casi ninguna resiste ese trato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al mismo grupo pertenece la costumbre de mirar desde arriba: imaginarse el mapa entero, las ciudades, las generaciones que ya pasaron, y colocar ahí lo que a uno le está pasando hoy. Cuando lo hace, sus propios asuntos de Estado quedan bastante pequeños, y ese es justo el objetivo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y una advertencia sobre el uso de todo esto, que él mismo se pone: la práctica no sirve para despreciar la vida, sino para dejar de estar a merced de ella. Un hombre que ya no espera nada de la púrpura puede llevarla sin que le cambie el carácter.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo único que se puede perder es el momento en el que se está" },
+      {
+        b: "texto",
+        texto:
+          "Marco Aurelio da un argumento sobre la muerte que no se parece a los consuelos habituales. Sostiene que nadie pierde ni el pasado ni el futuro, porque no se puede perder lo que no se tiene; lo único que cualquiera pierde al morir es el presente, y eso es lo mismo para el que muere a los treinta que para el que muere a los noventa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca la consecuencia práctica: si lo único que hay es este momento, gastarlo en anticipar desgracias o en repasar agravios es tirar lo único que se posee. Se lo dice de mil maneras, y una de ellas es una orden simple: haz cada cosa como si fuera la última que vas a hacer.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Puedes dejar la vida ahora mismo. Que eso decida lo que haces y lo que dices.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Junto a eso pone el recuerdo constante de que él también va a desaparecer, y lo hace con nombres propios: enumera emperadores anteriores, generales célebres, cortes enteras, y observa que de todos ellos no queda nada salvo el nombre en una lista, y a veces ni eso. Es el ejercicio que después se llamó memento mori, y en sus cuadernos no es una postura literaria sino un recordatorio de trabajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El uso que le da no es melancólico. Es al revés: si el tiempo se acaba y no se sabe cuándo, no queda margen para aplazar el comportarse bien hasta que las circunstancias mejoren.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Levántate acordándote de que hoy te vas a encontrar con gente insoportable",
+      },
+      {
+        b: "texto",
+        texto:
+          "El pasaje más práctico del libro es el que abre el segundo cuaderno, y es una instrucción para primera hora de la mañana. Dice, más o menos: al amanecer, dite a ti mismo que hoy te vas a topar con un entrometido, un desagradecido, un insolente, un tramposo, un envidioso y un insociable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da la razón, que es la parte útil: les pasa por ignorancia de lo que está bien y lo que está mal. Nadie hace daño creyendo hacerlo mal; cada uno actúa desde lo que le parece bueno. Si uno sale de casa contando con eso, lo que ocurre después deja de ser una ofensa personal y pasa a ser lo previsto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie yerra a propósito. Lo que te parece maldad casi siempre es alguien que no ve lo que tú ves.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí salen dos instrucciones más. La primera: si alguien se equivoca, enséñale; y si no puedes, no te enfades con él por no saber. La segunda, que él repite mucho: la mejor manera de vengarse de quien se comporta mal es no parecerse a él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También se ocupa de la queja sobre el trabajo, y lo hace consigo mismo cada mañana: se sorprende quejándose de tener que levantarse y se contesta que las plantas, los pájaros y las hormigas hacen lo suyo sin protestar, y que él ha nacido para lo suyo igual que ellos. Es de los pocos sitios donde se le nota el mal humor.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un obstáculo bien mirado es material de trabajo" },
+      {
+        b: "texto",
+        texto:
+          "La formulación más recordada del estoicismo romano está en estos cuadernos y es una imagen de fuego: lo que se interpone en el camino se convierte en el camino, porque el fuego se hace más grande con lo que le echan encima. Un fuego pequeño se apaga con un tronco; uno grande lo convierte en llama.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Marco Aurelio lo escribe en un contexto muy concreto: no hablaba de contratiempos menores, sino de una peste, una guerra que no terminaba y una traición. Y lo que propone no es fingir que eso es bueno, sino preguntarse qué virtud pide exactamente esta situación —paciencia, valor, mesura— y ejercerla ahí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El impedimento a la acción hace avanzar la acción. Lo que se interpone en el camino se convierte en el camino.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Debajo hay una idea de fondo que atraviesa todo el estoicismo: la naturaleza funciona como un todo del que uno forma parte, y lo que ocurre le ocurre a uno porque estaba en el tejido de las cosas. Marco Aurelio insiste en que un miembro que se separa del cuerpo entero no puede funcionar, y que quien se aparta de los demás hace lo mismo consigo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí que su ética no sea de retirada. Repite que hemos nacido para colaborar, como los pies, las manos y los párpados, y que enfadarse con otro es tan absurdo como que la mano derecha se enfade con la izquierda. Sus cuadernos son la defensa de un hombre que preferiría estar leyendo y sabe que tiene que gobernar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nunca escribió para nadie, y por eso se le cree" },
+      {
+        b: "texto",
+        texto:
+          "Conviene detenerse en la rareza del objeto. Casi toda la filosofía antigua que conservamos son tratados, diálogos o cartas: textos escritos para convencer a alguien. Esto es lo contrario. No hay argumentos desplegados, no hay orden, se repiten las mismas ideas, hay frases sin terminar y anotaciones que solo significan algo para quien las escribió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese defecto de forma es lo que le da su fuerza. Cuando un autor sostiene que el poder no importa desde una tribuna, se le puede sospechar; cuando lo escribe para sí mismo el hombre que tiene todo el poder del mundo y nadie va a leerlo, la cosa cambia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Es el único libro de filosofía cuyo autor no esperaba lectores. Por eso no hay una sola frase escrita para quedar bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Marco Aurelio no inventó nada: su estoicismo viene de Epicteto, un esclavo liberto cuyas clases leía, y a él lo cita con devoción. Lo que aporta no es doctrina sino la prueba de uso. Es la misma filosofía aplicada al puesto más alto que existía, y contada con sus dudas incluidas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso conviene leerlo como se lee un cuaderno y no como se lee un manual: abriendo por cualquier parte, unas pocas anotaciones cada vez, y volviendo. Leído del tirón, la repetición cansa; leído a ratos, la repetición es el método.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Los cuadernos vuelven una y otra vez sobre unas pocas ideas: solo está en tu mano el juicio que haces y lo que decides hacer; casi todo se encoge si lo describes sin adornos; lo único que se puede perder es el momento presente; la gente que molesta no lo hace por maldad sino por no saber; y el obstáculo, bien mirado, es material de trabajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la prueba. Estas ideas ya estaban en Epicteto y en Séneca; lo que no había es el registro privado de alguien que las estuvo usando durante doce años en el peor puesto imaginable, sin adornarlo y sin sacarle rédito. Que se sigan leyendo dieciocho siglos después, y que casi todo lo que hoy se vende como gestión emocional esté aquí, dice bastante.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La mejor manera de vengarse de quien se porta mal es no parecerse a él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La doctrina de que lo externo es indiferente aguanta mal en manos de quien tiene poder: un emperador puede permitirse decir que la salud y el dinero no dependen de él, y esa misma frase, dicha a quien no come, es otra cosa. Y hay una contradicción biográfica que conviene conocer: el hombre que escribía sobre la clemencia mantuvo la esclavitud, hizo la guerra en el Danubio durante años y dejó el imperio a su hijo Cómodo, del que ya se sabía lo que era.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Además hay un límite de fondo del estoicismo. Enseña a soportar admirablemente lo que no se puede cambiar, y no ofrece casi nada para distinguir lo que no se puede cambiar de lo que no se ha intentado cambiar. Leído sin ese cuidado, sirve igual para la serenidad que para la resignación, y las dos se parecen mucho desde fuera.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   El principito, en ocho páginas.
+
+   El problema de este libro es que todo el mundo cree conocerlo y casi
+   nadie lo ha leído después de los diez años. Se recuerda el zorro y la
+   rosa; no se recuerda que es un libro amargo escrito por un piloto en el
+   exilio mientras Francia estaba ocupada, ni que el final es una muerte.
+
+   Así que el resumen tiene dos trabajos: contar lo que dice de verdad y
+   decir de dónde sale. La biografía entra aquí porque es parte del
+   argumento —regla 1—: el accidente del desierto lo vivió Saint-Exupéry, y
+   el narrador es él.
+
+   Tercera persona. Y el titular de cada página tiene que afirmar sobre el
+   LIBRO, no ir contando planeta por planeta.
+   -------------------------------------------------------------------------- */
+
+const PRINCIPITO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un piloto se estrelló en el desierto y ocho años después escribió esto",
+      },
+      {
+        b: "texto",
+        texto:
+          "En diciembre de 1935, Antoine de Saint-Exupéry se estrelló en el desierto de Libia intentando batir un récord de vuelo entre París y Saigón. Él y su mecánico sobrevivieron al impacto y pasaron tres días sin apenas agua, con alucinaciones, hasta que un beduino los encontró. Ese accidente es el que abre el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo escribió en Nueva York en 1942, exiliado y desesperado: Francia estaba ocupada, él tenía cuarenta y tantos años y un cuerpo roto por los accidentes, y no le dejaban volar. Se publicó en 1943 en Estados Unidos, y no apareció en Francia hasta después de su muerte. Es uno de los libros más traducidos del mundo, a más de quinientas lenguas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No es un cuento infantil que se lee de mayor: es un libro de adultos escrito con la forma de un cuento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El propio libro lo avisa en la dedicatoria, que es de las más raras que existen: se lo dedica a un amigo adulto, Léon Werth, y pide perdón a los niños por dedicárselo a un mayor, aclarando que ese mayor lo entiende todo y que además está pasando hambre y frío en Francia. Werth era judío y estaba escondido en la Francia ocupada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: por qué el libro se pelea con la mirada adulta, qué encuentra el principito en los planetas que visita, qué le enseña el zorro, qué pasa con la rosa y cómo termina. La conclusión dice también dónde falla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los mayores necesitan cifras para creer que algo existe" },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con un dibujo. El narrador, de niño, dibuja una boa que se ha tragado un elefante; a los adultos les parece un sombrero. Él les enseña entonces el interior de la boa, y los mayores le aconsejan que deje de dibujar y se dedique a la geografía, la historia y el cálculo. Así fue como se hizo piloto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la crítica que atraviesa todo el libro y que no es contra la edad sino contra una manera de mirar. Saint-Exupéry escribe que si les dices a los mayores que has visto una casa preciosa de ladrillo rosa con geranios en las ventanas, no consiguen imaginársela; hay que decirles que has visto una casa de cien mil francos, y entonces exclaman qué bonita.",
+      },
+      {
+        b: "idea",
+        texto:
+          "A los mayores les gustan las cifras. Preguntan por la edad y los hermanos, nunca por el sonido de la voz.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mismo argumento aparece con el asteroide del principito, el B 612, descubierto por un astrónomo turco. Cuando lo presentó vestido a la manera de su país, nadie le creyó; cuando lo repitió años después con traje europeo, todos lo aceptaron. Es una broma seria sobre cómo se decide qué es creíble.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene entender qué está criticando exactamente. No es la razón ni el cálculo: el narrador es piloto y sabe de motores. Es la costumbre de sustituir la experiencia por su etiqueta, y de confundir el precio de una cosa con lo que la cosa es.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Seis planetas y seis maneras de perder la vida" },
+      {
+        b: "texto",
+        texto:
+          "El principito visita seis asteroides antes de llegar a la Tierra, y en cada uno vive un adulto solo, encerrado en una ocupación que le llena el día entero. No son personajes: son diagnósticos.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "El rey", texto: "manda sobre todo y solo da órdenes que se iban a cumplir igual." },
+          { fuerte: "El vanidoso", texto: "solo oye los elogios; cualquier otra cosa no le llega." },
+          { fuerte: "El bebedor", texto: "bebe para olvidar que se avergüenza de beber." },
+          { fuerte: "El hombre de negocios", texto: "cuenta estrellas para poseerlas y no ha mirado ninguna." },
+          { fuerte: "El farolero", texto: "cumple una orden absurda con una fidelidad conmovedora." },
+          { fuerte: "El geógrafo", texto: "escribe libros sobre un mundo que nunca ha visitado." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "El más interesante es el farolero, y es el único que le cae bien al principito. Su planeta gira tan deprisa que tiene que encender y apagar el farol cada minuto, sin descanso; la orden es absurda y él la cumple porque es la consigna. El principito piensa que es el único que se ocupa de algo distinto de sí mismo, y a la vez el único que podría ser su amigo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cada uno de esos hombres cumple perfectamente una tarea que no significa nada. Y ninguno se ha parado a mirarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hombre de negocios recibe la mejor réplica del libro. Dice que posee las estrellas porque fue el primero en pensarlo, y el principito le contesta que él posee una flor porque la riega, y un volcán porque lo deshollina, y que eso es útil para la flor y para el volcán, mientras que él no es útil para las estrellas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que hace única a una rosa es el tiempo que le has dedicado" },
+      {
+        b: "texto",
+        texto:
+          "El principito llegó a la Tierra creyendo que su rosa era única en el universo: se lo había dicho ella. En un jardín de la Tierra encuentra cinco mil rosas exactamente iguales, y se tumba en la hierba y llora. Su tesoro resulta ser una flor corriente, y él se siente un príncipe muy pobre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que le devuelve la rosa es el zorro, y con un razonamiento que es la clave del libro. Cuando el principito vuelve al jardín, les dice a las cinco mil rosas que no se parecen en nada a la suya, porque a ellas nadie las ha regado, ni las ha cubierto con un fanal, ni les ha matado las orugas, ni las ha escuchado quejarse o presumir o callarse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Es el tiempo que has perdido por tu rosa lo que hace a tu rosa tan importante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La relación con la flor es la parte más adulta del libro y la que se lee peor de niño. La rosa es coqueta, exagera, se hace la enferma para llamar la atención y le hace pasar un mal rato; él se marcha del planeta por eso. Y solo mucho después entiende que debería haberla juzgado por lo que hacía y no por lo que decía, y que era demasiado joven para saber quererla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se ha escrito mucho sobre si la rosa es Consuelo, la mujer de Saint-Exupéry, con la que tuvo un matrimonio tormentoso. Él nunca lo dijo, y no hace falta saberlo para leer el capítulo: funciona igual para cualquiera que se haya ido de un sitio antes de entender lo que tenía.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un zorro explica en tres páginas cómo se crea un vínculo" },
+      {
+        b: "texto",
+        texto:
+          "El zorro pide que lo domestiquen y, al preguntarle qué significa eso, da la definición que sostiene el libro: crear lazos. Le explica que ahora mismo él no es para el principito más que un zorro igual a otros cien mil, y que si se domestican serán únicos el uno para el otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da el método, que es de una precisión sorprendente para un cuento. Hay que ser paciente. Sentarse un poco lejos, sin decir nada, porque el lenguaje es fuente de malentendidos. Y volver cada día un poco más cerca. Además hay que venir siempre a la misma hora, para que el corazón sepa a qué hora prepararse: si vienes a las cuatro, a las tres ya empezaré a ser feliz.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Solo se conoce bien lo que se domestica. Los hombres compran cosas hechas, y como no hay tienda de amigos, ya no tienen amigos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El zorro añade la parte que casi nadie recuerda: que domesticar cuesta. Cuando llegue el momento de la despedida, el zorro llorará, y el principito le dice que entonces no ha ganado nada. El zorro contesta que sí ha ganado, por el color del trigo: nunca le interesó porque no come pan, pero ahora el trigo dorado le recordará el pelo del principito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y como regalo de despedida le da la frase que se ha convertido en la más citada de la literatura francesa: no se ve bien sino con el corazón; lo esencial es invisible a los ojos. En su contexto no es un lema decorativo: es el remate de una explicación técnica sobre cómo se construye un vínculo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El libro termina con una muerte, y eso no se recuerda" },
+      {
+        b: "texto",
+        texto:
+          "El final es lo que más sorprende a quien lo relee de adulto. El principito lleva un año en la Tierra y quiere volver a su planeta, y para volver tiene que dejar el cuerpo, porque pesa demasiado. Ha hecho un pacto con una serpiente amarilla que puede devolver a cualquiera a la tierra de donde salió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena está escrita con una delicadeza extraordinaria y no engaña a nadie: el principito le pide al narrador que no vaya, le dice que parecerá que sufre y que parecerá que está muerto, y que no es verdad. Hubo un relámpago amarillo cerca del tobillo. Cayó despacio, como cae un árbol, y no hizo ruido por culpa de la arena.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Es un libro que se regala a los niños y que termina con un niño eligiendo morir para volver a casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que deja al narrador es un consuelo frágil, y el libro lo dice sin adornarlo. Como el principito vive en una de las estrellas y él no sabe en cuál, todas las estrellas se han convertido para él en algo que ríe; pero también le pide al lector que si alguna vez pasa por aquel desierto y ve a un niño rubio, le escriba enseguida para decirle que ha vuelto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El propio Saint-Exupéry desapareció en julio de 1944, un año después de publicarlo, en un vuelo de reconocimiento sobre el Mediterráneo. Su avión no apareció hasta 2000, frente a Marsella. No hay manera de leer el final del libro sin que eso pese.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Es un libro sobre lo que se pierde al hacerse mayor, escrito por alguien que lo estaba perdiendo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene juntar las piezas, porque separadas se leen como frases bonitas. Un piloto varado en el desierto con agua para ocho días se encuentra con un niño que le pide un dibujo. El niño viene de un planeta diminuto donde riega una flor. Ha recorrido seis planetas llenos de adultos absurdos. En la Tierra descubre que su flor es una entre cinco mil, y un zorro le explica que eso da igual, porque lo que cuenta es el tiempo invertido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Todo el libro sostiene lo mismo desde ángulos distintos: el valor no está en la cosa sino en la relación con la cosa. Una rosa entre cinco mil, un zorro entre cien mil, un planeta que no sale en ningún mapa. Y la mirada adulta es la que mide lo que se puede contar y por eso se queda siempre fuera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todas las personas mayores fueron primero niños, aunque pocas lo recuerden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Que fuera escrito en 1942 por un francés exiliado que no podía volar y cuyo país estaba ocupado explica el tono, que no es dulce sino nostálgico y a ratos amargo. La dedicatoria a un amigo escondido y con hambre está ahí para quien quiera leerla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y explica también por qué funciona a dos edades a la vez. Un niño lee un viaje por planetas con un zorro que habla. Un adulto lee el libro de alguien que se marchó de donde debía quedarse y lo entendió tarde.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que lo que hace valioso a algo no es ninguna propiedad que se pueda medir, sino el tiempo y el cuidado que se le han dedicado, y que la manera adulta de mirar —cifras, precios, etiquetas— no puede ver eso y por eso se lo pierde. Lo demuestra con seis planetas de adultos encerrados en tareas vacías, con cinco mil rosas iguales y con un zorro que explica, paso a paso, cómo se crea un lazo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es haber puesto una idea difícil en una forma que se recuerda a los ocho años y se entiende a los cuarenta. Que sea uno de los libros más traducidos del mundo no viene de la trama, que es mínima, sino de que casi cualquiera reconoce en él algo propio: una flor que dejó atrás, una tarea que cumple sin mirarla, una amistad que costó tiempo.",
+      },
+      { b: "idea", texto: "Eres responsable para siempre de lo que has domesticado." },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Su reparto entre niños y mayores es más cómodo que cierto: los adultos del libro son caricaturas de una sola pieza y no hay ni uno que sea a la vez razonable y capaz de ver, cosa que en la vida real es lo corriente. La crítica funciona porque nadie discute con un rey de opereta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ha sufrido el destino de casi todo libro muy citado: sus frases circulan sueltas y descoloridas, impresas en tazas y en publicaciones motivacionales, precisamente vaciadas de lo que las sostenía. La del corazón y los ojos es el remate de un razonamiento sobre cómo se construye un vínculo con paciencia y a la misma hora; suelta, no dice nada. Merece la pena releerlo entero de adulto, aunque solo sea para recuperar el final, que es una muerte y casi nadie recuerda que lo sea.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  principito: PRINCIPITO,
+  meditaciones: MEDITACIONES,
   cosmos: COSMOS,
   "1984": MIL_NOVECIENTOS_OCHENTA_Y_CUATRO,
   flow: FLOW,

@@ -24,7 +24,6 @@ import type { Resumen } from "./tipos";
 type Cargador = () => Promise<Resumen>;
 
 const CARGADORES: Record<string, Cargador> = {
-  meditaciones: () => import("./meditaciones").then((m) => m.MEDITACIONES),
   sapiens: () => import("./sapiens").then((m) => m.SAPIENS),
 
   /* Psicología */
@@ -42,7 +41,6 @@ const CARGADORES: Record<string, Cargador> = {
   respira: () => import("./ciencia-salud").then((m) => m.RESPIRA),
 
   /* Literatura */
-  principito: () => import("./literatura").then((m) => m.PRINCIPITO),
   alquimista: () => import("./literatura").then((m) => m.ALQUIMISTA),
   "rebelion-granja": () => import("./literatura").then((m) => m.REBELION_GRANJA),
   fahrenheit: () => import("./literatura").then((m) => m.FAHRENHEIT),

@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  principito:
+    "Saint-Exupéry se estrelló de verdad en el desierto de Libia y pasó tres días sin agua. Ocho años después, exiliado en Nueva York mientras Francia estaba ocupada, escribió un libro que empieza con ese accidente y termina con una muerte.",
+
+  meditaciones:
+    "Marco Aurelio gobernó Roma durante una peste, una guerra que duró casi todo su reinado y la muerte de ocho de sus trece hijos. Por las noches, en las tiendas del Danubio, escribía notas para sí mismo que nunca pensó publicar.",
+
   cosmos:
     "Hace veintidós siglos, un bibliotecario de Alejandría midió el tamaño del planeta con dos palos y una sombra. Sagan empieza ahí porque su libro no va de lo que sabemos del universo, sino de cómo hemos llegado a saberlo.",
 

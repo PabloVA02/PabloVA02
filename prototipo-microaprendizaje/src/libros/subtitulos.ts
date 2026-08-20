@@ -22,6 +22,8 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  principito: "Una fábula sobre la amistad, la pérdida y lo esencial",
+  meditaciones: "Los cuadernos privados de un emperador romano",
   cosmos: "Un viaje por el universo, la ciencia y nuestro lugar en él",
   "1984": "Una novela sobre el poder y la verdad",
   flow: "Una psicología de la felicidad",

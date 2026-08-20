@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  principito: [
+    "por qué los mayores necesitan cifras para creer algo",
+    "qué le pasa a los seis adultos de los planetas",
+    "por qué una rosa entre cinco mil sigue siendo única",
+    "el método del zorro para crear un lazo, paso a paso",
+    "cómo termina de verdad, que casi nadie recuerda",
+  ],
+
+  meditaciones: [
+    "cómo separar lo que está en tu mano de lo que no",
+    "por qué casi todo se encoge si lo describes sin adornos",
+    "por qué morir joven y morir viejo cuestan lo mismo",
+    "qué decirse al levantarse antes de tratar con gente",
+    "por qué un obstáculo es material de trabajo",
+  ],
+
   cosmos: [
     "cómo se midió la Tierra con dos palos y una sombra",
     "por qué la ciencia griega se paró mil quinientos años",
