@@ -522,6 +522,7 @@ export function tiempo(min: number) {
 
 export function Inicio({
   racha,
+  suscrito = true,
   onAbrir,
   onPerfil,
   onEscuchar,
@@ -531,6 +532,8 @@ export function Inicio({
   onGuardar,
 }: {
   racha: number;
+  /** Sin suscripción no hay libro del día. Ver `LibroDelDia.tsx`. */
+  suscrito?: boolean;
   onAbrir: (libro: Libro) => void;
   onPerfil: () => void;
   /** Abre el libro directamente en voz alta. Lo usa «El libro de hoy». */
@@ -683,6 +686,7 @@ export function Inicio({
             línea y porque quien tiene algo a medias viene a eso. Ver
             `LibroDelDia.tsx`. */}
         <LibroDelDia
+          suscrito={suscrito}
           guardado={guardados?.has(libroDeHoy()?.id ?? "")}
           onGuardar={onGuardar}
           onLeer={onAbrir}

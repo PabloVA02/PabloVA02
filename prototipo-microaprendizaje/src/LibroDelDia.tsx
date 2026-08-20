@@ -6,8 +6,8 @@ import { LIBROS_RESUMEN as LIBROS } from "./libros/puente";
 import type { Libro } from "./Biblioteca";
 import { PAGINAS } from "./libros/paginas";
 import { PORTADAS_LIBRO } from "./libros/portadas";
-import { APRENDERAS } from "./libros/aprenderas";
 import { PortadaLibro } from "./PortadaLibro";
+import { urlFoto } from "./shorts";
 import { minutosDeLibro } from "./Biblioteca";
 
 /* ==========================================================================
@@ -19,16 +19,17 @@ import { minutosDeLibro } from "./Biblioteca";
    distinto», así que esto conserva la anatomía —cubierta, título, autor,
    guardar, leer y escuchar— y cambia cuatro cosas a propósito:
 
-   1. VA EN PAPEL, NO EN OSCURO. La suya es una tarjeta oscura sobre fondo
-      oscuro y se disuelve en la pantalla. Esta es de papel sobre el gris de
-      la estantería, así que es lo más claro que hay a la vista y se va sola
-      el ojo. Y de paso anuncia lo que va a pasar al tocarla: la lectura
-      también es en crema.
+   1. EL FONDO ES EL SUYO. La primera versión se hizo en papel crema, para que
+      fuera lo más claro de la pantalla, y Pablo la devolvió el 21 de agosto:
+      «no me gusta el fondo que agregaste, haz el mismo fondo que Headway,
+      prácticamente igual». Así que es lo que es: tarjeta oscura con el halo
+      de color subiendo desde detrás de la cubierta, cubierta centrada, el
+      botón de guardar montado sobre su filo y los dos botones abajo.
 
-   2. EL COLOR ES EL DEL LIBRO, NO EL DE LA MARCA. Ellos tiñen el halo con la
-      cubierta y ponen el botón azul de Headway en todos. Aquí el halo, la
-      ceja y el botón salen del color de la categoría del libro, así que la
-      tarjeta cambia de temperatura cada día.
+   2. EL COLOR ES EL DEL LIBRO, NO EL DE LA MARCA. Es lo único del aspecto que
+      no se copia. Ellos tiñen el halo con la cubierta y ponen su botón azul
+      en todos los libros; aquí el halo y el botón salen del color de la
+      categoría, así que la tarjeta cambia de temperatura cada día.
 
    3. DICE CUÁNTO DURA, LEYENDO Y OYENDO. Los dos números salen de contar las
       palabras del resumen —200 por minuto leyendo, 140 diciéndolo— y no de
@@ -41,6 +42,10 @@ import { minutosDeLibro } from "./Biblioteca";
 
    El aviso de guardado también cambia: el suyo se queda puesto hasta que lo
    cierras y tapa el título; este entra, se lee y se va solo a los 2,4 s.
+
+   Y SOLO SE VE ESTANDO SUSCRITO, que es como lo tienen ellos y como lo pidió
+   Pablo. A quien está probando la app no se le enseña el libro que le tocaría
+   cada día: se le enseña la oferta.
    ========================================================================== */
 
 /** Los que pueden salir: escritos a mano y con cubierta dibujada.
@@ -71,14 +76,6 @@ export function libroDeHoy(hoy = new Date()): Libro | undefined {
   return ELEGIBLES[(diaDelAno(hoy) * 7) % ELEGIBLES.length];
 }
 
-/** Corta en el último espacio que quepa, para no partir una palabra. */
-function recorta(texto: string, tope: number): string {
-  if (texto.length <= tope) return texto;
-  const trozo = texto.slice(0, tope);
-  const corte = trozo.lastIndexOf(" ");
-  return `${(corte > tope * 0.6 ? trozo.slice(0, corte) : trozo).replace(/[,;:.\s]+$/, "")}…`;
-}
-
 /** Lo que queda de hoy, escrito como se dice. */
 function quedaDeHoy(ahora: Date): string {
   const medianoche = new Date(ahora);
@@ -90,11 +87,14 @@ function quedaDeHoy(ahora: Date): string {
 }
 
 export function LibroDelDia({
+  suscrito = true,
   guardado,
   onGuardar,
   onLeer,
   onEscuchar,
 }: {
+  /** Sin suscripción no hay libro del día. Ver la cabecera. */
+  suscrito?: boolean;
   guardado?: boolean;
   onGuardar?: (libro: Libro) => void;
   onLeer: (libro: Libro) => void;
@@ -118,15 +118,10 @@ export function LibroDelDia({
     return () => clearTimeout(t);
   }, [aviso]);
 
-  if (!libro) return null;
+  if (!libro || !suscrito) return null;
 
   const minLeer = libro.minutos;
   const minOir = minutosDeLibro(libro);
-  /* El «de qué trata» mide cuarenta palabras y en la tarjeta caben tres
-     líneas, o sea unos ciento diez caracteres. Cortarlo con CSS deja la
-     elipsis en mitad de una palabra —«perdió s…»—, así que se corta antes, en
-     el último espacio que quepa. */
-  const gancho = recorta(APRENDERAS[libro.id] ?? libro.gancho ?? "", 112);
 
   return (
     <motion.section
@@ -137,83 +132,83 @@ export function LibroDelDia({
       transition={{ ...spring, delay: 0.08 }}
       aria-label="El libro de hoy"
     >
-      {/* El halo. Es una mancha del color del libro sobre el papel, no un
-          degradado de tarjeta: nace detrás de la cubierta, que es de donde
-          vendría la luz si esto fuera un objeto. Respira en veintitrés
-          segundos, tan despacio que no se ve moverse pero evita que la
-          tarjeta parezca impresa. */}
-      <motion.span
-        className="hoy-halo"
-        aria-hidden
-        animate={{ opacity: [0.62, 0.82, 0.62], scale: [1, 1.06, 1] }}
-        transition={{ duration: 23, repeat: Infinity, ease: "easeInOut" }}
-      />
+      {/* EL FONDO ES LA CUBIERTA, DESENFOCADA. Medido sobre la captura de
+          Pablo y no supuesto: muestreando la tarjeta de Headway por su borde
+          izquierdo, el color va de un tostado (95, 81, 77) arriba a un morado
+          (45, 33, 68) abajo, que es exactamente el orden de colores de la
+          cubierta que enseña —crema arriba, figuras azules abajo—. O sea que
+          no es un degradado de marca: es la portada ampliada y borrosa.
+
+          Aquí se hace igual, y además con la técnica que la app ya usa en los
+          shorts para el fondo de una fotografía vertical: ver `.foto-panorama`
+          en `styles.css`. */}
+      {libro.portada && (
+        <img className="hoy-fondo" src={urlFoto(libro.portada, 220)} alt="" aria-hidden />
+      )}
+      <span className="hoy-velo" aria-hidden />
 
       <header className="hoy-ceja">
         <span className="hoy-rotulo">El libro de hoy</span>
-        <span className="hoy-derecha">
-          <span className="hoy-reloj">
-            <GlyphReloj />
-            {queda}
+        <span className="hoy-reloj">
+          <GlyphReloj />
+          {queda}
+        </span>
+      </header>
+
+      {/* Centrado y en columna, como el suyo: la cubierta manda y todo lo
+          demás va debajo. Nuestros dibujos llevan el título dentro, así que
+          aquí tampoco hace falta repetirlo en texto —igual que en el suyo—;
+          va en el `aria-label` para quien no ve la imagen. */}
+      <div className="hoy-cuerpo">
+        <button
+          className="hoy-portada"
+          type="button"
+          onClick={() => onLeer(libro)}
+          aria-label={`Abrir ${libro.titulo}, de ${libro.autor}`}
+        >
+          <span className="hoy-marco">
+            <PortadaLibro
+              id={libro.id}
+              titulo={libro.titulo}
+              autor={libro.autor}
+              categoria={libro.categoria}
+              color={libro.color}
+              foto={libro.portada}
+              tamano={150}
+            />
           </span>
-          {/* Guardar va aquí y no encima de la cubierta, como en la
-              referencia: allí el botón tapa el tercio de abajo del dibujo,
-              que es justo donde estos libros llevan el nombre del autor. Y
-              tampoco sobre el título, que fue el primer sitio donde se probó
-              y le comía la última palabra a los títulos largos. */}
+
+          {/* Montado sobre el filo de abajo de la cubierta, como el suyo. */}
           {onGuardar && (
-            <motion.button
+            <motion.span
               className="hoy-guardar"
-              type="button"
+              role="button"
+              tabIndex={0}
               data-on={guardado ? "true" : "false"}
-              whileTap={{ scale: 0.86 }}
-              onClick={() => {
+              whileTap={{ scale: 0.94 }}
+              onClick={(e) => {
+                e.stopPropagation();
                 onGuardar(libro);
                 if (!guardado) setAviso(true);
               }}
               aria-label={guardado ? "Quitar de tu biblioteca" : "Guardar en tu biblioteca"}
             >
               {guardado ? <GlyphVisto /> : <GlyphGuardar />}
-            </motion.button>
+              {guardado ? "Guardado" : "Guardar"}
+            </motion.span>
           )}
-        </span>
-      </header>
-
-      <div className="hoy-cuerpo">
-        <button
-          className="hoy-portada"
-          type="button"
-          onClick={() => onLeer(libro)}
-          aria-label={`Abrir ${libro.titulo}`}
-        >
-          {/* La caja la pone el que llama, como en el resto de la app: la
-              pieza solo se mide contra `--u`. Aquí es 2:3 —104 × 156—, que es
-              la proporción de los dibujos de Pablo, y no el cuadrado de la
-              casilla de la estantería. */}
-          <span className="hoy-marco">
-          <PortadaLibro
-            id={libro.id}
-            titulo={libro.titulo}
-            autor={libro.autor}
-            categoria={libro.categoria}
-            color={libro.color}
-            foto={libro.portada}
-            tamano={104}
-          />
-          </span>
         </button>
 
-        <div className="hoy-texto">
-          <h2 className="hoy-titulo">{libro.titulo}</h2>
-          <p className="hoy-autor">{libro.autor}</p>
-          <p className="hoy-gancho">{gancho}</p>
-          <p className="hoy-medida">
-            <span>{minLeer} min leyendo</span>
-            <span className="hoy-punto" aria-hidden>·</span>
-            <span>{minOir} min oyendo</span>
-          </p>
-        </div>
-
+        <p className="hoy-autor">{libro.autor}</p>
+        {/* Dos datos y no tres: la suya pone dos temas separados por un
+            punto y cabe en una línea. Con la categoría delante se iba a dos,
+            y una línea partida en medio de «15 min oyendo» estropea el
+            centrado de toda la tarjeta. */}
+        <p className="hoy-medida">
+          <span>{minLeer} min leyendo</span>
+          <span className="hoy-punto" aria-hidden>·</span>
+          <span>{minOir} min oyendo</span>
+        </p>
       </div>
 
       <div className="hoy-botones">

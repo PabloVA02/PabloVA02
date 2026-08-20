@@ -37,6 +37,12 @@ const CON_BARRA: Pantalla[] = ["inicio", "perfil", "biblioteca", "shorts", "expl
 
 /** Racha de ejemplo del prototipo. */
 const RACHA = 3;
+/* Si el usuario está suscrito. En el prototipo se llega al inicio después del
+   alta, así que es siempre cierto; existe como constante, y no como un literal
+   suelto en cada llamada, para que el día que haya suscripción de verdad haya
+   un solo sitio que tocar. Lo pidió Pablo el 21 de agosto, para el libro del
+   día: «solo aparece una vez estás suscrito». */
+const SUSCRITO = true;
 
 /* Atajo para mirar una pantalla suelta sin pasar por el onboarding entero:
    ?p=shorts abre directamente el muro. Sirve para revisar el diseño en el
@@ -208,7 +214,7 @@ export default function App() {
      tiempo» tiene que significar algo o se convierte en cada semana. */
   useEffect(() => {
     if (pantalla !== "inicio" || valoracionVista || leidas < 6 || avisoRegalo) return;
-    if (!tocaPedirResena({ suscrito: true, terminados: leidas })) return;
+    if (!tocaPedirResena({ suscrito: SUSCRITO, terminados: leidas })) return;
     const id = window.setTimeout(() => {
       setValoracion(true);
       setValoracionVista(true);
@@ -254,6 +260,7 @@ export default function App() {
             <Inicio
               key="inicio"
               racha={RACHA}
+              suscrito={SUSCRITO}
               intereses={intereses}
               onAbrir={(l) => {
                 setLibro(l);
