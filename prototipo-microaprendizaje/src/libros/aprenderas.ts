@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "matar-ruisenor":
+    "Un abogado defiende en 1935 a un hombre negro acusado en falso en un pueblo de Alabama, y lo cuenta su hija de ocho años. La mitad del libro pasa antes de que empiece el juicio.",
+
   quijote:
     "Un hidalgo pobre lee tantos libros de caballerías que decide salir a comportarse como uno. La novela que se ríe de él terminó inventando casi todo lo que después ha hecho la novela moderna.",
 

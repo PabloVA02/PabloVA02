@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "matar-ruisenor": [
+    "por qué el jurado condena con todas las pruebas en contra",
+    "por qué la chica que acusa también es una víctima",
+    "qué significa exactamente el título",
+    "por qué el final consiste en tapar un homicidio",
+    "qué cambió cuando en 2015 apareció otro Atticus",
+  ],
+
   quijote: [
     "por qué los molinos ocupan solo dos páginas",
     "quién es el historiador árabe que finge haber escrito el libro",

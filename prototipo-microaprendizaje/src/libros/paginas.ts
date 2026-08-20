@@ -11419,7 +11419,269 @@ const QUIJOTE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Matar a un ruiseñor, en ocho páginas.
+
+   Breve: hay una sola línea de argumento y estirarla a doce sería
+   engordar páginas, que es lo que la regla prohíbe.
+
+   Caso (a) de la 4 bis: es una novela, y el titular sigue afirmando sobre
+   el libro. Y caso (d), que aquí pesa más que en ningún otro: lo que pasó
+   después de publicarse cambia la lectura. En 2015 se publicó el
+   borrador anterior, Ve y pon un centinela, donde el mismo Atticus se
+   sienta en una reunión segregacionista. No se puede resumir este libro
+   en 2026 sin decirlo, y tampoco se puede usar para desacreditarlo de un
+   plumazo: se cuenta lo que se sabe.
+
+   Lo que casi nadie sabe y aquí sí está: que el juicio no empieza hasta
+   pasada la mitad, que Mayella Ewell también es una víctima, que el final
+   es una mentira piadosa de un sheriff y que el libro está a la vez en
+   las listas de prohibidos por racista y por antirracista.
+   -------------------------------------------------------------------------- */
+
+const MATAR_RUISENOR: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El juicio que todo el mundo recuerda no empieza hasta pasada la mitad del libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "Matar a un ruiseñor se cita siempre como la novela del abogado que defiende a un hombre negro acusado en falso en el sur de Estados Unidos. Quien la abre esperando eso se encuentra otra cosa: durante media novela no hay ningún juicio. Hay tres niños en un pueblo de Alabama en plena Depresión, un verano largo, una casa cerrada en la que dicen que vive un monstruo y una serie de juegos para hacer salir al que está dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa primera mitad no es el preámbulo: es la novela. Todo lo que ocurre después —la acusación, el tribunal, la sentencia— cae sobre unos niños que llevan doscientas páginas aprendiendo a mirar a sus vecinos, y por eso la historia se entiende como se entiende, desde abajo y sin manual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo cuenta Scout, una niña que empieza el libro con seis años y lo termina con nueve, aunque las palabras son las de la adulta que recuerda. Su padre, Atticus Finch, es un abogado viudo de cincuenta años que educa a sus hijos hablándoles como a personas mayores, y esa manera de hablarles es la que sostiene el resto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren qué enseña de verdad el libro, por qué el juicio se pierde antes de empezar, por qué la acusadora es también una víctima, qué significa el título, qué pasó cuando en 2015 apareció un borrador anterior con otro Atticus, y por qué esta novela está a la vez en las listas de libros prohibidos por racista y por antirracista.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No es una novela de juicios con una infancia de introducción: es una novela sobre aprender a mirar, y el juicio es el examen.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La lección del libro no es que el racismo esté mal: es que hay que meterse dentro del otro",
+      },
+      {
+        b: "texto",
+        texto:
+          "La frase que Atticus le repite a su hija no habla de justicia ni de igualdad, habla de método: nunca comprendes de verdad a una persona hasta que ves las cosas desde su punto de vista, hasta que te metes dentro de su piel y andas por ahí con ella. Es la instrucción que organiza toda la novela, y se practica capítulo a capítulo con gente cada vez más difícil de querer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Primero con un compañero de clase tan pobre que se echa jarabe en la comida y al que Scout ha humillado sin darse cuenta. Después con una vecina insoportable que la insulta a diario y que resulta estar muriéndose mientras se quita a la fuerza una adicción a la morfina. Después con el vecino encerrado del que se ríen todos los veranos. La novela va subiendo la dificultad del ejercicio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí aparece el problema del libro, que es también su interés: ese mismo método se aplica a los racistas del pueblo. Atticus explica a sus hijos que los que forman una turba siguen siendo personas, que un vecino que quiere linchar a alguien de noche puede ser un hombre correcto de día. Es una idea generosa y peligrosa a partes iguales, y la novela nunca la resuelve del todo. La escena de la turba la desmonta Scout sin querer: se planta delante de la cárcel y saluda por su nombre al padre de un compañero de clase, le pregunta por él, y el hombre acaba avergonzado y se lleva a los demás de allí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Comprender a todo el mundo es una virtud hasta que la persona a la que hay que comprender está montando un linchamiento.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El juicio se pierde con todas las pruebas a favor, y el libro no ofrece consuelo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tom Robinson, un jornalero negro de veinticinco años, es acusado de violar a Mayella Ewell, una chica blanca de diecinueve. Atticus acepta la defensa, y lo que hace en la sala es demostrar que los hechos no encajan: a Mayella la golpearon en el lado derecho de la cara, o sea con la mano izquierda, y Tom tiene el brazo izquierdo inutilizado desde niño por un accidente con una desmotadora de algodón. No puede haberlo hecho, y todos los presentes lo entienden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El jurado lo condena igual. Tardan unas horas, que en aquel pueblo y en aquellos años es ya una anomalía —normalmente habrían tardado minutos—, y esa es toda la victoria que hay. Después, Tom intenta escapar de la cárcel y los guardias le disparan diecisiete veces. La noticia dura poco en el periódico local: dos párrafos en las páginas de sucesos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí es donde la novela se separa de las películas de tribunales. No hay confesión de última hora, ni pruebas nuevas, ni un juez que rectifica. El abogado gana el argumento y pierde el caso, y el hombre inocente muere de todas formas. Un libro que llevaba doscientas páginas enseñando a un niño a confiar en la gente le enseña de golpe que un pueblo entero puede saber la verdad y votar en contra. Atticus lo sabía antes de empezar, y se lo había dicho a su hijo: estaban vencidos cien años antes de que se abriera el caso, y eso no era motivo para no intentarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Atticus gana el argumento y pierde el juicio, y su cliente muere igual: eso es lo que el libro se niega a arreglar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Mayella Ewell miente porque es lo único que puede hacer, y eso es lo más incómodo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El interrogatorio de Atticus a Mayella no busca destrozarla, y de hecho es la escena que más cuesta leer. Va sacando lo que hay detrás: una casa junto al vertedero, siete hermanos a su cargo, ninguna escuela, ningún amigo, un padre que bebe la ayuda del gobierno y que le pega. Cuando Atticus le pregunta si tiene algún amigo, la chica no entiende la pregunta y cree que se está burlando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurrió, según reconstruye la defensa, es que Mayella intentó besar a Tom, su padre lo vio y la golpeó, y la acusación fue la única salida que le quedaba a la familia. En aquel pueblo, una mujer blanca que desea a un hombre negro comete algo que no tiene nombre; acusarlo a él, en cambio, es un trámite que el pueblo entero está dispuesto a creer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí la novela dice algo que va más allá del racismo del sur y que sigue sirviendo. Los Ewell son lo más bajo de la escala blanca: nadie los invita, nadie los respeta, viven de la basura. Lo único que poseen es estar por encima de los negros, y ese privilegio, que no da de comer, es el que están dispuestos a defender destruyendo a un hombre. Bob Ewell sale del juicio humillado aunque haya ganado: escupe a Atticus en plena calle y espera meses, hasta una noche de octubre, para ir a por los niños.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El racismo también funciona como una propiedad: es lo único que le queda al que no tiene nada más.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El título explica el final, y el final es una mentira contada por el sheriff",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ruiseñor del título aparece en una frase de Atticus: se puede disparar a los arrendajos, pero es pecado matar a un ruiseñor, porque un ruiseñor no hace otra cosa que cantar para nosotros; no estropea los huertos ni anida en los graneros. Es el único pecado que el padre nombra como tal en todo el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay dos ruiseñores. Uno es Tom Robinson, condenado por haber ayudado a la persona que lo acusa. El otro es Arthur Radley, el vecino al que el pueblo llama Boo, encerrado en su casa desde hace quince años, del que los niños se han reído todo el verano y que en la última noche del libro sale por primera vez para salvarlos: el padre de Mayella los ataca en la oscuridad y Boo lo mata. Boo llevaba dos años dejándoles regalos en el hueco de un roble —chicles, monedas antiguas, dos muñecos de jabón con la cara de los niños—, hasta que su hermano tapó el agujero con cemento y dijo que el árbol estaba enfermo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y entonces la novela hace algo que casi nadie recuerda. El sheriff decide que no habrá investigación: dirá que Bob Ewell se cayó sobre su propio cuchillo, porque llevar a un hombre que no soporta que lo miren a un juicio con toda la comarca dentro sería, dice, un pecado. Atticus, el hombre que cree en los tribunales, acepta. Y Scout lo resume: sería como matar a un ruiseñor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro que defiende la ley termina con la ley apartada a un lado, y lo presenta como el acto más decente de la novela.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En 2015 apareció otro Atticus, y ya no se puede leer el libro sin saberlo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Harper Lee escribió primero otra novela. La entregó en 1957 y su editora, Tay Hohoff, le dijo que lo mejor eran los recuerdos de infancia y le pidió que la reescribiera desde el punto de vista de la niña. Aquello llevó dos años y se convirtió en Matar a un ruiseñor. El manuscrito original se guardó y Lee no volvió a publicar un libro en cincuenta y cinco años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En julio de 2015, con la autora de ochenta y nueve años y en una residencia, se publicó aquel manuscrito con el título Ve y pon un centinela. En él, Jean Louise —Scout ya adulta— vuelve al pueblo y descubre a su padre en una reunión del consejo de ciudadanos oponiéndose a la integración racial y repitiendo los argumentos de los segregacionistas. Hubo dudas públicas sobre si Lee había consentido la publicación; el estado de Alabama investigó y no encontró pruebas de coacción.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo justo es decir lo que es: un borrador anterior, no una continuación escrita después, y por tanto el Atticus de 1960 no queda anulado. Pero tampoco se puede desconocer. La misma autora había imaginado a ese hombre de las dos maneras, y la versión que el mundo convirtió en símbolo moral es la que un editor le pidió que reescribiera. Ve y pon un centinela vendió más de un millón de ejemplares en su primera semana y mucha gente dijo en voz alta que habría preferido no leerlo. Harper Lee murió siete meses después, en febrero de 2016.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El Atticus intachable es una segunda versión: en el primer manuscrito, el mismo personaje se sienta con los segregacionistas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Está en las listas de libros prohibidos por racista y por antirracista a la vez",
+      },
+      {
+        b: "texto",
+        texto:
+          "Desde su publicación en 1960 es uno de los libros más impugnados en las escuelas norteamericanas, y por motivos opuestos. En los años sesenta y setenta se pedía retirarlo por defender la igualdad racial y por hablar de una violación. Desde los años noventa se pide retirarlo por lo contrario: por el insulto racial que aparece decenas de veces en el texto y por el efecto que tiene sobre los alumnos negros de una clase leerlo en voz alta. En 2017, un distrito escolar de Misisipi lo retiró del temario porque el lenguaje del libro incomodaba a los alumnos, y la noticia dio la vuelta al mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La crítica de fondo es más interesante que la de las palabras. Los personajes negros de la novela apenas tienen vida interior: Tom es sobre todo un caso, Calpurnia se ve siempre desde fuera, y la comunidad negra del pueblo aparece esperando, agradeciendo y poniéndose de pie cuando pasa el abogado blanco. La historia del racismo del sur está contada desde la casa del abogado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una objeción política que resume bien el ensayista Malcolm Gladwell: Atticus no combate el sistema, lo administra con buenos modales. Pide comprensión para los racistas de su pueblo y confía en que el trato educado vaya limando las cosas con el tiempo, que es exactamente lo que el movimiento por los derechos civiles dejó de aceptar quince años después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro cuenta el racismo del sur desde el salón del abogado blanco, y ese punto de vista es a la vez su fuerza y su límite.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Matar a un ruiseñor cuenta tres años de la infancia de una niña en un pueblo de Alabama y, dentro de ellos, un juicio perdido de antemano. Su tesis está en el método más que en la moraleja: para entender a alguien hay que meterse en su piel, y el libro somete esa idea a la prueba más dura que existe, aplicarla a los que están haciendo daño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la voz. Contar el racismo, la pobreza y una condena injusta desde la cabeza de una niña de ocho años obliga al lector a entenderlo por su cuenta, sin discurso: cuando Scout no comprende algo, el que lo comprende es el que lee. Por eso lleva sesenta años en las aulas y por eso ha cambiado de opinión a mucha gente que nunca habría abierto un ensayo sobre segregación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nunca comprendes de verdad a una persona hasta que te metes en su piel y andas por ahí con ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Los personajes negros están vistos desde fuera y el heroísmo es todo del abogado blanco, un molde que en 1960 era un avance y que hoy se ha estudiado hasta el cansancio. La solución final, además, consiste en tapar un homicidio, y el libro no se detiene ni un párrafo a preguntarse por qué a Boo Radley se le ahorra el juicio que a Tom Robinson no se le ahorró.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay que leerlo sabiendo lo del borrador de 2015: no anula la novela, pero deja claro que el santo laico en el que se convirtió Atticus Finch fue en parte una decisión editorial. La novela sigue siendo excelente; el monumento, conviene mirarlo con más calma.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "matar-ruisenor": MATAR_RUISENOR,
   quijote: QUIJOTE,
   "mundo-ayer": MUNDO_AYER,
   "breve-historia-tiempo": BREVE_HISTORIA_TIEMPO,

@@ -74,7 +74,6 @@ const CARGADORES: Record<string, Cargador> = {
   metamorfosis: () => import("./literatura").then((m) => m.METAMORFOSIS),
   frankenstein: () => import("./literatura").then((m) => m.FRANKENSTEIN),
   "gran-gatsby": () => import("./literatura").then((m) => m.GRAN_GATSBY),
-  "matar-ruisenor": () => import("./literatura").then((m) => m.MATAR_RUISENOR),
   hobbit: () => import("./literatura").then((m) => m.HOBBIT),
 
   /* Filosofía */

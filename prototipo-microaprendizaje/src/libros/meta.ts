@@ -1401,22 +1401,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "matar-ruisenor",
-    titulo: "Matar a un ruiseñor",
-    autor: "Harper Lee",
-    ano: 1960,
-    gancho: "Publicó un solo libro, ganó el Pulitzer y no volvió a publicar nada durante cincuenta y cinco años.",
-    porQue: "Cuenta un juicio por violación en el sur racista de los años treinta desde los ojos de una niña de ocho años. Y por eso funciona.",
-    minutos: 25.1,
-    capitulos: [
-      { titulo: "Salida: un regalo de Navidad de 1956", minutos: 5.1 },
-      { titulo: "Primera parada: dos veranos antes del juicio", minutos: 5.1 },
-      { titulo: "Segunda parada: el brazo izquierdo de Tom Robinson", minutos: 4.9 },
-      { titulo: "Tercera parada: el pájaro que no es un ruiseñor", minutos: 5.1 },
-      { titulo: "Destino: el manuscrito que apareció en 2015", minutos: 5 },
-    ],
-  },
-  {
     id: "extranjero",
     titulo: "El extranjero",
     autor: "Albert Camus",
