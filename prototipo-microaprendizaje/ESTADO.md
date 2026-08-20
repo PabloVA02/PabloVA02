@@ -107,6 +107,17 @@ nada**, `git log --oneline -1` y comparar con
 Los ficheros sin seguimiento sobreviven, así que lo escrito en la sesión no se
 pierde; lo que se pierde es el tiempo de descubrirlo a la mitad.
 
+## CÓMO SE REDACTA UN RESUMEN: `REDACCION.md`
+
+Es el documento de estilo y manda sobre cualquier instrucción suelta, venga de
+donde venga. Sale de las capturas de Headway que pasa Pablo y de sus
+correcciones sobre nuestro texto. Antes de escribir o tocar un libro, se lee.
+El modelo terminado es `SAPIENS`, en `libros/paginas.ts`.
+
+Cuando lleguen capturas nuevas, lo que enseñen SE ESCRIBE AHÍ. Lo que se queda
+en la conversación se pierde con la ventana de contexto; lo que está en el
+repositorio, no.
+
 ## Lo que está cerrado y no se toca
 
 - `DISENO.md` — la pantalla de lectura. Ojo a la lista de **lo que NO se

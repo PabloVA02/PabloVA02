@@ -1,7 +1,13 @@
 import type { Card } from "../lesson";
 
 /* ==========================================================================
-   CÓMO SE ESCRIBE UN RESUMEN. Léase esto y nada más.
+   CÓMO SE ESCRIBE UN RESUMEN.
+
+   EL DOCUMENTO QUE MANDA ES `REDACCION.md`, en la raíz del proyecto: ahí está
+   la anatomía de cada página con ejemplos, lo que va en la ficha y la lista de
+   comprobación, y ahí es donde se añade lo que enseñen las capturas nuevas de
+   Headway. Lo de aquí abajo es el mismo criterio, resumido para quien esté
+   leyendo el tipo.
 
    Las normas anteriores están BORRADAS, por orden de Pablo y con razón. Decían
    que un resumen se escribe en cinco capítulos de mil palabras, que cada uno
