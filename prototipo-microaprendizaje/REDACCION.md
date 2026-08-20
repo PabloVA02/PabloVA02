@@ -66,9 +66,40 @@ Recursos que usa la referencia y que conviene usar, con medida:
 - **El dato curioso.** Una frase de «¿sabías que…?» con el término en negrita.
   Vale para descansar entre dos argumentos.
 
-Lo que NO se copia de la referencia: los signos de admiración, los «¡vamos por
-ello!» y el «en este resumen exploraremos» repetido. Se anuncia el recorrido
-una vez, en la entrada, y se sigue.
+**La cita con autor.** Un bloque aparte, con la frase entre comillas y el
+nombre debajo: en *El cerebro de Buda* hay dos, una del Dalái lama y otra de
+Marvin Minsky. No es del autor del libro: es de alguien a quien el libro cita.
+Una o dos por resumen, y solo si la frase dice algo que la prosa no dice mejor.
+
+### Lo que NO se copia de la referencia
+
+Esta lista crece con cada captura, porque Headway tiene tanto de modelo como de
+aviso. De las treinta capturas de *El cerebro de Buda*, del 21 de agosto, salen
+cuatro cosas más que no se hacen:
+
+- **Los signos de admiración**, los «¡vamos por ello!» y el «en este resumen
+  exploraremos» repetido. Se anuncia el recorrido una vez, en la entrada.
+- **«La investigación demuestra que…» sin decir qué investigación.** Aparece
+  tres veces en ese resumen y no sostiene nada: es la fórmula con la que se
+  afirma cualquier cosa. Si hay un estudio, se dice cuál y de qué año; si no se
+  sabe, se escribe la frase sin el respaldo falso.
+- **Los imperativos vagos de crecimiento personal.** «Nunca debes limitarte a
+  una sola cultura, explora distintos lugares, intenta descubrir tu identidad.»
+  Eso no es el libro: es relleno con forma de consejo. Rompe la regla 1 —al
+  terminar la página no se sabe nada nuevo del mundo— y la 4.
+- **El titular que da órdenes o que son dos frases.** «El cambio es inevitable.
+  Para sobrevivir debes estar preparado y desarrollar estrategias para
+  afrontarlo» son dos frases y la segunda manda. Un titular es UNA afirmación
+  discutible sobre el libro; ver el apartado 3.
+- **La caja del rayo convertida en obviedad.** «La realización personal se
+  consigue con tiempo, esfuerzo y habilidad» no la discute nadie, así que no
+  dice nada. La caja tiene que poder repetirse en una cena y que alguien
+  levante la cabeza.
+
+Y una diferencia de fondo, que es la que más nos separa: **su conclusión no
+dice nunca dónde falla el libro.** La de *El cerebro de Buda* resume, añade un
+par de ideas nuevas y termina con deberes. La nuestra lleva la regla 5, y por
+eso el resumen se puede creer.
 
 ## 2 ter. Cuánto dura un resumen
 
@@ -232,6 +263,11 @@ discutirse: si nadie puede estar en desacuerdo, es una etiqueta.
 | La agricultura fue el mayor fraude de la historia | La revolución agrícola |
 | Ganamos porque somos capaces de creernos cosas que no existen | El lenguaje |
 | Somos mucho más poderosos y no está claro que seamos más felices | La felicidad |
+| El cerebro guarda lo malo con velcro y lo bueno con teflón | El sesgo de negatividad |
+
+**Y es UNA frase, en presente y sin mandar.** Dos frases seguidas no son un
+titular, son un párrafo corto; y en cuanto aparece un «debes», ha dejado de
+afirmar para dar instrucciones, que es cosa de la caja del rayo o de nadie.
 
 ## 4. Las siete reglas de la prosa
 
