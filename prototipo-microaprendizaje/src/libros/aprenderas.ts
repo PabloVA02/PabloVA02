@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  odisea:
+    "Un hombre tarda diez años en volver de la guerra a una isla pedregosa donde lo esperan su mujer y un hijo al que no conoce. Por el camino le ofrecen la inmortalidad y dice que no.",
+
   "cerebro-buda":
     "Tu cerebro registra lo malo mucho mejor que lo bueno, y casi todo el sufrimiento lo fabricas después del golpe. El libro traduce prácticas budistas en ejercicios cortos con una explicación fisiológica.",
 

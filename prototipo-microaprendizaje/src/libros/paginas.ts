@@ -14013,7 +14013,240 @@ const CEREBRO_BUDA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La Odisea, en ocho páginas.
+
+   Breve, y escrito con el REGISTRO NARRATIVO del apartado 3 bis: titulares
+   cortos de imagen y la afirmación en la primera frase de cada página. La
+   caja del rayo habla al lector en segunda persona, que es lo que hace la
+   captura de Headway del 21 de agosto y es lo mejor que tiene.
+
+   De esa captura salen también los cinco recursos que se usan aquí: la
+   etimología (epos, xenía, el juego de mē tis), el dato asombroso y
+   comprobable, la frase corta de remate, el contexto histórico como
+   argumento y la aclaración entre paréntesis sin condescendencia.
+
+   Lo que NO se copia de ella: su última página, «Ahora te toca a ti», que
+   son deberes y Pablo los quitó; y su falta de un «dónde falla», que aquí
+   sí está —la matanza final, las esclavas ahorcadas, y que el poema no lo
+   juzga—.
+   -------------------------------------------------------------------------- */
+
+const ODISEA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "La historia que no dejó de contarse" },
+      {
+        b: "texto",
+        texto:
+          "Hace unos veintiocho siglos, alguien recitó de memoria un poema de doce mil versos sobre un hombre que solo quería volver a casa. No lo escribió: lo cantó, acompañándose con un instrumento, delante de gente que tampoco sabía leer. Y esa historia no ha dejado de contarse desde entonces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La Odisea son veinticuatro libros y diez años de viaje. Odiseo vuelve de la guerra de Troya y tarda una década en llegar a Ítaca, una isla pequeña y pedregosa donde lo esperan una mujer y un hijo al que dejó recién nacido. Por el camino hay un gigante de un solo ojo, una hechicera que convierte a los hombres en cerdos, un descenso al reino de los muertos y un naufragio que mata a toda su tripulación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pero la aventura es casi lo de menos. Debajo hay una pregunta que no ha envejecido: qué cuesta seguir siendo fiel a una vida concreta, con su casa fea y su gente mortal, cuando te ofrecen otra mejor. A Odiseo le ofrecen la inmortalidad y dice que no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren el poema por dentro: el mundo oral en el que se compuso, por qué los monstruos están donde están, cómo empieza en realidad —que no es por donde todo el mundo cree—, el chiste que solo se entiende en griego, la escena que decide todo el final y lo que el poema hace con la venganza.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El viaje que recuerdas no es la parte importante: la parte importante es qué estás dispuesto a rechazar para volver a lo tuyo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El mundo antes de la escritura" },
+      {
+        b: "texto",
+        texto:
+          "El poema se compuso justo cuando el griego estaba aprendiendo a escribirse. La mayoría de los estudiosos lo sitúan entre los años 800 y 700 antes de Cristo, y por esas fechas los griegos acababan de tomar prestado el alfabeto de los comerciantes fenicios, los del actual Líbano. Una cultura que llevaba siglos guardándolo todo en la memoria estaba estrenando la herramienta para dejarlo por escrito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Antes de eso, historias como esta solo existían cantadas. Los poetas iban de casa en casa y las recomponían cada noche con piezas prefabricadas: fórmulas que encajaban en el verso y se podían soltar sin pensar. Por eso la aurora tiene siempre dedos de rosa y el mar es siempre vinoso: no son adornos, son andamios de memoria. Un cantor que se quedaba en blanco tenía una despensa de versos para seguir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la Cuestión Homérica, que sigue sin resolverse: si Homero existió, si fue uno o varios, si su nombre es solo la etiqueta que los griegos le pusieron a toda una tradición oral. Hay un detalle que apunta al mundo del que viene el poema y que casi nadie nota: <em>ningún personaje de la Odisea lee ni escribe una sola vez</em>. El héroe talla madera, tensa arcos y miente con una habilidad de orfebre. Uno de los textos fundacionales de la literatura occidental está poblado por gente analfabeta. Por cierto: la palabra épico viene del griego <em>epos</em>, que significa simplemente palabra, historia o canción. Cada vez que alguien llama épico a un partido está tomando prestado el vocabulario de un poeta que cantaba junto al fuego.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las historias que duran no duran porque estén escritas: duran porque alguien decidió recordarlas y contarlas otra vez.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un mapa donde viven los monstruos" },
+      {
+        b: "texto",
+        texto:
+          "El mundo del poema es real y deja de serlo a la vez, y el corte está en un sitio concreto. Ítaca, Pilos y Esparta existen: el público de Homero podía señalarlas. En cuanto Odiseo se aleja de esas costas conocidas, el Mediterráneo se llena de caníbales, gigantes tuertos y brujas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso no es fantasía porque sí. El poema se compone en plena expansión griega, cuando marineros y colonos salían a fundar ciudades en Sicilia, en Libia y en el sur de Italia, y aquellos territorios eran genuinamente extraños y peligrosos. Los monstruos están exactamente donde estaba el mapa por hacer. Cada uno responde a la misma pregunta —qué hay más allá del límite de lo civilizado— con una respuesta distinta: lo que devora, lo que hechiza, lo que no se puede entender.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un desfase que el poema no disimula. Cuenta un mundo de palacios micénicos que, cuando se está cantando, llevaba cuatro siglos en ruinas. Los oyentes sabían que aquello ya no existía. Homero mezcla el puerto real con la tierra de los muertos porque para una cultura oral la memoria y el mito son el mismo material: lo que se recuerda es lo que hubo. El resultado es un mapa donde el puerto de al lado lleva a la tierra de los muertos y una madre le prepara pan y queso a un hijo que va a navegar más allá del borde del mundo conocido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que te da miedo dibuja el borde de tu mapa, y ese borde dice más de ti que el centro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La casa que se estaba comiendo" },
+      {
+        b: "texto",
+        texto:
+          "El poema no empieza con Odiseo. Empieza con su hijo, y eso cambia de qué va el libro. Los cuatro primeros cantos no tienen ni una aventura: transcurren en Ítaca, donde ciento ocho jóvenes nobles se han instalado en el palacio, se comen el ganado, se beben el vino y presionan a Penélope para que declare muerto a su marido y elija a uno de ellos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Telémaco tiene veinte años, ha crecido sin padre y heredado el desorden que dejó. No sabe cómo echarlos, y el poema es muy claro sobre el motivo: no es cobarde, es que nadie le ha enseñado a ser un hombre en una casa sin hombres. Entonces aparece Atenea disfrazada de un viejo amigo de la familia y le dice que deje de comportarse como un niño y se gane un nombre que dure. El chico coge un barco y se va a preguntar por su padre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mientras tanto, Penélope aguanta con la única herramienta que tiene, que es el tiempo. Anuncia que elegirá marido cuando termine de tejer el sudario de su suegro, y cada noche deshace lo que ha tejido durante el día. Tres años. La descubren porque una criada la delata. Cuatro cantos enteros antes de que aparezca el protagonista. Es una decisión de contador de historias: cuando por fin llega, ya sabemos exactamente lo que se está perdiendo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando no puedes ganar, ganar tiempo es una forma de resistencia, y casi nadie la reconoce como tal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El chiste que solo funciona en griego" },
+      {
+        b: "texto",
+        texto:
+          "La aventura más famosa es también la mejor construida. Encerrado en la cueva del cíclope Polifemo, que ya se ha comido a varios de sus hombres, Odiseo hace tres cosas en orden: lo emborracha, le dice que se llama Nadie y le clava una estaca ardiendo en el ojo. Cuando el gigante grita pidiendo ayuda y los vecinos preguntan quién lo está matando, él contesta que Nadie, y los vecinos se van tranquilos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hasta ahí, el chiste que todo el mundo conoce. Lo que casi nadie sabe es que hay un segundo chiste debajo, y es mejor. En griego antiguo, la palabra para nadie cambia de forma según la construcción de la frase, y en una de esas formas —<em>mē tis</em>— suena exactamente igual que <em>mētis</em>, que significa astucia: la cualidad que define a Odiseo en todo el poema y el nombre con el que lo presentan desde el primer verso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "O sea que, al esconderse detrás de un nombre falso, se está llamando a sí mismo por su virtud, y solo alguien que hable griego puede oírlo. Es también la escena que lo condena: al alejarse en el barco, no aguanta las ganas de gritar su nombre verdadero, y el ciego se lo pasa a su padre Poseidón. Diez años de mar salen de ese momento de vanidad. Y hay un detalle de artesano en el plan: Odiseo no ata a sus hombres debajo de las ovejas por capricho, sino porque el ciego palpa los lomos al sacarlas a pastar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El talento que te salva y el defecto que te hunde suelen ser el mismo rasgo, mirado en dos momentos distintos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La isla donde no pasa nada" },
+      {
+        b: "texto",
+        texto:
+          "Cuando el poema lo encuentra, Odiseo lleva siete años en la isla de Calipso, una diosa que lo retiene y que le ofrece algo difícil de rechazar: la inmortalidad y la juventud eterna. La isla es hermosa, ella es hermosa, y en esa vida no hay enfermedad, ni vejez, ni pérdidas. Odiseo se pasa los días sentado en la orilla, llorando, mirando al horizonte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su decisión de marcharse es el momento más radical del libro, y conviene verlo con lo que hay en cada lado de la balanza. Le ofrecen no morir nunca. Él elige a una mujer que envejecerá, una isla pedregosa donde no hay pastos para caballos y una vida que se va a acabar. El poema no lo presenta como un sacrificio, sino como una identidad: sabe quién es, y eso vale más que la eternidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es también la escena que explica el resto de las aventuras. Todo lo que le pasa por el camino es una versión de la misma tentación: los lotófagos ofrecen olvidar, las sirenas ofrecen saberlo todo, Circe ofrece quedarse. Cada monstruo del viaje le propone dejar de ser el que era. La comparación que usa Homero para su llegada a la costa no tiene nada de heroica: la piel se le desgarra de las manos al agarrarse a una roca como las piedrecitas que se quedan pegadas a las ventosas de un pulpo cuando lo arrancan de su guarida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una vida sin pérdidas, sin límites y sin nadie concreto a quien volver no es libertad: es una isla muy bonita donde no pasa nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El mendigo en su propia puerta" },
+      {
+        b: "texto",
+        texto:
+          "La segunda mitad del poema no ocurre en el mar: ocurre en Ítaca, y es mejor que la primera. Odiseo llega disfrazado de mendigo y se queda así durante seis cantos, viendo cómo se comportan con él los que creen que no es nadie. Es una prueba montada con una idea muy griega, la <em>xenía</em>: la obligación sagrada de dar de comer y techo al extraño antes incluso de preguntarle el nombre, porque cualquiera puede ser un dios disfrazado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los pretendientes la incumplen entera: se ríen del mendigo, le tiran un taburete, le niegan la comida de su propia despensa. El porquero Eumeo, que no tiene nada, lo mete en su choza, mata un cerdo y le da su manta. Ese contraste es el argumento moral del libro, y funciona porque no lo dice nadie en voz alta: se ve en quién parte el pan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay dos escenas pequeñas que rematan la vuelta. Su vieja nodriza lo reconoce lavándole los pies, por una cicatriz que le hizo un jabalí de joven, y él tiene que taparle la boca. Y el perro Argos, que lleva veinte años esperando tumbado en un montón de estiércol, levanta la cabeza, mueve la cola y se muere ahí mismo. Es el único que lo reconoce a la primera. Y su hijo, que ha esperado veinte años, lo reconoce y en cuatro días está peleando a su lado en el salón.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cómo trata alguien a quien no puede devolverle nada dice de él más que cualquier cosa que te cuente sobre sí mismo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La Odisea cuenta el regreso de un hombre a una vida pequeña que ha elegido a conciencia, y lo cuenta con un mecanismo que después ha usado toda la literatura: un viaje por lo desconocido, una casa ocupada mientras tanto y un reconocimiento final. Su tesis no está en las aventuras sino en las renuncias: Odiseo rechaza la inmortalidad, aguanta veinte años y gana al final por paciencia, no por fuerza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba definitiva no es la matanza, y ahí está la mejor escena del poema. Cuando ya ha matado a los pretendientes, Penélope todavía no se fía, así que le tiende una trampa: ordena delante de él que saquen la cama de su alcoba. Odiseo estalla, porque esa cama no se puede mover: la construyó él tallando el tronco de un olivo vivo que dejó plantado dentro de la casa. Solo ellos dos lo sabían. Ella lo reconoce por un secreto de carpintería.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se reconocen por una cama que no se puede mover, y esa es la definición de un hogar que da el poema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y no es pequeño. El final es una carnicería: Odiseo mata a los ciento ocho pretendientes y después manda ahorcar a doce esclavas de la casa por haberse acostado con ellos, en una escena descrita con detalle y sin una sola palabra de juicio. Eran esclavas; en aquella casa no tenían ninguna posibilidad de negarse. El poema las cuenta entre los objetos que hay que limpiar, y ese silencio es lo que más ha hecho hablar a los lectores modernos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo que ha pasado después y que forma parte de cómo se lee hoy. Durante veintiocho siglos lo tradujeron hombres; en 2017, la primera traducción al inglés hecha por una mujer, Emily Wilson, tomó decisiones muy discutidas —empezando por llamar esclavas a las esclavas, donde otros habían escrito criadas o muchachas— y encendió una discusión que sigue abierta. Conviene además elegir traducción: en verso suena a lo que es, un poema cantado; en prosa se lee como una novela de aventuras y se pierde el motor.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  odisea: ODISEA,
   "cerebro-buda": CEREBRO_BUDA,
   "gen-egoista": GEN_EGOISTA,
   "rebelion-granja": REBELION_GRANJA,

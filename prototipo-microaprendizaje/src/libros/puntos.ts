@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  odisea: [
+    "por qué el poema empieza por su hijo y no por él",
+    "dónde están los monstruos en el mapa de verdad",
+    "el segundo chiste del cíclope, que solo se oye en griego",
+    "qué le ofrece Calipso y por qué lo rechaza",
+    "cómo lo reconoce Penélope al final",
+  ],
+
   "cerebro-buda": [
     "por qué lo malo se te queda y lo bueno resbala",
     "cuál es el dardo que te lanzas tú",

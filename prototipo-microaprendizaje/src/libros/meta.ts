@@ -1320,23 +1320,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "odisea",
-    titulo: "La Odisea",
-    autor: "Homero",
-    ano: -750,
-    gancho: "Tardó diez años en volver a casa desde una guerra que había durado otros diez. Casi tres mil años después seguimos contando su viaje.",
-    porQue: "Es el primer relato de aventuras de Occidente y sigue siendo el mejor. Y su héroe no gana por fuerte: gana por astuto, mentiroso y paciente.",
-    minutos: 27.8,
-    capitulos: [
-      { titulo: "El que no volvía", minutos: 4.9 },
-      { titulo: "El cíclope", minutos: 4.8 },
-      { titulo: "Las sirenas y el remolino", minutos: 4.8 },
-      { titulo: "El mendigo", minutos: 4.5 },
-      { titulo: "El arco y el olivo", minutos: 5 },
-      { titulo: "Quién escribió esto", minutos: 3.9 },
-    ],
-  },
-  {
     id: "crimen-castigo",
     titulo: "Crimen y castigo",
     autor: "Fiódor Dostoievski",

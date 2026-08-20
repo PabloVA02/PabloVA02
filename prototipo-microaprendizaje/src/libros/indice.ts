@@ -91,7 +91,6 @@ const CARGADORES: Record<string, Cargador> = {
   "homo-deus": () => import("./historia").then((m) => m.HOMO_DEUS),
   dracula: () => import("./literatura").then((m) => m.DRACULA),
   "viejo-mar": () => import("./literatura").then((m) => m.VIEJO_MAR),
-  odisea: () => import("./literatura").then((m) => m.ODISEA),
   "nombre-rosa": () => import("./literatura").then((m) => m.NOMBRE_ROSA),
   "cartas-joven-poeta": () => import("./arte").then((m) => m.CARTAS_JOVEN_POETA),
   "historia-arte": () => import("./arte").then((m) => m.HISTORIA_ARTE),
