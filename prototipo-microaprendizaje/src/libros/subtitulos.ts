@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "sutil-arte": "Un enfoque disruptivo para vivir una buena vida",
   "pensar-rapido": "Cómo tomamos decisiones y por qué nos equivocamos",
   "inteligencia-emocional": "Por qué puede importar más que el cociente intelectual",
   "mente-millonaria": "Domina el juego interior de la riqueza",

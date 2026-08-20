@@ -4469,7 +4469,806 @@ const PENSAR_RAPIDO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Ikigai, en ocho páginas.
+
+   Escrito por dos españoles, cosa que casi nadie sabe y que conviene decir
+   porque explica el libro: es un reportaje de viaje con estructura de
+   manual. El material bueno es Ogimi —las entrevistas, los moais, el hara
+   hachi bu— y lo flojo es el diagrama de los cuatro círculos, que ni
+   siquiera es japonés.
+
+   La conclusión tiene que decir eso último y lo de las zonas azules, que
+   se ha discutido bastante desde 2016.
+   -------------------------------------------------------------------------- */
+
+const IKIGAI: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "En un pueblo de Okinawa no existe la palabra jubilación" },
+      {
+        b: "texto",
+        texto:
+          "Ogimi tiene unos tres mil habitantes en el norte de Okinawa y una de las mayores proporciones de centenarios del mundo. Héctor García y Francesc Miralles fueron allí a entrevistar a los más viejos del pueblo, y lo primero que descubrieron es que en japonés no hay una palabra que signifique retirarse en el sentido de dejar de hacer cosas. La gente sigue con su huerto, sus reuniones y su trabajo a los noventa y ocho años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palabra que sí existe es ikigai, que se puede traducir como la razón por la que te levantas por la mañana. No es una vocación grandiosa: los ancianos de Ogimi la nombraban como cuidar el huerto, ver a los amigos del grupo, hacer artesanía, atender a los bisnietos. Cosas pequeñas y diarias.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En Ogimi nadie se retira, porque tener algo que hacer mañana forma parte de estar vivo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro se publicó en 2016 y ha vendido millones de ejemplares en decenas de idiomas, aunque casi nadie sepa que lo escribieron dos españoles: uno vive en Tokio desde hace años y el otro es escritor y periodista. Lo que hicieron fue mezclar un reportaje de campo con lo que se sabía entonces sobre longevidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: qué es ikigai y qué no es, qué come y cómo vive esa gente, qué hacen con el tiempo y con la compañía, y qué dice la investigación sobre tener un propósito. La conclusión dice también dónde falla, que aquí hay dos cosas que aclarar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El ikigai no se busca en un diagrama: se encuentra en lo que ya haces",
+      },
+      {
+        b: "texto",
+        texto:
+          "El dibujo de los cuatro círculos que todo el mundo ha visto —lo que amas, lo que se te da bien, lo que el mundo necesita, por lo que te pagan— aparece pronto en el libro y ha acabado siendo lo más conocido de él. Conviene saber desde el principio que ese diagrama no es japonés: lo dibujó un consultor español, Andrés Zuzunaga, para hablar de propósito profesional, y alguien le puso encima la palabra ikigai años después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que los autores encuentran en Okinawa es bastante distinto y más modesto. Nadie de los que entrevistan describe su ikigai como la intersección de nada. Lo describen como una actividad concreta que da estructura al día y a la que se le tiene cariño, casi siempre sin remuneración y casi siempre relacionada con alguien más.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No es una vocación que se descubre: es lo que te hace levantarte, y suele estar ya en lo que haces cada día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale una recomendación práctica que no exige cambiar de vida: mirar qué actividades hacen que se te pase el tiempo sin enterarte, en qué momentos del día tienes ganas de algo, y proteger eso en la agenda en vez de esperar a tener tiempo libre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los autores conectan esto con la terapia de Viktor Frankl, que sostenía que quien tiene un para qué soporta casi cualquier cómo, y con el concepto de flujo de Mihály Csíkszentmihályi: ese estado en que la dificultad de lo que haces está justo por encima de tu nivel y desaparece la conciencia del tiempo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En Okinawa se deja de comer cuando se está al ochenta por ciento" },
+      {
+        b: "texto",
+        texto:
+          "La costumbre alimentaria que más se cita del libro es el hara hachi bu, una fórmula que en Okinawa se dice antes de comer y que significa comer hasta estar lleno al ochenta por ciento. En la práctica se traduce en levantarse de la mesa con algo de hambre todavía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tiene sentido fisiológico: la señal de saciedad tarda unos veinte minutos en llegar, así que quien come hasta notarse lleno ha comido de más sin saberlo. El resultado medido en la zona es un consumo diario bastante inferior al de otros países desarrollados.",
+      },
+      { b: "texto", texto: "El resto de la dieta que describen es sencillo y poco exótico:" },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Variedad", texto: "muchos alimentos distintos en cantidades pequeñas, no un plato grande." },
+          { fuerte: "Verdura y soja", texto: "boniato morado, tofu, algas y miso todos los días." },
+          { fuerte: "Poca carne", texto: "pescado varias veces por semana, carne roja de manera ocasional." },
+          { fuerte: "Té y agua", texto: "sobre todo té verde y té de jazmín, a lo largo del día." },
+          { fuerte: "Azúcar", texto: "una fracción del que se consume en el resto del mundo rico." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "No es una dieta de privación: es dejar de comer un poco antes de lo que pide el cuerpo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los autores lo enmarcan en lo que se sabe sobre restricción calórica moderada, que en varias especies alarga la vida y en humanos mejora marcadores metabólicos. Es una de las partes del libro con más respaldo, y también una en la que conviene no confundir una costumbre cultural con una receta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nadie envejece bien solo: en Okinawa te asignan un grupo al nacer" },
+      {
+        b: "texto",
+        texto:
+          "El moai es una institución de Okinawa que a los autores les llama la atención más que la comida. Es un grupo de vecinos que se forma en la infancia y que dura toda la vida: se reúnen periódicamente, ponen una cuota común y esa caja sirve para lo que haga falta —una boda, una enfermedad, un mal año de alguien—.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ofrece no es solo dinero. Es la certeza de que hay un grupo de personas que van a estar ahí dentro de cuarenta años, y que si un día no apareces, alguien va a preguntar. Los ancianos que entrevistan mencionan el moai constantemente cuando se les pregunta qué hace que su vida merezca la pena.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La soledad hace por la salud lo que hace el tabaco, y ese es el factor que más veces aparece en los estudios de longevidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Junto a eso, el movimiento constante. En Ogimi casi nadie hace deporte en el sentido de ir a un gimnasio, y casi todo el mundo se mueve todo el rato: el huerto, andar al mercado, sentarse y levantarse del suelo veinte veces al día, cuidar de alguien. Los autores describen prácticas suaves —el taichí, el yoga, un ejercicio matinal en grupo que se hace con la radio— que tienen en común ser diarias y ligeras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el sueño y el descanso, que tratan con menos detalle del que merecen: siestas cortas, horarios estables y una relación con la prisa notablemente distinta a la occidental.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El estrés que mata no es el del trabajo, es el que no se apaga nunca",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos se ocupa del estrés, y hace una distinción que sostiene bien: el organismo está preparado para picos de tensión y no lo está para una tensión de fondo permanente. Lo primero es útil y hasta necesario; lo segundo desgasta el sistema inmunitario, sube la inflamación y acelera el envejecimiento celular.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los autores hablan de la telomerasa y de los telómeros —los extremos de los cromosomas, que se acortan con los años y más deprisa bajo estrés crónico— y de cómo ese acortamiento se ha usado como medida de envejecimiento biológico. Es la parte más científica del libro y la que menos desarrollan.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El cuerpo aguanta bien las urgencias. Lo que no aguanta es no volver nunca a la calma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus recomendaciones contra eso son las esperables y no por eso peores: dormir suficiente, moverse a diario, tener con quién hablar, y una práctica de atención que puede ser meditación o puede ser cualquier actividad que exija concentración sostenida sin urgencia. Mencionan la ceremonia del té y la caligrafía como ejemplos culturales del mismo mecanismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También dedican espacio a lo que llaman resiliencia y al wabi-sabi, la estética japonesa que encuentra belleza en lo imperfecto y lo que envejece, y al ichi-go ichi-e, la idea de que cada encuentro ocurre una sola vez. Son conceptos bonitos, contados con brevedad, y funcionan mejor como marco que como técnica.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Tener un propósito aparece en los estudios de mortalidad" },
+      {
+        b: "texto",
+        texto:
+          "La afirmación central del libro —que tener un motivo para levantarse alarga la vida— no es solo folclore de Okinawa, y esa es la parte que conviene retener. Hay estudios de seguimiento con miles de participantes en los que puntuar alto en propósito vital se asocia a menor mortalidad en los años siguientes, controlando por edad, salud y hábitos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En Japón se estudió específicamente la palabra: un seguimiento de varios años a decenas de miles de adultos encontró que quienes decían tener ikigai morían menos durante el periodo del estudio, sobre todo por causas cardiovasculares. Los autores citan esa línea de trabajo, aunque sin mucho detalle.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que la vida tenga un para qué no es una idea bonita: aparece en las tablas, con años de diferencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que no está claro es la dirección. Quien está sano, tiene amigos y no le falta dinero encuentra más fácilmente un motivo para levantarse que quien está enfermo y solo, así que parte de la asociación puede ir al revés de como se cuenta. Es la objeción habitual a estos estudios y el libro no la menciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aun así, la parte accionable resiste: mantener actividad, compañía y algo que hacer mañana no depende de creer nada, y es lo que hacen los ancianos que entrevistan. La lista de reglas con que se cierra el libro —no jubilarse, ir despacio, rodearse de buenos amigos, sonreír, volver a la naturaleza, dar las gracias y seguir el propio ikigai— es exactamente eso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El libro vale más como reportaje que como manual" },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir qué clase de libro es, porque se compra creyendo que es otro. No es un método: no hay ejercicios, ni programa, ni pasos. Es un reportaje de viaje con capítulos temáticos, y lo mejor que tiene son las páginas en las que aparecen personas concretas de Ogimi contando cómo pasan el día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte que se ha hecho más famosa es también la más floja. El diagrama de los cuatro círculos ocupa unas pocas páginas y no vuelve a usarse, y sin embargo es lo que ha circulado por todas partes, convertido en un ejercicio para encontrar la profesión ideal que el libro nunca propuso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La palabra que se ha vendido como una fórmula para elegir carrera significa, en su idioma, algo bastante más pequeño y más diario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una lectura que los autores no hacen y que asoma entre líneas: buena parte de lo que hace que Ogimi funcione no son decisiones individuales, sino una estructura —el moai asignado, la huerta comunitaria, una cultura que no aparta al viejo— que no se puede montar leyendo un libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí se puede aprovechar, y no es poco: comer un poco menos de lo que pide el cuerpo, moverse todos los días sin llamarlo deporte, cuidar tres o cuatro relaciones como si fueran una inversión, y tener algo que hacer mañana que no sea trabajar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la longevidad de Okinawa no viene de una cosa sino de un conjunto: comida ligera y variada, movimiento constante y suave, un grupo de pertenencia que dura toda la vida, poca prisa y —sobre todo— la ausencia de la idea de retirarse. La palabra ikigai nombra lo último: tener un motivo diario para levantarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta son las entrevistas. Que un anciano de noventa y ocho años explique que su ikigai es su huerto y las reuniones de su moai vale más que cualquier esquema, y los momentos en que el libro se limita a escuchar son los que lo han hecho durar. La asociación entre propósito y mortalidad, además, está documentada en estudios grandes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En japonés no hay palabra para jubilarse en el sentido de dejar de hacer cosas. Puede que ahí esté media explicación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El diagrama de los cuatro círculos, que es lo más famoso del libro, no viene de Japón: lo dibujó un consultor español para hablar de propósito profesional y se le acopló la palabra después. En japonés, ikigai no tiene nada que ver con encontrar un trabajo que reúna cuatro condiciones, y ese malentendido es hoy la definición que circula por el mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la base demográfica se ha discutido mucho desde 2016. Investigaciones posteriores sobre las llamadas zonas azules apuntan a que una parte de los supercentenarios registrados se explica por partidas de nacimiento antiguas, mal archivadas o mantenidas para cobrar pensiones, y Okinawa aparece en esas revisiones. Lo que se recomienda —comer menos, moverse, no estar solo— sigue siendo bueno; la cifra de centenarios que lo justifica es menos firme de lo que el libro da por hecho.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   Los cuatro acuerdos, en ocho páginas.
+
+   El libro es cortísimo —cuatro reglas— así que el resumen tiene que dar
+   contexto o se queda en una lista de cuatro puntos. Se cuenta primero de
+   dónde vienen: la idea de que uno vive dentro de un acuerdo heredado, que
+   es lo que sostiene los cuatro.
+
+   Es un libro de espiritualidad tolteca escrito por un cirujano mexicano, y
+   la conclusión tiene que decir dos cosas: que la etnografía es muy
+   discutible y que el cuarto acuerdo se puede leer como una coartada.
+
+   Segunda persona, porque es un libro práctico.
+   -------------------------------------------------------------------------- */
+
+const CUATRO_ACUERDOS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nadie te preguntó si estabas de acuerdo con las reglas que sigues" },
+      {
+        b: "texto",
+        texto:
+          "Miguel Ruiz era cirujano en México hasta que un accidente de coche le hizo dejar la medicina y volver a lo que su familia enseñaba desde generaciones. En 1997 publicó un libro de ciento cuarenta páginas que ha vendido más de diez millones de ejemplares, y que empieza con una idea que no es suya sino de cualquier antropología: aprendiste a vivir sin haber elegido nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De pequeño te enseñaron el idioma, lo que está bien y lo que está mal, qué es bonito, qué es una vida lograda y qué es un fracaso. No hubo un momento en el que te preguntaran si estabas conforme. Fuiste aceptando cada regla, y al aceptarlas se convirtieron en las tuyas. A eso Ruiz lo llama la domesticación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Firmaste miles de acuerdos sobre cómo hay que vivir antes de tener edad para leer ninguno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que le interesa no es que existan reglas, sino cuál es el precio de las que uno se cree. Sostiene que la mayoría lleva dentro un juez que la castiga por cada regla incumplida y una víctima que acepta el castigo, y que ese circuito funciona todo el día sin que nadie lo haya encendido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su propuesta es sustituir esa maraña por cuatro acuerdos elegidos a conciencia. El recorrido de este resumen es ese: los cuatro, uno por uno, con lo que cada uno cambia de verdad; después qué hace falta para sostenerlos y por qué el libro insiste tanto en no rendirse. La conclusión dice también dónde falla, que aquí hay una parte incómoda.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que dices no describe el mundo: lo construye" },
+      {
+        b: "texto",
+        texto:
+          "El primer acuerdo es sé impecable con tus palabras, y no significa no mentir. Ruiz parte de que la palabra es lo único con lo que se crea cualquier cosa —una relación, una reputación, la idea que un niño tiene de sí mismo— y de que casi todo el daño que la gente se hace se hace hablando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo es una madre que llega a casa cansada y le dice a su hija, que canta, que se calle porque tiene una voz horrible. La frase dura tres segundos. La niña deja de cantar durante veinte años, convencida de que molesta a los demás. Ruiz llama a eso magia negra, con un vocabulario que se puede aceptar o no; el mecanismo que describe es reconocible sin ninguna magia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una frase dicha en tres segundos puede quedarse funcionando dentro de otra persona durante veinte años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade la parte que casi nadie aplica: lo mismo vale para lo que uno se dice a sí mismo. Quien se llama inútil cada vez que se equivoca está haciendo con su propia cabeza lo que aquella madre hizo con su hija, con la diferencia de que lo repite a diario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También mete aquí el chismorreo, que compara con un virus: contar de alguien una versión que lo empeora se propaga sin coste y modifica cómo lo tratan diez personas que no estaban delante. Su instrucción práctica es sencilla: no hablar en contra de nadie, empezando por uno mismo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que otro dice de ti habla de él, no de ti" },
+      {
+        b: "texto",
+        texto:
+          "El segundo acuerdo —no te tomes nada personalmente— es el que Ruiz considera más liberador, y su argumento es que cada persona vive dentro de su propia película. Cuando alguien te insulta, está expresando lo que le pasa a él con sus reglas, su día y sus heridas. El que estuvieras tú delante es casi accidental.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo dice también para lo agradable, que es lo que casi nadie recuerda del acuerdo: los elogios tampoco son sobre ti. Si aceptas que la opinión buena del otro te define, has aceptado que la mala también, y entonces vives al ritmo del humor ajeno.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nada de lo que los demás hacen es por ti. Lo hacen por ellos, y tú estabas ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ruiz sostiene que tomárselo personalmente viene de una idea exagerada de la propia importancia: creer que el mundo gira alrededor de uno. Y que el remedio no es la indiferencia sino saber lo que uno es y lo que no, para que no haga falta que un tercero lo confirme cada mañana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La aplicación práctica es notable en el trabajo y en las discusiones de pareja. Una crítica que no se toma como un ataque se puede examinar: puede tener razón, puede no tenerla, y en ninguno de los dos casos hace falta defenderse. Es más difícil de lo que parece, y el libro no finge lo contrario.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi todas las peleas empiezan por algo que nadie llegó a decir" },
+      {
+        b: "texto",
+        texto:
+          "El tercer acuerdo es no hagas suposiciones, y es el más fácil de comprobar en la propia vida. Suponemos que el otro sabe lo que queremos, que entiende lo que dijimos, que su silencio significa lo que tememos. Y después nos enfadamos por lo que hemos supuesto, no por lo que ha pasado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que usa es doméstico y exacto: alguien que espera que su pareja adivine qué le apetece hacer el fin de semana, se calla, y acaba dolido porque el otro no lo adivinó. Nadie mintió, nadie falló; simplemente no se dijo nada y se dio por dicho.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La mayoría de los dramas no vienen de lo que pasó, sino de la historia que te contaste sobre lo que pasó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ruiz sostiene que la mente rellena huecos automáticamente porque la incertidumbre le resulta insoportable, y que lo hace inventando algo que suele ser peor que la realidad. El remedio que ofrece es de una simpleza casi decepcionante: preguntar. Preguntar hasta estar seguro, y decir lo que uno quiere en vez de esperar que se note.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade que lo mismo vale hacia dentro: suponemos que sabemos por qué hacemos lo que hacemos, y a menudo tampoco lo hemos preguntado. Es la parte del libro que más se acerca a algo parecido a la psicología, aunque el vocabulario sea otro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Tu mejor esfuerzo no es el mismo todos los días, y eso es el acuerdo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuarto acuerdo es haz siempre lo máximo que puedas, y lo importante está en la letra pequeña. Ruiz insiste en que lo máximo cambia: no es lo mismo lo que puedes dar recién levantado que enfermo, ni un día bueno que uno malo. El acuerdo no es exigirse un rendimiento fijo, es no reservarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su función dentro del libro es de cierre: los otros tres solo funcionan si este los sostiene, porque nadie es impecable con sus palabras el cien por cien del tiempo ni deja de suponer cosas de un día para otro. Lo que se puede hacer es intentarlo hoy con lo que hoy se tenga.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hacer lo máximo que puedas evita las dos trampas: el que se pasa se quema, y el que se guarda se arrepiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que hace, sobre todo, es quitar de en medio el juez del principio. Si has dado lo que tenías, no hay nada que juzgar aunque el resultado sea malo. Ruiz sostiene que el arrepentimiento y la culpa se alimentan casi siempre de la duda sobre si uno podría haberlo hecho mejor, y que ese acuerdo la cierra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También conecta el acuerdo con la acción, que es lo que separa este libro de un manual de pensamiento positivo: dice que las ideas no sirven de nada si no se practican, y que la única manera de que un acuerdo nuevo sustituya a uno viejo es repetirlo hasta que sea el que sale solo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cambiar un acuerdo cuesta lo mismo que cambiar cualquier costumbre" },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro se ocupa de cómo se sostiene todo esto, y Ruiz es realista en un punto: los acuerdos viejos llevan décadas practicándose y no se caen porque uno lea un libro. Lo que propone es una guerra larga, en la que se recuperan de uno en uno los espacios que ocupaba el juez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su método tiene tres piezas. La primera es darse cuenta: no se puede cambiar lo que no se ve, y buena parte del trabajo consiste simplemente en pillarse. La segunda es el perdón, que plantea como un asunto de interés propio: guardar rencor es dejar que quien te hizo daño te lo siga haciendo gratis. La tercera es la repetición, sin la cual las dos primeras se quedan en un buen rato.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Perdonar no es hacerle un favor al otro: es dejar de pagar tú la factura de algo que ya pasó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ruiz plantea también dos ideas más que se han citado mucho: la de vivir como si hoy fuera el último día, que usa para quitar importancia a las discusiones pequeñas, y la del ángel de la muerte como maestro, que es la misma idea vestida de su tradición.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y termina con una advertencia útil: los cuatro acuerdos no van a hacer que la vida sea fácil ni que la gente deje de comportarse mal. Van a cambiar de dónde salen tus reacciones, que es lo único que estaba en tu mano desde el principio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Es un libro de reglas, y por eso funciona" },
+      {
+        b: "texto",
+        texto:
+          "Conviene entender por qué un libro tan corto y tan poco argumentado ha vendido lo que ha vendido. Su fuerza está en la forma: cuatro frases que se pueden recordar sin apuntarlas y aplicar el mismo día, en una conversación concreta, sin ningún material y sin ningún experto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y en que los cuatro se refuerzan. El primero ordena lo que dices, el segundo lo que oyes, el tercero lo que te callas y el cuarto lo que te exiges. Puestos juntos cubren casi todo lo que pasa en un día entre personas, que es más de lo que hace la mayoría de los libros de trescientas páginas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuatro frases que caben en la memoria valen más que trescientas páginas que no se recuerdan al día siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El precio de esa forma es que no hay argumentación de ninguna clase. Ruiz afirma; no demuestra, no cita, no discute objeciones. Quien necesite razones para aceptar una regla no las va a encontrar aquí, y quien las acepte lo hará porque le suenan verdaderas, que es exactamente cómo funcionan los libros de sabiduría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí se puede probar es si funcionan. Los cuatro son comprobables en una semana con la propia vida, y esa es la única verificación que el libro ofrece y también la única que pide.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que vivimos dentro de reglas que aceptamos sin elegirlas y que nos castigamos a diario por incumplirlas. Frente a eso propone cuatro acuerdos elegidos: cuidar lo que dices, no tomarte lo ajeno como propio, preguntar en lugar de suponer y dar cada día lo que ese día tengas. Cuatro frases, ciento cuarenta páginas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es concentración. El segundo y el tercero, sobre todo, resuelven una cantidad desproporcionada de conflictos cotidianos, y el cuarto es una defensa inteligente contra el perfeccionismo que suele acompañar a este tipo de propósitos. Que se puedan recordar sin esfuerzo es medio libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No puedes elegir lo que te pasa ni lo que te dicen. Puedes elegir los acuerdos desde los que respondes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La presentación como sabiduría tolteca es muy discutible: los toltecas fueron un pueblo mesoamericano anterior a los aztecas del que se conserva poquísimo, y no hay constancia histórica de una tradición transmitida hasta hoy con este contenido. Historiadores y antropólogos que han revisado el asunto lo describen como una construcción moderna con vocabulario prehispánico. Las reglas pueden ser útiles igualmente; el linaje que se les atribuye no se sostiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un problema con el segundo acuerdo llevado al extremo. Que nada de lo que hacen los demás sea por ti es liberador cuando se trata de un desconocido que grita en el tráfico, y es una coartada cuando alguien te está tratando mal de forma sostenida: hay comportamientos que sí van dirigidos a ti y que exigen una respuesta, no una reinterpretación. El libro no distingue entre las dos situaciones, y esa distinción es justo lo que hace falta para usarlo bien.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   El sutil arte de que casi todo te importe una mierda, en ocho páginas.
+
+   El libro tiene un tono muy marcado —tacos, provocación, blog— y el
+   resumen NO lo imita: la regla 6 pide español llano y la 4 prohíbe la
+   arenga. Se cuenta el argumento, que es bastante más serio que la portada:
+   es estoicismo con lenguaje de internet.
+
+   Segunda persona, porque es un libro práctico. Y en la conclusión, lo que
+   hay que decir: que la anécdota de Bukowski está muy limada y que el
+   primer capítulo se contradice con los últimos.
+   -------------------------------------------------------------------------- */
+
+const SUTIL_ARTE: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Querer ser más positivo te recuerda todo el rato que no lo eres" },
+      {
+        b: "texto",
+        texto:
+          "Mark Manson abre con una idea que va contra todo lo que se publica en su género: el afán de tener una experiencia positiva es en sí mismo una experiencia negativa. Cuanto más te empeñas en sentirte bien, más presente tienes que ahora mismo no lo estás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo llama la ley de la evitación inversa y la explica con ejemplos incómodos. Cuanto más quieres ser rico, más pobre te sientes gane lo que ganes. Cuanto más te obsesiona ser deseable, más feo te ves. Cuanto más te esfuerzas en dormirte, más despierto estás. El propio esfuerzo confirma la carencia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Aceptar una experiencia negativa es una experiencia positiva. Querer evitarla la convierte en dos problemas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el título, que se malinterpreta constantemente. Que algo te importe una mierda no significa ser indiferente a todo: significa que solo puedes dedicar tu preocupación a unas pocas cosas, así que más vale elegirlas. La gente que parece no inmutarse por nada no es que no le importe nada, es que le importan tres cosas y ninguna de ellas es lo que opinen de su ropa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Manson escribía un blog de mucho tráfico y este fue su segundo libro, publicado en 2016. El recorrido de este resumen es ese: por qué elegir qué te importa, por qué el sufrimiento no se elimina sino que se elige, por qué tus valores deciden más que tus metas, y qué pasa cuando aceptas que casi todo es culpa tuya sin ser culpa tuya. La conclusión dice también dónde falla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "No eliges si vas a sufrir: eliges por qué" },
+      {
+        b: "texto",
+        texto:
+          "La segunda idea del libro es la que le da su base. Todo el mundo quiere pasarlo bien, y por eso querer pasarlo bien no distingue a nadie. La pregunta útil es otra: qué dolor estás dispuesto a aguantar, porque cualquier cosa que merezca la pena viene con uno incluido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo es de músico frustrado. Él quería ser una estrella del rock, se lo imaginaba a todas horas, y nunca llegó a nada. Lo que descubrió más tarde es que quería el resultado y no quería el proceso: los ensayos aburridos, las furgonetas, tocar en bares vacíos, la logística. Quien acaba llegando es el que aguanta bien esa parte, no el que sueña mejor con el escenario.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta no es qué quieres disfrutar, es qué dolor estás dispuesto a aguantar. Esa respuesta sí decide tu vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca su crítica a la fijación con las metas. Poner un objetivo es fácil y no distingue a nadie: todo el mundo quiere estar en forma, tener un negocio propio y escribir un libro. Lo que decide es si te gusta lo bastante el trabajo diario como para hacerlo durante años sin que nadie aplauda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade un matiz sobre la felicidad que resiste bien: no es un estado al que se llega, es lo que aparece mientras se resuelven problemas que a uno le gusta resolver. Una vida sin problemas no sería feliz; sería vacía. Lo que se puede elegir es la clase de problemas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Creerse especial es una manera cara de no mejorar en nada" },
+      {
+        b: "texto",
+        texto:
+          "Manson dedica un capítulo entero a desmontar la autoestima entendida como sentirse extraordinario, y su argumento es práctico: quien está convencido de ser excepcional no puede reconocer que hace algo mal, y quien no reconoce que hace algo mal no aprende.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuenta el caso de Jimmy, un conocido suyo que se pasaba la vida montando negocios que nunca arrancaban y explicando por qué esta vez sí. Cada fracaso lo interpretaba como una prueba de que el mundo no estaba a su altura. Manson lo usa para señalar lo evidente: sentirse bien consigo mismo y ser bueno en algo no son la misma cosa, y a veces van en direcciones contrarias.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ser normal es la condición estadística de casi todo el mundo, y aceptarlo es lo que permite empezar a mejorar de verdad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su alternativa es medir la autoestima por otra cosa: no por lo bueno que uno se cree, sino por lo bien que soporta mirarse los defectos sin desmoronarse. Es una definición menos halagadora y bastante más útil, y coincide con lo que la psicología ha encontrado sobre la autocompasión frente a la autoestima inflada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También pone el dedo en un fenómeno de época: las redes muestran los mejores momentos de miles de personas y eso convierte lo excepcional en la referencia diaria. Manson sostiene que aceptar una vida corriente no es resignación, es dejar de medirse con una vara falsa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No eres culpable de lo que te pasó, y sigue siendo tu responsabilidad",
+      },
+      {
+        b: "texto",
+        texto:
+          "La distinción más útil del libro es entre culpa y responsabilidad. La culpa mira al pasado y decide quién lo hizo. La responsabilidad mira al presente y decide quién se ocupa. Y Manson sostiene que casi siempre se confunden, con el resultado de que quien no tuvo la culpa se queda esperando a que venga alguien a arreglarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su imagen es un bebé abandonado en la puerta de tu casa. No es culpa tuya, no lo pediste y no lo mereces. Y a partir del momento en que está ahí, es tu problema: puedes ignorarlo, puedes llamar a alguien o puedes ocuparte, pero las tres son decisiones tuyas y las tres tienen consecuencias tuyas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No elegimos casi nada de lo que nos pasa, y elegimos siempre lo que hacemos con ello. La segunda parte es la única que sirve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo aplica también a las emociones, y ahí es donde más incomoda: sostiene que nadie te hace sentir nada, que la interpretación es tuya, y que decir me has hecho sentir mal es una manera de entregarle a otro el mando de tu día. Lo dice con matices insuficientes, y sobre eso hay algo que decir en la conclusión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La contrapartida buena es que ampliar la responsabilidad amplía el margen. Cuanto más se asume, más cosas se pueden cambiar, aunque ninguna de ellas la hayas causado tú.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi seguro que te equivocas, y esa es la buena noticia" },
+      {
+        b: "texto",
+        texto:
+          "Manson dedica un capítulo a la certeza, y sostiene que es el enemigo del crecimiento: quien está seguro de algo ya no puede aprender nada sobre ese algo. Su propuesta es lo contrario de la confianza que vende el género: dar por hecho que en muchas cosas estás equivocado y no saber en cuáles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo argumenta con la propia biografía de cualquiera. Lo que creías con veinte años sobre el amor, el dinero o tus amigos te parece hoy ingenuo; no hay ninguna razón para pensar que lo que crees ahora vaya a resistir mejor los próximos veinte. La única postura coherente es la de quien espera cambiar de opinión.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El crecimiento no es pasar del error al acierto: es pasar de un error a otro que estorba menos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca tres preguntas concretas que propone hacerse cuando uno está muy seguro: qué pasaría si me equivoco, qué significaría eso, y sería mejor o peor que la situación actual. Sostiene que la mayoría de la gente ni siquiera se atreve a formularlas, y que ahí está el bloqueo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Junto a eso pone su versión de la ley de Parkinson aplicada a los problemas: si te quitan los problemas grandes, los pequeños te parecerán enormes. Es lo que explica que la gente con la vida resuelta se enfade por una fila en el supermercado, y por qué medir la propia desgracia no funciona.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El fracaso no es lo contrario del éxito, es el camino" },
+      {
+        b: "texto",
+        texto:
+          "Manson cuenta el caso de Pablo Picasso ya anciano, dibujando una servilleta para una desconocida en un café y pidiéndole después una cantidad de dinero considerable. Cuando ella protestó porque solo había tardado unos segundos, él contestó que había tardado sesenta años. La historia se cuenta de varias formas y probablemente es apócrifa, pero funciona para lo que quiere decir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que la mejora en cualquier cosa consiste en fallar repetidamente y ajustar, y que el miedo a fallar no viene del fallo en sí sino de lo que uno cree que el fallo dice de él. Quien mide su valor por sus resultados no puede permitirse un mal resultado, así que no lo intenta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si tu valor depende de acertar, no vas a intentar nada en lo que puedas fallar. Y eso es casi todo lo que merece la pena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su receta contra la parálisis es lo que llama el principio de haz algo: no esperar a tener motivación para actuar, porque el orden real es al revés. Hacer cualquier cosa pequeña produce una reacción, la reacción produce ganas, y las ganas producen más acción. La motivación es consecuencia y no requisito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cierra con la parte de los límites, que es la más adulta del libro: la responsabilidad de cada uno acaba en sus propias emociones y decisiones. Quien se hace cargo de las emociones ajenas y quien deja que otros se hagan cargo de las suyas están en la misma relación, cada uno en un lado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Tenerlo todo por delante te vuelve incapaz de comprometerte con nada",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más contracorriente es el que defiende decir que no. Manson sostiene que la cultura de las opciones infinitas —más viajes, más gente, más posibilidades— produce una vida ancha y de dos centímetros de profundidad, y que el rechazo es lo que permite que algo tenga fondo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuenta que él mismo viajó por más de cincuenta países y que la experiencia que más le cambió fue quedarse quieto en uno. Su argumento es que cualquier cosa profunda —un oficio, una amistad de veinte años, una relación— exige renunciar a todo lo que se podría haber hecho con ese tiempo, y que quien no renuncia a nada no construye nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Comprometerse es empobrecerse en opciones para enriquecerse en profundidad. No hay otra manera de que algo dure.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí su defensa del conflicto honesto en las relaciones: sostiene que una relación sana no es la que no discute, sino la que puede decirse las cosas sin que se caiga todo, y da un criterio práctico para distinguirlas, que es si cada uno puede decir que no sin que el otro lo castigue.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro termina con un capítulo sobre la muerte que resume su lectura de Ernest Becker: casi todo lo que hacemos para dejar huella es un intento de no desaparecer, y aceptar que uno va a desaparecer es lo que permite dejar de hacer cosas por esa razón.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la energía que uno puede dedicar a preocuparse es limitada y que el problema no es preocuparse poco, sino repartirla mal. A partir de ahí propone elegir el sufrimiento en vez de evitarlo, medir por valores y no por metas, separar la culpa de la responsabilidad, esperar estar equivocado y comprometerse con pocas cosas a fondo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es haber metido ideas estoicas y existencialistas en un lenguaje que lee mucha gente que nunca abriría a Epicteto. La distinción entre culpa y responsabilidad, la pregunta por qué dolor se aguanta y la idea de que la felicidad viene de resolver problemas que te gustan son sólidas y se recuerdan.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Solo puedes preocuparte por unas pocas cosas. La libertad no está en no preocuparse, está en elegir cuáles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La anécdota de Charles Bukowski con la que abre —el borracho fracasado que triunfó sin cambiar— está muy limada: Bukowski trabajó de cartero durante años, escribió sin parar desde joven y su epitafio famoso convive con una obra muy trabajada. La historia se cuenta para reforzar la tesis, y las historias que se eligen así siempre encajan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una tensión que el libro no resuelve. Empieza diciendo que la industria de la autoayuda vende humo y termina siendo un libro de autoayuda con sus consejos y su lista de valores buenos y malos. Además, la idea de que nadie te hace sentir nada, dicha sin matices, funciona mal con quien está en una relación abusiva o en duelo: hay situaciones en las que lo que corresponde no es reinterpretar, sino salir. El tono provocador, que es lo que lo vendió, es también lo que le impide hacer esas distinciones.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "sutil-arte": SUTIL_ARTE,
+  "cuatro-acuerdos": CUATRO_ACUERDOS,
+  ikigai: IKIGAI,
   "pensar-rapido": PENSAR_RAPIDO,
   "inteligencia-emocional": INTELIGENCIA_EMOCIONAL,
   "mente-millonaria": MENTE_MILLONARIA,

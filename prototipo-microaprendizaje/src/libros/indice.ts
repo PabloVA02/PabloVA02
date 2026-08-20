@@ -38,9 +38,6 @@ const CARGADORES: Record<string, Cargador> = {
 
   /* Filosofía */
   "busca-sentido": () => import("./filosofia").then((m) => m.BUSCA_SENTIDO),
-  ikigai: () => import("./filosofia").then((m) => m.IKIGAI),
-  "cuatro-acuerdos": () => import("./filosofia").then((m) => m.CUATRO_ACUERDOS),
-  "sutil-arte": () => import("./filosofia").then((m) => m.SUTIL_ARTE),
 
   /* Ciencia y salud */
   cosmos: () => import("./ciencia-salud").then((m) => m.COSMOS),

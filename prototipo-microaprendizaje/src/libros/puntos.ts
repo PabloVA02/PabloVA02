@@ -38,6 +38,30 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "sutil-arte": [
+    "por qué querer ser positivo te recuerda que no lo eres",
+    "por qué la pregunta buena es qué dolor aguantas",
+    "en qué se diferencian la culpa y la responsabilidad",
+    "por qué creerse especial impide mejorar en nada",
+    "por qué tener todas las opciones abiertas empobrece",
+  ],
+
+  "cuatro-acuerdos": [
+    "por qué una frase de tres segundos dura veinte años",
+    "por qué los elogios tampoco son sobre ti",
+    "de dónde salen casi todas las peleas de pareja",
+    "por qué tu mejor esfuerzo cambia cada día",
+    "por qué perdonar es un asunto de interés propio",
+  ],
+
+  ikigai: [
+    "qué significa ikigai de verdad en japonés",
+    "por qué el diagrama de los cuatro círculos no es japonés",
+    "qué es el hara hachi bu y por qué funciona",
+    "qué es un moai y por qué dura toda la vida",
+    "qué dicen los estudios sobre tener un propósito",
+  ],
+
   "pensar-rapido": [
     "en qué se diferencian los dos sistemas con que piensas",
     "por qué una historia coherente parece más probable",

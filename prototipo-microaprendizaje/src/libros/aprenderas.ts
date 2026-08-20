@@ -29,6 +29,15 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "sutil-arte":
+    "Cuanto más te empeñas en sentirte bien, más presente tienes que ahora no lo estás. Manson parte de esa trampa para sostener que la energía de preocuparse es limitada y que el error no es gastarla poco, sino repartirla mal.",
+
+  "cuatro-acuerdos":
+    "Aprendiste el idioma, lo que está bien y lo que es una vida lograda sin que nadie te preguntara si estabas conforme. Miguel Ruiz propone sustituir esa maraña heredada por cuatro reglas elegidas a conciencia.",
+
+  ikigai:
+    "En Ogimi, un pueblo de Okinawa con una de las mayores proporciones de centenarios del mundo, no existe la palabra jubilación. Dos españoles fueron a entrevistar a los más viejos y volvieron con esto.",
+
   "pensar-rapido":
     "Un bate y una pelota cuestan 1,10 y el bate cuesta un euro más: la mitad de los alumnos del MIT falla. Kahneman ganó el Nobel demostrando que la mente usa atajos que se equivocan de maneras predecibles.",
 
