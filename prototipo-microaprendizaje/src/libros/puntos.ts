@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cisne-negro": [
+    "por qué mil días de datos no dicen nada del siguiente",
+    "en qué se diferencian Mediocristán y Extremistán",
+    "por qué el pasado siempre parece haber sido previsible",
+    "dónde funcionan los expertos y dónde no",
+    "cómo colocarse para que lo imprevisto no te arruine",
+  ],
+
   spqr: [
     "por qué su mito fundacional es un crimen entre hermanos",
     "por qué la historia antigua de Roma se escribió siglos después",

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cisne-negro":
+    "Un pavo al que dan de comer mil días seguidos tiene mil pruebas de que lo quieren, y su confianza es máxima justo el miércoles antes de Acción de Gracias. Taleb parte de ahí para explicar por qué lo raro decide la historia.",
+
   spqr:
     "Los romanos contaban que su ciudad la fundó un hombre que mató a su hermano y la pobló acogiendo a fugitivos y esclavos huidos. Beard parte de ahí para examinar cómo sabemos lo que creemos saber de Roma.",
 

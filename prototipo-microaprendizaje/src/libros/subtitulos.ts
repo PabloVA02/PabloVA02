@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "cisne-negro": "El impacto de lo altamente improbable",
   "por-que-dormimos": "La nueva ciencia del sueño",
   influencia: "La psicología de la persuasión",
   principito: "Una fábula sobre la amistad, la pérdida y lo esencial",

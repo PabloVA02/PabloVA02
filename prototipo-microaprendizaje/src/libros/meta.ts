@@ -2201,22 +2201,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "cisne-negro",
-    titulo: "El cisne negro",
-    autor: "Nassim Taleb",
-    ano: 2007,
-    gancho: "Salió un año antes del crash de 2008 explicando exactamente por qué nadie iba a verlo venir.",
-    porQue: "Explica por qué los sucesos que cambian el mundo son los que nadie predijo, y conviene saber qué afirma de verdad y qué se le atribuye.",
-    minutos: 26.1,
-    capitulos: [
-      { titulo: "La guerra que empezó a los quince años", minutos: 5.1 },
-      { titulo: "El pavo que llevaba mil días bien", minutos: 5.2 },
-      { titulo: "Mediocristán y Extremistán", minutos: 5.3 },
-      { titulo: "Los cuadros que nadie pintó", minutos: 5.3 },
-      { titulo: "La estrategia de la barra", minutos: 5.3 },
-    ],
-  },
-  {
     id: "antifragil",
     titulo: "Antifrágil",
     autor: "Nassim Taleb",

@@ -8578,7 +8578,287 @@ const SPQR: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El cisne negro, en ocho páginas.
+
+   Taleb escribe con una arrogancia que es parte del argumento y que en un
+   resumen se vuelve insoportable: si se imita el tono, sale un matón; si se
+   quita del todo, se pierde por qué el libro pega tan fuerte. Se cuenta el
+   argumento en llano —regla 6— y se menciona el tono una vez, en la
+   conclusión, donde toca.
+
+   Lo que sostiene el libro son sus distinciones, no sus insultos:
+   Mediocristán frente a Extremistán, el problema del pavo, la falacia
+   narrativa, las pruebas silenciosas. Cada una con su ejemplo.
+
+   Y hay que decir en la conclusión que Taleb acertó en 2008 y que eso no
+   convierte en verdad todo lo demás, que es exactamente el error que el
+   propio libro enseña a no cometer.
+   -------------------------------------------------------------------------- */
+
+const CISNE_NEGRO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un pavo bien alimentado tiene mil pruebas de que lo quieren" },
+      {
+        b: "texto",
+        texto:
+          "Imagina un pavo al que dan de comer todos los días. Cada mañana que pasa refuerza su teoría: esta gente me cuida. Al cabo de mil días, su confianza es máxima y está respaldada por mil observaciones sin una sola excepción. El miércoles antes de Acción de Gracias descubre que su modelo era falso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nassim Taleb usa esa imagen para enseñar el problema central de su libro: cuando lo peor todavía no ha pasado, la experiencia acumulada no solo no protege, sino que aumenta la confianza justo antes del golpe. El día de mayor riesgo es aquel en que la serie histórica se ve más tranquilizadora.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mil días de datos no demuestran nada sobre el día mil uno. Al pavo le fue peor cuanto más largo era su registro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El título viene de Europa. Durante siglos, cisne negro fue una expresión para nombrar lo imposible, porque todos los cisnes observados eran blancos. En el siglo XVII, los europeos llegaron a Australia y encontraron cisnes negros. Una sola observación tumbó una certeza construida sobre millones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Taleb define un cisne negro con tres rasgos: es muy improbable según lo que se sabía, tiene consecuencias enormes, y después se explica como si hubiera sido previsible. Internet, el 11 de septiembre, la Primera Guerra Mundial, la penicilina, el éxito de un libro que nadie esperaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: por qué la mente no puede con lo improbable, en qué dos mundos vivimos, por qué los expertos fallan justo donde más se les paga, y qué se puede hacer sabiendo todo esto. La conclusión dice también dónde falla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hay dos mundos y confundirlos es lo que arruina a la gente" },
+      {
+        b: "texto",
+        texto:
+          "La distinción más útil del libro reparte la realidad en dos territorios. Al primero lo llama Mediocristán: allí, ningún caso individual cambia el total. Si se reúnen mil personas en un estadio y entra la más pesada del mundo, la media apenas se mueve. Lo mismo con la altura, con el consumo de calorías o con la esperanza de vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo es Extremistán: allí, un solo caso puede ser la mayor parte del total. Si en ese mismo estadio entra la persona más rica del planeta, su fortuna es prácticamente todo el dinero de la sala y la media deja de significar nada. Ahí viven la riqueza, las ventas de libros, el tamaño de las empresas, las víctimas de una guerra y los daños de una crisis.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En un mundo, la media describe la realidad. En el otro, la media es una manera de no verla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las herramientas estadísticas corrientes —la media, la desviación típica, la campana de Gauss— se inventaron para el primer mundo y funcionan bien allí. Aplicadas al segundo, no solo fallan: dan una falsa sensación de control, porque asignan probabilidades ridículamente pequeñas a cosas que ocurren cada década.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Taleb es especialmente duro con eso en finanzas, y ahí escribe desde su oficio: fue operador de opciones durante veinte años. Su acusación es concreta: los modelos de riesgo que usaba la banca daban por casi imposibles caídas que habían ocurrido varias veces en un siglo, y sobre esos números se construyeron las carteras.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Explicamos el pasado como una historia y por eso creemos que era previsible",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo mecanismo que Taleb desmonta es lo que llama la falacia narrativa: la incapacidad de mirar una serie de hechos sin convertirlos en un relato con causas. La cabeza no soporta la aleatoriedad, así que la rellena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo favorito son los boletines de bolsa. Un día sube el mercado y se explica porque bajó el paro; otro día baja con el mismo dato y se explica porque los inversores recogen beneficios. La explicación se fabrica después y siempre encaja, y quien la lee acaba creyendo que aquello se podía haber previsto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El pasado parece ordenado porque lo contamos después. Nadie cuenta lo que no llegó a pasar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso se suma el problema de las pruebas silenciosas, que ilustra con una historia antigua: a Diágoras le enseñan los retratos de los que rezaron y se salvaron de un naufragio, como prueba del poder de los dioses; él pregunta dónde están los retratos de los que rezaron y se ahogaron. Esos no están, y por eso no cuentan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aplicado a lo cotidiano: los libros de biografías de millonarios están escritos por los que llegaron, y los que hicieron exactamente lo mismo y se arruinaron no publican nada. Cualquier receta de éxito sacada solo de los que ganaron dice mucho menos de lo que parece, porque el cementerio no habla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí su reproche a los historiadores y a los analistas: explicar por qué ocurrió lo que ocurrió es fácil y da prestigio; anticiparlo es otra cosa, y casi nadie lleva la cuenta de sus aciertos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los expertos fallan más justo donde más seguros están" },
+      {
+        b: "texto",
+        texto:
+          "Taleb divide a los expertos en dos clases y la línea que traza aguanta bien. Hay oficios donde la experiencia funciona: ajedrecistas, pilotos, médicos, contables, físicos. Y hay otros donde no hay ninguna prueba de que funcione: analistas de bolsa, economistas que predicen, politólogos, consultores estratégicos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia es el entorno. Donde el mundo repite con regularidad y avisa pronto del error, la experiencia enseña. Donde el resultado depende de sucesos raros y la respuesta llega años después, la experiencia solo produce confianza.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En los oficios donde la predicción no funciona, más años de experiencia dan más seguridad y no más acierto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cita los estudios de Philip Tetlock, que durante dos décadas recogió decenas de miles de predicciones de expertos políticos y las comprobó. El resultado fue que apenas superaban al azar, que los más famosos acertaban menos que los desconocidos, y que casi ninguno revisaba su modelo cuando fallaba: reinterpretaba el fallo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Junto a eso pone el exceso de confianza en los intervalos. Cuando se pide a alguien una horquilla dentro de la cual está seguro al noventa y ocho por ciento, el valor real cae fuera muchísimo más a menudo del dos por ciento previsto. No es que no sepamos: es que no sabemos cuánto no sabemos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi todo lo que ha cambiado el mundo llegó sin avisar" },
+      {
+        b: "texto",
+        texto:
+          "El argumento que Taleb considera decisivo es histórico. Los descubrimientos y los sucesos que más han cambiado la vida humana no aparecen en ninguna previsión anterior: nadie predijo internet, ni el ordenador personal, ni la penicilina, ni el láser, ni la caída del muro de Berlín, ni los atentados de 2001.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo preferido es la penicilina. Fleming volvió de vacaciones, encontró un cultivo contaminado por un hongo y observó que alrededor no crecían bacterias. Un accidente en un laboratorio desordenado que ha salvado más vidas que casi ninguna otra cosa, y que no estaba en ninguna agenda de investigación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si lo que decide la historia son los sucesos que nadie previó, planificar el futuro con la media del pasado es una broma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade una observación sobre la guerra y los mercados: en el siglo XX, un puñado de días concentra una parte enorme de las variaciones de la bolsa, y quien construya su estrategia sobre el comportamiento de los días normales está ignorando dónde está casi todo lo que pasa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale también una crítica al modo en que se organiza la investigación. Si los grandes hallazgos son accidentes, dice, conviene financiar mucha exploración barata y variada en vez de apostar fuerte por proyectos con objetivo definido: hay que maximizar las oportunidades de tropezarse con algo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No se trata de predecir el golpe, sino de que no te mate cuando llegue",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte práctica del libro es breve y consistente. Taleb no propone predecir mejor: sostiene que no se puede. Propone organizarse de manera que los sucesos raros no puedan hundirte, y a poder ser, que te beneficien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su fórmula financiera es la estrategia de las dos puntas: poner la mayor parte del dinero en lo más seguro que exista y una fracción pequeña en apuestas de riesgo muy alto y pérdida limitada, sin nada en el medio. Así la peor pérdida posible está acotada de antemano y las ganancias no lo están.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Limita lo que puedes perder", texto: "y no lo que puedes ganar. La asimetría es la estrategia." },
+          { fuerte: "Desconfía del punto medio", texto: "una cartera moderada suele estar más expuesta de lo que parece." },
+          { fuerte: "Ponte donde pasan cosas", texto: "los accidentes buenos requieren estar expuesto a ellos." },
+          { fuerte: "Distingue los dos mundos", texto: "y no uses la media donde un solo caso puede ser el total." },
+        ],
+      },
+      { b: "idea", texto: "La cuestión no es acertar el futuro: es no depender de acertarlo." },
+      {
+        b: "texto",
+        texto:
+          "Y añade una distinción sobre los propios cisnes negros que conviene retener: los hay positivos y negativos. En los oficios donde lo raro puede arruinarte —la banca, el ejército, la aviación— hay que blindarse; en los que lo raro puede hacerte —la investigación, escribir, montar algo— hay que exponerse, porque el coste de cada intento fallido es pequeño.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un año después de publicarlo, ocurrió lo que describía" },
+      {
+        b: "texto",
+        texto:
+          "El cisne negro salió en abril de 2007. En 2008 quebró Lehman Brothers, el sistema financiero estuvo a punto de pararse y los modelos de riesgo que Taleb llevaba años ridiculizando resultaron dar por casi imposible lo que estaba pasando. Pocos libros han recibido una confirmación tan rápida y tan pública.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso explica su repercusión, y también un efecto secundario: la expresión cisne negro se ha desgastado. Se llama así a cualquier cosa mala e inesperada, y Taleb ha protestado con razón, porque su definición exige que el suceso fuera imprevisible con lo que se sabía. Una pandemia global no lo era: llevaba décadas en los informes de riesgo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un cisne negro no es cualquier desgracia. Es la que tu modelo daba por imposible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro se apoya en un armazón intelectual antiguo. El problema de la inducción —que ninguna cantidad de observaciones prueba una regla general— es de David Hume, y Karl Popper construyó sobre él su idea de que la ciencia avanza refutando y no confirmando. Taleb reconoce ambas deudas y las lleva al terreno del dinero y del riesgo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale el consejo epistemológico que atraviesa el libro: acumular casos a favor de una idea no la demuestra, mientras que un solo caso en contra la tumba. Por eso conviene buscar lo que refutaría lo que uno cree, en vez de coleccionar lo que lo confirma.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la historia y los mercados no los deciden los sucesos normales sino un puñado de sucesos raros que nadie previó, y que nuestras herramientas —la media, la campana de Gauss, la experiencia, el relato— están hechas para lo normal y por eso fallan justo cuando importa. Su conclusión práctica no es predecir mejor, que considera imposible, sino colocarse de manera que lo imprevisto no te arruine.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta son cuatro herramientas mentales que se usan fuera del libro: el pavo cuya confianza crece hasta el día antes, la distinción entre el mundo donde la media describe y el mundo donde no, la falacia narrativa y las pruebas silenciosas del cementerio que no habla. Cualquiera de las cuatro cambia cómo se lee una noticia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No sabemos lo que no sabemos, y además creemos saber cuánto no sabemos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y empieza por el tono. Taleb dedica una parte considerable del libro a insultar a economistas, premios Nobel y periodistas con nombre y apellido, y eso hace que se lea mucho peor de lo que merece: convierte un argumento sólido en una pelea, y le da a cualquiera una excusa para no atenderlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un problema de fondo del que el propio libro debería protegernos. Que Taleb acertara en 2008 no demuestra que su método sea correcto: quien avisa cada año de una catástrofe acaba coincidiendo con una, y ese es exactamente el sesgo que él enseña a detectar en los demás. Además, su consejo práctico —blindarse contra lo que no se puede prever— se enuncia con facilidad y se aplica mal: casi nadie puede decir de antemano cuál de sus exposiciones es la que va a matarlo, que es justo lo que el libro sostiene.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cisne-negro": CISNE_NEGRO,
   spqr: SPQR,
   "por-que-dormimos": POR_QUE_DORMIMOS,
   influencia: INFLUENCIA,
