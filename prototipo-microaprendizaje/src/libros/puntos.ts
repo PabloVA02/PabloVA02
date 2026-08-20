@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  spqr: [
+    "por qué su mito fundacional es un crimen entre hermanos",
+    "por qué la historia antigua de Roma se escribió siglos después",
+    "qué hizo Roma con los vencidos que no hizo Atenas",
+    "por qué la república tardó un siglo en caerse",
+    "por qué desconfiar de las historias de emperadores locos",
+  ],
+
   "por-que-dormimos": [
     "los dos sistemas que deciden cuándo te entra sueño",
     "por qué la cafeína no da energía, solo tapa el cansancio",

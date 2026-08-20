@@ -8310,7 +8310,276 @@ const POR_QUE_DORMIMOS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   SPQR, en ocho páginas.
+
+   Mil años de historia no caben en ocho páginas, y el libro tampoco lo
+   intenta: Beard no escribe una crónica de emperadores sino un examen de
+   CÓMO SABEMOS lo que creemos saber de Roma, y de qué pasa cuando se mira
+   debajo de las historias que los propios romanos contaban.
+
+   Así que el resumen sigue ESA línea y no la cronológica. Cada titular
+   afirma algo discutible sobre Roma —regla 3— en vez de etiquetar un siglo.
+
+   Tercera persona. Y hay que resistir la tentación de las anécdotas de
+   emperadores locos: Beard dedica un capítulo a explicar por qué esas
+   historias dicen más de quien las contaba que de quien las protagonizó.
+   -------------------------------------------------------------------------- */
+
+const SPQR: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los romanos contaban que su ciudad la fundó un fratricida" },
+      {
+        b: "texto",
+        texto:
+          "El relato que Roma contaba de sí misma empieza con dos hermanos criados por una loba, y termina con uno de ellos matando al otro por saltarse una línea trazada en el suelo. Rómulo mata a Remo, le pone su nombre a la ciudad y la puebla abriendo un asilo donde acoge a fugitivos, esclavos escapados y delincuentes de toda Italia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mary Beard señala lo que tiene de extraordinario: casi ninguna cultura elige un mito fundacional así. Es una historia de asesinato entre hermanos, de una ciudad poblada por lo que otros expulsaron y de un rapto masivo de mujeres de un pueblo vecino. Los romanos la conservaron durante siglos sin suavizarla, y discutían sobre ella.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Roma no se contaba a sí misma como una ciudad de héroes: se contaba como un asilo de fugitivos fundado sobre un crimen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está su tesis: ese mito no es un adorno, es una declaración. Una comunidad que se imagina naciendo de la violencia entre los suyos y de la acogida de forasteros está diciendo algo sobre lo que es, y lo que Roma fue tiene bastante que ver con las dos cosas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro cubre los mil años que van del año 753 antes de Cristo —la fecha tradicional de la fundación— al 212 después de Cristo, y su autora es catedrática de Clásicas en Cambridge y la divulgadora de la Antigüedad más leída de su generación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: qué pasa cuando se examinan los relatos fundacionales, cómo se pasó de una ciudad a un imperio sin plan, cómo se rompió la república, por qué Augusto funcionó, qué se sabe de la gente corriente y cómo se gobernaban millones de personas con muy pocos funcionarios.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi todo lo que Roma contaba de sus primeros siglos se escribió mucho después",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema con el que Beard trabaja todo el libro es de fuentes. Las historias de Roma que conservamos —Tito Livio, Plutarco— se escribieron cientos de años después de los hechos que narran. Cuando Livio cuenta la fundación de la ciudad, le separan de ella unos setecientos años: la distancia que hay entre nosotros y la Edad Media.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí una advertencia que repite: los primeros siglos de Roma no son historia recordada sino historia reconstruida, y reconstruida por gente que quería explicar por qué su mundo era como era. Los siete reyes, la expulsión del último tirano, las virtudes de los antepasados: todo eso funciona mejor como espejo de las preocupaciones del siglo I que como crónica del VII.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Buena parte de la historia antigua de Roma es lo que los romanos del final necesitaban creer sobre su principio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí hay son restos: cerámica, tumbas, cimientos, y una inscripción muy antigua del Foro que menciona un rey. La arqueología dice que en el siglo VIII aquello era un grupo de aldeas en unas colinas junto a un vado del Tíber, sin nada que anunciara nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Beard usa esa distancia entre el relato y los restos como método, y de paso enseña algo aplicable fuera de Roma: cuando una nación cuenta su origen, conviene preguntar quién lo escribió y cuándo, porque el pasado casi siempre se redacta desde el presente que lo necesita.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Roma no conquistó el Mediterráneo porque lo hubiera planeado" },
+      {
+        b: "texto",
+        texto:
+          "La expansión romana suele contarse como un designio, y Beard lo desmonta. Durante siglos, la guerra fue en Italia un asunto casi estacional entre vecinos, y Roma se metió en la mayoría de sus conflictos por alianzas, por miedo o por la lógica interna de su clase dirigente, donde el prestigio se ganaba mandando ejércitos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí explica su éxito es una decisión administrativa poco épica: la ciudadanía. Roma incorporaba a los vencidos en lugar de limitarse a explotarlos. Después de una guerra dura contra sus propios aliados italianos, en el siglo I antes de Cristo, acabó concediendo la ciudadanía a casi toda Italia; y en el año 212 el emperador Caracalla se la dio a prácticamente todos los habitantes libres del imperio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Atenas era una ciudad cerrada; Roma repartía su ciudadanía a los vencidos. Ahí está media explicación de por qué duró.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El coste lo pagaron los de fuera. Beard no adorna: el saqueo de ciudades, la esclavización de poblaciones enteras y la destrucción de Cartago están en el libro con sus cifras, y recoge la frase que Tácito pone en boca de un jefe britano —hacen un desierto y lo llaman paz— como uno de los juicios más duros que se escribieron sobre Roma, escrito por un romano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un efecto interior que le interesa más: la conquista trajo tanta riqueza y tantos esclavos que desmontó la sociedad que la había hecho posible. Los pequeños campesinos que servían en las legiones volvían a tierras compradas por latifundistas y trabajadas por esclavos, y acababan en la ciudad sin nada. Ese proceso es el que rompe la república.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La república no cayó por un golpe: se erosionó durante un siglo" },
+      {
+        b: "texto",
+        texto:
+          "Beard sitúa el principio del final en el año 133 antes de Cristo, cuando Tiberio Graco intentó repartir tierras públicas entre los pobres y fue asesinado a golpes en plena calle por un grupo de senadores. No fue una batalla: fue un linchamiento político dentro de la ciudad, y abrió una puerta que ya no se cerró.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ahí, el siglo se cuenta solo: la violencia se instala como herramienta política, aparecen las proscripciones —listas de nombres cuya muerte queda recompensada—, y los generales empiezan a tener ejércitos leales a ellos y no al Estado, porque son ellos quienes reparten el botín y las tierras al licenciarse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando un ejército depende de su general para cobrar, deja de ser del Estado. Todo lo demás viene detrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Beard es escéptica con la lectura que hace de Julio César el destructor de la libertad romana. Sostiene que la república llevaba décadas rota antes de que él cruzara el Rubicón, y que sus asesinos no restauraron nada: después del magnicidio vinieron trece años más de guerra civil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade un matiz sobre qué era aquella libertad. La república romana no era una democracia: el voto estaba organizado de modo que los ricos pesaban muchísimo más, las magistraturas se repartían entre unas pocas familias y no había nada parecido a una representación popular. Lo que se perdió con Augusto fue el poder de una oligarquía, no el de un pueblo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Augusto ganó porque nunca dijo que había cambiado nada" },
+      {
+        b: "texto",
+        texto:
+          "El heredero de César tenía dieciocho años cuando entró en política y acabó gobernando el mundo romano durante más de cuarenta. Beard subraya que su golpe maestro no fue militar sino de vocabulario: mantuvo el Senado, los cónsules, las asambleas y todas las formas de la república, y se limitó a acumular los poderes de todas ellas en su persona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nunca se llamó rey ni emperador en el sentido que damos a la palabra. Se llamó princeps, el primero, y publicó un texto donde afirmaba haber devuelto la república al Senado y al pueblo y superar a los demás solo en autoridad. Formalmente casi era verdad; en la práctica, mandaba en todos los ejércitos y en el dinero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El régimen que sustituyó a la república se presentó como su restauración, y con las mismas instituciones funcionando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese diseño explica el problema que Roma no resolvió nunca: la sucesión. Si el cargo no existe oficialmente, no hay reglas para heredarlo, y cada muerte de un emperador abre una crisis que se resuelve por adopción, por parentesco o por la fuerza de las tropas. En un solo año, el 69, hubo cuatro emperadores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Beard señala además que la administración imperial era asombrosamente pequeña: unos pocos cientos de funcionarios romanos para decenas de millones de habitantes. Funcionaba porque delegaba en las élites locales, que a cambio recibían ciudadanía y prestigio. El imperio se sostenía sobre gente de la provincia que quería ser romana.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las historias de emperadores locos dicen más de quien las contaba" },
+      {
+        b: "texto",
+        texto:
+          "Calígula nombrando cónsul a su caballo, Nerón tocando la lira mientras Roma ardía, Tiberio en su isla: son las anécdotas que todo el mundo conoce, y Beard dedica un capítulo a explicar por qué hay que desconfiar de ellas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Casi todas vienen de autores como Suetonio o Tácito, que escribían décadas después y desde el punto de vista del Senado, es decir, de la clase a la que los emperadores habían quitado el poder. El repertorio de vicios que atribuyen a los malos emperadores es sospechosamente el mismo —crueldad, incesto, glotonería, desprecio del Senado—, y funciona como un género literario con sus reglas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un emperador era «malo» sobre todo si trataba mal al Senado, que es quien escribió la historia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento más útil es estructural: gobernara quien gobernara, la maquinaria funcionaba casi igual. Los mismos impuestos, las mismas legiones, la misma administración local. Que un emperador fuera un monstruo o un santo cambiaba la vida de la corte y muy poco la de un campesino de la Galia, y eso dice bastante sobre dónde estaba de verdad el poder.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Beard rescata en cambio el retrato que sí resiste: el de un emperador como gestor de peticiones. Se conserva correspondencia entre Trajano y Plinio, gobernador en Asia Menor, y lo que se lee es un jefe contestando consultas administrativas sobre bomberos, cañerías y qué hacer con unos cristianos. El poder imperial, visto de cerca, era en buena parte papeleo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "De la gente corriente queda más de lo que parece, si se mira dónde" },
+      {
+        b: "texto",
+        texto:
+          "La parte que Beard más disfruta es la que reconstruye la vida de los que no escribieron libros, y para eso usa fuentes que la historia tradicional despreciaba: lápidas, recibos, contratos, pintadas y listas de la compra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las paredes de Pompeya conservan miles de pintadas: propaganda electoral, insultos, cuentas de una taberna, y un montón de gente presumiendo de haber estado allí. Los grafitos son de las pocas voces romanas que no pasaron por un autor culto, y suenan asombrosamente parecidas a las de cualquier pared de hoy.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un imperio no se entiende por sus emperadores: se entiende por lo que pagaba, comía y escribía en las paredes la gente corriente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las lápidas dan lo que ningún historiador antiguo: nombres de esclavos y libertos, oficios, edades, relaciones familiares. Aparecen panaderos orgullosos de su horno, matrimonios entre libertos, niños muertos con dos años, y esa es la escala real del imperio. Una parte grande de la población urbana era esclava o descendiente de esclavos, y la manumisión era frecuente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Beard también corrige el tópico de la mujer romana invisible. Aparecen propietarias, prestamistas y negociantes en documentos y en inscripciones, y las cartas de la guarnición de Vindolanda, en la frontera de Britania, incluyen una invitación de cumpleaños escrita por la mujer de un oficial a otra: el texto en latín escrito por una mujer más antiguo que se conserva.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro recorre mil años de Roma sin contarlos como una cadena de emperadores. Lo que hace es examinar de dónde viene lo que creemos saber: qué escribieron los romanos sobre su propio origen y por qué, cómo una ciudad sin plan acabó gobernando el Mediterráneo repartiendo su ciudadanía, cómo se erosionó la república durante un siglo antes de caer, y qué se puede reconstruir de los millones que no dejaron libros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la manera de mirar. Beard trata las fuentes como lo que son —textos escritos por alguien, en un momento y con un interés— y con eso le devuelve al lector una capacidad que la divulgación histórica suele quitarle: la de preguntar cómo se sabe eso. Y su insistencia en los recibos y las lápidas cambia la escala del asunto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La historia de Roma no está solo en lo que contaron sus historiadores: está en lo que escribieron en las paredes los que no eran nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La estructura lo paga: al organizar el libro por problemas y no por cronología, quien no traiga una idea previa de la secuencia romana se pierde, y hay saltos de siglos entre párrafos. No es un libro para aprender qué pasó y en qué orden; es un libro para revisar lo que uno creía saber.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay dos decisiones discutibles. La primera es dónde termina: en el año 212, con la ciudadanía universal de Caracalla, dejando fuera dos siglos y medio que incluyen el cristianismo como religión imperial y la caída de Occidente, que es justo lo que mucha gente iba buscando. La segunda es de énfasis: su empeño en desmontar leyendas hace que a veces el escepticismo ocupe el sitio de la explicación, y el lector se queda sabiendo lo que no ocurrió sin acabar de ver lo que sí.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  spqr: SPQR,
   "por-que-dormimos": POR_QUE_DORMIMOS,
   influencia: INFLUENCIA,
   principito: PRINCIPITO,

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  spqr:
+    "Los romanos contaban que su ciudad la fundó un hombre que mató a su hermano y la pobló acogiendo a fugitivos y esclavos huidos. Beard parte de ahí para examinar cómo sabemos lo que creemos saber de Roma.",
+
   "por-que-dormimos":
     "Cuando un país adelanta el reloj en primavera y pierde una hora de sueño, sus hospitales registran un pico de infartos; en otoño, cuando se gana, bajan. Walker parte de ahí para contar qué hace el cuerpo mientras duermes.",
 

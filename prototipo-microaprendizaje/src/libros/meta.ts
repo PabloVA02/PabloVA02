@@ -104,22 +104,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "spqr",
-    titulo: "SPQR",
-    autor: "Mary Beard",
-    ano: 2015,
-    gancho: "Mil años de Roma contados sin empezar por la loba y sin terminar con los bárbaros. Empieza en un discurso de Cicerón y acaba en un decreto de 212.",
-    porQue: "Es la mejor historia de Roma escrita para gente normal, y desmonta la mitad de las cosas que todos creemos saber sin dejar de ser divertida.",
-    minutos: 21.9,
-    capitulos: [
-      { titulo: "Cicerón contra Catilina", minutos: 4.3 },
-      { titulo: "Los gemelos y el asilo", minutos: 4.3 },
-      { titulo: "La ciudad que hacía ciudadanos", minutos: 4.5 },
-      { titulo: "Las tablillas de Vindolanda", minutos: 4.3 },
-      { titulo: "212 después de Cristo", minutos: 4.4 },
-    ],
-  },
-  {
     id: "diario-ana-frank",
     titulo: "Diario de Ana Frank",
     autor: "Ana Frank",

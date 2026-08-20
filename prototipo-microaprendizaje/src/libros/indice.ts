@@ -115,7 +115,6 @@ const CARGADORES: Record<string, Cargador> = {
   "zonas-azules": () => import("./salud").then((m) => m.ZONAS_AZULES),
   "gen-historia": () => import("./ciencia").then((m) => m.EL_GEN),
   "arte-sin-hombres": () => import("./arte").then((m) => m.ARTE_SIN_HOMBRES),
-  spqr: () => import("./historia").then((m) => m.SPQR),
   outlive: () => import("./salud").then((m) => m.OUTLIVE),
   einstein: () => import("./ciencia").then((m) => m.EINSTEIN),
   "acto-creativo": () => import("./arte").then((m) => m.ACTO_CREATIVO),
