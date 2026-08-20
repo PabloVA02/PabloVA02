@@ -213,8 +213,10 @@ export function paginasDeResumen(partes: readonly ParteMinima[]): PaginaLibro[] 
    gurú, y una idea por página resumida en la caja del rayo. Las listas llevan
    la entradilla en negrita porque son lo que la gente vuelve a mirar.
 
-   Ocho páginas de unas 230 palabras: unos veinte minutos de lectura en total,
-   que es lo que dura el formato.
+   Reescrito el 20 de agosto con el molde de `REDACCION.md`: página uno de
+   ENTRADA que anuncia el recorrido, seis de argumento y una CONCLUSIÓN que
+   dice también dónde flojea el libro. La medida y el resto de las reglas
+   están en ese archivo; aquí no se repiten para que no queden desfasadas.
    -------------------------------------------------------------------------- */
 
 const HABITOS_ATOMICOS: PaginaLibro[] = [
@@ -250,6 +252,11 @@ const HABITOS_ATOMICOS: PaginaLibro[] = [
           { fuerte: "Recompensa", texto: "lo que cierra el ciclo. Hazla satisfactoria." },
         ],
       },
+      {
+        b: "texto",
+        texto:
+          "Ese es el recorrido de este resumen: por qué conviene mirar el sistema y no la meta, por qué los hábitos que duran son los que cambian quién crees que eres, y después las cuatro leyes una por una con lo que hay que hacer en cada una. La última página dice dónde flojea el libro, que también tiene su parte.",
+      },
     ],
   },
 
@@ -276,6 +283,11 @@ const HABITOS_ATOMICOS: PaginaLibro[] = [
         texto:
           "La consecuencia práctica es dejar de medirse por el resultado y empezar a medirse por la frecuencia. No «perder ocho kilos», sino «entrenar tres días por semana». No «leer treinta libros», sino «leer veinte minutos antes de dormir». El resultado sigue importando, pero deja de ser la palanca.",
       },
+      {
+        b: "texto",
+        texto:
+          "Clear usa una imagen para explicar por qué se abandona justo antes de tiempo. Un cubito de hielo a diez grados bajo cero al que se le calienta la habitación: a los nueve bajo cero no pasa nada, a los cinco tampoco, a los dos tampoco. Todo el esfuerzo parece perdido hasta que se llega a cero y entonces, de golpe, se derrite. Lo anterior no era inútil, era lo que hacía falta para llegar ahí.",
+      },
     ],
   },
 
@@ -301,6 +313,11 @@ const HABITOS_ATOMICOS: PaginaLibro[] = [
         b: "texto",
         texto:
           "Esto también funciona al revés y ahí está lo interesante: no hace falta creerse escritor para empezar a escribir. Basta escribir dos frases hoy para tener una prueba, pequeña, de que uno escribe. La identidad no precede al hábito, se construye con él, y por eso el tamaño inicial importa menos de lo que parece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia se nota en cómo se dice que no. Ante un cigarrillo, «no gracias, estoy intentando dejarlo» es la respuesta de alguien que sigue siendo fumador y está haciendo un esfuerzo; «no gracias, yo no fumo» es la de alguien que ya no lo es. La segunda no gasta fuerza de voluntad, porque no hay nada que resistir.",
       },
     ],
   },
@@ -331,6 +348,11 @@ const HABITOS_ATOMICOS: PaginaLibro[] = [
           { fuerte: "Rediseña", texto: "el sitio para que la señal esté a la vista." },
         ],
       },
+      {
+        b: "texto",
+        texto:
+          "Apilar hábitos tiene una fórmula que cabe en una frase: después de tal cosa que ya hago, haré tal otra. El anclaje es una costumbre que ya está instalada —el café de la mañana, cerrar el portátil, lavarse los dientes— y no una hora del reloj, porque la hora se puede ignorar y la costumbre no. Y el entorno hace la mitad del trabajo: la fruta a la vista y las galletas en el armario de arriba deciden más que cualquier propósito.",
+      },
     ],
   },
 
@@ -356,6 +378,11 @@ const HABITOS_ATOMICOS: PaginaLibro[] = [
         b: "texto",
         texto:
           "El factor más potente, sin embargo, no es individual. Copiamos los hábitos de tres grupos: los cercanos, la mayoría y los poderosos. Clear es tajante en esto y conviene tomárselo en serio: rodearse de gente para la que la conducta que quieres ya es lo normal hace más que cualquier truco de motivación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La táctica más útil de esta ley es emparejar lo que hay que hacer con lo que apetece: la serie solo mientras se pedalea, el pódcast favorito solo de camino al gimnasio. Y funciona en las dos direcciones, porque el entorno social también cuenta: uno acaba adoptando las costumbres de la gente con la que pasa el rato, así que la manera más barata de que algo apetezca es rodearse de gente para la que ya es normal.",
       },
     ],
   },
@@ -383,6 +410,11 @@ const HABITOS_ATOMICOS: PaginaLibro[] = [
         texto:
           "La otra cara es útil para lo que se quiere quitar: si la fricción hace que un hábito no ocurra, basta con añadirla. Sacar la aplicación de la pantalla de inicio, dejar el mando en otra habitación, no tener en casa lo que no se quiere comer. No se trata de resistir mejor, sino de necesitar resistir menos veces.",
       },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la regla de los dos minutos: cualquier hábito nuevo se recorta hasta que empezarlo cueste menos de dos minutos. Leer treinta páginas se convierte en leer una; ir al gimnasio, en ponerse las zapatillas y salir por la puerta. Suena a trampa y no lo es, porque lo difícil de un hábito nunca es hacerlo: es empezarlo, y una vez empezado casi siempre se sigue.",
+      },
     ],
   },
 
@@ -409,12 +441,17 @@ const HABITOS_ATOMICOS: PaginaLibro[] = [
         texto:
           "No se trata de no fallar nunca. Se trata de que un fallo no se convierta en dos.",
       },
+      {
+        b: "texto",
+        texto:
+          "Por eso funciona tan bien marcar los días en un calendario a la vista: la marca es una recompensa inmediata para un beneficio que tardará meses, y además da pena romper una cadena larga. Con una regla al lado, que es la que salva el método: se puede fallar un día, nunca dos seguidos. Un fallo es un accidente; dos son el principio de otra costumbre.",
+      },
     ],
   },
 
   {
     bloques: [
-      { b: "rotulo", texto: "Dónde falla el libro, y qué hacer mañana" },
+      { b: "rotulo", texto: "Conclusión" },
       {
         b: "texto",
         texto:
@@ -434,6 +471,11 @@ const HABITOS_ATOMICOS: PaginaLibro[] = [
         b: "idea",
         texto:
           "Sirve para lo que promete: ordenar lo que está en tu mano. Lo que no está, no lo arregla ningún hábito de dos minutos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un límite que el libro casi no toca: da por hecho que el problema es de diseño. Quien encadena dos turnos y cuida de alguien no falla al hábito por haberlo diseñado mal, y de eso el libro no habla. Sirve para ordenar lo que está en tu mano, que no es poco, pero no explica por qué a unos les cabe más en las manos que a otros.",
       },
     ],
   },

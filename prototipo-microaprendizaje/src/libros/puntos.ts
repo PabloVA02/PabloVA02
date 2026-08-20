@@ -46,6 +46,14 @@ export const PUNTOS: Record<string, string[]> = {
     "por qué más poder no ha traído más felicidad",
   ],
 
+  "habitos-atomicos": [
+    "por qué los resultados llegan mucho después que los hábitos",
+    "por qué el sistema importa más que la meta",
+    "cómo un hábito cambia quién crees que eres",
+    "cómo apilar un hábito nuevo sobre uno que ya tienes",
+    "la regla de los dos minutos para no aplazar",
+  ],
+
   "club-5-manana": [
     "cómo repartir la primera hora del día en tres bloques de veinte minutos",
     "por qué madrugar se decide la noche anterior y no por la mañana",

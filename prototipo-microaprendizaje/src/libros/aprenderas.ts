@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "habitos-atomicos":
+    "Mejorar un uno por ciento al día no se nota el martes; sostenido un año, multiplica por treinta y siete. James Clear explica por qué los hábitos tardan tanto en verse y cómo montarlos sin gastar voluntad.",
+
   "club-5-manana":
     "La primera hora del día es la única que no le pertenece a nadie más: a las cinco no hay correos, ni reuniones, ni nadie pidiéndote algo. Robin Sharma la reparte en tres bloques de veinte minutos y explica cómo sostenerlo sin quitarse horas de sueño.",
 
