@@ -269,6 +269,76 @@ discutirse: si nadie puede estar en desacuerdo, es una etiqueta.
 titular, son un párrafo corto; y en cuanto aparece un «debes», ha dejado de
 afirmar para dar instrucciones, que es cosa de la caja del rayo o de nadie.
 
+## 3 bis. Los dos registros del titular
+
+La captura de *La Odisea*, del 21 de agosto, es la mejor de las que ha mandado
+Pablo y usa un titular distinto del de las otras: **títulos cortos de imagen**,
+de tres a cinco palabras.
+
+    La historia que sobrevivió
+    El mundo antes de las palabras
+    Un mapa donde viven los monstruos
+    La casa que no se derrumbaba
+
+No contradice el apartado 3: **la afirmación sigue estando, y va en la primera
+frase de la página.** «En realidad, el poema no empieza con Odiseo. Empieza con
+su hijo Telémaco.» El titular abre y la primera línea afirma.
+
+Cuál se usa:
+
+| | titular | ejemplo |
+|---|---|---|
+| **Ensayo, ciencia, empresa, historia** | la afirmación entera, discutible | La agricultura fue el mayor fraude de la historia |
+| **Novela, poema, clásico, biografía** | el título corto de imagen, y la afirmación en la primera frase | La casa que no se derrumbaba |
+
+La razón es de oficio: en un ensayo, la tesis ES el titular y conviene leerla de
+un vistazo. En una narración, una tesis de veinte palabras encima de cada
+página convierte el relato en un informe.
+
+### Y en un libro narrativo, la caja del rayo cambia de trabajo
+
+En un ensayo, la caja resume la idea de la página. En *La Odisea*, en cambio,
+la caja habla al lector en segunda persona y saca de la escena una lección para
+su vida:
+
+> Las cosas que te dan miedo señalan directamente a lo que valoras.
+> La paciencia no es pasiva. Es la habilidad que separa a las personas que
+> consiguen lo que quieren de las que casi lo lograron.
+> La devoción sin discernimiento es solo esperanza.
+
+Es la mejor pieza de ese resumen y la que hace que un poema de dos mil ochocientos
+años parezca escrito para el lunes que viene. **En narrativa, la caja se escribe
+así**; en ensayo, sigue siendo la idea de la página.
+
+### Los cinco recursos que hacen bueno ese resumen
+
+Están medidos y se pueden repetir:
+
+1. **La etimología.** *Epos* significa canción, así que llamar épico a algo es
+   tomar prestado el vocabulario de un poeta que recitaba junto al fuego.
+   *Xenía*, la hospitalidad obligatoria. Y el juego de palabras que casi nadie
+   conoce: el «nadie» con el que Odiseo engaña al cíclope suena en griego igual
+   que *mētis*, astucia, que es la cualidad que lo define. Tres etimologías en
+   ocho páginas, y cada una añade algo.
+2. **El dato asombroso y comprobable.** Ciento ocho pretendientes. Veinticuatro
+   libros. Ningún personaje del poema lee ni escribe jamás.
+3. **La frase corta de remate**, de tres a seis palabras, después de un párrafo
+   largo: «Se ríen.» «Solo Odiseo sobrevive.» «Y esta historia nunca ha dejado
+   de contarse.» Es puro ritmo y se nota muchísimo al leer en voz alta.
+4. **El contexto histórico como argumento y no como adorno.** Los monstruos
+   están justo donde los griegos estaban fundando colonias; el poema se compuso
+   cuando el griego acababa de adoptar el alfabeto fenicio.
+5. **La aclaración sin condescendencia, entre paréntesis**: «los años 800 y 700
+   a. C. (a. C. significa antes de Cristo)». Se explica lo que haga falta, una
+   vez, sin disculparse.
+
+Y una exclamación en todo el resumen, para el dato más raro: «¡Ni uno solo!».
+Una. La regla de no usarlas sigue en pie salvo en ese caso exacto.
+
+**Las cursivas se pueden usar**: el texto de una página admite etiquetas HTML y
+`<em>` se pinta resaltado. Van para las palabras en otro idioma —*epos*,
+*xenía*— y para nada más.
+
 ## 4. Las siete reglas de la prosa
 
 1. **Se cuenta el libro, no su historia.** Nada de cómo se escribió, cómo se
