@@ -34,7 +34,7 @@ y con el caché de fotos lleno tardan un par de minutos:
 npx vite build --config vite.uno.config.mjs
 node scripts/orden-fotos.mjs 760 > /tmp/orden-fotos.json
 node scripts/movil.mjs --dist dist-uno --lista /tmp/orden-fotos.json \
-     --ancho 240 --calidad 0.55 --tope 4
+     --ancho 240 --calidad 0.55 --tope 3.2
 ```
 
 Y luego se le pasa el fichero.
@@ -44,9 +44,16 @@ en trozos aparte y caben siete megas más de fotos, pero entonces al tocar un
 libro la página falla: no hay de dónde traer el trozo. Un libro que no abre es
 un fallo; una foto que falta sale con su cartel, que es el diseño previsto.
 
-El tope para publicarlo son 16 MB, y de ahí once y pico se los come la app con
-los libros dentro. Lo que sobra es lo que decide `--tope`, y son unas
-cuatrocientas setenta fotografías de las novecientas cincuenta y cinco.
+El tope para publicarlo son 16 MB, y de ahí doce se los come ya la app con los
+libros dentro. Lo que sobra es lo que decide `--tope`, y son unas trescientas
+ochenta fotografías de las novecientas cincuenta y cinco.
+
+**`--tope` hay que ir bajándolo.** Cada resumen escrito a mano engorda el
+paquete, así que el número de arriba caduca: iba en 4 con veintiún libros
+escritos, y con cuarenta y seis ya se pasaba de los 16 MB. Si el script avisa
+del tope, se baja dos décimas y se repite; el aviso sale ANTES de publicar, que
+para eso está. Y ojo con lanzarlo sin argumentos: sin `--lista` ni `--tope`
+mete las novecientas catorce fotos y salen 64 MB.
 
 También está **`demo.html`**, más viejo y sin fotos empotradas: se ve entero
 solo con conexión.
