@@ -45,6 +45,17 @@ const arg = (n, d) => {
   return i > 0 ? process.argv[i + 1] : d;
 };
 const SALIDA = arg("--salida", join(RAIZ, "hoja-cubiertas.html"));
+/* De dónde salen las cubiertas de Pablo. Con `--originales <carpeta>` se usan
+   los PNG de 1024 × 1536 que él manda; sin eso, las copias de 480 que lleva
+   `cubiertas.ts` para la app.
+
+   La diferencia importa aquí y no importa en la app. En un teléfono la casilla
+   mide 148 puntos, así que 480 sobra. En esta página se pintan a 210, que en
+   una pantalla de tres aumentos son 630 píxeles reales: MÁS DE LOS QUE HAY, y
+   el navegador los estira. En una página cuyo único trabajo es juzgar si las
+   cubiertas están bien, enseñarlas escaladas hacia arriba es exactamente el
+   error que no se puede cometer. */
+const ORIGINALES = arg("--originales", null);
 /* La medida sale de para qué es la página. Juzgar si cuarenta y seis
    cubiertas tienen sintonía exige verlas MUCHAS A LA VEZ: si caben tres por
    fila, para comparar la primera con la última hay que desplazar y ya no se
@@ -54,6 +65,11 @@ const SALIDA = arg("--salida", join(RAIZ, "hoja-cubiertas.html"));
    El resto va más pequeño porque ahí no se compara, se ojea. */
 const ANCHO_PROPIA = 210;
 const ANCHO_RESTO = 140;
+/* Al doble de lo que se pinta, para que una pantalla de dos aumentos las vea
+   nítidas, y con calidad alta: son dibujos de color plano con texto pequeño,
+   y ahí la compresión se nota en los bordes de las letras antes que en nada. */
+const ANCHO_HOJA = 480;
+const CALIDAD_HOJA = 0.9;
 
 const lee = (f) => readFileSync(join(RAIZ, "src", "libros", f), "utf8");
 
@@ -113,24 +129,45 @@ console.log(`${DIBUJADAS.size} dibujadas · ${TIPO.size} tipográficas · ${nece
 const navegador = await chromium.launch();
 const pagina = await navegador.newPage();
 const empotradas = new Map();
-let hechas = 0;
-for (const f of necesarias) {
-  const bruto = await trae(FOTOS.get(f.id).archivo);
-  if (!bruto) continue;
-  const uri = await pagina.evaluate(
-    async ([datos, ancho]) => {
+
+/** Pasa una imagen por Chromium: la estrecha a `ancho` y la devuelve en WebP. */
+async function reescribe(bruto, ancho, calidad, tipo = "*") {
+  return pagina.evaluate(
+    async ([datos, tipo, ancho, calidad]) => {
       const img = new Image();
-      img.src = "data:image/*;base64," + datos;
+      img.src = `data:image/${tipo};base64,${datos}`;
       try { await img.decode(); } catch { return null; }
       const lienzo = document.createElement("canvas");
       const escala = Math.min(1, ancho / img.naturalWidth);
       lienzo.width = Math.round(img.naturalWidth * escala);
       lienzo.height = Math.round(img.naturalHeight * escala);
       lienzo.getContext("2d").drawImage(img, 0, 0, lienzo.width, lienzo.height);
-      return lienzo.toDataURL("image/webp", 0.6);
+      return lienzo.toDataURL("image/webp", calidad);
     },
-    [bruto.toString("base64"), ANCHO_RESTO * 1.6],
+    [bruto.toString("base64"), tipo, ancho, calidad],
   );
+}
+
+/* Las de Pablo, desde el original si lo hay. */
+if (ORIGINALES) {
+  let n = 0;
+  for (const id of [...DIBUJADAS.keys()]) {
+    const ruta = join(ORIGINALES, `${id}.png`);
+    if (!existsSync(ruta)) continue;
+    const uri = await reescribe(readFileSync(ruta), ANCHO_HOJA, CALIDAD_HOJA, "png");
+    if (uri) { DIBUJADAS.set(id, uri); n++; }
+  }
+  console.log(`  ${n} cubiertas rehechas desde el original a ${ANCHO_HOJA} de ancho`);
+} else {
+  console.log(`  ⚠ sin --originales: las de Pablo van a 480, que en una pantalla`);
+  console.log(`    de tres aumentos se ven estiradas en esta página.`);
+}
+let hechas = 0;
+for (const f of necesarias) {
+  const bruto = await trae(FOTOS.get(f.id).archivo);
+  if (!bruto) continue;
+  /* Al doble de lo que se pintan, por lo mismo que las de Pablo. */
+  const uri = await reescribe(bruto, ANCHO_RESTO * 2, 0.72);
   if (uri) { empotradas.set(f.id, uri); hechas++; }
   if (hechas % 20 === 0) process.stdout.write(`\r  ${hechas}/${necesarias.length}`);
 }

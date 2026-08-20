@@ -7911,3 +7911,26 @@ button {
   color: #fff;
 }
 .explorar .parrilla { margin-top: 18px; }
+
+/* La entrada a la estantería entera, al final de explorar. Ancha y con su
+   flecha: es una puerta, no una pastilla más de las de arriba. */
+.ver-todos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: calc(100% - var(--shell-pad) * 2);
+  margin: 30px var(--shell-pad) 0;
+  padding: 17px 18px;
+  border: 1px solid #3d3d3d;
+  border-radius: 14px;
+  background: #2c2c2c;
+  color: #fff;
+  text-align: left;
+  transition: background 0.14s ease, border-color 0.14s ease;
+}
+.ver-todos:active { background: #363636; border-color: #565656; }
+.ver-todos > span:first-child { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.ver-todos strong { font-size: 16px; font-weight: 700; letter-spacing: -0.015em; }
+.ver-todos-sub { font-size: 13.5px; color: #9a9a9a; }
+.ver-todos-flecha { flex: none; color: #6ddc89; font-size: 19px; line-height: 1; }

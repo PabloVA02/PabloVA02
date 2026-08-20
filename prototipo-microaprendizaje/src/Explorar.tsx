@@ -6,6 +6,7 @@ import {
 import { GENEROS, LIBROS_POR_GENERO } from "./libros/generos";
 import { TENDENCIAS } from "./libros/tendencias";
 import { SUBTITULOS } from "./libros/subtitulos";
+import { PORTADAS_LIBRO } from "./libros/portadas";
 import { GLIFOS_GENERO } from "./glifos-generos";
 import { GlyphClose, GlyphLupa } from "./glyphs";
 import { spring, springSoft } from "./motion";
@@ -91,6 +92,7 @@ export function Explorar({
 }) {
   const [busca, setBusca] = useState("");
   const [genero, setGenero] = useState<string | null>(null);
+  const [todos, setTodos] = useState(false);
   const caja = useRef<HTMLInputElement>(null);
 
   /* `useDeferredValue` deja que la letra aparezca en la caja antes de que se
@@ -111,6 +113,19 @@ export function Explorar({
     if (!genero) return [];
     return LIBROS_POR_GENERO[genero].map(porId).filter((l): l is Libro => !!l);
   }, [genero]);
+
+  /* La estantería entera, con las que tienen cubierta dibujada delante. Es lo
+     que pidió Pablo para poder mirarlas juntas, y de paso es el orden que más
+     conviene a cualquiera: son los libros que mejor se presentan. */
+  const catalogo = useMemo(
+    () =>
+      [...LIBROS].sort((a, b) => {
+        const pa = PORTADAS_LIBRO[a.id]?.local ? 0 : 1;
+        const pb = PORTADAS_LIBRO[b.id]?.local ? 0 : 1;
+        return pa - pb;
+      }),
+    [],
+  );
 
   const buscando = consulta.length >= 2;
   const abierto = GENEROS.find((g) => g.id === genero);
@@ -135,7 +150,10 @@ export function Explorar({
             value={busca}
             onChange={(e) => {
               setBusca(e.target.value);
-              if (e.target.value) setGenero(null);
+              if (e.target.value) {
+                setGenero(null);
+                setTodos(false);
+              }
             }}
             placeholder="Título, autor o tema"
             aria-label="Buscar entre los libros"
@@ -194,6 +212,43 @@ export function Explorar({
                 </div>
               )}
             </motion.div>
+          ) : todos ? (
+            <motion.div
+              key="todos"
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0 }}
+              transition={springSoft}
+            >
+              <div className="genero-cabecera">
+                <button
+                  className="genero-volver"
+                  type="button"
+                  onClick={() => setTodos(false)}
+                  aria-label="Volver a explorar"
+                >
+                  <GlyphClose />
+                </button>
+                <div>
+                  <h2>Todos los libros</h2>
+                  <p className="bloque-sub">
+                    {catalogo.length} en la estantería · las de cubierta dibujada, primero
+                  </p>
+                </div>
+              </div>
+              <div className="parrilla">
+                {catalogo.map((l, i) => (
+                  <FichaLibro
+                    key={l.id}
+                    libro={l}
+                    i={Math.min(i, 9)}
+                    onAbrir={() => onAbrir(l)}
+                    guardado={guardados?.has(l.id)}
+                    onGuardar={onGuardar && (() => onGuardar(l))}
+                  />
+                ))}
+              </div>
+            </motion.div>
           ) : abierto ? (
             <motion.div
               key={`g-${abierto.id}`}
@@ -242,6 +297,23 @@ export function Explorar({
             >
               <Generos onElegir={setGenero} />
               <Tendencias onAbrir={onAbrir} />
+              {/* La estantería entera. Va al final y no arriba: quien entra a
+                  explorar quiere que le propongan algo, y ver los doscientos
+                  de golpe es lo que se hace cuando lo demás no ha servido. */}
+              <motion.button
+                className="ver-todos"
+                type="button"
+                onClick={() => setTodos(true)}
+                whileTap={{ scale: 0.98 }}
+              >
+                <span>
+                  <strong>Todos los libros</strong>
+                  <span className="ver-todos-sub">Los {catalogo.length} de la estantería, en una parrilla</span>
+                </span>
+                <span className="ver-todos-flecha" aria-hidden>
+                  →
+                </span>
+              </motion.button>
             </motion.div>
           )}
         </AnimatePresence>
