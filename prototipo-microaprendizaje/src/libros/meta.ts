@@ -1304,22 +1304,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "rebelion-granja",
-    titulo: "Rebelión en la granja",
-    autor: "George Orwell",
-    ano: 1945,
-    gancho: "Cuatro editoriales lo rechazaron. En una de ellas, el funcionario que aconsejó no publicarlo era un agente soviético.",
-    porQue: "Cien páginas con animales que explican cómo una revolución acaba siendo idéntica a lo que derrocó. Y ochenta años de gente citándolo para decir exactamente lo contrario de lo que su autor defendía.",
-    minutos: 26.5,
-    capitulos: [
-      { titulo: "El niño con el látigo", minutos: 5.2 },
-      { titulo: "Los siete mandamientos", minutos: 5.4 },
-      { titulo: "El molino de viento", minutos: 5.3 },
-      { titulo: "La furgoneta del matarife", minutos: 5.4 },
-      { titulo: "Los cerdos jugando a las cartas", minutos: 5.2 },
-    ],
-  },
-  {
     id: "mundo-feliz",
     titulo: "Un mundo feliz",
     autor: "Aldous Huxley",

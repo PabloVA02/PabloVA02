@@ -13271,7 +13271,242 @@ const SEMANA_4_HORAS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Rebelión en la granja, en ocho páginas.
+
+   Breve: son cien páginas y una sola operación.
+
+   Caso (a) de la 4 bis: no se cuenta la trama de los cerdos, se cuenta lo
+   que el libro sostiene, que es un mecanismo —cómo se reescribe el pasado
+   para que nadie pueda comparar—. Y caso (d): lo que pasó después importa
+   mucho, porque este libro ha sido secuestrado por gente contra la que
+   Orwell escribía. Él era socialista y lo dijo por escrito.
+
+   Lo que casi nadie sabe y aquí sí está: que lo rechazaron cuatro
+   editoriales porque la URSS era aliada; que Orwell explicó él mismo la
+   clave en el prólogo de la edición ucraniana; que la escena final es la
+   conferencia de Teherán; y que la CIA pagó la película de 1954 y le
+   cambió el final.
+   -------------------------------------------------------------------------- */
+
+const REBELION_GRANJA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuatro editoriales lo rechazaron porque Stalin era aliado" },
+      {
+        b: "texto",
+        texto:
+          "Orwell terminó este libro en febrero de 1944, en plena guerra, y no encontró quien lo publicara. La Unión Soviética era el aliado que estaba desangrando al ejército alemán en el este, y una fábula en la que el líder revolucionario se convierte en un tirano resultaba, en aquel momento, sencillamente inoportuna. Lo rechazaron cuatro editoriales; en una de ellas el informe lo firmó el poeta T. S. Eliot. Se publicó en agosto de 1945, con la guerra acabada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El contenido no admite dudas y el propio autor no quiso que las hubiera: en el prólogo que escribió para la edición ucraniana explicó que llevaba desde la guerra de España queriendo contar cómo una revolución se convierte en lo que combatía, y que había elegido una fábula de animales para que lo entendiera cualquiera, incluso quien no supiera nada de política soviética.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado son unas cien páginas que se leen en dos horas y que llevan ochenta años funcionando fuera de su contexto. Estas páginas recorren el mecanismo que describe: cómo se toma el poder en nombre de todos, cómo se fabrica un enemigo, cómo se reescriben las reglas de noche, qué pasa con el que más trabaja y por qué el final es una escena de cena. El subtítulo original decía lo que era y se ha perdido en casi todas las ediciones posteriores: un cuento de hadas. Orwell quería que se leyera así, en voz alta y de un tirón.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No es una fábula sobre cerdos malvados: es el manual de cómo una revolución se come a sí misma, paso por paso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La revolución empieza bien, y eso es lo que hace que el libro duela" },
+      {
+        b: "texto",
+        texto:
+          "Un cerdo viejo reúne a los animales de una granja inglesa y les explica algo que ninguno había pensado: son ellos los que trabajan, los que producen la leche, los huevos y el grano, y todo se lo lleva un hombre que no hace nada. Su discurso es correcto y el libro no lo desmiente en ninguna página posterior. Después muere, y los animales expulsan al granjero borracho en una tarde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los primeros meses son los mejores. Trabajan más que nunca y con la cosecha más grande de la historia de la granja, comen mejor, nadie roba, se enseña a leer a los que quieren aprender y se escriben en la pared siete mandamientos que resumen el nuevo orden. Ningún animal dormirá en una cama, ningún animal beberá alcohol, ningún animal matará a otro animal, todos los animales son iguales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Que ese arranque esté contado en serio es la decisión más importante del libro. Si la revolución fuera un fraude desde el primer día, la fábula no serviría para nada: bastaría con no hacerla. Lo que Orwell quiere explicar es cómo un cambio que empieza siendo justo, y que mejora la vida de todos durante un tiempo, acaba en el sitio contrario sin que nadie pueda señalar el día exacto en que se torció. Y los siete mandamientos no son un adorno: son el instrumento de medida del libro. Todo lo que pasa después se puede comprobar contra esa pared, y de eso vive la fábula.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La fábula no dice que la revolución fuera un engaño: dice que empezó bien, y por eso es útil.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El poder no se toma con un discurso: se toma con nueve perros criados aparte",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dos cerdos organizan la granja después de la revolución: Snowball, que hace planes, discute, convence y proyecta un molino de viento para dar electricidad a todos; y Napoleón, que no habla mucho en las asambleas y se dedica a otra cosa. Se lleva nueve cachorros recién nacidos a un desván y los cría él solo durante meses, y nadie se acuerda de aquello.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El día de la votación decisiva sobre el molino, cuando Snowball está a punto de ganar la asamblea, Napoleón suelta un chillido y aparecen nueve perros enormes que persiguen a su rival hasta echarlo de la granja. A partir de ese momento se acabaron las asambleas: las decisiones las tomará un comité de cerdos y se comunicarán después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena resume una idea incómoda: en el momento en que se decide todo, los argumentos no sirven de nada, porque lo que decide es quién tiene los perros. Y Orwell añade el segundo movimiento, que es el que se olvida: a partir de entonces el molino se construye igual, pero se cuenta que la idea era de Napoleón y que Snowball la había robado. Se queda el proyecto y se cambia el autor. Los cachorros, además, no fueron robados a escondidas: sus madres los entregaron sin protestar, porque Napoleón dijo que se encargaría personalmente de su educación. Nadie ve un peligro en una escuela.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mientras uno convence a la asamblea, el otro cría perros: el debate lo gana quien no lo está discutiendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El enemigo expulsado sirve mucho más que el enemigo presente" },
+      {
+        b: "texto",
+        texto:
+          "Con Snowball fuera de la granja empieza la parte más moderna del libro. Todo lo que sale mal es culpa suya: si se rompe una ventana, si se seca la leche, si el molino se derrumba con el viento, ha sido Snowball, que viene de noche. Nadie lo ha visto, pero se cuenta con tanto detalle —por dónde entró, qué tocó— que la duda no llega a formarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y su biografía cambia hacia atrás. Al principio se admite que luchó valientemente en la batalla contra los hombres; unos meses después se explica que en realidad se pasó al enemigo desde el primer momento y que las heridas que recibió se las hizo el propio Napoleón. Los animales lo recuerdan de otra manera, pero recordar contra un relato oficial repetido cada día es un trabajo que casi nadie puede hacer solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La pieza clave aquí es Squealer, el cerdo que explica. No manda ni pega: llega después de cada cambio y cuenta por qué no ha habido ningún cambio, con cifras que nadie puede comprobar, con la advertencia de que si no aceptan volverá el granjero, y con la frase que cierra cualquier discusión: seguro que no querrán ustedes que vuelva el hombre. Y hay una escena que cierra el método: cuando por fin se juzga a los culpables, varios animales confiesan en público crímenes imposibles y son ejecutados en el acto delante de todos. Son los procesos de Moscú, contados en dos páginas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un enemigo que ya no está es perfecto: explica cualquier fracaso y no puede contestar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los mandamientos se cambian de noche, y esa es la verdadera trama del libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los siete mandamientos están pintados en la pared del granero, y ahí está el fallo del sistema: son comprobables. Así que se van corrigiendo. Cuando los cerdos se instalan en la casa, la norma que decía que ningún animal dormirá en una cama amanece diciendo que ningún animal dormirá en una cama con sábanas. Cuando empiezan a beber, la norma contra el alcohol pasa a ser contra el exceso de alcohol. Cuando hay ejecuciones, la que prohibía matar añade dos palabras: sin motivo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nadie ve cambiarlos. Los animales van a mirar la pared porque tienen la sensación de que aquello decía otra cosa, leen la frase nueva y concluyen que se acordaban mal. Un cerdo aparece por allí una noche con una lata de pintura y una escalera caída, y no se saca ninguna consecuencia. La memoria de un grupo, sin nada escrito que no puedan tocar los de arriba, dura muy poco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la frase más citada del siglo XX, la que queda en la pared cuando todos los mandamientos se han reducido a uno solo: todos los animales son iguales, pero algunos animales son más iguales que otros. Es una frase absurda desde el punto de vista lógico, y ese es exactamente el punto: para entonces ya nadie está en condiciones de decirlo en voz alta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien controla lo que está escrito en la pared controla lo que pasó, y quien controla lo que pasó no tiene que discutir el presente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El que más trabaja es el primero al que venden" },
+      {
+        b: "texto",
+        texto:
+          "Boxer es un caballo de tiro enorme, fuerte como dos animales, corto de entendederas y de una lealtad absoluta. Tiene dos lemas: trabajaré más duro y Napoleón siempre tiene razón. Se levanta una hora antes que los demás para acarrear piedras, sostiene la construcción del molino y, cuando ve que las cosas no cuadran, su solución es trabajar todavía más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un día se le revienta un pulmón tirando de una carga. Los cerdos anuncian que lo mandan a un hospital de la ciudad, y los animales lo despiden con alivio. Cuando la furgoneta ya está en marcha, uno de los que sabe leer descifra lo que pone en el costado: es la del matarife de caballos. Boxer patalea dentro y no tiene fuerzas para romper la puerta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Días después, Squealer explica emocionado que Boxer murió en el hospital con los mejores cuidados y que sus últimas palabras fueron un elogio del líder, y añade que lo del cartel es un malentendido, que el veterinario compró la furgoneta y no le dio tiempo a repintarla. Esa misma semana los cerdos organizan un banquete y aparece en la granja una caja de whisky. El dinero de Boxer se lo han bebido. Su otra frase, la que repite hasta el final, es todavía peor que la primera: si el camarada Napoleón lo dice, tiene que ser verdad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El sistema no se sostiene sobre los que creen: se sostiene sobre los que trabajan, y a esos se les gasta y se les vende.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El final no es una tragedia: es una cena entre socios" },
+      {
+        b: "texto",
+        texto:
+          "El libro termina con los cerdos de pie sobre dos patas, con látigo, invitando a cenar a los granjeros de las fincas vecinas, esos mismos hombres contra los que se hizo la revolución. Brindan juntos, se felicitan por lo bien que funcionan sus respectivas explotaciones y comentan que los animales de esta granja trabajan más y comen menos que en ninguna otra del condado, cosa que a los granjeros les parece admirable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fuera, los animales miran por la ventana. Estalla una discusión por una jugada de cartas, todos empiezan a gritar a la vez, y los de fuera van de la cara de los cerdos a la de los hombres y de la de los hombres a la de los cerdos, y ya no saben cuál es cuál. Ahí acaba el libro, sin moraleja y sin desenlace.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena tiene además una fecha detrás. Orwell escribía en 1943, el año de la conferencia de Teherán, donde Stalin se sentó a la mesa con Churchill y Roosevelt a repartirse la Europa de la posguerra. Para él, aquella cena era el final lógico de la historia que estaba contando: los que se habían presentado como lo contrario del viejo mundo negociando con él de igual a igual. El nombre también vuelve al principio: en el brindis, los granjeros celebran que la finca recupere su viejo nombre, el de antes de la revolución.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El desenlace no es que los cerdos se vuelvan crueles: es que se sientan a la mesa con aquellos contra los que se hizo todo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Rebelión en la granja cuenta una revolución justa que en pocos años produce un régimen peor que el que derribó, y explica el procedimiento: se concentra el poder, se fabrica un traidor que explique los fracasos, se reescribe lo que decían las reglas, se gasta a los que trabajan y se acaba negociando con el enemigo original. Cada pieza tiene su equivalente en la Unión Soviética, y Orwell lo dijo por escrito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es haber puesto un mecanismo político al alcance de cualquiera. Un chico de trece años entiende sin ninguna explicación previa por qué es grave que una frase de la pared amanezca cambiada, y esa comprensión le sirve después para cosas que no tienen nada que ver con cerdos. Pocos libros de cien páginas han enseñado tanto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todos los animales son iguales, pero algunos animales son más iguales que otros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La alegoría es tan exacta —cada personaje es una persona real— que el libro se cierra sobre sí mismo: leído como clave, se convierte en un crucigrama con solución, y lo que sobrevive es lo general, no el detalle. Y el retrato de los de abajo es duro hasta la incomodidad: las ovejas balan consignas, Boxer es leal y tonto, las gallinas se rinden, y ninguno de ellos entiende nada en ningún momento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene además saber quién escribía. Orwell era socialista, había combatido en España contra Franco y escribió esto contra el estalinismo, no contra la izquierda; le molestaba que lo usaran los que querían leer su libro como una condena de cualquier intento de cambiar las cosas. La historia le dio la razón por partida doble: en 1954 la CIA financió en secreto una película de dibujos animados basada en el libro y le cambió el final, quitando la cena de los cerdos con los hombres para que la culpa se quedara toda de un lado.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "rebelion-granja": REBELION_GRANJA,
   "semana-4-horas": SEMANA_4_HORAS,
   "steve-jobs": STEVE_JOBS,
   hobbit: HOBBIT,

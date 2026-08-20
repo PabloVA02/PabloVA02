@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "rebelion-granja":
+    "Los animales de una granja echan al granjero y montan un sistema justo. En unos años tienen algo peor de lo que había, y el libro explica exactamente por qué pasos ocurre.",
+
   "semana-4-horas":
     "El libro que convenció a mucha gente de que cuarenta años de oficina son una convención y no una ley. Cuatro pasos para quitarte el trabajo que no produce nada y usar el tiempo ahora.",
 

@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "rebelion-granja": [
+    "cómo se toma el poder mientras otros discuten",
+    "para qué sirve un enemigo que ya no está",
+    "cómo se reescriben las reglas sin que nadie lo note",
+    "qué le pasa al que más trabaja de todos",
+    "por qué el final es una cena entre socios",
+  ],
+
   "semana-4-horas": [
     "cómo escribir tus miedos para dejar de aplazar una decisión",
     "por qué una tarea se hincha hasta llenar el plazo",

@@ -37,7 +37,6 @@ const CARGADORES: Record<string, Cargador> = {
   respira: () => import("./ciencia-salud").then((m) => m.RESPIRA),
 
   /* Literatura */
-  "rebelion-granja": () => import("./literatura").then((m) => m.REBELION_GRANJA),
   fahrenheit: () => import("./literatura").then((m) => m.FAHRENHEIT),
 
   /* Arte */

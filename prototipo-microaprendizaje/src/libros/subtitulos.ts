@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "rebelion-granja": "Un cuento de hadas",
   "semana-4-horas": "No hace falta trabajar más",
   hobbit: "Historia de una ida y de una vuelta",
   principe: "El tratado que separó la política de la moral",
