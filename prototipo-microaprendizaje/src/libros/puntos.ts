@@ -17,6 +17,10 @@
    1. UNA LÍNEA. Diez palabras como mucho. Si pide dos renglones en un móvil,
       sobra la mitad.
 
+   1 bis. EN MINÚSCULA, como en la referencia: «por qué el cerebro humano
+      vence a la inteligencia artificial», no «Por qué...». Detrás del visto no
+      empieza una frase, se continúa la del rótulo: aprenderás… esto.
+
    2. QUE SE ENTIENDA SIN HABER LEÍDO EL LIBRO. «La habitación 101» no dice
       nada a quien no ha leído 1984; «por qué la tortura busca creencia y no
       información» sí.
@@ -35,10 +39,18 @@
 
 export const PUNTOS: Record<string, string[]> = {
   sapiens: [
-    "Por qué hubo seis especies humanas y solo queda una",
-    "Cómo una ficción compartida permite cooperar entre desconocidos",
-    "Por qué la agricultura empeoró la vida de casi todos",
-    "Qué sostiene el valor del dinero cuando nadie lo respalda",
-    "Por qué más poder no se ha traducido en más felicidad",
+    "por qué hubo seis especies humanas y solo queda una",
+    "cómo una ficción compartida permite cooperar entre desconocidos",
+    "por qué la agricultura empeoró la vida de casi todos",
+    "qué sostiene el valor del dinero cuando nadie lo respalda",
+    "por qué más poder no ha traído más felicidad",
+  ],
+
+  "homo-deus": [
+    "por qué el hambre, la peste y la guerra han dejado de ser destinos",
+    "qué persigue la humanidad ahora que los ha resuelto",
+    "por qué la felicidad tiene un techo bioquímico",
+    "cómo los algoritmos acaban conociéndote mejor que tu pareja",
+    "en qué se diferencian la inteligencia y la conciencia",
   ],
 };

@@ -4,8 +4,9 @@
 donde venga.** Si un comentario de código, una conversación vieja o un
 recuerdo suelto lo contradice, gana esto.
 
-Sale de las capturas de Headway que pasó Pablo —veinticuatro el 19 de agosto,
-y las que vayan llegando— y de dos correcciones suyas sobre nuestro texto:
+Sale de las capturas de Headway que pasa Pablo —veinticuatro el 19 de agosto y
+treinta y tres el 20, y las que vayan llegando— y de sus correcciones sobre
+nuestro texto:
 
 > «Está muy mal redactado, los libros no me gustan.»
 > «Lo que aprenderás y tal también está fatal, y de qué se trata igual.»
@@ -24,10 +25,24 @@ en el orden en que se sostiene.
 
 Se lee en unos veinte minutos. Ocho páginas de unas 260 palabras.
 
-## 2. La anatomía de una página
+## 2. La anatomía de un resumen
 
-Todas las páginas tienen la misma forma, y esa constancia es media parte del
-formato:
+Ocho páginas, y la primera y la última tienen trabajo propio:
+
+| página | qué hace |
+|---|---|
+| **1. La entrada** | de dónde parte el libro, con un dato que sorprenda, y **qué se va a recorrer en el resumen**. Se cierra anunciando el camino |
+| **2 a 7** | un argumento por página |
+| **8. Conclusión** | qué dice el libro en tres líneas, qué aporta y **dónde falla** |
+
+**No se pone «Prueba esto».** La referencia termina con una lista de deberes
+—«decídete a…», «reserva cada día…»— y Pablo la quitó expresamente el 20 de
+agosto: *«no añadas lo de prueba esto, solo añade una conclusión»*. El bloque
+`prueba` sigue existiendo en el código por si algún día vuelve, pero no se usa.
+
+## 2 bis. La anatomía de una página
+
+Todas tienen la misma forma, y esa constancia es media parte del formato:
 
 ```
 TITULAR            una afirmación entera, no una etiqueta
@@ -36,7 +51,20 @@ CAJA DEL RAYO      la idea de la página en una frase, para recordarla
 LISTA              solo si hay una enumeración de verdad
 ```
 
-La última página se llama **Conclusión**.
+Recursos que usa la referencia y que conviene usar, con medida:
+
+- **La analogía doméstica.** Explicar el neocórtex por habitaciones de una
+  casa, la ficción compartida por un billete. Una por página como mucho.
+- **La lista con entradilla.** Un párrafo que termina en dos puntos y debajo
+  los puntos, cada uno con su palabra en negrita.
+- **La pregunta directa.** «¿Y sabes por qué?» abre una explicación mejor que
+  un conector. Una o dos por resumen; más, y suena a locutor.
+- **El dato curioso.** Una frase de «¿sabías que…?» con el término en negrita.
+  Vale para descansar entre dos argumentos.
+
+Lo que NO se copia de la referencia: los signos de admiración, los «¡vamos por
+ello!» y el «en este resumen exploraremos» repetido. Se anuncia el recorrido
+una vez, en la entrada, y se sigue.
 
 ## 3. El titular AFIRMA
 
@@ -93,6 +121,9 @@ distintas y cada una vive en su fichero:
 Los «Aprenderás» no son el índice. «La habitación 101» no dice nada a quien no
 ha leído *1984*; «por qué la tortura busca creencia y no información», sí.
 
+Y van **en minúscula**, como en la referencia: detrás del visto no empieza una
+frase, se continúa la del rótulo —aprenderás… esto—.
+
 ## 6. Lo que ya salió mal, para no repetirlo
 
 - **Contar la historia del libro** en vez del libro. Corregido el 19 de agosto.
@@ -110,14 +141,17 @@ ha leído *1984*; «por qué la tortura busca creencia y no información», sí.
 - [ ] ¿Cada página tiene su caja del rayo, y se sostiene sola?
 - [ ] ¿La conclusión dice dónde falla?
 - [ ] ¿Ocho páginas de unas 260 palabras?
+- [ ] ¿La primera cuenta de dónde parte el libro y anuncia el recorrido?
+- [ ] ¿La última se llama «Conclusión» y NO hay ninguna lista de deberes?
 - [ ] ¿Están escritos el subtítulo, el «de qué va» y los cinco «Aprenderás»?
 
 ---
 
 ## Dónde está esto
 
-- El modelo terminado es **`SAPIENS`**, en `libros/paginas.ts`. Es el que
-  aprobó Pablo; se copia su forma y ya está.
+- Los modelos terminados son **`SAPIENS`** y **`HOMO_DEUS`**, en
+  `libros/paginas.ts`. Se copia su forma y ya está. Homo Deus es el primero
+  con la entrada y la conclusión del apartado 2.
 - `libros/tipos.ts` remite aquí.
 - `ESTADO.md` remite aquí, y es lo primero que se lee al empezar de cero.
 

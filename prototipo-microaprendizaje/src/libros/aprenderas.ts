@@ -33,7 +33,7 @@ export const APRENDERAS: Record<string, string> = {
     "Hace cien mil años compartíamos el planeta con otras cinco especies humanas. Harari explica por qué ganó la nuestra —sabemos inventarnos historias y creérnoslas entre millones— y qué hemos pagado por ello.",
 
   "homo-deus":
-    "Casi hemos ganado al hambre, a la peste y a la guerra. Este libro pregunta qué viene después: no querer morirnos, fabricar la felicidad y dejar cada vez más decisiones en manos de programas que nos conocen mejor que nosotros.",
+    "Hoy muere más gente por comer de más que por no tener qué comer, y se quita la vida más de la que matan todas las guerras juntas. Harari parte de ahí para preguntar a qué dedica una especie el esfuerzo cuando resuelve lo que llevaba cien mil años intentando resolver.",
 
   "diario-ana-frank":
     "Los dos años que Ana pasó escondida con su familia en un piso de Ámsterdam, contados por ella en su cuaderno. Empieza siendo una niña que se pelea con su madre y acaba escribiendo como una escritora de verdad.",

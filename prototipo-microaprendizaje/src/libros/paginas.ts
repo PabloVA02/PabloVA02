@@ -396,13 +396,9 @@ const HABITOS_ATOMICOS: PaginaLibro[] = [
           "También pesa poco lo que no depende de uno. Quien encadena dos turnos y cuida de alguien no falla al hábito por mal diseño, y el libro apenas se asoma a esa diferencia. Vale para ordenar lo que está en tu mano, no para explicar por qué a unos les cabe más en las manos que a otros.",
       },
       {
-        b: "prueba",
-        puntos: [
-          "Elige un solo hábito y redúcelo hasta que empezarlo cueste menos de dos minutos.",
-          "Escríbelo con cuándo y dónde: «después de X, haré Y en Z».",
-          "Quita de en medio una sola fricción del hábito que quieres dejar. Una basta.",
-          "Marca los días en un calendario a la vista y no falles dos seguidos.",
-        ],
+        b: "idea",
+        texto:
+          "Sirve para lo que promete: ordenar lo que está en tu mano. Lo que no está, no lo arregla ningún hábito de dos minutos.",
       },
     ],
   },
@@ -454,6 +450,11 @@ const SAPIENS: PaginaLibro[] = [
         b: "texto",
         texto:
           "Queda un rastro de aquella convivencia. El análisis del genoma neandertal demostró que hubo mezcla: un europeo o un asiático de hoy lleva entre un uno y un cuatro por ciento de ADN neandertal. No los sustituimos del todo. Lo que hay que explicar sigue en pie: qué le pasó a sapiens hace setenta mil años para que empezara a ganar en todas partes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el recorrido de este resumen. Primero, la respuesta de Harari a esa pregunta y lo que se le puede hacer a un planeta con ella. Después, las tres revoluciones que organizan el libro —la del lenguaje, la de la agricultura y la de la ciencia—, lo que costó cada una, y una última página que dice también dónde le discuten los especialistas.",
       },
     ],
   },
@@ -666,12 +667,245 @@ const SAPIENS: PaginaLibro[] = [
           "Léelo como lo que es: una tesis fuerte y bien contada sobre por qué somos como somos, no un manual de historia.",
       },
       {
-        b: "prueba",
+        b: "texto",
+        texto:
+          "Queda una manera de comprobar si su tesis aguanta, y no hace falta salir de casa: coge un billete y pregúntate qué lo sostiene. No es el papel ni el metal. Es que mañana lo va a aceptar otro, y que los dos os creéis lo mismo sin haberos visto nunca.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   Homo Deus, en ocho páginas.
+
+   El segundo escrito con el molde de `REDACCION.md`, y el primero que estrena
+   las dos reglas que salieron de las capturas del 20 de agosto: la página uno
+   es una ENTRADA que cuenta de dónde parte el libro y anuncia el recorrido, y
+   el resumen termina en CONCLUSIÓN y nada más —sin la lista de deberes que
+   pone la referencia, que Pablo quitó expresamente—.
+
+   Es la continuación de Sapiens y conviene que se lea como tal: aquel
+   explicaba cómo llegamos hasta aquí y este pregunta hacia dónde vamos.
+   -------------------------------------------------------------------------- */
+
+const HOMO_DEUS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los tres enemigos de siempre han dejado de matarnos" },
+      {
+        b: "texto",
+        texto:
+          "Durante milenios, cualquier conversación sobre el futuro giraba en torno a tres amenazas: el hambre, la peste y la guerra. Eran fuerzas incontrolables, se explicaban por la voluntad de los dioses y ninguna generación había vivido sin ellas. En el siglo XXI, por primera vez, las tres han pasado de ser destinos a ser problemas de gestión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Harari lo sostiene con la estadística de la muerte. Hoy fallece muchísima más gente por comer de más que por no tener qué comer; las epidemias que arrasaban continentes se combaten con vacunas y protocolos; y la violencia humana mata a bastante menos gente que los accidentes de tráfico. La cifra que más incomoda es esta: se quitan la vida más personas de las que mueren en todas las guerras y todos los crímenes del mundo juntos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El azúcar se ha vuelto más peligroso que la pólvora. Ese cambio de escala es el punto de partida del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí aparece la pregunta que ocupa el resto: si una especie resuelve lo que llevaba cien mil años intentando resolver, ¿a qué dedica el esfuerzo después? En este resumen se recorre la respuesta de Harari —la nueva agenda de la humanidad—, la religión que sostiene nuestra época, los descubrimientos que la están dejando sin suelo, y hacia qué está empezando a mirar el poder. La última página dice también dónde el libro se pasa de frenada.",
+      },
+    ],
+  },
+
+  {
+    bloques: [
+      { b: "rotulo", texto: "La nueva agenda: no morirse, sentirse bien y ser dioses" },
+      {
+        b: "texto",
+        texto:
+          "Resueltos el hambre, la peste y la guerra, Harari sostiene que la ambición se desplaza a tres objetivos, y que no los ha decidido nadie: son la continuación lógica de lo que ya hacemos. Se llaman inmortalidad, felicidad y divinidad, y en cuanto se miran de cerca resultan mucho menos épicos de lo que suenan.",
+      },
+      {
+        b: "lista",
         puntos: [
-          "Coge un billete y pregúntate qué lo sostiene: ni el metal ni el papel, sino que mañana lo acepte otro.",
-          "Piensa en una comodidad que empezó como lujo y hoy no puedes soltar. Esa es la trampa del lujo.",
-          "Cuando alguien te diga que algo es «natural» —una jerarquía, un reparto, un papel—, busca quién sale ganando.",
+          { fuerte: "No morirse", texto: "no es vivir para siempre, sino no tener fecha. Un accidente seguiría matándote." },
+          { fuerte: "Sentirse bien", texto: "convertir el ánimo en un problema de bioquímica que se pueda ajustar." },
+          { fuerte: "Ser dioses", texto: "rediseñar el cuerpo y la mente, en vez de conformarse con los que tocaron." },
         ],
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo llamativo es que ya se está invirtiendo dinero serio en las tres. Google creó en 2013 una empresa —Calico— cuyo objetivo declarado es tratar el envejecimiento como una enfermedad; los laboratorios llevan décadas vendiendo estados de ánimo, y la ingeniería genética permite hoy elegir características que hace veinte años eran lotería.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La medicina del siglo XX curaba enfermos. La del XXI quiere mejorar a los sanos, y esa es una frontera distinta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Harari avisa de que no es una profecía sino una extrapolación: nada garantiza que se consiga. Lo que sí afirma es que el intento ya está en marcha y que sus consecuencias se reparten muy mal, porque una mejora que se compra la compran unos pocos.",
+      },
+    ],
+  },
+
+  {
+    bloques: [
+      { b: "rotulo", texto: "La felicidad tiene un techo bioquímico, no económico" },
+      {
+        b: "texto",
+        texto:
+          "El segundo objetivo choca con un problema que ya conocía Epicuro: el organismo devuelve el ánimo a su punto de partida pase lo que pase. Un ascenso, una casa nueva o un premio suben la aguja unas semanas y luego el listón se recoloca, de manera que la siguiente mejora tiene que ser mayor para producir el mismo efecto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca Harari una conclusión incómoda: si el bienestar depende de sensaciones y las sensaciones dependen de la bioquímica, el camino corto no es cambiar el mundo, es cambiar la bioquímica. Y eso ya se hace a gran escala, con antidepresivos y estimulantes recetados a millones de personas que no están enfermas, sino que rinden por debajo de lo que se les pide.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si la felicidad se puede recetar, deja de ser un premio por cómo vives y pasa a ser un producto que se compra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro pone enfrente la salida budista, que le parece la única alternativa seria: dejar de perseguir sensaciones agradables en vez de perseguirlas mejor. No la defiende ni la vende; la usa para enseñar que la búsqueda moderna de la felicidad da por hecho algo que no es evidente, y es que sentirse bien sea el objetivo correcto.",
+      },
+    ],
+  },
+
+  {
+    bloques: [
+      { b: "rotulo", texto: "El humanismo es la religión de los últimos trescientos años" },
+      {
+        b: "texto",
+        texto:
+          "Cuando la autoridad dejó de estar en los dioses, hubo que ponerla en algún sitio, y la modernidad la puso en la experiencia humana. Harari llama humanismo a ese acuerdo, y su prueba es que lo repetimos sin darnos cuenta: escucha a tu corazón, el cliente siempre tiene razón, el votante decide, la belleza está en el ojo de quien mira.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las tres grandes ideologías del siglo XX fueron variantes de lo mismo, no alternativas. El humanismo liberal dice que cada persona decide por sí misma; el socialista, que la decisión correcta es la del colectivo; y el evolutivo, que la humanidad tiene que seguir mejorando aunque se lleve por delante a quien se quede atrás. Ganó el primero, y por eso hoy suena a sentido común.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ningún experimento ha demostrado nunca que los sentimientos de una persona sean una guía fiable. Es un artículo de fe, y funciona como tal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esta pieza es la que sostiene el edificio entero: el mercado se organiza alrededor de tus preferencias, la democracia alrededor de tu voto y la educación alrededor de tu criterio. Si la idea de que ahí dentro hay alguien decidiendo se cayera, se caerían con ella las tres cosas. Y eso es exactamente lo que está poniendo en duda la ciencia.",
+      },
+    ],
+  },
+
+  {
+    bloques: [
+      { b: "rotulo", texto: "La ciencia está desmontando la idea de que dentro hay alguien" },
+      {
+        b: "texto",
+        texto:
+          "El humanismo supone un yo indivisible, libre y coherente. Las últimas décadas de neurociencia describen otra cosa: procesos que compiten, decisiones que se toman antes de que uno las note, y una parte del cerebro dedicada a inventar la explicación después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La demostración más famosa viene de los pacientes con los dos hemisferios desconectados por cirugía. Si se le da una orden al hemisferio derecho, la persona la obedece; y cuando se le pregunta por qué lo ha hecho, el hemisferio izquierdo —que no se ha enterado— responde con una razón perfectamente convincente y completamente falsa. No miente: se lo cree.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El cerebro tiene un narrador que llega tarde a todo y firma como propio lo que ya estaba decidido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso Harari suma una distinción que cambia bastantes cosas: no es lo mismo el yo que vive los minutos que el yo que los cuenta después. En los experimentos, el segundo recuerda sobre todo el peor momento y el final, y con esa media falsa decide qué repetir. Unas vacaciones penosas con una última tarde buena se recuerdan como buenas, y se repiten.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia política es directa. Si no hay un individuo indivisible, sino un manojo de procesos y un narrador que improvisa, la frase «nadie te conoce mejor que tú mismo» deja de ser una verdad evidente y pasa a ser una hipótesis. Una hipótesis que se puede comprobar.",
+      },
+    ],
+  },
+
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los algoritmos van a conocerte mejor de lo que te conoces" },
+      {
+        b: "texto",
+        texto:
+          "Un estudio de Cambridge midió esa hipótesis con lo más tonto que hay: los «me gusta» de una red social. Con diez, el modelo describía la personalidad de alguien mejor que un compañero de trabajo. Con setenta, mejor que un amigo. Con trescientos, mejor que su pareja. Ninguna intuición humana compite con eso, porque la intuición no puede contar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Harari sostiene que ahí está el desplazamiento de autoridad de nuestra época: del sentimiento al dato. Ya elegimos ruta porque lo dice el teléfono, y ya hay quien decide una operación quirúrgica porque lo dice un porcentaje de riesgo genético. Cada vez que eso pasa, la decisión sigue siendo tuya en teoría y del sistema en la práctica.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El día en que un algoritmo acierte más que tu corazón, «escucha a tu corazón» dejará de ser un consejo y pasará a ser una superstición.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A la fe en los datos el libro la llama dataísmo, y la describe como una religión en formación: el universo entendido como flujos de información, y el valor de cualquier cosa —una persona incluida— medido por lo que aporta al procesamiento. No hace falta que nadie se convierta; basta con que siga siendo cómodo.",
+      },
+    ],
+  },
+
+  {
+    bloques: [
+      { b: "rotulo", texto: "La inteligencia se está separando de la conciencia" },
+      {
+        b: "texto",
+        texto:
+          "Aquí está, para Harari, la distinción más importante del siglo. Inteligencia es resolver problemas; conciencia es sentir. Los seres vivos hemos hecho siempre las dos cosas a la vez, y por eso las confundimos. Las máquinas han empezado a hacer la primera muy bien sin nada de la segunda, y el mercado solo paga por la primera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el problema que el libro deja planteado. No es que las máquinas nos esclavicen: es que dejen de necesitarnos. Una clase de gente sana, formada y económicamente irrelevante, no explotada sino sobrante, es un fenómeno que la historia no ha tenido que gestionar nunca, y ninguna ideología del siglo XX está pensada para él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El siglo XX luchó contra la explotación. El XXI puede tener que lidiar con algo peor de resolver: la irrelevancia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un segundo efecto, más lento y más grave. Mientras las mejoras se compren, la desigualdad puede dejar de ser económica para volverse biológica: no gente con más dinero, sino gente con más capacidades. Las diferencias de renta se corrigen con leyes; las diferencias de cuerpo, no.",
+      },
+    ],
+  },
+
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Homo Deus se lee como la segunda mitad de Sapiens. Aquel explicaba cómo una especie corriente acabó mandando en el planeta; este pregunta qué va a hacer con ese poder, y responde que perseguir tres cosas —no morirse, sentirse bien y rediseñarse— mientras la autoridad se muda silenciosamente de los sentimientos a los datos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su mejor aportación no es un pronóstico, sino un par de distinciones que aclaran el debate: inteligencia no es conciencia, y ser explotado no es lo mismo que ser irrelevante. Con esas dos en la mano, muchas discusiones de hoy sobre tecnología se vuelven más fáciles de seguir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene leerlo sabiendo dónde flojea. Es un libro de extrapolaciones: coge tendencias reales y las estira hasta el final, y las tendencias rara vez llegan enteras. Harari lo dice él mismo —avisa de que describe posibilidades y no predicciones—, pero el tono es tan rotundo que se lee como si fueran seguras. Los críticos le señalan además que da por hecha una eficacia de la tecnología que aún no existe, y que deja poco espacio a lo que la política y la gente pueden decidir por el camino.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Léelo como lo que es: un mapa de preguntas incómodas y bien hechas, no un pronóstico de lo que va a pasar.",
       },
     ],
   },
@@ -680,4 +914,5 @@ const SAPIENS: PaginaLibro[] = [
 export const PAGINAS: Record<string, PaginaLibro[]> = {
   "habitos-atomicos": HABITOS_ATOMICOS,
   sapiens: SAPIENS,
+  "homo-deus": HOMO_DEUS,
 };
