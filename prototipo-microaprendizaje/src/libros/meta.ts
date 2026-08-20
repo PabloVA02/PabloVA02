@@ -2505,22 +2505,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "por-que-dormimos",
-    titulo: "Por qué dormimos",
-    autor: "Matthew Walker",
-    ano: 2017,
-    gancho: "Dormir seis horas en vez de ocho no es un veinticinco por ciento menos de descanso: por cómo se reparte la noche, puede ser más de la mitad menos de la fase que consolida lo aprendido. Ese cálculo es el corazón del libro y es correcto.",
-    porQue: "Porque cambió la conversación pública sobre el sueño y porque en 2019 un revisor independiente encontró en él errores de bulto, incluido un organismo internacional que nunca declaró la epidemia que el libro le atribuye. Las dos cosas son verdad a la vez.",
-    minutos: 26.9,
-    capitulos: [
-      { titulo: "Treinta y dos días en una cueva de Kentucky", minutos: 5.6 },
-      { titulo: "Lo que se pierde al recortar dos horas", minutos: 5.5 },
-      { titulo: "El volante y el sistema inmunitario", minutos: 5.4 },
-      { titulo: "La revisión de 2019", minutos: 5.1 },
-      { titulo: "Dormir con miedo a no dormir", minutos: 5.2 },
-    ],
-  },
-  {
     id: "cuerpo-cuenta",
     titulo: "El cuerpo lleva la cuenta",
     autor: "Bessel van der Kolk",

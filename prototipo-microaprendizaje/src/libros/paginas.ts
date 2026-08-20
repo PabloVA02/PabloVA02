@@ -8025,7 +8025,293 @@ const INFLUENCIA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Por qué dormimos, en ocho páginas.
+
+   Divulgación con uso práctico: tercera persona para la ciencia y segunda
+   solo en la página de qué hacer con ella.
+
+   El libro es de 2017 y en 2019 recibió una crítica muy detallada —Alexey
+   Guzey— que documentó cifras exageradas y una afirmación falsa sobre la
+   OMS, y Walker terminó corrigiendo cosas en su web. Eso NO puede faltar en
+   la conclusión, porque es el libro de salud más vendido de la década y
+   mucha gente lo cita como si cada frase fuera un dato.
+
+   Y hay que separar bien lo sólido —que es mucho— de lo exagerado, en vez
+   de tirar el libro entero o tragárselo entero.
+   -------------------------------------------------------------------------- */
+
+const POR_QUE_DORMIMOS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cada primavera, un cambio de hora produce un pico de infartos" },
+      {
+        b: "texto",
+        texto:
+          "En los países que adelantan el reloj en primavera, la gente pierde una hora de sueño en una noche. Los registros hospitalarios de esos días muestran un aumento de los infartos, y en otoño, cuando se gana una hora, el número baja. No es un experimento de laboratorio: son millones de personas y un cambio de una sola hora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Matthew Walker, neurocientífico y director de un laboratorio del sueño en Berkeley, usa ese dato para abrir porque resume su tesis: dormir no es un lujo del que se pueda recortar un poco sin consecuencias, y las consecuencias se miden.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una sola hora menos de sueño, en un solo día, se nota en las estadísticas de infartos de un país entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su otra observación de partida es que el sueño es lo único que hacen todos los animales estudiados, y que la evolución no habría conservado un estado en el que uno se queda inconsciente y sin defensa durante un tercio de su vida si no compensara mucho. Algo que cuesta tanto tiene que servir para bastante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da el dato incómodo: en los países desarrollados, una parte grande de la población adulta duerme menos de las siete horas recomendadas, y eso es reciente. Hace un siglo la media era considerablemente más alta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: qué gobierna la hora a la que te entra sueño, qué hacen las dos fases del sueño, qué se rompe cuando falta, y qué se puede cambiar. La conclusión dice también dónde falla el libro, que aquí tiene una parte importante.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dormir lo deciden dos sistemas que no se hablan entre sí" },
+      {
+        b: "texto",
+        texto:
+          "Lo que decide cuándo entra el sueño son dos mecanismos independientes. El primero es el reloj interno, que dura aproximadamente veinticuatro horas y se ajusta con la luz; controla la temperatura del cuerpo, el apetito y la alerta. El segundo es la presión de sueño: una sustancia llamada adenosina que se acumula en el cerebro desde que uno se levanta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Que sean independientes explica una experiencia común. A media tarde el reloj interno da un bajón mientras la adenosina lleva horas acumulándose: por eso entra sueño después de comer. Y explica también que alguien que lleve toda la noche despierto se sienta mejor a las diez de la mañana que a las cuatro, aunque haya dormido menos: el reloj ha subido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La cafeína no da energía: bloquea la señal de cansancio, que sigue acumulándose detrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está el papel de la cafeína, que Walker explica bien: se pega a los mismos receptores que la adenosina y los tapa, así que el cansancio no desaparece, solo deja de notarse. Cuando la cafeína se elimina, todo lo acumulado llega de golpe. Y se elimina despacio: tarda unas cinco o seis horas en reducirse a la mitad, así que un café a media tarde sigue haciendo efecto a medianoche.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro regulador es la melatonina, y aquí corrige un malentendido muy extendido: la melatonina no produce el sueño, avisa de que ha oscurecido. Es el pistoletazo de salida, no la carrera. Por eso la luz de las pantallas por la noche la retrasa, y por eso un suplemento sirve sobre todo para el desfase horario y bastante menos para un insomnio corriente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y menciona algo que a mucha gente le quita un complejo: los cronotipos son en buena medida genéticos. Que alguien rinda de noche no es indisciplina, y el horario social está hecho a la medida de los madrugadores.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El sueño profundo guarda los recuerdos y el REM los relaciona" },
+      {
+        b: "texto",
+        texto:
+          "El sueño no es un bloque. Alterna dos estados muy distintos en ciclos de unos noventa minutos, y el reparto cambia a lo largo de la noche: en la primera mitad domina el sueño profundo y en la segunda el REM, el de los sueños.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El profundo es el que consolida lo aprendido: pasa los recuerdos recientes del almacén temporal a la corteza, donde se quedan. Walker lo compara con vaciar un buzón para dejar sitio, y cita experimentos en los que la gente que dormía retenía muchísimo más que la que no, y otros en los que una siesta antes de estudiar mejoraba la capacidad de aprender.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El REM hace otra cosa: relaciona lo aprendido con lo que ya estaba. Es la fase donde aparecen las soluciones que no se encuentran despierto, y Walker cita los casos clásicos —la tabla periódica de Mendeléyev, la estructura del benceno— junto a experimentos que muestran mejor rendimiento en pruebas de asociación después de dormir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dormir después de aprender guarda lo aprendido. Dormir antes de aprender deja sitio para lo que viene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una consecuencia práctica de que el reparto no sea uniforme: acostarse dos horas más tarde no quita un cuarto del sueño, quita sobre todo sueño profundo; levantarse dos horas antes quita sobre todo REM. Recortar por cualquiera de los dos lados no recorta lo mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El REM tiene además una función emocional que Walker considera central: durante esa fase el cerebro revive lo vivido con la química del estrés desconectada, lo que permite conservar el recuerdo quitándole la carga. Su fórmula es que dormir no es tiempo lo que cura, es sueño REM.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Diez días a seis horas dejan igual que una noche entera en blanco" },
+      {
+        b: "texto",
+        texto:
+          "El experimento que más impresiona del libro es sobre la falta acumulada. Se comparó a personas que dormían ocho horas, seis o cuatro durante diez noches seguidas, con otro grupo que pasó una noche entera sin dormir. A los diez días, el grupo de seis horas rendía tan mal en las pruebas de atención como el que había pasado la noche en blanco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo peor es la otra mitad del resultado: los del grupo de seis horas no lo notaban. Su valoración de su propio estado apenas empeoró mientras su rendimiento se desplomaba. Es la trampa de la falta de sueño, que es también el motivo de que tanta gente crea que se apaña con poco.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien lleva semanas durmiendo poco ha olvidado cómo se está descansado, y usa ese estado como referencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El daño aparece por todas partes cuando se busca. La conducción somnolienta se aproxima a la borracha en accidentes, con la diferencia de que el somnoliento no frena. La respuesta inmunitaria baja de manera medible tras una sola noche corta. El apetito se desregula: sube la hormona que da hambre y baja la que da saciedad, y se come más y peor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Walker dedica también un apartado al alcohol, que mucha gente usa como somnífero. No produce sueño sino sedación, que no es lo mismo, y sobre todo suprime el REM: se duerme sin descansar y sin procesar nada de lo que se aprendió ese día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y desmonta lo del sueño perdido: no se recupera. Dormir doce horas el domingo no devuelve lo que faltó de lunes a viernes, porque el cerebro no lleva una cuenta que se salde.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los adolescentes no son vagos: su reloj interno se ha desplazado" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre el sueño a lo largo de la vida contiene lo que a Walker más le importa. En la adolescencia, el reloj interno se retrasa de manera biológica: a un chaval de dieciséis años el sueño le entra dos o tres horas más tarde que a un niño o a un adulto, y no puede evitarlo aunque quiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Como los institutos empiezan temprano, eso equivale a pedirle a un adulto que rinda a las cuatro de la mañana. Walker cita el caso de distritos escolares que retrasaron la hora de entrada y midieron el resultado: mejores notas, y en algunos casos una caída notable de los accidentes de tráfico entre estudiantes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pedirle a un adolescente que rinda a las ocho de la mañana es como pedírselo a ti a las cuatro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el otro extremo de la vida está el envejecimiento. Con los años el sueño profundo se reduce mucho, y eso importa porque durante esa fase el cerebro elimina residuos, entre ellos las proteínas asociadas al alzhéimer. Walker plantea que la relación va en las dos direcciones: dormir mal favorece la acumulación y la acumulación estropea el sueño profundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade un dato de práctica clínica que conviene conocer: los somníferos más comunes producen sedación y no sueño natural, y en varios estudios de seguimiento su uso prolongado se asocia a peores resultados de salud. Frente a ellos recomienda la terapia cognitivo-conductual para el insomnio, que es el tratamiento con más respaldo y el que menos se receta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi todo se arregla con la misma hora y una habitación fría" },
+      {
+        b: "texto",
+        texto:
+          "La parte práctica del libro cabe en pocas instrucciones, y la primera vale más que todas las demás juntas: acuéstate y levántate a la misma hora, incluidos los fines de semana. El reloj interno se ajusta con la regularidad, y un sábado de dos horas de más produce el lunes un desfase parecido al de un viaje transatlántico.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "La misma hora", texto: "todos los días, también sábados y domingos. Es lo que más pesa." },
+          { fuerte: "Frío", texto: "unos 18 grados. El cuerpo necesita bajar de temperatura para dormirse." },
+          { fuerte: "Oscuridad", texto: "la última hora sin pantallas ni luz fuerte, que retrasan la melatonina." },
+          { fuerte: "Nada de café por la tarde", texto: "tarda cinco o seis horas en reducirse a la mitad." },
+          { fuerte: "El alcohol no ayuda", texto: "seda y quita el REM, que es lo que ordena las emociones." },
+          { fuerte: "Si no te duermes", texto: "levántate y haz otra cosa. La cama tiene que significar dormir." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "Dormirse exige que baje la temperatura del cuerpo. Por eso una ducha caliente ayuda: al salir, se enfría de golpe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Walker insiste en la luz por dos motivos distintos. Por la noche estorba, porque retrasa la señal de la melatonina; por la mañana es lo que ajusta el reloj para el día siguiente, y salir a la calle un rato temprano hace más que cualquier suplemento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y sobre las siestas, un matiz: cortas y temprano ayudan, pero si hay insomnio conviene quitarlas, porque descargan la adenosina que hace falta por la noche.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dormir poco se ha convertido en una señal de estatus, y sale caro" },
+      {
+        b: "texto",
+        texto:
+          "El último tramo del libro es una denuncia. Walker sostiene que la falta de sueño es el único déficit de salud del que la gente presume, y que en el mundo laboral se ha convertido en una insignia: se dice cuántas horas se ha dormido como se diría cuánto se ha trabajado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento contra eso es económico y no moral. Los estudios que cita estiman que la falta de sueño cuesta a las economías desarrolladas cifras equivalentes a un porcentaje apreciable del producto interior bruto, entre productividad perdida, accidentes y gasto sanitario. Un empleado que duerme mal está presente y no rinde, y eso no aparece en ninguna columna.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Es el único problema de salud del que la gente presume. Nadie dice con orgullo que come fatal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sus propuestas: retrasar la hora de entrada en los institutos, revisar los turnos en profesiones donde la somnolencia mata, y dejar de tratar el sueño en los hospitales como algo prescindible, cuando es justo cuando el cuerpo repara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la parte que le dio al libro su repercusión, y también la que le hizo perder pie. Un autor que quiere mover a un país entero tiende a redondear al alza, y ahí es donde hay que leerlo con cuidado, como se ve a continuación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que dormir no es tiempo perdido sino la operación de mantenimiento del cuerpo y de la cabeza: el sueño profundo guarda lo aprendido y limpia residuos, el REM lo relaciona y le quita carga emocional a los recuerdos, y la falta de ambos se paga en atención, defensas, apetito y humor. Su instrucción principal es de una simpleza incómoda: la misma hora todos los días.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es haber cambiado la conversación. Antes de 2017 dormir poco era una anécdota de gente ocupada; hoy es un asunto de salud del que se habla en las empresas y en los institutos, y el experimento de las diez noches a seis horas —rendir como quien no ha dormido nada, y no notarlo— es de esos datos que cambian una costumbre.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El sueño perdido no se recupera. No hay ninguna cuenta que se salde durmiendo doce horas el domingo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y es importante porque es el libro de salud más citado de la década. En 2019, el investigador Alexey Guzey publicó una revisión detallada que encontró afirmaciones sin respaldo, cifras infladas y al menos un error grave: el libro atribuye a la Organización Mundial de la Salud una declaración de epidemia de falta de sueño que la OMS no hizo. Walker acabó corrigiendo varios puntos en su web, y el libro se sigue vendiendo con parte de aquel texto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un problema de tono que atraviesa todo. Walker convierte asociaciones en causas con una alegría que la epidemiología no permite —que dormir poco se asocie a más cáncer no significa que lo cause—, y presenta como establecido lo que en muchos casos es una línea de investigación abierta. Lo básico se sostiene: dormir siete u ocho horas es mejor que dormir cinco, la regularidad importa, el alcohol estropea el REM. Las cifras alarmantes conviene cogerlas con pinzas.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "por-que-dormimos": POR_QUE_DORMIMOS,
   influencia: INFLUENCIA,
   principito: PRINCIPITO,
   meditaciones: MEDITACIONES,

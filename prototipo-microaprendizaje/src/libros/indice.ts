@@ -35,7 +35,6 @@ const CARGADORES: Record<string, Cargador> = {
   /* Filosofía */
 
   /* Ciencia y salud */
-  "por-que-dormimos": () => import("./ciencia-salud").then((m) => m.POR_QUE_DORMIMOS),
   "breve-historia-tiempo": () => import("./ciencia-salud").then((m) => m.BREVE_HISTORIA_TIEMPO),
   respira: () => import("./ciencia-salud").then((m) => m.RESPIRA),
 

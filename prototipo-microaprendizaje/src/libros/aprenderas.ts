@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "por-que-dormimos":
+    "Cuando un país adelanta el reloj en primavera y pierde una hora de sueño, sus hospitales registran un pico de infartos; en otoño, cuando se gana, bajan. Walker parte de ahí para contar qué hace el cuerpo mientras duermes.",
+
   influencia:
     "Cialdini se pasó tres años de incógnito en cursos de vendedores de coches, de seguros y de enciclopedias, no a observarlos sino a que le enseñaran. Descubrió que profesiones que no se hablan entre sí usan las mismas seis palancas.",
 

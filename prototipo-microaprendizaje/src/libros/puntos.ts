@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "por-que-dormimos": [
+    "los dos sistemas que deciden cuándo te entra sueño",
+    "por qué la cafeína no da energía, solo tapa el cansancio",
+    "qué hace el sueño profundo y qué hace el REM",
+    "por qué diez noches a seis horas te dejan igual",
+    "por qué el alcohol seda pero no hace dormir",
+  ],
+
   influencia: [
     "por qué un favor pequeño que no pediste te obliga",
     "por qué un sí pequeño lleva a uno grande",
