@@ -27,7 +27,6 @@ const CARGADORES: Record<string, Cargador> = {
   meditaciones: () => import("./meditaciones").then((m) => m.MEDITACIONES),
   sapiens: () => import("./sapiens").then((m) => m.SAPIENS),
   "1984": () => import("./1984").then((m) => m.MIL_NOVECIENTOS_OCHENTA_Y_CUATRO),
-  "habitos-atomicos": () => import("./habitos-atomicos").then((m) => m.HABITOS_ATOMICOS),
   "psicologia-dinero": () => import("./psicologia-dinero").then((m) => m.PSICOLOGIA_DINERO),
 
   /* Psicología */

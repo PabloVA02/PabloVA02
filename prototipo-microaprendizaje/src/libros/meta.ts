@@ -2169,22 +2169,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "habitos-atomicos",
-    titulo: "Hábitos atómicos",
-    autor: "James Clear",
-    ano: 2018,
-    gancho: "Un bate de béisbol se le escapó de las manos a un compañero y le rompió la cara. De la rehabilitación salió este libro.",
-    porQue: "Es el libro de hábitos más vendido de la historia y se resume bien porque todo cuelga de cuatro reglas. Lo interesante es que ninguna habla de fuerza de voluntad.",
-    minutos: 25.6,
-    capitulos: [
-      { titulo: "Salida: un bate de béisbol en plena cara", minutos: 5 },
-      { titulo: "Primera parada: el uno por ciento y el sistema", minutos: 5.2 },
-      { titulo: "Segunda parada: las cuatro leyes", minutos: 5.1 },
-      { titulo: "Tercera parada: las cifras que no aguantan", minutos: 5.2 },
-      { titulo: "Destino: cada acción es un voto", minutos: 5.1 },
-    ],
-  },
-  {
     id: "influencia",
     titulo: "Influencia",
     autor: "Robert Cialdini",

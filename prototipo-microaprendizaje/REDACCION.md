@@ -106,11 +106,32 @@ libro y divide por 140. No puede mentir.
 
 ### Cómo van los libros escritos
 
-| libro | palabras | ficha | |
-|---|---|---|---|
-| Sapiens | 2.383 | 17 min | dentro |
-| Homo Deus | 1.759 | 13 min | **corto: le faltan 350** |
-| Hábitos atómicos | 1.610 | 12 min | **corto: le faltan 500** |
+No se cuentan a mano. `node scripts/medir-paginas.mjs` recorre `paginas.ts`,
+suma las palabras de cada libro y marca el que se sale de la horquilla.
+
+## 2 quater. El texto viejo se BORRA
+
+Un libro reescrito a mano deja de tener dos versiones. La vieja —las tarjetas
+autogeneradas de `psicologia.ts`, `economia.ts` y compañía— **se borra**, y con
+ella su entrada en `indice.ts`. Pablo lo pidió así el 20 de agosto: *«el texto
+antiguo que estaba, ya sabes que debes borrarlo y redactarlo como comentamos»*.
+
+No es limpieza: es que mientras conviva con el nuevo, la estantería sigue
+pintando la ficha vieja. `META_POR_ID` gana sobre `PAGINAS` en `puente.ts`, así
+que el resumen se lee bien pero el subtítulo, el «de qué trata» y los minutos
+del listado siguen siendo los de antes. Al borrar la versión vieja el libro cae
+en el pase `CON_PAGINAS`, que es el que lee `subtitulos.ts`, `aprenderas.ts` y
+cuenta los minutos de verdad.
+
+El orden, que importa:
+
+1. Se escriben las ocho páginas en `paginas.ts` y se registran en `PAGINAS`.
+2. Se escriben el subtítulo, el «de qué trata» y los cinco «Aprenderás».
+3. Se borra el resumen viejo y su línea de `CARGADORES` en `indice.ts`.
+4. `npx tsx scripts/generar-meta.mjs` y `npx tsx scripts/estado.mjs`.
+
+Saltarse el 2 deja el libro sin ficha, porque `CON_PAGINAS` no tiene de dónde
+sacarla.
 
 ## 3. El titular AFIRMA
 
