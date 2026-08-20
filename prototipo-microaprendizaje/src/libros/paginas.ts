@@ -11072,7 +11072,355 @@ const MUNDO_AYER: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Don Quijote de la Mancha, en doce páginas.
+
+   Amplio, y no por respeto al monumento: los argumentos independientes
+   salen diez. En ocho páginas este libro se queda en los molinos, que es
+   exactamente el resumen que ya circula por todas partes.
+
+   Manda el caso (a) de la regla 4 bis —una novela no se resume contando
+   la trama— y sobre todo el (b): los molinos son LA anécdota famosa, y
+   aquí se usan diciendo lo que se sabe de ellos, que son ocho líneas del
+   capítulo VIII y que el chiste no se repite.
+
+   Lo que casi nadie sabe y aquí sí está: que la segunda parte va de gente
+   que ha leído la primera; que Cervantes dice que el libro no es suyo
+   sino de un historiador árabe mentiroso; que Sancho gobierna bien; que
+   hubo un Quijote falso y que Cervantes lo metió dentro de la novela; y
+   que el final es una muerte.
+   -------------------------------------------------------------------------- */
+
+const QUIJOTE: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "La segunda parte del Quijote trata de gente que ha leído la primera" },
+      {
+        b: "texto",
+        texto:
+          "En 1605 Cervantes publicó un libro para burlarse de las novelas de caballerías, que eran los superventas de su tiempo. Funcionó tan bien que diez años después, al publicar la continuación, hizo algo que no se le había ocurrido a nadie: en la segunda parte, casi todos los que se cruzan con don Quijote y Sancho han leído el primer libro. Los reconocen por el camino, se saben sus manías y los invitan a casa para verlos de cerca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese giro convierte una parodia en otra cosa. La novela deja de preguntarse qué le ocurre a un hombre que confunde los libros con la vida y empieza a preguntarse qué le ocurre a un hombre al que todo el mundo ha leído: la fama, la gente que le sigue la corriente, los que montan un espectáculo a su costa. Cuatro siglos después, esa es la parte que se ha quedado más moderna. Conviene saber hasta dónde llegó aquello: la primera parte se agotó, se pirateó el mismo año en Valencia y en Lisboa, y en 1607 ya había vecinos disfrazados de don Quijote y de Sancho en las fiestas de un pueblo del Perú.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resumen recorre las dos partes: por qué enloquece un hidalgo de cincuenta años, por qué los molinos ocupan ocho líneas y no son el libro, quién es el narrador que asegura no haber escrito esto, qué hacen los duques con los dos protagonistas, qué pasó cuando otro autor publicó una continuación falsa y por qué el final no tiene ninguna gracia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El primer libro se ríe de un lector; el segundo se ríe de la fama, y por eso ha envejecido mejor.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un hombre corriente enloquece de leer, y esa es la primera idea del libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "Alonso Quijano es un hidalgo pobre de cerca de cincuenta años, en un pueblo de la Mancha, con una sobrina, un ama y una hacienda que apenas da para comer carne los domingos. No tiene nada que hacer. Vende tierras de sembradura para comprar libros de caballerías, los lee de noche y de día, y del poco dormir y del mucho leer, dice Cervantes, se le secó el cerebro. El detalle importa: un hidalgo no es un noble rico, es lo contrario, un señor con derecho a no pagar ciertos impuestos y sin dinero para sostener la categoría, condenado a no trabajar y a no tener nada que hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La locura tiene un contenido muy preciso, y ahí está la broma. Aquellos libros no se presentaban como ficción: se anunciaban como historias verdaderas, crónicas antiguas traducidas de otra lengua, con sus reyes y sus fechas. Don Quijote no se vuelve loco por imaginar demasiado, sino por creerse al pie de la letra lo que el libro decía de sí mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y actúa en consecuencia con una lógica impecable. Si aquello es historia, entonces existieron los caballeros andantes; si existieron y ya no quedan, hace falta alguien que reponga el oficio; si hace falta alguien, por qué no él. Limpia unas armas viejas, arregla un yelmo con cartón, busca un nombre para el caballo, y como todo caballero necesita una dama a la que encomendarse, elige a una labradora del pueblo de al lado a la que apenas ha visto y la llama Dulcinea.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La locura de don Quijote no es ver visiones: es creerse la contraportada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cervantes escribió esto para acabar con un género, y lo consiguió" },
+      {
+        b: "texto",
+        texto:
+          "Conviene saber contra qué se escribe. Las novelas de caballerías fueron el gran fenómeno editorial del siglo XVI español: el Amadís de Gaula, de 1508, tuvo continuaciones durante décadas, se leían en voz alta en las ventas para los que no sabían leer, los moralistas pedían prohibirlas y Santa Teresa contó que de niña las leía a escondidas. Era literatura de consumo, con héroes invencibles y episodios encadenados sin fin.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo VI de la primera parte es el ajuste de cuentas. El cura y el barbero entran en la biblioteca del enfermo y van juzgando los libros uno por uno para decidir cuáles se queman y cuáles se salvan. Es crítica literaria metida dentro de una novela, con nombres y títulos reales, y en medio de la quema se salva por poco una novela del propio Cervantes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto fue el que buscaba. El género ya venía de capa caída, pero después de 1605 prácticamente no se imprimió ninguna novela de caballerías nueva en España: es difícil publicar en serio lo que un libro entero acaba de dejar en ridículo. La parodia se comió a su modelo, y hoy casi nadie ha leído el Amadís mientras que todo el mundo sabe quién es don Quijote. Y lo dice él mismo en el último párrafo del libro: no ha pretendido otra cosa que poner en aborrecimiento de los hombres las fingidas y disparatadas historias de los libros de caballerías.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una parodia puede matar un género: después de 1605 no volvió a imprimirse casi ninguna novela de caballerías.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los molinos ocupan ocho líneas y el chiste no se repite nunca más" },
+      {
+        b: "texto",
+        texto:
+          "La imagen que todo el mundo tiene del libro está en el capítulo VIII de la primera parte y dura dos páginas: unos molinos de viento, unos aspas, un caballero por los aires. Después de eso, en los ciento veinte capítulos restantes, Cervantes no vuelve a usar el mismo chiste. Quien abre el libro esperando cien aventuras iguales lo cierra a las cincuenta páginas, porque el libro hace otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace la mayor parte del tiempo es hablar. Dos hombres van por un camino conversando: de comida, de miedo, de dinero, de si conviene o no meterse donde no los llaman. Las aventuras son la excusa para que hablen, y por eso las mejores páginas no tienen acción ninguna. El otro episodio célebre, el de los rebaños de ovejas que toma por dos ejércitos, acaba con los pastores tirándole piedras y con don Quijote escupiendo dientes: la realidad de este libro no discute, pega.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cuando la confusión aparece, casi nunca es la alucinación pura que se imagina. El episodio más fino es el de la bacía del barbero: don Quijote ve un yelmo, Sancho ve una palangana, y los demás, para no discutir, acuerdan llamarlo baciyelmo. Ahí el libro deja de ir de un loco y empieza a ir de otra cosa: de cómo un grupo de personas negocia qué es lo que están viendo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que la cultura recuerda del Quijote son dos páginas; lo que hace el libro durante mil es hablar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Sancho no es el criado gracioso: es el otro extremo de una conversación que los cambia a los dos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sancho Panza empieza siendo un labrador que se va de casa por la promesa de gobernar una ínsula, que no sabe muy bien qué es. Habla en refranes encadenados, tiene hambre a todas horas, le tiene miedo a los palos y contradice a su amo con una terquedad de campesino. En la lectura rápida es el contrapunto cómico: el realista al lado del iluminado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pero llevan mil páginas hablando, y hablar tanto tiene consecuencias. A lo largo del libro Sancho empieza a creerse cosas, a defender la caballería andante, a razonar con una elevación que al principio no tenía; y don Quijote empieza a dudar, a ver ventas donde antes veía castillos, a callarse. No hay un capítulo donde eso se anuncie: ocurre en el diálogo, poco a poco, como ocurre en la vida. En la segunda parte hasta la mujer de Sancho, Teresa Panza, entra en la novela por carta: dos labradores escribiéndose sobre el gobierno de una ínsula es una escena que no existía en la literatura anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa contaminación mutua es la invención de la novela, y es exactamente lo que no sobrevive en ninguna adaptación. Las películas y los cuadros conservan las dos siluetas —el flaco alto y el gordo bajo— porque son fáciles de dibujar; lo que hay entre ellas, que es un cambio lento de dos personas por el trato, solo cabe en el libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dos personas que hablan durante mil páginas acaban intercambiándose algo: eso es lo que ningún resumen conserva.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El autor asegura que el libro no es suyo, y ese chiste sostiene la novela entera",
+      },
+      {
+        b: "texto",
+        texto:
+          "En mitad del capítulo IX de la primera parte ocurre algo insólito: la historia se corta porque, dice el narrador, se le acabó el manuscrito. Y cuenta cómo encontró la continuación: paseando por el mercado de Toledo vio a un muchacho vendiendo unos cartapacios viejos escritos en árabe, los compró, buscó a un morisco que le tradujera y le pagó dos arrobas de pasas y dos fanegas de trigo por el trabajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El verdadero autor sería entonces un historiador árabe llamado Cide Hamete Benengeli. Y el narrador añade una advertencia envenenada: siendo el autor de aquella nación, y siendo los de aquella nación aficionados a mentir, cabe temer que se quede corto en las alabanzas del héroe. O sea que lo que se está leyendo pasa por un cronista sospechoso, un traductor a sueldo y un editor que desconfía de los dos. Y el chiste se mantiene hasta el final: cuando un episodio resulta demasiado redondo, el editor avisa de que Cide Hamete jura como cristiano católico que dice la verdad, juramento imposible para un musulmán.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que parece un juego es la columna del libro. Permite dudar de los episodios, corregirlos, discutir versiones y recordar en todo momento que esto es un texto que alguien ha escrito por algo. La novela europea tardó tres siglos en volver a usar en serio ese recurso, y cuando lo hizo se llamó modernidad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El primer narrador poco fiable de la literatura moderna es de 1605 y es un chiste sobre una traducción mal pagada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En la segunda parte cambia el motor: ya no es la locura, es la fama" },
+      {
+        b: "texto",
+        texto:
+          "En 1615 don Quijote sale por tercera vez, y el mundo con el que se encuentra ya no es el de antes: ha leído sus aventuras. Un duque y una duquesa aburridos, que tienen el libro en casa, los invitan a su palacio con un plan preparado, y a partir de ahí nada de lo que les ocurre es casualidad. Hay encantamientos con tramoya, una condesa falsa con una historia falsa, un caballo de madera con los ojos vendados y una compañía entera de criados haciendo papeles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cambio es enorme y casi nadie lo cuenta. En la primera parte, un loco choca contra la realidad y la realidad gana. En la segunda, la realidad se disfraza de lo que él espera para reírse un rato: le montan las aventuras a medida porque saben quién es y saben qué se cree. La pieza mayor es Clavileño, un caballo de madera al que suben a los dos con los ojos vendados para hacerles creer que vuelan por el cielo mientras unos criados les acercan fuelles de aire y estopa encendida a la cara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es, cuatro siglos antes, el argumento de un programa de televisión: unos señores con dinero pagan un decorado para grabar el ridículo de dos pobres que dependen de su hospitalidad. Y el libro lo sigue paso a paso, incluidos los momentos en que los protagonistas sospechan que les están tomando el pelo y aun así siguen, porque volver a casa es peor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En la segunda parte nadie se encuentra aventuras: se las montan, porque ya saben quién es.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Sancho gobierna la ínsula y gobierna bien, que es la broma que nadie ve venir",
+      },
+      {
+        b: "texto",
+        texto:
+          "El plato fuerte de la burla de los duques es darle a Sancho el gobierno que le habían prometido. La ínsula Barataria no es una isla sino un pueblo de sus tierras, los vasallos son criados con instrucciones y los pleitos que le llevan están preparados de antemano para que meta la pata. Sancho llega sin saber leer ni escribir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y resuelve. Descubre a un embustero que reclama una deuda escondiendo el dinero en un bastón, resuelve el caso de una mujer que acusa en falso, dicta ordenanzas sensatas sobre el precio del calzado y el vino, se niega a cobrar nada por su cargo y aguanta que un médico le retire un plato tras otro de la mesa por razones de salud. A los pocos días se quita el gobierno de encima por su propia voluntad, dice que nació para otra vida y se marcha tan pobre como llegó. El gobierno dura poco más de una semana y termina con Sancho tirado en el suelo y pisoteado durante una falsa invasión nocturna del pueblo, otra broma pagada por los duques.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La broma se les da la vuelta a los burladores. El único personaje de toda la novela que ejerce el poder con cabeza es el analfabeto al que habían puesto ahí para reírse, y el único que renuncia a un cargo sin que nadie se lo pida es él. Cervantes mete su capítulo más serio sobre gobernar dentro de una farsa organizada por dos aristócratas ociosos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El único que gobierna con sentido común en toda la novela es el analfabeto, y se marcha por su propio pie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En la segunda parte se deja de reír, y el libro lo sabe" },
+      {
+        b: "texto",
+        texto:
+          "Los palos de la primera parte son de dibujo animado: se cae, se levanta, sigue. En la segunda las bromas tienen dueño, y eso lo cambia todo. Los duques no se tropiezan con don Quijote: se aburren, tienen dinero y compran un espectáculo. Para deshacer un encantamiento que ellos mismos han inventado, exigen que Sancho se dé tres mil azotes en las posaderas, y el asunto se alarga durante capítulos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El propio narrador acaba diciéndolo: los burladores estaban tan locos como los burlados, y aquellos señores no andaban a dos dedos de parecer tontos poniendo tanto empeño en burlarse de dos tontos. Es una frase pequeña en medio de la fiesta, y es el juicio moral del libro sobre sus propios chistes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El final de la aventura llega en la playa de Barcelona. Un caballero desconocido lo desafía, lo derriba en el primer encuentro y le impone la condición de volver a su pueblo y no salir en un año. Debajo de la armadura está el bachiller Sansón Carrasco, un vecino que se ha disfrazado por segunda vez para curarlo a la fuerza. Don Quijote cumple su palabra y vuelve a casa vencido, a pie y en silencio. El cuerpo lleva la cuenta: sale de aquel palacio con la cara arañada por unos gatos que alguien soltó de noche en su cuarto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cervantes escribe la burla y a continuación escribe que los burladores estaban tan locos como el burlado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un impostor publicó la continuación y Cervantes lo metió dentro de la novela",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1614, mientras Cervantes escribía la segunda parte, apareció en Tarragona un Quijote falso firmado por un tal Alonso Fernández de Avellaneda, seudónimo que nadie ha logrado identificar con seguridad. El prólogo se metía con Cervantes: con su edad, con su mano inútil desde Lepanto, con su envidia. El plagio era además legal, porque continuar la obra ajena no estaba prohibido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La respuesta no fue un pleito ni un prólogo furioso: fue meter el problema en la ficción. En la segunda parte, don Quijote y Sancho se enteran de que circula un libro en el que aparecen ellos y no son ellos. Y hacen algo insólito: se encuentran con don Álvaro Tarfe, un personaje sacado de aquel libro falso, y lo llevan ante un alcalde y un escribano para que declare por escrito que el don Quijote al que él conoció no es este.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hasta el itinerario cambia por eso. En el libro de Avellaneda los personajes iban a Zaragoza, así que Cervantes hace que su don Quijote decida no ir a Zaragoza precisamente para que se vea que el otro miente, y lo manda a Barcelona. Una novela que corrige su ruta para desmentir a un plagiario dentro de la propia trama no se le ha ocurrido a casi nadie más. El libro falso existe y se sigue publicando: en él, don Quijote acaba encerrado en el manicomio de Toledo, que es más o menos lo contrario de lo que hizo Cervantes con su personaje.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cervantes no denunció al plagiario: lo metió en su novela y le hizo firmar ante notario que el otro Quijote era falso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Al final recupera la razón, y es lo peor que le podía pasar" },
+      {
+        b: "texto",
+        texto:
+          "De vuelta en el pueblo, vencido y con fiebre, don Quijote duerme de un tirón más de seis horas. Despierta lúcido. Dice que ya no es don Quijote de la Mancha sino Alonso Quijano, al que sus costumbres le dieron el nombre de Bueno; declara que aborrece las historias de caballerías, pide perdón por haber dado ocasión de tenerlas por verdaderas, llama al escribano, hace testamento y muere tres días después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el que suplica junto a la cama no es el idealista: es Sancho. El realista, el de los refranes y el hambre, le pide llorando que no se muera, que se levante, que se vayan los dos al campo vestidos de pastores como habían hablado, que a lo mejor a Dulcinea la encuentran detrás de cualquier mata. El libro que empezó riéndose de un lector enloquecido termina con un hombre pidiéndole a otro que vuelva a estar loco. Hay un detalle del testamento que casi nadie recuerda: deja la hacienda a su sobrina con una condición, que si se casa sea con un hombre que no sepa qué son los libros de caballerías, y si resulta que lo sabe, que la herencia se destine a obras pías.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cervantes cierra además la puerta a propósito. Hace decir al cronista que don Quijote ha muerto y está enterrado para que ningún otro se atreva a resucitarlo y sacarlo de nuevo a los caminos: la muerte del personaje es, entre otras cosas, un candado contra futuros Avellanedas. Cervantes murió unos meses después, en 1616.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La novela empieza riéndose de un loco y termina llorando el día en que se cura.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El Quijote cuenta cómo un hombre que se toma en serio lo que ha leído sale a comportarse en consecuencia, y qué le hace el mundo cuando lo intenta. La primera parte se ríe de él; la segunda pone el foco en los que se ríen. Por el camino inventa cosas que hoy parecen naturales: personajes que cambian al hablar entre ellos, un narrador del que se puede desconfiar, un libro consciente de que está siendo leído y un final que no premia a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es difícil de exagerar, y también fácil de decir mal. No es que sea la primera novela —había novelas antes—, sino que es la primera en la que la vida interior de dos personas corrientes ocupa más sitio que las aventuras, y en la que el humor y la compasión caben en la misma página.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes del Quijote los libros contaban hazañas; a partir del Quijote pueden contar a dos personas hablando por un camino.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La primera parte se interrumpe a cada rato con novelas cortas que no tienen nada que ver con la trama —la más larga, El curioso impertinente, ocupa tres capítulos enteros—, y los lectores de 1605 ya se quejaron: Cervantes lo reconoce dentro de la segunda parte y allí no vuelve a hacerlo. También hay descuidos famosos, como el burro de Sancho, que desaparece robado y reaparece unos capítulos más adelante sin explicación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un malentendido que conviene deshacer: la imagen del soñador idealista frente al materialista, con el toque de tristeza noble, es una lectura romántica del siglo XIX, sobre todo alemana, que el libro no sostiene. Para sus contemporáneos esto era, sobre todo, un libro divertidísimo. La otra advertencia es práctica: el castellano de 1605 es un obstáculo real, y leerlo en una edición anotada o modernizada no es hacer trampa. Y conviene saber que la segunda parte es mejor que la primera, que es justo la que casi nadie termina.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  quijote: QUIJOTE,
   "mundo-ayer": MUNDO_AYER,
   "breve-historia-tiempo": BREVE_HISTORIA_TIEMPO,
   principe: PRINCIPE,

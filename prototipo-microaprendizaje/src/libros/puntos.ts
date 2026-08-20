@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  quijote: [
+    "por qué los molinos ocupan solo dos páginas",
+    "quién es el historiador árabe que finge haber escrito el libro",
+    "qué pasa cuando todos los personajes han leído tu historia",
+    "por qué Sancho resulta ser un buen gobernante",
+    "cómo respondió Cervantes al Quijote falso de 1614",
+  ],
+
   "mundo-ayer": [
     "por qué antes de 1914 se viajaba sin pasaporte",
     "qué escondía debajo la moral de la Viena elegante",

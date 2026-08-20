@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  quijote:
+    "Un hidalgo pobre lee tantos libros de caballerías que decide salir a comportarse como uno. La novela que se ríe de él terminó inventando casi todo lo que después ha hecho la novela moderna.",
+
   "mundo-ayer":
     "Zweig cuenta cómo la Europa segura y sin fronteras en la que nació se deshizo en treinta años. Dos guerras, una inflación y un destierro contados por alguien que estaba dentro y no lo vio venir.",
 
