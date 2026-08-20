@@ -14948,7 +14948,236 @@ const FAHRENHEIT: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Crimen y castigo, en ocho páginas.
+
+   Breve. Registro narrativo.
+
+   La prueba del título tapado se pasa por los nombres y las escenas que
+   solo están aquí: el hacha bajo el abrigo, Lizaveta llegando a destiempo,
+   el artículo sobre los hombres extraordinarios, Porfiri sin acusar,
+   Sonia leyendo la resurrección de Lázaro.
+
+   Y la conclusión dice lo que ningún resumen dice: que el epílogo es la
+   parte más floja del libro y que la teoría del hombre superior se ha
+   leído mal durante siglo y medio.
+   -------------------------------------------------------------------------- */
+
+const CRIMEN_CASTIGO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El asesino se sabe desde la página cuarenta" },
+      {
+        b: "texto",
+        texto:
+          "Un estudiante de veintitrés años, sin dinero, que lleva meses encerrado en una buhardilla del tamaño de un armario, mata a hachazos a una vieja prestamista. Ocurre pronto y no hay ningún misterio: sabemos quién ha sido, cómo lo hizo y por qué. Y quedan quinientas páginas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está la operación del libro. Dostoievski coge la novela de crímenes, le quita lo único que la sostenía —la pregunta de quién fue— y pone en su lugar otra: qué le pasa por dentro a alguien que ha hecho eso y sigue vivo entre la gente. La respuesta ocupa el resto y funciona como un mecanismo de relojería: fiebre, insomnio, sospechas, conversaciones que parecen inocentes y no lo son.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Alrededor está el San Petersburgo de 1865 en pleno verano, y el calor es un personaje más: escaleras que huelen a pintura y a cloaca, tabernas, buhardillas de alquiler, familias enteras en un cuarto. La miseria del libro no es un decorado moral, es una cuenta: quién debe cuánto, a quién y para cuándo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren la teoría que lleva al crimen, lo que sale mal en el mismo instante en que se comete, en qué consiste de verdad el castigo, cómo trabaja el juez que no acusa a nadie, quién es la única persona a la que puede contárselo y por qué el final del libro es su parte más discutida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quitarle a una novela de crímenes la pregunta de quién fue obliga a contestar otra mucho peor: cómo se vive después.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La teoría de los hombres extraordinarios" },
+      {
+        b: "texto",
+        texto:
+          "Meses antes del crimen, Raskólnikov publicó un artículo en una revista, y ese texto es el motor de todo. Sostiene que la humanidad se divide en dos: la gente corriente, que existe para obedecer y para procrear, y los extraordinarios, los pocos capaces de decir algo nuevo. Y que los segundos tienen derecho a saltarse la ley si lo que van a hacer lo justifica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que usa no es abstracto. Todo legislador y todo fundador de imperios ha sido un criminal, dice, empezando por los que cambiaron leyes antiguas a sangre; y Napoleón, que hizo matar a miles y a quien nadie llama asesino. Si la historia absuelve a los que matan a gran escala, ¿por qué condena al que mata a uno solo?",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo importante es lo que Raskólnikov quiere probar. No mata por dinero, aunque no tiene ninguno, ni por venganza. Mata para averiguar de qué lado está: si es uno de los que pueden o uno de los que solo pueden aguantar. Va a matar a una usurera que arruina a media ciudad y a la que él mismo describe como un piojo, y va a hacerlo, dice, para dedicar ese dinero a mil obras buenas. La aritmética parece impecable. Y hay un detalle que lo delata: el artículo lo publicó una revista sin que él se enterara, y cuando Porfiri se lo menciona, meses después del crimen, Raskólnikov se pone pálido. Aquello estaba escrito y firmado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una idea que suena impecable en un cuaderno es todavía una idea; lo que la juzga es lo que pasa cuando alguien la ejecuta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La hermana que llegó a destiempo" },
+      {
+        b: "texto",
+        texto:
+          "El crimen sale mal desde el primer segundo, y no por un error de planificación. Consigue el hacha, sube la escalera, mata a la vieja de dos golpes y empieza a buscar el dinero con las manos temblando. Entonces se abre la puerta y entra Lizaveta, la hermana de la prestamista, una mujer sencilla, embarazada según se sugiere, que no ha hecho daño a nadie y a la que él conocía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La mata también, de un solo golpe, sin pensar. Y ese segundo cadáver destruye la teoría entera. La primera muerte era una operación aritmética, un piojo a cambio de mil obras buenas; la segunda no cabe en ninguna cuenta. Un hombre extraordinario, según su propio artículo, no improvisa: calcula. Él no calculó nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el reparto de lo robado tampoco encaja. Coge un monedero y unas cuantas joyas casi al azar, sale por los pelos escondiéndose en un piso vacío mientras dos hombres llaman a la puerta, y al llegar a casa esconde todo debajo de una piedra en un patio sin contarlo siquiera. No lo usa nunca. El dinero, que era la mitad del argumento, resulta ser lo de menos. Tampoco recuerda haber cerrado la puerta, y esa puerta abierta es lo que estuvo a punto de costarle todo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La teoría se cayó en el minuto dos, y lo que queda del libro es un hombre negándose a mirar el sitio donde se rompió.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El castigo empieza antes de que lo pillen" },
+      {
+        b: "texto",
+        texto:
+          "El título promete un castigo y la cárcel llega en la última página, así que el castigo es otra cosa y ocupa el libro entero. Empieza esa misma tarde con una fiebre que lo tumba varios días, y sigue con algo peor: la imposibilidad de estar con nadie. Su madre y su hermana llegan a la ciudad y no soporta abrazarlas. Su mejor amigo lo cuida y quiere pegarle. La gente le resulta insoportable no por lo que dice, sino porque está delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dostoievski describe eso con una precisión que ninguna teoría psicológica le había puesto por escrito todavía: el crimen no le produce culpa en el sentido religioso, le produce aislamiento. Se ha separado de los demás con un acto que no puede contar, y esa distancia es física, le pesa, no le deja comer ni dormir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su síntoma más raro y más verdadero: no puede dejar de acercarse al peligro. Vuelve al piso de la vieja a los pocos días y toca el timbre. Saca el tema del crimen en las conversaciones. Va a la comisaría por un asunto de un alquiler y se desmaya cuando oye hablar del caso. Nadie lo persigue todavía; el que no le deja en paz es él. Su amigo Razumijin, que es todo lo contrario que él —pobre igual, trabajador, alegre—, hace de contraste sin que el libro tenga que explicarlo: la misma buhardilla y la misma hambre pueden dar dos hombres distintos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que no puede contarse a nadie te separa de todo el mundo, y a esa distancia es a lo que este libro llama castigo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El juez que no acusa" },
+      {
+        b: "texto",
+        texto:
+          "Porfiri Petróvich es el mejor personaje del libro y una invención que después ha copiado medio género policiaco. Es el juez de instrucción, sospecha de Raskólnikov casi desde el principio y no tiene ni una prueba. Así que no acusa: conversa. Lo cita para hablar de un papel, se enreda en digresiones, se ríe de sí mismo, se hace el tonto y suelta de pronto una pregunta que va al centro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su método lo explica él mismo con una imagen doméstica: a un sospechoso hay que dejarlo suelto, como a una mariposa alrededor de una vela, porque si lo encierras deja de moverse y ya no se delata. Prefiere esperar. Sabe que el otro no aguanta el silencio y que acabará viniendo solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y en la última conversación hace algo que ningún policía de novela había hecho antes: le dice a la cara que sabe que fue él, que no puede demostrarlo, y que le conviene confesar porque le rebajarán la pena y sobre todo porque necesita aire. Le da dos días. Le pide que, si decide pegarse un tiro, deje una nota diciendo dónde está lo robado. Después se va. Y funciona: cuarenta páginas después, Raskólnikov entra por su propio pie en la comisaría, sale sin decir nada, y vuelve a entrar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El interrogador que da miedo no es el que grita: es el que tiene tiempo y sabe que no vas a poder callarte.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La única persona a la que puede contárselo" },
+      {
+        b: "texto",
+        texto:
+          "Sonia tiene dieciocho años y se prostituye para dar de comer a sus hermanos pequeños, porque su padre bebe y su madrastra está tuberculosa. Es creyente, es tímida y no ha leído un libro de filosofía en su vida. Y es la única persona a la que Raskólnikov confiesa el crimen, mucho antes que a la policía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo lo dice él y es la clave del libro: ella también se ha saltado la línea. Los dos han hecho algo imperdonable. Pero ella lo hizo para que otros comieran y él lo hizo para averiguar quién era, y esa diferencia es exactamente el argumento que Dostoievski quiere poner encima de la mesa contra la teoría de los hombres extraordinarios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena en la que ella le lee, en un cuarto miserable y a la luz de un cabo de vela, el pasaje de la resurrección de Lázaro, es de las más famosas de la literatura rusa y no es un sermón: es una mujer que apenas sabe leer, con la voz temblando, leyéndole a un asesino un texto sobre alguien que llevaba cuatro días muerto y se levanta. Ninguno de los dos dice una palabra al terminar. Y hay un gesto que cierra la escena mucho después: cuando por fin va a confesar, ella le da una cruz de madera, la de su hermana muerta, y le pide que se pare en mitad de la plaza, se arrodille y bese el suelo. Lo hace.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Saltarse la ley por otros y saltársela para saber quién eres son dos actos que se parecen mucho por fuera y en nada por dentro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un sitio adonde ir" },
+      {
+        b: "texto",
+        texto:
+          "Hay una segunda historia debajo de la principal y es la que explica la ciudad. Marmeládov, el padre de Sonia, es un funcionario alcohólico que se ha bebido hasta las medias de su mujer, y en la taberna del principio le suelta a Raskólnikov un discurso que resume el libro entero: que la pobreza no es un vicio, pero la miseria sí, porque de la pobreza uno conserva la nobleza y de la miseria no conserva nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la frase que se recuerda: todo hombre necesita tener al menos un sitio adonde ir. Él ya no lo tiene. Poco después muere atropellado por un carruaje en la calle, borracho, y Raskólnikov le da a la familia todo el dinero que le queda, que es lo único bueno que hace en todo el libro y lo hace sin pensarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa historia hace un trabajo concreto. Explica que la teoría del asesino no nació de la nada: nació en una ciudad donde una madre vende lo suyo para mandarle dinero a un hijo que no estudia, donde una hermana está a punto de casarse con un canalla para salvar a la familia y donde una chica de dieciocho años se prostituye para comprar pan. El crimen no queda justificado; queda situado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "De la pobreza se sale conservando la dignidad; de la miseria, dice el libro, no se conserva nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Crimen y castigo cuenta lo que le ocurre a un hombre que se cree por encima de la ley y lo comprueba con un hacha. Su tesis está en la mecánica, no en la moraleja: la teoría se rompe en el mismo minuto en que se aplica, y lo que la derriba no es un razonamiento sino una mujer que llegó a destiempo, un juez que sabe esperar y la imposibilidad física de vivir entre gente con algo así callado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la novela moderna por dentro. Es el primer libro que se mete en una cabeza durante quinientas páginas sin salir de ella, con las contradicciones sin resolver y las voces discutiendo entre sí, y de ahí sale medio siglo veinte: el monólogo interior, la novela psicológica y el policiaco que no va de quién fue sino de por qué.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No lo atrapan por una prueba: lo atrapa la imposibilidad de estar callado en una habitación con otra persona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El epílogo es flojo y casi todo el mundo lo reconoce: después de quinientas páginas de dudas, la conversión de Raskólnikov en Siberia se resuelve en unos párrafos, contada desde fuera y a toda prisa. También hay una trama secundaria —la del terrateniente Svidrigáilov— que se lleva demasiadas páginas, y una cantidad de casualidades que a un lector de hoy le chirrían: la gente se encuentra por la calle justo cuando conviene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un malentendido que conviene deshacer. La teoría de los hombres extraordinarios se cita a veces como si el libro la defendiera, o como si viniera de Nietzsche: es al revés en las dos cosas. El libro está escrito para desmontarla, y se publicó cuando Nietzsche tenía veintiún años y no había escrito nada. Una advertencia práctica: en ruso los personajes se nombran de cuatro maneras distintas, así que conviene una edición con árbol de nombres al principio.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "crimen-castigo": CRIMEN_CASTIGO,
   fahrenheit: FAHRENHEIT,
   "mundo-feliz": MUNDO_FELIZ,
   "republica-platon": REPUBLICA_PLATON,

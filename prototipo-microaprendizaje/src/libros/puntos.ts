@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "crimen-castigo": [
+    "qué decía su artículo sobre los hombres extraordinarios",
+    "por qué la teoría se rompe en el minuto dos",
+    "en qué consiste el castigo, que no es la cárcel",
+    "cómo trabaja un juez que no acusa a nadie",
+    "por qué se lo cuenta a Sonia antes que a nadie",
+  ],
+
   fahrenheit: [
     "por qué nadie tuvo que prohibir los libros",
     "qué son las paredes que le hablan a su mujer",

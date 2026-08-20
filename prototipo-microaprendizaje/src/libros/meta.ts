@@ -1272,22 +1272,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "crimen-castigo",
-    titulo: "Crimen y castigo",
-    autor: "Fiódor Dostoievski",
-    ano: 1866,
-    gancho: "Sabes quién mató y cómo desde el capítulo siete. Las quinientas páginas siguientes son lo que pasa dentro de su cabeza.",
-    porQue: "Inventó la novela psicológica. Es un thriller donde la tensión no es si le pillarán, sino cuánto aguantará él sin confesar.",
-    minutos: 23.8,
-    capitulos: [
-      { titulo: "El estudiante del ático", minutos: 5 },
-      { titulo: "El hacha", minutos: 4.7 },
-      { titulo: "Porfiri", minutos: 4.7 },
-      { titulo: "Sonia", minutos: 4.5 },
-      { titulo: "Siberia", minutos: 4.8 },
-    ],
-  },
-  {
     id: "gran-gatsby",
     titulo: "El gran Gatsby",
     autor: "F. Scott Fitzgerald",

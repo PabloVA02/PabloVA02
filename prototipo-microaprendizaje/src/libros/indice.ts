@@ -82,7 +82,6 @@ const CARGADORES: Record<string, Cargador> = {
   educada: () => import("./psicologia").then((m) => m.EDUCADA),
 
   /* Capítulos largos */
-  "crimen-castigo": () => import("./literatura").then((m) => m.CRIMEN_CASTIGO),
   extranjero: () => import("./literatura").then((m) => m.EXTRANJERO),
   "dorian-gray": () => import("./literatura").then((m) => m.DORIAN_GRAY),
   "senor-moscas": () => import("./literatura").then((m) => m.SENOR_MOSCAS),

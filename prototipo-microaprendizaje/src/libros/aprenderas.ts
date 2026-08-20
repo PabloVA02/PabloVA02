@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "crimen-castigo":
+    "Un estudiante sin dinero mata a hachazos a una prestamista para comprobar si es de los que pueden saltarse la ley. Sabemos quién fue desde la página cuarenta; quedan quinientas.",
+
   fahrenheit:
     "Un bombero que quema libros empieza a leerlos. Y lo que cuenta el libro no es que un gobierno los prohibiera: la gente dejó de leer sola, y la ley llegó al final como un trámite.",
 
