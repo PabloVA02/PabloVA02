@@ -407,6 +407,42 @@ llevar delante el título de otras cinco novelas. La forma es impecable y el
 contenido está vacío: **se copia lo primero y se hace lo contrario con lo
 segundo.**
 
+## 4 ter. La prueba del título tapado
+
+Es la comprobación más rápida que existe y detecta el fallo más común. **Tapa
+el título del resumen y léelo. Si podría ser el de otros cinco libros, está mal
+escrito.**
+
+Dos capturas del 21 de agosto lo demuestran, y las dos son de Headway:
+
+- *1984* en siete páginas, sin que aparezca ni una vez Winston, ni Julia, ni la
+  habitación 101, ni la neolengua. Es un ensayo correcto sobre el totalitarismo
+  en general.
+- *El coraje de no gustar* en siete páginas, sin nombrar a Adler, sin decir que
+  el libro entero es un diálogo entre un filósofo y un joven, y sin su idea
+  central, la separación de tareas. Es un texto de superación personal que
+  serviría igual para otros veinte títulos.
+
+Lo que salva la prueba es siempre lo mismo: **nombres propios, cifras, escenas y
+palabras que solo existen en ESE libro.** El apéndice de *1984* escrito en
+pasado. Los ciento ocho pretendientes. Las dos arrobas de pasas que costó la
+traducción del Quijote. Si un resumen no tiene tres o cuatro cosas de esas, no
+se ha leído el libro: se ha leído su tema.
+
+### El «nosotros» de autoayuda
+
+Ese mismo resumen de *El coraje de no gustar* está escrito entero en primera del
+plural: «nos enfrentamos», «tememos el cambio», «creamos una presión
+innecesaria». Es la voz más blanda que hay, porque no compromete a nadie y
+suena a folleto de consulta médica.
+
+La regla, que completa la 4.7:
+
+    libro práctico          TÚ
+    ensayo, historia, ciencia   tercera persona
+    NOSOTROS                solo cuando se habla de verdad de la especie
+                            entera —Sapiens, la evolución— y de nada más
+
 ## 4 bis. Los cuatro casos que dan problemas
 
 Estos salieron escribiendo, uno por uno, y cada uno costó una reescritura. Van
@@ -514,6 +550,7 @@ frase, se continúa la del rótulo —aprenderás… esto—.
 
 ## 7. Antes de dar un libro por terminado
 
+- [ ] **La prueba del título tapado**: ¿podría este resumen ser el de otro libro?
 - [ ] ¿Cada titular afirma algo que se pueda discutir?
 - [ ] ¿Hay alguna página que hable del libro en vez de su contenido?
 - [ ] ¿Cada página tiene su caja del rayo, y se sostiene sola?
