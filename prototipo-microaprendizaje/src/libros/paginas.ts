@@ -2835,7 +2835,1103 @@ const PSICOLOGIA_DINERO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Padre rico, padre pobre, en ocho páginas.
+
+   El libro más vendido de finanzas personales de la historia y también el
+   más discutido, así que la conclusión tiene trabajo: hay que contar lo que
+   enseña y decir a la vez que el padre rico probablemente no existió y que
+   los consejos concretos son malos. Regla 5, y aquí es imprescindible.
+
+   Segunda persona —regla 7—, porque el libro es práctico y porque Kiyosaki
+   escribe así.
+   -------------------------------------------------------------------------- */
+
+const PADRE_RICO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos hombres con el mismo sueldo y consejos opuestos sobre el dinero" },
+      {
+        b: "texto",
+        texto:
+          "Robert Kiyosaki cuenta que creció con dos padres. El biológico era doctorado, jefe de educación del estado de Hawái, y murió con las facturas sin pagar. El otro era el padre de su mejor amigo, que dejó los estudios a los trece años y acabó siendo uno de los hombres más ricos del archipiélago. Los dos trabajaban mucho y los dos ganaban bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las frases que decían eran simétricas y por eso el libro las usa todo el rato. Uno decía no puedo permitírmelo; el otro, cómo puedo permitírmelo. Uno decía estudia mucho para encontrar una buena empresa; el otro, estudia mucho para poder comprar una buena empresa. Uno decía que la casa era su mayor inversión; el otro, que la casa era un gasto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "«No puedo permitírmelo» cierra la conversación. «¿Cómo podría permitírmelo?» obliga al cerebro a trabajar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tesis del libro es que la escuela enseña a leer, a escribir y a calcular, y no enseña nada sobre el dinero, así que la mayoría sale a la vida con la única estrategia que ha visto en casa: estudiar, encontrar un empleo estable y ahorrar. Kiyosaki sostiene que esa estrategia funcionaba para una generación que ya no está.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: qué separa un activo de un pasivo, por qué un sueldo alto no hace rico a nadie, qué hace la gente rica con el dinero antes de gastárselo, y por qué el miedo es el motor de casi todas las decisiones financieras. La conclusión dice también dónde falla, que en este libro es mucho.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un activo mete dinero en tu bolsillo; un pasivo lo saca" },
+      {
+        b: "texto",
+        texto:
+          "Kiyosaki dice que si solo se pudiera aprender una cosa de todo el libro, sería esta distinción, y la define de la manera más basta posible a propósito. Un activo es cualquier cosa que te ingresa dinero cada mes aunque no trabajes. Un pasivo es cualquier cosa que te lo saca. No hay más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con esa regla, muchas cosas cambian de columna. La casa en la que vives, con su hipoteca, su comunidad, su IBI y su caldera, es un pasivo mientras no te ingrese nada. El coche, evidentemente. Y aquí está el motivo por el que el libro escandalizó tanto: llamar pasivo a la vivienda propia iba contra lo que decía todo el mundo en 1997.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la columna de activos, según él, entran unas pocas cosas concretas:",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Negocios", texto: "que funcionan sin que tú tengas que estar presente." },
+          { fuerte: "Acciones y bonos", texto: "y participaciones en fondos." },
+          { fuerte: "Inmuebles alquilados", texto: "que rentan más de lo que cuestan." },
+          { fuerte: "Derechos", texto: "de propiedad intelectual, patentes o licencias." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "La gente rica compra activos. La clase media compra pasivos creyendo que son activos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica que saca es sencilla de decir y difícil de hacer: dedica cada mes una parte de lo que entra a comprar cosas de la primera columna, antes de gastar en las de la segunda.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La carrera de la rata no se gana corriendo más deprisa" },
+      {
+        b: "texto",
+        texto:
+          "El patrón que describe es reconocible. Alguien empieza a trabajar y gana lo justo. Le suben el sueldo y se compra un coche mejor. Le suben otra vez y cambia de piso, con una hipoteca más grande. Los ingresos han subido, los gastos han subido lo mismo, y el margen sigue siendo cero. Kiyosaki lo llama la carrera de la rata.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motor de esa rueda es lo que él llama el miedo y el deseo trabajando en pareja. El miedo a no llegar a fin de mes te hace aceptar el trabajo; el deseo de vivir como quien gana lo que tú ganas te hace gastar lo que entra. Cuando aparece más dinero, el ciclo no se rompe: se agranda.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un aumento de sueldo no te saca de la rueda: hace la rueda más grande y te deja igual de dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí su insistencia en distinguir entre trabajar por dinero y hacer que el dinero trabaje. Y de ahí también su idea de la independencia financiera, que define de una forma medible: eres libre el día en que los ingresos de tus activos cubren tus gastos mensuales. No hace falta ser rico, hace falta que se crucen dos líneas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade un detalle sobre los impuestos y las sociedades que conviene coger con pinzas, porque depende del país: sostiene que el asalariado paga impuestos primero y gasta después, mientras que quien tiene una sociedad puede gastar en cosas del negocio antes de tributar. En España la cosa no funciona así de fácil, pero la observación de fondo —que quien conoce las reglas juega mejor— se sostiene.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Págate a ti primero, aunque te falte para pagar a los demás" },
+      {
+        b: "texto",
+        texto:
+          "El consejo con el que más se le identifica es este, y lo cuenta de la manera más provocadora que puede. Cuando llega dinero, lo primero que se aparta es la parte que va a comprar activos. Después se pagan las facturas. No al revés.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y sostiene, sabiendo que suena mal, que si al llegar a las facturas no queda bastante, la presión es buena: obliga a buscar la manera de generar el dinero que falta en vez de rebajar la aportación. Su argumento es que quien primero paga a todos y ahorra lo que sobra no ahorra nunca, porque nunca sobra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que no se aparta primero no se aparta. Y lo que se aparta primero enseña a buscarse la vida para lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Junto a eso pone lo que llama las cuatro inteligencias que hay que trabajar, y que en el fondo son las cuatro asignaturas que la escuela no da: contabilidad —saber leer números—, inversión, entender los mercados y conocer la ley. Su argumento es que nadie te va a proteger de un mal negocio si tú no eres capaz de leer sus cuentas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Insiste también en algo que suena raro en un libro de dinero: recomienda trabajar para aprender y no para cobrar, sobre todo de joven. Él mismo cuenta que se metió a vender fotocopiadoras para perder el miedo a que le dijeran que no, no porque le gustara vender.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los que no invierten no es que no sepan: es que tienen miedo" },
+      {
+        b: "texto",
+        texto:
+          "Kiyosaki dedica una parte del libro a lo que llama los cinco obstáculos, y su tesis es que el problema casi nunca es de información. Está todo publicado. El problema es que el dinero mueve emociones y las emociones deciden antes.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "El miedo a perder", texto: "que hace vender en el peor momento, justo cuando todo baja." },
+          { fuerte: "El cinismo", texto: "las dudas prestadas, casi siempre de alguien que tampoco lo ha hecho." },
+          { fuerte: "La pereza", texto: "que casi nunca parece pereza: se disfraza de estar muy ocupado." },
+          { fuerte: "Los malos hábitos", texto: "y el principal es pagarse a uno mismo el último." },
+          { fuerte: "La arrogancia", texto: "creer que lo que no sabes no importa, que es lo que más caro sale." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre el primero da un matiz que sí resiste: perder dinero forma parte de invertir, y la diferencia entre quien acaba ganando y quien no es cuánto tarda en recuperarse del golpe. Cuenta que las pérdidas de sus primeros años fueron su formación, y que le salieron más baratas que un máster.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie se hace rico sin perder dinero alguna vez. La cuestión es si el golpe te enseña o te retira.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre el cinismo hace una observación que se ha vuelto más cierta con los años: la mayoría de las razones para no hacer algo con el dinero las hemos oído de gente que no ha hecho nada con el suyo. Merece la pena mirar de dónde viene cada consejo, incluidos los de este libro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El trabajo enseña una cosa y hay que ir a aprender las otras cuatro" },
+      {
+        b: "texto",
+        texto:
+          "La otra idea que sostiene el libro es que el sistema educativo produce especialistas —gente que sabe muchísimo de una cosa— y que para manejar dinero hace falta lo contrario: saber un poco de bastantes. Su lista es corta y concreta: contar, vender, entender de mercados y entender de leyes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La que más subraya es vender, y no por gusto. Sostiene que la diferencia entre un buen profesional que gana poco y otro que gana mucho casi nunca está en el oficio, sino en si sabe explicar lo que hace y llegar a quien lo necesita. Su ejemplo es el de la escritora a la que le dicen que escribe muy bien y no vende: le falta una segunda habilidad, no una primera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El mundo no paga por lo bueno que eres, paga por lo bien que consigues que se sepa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí su consejo de elegir los trabajos de los veinte y los treinta por lo que enseñan y no por lo que pagan, y de cambiar cuando se acaba el aprendizaje. Y de ahí también su preferencia por empezar con algo pequeño y propio en paralelo al empleo, para equivocarse cuando equivocarse todavía es barato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la parte del libro que mejor ha envejecido, quizá porque no depende de ningún régimen fiscal ni de ningún mercado inmobiliario: aprender a explicarse y saber leer unas cuentas sirve en cualquier país y en cualquier década.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Kiyosaki no enseña a invertir: enseña a mirar el dinero de otra manera",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir qué no hay en el libro, porque mucha gente lo abre esperándolo. No hay una sola estrategia detallada, ni un cálculo, ni una comparación entre productos, ni una tabla. Los pocos casos concretos que cuenta —comprar pisos embargados, revenderlos en cuestión de días— son ejemplos de otra época y de otro país.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hay es un cambio de encuadre, repetido de cien maneras: mira de dónde viene tu dinero y adónde va, distingue lo que te ingresa de lo que te cuesta, deja de medir tu situación por el sueldo y empieza a medirla por cuánto tiempo aguantarías sin él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta no es cuánto ganas, es cuántos meses podrías vivir mañana si dejaras de ganarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es también el motivo por el que el libro sigue vendiendo casi treinta años después mientras casi todos los manuales de finanzas de 1997 han desaparecido. No envejece porque no dice nada que pueda quedarse anticuado. Lo que da es vocabulario: activo, pasivo, carrera de la rata, pagarse primero. Y el vocabulario cambia lo que se ve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Quien busque qué hacer con sus ahorros el mes que viene, este no es su libro y le vendrá mejor cualquier manual de fondos indexados. Quien nunca se haya parado a pensar por qué sube el gasto cada vez que sube el sueldo, aquí encontrará esa conversación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro dice una cosa y la repite: la escuela no enseña nada sobre dinero, y lo poco que sabemos lo copiamos de nuestros padres. Frente a eso propone un vocabulario mínimo —activo y pasivo— y una regla de conducta —apartar primero lo que compra activos— y sostiene que quien entiende esas dos cosas juega a otro juego, gane lo que gane.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es haber puesto la educación financiera en la conversación de gente que nunca habría abierto un libro de economía. Cuarenta millones de ejemplares es una cifra que ningún manual serio ha rozado, y buena parte de lo que hoy se da por sabido —que la casa propia no es una inversión, que el sueldo alto no protege de nada— entró por aquí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un sueldo alto y un patrimonio son cosas distintas. Confundirlos es lo que mantiene a mucha gente corriendo en la rueda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y es una lista larga. El padre rico probablemente no existió: nadie ha conseguido identificarlo, el propio Kiyosaki ha dado versiones distintas sobre si era real o un recurso narrativo, y periodistas que investigaron su biografía encontraron que el patrimonio anterior al libro no cuadraba con lo que cuenta. El libro se presenta como memoria y se lee mejor como parábola.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y los consejos concretos son malos o peligrosos: recomienda deuda agresiva, desprecia los fondos indexados —que es lo que mejor le ha ido a la gente normal en estos treinta años—, ridiculiza el ahorro y minimiza el riesgo del inmobiliario apalancado, tres años antes de una crisis que arruinó a quien le hizo caso. La empresa que organizaba sus seminarios acabó en quiebra tras una demanda. Se lee por el encuadre; para las decisiones, hay que buscar en otro sitio.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   Cómo ganar amigos e influir sobre las personas, en ocho páginas.
+
+   De 1936, y el problema del resumen es que todo el mundo cree que ya sabe
+   lo que dice: sonría, recuerde nombres. Así que se cuenta lo que hay
+   debajo, que es una tesis bastante dura sobre la crítica y sobre por qué
+   no funciona nunca.
+
+   Segunda persona —regla 7—. Y en la conclusión, la parte incómoda: el
+   libro se puede usar para manipular y Carnegie lo sabía.
+   -------------------------------------------------------------------------- */
+
+const AMIGOS_INFLUIR: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El peor criminal de Nueva York se consideraba un buen hombre" },
+      {
+        b: "texto",
+        texto:
+          "En 1931, la policía de Nueva York acorraló a Francis Crowley en un piso de la Quinta Avenida. Había matado a un agente que le pidió el carné. Mientras ciento cincuenta policías disparaban contra las ventanas, él escribía una carta. Decía: bajo mi ropa hay un corazón cansado, pero bueno, un corazón que no le haría daño a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dale Carnegie recogió también lo que dijo Al Capone —he pasado los mejores años de mi vida dando placer a la gente, y todo lo que recibo son insultos— y lo que decía el director de Sing Sing: que casi ninguno de sus presos se consideraba culpable de nada. Todos tenían su explicación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si los peores asesinos del país se creen buena gente, ¿qué probabilidad hay de que tu crítica convenza a alguien normal?",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el libro entero, y conviene decirlo porque la fama lo ha convertido en un manual de sonrisas. Su tesis es que la crítica no corrige: pone al otro a defenderse. Que la gente no se mueve por razones sino por lo que quiere y por cómo se siente. Y que casi todo trato humano falla por lo mismo: hablamos de lo que nos interesa a nosotros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Carnegie lo escribió después de quince años dando clases nocturnas a comerciantes y vendedores en Nueva York, probando cada consejo en un aula. El recorrido de este resumen es ese: primero por qué la crítica no funciona, después qué mueve de verdad a la gente, después cómo se cambia de opinión a alguien sin humillarlo. La conclusión dice también dónde falla, que tiene un punto muy discutible.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Criticar a alguien solo consigue que se defienda mejor" },
+      {
+        b: "texto",
+        texto:
+          "La primera regla del libro es no criticar, no condenar y no quejarse, y Carnegie la sostiene con un argumento práctico: la crítica no cambia la conducta, cambia la relación. El otro no revisa lo que ha hecho, busca la razón por la que tenía derecho a hacerlo. Y la encuentra, porque todos la encontramos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Usa un ejemplo de Lincoln. De joven publicaba cartas anónimas burlándose de sus rivales, hasta que uno lo descubrió y lo retó a duelo; se libró por poco y no volvió a hacerlo en su vida. Después, siendo presidente, escribió una carta durísima al general Meade por dejar escapar al ejército de Lee tras Gettysburg, cuando la guerra podía haber terminado. La carta se encontró entre sus papeles al morir. Nunca la envió.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cualquier tonto puede criticar, condenar y quejarse. Y casi todos los tontos lo hacen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda regla es la contraria: aprecio honrado y sincero. Carnegie distingue con cuidado entre aprecio y adulación, y la distinción es sencilla: uno sale del corazón y el otro de la boca, uno es desinteresado y el otro es egoísta. La adulación se nota, y cuando se nota estropea más de lo que arregla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás está lo que él considera el hambre más profunda de las personas, y cita a William James: el deseo de ser apreciado. Es lo único que casi nunca damos gratis y lo único que casi nadie tiene bastante.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "A nadie le importa lo que tú quieres, y eso incluye a tus clientes" },
+      {
+        b: "texto",
+        texto:
+          "La tercera regla del libro es la que Carnegie considera el resumen de todo: despertar en el otro un deseo vehemente. Su ejemplo favorito es de pesca. A él le gustan las fresas con nata, pero cuando va a pescar no pone fresas en el anzuelo: pone un gusano, porque es lo que le gusta al pez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo aplica a la vida diaria de forma bastante brutal. Si quieres que tu hijo deje de fumar, no le sermonees sobre el cáncer: dile que así no va a poder correr en el equipo. Si quieres que un cliente te compre, no le cuentes tus años de experiencia: cuéntale qué problema suyo se acaba mañana.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Solo hay una manera de conseguir que alguien haga algo: que quiera hacerlo. Y quiere lo suyo, no lo tuyo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuenta el caso de Andrew Carnegie con sus sobrinos, que estaban en la universidad y no escribían nunca a su madre. Apostó a que conseguía respuesta a vuelta de correo sin pedirla. Les escribió una carta cariñosa y añadió al final, de pasada, que les mandaba cinco dólares a cada uno. Después no metió el dinero en el sobre. Llegaron dos cartas dándole las gracias por su amable carta y diciendo que se le había olvidado algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lección que extrae no es la travesura, sino el método: antes de pedir nada, dedicar un rato a mirar el asunto desde el punto de vista del otro. Carnegie sostiene que quien sepa hacer eso tiene el futuro asegurado, y que casi nadie se molesta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Interesarse por el otro consigue en dos meses lo que dos años de intentar interesarle",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda parte del libro son seis maneras de gustar a la gente, y Carnegie las abre con una frase que ha resistido bien: se hacen más amigos en dos meses interesándose de verdad por los demás que en dos años intentando que los demás se interesen por uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su modelo es un perro. Un perro se pone contento de verte sin haber leído nada de psicología y sin querer venderte nada, y por eso lleva miles de años ganándose la vida sin trabajar. La observación de fondo es que el interés no se finge: o hay curiosidad por el otro o no la hay.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Interésate de verdad", texto: "por lo que le pasa a la otra persona, no por lo que puede darte." },
+          { fuerte: "Sonríe", texto: "porque una cara que se alegra de verte dice más que cualquier presentación." },
+          { fuerte: "Usa su nombre", texto: "que para cada uno es la palabra más agradable del idioma." },
+          { fuerte: "Escucha y pregunta", texto: "y anímale a hablar de sí mismo, que es su tema favorito." },
+          { fuerte: "Habla de lo suyo", texto: "de lo que le interesa a él, no de lo que dominas tú." },
+          { fuerte: "Hazle sentir importante", texto: "y hazlo en serio, que es lo difícil." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "El nombre de una persona es, para ella, el sonido más dulce e importante que existe en cualquier idioma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre escuchar cuenta una cena en la que se pasó horas oyendo a un botánico y se marchó con fama de conversador extraordinario, habiendo dicho casi nada. Es su prueba de que un buen conversador no es el que habla bien: es el que pregunta y no interrumpe.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La única manera de ganar una discusión es no tenerla" },
+      {
+        b: "texto",
+        texto:
+          "La tercera parte trata de cómo cambiar de opinión a alguien, y empieza demoliendo el método habitual. Carnegie sostiene que en una discusión no se puede ganar: si pierdes, pierdes; y si ganas, también pierdes, porque has dejado al otro humillado y con sus convicciones intactas. Le has hecho sentir inferior, y nadie cambia de idea desde ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí salen dos reglas incómodas. La primera: nunca digas a alguien que está equivocado. Ni con esas palabras ni con un gesto ni con un tono. Decir voy a demostrarte que te equivocas es empezar diciendo soy más listo que tú, y a partir de ese momento ya no se discute del tema sino del orgullo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es la contraria y es la que casi nadie usa: si te equivocas, admítelo rápido y con energía, antes de que te lo digan. Carnegie cuenta que paseaba a su perro sin correa por un parque donde estaba prohibido, y que cuando el guardia lo pilló por segunda vez se adelantó y se acusó a sí mismo sin excusas. El guardia acabó defendiéndolo y diciéndole que lo dejara correr al otro lado de la colina.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Diciendo de ti mismo lo peor que el otro pensaba decirte, le quitas el argumento y casi siempre acaba defendiéndote.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resto del método va en la misma dirección: empezar de manera amistosa, conseguir que el otro diga sí desde el principio en cosas pequeñas, dejar que hable él la mayor parte del tiempo y —la más difícil— dejar que la idea le parezca suya. Sobre esto último es tajante: nadie defiende una idea con tantas ganas como la que cree que ha tenido él.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Se corrige mejor por el «y» que por el «pero»" },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro es la más útil para quien manda sobre alguien, y son nueve maneras de corregir sin ofender. La primera es empezar con elogio sincero, y enseguida avisa de la trampa en la que cae todo el mundo: el pero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estamos muy orgullosos de tus notas de este trimestre, pero si te hubieras esforzado en matemáticas… El elogio se convierte en el preámbulo de la bronca, y a partir de la segunda vez ya nadie se cree la primera mitad. Su corrección es cambiar una palabra: estamos orgullosos de tus notas, y si sigues así el trimestre que viene las de matemáticas van a estar a la altura de las demás.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cambia «pero» por «y», y un reproche disfrazado se convierte en un empujón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las demás siguen la misma lógica de no dejar al otro sin salida. Menciona tus propios errores antes de señalar los de él. Pregunta en vez de dar órdenes, que la gente acepta mucho mejor una decisión en la que ha participado. Deja que el otro salve las apariencias, sobre todo cuando tienes razón. Y elogia el más pequeño progreso, no solo el resultado final.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La que mejor resume la parte es dar al otro una buena reputación que mantener. Carnegie cuenta el caso de una mujer que contrató a una empleada y le dijo desde el primer día que la casa quedaba en manos de alguien ordenado y cuidadoso. Y observa que la gente hace esfuerzos considerables por no desmentir la idea que otro se ha hecho de ella.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi todo el libro se resume en dejar de hablar de uno mismo" },
+      {
+        b: "texto",
+        texto:
+          "Si se apilan las treinta reglas, debajo hay una sola instrucción repetida: quítate del centro. No critiques, porque criticar es poner tu criterio por delante. Interésate, escucha, pregunta, usa su nombre, habla de lo suyo, deja que la idea parezca suya, deja que salve la cara. Todo consiste en devolverle el foco al otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Carnegie sostiene que esto no es amabilidad sino aritmética. La persona con la que hablas está pensando en sus asuntos, igual que tú en los tuyos; según sus propias cuentas de aula, la mayoría de la gente piensa en sí misma la mayor parte del día. Quien entra en una conversación con eso en la cabeza tiene una ventaja enorme, y no hace falta ningún talento especial.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hay ningún truco: la ventaja es acordarse de que el otro también está en el centro de su propia vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También avisa de que estas cosas no funcionan como fórmulas. Repite varias veces que si se aplican como técnicas, sin interés real, se notan enseguida y salen peor que no hacer nada. Su instrucción para leer el libro es que no basta con leerlo: hay que releer cada capítulo y probarlo con alguien concreto durante una semana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es también el motivo de su forma: cada regla viene con tres o cuatro casos reales de sus alumnos, gente con nombre y apellido que vendía maquinaria o alquilaba pisos. No es un libro de ideas, es un cuaderno de campo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la crítica es inútil porque nadie se cree culpable, que la gente actúa por lo que quiere y por cómo se siente, y que casi todo trato humano mejora en cuanto uno deja de hablar de sí mismo. Sus treinta reglas son variaciones de eso, probadas una por una en clases nocturnas antes de escribirse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es haber inventado el género. Antes de 1936 no existían los libros que enseñan a tratar con la gente, y noventa años después las tres cosas que más se citan de cualquier manual de ventas, de liderazgo o de negociación siguen estando aquí. Que buena parte suene a obvia es la prueba de hasta qué punto ganó: era nuevo, y ahora es el aire.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se hacen más amigos en dos meses interesándose por los demás que en dos años intentando que se interesen por uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y hay dos cosas. La primera es la que el propio Carnegie no resuelve: todo el método sirve igual para acercarse a alguien de buena fe que para llevárselo al huerto, y la única diferencia que ofrece es la sinceridad, que no se puede comprobar desde fuera. Un manual que insiste en que hay que ser sincero es un manual que sabe que se puede usar sin serlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es de época. Carnegie escribe para un mundo de vendedores, jefes y clientes en el que evitar el conflicto siempre es mejor, y hay situaciones en las que no lo es: cuando hace falta decir que algo está mal hecho, cuando la discrepancia es el asunto, cuando el otro está abusando. El libro no tiene página para eso, y quien lo lea como sistema completo acabará confundiendo estar de acuerdo con llevarse bien.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   Piense y hágase rico, en ocho páginas.
+
+   De 1937, en plena Depresión, y es el abuelo de todo el género. El
+   problema del resumen es que la mitad del libro es misticismo —la mente
+   infinita, la transmutación sexual, el consejo invisible de nueve hombres
+   imaginarios— y la otra mitad son cosas que hoy se enseñan en cualquier
+   curso de objetivos.
+
+   Se cuenta entero, sin blanquearlo, y la conclusión dice lo que hay que
+   decir: que la investigación de las quinientas entrevistas nunca ha
+   aparecido y que el sesgo de supervivencia lo atraviesa de arriba abajo.
+   -------------------------------------------------------------------------- */
+
+const PIENSA_HAZTE_RICO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un buscador de oro vendió su mina y el que la compró encontró la veta a un metro",
+      },
+      {
+        b: "texto",
+        texto:
+          "R. U. Darby y su tío cavaron durante meses en Colorado hasta encontrar oro. Reunieron dinero, compraron maquinaria y sacaron un primer cargamento. Después la veta desapareció. Cavaron un poco más, se rindieron y vendieron los equipos a un chatarrero por unos cientos de dólares. El chatarrero llamó a un ingeniero de minas, que le dijo que allí había una falla y que la veta seguiría a un metro del punto donde habían parado. Estaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Napoleon Hill abre así porque la historia le sirve para su tesis: casi nadie fracasa por falta de capacidad, fracasa por parar. Y Darby, que después se hizo rico vendiendo seguros, decía que su fortuna venía de haberse acordado toda la vida de aquel metro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El fracaso tiene la costumbre de aparecer justo antes del resultado. Por eso funciona tan bien: llega cuando ya estás cansado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hill cuenta que Andrew Carnegie le encargó en 1908 estudiar a los hombres más ricos de Estados Unidos para averiguar qué tenían en común, y que dedicó veinte años a entrevistarlos. De ahí salieron trece principios, publicados en 1937, cuando el país llevaba ocho años de Depresión y hacía falta que alguien dijera que se podía salir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: por qué el punto de partida es un deseo con cifra y fecha, qué hace la fe con una idea repetida, por qué el conocimiento especializado importa menos de lo que parece, y qué es un cerebro colectivo. La conclusión dice también dónde falla, que en este libro hace falta contarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Querer ser rico no sirve de nada: hay que decir cuánto y cuándo" },
+      {
+        b: "texto",
+        texto:
+          "El primer principio es el deseo, y Hill lo separa de lo que él llama un simple anhelo. Todo el mundo desea tener más dinero. Lo que casi nadie hace es escribir la cantidad exacta, la fecha exacta y lo que va a entregar a cambio, porque eso obliga a comprometerse con algo comprobable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su procedimiento tiene seis pasos y es el antepasado de todos los métodos de objetivos que vinieron después:",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "La cifra", texto: "exacta. Nada de «bastante» ni de «mucho más»." },
+          { fuerte: "El precio", texto: "qué vas a dar a cambio, porque no hay nada gratis." },
+          { fuerte: "La fecha", texto: "el día en que lo quieres tener." },
+          { fuerte: "El plan", texto: "y se empieza a ejecutar hoy, esté listo o no." },
+          { fuerte: "Por escrito", texto: "las cuatro cosas anteriores, en una frase." },
+          { fuerte: "Dos veces al día", texto: "leerlo en voz alta al levantarse y al acostarse." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "Un deseo sin cifra y sin fecha no es un objetivo: es una manera educada de no decidir nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que usa es Edwin Barnes, que quería ser socio de Edison —no empleado, socio— y llegó a su laboratorio sin dinero, en un tren de mercancías, con ropa que parecía la de un vagabundo. Edison le dio el peor trabajo. Barnes estuvo años barriendo hasta que apareció una máquina que ningún vendedor quería y él la pidió. Acabó siendo socio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade la maniobra que más le gusta contar: quemar las naves. Cita a Hernán Cortés quemando sus barcos al desembarcar, y sostiene que un plan con salida de emergencia es un plan que se va a usar por la salida de emergencia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una idea repetida acaba pareciendo verdad, y eso se puede usar a favor",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo principio es la fe, y Hill lo explica de una manera bastante mecánica: la fe no es un don, es un estado mental que se produce repitiéndose algo hasta que el subconsciente deja de discutirlo. A eso lo llama autosugestión, y es el tercer principio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento se apoya en lo evidente: si repetirse mentiras negativas funciona —y funciona, dice, porque medio país está convencido de que no vale para nada—, el mismo mecanismo debe funcionar al revés. Por eso insiste en leer el objetivo en voz alta y sintiéndolo, no leyéndolo: las palabras sin emoción, sostiene, no llegan a ninguna parte.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los pensamientos que se mezclan con una emoción fuerte se quedan. Los demás pasan de largo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuenta el caso de un niño nacido sin orejas al que los médicos dieron por sordo de por vida. Su padre se negó a aceptarlo y se pasó años repitiéndole que oiría, sin permitir jamás que se comportara como un sordo. El chico acabó oyendo por conducción ósea y trabajando en una empresa de audífonos. Hill lo cuenta como prueba de su tesis, aunque lo que demuestra sea más bien lo que hace un padre que no rebaja las expectativas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí está también el punto donde el libro se separa de cualquier psicología: Hill sostiene que el pensamiento repetido atrae los medios materiales para cumplirse. No dice que te ponga a trabajar más: dice que atrae. Es la semilla de todo lo que setenta años después se vendería como la ley de la atracción.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El conocimiento no da poder: darlo por sabido cuesta dinero" },
+      {
+        b: "texto",
+        texto:
+          "El cuarto principio va contra un tópico. Hill sostiene que el conocimiento en sí no es poder, que solo lo es cuando se organiza para conseguir algo concreto. Y que da lo mismo si está en tu cabeza o en la de alguien a quien puedes llamar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo es un juicio real. Un periódico llamó ignorante a Henry Ford y este los demandó. En el juzgado, el abogado contrario le hizo preguntas de cultura general para demostrar que no sabía nada. Ford aguantó un rato y luego dijo que tenía una fila de botones en su mesa y que apretando cualquiera aparecía alguien capaz de contestar a lo que le preguntaran, así que no veía por qué debía llenarse la cabeza de datos generales.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hace falta saberlo, hace falta saber a quién preguntárselo. Lo primero es memoria; lo segundo, organización.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale también su crítica a los estudios: dice que la escuela enseña conocimientos generales y no enseña a organizarlos ni a usarlos, y que por eso hay tanta gente con muchos títulos y poco dinero. Su recomendación es formarse en algo especializado y hacerlo toda la vida, no en un tramo de ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El quinto principio, la imaginación, lo divide en dos: la que combina lo que ya existe de otra manera —que es la que usa casi todo el mundo— y la que él llama creativa, que es donde vuelve el misticismo. Lo interesante es el ejemplo: un farmacéutico compró una receta y un bol viejo por quinientos dólares a un cura que necesitaba el dinero. La fórmula era la de la Coca-Cola.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ninguna cabeza vale lo que dos cabezas puestas de acuerdo" },
+      {
+        b: "texto",
+        texto:
+          "El principio que mejor ha aguantado es el que Hill llama la mente maestra: un grupo de dos o más personas que trabajan en armonía hacia un objetivo común. Su observación es que Carnegie no sabía nada de fabricar acero, y que su fortuna venía de haber reunido a unos cincuenta hombres que sí sabían y de haberlos mantenido remando juntos durante décadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Le atribuye dos efectos. Uno económico, evidente: el grupo aporta conocimiento y contactos que tú no tienes. Y otro que llama psíquico, y que en lenguaje normal es lo que cualquiera ha notado en una buena reunión: que las ideas de uno encienden las de otro y sale algo que ninguno traía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Rodéate de gente que sepa lo que tú no sabes, y ponte de acuerdo con ella. Eso es casi todo el método.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También avisa de lo contrario, y es de las páginas más prácticas del libro: la gente con la que pasas el rato te contagia su manera de pensar, y si esa manera es la de quien no espera nada, no hay objetivo escrito que sobreviva. Recomienda revisar las compañías con la misma frialdad con la que se revisan las cuentas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El sexto principio, la decisión, va en la misma línea y es medible: Hill dice que de las quinientas personas que estudió, todas tomaban decisiones rápido y las cambiaban despacio, y que quienes fracasaban hacían justo lo contrario. Y añade una advertencia doméstica: no cuentes tus planes a quien no forme parte de ellos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La derrota temporal no es fracaso, y casi nadie sabe distinguirlas" },
+      {
+        b: "texto",
+        texto:
+          "La séptima idea es la persistencia, y es donde el libro vuelve al buscador de oro del principio. Hill sostiene que la mayoría abandona al primer contratiempo porque confunde una derrota temporal con el fracaso, y que la diferencia entre las dos cosas solo se ve mirando hacia atrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Da una lista de síntomas de falta de persistencia que sigue siendo incómoda de leer: no saber exactamente lo que se quiere, posponer, buscar atajos, conformarse, echar la culpa a las circunstancias, y la costumbre de buscar excusas en lugar de planes. Sostiene que se corrigen con las mismas cuatro cosas: un objetivo concreto, un deseo fuerte, un plan escrito y un grupo que empuje.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes del éxito casi siempre hay una derrota, y llega justo cuando ya no queda ganas de aguantarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En este tramo Hill mete también sus ideas más raras, y conviene decirlo. Habla de la transmutación de la energía sexual, sosteniendo que quienes triunfan canalizan ese impulso hacia el trabajo, y que por eso casi ninguno destaca antes de los cuarenta. Y describe un consejo invisible de nueve personajes históricos con los que dice reunirse cada noche en su imaginación, aunque después aclara que empezó como un ejercicio y acabó pareciéndole real.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cierra con el miedo. Enumera seis —a la pobreza, a la crítica, a la enfermedad, a perder el amor, a la vejez y a la muerte— y sostiene que son estados mentales aprendidos, no hechos, y que el más caro de todos es el miedo a la crítica, porque es el que impide intentar cualquier cosa nueva delante de otros.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi todo el género de la autoayuda sale de este libro" },
+      {
+        b: "texto",
+        texto:
+          "Merece la pena mirar el libro por lo que produjo. El objetivo escrito con cifra y fecha, la lectura diaria en voz alta, el grupo de apoyo, la idea de que la mentalidad va antes que la técnica, la insistencia en la persistencia: todo eso estaba aquí en 1937 y desde entonces se ha reescrito mil veces, casi siempre sin citar la fuente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También es el origen de la parte peor. La afirmación de que el pensamiento atrae los medios materiales, la mente infinita y el subconsciente como transmisor son de este libro, y son las que setenta años después se convertirían en un negocio enorme de vídeos y seminarios. Hill puso las dos cosas en el mismo tomo y sin separarlas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todo lo que se vende hoy como mentalidad de éxito ya estaba en un libro de la Depresión, y también lo que se vende como magia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Contexto importa: se publicó cuando una cuarta parte del país estaba en paro. Vendió veinte millones de ejemplares en vida de su autor porque decía que la salida dependía de uno mismo, en un momento en que dependía de bastantes cosas más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se puede aprovechar hoy son cuatro cosas, y ninguna necesita creer en nada: escribir lo que quieres con número y fecha, decidir rápido y cambiar despacio, rodearte de gente que sepa lo que no sabes y no confundir una mala racha con el final. El resto se puede leer como documento de época.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la riqueza empieza en una idea y que lo que separa a quien la consigue de quien no es un método: un deseo convertido en cifra y fecha, repetido hasta que deja de discutirse, apoyado en un grupo y sostenido más allá del punto en el que la mayoría abandona. Trece principios, y los cuatro primeros hacen casi todo el trabajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es haber inventado un género entero. Cualquier libro de objetivos, de mentalidad o de productividad publicado después está discutiendo con este, lo sepa o no. Y algunas de sus observaciones —decidir rápido, no contar los planes a quien no forma parte de ellos, cuidar las compañías— siguen siendo buenas noventa años después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que la mente puede concebir y creer, sostiene Hill, lo puede conseguir. Es la frase que fundó la autoayuda entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y es serio. La investigación no existe: Hill dijo haber entrevistado a quinientos hombres ricos por encargo de Carnegie, y nunca han aparecido ni las notas, ni las entrevistas, ni un solo documento que pruebe que llegó a conocerlo. Historiadores que revisaron su biografía encontraron negocios fracasados, una escuela de publicidad cerrada y varias causas por fraude.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un problema de método que atraviesa el libro entero. Estudiar solo a los que triunfaron y sacar de ahí las causas del triunfo no dice nada, porque no se ha mirado a los miles que hicieron exactamente lo mismo y se arruinaron. Si a eso se le añade que la mitad de los principios son místicos, queda un libro que hay que leer sabiendo qué se coge y qué se deja.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   Los secretos de la mente millonaria, en ocho páginas.
+
+   El argumento del libro cabe en una frase —tienes un termostato de dinero
+   heredado y todo vuelve a él— y el resto son diecisiete comparaciones
+   entre lo que piensa el rico y lo que piensa el pobre. Ordenarlas por
+   temas evita que el resumen sea una lista de diecisiete puntos, que es
+   exactamente lo que Pablo devolvió.
+
+   Segunda persona, y en la conclusión la parte fea, que aquí es grande: la
+   culpabilización del pobre y los seminarios de tres días.
+   -------------------------------------------------------------------------- */
+
+const MENTE_MILLONARIA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los que ganan la lotería vuelven a su nivel de siempre en unos años" },
+      {
+        b: "texto",
+        texto:
+          "T. Harv Eker abre con un fenómeno documentado: una parte grande de quienes ganan grandes premios de lotería acaban, al cabo de unos años, con un patrimonio parecido al que tenían antes. Y con el fenómeno simétrico, que es el que le interesa: hay gente que se arruina del todo y vuelve a estar donde estaba en un tiempo llamativamente corto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación es una imagen que sostiene el libro entero. Cada uno lleva dentro un termostato de dinero puesto a una temperatura concreta. Si te suben por encima, harás algo —gastar de más, un negocio malo, un préstamo a quien no te lo devuelve— para volver a tu número. Si te bajan, te buscarás la vida hasta volver. La cuenta corriente sigue al termostato, no al revés.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tus ingresos crecen hasta donde crezcas tú. Por eso el dinero que llega de golpe casi nunca se queda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eker cuenta que a los treinta estaba arruinado, con préstamos de su padre y una docena de negocios fallidos, y que montó una tienda de material deportivo que vendió dos años y medio después por varios millones. Su conclusión —que lo que cambió fue la manera de pensar y no la técnica— es la tesis del libro, con todo lo que eso tiene de discutible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: de dónde sale el termostato, cómo se cambia, y las diferencias concretas que él encuentra entre la manera de pensar de quien tiene dinero y de quien no. La conclusión dice también dónde falla, que aquí es importante decirlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Tu manera de pensar sobre el dinero la escribieron otros antes de que supieras contar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eker sostiene que el termostato se instaló en la infancia, por tres vías, y que ninguna se eligió. La primera es lo que oíste: el dinero no crece en los árboles, los ricos son unos ladrones, el dinero no da la felicidad, hay que trabajar duro para ganarlo. Frases dichas de pasada, repetidas durante años, que se quedan funcionando como reglas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es lo que viste. Si en tu casa el dinero era motivo de discusión, aprendiste que el dinero trae broncas. Si tu padre trabajaba doce horas y no había nunca, aprendiste que ganar cuesta la vida. Nadie te lo dijo: lo dedujiste tú, con seis años, mirando.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Lo que oíste", texto: "las frases que se decían en tu casa sobre la gente con dinero." },
+          { fuerte: "Lo que viste", texto: "cómo se comportaban de verdad tus padres con lo que entraba." },
+          { fuerte: "Lo que te pasó", texto: "un episodio concreto que dejó una regla escrita en piedra." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "No estás pensando sobre el dinero: estás reproduciendo lo que oíste sobre él antes de saber leer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El paso que propone es sencillo de enunciar: escribe las frases que recuerdas de tu casa, pregúntate qué te han hecho hacer, y decide si te las quieres quedar. Su punto no es que sean falsas, sino que nunca las examinaste.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una distinción que es de lo más útil del libro: entre ser víctima y ser responsable. La víctima explica —la crisis, el jefe, la familia—, y sus explicaciones pueden ser todas ciertas y no servir de nada. El responsable pregunta qué puede hacer con eso. Eker lo lleva demasiado lejos, como se verá al final, pero la distinción funciona.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El que juega a no perder ya ha decidido cuánto va a ganar" },
+      {
+        b: "texto",
+        texto:
+          "La primera diferencia que señala es de objetivo. Hay quien juega al dinero para ganar y quien juega para no perder, y la segunda postura suena prudente pero fija el resultado de antemano: el que solo quiere llegar a fin de mes llega a fin de mes, y ni un euro más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale una de sus insistencias más repetidas: escribir una cifra. No un deseo de estar bien, sino un número. Eker sostiene que el cerebro no puede trabajar en una dirección que no se le ha dado, y que la mayoría nunca ha puesto por escrito cuánto quiere ganar ni cuánto quiere tener.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Apunta a la Luna y, si fallas, caerás entre las estrellas. Apunta al techo y darás en el techo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda diferencia es qué se mira. Dice que quien no tiene dinero se fija en los obstáculos y quien lo tiene se fija en las oportunidades, y añade el matiz que salva la idea de ser un tópico: no es que los ricos no vean los problemas, es que dan por hecho que aparecerán y calculan si merece la pena a pesar de ellos. La pregunta no es si saldrá bien, es qué pasa si no sale.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la tercera, la más incómoda: la relación con la gente que ya tiene dinero. Sostiene que quien los desprecia por sistema no va a permitirse llegar a ser uno de ellos, porque nadie se convierte en aquello que critica. Es la parte del argumento que peor envejece cuando se aplica sin matices, y también la que explica por qué el libro se lee tan bien: da permiso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Te pagan por resultados, no por horas, y eso cambia dónde trabajas" },
+      {
+        b: "texto",
+        texto:
+          "Otra de sus comparaciones va sobre cómo se cobra. Eker sostiene que el ingreso fijo por hora tiene un techo que se puede calcular con una multiplicación, y que quien quiere pasar de ahí tiene que cobrar de alguna forma ligada al resultado: comisión, participación, negocio propio, derechos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento no es contra el empleo. Es que un sueldo compra seguridad y la paga con techo, y conviene saber que se está haciendo ese cambio en vez de descubrirlo a los cincuenta. Su recomendación concreta es no dejar el trabajo, sino empezar algo pequeño en paralelo donde cobrar por lo que se consigue.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si cobras por horas, tu límite lo pone el calendario. Y el calendario no negocia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Junto a eso pone la idea de pensar en grande, que explica con una cuenta: quien resuelve el problema de diez personas gana lo que gana; quien resuelve el mismo problema para diez mil, gana mil veces más por el mismo trabajo de diseñar la solución. Su pregunta es a cuánta gente sirve lo que haces, y la respuesta suele ser corregible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También insiste en algo que suena raro en un libro de dinero: dice que la gente que gana mucho se promociona sin vergüenza, y que quien considera que venderse está feo se queda con el mejor producto y sin clientes. Lo enmarca así: si crees de verdad en lo que haces, no contarlo es un problema para el que lo necesita.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El dinero se administra con frascos antes de administrarse con cifras",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte más práctica del libro es un sistema de reparto que Eker enseña con seis cuentas o seis frascos. Cada vez que entra dinero, se reparte en porcentajes fijos y cada parte tiene un uso que no se toca. Su cifra de referencia es esta:",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Necesidades, 55 %", texto: "todo lo de vivir: casa, comida, recibos, transporte." },
+          { fuerte: "Libertad financiera, 10 %", texto: "solo se invierte, nunca se gasta. De aquí no se saca." },
+          { fuerte: "Ahorro a largo, 10 %", texto: "para compras grandes y para los imprevistos." },
+          { fuerte: "Formación, 10 %", texto: "cursos, libros, aprender algo que suba tus ingresos." },
+          { fuerte: "Diversión, 10 %", texto: "y hay que gastarlo entero cada mes, obligatoriamente." },
+          { fuerte: "Dar, 5 %", texto: "a quien lo necesite, sea quien sea." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante no son los porcentajes, que cada uno ajustará, sino dos detalles. El primero es que la cuenta de la libertad financiera es de una sola dirección: entra dinero y no sale, nunca, para nada. El segundo es que la de diversión es obligatoria gastarla, y ahí está su razonamiento: un sistema que solo aprieta se abandona a las tres semanas, así que la parte de disfrutar es lo que hace que el resto dure.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El hábito de administrar no depende de cuánto entra. Quien no reparte cien euros tampoco va a repartir cien mil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está su respuesta a la objeción evidente. Cuando alguien dice que no tiene bastante para repartir, Eker contesta que empiece con lo que sea —un euro por frasco si hace falta— porque lo que se está instalando es la costumbre, no la cantidad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que no se mide crece solo si es un problema" },
+      {
+        b: "texto",
+        texto:
+          "Otra idea que sostiene es la de mirar los números aunque duelan. Su observación es que quien va mal de dinero deja de abrir los extractos, y que eso convierte una situación mala en una situación mala y desconocida, que es peor. Su regla es sencilla: lo que no se controla, no se puede mejorar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Recomienda mirar cuatro cosas cada mes y anotarlas: lo que entra, lo que sale, lo que se tiene y lo que se debe. No como contabilidad, sino como el peso en una báscula: para tener una serie y ver hacia dónde va.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El dinero no se escapa por lo que gastas: se escapa por lo que no miras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Junto a eso pone la idea del trabajo sobre uno mismo, que es donde más se le nota el oficio de formador. Sostiene que lo que sabes te ha traído hasta donde estás y que, por definición, no basta para llegar más lejos, así que hay que seguir aprendiendo aunque las cosas vayan bien. Es un argumento sencillo y difícil de rebatir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y termina con lo que llama la ley de los ingresos y el crecimiento personal: los ingresos crecen hasta donde crezcas tú. Es la misma imagen del termostato del principio, cerrando el círculo, y explica por qué todo el libro habla de la cabeza y casi nunca de productos financieros.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El libro funciona como permiso, y esa es la mitad de su éxito" },
+      {
+        b: "texto",
+        texto:
+          "Conviene entender por qué se vende tanto un libro que no explica ni un solo producto financiero. Lo que hace bien es quitar de en medio una traba que mucha gente lleva sin haberla examinado: la idea de que querer dinero es un poco sucio, de que quien lo tiene ha hecho algo raro, de que aspirar a más es de codiciosos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eker desmonta eso con una insistencia casi pesada, y lo hace en un tono de charla que se lee en dos tardes. Sus diecisiete comparaciones funcionan como espejo: casi cualquiera se reconoce en tres o cuatro de ellas y esa es la parte que se recuerda.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Buena parte de lo que este libro hace no es enseñar nada: es quitar el freno de mano a quien no sabía que lo llevaba puesto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su otra virtud es el sistema de frascos, que es concreto, se puede empezar el mismo día y no depende de ninguna creencia. Quien no se crea nada de lo demás puede coger eso y le habrá servido de algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El precio de ese tono es que no hay ni una cifra, ni un estudio, ni una fuente en todo el libro. Todo lo que afirma se sostiene en anécdotas de sus alumnos y en su propia biografía, contada por él. Es un libro de arengas, y hay que leerlo sabiéndolo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro dice que cada uno lleva un termostato de dinero puesto en la infancia, que la cuenta corriente lo obedece, y que por eso el dinero que llega de golpe se va. Para cambiarlo propone examinar las frases heredadas, ponerse una cifra por escrito, cobrar por resultados en lugar de por horas y repartir cada ingreso en seis usos fijos desde el primer euro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta son dos cosas concretas. El sistema de los frascos, que funciona con cualquier sueldo y se empieza hoy. Y el permiso, que para mucha gente es la traba de verdad: hasta que uno no deja de pensar que querer dinero está mal, ninguna técnica le va a servir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si tu subconsciente no está puesto en el éxito, todo lo que aprendas va a acabar devolviéndote al mismo sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y es lo primero que hay que decir. La tesis de que la situación económica de cada uno es un reflejo de su mentalidad convierte cualquier pobreza en culpa del pobre, y eso no se sostiene: el país donde naces, la salud, los cuidados que te tocan y una crisis explican bastante más de la renta de una persona que sus creencias sobre el dinero. Eker no menciona ninguna de esas cosas en todo el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay que decir lo otro: el libro es la puerta de entrada a un seminario de tres días y a una escalera de cursos mucho más caros, y su tono está construido para eso. No hay una sola fuente, un solo dato verificable ni un solo caso comprobable, y la biografía del autor —los negocios anteriores, la venta de la tienda— solo la cuenta él. Se le pueden coger los frascos y el permiso; para lo demás, cualquier manual de finanzas personales dice más y promete menos.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "mente-millonaria": MENTE_MILLONARIA,
+  "piensa-hazte-rico": PIENSA_HAZTE_RICO,
+  "amigos-influir": AMIGOS_INFLUIR,
+  "padre-rico": PADRE_RICO,
   "psicologia-dinero": PSICOLOGIA_DINERO,
   "poder-habitos": PODER_HABITOS,
   "siete-habitos": SIETE_HABITOS,

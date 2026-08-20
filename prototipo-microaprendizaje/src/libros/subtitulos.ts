@@ -22,6 +22,10 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "mente-millonaria": "Domina el juego interior de la riqueza",
+  "piensa-hazte-rico": "El libro que fundó la literatura del éxito",
+  "amigos-influir": "El libro más famoso sobre relaciones humanas",
+  "padre-rico": "Qué les enseñan los ricos a sus hijos acerca del dinero",
   "psicologia-dinero": "Cómo piensan los ricos: 18 claves imperecederas sobre riqueza y felicidad",
   "poder-habitos": "Por qué hacemos lo que hacemos en la vida y en la empresa",
   "siete-habitos": "La revolución ética en la vida cotidiana y en la empresa",

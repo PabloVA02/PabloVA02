@@ -32,13 +32,10 @@ const CARGADORES: Record<string, Cargador> = {
   influencia: () => import("./psicologia").then((m) => m.INFLUENCIA),
   mindset: () => import("./psicologia").then((m) => m.MINDSET),
   "inteligencia-emocional": () => import("./psicologia").then((m) => m.INTELIGENCIA_EMOCIONAL),
-  "amigos-influir": () => import("./psicologia").then((m) => m.AMIGOS_INFLUIR),
 
   /* Economía */
-  "padre-rico": () => import("./economia").then((m) => m.PADRE_RICO),
   "hombre-rico-babilonia": () => import("./economia").then((m) => m.BABILONIA),
   "semana-4-horas": () => import("./economia").then((m) => m.SEMANA_4_HORAS),
-  "piensa-hazte-rico": () => import("./economia").then((m) => m.PIENSA_HAZTE_RICO),
 
   /* Filosofía */
   "busca-sentido": () => import("./filosofia").then((m) => m.BUSCA_SENTIDO),
@@ -178,7 +175,6 @@ const CARGADORES: Record<string, Cargador> = {
   "cuchara-menguante": () => import("./ciencia").then((m) => m.CUCHARA_MENGUANTE),
   "historia-espana": () => import("./historia").then((m) => m.HISTORIA_ESPANA),
   "monje-ferrari": () => import("./filosofia").then((m) => m.MONJE_FERRARI),
-  "mente-millonaria": () => import("./economia").then((m) => m.MENTE_MILLONARIA),
   ficciones: () => import("./literatura").then((m) => m.FICCIONES),
   "casa-espiritus": () => import("./literatura").then((m) => m.CASA_ESPIRITUS),
   "cuentos-poe": () => import("./literatura").then((m) => m.CUENTOS_POE),

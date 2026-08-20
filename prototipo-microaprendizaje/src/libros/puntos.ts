@@ -38,6 +38,38 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "mente-millonaria": [
+    "por qué el dinero que llega de golpe no se queda",
+    "las tres vías por las que heredaste tu idea del dinero",
+    "la diferencia entre jugar a ganar y a no perder",
+    "el reparto en seis frascos, con sus porcentajes",
+    "por qué cobrar por horas te pone un techo calculable",
+  ],
+
+  "piensa-hazte-rico": [
+    "por qué un deseo sin cifra ni fecha no vale",
+    "los seis pasos para convertir una idea en un plan",
+    "por qué Ford no se molestaba en saber datos generales",
+    "qué es una mente maestra y para qué sirve",
+    "cómo distinguir una derrota temporal de un fracaso",
+  ],
+
+  "amigos-influir": [
+    "por qué la crítica solo consigue que el otro se defienda",
+    "en qué se diferencian el aprecio y la adulación",
+    "por qué en el anzuelo va gusano y no fresas",
+    "cómo admitir un error antes de que te lo digan",
+    "por qué cambiar «pero» por «y» cambia una bronca entera",
+  ],
+
+  "padre-rico": [
+    "la diferencia entre un activo y un pasivo, en una línea",
+    "por qué la casa donde vives no es una inversión",
+    "por qué cobrar más solo agranda la rueda",
+    "qué significa pagarse a uno mismo primero",
+    "los cinco miedos que frenan a quien no invierte",
+  ],
+
   "psicologia-dinero": [
     "por qué cada uno decide con la vida que le tocó",
     "cómo separar lo que fue mérito de lo que fue suerte",

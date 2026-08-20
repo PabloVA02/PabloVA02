@@ -29,6 +29,18 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "mente-millonaria":
+    "Mucha gente que gana un gran premio de lotería vuelve en pocos años al patrimonio que tenía antes. Eker lo explica con un termostato de dinero puesto en la infancia, y enseña a cambiarlo y a repartir cada ingreso.",
+
+  "piensa-hazte-rico":
+    "Dos buscadores de oro vendieron su mina y el chatarrero que la compró encontró la veta a un metro del punto donde habían parado. Hill publicó en plena Depresión los trece principios que fundaron el género entero.",
+
+  "amigos-influir":
+    "Al Capone se consideraba un benefactor y el peor asesino de Nueva York se creía un buen hombre. Carnegie parte de ahí para demostrar que criticar no corrige a nadie, y construye treinta reglas probadas en clases nocturnas.",
+
+  "padre-rico":
+    "Kiyosaki dice que creció con dos padres: uno doctorado que murió con facturas sin pagar y otro que dejó los estudios a los trece y se hizo rico. De ahí saca un vocabulario mínimo para mirar el dinero de otra manera.",
+
   "psicologia-dinero":
     "Un conserje de Vermont dejó ocho millones de dólares el mismo año en que un directivo de Merrill Lynch perdió su casa. Housel explica por qué con el dinero gana el que se comporta mejor y no el que más sabe.",
 
