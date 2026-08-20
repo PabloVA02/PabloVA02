@@ -42,7 +42,7 @@ export const PUNTOS: Record<string, string[]> = {
     "por qué la aventura empieza con un contrato",
     "cómo se le habla a un dragón para salir vivo",
     "quién mata a Smaug, que no es ninguno de los protagonistas",
-    "por qué el final es un reparto de oro y no una batalla",
+    "por qué el final es un reparto de oro",
     "por qué Tolkien reescribió el capítulo del anillo en 1951",
   ],
 
