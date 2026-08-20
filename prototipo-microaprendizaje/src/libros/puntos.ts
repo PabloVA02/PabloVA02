@@ -39,7 +39,7 @@
 
 export const PUNTOS: Record<string, string[]> = {
   "sombra-viento": [
-    "qué es el Cementerio de los Libros Olvidados y por qué no existe",
+    "qué es el Cementerio de los Libros Olvidados",
     "por qué la vida de Daniel repite la de Carax",
     "cómo cuenta la posguerra sin nombrar la política",
     "qué le pasó a Fermín antes de aparecer en el libro",
