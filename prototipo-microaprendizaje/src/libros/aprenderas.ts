@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "orgullo-prejuicio":
+    "Cinco hermanas sin herencia tienen que casarse antes de que muera su padre, porque la casa pasará a un primo. Alrededor de esa cuenta, Austen escribió la mejor comedia social que existe.",
+
   "matar-ruisenor":
     "Un abogado defiende en 1935 a un hombre negro acusado en falso en un pueblo de Alabama, y lo cuenta su hija de ocho años. La mitad del libro pasa antes de que empiece el juicio.",
 

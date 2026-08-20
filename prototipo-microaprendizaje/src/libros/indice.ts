@@ -100,7 +100,6 @@ const CARGADORES: Record<string, Cargador> = {
   odisea: () => import("./literatura").then((m) => m.ODISEA),
   "sombra-viento": () => import("./literatura").then((m) => m.SOMBRA_VIENTO),
   "nombre-rosa": () => import("./literatura").then((m) => m.NOMBRE_ROSA),
-  "orgullo-prejuicio": () => import("./literatura").then((m) => m.ORGULLO_PREJUICIO),
   "cartas-joven-poeta": () => import("./arte").then((m) => m.CARTAS_JOVEN_POETA),
   "historia-arte": () => import("./arte").then((m) => m.HISTORIA_ARTE),
   "zonas-azules": () => import("./salud").then((m) => m.ZONAS_AZULES),

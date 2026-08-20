@@ -11680,7 +11680,245 @@ const MATAR_RUISENOR: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Orgullo y prejuicio, en ocho páginas.
+
+   Breve. Es una novela de una sola línea y estirarla sobraría.
+
+   Caso (a) de la 4 bis: no se cuenta la trama, se cuenta lo que el libro
+   sostiene. Y aquí la anécdota famosa —el señor Darcy como galán— es
+   sobre todo una invención posterior de las adaptaciones, así que el
+   resumen tira por el otro lado, que es el del propio libro: el dinero.
+
+   Lo que casi nadie sabe y aquí sí está: que la trama arranca por una ley
+   de herencia; que Charlotte Lucas se casa sin ilusiones y la novela no
+   la condena; que el problema de Lydia no es moral sino económico y que
+   lo resuelve una compra; y que la primera frase del libro es una broma
+   que dice justo lo contrario de lo que parece.
+   -------------------------------------------------------------------------- */
+
+const ORGULLO_PREJUICIO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La frase más famosa de la novela dice exactamente lo contrario de lo que parece",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza afirmando que es verdad universalmente reconocida que un hombre soltero y con fortuna necesita una esposa. Suena a sentencia y es una burla. Nadie en la novela cree eso: lo que hace falta de verdad, en la Inglaterra rural de 1813, es que una mujer sin fortuna encuentre a un hombre que la tenga. La frase está dicha desde la cabeza de las madres del vecindario, no desde la del narrador, y en esas dos líneas ya está el procedimiento del libro entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene desmontar de entrada la idea de novela romántica de época. Orgullo y prejuicio es un libro sobre dinero, y el romance es la forma que toma el dinero cuando se habla de él en un salón. Cada personaje viene con su renta anual pegada al nombre —Darcy diez mil libras al año, Bingley cuatro o cinco mil, el señor Bennet dos mil— y esas cifras no son decorado: deciden quién puede hablar con quién.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren la ley que pone en marcha la trama, el mercado matrimonial y sus reglas, la amiga que se casa sin amor y con razones, el momento en que la protagonista descubre que se ha equivocado en todo, el escándalo que casi arruina a la familia y la manera de narrar que hizo posible la novela moderna. Un dato para calibrar de qué se habla: Austen vendió los derechos de este libro por ciento diez libras, poco más de una centésima parte de lo que Darcy ingresaba cada año sin levantarse de la cama.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No es una historia de amor con dinero de fondo: es una historia de dinero contada con las palabras del amor.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Toda la trama arranca de una ley de herencia que deja a cinco hermanas sin nada",
+      },
+      {
+        b: "texto",
+        texto:
+          "La casa de los Bennet, Longbourn, está sujeta a un mayorazgo: solo puede heredarla un varón. El señor Bennet tuvo cinco hijas y ningún hijo, así que el día que él muera la casa y la renta pasarán íntegras a un primo lejano al que apenas conocen, el señor Collins, y su mujer y sus cinco hijas tendrán que salir de allí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que les quedaría son cinco mil libras a repartir entre las seis, que colocadas al interés de la época dan unas cuarenta libras al año por cabeza. No es una vida modesta: es la pobreza, con la agravante de tener que seguir aparentando. Una hija de familia respetable sin dinero no podía trabajar sin perder la categoría; como mucho, colocarse de institutriz o de señora de compañía en casa ajena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso la señora Bennet, que en la lectura rápida es un personaje ridículo, tiene toda la razón del mundo. Su histeria por casar a las hijas es un plan de supervivencia con un plazo: el que tarde en morirse su marido. Y por eso su marido, que se ríe de ella desde el sillón de la biblioteca y no ha ahorrado en veintitrés años, es bastante peor persona de lo que parece. El propio libro lo dice sin piedad: confiaba en tener un hijo varón que rompiera el mayorazgo, el hijo no llegó, y para entonces ya era tarde para ahorrar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casarse no es el final feliz de estas cinco mujeres: es su única profesión posible, y tiene fecha de caducidad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un baile de pueblo es una entrevista de trabajo con música" },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica páginas enteras a bailes, visitas y cartas, y no es costumbrismo: son los únicos lugares donde puede ocurrir algo. Una mujer soltera no podía escribir a un hombre, ni salir sola, ni presentarse a nadie por su cuenta, ni desde luego declararse. Podía aceptar o no aceptar un baile, y poco más. El baile era el único rato en que un hombre y una mujer podían hablar media hora seguidos sin que nadie los oyera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí que las escenas se jueguen en detalles minúsculos que hoy pasan desapercibidos: cuántas veces se baila con la misma persona, quién visita a quién primero, si una carta se entrega en mano, si una familia devuelve la visita al día siguiente o deja pasar una semana. Cada uno de esos gestos era información pública, y todo el vecindario sabía leerla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Elizabeth Bennet se mueve dentro de esas reglas con una libertad que llamaba la atención en 1813: contesta, discute, se ríe, cruza los campos a pie y llega con las enaguas manchadas de barro, cosa que las señoras finas comentan durante días. No es una rebelde moderna metida en un vestido de época; es una mujer que usa hasta el último milímetro del margen que tiene, y el libro deja muy claro cuánto mide ese margen. Y las reglas se aplican también a los hombres: Darcy no puede bailar con quien quiera sin que el pueblo entero saque conclusiones, y el primer error del libro lo comete precisamente negándose a bailar con Elizabeth en voz demasiado alta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En ese mundo, aceptar un baile es la mayor decisión que una mujer puede tomar en público.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Charlotte Lucas se casa sin ilusiones y la novela no la condena" },
+      {
+        b: "texto",
+        texto:
+          "El señor Collins, el primo que heredará la casa, llega dispuesto a casarse con una de las hermanas. Se lo propone a Elizabeth, que lo rechaza. Tres días después se lo propone a Charlotte Lucas, la mejor amiga de Elizabeth, veintisiete años, poco atractiva según su propia familia y sin dote, y Charlotte acepta en el acto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da sus razones sin adornarlas: no es romántica, nunca lo ha sido, solo pide una casa cómoda, y considerando la posición del señor Collins es todo lo que puede esperar de la vida. Elizabeth se escandaliza y la amistad se enfría. Después la visita en su nueva casa y descubre que Charlotte ha organizado la convivencia con precisión: ha elegido para sí la salita de atrás, la que da al jardín, para que su marido no entre a molestarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Austen no castiga a Charlotte ni la premia. La deja ahí, razonablemente instalada, para que el lector entienda que en aquel mundo hay más de una salida y que la de Elizabeth —esperar a un hombre al que además quiera— es un lujo que casi ninguna mujer se puede permitir. Es el personaje que las adaptaciones recortan siempre, y es la prueba de que la novela sabe exactamente de qué está hablando. La escena vale por todo el capítulo: Charlotte enseña la casa con orgullo y Elizabeth entiende, mirando la distribución de las habitaciones, que su amiga ha calculado hasta el último metro de distancia con su marido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Charlotte no se equivoca: elige la única forma de independencia que estaba a la venta, y el libro se lo respeta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El centro del libro es una mujer leyendo una carta y cambiando de opinión",
+      },
+      {
+        b: "texto",
+        texto:
+          "Elizabeth ha decidido desde el primer baile que Darcy es un orgulloso insoportable, y ha creído sin comprobar nada la versión de Wickham, un oficial simpático que le cuenta que Darcy lo arruinó. Sobre esas dos ideas construye meses de conversación. Cuando Darcy le declara su amor de la manera más torpe posible —explicándole todo lo que ha tenido que vencer para rebajarse a ello—, ella lo rechaza y le dice a la cara todo lo que piensa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al día siguiente él le entrega una carta. No pide nada: explica, punto por punto, qué pasó con Wickham y por qué separó a su amigo de la hermana de ella. Elizabeth la lee varias veces, comprueba los hechos con lo que ya sabía y llega a la conclusión que sostiene toda la novela: se ha equivocado, y se ha equivocado porque le halagaba la versión que la hacía quedar por encima.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La frase que se dice a sí misma —hasta este momento no me conocía— es el corazón del libro. Los dos títulos del original están repartidos entre los dos: hay orgullo en ella y prejuicio en él, y no al revés como suele contarse. Y lo que los cambia no es el amor, es la información: los dos rectifican cuando aparecen los datos. Y hay un detalle de precisión: la carta no le pide que cambie de opinión sobre él, solo le expone los hechos, y ella tarda varias horas y varias lecturas en aceptarlos. El libro le concede el tiempo que hace falta para rectificar de verdad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La novela no premia a quien tiene razón, sino a los dos que son capaces de cambiar de opinión con las pruebas delante.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La fuga de Lydia no es un escándalo moral: es una quiebra familiar" },
+      {
+        b: "texto",
+        texto:
+          "Lydia, la hermana pequeña, tiene quince años y se escapa con Wickham sin casarse. La reacción de la familia parece desmedida hasta que se entiende la mecánica: en aquel mundo la reputación era un aval colectivo. Si una hermana quedaba señalada, las otras cuatro dejaban de ser presentables, y con ellas se hundía la única operación de la que dependía la casa entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Así que el problema no se arregla con perdón ni con sermones: se arregla con dinero. Darcy busca a la pareja en Londres, negocia con Wickham, paga sus deudas, le compra un puesto de oficial en el ejército y asegura una renta a Lydia a cambio de que se case con ella. Lo hace en secreto y deja que la familia crea que fue el tío Gardiner.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el gesto que enamora a Elizabeth, y conviene ver lo que significa: el hombre resuelve la trama comprando el matrimonio de una niña de quince años con un tipo que no la quiere. La novela lo presenta como un acto de generosidad, y lo es dentro de sus reglas; pero también deja a la vista que en ese mundo un problema se soluciona si alguien tiene diez mil libras al año y ganas de gastarlas. Wickham, que no se casa por gusto sino por precio, entra en la familia para siempre: aparece en las últimas páginas pidiendo dinero, y lo seguirá pidiendo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El final feliz de la familia Bennet lo firma un talonario, y la novela no lo disimula.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Austen inventó una manera de narrar que hoy usa todo el mundo sin saberlo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro está escrito en tercera persona, pero pasa la mayor parte del tiempo dentro de la cabeza de Elizabeth sin decirlo. Sus pensamientos se cuentan con las palabras del narrador, mezclados con la narración, de manera que el lector no sabe del todo dónde acaba la opinión del personaje y empieza la del libro. Es lo que se llama estilo indirecto libre, y Austen fue de las primeras en usarlo así de bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto es doble. Por un lado, el lector se equivoca con Elizabeth: cree lo que ella cree sobre Darcy y sobre Wickham, y descubre la verdad a la vez que ella. Por otro, permite la ironía constante, porque el narrador puede repetir el juicio de un personaje con una entonación que lo desmiente. La novela entera se sostiene sobre esa doble voz.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese mismo recurso sirve para el retrato más cruel del libro, que no es el de un villano. El señor Bennet es ingenioso, cita a los clásicos y se ríe de la estupidez de su mujer y de sus hijas, y el lector se ríe con él durante media novela. Cuando Lydia se fuga, queda a la vista lo que era: un hombre que usó el sarcasmo durante veinte años para no ocuparse de nada. La novela ni lo juzga ni lo explica: se limita a ponerlo delante, sentado en su biblioteca, mientras su hija pequeña se sube a un carruaje con un oficial que no piensa casarse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El ingenio del señor Bennet no es un rasgo simpático: es la forma elegante de no hacerse cargo de su familia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Orgullo y prejuicio cuenta cómo cinco hermanas sin herencia intentan colocarse en el único mercado que tienen abierto, y cómo dos personas orgullosas de su propio criterio descubren que se habían equivocado con el otro. Lo que sostiene es que el juicio se corrige con pruebas y que el amor, en aquel mundo, era una operación económica que a veces salía bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es técnico y enorme: una forma de meterse dentro de un personaje sin cederle la palabra, una comedia social que se lee doscientos años después sin notas al pie y un modelo de novela en el que no pasa nada extraordinario y sin embargo importa todo. Media literatura posterior sale de aquí, y también media serie de televisión.",
+      },
+      { b: "idea", texto: "Hasta este momento no me conocía a mí misma." },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El mundo se detiene en la puerta del salón: Inglaterra está en guerra con Napoleón —de ahí los oficiales acuartelados en el pueblo, que son medio motor de la trama—, y de eso no se habla ni una vez. Los criados aparecen y desaparecen sin nombre, y la miseria que había a dos kilómetros de Longbourn no entra en el libro. Austen escribe con una precisión de relojero sobre un cuadrado muy pequeño del mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el final se lo pone fácil: la protagonista que ha visto con toda claridad que el matrimonio es un negocio termina casada con el hombre más rico del condado y viviendo en Pemberley. La crítica queda intacta y la heroína se salva, que es una combinación cómoda. Conviene además leerlo sin el Darcy de las películas en la cabeza: el de la novela es tímido, torpe y bastante callado, y la escena de la camisa mojada que todo el mundo recuerda no está en el libro.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "orgullo-prejuicio": ORGULLO_PREJUICIO,
   "matar-ruisenor": MATAR_RUISENOR,
   quijote: QUIJOTE,
   "mundo-ayer": MUNDO_AYER,

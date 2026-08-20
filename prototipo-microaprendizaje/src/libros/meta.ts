@@ -1433,22 +1433,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "orgullo-prejuicio",
-    titulo: "Orgullo y prejuicio",
-    autor: "Jane Austen",
-    ano: 1813,
-    gancho: "La primera frase dice que un hombre rico necesita esposa. Es mentira, y Austen lo sabe: quien necesita es la casa con cinco hijas y sin heredero.",
-    porQue: "Es la mejor máquina que se ha construido nunca para enseñar cómo se instala un prejuicio en diez segundos y cuánto cuesta desmontarlo.",
-    minutos: 24.5,
-    capitulos: [
-      { titulo: "Una verdad universalmente aceptada", minutos: 4.9 },
-      { titulo: "La calle de Meryton", minutos: 4.8 },
-      { titulo: "Charlotte Lucas dice que sí", minutos: 4.7 },
-      { titulo: "La carta de Hunsford", minutos: 4.5 },
-      { titulo: "Pemberley", minutos: 5.6 },
-    ],
-  },
-  {
     id: "senor-moscas",
     titulo: "El señor de las moscas",
     autor: "William Golding",

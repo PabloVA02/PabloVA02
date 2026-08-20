@@ -33,25 +33,29 @@ export const SUBTITULOS: Record<string, string> = {
   cosmos: "Un viaje por el universo, la ciencia y nuestro lugar en él",
   "1984": "Una novela sobre el poder y la verdad",
   flow: "Una psicología de la felicidad",
-  "busca-sentido": "El testimonio de un psiquiatra en los campos de concentración",
+  "busca-sentido":
+    "El testimonio de un psiquiatra en los campos de concentración",
   mindset: "La actitud del éxito",
   "diario-ana-frank": "La casa de atrás",
   "trabajo-profundo": "Reglas para el éxito concentrado en un mundo disperso",
   "poder-ahora": "Un camino hacia la realización espiritual",
   "sutil-arte": "Un enfoque disruptivo para vivir una buena vida",
   "pensar-rapido": "Cómo tomamos decisiones y por qué nos equivocamos",
-  "inteligencia-emocional": "Por qué puede importar más que el cociente intelectual",
+  "inteligencia-emocional":
+    "Por qué puede importar más que el cociente intelectual",
   "mente-millonaria": "Domina el juego interior de la riqueza",
   "piensa-hazte-rico": "El libro que fundó la literatura del éxito",
   "amigos-influir": "El libro más famoso sobre relaciones humanas",
   "padre-rico": "Qué les enseñan los ricos a sus hijos acerca del dinero",
-  "psicologia-dinero": "Cómo piensan los ricos: 18 claves imperecederas sobre riqueza y felicidad",
+  "psicologia-dinero":
+    "Cómo piensan los ricos: 18 claves imperecederas sobre riqueza y felicidad",
   "poder-habitos": "Por qué hacemos lo que hacemos en la vida y en la empresa",
   "siete-habitos": "La revolución ética en la vida cotidiana y en la empresa",
   /* Historia */
   sapiens: "Una breve historia de la humanidad",
   "homo-deus": "Breve historia del mañana",
-  "armas-germenes": "Breve historia de la humanidad en los últimos trece mil años",
+  "armas-germenes":
+    "Breve historia de la humanidad en los últimos trece mil años",
   "infinito-junco": "La invención de los libros en el mundo antiguo",
   "mundo-ayer": "Memorias de un europeo",
   spqr: "Una historia de la antigua Roma",
@@ -85,4 +89,8 @@ export const SUBTITULOS: Record<string, string> = {
    distingue «este libro no tiene» de «se me olvidó escribirlo»: la ficha no
    pinta la línea, y el validador los da por completos en vez de avisar cada
    vez. Inventarles una frase estaría prohibido por la regla de arriba. */
-export const SIN_SUBTITULO: string[] = ["quijote", "matar-ruisenor"];
+export const SIN_SUBTITULO: string[] = [
+  "quijote",
+  "matar-ruisenor",
+  "orgullo-prejuicio",
+];

@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "orgullo-prejuicio": [
+    "por qué las cinco hermanas se quedarían sin casa",
+    "cuánto dinero al año hace falta para ser un buen partido",
+    "por qué Charlotte se casa con un hombre que no soporta",
+    "qué le hace cambiar de opinión sobre Darcy",
+    "quién paga en realidad el final feliz",
+  ],
+
   "matar-ruisenor": [
     "por qué el jurado condena con todas las pruebas en contra",
     "por qué la chica que acusa también es una víctima",

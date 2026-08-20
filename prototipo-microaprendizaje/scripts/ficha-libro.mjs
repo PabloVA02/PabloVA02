@@ -50,12 +50,34 @@ function pon(fichero, marca, entrada, patronViejo) {
 
 const esc = clave.replace(/[.*+?^${}()|[\]\\-]/g, "\\$&");
 
-pon(
-  "subtitulos.ts",
-  "export const SUBTITULOS: Record<string, string> = {",
-  `  ${clave}: ${cita(ficha.subtitulo)},\n`,
-  new RegExp(`^ {2}${esc}: "(?:[^"\\\\]|\\\\.)*",\\n`, "m"),
-);
+/* Un libro sin subtítulo en su edición —el Quijote, 1984, Orgullo y prejuicio—
+   no se queda callado: se apunta en `SIN_SUBTITULO`. Así la ficha no pinta la
+   línea y el validador sabe que es una decisión y no un olvido. Ver REDACCION,
+   apartado 5. Para eso basta con no poner `subtitulo` en el JSON. */
+if (ficha.subtitulo) {
+  pon(
+    "subtitulos.ts",
+    "export const SUBTITULOS: Record<string, string> = {",
+    `  ${clave}: ${cita(ficha.subtitulo)},\n`,
+    new RegExp(`^ {2}${esc}: "(?:[^"\\\\]|\\\\.)*",\\n`, "m"),
+  );
+} else {
+  const url = new URL("../src/libros/subtitulos.ts", import.meta.url);
+  let src = readFileSync(url, "utf8");
+  const lista = src.match(/export const SIN_SUBTITULO: string\[\] = \[([^\]]*)\]/s);
+  if (!lista) throw new Error("no encuentro SIN_SUBTITULO en subtitulos.ts");
+  if (lista[1].includes(`"${ficha.id}"`)) {
+    console.log(`subtitulos.ts: ${ficha.id} ya estaba declarado sin subtítulo`);
+  } else {
+    const ids = [...lista[1].matchAll(/"([\w-]+)"/g)].map((m) => m[1]).concat(ficha.id);
+    src = src.replace(
+      lista[0],
+      `export const SIN_SUBTITULO: string[] = [${ids.map((i) => `"${i}"`).join(", ")}]`,
+    );
+    writeFileSync(url, src);
+    console.log(`subtitulos.ts: ${ficha.id} declarado sin subtítulo`);
+  }
+}
 
 pon(
   "aprenderas.ts",
