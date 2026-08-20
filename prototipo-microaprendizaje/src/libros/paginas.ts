@@ -13505,7 +13505,260 @@ const REBELION_GRANJA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El gen egoísta, en ocho páginas.
+
+   Breve. Una idea central y cinco consecuencias: cabe.
+
+   El problema aquí es el título, que es el más malentendido de la
+   divulgación científica: medio mundo cree que dice que las personas
+   somos egoístas por naturaleza y el libro dice justo lo contrario, que
+   es de donde sale la cooperación. Eso va en la primera página, no en la
+   conclusión, porque si no el resumen hereda el malentendido.
+
+   Caso (d) de la 4 bis, dos veces: el propio Dawkins ha dicho que el
+   título fue un error, y la palabra que inventó en el capítulo 11 —meme—
+   ha acabado significando otra cosa mientras la ciencia que prometía no
+   llegó a existir.
+
+   Tercera persona: es ciencia, no un manual.
+   -------------------------------------------------------------------------- */
+
+const GEN_EGOISTA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El título es el peor entendido de la divulgación, y su autor lo admite",
+      },
+      {
+        b: "texto",
+        texto:
+          "Casi todo el mundo cree que este libro sostiene que las personas somos egoístas por naturaleza y que la generosidad es un barniz. No dice eso en ninguna página. El adjetivo del título se refiere a los genes, que no tienen intenciones ni moral, y el libro entero está dedicado a explicar de dónde sale entonces la cooperación, que es lo que resultaba difícil de explicar en 1976.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dawkins ha reconocido después que el título le salió mal y que habría sido más exacto llamarlo el gen inmortal, porque lo que le interesa es que los genes duran y los cuerpos no. La confusión ha sido tan tenaz que el libro se ha usado durante cuarenta años para justificar exactamente lo contrario de lo que sostiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La pregunta de la que parte es concreta. Si la evolución premia a los que dejan más descendencia, ¿por qué existen animales que dan la voz de alarma y se exponen al depredador, abejas que mueren al picar, pájaros que alimentan crías ajenas o murciélagos que reparten comida? Explicar la generosidad, y no el egoísmo, es el trabajo del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren su respuesta: por qué la unidad que cuenta no es el individuo ni la especie, cómo salen las cuentas del sacrificio familiar, cuándo compensa ayudar a un desconocido, por qué la evolución produce equilibrios y no óptimos, por qué la familia es un campo de negociación y qué fue de la palabra que este libro inventó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro no explica por qué somos egoístas: explica por qué existe la generosidad en un mundo sin buenas intenciones.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que sobrevive no es el individuo ni la especie: es el gen" },
+      {
+        b: "texto",
+        texto:
+          "Un cuerpo dura unas décadas y desaparece entero. Un gen es una instrucción que se copia y puede seguir circulando idéntica durante millones de años, repartida en millones de cuerpos. Desde ese punto de vista, dice Dawkins, los organismos son máquinas de supervivencia: vehículos construidos por los genes para transportarse hasta la generación siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cambio de foco no es un juego de palabras, porque permite decidir discusiones. Antes de este libro era normal explicar comportamientos diciendo que servían para el bien de la especie: los animales no se reproducen sin control para no agotar el alimento, los individuos se sacrifican por el grupo. Suena razonable y no funciona: en un grupo de altruistas, el primero que se salte la norma deja más descendencia, y sus genes se extienden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con los genes en el centro, en cambio, las cuentas cuadran. Un comportamiento se extiende si aumenta las copias del gen que lo produce, aunque perjudique al individuo que lo lleva, aunque perjudique al grupo y aunque perjudique a la especie entera. Es un criterio incómodo y frío, y tiene la ventaja de que se puede calcular. La imagen que usa para fijarlo es la de una receta que va pasando de cocinero en cocinero: los cocineros se mueren, la receta se copia, y lo único que se puede decir que compite con otras recetas es la receta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El cuerpo es el vehículo y el gen es el pasajero: el que dura es el pasajero, y por eso es el que manda.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Morirías por dos hermanos o por ocho primos, y las cuentas son literales",
+      },
+      {
+        b: "texto",
+        texto:
+          "El biólogo J. B. S. Haldane soltó la broma en un bar años antes: no daría la vida por un hermano, pero sí por dos hermanos o por ocho primos. La aritmética es exacta. Un hermano comparte de media la mitad de los genes, un primo un octavo, así que salvar a dos hermanos coloca en el mundo tanta copia de los genes propios como salvar el pellejo propio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la explicación del sacrificio familiar, que Dawkins toma del trabajo de William Hamilton y pone al alcance de cualquiera. Un pájaro que grita al ver al halcón se pone en peligro, y le compensa si con eso salvan la vida los suficientes parientes. Una abeja obrera que muere al picar defiende una colmena de hermanas con las que comparte una proporción altísima de genes, y además no se reproduce ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia interesante es que la familia deja de ser una idea moral y se convierte en una tabla de porcentajes. Y explica cosas que se ven a simple vista: por qué el cuidado más intenso es el de los padres a los hijos, por qué las abuelas invierten en los nietos, por qué la mayoría de las especies distinguen a los suyos con mecanismos toscos —quien esté en mi nido, quien huela como yo— que precisamente por ser toscos se pueden engañar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El altruismo familiar no es una virtud: es una manera de que los mismos genes viajen en varios cuerpos a la vez.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Con un desconocido solo compensa cooperar si te lo vas a volver a encontrar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los parientes explican una parte, y falta la otra: los animales que se ayudan sin ser familia. La respuesta del libro es la reciprocidad, y tiene condiciones muy concretas. Hace falta que los individuos se encuentren muchas veces, que se reconozcan y que recuerden quién les falló. Sin esas tres cosas, el que se aprovecha siempre gana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los ejemplos son buenos porque son comprobables. Hay peces limpiadores que entran en la boca de peces grandes para quitarles parásitos y salen vivos, porque al depredador le conviene tener una peluquería fija. Los murciélagos vampiro que han comido regurgitan sangre para los que vuelven de vacío esa noche, y llevan la cuenta: al que nunca da, se le deja de dar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la segunda edición, de 1989, Dawkins añadió un capítulo con los torneos de estrategias de Robert Axelrod, donde programas de ordenador jugaban unos contra otros al dilema del prisionero. Ganó el más simple de todos: coopera la primera vez y después haz lo que el otro te hizo la vez anterior. Es una estrategia amable, que nunca ataca primero, que responde al engaño y que perdona en cuanto el otro vuelve a cooperar. Y hay un detalle que suele pasarse por alto: esa estrategia gana sin ganar nunca una partida suelta. Pierde o empata contra cada rival por separado, y termina primera porque saca más puntos del conjunto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La cooperación no necesita bondad: necesita memoria, encuentros repetidos y la certeza de que el otro puede devolvértela.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La evolución no busca lo mejor: se queda en lo que nadie puede mejorar por su cuenta",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro explica una idea de John Maynard Smith que cambia la manera de mirar cualquier competencia. Imagínense dos maneras de comportarse en una pelea por el alimento: los halcones, que atacan siempre y no se retiran hasta ganar o resultar heridos; y las palomas, que se exhiben y huyen si el otro insiste.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una población de puras palomas parece la mejor de todas, porque nadie sale herido, y no aguanta: al primer halcón que aparezca le va estupendamente y sus descendientes se multiplican. Una población de puros halcones tampoco aguanta, porque todos acaban heridos y ahí una paloma que se retira a tiempo vive más. Lo que se produce es una mezcla estable en una proporción concreta, que se puede calcular con los costes y los beneficios de cada pelea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso es una estrategia estable: no la más eficiente para el grupo, sino aquella que, una vez instalada, ninguna alternativa consigue desbancar. Es la razón de que la naturaleza esté llena de arreglos que parecen mal diseñados, y sirve para mirar cualquier mercado, cualquier oficina y cualquier deporte: lo que se ve no es lo mejor posible, es lo que se sostiene. La misma idea explica por qué en casi todas las especies nacen tantos machos como hembras aunque unos pocos machos bastarían: en cuanto un sexo escasea, tener hijos de ese sexo compensa más, y la proporción vuelve a la mitad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que la evolución produce no es lo óptimo: es lo que, una vez instalado, nadie puede mejorar cambiando él solo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dentro de una familia también se negocia, y a veces se pelea" },
+      {
+        b: "texto",
+        texto:
+          "Del planteamiento sale una consecuencia que en 1976 resultaba escandalosa: los intereses de una madre y de una cría no son idénticos. La cría comparte con su madre la mitad de los genes, así que le interesa recibir más atención de la que a la madre le conviene dar, porque ella tiene que repartir entre las crías que ya tiene y las que tendrá. De ahí el conflicto del destete, que en muchas especies es un forcejeo largo y ruidoso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mismo vale entre hermanos, que compiten por la misma comida compartiendo solo la mitad de los genes, y explica de paso a los tramposos. El cuco pone su huevo en un nido ajeno; el polluelo, mucho más grande, tira fuera a los otros huevos y exagera el gesto de pedir comida hasta agotar a unos padres que están alimentando al asesino de sus hijos. No hay maldad: hay una señal falsificada que funciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay que decir que el capítulo dedicado a las estrategias de machos y hembras es el que peor ha envejecido de todo el libro. Está escrito con un vocabulario de los años setenta —hembras recatadas, machos rápidos, estrategias domésticas— que hoy suena a caricatura, y buena parte de sus ejemplos se han matizado bastante desde entonces. Aun así, la idea que sostiene el capítulo se ha confirmado de sobra: dentro de un mismo cuerpo hay genes de la madre y del padre tirando en direcciones distintas, y en el embarazo humano se han descrito varios de esos pulsos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una familia no es un remanso: es el sitio donde se negocia el reparto, y la señal exagerada casi siempre gana.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En el último capítulo inventó la palabra meme, y le salió el tiro por la culata",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dawkins termina el libro con una idea propia. Si lo que importa no es el ADN sino el hecho de copiarse, entonces puede haber otros replicadores. Y en la cultura humana hay uno: las ideas, las melodías, las modas, las creencias, que saltan de cabeza en cabeza por imitación. Les puso nombre a partir del griego, buscando una palabra corta y parecida a gen: meme.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su propuesta era que las ideas se propagan según su capacidad para ser copiadas, no según su verdad ni su utilidad para quien las lleva, igual que un virus se extiende por lo contagioso y no por lo beneficioso. Y avisaba de que una idea muy pegadiza puede ser malísima para el que la sostiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí salió una ciencia prometida que nunca cuajó: hubo revistas, congresos y libros de memética durante los años noventa, y en 2005 la principal revista dedicada al asunto cerró por falta de resultados. Nadie consiguió medir un meme ni predecir nada con la teoría. La palabra, en cambio, salió del libro, se instaló en internet y hoy significa una imagen graciosa con letras, que es una manera bastante literaria de demostrar la tesis del capítulo. La idea sí ha dejado descendencia fuera de la biología: la manera de hablar hoy de contenidos que se hacen virales, y de por qué lo indignante corre más que lo cierto, viene en línea recta de estas veinte páginas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las ideas no se extienden por ser verdaderas ni por convenirte: se extienden por ser fáciles de copiar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El gen egoísta sostiene que la unidad sobre la que actúa la selección natural es el gen y no el individuo, la manada ni la especie, y que desde ahí se explican cosas que antes no cuadraban: el sacrificio por los parientes, la cooperación entre desconocidos que se reencuentran, los equilibrios raros de la naturaleza y los conflictos dentro de una misma familia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una manera de pensar más que un catálogo de datos. Reúne y explica trabajos de Hamilton, Trivers, Maynard Smith y Williams que estaban escritos en un lenguaje técnico y los pone al alcance de cualquiera, y de paso enseña a desconfiar de cualquier explicación que empiece diciendo que algo existe por el bien de la especie.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Somos los únicos animales capaces de rebelarnos contra las instrucciones que nos construyeron, y el libro termina ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La costumbre de hablar de los genes como si tuvieran planes —quieren, buscan, engañan— es un atajo que el autor advierte y que se cobra un precio: mucha gente sale del libro creyendo que hay una intención en alguna parte. Y la selección a nivel de grupo, que aquí se da por enterrada, ha vuelto a la discusión científica: hay biólogos importantes defendiendo que en ciertos casos la selección actúa a varios niveles a la vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y queda el asunto del título, que no es un detalle. Es un libro sobre por qué existe la cooperación y ha sido usado durante décadas como certificado científico del egoísmo, en despachos y en tertulias, por gente que no lo ha leído. El propio Dawkins dedicó prólogos enteros a desmentirlo, sin mucho éxito. Vale la pena leerlo aunque solo sea para dejar de oírlo mal citado.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "gen-egoista": GEN_EGOISTA,
   "rebelion-granja": REBELION_GRANJA,
   "semana-4-horas": SEMANA_4_HORAS,
   "steve-jobs": STEVE_JOBS,

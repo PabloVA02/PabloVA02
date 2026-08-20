@@ -616,22 +616,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "gen-egoista",
-    titulo: "El gen egoísta",
-    autor: "Richard Dawkins",
-    ano: 1976,
-    gancho: "Su autor ha dicho que el título fue un error y que debería haberlo llamado El gen inmortal. Cincuenta años después seguimos leyéndolo mal.",
-    porQue: "Cambió el punto de vista de toda la biología con un solo giro de perspectiva. Y explica de dónde sale la generosidad mejor que casi cualquier libro escrito para defenderla.",
-    minutos: 25.8,
-    capitulos: [
-      { titulo: "Un zoólogo sin laboratorio", minutos: 5.1 },
-      { titulo: "Máquinas de supervivencia", minutos: 5 },
-      { titulo: "Por qué existe la bondad", minutos: 5 },
-      { titulo: "La guerra dentro de la familia", minutos: 5.3 },
-      { titulo: "La palabra que se le escapó", minutos: 5.4 },
-    ],
-  },
-  {
     id: "universo-cascara",
     titulo: "El universo en una cáscara de nuez",
     autor: "Stephen Hawking",

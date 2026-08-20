@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "gen-egoista":
+    "El libro que explica de dónde sale la generosidad en un mundo sin buenas intenciones. Su tesis es que la selección natural actúa sobre los genes, no sobre los individuos ni sobre las especies.",
+
   "rebelion-granja":
     "Los animales de una granja echan al granjero y montan un sistema justo. En unos años tienen algo peor de lo que había, y el libro explica exactamente por qué pasos ocurre.",
 

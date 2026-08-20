@@ -53,7 +53,6 @@ const CARGADORES: Record<string, Cargador> = {
   malala: () => import("./historia").then((m) => m.MALALA),
 
   /* Ciencia */
-  "gen-egoista": () => import("./ciencia").then((m) => m.GEN_EGOISTA),
   feynman: () => import("./ciencia").then((m) => m.FEYNMAN),
   "vida-arboles": () => import("./ciencia").then((m) => m.VIDA_ARBOLES),
   "casi-todo": () => import("./ciencia").then((m) => m.CASI_TODO),

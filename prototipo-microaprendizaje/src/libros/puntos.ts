@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "gen-egoista": [
+    "por qué el cuerpo es solo el vehículo del gen",
+    "por qué morirías por dos hermanos y no por uno",
+    "en qué condiciones compensa ayudar a un desconocido",
+    "por qué la naturaleza produce equilibrios y no óptimos",
+    "qué quería decir de verdad la palabra meme",
+  ],
+
   "rebelion-granja": [
     "cómo se toma el poder mientras otros discuten",
     "para qué sirve un enemigo que ya no está",
