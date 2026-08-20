@@ -83,6 +83,10 @@ if (existsSync("src/libros/cubiertas.ts")) {
         fallos.push("no es un WebP");
     }
     if (alt.length < 60) fallos.push("descripción demasiado corta");
+    /* Un identificador de libro puede empezar por número —«1984»— y un nombre
+       de variable de JavaScript no. La expresión de arriba acepta igual
+       `const 1984 = …`, y eso no revienta aquí sino en el build. */
+    if (/^\d/.test(constante)) fallos.push(`«${constante}» no es un nombre de variable válido`);
     if (fallos.length) {
       console.log(`  ✗ ${id.padEnd(24)} ${fallos.join(", ")}`);
       malas++;

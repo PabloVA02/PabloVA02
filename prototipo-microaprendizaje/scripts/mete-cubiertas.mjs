@@ -120,7 +120,14 @@ const altPrevio = new Map(
     .map((m) => [m[1], m[2]]),
 );
 
-const CONST = (id) => id.toUpperCase().replace(/-/g, "_");
+/* El nombre de la constante sale del identificador del libro, y un
+   identificador puede empezar por número —«1984»— mientras que un nombre de
+   variable de JavaScript no. Sin este prefijo se emitía `const 1984 = …` y el
+   build reventaba con un error de sintaxis a mil líneas de aquí. */
+const CONST = (id) => {
+  const nombre = id.toUpperCase().replace(/-/g, "_");
+  return /^\d/.test(nombre) ? `LIBRO_${nombre}` : nombre;
+};
 const sinAlt = [];
 
 const cabecera = `import type { Foto } from "../shorts";
