@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "semana-4-horas": [
+    "cómo escribir tus miedos para dejar de aplazar una decisión",
+    "por qué una tarea se hincha hasta llenar el plazo",
+    "cómo comprobar si algo se vende antes de fabricarlo",
+    "cómo negociar trabajar fuera de la oficina",
+    "qué partes del libro ya no funcionan",
+  ],
+
   "steve-jobs": [
     "qué era el campo de distorsión de la realidad",
     "por qué lo echaron de su propia empresa en 1985",

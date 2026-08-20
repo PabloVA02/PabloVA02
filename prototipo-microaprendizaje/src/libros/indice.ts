@@ -30,7 +30,6 @@ const CARGADORES: Record<string, Cargador> = {
 
   /* Economía */
   "hombre-rico-babilonia": () => import("./economia").then((m) => m.BABILONIA),
-  "semana-4-horas": () => import("./economia").then((m) => m.SEMANA_4_HORAS),
 
   /* Filosofía */
 

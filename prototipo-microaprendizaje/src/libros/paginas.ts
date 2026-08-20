@@ -13022,7 +13022,257 @@ const STEVE_JOBS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La semana laboral de 4 horas, en ocho páginas.
+
+   Breve. Es un libro práctico con cuatro pasos y mucha lista.
+
+   Aquí SÍ va la segunda persona, por la regla 4.7: es un libro de trabajo
+   y dinero, y hablarle al lector de usted lo convertiría en un informe.
+
+   Y manda el caso (d) de la 4 bis más que en casi ningún otro libro de la
+   biblioteca: es de 2007 y la mitad de sus ventajas —trabajar en remoto,
+   subcontratar barato, comprar anuncios baratos, vender sin almacén— o se
+   han vuelto normales o se han saturado. Un resumen que no diga eso está
+   vendiendo un mapa de hace veinte años.
+
+   Lo que casi nadie sabe y aquí sí está: que el título es un eslogan y el
+   propio autor trabaja mucho más; que lo rechazaron más de veinte
+   editoriales; y que la mejor herramienta del libro no es ninguna de las
+   cuatro del método, es la de escribir los miedos.
+   -------------------------------------------------------------------------- */
+
+const SEMANA_4_HORAS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El título es un eslogan, y el propio autor trabaja bastante más de cuatro horas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene empezar por ahí para no perder el tiempo. Nadie que siga este libro va a trabajar cuatro horas a la semana, y Tim Ferriss tampoco lo hace: escribe, graba, invierte y viaja bastante más que eso. La cifra es lo que consiguió que el libro se vendiera —lo rechazaron más de veinte editoriales antes de salir en 2007— y es también lo que hace que mucha gente lo descarte sin abrirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hay debajo del eslogan es otra cosa y sigue en pie: una manera de separar el trabajo que produce resultados del trabajo que solo produce sensación de estar ocupado, y una pregunta incómoda sobre para qué estás aplazando la vida que quieres tener.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro se organiza en cuatro pasos, con sus siglas y todo: definir qué quieres de verdad y cuánto cuesta, eliminar lo que no produce nada, automatizar lo que quede y liberarte del sitio donde te obligan a estar. Alrededor hay listas, guiones de correo, calculadoras y ejemplos, muchos de ellos hoy inservibles. El libro tampoco es un ensayo: es un manual con deberes, y está pensado para leerlo con un papel al lado y hacer las cuentas de tu caso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que sigue sirviendo —la aritmética del tiempo, el ejercicio de los miedos, las dos leyes que gobiernan cualquier lista de tareas, la negociación para trabajar fuera de la oficina— y lo que ha envejecido mal, que es bastante.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro no promete trabajar cuatro horas: promete quitarte de encima el trabajo que no sirve para nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La moneda no es el dinero: son las horas y el sitio donde puedes estar",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea que sostiene el libro es que dos personas con el mismo sueldo pueden ser ricas de maneras distintas. Ferriss llama renta relativa a lo que ganas por hora y en qué país te lo gastas: quien gana cinco mil al mes echando sesenta horas en una ciudad cara es, en la práctica, más pobre que quien gana tres mil echando quince desde donde le da la gana. La cuenta parece un truco y es exactamente cómo se vive.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su ataque al plan de vida por defecto: aguantar cuarenta años para descansar al final. El libro propone repartir esos años en trozos —lo llama minijubilaciones— y tomarse tres meses ahora, con treinta años, cuando el cuerpo aguanta y la curiosidad todavía existe, en vez de acumular vacaciones que no se cogen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y desmonta una excusa de las que se repiten sin pensarlas: la de que eso cuesta muchísimo dinero. Pone precios reales de vivir unos meses fuera, compara lo que gastas en una ciudad cara solo por ir a trabajar y enseña que el problema casi nunca es el dinero, sino el permiso. La pregunta que hace es qué te costaría probarlo durante un mes. Y hay un cálculo que conviene hacer aunque no pienses moverte de tu ciudad: divide lo que ganas al mes entre las horas que le dedicas de verdad, contando desplazamientos, correos de noche y domingos de mal cuerpo. El número que sale no suele parecerse al del contrato.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ser rico, en este libro, es controlar qué haces con tus horas y desde dónde: el dinero es solo una de las piezas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La mejor herramienta del libro no es ninguno de los cuatro pasos: es escribir tus miedos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Antes de cualquier técnica, el libro te manda hacer un ejercicio con papel. Coge la decisión que llevas meses aplazando y escribe tres columnas. Primera: qué es exactamente lo peor que puede pasar, escrito con detalle y no como una nube de angustia. Segunda: qué harías para arreglar cada una de esas cosas si pasaran. Tercera: qué beneficios tendría un resultado normal, ni siquiera el mejor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade la columna que nadie hace: cuánto te va a costar no hacer nada. No solo en dinero, también en salud, en oportunidades y en cómo estarás dentro de tres años si todo sigue igual. El miedo a moverse se calcula siempre; el precio de quedarse quieto no se calcula nunca, porque llega despacio y sin factura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El truco funciona porque el miedo vive de la vaguedad. Puesto por escrito, lo peor que puede pasar suele ser reversible —volver a buscar trabajo, gastarte unos ahorros, pasar vergüenza— y casi siempre tiene arreglo en unos meses. Ferriss lo desarrolló después en una charla que ha visto muchísima gente, y es lo único de este libro que sirve igual en 2007 y hoy. Ferriss recomienda además ponerle fecha a la columna del medio: no basta con saber que tendría arreglo, hay que saber cuánto tardarías en arreglarlo. Casi todo lo que da miedo se recupera en unos meses.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Define lo peor que puede pasar por escrito y calcula también el precio de no hacer nada, que es el que nunca se suma.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos leyes viejas explican por qué trabajas tanto y rindes poco" },
+      {
+        b: "texto",
+        texto:
+          "La primera es la de Pareto: una parte pequeña de lo que haces produce casi todo el resultado. El libro la usa de una forma poco cómoda y muy concreta: mira tus clientes y averigua cuáles te dan el dinero y cuáles te dan los problemas, y son listas distintas. Ferriss cuenta que despidió a la mayoría de los suyos y se quedó con los pocos que compraban sin discutir, y que ganó más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es la ley de Parkinson: una tarea se hincha hasta ocupar el tiempo que le des. De ahí sale su consejo más práctico y más fácil de probar: ponle a lo que estés haciendo un plazo ridículamente corto y comprueba qué pasa. Casi siempre pasa que se hace, porque el plazo largo se llena de correos, de comprobaciones y de perfeccionismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las dos juntas dan las reglas de la parte de eliminar: dos o tres cosas importantes al día y no doce; el correo por bloques a horas fijas en vez de todo el día; las interrupciones tratadas como lo que son, y una dieta de información que en 2007 sonaba a excentricidad —dejar de leer noticias— y que con las redes de ahora se ha convertido en un consejo de higiene. El truco para empezar es de una sola pregunta, y funciona: si solo pudieras trabajar dos horas hoy, ¿qué harías en esas dos horas? Eso es lo que hay que hacer primero mañana.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Estar ocupado es la forma más cómoda de pereza: obliga a decidir mucho menos que estar concentrado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Antes de fabricar nada, comprueba si alguien lo compraría" },
+      {
+        b: "texto",
+        texto:
+          "La parte de automatizar gira alrededor de montar un pequeño negocio que funcione sin ti: producto sencillo, precio decente, pedidos que gestione otro. Ferriss lo llama tu musa y sale de su propia experiencia vendiendo un suplemento deportivo, que es un detalle a tener en cuenta cuando presenta el modelo como universal. El propio libro insiste en que la musa no tiene que ser una gran idea: tiene que ser algo que un grupo concreto de gente ya está buscando y no encuentra bien resuelto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí dentro hay una idea que se ha quedado y que hoy usan las empresas grandes: probar la demanda antes de existir. Monta una página que describa el producto, ponle precio, gasta unas monedas en anuncios y mira cuánta gente llega hasta el botón de comprar. Si nadie llega, te has ahorrado seis meses. Si llegan, ya sabes qué fabricar y para quién.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La otra mitad del capítulo es la delegación, y ahí está su mejor regla: no delegues nunca una tarea que no debería existir. Automatizar algo inútil solo consigue que lo inútil ocurra más rápido y ahora encima cueste dinero. Primero se elimina, después se automatiza, y ese orden es el que casi todo el mundo se salta. Y una advertencia suya que sigue valiendo: si el negocio necesita que tú contestes, no es un negocio automático, es un empleo que además te has creado tú.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nunca delegues una tarea que no debería existir: solo conseguirás que lo inútil pase más deprisa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El capítulo para escaparse de la oficina se cumplió entero en 2020" },
+      {
+        b: "texto",
+        texto:
+          "El último paso es liberarse del sitio, y para el que trabaja por cuenta ajena el libro trae un guion detallado. No consiste en pedir trabajar desde casa: consiste en montar una prueba. Preparas datos de lo que produces, propones un martes suelto, vuelves con resultados medidos, pides dos días, y vas ampliando hasta que la ausencia sea la costumbre y nadie recuerde cuándo se decidió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Debajo hay un principio que sirve para muchas más cosas que el teletrabajo: es mucho más fácil conseguir permiso para un experimento pequeño y reversible que para un cambio permanente. Nadie quiere firmar una decisión; casi todo el mundo acepta probar una semana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí ocurrió algo que ningún autor puede planear: en 2020 medio mundo hizo ese experimento a la fuerza y ya no hace falta convencer a nadie de que el trabajo se puede hacer fuera de una oficina. El capítulo perdió su razón de ser en unas semanas y a la vez ganó la discusión. Lo que sigue sirviendo es la táctica —prueba pequeña, datos, ampliación—, no el objetivo. Y queda un aviso que el libro no da: la prueba pequeña solo funciona si de verdad vuelves con números. Sin datos, lo que has pedido no es un experimento, es un favor, y los favores se retiran.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pide un experimento pequeño y reversible, no un cambio permanente: lo primero se concede y lo segundo se estudia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La mitad de las ventajas que enseña ya no existen, y otra parte no se sostiene",
+      },
+      {
+        b: "texto",
+        texto:
+          "Este libro se escribió en un momento muy concreto y hay que leerlo sabiéndolo. Los anuncios en internet eran baratísimos, vender sin almacén era una rareza, montar una tienda costaba trabajo técnico y contratar ayuda en la India salía a unos pocos dólares la hora. Todo eso se ha llenado de gente: los mismos huecos que el libro señalaba hoy tienen competencia mundial, y las cuentas ya no dan lo que daban.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una parte que ha envejecido peor que las cifras. El capítulo de subcontratar está escrito con un tono de cliente satisfecho que hoy incomoda: gente al otro lado del mundo cobrando cuatro dólares la hora por gestionarte la agenda, y anécdotas contadas como gracias. El libro nunca se pregunta qué clase de vida tiene la persona que hace ese trabajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y conviene saber cómo se demuestra a sí mismo. Ferriss cuenta con orgullo que ganó un campeonato de kickboxing deshidratándose para bajar de categoría y empujando a sus rivales fuera de la plataforma, porque el reglamento lo permitía. Lo presenta como un ejemplo de leer bien las reglas; leído hoy, dice bastante sobre qué entiende este libro por ganar. Lo mismo vale para el récord de giros de tango que cuenta en otro capítulo: el libro trata las reglas como un terreno que se explora buscando el hueco, y eso a veces produce ingenio y a veces produce trampa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El método sigue en pie; los atajos concretos que enseña llevan quince años saturados.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La semana laboral de 4 horas propone dejar de medir el trabajo por las horas que ocupa y empezar a medirlo por lo que produce, quitar de en medio lo que no produce nada, delegar o automatizar lo que quede y usar el tiempo recuperado ahora y no dentro de cuarenta años. Bajo el eslogan hay un método ordenado en cuatro pasos y un montón de material práctico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, más allá de las técnicas, es un permiso. Fue el libro que convenció a mucha gente de que el reparto normal —cuarenta años de oficina y luego ya veremos— es una convención y no una ley, y de ahí sale casi todo lo que después se ha llamado trabajo remoto, nómada digital o negocio pequeño en internet. Para bien y para mal, esta es la fuente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que no se mide en horas se mide en resultados, y casi nadie se atreve a mirar cuántos produce en un día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Está escrito para un hombre joven, sin hijos, sin hipoteca y con un negocio que ya funcionaba, y esa circunstancia no se menciona nunca. Los ejemplos son de quienes lo consiguieron, sin ninguno de los que probaron y se arruinaron. Y la musa, que en el libro parece cuestión de unas semanas de pruebas, es en realidad la parte más difícil y la que casi nadie completa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso en la mano, la manera sensata de usarlo es quedarse con cuatro cosas: el ejercicio de los miedos, la ley de Parkinson aplicada a tus plazos, la regla de no automatizar lo que hay que eliminar y la táctica del experimento pequeño para negociar cualquier cambio. El resto es un mapa de 2007, y el terreno ya no está así.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "semana-4-horas": SEMANA_4_HORAS,
   "steve-jobs": STEVE_JOBS,
   hobbit: HOBBIT,
   "sombra-viento": SOMBRA_VIENTO,

@@ -2089,22 +2089,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "semana-4-horas",
-    titulo: "La semana laboral de 4 horas",
-    autor: "Tim Ferriss",
-    ano: 2007,
-    gancho: "Se fue a Londres unas semanas para no pensar en su empresa y volvió quince meses después, con la empresa ganando más que antes.",
-    porQue: "Inventó el vocabulario del trabajo remoto una década antes de que existiera. Muchas de sus tácticas han envejecido fatal; su manera de plantear la pregunta, no.",
-    minutos: 25.4,
-    capitulos: [
-      { titulo: "Salida: un billete de ida a Londres en 2004", minutos: 5.1 },
-      { titulo: "Primera parada: definir y eliminar", minutos: 5.1 },
-      { titulo: "Segunda parada: automatizar y liberar", minutos: 5.1 },
-      { titulo: "Tercera parada: lo que ha envejecido mal", minutos: 5.1 },
-      { titulo: "Destino: el ejercicio del miedo", minutos: 5.1 },
-    ],
-  },
-  {
     id: "riqueza-naciones",
     titulo: "La riqueza de las naciones",
     autor: "Adam Smith",

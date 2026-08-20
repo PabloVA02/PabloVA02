@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "semana-4-horas":
+    "El libro que convenció a mucha gente de que cuarenta años de oficina son una convención y no una ley. Cuatro pasos para quitarte el trabajo que no produce nada y usar el tiempo ahora.",
+
   "steve-jobs":
     "La biografía que Jobs encargó y no quiso leer antes de publicarse. Cuenta cómo fundó Apple, cómo lo echaron, qué hizo en los once años fuera y qué costó todo aquello en personas.",
 
