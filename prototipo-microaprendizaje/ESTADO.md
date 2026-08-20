@@ -132,6 +132,30 @@ vieja. El procedimiento entero está en `REDACCION.md`.
     node scripts/mete-cubiertas.mjs   mete una tanda de cubiertas de Pablo
     node scripts/hoja-cubiertas.mjs   la estantería entera en una página
 
+### EL ENCARGO EN CURSO: ESCRIBIRLOS TODOS
+
+Pablo, el 21 de agosto: *«ve redactando todos los libros que nos faltan, con
+todos los ejemplos que te he pasado de Headway, con un estilo muy muy similar;
+es muy importante que cojas ese tipo de redacción y sobre todo que esté bien
+escrito. De unos 15 minutos a unos 30, siendo mayoritariamente cerca de los 15.
+Cuando se acabe la ventana de contexto debes saber que debes seguir ese tipo de
+redacción.»*
+
+O sea: **no hay que preguntar qué toca. Toca el siguiente libro sin texto a
+mano**, en el orden de abajo, hasta que no quede ninguno. Cuáles faltan lo dice
+esta orden, que no se equivoca:
+
+    npx tsx -e 'import { PAGINAS } from "./src/libros/paginas.ts";
+      import { LIBROS_RESUMEN as L } from "./src/libros/puente.ts";
+      const f = L.filter((l) => !PAGINAS[l.id]);
+      console.log(f.length + " sin escribir");
+      for (const l of f) console.log(`  ${l.id} · ${l.titulo} — ${l.autor}`);'
+
+Y antes de escribir ninguno, **se lee `REDACCION.md` entero** y se mira alguna
+de las capturas de `referencia/`, empezando por `referencia/odisea/`. La
+proporción de tamaños la manda el apartado 2 ter: siete u ocho Breve de cada
+diez, uno o dos Amplio, un Extenso cada quince o veinte.
+
 ### EN QUÉ ORDEN SE ESCRIBEN
 
 No por gusto ni por orden alfabético. Por lo que más se ve, que es:
