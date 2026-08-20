@@ -11917,7 +11917,262 @@ const ORGULLO_PREJUICIO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El alquimista, en ocho páginas.
+
+   Breve, y el libro mismo es breve: una fábula con una idea.
+
+   El problema de este resumen no es el tamaño, es el tono. Es un libro
+   que la gente adora y que la crítica desprecia, y las dos posturas están
+   escritas ya en todas partes. Aquí se hace lo de siempre: se cuenta lo
+   que el libro sostiene, con sus mejores páginas —el mercader de
+   cristales— y con la parte incómoda dicha entera, que es lo que implica
+   la promesa del universo conspirando.
+
+   Lo que casi nadie sabe y aquí sí está: que la historia no es de Coelho
+   sino un cuento de las mil y una noches que también contó Borges, y que
+   la primera edición vendió novecientos ejemplares y el editor rompió el
+   contrato.
+   -------------------------------------------------------------------------- */
+
+const ALQUIMISTA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La historia no es de Coelho: es un cuento árabe que también contó Borges",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un hombre sueña dos veces que hay un tesoro enterrado muy lejos. Viaja hasta allí, no encuentra nada y le dan una paliza. El que le pega le cuenta entonces, de pasada, que él también ha soñado con un tesoro, escondido en una casa de la ciudad de donde viene el otro. El hombre vuelve, cava en su propia casa y lo encuentra. Ese cuento está en las mil y una noches, lo contó Rumi en el siglo XIII y Borges lo publicó en 1935 con el título Historia de los dos que soñaron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El alquimista es ese cuento estirado hasta novela corta, y Coelho nunca lo ha ocultado. Lo que añade es todo lo demás: un pastor andaluz llamado Santiago, un rey que le habla de su destino, un mercader de cristales en Tánger, una caravana, un oasis y un alquimista en el desierto. La estructura viene de la tradición; el contenido es una teoría sobre cómo hay que vivir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Vale la pena saber cómo empezó todo, porque el libro se cita siempre como ejemplo de éxito. La primera edición brasileña, en 1988, vendió unos novecientos ejemplares y el editor rompió el contrato por falta de interés. Coelho lo colocó en otra editorial, empezó a moverse solo, y hoy lleva vendidos más de sesenta millones de ejemplares y está traducido a más de ochenta idiomas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El armazón del libro es un cuento popular de hace mil años: lo que Coelho pone encima es una doctrina.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La Leyenda Personal no es un sueño: el libro la plantea como una obligación",
+      },
+      {
+        b: "texto",
+        texto:
+          "Santiago es un pastor de diecinueve años que recorre Andalucía con su rebaño y que sueña dos veces con un tesoro al pie de las pirámides. En Tarifa se cruza con un anciano que dice ser Melquisedec, rey de Salem, y que le explica el mecanismo del mundo: cada persona nace con una Leyenda Personal, una cosa que ha venido a hacer, y de niño la conoce con toda claridad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurre después, dice el libro, es una fuerza que empuja en contra: la familia, la costumbre, el miedo, la idea de que ya es tarde. La mayoría acaba abandonando, y de ahí sale la infelicidad corriente, la de quien vive bien y no está donde quería estar. Perseguir esa leyenda no se presenta como un capricho ni como una ambición: se presenta como la única obligación seria que uno tiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y viene con una promesa muy concreta, que es la frase que ha hecho famoso al libro: cuando alguien desea algo de verdad, todo el universo conspira para que lo consiga. No es una metáfora dentro de la novela; es una ley física del mundo que Coelho describe, con su Alma del Mundo y su lenguaje único que hablan todas las cosas. Sobre esa ley se sostiene la historia entera. Melquisedec le cobra además por el consejo: la décima parte del rebaño. El libro deja caer ahí una idea que después no desarrolla, la de que a la información buena hay que pagarla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La tesis del libro es que uno tiene un deber consigo mismo, y que abandonarlo es la forma más común de fracasar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las señales son la parte práctica del libro, y es la que mejor funciona",
+      },
+      {
+        b: "texto",
+        texto:
+          "Si el mundo tiene un lenguaje, hay que aprender a leerlo, y a eso el libro lo llama seguir las señales. En la práctica, lo que propone es una disciplina de atención: mirar lo que aparece, hacer caso de las coincidencias, no descartar una información porque venga de donde no se esperaba. Santiago aprende con las ovejas, que le enseñan a leer el tiempo y el terreno, y sigue con dos piedras que le da el rey para preguntar sí o no cuando esté perdido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí hay algo que funciona incluso quitándole la mística. Una persona que ha decidido qué está buscando empieza a ver oportunidades donde antes no veía nada, no porque el universo se mueva, sino porque la atención se ha reorganizado. El propio libro lo insinúa cuando habla de la suerte del principiante: al empezar algo, las cosas parecen ponerse a favor, y a menudo es porque uno está mirando por primera vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El aviso llega en la misma página, y conviene retenerlo: las señales no dicen cuándo. Santiago pregunta si llegará a las pirámides y la respuesta que recibe es que las piedras no responden a eso. El libro insiste en que hay que decidir, y que la señal solo acompaña a quien ya se ha puesto en marcha. De hecho las dos piedras acaban sirviendo poco: Santiago las usa dos veces y termina decidiendo por su cuenta, que es lo que el propio libro considera el aprendizaje.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien sabe qué está buscando empieza a ver cosas que llevaban ahí todo el tiempo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las mejores páginas no son las del desierto: son las de la tienda de cristales",
+      },
+      {
+        b: "texto",
+        texto:
+          "Santiago llega a Tánger y en el primer día le roban todo el dinero. Sin nada, entra a trabajar en una tienda de cristales de un comerciante que lleva treinta años en el mismo sitio y a quien ya no visita casi nadie. Se queda once meses. Limpia, propone una vitrina en la cuesta, después un puesto de té en vasos de cristal, el negocio remonta y él reúne otra vez dinero para comprar ovejas o para seguir hacia Egipto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mercader es el personaje más interesante del libro y el que menos se cita. Es musulmán, y una de las obligaciones de su fe es peregrinar a La Meca al menos una vez en la vida. Tiene el dinero y tiene la edad. Y no va. Se lo explica al chico sin dramatismo: si fuera, se quedaría sin nada que esperar, y prefiere seguir mirando La Meca en la pared y sostener la tienda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Coelho podría haberlo puesto como ejemplo de lo que no hay que hacer, y no lo hace: lo trata con respeto, lo deja vivir así y le concede una vejez tranquila. Es la única grieta del libro, y por eso es su mejor capítulo. Del mismo modo, los once meses de tienda no se cuentan como una pérdida de tiempo: es donde Santiago aprende el oficio, el idioma y el dinero que le harán falta después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El desvío no es lo contrario del camino: casi siempre es donde se aprende lo que hará falta más adelante.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El único obstáculo del libro no es la dificultad: es el miedo a perder lo que ya se tiene",
+      },
+      {
+        b: "texto",
+        texto:
+          "Santiago tarda en salir de Tarifa porque tiene sesenta ovejas y un oficio, y esa es la primera trampa que el libro nombra: lo que frena no suele ser la falta de recursos, sino tenerlos. Cuanto más ha construido uno, más caro sale moverse. El pastor termina vendiendo el rebaño en un día, y el libro señala que lo difícil no fue vender: fue decidir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después aparece el miedo en su forma más común, el miedo a sufrir. En el oasis, Santiago se enamora de Fátima y descubre que ahora tiene mucho más que perder que unas ovejas. La frase que le dice el alquimista es de las que se recuerdan: el miedo a sufrir es peor que el propio sufrimiento, porque el sufrimiento se acaba y el miedo no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una advertencia que casi ningún lector de autoayuda espera encontrarse en este libro: cuando alguien renuncia a lo suyo por miedo, no le pasa nada. Sigue viviendo, con su tienda o con su rebaño, y solo aparece de vez en cuando una molestia sin nombre. El libro no amenaza con castigos: describe una vida perfectamente correcta y ligeramente equivocada, que es una descripción bastante fina de mucha gente. Y hay un matiz que se pierde en las citas: el alquimista no le promete que ganará, le dice que lo peor que puede pasarle es morir intentándolo, que es una promesa bastante menos cómoda.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El miedo a sufrir dura más que el sufrimiento, porque el sufrimiento acaba y el miedo se queda a vivir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El tesoro estaba donde empezó, y el libro dice que por eso hubo que ir",
+      },
+      {
+        b: "texto",
+        texto:
+          "Santiago cruza el desierto con una caravana, aprende con un alquimista, es capturado por una tribu en guerra y se salva convirtiéndose en viento delante de todos, que es la escena más fantástica del libro. Llega a las pirámides, empieza a cavar y aparecen unos refugiados que le quitan lo poco que lleva y lo golpean. Al marcharse, uno de ellos le cuenta riéndose que él también soñó dos veces con un tesoro: estaba enterrado en una iglesia derruida de España, debajo de un sicomoro, en la sacristía donde los pastores duermen con sus ovejas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es exactamente el sitio donde Santiago dormía la primera noche del libro. Vuelve y lo desentierra. La broma del cuento original es que el viaje entero fue innecesario para encontrar el oro y absolutamente necesario para saber dónde estaba: sin ir a Egipto, nadie le habría dicho lo que había debajo de sus pies.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está la lectura útil, que además es antigua. No se trata de que los sueños estén siempre en casa, ni de que viajar sea inútil. Se trata de que el que vuelve no es el mismo que se fue: Santiago regresa hablando árabe, con un oficio aprendido en Tánger, con la experiencia del desierto y con una mujer esperándolo en un oasis. El tesoro es lo de menos, y el libro lo dice sin decirlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hacía falta ir hasta Egipto para que alguien le contara lo que estaba enterrado en el sitio donde dormía.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Si el universo conspira a favor del que insiste, ¿qué le pasó al que fracasó?",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esta es la objeción seria al libro, y no tiene que ver con el estilo. Si el mundo entero se pone de acuerdo para ayudar al que persigue su Leyenda Personal, entonces el que lo intentó y no lo consiguió es que no lo deseaba bastante. La promesa, dada la vuelta, se convierte en un veredicto sobre los que pierden, y a esa idea se la ha llamado de muchas maneras: pensamiento positivo, ley de la atracción, teología de la prosperidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene mirar además quién es el protagonista. Santiago tiene diecinueve años, ninguna carga familiar, un oficio que se lleva encima y un saco de monedas de oro al empezar. Nadie depende de él, no tiene deudas ni enfermedades, y cuando lo pierde todo puede permitirse trabajar once meses en una tienda hasta rehacerse. El libro no habla de circunstancias, y las circunstancias son la mitad de la vida de casi todo el mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso no invalida la parte utilizable —decidir qué se busca, ponerse en marcha, no confundir el desvío con el fracaso, distinguir el miedo del riesgo—, pero pide leerlo con una traducción hecha. Donde el libro dice que el universo conspira, se puede leer que quien decide algo empieza a comportarse de otra manera y a encontrar gente que ya estaba ahí. La versión mágica vende más; la versión traducida es la que se puede usar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una promesa que solo explica a los que ganan no es una explicación: es una manera de repartir culpas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El alquimista cuenta el viaje de un pastor andaluz hasta las pirámides para desenterrar un tesoro que estaba en su punto de partida. Lo que sostiene es que cada persona tiene algo que ha venido a hacer, que el miedo a perder lo que ya se tiene es el único obstáculo verdadero, que las señales aparecen cuando uno ya se ha puesto en marcha y que el desvío forma parte del camino.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta no es filosófico, es de forma: consiguió que millones de personas que no leían libros leyeran uno entero. Es una fábula corta, sin adornos, con una historia que se sigue sola y con dos o tres páginas de verdad excelentes, en particular las del mercader de cristales, que es el personaje al que el libro le concede el derecho a no ir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien desea algo de verdad, dice el libro, todo el universo conspira para que lo consiga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La promesa central, tomada al pie de la letra, culpa al que no lo consigue, y el libro nunca se hace esa pregunta. Los personajes son funciones más que personas —Fátima existe para esperar en el oasis y ella misma explica que las mujeres del desierto esperan—, y la prosa avanza a golpe de sentencias que fuera del libro se convierten en frases para colgar en una pared. La comparación honesta no es con un ensayo, es con la fábula de la que sale: mil años después, sigue funcionando el mismo cuento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay que saber lo que se está leyendo: no es un tratado espiritual ni una novela de personajes, es un cuento tradicional con una capa de doctrina encima. Leído así, en dos tardes, deja lo mejor que tiene: la pregunta de qué es lo que uno lleva años aplazando. Leído como manual de instrucciones del mundo, promete cosas que el mundo no ha firmado.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  alquimista: ALQUIMISTA,
   "orgullo-prejuicio": ORGULLO_PREJUICIO,
   "matar-ruisenor": MATAR_RUISENOR,
   quijote: QUIJOTE,

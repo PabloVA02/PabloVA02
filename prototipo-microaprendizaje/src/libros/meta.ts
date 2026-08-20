@@ -1497,22 +1497,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "alquimista",
-    titulo: "El alquimista",
-    autor: "Paulo Coelho",
-    ano: 1988,
-    gancho: "Vendió unos novecientos ejemplares y la editorial le devolvió los derechos. Hoy es el libro más traducido de un autor vivo.",
-    porQue: "Se lee en dos horas y explica mejor que ningún ensayo por qué la gente abandona lo que quiere. También es el ejemplo más claro de una doctrina que no se puede refutar.",
-    minutos: 26.7,
-    capitulos: [
-      { titulo: "Novecientos ejemplares", minutos: 5.2 },
-      { titulo: "El sueño en la iglesia en ruinas", minutos: 5.5 },
-      { titulo: "Once meses en la tienda de cristales", minutos: 5.3 },
-      { titulo: "El desierto, el halcón y Fátima", minutos: 5.3 },
-      { titulo: "El tesoro estaba bajo el sicómoro", minutos: 5.4 },
-    ],
-  },
-  {
     id: "mujercitas",
     titulo: "Mujercitas",
     autor: "Louisa May Alcott",

@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  alquimista: [
+    "qué es exactamente la Leyenda Personal del libro",
+    "por qué el mercader de cristales no va a La Meca",
+    "por qué el miedo pesa más que la dificultad",
+    "dónde estaba el tesoro y por qué hubo que viajar",
+    "qué esconde la promesa del universo conspirando",
+  ],
+
   "orgullo-prejuicio": [
     "por qué las cinco hermanas se quedarían sin casa",
     "cuánto dinero al año hace falta para ser un buen partido",

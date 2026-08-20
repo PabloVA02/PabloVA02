@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  alquimista:
+    "Un pastor andaluz sueña con un tesoro en las pirámides y cruza el desierto para encontrarlo. Es un cuento de las mil y una noches convertido en la fábula moderna sobre no aplazar la vida.",
+
   "orgullo-prejuicio":
     "Cinco hermanas sin herencia tienen que casarse antes de que muera su padre, porque la casa pasará a un primo. Alrededor de esa cuenta, Austen escribió la mejor comedia social que existe.",
 

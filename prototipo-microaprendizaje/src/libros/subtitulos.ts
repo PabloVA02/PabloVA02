@@ -89,8 +89,4 @@ export const SUBTITULOS: Record<string, string> = {
    distingue «este libro no tiene» de «se me olvidó escribirlo»: la ficha no
    pinta la línea, y el validador los da por completos en vez de avisar cada
    vez. Inventarles una frase estaría prohibido por la regla de arriba. */
-export const SIN_SUBTITULO: string[] = [
-  "quijote",
-  "matar-ruisenor",
-  "orgullo-prejuicio",
-];
+export const SIN_SUBTITULO: string[] = ["quijote", "matar-ruisenor", "orgullo-prejuicio", "alquimista"];
