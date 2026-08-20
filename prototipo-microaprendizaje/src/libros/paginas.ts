@@ -10397,7 +10397,321 @@ const PRINCIPE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Breve historia del tiempo, en ocho páginas.
+
+   El libro de física más vendido de la historia y el que más gente ha
+   abandonado a la mitad. Resumirlo bien es un problema de EXPLICACIÓN, no
+   de selección: si se enumeran conceptos —relatividad, cuántica, agujeros
+   negros— sale un glosario. Cada página tiene que explicar UNA cosa con una
+   imagen que se sostenga sola, que es lo que hace Hawking cuando está bien.
+
+   La regla 2 manda: la tortuga de la anciana, el globo con lunares, el
+   gemelo que envejece menos, el reloj que se ralentiza al caer. Sin esas
+   imágenes esto no se puede contar en ocho páginas.
+
+   Y la conclusión tiene que decir lo que ha pasado desde 1988, que es
+   mucho: la radiación de Hawking, las ondas gravitacionales, la foto de un
+   agujero negro y su propio cambio de opinión sobre la información.
+   -------------------------------------------------------------------------- */
+
+const BREVE_HISTORIA_TIEMPO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una anciana le dijo a un científico que el mundo se apoya en una tortuga",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuenta Hawking que un astrónomo dio una conferencia sobre cómo la Tierra gira alrededor del Sol y el Sol alrededor del centro de la galaxia. Al terminar, una señora mayor le dijo que todo aquello era una tontería: el mundo es una placa plana apoyada sobre el caparazón de una tortuga gigante. El científico preguntó, con superioridad, en qué se apoyaba la tortuga. Ella contestó que es muy listo, joven, pero hay tortugas hasta abajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hawking abre con esa historia porque le sirve de advertencia: la pregunta de la señora no es distinta de la que se hace la física, que también busca un fundamento último y se queda a mitad de camino cada vez que cree haberlo encontrado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La ciencia no se distingue de la torre de tortugas por tener una respuesta final, sino por poder equivocarse y comprobarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Publicó el libro en 1988. Tenía cuarenta y seis años, llevaba dos décadas con esclerosis lateral amiotrófica y escribía comunicándose con un ordenador. Vendió más de veinticinco millones de ejemplares y estuvo más de cuatro años en las listas de más vendidos, cosa insólita para un libro de física teórica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su objetivo declarado es responder de dónde viene el universo, si tuvo un principio y si tendrá un final, usando lo que la física del siglo XX averiguó, y contarlo con una sola ecuación en todo el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: cómo se descubrió que el universo se expande, qué le hizo Einstein al tiempo, qué son los agujeros negros, qué pasó al juntar la gravedad con la cuántica y por qué el tiempo parece ir en una dirección. La conclusión dice lo que ha envejecido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Que el universo se expanda obliga a que haya tenido un principio" },
+      {
+        b: "texto",
+        texto:
+          "Hasta los años veinte, casi todo el mundo daba por hecho que el universo era estático y eterno. Einstein llegó a añadir un término a sus ecuaciones —la constante cosmológica— solo para que le salieran las cuentas de un universo quieto, y después lo llamó el mayor error de su vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Edwin Hubble lo desmontó observando. Al medir la luz de galaxias lejanas encontró que estaba desplazada hacia el rojo, señal de que se alejan, y que cuanto más lejos están, más deprisa se alejan. La conclusión es que el espacio entre las galaxias está creciendo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No es que las galaxias vuelen por el espacio: es que el espacio entre ellas se estira, como los lunares de un globo que se hincha.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La imagen del globo es la que Hawking usa y aclara un malentendido habitual: no hay un centro desde el que todo se aleje. Desde cualquier lunar del globo, todos los demás se alejan, y ninguno está en el centro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está la consecuencia que abre el libro: si todo se separa, rebobinando hacia atrás todo estuvo junto. Hubo un instante en que la densidad y la temperatura eran enormes y el universo entero cabía en un punto. A eso se le llamó, con burla, el Big Bang, y el nombre se quedó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba llegó en 1965 con el hallazgo del fondo cósmico de microondas: un resplandor uniforme que llena todo el cielo y que es el calor sobrante de aquel estado inicial. Se descubrió por accidente, buscando el origen de un ruido en una antena.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El tiempo no es igual para todos: depende de dónde estés y a qué velocidad",
+      },
+      {
+        b: "texto",
+        texto:
+          "La relatividad especial de Einstein parte de un hecho medido: la velocidad de la luz es la misma para cualquier observador, se mueva como se mueva. Eso obliga a renunciar a algo que parecía obvio: que el tiempo transcurre igual para todos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Si dos personas se mueven una respecto a otra, cada una ve que el reloj de la otra va más despacio. No es una ilusión ni un problema de medición: es que no existe un tiempo universal, solo el tiempo propio de cada trayectoria. La simultaneidad se rompe: dos sucesos que para uno ocurren a la vez, para otro no.",
+      },
+      {
+        b: "idea",
+        texto:
+          "De dos gemelos, el que hace un viaje muy rápido y vuelve es más joven que el que se quedó. Y no es un juego de palabras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La relatividad general, once años posterior, añade la gravedad, y su idea es que la gravedad no es una fuerza sino una deformación. Una masa curva el espacio y el tiempo a su alrededor, y lo que llamamos caer es seguir la trayectoria recta dentro de un espacio curvado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí que el tiempo también vaya más despacio cerca de una masa grande: un reloj a nivel del mar atrasa respecto a uno en la montaña. Es una diferencia minúscula, se ha medido con relojes atómicos, y los satélites de posicionamiento tienen que corregirla o darían errores de kilómetros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hawking insiste en el cambio de fondo: el tiempo deja de ser el escenario donde ocurren las cosas y pasa a ser una de las cosas que ocurren.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un agujero negro es un sitio donde el futuro apunta hacia dentro" },
+      {
+        b: "texto",
+        texto:
+          "Cuando una estrella muy grande agota su combustible, deja de haber presión que la sostenga y se derrumba sobre sí misma. Si tiene masa suficiente, nada detiene el colapso y la materia se concentra hasta que la curvatura se vuelve tan extrema que ni la luz puede salir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La frontera de esa región se llama horizonte de sucesos, y Hawking la describe de la manera más clara que existe: no es una superficie material, es el punto sin retorno. Dentro, todas las trayectorias posibles llevan al centro, igual que fuera todas las trayectorias llevan al futuro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Caer en un agujero negro no es como caer en un pozo: dentro, ir al centro es tan inevitable como para nosotros ir a mañana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Explica también qué vería un observador exterior, que es lo más antiintuitivo: alguien que cae parece ralentizarse cada vez más al acercarse al horizonte, y su imagen se congela y se apaga sin llegar a cruzarlo nunca. Para quien cae, en cambio, no ocurre nada especial al cruzar: sigue cayendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El nombre lo popularizó John Wheeler en 1967, y Hawking cuenta que la comunidad tardó en aceptar que aquello existiera de verdad y no fuera un artefacto matemático de las ecuaciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade la anécdota de su apuesta con Kip Thorne sobre si Cygnus X-1 era un agujero negro: Hawking apostó a que no, dijo que era una póliza de seguro contra el disgusto de haber dedicado su vida a algo inexistente, y acabó reconociendo que había perdido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los agujeros negros no son del todo negros: se evaporan" },
+      {
+        b: "texto",
+        texto:
+          "El resultado por el que Hawking es conocido en la física, y no solo en las librerías, es este. Aplicando la mecánica cuántica al borde de un agujero negro, en 1974 encontró que debe emitir radiación, cosa que la relatividad por sí sola declaraba imposible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo, contado como él lo cuenta, es que el vacío no está vacío: continuamente aparecen pares de partículas que se aniquilan enseguida. Si eso ocurre justo en el horizonte, una puede caer dentro y la otra escapar. Para un observador lejano, el agujero negro está emitiendo partículas, y esa emisión le hace perder masa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un agujero negro se evapora. Muy despacio, pero se evapora, y al final desaparece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los tiempos son enormes: un agujero negro de masa estelar tardaría en evaporarse un número de años con decenas de cifras, mucho más que la edad actual del universo. Pero el resultado es teórico y su importancia no está en el plazo sino en lo que implica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la paradoja de la información, que ha ocupado a la física teórica desde entonces: si un agujero negro se traga cosas y luego se evapora emitiendo radiación que parece no conservar ningún rastro de lo que cayó, la información se habría destruido, y eso contradice un principio básico de la mecánica cuántica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es el problema que Hawking dejó abierto en este libro y sobre el que acabó cambiando de postura años después.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La cuántica pone un límite a lo que se puede saber, no a lo que se puede medir",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para juntar el universo grande con el pequeño, Hawking introduce la mecánica cuántica, y su pieza central es el principio de incertidumbre de Heisenberg: no se pueden conocer con precisión arbitraria a la vez la posición y la velocidad de una partícula.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Subraya que no es una limitación de los aparatos que se resolverá con mejor tecnología: es una propiedad de la naturaleza. Cuanto mejor se determina una, peor queda determinada la otra, y eso acaba con la idea de un universo de relojería donde, conocido el estado presente, todo el futuro estaría fijado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No es que no podamos medirlo mejor: es que la partícula no tiene a la vez una posición y una velocidad definidas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí la doble naturaleza de la luz y de la materia, que se comportan como onda o como partícula según el experimento, y el método de Feynman de sumar todas las historias posibles: para calcular la probabilidad de que algo vaya de un punto a otro, se suman todos los caminos que podría haber tomado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con esa herramienta Hawking presenta la propuesta que hizo con James Hartle: usar tiempo imaginario, un truco matemático que hace que el espacio y el tiempo formen una superficie cerrada sin bordes, como la de una esfera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su consecuencia es la idea que da nombre a la propuesta: el universo no tendría frontera ni un instante inicial donde las leyes fallen, igual que la superficie de la Tierra no tiene un punto que sea su principio. Preguntar qué había antes del Big Bang sería como preguntar qué hay al sur del Polo Sur.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El tiempo va hacia delante porque el desorden solo puede crecer" },
+      {
+        b: "texto",
+        texto:
+          "Las leyes fundamentales de la física funcionan igual hacia delante que hacia atrás: nada en ellas distingue el pasado del futuro. Y sin embargo nuestra experiencia sí lo distingue. Hawking se pregunta de dónde sale esa dirección.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su respuesta pasa por la entropía, la medida del desorden, que en un sistema aislado solo puede crecer. Una taza cae y se rompe; los trozos no se recomponen solos. No es que sea imposible en teoría, es que hay muchísimas más maneras de estar roto que de estar entero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Recordamos el pasado y no el futuro por la misma razón por la que las tazas se rompen y no se recomponen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Distingue tres flechas del tiempo: la termodinámica, que es esa; la psicológica, la de que recordamos hacia atrás; y la cosmológica, la de que el universo se expande. Y sostiene que la psicológica depende de la termodinámica, porque registrar un recuerdo es un proceso que aumenta el desorden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que saca, y que es la parte más discutible, es que las tres apuntan en el mismo sentido porque el universo empezó en un estado muy ordenado y solo puede ir a peor, y que en un universo que se contrajera las flechas no se invertirían, cosa sobre la que él mismo cambió de opinión mientras escribía el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade la observación antrópica: solo en la fase de expansión, con estrellas que producen energía, pueden existir seres capaces de preguntárselo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta cómo la física del siglo XX cambió las ideas de espacio y tiempo: el universo se expande y por tanto tuvo un principio, el tiempo no transcurre igual para todos y depende de la velocidad y de la gravedad, hay regiones de donde no sale la luz, y al aplicarles la cuántica resulta que se evaporan. Y termina con la propuesta de un universo sin frontera, donde preguntar qué había antes no tiene sentido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es haber demostrado que se podía. Antes de 1988, la cosmología era un asunto de departamentos; después, veinticinco millones de personas tuvieron en casa un libro que explica la relatividad con gemelos y globos, y buena parte de la divulgación científica posterior imita su manera de encontrar la imagen justa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Preguntar qué había antes del Big Bang sería como preguntar qué hay al sur del Polo Sur.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Qué ha envejecido, que en un libro de física de hace casi cuarenta años es mucho y es lo interesante. Tres de sus grandes incógnitas se han resuelto: en 2015 se detectaron ondas gravitacionales de dos agujeros negros al fusionarse, en 2019 se publicó la primera imagen de la sombra de uno, y en 1998 se descubrió que la expansión del universo se acelera, cosa que el libro no contempla y que resucitó la constante cosmológica que Einstein había llamado su mayor error.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El propio Hawking cambió de postura en la paradoja de la información: en 2004 concedió públicamente la apuesta que mantenía y aceptó que la información probablemente no se destruye. La radiación que lleva su nombre sigue sin observarse, y su propuesta del universo sin frontera continúa siendo una hipótesis entre varias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un reproche de forma que conviene decir: es famoso el libro que más gente ha comprado y menos ha terminado. Los primeros capítulos están explicados con una claridad extraordinaria, y a partir del tramo cuántico la dificultad sube de golpe sin que el estilo cambie. Merece la pena aunque se abandone: lo que se entiende de las tres primeras partes ya vale el viaje.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "breve-historia-tiempo": BREVE_HISTORIA_TIEMPO,
   principe: PRINCIPE,
   "arte-guerra": ARTE_GUERRA,
   "cien-anos": CIEN_ANOS,

@@ -632,22 +632,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "breve-historia-tiempo",
-    titulo: "Breve historia del tiempo",
-    autor: "Stephen Hawking",
-    ano: 1988,
-    gancho: "Su editor le avisó de que cada ecuación que dejara en el libro reduciría las ventas a la mitad. Hawking dejó una sola, la de Einstein, y vendió más de diez millones de ejemplares. Un matemático calculó después que el lector medio abandona en la página veintiséis.",
-    porQue: "Porque metió la cosmología en las casas de medio mundo, y porque casi todo lo que la gente cree saber de él —el Nobel que no tuvo, la frase sobre la mente de Dios, los agujeros negros que se evaporan— necesita una corrección que el propio Hawking hizo en vida.",
-    minutos: 25.3,
-    capitulos: [
-      { titulo: "Un editor que contó las ecuaciones", minutos: 5.1 },
-      { titulo: "El universo que no cabía en un punto", minutos: 5.2 },
-      { titulo: "Los agujeros negros no son tan negros", minutos: 5.1 },
-      { titulo: "La flecha del tiempo y la mente de Dios", minutos: 5 },
-      { titulo: "Lo que ha envejecido y lo que no", minutos: 5 },
-    ],
-  },
-  {
     id: "gen-egoista",
     titulo: "El gen egoísta",
     autor: "Richard Dawkins",

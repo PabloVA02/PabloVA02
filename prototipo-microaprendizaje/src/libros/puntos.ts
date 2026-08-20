@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "breve-historia-tiempo": [
+    "por qué un universo en expansión tuvo que tener un principio",
+    "por qué un gemelo que viaja envejece menos que el otro",
+    "por qué los agujeros negros se evaporan poco a poco",
+    "qué prohíbe de verdad el principio de incertidumbre",
+    "por qué el desorden marca hacia dónde va el tiempo",
+  ],
+
   principe: [
     "por qué describe cómo se gobierna y no cómo debería",
     "por qué es más seguro ser temido que amado",

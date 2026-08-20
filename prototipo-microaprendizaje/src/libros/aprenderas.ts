@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "breve-historia-tiempo":
+    "Hawking cuenta lo que la física del siglo XX averiguó sobre el universo: que se expande y que por tanto tuvo un principio. Y que el tiempo no corre igual para todos ni los agujeros negros son del todo negros.",
+
   principe:
     "Maquiavelo lo escribió en el destierro, después de que lo encarcelaran y lo torturaran, para intentar que le devolvieran el puesto que había ocupado quince años. No se lo devolvieron, y el libro no se publicó en vida suya.",
 
