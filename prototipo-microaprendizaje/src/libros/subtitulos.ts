@@ -22,8 +22,6 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
-  "matar-ruisenor": "Una niña, un pueblo de Alabama y un juicio perdido",
-  quijote: "El ingenioso hidalgo de la Mancha",
   principe: "El tratado que separó la política de la moral",
   "arte-guerra": "El tratado militar más antiguo que se sigue leyendo",
   "cien-anos": "La historia de la familia Buendía en Macondo",
