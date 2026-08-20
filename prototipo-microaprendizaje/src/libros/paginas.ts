@@ -135,6 +135,33 @@ function corta(cartas: TarjetaMinima[], k: number): TarjetaMinima[][] {
   return montones;
 }
 
+/* Los minutos de un resumen escrito a mano, contando sus palabras.
+
+   Hace falta porque `libro.minutos` viene del texto VIEJO —el de las tarjetas,
+   que es el doble de largo— y en un libro reescrito miente por el doble: la
+   ficha de Sapiens decía 25 minutos cuando el texto que se lee son doce.
+
+   A 200 palabras por minuto, que es lo normal leyendo en español una prosa
+   como esta: no es un texto técnico, pero lleva cifras y nombres y no se puede
+   contar a la velocidad de una novela. */
+export function minutosDePaginas(paginas: readonly PaginaLibro[]): number {
+  let palabras = 0;
+  for (const pagina of paginas) {
+    for (const b of pagina.bloques) {
+      const texto =
+        b.b === "lista"
+          ? b.puntos.map((x) => `${x.fuerte} ${x.texto}`).join(" ")
+          : b.b === "cita"
+            ? `${b.frase} ${b.autor}`
+            : b.b === "prueba"
+              ? b.puntos.join(" ")
+              : b.texto;
+      palabras += texto.replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length;
+    }
+  }
+  return Math.max(1, Math.round(palabras / 200));
+}
+
 /** Las páginas que tiene todo resumen, con cuenta o sin ella. */
 export const PAGINAS_POR_RESUMEN = 8;
 

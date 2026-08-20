@@ -14,7 +14,7 @@ import {
 } from "./glyphs";
 import { LIBROS_RESUMEN } from "./libros/puente";
 import { APRENDERAS } from "./libros/aprenderas";
-import { PAGINAS_POR_RESUMEN } from "./libros/paginas";
+import { PAGINAS, PAGINAS_POR_RESUMEN, minutosDePaginas } from "./libros/paginas";
 import { PUNTOS } from "./libros/puntos";
 import { desbloquea } from "./voz";
 import { SUBTITULOS } from "./libros/subtitulos";
@@ -1053,7 +1053,7 @@ export function DetalleLibro({
           animate="shown"
         >
           <li><GlyphPuntos /> {lista.length} ideas clave</li>
-          <li><GlyphReloj /> {tiempo(libro.minutos ?? 25)}</li>
+          <li><GlyphReloj /> {tiempo(minutosDeLibro(libro))}</li>
           <li><GlyphPaginas /> {PAGINAS_POR_RESUMEN} páginas</li>
         </motion.ul>
 
@@ -1147,6 +1147,15 @@ export function DetalleLibro({
 
     </motion.div>
   );
+}
+
+/* Los minutos que se enseñan en la ficha. Si el libro está reescrito a mano,
+   se cuentan sus palabras; si no, vale lo que trae el catálogo, que sale del
+   texto por tarjetas. Los dos números son de LEER: el audio tarda un tercio
+   más, y eso ya lo dice el reproductor. */
+function minutosDeLibro(libro: Libro): number {
+  const paginas = PAGINAS[libro.id];
+  return paginas ? minutosDePaginas(paginas) : (libro.minutos ?? 25);
 }
 
 /* Lo que va en «Aprenderás»: las paradas del libro.
