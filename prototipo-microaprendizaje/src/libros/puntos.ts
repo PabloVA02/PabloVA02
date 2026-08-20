@@ -39,7 +39,7 @@
 
 export const PUNTOS: Record<string, string[]> = {
   odisea: [
-    "por qué el poema empieza por su hijo y no por él",
+    "por qué el poema empieza por su hijo",
     "dónde están los monstruos en el mapa de verdad",
     "el segundo chiste del cíclope, que solo se oye en griego",
     "qué le ofrece Calipso y por qué lo rechaza",
