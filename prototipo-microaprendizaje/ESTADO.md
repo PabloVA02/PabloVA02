@@ -139,9 +139,9 @@ No por gusto ni por orden alfabético. Por lo que más se ve, que es:
 1. **Los veinte de «Tendencias».** Salen grandes en la primera pantalla de
    Explorar y con una PROMESA escrita debajo. Un texto malo bajo una promesa
    es lo peor que puede haber. *Hechos los veinte.*
-2. **Los que tienen cubierta dibujada de Pablo.** Dibujo bueno y texto
-   automático es la segunda peor combinación: la cubierta invita a entrar y el
-   texto devuelve al lector.
+2. ~~**Los que tienen cubierta dibujada de Pablo.**~~ **HECHO.** Los 46 con
+   dibujo tienen ya texto a mano. Era la segunda peor combinación: la cubierta
+   invita a entrar y el texto devolvía al lector.
 3. **Los conocidos** del resto del catálogo.
 4. **El resto**, por categorías.
 

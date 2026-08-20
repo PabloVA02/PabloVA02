@@ -173,8 +173,17 @@ No se cuentan a mano. Dos scripts lo dicen en un segundo:
     node scripts/medir-paginas.mjs    palabras y minutos de cada resumen
     node scripts/revisa-fichas.mjs    a qué libro le falta una pieza de ficha
 
-El 20 de agosto quedaron veintiuno escritos a mano, todos dentro de la
-horquilla, y ningún libro de desarrollo personal conserva el texto viejo.
+Al cerrar el 20 de agosto van **46 escritos a mano** —42 Breve, 3 Amplio y 1
+Extenso—, todos dentro de su horquilla, y **los 46 libros con cubierta dibujada
+por Pablo ya no llevan texto automático**, que era la peor combinación posible:
+dibujo bueno y relleno debajo.
+
+Los tres primeros Amplio dicen bien cuándo toca subir de tamaño: *El mundo de
+ayer* (cincuenta años de Europa, diez argumentos), *Don Quijote* (dos partes que
+funcionan al revés la una de la otra) y *Steve Jobs* (seiscientas páginas de
+biografía con diez etapas). Ninguno de los tres cabía en ocho páginas sin
+quedarse en lo que ya sabe todo el mundo: el exilio, los molinos, el genio
+antipático.
 
 ### Y cómo se escribe uno nuevo
 
