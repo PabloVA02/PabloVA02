@@ -70,7 +70,18 @@ function grupo(titulo, ids) {
 let total = 0;
 total += grupo("1. ESCRITOS A MANO — los resúmenes buenos", A_MANO);
 total += grupo("2. TENDENCIAS — se ven grandes en Explorar", TENDENCIAS);
-total += grupo("3. CONOCIDOS — el resto del catálogo", CONOCIDOS);
+total += grupo("3. CONOCIDOS — los que se reconocen de oído", CONOCIDOS);
+
+/* Y todo lo demás, por categoría, para que la lista no se acabe nunca antes
+   que el catálogo. Sin esto había que volver a pedirla a mano en cuanto se
+   agotaban los cincuenta escritos arriba. */
+const CATEGORIAS = ["Historia", "Filosofía", "Psicología", "Economía", "Ciencia", "Salud", "Literatura", "Arte"];
+for (const c of CATEGORIAS) {
+  total += grupo(
+    `4. ${c.toUpperCase()} — el resto`,
+    [...FICHAS.values()].filter((f) => f.categoria === c).map((f) => f.id),
+  );
+}
 
 if (!csv) {
   console.log(`\n${DIBUJADAS.size} dibujadas · ${total} en esta lista · ${FICHAS.size} en el catálogo`);

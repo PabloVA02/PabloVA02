@@ -1,7 +1,7 @@
 /**
  * Mete en `libros/cubiertas.ts` las cubiertas que dibuja Pablo.
  *
- *   node scripts/mete-cubiertas.mjs <carpeta> [--ancho 620] [--calidad 0.82]
+ *   node scripts/mete-cubiertas.mjs <carpeta> [--ancho 480] [--calidad 0.82]
  *
  * La carpeta lleva un PNG por libro, y el nombre del fichero es el `id` del
  * catálogo: `habitos-atomicos.png`, `spqr.png`. Un nombre que no esté en el
@@ -13,12 +13,23 @@
  * una ruta saldría en blanco. Así que viajan dentro del propio JavaScript, en
  * WebP y como texto, igual que las fotografías de los shorts.
  *
- * EL ANCHO
+ * EL ANCHO: 480, y sale de una medida, no de un gusto.
  *
- * La casilla de la biblioteca mide 148 puntos y un móvil pinta a dos, o sea
- * 296 reales; 620 da margen para la ficha —donde la cubierta es de 152× 228— y
- * para una pantalla a tres. Subirlo se nota poco y pesa mucho, y el peso es lo
- * que decide si el simulador cabe bajo los 16 MB de publicación.
+ * El sitio más grande donde se pinta una cubierta es la tira de «Tendencias»,
+ * 172 puntos; en un móvil a dos son 344 reales y a tres, 516. La casilla de la
+ * biblioteca son 148 y la ficha del libro, 152.
+ *
+ * Empezó en 620 —cubría el caso de tres con holgura— y con treinta y seis
+ * cubiertas eso eran 2,3 MB de los 16 que admite la publicación, quitados
+ * directamente de las fotografías de los shorts. Medido a varios anchos:
+ *
+ *     620 → 2,3 MB      480 → 1,4 MB
+ *     520 → 1,9 MB      440 → 1,3 MB
+ *
+ * De 620 a 480 se ahorran nueve décimas y de 480 a 440, una. Así que 480: en
+ * una pantalla a tres la tira de tendencias la amplía un siete por ciento, que
+ * en un dibujo plano no se distingue, y a dos —que es casi todo el mundo—
+ * sobra ancho.
  *
  * LA PROPORCIÓN
  *
@@ -41,10 +52,10 @@ const arg = (nombre, porDefecto) => {
 
 const CARPETA = process.argv[2];
 if (!CARPETA || CARPETA.startsWith("--")) {
-  console.error("uso: node scripts/mete-cubiertas.mjs <carpeta> [--ancho 620] [--calidad 0.82]");
+  console.error("uso: node scripts/mete-cubiertas.mjs <carpeta> [--ancho 480] [--calidad 0.82]");
   process.exit(1);
 }
-const ANCHO = Number(arg("--ancho", 620));
+const ANCHO = Number(arg("--ancho", 480));
 const CALIDAD = Number(arg("--calidad", 0.82));
 
 const RAIZ = new URL("../src/libros/", import.meta.url);
