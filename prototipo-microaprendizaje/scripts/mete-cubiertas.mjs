@@ -7,6 +7,13 @@
  * catálogo: `habitos-atomicos.png`, `spqr.png`. Un nombre que no esté en el
  * catálogo se rechaza en vez de colarse con una clave que no pinta nadie.
  *
+ * SE FUSIONA, NO SE SUSTITUYE. Pablo manda las cubiertas por tandas, y de una
+ * tanda a la siguiente los PNG originales ya no están en el contenedor. Así
+ * que lo que hay en `cubiertas.ts` se conserva: las de la carpeta se meten o
+ * se actualizan, y las que no aparecen en ella se quedan como estaban. La
+ * primera versión regeneraba el fichero desde la carpeta y una tanda de 26
+ * borró las 46 anteriores; se recuperó del git, pero el fallo no avisaba.
+ *
  * POR QUÉ VAN INCRUSTADAS Y NO COMO FICHERO
  *
  * El simulador que se publica no tiene salida a la red: una portada que fuera
@@ -126,10 +133,20 @@ await navegador.close();
    uno de relleno cuando la cubierta es nueva. */
 const destino = new URL("cubiertas.ts", RAIZ);
 const previo = existsSync(destino) ? readFileSync(destino, "utf8") : "";
-const altPrevio = new Map(
-  [...previo.matchAll(/"([\w-]+)": \{\n\s*local: [A-Z_0-9]+,\n\s*autor: "[^"]*",\n\s*licencia: "[^"]*",\n\s*alt: "((?:[^"\\]|\\.)*)",/g)]
+
+/* Lo que ya estaba: la imagen incrustada y las tres líneas de su ficha. De
+   aquí sale la fusión —lo que no venga en la carpeta se queda tal cual— y de
+   aquí sale también el `alt` escrito a mano de las que sí vienen. */
+const urisPrevias = new Map(
+  [...previo.matchAll(/^const ([A-Z_0-9]+) =\n  "(data:image\/webp;base64,[^"]+)";$/gm)]
     .map((m) => [m[1], m[2]]),
 );
+const fichasPrevias = new Map(
+  [...previo.matchAll(
+    /"([\w-]+)": \{\n\s*local: ([A-Z_0-9]+),\n\s*autor: "([^"]*)",\n\s*licencia: "([^"]*)",\n\s*alt: "((?:[^"\\]|\\.)*)",/g,
+  )].map((m) => [m[1], { constante: m[2], autor: m[3], licencia: m[4], alt: m[5] }]),
+);
+const altPrevio = new Map([...fichasPrevias].map(([id, f]) => [id, f.alt]));
 
 /* El nombre de la constante sale del identificador del libro, y un
    identificador puede empezar por número —«1984»— mientras que un nombre de
@@ -166,26 +183,48 @@ const cabecera = `import type { Foto } from "../shorts";
 
 `;
 
-const constantes = hechas
-  .map((e) => `const ${CONST(e.id)} =\n  "${e.uri}";\n`)
-  .join("\n");
+/* La fusión: lo que ya estaba, más lo que trae la carpeta. Las de la carpeta
+   ganan —así se sustituye un dibujo por otro mejor sin perder su descripción—
+   y las demás se copian tal cual, con su imagen y su ficha. */
+const todas = new Map();
+for (const [id, f] of fichasPrevias) {
+  const uri = urisPrevias.get(f.constante);
+  if (!uri) {
+    console.error(`✗ ${id}: no encuentro la imagen de ${f.constante} en el fichero anterior.`);
+    process.exitCode = 1;
+    continue;
+  }
+  todas.set(id, { id, constante: f.constante, uri, autor: f.autor, licencia: f.licencia, alt: f.alt });
+}
+for (const e of hechas) {
+  let alt = altPrevio.get(e.id);
+  if (!alt) {
+    alt = `La cubierta de «${e.titulo}».`;
+    sinAlt.push(e.id);
+  }
+  todas.set(e.id, {
+    id: e.id,
+    constante: CONST(e.id),
+    uri: e.uri,
+    autor: `${e.titulo}, de ${e.autor}.`,
+    licencia: "Obra propia",
+    alt,
+  });
+}
+const lista = [...todas.values()].sort((a, b) => a.id.localeCompare(b.id, "es"));
 
-const registro = hechas
-  .map((e) => {
-    let alt = altPrevio.get(e.id);
-    if (!alt) {
-      alt = `La cubierta de «${e.titulo}».`;
-      sinAlt.push(e.id);
-    }
-    return (
+const constantes = lista.map((e) => `const ${e.constante} =\n  "${e.uri}";\n`).join("\n");
+
+const registro = lista
+  .map(
+    (e) =>
       `  "${e.id}": {\n` +
-      `    local: ${CONST(e.id)},\n` +
-      `    autor: ${JSON.stringify(`${e.titulo}, de ${e.autor}.`)},\n` +
-      `    licencia: "Obra propia",\n` +
-      `    alt: ${JSON.stringify(alt)},\n` +
-      `  },`
-    );
-  })
+      `    local: ${e.constante},\n` +
+      `    autor: ${JSON.stringify(e.autor)},\n` +
+      `    licencia: ${JSON.stringify(e.licencia)},\n` +
+      `    alt: ${JSON.stringify(e.alt)},\n` +
+      `  },`,
+  )
   .join("\n");
 
 writeFileSync(
@@ -193,8 +232,11 @@ writeFileSync(
   `${cabecera}${constantes}\nexport const CUBIERTAS_PROPIAS: Record<string, Foto> = {\n${registro}\n};\n`,
 );
 
-const peso = hechas.reduce((s, e) => s + e.uri.length, 0);
-console.log(`\n${hechas.length} cubiertas · ${(peso / 1024 / 1024).toFixed(1)} MB de texto`);
+const peso = lista.reduce((s, e) => s + e.uri.length, 0);
+console.log(
+  `\n${lista.length} cubiertas en total · ${hechas.length} de esta tanda · ` +
+    `${(peso / 1024 / 1024).toFixed(1)} MB de texto`,
+);
 if (sinAlt.length) {
   console.log(`\n⚠  sin descripción escrita a mano, hay que ponérsela:`);
   for (const id of sinAlt) console.log(`   ${id}`);
