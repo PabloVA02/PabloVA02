@@ -36,11 +36,18 @@ const sub = lee("subtitulos.ts");
 const apr = lee("aprenderas.ts");
 const pun = lee("puntos.ts");
 const tiene = (src, id) => new RegExp(`^  "?${id}"?:`, "m").test(src);
+/* Los que declaran no tener subtítulo cuentan como completos: ver el final de
+   `subtitulos.ts`, donde está la razón. */
+const sinSubtitulo = new Set(
+  [...(sub.match(/SIN_SUBTITULO[^=]*= \[([^\]]*)\]/s)?.[1] ?? "").matchAll(/"([\w-]+)"/g)].map(
+    (m) => m[1],
+  ),
+);
 
 let sinFicha = 0;
 for (const id of ids) {
   const faltan = [
-    tiene(sub, id) ? "" : "subtítulo",
+    tiene(sub, id) || sinSubtitulo.has(id) ? "" : "subtítulo",
     tiene(apr, id) ? "" : "de qué trata",
     tiene(pun, id) ? "" : "aprenderás",
   ].filter(Boolean);

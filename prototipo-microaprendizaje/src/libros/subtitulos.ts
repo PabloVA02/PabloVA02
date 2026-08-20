@@ -80,3 +80,9 @@ export const SUBTITULOS: Record<string, string> = {
   "habitos-atomicos": "Cambios pequeños, resultados extraordinarios",
   "club-5-manana": "Controla tus mañanas, impulsa tu vida",
 };
+
+/* Los que NO llevan subtítulo en su edición. Declararlo aquí es lo que
+   distingue «este libro no tiene» de «se me olvidó escribirlo»: la ficha no
+   pinta la línea, y el validador los da por completos en vez de avisar cada
+   vez. Inventarles una frase estaría prohibido por la regla de arriba. */
+export const SIN_SUBTITULO: string[] = ["quijote", "matar-ruisenor"];

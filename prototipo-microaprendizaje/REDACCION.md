@@ -335,6 +335,14 @@ distintas y cada una vive en su fichero:
 | De qué va | `libros/aprenderas.ts` | dos frases, cuarenta palabras. Abre con un dato, no con un titular de suplemento |
 | Aprenderás | `libros/puntos.ts` | cinco puntos, **una línea cada uno**, y cada uno es algo que SABRÁS al terminar |
 
+**Un libro sin subtítulo lo dice por escrito.** *Don Quijote*, *1984* o *Matar a
+un ruiseñor* no llevan subtítulo en su edición, y ahí la tentación es escribir
+uno bonito: «Una niña, un pueblo de Alabama y un juicio perdido» suena bien y es
+inventado. Esos libros se apuntan en `SIN_SUBTITULO`, al final de
+`subtitulos.ts`, y con eso `revisa-fichas.mjs` los da por completos. Declararlo
+es lo que distingue *no lo tiene* de *se me olvidó*, que es justo lo que un
+validador no puede adivinar.
+
 Los «Aprenderás» no son el índice. «La habitación 101» no dice nada a quien no
 ha leído *1984*; «por qué la tortura busca creencia y no información», sí.
 
