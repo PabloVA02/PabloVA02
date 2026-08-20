@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  cosmos: [
+    "cómo se midió la Tierra con dos palos y una sombra",
+    "por qué la ciencia griega se paró mil quinientos años",
+    "dónde cae la historia humana en el calendario cósmico",
+    "en qué estrella se fabricó el calcio de tus huesos",
+    "qué le pasó a Venus y por qué nos importa",
+  ],
+
+  "1984": [
+    "qué es el doblepensar y por qué no es hipocresía",
+    "por qué el Partido quita palabras del diccionario",
+    "por qué persigue el amor y no solo la política",
+    "por qué la tortura busca creencia y no información",
+    "qué cambia el apéndice, que está escrito en pasado",
+  ],
+
   flow: [
     "por qué tu atención es un presupuesto y se gasta mal",
     "dónde está la franja exacta en la que aparece el flujo",

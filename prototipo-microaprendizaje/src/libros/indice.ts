@@ -26,7 +26,6 @@ type Cargador = () => Promise<Resumen>;
 const CARGADORES: Record<string, Cargador> = {
   meditaciones: () => import("./meditaciones").then((m) => m.MEDITACIONES),
   sapiens: () => import("./sapiens").then((m) => m.SAPIENS),
-  "1984": () => import("./1984").then((m) => m.MIL_NOVECIENTOS_OCHENTA_Y_CUATRO),
 
   /* Psicología */
   influencia: () => import("./psicologia").then((m) => m.INFLUENCIA),
@@ -38,7 +37,6 @@ const CARGADORES: Record<string, Cargador> = {
   /* Filosofía */
 
   /* Ciencia y salud */
-  cosmos: () => import("./ciencia-salud").then((m) => m.COSMOS),
   "por-que-dormimos": () => import("./ciencia-salud").then((m) => m.POR_QUE_DORMIMOS),
   "breve-historia-tiempo": () => import("./ciencia-salud").then((m) => m.BREVE_HISTORIA_TIEMPO),
   respira: () => import("./ciencia-salud").then((m) => m.RESPIRA),

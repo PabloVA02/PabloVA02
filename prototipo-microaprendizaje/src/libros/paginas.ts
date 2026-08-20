@@ -6653,7 +6653,560 @@ const FLOW: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   1984, en ocho páginas.
+
+   Una novela, no un ensayo, y eso cambia el molde: los titulares tienen que
+   afirmar sobre el LIBRO —qué sostiene, qué demuestra— y no resumir la
+   trama capítulo a capítulo. Tercera persona.
+
+   El riesgo era escribir el resumen que todo el mundo escribe: Gran
+   Hermano, telepantallas, distopía. Eso lo sabe cualquiera sin haberlo
+   leído. Lo que casi nadie sabe es lo que el libro dice de verdad sobre el
+   lenguaje, sobre por qué el Partido tortura y sobre el apéndice, que está
+   escrito en pasado y cambia el final entero.
+
+   La conclusión tiene que decir dónde falla, y en una novela eso no es un
+   error de datos: es qué parte de su apuesta no se cumplió.
+   -------------------------------------------------------------------------- */
+
+const MIL_NOVECIENTOS_OCHENTA_Y_CUATRO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un funcionario se pasa el día corrigiendo periódicos que ya se publicaron",
+      },
+      {
+        b: "texto",
+        texto:
+          "Winston Smith trabaja en el Ministerio de la Verdad, y su trabajo consiste en reescribir el pasado. Llega una nota: en un discurso de hace tres años el Partido prometió que no habría recorte de la ración de chocolate, y este mes la han bajado. Winston corrige el periódico antiguo para que diga lo contrario, tira el original por un tubo que va a un horno, y el chocolate siempre fue de veinte gramos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace que la escena funcione no es el horror sino la rutina. Hay miles de personas haciendo eso a la vez, con formularios y cuotas, y ninguna tiene la sensación de estar mintiendo, porque el documento anterior ya no existe en ninguna parte.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hace falta que la gente crea la mentira. Basta con que no quede ningún sitio donde comprobar cuál era la verdad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "George Orwell publicó la novela en 1949, un año antes de morir de tuberculosis, y la escribió en una isla escocesa mientras se moría. Venía de la guerra de España, donde había visto a la prensa de su propio bando inventar batallas que no ocurrieron, y decía que aquello fue lo que le hizo escribir esto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: qué es lo que el Partido controla de verdad, por qué la novela dedica tantas páginas al idioma, qué pasa cuando alguien intenta escapar, y por qué el Partido tortura si ya tiene el poder. La conclusión dice también qué parte de la apuesta de Orwell no se cumplió.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El Partido no quiere que obedezcas: quiere decidir qué es real" },
+      {
+        b: "texto",
+        texto:
+          "La diferencia entre esta novela y cualquier historia de dictaduras está aquí. A un tirano corriente le basta con que nadie se rebele. Al Partido de Orwell no: exige que dos más dos sean cinco si él lo dice, y no de boquilla, sino de verdad, por dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El instrumento se llama doblepensar, y la novela lo define con precisión: sostener dos creencias contradictorias a la vez y aceptar las dos, saber que se está manipulando la realidad y creerse el resultado, olvidar lo que haga falta y recuperarlo cuando convenga, olvidando también que se ha olvidado. No es hipocresía, que sabe lo que hace. Es un mecanismo mental entrenado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien controla el pasado controla el futuro; quien controla el presente controla el pasado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí que la novela dedique tanto espacio al trabajo de Winston. Si todos los documentos coinciden y todos los testigos recuerdan lo mismo, la mentira deja de ser una mentira y pasa a ser el pasado. Y sin un pasado comprobable no hay manera de decir que algo ha empeorado, porque no hay con qué comparar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Winston se aferra a un recuerdo concreto: un recorte de periódico que demostraba que tres condenados por traición no estaban donde el Partido dijo. Lo tuvo en la mano treinta segundos y lo destruyó. Toda su rebelión nace de haber tenido una prueba y de saber que ya no existe.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Si borras la palabra, borras la idea que solo se podía pensar con ella",
+      },
+      {
+        b: "texto",
+        texto:
+          "La invención más original del libro no es la telepantalla sino la neolengua, y es lo que casi ningún resumen cuenta. El Partido está reescribiendo el diccionario, y no para añadir palabras: para quitarlas. Cada edición tiene menos que la anterior, y sus lexicógrafos están orgullosos de eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El razonamiento aparece en una conversación en el comedor, y es escalofriante por lo razonable que suena. Si no existe la palabra libertad, tampoco existe la manera de formular la idea; a lo sumo quedará un malestar sin nombre, que no se puede argumentar ni compartir. La herejía no se prohíbe: se vuelve literalmente impensable.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una idea que no tiene palabras deja de poder discutirse, y en pocos años deja de poder pensarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El método es la reducción: se quitan los antónimos —no hace falta malo si existe nobueno— y los grados se hacen con prefijos: plusbueno, dobleplusbueno. Con eso el vocabulario se encoge y con él el margen para matizar, que es donde vive casi todo el pensamiento político.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Orwell escribió sobre esto también fuera de la novela, en un ensayo sobre el lenguaje político donde sostiene que la prosa vaga no es un descuido sino una función: sirve para nombrar cosas atroces de manera que no produzcan una imagen. Deportar aldeas enteras se llama traslado de población, y el que lo oye no ve nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo único privado que le queda a Winston es querer a alguien" },
+      {
+        b: "texto",
+        texto:
+          "La rebelión de Winston no empieza con un plan político sino con un cuaderno. Compra un diario antiguo en una tienda de barrio y escribe en él, sentado en el único rincón de su cuarto que la telepantalla no alcanza. Lo que escribe apenas importa; el delito es tener un sitio donde la frase no está dirigida a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después llega Julia, y ahí la novela dice algo que se le suele pasar al lector. Julia no tiene interés político: le da igual el Partido, no se plantea derribarlo y solo quiere vivir a su manera por debajo del radar. Winston piensa que es una rebelde de cintura para abajo, y ella le contesta que la historia antigua no le interesa. Los dos se rebelan por motivos distintos y ninguno de los dos entiende bien al otro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En un mundo donde todo es del Partido, querer a alguien por tu cuenta ya es un acto político, se quiera o no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El Partido lo sabe, y por eso persigue el sexo: no por moral, sino porque un vínculo privado crea una lealtad que no pasa por él. Orwell lo dice sin rodeos por boca de Julia, que ha entendido el mecanismo mejor que Winston: la histeria y el fanatismo se alimentan del deseo reprimido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuarto que alquilan encima de la tienda es la única parte luminosa del libro: un pisapapeles de cristal con un coral dentro, un café de verdad, una mujer cantando en el patio mientras tiende la ropa. Orwell lo escribe con un cariño que no gasta en ninguna otra página, y eso es lo que hace insoportable lo que viene después.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El poder no es un medio para nada: es el fin" },
+      {
+        b: "texto",
+        texto:
+          "La tercera parte transcurre en el Ministerio del Amor, y es donde la novela dice lo que ha venido a decir. O'Brien, el funcionario que Winston creía de la resistencia y que fue quien lo cazó, lo tortura durante meses y a la vez le explica el sistema con paciencia de profesor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Winston le ofrece la explicación razonable: que el Partido gobierna así por el bien de la mayoría, porque los hombres no saben ser libres. O'Brien le contesta que no, que eso es una estupidez, y le da la respuesta que sostiene el libro entero: el Partido busca el poder por el poder mismo. No es un medio para la felicidad de nadie; es el fin.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si quieres una imagen del futuro, imagina una bota pisando un rostro humano, incesantemente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale por qué la tortura no busca información. O'Brien lo dice: no queremos confesiones falsas, no queremos obediencia; queremos que cuando muera, lo haga creyendo. La tortura de este libro busca creencia, y ese matiz es lo que lo separa de cualquier otra novela sobre dictaduras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La habitación 101 contiene lo peor del mundo, y lo peor del mundo es distinto para cada uno. Para Winston son las ratas. Cuando le acercan la jaula a la cara, grita que se lo hagan a Julia, y eso es lo que el Partido quería: no que dejara de quererla, sino que la entregara. Con eso queda vacío, y solo entonces lo sueltan.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Tres bloques en guerra permanente, y ninguno quiere ganar" },
+      {
+        b: "texto",
+        texto:
+          "El mundo del libro está repartido entre Oceanía, Eurasia y Estasia, tres superestados con sistemas casi idénticos que llevan décadas en guerra y cambian de aliado sin explicación. En un pasaje memorable, un orador cambia de enemigo en mitad de un discurso y la multitud rehace sus pancartas sin dejar de gritar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación viene en el libro dentro del libro, el tratado clandestino atribuido a Goldstein que Winston lee en el cuarto de arriba. La guerra no se libra para ganarla: se libra para consumir la producción sin subir el nivel de vida, porque una población próspera y con tiempo acabaría pensando. La guerra fabrica escasez, y la escasez fabrica obediencia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La guerra permanente no busca vencer: busca quemar lo que sobra para que nadie tenga bastante como para levantar la cabeza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mismo tratado describe la estructura social —una minoría en el Partido Interior, unos pocos millones en el Exterior y el ochenta y cinco por ciento de la población en los proles— y su regla más cínica: a los proles se les deja en paz. No se les vigila apenas, porque no son peligrosos mientras tengan lotería, cerveza y canciones fabricadas por máquinas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Winston apunta en su diario que si hay esperanza, está en los proles. La novela le da la razón y a la vez se la quita: son la única fuerza capaz de derribar aquello, y no van a hacerlo, porque para rebelarse hay que ser consciente y para ser consciente hay que haberse rebelado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro no termina donde parece: termina en un apéndice escrito en pasado",
+      },
+      {
+        b: "texto",
+        texto:
+          "La última escena de la novela es de las más desoladoras que se han escrito. Winston, ya libre y vacío, se sienta en un café a beber ginebra, ve un parte de guerra en la telepantalla y llora de gratitud. La frase final dice que amaba al Gran Hermano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pero el libro no acaba ahí. Detrás va un apéndice titulado «Los principios de la neolengua», que muchos lectores se saltan por parecer una nota técnica. Está escrito en pasado y por un narrador que analiza la neolengua como un fenómeno histórico terminado, y explica que el proyecto no llegó a completarse y que la fecha prevista era 2050.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Alguien escribió ese apéndice después. O sea que el Partido cayó, y la lengua en la que se cuenta es la vieja.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa lectura la propuso el crítico Thomas Pynchon entre otros, y cambia el sentido del final: el mundo de Winston terminó, aunque él no lo viera. Orwell no lo dice en ninguna parte, y quizá no lo pensó así. Pero el apéndice está en pasado, y esa es toda la esperanza que da el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene además quitar un malentendido: Orwell no escribía sobre el futuro ni predecía nada. Escribía sobre 1948 —el título es esa fecha con las dos últimas cifras cambiadas— y sobre lo que ya había visto: la propaganda británica en guerra, los juicios de Moscú, la prensa que inventaba batallas en España.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La novela sostiene una tesis y la lleva hasta el final sin concesiones: un poder que controle los documentos, el idioma y los vínculos privados no necesita convencer a nadie, porque habrá suprimido las herramientas con las que se podría discutir. El pasado se reescribe a diario, la lengua encoge cada año, y el amor se persigue porque crea una lealtad que no pasa por el Estado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un vocabulario que se usa fuera del libro. Doblepensar, neolengua, Gran Hermano, la policía del pensamiento, el agujero de la memoria: son palabras que la gente emplea sin haber leído la novela, y sirven para nombrar cosas reales. Que el nombre de su autor se haya convertido en un adjetivo dice hasta dónde llegó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La libertad es poder decir que dos más dos son cuatro. Si eso se concede, lo demás viene solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La apuesta técnica se equivocó: Orwell imaginó un régimen que gasta enormes recursos en vigilar cada casa con una pantalla y un funcionario detrás. Lo que ocurrió fue más barato y no hizo falta obligar a nadie: la gente compró las pantallas y contó su vida por su cuenta. Y su mundo de escasez permanente encaja mal con las democracias de consumo, donde la crítica no se prohíbe sino que se diluye entre el ruido. Ahí, el libro de Huxley acertó más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un problema literario que la novela paga a propósito. Los personajes son delgados y están al servicio de la tesis: Julia no llega a existir del todo, Winston es sobre todo un lugar desde el que mirar, y las treinta páginas del tratado de Goldstein son un ensayo metido con calzador. Orwell sabía lo que hacía —quería que la máquina se entendiera— y el precio es que se admira más de lo que se disfruta.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   Cosmos, en ocho páginas.
+
+   Divulgación científica: tercera persona, y la regla 2 manda más que
+   nunca. Sagan escribe con una emoción que en un resumen se convierte en
+   cursilería si se imita; lo que hay que trasladar no es su tono sino sus
+   datos, que son espectaculares por sí solos —Eratóstenes y los dos palos,
+   la biblioteca de Alejandría, el calendario cósmico, los mil millones de
+   millones de millones de estrellas—.
+
+   La tentación era hacer un resumen de astronomía. El libro no es eso: es
+   un libro sobre CÓMO SE CONOCE, con la astronomía de ejemplo, y por eso
+   empieza en Alejandría y no en el Big Bang.
+
+   La conclusión tiene que decir lo que ha envejecido, que en un libro de
+   ciencia de 1980 es bastante y es lo interesante.
+   -------------------------------------------------------------------------- */
+
+const COSMOS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un bibliotecario midió el planeta entero con dos palos y una sombra" },
+      {
+        b: "texto",
+        texto:
+          "Hacia el año 240 antes de Cristo, Eratóstenes leyó en un papiro que en Siena, el día del solsticio de verano, las columnas no daban sombra al mediodía y el sol se reflejaba en el fondo de los pozos. En Alejandría, ese mismo día y a esa hora, un palo clavado en el suelo sí daba sombra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sacó una conclusión y una cuenta. Si la Tierra fuera plana, los dos palos darían la misma sombra. Como no la dan, la superficie es curva; y midiendo el ángulo de la sombra —unos siete grados, la cincuentava parte de una circunferencia— y pagando a un hombre para que contara los pasos entre las dos ciudades, calculó la circunferencia del planeta. Se quedó a unos pocos por ciento del valor real.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Con dos palos, una sombra y la voluntad de comprobar, se midió el tamaño de un planeta hace veintidós siglos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Carl Sagan abre así, y no por gusto arqueológico. Su libro no va sobre lo que sabemos del universo, va sobre CÓMO hemos llegado a saberlo, y el ejemplo perfecto es alguien que en vez de creer un rumor va y lo mide.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cosmos se publicó en 1980 junto con la serie de televisión que vieron cientos de millones de personas en sesenta países. Es el libro de divulgación científica más vendido de su época, y su reputación no viene de que explique mejor que otros: viene de que trata al lector como alguien capaz de entender.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: cómo se supo el tamaño de las cosas, qué pasó con la ciencia griega, de dónde salen los átomos de los que estamos hechos, qué hay ahí fuera y qué probabilidad hay de que alguien más esté escuchando. La conclusión dice también qué ha envejecido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La ciencia se paró mil quinientos años, y no fue un accidente" },
+      {
+        b: "texto",
+        texto:
+          "Sagan dedica un capítulo entero a la biblioteca de Alejandría, que llegó a reunir cientos de miles de rollos y donde se hicieron cosas que después no se repitieron en más de mil años: se midió el planeta, se propuso que la Tierra gira alrededor del sol, se catalogaron las estrellas, se disecó el cuerpo humano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su pregunta es por qué aquello no siguió, y su respuesta incomoda a mucha gente: porque la ciencia era cosa de una élite que despreciaba el trabajo manual. Los sabios pensaban y los esclavos hacían, y sin experimento no hay manera de saber cuál de dos ideas bonitas es la buena. Sostiene que quien tiene esclavos no inventa la máquina de vapor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una idea que nadie se molesta en comprobar no vale más que la contraria, por elegante que suene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El final lo cuenta con el asesinato de Hipatia, matemática y última figura de la biblioteca, linchada por una turba en el año 415. La biblioteca fue destruida en varias fases y de casi todo aquel saber solo quedan menciones: sabemos que Aristarco propuso el sol en el centro porque otros lo citaron, no porque conservemos su libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sagan hace entonces la cuenta que más se le recuerda: si aquella línea de trabajo no se hubiera cortado, es posible que hoy lleváramos mil años de ventaja. No es nostalgia; es su argumento sobre lo frágil que resulta el conocimiento cuando deja de estar en manos de gente que comprueba.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Toda la historia escrita cabe en los últimos diez segundos del año" },
+      {
+        b: "texto",
+        texto:
+          "Para hacer manejables los quince mil millones de años que la ciencia de entonces daba al universo, Sagan los comprime en un solo año: el calendario cósmico. El Big Bang es el uno de enero a las cero horas y este momento es la medianoche del treinta y uno de diciembre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En esa escala, la Vía Láctea se forma en mayo. El sistema solar no aparece hasta septiembre, y la vida en la Tierra a finales de ese mismo mes. Los dinosaurios entran la noche de Nochebuena y se extinguen el treinta de diciembre. Los primeros humanos aparecen alrededor de las diez y media de la noche del último día.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "22:30 del 31 de diciembre", texto: "los primeros seres humanos." },
+          { fuerte: "23:59:20", texto: "la agricultura, y con ella las ciudades." },
+          { fuerte: "23:59:56", texto: "la escritura, en Sumeria y en Egipto." },
+          { fuerte: "El último segundo", texto: "todo lo demás: Grecia, Roma, América, la ciencia." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "Toda la historia de la que tenemos noticia ocupa los últimos diez segundos del último día del año.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sagan no lo usa para empequeñecer a nadie, sino para lo contrario: si todo lo que llamamos historia cabe en un parpadeo, entonces lo que hagamos en los próximos segundos —él escribía con miles de cabezas nucleares apuntadas— decide si la cosa sigue o se corta ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La misma operación la hace con el espacio: cientos de miles de millones de estrellas por galaxia, cientos de miles de millones de galaxias. La cifra que repite es que hay más estrellas en el universo que granos de arena en todas las playas de la Tierra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El calcio de tus huesos se fabricó dentro de una estrella que estalló",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo que Sagan considera central explica de dónde salen los elementos. En el Big Bang solo se formaron los más ligeros: hidrógeno y helio, y poco más. Todo lo demás —el carbono, el oxígeno, el hierro, el calcio— se cocinó después, dentro de las estrellas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una estrella pasa su vida fundiendo hidrógeno en helio, y cuando se le acaba empieza a fundir helio en carbono, y así hacia arriba en la tabla periódica hasta llegar al hierro, donde el proceso deja de dar energía. Las estrellas grandes acaban entonces en una explosión que reparte todo ese material por el espacio, y de esas nubes se forman después estrellas y planetas nuevos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El hierro de tu sangre y el calcio de tus huesos se fabricaron dentro de estrellas que estallaron antes de que existiera el sol.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la frase por la que más se le cita, y que en su boca no es poesía sino una descripción literal del origen de los átomos: estamos hechos de materia de estrellas. El sistema solar entero se formó hace unos cuatro mil seiscientos millones de años a partir de una nube que contenía los restos de generaciones anteriores de estrellas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sagan añade el otro extremo de la escala con el experimento de Miller y Urey, que en 1953 metieron en un matraz los gases que se suponían en la Tierra primitiva, les dieron descargas eléctricas durante una semana y encontraron aminoácidos, que son las piezas de las proteínas. No demostraba cómo empezó la vida; demostraba que sus ladrillos se fabrican solos con química corriente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La evolución se puede ver en los cangrejos de una bahía japonesa" },
+      {
+        b: "texto",
+        texto:
+          "Para explicar la selección natural sin abstracciones, Sagan cuenta la historia de los cangrejos Heike, de la bahía de Danno-ura, en Japón. En su caparazón se distingue algo que parece la cara de un samurái enfadado, y la leyenda dice que son los guerreros del clan Heike, muertos en una batalla naval del siglo XII.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación es más interesante que la leyenda. Durante siglos, los pescadores que sacaban un cangrejo con esa marca lo devolvían al mar por respeto, y se quedaban los demás. Generación tras generación, los caparazones que más se parecían a una cara tuvieron más descendencia. Los pescadores hicieron selección artificial sin proponérselo, y produjeron el dibujo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Basta con que algo influya en quién deja descendencia. Repetido muchas generaciones, esculpe una forma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sagan usa ese ejemplo pequeño para dar el salto grande: si unos pescadores consiguen eso en unos siglos, la naturaleza, con cuatro mil millones de años y sin ninguna intención, produce todo lo demás. Y recuerda un dato que sitúa a la especie: compartimos una parte muy grande del material genético con los primates más próximos, y todos los seres vivos de la Tierra usan el mismo código.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese detalle es el que a él le parece decisivo: que la vida terrestre entera comparta una sola química indica que venimos de un mismo origen, y hace más raro todavía que no sepamos si eso ha pasado en otro sitio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hay una ecuación para calcular cuántas civilizaciones podríamos oír" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre vida extraterrestre es el que hizo famoso a Sagan, y su interés está en cómo plantea la pregunta. Frank Drake propuso una ecuación que descompone el problema en factores: cuántas estrellas se forman, cuántas tienen planetas, en cuántos aparece vida, en cuántos esa vida se vuelve inteligente, cuántas de esas civilizaciones desarrollan tecnología capaz de emitir señales y —el factor decisivo— cuánto duran.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sagan es honesto con el estado de la cuestión: los primeros factores se pueden estimar con astronomía y los últimos no se pueden estimar en absoluto, porque tenemos un solo caso. La ecuación no da un número; sirve para saber qué es lo que no sabemos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El factor que decide si el universo está lleno de conversaciones o vacío es cuánto dura una civilización con tecnología.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí conecta con su preocupación de entonces. Si las civilizaciones tecnológicas tienden a destruirse poco después de conseguir la tecnología —él pensaba en las armas nucleares—, la galaxia estará llena de ruinas y de silencio. Si aprenden a durar, estará llena de vecinos. La respuesta a una pregunta astronómica depende de una cuestión política.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el mismo tramo defiende el escepticismo con una firmeza que hoy se agradece: dedica páginas a desmontar los ovnis, la astrología y las teorías sobre astronautas antiguos, y explica por qué una afirmación extraordinaria exige una prueba extraordinaria. Quería creer que hay alguien ahí fuera, y precisamente por eso no se permitía las pruebas malas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Venus es lo que le pasa a un planeta al que se le va el efecto invernadero",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sagan era planetólogo antes que divulgador, y su trabajo científico más citado explica por qué Venus está a más de cuatrocientos grados. Durante décadas se imaginó como una selva húmeda: es del tamaño de la Tierra, está algo más cerca del sol y sus nubes son muy espesas. Cuando se pudo medir, resultó ser el sitio más caliente del sistema solar, con una atmósfera de dióxido de carbono y lluvia de ácido sulfúrico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La causa es un efecto invernadero desbocado: la atmósfera deja pasar la luz y no deja salir el calor, y el proceso se realimenta hasta un punto sin retorno. Sagan lo usa como aviso, y en 1980 el aviso era mucho menos obvio que hoy: lo que le pasó a Venus es física, y la física funciona igual aquí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Venus no es una curiosidad astronómica: es el laboratorio donde se ve qué pasa cuando el efecto invernadero se descontrola.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al lado pone Marte, y su relato de las misiones Viking es también una lección de método: dos sondas hicieron experimentos para detectar vida, uno de ellos dio un resultado que parecía positivo y los demás no encontraron rastro de materia orgánica, así que la conclusión prudente fue que no había prueba. Sagan había defendido esas misiones y aceptó el resultado sin adornarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está la idea que más le importa del libro entero: la ciencia funciona porque tiene un mecanismo para descartar lo que a uno le gustaría que fuera verdad. Es la misma actitud del que en vez de creer lo de los pozos de Siena va y mide la sombra de un palo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta cómo hemos llegado a saber lo que sabemos del universo, y usa la astronomía como ejemplo de algo más general: que la única manera fiable de conocer es comprobar, y que ese hábito es reciente, frágil y se ha perdido antes. Por eso empieza con un bibliotecario midiendo sombras y no con el Big Bang.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es haber convencido a millones de personas de que esto se puede entender. El calendario cósmico, la idea de que estamos hechos de materia de estrellas y los cangrejos de la bahía japonesa son explicaciones que se recuerdan décadas después, y una generación entera de científicos dice que empezó ahí. Además defiende el escepticismo justo donde hace falta: en las cosas en las que a uno le gustaría creer.",
+      },
+      { b: "idea", texto: "Somos una manera que tiene el cosmos de conocerse a sí mismo." },
+      {
+        b: "texto",
+        texto:
+          "Qué ha envejecido. Las cifras: hoy la edad del universo se estima en unos trece mil ochocientos millones de años y no en quince mil, y desde 1995 se han confirmado miles de planetas fuera del sistema solar, cosa que en 1980 era una conjetura. La preocupación central del libro es el invierno nuclear, un escenario que Sagan mismo ayudó a modelar y cuyos cálculos se han discutido bastante desde entonces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay dos reproches que se le hacen con razón. Su relato de la caída de Alejandría carga contra el cristianismo de una manera más simple de lo que la historiografía sostiene hoy, y su cronología de la biblioteca mezcla episodios de siglos distintos. Y su tono, que es su mayor virtud, es también su mayor riesgo: hay páginas donde el asombro se convierte en sermón, y quien busque un manual de astronomía se impacientará, porque este libro nunca quiso serlo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  cosmos: COSMOS,
+  "1984": MIL_NOVECIENTOS_OCHENTA_Y_CUATRO,
   flow: FLOW,
   "busca-sentido": BUSCA_SENTIDO,
   mindset: MINDSET,

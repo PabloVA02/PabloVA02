@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  cosmos:
+    "Hace veintidós siglos, un bibliotecario de Alejandría midió el tamaño del planeta con dos palos y una sombra. Sagan empieza ahí porque su libro no va de lo que sabemos del universo, sino de cómo hemos llegado a saberlo.",
+
+  "1984":
+    "Winston Smith trabaja corrigiendo periódicos que ya se publicaron: si el Partido prometió que no bajaría la ración de chocolate y la ha bajado, él reescribe el original y lo quema. Miles de personas hacen lo mismo, con cuotas y formularios.",
+
   flow:
     "Csíkszentmihályi repartió buscapersonas que sonaban ocho veces al día para pillar a la gente en mitad de su vida y preguntarle cómo estaba. En cientos de miles de anotaciones encontró siempre el mismo estado.",
 

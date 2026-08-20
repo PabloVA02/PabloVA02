@@ -22,6 +22,8 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  cosmos: "Un viaje por el universo, la ciencia y nuestro lugar en él",
+  "1984": "Una novela sobre el poder y la verdad",
   flow: "Una psicología de la felicidad",
   "busca-sentido": "El testimonio de un psiquiatra en los campos de concentración",
   mindset: "La actitud del éxito",
