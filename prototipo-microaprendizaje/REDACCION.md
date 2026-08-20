@@ -566,6 +566,14 @@ frase, se continúa la del rótulo —aprenderás… esto—.
 
 ---
 
+## Las capturas, guardadas
+
+Las ocho tandas que mandó Pablo están en **`referencia/`**, reescritas a WebP
+para que quepan, con un índice que dice qué enseña cada una. No son un recuerdo
+de una conversación: son las pruebas de este documento, y se pueden volver a
+mirar cuando una regla parezca discutible. La de `referencia/odisea/` es la
+mejor escrita de todas y la que conviene mirar antes de empezar un libro.
+
 ## Dónde está esto
 
 - Los modelos terminados son **`SAPIENS`** y **`HOMO_DEUS`**, en

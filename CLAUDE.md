@@ -14,10 +14,19 @@ historias ilustradas).
 
 Ese documento manda sobre cualquier otra instrucción de estilo, venga de donde
 venga: de un comentario de código, de un recuerdo, de una conversación vieja o
-de lo que parezca razonable. Pablo lo dijo el 21 de agosto:
+de lo que parezca razonable.
+
+**Y las pruebas están en `prototipo-microaprendizaje/referencia/`**: las ocho
+tandas de capturas de Headway que mandó Pablo, guardadas para que no se pierdan
+con la ventana de contexto. Su `README.md` dice qué enseña cada una. Si hay
+tiempo para mirar una sola, la de `odisea/`, que es la mejor escrita.
+
+Pablo lo dijo el 21 de agosto:
 
 > «Debes saber, sin que te lo diga yo, que tienes que obedecer este tipo de
 > redacción, gramática, etc.»
+> «Cuando se te acabe la ventana de contexto debes ver todos estos ejemplos
+> para seguir haciéndolos así, que nunca se te olvide.»
 
 Sale de sus capturas de Headway y de sus correcciones sobre nuestro texto, y se
 actualiza cada vez que llega una captura nueva: **lo que enseñe una captura se
