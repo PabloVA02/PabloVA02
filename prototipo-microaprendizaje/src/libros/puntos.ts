@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  fahrenheit: [
+    "por qué nadie tuvo que prohibir los libros",
+    "qué son las paredes que le hablan a su mujer",
+    "por qué quitaron los porches de las casas",
+    "las tres cosas que hacen falta para pensar",
+    "por qué el jefe de bomberos ha leído más que nadie",
+  ],
+
+  "mundo-feliz": [
+    "cómo se fabrican noventa y seis personas de un óvulo",
+    "por qué se enseña a los niños a odiar las flores",
+    "para qué sirve de verdad el soma",
+    "por qué está prohibido querer a alguien en concreto",
+    "qué pidió el Salvaje cuando pudo pedir cualquier cosa",
+  ],
+
   "republica-platon": [
     "qué desafío plantea el anillo de Giges",
     "por qué construye una ciudad para hablar de una persona",

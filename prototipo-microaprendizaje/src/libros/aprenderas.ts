@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  fahrenheit:
+    "Un bombero que quema libros empieza a leerlos. Y lo que cuenta el libro no es que un gobierno los prohibiera: la gente dejó de leer sola, y la ley llegó al final como un trámite.",
+
+  "mundo-feliz":
+    "Una dictadura que nadie combate porque nadie la sufre: fabrica a la gente por castas, le enseña a querer su sitio y le da una pastilla para los malos ratos. A cambio se queda con el arte y la ciencia.",
+
   "republica-platon":
     "Empieza con una pregunta incómoda: si un anillo te hiciera invisible, ¿para qué seguir siendo justo? Para contestarla, Platón construye una ciudad entera y acaba describiendo cómo una democracia puede acabar en tiranía.",
 

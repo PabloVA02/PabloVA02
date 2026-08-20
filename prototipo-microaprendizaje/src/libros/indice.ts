@@ -37,7 +37,6 @@ const CARGADORES: Record<string, Cargador> = {
   respira: () => import("./ciencia-salud").then((m) => m.RESPIRA),
 
   /* Literatura */
-  fahrenheit: () => import("./literatura").then((m) => m.FAHRENHEIT),
 
   /* Arte */
   "roba-artista": () => import("./arte").then((m) => m.ROBA_ARTISTA),
@@ -66,7 +65,6 @@ const CARGADORES: Record<string, Cargador> = {
   "aliento-aire": () => import("./salud").then((m) => m.ALIENTO_AIRE),
 
   /* Literatura — clásicos */
-  "mundo-feliz": () => import("./literatura").then((m) => m.MUNDO_FELIZ),
   metamorfosis: () => import("./literatura").then((m) => m.METAMORFOSIS),
   frankenstein: () => import("./literatura").then((m) => m.FRANKENSTEIN),
   "gran-gatsby": () => import("./literatura").then((m) => m.GRAN_GATSBY),

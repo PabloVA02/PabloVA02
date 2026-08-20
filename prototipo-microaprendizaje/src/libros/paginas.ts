@@ -14482,7 +14482,475 @@ const REPUBLICA_PLATON: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Un mundo feliz, en ocho páginas.
+
+   Breve. Seis argumentos y una sola tesis debajo.
+
+   Registro narrativo del apartado 3 bis: titulares cortos de imagen y la
+   afirmación en la primera frase. Caja del rayo hablándole al lector,
+   como en la captura de La Odisea.
+
+   La prueba del título tapado se pasa con nombres y cifras que solo están
+   aquí: los noventa y seis gemelos de un óvulo, las sesenta y dos mil
+   repeticiones, el gramo de soma, la frase del Salvaje reclamando el
+   derecho a ser desgraciado.
+
+   Y la conclusión dice lo que el propio Huxley reconoció en 1946 sobre su
+   propio libro, que es lo que ningún resumen cuenta.
+   -------------------------------------------------------------------------- */
+
+const MUNDO_FELIZ: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "La distopía sin botas" },
+      {
+        b: "texto",
+        texto:
+          "En casi todas las pesadillas políticas alguien te obliga a algo. Aquí no. En el mundo que imagina Huxley nadie tortura, nadie censura y nadie vigila: la gente es feliz, tiene todo el sexo que quiere, no envejece de aspecto, trabaja poco y, si algo le incomoda, se toma una pastilla que le quita el mal rato sin resaca. El sistema no se sostiene sobre el miedo. Se sostiene sobre el gusto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Publicado en 1932, el libro se lee hoy como el reverso exacto de 1984, y la comparación tiene una formulación conocida: Orwell temía a los que prohibirían los libros; Huxley temía que no hiciera falta prohibirlos porque nadie quisiera leer ninguno. Uno describe un régimen que te quita lo que quieres; el otro, uno que te lo da todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El escenario es Londres seiscientos años en el futuro, en un estado mundial gobernado por diez administradores, con la sociedad dividida en cinco castas fabricadas en serie y una religión civil que venera a Henry Ford. No hay familias, ni parejas estables, ni madres: la palabra madre es obscena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren cómo funciona ese mundo por dentro: cómo se fabrica a la gente, cómo se le enseña a querer su sitio, para qué sirve la pastilla, por qué el amor está prohibido, qué pasa cuando aparece alguien criado fuera y qué respondió el hombre que manda cuando le preguntaron por qué habían tirado el arte y la ciencia por la borda.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El control más eficaz no es el que te quita lo que quieres: es el que te enseña a querer lo que te van a dar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Noventa y seis personas de un solo óvulo" },
+      {
+        b: "texto",
+        texto:
+          "El libro abre con una visita guiada a una fábrica de seres humanos, y esa elección lo dice todo: lo primero que se enseña de este mundo es su línea de montaje. Nadie nace de una madre. Los óvulos se fecundan en bandejas, y a los que van a producir castas bajas se les aplica un procedimiento que los obliga a dividirse una y otra vez: de un solo huevo salen hasta noventa y seis embriones idénticos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después viene lo que decide tu vida entera. Los embriones se transportan en botellas por una cinta de doscientos sesenta metros que tarda nueve meses en recorrerse, y por el camino se les da lo que necesita su casta y se les quita el resto. A los de arriba se los cuida; a los de abajo se les reduce el oxígeno y se les añade alcohol, porque un cerebro más pequeño es más fácil de contentar. Se los prepara también para el calor o para el frío según la fábrica donde vayan a trabajar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cinco castas, de Alfa a Épsilon, con la letra griega puesta antes de existir. Y ahí está la vuelta de tuerca: la desigualdad de este mundo no es una injusticia que alguien tenga que justificar, es una especificación técnica. No hay nada que reclamar, porque el que barre las calles fue construido para barrer y no le apetece hacer otra cosa. El director de la fábrica lo resume con una frase de manual: el secreto de la felicidad es que a la gente le guste lo que tiene que hacer de todos modos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una desigualdad que se fabrica antes de nacer no necesita justificarse: se convierte en una característica del producto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Sesenta y dos mil veces" },
+      {
+        b: "texto",
+        texto:
+          "Con la biología no basta, así que la otra mitad del sistema es pedagógica y funciona mientras duermes. En los dormitorios de los niños, unos altavoces repiten toda la noche frases sobre lo estupendo que es ser de tu casta y lo poco que te gustaría ser de otra. No se argumenta nada: se repite. El libro da la cifra exacta de una de esas lecciones: sesenta y dos mil cuatrocientas repeticiones, y con eso una frase se convierte en una verdad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para lo que no se puede enseñar durmiendo está el método antiguo. En una escena que cuesta olvidar, sientan en el suelo a un grupo de bebés de ocho meses delante de unos libros abiertos y unos jarrones de rosas. Cuando los niños gatean hacia ellos, encantados, suena una alarma ensordecedora y les dan una descarga eléctrica por el suelo. A la segunda vez ya no hace falta la descarga: los libros y las flores les producen pánico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo del odio a las flores es la parte más fría del capítulo, y es económica. Un ciudadano que ama el campo se va al campo, y en el campo no consume nada. Así que se les enseña a odiar la naturaleza y a adorar los deportes que requieren aparatos caros. Cada gusto de esa sociedad está diseñado para que alguien compre algo. Y las frases no son órdenes, son halagos: a los Beta se les dice que los Alfa trabajan demasiado y que los Gamma son tontos, así que cada uno se acuesta contento con su letra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie te discute una idea que has oído sesenta mil veces mientras dormías: te limitas a estar de acuerdo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un gramo a tiempo" },
+      {
+        b: "texto",
+        texto:
+          "Aun así, algo se escapa. Un mal día, una frase que hace pensar, un rato de tristeza sin causa. Para eso está el soma, una droga que el estado reparte gratis en la salida del trabajo y que hace exactamente lo que promete: quita el mal rato, no deja resaca y no estropea el rendimiento del día siguiente. La consigna que todos repiten es que un gramo a tiempo ahorra nueve disgustos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo importante es cómo se usa. Nadie se droga aquí para vivir aventuras: se droga para no tener ninguna. Cuando a un personaje le pasa algo desagradable, los demás no le preguntan qué le ocurre; le ofrecen soma. Y quien lo rechaza incomoda a todo el mundo, porque estar mal en público se ha convertido en una falta de educación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está la mejor idea del libro y la más incómoda de mirar hoy. Un régimen que reprime crea disidentes; un régimen que ofrece una salida química no los crea, porque no deja que el malestar dure lo suficiente para convertirse en una idea. El descontento necesita tiempo, y el soma es un mecanismo para que ningún descontento cumpla una hora de vida. El soma tiene además su versión larga: unas vacaciones de varios días, tan hondas que quien vuelve ha perdido la cuenta del tiempo. La madre del Salvaje muere así, con la dosis puesta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una incomodidad que se apaga en cinco minutos nunca llega a convertirse en una pregunta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Todos pertenecen a todos" },
+      {
+        b: "texto",
+        texto:
+          "En este mundo el sexo es constante, obligatorio y sin consecuencias: hay juegos eróticos infantiles supervisados, anticoncepción entrenada como un ejercicio de gimnasia y una norma social clara que dice que todo el mundo pertenece a todo el mundo. Salir cuatro meses seguidos con la misma persona está mal visto. Lo que está prohibido no es acostarse con nadie: es preferir a alguien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo lo explica el propio libro y no es moral, es de ingeniería. Una pareja estable, unos padres, un hijo, son un vínculo que compite con el estado y que produce lo peor que puede producirse aquí: intensidad. Quien quiere a una persona concreta tiene algo que perder, y quien tiene algo que perder es inestable. La familia se describe como un lugar sucio, estrecho y ruidoso, lleno de sentimientos que nadie ha pedido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso las palabras padre y madre son obscenidades que hacen reír o sonrojarse, y el amor romántico solo existe en los libros antiguos que nadie lee. Huxley no está describiendo una orgía: está describiendo una sociedad que ha eliminado el apego para eliminar el dolor, que es la misma operación que se hace con el soma pero aplicada a las personas. La escena que lo remata es la del bebé de la reserva mamando: los visitantes se apartan con asco, como quien ve algo indecente. En este mundo lo obsceno no es el sexo, es el vínculo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Prohibir el apego no es puritanismo al revés: es quitar de en medio lo único que puede hacerte elegir algo distinto de lo que te ofrecen.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El hombre que llegó de fuera" },
+      {
+        b: "texto",
+        texto:
+          "La trama arranca de verdad cuando dos ciudadanos visitan una reserva en Nuevo México donde se ha dejado vivir a la gente a la antigua: con enfermedades, con vejez, con religión y con partos. Allí encuentran a una mujer del mundo civilizado que quedó embarazada por accidente hace años y no pudo volver, y a su hijo, John, nacido y criado allí. Se lo llevan a Londres como una curiosidad de feria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "John ha aprendido a leer con un volumen completo de Shakespeare que apareció en la reserva, y esa es la broma seria del libro: el único personaje capaz de decir lo que siente es el único que ha leído. Al llegar a Londres, lo que ve no le parece un paraíso; le parece una guardería enorme llena de gente que no ha sufrido nunca y que por eso no ha crecido nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su enfrentamiento con el administrador Mustafá Mond es la escena central. John no pide libertad de expresión ni elecciones: pide otra cosa. Reclama el derecho a envejecer, a enfermar, a tener miedo, a que le pasen cosas malas. Mond va enumerando lo que eso implica —cáncer, hambre, dolor de muelas, incertidumbre— y John dice que sí a todo. Reclama, con esas palabras, el derecho a ser desgraciado. Y no le va bien. Lo pasean por fiestas, lo enseñan a los curiosos, y cuando se niega a hacer de mono amaestrado, el interés se convierte en enfado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El derecho a que te pasen cosas malas parece un mal negocio hasta que ves lo que hay que entregar para renunciar a él.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que se pagó por la estabilidad" },
+      {
+        b: "texto",
+        texto:
+          "El administrador Mond no es un fanático ni un tonto: es un hombre culto que guarda en su caja fuerte los libros prohibidos, que los ha leído todos y que fue físico antes de gobernar. Y su respuesta a John es lo mejor del libro, porque no niega nada. Admite que tirar el arte fue una pérdida y explica con precisión por qué había que hacerlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tragedia, dice, necesita inestabilidad social: no se puede escribir Otelo en un mundo sin celos, sin familia y sin muerte prematura. Y no se puede tener alta cultura y felicidad garantizada a la vez, así que eligieron. Cambiaron el arte por el cine sensorial y la ciencia por la técnica útil, y lo dice sin rodeos: la verdad y la belleza se sacrificaron por la comodidad y la felicidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle que casi nadie recuerda es que la ciencia también está controlada. Mond cuenta que él mismo estuvo a punto de ser desterrado por investigar por su cuenta y que la investigación libre está limitada, porque un descubrimiento nuevo desordena lo que ya funciona. Un mundo dedicado a la estabilidad no puede permitirse ni el arte ni la curiosidad, que son las dos cosas que mueven algo de sitio. A los disidentes, por cierto, no los matan: los mandan a una isla llena de gente interesante. Es el chiste más cruel del libro y el único castigo que un lector podría envidiar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La estabilidad no se paga con libertad política: se paga con todo lo que podría cambiar algo, y ahí entra la ciencia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Un mundo feliz describe una dictadura que nadie combate porque nadie la sufre: fabrica a sus ciudadanos por castas, les enseña mientras duermen a querer el sitio que les tocó, les da sexo sin apego y una pastilla para los malos ratos, y a cambio se queda con el arte, la ciencia, la familia y la posibilidad de que algo cambie. Su tesis es que la libertad no se pierde solo por la fuerza: también se entrega a cambio de comodidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es haber imaginado, en 1932, el mecanismo que hoy resulta más reconocible. Escribió sobre el entretenimiento continuo, el consumo como deber cívico, la química para regular el ánimo y la sexualidad sin vínculo cuarenta años antes de que nada de eso fuera cotidiano. Y lo hizo sin villanos: el administrador tiene razones y las explica bien.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Reclamo el derecho a ser desgraciado, dice el Salvaje, y esa frase es todo el libro en ocho palabras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Como novela es floja: los personajes existen para sostener una idea y se nota, las mujeres son poco más que cuerpos disponibles, y el desenlace —el Salvaje azotándose mientras una multitud lo convierte en espectáculo, y su suicidio— resuelve con melodrama un debate que estaba muy bien planteado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una corrección que hizo el propio autor. En el prólogo que escribió en 1946, catorce años después, Huxley reconoció el fallo de fondo: al Salvaje solo le ofrecía dos salidas, la locura del mundo civilizado o el primitivismo de la reserva, y faltaba la tercera, una comunidad cuerda donde se pudiera vivir con ciencia y sin castas. Dijo que si volviera a escribirlo la incluiría. Añadió algo más: que la profecía iba a llegar mucho antes de lo que él había calculado.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   Fahrenheit 451, en ocho páginas.
+
+   Breve. Registro narrativo: titulares cortos de imagen.
+
+   El malentendido de este libro es tan grande que ocupa la primera página
+   y la conclusión: TODO EL MUNDO cree que va de un gobierno que prohíbe
+   libros, y el propio libro dice lo contrario en el discurso de Beatty y
+   Bradbury lo repitió cuarenta años. Va de una sociedad que dejó de leer
+   sola, y la ley llegó después.
+
+   Caso (d) de la 4 bis, y aquí es antológico: la editorial censuró el
+   libro sobre la censura durante trece años sin decírselo al autor.
+
+   Lo que casi nadie cuenta y aquí sí está: las tres cosas que dice Faber
+   que tienen los libros, que es la mejor página del libro y no se cita
+   nunca.
+   -------------------------------------------------------------------------- */
+
+const FAHRENHEIT: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nadie prohibió los libros" },
+      {
+        b: "texto",
+        texto:
+          "La imagen que ha quedado de este libro es la de un estado que quema bibliotecas. La imagen es correcta y la explicación es falsa, y el libro lo aclara en su mejor discurso: no hubo ningún decreto. La gente dejó de leer sola, poco a poco, y cuando ya no leía nadie, quemar lo que quedaba no costó nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo cuenta Beatty, el jefe de bomberos, y merece la pena seguir la cadena porque no ha envejecido ni un día. Primero las novelas se resumieron; luego los resúmenes se resumieron; los clásicos pasaron a ser una página, después un párrafo, después un titular. Al mismo tiempo, cada grupo se fue ofendiendo con un libro y ese libro fue desapareciendo para no molestar. Nadie mandó nada: se fue quitando lo incómodo hasta que no quedó nada que no fuera cómodo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En ese mundo, los bomberos ya no apagan fuegos. Las casas son ignífugas, así que el oficio cambió de sentido: van a las casas donde hay libros denunciados y los queman con queroseno. El título es la temperatura a la que arde el papel, un dato que Bradbury preguntó por teléfono a un jefe de bomberos porque no lo sabía. Todo eso está contado desde dentro de una casa corriente, la de un hombre de treinta años que hasta la primera página no había tenido nunca un mal día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren cómo es esa vida: las paredes que hablan, la vecina que pregunta cosas raras, la mujer que enciende su propia cerilla, las tres cosas que hacen falta para pensar y qué pasa cuando alguien decide aprenderse un libro de memoria.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Para acabar con los libros no hace falta prohibirlos: basta con que la gente deje de echarlos de menos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las paredes que hablan" },
+      {
+        b: "texto",
+        texto:
+          "Montag vuelve a casa y su mujer está en el salón, sentada delante de tres paredes convertidas en pantallas. Quiere la cuarta y lleva meses pidiéndola, aunque cueste un tercio del sueldo anual. Los programas la incluyen: cada cierto rato los personajes se callan y le dejan un hueco para decir su frase, con el guion enviado por correo, y ella llama a eso la familia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando no está delante de las paredes lleva unos auriculares diminutos, como conchas de mar, que le meten música y voces en los oídos toda la noche. Duerme con ellos puestos. Montag no recuerda cuándo fue la última vez que hablaron de algo, y en la primera página del libro descubre que tampoco recuerda dónde se conocieron; ella tampoco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Todo esto está escrito en 1953, cuando la televisión llevaba cinco años en las casas americanas y era una caja pequeña en blanco y negro. Bradbury no acertó con la tecnología por casualidad: acertó porque no estaba describiendo aparatos, estaba describiendo qué le pasa a una casa cuando el entretenimiento no para nunca. La escena en la que Mildred se toma un frasco entero de pastillas y no se acuerda de haberlo hecho es la consecuencia, no el drama. El propio Bradbury contaba que escribió el libro entero en el sótano de una biblioteca, en una máquina de escribir de alquiler que costaba diez centavos la media hora, y que le salió por nueve dólares y medio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El ruido continuo no impide pensar por lo que dice: lo impide porque no deja ni un hueco de silencio donde empezar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La chica que preguntaba" },
+      {
+        b: "texto",
+        texto:
+          "Todo empieza con una vecina de diecisiete años, Clarisse, que aparece una noche andando por la acera, cosa que ya resulta rara. Le pregunta a Montag si es feliz. Le cuenta que su familia se sienta a hablar por las noches, que le gusta oler las hojas y que en el colegio no dejan preguntar nada: se contesta a lo que ponen en la pantalla y se pasa al siguiente tema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y le explica por qué la gente ya no se fija en las cosas. Los carteles de las carreteras miden sesenta metros de largo, dice, porque los coches van tan rápido que uno de seis no se vería. Han quitado los porches de las casas en las reformas, porque un porche invita a sentarse y a mirar a la gente pasar, y eso deja demasiado tiempo para pensar. Los bancos de los parques también.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Clarisse desaparece a las pocas semanas: la atropella un coche. Su función en el libro no es ser un personaje, es ser la primera pregunta que a Montag no le habían hecho nunca, y con eso basta para que empiece a mirar su propia casa como si fuera de otro. Y hay un dato que la novela suelta de pasada: cuando Montag pregunta por su familia, Clarisse le cuenta que a su tío lo detuvieron una vez por ir andando y otra por conducir demasiado despacio, a sesenta por hora, delante de la policía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie cambia de vida por un argumento: se cambia porque alguien te hace una pregunta que no sabes contestar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La mujer que encendió su propia cerilla" },
+      {
+        b: "texto",
+        texto:
+          "La escena que rompe a Montag no es una discusión. En una intervención rutinaria, los bomberos encuentran una casa con una biblioteca entera y a una mujer mayor dentro que se niega a salir. Los libros se apilan, se riega el queroseno, se le pide que se marche. Ella no se mueve. Cuando ya están todos en la puerta, saca una cerilla de cocina y la enciende ella misma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Antes de eso dice una frase que Montag no entiende y que le persigue el resto del libro: algo sobre portarse como un hombre, porque hoy encenderán en Inglaterra una vela que no se apagará jamás. Son las palabras que, según la tradición, dijo un obispo a otro mientras los quemaban vivos en Oxford en 1555, y ella las está usando en su propio idioma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que le pasa a Montag ahí es concreto y físico. Se lleva un libro escondido en la chaqueta sin decidirlo, y en casa se le queda pegada la pregunta que hace que todo lo demás se derrumbe: tiene que haber algo en un libro que él no ha visto, porque nadie se deja quemar viva por nada. Esa noche no puede ir a trabajar. La casa de aquella mujer no la denunció ningún inspector: la denunció una vecina, como casi todas. En este sistema el trabajo sucio lo hacen los de al lado y los bomberos solo llegan con el queroseno.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien está dispuesto a morir por algo que tú tiras a la basura, lo raro deja de ser esa persona y pasas a serlo tú.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las tres cosas que hacen falta" },
+      {
+        b: "texto",
+        texto:
+          "Montag busca a Faber, un viejo profesor de literatura al que conoció en un parque y que lleva años escondido. Y Faber le dice algo que casi ningún resumen de este libro cuenta, aunque es la página que mejor lo explica todo: los libros no tienen nada mágico. Lo que importa no es el objeto, es lo que el objeto obliga a hacer.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Calidad de la información", texto: "textura, poros, detalle, la vida contada con sus arrugas y no limada hasta quedarse en un titular." },
+          { fuerte: "Tiempo para digerirla", texto: "un libro se puede cerrar; una pantalla sigue hablando y no espera a nadie. Lo que hace falta es el rato de pensar, no el rato de recibir." },
+          { fuerte: "El derecho a actuar", texto: "poder hacer algo con lo que las dos primeras te han enseñado. Sin eso, las otras dos son un pasatiempo." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "Con ese criterio, dice Faber, sus paredes-televisor podrían dar lo mismo que un libro si dejaran los tres huecos. No los dejan. Y de ahí sale la parte útil del libro fuera de la ficción: el enemigo no es una pantalla, es cualquier cosa que ocupe todo el tiempo sin dejar un rato de silencio ni margen para hacer algo con lo que has entendido. El plan que montan los dos es tan casero como todo lo demás: un auricular diminuto en la oreja de Montag para que el viejo pueda hablarle desde su casa. Es la única tecnología que en este libro se usa para pensar y no para lo contrario.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No basta con recibir buena información: hacen falta el rato de masticarla y el permiso para hacer algo con ella.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hombres que son libros" },
+      {
+        b: "texto",
+        texto:
+          "El final lleva a Montag fuera de la ciudad, con los perseguidos que viven junto a las vías del tren. Son vagabundos, y también fueron catedráticos, escritores y médicos. Cada uno de ellos ha memorizado un libro entero, así que uno es la República de Platón, otro es un evangelio, otro los ensayos de un filósofo. No conservan volúmenes: cuando muere uno, otro se aprende su libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea no es sentimental, es práctica. Un libro escondido se encuentra; una cabeza no se registra. Y trae de vuelta la manera más antigua de guardar una historia, que es la que sostuvo la Odisea antes de que existiera el alfabeto griego: alguien que se la sabe y alguien dispuesto a escucharla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entonces cae la bomba. La guerra que llevaba todo el libro sonando de fondo, en anuncios de radio que nadie escuchaba, arrasa la ciudad en unos segundos con Mildred y sus paredes dentro. Los hombres-libro se levantan y echan a andar hacia los escombros, y el que va delante recita de memoria un texto sobre el árbol de la vida que da doce frutos y cuyas hojas sirven para curar a las naciones. Antes de eso hay una humillación que retrata al país entero: la caza de Montag se retransmite en directo, y como los perseguidores lo pierden, la televisión mata en cámara a un desconocido cualquiera que pasaba por la calle para que el programa termine bien.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo único que no se puede quemar es lo que alguien se ha aprendido de memoria y está dispuesto a contarle a otro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El jefe que había leído" },
+      {
+        b: "texto",
+        texto:
+          "Queda el personaje más interesante y el que suele leerse mal. Beatty, el jefe de los bomberos, no es un ignorante que odia lo que no entiende: cita a Shakespeare, a Swift y a la Biblia de memoria, discute con Montag a golpe de referencias y sabe perfectamente lo que hay dentro de lo que quema. Ha leído más que nadie en el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es coherente y por eso incomoda. Dice que los libros no ponen de acuerdo a la gente: la enfrentan, la hacen sentirse tonta, la dejan triste. Que un mundo sin ellos es un mundo sin envidia y sin discusiones, donde todos son iguales porque nadie sabe más. Y que la gente pidió esto, no se lo impusieron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle que el libro deja caer sin subrayarlo. Cuando Montag se enfrenta a él, Beatty no se defiende: se queda quieto provocándole, y muere. Bradbury sugirió después que aquello fue un suicidio, el de un hombre que se sabía los libros de memoria y llevaba media vida quemándolos. Su historia también explica el oficio: cuenta que los bomberos llevan generaciones haciendo esto y que el reglamento que recitan de memoria tiene un artículo primero muy corto, responder deprisa a la alarma, y un artículo cuarto que dice que no se discute.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El censor más eficaz no es el que no ha leído: es el que ha leído y ha decidido que la gente vive mejor sin eso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Fahrenheit 451 cuenta cómo un bombero que quema libros se convierte en alguien que se aprende uno de memoria, y sostiene una idea que suele contarse al revés: la censura llegó al final y casi como un trámite, después de que la gente sustituyera la lectura por un entretenimiento que no para. La prohibición no fue la causa, fue el remate.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, además del susto, es un criterio que se puede usar hoy: los tres requisitos de Faber. Información con textura, tiempo para pensarla y permiso para hacer algo con ella. Sirve para juzgar un libro, un periódico, una pantalla o una tarde entera, y no depende del soporte.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hace falta quemar libros para destruir una cultura: basta con conseguir que la gente deje de leerlos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La prosa va cargada de metáforas y a veces se le va la mano; Mildred es una caricatura sin vida interior y las mujeres del libro, en general, son o bobas o santas; y el final, con la bomba providencial que borra el problema en lugar de resolverlo, es la salida más fácil de todas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que pasó después es difícil de superar. Bradbury pasó cuarenta años repitiendo que su libro no iba de censura de estado sino de televisión, y llegó a marcharse de una clase universitaria discutiéndolo con los alumnos. Mientras tanto, entre 1967 y 1979 su propia editorial vendió a los colegios una edición expurgada —sin tacos, sin las escenas incómodas, con setenta y cinco pasajes tocados— y no se lo dijo. Durante trece años, el libro sobre la censura circuló censurado por su propio editor.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  fahrenheit: FAHRENHEIT,
+  "mundo-feliz": MUNDO_FELIZ,
   "republica-platon": REPUBLICA_PLATON,
   odisea: ODISEA,
   "cerebro-buda": CEREBRO_BUDA,
