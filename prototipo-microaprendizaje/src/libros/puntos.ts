@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "steve-jobs": [
+    "qué era el campo de distorsión de la realidad",
+    "por qué lo echaron de su propia empresa en 1985",
+    "cómo salvó Apple cancelando casi todos sus productos",
+    "qué entendía él por simplicidad",
+    "por qué tardó nueve meses en operarse",
+  ],
+
   hobbit: [
     "por qué la aventura empieza con un contrato",
     "cómo se le habla a un dragón para salir vivo",

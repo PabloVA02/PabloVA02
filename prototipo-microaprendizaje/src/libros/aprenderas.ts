@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "steve-jobs":
+    "La biografía que Jobs encargó y no quiso leer antes de publicarse. Cuenta cómo fundó Apple, cómo lo echaron, qué hizo en los once años fuera y qué costó todo aquello en personas.",
+
   hobbit:
     "Un señor cómodo de cincuenta años firma un contrato como ladrón profesional y se va con trece enanos a quitarle el tesoro a un dragón. Vuelve siendo otro y con mucho menos dinero del prometido.",
 

@@ -82,7 +82,6 @@ const CARGADORES: Record<string, Cargador> = {
   /* Economía */
   freakonomics: () => import("./economia").then((m) => m.FREAKONOMICS),
   factfulness: () => import("./economia").then((m) => m.FACTFULNESS),
-  "steve-jobs": () => import("./economia").then((m) => m.STEVE_JOBS),
 
   /* Psicología */
   educada: () => import("./psicologia").then((m) => m.EDUCADA),

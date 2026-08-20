@@ -2073,22 +2073,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "steve-jobs",
-    titulo: "Steve Jobs",
-    autor: "Walter Isaacson",
-    ano: 2011,
-    gancho: "Le pidió a Isaacson que la escribiera y le prometió no leerla antes de publicarse. Cumplió.",
-    porQue: "Es la biografía autorizada que no le deja bien, y conviene saber qué documenta con nombres y fechas y qué se le ha reprochado desde dentro de Apple.",
-    minutos: 26.1,
-    capitulos: [
-      { titulo: "La llamada de 2004", minutos: 5.1 },
-      { titulo: "El chico que devolvía botellas", minutos: 5.3 },
-      { titulo: "El campo de distorsión de la realidad", minutos: 5.3 },
-      { titulo: "Los nueve meses de zumos", minutos: 5.2 },
-      { titulo: "Lo que el libro no cuenta", minutos: 5.3 },
-    ],
-  },
-  {
     id: "factfulness",
     titulo: "Factfulness",
     autor: "Hans Rosling",

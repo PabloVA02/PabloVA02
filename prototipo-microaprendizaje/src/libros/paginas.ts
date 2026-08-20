@@ -12663,7 +12663,367 @@ const HOBBIT: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Steve Jobs, en doce páginas.
+
+   Amplio. Son seiscientas páginas y cuarenta entrevistas con el
+   protagonista; los argumentos independientes salen diez sin forzar nada.
+
+   El riesgo de este libro es doble y las dos caras están escritas ya mil
+   veces: la hagiografía del genio y el ajuste de cuentas con el déspota.
+   La regla 5 obliga a lo otro: contar lo que el libro sostiene, incluida
+   la parte en que documenta la crueldad sin resolver si hacía falta, y
+   decir en la conclusión que Cook y Ive dijeron públicamente que este
+   retrato no era su jefe.
+
+   Tercera persona: es una biografía, no un manual de empresa. La segunda
+   persona aquí sonaría a curso de liderazgo, que es exactamente el uso
+   que mucha gente le ha dado a este libro.
+   -------------------------------------------------------------------------- */
+
+const STEVE_JOBS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El biografiado pidió una sola cosa: no leer el libro antes de que se publicara",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2004, después de operarse de un cáncer, Steve Jobs llamó a Walter Isaacson y le pidió que escribiera su biografía. Isaacson puso una condición y Jobs aceptó otra: habría acceso total —más de cuarenta entrevistas en dos años, además de un centenar de personas de su entorno, incluidos los que lo detestaban— y a cambio Jobs no tendría ningún control sobre el resultado ni lo leería antes de que saliera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso explica el tono del libro y también su valor. No es una biografía autorizada de las que limpian: la mujer, la hija a la que negó, los socios a los que dejó sin acciones y los empleados a los que humilló hablan con nombre y apellidos. Y no es tampoco un ajuste de cuentas: el mismo libro documenta por qué mucha de aquella gente volvería a trabajar con él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro salió diecinueve días después de su muerte, en octubre de 2011, y se convirtió en el manual de cabecera de una generación entera de empresarios, para bien y para mal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que sostiene: cómo funcionaba su manera de forzar la realidad, por qué lo echaron de su propia empresa a los treinta años, qué aprendió en los once años de destierro, cómo salvó Apple diciendo que no, por qué se empeñó en controlar el aparato entero, qué entendía él por simplicidad, cuánto costó todo aquello en personas y por qué tardó nueve meses en operarse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La biografía no pregunta si Jobs era buena persona: pregunta si su manera de trabajar y su manera de tratar a la gente se podían separar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El campo de distorsión de la realidad no era una metáfora: era un método",
+      },
+      {
+        b: "texto",
+        texto:
+          "El nombre se lo puso un ingeniero del primer Macintosh, sacado de un episodio de Star Trek, y en Apple se usaba como término técnico. Consistía en esto: Jobs afirmaba con absoluta convicción que algo imposible se podía hacer, y lo repetía hasta que la gente que tenía delante se lo creía. A un programador que decía necesitar dos semanas le explicaba que aquello se hacía en dos días, y a veces se hacía en dos días.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro reúne los dos lados sin escoger. Del lado bueno: arrancaron de ahí el arranque del Macintosh en un tiempo que los ingenieros consideraban imposible, la pantalla del primer iPhone en cristal en vez de plástico con seis meses de plazo, y decenas de personas que aseguran haber hecho el mejor trabajo de su vida bajo esa presión. Del lado malo: proyectos hundidos por plazos irreales, gente quemada y una relación con la verdad bastante flexible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación que da el libro no es mística. Jobs no engañaba a los demás: se lo creía él primero. Su capacidad para decidir que un obstáculo no existía era la misma que usaba para negar una enfermedad, una paternidad o una mala noticia. Era una sola facultad aplicada a cosas muy distintas, y por eso funcionaba tan bien en un laboratorio y tan mal en un hospital. Su socio Steve Wozniak lo resumió mejor que nadie: era irritante, era falso y funcionaba, y quien trabajaba con él acababa haciendo cosas que no se creía capaz de hacer.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La misma facultad que le permitía no aceptar un plazo imposible le permitía no aceptar un diagnóstico.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo echaron de su propia empresa a los treinta años, y el libro sostiene que se lo merecía",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1985, después de que el Macintosh vendiera mucho menos de lo prometido, la junta de Apple le quitó todas sus funciones y se las dio a John Sculley, el directivo al que el propio Jobs había fichado dos años antes con la frase más famosa de su carrera: si prefería seguir vendiendo agua azucarada o venir a cambiar el mundo. Jobs intentó dar un golpe interno, perdió y se marchó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro no lo cuenta como una injusticia. Detalla lo que hacía con el equipo del Macintosh —insultos en las reuniones, cambios de opinión constantes, un aparato caro y lento que además no era compatible con nada— y las cuentas del resto de la empresa, que sostenía sus gastos con el Apple II mientras él llamaba idiotas a los que lo fabricaban. La junta no despidió a un visionario incomprendido: despidió a un jefe que estaba rompiendo la empresa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es lo que Jobs sacó de aquello, y no fue humildad. Él mismo lo resumió años después en una charla: que lo echaran fue lo mejor que le pasó, porque el peso de tener éxito se cambió por la ligereza de volver a empezar. Los cinco años siguientes fueron los más creativos de su vida, dijo, y también los más caros. El propio Sculley, el hombre que lo sustituyó, terminó admitiendo años después que aquella victoria fue el peor error de su carrera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No lo echaron por adelantarse a su tiempo: lo echaron porque era un mal jefe con un producto caro que no vendía.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "NeXT fue un fracaso caro que once años después salvó a Apple" },
+      {
+        b: "texto",
+        texto:
+          "Su siguiente empresa, NeXT, hizo el ordenador perfecto según sus criterios: un cubo negro de magnesio con las esquinas exactas, un sistema operativo muy por delante de su época y un precio que ninguna universidad podía pagar. Vendió unas decenas de miles de unidades en toda su historia. Jobs se gastó su fortuna y la de sus inversores, y llegó a discutir durante semanas sobre el acabado del interior de una carcasa que nadie iba a abrir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Como negocio fue un desastre. Como laboratorio fue otra cosa: aquel sistema operativo era sólido, moderno y estaba terminado, y en diciembre de 1996 Apple, que llevaba años intentando fabricar uno nuevo sin conseguirlo, compró NeXT por más de cuatrocientos millones de dólares. Lo que compraba en realidad era el software, y de paso volvía el fundador.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquel sistema es, con reformas, el que llevan hoy los ordenadores y los teléfonos de la empresa. Es el ejemplo más claro de una idea que recorre toda la biografía: Jobs perdía dinero durante años en cosas que solo tenían sentido más tarde, y no porque tuviera un plan a diez años, sino porque se negaba a hacer las cosas de otra manera aunque el mercado no lo pagara. Y hay un detalle que lo retrata entero: el logotipo de NeXT se lo encargó a Paul Rand, que cobró cien mil dólares por una única propuesta, sin alternativas, tal como Rand exigía trabajar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El proyecto que lo arruinó durante una década fue el que le devolvió la empresa que había perdido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En Pixar aprendió a dirigir, y de ahí salió casi todo su dinero" },
+      {
+        b: "texto",
+        texto:
+          "En 1986 compró por diez millones de dólares una división de informática gráfica que a George Lucas le sobraba. Su plan era vender ordenadores especializados; el negocio no funcionó y los que sí funcionaban eran los anuncios y los cortos que hacía el equipo de animación para pagar las facturas. Jobs tardó años en aceptar que la empresa que tenía era un estudio de cine.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vio allí lo cambió como directivo. En Pixar existía un método que él no tenía: reuniones donde el equipo destroza la película de un compañero sin que eso se considere un ataque personal, guiones reescritos veinte veces, un proceso capaz de arreglar una historia mala sin humillar a su autor. Ese sistema no era suyo y en Apple nunca lo copió del todo, pero de ahí sale su idea de rodearse de gente que le discutiera de verdad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un dato que ordena toda su biografía: su fortuna no vino de Apple. Toy Story se estrenó en 1995, Pixar salió a bolsa una semana después y sus acciones lo convirtieron en multimillonario, mientras Apple se hundía. Cuando volvió a la empresa en 1997 aceptó un sueldo de un dólar al año, y podía permitírselo porque era rico gracias a una película de juguetes. Del estudio salieron además dos de sus mejores colaboradores, y Disney terminó comprándolo en 2006 por siete mil millones de dólares, lo que convirtió a Jobs en su mayor accionista individual.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El dinero de Jobs no salió de los ordenadores: salió de una película de animación que compró casi por accidente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Salvó Apple diciendo que no a casi todo lo que la empresa estaba haciendo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando volvió en 1997, Apple perdía mil millones al año y estaba, según él mismo calculó, a unos noventa días de la quiebra. La empresa vendía una docena de modelos de ordenador con nombres impronunciables, impresoras, cámaras digitales, una consola y hasta un aparato de mano. Ni los propios empleados sabían recomendarle un modelo a un amigo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su solución cabe en una pizarra. Dibujó un cuadro de cuatro casillas: dos columnas, particular y profesional; dos filas, sobremesa y portátil. Cuatro productos. Todo lo demás se cancelaba. Se cerraron proyectos enteros, se despidió a mucha gente y se dejó tirados a socios y a clientes que llevaban años con aquellas máquinas. En un año la empresa volvió a ganar dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la frase que más se le cita y que casi siempre se cita mal: estar orgulloso tanto de lo que se hace como de lo que se decide no hacer. En el libro no es una idea de conferencia, es una operación quirúrgica con víctimas. La concentración, tal como la practicaba, consistía en matar cosas que funcionaban razonablemente bien para poder hacer cuatro cosas de manera excelente. Aquel primer año hizo también lo que ningún accionista esperaba: llamó a Bill Gates y aceptó una inversión de ciento cincuenta millones de dólares de Microsoft, la empresa que llevaba veinte años presentando como el enemigo, porque Apple necesitaba el dinero y necesitaba que siguiera existiendo Office para Mac.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Concentrarse no es elegir en qué trabajar: es cancelar todo lo demás, aunque estuviera dando dinero.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Se empeñó en controlar el aparato entero, y esa manía es media empresa",
+      },
+      {
+        b: "texto",
+        texto:
+          "La discusión que atraviesa toda su carrera es esta: un sistema abierto, donde cualquiera fabrica piezas y programas, o un sistema cerrado, donde una sola empresa hace el aparato, el sistema operativo y la tienda. Microsoft ganó los años ochenta y noventa con lo primero. Jobs no cambió de opinión ni cuando iba perdiendo: quería controlar la experiencia de principio a fin porque, decía, es la única manera de que la responsabilidad no se diluya.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que mejor lo explica es el iPod. El aparato no habría servido de gran cosa sin música legal, y en 2002 la industria discográfica estaba aterrorizada con la piratería. Jobs se recorrió las discográficas una por una para convencerlas de vender canciones sueltas a noventa y nueve céntimos, cosa que ninguna quería, y montó una tienda que funcionaba solo con sus aparatos. La combinación de las tres piezas es lo que ganó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El precio de esa idea también está en el libro: aparatos que no se abren, baterías que no se cambian, una tienda que decide qué programas se pueden instalar y una empresa con un control sobre el usuario que en los años setenta el propio Jobs habría considerado insoportable. La biografía lo señala y no lo resuelve, que en este caso es lo honesto. Y funcionó dos veces: el iPod llevó a la tienda de música y la tienda llevó al iPhone, que no es un teléfono con canciones sino el mismo montaje llevado un paso más allá.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Su apuesta no fue por una tecnología: fue por controlar todas las piezas para que ninguna pudiera echarle la culpa a otra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Su idea de simplicidad no era quitar cosas: era entender el problema hasta el fondo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con el diseñador Jony Ive formó la única sociedad estable de su vida profesional: comían juntos casi a diario y las decisiones de diseño se tomaban entre los dos, por encima de cualquier jerarquía. La frase que usaban venía del primer folleto del Apple II: la simplicidad es la máxima sofisticación. Y su manera de aplicarla es lo que separa el libro de un catálogo de anécdotas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Simplificar, para ellos, no consistía en esconder botones ni en dejarlo todo blanco, sino en resolver el problema de fondo para que el botón dejara de hacer falta. El ejemplo del libro es el encendido del iMac: en lugar de explicar mejor cómo se conecta, se quitaron cables. Y cuando se discutía cuántos pasos hacían falta para poner una canción, la respuesta no fue simplificar el menú, fue exigir que no hubiera más de tres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La otra mitad viene de su padre adoptivo, carpintero aficionado, que le enseñó a rematar bien la parte de atrás de un armario aunque quedara contra la pared. De ahí salen las discusiones sobre el aspecto de las placas internas de un ordenador que nadie iba a abrir, y una regla que en Apple se aplicó a la fábrica, al embalaje y hasta a los tornillos: si el interior está mal hecho, el exterior acaba notándose. La regla llegaba al extremo de discutir el color del interior de las cajas y de rehacer un embalaje entero para que la tapa cayera despacio al abrirla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Simplificar no es esconder la complejidad: es hacer el trabajo necesario para que deje de existir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La gente no sabe lo que quiere, y en eso el libro le da la razón" },
+      {
+        b: "texto",
+        texto:
+          "Jobs no hacía estudios de mercado ni grupos de discusión, y lo justificaba con una frase que se ha repetido hasta perder el sentido: la gente no sabe lo que quiere hasta que se lo enseñas. En el libro está matizada: no significa despreciar al cliente, significa que a un cliente no se le puede preguntar por algo que todavía no existe, porque contestará describiendo lo que ya tiene, un poco mejor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí hacía era vender de una manera concreta. La campaña de 1997, con la que volvió, no enseñaba un solo ordenador: enseñaba fotos de Gandhi, Picasso o Einstein y una frase de dos palabras. Estaba dirigida hacia dentro, a una empresa hundida, tanto como hacia fuera. Y las presentaciones de producto se ensayaban durante días enteros, con la última frase reservada para el final, para el famoso una cosa más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro también cuenta la otra cara, y es un dato que mucha gente ignora: Jobs no inventó casi ninguna de las tecnologías con las que se le asocia. El ratón y las ventanas los vio en un laboratorio de Xerox, el reproductor de música portátil existía, y el teléfono con pantalla táctil se estaba investigando en varios sitios. Lo suyo era otra cosa: verlo antes que nadie, quitarle lo que sobraba y convertirlo en un producto que se pudiera usar sin manual.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No inventó las piezas: fue el primero en verlas terminadas y en negarse a lanzarlas antes de que lo estuvieran.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El precio lo pagaron las personas, y el libro lo cuenta sin buscarle una justificación",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lista es larga y está documentada con nombres. Despedía en el ascensor. Dividía al mundo entre genios y inútiles, y podía cambiar a una persona de una categoría a otra en la misma reunión. Se apropiaba de ideas ajenas y las devolvía días después como propias. Aparcaba en las plazas de minusválidos. Al fundar Apple, dejó a un socio de los primeros años prácticamente sin acciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso más difícil es el de su hija Lisa, nacida en 1978. Negó la paternidad durante años, llegó a declarar bajo juramento que era estéril mientras dirigía un proyecto de ordenador bautizado con el nombre de la niña, y pagó una manutención mínima hasta que un juzgado intervino. Reconstruyó la relación mucho después. El libro deja hablar a la hija, y esa es una de sus mejores decisiones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su defensa —que aparece en el libro en su propia voz— era que solo se rodeaba de jugadores de primera y que la gente de primera prefiere la verdad brutal a la mentira educada. Isaacson recoge el argumento y también a los que dicen que exactamente el mismo trabajo se podía haber hecho sin humillar a nadie. La pregunta queda abierta, y buena parte del daño que ha hecho este libro viene de los lectores que decidieron que la respuesta era que sí, que hacía falta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro documenta la crueldad y no la justifica; el problema es la cantidad de gente que ha leído la crueldad como el método.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Tardó nueve meses en operarse de un cáncer que se podía operar" },
+      {
+        b: "texto",
+        texto:
+          "En octubre de 2003, una revisión rutinaria descubrió un tumor en el páncreas. No era el cáncer de páncreas habitual: era una variedad neuroendocrina rara, de crecimiento lento y operable, y los médicos le dieron la mejor noticia posible dentro de un diagnóstico así. Jobs se negó a operarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante nueve meses probó dietas de zumos, veganismo estricto, acupuntura, hierbas, un vidente y tratamientos encontrados en internet, mientras su mujer y sus amigos se turnaban para convencerlo. Cuando por fin aceptó la cirugía, en julio de 2004, el tumor se había extendido. Vivió siete años más, con un trasplante de hígado en 2009 por medio, y murió en octubre de 2011, a los cincuenta y seis.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Isaacson le preguntó por aquella decisión y Jobs le contestó que lo lamentaba. La lectura que hace el libro enlaza con todo lo anterior: la misma negativa a aceptar la realidad que le había servido para sacar productos imposibles se aplicó al peor asunto posible. No fue una excentricidad aislada, fue su manera de funcionar aplicada a un cuerpo. El discurso de Stanford de 2005, que dio entre la operación y la recaída, está escrito desde ese sitio: contarse la propia vida hacia atrás, aceptar que se van a unir los puntos después, y recordar cada mañana que uno se va a morir para dejar de tomar decisiones por miedo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que en una sala de reuniones se llamaba visión, delante de un escáner se llamaba negación, y era exactamente lo mismo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La biografía cuenta la vida de un hombre que fundó una empresa a los veintiuno, la perdió a los treinta, se pasó once años fuera, volvió cuando estaba a punto de quebrar y la convirtió en la más valiosa del mundo. Y sostiene una tesis: su gran acierto no fue técnico sino de criterio —saber qué quitar, qué rematar y qué no lanzar todavía—, y ese criterio venía del mismo sitio que su incapacidad para tratar bien a la gente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es el acceso. Cuarenta entrevistas con el protagonista y cien con su entorno, sin derecho a veto, dan un retrato que ninguna otra fuente tiene: las mismas escenas contadas por los que estaban en la sala y por él, sin ponerse de acuerdo. Es también el mejor relato disponible de cómo se levanta una empresa que se está hundiendo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Estar orgulloso de lo que no se hace, decía, cuesta más que estarlo de lo que se hace.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El libro se escribió a la carrera mientras el biografiado se moría, y se nota en la última parte, mucho más apresurada que las primeras. Cubre poco el trabajo real de la gente que fabricaba aquello: los ingenieros aparecen como coro, y las condiciones de las fábricas asiáticas donde se montaban los aparatos apenas se mencionan. Y la voz de Jobs domina el relato de su propia vida, que es justo lo que él sabía hacer mejor que nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene además saber cómo lo recibieron los suyos. Tim Cook dijo públicamente que el retrato le hacía un flaco favor y que no reconocía en él a la persona con la que trabajó, y Jony Ive fue todavía más duro. No son testigos neutrales, pero coinciden en la misma objeción: que el libro se queda con el personaje difícil porque es el que se cuenta mejor. Leerlo como manual de gestión, que es lo que ha hecho mucha gente, es leerlo al revés.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "steve-jobs": STEVE_JOBS,
   hobbit: HOBBIT,
   "sombra-viento": SOMBRA_VIENTO,
   alquimista: ALQUIMISTA,
