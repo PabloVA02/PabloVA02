@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "sombra-viento":
+    "En la Barcelona de 1945, un chico encuentra en una biblioteca secreta un libro del que alguien está quemando todos los ejemplares. Diez años de su vida se le van en averiguar por qué.",
+
   alquimista:
     "Un pastor andaluz sueña con un tesoro en las pirámides y cruza el desierto para encontrarlo. Es un cuento de las mil y una noches convertido en la fábula moderna sobre no aplazar la vida.",
 

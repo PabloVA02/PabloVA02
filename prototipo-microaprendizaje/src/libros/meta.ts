@@ -1513,22 +1513,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "sombra-viento",
-    titulo: "La sombra del viento",
-    autor: "Carlos Ruiz Zafón",
-    ano: 2001,
-    gancho: "Un niño elige un libro en una biblioteca secreta. Al salir descubre que alguien lleva años quemando todos los ejemplares.",
-    porQue: "Quince millones de ejemplares y la novela española más vendida de las últimas décadas. Es un misterio, una novela de amor y un retrato de la Barcelona de posguerra a la vez.",
-    minutos: 21.4,
-    capitulos: [
-      { titulo: "El Cementerio de los Libros Olvidados", minutos: 5.2 },
-      { titulo: "Fermín", minutos: 4.9 },
-      { titulo: "Nuria Monfort", minutos: 4.2 },
-      { titulo: "El incendio", minutos: 3.8 },
-      { titulo: "Zafón", minutos: 3.4 },
-    ],
-  },
-  {
     id: "nombre-rosa",
     titulo: "El nombre de la rosa",
     autor: "Umberto Eco",

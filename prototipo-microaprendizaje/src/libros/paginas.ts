@@ -12171,7 +12171,253 @@ const ALQUIMISTA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La sombra del viento, en ocho páginas.
+
+   Breve. Es un folletín: la trama es larga y la idea es una.
+
+   Caso (a) de la 4 bis con un peligro añadido. Aquí contar la trama no
+   solo sería mal resumen: sería estropear el libro, porque el libro ES la
+   intriga. Así que se cuenta cómo está hecho —el espejo entre las dos
+   vidas, la maquinaria del folletín, el miedo de la Barcelona de 1945— y
+   se deja fuera quién es Laín Coubert y qué pasó con Penélope.
+
+   Lo que casi nadie sabe y aquí sí está: que el Cementerio de los Libros
+   Olvidados no existe y sigue habiendo turistas que lo buscan; que el
+   personaje más divertido del libro es un hombre al que torturaron; y que
+   esta novela es la primera puerta de un edificio de cuatro.
+   -------------------------------------------------------------------------- */
+
+const SOMBRA_VIENTO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Alguien está quemando todos los ejemplares de un libro, y solo queda uno",
+      },
+      {
+        b: "texto",
+        texto:
+          "Barcelona, 1945. Un librero lleva a su hijo Daniel, que tiene diez años y acaba de perder a su madre, a un sitio del que no puede hablar con nadie: una biblioteca escondida en un caserón del casco antiguo, con pasillos que suben en espiral y estanterías de libros que ya no reclama nadie. Se llama el Cementerio de los Libros Olvidados, y la norma es que cada visitante que entra por primera vez adopte un libro y se comprometa a que no desaparezca jamás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Daniel elige uno titulado La sombra del viento, de un tal Julián Carax, lo lee de una sentada y quiere leer el resto de la obra del autor. Entonces descubre dos cosas: que apenas existen ejemplares y que hay alguien recorriendo Europa desde hace años comprando y quemando todos los libros de Carax. Ese desconocido firma con el nombre de un personaje de la propia novela de Carax, el diablo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ahí, un chaval de dieciséis años se dedica a reconstruir la vida de un escritor del que nadie quiere hablar, en una ciudad recién salida de una guerra donde preguntar por el pasado de alguien tiene consecuencias. Estas páginas cuentan cómo está construido el libro y por qué funciona, sin destripar quién quema los libros ni qué ocurrió en la casa de los Aldaya.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El motor del libro no es un crimen ni un amor: es un lector que quiere saber más de un autor, y no le dejan.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El Cementerio de los Libros Olvidados no existe, y sigue habiendo gente buscándolo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La imagen con la que abre la novela es su mejor invención y es completamente falsa: no hay ninguna biblioteca secreta en el casco antiguo de Barcelona, ni la hubo. La calle Arco del Teatro existe, el Raval existe, y muchos lectores han bajado hasta allí a buscar un portón que no está. Las librerías de la ciudad llevan veinte años dando la misma explicación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es por qué funciona tan bien. La idea contiene un pacto: los libros no se pierden si alguien se hace cargo de uno. Convierte al lector en responsable de un objeto concreto, y no en consumidor de una obra. Es una idea vieja —bibliotecas prohibidas hay desde la Edad Media— contada con una regla clara y una ceremonia, que es lo que se recuerda. La ceremonia lleva además una frase que se repite en las cuatro novelas del ciclo: cada libro tiene un alma, la de quien lo escribió y la de quienes lo leyeron y soñaron con él. Al sitio lo guarda un viejo bibliotecario, Isaac, y solo se entra llevado por alguien que ya estuvo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da la clave del libro entero. Esta es una novela sobre lo que un libro le hace a quien lo lee: Daniel entra en la historia por leer, se mete en peligros por leer, y todos los personajes que se cruzan con él están marcados por un texto. Lo demás —la intriga, los asesinatos, el amor— viene detrás de eso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La promesa del cementerio no es guardar libros: es que cada libro tenga un responsable con nombre y apellidos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Daniel repite la vida de Carax sin saberlo, y ese espejo es la estructura del libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "La novela avanza en dos tiempos que se van pareciendo cada vez más. Por un lado, Daniel en los años cuarenta y cincuenta: la librería del padre, el amigo, la primera chica, la ciudad. Por otro, Julián Carax veinte años antes: un chaval de origen humilde metido en un colegio de ricos, un amor imposible con la hija de la familia, una huida a París y unos libros que no leyó nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El lector se da cuenta antes que Daniel de que las dos historias riman: los mismos escenarios, los mismos errores, la misma clase social contra la misma clase social. Cuando Daniel se enamora de una chica de familia poderosa, ya sabemos qué pasó la vez anterior, y ese saber es lo que sostiene la tensión durante trescientas páginas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El truco tiene nombre y es antiguo: el libro dentro del libro. La novela que Daniel encuentra se titula igual que la que estamos leyendo, y el hombre que quema los ejemplares se hace llamar como el diablo que aparecía en ella. Zafón lo usa sin disimulo, con toda la maquinaria del folletín del siglo XIX a la vista, y consigue lo que buscaba: que el lector no pueda dejarlo. Hay una diferencia que decide el final, y es la única que rompe el espejo: Carax escribía y Daniel no. El que investiga es un lector, no un autor, y por eso puede terminar la historia en lugar de repetirla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dos vidas que se parecen demasiado convierten cada página nueva en un aviso de lo que va a pasar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El personaje más divertido del libro es un hombre al que destrozó la policía",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fermín Romero de Torres aparece como un mendigo en los soportales de la calle Fernando, hablando como un catedrático arruinado, y acaba siendo el mejor personaje de la novela y del resto de la serie. Suelta discursos sobre la mujer, la política, el bicarbonato y el destino de España con una elocuencia que no viene a cuento y que es precisamente lo que se agradece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás del número cómico hay otra cosa. Fermín trabajó para los servicios de información durante la guerra, cayó en manos del inspector Fumero y salió de allí sin dientes y sin nombre, con el cuerpo lleno de marcas que la novela describe una sola vez y sin insistir. La comedia y la tortura viven en el mismo personaje, y el libro no las separa nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese equilibrio es lo mejor que hace Zafón. En un relato lleno de niebla, tumbas y caserones, Fermín es el que impide que todo se ponga solemne, y a la vez es el que trae al libro lo que de verdad pasó en aquella ciudad. Un lector que llega por el misterio se queda por él, y es habitual que quien recuerda la novela años después no recuerde el argumento y sí recuerde a Fermín. Ni el nombre es suyo: lo sacó de un cartel de toros, que en aquella España era una manera práctica de empezar de cero cuando el propio nombre figuraba en una lista.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La novela le da sus mejores frases al superviviente de una comisaría, y esa decisión sostiene el tono del libro entero.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La Barcelona de 1945 es el segundo protagonista, y está contada por el miedo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ciudad de la novela no es la postal: es una ciudad de posguerra, con racionamiento, portales fríos, denuncias entre vecinos, gente que desapareció y de la que no se pregunta, y una comisaría de la que se sale peor de lo que se entra. Zafón la recorre con nombres reales —el Raval, la Ribera, el Tibidabo, la avenida del Tibidabo con sus casas señoriales, el cementerio de Montjuic— y la envuelve en una niebla que es medio literaria y medio verdad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El régimen no aparece nombrado casi nunca; aparece con una cara, la del inspector Fumero, que mata por gusto y con impunidad. Es un recurso eficaz y también una decisión discutible: convierte una maquinaria de estado en un psicópata, y así el mal de aquellos años queda personalizado en un hombre en vez de repartido por una ciudad entera que colaboró.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aun así, lo que el libro consigue transmitir es un ambiente que muchos lectores de fuera de España no habían leído nunca: el silencio de una posguerra, la sensación de que hay preguntas que no se hacen y de que todo el mundo sabe algo que no cuenta. Buena parte del éxito internacional de la novela viene de ahí, de haber convertido esa Barcelona en un lugar reconocible para gente que no había estado nunca. Y fecha la ciudad con el frío: los inviernos sin carbón, la estufa de la trastienda, las manos moradas y el olor a humedad de los pisos aparecen tantas veces que el lector acaba notándolos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El miedo de la posguerra está contado sin política y con geografía: se sabe qué calles no conviene cruzar de noche.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Está escrito como una película, y por eso se lee tan rápido" },
+      {
+        b: "texto",
+        texto:
+          "Zafón había publicado cuatro novelas juveniles y trabajaba escribiendo guiones en Los Ángeles cuando escribió esta, y se nota en cada capítulo. Las escenas empiezan tarde y acaban pronto, cada capítulo termina con un gancho, los diálogos suenan, y los personajes se presentan con dos rasgos físicos y una manera de hablar. Es un libro construido con reglas de oficio, no con inspiración.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También hereda los defectos del modelo. La trama se resuelve en buena parte con una carta larguísima en la que un personaje explica todo lo que el lector no sabía, y hay casualidades que en un libro menos entretenido chirriarían: la gente adecuada aparece en el momento adecuado, y las coincidencias entre las dos historias son más de las que caben en una ciudad de un millón de habitantes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro lo compensa con velocidad. La novela empezó vendiendo despacio en 2001 y creció por el boca a boca hasta convertirse en el mayor éxito internacional de la narrativa española reciente, con quince millones largos de ejemplares y más de cuarenta idiomas. Eso no se consigue con un tema: se consigue con una máquina de páginas que el lector no puede soltar. Antes de esta había publicado cuatro novelas juveniles, la primera en 1993, y de ahí viene buena parte de la eficacia: en literatura juvenil un capítulo aburrido se paga en el acto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cada capítulo está montado para que sea más incómodo dejar el libro que seguir leyendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Esta novela es la primera puerta de un edificio de cuatro" },
+      {
+        b: "texto",
+        texto:
+          "La sombra del viento se lee sola y termina cerrada, pero Zafón la concibió como la entrada de un ciclo. Después vinieron El juego del ángel, en 2008, que retrocede a los años veinte; El prisionero del cielo, en 2011, que cuenta la cárcel de Montjuic y lo que le pasó a Fermín; y El laberinto de los espíritus, en 2016, que cierra el conjunto y explica varias cosas que quedaban sueltas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las cuatro comparten el Cementerio de los Libros Olvidados y se cruzan sin obligar a un orden: el autor insistió en que podían leerse en cualquiera, como cuatro puertas a la misma casa. Quien termina esta y quiere más tiene tres novelas por delante; quien se queda aquí no pierde nada, porque la historia de Daniel y Carax se resuelve entera dentro de este volumen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Zafón murió en 2020, a los cincuenta y cinco años, con el ciclo terminado. Barcelona vende hoy rutas guiadas por los escenarios del libro, y la ironía es evidente: una novela sobre libros perdidos que nadie leía terminó llenando de gente las calles que describía. El orden de escritura tampoco es el de la historia: la segunda retrocede a los años veinte y la tercera se cruza con esta por dentro, así que releer la primera después de las otras tres es casi leer otra novela.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las cuatro novelas son puertas de una misma casa, y esta es la que conviene abrir primero.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La sombra del viento cuenta cómo un chico de la Barcelona de posguerra encuentra un libro condenado a desaparecer y se pasa diez años averiguando por qué. Lo que sostiene, debajo del misterio, es una idea sobre la lectura: un libro no es un objeto sino un pacto, y quien lo lee se hace cargo de él. El resto —la ciudad, el amor imposible, el policía— es el folletín necesario para que esa idea llegue.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un ejercicio de carpintería casi perfecto y una imagen que ya no pertenece a su autor. El Cementerio de los Libros Olvidados se cita hoy en artículos, en discursos de bibliotecas y en tatuajes, que es lo más cerca que está una invención literaria de convertirse en folclore.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro no es un objeto: es un pacto con alguien que se compromete a que no desaparezca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La prosa va sobrecargada de adjetivos y de metáforas, y hay páginas en las que ninguna cosa se llama por su nombre. La trama se apoya en casualidades y se resuelve con una explicación larguísima puesta en boca de un personaje. Y los personajes femeninos existen sobre todo para ser deseados, para esperar o para contar la historia de un hombre. Y un aviso práctico: son más de quinientas páginas y la primera parte avanza despacio. El libro engancha de verdad cuando aparece Fermín, y a partir de ahí no suelta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro reparo es histórico. La posguerra funciona como atmósfera —niebla, miedo, comisaría— más que como retrato: el mal se concentra en un policía sádico y la responsabilidad colectiva de aquellos años apenas se toca. Como novela de intriga es magnífica; como novela sobre el franquismo, hay que ir a otros libros.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "sombra-viento": SOMBRA_VIENTO,
   alquimista: ALQUIMISTA,
   "orgullo-prejuicio": ORGULLO_PREJUICIO,
   "matar-ruisenor": MATAR_RUISENOR,

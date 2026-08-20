@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "sombra-viento": [
+    "qué es el Cementerio de los Libros Olvidados y por qué no existe",
+    "por qué la vida de Daniel repite la de Carax",
+    "cómo cuenta la posguerra sin nombrar la política",
+    "qué le pasó a Fermín antes de aparecer en el libro",
+    "cómo está montada una novela que no se puede soltar",
+  ],
+
   alquimista: [
     "qué es exactamente la Leyenda Personal del libro",
     "por qué el mercader de cristales no va a La Meca",
