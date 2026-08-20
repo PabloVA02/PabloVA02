@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cien-anos":
+    "José Arcadio Buendía mata a un hombre y el muerto empieza a aparecérsele en el patio. Huye con los suyos, cruza la sierra y funda un pueblo donde nadie los conozca. Cien años después, un viento lo borra del mapa.",
+
+  "infinito-junco":
+    "Los reyes de Egipto mandaron agentes por el Mediterráneo con dinero ilimitado y una orden: comprar todos los libros que existieran. A los barcos que atracaban en Alejandría se les requisaba lo que llevaran a bordo.",
+
   "cisne-negro":
     "Un pavo al que dan de comer mil días seguidos tiene mil pruebas de que lo quieren, y su confianza es máxima justo el miércoles antes de Acción de Gracias. Taleb parte de ahí para explicar por qué lo raro decide la historia.",
 

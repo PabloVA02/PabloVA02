@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cien-anos": [
+    "por qué se repiten los nombres de los Buendía",
+    "en qué consiste de verdad el realismo mágico",
+    "qué le pasa a Macondo cuando llega algo de fuera",
+    "qué matanza real hay detrás de la de las bananeras",
+    "qué dicen los pergaminos que se descifran al final",
+  ],
+
+  "infinito-junco": [
+    "de qué planta dependía toda la memoria escrita",
+    "por qué Alejandría no ardió en una noche",
+    "por qué coser las hojas cambió el mundo",
+    "quién copió a mano lo que hoy leemos",
+    "por qué el libro no ha cambiado en dos mil años",
+  ],
+
   "cisne-negro": [
     "por qué mil días de datos no dicen nada del siguiente",
     "en qué se diferencian Mediocristán y Extremistán",

@@ -53,7 +53,6 @@ const CARGADORES: Record<string, Cargador> = {
   /* Historia */
   "diario-ana-frank": () => import("./historia").then((m) => m.ANA_FRANK),
   "armas-germenes": () => import("./historia").then((m) => m.ARMAS_GERMENES),
-  "infinito-junco": () => import("./historia").then((m) => m.INFINITO_JUNCO),
   mandela: () => import("./historia").then((m) => m.MANDELA),
   malala: () => import("./historia").then((m) => m.MALALA),
 
@@ -72,7 +71,6 @@ const CARGADORES: Record<string, Cargador> = {
   "aliento-aire": () => import("./salud").then((m) => m.ALIENTO_AIRE),
 
   /* Literatura — clásicos */
-  "cien-anos": () => import("./literatura").then((m) => m.CIEN_ANOS),
   quijote: () => import("./literatura").then((m) => m.QUIJOTE),
   "mundo-feliz": () => import("./literatura").then((m) => m.MUNDO_FELIZ),
   metamorfosis: () => import("./literatura").then((m) => m.METAMORFOSIS),

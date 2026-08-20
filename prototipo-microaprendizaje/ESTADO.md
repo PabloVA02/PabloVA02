@@ -118,8 +118,8 @@ Cuando lleguen capturas nuevas, lo que enseñen SE ESCRIBE AHÍ. Lo que se queda
 en la conversación se pierde con la ventana de contexto; lo que está en el
 repositorio, no.
 
-Los resúmenes escritos a mano viven en `libros/paginas.ts`. Van veintiuno, y
-el texto autogenerado por tarjetas de cada uno está BORRADO: Pablo lo pidió
+Los resúmenes escritos a mano viven en `libros/paginas.ts`, y el texto
+autogenerado por tarjetas de cada uno está BORRADO: Pablo lo pidió
 así el 20 de agosto, y además mientras conviven la estantería pinta la ficha
 vieja. El procedimiento entero está en `REDACCION.md`.
 
@@ -128,6 +128,25 @@ vieja. El procedimiento entero está en `REDACCION.md`.
     node scripts/mete-libro.mjs       mete un borrador JSON en paginas.ts
     node scripts/ficha-libro.mjs      escribe las tres piezas de la ficha
     node scripts/retira-viejo.mjs     borra el texto viejo y su cargador
+    node scripts/faltan-cubiertas.mjs qué cubiertas faltan, por prioridad
+    node scripts/mete-cubiertas.mjs   mete una tanda de cubiertas de Pablo
+    node scripts/hoja-cubiertas.mjs   la estantería entera en una página
+
+### EN QUÉ ORDEN SE ESCRIBEN
+
+No por gusto ni por orden alfabético. Por lo que más se ve, que es:
+
+1. **Los veinte de «Tendencias».** Salen grandes en la primera pantalla de
+   Explorar y con una PROMESA escrita debajo. Un texto malo bajo una promesa
+   es lo peor que puede haber. *Hechos los veinte.*
+2. **Los que tienen cubierta dibujada de Pablo.** Dibujo bueno y texto
+   automático es la segunda peor combinación: la cubierta invita a entrar y el
+   texto devuelve al lector.
+3. **Los conocidos** del resto del catálogo.
+4. **El resto**, por categorías.
+
+`faltan-cubiertas.mjs` usa exactamente ese orden para las cubiertas, así que
+las dos listas van a la par.
 
 ## Lo que está cerrado y no se toca
 

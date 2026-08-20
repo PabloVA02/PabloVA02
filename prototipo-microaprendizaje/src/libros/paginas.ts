@@ -9180,7 +9180,623 @@ const CISNE_NEGRO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El infinito en un junco, en ocho páginas.
+
+   Un ensayo escrito con forma de paseo: Vallejo salta de Alejandría a una
+   película, de Safo a una anécdota de su infancia. Resumirlo por su
+   estructura es imposible porque no la tiene; hay que resumir su ARGUMENTO,
+   que sí lo tiene y es fuerte: el libro es un objeto que estuvo a punto de
+   no existir y que ha sobrevivido de milagro cada vez.
+
+   Tercera persona. Y la regla 2 pide lo concreto, que aquí abunda: los
+   juncos del Nilo, los cazadores de libros de los Ptolomeos, los
+   quinientos mil rollos, los esclavos copistas, el precio de un códice.
+
+   Es además el primer libro escrito por una autora española viva que entra
+   con este molde, así que la conclusión no puede escudarse en la distancia
+   histórica: hay que decir qué le falla al libro tal cual es.
+   -------------------------------------------------------------------------- */
+
+const INFINITO_JUNCO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Unos hombres recorrían el mundo con orden de comprar todos los libros",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el siglo III antes de Cristo, los reyes de Egipto mandaron por el Mediterráneo a unos agentes con un encargo insólito y con dinero para cumplirlo: comprar todos los libros que existieran, en cualquier lengua y de cualquier materia. No había límite de gasto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El método incluía formas menos elegantes. Todo barco que atracaba en Alejandría era registrado; si llevaba un texto a bordo, se requisaba, se copiaba y al dueño se le devolvía la copia mientras el original se quedaba en la biblioteca. Aquellos ejemplares se catalogaban como «de los barcos».",
+      },
+      {
+        b: "idea",
+        texto:
+          "Fue el primer intento de la historia de reunir todo lo escrito en un solo sitio, y estuvo cerca de conseguirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Irene Vallejo es filóloga clásica y publicó este libro en 2019, sin apenas expectativas comerciales, en una editorial pequeña. Ganó el Premio Nacional de Ensayo, ha vendido más de un millón de ejemplares y se ha traducido a más de cuarenta lenguas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que el libro —el objeto— es uno de los inventos más improbables y más frágiles que hemos hecho, y que ha llegado hasta aquí por una cadena de casualidades donde cada eslabón pudo romperse. Contarlo bien exige contar quién lo copió, quién lo quemó y quién lo escondió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: de qué estaban hechos los primeros libros, qué fue de verdad Alejandría, cómo se pasó del rollo al libro que conocemos, quién sostuvo la cadena de copias y qué se perdió por el camino. La conclusión dice también dónde falla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Durante siglos, escribir dependió de una planta que crecía en un río",
+      },
+      {
+        b: "texto",
+        texto:
+          "El papiro se fabricaba con el tallo de una planta que solo crecía bien en el delta del Nilo. Se cortaba en tiras, se colocaban dos capas cruzadas, se prensaban y la propia savia las pegaba. El resultado era una hoja flexible y sorprendentemente duradera en clima seco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí viene el título del libro: un imperio de palabras sostenido sobre un junco de río. Y de ahí también una dependencia peligrosa, porque Egipto tenía el monopolio y podía cortarlo. Cuando lo cortó —según la tradición, para frenar a la biblioteca rival de Pérgamo—, allí desarrollaron el pergamino, hecho con piel de animal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Toda la memoria escrita del Mediterráneo dependió durante siglos de una planta de un solo río.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Vallejo recuerda lo que costaba un libro entonces. Un rollo largo podía necesitar decenas de metros de papiro y semanas de trabajo de un copista, y un ejemplar de una obra extensa requería la piel de un rebaño entero si era en pergamino. Un libro era lo que hoy sería un coche.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También cuenta cómo se leía, que no se parecía a lo de ahora. Los rollos no tenían separación entre palabras, ni puntuación, ni índice, ni número de página; había que desplegarlos con las dos manos y no se podía buscar un pasaje sin recorrerlos. Leer en silencio era tan raro que cuando alguien lo hacía se anotaba como una curiosidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y subraya la desproporción: de todo lo que se escribió en la Antigüedad ha llegado una fracción diminuta, y de muchos autores solo conservamos el nombre y una cita.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Alejandría no ardió en una noche: se apagó despacio y por descuido" },
+      {
+        b: "texto",
+        texto:
+          "La imagen popular es la de un incendio que borró la biblioteca en una noche, con un culpable claro. Vallejo desmonta ese relato, y lo que queda es más incómodo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hubo daños en el incendio del puerto durante la guerra de César, hubo saqueos, hubo un decreto que expulsó a los sabios extranjeros, hubo recortes de presupuesto y hubo siglos de deterioro sin nadie que copiara los rollos que se pudrían. La destrucción de Alejandría fue un proceso de siglos hecho de guerras, política y desidia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los libros no suelen morir en una hoguera espectacular: se mueren de que nadie los copie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el punto que a Vallejo le interesa. Un texto antiguo solo sobrevivía si cada dos o tres generaciones alguien se tomaba el trabajo de copiarlo entero a mano. Bastaba con que un autor dejara de interesar durante un siglo para que desapareciera para siempre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuenta también la otra cara de la biblioteca: el Museo, donde vivían con sueldo y comida los sabios que trabajaban allí. De aquel sitio salieron la medida de la circunferencia de la Tierra, la primera propuesta de un sistema solar heliocéntrico y la edición fijada de los poemas de Homero que seguimos leyendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí una idea que atraviesa el libro: una biblioteca no es un almacén, es una decisión política sostenida en el tiempo, y en cuanto se deja de sostener, se acaba.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El invento decisivo no fue el papel, fue coser las hojas" },
+      {
+        b: "texto",
+        texto:
+          "El paso del rollo al códice —hojas cortadas, apiladas y cosidas por un lado— parece un detalle de encuadernación y Vallejo sostiene que fue una revolución comparable a la imprenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las ventajas son enormes y todas prácticas. Se escribe por las dos caras, así que cabe el doble en el mismo material. Se puede abrir por cualquier punto sin recorrer el resto, y por tanto se puede buscar, citar y comparar. Se sostiene con una mano. Se transporta y se esconde con facilidad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El códice permitió por primera vez abrir un libro por la mitad. Sin eso no hay índices, ni citas, ni consulta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Vallejo señala quién lo adoptó primero: los cristianos, que eran una minoría perseguida y necesitaban textos baratos, transportables y fáciles de ocultar. La forma del libro que hoy usamos se impuso en parte por razones de clandestinidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y describe lo que se perdió en el cambio. Cuando un texto no se copiaba del rollo al códice, se quedaba en el formato viejo y se pudría con él. Cada cambio de soporte —y ha habido varios— funciona como un filtro: pasa lo que a alguien le pareció que valía la pena copiar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es una observación que ella deja caer sin insistir y que se lee sola pensando en los discos, las cintas y los formatos digitales que ya no se pueden abrir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi todo lo que leemos de la Antigüedad lo salvaron esclavos y monjes",
+      },
+      {
+        b: "texto",
+        texto:
+          "Vallejo insiste en una parte de la historia del libro que casi nunca se cuenta: quién hacía el trabajo material. En Roma, la industria editorial funcionaba con talleres de esclavos copistas que escribían al dictado, decenas a la vez, para producir varios ejemplares de una tirada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eran mano de obra especializada y cara, y su trabajo era agotador: cuentan los propios manuscritos que copiar dolía en la espalda, en los ojos y en las manos. En los márgenes de códices medievales aparecen quejas escritas por los monjes que copiaban —el frío, la mala luz, las ganas de que se acabara— y esas notas son de lo más humano que conservamos de la Edad Media.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La literatura clásica ha llegado hasta aquí porque miles de personas anónimas la copiaron a mano, una y otra vez, durante mil años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los monasterios sostuvieron esa cadena durante siglos, y Vallejo no idealiza el papel de la Iglesia: los mismos que copiaron a Virgilio y a Cicerón decidieron qué no se copiaba, y a veces rasparon un texto antiguo para escribir encima uno religioso. De algunos autores sabemos lo que sabemos porque el raspado no fue completo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Junto a eso rescata a las lectoras y a las autoras que la historia oficial dejó fuera: Safo, de la que solo queda un poema completo y fragmentos; Enheduanna, sacerdotisa sumeria y la primera autora conocida con nombre propio; las bibliotecarias y copistas que no firmaban.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su punto es que la historia del libro no es la de los grandes nombres, sino la de una cadena de manos que se pasaron el objeto sin romperlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Quemar libros no es destruir papel: es borrar una manera de pensar" },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica un tramo a la destrucción deliberada, y su recorrido es largo: el emperador chino que ordenó quemar los textos anteriores a su reinado, las hogueras de la Inquisición, las de Berlín en 1933, las bibliotecas destruidas en guerras recientes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Vallejo observa que la quema de libros es un gesto que se repite con una constancia sospechosa y que siempre acompaña a lo mismo: la voluntad de que solo exista una versión de las cosas. Y recuerda la frase de Heine, escrita más de un siglo antes de las hogueras nazis: donde se queman libros se acaba quemando también a personas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie quema un libro por el papel. Se quema porque contiene una manera de mirar que no se quiere permitir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Frente a eso cuenta historias de gente que salvó libros con riesgo propio, que es lo que hace que el capítulo no sea solo un catálogo de barbaridades: bibliotecarios que escondieron fondos, ciudadanos que sacaron cajas de una ciudad sitiada, colecciones enteras rescatadas por particulares.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una comparación que le sirve de balance: los libros han sobrevivido a los imperios que los destruyeron. De la biblioteca de Alejandría no queda una piedra y seguimos leyendo a Homero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la única parte del libro donde Vallejo se pone abiertamente militante, y lo hace con un argumento y no con una consigna: el libro dura más que el poder porque se puede copiar, y lo que se puede copiar es muy difícil de matar del todo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro es un invento acabado, y por eso no ha cambiado en dos mil años",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los argumentos que más se le ha citado es que hay objetos que alcanzan una forma tan buena que ya no admiten mejora: la cuchara, la rueda, el martillo, las tijeras. Vallejo mete el libro en esa lista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un códice del siglo IV se maneja exactamente igual que uno de hoy. No necesita batería, ni conexión, ni actualización, ni un aparato que lo lea. Se puede abrir por donde uno quiera, prestar, subrayar, heredar y encontrar cien años después en un desván. Muy pocos inventos humanos aguantan esa comparación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro no ha cambiado en dos mil años por la misma razón por la que no ha cambiado la cuchara: ya estaba resuelto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su reflexión sobre lo digital es más matizada de lo que sugiere el tópico. No opone lo uno a lo otro; lo que señala es una diferencia de fragilidad: un texto en un servidor depende de que alguien pague la factura, de un formato que se puede dejar de leer y de una empresa que puede desaparecer, mientras que un objeto de papel repartido en mil casas es muy difícil de borrar del todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cierra ese hilo con lo que ella considera la función real de la lectura: no informarse, que se puede hacer de muchas maneras, sino habitar durante un rato la cabeza de otra persona, incluida gente que murió hace veinticinco siglos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta la historia del libro como objeto: de qué estaba hecho, cuánto costaba, quién lo copiaba, quién lo quemaba y por qué milagro ha llegado hasta aquí. Su tesis es que nada de eso estaba garantizado —bastaba con que durante un siglo nadie copiara a un autor para perderlo— y que la cadena la sostuvieron sobre todo personas anónimas: esclavos, monjes, bibliotecarios sin nombre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es haber convertido en un éxito de masas un ensayo de filología clásica, y haberlo hecho sin rebajar el material. Vallejo escribe con una prosa que no se disculpa por ser culta y a la vez no exige saber latín, y consigue que datos áridos —el precio del papiro, el paso del rollo al códice— se lean con interés.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Seguimos leyendo a Homero y de la biblioteca de Alejandría no queda una piedra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La estructura es la primera objeción, y es doble. El libro salta constantemente de la Antigüedad a una película, a un recuerdo de infancia o a una serie de televisión, y esos saltos funcionan como respiro y también rompen el hilo: quien busque un relato ordenado de la historia del libro se pierde, porque no lo hay.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un exceso de entusiasmo. Vallejo escribe desde el amor a la lectura y a veces eso le hace afirmar de más: sostener que el libro es un invento perfecto e insuperable es una posición defendible como argumento y discutible como hecho, y su tratamiento de lo digital, aunque matizado, se apoya más en la intuición que en datos. Es un ensayo apasionado, y hay que leerlo sabiendo que la pasión es el método y no solo el tono.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   Cien años de soledad, en ocho páginas.
+
+   Novela, así que se aplica el apartado 4 bis: el titular AFIRMA sobre el
+   libro y no cuenta la trama. Y hay una trampa concreta: seis generaciones
+   de Buendía con los mismos nombres. Resumir la trama es imposible y además
+   es lo que hace todo el mundo; lo que hay que contar es POR QUÉ se repiten
+   los nombres, que es la tesis del libro.
+
+   Del realismo mágico hay que decir lo que casi nadie dice: que García
+   Márquez siempre negó estar inventando nada y que la clave está en el tono
+   de su abuela, no en la fantasía.
+
+   Y la matanza de las bananeras no es un episodio más: es el corazón
+   político del libro y está basada en un hecho real que Colombia negó
+   durante décadas. Eso va dentro.
+   -------------------------------------------------------------------------- */
+
+const CIEN_ANOS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una familia funda un pueblo huyendo de un muerto que no la deja en paz",
+      },
+      {
+        b: "texto",
+        texto:
+          "José Arcadio Buendía mata a un hombre en una pelea de honor. El muerto empieza a aparecérsele en el patio, lavándose la herida del cuello, y su mujer Úrsula lo ve también. No lo soportan: cogen a los suyos, cruzan la sierra durante meses y fundan un pueblo donde nadie los conozca. Lo llaman Macondo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Empieza siendo veinte casas de barro y caña brava a la orilla de un río de aguas transparentes, en un mundo tan reciente que muchas cosas carecían de nombre y había que señalarlas con el dedo. Y termina, cien años después, arrasado por un viento que lo borra del mapa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro entero cabe entre esas dos frases: un pueblo que se funda para huir de un muerto y se acaba sin dejar rastro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gabriel García Márquez la publicó en 1967, en Buenos Aires. Había pasado dieciocho meses encerrado escribiendo mientras su mujer sostenía la casa a crédito y empeñaba lo que hacía falta; cuando terminó no tenían dinero para enviar el manuscrito entero por correo. La primera edición se agotó en semanas y el libro le valió el Nobel en 1982.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: por qué la novela repite nombres y destinos, qué es de verdad el realismo mágico, qué pasa cuando Macondo se abre al mundo, qué hecho real hay debajo de su episodio más terrible y qué significa el final. La conclusión dice también dónde falla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los nombres se repiten porque los destinos también" },
+      {
+        b: "texto",
+        texto:
+          "Seis generaciones de Buendía y prácticamente dos nombres: José Arcadio y Aureliano. Es lo primero que desconcierta al lector y lo que hace que muchos abandonen en la página cincuenta, y es también el mecanismo central del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Úrsula, que vive más de cien años y lo ve todo, es quien formula la regla dentro de la propia novela: los José Arcadio son impulsivos y de empresa, y están marcados por un signo trágico; los Aureliano son lúcidos, retraídos y solitarios. Cada nombre trae su carácter, y con él su forma de acabar mal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No es que los Buendía olviden su historia: es que la repiten sin reconocerla, y por eso nunca aprenden nada de ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La novela avanza así en espiral y no en línea. Vuelven los mismos gestos —el taller de orfebrería, los pescaditos de oro que se hacen para volver a fundirlos, el cuarto de Melquíades— y vuelven las mismas soledades. La palabra soledad aparece asociada a casi todos los personajes, y esa es la enfermedad hereditaria de la familia, más que ninguna otra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro hilo es el miedo fundacional. Úrsula y José Arcadio Buendía son primos, y en la familia hay un antecedente de un niño nacido con cola de cerdo. Ese temor recorre cien años y explica el final, donde la profecía se cumple exactamente cuando ya nadie la recordaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Quien lea la novela buscando una trama que avance se desespera. Quien acepte que es una rueda, entiende de qué va.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El realismo mágico no consiste en inventar cosas: consiste en contarlas sin extrañarse",
+      },
+      {
+        b: "texto",
+        texto:
+          "En Macondo una mujer sube al cielo mientras tiende sábanas, llueve durante cuatro años, once meses y dos días, y un hilo de sangre recorre el pueblo, sube escaleras, dobla esquinas y llega hasta la madre del muerto. Nadie en la novela se sorprende.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el hallazgo técnico, y García Márquez explicó de dónde lo sacó: de su abuela. Contaba las cosas más extraordinarias con cara de palo, como si tal cosa, y eso las volvía creíbles. Él dijo que pasó años intentando escribir aquella historia y que no encontró el tono hasta que se acordó de cómo hablaba ella.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo prodigioso se cuenta con la misma naturalidad que se cuenta el desayuno. El truco está en el tono, no en el prodigio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y funciona también al revés, que es la mitad que suele olvidarse: lo que en el libro produce asombro son las cosas corrientes. El hielo es un espectáculo por el que se paga entrada, el imán y la lupa son maravillas, y los personajes se maravillan de lo real mientras aceptan lo imposible sin pestañear.",
+      },
+      {
+        b: "texto",
+        texto:
+          "García Márquez insistió toda su vida en que no inventaba: que el Caribe donde creció era así, que allí la gente contaba esas cosas y que él se limitaba a escribirlas. Le molestaba que se leyera como fantasía, porque para él era una forma de realismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Debajo de esa técnica hay una idea sobre el tiempo. En Macondo el pasado no se va, los muertos se quedan a vivir en la casa y los objetos guardan a la gente. Es una manera de contar que se parece bastante a cómo funciona la memoria.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Macondo se estropea cada vez que llega algo de fuera" },
+      {
+        b: "texto",
+        texto:
+          "La novela puede leerse como la historia de una comunidad que va perdiendo su mundo por etapas, y cada etapa entra desde fuera. Primero los gitanos con sus inventos. Después el corregidor que manda el gobierno y pinta las casas de azul. Después la Iglesia, después la guerra, después el ferrocarril, y por último la compañía bananera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al principio Macondo era un lugar sin autoridad, sin cementerio y sin muertos: José Arcadio Buendía lo había fundado buscando exactamente eso. Cada llegada trae orden y trae daño a la vez, y la novela no idealiza el aislamiento —el pueblo aislado también era ignorante— pero deja claro quién sale ganando en cada intercambio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cada progreso llega a Macondo de la mano de alguien que viene a llevarse algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las guerras civiles ocupan un tramo largo y sirven para el retrato más amargo del libro: el coronel Aureliano Buendía promueve treinta y dos levantamientos armados y los pierde todos. Empieza luchando por un ideal liberal y termina descubriendo que ya no pelea por nada, sino por orgullo, y que sus enemigos y sus aliados son intercambiables.",
+      },
+      {
+        b: "texto",
+        texto:
+          "García Márquez escribía sobre un país que había vivido eso literalmente: décadas de guerras entre liberales y conservadores donde las diferencias reales eran difíciles de encontrar y los muertos, incontables.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí aparece la frase que resume el desengaño del coronel: que la única diferencia entre unos y otros era que los liberales iban a misa de cinco y los conservadores a la de ocho.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La matanza que el libro cuenta ocurrió de verdad, y su país la negó" },
+      {
+        b: "texto",
+        texto:
+          "El episodio más terrible de la novela es la huelga de la compañía bananera. Los trabajadores paran para pedir condiciones básicas, el ejército los reúne en la plaza de la estación con la excusa de escuchar sus demandas, y los ametralla. Tres mil muertos que se cargan en un tren de doscientos vagones y se tiran al mar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al día siguiente no ha pasado nada. Las autoridades declaran que no hubo muertos, que los obreros volvieron a sus casas, que la compañía es una bendición. Y el pueblo entero acaba creyéndolo. José Arcadio Segundo, único superviviente, pasa el resto de su vida repitiendo lo que vio y todos lo toman por loco.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Al final de ese capítulo, la versión oficial no es que se mienta sobre la matanza: es que la matanza nunca existió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás hay un hecho histórico. En diciembre de 1928, en Ciénaga, cerca de donde nació el autor, el ejército colombiano disparó contra trabajadores en huelga de la United Fruit Company. El número de muertos nunca se estableció: las cifras oficiales hablaron de una decena y otras fuentes de cientos o miles, y durante décadas el episodio apenas figuró en la historia escrita del país.",
+      },
+      {
+        b: "texto",
+        texto:
+          "García Márquez eligió el número más alto y lo escribió como memoria. Es la operación más política de la novela: donde un país había puesto un vacío, un escritor puso un relato, y hoy mucha gente conoce la matanza por este libro y no por un manual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de paso deja la pregunta que sostiene el capítulo: qué pasa cuando toda la maquinaria de un Estado se dedica a que algo no haya ocurrido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las mujeres sostienen la casa mientras los hombres persiguen quimeras",
+      },
+      {
+        b: "texto",
+        texto:
+          "El reparto de papeles en la novela es constante y significativo. Los hombres Buendía se van a la guerra, se encierran en el taller a fundir pescaditos de oro, persiguen inventos imposibles o desaparecen en el mundo. Las mujeres se quedan y sostienen la casa, el dinero y a los niños.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Úrsula es el eje del libro más que ningún hombre: monta un negocio de animalitos de caramelo que mantiene a la familia, amplía la casa, cría a hijos y nietos, y sigue tomando decisiones cuando está ciega y no lo dice para que nadie la aparte, memorizando la posición de las cosas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Toda la locura de los Buendía se paga con el trabajo de mujeres que nunca salen en la parte épica de la historia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A su lado están las otras: Amaranta, que rechaza a los hombres que la quieren y se pasa la vida tejiendo y destejiendo su propia mortaja; Pilar Ternera, que lee el futuro en las cartas y acaba engendrando con dos generaciones de la familia; Fernanda del Carpio, criada para ser reina, que llega a la casa con sus manías de aristócrata arruinada y la endurece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y Remedios la Bella, que asciende al cielo con las sábanas y a la que la novela describe como la única persona sin capacidad de fingir, incapaz de entender las convenciones y por eso letal para los hombres que se enamoran de ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro no las presenta como víctimas ni como santas. Son personajes duros, con manías y crueldades propias, y son las que aguantan de pie los cien años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro que se está leyendo es el que un personaje descifra al final",
+      },
+      {
+        b: "texto",
+        texto:
+          "Melquíades, el gitano que trae los inventos al principio y que muere y vuelve varias veces, dejó escritos unos pergaminos en sánscrito que nadie logra descifrar durante generaciones. Los Buendía los guardan en un cuarto donde el polvo no entra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En las últimas páginas, el último Aureliano consigue leerlos, mientras un viento huracanado empieza a arrasar Macondo. Descubre que Melquíades había escrito la historia completa de la familia con cien años de antelación, y que no la ordenó en el tiempo convencional sino concentrando un siglo de episodios de modo que coexistieran en un instante.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Descifra el papel donde estaba escrito su propio final, y lo termina de leer en el momento exacto en que ocurre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro se cierra sobre sí mismo: lo que el lector acaba de leer es lo que el personaje está leyendo. Y la última línea deja dicho que las estirpes condenadas a cien años de soledad no tenían una segunda oportunidad sobre la tierra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese final da sentido a la estructura entera. Si la historia estaba escrita desde el principio, la repetición de nombres y de destinos no es un capricho del autor: es la forma que tiene el libro de decir que aquella familia no podía salir de su rueda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y explica también por qué el pueblo desaparece sin dejar rastro. Macondo no cae derrotado por nadie: se borra cuando se termina de leer el papel donde estaba escrito, que es lo más parecido a decir que su existencia dependía de que alguien la contara.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La novela cuenta cien años de una familia en un pueblo del Caribe, y su tesis está en la forma: los nombres se repiten porque los destinos se repiten, y una estirpe que no reconoce su propia historia está condenada a darle vueltas hasta agotarse. Alrededor de eso caben la fundación de un pueblo, treinta y dos guerras perdidas, una matanza que el poder borró y un final que se lee mientras se cumple.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una manera de contar que después ha usado medio mundo: lo extraordinario narrado sin énfasis y lo corriente narrado como un prodigio. Y una operación de memoria poco común en una novela: donde un país había puesto un vacío oficial, este libro puso tres mil muertos y un tren de doscientos vagones, y hoy mucha gente conoce esa matanza por aquí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las estirpes condenadas a cien años de soledad no tenían una segunda oportunidad sobre la tierra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Los nombres son un obstáculo real y no un capricho de lector perezoso: seis generaciones con dos nombres, más los apodos y las repeticiones, hacen que buena parte de la gente que la empieza no la termine. El propio libro incluye árboles genealógicos en muchas ediciones, que es la manera educada de reconocer el problema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un asunto que hoy se lee peor que en 1967: el tratamiento del deseo. La novela narra sin ningún juicio relaciones entre adultos y niñas —Remedios se casa siendo una niña, y algún personaje mantiene relaciones con menores—, y el tono de naturalidad que hace funcionar lo maravilloso también se aplica ahí, con un efecto muy distinto. Conviene saberlo antes de abrirla, porque la novela no avisa y no lo problematiza en ninguna parte.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cien-anos": CIEN_ANOS,
+  "infinito-junco": INFINITO_JUNCO,
   "cisne-negro": CISNE_NEGRO,
   spqr: SPQR,
   "por-que-dormimos": POR_QUE_DORMIMOS,

@@ -254,6 +254,76 @@ discutirse: si nadie puede estar en desacuerdo, es una etiqueta.
    dinero, empresa— se le habla al lector de tú, que es lo que hace Headway.
    En uno de historia o de ciencia, no: ahí suena a folleto.
 
+## 4 bis. Los cuatro casos que dan problemas
+
+Estos salieron escribiendo, uno por uno, y cada uno costó una reescritura. Van
+aquí para que la siguiente vez se sepan antes de empezar.
+
+### Una NOVELA no se resume como un ensayo
+
+En un ensayo, el titular afirma lo que el libro sostiene. En una novela, la
+tentación es ir contando la trama, y entonces sale el resumen que escribe todo
+el mundo. **El titular tiene que seguir afirmando sobre el LIBRO** —qué
+sostiene, qué demuestra, qué hace— y no etiquetar un capítulo.
+
+| así sí | así no |
+|---|---|
+| El Partido no quiere que obedezcas: quiere decidir qué es real | La habitación 101 |
+| Lo que hace única a una rosa es el tiempo que le has dedicado | El encuentro con el zorro |
+
+Y hay que contar **lo que casi nadie cuenta**, no lo que todo el mundo sabe sin
+haber leído el libro. De *1984*, cualquiera sabe lo del Gran Hermano; casi
+nadie sabe que el apéndice está escrito en pasado, o sea que aquel régimen
+cayó. De *El principito*, todo el mundo recuerda el zorro; casi nadie recuerda
+que el final es una muerte.
+
+### La anécdota famosa suele ser una trampa
+
+Cuando un libro tiene una anécdota que circula por todas partes, conviene
+mirarla dos veces antes de meterla:
+
+- **A veces el propio libro la desmonta.** *SPQR* dedica un capítulo a explicar
+  por qué desconfiar de las historias de emperadores locos, así que llenar el
+  resumen con el caballo de Calígula es hacer justo lo que el libro combate.
+- **A veces está limada.** La anécdota de Bukowski con la que abre *El sutil
+  arte* omite que trabajó de cartero durante años y escribió sin parar.
+- **A veces no ocurrió así.** El caso de Kitty Genovese en *Influencia* se
+  cuenta con la versión periodística de 1964, que después se corrigió bastante.
+
+Si se usa igual —porque explica bien algo—, se usa **diciendo lo que se sabe de
+ella**. Eso no estropea el resumen: lo hace fiable.
+
+### Un libro delicado no admite la segunda persona
+
+Frankl estuvo tres años en cuatro campos y su mujer, su madre, su padre y su
+hermano murieron en ellos. Escribir «tú puedes elegir tu actitud» convierte eso
+en un lema de taza. **En un libro escrito desde una desgracia real, tercera
+persona siempre**, y con cuidado además en la conclusión: hay frases que,
+leídas como fórmula de éxito, dicen algo cruel y falso —que quien se hunde no
+puso de su parte—. Cuando una frase famosa se ha desgastado así, la conclusión
+tiene que decirlo.
+
+### Lo que pasó DESPUÉS de publicarse forma parte del libro
+
+Casi ningún resumen lo cuenta y es lo que más valor añade, porque no está en la
+contraportada ni en la solapa. Va en la conclusión, con lo concreto:
+
+- **Correcciones del propio autor.** Dweck denunció en 2016 que casi todo el
+  mundo aplicaba mal su libro. Cialdini añadió un séptimo principio en 2016.
+  Kahneman escribió en 2017 que su capítulo del *priming* no se sostenía.
+- **Revisiones documentadas.** *Por qué dormimos* recibió en 2019 una crítica
+  detallada que encontró cifras infladas y una atribución falsa a la OMS, y su
+  autor corrigió puntos en su web.
+- **Estudios que se cayeron al replicarse.** El experimento de las nubes de
+  azúcar de *Mindset*; varios de los clásicos de *Influencia*.
+- **Cifras que ya no son las de entonces.** *Cosmos* da quince mil millones de
+  años al universo; hoy se estiman trece mil ochocientos.
+
+**Y una advertencia que vale para todos:** que un autor acertara una vez no
+convierte en verdad lo demás. Taleb acertó en 2008 y eso no valida su método,
+porque quien avisa cada año de una catástrofe acaba coincidiendo con una — que
+es exactamente el sesgo que su propio libro enseña a detectar.
+
 ## 5. La ficha del libro
 
 Se ve ANTES que el resumen y se escribe con el mismo cuidado. Son tres cosas
@@ -287,6 +357,9 @@ frase, se continúa la del rótulo —aprenderás… esto—.
 - [ ] ¿Hay alguna página que hable del libro en vez de su contenido?
 - [ ] ¿Cada página tiene su caja del rayo, y se sostiene sola?
 - [ ] ¿La conclusión dice dónde falla?
+- [ ] ¿Y lo que pasó DESPUÉS de publicarse, si pasó algo?
+- [ ] Si es novela, ¿los titulares afirman sobre el libro y no cuentan la trama?
+- [ ] ¿Alguna anécdota famosa metida sin comprobar de dónde sale?
 - [ ] ¿Las páginas que pide su tamaño, y todas de unas 260 palabras?
 - [ ] ¿El tamaño sale de contar sus argumentos, y no de lo famoso que sea?
 - [ ] ¿La primera cuenta de dónde parte el libro y anuncia el recorrido?

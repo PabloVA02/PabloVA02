@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "cien-anos": "La historia de la familia Buendía en Macondo",
   "cisne-negro": "El impacto de lo altamente improbable",
   "por-que-dormimos": "La nueva ciencia del sueño",
   influencia: "La psicología de la persuasión",
