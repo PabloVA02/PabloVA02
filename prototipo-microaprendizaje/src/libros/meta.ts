@@ -472,22 +472,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "roba-artista",
-    titulo: "Roba como un artista",
-    autor: "Austin Kleon",
-    ano: 2012,
-    gancho: "Un poeta que tachaba periódicos con rotulador convirtió una charla improvisada en el manual de creatividad más regalado de la década.",
-    porQue: "Es el libro que más gente cita para justificar que copia, y dice casi lo contrario de lo que se le atribuye.",
-    minutos: 25.6,
-    capitulos: [
-      { titulo: "El poeta que tachaba periódicos", minutos: 5.1 },
-      { titulo: "La charla de abril de 2011", minutos: 5.1 },
-      { titulo: "Las diez cosas de la lista", minutos: 5.1 },
-      { titulo: "Sé aburrido, dice el libro", minutos: 5.2 },
-      { titulo: "Robar bien, y hasta dónde llega", minutos: 5.1 },
-    ],
-  },
-  {
     id: "camino-artista",
     titulo: "El camino del artista",
     autor: "Julia Cameron",

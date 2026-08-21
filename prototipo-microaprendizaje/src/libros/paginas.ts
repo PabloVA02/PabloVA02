@@ -35369,7 +35369,264 @@ const POR_QUE_FRACASAN: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Roba como un artista, en ocho páginas.
+
+   Breve, y aquí es obligado: el original tiene 160 páginas con muchos
+   dibujos y se lee en una hora.
+
+   Libro PRÁCTICO: segunda persona en la prosa, titular que afirma.
+
+   La conclusión dice lo que el libro esquiva: la diferencia entre
+   inspirarse y apropiarse existe y pesa de manera muy distinta según quién
+   la haga.
+   -------------------------------------------------------------------------- */
+
+const ROBA_ARTISTA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El libro nació de una charla en una universidad pequeña" },
+      {
+        b: "texto",
+        texto:
+          "En la primavera de 2011, a Austin Kleon lo invitaron a dar una charla a los estudiantes de una universidad pequeña del estado de Nueva York. No era una gran conferencia ni había público de fuera; era una de esas charlas que se dan a alumnos que están a punto de terminar y que no saben muy bien qué hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kleon hizo una lista de diez cosas que le habría gustado que le dijeran a él a esa edad, la contó con dibujos y después colgó el texto en su blog. Aquello circuló por internet a una velocidad enorme, y de ahí salió un libro breve, ilustrado, que se lee en una hora y que ha vendido millones de ejemplares en decenas de idiomas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene saber qué es y qué no. No es un tratado sobre creatividad ni contiene argumentos desarrollados: es una lista de consejos prácticos con dibujos, escrita por alguien que trabaja de esto y dirigida a quien está empezando. Su valor está en la concreción, no en la profundidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren sus ideas principales: por qué sostiene que nada es completamente original, cómo distingue el buen robo del malo, qué hacer cuando uno no sabe todavía quién es, qué trabajo conviene hacer, para qué sirve enseñar lo que se está haciendo antes de terminarlo y por qué defiende llevar una vida aburrida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro más leído sobre empezar algo creativo era una lista de diez cosas que su autor habría querido oír a los veinte años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nada es completamente original, y eso te quita un peso de encima" },
+      {
+        b: "texto",
+        texto:
+          "La primera idea del libro es la que desarma el bloqueo más común de quien empieza: la creencia de que hay que tener algo original que decir antes de ponerse a hacer nada. Kleon sostiene que la originalidad entendida así no existe y que perseguirla es la manera más eficaz de no empezar nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es genealógico. Toda obra procede de otras: los que uno admira admiraban a alguien, y esos a su vez a otros, y lo que llamamos una voz propia es el resultado de una combinación particular de influencias que nadie más tiene exactamente igual. Una persona es, escribe, la mezcla de todo lo que ha dejado entrar en su vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale un ejercicio muy concreto y que se puede hacer esta tarde. Elige a alguien cuyo trabajo te importe de verdad y averigua a quién admiraba esa persona. Después haz lo mismo con esos tres o cuatro nombres, y otra vez. En pocos pasos aparece un árbol genealógico entero de una tradición, y ahí dentro está el material con el que uno va a trabajar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kleon añade una recomendación de método que en su propio oficio es literal: llevar un archivo de cosas robadas. Un cuaderno, una carpeta o una caja donde ir metiendo frases, imágenes, ideas y trozos que llaman la atención sin saber para qué servirán. Eso es materia prima, y a los seis meses ese archivo es la mitad del trabajo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que llamas tu voz propia es la mezcla particular de tus influencias, y nadie más tiene exactamente esa combinación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hay un buen robo y un mal robo, y se distinguen" },
+      {
+        b: "texto",
+        texto:
+          "La palabra robar del título es deliberadamente provocadora y Kleon dedica un capítulo a marcar la frontera, porque la afirmación sin matices no serviría de nada. Su lista de diferencias es la parte más útil del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un buen robo honra a la fuente, la estudia a fondo, la transforma en otra cosa, roba de muchos sitios distintos y reconoce de dónde viene. Un mal robo degrada la fuente, la copia sin entenderla, la imita en vez de transformarla, roba de una sola persona y oculta la procedencia. La diferencia está en tres cosas: cuántas fuentes, cuánta transformación y si se dice.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El criterio del número es el más práctico. Copiar a un solo autor produce una imitación reconocible; mezclar a diez produce algo que ya no se parece a ninguno de ellos. Kleon lo dice de manera brutal: si copias a uno, te llamarán imitador; si copias a diez, te llamarán original.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una instrucción sobre copiar que suele malinterpretarse. Copiar es la manera clásica de aprender un oficio —así se ha enseñado a pintar durante siglos, con copias de maestros— y el objetivo de esa copia no es el resultado sino entender cómo lo hizo el otro. Lo que hay que copiar, dice, no es el estilo sino el pensamiento que hay detrás.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Copia a uno y te llamarán imitador; copia a diez y te llamarán original: la diferencia es aritmética antes que moral.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "No esperes a saber quién eres para ponerte a hacer cosas" },
+      {
+        b: "texto",
+        texto:
+          "El segundo bloqueo que el libro ataca es la creencia de que primero hay que encontrarse a uno mismo y después trabajar. Kleon sostiene que ese orden es imposible y que la identidad de alguien que hace algo sale del trabajo, no al revés.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su versión de esa idea es la costumbre inglesa de fingir hasta conseguirlo, y la matiza de una manera que la hace útil: no se trata de engañar a nadie sobre lo que uno sabe, sino de actuar ya como la persona que uno quiere llegar a ser, hacer el trabajo que haría esa persona, y confiar en que la etiqueta llegará después de los hechos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que da es de espectáculo. Nadie sube a un escenario sintiéndose ya un músico; se sube haciendo de músico, y a fuerza de hacerlo un número suficiente de veces uno acaba siéndolo. Lo mismo con escribir, con dibujar o con montar algo: el título llega cuando ya hay una obra detrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade el corolario contra la búsqueda de la vocación. Casi nadie sabe de antemano qué es lo suyo, y la manera de averiguarlo no es pensar mucho sino hacer cosas y ver cuáles le mantienen despierto. La pregunta útil no es qué quieres ser, sino qué es lo que ya haces cuando nadie te obliga.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta útil no es qué quieres ser: es qué haces ya cuando nadie te obliga y nadie te lo va a pagar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Haz lo que te gustaría encontrar hecho" },
+      {
+        b: "texto",
+        texto:
+          "El consejo más práctico del libro para decidir en qué trabajar cabe en una frase: escribe el libro que quieres leer, haz la música que quieres escuchar, monta el negocio del que querrías ser cliente. Es decir, produce lo que buscarías si existiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El razonamiento tiene dos partes y las dos aguantan. La primera es de motivación: uno va a dedicar años a eso, y solo aguanta esos años quien de verdad echa de menos que exista. La segunda es de mercado: si tú lo echas de menos, es bastante probable que haya más gente en la misma situación, porque eres una persona corriente y tus intereses no son únicos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kleon lo aplica a su propio caso y funciona como demostración. Sus poemas los hace tachando con rotulador negro las palabras de una página de periódico hasta dejar solo unas cuantas, que forman un texto nuevo. No inventa ni una palabra: quita. Es literalmente su tesis convertida en método de trabajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale su idea sobre las limitaciones, que cierra el libro. Sostiene que la creatividad no consiste en añadir sino en quitar, y que la libertad total paraliza: lo que hace posible empezar es un límite, sea el formato, el plazo, el material que hay a mano o la ausencia de presupuesto. Elegir qué dejar fuera es la decisión creativa principal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La libertad total paraliza: lo que permite empezar es un límite, y elegir qué dejas fuera es la decisión más importante que tomas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Enseña lo que estás haciendo antes de terminarlo" },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos que más ha influido en cómo trabaja mucha gente propone algo que en 2012 no era evidente: no esperar a tener una obra terminada para enseñar nada, sino ir mostrando el proceso mientras ocurre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es que casi nadie tiene una obra maestra que enseñar y todo el mundo tiene un proceso, y que el proceso interesa: los bocetos descartados, los intentos fallidos, las herramientas, los materiales, lo que se está leyendo. Compartir eso hace dos cosas a la vez: obliga a trabajar con regularidad y va reuniendo a la gente a la que le importa lo mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una regla contra la que casi todo el mundo peca: enseñar el trabajo y no promocionarse a uno mismo. La diferencia es concreta. Publicar lo que has hecho, lo que has aprendido y lo que te ha salido mal es enseñar el trabajo; publicar continuamente lo bueno que eres es otra cosa, y la segunda cansa a cualquiera en dos semanas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí hay que poner una advertencia que el libro no puede tener. Esto se escribió en 2012, cuando las plataformas mostraban a la gente lo que seguía y compartir tenía un coste bajo y un efecto directo. Hoy la atención se reparte por algoritmos que premian otras cosas, y el consejo sigue siendo bueno como disciplina de trabajo y ha dejado de garantizar nada como estrategia de difusión.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Enseñar lo que estás haciendo obliga a hacerlo con regularidad, y esa es la mitad del beneficio aunque no te vea nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Sé aburrido, que es la única manera de tener tiempo" },
+      {
+        b: "texto",
+        texto:
+          "El consejo más contrario al mito del artista es también el más práctico del libro, y Kleon lo formula sin ninguna ironía: sé aburrido. Con eso quiere decir que la parte creativa de una vida necesita una base rutinaria, ordenada y previsible que la sostenga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus recomendaciones concretas escandalizan a quien espera otra cosa. Ten un trabajo que te pague las facturas, aunque no tenga nada que ver con lo tuyo. Aprende a llevar una agenda y a cumplir horarios. Ahorra algo. Come y duerme bien. Ponte en forma. Cásate con alguien ordenado y no con alguien caótico. Y haz el trabajo importante siempre a la misma hora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento sobre el empleo estable va contra el consejo habitual de dejarlo todo y apostar. Sostiene que un trabajo de día no es el enemigo del proyecto propio: es lo que lo hace posible, porque quita la urgencia económica y permite trabajar sin tener que gustar a nadie desde el primer día. Y añade que un empleo pone en contacto con el mundo y con gente que no se dedica a lo mismo, cosa que es materia prima.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la misma línea va su consejo sobre el trato con los demás, que es el más simple del libro y sorprendentemente útil: sé amable. El mundo de cualquier oficio es pequeño, la gente habla, y las oportunidades llegan casi siempre de personas concretas. Y salir de casa y estar con gente, dice, es el único método conocido para conocer a alguien.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un trabajo estable no es el enemigo de tu proyecto: es lo que te permite hacerlo sin tener que gustar a nadie desde el primer día.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Roba como un artista sostiene que nada es completamente original, que lo que llamamos voz propia es una combinación particular de influencias y que por tanto conviene coleccionarlas a propósito en vez de esperar una inspiración que no va a venir. Alrededor de eso ofrece instrucciones concretas: haz lo que te gustaría encontrar hecho, enseña el proceso mientras trabajas, ponte límites, lleva una vida ordenada y sé amable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es que desbloquea. Es un libro de hora y media que quita de en medio las dos excusas más frecuentes de quien no empieza —que todo está hecho y que aún no sabe quién es— y que da a cambio cosas que se pueden hacer mañana.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La creatividad no consiste en añadir, sino en decidir qué dejas fuera, y eso se puede empezar a hacer hoy con lo que tengas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es una lista de aforismos ilustrados y no hay en él un solo argumento desarrollado: quien busque profundidad se va a quedar con hambre a los veinte minutos. Y sus ideas están casi todas tomadas de otros, cosa que él admite porque es literalmente su tesis; el problema es que los originales de los que las toma dicen lo mismo con bastante más sustancia, y este libro funciona como puerta de entrada y no como destino.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un asunto que el libro esquiva y que su propio título obliga a plantear. La diferencia entre inspirarse y apropiarse existe, tiene consecuencias legales y económicas y no pesa igual para todo el mundo: cuando alguien con público y con medios toma el trabajo de alguien sin ninguna de las dos cosas, la palabra robar deja de ser una metáfora simpática. Kleon dedica al asunto una lista de dos columnas y no vuelve sobre él, y esa es la conversación que el libro necesitaría tener y no tiene.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "roba-artista": ROBA_ARTISTA,
   "por-que-fracasan": POR_QUE_FRACASAN,
   "deja-de-ser-tu": DEJA_DE_SER_TU,
   "cerebro-de-pan": CEREBRO_DE_PAN,

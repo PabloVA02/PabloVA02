@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "roba-artista": [
+    "por qué buscar la originalidad es la mejor manera de no empezar",
+    "cómo se distingue el buen robo del malo",
+    "qué hacer cuando todavía no sabes quién eres",
+    "para qué sirve enseñar el trabajo antes de terminarlo",
+    "por qué defiende llevar una vida aburrida y ordenada",
+  ],
+
   "por-que-fracasan": [
     "por qué no valen la geografía, la cultura ni la ignorancia",
     "qué distingue unas instituciones inclusivas de unas extractivas",

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "roba-artista":
+    "Empezó como una charla para estudiantes de una universidad pequeña, con diez cosas que su autor habría querido oír a los veinte años. La colgó en su blog, circuló por todas partes y acabó siendo un libro de una hora de lectura.",
+
   "por-que-fracasan":
     "Nogales está partida en dos por una valla: mismo clima, misma comida, mismas familias, y el triple de renta a un lado. De ese caso parten para sostener que lo que separa a los países ricos de los pobres son sus instituciones.",
 
