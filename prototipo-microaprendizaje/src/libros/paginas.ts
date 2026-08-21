@@ -15487,7 +15487,7 @@ const GRAN_GATSBY: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Cuando por fin se encuentran, con Nick de intermediario y un té ridículo en su casita, la escena no tiene nada de romántica: Gatsby está aterrorizado, tira un reloj de la repisa, quiere marcharse. Y después, en la escena que mejor lo retrata, le enseña sus camisas: abre los armarios y las va tirando por el aire, decenas, de lino y de seda, hasta que ella se echa a llorar sobre el montón y dice que nunca había visto camisas tan bonitas.",
+          "Cuando por fin se encuentran, con Nick de intermediario y un té ridículo en su casita, la escena no tiene nada de romántica: Gatsby está aterrorizado, tira un reloj de la repisa, quiere marcharse. Y después, en la escena que mejor lo retrata, le enseña sus camisas: abre los armarios y las va tirando por el aire, decenas, de lino y de seda, hasta que ella se echa a llorar sobre el montón y dice que nunca había visto camisas tan bonitas. Y hay una frase suya que resume el montaje entero: se pasó cinco años comprando aquella casa por el único motivo de que desde el jardín se veía la luz del embarcadero de ella.",
       },
       {
         b: "idea",
@@ -15562,7 +15562,7 @@ const GRAN_GATSBY: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Es la mejor imagen de la novela porque no es un símbolo religioso, es un anuncio. La única cosa parecida a Dios que vigila ese mundo es un cartel comercial abandonado por un dentista de ojos que se fue a otro sitio. Y debajo, esa misma tarde, Tom y Daisy pasan a toda velocidad camino de la ciudad sin mirar.",
+          "Es la mejor imagen de la novela porque no es un símbolo religioso, es un anuncio. La única cosa parecida a Dios que vigila ese mundo es un cartel comercial abandonado por un dentista de ojos que se fue a otro sitio. Y debajo, esa misma tarde, Tom y Daisy pasan a toda velocidad camino de la ciudad sin mirar. Fitzgerald conocía ese descampado de verdad: era el vertedero de cenizas de Corona, en Queens, por donde pasaba el tren de Long Island y que la ciudad tapó veinte años después para montar encima una exposición universal.",
       },
       {
         b: "idea",

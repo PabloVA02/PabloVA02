@@ -35,8 +35,9 @@ const OIR = 140;
 
 const src = readFileSync(new URL("../src/libros/paginas.ts", import.meta.url), "utf8");
 
-const nombres = process.argv.slice(2).length
-  ? process.argv.slice(2)
+const pedidos = process.argv.slice(2).filter((a) => !a.startsWith("--"));
+const nombres = pedidos.length
+  ? pedidos
   : [...src.matchAll(/^const ([A-Z_0-9]+): PaginaLibro\[\] = \[/gm)].map((m) => m[1]);
 
 const cuenta = (t) => t.trim().split(/\s+/).filter(Boolean).length;
@@ -99,6 +100,14 @@ for (const nombre of nombres) {
   ].filter(Boolean);
   if (problemas.length) fuera++;
   const aviso = problemas.length ? `  ⚠ ${problemas.join(" · ")}` : "  ✓";
+  /* Con `--detalle` se enseña página por página. Es lo que hace falta cuando
+     el aviso dice que una no llega a 220: sin esto hay que ir contando a mano
+     para saber cuál, y eso se hace una vez por libro. */
+  if (process.argv.includes("--detalle")) {
+    console.log(
+      `  ${paginas.map((p, i) => `${i + 1}:${palabrasDe(p)}`).join("  ")}`,
+    );
+  }
   console.log(
     `${nombre.padEnd(20)} ${tam.nombre.padEnd(7)} ${String(paginas.length).padStart(2)} pág · ` +
       `${String(total).padStart(4)} pal · ${(total / OIR).toFixed(1).padStart(4)} min de audio${aviso}`,
