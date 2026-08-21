@@ -22,6 +22,8 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "codigo-obesidad": "Descifra los secretos de la pérdida de peso",
+  "nacidos-correr": "La historia de una tribu oculta, un puñado de atletas y la mayor carrera de la historia",
   "marte-venus": "Guía práctica para mejorar la comunicación y obtener lo que deseas en tus relaciones",
   "sentirse-bien": "Una nueva terapia contra las depresiones",
   "open-agassi": "Memorias",

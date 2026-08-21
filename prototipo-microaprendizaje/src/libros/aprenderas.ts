@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "codigo-obesidad":
+    "Casi todo el mundo que se pone a dieta adelgaza, y entre el ochenta y el noventa y cinco por ciento lo recupera. Un nefrólogo sostiene que si un tratamiento falla nueve de cada diez veces, el problema no está en el paciente.",
+
+  "nacidos-correr":
+    "Entre el sesenta y el ochenta por ciento de quienes corren se lesionan cada año, y ninguna otra actividad considerada natural produce esa cifra. Un periodista lesionado fue a buscar a un pueblo de Chihuahua que corre en sandalias hasta los setenta.",
+
   "marte-venus":
     "Vendió cincuenta millones de ejemplares con una fábula: que los hombres venían de Marte, las mujeres de Venus, y al llegar a la Tierra olvidaron que eran distintos. No trae ni un dato, y lo que se ha medido después va en contra.",
 

@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "codigo-obesidad": [
+    "qué se midió en el experimento de hambre de Minnesota",
+    "qué le pasó al metabolismo de unos concursantes seis años después",
+    "por qué la fructosa va casi solo al hígado",
+    "de dónde salió el consejo de comer cinco veces al día",
+    "qué han encontrado los ensayos sobre el ayuno",
+  ],
+
+  "nacidos-correr": [
+    "quiénes son los rarámuris y cómo corren",
+    "qué pasó en Leadville en 1993",
+    "por qué el cuerpo humano aguanta más que casi ningún animal",
+    "qué se le reprocha a la zapatilla amortiguada",
+    "qué predice de verdad una lesión al correr",
+  ],
+
   "marte-venus": [
     "por qué la ayuda no pedida se recibe como una crítica",
     "qué es la cueva y por qué perseguir a alguien la alarga",

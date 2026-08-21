@@ -40186,7 +40186,551 @@ const MARTE_VENUS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Nacidos para correr, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO (reportaje): títulos cortos de imagen y la afirmación
+   en la primera frase. Caja del rayo en tercera persona: hay un pueblo real
+   con problemas reales dentro y no admite el tono de manual.
+
+   La conclusión lleva lo que pasó con el movimiento que este libro lanzó
+   —la demanda contra Vibram en 2012, las fracturas por estrés de los que se
+   pasaron al calzado mínimo— y la muerte de Caballo Blanco en 2012.
+   -------------------------------------------------------------------------- */
+
+const NACIDOS_CORRER: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una pregunta que ningún médico contestaba" },
+      {
+        b: "texto",
+        texto:
+          "Christopher McDougall medía un metro noventa y tres, pesaba cerca de cien kilos y se lesionaba cada vez que intentaba correr. Fue a seis especialistas y todos le dijeron lo mismo con distintas palabras: que su cuerpo no estaba hecho para eso, que probara con la bicicleta y que se comprara unas zapatillas mejores. La pregunta con la que empieza el libro es más simple: ¿por qué me duele el pie?",
+      },
+      {
+        b: "texto",
+        texto:
+          "Le llamaba la atención que la respuesta no cuadrara con lo que veía. Correr es lo más barato y lo más antiguo que hace un ser humano, no hace falta ningún equipo, y sin embargo entre el sesenta y el ochenta por ciento de quienes corren con regularidad se lesionan cada año. Ninguna otra actividad de la que se diga que es natural produce ese porcentaje de bajas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Buscando una respuesta encontró una fotografía y una nota suelta en una revista mexicana: un pueblo de las barrancas de Chihuahua que corre distancias enormes con sandalias hechas de neumático, hasta los setenta años, y del que ningún médico había registrado nunca las lesiones que a él lo tenían parado. Este libro, publicado en 2009, es lo que salió de ir a buscarlos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren esa investigación: quiénes son los rarámuris y cómo viven, el vagabundo estadounidense que organizó una carrera imposible en el fondo de un cañón, la vez que aquellos corredores ganaron la ultramaratón más dura de Estados Unidos, la teoría de que la especie humana está construida para cansar a su presa, la discusión sobre la zapatilla amortiguada y la manera de correr que el libro propone.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ninguna otra cosa que se considere natural en el ser humano lesiona cada año a tres de cada cuatro que la practican.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un pueblo en el fondo de un cañón" },
+      {
+        b: "texto",
+        texto:
+          "Los rarámuris viven en las barrancas del Cobre, en la sierra de Chihuahua, un sistema de cañones más profundo que el del Colorado y con caminos que no admiten vehículos. Se llaman a sí mismos los de los pies ligeros. Se retiraron allí en el siglo XVI huyendo de los conquistadores y ese aislamiento es la razón de que sus costumbres hayan llegado hasta hoy.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Correr no es un deporte para ellos sino un medio de transporte y una fiesta. Recorren decenas de kilómetros para visitar a un pariente o llevar un mensaje. Y celebran la rarájipari, una carrera comunitaria en la que dos equipos empujan una bola de madera con el pie por senderos de montaña durante uno o dos días seguidos, corriendo por turnos, de noche con antorchas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que McDougall va a mirar es cómo lo hacen. Corren con huaraches, unas sandalias de suela plana recortada de un neumático viejo y atadas con tiras de cuero, sin amortiguación ninguna. Comen pinole —harina de maíz tostado con agua—, chía y frijol, y beben tesgüino, una cerveza de maíz que aparece en todas las fiestas. Y siguen corriendo a los sesenta y a los setenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro no romantiza del todo, aunque se le acerca. Deja claro que la sierra es un sitio duro, con sequías que arruinan la cosecha, con hambre en los años malos y con el narcotráfico instalado en los cañones desde hace décadas. Varios de los corredores que aparecen han tenido que dejar sus tierras. Correr no les ha resuelto nada de eso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Para los rarámuris correr no es un ejercicio que se añade al día: es la manera de moverse y de celebrar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El vagabundo que organizó una carrera imposible" },
+      {
+        b: "texto",
+        texto:
+          "El personaje que sostiene el libro es un estadounidense flaco y de barba blanca al que en la sierra llamaban Caballo Blanco. Se llamaba Micah True, había sido boxeador y mudanzas, y llevaba años viviendo solo en una choza cerca de Urique, corriendo por los cañones y llevando maíz a las familias rarámuris más aisladas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su idea era una carrera de unos ochenta kilómetros por el fondo del cañón, sin patrocinadores, sin dorsales de marca y sin premios en metálico, en la que los mejores ultrafondistas estadounidenses corrieran contra los rarámuris en el terreno de estos. La organizó a base de cartas y de recados durante años, y se celebró en marzo de 2006.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fue un grupo improbable. Scott Jurek, que llevaba siete victorias seguidas en la ultramaratón más famosa de Estados Unidos. Jenn Shelton y Billy Barnett, dos veinteañeros que corrían cien millas y bebían cerveza la noche antes. Ted McDonald, que corría descalzo por convicción. Eric Orton, el entrenador que había aceptado el encargo de conseguir que McDougall corriera sin romperse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ganó Arnulfo Quimare, un rarámuri que corrió con sandalias y falda tradicional. Jurek entró segundo, unos minutos detrás, después de haberlo llevado en cabeza casi toda la carrera. Y McDougall, el hombre al que seis médicos habían dicho que no estaba hecho para correr, terminó los ochenta kilómetros del cañón sin lesionarse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La carrera se organizó sin premios en metálico a propósito: era la única forma de que el resultado significara algo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Leadville, 1993" },
+      {
+        b: "texto",
+        texto:
+          "Trece años antes había pasado algo que casi nadie recuerda y que el libro reconstruye. Un promotor estadounidense, Rick Fisher, llevó a un grupo de rarámuris a Leadville, en Colorado, a correr una ultramaratón de cien millas por encima de los tres mil metros de altitud, considerada una de las más duras que existen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera vez no acabaron: nadie les había explicado el recorrido ni el sistema de avituallamientos, y se perdieron. Volvieron en 1993 con instrucciones y con sus sandalias. Ganó Victoriano Churro, un granjero de cincuenta y cinco años. El segundo puesto fue también para un rarámuri y el cuarto para otro. Al año siguiente Juan Herrera ganó y batió el récord del recorrido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta también el reverso, y es lo que salva el episodio de ser una anécdota bonita. Aquellos corredores fueron llevados y traídos por promotores que negociaban en su nombre, cobraban los premios y decidían en qué carreras participaban. Las relaciones acabaron mal más de una vez, y varios dejaron de competir fuera de la sierra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un contrapunto que McDougall no esconde: en esos mismos años, la mejor ultrafondista del mundo era Ann Trason, que ganaba a casi todos los hombres del circuito y que en Leadville protagonizó con los rarámuris una de las carreras más disputadas de la historia de la prueba. La lección del capítulo no es que unos corran mejor que otros, sino a qué edad y hasta cuándo se puede correr.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un hombre de cincuenta y cinco años con sandalias de neumático ganó la carrera más dura de Estados Unidos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El animal que caza cansando" },
+      {
+        b: "texto",
+        texto:
+          "La parte científica del libro viene de un artículo publicado en 2004 por Dennis Bramble y Daniel Lieberman con un título que lo resume: la carrera de resistencia y la evolución del género humano. Su tesis es que el cuerpo humano no está mal diseñado para correr, sino que está diseñado para correr despacio y durante muchísimo tiempo, que es algo que casi ningún otro animal puede hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Enumeran las piezas. El ligamento nucal, que sujeta la cabeza al correr y que tienen los caballos y los perros pero no los chimpancés. El tendón de Aquiles, que devuelve energía como un muelle. El glúteo mayor, enorme comparado con el de cualquier simio y que apenas se usa al caminar. El pie con arco. Y millones de glándulas sudoríparas, que permiten enfriarse en marcha en vez de tener que parar a jadear.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la caza por agotamiento. Un antílope corre mucho más rápido que una persona, pero se enfría jadeando y no puede jadear al galope. Un grupo humano que lo persiga al trote bajo el sol, sin dejarle descansar, lo alcanza al cabo de varias horas cuando el animal se derrumba por hipertermia. Todavía se ha documentado en el Kalahari.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la parte más discutida y conviene decirlo. La anatomía encaja bien, pero las cacerías por agotamiento efectivamente registradas son pocas, y hay antropólogos que sostienen que fue una técnica marginal y no el motor de nuestra evolución. Lo que casi nadie discute es lo otro: que la resistencia a larga distancia es la habilidad física en la que el ser humano gana a casi todo el reino animal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El ser humano corre más despacio que casi cualquier presa y aguanta más que casi cualquier depredador.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La zapatilla llegó en 1972" },
+      {
+        b: "texto",
+        texto:
+          "La acusación central del libro es contra el calzado deportivo moderno. La zapatilla amortiguada con talón elevado se popularizó a partir de los años setenta, y su argumento de venta era que protegería las articulaciones. McDougall sostiene que las lesiones no bajaron desde entonces, y que la amortiguación produce el efecto contrario al que promete.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación se apoya en unos trabajos de la Universidad McGill de los años ochenta y noventa: cuanto más blanda es la superficie bajo el pie, más fuerte pisa la gente sin darse cuenta, porque el cuerpo busca la referencia que ha perdido. Un talón acolchado además invita a aterrizar sobre el talón, que es la manera de correr que más impacto manda hacia arriba por la pierna.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Frente a eso pone el huarache, que es lo más parecido a nada que se puede llevar en el pie: una suela plana de tres milímetros, sin talón, sin sujeción y sin amortiguación. Quien corre con eso no puede aterrizar de talón porque duele, así que apoya el medio pie, da pasos más cortos y más frecuentes, y el impacto se reparte por el tobillo y la pantorrilla en vez de subir de golpe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo se lee muy bien y hay que leerlo con cuidado, porque es donde el libro se pasa de frenada. La comparación entre un pueblo que camina descalzo desde los tres años y un oficinista que se descalza a los cuarenta no es una comparación. Lo que se puede sacar sin discusión es más modesto: que la zapatilla no protege tanto como dice la publicidad, y que la forma de pisar importa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuanto más blando es lo que hay debajo del pie, más fuerte pisa la gente sin notarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Suave, ligero, fluido y rápido" },
+      {
+        b: "texto",
+        texto:
+          "La técnica que el libro propone la resume una frase que McDougall le oye a su entrenador y que ordena las prioridades: primero suave, después ligero, después fluido, y la velocidad viene sola al final. El orden importa. Casi todo el mundo empieza por la velocidad y termina por la técnica, y por eso se rompe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las instrucciones concretas son cuatro y ninguna cuesta dinero. Dar pasos más cortos y más frecuentes, alrededor de ciento ochenta al minuto, en lugar de zancadas largas. Apoyar el pie debajo del cuerpo y no por delante. Correr erguido y ligeramente inclinado desde el tobillo, dejando que la gravedad haga parte del trabajo. Y aprender a correr a un ritmo en el que se pueda mantener una conversación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda idea es sobre la cantidad y va contra la intuición del que empieza. Los rarámuris no entrenan por series ni miran el pulso: acumulan horas muy suaves. Casi todas las lesiones de quien empieza vienen de subir el volumen o la intensidad más deprisa de lo que se adapta el tejido, y ese es el factor que mejor predice una lesión, muy por encima del calzado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la tercera es la que da título al libro. McDougall sostiene que la resistencia no se sostiene con disciplina sino con ganas, y que los rarámuris corren distancias imposibles porque se lo pasan bien haciéndolo. Su prueba es fisiológica además de moral: correr sufriendo tensa los hombros, acorta el paso y agota antes. La sonrisa no es un adorno del método.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La velocidad es lo último que se entrena: se aprende primero a correr suave, y lo demás llega detrás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Nacidos para correr parte de un dolor de pie y termina en una teoría sobre la especie. Por el camino cuenta quiénes son los rarámuris, cómo se organizó una carrera de ochenta kilómetros en el fondo de un cañón y por qué el cuerpo humano está armado para aguantar más que para correr rápido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta y se sostiene es la inversión del planteamiento. Si correr lesiona a tres de cada cuatro, el problema probablemente no está en el cuerpo humano sino en cómo se ha aprendido a hacerlo: demasiado deprisa, demasiado pronto y con el pie por delante. Y su mejor argumento no es el calzado, sino que la carga se sube despacio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que mejor predice una lesión al correr no es la zapatilla: es cuánto has subido el kilometraje este mes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y falla en lo que más se le copió. El movimiento del calzado mínimo que salió de este libro se puso a prueba y no cumplió: no bajaron las lesiones, aparecieron fracturas por estrés en los metatarsianos de quienes se pasaban de golpe, y en 2012 la marca de zapatillas de dedos más asociada al fenómeno cerró con un acuerdo millonario una demanda por sus afirmaciones de salud.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resto de la prueba tampoco acompaña. Los ensayos grandes sobre calzado no encuentran que el tipo de zapatilla prediga las lesiones, y sí encuentran que las predice el cambio brusco de carga. Y la comparación de fondo hace trampa: comparar a alguien que camina descalzo desde los tres años con un adulto que se descalza a los cuarenta no demuestra lo que el libro quiere que demuestre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después incluye un final que el libro no podía tener. Micah True, Caballo Blanco, murió en marzo de 2012 mientras corría solo por una zona salvaje de Nuevo México; tenía cincuenta y ocho años y le falló el corazón. Su carrera del cañón sigue celebrándose. Y en la sierra, la sequía y el narcotráfico han seguido vaciando las barrancas de las que salían aquellos corredores.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   El código de la obesidad, en ocho páginas.
+
+   Breve.
+
+   Libro práctico de salud: la prosa habla de TÚ (regla 4.7).
+
+   Es el caso puro del apartado 4 bis, la prueba del sustituto: un libro que
+   reduce todo a una molécula. Así que el resumen dice CUÁL es la molécula y
+   qué se ha comprobado de ella, y la conclusión lleva los estudios de sala
+   metabólica que contradicen el modelo y los dos ensayos que midieron el
+   ayuno intermitente contra las mismas calorías repartidas.
+
+   Y dice también lo que del libro sí resistió, que es bastante.
+   -------------------------------------------------------------------------- */
+
+const CODIGO_OBESIDAD: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Adelgazar no es difícil: lo difícil es no recuperarlo" },
+      {
+        b: "texto",
+        texto:
+          "Casi todo el mundo que se pone a dieta pierde peso. El problema aparece después: entre el ochenta y el noventa y cinco por ciento de las personas que adelgazan lo recuperan en unos años, y muchas acaban pesando más que al empezar. Jason Fung, nefrólogo canadiense, publicó este libro en 2016 partiendo de esa cifra y no de la anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es que si un tratamiento falla en nueve de cada diez casos, el fallo no está en los pacientes sino en la teoría. Y la teoría vigente es de aritmética: engordas porque metes más energía de la que gastas, así que come menos y muévete más. Fung sostiene que esa cuenta es correcta y a la vez inútil, porque los dos lados de la ecuación no son independientes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En su lugar propone que la obesidad es un problema hormonal, y señala una hormona concreta: la insulina. Conviene decir desde el principio que esa es la tesis del libro y que ha sido puesta a prueba después, con resultados que la contradicen en su parte más fuerte y le dan la razón en otras. Las dos cosas están en la conclusión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren su razonamiento: por qué el cuerpo no funciona como una calculadora, qué se midió en los concursantes de un programa de televisión seis años después, qué hace la insulina con la grasa, por qué el azúcar no se comporta igual que el resto de los hidratos, de dónde salió el consejo de comer cinco veces al día y qué propone en lugar de contar calorías.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un tratamiento que falla en nueve de cada diez casos no tiene un problema de disciplina: tiene un problema de teoría.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuando comes menos, tu cuerpo empieza a gastar menos" },
+      {
+        b: "texto",
+        texto:
+          "La prueba con la que abre el libro es un experimento de 1944 en la Universidad de Minnesota. Treinta y seis objetores de conciencia se ofrecieron voluntarios para pasar hambre de forma controlada durante veinticuatro semanas, con unas mil quinientas calorías al día, para estudiar cómo realimentar a la población europea después de la guerra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Perdieron alrededor de una cuarta parte de su peso, y eso era lo esperado. Lo que no se esperaba fue el resto: su metabolismo en reposo cayó cerca de un cuarenta por ciento, les bajó la temperatura corporal y el pulso, dejaron de tener interés por casi todo y desarrollaron una obsesión con la comida que les duró meses. Varios coleccionaban recetas y miraban fotos de platos durante horas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está el argumento central. Si comes seiscientas calorías menos al día, el cuerpo no gasta seiscientas calorías de grasa: baja el gasto. Se enfría, se mueve menos sin que lo decidas, apaga funciones que no son urgentes y aumenta el hambre. La resta que parecía sencilla se convierte en una negociación en la que la otra parte también juega.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fung lo compara con una empresa a la que le recortan los ingresos: no gasta sus reservas, despide gente y apaga la calefacción. Y de ahí saca la consecuencia práctica: comer menos de todo, sin más, produce un cuerpo más pequeño y más ahorrador, que recuperará el peso en cuanto se acabe la dieta. La cuenta no está mal; está incompleta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El cuerpo no es una calculadora: en cuanto le bajas los ingresos, recorta el gasto para no tocar las reservas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "A los concursantes de aquel programa les midieron el metabolismo seis años después",
+      },
+      {
+        b: "texto",
+        texto:
+          "El dato más impresionante del libro es de 2016 y viene de un sitio inesperado: un concurso de televisión estadounidense en el que participantes con obesidad grave competían por perder el máximo peso posible con dietas muy bajas en calorías y horas diarias de ejercicio. Perdían cantidades enormes en semanas y el programa lo emitía como una victoria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un equipo de investigadores localizó a catorce de aquellos concursantes seis años después y les midió el metabolismo en reposo. Trece de los catorce habían recuperado casi todo el peso. Y lo grave era lo otro: su cuerpo seguía gastando de media unas quinientas calorías al día menos de lo que corresponde a alguien de su tamaño, seis años después de terminar el concurso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es decir, la adaptación metabólica no había desaparecido con el tiempo: se había quedado. Aquellas personas tenían que comer bastante menos que cualquier otra de su mismo peso solo para no volver a engordar, y llevaban seis años haciéndolo. El estudio es pequeño y se ha discutido, pero el hallazgo se ha reproducido en otras poblaciones que han perdido mucho peso muy deprisa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lección que Fung saca de ahí es la parte del libro que mejor ha resistido: adelgazar muy rápido con restricción severa deja una factura duradera, y cualquier método que no cuente con la adaptación del metabolismo está prometiendo algo que no puede cumplir. La pregunta no es cuánto peso pierdes, sino qué cuerpo te queda después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Perder mucho peso muy deprisa deja un metabolismo más lento que puede seguir siéndolo años después.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La tesis del libro es que engordar es un asunto de hormonas y no de aritmética",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí es donde Fung se juega el libro. Sostiene que el cuerpo tiene un peso de referencia, una especie de termostato, y que ese termostato lo regulan hormonas. Si el termostato está alto, cualquier intento de bajar de él se contrarresta con hambre y con menos gasto. Adelgazar de verdad exigiría bajar el termostato, no forzar la báscula.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y señala a la insulina como el mando de ese termostato. La insulina es la hormona que el páncreas suelta al comer y cuyo trabajo es meter la glucosa dentro de las células y guardar el excedente. Mientras la insulina está alta, el cuerpo está en modo almacenar; cuando baja, puede sacar grasa del depósito y usarla. Hasta ahí no hay discusión: es fisiología de manual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte discutible es el salto siguiente: que la insulina crónicamente alta sea la causa principal de la obesidad, y no una consecuencia. Fung apunta a que la insulina inyectada engorda a los diabéticos, a que ciertos fármacos que la elevan engordan, y a que la resistencia a la insulina y la obesidad aparecen juntas. Son indicios reales; ninguno demuestra la dirección de la flecha.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo por el que conviene señalarlo con cuidado es que este libro es el ejemplar perfecto de un género entero. Cada temporada aparece un libro que reduce la salud a una molécula: el cortisol, la inflamación, las mitocondrias, la microbiota, la insulina. La estructura del argumento es idéntica en todos, y solo cambia el nombre. Eso no lo convierte en falso, pero obliga a mirar la prueba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que dos cosas aparezcan siempre juntas no dice cuál de las dos empuja a la otra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El azúcar no se comporta igual que el resto de los hidratos, y el motivo es el hígado",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte más sólida de la fisiología del libro es la del azúcar. El azúcar de mesa es mitad glucosa y mitad fructosa, y las dos mitades no viajan al mismo sitio. La glucosa la puede usar cualquier célula del cuerpo. La fructosa la procesa casi exclusivamente el hígado, que tiene una capacidad limitada y convierte el exceso en grasa dentro de sus propias células.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su explicación del hígado graso, una enfermedad que hace cincuenta años era casi exclusiva de alcohólicos y que hoy afecta a una parte enorme de la población adulta. Y de ahí sale también el argumento de por qué las bebidas azucaradas son el peor formato posible: llegan al hígado de golpe, en cantidad, sin fibra que las frene y sin producir apenas saciedad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro reparte además los alimentos por lo que hacen con la insulina y no por sus calorías, y ahí hay dos avisos útiles. Uno: el pan blanco, el arroz blanco y la patata elevan la insulina tanto o más que el azúcar, aunque no sepan dulces. Otro: la fibra y el vinagre amortiguan esa subida, que es la razón fisiológica de que la fruta entera y el zumo de fruta no sean lo mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su lista de recomendaciones acaba siendo bastante convencional y no depende de que su teoría sea cierta: quitar los azúcares añadidos, reducir los cereales refinados, no tenerle miedo a la grasa natural de los alimentos, comer proteína en cantidad moderada y aumentar la fibra. Cualquier nutricionista firmaría esa lista aunque discrepe de todo lo demás.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La fructosa la procesa casi solo el hígado, y por eso una bebida azucarada no equivale a las mismas calorías comidas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Comer cinco veces al día se recomendó durante décadas sin ninguna prueba detrás",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más útil del libro para el día a día es el que se ocupa de la frecuencia. Durante décadas se ha repetido que hay que hacer cinco comidas diarias, que desayunar es obligatorio y que picar entre horas acelera el metabolismo. Fung rastrea de dónde salió eso y encuentra muy poca ciencia y mucha industria alimentaria detrás de la difusión del mensaje.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento fisiológico es coherente con el resto del libro: si cada comida sube la insulina y esa subida dura unas horas, comer seis veces al día deja al cuerpo prácticamente todo el día en modo almacenar, sin ninguna ventana en la que pueda tirar del depósito. La frecuencia importaría entonces tanto como la cantidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre el desayuno es igual de directo: no hay ninguna obligación fisiológica de comer al levantarse, y los estudios que lo asociaban con estar más delgado son observacionales y no separan el desayuno de todo lo demás que hace quien desayuna. Quien no tiene hambre por la mañana no necesita forzarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hace una observación cultural que vale más que varios capítulos. Hace cincuenta años la gente comía tres veces al día y no picaba entre horas, y eso no requería fuerza de voluntad: era lo normal, y no había comida disponible a todas horas en todas partes. Lo que ha cambiado no es la biología de nadie, sino cuántas veces al día se le presenta comida a la vista.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nunca hubo un estudio detrás del consejo de comer cinco veces al día: era una costumbre convertida en norma.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Su alternativa a contar calorías es no comer durante unas horas" },
+      {
+        b: "texto",
+        texto:
+          "La propuesta con la que Fung es más conocido es el ayuno intermitente, y en el libro es la consecuencia lógica de todo lo anterior: si el problema es que la insulina está alta demasiadas horas, la solución es dejar ventanas largas en las que esté baja. No es una dieta que diga qué comer, sino un horario que dice cuándo no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las formas que describe van de menos a más. Comer solo dentro de una ventana de ocho horas y ayunar las dieciséis restantes, que para mucha gente significa saltarse el desayuno. Un ayuno de veinticuatro horas un par de veces por semana. Y ayunos más largos, de treinta y seis horas o más, que él usa en su consulta con pacientes de diabetes tipo 2 y con seguimiento médico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento a favor tiene una parte que conviene separar del resto: el ayuno no requiere calcular nada. No hay que pesar comida, ni contar calorías, ni comprar productos, ni llevar una aplicación. Para mucha gente eso es la diferencia entre un método que se sostiene meses y otro que se abandona en tres semanas, con independencia de qué esté pasando con las hormonas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y avisa de lo que no es para todo el mundo. No lo recomienda a menores, embarazadas, personas con bajo peso ni a quien tenga o haya tenido un trastorno de la conducta alimentaria; y quien tome medicación para la diabetes o para la tensión necesita ajustarla con su médico antes de empezar, porque un ayuno con insulina o con ciertos fármacos puede provocar una hipoglucemia grave.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La mayor ventaja práctica del ayuno no es hormonal: es que no hay nada que contar, pesar ni comprar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El código de la obesidad sostiene que engordar es un problema hormonal y no de aritmética, que la hormona responsable es la insulina, y que por tanto importa tanto cuándo comes como cuánto. De ahí saca su propuesta: quitar azúcares y refinados, dejar de picar y abrir ventanas largas de ayuno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta y ha resistido es la parte que casi nadie contaba en 2016. Que el metabolismo se adapta a la baja cuando se restringe mucho, y que esa adaptación puede durar años. Que el consejo de las cinco comidas nunca tuvo pruebas. Que la diabetes tipo 2 puede revertirse perdiendo peso, algo que entonces sonaba a herejía y que un ensayo británico confirmó en 2018.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta útil no es cuánto peso pierdes, sino qué metabolismo te queda dos años después de haberlo perdido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y falla justo en su tesis. El modelo de la insulina se ha puesto a prueba en salas metabólicas, encerrando a personas y midiéndolo todo, y no ha salido bien: con las mismas calorías, recortar grasa produjo algo más de pérdida de grasa corporal que recortar hidratos, cuando el modelo predice lo contrario. Y comiendo a voluntad, la gente ingirió varios cientos de calorías menos al día con una dieta baja en grasa que con una baja en hidratos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ayuno tampoco ha resultado ser lo que promete. Dos ensayos con asignación al azar, uno en 2020 y otro con ciento treinta y nueve personas seguidas durante un año, compararon comer en una ventana corta contra las mismas calorías repartidas por el día, y no encontraron diferencia en la pérdida de peso. El ayuno funciona para quien le funcione, y funciona por lo que Fung dice de pasada: porque así acaba comiendo menos sin contar nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un problema de forma. Los resultados que Fung presenta de su consulta son series de casos sin grupo de comparación, la prueba más débil que existe. Y el libro dedica capítulos a demoler el recuento de calorías para terminar recomendando un método cuyo efecto medido es, precisamente, que se comen menos calorías.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "codigo-obesidad": CODIGO_OBESIDAD,
+  "nacidos-correr": NACIDOS_CORRER,
   "marte-venus": MARTE_VENUS,
   "sentirse-bien": SENTIRSE_BIEN,
   "open-agassi": OPEN_AGASSI,
