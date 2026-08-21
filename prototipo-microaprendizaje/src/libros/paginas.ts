@@ -15176,7 +15176,233 @@ const CRIMEN_CASTIGO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La metamorfosis, en ocho páginas.
+
+   Breve. Registro narrativo.
+
+   Lo que casi nadie cuenta y aquí sí está: que Kafka prohibió por carta
+   que dibujaran al insecto en la cubierta; que la palabra que usa no es
+   cucaracha ni escarabajo, sino una que significa bicho impuro que no
+   sirve para el sacrificio; que la familia resulta tener dinero
+   ahorrado; y que el final es alegre, que es lo que lo hace insoportable.
+   -------------------------------------------------------------------------- */
+
+const METAMORFOSIS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "La frase que no explica nada" },
+      {
+        b: "texto",
+        texto:
+          "Al despertar una mañana tras un sueño intranquilo, Gregor Samsa se encontró en su cama convertido en un insecto monstruoso. Ese es el principio, y con él el libro se juega su método entero: no hay causa, no hay hechizo, no hay experimento. La cosa ya ha ocurrido antes de la primera coma y nadie, en las cincuenta páginas siguientes, va a preguntar por qué.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí hace el libro es describir con una calma de notario lo que viene después: cómo se gira un cuerpo que no obedece, cómo se abre una puerta sin manos, qué come, qué le duele. La prosa es seca, casi administrativa, y ese contraste entre lo imposible y el tono de informe es exactamente lo que después se ha llamado kafkiano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un detalle que dice más que cualquier interpretación. Cuando en 1915 se preparaba la edición, Kafka le escribió al editor una carta angustiada pidiendo que el insecto no se dibujara. Ni en la cubierta, ni de lejos, ni siquiera a oscuras. Que se pintara la puerta cerrada del cuarto si hacía falta. No quería que el lector supiera qué estaba viendo. Son cincuenta páginas: se lee de una sentada y no se olvida en años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que ocurre dentro de ese piso: en qué piensa Gregor la primera mañana, qué descubre la familia cuando deja de traer dinero, cómo se vacía su habitación, qué papel acaba teniendo su hermana y por qué el final del libro es alegre.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El horror no está en el bicho: está en que nadie pregunte cómo ha pasado y todos sigan con el desayuno.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo primero que piensa es en el tren" },
+      {
+        b: "texto",
+        texto:
+          "Un hombre amanece convertido en insecto y su primer pensamiento completo es que se ha dormido, que el tren de las cinco ha salido sin él y que el jefe va a mandar al médico de la empresa. Después calcula: lleva cinco años sin faltar un día, tiene que aguantar cinco o seis más hasta pagar la deuda que sus padres contrajeron, y entonces podrá dejarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa es la primera página, y es donde está el libro. Kafka trabajaba en una compañía de seguros de accidentes de trabajo y escribía de noche; sabía exactamente cómo suena un hombre que ha organizado su vida entera alrededor de un empleo que odia. Gregor es viajante de comercio: duerme en pensiones, come mal, no tiene amigos, y todo eso lo aguanta porque mantiene a tres personas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el remate llega antes de la comida: a las siete de la mañana se presenta en el piso el apoderado de la empresa a preguntar por qué no ha ido a trabajar. No un compañero, no un amigo: un superior, en persona, en su casa, por un retraso de dos horas. Cuando por fin la puerta se abre y lo ven, el apoderado sale corriendo escaleras abajo. La empresa no vuelve a aparecer en el resto del libro. La deuda, además, tiene fecha y acreedor: el padre quebró hace cinco años y el dinero se lo debe al jefe de Gregor, así que el hijo trabaja para el hombre al que su familia debe dinero, y de ahí que no pueda dejarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay vidas en las que la primera pregunta ante una catástrofe no es qué me ha pasado, sino qué van a decir en el trabajo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El dinero que sí había" },
+      {
+        b: "texto",
+        texto:
+          "Cuando la familia se queda sin el sueldo de Gregor, ocurre el descubrimiento más cruel de la novela y pasa casi desapercibido. El padre saca unos papeles de una caja y explica que del negocio arruinado hace cinco años quedó algo de dinero, que ese dinero se ha ido guardando sin tocarlo, y que ha crecido un poco con los intereses.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gregor, escuchando detrás de la puerta, se alegra al principio. Y enseguida entiende lo que significa: durante cinco años ha estado matándose para pagar una deuda que se podía haber pagado antes, mientras en casa se ahorraba. Su sacrificio no era necesario. Era una costumbre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que viene después lo confirma. El padre, que llevaba años en bata y arrastrando los pies, se coloca de ordenanza en un banco y aparece con uniforme y botones dorados. La madre cose ropa para una tienda. La hermana, que tenía diecisiete años, entra de dependienta y estudia taquigrafía por las noches. Los tres pueden trabajar. Los tres podían trabajar desde el principio. El propio Gregor había planeado anunciar en Navidad que iba a mandar a su hermana al conservatorio a estudiar violín; era su plan secreto y no llegó a decirlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El que se sacrifica por todos suele descubrir tarde que los demás podían apañarse, y que su sacrificio era sobre todo una comodidad ajena.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La habitación se va vaciando" },
+      {
+        b: "texto",
+        texto:
+          "La degradación del cuarto es el reloj del libro y se puede seguir mueble a mueble. Al principio le llevan comida y le cambian el agua. Después descubren que prefiere lo podrido, así que le echan las sobras con una escoba. Su hermana entra tapándose la nariz y abre la ventana antes que nada. Un día deciden sacar los muebles para que tenga sitio donde arrastrarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí ocurre la escena que más duele. Gregor entiende que si se llevan el escritorio donde hizo los deberes de niño y el sofá donde dormía, dejará de haber pruebas de que fue una persona, así que se sube a la pared y se pega con el cuerpo a un cuadro enmarcado de una revista, una mujer con un manguito de piel, para que al menos eso no se lo quiten. Es lo único que defiende en todo el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después llega la herida. El padre, asustado, le tira manzanas desde el frutero y una se le queda clavada en el lomo. Nadie se la saca. Se le pudre dentro durante más de un mes y le va quitando la movilidad. El cuarto acaba siendo el trastero de la casa: allí van los muebles que estorban y los cachivaches de los tres huéspedes que la familia ha realquilado para llegar a fin de mes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie decide un día dejar de tratarte como a una persona: se decide en pequeño, mueble a mueble, y sin discutirlo en voz alta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La hermana, de enfermera a jueza" },
+      {
+        b: "texto",
+        texto:
+          "Grete es el personaje que cambia, y su recorrido es la novela vista desde fuera. Al principio es la única que entra en el cuarto: le prueba comidas distintas para ver cuál le gusta, le limpia, le cede el sitio. Es ella quien decide qué necesita su hermano, y en esa tarea encuentra algo que no tenía: una responsabilidad propia dentro de la familia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Poco a poco eso se agria. Empieza a entrar deprisa, deja de mirarlo, se molesta si la madre limpia el cuarto porque el cuarto es su territorio. Y cuando los huéspedes descubren al bicho una noche —Gregor ha salido al salón atraído por el violín que ella toca, y el detalle es exacto: sale porque hay música— y se marchan sin pagar, Grete pronuncia la frase que decide el final.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dice que hay que deshacerse de eso. Y añade el argumento con el que se hace: que no puede ser Gregor, porque si lo fuera habría entendido hace tiempo que unas personas no pueden vivir con semejante animal y se habría ido por su propio pie. Los padres, aliviados, están de acuerdo. Gregor, que lo ha oído todo desde la puerta, vuelve a su cuarto arrastrándose.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Para dejar de cuidar a alguien hace falta antes convencerse de que ya no es quien era, y esa frase la dice siempre el que estaba cuidando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El final es alegre, y por eso es insoportable" },
+      {
+        b: "texto",
+        texto:
+          "Gregor muere al amanecer, en su cuarto, pensando en su familia con cariño y de acuerdo con ellos en que debía desaparecer. Lo encuentra la asistenta, una mujerona que lo llamaba escarabajo pelotero, y lo anuncia con una alegría de tarea cumplida. Lo barre. La familia no pregunta qué ha hecho con el cuerpo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y entonces el libro hace lo que nadie espera: se pone de buen humor. Los tres escriben una carta a sus trabajos, cogen un tranvía y se van al campo. Hablan del futuro por primera vez en meses, se dan cuenta de que los tres empleos son buenos, y deciden buscar un piso más pequeño y más barato que Gregor había elegido en su día y que ya no les hace falta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La última frase del libro está mirando a la hija. Los padres se fijan, casi a la vez, en que Grete ha crecido, en que se ha convertido en una muchacha guapa y de buen cuerpo, y piensan que ya va siendo hora de buscarle un marido. Al llegar a su destino, ella se levanta la primera y estira el cuerpo joven. Ahí termina. Sin duelo, sin culpa y con un plan. Y hay un detalle final que casi nadie recuerda: cuando la asistenta anuncia que ya se ha ocupado del cuerpo, la familia ni siquiera le deja terminar la frase.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La familia no se hunde con la muerte: se estira, respira y hace planes, y esa es la frase más dura del libro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Qué bicho es, exactamente" },
+      {
+        b: "texto",
+        texto:
+          "Conviene saberlo porque casi todas las ediciones lo traducen mal. La palabra que usa Kafka en alemán es <em>Ungeziefer</em>, que no significa cucaracha ni escarabajo ni ninguna especie concreta: era el término con el que se designaba al bicho impuro, el animal sucio que no sirve para ofrecer en un sacrificio. Es una palabra de repugnancia, no de zoología.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El texto no da nunca una descripción completa. Se sabe que tiene el lomo duro y acorazado, un vientre abombado con segmentos, muchas patas delgadas que se agitan sin coordinación y unas mandíbulas con las que puede girar una llave. Nada más. Nabokov, que además de novelista era entomólogo, defendió en sus clases que por esos rasgos sería un escarabajo grande y que, curiosamente, tendría alas bajo el caparazón sin saberlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La vaguedad es deliberada y por eso Kafka prohibió el dibujo. En cuanto el lector ve una cucaracha, el libro se convierte en una historia de terror con un monstruo concreto. Mientras no la ve, sigue siendo lo que es: un hombre al que su familia deja de reconocer, y la incomodidad de no poder decir del todo en qué se ha convertido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La palabra que usa no describe un animal: describe algo que da asco y que no sirve ni para ofrecerlo a los dioses.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La metamorfosis cuenta lo que le pasa a un hombre cuando deja de ser útil. La transformación no es el asunto, es el disparador: en cuanto Gregor no puede traer un sueldo, la familia a la que mantenía descubre que puede arreglárselas, se reorganiza, lo va apartando y termina decidiendo, en voz alta y sin gritar, que aquello ya no es él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un tono. Contar lo imposible con la voz de un informe, y no con la de una pesadilla, es lo que hizo posible medio siglo veinte, y el adjetivo que salió de aquí describe hoy cualquier situación absurda en la que las reglas siguen funcionando con toda normalidad mientras lo que está pasando no tiene ningún sentido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Deja de traer dinero un lunes, y el jueves ya está discutiéndose si sigue siendo la misma persona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, o más bien qué hay que saber antes de abrirlo: no es un acertijo con solución. Se ha leído como una alegoría de la enfermedad, del capitalismo, de la culpa judía, de la relación con su padre —Kafka escribió una Carta al padre de cien páginas que su madre nunca entregó—, y todas esas lecturas explican una parte y ninguna lo agota. Quien lo abra buscando qué significa el bicho saldrá con la sensación de no haberlo entendido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo que el propio autor pensaba de esto. Kafka le pidió en su testamento a su amigo Max Brod que quemara todos sus manuscritos sin leerlos. Brod no lo hizo, y por eso existen El proceso, El castillo y casi todo lo demás. De La metamorfosis, en cambio, se publicó en vida y él la consideraba imperfecta: se quejaba del final, que escribió deprisa durante un viaje de trabajo, y decía que se le notaba.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  metamorfosis: METAMORFOSIS,
   "crimen-castigo": CRIMEN_CASTIGO,
   fahrenheit: FAHRENHEIT,
   "mundo-feliz": MUNDO_FELIZ,

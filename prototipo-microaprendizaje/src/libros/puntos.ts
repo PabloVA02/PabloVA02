@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  metamorfosis: [
+    "por qué nadie pregunta cómo ha pasado",
+    "qué descubre sobre el dinero que había en casa",
+    "cómo se va vaciando su habitación",
+    "qué frase dice su hermana al final",
+    "qué bicho es en realidad, y por qué Kafka prohibió dibujarlo",
+  ],
+
   "crimen-castigo": [
     "qué decía su artículo sobre los hombres extraordinarios",
     "por qué la teoría se rompe en el minuto dos",

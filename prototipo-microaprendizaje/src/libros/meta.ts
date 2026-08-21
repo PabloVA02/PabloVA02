@@ -1304,22 +1304,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "metamorfosis",
-    titulo: "La metamorfosis",
-    autor: "Franz Kafka",
-    ano: 1915,
-    gancho: "Un vendedor se despierta convertido en insecto. Su primera preocupación es que va a perder el tren de las cinco.",
-    porQue: "Sesenta páginas que se leen de una sentada y que han dado nombre a una forma entera de sentirse: kafkiano.",
-    minutos: 25.2,
-    capitulos: [
-      { titulo: "Salida: tres semanas de noviembre de 1912", minutos: 5 },
-      { titulo: "Primera parada: la palabra que Kafka prohibió dibujar", minutos: 5.1 },
-      { titulo: "Segunda parada: la manzana que se le queda dentro", minutos: 5 },
-      { titulo: "Tercera parada: el dinero que el padre tenía guardado", minutos: 5 },
-      { titulo: "Destino: el último párrafo, que va de otra persona", minutos: 5 },
-    ],
-  },
-  {
     id: "senor-moscas",
     titulo: "El señor de las moscas",
     autor: "William Golding",

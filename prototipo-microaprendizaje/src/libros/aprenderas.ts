@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  metamorfosis:
+    "Un viajante de comercio amanece convertido en un insecto y su primer pensamiento es que ha perdido el tren. Lo que cuenta el libro es qué hace una familia con alguien que ha dejado de ser útil.",
+
   "crimen-castigo":
     "Un estudiante sin dinero mata a hachazos a una prestamista para comprobar si es de los que pueden saltarse la ley. Sabemos quién fue desde la página cuarenta; quedan quinientas.",
 
