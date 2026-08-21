@@ -55724,7 +55724,7 @@ const IMPERIOFOBIA: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "El libro sostiene que la mala imagen histórica del imperio español no es un reflejo de sus hechos sino el producto de una campaña de propaganda que responde a un mecanismo general, presente también contra Roma, Rusia y Estados Unidos, y que los propios españoles acabaron adoptando la versión de sus enemigos.",
+          "El libro sostiene que la mala imagen histórica del imperio español no refleja sus hechos sino una campaña de propaganda que responde a un mecanismo general, presente también contra Roma, Rusia y Estados Unidos, y que los propios españoles acabaron adoptando la versión de sus enemigos.",
       },
       {
         b: "texto",
