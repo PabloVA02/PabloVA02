@@ -51219,7 +51219,7 @@ const ETICA_AMADOR: PaginaLibro[] = [
       {
         b: "idea",
         texto:
-          "Un libro que enseña a pensar por cuenta propia se puede medir por si el lector acaba llevándole la contraria: este lo consiguió con el destinatario.",
+          "Un libro que enseña a pensar por cuenta propia se mide por si el lector acaba llevándole la contraria: este lo consiguió con su destinatario.",
       },
     ],
   },
