@@ -31386,7 +31386,390 @@ const ORDEN_DEL_TIEMPO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El gen, en doce páginas.
+
+   AMPLIO: recorre siglo y medio de historia con diez argumentos
+   independientes —Mendel, la eugenesia, los cromosomas, el ADN, la
+   regulación, Asilomar, el genoma, los tests, la edición—. En ocho
+   páginas habría que juntar cuatro y saldría la lista de siempre.
+
+   Ensayo científico: titular que afirma, tercera persona.
+   -------------------------------------------------------------------------- */
+
+const GEN_HISTORIA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El libro empieza con una visita a un manicomio de Calcuta" },
+      {
+        b: "texto",
+        texto:
+          "Siddhartha Mukherjee es oncólogo e investigador, y ganó un premio Pulitzer con su historia del cáncer. Este libro, de 2016, empieza con un viaje familiar: acompaña a su padre a ver a un primo suyo internado en una institución psiquiátrica de Calcuta, y desde ahí cuenta lo que hay en su familia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dos hermanos de su padre y un primo desarrollaron enfermedades mentales graves. Uno empezó a oír voces después de una noche a la intemperie; otro pasó décadas errando por las calles; el tercero fue diagnosticado de esquizofrenia siendo joven. Su padre y él quedaron fuera, y la pregunta que abre y cierra el libro es qué probabilidad tienen él y sus hijas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con ese marco personal, Mukherjee cuenta la historia de una idea: la de que existe una unidad de la herencia, que la información pasa de padres a hijos en paquetes, y que esos paquetes se pueden identificar, leer, contar y, desde hace poco, modificar. La palabra gen se acuñó en 1909, mucho antes de que nadie supiera de qué estaba hecho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas doce páginas recorren esa historia: quién descubrió las reglas de la herencia y por qué nadie le hizo caso, qué le faltaba a Darwin, dónde empezó la eugenesia, cómo se localizaron los genes, de qué resultaron estar hechos, por qué un gen no es un plano, qué pasó en 1975 cuando los científicos se detuvieron a sí mismos, qué sorpresa dio el genoma humano y qué le criticaron a este libro sus propios colegas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La palabra gen se inventó en 1909, cuarenta años antes de que nadie supiera de qué estaba hecho ni dónde estaba.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un monje contó veintiocho mil guisantes y nadie leyó el resultado" },
+      {
+        b: "texto",
+        texto:
+          "Las reglas básicas de la herencia se descubrieron en el huerto de un monasterio de Brno, en la actual República Checa, entre 1856 y 1863. Gregor Mendel era un fraile agustino que había suspendido dos veces el examen para ser profesor de instituto y que se dedicó durante siete años a cruzar plantas de guisante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su acierto fue de método. Eligió siete rasgos que se presentaban en dos versiones claramente distinguibles —semilla lisa o rugosa, flor blanca o morada, planta alta o baja— y trabajó con miles de plantas para poder contar proporciones. En total cultivó y clasificó alrededor de veintiocho mil plantas, y anotó cada resultado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que encontró contradecía la idea vigente de que la herencia mezcla los rasgos de los padres, como se mezclan dos pinturas. Al cruzar una planta alta con una baja no salían plantas medianas: salían todas altas. Y al cruzar entre sí esas plantas altas, en la generación siguiente reaparecían las bajas, en una proporción constante de tres a uno. La información no se había diluido: había estado escondida y volvía entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mendel publicó el resultado en 1866, en las actas de una sociedad de historia natural local, y envió copias a varios botánicos. En treinta y cinco años su trabajo se citó unas pocas veces y nadie captó su importancia; él acabó de abad, ocupado en la administración del monasterio, y murió en 1884. Sus reglas se redescubrieron en 1900, de forma independiente, por tres investigadores que llegaron a lo mismo por su cuenta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un resultado correcto publicado en el sitio equivocado puede tardar treinta y cinco años en existir para nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Darwin tenía la teoría y le faltaba precisamente esta pieza" },
+      {
+        b: "texto",
+        texto:
+          "Mientras Mendel contaba guisantes, a mil quinientos kilómetros de allí Charles Darwin publicaba una teoría que necesitaba exactamente aquellos resultados y no llegó a conocerlos. Su selección natural exige que las variaciones ventajosas se transmitan a los hijos, y en 1859 nadie sabía cómo ocurría eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema tenía forma de objeción concreta y se la planteó en 1867 un ingeniero escocés. Si la herencia mezcla, como todo el mundo creía, cualquier novedad ventajosa quedará diluida a la mitad en la primera generación, a la cuarta parte en la segunda y se habrá desvanecido mucho antes de poder extenderse por la población. La selección natural no podría funcionar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Darwin consideró la objeción muy seria y respondió en 1868 con una hipótesis propia: cada parte del cuerpo emitiría unas partículas diminutas que viajarían hasta las células sexuales llevando información sobre el estado de ese órgano. La llamó pangénesis y era falsa. Su primo Francis Galton hizo transfusiones de sangre entre conejos de distinto color para comprobarla y no encontró nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La respuesta buena estaba impresa desde 1866 y decía justo lo que hacía falta: la herencia no mezcla, va en unidades discretas que se separan y se recombinan enteras, y una variante puede permanecer escondida una generación y reaparecer intacta. Darwin murió en 1882 sin enterarse, y las dos ideas no se juntaron hasta los años treinta del siglo siguiente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pieza que le faltaba a la mayor teoría del siglo XIX llevaba dieciséis años impresa en las actas de una sociedad de provincias.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La eugenesia empezó en Estados Unidos y Alemania copió las leyes" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más incómodo del libro cuenta lo que ocurrió en cuanto la idea de la herencia se volvió respetable, y desmonta una creencia extendida: que la aplicación política de la genética fue un invento nazi. Fue anterior y venía de países democráticos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palabra la acuñó en 1883 Francis Galton, primo de Darwin, y significa buen nacimiento. Su programa consistía en mejorar la población humana favoreciendo la reproducción de los considerados aptos y limitando la de los demás. Ganó prestigio entre científicos, políticos y reformadores sociales de todo el espectro ideológico durante décadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En Estados Unidos se convirtió en ley. A partir de 1907, varios estados aprobaron normas de esterilización forzosa de personas consideradas deficientes, epilépticas o criminales. En 1927, el Tribunal Supremo avaló esa práctica en el caso de una joven llamada Carrie Buck, con una sentencia cuya frase final —que tres generaciones de imbéciles son suficientes— la firmó uno de los juristas más respetados del país. Se esterilizó a más de sesenta mil personas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando Alemania aprobó su ley de esterilización en 1933, sus redactores citaron expresamente el modelo estadounidense, y en los juicios posteriores algunos acusados se defendieron señalando esa procedencia. Mukherjee subraya que la ciencia de partida era además mala: se atribuían a un solo factor hereditario rasgos como la pobreza, la promiscuidad o la delincuencia, sin ninguna base.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando en 1933 Alemania legisló sobre esto, sus juristas citaron como modelo unas leyes estadounidenses que llevaban veinte años aplicándose.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los genes se localizaron gracias a unas moscas en un cuarto sucio" },
+      {
+        b: "texto",
+        texto:
+          "Hacia 1910, en un despacho de la Universidad de Columbia que sus ocupantes llamaban la sala de las moscas, un zoólogo llamado Thomas Hunt Morgan empezó a criar moscas de la fruta en botellas de leche. Eligió ese animal por razones prácticas: es diminuto, se reproduce en diez días, pone cientos de huevos y se alimenta de fruta podrida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Morgan buscaba mutaciones y durante dos años no encontró ninguna. Después apareció una mosca con los ojos blancos en lugar de rojos, y al cruzarla descubrió algo que abrió el campo: aquel rasgo se transmitía casi siempre junto con el sexo del animal. Es decir, no viajaba solo: viajaba pegado a otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí salió la idea decisiva. Si dos rasgos se heredan juntos, es porque sus unidades están físicamente cerca en la misma estructura, y esa estructura son los cromosomas, que ya se habían visto al microscopio sin saber para qué servían. Y midiendo con qué frecuencia dos rasgos se separaban, se podía calcular a qué distancia estaban uno de otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con ese procedimiento, un estudiante de veinte años del laboratorio, Alfred Sturtevant, se llevó los datos a casa una noche y dibujó el primer mapa genético de la historia: seis genes ordenados a lo largo de un cromosoma, con sus distancias relativas. Los genes dejaron de ser una abstracción contable y pasaron a tener una dirección física.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que dos rasgos se hereden casi siempre juntos significa que sus genes están cerca, y con eso solo se puede dibujar un mapa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El material de la herencia resultó ser el compuesto más aburrido de la célula",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante décadas nadie creyó que el ADN pudiera ser el portador de la información hereditaria. La razón era química: se sabía que estaba compuesto por solo cuatro tipos de piezas repetidas, y parecía demasiado monótono para codificar la enorme variedad de la vida. Las apuestas iban a las proteínas, que tienen veinte componentes distintos y una complejidad enorme.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba llegó en 1944, en un laboratorio de Nueva York, con un experimento de una elegancia notable. Oswald Avery y sus colegas trabajaban con una bacteria que existe en dos variedades, una inofensiva y otra mortal, y con un hecho conocido desde 1928: que si se mezclaban restos de la variedad mortal con la inofensiva, esta última se transformaba en mortal y transmitía ese cambio a su descendencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hicieron fue ir eliminando componentes de aquel extracto para averiguar cuál era el responsable. Destruyeron las proteínas y la transformación siguió. Destruyeron los azúcares y las grasas y siguió. Cuando destruyeron el ADN, se detuvo. La conclusión era inevitable y la comunidad tardó casi una década en aceptarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1953, Watson y Crick describieron la estructura de esa molécula a partir de datos de difracción tomados en Londres por Rosalind Franklin, y ahí quedó explicado el problema de la monotonía: cuatro piezas bastan si lo que importa es su orden, igual que veintisiete letras bastan para toda la literatura. Y la estructura en dos cadenas complementarias explicaba además cómo se copia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuatro piezas parecían demasiado pocas para contener la vida entera, y son las mismas que veintisiete letras para contener toda la literatura.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un gen no es un plano: es una instrucción que se enciende y se apaga",
+      },
+      {
+        b: "texto",
+        texto:
+          "El paso que más cambió la comprensión del asunto no fue descubrir de qué están hechos los genes, sino entender que no funcionan todos a la vez. Todas las células de un cuerpo tienen exactamente el mismo material genético, y sin embargo una neurona, una célula del hígado y una de la piel hacen cosas completamente distintas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación la encontraron en 1961, en el Instituto Pasteur de París, François Jacob y Jacques Monod, estudiando cómo una bacteria digiere el azúcar de la leche. Descubrieron que aquel conjunto de genes está normalmente apagado por una proteína que se sienta encima e impide su lectura, y que cuando aparece ese azúcar en el medio, la proteína se suelta y los genes se activan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso el concepto entero cambió de forma. Un gen no es un plano fijo que se ejecuta, sino una instrucción condicional: si ocurre tal cosa, fabrica tal producto. El genoma no es un manual que se lee de principio a fin, es una biblioteca enorme de la que en cada momento y en cada tipo de célula se está consultando una fracción minúscula.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la fórmula que Mukherjee repite en el libro y que corrige la idea de destino genético. Lo que un ser vivo acaba siendo no lo determina su genoma: lo determinan el genoma, el ambiente, los desencadenantes concretos que le tocan y una buena dosis de azar. Los cuatro factores, y ninguno se puede quitar de la ecuación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todas tus células tienen los mismos genes; lo que las hace distintas es cuáles están apagados en cada una.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En 1975 los científicos se pararon a sí mismos" },
+      {
+        b: "texto",
+        texto:
+          "A principios de los setenta apareció la técnica que lo cambió todo: cortar un fragmento de ADN de un organismo y pegarlo en otro, usando unas enzimas que las bacterias emplean para defenderse de los virus. De golpe se podía mover información genética entre especies que jamás se habrían cruzado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los propios investigadores se asustaron. Uno de los primeros experimentos planeados consistía en introducir genes de un virus que produce tumores en la bacteria que vive en el intestino humano, y varios colegas señalaron el riesgo evidente. En 1974, un grupo de científicos publicó una carta pidiendo una moratoria voluntaria en ese tipo de trabajos, y la moratoria se cumplió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En febrero de 1975 se reunieron unos ciento cuarenta investigadores, junto con abogados y periodistas, en un centro de conferencias de la costa de California llamado Asilomar. Durante cuatro días discutieron qué experimentos eran aceptables y con qué precauciones, y salieron de allí con un sistema de niveles de contención y una lista de trabajos prohibidos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mukherjee lo presenta como el mejor ejemplo que existe de autorregulación científica: un gremio que detiene su propia investigación antes de que ningún gobierno se lo pida, discute en público y establece reglas que después se convierten en normativa. También señala sus límites: funcionó porque el campo era pequeño, todos se conocían y todavía no había dinero de por medio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un grupo de científicos detuvo voluntariamente su propia línea de trabajo antes de que ningún gobierno se lo pidiera, y funcionó.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El genoma humano resultó tener muchos menos genes de los esperados" },
+      {
+        b: "texto",
+        texto:
+          "El Proyecto Genoma Humano se puso en marcha en 1990 con la intención de leer entera la secuencia de ADN de una persona: tres mil millones de letras. Estaba previsto que durase quince años y costara tres mil millones de dólares, y a mitad de camino apareció una empresa privada dirigida por Craig Venter que anunció que lo haría antes y por su cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La competencia aceleró el trabajo y terminó en un empate negociado: en junio de 2000 se anunció conjuntamente un borrador, y la versión completa llegó en 2003. Fue el mayor proyecto de biología de la historia y su resultado principal fue una sorpresa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Antes de empezar, las estimaciones habituales hablaban de unos cien mil genes humanos; se organizaron incluso apuestas entre investigadores sobre la cifra final. El recuento dio alrededor de veinte mil, aproximadamente los mismos que tiene un gusano microscópico de un milímetro y bastantes menos que una planta de arroz. La complejidad de un organismo no depende del número de genes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Además, solo un dos por ciento del genoma humano corresponde a instrucciones para fabricar proteínas. El resto se llamó durante años ADN basura, y hoy se sabe que buena parte de él contiene elementos de regulación: interruptores, señales y secuencias que deciden cuándo y dónde se enciende cada gen. La información importante no estaba solo en las recetas, estaba en el sistema de encendido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un ser humano tiene aproximadamente los mismos genes que un gusano de un milímetro, y menos que una planta de arroz.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Saber que vas a enfermar y no poder hacer nada" },
+      {
+        b: "texto",
+        texto:
+          "La parte del libro que más afecta a la vida corriente trata de qué se hace con la información genética una vez que se puede leer, y Mukherjee la organiza alrededor de dos casos que representan los dos extremos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primero es la enfermedad de Huntington, un trastorno neurodegenerativo que aparece hacia los cuarenta años y que es mortal. Depende de un solo gen y su comportamiento es implacable: quien lleva la variante desarrollará la enfermedad con certeza prácticamente absoluta. Existe una prueba fiable desde 1993 y no existe tratamiento. Quien tiene un padre afectado se enfrenta a una decisión pura: saberlo o no saberlo, sabiendo que enterarse no cambia nada de lo que va a ocurrir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo son las variantes de dos genes asociados al cáncer de mama y de ovario. Ahí la información es de otro tipo: no dice que la enfermedad vaya a aparecer, dice que la probabilidad sube mucho respecto a la media. Y como sí hay medidas posibles —vigilancia intensiva o cirugía preventiva—, la decisión se convierte en un cálculo difícil sobre un riesgo que nunca es una certeza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mukherjee usa esos dos casos para plantear el problema que atraviesa el libro: cuánta información sobre el propio futuro biológico quiere alguien tener, quién más va a tener acceso a ella —un asegurador, un empleador, una pareja— y qué se hace con un diagnóstico en un embrión cuando lo que se diagnostica no es una enfermedad segura sino una probabilidad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Existe una prueba fiable que te dice si vas a desarrollar una enfermedad mortal a los cuarenta, y no hay ningún tratamiento.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Sus propios colegas le corrigieron un capítulo por escrito" },
+      {
+        b: "texto",
+        texto:
+          "Este libro tiene un episodio de crítica pública que conviene conocer, porque afecta a uno de sus capítulos más citados. En 2016, poco antes de publicarse, Mukherjee adelantó en una revista un texto sobre epigenética, es decir, sobre las marcas químicas que se añaden al ADN y a las proteínas que lo empaquetan y que influyen en qué genes se leen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La respuesta fue inmediata y vino de genetistas de primera fila, algunos de ellos premios Nobel. Su reproche no era menor: sostenían que el texto atribuía a esas marcas químicas el papel principal en la regulación de los genes, cuando el mecanismo mejor establecido y con diferencia más importante es otro, el de unas proteínas llamadas factores de transcripción que se unen al ADN y activan o silencian regiones concretas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El artículo, decían, apenas mencionaba ese mecanismo, y con ello daba una imagen deformada del estado de la disciplina, presentando como central algo que es real y ocupa un lugar secundario. La revista publicó las críticas y Mukherjee reconoció que el énfasis había sido desequilibrado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El episodio no invalida el libro y es útil por sí mismo: muestra cómo se corrige la divulgación de un campo en marcha, y también por qué es un asunto delicado. La epigenética se ha convertido fuera de los laboratorios en la coartada de todo tipo de afirmaciones sin apoyo, desde que los traumas se heredan durante generaciones hasta que ciertos hábitos reescriben el genoma, y un capítulo entusiasta en un libro tan leído alimenta esa confusión.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un capítulo divulgativo entusiasta sobre un campo en marcha puede convertirse fuera del laboratorio en la coartada de cualquier cosa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El gen cuenta la historia de una idea desde el huerto de un monasterio del siglo XIX hasta la posibilidad actual de editar el genoma de un embrión, pasando por la eugenesia, las moscas de la fruta, la doble hélice, la regulación génica y el proyecto que leyó tres mil millones de letras. Su tesis es que un gen no es un destino ni un plano, sino una instrucción condicional, y que lo que alguien acaba siendo depende del genoma, del ambiente, de los desencadenantes que le toquen y del azar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, además del recorrido, es la insistencia en que esta historia ya tuvo una vez consecuencias políticas atroces con una ciencia mucho peor que la actual, y que la tentación de deducir de la biología quién merece existir no fue un accidente alemán, sino un programa respetable en varios países democráticos durante cuarenta años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Genoma más ambiente más desencadenantes más azar: los cuatro factores hacen falta, y ninguno se puede quitar de la ecuación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Son setecientas páginas y el tramo central, el de la genética molecular, se hace denso incluso para un lector interesado. El marco familiar, que sostiene bien el principio y el final, aparece a veces intercalado para dar peso emocional a discusiones técnicas donde no aporta nada. Y en los capítulos sobre genes e identidad —raza, sexo, orientación— trata en pocas páginas asuntos donde cada matiz importa, y algunos se pierden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después es lo que más cambia el libro. En noviembre de 2018, dos años después de publicarse, un investigador chino anunció el nacimiento de dos niñas cuyo genoma había editado en el embrión; la comunidad científica internacional lo condenó de forma unánime, y él fue juzgado y condenado a tres años de prisión en su país. Fue exactamente el escenario que Mukherjee plantea al final como hipótesis, y llegó antes de lo que nadie esperaba. En sentido contrario, en 2023 se aprobó en varios países la primera terapia basada en esa misma técnica de edición para tratar la anemia falciforme, esta vez sobre células de un paciente adulto y sin tocar la herencia.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "gen-historia": GEN_HISTORIA,
   "orden-del-tiempo": ORDEN_DEL_TIEMPO,
   "revoluciones-cientificas": REVOLUCIONES_CIENTIFICAS,
   "astrofisica-prisa": ASTROFISICA_PRISA,

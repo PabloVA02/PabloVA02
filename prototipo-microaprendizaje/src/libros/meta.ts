@@ -408,22 +408,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "gen-historia",
-    titulo: "El gen",
-    autor: "Siddhartha Mukherjee",
-    ano: 2016,
-    gancho: "Un oncólogo viaja a Calcuta a visitar a su primo encerrado en un psiquiátrico. Va a escribir la historia de la herencia porque necesita saber qué lleva dentro.",
-    porQue: "Cuenta ciento cincuenta años de genética como un thriller, y no esconde la parte en la que esta ciencia sirvió para esterilizar a sesenta mil personas.",
-    minutos: 22.4,
-    capitulos: [
-      { titulo: "Un manicomio en Calcuta", minutos: 4.5 },
-      { titulo: "El fraile y los guisantes", minutos: 4.6 },
-      { titulo: "Tres generaciones de imbéciles", minutos: 4.4 },
-      { titulo: "La fotografía 51", minutos: 4.4 },
-      { titulo: "Lulu y Nana", minutos: 4.5 },
-    ],
-  },
-  {
     id: "ultimos-dinosaurios",
     titulo: "Los últimos días de los dinosaurios",
     autor: "Riley Black",

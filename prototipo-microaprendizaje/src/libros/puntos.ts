@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "gen-historia": [
+    "por qué nadie leyó a Mendel durante treinta y cinco años",
+    "dónde empezó realmente la eugenesia y quién copió a quién",
+    "por qué un gen no es un plano sino un interruptor",
+    "qué pasó en 1975 cuando los científicos se pararon solos",
+    "cuántos genes tiene un ser humano y con quién los comparte",
+  ],
+
   "orden-del-tiempo": [
     "qué pasa con dos relojes a distinta altura",
     "por qué no existe un ahora compartido con nada lejano",

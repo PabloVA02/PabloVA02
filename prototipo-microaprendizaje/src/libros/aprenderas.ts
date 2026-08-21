@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "gen-historia":
+    "Dos tíos y un primo del autor tuvieron enfermedades mentales graves, y el libro empieza y acaba con la pregunta de qué probabilidad tienen él y sus hijas. Entre medias, siglo y medio de la idea de que la herencia va en paquetes.",
+
   "orden-del-tiempo":
     "Un reloj atómico colocado treinta centímetros más alto que otro va medible­mente más deprisa. El libro parte de ahí y va retirando una por una todas las propiedades que atribuimos al tiempo, hasta no dejar ninguna.",
 
