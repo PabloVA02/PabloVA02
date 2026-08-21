@@ -21303,7 +21303,493 @@ const HISTORIA_ARTE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El niño con el pijama de rayas, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO: títulos cortos de imagen, afirmación en la primera
+   frase, caja del rayo en segunda persona. TERCERA persona en la prosa.
+
+   Este libro obliga a la regla 5 más que ninguno: la página 7 y la
+   conclusión llevan lo que se ha medido sobre su efecto en lectores
+   jóvenes, incluido el estudio de 2020. Sin eso, esto sería propaganda de
+   contraportada.
+   -------------------------------------------------------------------------- */
+
+const CHICO_PIJAMA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos días y medio" },
+      {
+        b: "texto",
+        texto:
+          "John Boyne cuenta que escribió este libro en dos días y medio, casi sin levantarse, en diciembre de 2004. Tenía en la cabeza una imagen y nada más: dos niños de nueve años sentados a los dos lados de una alambrada. Lo publicó en 2006 y lleva vendidos más de once millones de ejemplares en cincuenta idiomas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palabra que aparece bajo el título en la edición original importa mucho, y casi nadie repara en ella: fábula. No pone novela histórica ni basada en hechos reales. Boyne lo ha repetido en cada entrevista de veinte años: escribió una fábula, y una fábula funciona por lo que significa y no por lo que documenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento cabe en tres líneas. Bruno tiene nueve años, vive en Berlín en una casa de cinco pisos con criados y le encanta explorar. Su padre recibe un ascenso y la familia se muda a un sitio horrible donde no hay con quién jugar y desde cuya ventana se ve una alambrada larguísima, con gente al otro lado vestida con pijamas de rayas. Bruno se aburre, sale a explorar y encuentra a un niño sentado del otro lado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren cómo está construido y qué se discute de él: por qué todo depende de que el narrador no entienda nada, qué hay de cierto en la casa junto al campo, qué escena olvida casi todo el mundo, por qué el final funciona como fábula, y qué encontró un estudio con ocho mil alumnos sobre lo que este libro deja creer.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si un libro se llama a sí mismo fábula, la discusión no es si es verdad: es qué acaba creyendo quien solo ha leído esa fábula.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El Furia y Auchviz" },
+      {
+        b: "texto",
+        texto:
+          "Toda la novela se sostiene sobre un procedimiento único, y está anunciado en dos palabras mal dichas. Bruno llama Furia al jefe de Estado que viene a cenar a su casa, porque no sabe pronunciar Führer. Y al lugar donde se han mudado lo llama Auchviz, porque tampoco sabe decir Auschwitz. Nunca lo corrige nadie y el lector no necesita que se lo expliquen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ahí, el libro entero está narrado desde una cabeza de nueve años que registra lo que ve sin entenderlo. Bruno cree que la gente del otro lado de la alambrada lleva pijama porque es su ropa de trabajo. Cree que Shmuel está delgado porque en su campo hay poca comida, como quien dice que en un colegio la comida es mala. Cree que las chimeneas humean porque hay una fábrica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto es que el horror lo pone el lector. Boyne no describe nunca una selección, ni una cámara de gas, ni un golpe; describe a un niño aburrido que echa de menos a sus amigos de Berlín, y quien lee va traduciendo cada frase inocente a lo que de verdad significa. Es la técnica de la ironía dramática llevada a doscientas páginas seguidas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese hallazgo es la razón del éxito del libro y también el origen de todos sus problemas, porque exige que un niño alemán de nueve años en 1943, hijo de un alto oficial, no sepa absolutamente nada de lo que su país lleva diez años diciendo en voz alta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando el que cuenta no entiende lo que ve, el que entiende eres tú, y lo que entiendes se te queda mucho más adentro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una casa a cien metros de la valla" },
+      {
+        b: "texto",
+        texto:
+          "La premisa que más incrédulos deja —una familia viviendo pegada a un campo de exterminio, con jardín y criados— es la parte menos inventada del libro. Rudolf Höss, comandante de Auschwitz, vivió durante años en una villa situada a unos cien metros de la alambrada del campo, con su mujer y sus cinco hijos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La casa tenía invernadero, piscina y un jardín cuidado por prisioneros. Sus hijos jugaban allí. Su mujer, Hedwig, dijo una vez que quería vivir y morir en aquel sitio. Los detalles se conocen porque Höss escribió sus memorias en una celda polaca antes de ser ahorcado en 1947, en una horca levantada dentro del propio campo de Auschwitz, a pocos metros de aquella casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "O sea que el decorado de la novela no es una licencia poética: existió, con nombres y direcciones. Lo que la novela añade es la ignorancia. Los hijos de Höss eran pequeños, pero la casa entera funcionaba con trabajo de prisioneros, sus padres hablaban del campo en la mesa y la ropa de los deportados se repartía entre el personal alemán.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un dato que el propio libro sugiere y que suele pasar inadvertido. La hermana de Bruno, Gretel, que tiene doce años, sí entiende. Recibe clases de un tutor, cuelga mapas en su cuarto y va siguiendo el frente con chinchetas. En la misma casa, tres años de diferencia bastan para que una sepa y el otro no.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El detalle más difícil de creer de esta historia es el único que está documentado con nombres, planos y fotografías.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un año entero sentados" },
+      {
+        b: "texto",
+        texto:
+          "La amistad de la novela se construye con la única acción posible en su situación: hablar sentados en el suelo, cada uno de un lado. Bruno lleva comida y a veces se la come por el camino. Shmuel escucha. Los dos han nacido el mismo día, el 15 de abril de 1934, coincidencia que Boyne usa para decir sin decirlo lo único que quiere decir el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tiempo también está manipulado a favor de la fábula. Esos encuentros duran alrededor de un año, casi cada tarde, en el mismo punto de una valla que en el campo real estaba electrificada, vigilada desde torres y patrullada con perros. Que nadie los vea durante meses es exactamente el tipo de cosa que una fábula se permite y una novela histórica no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una asimetría en esas conversaciones que sostiene el libro por debajo. Bruno se queja de que su casa nueva es pequeña, de que echa de menos a sus tres mejores amigos y de que su hermana es un caso perdido. Shmuel cuenta, sin dramatizar, que su padre desapareció, que a su abuelo no volvió a verlo y que allí dentro no hay nada que hacer. Ninguno de los dos entiende del todo al otro y siguen quedando.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dos personas pueden hablar cada tarde durante un año y estar contándose cosas que ninguna de las dos alcanza a comprender.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La tarde en que Bruno dijo que no lo conocía" },
+      {
+        b: "texto",
+        texto:
+          "La mejor escena del libro es la que casi nadie recuerda, y es la que salva la novela de ser un cuento de niños buenos. Un día llevan a Shmuel a la casa de Bruno a limpiar unas copas pequeñas, porque tiene los dedos finos. Bruno se alegra de verlo dentro y le da comida de la despensa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entra el teniente Kotler, un joven oficial que ya ha aparecido antes maltratando al criado Pavel. Ve a Shmuel comiendo y le pregunta si ha robado. Shmuel dice que no, que se lo ha dado su amigo Bruno. Kotler se vuelve hacia Bruno y le pregunta si conoce a ese niño. Y Bruno, muerto de miedo, dice que no lo ha visto en su vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Shmuel no vuelve a la alambrada en varios días. Cuando reaparece tiene la cara marcada. Bruno le pide perdón, se lo dan, y ahí se acaba el asunto, con esa facilidad con la que se arreglan las cosas a los nueve años. La escena es importante porque es el único momento en que la novela deja claro que la inocencia también hace daño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Antes ha ocurrido algo parecido con Pavel, el hombre que pela patatas en la cocina y que era médico antes de llegar allí. Cura la rodilla de Bruno con delicadeza; semanas después, en una cena, derrama una copa de vino y Kotler se lo lleva. Bruno se calla. Pavel no vuelve a aparecer.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Callarse por miedo cuesta un segundo, y quien paga la cuenta nunca es el que se calló.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un pijama de rayas" },
+      {
+        b: "texto",
+        texto:
+          "El final está preparado desde la primera página y aun así funciona. La familia decide volver a Berlín porque la madre no aguanta más. Bruno, en su última tarde, promete a Shmuel ayudarle a buscar a su padre, que lleva semanas desaparecido dentro del campo. Shmuel le trae un pijama de rayas y un gorro. Bruno deja su ropa doblada, se cambia y pasa por debajo de la alambrada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurre después está narrado desde dentro de su cabeza y por eso resulta insoportable. Los dos niños buscan al padre entre las barracas. Empieza a llover. Suena un silbato y los meten en una fila con otros hombres. Bruno piensa que aquello debe de ser para resguardarse. Entran en una habitación larga. Se apaga la luz. Bruno le da la mano a Shmuel y le dice que es su mejor amigo para toda la vida. Y ahí acaba el capítulo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Boyne no describe nada más. El capítulo siguiente cuenta lo de fuera: la ropa doblada junto a la valla, la madre gritando por el campo, el padre encontrando meses después el hueco por el que su hijo había pasado y comprendiendo de golpe qué había estado dirigiendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Como fábula, la operación está clara: el único modo de que aquel padre entendiera lo que hacía era que le ocurriera a los suyos. Y el precio de esa claridad es igual de claro: para que un lector sintiera de verdad lo que pasaba allí dentro, hizo falta meter dentro a un niño alemán.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si una historia solo consigue conmoverte cuando el que muere se parece a ti, conviene preguntarse qué te estaba costando conmoverte antes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ocho mil alumnos" },
+      {
+        b: "texto",
+        texto:
+          "Este libro es uno de los más leídos en los institutos de media Europa, y por eso se ha medido lo que deja. En 2020, el centro de educación sobre el Holocausto del University College de Londres publicó un estudio con unos ocho mil alumnos británicos de entre trece y dieciocho años. Fue el título de ficción más mencionado por ellos al preguntarles de dónde sacaban lo que sabían.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los resultados no son sobre gusto literario, son sobre creencias. Una parte considerable de los alumnos que lo habían leído o visto la película creía que se trataba de una historia real. Y los investigadores encontraron tres ideas equivocadas que el libro refuerza: que los alemanes corrientes no sabían nada, que el sufrimiento de las familias alemanas fue equiparable al de las víctimas, y que en los campos había niños viviendo con normalidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los reparos históricos concretos son conocidos y no son de detalle. En Auschwitz casi ningún niño de esa edad sobrevivía a la llegada. La alambrada estaba electrificada y no se podía levantar. Un hijo de nueve años de un oficial de las SS en 1943 llevaba desde la guardería oyendo propaganda antisemita, así que su ignorancia total es la única invención grande del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El propio museo estatal de Auschwitz ha pedido públicamente que no se use como material educativo por sí solo. No pide que se prohíba: pide que no sea lo único que un alumno lea sobre el asunto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una fábula deja de ser inofensiva en el momento exacto en que es lo único que alguien ha leído sobre lo que cuenta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El niño con el pijama de rayas cuenta la amistad de dos niños de nueve años a los dos lados de la alambrada de Auschwitz, narrada por el que no entiende nada, y termina con el hijo del comandante muriendo en la cámara de gas que dirige su padre. Su procedimiento es uno solo, sostenido doscientas páginas: el lector traduce a horror cada frase inocente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la eficacia. Es el libro que consigue que un lector de trece años se quede callado al terminarlo, y en ese oficio no tiene rival: pocas obras han llevado a tanta gente joven a interesarse por lo que pasó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La inocencia no es una excusa ni una virtud: en este libro es lo que permite que todo siga funcionando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Falla en lo que un lector joven se lleva sin darse cuenta. Al contarlo desde un alemán, el Holocausto pasa a ser el fondo de una tragedia familiar alemana, y Shmuel —que es el que muere de verdad, junto a un millón de personas más— es un personaje sin interior, que existe para que Bruno tenga con quién hablar. Y la ignorancia absoluta de una familia de las SS, que es el motor de la trama, es históricamente insostenible en 1943.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después. Boyne ha defendido su libro durante veinte años apoyándose en la palabra fábula, y a la vez ha ido cambiando. En 2022 publicó una continuación, Todas las piezas rotas, protagonizada por Gretel, la hermana, ya anciana y viviendo en Londres bajo otro nombre. Allí no hay ninguna inocencia: hay una mujer que sabía, que se calló y que ha pasado setenta años administrando esa culpa. Se lee como la respuesta de un autor a lo que se le llevaba dos décadas reprochando.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   Yo soy Malala, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO (biografía): títulos cortos de imagen, afirmación en
+   la primera frase, caja del rayo en segunda persona.
+
+   Es un libro escrito desde un atentado real, así que TERCERA persona en
+   la prosa y ninguna lección de superación. La página 7 lleva lo que casi
+   ningún resumen dice: en Pakistán el libro está prohibido en miles de
+   colegios privados.
+   -------------------------------------------------------------------------- */
+
+const MALALA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Quién es Malala" },
+      {
+        b: "texto",
+        texto:
+          "El 9 de octubre de 2012, un autobús escolar volvía de los exámenes por una carretera del valle del Swat, en el norte de Pakistán. Un hombre joven lo paró, subió y preguntó cuál de las niñas era Malala. Ninguna contestó, pero varias miraron hacia el mismo sitio. Disparó tres veces. La primera bala entró por el lado izquierdo de la frente de una chica de quince años, bajó por el cuello y quedó alojada en el hombro. Las otras dos hirieron a sus compañeras Shazia y Kainat.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Malala Yousafzai sobrevivió. La operaron en Peshawar quitándole parte del cráneo para que el cerebro inflamado tuviera sitio, la trasladaron en avión a Birmingham, le reconstruyeron el hueso con una placa de titanio y le pusieron un implante coclear en el oído izquierdo. Un año después publicó este libro, escrito con la periodista británica Christina Lamb.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que no suele saberse es qué había hecho antes para que fueran a buscarla. No fue un acto aislado ni una consigna repetida: a los once años escribía un diario para la BBC bajo un nombre falso, y a los trece daba entrevistas en televisión con el suyo, en un valle donde los talibanes ejecutaban gente en la plaza y dejaban los cuerpos hasta el mediodía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que cuenta el libro: qué significa nacer niña en su familia y en su valle, cómo una emisora de radio pirata cambió una comarca entera, qué era aquel diario, qué pasó cuando el ejército entró en el Swat, qué ocurrió después del disparo y por qué en su propio país este libro está prohibido en miles de colegios.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien pregunta por tu nombre antes de disparar, es que lo que le molestaba no era una multitud: era una persona concreta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El primer nombre de mujer en el árbol" },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con una costumbre y esa costumbre lo explica casi todo. Cuando en su valle nace un niño se dispara al aire, se reparten dulces y su nombre se añade al árbol genealógico de la familia, que en la suya se remonta trescientos años. Cuando nace una niña, las mujeres van a consolar a la madre. En el árbol de los Yousafzai no había un solo nombre femenino.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su padre, Ziauddin, cogió un bolígrafo, dibujó una línea desde su propio nombre y escribió al lado: Malala. Es el gesto fundacional del libro y explica por qué esta autobiografía es, en buena medida, la de dos personas. Ziauddin era un maestro de pueblo que tartamudeaba de joven y que ganó un concurso de oratoria con un discurso escrito por su padre; después montó con un socio y sin dinero una escuela, la Khushal, endeudándose para pagar el alquiler.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El nombre tampoco es casual. Viene de Malalai de Maiwand, una joven pastún que en 1880, durante una batalla contra el ejército británico, levantó su velo como bandera cuando los suyos retrocedían, gritó unos versos y murió allí mismo. En aquella región, ponerle a una hija el nombre de una heroína que muere joven es una decisión que el propio libro comenta con incomodidad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que alguien tuviera que añadir a mano el primer nombre de mujer en trescientos años dice más de un sitio que cualquier estadística.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El mulá de la radio" },
+      {
+        b: "texto",
+        texto:
+          "La parte más útil del libro es la que explica cómo un valle tranquilo y turístico se convirtió en otra cosa en tres años, porque no lo cuenta como una invasión sino como una conquista lenta y consentida. Empezó en 2005 con una emisora de radio ilegal. Un clérigo llamado Fazlullah emitía cada noche por una frecuencia sin licencia, con buena voz y buenas maneras, y la gente lo escuchaba porque hablaba de cosas cotidianas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al principio pedía cosas razonables para su público: rezar más, dejar el tabaco, no gastar en bodas. La madre de Malala lo escuchaba. Después empezó a leer listas: nombres de vecinos que hacían tal o cual cosa, y felicitaciones a los que dejaban de hacerla. La gente se enteraba por la radio de quién estaba señalado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Luego llegaron las prohibiciones: primero la televisión y los discos, que la gente sacó a quemar en montones a la calle; después las peluquerías, la vacunación de la polio por considerarla un plan extranjero, y que las mujeres salieran solas. En 2008 empezaron a volar escuelas de niñas por la noche; en el valle acabaron destruyendo unas cuatrocientas. El 15 de enero de 2009, Fazlullah anunció por la radio que a partir de esa fecha ninguna niña podía ir al colegio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nunca empieza con una prohibición: empieza con un consejo razonable dicho por alguien con buena voz, todas las noches.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un diario firmado con nombre falso" },
+      {
+        b: "texto",
+        texto:
+          "A finales de 2008, un corresponsal del servicio en urdu de la BBC buscaba a alguien del valle que contara desde dentro cómo era vivir bajo aquella prohibición. Preguntó a maestras y a alumnas mayores. Todas dijeron que no, y con razón: sus familias vivían allí y las listas se leían en la radio. La única que aceptó fue una niña de once años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El diario se publicó a lo largo de 2009 firmado como Gul Makai, que en pastún significa flor de maíz y es el nombre de una heroína de un cuento popular. Malala dictaba las entradas por teléfono, a veces desde una cabina, porque no tenía conexión. No hay en ellas ninguna arenga: hay una niña contando que se ha puesto ropa de calle en vez del uniforme para que no la reconozcan, que en clase han quedado once de veintisiete, que ha soñado con helicópteros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa es la parte del libro que mejor aguanta, precisamente porque es la menos heroica. Y su padre, mientras tanto, hacía lo contrario: daba entrevistas con su nombre y su cara, y recibía amenazas por escrito. Cuando alguien le advirtió de que iban a por él, contestó que a él podían matarlo, pero que a una niña no la tocarían nunca. Se equivocó, y el libro lo dice con esas palabras.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que convence de un testimonio casi nunca es su valentía: es el detalle doméstico que nadie se inventaría.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos millones de personas por una carretera" },
+      {
+        b: "texto",
+        texto:
+          "En mayo de 2009, el ejército de Pakistán lanzó una ofensiva para recuperar el Swat y ordenó evacuar el valle. Casi dos millones de personas salieron por carretera en unos días, en la mayor evacuación que ha vivido el país. La familia de Malala se separó: su padre fue a Peshawar a hablar con periodistas y ellas se quedaron meses en casa de unos parientes en un pueblo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta ese exilio con detalles que no salen en las crónicas. Que se dejaron los libros del colegio escondidos. Que su madre, que no sabía leer, se pasaba el día pendiente de un teléfono. Que en el pueblo de acogida las mujeres no salían de casa, algo a lo que ellas no estaban acostumbradas. Y que cuando volvieron, tres meses después, la escuela seguía en pie con un agujero de obús y las aulas llenas de basura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ahí, Malala empezó a hablar con su nombre. Dio entrevistas, recibió el primer premio nacional de la paz para jóvenes de Pakistán en 2011, presidió una asamblea infantil del distrito y aparecía en televisión pidiendo escuelas. Su padre siguió amenazado. En verano de 2012, los talibanes decidieron en una reunión que ella también lo estaba, y el libro reproduce lo esencial de esa decisión, que se conoció después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Volver a un sitio del que huiste no es recuperarlo: es empezar a limpiar un aula con un agujero en la pared.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que pasó después del disparo" },
+      {
+        b: "texto",
+        texto:
+          "La parte médica del libro está contada con una frialdad que la hace más dura. Malala no recuerda nada del atentado ni de la semana siguiente. Lo reconstruye con lo que le contaron: que el cerebro se le inflamó, que un cirujano paquistaní le quitó un trozo de cráneo y se lo guardó en el abdomen para conservarlo, que una médica británica que estaba de paso en Pakistán por otro motivo insistió en trasladarla, que despertó en Birmingham sin saber en qué país estaba y sin poder hablar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuenta también cosas que no encajan con la versión que circuló por el mundo. Que lo primero que preguntó al despertar fue quién iba a pagar aquello, porque su padre no tenía dinero. Que estuvo semanas sin poder cerrar el ojo izquierdo ni sonreír por el nervio facial dañado. Que su madre y su padre tardaron diez días en llegar a Inglaterra por problemas de pasaporte, y que en ese tiempo la cuidó personal de un hospital cuyo idioma no dominaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle que el libro elige poner y podría haberse ahorrado: que su casa, sus cosas y su valle se quedaron atrás para siempre. La familia no ha podido volver a vivir allí. Ese es el precio que la historia, contada como cuento inspirador, casi nunca menciona.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Sobrevivir a algo así no devuelve la vida anterior: la cambia entera y no hay ninguna versión en la que eso salga gratis.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En su propio país el libro no se puede leer en muchos colegios" },
+      {
+        b: "texto",
+        texto:
+          "La parte de esta historia que casi ningún resumen cuenta es cómo se recibió en Pakistán. En noviembre de 2013, pocas semanas después de publicarse, una federación que agrupaba a decenas de miles de colegios privados del país prohibió el libro en sus bibliotecas y declaró un día de protesta contra él, alegando que su contenido era contrario a los valores islámicos y al interés nacional.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los reproches concretos eran dos: que hablaba con simpatía de Salman Rushdie y de la libertad de expresión en su caso, y que en el texto no aparece la fórmula de respeto que se añade tradicionalmente al nombre del profeta. Por debajo había algo mayor: una parte considerable de la opinión pública paquistaní la ve como una figura fabricada por Occidente, y circula desde entonces la teoría de que el atentado fue un montaje.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Malala ha respondido lo mismo desde entonces: que su país es el que quiere arreglar, que ha invertido en escuelas allí y que volverá. Su fundación financia educación en Pakistán, Nigeria, Afganistán y varios países más. En 2018 pudo visitar el Swat por primera vez desde el atentado, con seguridad y por unas horas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hombre que ordenó dispararle, Fazlullah, llegó a dirigir a los talibanes paquistaníes y murió en 2018 en un ataque estadounidense con dron en Afganistán.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que a alguien lo celebren fuera de su país no significa que lo escuchen dentro, y a veces significa justo lo contrario.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Yo soy Malala cuenta cómo un valle turístico del norte de Pakistán quedó bajo el control de un grupo armado en tres años, cómo una niña de once escribió sobre ello para la BBC con nombre falso, y qué ocurrió cuando a los quince fueron a buscarla al autobús del colegio. Su mejor material no es el atentado: es el mecanismo por el que una comarca entera aceptó paso a paso lo que al principio le parecía razonable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un testimonio de primera mano sobre cómo se pierde la normalidad, escrito por alguien que estaba dentro y era una niña, con nombres, fechas y emisoras de radio concretas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un niño, un maestro, un libro y un lápiz pueden cambiar el mundo: lo dijo en la ONU a los dieciséis años, y es una frase que se cita sin recordar de dónde salía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Está escrito a cuatro manos con una periodista británica y se nota demasiado: la voz salta de una adolescente de Mingora a un editorial sobre la historia de Pakistán, con capítulos enteros de contexto político que ninguna chica de dieciséis años redacta así. Además está pensado desde el principio para un lector occidental, y eso explica parte del rechazo que provocó en su país. Y es una autobiografía escrita a los dieciséis, con todo lo que eso supone: no hay ninguna distancia sobre lo ocurrido, porque no había pasado el tiempo suficiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después. En 2014, con diecisiete años, recibió el Nobel de la Paz junto al activista indio Kailash Satyarthi, y sigue siendo la persona más joven en haberlo recibido. La ONU declaró su cumpleaños, el 12 de julio, día internacional en su nombre. Se graduó en Oxford en 2020. Y ha ido corrigiendo por su cuenta la imagen que se construyó de ella: ha publicado después un libro sobre mujeres refugiadas y ha dicho en varias entrevistas que le incomoda ser tratada como un símbolo, porque un símbolo no puede equivocarse ni cambiar de opinión.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  malala: MALALA,
+  "chico-pijama": CHICO_PIJAMA,
   "historia-arte": HISTORIA_ARTE,
   "madame-bovary": MADAME_BOVARY,
   "ana-karenina": ANA_KARENINA,

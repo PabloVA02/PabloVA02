@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  malala:
+    "En su valle, cuando nace una niña no se añade su nombre al árbol familiar. Su padre añadió el suyo a mano. Diez años después, un hombre subió a su autobús escolar y preguntó cuál de aquellas chicas era Malala.",
+
+  "chico-pijama":
+    "Boyne lo escribió en dos días y medio a partir de una imagen: dos niños de nueve años sentados a los dos lados de una alambrada. Bajo el título pone fábula, y esa palabra es a la vez su método y el origen de todo lo que se le discute.",
+
   "historia-arte":
     "Empieza diciendo que no existe el Arte, que solo existen los artistas. Gombrich lo escribió en 1950 para lectores jóvenes, con una regla: no mencionar ninguna obra que no pudiera reproducir en la propia página.",
 

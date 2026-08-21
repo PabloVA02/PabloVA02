@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  malala: [
+    "cómo una emisora de radio pirata cambió un valle entero",
+    "qué era el diario que escribió para la BBC a los once años",
+    "qué pasó cuando el ejército entró en el Swat",
+    "qué cuenta el libro de los meses posteriores al disparo",
+    "por qué está prohibido en miles de colegios de Pakistán",
+  ],
+
+  "chico-pijama": [
+    "por qué todo depende de que el narrador no entienda nada",
+    "qué hay de cierto en la casa junto al campo",
+    "qué escena del libro olvida casi todo el mundo",
+    "qué encontró un estudio con ocho mil alumnos",
+    "por qué el museo de Auschwitz pide que no se use solo",
+  ],
+
   "historia-arte": [
     "para qué servían de verdad las pinturas de las cuevas",
     "por qué los egipcios dibujaban así durante tres mil años",

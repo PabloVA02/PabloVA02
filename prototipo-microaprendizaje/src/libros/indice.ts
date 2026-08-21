@@ -49,7 +49,6 @@ const CARGADORES: Record<string, Cargador> = {
   "diario-ana-frank": () => import("./historia").then((m) => m.ANA_FRANK),
   "armas-germenes": () => import("./historia").then((m) => m.ARMAS_GERMENES),
   mandela: () => import("./historia").then((m) => m.MANDELA),
-  malala: () => import("./historia").then((m) => m.MALALA),
 
   /* Ciencia */
   feynman: () => import("./ciencia").then((m) => m.FEYNMAN),
@@ -96,7 +95,6 @@ const CARGADORES: Record<string, Cargador> = {
   invencible: () => import("./salud").then((m) => m.INVICTO),
   tao: () => import("./filosofia").then((m) => m.TAO_TE_CHING),
   antifragil: () => import("./economia").then((m) => m.ANTIFRAGIL),
-  "chico-pijama": () => import("./historia").then((m) => m.CHICO_PIJAMA),
   "bernarda-alba": () => import("./literatura").then((m) => m.BERNARDA_ALBA),
   rayuela: () => import("./literatura").then((m) => m.RAYUELA),
   "el-tunel": () => import("./literatura").then((m) => m.EL_TUNEL),
