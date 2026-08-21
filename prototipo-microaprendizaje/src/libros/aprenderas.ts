@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "guerra-civil-thomas":
+    "Un historiador británico de veintinueve años publicó en 1961 la primera historia completa de la guerra civil, sin haber podido entrar en un solo archivo español. El libro se prohibió aquí y entró de contrabando quince años.",
+
   "auschwitz-rees":
     "En mayo de 1940 se abrió un campo para presos políticos polacos en unos cuarteles viejos. Cinco años después habían sido asesinadas allí un millón cien mil personas, y nadie había planeado esa transformación de una vez.",
 

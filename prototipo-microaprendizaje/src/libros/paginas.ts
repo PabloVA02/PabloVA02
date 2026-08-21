@@ -54763,7 +54763,425 @@ const AUSCHWITZ_REES: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La guerra civil española, en doce páginas.
+
+   AMPLIO. Mil páginas y varias tesis independientes: el golpe fallido, la
+   disolución del Estado republicano, el puente aéreo, la no intervención,
+   el oro, las dos represiones, la guerra dentro de la guerra y por qué
+   perdió la República.
+
+   Historia → afirmación entera y tercera persona, y sobre todo el aviso del
+   apartado 4 bis: NADA de cronología. Contar esta guerra por orden de
+   batallas es lo que hace todo el mundo y al terminar no se ha discutido
+   nada.
+
+   LA REGLA 5 TIENE AQUÍ UN TRABAJO ESPECÍFICO Y DELICADO. El libro es de
+   1961, se escribió sin poder entrar en los archivos españoles, y sus
+   cifras están corregidas desde entonces. Este resumen da SIEMPRE los
+   números actuales y dice que son posteriores al libro. Y su famosa
+   equidistancia, que en 1961 fue un avance moral, se discute desde hace
+   quince años con argumentos serios: van, con el nombre de quien los hace.
+   -------------------------------------------------------------------------- */
+
+const GUERRA_CIVIL_THOMAS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El primer relato completo de la guerra lo escribió un inglés de veintinueve años al que España prohibió leer",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1961, un historiador británico de veintinueve años llamado Hugh Thomas publicó en Londres las mil páginas de la primera historia completa de la guerra civil española. No había podido consultar ni un archivo español: Franco vivía, gobernaba y mantenía la documentación cerrada. Thomas trabajó con archivos extranjeros, prensa, memorias y entrevistas a exiliados de los dos bandos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro fue prohibido en España y entró de contrabando durante quince años, escondido en maletas y fotocopiado a mano. Para toda una generación de españoles fue el único relato disponible que no era el oficial, y también el primero que contaba con las mismas reglas lo que había hecho cada lado. Se publicó legalmente en España en 1976, muerto el dictador.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa fue su aportación decisiva y hay que decirla bien. En 1961 existían dos historias incompatibles de aquella guerra: la del régimen, que hablaba de una cruzada contra el desorden, y la del exilio, que hablaba de una agresión fascista contra una democracia. Thomas contó las dos represiones, nombró a los muertos de los dos lados y aplicó a ambos el mismo criterio, que era entonces una posición sin sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas doce páginas recorren diez asuntos, y ninguno es una lista de batallas: por qué un golpe fallido produce una guerra, cómo se deshizo el Estado republicano el mismo día, el puente aéreo que cambió todo en la primera semana, en qué consistió la no intervención, el oro del Banco de España, las dos represiones y en qué se diferencian, la guerra dentro de la guerra, Guernica, los extranjeros de los dos bandos y por qué perdió la República.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El primer relato que aplicó las mismas reglas a los dos bandos lo escribió alguien de fuera, y España tardó quince años en poder leerlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una guerra civil no la produce un golpe que triunfa, sino uno que fracasa a medias",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 17 de julio de 1936 se sublevó el ejército de África en Melilla, y al día siguiente las guarniciones de la península. El plan de los conspiradores no era una guerra: era un golpe rápido, con toma de las capitales en cuarenta y ocho horas y un gobierno militar instalado en una semana, como habían salido otros pronunciamientos españoles del siglo anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El golpe triunfó en buena parte de Castilla, Galicia, Navarra, Aragón occidental, Andalucía occidental y las plazas africanas, y fracasó en Madrid, Barcelona, Valencia, Bilbao, Asturias y el sureste. En cuestión de días el país estaba partido por la mitad, con las dos zonas conteniendo cada una tropas, industria, población y territorio suficientes para sostenerse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa es la afirmación que Thomas coloca en el centro y que explica todo lo demás. Un golpe que triunfa produce un cambio de gobierno con unos cientos de muertos; un golpe que fracasa del todo produce unos consejos de guerra y unos militares fusilados. Un golpe que triunfa exactamente a medias produce dos Estados con ejército, y entonces la única salida disponible es la guerra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hubo una razón concreta para ese empate, que es el punto de partida de la página siguiente. En las ciudades donde el golpe fracasó, no lo derrotó el Gobierno con la policía leal: lo derrotaron obreros armados. El Gobierno republicano, después de dudar dos días, repartió fusiles a los sindicatos, y esa decisión salvó a la República en julio de 1936 y la desarmó como Estado durante el año siguiente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un golpe que triunfa cambia el gobierno y uno que fracasa acaba en consejo de guerra: solo el que se queda a medias produce dos Estados con ejército.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El bando que defendía la legalidad se quedó sin Estado en la primera semana",
+      },
+      {
+        b: "texto",
+        texto:
+          "El reparto de armas a las organizaciones obreras tuvo una consecuencia inmediata que Thomas describe sin adornos: en la zona que seguía siendo legalmente republicana, la autoridad pasó a manos de comités. Comités de barrio, de fábrica, de pueblo, de milicia, de abastos, formados por partidos y sindicatos que se repartieron el poder real sobre el terreno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante meses hubo en esa zona un gobierno que dictaba decretos y unos comités que decidían quién viajaba, quién comía, qué se incautaba y a quién se detenía. En Cataluña y en Aragón se colectivizaron fábricas y tierras; en Barcelona los tranvías funcionaban bajo control sindical; y las milicias marchaban al frente sin mando único y volvían a casa el fin de semana si les parecía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el argumento más incómodo del libro para los partidarios de la República, y Thomas lo sostiene con datos. El bando que defendía la legalidad tuvo durante meses menos Estado que el otro: no controlaba su territorio, no cobraba impuestos con normalidad, no tenía un ejército con cadena de mando y no podía impedir que se matara en su retaguardia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El bando sublevado hizo exactamente lo contrario y desde el primer momento. Unificó el mando militar en septiembre de 1936 nombrando a Franco jefe único, fusionó por decreto en 1937 a falangistas y carlistas en un partido obligatorio, y aplicó a su propia retaguardia una disciplina militar. La comparación entre las dos maneras de organizarse es, para Thomas, la mitad de la explicación del resultado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Repartir armas al pueblo salvó a la República en julio y la dejó sin Estado durante el año siguiente: las dos cosas fueron consecuencia de la misma decisión.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La guerra se inclinó en su primera semana, con unos aviones alemanes cruzando el Estrecho",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los sublevados tenían el mejor ejército de España, el de África: tropas profesionales, la Legión y las unidades de regulares marroquíes, curtidas en la guerra del Rif. Y lo tenían al otro lado del mar, con la flota en manos republicanas porque las tripulaciones se habían sublevado contra sus oficiales y las habían matado en muchos barcos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Franco pidió ayuda a Roma y a Berlín en los primeros días y la obtuvo en menos de una semana. A finales de julio de 1936 empezaron a llegar aviones de transporte alemanes Junkers y bombarderos italianos Savoia, y con ellos se organizó lo que fue el primer gran puente aéreo militar de la historia: cerca de veinte mil hombres trasladados desde Marruecos a la península por aire en pocas semanas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sin ese traslado, el ejército de África se habría quedado en Marruecos y los sublevados habrían tenido en la península solo guarniciones de reemplazo. Thomas sostiene que aquella decisión, tomada en Berlín y en Roma en cuestión de días y con muy poca información, fue probablemente el hecho más determinante de toda la guerra, y se produjo antes de que hubiera frentes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene retener por qué se tomó tan rápido. No fue por afinidad ideológica solamente: Alemania buscaba minerales españoles y un banco de pruebas para su aviación, e Italia buscaba un aliado en el Mediterráneo occidental. Las dos calcularon que sería barato y corto. Se equivocaron en lo segundo y sostuvieron el esfuerzo tres años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El hecho que más decidió aquella guerra ocurrió antes de que existieran los frentes, y lo decidieron dos gobiernos extranjeros en una semana.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La no intervención fue una intervención, y a favor de un solo bando" },
+      {
+        b: "texto",
+        texto:
+          "En agosto de 1936, a propuesta de Francia y con el apoyo decidido de Gran Bretaña, se firmó un acuerdo de no intervención al que acabaron sumándose veintisiete países, entre ellos Alemania, Italia y la Unión Soviética. Se creó en Londres un comité para vigilarlo. Los tres países que más armas enviaron a España durante los tres años siguientes fueron precisamente esos tres firmantes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto práctico no fue simétrico y esa es la clave del capítulo. La República era el gobierno legal de un Estado reconocido y, por derecho internacional, podía comprar armas donde quisiera; el acuerdo se lo impidió. Los sublevados no tenían ese derecho y recibieron material continuamente. La medida que decía tratar a los dos por igual quitó a uno lo que tenía y no quitó al otro lo que no le correspondía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Thomas documenta hasta qué punto se sabía. Los aviones alemanes e italianos operaban con identificación falsa pero eran conocidos por todas las cancillerías; los submarinos italianos hundían mercantes en el Mediterráneo en 1937 y se hablaba de piratas desconocidos; y el comité de Londres discutía durante meses procedimientos de inspección que nunca se aplicaron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo británico y francés no fue simpatía por los sublevados sino cálculo, y conviene entenderlo porque explica muchas cosas posteriores. Londres temía sobre todo que un conflicto español se convirtiera en una guerra europea general para la que no estaba preparada, y prefirió una España neutralizada a cualquier precio. Es la misma política que tres años después llevó a Múnich.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un acuerdo que trata igual al gobierno legal y a quien se ha sublevado contra él no es neutral: le quita derechos a uno y no se los puede quitar al otro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La República pagó sus armas por adelantado y con el oro del país" },
+      {
+        b: "texto",
+        texto:
+          "Cerrado el mercado occidental, la República solo tuvo un proveedor dispuesto: la Unión Soviética, que empezó a enviar material en octubre de 1936 —aviones, carros de combate, artillería y asesores— y que cobró. En septiembre de aquel año, el Gobierno decidió trasladar las reservas de oro del Banco de España, que estaban entre las mayores del mundo, para ponerlas a salvo y para pagar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Unas quinientas diez toneladas, alrededor de tres cuartas partes de la reserva, salieron de Cartagena en cuatro barcos rumbo a Odesa y de allí a Moscú; el resto fue a Francia. La operación se hizo en secreto, la aprobó el Gobierno legítimo y su contabilidad se ha discutido desde entonces: hay una versión soviética de las cuentas y estimaciones muy distintas de historiadores españoles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las consecuencias fueron dos y las dos pesaron. La primera, económica: la República compró caro, en una moneda que controlaba el vendedor, y agotó su reserva antes de terminar la guerra. La segunda, política: quien suministra las armas decide quién las recibe, y eso convirtió al Partido Comunista, que en febrero de 1936 era una fuerza pequeña, en el partido con más poder real de la zona republicana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro bando pagó de otra manera y esa diferencia decidió mucho. Alemania e Italia suministraron a crédito durante tres años, cobrando en materias primas y aplazando el resto; Franco terminó la guerra debiendo cantidades enormes y con el poder intacto. Una parte importante de por qué un bando pudo sostener el esfuerzo y el otro no está en las condiciones de pago.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien suministra las armas decide quién las usa: el proveedor único de la República cambió el equilibrio político de su propio bando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hubo matanzas en las dos retaguardias y no fueron el mismo fenómeno" },
+      {
+        b: "texto",
+        texto:
+          "Thomas fue el primero en contar las dos, y por eso el libro se prohibió. En la zona republicana fueron asesinadas decenas de miles de personas en los primeros meses: sacas de cárceles, paseos nocturnos, y una violencia especialmente dirigida contra el clero, con casi siete mil religiosos muertos. En la zona sublevada las cifras fueron mayores y la mecánica, distinta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las cifras que dio en 1961 han sido corregidas por medio siglo de investigación provincial hecha con los archivos abiertos después de 1975, y los números actuales conviene darlos como lo que son, posteriores al libro: alrededor de cincuenta mil víctimas en la retaguardia republicana y por encima de cien mil en la sublevada durante la guerra, más decenas de miles de ejecuciones después de 1939.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia que la investigación posterior ha establecido no está solo en la cantidad, y es lo más importante de esta página. En la zona republicana la matanza fue máxima en los primeros meses, cuando el Estado no controlaba nada, y descendió mucho a medida que el Gobierno recuperó autoridad; hubo autoridades republicanas que la persiguieron y procesaron. En la zona sublevada fue política de guerra desde el primer día, ordenada por los mandos, y no se detuvo con la victoria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese último punto es el que ha cuestionado la equidistancia de Thomas, y la crítica es seria y tiene nombre: el hispanista Paul Preston la formuló en 2011 sosteniendo que aplicar la misma medida a un descontrol que el propio bando reprimió y a un plan de exterminio de adversarios que continuó cuatro décadas produce una simetría falsa. En 1961, contar las dos fue un avance moral; hoy, contarlas como equivalentes es un error.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una matanza que el propio bando persigue y otra que el mando ordena y continúa tras la victoria son dos fenómenos distintos, aunque las dos maten.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dentro del bando republicano se libró otra guerra sobre para qué se estaba luchando",
+      },
+      {
+        b: "texto",
+        texto:
+          "La zona republicana no tenía un objetivo, tenía dos, y eran incompatibles. Para los comunistas y para buena parte de los republicanos, lo urgente era ganar la guerra, y para eso hacía falta un Estado fuerte, un ejército regular con oficiales y disciplina, y aplazar cualquier transformación social. Para los anarquistas y para el POUM, la guerra y la revolución eran la misma cosa y renunciar a la segunda vaciaba de sentido la primera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese desacuerdo estalló en Barcelona en mayo de 1937. Fuerzas del Gobierno intentaron tomar el edificio de la Telefónica, controlado por la CNT desde julio del 36, y la ciudad quedó en combates callejeros durante casi una semana entre organizaciones del mismo bando, con varios cientos de muertos mientras el frente de Aragón estaba a doscientos kilómetros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después fue la eliminación de una de las partes. El POUM fue ilegalizado, sus dirigentes detenidos y su secretario general, Andreu Nin, secuestrado y asesinado en junio de 1937 por agentes soviéticos, sin juicio y sin que su cuerpo apareciera nunca. Es el episodio que George Orwell, que combatía en su milicia, contó en un libro que le costó no encontrar editor en Inglaterra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Thomas no toma partido en si la revolución debía haberse aplazado, y sostiene algo más útil: que un bando en guerra que no ha decidido para qué combate gasta una parte de su energía en decidirlo, y que ese gasto fue enorme. El otro bando tenía un objetivo único y un mando único desde septiembre de 1936, y esa diferencia se nota en cada campaña.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un bando que no ha decidido para qué lucha gasta en decidirlo la energía que el otro emplea en luchar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En Guernica se ensayó por primera vez la destrucción de una ciudad desde el aire",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 26 de abril de 1937, un lunes de mercado, aviones alemanes de la Legión Cóndor e italianos bombardearon durante más de tres horas la villa vasca de Guernica, sin objetivos militares dentro salvo un puente que quedó intacto. Emplearon bombas explosivas para abrir los edificios y después incendiarias para prenderlos, que es una secuencia diseñada para arrasar un núcleo urbano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre el número de muertos conviene ser exacto porque ha sido objeto de propaganda por los dos lados. La cifra que dio el Gobierno vasco entonces, mil seiscientos cincuenta y cuatro, fue muy superior a la real; la investigación posterior, con los registros parroquiales y municipales, la sitúa en torno a un par de centenares o algo más. Que fueran menos no cambia lo que ocurrió: se destruyó una población civil como prueba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Porque eso es lo que la hace un hito. No fue el primer bombardeo de civiles de la historia, y ni siquiera el más mortífero de aquella guerra, pero sí el primero planificado como demostración técnica de que se podía borrar una ciudad desde el aire. Los mandos alemanes tomaron nota de los resultados, y esa doctrina se aplicó cinco años después sobre Rotterdam, Coventry, Hamburgo y Dresde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El bando sublevado negó durante décadas que hubiera existido un bombardeo y sostuvo que la villa la habían incendiado los propios vascos en su retirada. La versión oficial española mantuvo esa negación hasta después de la muerte de Franco, pese a que los archivos alemanes la desmentían desde 1945. El cuadro que Picasso pintó aquel verano para el pabellón español de la Exposición de París hizo más por la verdad de aquel día que cualquier comunicado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No fue el bombardeo más mortífero de la guerra: fue el primero planificado para comprobar que una ciudad entera se puede borrar desde el aire.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En los dos bandos combatieron decenas de miles de extranjeros, y solo se recuerda a los de uno",
+      },
+      {
+        b: "texto",
+        texto:
+          "Del lado republicano llegaron las Brigadas Internacionales: unos treinta y cinco mil voluntarios de más de cincuenta países, organizados en buena parte por la Internacional Comunista, que pasaron por España entre 1936 y 1938 y de los que nunca hubo más de dieciocho mil a la vez. Llegaron a Madrid en noviembre de 1936, cuando la capital parecía perdida, y su efecto sobre la moral fue superior a su número.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Del lado sublevado los extranjeros fueron muchos más. Italia envió un cuerpo expedicionario por el que pasaron unos ochenta mil hombres, con sus propios generales y sus propias operaciones; Alemania mantuvo la Legión Cóndor, con aviación, artillería y carros, rotando a unos veinte mil especialistas; y Portugal envió varios miles de voluntarios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un grupo mucho mayor que casi nunca aparece en el relato. Decenas de miles de soldados marroquíes, reclutados en el protectorado español con sueldo y con promesas, combatieron en la Península desde el primer día y formaron las unidades de choque más eficaces del ejército de Franco. Fueron a la vez decisivos militarmente y utilizados como instrumento de terror en la propaganda del propio bando que los empleaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Thomas señala la asimetría de la memoria y la explica sin moralinas. Los brigadistas eran voluntarios que escribieron cartas, memorias y novelas, y su causa perdió, con lo cual su relato pasó a la literatura; los italianos y los alemanes eran soldados enviados por sus gobiernos y perdieron su propia guerra seis años después; y los marroquíes eran analfabetos en su mayoría, no dejaron memorias y nadie ha reclamado su historia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El grupo extranjero más numeroso y más decisivo de aquella guerra no dejó memorias escritas, y por eso no está en el relato de nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La República perdió por su organización antes que por sus armas" },
+      {
+        b: "texto",
+        texto:
+          "La respuesta fácil a por qué perdió la República es que le faltaron armas, y es verdad a medias. Thomas la completa con cuatro razones y la primera es el mando: los sublevados unificaron el suyo en septiembre de 1936 y la República tardó más de un año en tener un ejército regular con cadena de mando, y aún después convivió con unidades leales a partidos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es la falta de un objetivo compartido, que es lo visto en la página octava. La tercera es logística y decisiva: los sublevados recibían material por tierra desde dos países vecinos, a crédito y de forma continua; la República lo recibía por mar, pagando por adelantado, de un solo proveedor situado a cuatro mil kilómetros y a través de un Mediterráneo donde le hundían los barcos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cuarta es el contexto internacional, y sobre ella la República construyó una estrategia entera. Negrín sostuvo a partir de 1938 que había que resistir hasta que estallara la guerra europea, porque entonces las democracias tendrían que ayudar. El cálculo era correcto en el fondo y falló en las fechas: la guerra europea empezó en septiembre de 1939, cinco meses después de que la República hubiera caído.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El final tuvo además una última vuelta de tuerca que resume el libro. En marzo de 1939, con la guerra ya perdida, un coronel republicano, Segismundo Casado, dio un golpe de Estado contra su propio Gobierno para negociar la rendición, y hubo combates en Madrid entre unidades republicanas durante días. La República se derrocó a sí misma en su último mes, y la paz negociada que buscaba no existió: Franco solo aceptó la rendición sin condiciones.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Su estrategia final era resistir hasta que empezara la guerra europea, y acertó en todo salvo en el calendario: llegó cinco meses tarde.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que aquella guerra no la produjo un golpe triunfante ni una revolución, sino un golpe que fracasó justo a medias y dejó dos Estados armados; que el bando legal se quedó sin Estado el mismo día que se salvó, y que la intervención extranjera y la llamada no intervención decidieron el resto. Lo cuenta con los dos bandos sometidos a las mismas preguntas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aportó en su momento no tiene medida. Fue el primer relato completo, escrito sin acceso a los archivos del país del que hablaba, que contó las matanzas de las dos retaguardias con nombres y cifras; se prohibió en España y entró de contrabando durante quince años, y fue para muchos españoles la primera versión de su propia historia que no venía de un ministerio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en lo que no podía hacer y en lo que hoy se le discute. No pudo consultar los archivos españoles, y sus cifras de víctimas han sido corregidas por medio siglo de investigación provincial posterior. Y es un relato político y militar visto desde arriba: la vida cotidiana, las colectivizaciones y las mujeres ocupan muy poco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla, o al menos se le objeta, en su famosa equidistancia. Tratar a los dos bandos con el mismo rasero fue en 1961 un acto de honradez intelectual; sostenerlo hoy sin matices produce una simetría que los datos no respaldan, porque una de las dos violencias fue un descontrol que su propio bando acabó persiguiendo y la otra fue una política de Estado que continuó cuarenta años después de terminar la guerra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después contesta preguntas que el libro dejó abiertas. Desde el año 2000, con la apertura de la primera fosa común en Priaranza del Bierzo, se han exhumado en España más de un millar de fosas; en 2007 y en 2022 se aprobaron leyes de memoria que regulan esas exhumaciones; y en octubre de 2019 los restos de Franco fueron sacados del mausoleo que había hecho construir con trabajo de presos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Sigue siendo el mejor mapa general de aquella guerra, con la condición de tomar sus cifras de la investigación posterior, que existe y es abundante.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "guerra-civil-thomas": GUERRA_CIVIL_THOMAS,
   "auschwitz-rees": AUSCHWITZ_REES,
   tatuador: TATUADOR,
   postguerra: POSTGUERRA,

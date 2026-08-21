@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "guerra-civil-thomas": [
+    "por qué un golpe que fracasa a medias produce una guerra",
+    "cómo el bando legal se quedó sin Estado en la primera semana",
+    "en qué consistió realmente el acuerdo de no intervención",
+    "qué diferencia hay entre las matanzas de las dos retaguardias",
+    "por qué perdió la República, además de por las armas",
+  ],
+
   "auschwitz-rees": [
     "cómo cambió de función el campo cuatro veces en cuatro años",
     "de dónde salió el gas que se usó para matar",

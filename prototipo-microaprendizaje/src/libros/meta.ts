@@ -24,22 +24,6 @@ export type FichaMeta = {
 
 export const META: FichaMeta[] = [
   {
-    id: "guerra-civil-thomas",
-    titulo: "La guerra civil española",
-    autor: "Hugh Thomas",
-    ano: 1961,
-    gancho: "Un inglés de veintinueve años escribió la primera historia completa de la guerra de España. En España estuvo prohibida y entró de contrabando en maletas.",
-    porQue: "Durante quince años fue el único libro donde un español podía leer lo que había pasado en su propio país. Hoy está superado en casi todo, y sigue siendo el mejor sitio para entender la guerra entera de una vez.",
-    minutos: 23.4,
-    capitulos: [
-      { titulo: "Un funcionario que dimite por Suez", minutos: 4.9 },
-      { titulo: "El 17 de julio de 1936", minutos: 4.7 },
-      { titulo: "El Comité de No Intervención, Londres", minutos: 4.7 },
-      { titulo: "El Ebro", minutos: 4.5 },
-      { titulo: "Ruedo Ibérico, París, 1962", minutos: 4.6 },
-    ],
-  },
-  {
     id: "homo-sovieticus",
     titulo: "El fin del Homo Sovieticus",
     autor: "Svetlana Aleksiévich",
