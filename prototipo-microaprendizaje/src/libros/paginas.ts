@@ -55154,7 +55154,7 @@ const GUERRA_CIVIL_THOMAS: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Lo que aportó en su momento no tiene medida. Fue el primer relato completo, escrito sin acceso a los archivos del país del que hablaba, que contó las matanzas de las dos retaguardias con nombres y cifras; se prohibió en España y entró de contrabando durante quince años, y fue para muchos españoles la primera versión de su propia historia que no venía de un ministerio.",
+          "Lo que aportó en su momento no tiene medida. Fue el primer relato completo, escrito sin acceso a los archivos del país del que hablaba, que contó las matanzas de las dos retaguardias con nombres y cifras; y fue para muchos españoles la primera versión de su propia historia que no venía de un ministerio.",
       },
       {
         b: "texto",
