@@ -29827,7 +29827,268 @@ const MUNDO_DEMONIOS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La vida secreta de los árboles, en ocho páginas.
+
+   Breve.
+
+   Ensayo divulgativo: titular que afirma, tercera persona.
+
+   La página 7 y la conclusión son obligatorias: este libro ha recibido una
+   crítica científica seria y organizada, y en 2023 una revisión rebajó
+   bastante la evidencia de su idea más famosa. Sin eso, esto sería una
+   estampa bonita.
+   -------------------------------------------------------------------------- */
+
+const VIDA_ARBOLES: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un tocón sin hojas que seguía vivo cuatro siglos después" },
+      {
+        b: "texto",
+        texto:
+          "Peter Wohlleben trabajó veinte años como guarda forestal para la administración alemana, gestionando un bosque de producción con criterios de rendimiento: qué se tala, cuándo y con qué maquinaria. El libro empieza contando el hallazgo que le hizo cambiar de manera de trabajar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Recorriendo una zona de hayas viejas se fijó en unas piedras cubiertas de musgo dispuestas en círculo. Al rascarlas descubrió que no eran piedras: era la corteza de un tocón enorme, restos de un haya talada hacía siglos. Y al levantar una lasca, la madera de dentro estaba verde, es decir, viva, y contenía clorofila.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un tocón sin una sola hoja no puede fabricar azúcares, así que no puede alimentarse. La única explicación es que llevaba cuatrocientos o quinientos años recibiendo alimento de los árboles de alrededor a través de las raíces. Eso significa que, en aquel bosque, los árboles vecinos habían estado manteniendo con vida a un compañero que ya no producía nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que sostiene el libro a partir de ahí: cómo se avisan los árboles cuando algo los ataca, qué hay debajo del suelo que los conecta, por qué crecer despacio alarga la vida, cómo sincronizan su reproducción, qué reprocha a la silvicultura moderna y por qué miles de científicos firmaron una protesta contra este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un tocón sin hojas no puede alimentarse solo, así que si sigue verde después de cuatrocientos años es que alguien lo está manteniendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los árboles se avisan por el aire cuando alguien los está mordiendo" },
+      {
+        b: "texto",
+        texto:
+          "El fenómeno mejor documentado del libro se descubrió en África y por accidente. En los años ochenta, unas granjas sudafricanas cercadas empezaron a perder antílopes que aparecían muertos sin causa aparente. Un investigador analizó el contenido de sus estómagos y encontró la respuesta: las hojas de acacia que comían estaban cargadas de taninos en cantidades tóxicas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo resultó ser este. Cuando una acacia es mordida, aumenta en pocos minutos la concentración de taninos en sus hojas, que se vuelven amargas e indigestas, y además libera al aire un gas, el etileno. Los árboles de alrededor detectan ese gas y empiezan a producir taninos antes de que nadie los haya tocado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En libertad, las jirafas resuelven el problema comiendo un rato en un árbol y alejándose después cien metros a favor del viento, donde el aviso no ha llegado. En una finca cercada no podían alejarse, así que seguían comiendo hojas cada vez más tóxicas hasta envenenarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Wohlleben cuenta que en los bosques europeos ocurre algo equivalente: hayas y robles atacados por orugas alteran la composición química de sus hojas, y algunas especies emiten compuestos volátiles que atraen a avispas parásitas, las cuales ponen sus huevos dentro de las orugas. El árbol no puede moverse, así que llama a alguien que sí puede.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un árbol que no puede huir ni defenderse llama por el aire a un insecto que se coma a quien lo está atacando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Debajo del suelo hay una red de hongos que conecta el bosque" },
+      {
+        b: "texto",
+        texto:
+          "La idea que hizo célebre el libro es lo que ocurre bajo tierra. Las raíces de la mayoría de los árboles viven asociadas a hongos: los filamentos del hongo envuelven o penetran las raíces finas y forman lo que se llama una micorriza. Es una asociación antiquísima y no es una curiosidad marginal, sino la manera normal en que un árbol se relaciona con el suelo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El trato es de intercambio. El hongo tiene una red de filamentos muchísimo más fina y extensa que las raíces, así que capta agua y minerales, sobre todo fósforo y nitrógeno, a los que el árbol no llegaría; a cambio recibe azúcares, que el hongo no puede fabricar porque no hace fotosíntesis. Se calcula que un árbol entrega una parte considerable de lo que produce a sus hongos asociados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que llamó la atención de todo el mundo fue el paso siguiente. En 1997, la ecóloga canadiense Suzanne Simard publicó un experimento en el que marcó con isótopos de carbono a unos árboles y comprobó que ese carbono aparecía después en árboles vecinos de otra especie, conectados por la misma red de hongos. Existía, por tanto, un camino por el que pasaban recursos de un árbol a otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí salió la expresión con la que se ha divulgado todo esto y la imagen de los árboles grandes como ejemplares que envían nutrientes a los pequeños de su alrededor. Conviene retener el hecho comprobado —hay una red y por ella circulan sustancias— y guardar cierta prudencia con lo que se ha construido encima, por razones que se verán al final.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un árbol entrega una parte grande de lo que fabrica a unos hongos que a cambio le traen agua y minerales de donde él no llega.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Crecer despacio y a la sombra es lo que alarga la vida" },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos más contraintuitivos explica algo que cualquier jardinero encontraría absurdo: en un bosque maduro, los árboles jóvenes crecen extraordinariamente despacio, y eso es lo que les conviene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bajo la copa de las hayas viejas llega alrededor de un tres por ciento de la luz, y con esa cantidad un ejemplar joven apenas engorda. Wohlleben describe hayas de un par de metros de altura que tienen ochenta años y un tronco del grosor de un lápiz grueso, esperando a que un árbol viejo caiga y abra un hueco de luz.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ventaja está en la madera. Un tronco que crece despacio produce anillos estrechos y una madera densa, con pocas células grandes de aire, que resiste mejor el viento, la nieve y los hongos. Un tronco que crece deprisa produce madera esponjosa, se hace grande antes y se parte o se pudre décadas antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la comparación que Wohlleben repite en el libro. Un árbol criado en un bosque cerrado, a la sombra de sus mayores y con hambre de luz durante décadas, puede vivir varios siglos. Un árbol plantado solo en un campo abierto, con toda la luz y todo el espacio, crece el triple de rápido, alcanza gran tamaño en veinte años y muere joven.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El árbol que crece deprisa con toda la luz para él muere pronto; el que pasa ochenta años a la sombra vive siglos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los robles se ponen de acuerdo para hacer pasar hambre a los jabalíes",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre la reproducción describe una estrategia que es una de las cosas mejor documentadas de la ecología forestal y que casi nadie conoce. Hayas y robles no producen la misma cantidad de fruto cada año: pasan varios años produciendo poquísimo y de pronto, todos a la vez y en una región entera, tienen una cosecha enorme.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lógica es aritmética. Jabalíes, ciervos y roedores se alimentan de bellotas y hayucos, y su población crece cuando hay comida. Si los árboles produjeran una cantidad constante cada año, los animales ajustarían su número a esa cantidad y se comerían prácticamente todo, con lo cual no germinaría casi nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con varios años de escasez seguida, la población de animales se reduce por hambre. Y entonces llega el año de cosecha masiva: hay tantísimo fruto que los animales, ya pocos, no pueden comérselo todo por mucho que engorden, y una parte considerable llega al suelo y germina. Es una estrategia de saturación por sorpresa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo llamativo es la sincronización a escala regional. Miles de árboles que no se ven entre sí coinciden el mismo año en una comarca entera, y no está del todo claro cómo. Se han propuesto señales químicas por el aire, coordinación a través de las redes del suelo y, la explicación con más apoyo, una respuesta común a las mismas condiciones de temperatura y lluvia de la primavera anterior.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Varios años de cosecha mala reducen la población de animales, y entonces un año de cosecha enorme les gana la partida por saturación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La silvicultura moderna fabrica árboles que se rompen" },
+      {
+        b: "texto",
+        texto:
+          "La parte del libro con más consecuencias prácticas es la crítica al manejo forestal, y viene de alguien que lo practicó durante dos décadas. Wohlleben describe lo que hace una explotación normal: plantar en filas una sola especie de crecimiento rápido, aclarar para que cada ejemplar tenga luz de sobra, y talar entre los sesenta y los cien años, cuando el rendimiento en madera es máximo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus objeciones son concretas. La maquinaria pesada compacta el suelo del bosque, y esa compactación destruye la estructura porosa por donde circulan agua, aire y raíces; se calcula en décadas o siglos el tiempo que tarda en recuperarse. Y en Europa central se plantaron desde el siglo XIX enormes extensiones de coníferas en terrenos donde antes había frondosas, con raíces poco profundas que el viento derriba en tormentas cada vez más frecuentes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade el argumento del crecimiento. Un árbol plantado con espacio de sobra y luz de sobra crece deprisa, produce madera ligera y llega a la edad de tala aparentando salud, pero es un ejemplar frágil frente a las plagas, la sequía y el peso de la nieve, y no habría llegado a viejo aunque nadie lo cortara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su alternativa, aplicada en el bosque comunal que dirige, es dejar zonas sin intervención, sustituir la maquinaria pesada por caballos en algunas tareas, no hacer talas rasas y mantener la mezcla de especies y de edades. Es la parte del libro que ha tenido efectos reales sobre cómo se gestionan bosques en varios países.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Compactar el suelo de un bosque con maquinaria pesada tarda décadas o siglos en revertirse, y no se ve desde fuera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Miles de científicos firmaron una protesta contra este libro" },
+      {
+        b: "texto",
+        texto:
+          "Este es un libro que hay que leer sabiendo lo que le han discutido, porque la discusión ha sido pública, organizada y considerable. En 2017, más de cuatro mil científicos alemanes firmaron una petición contra él, y varios ecólogos forestales publicaron críticas detalladas en revistas y en prensa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El reproche principal no es que invente datos, sino que mezcla tres cosas sin distinguirlas: resultados publicados y sólidos, interpretaciones discutidas de esos resultados y suposiciones propias del autor, todo contado con el mismo tono seguro. Y a eso se suma el lenguaje: en el libro los árboles hablan, amamantan, tienen amigos, sienten dolor y sufren, y Wohlleben ha explicado que usa esas palabras a propósito para que la gente se interese, con el efecto de que muchos lectores las entienden literalmente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La corrección más importante llegó en 2023 y afecta a su idea más famosa. Una revisión publicada en una revista de ecología examinó las pruebas de las tres afirmaciones que se han popularizado sobre las redes de hongos: que están presentes en la mayoría de los bosques, que transfieren recursos entre árboles en cantidades relevantes y que los ejemplares grandes favorecen a su propia descendencia. Su conclusión fue que la evidencia para las tres es bastante más débil de lo que se ha divulgado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese trabajo encontró además un sesgo de citación fuerte: los estudios se citan a menudo afirmando más de lo que sus autores concluían. Nada de esto significa que las redes no existan, porque existen y están bien documentadas; significa que lo que circula por ellas, en qué cantidad y en beneficio de quién sigue siendo una pregunta abierta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que exista una red no demuestra qué circula por ella, en qué cantidad ni a quién beneficia: son tres preguntas distintas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La vida secreta de los árboles sostiene que un bosque no es un conjunto de individuos que compiten por la luz, sino un sistema en el que los árboles se avisan químicamente, comparten recursos a través de hongos del suelo, sincronizan su reproducción y viven mucho más cuando crecen despacio y acompañados. De ahí saca una crítica concreta a la manera de explotar los bosques europeos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, y es mucho, es que ha cambiado cómo mira un bosque un número enorme de personas. Miles de lectores que pasaban por un pinar sin fijarse en nada ahora saben qué es una micorriza, por qué un monocultivo se derriba con el viento y qué significa que el suelo esté compactado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un bosque no es un conjunto de árboles compitiendo por la luz, y esa idea sola ya cambia lo que ves al pasear por uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Wohlleben es guarda forestal y no investigador, y su libro no separa lo que ha visto en su bosque, lo que ha leído en un artículo y lo que supone. El lenguaje deliberadamente humano —árboles que hablan, sufren, tienen hijos y amigos— no es un adorno inocente: hace que hipótesis discutidas suenen a hechos establecidos, y ese es el motivo de la protesta científica que recibió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La manera sensata de leerlo es distinguiendo dos capas. Lo firme: los árboles emiten compuestos volátiles cuando los atacan, las micorrizas existen y son la norma, los bosques mixtos y viejos resisten mejor que los monocultivos jóvenes, y la maquinaria pesada estropea el suelo durante décadas. Lo abierto: cuánto se transfieren realmente los árboles entre sí, si los grandes reconocen y favorecen a su descendencia y si tiene algún sentido hablar de intención en todo esto. El libro presenta las dos capas con el mismo entusiasmo, y esa mezcla es su virtud comercial y su defecto de fondo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "vida-arboles": VIDA_ARBOLES,
   "mundo-demonios": MUNDO_DEMONIOS,
   nudge: NUDGE,
   "arte-de-amar": ARTE_DE_AMAR,

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "vida-arboles":
+    "Un guarda forestal alemán encontró en su bosque un tocón de haya talado hacía siglos cuya madera seguía verde por dentro. Sin hojas no puede alimentarse, así que llevaba cuatrocientos años recibiendo azúcares de sus vecinos.",
+
   "mundo-demonios":
     "Un taxista le hizo a Sagan un viaje entero de preguntas sobre la Atlántida y los extraterrestres, y ninguna sobre los agujeros negros. De esa conversación salió su último libro: no un reproche a los crédulos, sino a quien no les ofreció nada mejor.",
 

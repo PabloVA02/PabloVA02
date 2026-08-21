@@ -424,22 +424,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "vida-arboles",
-    titulo: "La vida secreta de los árboles",
-    autor: "Peter Wohlleben",
-    ano: 2015,
-    gancho: "Encontró un tocón sin hojas que llevaba siglos vivo. Los árboles de al lado lo estaban alimentando.",
-    porQue: "Un guarda forestal con treinta años de bosque explica que los árboles se comunican, y lo hace sin una sola palabra técnica. Y en Alemania cuatro mil personas firmaron un manifiesto en contra.",
-    minutos: 26.1,
-    capitulos: [
-      { titulo: "El tocón que llevaba siglos vivo", minutos: 5.2 },
-      { titulo: "La red bajo el suelo", minutos: 5.4 },
-      { titulo: "Cómo avisa una acacia", minutos: 5.2 },
-      { titulo: "El bosque no es una comuna", minutos: 5.2 },
-      { titulo: "Cuatro mil firmas contra un guarda forestal", minutos: 5.1 },
-    ],
-  },
-  {
     id: "gen-historia",
     titulo: "El gen",
     autor: "Siddhartha Mukherjee",

@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "vida-arboles": [
+    "cómo se avisan los árboles cuando algo los está mordiendo",
+    "qué hay debajo del suelo que conecta un bosque entero",
+    "por qué crecer despacio y a la sombra alarga la vida",
+    "cómo sincronizan su reproducción para ganar a los animales",
+    "qué le han discutido los científicos a este libro",
+  ],
+
   "mundo-demonios": [
     "qué demuestra la parábola del dragón invisible del garaje",
     "qué herramientas usa alguien para detectar un camelo",
