@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  imperiofobia: "Roma, Rusia, Estados Unidos y el Imperio español",
   "homo-sovieticus": "El tiempo de segunda mano",
   "mas-alla-bien-mal": "Preludio de una filosofía del futuro",
   "contrato-social": "Principios de derecho político",

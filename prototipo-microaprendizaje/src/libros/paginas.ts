@@ -55466,7 +55466,297 @@ const HOMO_SOVIETICUS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Imperiofobia y leyenda negra, en ocho páginas.
+
+   Breve: una sola tesis aplicada a cuatro casos.
+
+   Ensayo → afirmación entera y tercera persona.
+
+   ES EL LIBRO MÁS POLÉMICO DEL CATÁLOGO y por eso hay que hacerlo
+   exactamente como manda REDACCION y no de ninguna de las dos maneras
+   fáciles. Resumirlo entusiasmado sería propaganda; despacharlo sería tirar
+   una discusión historiográfica real y unos datos que son ciertos. Se hace
+   lo de siempre: se cuenta su mejor versión con sus cifras, y después se
+   dice dónde falla, con los nombres de quienes lo han criticado y con lo
+   que el libro deja fuera.
+
+   La página séptima está dedicada entera a lo que el libro no cuenta,
+   porque un resumen que omitiera lo mismo que él estaría haciendo su
+   trabajo. Y las cifras de la Inquisición y del derrumbe demográfico van
+   las dos, con su fuente, porque las dos son verdad.
+   -------------------------------------------------------------------------- */
+
+const IMPERIOFOBIA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Todo imperio hegemónico genera una propaganda que lo describe como excepcionalmente cruel",
+      },
+      {
+        b: "texto",
+        texto:
+          "La expresión leyenda negra la acuñó en 1914 el escritor Julián Juderías para nombrar algo que sí existe y que se estudia desde entonces: el conjunto de textos, grabados y relatos producidos en Europa entre los siglos XVI y XVIII que presentaban a España y a los españoles como fanáticos, crueles, atrasados y sanguinarios por naturaleza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "María Elvira Roca Barea, filóloga y especialista en literatura medieval, publicó en 2016 un libro que amplía ese concepto y que se convirtió en un éxito enorme en España, con decenas de ediciones. Su tesis es que la leyenda negra española no es un caso aislado sino un ejemplo de un fenómeno general, al que llama imperiofobia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sostiene que todo poder hegemónico genera contra sí una propaganda con los mismos rasgos: se le atribuye una crueldad excepcional, una religiosidad fanática y una inferioridad cultural, y esa descripción la producen las élites de los territorios dominados y la amplifican las potencias rivales. Aplica el esquema a cuatro casos: Roma, el imperio español, Rusia y Estados Unidos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas y las separan con cuidado, porque en este libro conviven material sólido y material discutible: en qué consiste el mecanismo que propone, cómo se construyó históricamente la leyenda negra, qué dicen las cifras reales de la Inquisición, qué fue la discusión de Valladolid de 1550, en qué consiste su idea más original, y qué deja fuera el libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que existiera una propaganda antiespañola organizada es un hecho documentado; que toda crítica al imperio fuera propaganda es otra afirmación distinta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El mecanismo que describe tiene tres piezas y las tres se pueden comprobar por separado",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera pieza es la élite del territorio dominado. Roca Barea sostiene que las clases dirigentes de un país incorporado a un imperio necesitan explicarse a sí mismas por qué obedecen, y que la explicación más cómoda es moral: no somos menos, es que ellos son bárbaros. De ahí saldría, por ejemplo, buena parte del desprecio de las élites italianas hacia los españoles en el siglo XVI.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es la potencia rival, que recoge ese material y lo convierte en política exterior. Inglaterra y las Provincias Unidas, en guerra con la monarquía hispánica, financiaron y difundieron durante décadas relatos sobre la crueldad española, y lo hicieron con la tecnología de la época: la imprenta y el grabado, que permitían repetir una imagen miles de veces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es la que Roca Barea considera decisiva y es la más original del libro: la interiorización. Sostiene que, pasado el tiempo, las propias élites del imperio decadente adoptan la versión que sus enemigos construyeron, la enseñan en sus escuelas y la convierten en la explicación oficial de su propio pasado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir aquí la objeción de método, porque afecta a todo lo demás. Un esquema así, aplicado sin restricciones, no se puede desmentir: cualquier documento que acredite un abuso español puede reclasificarse como pieza de propaganda, y cualquier historiador que lo sostenga, como imperiófobo. Una teoría que absorbe cualquier prueba en contra ha dejado de ser comprobable.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una teoría que convierte toda prueba en contra en un ejemplo más de lo que afirma ha dejado de poder equivocarse, y eso no es una virtud.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La leyenda negra se construyó con un libro escrito por un español" },
+      {
+        b: "texto",
+        texto:
+          "La pieza documental que más circuló fue española y no extranjera. En 1552, el dominico Bartolomé de las Casas publicó en Sevilla la «Brevísima relación de la destrucción de las Indias», un memorial dirigido al príncipe Felipe en el que denunciaba los abusos cometidos contra los indígenas con un lenguaje deliberadamente extremo y con cifras que él mismo declaraba aproximadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las Casas escribía para conseguir leyes, y las consiguió en parte. Su texto se imprimió en España sin censura, con licencia, y su objetivo era interno. Lo que ocurrió después es lo que interesa a este libro: a partir de 1578 empezó a traducirse en los Países Bajos en guerra con España, y luego en Inglaterra, en Francia y en Alemania, y en aquellas ediciones se le añadieron grabados que no estaban en el original.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los grabados los hizo Theodor de Bry, un editor flamenco protestante que nunca estuvo en América, y son la parte que de verdad viajó: escenas de españoles despedazando cuerpos, quemando aldeas y echando niños a los perros, repetidas en decenas de ediciones por toda Europa. La denuncia de un fraile español pasó a ser el catálogo ilustrado de la crueldad de su nación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese proceso está documentado y no lo discute ningún historiador serio: hubo una campaña de propaganda, tuvo financiación, tuvo objetivos políticos y usó material español descontextualizado. Lo que sí se discute es la conclusión que Roca Barea extrae, porque el hecho de que unos enemigos exageraran unos abusos no demuestra que los abusos no ocurrieran.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El documento que más daño hizo a la imagen de España lo escribió un fraile español para cambiar unas leyes, y se lo imprimieron con dibujos que él no encargó.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las cifras de la Inquisición son mucho menores que su fama, y eso está establecido",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí el libro apoya una revisión que no es suya y que la investigación académica dio por buena hace cuarenta años. En los años setenta, los historiadores Gustav Henningsen y Jaime Contreras estudiaron las relaciones de causas, los informes que cada tribunal enviaba a Madrid, y pudieron por primera vez contar procesos en lugar de estimarlos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los resultados cambiaron el cuadro. Entre 1478 y 1834 la Inquisición española instruyó del orden de ciento veinticinco mil procesos, y el número de ejecuciones, sumando los tres siglos y medio, se cuenta en algunos miles: las estimaciones más citadas se mueven entre uno y cinco mil según el periodo y el criterio. Es una cifra grande y es muy inferior a la imagen popular de una matanza continua.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La comparación más llamativa es la de la caza de brujas. En Europa fueron ejecutadas por brujería entre cuarenta y sesenta mil personas entre 1450 y 1750, la mayoría en territorios del Sacro Imperio y en países protestantes y católicos del centro del continente. En España fueron muy pocas, y hay un motivo documentado: tras los procesos de Logroño de 1610, el inquisidor Alonso de Salazar Frías investigó y concluyó que no había pruebas, y la Inquisición dejó prácticamente de perseguir brujería.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay que decir a la vez lo que la Inquisición sí fue, porque el libro se detiene poco. Fue un tribunal de excepción que actuó durante tres siglos y medio, que juzgaba en secreto, que no comunicaba al reo el nombre de sus acusadores, que usaba el tormento, que confiscaba los bienes de los condenados y que persiguió sistemáticamente a conversos, moriscos y protestantes. Que matara menos de lo que se cree no lo convierte en otra cosa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que un tribunal matara mucho menos de lo que dice su fama es un dato verdadero, y no cambia lo que era ese tribunal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En 1550 un imperio detuvo su expansión para discutir si tenía derecho a expandirse",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento más fuerte del libro, y el menos conocido fuera de España, es jurídico. En 1550 y 1551, por orden de Carlos I, se reunió en Valladolid una junta de teólogos y juristas para decidir una cuestión: si era lícito someter por la guerra a los pueblos americanos. Mientras duró, la Corona suspendió las nuevas expediciones de conquista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Enfrente estaban Bartolomé de las Casas, que sostenía que los indígenas eran hombres libres con derechos y señores naturales de sus tierras, y Juan Ginés de Sepúlveda, que defendía que eran inferiores por naturaleza y que la guerra estaba justificada. La junta no dictó una sentencia clara, y en la práctica las tesis de Las Casas ganaron terreno en la legislación posterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso venía de antes y tenía una escuela detrás. Francisco de Vitoria había sostenido desde la cátedra de Salamanca, en los años treinta, que ni el emperador ni el papa eran señores del mundo, que los indígenas tenían dominio sobre sus tierras y que el descubrimiento no daba derecho a nada; y de esas lecciones sale buena parte de lo que después se llamó derecho internacional. Ya en 1512 las Leyes de Burgos y en 1542 las Leyes Nuevas habían intentado regular el trato a los indígenas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento de Roca Barea es que ningún otro imperio de la historia detuvo su expansión para discutir públicamente su legitimidad, y en eso lleva razón. La objeción que se le hace es igual de válida: aquellas leyes se incumplieron masivamente al otro lado del océano, la encomienda siguió funcionando durante siglos y las Leyes Nuevas provocaron una rebelión de los encomenderos en Perú. Que se discutiera es notable; que se aplicara es otra cosa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que un imperio discutiera públicamente su derecho a existir es excepcional; que aquellas leyes se cumplieran a diez mil kilómetros es lo que no ocurrió.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Su tesis más original es que los españoles acabaron creyéndose la versión de sus enemigos",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte del libro que menos se parece a lo ya publicado es la que trata de lo que llama interiorización. Sostiene que a partir del siglo XVIII, con el desprestigio del imperio ya consumado y con la Ilustración francesa como referencia cultural, una parte de la élite española empezó a adoptar la explicación extranjera de su propio pasado y a enseñarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El episodio que utiliza como prueba es real y da que pensar. En 1782, la Enciclopedia Metódica francesa publicó una entrada firmada por Masson de Morvilliers que preguntaba qué se debía a España, y qué había hecho por Europa en dos siglos, en cuatro, en diez. La pregunta provocó una polémica enorme y varias respuestas españolas, y quedó como el resumen de una manera de mirar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ahí, sostiene, se instaló en la cultura española una explicación del propio país como fracaso: un pueblo atrasado por culpa de la Inquisición, del catolicismo y de su carácter, que llegó tarde a todo. Y afirma que esa explicación no la inventaron los españoles sino que la recibieron, y que la siguen repitiendo intelectuales, manuales escolares y conversaciones de sobremesa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la parte del libro que más se discute y también la más difícil de comprobar, porque mezcla dos cosas distintas. Una es la existencia documentada de un discurso extranjero despectivo; otra es afirmar que la autocrítica española posterior —la de los ilustrados, la de la generación del 98, la de Ortega— es un producto importado y no una reacción a problemas reales del país.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que un desprecio exterior exista está documentado; que la autocrítica de un país sea un producto importado es una afirmación mucho más difícil de probar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que el libro deja fuera pesa tanto como lo que cuenta" },
+      {
+        b: "texto",
+        texto:
+          "Un resumen honrado tiene que dar los datos que el libro trata de pasada, porque sin ellos la discusión no existe. El primero es el derrumbe demográfico americano: la población indígena del continente cayó, en el siglo y medio posterior a 1492, en torno a un noventa por ciento. Es probablemente la mayor catástrofe demográfica documentada de la historia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su causa principal está establecida y no es el asesinato: fueron las epidemias, viruela, sarampión y tifus, contra las que aquellas poblaciones no tenían ninguna inmunidad y que se propagaron a menudo por delante de los propios europeos. Eso no fue una política y no se pudo evitar con el conocimiento de la época. Pero sobre esa mortandad se aplicaron además el trabajo forzoso de la encomienda, la mita minera de Potosí y las guerras de conquista, y esos sí fueron decisiones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo dato es la esclavitud. La monarquía hispánica prohibió esclavizar a los indígenas y organizó, en cambio, la importación de africanos esclavizados: alrededor de un millón y medio de personas desembarcaron en la América española, y el sistema de licencias y asientos con el que se hizo fue una institución de la Corona durante tres siglos. La abolición llegó en Cuba en 1886.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el tercero es interior. En 1492 se expulsó a la población judía que no se convirtiera, y entre 1609 y 1614 se expulsó a unos trescientos mil moriscos, españoles de origen musulmán ya convertidos, incluidos niños nacidos y bautizados en España. Ninguna de esas tres cosas es un invento de la propaganda holandesa: están en los archivos de la propia Corona.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las epidemias no fueron una política y el trabajo forzoso sí: distinguirlas es lo que permite discutir en serio, y confundirlas sirve a los dos bandos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la mala imagen histórica del imperio español no es un reflejo de sus hechos sino el producto de una campaña de propaganda que responde a un mecanismo general, presente también contra Roma, Rusia y Estados Unidos, y que los propios españoles acabaron adoptando la versión de sus enemigos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es divulgar hechos ciertos y poco conocidos. Que las cifras de la Inquisición sean mucho menores de lo que se cree está establecido desde los años setenta; que la caza de brujas fuera un fenómeno del centro y el norte de Europa, también; y que un imperio suspendiera sus conquistas para discutir su legitimidad en 1550 casi nadie lo conoce.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en el método antes que en los datos. Su autora es filóloga y no historiadora del periodo, y el libro no tiene investigación de archivo: es una síntesis a partir de fuentes secundarias. Los capítulos sobre Roma, Rusia y Estados Unidos han sido criticados por especialistas de cada campo como los más débiles. Y su esquema no admite refutación, porque cualquier prueba contraria puede clasificarse como imperiofobia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también por omisión, que es lo tratado en la página anterior, y por su uso. Historiadores profesionales lo han criticado con dureza, entre ellos el filósofo José Luis Villacañas, que en 2019 le dedicó un libro entero de respuesta, y el historiador Ricardo García Cárcel, especialista en la leyenda negra, que comparte el objeto de estudio y no las conclusiones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La discusión sigue viva fuera de los libros. En 2019, el presidente mexicano pidió por carta al rey de España que se disculpara por la conquista, y el asunto volvió a las portadas de los dos países. Roca Barea publicó ese mismo año una continuación sobre el pesimismo español. Y la posición más extendida entre los historiadores es la que no gusta a ninguno de los dos bandos: la leyenda negra existió y está documentada, y no explica todo lo que se le atribuye.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Léelo por los datos que divulga, que son verdaderos, y no por su explicación general, que está construida de modo que no puede equivocarse.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  imperiofobia: IMPERIOFOBIA,
   "homo-sovieticus": HOMO_SOVIETICUS,
   "guerra-civil-thomas": GUERRA_CIVIL_THOMAS,
   "auschwitz-rees": AUSCHWITZ_REES,

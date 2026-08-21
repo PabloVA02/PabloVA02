@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  imperiofobia: [
+    "qué mecanismo propone y por qué no se puede desmentir",
+    "quién escribió el libro con el que se construyó la leyenda negra",
+    "qué dicen las cifras contadas de la Inquisición",
+    "por qué en España casi no hubo caza de brujas",
+    "qué deja fuera el libro y por qué eso pesa",
+  ],
+
   "homo-sovieticus": [
     "cómo está construido un libro hecho solo de monólogos ajenos",
     "qué libertad esperaba la gente y qué recibió",

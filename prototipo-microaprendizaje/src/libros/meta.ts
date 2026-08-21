@@ -24,22 +24,6 @@ export type FichaMeta = {
 
 export const META: FichaMeta[] = [
   {
-    id: "imperiofobia",
-    titulo: "Imperiofobia y leyenda negra",
-    autor: "María Elvira Roca Barea",
-    ano: 2016,
-    gancho: "Sostiene que España es el único imperio de la historia que se creyó la propaganda de sus enemigos. Vendió cientos de miles de ejemplares y los historiadores profesionales lo destrozaron.",
-    porQue: "Porque lleva razón en muchos datos concretos que casi nadie conoce y usa el mismo método que denuncia. Leerlo bien enseña a la vez historia de España y algo más útil: cómo se fabrica el relato que un país se cuenta de sí mismo.",
-    minutos: 24.6,
-    capitulos: [
-      { titulo: "Un panfleto impreso en Delft", minutos: 5 },
-      { titulo: "Los datos que casi nadie conoce", minutos: 5.1 },
-      { titulo: "Lo que le contestaron los historiadores", minutos: 4.8 },
-      { titulo: "Cómo se fabrica el relato de un país", minutos: 4.9 },
-      { titulo: "Qué hacer con un libro así", minutos: 4.8 },
-    ],
-  },
-  {
     id: "arte-sin-hombres",
     titulo: "Historia del arte sin hombres",
     autor: "Katy Hessel",

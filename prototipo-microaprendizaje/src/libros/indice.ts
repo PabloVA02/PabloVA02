@@ -59,7 +59,6 @@ const CARGADORES: Record<string, Cargador> = {
   reproductibilidad: () => import("./arte").then((m) => m.REPRODUCTIBILIDAD),
   "espiritual-arte": () => import("./arte").then((m) => m.ESPIRITUAL_ARTE),
   "el-elemento": () => import("./arte").then((m) => m.EL_ELEMENTO),
-  imperiofobia: () => import("./historia").then((m) => m.IMPERIOFOBIA),
 };
 
 /** Los identificadores con resumen escrito. No carga ningún texto. */

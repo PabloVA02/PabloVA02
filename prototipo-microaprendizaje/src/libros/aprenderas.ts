@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  imperiofobia:
+    "El término «leyenda negra» lo acuñó Julián Juderías en 1914 para nombrar algo real: una propaganda antiespañola con financiación y objetivos políticos. Roca Barea sostiene que es un caso de un fenómeno general.",
+
   "homo-sovieticus":
     "Aleksiévich pasó veinte años grabando a gente corriente de la antigua Unión Soviética y compuso con esas voces un libro sin narrador. Su única afirmación propia: el hombre que fabricó aquel régimen no desapareció con él.",
 
