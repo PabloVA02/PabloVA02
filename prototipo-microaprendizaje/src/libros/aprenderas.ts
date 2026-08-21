@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "futbol-sol-sombra":
+    "Doscientas estampas cortas sobre el juego y el dinero que lo gobierna. Galeano recorre cada Mundial desde 1930 poniendo al lado quién mandaba en el mundo aquel verano, y sostiene que el fútbol pasó del placer al deber.",
+
   "piramide-invertida":
     "En 1880 se jugaba con dos defensas y cinco delanteros; hoy, con cuatro defensas y uno o ninguno. Wilson cuenta cómo se dio la vuelta esa pirámide, y sostiene que cada sistema nació para derrotar al anterior.",
 

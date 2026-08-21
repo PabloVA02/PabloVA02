@@ -58402,7 +58402,293 @@ const PIRAMIDE_INVERTIDA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El fútbol a sol y sombra, en ocho páginas.
+
+   Breve. Libro literario, no ensayo: van títulos cortos de imagen y la
+   afirmación en la primera frase, y la caja del rayo habla al lector en
+   segunda persona (apartado 3 bis).
+
+   Riesgo principal: el libro son doscientas estampas sueltas y sin un hilo
+   impuesto desde fuera queda una antología de anécdotas. El hilo elegido es
+   su propia tesis —del placer al deber— y cada página aporta una prueba.
+
+   De las citas solo se usan las dos que están literalmente en el libro. Nada
+   de poner en boca de Galeano frases que suenen a Galeano.
+   -------------------------------------------------------------------------- */
+
+const FUTBOL_SOL_SOMBRA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El mendigo del buen fútbol" },
+      {
+        b: "texto",
+        texto:
+          "Galeano termina el libro pidiendo limosna. Escribe que anda por el mundo con la mano abierta y que en los estadios suplica una linda jugadita, por amor de Dios. Es la última línea de un volumen de casi doscientos capítulos, ninguno más largo de dos páginas, y explica de qué va todo lo anterior. El fútbol a sol y sombra no es una historia del deporte: es la denuncia de un enamorado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El autor era uruguayo, tenía cincuenta y cinco años cuando lo publicó y venía de escribir Las venas abiertas de América Latina, el panfleto anticolonial más leído del continente. Había pasado por el exilio en Argentina y en España huyendo de dos dictaduras. Nada de eso hacía previsible un libro sobre fútbol, y sin embargo es el mismo libro: alguien mira un espectáculo popular y pregunta quién se queda el dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tesis cabe en una frase suya. Lo que empezó como un juego de barrio acabó siendo una industria que necesita resultados, y una industria que necesita resultados castiga lo único que hacía valioso al juego, que era la sorpresa. El gol se planifica. El regate se considera un riesgo. El jugador que se divierte molesta.",
+      },
+      { b: "cita", frase: "La historia del fútbol es un triste viaje del placer al deber.", autor: "Eduardo Galeano" },
+      {
+        b: "texto",
+        texto:
+          "Conviene saber desde el principio que el libro no argumenta como un ensayo. Avanza por estampas: un partido, un jugador, un año, un gol. Galeano confía en que doscientas piezas cortas dejen un poso que ninguna demostración conseguiría. Funciona casi siempre, y cuando falla es por el mismo motivo por el que funciona.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que un espectáculo te prohíbe dice más de él que todo lo que celebra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Se vende, se compra, se alquila" },
+      {
+        b: "texto",
+        texto:
+          "El jugador es la mercancía y casi nunca es el dueño. Galeano lo cuenta sin metáforas: un futbolista firma con un club y a partir de ahí puede ser vendido a otro sin que nadie le pregunte, en un traslado que a menudo se anuncia por la prensa antes de que él lo sepa. Durante casi un siglo eso tuvo un nombre técnico, el derecho de retención, y otro popular bastante menos amable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que más le duele es el de los niños. Describe las escuelas donde se fabrican promesas de doce años, la caravana de ojeadores por los potreros de Montevideo y de Buenos Aires, y las familias que ven en el hijo un billete de lotería. De cada mil, llega uno. Los novecientos noventa y nueve restantes vuelven al barrio a los diecinueve años sin oficio y sin estudios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El contrapeso histórico llegó en 1995, el mismo año en que se publicó el libro: la sentencia Bosman del tribunal europeo permitió a un jugador irse gratis al terminar su contrato. Galeano alcanzó a comentarla en ediciones posteriores. Le pareció un avance real para la minoría que llega arriba y ninguna novedad para todos los demás.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "El pase", texto: "el derecho del club a vender al jugador sin su permiso, vigente casi un siglo." },
+          { fuerte: "El ojeador", texto: "recorre los barrios pobres buscando niños de doce años que ya rindan como adultos." },
+          { fuerte: "Bosman", texto: "en 1995 la libertad al acabar contrato llega a Europa y encarece a las estrellas." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena que resume el capítulo es una subasta. En el mercado del fútbol se examina al comprado como a un caballo: se le miran las piernas, los dientes y el historial de lesiones. Galeano lo escribe con rabia contenida y sin un solo adjetivo, porque sabe que el hecho desnudo ya es bastante.",
+      },
+      { b: "idea", texto: "En cuanto tu talento se cotiza, deja de pertenecerte del todo." },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El gol dura poco" },
+      {
+        b: "texto",
+        texto:
+          "El fútbol es el único espectáculo de masas donde casi nunca pasa nada, y de ahí sale todo su valor. Noventa minutos, dos o tres goles, a veces ninguno. Cualquier guionista consideraría un fracaso una obra con esa proporción de acontecimientos. Aquí es exactamente la fuente del efecto: el gol escasea, y por eso una ciudad entera se levanta de golpe cuando ocurre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su frase más citada. La comparación no busca escandalizar, busca explicar por qué un adulto formal salta, grita y abraza a un desconocido que tiene al lado. La espera larga es la que fabrica la descarga, y ningún deporte de marcador alto puede ofrecer eso: cuando los puntos abundan, ninguno significa gran cosa.",
+      },
+      { b: "cita", frase: "El gol es el orgasmo del fútbol.", autor: "Eduardo Galeano" },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica capítulos enteros a goles concretos, contados como quien cuenta un cuento: el que hizo un jugador que ya se retiraba, el que no filmó ninguna cámara, el que decidió una guerra pequeña. No busca los más importantes sino los más raros, porque su idea es que el fútbol se recuerda por anécdotas y no por tablas de clasificación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El corolario incomoda a los entrenadores. Si el valor está en lo improbable, cualquier sistema que reduzca la incertidumbre para asegurar el punto empobrece el juego aunque gane el partido. Galeano no dice que el resultado no importe. Dice que un deporte que solo mira el resultado se ha quedado sin motivo para ser mirado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que esperas mucho tiempo te da una alegría que lo inmediato nunca te dará.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo inventaron los ingleses" },
+      {
+        b: "texto",
+        texto:
+          "El fútbol lo inventaron los ingleses y lo reescribieron los que no tenían campo donde jugarlo. Galeano cuenta la llegada del juego a Sudamérica en los barcos: marineros y ferroviarios británicos jugando en los puertos de Buenos Aires y de Montevideo hacia 1880, ante la mirada de unos chicos que no entendían nada y que aprendieron mirando desde la valla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El estilo cambió con el terreno. En Inglaterra se jugaba en césped ancho y liso, y el juego salió largo, vertical, de carga. En el Río de la Plata se jugó en potreros de tierra, pequeños, con piedras y con más jugadores que espacio. Ahí el balón hay que llevarlo pegado al pie y hay que engañar al que tienes encima. El regate nació como necesidad, no como adorno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia deportiva llegó pronto. Uruguay ganó los Juegos Olímpicos de 1924 y de 1928 y el primer Mundial en 1930, y los cronistas europeos escribieron que aquellos sudamericanos jugaban como si bailaran. Galeano subraya el detalle incómodo: muchos eran negros, pobres y obreros, y en su propio país los clubes se habían resistido a ficharlos.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "El potrero", texto: "solar de tierra sin medidas donde se aprende a driblar por pura falta de sitio." },
+          { fuerte: "1924 y 1928", texto: "Uruguay gana dos oros olímpicos y Europa descubre que ya no manda en esto." },
+          { fuerte: "José Leandro Andrade", texto: "negro y pobre, primer ídolo mundial salido de aquellos potreros de Montevideo." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro convierte esto en regla general: la belleza sale de la carencia. Donde sobra espacio y sobra dinero se juega para no perder; donde falta todo hay que inventar. Es la idea más discutible del volumen entero y también la que sostiene todo lo demás que dice.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La limitación que maldices suele ser la que te obliga a inventar algo tuyo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El estadio y el vecino de al lado" },
+      {
+        b: "texto",
+        texto:
+          "Ningún Mundial se juega fuera de su siglo. Galeano recorre todos los torneos desde 1930 y en cada uno pone al lado lo que ocurría en el mundo aquel verano: quién gobernaba, qué guerra empezaba, a quién estaban matando mientras rodaba el balón. Esa lista alternada es el corazón político del libro y lo que lo separa de cualquier otra historia del fútbol.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1934 y 1938 ganó Italia con Mussolini en el palco, que había entendido antes que nadie el uso propagandístico del torneo. En 1950 Brasil perdió en casa la final ante Uruguay y el país entró en un duelo que todavía tiene nombre propio, el Maracanazo, con doscientas mil personas calladas de golpe. Galeano, uruguayo, lo cuenta sin celebrarlo demasiado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo que más incomoda es el de 1978. Argentina organizó y ganó el Mundial mientras la Junta Militar hacía desaparecer a miles de personas. A pocos cientos de metros del estadio de River Plate funcionaba la Escuela de Mecánica de la Armada, uno de los mayores centros clandestinos de detención del país. Los gritos de gol se oían desde dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su conclusión no es que haya que boicotear los torneos. Es más amarga: el fútbol es inocente y precisamente por eso sirve para todo. Nadie usa la ópera para lavar una dictadura, porque a la ópera no la mira el país entero. El juego más querido es el más fácil de secuestrar, y ninguna federación ha querido nunca enterarse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que amas sin condiciones es justo lo que otros pueden usar para manejarte.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El odiado y el condenado" },
+      {
+        b: "texto",
+        texto:
+          "El libro reparte un capítulo a cada oficio del fútbol y todos salen retratados con la misma mezcla de burla y de ternura. El árbitro es el único al que se le exige perfección absoluta y al que no se le agradece nada: si acierta, cumplió; si falla, robó. Galeano escribe que es el hombre al que se odia sin haberlo conocido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El portero está aún peor. Es el único que puede tocar el balón con las manos y el único al que un error le cuesta el partido entero. Un delantero falla diez ocasiones y mete una, y sale ovacionado; un portero para diez y encaja una, y sale silbado. La aritmética del oficio no perdona y nadie la discute.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hincha aparece sin ninguna condescendencia. Es el que paga, el que canta y el que se cambia el humor de toda la semana según un resultado que no controla. El libro no se ríe de él: le reconoce el mérito de sostener con dinero y con garganta un negocio que después decide sin contar con él el horario, el precio y hasta la ciudad del partido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un retrato injusto en el reparto, y es el del entrenador. Galeano lo trata como al ideólogo del miedo, el que fabrica sistemas para que no ocurra nada. El propio libro lo desmiente unas páginas después, cuando admira a equipos que alguien tuvo que entrenar durante años para que salieran así.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El que evita desastres recibe siempre menos aplausos que el que provoca milagros.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ya no queda quien invente" },
+      {
+        b: "texto",
+        texto:
+          "La segunda mitad del libro es un lamento con fecha: el jugador que inventa está desapareciendo. Galeano observa el fútbol de los años ochenta y noventa y ve equipos cada vez más preparados físicamente, más ordenados y más rápidos, y cada vez menos capaces de hacer algo que nadie esperara. El futbolista corre más y decide menos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Da la razón técnica sin usar jerga. Cuando todos los equipos presionan y todos cierran los espacios, el jugador tiene menos tiempo con el balón, y el regate necesita tiempo. El número diez, el que recibía de espaldas y levantaba la cabeza antes de girarse, se quedó sin los dos segundos que necesitaba para existir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade la razón económica, que le importa más. Un club con deudas no puede permitirse un descenso, y un entrenador que sabe que lo despiden en seis semanas no alinea a un fantasista. El miedo no está en el campo: está en el balance. El resultado es un juego que se defiende de sí mismo.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Más carrera", texto: "el jugador de los noventa recorre bastante más distancia que el de los años sesenta." },
+          { fuerte: "Menos balón", texto: "cada futbolista lo toca apenas dos o tres minutos en todo el partido." },
+          { fuerte: "Menos riesgo", texto: "driblar en campo propio pasa de recurso normal a error que se señala." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí el lector actual debe poner una nota al margen. El libro se cerró en 1995, antes de que existiera el Barcelona de Guardiola y antes de la selección española de 2010. La profecía se cumplió solo a medias.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando el castigo por fallar es enorme, dejas de intentar las cosas que valen la pena.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El fútbol a sol y sombra sostiene una sola idea desde la primera página hasta la última: el juego más popular del planeta lo hicieron los pobres para divertirse y hoy lo administran empresas para no perder. Todo lo demás —las doscientas estampas, los mundiales, los goles contados como cuentos— son pruebas de esa acusación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un método. Galeano cuenta un siglo de deporte sin una sola tabla, poniendo junto a cada marcador quién gobernaba el país aquel año, y demuestra que se puede escribir de fútbol como se escribe de política sin dejar de escribir bien. Casi todo el buen periodismo deportivo en español que vino después le debe algo, lo reconozca o no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en la nostalgia. El potrero que idealiza era también hambre, y los jugadores de los años treinta a los que rinde homenaje cobraban miserias y se retiraban lisiados a los treinta. El libro maneja un pasado dorado que no existió: el fútbol antiguo era más bello y a la vez más brutal, más racista y mucho más pobre para quien lo jugaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también por omisión. Apenas menciona el fútbol femenino, que en los noventa ya tenía Mundial propio, y trata al entrenador como enemigo natural de la belleza justo cuando estaban a punto de llegar los que la devolvieron. Su profecía se equivocó donde más presumía: el equipo más caro de Europa, el Barcelona de 2009, fue también el que mejor jugó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Galeano siguió añadiendo capítulos después de cada Mundial hasta su muerte en 2015, y el libro acabó siendo el más leído sobre fútbol en lengua española. Su denuncia envejeció bien en lo económico —los precios, los horarios y las sedes le dan la razón cada temporada— y bastante peor en lo estético.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El que denuncia lo que ama suele acertar en el diagnóstico y fallar en el pronóstico.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "futbol-sol-sombra": FUTBOL_SOL_SOMBRA,
   "piramide-invertida": PIRAMIDE_INVERTIDA,
   "yo-soy-el-diego": YO_SOY_EL_DIEGO,
   "el-elemento": EL_ELEMENTO,

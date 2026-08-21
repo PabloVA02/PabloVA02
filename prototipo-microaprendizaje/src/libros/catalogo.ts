@@ -284,7 +284,7 @@ export const CATALOGO: Ficha[] = [
   { id: "messi-ronaldo", titulo: "Messi vs. Ronaldo", autor: "Clegg y Robinson", ano: 2021, categoria: "Deportes", estado: "escrito" },
   { id: "yo-soy-el-diego", titulo: "Yo soy el Diego", autor: "Diego Armando Maradona", ano: 2000, categoria: "Deportes", estado: "escrito" },
   { id: "piramide-invertida", titulo: "La pirámide invertida", autor: "Jonathan Wilson", ano: 2008, categoria: "Deportes", estado: "escrito" },
-  { id: "futbol-sol-sombra", titulo: "El fútbol a sol y sombra", autor: "Eduardo Galeano", ano: 1995, categoria: "Deportes", estado: "pendiente" },
+  { id: "futbol-sol-sombra", titulo: "El fútbol a sol y sombra", autor: "Eduardo Galeano", ano: 1995, categoria: "Deportes", estado: "escrito" },
   { id: "futbol-contra-enemigo", titulo: "Fútbol contra el enemigo", autor: "Simon Kuper", ano: 1994, categoria: "Deportes", estado: "pendiente" },
   { id: "fiebre-gradas", titulo: "Fiebre en las gradas", autor: "Nick Hornby", ano: 1992, categoria: "Deportes", estado: "pendiente" },
   { id: "cruyff-14", titulo: "14. La autobiografía de Johan Cruyff", autor: "Johan Cruyff", ano: 2016, categoria: "Deportes", estado: "pendiente" },

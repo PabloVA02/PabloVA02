@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "futbol-sol-sombra": "Un siglo de fútbol contado por un enamorado furioso",
   "piramide-invertida": "La historia de la táctica del fútbol",
   "el-elemento": "Descubrir tu pasión lo cambia todo",
   imperiofobia: "Roma, Rusia, Estados Unidos y el Imperio español",

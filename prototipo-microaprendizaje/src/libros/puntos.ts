@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "futbol-sol-sombra": [
+    "por qué el gol vale tanto en un juego sin goles",
+    "cómo el potrero de tierra inventó el regate sudamericano",
+    "qué se jugaba en el Mundial de Argentina de 1978",
+    "de dónde viene la frase del placer al deber",
+    "en qué acertó Galeano y en qué se equivocó",
+  ],
+
   "piramide-invertida": [
     "por qué el pase lo inventaron los escoceses",
     "qué cambió cuando se tocó el fuera de juego en 1925",
