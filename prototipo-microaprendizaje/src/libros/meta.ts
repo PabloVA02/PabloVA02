@@ -423,22 +423,6 @@ export const META: FichaMeta[] = [
       { titulo: "Renglones torcidos", minutos: 5.2 },
     ],
   },
-  {
-    id: "intro-psicoanalisis",
-    titulo: "Introducción al psicoanálisis",
-    autor: "Sigmund Freud",
-    ano: 1917,
-    gancho: "Veintiocho clases en las que un médico vienés intenta convencer a una sala llena de escépticos de que no somos dueños de nuestra propia cabeza.",
-    porQue: "Es Freud explicándose a sí mismo para gente que no sabe nada, y por eso es la puerta de entrada. También es el sitio donde se ve mejor qué se sostiene de todo aquello y qué no.",
-    minutos: 22.6,
-    capitulos: [
-      { titulo: "El anfiteatro de la Universidad de Viena", minutos: 4.6 },
-      { titulo: "Los actos fallidos", minutos: 4.5 },
-      { titulo: "El taller de los sueños", minutos: 4.4 },
-      { titulo: "El diván de Berggasse 19", minutos: 4.5 },
-      { titulo: "La casa de Maresfield Gardens", minutos: 4.5 },
-    ],
-  },
 ];
 
 /** Índice por identificador, que es como lo pide la pantalla. */

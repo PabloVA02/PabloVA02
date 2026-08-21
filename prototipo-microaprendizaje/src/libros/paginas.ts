@@ -49185,7 +49185,418 @@ const COSAS_BUENAS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Introducción al psicoanálisis, en doce páginas.
+
+   AMPLIO. Son veintiocho conferencias en tres partes —actos fallidos,
+   sueños y neurosis— y cada parte sostiene argumentos que no se pueden
+   juntar sin perderlos. En ocho páginas saldría lo que ya sabe todo el
+   mundo: Edipo, el subconsciente y un diván.
+
+   Ensayo → titular de afirmación entera y tercera persona.
+
+   DOS COSAS QUE ESTE LIBRO OBLIGA A HACER BIEN. La primera, la regla 5: es
+   la obra más influyente de la psicología del siglo XX y buena parte de lo
+   que afirma no se sostiene, así que hay que separar en cada página lo que
+   sobrevive de lo que no, con nombres —Popper, Hobson, Solms— y no en
+   bloque al final. La segunda, el apartado 4 bis sobre lo que pasó después:
+   aquí lo mejor es que el propio Freud se desdijo por escrito en 1933 de la
+   teoría de la angustia que enseña este libro. Eso va en la conclusión.
+   -------------------------------------------------------------------------- */
+
+const INTRO_PSICOANALISIS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Freud abrió sus clases avisando de que no podría demostrar nada de lo que iba a decir",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el invierno de 1915, con cincuenta y nueve años y con Europa en guerra, Sigmund Freud empezó un curso en la Universidad de Viena ante un público mezclado de médicos y curiosos. La primera conferencia no explica ninguna teoría: advierte. Les dice que en psicoanálisis no van a ver nada, que no habrá preparación al microscopio ni pieza anatómica que enseñar, que todo lo que oigan tendrán que aceptarlo de oídas, y que por eso harán bien en desconfiar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese arranque es raro y es honrado, y conviene tenerlo presente durante el resto del libro, porque Freud no lo mantiene: a partir de la tercera conferencia habla de sus hallazgos con la seguridad de quien describe un hecho comprobado. La tensión entre esas dos actitudes recorre las veintiocho clases y explica buena parte de lo que pasó después con su obra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El curso, publicado en 1917, es la exposición más ordenada que Freud escribió de su propio sistema y está construido en tres partes que van de lo pequeño a lo grande. Primero, los errores de todos los días: los lapsus, los olvidos, las cosas que se pierden. Después, los sueños. Y por último la teoría de las neurosis, que es donde quería llegar desde el principio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese orden no es casual y es su mejor decisión pedagógica. Empieza por fenómenos que le ocurren a cualquiera y que nadie considera enfermedad, para instalar la idea de que hay procesos mentales con sentido fuera de la conciencia; y solo cuando el oyente ha aceptado eso en lo cotidiano, lo aplica al síntoma. Estas doce páginas siguen el mismo camino y añaden en cada tramo qué ha quedado en pie cien años después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Empieza por los lapsus y no por los enfermos porque necesita que el oyente acepte, en algo suyo, que la mente hace cosas con sentido sin consultarle.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un lapsus no es ruido: es el resultado de dos intenciones que compiten",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo con el que abre la segunda conferencia es el más citado de todo el libro. El presidente de la Cámara de Diputados austríaca inauguró una sesión diciendo, ante la sala llena, que declaraba la sesión cerrada. Freud pregunta por qué precisamente esa palabra, y no otra de las miles que podía haber equivocado, y contesta que aquel hombre no esperaba nada bueno de la sesión y habría preferido no celebrarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento general es que un error de esa clase no es un fallo mecánico sino un producto: dos intenciones se cruzan, una consciente y otra que el hablante no reconocería, y lo que sale es una transacción entre las dos. Por eso los lapsus tienen sentido; y por eso, cuando alguien los comete, el entorno se ríe antes de saber por qué se ríe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba que ofrece es su método entero, y merece la pena describirlo porque es lo que hace todo el edificio: preguntarle a quien cometió el error qué se le ocurre al respecto, sin filtrar y sin ordenar. A eso lo llama asociación libre, y su regla es no callarse nada por tonto, impertinente o vergonzoso que parezca. Freud sostiene que lo que aparece por esa vía no es aleatorio y conduce a la intención que estorbaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene separar aquí dos afirmaciones que el libro mezcla y que no valen lo mismo. La débil dice que algunos errores están motivados por algo que la persona no quería decir; es plausible, encaja con lo que se sabe de la producción del lenguaje y hay experimentos que la apoyan parcialmente. La fuerte dice que todos lo están y que su significado se recupera con este método; esa no se puede comprobar, porque cualquier ocurrencia del paciente sirve como confirmación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que algunos errores estén motivados es defendible; que todos lo estén y que su sentido se recupere preguntando es lo que no se puede comprobar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Olvidar un nombre concreto exige un trabajo, y por eso el sustituto no es cualquiera",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que Freud analiza con más detalle le ocurrió a él. Viajando en coche por Herzegovina no consiguió recordar el nombre del pintor de los frescos de la catedral de Orvieto, Signorelli, y en su lugar se le venían insistentemente dos nombres de otros pintores, Botticelli y Boltraffio. Lo interesante para él no fue el olvido, sino que los sustitutos no fueran nombres cualesquiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su reconstrucción sigue las sílabas. Justo antes había estado hablando de las costumbres de los turcos de Bosnia ante la muerte y la sexualidad, en una conversación que había interrumpido porque le incomodaba; «Signor», señor en italiano, traduce «Herr», señor en alemán, la primera parte de Herzegovina; «Bo» viene de Bosnia; y Boltraffio se enlaza con Trafoi, la localidad donde había recibido la noticia del suicidio de un paciente suyo. El nombre olvidado quedaba unido a lo que no quería recordar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con el mismo esquema explica el resto de la vida cotidiana: perder objetos, romper cosas, equivocarse de puerta, no encontrar una carta que hay que contestar. Ninguna de esas cosas sería un accidente; todas expresarían una intención que no se admite. Es la parte del sistema que más rápido se contagia al lector, porque cualquiera tiene un ejemplo propio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y es también donde mejor se ve el problema de método que arrastra todo el libro. La cadena Signorelli-Herzegovina-Bosnia-Trafoi se construye después de conocer el resultado, y con material suficiente se puede construir una cadena parecida hacia casi cualquier destino. Freud nunca predijo un olvido antes de que ocurriera, que es lo que habría convertido esto en una demostración.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La explicación se construye siempre hacia atrás, desde el resultado conocido: nunca se predijo un olvido antes de que ocurriera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Todo sueño tiene dos textos, y el que se recuerda es el disfraz" },
+      {
+        b: "texto",
+        texto:
+          "La segunda parte del curso, once conferencias, está dedicada a los sueños, y arranca con una distinción que es la base de todo lo demás. Lo que uno recuerda al despertar —la escena, los personajes, el disparate— es lo que Freud llama contenido manifiesto. Debajo habría otro texto, el contenido latente, formado por deseos y pensamientos que no pueden presentarse tal cual. El sueño manifiesto sería la traducción deformada del latente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis general es que todo sueño es la realización de un deseo. Suena inverosímil aplicado a un sueño angustioso, y Freud lo sabe: dedica varias conferencias a defenderlo argumentando que el deseo está deformado precisamente porque no se admite, y que el malestar del soñante es la señal de esa censura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso limpio, donde no hay deformación ninguna, es el de los niños pequeños, y ahí sus ejemplos son encantadores y concretos. Cuenta el de su hija Anna, que con diecinueve meses había pasado un día a dieta por una indigestión y aquella noche pronunció en sueños, muy clara, una lista de comidas empezando por su propio nombre y siguiendo con fresas y natillas. Sin símbolos, sin disfraz: el deseo del día, servido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca la generalización que sostiene la parte central del libro: los sueños de los adultos serían iguales, pero pasados por un filtro. Un niño de dos años puede desear sin conflicto lo que desea; un adulto no, y por eso su sueño necesita traducción. Todo el aparato que viene después existe para describir cómo se hace esa traducción.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El sueño de un niño de dos años enseña la fórmula sin disfraz: lo que no pudo tener durante el día, servido por la noche.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El sueño se fabrica con cuatro operaciones, y son las mismas que usa un chiste",
+      },
+      {
+        b: "texto",
+        texto:
+          "Freud llama trabajo del sueño al proceso que convierte el texto latente en la escena que se recuerda, y lo descompone en cuatro operaciones. Es la parte más ingeniosa del libro y la que mejor ha envejecido como descripción, al margen de que la teoría del deseo se sostenga o no.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Condensación", texto: "una sola figura del sueño reúne rasgos de varias personas reales: la cara de tu jefe con la voz de tu padre en la casa de tu infancia. Un elemento manifiesto vale por muchos latentes." },
+          { fuerte: "Desplazamiento", texto: "la carga emocional se traslada de lo importante a un detalle sin interés, de modo que uno se despierta angustiado por un paraguas y tranquilo con lo demás. Es lo que despista al soñante." },
+          { fuerte: "Figurabilidad", texto: "un pensamiento abstracto tiene que convertirse en imagen para poder soñarse, y esa conversión obliga a buscar equivalencias visuales, como haría un mimo al que le prohíben hablar." },
+          { fuerte: "Elaboración secundaria", texto: "al despertar, la mente cose los fragmentos y les añade una lógica de relato para que el conjunto parezca una historia. Buena parte de lo que se cuenta de un sueño se añadió al contarlo." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese último punto es más importante de lo que parece y tiene consecuencias prácticas para cualquiera que apunte sus sueños. Lo que se recuerda no es el sueño: es el sueño más el trabajo de darle forma narrativa, hecho en los segundos de despertar. Freud lo dice con claridad y muchos de sus seguidores lo olvidaron.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Buena parte de lo que se cuenta de un sueño no se soñó: se añadió al contarlo, para que la escena tuviera forma de historia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los sueños se deforman para no despertar a quien los sueña" },
+      {
+        b: "texto",
+        texto:
+          "La pregunta que Freud se hace es por qué existe la deformación, y su respuesta es funcional. Habría una instancia que censura, que impide el paso a lo que resultaría intolerable, y el disfraz sería el precio de dejar pasar algo. Compara ese mecanismo con la censura de prensa de su época, que obligaba a los periódicos a decir las cosas de manera que se entendieran sin poder ser citadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su famosa definición: el sueño es el guardián del dormir. Si el deseo se presentara sin disfraz, la angustia despertaría al soñante; deformado, lo deja seguir durmiendo. Es una explicación elegante y hace una predicción comprobable, que es más de lo que suele ofrecer el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre los símbolos, Freud es mucho más prudente de lo que su fama sugiere y conviene decirlo. Acepta que existe un repertorio de símbolos bastante constante, pero insiste en que el símbolo es el último recurso interpretativo y no el primero, y en que sin las ocurrencias del propio soñante la interpretación no vale. La costumbre de leer sueños con un diccionario de símbolos es exactamente lo que su método prohíbe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí es donde la teoría choca con hechos conocidos. Las pesadillas repetitivas de quien ha vivido un trauma reproducen el suceso sin disfraz y despiertan al soñante, o sea, hacen lo contrario de guardar el dormir. Freud se topó con ello al tratar a soldados de la guerra que estaba ocurriendo mientras daba estas clases, y tres años después de publicarlas admitió por escrito que esos sueños eran una excepción a su teoría.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las pesadillas de guerra repiten el suceso sin disfraz y despiertan al que duerme: es la excepción que el propio Freud tuvo que reconocer.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un síntoma no es un fallo del mecanismo: es un acuerdo entre dos fuerzas",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera parte del curso, la más larga, aplica todo lo anterior a la enfermedad. Y su afirmación central es la que da valor al conjunto: un síntoma neurótico tiene sentido. No es una avería aleatoria, sino una solución de compromiso entre un impulso que empuja y una fuerza que lo reprime, y satisface a los dos de una manera que resulta cara para el que lo padece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Freud lo ilustra con vignetas de sus pacientes. Una mujer joven repetía cada día un ritual: entraba corriendo en la habitación contigua, se colocaba junto a una mesa y llamaba a la criada para darle un encargo trivial, o la despedía sin más. Ella no sabía por qué lo hacía, y le parecía absurdo. La reconstrucción lo ligaba a la noche de bodas y a la humillación de su marido, y la escena resultaba ser una corrección repetida de aquella noche.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El interés de ese planteamiento no depende de que la reconstrucción sea correcta. Lo que aporta es el cambio de mirada: en 1917 la psiquiatría clasificaba los síntomas y buscaba su base orgánica, y aquí alguien propone que un ritual sin sentido es un mensaje que se puede leer. Esa idea sola cambió lo que un médico podía preguntarle a un paciente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El coste de esa idea también hay que decirlo. Si un síntoma siempre significa algo, cualquier padecimiento admite una lectura, y durante décadas se aplicó a cuadros que hoy se sabe que tienen otra causa: se buscaron sentidos ocultos en la esquizofrenia, en el autismo y en la epilepsia, y se responsabilizó a las madres de enfermedades que no habían causado. Freud fue más prudente que sus continuadores, pero la puerta la abrió esta afirmación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que un síntoma signifique algo fue una idea liberadora, y aplicada sin límite convirtió enfermedades del cerebro en culpas de familia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nadie deja del todo atrás las etapas por las que pasó" },
+      {
+        b: "texto",
+        texto:
+          "Para explicar por qué un adulto desarrolla un síntoma determinado, Freud recurre a dos conceptos que van juntos: fijación y regresión. Sostiene que el desarrollo pasa por etapas y que en cada una queda una parte de la energía anclada, especialmente si allí hubo demasiada satisfacción o demasiada frustración. Eso es la fijación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regresión es lo que ocurre cuando la vida presenta un obstáculo serio: la energía retrocede hasta el punto donde quedó anclada y el conflicto se expresa con el lenguaje de aquella etapa. La comparación que usa es militar y se recuerda bien: un ejército que avanza va dejando guarniciones en el camino, y cuanto más fuertes son las guarniciones que dejó atrás, menos tropa lleva al frente y antes retrocede cuando lo derrotan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso explica dos cosas a la vez. Por qué una persona se derrumba ante una dificultad que otra resuelve, y por qué cada uno se derrumba de una manera distinta y siempre de la misma manera. También explica por qué las crisis adultas suelen tener un aire infantil: alguien de cuarenta años discutiendo con su pareja puede sonar exactamente como sonaba a los seis.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De las etapas concretas que propone —oral, anal, fálica y genital— y de la energía que las recorre, que llama libido, poco ha quedado como descripción del desarrollo real. Lo que sí ha quedado, y se usa en escuelas muy alejadas de esta, es la idea general de que las respuestas aprendidas pronto se reactivan bajo presión y de que la conducta bajo estrés se parece a la de etapas anteriores.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Bajo presión suficiente, la conducta de un adulto se parece a la que tenía a una edad concreta, y suele ser siempre la misma edad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La conciencia es un salón pequeño con un portero en la puerta" },
+      {
+        b: "texto",
+        texto:
+          "La conferencia decimonovena contiene la imagen con la que Freud explicó su modelo de la mente y que se le quedó a varias generaciones. Imagínese una antesala grande, llena de gente, y contigua a ella un salón mucho más pequeño donde está la conciencia. Entre las dos habitaciones hay una puerta y un portero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El portero examina a cada impulso que quiere pasar de la antesala al salón y rechaza a los que le parecen inaceptables. Lo rechazado se queda en la antesala, que es el inconsciente, y sigue existiendo y empujando. Lo que consigue entrar en el salón todavía no es consciente: solo lo será cuando además atraiga la mirada. A ese trabajo del portero lo llama represión, y no es un olvido sino un esfuerzo continuo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ese modelo saca la afirmación más provocadora del libro, en la conferencia decimoctava, donde coloca su obra en una serie. La ciencia ha infligido tres humillaciones al amor propio humano: Copérnico demostró que la Tierra no es el centro; Darwin, que el hombre no es una creación aparte; y el psicoanálisis vendría a decir que el yo no es siquiera dueño en su propia casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa tercera humillación es la que ha sobrevivido, aunque no en la forma que él le dio. Hoy nadie discute que la mayor parte del procesamiento mental ocurre sin conciencia; lo que se ha caído es su versión concreta, la del inconsciente como depósito de deseos reprimidos que forcejean en una antesala. El inconsciente de la psicología actual es más aburrido y mucho más grande: automatismos, percepción, memoria y decisiones que se toman antes de saberlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que la mente trabaje sin consultarnos es hoy indiscutible; lo que no sobrevivió es su idea de para qué sirve lo que queda fuera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El paciente reproduce con su médico las relaciones que trae de antes, y ahí está la cura",
+      },
+      {
+        b: "texto",
+        texto:
+          "El concepto que Freud considera decisivo para la terapia, y con el que cierra el curso, es la transferencia. La observación de partida es que un paciente, al cabo de unas semanas, deja de tratar al analista como a un profesional y empieza a tratarlo como trató a alguien importante de su vida: se enamora, se rebela, exige, se somete, desconfía. Y lo hace con una intensidad que la relación real no justifica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Freud sostiene que eso no es una interferencia sino el material mismo del tratamiento. Los conflictos antiguos no se cuentan del todo con palabras, pero se repiten en acto; y al repetirse dentro de la consulta se vuelven observables por los dos. Por eso lo llama a la vez el mayor obstáculo del método y su instrumento principal: lo que estropea la relación es lo que permite verla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Junto a eso describe la resistencia, que es todo lo que el paciente hace para que el tratamiento no avance: llegar tarde, quedarse en blanco justo en cierto tema, encontrar todo esto ridículo, curarse de golpe. La resistencia no sería mala fe, sino la misma fuerza que produjo el síntoma, ahora aplicada a la puerta que se está abriendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De todo el edificio, esta es probablemente la parte más viva. La transferencia se observa en terapias de escuelas que rechazan por completo el resto del psicoanálisis, y el fenómeno general —que las relaciones antiguas se reproducen en las nuevas, incluida la que uno tiene con quien le trata— está bien documentado. Es también la parte del método que exige más formación, porque un terapeuta que no la reconoce la vive como un halago o como una ofensa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los conflictos antiguos no se cuentan: se repiten, y se repiten con quien esté delante, incluido quien intenta curarlos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Freud prometió mucho menos de lo que le atribuyeron sus seguidores" },
+      {
+        b: "texto",
+        texto:
+          "La última conferencia trata de la terapia, y en ella Freud es notablemente modesto, hasta el punto de que sorprende a quien llega con la idea que circula sobre él. Dice que el psicoanálisis no sirve para todo, que necesita pacientes capaces de sostener una relación y de razonar sobre sí mismos, y que descarta expresamente los cuadros psicóticos, en los que a su juicio no puede establecerse la transferencia que hace falta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También rechaza dos ideas que se le atribuyen. Niega que la curación consista en revelarle al paciente su secreto, porque decirle a alguien lo que le pasa no produce ningún cambio si no lo ha recorrido él; y niega que baste con recordar el episodio original, porque lo que hay que deshacer es la fuerza que lo mantiene apartado. La cura, dice, se libra en la resistencia y no en el recuerdo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hace una predicción que hoy se puede puntuar. Escribe que en el futuro se dispondrá de sustancias químicas capaces de influir directamente sobre las cantidades de energía del aparato mental, y que entonces la terapia por la palabra quizá quede desplazada. Es una afirmación asombrosa en 1917, cuando no existía ni un solo psicofármaco moderno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El marcador de esa predicción está repartido. Los fármacos llegaron a partir de 1950 y transformaron el tratamiento de la psicosis, la depresión grave y el trastorno bipolar, tal como él intuía. Y no desplazaron la palabra: las terapias conversacionales siguen siendo tratamiento de primera línea en la mayoría de los cuadros, y en muchos funcionan mejor combinadas con el fármaco que cualquiera de los dos por separado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Predijo en 1917 que la química acabaría influyendo directamente en la mente, y acertó; se equivocó al creer que eso dejaría sin sitio a la conversación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que hay procesos mentales con sentido que ocurren fuera de la conciencia, que se manifiestan en los lapsus, en los sueños y en los síntomas, y que pueden leerse con un método. Es la exposición más ordenada que Freud escribió de su sistema, y la mejor puerta de entrada que existe a él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, además de su contenido, es la forma. Está escrito para ser escuchado, con objeciones puestas en boca del público y contestadas una por una, y eso lo hace legible cien años después. Y hay una idea suya que ganó del todo: que a un paciente hay que preguntarle por su vida y escuchar la respuesta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en lo que más pretendía, que era ser una ciencia. Karl Popper lo usó en 1963 como su ejemplo principal de teoría que no puede refutarse: si el paciente acepta la interpretación, confirma; si la rechaza, es resistencia, y también confirma. A eso se suma que los historiadores que han revisado sus casos han encontrado curaciones anunciadas que no lo fueron: el paciente conocido como el Hombre de los Lobos declaró de anciano que el tratamiento no le había servido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De su teoría de los sueños tampoco queda la tesis. Desde el modelo que propusieron Hobson y McCarley en 1977, la explicación dominante los liga a la actividad del tronco cerebral y al procesamiento de la memoria, no a deseos disfrazados. La discusión sigue: el neuropsicólogo Mark Solms mostró en los años noventa que hay lesiones que suprimen los sueños sin afectar a esas fases.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el mejor dato sobre este libro concreto lo puso su propio autor. En 1926 Freud publicó una revisión completa de su teoría de la angustia, invirtiendo lo que aquí enseña: ya no sería la libido reprimida la que se convierte en angustia, sino la angustia la que pone en marcha la represión. Y en 1933 publicó unas conferencias nuevas para corregir por escrito varias partes de estas. Quien lea este curso está leyendo una versión que su autor dio por superada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se lee como el documento fundacional de una manera de tratar a la gente, no como un manual vigente: su autor ya lo había corregido en vida.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "intro-psicoanalisis": INTRO_PSICOANALISIS,
   "cosas-buenas": COSAS_BUENAS,
   "maneras-de-amar": MANERAS_DE_AMAR,
   "cerebro-del-nino": CEREBRO_DEL_NINO,

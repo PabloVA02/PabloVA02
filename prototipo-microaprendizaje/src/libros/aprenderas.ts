@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "intro-psicoanalisis":
+    "Freud empezó su curso de Viena en 1915 avisando de que no podría demostrar nada de lo que iba a decir. Veintiocho conferencias que van del lapsus cotidiano al síntoma, y la exposición más ordenada de su sistema.",
+
   "cosas-buenas":
     "Media hora después de despertar, el cortisol ha subido más de la mitad, y debe bajar durante el día hasta quedarse plano de noche. Rojas Estapé sostiene que el malestar moderno viene de que esa curva no baja.",
 

@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "intro-psicoanalisis": [
+    "por qué un lapsus tendría dos intenciones dentro",
+    "las cuatro operaciones con las que se fabrica un sueño",
+    "en qué sentido un síntoma es un acuerdo entre dos fuerzas",
+    "qué es la transferencia y por qué la llamó obstáculo e instrumento",
+    "qué corrigió el propio Freud de este libro en 1926 y 1933",
+  ],
+
   "cosas-buenas": [
     "qué hace el cortisol y qué no puedes hacer con él",
     "por qué dar vueltas a lo mismo predice una depresión",
