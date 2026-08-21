@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  invencible: "Logra más, sufre menos",
   "repensar-pobreza": "Un giro radical en la lucha contra la desigualdad global",
   "doctrina-shock": "El auge del capitalismo del desastre",
   "dinero-domina-juego": "Cómo alcanzar la libertad financiera en 7 pasos",

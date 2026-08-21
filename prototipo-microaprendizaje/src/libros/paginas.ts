@@ -47145,7 +47145,298 @@ const REPENSAR_POBREZA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Invicto, en ocho páginas.
+
+   Breve. Libro práctico → TÚ.
+
+   Está en Salud, pero NO es un libro de moléculas, así que la prueba del
+   sustituto del apartado 4 bis no aplica tal cual. Sí aplica su hermana, la
+   del título tapado: un libro de disciplina cuyas páginas valdrían para
+   otros veinte libros de disciplina no cuenta nada. Lo que salva a este
+   resumen es decir DE DÓNDE VIENE CADA IDEA, con nombre y año —Epicteto,
+   Séneca, Ellis, Gollwitzer, Klein, Lally—, porque eso ni se puede copiar ni
+   se puede escribir sin haber mirado.
+
+   Y la página séptima hace la regla 5 dentro del libro y no solo al final:
+   el modelo de la voluntad como músculo que se agota, en el que se apoya
+   este libro y el género entero, no sobrevivió a su réplica de 2016.
+   -------------------------------------------------------------------------- */
+
+const INVENCIBLE: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo de los veintiún días para crear un hábito se lo inventó un cirujano plástico en 1960",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cifra viene de Maxwell Maltz, cirujano estético estadounidense, que escribió en 1960 que sus pacientes tardaban un mínimo de unos veintiún días en acostumbrarse a su cara nueva. Era una observación de consulta sobre otra cosa completamente distinta, y de ahí saltó a los manuales de superación personal como si fuera una ley. La medición de verdad la hizo Phillippa Lally en 2010: la mediana fueron sesenta y seis días, y el rango iba de dieciocho a doscientos cincuenta y cuatro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Marcos Vázquez, autor español del blog y el pódcast «Fitness Revolucionario», publicó «Invicto» en 2020 y se convirtió en uno de los libros más vendidos del país. No es un libro de dieta ni de entrenamiento: es un libro sobre la cabeza, y está construido sobre una estructura tomada del estoicismo romano, que él cita sin disimulo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa estructura tiene tres partes y ordena todo lo demás. La percepción, que es cómo interpretas lo que te pasa. La acción, que es qué haces con ello. Y la voluntad, que es cómo aguantas lo que no puedes cambiar. Cada capítulo termina con un ejercicio concreto, y el libro está pensado para hacerse en noventa días en vez de leerse en dos tardes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas, y de cada una se dice de dónde sale: la distinción entre lo que depende de ti y lo que no, por qué lo que te altera no es lo que pasa, cómo se ensaya un desastre antes de que ocurra, la fórmula de una sola frase que más sube el cumplimiento de un propósito, qué hacer el primer minuto, y por qué la idea de la voluntad como un músculo que se agota no aguantó la comprobación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una cifra repetida durante sesenta años en miles de libros salió de una observación de consulta sobre pacientes operados de la cara.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi todo el sufrimiento evitable viene de intentar controlar lo que no depende de ti",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera parte del libro descansa entera en una distinción que formuló Epicteto, un filósofo que nació esclavo en el siglo primero, quedó cojo y enseñó en Grecia. Él no escribió nada: lo que se conserva lo apuntó su alumno Arriano hacia el año 125, y el manual empieza con esa distinción y no con otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dice así: hay cosas que dependen de nosotros y cosas que no. Dependen nuestros juicios, nuestras decisiones y nuestros esfuerzos. No dependen el cuerpo, la reputación, el dinero, la opinión ajena ni el resultado de nada. El error que produce casi todo el sufrimiento evitable es tratar lo segundo como si fuera lo primero, e indignarse porque el mundo no obedece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La aplicación práctica que propone Vázquez es una lista de dos columnas y es más incómoda de lo que parece. Escribe lo que te preocupa y sepáralo: a la izquierda, aquello sobre lo que puedes actuar hoy; a la derecha, el resto. Casi todo el mundo descubre que la mayor parte de su energía mental está en la columna derecha, y que la izquierda tiene tres líneas y ninguna hecha.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene añadir el límite, porque el libro no lo pone y es donde este consejo se estropea. Aceptar lo que no depende de ti sirve para el tráfico, para una enfermedad o para lo que opine un desconocido. Aplicado a un sueldo injusto o a un trato abusivo, la misma frase se convierte en una manera elegante de no cambiar nada. La dicotomía ordena tu esfuerzo; no dictamina qué es aceptable.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El esfuerzo mental se va casi entero en la columna de lo que no depende de ti, y esa columna no se mueve por mucho que la mires.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No te altera lo que ocurre, sino la frase que te dices sobre lo que ocurre",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda idea del bloque de la percepción también es de Epicteto y está en la misma obra: a los hombres no los perturban las cosas, sino las opiniones que se forman de las cosas. Dos personas pierden el mismo tren; una llega furiosa a casa y la otra aprovecha para leer. El tren fue idéntico. Lo que cambió fue la frase que cada una se dijo por dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso no se quedó en filosofía. En 1955, el psicólogo Albert Ellis fundó la terapia racional emotiva citando expresamente esa frase de Epicteto, y poco después Aaron Beck desarrolló la terapia cognitiva a partir del mismo principio: identificar el pensamiento automático que aparece entre el suceso y la emoción, escribirlo, y comprobar si es verdad. De ahí sale la psicoterapia con más pruebas de eficacia que existe hoy para la ansiedad y la depresión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejercicio que propone el libro es el de esa terapia, resumido. Cuando notes una reacción desproporcionada, anota tres cosas: qué pasó exactamente, qué te dijiste, y qué sentiste. La mayoría de las veces la frase intermedia contiene una exageración —«siempre me pasa lo mismo», «no valgo para esto»— que no aguanta escrita lo que aguantaba pensada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay que separar esto de una cosa parecida y falsa, porque es donde el género entero patina. No se trata de pensar en positivo ni de repetirse que todo irá bien. Se trata de comprobar si la frase es cierta, y a veces no lo es y a veces sí. Un examen suspendido es un examen suspendido; lo que hay que discutir es el añadido de que eso significa que no sirves.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Entre lo que pasa y lo que sientes hay siempre una frase, y esa frase se puede escribir y se puede comprobar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ensayar el desastre por escrito es lo que impide que te paralice" },
+      {
+        b: "texto",
+        texto:
+          "Los estoicos practicaban lo que llamaban premeditación de los males: dedicar un rato a imaginar en detalle lo peor que podría ocurrir. Séneca fue más lejos en su carta decimoctava a Lucilio, donde recomienda apartar unos pocos días al mes para vivir como un pobre —comida basta, ropa áspera, cama dura— y preguntarse al final: ¿era esto lo que tanto temía?",
+      },
+      {
+        b: "texto",
+        texto:
+          "La versión moderna tiene nombre y fecha. En 2007 el psicólogo Gary Klein publicó en la «Harvard Business Review» una técnica que llamó el pre mortem: antes de empezar un proyecto, se reúne al equipo y se le pide que imagine que ya ha terminado y que ha sido un fracaso total, y que escriba la crónica de por qué fracasó. No qué podría salir mal, sino por qué salió mal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cambio de tiempo verbal no es un truco de redacción. Un estudio de 1989 firmado por Deborah Mitchell, Jay Russo y Nancy Pennington midió que imaginar un suceso como si ya hubiera ocurrido aumenta alrededor de un treinta por ciento la capacidad de identificar razones concretas de por qué ocurrió. Preguntar «qué podría fallar» produce una lista genérica; preguntar «por qué falló» produce nombres, fechas y causas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aplícalo a lo tuyo así: antes de empezar algo que te importa, escribe media página fechada dentro de un año contando por qué lo dejaste. Casi siempre aparecen dos o tres motivos concretos y previsibles, y casi siempre se pueden desactivar por adelantado. Es lo contrario del pensamiento positivo y funciona mejor que él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Preguntar por qué fracasó saca respuestas concretas; preguntar qué podría fallar saca una lista de tópicos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una frase con la forma «cuando pase X, haré Y» multiplica el cumplimiento de un propósito",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la técnica con más respaldo experimental de todo el libro y se llama intención de implementación. La formuló el psicólogo Peter Gollwitzer en 1999 y consiste en sustituir un propósito general por una frase que ata una situación concreta a una conducta concreta: no «voy a hacer más ejercicio», sino «los martes y los jueves, al salir de la oficina, iré andando al gimnasio de la calle Mayor».",
+      },
+      {
+        b: "texto",
+        texto:
+          "El experimento que mejor lo demuestra se hizo en 2002 con personas a las que se pidió que hicieran ejercicio durante dos semanas. Al grupo que solo recibió motivación lo cumplió alrededor de un treinta y cinco por ciento. Al grupo al que además se le pidió que escribiera cuándo, dónde y con quién lo haría, lo cumplió más del noventa. Un folio y dos minutos triplicaron el resultado de toda la charla motivadora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo por el que funciona es sencillo y explica también por qué falla lo demás. Un propósito general obliga a decidir en el momento de la tentación, que es exactamente el peor momento posible: cansado, con prisa y con una excusa disponible. La frase con hora y sitio traslada la decisión a un rato tranquilo y deja para el momento crítico solo la ejecución.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Escríbelo, además, en presente y por escrito, y añade la versión defensiva: «si aparece X, entonces haré Y». Si me ofrecen postre, pediré café. Si me llega una notificación mientras trabajo, la dejaré para las seis. La eficacia está en tener la respuesta preparada antes de necesitarla, no en tener más ganas cuando llegue el momento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un propósito obliga a decidir cuando estás cansado; un plan con hora y sitio deja para ese momento solo la ejecución.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El objetivo no cambia nada: lo que cambia las cosas es el primer minuto",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte de la acción se apoya en una observación que Vázquez repite de muchas maneras: la motivación llega después de empezar, no antes. Casi nadie tiene ganas de ponerse; casi todo el mundo, una vez puesto, continúa. Por eso el objetivo que hay que fijarse no es terminar el trabajo, sino abrir el documento; no correr media hora, sino ponerse las zapatillas y salir al portal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su regla más citada, que es fea a propósito: hazlo mal, pero hazlo. Un entrenamiento de diez minutos hecho con desgana vale infinitamente más que uno perfecto que no ocurre, porque lo que se está construyendo no es el efecto de esa sesión, es la prueba de que eres alguien que va. Una cadena de días marcados en un calendario funciona por la misma razón: nadie quiere romper una racha visible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda idea de este bloque es cambiar el sujeto de la frase. No «quiero dejar de fumar», sino «no soy fumador»; no «tengo que escribir», sino «soy alguien que escribe todos los días». Suena a juego de palabras y tiene una consecuencia práctica: un objetivo se cumple o se falla, y una identidad se sostiene con la siguiente decisión, sea cual sea la anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir que nada de esto es suyo. Es el mismo terreno que trabajan James Clear y B. J. Fogg, y varias de estas reglas circulan por el género desde hace una década. Lo que aporta Vázquez es la traducción al castellano, un tono sin cursilería y un ejercicio al final de cada capítulo, que es más de lo que parece pero no es una idea nueva.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las ganas no son el requisito para empezar: son la consecuencia de haber empezado, y llegan unos minutos tarde.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La voluntad no es un músculo que se agota, y eso cambia dónde hay que trabajar",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera parte del libro trata de aguantar, y ahí aparece un modelo que conviene mirar de cerca porque lo usa este libro y lo usan casi todos los del género. En 1998 Roy Baumeister publicó un experimento famoso: unos participantes tenían que resistirse a unas galletas y comer rábanos, y después abandonaban antes un rompecabezas imposible. La conclusión que se popularizó es que el autocontrol es un depósito que se vacía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2016 se puso a prueba en serio. Veintitrés laboratorios de distintos países repitieron el mismo procedimiento, acordado de antemano, con más de dos mil participantes en total, y el efecto medio salió indistinguible de cero. La idea del depósito de fuerza de voluntad no se sostiene con los datos disponibles, y todo lo que se construyó encima —desayunar azúcar para tener más autocontrol, guardar las decisiones difíciles para la mañana— se queda sin base.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí sobrevive es más útil y menos épico: lo que predice si cumples no es cuánta fuerza de voluntad tengas, sino a cuántas tentaciones te expongas. Las personas que mejor puntúan en autocontrol no son las que más resisten, sino las que organizan su vida para tener que resistir menos veces. No hay chocolate en casa, el móvil está en otra habitación, la ropa de correr está preparada la noche antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Traducido a este libro: la parte de la voluntad funciona cuando habla del entorno y de aceptar lo inevitable —Séneca practicando la pobreza, la incomodidad voluntaria, aprender a estar sin distracciones—, y funciona peor cuando propone entrenar la voluntad como si fuera un bíceps. El primer enfoque tiene pruebas detrás; el segundo era una metáfora que se cayó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los que mejor se controlan no son los que más resisten: son los que se han organizado la vida para tener que resistir menos veces.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro toma el esquema estoico de percepción, acción y voluntad, le engancha una selección de psicología del comportamiento y lo convierte en un curso de noventa días con ejercicios. Su tesis es que la disciplina no es un rasgo con el que se nace, sino una serie de decisiones de diseño que se pueden tomar en frío.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la traducción. Es probablemente la mejor puerta de entrada en castellano al estoicismo práctico y a la ciencia del comportamiento, escrita sin la cursilería del género, con ejemplos de aquí y con un ejercicio al final de cada capítulo. Para quien no ha leído nada de esto, vale mucho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en dos cosas. La primera es que no hay una sola idea suya: Epicteto, Séneca, Ellis, Gollwitzer, Klein, Clear y Fogg están todos ahí, bien elegidos y bien contados, pero quien haya leído a tres de ellos no encontrará nada nuevo. La segunda es la solidez desigual de lo que cita: junto a técnicas con decenas de estudios detrás aparece la voluntad como depósito que se agota, que en 2016 no superó su réplica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una tercera objeción que vale para todo el estoicismo de autoayuda y que este libro no discute. La ética de Epicteto y de Séneca se apoyaba en una física: un cosmos ordenado y racional en el que aceptar lo que ocurre tenía sentido porque lo que ocurre está bien puesto. Quitada esa parte, «acepta lo que no depende de ti» se queda sin argumento y funciona solo mientras el lector no pregunte por qué.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de 2020 el libro se convirtió en un fenómeno de ventas en España. Y la parte que peor ha envejecido es justo la que compartía con sus competidores: los años siguientes confirmaron que el autocontrol se explica mucho mejor por el entorno que uno se construye que por la fuerza con la que aprieta los dientes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Excelente como primera puerta y honrado en casi todo; para saber de dónde viene cada idea hay que ir a los originales, que están citados.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  invencible: INVENCIBLE,
   "repensar-pobreza": REPENSAR_POBREZA,
   "doctrina-shock": DOCTRINA_SHOCK,
   "dinero-domina-juego": DINERO_DOMINA_JUEGO,

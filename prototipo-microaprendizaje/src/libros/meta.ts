@@ -488,22 +488,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "invencible",
-    titulo: "Invicto",
-    autor: "Marcos Vázquez",
-    ano: 2021,
-    gancho: "El mismo principio que hace crecer un músculo —estrés controlado más descanso— aplicado a la cabeza. Con dos mil años de instrucciones ya escritas.",
-    porQue: "Es la mejor traducción al español del estoicismo a un programa de entrenamiento, y también un buen sitio para ver dónde ese marco deja de funcionar.",
-    minutos: 21,
-    capitulos: [
-      { titulo: "El esclavo cojo", minutos: 4.1 },
-      { titulo: "Lo que depende de ti", minutos: 4.2 },
-      { titulo: "Sobrecarga progresiva", minutos: 4.1 },
-      { titulo: "El juez interior", minutos: 4.2 },
-      { titulo: "Amor fati", minutos: 4.5 },
-    ],
-  },
-  {
     id: "milagro-metabolico",
     titulo: "El milagro metabólico",
     autor: "Carlos Jaramillo",

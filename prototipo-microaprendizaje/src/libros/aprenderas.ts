@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  invencible:
+    "La cifra de los veintiún días para crear un hábito salió de un cirujano plástico en 1960; la medición real da sesenta y seis. Vázquez ordena el estoicismo y la psicología del comportamiento en un curso de noventa días.",
+
   "repensar-pobreza":
     "En Rajastán solo el seis por ciento de los niños completaba la vacunación; regalar un kilo de lentejas por visita lo subió al treinta y nueve y abarató cada vacuna. El libro está hecho de resultados así.",
 

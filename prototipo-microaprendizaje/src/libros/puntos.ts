@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  invencible: [
+    "separar lo que depende de ti de lo que no, y su límite",
+    "la frase que se cuela entre lo que pasa y lo que sientes",
+    "escribir por qué fracasó algo que aún no ha empezado",
+    "la fórmula de una línea que triplicó el cumplimiento",
+    "por qué la fuerza de voluntad no es un depósito que se vacía",
+  ],
+
   "repensar-pobreza": [
     "por qué la discusión sobre si la ayuda funciona no tiene respuesta",
     "qué compra una familia pobre cuando le sobra dinero",
