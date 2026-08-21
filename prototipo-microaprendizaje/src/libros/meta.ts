@@ -1288,22 +1288,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "capital-siglo-xxi",
-    titulo: "El capital en el siglo XXI",
-    autor: "Thomas Piketty",
-    ano: 2013,
-    gancho: "Setecientas páginas de economía con cien gráficos que se convirtieron en el libro más vendido en la historia de la editorial de la Universidad de Harvard.",
-    porQue: "Porque sus datos cambiaron la discusión pública sobre la desigualdad, y porque su explicación de esos datos tiene una objeción técnica muy seria que resume tres palabras: todo es vivienda.",
-    minutos: 21.5,
-    capitulos: [
-      { titulo: "Los archivos fiscales", minutos: 4.2 },
-      { titulo: "La curva en forma de U", minutos: 4.5 },
-      { titulo: "El dilema de Rastignac", minutos: 4.3 },
-      { titulo: "El impuesto que no existe", minutos: 4.2 },
-      { titulo: "Todo es vivienda", minutos: 4.2 },
-    ],
-  },
-  {
     id: "por-que-fracasan",
     titulo: "Por qué fracasan los países",
     autor: "Acemoglu y Robinson",

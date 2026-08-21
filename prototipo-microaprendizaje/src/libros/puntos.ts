@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "capital-siglo-xxi": [
+    "por qué las encuestas de hogares no ven a los ricos",
+    "qué pasa cuando el capital renta más de lo que crece la economía",
+    "qué produjo realmente la igualdad de 1945 a 1980",
+    "cuánto pesa hoy la herencia frente a un buen sueldo",
+    "qué le han discutido otros economistas con razón",
+  ],
+
   "origenes-totalitarismo": [
     "en qué se distingue el antisemitismo moderno del odio religioso",
     "por qué la riqueza sin función se odia más que el poder",

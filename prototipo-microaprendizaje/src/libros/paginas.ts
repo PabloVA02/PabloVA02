@@ -27619,7 +27619,407 @@ const ORIGENES_TOTALITARISMO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El capital en el siglo XXI, en doce páginas.
+
+   AMPLIO: son doscientos años de datos de veinte países y diez argumentos
+   independientes, y la página 11 —las objeciones que ha recibido— no se
+   puede quitar sin dejar el resumen vendiendo una ley física que el propio
+   libro presenta como regularidad histórica.
+
+   Ensayo económico: titular que afirma, tercera persona.
+   -------------------------------------------------------------------------- */
+
+const CAPITAL_SIGLO_XXI: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Setecientas páginas de economía que vendieron dos millones y medio de ejemplares",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2013, un economista francés de cuarenta y dos años publicó un tratado de setecientas páginas lleno de gráficos sobre la distribución de la riqueza en veinte países desde el siglo XVIII. Vendió más de dos millones y medio de ejemplares en varios idiomas, algo que no le había pasado nunca a un libro de economía académica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás hay quince años de trabajo de archivo. Thomas Piketty y un grupo de colegas —Emmanuel Saez, Anthony Atkinson, Facundo Alvaredo y otros— reconstruyeron series históricas de ingresos y patrimonios a partir de declaraciones de impuestos, registros de sucesiones e inventarios notariales, algunos de más de dos siglos. Todo ese material está publicado y accesible en una base de datos abierta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis se resume en una idea desagradable: que la concentración creciente de la riqueza no es un accidente ni un fallo del sistema, sino su comportamiento normal cuando nadie lo corrige, y que las décadas relativamente igualitarias del siglo XX fueron la excepción y no la tendencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas doce páginas recorren su argumento: por qué usa declaraciones fiscales y no encuestas, qué dice su desigualdad más famosa, por qué el siglo XX fue una anomalía, cómo ha vuelto el patrimonio a los niveles de antes, qué demuestran las novelas de Balzac, qué papel tiene la herencia, de dónde salen los sueldos de los directivos, qué propone y qué le han discutido otros economistas con razón.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que un tratado de economía con gráficos venda dos millones y medio de ejemplares dice más del momento que del libro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las encuestas no ven a los ricos y las declaraciones de impuestos sí",
+      },
+      {
+        b: "texto",
+        texto:
+          "La aportación más sólida del libro es de método y se explica en las primeras páginas. Casi todo lo que se sabía sobre desigualdad venía de encuestas de hogares, en las que se pregunta a una muestra de familias cuánto ganan. Ese instrumento tiene un problema estructural para este asunto: los muy ricos son poquísimos, no suelen aparecer en las muestras, y cuando aparecen declaran mal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado es que las encuestas describen bien al noventa por ciento de la población y son ciegas precisamente donde está el fenómeno. Piketty y su equipo cambiaron de fuente: usaron las declaraciones del impuesto sobre la renta, que existen en Francia desde 1914 y en varios países desde principios del siglo XX, y los registros de herencias, que en algunos sitios se remontan a la Revolución francesa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esas fuentes tienen sus propios problemas —el fraude, las exenciones, los cambios de ley— y él los discute. A cambio ofrecen algo que ninguna encuesta da: series continuas de doscientos años y un detalle enorme en la parte alta de la distribución, que es donde se decide todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale una consecuencia práctica que el libro repite: hablar de desigualdad sin datos fiscales es hablar de otra cosa. Y una segunda, más incómoda para muchos gobiernos: en varios países esos datos existen y no se publican con el detalle necesario, y sin publicarlos la discusión pública se queda en impresiones.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una encuesta de hogares describe bien al noventa por ciento y es ciega justo donde está el fenómeno que se quiere medir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cuando el capital renta más de lo que crece la economía, la riqueza se concentra sola",
+      },
+      {
+        b: "texto",
+        texto:
+          "La expresión por la que se conoce el libro es una comparación entre dos cifras. La primera es el rendimiento medio del capital: cuánto produce al año un patrimonio, sumando alquileres, dividendos, intereses y plusvalías. La segunda es el crecimiento de la economía: cuánto aumenta al año la producción total, que es de donde salen los salarios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los datos históricos que reúne dan una respuesta constante. El rendimiento del capital ha rondado entre el cuatro y el cinco por ciento anual durante siglos, con notable estabilidad. El crecimiento económico, en el largo plazo, ha sido de entre el uno y el dos por ciento, y solo superó esa cifra durante las décadas excepcionales de reconstrucción posteriores a 1945.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia es aritmética y no necesita ninguna teoría sobre la codicia. Si un patrimonio ya existente crece al cuatro por ciento y la economía entera crece al uno y medio, entonces quien tiene patrimonio se aleja cada año un poco más de quien vive de su trabajo, aunque los dos hagan exactamente lo mismo y aunque nadie explote a nadie. Con reinvertir una parte basta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un efecto añadido que Piketty documenta: los patrimonios grandes rinden más que los pequeños. Un patrimonio de cien millones puede permitirse gestores, diversificación e inversiones ilíquidas de alto rendimiento que un ahorrador con veinte mil euros en una cuenta no tiene a su alcance, así que la brecha no solo se abre: se abre a velocidad creciente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si el patrimonio ya existente crece más deprisa que la economía, la distancia se abre sola, sin que nadie tenga que hacer nada mal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El siglo XX no fue un progreso: fue una catástrofe con efectos secundarios",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte del libro que más cambia la manera de ver las cosas es la que explica por qué las décadas centrales del siglo XX fueron distintas. Entre 1945 y 1980, en Europa y en Estados Unidos, la desigualdad de patrimonio fue la más baja que se conoce, y varias generaciones crecieron creyendo que esa era la dirección natural del desarrollo económico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los datos de Piketty dicen otra cosa. Entre 1914 y 1945 se destruyó una parte enorme del capital privado europeo: dos guerras mundiales con bombardeos sobre ciudades e industrias, la quiebra de los años treinta, la inflación que evaporó las deudas y los ahorros, las nacionalizaciones de posguerra y el impago de la deuda pública. El patrimonio de las grandes fortunas europeas no se redistribuyó: en buena medida desapareció.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso se sumó una decisión política deliberada y sostenida durante décadas: una fiscalidad muy progresiva. En Estados Unidos, el tipo marginal máximo del impuesto sobre la renta llegó a superar el noventa por ciento durante la guerra y se mantuvo por encima del setenta hasta 1980, con un impuesto de sucesiones igualmente severo. Ninguna de las dos cosas es un fenómeno natural.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que saca es incómoda para casi todo el mundo. Aquella igualdad no la produjo el crecimiento ni la educación ni el progreso tecnológico: la produjeron treinta años de destrucción seguidos de treinta de política fiscal agresiva. Y en cuanto las dos causas dejaron de operar, la tendencia volvió a lo de antes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La sociedad más igualitaria que ha existido la produjeron dos guerras, una crisis y unos impuestos altísimos, y no el progreso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El patrimonio ha vuelto a los niveles de antes de 1914" },
+      {
+        b: "texto",
+        texto:
+          "Piketty resume la historia de dos siglos en una sola curva, la del cociente entre el patrimonio total de un país y su renta anual. Es una medida sencilla: dice cuántos años de producción nacional hacen falta para igualar todo lo que se posee, sumando viviendas, tierras, empresas y activos financieros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En Europa, esa cifra estuvo alrededor de seis o siete años durante todo el siglo XIX y hasta 1914. Después se hundió: en 1950 rondaba dos o tres años, por la destrucción y la inflación de las décadas anteriores. Y desde entonces no ha dejado de subir, hasta volver hoy a cinco o seis años, es decir, a valores parecidos a los de la sociedad que describían las novelas del siglo XIX.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El dibujo que forma esa serie es una uve larguísima de doscientos años, y es la imagen central del libro. Lo que dice es que el punto bajo de esa uve —el mundo de 1950 a 1980, con poco patrimonio acumulado y mucha renta del trabajo— es una anomalía de tres décadas dentro de una historia que va en otra dirección.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Piketty subraya además de qué está hecho ese patrimonio recuperado. En el siglo XIX era sobre todo tierra agrícola y deuda pública; hoy es sobre todo vivienda y activos financieros. Cambia la forma y no la proporción, y ese detalle va a ser importante cuando lleguen las objeciones.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El patrimonio total de Europa equivale otra vez a seis años de producción, como en tiempos de Balzac, después de un paréntesis de tres décadas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Balzac explicó una sociedad patrimonial mejor que cualquier manual" },
+      {
+        b: "texto",
+        texto:
+          "El recurso que hace legible este libro a quien no es economista es literario. Piketty usa las novelas del siglo XIX como fuente, porque en ellas las cantidades de dinero son exactas, todo el mundo sabe cuánto renta cada fortuna y los personajes toman decisiones basándose en esas cifras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo central es una escena de Papá Goriot. Un delincuente llamado Vautrin le hace cuentas a Rastignac, un estudiante de derecho pobre y ambicioso. Le explica que si estudia, aprueba, trabaja veinte años y llega a ser fiscal del rey, ganará una cantidad determinada y bastante modesta; y que si en cambio se casa con la señorita Victorine, que tiene una dote enorme, dispondrá desde mañana de una renta muy superior sin haber hecho nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que a Piketty le interesa es que las cuentas de Vautrin son correctas. En una sociedad donde el capital rinde el cinco por ciento y la economía crece al uno, el trabajo, incluso el trabajo cualificado y bien situado, no puede competir con una herencia. No es cinismo del personaje: es aritmética de su época, y por eso las novelas de entonces hablan de dotes con la misma naturalidad con que hoy se habla de sueldos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Piketty hace lo mismo con Jane Austen y con las rentas anuales que aparecen en sus novelas, y señala una diferencia con la literatura actual: hoy ningún autor da cifras exactas, porque la inflación las volvería incomprensibles en veinte años. En aquellas décadas de moneda estable, las cifras eran el idioma común.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En una sociedad donde el capital renta más de lo que crece la economía, el consejo cínico del villano de la novela es simplemente el correcto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La herencia vuelve a decidir la posición social de la gente" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre la herencia es el que más incomoda porque afecta a la idea que las sociedades tienen de sí mismas. Piketty mide el flujo anual de herencias y donaciones como porcentaje de la renta nacional, y en Francia dispone de datos continuos desde principios del siglo XIX.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La serie es otra uve. En el siglo XIX, lo que se transmitía cada año por herencia equivalía a alrededor de un veinte o un veinticinco por ciento de la renta nacional: una sociedad donde la posición social se heredaba y todo el mundo lo sabía. En 1950 esa cifra había caído por debajo del cinco por ciento, y una generación entera pudo creer que el mérito y el trabajo lo decidían todo. Hoy ha vuelto a superar el quince.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia es concreta y afecta a quien está vivo. Para las generaciones nacidas después de los años setenta, la diferencia entre heredar un piso en una ciudad cara y no heredarlo pesa más en el patrimonio final que la diferencia entre una carrera profesional buena y una mediocre. No es una opinión: es lo que sale al comparar el valor de los inmuebles con la capacidad de ahorro de un sueldo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Piketty añade un cálculo de longevidad que casi nadie hace. Como la esperanza de vida ha aumentado mucho, la herencia llega hoy alrededor de los cincuenta o sesenta años, cuando la vida laboral está casi hecha, así que no cambia el punto de partida de nadie: consolida el de llegada y traslada la diferencia intacta a la generación siguiente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Para quien nació después de 1970, heredar un piso pesa más en el patrimonio final que la diferencia entre una buena carrera y una mediocre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los sueldos de los altos directivos no se explican por su productividad",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una parte importante de la desigualdad estadounidense de las últimas décadas no viene del capital sino de los salarios, y en concreto de los de un grupo minúsculo de altos directivos cuyas remuneraciones se han multiplicado mientras el salario mediano se estancaba. Piketty dedica un capítulo a preguntarse de dónde salen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación estándar es que reflejan la productividad marginal: cada uno cobra lo que aporta. Su objeción es técnica y demoledora: la productividad marginal de un directivo de una empresa grande no se puede medir. Se puede medir la de un operario en una cadena de montaje o la de un comercial con objetivos, pero no la de alguien cuyo trabajo consiste en decisiones cuyos efectos se mezclan con los de miles de personas, con la coyuntura y con la suerte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación alternativa tiene dos partes. La primera es que esas remuneraciones las fijan comités formados por personas del mismo grupo social, que se evalúan mutuamente, y que en ausencia de una medida objetiva funcionan según normas de lo que parece adecuado. La segunda es fiscal: cuando el tipo marginal máximo estaba en el setenta o el ochenta por ciento, pedir un aumento enorme no tenía sentido porque casi todo se lo llevaba el fisco; al bajar los tipos, el incentivo para negociar al alza reapareció.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba que aporta es comparativa: los países que mantuvieron tipos marginales altos no vieron esa explosión salarial en la cúpula, y los que los bajaron sí, sin que su productividad ni su crecimiento se distinguieran de los demás. Es una correlación con muchos factores dentro, y él lo reconoce.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie puede medir cuánto aporta exactamente un alto directivo, y donde no hay medida objetiva la cifra la fija una costumbre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La distribución de la riqueza es política y no técnica" },
+      {
+        b: "texto",
+        texto:
+          "La afirmación que Piketty repite en todo el libro y que resume su posición es que la desigualdad no es el resultado de un mecanismo económico impersonal ante el que no queda más que resignarse. En cada momento histórico, el reparto ha dependido de decisiones concretas sobre impuestos, herencias, educación, propiedad y salarios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento contra el determinismo es histórico. Si la desigualdad fuera consecuencia inevitable de la tecnología o del comercio, países con niveles parecidos de una y otro tendrían niveles parecidos de desigualdad, y no los tienen: Estados Unidos y varios países europeos con economías comparables presentan repartos muy distintos, y las diferencias coinciden con sus decisiones fiscales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale también su crítica a una idea muy difundida en su propio gremio: la curva según la cual el desarrollo económico produce primero desigualdad y después la reduce por sí solo, formulada en los años cincuenta a partir de datos estadounidenses de tres décadas. Piketty sostiene que aquellos datos captaron precisamente el descenso excepcional producido por las guerras y por la fiscalidad, y que se leyó como una ley natural lo que era una circunstancia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una advertencia sobre la educación, que es la respuesta habitual a este problema. La formación mejora mucho la situación de quien la recibe y no altera la relación entre el rendimiento del capital y el crecimiento, que es lo que produce la divergencia patrimonial. Un país entero con titulación universitaria seguiría teniendo el mismo problema con la herencia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dos países con la misma tecnología y el mismo comercio pueden tener repartos muy distintos, y la diferencia está en lo que decidieron.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Su propuesta la llama él mismo una utopía útil" },
+      {
+        b: "texto",
+        texto:
+          "La solución que propone ocupa poco espacio en el libro y es la parte que más titulares generó: un impuesto anual y progresivo sobre el patrimonio neto, aplicado de forma coordinada entre países, con tipos bajos para los patrimonios medianos y crecientes para los muy grandes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su condición previa es la que de verdad importa y suele olvidarse al citarlo: para poder aplicarlo hace falta antes saber quién tiene qué, es decir, un registro internacional de activos financieros y un intercambio automático de información entre administraciones fiscales. Piketty insiste en que la transparencia es el objetivo principal y el impuesto, casi una consecuencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo presenta sin ninguna ilusión. Lo llama una utopía útil: algo que no se va a aplicar en las condiciones actuales y que sirve para fijar una referencia con la que juzgar medidas más modestas. Un impuesto así en un solo país, admite, provoca sobre todo salida de capitales y sirve de poco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Frente a las alternativas habituales explica por qué prefiere esta. El proteccionismo empobrece a todos; el control de capitales es difícil y tiene efectos secundarios grandes; y subir solo el impuesto sobre la renta no toca los patrimonios ya formados, que son precisamente el problema que describe el libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes que cualquier impuesto está saber quién tiene qué, y hoy no se sabe: esa es la propuesta de verdad del libro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Le han discutido tres cosas y una de ellas es seria" },
+      {
+        b: "texto",
+        texto:
+          "El libro recibió una avalancha de críticas y conviene separarlas, porque no todas valen lo mismo. La primera y más ruidosa llegó en 2014 desde un diario económico británico, que denunció errores en la construcción de las series de riqueza del Reino Unido. Piketty respondió punto por punto, apareció algún error menor y la mayoría de los economistas concluyó que las conclusiones generales no se veían afectadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es teórica y más fina. Para que el rendimiento superior del capital produzca una divergencia indefinida hace falta que capital y trabajo sean sustituibles entre sí por encima de cierto umbral, y la mayoría de las estimaciones empíricas sitúan esa sustituibilidad por debajo de lo que el argumento necesita. Si eso es así, el mecanismo no produce una espiral sin fin sino un nuevo equilibrio más desigual, que es grave y es otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es la que más cambia el diagnóstico, y la formuló en 2015 un economista joven que descompuso el aumento del patrimonio por tipos de activo. Su resultado fue que casi todo el crecimiento del capital respecto a la renta se explica por la vivienda y, dentro de ella, por el precio del suelo en unas cuantas ciudades. Si el problema es sobre todo inmobiliario, la respuesta no es un impuesto global sobre el patrimonio: es construir vivienda y cambiar las normas urbanísticas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además dos ausencias grandes en el libro. Apenas trata la desigualdad entre países, ni la salida de la pobreza de cientos de millones de personas en Asia durante el mismo periodo que estudia, que es el mayor cambio distributivo del mundo en esas décadas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si casi todo el aumento del patrimonio es vivienda y suelo urbano, entonces la discusión no era fiscal: era de urbanismo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El capital en el siglo XXI reúne dos siglos de datos fiscales de veinte países para sostener tres cosas. Que el rendimiento del capital ha superado históricamente al crecimiento de la economía, lo que concentra la riqueza sin que nadie tenga que hacer nada mal. Que las décadas igualitarias del siglo XX fueron consecuencia de dos guerras, una depresión y una fiscalidad muy alta, y no de una tendencia natural. Y que el reparto depende de decisiones políticas y no de leyes económicas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta y va a durar más que el libro es el material. Las series históricas que reunió su equipo están publicadas en una base de datos abierta y actualizada, y cualquiera puede consultarlas y discutirlas, incluidos quienes discuten sus conclusiones.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El pasado se come al futuro cuando lo ya acumulado crece más deprisa que lo que se produce: esa frase es todo el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es largo, repetitivo y con demasiados gráficos comentados uno por uno; buena parte de sus lectores no pasó del primer tercio, y hay capítulos enteros que podrían ser un cuadro. Su modelo teórico depende de un supuesto sobre la sustituibilidad entre capital y trabajo que la evidencia disponible no respalda del todo. Y su hallazgo empírico principal, el aumento del patrimonio, resulta explicarse en gran medida por la vivienda, cosa que apunta a un problema distinto del que él propone resolver.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después. Piketty ha ido corrigiendo y ampliando en dos libros posteriores, donde da más peso a las instituciones y a las ideologías que legitiman cada reparto, y menos al mecanismo aritmético que hizo célebre a este. Y el efecto público fue considerable: desde 2014, la desigualdad de patrimonio dejó de ser un asunto marginal en la discusión económica, y buena parte de los organismos internacionales que antes no la medían empezaron a publicar datos sobre ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene por último una advertencia sobre cómo se ha usado. La fórmula que lo hizo famoso se cita continuamente como si fuera una ley física, y en el propio libro es una regularidad histórica con excepciones, medida con datos que su autor discute a lo largo de cien páginas. Tomarla como una ley es hacer con este libro exactamente lo que él le reprocha a la teoría económica anterior.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "capital-siglo-xxi": CAPITAL_SIGLO_XXI,
   "origenes-totalitarismo": ORIGENES_TOTALITARISMO,
   "guerra-y-paz": GUERRA_Y_PAZ,
   "guerra-arte": GUERRA_ARTE,

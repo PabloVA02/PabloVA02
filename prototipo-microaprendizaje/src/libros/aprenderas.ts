@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "capital-siglo-xxi":
+    "Quince años de archivo fiscal en veinte países para sostener una idea desagradable: que la concentración de la riqueza es el comportamiento normal del sistema, y que las décadas igualitarias del siglo XX fueron la excepción.",
+
   "origenes-totalitarismo":
     "Arendt lo escribió entre 1945 y 1949, con Stalin vivo y los archivos cerrados. Sostiene que en el siglo XX apareció una forma de gobierno sin precedentes, y reconstruye los elementos que llevaban un siglo sueltos por Europa.",
 

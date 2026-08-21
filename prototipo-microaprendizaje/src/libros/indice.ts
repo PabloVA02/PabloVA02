@@ -139,7 +139,6 @@ const CARGADORES: Record<string, Cargador> = {
   "emperador-males": () => import("./ciencia").then((m) => m.EMPERADOR_MALES),
   "sexta-extincion": () => import("./ciencia").then((m) => m.SEXTA_EXTINCION),
   "pulgar-panda": () => import("./ciencia").then((m) => m.PULGAR_PANDA),
-  "capital-siglo-xxi": () => import("./economia").then((m) => m.CAPITAL_XXI),
   "por-que-fracasan": () => import("./economia").then((m) => m.POR_QUE_FRACASAN),
   "riqueza-naciones": () => import("./economia").then((m) => m.RIQUEZA_NACIONES),
   "repensar-pobreza": () => import("./economia").then((m) => m.REPENSAR_POBREZA),
