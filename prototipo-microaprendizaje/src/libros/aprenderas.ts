@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "doble-helice":
+    "Dos hombres que no eran químicos ni cristalógrafos resolvieron la estructura del ADN sin hacer un solo experimento propio. Watson lo contó quince años después como una novela de intriga, y su primera editorial se retiró por las protestas.",
+
   "siete-lecciones-fisica":
     "Siete artículos escritos para el suplemento dominical de un diario italiano, sin una sola ecuación y en ochenta páginas. Vendieron más de un millón de ejemplares y encabezaron las listas de ventas por delante de las novelas del momento.",
 

@@ -520,22 +520,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "doble-helice",
-    titulo: "La doble hélice",
-    autor: "James D. Watson",
-    ano: 1968,
-    gancho: "Dos hombres que no hicieron ni un solo experimento resolvieron la estructura del ADN con los datos de una mujer que nadie consultó.",
-    porQue: "Es el relato más honesto y más incómodo de cómo funciona la ciencia de verdad: con prisa, envidia y datos ajenos. Y es el documento que abrió el caso de Rosalind Franklin, aunque su autor no pretendiera abrirlo.",
-    minutos: 23.3,
-    capitulos: [
-      { titulo: "Nápoles, primavera de 1951", minutos: 4.7 },
-      { titulo: "El laboratorio Cavendish", minutos: 4.7 },
-      { titulo: "Un modelo sin agua", minutos: 4.5 },
-      { titulo: "La fotografía 51", minutos: 4.7 },
-      { titulo: "Nature, 25 de abril de 1953", minutos: 4.7 },
-    ],
-  },
-  {
     id: "revoluciones-cientificas",
     titulo: "La estructura de las revoluciones científicas",
     autor: "Thomas S. Kuhn",

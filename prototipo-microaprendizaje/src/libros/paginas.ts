@@ -30351,7 +30351,263 @@ const SIETE_LECCIONES_FISICA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La doble hélice, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO (memorias): títulos cortos de imagen, afirmación en
+   la primera frase. TERCERA persona en la prosa.
+
+   Las páginas 4 y 7 son las que ningún resumen antiguo tenía: de dónde
+   salieron los datos que sostienen el modelo y quién los había tomado.
+   -------------------------------------------------------------------------- */
+
+const DOBLE_HELICE: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "«Nunca vi a Francis Crick con un talante modesto»" },
+      {
+        b: "texto",
+        texto:
+          "Ese es el primer renglón del libro y avisa de lo que viene. James Watson publicó en 1968 el relato en primera persona de cómo se descubrió la estructura del ADN en Cambridge quince años antes, y lo escribió como una novela de intriga con personajes, envidias, meteduras de pata y prisa por llegar antes que otros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro estuvo a punto de no publicarse. La editorial de la Universidad de Harvard lo tenía contratado y se retiró después de que Crick y Maurice Wilkins protestaran por escrito y amenazaran con acciones legales por la manera en que aparecían retratados. Lo publicó otra editorial. Watson quería titularlo, en inglés, algo así como Jim el honesto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que cuenta es un caso rarísimo en la historia de la ciencia. Dos hombres que no eran químicos, ni cristalógrafos, ni especialistas en ácidos nucleicos, resolvieron en dos años la estructura de la molécula más importante de la biología, sin hacer un solo experimento propio y trabajando con datos que habían tomado otros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que cuenta y lo que no cuenta del todo: cómo trabajaban, por qué su primer modelo fue un ridículo, de dónde salió la imagen que lo decidió todo, cómo se resolvió el último problema con recortes de cartón, qué decía la frase final del artículo que publicaron y qué añadió Watson al final del libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La estructura del ADN la resolvieron dos hombres que no hicieron ningún experimento y que no eran especialistas en nada de aquello.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "No hicieron ni un solo experimento" },
+      {
+        b: "texto",
+        texto:
+          "El método de Watson y Crick no consistía en medir nada. Consistía en construir modelos físicos con piezas metálicas —varillas, chapas y tornillos cortados en el taller del laboratorio— que representaban átomos y enlaces, y probar disposiciones hasta encontrar una que respetara a la vez las reglas de la química y los datos experimentales que otros habían obtenido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La técnica no era suya: la había usado el químico Linus Pauling en California para resolver la estructura de las proteínas, y ese éxito fue lo que convenció a Watson de que podía funcionar con el ADN. Pauling era además el rival: trabajaba en el mismo problema, tenía muchos más medios y era el mejor químico estructural del mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El perfil de los dos protagonistas era poco prometedor. Watson tenía veintitrés años, era zoólogo estadounidense, había llegado a Cambridge con una beca para trabajar en otra cosa y sabía poca química. Crick tenía treinta y cinco, llevaba años sin terminar su doctorado, hablaba sin parar y era conocido en el laboratorio por opinar en voz alta sobre el trabajo de los demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los datos experimentales que necesitaban se producían a ciento veinte kilómetros de allí, en el King's College de Londres, donde dos investigadores estudiaban el ADN con difracción de rayos X: Maurice Wilkins y Rosalind Franklin, una cristalógrafa que venía de París y era, con diferencia, la persona más competente de las cuatro en aquella técnica.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se puede resolver un problema sin medir nada, si alguien está midiendo y uno tiene acceso a lo que mide.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El primer modelo lo desmontaron en media hora" },
+      {
+        b: "texto",
+        texto:
+          "En 1951, Watson y Crick montaron su primer modelo y convocaron al equipo de Londres para enseñárselo. Era una estructura de tres cadenas con los grupos de fosfato hacia dentro, en el eje, y las bases hacia fuera. Estaban convencidos de haberlo resuelto en unas semanas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Franklin lo desmontó delante de todos en cuestión de minutos, y con un argumento elemental. Los fosfatos llevan carga negativa y se repelen entre sí, así que no pueden ir apretados en el centro; y además su modelo apenas tenía agua, cuando sus propias mediciones mostraban que el ADN absorbe cantidades enormes de agua y por tanto la parte que la atrae debe estar en el exterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ridículo tuvo consecuencias administrativas. El director del laboratorio de Cambridge les prohibió seguir trabajando en aquel asunto, porque el ADN era el problema del equipo de Londres y ellos estaban invadiendo un terreno ajeno con resultados vergonzosos. Watson volvió oficialmente a lo suyo y siguió pensando en lo mismo por su cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese episodio explica la prisa del resto del libro. Cuando en 1952 se supo que Pauling estaba trabajando en la molécula, y cuando a principios de 1953 llegó a Cambridge un borrador suyo con un modelo que resultó ser también de tres cadenas y también equivocado, los dos entendieron que el mejor químico del mundo podía tropezar y que tenían semanas antes de que se diera cuenta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Su primer modelo lo tumbó en minutos alguien que había medido lo que ellos habían supuesto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La fotografía 51" },
+      {
+        b: "texto",
+        texto:
+          "En enero de 1953, Watson fue a Londres y Maurice Wilkins le enseñó una imagen del laboratorio. Era una fotografía de difracción de rayos X del ADN en su forma húmeda, obtenida en mayo del año anterior por Rosalind Franklin y su doctorando Raymond Gosling, catalogada con el número cincuenta y uno. Franklin no sabía que se la estaban enseñando ni había dado permiso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Watson describe el momento con sinceridad: escribe que al verla se le abrió la boca y se le aceleró el pulso. Aquella imagen tiene una cruz de manchas en aspa que es la firma inequívoca de una hélice, y su geometría permite deducir directamente el paso de la espiral y su diámetro. Cualquiera con formación cristalográfica podía sacar de ahí los números básicos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hubo un segundo acceso, más importante todavía y menos conocido. Unas semanas antes, un informe interno del organismo que financiaba el laboratorio de Londres, con los datos de Franklin dentro, había llegado a manos de Crick a través de un colega de Cambridge que estaba en el comité. Ese informe contenía las medidas exactas de la celda del cristal y una característica de simetría de la que se deducía que las dos cadenas tenían que correr en direcciones opuestas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ninguna de esas dos cosas era un robo en sentido legal: el informe no estaba marcado como confidencial y la fotografía se la enseñó un colega de la propia institución. Tampoco es lo que se cuenta en el artículo que publicaron después, donde los datos ajenos aparecen mencionados de una manera que no permite deducir hasta qué punto fueron decisivos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La imagen que decidió el asunto se la enseñó a un competidor un colega de quien la había tomado, sin decírselo a ella.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Recortes de cartón sobre una mesa" },
+      {
+        b: "texto",
+        texto:
+          "Con la hélice confirmada, el diámetro medido y las dos cadenas en direcciones opuestas, quedaba el problema decisivo: cómo encajan las bases en el centro. El ADN tiene cuatro, de dos tamaños distintos, y el interior de la molécula tiene una anchura constante, así que no podían combinarse de cualquier manera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Watson pasó semanas atascado probando emparejamientos de bases iguales con recortes de cartón que había hecho él mismo, y ninguno daba una anchura constante. El atasco se resolvió porque un cristalógrafo estadounidense que compartía despacho con él, Jerry Donohue, miró aquellos cartones y le dijo que estaba usando las formas equivocadas: los libros de texto que él manejaba daban una configuración de esas moléculas que era incorrecta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con las formas buenas, la solución apareció en una mañana. Una base grande con una base pequeña, siempre la misma con la misma: adenina con timina, guanina con citosina. Los dos pares tienen exactamente la misma anchura, así que encajan en cualquier orden dentro de un tubo de diámetro constante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y eso explicaba de paso un resultado que llevaba tres años publicado y que ellos conocían sin entenderlo. El bioquímico Erwin Chargaff había medido que en cualquier ADN la cantidad de adenina iguala a la de timina, y la de guanina a la de citosina. Chargaff había visitado Cambridge un año antes, había hablado con ellos y se marchó con la impresión, que dejó escrita, de haber conocido a dos aficionados que no sabían química.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Llevaba semanas atascado por usar unas formas moleculares equivocadas, y lo desatascó un compañero de despacho mirando sus recortes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una frase de una línea al final del artículo" },
+      {
+        b: "texto",
+        texto:
+          "El artículo que publicaron el 25 de abril de 1953 ocupa poco más de una página y es el texto científico más citado del siglo. Describe la estructura, la explica con un dibujo hecho a mano por la mujer de Crick, y termina con una frase que se ha convertido en el ejemplo clásico de la contención inglesa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dice, más o menos, que no se les escapa que el emparejamiento específico que han postulado sugiere de inmediato un posible mecanismo de copia del material genético. Es decir: que si cada base solo puede emparejarse con una determinada, entonces cada cadena contiene la información necesaria para reconstruir la otra, y ahí está explicada la herencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el motivo de que el hallazgo sea tan importante. La estructura no era solo una forma bonita: la forma explicaba la función. Una molécula que se abre por la mitad y en la que cada mitad sirve de plantilla para fabricar su complementaria es exactamente lo que hace falta para que un ser vivo transmita instrucciones a sus descendientes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Junto a ese artículo, la revista publicó ese mismo día otros dos del laboratorio de Londres: uno de Wilkins y otro de Franklin y Gosling, este último con la fotografía y los datos que sostenían el modelo. La disposición hacía parecer que aquellos dos trabajos confirmaban el de Cambridge, cuando en buena medida era al revés.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La estructura no era solo una forma: una molécula en la que cada mitad puede reconstruir la otra es la herencia explicada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El epílogo que añadió cuando ella ya había muerto" },
+      {
+        b: "texto",
+        texto:
+          "El mayor problema de este libro no son los datos sino un retrato. A lo largo de todo el relato, Watson llama a Rosalind Franklin por un diminutivo que ella detestaba y que nadie usaba delante de ella, la describe como agresiva y difícil, se detiene en que no se arreglaba ni se ponía color, y la presenta como si fuera la ayudante de Wilkins cuando dirigía su propia línea de trabajo con su propio doctorando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese retrato fue durante décadas la imagen que el público tuvo de ella, y es falso en lo esencial: Franklin era la persona con mejor formación técnica de las cuatro, sus mediciones eran las mejores que existían y su análisis del primer modelo de Cambridge fue correcto en cada punto. Después del ADN hizo un trabajo importante sobre la estructura de virus.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Franklin murió en 1958, con treinta y siete años, de un cáncer de ovario probablemente relacionado con los años que pasó trabajando con rayos X. El premio Nobel se concedió cuatro años después a Watson, Crick y Wilkins; no se otorga a título póstumo, de modo que ella no podía recibirlo, y la pregunta de si se le habría reconocido en vida quedó sin respuesta posible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El propio Watson añadió al final del libro un epílogo en el que reconoce que sus impresiones sobre ella, tanto científicas como personales, eran a menudo equivocadas, elogia la calidad de su trabajo y señala lo difícil que era en aquellos años que una mujer fuera tomada en serio en un laboratorio. Es una rectificación real y llega diez años después de su muerte, al final de un libro que la había retratado durante doscientas páginas de la otra manera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un párrafo de rectificación al final no deshace doscientas páginas, sobre todo si la persona rectificada murió diez años antes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La doble hélice cuenta desde dentro cómo se resolvió la estructura del ADN en Cambridge entre 1951 y 1953: dos hombres sin la formación adecuada, sin experimentos propios y con prisa, construyendo modelos de metal con datos tomados por otros, cometiendo un ridículo por el camino y acertando gracias a una fotografía que vieron sin permiso y a un compañero de despacho que les corrigió un error de química.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta y sigue siendo único es la sinceridad sobre cómo funciona esto. En la mayoría de los relatos, la ciencia avanza por razonamiento ordenado; aquí avanza por ambición, competencia, chismorreo de pasillo, corazonadas y suerte, y su autor lo cuenta sin adornarlo, incluidas las partes que le dejan mal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No se nos escapa que el emparejamiento que hemos postulado sugiere un posible mecanismo de copia: una línea al final de una página, y en ella cabe la herencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es un relato de parte escrito quince años después y de memoria, y los otros protagonistas lo discutieron por escrito hasta el punto de que su primera editorial se retiró. Watson cuenta lo de la fotografía y lo del informe, y los cuenta como golpes de suerte y no como lo que fueron; un lector que no conozca el contexto sale creyendo que aquello se resolvió con ingenio y no con acceso a datos ajenos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo que hoy pesa sobre el conjunto. El defecto central del libro es el juicio de su autor sobre una colega, y ese mismo autor sostuvo décadas después, en 2007 y en 2019, afirmaciones públicas sobre diferencias de inteligencia entre grupos humanos que no tienen ningún respaldo científico y que le costaron la retirada de todos sus cargos honoríficos en la institución que había dirigido. El libro sigue siendo el mejor relato existente de cómo se hace un descubrimiento, y conviene leerlo sabiendo quién lo escribe y a quién dejó fuera.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "doble-helice": DOBLE_HELICE,
   "siete-lecciones-fisica": SIETE_LECCIONES_FISICA,
   "vida-arboles": VIDA_ARBOLES,
   "mundo-demonios": MUNDO_DEMONIOS,

@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "doble-helice": [
+    "cómo se puede resolver algo así sin medir nada",
+    "por qué su primer modelo fue un ridículo público",
+    "de dónde salió la fotografía que lo decidió todo",
+    "qué error de química les tenía atascados semanas",
+    "qué retrato hizo el libro de Rosalind Franklin",
+  ],
+
   "siete-lecciones-fisica": [
     "por qué el espacio no es un escenario donde ocurren las cosas",
     "qué tres rarezas trae la mecánica cuántica",
