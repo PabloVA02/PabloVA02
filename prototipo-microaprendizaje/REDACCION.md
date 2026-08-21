@@ -476,6 +476,43 @@ pasado. Los ciento ocho pretendientes. Las dos arrobas de pasas que costó la
 traducción del Quijote. Si un resumen no tiene tres o cuatro cosas de esas, no
 se ha leído el libro: se ha leído su tema.
 
+### La prueba de la cifra y el nombre
+
+Es la comprobación más tonta que existe y la única que se puede hacer sin
+pensar. **Busca en el resumen entero un número y un nombre propio. Si no hay,
+no está escrito.**
+
+Sale de la peor captura de las diecisiete: ocho páginas sobre las ciento doce
+técnicas de meditación tántrica en las que la única cifra de todo el texto es
+ese ciento doce. Ni el siglo en que se escribió el original —que lo tiene—, ni
+la lengua, ni el nombre de quien lo comenta, ni un lugar, ni una escuela, ni
+una fecha. Las técnicas aparecen flotando, como si nadie las hubiera escrito
+nunca en ningún sitio.
+
+Es el grado máximo del fallo del título tapado. Ahí el problema era que el
+resumen podía ser el de otros cinco libros; aquí no hay ningún libro dentro.
+Y la prosa lo tapa con adjetivos: «un torbellino de obligaciones diarias», «un
+tesoro de antiguas técnicas», «su universalidad puede sorprenderte».
+
+La caja del rayo de esa misma página es el otro extremo del apartado 2 bis:
+«la sabiduría fluye a través de las generaciones, nutriéndolas». No es una
+idea, es un sonido. En una cena nadie levanta la cabeza.
+
+**Y esto vale para las nueve categorías**, no solo para los libros
+espirituales. Un resumen de filosofía sin una fecha, uno de arte sin un cuadro
+con nombre y uno de psicología sin un experimento y su año tienen exactamente
+el mismo problema, aunque se disimule mejor.
+
+Es además el único fallo de redacción de todos los de este documento que una
+máquina puede detectar sin equivocarse, así que no se comprueba a mano:
+
+    node scripts/concreto.mjs
+
+Ojo con hacerlo a ojo con una expresión regular: la primera palabra de cada
+frase va en mayúscula, y buscar mayúsculas marca como vacío cualquier resumen
+que empiece un párrafo con el apellido del autor. El script lo resuelve
+descartando las palabras que aparecen en minúscula en algún otro sitio.
+
 ### El «nosotros» de autoayuda
 
 Ese mismo resumen de *El coraje de no gustar* está escrito entero en primera del
@@ -759,6 +796,8 @@ frase, se continúa la del rótulo —aprenderás… esto—.
 ## 7. Antes de dar un libro por terminado
 
 - [ ] **La prueba del título tapado**: ¿podría este resumen ser el de otro libro?
+- [ ] **La prueba de la cifra y el nombre**: ¿hay en el resumen entero al menos
+      un número y un nombre propio? Si no, no está escrito.
 - [ ] ¿Cada titular afirma algo que se pueda discutir?
 - [ ] ¿Hay alguna página que hable del libro en vez de su contenido?
 - [ ] ¿Cada página tiene su caja del rayo, y se sostiene sola?

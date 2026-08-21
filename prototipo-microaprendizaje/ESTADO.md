@@ -124,6 +124,7 @@ así el 20 de agosto, y además mientras conviven la estantería pinta la ficha
 vieja. El procedimiento entero está en `REDACCION.md`.
 
     node scripts/medir-paginas.mjs    palabras y minutos de cada resumen
+    node scripts/concreto.mjs         la prueba de la cifra y el nombre
     node scripts/revisa-fichas.mjs    a qué libro le falta una pieza de ficha
     node scripts/mete-libro.mjs       mete un borrador JSON en paginas.ts
     node scripts/ficha-libro.mjs      escribe las tres piezas de la ficha
