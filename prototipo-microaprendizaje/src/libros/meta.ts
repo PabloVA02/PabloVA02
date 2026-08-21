@@ -1272,22 +1272,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "ana-karenina",
-    titulo: "Ana Karenina",
-    autor: "León Tolstói",
-    ano: 1877,
-    gancho: "Todo el mundo cree que va de una mujer que se enamora y acaba bajo un tren. La mitad del libro va de un terrateniente que siega heno y se pregunta para qué está vivo.",
-    porQue: "Es la novela con la que se mide a todas las demás, y casi nadie la ha leído entera. Saber qué contiene de verdad cambia lo que se puede decir de ella, y de paso enseña a leer cualquier novela larga.",
-    minutos: 25.1,
-    capitulos: [
-      { titulo: "Una estación de tren en Moscú", minutos: 4.9 },
-      { titulo: "La frase que todos citan mal", minutos: 4.9 },
-      { titulo: "Ana no es una víctima", minutos: 5.1 },
-      { titulo: "El otro protagonista", minutos: 5.3 },
-      { titulo: "La parte octava y la estación de Astápovo", minutos: 4.9 },
-    ],
-  },
-  {
     id: "guerra-y-paz",
     titulo: "Guerra y paz",
     autor: "León Tolstói",

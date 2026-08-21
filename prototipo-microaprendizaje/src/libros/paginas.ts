@@ -20338,7 +20338,235 @@ const SISIFO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Ana Karenina, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO: títulos cortos de imagen, afirmación en la primera
+   frase, caja del rayo en segunda persona.
+
+   Lo que casi nadie cuenta: la mujer real que se tiró al tren en 1872, la
+   yegua Frou-Frou como espejo, la ley rusa de custodia, y que la novela
+   sigue ochenta páginas después del suicidio, con una octava parte que su
+   editor se negó a publicar.
+   -------------------------------------------------------------------------- */
+
+const ANA_KARENINA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una mujer real bajo un tren" },
+      {
+        b: "texto",
+        texto:
+          "En enero de 1872, a pocos kilómetros de la finca de Tolstói, una mujer llamada Anna Pirogova se arrojó bajo un tren de mercancías en la estación de Yásenki. Era el ama de llaves y amante de un terrateniente vecino que iba a casarse con otra. Tolstói fue a la estación y estuvo presente en la autopsia. Empezó a escribir esta novela al año siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro se publicó por entregas entre 1875 y 1877 en una revista de Moscú, y con esa forma se lee mejor: mil páginas, ocho partes, docenas de personajes y dos historias que avanzan en paralelo durante años de calendario interno. Tolstói la reescribió sin parar y llegó a odiarla mientras la escribía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Empieza con la frase más citada de la literatura rusa: todas las familias felices se parecen unas a otras, cada familia infeliz lo es a su manera. Es una afirmación discutible y la novela se pasa mil páginas discutiéndola, porque acaba enseñando lo contrario: que las desgracias domésticas se parecen bastante entre sí y lo que cambia es quién puede permitirse cuál.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren cómo funciona: por qué son dos novelas dentro de una, qué perdía exactamente una mujer rusa al dejar a su marido, por qué el marido engañado no es el villano, qué anuncia la escena de las carreras de caballos, cómo está escrita la caída de Anna y por qué el libro no termina en la estación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cada desgracia doméstica te parece única mientras la vives, y esa es la razón exacta por la que nadie aprende de la del vecino.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos novelas dentro de un solo libro" },
+      {
+        b: "texto",
+        texto:
+          "Ana Karenina cuenta dos historias que apenas se tocan, y esa arquitectura es su argumento. Por un lado, Anna y el conde Vronski: la ciudad, la pasión, los salones, la caída. Por otro, Konstantín Levin y Kitty: el campo, la torpeza, el matrimonio y la pregunta de para qué sirve estar vivo. Los dos protagonistas se ven cara a cara una sola vez en toda la novela, casi al final.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Levin es Tolstói y no lo disimula: el apellido viene de su propio nombre, Liev. Dos escenas lo confirman. Levin se declara a Kitty escribiendo con tiza en una mesa las iniciales de una frase larga y ella la adivina entera, que es exactamente como Tolstói se declaró a Sofía Behrs. Y antes de casarse le entrega sus diarios de juventud con todo lo que ha hecho, que es también lo que hizo él, y que su mujer no le perdonó nunca del todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El contraste no está montado para dar una lección fácil. Levin, que hace todo lo correcto —se casa, tiene un hijo, trabaja su tierra—, pasa la última parte del libro escondiendo una cuerda y una escopeta para no matarse. El adulterio de Anna la destruye y la vida honrada de Levin no le da la paz. Tolstói pone las dos vidas al lado y no reparte premios.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hacerlo todo bien no protege de nada: en este libro, quien más cerca está de matarse es el que no ha roto ninguna regla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que perdía ella y lo que él no perdía" },
+      {
+        b: "texto",
+        texto:
+          "La tragedia de Anna no es sentimental, es jurídica, y el libro se ocupa de dejarlo clarísimo. En la Rusia de 1870, el divorcio solo lo concedía el tribunal eclesiástico y en la práctica exigía que uno de los dos se declarase culpable de adulterio. Quien lo hacía perdía el derecho a volver a casarse, y la custodia de los hijos quedaba en manos del marido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso Anna se queda atrapada entre dos imposibles. Si acepta el divorcio en los términos que Karenin llega a ofrecerle, pierde a su hijo Seriozha. Si no lo acepta, su hija con Vronski es legalmente hija de Karenin y ella no puede casarse. Vronski, mientras tanto, no pierde nada: sigue yendo a sus clubes, conserva sus amistades y sus ascensos, y solo se resiente su carrera militar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena que lo resume es la del cumpleaños. Anna entra de madrugada en su antigua casa, soborna al portero y sube a ver a su hijo dormido. Le trae juguetes que no sabe elegir porque no sabe qué edad tiene ya. Cuando el niño despierta y la abraza, aparece Karenin en la puerta y ella tiene que irse. Es la última vez que lo ve. Tolstói añade además el detalle económico. Anna tiene dinero propio y aun así depende de la firma de su marido para cualquier trámite, incluido el pasaporte con el que sale del país.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de juzgar la decisión de alguien, conviene mirar qué perdía cada uno de los dos por tomarla: casi nunca es la misma cantidad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El marido no era el monstruo" },
+      {
+        b: "texto",
+        texto:
+          "Alexéi Karenin es uno de los grandes personajes de la novela precisamente porque Tolstói se niega a convertirlo en un obstáculo. Es un alto funcionario meticuloso, veinte años mayor que su mujer, incapaz de decir nada que no haya pensado antes, y con unas orejas grandes que Anna empieza a mirar con asco el día que deja de quererlo. Ese detalle, las orejas, es todo lo que Tolstói necesita para contar cómo se apaga un matrimonio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y tiene su momento de grandeza, que es el que casi nadie recuerda. Cuando Anna está a punto de morir tras dar a luz, Karenin acude, la perdona de verdad, le da la mano a Vronski y se descubre a sí mismo capaz de una bondad que no sabía que tuviera. Durante unas páginas es el mejor de los tres. Vronski, humillado por ese perdón, intenta pegarse un tiro y falla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después Anna se recupera y Karenin no puede sostener aquello. Vuelve a su rigidez, se deja llevar por una beata que le maneja y acaba negándole el divorcio. Tolstói lo escribe sin ninguna piedad y sin ninguna caricatura: el hombre no es malo, es alguien que tuvo una hora de generosidad y no supo estirarla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El mayor daño de tu vida te lo hará alguien que tiene sus razones, que se cree en lo justo y que además una vez fue generoso contigo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La yegua Frou-Frou" },
+      {
+        b: "texto",
+        texto:
+          "La escena que anuncia el final está a un tercio del libro y es una carrera de caballos. Vronski monta a Frou-Frou, una yegua inglesa espléndida que él adora y que le ha costado una fortuna. Va ganando. En el último obstáculo hace un movimiento torpe, se sienta mal sobre la silla y le rompe el espinazo al animal en pleno salto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tolstói escribe la escena con detalle: la yegua caída, incapaz de levantarse, mirándolo; Vronski dándole patadas al suelo de rabia y después de pie, con la cara descompuesta, mientras la rematan. Es, dice el texto, el único incidente verdaderamente amargo de su vida hasta entonces. Y en la tribuna está Anna, que al verlo caer se descompone delante de todo el mundo y así confiesa el adulterio sin decir una palabra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El paralelismo es deliberado y Tolstói no lo subraya nunca. Un hombre que quiere sinceramente a una criatura hermosa, que la lleva más allá de lo que puede soportar por un error propio y que después se queda mirando el destrozo sin poder arreglarlo. Todo lo que va a pasar en las setecientas páginas siguientes está en ese salto. Y hay un detalle que redondea el espejo: la yegua no se rompe por un obstáculo difícil, sino porque él se sienta un instante antes de tiempo. El desastre no viene de la altura del salto, viene de una impaciencia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien te enseña cómo trata lo que quiere y no puede controlar, ya te ha contado lo que hará contigo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un descenso escrito como un informe" },
+      {
+        b: "texto",
+        texto:
+          "La última parte de la historia de Anna es de una precisión clínica que en 1877 no tenía precedentes. No hay ninguna catástrofe externa: Vronski no la abandona, no hay ruina, no hay enfermedad. Lo que hay es un deterioro descrito paso a paso, y cada paso es verosímil por separado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Empieza por el aislamiento. Anna no puede ir a los sitios donde iba, así que Vronski sale solo y ella se queda en casa calculando a qué hora volverá. Sigue por el insomnio, y de ahí a la morfina, que toma cada noche en dosis crecientes. Después llegan los celos, que se alimentan de no tener nada más que hacer, y las peleas por asuntos mínimos que terminan siempre en la misma pregunta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El día final está contado desde dentro de su cabeza, en un monólogo que se adelanta cincuenta años a la novela del siglo XX. Anna recorre Moscú en coche de caballos mirando a la gente de la calle y va traduciendo todo lo que ve a su propia amargura: dos amigas que ríen, un tendero que se santigua, un niño que vende helados. Cuando llega a la estación, la decisión ya está tomada desde hace rato sin que ella la haya formulado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie se hunde de golpe: primero deja de dormir, después deja de salir, y al final ya no hace falta que ocurra nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ochenta páginas después del tren" },
+      {
+        b: "texto",
+        texto:
+          "La novela no termina donde la memoria de todo el mundo la coloca. Después del suicidio quedan aún ochenta páginas y una parte entera, la octava, en la que Anna no aparece: es el desenlace de Levin, que es el personaje que a Tolstói le importaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa octava parte estuvo a punto de no publicarse. Contenía un ataque frontal a los voluntarios rusos que marchaban a luchar a Serbia contra los turcos, una causa que en 1877 entusiasmaba a la prensa y a la sociedad de Moscú. El editor de la revista, Katkov, se negó a imprimirla y publicó en su lugar una nota resumiendo lo que pasaba. Tolstói la sacó por su cuenta en un folleto aparte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el final de Levin es lo contrario de una revelación. Está escondiendo cuerdas y escopetas para no matarse cuando un campesino le comenta de pasada que hay hombres que viven para su barriga y otros que viven para su alma. Eso es todo. Levin no cambia de vida, no se hace mejor persona ni deja de enfadarse con su cochero; solo deja de creer que la pregunta no tiene respuesta. La novela acaba con él pensándolo mientras mira el cielo. Cierra así el libro con la palabra bien, después de mil páginas en las que casi nada ha ido bien.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El final de una historia no está donde tu memoria lo coloca: está donde su autor decidió parar, y esa decisión también es el libro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Ana Karenina pone al lado dos vidas —una que rompe las reglas y otra que las cumple— y se niega a repartir premios entre ellas. Demuestra que la caída de Anna no la produce su pasión, sino una ley de custodia, un tribunal eclesiástico y un salón que castiga a la mujer y perdona al hombre por lo mismo. Y termina, sin transición, con un propietario rural que decide que se puede vivir sin haber resuelto nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la manera de mirar. Tolstói entra en la cabeza de todos: del marido humillado, del amante, de la cuñada agotada, del funcionario ambicioso, incluso del perro de caza de Levin. Nadie es un obstáculo de la trama de otro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro sobre el adulterio en el que ningún personaje es el culpable, y todos lo son un poco, es lo que ningún resumen de la trama puede transmitir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La mitad de Levin incluye discusiones larguísimas sobre reforma agraria, rendimiento de las cosechas y política rural rusa que hoy pesan mucho, y hay lectores que abandonan ahí. El epígrafe bíblico —mía es la venganza, yo daré el pago— ha empujado durante un siglo la lectura de que Anna recibe un castigo divino, cuando la novela no lo sostiene: lo que dice esa frase es que juzgarla no le corresponde a nadie de dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay dos cosas más que conviene saber. La primera, que Tolstói renegó de este libro: después de su crisis religiosa de 1880 llamó basura a sus dos grandes novelas y dedicó el resto de su vida a otra cosa. La segunda, que escribió mil páginas sobre la libertad de una mujer sin conceder ninguna a la suya; Sofía Tolstáia copió a mano sus manuscritos, llevó la finca y crió trece hijos, y su propio diario cuenta esa historia desde el otro lado.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "ana-karenina": ANA_KARENINA,
   sisifo: SISIFO,
   extranjero: EXTRANJERO,
   "casi-todo": CASI_TODO,

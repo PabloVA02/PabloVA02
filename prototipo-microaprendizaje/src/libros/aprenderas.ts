@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "ana-karenina":
+    "En 1872, cerca de la finca de Tolstói, una mujer se arrojó bajo un tren y él asistió a la autopsia. De ahí salió una novela que pone al lado dos vidas, la que rompe las reglas y la que las cumple, sin repartir premios.",
+
   sisifo:
     "El ensayo empieza diciendo que solo hay un problema filosófico serio, el suicidio. Camus lo escribió con veintiocho años, en la Francia ocupada, para averiguar si se puede seguir viviendo sin apoyarse en ninguna esperanza.",
 

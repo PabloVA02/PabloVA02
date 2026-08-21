@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "ana-karenina": [
+    "por qué son dos novelas dentro de un mismo libro",
+    "qué perdía una mujer rusa al dejar a su marido",
+    "por qué el marido engañado no es el villano",
+    "qué anuncia la escena de las carreras de caballos",
+    "por qué el libro sigue ochenta páginas tras el suicidio",
+  ],
+
   sisifo: [
     "dónde está exactamente lo absurdo, según su definición",
     "a qué llama Camus el suicidio filosófico",
