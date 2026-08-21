@@ -17985,7 +17985,7 @@ const SI_ESTO_HOMBRE: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "De ahí sale otra observación que Levi repite: en el campo no sirve la lógica de fuera. Los recién llegados intentan entender, calcular, prever, y esa es exactamente la actitud que los mata antes. Los que duran son los que aprenden deprisa que las cosas no tienen explicación y dejan de buscarla, y esa renuncia es en sí misma una parte de la demolición.",
+          "De ahí sale otra observación que Levi repite: en el campo no sirve la lógica de fuera. Los recién llegados intentan entender, calcular, prever, y esa es exactamente la actitud que los mata antes. Los que duran son los que aprenden deprisa que las cosas no tienen explicación y dejan de buscarla, y esa renuncia es en sí misma una parte de la demolición. A la arbitrariedad se le suma un idioma. Las órdenes se dan en un alemán de campo, deformado y lleno de palabras que no aparecen en ningún diccionario, y quien no las entiende a la primera cobra. Levi observa que los italianos, los griegos y los húngaros morían en proporciones mucho mayores que los polacos por una razón que suena administrativa y era mortal: no entendían lo que les gritaban. Aprender aquel alemán rudimentario en unas semanas fue, sin metáfora ninguna, una condición para seguir vivo.",
       },
       {
         b: "idea",
@@ -18010,7 +18010,7 @@ const SI_ESTO_HOMBRE: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Los zapatos son otra lección entera. Se reparten al azar, sin tallas, y un zapato malo produce llagas; las llagas producen infecciones en los pies; los pies hinchados impiden trabajar; y quien no trabaja va a la selección siguiente. Levi lo explica como una cadena causal fría: en Auschwitz, dice, se muere por un zapato que no es tuyo.",
+          "Los zapatos son otra lección entera. Se reparten al azar, sin tallas, y un zapato malo produce llagas; las llagas producen infecciones en los pies; los pies hinchados impiden trabajar; y quien no trabaja va a la selección siguiente. Levi lo explica como una cadena causal fría: en Auschwitz, dice, se muere por un zapato que no es tuyo. En ese mercado hasta el idioma tiene su palabra propia. Organizar, en la jerga del campo, no significa poner orden en nada: significa conseguir algo por medios que fuera se llamarían robo y allí dentro eran administración. Se organizaba una escoba, un trapo, un cordón, media ración. Y quien no aprendía a organizar se moría de hambre con su ración legal en la mano, porque la ración oficial estaba calculada para no bastar. El campo no mataba de golpe: descontaba unas calorías cada día y esperaba.",
       },
       {
         b: "idea",
