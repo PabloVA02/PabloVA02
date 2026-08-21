@@ -248,22 +248,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "musica-primos",
-    titulo: "La música de los números primos",
-    autor: "Marcus du Sautoy",
-    ano: 2003,
-    gancho: "En 1859 un alemán tímido escribió ocho páginas sobre los números primos. Ciento sesenta y seis años después, nadie ha conseguido demostrar la frase que dejó a medias.",
-    porQue: "Porque es la mejor puerta de entrada al problema abierto más famoso de las matemáticas, y porque exagera en el único capítulo que todo el mundo cita: el de la criptografía.",
-    minutos: 22.4,
-    capitulos: [
-      { titulo: "La conjetura de un chico de quince años", minutos: 4.5 },
-      { titulo: "Las ocho páginas de Riemann", minutos: 4.6 },
-      { titulo: "Todos los ceros en la misma recta", minutos: 4.4 },
-      { titulo: "Los cazadores de ceros", minutos: 4.5 },
-      { titulo: "El millón de dólares sigue en el banco", minutos: 4.5 },
-    ],
-  },
-  {
     id: "arte-sin-hombres",
     titulo: "Historia del arte sin hombres",
     autor: "Katy Hessel",

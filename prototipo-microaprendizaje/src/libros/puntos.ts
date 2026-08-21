@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "musica-primos": [
+    "por qué los primos son los átomos de la aritmética",
+    "qué dice exactamente la hipótesis de Riemann",
+    "por qué diez billones de comprobaciones no demuestran nada",
+    "la coincidencia con los niveles de energía de un núcleo",
+    "cómo un asunto inútil acabó protegiendo las tarjetas de crédito",
+  ],
+
   "universo-mano": [
     "por qué mirar el cielo es mirar hacia atrás en el tiempo",
     "qué se sabe del noventa y cinco por ciento que no se ve",

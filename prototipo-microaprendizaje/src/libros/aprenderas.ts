@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "musica-primos":
+    "Entre 1 y 100 hay veinticinco números primos; en los cien que siguen a un millón, seis. Nadie sabe predecir el siguiente y todo el mundo sabe cuántos habrá: esa contradicción es la hipótesis de Riemann.",
+
   "universo-mano":
     "Trece mil ochocientos millones de años de edad y cuarenta y seis mil millones de años luz de radio: las dos cifras no cuadran, y ahí empieza el libro. Un recorrido por la física moderna sin una sola ecuación.",
 

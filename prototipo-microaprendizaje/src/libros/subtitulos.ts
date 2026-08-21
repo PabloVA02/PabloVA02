@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "musica-primos": "El enigma de un problema matemático abierto",
   "universo-mano": "Un viaje por el espacio, el tiempo y más allá",
   "ultimos-dinosaurios": "El asteroide, la extinción y el principio de nuestro mundo",
   "pulgar-panda": "Reflexiones sobre historia natural y evolución",

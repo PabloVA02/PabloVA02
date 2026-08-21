@@ -44324,7 +44324,301 @@ const UNIVERSO_MANO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La música de los números primos, en ocho páginas.
+
+   Breve. Ciencia: titular de afirmación entera y tercera persona.
+
+   El riesgo de este libro es el contrario del habitual. Du Sautoy cuenta la
+   hipótesis de Riemann a través de retratos de matemáticos, y resumirlo por
+   los retratos sale facilísimo y deja al lector sin saber qué dice la
+   hipótesis. Así que la página cuarta es la que sostiene el resumen entero:
+   qué es la función zeta, qué es un cero y por qué su parte real manda.
+   Si esa página no se entiende, no hay resumen.
+
+   La página quinta —Skewes y Littlewood— es la que justifica que se siga
+   buscando una demostración después de comprobar diez billones de casos.
+   Es el mejor argumento del libro y casi nadie lo cuenta.
+   -------------------------------------------------------------------------- */
+
+const MUSICA_PRIMOS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los primos salen al azar de uno en uno y obedecen una ley exactísima en conjunto",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entre 1 y 100 hay veinticinco números primos. En los cien números que siguen a un millón solo hay seis: 1.000.003, 1.000.033, 1.000.037, 1.000.039, 1.000.081 y 1.000.099. Nadie sabe decir cuál será el siguiente primo sin buscarlo, y sin embargo se puede predecir con enorme precisión cuántos habrá en cualquier tramo, por lejos que esté. Esas dos frases juntas son el enigma entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Marcus du Sautoy, matemático de Oxford, publicó este libro en 2003 para contar el problema abierto más importante que hay: la hipótesis de Riemann. Bernhard Riemann la enunció en 1859, en un artículo de ocho páginas presentado a la Academia de Berlín, y desde entonces nadie la ha demostrado ni la ha refutado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La medida de lo que importa la da su historial. David Hilbert la puso en 1900 en su famosa lista de veintitrés problemas para el siglo que empezaba, con el número ocho. Cien años después, el Instituto Clay eligió siete problemas del milenio y ofreció un millón de dólares por cada uno; la hipótesis de Riemann es el único que estaba en las dos listas. Hilbert decía que si despertara dentro de mil años, lo primero que preguntaría es si ya se había demostrado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: por qué hay infinitos primos y ninguna fórmula que los dé, cómo cambió Gauss la pregunta, qué dice exactamente la hipótesis, por qué comprobarla diez billones de veces no demuestra nada, por qué sus números coinciden con los niveles de energía de un núcleo atómico, y cómo los primos pasaron de ser inútiles a proteger todas las tarjetas de crédito del mundo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El misterio no es que los primos sean impredecibles: es que siendo impredecibles uno a uno, en masa se comportan como si obedecieran a alguien.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los primos son los átomos de la aritmética y no hay fórmula que los fabrique",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un número primo es el que solo se puede dividir por sí mismo y por uno: 2, 3, 5, 7, 11, 13. Su importancia viene de una propiedad que se demuestra y no se supone: todo número entero se descompone en primos multiplicados, y de una sola manera. 60 es 2 por 2 por 3 por 5, y no hay otra combinación. Por eso son los átomos: con ellos se construye el resto de los números y ellos no se construyen con nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Que hay infinitos lo demostró Euclides hacia el año 300 antes de Cristo, en el libro noveno de los «Elementos», y la demostración cabe en tres líneas. Supóngase que fueran finitos y que se pudieran escribir todos en una lista. Multiplíquense todos y súmese uno. El número que sale no es divisible por ninguno de la lista, porque siempre sobra ese uno. O es primo, o tiene un factor primo que no estaba. En cualquier caso, la lista estaba incompleta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa demostración tiene dos mil trescientos años y sigue siendo el modelo de lo que hace un matemático: no comprueba casos, cierra la puerta a todos a la vez. Y no sirve de nada para encontrarlos. Dice que hay infinitos y no dice dónde está ninguno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Porque ese es el problema práctico: no existe fórmula que produzca primos. Los huecos entre ellos no siguen ningún patrón visible. Hay parejas pegadas, separadas solo por un número par —11 y 13, 17 y 19, 1.000.037 y 1.000.039—, y hay desiertos tan largos como se quiera, porque es fácil construir un tramo de mil números seguidos sin ni un primo dentro. Uno a uno, parecen sorteados.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Euclides demostró en tres líneas que los primos no se acaban nunca, y no adelantó ni un paso el problema de saber dónde está el siguiente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Gauss cambió la pregunta: no cuál es el siguiente, sino cuántos hay hasta aquí",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1792, con quince años, Carl Friedrich Gauss recibió un libro de tablas de logaritmos que incluía al final una lista de números primos. Se puso a contar cuántos había en cada tramo de mil y vio algo que nadie había visto: los primos se van espaciando, y lo hacen a un ritmo que sigue al logaritmo. Cerca de un número grande, la proporción de primos es aproximadamente uno de cada tantos como diga su logaritmo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese cambio de pregunta es la mitad del libro. Preguntar cuál es el siguiente primo no tiene respuesta; preguntar cuántos primos hay por debajo de un número, sí. Es la misma diferencia que hay entre predecir una tirada de dados, que es imposible, y predecir cuántos seises saldrán en un millón de tiradas, que es rutina. Los primos, mirados de lejos, se comportan como algo sorteado con reglas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gauss no publicó aquello; lo contó en una carta en 1849. Adrien-Marie Legendre publicó una estimación parecida en 1798. Y la conjetura tardó un siglo en demostrarse: en 1896, Jacques Hadamard y Charles-Jean de la Vallée Poussin lo consiguieron por separado y con el mismo año de diferencia de nada, usando los dos las herramientas que había dejado Riemann. Se llama el teorema de los números primos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso queda una estimación buenísima y un problema nuevo. La fórmula de Gauss no acierta el número exacto de primos: se acerca mucho y falla por un margen. Y ese margen, el error, no es ruido. Tiene estructura. Todo el resto del libro trata de una sola pregunta: de qué tamaño puede llegar a ser ese error.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta que sí tiene respuesta no es dónde está cada primo, sino cuántos hay: mirados de lejos, obedecen.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El error de la cuenta de Gauss es una suma de ondas, y la hipótesis dice que todas suenan igual de fuerte",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1737 Leonhard Euler descubrió un puente inesperado. Cierta suma infinita que solo habla de todos los números enteros —uno, más un medio elevado a algo, más un tercio elevado a algo, y así— resulta ser igual a un producto en el que solo aparecen los primos. Los primos estaban escondidos dentro de una expresión donde nadie los había puesto. A esa expresión se le llama función zeta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Riemann dio en 1859 el paso decisivo: metió en la función zeta números complejos, que son los que tienen dos coordenadas, una parte real y otra imaginaria, y que se pueden dibujar como puntos de un plano en vez de como puntos de una recta. Y se fijó en los puntos donde la función vale cero. Esos puntos, los ceros, no tienen nada de evidente, y resulta que lo controlan todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Riemann demostró es que el error de la cuenta de Gauss se puede escribir exactamente como una suma de ondas, una por cada cero. Cada cero aporta una onda, como cada armónico aporta su sonido a una nota. Sumadas todas, reconstruyen sin fallo la escalera de los primos. De ahí sale el título del libro, y no es una metáfora suelta: es la estructura del resultado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En esa suma, la parte real de cada cero decide el volumen de su onda: cuanto mayor, más ruidosa, y más se descontrola el error. La hipótesis de Riemann dice que todos los ceros tienen la misma parte real, un medio; es decir, que están alineados sobre una recta vertical y que ninguna onda suena más fuerte que las demás. Si es cierta, el error de la cuenta de Gauss es lo más pequeño que puede ser. Si es falsa, hay un cero descolocado y los primos están más desordenados de lo que todo el mundo cree.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La hipótesis no es una curiosidad sobre una función rara: dice que los primos están repartidos con el máximo orden que la aritmética permite.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Diez billones de comprobaciones no demuestran nada, y hay una prueba de ello",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los ceros se pueden calcular. Godfrey Hardy demostró en 1914 que hay infinitos ceros sobre esa recta, lo cual no cierra el problema, porque podría haber además infinitos fuera. Alan Turing construyó en 1939 una máquina de engranajes para calcularlos y llegó a comprobar poco más de mil. En 2004 Xavier Gourdon verificó con ordenadores los diez primeros billones. Todos estaban sobre la recta. Ni uno se salió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cualquier ciencia experimental daría el asunto por zanjado. La teoría de números no, y tiene un motivo excelente para no hacerlo. En 1914 John Littlewood estudió otra afirmación sobre primos que se cumplía en todos los casos calculados y demostró que falla infinitas veces. O sea: los cálculos apuntaban en una dirección y la verdad iba en la contraria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo asombroso fue dónde ocurre la primera vez que falla. En 1933 Stanley Skewes dio una cota, y era un número tan grande que durante décadas se le citó como el número más grande que había aparecido nunca en una demostración seria: un uno seguido de una cantidad de ceros que a su vez no se puede escribir. Ningún ordenador que quepa en el universo llegará jamás ahí. La afirmación parecía cierta en todo el territorio explorable y era falsa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el argumento que separa las matemáticas de las demás disciplinas y el que explica por qué se sigue buscando una demostración. En física, diez billones de confirmaciones son una ley. En teoría de números, diez billones de confirmaciones son diez billones de casos y quedan infinitos. Y hay más de quinientos teoremas publicados que empiezan por «si la hipótesis de Riemann es cierta, entonces…»: si se cae, se caen todos a la vez.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En matemáticas, comprobar no es saber: hay afirmaciones que se cumplen en todos los números que se pueden escribir y son falsas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los ceros de Riemann están repartidos como los niveles de energía de un núcleo atómico",
+      },
+      {
+        b: "texto",
+        texto:
+          "El episodio más citado del libro ocurrió en 1972, a la hora del té, en el Instituto de Estudios Avanzados de Princeton. Hugh Montgomery, un joven especialista en teoría de números, le contó a Freeman Dyson en qué trabajaba: había calculado cómo se distribuyen las distancias entre ceros consecutivos de la función zeta y le había salido una fórmula. La escribió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dyson, que era físico, la reconoció al instante. Era la misma fórmula que describe cómo se separan los niveles de energía de los núcleos atómicos pesados, que los físicos venían estudiando desde los años cincuenta con matrices aleatorias. Dos comunidades que no se hablaban llevaban veinte años calculando el mismo objeto sin saberlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La coincidencia se comprobó después a lo bestia. Andrew Odlyzko calculó en los años ochenta y noventa cientos de millones de ceros, muy arriba en la recta, y comparó su estadística con la de las matrices aleatorias. Encajan hasta un grado que nadie atribuye ya a la casualidad, y sigue sin haber ninguna explicación de por qué encajan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso resucitó una idea vieja, de Hilbert y de George Pólya: que los ceros sean los valores propios de algún operador todavía no encontrado. Tiene una consecuencia bonita, y es lo que la hace atractiva. Cierta clase de operadores tiene, por un teorema, todos sus valores propios reales. Si alguien encontrase un operador de esa clase cuyos valores propios fueran los ceros, la hipótesis de Riemann quedaría demostrada de paso, como efecto secundario.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pista más prometedora sobre los números primos no vino de las matemáticas: vino de la física de los núcleos pesados, y nadie sabe por qué.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los primos pasaron de ser el orgullo de lo inútil a proteger todas las tarjetas del mundo",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1940 Godfrey Hardy publicó «Apología de un matemático» y presumió de que su especialidad, la teoría de números, no tenía ninguna aplicación práctica ni la tendría nunca, y que eso la mantenía limpia de usos militares. Es la profecía errada más famosa de las matemáticas del siglo XX.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1977 Ron Rivest, Adi Shamir y Leonard Adleman publicaron el sistema que lleva sus iniciales, RSA, y que sigue protegiendo hoy buena parte del tráfico de internet. Se apoya en un desequilibrio: multiplicar dos primos grandes es instantáneo, y recuperar los dos factores a partir del producto es carísimo. Un ordenador multiplica dos primos de trescientas cifras en un parpadeo, y nadie sabe deshacerlo en un tiempo razonable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso convirtió a los primos en un asunto comercial. La empresa RSA llegó a ofrecer premios en dinero por factorizar números concretos, y hubo equipos que dedicaron meses de ordenadores a partir uno solo. Buscar primos enormes dejó de ser una excentricidad y pasó a ser infraestructura: hoy cada conexión segura genera unos cuantos por el camino.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conexión con la hipótesis es indirecta y conviene no exagerarla, porque suele contarse mal. Demostrar la hipótesis de Riemann no rompería RSA por sí solo; lo que se sabe es que la seguridad depende de que factorizar siga siendo difícil, y que nadie ha demostrado que lo sea. La amenaza real tiene otro nombre: en 1994 Peter Shor describió un algoritmo que factorizaría deprisa en un ordenador cuántico, si algún día existe uno lo bastante grande.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La rama de las matemáticas que presumía de no servir para nada sostiene hoy el comercio electrónico entero.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta una sola cosa y la cuenta bien: los primos parecen sorteados uno a uno y obedecen una ley en conjunto, esa ley falla por un margen, y todo el margen está codificado en los ceros de una función que Riemann estudió en 1859. La hipótesis dice que esos ceros están alineados, y nadie lo ha demostrado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es el vínculo con la física, que en 2003 era poco conocido fuera del gremio y que du Sautoy cuenta mejor que nadie. La escena del té de 1972 y las estadísticas de Odlyzko dejan la sensación exacta que hay que tener ante este problema: no la de un rompecabezas difícil, sino la de que hay una estructura debajo que aún no se ha visto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en lo mismo que casi todos los libros de matemáticas para el público: sustituye explicación por biografía. Los retratos ocupan cada vez más sitio, y las últimas cien páginas cuentan quién trabaja en qué sin contar en qué trabaja. La geometría no conmutativa de Alain Connes aparece como vía prometedora sin que el lector sepa qué propone. Y la metáfora musical se anuncia mucho y se cobra poco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro reproche es de calendario. El libro se cierra dando a entender que la demostración estaba cerca. En 2004 Louis de Branges anunció una y no fue aceptada. En 2018 Michael Atiyah, medalla Fields, presentó otra a los ochenta y nueve años en un congreso en Heidelberg; tampoco lo fue, y murió unos meses después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde sí se ha movido el terreno es en los primos mismos. En 2004 Ben Green y Terence Tao demostraron que entre ellos hay progresiones aritméticas tan largas como se quiera. Y en 2013 Yitang Zhang, un desconocido de cincuenta y ocho años que había trabajado de contable, demostró que hay infinitas parejas de primos separadas por menos de setenta millones; en un año de trabajo colectivo la cifra bajó a 246.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El mejor sitio para entender por qué un problema sin resolver importa más que muchos resueltos, a condición de saltarse algún retrato.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "musica-primos": MUSICA_PRIMOS,
   "universo-mano": UNIVERSO_MANO,
   "universo-cascara": UNIVERSO_CASCARA,
   "ultimos-dinosaurios": ULTIMOS_DINOSAURIOS,
