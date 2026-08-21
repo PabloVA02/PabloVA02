@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "canones-agosto": [
+    "por qué el plan alemán obligaba a invadir un país neutral",
+    "qué costó la doctrina francesa de atacar siempre",
+    "qué pasó el día en que el káiser quiso parar el despliegue",
+    "cómo dos barcos metieron al imperio otomano en la guerra",
+    "por qué Kennedy repartió este libro en 1962",
+  ],
+
   "ensayos-montaigne": [
     "qué significaba la palabra «ensayo» cuando la inventó",
     "por qué corregía añadiendo y no borraba nunca",

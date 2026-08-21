@@ -24,22 +24,6 @@ export type FichaMeta = {
 
 export const META: FichaMeta[] = [
   {
-    id: "canones-agosto",
-    titulo: "Los cañones de agosto",
-    autor: "Barbara Tuchman",
-    ano: 1962,
-    gancho: "Un solo mes de 1914 contado en quinientas páginas. Kennedy lo leyó y lo repartió entre su gabinete justo antes de la crisis de los misiles de Cuba.",
-    porQue: "Es el mejor libro que existe sobre cómo unos hombres razonables, con buenos planes, meten a un continente entero en una catástrofe en treinta días.",
-    minutos: 21.3,
-    capitulos: [
-      { titulo: "Nueve reyes a caballo", minutos: 4.3 },
-      { titulo: "El plan de un hombre muerto", minutos: 4.2 },
-      { titulo: "Bélgica", minutos: 4.2 },
-      { titulo: "El día más sangriento de Francia", minutos: 4.3 },
-      { titulo: "El despacho de Kennedy", minutos: 4.4 },
-    ],
-  },
-  {
     id: "tatuador",
     titulo: "El tatuador de Auschwitz",
     autor: "Heather Morris",

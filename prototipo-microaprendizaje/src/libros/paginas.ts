@@ -53189,7 +53189,300 @@ const ENSAYOS_MONTAIGNE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Los cañones de agosto, en ocho páginas.
+
+   Breve: una sola tesis sostenida sobre treinta días.
+
+   Historia → afirmación entera y tercera persona. Y OJO CON LA TRAMPA DEL
+   APARTADO 4 BIS: en historia lo fácil es escribir una línea del tiempo
+   —pasó esto y después esto otro— y no afirmar nada en ninguna página. Aquí
+   cada página lleva su afirmación discutible y la cronología va debajo,
+   sirviéndola.
+
+   La regla 5 tiene aquí un caso de manual: la tesis del libro —que nadie
+   eligió aquella guerra y que los planes la ejecutaron solos— es hoy una
+   posición discutida, no un hecho, y el debate empezó el mismo año en que
+   se publicó. Va en la conclusión con nombres y fechas.
+
+   Y el «después» es el mejor del estante: Kennedy lo leyó en 1962 y lo citó
+   durante la crisis de los misiles.
+   -------------------------------------------------------------------------- */
+
+const CANONES_AGOSTO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El mundo que se acabó en 1914 tuvo una fotografía de despedida cuatro años antes",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 20 de mayo de 1910, en Londres, nueve reyes cabalgaron juntos en el cortejo fúnebre de Eduardo VII, seguidos por cinco herederos, cuarenta príncipes imperiales y siete reinas. Barbara Tuchman abre su libro con esa escena y con una observación: los espectadores contuvieron el aliento ante tanto esplendor, y ninguno de ellos sabía que estaba viendo por última vez a la Europa de las monarquías reunida en el mismo sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con esa escena empieza uno de los libros de historia más leídos del siglo XX, publicado en 1962 y ganador del Pulitzer al año siguiente. Su autora no era catedrática ni tenía doctorado: era una periodista formada en archivos, y los historiadores profesionales se lo recordaron con dureza durante años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es concreta y discutible, que es lo que la hace un libro y no una crónica. Sostiene que la Primera Guerra Mundial no la decidió nadie en agosto de 1914: la ejecutaron unos planes militares redactados años antes, tan detallados y tan rígidos que, una vez iniciados, ningún gobernante fue capaz de detenerlos. Los hombres que firmaron las declaraciones de guerra, según ella, ya no mandaban.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro cubre solo el primer mes y se detiene deliberadamente antes de la batalla del Marne. Estas páginas recorren seis cosas: el plan alemán y por qué obligaba a invadir Bélgica, el plan francés y lo que costó, el día en que ya no se podía parar, la resistencia belga y lo que ocurrió después en sus ciudades, la persecución naval que metió al imperio otomano en la guerra, y por qué treinta días bastaron para cerrar la salida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ningún gobernante europeo declaró aquella guerra creyendo que empezaba una guerra de cuatro años: todos creían estar ejecutando un plan de seis semanas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El plan alemán exigía invadir un país neutral, y esa condición estaba escrita desde 1905",
+      },
+      {
+        b: "texto",
+        texto:
+          "Alemania tenía un problema geográfico que llevaba décadas estudiando: enemigos a los dos lados, Francia al oeste y Rusia al este, y la certeza de no poder pelear con los dos a la vez. Alfred von Schlieffen, jefe del estado mayor entre 1891 y 1906, diseñó la solución: derrotar a Francia en seis semanas y trasladar después el ejército al este por ferrocarril, aprovechando que Rusia tardaría meses en movilizarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema era cómo derrotar a Francia deprisa. La frontera común estaba fortificada y era estrecha, así que el plan consistía en entrar por arriba, atravesando Bélgica y Luxemburgo, para rodear al ejército francés por su izquierda con un ala derecha enormemente reforzada. Tuchman repite la frase que la leyenda atribuye al moribundo Schlieffen —mantened fuerte el ala derecha—, y conviene decir que es una atribución tardía y no una cita documentada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo decisivo es lo que ese plan implicaba políticamente. Bélgica era un país neutral cuya neutralidad garantizaban por tratado las grandes potencias, incluida Gran Bretaña. Un plan militar que exigía atravesarla convertía automáticamente una guerra continental en una guerra con el imperio británico, y los militares alemanes lo sabían y lo asumieron como un coste técnico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está el argumento central de Tuchman en su forma más nítida. Una decisión política de la mayor gravedad —enfrentarse a Gran Bretaña— quedó tomada de antemano dentro de un documento de planificación militar, y los responsables civiles no la volvieron a discutir. Cuando llegó agosto de 1914, no había que decidir si invadir Bélgica: eso venía dentro del plan que se estaba ejecutando.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una decisión política enorme puede quedar tomada dentro de un documento técnico, y entonces ya nadie la vuelve a discutir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El plan francés no era un plan de operaciones: era una doctrina sobre el carácter",
+      },
+      {
+        b: "texto",
+        texto:
+          "Del otro lado, el estado mayor francés había llegado a una conclusión distinta y mucho más extraña. Tras la derrota de 1870 se impuso en sus escuelas militares la doctrina de la ofensiva a ultranza: la idea de que en la guerra moderna lo que decide no es el material ni el terreno, sino la voluntad de atacar, el impulso y el arrojo del que ataca primero y sin descanso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa doctrina se convirtió en el plan XVII, adoptado en 1913, que consistía esencialmente en lanzar los ejércitos hacia el este, hacia Lorena, en cuanto empezara la guerra. No preveía seriamente el ataque por Bélgica, porque los planificadores franceses no creían que los alemanes tuvieran hombres suficientes para hacerlo, y porque el plan no estaba pensado para responder a lo que hiciera el enemigo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus consecuencias se midieron en dos semanas. La infantería francesa atacó vestida con pantalón rojo y capote azul, uniformes de una visibilidad suicida que el parlamento se había negado a cambiar porque, dijo un exministro, el pantalón rojo era Francia. En la batalla de las Fronteras, en la segunda quincena de agosto de 1914, el ejército francés sufrió unas trescientas mil bajas; solo el 22 de agosto murieron unos veintisiete mil soldados franceses. Es el día más mortífero de la historia militar de Francia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Tuchman demuestra con eso no es que aquellos generales fueran tontos, sino algo más útil: que una doctrina que atribuye la victoria a una cualidad moral es inmune a la evidencia. Si el ataque fracasa, siempre se puede concluir que no hubo suficiente arrojo, y ordenar otro. Una teoría que explica igual de bien el éxito y el fracaso no se corrige nunca.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una doctrina que atribuye el resultado a una cualidad moral no se puede desmentir: si falla, siempre faltó voluntad, y se vuelve a intentar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El día en que el emperador quiso parar, le contestaron que técnicamente era imposible",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena que resume el libro entero ocurrió en Berlín el 1 de agosto de 1914. Llegó un telegrama que hizo creer al káiser Guillermo II que Gran Bretaña se mantendría neutral si Alemania no atacaba a Francia, y él, aliviado, ordenó a su jefe de estado mayor, Helmuth von Moltke, que diera la vuelta al ejército y lo mandara al este, contra Rusia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Moltke le contestó que no se podía hacer. Explicó que el despliegue de más de un millón de hombres era el resultado de un año entero de trabajo, con horarios de tren calculados al minuto para cada uno de los once mil convoyes previstos, y que improvisar lo contrario convertiría al ejército en una masa desordenada e insostenible. Tuchman cuenta que Moltke salió de allí llorando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa escena es la joya del libro y también su punto más discutido hoy, así que conviene decirlo aquí. Los historiadores posteriores han examinado los archivos y sostienen que el estado mayor alemán sí tenía trabajos de despliegue hacia el este y que la imposibilidad técnica que Moltke alegó era mayor en su convicción que en la realidad. Lo que estaba defendiendo, además de un horario, era un plan en el que creía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aun con esa corrección, el argumento de fondo se sostiene y es lo que hace útil el libro. Cuando una organización ha convertido una decisión en un procedimiento con miles de pasos encadenados, la persona que teóricamente manda descubre que ya no puede elegir: puede autorizar el procedimiento o provocar el caos, y no hay tercera opción. Eso no es una anécdota de 1914.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando una decisión se convierte en un procedimiento con miles de pasos, quien manda deja de poder elegir: solo puede autorizarlo o romperlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Bélgica no estaba en los cálculos de nadie y desbarató el calendario de todos",
+      },
+      {
+        b: "texto",
+        texto:
+          "El plan alemán daba por hecho que Bélgica dejaría pasar al ejército tras una protesta formal. El rey Alberto se negó, y su ejército, mucho más pequeño, resistió en las fortalezas de Lieja durante casi dos semanas, voló los puentes del Mosa y obligó a los alemanes a traer artillería pesada de sitio. El retraso fue de días, no de semanas, y en un plan cuyo margen era de seis semanas los días contaban.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La decisión belga fue además la que cambió el mapa político. Gran Bretaña había garantizado esa neutralidad por un tratado de 1839, y el gabinete británico, dividido hasta entonces, encontró en la invasión el argumento que le faltaba para entrar en la guerra con el país detrás. Una potencia que dudaba se decidió por una cláusula firmada setenta y cinco años antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurrió después en las ciudades belgas ocupa varios capítulos y es la parte más dura. Ante una resistencia que no esperaban, los mandos alemanes aplicaron una política de represalias contra civiles: fusilamientos en Aerschot y Dinant, incendios de pueblos enteros y, entre el 25 y el 26 de agosto, el saqueo de Lovaina y la quema de su biblioteca universitaria, con doscientos treinta mil volúmenes y cientos de manuscritos medievales dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante décadas se sostuvo que aquello era propaganda británica exagerada, y esa duda pesaba todavía cuando Tuchman escribió. Hoy no la hay: una investigación publicada en 2001 por los historiadores John Horne y Alan Kramer, con archivos alemanes, belgas y franceses, documentó unos seis mil quinientos civiles ejecutados en Bélgica y en el norte de Francia en aquellas semanas. El libro acertó y tardó cuarenta años en poder demostrarse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un tratado firmado setenta y cinco años antes decidió que entrara en la guerra la mayor potencia del mundo: los papeles viejos siguen operativos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dos barcos que escaparon en el Mediterráneo cambiaron el mapa de Oriente Medio",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los mejores capítulos del libro no trata de trincheras sino de una persecución naval, y Tuchman lo elige porque demuestra su tesis en pequeño. En agosto de 1914 dos buques de guerra alemanes, el «Goeben» y el «Breslau», estaban en el Mediterráneo, muy lejos de casa, y las escuadras británica y francesa deberían haberlos hundido sin dificultad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No lo hicieron, y el relato de por qué es una acumulación de órdenes ambiguas, cadenas de mando confusas, almirantes que no querían asumir riesgos y mensajes que llegaron tarde. Cada decisión individual era defendible; el resultado conjunto fue que los dos barcos llegaron a Constantinopla el 10 de agosto y fueron entregados a los otomanos con su tripulación alemana a bordo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las consecuencias no cabían en ningún cálculo de agosto. Aquel regalo inclinó a un imperio otomano vacilante hacia el bando alemán; de esa entrada salieron el frente de Gallípoli, la campaña de Mesopotamia, la revuelta árabe, el genocidio armenio, el desmembramiento del imperio y el reparto de Oriente Medio que sigue en pie. Todo ello se puede seguir hacia atrás hasta dos barcos que no se interceptaron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tuchman lo cuenta para demostrar algo que va contra el instinto de todo lector de historia: que las consecuencias enormes no requieren causas enormes. Nadie tomó en agosto de 1914 la decisión de redibujar Oriente Medio; unos cuantos oficiales tomaron decisiones prudentes en un contexto confuso, y el efecto acumulado duró un siglo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las consecuencias enormes no necesitan causas enormes: a veces son una cadena de decisiones prudentes tomadas con información incompleta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Treinta días bastaron para cerrar todas las salidas" },
+      {
+        b: "texto",
+        texto:
+          "El último tercio del libro cuenta el derrumbe de las dos ilusiones a la vez. Los franceses atacaron por Lorena según el plan XVII y fueron destrozados; los alemanes avanzaron por Bélgica según el plan de Schlieffen y llegaron a ochenta kilómetros de París, pero con las tropas exhaustas, las líneas de suministro estiradas y siete cuerpos de ejército menos de los que el plan exigía, porque Moltke había reforzado otros frentes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El pequeño ejército británico entró en combate en Mons el 23 de agosto y en Le Cateau el 26, y se retiró doscientos cuarenta kilómetros en dos semanas. Los franceses retrocedieron hasta el Marne. En treinta días, ninguno de los dos bandos había conseguido lo que su plan prometía y los dos habían perdido cientos de miles de hombres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tuchman termina el libro justo ahí, antes de la batalla del Marne, y esa decisión es deliberada. Su argumento es que en aquellos treinta días quedó decidido todo lo demás: al no lograr ninguno la victoria rápida que había planeado, ambos quedaron atrapados en una guerra para la que ninguno tenía previsión, ni plan alternativo, ni manera de salir con algo que justificara lo ya perdido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La frase con la que cierra es la que resume el libro. Dice que las naciones quedaron cogidas en una trampa, una trampa fabricada durante los primeros treinta días con batallas que no lograron ser decisivas, una trampa de la que no hubo, ni ha habido, salida. Los cuatro años siguientes y los diez millones de muertos, según ella, ya estaban dentro de ese mes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que encerró a Europa no fue una derrota: fue que nadie ganara lo bastante deprisa como para poder parar sin haber perdido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que en agosto de 1914 nadie eligió una guerra mundial: unos planes redactados años antes, rígidos y no discutidos por los civiles, se pusieron en marcha y arrastraron a los gobiernos, y treinta días de batallas sin victoria cerraron la posibilidad de detenerlos. Lo cuenta día a día y con los nombres de quienes firmaron cada orden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la manera de contarlo. Tuchman escribe historia con la técnica de una novela —escenas, tiempo presente, personajes con cara— sin inventar nada, y con eso hizo legible para millones de lectores un mes que se estudiaba solo en academias militares. Buena parte de la divulgación histórica posterior sale de aquí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla, o al menos está discutida, en su tesis. El mismo año en que se publicó, el historiador alemán Fritz Fischer sostuvo con documentos que los dirigentes alemanes tenían objetivos de guerra y aceptaron deliberadamente el riesgo de un conflicto general en julio de 1914; desde entonces la idea de que Europa cayó en la guerra por accidente es una posición entre otras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay dos reparos más, y ninguno pequeño. El libro apenas cubre el frente oriental y prácticamente ignora a Austria-Hungría y a Serbia, que es donde la guerra empezó: es un relato del estallido que deja fuera los Balcanes. Y sus simpatías son visibles en cada capítulo: los alemanes son casi siempre arrogantes, los franceses heroicos y los británicos despistados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después no tiene igual en el estante. En 1962 el presidente John F. Kennedy leyó este libro y repartió ejemplares entre su gabinete. En octubre de aquel mismo año, durante la crisis de los misiles de Cuba, le dijo a su hermano que no quería que nadie escribiera después un libro titulado «Los misiles de octubre» sobre cómo el mundo había tropezado con una guerra que nadie quería.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Es el libro que enseña a mirar las decisiones que ya nadie discute porque están dentro de un procedimiento: ahí es donde se decide de verdad.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "canones-agosto": CANONES_AGOSTO,
   "ensayos-montaigne": ENSAYOS_MONTAIGNE,
   "existencialismo-humanismo": EXISTENCIALISMO_HUMANISMO,
   "mas-alla-bien-mal": MAS_ALLA_BIEN_MAL,

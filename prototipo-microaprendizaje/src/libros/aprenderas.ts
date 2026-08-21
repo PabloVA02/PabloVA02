@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "canones-agosto":
+    "En mayo de 1910, nueve reyes cabalgaron juntos en el entierro de Eduardo VII y nadie sabía que era la última vez. Cuatro años después, treinta días bastaron para cerrar todas las salidas de Europa.",
+
   "ensayos-montaigne":
     "En 1571, a los treinta y ocho años, Montaigne se retiró a la torre de su castillo con mil libros y se puso a escribir sobre sí mismo. Avisa en la primera página: él mismo es la materia de su libro.",
 
