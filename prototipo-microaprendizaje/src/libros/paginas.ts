@@ -17304,7 +17304,7 @@ const NOMBRE_ROSA: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Y ahí está la tesis política del libro, que se ve mejor desde 1980 que desde 1327. La biblioteca no existe para difundir el saber: existe para conservarlo y para controlar quién accede a él. El bibliotecario, no el abad, es el hombre más poderoso de la abadía, porque el poder no está en tener los libros: está en decidir quién los ve.",
+          "Y ahí está la tesis política del libro, que se ve mejor desde 1980 que desde 1327. La biblioteca no existe para difundir el saber: existe para conservarlo y para controlar quién accede a él. El bibliotecario, no el abad, es el hombre más poderoso de la abadía, porque el poder no está en tener los libros: está en decidir quién los ve. Y el edificio lo explica todo: la planta baja son las cocinas, la primera el scriptorium donde se copia a la luz del día, y encima, cerrado con llave, lo que nadie ve.",
       },
       {
         b: "idea",
@@ -17329,7 +17329,7 @@ const NOMBRE_ROSA: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Aquí está el detalle que le da peso a toda la novela y que casi ningún resumen menciona: ese libro existió de verdad. Aristóteles anunció en la Poética que trataría la comedia después de la tragedia, y esa segunda parte no ha llegado hasta nosotros. Se perdió en algún momento entre la Antigüedad y la Edad Media, y sigue perdida. Eco cogió un agujero real de la historia de la cultura y escribió qué habría pasado si alguien lo hubiera provocado a propósito.",
+          "Aquí está el detalle que le da peso a toda la novela y que casi ningún resumen menciona: ese libro existió de verdad. Aristóteles anunció en la Poética que trataría la comedia después de la tragedia, y esa segunda parte no ha llegado hasta nosotros. Se perdió en algún momento entre la Antigüedad y la Edad Media, y sigue perdida. Eco cogió un agujero real de la historia de la cultura y escribió qué habría pasado si alguien lo hubiera provocado a propósito. El detalle del dedo mojado, además, no es un adorno: era el gesto normal de cualquiera que pasara páginas de pergamino, y por eso funciona como arma.",
       },
       {
         b: "idea",
@@ -17404,7 +17404,7 @@ const NOMBRE_ROSA: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "El libro termina con un verso latino medieval que dice, más o menos, que de la rosa de antes solo queda el nombre, y que lo que conservamos son nombres desnudos. Eco explicó después que eligió ese título justamente porque la rosa es un símbolo con tantos significados acumulados que ya no significa nada en concreto, y así el título no orientaba al lector hacia ninguna interpretación. Quería que nadie supiera de qué iba antes de empezar.",
+          "El libro termina con un verso latino medieval que dice, más o menos, que de la rosa de antes solo queda el nombre, y que lo que conservamos son nombres desnudos. Eco explicó después que eligió ese título justamente porque la rosa es un símbolo con tantos significados acumulados que ya no significa nada en concreto, y así el título no orientaba al lector hacia ninguna interpretación. Quería que nadie supiera de qué iba antes de empezar. Es también, dicho de otro modo, el resumen de lo que ha ocurrido en la abadía: quedan las palabras y ha ardido todo lo demás.",
       },
       {
         b: "idea",
