@@ -34471,7 +34471,265 @@ const COME_COMIDA_REAL: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Cerebro de pan, en ocho páginas.
+
+   Breve.
+
+   Libro de salud con tesis fuertes y evidencia desigual. Tercera persona
+   en la prosa: aquí un «tú puedes» sería irresponsable, porque el libro
+   recomienda cambios que afectan a medicación crónica.
+
+   Las páginas 6 y 7 y la conclusión llevan las correcciones. No es una
+   demolición: se separa lo que tiene fundamento de lo que no, que es lo
+   que manda la regla 5.
+   -------------------------------------------------------------------------- */
+
+const CEREBRO_DE_PAN: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un neurólogo sostiene que el pan está destruyendo cerebros" },
+      {
+        b: "texto",
+        texto:
+          "David Perlmutter es neurólogo en Florida y publicó este libro en 2013 con una tesis que no admite lecturas intermedias: que los cereales, y en particular el gluten y los carbohidratos, son la causa principal de la demencia, la depresión, la ansiedad, el déficit de atención y los dolores de cabeza crónicos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro llegó al primer puesto de la lista de más vendidos de Estados Unidos, superó el millón de ejemplares y se tradujo a decenas de idiomas. Su propuesta es una dieta muy baja en hidratos de carbono, alta en grasa y sin gluten, y sostiene que aplicada a tiempo puede prevenir el alzhéimer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Este es un libro que hay que resumir de otra manera, porque mezcla tres capas distintas y las presenta con la misma seguridad: hechos bien establecidos, hipótesis en investigación y afirmaciones que la evidencia disponible no sostiene. Separarlas es lo único útil que se puede hacer con él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas hacen eso: qué sostiene exactamente, qué parte de su argumento tiene una base sólida, qué parte pertenece a un campo abierto que se está investigando, qué afirmación central no está respaldada por ningún ensayo, qué ocurre con su capítulo sobre el colesterol y qué encontró alguien al revisar sus referencias una por una.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro puede tener hechos, hipótesis y afirmaciones sin apoyo, y contarlos todos con el mismo tono de seguridad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Su argumento tiene cuatro afirmaciones encadenadas" },
+      {
+        b: "texto",
+        texto:
+          "Conviene enunciar la tesis del libro con precisión antes de discutirla, porque suele resumirse mal. Perlmutter sostiene cuatro cosas y cada una depende de la anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es que el gluten produce inflamación en el sistema nervioso de una parte importante de la población, no solo de los celíacos, y que esa inflamación es silenciosa: no da síntomas digestivos y sí daño neurológico acumulado a lo largo de décadas. La segunda es que los hidratos de carbono en general elevan de forma crónica el azúcar en sangre y que esa elevación daña el cerebro por mecanismos parecidos a los de la diabetes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es que el colesterol es un componente esencial del cerebro, que un colesterol alto protege frente al deterioro cognitivo y que los fármacos que lo reducen aumentan el riesgo de demencia. Y la cuarta es que una dieta cetogénica —muy baja en hidratos y alta en grasa— protege el cerebro y puede revertir procesos ya iniciados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De esas cuatro afirmaciones, la segunda tiene un campo de investigación real detrás, la cuarta tiene una aplicación médica establecida en un contexto muy concreto, la primera no está respaldada y la tercera va en contra de lo que muestran las revisiones disponibles. Las cuatro se presentan en el libro con el mismo grado de certeza.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando cuatro afirmaciones encadenadas tienen niveles de evidencia muy distintos, la cadena vale lo que valga su eslabón más flojo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El gluten sí daña, y a una parte concreta de la población" },
+      {
+        b: "texto",
+        texto:
+          "La parte del libro que tiene una base sólida es la que recuerda que existe una enfermedad real y bastante infradiagnosticada. La celiaquía es un trastorno autoinmune en el que el gluten desencadena una reacción que destruye las vellosidades del intestino delgado, y afecta a alrededor del uno por ciento de la población.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus consecuencias van mucho más allá del aparato digestivo, y ahí Perlmutter tiene razón en algo importante: una parte de los celíacos no tiene síntomas intestinales llamativos y llega al diagnóstico por otras vías, con anemia, osteoporosis, infertilidad, alteraciones dermatológicas o síntomas neurológicos. La ataxia por gluten y la neuropatía asociada están descritas en la literatura neurológica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Existe además un cuadro reconocido llamado sensibilidad al gluten no celíaca, en el que personas sin la enfermedad ni alergia refieren síntomas que mejoran al retirar el gluten. Está aceptado que ese malestar es real; lo que se discute es la causa, y varios ensayos han apuntado a que en muchos casos el responsable no es el gluten sino un grupo de hidratos de carbono fermentables presentes en los mismos alimentos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hasta aquí, lo que el libro dice se corresponde con lo que sabe la medicina. El salto que da a continuación —que ese daño se extiende a la mayoría de la gente y explica la demencia— es de otra naturaleza, y es donde hay que detenerse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que una sustancia dañe gravemente al uno por ciento de la población no dice nada sobre lo que le hace al noventa y nueve restante.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La relación entre el azúcar en sangre y el cerebro es un campo real" },
+      {
+        b: "texto",
+        texto:
+          "La segunda afirmación del libro sí está en el centro de un campo de investigación activo, y es la parte que mejor ha aguantado. Se sabe desde hace tiempo que las personas con diabetes de tipo dos tienen un riesgo mayor de desarrollar demencia, y que la resistencia a la insulina se asocia a peor rendimiento cognitivo y a más deterioro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los mecanismos propuestos son varios: el daño vascular que produce la glucosa elevada de forma crónica, la formación de productos finales de glicación, la inflamación de bajo grado y una posible alteración de la señalización de la insulina dentro del propio cerebro, que también la utiliza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí viene la expresión que el libro usa constantemente, la de llamar al alzhéimer diabetes de tipo tres. Es un término que existe en la literatura desde 2008 y conviene saber qué es: una hipótesis de trabajo propuesta por un grupo de investigación, no un diagnóstico reconocido ni una entidad clínica aceptada. Sigue estudiándose y no está establecida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica razonable de todo esto es la que cualquier médico daría igualmente: mantener a raya el azúcar en sangre, evitar el exceso de azúcares libres, hacer ejercicio y no llegar a la resistencia a la insulina es bueno para el cerebro además de para todo lo demás. Eso no requiere eliminar los cereales integrales ni la fruta, que es lo que el libro propone.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Llamar al alzhéimer diabetes de tipo tres no es un diagnóstico: es el nombre de una hipótesis que sigue en investigación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La dieta cetogénica tiene una indicación médica y no es esta" },
+      {
+        b: "texto",
+        texto:
+          "La cuarta afirmación del libro es su propuesta práctica: una alimentación muy baja en hidratos de carbono que obliga al organismo a usar cuerpos cetónicos, producidos a partir de la grasa, como combustible principal en lugar de glucosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa dieta no es una invención de moda: tiene un uso médico establecido desde los años veinte del siglo pasado y sigue vigente. Se emplea en la epilepsia refractaria infantil, es decir, en niños cuyas crisis no responden a los fármacos, y reduce las crisis de forma significativa en una proporción notable de casos. Se administra bajo control médico estricto, con analíticas periódicas, porque tiene efectos adversos reales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Que funcione ahí es lo que da verosimilitud al argumento del libro, y también es donde está el salto. Que una intervención metabólica sirva para controlar crisis epilépticas en niños no implica que prevenga la demencia en adultos sanos: son enfermedades distintas, mecanismos distintos y poblaciones distintas. Hay investigación en curso sobre cetonas y deterioro cognitivo, con resultados preliminares y ningún ensayo grande concluyente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y esa dieta no es inocua a largo plazo. Hecha sin supervisión, tiende a reducir mucho la fibra y los alimentos vegetales, altera el perfil lipídico en una parte de las personas, complica el aporte de varios micronutrientes y es difícil de sostener durante años. Recomendarla de forma general a población sana en un libro de divulgación es otra cosa que aplicarla en una consulta de neurología infantil.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que algo controle crisis epilépticas en niños no dice nada sobre si previene la demencia en adultos sanos: son problemas distintos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La afirmación central del libro no tiene ensayos que la respalden" },
+      {
+        b: "texto",
+        texto:
+          "La tesis que da título al libro —que el gluten daña el cerebro de la población general, no solo de los celíacos— es la que sostiene todo lo demás y es la que carece de apoyo. No existen ensayos clínicos que demuestren que retirar el gluten en personas sin celiaquía mejore la función cognitiva ni reduzca el riesgo de demencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí hay son datos en la dirección contraria sobre otras cuestiones. Un estudio publicado en 2017 siguió durante veinticinco años a más de cien mil personas sin celiaquía y no encontró que restringir el gluten redujera el riesgo cardiovascular; encontró, en cambio, que quienes lo restringían consumían menos cereales integrales, y ese consumo sí está asociado de forma consistente a menor riesgo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el efecto secundario que un libro así puede producir sin proponérselo. Una persona sin celiaquía que retira el gluten no elimina un veneno: elimina pan, pasta y cereales integrales, y con ellos una parte importante de su fibra, además de sustituirlos a menudo por productos sin gluten industriales que suelen tener peor composición y más precio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las sociedades profesionales de neurología y las asociaciones dedicadas al alzhéimer se pronunciaron cuando el libro salió, y su reproche fue el mismo: presentar como establecido lo que es una hipótesis y ofrecer a familias asustadas por una enfermedad sin tratamiento una promesa de prevención que no está demostrada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien retira el gluten sin ser celíaco no elimina un veneno: elimina cereales integrales, y con ellos buena parte de su fibra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Alguien se puso a revisar sus referencias una por una" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo del libro sobre el colesterol es el que más preocupó a los médicos, porque no habla de dieta sino de medicación. Perlmutter sostiene que el colesterol es esencial para el cerebro, que tenerlo alto protege frente al deterioro cognitivo y que los fármacos que lo reducen aumentan el riesgo de demencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La evidencia disponible no respalda esa afirmación. Las revisiones sistemáticas sobre estatinas y cognición, incluida una revisión de la colaboración Cochrane, no han encontrado que esos fármacos deterioren la función cognitiva, y algunos trabajos apuntan incluso en dirección contraria. Es un asunto con debate técnico abierto sobre matices y sin ningún consenso que sostenga lo que el libro afirma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace grave ese capítulo es su público. Los lectores de un libro sobre prevención de la demencia son en buena medida personas de más de cincuenta años, muchas de ellas con tratamiento cardiovascular prescrito, y el texto les da motivos para abandonarlo. Ese es el punto en el que un libro de divulgación deja de ser una opinión discutible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una comprobación que conviene conocer. Una investigadora en ciencia de los alimentos revisó en 2014 las referencias del libro una por una y publicó su análisis: encontró que numerosas citas no sostenían lo que el texto afirmaba, que varios estudios invocados eran de animales y se presentaban como si fueran humanos, y que en otros casos las conclusiones citadas no coincidían con las de los autores originales. Perlmutter comercializa además una línea propia de suplementos, cosa que conviene tener presente al leer sus recomendaciones.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro que da motivos para dejar una medicación prescrita ha dejado de ser una opinión discutible sobre alimentación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Cerebro de pan sostiene que el gluten y los hidratos de carbono son la causa principal del deterioro cognitivo y de varios trastornos neurológicos, y propone como solución una dieta cetogénica sin cereales. De sus cuatro afirmaciones encadenadas, una tiene una base sólida limitada a una parte pequeña de la población, otra pertenece a un campo de investigación abierto, otra corresponde a un tratamiento médico de indicación muy concreta y la cuarta va contra la evidencia disponible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, y no es poco, es haber puesto en la conversación pública una relación que la neurología ha tardado en tomarse en serio: la que existe entre el metabolismo, el azúcar en sangre y la salud del cerebro. Ese campo es real, está activo y produce resultados.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuidar el azúcar en sangre es bueno para el cerebro, y esa recomendación no exige eliminar los cereales integrales ni la fruta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, que aquí es la parte principal. Su tesis central no tiene ensayos que la respalden; su capítulo sobre el colesterol contradice las revisiones sistemáticas y puede llevar a un lector a abandonar una medicación prescrita; sus citas fueron revisadas por una investigadora que encontró que muchas no sostenían lo que el texto afirmaba; y su autor vende suplementos que el propio libro hace deseables.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La manera sensata de aprovecharlo es quedarse con lo que se sostiene por otras vías y que además no requiere este libro: reducir azúcares libres y productos ultraprocesados, comer suficientes vegetales, hacer ejercicio, dormir bien y controlar la tensión y la glucosa, que es lo que la evidencia asocia hoy a menor riesgo de deterioro cognitivo. Y descartar lo demás: retirar el gluten sin ser celíaco no tiene ningún beneficio demostrado, y cualquier decisión sobre medicación cardiovascular pertenece a una consulta y no a un libro de divulgación.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cerebro-de-pan": CEREBRO_DE_PAN,
   "come-comida-real": COME_COMIDA_REAL,
   "dilema-omnivoro": DILEMA_OMNIVORO,
   "zonas-azules": ZONAS_AZULES,

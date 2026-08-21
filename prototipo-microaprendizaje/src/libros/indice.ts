@@ -95,7 +95,6 @@ const CARGADORES: Record<string, Cargador> = {
   "dieta-cojea": () => import("./salud").then((m) => m.DIETA_COJEA),
   "vivir-plenitud": () => import("./salud").then((m) => m.VIVIR_PLENITUD),
   anticancer: () => import("./salud").then((m) => m.ANTICANCER),
-  "cerebro-de-pan": () => import("./salud").then((m) => m.CEREBRO_DE_PAN),
   "milagro-metabolico": () => import("./salud").then((m) => m.MILAGRO_METABOLICO),
   "poder-metabolismo": () => import("./salud").then((m) => m.PODER_METABOLISMO),
   "deja-de-ser-tu": () => import("./salud").then((m) => m.DEJA_DE_SER_TU),

@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "cerebro-de-pan": "La devastadora verdad sobre los efectos del trigo, el azúcar y los carbohidratos",
   "dilema-omnivoro": "En busca de la comida perfecta",
   outlive: "El arte y la ciencia de vivir más y mejor",
   nudge: "Impulso: cómo mejorar las decisiones sobre salud, dinero y felicidad",

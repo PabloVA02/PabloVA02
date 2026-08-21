@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cerebro-de-pan":
+    "Un neurólogo sostiene que el gluten y los hidratos de carbono son la causa principal de la demencia y de varios trastornos neurológicos. El libro mezcla hechos establecidos, hipótesis abiertas y afirmaciones sin respaldo con el mismo tono.",
+
   "come-comida-real":
     "Durante cincuenta años los consejos de alimentación giraron alrededor de nutrientes: primero la grasa, luego los hidratos, luego el azúcar. Este libro propone mirar otra cosa: cuánto se ha alejado un producto del alimento del que salió.",
 

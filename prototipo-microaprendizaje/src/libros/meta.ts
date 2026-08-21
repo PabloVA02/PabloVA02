@@ -1208,22 +1208,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "cerebro-de-pan",
-    titulo: "Cerebro de pan",
-    autor: "David Perlmutter",
-    ano: 2013,
-    gancho: "Un neurólogo sostiene que el pan, la pasta y la fruta te están destruyendo el cerebro, y que el alzhéimer es una diabetes. Ha vendido millones de ejemplares.",
-    porQue: "Es de los libros de salud más vendidos del siglo y conviene leerlo con la evidencia al lado, porque cita estudios reales y saca de ellos conclusiones que los estudios no dicen. Aprender a ver esa costura sirve para cualquier libro del estante.",
-    minutos: 24.9,
-    capitulos: [
-      { titulo: "Una consulta en Naples, Florida", minutos: 4.8 },
-      { titulo: "El uno por ciento que sí", minutos: 5.5 },
-      { titulo: "El experimento de Melbourne", minutos: 5.4 },
-      { titulo: "La diabetes tipo tres", minutos: 4.7 },
-      { titulo: "El pasillo de los suplementos", minutos: 4.5 },
-    ],
-  },
-  {
     id: "vivir-plenitud",
     titulo: "Vivir con plenitud las crisis",
     autor: "Jon Kabat-Zinn",

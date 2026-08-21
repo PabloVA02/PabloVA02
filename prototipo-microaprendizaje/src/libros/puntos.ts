@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cerebro-de-pan": [
+    "qué cuatro afirmaciones encadenadas sostiene exactamente",
+    "a quién daña de verdad el gluten y en qué proporción",
+    "qué se sabe de la relación entre azúcar en sangre y cerebro",
+    "para qué sirve realmente una dieta cetogénica",
+    "qué apareció al revisar sus referencias una por una",
+  ],
+
   "come-comida-real": [
     "en qué tres categorías divide todo lo comestible",
     "qué experimento demostró que el procesamiento importa solo",
