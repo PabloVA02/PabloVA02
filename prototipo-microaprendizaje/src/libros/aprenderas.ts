@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "sobre-fotografia":
+    "Seis ensayos publicados en una revista literaria entre 1973 y 1977, sobre qué le hace a una persona mirar imágenes. El libro no contiene ni una sola fotografía, y esa ausencia es deliberada.",
+
   "roba-artista":
     "Empezó como una charla para estudiantes de una universidad pequeña, con diez cosas que su autor habría querido oír a los veinte años. La colgó en su blog, circuló por todas partes y acabó siendo un libro de una hora de lectura.",
 

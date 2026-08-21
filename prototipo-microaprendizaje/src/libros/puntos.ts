@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "sobre-fotografia": [
+    "por qué hacer una foto de algo es apropiárselo",
+    "por qué el vocabulario del oficio es el de un arma",
+    "para qué sirve realmente una cámara en un viaje",
+    "qué puede hacer una imagen y qué no puede hacer",
+    "qué parte de este libro retiró su propia autora",
+  ],
+
   "roba-artista": [
     "por qué buscar la originalidad es la mejor manera de no empezar",
     "cómo se distingue el buen robo del malo",

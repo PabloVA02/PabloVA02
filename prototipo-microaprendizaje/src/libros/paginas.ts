@@ -35625,7 +35625,263 @@ const ROBA_ARTISTA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Sobre la fotografía, en ocho páginas.
+
+   Breve: son seis ensayos publicados en una revista entre 1973 y 1977.
+
+   Ensayo: titular que afirma, tercera persona.
+
+   La página 7 es obligatoria: Sontag se corrigió a sí misma en 2003, por
+   escrito y en un libro entero, sobre su tesis más famosa. Un resumen que
+   no lo diga vende como establecido lo que su propia autora retiró.
+   -------------------------------------------------------------------------- */
+
+const SOBRE_FOTOGRAFIA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un libro sobre imágenes que no contiene ninguna" },
+      {
+        b: "texto",
+        texto:
+          "Susan Sontag publicó estos textos como artículos en una revista literaria de Nueva York entre 1973 y 1977, y después los reunió en un volumen que se convirtió en el ensayo sobre fotografía más citado del siglo. No es un manual, no es una historia del medio y no habla de técnica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y tiene una particularidad que sorprende a todo el que lo abre: no incluye ni una sola fotografía. La decisión es deliberada y coherente con lo que sostiene, porque el libro trata precisamente de qué le hace a una persona mirar imágenes, y reproducirlas habría convertido el análisis en otra sesión de mirar. Es también su mayor limitación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su punto de partida está en el título del primer ensayo, que alude a la alegoría de la caverna de Platón: la humanidad, escribe, sigue encerrada allí, entreteniéndose con imágenes de la verdad en lugar de con la verdad. Con una diferencia respecto al siglo IV antes de Cristo: ahora las imágenes las fabricamos nosotros, por millones, y las coleccionamos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que sostiene: qué relación se establece con algo al fotografiarlo, por qué el vocabulario del oficio es el de un arma, para qué sirve realmente una cámara en un viaje, qué puede y qué no puede hacer una imagen, qué le ocurre a quien ve mucho sufrimiento en fotografías y qué de todo esto retiró su propia autora veintiséis años después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro entero sobre fotografía sin una sola fotografía dentro, y esa ausencia es a la vez su coherencia y su límite.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hacer una foto de algo es una manera de apropiárselo" },
+      {
+        b: "texto",
+        texto:
+          "La tesis que abre el libro es que fotografiar no es un acto neutral de registro: es una forma de apropiación. Al fotografiar algo, escribe Sontag, se establece con ello una relación que parece conocimiento y que por tanto se parece al poder.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es que una fotografía convierte lo fotografiado en un objeto que se puede poseer, guardar, clasificar y transportar. Quien tiene una imagen de algo siente que tiene ese algo de una manera que no ocurre con un recuerdo ni con una descripción. Y coleccionar fotografías, dice, es coleccionar el mundo en miniatura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su observación sobre lo que ese gesto hace con la experiencia. Fotografiar convierte el acontecimiento en imagen, y la imagen en un objeto de consumo. La escena deja de ser algo que le ocurre a alguien y pasa a ser algo que alguien ha capturado; el verbo con el que se describe la operación ya lo dice todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sontag señala además una asimetría que atraviesa todo el libro: en la enorme mayoría de las fotografías del mundo, quien tiene la cámara y quien aparece delante de ella no ocupan la misma posición. Casi siempre el fotógrafo tiene más medios, más movilidad y más poder que el fotografiado, y esa desigualdad forma parte de lo que la imagen contiene aunque no se vea.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien tiene una foto de algo siente que tiene ese algo, y esa sensación no la produce ningún recuerdo ni ninguna descripción.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El vocabulario del oficio es el mismo que el de un arma" },
+      {
+        b: "texto",
+        texto:
+          "La observación más aguda del libro es de lenguaje y se puede comprobar en cualquier idioma. Una cámara se carga. Se apunta. Se dispara. Se hace una toma. Se captura una imagen. Todo el vocabulario del oficio está tomado de las armas de fuego, y nadie lo nota porque lleva ahí desde el principio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sontag sostiene que esa coincidencia no es casual sino descriptiva. Fotografiar a alguien, escribe, es una forma sublimada de agresión: se toma algo de esa persona sin pedírselo, se la convierte en objeto y se conserva un fragmento de ella que se puede mirar cuantas veces se quiera. Lo llama un crimen suave, adecuado a una época asustada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aporta una comparación histórica que refuerza el argumento. La cámara sustituyó al rifle en los safaris africanos justo cuando cazar dejó de estar bien visto: los mismos hombres, los mismos guías, los mismos animales, el mismo trofeo, y un instrumento por otro. La palabra safari fotográfico existe precisamente por eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El corolario que le interesa es sobre el fotógrafo profesional, cuya posición describe sin ninguna simpatía: alguien que se coloca en una situación en la que la gente está sufriendo, no interviene, y obtiene de ese no intervenir un producto. Esa contradicción, dice, es constitutiva del oficio y no se resuelve con buenas intenciones.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se carga, se apunta y se dispara: todo el vocabulario del oficio está tomado de las armas, y nadie lo nota porque siempre estuvo ahí.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En un viaje, la cámara sirve para no tener la experiencia" },
+      {
+        b: "texto",
+        texto:
+          "El análisis del turismo es la parte del libro que mejor ha aguantado y la que cualquier lector reconoce de inmediato. Sontag observa que la cámara aparece en los viajes de una manera casi obligatoria, y se pregunta qué función cumple exactamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su respuesta tiene dos partes. La primera es la prueba: viajar produce una inquietud sobre si aquello está ocurriendo de verdad y sobre cómo demostrarlo después, y una fotografía resuelve las dos cosas. La segunda es más incómoda: la cámara da algo que hacer. Una persona acostumbrada a trabajar todos los días se encuentra incómoda ante el tiempo sin tarea, y fotografiar convierte el paseo en una actividad con objetivos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su afirmación más dura sobre el asunto: que la fotografía es una manera de rechazar la experiencia reduciéndola a la búsqueda de lo fotografiable. Quien recorre un lugar buscando encuadres no está en ese lugar exactamente: está trabajando en él, evaluándolo como material, y esa evaluación se interpone entre la persona y lo que tiene delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una consecuencia que en 1977 era una intuición y hoy es una observación cotidiana: que las imágenes acaban sustituyendo al recuerdo. Uno recuerda la fotografía que hizo y no el momento, porque la fotografía se ha visto cien veces y el momento una sola. La memoria se organiza alrededor del archivo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Con los años recuerdas la foto y no el momento, porque la foto la has visto cien veces y aquello ocurrió una.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una fotografía puede conmover y no puede explicar" },
+      {
+        b: "texto",
+        texto:
+          "El argumento más importante del libro, y el que la enfrentó con el fotoperiodismo entero, es sobre los límites de lo que una imagen puede hacer. Sontag sostiene que una fotografía es por naturaleza un fragmento: un instante recortado, sin antes y sin después, sin causa visible y sin consecuencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí concluye que la fotografía puede conmocionar y no puede hacer comprender, porque comprender exige una relación entre hechos, y eso solo lo proporciona un relato. Su formulación es tajante: solo lo que narra puede hacernos comprender. Una imagen de una guerra impresiona a cualquiera y no dice quién la empezó, quién la financia ni qué se discute.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade el problema que ella considera más grave: que la fotografía embellece. Una imagen bien compuesta de una hambruna, con buena luz y una composición equilibrada, produce una experiencia estética por encima de la moral, y esa belleza formal es difícil de evitar porque es lo que convierte una foto en buena. El sufrimiento fotografiado con talento se convierte en algo que se contempla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sontag aplica ese análisis a la fotografía documental estadounidense de los años treinta, que retrató la pobreza rural con una calidad plástica extraordinaria, y sostiene que aquellas imágenes convirtieron la miseria en un tema estético reconocible. Su reproche no es a la intención de los fotógrafos, que era genuina, sino al efecto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una imagen impresiona a cualquiera y no puede decir quién empezó aquello ni por qué: para eso hace falta un relato.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La repetición de lo terrible acaba anestesiando" },
+      {
+        b: "texto",
+        texto:
+          "La tesis más citada del libro es la que sostiene que ver muchas imágenes de sufrimiento embota la capacidad de responder ante ellas, y Sontag la introduce con un recuerdo personal que es el pasaje más conocido que escribió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuenta que a los doce años, en una librería de California, se topó por casualidad con fotografías de los campos de concentración recién liberados. Escribe que nada de lo que ha visto después, ni en fotografía ni en la vida, la afectó de aquella manera; que fue una revelación negativa; que algo se rompió y algo murió, y que algo sigue llorando todavía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ahí formula la idea de la anestesia. La primera vez que se ve algo así, produce un efecto que no se olvida; la centésima, mucho menos; y la exposición continua a un flujo de imágenes atroces acaba produciendo familiaridad en lugar de indignación. Su conclusión de 1977 es que la abundancia de imágenes de dolor está desgastando la capacidad de sentir ante ellas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la propuesta con la que cierra el libro y que su título anuncia: una ecología de las imágenes. Sontag pide algo parecido a una conservación, una manera de racionar y de proteger la capacidad de que una imagen signifique algo, igual que se protege un recurso natural que se está agotando.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La primera vez que ves algo así no se olvida en la vida; la centésima ya no produce casi nada, y esa curva es el problema.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Veintiséis años después se corrigió a sí misma" },
+      {
+        b: "texto",
+        texto:
+          "Hay un dato que este libro necesita y que solo se puede dar desde fuera: en 2003, Susan Sontag publicó otro libro entero, escrito un año antes de morir, dedicado en buena parte a revisar lo que había sostenido aquí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su rectificación principal afecta a la tesis de la anestesia. Escribe que ya no está segura de que la exposición repetida a imágenes de sufrimiento embote la respuesta, que no hay pruebas de que eso ocurra y que aquella idea, por convincente que suene, era una hipótesis y no un hallazgo. Y observa que la gente puede seguir conmoviéndose después de haber visto miles de imágenes, y que a menudo lo hace.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Corrige también su lectura del fotoperiodismo. En el libro de 1977 sostenía que las imágenes de guerra no hacen comprender nada; en el de 2003 sostiene que sí sirven, que documentan, que crean memoria y que la exigencia de que una fotografía explique un conflicto es una exigencia mal planteada: nadie le pide eso a un párrafo suelto de un libro de historia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una autocrítica de posición. Reconoce que el primer libro estaba escrito desde una comodidad concreta, la de quien mira imágenes de guerras lejanas desde una ciudad segura, y que ese lugar produce ciertos escrúpulos estéticos que se ven distintos cuando se ha estado en un sitio bombardeado, cosa que ella hizo en Sarajevo en los años noventa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribió que las imágenes de dolor anestesian, y veintiséis años después escribió que no había ninguna prueba de eso y que había sido una suposición.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Sobre la fotografía sostiene que hacer una imagen de algo es una forma de apropiárselo, que el acto tiene una estructura de agresión que el propio vocabulario delata, que la cámara sirve a menudo para evitar la experiencia en lugar de tenerla, que una fotografía puede conmover y no explicar, y que la abundancia de imágenes está desgastando su capacidad de significar algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una manera de sospechar de un gesto que nadie examina. Después de leerlo cuesta sacar el móvil en un sitio bonito sin preguntarse para qué se está haciendo eso exactamente, y esa incomodidad de dos segundos es probablemente lo mejor del libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Coleccionar fotografías es coleccionar el mundo, y por eso cuesta tan poco confundir tener una imagen de algo con haberlo vivido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es de 1977 y describe un mundo que ya no existe: cámaras de película, revelado en laboratorio, un coste por disparo que obligaba a elegir y un volumen de imágenes ridículo comparado con el actual. Muchos de sus argumentos se refuerzan con el cambio y otros se quedan cortos, porque la fotografía de la que habla la hacían unos pocos y la de hoy la hace todo el mundo a todas horas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay dos reproches de fondo que se le hicieron desde el principio. El primero es de tono: el libro juzga a los fotógrafos desde una superioridad considerable, sin haber practicado el oficio, y sus valoraciones de autores concretos, especialmente la de Diane Arbus, son duras y están poco argumentadas. El segundo lo hizo ella misma: su tesis más famosa, la de que las imágenes anestesian, la retiró por escrito veintiséis años después reconociendo que no tenía pruebas. Este libro se lee mejor sabiendo que su autora acabó discutiendo con él.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "sobre-fotografia": SOBRE_FOTOGRAFIA,
   "roba-artista": ROBA_ARTISTA,
   "por-que-fracasan": POR_QUE_FRACASAN,
   "deja-de-ser-tu": DEJA_DE_SER_TU,

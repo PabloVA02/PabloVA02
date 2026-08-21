@@ -568,22 +568,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "sobre-fotografia",
-    titulo: "Sobre la fotografía",
-    autor: "Susan Sontag",
-    ano: 1977,
-    gancho: "Es el libro más influyente que se ha escrito sobre fotografía y no contiene ni una sola fotografía. La decisión es deliberada y es también su mayor defecto.",
-    porQue: "Porque describió en 1977 un mundo saturado de imágenes que entonces no existía y hoy es el nuestro, y porque su autora corrigió públicamente la tesis central veintiséis años después.",
-    minutos: 22.8,
-    capitulos: [
-      { titulo: "Una librería de Santa Mónica, julio de 1945", minutos: 4.5 },
-      { titulo: "En la caverna de Platón", minutos: 4.7 },
-      { titulo: "Disparar", minutos: 4.4 },
-      { titulo: "La anestesia", minutos: 4.4 },
-      { titulo: "Ante el dolor de los demás", minutos: 4.8 },
-    ],
-  },
-  {
     id: "magia-crear",
     titulo: "La magia de crear",
     autor: "Elizabeth Gilbert",
