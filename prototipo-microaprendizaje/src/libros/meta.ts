@@ -504,22 +504,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "millonario-al-lado",
-    titulo: "El millonario de al lado",
-    autor: "Stanley y Danko",
-    ano: 1996,
-    gancho: "Un profesor de marketing montó una degustación de lujo para diez millonarios y ninguno tocó el foie. Uno le pidió una cerveza y le dijo que solo bebía dos marcas: la gratis y la barata.",
-    porQue: "Porque separa dos cosas que casi todo el mundo confunde y que cuestan mucho dinero confundir: cobrar mucho y ser rico. Y porque su fórmula famosa no sale, y su método tiene el problema que Taleb lleva veinte años denunciando.",
-    minutos: 25.6,
-    capitulos: [
-      { titulo: "Una degustación que nadie tocó", minutos: 5.2 },
-      { titulo: "La camioneta del millonario", minutos: 5.1 },
-      { titulo: "La fórmula que no sale", minutos: 5.1 },
-      { titulo: "El cementerio que no se encuestó", minutos: 5.1 },
-      { titulo: "Renta no es riqueza", minutos: 5.1 },
-    ],
-  },
-  {
     id: "paseo-aleatorio",
     titulo: "Un paseo aleatorio por Wall Street",
     autor: "Burton Malkiel",

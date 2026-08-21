@@ -45290,7 +45290,293 @@ const BOGLE_SENTIDO_COMUN: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El millonario de al lado, en ocho páginas.
+
+   Breve. Libro práctico de dinero → se habla de TÚ. Economía → cada
+   argumento con una persona con nombre, y los términos traducidos.
+
+   El libro trabaja con casos anónimos, así que los nombres propios que
+   sostienen el resumen vienen de fuera y están comprobados: Ronald Read, el
+   empleado de gasolinera de Vermont que dejó ocho millones, y Mike Tyson,
+   que ganó cuatrocientos y quebró. Los dos hacen el mismo trabajo que en La
+   gran apuesta hacían Eisman y Burry: sujetar una idea a una persona.
+
+   Y OJO CON EL FALLO DE MÉTODO, que aquí es el ejemplo de manual: el libro
+   estudia a los que llegaron y deduce por qué llegaron, sin mirar a los que
+   hicieron lo mismo y no llegaron. Va en la conclusión, con nombre.
+   -------------------------------------------------------------------------- */
+
+const MILLONARIO_AL_LADO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "La mayoría de los millonarios no se parecen en nada a un millonario" },
+      {
+        b: "texto",
+        texto:
+          "La mitad de los millonarios estadounidenses encuestados para este libro no había pagado nunca más de 399 dólares por un traje, ni más de 140 por unos zapatos, ni más de 235 por un reloj de pulsera. La marca de coche más común entre ellos era Ford, y el modelo más repetido, una camioneta de trabajo. Un treinta y siete por ciento había comprado su último coche de segunda mano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Thomas Stanley y William Danko, dos profesores universitarios, publicaron estos datos en 1996 después de veinte años entrevistando y encuestando a hogares con más de un millón de dólares de patrimonio. Iban buscando clientes de lujo para las empresas que les pagaban los estudios y encontraron lo contrario: la gente con dinero no compraba casi nada de lo que se le intentaba vender.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La otra sorpresa fue de dónde venían. Ocho de cada diez eran ricos de primera generación, es decir, no habían heredado: hicieron el dinero ellos. Y vivían con menos del siete por ciento de su patrimonio al año. En Texas hay una expresión para lo contrario, y Stanley la usa mucho: sombrero grande y ni una vaca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: la fórmula con la que el libro mide si estás acumulando o gastando, por qué ganar mucho y ser rico no son lo mismo, en qué oficios está de verdad el dinero, qué le pasa a un hijo adulto al que sus padres ayudan, cómo compran un coche los que acumulan, y por qué la calle en la que vives decide cuánto gastas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El dinero que se ve puesto encima de alguien es dinero que ya no está: lo que llamamos aspecto de rico es, casi siempre, aspecto de haber gastado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro convierte la riqueza en una división, y con eso se puede comparar a cualquiera",
+      },
+      {
+        b: "texto",
+        texto:
+          "Stanley y Danko necesitaban una manera de comparar a un cirujano de cincuenta y cinco años con un fontanero de treinta, así que se inventaron una regla: tu patrimonio esperado es tu edad multiplicada por tus ingresos brutos anuales y dividida entre diez. Si tienes cuarenta años y ganas cincuenta mil euros al año, lo esperable es que tengas doscientos mil de patrimonio neto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Patrimonio neto, que es la cifra que importa, significa todo lo que tienes menos todo lo que debes: la casa menos la hipoteca, el coche menos el préstamo, más los ahorros y las inversiones. No es lo que ingresas. Es lo que quedaría si hoy lo vendieras todo y pagaras lo que debes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con esa cuenta el libro parte a la gente en dos. Quien tiene el doble de lo esperado o más es lo que llaman un gran acumulador; quien tiene la mitad o menos, un mal acumulador. Y la gracia es que la etiqueta no depende de cuánto ganes: hay grandes acumuladores con treinta mil euros de sueldo y malos acumuladores con trescientos mil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Haz tú la cuenta antes de seguir leyendo, porque cambia el resto del libro. La mayoría de la gente descubre que está por debajo, y descubre además algo más incómodo: que sabía perfectamente cuánto ganaba y no tenía ni idea de cuánto tenía. La fórmula tiene un defecto serio en los extremos, y está en la conclusión, pero como termómetro sirve.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta correcta no es cuánto ganas, sino cuánto te has quedado de todo lo que has ganado hasta hoy.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un sueldo alto no crea riqueza: crea la posibilidad de crearla y la tentación de gastarla",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ronald Read murió en junio de 2014 en Brattleboro, Vermont, a los noventa y dos años. Había trabajado veinticinco años en una gasolinera y luego diecisiete de conserje en unos grandes almacenes. Llevaba un abrigo con imperdibles y cortaba su propia leña. Al morir dejó un patrimonio de ocho millones de dólares en acciones que había ido comprando durante décadas, y regaló seis a la biblioteca y al hospital de su pueblo. Nadie lo sabía, ni su familia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mike Tyson ingresó a lo largo de su carrera unos cuatrocientos millones de dólares. En 2003 se declaró en bancarrota con veintitrés millones de deuda. Entre sus gastos había tigres de bengala, una fiesta de cumpleaños de cuatrocientos mil dólares y mansiones que no llegó a habitar. Las dos historias caben en la misma frase: el conserje era rico y el campeón del mundo no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro traduce esa diferencia a datos. Los grandes acumuladores que encontraron no ganaban fortunas: el ingreso anual típico de un hogar millonario de su muestra rondaba los ciento treinta y un mil dólares, que es mucho pero no es extraordinario. Lo extraordinario era el porcentaje que no se gastaban, mantenido durante treinta años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un grupo profesional que sale sistemáticamente mal parado: médicos, abogados y directivos intermedios. Stanley lo explica por el coste del estatus, que en esas profesiones no es opcional sino parte del trabajo: la consulta en la zona buena, el traje, el colegio de los hijos, el coche que se ve en el aparcamiento. Ganan más que casi todos y acumulan menos que muchos que ganan la mitad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La riqueza es la diferencia entre lo que entra y lo que sale, y hay oficios en los que la parte que sale viene impuesta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El dinero está en los negocios aburridos, no en los que dan prestigio",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando Stanley hizo la lista de los oficios de los millonarios de su muestra, el resultado parecía una broma. Contratistas de soldadura. Empresas de control de plagas. Propietarios de parques de caravanas. Tintorerías. Empresas de asfaltado. Chatarrerías. Alquiladores de maquinaria de obra. Servicios de limpieza de conductos. Él lo llama negocios normales y aburridos, y son casi todos actividades de las que nadie presume en una cena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El dato duro que va debajo es este: los autónomos y dueños de negocio eran menos del veinte por ciento de los trabajadores estadounidenses y suponían dos tercios de los millonarios. No es que ser empleado impida acumular, porque hay grandes acumuladores con nómina; es que la vía rápida pasaba, en aquella muestra, por tener algo propio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación que da el libro tiene sentido y es comprobable. En un negocio aburrido hay poca competencia por entrar, porque no atrae a nadie; los márgenes son estables porque el servicio es necesario; y el dueño controla lo que se gasta la empresa, que es donde se decide el beneficio. Además, un negocio que nadie envidia no obliga a aparentar nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí hay que poner una advertencia que el libro apenas pone, y es importante antes de que dejes tu trabajo. Stanley entrevistó a los dueños de negocio que llegaron a millonarios; no entrevistó a los que montaron una empresa de asfaltado y la cerraron a los tres años, que en Estados Unidos son aproximadamente la mitad. La foto está tomada al final de la carrera y solo salen los que terminaron.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los negocios que dan dinero suelen ser los que no dan conversación, y esa es exactamente la razón por la que no están llenos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ayudar económicamente a un hijo adulto suele dejarlo con menos patrimonio, no con más",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es el hallazgo más incómodo del libro y el que más lo separa de un manual de ahorro. Stanley encontró que los adultos que reciben dinero de sus padres con regularidad —una entrada para el piso, el coche, la matrícula de los nietos, un ingreso cuando el mes viene mal— acumulan menos patrimonio que quienes no reciben nada, comparando a personas de la misma edad, la misma profesión y el mismo sueldo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo no es que el dinero corrompa. Es que el regalo permite vivir en un nivel que el sueldo no sostiene, y ese nivel, una vez instalado, hay que mantenerlo todos los meses. La ayuda paga la entrada de una casa en un barrio caro, y luego el barrio caro cobra impuestos, colegios, coches y vecinos durante veinte años. El regalo fue una vez; la factura que abre es permanente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una segunda consecuencia que Stanley documenta y que suena dura: quien espera una herencia o una ayuda planifica peor, porque una parte de su futuro no depende de él. Los hijos de millonarios que resultaron ser grandes acumuladores tenían casi todos algo en común: sus padres no les habían dado dinero, les habían dado un negocio en el que trabajar o los habían dejado en paz.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión práctica que él saca, y que puedes discutir, es que la ayuda útil no es la que paga consumo sino la que compra capacidad: una formación, una herramienta, un capital para montar algo. Y una regla suya que se repite en el libro: nunca digas a tus hijos que vas a dejarles dinero, porque a partir de ese día no toman las mismas decisiones.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un regalo puntual instala un nivel de vida permanente, y quien tiene que sostenerlo el resto del año es quien lo recibió.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cómo se compra un coche predice el patrimonio mejor que el sueldo" },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica dos capítulos enteros a los coches, y no por manía. Un coche es la compra grande que más veces se repite en una vida, se financia casi siempre, pierde valor desde el primer día y es la señal de estatus más visible que existe. Por eso funciona como radiografía: quien acumula compra de una manera y quien no, de otra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los datos de la muestra: un tercio largo compró su último coche usado, muchos conducían modelos de más de cinco años, y la marca dominante era Ford. Un porcentaje llamativo pagaba al contado, y un grupo entero de ellos solo compraba coches de empresas que los liquidaban, o coches de segunda mano de un año con la garantía todavía vigente. Nadie renovaba por temporada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena que mejor lo cuenta es la de un millonario al que le ofrecen un Rolls-Royce y lo rechaza. Su argumento no fue el precio: fue que un coche así le obligaría a cambiar de vida entera. Tendría que vestir de otra manera para no desentonar con él, aparcarlo en sitios distintos, comer en otros sitios y dejar de ir con él a comprar madera. Vio la compra como lo que era: la puerta de entrada a un nivel de gasto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la regla que puedes aplicar mañana. Lo que decide tu patrimonio no es tu sueldo, es la diferencia entre lo que entra y lo que sale, y esa diferencia la fijan tres o cuatro decisiones grandes y repetidas: la casa, el coche, el colegio y las vacaciones. Optimizar el café diario no mueve nada; cambiar el coche cada tres años sí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie se arruina por lo que compra todos los días: se arruina por cuatro decisiones grandes que luego cobran todos los meses.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La calle en la que vives decide cuánto gastas, aunque creas que lo decides tú",
+      },
+      {
+        b: "texto",
+        texto:
+          "Stanley encontró que la mayoría de los millonarios de su muestra no vivían en los barrios caros. Vivían en barrios de clase media donde su casa no destacaba, llevaban en ella más de veinte años y eran, casi siempre, la persona con más patrimonio de la calle. Y encontró la simetría: en los barrios caros vivía mucha gente con ingresos altos y patrimonio bajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación es de comparación, no de moral. El gasto de un hogar se calibra mirando alrededor, y no hace falta querer aparentar nada: si en tu calle los coches se renuevan cada tres años, el tuyo de nueve empieza a parecer un problema; si los niños del colegio van a esquiar en febrero, el tuyo pregunta por qué no. El barrio no es donde duermes, es quién te fija el listón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la regla más concreta del libro, y también la más discutible: no compres una casa cuya hipoteca supere el doble de tus ingresos anuales de un año, y no te mudes a un sitio donde vayas a estar en la mitad de abajo. Los millonarios de la muestra vivían en casas cuyo valor era muy inferior al que se podían permitir con su patrimonio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene señalar que esa regla envejeció mal en un aspecto y bien en otro. En España o en Estados Unidos hoy, comprar una casa por el doble de un sueldo anual es imposible en casi cualquier ciudad, así que la cifra ya no sirve. Lo que sí sigue sirviendo es la idea de debajo: el sitio que elijas para vivir va a decidir tu gasto durante veinte años, y esa decisión se toma una sola vez.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Elegir barrio no es elegir dónde dormir: es contratar un nivel de gasto para las dos décadas siguientes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la riqueza no la crea el ingreso sino la distancia entre lo que entra y lo que sale, y que esa distancia se mantiene con hábitos aburridos: vivir por debajo de lo que puedes, no comprar estatus y no subvencionar a hijos adultos. Lo demuestra con veinte años de encuestas a gente que ya lo consiguió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es el retrato, que en 1996 era una noticia y sigue siendo útil: la persona con dinero no es la que lo enseña. Después de leerlo cuesta volver a leer un coche caro como una señal de riqueza, y esa recalibración vale más que cualquiera de sus consejos sueltos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en el sitio más grave que puede fallar un libro así: el método. Stanley estudió a personas que ya eran millonarias y preguntó qué tenían en común. No estudió a los que fueron igual de frugales, montaron el mismo negocio de asfaltado y no llegaron a nada, que no aparecen en ninguna encuesta de millonarios porque no lo son. Con ese diseño se describe a los que llegaron; no se concluye qué los llevó allí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay dos objeciones más, menores y reales. El hogar millonario típico de la muestra ingresaba ciento treinta y un mil dólares en los años noventa, o sea, estaba muy arriba: ahorrar el veinte por ciento con ese sueldo y con el salario mediano son ejercicios distintos, y el libro los trata igual. Y sus datos se recogieron durante la mayor subida bursátil e inmobiliaria de la historia, así que una parte de lo que atribuye a la frugalidad la puso el mercado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de 1996 el libro vendió más de tres millones de ejemplares y fundó un género. Stanley murió en un accidente de tráfico en 2015, y en 2018 su hija Sarah Stanley Fallaw repitió el estudio con una muestra nueva. Los hallazgos aguantaron, con dos correcciones: los millonarios de ahora viven en casas más caras, y lo que mejor predecía el patrimonio no era el ingreso sino un puñado de comportamientos medibles.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Léelo como un retrato excelente de quienes acumularon, y no como la receta de por qué acumularon: el estudio no puede contestar esa segunda pregunta.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "millonario-al-lado": MILLONARIO_AL_LADO,
   "bogle-sentido-comun": BOGLE_SENTIDO_COMUN,
   einstein: EINSTEIN,
   "musica-primos": MUSICA_PRIMOS,

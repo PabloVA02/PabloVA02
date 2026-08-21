@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "millonario-al-lado":
+    "La mitad de los millonarios encuestados no había pagado nunca más de 235 dólares por un reloj, y ocho de cada diez no habían heredado nada. Veinte años de encuestas para averiguar qué hacen distinto.",
+
   "bogle-sentido-comun":
     "De los 355 fondos de bolsa que existían en Estados Unidos en 1970, tres batieron al mercado durante treinta y cinco años. Bogle explica por qué eso no es mala suerte, sino una resta que no puede salir de otra manera.",
 

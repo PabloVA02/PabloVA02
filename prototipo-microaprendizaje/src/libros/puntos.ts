@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "millonario-al-lado": [
+    "la fórmula que dice si acumulas o gastas, con tu edad y tu sueldo",
+    "por qué médicos y abogados salen mal parados",
+    "en qué oficios estaban de verdad los millonarios",
+    "qué le pasa a un hijo adulto al que sus padres ayudan",
+    "detectar el fallo de método que arrastra todo el libro",
+  ],
+
   "bogle-sentido-comun": [
     "por qué los gestores en conjunto no pueden ganar al mercado",
     "cuánto se lleva de verdad una comisión del dos por ciento",
