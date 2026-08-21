@@ -45269,12 +45269,12 @@ const BOGLE_SENTIDO_COMUN: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Falla en tres sitios. Es repetitivo hasta lo agotador, porque el mismo argumento vuelve en cada capítulo con otra tabla. Está calculado entero sobre la bolsa estadounidense del siglo XX, que es el mercado que mejor se portó de todos los que existían en 1900, y apenas discute qué habría pasado con el mismo método en Tokio o en Buenos Aires. Y le dedica dos líneas al problema que más duele, que es aguantar una caída del cincuenta por ciento con el dinero propio dentro.",
+          "Falla en tres sitios. Es repetitivo hasta lo agotador, porque el mismo argumento vuelve en cada capítulo con otra tabla. Está calculado entero sobre la bolsa estadounidense del siglo XX, que es el mercado que mejor se portó de todos los que existían en 1900, y apenas discute qué habría pasado con el mismo método en Tokio o en Buenos Aires. Y le dedica dos líneas al problema que más duele: aguantar una caída del cincuenta por ciento con el dinero propio dentro.",
       },
       {
         b: "texto",
         texto:
-          "Lo que vino después le dio la razón. En agosto de 2019 los fondos índice sobre bolsa estadounidense superaron por primera vez en patrimonio a los de gestión activa. La comisión media ponderada de los fondos allí bajó del cero coma ocho y siete por ciento de 2004 al cero coma tres y seis de 2023, según Morningstar, y en 2018 Fidelity lanzó fondos índice sin comisión alguna.",
+          "Lo que vino después le dio la razón. En agosto de 2019 los fondos índice sobre bolsa estadounidense superaron por primera vez en patrimonio a los de gestión activa. La comisión media ponderada allí bajó del cero coma ocho y siete por ciento de 2004 al cero coma tres y seis de 2023, según Morningstar, y en 2018 Fidelity lanzó fondos índice sin comisión.",
       },
       {
         b: "texto",
