@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "rafa-mi-historia":
+    "Nadal cuenta su vida alternándola con la final de Wimbledon de 2008, punto a punto. Su tesis es incómoda: es un hombre miedoso, y lo que le hizo distinto fue un método familiar muy estricto.",
+
   "soy-zlatan":
     "La autobiografía del delantero sueco, escrita con David Lagercrantz. Un chico de un barrio de inmigrantes decide que no va a encajar en ningún sitio y convierte esa decisión en un método para mandar en cualquier vestuario.",
 

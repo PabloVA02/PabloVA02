@@ -290,7 +290,7 @@ export const CATALOGO: Ficha[] = [
   { id: "cruyff-14", titulo: "14. La autobiografía de Johan Cruyff", autor: "Johan Cruyff", ano: 2016, categoria: "Deportes", estado: "escrito" },
   { id: "soy-zlatan", titulo: "Yo soy Zlatan Ibrahimović", autor: "David Lagercrantz", ano: 2011, categoria: "Deportes", estado: "escrito" },
   { id: "open-agassi", titulo: "Open", autor: "Andre Agassi", ano: 2009, categoria: "Deportes", estado: "escrito" },
-  { id: "rafa-mi-historia", titulo: "Rafa, mi historia", autor: "Rafael Nadal y John Carlin", ano: 2011, categoria: "Deportes", estado: "pendiente" },
+  { id: "rafa-mi-historia", titulo: "Rafa, mi historia", autor: "Rafael Nadal y John Carlin", ano: 2011, categoria: "Deportes", estado: "escrito" },
   { id: "moneyball", titulo: "Moneyball", autor: "Michael Lewis", ano: 2003, categoria: "Deportes", estado: "pendiente" },
   { id: "once-anillos", titulo: "Once anillos", autor: "Phil Jackson", ano: 2013, categoria: "Deportes", estado: "pendiente" },
   { id: "mamba-mentality", titulo: "Mamba Mentality", autor: "Kobe Bryant", ano: 2018, categoria: "Deportes", estado: "pendiente" },

@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "rafa-mi-historia": "El mejor partido de la historia contado desde dentro",
   "soy-zlatan": "Del barrio de bloques de Malmö al despacho de Guardiola",
   "cruyff-14": "La explicación que dio de sí mismo el hombre que cambió el fútbol",
   "fiebre-gradas": "Veintitrés años de hincha del Arsenal contados como una dependencia",

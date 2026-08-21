@@ -59753,7 +59753,271 @@ const SOY_ZLATAN: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Rafa, mi historia, en ocho páginas.
+
+   Breve. Autobiografía → títulos cortos de imagen, la afirmación en la
+   primera frase y la caja del rayo en segunda persona (apartado 3 bis).
+
+   El libro alterna capítulos de la final de Wimbledon de 2008 con capítulos
+   de su vida, y esa estructura es media gracia del original. Aquí no se
+   puede alternar en ocho páginas, así que la final abre y vuelve a aparecer
+   en la séptima, que es la de Federer.
+
+   Riesgo principal: un tenista simpático produce un resumen sin filo. La
+   tesis que se defiende es la suya y es incómoda: que es un hombre
+   miedoso y que ese es el asunto del libro.
+   -------------------------------------------------------------------------- */
+
+const RAFA_MI_HISTORIA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "La final que se quedó sin luz" },
+      {
+        b: "texto",
+        texto:
+          "El 6 de julio de 2008, Rafael Nadal y Roger Federer jugaron durante casi cinco horas la final de Wimbledon que casi todo el mundo considera el mejor partido de tenis de la historia. Nadal ganó los dos primeros sets, perdió los dos siguientes en muerte súbita después de tener dos puntos de partido, y acabó ganando el quinto por nueve juegos a siete.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hubo dos interrupciones por lluvia y el partido terminó pasadas las nueve de la noche, con la pista casi a oscuras y los jugadores adivinando la pelota. El libro está construido alrededor de ese día: los capítulos de la final se van alternando con los de su vida, punto a punto, de modo que cada recuerdo aparece cuando explica algo de lo que está pasando en la pista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La elección no es decorativa. Nadal quiere demostrar que un partido así no se gana con talento ni con golpes, sino con lo que uno lleva encima antes de entrar: cómo le enseñaron a perder, qué hace con el miedo, cuántas veces ha repetido el mismo gesto. La final es la prueba y su infancia es la explicación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo escribió con John Carlin, el periodista británico autor del libro sobre Mandela y el rugby que se llevó al cine. Eso se nota en el resultado: hay un narrador que sabe montar una escena y un deportista que aporta un material honesto y bastante menos heroico de lo que se esperaría.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que decide un momento importante lo tenías puesto encima mucho antes de llegar a él.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El tío Toni" },
+      {
+        b: "texto",
+        texto:
+          "El entrenador de Nadal desde los tres años fue su tío Toni, y su método consistía en no ponerle nunca las cosas fáciles. Le hacía barrer la pista al terminar y recoger las pelotas él solo, le daba las raquetas más viejas del club y, si alguna vez se le ocurría quejarse del viento o de la superficie, le recordaba que el rival estaba jugando en la misma pista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La norma principal era la de las raquetas: si rompía una, se acabó. Nadal cuenta que no ha roto ninguna en toda su carrera, y ese detalle explica media personalidad pública. No es que no se enfade; es que le enseñaron desde los cuatro años que enfadarse en voz alta es una manera de decirle al rival que le estás sufriendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro invento de Toni fue la mano izquierda. Rafael escribe, come y juega al golf con la derecha, pero de pequeño golpeaba con las dos manos por los dos lados y su tío le hizo elegir una sola para la derecha. Eligió la izquierda, que es la que menos zurdos hay y la que más molesta al resto del circuito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro no esconde lo duro que fue. Hubo humillaciones delante de otros niños, exigencias desproporcionadas y años en los que el sobrino no entendía por qué a él se le trataba peor que a nadie. Nadal defiende el método y a la vez deja escrito, sin subrayarlo, que hoy no todo el mundo lo aceptaría.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quejarte en voz alta de las condiciones le anuncia a tu rival que ya vas perdiendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un hombre con miedo a todo" },
+      {
+        b: "texto",
+        texto:
+          "La confesión que sostiene el libro entero es que Rafael Nadal es una persona miedosa. Le dan miedo la oscuridad, las tormentas, los perros, volar en avión y quedarse solo en casa por la noche, y a los veinticinco años seguía llamando a su madre o a su hermana cuando le tocaba dormir solo. Lo cuenta sin ninguna coquetería.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la pista el miedo tampoco desaparece. Describe con detalle lo que le pasa por dentro sirviendo con bola de partido: la mano que pesa, la certeza de que va a fallar, las ganas de que aquello se acabe de cualquier manera. La imagen del hombre imperturbable que da la televisión es, según él, exactamente eso: una imagen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que el valor no consiste en no tener miedo sino en no dejar que el miedo elija el golpe. Un jugador asustado tiende a jugar corto, a esperar el fallo del otro y a no arriesgar. Todo su entrenamiento mental consiste en obligarse a hacer el golpe que hay que hacer justo cuando el cuerpo pide el contrario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso el libro insiste en la humildad como táctica y no como virtud. Si das por hecho que puedes perder con cualquiera, sales concentrado desde el primer punto; si te crees superior, el primer contratiempo te desmonta. Es una manera bastante fría de administrar una carrera y le funcionó veinte años.",
+      },
+      { b: "idea", texto: "El valor no es dejar de tener miedo: es que el miedo no elija por ti." },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las botellas alineadas" },
+      {
+        b: "texto",
+        texto:
+          "Las rutinas de Nadal en la pista son famosas y él las explica de una manera que no tiene nada de mágico. Las dos botellas colocadas siempre igual, en el mismo sitio y con la etiqueta hacia el mismo lado, no traen suerte: son una manera de ocupar la cabeza en algo controlable durante los veinte segundos en que la cabeza tiende a irse a otra parte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mismo vale para el resto. No pisar las líneas, la secuencia fija antes de sacar, la ducha fría cuarenta y cinco minutos antes de cada partido. Todo forma un guion que empieza mucho antes del primer punto y que sirve para llegar a la pista con el interruptor ya encendido, sin depender de cómo se haya levantado ese día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Debajo hay una idea que se aplica a cualquier oficio: la concentración no es un rasgo del carácter, es una habilidad que se entrena y que se agota. Un partido de cinco horas son unos trescientos puntos y ninguna persona puede estar atenta cinco horas seguidas, así que el trabajo consiste en volver a encenderse trescientas veces.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Antes", texto: "ducha fría, la misma música y el mismo orden de vendajes en todos los torneos." },
+          { fuerte: "Entre punto y punto", texto: "una secuencia fija de gestos que ocupa la cabeza y evita pensar en el marcador." },
+          { fuerte: "En el cambio", texto: "las botellas colocadas igual, para tener algo que controlar cuando nada más lo está." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "Una rutina no da suerte: te ocupa la cabeza justo en el rato en que se te iría a otro sitio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "No irse nunca de Manacor" },
+      {
+        b: "texto",
+        texto:
+          "Nadal siguió viviendo toda su carrera en el pueblo de Mallorca donde nació, a unos metros de su familia, y el libro lo presenta como la decisión deportiva más importante que tomó. La familia entera funcionaba como un sistema para que el número uno del mundo siguiera siendo, dentro de casa, el sobrino al que se le corrige.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Había una regla explícita: nada de trato especial. Terminó el colegio, comía con todos, recogía su plato, y cuando ganó Roland Garros con diecinueve años le tocó volver a un sitio donde ese título no le eximía de nada. Su tío y su padre coincidían en que el peligro no era perder partidos, era creerse el personaje.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A los doce años hubo que elegir. Jugaba al fútbol razonablemente bien —su tío Miguel Ángel fue jugador del Barcelona y de la selección— y su padre le puso delante la decisión: no se podía hacer todo. Eligió el tenis, y el libro cuenta que la elección le costó y que nadie la tomó por él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que defiende es la ventaja de una vida aburrida. Un deportista que viaja treinta semanas al año necesita que las otras veintidós sean idénticas, previsibles y llenas de gente que le conoce desde antes. La estabilidad no era un gusto personal: era la infraestructura que hacía posible todo lo demás.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuanto más se mueve tu trabajo, más quieto tiene que estar todo lo demás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El año en que todo se rompió" },
+      {
+        b: "texto",
+        texto:
+          "En 2009 se le vino abajo el sistema completo, y el libro dedica a ese año sus páginas más honestas. Sus padres se separaron después de treinta años juntos, él se enteró tarde y reaccionó peor de lo que esperaba de sí mismo: dejó de dormir, perdió peso y descubrió que la vida ordenada que sostenía su tenis no era tan sólida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En Roland Garros, donde llevaba cuatro títulos seguidos y ninguna derrota, cayó en octavos contra Robin Söderling. Después se le inflamaron los dos tendones de las rodillas y tuvo que renunciar a defender Wimbledon. En unos meses pasó de ser imbatible a no saber si podría seguir jugando a ese nivel.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es lo que concluye. No dice que el dolor le hiciera más fuerte ni que aprendiera una gran lección: dice que estuvo mal, que jugó mal porque estaba mal, y que un deportista no es una máquina a la que se le puedan separar los problemas de casa del rendimiento del martes por la tarde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La recuperación tardó un año. En 2010 ganó Roland Garros, Wimbledon y el Abierto de Estados Unidos, y con veinticuatro años completó los cuatro grandes títulos de su carrera. El libro se cierra ahí, en la temporada más completa que hizo nunca, y por eso tiene el tono de alguien que acaba de comprobar que ha vuelto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando lo de casa se rompe, el trabajo se resiente, y fingir que no pasa lo empeora.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El rival que le hizo mejor" },
+      {
+        b: "texto",
+        texto:
+          "La rivalidad con Roger Federer ocupa medio libro y Nadal la explica como una relación entre opuestos que se necesitan. Federer jugaba con una elegancia que parecía no costarle nada; él llegaba a todas las bolas corriendo y sudando. Uno tenía el don y el otro tenía el método, y durante quince años cada uno obligó al otro a hacerse algo que no era.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre la hierba de Wimbledon, la superficie más ajena a su tenis, tuvo que cambiar cosas concretas: sacar más plano y más rápido, subir a la red, acortar los puntos y aplanar el revés. Perdió allí las finales de 2006 y de 2007 antes de ganar la de 2008, y las dos derrotas le sirvieron de temario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El respeto entre ambos es real y el libro lo sostiene sin sentimentalismo. Nadal cuenta que Federer le felicitó en el vestuario después de aquella final y que él fue incapaz de decir nada coherente. Ninguno de los dos ha hablado nunca mal del otro en veinte años de circuito, lo cual, en el deporte profesional, es rarísimo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su conclusión sobre la rivalidad se puede llevar a cualquier sitio. Un rival muy superior en algo te obliga a construir un plan; sin él te quedas repitiendo lo que ya se te da bien. Nadal sostiene que sin Federer habría ganado más partidos y habría sido peor jugador.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un rival que te supera en algo te obliga a inventar un plan que solo se te ocurre por necesidad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Rafa, mi historia sostiene una idea que va contra casi todo el género: que el mejor jugador de tierra batida de la historia es un hombre miedoso, inseguro y bastante corriente, y que lo que le hizo distinto no fue el talento sino un sistema familiar muy estricto y una capacidad entrenada de volver a concentrarse trescientas veces por partido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la parte técnica de la cabeza. Explica cómo funcionan las rutinas sin recurrir a la superstición, por qué la humildad puede ser una herramienta táctica y no una virtud, y qué se hace exactamente con el miedo cuando ya está ahí y no se va a ir. Sirve fuera del tenis y es la razón de que se siga leyendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en lo que calla. El método del tío Toni se defiende sin examinarlo, y hay episodios que hoy nadie aplicaría con un niño de ocho años. Del dinero, del negocio y de la industria del tenis no hay nada, y de las personas con las que rompió tampoco. Es un libro amable escrito por alguien que no quiere hacer daño a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y se publicó demasiado pronto. Salió en 2011, cuando llevaba diez títulos grandes, así que se pierde las lesiones largas, los regresos improbables y la mitad de su carrera. La conclusión que ofrece es la de un hombre de veinticinco años convencido de que ya sabe cómo funciona todo aquello.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después le dio la razón en lo esencial. Ganó catorce Roland Garros y veintidós títulos grandes, volvió de operaciones que se daban por terminales y se retiró en noviembre de 2024 en la Copa Davis de Málaga, llorando, con la misma familia en la grada que aparece en la primera página del libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La constancia no es un rasgo de carácter: es un sistema que alguien monta a tu alrededor y que tú mantienes.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "rafa-mi-historia": RAFA_MI_HISTORIA,
   "soy-zlatan": SOY_ZLATAN,
   "cruyff-14": CRUYFF_14,
   "fiebre-gradas": FIEBRE_GRADAS,

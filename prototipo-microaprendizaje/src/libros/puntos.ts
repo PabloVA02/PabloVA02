@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "rafa-mi-historia": [
+    "cómo era el método de entrenamiento del tío Toni",
+    "por qué juega con la izquierda si es diestro",
+    "para qué sirven de verdad las botellas alineadas",
+    "qué le pasó en el año en que todo se rompió",
+    "qué le enseñaron las dos finales que perdió antes",
+  ],
+
   "soy-zlatan": [
     "por qué unos padres pidieron que lo echaran del equipo",
     "qué le enseñó Capello que no sabía hacer",
