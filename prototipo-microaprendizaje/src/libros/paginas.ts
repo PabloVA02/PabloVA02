@@ -50658,7 +50658,7 @@ const MUJERCITAS: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Lo que vino después ha ido revelando a la autora que el libro escondía. Alcott no se casó nunca y murió en 1888, dos días después que su padre. En el siglo XX se descubrió que había firmado con seudónimo un puñado de novelas de intriga muy alejadas de esta. Y en 2019 la película de Greta Gerwig llevó al cine lo que decían sus diarios: montó la historia de modo que el matrimonio final aparece como lo que fue, una negociación entre una escritora y su editor.",
+          "Lo que vino después ha ido revelando a la autora que el libro escondía. Alcott no se casó nunca y murió en 1888, dos días después que su padre. En el siglo XX se descubrió que había firmado con seudónimo novelas de intriga muy alejadas de esta. Y en 2019 la película de Greta Gerwig llevó al cine lo que decían sus diarios: montó la historia de modo que el matrimonio final aparece como lo que fue, una negociación con su editor.",
       },
       {
         b: "idea",
