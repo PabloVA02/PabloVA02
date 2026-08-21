@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "sobre-tirania": [
+    "qué es la obediencia anticipada y por qué decide tanto",
+    "qué porcentaje de votos sacaron realmente los nazis",
+    "qué papel tuvieron los profesionales con título",
+    "cómo se estropea un idioma antes que una ley",
+    "qué hizo un incendio en Berlín en veinticuatro horas",
+  ],
+
   mandela: [
     "en qué consistía el apartheid como cuerpo de leyes",
     "por qué en 1961 dejó de defender la no violencia",

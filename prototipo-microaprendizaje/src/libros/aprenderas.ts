@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "sobre-tirania":
+    "Ciento veintiocho páginas con veinte lecciones sacadas de cómo cayeron las democracias europeas entre las dos guerras. Su premisa es que nadie de hoy es más resistente que aquellos ciudadanos: solo tenemos su caso documentado.",
+
   mandela:
     "Empezó a escribirlo a escondidas en la cárcel en 1975 y enterraba las hojas en botes en el patio; los guardias encontraron una parte. Es un relato político con estrategia y errores propios, no una colección de frases sobre el perdón.",
 

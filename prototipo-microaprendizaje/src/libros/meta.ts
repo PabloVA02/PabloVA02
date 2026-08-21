@@ -248,22 +248,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "sobre-tirania",
-    titulo: "Sobre la tiranía",
-    autor: "Timothy Snyder",
-    ano: 2017,
-    gancho: "Un catedrático de Yale escribió veinte consejos en Facebook una semana después de unas elecciones. Se compartieron cientos de miles de veces y acabaron siendo un libro de bolsillo de ciento veintiocho páginas sin una sola nota al pie.",
-    porQue: "Porque su primera lección —la obediencia anticipada— es de las mejores ideas políticas que se han divulgado este siglo, y está bien documentada. Y porque el resto del libro sirve para aprender a distinguir un buen argumento histórico de una buena analogía histórica, que no son lo mismo.",
-    minutos: 26.2,
-    capitulos: [
-      { titulo: "Una entrada de Facebook en noviembre de 2016", minutos: 5.2 },
-      { titulo: "Obedecer antes de que te lo pidan", minutos: 5.3 },
-      { titulo: "El incendio del Reichstag", minutos: 5 },
-      { titulo: "Las palabras que se vacían", minutos: 5.2 },
-      { titulo: "El verdulero de Praga y su cartel", minutos: 5.5 },
-    ],
-  },
-  {
     id: "imperiofobia",
     titulo: "Imperiofobia y leyenda negra",
     autor: "María Elvira Roca Barea",

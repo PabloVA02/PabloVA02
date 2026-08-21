@@ -22268,7 +22268,247 @@ const MANDELA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Sobre la tiranía, en ocho páginas.
+
+   Breve, y aquí no hay duda: el libro original tiene 128 páginas.
+
+   Ensayo histórico: titular que afirma, tercera persona. Snyder usa el
+   «tú» todo el rato porque son consejos; nosotros lo dejamos para la caja
+   del rayo y explicamos en tercera.
+
+   La conclusión lleva el reproche de oficio que le hacen otros
+   historiadores a la analogía 1933-2017. Sin eso sería un panfleto.
+   -------------------------------------------------------------------------- */
+
+const SOBRE_TIRANIA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No somos más sabios que los europeos que vieron caer sus democracias",
+      },
+      {
+        b: "texto",
+        texto:
+          "Este libro tiene ciento veintiocho páginas y se lee en una hora. Timothy Snyder, historiador de Yale especializado en la Europa central y oriental del siglo XX, lo escribió deprisa a finales de 2016 y lo publicó en 2017 como una lista de veinte lecciones prácticas sacadas de cómo cayeron las democracias europeas entre las dos guerras mundiales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su premisa está en el prólogo y es la que sostiene todo lo demás. La historia no se repite, pero enseña; y los ciudadanos de las democracias actuales no son ni más listos ni más resistentes que los alemanes de 1933, los italianos de 1922 o los checos de 1948. La única ventaja que tienen es que aquello ya ocurrió y está documentado, mientras que quienes lo vivieron no tenían ningún precedente que consultar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Snyder había escrito antes Tierras de sangre, un estudio sobre los catorce millones de civiles asesinados entre Alemania y la Unión Soviética en la región que va de Polonia a Ucrania. Ese es el material del que salen los ejemplos de este libro, y por eso las veinte lecciones no son consejos de opinión: cada una viene con un caso concreto detrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren las que más peso tienen: por qué buena parte del poder se entrega antes de que nadie lo pida, por qué las instituciones no aguantan solas, qué porcentaje de votos sacaron realmente los nazis, qué papel tuvieron los profesionales con título, cómo se estropea un idioma antes que una ley y qué hizo un incendio en Berlín en veinticuatro horas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quienes vieron caer sus democracias no eran más ingenuos: eran los primeros, y no tenían ningún ejemplo anterior que mirar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La mayor parte del poder se entrega antes de que nadie la pida" },
+      {
+        b: "texto",
+        texto:
+          "La primera lección del libro es la más incómoda y se llama no obedezcas por adelantado. Snyder sostiene que gran parte del poder de un régimen autoritario se lo regalan de antemano, sin coacción, personas que se anticipan a lo que creen que se va a exigir. A eso lo llama obediencia anticipada, y dice que es lo que le enseña a un gobierno hasta dónde puede llegar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que usa es la anexión de Austria en marzo de 1938. Cuando las tropas alemanas entraron en Viena no llegaba con ellas ninguna orden concreta sobre qué hacer con los judíos austríacos. Y sin embargo, en cuestión de días, vecinos corrientes los sacaron a la calle a limpiar el pavimento de rodillas con cepillos de dientes, saquearon comercios y ocuparon viviendas. Nadie lo había mandado. Aquella iniciativa espontánea le mostró a Berlín que era posible ir mucho más lejos de lo que se había planeado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El experimento de obediencia de Stanley Milgram, de 1961, apunta en la misma dirección desde otro lado: la gente hace lo que cree que se espera de ella con una facilidad que a ella misma le sorprendería. Snyder saca de ahí una regla práctica: en un momento de cambio político, lo primero que hay que preguntarse no es qué me van a obligar a hacer, sino qué estoy haciendo ya sin que me lo hayan pedido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un poder nuevo aprende hasta dónde puede llegar mirando lo que la gente hace sola antes de que se lo manden.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las instituciones no se defienden solas y caen de una en una" },
+      {
+        b: "texto",
+        texto:
+          "La segunda lección corrige una creencia muy extendida: la de que existe un conjunto de contrapesos —tribunales, prensa, parlamento, sindicatos— que funciona como un sistema y que, si uno falla, los otros compensan. Snyder sostiene lo contrario: caen de una en una, y cada caída facilita la siguiente porque las demás se quedan sin ejemplo al que agarrarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El error habitual, dice, es dar por hecho que las instituciones aguantarán por su propio peso, y da un ejemplo que corta la respiración. En 1933, el principal periódico de los judíos alemanes publicó un editorial sosteniendo que no compartía la idea de que Hitler y los suyos, ya en el poder, fueran a aplicar de verdad lo que llevaban años anunciando en su propia prensa. Era la lectura sensata en aquel momento y fue exactamente la equivocada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su consejo práctico es concreto y algo raro: elegir una institución que a uno le importe —un tribunal, un periódico, una ley, un sindicato— y ponerse de su lado antes de que la necesite. No porque sea perfecta, sino porque una institución sin nadie que la defienda cuando le toca desaparece sin que nadie tenga que prohibirla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las instituciones no caen todas juntas: cae una, y con ella cae el precedente que sostenía a las demás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los nazis nunca ganaron unas elecciones libres por mayoría" },
+      {
+        b: "texto",
+        texto:
+          "La tercera lección viene con las cifras que casi nadie recuerda. En las elecciones alemanas de julio de 1932, el partido nazi obtuvo alrededor del treinta y siete por ciento de los votos. En las de noviembre del mismo año bajó al treinta y tres. Nunca alcanzó la mayoría absoluta en unas elecciones libres. Hitler llegó a canciller el 30 de enero de 1933 por un acuerdo de despacho entre conservadores que creían que podrían manejarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca Snyder su aviso sobre el Estado de partido único. Lo característico de estos procesos no es un golpe con tanques, sino una fuerza que llega al gobierno por vías normales y después cambia las reglas que permitirían echarla: la ley electoral, los tribunales que la revisan, el reparto de circunscripciones y quién puede votar. El momento decisivo no son las elecciones que gana, son las siguientes, que ya no son iguales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su recomendación es igual de concreta que las anteriores: apoyar el sistema de partidos que existe, presentarse a cargos locales aunque sean menores y vigilar de cerca cualquier cambio en las reglas del voto, porque son los que menos titulares generan y los que más efecto tienen.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo importante no es la elección que gana un partido así: es la siguiente, que ya se celebra con otras reglas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Sin profesionales haciendo bien su trabajo, aquello no habría funcionado",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lección sobre la ética profesional es la que más se cita entre juristas y médicos, y su argumento es de logística. Un régimen que quiere hacer algo enorme necesita gente con título. Necesita abogados que redacten decretos de expropiación, jueces que los apliquen, funcionarios que lleven los registros, médicos que firmen informes, empresarios que acepten mano de obra forzada y ferroviarios que organicen horarios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Snyder lo dice sin rodeos: sin abogados que consideraran normal privar a alguien de sus bienes por una ley recién aprobada, sin médicos dispuestos a experimentar, sin empresas dispuestas a usar trabajadores esclavos y sin burócratas que llevaran las listas al día, aquello no habría podido ocurrir a esa escala. Ninguno de esos oficios necesitaba haber odiado a nadie; le bastaba con hacer su trabajo sin preguntar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su conclusión práctica es que cada profesión tiene un código propio anterior a cualquier gobierno, y que ese código es una defensa real cuando se invoca colectivamente. Un juez solo no puede hacer mucho; un colegio de abogados que se niega a redactar algo tiene un peso que ningún decreto arregla en una tarde. Por eso los regímenes autoritarios se ocupan pronto de los colegios profesionales.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ninguna catástrofe administrativa la ejecutan fanáticos: la ejecutan titulados haciendo bien su trabajo y sin preguntar para qué.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El idioma se estropea bastante antes que la ley" },
+      {
+        b: "texto",
+        texto:
+          "Dos de las veinte lecciones son sobre el lenguaje, y las dos se apoyan en el mismo testigo. Victor Klemperer era un filólogo judío alemán que sobrevivió en Dresde por estar casado con una mujer no judía, y que durante doce años fue apuntando en un diario cómo cambiaban las palabras a su alrededor. Publicó el resultado en 1947 con el título de la lengua del Tercer Reich.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que observó no fue la aparición de un vocabulario nuevo, sino el vaciado del que ya existía. Palabras corrientes se cargaron de un significado excluyente: el pueblo dejó de significar todos y pasó a significar todos menos algunos. Otras cambiaron de signo: fanático, que era un insulto, se convirtió en un elogio. Y el idioma se llenó de fórmulas que se repetían hasta que ya no admitían pregunta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca Snyder la lección sobre la verdad, con cuatro maneras de matarla que toma de Klemperer. La hostilidad abierta a los hechos comprobables, presentando invenciones como datos. La repetición de eslóganes hasta que suenan a evidencia. La aceptación tranquila de contradicciones, que exige creer dos cosas incompatibles a la vez. Y la fe puesta en una persona en lugar de en lo que se puede verificar. Cuando las cuatro están operando, la ley que venga después ya no encuentra resistencia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando una palabra corriente empieza a significar «todos menos algunos», el cambio legal ya solo es papeleo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Bastaron un incendio y un decreto de un día" },
+      {
+        b: "texto",
+        texto:
+          "La lección más citada del libro se llama mantén la calma cuando ocurra lo impensable, y tiene detrás una fecha exacta. La noche del 27 de febrero de 1933 ardió el edificio del Reichstag, el parlamento alemán. Hitler llevaba cuatro semanas de canciller y gobernaba en coalición, con un margen estrecho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al día siguiente, el 28 de febrero, se firmó un decreto de emergencia para la protección del pueblo y del Estado que suspendía la libertad de expresión, la de reunión, la de prensa, el secreto de las comunicaciones y la garantía de que nadie puede ser detenido sin pasar por un juez. No era una ley nueva: era la suspensión de las que había. Ese decreto no se levantó jamás y estuvo vigente hasta 1945. En las semanas siguientes se detuvo a miles de personas sin proceso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lección que Snyder saca no es sobre quién prendió el fuego, asunto que sigue discutiéndose. Es sobre el uso: un atentado o una catástrofe le entrega a un gobierno la posibilidad de pedir poderes que en tiempo normal nadie le daría, y esos poderes casi nunca se devuelven. Él mismo hace el paralelo con lo que ocurrió en Estados Unidos después de septiembre de 2001.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí su consejo, que suena raro hasta que se entiende: cuando ocurra algo terrible, mantener la cabeza fría y desconfiar del que se ofrezca a arreglarlo a cambio de la libertad de todos, porque ese momento es exactamente para lo que llevaba esperando.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los poderes que se conceden por una emergencia se devuelven muchísimo menos veces de las que se conceden.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Sobre la tiranía reúne veinte lecciones sacadas de cómo cayeron las democracias europeas entre 1918 y 1948, cada una con su caso documentado. Las que más peso tienen sostienen tres cosas: que buena parte del poder se entrega antes de que nadie la exija, que las instituciones caen de una en una y sin ruido, y que el lenguaje se corrompe bastante antes que la legislación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es el formato. Es un libro de historia convertido en lista de comprobación, con las lecciones ordenadas de las más fáciles a las más costosas, y con la ventaja de que se puede releer entero en una hora cuando hace falta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La historia no se repite, pero instruye; y su primera instrucción es que nadie se salva por ser más listo que la generación anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es un panfleto escrito con prisa para un país y un momento concretos, y las veinte lecciones son desiguales: junto a las que se apoyan en archivo hay consejos de estilo de vida —mirar a la gente a los ojos, tener un pasaporte, leer libros en papel— que no están al mismo nivel y bajan el tono del conjunto. Además, el libro explica cómo defender instituciones que todavía funcionan y no dice nada sobre qué hacer cuando ya han cedido, que es la situación de la mayoría de los casos que él mismo estudia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un reproche de oficio que le hacen otros historiadores del mismo campo. Comparar la Alemania de 1933 con una democracia consolidada del siglo XXI es precisamente el tipo de analogía que la disciplina suele desaconsejar, porque los contextos —una guerra perdida, una hiperinflación, milicias armadas en la calle, una república de catorce años— no se parecen. Especialistas en el Tercer Reich como Richard Evans lo han señalado. Snyder responde que él no compara situaciones sino mecanismos, y esa distinción es razonable, aunque el formato de lista corta no siempre la respeta.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "sobre-tirania": SOBRE_TIRANIA,
   mandela: MANDELA,
   "eichmann-jerusalen": EICHMANN_JERUSALEN,
   malala: MALALA,
