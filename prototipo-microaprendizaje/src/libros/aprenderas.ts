@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "viejo-mar":
+    "Un pescador lleva ochenta y cuatro días sin coger nada. El día ochenta y cinco engancha un pez más grande que su barca y pasa tres días peleando con él en alta mar.",
+
   montecristo:
     "A un marinero de diecinueve años lo detienen en su propia boda por una denuncia falsa y lo encierran catorce años. Sale convertido en otra persona y dedica nueve años a devolver el golpe.",
 

@@ -16994,7 +16994,234 @@ const MONTECRISTO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El viejo y el mar, en ocho páginas.
+
+   Breve, y el libro tiene cien páginas: el resumen es casi tan largo como
+   la novela, y por eso hay que contar lo que NO se ve, que es donde
+   Hemingway puso todo.
+
+   Registro narrativo. Lo que casi nadie cuenta y aquí sí está: la teoría
+   del iceberg explicada con lo que este libro se calla; que se publicó
+   entero en una revista y vendió cinco millones en dos días; y que
+   Hemingway negó por escrito todos los simbolismos que le colgaron.
+   -------------------------------------------------------------------------- */
+
+const VIEJO_MAR: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ochenta y cuatro días sin pescar" },
+      {
+        b: "texto",
+        texto:
+          "Un pescador viejo lleva ochenta y cuatro días saliendo al mar y volviendo con el bote vacío. Los primeros cuarenta salió con un chico que lo ayudaba; después los padres del chico lo obligaron a cambiarse a otra barca, porque el viejo estaba definitivamente salao, que es la peor forma de la mala suerte. La vela remendada de su bote, dice el libro, parece la bandera de una derrota permanente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es todo lo que hay que saber para empezar. El día ochenta y cinco sale solo, mar adentro, más lejos que nadie, y engancha un pez espada más grande que su barca. Lo que viene después son tres días y dos noches en el agua. No hay ningún otro personaje ni ninguna otra trama.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ciento diez páginas. Se publicó en 1952 y ocurrió algo que no ha vuelto a pasar: la revista Life lo sacó completo en un solo número, y se vendieron más de cinco millones de ejemplares en dos días. Dos años después Hemingway recibió el Nobel, y el jurado citó expresamente este libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que hace grande a un relato tan simple: qué es lo que deliberadamente no cuenta, quién es el chico, cómo se pelea durante tres días con un animal al que se acaba respetando, qué pasa cuando llegan los tiburones y qué queda al final.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un hombre solo, un pez y tres días: no hay nada más, y con eso se ganó un Nobel.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que se calla a propósito" },
+      {
+        b: "texto",
+        texto:
+          "Hemingway explicó su método con una imagen que se ha quedado: un iceberg se mueve con dignidad porque solo una octava parte sobresale del agua. El escritor puede omitir cualquier cosa que sepa de verdad, decía, y el lector la sentirá igual que si estuviera escrita; lo que no funciona es omitir por ignorancia, porque entonces se nota el agujero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En este libro se puede comprobar lo que hay debajo. No se explica nunca cómo se llegó a esta pobreza, ni qué fue de la mujer del viejo —solo hay un dato: quitó de la pared la foto de ella porque le daba tristeza y la guardó bajo la camisa limpia, en un estante—. No hay descripción de sentimientos, no hay reflexiones sobre la vejez, no hay lección.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la prosa hace lo mismo: frases cortas, casi sin adjetivos, con verbos concretos y objetos con nombre propio. Se dice el sedal, la caña, la proa, la mano izquierda, el atún, la sal. Cuando el viejo tiene miedo, el libro no dice que tiene miedo: dice lo que hace con las manos. Es un estilo que parece fácil y que cambió la manera de escribir en inglés durante medio siglo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se puede quitar de un texto todo lo que uno sabe de verdad: el lector lo nota igual, y el texto queda más limpio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El chico y la cena que no existe" },
+      {
+        b: "texto",
+        texto:
+          "Manolín tiene unos diez años, aprendió a pescar con el viejo desde los cinco y ahora trabaja en otro bote por orden de su padre. Aun así, cada tarde va a recogerle los aparejos, le lleva sardinas y café, y se queda hablando de béisbol. La relación entre los dos ocupa treinta páginas y es lo que sostiene el resto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está la mejor escena del libro, que es una mentira compartida. El chico le pregunta qué va a cenar y el viejo dice que arroz amarillo con pescado; le ofrece un poco y el chico dice que ya ha comido. Los dos saben que no hay ni cazuela, ni arroz, ni fuego. La ceremonia se repite cada noche y ninguno de los dos la rompe: es la manera que han encontrado de conservarle la dignidad al viejo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El béisbol funciona igual. Hablan de DiMaggio, el mejor jugador de la época, e insisten en que juega con un espolón en el talón que le duele a cada paso. El viejo se pregunta si podría aguantar el dolor de un espolón, y esa duda es lo que después, en mitad del mar, le sirve de vara de medir cuando tiene las manos abiertas. No hay filosofía: hay un jugador de béisbol al que le duele un pie.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se inventan una cena todas las noches, y ninguno de los dos rompe la mentira: eso también es respeto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un pez más grande que el bote" },
+      {
+        b: "texto",
+        texto:
+          "El pez pica a mediodía a setecientos metros de profundidad y no sale a la superficie. Empieza a tirar del bote, mar adentro, con el viejo sujetando el sedal con las manos y con la espalda, sin poder atarlo a la barca porque un tirón lo partiría. Así pasan la tarde, la noche entera y el día siguiente. Cuando por fin el animal sale a respirar, el viejo lo mide con la vista: es más largo que su propia embarcación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace grande esta parte es lo que el viejo va pensando. Le habla al pez. Lo llama hermano. Dice que nunca ha visto nada tan grande, ni tan hermoso, ni tan tranquilo, y que va a matarlo antes de que acabe el día. Le pide perdón sin arrepentirse. Y se dice a sí mismo que quizá fue un pecado salir tan lejos, y decide no pensar en el pecado porque hay gente a la que le pagan por pensar en eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle que da la medida de todo: el viejo se pregunta si el pez sabe lo que está pasando o si simplemente está huyendo. Llega a la conclusión de que él tiene inteligencia y el pez tiene nobleza, y que por eso él va a ganar. Nunca lo trata como una presa: lo trata como a un rival del que se aprende.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Le habla de tú y lo llama hermano, y aun así va a matarlo: las dos cosas caben en el mismo hombre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El cuerpo pasa factura" },
+      {
+        b: "texto",
+        texto:
+          "La pelea está contada con una precisión de parte médico. El sedal le abre las manos y le deja las palmas en carne viva. La mano izquierda se le agarrota en una garra que no puede abrir, y el viejo la insulta, la llama traidora y le pide perdón después. Come atún crudo a bocados para tener fuerzas, aunque le da asco, y se obliga a masticar despacio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Duerme a ratos, unos minutos, con el sedal enrollado en el cuerpo para despertarse en cuanto tire. Le duelen la espalda, los hombros y los ojos. Y de vez en cuando se dice frases en voz alta para sostenerse: que hay que aguantar como un hombre, o como un pez, y que ojalá el chico estuviera aquí, que repite media docena de veces y es lo más parecido a una queja que se permite.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al tercer día el pez empieza a girar en círculos cada vez más pequeños, que es la señal de que está agotado. El viejo lo va acercando vuelta a vuelta, medio desmayado, y cuando por fin lo tiene al costado le clava el arpón en el corazón. El animal sale entero del agua en el último salto y cae muerto. Es tan grande que no cabe dentro: hay que amarrarlo al costado del bote y volver a remolque.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Aguantar no es un rasgo de carácter: es masticar atún crudo que da asco porque hacen falta las fuerzas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los tiburones" },
+      {
+        b: "texto",
+        texto:
+          "Una hora después de emprender el regreso llega el primero, un marrajo, siguiendo el rastro de sangre. El viejo lo mata con el arpón, y el tiburón se hunde llevándose el arpón, la cuerda y unos veinte kilos de pez. Ahí sabe que ha perdido: donde ha comido uno vendrán los demás, y él ya no tiene con qué defenderse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace es fabricarse armas con lo que tiene a bordo. Ata el cuchillo al extremo de un remo y así mata a dos más, hasta que la hoja se parte. Sigue con el palo del garrote hasta que se lo arrancan de las manos. Después arranca la caña del timón y golpea con ella. Cuando llega el último grupo, ya de noche, pelea a oscuras, a ciegas, sabiendo que no queda nada que salvar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En medio de eso dice la frase por la que se conoce el libro, y la dice sin ninguna solemnidad, casi enfadado consigo mismo por hablar solo: un hombre puede ser destruido, pero no derrotado. Y también se dice lo contrario un rato después, que ojalá no hubiera salido tan lejos, por él y por el pez. Las dos cosas están en la misma página.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un hombre puede ser destruido, pero no derrotado, y lo dice mientras se queda sin nada con lo que pelear.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un esqueleto atado al bote" },
+      {
+        b: "texto",
+        texto:
+          "Llega al puerto de noche, cuando no hay nadie. Del pez queda la cabeza, la cola y una espina de casi seis metros atada al costado. El viejo baja el mástil, carga la vela al hombro y sube la cuesta hacia su choza; tiene que sentarse cinco veces por el camino. Llega, se tumba boca abajo sobre los periódicos de la cama, con los brazos estirados y las palmas hacia arriba, y se duerme.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por la mañana el chico entra, lo ve dormido y respirando, y sale a llorar a la calle. Después le lleva café, le dice que va a volver a pescar con él porque todavía tiene mucho que aprender, y se sienta a esperar a que despierte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el libro termina con una escena que remata todo lo anterior. Unos turistas en la terraza del puerto ven la espina enorme flotando entre las latas y las botellas vacías y preguntan qué es. El camarero intenta explicarles lo del tiburón y ellos entienden mal: comentan que no sabían que los tiburones tuvieran una cola tan bonita. El viejo, arriba, está soñando con leones en una playa de África, como cuando era joven.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que para uno fueron tres días de vida y muerte, para el de al lado es un bicho raro flotando entre la basura del puerto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El viejo y el mar cuenta tres días de un pescador que engancha el pez de su vida y vuelve con la espina pelada. Su tesis está en la mecánica y no en la moraleja: lo que se puede controlar es el trabajo bien hecho —el sedal en su sitio, las manos, la paciencia, el respeto por lo que se está matando—, y el resultado no depende de eso. El viejo hace todo bien y pierde igual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es sobre todo una manera de escribir. Frases cortas, verbos concretos, casi ningún adjetivo y todo lo importante fuera del texto: es la lección del iceberg puesta a funcionar durante cien páginas seguidas, y de ahí sale medio siglo de prosa en inglés y buena parte del periodismo moderno.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hizo todo bien, y perdió igual: eso es lo que el libro se niega a arreglar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Los sueños con los leones y algunas frases del viejo sobre la suerte y la esperanza se le van hacia lo sentimental, que es justo lo que el estilo prometía evitar. Y la fórmula del hombre destruido pero no derrotado, sacada de contexto, se ha convertido en un lema de camiseta que le hace flaco favor: en el libro es un viejo hablando solo mientras pierde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo que el propio autor dejó dicho, porque se le llenó el libro de interpretaciones: le colgaron que el viejo era Cristo, que la espina era la Iglesia y que los tiburones eran los críticos. Hemingway escribió que no hay ningún simbolismo, que el mar es el mar, que el viejo es un viejo, que el chico es un chico y que el pez es un pez; y que si consiguió hacerlos lo bastante verdaderos, la gente puede leer lo que quiera encima. Es una buena advertencia para cualquier clásico.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "viejo-mar": VIEJO_MAR,
   montecristo: MONTECRISTO,
   "moby-dick": MOBY_DICK,
   dracula: DRACULA,

@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "viejo-mar": [
+    "qué es la teoría del iceberg y qué se calla aquí",
+    "por qué el chico y él se inventan una cena",
+    "cómo se le acaban las armas contra los tiburones",
+    "qué queda del pez al llegar a puerto",
+    "qué dijo Hemingway de todos los simbolismos",
+  ],
+
   montecristo: [
     "quiénes lo denunciaron y qué ganaba cada uno",
     "qué le enseña el preso de la celda de al lado",

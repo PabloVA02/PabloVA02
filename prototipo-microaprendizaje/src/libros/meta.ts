@@ -1368,22 +1368,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "viejo-mar",
-    titulo: "El viejo y el mar",
-    autor: "Ernest Hemingway",
-    ano: 1952,
-    gancho: "Ciento veinte páginas sobre un hombre solo en una barca. Le dieron el Pulitzer y, dos años después, el Nobel.",
-    porQue: "Es la mejor puerta de entrada a Hemingway y una lección de cómo se cuenta una historia sin adjetivos y sin explicar nada.",
-    minutos: 17.7,
-    capitulos: [
-      { titulo: "Ochenta y cuatro días", minutos: 3.7 },
-      { titulo: "El pez", minutos: 4.2 },
-      { titulo: "Los tiburones", minutos: 3.5 },
-      { titulo: "El esqueleto", minutos: 3.3 },
-      { titulo: "El último libro", minutos: 3 },
-    ],
-  },
-  {
     id: "guardian-centeno",
     titulo: "El guardián entre el centeno",
     autor: "J. D. Salinger",
