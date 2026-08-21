@@ -1272,22 +1272,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "gran-gatsby",
-    titulo: "El gran Gatsby",
-    autor: "F. Scott Fitzgerald",
-    ano: 1925,
-    gancho: "Vendió mal y Fitzgerald murió creyéndose un fracasado. Hoy es la novela que mejor explica el sueño americano.",
-    porQue: "Un hombre construye una fortuna entera para impresionar a una mujer, y el libro no aplaude ese esfuerzo aunque casi todo el mundo lo recuerde así.",
-    minutos: 25.8,
-    capitulos: [
-      { titulo: "La casa de al lado en West Egg", minutos: 5.1 },
-      { titulo: "El chico de Dakota del Norte", minutos: 5.1 },
-      { titulo: "El té en casa de Nick", minutos: 5.2 },
-      { titulo: "El valle de cenizas", minutos: 5.1 },
-      { titulo: "Los trece dólares de derechos", minutos: 5.2 },
-    ],
-  },
-  {
     id: "extranjero",
     titulo: "El extranjero",
     autor: "Albert Camus",

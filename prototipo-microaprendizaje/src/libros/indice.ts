@@ -66,7 +66,6 @@ const CARGADORES: Record<string, Cargador> = {
 
   /* Literatura — clásicos */
   frankenstein: () => import("./literatura").then((m) => m.FRANKENSTEIN),
-  "gran-gatsby": () => import("./literatura").then((m) => m.GRAN_GATSBY),
 
   /* Filosofía */
   "brevedad-vida": () => import("./filosofia").then((m) => m.BREVEDAD_VIDA),

@@ -15401,7 +15401,235 @@ const METAMORFOSIS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El gran Gatsby, en ocho páginas.
+
+   Breve. Registro narrativo.
+
+   Caso (d) de la 4 bis en la conclusión: el libro fracasó, el autor murió
+   creyéndose un fracasado y lo salvó una edición de bolsillo repartida a
+   los soldados. Eso no está en ninguna contraportada.
+
+   Y la prueba del título tapado con lo concreto: la luz verde, el hombre
+   que da fiestas y no bebe, los ojos del cartel del oculista, la frase
+   sobre la voz de Daisy, el funeral al que no fue nadie.
+   -------------------------------------------------------------------------- */
+
+const GRAN_GATSBY: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El libro que fracasó" },
+      {
+        b: "texto",
+        texto:
+          "Cuando Scott Fitzgerald murió en 1940, con cuarenta y cuatro años, creía que había escrito un libro que no le importaba a nadie. El gran Gatsby se había publicado quince años antes, había vendido poco más de veinte mil ejemplares y quedaban cajas sin abrir en el almacén de la editorial. Sus últimas liquidaciones de derechos fueron de unos pocos dólares.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que lo cambió todo fue la guerra. Entre 1943 y 1946, un programa del ejército norteamericano repartió libros de bolsillo entre los soldados destinados fuera, y de este se imprimieron unos ciento cincuenta mil ejemplares que fueron a parar a mochilas de gente que no había pisado una librería. De ahí salió, ya muerto el autor, el libro que hoy se estudia en todos los institutos del país.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La historia que cuenta cabe en dos líneas. Un hombre riquísimo da fiestas enormes en su casa de Long Island, cada sábado, para una sola persona que vive al otro lado de la bahía y a la que quiso hace cinco años. Ella está casada con otro. Todo lo demás —el dinero, la casa, las camisas de seda— existe para eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren quién cuenta la historia y por qué importa, qué son esas fiestas, cuál es la diferencia entre el dinero de los dos lados de la bahía, qué representa Daisy en realidad, qué hay en el descampado que separa Long Island de Nueva York y cómo termina todo en cuatro días de septiembre.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro más citado sobre el sueño americano murió sin venderse y lo resucitaron los soldados de una guerra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El narrador que dice no juzgar" },
+      {
+        b: "texto",
+        texto:
+          "Lo cuenta Nick Carraway, un chico del Medio Oeste que se ha ido a Nueva York a aprender el negocio de los bonos y ha alquilado una casucha justo al lado del palacio de Gatsby. Abre el libro con un consejo de su padre: antes de criticar a nadie, recuerda que no todo el mundo ha tenido tus ventajas. Y añade que por eso se reserva los juicios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es mentira, y la novela entera se sostiene sobre esa mentira. Nick juzga a todo el mundo desde la primera página: llama estúpida a una, bruto a otro, describe a los invitados de las fiestas con un desprecio de entomólogo. Un narrador que asegura no juzgar y no para de hacerlo es, además, un narrador del que hay que desconfiar en lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También conviene saber de qué lado está. Nick es primo de Daisy, fue compañero de universidad de su marido y acaba haciéndole de recadero a Gatsby, así que no es un observador neutral: está dentro. Y hay un dato que él mismo confiesa y que casi nadie recuerda: dice de sí mismo que es una de las pocas personas honradas que ha conocido, justo después de haber dejado a medias una relación en su ciudad y otra en Nueva York. El propio Fitzgerald probó siete títulos antes de rendirse a este, y el que más le gustaba era Trimalción en West Egg, por el liberto de Petronio que se hizo rico y daba banquetes para que lo aceptaran.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien empieza una historia diciendo que él no juzga a nadie, lo que hay que hacer es contar cuántas veces juzga.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Fiestas para una sola persona" },
+      {
+        b: "texto",
+        texto:
+          "Las fiestas de Gatsby son el escenario más copiado de la literatura del siglo veinte: orquesta, dos camionetas de naranjas exprimidas cada semana, un bar con ginebra en plena ley seca, gente que llega sin invitación y se queda hasta el amanecer. Nadie conoce al anfitrión. Circulan rumores: que mató a un hombre, que fue espía alemán, que es primo del káiser.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y en medio de todo eso está el detalle que lo explica: Gatsby no bebe. No baila. No se emborracha nunca. Se queda de pie, apartado, mirando a los demás divertirse en su casa. La fiesta no es suya en ningún sentido: es un anzuelo puesto todos los sábados por si un día aparece Daisy, que vive al otro lado del agua y a la que él ve la luz verde del embarcadero desde su jardín.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando por fin se encuentran, con Nick de intermediario y un té ridículo en su casita, la escena no tiene nada de romántica: Gatsby está aterrorizado, tira un reloj de la repisa, quiere marcharse. Y después, en la escena que mejor lo retrata, le enseña sus camisas: abre los armarios y las va tirando por el aire, decenas, de lino y de seda, hasta que ella se echa a llorar sobre el montón y dice que nunca había visto camisas tan bonitas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cinco años preparando una fiesta para una persona, y cuando llega no sabe qué hacer con las manos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los dos lados de la bahía" },
+      {
+        b: "texto",
+        texto:
+          "La geografía del libro es una tesis. Long Island tiene dos penínsulas idénticas separadas por una bahía estrecha: en East Egg vive el dinero de siempre, el que se hereda y no se menciona; en West Egg, donde están Gatsby y Nick, vive el dinero recién hecho, el que necesita una casa que imite un ayuntamiento normando. Se ven las luces de un lado desde el otro y no se cruza nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tom Buchanan, el marido de Daisy, es el dinero antiguo con todo lo que trae: jugó al fútbol en Yale, tiene una cuadra de caballos de polo, engaña a su mujer sin molestarse en disimularlo y recita en la cena teorías raciales sacadas de un libro que ha leído a medias. Y no le hace falta ser inteligente, ni simpático, ni bueno: le basta con llevar tres generaciones siéndolo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gatsby, en cambio, se lo ha hecho todo. Nació James Gatz, hijo de granjeros pobres de Dakota del Norte, se cambió el nombre a los diecisiete, y su fortuna viene del contrabando de alcohol y de negocios con bonos robados. Puede comprar la casa, el coche amarillo y las camisas, y no puede comprar lo único que le importa: que en East Egg lo consideren uno de ellos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Con dinero nuevo se compra todo lo que se vende, y lo que Gatsby quiere no está a la venta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La voz llena de dinero" },
+      {
+        b: "texto",
+        texto:
+          "La pregunta que el libro deja caer sin subrayarla es qué ve exactamente Gatsby en Daisy, porque ella no es especialmente lista, ni buena, ni valiente. Y la respuesta está en una frase que dice Gatsby y que Nick tarda un momento en entender: su voz está llena de dinero. Ese es el sonido que lo atrapó a los veintitrés años, cuando era un oficial sin fortuna destinado en Louisville.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No es una historia de amor, o no solo. Daisy es la primera casa bonita en la que entró, la primera chica que olía a cosas caras, la prueba de que existe un mundo donde nada duele. Y ese mundo es el que él ha estado comprando durante cinco años a base de negocios sucios, para volver y presentarse a la altura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso su exigencia es imposible y él no lo ve. No le pide a Daisy que deje a su marido: le pide que le diga a Tom que nunca lo quiso, que borre esos cinco años. Cuando Nick le advierte de que no se puede repetir el pasado, Gatsby contesta, sinceramente sorprendido, que claro que se puede. Es la frase que lo mata. Nick lo remata en una línea: Gatsby había pagado un precio altísimo por vivir demasiado tiempo con un solo sueño.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No estaba enamorado de una mujer: estaba enamorado de la versión de sí mismo que existía cuando la conoció.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El descampado y los ojos del cartel" },
+      {
+        b: "texto",
+        texto:
+          "Entre las mansiones y Nueva York hay que atravesar un descampado industrial que el libro llama el valle de las cenizas: un vertedero de escoria donde se descarga la basura de la ciudad y donde vive la gente que la palea, gris de polvo. Allí está el taller de Wilson, un mecánico arruinado, y allí Tom tiene a su amante, que es la mujer de Wilson.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y sobre el descampado hay una valla publicitaria enorme y descolorida de un oculista que se marchó hace años: un par de ojos azules gigantes detrás de unas gafas amarillas, sin cara. Ese cartel mira todo lo que ocurre abajo. Al final del libro, Wilson, destrozado, se queda mirándolo y dice que Dios lo ve todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la mejor imagen de la novela porque no es un símbolo religioso, es un anuncio. La única cosa parecida a Dios que vigila ese mundo es un cartel comercial abandonado por un dentista de ojos que se fue a otro sitio. Y debajo, esa misma tarde, Tom y Daisy pasan a toda velocidad camino de la ciudad sin mirar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En ese mundo lo único que mira desde arriba es un cartel publicitario que alguien dejó de pagar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuatro días de septiembre" },
+      {
+        b: "texto",
+        texto:
+          "Todo se desmonta en una tarde de calor asfixiante en una suite del hotel Plaza. Gatsby pide a Daisy que diga la frase; ella empieza y no puede terminarla, porque también quiso a su marido. Tom, que ya ha investigado de dónde sale el dinero del otro, lo humilla delante de todos contando lo de las farmacias y el alcohol. La escena acaba cuando Tom, seguro de haber ganado, manda a los dos a casa juntos, en el mismo coche, como quien deja marchar a un rival vencido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De vuelta, el coche amarillo atropella a la amante de Tom en el valle de las cenizas y no para. Conducía Daisy. Gatsby dice que dirá que conducía él. Esa misma noche se queda de guardia bajo la ventana de ella, en el jardín, vigilando por si Tom le hace algo, mientras dentro los dos cenan pollo frío y hablan tranquilamente, ya reconciliados. Nick lo ve por la ventana y no se lo cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El día siguiente, Wilson, convencido por Tom de quién conducía el coche, va a la casa de Gatsby y lo mata en la piscina. Al funeral no va nadie: ni un solo invitado de las fiestas, ni el socio de los negocios, ni Daisy, que se ha ido de viaje con su marido. Van Nick, el servicio, un borracho que había ido una vez a la biblioteca y el padre de Gatsby, un viejo de Dakota que llega con una foto de la casa doblada en el bolsillo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cientos de personas cada sábado en su jardín, y en su entierro cabían todos en dos coches.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El gran Gatsby cuenta cómo un hombre construye una fortuna entera para recuperar a alguien, y cómo eso lo mata sin que la persona en cuestión llegue a enterarse del todo. Debajo hay una tesis sobre el dinero: que en Estados Unidos se puede comprar cualquier cosa menos el pasado, y que hay una frontera —la del dinero heredado— que no se cruza por mucho que se gane.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la prosa. Es un libro corto, de ciento ochenta páginas, con una precisión que se estudia frase a frase: la sentencia con la que Nick despacha a Tom y a Daisy —gente descuidada, que rompía cosas y personas y después se refugiaba en su dinero dejando que otros limpiaran— es de las mejores que se han escrito sobre una clase social.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Seguimos remando, botes contra la corriente, arrastrados sin cesar hacia el pasado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Hay un personaje, el socio de los negocios sucios, dibujado con una caricatura antisemita de manual —la nariz, los gemelos hechos con muelas humanas— que en 1925 pasaba y hoy no pasa. Las mujeres del libro son deseo, dinero o histeria, y ninguna tiene una idea propia. Y la trama depende de un par de casualidades muy cómodas: que Nick alquile precisamente esa casa y que el coche pase por delante de ese taller.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y una advertencia sobre cómo se lee hoy. La etiqueta de gran novela del sueño americano llegó después: la expresión apenas se usaba cuando el libro se publicó, y el propio Fitzgerald nunca la escribió. Es un buen ejemplo de algo que pasa a menudo: un clásico acaba significando lo que necesitó de él la generación que lo rescató, y la que lo rescató a este venía de una guerra.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "gran-gatsby": GRAN_GATSBY,
   metamorfosis: METAMORFOSIS,
   "crimen-castigo": CRIMEN_CASTIGO,
   fahrenheit: FAHRENHEIT,

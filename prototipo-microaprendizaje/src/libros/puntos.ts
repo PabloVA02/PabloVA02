@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "gran-gatsby": [
+    "por qué el hombre que da las fiestas no bebe",
+    "qué separa el dinero viejo del recién hecho",
+    "qué oyó Gatsby de verdad en la voz de Daisy",
+    "qué son los ojos que vigilan el descampado",
+    "quién fue al funeral",
+  ],
+
   metamorfosis: [
     "por qué nadie pregunta cómo ha pasado",
     "qué descubre sobre el dinero que había en casa",

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "gran-gatsby":
+    "Un hombre riquísimo da fiestas enormes todos los sábados para una sola persona, que vive al otro lado de la bahía y está casada con otro. Todo lo demás lo compró para eso.",
+
   metamorfosis:
     "Un viajante de comercio amanece convertido en un insecto y su primer pensamiento es que ha perdido el tren. Lo que cuenta el libro es qué hace una familia con alguien que ha dejado de ser útil.",
 
