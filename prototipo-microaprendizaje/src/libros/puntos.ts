@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "mundo-demonios": [
+    "qué demuestra la parábola del dragón invisible del garaje",
+    "qué herramientas usa alguien para detectar un camelo",
+    "por qué la caza de brujas no fue ignorancia popular",
+    "por qué no creía en las abducciones y sí en la vida extraterrestre",
+    "qué previó en 1995 sobre lo que iba a venir",
+  ],
+
   nudge: [
     "en qué se distingue un empujón de una prohibición",
     "por qué la opción marcada por defecto decide casi todo",

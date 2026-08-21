@@ -408,22 +408,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "mundo-demonios",
-    titulo: "El mundo y sus demonios",
-    autor: "Carl Sagan",
-    ano: 1995,
-    gancho: "Un dragón invisible en un garaje explica, mejor que cualquier tratado, por qué algunas afirmaciones no significan nada.",
-    porQue: "Es el manual de defensa contra camelos más leído que existe, escrito por alguien que sabía que se estaba muriendo mientras lo escribía.",
-    minutos: 25.7,
-    capitulos: [
-      { titulo: "El taxista que preguntaba por la Atlántida", minutos: 5.1 },
-      { titulo: "El dragón invisible del garaje", minutos: 5.1 },
-      { titulo: "El kit de detección de camelos", minutos: 5.1 },
-      { titulo: "Los demonios que antes eran brujas", minutos: 5.1 },
-      { titulo: "La profecía que circula sin su libro", minutos: 5.2 },
-    ],
-  },
-  {
     id: "astrofisica-prisa",
     titulo: "Astrofísica para gente con prisa",
     autor: "Neil deGrasse Tyson",

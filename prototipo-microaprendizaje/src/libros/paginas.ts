@@ -29568,7 +29568,267 @@ const NUDGE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El mundo y sus demonios, en ocho páginas.
+
+   Breve.
+
+   Ensayo: titular que afirma, tercera persona.
+
+   La conclusión lleva la corrección que el propio libro no podía prever:
+   la educación científica no inmuniza contra la desinformación, y hay
+   trabajos posteriores que muestran que a veces empeora las cosas.
+   -------------------------------------------------------------------------- */
+
+const MUNDO_DEMONIOS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un taxista con muchísimas preguntas y ninguna buena" },
+      {
+        b: "texto",
+        texto:
+          "Carl Sagan abre el libro con una escena en un aeropuerto. El conductor que va a llevarle reconoce su nombre y se pasa el trayecto entero haciéndole preguntas: sobre extraterrestres que visitan la Tierra, sobre la Atlántida, sobre canalizar espíritus, sobre el triángulo de las Bermudas, sobre cristales curativos, sobre astrología.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sagan las va desmontando una por una con paciencia, y al final del viaje se da cuenta de algo que le deja preocupado. Aquel hombre tenía una curiosidad enorme y una capacidad evidente para razonar, y no había oído hablar en su vida de los quásares, ni de los agujeros negros, ni de la tectónica de placas, ni de cómo se formó la Luna, que son cosas mucho más asombrosas que las que él preguntaba y que además son ciertas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa es la tesis del libro y también su tono: no un reproche a la gente crédula, sino un reproche al sistema que la dejó sin nada mejor que creer. Sagan lo publicó en 1995, un año antes de morir, y es lo último que escribió; el subtítulo lo dice todo, la ciencia como una luz en la oscuridad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que propone: cuál es la prueba definitiva de una afirmación vacía, qué herramientas usa un escéptico, qué demuestra la historia de la caza de brujas, por qué el mayor defensor de la búsqueda de vida extraterrestre no creía en las abducciones, y qué anunció en 1995 sobre lo que iba a pasar después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La gente que cree cosas absurdas casi nunca es tonta: es gente con curiosidad a la que nadie le ofreció nada mejor.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hay un dragón invisible en el garaje" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más famoso del libro plantea una situación imaginaria. Alguien afirma con toda seriedad que tiene un dragón en su garaje. Es una afirmación extraordinaria y comprobable, así que lo lógico es ir a verlo: se abre la puerta y allí hay una escalera de mano, una lata de pintura y un triciclo viejo. Ningún dragón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El dueño explica entonces que se le olvidó mencionar que es un dragón invisible. Bien, se propone echar harina en el suelo para ver sus huellas; contesta que flota en el aire. Se propone un detector de infrarrojos para su fuego; contesta que su fuego no da calor. Se propone rociar pintura en aerosol para dibujar su contorno; contesta que es incorpóreo y la pintura no se le pegaría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cada prueba que se propone encuentra una explicación especial que la anula de antemano. Y ahí llega la pregunta de Sagan, que es la más útil de todo el libro: cuál es exactamente la diferencia entre un dragón invisible, incorpóreo y flotante que escupe fuego que no calienta, y un dragón que no existe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión no es que el dragón no exista, porque eso tampoco se puede demostrar. La conclusión es que esa afirmación no significa nada: no cambia nada del mundo, no permite predecir nada, no se distingue de su propia negación. Sagan añade que la única explicación razonable del asunto es que ese hombre esté equivocado o mintiendo, y que la manera de tratarlo no es reírse de él sino enseñarle la pregunta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si cada prueba que propones para comprobar algo tiene ya preparada una excusa que la anula, esa afirmación no dice nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que no se puede refutar de ninguna manera no informa de nada" },
+      {
+        b: "texto",
+        texto:
+          "De esa parábola sale el criterio central del libro, que es el mismo que la filosofía de la ciencia lleva un siglo formulando: una afirmación vale como conocimiento si existe alguna observación posible que la desmentiría. Si no existe ninguna, la afirmación no está diciendo nada del mundo, aunque suene a que sí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sagan lo aplica con cuidado y con una advertencia doble. La primera va contra el crédulo: creer algo porque nadie ha demostrado que sea falso es un error clásico, porque la carga de la prueba corresponde a quien afirma y no a quien duda. La segunda va contra el escéptico de gatillo fácil: rechazar de entrada cualquier idea nueva por rara es exactamente igual de perezoso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su formulación de esa tensión es lo mejor que ha escrito sobre el asunto. Dice que hace falta una mezcla equilibrada de dos actitudes contradictorias: una apertura casi total a las ideas nuevas, por extrañas que parezcan, y un escepticismo implacable y riguroso para examinarlas. Con solo la primera se cree cualquier cosa; con solo la segunda no se descubre nada nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade la frase que resume su método y que se repite en cualquier discusión sobre este tema: las afirmaciones extraordinarias exigen pruebas extraordinarias. No es una manera de descartar lo raro; es una manera de proporcionar la exigencia a lo que se está afirmando.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hace falta una apertura casi total a las ideas raras y un escepticismo implacable para examinarlas, y las dos cosas a la vez.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un equipo de herramientas para detectar camelos" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más práctico del libro es una caja de herramientas que Sagan llama el equipo de detección de camelos, y consiste en preguntas que cualquiera puede hacerse ante cualquier afirmación, sin saber nada del asunto en cuestión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las principales son estas. Buscar confirmación independiente de los hechos, y no del que los afirma. Comprobar si existe debate real entre expertos de posiciones distintas o si todos los que hablan son del mismo bando. Desconfiar de los argumentos de autoridad, porque los expertos se equivocan continuamente y lo que importa es el argumento y no el título de quien lo firma. Y proponer varias explicaciones alternativas antes de quedarse con una.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso añade tres reglas de higiene mental. Cuantificar siempre que se pueda, porque lo vago se puede defender indefinidamente. Comprobar que cada eslabón de la cadena de razonamiento funcione por separado, ya que basta con que falle uno para que la conclusión caiga entera. Y no encariñarse con una hipótesis solo por ser propia, que es el error del que nadie está libre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y después enumera unas veinte falacias corrientes con ejemplos: atacar a quien argumenta en lugar de al argumento, deducir que algo es falso porque tendría consecuencias desagradables, presentar dos opciones como si fueran las únicas, tomar una coincidencia por una causa, elegir solo los datos que confirman, y las que él llama palabras comadreja, esas que suenan a compromiso y no comprometen a nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Basta con que falle un eslabón de un razonamiento para que la conclusión entera se venga abajo, por buenos que sean los demás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La caza de brujas no fue ignorancia popular" },
+      {
+        b: "texto",
+        texto:
+          "Sagan dedica dos capítulos a los procesos por brujería en Europa entre los siglos XV y XVII, y no lo hace por curiosidad histórica: lo hace porque considera que allí está el mecanismo entero que le preocupa, funcionando a plena potencia y con consecuencias mortales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo primero que desmonta es la idea de que aquello fuera superstición de aldea. Los procesos los instruyeron juristas formados, con manuales impresos, procedimientos escritos y una lógica interna impecable; el más conocido de esos manuales se publicó en 1487 y se reeditó durante dos siglos. Fue un sistema intelectual coherente aplicado por gente educada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo segundo que describe es el mecanismo que hacía imposible salir. La acusación no se podía refutar: si la acusada confesaba bajo tortura, quedaba probado; si no confesaba, se tomaba como prueba de la ayuda del demonio para resistir. Las pruebas del agua funcionaban igual: si flotaba, era culpable; si se hundía, era inocente y ya se había ahogado. Cualquier resultado confirmaba la hipótesis.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las cifras que maneja son de decenas de miles de ejecuciones documentadas a lo largo de tres siglos, en su inmensa mayoría de mujeres, muchas de ellas pobres, ancianas o sin familia que las defendiera. Y saca la conclusión que le interesa: no hicieron falta ignorantes, hizo falta un sistema en el que ninguna prueba pudiera desmentir la acusación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si flotaba era culpable y si se hundía era inocente y ya estaba ahogada: cualquier resultado confirmaba la acusación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El mayor defensor de buscar vida extraterrestre no creía en las abducciones",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sagan había dedicado su carrera a defender la búsqueda de vida fuera de la Tierra: impulsó programas de escucha de señales, diseñó los mensajes que llevan las sondas Pioneer y Voyager y sostuvo siempre que, con la cantidad de estrellas que hay, sería asombroso que estuviéramos solos. Y a la vez fue el crítico más severo de los relatos de secuestros por extraterrestres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa distinción es la lección del capítulo. Que exista vida en otras partes es una hipótesis razonable que se puede investigar; que unos seres estén entrando de noche en dormitorios estadounidenses para hacer experimentos es una afirmación concreta que exige pruebas concretas, y no hay ninguna: ni un objeto, ni una fotografía sin explicación, ni una muestra, después de décadas de relatos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí hay son explicaciones documentadas. La parálisis del sueño, un estado frecuente en el que uno despierta sin poder moverse, con sensación de presencia en la habitación y de presión en el pecho, y que produce experiencias vividísimas. Y las falsas memorias inducidas: buena parte de esos relatos aparecieron durante sesiones de hipnosis con terapeutas que ya creían en el fenómeno y hacían preguntas dirigidas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sagan añade la comparación histórica que remata el capítulo. Los relatos de seres que entran de noche en la habitación, inmovilizan a la persona y le hacen algo son constantes en todas las culturas y en todos los siglos; solo cambia quiénes son. Antes eran demonios nocturnos, después hadas o duendes, hoy tripulantes de naves. La experiencia parece ser la misma y el vestuario lo pone la época.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los seres que entran de noche en el dormitorio y te inmovilizan aparecen en todas las culturas: solo cambia de qué van vestidos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En 1995 escribió lo que iba a pasar treinta años después" },
+      {
+        b: "texto",
+        texto:
+          "El pasaje más citado del libro está casi al final y es una previsión. Sagan escribe que presiente una época en la que casi todas las actividades productivas estarán en manos de unas pocas empresas y de un puñado de gente con poder tecnológico, en la que nadie que represente al interés público podrá comprender siquiera de qué se está hablando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y sigue: una época en la que la gente habrá perdido la capacidad de fijar sus propias prioridades y de interrogar con conocimiento a quienes mandan; en la que, agarrando cristales y consultando horóscopos con las facultades críticas en decadencia, incapaces de distinguir entre lo que suena bien y lo que es verdad, la sociedad se deslizará casi sin darse cuenta hacia la superstición y la oscuridad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento que hay debajo no es apocalíptico, es institucional, y es lo que hace valiosa la página. Sagan sostiene que la ciencia y la democracia comparten estructura: las dos dependen de que cualquiera pueda discutir cualquier afirmación, de que se publiquen los datos, de que el error se corrija en público y de que la autoridad no baste como argumento. Donde se debilita una, se debilita la otra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso su propuesta no es enseñar más contenidos científicos, sino enseñar el método: cómo se comprueba algo, qué es una muestra, qué es un control, por qué una anécdota no es un dato. Sostiene que un ciudadano que sepa eso puede opinar con criterio sobre asuntos técnicos que no domina, y que uno que no lo sepa está a merced de quien hable con más seguridad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La ciencia y la democracia funcionan igual: las dos necesitan que cualquiera pueda discutir cualquier afirmación en público.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El mundo y sus demonios sostiene que la ciencia no es sobre todo un conjunto de conocimientos sino una manera de comprobar afirmaciones, y que esa manera se puede enseñar a cualquiera y hace falta para vivir en una sociedad compleja. Sus herramientas son concretas: exigir que una afirmación pueda ser desmentida por algo, buscar confirmación independiente, desconfiar de la autoridad como argumento y reconocer una veintena de trampas de razonamiento con nombre propio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, además del método, es el tono. Sagan no se ríe nunca de quien cree cosas absurdas; sostiene que esa gente tiene curiosidad y que el fallo está en quien no supo ofrecerle algo mejor, y ese respeto es lo que hace que el libro convenza a lectores a los que un tratado escéptico no convencería.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuál es la diferencia entre un dragón invisible e indetectable y un dragón que no existe: esa pregunta es todo el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es un libro de 1995 y muy estadounidense: sus datos sobre educación, sobre creencias y sobre medios se refieren a aquel país y a aquella década, y varios capítulos, que eran artículos sueltos, repiten las mismas ideas tres veces con otros ejemplos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo más importante que el tiempo ha corregido. Sagan da por supuesto que enseñar el método científico inmuniza contra la desinformación, y la investigación posterior ha mostrado que la cosa es peor: en asuntos donde la gente tiene una posición previa, quienes más formación tienen no cambian de opinión ante los datos, sino que usan su conocimiento para defender mejor lo que ya creían. Además el problema ha cambiado de forma: en 1995 el obstáculo era la falta de información fiable, y hoy es un exceso de información con incentivos económicos para que circule la falsa. Las herramientas del libro siguen sirviendo; la confianza en que basta con enseñarlas, no.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "mundo-demonios": MUNDO_DEMONIOS,
   nudge: NUDGE,
   "arte-de-amar": ARTE_DE_AMAR,
   educada: EDUCADA,

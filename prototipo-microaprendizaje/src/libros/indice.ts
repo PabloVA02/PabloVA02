@@ -48,7 +48,6 @@ const CARGADORES: Record<string, Cargador> = {
   /* Ciencia */
   feynman: () => import("./ciencia").then((m) => m.FEYNMAN),
   "vida-arboles": () => import("./ciencia").then((m) => m.VIDA_ARBOLES),
-  "mundo-demonios": () => import("./ciencia").then((m) => m.MUNDO_DEMONIOS),
 
   /* Salud */
   "nacidos-correr": () => import("./salud").then((m) => m.NACIDOS_CORRER),

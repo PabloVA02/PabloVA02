@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "mundo-demonios":
+    "Un taxista le hizo a Sagan un viaje entero de preguntas sobre la Atlántida y los extraterrestres, y ninguna sobre los agujeros negros. De esa conversación salió su último libro: no un reproche a los crédulos, sino a quien no les ofreció nada mejor.",
+
   nudge:
     "Colocar la fruta a la altura de los ojos cambia lo que comen los niños de un colegio, y no existe una manera neutral de colocarla. De ahí parte un libro sobre cómo el diseño de una decisión influye en lo que la gente acaba eligiendo.",
 
