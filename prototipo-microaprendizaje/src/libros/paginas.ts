@@ -51199,7 +51199,7 @@ const ETICA_AMADOR: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Lo que aporta es que se entiende. Hay muy pocos libros de filosofía que un adolescente lea sin ayuda y que a la vez no engañen sobre el nivel del asunto, y este consiguió las dos cosas: es la puerta de entrada de varias generaciones de españoles a la filosofía, y no es una versión rebajada de nada.",
+          "Lo que aporta es que se entiende. Hay muy pocos libros de filosofía que un adolescente lea sin ayuda y que a la vez no engañen sobre el nivel del asunto, y este consiguió las dos cosas. No es una versión rebajada de nada.",
       },
       {
         b: "texto",
