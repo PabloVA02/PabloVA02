@@ -44,6 +44,12 @@ que crece es el tramo de en medio.
 agosto: *«no añadas lo de prueba esto, solo añade una conclusión»*. El bloque
 `prueba` sigue existiendo en el código por si algún día vuelve, pero no se usa.
 
+La prueba de que tenía razón está en la captura de *La gran apuesta*: cuando no
+hay ningún deber sensato que poner después de un libro sobre la crisis de 2008,
+ese apartado se rellena solo, y lo que escriben es «si este resumen te interesó,
+ve la película del mismo título de 2015». Un hueco fijo que hay que llenar
+siempre acaba llenándose con cualquier cosa.
+
 ## 2 bis. La anatomía de una página
 
 Todas tienen la misma forma, y esa constancia es media parte del formato:
@@ -60,11 +66,29 @@ Recursos que usa la referencia y que conviene usar, con medida:
 - **La analogía doméstica.** Explicar el neocórtex por habitaciones de una
   casa, la ficción compartida por un billete. Una por página como mucho.
 - **La lista con entradilla.** Un párrafo que termina en dos puntos y debajo
-  los puntos, cada uno con su palabra en negrita.
+  los puntos, cada uno con su palabra en negrita. **Cinco o seis como mucho.**
+  *Economía rosquilla* enumera de corrido las doce necesidades de su base
+  social —comida, agua, electricidad, educación, sanidad, vivienda, ingresos,
+  equidad, voz política, paz, igualdad de género y red de información— sin
+  explicar ninguna, y eso ya no es una lista: es un índice. Nadie recuerda
+  doce. Si el libro tiene doce, se agrupan en tres o se eligen las que
+  sostienen el argumento.
 - **La pregunta directa.** «¿Y sabes por qué?» abre una explicación mejor que
   un conector. Una o dos por resumen; más, y suena a locutor.
 - **El dato curioso.** Una frase de «¿sabías que…?» con el término en negrita.
-  Vale para descansar entre dos argumentos.
+  Vale para descansar entre dos argumentos. La captura de *La gran apuesta*
+  tiene el mejor ejemplo que hemos visto: Steve Eisman y su mujer estuvieron a
+  punto de montar una casa rural cuando no conseguían financiación. Es
+  concreto, solo existe en ese libro y humaniza sin rellenar.
+- **El diagrama contado con palabras.** Cuando el argumento de un libro ES una
+  figura, se dibuja con palabras al principio y todo lo demás cuelga de ahí.
+  *Economía rosquilla* es el caso puro: dos anillos concéntricos, dentro del
+  interior está la base social que nadie debería cruzar hacia abajo, fuera del
+  exterior está el techo ecológico que no se debe cruzar hacia arriba, y la
+  economía tiene que caber en la rosquilla de en medio. Explicado así en tres
+  frases, el resto del libro se entiende solo. No es lo mismo que la analogía
+  doméstica: la analogía compara para explicar una idea, y aquí la figura es
+  la idea.
 
 **La cita con autor.** Un bloque aparte, con la frase entre comillas y el
 nombre debajo: en *El cerebro de Buda* hay dos, una del Dalái lama y otra de
@@ -481,7 +505,7 @@ sapiens de los últimos setenta mil años, y deja de valer en cuanto tiene
 hipoteca.** Si la frase se puede discutir mirando la vida de alguien concreto,
 ya no era la especie.
 
-## 4 bis. Los siete casos que dan problemas
+## 4 bis. Los ocho casos que dan problemas
 
 Estos salieron escribiendo, uno por uno, y cada uno costó una reescritura. Van
 aquí para que la siguiente vez se sepan antes de empezar.
@@ -550,6 +574,39 @@ contraportada ni en la solapa. Va en la conclusión, con lo concreto:
 convierte en verdad lo demás. Taleb acertó en 2008 y eso no valida su método,
 porque quien avisa cada año de una catástrofe acaba coincidiendo con una — que
 es exactamente el sesgo que su propio libro enseña a detectar.
+
+### En ECONOMÍA, todo argumento necesita una persona con nombre
+
+Las dos capturas de economía del 21 de agosto son opuestas y por eso se
+entienden juntas: *Economía rosquilla* es una tesis y *La gran apuesta* es un
+relato, y la segunda funciona mucho mejor.
+
+La razón es una sola. En siete páginas sobre el producto financiero más
+enrevesado que se ha inventado, *La gran apuesta* no explica ni un solo
+concepto en abstracto: lo explica siempre a través de alguien. Steve Eisman,
+que recorrió Europa y Estados Unidos buscando quien le diera cincuenta
+millones. Vincent Daniel. Porter Collins, remero olímpico. Danny Moses.
+Michael Burry. John Paulson, que compró miles de millones en permutas. Los
+chicos de Cornwall Capital. Un nombre por idea, y la idea se queda.
+
+Y hace bien lo más difícil de la categoría: **el término técnico se traduce y
+se define la primera vez.** Escribe «permutas de incumplimiento crediticio
+sobre bonos hipotecarios *subprime*» en lugar de dejar las siglas inglesas, y
+explica qué es apostar en corto antes de usarlo. Eso es la regla 3 de la
+gramática aplicada al caso más difícil que hay.
+
+Las tres trampas de la categoría, entonces:
+
+- **El concepto sin nadie dentro.** Si una página explica un mecanismo
+  económico y no aparece ni una persona, ni una empresa, ni una fecha, no se
+  va a recordar. La economía se cuenta con quién ganó y quién perdió.
+- **Las siglas sin traducir.** Nada de dejar en inglés lo que tiene nombre en
+  español, y nada de usar un término y explicarlo dos párrafos después.
+- **El dato sin fuente ni año.** Aquí *Economía rosquilla* lo hace bien y
+  conviene copiarlo: «se espera que la población mundial alcance los once mil
+  millones en 2100, según el informe de Naciones Unidas de 2015». Con nombre y
+  con año. Así es como se escribe lo que en el apartado 2 bis está prohibido
+  escribir como «la investigación demuestra que».
 
 ### En SALUD, la trampa es el género: la prueba del sustituto
 
@@ -713,6 +770,8 @@ frase, se continúa la del rótulo —aprenderás… esto—.
 - [ ] Si es de historia, ¿hay alguna página que sea solo una línea del tiempo?
 - [ ] Si es de salud, **la prueba del sustituto**: ¿funcionaría la página
       cambiando el nombre de la molécula por otra?
+- [ ] Si es de economía, ¿hay alguna página sin una persona, una empresa o una
+      fecha dentro? ¿Está traducido y definido cada término técnico?
 - [ ] ¿Alguna anécdota famosa metida sin comprobar de dónde sale?
 - [ ] ¿Las páginas que pide su tamaño, y todas de unas 260 palabras?
 - [ ] ¿El tamaño sale de contar sus argumentos, y no de lo famoso que sea?
