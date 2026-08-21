@@ -61638,7 +61638,287 @@ const HABLO_CORRER: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Número uno, en ocho páginas.
+
+   Breve. Ensayo de ciencia → afirmación entera en el rótulo y tercera
+   persona; la caja del rayo es la idea de la página.
+
+   Riesgo principal: el libro se conoce por la regla de las diez mil horas,
+   que es justo lo que su autor pasó veinte años desmintiendo. La página
+   cuarta se dedica entera a ese enredo, porque sin él el lector se queda
+   con la versión equivocada.
+
+   Y la conclusión tiene que dar la cifra del metaanálisis de 2014 que
+   contradice al libro, porque es la objeción seria y el libro la despacha.
+   -------------------------------------------------------------------------- */
+
+const NUMERO_UNO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Acumular años haciendo algo no te hace mejor en ello" },
+      {
+        b: "texto",
+        texto:
+          "Anders Ericsson dedicó treinta años a estudiar cómo se llega a ser excepcional en algo, y su primera conclusión contradice la intuición de todo el mundo. La experiencia, medida en años, no predice el rendimiento. Un conductor con veinte años de carné no conduce mejor que uno con cinco, y en varios oficios la relación llega a ser negativa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo es que casi todo el mundo practica de la misma manera. Se aprende una actividad hasta alcanzar un nivel aceptable, el gesto se automatiza y a partir de ahí se repite en piloto automático durante décadas. Ese punto, que Ericsson llama el nivel aceptable, es donde se detiene la inmensa mayoría de las personas para siempre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La automatización es una ventaja evolutiva y un problema práctico. Permite hacer algo sin pensar y liberar la cabeza para otra cosa, y a cambio elimina exactamente la incomodidad que produce la mejora. Quien conduce sin pensar no está entrenando la conducción: está gastando gasolina.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la distinción que ordena el libro entero. Practicar de forma ingenua es repetir lo que ya sabes hacer; practicar de forma deliberada es trabajar de manera dirigida sobre lo que todavía no te sale, con un método, con alguien que corrige y con un esfuerzo que resulta desagradable en el momento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Repetir lo que ya te sale no es entrenar: es solo gastar el tiempo cómodamente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un estudiante corriente aprendió a repetir ochenta y dos cifras seguidas",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1978, Ericsson puso un anuncio en su universidad buscando voluntarios para un experimento de memoria. Se presentó un estudiante llamado Steve Faloon, corriente en todo, con la capacidad normal de un adulto: escuchaba una serie de números al ritmo de uno por segundo y era capaz de repetir siete, que es lo que puede casi cualquiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entrenaron una hora al día, varios días por semana, durante dos años. Al cabo de más de doscientas sesiones, Faloon repetía sin error series de ochenta y dos dígitos. No había cambiado su memoria: había inventado un sistema. Como era corredor de fondo, agrupaba las cifras en marcas de atletismo, y luego agrupaba esos grupos en conjuntos mayores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La comprobación decisiva llegó después. Cuando le pidieron que hiciera lo mismo con letras en vez de números, volvió a seis o siete. Su memoria general seguía siendo exactamente la de antes. Lo que había construido era una estructura específica para un tipo concreto de material, inútil fuera de él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese experimento fundó la carrera de Ericsson y fija el argumento del libro. Los límites que parecen fijos —cuánto se puede recordar, cuán rápido se puede leer, cuántas cosas se pueden atender a la vez— resultan ser límites del método que uno usa, y se mueven cuando el método cambia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Muchos límites que parecen del cerebro son solo límites del método que estás usando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que un experto tiene de más no es memoria, son estructuras" },
+      {
+        b: "texto",
+        texto:
+          "El concepto central del libro se llama representación mental y viene de los estudios sobre ajedrez. Si a un gran maestro se le enseña durante cinco segundos una posición de una partida real, la reconstruye casi entera; a un aficionado le salen cuatro o cinco piezas. La diferencia es enorme y todo el mundo la atribuye a la memoria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entonces se hizo el experimento que lo aclara. Se colocaron las mismas piezas al azar, en posiciones imposibles en una partida, y el maestro pasó a recordar más o menos lo mismo que el aficionado. No tenía mejor memoria: tenía almacenados miles de patrones con sentido, y solo funcionaban cuando lo que veía era uno de ellos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso es lo que un experto construye durante años y lo que un principiante no puede copiar leyendo. Un médico veterano no recuerda más síntomas: reconoce configuraciones enteras. Un ajedrecista no calcula más jugadas: ve menos, porque descarta de entrada las que no encajan en ningún patrón conocido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es que el objetivo del entrenamiento no es acumular información sino fabricar esas estructuras, y solo se fabrican intentando resolver problemas reales, fallando y comparando el resultado con el de alguien mejor. Escuchar explicaciones no construye ninguna.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un experto no ve más cosas que tú: ve menos, porque descarta antes lo que no encaja.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las diez mil horas nunca fueron una regla y su autor pasó la vida desmintiéndolas",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1993, Ericsson estudió a los violinistas de una academia de música de Berlín, divididos en tres grupos según su nivel. Los mejores acumulaban de media unas diez mil horas de práctica a los veinte años; los buenos, unas ocho mil; los que se preparaban para ser profesores, unas cuatro mil. La relación era clara y la publicó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Quince años después, un divulgador convirtió ese dato en la regla de las diez mil horas: diez mil horas de práctica en cualquier cosa producen maestría. Fue una de las ideas más repetidas de la década, y Ericsson pasó el resto de su vida explicando que estaba mal en casi todos sus términos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los errores son cuatro. Diez mil era una media, no un umbral: había violinistas excelentes con siete mil y otros con doce mil. La cifra sale de un solo campo y no vale para ninguno; en algunos deportes bastan dos mil horas y en ajedrez a veces no bastan veinte mil. No era un punto de llegada sino de paso, a los veinte años. Y sobre todo, lo que contaba no era el número, era el tipo de práctica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Este libro se escribió en buena medida para corregir aquello. Su tesis no es que cualquiera pueda ser lo que quiera invirtiendo horas: es que las horas mal invertidas no producen absolutamente nada, y que quien lleva veinte años haciendo algo sin corrección ni exigencia no ha practicado veinte años, ha practicado uno veinte veces.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Veinte años repitiendo lo mismo sin corregir nada no son veinte años de experiencia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La práctica deliberada tiene requisitos y casi nadie cumple ninguno" },
+      {
+        b: "texto",
+        texto:
+          "Ericsson define con bastante precisión qué cuenta como práctica deliberada, y la definición es exigente a propósito. No es cualquier entrenamiento serio: es un formato concreto que existe en pocas disciplinas, y saber cuáles son sus condiciones sirve para detectar de inmediato por qué uno no está mejorando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera condición es que el campo tenga una medida objetiva del rendimiento y una tradición de enseñanza acumulada. Eso lo cumplen la música clásica, el ajedrez, la gimnasia o el ballet, y no lo cumplen la mayoría de los trabajos de oficina, donde nadie sabe con exactitud qué es hacerlo mejor.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Fuera de la zona cómoda", texto: "se trabaja siempre sobre lo que aún no sale, no sobre lo que ya sale bien." },
+          { fuerte: "Objetivos muy concretos", texto: "mejorar este compás o este golpe, nunca mejorar en general." },
+          { fuerte: "Atención completa", texto: "si puedes hacerlo escuchando música o pensando en otra cosa, no cuenta." },
+          { fuerte: "Corrección inmediata", texto: "alguien o algo tiene que decirte qué ha fallado antes de la siguiente repetición." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "El último requisito es el que más gente se salta: un profesor que ya sepa hacerlo. No por autoridad, sino porque un principiante no puede saber cuál de sus fallos importa, y sin esa señal externa se dedica a pulir lo que ya hace bien. Por eso casi ninguna disciplina se domina de manera autodidacta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si puedes hacerlo mientras piensas en otra cosa, no estás entrenando nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El oído absoluto se entrena, y eso desmonta el mejor ejemplo de los dones",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso favorito de quienes creen en el talento innato es el oído absoluto, la capacidad de identificar una nota al oírla sin ninguna referencia. La tiene aproximadamente una persona de cada diez mil, aparece en la infancia y siempre se ha citado como prueba de que ciertas cosas se traen de fábrica. Mozart es el ejemplo obligatorio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2014, una investigadora japonesa entrenó a veinticuatro niños de entre dos y seis años con un método sistemático de identificación de acordes durante meses. Al terminar el programa, los veinticuatro tenían oído absoluto. No una parte: todos. El don más citado del mundo resultó ser una habilidad que se enseña, siempre que se enseñe pronto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con Mozart ocurre algo parecido en cuanto se miran las fechas. Su padre era un profesor de música obsesivo que había publicado un método de enseñanza y que empezó a entrenar al niño a los tres o cuatro años, varias horas diarias, con un hermano mayor de por medio. El prodigio existió; el misterio, bastante menos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El experimento más deliberado es el de un psicólogo húngaro que anunció que convertiría a sus hijas en genios del ajedrez y las educó en casa para ello. Las tres llegaron a lo más alto y la menor fue la mejor jugadora de la historia. Ericsson lo usa con cuidado: demuestra lo que puede un entrenamiento temprano y no demuestra que sirva con cualquier niño.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de llamar don a una capacidad, conviene mirar qué le hicieron a esa persona entre los tres y los siete años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En varios oficios la gente empeora a medida que acumula experiencia" },
+      {
+        b: "texto",
+        texto:
+          "El hallazgo más incómodo del libro afecta a las profesiones. En varios estudios, los médicos con más años de ejercicio obtienen peores resultados en pruebas de diagnóstico que los recién licenciados, y algo parecido se ha visto en enfermería, en auditoría y en previsión financiera. La experiencia no solo no mejora: en ocasiones deteriora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación encaja con todo lo anterior. Un profesional se forma con corrección constante durante los años de estudio, y en cuanto empieza a trabajar la corrección desaparece: nadie le dice qué hizo mal, los casos difíciles se derivan y los conocimientos nuevos llegan de forma desordenada. Sin señal de error, veinte años son veinte años de deriva.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La solución que propone Ericsson no es formación teórica sino simulación. Los pilotos mejoran porque pasan horas en simuladores repitiendo emergencias que casi nunca ocurren, con evaluación inmediata. Los cirujanos que entrenan con simuladores cometen menos errores, y la diferencia se mide en pacientes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aplicado a cualquier trabajo, el principio es sencillo y desagradable. Hay que fabricarse artificialmente la corrección que el puesto ya no da: comparar el propio trabajo con el de alguien mejor, buscar a alguien dispuesto a señalar fallos concretos y repetir a propósito las situaciones que salen mal en vez de esquivarlas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Sin nadie que te señale los fallos, la experiencia deja de mejorarte y empieza a fijarte los errores.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Número uno resume treinta años de investigación sobre cómo se llega a ser excepcional, y su conclusión es que la clave no está en las horas ni en el don, sino en un formato de entrenamiento muy concreto: trabajar sobre lo que no sale, con objetivos pequeños, con atención completa y con alguien que corrija de inmediato. Lo demás es repetición.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, además del método, son dos conceptos que sirven para toda la vida. Las representaciones mentales explican qué tiene de más un experto y por qué no se puede transmitir con una explicación. Y la diferencia entre práctica ingenua y deliberada permite saber en cualquier momento si uno está entrenando o simplemente pasando el rato con soltura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla por exceso de tesis. En 2014, un metaanálisis de decenas de estudios calculó cuánto explica la práctica deliberada de las diferencias de rendimiento: alrededor de un veintiséis por ciento en juegos, un veintiuno en música, un dieciocho en deporte y un cuatro en profesiones. Es muchísimo menos de lo que el libro sostiene, y Ericsson lo despacha discutiendo la metodología en lugar de incorporarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También encoge la genética más de lo razonable. Admite la altura y la constitución física y da por entrenable todo lo demás, cuando hay diferencias medibles en velocidad de aprendizaje, en respuesta al entrenamiento y en capacidad de mantener la atención. La honestidad del libro está en los experimentos; el entusiasmo, en las conclusiones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ericsson murió en 2020 y la discusión sigue abierta. Del lado contrario están los libros que defienden la variedad de experiencias frente a la especialización temprana, y el propio Epstein, cuyo trabajo sobre genética deportiva es la réplica más seria. Lo que ya no discute nadie es lo básico: sin corrección constante, los años no enseñan nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El método importa muchísimo, y quien te diga que es lo único que importa te está vendiendo algo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "numero-uno": NUMERO_UNO,
   "hablo-correr": HABLO_CORRER,
   "rey-del-mundo": REY_DEL_MUNDO,
   "remando-un-hombre": REMANDO_UN_HOMBRE,

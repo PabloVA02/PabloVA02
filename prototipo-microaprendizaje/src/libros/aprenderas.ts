@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "numero-uno":
+    "El psicólogo que originó la investigación sobre la práctica deliberada explica por qué acumular años no mejora a nadie, y corrige personalmente la regla de las diez mil horas que salió de un estudio suyo.",
+
   "hablo-correr":
     "Murakami empezó a correr a los treinta y tres, cuando dejó su bar de jazz para escribir. Veinte años después sostiene que un novelista necesita talento, concentración y aguante, y que solo los dos últimos se entrenan.",
 
