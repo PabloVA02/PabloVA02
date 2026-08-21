@@ -46831,7 +46831,7 @@ const DOCTRINA_SHOCK: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Lo que aporta es la pregunta, que antes de 2007 no se hacía en voz alta: quién estaba en condiciones de discutir una reforma el día que se aprobó. Vale para cualquier gobierno de cualquier signo.",
+          "Lo que aporta es la pregunta, que antes de 2007 no se hacía en voz alta: quién estaba en condiciones de discutir una reforma el día que se aprobó.",
       },
       {
         b: "texto",
