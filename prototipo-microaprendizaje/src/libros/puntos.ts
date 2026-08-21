@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "apologia-socrates": [
+    "qué acusación pesaba realmente sobre él",
+    "qué hizo cuando un oráculo lo declaró el más sabio",
+    "cómo desmontó a su acusador en pleno juicio",
+    "qué pena propuso cuando le dejaron elegirla",
+    "por qué pudo salvarse y decidió no hacerlo",
+  ],
+
   tao: [
     "por qué lo útil de una rueda es el agujero del centro",
     "qué enseña el libro con el ejemplo del agua",

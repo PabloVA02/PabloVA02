@@ -232,22 +232,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "apologia-socrates",
-    titulo: "Apología de Sócrates",
-    autor: "Platón",
-    ano: -399,
-    gancho: "Un hombre de setenta años tiene tres horas para salvar la vida ante quinientos jueces, y las gasta en irritarlos.",
-    porQue: "Es el texto fundador de la filosofía occidental y se lee en una hora. También es el más malinterpretado: casi nada de lo que la gente cita de él está realmente escrito ahí.",
-    minutos: 23.8,
-    capitulos: [
-      { titulo: "El pórtico del rey", minutos: 4.7 },
-      { titulo: "El oráculo de Delfos", minutos: 4.5 },
-      { titulo: "El interrogatorio de Meleto", minutos: 4.8 },
-      { titulo: "La votación", minutos: 5 },
-      { titulo: "La cicuta", minutos: 4.8 },
-    ],
-  },
-  {
     id: "discurso-metodo",
     titulo: "Discurso del método",
     autor: "René Descartes",

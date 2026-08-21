@@ -32534,7 +32534,264 @@ const TAO_TE_CHING: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Apología de Sócrates, en ocho páginas.
+
+   Breve: el original se lee en una hora.
+
+   Registro NARRATIVO (clásico): títulos cortos de imagen, afirmación en la
+   primera frase, caja del rayo en segunda persona.
+
+   La página 2 y la conclusión llevan lo que casi ningún resumen da: el
+   contexto político del juicio y el hecho de que Sócrates pudo salvarse y
+   no quiso.
+   -------------------------------------------------------------------------- */
+
+const APOLOGIA_SOCRATES: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un hombre de setenta años pisa un tribunal por primera vez" },
+      {
+        b: "texto",
+        texto:
+          "En el año 399 antes de Cristo, un ateniense de setenta años compareció ante un tribunal popular de quinientos ciudadanos acusado de tres cosas: no reconocer a los dioses de la ciudad, introducir divinidades nuevas y corromper a los jóvenes. Nunca había estado en un juicio y lo dice en las primeras líneas de su defensa: no conoce el lenguaje de los tribunales y va a hablar como habla en la plaza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese discurso es lo que se conserva con el nombre de Apología, que en griego no significa disculpa sino defensa. Lo escribió Platón, que tenía entonces unos veintiocho años y que dice haber estado presente en la sala; es uno de los dos únicos textos suyos en los que se nombra a sí mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene saber desde el principio que no es un acta. Es una recreación literaria escrita años después por un discípulo devoto, y existe otra versión del mismo juicio, la de Jenofonte, que presenta a un Sócrates distinto y con otros argumentos. Nadie sabe qué se dijo exactamente aquel día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que contiene: qué acusación pesaba de verdad sobre él y por qué no aparecía escrita, qué hizo cuando un oráculo lo declaró el más sabio, cómo desmontó a su acusador en pleno juicio, con qué imagen se describió a sí mismo, qué pena propuso cuando le dejaron elegirla y qué dijo después de ser condenado a muerte.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No es un acta de un juicio: es una recreación escrita años después por un alumno, y existe otra versión que no coincide.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La acusación de verdad no era la que estaba escrita" },
+      {
+        b: "texto",
+        texto:
+          "Para entender aquel juicio hace falta un dato que el texto solo insinúa y que casi ningún resumen cuenta. Cinco años antes, Atenas había perdido la larga guerra contra Esparta; había sido ocupada, había perdido su flota y sus murallas, y había sufrido el gobierno brutal de un grupo de treinta hombres impuesto por los vencedores, que ejecutó a más de mil ciudadanos en pocos meses.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dos de las personas más odiadas de aquel desastre habían sido discípulos suyos. Critias, el más sanguinario de aquellos treinta, había frecuentado su círculo; y Alcibíades, el general brillante que cambió dos veces de bando y contribuyó a la derrota, había sido su alumno favorito. Sócrates, además, criticaba abiertamente el sorteo de cargos, que era el corazón del sistema democrático ateniense.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando la democracia se restauró, en el año 403, se aprobó una amnistía general que prohibía expresamente llevar a juicio a nadie por hechos políticos anteriores a esa fecha. Esa ley es la clave del asunto: impedía acusar a Sócrates de lo que realmente se le reprochaba, así que la acusación tuvo que formularse en términos religiosos y educativos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El propio Sócrates lo apunta al empezar cuando dice que sus verdaderos acusadores no son los tres que están allí, sino una fama que lleva décadas circulando y que se alimentó incluso en el teatro: una comedia representada veinticuatro años antes lo sacaba a escena colgado de una cesta, estudiando el aire y enseñando a hacer que el argumento peor pareciera el mejor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una ley de amnistía impedía juzgarlo por lo que de verdad se le reprochaba, así que la acusación se escribió en términos religiosos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un oráculo dijo que era el más sabio y él se dedicó a desmentirlo" },
+      {
+        b: "texto",
+        texto:
+          "La parte del discurso en la que Sócrates explica de dónde viene su impopularidad es también la que mejor describe su método. Cuenta que un amigo suyo fue al oráculo de Delfos y preguntó si había alguien más sabio que él, y que la sacerdotisa contestó que no había nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sócrates dice que se quedó desconcertado, porque él era consciente de no saber nada de valor, y que decidió comprobarlo. Empezó a buscar a la gente que tenía fama de sabia para interrogarla y poder volver al oráculo con un contraejemplo. Fue primero a los políticos, después a los poetas y por último a los artesanos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con los políticos encontró que creían saber muchísimo y no sabían nada. Con los poetas descubrió que escribían cosas magníficas y no eran capaces de explicar qué significaban, así que no lo hacían por saber sino por una especie de inspiración. Y con los artesanos halló el caso más interesante: sabían de verdad su oficio, y precisamente por eso se consideraban expertos también en política, en moral y en todo lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su conclusión fue que el oráculo tenía razón en un sentido muy limitado: él era más sabio solo en que no creía saber lo que no sabía. Y el efecto práctico de aquella investigación fue que humilló públicamente, uno tras otro, a los hombres más respetados de la ciudad, delante de jóvenes que se lo pasaban en grande viéndolo. De ahí, dice, viene el odio que lo ha traído a ese tribunal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El artesano sabía de verdad su oficio, y por eso mismo se creía experto en política, en moral y en todo lo demás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El acusado interroga al acusador" },
+      {
+        b: "texto",
+        texto:
+          "En mitad de su defensa, Sócrates hace algo insólito: pide permiso para interrogar a Meleto, el hombre que lo ha llevado allí, y el tribunal se lo concede. Lo que sigue son unas páginas en las que el acusado aplica al acusador el mismo método por el que se le está juzgando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Empieza por el cargo de corromper a los jóvenes. Si él los corrompe, pregunta, quién los mejora. Meleto responde que las leyes, y después que los jueces, y después que todos los atenienses excepto él. Sócrates señala entonces el absurdo: con los caballos ocurre lo contrario, hay un solo entrenador que los mejora y todos los demás los estropean, y sería asombroso que con las personas fuera al revés.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sigue con un argumento que le sirve igual. Nadie quiere vivir rodeado de gente peor, porque quien está cerca de los malos recibe daño; así que, o él no corrompe a nadie, o lo hace sin darse cuenta. Y si lo hace sin darse cuenta, lo que corresponde no es un tribunal sino que alguien se lo advierta, porque las faltas involuntarias no se juzgan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y remata con la acusación religiosa. Consigue que Meleto afirme que él no cree en ningún dios y que enseña que el sol es una piedra, y a continuación le recuerda que la acusación escrita dice que introduce divinidades nuevas. No se puede introducir divinidades y ser ateo a la vez. La contradicción queda a la vista de todos, y el jurado lo condena igual.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Demostró que la acusación se contradecía a sí misma delante de quinientas personas, y lo condenaron de todas formas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un tábano sobre un caballo grande y perezoso" },
+      {
+        b: "texto",
+        texto:
+          "La imagen con la que Sócrates se describe a sí mismo es la que ha quedado de todo el discurso. Compara a Atenas con un caballo grande y de buena raza que, precisamente por su tamaño, es lento y tiende a adormecerse, y necesita que algo lo pique para mantenerse despierto. Él es ese tábano, colocado allí por el dios y molesto por definición.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade el detalle que hace amarga la comparación: un hombre irritado por un tábano lo aplasta de un manotazo sin pensarlo, y después vuelve a dormirse. Y les advierte que si lo matan no encontrarán fácilmente a otro, porque nadie con dos dedos de frente elige ese papel.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para demostrar que no habla por hablar, cuenta dos episodios de su vida que sus jueces conocían. En uno, siendo miembro por sorteo de la mesa que presidía la asamblea, se negó a poner a votación el juicio conjunto e ilegal de varios generales, siendo el único de los cincuenta que se opuso mientras la multitud gritaba. En el otro, bajo el gobierno de los treinta, recibió la orden de detener a un ciudadano para que lo ejecutaran, y simplemente se marchó a su casa; dice que aquello le habría costado la vida si el régimen no hubiera caído poco después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los dos ejemplos están elegidos con precisión política: uno lo enfrentó a la democracia y el otro a la tiranía. Su argumento es que nunca ha obedecido una orden injusta viniera de donde viniera, y que por eso ha tenido que mantenerse siempre lejos de la vida pública: quien se opone de verdad a lo que ve mal, dice, no dura mucho tiempo vivo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un hombre picado por un tábano lo aplasta de un manotazo y se vuelve a dormir: él sabía perfectamente qué le iba a pasar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Le dejaron proponer su propia pena y pidió una pensión vitalicia" },
+      {
+        b: "texto",
+        texto:
+          "El jurado lo declaró culpable por unos doscientos ochenta votos contra doscientos veinte, un margen bastante estrecho. Sócrates comenta que le sorprende que la diferencia haya sido tan pequeña y que le habría bastado con que treinta personas votaran al revés.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y entonces viene la parte más asombrosa del texto. El procedimiento ateniense permitía al condenado proponer una pena alternativa a la que pedía el acusador, y el jurado elegía entre las dos. Cualquier abogado le habría dicho que pidiera el destierro, que probablemente le habrían concedido, o una multa suficiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Sócrates propone, en serio y argumentado, es que lo mantengan alimentado a costa pública en el edificio donde la ciudad honraba a sus benefactores y a los campeones olímpicos, porque eso es lo que corresponde a quien ha dedicado su vida a hacerle un bien a Atenas. Y explica por qué no pide el destierro: a su edad, andar de ciudad en ciudad siendo expulsado de todas no es vida, y dejar de hacer lo que hace, tampoco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Presionado por sus amigos, acaba ofreciendo una multa que pagarían Platón y otros tres discípulos. El jurado, que había estado a doscientos veinte votos de absolverlo, se enfurece y lo condena a muerte por un margen mayor que el de la condena inicial. Aquella propuesta le costó las vidas de los que aún dudaban.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Le dejaron elegir su castigo y pidió que lo mantuvieran a costa pública como a un campeón olímpico; ahí perdió los votos que le quedaban.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Yo a morir y vosotros a vivir" },
+      {
+        b: "texto",
+        texto:
+          "El discurso final se divide en dos partes, según a quién se dirija. A los que han votado su muerte les dice que no ha perdido por falta de argumentos, sino por falta de descaro: podía haber llorado, haber llevado a sus hijos a la sala y haber suplicado, como hacía todo el mundo, y no lo ha hecho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y les deja una frase que resume su posición entera: no es difícil escapar de la muerte, lo difícil es escapar de la maldad, que corre mucho más deprisa. Él, viejo y lento, ha sido alcanzado por la primera; sus acusadores, ágiles y rápidos, ya han sido alcanzados por la segunda, y esa condena se la llevan puesta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A los que votaron a favor suyo les habla de otra manera y les cuenta lo que piensa de lo que le espera. La muerte, dice, es una de dos cosas. O bien no ser nada en absoluto, y entonces se parece a una noche de sueño profundo sin sueños, que cualquiera reconocería como una de las mejores noches de su vida. O bien es un traslado a otro sitio donde están todos los muertos, y en ese caso será estupendo, porque podrá seguir interrogando allí a Homero y a los héroes para averiguar quién es sabio y quién solo lo cree.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y termina con la última frase del texto, que es de las mejores que se han escrito: ya es hora de irnos, yo a morir y vosotros a vivir; quién de nosotros va hacia lo mejor, nadie lo sabe salvo el dios.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escapar de la muerte es fácil; lo difícil es escapar de la maldad, porque esa corre bastante más deprisa que uno.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La Apología recoge la defensa de un hombre de setenta años ante quinientos conciudadanos, y sostiene tres cosas. Que su única sabiduría consiste en no creer que sabe lo que no sabe. Que ha pasado la vida molestando a la ciudad porque alguien tiene que hacerlo. Y que hay cosas peores que morir, empezando por dejar de hacer lo que uno considera que debe hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, más allá del episodio, es la frase con la que se justifica y que es la más citada de la filosofía antigua: que una vida sin examen no merece la pena vivirla. Está dicha en un tribunal, ante gente que iba a matarlo por haber examinado demasiado, y por eso significa algo distinto de lo que significa en una taza.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una vida sin examen no merece ser vivida: lo dijo ante los que estaban a punto de matarlo por haber examinado de más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, o más bien qué conviene saber al leerlo. No es un documento histórico: es literatura filosófica escrita por un discípulo años después, y la otra versión antigua que se conserva, la de Jenofonte, presenta a un Sócrates con otro carácter y otros argumentos. De lo que dijo aquel día no hay ninguna constancia, y de Sócrates en general solo se conocen retratos incompatibles hechos por tres autores con intereses distintos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay dos cosas que la lectura piadosa suele saltarse. La primera es que la ciudad que lo condenó era la democracia más participativa que ha existido, y que el juicio, leído en su contexto, no fue un simple ataque de fanatismo religioso: fue el ajuste de cuentas de una ciudad derrotada con un hombre que criticaba su sistema y que había educado a dos de los responsables de su desastre. La segunda es que Sócrates pudo salvarse y no quiso: podía haber propuesto el destierro, y después podía haber escapado, cosa que sus amigos le ofrecieron y él rechazó. Su muerte fue, en buena medida, una decisión suya.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "apologia-socrates": APOLOGIA_SOCRATES,
   tao: TAO_TE_CHING,
   enquiridion: ENQUIRIDION,
   "brevedad-vida": BREVEDAD_VIDA,

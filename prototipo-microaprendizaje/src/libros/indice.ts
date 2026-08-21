@@ -111,7 +111,6 @@ const CARGADORES: Record<string, Cargador> = {
   "sentirse-bien": () => import("./psicologia").then((m) => m.SENTIRSE_BIEN),
   "cerebro-del-nino": () => import("./psicologia").then((m) => m.CEREBRO_DEL_NINO),
   "maneras-de-amar": () => import("./psicologia").then((m) => m.MANERAS_AMAR),
-  "apologia-socrates": () => import("./filosofia").then((m) => m.APOLOGIA_SOCRATES),
   "segundo-sexo": () => import("./filosofia").then((m) => m.SEGUNDO_SEXO),
   "existencialismo-humanismo": () => import("./filosofia").then((m) => m.EXISTENCIALISMO_HUMANISMO),
   "mas-alla-bien-mal": () => import("./filosofia").then((m) => m.MAS_ALLA_BIEN_MAL),

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "apologia-socrates":
+    "Un ateniense de setenta años pisa un tribunal por primera vez, acusado de impiedad y de corromper a la juventud. La ciudad acababa de perder una guerra y una ley de amnistía impedía juzgarlo por lo que de verdad se le reprochaba.",
+
   tao:
     "Ochenta y un capítulos breves atribuidos a un archivero que, según la leyenda, se marchó en un buey y los escribió antes de cruzar la frontera. Hoy se sabe que no hubo un solo autor y que el texto creció durante siglos.",
 
