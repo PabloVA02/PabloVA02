@@ -19291,7 +19291,595 @@ const CUERPO_CUENTA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El mundo de Sofía, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO: es una novela. Títulos cortos de imagen, afirmación
+   en la primera frase, caja del rayo en segunda persona.
+
+   Lo que casi nadie cuenta: el giro del capítulo de Berkeley, o sea que el
+   libro coloca el descubrimiento de que sus personajes son personajes en
+   el capítulo del filósofo que dijo que existir es ser percibido.
+   -------------------------------------------------------------------------- */
+
+const MUNDO_SOFIA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos preguntas en el buzón" },
+      {
+        b: "texto",
+        texto:
+          "El mundo de Sofía es un curso de historia de la filosofía escondido dentro de una novela de intriga, y funciona porque el escondite es de verdad. Sofía Amundsen, catorce años, vuelve del instituto a su casa de un pueblo noruego y encuentra en el buzón un sobre sin remite con una sola línea escrita: quién eres. Al día siguiente llega otro: de dónde viene el mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Jostein Gaarder era profesor de filosofía de instituto y escribió el libro en 1991 para alumnos de esa edad. Se tradujo a más de sesenta idiomas, fue el libro más vendido del mundo en 1995 y lleva vendidos unos cuarenta millones de ejemplares, cifras raras para un manual de filosofía con dos mil quinientos años dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su decisión de oficio es la que lo salva. Cada corriente llega en forma de sobre, de vídeo o de conversación con Alberto Knox, un profesor que se esconde y no explica por qué; y mientras tanto van apareciendo postales dirigidas a una tal Hilde Møller Knag, en casa de Sofía, de un padre que está en el Líbano y felicita a su hija por un cumpleaños que no es el de Sofía. Esa intriga es la que empuja a seguir leyendo a Platón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que enseña y cómo lo hace: la imagen con la que define qué es un filósofo, qué preguntaron los griegos y quién acertó sin tener con qué mirar, qué demuestra la caverna, cómo se pasó de dudar de todo a dudar de la razón misma, qué respondió Kant y en qué consiste el giro que convierte la novela entera en un argumento filosófico.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La única condición para dedicarse a esto, dice el libro, es no haberse acostumbrado todavía al hecho de existir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El conejo y el pelo fino" },
+      {
+        b: "texto",
+        texto:
+          "La imagen que abre el curso es la mejor del libro y sostiene los cincuenta capítulos siguientes. Imagina un conejo blanco enorme sacado de una chistera. El truco tarda miles de millones de años, así que nadie ve al mago. Todos los seres vivos nacemos en la punta de uno de los pelos finos del pelaje, donde todavía se ve el borde del sombrero y la cosa entera parece increíble.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasa después es lo que describe la infancia de cualquiera. Nos vamos deslizando hacia abajo por el pelo, hacia la piel caliente del animal, y allí se está cómodo: se come, se trabaja, se habla del tiempo. Desde ahí ya no se ve el sombrero. Los filósofos, dice Alberto, son los que se pasan la vida trepando otra vez hacia la punta para mirar al mago a los ojos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con esa imagen el libro define su asignatura sin una sola palabra técnica. Filosofía no es acumular opiniones sobre el sentido de la vida: es negarse a dar por normal que exista algo en lugar de nada. Por eso Gaarder insiste en que los niños son mejores filósofos que los adultos, y en que la capacidad de asombro se pierde exactamente igual que se pierde la costumbre de preguntar por qué.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale su método pedagógico, que es no dar nunca la respuesta primero. Cada capítulo empieza con la pregunta que se hacía la gente de aquel siglo, no con el nombre del filósofo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El día que dejaste de sorprenderte de que exista el mundo fue el día que te acomodaste en la base del pelo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "De qué está hecho todo" },
+      {
+        b: "texto",
+        texto:
+          "La filosofía empieza, según el libro, con un cambio de tipo de explicación. Antes de los griegos, cuando alguien preguntaba por qué llueve, la respuesta era una historia con dioses dentro. Hacia el año 600 antes de Cristo, en Mileto, unos cuantos hombres empezaron a buscar la respuesta en la naturaleza misma, y esa es la frontera: no importa tanto lo que contestaron como que dejaron de contestar con relatos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus respuestas suenan hoy pintorescas y su pregunta no. Tales dijo que todo era agua; Anaxímenes, aire; Heráclito, que nada permanece y no puedes bañarte dos veces en el mismo río; Parménides, exactamente lo contrario, que el cambio es una ilusión de los sentidos. Los dos últimos plantearon el problema que la filosofía europea arrastra desde entonces: si hay que fiarse de lo que se ve o de lo que se razona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y uno acertó de pleno sin tener con qué mirar. Demócrito, hacia el 400 antes de Cristo, sostuvo que todo está hecho de piezas diminutas, eternas e indivisibles que se combinan de maneras distintas, y las llamó *átomos*, que en griego significa justamente eso, lo que no se puede cortar. No tenía instrumentos, ni experimentos, ni un solo dato: lo dedujo. La química tardó veintitrés siglos en darle la razón, y el nombre que le puso sigue puesto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un hombre sin más herramienta que el razonamiento acertó lo que a la ciencia le costó veintitrés siglos comprobar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La sombra en la pared" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo de Sócrates coloca su idea central en un detalle biográfico. Su madre era comadrona, y él llamó a su método mayéutica, el arte de asistir en un parto: no enseñaba nada, preguntaba hasta que el otro sacaba de sí mismo lo que ya sabía sin saberlo. Por eso no escribió una línea y por eso lo que queda de él lo escribieron otros. En el 399 antes de Cristo, Atenas lo condenó a beber cicuta por corromper a la juventud.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su alumno Platón dio el paso siguiente, y el libro lo explica con dos ejemplos que se entienden a la primera. Todos los caballos del mundo son distintos entre sí, y sin embargo cualquier niño reconoce uno la primera vez que lo ve: para Platón, eso significa que además de los caballos concretos existe algo, la idea de caballo, que es lo perfecto y lo permanente, y de lo que los caballos de carne son copias imperfectas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la alegoría de la caverna. Unos hombres llevan toda la vida encadenados de espaldas a la entrada, viendo pasar sombras proyectadas en la pared del fondo, y creen que las sombras son el mundo. Uno se suelta, sale, ve el sol y vuelve a contarlo. No le creen. Platón está describiendo lo que le hicieron a su maestro, y de paso dejó escrita la desconfianza hacia los sentidos que dominó dos mil años de pensamiento europeo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todo lo que te parece evidente lo aprendiste de espaldas, mirando una pared, y nadie te ha soltado todavía.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un hombre que dudó de todo" },
+      {
+        b: "texto",
+        texto:
+          "El tramo moderno del libro es una discusión entre dos bandos que se pasan la pelota durante dos siglos. Descartes abre el juego en el siglo XVII decidiendo dudar de absolutamente todo lo que había aprendido, incluidos sus sentidos y su propio cuerpo, para ver si quedaba algo en pie. Quedó una cosa: que mientras duda, hay alguien dudando. De ahí construye otra vez el mundo entero, y de paso deja el problema que no supo cerrar, el de cómo se comunican un alma que no ocupa espacio y un cuerpo que sí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los empiristas ingleses contestaron por el otro lado. Locke sostuvo que la mente al nacer es una hoja en blanco y que todo lo que hay dentro entró por los sentidos. Hume llevó el argumento hasta donde dolía: buscó dentro de sí mismo ese yo permanente del que todos hablan y solo encontró una sucesión de sensaciones, una detrás de otra, sin nadie detrás sosteniéndolas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su golpe mejor es el de la causalidad. Cuando una bola de billar choca con otra y la segunda se mueve, no vemos ninguna causa: vemos dos hechos seguidos, y hemos visto esa pareja tantas veces que esperamos la segunda al ver la primera. La necesidad no está en el mundo, está en nuestra costumbre. Y añadió una regla que se sigue citando: de cómo son las cosas no se deduce cómo deben ser.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que algo haya ocurrido mil veces seguidas no es ninguna prueba de que vaya a ocurrir la próxima; solo es la razón por la que lo esperas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Unas gafas que no se quitan" },
+      {
+        b: "texto",
+        texto:
+          "Kant cerró la discusión dándoles la razón a los dos y quitándosela a los dos, y el libro lo explica con una imagen doméstica que se queda. Imagina que llevas puestas unas gafas de cristales rojos. Todo lo que veas será rojo, y no porque el mundo lo sea, sino porque las gafas están ahí. Ahora imagina que no te las puedes quitar y que naciste con ellas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso es lo que sostiene: el tiempo, el espacio y la relación de causa y efecto no son propiedades del mundo, son la forma que tiene nuestra cabeza de recibirlo. Por eso Hume tenía razón en que no vemos la causalidad ahí fuera, y a la vez se equivocaba al concluir que no podemos fiarnos de ella: es la condición misma de que haya experiencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia es la que cambió la filosofía. Nunca conoceremos las cosas tal como son en sí mismas, solo tal como se nos aparecen a través de esas gafas. Y de ahí saca Kant también su moral, con una regla que no depende de ningún dios ni de ninguna consecuencia: actúa solo según aquella máxima que quisieras que fuese ley para todo el mundo. Si mentir no funcionaría en un mundo donde todos mintieran, mentir está mal, y punto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nunca vas a ver el mundo: vas a ver lo que tu propia cabeza es capaz de hacer con él.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El libro dentro del libro" },
+      {
+        b: "texto",
+        texto:
+          "A mitad de la novela, Gaarder hace algo que casi nadie cuenta al resumirla y que es lo que la convierte en filosofía en vez de historia de la filosofía. Sofía y Alberto descubren que no existen. Son personajes de un libro que un mayor del batallón noruego de las Naciones Unidas en el Líbano, Albert Knag, está escribiendo como regalo para el decimoquinto cumpleaños de su hija Hilde. Las postales que llegaban al buzón las escribe el autor de ellos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle que remata la jugada es dónde lo coloca. El descubrimiento cae en el capítulo dedicado a Berkeley, el obispo irlandés que sostuvo que las cosas solo existen mientras alguien las percibe y que lo que llamamos realidad es un contenido de una mente mayor. Sofía se entera de que existir es ser pensado justo cuando le toca estudiar al filósofo que lo dijo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ahí, el resto del curso se vuelve una fuga. Alberto planea escaparse del libro aprovechando un descuido de su autor, y los dos empiezan a hacer cosas que él no ha escrito. La pregunta de si un personaje puede rebelarse contra quien lo escribe es exactamente la del libre albedrío frente a un creador, y el lector la ha estado leyendo durante trescientas páginas sin darse cuenta de que la estaba viviendo alguien.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si descubrieras que alguien escribió tu vida, lo primero que querrías no sería entenderla: sería una salida.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El mundo de Sofía recorre dos mil quinientos años de filosofía europea, de los milesios a Sartre, ordenados por la pregunta de cada época y no por el nombre de cada autor. Y en vez de terminar con un resumen, monta una trama que obliga al lector a plantearse en primera persona las tres cuestiones que ha ido estudiando: si existe algo fuera de lo que percibimos, si somos libres y qué diferencia hay entre estar vivo y estar escrito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la puerta de entrada más eficaz que existe a esta materia. Un adolescente que lo termina sabe qué preguntó cada siglo y por qué, que es más de lo que sale de casi cualquier asignatura de bachillerato.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La única manera de que alguien aprenda filosofía es que la pregunta le llegue antes que el nombre de quien la hizo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La novela es un vehículo y se le nota: los personajes hablan como manuales, Sofía casi no tiene carácter propio y la trama existe para separar lecciones. El tramo del siglo XX va con prisa —Marx, Darwin, Freud y Sartre despachados en cuatro capítulos cortos— y el reparto es abrumadoramente masculino y europeo: Simone de Beauvoir aparece de pasada y no hay una sola filósofa antes que ella, ni nada de China, de la India ni del mundo árabe salvo como puente hacia Europa. Se le ha reprochado desde que salió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un efecto secundario que conviene decir. El éxito enorme del libro fijó la idea de que aprender filosofía es recorrer su historia por orden, que es justo lo contrario de lo que Gaarder defiende dentro de él. Su imagen del conejo dice que un filósofo es alguien que se hace una pregunta, no alguien que se sabe la lista; muchos de los cuarenta millones de lectores se quedaron con la lista.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   Una breve historia de casi todo, en doce páginas.
+
+   AMPLIO, y con motivo: el libro va del Big Bang a los homínidos pasando
+   por la cosmología, la geología, la química, la paleontología y la
+   biología celular. Diez argumentos independientes; en ocho páginas habría
+   que juntar tres o cuatro y saldría la lista de siempre.
+
+   Ensayo científico: titular que afirma, tercera persona.
+   -------------------------------------------------------------------------- */
+
+const CASI_TODO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Este libro no explica la ciencia: explica cómo se llegó a saberla" },
+      {
+        b: "texto",
+        texto:
+          "Bill Bryson escribía libros de viajes. Cuenta que la idea le vino cruzando el Pacífico en avión: miró el océano por la ventanilla y se dio cuenta de que no tenía ni idea de cómo se sabe la edad de esa agua, ni por qué el mar es salado, ni de dónde había salido el propio avión en términos de materia. Tenía cuarenta y muchos años y una escolarización científica que, dice, consistía en libros de texto sin una sola persona dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tardó tres años en escribirlo. Se dedicó a leer y, sobre todo, a preguntar: recorrió laboratorios y museos entrevistando a geólogos, paleontólogos y físicos con las preguntas que a un especialista le da vergüenza hacer. El resultado, publicado en 2003, no es un manual. Es la historia de cómo unas cuantas personas averiguaron cosas enormes con medios ridículos, y de la cantidad de veces que se equivocaron por el camino.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa decisión es la que lo separa de la divulgación normal. Casi todos los capítulos empiezan por quién midió algo y con qué, no por el resultado. Y por eso el libro está lleno de gente rara: un aristócrata que no hablaba con nadie, un doctorando que tuvo que inventar la sala limpia para poder trabajar, dos paleontólogos que se dinamitaban los yacimientos el uno al otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que cuenta: de dónde salió todo, lo vacío que está el sistema solar, quién pesó la Tierra y quién le puso edad, por qué la idea de los continentes móviles fue un chiste durante medio siglo, qué hay debajo de Yellowstone, cómo se demostró lo de los dinosaurios, lo poquísimo que se conserva de lo que ha vivido, de qué estamos hechos y cuántos huesos humanos antiguos hay en el mundo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi ningún libro de ciencia cuenta cómo se supo lo que se sabe, y esa es justo la parte que se puede recordar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Todo lo que existe cabía en un espacio sin tamaño, y no había un fuera",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con una instrucción incómoda: para imaginar el principio del universo hay que dejar de imaginar un punto en algún sitio. La materia y la energía de todo lo que hay hoy —galaxias, planetas, la mesa de cualquiera— estaba concentrada en una singularidad sin dimensiones. No estaba en ninguna parte, porque no había partes. No ocurrió en ningún momento, porque el tiempo empieza ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después ocupa menos de un minuto en la explicación y es donde queda decidido todo. En la primera fracción de segundo aparecen la gravedad y el resto de fuerzas. En tres minutos existe el noventa y ocho por ciento de la materia que va a existir jamás. Y el ritmo de la expansión tenía que estar ajustado con una precisión absurda: un poco más rápido y no se forman las galaxias, un poco más lento y todo vuelve a caerse sobre sí mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba de que aquello ocurrió se encontró por accidente en 1965. Dos ingenieros de los laboratorios Bell, Arno Penzias y Robert Wilson, tenían una antena con un ruido de fondo que no lograban quitar; limpiaron los excrementos de paloma del interior y el ruido siguió. Venía de todas las direcciones a la vez. Era el calor residual del Big Bang, y a cincuenta kilómetros de allí, en Princeton, un equipo llevaba meses buscando exactamente eso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La mayor confirmación de la cosmología moderna llegó como una avería que dos ingenieros llevaban un año intentando arreglar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ninguna ilustración del sistema solar puede ser fiel" },
+      {
+        b: "texto",
+        texto:
+          "Todos los dibujos del sistema solar mienten, y mienten por necesidad. Si se respetara la escala, los planetas serían invisibles y la página tendría que medir kilómetros. Bryson lo resuelve con una comparación que se queda: si la Tierra fuera un guisante, Júpiter estaría a unos trescientos metros y Plutón, a kilómetro y medio, con el tamaño de una bacteria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y en esa escala, la estrella más cercana después del Sol quedaría a más de quince mil kilómetros. Es decir, que un modelo honesto del vecindario solar no cabe en ninguna habitación, en ningún parque y en ninguna ciudad. El sistema solar, que en las láminas parece apretado, es sobre todo vacío con unas pocas motas dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro saca de ahí una consecuencia práctica sobre la exploración espacial. Las sondas que salen del sistema solar no esquivan nada porque no hay nada que esquivar, y a la vez encontrar cualquier cosa allí fuera es dificilísimo. La Voyager 1 lleva desde 1977 viajando a diecisiete kilómetros por segundo y no llegará a las cercanías de otra estrella en decenas de miles de años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade un dato de humildad. Plutón se descubrió en 1930 porque un joven de Kansas sin título universitario, Clyde Tombaugh, se pasó un año comparando placas fotográficas. Durante setenta y seis años fue un planeta; en 2006 la Unión Astronómica Internacional lo degradó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El sistema solar no es un conjunto de bolas cercanas: es un vacío enorme con unas cuantas motas repartidas muy lejos unas de otras.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La Tierra la pesó un hombre que no hablaba con nadie" },
+      {
+        b: "texto",
+        texto:
+          "En el siglo XVIII, saber cuánto pesa la Tierra era un problema serio y varias expediciones se arruinaron intentándolo. Una idea era medir cuánto desvía una montaña el hilo de una plomada: se probó en los Andes, con ocho años de desastres, y después en el monte Schiehallion de Escocia, en 1774, donde salió un resultado aceptable y un subproducto inesperado, porque el matemático que procesó los datos inventó por el camino las curvas de nivel de los mapas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La solución buena llegó en 1797 y la ejecutó Henry Cavendish, un aristócrata inglés patológicamente retraído. Se comunicaba con su servicio por notas escritas, mandó construir una escalera trasera en su casa para no cruzarse con el ama de llaves y huía si un invitado le dirigía la palabra. Trabajaba solo y publicaba casi nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El aparato tampoco era suyo: se lo había legado el geólogo John Michell, que murió antes de usarlo. Consistía en dos bolas de plomo colgadas de una barra en equilibrio y otras dos bolas mayores acercadas a los lados, para medir la mínima atracción entre ellas. Cavendish lo montó en un cobertizo, lo aisló de las corrientes de aire y lo observó desde fuera con un telescopio. Calculó que la Tierra pesa unos seis mil trillones de toneladas, con un error inferior al uno por ciento respecto a la cifra actual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando un siglo después Maxwell revisó sus papeles, apareció lo demás: había anticipado sin publicar la ley de Ohm, la de Coulomb, la composición del agua y el principio de conservación de la energía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El experimento que dio el peso del planeta se hizo en un cobertizo, con bolas de plomo, y su autor no se lo contó a casi nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Averiguar la edad de la Tierra sirvió para quitar el plomo de la gasolina",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1948, un doctorando estadounidense llamado Clair Patterson recibió el encargo de datar la Tierra midiendo isótopos de plomo en rocas antiguas. Le costó siete años, y no por el cálculo: todas sus muestras salían contaminadas. Había plomo en el aire del laboratorio, en el polvo, en el agua, en su propio pelo. Para poder trabajar tuvo que construir la primera sala limpia del mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1953 dio la cifra usando fragmentos de un meteorito de Arizona: cuatro mil quinientos cincuenta millones de años. Sigue siendo la buena, con un margen minúsculo. Y salió de allí con una pregunta distinta y mucho más incómoda: de dónde venía tanto plomo ambiental.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La respuesta estaba en 1921, cuando el químico Thomas Midgley Jr. descubrió que añadir tetraetilo de plomo a la gasolina eliminaba el picado del motor. Patterson midió los hielos de Groenlandia: antes de 1923 el plomo atmosférico era insignificante; después se disparó. Publicarlo le costó contratos, presiones de la industria y quedarse fuera de un comité oficial sobre contaminación por plomo en 1971. La gasolina con plomo se prohibió en Estados Unidos en 1986, y en los diez años siguientes los niveles de plomo en la sangre de los estadounidenses cayeron alrededor de un ochenta por ciento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Midgley da además el dato más extraño del libro. Después del plomo inventó los clorofluorocarburos, los gases que abrieron el agujero de la capa de ozono. Un solo químico, dos catástrofes atmosféricas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El hombre que puso fecha al planeta acabó dedicando su carrera a limpiar el veneno que le impedía medirlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La idea de que los continentes se mueven fue un chiste durante medio siglo",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1912, un meteorólogo alemán llamado Alfred Wegener propuso que los continentes habían estado unidos y se habían separado. Sus pruebas eran buenas: las costas encajan, los mismos fósiles de reptiles terrestres aparecen a los dos lados del Atlántico, las cadenas montañosas se continúan de un continente a otro y hay marcas de glaciación en sitios hoy tropicales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Le faltaba una sola cosa y fue la que lo hundió: no sabía explicar qué empuja un continente. La comunidad geológica lo trató con desprecio durante décadas, en parte porque era meteorólogo y estaba opinando fuera de su campo. Las explicaciones alternativas que se defendían mientras tanto eran peores; una sostenía que había habido puentes de tierra que después se hundieron limpiamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Wegener murió en 1930 en una expedición a Groenlandia, el día que cumplía cincuenta años. La confirmación llegó treinta años después y por el fondo del mar: al cartografiar el magnetismo de la corteza oceánica aparecieron bandas simétricas a los dos lados de las dorsales, la firma de un suelo que se fabrica en el centro y se separa. Hacia 1968 la tectónica de placas estaba aceptada y los libros de texto se reescribieron.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una idea correcta sin mecanismo se rechaza igual que una falsa, y puede tardar medio siglo en volver.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Yellowstone es un volcán y durante un siglo nadie supo dónde estaba" },
+      {
+        b: "texto",
+        texto:
+          "Yellowstone tiene géiseres, fumarolas y aguas hirviendo, así que era evidente que allí había calor volcánico. Lo que no aparecía era el volcán. Durante décadas los geólogos buscaron el cono y no lo encontraron, hasta que en los años sesenta un investigador del servicio geológico estadounidense, Bob Christiansen, recibió unas fotografías aéreas tomadas por la NASA.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón de que nadie lo hubiera visto era la escala. La caldera mide unos setenta kilómetros de diámetro, o sea que el parque entero está dentro del volcán y no hay ningún punto desde el que se pueda ver el borde. Se estaba buscando algo de la forma de una montaña cuando lo que había era una depresión del tamaño de una provincia pequeña.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Debajo hay una cámara de magma que ha entrado en erupción tres veces: hace unos dos millones de años, un millón trescientos mil y seiscientos cuarenta mil. La primera arrojó material suficiente para cubrir de ceniza medio continente. La conclusión que Bryson subraya no es alarmista, es de método: el rasgo geológico más grande de Norteamérica pasó inadvertido porque era demasiado grande para reconocerlo desde el suelo. Christiansen encontró además algo que se sigue midiendo cada año: el suelo del parque sube y baja varios centímetros, como una tapa que respira.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay cosas que no se ven por pequeñas y otras que no se ven porque uno está de pie encima de ellas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La muerte de los dinosaurios se demostró con un centímetro de barro italiano",
+      },
+      {
+        b: "texto",
+        texto:
+          "A finales de los setenta, el geólogo Walter Alvarez estudiaba una garganta cerca de Gubbio, en Italia, donde las capas de roca cuentan sesenta y cinco millones de años seguidos. Entre la caliza con fósiles de la era de los dinosaurios y la de arriba había una franja de arcilla de un centímetro sin nada dentro. Le llevó la muestra a su padre, Luis Alvarez, premio Nobel de Física.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea del padre fue medir el iridio, un metal rarísimo en la corteza terrestre y frecuente en los meteoritos, para calcular cuánto tiempo había tardado en depositarse aquella capa. Salió trescientas veces por encima de lo normal. En 1980 publicaron la conclusión: un asteroide de unos diez kilómetros golpeó la Tierra y esa arcilla es lo que cayó del cielo después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Faltaba el agujero. Se propuso un cráter en Iowa que resultó tener nueve millones de años de más. Y el bueno llevaba localizado desde 1978 sin que nadie lo supiera: un geofísico que trabajaba para la petrolera mexicana Pemex había detectado bajo Yucatán una estructura circular enterrada de unos ciento ochenta kilómetros. Sus datos estaban en un informe interno. La conexión no se hizo hasta 1991.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La prueba de la mayor catástrofe de la historia de la vida estuvo doce años en el archivo de una petrolera sin que nadie la relacionara.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi nada de lo que ha vivido ha dejado el menor rastro" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre fósiles empieza recordando lo improbable que es fosilizar. Hace falta morir en el sitio adecuado, quedar cubierto de sedimento sin que carroñeros ni bacterias terminen el trabajo, aguantar millones de años de presión y calor, y después volver a la superficie y aparecer justo cuando alguien capaz de reconocerte pase por allí. Bryson calcula que solo una fracción minúscula de los seres que han existido ha dejado un fósil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la advertencia que atraviesa toda la paleontología: lo que se conoce del pasado no es una muestra representativa, es lo que sobrevivió a una lotería. De la mayoría de las especies de dinosaurio descritas se tiene un solo ejemplar, y de muchas, unos pocos huesos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y encima el material se ha tratado a menudo fatal. La rivalidad entre los estadounidenses Edward Drinker Cope y Othniel Marsh, en el último tercio del siglo XIX, produjo más de cien especies nuevas y también sabotajes, robos de cajas, yacimientos dinamitados para que el otro no los excavara y montajes hechos con prisa: Cope llegó a reconstruir un reptil marino colocándole el cráneo en el extremo de la cola. Los dos acabaron arruinados y enemistados con media profesión. Bryson recuerda por eso que cada árbol evolutivo publicado es una hipótesis con muy pocos huesos debajo, y que cambia cada vez que aparecen unos cuantos más.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El registro fósil no es un archivo del pasado: es lo poquísimo que se salvó de una lotería con diez cifras.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un cuerpo humano es sobre todo un sitio donde viven otros" },
+      {
+        b: "texto",
+        texto:
+          "La parte biológica del libro cambia la escala de golpe. Cada persona está hecha de decenas de billones de células, y cada célula funciona como una fábrica química con miles de reacciones simultáneas, sin nadie dirigiendo y sin que ninguna de sus piezas esté viva por separado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Encima, buena parte de lo que llevamos encima no es nuestro. Sobre la piel y dentro del intestino viven cantidades enormes de bacterias, en su mayoría inofensivas o necesarias. Y hay un detalle de parentesco que Bryson subraya: las mitocondrias, las estructuras que producen la energía de nuestras células, tienen su propio ADN, se dividen por su cuenta y descienden de bacterias que fueron absorbidas hace más de mil millones de años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que saca de todo el capítulo es de proporción, no de ternura. Las bacterias han estado aquí desde el principio, ocupan ambientes donde nada más aguanta y seguirán cuando no quede ninguno de nosotros. La vida compleja es una rareza reciente montada encima de la vida sencilla, que es la que de verdad domina el planeta y siempre lo ha hecho. Y hay una cifra que resume lo poco que se sabe de todo esto. Se han descrito entre un millón y medio y dos millones de especies, y las estimaciones del total van de tres a cien millones según a quién se pregunte. Ni siquiera existe un registro central que diga cuántas están ya catalogadas, así que la cifra de partida tampoco es exacta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La vida grande y complicada es una excepción tardía; la norma del planeta, desde el principio, son los organismos de una sola célula.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Todos los huesos humanos antiguos del mundo caben en una furgoneta" },
+      {
+        b: "texto",
+        texto:
+          "El tramo final del libro es el que más sorprende a los lectores, porque desmonta la idea de que el origen del hombre es un asunto bien documentado. La cantidad total de restos fósiles de homínidos conocidos, sumando todos los yacimientos y todas las especies, cabría, escribe Bryson, en la parte trasera de una camioneta. Con eso se han construido todos los árboles genealógicos que se han publicado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hallazgo más famoso lo hizo Donald Johanson en 1974 en la región etíope de Hadar: el cuarenta por ciento de un esqueleto de tres millones doscientos mil años de antigüedad, una hembra de metro y poco que caminaba erguida y tenía un cerebro de tamaño simiesco. La llamaron Lucy porque en el campamento sonaba una canción de los Beatles. Ese esqueleto demostró que primero se anduvo de pie y después creció el cerebro, no al revés.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el libro cierra con una coincidencia que no admite muchas lecturas. Allí donde llegó nuestra especie, los animales grandes desaparecieron poco después: en Australia hace unos cuarenta y cinco mil años, en América hace unos trece mil. El dodo se extinguió a finales del siglo XVII, y del único ejemplar disecado que quedaba en Oxford el conservador mandó quemar casi todo en 1755 por estar apolillado. Se salvaron una cabeza y una pata.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El registro entero del origen humano cabe en un remolque, y sobre esa cantidad de hueso se discute todo lo demás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Una breve historia de casi todo cuenta el estado de las ciencias naturales a través de cómo se llegó a cada dato: quién midió, con qué, cuánto tardó y cuántas veces se equivocó. De ahí saca dos ideas repetidas. La primera, que lo que sabemos se apoya en muestras minúsculas y en hallazgos afortunados mucho más de lo que aparenta un libro de texto. La segunda, que la existencia de cualquiera de nosotros depende de una cadena de casualidades tan larga que da vértigo mirarla entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un tono. Bryson no simula saber; pregunta como pregunta un lector, y por eso el libro sirve igual para alguien que no estudió ciencias y para alguien que las estudió y solo recuerda las conclusiones.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Somos afortunados dos veces: por existir y por pertenecer a la única especie que puede enterarse de que existe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Bryson no es científico y a veces la simplificación pasa de raya, sobre todo en física de partículas y en cosmología, donde algunas frases dejan al lector con una imagen falsa aunque memorable. Su galería de excéntricos entretiene y a la vez empuja una idea equivocada: que la ciencia la hacen genios raros y no equipos grandes, que es como se hace desde hace un siglo. Y el reparto es casi por completo británico y estadounidense.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay cifras que han caducado, que en un libro así es lo normal. La proporción de bacterias por célula humana que se daba entonces, de diez a una, se corrigió en 2016 y hoy se calcula que anda cerca de una a una. La edad del universo quedó afinada en 2013 en trece mil ochocientos millones de años. Plutón dejó de ser planeta en 2006, tres años después de publicarse el libro. Y la lista de especies de homínidos ha cambiado bastante desde entonces, con hallazgos como el hombre de Flores en 2003 y el denisovano en 2010, que se identificó a partir de un trozo de dedo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "casi-todo": CASI_TODO,
+  "mundo-sofia": MUNDO_SOFIA,
   "cuerpo-cuenta": CUERPO_CUENTA,
   freakonomics: FREAKONOMICS,
   "los-miserables": LOS_MISERABLES,

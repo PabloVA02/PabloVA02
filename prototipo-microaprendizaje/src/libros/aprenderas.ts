@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "casi-todo":
+    "Bryson escribía libros de viajes y se dio cuenta en un avión de que no sabía cómo se averigua la edad del océano. Tardó tres años preguntando a científicos, y el resultado cuenta quién midió cada cosa y con qué medios.",
+
+  "mundo-sofia":
+    "Una niña de catorce años encuentra en el buzón un sobre con una sola pregunta escrita: quién eres. Gaarder monta con eso un recorrido de dos mil quinientos años que a mitad de camino se convierte en un problema filosófico de verdad.",
+
   "cuerpo-cuenta":
     "El estrés postraumático no existió como diagnóstico hasta 1980. Van der Kolk reúne treinta años de consulta y de escáneres para sostener que el trauma no se guarda como recuerdo, sino como una configuración del sistema nervioso.",
 

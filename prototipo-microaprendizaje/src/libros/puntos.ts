@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "casi-todo": [
+    "quién pesó la Tierra y con qué aparato",
+    "cómo la edad del planeta acabó quitando el plomo de la gasolina",
+    "por qué el volcán de Yellowstone tardó un siglo en aparecer",
+    "cómo se demostró lo del asteroide de los dinosaurios",
+    "cuántos fósiles humanos hay en total en el mundo",
+  ],
+
+  "mundo-sofia": [
+    "con qué imagen define el libro lo que es un filósofo",
+    "quién acertó lo de los átomos sin tener con qué mirar",
+    "qué demuestra exactamente la alegoría de la caverna",
+    "por qué Kant dio la razón a los dos bandos a la vez",
+    "qué descubren los personajes a mitad de la novela",
+  ],
+
   "cuerpo-cuenta": [
     "por qué revivir no es lo mismo que recordar",
     "qué zona del cerebro se apaga al revivir un trauma",

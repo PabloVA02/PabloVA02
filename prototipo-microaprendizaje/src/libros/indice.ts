@@ -54,7 +54,6 @@ const CARGADORES: Record<string, Cargador> = {
   /* Ciencia */
   feynman: () => import("./ciencia").then((m) => m.FEYNMAN),
   "vida-arboles": () => import("./ciencia").then((m) => m.VIDA_ARBOLES),
-  "casi-todo": () => import("./ciencia").then((m) => m.CASI_TODO),
   "mundo-demonios": () => import("./ciencia").then((m) => m.MUNDO_DEMONIOS),
 
   /* Salud */
@@ -152,7 +151,6 @@ const CARGADORES: Record<string, Cargador> = {
   "sentirse-bien": () => import("./psicologia").then((m) => m.SENTIRSE_BIEN),
   "cerebro-del-nino": () => import("./psicologia").then((m) => m.CEREBRO_DEL_NINO),
   "maneras-de-amar": () => import("./psicologia").then((m) => m.MANERAS_AMAR),
-  "mundo-sofia": () => import("./filosofia").then((m) => m.MUNDO_SOFIA),
   "apologia-socrates": () => import("./filosofia").then((m) => m.APOLOGIA_SOCRATES),
   "segundo-sexo": () => import("./filosofia").then((m) => m.SEGUNDO_SEXO),
   "existencialismo-humanismo": () => import("./filosofia").then((m) => m.EXISTENCIALISMO_HUMANISMO),
