@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "bogle-sentido-comun": "La única forma de garantizar tu parte justa de lo que rinde la bolsa",
   einstein: "Su vida y su universo",
   "musica-primos": "El enigma de un problema matemático abierto",
   "universo-mano": "Un viaje por el espacio, el tiempo y más allá",

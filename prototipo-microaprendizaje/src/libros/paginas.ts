@@ -45005,7 +45005,293 @@ const EINSTEIN: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El pequeño libro para invertir con sentido común, en ocho páginas.
+
+   Breve, y de manual: una sola idea repetida doscientas páginas. REDACCION,
+   apartado 2 ter, dice que eso es Breve aunque el libro sea famoso.
+
+   Dos registros que manda REDACCION y que aquí coinciden:
+     · Libro práctico de dinero → se habla de TÚ (regla 4.7).
+     · Economía → cada argumento con una persona, una empresa y una fecha
+       dentro, y cada término técnico traducido y definido la primera vez
+       (apartado 4 bis, el que salió de la captura de La gran apuesta).
+
+   La tentación de este libro es resumirlo como «invierte en fondos índice»
+   y quedarse tan ancho. Lo que hay que contar es la ARITMÉTICA, que es lo
+   único suyo: por qué el resultado no depende de acertar.
+   -------------------------------------------------------------------------- */
+
+const BOGLE_SENTIDO_COMUN: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi nadie gana al mercado, y quien lo gana casi nunca lo repite" },
+      {
+        b: "texto",
+        texto:
+          "En 1970 había en Estados Unidos 355 fondos de inversión en bolsa. Treinta y cinco años después, 223 habían desaparecido. De los 132 que seguían vivos, solo 24 habían superado al mercado por más de un punto al año, y de esos, la mayoría había hecho su mérito en los años setenta y llevaba dos décadas sin destacar. Al final quedaban tres fondos de 355 con una ventaja sostenida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa tabla es de John Bogle y está en el centro de este libro, publicado en 2007. Bogle fundó Vanguard en 1974 y lanzó en 1976 el primer fondo índice para pequeños ahorradores, un fondo que no elige nada: compra todas las empresas de la bolsa en la proporción que tienen. Salió a la venta con la intención de captar ciento cincuenta millones de dólares y recogió once. En el sector lo llamaron «la locura de Bogle».",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro no defiende esa idea con una corazonada sobre el futuro, y ahí está su fuerza. La defiende con una cuenta que no depende de qué haga la bolsa: si compras el mercado entero y pagas casi nada por hacerlo, te llevas lo que dé el mercado menos una miseria; si pagas a alguien para que elija, te llevas lo mismo menos lo que le pagues.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: la aritmética que hace imposible que los gestores ganen en conjunto, cuánto se lleva de verdad una comisión del dos por ciento, por qué el fondo que ganó los últimos diez años no es el que ganará los siguientes, cuánto pierdes tú por entrar y salir, qué hay que hacer exactamente, y cómo acabó la apuesta de un millón de dólares que Warren Buffett hizo el mismo año de este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tres fondos de cada trescientos cincuenta y cinco batieron al mercado durante treinta y cinco años. Elegir cuáles, en 1970, era imposible.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los inversores en conjunto no pueden ganar al mercado porque son el mercado",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento entero cabe en una frase y conviene leerla dos veces. Todas las acciones de una bolsa están en manos de alguien. Sumando a todos los propietarios, el resultado que obtienen es exactamente el que da la bolsa, ni un céntimo más. Así que si un gestor gana más que el mercado, hay obligatoriamente otro que gana menos: lo que uno se lleva de más se lo quita a otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hasta ahí es un juego de suma cero, en el que unos ganan lo que pierden otros. Lo que lo convierte en un juego perdido es lo que cuesta jugarlo. Elegir acciones exige analistas, comisiones y compraventas, y todo eso se paga del bote común. Después de descontarlo, el conjunto de los que eligen obtiene menos que el mercado, siempre y por definición. El economista William Sharpe, premio Nobel, lo escribió en 1991 en dos páginas y lo tituló «la aritmética de la gestión activa».",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene tener claros dos términos, porque el sector los usa sin traducirlos. Un fondo de gestión activa es aquel en el que un equipo decide qué comprar y qué vender, y cobra por decidirlo. Un fondo índice es el que renuncia a decidir: compra todas las empresas del índice en su proporción y se limita a mantenerlas. El segundo no aspira a acertar, aspira a no pagar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fíjate en lo que esto significa para ti. No estás apostando a que los gestores sean malos, ni a que el mercado sea eficiente, ni a ninguna teoría discutible. Estás apoyándote en una identidad contable. Puede haber gestores excelentes, y los hay; lo que no puede haber es que en conjunto ganen, porque en conjunto son el mercado con una factura encima.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No es una opinión sobre los gestores: es una resta. En conjunto obtienen lo que da la bolsa menos lo que cobran.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una comisión del dos por ciento no se lleva el dos por ciento: se lleva la mitad de todo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bogle lo llama la tiranía de los costes acumulados y lo demuestra con una cuenta que puedes rehacer en un papel. Diez mil euros invertidos durante cincuenta años al siete por ciento anual se convierten en unos doscientos noventa y cuatro mil. Los mismos diez mil euros, con dos puntos de coste anual —o sea, al cinco por ciento— se convierten en unos ciento catorce mil. Pierdes el sesenta por ciento del resultado por dos puntos al año.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón es que el coste también compone. Cada año que se lleva su parte, se lleva además todo lo que esa parte habría generado durante los años restantes. Y hay una asimetría que Bogle repite hasta el cansancio y que es cierta: tú pones el cien por cien del dinero y asumes el cien por cien del riesgo, y en ese reparto te quedas con poco más de un tercio de lo que produce.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los dos puntos no son un ejemplo inventado. La comisión de gestión de un fondo de bolsa activa ronda el uno o el uno y medio por ciento anual, y encima hay que sumar lo que cuesta la rotación —la compraventa constante de la cartera, que paga corretajes y no aparece en ningún folleto—. Un fondo índice sobre el mercado estadounidense cobra hoy entre el cero coma cero cuatro y el cero coma dos por ciento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso la única variable de esta ecuación que controlas es el coste. No sabes qué hará la bolsa, no sabes qué gestor acertará, no sabes cuándo habrá una caída. Sabes exactamente lo que vas a pagar, porque está escrito, y sabes que se resta todos los años pase lo que pase. Es el único dato del que puedes estar seguro antes de empezar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo único que sabes con certeza antes de invertir es cuánto vas a pagar, y resulta que es la variable que más manda en el resultado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El fondo que ganó los últimos diez años es mala información sobre los diez siguientes",
+      },
+      {
+        b: "texto",
+        texto:
+          "La manera normal de elegir fondo es mirar la tabla de rentabilidades pasadas y quedarse con el de arriba. Bogle dedica varios capítulos a demostrar que eso no funciona, y lo hace del único modo serio: siguiendo a los ganadores de un periodo durante el periodo siguiente. Los fondos que estaban en el primer grupo de una década aparecen, en la siguiente, repartidos por toda la tabla, exactamente como si los hubiera colocado el azar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El fenómeno tiene nombre y es de estadística, no de finanzas: reversión a la media. Cuando un resultado depende en buena parte de la suerte, los valores extremos tienden a acercarse al promedio en la siguiente medición. Un gestor que ha tenido cinco años excelentes suele haber tenido, además de criterio, un estilo que le venía bien a esos cinco años; cuando cambia el viento, el mismo criterio le juega en contra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que todo el mundo citaba cuando salió este libro era Bill Miller, de Legg Mason. Su fondo batió al índice estadounidense quince años seguidos, de 1991 a 2005, algo que ningún gestor había hecho antes, y su nombre se convirtió en la prueba viviente de que se podía. En 2008 el fondo perdió alrededor del cincuenta y cinco por ciento, mucho más que el mercado, y la ventaja de quince años se evaporó en uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un espejismo que falsea todas las tablas y que se llama sesgo de supervivencia. Los fondos que van mal se cierran o se fusionan con otros, y al desaparecer se llevan su historial: la media de los fondos que ves anunciada es la media de los que aguantaron. De los 355 de 1970, 223 habían desaparecido, y ninguna tabla comercial los cuenta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Elegir por la rentabilidad pasada es fiarse de la parte del resultado que menos se repite: la suerte.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los inversores ganan menos que sus propios fondos, y la diferencia la ponen ellos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay dos cifras distintas y casi nadie las distingue. Una es lo que gana el fondo, que se calcula suponiendo que has estado dentro todo el periodo. Otra es lo que gana la gente que tiene ese fondo, que se calcula teniendo en cuenta cuándo entró y cuándo salió cada uno. La segunda es sistemáticamente menor, y a la diferencia se le llama el hueco del comportamiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La causa es sencilla y humillante: el dinero entra después de las subidas y sale después de las caídas. Morningstar, la empresa que analiza fondos, publica cada año un estudio sobre esto y en la edición de 2024, mirando la década anterior, encontró que el inversor medio se quedó algo más de un punto porcentual al año por debajo de los fondos en los que estaba invertido. Un punto al año, durante treinta años, es una fortuna.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo canónico es el de las tecnológicas. Entre 1999 y principios de 2000 los fondos tecnológicos estadounidenses recibieron entradas enormes de dinero, justo en los meses de máximos; y en 2002, con el índice tecnológico un setenta y cinco por ciento por debajo, esos mismos fondos sufrieron salidas masivas. El fondo perdió mucho; sus partícipes perdieron más, porque compraron caro y vendieron barato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Así que aquí el enemigo no es el sector: eres tú. Y esta es la parte del libro que tiene consecuencias prácticas inmediatas, porque implica que la decisión importante no es qué comprar sino qué hacer los días malos. Bogle lo resume en tres palabras que repite como un mantra: no hagas nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La diferencia entre lo que rinde un fondo y lo que gana quien lo tiene la decide una sola cosa: en qué momento se compró y se vendió.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Todo el consejo del libro cabe en cuatro líneas, y esa es la mitad del mérito",
+      },
+      {
+        b: "texto",
+        texto:
+          "Compra un fondo índice que cubra todo el mercado, no solo las grandes empresas. Mira que la comisión total esté por debajo del cero coma dos por ciento anual y compárala, porque entre dos fondos que hacen lo mismo la diferencia de comisión es la diferencia de resultado. Añade renta fija —bonos, o sea, préstamos a Estados y empresas— en una proporción que suba a medida que te acerques a necesitar el dinero. Y después no vendas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese último punto es el difícil, y Bogle no lo disimula. Quien siguiera su consejo en 2007 vería su cartera caer más de un cincuenta por ciento en año y medio y tendría que aguantar sin tocar nada. Quien aguantó recuperó, y quien vendió en marzo de 2009 se quedó fuera de la mayor subida de la década. Lo que la historia no dice es cómo se hace eso con el dinero de la jubilación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El respaldo más citado de esta receta no es de Bogle. Warren Buffett escribió en su carta a los accionistas de 2013 que había dejado instrucciones para su herencia: el noventa por ciento en un fondo índice de bajo coste sobre el mercado estadounidense y el diez restante en deuda pública a corto plazo. Y en la carta de 2016 escribió que si alguna vez se erige una estatua a quien más ha hecho por los inversores estadounidenses, debería ser la de Jack Bogle.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir lo que este consejo no promete. No te promete ganar dinero: te promete quedarte con casi todo lo que dé la bolsa, y la bolsa puede pasar quince años sin dar nada. El índice japonés tardó treinta y cuatro años en recuperar el nivel de 1989. Lo que este método elimina no es el riesgo del mercado, es el de pagar de más y elegir mal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El método no promete que ganes: promete que te quedes con casi todo lo que haya, que es una promesa distinta y comprobable.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una apuesta de un millón de dólares zanjó la discusión con números" },
+      {
+        b: "texto",
+        texto:
+          "En 2007, el mismo año de este libro, Warren Buffett hizo una oferta pública: un millón de dólares a que un simple fondo índice sobre las quinientas mayores empresas estadounidenses batiría, en diez años, a cualquier cesta de fondos de alto copete que alguien quisiera elegir. Durante meses no aceptó nadie. En 2008 dio la cara Ted Seides, de la gestora Protégé Partners, y eligió cinco fondos de fondos de cobertura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un fondo de cobertura, lo que en inglés se llama «hedge fund», es un fondo para grandes patrimonios con libertad casi total para invertir y una tarifa clásica llamada «dos y veinte»: cobra cada año el dos por ciento de todo el dinero que gestiona más el veinte por ciento de las ganancias. Seides eligió cinco carteras compuestas cada una por varios de esos fondos, lo que añade otra capa de comisión encima.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La apuesta corrió del 1 de enero de 2008 al 31 de diciembre de 2017, y empezó con el peor año de la bolsa desde 1931, que era justamente lo que debía favorecer a la gestión hábil. El fondo índice acumuló un ciento veinticinco coma ocho por ciento; las cinco cestas, un treinta y seis coma tres de media. En anual, siete coma uno frente a dos coma dos. Seides reconoció la derrota antes de tiempo y el dinero fue a una asociación infantil de Omaha.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo importante no es que ganara Buffett, sino qué demuestra que ganara. No demuestra que aquellos gestores fueran malos: varios de ellos son excelentes. Demuestra que una estructura de comisiones del dos por ciento anual más el veinte por ciento de las ganancias, repetida diez años, se come una ventaja que casi nadie es capaz de generar. Es la aritmética de la página segunda funcionando en el mundo real y con testigos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Diez años, un millón de dólares y un resultado de siete a dos: la ventaja de los mejores gestores no llega a cubrir lo que cuesta contratarlos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro defiende una sola cosa, y con una identidad contable en vez de con una previsión: en conjunto, quienes eligen acciones obtienen lo que da el mercado menos lo que cobran, así que comprar el mercado entero y pagar lo mínimo es la única estrategia que no depende de acertar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la aritmética del coste, que es la parte que el sector nunca enseña con esa crudeza: dos puntos de comisión anual no cuestan dos, cuestan la mitad de lo que habrías acumulado en cincuenta años. Después de leerlo, cualquier folleto de fondos se lee de otra manera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en tres sitios. Es repetitivo hasta lo agotador, porque el mismo argumento vuelve en cada capítulo con otra tabla. Está calculado entero sobre la bolsa estadounidense del siglo XX, que es el mercado que mejor se portó de todos los que existían en 1900, y apenas discute qué habría pasado con el mismo método en Tokio o en Buenos Aires. Y le dedica dos líneas al problema que más duele, que es aguantar una caída del cincuenta por ciento con el dinero propio dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después le dio la razón. En agosto de 2019 los fondos índice sobre bolsa estadounidense superaron por primera vez en patrimonio a los de gestión activa. La comisión media ponderada de los fondos allí bajó del cero coma ocho y siete por ciento de 2004 al cero coma tres y seis de 2023, según Morningstar, y en 2018 Fidelity lanzó fondos índice sin comisión alguna.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y le salió un problema que él mismo vio venir. En noviembre de 2018, dos meses antes de morir, Bogle publicó un artículo avisando de que si los fondos índice seguían creciendo, un puñado de gestoras acabaría controlando el voto de casi todas las empresas cotizadas, y escribió que esa concentración no convenía al país. A eso se ha sumado otra: comprar hoy el índice estadounidense es poner más de un tercio del dinero en diez empresas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ganó su discusión de tal manera que los problemas actuales de invertir en fondos índice son consecuencia de haberla ganado.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "bogle-sentido-comun": BOGLE_SENTIDO_COMUN,
   einstein: EINSTEIN,
   "musica-primos": MUSICA_PRIMOS,
   "universo-mano": UNIVERSO_MANO,

@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "bogle-sentido-comun": [
+    "por qué los gestores en conjunto no pueden ganar al mercado",
+    "cuánto se lleva de verdad una comisión del dos por ciento",
+    "qué es el sesgo de supervivencia en una tabla de fondos",
+    "el hueco entre lo que rinde un fondo y lo que ganas tú",
+    "cómo acabó la apuesta de un millón de dólares de Buffett",
+  ],
+
   einstein: [
     "por qué es falso que suspendiera matemáticas",
     "qué pregunta abrió la relatividad, y no era de física",

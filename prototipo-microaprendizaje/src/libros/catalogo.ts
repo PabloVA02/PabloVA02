@@ -281,7 +281,7 @@ export const CATALOGO: Ficha[] = [
      explican algo —cómo se ficha, cómo se entrena, qué cuesta ganar— o los
      que están bien escritos de verdad. La mitad son de fútbol porque es lo
      que pidió Pablo y es lo que se busca, y la otra mitad reparte. */
-  { id: "messi-ronaldo", titulo: "Messi vs. Ronaldo", autor: "Clegg y Robinson", ano: 2021, categoria: "Deportes", estado: "pendiente" },
+  { id: "messi-ronaldo", titulo: "Messi vs. Ronaldo", autor: "Clegg y Robinson", ano: 2021, categoria: "Deportes", estado: "escrito" },
   { id: "yo-soy-el-diego", titulo: "Yo soy el Diego", autor: "Diego Armando Maradona", ano: 2000, categoria: "Deportes", estado: "pendiente" },
   { id: "piramide-invertida", titulo: "La pirámide invertida", autor: "Jonathan Wilson", ano: 2008, categoria: "Deportes", estado: "pendiente" },
   { id: "futbol-sol-sombra", titulo: "El fútbol a sol y sombra", autor: "Eduardo Galeano", ano: 1995, categoria: "Deportes", estado: "pendiente" },
@@ -289,7 +289,7 @@ export const CATALOGO: Ficha[] = [
   { id: "fiebre-gradas", titulo: "Fiebre en las gradas", autor: "Nick Hornby", ano: 1992, categoria: "Deportes", estado: "pendiente" },
   { id: "cruyff-14", titulo: "14. La autobiografía de Johan Cruyff", autor: "Johan Cruyff", ano: 2016, categoria: "Deportes", estado: "pendiente" },
   { id: "soy-zlatan", titulo: "Yo soy Zlatan Ibrahimović", autor: "David Lagercrantz", ano: 2011, categoria: "Deportes", estado: "pendiente" },
-  { id: "open-agassi", titulo: "Open", autor: "Andre Agassi", ano: 2009, categoria: "Deportes", estado: "pendiente" },
+  { id: "open-agassi", titulo: "Open", autor: "Andre Agassi", ano: 2009, categoria: "Deportes", estado: "escrito" },
   { id: "rafa-mi-historia", titulo: "Rafa, mi historia", autor: "Rafael Nadal y John Carlin", ano: 2011, categoria: "Deportes", estado: "pendiente" },
   { id: "moneyball", titulo: "Moneyball", autor: "Michael Lewis", ano: 2003, categoria: "Deportes", estado: "pendiente" },
   { id: "once-anillos", titulo: "Once anillos", autor: "Phil Jackson", ano: 2013, categoria: "Deportes", estado: "pendiente" },

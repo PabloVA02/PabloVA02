@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "bogle-sentido-comun":
+    "De los 355 fondos de bolsa que existían en Estados Unidos en 1970, tres batieron al mercado durante treinta y cinco años. Bogle explica por qué eso no es mala suerte, sino una resta que no puede salir de otra manera.",
+
   einstein:
     "En 1905, con veintiséis años y ocho horas diarias de oficina de patentes, publicó cuatro artículos y tres cambiaron la física. La primera biografía escrita con la correspondencia privada que se abrió en 2006.",
 

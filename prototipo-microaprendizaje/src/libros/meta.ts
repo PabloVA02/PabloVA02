@@ -552,22 +552,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "bogle-sentido-comun",
-    titulo: "El pequeño libro para invertir con sentido común",
-    autor: "John C. Bogle",
-    ano: 2007,
-    gancho: "Su fondo salió a bolsa en 1976 buscando ciento cincuenta millones y recaudó once. Lo llamaron la locura de Bogle. Cuarenta años después esa idea maneja billones y su inventor murió avisando de que se le había ido de las manos.",
-    porQue: "Porque contiene el único argumento de inversión que se demuestra con una resta y no con una predicción. Y porque separar lo que Bogle demostró de lo que se le atribuye enseña a leer cualquier consejo financiero que te pongan delante.",
-    minutos: 26.2,
-    capitulos: [
-      { titulo: "La locura de Bogle", minutos: 5.2 },
-      { titulo: "La aritmética implacable", minutos: 5.3 },
-      { titulo: "Los datos que le dieron la razón", minutos: 5.1 },
-      { titulo: "Lo que el libro no cuenta", minutos: 5.3 },
-      { titulo: "La advertencia que dejó escrita", minutos: 5.2 },
-    ],
-  },
-  {
     id: "superpronosticadores",
     titulo: "Superpronosticadores",
     autor: "Philip E. Tetlock y Dan Gardner",
