@@ -33812,7 +33812,7 @@ const ZONAS_AZULES: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "El factor del vino, que el libro incluye entre sus recomendaciones, es el que peor ha aguantado y él mismo tiene un problema con él dentro de su propio material: una de las cinco zonas, la de los adventistas, no bebe absolutamente nada de alcohol y es la que tiene los datos mejor documentados de todas.",
+          "El factor del vino, que el libro incluye entre sus recomendaciones, es el que peor ha aguantado y él mismo tiene un problema con él dentro de su propio material: una de las cinco zonas, la de los adventistas, no bebe absolutamente nada de alcohol y es la que tiene los datos mejor documentados de todas. La evidencia actual sobre el alcohol ha revisado a la baja cualquier beneficio del consumo moderado, así que ese factor concreto no se sostiene hoy.",
       },
       {
         b: "idea",
@@ -33902,7 +33902,7 @@ const ZONAS_AZULES: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Y hay un dato posterior que tampoco encaja con el relato. Okinawa, que fue la zona azul emblemática, tiene hoy una de las peores esperanzas de vida de Japón y la tasa de obesidad más alta del país, un cambio que se atribuye a la occidentalización de la dieta desde la ocupación estadounidense. La generación longeva que se estudió fue la que pasó hambre en los años treinta y cuarenta, y sus hijos y nietos están peor.",
+          "Y hay un dato posterior que tampoco encaja con el relato. Okinawa, que fue la zona azul emblemática, tiene hoy una de las peores esperanzas de vida de Japón y la tasa de obesidad más alta del país, un cambio que se atribuye a la occidentalización de la dieta desde la ocupación estadounidense. La generación longeva que se estudió fue la que pasó hambre en los años treinta y cuarenta, y sus hijos y nietos están peor. Conviene saber, por último, que alrededor de este concepto se ha construido un negocio considerable, con certificaciones de comunidad, productos alimentarios y una serie de televisión. Eso no invalida nada por sí solo y sí explica bastante bien la ausencia total de matices.",
       },
       {
         b: "idea",
@@ -33933,11 +33933,6 @@ const ZONAS_AZULES: PaginaLibro[] = [
         b: "texto",
         texto:
           "Dónde falla, y hay que decirlo entero. El edificio se apoya en unos datos de longevidad que la investigación posterior ha puesto en duda de manera seria, sobre todo en Okinawa y en las zonas mediterráneas, por problemas de registro civil y por incentivos de pensión. Y el método es débil por diseño: se eligieron cinco lugares porque ya tenían el resultado y después se buscaron similitudes entre ellos, sin grupo de comparación. Encontrar nueve cosas en común entre cinco poblaciones rurales cualesquiera no es difícil.",
-      },
-      {
-        b: "texto",
-        texto:
-          "Hay además dos cosas concretas que han envejecido mal. La recomendación del vino diario contradice la evidencia actual sobre alcohol, que ha revisado a la baja cualquier beneficio del consumo moderado, y contradice también su propio material, porque la única de las cinco zonas con datos verificables es la de los adventistas, que no beben nada. Y conviene saber que alrededor de este concepto se ha construido un negocio considerable, con certificaciones, productos y una serie de televisión, cosa que no lo invalida y sí explica la ausencia total de matices.",
       },
       {
         b: "texto",
