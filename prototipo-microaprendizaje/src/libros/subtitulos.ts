@@ -22,6 +22,8 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "sexta-extincion": "Una historia nada natural",
+  "error-descartes": "La emoción, la razón y el cerebro humano",
   "lenguajes-amor": "Cómo expresar devoción sincera a su cónyuge",
   "lean-startup": "Cómo crear empresas de éxito utilizando la innovación continua",
   "cero-a-uno": "Cómo inventar el futuro",

@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "sexta-extincion": [
+    "quién inventó la idea de extinción y cuándo",
+    "por qué se rechazó durante siglo y medio la catástrofe",
+    "qué le pasa al mar cuando absorbe dióxido de carbono",
+    "por qué un trozo de selva sigue perdiendo especies",
+    "qué es la nueva Pangea y por qué es lo grave",
+  ],
+
+  "error-descartes": [
+    "qué le pasó de verdad a Phineas Gage",
+    "por qué el cálculo puro no basta para decidir",
+    "qué mide el juego de las cuatro barajas",
+    "qué es un marcador somático",
+    "en qué se distinguen emoción y sentimiento",
+  ],
+
   "lenguajes-amor": [
     "cuánto dura de media el enamoramiento y qué viene después",
     "por qué esforzarse más a veces empeora las cosas",

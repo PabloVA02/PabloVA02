@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "sexta-extincion":
+    "Hasta 1796 nadie creía que una especie pudiera desaparecer: los huesos de mamut se atribuían a elefantes escondidos en alguna región sin explorar. Una periodista recorre trece especies para contar cómo se descubrió la extinción y cómo la estamos causando.",
+
+  "error-descartes":
+    "Un paciente con el cociente intelectual intacto tardaba una tarde entera en decidir cómo ordenar unos papeles y perdió su casa, su trabajo y dos matrimonios. Un neurólogo explica por qué sin emociones no se puede razonar bien.",
+
   "lenguajes-amor":
     "Un consejero matrimonial releyó doce años de cuadernos de consulta y agrupó las quejas por parecido. Le salieron cinco montones, y de ahí sacó la idea de que el afecto se expresa en cinco idiomas y casi nadie habla el de su pareja.",
 

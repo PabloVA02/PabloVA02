@@ -158,11 +158,11 @@ diez, uno o dos Amplio, un Extenso cada quince o veinte.
 
 ### CÓMO VA LA NOCHE DEL 21 AL 22 DE AGOSTO
 
-Se está cumpliendo el encargo. Van **101 resúmenes escritos a mano** y el
-recuento exacto lo da siempre `node scripts/medir-paginas.mjs`, que no se
-equivoca; no hace falta apuntarlo aquí ni contarlo de memoria.
+Se está cumpliendo el encargo. El recuento exacto lo da siempre
+`node scripts/medir-paginas.mjs`, que no se equivoca; no hace falta apuntarlo
+aquí ni contarlo de memoria.
 
-Tres cosas que ha enseñado escribir treinta y seis seguidos:
+Tres cosas que ha enseñado escribir setenta y seis seguidos:
 
 1. **Cuatro párrafos por página, no tres.** Con tres, la página sale de 230
    palabras y el libro se queda corto; con cuatro aterriza sola en su sitio.
@@ -170,13 +170,17 @@ Tres cosas que ha enseñado escribir treinta y seis seguidos:
 2. **`node scripts/libro-entero.mjs <carpeta> <id>` hace la secuencia entera**
    —meter páginas, ficha, retirar el texto viejo, regenerar meta y medir— y
    `scripts/apendice.mjs` alarga una página concreta sin tocar el resto.
-3. **Faltan Amplios y Extensos.** La proporción que manda REDACCION es de uno
-   o dos Amplio por cada diez libros y un Extenso cada quince o veinte; hoy
-   hay 95 Breve, 4 Amplio y 2 Extenso, o sea que van muy por debajo. De los
-   que quedan conviene subir de tamaño: *Guerra y paz*, *Postguerra*, *Los
-   orígenes del totalitarismo*, *El capital en el siglo XXI*, *La riqueza de
-   las naciones*, *El gen*, *El emperador de todos los males*, *El segundo
-   sexo*, los *Ensayos* de Montaigne y *La guerra civil española*.
+3. **La conclusión SIEMPRE se pasa de 350 palabras a la primera.** Lleva seis
+   bloques —síntesis, aporta, caja, dónde falla, y lo que vino después— y no
+   caben en 320. Se escribe sabiendo que habrá que recortarla, o se reparte
+   algún párrafo a una página de en medio que tenga sitio.
+
+**Siguen faltando Amplios y Extensos.** La proporción que manda REDACCION es
+de uno o dos Amplio por cada diez libros y un Extenso cada quince o veinte.
+De los que quedan sin escribir, conviene subir de tamaño: *Postguerra*, los
+*Ensayos* de Montaigne, *La guerra civil española*, *Introducción al
+psicoanálisis*, *Ética a Nicómaco*, *El contrato social*, *La doctrina del
+shock*, *El héroe de las mil caras* y *Einstein: su vida y su universo*.
 
 Hay además **4 avisos viejos** que `medir-paginas.mjs` marca y que no son de
 esta tanda: HOMO_DEUS, ARMAS_GERMENES, ANA_FRANK y CISNE_NEGRO tienen alguna

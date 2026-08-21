@@ -38494,7 +38494,581 @@ const LENGUAJES_AMOR: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El error de Descartes, en ocho páginas.
+
+   Breve: una tesis —sin emoción no se decide— sostenida por dos pacientes y
+   un experimento con cartas.
+
+   Registro de ENSAYO científico: el titular afirma, tercera persona, nada de
+   segunda persona.
+
+   La anécdota famosa se cuenta comprobada: el caso de Phineas Gage está muy
+   inflado en las versiones que circulan, y la conclusión lo dice, con la
+   reconstrucción del cráneo de 1994 y las de 2004 y 2012 que la corrigen.
+   -------------------------------------------------------------------------- */
+
+const ERROR_DESCARTES: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un accidente de 1848 demostró que se puede perder el juicio conservando la inteligencia",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 13 de septiembre de 1848, cerca de Cavendish, en Vermont, un capataz de obra de veinticinco años llamado Phineas Gage estaba apisonando pólvora en un barreno con una barra de hierro. Saltó una chispa, la carga explotó y la barra —un metro y diez centímetros de largo, tres de grosor, seis kilos— le entró por debajo del pómulo izquierdo, le atravesó la parte delantera del cerebro y salió por la parte alta del cráneo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cayó a treinta metros. Gage no perdió el conocimiento: habló a los pocos minutos, se sentó solo en el carro que lo llevó al pueblo y subió las escaleras de la posada casi sin ayuda. Sobrevivió doce años más. Su médico, John Harlow, escribió que la inteligencia, la memoria, el habla y los movimientos habían quedado intactos, y que sin embargo había otro problema: Gage ya no era Gage.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se volvió, según aquel informe, caprichoso, irreverente, incapaz de sostener un plan: proponía uno y lo abandonaba al momento por otro. Perdió el trabajo que había tenido siempre. Ese caso, y otro contemporáneo de la propia consulta del autor, son el punto de partida de este libro, publicado en 1994 por el neurólogo Antonio Damasio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que la emoción no estorba a la razón: la hace posible. Estas páginas recorren cómo llega hasta ahí: un paciente con el cociente intelectual intacto que no podía organizar su vida, la razón que no consigue decidir por sí sola, un experimento con cuatro barajas en el que el cuerpo acierta antes que la conciencia, la hipótesis del marcador somático, la diferencia entre emoción y sentimiento y, al final, el error que da título al libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se puede conservar entera la inteligencia y perder la capacidad de decidir, y son cosas distintas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un paciente puede superar todos los tests conocidos y ser incapaz de dirigir su vida",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que Damasio conoció de primera mano lo llama Elliot. Era un hombre de negocios con éxito, casado, con hijos, un modelo para sus hermanos, hasta que le encontraron un tumor benigno del tamaño de una naranja pequeña que presionaba los lóbulos frontales desde la línea media. Se lo extirparon junto con el tejido dañado. La operación fue un éxito y él salió andando del hospital.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después empezó el desastre. Elliot ya no conseguía terminar nada en el trabajo: podía pasarse una tarde entera decidiendo con qué criterio ordenar unos documentos —por fecha, por tamaño, por relevancia— y quedarse absorto leyéndolos. Lo despidieron. Se metió en negocios absurdos con un socio del que todo el mundo desconfiaba y perdió sus ahorros. Se divorció, volvió a casarse con alguien a quien su familia rechazaba, y se divorció otra vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo desconcertante llegó en las pruebas. Elliot puntuaba por encima de la media en inteligencia, tenía la memoria intacta, el lenguaje intacto, la atención intacta; sabía razonar sobre dilemas morales, enumerar las opciones de una situación social complicada y prever las consecuencias de cada una. Le denegaron la incapacidad porque ningún examen encontraba nada roto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle que dio la pista fue otro. Elliot contaba su propia ruina —el despido, el dinero perdido, los divorcios— con la serenidad de quien narra lo que le ocurrió a un tercero. Nunca se emocionaba, ni con lo suyo ni con imágenes de accidentes o catástrofes que antes le habrían afectado. Damasio lo resume con una frase incómoda: yo sufría más que él escuchando su historia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Elliot sabía perfectamente qué debía hacer en cada situación, y esa información no le servía para hacerlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La razón pura no puede decidir porque las opciones no se acaban nunca",
+      },
+      {
+        b: "texto",
+        texto:
+          "El modelo clásico de una buena decisión es un cálculo: se enumeran las alternativas, se estiman las consecuencias de cada una, se ponderan por su probabilidad y se elige la mejor. Damasio sostiene que ese procedimiento es imposible de ejecutar en la vida real, y no por falta de disciplina, sino por aritmética. Cualquier situación mínimamente social tiene tantas ramas que enumerarlas ocuparía días.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que lo demuestra ocurrió en su propia consulta. Damasio propuso a un paciente con este tipo de lesión dos fechas alternativas para la siguiente cita, con un mes de diferencia. El hombre sacó la agenda y se pasó casi media hora exponiendo argumentos a favor y en contra de cada una: otros compromisos, la proximidad de otras citas, la previsión meteorológica, el estado de las carreteras. No estaba bloqueado ni angustiado: estaba razonando correctamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al final el médico le dijo simplemente que viniera el segundo día, y el paciente contestó de acuerdo, guardó la agenda y se fue. La escena es la que mejor resume el problema. No le faltaba lógica: le faltaba el mecanismo que en una persona sana hace que una de las dos opciones parezca, sin más, mejor, y que corta la deliberación antes de que empiece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la inversión de la idea corriente. La imagen del decisor ideal es la de alguien frío que aparta los sentimientos y calcula; estos pacientes son exactamente esa persona, y sus vidas se hunden. Lo que hace un cerebro sano no es calcular más deprisa: es descartar casi todas las opciones antes de examinarlas, y eso lo hace la emoción.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un cerebro sano no elige la mejor opción entre todas: elimina casi todas antes de mirarlas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En el juego de las cuatro barajas, el cuerpo acierta mucho antes que la conciencia",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para convertir la sospecha en un dato, el equipo de Damasio diseñó con Antoine Bechara una prueba con cartas que se ha repetido en cientos de laboratorios. El jugador tiene delante cuatro barajas y dinero ficticio, y va levantando cartas de la que quiera. Dos barajas dan premios altos y de vez en cuando castigos enormes; las otras dos dan premios pequeños y castigos pequeños. Nadie explica las reglas: hay que descubrirlas jugando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A la vez se les medía la conductancia de la piel, que registra la sudoración mínima que acompaña a una reacción emocional. En las personas sanas aparecía una secuencia muy clara. Hacia la carta décima, la mano empezaba a sudar ligeramente justo antes de acercarse a las barajas malas, sin que el jugador supiera nada. Hacia la cincuenta empezaban a evitarlas y decían tener una corazonada que no sabían explicar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Solo hacia la carta ochenta eran capaces de formular la regla: esas dos barajas te arruinan. Y una parte de los participantes sanos nunca llegó a formularla y siguió jugando bien igualmente. Es decir, el cuerpo señalaba el peligro setenta cartas antes de que la conciencia pudiera decir por qué, y para jugar bien no hacía falta llegar a decirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los pacientes con daño en la misma zona que Elliot no producían nunca esa reacción anticipada, y seguían sacando cartas de las barajas malas hasta arruinarse. Lo más llamativo es que varios de ellos sí llegaban a enunciar la regla en voz alta, decían saber qué barajas eran peligrosas, y a continuación volvían a levantar una carta de esas mismas barajas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Saber cuál es la opción ruinosa no impide elegirla si el cuerpo no ha aprendido a temerla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las emociones dejan una marca en el cuerpo que después sesga las decisiones",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación que propone Damasio se llama hipótesis del marcador somático. Cuando una situación termina mal, el cerebro no guarda solo el recuerdo de los hechos: guarda también el estado corporal desagradable que acompañó al desenlace, asociado a esa clase de situación. La próxima vez que aparece algo parecido, ese estado se reactiva un poco antes de que uno haya terminado de pensar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palabra somático significa del cuerpo, y ahí está la parte que da nombre al libro. La señal es corporal: una punzada en el estómago, un cambio en el ritmo cardíaco, un ligero sudor. No dice qué hay que hacer y no sustituye al razonamiento; lo que hace es marcar en rojo unas cuantas opciones y en verde otras, de modo que la deliberación empieza con la lista ya recortada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Damasio añade un atajo que explica por qué el proceso es rápido. El cerebro no necesita cambiar el cuerpo de verdad cada vez: puede simular internamente el estado corporal correspondiente, como si lo estuviera sintiendo, y usar esa copia. Lo llama el bucle del como si, y en una persona experimentada explica esas decisiones instantáneas que después cuesta justificar con argumentos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La zona donde se guardan esas asociaciones es la corteza prefrontal ventromedial, la parte de la frente que está justo encima de los ojos y hacia la línea media. Es la que quedó destruida en Elliot, y la que la barra de hierro atravesó en Gage. Un daño ahí no borra los conocimientos ni el lenguaje: desconecta lo que se sabe de lo que se siente al pensarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El cuerpo no es el escenario donde ocurre la decisión: es una de las piezas con las que se toma.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La emoción ocurre en el cuerpo y el sentimiento es enterarse de que está ocurriendo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro separa dos cosas que el idioma corriente mezcla. La emoción es el conjunto de cambios corporales que se disparan ante algo: el corazón acelerado, el estómago cerrado, la cara que cambia de color, la postura. Es pública y medible desde fuera. El sentimiento es la percepción de esos cambios, es decir, enterarse de ellos. Es privado y solo lo tiene quien lo tiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El orden importa, y es contrario al sentido común. Damasio rescata aquí una idea que William James había publicado en 1884 y que un siglo de psicología había despachado como excéntrica: no corremos porque tenemos miedo, tenemos miedo porque corremos. Primero el cuerpo reacciona, y el sentimiento consciente llega después, como lectura de lo que el cuerpo ya está haciendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Distingue además dos clases. Las emociones primarias son innatas y rápidas —el sobresalto ante una forma que se abalanza, el miedo a una serpiente— y dependen sobre todo de la amígdala. Las secundarias son aprendidas: la incomodidad ante cierta clase de persona, el desasosiego al ver un contrato mal redactado, y esas sí necesitan la corteza prefrontal ventromedial para engancharse a las situaciones que las provocan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale una consecuencia clínica. En los pacientes operados de lobotomía prefrontal, práctica extendida a mediados del siglo XX, el dolor no desaparecía: los enfermos seguían diciendo que les dolía, pero afirmaban que ya no les importaba. Lo que se había cortado no era la sensación, sino la reacción emocional a la sensación, que es de lo que estaba hecho el sufrimiento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El sufrimiento no está en la sensación de dolor, sino en la reacción emocional que esa sensación provoca.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El error del título es haber separado la mente pensante del cuerpo que la sostiene",
+      },
+      {
+        b: "texto",
+        texto:
+          "El error que Damasio atribuye a Descartes es la separación tajante entre dos sustancias: una cosa pensante, inmaterial e indivisible, y un cuerpo material que funciona como una máquina. De esa división salieron trescientos años de tratar la mente como si pudiera estudiarse aparte, y una medicina que separa lo que le pasa al cuerpo de lo que le pasa a la persona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El famoso pienso, luego existo pone las cosas al revés según este libro. Los organismos existieron, regularon su temperatura, huyeron del peligro y buscaron alimento durante cientos de millones de años antes de que ninguno pensara nada. El pensamiento no es el fundamento del ser: es una capa reciente montada encima de una maquinaria muy antigua que se dedica a mantener el cuerpo dentro de sus límites.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Damasio propone en su lugar es que el cerebro está ocupado, sobre todo, en representar el estado del propio cuerpo momento a momento. Esa representación continua es lo que da la sensación de ser alguien y de ser el mismo de ayer. Los sentimientos son la parte de ese mapa que se hace consciente, y por eso tienen tanto que ver con las tripas y tan poco con la lógica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro cierra con una advertencia sobre lo que se sigue de todo esto. Si las emociones forman parte del razonamiento, tratarlas como ruido a suprimir es un error práctico y no solo teórico; y si el juicio depende de una zona concreta del cerebro, hay personas cuyas malas decisiones no son un defecto de carácter. Damasio menciona expresamente lo que eso implica para la responsabilidad penal, sin resolverlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Existir viene antes que pensar: el pensamiento es una capa reciente sobre una maquinaria que solo quiere mantener vivo el cuerpo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El error de Descartes sostiene que la emoción no es lo contrario de la razón sino un requisito suyo. Lo demuestra con pacientes que, con el cociente intelectual intacto, pierden la vida por decisiones absurdas tras una lesión pequeña en la corteza frontal, y con un juego de cartas en el que el cuerpo detecta el peligro setenta jugadas antes que la conciencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una manera de mirar que hoy está en todas partes y en 1994 no estaba en casi ninguna: que las corazonadas contienen información aprendida, que el frío calculador no es el decisor ideal sino un caso clínico, y que la mente no se puede estudiar como si el cuerpo fuera el sitio donde se aloja.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El decisor perfectamente racional y sin emociones no es un ideal difícil de alcanzar: es un cuadro clínico descrito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El caso de Gage está muy inflado, y no solo por Damasio. Casi todo viene de un informe breve que su médico escribió veinte años después del accidente, y lo que se sabe con seguridad apunta a una recuperación considerable: Gage trabajó siete años en Chile conduciendo diligencias, oficio que exige puntualidad, trato con pasajeros y planificación, justo lo que supuestamente había perdido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La reconstrucción del cráneo tampoco resistió. Hanna Damasio publicó en 1994 un modelo que situaba el daño en los dos lados de la corteza prefrontal ventromedial, lo que encajaba con la tesis; los trabajos de 2004 y 2012 lo sitúan sobre todo en el lóbulo frontal izquierdo. Y el marcador somático lleva veinte años discutido: en 2004 se demostró que los jugadores saben más de lo que la prueba detectaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y Descartes sale mal parado de un juicio en el que no puede defenderse. Escribió Las pasiones del alma en 1649 y dejó dicho que la mente no está alojada en el cuerpo como un piloto en su navío, sino unida a él íntimamente. Damasio necesitaba un adversario limpio y le recortó los matices. Lo que queda en pie es el hallazgo, no la teoría: esos pacientes existen y sus vidas se hunden.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   La sexta extinción, en ocho páginas.
+
+   Breve: son trece reportajes, y el argumento que los cose cabe en seis
+   tramos.
+
+   Registro de ENSAYO científico: el titular afirma, tercera persona.
+
+   La conclusión lleva la objeción que hacen los propios paleontólogos a los
+   que cita —el artículo de referencia de 2011 dice que la sexta extinción
+   todavía NO ha llegado— y lo que ha pasado desde 2014 con los rinocerontes
+   y con la Gran Barrera.
+   -------------------------------------------------------------------------- */
+
+const SEXTA_EXTINCION: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una rana que se puede ver en el zoo y ya no existe en su río" },
+      {
+        b: "texto",
+        texto:
+          "En el valle de Antón, en Panamá, había tantas ranas doradas que los guías se ganaban la vida enseñándoselas a los turistas junto al arroyo. En 2002 los científicos que trabajaban allí supieron que se acercaba algo por el oeste, porque las poblaciones se estaban apagando de una montaña a la siguiente. Metieron todos los ejemplares que pudieron en cajas y los llevaron a una sala de hotel con tanques.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se acercaba era un hongo microscópico que ataca la piel de los anfibios, y que impide que respiren y regulen el agua a través de ella. Llegó al valle, y en unos meses no quedaba ninguna rana dorada en libertad. Las que sobreviven están en recintos cerrados, y los guías siguen contando que en aquel arroyo había ranas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Elizabeth Kolbert, periodista del New Yorker, publicó en 2014 este libro, que ganó el Pulitzer al año siguiente y que consiste en trece viajes: trece especies, cada una con su capítulo, unas vivas y otras desaparecidas hace cientos de millones de años. La tesis que las cose es que está en marcha una extinción masiva comparable a las cinco que registran las rocas, y que la causa es una sola especie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas siguen ese argumento: cómo se descubrió que las especies pueden desaparecer, idea que no existía antes de 1796; por qué la ciencia tardó siglo y medio en aceptar que la Tierra sufre catástrofes; la primera especie que unos hombres vieron acabarse a manos de otros; lo que ocurre en un mar acidificado que se puede visitar hoy; lo que pasa cuando una selva se corta en trozos; y por qué lo peligroso de nuestra especie no es cazar, sino mover cosas de sitio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una especie puede desaparecer de la naturaleza y seguir existiendo, lo cual no es lo mismo que seguir viva.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hasta 1796 nadie creía que una especie pudiera desaparecer" },
+      {
+        b: "texto",
+        texto:
+          "La extinción es una idea con fecha de nacimiento. Antes de finales del siglo XVIII se daba por supuesto que la creación estaba completa y que ningún tipo de ser vivo podía perderse; los huesos enormes que aparecían en Ohio o en Siberia se atribuían a elefantes o hipopótamos que andarían por alguna región aún no explorada. Thomas Jefferson encargó a la expedición de Lewis y Clark que buscara mastodontes vivos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 4 de abril de 1796, un anatomista de veintiséis años llamado Georges Cuvier dio una conferencia en París comparando huesos de elefantes vivos y fósiles. Demostró que el mamut de Siberia y el mastodonte americano no eran elefantes desplazados, sino animales distintos de cualquier especie conocida. Y sacó la conclusión que nadie había sacado: eran especies perdidas, un mundo anterior al nuestro destruido por alguna catástrofe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuvier siguió tirando del hilo y llegó a identificar decenas de especies desaparecidas: el mosasaurio, el pterodáctilo, el megaterio. Su explicación era que la historia de la Tierra está cortada por revoluciones repentinas, catástrofes que barren la vida de una vez. No sabía qué las causaba, y su falta de mecanismo acabó siendo el punto por el que sus adversarios lo desmontaron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kolbert subraya lo que esto significa para la manera en que se mira una noticia sobre una especie que se apaga. Durante la mayor parte de la historia, la desaparición de un animal no era un hecho concebible: no había ninguna casilla mental donde colocarla. Que hoy exista una lista roja con nombres tachados es un invento reciente, y todavía cuesta creerse las cifras que contiene.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La extinción no se descubrió mirando animales que desaparecían, sino comparando dos mandíbulas de elefante.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La ciencia tardó siglo y medio en volver a admitir que la Tierra sufre catástrofes",
+      },
+      {
+        b: "texto",
+        texto:
+          "La generación siguiente le quitó la razón a Cuvier en lo esencial. Charles Lyell sostuvo que las fuerzas que han modelado la Tierra son las mismas que actúan hoy, actuando muy despacio durante muchísimo tiempo, y Darwin construyó su teoría sobre esa base: las especies desaparecen como aparecen, poco a poco, desplazadas por competidores mejor adaptados. La catástrofe quedó desterrada como una idea supersticiosa y anticuada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El desmentido llegó en 1980 y por accidente. El geólogo Walter Alvarez estudiaba una capa de arcilla de un centímetro que separa, en un barranco cerca de Gubbio, en Italia, las rocas del Cretácico de las siguientes. Debajo hay fósiles marinos por todas partes; encima, casi ninguno. Su padre, el físico Luis Álvarez, sugirió medir el iridio de esa arcilla para calcular cuánto tiempo había tardado en depositarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El iridio es rarísimo en la corteza terrestre y frecuente en los meteoritos. La arcilla tenía trescientas veces más de lo previsto, y lo mismo apareció en Dinamarca y en Nueva Zelanda. Los Álvarez propusieron que un asteroide de unos diez kilómetros había chocado contra la Tierra hace sesenta y seis millones de años. La propuesta fue recibida con desprecio por buena parte de los geólogos y de los paleontólogos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cráter apareció en 1991 enterrado bajo la península de Yucatán: ciento ochenta kilómetros de diámetro, con la edad exacta. La lección que Kolbert extrae no es que Cuvier tuviera razón, sino algo más incómodo: la historia de la vida transcurre despacio durante millones de años y de vez en cuando ocurre algo tan brusco que las reglas de la supervivencia cambian por completo. En esos momentos no sobrevive lo mejor adaptado, sino lo que estaba de suerte.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En una extinción masiva no sobrevive lo mejor adaptado: sobrevive lo que casualmente servía para unas reglas nuevas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El primer animal que unos hombres vieron acabarse a manos de otros hombres fue un ave que no volaba",
+      },
+      {
+        b: "texto",
+        texto:
+          "El alca gigante era un pájaro de setenta centímetros, blanco y negro, incapaz de volar y magnífico nadador, que criaba en islotes del Atlántico norte. Durante siglos fue una despensa: los marineros la mataban a palos por miles, la salaban, usaban su grasa para las lámparas y sus plumas para los colchones. Al hacerse escasa se volvió valiosa para los coleccionistas, lo que aceleró el final.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 3 de junio de 1844, tres pescadores islandeses desembarcaron en el islote de Eldey por encargo de un comerciante que quería ejemplares. Encontraron una pareja incubando, estrangularon a los dos adultos y uno de ellos aplastó el huevo con la bota al pisarlo. No se ha vuelto a ver un alca gigante. Kolbert va a Eldey en barca y describe la roca desde el agua.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mismo patrón, mucho antes y a mayor escala, explica la desaparición de la fauna grande de tres continentes. Los canguros gigantes y los marsupiales del tamaño de un rinoceronte se apagan en Australia hace unos cincuenta mil años; los mamuts, los perezosos gigantes y los tigres dientes de sable en América hace unos trece mil; los moas de Nueva Zelanda en unos doscientos años. Cada una de esas fechas coincide con la llegada de personas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento que Kolbert recoge desmonta la objeción más frecuente, la de que unos pocos cazadores con lanzas no pueden acabar con millones de animales. Los modelos muestran que no hace falta ninguna matanza: basta con que cada grupo humano mate un animal grande de vez en cuando. Los animales grandes se reproducen despacio, y una presión mínima sostenida durante mil años los borra sin que ninguna generación note nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Para extinguir a un animal grande no hace falta una matanza: basta con matar un poco durante muchísimo tiempo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El mar del año 2100 se puede visitar hoy, y está en la bahía de Nápoles",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un tercio aproximadamente del dióxido de carbono que ha emitido la humanidad no se ha quedado en el aire: se ha disuelto en el mar, donde forma ácido carbónico. La acidez del océano ha aumentado alrededor de un treinta por ciento desde el comienzo de la era industrial, y de mantenerse el ritmo actual se habrá multiplicado por dos y medio a finales de este siglo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Frente a la isla de Isquia, en la bahía de Nápoles, hay un islote coronado por un castillo donde el fondo marino suelta burbujas de dióxido de carbono de origen volcánico. Eso convierte unos pocos cientos de metros de costa en un laboratorio involuntario: nadando desde el agua normal hacia las burbujas, se recorre en un minuto el cambio químico que le espera al océano en un siglo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se ve es un empobrecimiento ordenado. Lejos de las burbujas hay lapas, erizos, percebes, algas calcáreas y unas treinta especies por cuadrícula. Cerca desaparecen primero todos los animales que fabrican concha, porque el carbonato con el que la construyen se vuelve difícil de precipitar, y al final queda un fondo cubierto de un pasto verde donde viven unas pocas especies resistentes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mismo mecanismo amenaza a los arrecifes de coral, que son estructuras de carbonato construidas por animales diminutos y que albergan una parte enorme de la vida marina en una superficie mínima. Kolbert visita la Gran Barrera australiana y recoge el cálculo que allí manejaban: con las emisiones previstas, los corales dejarían de crecer más deprisa de lo que se disuelven en algún momento de este siglo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El dióxido de carbono no solo calienta el aire: cambia la química del agua y disuelve lo que está hecho de cal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una selva partida en trozos pierde especies durante décadas después del corte",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al norte de Manaos, en la Amazonia brasileña, hay desde 1979 un experimento que consistió en aprovechar una ley de deforestación para dejar cuadrados de selva intactos de distintos tamaños rodeados de pasto. Son parcelas de una hectárea, de diez y de cien, y llevan más de cuarenta años contando qué vive dentro de cada una.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado es que un trozo de selva no conserva una versión pequeña de la selva: la va perdiendo poco a poco durante décadas. Los bordes se secan y se calientan, los árboles grandes caen, desaparecen primero las especies que necesitan territorios amplios y después las que dependían de ellas. Se le llama deuda de extinción, porque el pago se produce mucho después de que se haya hecho el corte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo mecanismo lo estudió Kolbert en los Andes peruanos, subiendo por una carretera que atraviesa parcelas marcadas a distintas alturas. Al calentarse el clima, las especies tropicales de montaña se desplazan ladera arriba buscando la temperatura a la que estaban acostumbradas: los árboles se mueven unos metros de altura por año. Ahí funciona como una escalera mecánica ascendente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema de una escalera mecánica es evidente: se acaba. Las especies que ya viven cerca de la cima no tienen adonde subir, y los trópicos son precisamente donde la vida está más apretada en variedad. Una franja de temperatura que en Europa ocupa mil kilómetros de latitud, en los Andes ocupa unos cientos de metros de desnivel, y por eso un cambio pequeño mueve muchísimo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando el clima se calienta, la vida de montaña sube buscando su temperatura, y arriba del todo se acaba la montaña.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo singular de nuestra especie no es cazar, sino mover cosas de sitio",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento más original del libro no es el del clima ni el de la caza. Durante cientos de millones de años la deriva de los continentes fue separando la vida en provincias que evolucionaron por su cuenta, cada una con sus enfermedades y sus defensas. En unos pocos siglos, los barcos, los aviones y el comercio han vuelto a conectarlas todas. Kolbert lo llama la nueva Pangea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El agua de lastre de un solo buque puede llevar miles de organismos de un océano a otro; una maceta importada lleva hongos en la tierra; un cargamento de anfibios para tiendas de animales lleva lo que llevan esos anfibios. El hongo que arrasó las ranas de Panamá viajó así, y los anfibios son hoy la clase de vertebrados más amenazada del planeta, con un ritmo de desaparición que se ha estimado en miles de veces el normal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mismo mecanismo explica lo que Kolbert vio en una cueva de Vermont: un suelo cubierto de murciélagos muertos y otros colgando con el hocico blanco. El hongo responsable llegó de Europa alrededor de 2006, probablemente en la ropa o el equipo de algún visitante de cuevas, y mató millones de murciélagos en el noreste de América del Norte. Los murciélagos europeos lo llevan encima sin morirse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ese rasgo, sostiene, es antiguo. En el laboratorio de Leipzig donde se secuenció el genoma neandertal se descubrió que las personas de fuera de África llevan entre un uno y un cuatro por ciento de ADN neandertal, es decir, que hubo cruce. Los neandertales vivieron doscientos mil años en un territorio parecido; lo que distingue a nuestra especie es que se subió a balsas para cruzar mares cuya otra orilla no se veía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La geografía tardó doscientos millones de años en separar la vida del planeta, y unos cuantos siglos de barcos la han vuelto a mezclar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La sexta extinción recorre trece especies para sostener una tesis: el registro fósil guarda cinco episodios en los que la vida estuvo a punto de acabarse, ahora hay uno en marcha y la causa es una sola especie. No por caza, sino por cambiar la química del aire y del agua, cortar los hábitats en trozos y transportar organismos de un continente a otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta y no está en ningún otro sitio es la nueva Pangea. Es la idea que reordena todo lo demás: lo peligroso no es lo que hacemos con las manos, sino lo que llevamos en las bodegas de los barcos, y por eso un hongo de una cueva europea puede vaciar las cuevas de un continente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que amenaza a la vida del planeta no es lo que cazamos, sino lo que trasladamos sin darnos cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y falla en el título. Una extinción masiva significa perder alrededor de tres cuartas partes de las especies, y las documentadas desde 1500 son unos ochocientos casos confirmados. El artículo de referencia que sostiene el argumento, de 2011, concluye literalmente que la sexta extinción todavía no ha llegado y que podríamos entrar en ella en unos siglos. Varios paleontólogos objetan que exagerar es contraproducente: si ya estuviéramos dentro, dejar de emitir no serviría de nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tampoco es un libro con argumento: son trece reportajes excelentes puestos en fila, y Kolbert decidió no hablar de qué se puede hacer. Las cifras que proyectan pérdidas futuras a partir de la superficie de hábitat han sido criticadas después por sobreestimar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después es peor de lo que previó en una cosa y mejor en otra. La rinoceronta de Sumatra que Kolbert acaricia en el zoo de Cincinnati murió en 2014, la subespecie de Malasia se extinguió en 2019 y del rinoceronte blanco del norte quedan dos hembras. La Gran Barrera sufrió blanqueos masivos en 2016 y 2017 que mataron cerca de la mitad de sus corales someros. Frente a eso, la eliminación de ratas en islas ha recuperado colonias de aves que se daban por perdidas.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "sexta-extincion": SEXTA_EXTINCION,
+  "error-descartes": ERROR_DESCARTES,
   "lenguajes-amor": LENGUAJES_AMOR,
   "lean-startup": LEAN_STARTUP,
   "cero-a-uno": CERO_A_UNO,
