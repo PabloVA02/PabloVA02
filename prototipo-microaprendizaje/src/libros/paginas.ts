@@ -17671,7 +17671,234 @@ const PEDRO_PARAMO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El guardián entre el centeno, en ocho páginas.
+
+   Breve. Registro narrativo.
+
+   Lo que casi nadie cuenta y aquí sí está: que el motor del libro es un
+   hermano muerto del que Holden habla una sola vez; que el título sale de
+   un verso mal entendido a propósito; que el libro estuvo a la vez
+   prohibido y en el temario; y que apareció en manos de los que mataron a
+   John Lennon y dispararon a Reagan, cosa que hay que contar con cuidado
+   y sin convertirla en anécdota de portada.
+   -------------------------------------------------------------------------- */
+
+const GUARDIAN_CENTENO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una voz que no existía" },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza avisando de lo que no va a hacer: que si de verdad quieres oírlo, lo primero que querrás saber es dónde nací y cómo fue mi asquerosa infancia, y toda esa mierda al estilo de David Copperfield, pero no tengo ganas de contarlo. En 1951 nadie había escrito así en un libro serio: con la sintaxis, las muletillas y el desprecio de un chaval de dieciséis años hablándole a alguien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa voz es la invención del libro y lo que lo mantiene vivo. Holden Caulfield repite las mismas palabras hasta el agotamiento —lo dice en serio, y todo eso, me deprime muchísimo—, exagera, se contradice, admite que es el mentiroso más grande que uno pueda echarse a la cara y sigue contando. La palabra que más usa es falso, y la aplica a casi todo el mundo que se cruza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La historia es mínima. Han expulsado a Holden de su cuarto internado por suspender cuatro asignaturas; en vez de esperar al miércoles para volver a casa, coge un tren la noche del sábado y se pasa tres días dando vueltas por Nueva York sin que sus padres lo sepan. Eso es todo lo que ocurre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que hay debajo: de qué no habla nunca y por qué eso lo explica todo, qué hace en esos tres días, qué le dice el único adulto que lo escucha, de dónde sale el título y qué ocurre en el tiovivo del final.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro no cuenta lo que le pasa: cuenta cómo habla alguien al que le está pasando algo que no puede decir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El guante con poemas" },
+      {
+        b: "texto",
+        texto:
+          "Hay un capítulo, hacia el principio, donde Holden tiene que escribir una redacción para un compañero sobre cualquier objeto que se describa bien. Elige el guante de béisbol de su hermano Allie, y explica por qué era especial: Allie escribía poemas con tinta verde por todo el guante, en los dedos y en las costuras, para tener algo que leer cuando estaba en el campo y no le llegaba ninguna pelota.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y a continuación, en dos frases dichas de pasada, cuenta que Allie murió de leucemia a los once años, que él tenía trece, y que esa noche durmió en el garaje y rompió con el puño todas las ventanas del coche familiar, y que aún tiene la mano mal. Que quisieron llevarlo al psiquiatra y que no pudo ir al entierro porque estaba en el hospital.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro no vuelve a insistir. No hay ninguna escena de duelo, ni una conversación sobre la muerte de su hermano, ni un momento en el que Holden reconozca que de ahí viene todo. Pero a partir de ese capítulo, cada cosa que hace se lee de otra manera: por qué no soporta a los que fingen, por qué le obsesiona lo que se estropea al crecer y por qué habla con un muerto por la calle pidiéndole que no deje que desaparezca.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todo lo que hace en tres días se explica por dos frases que suelta sin darles importancia en el capítulo cinco.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Tres días haciéndolo todo mal" },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurre en Nueva York es una acumulación de intentos fallidos de conectar con alguien. Llama a gente que no le apetece ver. Se sienta con tres turistas en un bar y baila con una de ellas. Coge taxis y le pregunta al taxista, dos veces y a las tres de la mañana, adónde van los patos del estanque de Central Park cuando el agua se hiela: la única pregunta sincera que hace en todo el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El episodio del hotel es el más incómodo. Un ascensorista le ofrece una chica por cinco dólares y él acepta sin pensarlo. Cuando ella llega, tendrá su edad más o menos, Holden se pone tan nervioso que le dice que solo quiere hablar un rato, y le paga igual. Después vuelven los dos, el chulo y ella, a exigirle otros cinco, y le pegan. Se queda tirado en el suelo del cuarto imaginando que le han disparado en el estómago, como en las películas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el patrón se repite: queda con Sally y le propone escaparse a vivir a una cabaña en Vermont; ella le contesta que son unos críos y él la insulta y la deja plantada. Bebe más de lo que aguanta, se moja en la lluvia, no duerme. En ningún momento llama a su casa. Lo que hay debajo de todo es alguien que no sabe pedir ayuda y que se pasa el libro llamando a puertas equivocadas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pregunta dos veces adónde van los patos cuando se hiela el estanque, y es lo más sincero que dice en trescientas páginas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El único adulto que lo escucha" },
+      {
+        b: "texto",
+        texto:
+          "La escena que más se recuerda del libro es la conversación con el señor Antolini, un antiguo profesor suyo de literatura que lo acoge de madrugada en su casa. Es el único adulto que en trescientas páginas se sienta a hablar con él en serio, y lo que le dice es lo más parecido a un consejo útil que aparece en la novela.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Le dice que ve venir una caída, una de esas caídas terribles en las que el que cae no llega a tocar fondo ni oye el golpe, y que la gente que cae así se pasa la vida buscando algo que su ambiente no le puede dar. Le pide que estudie, no por los títulos, sino porque los libros le enseñarán que no es el primero al que le pasa esto. Y le cita a un psicoanalista: que la señal del hombre inmaduro es querer morir noblemente por una causa, y la del maduro, querer vivir humildemente por una.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y entonces la escena se tuerce. Holden se duerme en el sofá y se despierta con el profesor sentado en el suelo a oscuras, acariciándole la cabeza. Se levanta de golpe, se viste y se va con una excusa. Después, en la calle, empieza a dudar: piensa que a lo mejor solo era un gesto de afecto y que él lo ha estropeado todo. El libro deja la duda sin resolver, y es la escena que mejor explica su desconfianza: ni siquiera puede fiarse del único que le ha escuchado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El único adulto que lo escucha le dice algo que le habría salvado, y esa misma noche deja de poder fiarse de él.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El verso mal entendido" },
+      {
+        b: "texto",
+        texto:
+          "El título viene de la única conversación buena del libro. Su hermana Phoebe, que tiene diez años y es el personaje más listo de la novela, le pregunta si hay algo, una sola cosa, que le guste de verdad. Holden se queda en blanco, se enfada, y al final contesta con una imagen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dice que se imagina a muchos niños jugando en un campo de centeno, miles, y que no hay nadie mayor salvo él, que está de pie al borde de un precipicio. Su trabajo consiste en coger a los que se acercan corriendo antes de que se caigan, porque van sin mirar. Eso es lo único que le gustaría ser: el que agarra a los que corren hacia el borde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y Phoebe le corrige. La canción que él ha oído por la calle dice si un cuerpo encuentra a un cuerpo cuando viene entre el centeno, y él la ha entendido como si un cuerpo coge a un cuerpo. El verso es de un poema de Robert Burns y habla de encuentros amorosos, no de salvar a nadie. Todo el proyecto de vida de Holden se apoya en un verso que oyó mal, y su hermana pequeña se lo dice.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo único que quiere ser en la vida está construido sobre una canción que entendió mal, y se lo corrige una niña de diez años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El tiovivo" },
+      {
+        b: "texto",
+        texto:
+          "El final llega sin ningún golpe de efecto. Holden decide escaparse al oeste y hacerse pasar por sordomudo para no tener que hablar con nadie, y le deja una nota a Phoebe para despedirse. Ella aparece en el punto de encuentro arrastrando una maleta enorme: se va con él. Holden le dice que no, discuten, ella no le habla, y para hacer las paces la lleva al zoo y al tiovivo del parque.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Empieza a llover a mares. Phoebe se sube al caballo y da vueltas, y en cada vuelta se estira para coger el aro dorado que cuelga a un lado, un juego que puede acabar con un niño en el suelo. Holden lo ve y decide no decir nada: piensa que si los niños quieren coger el aro hay que dejarlos, aunque se caigan, porque decirles algo es peor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está el libro entero. El chico que quería estar al borde del precipicio agarrando a los niños se sienta en un banco, empapado, y deja que su hermana se estire hacia el aro. Y escribe que se sintió tan condenadamente feliz que estuvo a punto de gritar, y que no sabe por qué. Es la única vez en todo el libro que dice que está bien.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Renuncia a agarrarla y por primera vez está bien: eso es todo lo que el libro ofrece como final feliz.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que pasó con este libro" },
+      {
+        b: "texto",
+        texto:
+          "Pocos libros han tenido una vida posterior tan rara. Se convirtió en lectura obligatoria en miles de institutos norteamericanos y, al mismo tiempo, en uno de los libros más retirados de las bibliotecas escolares del país, por su lenguaje, por el alcohol y por la escena de la prostituta. Estuvo décadas encabezando las dos listas a la vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una parte oscura que forma parte de su historia y que conviene contar con cuidado. En 1980, el hombre que mató a John Lennon se quedó esperando a la policía leyendo este libro y lo citó en el juicio; meses después, el que disparó a Reagan tenía un ejemplar en su habitación de hotel. No hay nada en la novela que empuje a eso —es la historia de un chico triste que no le hace daño a nadie—, pero la coincidencia bastó para que durante años se hablara del libro como si fuera un manual, y para que su autor, que ya vivía escondido, se encerrara del todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Porque esa es la otra mitad. Salinger publicó esta novela con treinta y dos años, tuvo un éxito descomunal, se mudó a un pueblo de New Hampshire y dejó de publicar en 1965. Vivió cuarenta y cinco años más sin sacar un solo libro, sin dar entrevistas y demandando a quien intentara escribir sobre él. Murió en 2010. Se dice que siguió escribiendo todos los días.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro que enseña a desconfiar de los adultos acabó siendo, a la vez, lectura obligatoria y libro prohibido en el mismo país.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El guardián entre el centeno cuenta tres días de un chico de dieciséis años que acaba de ser expulsado del colegio y no se atreve a volver a casa. Su tesis no está dicha en ninguna parte: está en la distancia entre lo que Holden dice —que todo el mundo es falso y que nada le importa— y lo que hace, que es buscar desesperadamente a alguien con quien hablar durante setenta y dos horas seguidas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la voz. Antes de este libro, los adolescentes de las novelas hablaban como los adultos que las escribían; después de él, no. De aquí salen medio siglo de narradores jóvenes, buena parte del cine adolescente norteamericano y la idea, hoy obvia y entonces nueva, de que la manera de hablar de alguien ya es su retrato completo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Estar al borde del precipicio agarrando a los que corren: eso es lo único que quiere ser, y sale de un verso mal oído.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Holden agota: repite las mismas fórmulas cientos de veces, se contradice y desprecia a todo el mundo, y eso está hecho a propósito pero se paga en las páginas centrales, donde la novela da vueltas sobre sí misma. Y hay que leerlo sabiendo desde dónde habla: el marco del libro es que lo está contando desde un sanatorio, en California, a alguien que lo trata.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y una advertencia de lectura, porque este libro cambia según la edad. A los dieciséis años se lee como un manifiesto: por fin alguien dice que los adultos fingen. A los cuarenta se lee como algo bastante más triste: un chaval al que se le murió el hermano hace tres años, al que nadie ha llevado a que le ayuden, deambulando solo por una ciudad en pleno mes de diciembre. Las dos lecturas están en el libro, y la segunda es la que Salinger escribió.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "guardian-centeno": GUARDIAN_CENTENO,
   "pedro-paramo": PEDRO_PARAMO,
   "nombre-rosa": NOMBRE_ROSA,
   "viejo-mar": VIEJO_MAR,

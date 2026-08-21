@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "guardian-centeno": [
+    "qué le pasó a su hermano y por qué apenas lo dice",
+    "qué le pregunta dos veces a un taxista de madrugada",
+    "qué consejo le da el único adulto que lo escucha",
+    "de dónde sale el título, que es un verso mal oído",
+    "qué decide no hacer en el tiovivo del final",
+  ],
+
   "pedro-paramo": [
     "en qué momento se descubre lo que pasa en Comala",
     "cómo está montado un libro de sesenta y ocho trozos",

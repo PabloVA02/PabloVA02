@@ -1336,22 +1336,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "guardian-centeno",
-    titulo: "El guardián entre el centeno",
-    autor: "J. D. Salinger",
-    ano: 1951,
-    gancho: "Su autor desembarcó en Normandía el Día D con los seis primeros capítulos en la mochila. Los llevó consigo por Francia, Alemania y un campo de concentración.",
-    porQue: "Es el libro sobre la adolescencia más leído del mundo, y en realidad es una novela sobre el duelo escrita por alguien que no podía escribir sobre la guerra.",
-    minutos: 22.9,
-    capitulos: [
-      { titulo: "Seis capítulos en la mochila de un soldado", minutos: 4.4 },
-      { titulo: "Tres días en Nueva York", minutos: 4.7 },
-      { titulo: "El guante de Allie", minutos: 4.8 },
-      { titulo: "El campo de centeno", minutos: 4.5 },
-      { titulo: "El tiovivo bajo la lluvia", minutos: 4.5 },
-    ],
-  },
-  {
     id: "cuentos-poe",
     titulo: "Cuentos de Edgar Allan Poe",
     autor: "Edgar Allan Poe",

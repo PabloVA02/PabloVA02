@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "guardian-centeno":
+    "A un chico de dieciséis años lo expulsan del internado y, en vez de volver a casa, se pasa tres días solo por Nueva York. Casi todo lo importante lo cuenta de pasada.",
+
   "pedro-paramo":
     "Un hombre va a Comala a buscar al padre que no conoce, tal como le pidió su madre al morir. Encuentra un pueblo vacío en el que, sin embargo, se oye hablar a mucha gente.",
 

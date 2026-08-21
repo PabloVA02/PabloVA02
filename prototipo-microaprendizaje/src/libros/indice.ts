@@ -99,7 +99,6 @@ const CARGADORES: Record<string, Cargador> = {
   "cero-a-uno": () => import("./economia").then((m) => m.CERO_A_UNO),
   "canones-agosto": () => import("./historia").then((m) => m.CANONES_AGOSTO),
   "ultimos-dinosaurios": () => import("./ciencia").then((m) => m.ULTIMOS_DINOSAURIOS),
-  "guardian-centeno": () => import("./literatura").then((m) => m.GUARDIAN_CENTENO),
   "diarios-frida": () => import("./arte").then((m) => m.DIARIOS_FRIDA),
   invencible: () => import("./salud").then((m) => m.INVICTO),
   tao: () => import("./filosofia").then((m) => m.TAO_TE_CHING),
