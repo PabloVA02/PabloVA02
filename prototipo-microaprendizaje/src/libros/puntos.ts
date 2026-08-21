@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "historia-espana": [
+    "por qué considera la romanización lo mejor que ocurrió aquí",
+    "qué pasó realmente en el año 711",
+    "por qué la Reconquista no fue una cruzada de ocho siglos",
+    "cómo se explica un siglo de oro con el Estado en quiebra",
+    "cuál es la tesis del libro y por qué no se sostiene",
+  ],
+
   "pilares-tierra": [
     "por qué una sociedad hambrienta dedicaba un siglo a un edificio",
     "qué fue la guerra civil inglesa en la que transcurre",

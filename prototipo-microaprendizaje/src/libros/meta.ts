@@ -104,22 +104,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "historia-espana",
-    titulo: "Una historia de España",
-    autor: "Arturo Pérez-Reverte",
-    ano: 2019,
-    gancho: "Tres mil años de historia contados por un exreportero de guerra con muy mala leche, en columnas de página y media, sin una sola nota a pie.",
-    porQue: "Porque es el libro de historia más vendido de España en la última década y no es un libro de historia. Saber exactamente qué es y qué no cambia por completo lo que uno se lleva de él.",
-    minutos: 22.2,
-    capitulos: [
-      { titulo: "El columnista que se hartó", minutos: 4.5 },
-      { titulo: "Numancia y el vicio de perder bien", minutos: 4.2 },
-      { titulo: "El imperio que no sabía contar", minutos: 4.5 },
-      { titulo: "Dos españas y un garrote", minutos: 4.4 },
-      { titulo: "El espejo en el que nos gusta mirarnos", minutos: 4.5 },
-    ],
-  },
-  {
     id: "tatuador",
     titulo: "El tatuador de Auschwitz",
     autor: "Heather Morris",

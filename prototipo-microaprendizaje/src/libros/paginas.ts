@@ -28528,7 +28528,267 @@ const PILARES_TIERRA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Una historia de España, en ocho páginas.
+
+   Breve.
+
+   Ensayo divulgativo: titular que afirma, tercera persona.
+
+   La página 7 y la conclusión llevan el reproche de fondo: explicar la
+   historia de un país por su carácter nacional no explica nada y no se
+   puede comprobar, y ese es el hilo de todo el libro.
+   -------------------------------------------------------------------------- */
+
+const HISTORIA_ESPANA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El libro nació como noventa y dos artículos de periódico" },
+      {
+        b: "texto",
+        texto:
+          "Entre 2013 y 2018, Arturo Pérez-Reverte publicó cada semana en un suplemento dominical una entrega sobre la historia de España, empezando por los primeros pobladores de la península y terminando en la Transición. Fueron noventa y dos artículos, y en 2019 se reunieron en un volumen que se convirtió en el libro de no ficción más vendido de aquel año en España.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El propio autor advierte en el prólogo de lo que el lector tiene delante, y esa advertencia hay que tomarla en serio. No es un manual, no hay notas a pie de página, no hay bibliografía y no hay pretensión académica. Es, dice, una historia de España y no la historia de España: la suya, contada a su manera, sin rigor de catedrático y procurando no faltar a los hechos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tono es el de la barra de un bar y está elegido a propósito. Hay tacos, hay expresiones de hoy aplicadas a gente del siglo XIII y hay juicios de valor en casi cada párrafo. Eso hace que se lea de un tirón y obliga a un cuidado: en un texto así, una opinión y un dato se parecen mucho al leerlos deprisa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que sostiene: qué le pareció lo mejor que le ocurrió a la península, qué pasó realmente en el año 711, cómo trata Al-Ándalus, en qué consistió la Reconquista, cómo se explica un siglo de oro con el Estado arruinado y cuál es el hilo que atraviesa el libro entero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro que avisa de que es una versión y no la versión merece más confianza que uno que finge no tener ninguna.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo mejor que le pasó a la península fue que la conquistaran" },
+      {
+        b: "texto",
+        texto:
+          "El primer juicio fuerte del libro llega enseguida y va contra el orgullo prerromano. Los pueblos que habitaban la península antes de la llegada de Roma no formaban ninguna unidad, no compartían lengua ni cultura y se pasaban la vida peleándose entre ellos; y lo que los romanos encontraron fue un mosaico de tribus que se aliaban con el invasor contra la tribu vecina con toda naturalidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La romanización, sostiene, es el acontecimiento que fabricó lo que después se llamaría España: una lengua común, un derecho, unas ciudades, unas calzadas y una manera de organizar el territorio que sigue reconociéndose. Lo dice sin ninguna nostalgia indigenista y contra la costumbre escolar de contar a Viriato y Numancia como el origen épico de una nación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aporta el dato que suele olvidarse: Hispania no fue solo una provincia que recibía. Dio a Roma emperadores como Trajano, Adriano y Teodosio, y una parte considerable de su mejor literatura, con Séneca, Lucano, Marcial y Quintiliano. Durante siglos fue una de las provincias más ricas y más integradas del imperio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale también una idea que el libro repetirá en cada época: que casi ninguna de las conquistas de la península fue posible sin españoles ayudando a conquistarla. Los romanos entraron con tribus locales de aliados, y eso volverá a pasar en el año 711, en 1808 y en 1936.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi ninguna conquista de la península se hizo solo desde fuera: todas contaron con gente de dentro que abrió la puerta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En el año 711 no hubo una invasión: hubo una guerra civil" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre los visigodos y sobre lo que ocurrió en 711 es uno de los más útiles del libro y va contra el relato escolar clásico. Los godos eran una minoría militar muy pequeña que se hizo con el poder tras la caída de Roma y que gobernó una población hispanorromana muchísimo más numerosa, con la que acabó mezclándose.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su sistema tenía un defecto de diseño: la monarquía era electiva, la elegían los nobles y la manera habitual de resolver una sucesión era matando al rey anterior. Los cronistas de la época le pusieron nombre en latín, la enfermedad de los godos, y Pérez-Reverte lo señala como la primera aparición documentada de una costumbre que a su juicio no se ha ido nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y en 711 esa costumbre produjo el desastre. Muerto el rey Witiza, una parte de la nobleza coronó a Rodrigo y otra no lo aceptó, y los perdedores hicieron lo que se hacía entonces: buscar tropas donde las hubiera, en este caso al otro lado del estrecho. Lo que cruzó fue una fuerza pequeña que venía contratada para intervenir en una pelea ajena y se quedó con el país en tres años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La rapidez de aquello es la mejor prueba del argumento. Un reino con estructura y con población dispuesta a defenderlo no se pierde en tres años; lo que se derrumbó fue una élite militar minúscula a la que la mayoría de sus súbditos no tenía especial interés en defender.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un reino que se pierde entero en tres años no lo perdió por la fuerza del que entró: lo perdió porque nadie de dentro quiso defenderlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ni la leyenda rosa ni la negra describen Al-Ándalus" },
+      {
+        b: "texto",
+        texto:
+          "El tratamiento de los ocho siglos de presencia musulmana es la parte del libro donde el autor se coloca deliberadamente en medio de dos relatos, y es una posición poco frecuente. Rechaza a la vez la versión idílica de las tres culturas conviviendo en armonía y la versión de una ocupación extranjera continua y hostil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De un lado reconoce lo evidente: la Córdoba del califato fue una de las ciudades más grandes y cultas de Europa, con bibliotecas, medicina, astronomía, matemáticas y filosofía en un continente que en aquel momento no tenía nada comparable; y de allí salieron obras que después entraron en Europa a través de las traducciones de Toledo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Del otro lado recuerda lo que la versión amable suele saltarse. Era un estado militar que vivía en parte de las razias sobre los territorios del norte, con esclavos, con expediciones de castigo y con una condición legal específica para los no musulmanes, que podían practicar su religión pagando un impuesto y aceptando una posición inferior. Y hubo períodos de tolerancia notable y otros de persecución dura, según quién mandara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su conclusión es de método más que de contenido. Cualquier explicación de ocho siglos que valga para todos ellos es falsa, porque en ese tiempo cabe un emirato, un califato, veinte reinos de taifas, dos invasiones norteafricanas de gente mucho más rigorista y un reino final reducido a Granada. Meterlo todo en una palabra es lo que hacen las dos leyendas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ninguna frase que sirva para explicar ocho siglos seguidos es verdadera, y las dos leyendas sobre este período son exactamente eso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La Reconquista no fue una cruzada de ocho siglos" },
+      {
+        b: "texto",
+        texto:
+          "El libro desmonta también la idea de un esfuerzo continuo y religioso de recuperación del territorio. Durante buena parte de esos siglos no hubo ninguna guerra santa: hubo reinos cristianos peleándose entre sí con la misma o mayor dedicación que contra los musulmanes, y alianzas cruzadas en todas las direcciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que usa es el más conocido y el que mejor lo prueba. Rodrigo Díaz de Vivar, desterrado por su rey castellano, trabajó durante años como jefe militar al servicio del rey musulmán de Zaragoza y combatió contra tropas cristianas. No era una excepción escandalosa: era la manera normal de ganarse la vida para un caballero sin señor, y sus contemporáneos no vieron en ello ninguna traición religiosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El componente de cruzada, sostiene, llega tarde y viene de fuera, con el papado y con las órdenes militares, y se acentúa a partir del siglo XII. Antes de eso lo que había eran fronteras móviles, parias —los tributos que los reinos musulmanes pagaban a los cristianos para que no los atacaran— y una convivencia de intereses bastante más sucia y bastante más interesante que la del relato heroico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade la observación económica, que suele faltar. Aquellas parias financiaron durante décadas a los reinos del norte: no conquistaban, cobraban. La conquista territorial en serio empieza cuando el sistema de tributos se rompe y aparecen del sur ejércitos norteafricanos con otra idea de las cosas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un caballero sin señor trabajaba para quien le pagara, y sus contemporáneos no veían en eso ninguna traición de ninguna clase.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El siglo de oro se vivió con el Estado en quiebra cuatro veces" },
+      {
+        b: "texto",
+        texto:
+          "El tramo imperial es donde el libro reúne su contradicción favorita: el país que producía a Cervantes, Velázquez, Lope y Quevedo, y que mandaba en medio mundo, estaba arruinado casi todo el tiempo. Felipe II declaró la suspensión de pagos en cuatro ocasiones a lo largo de su reinado, y sus sucesores repitieron la operación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación que da es de estructura fiscal. La plata americana llegaba a Sevilla y salía casi sin tocar tierra hacia los banqueros alemanes y genoveses que habían financiado las guerras; el imperio funcionaba a crédito y a intereses altísimos. Mientras tanto, el peso de los impuestos recaía sobre Castilla, porque los demás territorios tenían sus propios fueros y aportaban mucho menos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso se suma una jerarquía social que despreciaba el trabajo productivo. El ideal era vivir de rentas, tener un título y no manchar las manos; el comercio y la artesanía quedaban para los que no podían aspirar a otra cosa, y en 1609 se expulsó a los moriscos, que eran una parte importante de la mano de obra agrícola y artesana de varios reinos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado es la imagen que el libro repite: soldados de los tercios sin cobrar durante años y amotinándose por ello en Flandes, mientras en Madrid se levantaban palacios y se pagaban comedias. La grandeza cultural y la ruina material no se contradicen; funcionaron a la vez y durante mucho tiempo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La plata de América llegaba a Sevilla y salía hacia los banqueros sin apenas tocar tierra: el imperio funcionaba entero a crédito.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Su explicación de todo es un carácter nacional, y ahí es donde flojea",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un hilo que atraviesa las noventa y dos entregas y que conviene identificar, porque es lo que convierte una serie de artículos en un libro con tesis. Pérez-Reverte sostiene que los desastres españoles se repiten con una regularidad que no puede ser casualidad, y los atribuye a un carácter colectivo: la envidia, el gusto por destruir al vecino que prospera, la incapacidad de las élites y la costumbre de despreciar lo propio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las escenas con las que lo ilustra son buenas y reales: los nobles godos matando a su rey, los reinos cristianos aliados con quien fuera contra el de al lado, los afrancesados de 1808 que eran la gente más preparada del país y acabaron en el exilio, las dos Españas del siglo XIX matándose en tres guerras carlistas. El repertorio es abundante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema es de método y es serio. Explicar la historia de un país por su carácter no explica nada: no se puede comprobar, no se puede desmentir y sirve igual para justificar un desastre y el contrario. Además funciona hacia atrás, escogiendo de veinte siglos los episodios que encajan y saltándose los que no, que en cualquier país europeo abundan exactamente igual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y tiene un efecto secundario poco útil: si el problema es el carácter, entonces no hay nada que hacer, porque un carácter no se cambia con leyes ni con instituciones. El libro es más duro con los españoles de lo que ningún historiador extranjero se atrevería a ser, y esa dureza acaba funcionando como una coartada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si un país fracasa por su carácter, no hay nada que reformar, y por eso esa explicación resulta tan cómoda como inútil.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Una historia de España recorre desde los primeros pobladores hasta la Transición en noventa y dos capítulos cortos, con un tono de conversación y sin ninguna concesión a la solemnidad. Sus mejores momentos son los que desmontan relatos escolares: que 711 fue una guerra civil goda, que la Reconquista no fue una cruzada continua, que el imperio funcionaba en quiebra permanente y que la crítica a la conquista de América la empezaron españoles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es que se lee. Miles de personas que no habían abierto un libro de historia desde el instituto han terminado este, y salen sabiendo bastante más de lo que sabían, que es exactamente para lo que se escribió.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cualquier explicación que sirva para veinte siglos seguidos es falsa, y este libro acierta cuando desmonta esas y falla cuando propone la suya.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. No hay notas, ni fuentes, ni bibliografía, y en un texto donde cada párrafo lleva un juicio de valor eso obliga al lector a distinguir por su cuenta entre el dato y la opinión, que a esa velocidad de lectura es difícil. Varios historiadores han señalado simplificaciones concretas, y el uso de expresiones actuales para describir a gente del siglo XII hace que a ratos se juzgue a esa gente con criterios que no existían.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una omisión de fondo. Es un libro de reyes, batallas, tercios y políticos, y en él casi no aparecen la vida material, la economía cotidiana, el campo, la ciencia ni las mujeres, salvo unas cuantas reinas. Se puede leer entero sin enterarse de qué comía, cómo trabajaba o cuánto vivía la inmensa mayoría de los españoles de cualquier siglo, que es la parte de la historia que más ha cambiado en la investigación de las últimas décadas.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "historia-espana": HISTORIA_ESPANA,
   "pilares-tierra": PILARES_TIERRA,
   "homenaje-cataluna": HOMENAJE_CATALUNA,
   "capital-siglo-xxi": CAPITAL_SIGLO_XXI,

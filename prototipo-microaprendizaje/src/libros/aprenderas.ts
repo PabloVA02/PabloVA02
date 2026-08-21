@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "historia-espana":
+    "Empezó como noventa y dos artículos semanales de periódico, de los primeros pobladores a la Transición. Su autor avisa en el prólogo: no es un manual, es una versión, sin notas y con un juicio de valor en cada párrafo.",
+
   "pilares-tierra":
     "Un autor de novelas de espías tardó tres años y medio en escribir mil páginas sobre unos albañiles del siglo XII, contra el consejo de su agente y su editor. Es su libro más vendido y explica cómo se levantaba una catedral y quién la pagaba.",
 

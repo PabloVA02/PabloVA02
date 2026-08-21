@@ -95,7 +95,6 @@ const CARGADORES: Record<string, Cargador> = {
   "siete-lecciones-fisica": () => import("./ciencia").then((m) => m.SIETE_LECCIONES_FISICA),
   "orden-del-tiempo": () => import("./ciencia").then((m) => m.ORDEN_DEL_TIEMPO),
   "cuchara-menguante": () => import("./ciencia").then((m) => m.CUCHARA_MENGUANTE),
-  "historia-espana": () => import("./historia").then((m) => m.HISTORIA_ESPANA),
   "cuentos-poe": () => import("./literatura").then((m) => m.CUENTOS_POE),
   mujercitas: () => import("./literatura").then((m) => m.MUJERCITAS),
   "elegancia-erizo": () => import("./literatura").then((m) => m.ELEGANCIA_ERIZO),
