@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "homo-sovieticus": [
+    "cómo está construido un libro hecho solo de monólogos ajenos",
+    "qué libertad esperaba la gente y qué recibió",
+    "qué pasó con los ahorros de una vida en enero de 1992",
+    "por qué nadie respondió nunca de lo ocurrido en setenta años",
+    "de dónde viene la nostalgia, que no es del comunismo",
+  ],
+
   "guerra-civil-thomas": [
     "por qué un golpe que fracasa a medias produce una guerra",
     "cómo el bando legal se quedó sin Estado en la primera semana",

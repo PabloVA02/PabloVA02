@@ -55180,7 +55180,294 @@ const GUERRA_CIVIL_THOMAS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El fin del Homo Sovieticus, en ocho páginas.
+
+   Breve. Es un libro de acumulación, no de argumentos: seiscientas páginas
+   de testimonios sin tesis explícita. Estirarlo a doce sería añadir
+   paráfrasis. Ocho páginas apretadas le sientan mejor.
+
+   Ensayo documental → afirmación entera y tercera persona. Y se aplica la
+   regla del apartado 4 bis para lo escrito desde una desgracia real: sin
+   segunda persona y sin cajas convertidas en lección de vida.
+
+   La regla 5 aquí tiene un caso muy concreto y hay que darlo con nombre: su
+   método de composición se le ha discutido desde que un grupo de madres de
+   soldados la llevó a juicio en Minsk en 1993. Y el «después» es de los que
+   nadie quería acertar: el libro es de 2013 y explica por adelantado lo que
+   pasó en 2014 y en 2022.
+   -------------------------------------------------------------------------- */
+
+const HOMO_SOVIETICUS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El comunismo fabricó un tipo humano, y ese tipo humano no desapareció con el Estado que lo hizo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Svetlana Aleksiévich pasó veinte años, entre 1991 y 2012, grabando conversaciones con gente corriente de la antigua Unión Soviética. Con esos centenares de horas compuso este libro, publicado en 2013, y dos años después recibió el Nobel de Literatura, que nunca se había concedido a alguien que trabajara así: no escribe novelas ni ensayos, monta libros con voces ajenas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La afirmación que da título al conjunto la formula ella al principio y es la única tesis explícita del libro. Sostiene que el proyecto soviético se propuso fabricar un hombre nuevo y que lo consiguió, que ese fue en realidad su único producto acabado, y que aquel tipo humano sigue vivo en millones de personas treinta años después de que el Estado que lo produjo dejara de existir. Y añade que ella misma es uno de ellos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro cierra un ciclo de cinco que la autora llama las voces de la utopía y que recorre, con el mismo método, las mujeres soviéticas en la Segunda Guerra Mundial, los niños de aquella guerra, los soldados de Afganistán y las víctimas de Chernóbil. Este trata de lo que ocurrió cuando aquello se acabó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: cómo está construido el libro y por qué eso importa, qué esperaba la gente de la libertad y qué recibió, qué significó económicamente la década de los noventa, por qué nadie fue juzgado, qué hace ella con las víctimas que defienden a su verdugo, y por qué apareció la nostalgia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El proyecto soviético se propuso fabricar un tipo humano nuevo, y lo consiguió: fue lo único que terminó de fabricar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Es un libro sin autor visible, y esa ausencia es la decisión más discutida que contiene",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aleksiévich llama a su forma novela de voces. Entrevista durante años, graba, transcribe y después compone: corta, ordena, elige qué monólogo va después de cuál y suprime sus propias preguntas. En el libro terminado no hay narrador, no hay contexto histórico, no hay explicaciones y no hay juicio; solo personas hablando, separadas por títulos y por acotaciones mínimas entre corchetes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto sobre el lector es inmediato y es lo que hace único al libro. Sin nadie que interprete, cada testimonio llega sin filtro y sin la protección que da saber qué hay que pensar de él. Una mujer cuenta durante veinte páginas cómo perdió a su marido y el libro no comenta nada; el siguiente monólogo es de alguien que dice lo contrario, y tampoco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está su punto discutible, que conviene poner pronto y no al final. Componer no es transcribir: elegir qué cien voces se publican de entre setecientas entrevistas, dónde empieza y acaba cada una y en qué orden se colocan es una operación autoral completa, ejercida sobre material ajeno y presentada como si no existiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa objeción no es teórica y tiene fecha. En 1993, un grupo de madres de soldados soviéticos muertos en Afganistán llevó a Aleksiévich ante un tribunal en Minsk por el libro anterior, sosteniendo que sus palabras aparecían cambiadas y que el sentido de lo que habían dicho no era el que el libro les daba. El proceso fue largo y político, y desde entonces la pregunta acompaña a toda su obra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Elegir cien voces de entre setecientas y decidir su orden es una operación de autor completa, ejercida sobre las palabras de otros.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Esperaban una libertad que era una condición moral y recibieron un mercado",
+      },
+      {
+        b: "texto",
+        texto:
+          "El malentendido que recorre el libro entero se repite en decenas de testimonios con distintas palabras. La gente que salió a las calles en 1991 no había imaginado la libertad como un conjunto de derechos y de mercados: la había imaginado como un estado moral en el que se acabarían la mentira, la delación y el miedo, y en el que se podría por fin decir lo que se pensaba y leer lo que se quisiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que llegó tenía otra forma. Llegaron los quioscos, los cambistas, los primeros ricos, la publicidad, los coches importados y una economía en la que había que vender algo para comer. Varios entrevistados cuentan la misma escena con distintas caras: se levantó la censura y las librerías se llenaron de todo lo prohibido, y a los dos años la gente ya no compraba libros porque no tenía dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La formulación más citada del libro es de una de esas voces, y dice que estaban preparados para morir por la libertad y no estaban preparados para vivir en ella. Otra dice que ellos querían libertad y les dieron salchichas, y que resultó que no era lo mismo. Ninguna de las dos frases se comenta en el texto; están puestas una detrás de otra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aleksiévich no concluye de ahí que la libertad fuera un engaño, y esa contención es lo que salva el capítulo. Lo que documenta es más preciso: que una sociedad puede desear intensamente algo que no ha definido, y descubrir al conseguirlo que no era lo que quería. Y que esa decepción, cuando es masiva, se convierte en política.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una sociedad puede desear intensamente algo que no ha definido, y descubrir al conseguirlo que no era eso: la decepción posterior es material político.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En 1992 los ahorros de una vida desaparecieron en unas semanas" },
+      {
+        b: "texto",
+        texto:
+          "El acontecimiento económico que más aparece en los testimonios tiene fecha exacta: enero de 1992, cuando se liberalizaron los precios en Rusia de una sola vez. Los precios se multiplicaron en semanas y la inflación de aquel año superó el dos mil por ciento. Todo lo que la gente tenía ahorrado en la caja del Estado, la única que había existido, dejó de valer prácticamente nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los monólogos que recogen eso son los más repetidos del libro y siempre concretos. Una mujer había ahorrado durante veinte años para un piso cooperativo y con ese dinero, en 1993, compró unas botas. Un ingeniero cuenta que su pensión completa daba para comprar pan. Otro explica que vendió su biblioteca entera, tomo a tomo, en un puesto de la calle durante un invierno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso se sumó el derrumbe de las profesiones. Ingenieros, científicos, profesores y militares descubrieron que su cualificación no valía nada en el mundo nuevo, y muchos acabaron vendiendo tabaco, medias o piezas de coche en la calle. Varios entrevistados describen el momento exacto en que un antiguo compañero les vio en un mercadillo, y el uso reiterado de una misma palabra: vergüenza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las consecuencias se pueden medir fuera del libro y conviene ponerlas para calibrar los testimonios. La esperanza de vida de los hombres rusos cayó de unos sesenta y cuatro años a comienzos de los noventa a unos cincuenta y siete en 1994; la tasa de suicidios de Rusia llegó a ser de las más altas del mundo, y el libro empieza y termina con suicidios. No es una impresión literaria: es una catástrofe demográfica documentada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un ahorro de veinte años convertido en unas botas explica más de la política posterior que cualquier análisis de las reformas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "No hubo juicios, ni depuración, ni nadie que respondiera de nada" },
+      {
+        b: "texto",
+        texto:
+          "El hecho más señalado del libro es una ausencia. Cuando terminó el régimen soviético, no hubo procesos por lo ocurrido durante setenta años: ni juicios a los responsables de las deportaciones, ni comisiones de verdad, ni apartamiento de cargos de quienes habían firmado condenas. Los archivos se abrieron un tiempo y se volvieron a cerrar. Nadie fue castigado por nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aleksiévich recoge la consecuencia doméstica de eso, que es lo que ningún tratado cuenta. Verdugos y víctimas siguieron viviendo en la misma ciudad, en el mismo bloque y usando el mismo ascensor. Hay un testimonio de una mujer que descubrió, años después, que el vecino que la saludaba todos los días había sido el instructor que interrogó a su padre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ella entrevista a los dos lados y coloca sus monólogos cerca, sin comentar. Habla con antiguos funcionarios del aparato de seguridad, ya jubilados, que explican con calma que ellos cumplían con su trabajo, que las órdenes venían de arriba y que además muchos de los detenidos algo habrían hecho. Y habla con quienes pasaron diez años en un campo por una carta interceptada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La comparación que el libro sugiere sin escribirla es con Alemania, donde hubo procesos, depuraciones, indemnizaciones y una discusión pública que duró décadas. Rusia no tuvo nada de eso, y varias voces del libro sostienen que ahí está el motivo de que treinta años después se pueda volver a hablar bien de Stalin sin que pase nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando un régimen se acaba sin que nadie responda de nada, la discusión no queda cerrada: queda aplazada, y vuelve cuando conviene.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay supervivientes de los campos que defienden a Stalin, y el libro no lo explica",
+      },
+      {
+        b: "texto",
+        texto:
+          "El material más difícil de leer, y el que mejor demuestra para qué sirve este método, son los testimonios contradictorios. Una mujer que pasó años en un campo de Kazajistán, que perdió allí a su marido y la salud, dice que aquella época fue grande, que entonces la gente creía en algo y que Stalin hizo del país una potencia. Lo dice ella, con esos antecedentes, sin ironía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cualquier otro autor habría explicado eso. Habría hablado del síndrome del cautivo, de la disonancia, de la necesidad de dar sentido a un sufrimiento inútil, de la propaganda. Aleksiévich no escribe ni una línea al respecto: coloca el monólogo entero y pasa al siguiente, que a veces dice lo contrario con la misma convicción.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se saca de ahí, aunque no esté escrito, es una idea sobre la memoria que ningún archivo puede dar. Para mucha gente, admitir que aquellos años fueron una catástrofe sin sentido significa admitir que su juventud, su trabajo, sus muertos y su vida entera no valieron nada; y hay un límite a lo que una persona puede aceptar sobre su propia vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese mecanismo explica la nostalgia mejor que cualquier análisis político, y explica también por qué es tan difícil de discutir. Quien defiende un pasado terrible no siempre está defendiendo el régimen: a menudo está defendiendo que su vida tuvo sentido, y por eso los argumentos históricos no le llegan. Con lo primero se puede discutir; con lo segundo, muy poco.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien defiende un pasado terrible a veces no defiende el régimen: defiende que su propia vida dentro de él sirvió para algo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La nostalgia no viene del comunismo, viene de la humillación de los años noventa",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda parte del libro recoge entrevistas de 2002 a 2012 y en ellas aparece un tono nuevo. Ya no hay decepción activa: hay una reconstrucción del pasado. La gente recuerda un país que respetaban en el mundo, calles seguras, empleo garantizado, sanidad gratuita y una idea compartida de lo que se estaba haciendo. Casi nadie echa de menos las colas ni la censura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aleksiévich muestra sin decirlo que esa nostalgia no es del sistema, sino de haber contado para algo. Un país que había sido una de las dos potencias del planeta pasó en diez años a depender de créditos exteriores, a ver cómo su ejército se descomponía y a recibir consejos de gobiernos extranjeros sobre cómo organizar su economía. Muchos de los entrevistados usan la misma palabra que en el capítulo de la pobreza: humillación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la demanda que atraviesa todos los testimonios de esa segunda parte, que no es de ideología sino de orden. La gente pide que alguien mande, que se acabe el caos, que haya reglas y que el país vuelva a ser respetado. Varias voces dicen que están dispuestos a renunciar a cosas a cambio de eso, y algunas dicen exactamente a cuáles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro se publicó en 2013 y no contiene ninguna predicción, porque no contiene ninguna afirmación del autor. Pero deja sobre la mesa, en boca de decenas de personas corrientes, todos los materiales de lo que iba a ocurrir: la nostalgia de imperio, el agravio, la desconfianza hacia Occidente y la disposición a cambiar libertades por orgullo. Un lector actual reconoce lo que está leyendo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie echa de menos las colas ni la censura: lo que se echa de menos es haber contado para algo, y eso no lo devuelve ninguna reforma.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene, a través de cien voces y sin decirlo nunca en primera persona, que el hombre producido por setenta años de vida soviética siguió existiendo después de 1991; que la libertad que llegó no era la que se había imaginado; que la década siguiente fue vivida como una humillación; y que un pasado del que nadie respondió no queda cerrado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un tipo de información que no está en ningún archivo. Los documentos registran decisiones, cifras y decretos; aquí está lo que sintió la gente mientras ocurrían, dicho por ella y sin nadie que lo traduzca. Es la razón por la que la Academia sueca premió en 2015 a alguien que no escribe ni ficción ni ensayo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla, o al menos hay que leerlo sabiéndolo, en su composición. La autora edita, elige y ordena, y el resultado tiene un tono uniforme: todo es sufrimiento, desengaño y pérdida. Quienes prosperaron en aquellos años, montaron negocios o se alegraron de que aquello terminara apenas aparecen, y eran millones. Un libro hecho solo de voces sigue teniendo un autor decidiendo cuáles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una segunda objeción, hecha por críticos rusos, que merece exponerse. Sostienen que el propio concepto de hombre soviético contiene un desprecio de la intelectualidad hacia la gente corriente: una manera de explicar por qué el pueblo no quiere lo que los intelectuales querían para él, convirtiéndolo en un producto defectuoso en lugar de en alguien con razones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ha pasado desde 2013 ha convertido este libro en otra cosa. Rusia se anexionó Crimea en 2014 e invadió Ucrania en 2022, con un discurso de agravio histórico que está entero en estas páginas dicho por gente corriente nueve años antes. Y su autora, nacida en Ucrania y residente en Bielorrusia, se sumó en 2020 al consejo de la oposición contra Lukashenko, fue interrogada, tuvo la casa vigilada y salió del país aquel septiembre. Escribe desde el exilio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En 2013 estaban ya dichos, por gente corriente y sin ninguna intención política, todos los materiales de lo que iba a pasar en 2014 y en 2022.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "homo-sovieticus": HOMO_SOVIETICUS,
   "guerra-civil-thomas": GUERRA_CIVIL_THOMAS,
   "auschwitz-rees": AUSCHWITZ_REES,
   tatuador: TATUADOR,

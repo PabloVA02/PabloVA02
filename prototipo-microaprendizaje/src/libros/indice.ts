@@ -59,7 +59,6 @@ const CARGADORES: Record<string, Cargador> = {
   reproductibilidad: () => import("./arte").then((m) => m.REPRODUCTIBILIDAD),
   "espiritual-arte": () => import("./arte").then((m) => m.ESPIRITUAL_ARTE),
   "el-elemento": () => import("./arte").then((m) => m.EL_ELEMENTO),
-  "homo-sovieticus": () => import("./historia").then((m) => m.HOMO_SOVIETICUS),
   imperiofobia: () => import("./historia").then((m) => m.IMPERIOFOBIA),
 };
 

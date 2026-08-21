@@ -24,22 +24,6 @@ export type FichaMeta = {
 
 export const META: FichaMeta[] = [
   {
-    id: "homo-sovieticus",
-    titulo: "El fin del Homo Sovieticus",
-    autor: "Svetlana Aleksiévich",
-    ano: 2013,
-    gancho: "Veinte años grabando a gente corriente del imperio que se cayó. Le dieron el Nobel por ello, y también la llevaron a juicio por lo mismo: por lo que hace con las cintas cuando se sienta a escribir.",
-    porQue: "Porque es el mejor retrato que existe de lo que le pasa por dentro a un país cuando se le acaba el mundo. Y porque su título original no dice lo que dice el español: no habla de un final, habla de ropa usada que alguien se ha vuelto a poner.",
-    minutos: 25.9,
-    capitulos: [
-      { titulo: "Un mariscal se ahorca en su despacho del Kremlin", minutos: 5.1 },
-      { titulo: "Cien horas de grabación para tres páginas", minutos: 5.2 },
-      { titulo: "La libertad resultó ser el salchichón", minutos: 5.2 },
-      { titulo: "El juicio de Minsk", minutos: 5.1 },
-      { titulo: "Tiempo de segunda mano", minutos: 5.2 },
-    ],
-  },
-  {
     id: "imperiofobia",
     titulo: "Imperiofobia y leyenda negra",
     autor: "María Elvira Roca Barea",

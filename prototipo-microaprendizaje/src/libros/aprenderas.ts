@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "homo-sovieticus":
+    "Aleksiévich pasó veinte años grabando a gente corriente de la antigua Unión Soviética y compuso con esas voces un libro sin narrador. Su única afirmación propia: el hombre que fabricó aquel régimen no desapareció con él.",
+
   "guerra-civil-thomas":
     "Un historiador británico de veintinueve años publicó en 1961 la primera historia completa de la guerra civil, sin haber podido entrar en un solo archivo español. El libro se prohibió aquí y entró de contrabando quince años.",
 
