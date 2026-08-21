@@ -41008,7 +41008,571 @@ const MILAGRO_MANANA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Anticáncer, en ocho páginas.
+
+   Breve.
+
+   CASO (c) del apartado 4 bis: es un libro escrito desde una enfermedad
+   real y mortal, la del propio autor, que murió de ella. Así que TERCERA
+   PERSONA en todo el resumen, sin una sola frase en segunda, y muchísimo
+   cuidado con la conclusión: hay maneras de decir esto que, leídas por un
+   enfermo, significan que no puso de su parte.
+
+   La conclusión separa lo que está bien establecido —el ejercicio, la carne
+   procesada, el alcohol— de lo que no —la curcumina, el capítulo
+   psicológico—, y cuenta lo que él mismo escribió antes de morir sobre cómo
+   se estaba leyendo su libro.
+   -------------------------------------------------------------------------- */
+
+const ANTICANCER: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El médico que se metió en su propio escáner" },
+      {
+        b: "texto",
+        texto:
+          "En 1992, David Servan-Schreiber tenía treinta y un años y dirigía en Pittsburgh un laboratorio de imagen cerebral. Un voluntario faltó a una sesión y, para no perder el tiempo de máquina, se metió él en el escáner. En las imágenes apareció un tumor del tamaño de una nuez en la parte delantera derecha de su cerebro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo operaron, recibió quimioterapia y radioterapia, recayó seis años después y volvieron a operarlo. Vivió diecinueve años más y murió en julio de 2011, a los cincuenta. Este libro lo escribió en 2007, en mitad de esa historia, para contar qué hizo además del tratamiento y por qué creía que había servido de algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que además del tumor está el terreno. Casi todo el mundo lleva encima células con mutaciones capaces de convertirse en cáncer, y la mayoría no llega a nada; lo que decide, sostiene, es si el organismo las alimenta o las estorba. Y enumera cuatro palancas que a su juicio afectan a ese terreno: la comida, el entorno, el movimiento y el estado psicológico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren su argumento y también su suerte desigual: qué significa el terreno, qué papel atribuye a la inflamación, qué sostiene sobre la alimentación, cuál de sus cuatro palancas resultó tener detrás mucha más evidencia de la que él sabía, qué se sabe hoy de los tóxicos ambientales, y por qué el capítulo psicológico es el más delicado del libro y el que peor ha resistido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El tumor no es lo único que hay: también está el organismo que lo aloja, y eso admite preguntas distintas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi todo el mundo tiene células cancerosas y casi nadie desarrolla un cáncer",
+      },
+      {
+        b: "texto",
+        texto:
+          "El punto de partida del libro es un dato de patología forense. Cuando se examinan los cuerpos de personas que murieron por accidentes de tráfico, y por tanto sanas, se encuentran con frecuencia focos microscópicos de células tumorales en la tiroides, en la próstata o en la mama. Muchas más personas de las que llegarían a enfermar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la distinción que organiza el libro entero. Que aparezcan células con mutaciones es corriente y ocurre a diario; que esas células formen un tumor que crece, que se procura vasos sanguíneos y que se extiende es otra cosa y ocurre pocas veces. Entre las dos hay un tramo largo, y ese tramo es donde Servan-Schreiber sitúa todo lo que propone.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su comparación es la de la semilla y el suelo, tomada de una idea del siglo XIX que había vuelto a la investigación oncológica: una semilla puede caer en cualquier sitio y solo germina donde el terreno se lo permite. Lo que él propone es dejar de mirar solo la semilla, que es lo que hacen el bisturí y la quimioterapia, y ocuparse también del suelo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene ser exacto con el alcance de esa idea, porque el propio libro no siempre lo es. Que el entorno del organismo influya en si un foco microscópico progresa está bien fundado y es el terreno de la prevención. Que ese mismo entorno pueda frenar un tumor ya formado y diagnosticado es una afirmación mucho más fuerte, y el libro se mueve entre las dos sin marcar la frontera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que aparezcan células con mutaciones es habitual; que prosperen hasta formar un tumor es raro, y en medio hay un tramo largo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La inflamación crónica es el mecanismo que conecta casi todo lo que propone",
+      },
+      {
+        b: "texto",
+        texto:
+          "La pieza que une los cuatro apartados del libro es la inflamación. En su forma aguda es el sistema de reparación del cuerpo: llega sangre, llegan células de defensa, se limpia la zona, se fabrica tejido nuevo y el proceso se apaga. Es lo que ocurre alrededor de un corte, y sin ella no se cura ninguna herida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema aparece cuando no se apaga. Una inflamación de bajo grado mantenida durante años —por exceso de grasa corporal, por tabaco, por una infección persistente— deja el tejido en obras permanentes: crecimiento celular estimulado, vasos nuevos, y una vigilancia inmunitaria distraída. Es un ambiente que le viene bien a un foco tumoral que quiera crecer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conexión no es una ocurrencia del libro. Está bien establecida en algunos cánceres concretos: la infección crónica por Helicobacter pylori y el cáncer de estómago, la hepatitis crónica y el cáncer de hígado, la colitis ulcerosa y el cáncer de colon. En esos casos la inflamación sostenida durante años precede al tumor y la relación está demostrada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace Servan-Schreiber es generalizar ese mecanismo a todo lo demás, y ahí el terreno se vuelve más blando. Que la grasa corporal en exceso mantiene un estado inflamatorio es cierto y que la obesidad aumenta el riesgo de una docena de cánceres también, pero de ahí a que una dieta concreta apague la inflamación lo bastante para cambiar el curso de una enfermedad hay una distancia que el libro recorre demasiado deprisa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La inflamación que cura una herida en una semana es la misma que, mantenida diez años, deja el tejido en obras.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Su lista de alimentos mezcla lo bien demostrado con lo que solo se probó en un tubo de ensayo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más leído del libro es una lista de alimentos con sus mecanismos: la cúrcuma con pimienta negra, el té verde, las crucíferas, el ajo y la cebolla, los frutos rojos, el pescado azul. Cada uno viene con una molécula y con una explicación de qué le hace a la célula tumoral, y esa precisión es la que hace el capítulo tan convincente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Buena parte de esos mecanismos son reales y están medidos, pero medidos casi siempre en células en una placa o en ratones, con concentraciones que no se alcanzan comiendo. El caso de la cúrcuma es el ejemplar: su compuesto activo se absorbe malísimamente, y el propio libro explica que hay que tomarla con pimienta negra precisamente porque sin ella apenas llega a la sangre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay en cambio dos afirmaciones alimentarias del libro que se confirmaron después con la evidencia más fuerte que existe. En 2015, la agencia de la Organización Mundial de la Salud que clasifica los cancerígenos situó la carne procesada en el grupo de los agentes con relación causal demostrada con el cáncer colorrectal, y la carne roja un escalón por debajo. El alcohol está en ese mismo grupo desde hace más tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una parte que se sostiene sin necesidad de ninguna molécula: el patrón general que recomienda —muchas verduras y legumbres, poco azúcar y poca harina refinada, poca carne procesada, aceite de oliva, pescado— coincide con lo que recomiendan hoy todas las guías de prevención. No hace falta creerse el mecanismo de cada especia para que la lista de la compra sea buena.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un compuesto que mata células tumorales en una placa no hace lo mismo dentro de un cuerpo que apenas lo absorbe.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "De sus cuatro palancas, la que tenía más pruebas detrás era la que menos se cita",
+      },
+      {
+        b: "texto",
+        texto:
+          "Servan-Schreiber dedica al ejercicio bastante menos espacio que a la comida, y con el tiempo ha resultado ser su capítulo mejor respaldado. Su recomendación era modesta: media hora de actividad moderada casi todos los días, caminar incluido, sin necesidad de entrenar ni de competir con nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se ha acumulado desde entonces es notable. En pacientes que han superado un cáncer de mama o de colon, la actividad física regular se asocia de forma consistente con menos recaídas y menor mortalidad, en estudios grandes y repetidos en distintos países. No es un efecto pequeño ni un hallazgo aislado, y es una de las pocas cosas que un paciente puede hacer por su cuenta con respaldo real.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los mecanismos propuestos encajan además con el resto del libro: el músculo en movimiento reduce la inflamación de bajo grado, mejora la sensibilidad a la insulina, baja los niveles de ciertas hormonas circulantes y ayuda a mantener el peso, que es en sí mismo uno de los factores de riesgo mejor establecidos que existen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una ironía en cómo se ha leído este libro. Su capítulo de la cúrcuma y el té verde se ha citado miles de veces y ha vendido suplementos; el del ejercicio, que era el que llevaba razón, es el que menos se recuerda. Probablemente porque comprar una especia es más fácil que salir a caminar media hora todos los días.",
+      },
+      {
+        b: "idea",
+        texto:
+          "De todo lo que este libro propone, lo que mejor ha resistido es media hora de caminar casi todos los días.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Con los tóxicos del entorno hay una lista corta y comprobada y una lista larga y confusa",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo del entorno es el que más ansiedad ha generado y el que peor distingue. Servan-Schreiber repasa pesticidas, plásticos, cosméticos y productos de limpieza, y sostiene que la exposición combinada a dosis pequeñas durante décadas explica parte del aumento de la incidencia de cáncer en los países ricos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte comprobada es corta y no es discutible. El tabaco, incluido el ajeno. El alcohol. El amianto. La radiación ionizante. Algunos virus, como el del papiloma humano. El radón en las viviendas. Ciertos productos industriales con exposición laboral documentada. Todo eso está clasificado, medido, y de la mayoría se sabe incluso la relación entre dosis y riesgo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte confusa es todo lo demás, y el problema es que el libro no marca la diferencia. Escribir sobre las toxinas del ambiente sin nombrar la sustancia, sin dar la dosis y sin decir el umbral no informa de nada: la frase con la que nace la toxicología es que la dosis hace el veneno, y una lista de sospechosos sin cantidades no permite decidir nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre el aumento de incidencia hay además una explicación mucho menos alarmante que el libro no destaca lo suficiente: hay más casos diagnosticados en parte porque la gente vive más años, y el cáncer es sobre todo una enfermedad de la edad, y en parte porque se busca más y mejor. Cuando se ajusta por edad, la subida es mucho menor de lo que sugieren las cifras brutas.",
+      },
+      { b: "idea", texto: "Un tóxico sin dosis y sin nombre no es un dato: es una inquietud." },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El capítulo psicológico es el más delicado y el que peor ha envejecido",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cuarta palanca del libro es el estado psicológico. Servan-Schreiber sostiene que el estrés sostenido, la sensación de impotencia y los traumas no resueltos afectan al funcionamiento del sistema inmunitario, y dedica varios capítulos a técnicas para trabajar sobre eso: meditación, coherencia cardíaca, terapia para el trauma, cuidar los vínculos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es justo decir que él intenta cerrar la puerta que abre. Escribe expresamente que no existe una personalidad cancerígena y que nadie es culpable de su enfermedad. Pero un libro que dedica cuatro capítulos a lo psicológico dentro de un método para influir en un cáncer deja al lector una conclusión que ninguna advertencia neutraliza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y es la parte que peor ha resistido. Se ha estudiado mucho y en poblaciones grandes: los trabajos que han seguido a cientos de miles de personas no encuentran que el estrés declarado o la infelicidad aumenten la probabilidad de desarrollar un cáncer, y los que han seguido a pacientes ya diagnosticados no encuentran que el bienestar emocional prediga la supervivencia. Tampoco la psicoterapia la alarga, aunque mejore la calidad de vida, que ya es motivo suficiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El daño de sostener lo contrario no es abstracto. Si el ánimo influyera en el tumor, cada empeoramiento se convertiría en un reproche y cada enfermo tendría además que fingirse fuerte para no perjudicarse. Servan-Schreiber, que lo vivió, escribió sobre eso al final de su vida y con más lucidez que en este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Sostener que el ánimo influye en el tumor convierte cada empeoramiento en un reproche al enfermo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Anticáncer sostiene que junto al tumor hay un terreno, y que ese terreno se puede modificar con la comida, el movimiento, el entorno y el estado psicológico. Lo escribió un médico que llevaba quince años conviviendo con un tumor cerebral, y esa posición explica tanto su fuerza como sus excesos: está escrito por alguien que necesitaba que hubiera algo que hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, y sigue siendo válido, es haber puesto a la vez sobre la mesa cosas que sí están demostradas y que casi nadie contaba en 2007: que la actividad física regular se asocia con menos recaídas en varios cánceres, que el exceso de grasa corporal es un factor de riesgo de primer orden, y que la carne procesada y el alcohol están hoy clasificados como cancerígenos con relación causal demostrada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "De las cuatro palancas del libro, la que tenía razón era la que menos ha vendido: moverse todos los días.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Mezcla sin avisar dos preguntas muy distintas: qué reduce la probabilidad de desarrollar un cáncer, donde hay evidencia sólida, y qué modifica el curso de uno ya diagnosticado, donde hay muchísima menos. Y sus mecanismos moleculares proceden casi siempre de células en placa: una revisión de 2017 concluyó que la curcumina da positivo en cualquier ensayo de laboratorio y no funciona como fármaco en personas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo psicológico es el que más daño puede hacer. Los estudios grandes no encuentran que el estrés o la infelicidad aumenten el riesgo de cáncer, ni que el bienestar emocional prediga la supervivencia de un paciente. Servan-Schreiber advierte que nadie es culpable de su enfermedad, y aun así la arquitectura del libro empuja en la dirección contraria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después lo escribió él. En 2010 le diagnosticaron una nueva recaída y publicó antes de morir un último libro que se ocupaba de cómo se estaba leyendo este: pidió que su muerte no se interpretara como la prueba de que su método no servía, ni su supervivencia previa como la prueba de que servía. Murió en julio de 2011, diecinueve años después de aquel escáner.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   Mi dieta cojea, en ocho páginas.
+
+   Breve.
+
+   Libro práctico: la prosa habla de TÚ (regla 4.7).
+
+   Este es el contrapeso del estante de Salud: se dedica a desmontar
+   exactamente el género que describen las capturas de cortisol y de
+   mitocondrias. Así que el resumen aprovecha para dejar las herramientas
+   —el mito con su origen, la matriz alimentaria, el entorno— y no solo la
+   lista de alimentos.
+
+   La conclusión dice lo que le ha pasado al propio movimiento que ayudó a
+   lanzar, que acabó vendiendo productos con la bandera contraria.
+   -------------------------------------------------------------------------- */
+
+const DIETA_COJEA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi todo lo que crees sobre comer te lo enseñó un anuncio" },
+      {
+        b: "texto",
+        texto:
+          "Aitor Sánchez García es dietista-nutricionista y tecnólogo de alimentos, y publicó este libro en 2016 después de años escribiendo un blog con el mismo nombre. Su punto de partida es una observación incómoda: la nutrición es probablemente el campo de la salud donde más gente tiene una opinión firme y menos gente ha leído una sola fuente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y no es culpa del lector. Casi todo lo que una persona cree saber sobre comer no lo ha aprendido en clase ni en la consulta: lo ha oído en la televisión, lo ha leído en un envase o se lo ha dicho alguien que lo oyó en el mismo sitio. El libro se dedica a coger esas creencias una por una, buscar de dónde salieron y comprobar si alguna vez hubo algo debajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis de fondo es que los mitos alimentarios no son errores inocentes que circulan solos. La mayoría tienen un origen rastreable y casi siempre comercial, y siguen vivos porque alguien gana dinero con que sigan vivos. Eso convierte el libro en algo más útil que una lista de qué comer: enseña a preguntar de dónde viene un consejo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren su trabajo: de dónde salen los mitos, por qué el desayuno y las cinco comidas nunca tuvieron un estudio detrás, por qué un alimento no es la suma de sus nutrientes, qué hay dentro de lo light, lo funcional y lo detox, qué es un superalimento y qué es un suplemento necesario, y por qué la culpa no está en tu fuerza de voluntad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un mito alimentario casi nunca circula solo: sigue vivo porque alguien gana dinero con que siga vivo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los mitos salen de tres sitios, y solo uno de ellos es un malentendido",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primero es la industria alimentaria, y ahí el mecanismo no es la mentira sino el énfasis. Un producto puede decir que es fuente de calcio, o rico en fibra, o bajo en grasa, y las tres cosas ser ciertas, mientras el envase no menciona que además lleva un veinte por ciento de azúcar. La publicidad no necesita mentir: le basta con elegir qué dato pone grande.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo son los medios, y ahí el mecanismo es la prisa. Un estudio con veinte ratones se convierte en un titular que dice que un alimento previene el cáncer, y la corrección, si llega, no la lee nadie. El libro insiste en distinguir tres cosas que se cuentan igual: un experimento con células, uno con animales y uno con personas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercero es el más incómodo: profesionales que repiten lo que aprendieron hace treinta años. La pirámide alimentaria con los cereales en la base, las tres raciones diarias de lácteos, el huevo restringido por el colesterol. Fueron recomendaciones oficiales, se enseñaron en las facultades y siguen dándose en consultas mucho después de que la evidencia cambiara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la herramienta con la que se puede leer cualquier consejo de nutrición: preguntar quién lo dice, en qué se apoya y a quién beneficia. Las tres preguntas no requieren saber bioquímica y descartan la mayor parte de lo que circula, incluidos varios consejos que llevan décadas dándose por buenos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La publicidad de alimentos casi nunca miente: elige qué dato pone grande y cuál no aparece.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El desayuno obligatorio y las cinco comidas nunca tuvieron un estudio detrás",
+      },
+      {
+        b: "texto",
+        texto:
+          "Que el desayuno es la comida más importante del día es probablemente la frase más repetida de la nutrición occidental, y no procede de ninguna investigación: procede de la publicidad de cereales de desayuno del siglo XX, que la convirtió en sentido común. Los estudios que la respaldan son observacionales y no separan el desayuno de todo lo demás que hace quien desayuna.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí está claro es lo otro: en muchos hogares el desayuno es la peor comida del día. Cereales azucarados, galletas, bollería, zumo y cacao soluble suman una cantidad de azúcar que en ningún otro momento del día se aceptaría, y encima se sirve a los niños con la conciencia tranquila porque el envase pone que lleva vitaminas y hierro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo de las cinco comidas tiene el mismo problema: se repitió durante décadas con el argumento de que acelera el metabolismo, y eso no ocurre. Lo que decide el gasto es lo que se come en total, no en cuántas veces se reparte. Comer cinco veces puede ayudar a quien así controla mejor el hambre, y perjudicar a quien acaba haciendo cinco ingestas de mala calidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla que propone en su lugar no cabe en un titular y es la correcta: importa mucho más qué comes que cuándo o cuántas veces. Quien desayuna bien y quien no desayuna acaban en el mismo sitio si el resto del día es parecido, y la energía que se gasta discutiendo el horario estaría mejor empleada mirando la lista de la compra.",
+      },
+      { b: "idea", texto: "Importa muchísimo más qué comes que cuántas veces al día lo repartes." },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un alimento no es la suma de los nutrientes que lleva dentro" },
+      {
+        b: "texto",
+        texto:
+          "La idea más importante del libro es la que menos se cita, y se llama matriz alimentaria. Consiste en que un alimento es una estructura, y que lo que le hace al cuerpo depende de esa estructura tanto como de su composición. Dos cosas con los mismos gramos de azúcar, de fibra y de grasa pueden comportarse de manera completamente distinta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que lo demuestra está en cualquier cocina: una naranja y un vaso de zumo de naranja. El azúcar es prácticamente el mismo, pero en la naranja está encerrado en celdas de fibra que hay que masticar y que retrasan su llegada a la sangre, y además llenan. En el vaso hay el azúcar de tres o cuatro naranjas, sin fibra que lo frene, y bebido en un minuto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mismo pasa con el pan. Que la etiqueta diga integral no significa que lo sea: durante años se vendió como integral pan hecho con harina refinada a la que se le añadía salvado después, que es otra cosa. En España hizo falta un decreto en 2019 para que solo pudiera llamarse integral el pan hecho al cien por cien con harina integral.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la consecuencia práctica que sustituye a leer las etiquetas nutricionales: mirar la lista de ingredientes, que dice mucho más. Cuántos hay, en qué orden aparecen —van de mayor a menor cantidad— y si los reconocerías en una cocina. Un producto con tres ingredientes que sabes qué son casi nunca es el problema.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El azúcar de tres naranjas metido en un vaso no es lo mismo que tres naranjas, aunque la tabla diga lo mismo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo light, lo funcional y lo detox venden salud sin haberla demostrado",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un producto puede llamarse light si tiene un treinta por ciento menos de calorías que su versión original, y eso no dice nada sobre si es sano: una mayonesa light sigue siendo mayonesa, y unas galletas light siguen siendo galletas. El adjetivo compara un producto consigo mismo, no con la alternativa razonable, que suele ser no comprarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los alimentos funcionales —los yogures con esteroles, con bífidus o con defensas— tuvieron su momento y se les acabó por vía legal. Cuando la autoridad europea de seguridad alimentaria revisó una por una las alegaciones de salud que llevaban los envases, la inmensa mayoría no pudo demostrarse y hubo que retirarlas. Los productos siguen ahí; las frases que los justificaban, no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo detox es directamente un invento comercial. El cuerpo tiene dos órganos dedicados a eso a tiempo completo, el hígado y el riñón, y funcionan todo el día sin necesidad de zumos verdes. Ningún producto detox ha explicado nunca qué toxina concreta elimina, por qué vía y en qué cantidad, que son las tres preguntas mínimas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro señala además el efecto secundario que tienen estos productos y que es peor que su inutilidad: la licencia moral. Quien compra la versión light, el yogur con defensas o el batido depurativo siente que ya ha hecho algo por su salud, y esa sensación relaja el resto de las decisiones del día mucho más de lo que compensa el producto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Comprar el producto sano de la estantería relaja el resto de las decisiones del día más de lo que compensa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los superalimentos son una categoría de marketing y los suplementos necesarios son cuatro",
+      },
+      {
+        b: "texto",
+        texto:
+          "Superalimento no es un término nutricional: no existe en ninguna clasificación científica ni en ninguna norma. Es una etiqueta comercial que se le pone a un producto exótico, caro y con alguna sustancia interesante medida en laboratorio, y que sirve para venderlo a un precio que su valor nutricional no justificaría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo suele ser el mismo. Se encuentra una molécula prometedora en el alimento, se estudia a concentraciones que no se alcanzan comiéndolo, se publica el titular y el precio se multiplica. Mientras tanto, alimentos corrientes con perfiles nutricionales excelentes —las legumbres, las nueces, las sardinas, el brócoli, el aceite de oliva— no tienen quien les pague campaña.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con los suplementos aplica el mismo criterio y la lista de los que hacen falta es corta. La vitamina B12 en dietas vegetarianas o veganas, que ahí no es opcional. El ácido fólico y el yodo en el embarazo. La vitamina D en algunas personas y situaciones concretas, valorada con una analítica. Fuera de eso, la inmensa mayoría de los suplementos que se venden no corrigen ninguna carencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y avisa de un riesgo que aparece justo entre la gente más concienciada: convertir la alimentación en una fuente permanente de ansiedad. Vigilar cada ingrediente, dividir la comida en pura e impura y sentir culpa por una cena fuera de casa no es comer bien, es un problema distinto que tiene nombre propio y que empeora cuanto más se lee sobre nutrición.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Superalimento no existe en ninguna clasificación científica: es una etiqueta de precio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Que comas mal no es un problema de fuerza de voluntad" },
+      {
+        b: "texto",
+        texto:
+          "El último tramo del libro cambia de escala y es el que más lo distingue de sus vecinos de estantería. Sánchez sostiene que explicar la mala alimentación por la falta de voluntad individual es cómodo y falso, y que el reparto de responsabilidades está mal hecho: se le pide a cada persona que resista un entorno diseñado para que no resista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los elementos de ese entorno son concretos y medibles. El precio: los productos ultraprocesados suelen salir más baratos por caloría que los frescos. La disponibilidad: hay comida a la vista en gasolineras, farmacias, papelerías y estaciones. Y la publicidad dirigida a niños, que funciona precisamente porque a esa edad no existe la capacidad de reconocer una intención comercial.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí que el libro termine hablando de política alimentaria y no de recetas: etiquetado frontal comprensible, límites a la publicidad infantil, impuestos sobre las bebidas azucaradas, comedores escolares con menús revisados. Son medidas que actúan sobre el entorno de todos, y por eso funcionan mejor que cualquier campaña que pida esfuerzo individual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su recomendación personal, mientras tanto, es igual de poco espectacular: cambia tu entorno cercano, que es el único que controlas. Lo que no está en casa no se come a las once de la noche, y la lista de la compra se decide una vez a la semana con la cabeza fría en lugar de veinte veces al día con hambre.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se le pide a cada persona que resista todos los días un entorno diseñado para que no resista.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Mi dieta cojea desmonta uno por uno los mitos alimentarios que se dan por sabidos, y lo hace rastreando de dónde salió cada uno. El desayuno obligatorio, las cinco comidas, el zumo como sustituto de la fruta, lo light, lo funcional, lo detox y los superalimentos tienen todos un origen comercial identificable y ninguno una investigación detrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta no es la lista sino las herramientas. Preguntar quién lo dice y a quién beneficia. Distinguir un estudio con células de uno con personas. Mirar la lista de ingredientes en vez de la tabla nutricional. Y entender la matriz alimentaria, que explica de una vez por qué una naranja y un vaso de zumo no son lo mismo aunque la tabla diga que sí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de creerse un consejo de nutrición conviene preguntar quién lo dice, en qué se apoya y a quién le conviene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Está escrito en 2016 y algunas de sus batallas ya estaban ganándose, así que hoy se lee por momentos peleando contra rivales que ya han caído. Y el tono contra la industria es demasiado uniforme: no siempre separa el producto que hace daño del que simplemente es innecesario, y esas dos cosas no merecen el mismo párrafo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su categoría central también se ha discutido. La clasificación de alimentos por su grado de procesado, que el libro usa como eje, tiene fronteras borrosas y no explica por qué el procesado en sí haría daño más allá de lo que ya explican el azúcar, la sal y la densidad calórica. Su mejor apoyo llegó después: un ensayo de 2019 en el que las mismas personas comieron unas quinientas calorías más al día con una dieta ultraprocesada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después contiene una ironía que el libro no podía prever. El movimiento de comida real que ayudó a impulsar en España se convirtió en pocos años en un negocio con su propia gama de productos, sus sellos y sus suplementos, vendidos con exactamente el mecanismo que este libro enseña a detectar: un adjetivo tranquilizador en el envase y un precio más alto.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "dieta-cojea": DIETA_COJEA,
+  anticancer: ANTICANCER,
   "milagro-manana": MILAGRO_MANANA,
   "codigo-obesidad": CODIGO_OBESIDAD,
   "nacidos-correr": NACIDOS_CORRER,

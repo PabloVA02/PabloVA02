@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "dieta-cojea": [
+    "de dónde salió lo del desayuno obligatorio",
+    "por qué un zumo no equivale a la fruta",
+    "qué significa de verdad la palabra light",
+    "cuáles son los suplementos que sí hacen falta",
+    "por qué el entorno decide más que tu voluntad",
+  ],
+
+  anticancer: [
+    "por qué casi todo el mundo tiene células con mutaciones",
+    "qué relación hay entre inflamación crónica y cáncer",
+    "qué está demostrado de su lista de alimentos y qué no",
+    "cuál de sus cuatro palancas resultó tener más pruebas",
+    "qué se ha medido sobre el estrés y el cáncer",
+  ],
+
   "milagro-manana": [
     "por qué lo que no tiene plazo se aplaza siempre",
     "los seis hábitos y en qué orden van",

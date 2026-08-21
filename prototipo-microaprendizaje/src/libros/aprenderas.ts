@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "dieta-cojea":
+    "Casi todo lo que una persona cree saber sobre comer no lo aprendió en clase ni en la consulta: lo oyó en un anuncio o lo leyó en un envase. Un dietista rastrea de dónde salió cada mito y comprueba si alguna vez hubo algo debajo.",
+
+  anticancer:
+    "En 1992 un neurocientífico se metió en su propio escáner porque un voluntario había faltado, y encontró un tumor del tamaño de una nuez en su cerebro. Vivió diecinueve años más y escribió este libro para contar qué hizo además del tratamiento.",
+
   "milagro-manana":
     "Su autor estuvo clínicamente muerto seis minutos tras un choque frontal a los veinte años, y volvió a caminar en tres semanas. El libro salió de una segunda caída, la de perder su negocio en 2008, y propone reservar la primera hora del día.",
 

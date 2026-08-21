@@ -22,6 +22,8 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "dieta-cojea": "Los mitos sobre nutrición que te han hecho creer",
+  anticancer: "Una nueva forma de vida",
   "milagro-manana": "Los 6 hábitos que cambiarán tu vida antes de las 8:00",
   "codigo-obesidad": "Descifra los secretos de la pérdida de peso",
   "nacidos-correr": "La historia de una tribu oculta, un puñado de atletas y la mayor carrera de la historia",
