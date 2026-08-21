@@ -49574,7 +49574,7 @@ const INTRO_PSICOANALISIS: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Falla en lo que más pretendía, que era ser una ciencia. Karl Popper lo usó en 1963 como su ejemplo principal de teoría que no puede refutarse: si el paciente acepta la interpretación, confirma; si la rechaza, es resistencia, y también confirma. A eso se suma que los historiadores que han revisado sus casos han encontrado curaciones anunciadas que no lo fueron: el paciente conocido como el Hombre de los Lobos declaró de anciano que el tratamiento no le había servido.",
+          "Falla en lo que más pretendía, que era ser una ciencia. Karl Popper lo usó en 1963 como su ejemplo principal de teoría irrefutable: si el paciente acepta la interpretación, confirma; si la rechaza, es resistencia, y también confirma. Y los historiadores que han revisado sus casos han encontrado curaciones anunciadas que no lo fueron: el paciente conocido como el Hombre de los Lobos declaró de anciano que el tratamiento no le había servido.",
       },
       {
         b: "texto",
