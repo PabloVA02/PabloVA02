@@ -317,9 +317,11 @@ Los cuatro sitios, y qué va en cada uno:
    documentos que no se pueden reconstruir —`REDACCION.md` y `ESTADO.md`— con
    el conector de Drive. Se suben con `mcp__Google_Drive__create_file` pasando
    el texto entero; para binarios grandes no sirve.
-3. **El chat con Pablo.** Un `tar.gz` de la fuente (sin `node_modules`, `.git`,
-   `dist*`, `fotos-cache` ni el vídeo: unos 7 MB) enviado por el chat es la
-   copia que sobrevive a todo, porque queda en su dispositivo.
+3. **El chat con Pablo.** Un `tar.gz` de la fuente enviado por el chat es la
+   copia que sobrevive a todo, porque queda en su dispositivo. Excluyendo
+   `node_modules`, `.git`, `dist*`, `fotos-cache`, `movil.html`, el vídeo,
+   `referencia/` y `cubiertas-originales/` salen unos 8,6 MB; con `referencia`
+   dentro se va a 41 MB y ya no es cómodo de mandar.
 4. **El artefacto publicado**, que es una copia de la app compilada.
 
 Y el bundle de git sigue siendo la salida de emergencia si el push falla:
