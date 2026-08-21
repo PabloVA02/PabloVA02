@@ -2086,7 +2086,7 @@ const CLUB_5_MANANA: PaginaLibro[] = [
 ];
 
 /* --------------------------------------------------------------------------
-   El trabajo profundo, en ocho páginas.
+   Céntrate —Deep Work—, en ocho páginas.
 
    Cal Newport es profesor de informática y escribe contra la corriente de su
    propio gremio: sostiene que la capacidad de concentrarse sin interrupciones
@@ -2323,7 +2323,7 @@ const TRABAJO_PROFUNDO: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "El trabajo profundo defiende una tesis y da un método. La tesis: en un mundo donde nadie se concentra, quien se concentra vale más, y esa capacidad se puede entrenar. El método: elegir una estrategia de horarios, montar un ritual que quite decisiones, entrenar la tolerancia al aburrimiento, elegir las herramientas por lo que cuestan y ponerle un presupuesto a lo superficial.",
+          "Céntrate defiende una tesis y da un método. La tesis: en un mundo donde nadie se concentra, quien se concentra vale más, y esa capacidad se puede entrenar. El método: elegir una estrategia de horarios, montar un ritual que quite decisiones, entrenar la tolerancia al aburrimiento, elegir las herramientas por lo que cuestan y ponerle un presupuesto a lo superficial.",
       },
       {
         b: "texto",

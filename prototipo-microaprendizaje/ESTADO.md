@@ -197,33 +197,37 @@ No por gusto ni por orden alfabético. Por lo que más se ve, que es:
    es lo peor que puede haber. *Hechos los veinte.*
 2. **Los que tienen cubierta dibujada de Pablo.** Es la segunda peor
    combinación: la cubierta invita a entrar y el texto devuelve al lector.
-   Estuvo al día hasta las tandas 10 a 13 del 21 de agosto, que trajeron 30
-   cubiertas nuevas y volvieron a abrir el hueco. **Van diecisiete con dibujo
-   y texto automático debajo, y son los siguientes que hay que escribir:**
+   Estuvo al día hasta las tandas del 21 de agosto, que trajeron 40 cubiertas
+   nuevas y volvieron a abrir el hueco. **Van veintiuno con dibujo y texto
+   automático debajo, y son los siguientes que hay que escribir:**
 
-       Anticáncer                           David Servan-Schreiber   Salud
-       Los cañones de agosto                Barbara Tuchman          Historia
-       El código de la obesidad             Jason Fung               Salud
-       La cuchara menguante                 Sam Kean                 Ciencia
-       Mi dieta cojea                       Aitor Sánchez García     Salud
-       Einstein: su vida y su universo      Walter Isaacson          Ciencia
-       Invicto                              Marcos Vázquez           Salud
-       Mañanas milagrosas                   Hal Elrod                Salud
-       El milagro metabólico                Carlos Jaramillo         Salud
-       La música de los números primos      Marcus du Sautoy         Ciencia
-       Nacidos para correr                  Christopher McDougall    Salud
-       Postguerra                           Tony Judt                Historia
-       El pulgar del panda                  Stephen Jay Gould        Ciencia
-       Los últimos días de los dinosaurios  Riley Black              Ciencia
-       El universo en una cáscara de nuez   Stephen Hawking          Ciencia
-       El universo en tu mano               Christophe Galfard       Ciencia
-       Vivir con plenitud las crisis        Jon Kabat-Zinn           Salud
+       Anticáncer                           Servan-Schreiber   Salud
+       Los cañones de agosto                Tuchman            Historia
+       El cerebro del niño                  Siegel y Bryson    Psicología
+       El código de la obesidad             Jason Fung         Salud
+       La cuchara menguante                 Sam Kean           Ciencia
+       Mi dieta cojea                       Aitor Sánchez      Salud
+       Einstein: su vida y su universo      Isaacson           Ciencia
+       Invicto                              Marcos Vázquez     Salud
+       Maneras de amar                      Levine y Heller    Psicología
+       Los hombres son de Marte…            John Gray          Psicología
+       Mañanas milagrosas                   Hal Elrod          Salud
+       El milagro metabólico                Jaramillo          Salud
+       La música de los números primos      Du Sautoy          Ciencia
+       Nacidos para correr                  McDougall          Salud
+       Postguerra                           Tony Judt          Historia
+       El pulgar del panda                  Gould              Ciencia
+       Sentirse bien                        David D. Burns     Psicología
+       Los últimos días de los dinosaurios  Riley Black        Ciencia
+       El universo en una cáscara de nuez   Hawking            Ciencia
+       El universo en tu mano               Galfard            Ciencia
+       Vivir con plenitud las crisis        Kabat-Zinn         Salud
 
    La lista no se cuenta a mano: sale de cruzar `cubiertas.ts` con el registro
-   `PAGINAS` de `paginas.ts`. *Postguerra* y *Einstein* piden Amplio, y ocho de
-   los diecisiete son de Salud, así que la regla 5 —decir dónde falla— va a
-   tener trabajo: *Mañanas milagrosas*, *El milagro metabólico* y *El código de
-   la obesidad* afirman más de lo que sostienen sus pruebas.
+   `PAGINAS` de `paginas.ts`. *Postguerra* y *Einstein* piden Amplio; ocho son
+   de Salud, donde manda la prueba del sustituto del apartado 4 bis; y dos
+   —*Los hombres son de Marte* y *Mañanas milagrosas*— son de los que peor han
+   envejecido, así que la regla 5 va a ser la mitad del resumen.
 3. **Los conocidos** del resto del catálogo.
 4. **El resto**, por categorías.
 

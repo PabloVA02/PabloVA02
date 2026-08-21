@@ -205,7 +205,7 @@ export const CATALOGO: Ficha[] = [
   { id: "flow", titulo: "Fluir", autor: "Mihály Csíkszentmihályi", ano: 1990, categoria: "Psicología", estado: "escrito" },
   { id: "siete-habitos", titulo: "Los 7 hábitos de la gente altamente efectiva", autor: "Stephen Covey", ano: 1989, categoria: "Psicología", estado: "escrito" },
   { id: "club-5-manana", titulo: "El club de las 5 de la mañana", autor: "Robin Sharma", ano: 2018, categoria: "Psicología", estado: "escrito" },
-  { id: "trabajo-profundo", titulo: "El trabajo profundo", autor: "Cal Newport", ano: 2016, categoria: "Psicología", estado: "escrito" },
+  { id: "trabajo-profundo", titulo: "Céntrate", autor: "Cal Newport", ano: 2016, categoria: "Psicología", estado: "escrito" },
   { id: "amigos-influir", titulo: "Cómo ganar amigos e influir sobre las personas", autor: "Dale Carnegie", ano: 1936, categoria: "Psicología", estado: "escrito" },
   { id: "poder-ahora", titulo: "El poder del ahora", autor: "Eckhart Tolle", ano: 1997, categoria: "Psicología", estado: "escrito" },
   { id: "nudge", titulo: "Un pequeño empujón", autor: "Thaler y Sunstein", ano: 2008, categoria: "Psicología", estado: "escrito" },
