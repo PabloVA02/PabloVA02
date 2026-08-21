@@ -1288,22 +1288,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "dracula",
-    titulo: "Drácula",
-    autor: "Bram Stoker",
-    ano: 1897,
-    gancho: "No hay ni un solo narrador. La novela son cartas, diarios, telegramas y recortes de periódico, como si fuera un expediente.",
-    porQue: "Casi todo lo que crees saber sobre vampiros lo inventó este libro. Y casi todo lo que crees saber sobre este libro lo inventaron las películas.",
-    minutos: 19.8,
-    capitulos: [
-      { titulo: "El castillo", minutos: 4.6 },
-      { titulo: "El barco vacío", minutos: 4.2 },
-      { titulo: "Lo que las películas cambiaron", minutos: 3.9 },
-      { titulo: "La caza", minutos: 3.8 },
-      { titulo: "El hombre que lo escribió", minutos: 3.3 },
-    ],
-  },
-  {
     id: "mujercitas",
     titulo: "Mujercitas",
     autor: "Louisa May Alcott",

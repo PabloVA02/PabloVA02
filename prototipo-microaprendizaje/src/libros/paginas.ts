@@ -16314,7 +16314,234 @@ const DORIAN_GRAY: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Drácula, en ocho páginas.
+
+   Breve. Registro narrativo.
+
+   Lo que casi nadie sabe y aquí sí está: que la novela no tiene
+   narrador, son diarios, cartas, telegramas y recortes de periódico —o
+   sea que está escrita como un expediente—; que el conde no aparece en la
+   mitad central del libro; que Stoker no inventó al vampiro ni sacó el
+   nombre de Vlad el Empalador como suele decirse; y que la novela es, en
+   buena parte, un catálogo de la tecnología de 1897.
+   -------------------------------------------------------------------------- */
+
+const DRACULA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un expediente, no una novela" },
+      {
+        b: "texto",
+        texto:
+          "Drácula no tiene narrador. Lo que hay son documentos: el diario taquigráfico de un abogado, las cartas entre dos amigas, el cuaderno de un médico grabado en cilindros de fonógrafo, el cuaderno de bitácora de un barco, recortes de periódico y telegramas. Alguien los ha ordenado por fechas y los presenta como prueba, con una nota inicial que insiste en que todo está tal cual se escribió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa forma no es un capricho de estilo, es el motor del miedo. Cada personaje sabe una parte y ninguno sabe lo que sabemos nosotros, así que el lector va tres capítulos por delante gritándoles lo que no ven. Y como son documentos privados, todo llega en presente y sin la calma de quien ya sabe cómo acabó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La historia, en dos líneas: un abogado inglés viaja a Transilvania para cerrar la compra de una finca en Londres, descubre que su cliente es un muerto que se alimenta de sangre y queda encerrado en el castillo; el conde se embarca hacia Inglaterra, y un grupo de cinco personas corrientes con una mala idea de lo que se les viene encima se organiza para cazarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que hace grande al libro: el viaje al castillo, el barco que llega a puerto sin tripulación, lo que le pasa a las dos amigas, quién es el cazador y por qué su método es un procedimiento, cuánta tecnología hay dentro y de dónde salió de verdad el personaje.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El terror no viene de un narrador que lo sabe todo: viene de cinco personas escribiendo por separado lo que no entienden.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las primeras cincuenta páginas" },
+      {
+        b: "texto",
+        texto:
+          "El comienzo es lo mejor del libro y funciona como un mecanismo de relojería. Jonathan Harker llega en diligencia a los Cárpatos, los campesinos le hacen gestos contra el mal de ojo y una mujer le pone un rosario al cuello. El coche que lo recoge en el paso lo conduce un hombre enorme con fuerza descomunal y dientes muy blancos, y los lobos rodean el carruaje sin atacar, como si esperaran una orden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el castillo, la sospecha se construye con detalles domésticos y no con sustos: no hay criados, nadie cocina, nunca ve a su anfitrión comer, no hay un solo espejo en el edificio. Harker se afeita con el suyo, el conde entra sin reflejarse, y cuando el abogado se corta con la navaja, la reacción del otro es rápida y no del todo controlada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el momento en que Harker entiende que está preso es una escena de las que se quedan. Asomado a la ventana, ve salir de una habitación de abajo a su anfitrión, boca abajo, con la capa extendida como alas, bajando por el muro vertical del castillo, cabeza primero, como un lagarto. El diario se corta ahí a mitad de frase. Después vendrán las tres mujeres del castillo y una bolsa que se mueve. Antes de eso ya le había avisado sin querer: le dijo que podía ir a donde quisiera del castillo salvo donde estuvieran cerradas las puertas, y todas lo estaban.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El susto no llega por una aparición: llega por caer en la cuenta de que en toda la casa no hay un solo espejo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El barco que llegó solo" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo que mejor demuestra el método del libro no tiene ningún vampiro a la vista. Es el recorte del periódico local de Whitby y el diario de a bordo de una goleta rusa, la Deméter, que sale de Varna con cincuenta cajones de tierra y llega a Inglaterra en plena tormenta, embarranca en la playa y aparece sin nadie a bordo salvo el capitán, muerto y atado al timón, con un crucifijo entre las manos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El diario, traducido para el periódico, cuenta la desaparición de la tripulación uno a uno a lo largo de tres semanas: primero un marinero que dice haber visto a un hombre alto y delgado que no está en la lista, después dos más, después el registro completo de la bodega sin encontrar nada. El capitán, ya solo, escribe la última entrada, se ata las manos al timón con un rosario y decide entrar en el puerto muerto antes que abandonar el barco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando la goleta encalla, un perro enorme salta a tierra y desaparece por el acantilado. No se explica nada más. Todo el episodio está contado con las palabras planas del periodismo local —los curiosos en el muelle, el interés del público, la investigación abierta— y por eso funciona: es un procedimiento administrativo con un monstruo dentro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Contar el horror con la prosa de un parte de aduanas lo hace bastante más difícil de descartar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las dos amigas" },
+      {
+        b: "texto",
+        texto:
+          "Lucy Westenra recibe tres proposiciones de matrimonio el mismo día y se queja, encantada, de no poder aceptar las tres. Es la primera a la que el conde visita. Empieza a caminar dormida, aparecen dos puntitos en su cuello, se queda blanca, se recupera, vuelve a empeorar. Los médicos le hacen cuatro transfusiones con la sangre de cuatro hombres distintos, todos enamorados de ella, y ninguna sirve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su amiga Mina Murray es lo contrario y es el personaje que sostiene la novela: escribe taquigrafía, maneja una máquina de escribir, ordena todos los documentos, y es la que reconstruye el caso cruzando fechas y horarios cuando los hombres no se aclaran. Sin su trabajo de archivo no habría persecución posible, y el propio libro lo dice.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aun así los hombres la apartan por protegerla, dejan de contarle lo que hacen, y en esas noches en que no la vigilan el conde entra en su cuarto. Cuando la encuentran, la escena es de una brutalidad que sorprende en un libro de 1897, y la parte más incómoda es lo que ella dice después: se llama a sí misma impura. Ahí el libro se pone del lado de su época y no del suyo. Y a Lucy hay que rematarla en su propia tumba, en una escena que su prometido tiene que ejecutar él mismo porque, según Van Helsing, así debe ser.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La única que resuelve el caso es a la que apartan para protegerla, y por apartarla casi lo pierden todo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El cazador es un profesor holandés" },
+      {
+        b: "texto",
+        texto:
+          "Van Helsing no es un aventurero: es un médico y filósofo de Ámsterdam, viejo amigo del doctor que atiende a Lucy, que habla un inglés atropellado y que llega llamado por carta. Su primera aportación es un método, y es lo más moderno del libro: dice que hay que creer en lo que se ve aunque no cuadre con lo que se sabe, y que el error de la ciencia de su siglo es negarse a mirar los datos que no encajan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ahí trabaja como se trabaja un caso. Reúne los documentos de todos, los ordena, saca conclusiones, hace una lista de las reglas del enemigo: no se refleja, no proyecta sombra, no puede entrar en una casa si no se le invita la primera vez, no cruza agua corriente salvo en el cambio de marea, tiene que dormir en tierra de su país, pierde su fuerza de día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale el plan, que es de una eficacia burocrática: si necesita cajones con tierra de Transilvania, se localizan los cincuenta, se abren y se santifican uno a uno para dejarlo sin sitios donde dormir. La persecución final por media Europa se hace con horarios de tren, telegramas y un mapa. El monstruo se caza cerrándole las cuentas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "A lo que no se entiende no se le gana con valor: se le gana haciendo la lista de sus reglas y quitándole los sitios donde dormir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La novela más moderna de su año" },
+      {
+        b: "texto",
+        texto:
+          "Cuesta creerlo por la fama que tiene, pero Drácula es un libro obsesionado con la tecnología. Mina escribe a máquina y en taquigrafía. El doctor Seward no lleva un cuaderno: dicta su diario a un fonógrafo de cilindros de cera, un aparato de 1877 que casi nadie tenía. Hay telegramas todo el rato, hay horarios de ferrocarril consultados como quien consulta un oráculo y hay transfusiones de sangre, que en 1897 eran una técnica reciente y peligrosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa mezcla es la que le da su fuerza. El vampiro es una criatura del folclore campesino, de los pueblos donde se ponía ajo en las ventanas; y los que lo persiguen son profesionales urbanos con aparatos, que combaten una superstición usando exactamente los métodos con los que su siglo se enorgullecía de haberlas superado. El libro pone las dos cosas en la misma habitación y hace que colaboren.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay incluso una escena que lo resume: Van Helsing pide oír uno de los cilindros del fonógrafo y Mina se ofrece a pasarlos a máquina para poder buscar dentro. Es lo que hoy llamaríamos indexar un archivo de audio, contado en 1897, y es lo que permite atar cabos. La cacería la gana el que tiene el archivo mejor ordenado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Al monstruo del folclore lo derrota un grupo de gente con máquina de escribir, telegramas y horarios de tren.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "De dónde salió de verdad" },
+      {
+        b: "texto",
+        texto:
+          "La versión que circula es que Stoker se inspiró en Vlad Tepes, el príncipe rumano del siglo quince conocido como el Empalador. Sus notas de trabajo, que se conservan, cuentan otra cosa: durante años el personaje se llamó conde Wampyr, y el nombre definitivo lo sacó de un libro sobre Valaquia que consultó en la biblioteca de Whitby, donde leyó que dracula significaba diablo en la lengua del país. De la biografía del príncipe no usó prácticamente nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tampoco inventó el vampiro literario. Antes estaban El vampiro, de Polidori, escrito la misma noche que Frankenstein y publicado en 1819; el folletín Varney el vampiro, de mil pico páginas; y sobre todo Carmilla, de Le Fanu, de 1872, que ya tiene el castillo, la víctima que se consume y el experto que la salva. Lo que hizo Stoker fue ordenar todo eso y añadirle el expediente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle sobre el aspecto. El conde del libro no es un galán: es un anciano alto y flaco, con bigote blanco, orejas puntiagudas, aliento fétido y pelo en las palmas de las manos. Rejuvenece a medida que se alimenta. El vampiro elegante, con capa y acento, viene del teatro y del cine posteriores, igual que los tornillos del monstruo de Frankenstein. Sus notas dicen incluso qué le habría gustado escribir y no escribió: había planeado una escena en la que el conde cenaba con los cazadores sin que lo reconocieran.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El vampiro guapo y seductor no está en el libro: en el libro es un viejo con mal aliento y pelo en las palmas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Drácula cuenta cómo un grupo de personas corrientes documenta, entiende y acorrala a algo que no debería existir, y lo cuenta con sus propios papeles. Su tesis está en la forma: contra lo que no se comprende, el libro no propone valor ni fe sino método —recoger testimonios, cruzar fechas, anotar las reglas del enemigo y quitarle una a una sus posiciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un personaje que se independizó de su autor como pocos. Del libro salen el ajo, la estaca, la invitación necesaria para entrar en una casa y la tierra natal en el ataúd, que hoy son patrimonio común y se usan sin haberlo leído. Pocos libros han fundado tanto folclore de nueva planta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Contra lo que no se entiende, el libro no propone valor: propone un archivo bien ordenado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La parte central se hace larga: hay páginas y páginas del manicomio y de un enfermo que come moscas, y el conde desaparece durante centenares de páginas. Van Helsing habla un inglés macarrónico que en castellano suele traducirse mal y lo convierte en un personaje casi cómico. Y el desenlace, después de tanta preparación, se resuelve en una página y media.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo que el libro dice de su época sin querer. El peligro que describe es un extranjero del este que llega en barco, compra propiedades en Londres a través de un abogado y contamina a las mujeres inglesas; se le combate devolviendo a cada mujer a su sitio y matándolo en su país. Leído hoy, ese esquema se ve entero, y conviene verlo: no estropea la novela, pero explica por qué asustaba tanto en 1897.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  dracula: DRACULA,
   "dorian-gray": DORIAN_GRAY,
   frankenstein: FRANKENSTEIN,
   "senor-moscas": SENOR_MOSCAS,

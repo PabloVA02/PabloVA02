@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  dracula: [
+    "cómo se descubre que en el castillo no hay espejos",
+    "qué le pasó al barco que llegó a puerto sin nadie",
+    "cuáles son las reglas del enemigo y para qué sirven",
+    "cuánta tecnología de 1897 hay dentro del libro",
+    "de dónde salió el nombre, que no es de Vlad",
+  ],
+
   "dorian-gray": [
     "qué le dice el hombre que le cambia la vida",
     "por qué la primera arruga aparece por una frase",

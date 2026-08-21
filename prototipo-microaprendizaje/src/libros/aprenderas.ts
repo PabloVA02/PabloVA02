@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  dracula:
+    "Un abogado inglés viaja a Transilvania a cerrar la venta de una finca y descubre que su cliente es un muerto. No hay narrador: son diarios, cartas y telegramas ordenados como un expediente.",
+
   "dorian-gray":
     "Un chico de veinte años desea que envejezca su retrato en su lugar, y el deseo se cumple. Durante dieciocho años hace lo que quiere sin que se le note nada en la cara.",
 
