@@ -24,22 +24,6 @@ export type FichaMeta = {
 
 export const META: FichaMeta[] = [
   {
-    id: "van-gogh-cartas",
-    titulo: "Cartas a Theo",
-    autor: "Vincent van Gogh",
-    ano: 1914,
-    gancho: "Pintó unas dos mil obras en diez años y solo se le documenta una venta. Su hermano le pagó cada tubo de pintura.",
-    porQue: "Las cartas desmontan el mito del loco que pintaba por instinto: era un lector voraz que razonaba cada color. Y existen porque una viuda de veintiocho años decidió que existieran.",
-    minutos: 26.6,
-    capitulos: [
-      { titulo: "El evangelista despedido de las minas", minutos: 5.2 },
-      { titulo: "Ciento cincuenta francos al mes", minutos: 5.5 },
-      { titulo: "Por qué este rojo va contra este verde", minutos: 5.2 },
-      { titulo: "La oreja de la que no habla", minutos: 5.3 },
-      { titulo: "La viuda que inventó a Van Gogh", minutos: 5.3 },
-    ],
-  },
-  {
     id: "vidas-vasari",
     titulo: "Las vidas de los más excelentes pintores, escultores y arquitectos",
     autor: "Giorgio Vasari",

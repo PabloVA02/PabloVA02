@@ -56044,7 +56044,284 @@ const ARTE_SIN_HOMBRES: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Cartas a Theo, en ocho páginas.
+
+   Breve. Es un documento personal, así que va con el registro narrativo del
+   apartado 3 bis: titular corto de imagen, la afirmación en la primera
+   frase y caja del rayo en segunda persona.
+
+   LA TESIS DEL RESUMEN, y es lo que lo salva de ser un álbum de citas: las
+   cartas DESMIENTEN el mito del genio loco que pintaba en trance. Quien las
+   lee encuentra a un hombre que leía en tres idiomas, que discutía teoría
+   del color y que sabía exactamente lo que estaba haciendo. Eso es lo que
+   hay que contar, con las pruebas.
+
+   Y la regla 5 tiene dos casos: las «Cartas a Theo» que circulan son una
+   selección hecha en 1914 por su cuñada, no la correspondencia; y su
+   diagnóstico y su muerte siguen discutiéndose, con el museo de por medio.
+   -------------------------------------------------------------------------- */
+
+const VAN_GOGH_CARTAS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ochocientas cartas a un hermano" },
+      {
+        b: "texto",
+        texto:
+          "La obra escrita de Vincent van Gogh es tan grande como la pintada y casi nadie la ha leído entera. Se conservan más de ochocientas cartas suyas, de las cuales unas seiscientas cincuenta están dirigidas a una sola persona: su hermano menor, Theo, marchante de arte en París. Se escribieron entre 1872 y julio de 1890, y a veces con una frecuencia de dos por semana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El dato que ordena todo lo demás es de calendario. Vincent decidió ser pintor en 1880, con veintisiete años, y murió en 1890 con treinta y siete. Su carrera entera duró diez años, y las obras que conoce todo el mundo —los girasoles, el dormitorio, la noche estrellada, los cuervos sobre el trigal— se hicieron en los últimos treinta meses.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hay dentro de esas cartas es lo contrario de lo que espera quien llega buscando el mito. Hay listas de gastos, encargos de tubos de pintura por número de referencia, discusiones sobre colores complementarios, comentarios de novelas de Zola y de Dickens, y unos doscientos dibujos hechos al margen para explicarle a Theo qué estaba pintando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: por qué empezó tan tarde, qué significaba el dinero que su hermano le mandaba todos los meses, qué se proponía hacer exactamente con el color, la casa de Arlés y las nueve semanas con Gauguin, las cartas escritas desde un manicomio, y los setenta cuadros de sus últimos setenta días.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si alguna vez te ha parecido que empezaste tarde, mira las fechas: el pintor más reconocible del mundo cogió los pinceles a los veintisiete y murió a los treinta y siete.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuatro oficios antes del bueno" },
+      {
+        b: "texto",
+        texto:
+          "Van Gogh fracasó en todo lo que intentó antes de pintar, y las cartas lo cuentan mientras ocurría. A los dieciséis entró a trabajar en una galería de arte, la misma empresa en la que después haría carrera su hermano, y lo despidieron siete años más tarde por discutir con los clientes sobre el valor de los cuadros que tenía que venderles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después fue profesor interno en Inglaterra sin cobrar apenas, dependiente en una librería de Dordrecht donde se pasaba las horas traduciendo la Biblia a cuatro idiomas en columnas paralelas, y aspirante a teólogo en Ámsterdam, donde no consiguió aprobar el examen de acceso porque no llegaba al latín ni al griego exigidos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El último intento fue el más serio y el que lo rompió. En 1878 se marchó como predicador laico al Borinage, una cuenca minera belga, y allí hizo lo que entendía que había que hacer: regaló su ropa y su dinero, se instaló en una choza, dormía sobre paja y cuidaba a los heridos de los accidentes. La misión lo destituyó a los seis meses por exceso de celo, argumentando que aquel comportamiento no daba dignidad al cargo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un detalle de aquellos años que explica su pintura posterior. En el Borinage empezó a dibujar sin proponérselo: apuntaba mineros saliendo del pozo, mujeres cargando sacos de carbón, casas bajas. Cuando decidió ser pintor no eligió un tema, ya lo tenía; sus primeras obras importantes, con campesinos comiendo patatas a la luz de una lámpara, salen directamente de aquellos dos años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el verano de 1880, después de meses sin escribir a nadie, mandó a Theo una carta larguísima explicando que había estado como un pájaro enjaulado y que había decidido dedicarse a dibujar. Tenía veintisiete años, ninguna formación artística y ningún ingreso. Esa carta es el principio de todo lo demás.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los años que parecen perdidos rara vez lo están del todo: los cuatro fracasos anteriores le dieron los libros, la mirada y los mineros que después pintó.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El dinero que llegaba cada mes" },
+      {
+        b: "texto",
+        texto:
+          "Durante diez años, Vincent van Gogh vivió del dinero que le enviaba su hermano. Theo, marchante en París, le mandaba una asignación mensual con la que pagaba la habitación, la comida, los lienzos y los modelos, y a veces enviaba más cuando llegaba una carta pidiéndolo. No fue una ayuda puntual: fue la financiación completa de una carrera durante una década.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las cartas están llenas de esa cuenta, y es lo que más incomoda al leerlas. Vincent detalla en qué se ha ido el dinero, se disculpa, calcula cuánto le queda para el mes, promete que pronto venderá algo, explica por qué ha tenido que comprar más pintura de la prevista. Hay cartas enteras dedicadas a justificar un gasto de unos pocos francos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una idea que le da vueltas y que aparece formulada de varias maneras: la de que él es un gasto, la de que su hermano estaría mejor sin ese peso, la de que lo que hace tiene que valer algo algún día para compensarlo. Vendió, que se sepa con seguridad, un solo cuadro en toda su vida, por cuatrocientos francos, unos meses antes de morir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Theo, por su parte, nunca le pidió que lo dejara. Le mandaba dinero, le mandaba pintura desde París, le buscaba contactos, le guardaba los cuadros que iban llegando y los acumulaba en su casa sin conseguir venderlos. La correspondencia es, entre otras cosas, el documento de una apuesta sostenida durante diez años por alguien que no vivió para ver que tenía razón.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Detrás de casi todo el que consigue dedicarse a algo hay alguien que estuvo pagándolo durante años sin ninguna prueba de que fuera a salir bien.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos colores que se encienden al juntarse" },
+      {
+        b: "texto",
+        texto:
+          "Las cartas desmienten por sí solas el mito del pintor arrebatado, y lo hacen con la parte más aburrida de su contenido: la teoría. Van Gogh discute sistemáticamente el color, cita a Delacroix, estudia las leyes de los complementarios y explica en párrafos largos qué ocurre cuando se pone un rojo junto a un verde o un azul junto a un naranja.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Escribiendo sobre el cuadro de un café de noche, le explica a Theo que ha intentado expresar con el rojo y el verde las terribles pasiones humanas, y describe cómo ha colocado cada tono para conseguirlo. Sobre su dormitorio de Arlés le manda un dibujo con los colores anotados y le dice que quiere que el cuadro entero sugiera reposo, y que eso lo va a producir la relación entre las paredes y los muebles y no el asunto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás hay una formación autodidacta enorme. Leía en neerlandés, francés e inglés; había trabajado siete años vendiendo grabados y conocía la pintura de museo mejor que muchos pintores de su generación; copiaba estampas japonesas para aprender de su manera de plantear el color plano; y copiaba a Millet una y otra vez, no como ejercicio de principiante sino como método.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el argumento que un lector debería llevarse de estas cartas. Lo que parece un estallido —los amarillos, las pinceladas gruesas, el cielo que gira— es el resultado de un trabajo deliberado, explicado por escrito antes y después de hacerlo. Van Gogh no pintaba lo que sentía sin más: decidía qué color producía qué efecto y lo aplicaba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que desde fuera parece un arrebato suele ser un método largo que nadie ha visto: pregunta siempre qué había antes del resultado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La casa amarilla" },
+      {
+        b: "texto",
+        texto:
+          "En febrero de 1888, Van Gogh se marchó de París al sur de Francia buscando luz, y allí tuvo el único proyecto colectivo de su vida. Alquiló en Arlés una casa pintada de amarillo, la amuebló con lo mínimo y empezó a escribir cartas explicando su plan: reunir allí a varios pintores que trabajarían juntos, compartirían gastos y venderían en común.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los girasoles que hoy están en media docena de museos se pintaron para ese proyecto y con una función concreta: eran la decoración del cuarto que iba a ocupar Paul Gauguin. Van Gogh se lo cuenta a Theo con entusiasmo, calcula cuántos cuadros le da tiempo a terminar antes de que llegue y describe cómo quedarán las paredes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gauguin llegó en octubre de 1888 y la convivencia duró nueve semanas. Las cartas registran el deterioro casi en directo: al principio salen a pintar juntos y discuten de teoría, después discuten de todo, después Van Gogh escribe que su compañero está harto de Arlés y de él. La noche del 23 de diciembre, tras una discusión, se cortó una parte de la oreja izquierda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo notable de las cartas de las semanas siguientes es su tono. No hay delirio ni exaltación: hay un hombre pidiendo disculpas a su hermano por el susto, preguntando por los gastos del hospital, preocupado por si Gauguin ha llegado bien a París y diciendo que espera poder volver a trabajar pronto. Sabía perfectamente lo que había pasado y no podía explicarse por qué.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todos los proyectos que reúnen a varias personas se rompen por la convivencia y no por la idea: el plan era bueno y duró nueve semanas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una carta desde el manicomio" },
+      {
+        b: "texto",
+        texto:
+          "En mayo de 1889, después de varias crisis y de una petición de los vecinos de Arlés para que lo encerraran, Van Gogh ingresó por voluntad propia en un asilo psiquiátrico de Saint-Rémy-de-Provence. Firmó su ingreso él mismo, pidió una habitación adicional para usarla como taller y siguió escribiendo a su hermano con la misma regularidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las cartas de aquel año son el documento más raro del conjunto. Describe sus propias crisis desde fuera, con una precisión de informe clínico: cuánto duran, qué recuerda y qué no, cómo se encuentra los días siguientes, qué come, cuánto tarda en poder sostener un pincel. Y en los intervalos, que eran largos, pintaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pintó allí alrededor de ciento cincuenta cuadros en un año, entre ellos algunos de los más conocidos. Salía al jardín del asilo, o al campo con vigilancia, o copiaba grabados en la habitación cuando no le dejaban salir; y de esa temporada de encierro salieron los cipreses, los olivos, los trigales con segador y la noche estrellada, que pintó de memoria mirando por la ventana antes del amanecer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene además retirar una idea muy extendida sobre aquel año. No pintó a pesar del encierro ni gracias a la enfermedad: pintó en los intervalos, que era cuando podía, y las crisis le impedían trabajar durante semanas enteras. Él lo dice así en varias cartas, quejándose del tiempo perdido, que es la queja de cualquiera que tenga un oficio y una enfermedad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre qué le ocurría exactamente no hay acuerdo y conviene decirlo con claridad. Se han propuesto epilepsia del lóbulo temporal, trastorno bipolar, intoxicación por absenta o por plomo y varias cosas más; en 2016 el museo que lleva su nombre reunió a un grupo de psiquiatras para revisar toda la documentación y la conclusión fue que no se puede establecer un diagnóstico único con lo que se conserva.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribió sus propias crisis con la precisión con que se describe una tormenta desde una ventana: entender lo que te pasa no siempre sirve para pararlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Setenta cuadros en setenta días" },
+      {
+        b: "texto",
+        texto:
+          "En mayo de 1890 salió del asilo y se instaló en Auvers-sur-Oise, cerca de París, bajo la vigilancia amable de un médico aficionado a la pintura, Paul Gachet, al que retrató. Vivió allí setenta días exactos y pintó alrededor de setenta cuadros. Es el ritmo más alto de toda su vida y coincide con sus últimas semanas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las cartas de aquel tramo hablan de trabajo y de dinero, no de despedida. Discute con Theo la posibilidad de que su hermano deje la galería y monte algo propio, se preocupa por la salud del sobrino recién nacido que lleva su mismo nombre, y encarga más lienzo. La última que envió, el 23 de julio, es un pedido de pintura con la lista de tubos que necesita.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 27 de julio salió al campo con sus cosas y volvió con un disparo en el pecho. Murió dos días después, con Theo al lado. En el bolsillo llevaba un borrador de carta sin terminar en el que decía que su trabajo le costaba la vida y que su razón se había hundido a medias, y a la vez preguntaba por unos cuadros y por unos encargos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La versión de suicidio es la que sostiene el museo que conserva su archivo y la que aceptan la mayoría de los especialistas. Conviene saber que en 2011 dos biógrafos estadounidenses sostuvieron, con testimonios locales tardíos, que el disparo fue accidental y obra de unos muchachos del pueblo a los que él habría encubierto. El museo revisó la hipótesis, la rechazó por falta de pruebas y mantuvo su posición, y la discusión sigue en los márgenes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Su última carta enviada es un pedido de tubos de pintura: quien encarga material para el mes siguiente está contando con que habrá mes siguiente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Las cartas cuentan diez años de trabajo desde dentro, escritos por alguien que explicaba cada decisión antes y después de tomarla. Su valor no es sentimental: son el mejor documento que existe sobre cómo se construye una obra, porque el pintor iba anotando qué pretendía, con qué medios y por qué fallaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aportan, y es lo contrario de lo que se espera, es la desmitificación. El genio arrebatado que pinta en trance no está en estas páginas: hay un hombre que lee tres idiomas, que discute teoría del color, que copia a otros para aprender, que planifica series enteras y que lleva la contabilidad al céntimo. La leyenda la construyó el siglo XX; el interesado la desmiente por escrito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un límite del género que conviene tener presente. Una vida leída a través de sus cartas es la vida que alguien contó a una persona concreta, los días que escribió; falta todo lo que no le contaba a su hermano y faltan los meses en que no escribió, que suelen ser los peores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un límite del género que conviene tener presente. Una vida leída a través de sus cartas es la vida que alguien contó a una persona concreta, los días que escribió; falta todo lo que no le contaba a su hermano y faltan los meses en que no escribió, que suelen ser los peores. Un epistolario no es una biografía, es una versión con destinatario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después lo decidió una mujer que casi nunca aparece en el relato. Theo murió seis meses después que su hermano, a los treinta y tres años, y dejó viuda a Johanna van Gogh-Bonger con un bebé, cientos de cuadros invendibles y las cartas. Ella pasó el resto de su vida colocando aquellas obras en exposiciones, aprendiendo el oficio de marchante y editando la correspondencia, que publicó en 1914. Sin ella no habría nada de esto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El pintor lo hizo todo en diez años, y que hoy lo conozcas depende de que su cuñada dedicara treinta a colocar unos cuadros que nadie quería.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "van-gogh-cartas": VAN_GOGH_CARTAS,
   "arte-sin-hombres": ARTE_SIN_HOMBRES,
   imperiofobia: IMPERIOFOBIA,
   "homo-sovieticus": HOMO_SOVIETICUS,

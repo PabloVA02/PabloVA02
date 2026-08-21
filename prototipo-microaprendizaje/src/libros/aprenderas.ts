@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "van-gogh-cartas":
+    "Van Gogh decidió ser pintor a los veintisiete años y murió a los treinta y siete. En esa década escribió a su hermano más de seiscientas cartas explicando qué pintaba, por qué y con qué dinero.",
+
   "arte-sin-hombres":
     "El manual de historia del arte más vendido del mundo salió en 1950 sin mencionar a una sola mujer, y tardó cuarenta y cinco años en incluir a la primera. Hessel responde contando quinientas páginas sin ningún hombre.",
 

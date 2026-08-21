@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "van-gogh-cartas": [
+    "en qué cuatro oficios fracasó antes de coger un pincel",
+    "de qué vivió durante los diez años que duró su carrera",
+    "qué se proponía hacer exactamente con el rojo y el verde",
+    "qué tono tienen las cartas escritas desde el manicomio",
+    "quién consiguió que hoy conozcas sus cuadros",
+  ],
+
   "arte-sin-hombres": [
     "por qué no poder dibujar del natural cerraba una carrera entera",
     "qué le hicieron a Artemisia Gentileschi en el juicio de 1612",
