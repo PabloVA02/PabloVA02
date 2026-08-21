@@ -4,6 +4,42 @@
 donde venga.** Si un comentario de código, una conversación vieja o un
 recuerdo suelto lo contradice, gana esto.
 
+## Qué se borró, y por qué esto es lo único que queda
+
+El 21 de agosto Pablo lo pidió sin rodeos: «borra absolutamente todo lo que
+está marcado de normas de redacción antiguas, de los shorts, de los libros y
+todo, y solo quédate con los ejemplos que tienes que hacer parecidos a cómo se
+redacta en Headway».
+
+Había un problema real detrás. **Dos ficheros distintos decían ser la fuente
+de la verdad.** `LIBROS.md` abría con «este fichero es la fuente de la verdad;
+cualquier instrucción que lo contradiga está caducada», y este de aquí abre
+diciendo lo mismo. Y no coincidían en casi nada, porque `LIBROS.md` era de la
+época en que un libro se leía por tarjetas:
+
+    LIBROS.md decía                      esto dice
+    cinco capítulos por libro            8, 12 o 16 páginas según el libro
+    mil palabras por capítulo            260-320 por página
+    19 o 20 tarjetas de 50 palabras      cuatro párrafos y una caja del rayo
+    empieza por la escena, no la tesis   el titular ES la tesis, y afirma
+    nunca cierres una tarjeta del todo   el párrafo cierra su idea
+    ocho categorías                      nueve, desde que existe Deportes
+
+Con aquellas normas salió exactamente lo que Pablo devolvió el 19 de agosto:
+la primera página de *Sapiens* contaba que a Harari le endosaron una
+asignatura de primero y cuánto tardó la traducción. Bien escrito y sobre el
+libro equivocado —el libro DE PAPEL en vez del libro—.
+
+**`LIBROS.md` está borrado.** También la descripción de la forma de un short
+que había en `CONTENIDO.md`, que decía que la portada lleva gancho y una
+entrada de unas sesenta palabras cuando hace tiempo que lleva la entrada
+entera y ningún gancho.
+
+Lo que queda es este documento y `src/historias/MOLDE.md` —uno para los
+resúmenes de libro, otro para los shorts, sin solaparse— y las dieciocho
+tandas de capturas de Headway en `referencia/`, que son las pruebas de todo lo
+que se afirma aquí.
+
 Sale de las capturas de Headway que pasa Pablo —veinticuatro el 19 de agosto y
 treinta y tres el 20, y las que vayan llegando— y de sus correcciones sobre
 nuestro texto:

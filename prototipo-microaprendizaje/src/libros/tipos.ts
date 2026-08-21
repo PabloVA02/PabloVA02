@@ -55,8 +55,11 @@ import type { Card } from "../lesson";
       se arenga ni se vende. Sin anglicismos de manual de autoayuda y sin «el
       autor nos invita a reflexionar».
 
-   7. OCHO PÁGINAS DE UNAS 260 PALABRAS. Veinte minutos largos, que es lo que
-      dura el formato.
+   7. PÁGINAS DE UNAS 260 PALABRAS, y CUÁNTAS depende del libro: ocho en un
+      Breve, doce en un Amplio, dieciséis en un Extenso. Lo que no cambia
+      nunca es la medida de la página: 260-320 palabras es lo que ocupa UNA
+      idea explicada y demostrada. Alargar un libro es añadir argumentos, no
+      engordar los párrafos. Apartado 2 ter de REDACCION.md.
 
    DÓNDE SE ESCRIBE. En `libros/paginas.ts`, en el `PAGINAS` de su id. El
    modelo está ahí: `SAPIENS`, que es el que aprobó Pablo, y `HABITOS_ATOMICOS`.

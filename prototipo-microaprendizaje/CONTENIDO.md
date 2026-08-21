@@ -45,18 +45,18 @@ apps de aprendizaje que salen cada enero.
 
 ## 2. La forma, que no se toca
 
-Cuatro pantallas por historia. Siempre las mismas:
+**La forma de un short está en `src/historias/MOLDE.md` y no se repite aquí.**
 
-```
-portada           foto + título + gancho + entrada (~60 palabras)
-página 1          lo que pasaba antes         + un golpe
-página 2          el giro                     + un golpe
-página 3          lo que quedó                (normalmente sin golpe: cierra)
-```
+Lo que había en este apartado estaba caducado y contradecía al molde: decía
+que la portada lleva gancho y una entrada de unas sesenta palabras, cuando
+desde el cambio aprobado sobre el short de Julio César la portada enseña el
+título y la ENTRADA ENTERA —de 95 a 110 palabras—, sin categoría y sin gancho.
+Un short escrito contra este apartado salía con la portada a la mitad de peso
+que las otras tres pantallas.
 
-Entre 320 y 420 palabras en total, dos minutos. La forma fija no es una
-limitación de diseño: es lo que permite encadenar diez historias sin cansarse,
-porque el ojo aprende una vez dónde está cada cosa y ya no vuelve a buscarla.
+Dos documentos describiendo la misma pantalla es la manera más fiable de que
+uno de los dos envejezca sin que nadie se entere. Aquí se queda solo lo que
+`MOLDE.md` no cubre: de dónde salen los temas y cómo se produce.
 
 ### El título: **sujeto delante, promesa detrás**
 

@@ -265,7 +265,17 @@ las dos listas van a la par.
 
 - `DISENO.md` — la pantalla de lectura. Ojo a la lista de **lo que NO se
   hace**: es la parte que se ha colado una y otra vez.
-- `src/historias/MOLDE.md` — cómo se escribe un short.
+- `src/historias/MOLDE.md` — cómo se escribe un short. **Es el único que
+  describe la forma de un short**: la que había en `CONTENIDO.md` estaba
+  caducada y se retiró el 21 de agosto.
+
+**`LIBROS.md` ya no existe.** Era la doctrina de cuando un libro se leía por
+tarjetas —cinco capítulos, mil palabras cada uno, veinte tarjetas de cincuenta
+palabras— y abría diciendo ser «la fuente de la verdad», igual que
+`REDACCION.md`. Dos documentos con esa frase y sin coincidir en nada es la
+manera más segura de que alguien escriba veinte libros con el formato
+equivocado. Lo borró Pablo por orden expresa el 21 de agosto. Si hace falta
+consultarlo por algo, está en el historial de git.
 - `FOTOS.md` — de dónde salen las imágenes y qué se puede afirmar de ellas.
 
 ## COPIAS EN VARIOS SITIOS, NO SOLO GITHUB
