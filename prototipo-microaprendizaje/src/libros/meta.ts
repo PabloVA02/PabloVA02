@@ -1112,22 +1112,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "dilema-omnivoro",
-    titulo: "El dilema del omnívoro",
-    autor: "Michael Pollan",
-    ano: 2006,
-    gancho: "Siguió cuatro comidas hasta su origen. Una de ellas venía casi entera de una sola planta: el maíz.",
-    porQue: "Es el libro que cambió la conversación pública sobre comida, y conviene saber qué demostró y qué solo insinuó.",
-    minutos: 26,
-    capitulos: [
-      { titulo: "El pasillo del supermercado", minutos: 5.2 },
-      { titulo: "El mar de maíz de Iowa", minutos: 5.2 },
-      { titulo: "La etiqueta que dice ecológico", minutos: 5.2 },
-      { titulo: "La hierba de Polyface", minutos: 5.2 },
-      { titulo: "La cena que se cazó él mismo", minutos: 5.1 },
-    ],
-  },
-  {
     id: "milagro-manana",
     titulo: "Mañanas milagrosas",
     autor: "Hal Elrod",

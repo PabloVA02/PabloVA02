@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "dilema-omnivoro": [
+    "por qué casi todo lo que se come es la misma planta",
+    "qué decisión política de los setenta explica todo esto",
+    "qué le pasa a un rumiante que come grano",
+    "qué garantiza y qué no una etiqueta ecológica",
+    "cómo funciona una granja que cierra sus propios ciclos",
+  ],
+
   "zonas-azules": [
     "cómo se mueve la gente que no pisa un gimnasio",
     "qué significa comer hasta el ochenta por ciento",

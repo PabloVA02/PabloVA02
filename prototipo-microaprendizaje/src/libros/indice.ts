@@ -50,7 +50,6 @@ const CARGADORES: Record<string, Cargador> = {
 
   /* Salud */
   "nacidos-correr": () => import("./salud").then((m) => m.NACIDOS_CORRER),
-  "dilema-omnivoro": () => import("./salud").then((m) => m.DILEMA_OMNIVORO),
 
   /* Literatura — clásicos */
 

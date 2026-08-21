@@ -33943,7 +33943,272 @@ const ZONAS_AZULES: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El dilema del omnívoro, en ocho páginas.
+
+   Breve.
+
+   Ensayo periodístico: titular que afirma, tercera persona salvo en las
+   cajas del rayo.
+
+   La conclusión dice lo que el libro no dice: describe Estados Unidos, su
+   solución no es escalable y el movimiento alimentario que inspiró ha
+   acabado siendo en buena parte un marcador de clase.
+   -------------------------------------------------------------------------- */
+
+const DILEMA_OMNIVORO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El dilema consiste en que podemos comer casi cualquier cosa" },
+      {
+        b: "texto",
+        texto:
+          "El título del libro viene de un concepto que acuñó el psicólogo Paul Rozin en los años setenta. Un koala no tiene ningún problema para decidir qué cena: come eucalipto, siempre, sin dudar. Un animal omnívoro, en cambio, puede comer casi cualquier cosa, y por eso tiene que elegir, y elegir mal puede matarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De esa capacidad salen dos cosas a la vez: una flexibilidad enorme, que es la que ha permitido a la especie humana vivir en cualquier clima, y una ansiedad de fondo sobre qué es comida y qué no. Durante casi toda la historia, esa ansiedad la resolvía la cultura: cada pueblo tenía sus platos, sus reglas y sus prohibiciones, y nadie se lo preguntaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Michael Pollan sostiene que en las sociedades ricas actuales esa cultura se ha roto, y por eso la pregunta de qué cenar se ha convertido en un asunto de dietas, de modas y de titulares contradictorios. Su método para responderla es periodístico: elige cuatro comidas de cuatro tipos distintos y sigue cada ingrediente hacia atrás, hasta la tierra de la que salió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren ese recorrido: qué hay realmente en una comida industrial, qué decisión política explica lo que se produce hoy, qué le pasa a una vaca que come maíz, qué garantiza y qué no la etiqueta ecológica, cómo funciona una granja que hace lo contrario y qué averiguó al fabricarse una comida entera él mismo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El koala no tiene que decidir qué cena y nosotros sí, y esa libertad es la que produce toda la ansiedad alrededor de la comida.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Si te analizan un pelo, tu carbono viene del maíz" },
+      {
+        b: "texto",
+        texto:
+          "La primera parte del libro contiene el dato más asombroso y se apoya en un método de laboratorio. Las plantas fijan el carbono de la atmósfera de dos maneras distintas según su tipo, y esas dos rutas dejan proporciones diferentes de isótopos de carbono en los tejidos de quien las come. El maíz pertenece a una de esas categorías y la mayoría de las plantas de clima templado a la otra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso permite analizar un mechón de pelo y averiguar de dónde procede el carbono de una persona. Al hacerlo con estadounidenses, la firma que aparece es abrumadoramente la del maíz, mucho más que en europeos o en mexicanos. Un investigador citado en el libro lo resume diciendo que son, químicamente hablando, gente de maíz.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación es que casi todo lo que se come pasa por esa planta aunque no lo parezca. El refresco es jarabe de maíz. La carne es maíz convertido en músculo dentro de un animal. Las patatas fritas se fríen en aceite de maíz. Y en cualquier lista de ingredientes de un producto envasado hay una decena de sustancias con nombres técnicos —almidones modificados, dextrosa, maltodextrina, ácido cítrico, lecitina— que salen de ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pollan mandó analizar un menú completo de comida rápida a un laboratorio. El refresco resultó ser maíz en su totalidad; la carne de la hamburguesa, algo más de la mitad; las patatas fritas, casi una cuarta parte. Un menú que parece variado es, en el fondo, la misma planta presentada de seis maneras.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se puede analizar un pelo y saber de qué planta viene el carbono de una persona, y en Estados Unidos la respuesta es el maíz.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una decisión política de los años setenta explica lo que hay en tu plato",
+      },
+      {
+        b: "texto",
+        texto:
+          "La pregunta que sigue es por qué hay tantísimo maíz, y la respuesta no es agronómica sino administrativa. A principios de los setenta, después de una subida fuerte de los precios de los alimentos, el secretario de Agricultura estadounidense cambió por completo la política del sector.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El sistema anterior limitaba la superficie cultivada y sostenía los precios mediante préstamos y reservas, de modo que cuando había exceso el grano se almacenaba y no se hundía el mercado. El nuevo eliminó esos frenos y pasó a pagar directamente a los agricultores la diferencia entre el precio de mercado y un objetivo. Su consigna pública fue que se plantara de valla a valla y que quien no se hiciera grande, se fuera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto fue el previsible y llevaba décadas funcionando: sobreproducción permanente. Con los precios por debajo del coste, la respuesta racional de cada agricultor individual es producir todavía más para compensar, con lo que el precio baja otra vez. El resultado es una montaña de grano barato que hay que colocar en alguna parte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está el origen de casi todo lo demás. Aquel excedente encontró tres salidas: convertirlo en jarabe para endulzar bebidas, meterlo en el estómago de animales que no lo comen de forma natural y exportarlo. La abundancia de comida barata y ultraprocesada de las últimas décadas no empezó en un laboratorio de alimentación: empezó en una decisión de política agraria.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La comida barata y ultraprocesada no salió de un laboratorio: salió de una montaña de grano subvencionado que había que colocar en algún sitio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un rumiante no está hecho para comer maíz" },
+      {
+        b: "texto",
+        texto:
+          "Para explicar la segunda salida de ese excedente, Pollan hace algo que ningún periodista había hecho: compra un novillo en un rancho, le pone número y sigue su vida hasta el matadero, visitando el cebadero donde pasa la parte final.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que encuentra allí tiene una lógica económica impecable y una lógica biológica imposible. Una vaca es un rumiante: su aparato digestivo está diseñado para fermentar hierba, un material que ningún otro animal aprovecha. En un cebadero come maíz, que engorda mucho más deprisa y sale más barato, y su rumen se acidifica hasta producir úlceras, inflamación del hígado y timpanismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia es que ese animal necesita antibióticos de manera continua para poder digerir lo que come, y en aquel momento se le administraban además implantes hormonales para acelerar el engorde. El sistema funciona porque el animal se sacrifica joven: no le da tiempo a enfermar del todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro cálculo que Pollan hace es energético y es el que resume el libro. Producir una caloría de carne de cebadero exige del orden de decenas de calorías de combustible fósil, contando el fertilizante nitrogenado que se fabrica con gas natural, el gasóleo de la maquinaria, el transporte del grano y el del animal. El sistema alimentario en conjunto consume varias calorías de energía fósil por cada caloría que llega a un plato.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un animal que necesita antibióticos continuos para poder digerir lo que le dan de comer está comiendo lo que no debe.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La etiqueta ecológica no garantiza casi nada de lo que la gente cree",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda comida del libro es la de un supermercado ecológico, y es la parte que más incomodó a los lectores que se sentían del lado correcto. Pollan sigue esos productos hasta su origen y encuentra algo distinto de lo que sugiere el envase.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que la certificación regula, en el sistema estadounidense que él examina, es un listado de sustancias prohibidas: pesticidas de síntesis, fertilizantes químicos y algunos aditivos. Lo que no regula es el tamaño de la explotación, la distancia que recorre el producto, el consumo de energía, las condiciones laborales ni, más allá de unos mínimos, el bienestar de los animales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus ejemplos son concretos. Monocultivos ecológicos de miles de hectáreas que dependen de la misma maquinaria y del mismo transporte que los convencionales. Gallinas de corral con acceso teórico a un patio pequeño que la mayoría no llega a usar nunca, porque se abre la puerta al final del ciclo y las aves ya no salen. Ensalada ecológica lavada en cloro, envasada en atmósfera modificada y transportada a miles de kilómetros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A esa diferencia entre la etiqueta y la realidad la llama el supermercado pastoral: envases que cuentan historias de granjas familiares, prados y animales felices, con un lenguaje que ninguna norma obliga a cumplir. Conviene añadir que la normativa europea es distinta y bastante más exigente en varios de esos puntos, así que el capítulo describe un sistema concreto y no todos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una certificación dice qué sustancias no se han usado, y no dice nada del tamaño, del transporte ni de cómo vivieron los animales.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un granjero que dice que él no cría animales sino hierba" },
+      {
+        b: "texto",
+        texto:
+          "La tercera comida viene de una granja de Virginia cuyo dueño, Joel Salatin, se define de una manera que desconcierta a las visitas: dice que él no es ganadero ni avicultor, sino cultivador de hierba, y que los animales son la herramienta con la que cultiva.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su sistema es una coreografía de rotaciones. Las vacas pastan una parcela pequeña durante un solo día y se mueven a la siguiente, de modo que comen la hierba en su punto y no la agotan. Tres días después, cuando las larvas de mosca del estiércol están en su fase adecuada, entra en esa misma parcela un gallinero móvil con gallinas que se comen esas larvas, esparcen la boñiga y añaden su propio abono.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado es que no hay que comprar fertilizante, no hace falta insecticida contra las moscas ni antibióticos para los animales, la hierba crece más y el suelo gana materia orgánica año tras año. Todo lo que en un sistema industrial es un residuo que hay que gestionar, aquí es el alimento de la siguiente fase.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Salatin se niega además a vender fuera de su comarca, incluso cuando se lo piden restaurantes de lejos, con el argumento de que una comida que viaja mil kilómetros pierde el sentido del modelo entero. Pollan presenta esa granja como demostración de que se puede producir de otra manera, y no oculta el precio: aquella carne cuesta bastante más que la del supermercado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En esa granja no hay residuos: lo que sobra de cada fase es exactamente lo que come la siguiente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cazó un jabalí para saber cuánto cuesta de verdad una comida" },
+      {
+        b: "texto",
+        texto:
+          "La cuarta comida es la más extraña del libro y la que menos consejos prácticos ofrece. Pollan decide preparar una cena en la que él haya obtenido personalmente cada ingrediente: caza un jabalí en las colinas de California, recoge setas silvestres con un micólogo, busca cerezas, hace pan con levadura capturada del aire de su jardín y recolecta sal del mar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuenta el proceso con todas sus incomodidades. Su primer intento de caza es un fracaso; el segundo, un éxito que le produce a la vez euforia y náusea, y describe las dos reacciones sin resolverlas. Sobre las setas se detiene en el detalle esencial: son el único alimento donde equivocarse mata, y aprender a distinguirlas exige años y un maestro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su conclusión no es que haya que cazar. Es que aquella cena, que le costó semanas de trabajo, fue la única de las cuatro cuyo coste real conocía por completo: qué murió, qué creció, cuánto esfuerzo llevó y de dónde venía cada cosa. Las otras tres las conocía por documentación; esta la conocía por haberla pagado entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la idea que sostiene el libro y que va más allá de la comida. Un sistema eficiente esconde su propio coste: hace que un filete y una lechuga aparezcan en un lineal sin ninguna información sobre lo que ha hecho falta para ponerlos allí, y esa opacidad no es un efecto secundario, es una condición para que el sistema funcione.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un sistema eficiente esconde su propio coste, y esa opacidad no es un fallo: es lo que hace posible que funcione.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El dilema del omnívoro sigue cuatro comidas hasta su origen y sostiene que la mayor parte de lo que se come en un país rico procede de una sola planta subvencionada, que esa abundancia empezó en una decisión política y no en un avance técnico, que la etiqueta ecológica industrial promete más de lo que garantiza y que existen sistemas de producción que funcionan al revés, cerrando los ciclos en lugar de comprar insumos y gestionar residuos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un hábito: preguntar de dónde viene cada cosa y qué ha hecho falta para que llegue. Su recomendación práctica cabe en siete palabras que él mismo formuló después: come comida, no demasiada, sobre todo plantas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Come comida, no demasiada, sobre todo plantas: el resto del libro sirve para entender por qué eso se ha vuelto difícil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Describe un país concreto y no todos: el sistema del maíz subvencionado, los cebaderos y la certificación ecológica que analiza son estadounidenses, y la normativa europea es distinta y más exigente en varios puntos, así que trasladar sus conclusiones tal cual es un error. Y es injusto con la agricultura industrial en un punto que apenas menciona: los rendimientos que hizo posible evitaron hambrunas masivas y siguen alimentando a la mayor parte del planeta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema mayor es la solución. El modelo de granja que propone como alternativa es admirable y no es escalable: alimentar a ocho mil millones de personas con pastoreo rotativo exigiría una superficie que no existe, y Pollan no resuelve esa cuenta. Y su libro ha alimentado un movimiento alimentario que en la práctica funciona en buena medida como marcador de clase: comprar directamente a productores pequeños cuesta dinero y sobre todo cuesta tiempo, y quien trabaja dos turnos no lo tiene. El diagnóstico del libro es excelente y su receta está escrita para quien puede permitírsela.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "dilema-omnivoro": DILEMA_OMNIVORO,
   "zonas-azules": ZONAS_AZULES,
   outlive: OUTLIVE,
   "segundo-sexo": SEGUNDO_SEXO,
