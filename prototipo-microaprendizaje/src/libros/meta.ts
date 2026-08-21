@@ -1224,22 +1224,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "deja-de-ser-tu",
-    titulo: "Deja de ser tú",
-    autor: "Joe Dispenza",
-    ano: 2012,
-    gancho: "Un quiropráctico se rompió seis vértebras en 1986, rechazó la operación y se pasó dos meses y medio boca abajo reconstruyendo su columna con la imaginación. Volvió a andar, y de ahí sale todo lo demás.",
-    porQue: "Porque llena estadios en español y merece un examen serio en vez de una burla. Debajo hay una hora de meditación diaria que es defendible, una neurociencia real estirada hasta romperse y una física cuántica que dice justo lo contrario de lo que él cuenta.",
-    minutos: 25.1,
-    capitulos: [
-      { titulo: "Una bicicleta en Palm Springs", minutos: 5.1 },
-      { titulo: "Las neuronas que se disparan juntas", minutos: 5 },
-      { titulo: "El campo cuántico", minutos: 5.1 },
-      { titulo: "La culpa de estar enfermo", minutos: 4.8 },
-      { titulo: "Una hora sentado antes de que amanezca", minutos: 5.1 },
-    ],
-  },
-  {
     id: "poder-metabolismo",
     titulo: "El poder del metabolismo",
     autor: "Frank Suárez",

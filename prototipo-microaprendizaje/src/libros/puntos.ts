@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "deja-de-ser-tu": [
+    "de dónde viene la historia personal que lo sostiene todo",
+    "qué parte de su argumento está bien demostrada",
+    "qué se sabe del ensayo mental y para qué sirve",
+    "qué dice de verdad la física cuántica sobre esto",
+    "qué le hace a un enfermo la idea de que depende de él",
+  ],
+
   "cerebro-de-pan": [
     "qué cuatro afirmaciones encadenadas sostiene exactamente",
     "a quién daña de verdad el gluten y en qué proporción",

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "deja-de-ser-tu":
+    "Su autor sostiene que la personalidad determina lo que le ocurre a una persona y propone una meditación diaria para sustituir los patrones repetidos. Mezcla neurociencia establecida, física cuántica mal usada y promesas sobre la salud.",
+
   "cerebro-de-pan":
     "Un neurólogo sostiene que el gluten y los hidratos de carbono son la causa principal de la demencia y de varios trastornos neurológicos. El libro mezcla hechos establecidos, hipótesis abiertas y afirmaciones sin respaldo con el mismo tono.",
 

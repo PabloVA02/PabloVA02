@@ -34728,7 +34728,264 @@ const CEREBRO_DE_PAN: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Deja de ser tú, en ocho páginas.
+
+   Breve.
+
+   Tercera persona en la prosa. Aquí un «tú puedes» sería exactamente lo
+   que el libro hace mal.
+
+   Las páginas 6 y 7 y la conclusión separan tres cosas que el libro mezcla:
+   lo que está demostrado, lo que es física mal usada y lo que puede hacer
+   daño a un enfermo. Sin esa separación, esto sería propaganda.
+   -------------------------------------------------------------------------- */
+
+const DEJA_DE_SER_TU: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un quiropráctico que dice que puedes elegir tu futuro" },
+      {
+        b: "texto",
+        texto:
+          "Joe Dispenza es quiropráctico de formación y se dio a conocer en 2004 al aparecer como experto en un documental que mezclaba física cuántica y espiritualidad y que fue duramente criticado por físicos profesionales por el uso que hacía de su disciplina. Publicó este libro en 2012 y desde entonces ha construido alrededor de él una organización de seminarios y retiros que se cuentan por decenas de miles de asistentes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis se resume en una frase que repite: que tu personalidad crea tu realidad personal, y que por tanto cambiar quién eres es la manera de cambiar lo que te ocurre. El método que propone es una práctica de meditación estructurada, con instrucciones detalladas, destinada a desmontar los patrones mentales y emocionales que uno repite y a instalar otros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Este libro mezcla tres cosas muy distintas y las presenta juntas: hallazgos bien establecidos de neurociencia y de psicología, una interpretación de la física cuántica que los físicos rechazan por completo, y afirmaciones sobre curación de enfermedades que no están respaldadas por ningún ensayo controlado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas separan esas tres capas: de dónde viene su historia personal, qué parte de lo que sostiene está bien demostrada, qué práctica concreta tiene apoyo real, qué dice y qué no dice la física cuántica sobre todo esto y por qué la última parte del libro puede hacer daño a determinados lectores.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro puede contener a la vez neurociencia sólida, física mal entendida y una promesa peligrosa, y contarlo todo con el mismo tono.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La historia de la columna rota" },
+      {
+        b: "texto",
+        texto:
+          "Todo el trabajo posterior de Dispenza se apoya en un episodio personal que cuenta en sus libros y en sus conferencias. En 1986, con veintitrés años, participaba en un triatlón cuando un vehículo lo atropelló mientras iba en bicicleta. Se fracturó seis vértebras dorsales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Según su relato, los cirujanos le recomendaron una intervención de fusión vertebral con implante metálico y le advirtieron de que sin ella podía quedar paralítico, y de que con ella probablemente arrastraría dolor crónico de por vida. Él se negó a operarse, se hizo trasladar a casa de unos amigos y pasó doce semanas tumbado boca abajo dedicando varias horas diarias a reconstruir mentalmente su columna, vértebra por vértebra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuenta que a las nueve o diez semanas se levantó, que a las doce estaba caminando y que después volvió a entrenar y a trabajar sin secuelas. Esa historia es el fundamento experiencial de todo lo que enseña: si él pudo hacer eso con su cuerpo, la mente tiene una capacidad sobre la materia que la medicina no reconoce.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir lo que se sabe y lo que no. No existe documentación clínica pública de ese caso: no hay historia, ni imágenes, ni informes accesibles, y todo lo que se conoce procede de su propio relato. Y conviene decir también otra cosa: muchas fracturas vertebrales por compresión consolidan con tratamiento conservador, reposo y tiempo, y ese es el manejo habitual en una parte considerable de los casos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un caso único, contado por su protagonista y sin ninguna documentación clínica, no es una demostración de nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El cerebro sí cambia con lo que se repite" },
+      {
+        b: "texto",
+        texto:
+          "La parte del libro que tiene fundamento sólido es la que se apoya en la neuroplasticidad, y ahí Dispenza divulga correctamente algo que la neurociencia estableció en las últimas décadas del siglo XX contra la creencia anterior de que el cerebro adulto era fijo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se sabe es que las conexiones entre neuronas se refuerzan con el uso y se debilitan sin él, y que esa remodelación continúa toda la vida. Las pruebas son numerosas y algunas muy visuales: los estudios sobre taxistas de Londres mostraron cambios medibles en el hipocampo asociados a años de memorizar el callejero, y en músicos se observan diferencias en las áreas motoras correspondientes a los dedos que más usan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la afirmación central que Dispenza repite y que es correcta: los patrones mentales que se repiten a diario se consolidan físicamente, y un estado emocional sostenido durante años se convierte en la manera habitual de funcionar de una persona, en su forma de reaccionar por defecto. Pensar de una manera muchas veces no deja las cosas como estaban.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su consecuencia práctica es también razonable. Si esos patrones se instalan por repetición, se pueden modificar por repetición, con la diferencia de que instalar el nuevo exige atención deliberada mientras el viejo funciona solo. Eso es, sin más adornos, lo que hace cualquier terapia cognitiva y cualquier entrenamiento de un hábito.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El patrón viejo funciona solo y el nuevo exige atención deliberada, y esa asimetría es todo el problema de cambiar algo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ensayar algo mentalmente sí produce cambios medibles" },
+      {
+        b: "texto",
+        texto:
+          "La segunda parte con apoyo real es la que se refiere al ensayo mental, y ahí el libro cita un tipo de experimento que existe y está bien replicado. Cuando alguien imagina con detalle un movimiento sin ejecutarlo, se activan buena parte de las mismas áreas cerebrales que se activarían al hacerlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los estudios más citados en esta línea compararon grupos que practicaban físicamente una secuencia con grupos que solo la imaginaban, y encontraron mejoras de rendimiento y cambios en la corteza motora también en los segundos, aunque menores. Es la razón por la que la práctica imaginada forma parte del entrenamiento de deportistas de élite y de la rehabilitación tras un ictus.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El método que Dispenza propone se apoya en eso y añade la parte emocional: no basta con visualizar una situación, hay que producir el estado emocional que correspondería a haberla vivido ya, sostenerlo durante la meditación y hacerlo a diario. Y añade una instrucción práctica que también tiene sentido: hacerlo a primera hora de la mañana, cuando el estado mental es más receptivo y antes de que el día imponga sus rutinas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre la meditación en sí, la evidencia disponible es moderada y conviene enunciarla con precisión. Los mejores análisis de conjunto encuentran efectos de tamaño moderado sobre ansiedad, depresión y dolor, comparables a los de otros tratamientos activos, y no encuentran apoyo para la mayoría del resto de beneficios que suelen atribuírsele. Es una herramienta útil y con un alcance acotado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Imaginar un movimiento con detalle activa buena parte de las áreas que se activarían al hacerlo, y eso mejora el rendimiento de verdad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que llama adicción a las propias emociones" },
+      {
+        b: "texto",
+        texto:
+          "La idea más original del libro, y la que más lectores reconocen, es la de que una persona puede volverse dependiente de sus propios estados emocionales, incluso de los desagradables, y que eso explica por qué la gente reproduce una y otra vez las mismas situaciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación es que cada emoción produce una firma química concreta en el organismo, que el cuerpo se acostumbra a esos niveles y que cuando faltan aparece una sensación de vacío que empuja a recuperarlos. De ahí que alguien acostumbrado a vivir en tensión encuentre insoportable la calma, y que sin darse cuenta busque un motivo de conflicto para volver a su estado habitual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo bioquímico tal como él lo describe está muy simplificado y no es lo que dice la neurociencia actual; el fenómeno que señala, en cambio, es reconocible y la psicología clínica lo describe por otras vías, con otros nombres y sin química: la tendencia a repetir patrones relacionales conocidos aunque sean dañinos, precisamente porque son conocidos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte aprovechable es la observación práctica. Si uno se descubre generando el mismo tipo de conflicto en trabajos distintos, con parejas distintas y en ciudades distintas, la variable común no está fuera. Y si la calma resulta incómoda y produce inquietud en lugar de descanso, eso es información sobre a qué está uno acostumbrado y no sobre lo que está pasando.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si la calma te resulta incómoda, eso no dice nada de la calma: dice a qué estado te has acostumbrado a volver.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La física cuántica no dice lo que el libro dice que dice" },
+      {
+        b: "texto",
+        texto:
+          "El armazón teórico del libro, y lo que le da su aire de descubrimiento científico, es una apelación continua a la mecánica cuántica. Dispenza sostiene que el universo es un campo de posibilidades, que la observación consciente hace que una de ellas se materialice y que por tanto la mente puede seleccionar entre futuros posibles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese argumento se apoya en un malentendido concreto y bien identificado. En física cuántica, la palabra observación no significa que alguien mire con atención: significa interacción física con un aparato de medida, que puede ser un detector automático en un laboratorio vacío. Un fotómetro registrando datos de madrugada produce exactamente el mismo efecto que un premio Nobel mirando fijamente. La conciencia no interviene en ninguna ecuación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Además, esos fenómenos ocurren en escalas de partículas subatómicas y desaparecen en cuanto un sistema es lo bastante grande y está en contacto con su entorno, que es el caso de cualquier persona, cualquier tumor y cualquier acontecimiento de una biografía. No existe ningún resultado experimental que respalde que un pensamiento influya sobre la realidad a esa escala.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene saber que este error no es exclusivo de este libro: es la coartada más usada por la autoayuda contemporánea desde hace veinte años, precisamente porque la física cuántica es real, es rarísima y casi nadie la entiende, lo cual la convierte en un lugar cómodo donde colocar cualquier afirmación. Los propios físicos llevan décadas desmintiéndolo sin ningún éxito.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En física cuántica, observar significa medir con un aparato: un detector automático en una sala vacía produce el mismo efecto que una persona mirando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que ocurre cuando se sugiere que la enfermedad depende de ti" },
+      {
+        b: "texto",
+        texto:
+          "La parte más delicada del libro, y la que ha crecido en el trabajo posterior de su autor, es la que sugiere que estados mentales sostenidos pueden revertir enfermedades graves, incluidas enfermedades autoinmunes y cáncer, y que en sus retiros se producen esas remisiones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí está establecido y conviene decir es más modesto. El estrés crónico tiene efectos fisiológicos reales sobre la inflamación, el sueño, la tensión arterial y el sistema inmunitario, y reducirlo es beneficioso. Y el estado de ánimo influye en algo muy importante para cualquier enfermo: la adherencia al tratamiento, el descanso, la alimentación y el ejercicio. Eso no es lo mismo que decir que la mente cura un tumor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los materiales que se presentan como prueba —testimonios de asistentes, mediciones tomadas durante retiros, publicaciones en revistas de escaso rigor— tienen los problemas de siempre: no hay grupo de control, los participantes se han seleccionado a sí mismos y han pagado cantidades altas por estar allí, y las remisiones espontáneas existen y son raras, de modo que en una población suficientemente grande aparecerán algunas sin que nada las haya causado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una consecuencia que va más allá del rigor. Si la enfermedad depende del estado mental, entonces quien no se cura no lo ha hecho bien, y eso le añade culpa a alguien que ya está enfermo. Es un daño documentado desde hace décadas: dos ensayos muy conocidos, uno de Susan Sontag en 1978 y otro de Barbara Ehrenreich en 2009, están dedicados exactamente a describir lo que le hace a un enfermo la idea de que su actitud es responsable de su enfermedad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si la enfermedad dependiera del estado mental, quien no se cura no habría puesto de su parte, y eso le añade culpa a alguien que ya está enfermo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Deja de ser tú sostiene que la personalidad determina lo que le ocurre a una persona, que los patrones mentales y emocionales repetidos se consolidan físicamente en el cerebro y que una práctica diaria de meditación con ensayo mental puede sustituirlos por otros. Alrededor de eso construye una explicación basada en la física cuántica y una promesa sobre la salud.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De todo ese conjunto se salva una práctica concreta y no requiere creerse nada del resto: una rutina diaria de meditación, con observación de los propios patrones de reacción y ensayo mental de la conducta que uno quiere adoptar, hecha a primera hora y sostenida durante meses. Eso tiene apoyo empírico moderado, no cuesta dinero y funciona igual sin ninguna teoría detrás.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La práctica que propone funciona igual de bien sin creerse la explicación que el libro da de por qué funciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Su armazón teórico se apoya en un malentendido de la física cuántica que los físicos llevan décadas desmintiendo: la palabra observación significa allí medición con un aparato, no atención consciente, y esos fenómenos desaparecen a escala de cualquier objeto cotidiano. La historia personal que sostiene todo el edificio no tiene ninguna documentación clínica pública. Y el mecanismo bioquímico con el que explica la dependencia emocional está muy simplificado y no se corresponde con lo que dice la neurociencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un límite que conviene marcar con claridad. Reducir el estrés, dormir bien y sostener el ánimo ayudan a cualquier enfermo, y no sustituyen a ningún tratamiento. Un libro que sugiere que una enfermedad grave puede revertirse con estados mentales no solo promete lo que no puede cumplir: introduce en la vida de alguien enfermo la idea de que su empeoramiento es culpa suya. Ese es el punto en que este libro deja de ser una lectura discutible sobre hábitos mentales.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "deja-de-ser-tu": DEJA_DE_SER_TU,
   "cerebro-de-pan": CEREBRO_DE_PAN,
   "come-comida-real": COME_COMIDA_REAL,
   "dilema-omnivoro": DILEMA_OMNIVORO,

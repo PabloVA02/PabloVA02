@@ -97,7 +97,6 @@ const CARGADORES: Record<string, Cargador> = {
   anticancer: () => import("./salud").then((m) => m.ANTICANCER),
   "milagro-metabolico": () => import("./salud").then((m) => m.MILAGRO_METABOLICO),
   "poder-metabolismo": () => import("./salud").then((m) => m.PODER_METABOLISMO),
-  "deja-de-ser-tu": () => import("./salud").then((m) => m.DEJA_DE_SER_TU),
   "lenguajes-amor": () => import("./psicologia").then((m) => m.LENGUAJES_AMOR),
   "cosas-buenas": () => import("./psicologia").then((m) => m.COSAS_BUENAS),
   "intro-psicoanalisis": () => import("./psicologia").then((m) => m.INTRO_PSICOANALISIS),
