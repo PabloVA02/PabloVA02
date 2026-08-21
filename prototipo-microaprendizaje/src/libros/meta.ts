@@ -264,22 +264,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "universo-mano",
-    titulo: "El universo en tu mano",
-    autor: "Christophe Galfard",
-    ano: 2015,
-    gancho: "Un doctorando de Stephen Hawking se propuso contar toda la física del siglo veinte sin una sola ecuación, y llevándote a ti de excursión hasta el borde de lo que se sabe.",
-    porQue: "Porque es el mejor viaje guiado por el universo que se ha escrito en este siglo, y porque en los tres últimos capítulos te lleva a sitios donde no hay ni una sola prueba experimental sin avisarte del todo.",
-    minutos: 21.7,
-    capitulos: [
-      { titulo: "Tumbado en una playa", minutos: 4.1 },
-      { titulo: "La fábrica de los átomos", minutos: 4.3 },
-      { titulo: "El ruido que nadie conseguía quitar", minutos: 4.5 },
-      { titulo: "Cuando nadie mira", minutos: 4.6 },
-      { titulo: "El muro de Planck", minutos: 4.2 },
-    ],
-  },
-  {
     id: "arte-sin-hombres",
     titulo: "Historia del arte sin hombres",
     autor: "Katy Hessel",

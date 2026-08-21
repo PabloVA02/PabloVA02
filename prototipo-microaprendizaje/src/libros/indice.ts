@@ -62,7 +62,6 @@ const CARGADORES: Record<string, Cargador> = {
   "renglones-torcidos": () => import("./literatura").then((m) => m.RENGLONES_TORCIDOS),
   "musica-primos": () => import("./ciencia").then((m) => m.MUSICA_PRIMOS),
   tatuador: () => import("./historia").then((m) => m.TATUADOR),
-  "universo-mano": () => import("./ciencia").then((m) => m.UNIVERSO_MANO),
   "cuentos-poe": () => import("./literatura").then((m) => m.CUENTOS_POE),
   mujercitas: () => import("./literatura").then((m) => m.MUJERCITAS),
   "elegancia-erizo": () => import("./literatura").then((m) => m.ELEGANCIA_ERIZO),

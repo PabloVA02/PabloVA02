@@ -44044,7 +44044,288 @@ const UNIVERSO_CASCARA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El universo en tu mano, en ocho páginas.
+
+   Breve. Ciencia: titular de afirmación entera y tercera persona.
+
+   OJO CON UNA COSA. El libro está escrito entero en segunda persona —el
+   lector es el personaje que viaja—, y eso NO se imita: se cuenta. Imitarlo
+   rompería el apartado 4.7 de REDACCION y además convertiría el resumen en
+   otro libro de Galfard mal hecho. Se describe el recurso en la entrada y el
+   resumen sigue en tercera.
+
+   Se emparejó a propósito con «El universo en una cáscara de nuez»: los dos
+   recorren la misma física y se separan justo en lo que hacen con lo que no
+   se sabe. Hawking apuesta; Galfard señala el borde del mapa.
+   -------------------------------------------------------------------------- */
+
+const UNIVERSO_MANO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La física del siglo XX se puede contar entera sin escribir una sola ecuación",
+      },
+      {
+        b: "texto",
+        texto:
+          "La luz que calienta una cara en la playa tardó ocho minutos y veinte segundos en llegar desde la superficie del Sol. Pero la energía que lleva se fabricó en el núcleo, y desde allí hasta la superficie tardó decenas de miles de años, rebotando de átomo en átomo dentro de un plasma tan denso que un fotón no avanza en línea recta ni un centímetro seguido. Casi todo el viaje ocurrió antes de que existiera la agricultura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Christophe Galfard publicó este libro en 2015. Es doctor en física teórica por Cambridge, donde trabajó con Stephen Hawking sobre agujeros negros, y escribió el libro con una regla declarada en la primera página: no aparece ni una ecuación. Ni una. Es una limitación autoimpuesta y es también la tesis del libro, porque lo que sostiene es que la barrera entre la física moderna y cualquiera no es matemática, es de relato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso está escrito en segunda persona. El lector no lee sobre el Sol: el libro lo pone en la superficie del Sol, luego fuera del sistema solar, luego dentro de un agujero negro, luego en el instante siguiente al principio de todo. No es un adorno de estilo, es el método: cuando no hay ecuación que enseñar, el sitio donde el lector está puesto hace el trabajo que haría la ecuación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren el viaje sin la segunda persona: por qué mirar el cielo es mirar el pasado, qué significa que el espacio se estire, de qué está hecho el noventa y cinco por ciento del universo que nadie ha identificado, qué hay en el borde de un agujero negro, qué le pasa a un objeto muy pequeño cuando nadie lo mira, y dónde exactamente se acaba lo que la física sabe hoy.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que separa a la mayoría de la física moderna no son las matemáticas: es que nadie se la ha contado como un sitio al que se puede ir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Mirar el cielo no es mirar lejos: es mirar hacia atrás" },
+      {
+        b: "texto",
+        texto:
+          "La luz va a trescientos mil kilómetros por segundo, que es rapidísimo para una habitación y lentísimo para el universo. La Luna se ve como era hace un segundo y tres décimas. El Sol, como era hace ocho minutos. Neptuno, hace cuatro horas. La estrella más cercana, Próxima Centauri, hace cuatro años y tres meses. La galaxia de Andrómeda, que se ve a simple vista desde un sitio oscuro, como era hace dos millones y medio de años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el hecho más útil de toda la astronomía: no existe ninguna manera de ver el universo tal como es ahora. Un telescopio no es un aparato para ver lejos, es un aparato para ver antiguo. Cuanto más potente, más atrás llega. Los objetos más distantes que se han fotografiado se ven como eran cuando el universo tenía unos pocos cientos de millones de años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un límite que no es técnico. Como el universo tiene una edad —unos trece mil ochocientos millones de años—, hay luz que sencillamente no ha tenido tiempo de llegar. Todo lo que está más allá de esa distancia es invisible hoy, y no por falta de instrumentos. A eso se le llama el universo observable, y es una esfera cuyo centro es cualquiera que mire.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tamaño de esa esfera es la primera cosa rara del libro. Si el universo tiene trece mil ochocientos millones de años, parecería que su borde tiene que estar a trece mil ochocientos millones de años luz. Está a unos cuarenta y seis mil millones. La razón es que el espacio se estiró mientras la luz venía de camino, así que el sitio que emitió esa luz está hoy mucho más lejos de donde estaba cuando la emitió.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El borde del universo observable no lo pone el instrumento, lo pone la edad: es la distancia que ha podido recorrer la luz desde que hay luz.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las galaxias no se alejan por el espacio: es el espacio el que se estira entre ellas",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1929 Edwin Hubble publicó que cuanto más lejos está una galaxia, más deprisa se aleja, y que las dos cosas son proporcionales. La conclusión obvia sería que hubo una explosión y que estamos en el centro. La conclusión correcta es otra: no hay centro. Lo que aumenta es la distancia entre todo, como los puntos dibujados en un globo que se hincha, que se separan unos de otros sin que ninguno sea el centro de nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa distinción no es un matiz. Como lo que se estira es el espacio y no las galaxias moviéndose por él, dos galaxias muy lejanas pueden separarse a más velocidad que la luz sin que nadie incumpla nada, porque no se están moviendo. Y por el mismo motivo el pasado tiene una pared: si se rebobina, todo estuvo más junto y más caliente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa pared se ve. En 1964 Arno Penzias y Robert Wilson, en los laboratorios Bell, no conseguían quitar un zumbido de fondo de su antena; llegaron a limpiar los excrementos de las palomas que anidaban dentro, por si acaso. El zumbido era la luz más antigua que existe, emitida trescientos ochenta mil años después del principio, cuando el universo se enfrió lo bastante para volverse transparente. Hoy está a 2,7 grados sobre el cero absoluto y se ve venir por igual desde todas las direcciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y en 1998 dos equipos independientes que medían supernovas lejanas encontraron lo que nadie buscaba: el estiramiento no se está frenando, se está acelerando. Saul Perlmutter por un lado, Brian Schmidt y Adam Riess por otro, recibieron por ello el Nobel de 2011. A lo que empuja se le llama energía oscura, y ese nombre no explica nada: es la etiqueta de un desconocimiento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hay un centro del que todo se aleje: lo que crece es la distancia, y crece en todas partes a la vez.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Toda la tabla periódica junta es el cinco por ciento del universo" },
+      {
+        b: "texto",
+        texto:
+          "En 1933 Fritz Zwicky midió cómo se movían las galaxias dentro del cúmulo de Coma y le salió un disparate: iban tan deprisa que el cúmulo tendría que haberse deshecho hace mucho, salvo que hubiera dentro mucha más masa de la que se veía. Lo llamó materia oscura, y durante cuarenta años casi nadie le hizo caso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Quien lo convirtió en un problema serio fue Vera Rubin en los años setenta. Midió a qué velocidad giraban las estrellas de las galaxias espirales según su distancia al centro, y esperaba lo mismo que pasa en el sistema solar: cuanto más lejos, más lento. Le salió plano. Las estrellas del borde iban tan rápido como las de dentro, galaxia tras galaxia. O la gravedad no funciona como se cree a esa escala, o hay masa que no emite luz.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las cuentas actuales, hechas con la radiación de fondo y con el reparto de las galaxias, dan un reparto incómodo: alrededor del cinco por ciento del contenido del universo es materia normal —estrellas, planetas, gas, personas, todo lo que aparece en la tabla periódica—, un veintisiete por ciento es materia oscura y el resto, dos tercios largos, es energía oscura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene ser exacto con lo que significa eso, porque suele contarse peor de lo que es. No es que se sepa qué son esas dos cosas y no se vean. Es que se detectan solo por su efecto gravitatorio, no se ha capturado ni una partícula de materia oscura en ningún detector, y la energía oscura no se sabe siquiera si es una sustancia o una propiedad del propio espacio vacío.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todo lo que la química ha estudiado desde que existe la química es una veinteava parte de lo que hay.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un agujero negro no es un agujero: es una región de la que la luz no puede salir",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cualquier objeto tiene un tamaño por debajo del cual, si se le comprimiera hasta ahí, ni la luz podría escapar de su gravedad. Ese tamaño se calcula con una fórmula de 1916 y da cifras sorprendentemente pequeñas: para el Sol, un radio de unos tres kilómetros; para la Tierra, unos nueve milímetros. Un agujero negro no es materia rara, es materia normal metida en un sitio absurdamente pequeño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La frontera se llama horizonte de sucesos y no es una superficie física: no hay nada ahí, ni pared, ni cambio de temperatura. Es el punto a partir del cual todos los caminos posibles hacia el futuro llevan hacia dentro. Quien lo cruzara no notaría nada especial en ese instante, si el agujero es grande. Lo que ha cambiado no es el sitio, es la lista de futuros disponibles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Visto desde fuera pasa lo contrario y es lo más difícil de aceptar. Como el tiempo se ralentiza cuanto más fuerte es la gravedad, un observador lejano vería al que cae acercarse cada vez más despacio al horizonte, con su luz cada vez más roja y más apagada, y no lo vería cruzar nunca. Los dos relatos son correctos. No hay uno verdadero y otro aparente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y luego está el problema que Galfard estudió en su tesis, y que es el motivo por el que en este libro los agujeros negros no son un capítulo de curiosidades. Si un agujero negro se evapora poco a poco, y lo que emite no depende de lo que se tragó, la información sobre lo que cayó dentro no está en ningún sitio. Eso choca de frente con la física cuántica, que no permite que nada se borre.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El horizonte de un agujero negro no separa dos lugares: separa dos listas de futuros posibles.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En lo muy pequeño, preguntar por dónde ha pasado algo es una pregunta sin respuesta",
+      },
+      {
+        b: "texto",
+        texto:
+          "El experimento que sostiene todo el capítulo cuántico es de una sencillez brutal. Se lanzan partículas contra una placa con dos rendijas y se recoge lo que pasa detrás. Si fueran bolas, aparecerían dos franjas. Lo que aparece son muchas franjas alternas, claras y oscuras, que es el dibujo que hacen las ondas al superponerse: en unos sitios se suman y en otros se anulan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo raro no es eso. Lo raro es que el dibujo sigue saliendo cuando se lanza una partícula cada vez, tan espaciadas que ninguna puede interferir con otra. Akira Tonomura lo mostró con electrones en 1989, filmando cómo los puntos iban apareciendo uno a uno, aparentemente al azar, hasta componer las franjas. Cada electrón, por separado, se comporta como si hubiera pasado por las dos rendijas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y si se pone un detector para averiguar por cuál pasó, las franjas desaparecen y quedan las dos de las bolas. Esa es la frase que hay que leer despacio: el dibujo depende de si se ha mirado o no. De ahí sale el principio de incertidumbre que Werner Heisenberg enunció en 1927, que no dice que no se pueda medir bien, sino que hay parejas de propiedades que no tienen valor definido a la vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nada de esto es especulación filosófica, y Galfard insiste en ello porque es donde más se malinterpreta. Esta física es la que se usa para diseñar transistores, láseres, diodos y resonancias magnéticas, y sus predicciones se han comprobado con más decimales que ninguna otra teoría. Es la descripción del mundo mejor verificada que existe, y sigue sin haber acuerdo sobre qué significa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La teoría más comprobada de la historia es también la única sobre cuyo significado nadie se pone de acuerdo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El vacío está lleno, y la grieta de la física de hoy está justo ahí" },
+      {
+        b: "texto",
+        texto:
+          "Quitar de una caja todo el aire, toda la luz y toda la materia no deja la caja vacía. Lo que queda son campos, y los campos fluctúan: aparecen y desaparecen sin parar parejas de partículas que duran lo que la incertidumbre les permite durar. Eso tiene consecuencias medibles. Dos placas metálicas paralelas y muy juntas se atraen sin estar cargadas, porque entre ellas caben menos fluctuaciones que fuera; se llama efecto Casimir y está medido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Que las ecuaciones de esos campos digan cosas verdaderas antes de que nadie las vea es la mejor propaganda de la física teórica. En 1928 Paul Dirac escribió una ecuación para el electrón que admitía soluciones con energía negativa, y en vez de tacharlas dedujo que tenía que existir una partícula igual que el electrón pero de carga opuesta. Carl Anderson la encontró en 1932. Con el bosón de Higgs pasó igual: propuesto en 1964, hallado en el CERN el 4 de julio de 2012.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí es donde el libro marca el borde del mapa, que es lo que mejor hace. La relatividad describe lo muy grande y la física cuántica lo muy pequeño, y las dos funcionan. Lo que no existe es una teoría que valga cuando algo es muy pequeño y muy masivo a la vez. Ahí no hay una respuesta discutida: no hay respuesta. Y eso ocurre justo en los dos sitios más interesantes, el interior de un agujero negro y el primer instante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los candidatos ocupan la última parte del libro: cuerdas en lugar de puntos, once dimensiones, universos paralelos. Galfard los cuenta y hace algo poco frecuente: dice con todas las letras que ninguno tiene todavía una sola prueba experimental a favor, y que hay físicos serios que sostienen que quizá nunca la tengan. Los presenta como ideas en construcción y no como el siguiente capítulo del temario.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La física tiene dos teorías que funcionan y ninguna que sirva donde las dos hacen falta a la vez.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la física moderna se puede entender sin matemáticas si se cuenta como un viaje, y lo demuestra haciéndolo: recorre desde la superficie del Sol hasta el interior de un agujero negro y hasta el primer instante, sin una ecuación y sin bajar el nivel.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, y es raro en el estante, es que dibuja el borde. La mayoría de los libros de física popular terminan en la frontera con tono de anuncio, como si lo siguiente estuviera a punto de saberse. Galfard separa con claridad tres cosas distintas: lo medido, lo deducido y lo imaginado, y deja escrito que la tercera pila puede quedarse ahí para siempre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en dos sitios, y los dos vienen de donde viene su virtud. La segunda persona cansa a las cuatrocientas páginas, y hay tramos de viaje —el trayecto, el paisaje, la nave— que ocupan espacio sin añadir física. Y la forma de recorrido deja el libro sin argumento propio: se puede contar dónde lleva, pero no qué defiende, porque no defiende nada frente a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Diez años después hay cosas que el libro no podía traer. En febrero de 2016 se anunció la primera detección de ondas gravitacionales, en 2019 se publicó la primera imagen de un agujero negro y en 2022 la del que hay en el centro de nuestra galaxia. El telescopio James Webb, lanzado en diciembre de 2021, encontró galaxias formadas antes y más brillantes de lo que preveían los modelos que el libro da por buenos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una grieta nueva que encaja con lo mejor del libro. La velocidad a la que se estira el universo se mide de dos maneras independientes y no coinciden: por la radiación de fondo salen unos 67 kilómetros por segundo y megapársec, y midiendo supernovas cercanas salen unos 73. La diferencia era pequeña en 2015 y desde entonces ha crecido en lugar de cerrarse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El mejor viaje guiado que existe por la física del siglo XX, escrito por alguien que se molesta en decir dónde se acaba el mapa.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "universo-mano": UNIVERSO_MANO,
   "universo-cascara": UNIVERSO_CASCARA,
   "ultimos-dinosaurios": ULTIMOS_DINOSAURIOS,
   "pulgar-panda": PULGAR_PANDA,

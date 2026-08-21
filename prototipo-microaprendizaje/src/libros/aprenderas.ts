@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "universo-mano":
+    "Trece mil ochocientos millones de años de edad y cuarenta y seis mil millones de años luz de radio: las dos cifras no cuadran, y ahí empieza el libro. Un recorrido por la física moderna sin una sola ecuación.",
+
   "universo-cascara":
     "Los relojes de los satélites del GPS adelantan treinta y ocho microsegundos al día y hay que corregirlos. Hawking parte de ahí para contar su propia física: tiempo imaginario, agujeros negros que se evaporan y mundos con más dimensiones.",
 

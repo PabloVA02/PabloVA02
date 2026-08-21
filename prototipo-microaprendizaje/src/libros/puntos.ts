@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "universo-mano": [
+    "por qué mirar el cielo es mirar hacia atrás en el tiempo",
+    "qué se sabe del noventa y cinco por ciento que no se ve",
+    "qué separa exactamente el horizonte de un agujero negro",
+    "el experimento de las dos rendijas y lo que sigue sin explicarse",
+    "distinguir lo medido de lo deducido y de lo imaginado",
+  ],
+
   "universo-cascara": [
     "por qué la gravedad no es una fuerza sino una forma",
     "qué significa que el universo no tenga bordes en tiempo imaginario",
