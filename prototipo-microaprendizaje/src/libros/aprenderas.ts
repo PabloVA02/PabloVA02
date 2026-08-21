@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "si-esto-hombre":
+    "Un químico italiano de veinticuatro años pasó once meses en Auschwitz y lo contó nada más volver, con la precisión de un informe técnico y sin levantar la voz una sola vez.",
+
   "guardian-centeno":
     "A un chico de dieciséis años lo expulsan del internado y, en vez de volver a casa, se pasa tres días solo por Nueva York. Casi todo lo importante lo cuenta de pasada.",
 

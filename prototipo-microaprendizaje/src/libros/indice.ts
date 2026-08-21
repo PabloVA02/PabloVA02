@@ -156,7 +156,6 @@ const CARGADORES: Record<string, Cargador> = {
   "sentirse-bien": () => import("./psicologia").then((m) => m.SENTIRSE_BIEN),
   "cerebro-del-nino": () => import("./psicologia").then((m) => m.CEREBRO_DEL_NINO),
   "maneras-de-amar": () => import("./psicologia").then((m) => m.MANERAS_AMAR),
-  "si-esto-hombre": () => import("./historia").then((m) => m.SI_ESTO_HOMBRE),
   "mundo-sofia": () => import("./filosofia").then((m) => m.MUNDO_SOFIA),
   "apologia-socrates": () => import("./filosofia").then((m) => m.APOLOGIA_SOCRATES),
   "segundo-sexo": () => import("./filosofia").then((m) => m.SEGUNDO_SEXO),

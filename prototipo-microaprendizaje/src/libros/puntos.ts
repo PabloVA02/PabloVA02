@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "si-esto-hombre": [
+    "qué se le quita a una persona en las primeras horas",
+    "qué significa que allí no haya ningún porqué",
+    "cómo funcionaba el mercado interno del campo",
+    "por qué dice que los que volvieron no eran los mejores",
+    "qué pasó en los diez días antes de la liberación",
+  ],
+
   "guardian-centeno": [
     "qué le pasó a su hermano, y por qué no lo dice",
     "qué le pregunta dos veces a un taxista de madrugada",

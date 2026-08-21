@@ -17897,7 +17897,237 @@ const GUARDIAN_CENTENO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Si esto es un hombre, en ocho páginas.
+
+   Breve.
+
+   Caso (c) de la 4 bis, y es el que más importa: TERCERA PERSONA SIEMPRE.
+   Aquí no hay «tú puedes», no hay lecciones de superación y no hay una
+   sola frase que convierta esto en un manual de resiliencia. Levi
+   sobrevivió por una cadena de casualidades y lo dice él mismo; escribir
+   lo contrario es mentir y además es cruel con los que no volvieron.
+
+   El tono lo da el propio libro: es un químico contando lo que vio con la
+   precisión de un informe. Se copia esa precisión y no se añade énfasis:
+   los hechos no lo necesitan.
+   -------------------------------------------------------------------------- */
+
+const SI_ESTO_HOMBRE: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Seiscientas cincuenta personas, ciento veinticinco elegidas" },
+      {
+        b: "texto",
+        texto:
+          "Primo Levi era un químico italiano de veinticuatro años cuando lo detuvieron en diciembre de 1943 como partisano. Declaró que era judío, según cuenta, porque creyó que sería menos grave. Lo enviaron a un campo de tránsito y de allí, el 22 de febrero de 1944, a Auschwitz en un tren de mercancías con seiscientas cincuenta personas dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro da las cifras exactas y sin comentario, y esa es su manera de golpear. De aquellas seiscientas cincuenta personas, al bajar del tren, unos oficiales fueron señalando quién iba a un lado y quién a otro con dos o tres preguntas. Noventa y seis hombres y veintinueve mujeres entraron en el campo. Los demás —niños, viejos, enfermos, mujeres con hijos— fueron gaseados esa misma noche. De los ciento veinticinco que entraron, volvieron a Italia veinte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Levi pasó once meses en Monowitz, un subcampo de Auschwitz que existía para construir una fábrica de caucho sintético que nunca llegó a producir un gramo. Escribió este libro nada más volver, en 1946, con una urgencia que él describió como una necesidad física de contarlo. Una editorial grande lo rechazó; salió en 1947 en una pequeña, de la que se vendieron unos mil quinientos ejemplares.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que el libro documenta: cómo se desmonta a una persona en unas horas, qué lógica gobierna el campo, qué significa que no haya un porqué, quiénes se hunden y quiénes se salvan, y por qué el mejor capítulo del libro trata de intentar recordar unos versos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro no argumenta: cuenta con cifras exactas, y las cifras hacen todo el trabajo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cómo se desmonta a una persona" },
+      {
+        b: "texto",
+        texto:
+          "La primera parte del libro documenta un procedimiento, y la palabra que Levi usa es demolición. En unas horas les quitan la ropa, el pelo, los zapatos, los objetos, el nombre y el idioma. Les tatúan un número en el antebrazo izquierdo: el suyo es el 174517. A partir de ese momento, ese número es todo lo que son, hay que saber decirlo en alemán y hay que enseñarlo para recibir la comida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Levi explica por qué eso funciona con una lucidez de ingeniero. Un hombre al que se le quita todo —incluido el pelo, incluida la posibilidad de lavarse, incluido su nombre— pierde algo más que la comodidad: pierde la capacidad de reconocerse, y con ella la de sostener nada. Y anota el detalle que lo demuestra: los que llevan tiempo allí ya no dicen los alemanes, dicen ellos, y hablan de sí mismos en tercera persona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los pasajes más citados del libro es el del viejo Steinlauf, un sargento austrohúngaro que lo pilla sin lavarse y le echa una reprimenda: que hay que lavarse con el agua sucia y secarse con la chaqueta, y limpiarse los zapatos, no por higiene, que no sirve de nada, sino porque el campo es una máquina para convertirlos en bestias y hay que negarse a colaborar. Levi anota que no está seguro de estar de acuerdo, y lo deja ahí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quitarle a alguien el nombre y sustituirlo por un número no es una humillación: es el primer paso de un procedimiento técnico.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Aquí no hay ningún porqué" },
+      {
+        b: "texto",
+        texto:
+          "En los primeros días, muerto de sed, Levi ve un carámbano colgando de una ventana y alarga el brazo para cogerlo. Un guardia se lo arranca de la mano. Él pregunta, en su alemán rudimentario, por qué. Y el guardia le contesta cuatro palabras que se han hecho célebres: aquí no hay ningún porqué.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa frase es la clave del sistema que el libro describe. En el campo hay reglas infinitas, minuciosas y absurdas —cómo hacer la cama, cómo llevar el gorro, cómo colocarse en la fila—, y todas se castigan, pero no hay ninguna razón detrás de ninguna. La arbitrariedad no es un fallo de la organización: es la organización. Lo que se busca no es obediencia razonada, sino obediencia sin más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale otra observación que Levi repite: en el campo no sirve la lógica de fuera. Los recién llegados intentan entender, calcular, prever, y esa es exactamente la actitud que los mata antes. Los que duran son los que aprenden deprisa que las cosas no tienen explicación y dejan de buscarla, y esa renuncia es en sí misma una parte de la demolición.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un sistema con mil normas y ningún porqué no busca que obedezcas por convicción: busca que dejes de preguntar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una economía completa" },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica páginas enteras a describir cómo funciona el campo como economía, y es de lo más revelador que tiene. Hay un mercado —la Bolsa, lo llaman— donde se cambia pan por camisas, tabaco por sopa, cucharas por raciones. Hay precios que fluctúan, hay especuladores, hay estafadores y hay reglas no escritas que todo el mundo conoce.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay detalles que dicen más que cualquier discurso. Al entrar no dan cuchara, y sin cuchara la sopa se bebe como se pueda; hay que comprarla en el mercado interno a cambio de pan. Cuando el campo se liberó, los soviéticos encontraron en los almacenes miles de cucharas nuevas sin repartir. El sistema no las había olvidado: las había retenido para que hubiera algo con lo que comerciar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los zapatos son otra lección entera. Se reparten al azar, sin tallas, y un zapato malo produce llagas; las llagas producen infecciones en los pies; los pies hinchados impiden trabajar; y quien no trabaja va a la selección siguiente. Levi lo explica como una cadena causal fría: en Auschwitz, dice, se muere por un zapato que no es tuyo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En ese sitio, un zapato de una talla que no es la tuya es el principio de una cadena que acaba en la cámara de gas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los que se hunden y los que se salvan" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo central del libro divide a los prisioneros en dos, y es la parte que más incomoda. Están los que Levi llama, con la palabra que se usaba en el campo, los musulmanes: los que han dejado de luchar, que caminan encorvados, que no hablan, que ya no distinguen el frío del hambre y a los que nadie mira porque su destino está decidido. Duran semanas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y están los que se salvan, y aquí Levi es implacable. Los que duran no son los mejores ni los más fuertes: son los que consiguen un puesto de privilegio, los que roban bien, los que tienen un oficio útil, los que hablan alemán, los que se hacen amigos de un capataz. Enumera cuatro casos con nombre —un ladrón, un especialista, un delator, un organizador— y no juzga a ninguno. Se limita a describir cómo sobrevivieron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Él mismo entra en esa cuenta y lo dice sin adornos. Sobrevivió porque era químico y en noviembre lo pasaron a un laboratorio caliente; porque un obrero civil italiano, Lorenzo, le llevó a escondidas una ración de sopa todos los días durante seis meses sin pedir nada; y porque en enero de 1945, cuando evacuaron el campo, él estaba con escarlatina en la enfermería y no pudo salir en la marcha. De los que salieron andando, casi ninguno llegó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los que volvieron no fueron los mejores, y él lo repitió toda su vida: sobrevivió por una cadena de casualidades.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Intentando recordar unos versos" },
+      {
+        b: "texto",
+        texto:
+          "El mejor capítulo del libro no cuenta ninguna atrocidad. Levi tiene que ir a buscar la marmita de la sopa con un chico alsaciano, Jean, que le pide que le enseñe italiano por el camino. Es una hora de ida y vuelta, y Levi decide enseñarle el canto de Ulises de la Divina Comedia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y entonces empieza a fallarle la memoria. Recuerda un verso y se le va el siguiente. Rebusca. Traduce como puede al francés lo que sí recuerda. Se acuerda de la frase en la que Ulises anima a sus hombres a seguir navegando: que no fueron hechos para vivir como bestias, sino para buscar la virtud y el conocimiento. Y describe el momento como si le hubiera sonado una trompeta, como si estuviera oyendo a Dios: le parece de pronto que ese verso explica dónde está y por qué es importante seguir siendo alguien capaz de recordarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo termina de golpe: llegan a la cola de la sopa, alguien pregunta qué hay hoy, y la última línea de Dante que Levi buscaba —y hasta que el mar se cerró sobre nosotros— cae encima de la escena sin que nadie se dé cuenta. Es la mejor página que se ha escrito sobre para qué sirve leer, y está escrita cargando una marmita de sopa dentro de un campo de exterminio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En mitad del campo, lo urgente durante una hora fue recordar un verso, y eso también forma parte de lo que allí se defendía.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Diez días" },
+      {
+        b: "texto",
+        texto:
+          "El último capítulo son los diez días entre la evacuación del campo, el 18 de enero de 1945, y la llegada de los soviéticos. Los alemanes se llevan a los que pueden andar —unos veinte mil, casi todos mueren en la marcha— y dejan atrás a ochocientos enfermos, sin comida, sin luz, sin agua corriente y a veinte grados bajo cero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Levi está en la enfermería con escarlatina. Lo que cuenta de esos diez días es una reconstrucción del mundo desde cero: encuentran una estufa, la arreglan, buscan patatas congeladas en un montón cubierto de nieve, funden nieve para beber, reparten. Los que pueden moverse cuidan a los que no. La mayoría muere igual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un momento que Levi señala como el instante exacto en que dejaron de ser prisioneros. Después de conseguir la primera comida caliente, dos de ellos deciden compartir un trozo de pan con los tres enfermos de la cama de al lado, gente con la que hasta entonces no había ninguna obligación. Escribe que aquello fue el primer gesto humano en mucho tiempo, y que con él empezó de nuevo el proceso por el cual los muertos vivientes volvieron a ser hombres.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La vuelta a ser personas no empezó con la liberación: empezó cuando dos de ellos decidieron compartir un pan que no tenían por qué compartir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Si esto es un hombre documenta once meses en Auschwitz con la precisión de un químico: los números, los procedimientos, las cadenas de causas, la economía interna, quién duraba y por qué. No es un libro de denuncia ni de venganza, y su autor lo dijo desde el principio: quería aportar datos para un estudio sereno de ciertos aspectos del alma humana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un tono que después nadie ha igualado. Levi no grita, no acusa y no se pone nunca por encima; describe. Y esa contención hace lo que ningún énfasis conseguiría: obliga al lector a poner él lo que falta. Es, además, el testimonio de alguien que entiende de reacciones químicas y aplica esa cabeza a un sistema diseñado para destruir personas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Considerad si esto es un hombre: el poema que abre el libro no pide compasión, pide que se mire y no se olvide.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Qué conviene saber. No es un relato completo de Auschwitz: Levi estuvo en un campo de trabajo, no vio las cámaras de gas y lo dice; lo que cuenta es lo que le consta. Y él insistió toda su vida en que el testimonio verdadero lo tendrían los que llegaron al fondo, los que no volvieron, y que los supervivientes hablan por delegación, desde una posición privilegiada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después también cuenta. El libro pasó desapercibido en 1947, y buena parte de la primera edición se quedó en un almacén de Florencia que se inundó en 1966. Se rescató en 1958 con otra editorial y desde entonces no ha dejado de leerse. Levi escribió cuarenta años más tarde Los hundidos y los salvados, un libro más duro donde reconoce que la memoria se deforma y describe la zona gris: los prisioneros a los que el sistema obligó a colaborar en su propia destrucción, y a los que se niega a juzgar. Murió en Turín en 1987, al caer por el hueco de la escalera de su casa; la mayoría de sus biógrafos lo consideran un suicidio, y algunos amigos lo discuten.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "si-esto-hombre": SI_ESTO_HOMBRE,
   "guardian-centeno": GUARDIAN_CENTENO,
   "pedro-paramo": PEDRO_PARAMO,
   "nombre-rosa": NOMBRE_ROSA,

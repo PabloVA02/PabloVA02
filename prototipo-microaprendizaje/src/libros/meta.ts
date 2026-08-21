@@ -200,22 +200,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "si-esto-hombre",
-    titulo: "Si esto es un hombre",
-    autor: "Primo Levi",
-    ano: 1947,
-    gancho: "Lo escribió en unos meses de 1946, nada más volver, mientras trabajaba en una fábrica de pinturas. Se lo rechazaron las editoriales importantes y se publicaron dos mil quinientos ejemplares que casi nadie leyó.",
-    porQue: "Porque es el testimonio más preciso que existe sobre cómo se convierte a una persona en una cosa, y porque su autor pasó cuarenta años corrigiendo lo que él mismo había dicho.",
-    minutos: 22.7,
-    capitulos: [
-      { titulo: "Un químico con una nota en el título", minutos: 4.7 },
-      { titulo: "Tocar fondo", minutos: 4.7 },
-      { titulo: "El canto de Ulises", minutos: 4.7 },
-      { titulo: "Los hundidos y los salvados", minutos: 4.6 },
-      { titulo: "Turín, 11 de abril de 1987", minutos: 4.1 },
-    ],
-  },
-  {
     id: "origenes-totalitarismo",
     titulo: "Los orígenes del totalitarismo",
     autor: "Hannah Arendt",
