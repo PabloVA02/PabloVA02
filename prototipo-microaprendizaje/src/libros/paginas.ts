@@ -52488,7 +52488,7 @@ const MAS_ALLA_BIEN_MAL: PaginaLibro[] = [
       {
         b: "idea",
         texto:
-          "Un libro que ataca el nacionalismo alemán acabó siendo su símbolo porque quien guardaba los papeles decidió qué se publicaba: eso también es una lección.",
+          "Un libro que ataca el nacionalismo alemán acabó siendo su símbolo porque quien guardaba los papeles decidía qué se publicaba.",
       },
     ],
   },
