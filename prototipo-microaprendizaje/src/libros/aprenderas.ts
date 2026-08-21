@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "contrato-social":
+    "«El hombre ha nacido libre y por todas partes está encadenado.» La frase es famosa; la que sigue es la que importa, porque dice que Rousseau ignora cómo ocurrió y que va a averiguar qué podría hacerlo legítimo.",
+
   "etica-nicomaco":
     "Son apuntes de clase del siglo IV antes de Cristo, y parten de una observación: si todo lo que haces lo haces por otra cosa, no quieres nada. De ahí sale la pregunta por lo que se busca por sí mismo.",
 

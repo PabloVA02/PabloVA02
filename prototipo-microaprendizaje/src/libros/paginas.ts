@@ -51651,7 +51651,429 @@ const ETICA_NICOMACO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El contrato social, en doce páginas.
+
+   AMPLIO. Es un libro corto y con muchos argumentos independientes: la
+   crítica del derecho del más fuerte, la imposibilidad de vender la propia
+   libertad, la cláusula única, la voluntad general, la soberanía
+   inalienable, la ley, el legislador, la degeneración del gobierno, la
+   imposibilidad de la representación y la religión civil. Con ocho páginas
+   saldrían la primera frase y el término «voluntad general» sin definir,
+   que es lo que sabe todo el mundo sin haberlo leído.
+
+   Ensayo → afirmación entera y tercera persona.
+
+   LA REGLA 5 AQUÍ ES DELICADA Y HAY QUE HACERLA BIEN. A Rousseau se le
+   acusa desde 1952 de ser el antepasado del totalitarismo, y la acusación
+   ni se acepta ni se despacha: se citan las dos frases suyas que la
+   sostienen —forzar a ser libre y la pena de muerte de la religión civil—,
+   se dice quién lo defiende y se deja la discusión abierta, que es donde
+   sigue.
+   -------------------------------------------------------------------------- */
+
+const CONTRATO_SOCIAL: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La pregunta del libro no es si el poder es legítimo, sino qué tendría que pasar para que lo fuera",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con una de las frases más citadas que se han escrito: el hombre ha nacido libre y por todas partes está encadenado. Y a continuación viene la parte que casi nadie cita y que es la que importa: Rousseau dice que ignora cómo se produjo ese cambio, y que lo que se propone averiguar es qué puede hacerlo legítimo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa es la operación entera del libro y conviene tenerla clara desde el principio. No es un tratado de historia sobre cómo nacieron los Estados, ni una descripción de ninguno existente, ni un programa de gobierno. Es un problema de ingeniería moral: dadas unas condiciones, encontrar la única forma de asociación que las cumpliría. Todo lo que hay dentro se deduce a partir de ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Jean-Jacques Rousseau lo publicó en 1762, con cincuenta años, y le costó caro de inmediato. Aquel mismo año el libro fue condenado y quemado en París y en Ginebra, su ciudad natal, se dictó orden de detención contra él y pasó los años siguientes cambiando de país. Murió en 1778, once años antes de la revolución que lo convertiría en autoridad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas doce páginas recorren diez argumentos: por qué la fuerza no crea ninguna obligación, por qué nadie puede vender su libertad, el problema exacto que se plantea, la cláusula única que lo resuelve, qué es la voluntad general y qué no, por qué la soberanía no se puede delegar, qué es una ley, la paradoja del legislador, por qué todo gobierno acaba usurpando, y las dos frases suyas por las que lleva dos siglos acusado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No pregunta cómo llegó a haber poder, que es una cuestión de historia: pregunta qué tendría que cumplir un poder para que obedecerlo no fuera humillante.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La fuerza no crea ninguna obligación, solo produce prudencia" },
+      {
+        b: "texto",
+        texto:
+          "El primer argumento demuele la justificación más antigua del poder, la del derecho del más fuerte. Rousseau la desarma con un razonamiento de dos pasos que cabe en un párrafo. La fuerza es una potencia física, y no se ve qué moralidad puede salir de sus efectos: ceder a la fuerza es un acto de necesidad, no de voluntad, y en el mejor de los casos un acto de prudencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que usa es un salteador en un bosque. Si uno le entrega la bolsa amenazado por una pistola, no está cumpliendo ningún deber: está evitando que le maten. En cuanto pueda quitársela sin peligro, estará obligado en conciencia a hacerlo. La pistola no ha creado ninguna obligación; ha creado una situación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y remata con la consecuencia lógica que hace absurda la tesis contraria. Si la fuerza hace el derecho, el efecto cambia con la causa: cualquier fuerza que supere a la primera hereda automáticamente su derecho. Con lo cual, o el derecho no significa nada, o significa exactamente lo mismo que el poder, y entonces la palabra sobra del vocabulario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que saca es la frase que abre el resto del libro: puesto que ningún hombre tiene autoridad natural sobre su semejante y la fuerza no produce ningún derecho, no quedan más que las convenciones como base de toda autoridad legítima. Todo lo demás será el intento de encontrar cuál es la convención correcta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ceder ante quien puede hacerte daño es prudencia, no obediencia: en cuanto puedas dejar de hacerlo sin riesgo, no habrás roto ningún compromiso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Nadie puede vender su libertad, porque el contrato que la vende no tiene sentido",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo obstáculo que despeja es la teoría de que un pueblo pudo entregarse voluntariamente a un rey a cambio de protección, que era la posición de Hugo Grocio y, con otro planteamiento, de Thomas Hobbes. Rousseau la considera incoherente, y su refutación no es sentimental sino contractual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un contrato exige que las dos partes den y reciban algo. Aquí, una parte entrega su libertad entera y la otra no promete nada que no pudiera retirar cuando quiera: si el rey da la tranquilidad, también las cárceles son tranquilas. Y si al someterse alguien se queda sin ningún derecho, tampoco queda nada que pueda reclamar cuando el trato se incumpla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su formulación es más radical y es la que ha durado: renunciar a la libertad es renunciar a la condición de hombre, a los derechos de la humanidad e incluso a los deberes; y una renuncia así es incompatible con la naturaleza del hombre, porque quitarle toda libertad a la voluntad equivale a quitarle toda moralidad a los actos. Un esclavo no puede portarse bien ni mal: solo obedece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De esto sale además su condena de la esclavitud, escrita en 1762 y con una nitidez que conviene recordar en un siglo que la practicaba a escala industrial: las palabras esclavitud y derecho son contradictorias y se excluyen mutuamente. Rousseau lo escribe y no propone nada concreto para acabar con ella, que es la distancia habitual del siglo entre la frase y el hecho.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un contrato en el que una parte lo entrega todo y la otra no promete nada no es un mal contrato: no es un contrato.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El problema es obedecer y seguir siendo tan libre como antes" },
+      {
+        b: "texto",
+        texto:
+          "Rousseau formula lo que busca en una sola frase, y esa frase es el centro del libro. Encontrar una forma de asociación que defienda y proteja con toda la fuerza común la persona y los bienes de cada asociado, y por la cual cada uno, uniéndose a todos, no obedezca sin embargo más que a sí mismo y quede tan libre como antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene ver por qué eso es un problema y no una aspiración vaga. Cualquier asociación exige renunciar a hacer lo que a uno le dé la gana; toda ley es una restricción. Así que pedir a la vez protección colectiva y libertad intacta parece pedir dos cosas incompatibles, y de hecho todas las teorías anteriores habían aceptado que hay que cambiar una por otra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace Rousseau es cambiar el concepto de libertad para que las dos cosas dejen de excluirse. Distingue tres. La libertad natural es hacer lo que se puede, y está limitada únicamente por la fuerza de cada uno. La libertad civil está limitada por la voluntad general. Y añade una tercera, la moral, que es la única que hace al hombre dueño de sí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa tercera es la clave y es una idea que Kant recogería después. El impulso del apetito, dice, es esclavitud; y la obediencia a la ley que uno se ha prescrito a sí mismo es libertad. Quien hace lo que le apetece en cada momento no es libre, es empujado; libre es quien se da a sí mismo una norma y la cumple. Con esa definición, obedecer una ley propia deja de ser una pérdida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hacer lo que te apetece no es ser libre, es ser empujado: libertad es cumplir una norma que te has dado tú, y esa distinción sostiene el libro entero.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La solución es una sola cláusula: darse entero a todos equivale a no darse a nadie",
+      },
+      {
+        b: "texto",
+        texto:
+          "El pacto que propone tiene una única cláusula y es más extrema de lo que suele contarse: la enajenación total de cada asociado, con todos sus derechos, a la comunidad entera. No una parte, no unas condiciones; todo. Rousseau sabe que suena a lo contrario de lo que buscaba, y por eso dedica el capítulo a explicar por qué no lo es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer argumento es de igualdad. Como cada uno se entrega por completo, la condición es idéntica para todos, y nadie tiene interés en volverla onerosa para los demás, porque la carga que imponga se le aplicará también a él. Es lo que hace que las leyes generales tiendan a ser soportables: quien las hace vive bajo ellas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo es el que cierra el problema. Como cada uno se da a todos, no se da a nadie en particular: no hay un señor al que uno quede sometido, porque no existe ningún asociado sobre el que no se adquiera el mismo derecho que se le cede. Se gana el equivalente de todo lo que se pierde, y más fuerza para conservar lo que se tiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ese acto nace lo que llama el cuerpo político, que recibe un nombre distinto según lo que esté haciendo: soberano cuando es activo y legisla, Estado cuando es pasivo y es gobernado, pueblo cuando se considera al conjunto, ciudadanos cuando participan en la soberanía y súbditos cuando obedecen las leyes. Todo el libro se apoya después en no confundir esos papeles.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una norma que obliga a todos por igual, empezando por quien la dicta, es la única garantía práctica de que no será una barbaridad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La voluntad general no es lo que quiere la mayoría, y ahí está el problema del libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "El concepto que sostiene todo el edificio es también el más resbaladizo, y Rousseau lo define por contraste. Hay a menudo mucha diferencia, escribe, entre la voluntad de todos y la voluntad general: la segunda atiende solo al interés común, la primera al interés privado y no es más que una suma de voluntades particulares.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La imagen que usa para separarlas es casi matemática. Si de la suma de las voluntades particulares se quitan las que se compensan entre sí, los más y los menos que se anulan, lo que queda es la voluntad general. No es lo que más gente quiere: es lo que todos quieren en tanto que forman parte de lo mismo, una vez descontado lo que cada uno quiere para sí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca una consecuencia práctica que ninguna democracia moderna acepta: que dentro del Estado no debe haber asociaciones parciales, porque cada facción produce una voluntad general propia que es particular respecto al conjunto, y entonces lo que se vota ya no son opiniones individuales sino intereses de grupo. Si las hay, dice, conviene que sean muchas y pequeñas para que ninguna domine. Los partidos políticos, tal como existen, quedan fuera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí está la objeción que más se le repite y que hay que decir con precisión. Rousseau no proporciona ningún procedimiento para saber cuál es la voluntad general cuando la votación no coincide con ella. Sostiene que quien queda en minoría estaba equivocado sobre lo que era, no que su preferencia fuera legítima y perdiera. Con eso, la doctrina no se puede contradecir con ningún resultado, y una idea que ningún hecho puede desmentir es una idea peligrosa en política.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una doctrina que interpreta cualquier resultado como confirmación suya no se puede discutir, y en política eso no es una virtud.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La soberanía no se puede representar, y por eso las democracias actuales no son las suyas",
+      },
+      {
+        b: "texto",
+        texto:
+          "De la definición de voluntad general se sigue algo que Rousseau lleva hasta el final sin ablandarlo: la soberanía es inalienable e indivisible. No se puede delegar, porque la voluntad no se transmite: se puede transmitir el poder, pero querer por otro es imposible. Y no se puede partir en trozos, porque una voluntad o es general o no lo es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El pasaje donde lo aplica es el más famoso del libro después de la primera frase. Dice que el pueblo inglés cree ser libre y se engaña mucho: no lo es más que durante la elección de los miembros del parlamento, y en cuanto son elegidos, es esclavo, no es nada. Escrito en 1762, cuando el sistema inglés era el modelo de libertad política en toda Europa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su alternativa es la asamblea: los ciudadanos reunidos votando las leyes en persona, sin intermediarios, como en las repúblicas antiguas y como en la Ginebra de su infancia. Los diputados, si los hay, no son representantes sino comisionados que no pueden decidir nada definitivamente: cualquier ley que el pueblo no haya ratificado en persona, dice, es nula.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es el punto donde el libro se separa de todo lo que vino después, y él lo sabía. Ese modelo exige un Estado tan pequeño que quepa en una plaza, ciudadanos con tiempo libre para asistir y costumbres muy simples. Rousseau lo dice sin disimulo: solo escribió pensando en repúblicas pequeñas, y consideraba que en un Estado grande su propuesta no se puede aplicar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se puede delegar el poder de hacer y no se puede delegar el querer: nadie puede querer en tu nombre, aunque decida en tu nombre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una ley que nombra a alguien ha dejado de ser una ley" },
+      {
+        b: "texto",
+        texto:
+          "Su definición de ley es una de las piezas mejor construidas del libro y sigue funcionando. Una ley es un acto de la voluntad general aplicado a un objeto general. Eso significa dos cosas a la vez: que la dicta el pueblo entero y que se refiere a todos en abstracto, sin nombrar a nadie ni referirse a ningún caso concreto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia es tajante. La ley puede establecer privilegios y no puede dárselos a nadie por su nombre; puede crear categorías de ciudadanos y fijar qué se exige para pertenecer a ellas, y no puede decir quién pertenece. En cuanto un acto se refiere a una persona o a un hecho particular, deja de ser ley y pasa a ser un decreto, es decir, un acto de gobierno y no de soberanía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa distinción es la raíz de una garantía que hoy está en cualquier constitución: la prohibición de las leyes de caso único, hechas para condenar o beneficiar a alguien concreto. Rousseau la deduce del propio concepto de voluntad general, y no de una experiencia histórica: si la voluntad es de todos, no puede tener por objeto a uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale también su definición de república, que no tiene nada que ver con no tener rey. República, para él, es todo Estado regido por leyes en ese sentido, cualquiera que sea su forma de administración; y en ese sentido una monarquía puede ser una república. Lo que la define no es quién manda, sino que quien manda no puede dictar normas para casos concretos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En cuanto una norma nombra a alguien, ha dejado de ser una ley y es una decisión disfrazada de ley.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Para que un pueblo pudiera darse buenas leyes tendría que ser ya lo que las leyes deben hacer de él",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí Rousseau se topa con una dificultad que reconoce con una honradez poco común, y que sigue siendo un problema real de teoría política. La voluntad general es siempre recta, dice, pero el juicio que la guía no siempre es ilustrado: un pueblo quiere el bien y a menudo no sabe cuál es, porque nadie le ha enseñado y porque hace falta ver de lejos lo que a cada uno le afecta de cerca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso introduce la figura del legislador, un personaje extraordinario que redacta las leyes fundacionales. Y la rodea de restricciones para que no se convierta en un tirano: no tiene ningún poder legislativo —solo el pueblo puede aprobar lo que él propone—, no ejerce ninguna magistratura, y su función es puntual. Cita a Licurgo, que abdicó antes de dar leyes a Esparta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La paradoja que enuncia a continuación es su mejor página. Para que un pueblo naciente pudiera apreciar las buenas máximas de la política, haría falta que el efecto pudiera convertirse en causa: que el espíritu social que las leyes deben producir presidiera la fundación de esas mismas leyes. O sea, los hombres tendrían que ser antes de las leyes lo que las leyes deben hacer de ellos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su salida es incómoda y él no la disimula: el legislador, incapaz de convencer con razones a un pueblo que aún no puede entenderlas, recurre a una autoridad de otro orden y presenta las leyes como si vinieran de los dioses. Es decir, propone una mentira útil en la fundación misma de un Estado que debía basarse en la razón. Rousseau lo escribe y no lo resuelve.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ninguna institución puede fundarse sobre las costumbres que ella misma tenía que crear, y ese círculo no lo ha resuelto todavía nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El gobierno no es el soberano, y confundirlos es el error del que salen todos los demás",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro tercero corrige el malentendido más extendido de la política, y sigue vigente. El gobierno no es el titular del poder: es un cuerpo intermedio establecido entre los súbditos y el soberano para ejecutar las leyes, y sus miembros no son señores sino oficiales del pueblo, que los nombra, les encarga una función y puede quitársela cuando quiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí se sigue que un gobierno no se instituye por contrato. No hay ningún pacto entre el pueblo y sus gobernantes, porque un contrato exige dos partes y aquí solo hay una que manda y unos encargados que ejecutan. Rousseau insiste porque toda la teoría anterior había defendido lo contrario para blindar a los reyes: si hubiera contrato, destituirlos sería incumplirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre las formas de gobierno es más sobrio de lo que suele atribuírsele. Sostiene que la mejor depende del tamaño del Estado y del carácter del pueblo, y que ninguna vale para todos. Y de la democracia entendida como gobierno directo dice una frase demoledora: si hubiera un pueblo de dioses se gobernaría democráticamente, porque un gobierno tan perfecto no conviene a los hombres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su diagnóstico final es pesimista y es una de las páginas que más se citan. Todo gobierno tiende continuamente a usurpar la soberanía, y ese vicio no es un accidente sino un efecto de su propia naturaleza, igual que el cuerpo humano empieza a morir desde que nace. Ningún Estado dura para siempre, y lo único que se puede hacer es retrasarlo con asambleas periódicas fijadas de antemano.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los que gobiernan no son la autoridad, son sus empleados; y la tendencia a olvidarlo no es un defecto de algunos, es la marcha normal de cualquier gobierno.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dos frases suyas explican por qué lleva dos siglos acusado de fundar el despotismo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera está en el libro primero y es cortísima. Rousseau dice que quien se niegue a obedecer a la voluntad general será obligado a ello por todo el cuerpo, lo cual no significa otra cosa sino que se le forzará a ser libre. En su lógica es coherente: si la libertad es obedecer la ley que uno se ha dado, quien la incumple está siendo esclavo de su capricho y forzarlo es devolverle su libertad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema es que la misma frase, sacada de su sistema, autoriza cualquier cosa. Si alguien puede decidir cuál es tu verdadera voluntad, en contra de lo que tú digas querer, entonces reprimirte se convierte en un favor, y no queda ninguna posición desde la que puedas objetar. No hay en el libro ningún criterio para distinguir a quien te fuerza a ser libre de quien simplemente te fuerza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda está en el último capítulo, sobre lo que llama la religión civil: un credo mínimo obligatorio para todos los ciudadanos —una divinidad, la vida futura, la santidad del contrato y las leyes, y la exclusión de la intolerancia—. Quien no lo crea, dice, puede ser desterrado. Y añade una frase que no admite lectura amable: quien, después de haber reconocido públicamente esos dogmas, se conduzca como si no los creyera, que sea castigado con la muerte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esas dos páginas están en la base de la acusación que le hizo el historiador Jacob Talmon en 1952, según la cual Rousseau es el antepasado de lo que llamó la democracia totalitaria. Otros filósofos, de Kant a Rawls, han defendido lo contrario: que su aportación es la idea de autonomía y que las dos frases son deducciones desafortunadas de un sistema cuyo núcleo es la libertad. La discusión sigue abierta, y para tener opinión hay que haber leído esas páginas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si alguien puede determinar cuál es tu voluntad verdadera en contra de lo que tú dices querer, ya no te queda ninguna posición desde la que objetar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la única autoridad legítima nace de un acuerdo entre iguales en el que cada uno se entrega a todos y por lo tanto a nadie, y que el titular del poder es siempre el conjunto de los ciudadanos, que no puede delegarlo. De ahí deduce qué es una ley, qué es un gobierno y por qué todo gobierno tiende a usurpar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta y ha ganado del todo es la soberanía popular. La idea de que el poder viene del conjunto de los ciudadanos y no de Dios, de la conquista ni de la herencia está hoy en casi todas las constituciones del mundo, y la Declaración de Derechos francesa de 1789 define la ley, con su misma expresión, como la expresión de la voluntad general.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en su concepto central. La voluntad general no tiene ningún procedimiento que permita identificarla cuando no coincide con lo que la gente vota, que es precisamente cuando importa; y su tesis de que la minoría estaba equivocada convierte la doctrina en algo que ningún resultado puede desmentir. Falla también su prohibición de las asociaciones parciales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay tres cosas más que el lector debe saber. Su modelo solo funciona en repúblicas muy pequeñas y él lo dice. Las mujeres quedan fuera de la ciudadanía en toda su obra. Y el autor que escribió el tratado de educación más influyente del siglo dejó a sus cinco hijos en la inclusa, cosa que confesó él mismo por escrito años después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después fue desmesurado. El libro se vendió poco en vida de su autor y se convirtió en el texto de cabecera de la Revolución francesa: Robespierre lo citaba constantemente y en 1794 los restos de Rousseau fueron trasladados al Panteón. Kant, que era un hombre de costumbres inalterables, contaba que dejó de dar su paseo diario el día que se puso a leerlo. Y el sistema que hoy llamamos democracia, con partidos y representantes, es exactamente lo que este libro declara imposible.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Fundó la idea de que el poder pertenece a los ciudadanos, y en el mismo libro declaró ilegítimo el único sistema con el que esa idea ha llegado a funcionar.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "contrato-social": CONTRATO_SOCIAL,
   "etica-nicomaco": ETICA_NICOMACO,
   "etica-amador": ETICA_AMADOR,
   "cuentos-poe": CUENTOS_POE,

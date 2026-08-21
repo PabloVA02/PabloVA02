@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "contrato-social": "Principios de derecho político",
   "cosas-buenas": "Entiende tu cerebro, gestiona tus emociones, mejora tu vida",
   "maneras-de-amar": "La nueva ciencia del apego adulto y cómo puede ayudarte a encontrar el amor y conservarlo",
   "cerebro-del-nino": "12 estrategias revolucionarias para cultivar la mente en desarrollo de tu hijo",

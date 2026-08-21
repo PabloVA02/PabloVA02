@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "contrato-social": [
+    "por qué la fuerza no crea ninguna obligación",
+    "el problema exacto que el contrato tiene que resolver",
+    "qué es la voluntad general y por qué no es la de la mayoría",
+    "por qué sostiene que la soberanía no se puede delegar",
+    "las dos frases suyas por las que se le acusa desde 1952",
+  ],
+
   "etica-nicomaco": [
     "por qué la felicidad de la que habla no se puede tener un martes",
     "por qué nadie se vuelve justo entendiendo la justicia",

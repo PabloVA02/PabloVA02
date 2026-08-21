@@ -136,22 +136,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "contrato-social",
-    titulo: "El contrato social",
-    autor: "Jean-Jacques Rousseau",
-    ano: 1762,
-    gancho: "Lo quemaron en Ginebra y en París el mismo año de publicarse, y su autor tuvo que huir de tres países. Treinta años después, los revolucionarios franceses llevaron sus restos al Panteón en volandas.",
-    porQue: "Porque de aquí sale la idea de que la ley solo obliga si la hemos hecho nosotros, que es el fundamento de cualquier democracia. Y porque casi todo lo que se le atribuye —el buen salvaje, la vuelta a la naturaleza, el gobierno de la mayoría— no está en el libro.",
-    minutos: 26.1,
-    capitulos: [
-      { titulo: "Una frase que todo el mundo cita a medias", minutos: 5.1 },
-      { titulo: "El buen salvaje que nunca escribió", minutos: 5.4 },
-      { titulo: "La voluntad general no es la mayoría", minutos: 5.2 },
-      { titulo: "El pueblo inglés cree ser libre", minutos: 5.2 },
-      { titulo: "Los cinco niños del hospicio", minutos: 5.2 },
-    ],
-  },
-  {
     id: "mas-alla-bien-mal",
     titulo: "Más allá del bien y del mal",
     autor: "Friedrich Nietzsche",
