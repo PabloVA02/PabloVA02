@@ -15828,7 +15828,7 @@ const SENOR_MOSCAS: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "El señor de las moscas cuenta cómo un grupo de niños bien educados monta una democracia en una playa y la desmonta en unas semanas, y sostiene que lo que falla no son las circunstancias sino ellos: que el defecto está dentro y que las normas solo lo tapan mientras hay alguien mirando. Golding lo escribió a propósito contra las novelas de aventuras que decían lo contrario.",
+          "Lo que aporta es un mecanismo que se reconoce fuera de la isla: lo urgente comiéndose a lo importante, el miedo a algo que nadie ha comprobado, el líder que promete carne frente al que pide esfuerzo, y el grupo que primero se ríe del raro y acaba linchándolo sin que nadie lo haya decidido.",
       },
       {
         b: "texto",
@@ -15838,7 +15838,7 @@ const SENOR_MOSCAS: PaginaLibro[] = [
       {
         b: "idea",
         texto:
-          "Puede que la bestia seamos nosotros, dice el único que lo entiende, y no le dejan terminar la frase.",
+          "Dónde falla. En la isla no hay ni una niña, y el propio Golding dijo que no sabría escribirlas; eso deja su tesis sobre la naturaleza humana apoyada en media especie. Y el simbolismo, a partir de la cabeza de cerdo, se pone a explicarse a sí mismo más de la cuenta.",
       },
       {
         b: "texto",
