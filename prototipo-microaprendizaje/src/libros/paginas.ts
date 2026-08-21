@@ -17029,7 +17029,7 @@ const VIEJO_MAR: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Estas páginas recorren lo que hace grande a un relato tan simple: qué es lo que deliberadamente no cuenta, quién es el chico, cómo se pelea durante tres días con un animal al que se acaba respetando, qué pasa cuando llegan los tiburones y qué queda al final.",
+          "Estas páginas recorren lo que hace grande a un relato tan simple: qué es lo que deliberadamente no cuenta, quién es el chico, cómo se pelea durante tres días con un animal al que se acaba respetando, qué pasa cuando llegan los tiburones y qué queda al final. Está ambientado en un pueblo de pescadores de la costa de Cuba, donde Hemingway vivió veinte años y salía a pescar aguja casi todas las semanas.",
       },
       {
         b: "idea",
@@ -17054,7 +17054,7 @@ const VIEJO_MAR: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Y la prosa hace lo mismo: frases cortas, casi sin adjetivos, con verbos concretos y objetos con nombre propio. Se dice el sedal, la caña, la proa, la mano izquierda, el atún, la sal. Cuando el viejo tiene miedo, el libro no dice que tiene miedo: dice lo que hace con las manos. Es un estilo que parece fácil y que cambió la manera de escribir en inglés durante medio siglo.",
+          "Y la prosa hace lo mismo: frases cortas, casi sin adjetivos, con verbos concretos y objetos con nombre propio. Se dice el sedal, la caña, la proa, la mano izquierda, el atún, la sal. Cuando el viejo tiene miedo, el libro no dice que tiene miedo: dice lo que hace con las manos. Es un estilo que parece fácil y que cambió la manera de escribir en inglés durante medio siglo. El propio Hemingway decía que este libro le costó lo que le habría costado escribir mil páginas sobre el pueblo entero, y que había preferido quitarlas todas.",
       },
       {
         b: "idea",
@@ -17154,7 +17154,7 @@ const VIEJO_MAR: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "En medio de eso dice la frase por la que se conoce el libro, y la dice sin ninguna solemnidad, casi enfadado consigo mismo por hablar solo: un hombre puede ser destruido, pero no derrotado. Y también se dice lo contrario un rato después, que ojalá no hubiera salido tan lejos, por él y por el pez. Las dos cosas están en la misma página.",
+          "En medio de eso dice la frase por la que se conoce el libro, y la dice sin ninguna solemnidad, casi enfadado consigo mismo por hablar solo: un hombre puede ser destruido, pero no derrotado. Y también se dice lo contrario un rato después, que ojalá no hubiera salido tan lejos, por él y por el pez. Las dos cosas están en la misma página. Y cuando ya no queda nada, el libro anota la cuenta con frialdad: al pez se lo han comido entero, y el viejo calcula que pesaba unos setecientos kilos.",
       },
       {
         b: "idea",
