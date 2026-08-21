@@ -32279,7 +32279,263 @@ const ENQUIRIDION: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Tao Te Ching, en ocho páginas.
+
+   Breve: son ochenta y un capítulos y unos cinco mil caracteres.
+
+   Registro NARRATIVO (clásico poético): títulos cortos de imagen,
+   afirmación en la primera frase, caja del rayo en segunda persona.
+
+   La página 7 es imprescindible y casi nunca se cuenta: quien lee este
+   libro en otro idioma está leyendo sobre todo a su traductor.
+   -------------------------------------------------------------------------- */
+
+const TAO_TE_CHING: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un archivero que se marchó montado en un buey" },
+      {
+        b: "texto",
+        texto:
+          "La historia tradicional dice que un archivero de la corte china, viejo y harto de lo que veía, decidió marcharse hacia el oeste montado en un buey. Al llegar al paso fronterizo, el guardián lo reconoció y se negó a dejarlo pasar si no dejaba antes por escrito lo que sabía. El anciano se sentó, escribió ochenta y un capítulos breves y se fue. Nunca se supo más de él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa leyenda es lo único que se cuenta del autor, y hoy se considera precisamente eso, una leyenda. La investigación actual sostiene que el texto es una compilación de materiales de varios autores, reunidos y reordenados entre los siglos IV y III antes de Cristo, y que probablemente no hubo un Lao Tsé histórico único; su nombre significa simplemente el viejo maestro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dos hallazgos arqueológicos lo demostraron. En 1973 aparecieron en una tumba dos copias escritas en seda del siglo II antes de Cristo con las dos mitades del libro en orden inverso al habitual. Y en 1993, unas tiras de bambú del siglo IV antes de Cristo contenían una versión mucho más corta, alrededor de un tercio del texto actual. El libro creció y se reorganizó durante siglos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que dice: por qué empieza avisando de que su tema no se puede nombrar, qué idea sobre el vacío contiene su capítulo más famoso, qué enseña con el agua, por qué los opuestos se necesitan, qué recomienda a quien gobierna, qué opina del conocimiento acumulado y por qué dos traducciones cualesquiera no se parecen entre sí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El segundo libro más traducido del mundo probablemente no tuvo un autor, y su biografía es una leyenda añadida siglos después.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que hace útil una rueda es el agujero del centro" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo mejor construido del libro es el undécimo y consiste en tres ejemplos domésticos puestos uno detrás de otro. Treinta radios convergen en el cubo de una rueda, dice, y es el hueco del centro lo que permite que gire y sirva para algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se moldea el barro para hacer una vasija, y lo que hace útil a la vasija es el espacio vacío de dentro; el barro solo es lo que lo delimita. Se abren puertas y ventanas para construir una habitación, y lo que la hace habitable es el aire que queda dentro, no los muros. En los tres casos hay algo material que se ve y algo ausente que es lo que funciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión del capítulo es una frase corta: del ser viene la posesión y del no ser viene la utilidad. Es decir, que lo que se tiene define los límites y lo que falta es donde ocurren las cosas, y que la atención humana se va siempre hacia lo primero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea se aplica sin esfuerzo a cosas que no son ni ruedas ni vasijas. Una conversación funciona por los silencios, una agenda por los huecos, una casa por los espacios sin muebles, una empresa por el margen que le queda para reaccionar. Llenar del todo cualquiera de esas cosas es exactamente lo mismo que rellenar el cubo de la rueda.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Llenar del todo una agenda, una casa o una conversación es lo mismo que rellenar de barro el agujero de una rueda.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El agua no discute con la piedra" },
+      {
+        b: "texto",
+        texto:
+          "La imagen a la que el libro vuelve más veces es el agua, y no como metáfora bonita sino como argumento. Nada en el mundo es más blando ni más flexible que el agua, dice; y sin embargo, para desgastar lo duro y lo firme, no hay nada que la supere ni nada que pueda sustituirla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que le interesa de ella es su manera de operar. El agua no empuja de frente ni se enfrenta a nada: rodea el obstáculo, busca el hueco, baja siempre y ocupa los lugares que todo el mundo desprecia. No tiene forma propia y por eso adopta la de cualquier recipiente. Y con esa manera de proceder acaba atravesando la roca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el concepto central del libro, que es difícil de traducir y suele decirse como no acción. No significa quedarse quieto ni desentenderse: significa actuar sin forzar, sin ir contra la naturaleza de las cosas, aprovechando la dirección que ya llevan. Un buen carpintero corta siguiendo la veta; el que corta contra ella gasta el doble de esfuerzo y estropea la madera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mismo argumento aparece con árboles. Un árbol vivo es flexible y uno muerto está rígido; la caña se dobla con el temporal y el tronco duro se parte. Y con una comparación anatómica que se recuerda siempre: en la boca de un anciano, los dientes, que eran lo más duro, han desaparecido, y la lengua, que era lo más blando, sigue ahí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En la boca de un viejo ya no quedan dientes y sigue estando la lengua, que era lo blando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuando todos llaman bello a algo" },
+      {
+        b: "texto",
+        texto:
+          "El segundo capítulo del libro plantea una idea que va contra el sentido común y que después han repetido media docena de tradiciones. Dice que en el momento en que todo el mundo reconoce lo bello como bello, aparece lo feo; y en el momento en que todos saben qué es lo bueno, aparece lo malo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento es que los opuestos no existen por separado: se producen mutuamente. Lo largo y lo corto solo existen comparándose; lo difícil y lo fácil se definen uno al otro; lo alto necesita lo bajo para significar algo. Ninguno de esos términos describe una propiedad de las cosas: describen una relación entre ellas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es un aviso contra las campañas de mejora. Cuando se establece un ideal y se declara públicamente cuál es el modelo, se está fabricando al mismo tiempo la categoría de lo que no llega, y con ella la insatisfacción, la comparación y la competencia por parecerse. Nadie se sentía mal por no tener algo que todavía no se consideraba deseable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí que el libro desconfíe de proclamar virtudes. Sostiene que cuando una sociedad tiene que hablar mucho de honestidad es porque ha dejado de haberla, y que las épocas en que se predican con más insistencia la lealtad y el respeto filial son aquellas en que se han perdido. La proclamación es el síntoma, no el remedio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando una sociedad tiene que hablar mucho de honestidad, es señal de que ha dejado de haberla, no de que la esté recuperando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El mejor gobierno es el que apenas se nota" },
+      {
+        b: "texto",
+        texto:
+          "Conviene saber una cosa que el uso occidental de este libro ha borrado casi por completo: buena parte de sus capítulos son consejos políticos. Están dirigidos a un gobernante y tratan de cómo administrar un reino, no de cómo llevar mejor una vida personal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis sobre el gobierno está en el capítulo diecisiete y ordena a los mandatarios en cuatro escalones. El mejor es aquel cuya existencia apenas notan los gobernados. Después viene el que es querido y elogiado. Después el que es temido. Y el peor de todos es el que es despreciado. Y termina con una frase sobre el gobernante excelente: cuando el trabajo está hecho, el pueblo dice que lo ha hecho solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resto de sus consejos van en la misma dirección: cuantas más prohibiciones haya en un reino, más pobre será el pueblo; cuantas más leyes y decretos se publiquen, más ladrones habrá. Y la imagen que resume su método de gobierno es de cocina: administrar un país grande es como freír un pez pequeño, que se deshace si se le da demasiadas vueltas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa política tiene una ambigüedad que ha dado mucho juego. Se puede leer como una defensa de la mínima intervención y de dejar en paz a la gente, y se ha leído así en Occidente. Y se puede leer como un manual para gobernar sin que se note, manteniendo al pueblo sin ambiciones y sin instrucción, que es como lo leyeron algunos consejeros de la propia China antigua.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuantas más leyes y decretos se publican, más ladrones aparecen: la frase tiene dos mil trescientos años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Quien estudia acumula y quien sigue el camino quita" },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos más provocadores del libro opone dos maneras de avanzar. Quien se dedica al estudio, dice, aumenta cada día: añade datos, distinciones, categorías, nombres. Quien se dedica al camino disminuye cada día: quita, simplifica, deja de hacer, hasta llegar a esa no acción con la que, sostiene, nada queda sin hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro es duro con el conocimiento acumulado y con la astucia. Sostiene que las distinciones finas producen sobre todo discusiones, que el exceso de habilidad genera artefactos raros y ambiciones nuevas, y que quien lo sabe todo sobre algo suele haber perdido la capacidad de mirarlo por primera vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y sitúa el conocimiento importante en otro sitio. Quien conoce a los demás es inteligente, dice el capítulo treinta y tres, y quien se conoce a sí mismo ve de verdad; quien vence a otros tiene fuerza, y quien se vence a sí mismo tiene poder. Es la misma jerarquía que aparece en tradiciones muy alejadas de esta, y aquí está formulada en cuatro líneas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la misma línea van sus avisos sobre el exceso. Que quien mucho acumula, mucho tendrá que perder. Que no hay desgracia mayor que no saber contentarse ni defecto peor que querer conseguir. Y que quien sabe que ya tiene bastante es rico, sea cual sea la cantidad exacta que tenga.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien sabe que ya tiene bastante es rico, y esa condición no depende en absoluto de la cantidad que tenga.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Doscientas cincuenta traducciones que no dicen lo mismo" },
+      {
+        b: "texto",
+        texto:
+          "Hay algo que cualquiera que se acerque a este libro debería saber antes de abrirlo, y que rara vez se explica: quien lo lee en otro idioma está leyendo, en una proporción enorme, a su traductor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo es la lengua en la que está escrito. El chino clásico no marca el número ni el tiempo verbal, prescinde a menudo del sujeto y admite que un mismo carácter funcione como sustantivo, verbo o adjetivo según el contexto. En un texto poético, comprimido y deliberadamente ambiguo, eso significa que una misma línea puede rendir cinco frases distintas y todas defendibles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado es que existen más de doscientas cincuenta versiones solo en inglés, y que dos de ellas puestas una al lado de la otra pueden parecer libros diferentes: una mística, otra política, otra ecológica, otra de gestión empresarial. Y muchas de las versiones más populares no son traducciones: son recreaciones hechas por autores que no leen chino a partir de traducciones anteriores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí una recomendación práctica que vale para cualquier clásico traducido de una lengua lejana: mirar quién firma la versión, si trabaja desde el original, y comparar un par de capítulos en dos ediciones distintas antes de citar nada. Con este libro concreto, esa comprobación es especialmente instructiva.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dos traducciones de este libro puestas una al lado de otra pueden parecer dos libros distintos, y las dos son defendibles.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El Tao Te Ching reúne en ochenta y un capítulos breves una manera de mirar que se sostiene en unas pocas ideas: que lo vacío es lo que sirve, que lo blando acaba con lo duro, que los opuestos se producen entre sí, que actuar sin forzar rinde más que empujar, que proclamar una virtud es señal de haberla perdido y que quien sabe que tiene bastante es rico. La mitad de sus consejos van dirigidos a quien gobierna.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un contrapeso. Casi toda la tradición occidental de mejora personal empuja a añadir —más objetivos, más disciplina, más control—, y este libro lleva veintitrés siglos proponiendo lo contrario, con imágenes que no se olvidan: el agujero de la rueda, el agua, la lengua del anciano.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El Tao que puede nombrarse no es el Tao eterno: el libro empieza avisando de que su asunto no cabe en el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Su ambigüedad es a la vez su fuerza y su problema. Un texto que admite tantas lecturas se ha usado para justificar casi todo: la mínima intervención del Estado y también el gobierno que mantiene al pueblo sin instrucción, la contemplación y también los manuales de dirección de empresas. Cuando un libro sirve para sostener una cosa y su contraria, conviene sospechar de quien lo cita.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay dos avisos más. El primero es que su desconfianza hacia el conocimiento y la técnica, leída literalmente, no se sostiene, y que sus capítulos sobre mantener al pueblo con el vientre lleno y la cabeza vacía son bastante menos amables de lo que parecen en las ediciones que los suavizan. El segundo es el uso occidental: aquí se lee casi siempre como un manual de serenidad individual, y una parte importante del original es un tratado sobre cómo administrar un reino sin que los súbditos se den cuenta.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  tao: TAO_TE_CHING,
   enquiridion: ENQUIRIDION,
   "brevedad-vida": BREVEDAD_VIDA,
   "gen-historia": GEN_HISTORIA,

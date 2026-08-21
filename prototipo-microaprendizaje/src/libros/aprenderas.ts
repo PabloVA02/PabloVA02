@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  tao:
+    "Ochenta y un capítulos breves atribuidos a un archivero que, según la leyenda, se marchó en un buey y los escribió antes de cruzar la frontera. Hoy se sabe que no hubo un solo autor y que el texto creció durante siglos.",
+
   enquiridion:
     "Su autor nació esclavo y su nombre significa literalmente «comprado». No escribió ni una línea: son apuntes que tomó un alumno en clase, resumidos en cincuenta y tres capítulos de pocas líneas cada uno.",
 

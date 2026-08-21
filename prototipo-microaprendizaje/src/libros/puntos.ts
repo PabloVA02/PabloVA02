@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  tao: [
+    "por qué lo útil de una rueda es el agujero del centro",
+    "qué enseña el libro con el ejemplo del agua",
+    "por qué proclamar una virtud es señal de haberla perdido",
+    "qué recomienda a quien tiene que gobernar",
+    "por qué dos traducciones suyas parecen dos libros distintos",
+  ],
+
   enquiridion: [
     "cómo se separa lo que depende de ti de lo que no",
     "por qué no te altera lo que pasa sino lo que piensas de ello",

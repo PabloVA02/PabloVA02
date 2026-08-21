@@ -74,7 +74,6 @@ const CARGADORES: Record<string, Cargador> = {
   "ultimos-dinosaurios": () => import("./ciencia").then((m) => m.ULTIMOS_DINOSAURIOS),
   "diarios-frida": () => import("./arte").then((m) => m.DIARIOS_FRIDA),
   invencible: () => import("./salud").then((m) => m.INVICTO),
-  tao: () => import("./filosofia").then((m) => m.TAO_TE_CHING),
   "el-tunel": () => import("./literatura").then((m) => m.EL_TUNEL),
   "renglones-torcidos": () => import("./literatura").then((m) => m.RENGLONES_TORCIDOS),
   "universo-cascara": () => import("./ciencia").then((m) => m.UNIVERSO_CASCARA),

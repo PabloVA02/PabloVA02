@@ -200,22 +200,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "tao",
-    titulo: "Tao Te Ching",
-    autor: "Lao Tsé",
-    ano: -400,
-    gancho: "Cinco mil caracteres escritos, según la leyenda, en una tarde y a regañadientes, por un viejo que se marchaba del país y quería que le abrieran la puerta.",
-    porQue: "Es uno de los libros más traducidos del mundo, contiene la idea política más rara que existe —gobernar sin intervenir— y casi nadie lo lee como lo que es.",
-    minutos: 21.8,
-    capitulos: [
-      { titulo: "El paso de Hangu", minutos: 4.3 },
-      { titulo: "Lo que no se puede nombrar", minutos: 4.4 },
-      { titulo: "El vacío de la rueda", minutos: 4.2 },
-      { titulo: "El agua", minutos: 4.5 },
-      { titulo: "Cómo se cocina un pez pequeño", minutos: 4.3 },
-    ],
-  },
-  {
     id: "etica-amador",
     titulo: "Ética para Amador",
     autor: "Fernando Savater",
