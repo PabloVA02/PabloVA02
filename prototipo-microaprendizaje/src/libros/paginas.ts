@@ -1075,19 +1075,6 @@ const SAPIENS: PaginaLibro[] = [
   },
 ];
 
-/* --------------------------------------------------------------------------
-   Homo Deus, en ocho páginas.
-
-   El segundo escrito con el molde de `REDACCION.md`, y el primero que estrena
-   las dos reglas que salieron de las capturas del 20 de agosto: la página uno
-   es una ENTRADA que cuenta de dónde parte el libro y anuncia el recorrido, y
-   el resumen termina en CONCLUSIÓN y nada más —sin la lista de deberes que
-   pone la referencia, que Pablo quitó expresamente—.
-
-   Es la continuación de Sapiens y conviene que se lea como tal: aquel
-   explicaba cómo llegamos hasta aquí y este pregunta hacia dónde vamos.
-   -------------------------------------------------------------------------- */
-
 const HOMO_DEUS: PaginaLibro[] = [
   {
     bloques: [
@@ -1114,7 +1101,6 @@ const HOMO_DEUS: PaginaLibro[] = [
       },
     ],
   },
-
   {
     bloques: [
       { b: "rotulo", texto: "La nueva agenda: no morirse, sentirse bien y ser dioses" },
@@ -1153,7 +1139,6 @@ const HOMO_DEUS: PaginaLibro[] = [
       },
     ],
   },
-
   {
     bloques: [
       { b: "rotulo", texto: "La felicidad tiene un techo bioquímico, no económico" },
@@ -1184,7 +1169,6 @@ const HOMO_DEUS: PaginaLibro[] = [
       },
     ],
   },
-
   {
     bloques: [
       { b: "rotulo", texto: "El humanismo es la religión de los últimos trescientos años" },
@@ -1210,7 +1194,6 @@ const HOMO_DEUS: PaginaLibro[] = [
       },
     ],
   },
-
   {
     bloques: [
       { b: "rotulo", texto: "La ciencia está desmontando la idea de que dentro hay alguien" },
@@ -1246,7 +1229,6 @@ const HOMO_DEUS: PaginaLibro[] = [
       },
     ],
   },
-
   {
     bloques: [
       { b: "rotulo", texto: "Los algoritmos van a conocerte mejor de lo que te conoces" },
@@ -1268,11 +1250,10 @@ const HOMO_DEUS: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "A la fe en los datos el libro la llama dataísmo, y la describe como una religión en formación: el universo entendido como flujos de información, y el valor de cualquier cosa —una persona incluida— medido por lo que aporta al procesamiento. No hace falta que nadie se convierta; basta con que siga siendo cómodo.",
+          "A la fe en los datos el libro la llama dataísmo, y la describe como una religión en formación: el universo entendido como flujos de información, y el valor de cualquier cosa —una persona incluida— medido por lo que aporta al procesamiento. No hace falta que nadie se convierta; basta con que siga siendo cómodo. Y hay un marcador que un libro de 2015 no podía tener. Desde entonces, los sistemas de recomendación han pasado de sugerir canciones a decidir qué ve cada día una parte enorme de la población, y los modelos de lenguaje han empezado a redactar por encargo. Lo que Harari describía como una tendencia es hoy la infraestructura por la que pasa buena parte de lo que la gente lee.",
       },
     ],
   },
-
   {
     bloques: [
       { b: "rotulo", texto: "La inteligencia se está separando de la conciencia" },
@@ -1303,7 +1284,6 @@ const HOMO_DEUS: PaginaLibro[] = [
       },
     ],
   },
-
   {
     bloques: [
       { b: "rotulo", texto: "Conclusión" },
@@ -1320,7 +1300,7 @@ const HOMO_DEUS: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Conviene leerlo sabiendo dónde flojea. Es un libro de extrapolaciones: coge tendencias reales y las estira hasta el final, y las tendencias rara vez llegan enteras. Harari lo dice él mismo —avisa de que describe posibilidades y no predicciones—, pero el tono es tan rotundo que se lee como si fueran seguras. Los críticos le señalan además que da por hecha una eficacia de la tecnología que aún no existe, y que deja poco espacio a lo que la política y la gente pueden decidir por el camino.",
+          "Conviene leerlo sabiendo dónde flojea. Es un libro de extrapolaciones: coge tendencias reales y las estira hasta el final, y las tendencias rara vez llegan enteras. Harari lo dice él mismo —avisa de que describe posibilidades y no predicciones—, pero el tono es tan rotundo que se lee como si fueran seguras. Los críticos le señalan además que da por hecha una eficacia de la tecnología que aún no existe, y que deja poco espacio a lo que la política y la gente pueden decidir por el camino. Y hay un reproche concreto que el tiempo ha confirmado: sus tres proyectos —vencer al hambre, a la peste y a la guerra— se dan por prácticamente conseguidos con más alegría de la que permitían los datos, y la pandemia de 2020 y las guerras de la década siguiente lo comprobaron de la manera más literal.",
       },
       {
         b: "idea",
@@ -1330,15 +1310,6 @@ const HOMO_DEUS: PaginaLibro[] = [
     ],
   },
 ];
-
-/* --------------------------------------------------------------------------
-   Armas, gérmenes y acero, en ocho páginas.
-
-   El libro tiene una ventaja rara para este formato: arranca con una pregunta
-   concreta que le hizo un desconocido al autor en una playa, y las cuatrocientas
-   páginas siguientes son la respuesta. La entrada cuenta esa escena, y las seis
-   páginas de en medio son los seis eslabones del argumento, en orden.
-   -------------------------------------------------------------------------- */
 
 const ARMAS_GERMENES: PaginaLibro[] = [
   {
@@ -1366,7 +1337,6 @@ const ARMAS_GERMENES: PaginaLibro[] = [
       },
     ],
   },
-
   {
     bloques: [
       { b: "rotulo", texto: "Casi nada de lo que hay en el campo se puede domesticar" },
@@ -1397,7 +1367,6 @@ const ARMAS_GERMENES: PaginaLibro[] = [
       },
     ],
   },
-
   {
     bloques: [
       { b: "rotulo", texto: "Eurasia es horizontal, y eso decidió media historia" },
@@ -1419,11 +1388,10 @@ const ARMAS_GERMENES: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Por eso el maíz mexicano tardó siglos en llegar hasta lo que hoy es Estados Unidos, y la rueda, que en Mesoamérica se conocía —hay juguetes con ruedas—, no se usó nunca para transportar: no había animal que tirase de un carro, y el terreno cambiaba demasiado. Cada zona tuvo que inventarlo casi todo por su cuenta.",
+          "Por eso el maíz mexicano tardó siglos en llegar hasta lo que hoy es Estados Unidos, y la rueda, que en Mesoamérica se conocía —hay juguetes con ruedas—, no se usó nunca para transportar: no había animal que tirase de un carro, y el terreno cambiaba demasiado. Cada zona tuvo que inventarlo casi todo por su cuenta. El mismo eje explica algo que suele atribuirse al talento de cada pueblo: la escritura, la metalurgia y la rueda se inventaron pocas veces y se propagaron muchas, y se propagaron mucho mejor a lo largo de un paralelo que cruzando climas. Una técnica viaja por donde puede viajar quien la lleva, y quien la lleva necesita comer por el camino.",
       },
     ],
   },
-
   {
     bloques: [
       { b: "rotulo", texto: "Los gérmenes fueron el arma más eficaz, y no la fabricó nadie" },
@@ -1454,7 +1422,6 @@ const ARMAS_GERMENES: PaginaLibro[] = [
       },
     ],
   },
-
   {
     bloques: [
       { b: "rotulo", texto: "El excedente de comida es lo que fabrica reyes, escribas y soldados" },
@@ -1489,7 +1456,6 @@ const ARMAS_GERMENES: PaginaLibro[] = [
       },
     ],
   },
-
   {
     bloques: [
       { b: "rotulo", texto: "Cajamarca: ciento sesenta y ocho hombres contra ochenta mil" },
@@ -1520,7 +1486,6 @@ const ARMAS_GERMENES: PaginaLibro[] = [
       },
     ],
   },
-
   {
     bloques: [
       { b: "rotulo", texto: "Europa adelantó a China por estar peor comunicada" },
@@ -1551,7 +1516,6 @@ const ARMAS_GERMENES: PaginaLibro[] = [
       },
     ],
   },
-
   {
     bloques: [
       { b: "rotulo", texto: "Conclusión" },
@@ -1579,25 +1543,14 @@ const ARMAS_GERMENES: PaginaLibro[] = [
   },
 ];
 
-/* --------------------------------------------------------------------------
-   Diario de Ana Frank, en ocho páginas.
-
-   El primer libro de esta biblioteca que no es un ensayo con tesis, y hay que
-   escribirlo con cuidado para que no se convierta en un folleto. Dos decisiones:
-
-   NO SE CITA EL DIARIO. Es un texto con derechos y aquí se cuenta lo que hay
-   dentro, no se reproduce. Ninguna página lleva una frase suya entrecomillada.
-
-   LOS TITULARES SIGUEN AFIRMANDO. Un diario no tiene tesis, pero sí tiene
-   hechos discutibles y poco sabidos —que Ana lo estaba reescribiendo para
-   publicarlo, que el libro que se leyó durante décadas estaba recortado por su
-   padre—, y esos son los que sostienen las páginas.
-   -------------------------------------------------------------------------- */
-
 const ANA_FRANK: PaginaLibro[] = [
   {
     bloques: [
-      { b: "rotulo", texto: "El libro más leído sobre el Holocausto lo escribió una niña que no sabía nada de él" },
+      {
+        b: "rotulo",
+        texto:
+          "El libro más leído sobre el Holocausto lo escribió una niña que no sabía nada de él",
+      },
       {
         b: "texto",
         texto:
@@ -1620,10 +1573,13 @@ const ANA_FRANK: PaginaLibro[] = [
       },
     ],
   },
-
   {
     bloques: [
-      { b: "rotulo", texto: "Ocho personas, cincuenta metros cuadrados y ocho horas diarias de silencio" },
+      {
+        b: "rotulo",
+        texto:
+          "Ocho personas, cincuenta metros cuadrados y ocho horas diarias de silencio",
+      },
       {
         b: "texto",
         texto:
@@ -1651,10 +1607,13 @@ const ANA_FRANK: PaginaLibro[] = [
       },
     ],
   },
-
   {
     bloques: [
-      { b: "rotulo", texto: "Ana no estaba escribiendo un diario íntimo: lo estaba reescribiendo para publicarlo" },
+      {
+        b: "rotulo",
+        texto:
+          "Ana no estaba escribiendo un diario íntimo: lo estaba reescribiendo para publicarlo",
+      },
       {
         b: "texto",
         texto:
@@ -1673,11 +1632,10 @@ const ANA_FRANK: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Saber esto cambia cómo se lee. Explica por qué hay páginas tan trabajadas —arranques de escena, diálogos, ironías— en el cuaderno de una chica de quince años: muchas de esas están reescritas por una autora que ya se veía publicando. Y explica también por qué las ediciones modernas señalan qué versión es cada texto.",
+          "Saber esto cambia cómo se lee. Explica por qué hay páginas tan trabajadas —arranques de escena, diálogos, ironías— en el cuaderno de una chica de quince años: muchas de esas están reescritas por una autora que ya se veía publicando. Y explica también por qué las ediciones modernas señalan qué versión es cada texto. Y explica una decisión editorial que ha dado mucho que hablar. Cuando su padre preparó la primera edición en 1947 tenía delante los dos textos, el original y el reescrito, y compuso uno solo mezclándolos, quitando además pasajes sobre la sexualidad de su hija y sobre sus discusiones con su madre. La edición completa, con los tres textos enfrentados, no se publicó hasta 1986.",
       },
     ],
   },
-
   {
     bloques: [
       { b: "rotulo", texto: "Es un libro de adolescencia tanto como de guerra" },
@@ -1708,7 +1666,6 @@ const ANA_FRANK: PaginaLibro[] = [
       },
     ],
   },
-
   {
     bloques: [
       { b: "rotulo", texto: "La detención duró unos minutos y sigue sin saberse quién los delató" },
@@ -1739,7 +1696,6 @@ const ANA_FRANK: PaginaLibro[] = [
       },
     ],
   },
-
   {
     bloques: [
       { b: "rotulo", texto: "El libro existe porque su padre volvió solo y decidió publicarlo" },
@@ -1770,10 +1726,13 @@ const ANA_FRANK: PaginaLibro[] = [
       },
     ],
   },
-
   {
     bloques: [
-      { b: "rotulo", texto: "Convertirla en símbolo de esperanza es la manera más suave de no entenderla" },
+      {
+        b: "rotulo",
+        texto:
+          "Convertirla en símbolo de esperanza es la manera más suave de no entenderla",
+      },
       {
         b: "texto",
         texto:
@@ -1801,7 +1760,6 @@ const ANA_FRANK: PaginaLibro[] = [
       },
     ],
   },
-
   {
     bloques: [
       { b: "rotulo", texto: "Conclusión" },
@@ -1818,7 +1776,7 @@ const ANA_FRANK: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Y hay que leerlo sabiendo cómo llegó hasta nosotros: pasado por la mano de su padre, ampliado décadas después, y envuelto durante años en una lectura consoladora que el texto no sostiene. Con esas tres cosas presentes, el libro gana. Sin ellas, se queda en una frase bonita en una pared.",
+          "Y hay que leerlo sabiendo cómo llegó hasta nosotros: pasado por la mano de su padre, ampliado décadas después, y envuelto durante años en una lectura consoladora que el texto no sostiene. Con esas tres cosas presentes, el libro gana. Sin ellas, se queda en una frase bonita en una pared. Conviene añadir un dato que zanja una discusión que sigue circulando. Desde los años cincuenta se ha afirmado repetidamente que el diario era una falsificación, y por eso el instituto neerlandés de documentación de guerra encargó un peritaje completo: se analizaron el papel, la tinta, el pegamento y la letra, y los resultados se publicaron en la edición crítica de 1986. El texto es suyo.",
       },
       {
         b: "idea",
@@ -8901,24 +8859,6 @@ const SPQR: PaginaLibro[] = [
   },
 ];
 
-/* --------------------------------------------------------------------------
-   El cisne negro, en ocho páginas.
-
-   Taleb escribe con una arrogancia que es parte del argumento y que en un
-   resumen se vuelve insoportable: si se imita el tono, sale un matón; si se
-   quita del todo, se pierde por qué el libro pega tan fuerte. Se cuenta el
-   argumento en llano —regla 6— y se menciona el tono una vez, en la
-   conclusión, donde toca.
-
-   Lo que sostiene el libro son sus distinciones, no sus insultos:
-   Mediocristán frente a Extremistán, el problema del pavo, la falacia
-   narrativa, las pruebas silenciosas. Cada una con su ejemplo.
-
-   Y hay que decir en la conclusión que Taleb acertó en 2008 y que eso no
-   convierte en verdad todo lo demás, que es exactamente el error que el
-   propio libro enseña a no cometer.
-   -------------------------------------------------------------------------- */
-
 const CISNE_NEGRO: PaginaLibro[] = [
   {
     bloques: [
@@ -9050,7 +8990,7 @@ const CISNE_NEGRO: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Junto a eso pone el exceso de confianza en los intervalos. Cuando se pide a alguien una horquilla dentro de la cual está seguro al noventa y ocho por ciento, el valor real cae fuera muchísimo más a menudo del dos por ciento previsto. No es que no sepamos: es que no sabemos cuánto no sabemos.",
+          "Junto a eso pone el exceso de confianza en los intervalos. Cuando se pide a alguien una horquilla dentro de la cual está seguro al noventa y ocho por ciento, el valor real cae fuera muchísimo más a menudo del dos por ciento previsto. No es que no sepamos: es que no sabemos cuánto no sabemos. El caso que pone para cerrar es el suyo. Taleb trabajó de operador de opciones durante años y sostiene que lo que le funcionó no fue predecir mejor que nadie, sino montar sus posiciones de manera que un suceso raro le diera mucho y los años normales le costaran poco. Es una estrategia que da por supuesto que no se sabe nada y se organiza a partir de ahí.",
       },
     ],
   },
