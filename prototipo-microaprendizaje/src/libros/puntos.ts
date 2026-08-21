@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "open-agassi": [
+    "qué cuentas le echaba su padre en el jardín",
+    "qué escondía el peinado con el que se hizo famoso",
+    "cómo cayó al puesto 141 del mundo",
+    "qué le confesó a la asociación de tenistas y qué le pasó",
+    "en qué gastó el dinero al retirarse",
+  ],
+
+  "messi-ronaldo": [
+    "cómo se firmaron los dos fichajes y lo poco que costaron",
+    "por qué casi ningún club habría conservado a Messi",
+    "qué cambió Ronaldo de su cuerpo y de su juego",
+    "qué ganaba la industria con que la discusión no acabara",
+    "cómo salieron los dos de sus clubes",
+  ],
+
   "sexta-extincion": [
     "quién inventó la idea de extinción y cuándo",
     "por qué se rechazó durante siglo y medio la catástrofe",

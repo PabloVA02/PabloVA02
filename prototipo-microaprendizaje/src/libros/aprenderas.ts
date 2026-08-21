@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "open-agassi":
+    "Su padre le montó una máquina lanzabolas en el jardín y le hacía golpear dos mil quinientas pelotas al día, casi un millón al año. El niño ganó ocho torneos del Grand Slam y empieza estas memorias diciendo que odia el tenis.",
+
+  "messi-ronaldo":
+    "Entre 2008 y 2017 se entregaron diez Balones de Oro y los ganaron dos personas. Dos periodistas de economía explican cómo dos carreras opuestas coincidieron con la conversión del fútbol en un espectáculo global.",
+
   "sexta-extincion":
     "Hasta 1796 nadie creía que una especie pudiera desaparecer: los huesos de mamut se atribuían a elefantes escondidos en alguna región sin explorar. Una periodista recorre trece especies para contar cómo se descubrió la extinción y cómo la estamos causando.",
 

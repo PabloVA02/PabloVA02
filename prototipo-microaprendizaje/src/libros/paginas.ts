@@ -39066,7 +39066,563 @@ const SEXTA_EXTINCION: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Messi vs. Ronaldo, en ocho páginas.
+
+   Breve. El primero de la categoría de Deportes, que pidió Pablo el 21 de
+   agosto.
+
+   Registro de ENSAYO periodístico: el titular afirma, tercera persona. Nada
+   de segunda persona: no es un libro práctico.
+
+   El libro es de 2021, así que se aplica la regla del marcador del apartado
+   4 bis: la fecha va en la primera página y la conclusión dice qué pasó
+   después, que en este caso es lo más importante de los dos —el Mundial de
+   2022 y las dos salidas de Europa—.
+   -------------------------------------------------------------------------- */
+
+const MESSI_RONALDO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Durante diez años seguidos el mejor jugador del mundo fue uno de dos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entre 2008 y 2017 se entregaron diez Balones de Oro y los ganaron dos personas. Ningún tercer futbolista del planeta se acercó en una década entera. Antes de eso, el premio cambiaba de manos casi cada año; después de 2018 volvió a repartirse. Ese hueco de diez años es una anomalía estadística que no tiene precedente en ningún deporte de equipo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Jonathan Clegg y Joshua Robinson, dos periodistas del Wall Street Journal, publicaron en 2021 este libro para explicar cómo ocurrió aquello. Su tesis no es que fueran los dos mejores de la historia, que es una discusión de bar sin final: es que la rivalidad y la época se hicieron la una a la otra. El fútbol se convirtió en esos años en un producto global de televisión, y necesitaba exactamente dos caras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El punto de partida del libro es que los dos son opuestos casi en todo. Uno mide un metro setenta y necesitó inyecciones de hormona del crecimiento durante tres años para llegar ahí; el otro mide un metro ochenta y siete y se construyó el cuerpo a propósito. Uno salió de una cantera que llevaba veinte años preparándose para recibirlo; el otro salió de una isla del Atlántico donde nadie esperaba nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren el argumento entero: las dos historias de origen y por qué ninguna se podría repetir hoy, el sistema que salvó a un niño que cualquier otro club habría descartado, el cuerpo entendido como un proyecto de ingeniería, el negocio que los dos sostuvieron, los nueve años en que coincidieron en la misma liga y lo que aquello les costó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que dos personas se repartan diez años de un premio mundial no dice solo lo buenas que eran: dice algo del sistema que las midió.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "A uno lo fichó una servilleta y al otro, una nota de un ojeador sin presupuesto",
+      },
+      {
+        b: "texto",
+        texto:
+          "En diciembre de 2000, un niño argentino de trece años llevaba dos semanas entrenando a prueba en Barcelona y el club no acababa de decidirse, porque fichar a un extranjero de esa edad obligaba a mudar a la familia entera. El secretario técnico, Carles Rexach, llegó tarde a una comida en un club de tenis, no tenía papel a mano y escribió el compromiso de contratarlo en una servilleta. Esa servilleta existe y se ha exhibido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un año y medio antes, en Portugal, el ojeador del Sporting de Lisboa Aurélio Pereira había escrito un informe interno sobre un chaval de doce años de Madeira. Recomendaba pagar por él una cantidad que para el club era mucho dinero, y añadía una frase que hoy se lee como una profecía: su talento excepcional justifica la inversión, aunque el riesgo económico sea evidente. El Sporting pagó, y el niño se fue de la isla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los dos traslados fueron duros de una manera que el mito suele saltarse. Cristiano Ronaldo llegó a Lisboa a los doce años, no conocía a nadie, hablaba con un acento del que se reían sus compañeros y llamaba a casa llorando; en la residencia lo pillaron intentando volver a Madeira. Lionel Messi se instaló en Barcelona con su padre mientras su madre y sus hermanos regresaban a Rosario, y pasó casi un año sin poder jugar partidos oficiales por trámites de federación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Clegg y Robinson insisten en un detalle que cambia cómo se lee todo lo demás: las dos operaciones costaron muy poco y las dos estuvieron a punto de no hacerse. Hoy ninguna sería posible en esos términos, porque las reglas sobre fichar menores extranjeros cambiaron —al propio Barcelona lo sancionaron por eso en 2014— y porque un chico con esas condiciones ya está fichado a los diez años por un club con mucho más dinero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las dos carreras más rentables de la historia del fútbol empezaron con dos decisiones que casi no se toman.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cualquier club que no fuera aquel habría descartado a Messi a los once años",
+      },
+      {
+        b: "texto",
+        texto:
+          "A los once años, a Messi le diagnosticaron un déficit de hormona del crecimiento. El tratamiento eran inyecciones diarias durante años y costaba unos novecientos dólares al mes, una cantidad que su familia no podía pagar sola y que su club de entonces, Newell's Old Boys, no quiso asumir. Él mismo se ponía la inyección en las piernas, alternando una y otra cada noche.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El Barcelona aceptó pagarlo, y esa es la parte que el libro señala como decisiva. No fue generosidad: fue que aquel club tenía, desde la reforma que había impulsado Johan Cruyff en los años ochenta, una cantera construida sobre una idea concreta del juego en la que el tamaño no era el filtro. En una escuela que selecciona por centímetros y por potencia, un niño de esa estatura no llega a los quince años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa misma idea explica lo que vino después. Cuando Pep Guardiola llegó al primer equipo en 2008, movió a Messi de la banda derecha al centro del campo, a la posición de falso nueve, para que recibiera el balón lejos de los defensas grandes y de cara a la portería. La medida convirtió un problema físico en una ventaja: cuanto más bajo es el centro de gravedad, más difícil resulta hacer caer a alguien que cambia de dirección cada dos metros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que sacan los autores es incómoda para el discurso habitual del talento. Messi no llegó porque un talento así se abre camino solo, sino porque coincidió con la única institución de Europa que estaba preparada para no descartarlo, y que además pagó una factura médica. El mismo niño, en la mayoría de los clubes de la época, se habría quedado en el camino sin que nadie se enterara.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un talento excepcional no se abre camino solo: necesita una institución dispuesta a no descartarlo por lo que le falta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ronaldo trató su cuerpo como un proyecto de ingeniería y ganó doce años de carrera",
+      },
+      {
+        b: "texto",
+        texto:
+          "El Cristiano Ronaldo que llegó al Manchester United en 2003 era un extremo delgado de dieciocho años que hacía muchos regates y pocos goles. El que se retiró de Europa dos décadas después era un delantero centro musculado que apenas driblaba y remataba de cabeza por encima de defensas más altos. Esa transformación no fue natural: fue un plan, y el libro la reconstruye paso a paso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Alex Ferguson le puso un preparador físico personal y le prohibió durante meses hacer regates gratuitos. Él se quedaba a entrenar después de todos los demás. Cambió la alimentación, eliminó el alcohol, se hizo instalar una cámara de crioterapia en casa y contrató a un especialista del sueño que le organizó el descanso en varios tramos de noventa minutos en lugar de una noche seguida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado es medible. Su porcentaje de grasa corporal se mantuvo durante años por debajo del diez por ciento, cuando lo normal en un futbolista profesional de élite ronda el once o el doce. En la temporada 2007-08 marcó cuarenta y dos goles y ganó su primer Balón de Oro; en 2009 el Real Madrid pagó por él noventa y cuatro millones de euros, entonces la cifra más alta jamás pagada por un jugador.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Clegg y Robinson subrayan no es la disciplina, que se cuenta en cualquier reportaje, sino su consecuencia estratégica. Un jugador que depende de la explosividad y del regate se apaga a los treinta; uno que ha convertido su juego en posicionamiento, remate y potencia aérea puede seguir marcando a los treinta y ocho. Ronaldo se rediseñó dos veces para no depender nunca de lo que iba a perder.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Rediseñarse antes de que el cuerpo falle es lo que separa una carrera larga de una carrera brillante y corta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La rivalidad no fue solo deportiva: fue el motor comercial de una industria entera",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte más original del libro es la que sus autores conocen mejor, porque son periodistas de economía y no cronistas deportivos. Su argumento es que los años de Messi y Ronaldo coinciden exactamente con la conversión del fútbol europeo en un producto de televisión mundial, y que esa conversión necesitaba una historia sencilla que se pudiera contar en cualquier idioma. Dos hombres discutiendo por el mismo título todos los años es esa historia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los números del negocio acompañan. Los derechos televisivos de las grandes ligas se multiplicaron en esos años, los partidos empezaron a programarse en horarios pensados para Asia y los clubes se convirtieron en marcas con oficinas en otros continentes. El Clásico, que era un partido nacional, pasó a verse en más de ciento cincuenta países y a venderse como un acontecimiento en sí mismo, independiente de la clasificación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto individual de cada uno es igual de medible. Cuando Messi firmó por el París Saint-Germain en 2021, el club ganó unos trece millones de seguidores en redes sociales en menos de una semana. Ronaldo lleva años siendo la persona más seguida del mundo en Instagram, por delante de cualquier actor o músico. Un futbolista dejó de ser un empleado del club para convertirse en un medio de comunicación con negociación propia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la advertencia del libro. Si la rivalidad fue en parte un producto, entonces buena parte de la discusión sobre quién era mejor la fabricaron las mismas empresas que ganaban dinero con que la discusión no terminara nunca. Los autores lo dicen con claridad: la pregunta que millones de personas discuten cada semana estaba diseñada para no tener respuesta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una discusión que no se puede cerrar es el producto perfecto: se puede vender indefinidamente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Durante nueve años los dos mejores del mundo jugaron en la misma liga, y eso no había pasado nunca",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entre 2009 y 2018, Messi jugó en el Barcelona y Ronaldo en el Real Madrid. Es un hecho que se da por descontado y que el libro trata como lo que es: una casualidad histórica. Los dos mejores jugadores del planeta se enfrentaban dos veces al año en liga, más los cruces de Copa y de Europa, delante de la misma cámara y con el marcador comparándolos cada semana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto sobre las cifras fue una escalada. En el año natural de 2012, Messi marcó noventa y un goles entre club y selección, un récord mundial que nadie había rozado. Ronaldo respondió con temporadas de más de cincuenta goles seguidas y acabó siendo el máximo goleador histórico de la Liga de Campeones. Ninguno de los dos habría llegado a esos números sin el otro empujando desde ochocientos kilómetros más allá.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También cambió cómo se jugaban esos partidos. Los entrenadores empezaron a plantear los Clásicos en función de neutralizar a un hombre concreto, y José Mourinho llevó esa idea al extremo en el Madrid entre 2010 y 2013, con una serie de eliminatorias y finales que en dieciocho días llegaron a acumular cuatro enfrentamientos. Aquella temporada dejó tarjetas rojas, denuncias cruzadas y una tensión que rebasó el deporte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los autores señalan lo que el reparto tapó. Mientras esos dos acumulaban premios individuales, las dos ligas y las dos plantillas que los rodeaban se llevaban una parte enorme del dinero europeo, y el resto del continente competía en otra escala. La época que se recuerda como la mejor del fútbol es también la que más desigual dejó la competición.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ninguno de los dos habría llegado a esas cifras sin el otro obligándole a subir cada temporada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los dos acabaron condenados por fraude fiscal y los dos salieron mal de su club",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte que menos aparece en los documentales ocupa un capítulo entero. Los dos fueron condenados en España por defraudar a Hacienda con los derechos de imagen, sociedades en el extranjero y facturación cruzada. Messi recibió en 2016 una pena de veintiún meses de prisión, suspendida, y una multa millonaria; Ronaldo aceptó en 2019 una condena de veintitrés meses, también suspendida, y una multa de casi diecinueve millones de euros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro no lo cuenta como escándalo sino como síntoma. Los ingresos por imagen de los dos superaban con mucho su ficha como futbolistas, y ese dinero circulaba por estructuras montadas por asesores en varios países. Es la consecuencia lógica de lo que se explica dos páginas antes: cuando un jugador se convierte en una empresa, sus problemas dejan de ser deportivos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las dos salidas tampoco fueron un final ordenado. Ronaldo dejó el Real Madrid en 2018 después de ganar tres Copas de Europa seguidas, en una ruptura por dinero y por trato. Messi se despidió del Barcelona en agosto de 2021 en una rueda de prensa llorando, no porque quisiera irse, sino porque el club estaba tan endeudado que el reglamento salarial de la liga no le permitía inscribir su contrato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el punto donde el relato heroico se rompe, y los autores lo aprovechan. Ni el jugador más rentable de la historia de un club pudo evitar que ese club se arruinara administrándose mal, ni el otro pudo negociar quedarse donde había ganado todo. La industria que los dos habían ayudado a construir acabó tratándolos exactamente como a lo que eran para ella: dos activos con fecha.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El jugador que más dinero genera de la historia de un club no pudo impedir que ese club dejara de poder pagarle.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Messi vs. Ronaldo sostiene que la rivalidad no fue una coincidencia sino un producto de su época: dos carreras opuestas —una salvada por una cantera y una factura médica, otra construida a base de rediseñarse el cuerpo— que coincidieron con el momento en que el fútbol europeo se convirtió en un espectáculo global de televisión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la mirada del periodista económico sobre un asunto que casi siempre se cuenta en clave épica. Las cifras de derechos televisivos, la escala del negocio de imagen y las reglas que impidieron inscribir a Messi explican cosas que ningún resumen de goles explica.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Detrás de la discusión deportiva más repetida del siglo hay una industria a la que le convenía que no se cerrara nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Lo firman dos reporteros del Wall Street Journal y se nota en las dos direcciones: es excelente con el dinero y flojo con el fútbol. Casi no hay análisis táctico, y quien quiera entender cómo se movía Ronaldo dentro del área no lo va a encontrar aquí. Está además construido con fuentes de segunda mano: ninguno de los dos protagonistas habló con los autores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una contradicción que el libro no resuelve. Denuncia que la rivalidad se fabricó como producto y a la vez organiza cada capítulo como un duelo, con lo cual repite el formato que critica. El fútbol femenino y lo que ocurrió fuera de las cinco grandes ligas europeas apenas aparecen, pese a un subtítulo que promete la época que cambió el fútbol mundial.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después deja el final del libro desfasado. Se publicó en 2021, y en diciembre de 2022 Messi ganó el Mundial con Argentina, que era lo único que le faltaba y lo que zanjó la discusión para buena parte del público. Semanas más tarde Ronaldo firmó por el Al Nassr saudí por la cifra anual más alta jamás pagada a un deportista, y en 2023 Messi se fue al Inter Miami. Los dos terminaron su carrera europea el mismo año y en ligas que el libro ni menciona.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   Open, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO (memorias): títulos cortos de imagen, la afirmación en
+   la primera frase, y la caja del rayo hablándole al lector.
+
+   La conclusión lleva las tres cosas que no salen en la contraportada: que
+   lo escribió un negro literario premiado con el Pulitzer, que la confesión
+   de las metanfetaminas no le costó nada, y que la frase «odio el tenis» no
+   se sostiene del todo cuando se mira lo que hizo después de caer al puesto
+   141.
+   -------------------------------------------------------------------------- */
+
+const OPEN_AGASSI: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El dragón del jardín" },
+      {
+        b: "texto",
+        texto:
+          "La primera frase del libro es que odia el tenis, que lo odia con una pasión oscura y secreta, y que siempre lo ha odiado. La escribe un hombre que ganó ocho torneos del Grand Slam, una medalla de oro olímpica y fue número uno del mundo, y esa contradicción es el motor de las trescientas páginas siguientes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Andre Agassi publicó estas memorias en 2009, tres años después de retirarse. Su padre, Mike Agassi, había nacido en Teherán, era de origen armenio, había boxeado por Irán en dos Juegos Olímpicos y emigró a Estados Unidos convencido de que uno de sus hijos sería el número uno del mundo en tenis. Andre fue el cuarto y el elegido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el jardín de la casa de Las Vegas había una pista y una máquina lanzabolas que el padre había desmontado y vuelto a montar para que disparara más fuerte y desde más arriba. El niño la llamaba el dragón. La cuenta que le hacía su padre era esta: dos mil quinientas pelotas al día son diecisiete mil quinientas a la semana y casi un millón al año, y quien golpea un millón de pelotas al año no puede perder.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que salió de ahí: una infancia entrenada como un trabajo, un internado deportivo que él describe como una cárcel, una fama construida sobre una imagen falsa, una caída hasta el puesto ciento cuarenta y uno del mundo con metanfetamina de por medio, la reconstrucción física que le dio ocho años más de carrera y lo que decidió hacer con el dinero al final.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que se te dé extraordinariamente bien algo no significa que lo hayas elegido tú.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un millón de pelotas al año" },
+      {
+        b: "texto",
+        texto:
+          "El entrenamiento empezaba antes del colegio y seguía al salir, todos los días, sin excepciones ni vacaciones. Agassi cuenta que aprendió a odiar el sonido de la máquina antes que a leer, y que su padre calculaba en voz alta las pelotas que faltaban como quien lleva la contabilidad de un negocio. Si el niño lloraba, el padre subía la velocidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los detalles de aquel régimen son los que hacen incómodo el libro. El padre le colgaba pelotas de las paredes de la habitación para que las mirara al dormirse. Le enseñó a devolver el saque golpeando temprano, muy cerca del bote, porque así el rival no tenía tiempo de recolocarse, y esa manera de restar, aprendida a los siete años, acabó siendo la mejor del circuito durante dos décadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y una escena que él coloca sin comentar. Antes de un partido de categoría infantil, su padre le puso una pastilla en la mano y le dijo que se la tomara. Andre preguntó qué era y el padre contestó que le haría sentirse bien. No hubo más explicación. El niño se la tomó y jugó el partido con el corazón desbocado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro no presenta al padre como un monstruo, y ese es su mayor acierto. Lo presenta como un hombre que llegó sin nada, que trabajaba de acomodador en un casino y que estaba convencido de estar regalándole a su hijo la vida que él no había tenido. Las dos cosas son verdad a la vez, y de ahí sale casi todo el dolor del relato.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Alguien puede arruinarte la infancia creyendo sinceramente que te está salvando la vida.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El internado de Florida" },
+      {
+        b: "texto",
+        texto:
+          "A los trece años lo mandaron interno a la academia de Nick Bollettieri, en Bradenton, Florida, y él la describe como un campamento penitenciario con pistas de tenis. Tres mil kilómetros de casa, literas, comida mala, entrenamiento por la mañana y por la tarde, y un sistema de clasificación interna en el que los chicos se jugaban el sitio unos contra otros todos los días.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Iba a estar tres meses y se quedó tres años. Dejó el colegio en el equivalente a tercero de secundaria y no volvió nunca a un aula. Esa decisión, tomada por otros cuando tenía catorce años, es la que explica el final del libro, y él la señala como la herida que peor cicatrizó: no la de haber jugado al tenis, sino la de no haber estudiado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La rebeldía apareció ahí, y tenía una forma concreta. Se pintó las uñas, se puso pendientes, se maquilló los ojos, se dejó una melena teñida y salía a jugar con vaqueros cortados. No era una estrategia de imagen: era la única manera que se le ocurrió de tener algo suyo dentro de una vida que le habían programado entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se hizo profesional a los dieciséis años y a los dieciocho ya estaba entre los diez primeros del mundo. Bollettieri lo acompañó como entrenador durante diez años y un día le comunicó por fax que se marchaba a trabajar con otro jugador. Agassi cuenta que se enteró de que su entrenador lo dejaba por una hoja que salió de una máquina.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Rebelarse con la ropa y el pelo suele ser la señal de que no te han dejado decidir nada importante.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El pelo se caía a trozos" },
+      {
+        b: "texto",
+        texto:
+          "En 1990 protagonizó un anuncio de cámaras cuyo eslogan —la imagen lo es todo— se le quedó pegado durante quince años y se usó como prueba de que era un frívolo. El libro cuenta lo que había debajo de aquella imagen, y es la mejor escena que tiene. Agassi se estaba quedando calvo a los veinte años y llevaba un postizo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La noche anterior a la final de Roland Garros de 1990, la primera final de Grand Slam de su vida, el postizo se le deshizo en la ducha. Su hermano se lo sujetó con unas veinte horquillas. Salió a jugar la final rezando para no lanzarse a por una dejada, porque si aquello se movía delante de las cámaras del mundo entero se acababa todo. Perdió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Perdió también sus tres primeras finales grandes, y la prensa decidió que era un jugador de espectáculo sin carácter. Ganó Wimbledon en 1992, precisamente el torneo que había boicoteado durante años por su norma de vestir de blanco, y aun así la etiqueta no se le cayó de encima.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La moraleja que saca el propio Agassi es sobre la distancia entre lo que la gente ve y lo que hay. Durante años lo describieron como alguien que se lo tomaba todo a broma mientras él salía a jugar aterrorizado por un peluquín. Cuando por fin se afeitó la cabeza, en 1995, ganó y llegó por primera vez al número uno del mundo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que los demás llaman tu personalidad suele ser lo único de ti que han podido ver desde lejos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El número ciento cuarenta y uno" },
+      {
+        b: "texto",
+        texto:
+          "En noviembre de 1997, Andre Agassi era el número ciento cuarenta y uno del mundo. Tenía veintisiete años, una lesión en la muñeca, un matrimonio que se rompía y estaba jugando torneos menores en polideportivos con doscientas personas en la grada, cobrando premios de tres cifras. Es el punto más bajo del libro y el que lo hace creíble.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese mismo año consumió metanfetamina con un ayudante suyo al que llama Slim, dio positivo en un control antidopaje de la asociación de tenistas y escribió una carta explicando que había bebido sin querer de un refresco contaminado. Era mentira. La asociación aceptó la explicación, archivó el caso y nadie se enteró durante doce años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta las dos cosas —el consumo y la mentira— sin buscar excusas, y describe con precisión lo que sentía: alivio, sobre todo, y una sensación de estar por fin haciendo algo que no le habían mandado. También cuenta que lo dejó él solo, sin tratamiento, y que lo que le hizo parar no fue la salud sino la vergüenza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Desde ahí decidió empezar otra vez desde abajo en lugar de retirarse. Se apuntó al circuito de segunda categoría, jugó torneos que ningún exnúmero uno juega y subió puesto a puesto. En 1998 terminó el año entre los diez primeros del mundo, en la mayor subida de posiciones registrada en una temporada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Volver a empezar delante de doscientas personas cuando has llenado estadios es la prueba de fuego de cualquier carrera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El hombre que le preparaba la bebida" },
+      {
+        b: "texto",
+        texto:
+          "La relación más importante del libro no es con ninguna de sus parejas: es con Gil Reyes, su preparador físico durante diecisiete años. Reyes trabajaba en el gimnasio de la universidad de Nevada, dejó su empleo para irse con él y le diseñó desde cero la manera de entrenar, de comer y de recuperarse. Le preparaba a mano una bebida de sales que Agassi llama simplemente agua de Gil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hacía falta, porque el cuerpo estaba mal desde niño. Agassi tenía una espondilolistesis: una vértebra desplazada que le presionaba el nervio, agravada por dos décadas de golpear un millón de pelotas al año. Los últimos años jugó infiltrado con cortisona y describe las mañanas siguientes a un partido como el rato en que su mujer le ponía los calcetines porque él no podía agacharse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Reyes reconstruyó el cuerpo alrededor de esa lesión en lugar de intentar arreglarla. Trabajó las piernas para que el tren inferior aguantara lo que la espalda ya no podía, cambió el calzado, midió cada sesión y le prohibió los entrenamientos largos que hasta entonces se consideraban obligatorios. Con eso Agassi jugó ocho años más de los que le daban los médicos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que el libro cuenta de esa relación es el otro asunto de fondo: la diferencia entre alguien que te exige y alguien que te acompaña. El padre calculaba pelotas; Reyes le preguntaba cómo estaba. Agassi escribe que fue la primera vez en su vida que un adulto le organizó el trabajo sin condicionarlo a que ganara.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un cuerpo roto se puede rodear en lugar de arreglar, si alguien se molesta en medirlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ganar lo que ya no le importaba" },
+      {
+        b: "texto",
+        texto:
+          "En 1999, con veintinueve años, Agassi ganó Roland Garros, el único torneo grande que le faltaba, remontando dos sets en la final. Con eso completó el Grand Slam de toda la carrera, algo que en aquel momento solo habían conseguido cuatro hombres en la historia. Volvió a ser número uno, y en 2003 lo fue con treinta y tres años, el más veterano hasta entonces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro es explícito sobre lo poco que le llenó aquello. Describe la victoria como un alivio administrativo, no como una alegría, y repite que ganar solo se siente durante unos minutos mientras que perder dura semanas. Su tesis es que en el tenis no hay equipo, no hay descanso y no hay empate: se juega solo hasta que alguien pierde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí le importaba llegó en 2001. Con el dinero ganado abrió en un barrio pobre de Las Vegas un colegio público concertado para niños en riesgo de dejar los estudios, con jornada larga y uniforme, precisamente porque él había abandonado la escuela a los catorce años y nunca se lo perdonó. Es la única parte del libro en la que escribe con orgullo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se retiró en el Abierto de Estados Unidos de 2006, con treinta y seis años, perdiendo en tercera ronda y sin poder inclinarse a recoger las pelotas. En el discurso de despedida dijo que el público le había dado algo que no había conocido de niño, y que se llevaba eso. Ese es el final del libro, y no es una victoria.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ganar dura unos minutos y perder dura semanas: cualquiera que compita mucho tiempo acaba descubriéndolo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Open cuenta la vida de un hombre al que entrenaron para un oficio que no eligió, que llegó a lo más alto de él sin quererlo, que se cayó hasta el puesto ciento cuarenta y uno del mundo y volvió a subir, y que al final gastó el dinero en construir el colegio al que él no fue. La frase con la que empieza —odio el tenis— es la que sostiene el libro entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una descripción del deporte de élite sin ninguna de sus fórmulas habituales. No hay superación, ni pasión, ni sueño cumplido: hay un trabajo empezado a los siete años, un cuerpo destrozado a los treinta y la constatación de que ganar produce mucho menos de lo que quita perder.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En cualquier carrera que dependa de ganar, la alegría es breve y la derrota es larga, y nadie lo avisa antes de empezar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. No lo escribió Agassi. Lo redactó J. R. Moehringer, periodista con un premio Pulitzer, a partir de más de doscientas horas de entrevistas, y se nota en cada página: la prosa es demasiado buena para ser la voz espontánea de nadie. Moehringer no quiso figurar en la cubierta, pero el libro se lee como si fuera la voz directa del jugador, y no lo es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la confesión del dopaje sale barata. Admite que consumió metanfetamina y que mintió por escrito a la asociación de tenistas, y no le pasó nada: no hubo sanción retroactiva, no devolvió premios ni puntos, y el caso no se reabrió. Lo contó en un libro que estaba vendiendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La frase famosa tampoco resiste del todo. Alguien que odia su oficio no vuelve voluntariamente desde el puesto ciento cuarenta y uno jugando torneos menores, ni sigue compitiendo hasta los treinta y seis con una vértebra desplazada. Lo que el libro describe se parece menos al odio que a una relación imposible de romper, y llamarlo odio es lo que hace la primera frase memorable a costa de ser exacta.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "open-agassi": OPEN_AGASSI,
+  "messi-ronaldo": MESSI_RONALDO,
   "sexta-extincion": SEXTA_EXTINCION,
   "error-descartes": ERROR_DESCARTES,
   "lenguajes-amor": LENGUAJES_AMOR,
