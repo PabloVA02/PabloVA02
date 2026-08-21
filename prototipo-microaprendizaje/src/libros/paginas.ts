@@ -46428,7 +46428,7 @@ const DINERO_DOMINA_JUEGO: PaginaLibro[] = [
       {
         b: "idea",
         texto:
-          "Quédate con las entrevistas y con el capítulo de comisiones; con la cartera, quédate con el razonamiento de los cuatro climas y no con los números del folleto.",
+          "Quédate con las entrevistas y con el capítulo de comisiones; de la cartera, con el razonamiento de los cuatro climas y no con los números del folleto.",
       },
     ],
   },
