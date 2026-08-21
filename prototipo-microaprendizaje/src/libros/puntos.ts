@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "senor-moscas": [
+    "contra qué libro está escrito este libro",
+    "por qué se apaga la hoguera justo cuando pasa un barco",
+    "qué es de verdad la bestia de la montaña",
+    "qué le pasa al único que descubre la verdad",
+    "cómo acabó el mismo naufragio en la vida real",
+  ],
+
   "gran-gatsby": [
     "por qué el hombre que da las fiestas no bebe",
     "qué separa el dinero viejo del recién hecho",

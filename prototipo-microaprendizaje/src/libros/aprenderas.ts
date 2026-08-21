@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "senor-moscas":
+    "Un avión con niños británicos se estrella en una isla desierta y no queda ningún adulto. Montan una democracia en veinte minutos y tardan unas semanas en desmontarla.",
+
   "gran-gatsby":
     "Un hombre riquísimo da fiestas enormes todos los sábados para una sola persona, que vive al otro lado de la bahía y está casada con otro. Todo lo demás lo compró para eso.",
 

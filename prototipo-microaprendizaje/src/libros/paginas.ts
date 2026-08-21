@@ -15628,7 +15628,234 @@ const GRAN_GATSBY: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El señor de las moscas, en ocho páginas.
+
+   Breve. Registro narrativo.
+
+   Dos cosas que ningún resumen cuenta y que aquí mandan. Una: el libro es
+   la RESPUESTA a otro libro, La isla de coral, de 1858, hasta el punto de
+   que Golding le robó los nombres de los protagonistas. Dos: en 1965
+   ocurrió el mismo naufragio de verdad, con seis chavales de Tonga, y
+   salió al revés. Eso va en la conclusión, por la regla (d) de la 4 bis:
+   es lo que más valor añade y no está en ninguna contraportada.
+   -------------------------------------------------------------------------- */
+
+const SENOR_MOSCAS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un libro escrito contra otro libro" },
+      {
+        b: "texto",
+        texto:
+          "En 1858, un escocés llamado Ballantyne publicó La isla de coral, una novela de aventuras para chicos en la que tres muchachos británicos naufragan en una isla desierta y se portan de maravilla: construyen, rezan, se ayudan, convierten a los caníbales y vuelven a casa hechos unos hombres. Fue un éxito enorme y durante un siglo formó parte de la educación sentimental de medio imperio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Casi cien años después, un profesor de instituto inglés que había pasado la guerra en la Marina y había visto el desembarco de Normandía decidió contestarle. Cogió el mismo naufragio, la misma isla y hasta los nombres de dos de aquellos chicos —Ralph y Jack— y escribió lo que él creía que pasaría de verdad. El resultado se publicó en 1954 y lo rechazaron veinte editoriales antes de que una lo aceptara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El planteamiento es limpio: un avión que evacuaba a un grupo de niños británicos de una guerra se estrella en una isla del Pacífico. No hay adultos, no hay heridos graves, hay agua, fruta y cerdos salvajes. Los mayores tienen doce años y los pequeños unos seis. Se trata de organizarse hasta que los rescaten.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren cómo se organizan y cómo se deshace la organización: qué es la caracola, por qué se apaga la hoguera, qué es la bestia que los aterroriza, quién descubre la verdad y qué le pasa por descubrirla, y qué dice el adulto que llega al final.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Este libro no nació de una idea sobre los niños: nació de la sospecha de que otro libro había mentido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El que tiene la caracola, habla" },
+      {
+        b: "texto",
+        texto:
+          "Lo primero que encuentran en la playa es una caracola grande y rosada, y con ella montan una civilización en veinte minutos. Se sopla y todos acuden; se convoca una asamblea; se vota a un jefe. Y se establece la única ley del libro, que además es una ley de procedimiento: quien tiene la caracola en las manos puede hablar y los demás escuchan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ralph, elegido jefe, propone lo sensato: refugios para dormir, agua limpia, un sitio fijo para hacer sus necesidades y, sobre todo, una hoguera encendida en la cima para que la vea un barco. Jack, que dirigía un coro y llega en fila con sus chicos, se encarga de la caza. Al principio funciona todo, y las primeras cuarenta páginas del libro son casi una novela de aventuras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle importante es cuánto duran esas normas. Los refugios los acaban levantando dos personas, porque los demás se van a bañar. El sitio para hacer sus necesidades deja de respetarse en tres días. Y las asambleas se convierten en un ruido donde los pequeños piden la caracola para contar cosas que no vienen a cuento. Nadie derriba el sistema: se va quedando sin gente que lo sostenga. Y hay un detalle que Golding cuida: los pequeños, a los que llaman los peques, no salen nunca en las cuentas. Nadie sabe cuántos son ni cómo se llaman.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las reglas no se rompen a gritos: se quedan sin nadie que se moleste en cumplirlas, y un día ya no existen.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La hoguera o la carne" },
+      {
+        b: "texto",
+        texto:
+          "El conflicto de todo el libro cabe en una elección práctica: mantener el fuego encendido o cazar. La hoguera no da de comer, es aburrida, hay que subir leña y turnarse; solo sirve para algo que puede no ocurrir nunca, que es que pase un barco. La caza da carne caliente, emoción y algo que contar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena que parte la novela en dos es exactamente esa. Jack se lleva a los encargados del fuego a una batida, matan su primer cerdo y vuelven cantando, con las manos ensangrentadas, orgullosos. Mientras tanto la hoguera se ha apagado, y por el horizonte ha pasado un barco. Ralph lo vio y no pudo hacer nada. La discusión que viene después no la gana nadie: Jack pide perdón con una habilidad de político y los demás lo aplauden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está el argumento de fondo, y no es sobre maldad: es sobre plazos. Lo que salva a largo plazo es invisible y cuesta esfuerzo hoy; lo que da satisfacción hoy se ve, se huele y se come. Un grupo de doce años no es capaz de sostener lo primero, y el libro sugiere, sin decirlo, que un grupo de cuarenta tampoco lo hace mucho mejor. Ralph lo dice en la asamblea y no le sirve de nada: hacer una choza cuesta un día entero y no la ve nadie; matar un cerdo cuesta una tarde y lo cuenta todo el mundo esa noche.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Entre una hoguera que quizá te salve algún día y una carne que se come esta noche, la carne gana casi siempre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La bestia que sí existía" },
+      {
+        b: "texto",
+        texto:
+          "El miedo empieza con un niño pequeño que dice haber visto una serpiente enorme, y los mayores lo tranquilizan explicándole que no hay bestias en la isla. Ese niño desaparece en el incendio de la primera hoguera y nadie vuelve a mencionarlo: es el primer muerto y ni siquiera se cuenta como tal, porque nadie sabe cuántos son en total.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después el miedo crece solo, alimentado por pesadillas y por lo que se cuentan de noche. Y entonces ocurre la peor casualidad del libro: en un combate aéreo, muy arriba, un piloto salta y su paracaídas cae sobre la cima de la montaña. El hombre está muerto. El viento hincha y afloja las cuerdas, así que el cuerpo se levanta y se inclina una y otra vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dos chicos suben de noche, lo ven moverse en la oscuridad y bajan corriendo. A partir de ese momento la bestia es un hecho comprobado y la montaña queda prohibida, o sea que la hoguera se abandona. Y ahí está el detalle más fino de toda la novela: la bestia que los condena es un adulto muerto en una guerra de adultos que les ha caído encima desde el cielo. Y ninguno de los dos que suben se acerca lo suficiente para mirarlo bien: lo ven moverse, y con eso ya está decidido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que los aterroriza no ha salido de la isla: se lo han mandado desde el mundo del que venían huyendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El que lo entendió" },
+      {
+        b: "texto",
+        texto:
+          "Simon es un chico raro y callado que se marea, que ayuda a los pequeños a coger fruta de las ramas altas y que se marcha solo a un claro entre lianas a sentarse. Es el único que, en plena discusión sobre la bestia, se atreve a decir en voz alta lo que sospecha: que a lo mejor la bestia son ellos. Se ríen de él y no sabe explicarse mejor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después llega la escena que da título al libro. Los cazadores clavan la cabeza de una cerda en un palo como ofrenda a la bestia, y Simon, solo y con fiebre, se queda mirándola cubierta de moscas. La cabeza le habla —él sabe que es un desmayo, y a la vez la oye— y le dice que es inútil escapar, que ella es parte de él y que por eso las cosas están como están. El señor de las moscas es la traducción de un nombre antiguo del diablo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Simon sube a la montaña, encuentra el cadáver del paracaidista, desenreda las cuerdas y comprende que no hay ninguna bestia. Baja corriendo a contárselo. Llega de noche, en mitad de una danza en la que los demás están representando la caza, gritando en círculo bajo la tormenta. Lo toman por la bestia y lo matan a golpes y con las manos. Al único que sabía la verdad, y por traerla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El que baja de la montaña con la noticia buena llega de noche, y de noche nadie mira quién viene.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las gafas y la caracola" },
+      {
+        b: "texto",
+        texto:
+          "Piggy es gordo, asmático, de clase baja, habla mal y es el más inteligente de la isla. Nadie usa su nombre; le llaman por el mote que él pidió que no le pusieran. Y sus gafas son el único objeto tecnológico del grupo: sin ellas no hay fuego, así que toda la esperanza de rescate depende de un chico al que todos desprecian.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escalada se puede seguir por esas gafas. Primero se las quitan prestadas para encender; luego se las rompen a medias en una pelea; después, ya con el grupo partido en dos, la tribu de Jack asalta el campamento de noche y se las roba, porque prefieren robar el fuego a pedirlo. Piggy, medio ciego, decide bajar hasta la roca donde acampan a reclamarlas con la caracola en las manos, apelando a las reglas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo matan mientras habla. Un chico empuja una piedra enorme desde arriba, la piedra lo arrastra al mar y la caracola le estalla en las manos y se hace mil pedazos. Golding lo cuenta en una sola frase y sin subrayarlo: el objeto que sostenía el derecho a hablar y el único que razonaba desaparecen a la vez, y a partir de ahí ya no hay nada que discutir. Antes de eso, en la última asamblea que se celebra, Piggy dice lo que nadie quiere oír: que lo que hay que preguntarse no es si hay bestias, sino por qué las cosas se están estropeando.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando desaparece el objeto que daba a alguien el derecho a hablar, se acaban también las palabras.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El adulto que llega tarde" },
+      {
+        b: "texto",
+        texto:
+          "Al final quedan Ralph solo y una isla entera cazándolo. Para sacarlo de la espesura donde se esconde le prenden fuego al bosque, sin pensar que ahí dentro está toda su comida. Ralph corre por la playa, tropieza, se cae, se cubre la cabeza esperando la lanza, y al levantar la vista se encuentra unos zapatos blancos delante de la cara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es un oficial de la Marina británica. Su barco ha visto el humo del incendio: los ha salvado, por accidente, la destrucción de la isla. El oficial mira a los niños desnudos y pintarrajeados que van llegando con las lanzas en la mano y suelta lo que le sale, un poco decepcionado: que esperaba que un grupo de chicos británicos hubiera sido capaz de organizarse mejor que todo eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa frase es la puntada final del libro contra el que se escribió: es exactamente lo que dirían los personajes de La isla de coral. Y entonces Ralph, que lleva dos días huyendo para que no lo maten, se echa a llorar delante de todos por el fin de la inocencia y por la oscuridad del corazón humano, y los demás lloran con él. El oficial, incómodo, se da la vuelta y mira su crucero de guerra. Y en la última línea del libro, el oficial mira al mar mientras espera a que los niños se recompongan.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El adulto que los rescata viene de una guerra mundial y les reprocha que no hayan sabido comportarse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El señor de las moscas cuenta cómo un grupo de niños bien educados monta una democracia en una playa y la desmonta en unas semanas, y sostiene que lo que falla no son las circunstancias sino ellos: que el defecto está dentro y que las normas solo lo tapan mientras hay alguien mirando. Golding lo escribió a propósito contra las novelas de aventuras que decían lo contrario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un mecanismo que se reconoce fuera de la isla: lo urgente comiéndose a lo importante, el miedo a algo que nadie ha comprobado, el líder que promete carne y protección frente al que pide esfuerzo y paciencia, y el grupo que primero se ríe del raro, luego lo aparta y por último lo linchea sin que nadie lo haya decidido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Puede que la bestia seamos nosotros, dice el único que lo entiende, y no le dejan terminar la frase.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un contraejemplo real que conviene conocer, porque el libro se cita como si fuera un experimento. En 1965, seis chicos de entre trece y dieciséis años se escaparon en barca de un internado de Tonga, naufragaron en un islote llamado ʻAta y estuvieron quince meses solos. Cuando los encontraron habían montado huertos y gallineros, mantenían un fuego encendido desde el primer año, resolvían las peleas mandando a los dos a esquinas opuestas de la isla hasta que se les pasara, y a uno que se rompió una pierna lo entablillaron y lo cuidaron. Estaban todos vivos. Es un solo caso, pero es el único naufragio de niños de verdad que ha ocurrido, y salió al revés.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un contraejemplo real que conviene conocer, porque el libro se cita todo el rato como si fuera un experimento. En 1965, seis chicos de entre trece y dieciséis años se escaparon en barca de un internado de Tonga, naufragaron en un islote llamado ʻAta y estuvieron quince meses solos. Cuando los encontraron habían montado huertos, gallineros y turnos de guardia, mantenían un fuego encendido desde el primer año, resolvían las peleas mandando a los dos a esquinas opuestas de la isla hasta que se les pasara, y a uno que se rompió una pierna lo entablillaron y lo cuidaron hasta que sanó. Estaban todos vivos y sanos. Es un solo caso y no demuestra la tesis contraria, pero es el único naufragio de niños de verdad que ha ocurrido, y salió al revés que en el libro.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "senor-moscas": SENOR_MOSCAS,
   "gran-gatsby": GRAN_GATSBY,
   metamorfosis: METAMORFOSIS,
   "crimen-castigo": CRIMEN_CASTIGO,

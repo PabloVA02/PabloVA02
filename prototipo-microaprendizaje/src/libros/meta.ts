@@ -1288,22 +1288,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "senor-moscas",
-    titulo: "El señor de las moscas",
-    autor: "William Golding",
-    ano: 1954,
-    gancho: "Lo rechazaron veintiuna editoriales. Una nota de lectura decía: «basura absurda e inútil».",
-    porQue: "Unos niños ingleses educadísimos quedan solos en una isla paradisíaca. Golding, que fue maestro y estuvo en la guerra, sabía perfectamente lo que iba a pasar.",
-    minutos: 25.8,
-    capitulos: [
-      { titulo: "La caracola", minutos: 5.6 },
-      { titulo: "La hoguera apagada", minutos: 5.1 },
-      { titulo: "El paracaidista", minutos: 5 },
-      { titulo: "La danza", minutos: 5.1 },
-      { titulo: "El oficial en la playa", minutos: 4.8 },
-    ],
-  },
-  {
     id: "frankenstein",
     titulo: "Frankenstein",
     autor: "Mary Shelley",
