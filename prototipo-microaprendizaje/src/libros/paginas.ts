@@ -45554,7 +45554,7 @@ const MILLONARIO_AL_LADO: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Y falla en el sitio más grave que puede fallar un libro así: el método. Stanley estudió a personas que ya eran millonarias y preguntó qué tenían en común. No estudió a los que fueron igual de frugales, montaron el mismo negocio de asfaltado y no llegaron a nada, que no aparecen en ninguna encuesta de millonarios porque no lo son. Con ese diseño se describe a los que llegaron; no se concluye qué los llevó allí.",
+          "Y falla en el sitio más grave: el método. Stanley estudió a personas que ya eran millonarias y preguntó qué tenían en común. No estudió a los que fueron igual de frugales, montaron el mismo negocio de asfaltado y no llegaron a nada, porque esos no salen en ninguna encuesta de millonarios. Con ese diseño se describe a los que llegaron; no se concluye qué los llevó allí.",
       },
       {
         b: "texto",
