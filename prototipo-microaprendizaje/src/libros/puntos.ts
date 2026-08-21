@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "repensar-pobreza": [
+    "por qué la discusión sobre si la ayuda funciona no tiene respuesta",
+    "qué compra una familia pobre cuando le sobra dinero",
+    "por qué nadie paga céntimos por lo que salva vidas",
+    "qué midieron cuando por fin midieron el microcrédito",
+    "las tres causas por las que fracasan los programas",
+  ],
+
   "doctrina-shock": [
     "por qué el plan económico chileno estaba escrito antes del golpe",
     "quién nacionalizó la banca de Chile en 1983",

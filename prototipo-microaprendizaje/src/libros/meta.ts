@@ -488,22 +488,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "repensar-pobreza",
-    titulo: "Repensar la pobreza",
-    autor: "Banerjee y Duflo",
-    ano: 2011,
-    gancho: "Una familia que no come suficiente se gasta el dinero en un televisor. El libro que se tomó en serio esa decisión ganó el Nobel de Economía.",
-    porQue: "Es el libro que cambió la manera de repartir la ayuda al desarrollo, sustituyendo las grandes teorías por experimentos con grupo de control. Y su hallazgo central es que los pobres no se equivocan: deciden bien en condiciones que nosotros no tenemos.",
-    minutos: 23.2,
-    capitulos: [
-      { titulo: "Un pueblo de Udaipur, Rajastán", minutos: 4.7 },
-      { titulo: "La trampa del hambre", minutos: 4.7 },
-      { titulo: "Los tres litros de cloro", minutos: 4.3 },
-      { titulo: "La escuela sin maestro", minutos: 4.4 },
-      { titulo: "Estocolmo, diciembre de 2019", minutos: 5 },
-    ],
-  },
-  {
     id: "invencible",
     titulo: "Invicto",
     autor: "Marcos Vázquez",

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "repensar-pobreza":
+    "En Rajastán solo el seis por ciento de los niños completaba la vacunación; regalar un kilo de lentejas por visita lo subió al treinta y nueve y abarató cada vacuna. El libro está hecho de resultados así.",
+
   "doctrina-shock":
     "Milton Friedman escribió en 1982 que solo una crisis produce un cambio real y que la función de un economista es mantener las alternativas a mano hasta entonces. Klein recorre diez países para ver qué pasó cuando se aplicó.",
 

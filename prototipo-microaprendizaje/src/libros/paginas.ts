@@ -46857,7 +46857,296 @@ const DOCTRINA_SHOCK: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Repensar la pobreza, en ocho páginas.
+
+   Breve. Economía, pero NO es un libro práctico de dinero: no se habla de
+   tú, va en tercera persona. Es la diferencia con Bogle, Malkiel, Robbins y
+   Stanley, que están todos en el mismo estante y sí llevan tú.
+
+   El apartado 4 bis manda persona con nombre en cada argumento, y aquí sale
+   solo porque el libro entero está hecho de experimentos con sitio y fecha:
+   Udaipur, Hyderabad, Rajastán, Hunan.
+
+   Y la conclusión tiene una obligación concreta: decir lo que el método no
+   puede medir. La mayor reducción de pobreza de la historia —China, Corea,
+   Vietnam— ocurrió sin un solo ensayo aleatorio, y eso hay que escribirlo.
+   -------------------------------------------------------------------------- */
+
+const REPENSAR_POBREZA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un kilo de lentejas multiplicó por seis las vacunaciones y además abarató cada vacuna",
+      },
+      {
+        b: "texto",
+        texto:
+          "En una zona rural de Rajastán, en la India, solo el seis por ciento de los niños completaba el calendario de vacunación. Un equipo de economistas montó campamentos de vacunación fijos y previsibles en algunas aldeas elegidas al azar, y la cifra subió al dieciocho por ciento. En otro grupo de aldeas añadieron un incentivo: un kilo de lentejas por cada visita y un juego de platos metálicos al completar la pauta. Ahí llegó al treinta y nueve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle que le da la vuelta a la intuición es el coste. Regalar lentejas no encareció el programa: lo abarató por niño vacunado. La enfermera y el frigorífico costaban lo mismo estuviera lleno el campamento o vacío, así que repartir el gasto fijo entre el triple de niños salía más barato que la campaña sin regalo. El incentivo que parecía un gasto era un ahorro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Abhijit Banerjee y Esther Duflo, economistas del Instituto Tecnológico de Massachusetts, publicaron este libro en 2011 con decenas de resultados así. En 2019 recibieron el Nobel de Economía junto a Michael Kremer por haber traído a la lucha contra la pobreza el método con el que se prueban los medicamentos: aplicar una medida a un grupo elegido al azar, no aplicarla a otro, y comparar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: por qué la gran discusión sobre si la ayuda al desarrollo funciona no tiene respuesta, qué compra alguien pobre cuando le sobra dinero y no es más comida, por qué no se compra lo que salva vidas y cuesta céntimos, qué pasó cuando se llenaron las aulas, qué midieron cuando midieron el microcrédito, y las tres causas por las que fracasan los programas, que casi nunca son la corrupción.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta útil no es si la ayuda funciona: es qué versión concreta de qué programa concreto funciona en qué sitio, y eso se puede medir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La gran discusión sobre la ayuda al desarrollo no tiene respuesta porque la pregunta es demasiado grande",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante décadas el debate sobre la pobreza mundial se libró entre dos posiciones. De un lado, Jeffrey Sachs sostenía que los países pobres están atrapados: demasiado pobres para ahorrar, así que no invierten, así que siguen pobres, y solo una inyección masiva de ayuda rompe el círculo. Del otro, William Easterly respondía que sesenta años y billones de dólares de ayuda no habían servido de nada, y que lo que saca de la pobreza son los mercados y unas instituciones decentes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Banerjee y Duflo argumentan que esa discusión no se puede ganar, y no por falta de datos sino por la forma de la pregunta. Comparar países entre sí no sirve: los que reciben más ayuda son distintos en cien cosas más de los que reciben menos, y ninguna estadística separa el efecto de la ayuda del efecto de todo lo demás. Cada bando puede enseñar los países que le convienen indefinidamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su alternativa es cambiar el tamaño de la pregunta. En vez de si la ayuda funciona, si repartir mosquiteras gratis aumenta el uso de mosquiteras más que venderlas a mitad de precio. Esa pregunta sí se puede contestar: se eligen al azar unas aldeas para cada versión, se dejan otras sin nada, se espera y se cuenta. El azar garantiza que los grupos sean comparables en todo lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El método viene de la medicina, donde ningún fármaco se aprueba sin él, y su fuerza está en lo que elimina: la opinión del que diseñó el programa sobre si su programa funciona. Su límite está en lo que exige: hace falta poder repartir la medida al azar, y hace falta esperar años. La mitad de las decisiones importantes de un país no cumplen ninguna de las dos condiciones.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una pregunta que ninguna prueba puede contestar no es una pregunta profunda: es una pregunta mal hecha.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuando a una familia pobre le sobra dinero no compra más calorías" },
+      {
+        b: "texto",
+        texto:
+          "La imagen intuitiva de la pobreza extrema es la del hambre, y de ahí sale la idea de trampa nutricional: alguien mal alimentado trabaja peor, gana menos, come peor. Si fuera así, cualquier ingreso extra iría directo a comida y la trampa se rompería sola con un empujón. Los datos dicen otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El experimento más claro lo hicieron Robert Jensen y Nolan Miller en dos provincias chinas, Hunan y Gansu. Subvencionaron el alimento básico —arroz en una, trigo en la otra— para familias muy pobres, con lo que su comida principal se abarató de golpe. En Hunan, el consumo de arroz bajó. Con el dinero que se ahorraban compraban carne y gambas, o sea, comida más cara y más agradable, no más calorías.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El patrón se repite en muchos sitios. En la India, el consumo medio de calorías por persona ha ido bajando durante décadas mientras los ingresos subían. Y en los presupuestos que los autores recogieron aparecen gastos que un manual clasificaría como frívolos: bodas, funerales, televisores, tabaco, festivales. La explicación que dan no es la imprevisión: una vida sin nada que esperar necesita acontecimientos, y un funeral o una boda son también seguros sociales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde la nutrición sí decide una vida entera es antes, y ahí el libro es tajante. Lo que produce daños irreversibles no es la falta de calorías del adulto sino la falta de micronutrientes en el embarazo y en los dos primeros años: yodo, hierro, vitamina A. La sal yodada cuesta céntimos y previene retrasos cognitivos permanentes; el hierro sube la productividad de quien lo tomaba de forma medible. La trampa nutricional existe, pero está en otro tramo de la vida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El hambre que decide una vida ocurre en el embarazo y en los dos primeros años, y consiste en falta de yodo y de hierro, no de calorías.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Nadie compra lo que salva vidas y cuesta céntimos, y sí paga por la inyección que no hace falta",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un puñado de medidas de eficacia demostrada y coste ridículo: dormir bajo una mosquitera tratada, echar unas gotas de cloro al agua, tomar una pastilla antiparasitaria dos veces al año. Cuando se reparten gratis, la gente las usa. Cuando se cobra por ellas una cantidad simbólica, la demanda se desploma. No es que no puedan pagarla: es que la enfermedad que evitan no ha ocurrido todavía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mismo hogar que no gasta veinte céntimos en cloro sí gasta una parte considerable de sus ingresos cuando alguien enferma. Los autores documentaron en Udaipur, en el Rajastán rural, que las familias visitaban a un sanitario con mucha frecuencia y que dos de cada tres de esos sanitarios privados no tenían ningún título de medicina. Las visitas terminaban muy a menudo en una inyección, que casi nunca era necesaria y que el paciente valoraba precisamente porque se nota.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La otra mitad del problema está en el lado público, y el experimento que lo cuenta es el mejor del libro. En los ambulatorios rurales de Udaipur, las enfermeras faltaban con enorme frecuencia. Una organización local instaló relojes que fotografiaban la entrada y la salida y ligó el sueldo a la asistencia. Funcionó: la presencia se disparó en pocos meses.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y a los pocos meses se deshizo, y no por culpa de las enfermeras. Los propios administradores de la organización empezaron a conceder días exentos por motivos cada vez más laxos, hasta que casi cualquier ausencia quedaba justificada y el sistema volvió a lo de antes. La lección no es que la vigilancia no funcione: es que un programa vive o muere en la voluntad de quien tiene que aplicarlo todos los días, y eso casi nunca se diseña.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un programa no fracasa el día que se diseña: fracasa el día que la persona encargada de aplicarlo decide que una excepción es razonable.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Se consiguió llenar las aulas y no se consiguió que los niños aprendieran",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escolarización en los países pobres es uno de los grandes éxitos de las últimas décadas: la mayoría de los niños del mundo van hoy a la escuela. Y las evaluaciones sobre el terreno encontraron algo desolador: una proporción altísima de esos niños llevaba años sentada en un aula sin saber leer una frase sencilla ni restar dos números de dos cifras. La asistencia se resolvió y el aprendizaje no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una de las causas está en cómo se enseña. El temario avanza según el curso, no según lo que sabe la clase, así que un niño que se descuelga en segundo pasa los seis años siguientes escuchando cosas que no entiende. La organización india Pratham probó lo contrario: agrupar a los alumnos por nivel real durante unas horas al día y enseñarles justo lo que les toca aprender. Los ensayos midieron mejoras grandes y baratas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La otra causa es una creencia compartida por maestros y padres, y es la parte más incómoda del capítulo. En muchos sitios la educación se vive como una lotería: no sirve un poco de escuela, sirve llegar arriba y conseguir un empleo público. Con esa idea, el maestro dedica su atención a los tres alumnos que podrían llegar y abandona a los demás, y el padre saca de la escuela al hijo que no promete. Se trata a la enseñanza como un billete premiado o nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los autores insisten en que esa creencia es falsa y que los datos la desmienten: cada año adicional de escuela sube los ingresos de forma bastante regular, sin ningún salto mágico al final. El problema no es de recursos ni de voluntad, es de expectativas equivocadas por parte de todos los que participan. Y las expectativas no se cambian construyendo escuelas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando todos creen que la escuela solo sirve si se llega arriba, el maestro abandona a los que no van a llegar, y con eso la creencia se cumple sola.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cuando por fin midieron el microcrédito, resultó que hacía mucho menos de lo que se le atribuía",
+      },
+      {
+        b: "texto",
+        texto:
+          "El microcrédito —prestar cantidades pequeñas a personas sin garantías, casi siempre mujeres, con devoluciones semanales y responsabilidad de grupo— fue durante veinte años la idea más celebrada del desarrollo. Muhammad Yunus recibió por ella el Nobel de la Paz en 2006. Se le atribuían efectos enormes: negocios, salud, escolarización, autonomía de las mujeres. Casi todo eso venía de historias individuales, no de comparaciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Banerjee, Duflo y su equipo lo midieron en Hyderabad, en la India, con la fórmula de siempre: una entidad de microcrédito entró en unos barrios elegidos al azar y no en otros, y siguieron a las familias durante años. El resultado fue moderado y claro. Los hogares con acceso invirtieron más en sus pequeños negocios y compraron menos caprichos. No hubo diferencia medible en salud, en escolarización, en el papel de las mujeres en casa ni en el consumo medio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene leer bien ese resultado, porque se ha usado mal en las dos direcciones. No dice que el microcrédito sea un fraude: es un producto financiero útil que hace lo que hacen los productos financieros, permitir comprar hoy y pagar después. Dice que no era la herramienta que sacaría de la pobreza a millones de personas, que es lo que se había prometido durante dos décadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás hay un hallazgo más general sobre el emprendimiento. La mayoría de los negocios de los pobres son diminutos, no crecen y dan un rendimiento por hora bajísimo. Sus dueños son, en palabras de los autores, emprendedores a la fuerza: cuando se les pregunta qué querrían para sus hijos, la respuesta más repetida no es un negocio propio, es un empleo fijo, preferiblemente público. Lo que quieren no es capital para arriesgar, es estabilidad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie monta un puesto de fruta porque tenga alma de empresario: lo monta porque no hay ningún empleo que le contrate.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los programas no suelen fracasar por corrupción, sino por ideología, ignorancia e inercia",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando una política contra la pobreza no funciona, la explicación por defecto es que alguien robó el dinero. Los autores sostienen, tras años de trabajo de campo, que el robo existe y rara vez es la causa principal. Proponen otras tres, y la utilidad de la lista está en que las tres se pueden corregir sin cambiar de gobierno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ideología es diseñar según lo que uno cree sobre los pobres en lugar de según lo que hacen. El ejemplo canónico es cobrar una cantidad simbólica por las mosquiteras porque, se dice, lo regalado no se valora. Cuando se comprobó, resultó falso: quien la recibía gratis la usaba igual, y cobrar solo servía para que muchos se quedaran sin ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ignorancia es no saber un detalle concreto que decide todo el resultado. Que la fecha de la campaña de vacunación sea fija y conocida; que la píldora antiparasitaria se reparta en la escuela y no en el ambulatorio; que el formulario tenga tres casillas y no doce. Son detalles de intendencia que ningún debate político trata y que multiplican o dividen por tres el efecto de la misma medida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la inercia es que un programa se sigue haciendo como se hizo el primer día, porque nadie tiene el encargo de comprobar si funciona. Es la más barata de arreglar y la menos arreglada. La conclusión de los autores es que la mayor parte del margen de mejora está en esos tres sitios, y no en las grandes decisiones que ocupan las discusiones sobre desarrollo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Entre una política que funciona y la misma política que no funciona suele haber un detalle de intendencia que nadie consideró importante.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la pobreza no se combate con una teoría general sino con cientos de respuestas concretas, y que esas respuestas se pueden medir con el mismo método con el que se aprueban los medicamentos. Lo demuestra con veinte años de experimentos con lugar, fecha y cifra, desde Rajastán hasta Hyderabad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una manera de discutir. Después de leerlo, afirmar que cobrar por una mosquitera hace que se valore más deja de ser una opinión respetable y pasa a ser una afirmación comprobada como falsa. Y aporta honradez: los autores publicaron el resultado que desinfló el microcrédito, la bandera de su propio campo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en lo que el método no alcanza. Un ensayo dice lo que pasó en aquellas aldeas y en aquellos años; que pase lo mismo en otro país es un juicio, no un resultado, y el libro generaliza con más soltura de la que su instrumento permite. Angus Deaton, premio Nobel también, lleva años argumentando exactamente eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El límite mayor es de tamaño. Solo se puede sortear al azar lo que se reparte por aldeas: una pastilla, un uniforme, un incentivo. No se puede sortear una política comercial, un tipo de cambio ni una constitución. Y la mayor reducción de pobreza de la historia —cientos de millones de personas en China, Corea del Sur y Vietnam— ocurrió gracias a decisiones de ese tamaño y sin un solo ensayo aleatorio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de 2011 el campo se movió deprisa. El Nobel de 2019 consagró el método, y el laboratorio que fundaron en 2003 lleva más de mil ensayos. En 2015 se publicó en «Science» la evaluación de un programa integral para familias en pobreza extrema, probado a la vez en seis países, con efectos que seguían ahí un año después de terminar. Y el resultado que menos esperaban los expertos: entregar dinero en efectivo sin condiciones funciona mejor de lo que casi todos pronosticaban.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Contesta muy bien las preguntas que caben en una aldea, y por eso hay que leerlo sabiendo cuáles son las que no caben.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "repensar-pobreza": REPENSAR_POBREZA,
   "doctrina-shock": DOCTRINA_SHOCK,
   "dinero-domina-juego": DINERO_DOMINA_JUEGO,
   superpronosticadores: SUPERPRONOSTICADORES,
