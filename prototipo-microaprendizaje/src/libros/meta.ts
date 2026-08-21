@@ -280,22 +280,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "segundo-sexo",
-    titulo: "El segundo sexo",
-    autor: "Simone de Beauvoir",
-    ano: 1949,
-    gancho: "Quiso escribir sobre sí misma y descubrió que lo primero que tenía que decir era: soy una mujer. Tardó dos años y mil páginas en explicar qué significaba eso.",
-    porQue: "Es el libro del que sale casi todo el pensamiento feminista posterior, y la frase que más se cita de él se entiende mal casi siempre. Conviene saber qué dice de verdad, y también dónde se equivoca.",
-    minutos: 23.4,
-    capitulos: [
-      { titulo: "Una terraza de Saint-Germain", minutos: 4.8 },
-      { titulo: "La sala de lectura de la Nacional", minutos: 4.7 },
-      { titulo: "No se nace mujer", minutos: 4.7 },
-      { titulo: "La casada, la madre, la prostituta", minutos: 4.7 },
-      { titulo: "El Índice de libros prohibidos", minutos: 4.4 },
-    ],
-  },
-  {
     id: "ensayos-montaigne",
     titulo: "Ensayos",
     autor: "Michel de Montaigne",

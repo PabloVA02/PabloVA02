@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "segundo-sexo": [
+    "por qué lo masculino funciona como norma y lo femenino como excepción",
+    "en qué se distingue esta situación de cualquier otra opresión",
+    "por qué la biología no determina ningún destino",
+    "qué significa exactamente que no se nace mujer",
+    "qué tiene de particular el trabajo de la casa",
+  ],
+
   "discurso-metodo": [
     "por qué lo escribió en la lengua vulgar y no en latín",
     "cuáles son sus cuatro reglas y de dónde las sacó",

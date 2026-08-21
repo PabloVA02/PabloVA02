@@ -33045,7 +33045,391 @@ const DISCURSO_METODO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El segundo sexo, en doce páginas.
+
+   AMPLIO: son mil páginas en dos volúmenes con diez argumentos
+   independientes —la alteridad, la biología, el psicoanálisis, la
+   infancia, el matrimonio, la casa, la maternidad, el trabajo—. En ocho
+   páginas habría que tirar la mitad.
+
+   Ensayo: titular que afirma, tercera persona.
+   -------------------------------------------------------------------------- */
+
+const SEGUNDO_SEXO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Empezó porque alguien le preguntó qué había significado ser mujer" },
+      {
+        b: "texto",
+        texto:
+          "Simone de Beauvoir quería escribir un libro sobre sí misma. Contando el proyecto, Sartre le sugirió que antes se preguntara una cosa: qué había significado en su vida el hecho de ser mujer. Ella contestó que nada, que no le había afectado en absoluto. Se puso a pensarlo y descubrió que la respuesta era falsa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De esa comprobación salió El segundo sexo, publicado en 1949 en dos volúmenes y con unas mil páginas. Lo escribió en poco más de un año, con una documentación enorme de biología, historia, psicoanálisis, literatura y testimonios, y se convirtió inmediatamente en un escándalo: veintidós mil ejemplares en la primera semana y una avalancha de insultos personales por parte de escritores respetables.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La pregunta que organiza el libro es la del principio: qué es una mujer. Y Beauvoir observa que un hombre nunca empezaría un libro planteándose qué es un hombre, porque no se le ocurriría que su condición requiera explicación. Esa asimetría es el punto de partida de todo lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas doce páginas recorren su argumento: cómo se ha definido a la mujer, por qué su situación no se parece a la de ningún otro grupo, qué papel tiene la biología, por qué ni el psicoanálisis ni el marxismo lo explican, qué significa que no se nazca mujer, qué se aprende en la infancia, cómo funciona el matrimonio, qué tiene de particular el trabajo de la casa, cómo se presenta la maternidad y qué haría falta para salir de ahí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un hombre no empezaría un libro preguntándose qué es un hombre, porque no se le ocurriría que su condición necesite explicación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La humanidad se ha definido en masculino y la mujer, en relación con ella",
+      },
+      {
+        b: "texto",
+        texto:
+          "El concepto central del libro se llama la alteridad, y Beauvoir lo formula así: la humanidad es masculina, y el hombre define a la mujer no en sí misma sino en relación con él. Él es el Sujeto, el Absoluto, lo esencial; ella es lo Otro, lo que se define por comparación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las pruebas están en el lenguaje y en el derecho de la época, y siguen reconociéndose. Hombre significa a la vez el varón y el ser humano en general; mujer significa solo una cosa. En un formulario, un texto médico o una ley se habla del hombre para referirse a cualquiera, y cuando se quiere hablar de mujeres hay que especificarlo. Lo masculino es lo neutro y lo femenino es lo marcado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Beauvoir observa que esa estructura aparece en sitios donde nadie la busca. Un tratado de anatomía describe el cuerpo humano y añade después un capítulo sobre las particularidades femeninas. Un estudio sobre el trabajo habla de trabajadores y añade después un apartado sobre la mujer trabajadora. En cada caso hay un patrón que no necesita adjetivo y una variante que sí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y saca la consecuencia que le interesa. Cuando un grupo se constituye en lo esencial, el otro queda definido por lo que le falta, y su situación deja de ser un dato para convertirse en una carencia. La mujer no se describe entonces como otra manera de ser humano, sino como un ser humano al que le faltan cosas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando lo masculino es lo neutro y lo femenino lo que hay que especificar, una de las dos mitades queda definida por lo que le falta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Es el único grupo oprimido que vive dentro de la casa del opresor" },
+      {
+        b: "texto",
+        texto:
+          "La observación más original del libro es la que explica por qué la situación de las mujeres no se parece a ninguna otra. Beauvoir compara con los grupos que sí han conseguido cambiar la suya —los proletarios, las minorías, los pueblos colonizados— y encuentra tres diferencias decisivas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es que no hay un antes. Los judíos, los negros estadounidenses o los pueblos colonizados tienen una historia previa, un territorio, una lengua o unas costumbres anteriores a la dominación, algo a lo que apelar. Las mujeres no han sido nunca otra cosa: no hubo un tiempo en que fueran un grupo con su propio pasado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es que no son una minoría: son la mitad de la especie, y aun así están en esa posición, cosa que ninguna teoría basada en el número explica. Y la tercera, que es la decisiva, es que están repartidas. No viven en un barrio, ni en un país, ni en un gueto: viven una en cada casa, dispersas entre los hombres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De esa dispersión saca Beauvoir la consecuencia que hace difícil cualquier cambio. Una mujer burguesa está unida por vivienda, por intereses económicos y por afecto a un hombre burgués, y esa unión es mucho más fuerte que cualquier vínculo con una mujer obrera. Los lazos que la atan a su situación son los mismos que la atan a las personas que quiere, y por eso, dice, la solidaridad de grupo que hizo posible cualquier otra emancipación aquí no llega a formarse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ningún grupo oprimido ha vivido nunca repartido de uno en uno dentro de la casa de quien lo domina, y eso lo cambia todo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La biología explica hechos y no explica ningún destino" },
+      {
+        b: "texto",
+        texto:
+          "El primer capítulo del libro es de biología y sorprende por lo detallado: Beauvoir repasa la reproducción desde los organismos más simples hasta los mamíferos, con datos de fisiología, hormonas y anatomía, sin negar ni disimular nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento no consiste en discutir esos hechos, sino en preguntar qué significan. Un dato biológico no dice por sí solo nada sobre cómo hay que organizar una sociedad: significa una cosa u otra según el contexto técnico, económico y jurídico en que se produzca. La menor fuerza muscular media es determinante en una sociedad donde se pelea con espadas y es irrelevante en una donde se maneja maquinaria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mismo con la maternidad, que es su caso principal. En una sociedad sin control de la natalidad, sin higiene y con alta mortalidad, un cuerpo capaz de gestar pasa buena parte de su vida adulta embarazado o criando, y eso condiciona todo lo demás. En una sociedad con anticoncepción, atención médica y esperanza de vida larga, esos mismos hechos biológicos ocupan una fracción minúscula de una biografía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su formulación es la que después se ha repetido en filosofía y en medicina: el cuerpo no es una cosa, es una situación. No es un objeto neutro con propiedades fijas, sino la manera concreta en que alguien está en el mundo, y esa manera depende tanto de la fisiología como de la técnica y de las leyes que rodean a esa persona.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un dato biológico no dice por sí solo cómo hay que organizar nada: significa una cosa u otra según la técnica y las leyes que lo rodean.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ni el psicoanálisis ni el marxismo lo explican" },
+      {
+        b: "texto",
+        texto:
+          "Antes de exponer su propia tesis, Beauvoir dedica dos capítulos a las dos explicaciones que en 1949 dominaban la discusión, y desmonta las dos. Es la parte más filosófica del libro y la que menos se resume.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al psicoanálisis le reconoce el mérito de haber puesto la sexualidad en el centro y le reprocha convertir un hecho social en un dato psíquico universal. La idea de que la niña envidia un órgano le parece una inversión: lo que envidia, dice, no es un trozo de carne, sino los privilegios que van asociados a él. Un niño y una niña ven desde muy pronto que uno de los dos recibe más libertad, más autoridad y más importancia, y ese reparto no lo produce la anatomía sino la casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al marxismo le reconoce haber señalado la importancia de la propiedad y del trabajo, y le reprocha reducirlo todo a eso. Si la subordinación femenina viniera solo de la propiedad privada, debería desaparecer donde esta se aboliera, y Beauvoir observa que en los países que lo intentaron las mujeres siguieron cargando con la casa, los hijos y la doble jornada. La economía es una condición necesaria y no suficiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su alternativa procede de la filosofía existencialista y es la que da forma al libro: no hay una naturaleza que determine lo que alguien es; hay una situación en la que alguien se encuentra y una libertad que se ejerce dentro de ella. Preguntar qué es una mujer por su esencia es plantear mal el problema; hay que preguntar en qué situación se la coloca desde que nace.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una niña no envidia un órgano: ve desde muy pronto quién recibe en su casa más libertad, más autoridad y más importancia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "No se nace mujer: se llega a serlo" },
+      {
+        b: "texto",
+        texto:
+          "La frase que abre el segundo volumen es la más citada del feminismo del siglo XX y conviene leerla entera, porque suele quedarse a medias. Dice que no se nace mujer, sino que se llega a serlo, y añade que ningún destino biológico, psíquico ni económico define la figura que adopta en la sociedad la hembra humana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sostiene es que existe un producto elaborado —eso que en cada época se llama ser una mujer, con sus gestos, sus deseos, sus miedos y sus límites— y que ese producto no viene con el cuerpo: se fabrica a lo largo de años con miles de intervenciones minúsculas, casi todas ellas hechas con cariño y sin intención de dañar a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La frase funda una distinción que después se llamaría con otras palabras: la que separa el hecho anatómico de la construcción social que se levanta encima. Beauvoir no usa el vocabulario que se usaría treinta años más tarde, y su formulación es la que hizo posible todo aquel vocabulario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y tiene una consecuencia que a ella le interesaba más que ninguna otra. Si se llega a ser, entonces no hay una esencia femenina que respetar ni que cumplir, y por tanto tampoco hay ninguna manera correcta de ser mujer que cualquiera pueda invocar para juzgar a otra. Lo que hay son situaciones concretas y decisiones tomadas dentro de ellas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que en cada época se llama ser una mujer no viene con el cuerpo: se fabrica con miles de intervenciones pequeñas y casi siempre cariñosas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En la infancia se aprende sobre todo a ser mirada" },
+      {
+        b: "texto",
+        texto:
+          "Los capítulos sobre la infancia son los mejor observados del libro y no dependen de ninguna teoría: son descripción. Beauvoir sostiene que hasta los tres o cuatro años niños y niñas viven de manera parecida, y que a partir de ahí empieza un adiestramiento distinto que casi nadie percibe como tal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al niño se le empuja hacia fuera: se le anima a trepar, a pelearse, a explorar, a no llorar, a arreglárselas, y se le felicita por lo que hace. A la niña se le empuja hacia dentro y hacia su propia imagen: se la viste, se la peina, se le dice que está guapa, se le advierte que se va a manchar, se la felicita por lo que es y por cómo aparece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto que Beauvoir describe es el de una escisión. La niña aprende muy pronto a verse desde fuera, a calcular el efecto que produce y a existir como objeto de una mirada; y en el mismo movimiento aprende que su valor depende de esa mirada. La muñeca, dice, es el instrumento de ese aprendizaje: un cuerpo pasivo al que se viste, se peina y se admira, y con el que la niña ensaya su propio papel.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade el otro lado del reparto: al niño se le exige. Tiene que demostrar, competir, no rajarse y responder de lo que hace, con una presión que Beauvoir considera igualmente inhumana aunque distinta. Su libro no es sobre eso, y deja anotado que aquel adiestramiento también tiene un coste.",
+      },
+      {
+        b: "idea",
+        texto:
+          "A uno se le felicita por lo que hace y a otra por cómo aparece, y esa diferencia se aplica antes de que ninguno de los dos sepa leer.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El matrimonio, mirado de cerca, es un contrato económico" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre el matrimonio es uno de los que causaron más escándalo en 1949, porque describe una institución sentimental en términos de contrato. Beauvoir sostiene que en la forma que tenía entonces —y con las leyes de entonces— consiste en un intercambio: la mujer entrega su trabajo doméstico, su cuerpo y su fidelidad, y recibe a cambio manutención y una posición social.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los datos jurídicos de su época sostienen la descripción. Cuando publicó el libro, una mujer casada en Francia acababa de dejar de necesitar la autorización del marido para trabajar; no pudo abrir una cuenta bancaria ni firmar un contrato sin su permiso hasta 1965, dieciséis años después. La dependencia no era una impresión: estaba en el código civil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su análisis se detiene en la asimetría del intercambio. Para el hombre, el matrimonio es una parte de su vida: tiene además un oficio, un proyecto y una posición propios. Para la mujer, en aquella situación, es la vida entera y también la única carrera disponible, con la particularidad de que se elige a los veinte años y no admite cambio de opinión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale su observación sobre lo que produce esa asimetría: no felicidad ni infelicidad, sino dependencia. Quien no tiene ingresos propios, ni oficio, ni posibilidad de irse, no está en condiciones de negociar nada dentro de esa casa, y toda la convivencia posterior se organiza sobre ese desequilibrio aunque nadie lo mencione nunca en voz alta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien no puede irse de una casa no está en condiciones de negociar nada dentro de ella, por bien que se lleven todos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El trabajo de la casa es el único que no deja nada hecho" },
+      {
+        b: "texto",
+        texto:
+          "Las páginas sobre las tareas domésticas son las mejores del libro y las que más lectores han reconocido de inmediato. Beauvoir observa que ese trabajo tiene una propiedad que no tiene ningún otro: no produce nada que permanezca. Un carpintero deja una mesa, un albañil deja un muro, un escritor deja un texto; una casa limpia vuelve a estar sucia al día siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y describe la experiencia que produce esa característica con una precisión que no había tenido nadie antes. Es una lucha que no se gana nunca: el polvo vuelve, la ropa vuelve, los platos vuelven. El ama de casa no avanza hacia ninguna parte, se limita a mantener el presente en su sitio, y su éxito consiste en que no se note que ha hecho nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca dos consecuencias. La primera es que un trabajo así no puede dar sentido a una vida entera, por bien hecho que esté, porque no acumula nada. La segunda es psicológica y es la más aguda: quien está encerrado en esa tarea puede desarrollar una relación obsesiva con ella, convirtiendo la limpieza en una batalla contra la suciedad del mundo, precisamente porque es el único terreno donde tiene alguna autoridad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Beauvoir subraya además que ese trabajo no se cuenta en ningún sitio: no aparece en la contabilidad nacional, no genera derechos, no cotiza, no se ve. Es la primera formulación clara de un asunto que la economía tardó otros cuarenta años en empezar a medir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Es el único trabajo cuyo éxito consiste en que no se note que alguien lo ha hecho, y que hay que volver a hacer entero mañana.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La maternidad se presenta como destino y se vive de mil maneras" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre la maternidad fue el más atacado del libro y sigue siendo el más incómodo. Beauvoir no está en contra de tener hijos: está en contra de que la maternidad se presente como la realización natural de cualquier mujer y como la respuesta automática a la pregunta de qué hacer con una vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento tiene dos partes. La primera es que un hijo no da sentido a nadie: es otra persona, con su propia vida por delante, y cargarle con la tarea de justificar la existencia de su madre es una operación que sale mal para los dos. La segunda es que presentar la maternidad como vocación impide hablar de ella con verdad, porque cualquier dificultad se convierte entonces en un defecto personal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y dedica páginas al aborto, que en la Francia de 1949 era delito y se castigaba con cárcel. Describe la práctica clandestina con cifras y con detalles clínicos, y señala la hipocresía de una sociedad que lo condena en público y lo utiliza en privado en todas las clases sociales, con la diferencia de que las que tienen dinero lo hacen con médico y las que no, en una cocina.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese capítulo no era teoría para ella. En 1971 firmó, junto a otras trescientas cuarenta y dos mujeres, un manifiesto público declarando haber abortado y exigiendo la despenalización, en un país donde aquella declaración era una confesión de delito. La ley cambió cuatro años después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un hijo no puede dar sentido a la vida de nadie: es otra persona, y encargarle esa tarea sale mal para los dos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Sin dinero propio no hay libertad, y con dinero tampoco basta" },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro se titula hacia la liberación y es la más corta, cosa que Beauvoir reconoce. Su condición número uno es económica y la formula sin rodeos: mientras una persona dependa del dinero de otra, su libertad es una manera de hablar, porque cualquier decisión importante que tome tiene que pasar por quien paga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso considera el trabajo remunerado el primer requisito, y también por eso dedica un capítulo a explicar por qué no es suficiente. Describe a la mujer independiente de su época —que trabaja, cobra y vive sola— y muestra que carga con una doble jornada, que tiene que demostrar el doble para lo mismo, que se le exige además ser atractiva y agradable, y que si renuncia a eso paga un precio social que su compañero de oficina no paga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade el obstáculo interior, que es el que más le interesa. Una mujer criada en esa situación arrastra, dice, una tentación permanente hacia la comodidad de la dependencia: la libertad da miedo, exige responder de lo propio y no ofrece ninguna garantía, y la sociedad le ha ofrecido durante toda su infancia una alternativa cómoda y aplaudida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su conclusión es que ninguna de las dos partes se arregla sola. La igualdad legal sin independencia económica no sirve de nada; la independencia económica sin un cambio en cómo se educa y en cómo se reparte el trabajo de la casa produce mujeres agotadas; y ese cambio, dice, exige que también cambien los hombres, cosa que el libro plantea y no desarrolla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La igualdad ante la ley sin dinero propio no sirve de nada, y el dinero propio sin repartir la casa produce sobre todo agotamiento.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El segundo sexo sostiene que no existe una naturaleza femenina, sino una situación históricamente construida en la que se coloca a media humanidad, y la describe capa por capa: el lenguaje que hace de lo masculino la norma, la dispersión que impide la solidaridad de grupo, la infancia que enseña a ser mirada, el matrimonio como contrato, un trabajo doméstico que no deja nada hecho y una maternidad presentada como destino.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta y no se puede quitar es una frase y un método. La frase es que no se nace mujer, sino que se llega a serlo, que funda la distinción entre lo anatómico y lo construido. El método es no discutir los hechos sino preguntar qué significan, que sirve para cualquier discusión sobre naturaleza y cultura.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No se nace mujer: se llega a serlo. Y si se llega a serlo, entonces no hay ninguna manera correcta de serlo que nadie pueda exigir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es un libro de 1949 y hay páginas que hoy se leen con incomodidad, empezando por su capítulo sobre la homosexualidad femenina, que arrastra buena parte de los prejuicios de la psiquiatría de su tiempo. Y hay un reproche mayor que le hicieron feministas posteriores: su descripción del cuerpo femenino es a menudo despectiva —habla de la menstruación y del embarazo con un vocabulario de alienación y de esclavitud de la especie—, como si tomara el cuerpo masculino por la norma y el otro por un estorbo del que hay que emanciparse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un límite de mirada que en 1949 era enorme y hoy salta a la vista: el libro habla casi exclusivamente de mujeres blancas, europeas y de clase media. Las obreras, las campesinas y las mujeres de las colonias que Francia administraba entonces aparecen apenas, y su ideal de liberación consiste en buena medida en acceder al modelo de vida masculino —oficio, proyecto, independencia— sin poner en duda ese modelo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un caso editorial que conviene conocer. La traducción inglesa de 1953, la única disponible durante cincuenta y seis años, la hizo un profesor de zoología jubilado por encargo de un editor que le exigió recortar: suprimió alrededor del quince por ciento del texto, incluidos decenas de nombres de mujeres históricas, y tradujo mal el vocabulario filosófico, con lo que buena parte de la argumentación se volvía incomprensible. Millones de personas leyeron ese libro mutilado. La traducción íntegra no apareció hasta 2009.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "segundo-sexo": SEGUNDO_SEXO,
   "discurso-metodo": DISCURSO_METODO,
   "apologia-socrates": APOLOGIA_SOCRATES,
   tao: TAO_TE_CHING,

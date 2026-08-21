@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "segundo-sexo":
+    "Beauvoir quería escribir sobre sí misma y alguien le preguntó qué había significado en su vida ser mujer. Contestó que nada, se puso a pensarlo y salieron mil páginas que fundaron el feminismo del siglo XX.",
+
   "discurso-metodo":
     "Se publicó en 1637 sin firma y en francés en vez de en latín, para que pudiera leerlo cualquiera con cabeza y sin estudios. Y no era un libro: era el prólogo de setenta páginas de un volumen de tratados científicos.",
 
