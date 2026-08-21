@@ -840,22 +840,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "guerra-arte",
-    titulo: "La guerra del arte",
-    autor: "Steven Pressfield",
-    ano: 2002,
-    gancho: "Vendió su primera novela a los cincuenta y uno, después de diecisiete años escribiendo sin publicar y de vivir una temporada en una furgoneta.",
-    porQue: "Le pone nombre a la fuerza que te impide sentarte a hacer lo que llevas años diciendo que vas a hacer. Y conviene ver también qué esconde esa palabra tan cómoda.",
-    minutos: 26.9,
-    capitulos: [
-      { titulo: "Diecisiete años sin vender nada", minutos: 5.3 },
-      { titulo: "Ponerle nombre al enemigo", minutos: 5.5 },
-      { titulo: "El aficionado y el profesional", minutos: 5.7 },
-      { titulo: "Las musas y los ángeles", minutos: 5.3 },
-      { titulo: "Sentarse otra vez mañana", minutos: 5.2 },
-    ],
-  },
-  {
     id: "diarios-frida",
     titulo: "El diario de Frida Kahlo",
     autor: "Frida Kahlo",

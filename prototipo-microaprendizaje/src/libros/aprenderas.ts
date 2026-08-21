@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "guerra-arte":
+    "Pressfield fue camionero, taxista y recolector de fruta, y publicó su primera novela a los cincuenta y dos años. Este libro trata de una sola cosa: por qué la gente no hace lo que sabe que debería hacer.",
+
   "acto-creativo":
     "El productor de Johnny Cash, los Beastie Boys y Adele no sabe tocar ningún instrumento ni leer una partitura. Su libro sostiene que la creatividad no es una habilidad técnica sino una manera de prestar atención.",
 

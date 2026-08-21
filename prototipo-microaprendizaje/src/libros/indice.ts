@@ -38,7 +38,6 @@ const CARGADORES: Record<string, Cargador> = {
 
   /* Arte */
   "roba-artista": () => import("./arte").then((m) => m.ROBA_ARTISTA),
-  "guerra-arte": () => import("./arte").then((m) => m.GUERRA_ARTE),
   "van-gogh-cartas": () => import("./arte").then((m) => m.CARTAS_THEO),
   leonardo: () => import("./arte").then((m) => m.LEONARDO),
 

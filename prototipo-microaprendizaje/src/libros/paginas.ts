@@ -26493,7 +26493,263 @@ const ACTO_CREATIVO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La guerra del arte, en ocho páginas.
+
+   Breve. El original tiene 190 páginas de capítulos de media carilla.
+
+   Libro PRÁCTICO: segunda persona en la prosa, titular que afirma.
+
+   La conclusión lleva dos avisos serios: la cita de Goethe que abre su
+   tercera parte no es de Goethe, y su idea de Resistencia mete en el mismo
+   saco la pereza y la depresión, que es un mal consejo.
+   -------------------------------------------------------------------------- */
+
+const GUERRA_ARTE: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Su autor publicó su primera novela a los cincuenta y dos años" },
+      {
+        b: "texto",
+        texto:
+          "Steven Pressfield tardó treinta años en publicar un libro. Por el camino fue camionero, recolector de fruta, taxista en Nueva York, profesor, redactor de publicidad, trabajador en plataformas petrolíferas y algunas cosas más que enumera sin adornar. Vivió temporadas sin casa fija. Publicó su primera novela en 1995, con cincuenta y dos años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El episodio que cuenta como fundacional es de 1974. Terminó una novela después de años de trabajo, la primera que consiguió acabar. No se publicó nunca, y poco después su mujer lo dejó. Un amigo le dijo entonces la única frase útil de aquella semana: que había terminado, y que eso era lo que casi nadie hace.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con ese material escribió en 2002 este libro, que no es un manual de escritura ni de arte. Es un libro sobre una sola cosa: por qué la gente no hace lo que sabe que debería hacer, y qué se puede hacer al respecto. Está compuesto de capítulos cortísimos, muchos de media página, y se lee en dos horas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que sostiene: qué nombre le pone al obstáculo, por qué ese obstáculo funciona como una brújula, qué disfraces adopta, cuál es la diferencia exacta entre un aficionado y un profesional, y qué hay de aprovechable y qué de resbaladizo en su parte final.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Terminar algo, aunque no lo publique nadie, es lo que separa a quien tiene un oficio de quien tiene una intención.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Al obstáculo hay que ponerle un nombre para poder pelearse con él" },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con una decisión de vocabulario. Pressfield llama Resistencia, con mayúscula, a la fuerza que impide sentarse a hacer el trabajo que uno sabe que tiene que hacer. No es la pereza, ni la falta de tiempo, ni la falta de talento: es lo que aparece exactamente entre la intención y la silla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su primera propiedad es que es invisible y se nota. Nadie la ve, no tiene forma ni olor, y cualquiera puede describir con precisión la sensación de ir a ponerse a algo importante y encontrarse de pronto ordenando cajones, mirando el teléfono o convencido de que hoy no es el día bueno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es que negocia. La Resistencia no dice nunca que no lo hagas: dice que lo hagas mañana, que primero conviene documentarse mejor, que ahora mismo no estás en condiciones, que ese proyecto quizá no era tan buena idea. Todas sus frases son razonables, y ninguna se presenta nunca como lo que es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la tercera es que no se marcha. Pressfield insiste en que no se vence de una vez: se despacha cada mañana y vuelve al día siguiente igual de fuerte, y a quien lleva treinta años haciendo su trabajo le espera en la puerta exactamente igual que al que empieza. Lo único que cambia con la experiencia es reconocerla antes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que te impide empezar nunca te dice que no lo hagas: te dice que lo hagas mañana, y suena perfectamente razonable.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuanto más te cuesta ponerte a algo, más importante es" },
+      {
+        b: "texto",
+        texto:
+          "La mejor idea del libro convierte el obstáculo en un instrumento de medida. Pressfield sostiene que la fuerza con la que uno siente esa resistencia ante una tarea es directamente proporcional a lo que esa tarea importa para su propia vida. Y que por tanto funciona como una brújula, solo que señalando al revés.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El razonamiento es sencillo. Nadie siente ninguna resistencia ante lo trivial: pagar un recibo, contestar un correo o fregar los platos no requiere ningún acto de voluntad especial, y por eso todo el mundo los hace mientras evita lo otro. Lo que produce ese frenazo es siempre lo que cambiaría algo, y cambiar algo da miedo aunque sea a mejor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la instrucción práctica más aplicable de todo el libro. Cuando tengas varias cosas pendientes y no sepas cuál es la importante, elige aquella ante la que sientes más rechazo. No la que más te apetece ni la más urgente: la que llevas semanas aplazando con excusas correctas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade el corolario sobre el miedo. Cuanto más miedo da un proyecto, más seguro se puede estar de que hay que hacerlo, porque el miedo mide lo que uno tiene en juego. Lo que no da ningún miedo casi nunca tiene consecuencias.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Entre todo lo que tienes pendiente, lo importante es aquello ante lo que sientes más rechazo, y por eso lleva meses ahí.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi ninguno de sus disfraces se parece a la pereza" },
+      {
+        b: "texto",
+        texto:
+          "La parte más reconocible del libro es el catálogo de formas que adopta el obstáculo, porque casi ninguna se parece a lo que uno esperaría. La procrastinación es la más obvia y también la más engañosa, porque nunca se presenta como abandono: se presenta como aplazamiento razonado, y se puede aplazar toda una vida un día cada vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después vienen las que no lo parecen. Prepararse indefinidamente: hacer cursos, leer sobre el oficio, comprar herramientas, documentarse un poco más. Buscar la situación perfecta: cuando tenga un despacho, cuando acabe esto otro, cuando los niños sean mayores. Y la más difícil de detectar, dedicar toda la energía a hablar del proyecto en vez de a hacerlo, porque hablarlo da casi la misma satisfacción y no expone a nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pressfield añade una observación fina sobre el entorno. Cuando alguien empieza a cambiar de verdad, la gente que tiene alrededor suele reaccionar, y no siempre a favor: un grupo estable se desequilibra si uno de sus miembros se mueve. Ese freno llega en forma de consejo prudente y de preocupación sincera, y es más difícil de resistir que una crítica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y señala el momento en que más fuerte se pone, que cualquiera que haya terminado algo reconoce: justo antes del final. Cuando el trabajo está al ochenta por ciento, aparecen las ganas de empezar otra cosa, la certeza de que aquello no valía nada o una urgencia doméstica inaplazable. Terminar es lo que de verdad expone.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Prepararse indefinidamente para algo es la forma más respetable que existe de no hacerlo nunca.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El aficionado ama su oficio; el profesional lo tiene" },
+      {
+        b: "texto",
+        texto:
+          "La segunda parte del libro contiene su mejor formulación, y es una distinción que no tiene nada que ver con cobrar dinero. Aficionado, en el sentido de Pressfield, es quien hace algo cuando le apetece, cuando está inspirado y cuando las condiciones acompañan. Profesional es quien lo hace igual todos los días, con o sin ganas, como un fontanero va a las casas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su lista de rasgos del profesional es concreta. Aparece todos los días. Aparece pase lo que pase. Se queda la jornada entera. Está comprometido a largo plazo y no a un proyecto. Acepta el pago por su trabajo, sin romanticismos. Domina la técnica de su oficio. Y, sobre todo, no se identifica con lo que hace: cuando critican su trabajo no siente que le estén criticando a él, y por eso puede escuchar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La frase que resume el capítulo es la del bloqueo. Un fontanero no se levanta un martes con bloqueo de fontanero. Va a la casa, mira la tubería y la arregla, tenga el día que tenga, porque su trabajo no depende de estar inspirado sino de aparecer. Pressfield sostiene que la única diferencia real entre quien vive de su oficio y quien no es haber aceptado eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade el punto sobre la inspiración, que es el que más gente cita mal. No dice que la inspiración no exista: dice que llega mientras se trabaja y no antes, y que un profesional se sienta a la hora acordada precisamente para estar ahí cuando aparezca. Esperarla en el sofá es garantizar no encontrársela.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un fontanero no se levanta con bloqueo de fontanero: va a la casa y mira la tubería, tenga el día que tenga.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El miedo no se va nunca, y trabajar con miedo es el oficio" },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos más útiles desmonta una expectativa muy extendida: la de que llegará un momento en que uno se sienta seguro y entonces podrá ponerse. Pressfield sostiene que ese momento no llega ni a los treinta años de carrera, y que quien lo espera va a esperar siempre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su descripción del profesional incluye por eso el miedo como parte del equipo. No lo elimina, no lo racionaliza y no espera a que baje; se sienta con él delante y trabaja. Y observa que la mayoría de la gente que admira, en cualquier oficio, describe lo mismo: nervios antes de empezar, cada vez, durante toda la vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale también su manera de tratar el resultado. Un profesional entrega el trabajo y pasa al siguiente, sin quedarse a esperar la reacción, porque la reacción no está en su mano y esperarla es la manera más rápida de dejar de trabajar. Y acepta la crítica como información técnica, no como juicio sobre su persona, que es lo que le permite corregir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo termina con su recomendación más práctica y menos épica: reducir el tamaño del compromiso diario hasta que sea imposible no cumplirlo. No prometerse una obra, sino una sesión; no un libro, sino la hora de mañana. Lo que se sostiene durante años son las sesiones, y la obra aparece después como consecuencia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La seguridad no llega nunca: lo que se aprende es a sentarse a trabajar con el miedo puesto y hacerlo igual.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La tercera parte cambia de género sin avisar" },
+      {
+        b: "texto",
+        texto:
+          "El libro tiene una última sección que sorprende a casi todo el que llega hasta ella. Después de doscientas páginas de disciplina práctica, Pressfield pasa a hablar de las musas, de los ángeles y de una fuerza que quiere que uno haga su trabajo, y cuenta que cada mañana, antes de sentarse, lee en voz alta una invocación de la Odisea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tránsito no está preparado y no hay ningún puente. Quien haya leído la parte anterior como un manual de hábitos se encuentra de pronto con afirmaciones que no admiten comprobación, y el propio autor no aclara si las quiere en sentido literal o como una manera de hablar. Es la parte que más lectores abandonan y también la que otros consideran la mejor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí hay algo que conviene mirar dos veces. Pressfield apoya ese tramo en una cita atribuida a Goethe según la cual, en el momento en que uno se compromete de verdad, la providencia se pone en marcha y ocurren cosas que de otro modo no habrían ocurrido. La cita circula por medio mundo y no es de Goethe: procede de un libro de un montañero escocés de 1951, que tras citar dos versos suyos añadió por su cuenta un párrafo que se ha atribuido al poeta desde entonces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle no invalida el libro y sí dice algo sobre cómo está escrito: es un texto de afirmaciones, sin una sola fuente, un estudio ni un dato comprobable en doscientas páginas. Funciona como arenga, y como arenga conviene leerlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La cita más famosa sobre comprometerse con algo no es de quien todo el mundo cree, y lleva setenta años circulando así.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La guerra del arte sostiene que lo que impide hacer el trabajo importante no es la falta de tiempo ni de talento, sino una fuerza que aparece siempre y que hay que despachar cada día. Y aporta dos herramientas concretas: usar la intensidad del rechazo como brújula para saber qué es lo importante, y adoptar la actitud de quien tiene un oficio en vez de la de quien tiene una afición.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la formulación. La distinción entre aficionado y profesional, tal como la define, es la mejor descripción que existe del problema, y la imagen del fontanero sin bloqueo de fontanero resuelve en una frase una discusión de siglos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuanto más te cuesta ponerte a algo, más importante es: la resistencia mide exactamente lo que tienes en juego.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es un libro puramente afirmativo: no hay un dato, un estudio ni una fuente en doscientas páginas, y todo se apoya en la experiencia de un hombre elevada a ley universal. La tercera parte cambia de género sin transición y arrastra al lector de un manual de hábitos a la teología de las musas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un problema serio que conviene decir claro. Su concepto de Resistencia es tan ancho que acaba incluyendo cosas que no tienen nada que ver entre sí: en algunos capítulos mete en el mismo saco la procrastinación, la infelicidad, la enfermedad y la decisión de buscar ayuda terapéutica, presentándolas todas como excusas del mismo enemigo. Aplicar eso a alguien con una depresión no es motivación, es un consejo dañino. El libro sirve para quien está sano y no se pone; para lo demás, no es el libro.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "guerra-arte": GUERRA_ARTE,
   "acto-creativo": ACTO_CREATIVO,
   "cartas-joven-poeta": CARTAS_JOVEN_POETA,
   "mientras-escribo": MIENTRAS_ESCRIBO,

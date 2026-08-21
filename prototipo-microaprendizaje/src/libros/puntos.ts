@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "guerra-arte": [
+    "qué nombre le pone al obstáculo y por qué eso importa",
+    "por qué el rechazo que sientes funciona como brújula",
+    "qué disfraces adopta y ninguno parece pereza",
+    "cuál es la diferencia exacta entre aficionado y profesional",
+    "qué parte del libro conviene leer con cuidado",
+  ],
+
   "acto-creativo": [
     "qué cambia entenderse como un recipiente y no como una fuente",
     "cuáles son las cuatro fases y por qué no se mezclan",
