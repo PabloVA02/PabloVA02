@@ -82,7 +82,6 @@ const CARGADORES: Record<string, Cargador> = {
   "milagro-manana": () => import("./salud").then((m) => m.MILAGRO_MANANA),
   "musica-primos": () => import("./ciencia").then((m) => m.MUSICA_PRIMOS),
   tatuador: () => import("./historia").then((m) => m.TATUADOR),
-  enquiridion: () => import("./filosofia").then((m) => m.ENQUIRIDION),
   "lean-startup": () => import("./economia").then((m) => m.LEAN_STARTUP),
   "universo-mano": () => import("./ciencia").then((m) => m.UNIVERSO_MANO),
   "cuchara-menguante": () => import("./ciencia").then((m) => m.CUCHARA_MENGUANTE),

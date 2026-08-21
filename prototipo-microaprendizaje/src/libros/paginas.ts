@@ -32024,7 +32024,263 @@ const BREVEDAD_VIDA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Enquiridión, en ocho páginas.
+
+   Breve, y el original tiene cincuenta y tres capítulos cortísimos.
+
+   Libro PRÁCTICO: segunda persona en la prosa, que es como está escrito.
+   Titular que afirma.
+
+   La conclusión lleva el reproche serio: esta filosofía enseña a soportar
+   la esclavitud y no a abolirla, y lo escribió un antiguo esclavo.
+   -------------------------------------------------------------------------- */
+
+const ENQUIRIDION: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Su nombre significa «adquirido»" },
+      {
+        b: "texto",
+        texto:
+          "El autor de este libro nació esclavo en una ciudad de la actual Turquía, hacia el año cincuenta de nuestra era. Su nombre, Epícteto, no es un nombre: en griego significa adquirido, comprado, añadido a una propiedad. Es lo que se le ponía a un esclavo cuando llegaba a una casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Perteneció en Roma a un liberto que había sido secretario del emperador Nerón. Quedó cojo de por vida, y sobre eso hay dos versiones: una fuente antigua atribuye la cojera a una enfermedad y otra cuenta una escena de tortura del amo. Esa segunda historia es célebre, es la que se repite en todas partes y probablemente es apócrifa, así que conviene tomarla con cuidado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fue liberado, estudió filosofía, empezó a enseñar en Roma y fue expulsado de Italia hacia el año noventa y tres, cuando el emperador Domiciano desterró a todos los filósofos. Montó entonces una escuela en el noroeste de Grecia, donde enseñó el resto de su vida. No escribió ni una línea: todo lo que se conserva son apuntes de un alumno suyo, Arriano, que después sería historiador y gobernador romano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El Enquiridión es el resumen que ese alumno hizo de sus clases: cincuenta y tres capítulos cortos, algunos de tres líneas. La palabra significa lo que se lleva a mano, y en griego designaba a la vez un manual y una daga corta que se llevaba al cinto. Las dos cosas describen bien lo que es.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El manual más famoso sobre la libertad interior lo dictó un hombre cuyo nombre significaba «comprado».",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo primero es separar lo que depende de ti de lo que no" },
+      {
+        b: "texto",
+        texto:
+          "El primer capítulo contiene la idea de la que sale todo lo demás, y está formulada como una clasificación. De todas las cosas que hay, unas dependen de ti y otras no. Dependen de ti tus juicios, tus impulsos, tus deseos y tus rechazos, es decir, lo que ocurre dentro. No dependen de ti tu cuerpo, tu patrimonio, tu reputación, tus cargos ni lo que hagan los demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y a continuación va la consecuencia práctica, que es la parte que importa. Si consideras tuyo lo que no lo es, vivirás tropezando, lamentándote y echando la culpa a los demás y a la suerte, porque estarás intentando gobernar cosas que no obedecen. Si te limitas a lo que sí es tuyo, nadie podrá obligarte a nada ni impedirte nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejercicio que propone es de vocabulario y se puede hacer hoy mismo. Ante cualquier cosa que te preocupe, la primera pregunta no es qué hacer, sino a cuál de las dos columnas pertenece. Que te llamen para una entrevista no depende de ti; presentarte preparado, sí. Que un familiar enferme no depende de ti; cómo lo acompañas, sí. Que te caigan bien a todos no depende de ti; cómo tratas a la gente, sí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Epicteto insiste en que la mayor parte del sufrimiento humano viene de tener esa lista mal hecha, y en que casi todo el mundo la tiene mal hecha en la misma dirección: pasando a la columna propia cosas que están en la otra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todo el sufrimiento viene de intentar gobernar cosas que no obedecen, y de descuidar la única que sí.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "No te altera lo que pasa: te altera lo que piensas de lo que pasa" },
+      {
+        b: "texto",
+        texto:
+          "El quinto capítulo cabe en una línea y es probablemente la frase más influyente de toda la filosofía antigua sobre la vida corriente: a los hombres no los perturban las cosas, sino las opiniones que tienen sobre las cosas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su prueba es un argumento por comparación. La muerte, dice, no puede ser terrible en sí misma, porque de serlo se lo habría parecido también a Sócrates, y no fue así. Si el mismo hecho produce terror en unos y serenidad en otros, entonces el terror no está en el hecho: está en el juicio que cada uno le añade.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca la instrucción que hace útil el libro. Cuando algo te altera, no discutas con el hecho, que no se puede cambiar; localiza la frase que te has dicho a ti mismo sobre él. No es el atasco lo que enfurece, es la idea de que no debería haberlo; no es la crítica lo que hunde, es la idea de que uno tenía que gustar. Y esas frases sí están en la columna de lo que depende de ti.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esta idea tiene una descendencia directa y comprobable. La terapia cognitiva, que es hoy el tratamiento psicológico con más apoyo empírico para la ansiedad y la depresión, se apoya exactamente en ese mecanismo, y sus fundadores citaron a Epicteto por su nombre como origen del método.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si un mismo suceso aterra a uno y no a otro, el terror no está en el suceso: está en la frase que cada uno se dice.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nunca digas que has perdido algo: di que lo has devuelto" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo once es de los más duros del libro y también de los más comentados. Dice que nunca hay que decir de nada que se ha perdido, sino que se ha devuelto. Se te ha muerto un hijo: ha sido devuelto. Te han quitado tu finca: también fue devuelta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento que hay detrás es de propiedad. Nada de lo que tienes lo has traído al mundo contigo, todo llegó y todo se irá, y en el intervalo lo tienes en préstamo. La imagen que usa es la de un viajero en una posada: uno no considera suya la habitación ni se enfada cuando se acaba la estancia, porque desde el principio sabía en qué condiciones estaba allí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Leído literalmente, y sobre todo el ejemplo del hijo, resulta insoportable, y mucha gente abandona el libro en esa página. Conviene entender lo que la frase pretende y lo que no. No dice que no haya que sufrir, ni que dé igual; Epicteto perdió a su maestro y a su libertad y no era un hombre insensible. Lo que ataca es una idea concreta: la de que la pérdida es un robo, una injusticia cometida contra ti, algo que no debería haber ocurrido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la parte utilizable. Quien vive dando por hecho que lo que tiene le pertenece por derecho vive además con un miedo continuo a que se lo quiten; quien lo tiene por prestado disfruta de lo mismo sin ese miedo de fondo. La diferencia entre las dos maneras no está en lo que se tiene, sino en el verbo que se usa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien cree que lo suyo le pertenece por derecho vive con miedo continuo a perderlo; el que lo sabe prestado disfruta de lo mismo sin ese miedo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El barco, la playa y el capitán que llama" },
+      {
+        b: "texto",
+        texto:
+          "La imagen más bonita del libro ocupa un capítulo entero y describe la vida como una escala en un viaje por mar. El barco ha fondeado y bajas a tierra a por agua. Por el camino puedes ir recogiendo cosas de la orilla: una concha, una cebolla silvestre, algo que te llame la atención.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La condición es una sola: tienes que estar pendiente del barco y mirar continuamente hacia él, porque el capitán puede llamar en cualquier momento. Y si llama, hay que dejarlo todo en la arena y volver corriendo, sin discutir. Si te resistes o te entretienes, te subirán a bordo atado, como un fardo, entre la carga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Epicteto añade que lo mismo vale para las personas: si por el camino recoges compañía —una mujer, un hijo, un amigo—, la llevas igual, sabiendo desde el principio que el barco manda. Y termina el capítulo diciendo que si uno es viejo, conviene no alejarse mucho de la orilla, por si acaso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace buena la imagen es que no pide renunciar a nada. No dice que no recojas conchas; dice que las recojas sabiendo lo que son. La diferencia entre disfrutar de un paseo por la playa y agarrarse a la arena cuando llaman es exactamente la que separa las dos maneras de estar en el mundo que describe todo el libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie te pide que no recojas nada en la orilla: te piden que no discutas cuando llame el capitán.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "No expliques cómo hay que comer: come" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo cuarenta y seis contiene la mejor advertencia del libro contra el uso que la gente hace de este tipo de lecturas. Dice que nunca se hable de filosofía entre quienes no la estudian, y que en lugar de decir cómo hay que hacer las cosas, se hagan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo es de mesa. En un banquete no expliques a los demás cuál es la manera correcta de comer: come como hay que comer y que lo vean. Y añade la comparación que remata el asunto: las ovejas no vomitan la hierba delante del pastor para demostrarle cuánto han pastado; digieren por dentro y por fuera producen lana y leche.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la misma línea van otras reglas de conducta que ocupan un capítulo entero y que son de una sequedad notable: habla poco y de lo necesario; no jures; evita los espectáculos y las reuniones de gente ruidosa; si vas, no cuentes después lo que has hecho ni compares; no te rías a carcajadas ni con frecuencia; no hables de ti mismo ni de tus méritos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y su criterio para saber si uno está progresando es el más exigente que ha formulado esta escuela, porque no habla de lo que uno consigue sino de lo que deja de hacer: el que avanza no censura a nadie, no alaba a nadie, no se queja de nadie, no acusa a nadie y no habla de sí mismo como si fuera alguien importante.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las ovejas no le enseñan al pastor la hierba que han comido: le dan lana. Eso es todo lo que hay que hacer con lo que uno aprende.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un piloto derribado sobre Vietnam se acordó de este libro" },
+      {
+        b: "texto",
+        texto:
+          "La comprobación más extrema que ha tenido este manual la hizo un militar estadounidense en el siglo XX, y es un caso documentado por él mismo en conferencias y escritos. James Stockdale era piloto de la marina y había estudiado filosofía en la universidad, donde un profesor le dio un ejemplar del Enquiridión y le dijo que le haría falta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En septiembre de 1965, su avión fue derribado sobre Vietnam del Norte. Stockdale contó que, mientras descendía en paracaídas hacia un pueblo donde le esperaba una multitud, se dijo a sí mismo que estaba abandonando el mundo de la tecnología y entrando en el mundo de Epicteto. Estuvo preso siete años y medio, cuatro de ellos incomunicado, y fue torturado en repetidas ocasiones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sostuvo después es que aquel libro le dio una manera concreta de organizar la situación. Sus captores controlaban su cuerpo, su comida, su información y su tiempo, es decir, la columna entera de lo que no depende de uno; y no podían tocar lo que decidía sobre sí mismo, que era lo único que le quedaba y que resultó ser suficiente para sobrevivir con la cabeza en su sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay que decir a la vez lo que ese caso no demuestra. Que a un hombre le sirviera en un campo de prisioneros no convierte esta doctrina en un método universal, y muchos otros que estaban allí no la conocían y también aguantaron. Lo que sí muestra es hasta dónde llega el ejercicio del primer capítulo cuando todo lo demás se ha perdido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien controla tu cuerpo, tu comida y tu tiempo, la única columna que te queda es la de lo que decides sobre ti mismo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El Enquiridión sostiene que la serenidad depende de una clasificación bien hecha: separar lo que está en nuestras manos —los juicios, los deseos, las decisiones— de lo que no lo está, y dejar de intentar gobernar la segunda columna. De ahí salen sus reglas concretas: buscar la frase propia detrás de cada disgusto, tratar lo que se tiene como prestado, no anunciar lo que uno piensa y medir el progreso por lo que se deja de hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un formato irrepetible: cincuenta y tres capítulos de pocas líneas, sin una sola abstracción, que se pueden abrir por cualquier página. Y una descendencia comprobable, porque la terapia cognitiva actual arranca literalmente de una de sus frases.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El que progresa no censura a nadie, no alaba a nadie, no se queja de nadie y no habla de sí mismo: ese es su único criterio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Su clasificación es demasiado tajante. Entre lo que depende enteramente de uno y lo que no depende en absoluto está casi todo lo importante de una vida: la salud, un trabajo, una relación, un proyecto, cosas sobre las que se tiene una influencia parcial y real. Meterlas en la columna de lo ajeno puede convertirse en una coartada excelente para no intentar nada, y los lectores modernos de esta escuela han tenido que añadir esa categoría intermedia que el texto no tiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un reproche de fondo que conviene decir claro. Esta filosofía enseña a soportar la injusticia y no dice ni una palabra sobre cambiarla. Su autor había sido esclavo y en cincuenta y tres capítulos no hay ninguno que ponga en duda la esclavitud: hay instrucciones excelentes para conservar la libertad interior dentro de ella. Es una herramienta de una eficacia enorme para lo que no se puede cambiar, y usarla para lo que sí se puede cambiar la convierte exactamente en lo que el poder de cualquier época preferiría que leyeran sus súbditos.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  enquiridion: ENQUIRIDION,
   "brevedad-vida": BREVEDAD_VIDA,
   "gen-historia": GEN_HISTORIA,
   "orden-del-tiempo": ORDEN_DEL_TIEMPO,

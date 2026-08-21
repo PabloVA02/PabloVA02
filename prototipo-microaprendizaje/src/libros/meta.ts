@@ -200,22 +200,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "enquiridion",
-    titulo: "Enquiridión",
-    autor: "Epicteto",
-    ano: 125,
-    gancho: "Un manual de cincuenta y tres párrafos escrito por un esclavo liberto que nunca escribió nada, y que un piloto derribado sobre Vietnam recitaba de memoria en una celda.",
-    porQue: "Porque es el libro de estoicismo más corto y más usado de los que existen, y porque su idea central —separar lo que depende de ti— es a la vez la más útil y la más tramposa del género.",
-    minutos: 21.1,
-    capitulos: [
-      { titulo: "El alumno que tomaba notas", minutos: 4.1 },
-      { titulo: "La primera frase", minutos: 4.1 },
-      { titulo: "El jarrón roto", minutos: 4.3 },
-      { titulo: "La obra la escribe otro", minutos: 4.2 },
-      { titulo: "Hanói, 1965", minutos: 4.4 },
-    ],
-  },
-  {
     id: "tao",
     titulo: "Tao Te Ching",
     autor: "Lao Tsé",

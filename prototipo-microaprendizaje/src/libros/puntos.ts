@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  enquiridion: [
+    "cómo se separa lo que depende de ti de lo que no",
+    "por qué no te altera lo que pasa sino lo que piensas de ello",
+    "qué cambia decir «lo he devuelto» en vez de «lo he perdido»",
+    "qué explica la parábola del barco y la orilla",
+    "cuál es su criterio para saber si uno está progresando",
+  ],
+
   "brevedad-vida": [
     "por qué sostiene que la vida no es corta",
     "qué hacemos con el tiempo que no haríamos con el dinero",

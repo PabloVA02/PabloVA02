@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  enquiridion:
+    "Su autor nació esclavo y su nombre significa literalmente «comprado». No escribió ni una línea: son apuntes que tomó un alumno en clase, resumidos en cincuenta y tres capítulos de pocas líneas cada uno.",
+
   "brevedad-vida":
     "Una carta de cuarenta páginas escrita hacia el año 49 para convencer al responsable del abastecimiento de grano de Roma de que dejara su cargo. Su primera frase discute la queja más universal que existe y le da la vuelta.",
 
