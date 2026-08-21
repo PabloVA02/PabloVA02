@@ -792,22 +792,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "milagro-manana",
-    titulo: "Mañanas milagrosas",
-    autor: "Hal Elrod",
-    ano: 2012,
-    gancho: "Estuvo clínicamente muerto seis minutos a los veinte años. Doce años después escribió un método de una hora que han copiado dos millones de personas.",
-    porQue: "Porque cuatro de sus seis prácticas están razonablemente respaldadas, y la afirmación central del libro sobre el sueño es sencillamente falsa.",
-    minutos: 21.7,
-    capitulos: [
-      { titulo: "Seis minutos muerto", minutos: 4.4 },
-      { titulo: "Las seis prácticas", minutos: 4.3 },
-      { titulo: "No se negocia con el sueño", minutos: 4.6 },
-      { titulo: "Los treinta primeros días", minutos: 4.1 },
-      { titulo: "La hora que no importa", minutos: 4.2 },
-    ],
-  },
-  {
     id: "invencible",
     titulo: "Invicto",
     autor: "Marcos Vázquez",

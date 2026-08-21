@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "milagro-manana":
+    "Su autor estuvo clínicamente muerto seis minutos tras un choque frontal a los veinte años, y volvió a caminar en tres semanas. El libro salió de una segunda caída, la de perder su negocio en 2008, y propone reservar la primera hora del día.",
+
   "codigo-obesidad":
     "Casi todo el mundo que se pone a dieta adelgaza, y entre el ochenta y el noventa y cinco por ciento lo recupera. Un nefrólogo sostiene que si un tratamiento falla nueve de cada diez veces, el problema no está en el paciente.",
 

@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "milagro-manana": "Los 6 hábitos que cambiarán tu vida antes de las 8:00",
   "codigo-obesidad": "Descifra los secretos de la pérdida de peso",
   "nacidos-correr": "La historia de una tribu oculta, un puñado de atletas y la mayor carrera de la historia",
   "marte-venus": "Guía práctica para mejorar la comunicación y obtener lo que deseas en tus relaciones",

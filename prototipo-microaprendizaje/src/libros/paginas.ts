@@ -40728,7 +40728,288 @@ const CODIGO_OBESIDAD: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Mañanas milagrosas, en ocho páginas.
+
+   Breve.
+
+   Libro práctico: la prosa habla de TÚ (regla 4.7).
+
+   La página séptima es la que el libro no escribe —cuántas horas duermes— y
+   va dentro del resumen y no en la conclusión, porque no es una crítica: es
+   lo que el lector necesita saber antes de aplicarlo.
+
+   La conclusión lleva los veintiún días, que salen de un libro de cirugía
+   estética de 1960 y no de ningún estudio; los dos hallazgos que van contra
+   las afirmaciones y la visualización; y los cronotipos.
+   -------------------------------------------------------------------------- */
+
+const MILAGRO_MANANA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "La primera hora del día es la única que nadie te va a quitar" },
+      {
+        b: "texto",
+        texto:
+          "En diciembre de 1999, un coche que circulaba de frente a más de cien kilómetros por hora se llevó por delante el de Hal Elrod. Tenía veinte años. Se rompió once huesos, estuvo clínicamente muerto seis minutos y en coma seis días, y le dijeron que probablemente no volvería a caminar. Caminó a las tres semanas. Ese accidente es el origen del libro y su credencial.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que lo escribió, sin embargo, fue otra caída. En 2008 la crisis financiera se llevó su negocio, se quedó sin ingresos y con una depresión, y un amigo le sugirió que saliera a correr por las mañanas. De ese periodo salió una rutina, y de la rutina, este libro, que publicó por su cuenta en 2012 y que ha vendido millones de ejemplares.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis cabe en una frase: la calidad de tu vida la deciden tus primeras horas, porque son las únicas del día que puedes organizar entera. A partir de las nueve mandan el trabajo, los correos, los hijos y lo que se rompa. Antes de que empiece eso hay un hueco que nadie reclama, y lo que se hace ahí no depende de que el día salga bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren el método: por qué esa primera hora funciona, los seis hábitos que propone meter en ella, por qué levantarse temprano es un asunto de logística y no de fuerza de voluntad, la versión de seis minutos para quien dice no tener tiempo, el reto de treinta días con el que se instala, y una cosa que el libro no menciona nunca y que decide si todo esto te va a servir o a perjudicar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "A partir de cierta hora el día lo organizan otros; lo que quieras que sea tuyo tiene que caber antes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi nadie decide cómo empieza el día: lo empieza reaccionando" },
+      {
+        b: "texto",
+        texto:
+          "Elrod describe la mañana corriente y acierta en el retrato. Suena la alarma, se pospone dos o tres veces, se coge el móvil desde la cama y lo primero que entra en la cabeza son mensajes, noticias y peticiones de otros. Media hora después uno está vestido y ya lleva un rato contestando a cosas que no eligió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su objeción no es moral sino de orden. Empezar reaccionando fija el modo del resto del día: quien arranca respondiendo a lo urgente sigue respondiendo a lo urgente hasta la noche, y lo importante se aplaza a un rato que no llega. Lo que propone es meter delante un bloque en el que no se responde a nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una observación sobre el aplazamiento que es la mejor del libro. Casi todo lo que la gente dice que hará cuando tenga tiempo —leer, moverse, pensar, escribir— es exactamente lo que nunca tiene un plazo ni un jefe detrás. Al no tener plazo, siempre pierde contra cualquier cosa que sí lo tenga, y por eso lleva años pendiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí la instrucción, que es sencilla y a la vez incómoda: si algo te importa de verdad y lleva dos años sin hacerse, no le falta motivación, le falta un hueco fijo. Y el único hueco que no compite con nada es el que va antes de que empiece todo lo demás. No porque la mañana sea mágica, sino porque a esa hora nadie te pide nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que no tiene plazo pierde siempre contra lo que sí lo tiene, por importante que sea.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Seis prácticas caben en una hora, y el orden no es casual" },
+      {
+        b: "texto",
+        texto:
+          "El contenido del bloque son seis hábitos que Elrod ordena para que se recuerden con una palabra. El primero es el silencio: unos minutos sentado sin hacer nada, respirando, meditando o rezando, según a cada cual le encaje. Su función es no arrancar acelerado, y es lo contrario de coger el móvil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo son las afirmaciones: frases sobre lo que uno quiere conseguir y sobre lo que va a hacer para conseguirlo, leídas en voz alta. El tercero es la visualización: imaginarse haciendo lo que hay que hacer ese día, no el resultado final. Los dos son los más discutibles del método y en la conclusión están las razones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuarto es el ejercicio, y aquí Elrod es explícito en que no habla de entrenar: bastan unos minutos de movimiento que suban el pulso, porque lo que busca es despertar el cuerpo y no una sesión de gimnasio. El quinto es leer, aunque sean diez páginas, y de un libro que enseñe algo concreto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El sexto es escribir. No un diario de sentimientos, sino apuntar tres cosas: lo que salió bien ayer, lo que se aprendió y lo que hay que hacer hoy. Elrod sostiene que escribirlo saca las ideas de la cabeza, donde giran, y las deja en un sitio donde se pueden mirar. Los seis juntos ocupan una hora, y ese es el formato completo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El orden empieza en silencio y termina escribiendo: se abre callando y se cierra decidiendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Levantarse pronto no es un problema de voluntad: es un problema de logística",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte más práctica del libro es la que se ocupa del momento exacto en que suena la alarma, y su tesis es que ahí no se gana con fuerza de voluntad. A esa hora nadie tiene voluntad: se está medio dormido y el cerebro tarda entre veinte y treinta minutos en funcionar del todo. Lo que hay que hacer es quitar decisiones de en medio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su procedimiento tiene cinco pasos y ninguno requiere carácter. Decidir la noche anterior a qué hora te levantas y para qué, en voz alta o por escrito. Poner el despertador al otro lado de la habitación, de modo que apagarlo obligue a ponerse de pie. Ir directo al baño a lavarse los dientes. Beber un vaso de agua entero. Y vestirse con la ropa que ya has dejado preparada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lógica de la secuencia es que cada paso hace inevitable el siguiente y ninguno exige pensar. Ponerse de pie corta el impulso de volver a la cama; el agua rehidrata después de siete horas sin beber; lavarse los dientes y vestirse ocupan cinco minutos en los que la somnolencia se va sola. A los diez minutos el problema ya no existe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El botón de posponer se lleva un apartado propio. Elrod sostiene que cada vez que lo pulsas empiezas un ciclo de sueño que no vas a terminar, y por eso te levantas peor que si te hubieras levantado a la primera. La recomendación es no negociar con esa decisión a las seis de la mañana, porque la parte del cerebro que negocia a esa hora no está de tu lado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "A las seis de la mañana nadie tiene fuerza de voluntad, así que el método no puede depender de tenerla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La versión de seis minutos existe porque la excusa siempre es la misma",
+      },
+      {
+        b: "texto",
+        texto:
+          "Elrod sabe cuál es la objeción que va a recibir —no tengo una hora libre por la mañana— y le dedica un capítulo entero. Su respuesta es una versión comprimida: un minuto para cada una de las seis prácticas. Seis minutos en total, que es menos de lo que casi cualquiera pasa mirando el móvil antes de levantarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un minuto sentado en silencio respirando. Un minuto leyendo tus afirmaciones. Un minuto imaginando el día. Un minuto de saltos, sentadillas o estiramientos. Un minuto leyendo una página. Un minuto escribiendo tres líneas. Cronometrado, y sin permitirse alargarlo el primer día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El razonamiento detrás es de diseño de hábitos y es correcto: lo que decide si una rutina se instala no es su intensidad sino su repetición, y una rutina de una hora que se cumple dos días es peor que una de seis minutos que se cumple treinta. Lo importante es que exista la costumbre; ampliarla después es fácil, recuperarla cuando se ha roto es mucho más difícil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí se saca la regla general que vale más allá de este libro: cuando algo se abandona siempre, el problema no suele ser la falta de ganas sino que el listón está puesto en una versión que no cabe en un día malo. La pregunta que hay que hacerse no es qué harías en tu mejor semana, sino qué serías capaz de hacer el peor día del mes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una rutina hay que dimensionarla para tu peor día del mes, no para tu mejor semana.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El reto de treinta días tiene tres fases y la segunda es la que tumba a casi todos",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro pide probarlo treinta días seguidos y describe lo que va a pasar, dividido en tres tramos de diez. Es la parte más útil del capítulo, no porque los números sean exactos —no lo son—, sino porque avisa de que la dificultad no baja de forma continua.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los primeros diez días son insoportables y eso se espera. Cuesta levantarse, uno se siente ridículo leyendo frases en voz alta y la cabeza propone abandonar cada mañana. Elrod dice que en esta fase no hay que juzgar el método, solo cumplirlo, porque lo que se está midiendo es la incomodidad de lo nuevo y no si funciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los diez siguientes son los peligrosos. Ya no es insoportable, es solo incómodo, y precisamente por eso aparece la negociación: hoy no pasa nada, esta semana estoy liado, ya lo retomo el lunes. Casi todo el abandono ocurre en esta franja, cuando la dificultad ha bajado lo bastante para que valga la pena discutirla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En los últimos diez la rutina empieza a sostenerse sola y el esfuerzo se traslada: ya no cuesta hacerlo, cuesta no hacerlo. Elrod aconseja no juzgar nada hasta el día treinta y uno y llevar la cuenta por escrito, porque la memoria de lo que uno ha cumplido es notoriamente mala y una cadena de días marcados sostiene más que cualquier propósito.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie abandona cuando es insoportable: se abandona cuando ya solo es incómodo y se puede discutir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En trescientas páginas sobre madrugar no aparece cuántas horas hay que dormir",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una cifra que el libro no menciona ni una vez y que decide si todo lo anterior te va a servir o a hacer daño: cuántas horas duermes. Levantarse a las cinco es una idea distinta según a qué hora te acuestes, y el método no dice nada al respecto. Si adelantas la alarma sin adelantar la hora de dormir, no te estás levantando antes: estás durmiendo menos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y dormir poco de forma sostenida es una de las cosas peor toleradas por el cuerpo humano que se conocen. Por debajo de siete horas se deterioran la memoria, la atención, el control del apetito, el ánimo y la respuesta inmunitaria, y el propio afectado no lo nota: quien lleva dos semanas durmiendo seis horas rinde mucho peor y se cree que está igual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Además, la hora a la que uno funciona no es enteramente una decisión. Existe el cronotipo, que tiene una base genética conocida: alrededor de una cuarta parte de la población es de tarde, se duerme naturalmente más tarde y rinde más por la noche. A esa persona, madrugar no le convierte la mañana en productiva; le recorta el sueño por el otro extremo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso, el método se puede aplicar sin riesgo si se corrige en un punto: la hora que se mueve primero es la de acostarse, no la de levantarse. Y si acostarse antes no es posible —por turnos, por hijos pequeños, por horario laboral—, entonces el bloque no va por la mañana. La idea de un rato protegido en el que nadie te pide nada no depende de que sean las cinco.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Adelantar la alarma sin adelantar la hora de acostarte no es madrugar: es dormir menos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Mañanas milagrosas propone reservar la primera hora del día para seis prácticas —silencio, afirmaciones, visualización, ejercicio, lectura y escritura—, quitar de en medio las decisiones que impiden levantarse y sostenerlo treinta días. Su versión de seis minutos existe para que la falta de tiempo deje de ser una excusa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta y se sostiene no es la hora sino la estructura. Que un rato protegido antes de que empiecen las peticiones ajenas es el único que no compite con nada. Que lo que no tiene plazo pierde siempre. Y que las mecánicas de levantarse —alarma lejos, agua, moverse— funcionan porque no exigen voluntad a una hora en la que nadie la tiene.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que hace útil este método no es que sea por la mañana: es que hay un rato del día en el que nadie te pide nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Las dos prácticas centrales tienen investigación en contra. Un estudio de 2009 comprobó que repetir afirmaciones positivas empeoraba el ánimo de las personas con baja autoestima, que son justo las que las necesitarían. Y el trabajo de Gabriele Oettingen encontró que fantasear con el resultado conseguido baja la energía y predice peores resultados: lo que funciona es imaginar a la vez el obstáculo y el plan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los números tampoco se sostienen. La idea de que un hábito se instala en veintiún días no viene de ningún estudio: viene de un libro de cirugía estética de 1960 cuyo autor observó que sus pacientes tardaban unas tres semanas en acostumbrarse a su cara nueva. Cuando se midió de verdad, en 2010, la mediana fueron sesenta y seis días, con casos que iban de dieciocho a doscientos cincuenta y cuatro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el silencio sobre el sueño es el fallo grave. El libro presenta madrugar como una virtud sin decir nunca cuántas horas hay que dormir ni mencionar que una cuarta parte de la gente es de tarde por genética. Seguido al pie de la letra por alguien que no puede acostarse antes, este método prescribe una restricción crónica de sueño, que es lo contrario de lo que promete.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "milagro-manana": MILAGRO_MANANA,
   "codigo-obesidad": CODIGO_OBESIDAD,
   "nacidos-correr": NACIDOS_CORRER,
   "marte-venus": MARTE_VENUS,

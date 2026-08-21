@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "milagro-manana": [
+    "por qué lo que no tiene plazo se aplaza siempre",
+    "los seis hábitos y en qué orden van",
+    "cómo levantarse sin depender de la fuerza de voluntad",
+    "las tres fases del reto de treinta días",
+    "la cifra que el libro no menciona nunca",
+  ],
+
   "codigo-obesidad": [
     "qué se midió en el experimento de hambre de Minnesota",
     "qué le pasó al metabolismo de unos concursantes seis años después",
