@@ -1032,22 +1032,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "educada",
-    titulo: "Una educación",
-    autor: "Tara Westover",
-    ano: 2018,
-    gancho: "Pisó un aula por primera vez a los diecisiete años. Diez años después era doctora por Cambridge.",
-    porQue: "Plantea la pregunta más difícil, qué haces cuando educarte te separa de tu familia, y es honesto sobre lo poco fiable que es su propia memoria.",
-    minutos: 26.1,
-    capitulos: [
-      { titulo: "La montaña sin partida de nacimiento", minutos: 5.2 },
-      { titulo: "El chatarrero y la comadrona", minutos: 5.1 },
-      { titulo: "El examen que se estudió sola", minutos: 5.3 },
-      { titulo: "La palabra que no conocía", minutos: 5.3 },
-      { titulo: "Lo que costó la educación", minutos: 5.2 },
-    ],
-  },
-  {
     id: "cerebro-del-nino",
     titulo: "El cerebro del niño",
     autor: "Siegel y Payne Bryson",

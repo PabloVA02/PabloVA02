@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  educada: "Una memoria",
   "guerra-arte": "Rompe las barreras y vence tus batallas creativas interiores",
   "acto-creativo": "Una forma de ser",
   "mientras-escribo": "Memorias de un oficio",

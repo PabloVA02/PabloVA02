@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  educada:
+    "No tuvo partida de nacimiento hasta los nueve años ni pisó un aula hasta los diecisiete, y a los veintiocho terminó un doctorado en Cambridge. Entre medias, un desguace de chatarra, ningún médico y una familia que negaba lo que ella recordaba.",
+
   "historia-espana":
     "Empezó como noventa y dos artículos semanales de periódico, de los primeros pobladores a la Transición. Su autor avisa en el prólogo: no es un manual, es una versión, sin notas y con un juicio de valor en cada párrafo.",
 

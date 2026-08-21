@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  educada: [
+    "qué había en aquella casa en lugar de escuela",
+    "qué pasaba cuando alguien se hacía daño de verdad",
+    "cómo se duda de la propia memoria cuando nadie te cree",
+    "qué preguntó en su primera clase de universidad",
+    "qué le costó exactamente todo lo que consiguió",
+  ],
+
   "historia-espana": [
     "por qué considera la romanización lo mejor que ocurrió aquí",
     "qué pasó realmente en el año 711",

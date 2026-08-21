@@ -28787,7 +28787,265 @@ const HISTORIA_ESPANA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Una educación, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO (memorias): títulos cortos de imagen, afirmación en
+   la primera frase. TERCERA persona en la prosa: es un libro sobre
+   violencia dentro de una familia, así que ni una sola frase de
+   superación personal.
+
+   La conclusión corrige la lectura habitual: no es una historia de
+   esfuerzo individual y ella se pasa el libro diciéndolo.
+   -------------------------------------------------------------------------- */
+
+const EDUCADA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Sin partida de nacimiento hasta los nueve años" },
+      {
+        b: "texto",
+        texto:
+          "Tara Westover nació en 1986 en una granja de Idaho, al pie de una montaña, y no tuvo documento de nacimiento hasta los nueve años. Cuando por fin hubo que tramitarlo, sus padres no se pusieron de acuerdo sobre la fecha exacta y su abuela dio una distinta, así que en el certificado consta un día que probablemente no es el suyo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Era la menor de siete hermanos de una familia mormona que vivía apartada del mundo por convicción. Su padre estaba convencido de que el gobierno, la escuela pública y los hospitales eran instrumentos de una conspiración, y de que el fin del mundo llegaría con el cambio de milenio; la familia almacenaba comida, combustible y armas para ese momento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro se publicó en 2018 y vendió millones de ejemplares en todo el mundo. Su autora había terminado un doctorado en Historia en Cambridge cuatro años antes, y no había pisado un aula hasta los diecisiete.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que cuenta: qué había en lugar de escuela, qué pasaba cuando alguien se hacía daño en aquella casa, qué ocurrió con uno de sus hermanos, qué preguntó en su primera clase de universidad, adónde llegó después y qué le costó exactamente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En su partida de nacimiento consta una fecha que probablemente no es la suya, porque nadie la anotó cuando ocurrió.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un desguace en lugar de un colegio" },
+      {
+        b: "texto",
+        texto:
+          "La educación en casa que sus padres declararon a las autoridades no existió como tal. No había horario, ni programa, ni exámenes, ni prácticamente libros más allá de escritura religiosa y algún manual suelto. Lo que sí había era trabajo, y desde muy pequeña.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El negocio del padre era un desguace de chatarra: separar metales de coches y de maquinaria destrozada, con sopletes, cizallas y una grúa. Tara trabajaba allí desde niña, sin casco, sin gafas, sin guantes adecuados y con la exigencia explícita de no perder tiempo en precauciones, que se consideraban cosa de gente débil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los accidentes que describe son continuos y algunos son atroces. Chatarra que cae desde una grúa, cortes profundos, quemaduras, una pierna atravesada por una barra. En una explosión con un depósito de combustible, su padre sufrió quemaduras gravísimas en la cara y en las manos, y lo trataron en casa durante meses con remedios caseros porque llevarlo a un hospital era impensable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Westover subraya no es la dureza, que en una granja no sería novedad, sino la ausencia de cualquier margen. En aquella casa no existía la posibilidad de decir que algo era peligroso: el que lo decía estaba dudando del padre, y dudar del padre era el único delito grave que había.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En algunas casas no está prohibido tener miedo: está prohibido decirlo, que es una cosa bastante más eficaz.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nadie iba al médico, ni con la cabeza abierta" },
+      {
+        b: "texto",
+        texto:
+          "El rechazo a la medicina era total y sostenido, y el libro lo documenta con una lista de episodios que cuesta leer seguidos. La madre era comadrona sin licencia y trataba a la familia con hierbas, tinturas y aceites; el padre sostenía que un hospital era donde el gobierno mataba gente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hubo dos accidentes de coche graves con la familia entera dentro, en los que hubo heridas serias y nadie fue atendido. Un hermano se cayó de una altura considerable y quedó con una herida grande en la cabeza y con síntomas evidentes de daño cerebral; lo llevaron a casa. Nunca hubo una vacuna, ni una revisión, ni un dentista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con los años, aquel negocio de remedios caseros de la madre se convirtió en una empresa próspera que llegó a facturar mucho dinero vendiendo aceites esenciales, y esa prosperidad reforzó la convicción de la casa: si funcionaba, era la prueba de que tenían razón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Westover cuenta todo eso sin condenar a sus padres en ningún momento, y ese es el tono del libro entero. Su madre le sacó adelante las heridas; su padre trabajaba dieciséis horas al día; los dos creían sinceramente estar protegiendo a sus hijos de un mundo peligroso. El resultado era otra cosa, y las dos afirmaciones caben en la misma página.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una convicción se refuerza cada vez que sale bien y no se debilita cuando sale mal, porque entonces la culpa es de otra cosa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El hermano que pedía perdón después" },
+      {
+        b: "texto",
+        texto:
+          "La parte más dura del libro es la relación con uno de sus hermanos mayores, al que llama Shawn. Empezó cuando ella era adolescente: agresiones físicas repetidas, la cabeza metida en el váter, la muñeca retorcida hasta lesionarla, insultos sexuales delante de otros, y siempre el mismo patrón después: un rato de calma, una disculpa y la explicación de que había sido una broma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que más pesa en el relato no es la violencia sino lo que pasaba alrededor. Cuando ella intentó contarlo, sus padres no la creyeron: dijeron que exageraba, que era demasiado sensible, que estaba dejándose influir por el mundo de fuera y, en algún momento, que estaba poseída y necesitaba una bendición.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el mecanismo que el libro describe mejor y que le dio su título en inglés, que juega con la idea de ser educada. Cuando toda la gente en la que confías te dice que lo que recuerdas no ocurrió, la duda no cae sobre ellos: cae sobre tu propia cabeza. Westover cuenta cómo llegó a escribir un diario con dos versiones de un mismo episodio, la suya y la que le decían que era la verdadera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí hace algo poco frecuente en unas memorias. Cada vez que un recuerdo suyo no coincide con el de sus hermanos, lo indica en una nota y da las dos versiones, sin resolver cuál es la correcta. Esa honestidad de método es lo que separa el libro de un ajuste de cuentas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando todos los que te quieren te dicen que lo que recuerdas no pasó, lo primero que empiezas a dudar es de tu propia cabeza.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Levantó la mano y preguntó qué era el Holocausto" },
+      {
+        b: "texto",
+        texto:
+          "A los diecisiete años, animada por un hermano mayor que se había ido de casa a estudiar, Tara decidió intentar entrar en la universidad. Se preparó sola el examen de acceso con libros de texto que no entendía, tuvo que aprender álgebra y trigonometría desde cero, suspendió el primer intento y aprobó el segundo con nota suficiente para entrar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena que resume el libro ocurrió en su primer curso, en una clase de historia del arte. En la pantalla había una imagen y en el texto aparecía una palabra que ella no conocía. Levantó la mano y preguntó qué significaba Holocausto. El profesor se quedó callado, la clase también, y ella entendió por la cara de todos que acababa de decir algo terrible, sin saber el qué.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No era una broma ni una provocación: nadie se lo había contado nunca, no había libros de historia en su casa y aquella palabra no estaba en ningún sitio de su vida anterior. Al buscarla esa tarde, descubrió a la vez lo que había pasado en Europa y hasta qué punto le faltaba el suelo entero sobre el que sus compañeros estaban de pie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resto de su primer año fue así. No sabía qué era un ensayo, no sabía que había que leer los libros de la asignatura, no entendía las referencias más elementales, no sabía cómo se pedía una beca ni qué era el ibuprofeno. Aprobó por poco y estuvo a punto de dejarlo varias veces.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que más le faltaba no eran conocimientos sueltos: era el suelo compartido sobre el que todos los demás daban cosas por sabidas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "De un desguace de Idaho a Cambridge" },
+      {
+        b: "texto",
+        texto:
+          "La segunda mitad del libro cuenta un recorrido académico que sobre el papel es inverosímil. De aquella universidad pasó, con una beca competitiva, a un máster en Cambridge; después a un año en Harvard; y en 2014 terminó un doctorado en Historia en Cambridge, diez años después de haber pisado un aula por primera vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis no fue sobre su vida: fue sobre pensamiento del siglo XIX y sobre el mormonismo dentro de la filosofía política de su tiempo, es decir, sobre el mundo del que venía, mirado con las herramientas que había ido a buscar. Ese detalle explica bastante bien qué entiende ella por educación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cuenta también el precio físico de aquello. Ataques de ansiedad, noches sin dormir, episodios de sonambulismo en los que gritaba en el pasillo del colegio mayor, y un año entero en que dejó de ir a clase y estuvo a punto de abandonar. No presenta el proceso como una escalada de éxitos sino como una serie de crisis con becas de por medio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Westover insiste además en algo que la lectura popular del libro suele borrar: nada de eso lo hizo sola. Hubo un hermano que le dijo que existía un examen, un obispo que le explicó cómo se pedía una ayuda económica, dos profesores concretos que se empeñaron en que solicitara una beca que ella no sabía que existía, y un sistema de becas que la pagó entera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En cada punto en que aquello podía haberse acabado hubo una persona concreta que intervino, y ella los nombra a todos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El precio fue una familia partida en dos" },
+      {
+        b: "texto",
+        texto:
+          "El final del libro no es una reconciliación. Cuando Westover insistió en lo que había ocurrido en aquella casa, sus padres tuvieron que elegir entre su versión y la del hermano, y eligieron la otra. A partir de ahí dejó de ser bienvenida, y varios hermanos se alinearon con los padres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El reparto que ella describe al final es exacto y no necesita comentario. De los siete hermanos, tres salieron de la montaña y estudiaron: los tres tienen doctorado. Los cuatro que se quedaron no llegaron a terminar la enseñanza secundaria. Y la línea que separa a unos de otros es la misma que la separa a ella de sus padres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que no hace el libro es presentar eso como una victoria. Westover escribe que perdió a su familia, que la echa de menos, que su madre le manda mensajes de vez en cuando y que ha decidido no volver, y que esa decisión no le ha traído ninguna paz especial. El coste está contado como coste.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está su definición, que da nombre al libro. Dice que a lo que le ocurrió se le puede llamar de muchas maneras: transformación, metamorfosis, falsedad, traición. Y que ella lo llama una educación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Podría llamarse transformación, o falsedad, o traición, según quién lo mire; ella decidió llamarlo una educación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Una educación cuenta diecisiete años sin escuela en una casa donde no se iba al médico, se trabajaba en un desguace desde niña y no se podía dudar del padre, y los diez años siguientes hasta un doctorado en Cambridge. Su tesis no es que estudiar sea bueno: es que educarse consiste en adquirir la capacidad de tener una opinión distinta de la de la gente que te crió, y que eso tiene un precio que se paga entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, además del relato, es un método honesto. Cada vez que su memoria y la de otro no coinciden, lo dice en una nota y ofrece las dos versiones, cosa que casi ningunas memorias hacen y que hace mucho más creíbles las que no discute nadie.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Educarse no es acumular datos: es poder pensar algo distinto de lo que pensaba la gente que te enseñó a hablar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El lector solo tiene un lado de hechos muy graves. Su padre y varios hermanos han negado públicamente partes del relato, y aunque ella se adelanta a esa objeción con sus notas, no hay manera de comprobar nada desde fuera. Y la segunda mitad, la académica, pierde bastante fuerza frente a la primera: las páginas de becas, seminarios y crisis de ansiedad se hacen largas después de lo anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una lectura extendida del libro que va justo en contra de lo que dice. Se cita como una historia de superación individual, del tipo con esfuerzo se puede, y Westover se pasa el texto desmintiéndolo: nombra al hermano que le dijo que existía un examen de acceso, al hombre que le explicó cómo se solicitaba una ayuda, a los dos profesores que se empeñaron en presentarla a una beca y al sistema público que pagó su carrera entera. Sin cualquiera de esas piezas, la historia se acaba en Idaho, y ella lo escribe con esas palabras.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  educada: EDUCADA,
   "historia-espana": HISTORIA_ESPANA,
   "pilares-tierra": PILARES_TIERRA,
   "homenaje-cataluna": HOMENAJE_CATALUNA,
