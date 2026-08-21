@@ -34,8 +34,15 @@ y con el caché de fotos lleno tardan un par de minutos:
 npx vite build --config vite.uno.config.mjs
 node scripts/orden-fotos.mjs 760 > /tmp/orden-fotos.json
 node scripts/movil.mjs --dist dist-uno --lista /tmp/orden-fotos.json \
-     --ancho 240 --calidad 0.55 --tope 3.2
+     --ancho 240 --calidad 0.55 --tope 1.6
 ```
+
+**La primera orden no se salta.** `movil.mjs` no compila nada: empaqueta el
+`dist-uno/` que encuentre, aunque sea de hace dos semanas, y termina sin dar
+error. El 21 de agosto se publicó así y en el artefacto salió la app vieja.
+Antes de publicar, `ls -la dist-uno/assets/`: si la fecha no es de hoy, falta
+compilar. Y al segundo paso no se le pone `2>&1`, porque la línea de estado se
+cuela en el JSON y rompe el tercero.
 
 Y luego se le pasa el fichero.
 

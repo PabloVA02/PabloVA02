@@ -79,6 +79,33 @@ Pablo lo pidió así de claro: «actualízamelo en el artefacto que estamos usan
 para que pueda verlo, haz eso siempre que añadas algo». `movil.html` es lo
 único que él ve, así que un cambio que no esté ahí no existe todavía.
 
+**`movil.mjs` NO COMPILA. Empaqueta lo que haya en `dist-uno/`.**
+
+Es el fallo más caro que se puede cometer aquí y se cometió el 21 de agosto:
+se lanzó `movil.mjs` sin compilar antes, se publicó, y Pablo abrió el
+artefacto y vio la app de hacía dos semanas —sin ninguno de los libros nuevos,
+sin las cubiertas, sin Deportes y sin Vidas—. El script no avisa: coge el
+`dist-uno/` que encuentre, aunque sea del mes pasado, y termina sin error.
+
+**Son TRES órdenes y la primera no se salta nunca:**
+
+```bash
+npx vite build --config vite.uno.config.mjs          # ← esta es la que falta
+node scripts/orden-fotos.mjs 760 > /tmp/orden-fotos.json
+node scripts/movil.mjs --dist dist-uno --lista /tmp/orden-fotos.json \
+     --ancho 240 --calidad 0.55 --tope 1.6
+```
+
+Dos maneras de comprobar que no ha pasado otra vez, antes de publicar:
+
+- `ls -la dist-uno/assets/` y mirar la fecha. Si no es de hoy, no se ha
+  compilado.
+- `grep -c "<algo escrito hoy>" movil.html`. Si sale cero, el paquete es viejo.
+
+Y ojo con el segundo paso: `orden-fotos.mjs` escribe una línea de estado por
+la salida de error. Si se le pone `2>&1` acaba dentro del JSON y `movil.mjs`
+se rompe con un error de sintaxis. Sin `2>&1`.
+
 **EL ARTEFACTO ES ESTE Y NO OTRO:**
 
     Curva · la app entera, en un móvil
