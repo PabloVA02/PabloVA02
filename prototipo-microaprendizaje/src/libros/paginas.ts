@@ -34207,7 +34207,272 @@ const DILEMA_OMNIVORO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Come comida real, en ocho páginas.
+
+   Breve.
+
+   Libro PRÁCTICO de nutrición: segunda persona en la prosa, titular que
+   afirma.
+
+   La página 7 lleva las críticas que le hacen otros dietistas españoles y
+   el conflicto de interés de vender productos siendo la autoridad que dice
+   qué productos comprar. Sin eso, esto sería publicidad de una marca.
+   -------------------------------------------------------------------------- */
+
+const COME_COMIDA_REAL: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El problema no está en los nutrientes: está en el grado de procesamiento",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante cincuenta años, los consejos de alimentación se organizaron alrededor de nutrientes. Primero la grasa fue el enemigo y aparecieron los productos desnatados; después lo fueron los hidratos de carbono y aparecieron las dietas bajas en carbohidratos; después el azúcar. Cada campaña generó su propia industria de productos formulados para cumplir con la advertencia del momento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Carlos Ríos, dietista y nutricionista, publicó este libro en 2019 proponiendo mirar otra cosa. Su tesis es que el criterio útil no es cuánta grasa o cuánto azúcar tiene un producto, sino cuánto se ha alejado del alimento del que procede: cuántos procesos industriales ha sufrido, qué se le ha quitado y qué se le ha añadido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No es una idea suya. Se apoya en un sistema de clasificación desarrollado desde 2009 por un equipo de la Universidad de São Paulo, dirigido por el epidemiólogo Carlos Monteiro, que ordena los alimentos por grado de procesamiento en lugar de por composición nutricional. Ese marco lo han adoptado las guías alimentarias oficiales de varios países y organismos internacionales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que propone: en qué tres categorías divide todo lo que se come, qué experimento demostró que el procesamiento importa por sí mismo, por qué se come más cantidad de lo mismo cuando viene procesado, cómo leer un envase, qué trucos usa la industria para vender productos malos como buenos, y qué le reprochan otros profesionales de su gremio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cada vez que se declara enemigo a un nutriente, aparece una industria entera de productos formulados para cumplir esa advertencia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Tres categorías, y solo una es un problema" },
+      {
+        b: "texto",
+        texto:
+          "El libro divide todo lo comestible en tres grupos, y la utilidad del sistema está en que se puede aplicar en el pasillo de un supermercado sin saber nada de nutrición.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primero es la comida real: alimentos sin procesar o procesados de forma mínima, que siguen siendo lo que eran. Verdura, fruta, legumbre, huevos, carne y pescado frescos, frutos secos, tubérculos, granos enteros. Aquí entra también lo congelado, lo envasado al vacío o lo pasteurizado, porque esos procesos conservan sin cambiar el alimento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo son los buenos procesados: productos que han pasado por una elaboración industrial y que mantienen sus propiedades y una lista corta de ingredientes reconocibles. Aceite de oliva virgen extra, legumbre cocida de bote, conservas de pescado, yogur natural sin azúcar, pan integral de verdad, queso, chocolate con un porcentaje alto de cacao, gazpacho de calidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el tercero son los ultraprocesados, que es donde está el problema: preparaciones industriales hechas a partir de sustancias extraídas de alimentos —almidones, azúcares, aceites refinados, proteínas aisladas— y recombinadas con aditivos para conseguir sabor, textura y duración. Ríos añade una regla práctica: si la lista tiene más de cinco ingredientes y varios de ellos no se reconocen como comida, casi siempre se está en ese tercer grupo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si la lista tiene más de cinco ingredientes y varios no son comida reconocible, ya sabes en qué categoría estás sin saber nada de nutrición.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El experimento que lo demostró encerró a veinte personas cuatro semanas",
+      },
+      {
+        b: "texto",
+        texto:
+          "La objeción evidente a todo esto es que los ultraprocesados suelen tener más azúcar, más grasa y más sal, de modo que el problema serían esos ingredientes y no el procesamiento en sí. Para responderla hacía falta un experimento controlado, y existe: lo dirigió Kevin Hall en un centro de investigación estadounidense y se publicó en 2019.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Veinte adultos ingresaron en una unidad metabólica durante cuatro semanas, con toda su comida controlada. Pasaron dos semanas con una dieta ultraprocesada y dos con una dieta sin procesar, en orden aleatorio. La clave del diseño es que las dos dietas estaban igualadas en calorías ofrecidas, azúcar, grasa, sodio y fibra. La única diferencia era el grado de procesamiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los participantes podían comer todo lo que quisieran de lo que se les servía. Con la dieta ultraprocesada comieron alrededor de quinientas calorías más al día y ganaron cerca de un kilo en dos semanas; con la otra comieron menos sin proponérselo y perdieron aproximadamente el mismo kilo. Nadie estaba a dieta ni contaba nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es el único ensayo controlado que demuestra que el procesamiento tiene efecto por sí mismo, con independencia de la composición nutricional, y es lo que convierte esta clasificación en algo más que una opinión. También conviene decir su tamaño: veinte personas y cuatro semanas, que es poco y es lo mejor que hay, porque encerrar gente en una unidad metabólica cuesta una fortuna.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Con la misma cantidad de azúcar, grasa y sal ofrecida, comieron quinientas calorías más al día solo por venir procesado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Por qué se come más cantidad de lo mismo cuando viene procesado" },
+      {
+        b: "texto",
+        texto:
+          "El libro propone varios mecanismos para explicar ese resultado, y todos tienen que ver con que un alimento entero y sus componentes sueltos no se comportan igual dentro del cuerpo, aunque en la tabla nutricional aparezcan idénticos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primero es la estructura. Una manzana entera obliga a masticar, libera sus azúcares despacio y llega al intestino envuelta en fibra; el zumo de esa manzana tiene el mismo azúcar y llega de golpe. Un grano entero se digiere lentamente; el mismo grano molido en harina fina se convierte en glucosa en minutos. Lo que cambia no es la composición: es la velocidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo es el tiempo de ingesta. Los productos ultraprocesados están diseñados para comerse deprisa: son blandos, no requieren esfuerzo y se acaban antes. Como la señal de saciedad tarda unos veinte minutos en llegar, comer rápido significa haber ingerido mucho más antes de que el cuerpo avise.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el tercero es de diseño industrial. Estos productos se formulan combinando azúcar, grasa y sal en las proporciones exactas que maximizan las ganas de seguir comiendo, un punto que la industria alimentaria estudia y ajusta en laboratorio. No es una casualidad ni una debilidad de carácter del consumidor: es el objetivo del producto, y funciona.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que no puedas parar con una bolsa abierta no es falta de voluntad: esa proporción de sal, grasa y azúcar está ajustada en un laboratorio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La lista de ingredientes dice lo que la tabla nutricional esconde" },
+      {
+        b: "texto",
+        texto:
+          "La instrucción práctica más útil del libro es de dos segundos y consiste en cambiar de sitio la mirada. Casi todo el mundo, cuando compara dos productos, mira la tabla de valores nutricionales: calorías, grasas, azúcares. Ríos sostiene que esa tabla es la parte menos informativa del envase.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hay que leer es la lista de ingredientes, que está justo al lado y que casi nadie mira. Los ingredientes aparecen obligatoriamente ordenados de mayor a menor cantidad, así que los tres primeros dicen de qué está hecho el producto en su mayor parte. Si los primeros son harina refinada, azúcar y aceite de palma, el resto de la etiqueta no importa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay trampas concretas que conviene conocer. El azúcar aparece con muchos nombres distintos —jarabe de glucosa, dextrosa, melaza, jugo concentrado de fruta, maltodextrina—, y repartirlo en varios permite que ninguno quede en los primeros puestos de la lista. Con la palabra integral pasa algo parecido: un pan puede llamarse así llevando harina refinada y salvado añadido; el integral de verdad lleva harina integral como primer ingrediente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resto de sus consejos son de organización y no de fuerza de voluntad. Comprar sobre todo en el perímetro del supermercado, que es donde está el producto fresco, y pasar poco por los pasillos centrales. No ir a comprar con hambre. Y hacer la compra con una lista, porque casi todas las decisiones alimentarias de la semana se toman en realidad en veinte minutos de supermercado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todo lo que vas a comer esta semana lo decides en veinte minutos de supermercado, y no en el momento de sentarte a la mesa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Con fibra, sin azúcares añadidos, con vitaminas" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre el marketing es el más útil para un lector español, porque describe prácticas que están en cualquier supermercado. La principal consiste en destacar en la parte delantera del envase una virtud concreta para desviar la atención de lo que el producto es en conjunto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los ejemplos son reconocibles al instante. Galletas con la palabra fibra en grande, que siguen siendo galletas. Cereales de desayuno con vitaminas añadidas y un tercio de azúcar. Productos sin azúcares añadidos que llevan edulcorantes y siguen siendo ultraprocesados. Bebidas vegetales con calcio. Y toda la categoría de productos ligeros, que quitan grasa y compensan con azúcar, o al revés.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso se suman los avales. Ríos señala la práctica de que sociedades científicas y colegios profesionales presten su logotipo a productos concretos a cambio de una contraprestación económica, cosa que ha ocurrido en España con productos que ningún dietista recomendaría. Un sello no es una evaluación independiente si el evaluado paga por llevarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y dedica atención especial al marketing dirigido a niños: personajes de dibujos animados, regalos dentro del envase, colores y colocación a la altura de sus ojos. La regla que propone para todo esto es una y es sencilla: cuanto más te grita un envase lo sano que es, más razones tienes para darle la vuelta y leer la lista.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuanto más te grita un envase lo sano que es, más motivos tienes para darle la vuelta y mirar los tres primeros ingredientes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que le reprochan otros dietistas" },
+      {
+        b: "texto",
+        texto:
+          "Este libro y el movimiento que hay detrás han recibido críticas dentro de la propia profesión, y conviene conocerlas porque no vienen de la industria sino de colegas. La principal tiene que ver con el tono.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un discurso que divide los alimentos en buenos y malos, con un vocabulario cercano a lo moral, puede empeorar la relación con la comida de personas vulnerables. Existe un cuadro clínico reconocido, la obsesión por comer de forma pura, y varios dietistas españoles han advertido de que un mensaje muy rígido, difundido masivamente en redes sociales y con miles de seguidores comentando lo que comen, es exactamente el caldo de cultivo de ese problema. Ríos ha matizado su discurso con los años y esa crítica sigue en pie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es técnica y afecta a la clasificación en la que se apoya. Distintos evaluadores clasifican a menudo el mismo producto en categorías distintas, y la etiqueta de ultraprocesado agrupa cosas muy diferentes entre sí: un refresco azucarado y un yogur de sabores, o unas galletas y un pan de molde integral, no tienen el mismo efecto sobre la salud y comparten categoría. Es una herramienta útil y es más gruesa de lo que parece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un conflicto de interés que hay que decir sin rodeos. El autor de este libro comercializa desde hace años su propia línea de productos alimentarios y una aplicación de pago que evalúa lo que compra el usuario. Ser a la vez la autoridad que dice qué productos son buenos y el fabricante de algunos de ellos es una posición incómoda, por muy correctos que sean sus productos y por muy bien fundamentado que esté el resto del libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ser a la vez quien dice qué productos son buenos y quien fabrica algunos de ellos es una posición incómoda, sean cuales sean sus productos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Come comida real sostiene que el criterio útil para decidir qué comer no es la composición nutricional sino el grado de procesamiento, y ofrece una clasificación en tres grupos que se puede aplicar en un supermercado sin saber nada de nutrición. Sus instrucciones prácticas son concretas: leer la lista de ingredientes y no la tabla, desconfiar de los envases que anuncian virtudes, comprar en el perímetro y cocinar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es haber cambiado la conversación en España. Millones de personas leen hoy las etiquetas por costumbre, saben que un producto con la palabra integral en grande puede no serlo y distinguen entre una conserva de legumbre y unas galletas con fibra, cosa que hace diez años no ocurría.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El criterio no es cuánta grasa o cuánto azúcar tiene algo: es cuánto se ha alejado del alimento del que salió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Su base científica es sólida en lo esencial y más fina de lo que el libro sugiere: hay un ensayo controlado excelente detrás, con veinte participantes y cuatro semanas, y hace falta mucho más. La clasificación que usa es una herramienta gruesa que mete en el mismo cajón productos con efectos muy distintos, y aplicarla de forma mecánica lleva a conclusiones raras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un asunto que el libro casi no toca y que en España pesa mucho. Cocinar a diario con producto fresco exige tiempo y una cocina, y por caloría la comida ultraprocesada sale más barata que la que él recomienda. Presentar la elección como una cuestión de información y de voluntad deja fuera a la parte de la población que peor come, que es precisamente la que tiene menos margen de las dos cosas. El diagnóstico del libro es correcto; su reparto de responsabilidades se queda demasiado en el consumidor y demasiado poco en quien fabrica, subvenciona y regula.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "come-comida-real": COME_COMIDA_REAL,
   "dilema-omnivoro": DILEMA_OMNIVORO,
   "zonas-azules": ZONAS_AZULES,
   outlive: OUTLIVE,

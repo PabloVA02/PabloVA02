@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "come-comida-real":
+    "Durante cincuenta años los consejos de alimentación giraron alrededor de nutrientes: primero la grasa, luego los hidratos, luego el azúcar. Este libro propone mirar otra cosa: cuánto se ha alejado un producto del alimento del que salió.",
+
   "dilema-omnivoro":
     "Se puede analizar un mechón de pelo y saber de qué planta procede el carbono de una persona. En Estados Unidos la respuesta es el maíz. Pollan sigue cuatro comidas distintas hasta la tierra de la que salieron.",
 

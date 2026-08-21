@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "come-comida-real": [
+    "en qué tres categorías divide todo lo comestible",
+    "qué experimento demostró que el procesamiento importa solo",
+    "por qué se come más cantidad de lo mismo cuando viene procesado",
+    "qué parte del envase hay que leer y cuál no",
+    "qué le reprochan a este discurso otros dietistas",
+  ],
+
   "dilema-omnivoro": [
     "por qué casi todo lo que se come es la misma planta",
     "qué decisión política de los setenta explica todo esto",

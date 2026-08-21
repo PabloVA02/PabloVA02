@@ -1128,22 +1128,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "come-comida-real",
-    titulo: "Come comida real",
-    autor: "Carlos Ríos",
-    ano: 2019,
-    gancho: "Siete de cada diez productos de un supermercado español no son comida en sentido estricto. Son formulaciones industriales diseñadas para que no puedas parar.",
-    porQue: "Porque detrás del eslogan hay un ensayo clínico de 2019 que es de los pocos experimentos serios que existen en nutrición, y sus resultados son difíciles de discutir.",
-    minutos: 20.6,
-    capitulos: [
-      { titulo: "El setenta por ciento del supermercado", minutos: 4.1 },
-      { titulo: "Dos semanas encerrados", minutos: 4.1 },
-      { titulo: "La lista de ingredientes", minutos: 4 },
-      { titulo: "Lo que cuesta cocinar", minutos: 4.2 },
-      { titulo: "La cocina de un martes", minutos: 4.2 },
-    ],
-  },
-  {
     id: "invencible",
     titulo: "Invicto",
     autor: "Marcos Vázquez",
