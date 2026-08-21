@@ -44617,7 +44617,396 @@ const MUSICA_PRIMOS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Einstein: su vida y su universo, en doce páginas.
+
+   AMPLIO. Seiscientas páginas de biografía con diez etapas que no se pueden
+   juntar sin perder el argumento: la ciencia, el 1905, la relatividad
+   general, la fama, la pelea con la cuántica, el exilio, la bomba, los
+   derechos civiles y los treinta años en el callejón. Con ocho páginas
+   saldría la lista que ya sabe todo el mundo: el pelo, la lengua fuera y la
+   fórmula.
+
+   BIOGRAFÍA, así que titular corto de imagen y la afirmación en la primera
+   frase —apartado 3 bis—. Lo que NO se copia de la Odisea es la caja del
+   rayo en segunda persona: aquí el contenido es física, y convertir cada
+   página en una lección de vida rompería la regla 4. Las cajas son ideas.
+
+   Y el aviso de la regla 4 bis sobre la anécdota famosa: lo de que suspendió
+   matemáticas es falso y va desmontado en la página segunda, porque es la
+   mentira más repetida sobre él y el libro se ocupa de ella.
+   -------------------------------------------------------------------------- */
+
+const EINSTEIN: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una brújula, a los cinco años" },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con un objeto. El padre de Albert Einstein le enseñó una brújula cuando el niño estaba en cama, enfermo, hacia 1884. La aguja se movía sola y volvía siempre al mismo sitio, empujada por algo que no se veía ni se tocaba. Él lo recordó toda su vida como la primera vez que sintió que detrás de las cosas había un orden escondido, y que ese orden se podía averiguar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Walter Isaacson publicó esta biografía en 2007, y es la primera que pudo usar la correspondencia privada completa. Margot Einstein, hijastra de Albert, donó las cartas familiares con la condición de que no se abrieran hasta veinte años después de su muerte; se hicieron públicas en julio de 2006. Con ellas cambian dos cosas: el retrato del marido y del padre, y la historia de una hija de la que casi nadie sabía nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tesis de Isaacson recorre las seiscientas páginas y se puede discutir. Sostiene que la física de Einstein y su carácter son la misma cosa: un rechazo constante a aceptar algo porque lo diga una autoridad. El chico que se niega a memorizar en Múnich, el joven que renuncia a su nacionalidad, el empleado que se atreve a corregir a Newton y el viejo que se planta contra toda una generación de físicos son, según el libro, el mismo mecanismo funcionando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren diez etapas: el alumno que no suspendió matemáticas, el empleo de tercera en una oficina de patentes, el club de lectura del que salió la relatividad, el año 1905, los ocho años de la relatividad general, el día en que se hizo famoso, la pelea con la física cuántica, el exilio, la carta a Roosevelt, una universidad de Pensilvania y treinta años sin resultado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La primera pregunta científica de su vida no fue por qué caen las cosas, sino por qué algo invisible empuja una aguja.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El alumno que no suspendió" },
+      {
+        b: "texto",
+        texto:
+          "Einstein nunca suspendió matemáticas, y conviene decirlo pronto porque es la falsedad más repetida sobre él. Sus notas se conservan y son excelentes, sobre todo en matemáticas y física. A los quince años ya manejaba cálculo diferencial por su cuenta, con un libro de geometría que le había prestado un estudiante de medicina que cenaba en su casa los jueves.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí hizo fue fallar un examen de acceso. En octubre de 1895, con dieciséis años y dos menos de los que pedían, se presentó a la prueba del Politécnico de Zúrich. Sacó notas altísimas en matemáticas y física y suspendió la parte general: francés, química y botánica. Le recomendaron pasar un año en la escuela cantonal de Aarau y volver a intentarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquel año importó más que el examen. En Aarau se enseñaba con el método de Pestalozzi, que consistía en pensar con imágenes antes que con fórmulas y en no tomar nada por sabido. Allí Einstein se hizo la pregunta que tardaría diez años en contestar: qué vería alguien que corriese al lado de un rayo de luz, a su misma velocidad. Si la luz es una onda, debería ver una onda parada, y una onda parada no existe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También en aquellos meses hizo algo que dice más de él que cualquier nota. Detestaba la disciplina del instituto alemán y no quería hacer el servicio militar, así que en enero de 1896, con dieciséis años, renunció formalmente a la ciudadanía alemana. Se quedó sin país durante cinco años, hasta que en 1901 obtuvo la suiza. Ninguna de sus dos decisiones fue de un chico dócil.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que le costó el examen no fue la torpeza, sino que solo estudiaba lo que le interesaba: eso lo hizo tarde y lo hizo grande.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un empleo de tercera clase" },
+      {
+        b: "texto",
+        texto:
+          "Durante dos años, el hombre que iba a reescribir la física no encontró trabajo de físico. Se licenció en el Politécnico en 1900 con notas correctas y con una fama peor: había faltado a clase, había discutido con sus profesores y había dejado claro lo que pensaba de ellos. Escribió a catedráticos de media Europa, incluso con tarjetas de respuesta pagada para facilitarles la contestación. No le respondió nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dio clases particulares y sustituyó a maestros enfermos. En 1902 el padre de su amigo Marcel Grossmann movió un contacto y le consiguió una plaza de examinador técnico de tercera clase en la Oficina Federal de Patentes de Berna, por tres mil quinientos francos al año. Era un empleo de funcionario y lo tuvo siete años, los mismos en los que escribió todo lo que lo hizo famoso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Isaacson defiende que la oficina no fue un obstáculo sino el sitio adecuado, y el argumento es bueno. El trabajo consistía en leer la descripción de un aparato y decidir si funcionaría de verdad, lo cual es exactamente el músculo que se usa en un experimento mental. Además, se despachaba deprisa: le sobraba tiempo, y la mesa tenía un cajón donde guardaba sus papeles cuando pasaba el jefe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una coincidencia que el libro aprovecha bien. Berna era en aquellos años un centro de la sincronización de relojes: los ferrocarriles necesitaban que todas las estaciones marcaran la misma hora, y por la mesa de Einstein pasaron patentes de aparatos para coordinar relojes lejanos con señales eléctricas. Se pasó siete años decidiendo, por oficio, qué significa que dos relojes distantes marquen a la vez.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se pasó siete años juzgando aparatos que sincronizaban relojes lejanos, que es literalmente el problema del que salió la relatividad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La academia Olimpia" },
+      {
+        b: "texto",
+        texto:
+          "La relatividad salió de un club de lectura de tres desempleados con ínfulas. Einstein puso un anuncio ofreciendo clases particulares y se le presentó Maurice Solovine, un estudiante rumano de filosofía; se les unió Conrad Habicht, matemático. Se reunían de noche en Berna a comer salchichas, queso y fruta, y a leer en voz alta. Se llamaron a sí mismos, en broma, la Academia Olimpia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que leían es la clave del libro. David Hume, que sostiene que un concepto del que no se puede señalar la experiencia que lo respalda está vacío. Ernst Mach, que aplicaba eso mismo a la física y decía que el espacio y el tiempo absolutos de Newton eran metafísica, no medida. Henri Poincaré, que ya se había preguntado por la sincronización de relojes. Y Spinoza, del que sacó su idea de Dios y su gusto por las leyes sin excepciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con esas herramientas, la pregunta cambia de forma. La física del siglo XIX suponía que dos sucesos ocurren a la vez o no, y punto. Einstein preguntó qué operación concreta habría que hacer para comprobarlo, y la única disponible es mandar señales luminosas y comparar. Si la luz tarda, y tarda lo mismo para todos, entonces dos sucesos que son simultáneos para uno no lo son para otro que se mueva. La simultaneidad deja de ser un hecho y pasa a ser una relación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso el artículo de 1905 no empieza con ecuaciones sino con un procedimiento: cómo poner dos relojes en hora. Isaacson insiste en que ese giro es filosófico antes que matemático, y que ninguno de los físicos profesionales que llevaban veinte años dando vueltas al mismo problema lo dio, porque ninguno estaba dispuesto a discutir lo que significaban las palabras que usaban.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta que abrió la física del siglo XX no fue de física: fue preguntar qué operación hay detrás de la palabra «a la vez».",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuatro artículos en un año" },
+      {
+        b: "texto",
+        texto:
+          "En 1905, con veintiséis años y ocho horas diarias de oficina, Einstein publicó cuatro artículos en la misma revista, «Annalen der Physik», y tres de ellos cambiaron la física. Se le llama el año milagroso y la palabra no es exagerada: no hay otro caso comparable en la historia de la ciencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En marzo propuso que la luz no es solo una onda, sino que llega en paquetes de energía. Con eso explicó el efecto fotoeléctrico, que es que ciertos metales sueltan electrones al iluminarlos y que lo que decide si los sueltan no es la intensidad de la luz sino su color. Ese artículo, y no la relatividad, es el que le dio el Nobel dieciséis años después, y él lo consideraba el más revolucionario de los cuatro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En mayo explicó el movimiento browniano: los granos de polen vistos al microscopio en una gota de agua tiemblan sin parar, y ese temblor es el efecto visible de los golpes de moléculas invisibles. Dio además una fórmula para deducir el tamaño y el número de esas moléculas a partir del temblor. Jean Perrin la usó en 1908 para medirlas, y con eso la existencia de los átomos dejó de ser una hipótesis discutida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En junio llegó la relatividad especial, treinta páginas sin una sola cita a otro autor, cosa insólita en una revista científica. Y en septiembre añadió tres páginas más con una consecuencia que no había visto al escribir las treinta: si un cuerpo emite energía, pierde masa. La masa y la energía son la misma cosa medida en unidades distintas, y el cambio se hace multiplicando por la velocidad de la luz al cuadrado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El artículo que él consideraba revolucionario no fue el de la relatividad: fue el de los paquetes de luz, y con ese abrió sin querer la física cuántica.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El hombre que cae del tejado" },
+      {
+        b: "texto",
+        texto:
+          "La relatividad general empezó en 1907 con una imagen: un hombre que cae de un tejado no siente su propio peso. Einstein lo llamó el pensamiento más feliz de su vida. Si caer y flotar en el vacío son indistinguibles desde dentro, entonces la gravedad y la aceleración son lo mismo, y la gravedad puede dejar de ser una fuerza para convertirse en la forma del espacio y del tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tardó ocho años en convertir esa idea en ecuaciones, y es el tramo que más le costó. Necesitaba unas matemáticas que no conocía, la geometría de espacios curvos que había desarrollado Bernhard Riemann en el siglo anterior, y en 1912 volvió a pedir ayuda a Marcel Grossmann, que era ya matemático de prestigio y que se la enseñó. Se equivocó de camino varias veces y publicó al menos una versión que después tuvo que retirar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En noviembre de 1915 llegó el final, con prisa y con competencia. David Hilbert, el mejor matemático de Alemania, estaba trabajando en el mismo problema con la información que el propio Einstein le había dado en unas conferencias, y presentó su versión el 20 de noviembre, cinco días antes que él. La disputa por la prioridad duró poco: Hilbert reconoció que la teoría física era de Einstein, y hoy la interpretación mayoritaria es que la formulación completa fue de este.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba de que iba bien la tuvo antes de terminar. Existía desde 1859 un desajuste conocido: la órbita de Mercurio gira sobre sí misma cuarenta y tres segundos de arco por siglo más de lo que predecía Newton, y los astrónomos habían llegado a inventar un planeta oculto para explicarlo. Einstein metió Mercurio en su teoría a medio hacer y le salieron exactamente esos cuarenta y tres segundos, sin ajustar nada. Escribió que le dieron palpitaciones y que estuvo días sin poder trabajar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La teoría no se confirmó con un experimento nuevo: explicó de un tirón un desajuste que llevaba cincuenta y seis años sin explicación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El 7 de noviembre de 1919" },
+      {
+        b: "texto",
+        texto:
+          "Einstein se hizo famoso en el mundo entero en un solo día, y se puede fechar. El 7 de noviembre de 1919 el «Times» de Londres publicó a tres columnas que la teoría de Newton había sido superada. Dos días antes, la Royal Society había presentado las fotografías del eclipse del 29 de mayo, tomadas por las expediciones de Arthur Eddington a la isla de Príncipe y de Andrew Crommelin a Brasil: la luz de las estrellas se desviaba al pasar junto al Sol, y se desviaba lo que decía Einstein.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El momento explica el tamaño de la reacción. Un año después de una guerra que había matado a diez millones de personas, unos astrónomos ingleses habían viajado a comprobar la teoría de un alemán, y habían anunciado que tenía razón. La prensa lo contó como una reconciliación y como un misterio: se repitió durante meses que solo doce personas en el mundo entendían la teoría, cosa que era falsa y que ayudó muchísimo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ahí, su vida es pública. Da conferencias en estadios, viaja a Japón, a Estados Unidos y a Palestina, y su cara se convierte en la imagen misma de la inteligencia. También se convierte en blanco: en la Alemania de los años veinte hubo campañas organizadas contra la «física judía», con actos públicos dedicados a desacreditar la relatividad, y un premio Nobel alemán, Philipp Lenard, encabezándolos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El Nobel llegó en 1922, correspondiente al año 1921, y con una redacción que dice mucho: se le concedió por el descubrimiento de la ley del efecto fotoeléctrico, y el acta evita mencionar la relatividad, que a la Academia sueca le parecía todavía discutible. El dinero no lo tocó: en el acuerdo de divorcio de 1919 se lo había prometido a Mileva Marić, tres años antes de ganarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El premio que consagró al padre de la relatividad fue concedido explícitamente por otra cosa, y el acta lo dice para no comprometerse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "No juega a los dados" },
+      {
+        b: "texto",
+        texto:
+          "El hombre que empezó la física cuántica se pasó treinta años intentando demostrar que estaba incompleta. Es la paradoja central de su vida científica y el libro la trata con detalle. Suyo es el artículo de 1905 sobre los paquetes de luz, y suyo también el de 1917 sobre la emisión estimulada, que es el principio teórico del láser. Nadie hizo más por levantar el edificio del que luego renegó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ruptura llegó cuando la teoría se volvió probabilista. A partir de 1926, con la interpretación que salió de Copenhague, la cuántica dejó de decir dónde está una partícula y pasó a decir con qué probabilidad estará en cada sitio, y sostuvo que eso no es una limitación del conocimiento sino cómo es el mundo. Einstein escribió a Max Born una frase que se ha repetido hasta gastarla: él está convencido de que Dios no juega a los dados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los congresos Solvay de 1927 y 1930 fueron el escenario del duelo con Niels Bohr, y la escena es memorable porque era diaria. Einstein llegaba al desayuno con un experimento mental nuevo que pretendía violar el principio de incertidumbre; Bohr pasaba el día dándole vueltas y a la hora de la cena lo había desmontado. En 1930 Einstein propuso una caja que pesaba fotones y Bohr lo refutó usando la relatividad general, o sea, con la teoría del propio Einstein.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ataque más serio llegó en 1935 con Boris Podolsky y Nathan Rosen. Su argumento era que la cuántica obliga a que dos partículas separadas estén relacionadas de modo que medir una determine al instante el estado de la otra, por lejos que esté, cosa que él llamó una acción fantasmal a distancia; y como eso le parecía absurdo, concluía que la teoría estaba incompleta. Es hoy el artículo más citado de su etapa tardía, y el destino de ese argumento está en la conclusión.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Su objeción a la cuántica no fue nunca que las cuentas fallaran: fue que una teoría que solo da probabilidades no puede ser la descripción final.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La carta del 2 de agosto" },
+      {
+        b: "texto",
+        texto:
+          "El pacifista más conocido del siglo firmó la carta que puso en marcha el programa atómico estadounidense, y no participó en él. En enero de 1933, cuando Hitler llegó al poder, Einstein estaba de gira por California. Su piso de Berlín fue registrado, sus cuentas incautadas y sus libros quemados en las hogueras de mayo. Renunció a la Academia Prusiana y no volvió a pisar Alemania. En octubre se instaló en Princeton, donde vivió los veintidós años que le quedaban.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 2 de agosto de 1939 firmó una carta dirigida a Franklin Roosevelt. La había redactado el físico húngaro Leó Szilárd, que llevaba meses intentando que alguien en Washington entendiera que la fisión del uranio permitía construir una bomba y que los alemanes lo sabían. Szilárd necesitaba una firma que abriesen en la Casa Blanca, y solo había una en el mundo que sirviera para eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene ser exacto con lo que vino después, porque suele contarse mal. Einstein no trabajó en el Proyecto Manhattan ni supo de él: el ejército le negó la autorización de seguridad por sus posiciones políticas, y su expediente en el FBI acabó teniendo mil cuatrocientas veintisiete páginas. La bomba se construyó sin él, con la física de muchos otros, y la fórmula de 1905 explica por qué libera tanta energía pero no dice cómo fabricarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de Hiroshima dedicó los diez últimos años de su vida a lo contrario. Presidió el comité de emergencia de científicos atómicos, defendió un gobierno mundial con control sobre las armas y firmó, dos días antes de morir, el manifiesto que Bertrand Russell haría público aquel año. Dijo que firmar aquella carta a Roosevelt había sido el gran error de su vida, y matizaba que lo había hecho porque creía que los alemanes llegarían antes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Su única intervención en la bomba fue una firma, y le negaron el permiso de seguridad para saber qué se hacía con ella.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una universidad en Pensilvania" },
+      {
+        b: "texto",
+        texto:
+          "En mayo de 1946, Einstein hizo un viaje que casi ninguna biografía anterior contaba. Fue a la Universidad Lincoln, en Pensilvania, la primera institución del país que concedió títulos universitarios a estudiantes negros, a recoger un doctorado honorífico. Dio una clase de relatividad a los alumnos y un discurso en el que dijo que la segregación racial no era un problema de la gente negra, sino una enfermedad de los blancos, y que no tenía intención de callarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No fue un gesto suelto. Vivía en Princeton, un pueblo con la universidad cerrada a los negros y los barrios separados, y se relacionaba con el barrio negro de la ciudad. Fue amigo de Paul Robeson, cantante y activista al que el Gobierno retiró el pasaporte, y copresidió con él una campaña contra los linchamientos. Escribió para las publicaciones de W. E. B. Du Bois y se ofreció como testigo de carácter cuando lo procesaron, en 1951, con ochenta y tres años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su posición sobre el sionismo tiene la misma forma incómoda. Apoyó activamente la creación de un hogar judío en Palestina y recaudó dinero para la Universidad Hebrea de Jerusalén, y a la vez avisó durante décadas contra convertirlo en un Estado nacionalista, y defendió una solución compartida con los árabes. En 1948 firmó una carta pública contra la visita a Estados Unidos de Menájem Beguín, denunciando a su partido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En noviembre de 1952, muerto Jaim Weizmann, el Gobierno israelí le ofreció la presidencia del país. La rechazó por escrito en dos días. Dijo que había tratado toda su vida con cuestiones objetivas y que le faltaban tanto la aptitud natural como la experiencia para tratar con personas, y que además estaba viejo. Es la carta más citada de sus últimos años y explica bastante bien qué clase de figura pública quiso ser.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Llamó al racismo una enfermedad de los blancos en 1946, ocho años antes de que un tribunal declarase ilegal la segregación escolar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Treinta años sin resultado" },
+      {
+        b: "texto",
+        texto:
+          "La misma testarudez que le dio la razón a los veintiséis años lo dejó fuera de juego a partir de los cincuenta. Desde mediados de los años veinte hasta su muerte persiguió una teoría de campo unificado: una sola descripción que abarcara la gravedad y el electromagnetismo, y de la que la física cuántica saliera como consecuencia en vez de como punto de partida. Publicó intento tras intento durante casi treinta años. Ninguno funcionó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su aislamiento en Princeton fue real y él lo sabía. Los físicos jóvenes lo trataban con reverencia y no leían sus artículos; Robert Oppenheimer, que dirigía el instituto, llegó a decir en privado que Einstein se había desconectado por completo. Él mismo escribió que en Princeton lo consideraban una especie de reliquia y que no le importaba demasiado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Isaacson defiende que aquello no fue senilidad sino una apuesta filosófica perdida. Einstein exigía que una teoría final describiera una realidad que existe independientemente de que alguien la mire, y la cuántica de Copenhague no lo hacía. Prefirió quedarse fuera treinta años a aceptar una física que le parecía provisional. Es la misma exigencia que en 1905 le hizo desconfiar del tiempo absoluto, aplicada esta vez contra la corriente que ganaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Murió el 18 de abril de 1955 en el hospital de Princeton, por la rotura de un aneurisma de aorta. Se negó a que lo operaran: dijo que quería irse cuando le tocara y que prolongar la vida artificialmente le parecía de mal gusto. Había pedido que su cuerpo se incinerara y sus cenizas se esparcieran en un sitio no revelado. El patólogo que le hizo la autopsia, Thomas Harvey, le extrajo el cerebro sin permiso de la familia y se lo quedó cuarenta años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No se quedó atrás por no entender la física nueva: se quedó atrás porque exigía a una teoría algo que aquella física había decidido no dar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la ciencia de Einstein y su carácter son lo mismo: la costumbre de no aceptar una afirmación por venir de donde viene. Esa costumbre le hizo preguntar en 1905 qué operación hay detrás de la palabra «a la vez», y le hizo pasar treinta años solo defendiendo una física que ya no defendía nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es lo que abrieron las cartas de 2006: un marido y un padre bastante peores que su leyenda. La lista de condiciones que le puso por escrito a Mileva Marić en 1914 para seguir viviendo juntos —qué comidas, qué silencios, qué renuncias— es difícil de leer. Y está Lieserl, la hija que tuvieron en enero de 1902 antes de casarse, que aparece en unas pocas cartas y desaparece del mundo en septiembre de 1903, tras una escarlatina.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en dos sitios. La física está contada por fuera: se termina sabiendo qué dice la relatividad y no por qué las ecuaciones tenían que ser esas. Y la tesis se convierte a ratos en molde, porque cada capítulo acaba encontrando la rebeldía como causa de todo, incluso donde había ambición o cabezonería a secas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de 2007 llegó el marcador de sus dos apuestas. La relatividad general ganó: el 14 de septiembre de 2015 se detectaron ondas gravitacionales, que él predijo en 1916 y de las que dudó tanto que en 1936 escribió un artículo negando que existieran; se lo rechazaron tras revisión y no volvió a publicar en aquella revista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La otra la perdió. Su argumento de 1935 contra la cuántica se volvió experimento gracias a John Bell en 1964, Alain Aspect lo realizó en 1982 y el resultado le dio la razón a la teoría: la acción fantasmal a distancia existe. Fue el Nobel de 2022. Y en 2018 se publicaron sus diarios de viaje por Asia, con comentarios sobre los chinos abiertamente racistas que Isaacson no tuvo ocasión de discutir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La mejor biografía disponible de Einstein, escrita antes de las dos cosas que la habrían cambiado: el Nobel de 2022 y sus diarios de viaje.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  einstein: EINSTEIN,
   "musica-primos": MUSICA_PRIMOS,
   "universo-mano": UNIVERSO_MANO,
   "universo-cascara": UNIVERSO_CASCARA,

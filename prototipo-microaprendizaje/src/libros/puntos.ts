@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  einstein: [
+    "por qué es falso que suspendiera matemáticas",
+    "qué pregunta abrió la relatividad, y no era de física",
+    "cómo salieron los cuatro artículos de 1905",
+    "la discusión con Bohr que perdió en 2022",
+    "distinguir su papel real en la bomba atómica del inventado",
+  ],
+
   "musica-primos": [
     "por qué los primos son los átomos de la aritmética",
     "qué dice exactamente la hipótesis de Riemann",

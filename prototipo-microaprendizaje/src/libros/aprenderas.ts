@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  einstein:
+    "En 1905, con veintiséis años y ocho horas diarias de oficina de patentes, publicó cuatro artículos y tres cambiaron la física. La primera biografía escrita con la correspondencia privada que se abrió en 2006.",
+
   "musica-primos":
     "Entre 1 y 100 hay veinticinco números primos; en los cien que siguen a un millón, seis. Nadie sabe predecir el siguiente y todo el mundo sabe cuántos habrá: esa contradicción es la hipótesis de Riemann.",
 

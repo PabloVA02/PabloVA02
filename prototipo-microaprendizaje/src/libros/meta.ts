@@ -232,22 +232,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "einstein",
-    titulo: "Einstein: su vida y su universo",
-    autor: "Walter Isaacson",
-    ano: 2007,
-    gancho: "Un funcionario de patentes de veintiséis años publica en un año cuatro artículos. Tres de ellos cambian la física. Y no, nunca suspendió matemáticas.",
-    porQue: "Es la biografía que usó por primera vez sus cartas privadas, y el retrato que sale no es el del abuelo simpático de los pósters.",
-    minutos: 21.7,
-    capitulos: [
-      { titulo: "La brújula", minutos: 4.4 },
-      { titulo: "Montar sobre un rayo de luz", minutos: 4.5 },
-      { titulo: "La oficina de patentes", minutos: 4.3 },
-      { titulo: "El eclipse de 1919", minutos: 4.2 },
-      { titulo: "Princeton", minutos: 4.4 },
-    ],
-  },
-  {
     id: "arte-sin-hombres",
     titulo: "Historia del arte sin hombres",
     autor: "Katy Hessel",

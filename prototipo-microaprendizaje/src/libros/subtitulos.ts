@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  einstein: "Su vida y su universo",
   "musica-primos": "El enigma de un problema matemático abierto",
   "universo-mano": "Un viaje por el espacio, el tiempo y más allá",
   "ultimos-dinosaurios": "El asteroide, la extinción y el principio de nuestro mundo",
