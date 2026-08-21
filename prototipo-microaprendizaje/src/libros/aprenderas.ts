@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "mamba-mentality":
+    "Un libro de método, no una autobiografía. Bryant explica fotografía a fotografía cómo preparaba un partido, qué miraba en un rival, a quién le robaba los movimientos y qué hacía cuando se rompía algo.",
+
   "once-anillos":
     "El entrenador que más campeonatos ha ganado explica que su trabajo casi nunca fue táctico. Estructura clara, mucho menos ruido del habitual y reglas distintas para cada jugador difícil.",
 

@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "mamba-mentality": "El manual de trabajo del jugador más obsesivo que ha existido",
   "once-anillos": "Cómo se dirige a doce personas que se creen las mejores del mundo",
   moneyball: "Cómo un equipo pobre ganó a los ricos midiendo lo que nadie medía",
   "rafa-mi-historia": "El mejor partido de la historia contado desde dentro",

@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "mamba-mentality": [
+    "qué buscaba exactamente cuando estudiaba vídeo de un rival",
+    "por qué se aprendió de memoria el reglamento y a los árbitros",
+    "cómo aprendió a moverse en la Italia de su infancia",
+    "cómo se le pide a un veterano que te enseñe",
+    "en qué consiste de verdad la mentalidad mamba",
+  ],
+
   "once-anillos": [
     "en qué consiste el sistema del triángulo y por qué funciona",
     "cómo convenció a Jordan de que pasara el balón",

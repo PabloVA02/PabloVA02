@@ -60572,7 +60572,281 @@ const ONCE_ANILLOS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Mamba Mentality, en ocho páginas.
+
+   Breve. Libro de método en primera persona: rótulo con la afirmación
+   entera y caja del rayo en segunda persona (apartados 3 bis y 4.7).
+
+   Riesgo principal: es un libro sin autocrítica y el resumen puede salir
+   hagiográfico. La conclusión dice lo que el libro calla, incluida la
+   acusación de 2003, con los hechos y las fechas exactas y sin adjetivos.
+
+   Segundo riesgo: vender el método como aplicable a cualquiera. Se cuenta
+   lo que hizo y se dice explícitamente para quién no sirve.
+   -------------------------------------------------------------------------- */
+
+const MAMBA_MENTALITY: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La obsesión no era un efecto secundario de su talento: era el método entero",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kobe Bryant publicó este libro en 2018, dos años después de retirarse, y no es una autobiografía. Es un manual ilustrado en el que va explicando, fotografía a fotografía, qué estaba haciendo en cada momento de su carrera y por qué: cómo preparaba un partido, qué miraba en un rival, qué hacía con una lesión y cuántas horas dedicaba a un solo movimiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera mitad se llama el proceso y la segunda el oficio, y esa división ya es la tesis. Bryant sostiene que el talento explica muy poco y que lo que le separó de jugadores igual de dotados fue una cantidad de trabajo que él mismo describe como desproporcionada, sin presentarla nunca como un sacrificio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las historias que ilustran esa cantidad son conocidas: entrenamientos que empezaban a las cuatro de la mañana para poder hacer tres sesiones antes de la del equipo, veranos con seis horas diarias seis días por semana durante seis meses, ochocientos tiros metidos —no lanzados— antes de desayunar. El libro las cuenta sin épica, como quien enumera un horario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El apodo venía de una película. Bryant tomó el nombre de la mamba negra que aparece en Kill Bill hacia 2003 y lo convirtió en la etiqueta de una manera de trabajar. Hoy la expresión se usa en gimnasios y en oficinas de medio mundo, casi siempre por gente que no ha leído en qué consistía exactamente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si algo te sale mejor que a los demás, mira primero cuántas horas le has metido antes de llamarlo talento.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Estudiaba a las personas, no solo el juego" },
+      {
+        b: "texto",
+        texto:
+          "La parte más útil del libro es la que describe su preparación, porque casi nada de lo que hacía tenía que ver con un balón. Veía vídeo de sus rivales durante horas buscando detalles que no aparecen en ninguna estadística: hacia qué lado se giraba un defensa cuando se cansaba, qué hacía un base con las manos justo antes de doblar la marca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Llegó a estudiar a los árbitros. Se aprendió el reglamento entero para saber cuánto contacto permitía la norma, y después analizó qué toleraba cada árbitro en concreto, porque no todos pitaban igual. Sabía con quién podía apoyarse en la espalda del defensor y con quién no, y ajustaba su juego según quién dirigía el partido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También preguntaba. Después de los partidos abordaba a rivales veteranos para interrogarles sobre un movimiento concreto que les había visto hacer, y describe conversaciones enteras en el túnel con jugadores a los que acababa de intentar humillar durante dos horas. Ninguno se negó nunca a explicárselo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás de todo eso hay una idea que sirve fuera del deporte. La información que decide un enfrentamiento casi nunca está en los datos generales: está en los hábitos concretos de la persona que tienes delante, y esos hábitos se ven mirando mucho rato con una pregunta precisa en la cabeza.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La ventaja está en los hábitos concretos del que tienes enfrente, y solo se ven si sabes qué buscas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Aprendió a jugar en Italia y eso decidió su manera de moverse" },
+      {
+        b: "texto",
+        texto:
+          "Bryant pasó de los seis a los trece años en Italia, donde su padre jugaba al baloncesto profesional después de dejar la liga estadounidense. Creció hablando italiano, viendo un baloncesto lento y muy técnico, y jugando también al fútbol, que sigue siendo el deporte del que hablaba con más entusiasmo en las entrevistas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquello le dio dos cosas que le distinguieron al volver. La primera, un trabajo de pies muy superior al de sus compañeros estadounidenses, porque en Europa se entrenaba la técnica básica durante años antes de dejar competir a un niño. La segunda, la costumbre de ver a los adultos entrenar todos los días, que le pareció normal desde pequeño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Regresó a Filadelfia a los trece siendo un extranjero en su propio país: hablaba raro, no conocía la música ni la ropa y jugaba distinto. El libro cuenta ese desajuste con bastante frialdad y lo presenta como una ventaja, porque le acostumbró a estar solo y a no necesitar la aprobación del grupo para hacer las cosas a su manera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1996 fue elegido en el puesto trece del sorteo directamente desde el instituto, sin pasar por la universidad, y acabó en los Lakers. Tenía diecisiete años, era el jugador más joven que había debutado en aquella liga y ya se entrenaba como si llevara diez temporadas dentro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Aprender algo lejos de donde se practica te da una manera de hacerlo que los de casa no tienen.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Copiar sin ninguna vergüenza es más rápido que inventar" },
+      {
+        b: "texto",
+        texto:
+          "Bryant no presume de originalidad en ningún momento: presume de haber robado bien. Explica que llamaba por teléfono a jugadores retirados a los que apenas conocía para pedirles que le enseñaran un movimiento suyo, y que la mayoría accedía encantada porque nadie se lo había preguntado nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso más citado es el de Hakeem Olajuwon, el pívot que tenía el mejor juego de pies de espaldas al aro que se ha visto. Bryant, que jugaba en otra posición y medía veinte centímetros menos, pasó días con él aprendiendo giros pensados para hombres mucho más grandes y los adaptó a su tamaño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La acusación de que copiaba a Michael Jordan le persiguió toda la carrera y él la asumió sin discutir. Había estudiado sus vídeos gesto a gesto de adolescente, hasta la manera de sostener la lengua, y sostiene que copiar al mejor no es una falta de personalidad sino el atajo evidente: la personalidad aparece después, cuando lo copiado ya no te basta.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Pregunta directamente", texto: "casi todo el mundo explica cómo hace lo que hace si alguien se molesta en preguntárselo." },
+          { fuerte: "Copia el gesto exacto", texto: "no la idea general, sino el movimiento concreto, repetido hasta que salga sin pensar." },
+          { fuerte: "Adáptalo a lo tuyo", texto: "lo que sirve a un cuerpo o a un puesto distinto hay que rehacerlo entero." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "Preguntarle a alguien mejor que tú cómo lo hace te ahorra años y casi nunca te lo van a negar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Trataba el dolor como una variable más y no como un límite" },
+      {
+        b: "texto",
+        texto:
+          "En 2009 se rompió el dedo índice de la mano derecha, la de tirar. Los médicos le propusieron operar y perder varios meses. Se negó, se vendó el dedo al de al lado y se pasó el verano rehaciendo su mecánica de tiro para lanzar apoyándose en el corazón y el anular. Siguió jugando y ganó dos campeonatos con la mano así.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En abril de 2013 se rompió el tendón de Aquiles en pleno partido. Se levantó, pidió tirar los dos tiros libres que le correspondían, los metió con el tendón partido y se fue al vestuario por su propio pie. Es la escena que mejor resume el personaje y también la que peor consejo da.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro presenta esa actitud como una decisión racional. Bryant sostiene que la lesión te quita opciones pero no te quita todas, y que la mayoría de los deportistas se retira mentalmente del partido mucho antes de que el cuerpo se lo exija. Su trabajo consistía en averiguar exactamente qué seguía pudiendo hacer y hacer solo eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene leer esas páginas con la fecha delante. Se retiró en 2016, a los treinta y siete años, con el cuerpo bastante destrozado y después de tres lesiones graves seguidas. La ausencia total de dudas sobre ese método es una de las cosas que el libro no examina en ningún momento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi siempre te retiras de una tarea antes de que el cuerpo te obligue, y conviene saber cuándo lo haces.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La ventaja estaba siempre en detalles que nadie considera importantes",
+      },
+      {
+        b: "texto",
+        texto:
+          "Buena parte del libro consiste en explicar decisiones minúsculas. Cómo colocar el pie de pivote cinco centímetros más adentro para ganar una décima de segundo. Por qué conviene tocar al defensor con el antebrazo antes de moverse, para saber dónde tiene el peso. Cuándo mirar al banquillo rival, porque lo que hace un entrenador de pie anuncia lo que va a pedir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los casos más concretos es el de las zapatillas. Bryant insistió durante años a su patrocinador para que le fabricara zapatillas bajas de baloncesto, en contra de toda la tradición de la liga, con el argumento de que los futbolistas cambian de dirección a mucha más velocidad con botas bajas y no se lesionan más por ello.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su manera de entrenar seguía la misma lógica. Prefería repetir mil veces un movimiento hasta automatizarlo antes que añadir uno nuevo, y describe temporadas enteras dedicadas a mejorar una sola cosa. El resultado era un repertorio corto ejecutado con una precisión que hacía inútil saber lo que iba a hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está la parte más aprovechable del libro para cualquier oficio. Las mejoras grandes ya se las ha llevado todo el mundo; lo que queda son ajustes pequeños que solo aparecen si uno se toma la molestia de examinar en detalle algo que lleva años haciendo de manera automática.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que llevas años haciendo sin pensar es justo donde queda margen para mejorar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La mentalidad mamba consiste en no negociar nunca contigo mismo" },
+      {
+        b: "texto",
+        texto:
+          "Cuando Bryant explica qué es la mentalidad que da título al libro, la definición es más seca de lo que suele repetirse. No consiste en querer ganar, porque eso lo quiere todo el mundo. Consiste en no permitirse discusiones internas: si toca entrenar a las cuatro, no hay conversación posible a las tres y media sobre si conviene o no conviene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí salen sus dos normas prácticas. La primera, decidir el plan cuando estás descansado y ejecutarlo sin revisarlo cuando estás cansado, porque el cansancio es un mal consejero que siempre recomienda lo mismo. La segunda, no buscar motivación: sostenía que la motivación viene y va, y que lo único fiable es la costumbre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También hay una parte de indiferencia calculada. Bryant explica que dejó de intentar caer bien en el vestuario muy pronto, que aceptó que varios compañeros le detestaran y que le pareció un precio razonable. No lo presenta como una virtud, sino como una decisión que tomó sabiendo lo que costaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro no dice para quién no sirve nada de esto, y conviene decirlo. Un régimen de seis horas diarias lesiona a la inmensa mayoría de los cuerpos, y una persona que no negocia jamás consigo misma suele arrasar bastantes cosas alrededor. Es la descripción de lo que hizo un fanático, no un plan de entrenamiento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Decide el plan cuando estás descansado y no lo discutas contigo mismo cuando estés cansado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Mamba Mentality es un manual de oficio disfrazado de libro de fotografías. Kobe Bryant explica cómo preparaba un partido, cómo estudiaba a un rival, cómo robaba movimientos a jugadores retirados y qué hacía con una lesión, y sostiene que el talento explicó una parte pequeña de sus cinco campeonatos y de los ochenta y un puntos que anotó en un solo partido en 2006.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es concreción. Casi ningún libro de deportista explica el trabajo en este nivel de detalle: qué se mira exactamente en un vídeo, qué se le pregunta a un veterano, cuántas repeticiones hacen falta para que un movimiento salga solo. Como método de estudio de cualquier oficio, es de los textos más útiles que existen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla por lo que no dice. No hay una línea sobre lo que aquella obsesión costó a su alrededor, ni sobre los años en que su vestuario funcionó mal por su culpa. Y sobre todo, un libro dedicado al carácter de un hombre no menciona la acusación de agresión sexual que se le hizo en Colorado en 2003, cuyo proceso penal se archivó en 2004 al retirarse la denunciante, con un acuerdo civil posterior y una disculpa pública en la que él reconoció que ella no había vivido el encuentro como consentido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También conviene desconfiar del salto que hacen sus lectores. Bryant describe lo que le funcionó a un cuerpo excepcional con un equipo médico entero detrás, y no propone en ningún momento que sirva para nadie más. La mentalidad mamba se ha convertido en un eslogan de gimnasio que recomienda a gente corriente un régimen que la lesionaría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En marzo de 2018 ganó un Oscar por un cortometraje de animación sobre su despedida del baloncesto, y en enero de 2020 murió en un accidente de helicóptero junto a su hija Gianna, de trece años, y otras siete personas. El libro, publicado quince meses antes, se convirtió después en uno de los más vendidos de la historia del deporte.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un método puede ser excelente y a la vez pésimo consejo para casi todo el que lo lea.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "mamba-mentality": MAMBA_MENTALITY,
   "once-anillos": ONCE_ANILLOS,
   moneyball: MONEYBALL,
   "rafa-mi-historia": RAFA_MI_HISTORIA,
