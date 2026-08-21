@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "heroe-mil-caras": [
+    "por qué el héroe empieza siempre rechazando la llamada",
+    "qué es el vientre de la ballena y para qué sirve en el relato",
+    "por qué la parte difícil del recorrido es volver",
+    "de quién es realmente la estructura de tres tiempos",
+    "por qué un esquema que encaja con todo no informa de nada",
+  ],
+
   reproductibilidad: [
     "en qué se diferencia copiar a mano de copiar con una máquina",
     "qué es exactamente el aura, con su definición",

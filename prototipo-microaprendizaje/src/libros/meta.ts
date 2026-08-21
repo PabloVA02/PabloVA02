@@ -24,22 +24,6 @@ export type FichaMeta = {
 
 export const META: FichaMeta[] = [
   {
-    id: "heroe-mil-caras",
-    titulo: "El héroe de las mil caras",
-    autor: "Joseph Campbell",
-    ano: 1949,
-    gancho: "Un hombre sin doctorado, que se pasó cinco años sin trabajo leyendo nueve horas al día en una cabaña, escribió el esquema con el que se construyen hoy la mitad de las películas de Hollywood.",
-    porQue: "Porque su estructura funciona sorprendentemente bien para escribir historias y es bastante mala como descripción de la mitología del mundo, y casi nadie distingue las dos cosas.",
-    minutos: 22,
-    capitulos: [
-      { titulo: "Cinco años leyendo en una cabaña", minutos: 4.5 },
-      { titulo: "El monomito", minutos: 4.2 },
-      { titulo: "El rancho Skywalker, 1983", minutos: 4.5 },
-      { titulo: "Los mitos que no encajan", minutos: 4.6 },
-      { titulo: "La diosa y la tentadora", minutos: 4.1 },
-    ],
-  },
-  {
     id: "el-elemento",
     titulo: "El elemento",
     autor: "Ken Robinson",

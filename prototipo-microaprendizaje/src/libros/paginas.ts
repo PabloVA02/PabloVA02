@@ -57195,7 +57195,433 @@ const REPRODUCTIBILIDAD: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El héroe de las mil caras, en doce páginas.
+
+   AMPLIO. Diecisiete etapas, tres fuentes intelectuales que hay que
+   atribuir, un uso práctico en el cine y una discusión académica seria. En
+   ocho páginas saldría la lista de etapas y nada más, que es lo que
+   circula por internet.
+
+   Ensayo → afirmación entera y tercera persona.
+
+   LA REGLA 5 ES AQUÍ LA MITAD DEL VALOR, y tiene tres partes que van con
+   nombre: que el esquema está construido de modo que no puede fallar, que
+   su héroe es varón por construcción y que el propio Campbell contestó a
+   esa objeción algo peor que el problema. Y hay una acusación póstuma
+   documentada que se cuenta como lo que es: una acusación publicada por un
+   colega, discutida por sus defensores.
+
+   Además hay que atribuir lo que no es suyo: la estructura de tres tiempos
+   es de Arnold van Gennep, 1909, y casi ningún resumen lo dice.
+   -------------------------------------------------------------------------- */
+
+const HEROE_MIL_CARAS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Todos los mitos del mundo contarían por debajo la misma historia" },
+      {
+        b: "texto",
+        texto:
+          "Joseph Campbell era profesor de mitología comparada en un pequeño college de Nueva York y llevaba veinte años leyendo relatos de todas las tradiciones que caían en sus manos: griegos, egipcios, budistas, celtas, navajos, polinesios, japoneses, africanos. En 1949 publicó un libro sosteniendo que todos ellos, por debajo de sus diferencias, cuentan la misma historia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Le puso un nombre que había tomado de una novela de James Joyce: monomito. Y lo resumió en una frase que él mismo formula así: un héroe se aventura desde el mundo de lo cotidiano hacia una región de prodigios sobrenaturales; allí se enfrenta a fuerzas fabulosas y obtiene una victoria decisiva; y regresa de esa aventura misteriosa con el poder de otorgar dones a sus semejantes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre esa frase construye un esquema de diecisiete etapas repartidas en tres partes —la partida, la iniciación y el regreso— y dedica el libro a recorrerlas una por una, ilustrando cada una con fragmentos de mitos de continentes distintos colocados unos junto a otros. Ese montaje comparativo es a la vez el atractivo del libro y su problema, y las dos cosas se verán.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas doce páginas recorren las etapas que de verdad importan, dicen de dónde sacó Campbell la estructura, explican para qué sostenía él que servía todo esto, y dedican tres páginas a lo que se le discute: que su esquema está construido de manera que no puede fallar, que su héroe es varón por construcción, y qué pasó cuando Hollywood lo convirtió en un manual.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un esquema que encaja con todos los relatos del mundo puede estar describiendo algo profundo o puede estar hecho de manera que no pueda fallar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Todo empieza cuando algo interrumpe la vida normal y el protagonista dice que no",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera etapa es la llamada de la aventura, y Campbell insiste en que casi nunca la busca el héroe: le llega. Un heraldo, un accidente, una pérdida, un error, un animal que aparece donde no debería. Algo interrumpe el orden de una vida corriente y abre una puerta que antes no estaba, y el protagonista no la ha pedido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es la que hace verosímil todo el esquema y es la que menos se copia: el rechazo de la llamada. El héroe dice que no. Tiene obligaciones, tiene miedo, no es el indicado, ahora no es el momento. Campbell dedica páginas a esa negativa y sostiene que quien se queda ahí definitivamente se convierte en una figura concreta: alguien que conserva su vida entera y se pasa el resto de ella sabiendo lo que no hizo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es la ayuda sobrenatural, que aparece precisamente después del rechazo y no antes. Es la figura del anciano, la vieja del bosque, el maestro, el hada madrina, el mendigo que resulta ser un dios; y su función no es resolver el problema sino entregar una cosa pequeña —un consejo, un objeto, una advertencia— que servirá mucho más adelante y en un momento concreto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese orden es lo más fino de esta parte del libro. La ayuda no llega al que va decidido: llega al que ha dicho que no y sigue estando en el sitio. Campbell lo interpreta como una descripción psicológica de cómo funciona cualquier cambio importante de una vida, en la que primero se rechaza, después aparece alguien y solo entonces se empieza.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie acepta un cambio importante a la primera: la negativa inicial no es una debilidad del relato, es la parte que lo hace reconocible.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En la frontera hay siempre alguien que impide pasar, y ese guardián no es el enemigo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cuarta etapa es el cruce del primer umbral, el punto en que el protagonista deja el territorio conocido y entra en otro donde no rigen sus reglas. Campbell subraya que ese límite está siempre custodiado: hay un guardián en la puerta, en el puente, en la entrada de la cueva o del bosque, y su función es impedir el paso a quien no tiene nada que hacer allí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su observación interesante es que ese guardián no suele ser el villano de la historia. Es un obstáculo menor, a veces un funcionario, a veces un pariente, a veces la propia costumbre; alguien que representa el orden anterior y que se limita a decir que por ahí no se pasa. Vencerlo no requiere heroísmo, requiere decidirse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La quinta etapa la llama el vientre de la ballena, tomando la imagen del profeta Jonás, y es la más oscura de la primera parte. El héroe no cruza la frontera: es tragado por ella. Desaparece, queda encerrado, todos lo dan por perdido, y ese encierro funciona en el relato como una muerte simbólica: el que sale del vientre ya no es el que entró.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Campbell insiste en que esa muerte y ese renacimiento no son un adorno religioso, sino la estructura misma de cualquier rito de paso: el iniciado se separa del grupo, pasa un tiempo fuera, en la oscuridad y sin identidad, y regresa siendo otra cosa. La cuestión de dónde sacó esa estructura se trata más adelante, porque no la inventó él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El que impide el paso al principio de cualquier cambio no suele ser el problema de verdad: suele ser el orden anterior haciendo su trabajo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El camino de las pruebas no lo forma un obstáculo grande, sino una serie que desgasta",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda parte del esquema empieza con lo que Campbell llama el camino de las pruebas, y su descripción es más precisa de lo que sugiere el nombre. No se trata de un enemigo final, sino de una sucesión de dificultades encadenadas que el protagonista supera con esfuerzo creciente y en las que va perdiendo cosas: compañeros, certezas, ilusiones y a veces partes de sí mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los ejemplos que reúne son de todas partes: los trabajos de Heracles, las pruebas de Psique, las tentaciones del Buda bajo el árbol, los desafíos de los cuentos populares en los que hay que hacer tres cosas imposibles antes de conseguir la mano de alguien. La observación común es que la serie tiene una función: no está para lucir al héroe sino para transformarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Campbell señala además un rasgo que se repite y que es útil de ver. Las pruebas rara vez se superan por la fuerza. Se superan por astucia, por la ayuda de alguien a quien el héroe trató bien antes sin obtener nada a cambio, o por acordarse de algo que le dijeron al principio y que en su momento no significaba nada. Los relatos premian sistemáticamente la memoria y la generosidad previa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay dos etapas en esta parte que él trata con mucho detalle y que hoy resultan indefendibles tal como están escritas: el encuentro con la diosa y la mujer como tentadora. Las dos definen a los personajes femeninos por su función respecto al protagonista masculino, y las dos se examinan en la página once, porque no son un descuido del libro sino su estructura.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En estos relatos casi nunca gana la fuerza: gana acordarse de algo que te dijeron al principio y haber tratado bien a alguien que no te servía de nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La prueba central de casi todos los mitos es un ajuste de cuentas con el padre",
+      },
+      {
+        b: "texto",
+        texto:
+          "La etapa que Campbell considera decisiva no es la batalla ni el tesoro: es lo que llama la reconciliación con el padre. Sostiene que en una cantidad enorme de tradiciones, el momento culminante del recorrido consiste en enfrentarse a una figura que tiene a la vez el poder de destruir al héroe y la clave de lo que este busca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La figura no es necesariamente el padre biológico. Puede ser un dios, un rey, un maestro, un ogro, el destino o la propia autoridad que ordenó el mundo en el que el héroe creció. Lo característico es la ambivalencia: es a la vez el obstáculo y la fuente, el que castiga y el que otorga, y el enfrentamiento no termina con su destrucción sino con una especie de acuerdo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Campbell lee ahí, sin disimularlo, a Freud. Su interpretación es que el mito está describiendo el proceso por el que alguien deja de ver la autoridad como una amenaza exterior y la reconoce como algo que también es suyo, y que ese es el paso que convierte a un hijo en un adulto. Toda la etapa está construida sobre el esquema edípico y él lo cita.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después viene lo que llama la apoteosis y el don último: el momento en que el héroe alcanza un estado nuevo de conciencia y consigue aquello por lo que fue, que puede ser un objeto, un conocimiento, un poder o una persona. Y aquí Campbell hace una advertencia que casi nadie recoge: en muchos relatos el don obtenido no es el que se buscaba, y en bastantes no sirve para lo que se pensaba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El momento en que alguien se hace adulto no es cuando derrota a la autoridad: es cuando deja de verla como algo enteramente ajeno a él.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La parte del esquema que casi nadie copia es el regreso, y es la que más dice",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera parte ocupa un tercio del libro y es la que las versiones divulgadas resumen en una línea. Campbell dedica seis etapas al camino de vuelta, y empieza por la más contraintuitiva: la negativa a regresar. Conseguido el don, muchos héroes no quieren volver. Se quedan donde han llegado, o se instalan en el otro mundo, y hay relatos que terminan así.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando deciden volver, aparecen dos formas típicas. La huida mágica, en la que el regreso es una persecución porque el don se ha tomado sin permiso y alguien lo reclama; y el rescate desde fuera, en el que el héroe no puede volver por sí mismo y tiene que ir alguien a buscarlo, cosa que Campbell subraya porque contradice la imagen del héroe autosuficiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La etapa que más le importa es el cruce del umbral de regreso, y su descripción es la mejor página del último tercio. El problema no es el viaje: es que lo aprendido allí no se puede decir aquí. El que vuelve tiene una experiencia que su comunidad no comparte, un lenguaje que no sirve para contarla y unos vecinos que siguen con lo suyo. Muchos héroes fracasan exactamente ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las dos últimas etapas describen la salida de ese problema: ser dueño de los dos mundos, es decir, poder moverse entre el sitio del que se vino y el sitio al que se fue sin renunciar a ninguno; y la libertad para vivir, que Campbell define como dejar de temer y dejar de aferrarse. Y hay un detalle que él repite: el don solo vale si se entrega. Un héroe que se queda lo que trajo no ha terminado la historia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La parte difícil de volver no es el viaje: es que lo aprendido fuera no se puede contar dentro, y ahí es donde fracasa la mayoría.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La estructura de tres tiempos no la inventó él, y conviene saber de quién es",
+      },
+      {
+        b: "texto",
+        texto:
+          "El esqueleto del monomito —salir, pasar un tiempo fuera, volver transformado— no es un hallazgo de Campbell, y su libro lo reconoce aunque casi ningún resumen posterior lo haga. Lo formuló en 1909 el etnógrafo francés Arnold van Gennep en un estudio sobre los ritos de paso, comparando ceremonias de nacimiento, pubertad, matrimonio, ordenación y funeral en decenas de sociedades.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Van Gennep encontró que todas seguían tres fases: separación, en la que el individuo es apartado de su grupo y de su condición anterior; margen o liminalidad, un periodo intermedio en el que no es ni una cosa ni otra, a menudo en aislamiento y con pruebas; y agregación, en la que se reincorpora con un estatus nuevo. Ese esquema es exactamente el de la partida, la iniciación y el regreso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda fuente es Carl Gustav Jung, y ahí Campbell es un discípulo declarado. De Jung toma la idea de que existen figuras recurrentes en los sueños y en los relatos de todas las culturas —el anciano sabio, la sombra, la madre, el embaucador— y que esa recurrencia se explica por una capa común de la mente humana. Todo el aparato interpretativo del libro es junguiano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la tercera es James Frazer, cuyo libro de 1890 había reunido rituales de todo el mundo para sostener que detrás de todos había un mismo patrón de dios que muere y resucita. Frazer aportó el método comparativo a gran escala, y aportó también el defecto que Campbell heredaría: recortar rituales de sus contextos y alinearlos para que se parezcan.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El esqueleto del monomito es de un etnógrafo francés de 1909 que estudiaba ceremonias de pubertad: lo que Campbell añadió fue aplicarlo a los relatos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Para él esto no era erudición: era un manual de instrucciones para una vida",
+      },
+      {
+        b: "texto",
+        texto:
+          "Campbell no escribió el libro para clasificar mitos, y esa intención explica por qué acabó siendo un éxito fuera de la universidad. Sostenía que los relatos tradicionales cumplían una función práctica en las sociedades que los contaban: enseñaban a atravesar los tránsitos difíciles de una vida —dejar de ser niño, casarse, tener hijos, envejecer, morir— dando una forma reconocible a lo que le estaba pasando a cada uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y sostenía que las sociedades industriales han perdido esa función sin sustituirla. Ya no hay ritos de paso compartidos: se pasa de la adolescencia a la vida adulta sin ninguna ceremonia, se envejece sin ningún relato disponible y se muere en un hospital. La consecuencia, según él, es que la gente atraviesa esos cambios sin mapa y sin saber que a todo el mundo le pasa lo mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su lectura de los mitos: no como historias sobre dioses sino como descripciones de procesos interiores. El dragón que hay que matar es lo que a cada uno le impide moverse; el guardián del umbral es la costumbre; el vientre de la ballena es la temporada en que no se es nada; y el don que hay que traer de vuelta es lo que uno le debe a la gente entre la que vive.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa lectura se resume en la frase que le hizo famoso en sus últimos años, cuando la repitió en televisión: sigue tu dicha. Conviene decir que la frase se ha convertido en un cliché de superación personal y que en su formulación original era menos amable: hablaba de averiguar cuál es la propia vocación y aceptar todo lo que cuesta seguirla, incluida la incomprensión.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una sociedad sin ritos de paso deja a cada uno atravesando solo los mismos cambios que atraviesan todos, y sin saber que le pasa a todo el mundo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El esquema encaja con cualquier relato, y eso no es una virtud" },
+      {
+        b: "texto",
+        texto:
+          "La objeción de método es la más seria que se le hace y conviene formularla con precisión. El monomito tiene diecisiete etapas, ninguna es obligatoria, pueden aparecer en distinto orden, pueden estar representadas por su contrario y pueden estar condensadas en un solo personaje. Con esas licencias, no existe ninguna historia que no encaje.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y una descripción que ninguna historia puede desmentir no está describiendo una propiedad de las historias: está describiendo un molde que el analista aplica. La prueba que suele proponerse es sencilla: si el esquema es informativo, debería haber relatos que no lo cumplen y poder señalarlos. Campbell no señala ninguno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda objeción es de fuentes. Campbell toma fragmentos de mitos de culturas separadas por continentes y milenios, los recorta de su contexto ritual, lingüístico y social, y los alinea porque se parecen en un rasgo. Los folcloristas profesionales llevan desde 1949 señalando que ese procedimiento produce parecidos donde solo hay recortes, y que un mito significa algo dentro de la sociedad que lo cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El crítico más duro fue el folclorista Alan Dundes, que sostuvo que el trabajo de Campbell no era investigación sino autoayuda con vocabulario académico, y que sus usos de las fuentes no resistían un examen. La mitología comparada como disciplina se apartó del enfoque universalista, y hoy el libro se lee en escuelas de guion mucho más que en departamentos de antropología.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si una teoría sobre los relatos no puede señalar ni un solo relato que la incumpla, no está describiendo los relatos: está describiendo su propio molde.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En su esquema el héroe es varón por construcción, y su respuesta a esa objeción fue peor",
+      },
+      {
+        b: "texto",
+        texto:
+          "La objeción no es que Campbell eligiera pocos ejemplos femeninos: es que su estructura no admite un protagonista mujer sin reescribirse. Dos de las diecisiete etapas —el encuentro con la diosa y la mujer como tentadora— definen a los personajes femeninos exclusivamente por lo que representan para el protagonista masculino, como recompensa, como obstáculo o como madre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En su sistema, la mujer no es alguien que recorre el camino: es una de las cosas que se encuentran por el camino. Y esa no es una lectura hostil, es lo que dicen los títulos de sus propias etapas y lo que desarrolla en ellas. Un esquema que se propone describir todas las historias humanas asigna a la mitad de la humanidad la función de escenario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo peor llegó cuando se lo preguntaron. Maureen Murdock, que había sido alumna suya, le planteó cómo sería el viaje de una heroína, y él contestó que las mujeres no necesitan hacer el viaje porque en toda la tradición mitológica la mujer ya está allí: es el lugar al que la gente intenta llegar. Murdock consideró esa respuesta inaceptable y en 1990 publicó un libro proponiendo otro recorrido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una acusación posterior que hay que contar como lo que es. En 1989, dos años después de morir Campbell, el escritor Brendan Gill publicó en una revista literaria estadounidense un artículo recogiendo testimonios de colegas y alumnos sobre comentarios antisemitas y reaccionarios suyos en clase y en privado. Sus defensores lo negaron y el asunto no se ha cerrado; forma parte del expediente y quien lo cite debe decir que es una acusación discutida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando le preguntaron cómo sería el viaje de una mujer contestó que ellas ya están al final del camino: la respuesta describe el problema mejor que la pregunta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un memorando de siete páginas convirtió este libro en el molde del cine comercial",
+      },
+      {
+        b: "texto",
+        texto:
+          "El camino por el que Campbell llegó a Hollywood tiene dos escalones concretos. El primero es George Lucas, que leyó el libro a comienzos de los años setenta mientras intentaba sacar adelante un guion de ciencia ficción que no acababa de funcionar, y que ha explicado muchas veces que el esquema le permitió terminarlo. La película se estrenó en 1977.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo escalón es menos conocido y es el decisivo. En 1985, un analista de guiones de los estudios Disney llamado Christopher Vogler escribió un memorando interno de siete páginas resumiendo el monomito y traduciéndolo a términos de guion, con doce pasos y con nombres prácticos. Aquel documento circuló fotocopiado por todos los estudios de Los Ángeles y en 1992 se convirtió en un libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Desde entonces, ese esquema es la estructura por defecto del cine comercial estadounidense y de buena parte de la televisión y del videojuego. No es una influencia difusa: es un manual que se enseña, que se aplica y que los ejecutivos usan para evaluar guiones, hasta el punto de que un guion que no lo sigue tiene que justificar por qué.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto tiene una ironía que conviene decir. Un libro que sostenía que todas las historias del mundo se parecen ha contribuido a que efectivamente se parezcan, porque su descripción se convirtió en receta. Campbell describía un patrón que él creía encontrar en las culturas; su lectura industrial lo convirtió en la plantilla con la que se fabrican los relatos que consumen cientos de millones de personas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Describió un patrón que decía encontrar en todos los relatos, y su descripción se convirtió en la receta con la que hoy se fabrican: la profecía se cumplió sola.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que los mitos de todas las culturas cuentan por debajo el mismo recorrido —salir, atravesar pruebas, volver con algo— y que ese recorrido no describe una aventura sino los tránsitos difíciles de cualquier vida. Su esquema de diecisiete etapas es la exposición más completa que existe de esa idea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, si se lee con distancia, son observaciones sueltas de mucho valor: que el cambio se rechaza antes de aceptarse, que la ayuda llega después de la negativa, que las pruebas se superan por memoria y no por fuerza, que la parte difícil es volver, y que lo que se trae no vale si no se entrega. Ninguna de ellas depende de que la tesis universal sea cierta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en el método, que es lo que decide si esto es conocimiento o herramienta. Un esquema de diecisiete etapas opcionales, reordenables e invertibles no puede ser desmentido por ningún relato, y por lo tanto no informa sobre los relatos. Y su procedimiento comparativo recorta mitos de sus contextos hasta hacerlos parecidos, que es exactamente lo que la antropología lleva ochenta años reprochándole.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla además en su alcance: un modelo que se presenta como el de todas las historias humanas no admite protagonistas mujeres sin reescribirse, y la respuesta que su autor dio a esa objeción fue peor que la objeción. Y hay una acusación póstuma sobre sus opiniones privadas que sigue discutida y que forma parte del expediente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después es la mejor prueba de su influencia y también de su problema. La serie de entrevistas que grabó poco antes de morir se emitió en 1988 y la vieron decenas de millones de personas, convirtiéndolo en un personaje póstumo; y su esquema, traducido a un memorando de guion, se convirtió en la plantilla del cine comercial de las cuatro décadas siguientes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Léelo como una caja de observaciones útiles sobre cómo cambia la gente, y no como una ley sobre los relatos: como ley no puede equivocarse, y eso lo descalifica.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "heroe-mil-caras": HEROE_MIL_CARAS,
   reproductibilidad: REPRODUCTIBILIDAD,
   "espiritual-arte": ESPIRITUAL_ARTE,
   "vidas-vasari": VIDAS_VASARI,

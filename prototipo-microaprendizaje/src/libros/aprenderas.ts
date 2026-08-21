@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "heroe-mil-caras":
+    "Campbell leyó durante veinte años mitos de todos los continentes y en 1949 sostuvo que todos cuentan la misma historia: alguien sale de su mundo, atraviesa pruebas y vuelve con algo para los suyos.",
+
   reproductibilidad:
     "Benjamin lo escribió en París en 1935, exiliado, y sostiene que copiar una obra por medios técnicos no cambia el número de ejemplares sino lo que la obra es. Cinco años después se quitó la vida huyendo en la frontera española.",
 

@@ -52,7 +52,6 @@ const CARGADORES: Record<string, Cargador> = {
   /* Psicología */
 
   /* Capítulos largos */
-  "heroe-mil-caras": () => import("./arte").then((m) => m.HEROE_MIL_CARAS),
   "el-elemento": () => import("./arte").then((m) => m.EL_ELEMENTO),
 };
 
