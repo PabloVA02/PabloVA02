@@ -50935,7 +50935,298 @@ const CUENTOS_POE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Ética para Amador, en ocho páginas.
+
+   Breve: una sola tesis desarrollada en nueve capítulos cortos.
+
+   Ensayo de filosofía → titular de afirmación entera y TERCERA persona.
+   OJO: el libro está escrito entero en segunda persona, porque es una carta
+   de un padre a su hijo de quince años. Eso NO se imita, se cuenta. Imitarlo
+   sería escribir un mal Savater encima del suyo, igual que pasaba con
+   Galfard en «El universo en tu mano».
+
+   La regla 5 aquí tiene dos partes y las dos son de fondo: el libro afirma
+   que ser bueno te conviene y no lo demuestra, y presenta una tradición
+   concreta —la aristotélica— como si fuera la ética entera. Y el «después»
+   es precioso y verdadero: el Amador del título creció y no piensa como su
+   padre.
+   -------------------------------------------------------------------------- */
+
+const ETICA_AMADOR: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La ética no es un código de normas: es el intento de averiguar qué te conviene de verdad",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fernando Savater publicó este libro en 1991 con una forma que no había usado ningún manual: una carta larga de un padre a su hijo de quince años, que se llama Amador y existe. No hay bibliografía, ni citas en latín, ni escuelas ordenadas por siglos; hay un adulto explicándole a un adolescente por qué le importa que piense en esto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su primera decisión es de vocabulario y ordena el libro entero. Separa la ética de la moral y del código penal. Un código dice qué está prohibido; una moral dice qué está bien según una tradición; y la ética, tal como la usa aquí, es una pregunta anterior y más egoísta: qué me conviene de verdad, sabiendo que voy a morirme y que solo tengo esta vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa palabra, conveniente, es la que hace el trabajo. Conviene lo que va con uno, lo que le ayuda a ser lo que quiere ser. Comer conviene y envenenarse no; y del mismo modo, según él, conviene no mentirle a la gente de la que uno depende, no por obediencia sino porque una vida rodeada de gente a la que has engañado es peor vida. La ética sería el estudio de esa conveniencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: por qué la libertad no consiste en poder hacerlo todo, las tres cosas que confundimos con razones para actuar, qué significa exactamente la orden más difícil que existe, la diferencia entre la buena vida y la vida buena, por qué la ética empieza cuando aparece otro, y dónde termina la ética y empieza la política.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta ética no es qué está permitido: es qué me conviene, sabiendo que solo tengo esta vida y que se va a acabar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La libertad no es poder hacerlo todo: es tener que elegir dentro de lo que hay",
+      },
+      {
+        b: "texto",
+        texto:
+          "Savater arranca comparándonos con las termitas, y la comparación es buena porque quita el aire épico al asunto. Una termita construye un termitero perfecto, mantiene la temperatura, muere defendiendo la colonia y no ha tomado ninguna decisión: hace lo que su especie hace. Nadie felicita a una termita por su valor, del mismo modo que nadie culpa a un río por inundar un pueblo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con los humanos pasa lo contrario y ahí empieza el problema. Podemos hacer cosas que nos perjudican, podemos negarnos a lo que se espera de nosotros y podemos inventarnos formas de vivir que no estaban en el programa. Esa capacidad tiene un precio que el libro no disimula: si puedes elegir, puedes elegir mal, y no hay a quién echarle la culpa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su definición de libertad es deliberadamente pequeña, y es lo mejor del capítulo. No somos libres de elegir lo que nos pasa —el país, la familia, la enfermedad, la época—, pero sí de responder a lo que nos pasa. La libertad no está en las circunstancias, que casi nunca se eligen, sino en el margen que queda dentro de ellas, que casi nunca es cero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca la distinción que necesitará después. Ser libre no significa conseguir lo que uno quiere: significa intentarlo. Un preso no es libre de salir, y sigue siendo libre de decidir cómo pasa los días que le quedan dentro. Confundir la libertad con la omnipotencia es la manera más rápida de concluir que nadie es libre y que, por tanto, nadie responde de nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No eliges lo que te pasa y sí eliges qué haces con ello: ese margen es pequeño, casi nunca es cero, y es todo lo que hay.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las órdenes, las costumbres y los caprichos no son razones, aunque lo parezcan",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo capítulo hace una limpieza necesaria: separa los tres motivos por los que la gente suele hacer las cosas y explica por qué ninguno de los tres es una razón. Las órdenes vienen de fuera y se obedecen por miedo o por interés. Las costumbres se siguen porque siempre se ha hecho así. Y los caprichos vienen de dentro, pero de un dentro que no ha pensado nada: apetece y ya está.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo importante no es que estén mal, porque a menudo llevan a lo correcto. Lo importante es que quien actúa así no sabe por qué actúa, y por lo tanto no puede corregirse cuando cambian las circunstancias. Alguien honrado por costumbre deja de serlo el día que se muda a un sitio donde la costumbre es otra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con las órdenes añade un matiz que es de los más útiles del libro: obedecer también es una elección. Quien cumple una orden ha decidido cumplirla, y sigue siendo el autor de lo que hace. Savater escribía esto en la España de 1991, con la memoria reciente de una dictadura y con el terrorismo en activo, y la frase se lee de otra manera sabiéndolo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Contra los caprichos, su argumento es de aritmética vital. Un capricho satisfecho llama al siguiente y ninguno deja nada detrás; la vida entregada a lo que apetece en cada momento es una sucesión de arranques sin dirección, y quien la lleva descubre a los cuarenta años que no eligió nada. Es la crítica clásica al que confunde hacer lo que quiere con hacer lo que le da la gana.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Obedecer una orden no te quita la autoría de lo que haces: has decidido obedecer, y esa decisión también es tuya.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "«Haz lo que quieras» es la orden más difícil que existe, no la más cómoda",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo central se titula así y toma la frase de dos sitios muy distintos. De la abadía imaginaria que François Rabelais describió en 1534, donde la única regla escrita en el muro era haz lo que quieras; y de san Agustín, que doce siglos antes había escrito ama y haz lo que quieras. En los dos casos, lo que parece una autorización es una exigencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La exigencia está en el verbo. Querer no es lo mismo que apetecer. Apetecer es inmediato, no requiere trabajo y cambia cada media hora; querer implica saber qué clase de vida se quiere tener, cosa que casi nadie se ha planteado, y sostener esa respuesta cuando lo que apetece va en dirección contraria. Hacer lo que uno quiere es mucho más difícil que hacer lo que le da la gana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la única regla que el libro se atreve a formular, y es de tipo negativo: no hagas el imbécil. Savater define al imbécil de varias maneras y la que mejor funciona es esta: el que no sabe lo que quiere y por eso hace lo que otro decide por él, sea la publicidad, el grupo o su propio antojo de las siete de la tarde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro se cuida además de no convertir eso en una fórmula tranquilizadora. Dice claramente que quien pregunte qué debe hacer en un caso concreto no va a encontrar la respuesta ahí, y que la ética no ahorra el trabajo de decidir. Su epílogo se titula «Tendrás que pensarlo», que es lo más honrado que puede decirle un padre a un hijo de quince años sobre esto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Apetecer es gratis y cambia cada media hora; querer exige saber qué vida quieres, y por eso casi nadie hace lo que quiere.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Darse la buena vida y vivir una vida buena no son la misma operación",
+      },
+      {
+        b: "texto",
+        texto:
+          "El juego de palabras es suyo y sostiene el capítulo más ambicioso del libro. Darse la buena vida suena a lujo, a placeres, a no complicarse; y él sostiene que la buena vida bien entendida y la vida buena en sentido moral acaban coincidiendo, porque una vida hecha de engaños, de miedo y de gente resentida alrededor no es agradable de vivir por dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento no es de premio ni de castigo, y eso hay que subrayarlo porque es lo que lo separa de un catecismo. No dice que portarse bien tenga recompensa después, ni siquiera aquí. Dice que las acciones nos van construyendo: el que miente sistemáticamente se convierte en un mentiroso, y vivir siendo eso es peor que vivir sin serlo, independientemente de que le pillen o no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la posición clásica de Aristóteles y de Spinoza puesta en lenguaje de 1991, y funciona muy bien mientras se hable de casos corrientes. Convence sobre la mentira, sobre el abuso a un compañero de clase, sobre traicionar a un amigo: en todos ellos se ve la factura interna.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y es también donde el libro tiene su punto más débil, que conviene ver ahora y no al final. Hay personas a las que portarse mal les conviene mucho y les sale bien: ganan, no pagan nada y parecen vivir estupendamente. Savater lo menciona y contesta que esa vida es más pobre por dentro de lo que aparenta, cosa que ni él ni nadie puede comprobar. Ahí el libro afirma en lugar de demostrar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las acciones no solo producen consecuencias: te van construyendo, y acabas viviendo con el resultado más horas que nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Se es humano porque otros humanos te tratan como tal" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre los demás contiene la idea más fuerte del libro, y no es un llamamiento a la solidaridad. Es una afirmación sobre qué nos hace humanos: la humanidad no es una propiedad que traiga cada uno de fábrica, sino algo que recibimos de otros. Se aprende a hablar porque alguien habla contigo; se aprende a pensar con palabras que te dieron; se llega a ser alguien porque otros te trataron como alguien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca la consecuencia práctica: quien trata a otro como una cosa está deshaciendo lo mismo que le hizo humano a él. No es una cuestión de generosidad, sino de coherencia, porque el que niega esa condición a otro está negando el procedimiento por el que él mismo la obtuvo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo con el que lo aterriza es la esclavitud, y lo elige bien porque durante siglos fue perfectamente legal y perfectamente respetable. Un ateniense de la época de Pericles podía ser un ciudadano ejemplar y tener esclavos sin que nadie viera contradicción. Que algo esté permitido, sea costumbre y no cause escándalo no dice nada sobre si está bien, y eso es lo que la ética sirve para pensar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí es donde el libro entronca con la tradición moderna sin nombrarla apenas. Tratar a alguien siempre también como un fin y nunca solo como un medio es la formulación de Kant, y Savater la usa traducida al lenguaje de un adolescente: la diferencia entre tratar a una persona como persona o tratarla como un aparato del que se saca algo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie llega a ser alguien por su cuenta: te hicieron humano tratándote como tal, y eso es lo que deshaces cuando tratas a otro como una cosa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La ética se ocupa de lo que depende de ti; la política, de lo que decidimos entre todos",
+      },
+      {
+        b: "texto",
+        texto:
+          "El último capítulo traza una frontera que Savater considera imprescindible y que su propio éxito ha ayudado a borrar. La ética trata de lo que cada uno puede decidir por su cuenta y no admite delegación: nadie puede ser honrado en tu nombre. La política trata de lo que solo se puede decidir entre muchos —qué impuestos, qué leyes, qué se hace con los presos— y funciona con acuerdos, mayorías y compromisos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Confundirlas produce dos errores simétricos, y los dos son frecuentes. Uno es creer que los problemas colectivos se arreglan con buenas personas: si cada cual fuera honrado no haría falta ninguna ley, lo cual es falso, porque hay problemas que no se resuelven con voluntad individual por mucha que haya. El otro es esperar que la política te diga cómo vivir, que es pedirle a un mecanismo de acuerdos que resuelva algo que solo tú puedes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Savater añade una advertencia sobre la moral pública que en 1991 sonaba menos actual que ahora. La indignación es barata y no cuesta nada, y proclamar en voz alta lo que uno condena puede sustituir por completo a hacer algo. La ética, dice, no se demuestra opinando: se demuestra en lo que uno hace cuando le sale caro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y termina donde tiene que terminar un libro así, sin darle al hijo ninguna conclusión. El epílogo dice que tendrá que pensarlo él, y que su padre no puede ni quiere ahorrarle ese trabajo. Es coherente con todo lo anterior: un libro que sostiene que la ética consiste en decidir no puede acabar entregando decisiones ya tomadas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie puede ser honrado en tu nombre; y hay problemas que no se arreglan aunque todo el mundo sea honrado. Las dos cosas son ciertas a la vez.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la ética no es una lista de prohibiciones sino la pregunta por lo que a uno le conviene de verdad, y que la respuesta pasa por saber qué se quiere, no dejar que decidan otros y tratar a las personas como personas. Todo eso cabe en nueve capítulos cortos escritos para un chico de quince años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es que se entiende. Hay muy pocos libros de filosofía que un adolescente lea sin ayuda y que a la vez no engañen sobre el nivel del asunto, y este consiguió las dos cosas: es la puerta de entrada de varias generaciones de españoles a la filosofía, y no es una versión rebajada de nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en lo que afirma sin demostrar y en lo que deja fuera. Su tesis central —que a la larga conviene ser bueno— es una convicción antigua y respetable, y el libro no la prueba: cuando llega el caso del que se aprovecha impunemente, la respuesta es que esa vida es peor por dentro, que es lo que habría que demostrar. Y presenta una sola tradición como si fuera la ética entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro reparo es de tono y de temario. El registro de padre enrollado de 1991 envejeció deprisa y hoy incomoda a los lectores a los que se dirige; y del temario faltan asuntos que hoy ocupan el centro: lo que debemos a los animales, a las generaciones futuras o al planeta, y qué hacer con las injusticias que no tienen un culpable identificable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de 1991 el libro vendió más de un millón de ejemplares, se convirtió en lectura obligatoria en los institutos durante tres décadas y tuvo continuación con «Política para Amador» al año siguiente. Y pasó lo único que podía pasarle a un libro que pide pensar por cuenta propia: el Amador del título creció, se hizo escritor, participó en los movimientos sociales de 2011 y ha dicho en público que no comparte las posiciones políticas de su padre. Es la mejor reseña que ha tenido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro que enseña a pensar por cuenta propia se puede medir por si el lector acaba llevándole la contraria: este lo consiguió con el destinatario.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "etica-amador": ETICA_AMADOR,
   "cuentos-poe": CUENTOS_POE,
   mujercitas: MUJERCITAS,
   "renglones-torcidos": RENGLONES_TORCIDOS,

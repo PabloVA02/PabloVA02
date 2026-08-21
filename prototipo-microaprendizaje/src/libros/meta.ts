@@ -136,22 +136,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "etica-amador",
-    titulo: "Ética para Amador",
-    autor: "Fernando Savater",
-    ano: 1991,
-    gancho: "Un catedrático de filosofía le escribe a su hijo de quince años para explicarle por qué no piensa darle ni una sola norma de conducta.",
-    porQue: "Es el libro de filosofía más leído en español del último medio siglo, y su tesis central sigue siendo la más incómoda: portarse bien es un asunto de egoísmo bien entendido.",
-    minutos: 22,
-    capitulos: [
-      { titulo: "Una carta a un hijo de quince años", minutos: 4.4 },
-      { titulo: "Las termitas no pueden elegir", minutos: 4.4 },
-      { titulo: "Haz lo que quieras", minutos: 4.4 },
-      { titulo: "Ponte en su lugar", minutos: 4.3 },
-      { titulo: "Lo que respondió Amador", minutos: 4.5 },
-    ],
-  },
-  {
     id: "etica-nicomaco",
     titulo: "Ética a Nicómaco",
     autor: "Aristóteles",

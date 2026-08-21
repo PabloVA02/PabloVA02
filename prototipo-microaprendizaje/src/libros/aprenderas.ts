@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "etica-amador":
+    "Savater escribió en 1991 una carta larga a su hijo de quince años, que se llama Amador y existe. Su punto de partida es que la ética no es una lista de prohibiciones sino la pregunta por lo que a uno le conviene.",
+
   "cuentos-poe":
     "Poe no escribía sus pesadillas: decidía primero qué efecto quería producir y construía cada palabra para producirlo. Con ese método fundó el cuento moderno como forma y, en 1841, el relato policiaco entero.",
 

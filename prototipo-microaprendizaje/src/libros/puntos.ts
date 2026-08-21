@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "etica-amador": [
+    "por qué la libertad no consiste en poder hacerlo todo",
+    "las tres cosas que confundimos con razones para actuar",
+    "qué diferencia hay entre querer algo y que te apetezca",
+    "por qué se es humano solo porque otros te tratan como tal",
+    "dónde acaba la ética y empieza la política",
+  ],
+
   "cuentos-poe": [
     "la regla de 1842 con la que fundó el cuento moderno",
     "cómo funciona un narrador al que no se puede creer",
