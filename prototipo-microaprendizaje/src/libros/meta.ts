@@ -520,22 +520,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "dinero-domina-juego",
-    titulo: "Dinero: domina el juego",
-    autor: "Tony Robbins",
-    ano: 2014,
-    gancho: "Un conferenciante motivacional sin ningún título financiero consiguió sentarse con cincuenta de los mayores inversores del mundo, entre ellos Buffett, Dalio y el fundador de Vanguard, y les preguntó lo que preguntaría cualquiera. Lo que le contestaron ocupa seiscientas páginas y no siempre le conviene.",
-    porQue: "Porque su capítulo sobre comisiones es de lo mejor que se ha escrito para el público general, y porque el mismo libro que demuestra que las comisiones te arruinan te acaba mandando a una firma de asesoramiento en la que el autor tenía participación.",
-    minutos: 27.2,
-    capitulos: [
-      { titulo: "Cincuenta entrevistas y una libreta", minutos: 5.2 },
-      { titulo: "El uno por ciento que se lleva un tercio", minutos: 5.5 },
-      { titulo: "La cartera de todas las estaciones", minutos: 5.5 },
-      { titulo: "Quién cobra cuando sigues el consejo", minutos: 5.4 },
-      { titulo: "Las tres frases que sobreviven", minutos: 5.5 },
-    ],
-  },
-  {
     id: "invencible",
     titulo: "Invicto",
     autor: "Marcos Vázquez",

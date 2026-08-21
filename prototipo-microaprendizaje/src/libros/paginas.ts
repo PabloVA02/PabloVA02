@@ -46144,7 +46144,298 @@ const SUPERPRONOSTICADORES: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Dinero: domina el juego, en ocho páginas.
+
+   Breve. Libro práctico de dinero → TÚ. Economía → persona con nombre en
+   cada argumento y término técnico traducido y definido la primera vez.
+
+   ESTE ES EL LIBRO MÁS DIFÍCIL DE RESUMIR CON HONRADEZ del estante de
+   Economía, porque mezcla consejo bueno y bien citado con capítulos que
+   tienen un interés comercial detrás. Resumirlo entusiasmado sería hacer de
+   altavoz; resumirlo con desprecio sería tirar la parte útil, que existe y
+   está bien documentada. Se hace lo que manda la regla 5: se cuenta lo que
+   vale, y se dice con nombres dónde falla y quién cobra.
+
+   Y lleva marcador, apartado 4 bis: la cartera estrella del libro se probó
+   con datos de 1984 a 2013 y en 2022 hizo justo lo que ese periodo no podía
+   enseñar. Va en la conclusión con la cifra.
+   -------------------------------------------------------------------------- */
+
+const DINERO_DOMINA_JUEGO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cincuenta de los mejores inversores del mundo contestan casi lo mismo, y cabe en cuatro páginas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tony Robbins pasó cuatro años entrevistando a unos cincuenta de los inversores más ricos del planeta y a todos les hizo la misma pregunta: si no pudieras dejarles dinero a tus hijos, solo una cartera y unas reglas, ¿qué les dejarías? Contestaron Ray Dalio, Warren Buffett, Carl Icahn, John Bogle, David Swensen, Paul Tudor Jones y T. Boone Pickens, entre otros. Las respuestas se parecían muchísimo entre sí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro salió en 2014 y tiene más de seiscientas páginas. Robbins no es economista ni gestor: es conferenciante de motivación, y eso explica a la vez su mejor virtud —consiguió que le abrieran la puerta gente que no da entrevistas— y su peor defecto, que es el volumen. Lo que dijeron aquellos cincuenta cabe en un capítulo, y está repartido en siete partes con mucho relleno alrededor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resumen de lo que contestaron es aburrido y sirve: guarda un porcentaje fijo de lo que ganes, automatízalo, mira lo que pagas en comisiones porque es lo único que controlas, reparte el dinero entre cosas que no suban y bajen a la vez, y no toques la cartera cuando te dé miedo. Ninguno de ellos recomendó adivinar el mercado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: la única decisión que de verdad depende de ti, quién cobra de quién cuando alguien te aconseja, la cartera que le dio Ray Dalio para el libro, cómo calcular la cifra que necesitas, qué hay dentro de las rentas vitalicias que el libro recomienda, y los conflictos de interés del propio autor, que son parte de lo que hay que saber para leerlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando cincuenta personas que ganan dinero de maneras opuestas dan el mismo consejo, la coincidencia vale más que cualquiera de sus argumentos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La única variable que controlas del todo es el porcentaje que apartas",
+      },
+      {
+        b: "texto",
+        texto:
+          "No controlas lo que hará la bolsa, ni la inflación, ni si tu sector aguanta diez años. Controlas dos cosas: cuánto de lo que entra no te gastas, y cuánto pagas por invertirlo. Robbins llama a la primera la decisión financiera más importante de tu vida, y el nombre es exagerado pero la jerarquía es correcta: sin un porcentaje apartado no hay cartera que optimizar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte útil de este capítulo no es suya, y la cita bien. En 2004 los economistas Richard Thaler y Shlomo Benartzi publicaron un programa llamado «Ahorra Más Mañana». La idea es que apartar dinero hoy duele y comprometerse a apartarlo en el futuro no, así que se pide a la gente que se comprometa a subir su porcentaje de ahorro cada vez que le suban el sueldo. La subida se nota menos porque el dinero nunca llegó a estar en su cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los números de aquel primer experimento son los que hacen que valga la pena contarlo. Los participantes empezaron apartando un tres coma cinco por ciento de su sueldo y, después de cuatro subidas salariales, estaban apartando un trece coma seis. Casi cuadruplicaron su tasa de ahorro sin haber tenido nunca la sensación de perder poder adquisitivo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aplícalo tal cual: elige un porcentaje que puedas sostener hoy, ordena la transferencia para el día siguiente al cobro y súbelo un punto cada vez que te suban el sueldo. Lo importante es el orden de las operaciones. Si apartas lo que te sobra a final de mes, no sobra nunca; si lo apartas el primer día, el mes se ajusta solo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El ahorro que sale el día que cobras se sostiene; el que depende de lo que sobre a final de mes no existe.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Antes de aceptar un consejo financiero hay que saber quién le paga a quien lo da",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la parte más útil del libro y la que peor sienta en el sector. Robbins insiste en distinguir dos figuras que el cliente confunde siempre. Un asesor con deber fiduciario está obligado por ley a poner tu interés por delante del suyo y cobra de ti. Un comercial de productos financieros solo está obligado a recomendarte algo «adecuado» a tu perfil, y cobra de quien fabrica el producto que te coloca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia no es teórica: entre dos fondos que hacen exactamente lo mismo, uno con comisión alta y otro con comisión baja, los dos son adecuados, y solo uno paga una retrocesión a quien te lo vende. En España la pregunta que hay que hacer en la oficina del banco es literalmente esa: si el asesor cobra por asesorar o cobra de la gestora del producto. La respuesta cambia todo lo que venga después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo aviso es sobre las capas. Un producto de inversión puede llevar comisión de gestión, de depositaría, de suscripción, de éxito y los costes de rotación de la cartera, y solo la primera se anuncia en grande. Robbins dedica páginas a desmontar la idea de que la comisión que ves es la comisión que pagas, y en eso coincide con lo que llevan décadas diciendo Bogle y cualquier estudio serio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercero es un mito muy repetido: que en la jubilación pagarás menos impuestos porque tendrás menos ingresos. Puede ser falso, y conviene comprobarlo con tu caso: si has acumulado bien, tu ingreso en la jubilación puede parecerse al de ahora, y los planes con ventaja fiscal a la entrada tributan a la salida. La ventaja de esos productos es real y no es la que se cuenta en el anuncio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta que ordena una conversación financiera es una sola: ¿esta persona cobra de mí o cobra de lo que me vende?",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La cartera de Ray Dalio reparte el dinero entre cuatro climas, no entre cuatro productos",
+      },
+      {
+        b: "texto",
+        texto:
+          "El contenido más citado del libro es una cartera que Ray Dalio, fundador del mayor fondo de cobertura del mundo, le dio a Robbins para publicarla: una versión simplificada de la que usa su firma. La llaman la cartera de todas las estaciones y su reparto es este: treinta por ciento en acciones, cuarenta en bonos del Estado a largo plazo, quince en bonos a plazo medio, siete y medio en oro y siete y medio en materias primas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante no son los porcentajes sino el razonamiento, porque es lo que se puede aplicar aunque cambien las cifras. Dalio sostiene que la economía solo puede hacer cuatro cosas respecto a lo que se esperaba: crecer más, crecer menos, tener más inflación o tener menos. Cada uno de esos cuatro climas beneficia a un tipo de activo distinto. Si tienes de los cuatro, siempre habrá una parte de tu cartera funcionando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fíjate en lo que eso implica y en qué se separa de la receta habitual. Una cartera normal de acciones y bonos está apostando, sin decirlo, a que habrá crecimiento y poca inflación, que es lo que ha pasado casi siempre desde 1982. Repartir entre climas es aceptar ganar menos en el escenario bueno a cambio de no hundirte en el malo. Es una elección de estabilidad, no de rentabilidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robbins encargó a un analista que probara esa cartera con datos de 1984 a 2013 y publicó los resultados: una media cercana al nueve coma siete por ciento anual, ganancias en veintiséis de los treinta años y una peor caída del tres coma nueve por ciento, en 2008. Son cifras espectaculares, están bien calculadas y el periodo elegido es exactamente el problema. Eso va en la conclusión.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Repartir entre climas económicos no busca ganar más: busca que ningún año te obligue a vender en el peor momento.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi nadie ha calculado nunca cuánto dinero le hace falta, y suele ser menos de lo que teme",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robbins pide algo que suena trivial y que casi nadie ha hecho: escribir la cifra. No «ser rico», sino el número exacto de euros al año que necesitas, y a partir de él el patrimonio que lo produce. Y lo parte en escalones, que es la idea buena del capítulo, porque el primero está mucho más cerca de lo que la gente cree.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer escalón lo llama seguridad financiera y consiste en cubrir para siempre solo cinco gastos: la vivienda, la comida, los suministros, el transporte y los seguros. Suma esas cinco líneas de tu mes, multiplícalas por doce y tendrás una cifra bastante menor que tu gasto actual. El último escalón, la independencia, es mantener tu nivel de vida entero sin trabajar. Entre los dos hay una distancia enorme, y el primero se alcanza años antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para convertir un gasto anual en patrimonio se usa una regla que el libro maneja y que conviene saber de dónde viene. En octubre de 1994, el planificador financiero William Bengen publicó un estudio con datos históricos y concluyó que retirar cada año un cuatro por ciento del capital inicial, ajustado a la inflación, había sobrevivido a todos los periodos de treinta años que había podido examinar. De ahí sale multiplicar tu gasto anual por veinticinco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Toma esa regla como orden de magnitud y no como garantía, porque tiene letra pequeña: está calculada sobre el mercado estadounidense del siglo XX, supone treinta años y no cuarenta, y su margen se estrecha mucho si los primeros años de retirada coinciden con una caída. Sirve para saber si tu objetivo son doscientos mil euros o un millón, que es justo lo que casi nadie sabe.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cubrir solo la vivienda, la comida, la luz, el transporte y los seguros para siempre cuesta bastante menos que ser rico, y casi nadie ha hecho esa cuenta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El capítulo de las rentas vitalicias es el que hay que leer con más cuidado",
+      },
+      {
+        b: "texto",
+        texto:
+          "El quinto paso del libro propone asegurarse una renta garantizada de por vida, y para eso recomienda un producto concreto: la renta vitalicia con rendimiento ligado a un índice. Funciona así: entregas un capital a una aseguradora, ella te paga una cantidad todos los meses mientras vivas, y la parte que crece está ligada a la bolsa pero con un tope por arriba y un suelo por abajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento a favor es real y no hay que despacharlo: es el único instrumento que elimina el riesgo de vivir más de lo que dura tu dinero, que es un riesgo grande y del que casi nadie habla. Si te preocupa llegar a los noventa y cinco años con la cuenta vacía, una renta vitalicia resuelve exactamente eso y ningún fondo índice lo resuelve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los argumentos en contra también son reales y el libro los trata muy por encima. Son productos con comisiones altas y poco visibles; el tope por arriba puede dejarte fuera de buena parte de las subidas; suelen llevar penalizaciones fuertes si cancelas en los primeros años; y dependen de que la aseguradora siga solvente dentro de treinta. Además, quien te los vende suele cobrar una comisión de las mayores del sector.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla práctica que puedes sacar es de proporción. Una renta vitalicia tiene sentido para la parte del dinero que cubre tus gastos imprescindibles y no para el resto, y solo después de haber leído el contrato entero y de haber preguntado cuánto cobra quien te lo ofrece. Este es el capítulo del libro que más conviene contrastar fuera del libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una renta vitalicia compra tranquilidad y no rentabilidad, y quien te la vende gana más colocándola que colocándote un fondo índice.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El libro enseña a preguntar quién cobra, y hay que aplicárselo a él" },
+      {
+        b: "texto",
+        texto:
+          "Este es el punto que casi ningún resumen cuenta y sin el cual el libro no se lee bien. Cuando salió, en 2014, Robbins tenía relaciones comerciales con varias de las empresas que aparecen recomendadas en sus páginas: una firma de gestión de patrimonios en la que había entrado como socio y una plataforma de planes de empleo de bajo coste con la que estaba vinculado. Algunas de esas relaciones están declaradas en el texto y otras quedaron en letra pequeña.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las reseñas del sector fueron duras por ese motivo, no por el consejo. En Bloomberg y en el «Wall Street Journal» se publicaron críticas señalando que un libro dedicado a enseñar al lector a detectar conflictos de interés no puede tener conflictos de interés sin explicarlos en la misma página en la que recomienda. Se le encontraron además varios errores numéricos en los ejemplos, corregidos en ediciones posteriores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay que ser justo con la otra mitad. Robbins destinó los beneficios del libro a una organización de reparto de alimentos y ha financiado desde entonces decenas de millones de comidas, y eso también está documentado. Que alguien cobre de un lado no convierte en falso lo que dice: convierte en obligatorio comprobarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y esa es la lección que te llevas y que sirve para cualquier libro de dinero, incluido este. Aplica al autor la misma pregunta que él te enseña a hacerle a tu banco: cómo gana dinero con lo que me está diciendo. Aquí la respuesta es que las partes citadas —Thaler, Bengen, Dalio, Bogle— se sostienen solas y se pueden verificar fuera, y las partes que recomiendan un proveedor concreto son las que hay que contrastar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro que te enseña a preguntar quién cobra tiene que aguantar esa pregunta, y este solo la aguanta a medias.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro reúne en un sitio lo que dicen cincuenta de los mejores inversores del mundo, y lo que dicen es sobrio: aparta un porcentaje fijo y automatízalo, vigila las comisiones, reparte entre activos que no caigan a la vez, calcula tu cifra y no toques la cartera. Alrededor de ese núcleo hay seiscientas páginas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta son las entrevistas, que no están en ningún otro sitio, y la cartera de todas las estaciones, que Dalio nunca había publicado en esa forma. Y el capítulo de las comisiones, que es correcto y agresivo, y que a mucha gente le ha ahorrado más dinero que cualquier consejo de inversión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en tres sitios. La extensión, que multiplica por diez el contenido. Los conflictos de interés con proveedores recomendados, que obligan a leer ciertos capítulos con lupa. Y una incoherencia posterior: en 2024 Robbins publicó otro libro dedicado a promover capital riesgo e inversiones alternativas para particulares, que es casi lo contrario del mensaje de bajo coste y sencillez que defendía en este.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pero el marcador lo puso 2022, y es el mejor ejemplo de por qué una prueba con datos pasados no es una promesa. La cartera se probó con el periodo de 1984 a 2013, y en 1984 el bono estadounidense a diez años pagaba casi un catorce por ciento y en 2013 pagaba un tres. Treinta años de tipos bajando son treinta años de subidas para una cartera con más de la mitad en bonos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2022 los tipos subieron de golpe. Los bonos estadounidenses a largo plazo perdieron alrededor de un treinta por ciento, la bolsa cayó un dieciocho y el oro no se movió. La cartera de todas las estaciones perdió en torno a un diecisiete por ciento: más de cuatro veces la peor caída de los treinta años con los que se anunciaba. La cartera no falló; lo que falló fue presentar un periodo excepcional como si fuera el comportamiento normal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quédate con las entrevistas y con el capítulo de comisiones; con la cartera, quédate con el razonamiento de los cuatro climas y no con los números del folleto.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "dinero-domina-juego": DINERO_DOMINA_JUEGO,
   superpronosticadores: SUPERPRONOSTICADORES,
   "paseo-aleatorio": PASEO_ALEATORIO,
   "millonario-al-lado": MILLONARIO_AL_LADO,

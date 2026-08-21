@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "dinero-domina-juego":
+    "Robbins entrevistó durante cuatro años a unos cincuenta de los mayores inversores del mundo, de Ray Dalio a Warren Buffett, y les hizo la misma pregunta. Las respuestas coincidían tanto que caben en un capítulo.",
+
   superpronosticadores:
     "El espionaje estadounidense montó en 2011 un torneo de predicción y lo ganó un equipo de voluntarios sin acceso a documentos secretos. Tetlock lleva treinta años puntuando predicciones una a una y aquí cuenta qué separa a los que aciertan.",
 

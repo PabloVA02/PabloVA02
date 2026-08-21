@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "dinero-domina-juego": "Cómo alcanzar la libertad financiera en 7 pasos",
   superpronosticadores: "El arte y la ciencia de la predicción",
   "paseo-aleatorio": "La estrategia probada a lo largo del tiempo para invertir con éxito",
   "millonario-al-lado": "Los sorprendentes secretos de los ricos de Estados Unidos",

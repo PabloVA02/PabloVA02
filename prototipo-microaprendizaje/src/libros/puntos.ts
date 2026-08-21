@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "dinero-domina-juego": [
+    "por qué el porcentaje que apartas manda sobre el fondo que eliges",
+    "si quien te aconseja cobra de ti o de lo que te vende",
+    "la cartera de cuatro climas que Ray Dalio publicó aquí",
+    "calcular la cifra exacta que te hace falta para vivir",
+    "leer con lupa el capítulo de las rentas vitalicias",
+  ],
+
   superpronosticadores: [
     "cómo se puntúa una predicción desde 1950",
     "por qué el experto más famoso suele acertar menos",
