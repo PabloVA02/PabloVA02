@@ -66,7 +66,6 @@ const CARGADORES: Record<string, Cargador> = {
 
   /* Filosofía */
   "brevedad-vida": () => import("./filosofia").then((m) => m.BREVEDAD_VIDA),
-  sisifo: () => import("./filosofia").then((m) => m.SISIFO),
 
   /* Economía */
   factfulness: () => import("./economia").then((m) => m.FACTFULNESS),
@@ -75,7 +74,6 @@ const CARGADORES: Record<string, Cargador> = {
   educada: () => import("./psicologia").then((m) => m.EDUCADA),
 
   /* Capítulos largos */
-  extranjero: () => import("./literatura").then((m) => m.EXTRANJERO),
   "homo-deus": () => import("./historia").then((m) => m.HOMO_DEUS),
   "cartas-joven-poeta": () => import("./arte").then((m) => m.CARTAS_JOVEN_POETA),
   "historia-arte": () => import("./arte").then((m) => m.HISTORIA_ARTE),

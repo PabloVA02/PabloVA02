@@ -19877,7 +19877,470 @@ const CASI_TODO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El extranjero, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO: títulos cortos de imagen, afirmación en la primera
+   frase, caja del rayo en segunda persona.
+
+   La página 7 es la que casi ningún resumen tiene: el árabe al que mata
+   no tiene nombre en toda la novela, y eso hoy forma parte del libro.
+   -------------------------------------------------------------------------- */
+
+const EXTRANJERO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hoy ha muerto mamá" },
+      {
+        b: "texto",
+        texto:
+          "Pocas novelas se juegan tanto en su primera línea. «Hoy ha muerto mamá. O quizá ayer, no sé.» En dos frases está todo el libro: la noticia más grave que puede dar alguien, dicha sin ningún énfasis, y a continuación una duda administrativa sobre la fecha que a cualquier lector le suena a falta de corazón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palabra elegida importa, y su traducción ha dado discusiones de décadas. Camus no escribe madre, escribe *maman*, que es como llama a su madre un niño. La primera versión inglesa lo tradujo por «Mother» y desactivó el efecto entero: con «madre» el narrador suena distante desde el principio, y lo que Camus quiere es que suene tierno y a la vez incapaz de fingir la pena que se espera de él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro salió en junio de 1942, en París ocupado y con el visto bueno de la censura alemana, que lo dejó pasar por no encontrarle contenido político. Su autor tenía veintiocho años, era periodista, tuberculoso y prácticamente desconocido. Se convirtió en la novela francesa más leída del siglo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren cómo está hecha: qué decide el tiempo verbal en el que está escrita, por qué su protagonista no es un hombre frío, qué ocurre exactamente en la playa, por qué el juicio trata del entierro y no del disparo, qué pasa la única vez que grita y a quién no le pone nombre el libro en doscientas páginas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando te toque contar algo grave, lo primero que la gente va a juzgar no es lo que pasó: es cómo lo has dicho.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un tiempo verbal sin memoria" },
+      {
+        b: "texto",
+        texto:
+          "La decisión más importante de la novela no está en la trama, está en la gramática. Camus la escribió entera en pretérito perfecto compuesto, un tiempo que en francés se usa al hablar y casi nunca para narrar, porque no encadena: presenta cada hecho cerrado y separado del siguiente. Sartre lo describió al leerla como una sucesión de fotografías sin relación entre ellas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto es que desaparecen las causas. En una novela normal, el narrador dice que hizo algo porque sentía tal cosa, o que aquello venía de lo anterior; aquí solo hay hechos alineados. «He tomado el autobús a las dos. Hacía mucho calor. He comido en el restaurante de Celeste. Todos me compadecían.» El lector recibe una vida sin explicaciones y tiene que ponerlas él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso Meursault parece indiferente y no lo es. No dice lo que siente porque su manera de contar no admite ese tipo de frase, y donde falta la explicación cada lector coloca la suya, que suele ser fría. El libro tiende esa trampa desde la primera página y la cierra en el juicio, cuando otros hacen exactamente lo mismo con él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El estilo, además, es de una sequedad calculada: frases cortas, vocabulario mínimo, ni una metáfora en muchas páginas. Camus dijo que había buscado escribir «como un hombre que no tiene nada que ocultar y por eso no adorna nada».",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien cuenta lo que hizo sin decir por qué, tú le pones el motivo, y casi siempre le pones el peor.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El hombre que no miente" },
+      {
+        b: "texto",
+        texto:
+          "Meursault no es un psicópata ni un cínico, y Camus tuvo que explicarlo por escrito porque casi nadie lo entendió así. En un prólogo de 1955 escribió que su personaje se niega a mentir, y que mentir no es solo decir lo que no es: es sobre todo decir más de lo que se siente, que es lo que hace todo el mundo todos los días para simplificar la vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las escenas del principio están construidas para probarlo. Su jefe le ofrece un puesto en París y él contesta que le da igual, que una vida vale lo mismo que otra. María le pregunta si la quiere y responde que probablemente no, pero que se casa con ella si quiere. Un vecino le pregunta si le parece bien lo que ha hecho y dice que no tiene opinión. Ninguna de esas respuestas es cruel; todas son exactas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que la sociedad le reprocha no son sus actos, son sus omisiones de fórmula. No dijo la frase que se dice, no puso la cara que se pone, no lloró cuando tocaba. Camus lo resumió en una línea que vale por todo el libro: en nuestra sociedad, cualquier hombre que no llore en el entierro de su madre corre el riesgo de ser condenado a muerte.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todas las mentiras que dices no son para engañar a nadie: son para que la conversación no se complique, y las cuentas por cero.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuatro disparos de más" },
+      {
+        b: "texto",
+        texto:
+          "El crimen ocupa media página y está escrito para que el lector no pueda decidir qué fue. Meursault vuelve solo a una playa de Argel a mediodía, con un sol que la novela lleva describiendo desde el entierro como una agresión física. Se encuentra con el hombre al que su vecino Raymond ha ofendido. El otro saca un cuchillo, la luz rebota en la hoja, y Meursault dispara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hasta ahí cabría hablar de defensa o de aturdimiento. Lo que no cabe es lo que viene después: espera un momento y dispara cuatro veces más sobre un cuerpo que ya no se mueve. Él mismo lo describe como cuatro golpes breves en la puerta de la desgracia. Ese detalle es el que impide leer la escena como un accidente y el que Camus necesitaba para que el juicio tuviera sentido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una decisión narrativa más. Meursault no da ninguna razón, ni entonces ni después. Cuando el juez le pregunta por qué esperó entre el primer disparo y los otros cuatro, se queda callado. Lo único que llega a decir, en el juicio, es que fue por el sol, y la sala se ríe. Camus construyó ese silencio a propósito. En sus cuadernos anotó que la novela debía dejar al lector con una pregunta sin respuesta posible, porque el absurdo del que escribía en aquellos mismos meses consiste exactamente en eso: en pedirle al mundo una razón y recibir el silencio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay actos que no tienen ningún motivo detrás, y eso a un tribunal le resulta mucho más insoportable que un mal motivo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un juicio sobre un entierro" },
+      {
+        b: "texto",
+        texto:
+          "La segunda mitad de la novela es un proceso penal en el que casi no se habla del muerto. El fiscal construye su acusación con los testigos del asilo y del velatorio: que Meursault no quiso ver el cadáver de su madre, que fumó junto al féretro, que aceptó un café con leche, que no lloró, que no sabía la edad exacta de la difunta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después añade lo de los días siguientes: que fue a bañarse, que empezó una relación con una mujer, que fueron a ver una película cómica. Y remata con la frase que da nombre a todo el mecanismo: acusa a ese hombre de haber enterrado a su madre con corazón de criminal. El abogado defensor, desesperado, acaba hablando en primera persona por él, como si el acusado no estuviera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el argumento del libro y no el crimen. Un tribunal no puede juzgar hechos sueltos, necesita un relato con causas, así que fabrica uno: alguien que no llora a su madre es alguien capaz de matar. El relato es coherente, convence al jurado y es falso. Meursault escucha cómo cuentan su vida y no la reconoce, aunque todos los datos sean ciertos. Hay además un detalle jurídico que refuerza la escena: el fiscal pide la pena capital argumentando que el mismo tribunal juzgará al día siguiente un parricidio, y que quien no llora a su madre está moralmente emparentado con aquel otro acusado. Une los dos casos sin ninguna prueba y el jurado lo acepta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie te juzga por tus actos sueltos: te juzgan por la historia que se puede montar con ellos, y esa historia la escribe otro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La ternura indiferente del mundo" },
+      {
+        b: "texto",
+        texto:
+          "Meursault mantiene el mismo tono durante toda la novela salvo una vez, y esa excepción es el final. En la celda, esperando la ejecución, el capellán insiste en hablarle de Dios y en que debe de haber deseado otra vida. Meursault estalla, lo agarra por la sotana y le suelta lo único que dice con vehemencia en todo el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento de su explosión es que ninguna de las certezas del capellán vale un cabello de mujer; que él no está seguro de nada, pero está seguro de lo que ve y de lo que toca; y que si todos vamos a morir, entonces da igual cuándo y da igual cómo, y esa igualdad no es una desgracia sino un hecho. Nada de lo que el otro le ofrece cambia ese hecho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y después viene el párrafo por el que se recuerda la novela. Vaciado por el grito, con las estrellas encima, Meursault dice que se abre por primera vez a la tierna indiferencia del mundo, y que al sentir el mundo tan parecido a él, tan fraternal, comprende que había sido feliz y que lo seguía siendo. Solo le queda desear que el día de su ejecución haya muchos espectadores y lo reciban con gritos de odio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que al mundo le dé igual quién eres no es un castigo: es lo que te libera de estar esperando su permiso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El árabe sin nombre" },
+      {
+        b: "texto",
+        texto:
+          "Hay un personaje del que la novela no dice nada, y es el que muere. El hombre al que Meursault mata en la playa aparece siempre como «el árabe». No tiene nombre, no tiene familia, no habla ni una vez, no se sabe a qué se dedicaba. En un libro donde el portero del asilo, el perro del vecino y la camarera del restaurante tienen nombre propio, la víctima no lo tiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle no es menor en su contexto. La novela transcurre en la Argelia colonial francesa, donde los argelinos musulmanes eran nueve de cada diez habitantes y no tenían la ciudadanía plena. En el juicio del libro, un tribunal francés condena a muerte a un francés y nadie pregunta quién era el muerto, cosa que en la realidad de entonces habría sido bastante improbable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Setenta años después, el escritor argelino Kamel Daoud escribió la respuesta y la escribió en forma de novela: en «Meursault, caso revisado», de 2013, el hermano del muerto cuenta la historia desde el otro lado y le pone por fin un nombre, Musa. No es un panfleto contra Camus; es literatura discutiendo con literatura, y desde que existe resulta imposible leer la playa igual. Camus, que era argelino de nacimiento y de familia pobre, escribió sobre la miseria de los pueblos árabes en sus reportajes de 1939 con una dureza que casi nadie tuvo entonces. En la novela, en cambio, esa gente no aparece.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro también se define por a quién no le pone nombre, y eso puede tardar setenta años en verse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El extranjero cuenta cómo un empleado de oficina que se niega a decir lo que no siente acaba condenado a muerte, no por haber matado a un hombre, sino por no haber llorado en un entierro. Lo demuestra con un tiempo verbal que elimina las causas, con un juicio que se ocupa del velatorio y con un final en el que el condenado descubre que un mundo indiferente es lo más parecido a un hermano que va a tener.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una forma. Doscientas páginas sin una sola explicación psicológica que consiguen que el lector se pase el libro entero explicando, y que al final se dé cuenta de que ha estado haciendo lo mismo que el fiscal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que la sociedad castiga con más dureza no es lo que haces, es negarte a interpretar el papel que le corresponde a lo que haces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Los personajes que rodean a Meursault son funciones más que personas: María existe para desear y preguntar, Raymond para poner en marcha la trama, y ninguno tiene interior. Y el punto ciego colonial es enorme, aunque en 1942 nadie lo señalara: la Argelia del libro es un decorado de luz y calor donde los argelinos son parte del paisaje.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después. Camus recibió el Nobel en 1957, con cuarenta y cuatro años, y murió en 1960 en un accidente de coche. Sobre Argelia mantuvo hasta el final una posición que le costó el aislamiento: defendía una convivencia entre franceses y árabes y se negó a apoyar la independencia, y en Estocolmo, ante un estudiante argelino, contestó que entre la justicia y su madre elegía a su madre. La frase se le ha reprochado desde entonces, y su versión completa —que creía en la justicia pero defendería a su madre antes que a una idea— tampoco arregla gran cosa. Este libro se lee hoy con esa discusión encima, y se lee mejor.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   El mito de Sísifo, en ocho páginas.
+
+   Breve.
+
+   Ensayo: titular que afirma, tercera persona. Nada de «tú puedes», que
+   aquí sería lo peor: el libro habla del suicidio en su primera línea.
+
+   Dato que casi ningún resumen tiene: el capítulo sobre Kafka se cayó de
+   la primera edición francesa porque Kafka era judío y el libro se
+   publicaba bajo la ocupación alemana.
+   -------------------------------------------------------------------------- */
+
+const SISIFO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El único problema filosófico serio es si merece la pena vivir" },
+      {
+        b: "texto",
+        texto:
+          "El ensayo empieza con la frase más directa que se ha escrito en filosofía francesa: no hay más que un problema filosófico verdaderamente serio, el suicidio. Juzgar si la vida merece o no la pena de ser vivida, sigue, es responder a la pregunta fundamental. Lo demás —si el mundo tiene tres dimensiones o si el espíritu tiene nueve categorías— viene después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Camus tenía veintiocho años, estaba enfermo de tuberculosis y trabajaba de periodista. Publicó este libro en 1942, el mismo año que El extranjero, y los dos forman con la obra de teatro Calígula lo que él llamó el ciclo del absurdo: una novela, un ensayo y una tragedia sobre el mismo asunto, escritos a la vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su pregunta no es teórica y él lo subraya. Hay gente que se mata por una idea y hay gente que muere por ideas en las que no cree; lo que quiere saber es si, aceptando que la vida no tiene un sentido dado, sigue habiendo motivos para seguir. Y avisa de que va a responder que sí, sin recurrir a ninguna esperanza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren su argumento: dónde está exactamente lo absurdo, por qué acusa a media filosofía de escaparse por la puerta trasera, qué tres consecuencias saca, qué cuatro maneras de vivir propone como ejemplo, por qué castigaron a Sísifo y cuál es el momento del mito que le interesa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta de si la vida merece la pena no es literatura: es la única que, contestada de una manera concreta, mata a quien la contesta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo absurdo no está en el mundo ni en el hombre: está en el choque" },
+      {
+        b: "texto",
+        texto:
+          "La definición que da Camus es precisa y casi nadie la cita entera. Lo absurdo no es una propiedad del universo, que es como es y no debe nada a nadie, ni una enfermedad del ser humano, que pregunta porque está hecho para preguntar. Lo absurdo nace de la confrontación entre los dos: entre el llamamiento humano y el silencio irrazonable del mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De esa definición se sigue algo importante: si se quita cualquiera de los dos términos, lo absurdo desaparece. Un mundo con sentido lo elimina, y un hombre que dejara de reclamarlo también. Por eso Camus dirá luego que suicidarse es hacer trampa: no resuelve el absurdo, lo suprime quitando una de las dos partes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La imagen con la que lo explica es teatral. Un hombre vive dentro de un decorado que reconoce —la casa, el trabajo, los martes— hasta que un día el decorado se cae y aparece el escenario desnudo. Lo llama el divorcio entre el actor y su decorado. No pasa nada nuevo; solo deja de estar el disfraz que impedía verlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y Camus insiste en un punto que sus lectores más entusiastas se saltan: esa experiencia no es una conclusión intelectual, es una cosa que le ocurre a alguien un martes por la mañana, en una esquina, sin previo aviso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El absurdo no está en el universo ni en la persona: está en la distancia entre lo que uno pide y lo que hay, y desaparece si se quita cualquiera de los dos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi toda la filosofía resuelve el absurdo saltándoselo" },
+      {
+        b: "texto",
+        texto:
+          "La parte más polémica del ensayo es su acusación a los filósofos que llegaron antes que él al mismo sitio. Kierkegaard, Chestov, Jaspers y Husserl describieron el absurdo con exactitud, dice Camus, y después dieron un salto: unos hacia Dios, otros hacia lo eterno, otros hacia una esencia. A ese movimiento lo llama suicidio filosófico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su reproche no es que crean, sino que usen el propio absurdo como trampolín. Si lo que se ha comprobado es que el mundo no responde, convertir ese silencio en la prueba de que hay otra cosa detrás es exactamente lo contrario de lo que se ha comprobado. Camus lo llama negar con un movimiento del cuerpo lo que se acaba de afirmar con la cabeza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La alternativa que propone es incómoda y sencilla de enunciar: mantener el absurdo sin resolverlo. Ni suicidio físico, que suprime al hombre, ni suicidio filosófico, que suprime la lucidez. Vivir con la contradicción a la vista y sin buscarle salida, porque el momento en que se le encuentra una es el momento en que se deja de mirar. Hay además un dato que Camus maneja con cuidado y que refuerza su tesis: las estadísticas de suicidio no acompañan a las crisis de fe ni a las malas noticias filosóficas, sino a cosas domésticas y pequeñas. Nunca se ha visto morir a nadie, escribe, por el argumento ontológico.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Usar el silencio del mundo como prueba de que hay algo detrás es negar con el cuerpo lo que se acaba de comprobar con la cabeza.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Del absurdo salen tres consecuencias, y ninguna es la resignación" },
+      {
+        b: "texto",
+        texto:
+          "Camus extrae del absurdo tres consecuencias concretas y las enumera. La primera es la rebelión, que define como el enfrentamiento constante del hombre con su propia oscuridad: no una revuelta contra algo, sino la decisión de no aceptar la reconciliación. Un condenado a muerte que no se resigna, dice, vive más que uno que ha hecho las paces con su sentencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es la libertad, y aquí el giro es fino. Si no hay un sentido dado, tampoco hay un papel asignado ni una vida que uno estuviera obligado a cumplir. Desaparece la libertad metafísica, la del alma eterna que elige, y aparece otra mucho más práctica: la de quien ya no tiene que responder ante ningún plan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es la pasión, y es la más discutible. Si no hay ninguna escala que diga qué experiencias valen más, lo que queda es la cantidad: vivir lo máximo posible, acumular horas conscientes, no elegir la mejor vida sino la más llena. Camus lo formula sin adornos: lo que cuenta no es vivir mejor, sino vivir más. Y hay un límite que el libro pone expresamente, aunque casi nunca se cite. Del absurdo, dice Camus, no se deduce que todo esté permitido: se deduce que nada está prohibido por una autoridad exterior, que es distinto, y de esa distinción saldría diez años después El hombre rebelde.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Sin un plan que cumplir no queda ningún papel asignado, y esa es la única libertad que este libro reconoce.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuatro maneras de vivir sin ninguna coartada" },
+      {
+        b: "texto",
+        texto:
+          "Para no quedarse en teoría, Camus pone cuatro figuras de lo que llama el hombre absurdo, y las cuatro tienen en común que no esperan nada después. Don Juan es la primera y también la que peor ha envejecido: le interesa porque no busca el amor eterno, sino la repetición sabiendo que se acaba; ama muchas veces con la misma entrega porque no cree en una sola vez definitiva.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es el actor, y es la mejor argumentada. Vive decenas de vidas en unas pocas horas, se le olvidan al bajar el telón, y su gloria dura exactamente lo que dura la memoria del público. Es la profesión donde la caducidad no se disimula, y por eso Camus la usa como modelo de una existencia entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es el conquistador, el hombre de acción que elige lo que se puede hacer ahora en vez de lo que valdría siempre. Y la cuarta es el creador, que resume las anteriores: hace obras sabiendo que no lo van a salvar de nada. Camus añade que una obra de arte absurda no explica ni consuela, solo describe; en eso, dice, se parece a la vida. Y en las cuatro rechaza la misma coartada: la de hacer algo por lo que vendrá después. Un actor que trabajara para la posteridad, escribe, estaría haciendo mal su oficio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las cuatro figuras tienen la misma virtud: hacen algo entero sabiendo perfectamente que no va a durar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "A Sísifo lo castigaron por haber querido demasiado la vida" },
+      {
+        b: "texto",
+        texto:
+          "El mito que da nombre al libro ocupa solo las últimas páginas y casi nadie recuerda por qué lo condenaron. Sísifo, rey de Corinto, era el más astuto de los mortales. Encadenó a la Muerte cuando vino a buscarlo, y durante un tiempo nadie murió en el mundo hasta que los dioses la liberaron. Después, antes de morir, le ordenó a su mujer que dejara su cuerpo sin sepultura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ya en el otro mundo, se quejó ante Plutón de la impiedad de su esposa y pidió permiso para volver un momento a castigarla. Se lo dieron. Y una vez arriba, al ver otra vez el mar, la tierra y el sol caliente sobre las piedras, se negó a regresar. Hicieron falta un aviso, una orden y finalmente Mercurio en persona para llevárselo a rastras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa es su falta, y Camus la subraya porque es la clave del ensayo: el desprecio de los dioses, el odio a la muerte y la pasión por la vida. Su castigo fue empujar eternamente una roca hasta lo alto de una montaña, desde donde vuelve a caer por su propio peso. Los dioses habían calculado que no hay pena más terrible que un trabajo inútil y sin esperanza.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El delito por el que se le condenó a la tarea más inútil del mundo fue haber querido quedarse en él.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo interesante de Sísifo no es la subida: es la bajada" },
+      {
+        b: "texto",
+        texto:
+          "Aquí está el único movimiento verdaderamente original del libro. A Camus no le interesa el esfuerzo cuesta arriba, que es lo que todo el mundo recuerda del mito, sino la pausa: el rato en que Sísifo baja otra vez hacia la llanura a buscar la piedra, con las manos vacías y sin nada que hacer salvo pensar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el momento en que sabe. Si bajara con la esperanza de que esta vez la roca se quede arriba, sería un desgraciado, porque la esperanza volvería a romperse cada tarde. Al bajar sabiéndolo, la condena deja de tener poder sobre él: no se le puede castigar con la pérdida de algo que ya no espera. Camus lo dice así: no hay destino que no se supere con el desprecio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la última línea del ensayo, que es de las más citadas del siglo y suele leerse como un lema optimista cuando es otra cosa. La lucha por llegar a las cimas, escribe, basta para llenar el corazón de un hombre; hay que imaginarse a Sísifo dichoso. No dice que sea feliz: dice que hay que imaginarlo así, que es un acto del lector y no un dato del mito.",
+      },
+      {
+        b: "idea",
+        texto:
+          "A quien ya no espera nada de una situación, esa situación deja de poder castigarlo, y eso no es resignación sino la única ventaja disponible.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El mito de Sísifo sostiene que la vida no tiene un sentido dado, que enterarse de eso no es una razón para dejarla, y que las dos salidas habituales —matarse o creer— consisten en quitar uno de los dos términos del problema en vez de sostenerlo. Lo que propone en su lugar son tres cosas medibles: no reconciliarse, aprovechar que nadie ha escrito el papel de nadie y llenar de horas conscientes el tiempo que haya.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, más que un sistema, es una manera de plantear la pregunta sin trampa y una imagen que no se olvida: un hombre bajando una cuesta a buscar su piedra, sabiendo exactamente lo que le espera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay que imaginarse a Sísifo dichoso: la frase no afirma que lo sea, encarga al lector que lo imagine.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es un libro de un hombre de veintiocho años y se le nota: el capítulo de Don Juan es machista de arriba abajo y hoy se lee con incomodidad, y el conquistador huele a época. Filosóficamente es más literario que riguroso —el propio Camus rechazaba que lo llamaran filósofo y prefería moralista—, y su paso final es discutible: pasar de «la vida no tiene sentido» a «hay que imaginar a Sísifo dichoso» se parece bastante al salto que él acaba de reprocharles a Kierkegaard y a Jaspers, solo que dado hacia este lado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle de la primera edición que dice mucho de cuándo se escribió. El ensayo termina con un apéndice sobre Kafka, y ese apéndice no apareció en la edición francesa de 1942: se retiró porque Kafka era judío y el libro se publicaba en un país ocupado por los alemanes. Camus lo sustituyó por un texto sobre un personaje de Dostoyevski y lo restituyó al acabar la guerra. Después vino su ruptura pública con Sartre en 1952, el Nobel en 1957 y su muerte en un accidente de coche en 1960, con un billete de tren sin usar en el bolsillo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  sisifo: SISIFO,
+  extranjero: EXTRANJERO,
   "casi-todo": CASI_TODO,
   "mundo-sofia": MUNDO_SOFIA,
   "cuerpo-cuenta": CUERPO_CUENTA,

@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  sisifo:
+    "El ensayo empieza diciendo que solo hay un problema filosófico serio, el suicidio. Camus lo escribió con veintiocho años, en la Francia ocupada, para averiguar si se puede seguir viviendo sin apoyarse en ninguna esperanza.",
+
+  extranjero:
+    "Un empleado de oficina de Argel no llora en el entierro de su madre, y meses después un tribunal lo condena a muerte hablando sobre todo de aquel velatorio. Camus la escribió con veintiocho años y en un tiempo verbal que borra las causas.",
+
   "casi-todo":
     "Bryson escribía libros de viajes y se dio cuenta en un avión de que no sabía cómo se averigua la edad del océano. Tardó tres años preguntando a científicos, y el resultado cuenta quién midió cada cosa y con qué medios.",
 

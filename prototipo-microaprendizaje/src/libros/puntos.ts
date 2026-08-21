@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  sisifo: [
+    "dónde está exactamente lo absurdo, según su definición",
+    "a qué llama Camus el suicidio filosófico",
+    "qué tres consecuencias saca del absurdo",
+    "por qué castigaron a Sísifo en realidad",
+    "qué momento del mito le interesa y por qué",
+  ],
+
+  extranjero: [
+    "qué decide el tiempo verbal en el que está escrita",
+    "por qué su protagonista no es un hombre frío",
+    "qué detalle del disparo impide leerlo como un accidente",
+    "por qué el juicio trata del entierro y no del crimen",
+    "a quién no le pone nombre la novela en doscientas páginas",
+  ],
+
   "casi-todo": [
     "quién pesó la Tierra y con qué aparato",
     "cómo la edad del planeta acabó quitando el plomo de la gasolina",
