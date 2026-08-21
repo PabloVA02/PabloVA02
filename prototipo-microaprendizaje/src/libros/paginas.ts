@@ -17534,7 +17534,7 @@ const PEDRO_PARAMO: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Por eso la primera lectura desconcierta y la segunda es otra cosa. Hay dos tiempos trenzados: el presente de Juan, que dura una noche y ya está muerto, y el pasado del pueblo, que abarca sesenta años y llega en pedazos por boca de los que lo vivieron. Al terminar, el lector tiene el rompecabezas completo, y ninguna pieza se lo ha dado nadie ordenada.",
+          "Por eso la primera lectura desconcierta y la segunda es otra cosa. Hay dos tiempos trenzados: el presente de Juan, que dura una noche y ya está muerto, y el pasado del pueblo, que abarca sesenta años y llega en pedazos por boca de los que lo vivieron. Al terminar, el lector tiene el rompecabezas completo, y ninguna pieza se lo ha dado nadie ordenada. Y el título tampoco es inocente: un páramo es una tierra yerma donde no crece nada, y Pedro viene de piedra. El nombre del protagonista es la descripción del pueblo que dejó.",
       },
       {
         b: "idea",
@@ -17584,7 +17584,7 @@ const PEDRO_PARAMO: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Él se sienta a la puerta de su cuarto noche tras noche a oírla delirar por un hombre que no es él. Susana muere sin haberle dicho una palabra que valga. Y el pueblo, que oye doblar las campanas, entiende que hay fiesta: llegan de todas partes, ponen puestos, hay música y feria durante tres días encima de su duelo.",
+          "Él se sienta a la puerta de su cuarto noche tras noche a oírla delirar por un hombre que no es él. Susana muere sin haberle dicho una palabra que valga. Y el pueblo, que oye doblar las campanas, entiende que hay fiesta: llegan de todas partes, ponen puestos, hay música y feria durante tres días encima de su duelo. El propio Rulfo dijo que Susana San Juan era el personaje que le importaba, y que el libro entero se sostenía sobre lo que ella no dice.",
       },
       {
         b: "idea",
@@ -17609,7 +17609,7 @@ const PEDRO_PARAMO: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Antes ha pasado también la revolución. Llegan unos hombres armados a la Media Luna anunciando que se han levantado, y Pedro Páramo los recibe, les pregunta contra quién, les da dinero, hombres y consejo, y los manda a pelear a otra parte con uno de los suyos al mando. Es una de las escenas más lúcidas del libro: la revolución pasa por encima del pueblo y el dueño sigue siendo el dueño.",
+          "Antes ha pasado también la revolución. Llegan unos hombres armados a la Media Luna anunciando que se han levantado, y Pedro Páramo los recibe, les pregunta contra quién, les da dinero, hombres y consejo, y los manda a pelear a otra parte con uno de los suyos al mando. Es una de las escenas más lúcidas del libro: la revolución pasa por encima del pueblo y el dueño sigue siendo el dueño. Al cura del pueblo, don Renteria, lo deja en una situación imposible: vive de las limosnas del cacique y tiene que negar la absolución a los pobres mientras se la concede a los hijos del hombre que los arruina. Cuando le confiesan que ya no creen en nada, no sabe qué contestar.",
       },
       {
         b: "idea",
@@ -17634,7 +17634,7 @@ const PEDRO_PARAMO: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Conviene notar quién lo mata: su propio hijo, uno de los muchos que no reconoció, el mismo que llevó a Juan Preciado hasta Comala en la primera página. El círculo se cierra sin que nadie lo anuncie, como todo en este libro, y hay que darse cuenta solo.",
+          "Conviene notar quién lo mata: su propio hijo, uno de los muchos que no reconoció, el mismo que llevó a Juan Preciado hasta Comala en la primera página. El círculo se cierra sin que nadie lo anuncie, como todo en este libro, y hay que darse cuenta solo. Antes de eso ha habido una frase que lo explica: dice que aquella noche volvieron a empezar las tinieblas, y que él había dejado de contar los años hacía mucho tiempo.",
       },
       {
         b: "idea",
