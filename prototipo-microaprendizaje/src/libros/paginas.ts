@@ -60845,7 +60845,271 @@ const MAMBA_MENTALITY: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Remando como un solo hombre, en ocho páginas.
+
+   Breve. No ficción narrativa contada como una novela → títulos cortos de
+   imagen, la afirmación en la primera frase y la caja del rayo en segunda
+   persona (apartado 3 bis).
+
+   Riesgo principal: es una historia de superación y el resumen se vuelve
+   azucarado solo. El antídoto es contar los hechos duros —el abandono, la
+   presa, el dinero del billete— sin adjetivos y dejar que hagan el trabajo.
+
+   La conclusión tiene que decir lo que el libro elude: aquellos Juegos eran
+   los de Hitler y Estados Unidos discutió el boicot y decidió ir.
+   -------------------------------------------------------------------------- */
+
+const REMANDO_UN_HOMBRE: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El chico al que dejaron solo" },
+      {
+        b: "texto",
+        texto:
+          "Con quince años, Joe Rantz vio cómo su padre, su madrastra y sus hermanastros cargaban el coche y se marchaban del pueblo sin él. No fue un malentendido ni un accidente: la mujer había dicho que no iba a criarlo y el padre eligió. Le dejaron la casa a medio construir y ninguna otra cosa, en el estado de Washington, en plena Gran Depresión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobrevivió cuatro años solo. Pescaba salmón furtivamente, recogía fruta por temporadas, cortaba leña y tocaba el banjo en fiestas de pueblo por unas monedas. Terminó el instituto en ese tiempo, y lo terminó bien, porque un profesor y una novia decidieron que aquel chico no se iba a quedar por el camino.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Daniel James Brown empezó a escribir este libro cuando la hija de un vecino le invitó a conocer a su padre, que se estaba muriendo. Joe Rantz tenía noventa y tres años, hablaba con normalidad de la miseria y del abandono, y solo se le quebró la voz cuando mencionó el barco. No hablaba del barco: hablaba de los ocho hombres que iban dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa escena decide el libro entero. La historia que cuenta es la de un equipo universitario de remo que ganó el oro olímpico en Berlín en 1936, delante de Hitler, pero el asunto real es otro: cómo alguien a quien le enseñaron muy pronto que no podía contar con nadie aprende a depender de ocho personas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si te enseñaron pronto que no puedes fiarte de nadie, confiar te va a costar más trabajo que a cualquiera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ciento setenta y cinco chicos, nueve asientos" },
+      {
+        b: "texto",
+        texto:
+          "En el otoño de 1933, Joe Rantz se presentó a las pruebas del equipo de remo de la Universidad de Washington porque entrar en el equipo daba derecho a un trabajo en el campus, y sin ese trabajo no podía pagarse los estudios. No iba buscando gloria deportiva: iba buscando un empleo y una habitación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se presentaron unos ciento setenta y cinco. Un bote de competición lleva ocho remeros y un timonel, así que la mayoría sobraba desde el primer día, y los entrenadores lo dejaron claro sin ninguna delicadeza. La criba duró meses de entrenamientos a las seis de la mañana en un lago helado y con las manos en carne viva.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El contexto es el de un país arruinado. En Seattle había un poblado de chabolas junto al puerto, las colas del pan daban la vuelta a la manzana y en el centro del continente el viento se llevaba la tierra de las granjas. Aquellos chicos eran hijos de leñadores, de pescadores y de mineros, y el remo universitario era en aquel momento un deporte de las universidades ricas de la costa Este.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro insiste en esa asimetría porque es la que da sentido a todo. Los rivales de la costa Este eran hijos de banqueros que remaban desde niños en clubes privados. Ellos aprendieron a los diecinueve años, entrenando antes de ir a trabajar, y en tres temporadas les ganaron a todos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Empezar tarde y con menos medios se compensa con una sola cosa: no poder permitirte fallar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El hombre que hacía los barcos" },
+      {
+        b: "texto",
+        texto:
+          "En el cobertizo del equipo trabajaba un inglés callado llamado George Pocock, que construía a mano las embarcaciones de competición de casi todas las universidades del país. Elegía él mismo los cedros rojos, esperaba a que la madera se curara durante años y montaba cascos de una precisión que ningún taller mecánico igualaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pocock es la voz filosófica del libro y sus frases abren cada capítulo. Sostenía que una buena embarcación tiene que hacerse con madera que haya crecido despacio y en terreno difícil, porque la que crece rápida y protegida se parte antes, y que con los remeros pasa exactamente lo mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su papel en la historia no fue técnico sino personal. Fue él quien habló con Joe Rantz cuando el chico estaba a punto de dejarlo, y quien le dijo la única cosa que necesitaba oír: que remaba peor de lo que podía porque estaba intentando hacerlo todo él solo, y que en un bote eso no se puede.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El personaje funciona porque no da lecciones desde arriba. Pocock había cruzado el Atlántico sin dinero, había construido barcos en un cobertizo sobre pilotes y llevaba treinta años observando a chicos de veinte, así que cuando hablaba de madera y de confianza estaba hablando de lo que conocía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que crece deprisa y sin dificultades se rompe antes: también sirve para las personas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El instante en que el bote se levanta" },
+      {
+        b: "texto",
+        texto:
+          "En el remo existe una palabra para lo que ocurre cuando ocho personas hacen exactamente el mismo movimiento en el mismo instante. El bote deja de dar tirones, se estabiliza y avanza como si pesara la mitad, y los que van dentro tienen la sensación física de que alguien está empujando por debajo. Es el asunto técnico del libro y también su tesis.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es que no se consigue juntando a los ocho mejores. Los entrenadores probaron durante dos temporadas todas las combinaciones posibles y descubrieron que ciertos remeros excelentes hacían peor a cualquier bote en el que se les pusiera, y que otros más discretos mejoraban a los ocho que tenían al lado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación es de física y de carácter a partes iguales. Un remero que tira más fuerte que sus compañeros desequilibra el casco y obliga a los demás a corregir; uno que llega una décima antes rompe el ritmo de todos. El único gesto útil es el ajustado al grupo, y para eso hay que renunciar a demostrar lo que uno vale.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El equipo que acabó ganando en Berlín no era el de los ocho remeros más potentes de la universidad. Era la única combinación en la que aquello ocurría todos los días, y los entrenadores tardaron dos años en dar con ella probando, deshaciendo y volviendo a probar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un equipo no es la suma de los mejores: es la combinación en la que cada uno estorba menos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El verano en la presa" },
+      {
+        b: "texto",
+        texto:
+          "Para pagarse el curso siguiente, Joe Rantz pasó un verano trabajando en la construcción de la presa de Grand Coulee, en el río Columbia, una de las obras públicas más grandes que se hacían entonces en el mundo. El trabajo consistía en manejar un martillo neumático colgado de una pared de roca, doce horas al día, entre hombres que no tenían nada que perder.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica bastantes páginas a ese verano y no son un paréntesis. Allí, en un campamento de barracones, Joe se hizo un cuerpo de adulto y aprendió a trabajar dentro de una cuadrilla donde el que no seguía el ritmo ponía en peligro a los demás. Volvió a la universidad convertido en otro remero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También aprendió lo que era su país en aquel momento. Muchos de los que trabajaban en la presa eran granjeros arruinados por el polvo del centro del continente, hombres con estudios que hacían turnos de peón, y el sueldo se gastaba en el propio campamento. Nadie contaba aquello como una aventura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Brown usa el episodio para colocar al lector donde debe. Aquellos nueve chicos no eran deportistas amateurs con tiempo libre: eran trabajadores que remaban al amanecer y trabajaban después, y el detalle explica por qué su victoria significó lo que significó en un país que llevaba siete años hundido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un trabajo duro y ajeno a lo tuyo puede enseñarte precisamente lo que te faltaba para lo tuyo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Faltaba el dinero del billete" },
+      {
+        b: "texto",
+        texto:
+          "En junio de 1936 ganaron la regata nacional universitaria y en julio, las pruebas olímpicas, y entonces se encontraron con un problema que no aparece en las películas: el comité olímpico estadounidense no tenía dinero para llevarlos a Berlín y les comunicó que debían costearse el viaje.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hicieron falta unos cinco mil dólares de la época. Los reunió la ciudad entera: colectas en la universidad, donativos de comerciantes de Seattle, dinero de familias que no tenían y de emisoras de radio locales que pidieron a sus oyentes que aportaran lo que pudieran. Aquel equipo viajó a Alemania pagado por vecinos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El viaje en barco duró más de una semana y trajo consigo dos contratiempos serios. El remero que marcaba el ritmo del bote, Don Hume, cayó enfermo con una infección respiratoria que arrastró hasta el día de la final, y el timonel, Bobby Moch, recibió una carta de su padre en la que le contaba por primera vez que la familia era de origen judío.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese detalle cambia el tono de lo que viene después. El chico que iba a dar las órdenes en la final, delante de las autoridades del régimen nazi, acababa de enterarse de quién era su familia y de por qué su padre había preferido callarlo durante veinte años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando algo grande depende de ti, casi nunca llegas a ello en las condiciones que habrías elegido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Berlín, 14 de agosto de 1936" },
+      {
+        b: "texto",
+        texto:
+          "La final se remó con todo en contra. Les asignaron la calle más expuesta al viento, la peor de las seis, mientras Alemania e Italia recibían las dos más protegidas. El remero que marcaba el ritmo seguía enfermo y con fiebre. Y al darse la salida, el bote estadounidense no la oyó y arrancó con casi un largo de retraso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante mil quinientos metros fueron últimos o penúltimos. El timonel decidió no acelerar, aguantar el ritmo bajo y guardar a su gente, una decisión que desde la orilla parecía una rendición. En los últimos quinientos metros subió la cadencia hasta un número que nadie sostiene mucho tiempo y el bote empezó a pasar rivales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ganaron por seis décimas de segundo a Italia, con Alemania tercera, en seis minutos y veinticinco segundos. En la tribuna estaba Hitler, que había ido a ver ganar a sus equipos, y las gradas, llenas de público alemán animando a su bote, se quedaron calladas de golpe. Leni Riefenstahl lo estaba filmando para la película oficial de los Juegos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Brown subraya al contarlo es que los nueve no recordaban después ninguna épica. Recordaban que en los últimos metros dejaron de oír al público, dejaron de notar el dolor y sintieron que el bote iba solo. Es exactamente la sensación que llevaban dos años persiguiendo en un lago helado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que has repetido mil veces en condiciones normales es lo único que te queda cuando todo sale mal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Remando como un solo hombre cuenta cómo nueve hijos de leñadores, pescadores y granjeros arruinados ganaron el oro olímpico de remo en el Berlín de 1936 después de aprender el deporte a los diecinueve años. Detrás va la historia de Joe Rantz, abandonado por su familia a los quince, y la de un chico así aprendiendo a depender de otros ocho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una descripción precisa de cómo funciona un equipo de verdad. Que la mejor combinación no es la de los mejores, que un miembro excepcional puede empeorar el conjunto, y que la coordinación se consigue renunciando a demostrar lo que uno vale. Es de los pocos libros que explican eso con un caso medible en segundos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en el reparto y en el azúcar. Joe Rantz está retratado a fondo y los otros ocho son poco más que nombres, y el libro empuja la emoción con más insistencia de la necesaria: los hechos son extraordinarios y no hacían falta tantos adjetivos ni tantos amaneceres sobre el lago.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y elude la pregunta política. Aquellos eran los Juegos de Hitler, medio mundo discutió el boicot y Estados Unidos decidió ir; los dos únicos atletas judíos del equipo de atletismo fueron apartados del relevo en Berlín sin ninguna explicación creíble. En el libro, el régimen nazi es sobre todo escenografía, y el asunto moral de estar allí no llega a plantearse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Publicado en 2013 después de que Brown conociera a Rantz poco antes de su muerte en 2007, estuvo años entre los más vendidos y en 2023 lo llevó al cine George Clooney. Su éxito dice bastante del momento: es una historia de gente sin recursos que gana por trabajar juntos, contada en un país que llevaba una década discutiendo si eso seguía siendo posible.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una historia verdadera y bien contada puede seguir siendo incompleta, y suele serlo en la parte incómoda.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "remando-un-hombre": REMANDO_UN_HOMBRE,
   "mamba-mentality": MAMBA_MENTALITY,
   "once-anillos": ONCE_ANILLOS,
   moneyball: MONEYBALL,

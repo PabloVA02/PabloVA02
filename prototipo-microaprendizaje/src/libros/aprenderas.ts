@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "remando-un-hombre":
+    "Hijos de leñadores y pescadores arruinados por la Depresión aprenden a remar a los diecinueve años y ganan en Berlín en 1936. Detrás va un chico abandonado por su familia aprendiendo a depender de otros ocho.",
+
   "mamba-mentality":
     "Un libro de método, no una autobiografía. Bryant explica fotografía a fotografía cómo preparaba un partido, qué miraba en un rival, a quién le robaba los movimientos y qué hacía cuando se rompía algo.",
 

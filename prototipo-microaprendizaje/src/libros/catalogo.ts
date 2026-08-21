@@ -294,7 +294,7 @@ export const CATALOGO: Ficha[] = [
   { id: "moneyball", titulo: "Moneyball", autor: "Michael Lewis", ano: 2003, categoria: "Deportes", estado: "escrito" },
   { id: "once-anillos", titulo: "Once anillos", autor: "Phil Jackson", ano: 2013, categoria: "Deportes", estado: "escrito" },
   { id: "mamba-mentality", titulo: "Mamba Mentality", autor: "Kobe Bryant", ano: 2018, categoria: "Deportes", estado: "escrito" },
-  { id: "remando-un-hombre", titulo: "Remando como un solo hombre", autor: "Daniel James Brown", ano: 2013, categoria: "Deportes", estado: "pendiente" },
+  { id: "remando-un-hombre", titulo: "Remando como un solo hombre", autor: "Daniel James Brown", ano: 2013, categoria: "Deportes", estado: "escrito" },
   { id: "rey-del-mundo", titulo: "Rey del mundo", autor: "David Remnick", ano: 1998, categoria: "Deportes", estado: "pendiente" },
   { id: "hablo-correr", titulo: "De qué hablo cuando hablo de correr", autor: "Haruki Murakami", ano: 2007, categoria: "Deportes", estado: "pendiente" },
   { id: "numero-uno", titulo: "Número uno", autor: "Anders Ericsson", ano: 2016, categoria: "Deportes", estado: "pendiente" },

@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "remando-un-hombre": [
+    "qué es el momento en que un bote parece levantarse",
+    "por qué los ocho mejores remeros no forman el mejor equipo",
+    "cómo se pagaron ellos mismos el viaje a Berlín",
+    "qué pasó en la final del 14 de agosto de 1936",
+    "qué decía el constructor de barcos sobre la madera",
+  ],
+
   "mamba-mentality": [
     "qué buscaba exactamente cuando estudiaba vídeo de un rival",
     "por qué se aprendió el reglamento y a los árbitros",
