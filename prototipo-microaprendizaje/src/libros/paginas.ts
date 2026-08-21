@@ -47699,7 +47699,7 @@ const MILAGRO_METABOLICO: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Lo que aporta es que se aplica. Está escrito en un castellano claro, con listas de la compra y menús, y ha conseguido que cientos de miles de personas dejen los zumos y los cereales de desayuno, que es un cambio real y en la dirección correcta. Y desmonta bien dos cosas que llevaban treinta años en pie: el miedo al huevo y los productos ligeros cargados de azúcar.",
+          "Lo que aporta es que se aplica. Está escrito en un castellano claro, con listas de la compra y menús, y ha conseguido que mucha gente deje los zumos y los cereales de desayuno, que es un cambio real y en la dirección correcta.",
       },
       {
         b: "texto",
