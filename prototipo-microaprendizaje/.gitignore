@@ -4,7 +4,12 @@ dist/
 # Generado para publicar la app como página; se rehace con `npm run artefacto`
 artefacto.html
 dist-uno/
-vite.uno.config.mjs
+
+# `vite.uno.config.mjs` SÍ va al repositorio. Estuvo ignorado por error hasta
+# el 21 de agosto: son doce líneas de fuente, no un fichero generado, y sin él
+# no se puede compilar el simulador que es lo único que ve Pablo. Un
+# contenedor reclamado se lo habría llevado y las instrucciones del README
+# apuntarían a un fichero que ya no existe.
 
 # El simulador de móvil: catorce megas de app y fotos. Se rehace con
 #   npx vite build --config vite.artefacto.config.mjs

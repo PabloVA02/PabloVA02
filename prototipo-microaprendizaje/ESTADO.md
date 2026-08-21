@@ -275,6 +275,37 @@ sitios aparte de github»*. Y tiene motivo: el 11 de agosto se perdieron diez
 shorts porque el contenedor se restauró tres veces y se llevó por delante los
 commits locales. **Un contenedor se borra; lo que está en cuatro sitios, no.**
 
+### QUÉ ESTÁ GUARDADO DE VERDAD, auditado el 21 de agosto
+
+Pablo lo pidió así: «guarda la aplicación entera para que no se pierda, es
+importante». Al comprobarlo aparecieron dos agujeros y se taparon los dos.
+
+**1. `vite.uno.config.mjs` estaba en el `.gitignore` por error.** Son doce
+líneas de fuente, no un fichero generado, y es el que compila el simulador que
+Pablo ve. Un contenedor reclamado se lo habría llevado y las instrucciones del
+README apuntarían a un fichero inexistente. Ya está en el repositorio.
+
+**2. Los dibujos de Pablo vivían solo a 480 de ancho.** Es la única pieza del
+proyecto que no se puede rehacer —el texto lo vuelvo a escribir, las fotos se
+vuelven a pedir a Commons, la app se recompila— y estaba guardada en la peor
+calidad de todas, dentro de `cubiertas.ts` y a la medida justa que necesita la
+pantalla. Los PNG originales llegan en un zip a una carpeta de subidas que
+dura lo que dura la sesión.
+
+Desde ahora se archivan al llegar, a resolución completa:
+
+    node scripts/archiva-cubiertas.mjs <carpeta-del-zip>
+
+Guarda WebP de 1024 de ancho en `cubiertas-originales/`, unos 150 kB cada uno.
+**Se hace SIEMPRE al recibir una tanda, antes de `mete-cubiertas.mjs`**, porque
+después el zip ya no está.
+
+**Van 50 de 121 archivados**, que son las tandas del 21 de agosto. Las otras 71
+—las anteriores a esa fecha— solo existen a 480 de ancho, y sus originales se
+perdieron con los contenedores de aquellos días. Si Pablo los conserva, merece
+la pena que los vuelva a mandar; si no, la app funciona igual, pero esas
+cubiertas no se podrán volver a generar a otro tamaño nunca.
+
 Los cuatro sitios, y qué va en cada uno:
 
 1. **GitHub**, rama `claude/app-development-xpo6fx`. Es la copia buena y
