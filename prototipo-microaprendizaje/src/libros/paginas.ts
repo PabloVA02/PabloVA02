@@ -28013,7 +28013,267 @@ const CAPITAL_SIGLO_XXI: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Homenaje a Cataluña, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO (testimonio en primera persona): títulos cortos de
+   imagen, afirmación en la primera frase, caja del rayo en segunda
+   persona. Prosa en tercera.
+
+   La página 6 es la que da sentido a todo lo demás: aquí nace 1984.
+   -------------------------------------------------------------------------- */
+
+const HOMENAJE_CATALUNA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Diciembre de 1936 en las Ramblas" },
+      {
+        b: "texto",
+        texto:
+          "George Orwell llegó a Barcelona en diciembre de 1936 con la intención de escribir artículos y acabó alistado en una milicia a los pocos días. Se apuntó al POUM por una razón administrativa: el partido británico que le había dado credenciales tenía relación con ellos, y en aquel momento a él le parecían siglas intercambiables.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que encontró al bajar del tren lo describe en las primeras páginas y es la parte del libro que más se cita. Los edificios grandes ocupados y con banderas rojas o rojinegras, las paredes cubiertas de carteles, los altavoces con canciones revolucionarias, las iglesias vaciadas. Y algo que le impresionó más: nadie decía señor ni usted, los camareros y los limpiabotas miraban a los ojos y trataban a cualquiera de igual a igual, y prácticamente había desaparecido la ropa que identifica a las clases altas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Orwell no dice que aquello le entusiasmara sin reservas. Escribe que había mucho que no entendía y algunas cosas que ni siquiera le gustaban, y a continuación la frase que resume su posición: que reconoció inmediatamente aquel estado de cosas como algo por lo que valía la pena luchar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que cuenta: cómo era de verdad un frente en el invierno de aquel año, con qué armas se combatía, qué ocurrió en Barcelona en mayo de 1937, qué le pasó una mañana cerca de Huesca, qué descubrió leyendo la prensa extranjera sobre lo que él había visto, y qué recorrido tuvo este libro después de publicarse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Reconoció en unas horas un mundo por el que valía la pena pelearse, y a la vez apuntó que había cosas que ni entendía ni le gustaban.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En una trinchera hay cinco cosas importantes y el enemigo es la quinta",
+      },
+      {
+        b: "texto",
+        texto:
+          "La frase que mejor resume el libro y que desmonta cualquier romanticismo militar está a mitad del segundo capítulo. Orwell escribe que en la guerra de trincheras cinco cosas son importantes: la leña, la comida, el tabaco, las velas y el enemigo. Y añade que en aquel invierno, en el frente de Aragón, eran importantes exactamente en ese orden, con el enemigo en último lugar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pasó allí ciento quince días, en posiciones cerca de Alcubierre y después frente a Huesca, con el bando contrario a varios cientos de metros y a veces a más de un kilómetro. Los disparos eran esporádicos. Lo que había cada día era frío, barro, piojos, aburrimiento y una escasez continua de todo, empezando por la leña.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dedica páginas enteras a asuntos que ninguna crónica de guerra menciona. El problema de encontrar algo que arda en una sierra pelada donde ya se ha quemado todo. Las ratas. La suciedad, el olor y la imposibilidad de lavarse. El hambre de tabaco, que describe como peor que el hambre de comida. Y los piojos, con una observación de historiador: que están en todas las guerras y no salen en ningún libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa decisión de contar la guerra desde lo pequeño es lo que hace útil el testimonio. Orwell no le quita gravedad a nada; señala que una guerra, vista desde dentro y durante meses, no consiste en batallas sino en pasar frío esperando, y que quien cuenta lo contrario no estuvo o no lo recuerda bien.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una guerra vista desde dentro no consiste en batallas: consiste en pasar frío, esperar y buscar algo que arda.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Fusiles de 1896 y chavales de quince años" },
+      {
+        b: "texto",
+        texto:
+          "La descripción del armamento y de la instrucción es la parte más dura del libro, precisamente porque está escrita sin dramatismo. Orwell recibió un fusil Máuser fabricado en la última década del siglo XIX, con más de cuarenta años encima, en un estado que hacía dudar de que fuera a disparar. Le dieron munición contada y ninguna instrucción de tiro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El entrenamiento consistió en unos días de desfile en un cuartel de Barcelona, marchando en formación sin armas. Nadie le enseñó a manejar un fusil, ni a cubrirse, ni a lanzar una granada. Cuenta que la primera vez que oyó una explicación de cómo funcionaba una ametralladora fue semanas después de estar en el frente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la tropa era la que era. Buena parte de su centuria eran muchachos de quince, dieciséis y diecisiete años, reclutados en los barrios de Barcelona, sin ninguna formación militar y con un valor considerable. Orwell escribe que eran incapaces de estarse quietos, que disparaban al aire por gusto y que un chico de esa edad con un arma cargada y sin instrucción era un peligro mucho mayor para su propia posición que para la de enfrente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su conclusión sobre las milicias es doble y conviene darla entera. Como fuerza militar eran ineficaces y él lo dice sin rodeos. Y a la vez sostiene que aquella igualdad interna —oficiales y soldados con la misma paga y la misma comida, órdenes que se discutían— produjo una disciplina basada en el consentimiento que aguantó meses de miseria y que un ejército de reclutas no habría aguantado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una tropa sin instrucción y con armas de cuarenta años es peligrosa sobre todo para sí misma, y eso no lo cuenta ningún cartel.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Tres días en el tejado de un cine de las Ramblas" },
+      {
+        b: "texto",
+        texto:
+          "En abril de 1937, Orwell bajó de permiso a Barcelona y encontró una ciudad distinta de la que había dejado. Habían vuelto la ropa buena, las propinas, los restaurantes caros y el trato de usted; los carteles revolucionarios estaban tapados por otros. Y había una tensión que no entendió hasta el 3 de mayo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquel día, fuerzas de la Generalitat asaltaron el edificio de la Telefónica de la plaza de Cataluña, que controlaba el sindicato anarquista desde julio del año anterior. En horas se levantaron barricadas por toda la ciudad y hubo tiroteos entre organizaciones del mismo bando. Los combates duraron varios días y dejaron centenares de muertos en una ciudad que estaba en guerra contra otro ejército a doscientos kilómetros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Orwell pasó tres días y tres noches en el tejado de un cine de las Ramblas, con un fusil y unas pocas balas, vigilando un edificio de enfrente y sin disparar ni una vez. Su descripción de aquellas horas es la de un hombre que no sabe exactamente contra quién está montando guardia ni por qué, comiendo lo poco que llegaba y escuchando rumores contradictorios por la radio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después fue peor que los tiros. En junio, el partido en cuyas milicias servía fue declarado ilegal y acusado de colaborar con el enemigo; su dirigente principal fue detenido y asesinado. Orwell y su mujer tuvieron que esconderse en Barcelona durante días, durmiendo en ruinas y en habitaciones prestadas, y salieron de España en tren el 23 de junio. Se supo después que había una acusación formal contra ellos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Estar del mismo lado no impide que un día te disparen desde el edificio de enfrente, y casi nadie sabe entonces por qué.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una bala en el cuello a las cinco de la mañana" },
+      {
+        b: "texto",
+        texto:
+          "El 20 de mayo de 1937, de vuelta en el frente de Huesca, Orwell estaba en el parapeto al amanecer, cambiando la guardia y hablando con otro miliciano. Medía casi un metro noventa, y en una trinchera cavada para hombres de estatura media eso significaba sacar la cabeza. Un francotirador le disparó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La bala le atravesó el cuello de lado a lado, a milímetros de la arteria carótida. Su descripción de la sensación es una de las páginas más famosas del libro y es clínica en vez de dramática: escribe que sintió una sacudida violenta y ningún dolor, que tuvo la certeza inmediata de estar acabado y que lo que le vino a la cabeza fue una rabia enorme por tener que dejar un mundo que, en conjunto, le iba bastante bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No murió. Perdió la voz durante días y le quedó dañado un nervio de la laringe; su voz, que ya era débil, quedó peor para el resto de su vida. Los médicos españoles que le atendieron le dijeron, según cuenta, que un hombre alcanzado así casi nunca sobrevive y que había tenido una suerte que ninguno de ellos había visto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace valioso ese capítulo es lo que no tiene. No hay heroísmo, ni reflexión sobre la muerte, ni ninguna conclusión. Hay un hombre al que le disparan por ser alto, un traslado en camilla por caminos malos, hospitales sucios y un trámite burocrático para conseguir el alta que ocupa tantas páginas como la herida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que le mató casi no fue el enemigo ni la mala suerte: fue medir quince centímetros más que la trinchera donde estaba.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Periódicos que contaban batallas que no habían existido" },
+      {
+        b: "texto",
+        texto:
+          "La experiencia que cambió a Orwell como escritor no fue la trinchera ni la bala: fue leer la prensa. Al volver a Inglaterra, comparó lo que había visto en Barcelona en mayo con lo que se había publicado sobre aquellos días en los periódicos europeos, y descubrió que no se parecía en nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Escribe que vio crónicas de batallas heroicas en lugares donde no había habido ningún combate, y silencio absoluto sobre sitios donde habían muerto centenares de hombres. Vio describir como cobardes y traidores a tropas que habían aguantado meses en el frente. Y vio en Londres periódicos vendiendo esas versiones a gente que no tenía ninguna manera de comprobarlas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y saca la conclusión que va a organizar el resto de su obra. Le horrorizó, dice, la sensación de que el concepto mismo de verdad objetiva estaba desapareciendo del mundo, porque esas mentiras iban a pasar a la historia: si el que manda dice que tal cosa no ocurrió nunca, esa afirmación acaba siendo más duradera que la propia cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale todo lo que escribió después. El pasado que se reescribe cada mañana en una oficina, los acontecimientos que dejan de haber existido, la frase de que quien controla el pasado controla el futuro: nada de eso es una invención de laboratorio. Está tomado, con nombres y fechas, de lo que le ocurrió a un hombre de treinta y cuatro años que estuvo en Barcelona en mayo de 1937.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que le asustó no fue que mintieran: fue comprobar que aquella mentira iba a pasar a la historia como lo ocurrido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Setecientos ejemplares en doce años" },
+      {
+        b: "texto",
+        texto:
+          "El destino editorial de este libro dice tanto como su contenido. Orwell lo terminó a finales de 1937 y su editor habitual, que le había publicado los libros anteriores, lo rechazó sin leerlo, porque contradecía la posición política que su editorial defendía en aquel momento respecto a España.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo publicó otra casa en abril de 1938, con una tirada de mil quinientos ejemplares. Vendió alrededor de setecientos en los doce años siguientes. Cuando Orwell murió, en enero de 1950, la primera edición todavía no se había agotado. Los dos libros que le hicieron célebre en el mundo entero, la fábula de la granja y la novela de 1984, se publicaron después de este y ambos salen directamente de esta experiencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También hay un detalle sobre el texto que conviene saber. Los dos capítulos que analizan la política interna del bando republicano interrumpen el relato y son los más áridos; Orwell dejó dicho que en futuras ediciones se sacaran del cuerpo del libro y se pusieran como apéndices, para que quien no quisiera esa parte pudiera saltársela. Las ediciones que respetan su voluntad lo hacen así.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En España el libro no circuló legalmente hasta la década de los setenta. Hoy es, con diferencia, el testimonio extranjero más leído sobre aquella guerra, por delante de todas las novelas escritas sobre ella.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro más honesto que se escribió sobre aquella guerra vendió setecientos ejemplares en doce años y no se agotó hasta que murió su autor.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Homenaje a Cataluña cuenta seis meses de un inglés de treinta y cuatro años en la guerra española: la Barcelona colectivizada de diciembre de 1936, ciento quince días en un frente secundario con fusiles de cuarenta años, los combates callejeros de mayo de 1937 entre organizaciones del mismo bando, una bala en el cuello y una huida en tren. Y termina con el descubrimiento que decidió el resto de su obra: que lo publicado sobre aquello no se parecía a lo ocurrido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una manera de contar. Orwell escribe lo que vio, dice explícitamente qué no vio, avisa de que su versión es la de un bando y anima al lector a desconfiar de él, cosa que no hace prácticamente ningún testigo de ninguna guerra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuidado con mi partidismo, con mis errores de hecho y con la deformación que produce haber visto solo una esquina: lo escribe él mismo, en el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y en parte lo dice él. Orwell vio una porción minúscula de aquella guerra: un frente tranquilo de Aragón y unas semanas en Barcelona. No estuvo en Madrid, ni en el norte, ni en el Ebro, ni en ninguna gran batalla, y no habló apenas el idioma. Leer este libro como una historia de la guerra española, que es lo que hacen muchos lectores extranjeros, es un error de escala grande.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una omisión que hoy pesa. La Barcelona igualitaria y esperanzada que describe con tanta emoción en las primeras páginas era también, en aquellas mismas semanas, una ciudad con checas, con paseos nocturnos y con miles de asesinatos por la espalda, y de eso el libro dice muy poco, en parte porque él no lo vio y en parte porque no encajaba con lo que había reconocido al bajar del tren. Que un testigo tan escrupuloso tuviera ese punto ciego es, seguramente, la lección más útil que se puede sacar de él.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "homenaje-cataluna": HOMENAJE_CATALUNA,
   "capital-siglo-xxi": CAPITAL_SIGLO_XXI,
   "origenes-totalitarismo": ORIGENES_TOTALITARISMO,
   "guerra-y-paz": GUERRA_Y_PAZ,

@@ -152,22 +152,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "homenaje-cataluna",
-    titulo: "Homenaje a Cataluña",
-    autor: "George Orwell",
-    ano: 1938,
-    gancho: "Vino a escribir cuatro artículos, se alistó en una milicia, le pegaron un tiro en el cuello y salió huyendo de sus propios aliados.",
-    porQue: "Es el relato de primera mano del que salieron Rebelión en la granja y 1984. Orwell descubrió en Barcelona que se puede reescribir la historia mientras los testigos siguen vivos, y no se recuperó nunca de aquello.",
-    minutos: 23.9,
-    capitulos: [
-      { titulo: "El cuartel Lenin, Barcelona", minutos: 4.8 },
-      { titulo: "La trinchera de Monte Oscuro", minutos: 4.8 },
-      { titulo: "Las Ramblas, mayo de 1937", minutos: 4.7 },
-      { titulo: "Una bala en la garganta", minutos: 4.7 },
-      { titulo: "Setecientos ejemplares", minutos: 4.9 },
-    ],
-  },
-  {
     id: "guerra-civil-thomas",
     titulo: "La guerra civil española",
     autor: "Hugh Thomas",

@@ -149,7 +149,6 @@ const CARGADORES: Record<string, Cargador> = {
   "doctrina-shock": () => import("./economia").then((m) => m.DOCTRINA_SHOCK),
   superpronosticadores: () => import("./economia").then((m) => m.SUPERPRONOSTICADORES),
   "homo-sovieticus": () => import("./historia").then((m) => m.HOMO_SOVIETICUS),
-  "homenaje-cataluna": () => import("./historia").then((m) => m.HOMENAJE_CATALUNA),
   "guerra-civil-thomas": () => import("./historia").then((m) => m.GUERRA_CIVIL_THOMAS),
   postguerra: () => import("./historia").then((m) => m.POSTGUERRA),
   imperiofobia: () => import("./historia").then((m) => m.IMPERIOFOBIA),

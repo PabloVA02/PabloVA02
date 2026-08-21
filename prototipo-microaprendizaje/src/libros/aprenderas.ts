@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "homenaje-cataluna":
+    "Orwell llegó a Barcelona en diciembre de 1936 para escribir artículos y acabó en una milicia por casualidad. Volvió con una bala atravesada en el cuello y con el descubrimiento que decidió toda su obra posterior.",
+
   "capital-siglo-xxi":
     "Quince años de archivo fiscal en veinte países para sostener una idea desagradable: que la concentración de la riqueza es el comportamiento normal del sistema, y que las décadas igualitarias del siglo XX fueron la excepción.",
 

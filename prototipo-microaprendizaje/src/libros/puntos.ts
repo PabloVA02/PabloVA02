@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "homenaje-cataluna": [
+    "cómo era de verdad un frente en el invierno de 1936",
+    "qué ocurrió en Barcelona en mayo de 1937",
+    "qué le pasó una mañana en la trinchera de Huesca",
+    "qué descubrió al leer la prensa sobre lo que había visto",
+    "por qué este libro es el origen directo de 1984",
+  ],
+
   "capital-siglo-xxi": [
     "por qué las encuestas de hogares no ven a los ricos",
     "qué pasa cuando el capital renta más de lo que crece la economía",
