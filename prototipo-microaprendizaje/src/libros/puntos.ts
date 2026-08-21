@@ -40,7 +40,7 @@
 export const PUNTOS: Record<string, string[]> = {
   "mamba-mentality": [
     "qué buscaba exactamente cuando estudiaba vídeo de un rival",
-    "por qué se aprendió de memoria el reglamento y a los árbitros",
+    "por qué se aprendió el reglamento y a los árbitros",
     "cómo aprendió a moverse en la Italia de su infancia",
     "cómo se le pide a un veterano que te enseñe",
     "en qué consiste de verdad la mentalidad mamba",
