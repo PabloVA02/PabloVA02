@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  outlive: [
+    "qué cuatro enfermedades causan casi todas las muertes",
+    "cómo fijarse objetivos físicos para los últimos años",
+    "qué marcador de sangre importa y no suele medirse",
+    "qué cuatro componentes tiene un buen programa de ejercicio",
+    "qué se sabe realmente de nutrición y qué no",
+  ],
+
   "segundo-sexo": [
     "por qué lo masculino funciona como norma y lo femenino como excepción",
     "en qué se distingue esta situación de cualquier otra opresión",

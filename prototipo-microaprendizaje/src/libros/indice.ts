@@ -64,7 +64,6 @@ const CARGADORES: Record<string, Cargador> = {
   "homo-deus": () => import("./historia").then((m) => m.HOMO_DEUS),
   "zonas-azules": () => import("./salud").then((m) => m.ZONAS_AZULES),
   "arte-sin-hombres": () => import("./arte").then((m) => m.ARTE_SIN_HOMBRES),
-  outlive: () => import("./salud").then((m) => m.OUTLIVE),
   einstein: () => import("./ciencia").then((m) => m.EINSTEIN),
   "camino-artista": () => import("./arte").then((m) => m.CAMINO_ARTISTA),
   "come-comida-real": () => import("./salud").then((m) => m.COME_COMIDA_REAL),

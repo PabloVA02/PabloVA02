@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  outlive:
+    "En autopsias de soldados de veinte años ya aparecían placas en las arterias. Las enfermedades que matan a casi todo el mundo tardan décadas en formarse, y la medicina actual está diseñada para esperar al diagnóstico.",
+
   "segundo-sexo":
     "Beauvoir quería escribir sobre sí misma y alguien le preguntó qué había significado en su vida ser mujer. Contestó que nada, se puso a pensarlo y salieron mil páginas que fundaron el feminismo del siglo XX.",
 

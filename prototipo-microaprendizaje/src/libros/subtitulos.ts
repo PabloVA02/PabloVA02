@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  outlive: "El arte y la ciencia de vivir más y mejor",
   nudge: "Impulso: cómo mejorar las decisiones sobre salud, dinero y felicidad",
   educada: "Una memoria",
   "guerra-arte": "Rompe las barreras y vence tus batallas creativas interiores",

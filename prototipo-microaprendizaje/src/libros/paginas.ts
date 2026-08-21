@@ -33423,7 +33423,272 @@ const SEGUNDO_SEXO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Outlive, en ocho páginas.
+
+   Breve.
+
+   Libro PRÁCTICO de salud: segunda persona en la prosa, titular que
+   afirma.
+
+   La conclusión separa lo que está bien apoyado de lo que es especulación
+   razonada, y dice lo que el libro no dice: buena parte de su programa
+   exige un dinero y un acceso a pruebas que casi nadie tiene.
+   -------------------------------------------------------------------------- */
+
+const OUTLIVE: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La medicina actual es excelente esperando a que aparezca la enfermedad",
+      },
+      {
+        b: "texto",
+        texto:
+          "Peter Attia se formó como cirujano en un hospital universitario estadounidense, dejó la cirugía, trabajó unos años como consultor de empresas y volvió a la medicina por otra puerta: la de la longevidad. Publicó este libro en 2023 y su tesis es una crítica a su propio oficio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Organiza esa crítica en tres etapas. La primera medicina, la de Hipócrates y los dos milenios siguientes, se basaba en la observación y en teorías sin comprobar, y era en buena medida inútil. La segunda, la que empieza con el método científico, los antibióticos y la cirugía moderna, es extraordinariamente eficaz haciendo aquello para lo que se diseñó: resolver problemas agudos. Una neumonía, una apendicitis, una fractura, un infarto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema es que casi nadie muere hoy de eso. En los países ricos, la inmensa mayoría de las muertes las producen enfermedades crónicas que tardan décadas en formarse, y frente a ellas ese modelo llega tarde por diseño: espera al diagnóstico, y en el momento del diagnóstico el proceso lleva veinte o treinta años en marcha.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que propone en su lugar: qué cuatro enfermedades hay que tener en cuenta, cómo fijarse objetivos para los últimos años en vez de para el año que viene, qué marcador del análisis de sangre importa de verdad, por qué considera el ejercicio el fármaco más potente que existe, qué se sabe realmente de nutrición y por qué su último capítulo trata de otra cosa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La medicina moderna es excelente resolviendo lo que ocurre de golpe, y casi nadie muere hoy de algo que ocurra de golpe.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cuatro enfermedades matan a casi todos y las cuatro empiezan décadas antes",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro reduce el problema a cuatro grupos de enfermedades, que llama los cuatro jinetes, y que causan la enorme mayoría de las muertes de personas que no fallecen por accidente. Son la enfermedad cardiovascular, el cáncer, las enfermedades neurodegenerativas como el alzhéimer y la disfunción metabólica, es decir, la resistencia a la insulina, la diabetes de tipo dos y el hígado graso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que tienen en común es su cronología. Ninguna aparece de repente: todas se van formando durante décadas sin dar ningún síntoma, y cuando aparece el primero, el proceso está muy avanzado. Un tumor detectable ya lleva años creciendo; el alzhéimer empieza a acumular alteraciones veinte años antes del primer olvido; la resistencia a la insulina precede en una década larga a la diabetes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El dato más gráfico es de anatomía patológica y viene de las autopsias de soldados jóvenes muertos en combate en los años cincuenta y sesenta. Muchos de aquellos chicos de veinte años tenían ya placas formadas en las arterias coronarias. La enfermedad cardiovascular no empieza a los sesenta: empieza en la segunda o la tercera década de la vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí la consecuencia práctica del libro entero. Si el proceso lleva treinta años en marcha, esperar al diagnóstico es esperar a que sea tarde, y actuar en la cuarta o la quinta década de la vida no es precipitarse: es llegar con margen. Y también significa que la pregunta útil no es qué tienes ahora, sino en qué dirección van tus marcadores.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En autopsias de soldados de veinte años ya aparecían placas en las arterias: eso no empieza a los sesenta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El decatlón de los cien años" },
+      {
+        b: "texto",
+        texto:
+          "La idea más aplicable del libro no es médica, es de planificación, y consiste en fijar el objetivo al final en vez de a corto plazo. Attia propone hacer una lista de entre diez y veinte cosas físicas concretas que uno quiere poder seguir haciendo a los ochenta y cinco o noventa años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lista tiene que ser específica y comprobable, no un deseo genérico de estar bien. Levantar del suelo a un nieto de quince kilos. Subir cuatro pisos de escaleras con la compra sin pararse. Levantarse del suelo sin apoyar las manos. Meter una maleta en el compartimento superior de un avión. Andar una hora por terreno irregular. Abrir un bote a rosca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y después viene el cálculo que le da sentido. La capacidad física decae con la edad de manera bastante previsible: se pierde fuerza y masa muscular cada década, y a partir de cierta edad la pérdida se acelera. Si quieres poder levantar quince kilos a los noventa, tienes que llegar a los setenta pudiendo levantar bastante más, y a los cincuenta pudiendo levantar mucho más todavía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa cuenta cambia la manera de entrenar. No se entrena para estar en forma este año: se entrena para llegar con margen suficiente a una edad concreta, y el margen hay que construirlo décadas antes porque después ya no se puede. Attia lo compara con la preparación de un atleta para una competición, con la diferencia de que la competición es la última década de tu vida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si quieres poder levantar a un nieto a los noventa, tienes que llegar a los setenta pudiendo levantar bastante más de lo que pesa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El marcador que importa no suele ser el que te miden" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre enfermedad cardiovascular es el más técnico del libro y el que más puede cambiar lo que le pidas a tu médico. Su punto de partida es que la ateroesclerosis no la causa el colesterol en abstracto: la causan unas partículas concretas que penetran en la pared de la arteria y se quedan allí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El análisis habitual mide la cantidad de colesterol que transportan esas partículas, que es el valor que aparece en cualquier informe. Attia sostiene, con la literatura de las últimas dos décadas detrás, que lo que predice mejor el riesgo es el número de partículas, y que ese número se mide con otro parámetro: la apolipoproteína B, una proteína de la que hay exactamente una por partícula, así que contarla equivale a contarlas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia importa porque las dos cifras no siempre van juntas. Dos personas pueden tener el mismo colesterol y un número de partículas muy distinto, y la que tiene más partículas, aunque cada una lleve poco colesterol, corre más riesgo. Su recomendación práctica es pedir esa medición, que es barata y no está en el análisis de rutina de casi ningún sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade otra que se hace una sola vez en la vida. Existe un tipo de partícula, la lipoproteína pequeña a, cuya concentración está determinada casi por completo por la genética y no cambia con la dieta ni con el ejercicio. Un porcentaje considerable de la población la tiene elevada sin saberlo, y eso multiplica el riesgo cardiovascular. Basta con medirla una vez.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que se te queda en la arteria no es el colesterol: son las partículas que lo llevan, y esas se cuentan con otro análisis.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El ejercicio es el fármaco más potente que existe para esto" },
+      {
+        b: "texto",
+        texto:
+          "Attia sostiene sin matices que si el ejercicio pudiera envasarse en una pastilla, sería el medicamento más eficaz jamás aprobado, y aporta el dato que le sirve de argumento. Un estudio con más de ciento veinte mil pacientes midió la capacidad cardiorrespiratoria y la relacionó con la mortalidad posterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado es que estar en el grupo con peor capacidad se asocia a un riesgo de morir mayor que el de fumar, el de tener diabetes o el de tener enfermedad coronaria. Y la mejora más rentable es la primera: pasar del grupo peor al siguiente reduce el riesgo más que cualquier fármaco disponible. No hace falta estar en forma; hace falta salir del último escalón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su programa tiene cuatro componentes y conviene conocerlos porque son concretos. Trabajo aeróbico de baja intensidad, a un ritmo en el que se puede mantener una conversación con esfuerzo, unas tres o cuatro horas a la semana, que construye la base metabólica. Trabajo de alta intensidad en intervalos, una vez por semana, que sube el techo de capacidad. Fuerza, con especial atención a tirar, empujar, cargar peso y agarrar. Y estabilidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuarto es el que menos se hace y él le dedica un capítulo entero porque se lesionó la espalda gravemente. Sostiene que la fuerza sin estabilidad produce lesiones y que la mayoría de la gente que abandona el ejercicio en la madurez lo abandona por una lesión, no por falta de ganas. Trabajar la respiración, la posición del pie y el control del tronco no luce nada y es lo que permite seguir entrenando a los setenta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Estar en el peor grupo de capacidad física se asocia a más riesgo de morir que fumar, y salir de ese grupo es lo más rentable que puedes hacer.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En nutrición hay tres palancas y ninguna dieta óptima" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo de alimentación es el más escéptico del libro y también el más honesto. Attia empieza explicando por qué desconfía de casi todo lo que se publica en este campo: la mayoría de los estudios son observacionales, se basan en cuestionarios en los que la gente recuerda mal lo que comió, no pueden separar el efecto de un alimento del resto de la vida de esa persona y producen titulares contradictorios cada pocos meses.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su conclusión es que no existe una dieta óptima para todo el mundo, y que las guerras entre partidarios de unas y otras son en buena medida ruido. Lo que sí hay, dice, son tres palancas que se pueden accionar: comer menos cantidad, quitar algún tipo de alimento y concentrar la comida en menos horas del día. Cualquier dieta con nombre es una combinación de esas tres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da una prioridad que va contra la costumbre. Antes que discutir de tipos de grasa o de hidratos, lo que importa es la cantidad de proteína, que la mayoría de la gente toma por debajo de lo necesario, sobre todo a partir de los cincuenta, y que es la condición para mantener músculo, que a su vez es lo que sostiene la autonomía en la vejez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo incluye además una rectificación suya que conviene señalar. Attia fue durante años defensor público del ayuno prolongado, lo practicó y lo recomendó; después midió a sus propios pacientes y comprobó que perdían masa muscular junto con la grasa. Dejó de hacerlo y cambió su recomendación, y lo cuenta en el libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todas las dietas con nombre son combinaciones de tres cosas: comer menos, quitar algo o comer en menos horas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El último capítulo trata de algo completamente distinto" },
+      {
+        b: "texto",
+        texto:
+          "Después de cuatrocientas páginas de análisis, marcadores y protocolos, el libro termina con un capítulo que no tiene ni una sola cifra y que su autor sostiene que es el más importante de todos. Trata de salud emocional y está contado en primera persona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Attia describe su propia situación con una franqueza poco frecuente en un libro de este género. Ataques de ira desproporcionados, una exigencia consigo mismo que arrasaba con todo lo demás, la certeza de que la disciplina extrema era una virtud, y un matrimonio y una relación con sus hijos deteriorándose mientras él optimizaba sus análisis. Cuenta que ingresó dos veces en un centro de tratamiento residencial.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aprendió allí y traslada al libro es que había estado aplicando el mismo esquema a todo: medir, optimizar, rendir. Y que ese esquema, que funciona para el colesterol, es exactamente lo que estaba destruyendo la parte de su vida que hacía que el resto valiera la pena. Su frase resume el giro: no tiene ningún sentido llegar a los cien años si se llega solo y siendo insoportable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo desarma bastante el resto del libro y él lo sabe. Un manual sobre cómo vivir más termina diciendo que lo que estaba midiendo con más entusiasmo era secundario, y que la única de las cuatro áreas donde no hay marcadores es la que decide si todo lo demás sirve de algo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No tiene sentido llegar a los cien años si llegas solo, y esa es la única de las cuatro áreas donde no hay ningún marcador que medir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Outlive sostiene que la medicina actual está diseñada para tratar lo agudo y que las enfermedades que matan a casi todo el mundo tardan décadas en formarse, de modo que hay que actuar mucho antes de que aparezca ningún síntoma. Sus recomendaciones concretas son cuatro: fijarse objetivos físicos para los últimos años y entrenar en función de ellos, medir el número de partículas y no solo el colesterol, hacer ejercicio con los cuatro componentes que describe y comer suficiente proteína.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un cambio de horizonte. Casi todos los consejos de salud apuntan a este año; este apunta a los ochenta y cinco, y esa diferencia reordena por completo qué merece la pena hacer hoy.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No se trata de vivir más años: se trata de con cuántos años de autonomía llegas a los últimos diez, que es lo que se decide ahora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Buena parte del programa que describe exige un dinero y un acceso que la mayoría de sus lectores no tiene: análisis avanzados que no cubre la sanidad pública, pruebas de imagen de cuerpo entero, monitores continuos de glucosa, entrenadores y fisioterapeutas. Attia trabaja con clientes que pagan cifras muy altas por ese seguimiento, y el libro no siempre distingue con claridad lo que cualquiera puede aplicar de lo que corresponde a esa consulta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y conviene separar dos capas al leerlo. Lo bien apoyado: el papel del ejercicio, la utilidad de medir apolipoproteína B y lipoproteína a, la importancia del músculo y de la proteína, y el sueño. Lo especulativo: los fármacos que propone para la longevidad, varios suplementos y una estrategia de cribado agresivo del cáncer que él defiende con entusiasmo y que tiene un problema conocido, el sobrediagnóstico, es decir, encontrar y tratar tumores que nunca habrían dado la cara. Attia menciona ese riesgo y le dedica bastante menos espacio del que merece.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  outlive: OUTLIVE,
   "segundo-sexo": SEGUNDO_SEXO,
   "discurso-metodo": DISCURSO_METODO,
   "apologia-socrates": APOLOGIA_SOCRATES,

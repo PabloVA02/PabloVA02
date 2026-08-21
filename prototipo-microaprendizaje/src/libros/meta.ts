@@ -1096,22 +1096,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "outlive",
-    titulo: "Outlive: el arte de vivir más y mejor",
-    autor: "Peter Attia",
-    ano: 2023,
-    gancho: "Un cirujano que odiaba la medicina preventiva calcula cuántos años de vida sana pierde el que espera a tener síntomas. Le salen veinte.",
-    porQue: "Es el libro de longevidad con la mejor argumentación y también el que más honradamente admite dónde no hay pruebas. Y el consejo principal no es la dieta.",
-    minutos: 22,
-    capitulos: [
-      { titulo: "El paciente que llega tarde", minutos: 4.5 },
-      { titulo: "Los cuatro jinetes", minutos: 4.3 },
-      { titulo: "VO2 máx", minutos: 4.5 },
-      { titulo: "El decatlón del centenario", minutos: 4.5 },
-      { titulo: "El paciente difícil", minutos: 4.2 },
-    ],
-  },
-  {
     id: "nacidos-correr",
     titulo: "Nacidos para correr",
     autor: "Christopher McDougall",
