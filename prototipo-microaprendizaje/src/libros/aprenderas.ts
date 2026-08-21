@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  frankenstein:
+    "Un estudiante fabrica un ser vivo, le ve la cara y sale corriendo. La criatura, que aprende sola a hablar y a leer, se pasa el libro pidiéndole cuentas.",
+
   "senor-moscas":
     "Un avión con niños británicos se estrella en una isla desierta y no queda ningún adulto. Montan una democracia en veinte minutos y tardan unas semanas en desmontarla.",
 

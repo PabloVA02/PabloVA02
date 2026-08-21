@@ -1288,22 +1288,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "frankenstein",
-    titulo: "Frankenstein",
-    autor: "Mary Shelley",
-    ano: 1818,
-    gancho: "Lo escribió una chica de dieciocho años, de vacaciones, por ganar una apuesta sobre quién contaba la mejor historia de miedo.",
-    porQue: "Inventó la ciencia ficción, y casi todo lo que la gente cree saber de esta historia viene del teatro y del cine, no del libro.",
-    minutos: 26.1,
-    capitulos: [
-      { titulo: "El verano sin sol en Ginebra", minutos: 5.2 },
-      { titulo: "La hija que aprendió a leer en una tumba", minutos: 5.2 },
-      { titulo: "Lo que el libro no cuenta", minutos: 5.2 },
-      { titulo: "El monstruo que inventó el teatro", minutos: 5.3 },
-      { titulo: "Quién abandonó a quién", minutos: 5.2 },
-    ],
-  },
-  {
     id: "dorian-gray",
     titulo: "El retrato de Dorian Gray",
     autor: "Oscar Wilde",

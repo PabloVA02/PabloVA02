@@ -65,7 +65,6 @@ const CARGADORES: Record<string, Cargador> = {
   "aliento-aire": () => import("./salud").then((m) => m.ALIENTO_AIRE),
 
   /* Literatura — clásicos */
-  frankenstein: () => import("./literatura").then((m) => m.FRANKENSTEIN),
 
   /* Filosofía */
   "brevedad-vida": () => import("./filosofia").then((m) => m.BREVEDAD_VIDA),

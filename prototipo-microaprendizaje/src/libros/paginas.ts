@@ -15854,7 +15854,239 @@ const SENOR_MOSCAS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Frankenstein, en ocho páginas.
+
+   Breve. Registro narrativo.
+
+   El malentendido de este libro es doble y ocupa la primera página: casi
+   todo el mundo cree que Frankenstein es el monstruo, y casi todo el
+   mundo se imagina a un mudo con tornillos en el cuello. La criatura del
+   libro habla mejor que nadie, ha leído a Milton y argumenta como un
+   abogado. Eso es del cine de 1931.
+
+   Lo que casi nadie cuenta y aquí sí está: que el pecado de Víctor no es
+   crear sino abandonar; que la criatura aprende a leer espiando a una
+   familia; que pide una compañera y promete desaparecer; y que Mary
+   Shelley reescribió el libro en 1831 para quitarle culpa a su
+   protagonista.
+   -------------------------------------------------------------------------- */
+
+const FRANKENSTEIN: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El monstruo habla, y muy bien" },
+      {
+        b: "texto",
+        texto:
+          "Frankenstein es el apellido del que lo fabrica, no del fabricado. La criatura no tiene nombre en todo el libro: se la llama el ser, el demonio, el desgraciado. Y no gruñe: habla con una elocuencia que deja mal a todos los demás personajes, cita el Paraíso perdido de memoria, razona, negocia y acusa. La escena central de la novela es una discusión filosófica de veinte páginas entre los dos, a dos mil metros de altura, en un glaciar de los Alpes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El monstruo mudo, con tornillos en el cuello y andares de armario, es una invención del cine de 1931, y ha borrado el libro con tanta eficacia que hoy casi nadie sabe que la criatura de la novela aprende francés en un año, lee a Plutarco y a Goethe y reprocha a su creador, con toda la razón, que le dio la vida y salió corriendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene saber también quién lo escribió, porque tiene que ver con el asunto. Mary Shelley tenía dieciocho años, había perdido a su madre a los once días de nacer y acababa de perder a una hija recién nacida; escribió el libro en el verano de 1816, el año sin verano, cuando la ceniza de un volcán indonesio dejó Europa sin sol y ella pasó las tardes encerrada en una villa junto a un lago suizo, con Byron y otros dos, retándose a escribir historias de miedo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que el libro sostiene: cuál es exactamente el pecado de Víctor, cómo se educa un ser al que nadie enseña nada, qué pide la criatura cuando por fin se encuentran, cómo se cobra el no habérselo dado y por qué la persecución termina en el hielo del Ártico.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El personaje que más y mejor habla en este libro es aquel al que la cultura popular ha dejado mudo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El pecado no fue crearlo" },
+      {
+        b: "texto",
+        texto:
+          "Víctor Frankenstein es un estudiante de Ingolstadt obsesionado con el principio de la vida. Trabaja dos años en secreto, entre cementerios y salas de disección, cosiendo un cuerpo con piezas ajenas y eligiéndolas hermosas a propósito. Una noche de noviembre lo consigue: el ser abre un ojo amarillo y respira.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que hace Víctor a continuación es lo que decide toda la novela. No se horroriza de lo que ha hecho: se horroriza de cómo ha quedado. Sale corriendo de la habitación, se mete en la cama, duerme, tiene pesadillas, y al despertar se encuentra al recién nacido asomado a las cortinas, mirándolo, con una especie de sonrisa y una mano tendida hacia él. Víctor huye de la casa y se pasa la noche andando por la calle.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el crimen del libro, y no el laboratorio. La criatura no nace malvada: nace tendiendo una mano. Lo que la convierte en lo que acaba siendo son dos años de golpes, piedras y puertas cerradas, empezando por la del hombre que la hizo. Cuando por fin discuten, ella lo dice con una frase que resume el libro entero: yo era bueno y afectuoso, y la desgracia me hizo un demonio. Y el libro deja claro que hubo una alternativa: bastaba con quedarse en la habitación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo imperdonable no fue fabricarlo: fue mirarle la cara y salir corriendo sin explicarle nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Aprender espiando por una rendija" },
+      {
+        b: "texto",
+        texto:
+          "La mejor parte del libro es la que menos se cuenta, y es la criatura contando su propia educación. Después de huir al bosque, descubre el fuego por accidente y quemándose, aprende que el fuego calienta y también duele. Encuentra una choza pegada a una casa de campo y se instala en ese cubículo, invisible, con una rendija por la que ve el interior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dentro vive una familia pobre: un padre ciego y sus dos hijos. Durante meses los observa. Aprende a hablar oyéndolos, y aprende a leer porque llega una chica extranjera a la que el hijo enseña francés con un libro delante: la criatura sigue las lecciones desde fuera y aprende con ella. Mientras tanto los ayuda en secreto, dejándoles leña cortada en la puerta por las noches.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después encuentra tres libros tirados en un bosque y con eso se forma: las Vidas de Plutarco, que le enseñan qué es la historia; el Werther de Goethe, que le enseña qué es la desdicha; y el Paraíso perdido de Milton, que le enseña lo que es Dios, y con el que se compara. Y encuentra otra cosa: en el bolsillo del abrigo que se llevó del laboratorio están los cuadernos de Víctor, así que lee, con todo detalle, el asco que le dio a su creador el día que abrió los ojos. Ese cuaderno es la pieza que lo cambia todo: hasta entonces solo sabía que le tenían miedo; a partir de ahí sabe que su padre lo escribió por escrito antes de que él dijera una palabra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Aprendió a leer para descubrir, en el diario de su padre, lo repugnante que le había parecido nada más nacer.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo único que pide" },
+      {
+        b: "texto",
+        texto:
+          "El plan de la criatura es sensato: como el padre de la familia es ciego, decide presentarse a él primero y ganárselo hablando, antes de que lo vean los hijos. Lo hace, y funciona: el viejo lo escucha, lo trata con cariño y le ofrece su amistad. Entonces vuelven los hijos, ven lo que hay en la habitación y lo muelen a palos. La familia se muda al día siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de eso viene la petición. En el glaciar, frente a Víctor, la criatura no pide venganza ni riquezas: pide una compañera, una mujer tan deforme como él, y promete que se irán los dos a los desiertos de Sudamérica, que vivirán de bellotas y de raíces y que ningún ser humano volverá a verlos. El argumento es exacto: soy malo porque estoy solo; hazme feliz y volveré a ser bueno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Víctor acepta, se instala en una isla de Escocia y empieza el trabajo. Y una noche, casi terminada, mira a la criatura que está montando y se echa atrás: piensa que podría ser peor que él, que podrían negarse a cumplir el trato, que podrían reproducirse y llenar el mundo de monstruos. La destroza a pedazos delante de la ventana, con el otro mirando desde fuera. Es el momento en que la novela deja de tener arreglo. Antes de arrancar los trozos, mira la cara a medio hacer. Después los mete en una cesta con piedras y los tira al mar de noche, remando él solo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pedía una sola cosa a cambio de desaparecer para siempre, y su creador se lo prometió y lo rompió delante de él.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una venganza calculada al milímetro" },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace la criatura a partir de ahí no es una matanza al azar: es una operación con una lógica cruel. Antes ya había estrangulado al hermano pequeño de Víctor y había colocado el medallón de la víctima en el bolsillo de una criada, a la que ahorcaron por el crimen. Después mata al mejor amigo. Y por último, cuando Víctor se casa, deja la frase que el otro entiende mal: estaré contigo en tu noche de bodas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Víctor la lee como una amenaza contra él, así que esa noche manda a su mujer a la habitación y sale a patrullar con una pistola. Oye un grito. Elizabeth está muerta sobre la cama y en la ventana está la cara. La simetría es perfecta: él destruyó a la compañera de la criatura antes de darle vida y la criatura ha destruido la suya la noche antes de que empiece el matrimonio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí se invierten los papeles del libro. Hasta entonces era la criatura la que perseguía y Víctor el que huía; a partir de ese momento es Víctor el que persigue, obsesionado, sin dormir, mientras el otro le deja mensajes grabados en cortezas de árboles y comida escondida para que no se muera de hambre y pueda seguir persiguiéndolo. Lo lleva hacia el norte, al hielo, con toda la intención.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Le deja comida por el camino para que aguante: la persecución solo tiene sentido mientras el perseguidor siga vivo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El hielo y el barco" },
+      {
+        b: "texto",
+        texto:
+          "Todo el libro está contado desde el Ártico, y eso se olvida enseguida. Quien escribe es Robert Walton, un capitán inglés que ha metido un barco entre los hielos buscando el paso del norte y la gloria, y que le cuenta a su hermana por carta lo que ha ido pasando. Un día ven a lo lejos un trineo enorme tirado por perros con una figura descomunal encima; al día siguiente rescatan a un hombre medio muerto sobre otro trineo. Es Víctor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Víctor le cuenta su historia a Walton durante días y muere en el camarote. Y entonces ocurre la última escena, que es la mejor del libro: Walton oye ruidos en la cabina donde está el cadáver, entra, y encuentra a la criatura inclinada sobre su creador, llorando. No ha ido a rematarlo. Ha ido a despedirse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que le dice al capitán es la defensa final y no pide perdón: reconoce cada crimen, dice que sufrió más ejecutándolos que las víctimas padeciéndolos, y explica que ahora que el único que lo odiaba ha muerto, ya no le queda nadie en el mundo, ni siquiera un enemigo. Después salta por la ventana a una placa de hielo y anuncia que va a construirse una pira en el punto más al norte y a quemarse en ella. Se pierde en la oscuridad. Nadie ve arder nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando muere el hombre que lo odiaba, la criatura se queda sin lo último que la ataba a alguien.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El Prometeo del subtítulo" },
+      {
+        b: "texto",
+        texto:
+          "El libro se subtitula el moderno Prometeo, y ese nombre es la tesis puesta en la portada. En el mito griego, Prometeo roba el fuego a los dioses para dárselo a los hombres y lo castigan encadenándolo a una roca para que un águila le coma el hígado cada día. En una versión menos conocida, la latina, Prometeo además fabrica a los primeros hombres con barro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Víctor hace las dos cosas: roba un conocimiento que no le corresponde y fabrica un ser vivo. Pero Mary Shelley cambia el castigo. A Víctor no lo castiga ningún dios: lo castiga su propia obra, y no por haberla hecho, sino por haberla dejado tirada. En 1818, con la electricidad recién descubierta y los experimentos de Galvani haciendo que las patas de las ranas muertas se movieran en los laboratorios de media Europa, ese cambio era muy poco teológico y muy moderno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí viene que este sea, para muchos, el primer libro de ciencia ficción. No porque tenga aparatos —el método de Víctor no se explica nunca, y eso es deliberado— sino porque es el primero que se pregunta qué pasa después de un descubrimiento, y en concreto quién se hace cargo de lo que se ha creado. Dos siglos después, esa pregunta se hace todas las semanas en otro sector.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta del libro no es si se puede crear algo así: es quién se ocupa de ello cuando abre los ojos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Frankenstein cuenta cómo un estudiante fabrica un ser vivo, huye al verle la cara y pasa el resto de su vida pagándolo. Su tesis no es que la ciencia sea peligrosa: es que quien crea algo responde de ello, y que un ser abandonado y golpeado desde el primer día se convierte en lo que todos esperan que sea. La criatura empieza tendiendo la mano y acaba estrangulando a un niño, y el libro cuenta con precisión todos los pasos intermedios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una figura que ya no pertenece a nadie. La palabra Frankenstein se usa hoy para hablar de alimentos, de algoritmos y de proyectos que se le van de las manos a quien los empezó, y en todos esos usos late lo mismo que en el libro: no el miedo a lo nuevo, sino la sospecha de que quien lo pone en marcha va a mirar hacia otro lado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Yo era bueno y afectuoso, dice la criatura; la desgracia me convirtió en un demonio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Víctor es un narrador insoportable: se desmaya cada dos capítulos, se pasa páginas lamentándose y no cuenta la verdad a nadie ni cuando ahorcan a una inocente por un crimen que sabe quién cometió. Las casualidades son enormes —la criatura siempre está donde tiene que estar—, y el marco del capitán en el Ártico, con sus cartas a la hermana, alarga el principio y el final sin añadir gran cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo que conviene saber: hay dos versiones. La de 1818, la que escribió con dieciocho años, y la de 1831, que ella misma revisó ya viuda y con tres hijos muertos. En la segunda suavizó a Víctor, cargó más las tintas en el destino y quitó filo a la idea de que todo aquello fue una decisión suya. Casi todas las ediciones que circulan son la de 1831; la de 1818 es más dura y más incómoda, y es la que conviene buscar.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  frankenstein: FRANKENSTEIN,
   "senor-moscas": SENOR_MOSCAS,
   "gran-gatsby": GRAN_GATSBY,
   metamorfosis: METAMORFOSIS,

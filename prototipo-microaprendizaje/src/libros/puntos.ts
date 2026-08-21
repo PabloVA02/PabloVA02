@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  frankenstein: [
+    "por qué el pecado no fue crearlo sino abandonarlo",
+    "cómo aprende a leer espiando por una rendija",
+    "qué pide a cambio de desaparecer para siempre",
+    "por qué la venganza cae en la noche de bodas",
+    "qué le cuenta al capitán sobre el cadáver",
+  ],
+
   "senor-moscas": [
     "contra qué libro está escrito este libro",
     "por qué se apaga la hoguera justo cuando pasa un barco",
