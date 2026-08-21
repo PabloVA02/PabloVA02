@@ -3,7 +3,7 @@ import type { Libro } from "../Biblioteca";
 import type { Categoria } from "./catalogo";
 import { CATALOGO } from "./catalogo";
 import { META_POR_ID } from "./meta";
-import { PAGINAS } from "./paginas";
+import { PAGINAS, minutosDePaginas } from "./paginas";
 import { APRENDERAS } from "./aprenderas";
 import { SUBTITULOS } from "./subtitulos";
 import { PORTADAS_LIBRO } from "./portadas";
@@ -169,19 +169,6 @@ const CON_PAGINAS: Libro[] = CATALOGO.flatMap((ficha) => {
 
   const n = (vistos[ficha.categoria] = (vistos[ficha.categoria] ?? 0) + 1);
   const arte = ARTES[ficha.categoria][(n - 1) % ARTES[ficha.categoria].length];
-  const palabras = paginas
-    .flatMap((p) => p.bloques)
-    .reduce((total, b) => {
-      const texto =
-        b.b === "lista"
-          ? b.puntos.map((x) => `${x.fuerte} ${x.texto}`).join(" ")
-          : b.b === "cita"
-            ? b.frase
-            : b.b === "prueba"
-              ? b.puntos.join(" ")
-              : b.texto;
-      return total + texto.replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length;
-    }, 0);
 
   return [
     {
@@ -197,7 +184,13 @@ const CON_PAGINAS: Libro[] = CATALOGO.flatMap((ficha) => {
       portada: PORTADAS_LIBRO[ficha.id],
       progreso: 0,
       ano: ficha.ano,
-      minutos: Math.max(1, Math.round(palabras / 200)),
+      /* La cifra de OÍRLO, no la de leer. Estaba contada aquí a mano y
+         dividida por 200 —velocidad de lectura—, así que la estantería decía
+         13 minutos de un libro cuya ficha decía 18: el mismo libro con dos
+         cifras distintas en dos pantallas. La regla está en REDACCION.md,
+         apartado 2 ter, y la cuenta buena la hace `minutosDePaginas()`, que
+         es la que ya usaba `Biblioteca.tsx`. Corregido el 21 de agosto. */
+      minutos: minutosDePaginas(paginas),
       /* Los capítulos son los titulares de las páginas: es lo que se enseña en
          «Aprenderás» cuando un libro no tiene sus cinco puntos escritos. */
       capitulos: paginas

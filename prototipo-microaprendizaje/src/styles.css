@@ -8321,3 +8321,238 @@ button {
    estrellas y con el texto, y a 208 empujaba el botón fuera de la pantalla en
    un móvil bajo. */
 .resena .cohete { max-width: 150px; }
+
+/* --------------------------------------------------------------------------
+   EL CIERRE DE UN RESUMEN  (src/FinResumen.tsx)
+
+   Pedido por Pablo el 21 de agosto a partir de las capturas de Headway: se
+   queda el escaneo del libro, se queda una cifra de minutos —los de AUDIO— y
+   se añaden las ideas. Fuera la experiencia, las estrellas y el progreso
+   semanal, que era lo que había antes en `.done`.
+
+   Todo lo que se tiñe usa `--tono`, que es el color de la categoría del libro
+   y lo pone el componente. Así la pantalla es distinta en un libro de Historia
+   y en uno de Salud sin escribir dos veces ninguna regla.
+   -------------------------------------------------------------------------- */
+
+.cierre {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  padding: 0 30px 26px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* El aura. Un solo degradado radial, sin filtro de desenfoque: `blur` sobre
+   una capa de este tamaño costaba fotogramas en los móviles de gama baja y a
+   simple vista no se distingue de un radial con paradas suaves. */
+.cierre-aura {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 132%;
+  aspect-ratio: 1;
+  translate: -50% -58%;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    color-mix(in srgb, var(--tono) 42%, transparent) 0%,
+    color-mix(in srgb, var(--tono) 14%, transparent) 42%,
+    transparent 68%
+  );
+  pointer-events: none;
+}
+
+.cierre-escena {
+  position: relative;
+  perspective: 900px;
+  display: grid;
+  place-items: center;
+}
+
+.cierre-libro {
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+/* La tapa recorta el barrido de luz. El radio y la sombra son los mismos que
+   los de la portada en la estantería, para que sea reconociblemente el mismo
+   objeto que se ha estado viendo. */
+.cierre-tapa {
+  position: relative;
+  width: 120px;
+  aspect-ratio: 2 / 3;
+  border-radius: 9px;
+  overflow: hidden;
+  box-shadow:
+    0 1px 2px rgb(0 0 0 / 0.16),
+    0 14px 30px -10px rgb(0 0 0 / 0.34);
+  background: var(--paper-deep);
+}
+
+.cierre-cubierta {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* La banda de luz. `mix-blend-mode: overlay` la hace clarear la cubierta en
+   vez de taparla, que es la diferencia entre un escaneo y un folio blanco
+   pasando por encima. */
+.cierre-barrido {
+  position: absolute;
+  inset-inline: -20%;
+  height: 46%;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgb(255 255 255 / 0.42) 38%,
+    rgb(255 255 255 / 0.92) 50%,
+    rgb(255 255 255 / 0.42) 62%,
+    transparent 100%
+  );
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
+
+.cierre-anillo {
+  position: absolute;
+  inset: -4px;
+  width: calc(100% + 8px);
+  height: calc(100% + 8px);
+  pointer-events: none;
+  overflow: visible;
+}
+
+/* Las chispas. Una por idea: el número no es decorativo, sale de contar las
+   cajas del rayo del resumen. */
+.cierre-chispas {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.cierre-chispa {
+  position: absolute;
+  bottom: 18%;
+  width: 7px;
+  height: 7px;
+  border-radius: 2px;
+  rotate: 45deg;
+  background: var(--tono);
+  box-shadow: 0 0 10px color-mix(in srgb, var(--tono) 70%, transparent);
+}
+
+.cierre-chispa-quieta {
+  position: static;
+  rotate: 45deg;
+  width: 6px;
+  height: 6px;
+}
+
+.cierre-rotulo {
+  min-height: 26px;
+  margin-top: 22px;
+  display: grid;
+  place-items: center;
+}
+
+.cierre-rotulo p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 560;
+  letter-spacing: -0.01em;
+  color: var(--ink-soft);
+  grid-area: 1 / 1;
+}
+
+/* Las cifras ocupan su sitio desde el principio y solo cambian de opacidad:
+   si se montaran al llegar su fase, la cubierta daría un salto hacia arriba. */
+.cierre-cifras {
+  display: flex;
+  gap: 38px;
+  margin-top: 26px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.cierre-cifras[data-visible="true"] { opacity: 1; }
+
+.cierre-dato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 104px;
+}
+
+.cierre-barra {
+  width: 88px;
+  height: 5px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--ink) 10%, transparent);
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.cierre-relleno {
+  width: 100%;
+  height: 100%;
+  border-radius: 999px;
+  transform-origin: left center;
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--tono) 55%, transparent),
+    var(--tono)
+  );
+  box-shadow: 0 0 12px color-mix(in srgb, var(--tono) 60%, transparent);
+}
+
+/* La fila de chispas posadas mide lo mismo que la barra de al lado, para que
+   las dos columnas arranquen a la misma altura. */
+.cierre-posadas {
+  height: 5px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.cierre-numero {
+  margin: 0;
+  font-size: 44px;
+  font-weight: 680;
+  letter-spacing: -0.035em;
+  line-height: 1;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.cierre-pie {
+  margin: 7px 0 0;
+  font-size: 11px;
+  font-weight: 640;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.cierre-boton {
+  margin-top: auto;
+  width: 100%;
+}
+
+/* En una pantalla baja —un iPhone SE— lo que cede es el aire, nunca el tamaño
+   de las cifras: son lo único que hay que leer. */
+@media (max-height: 700px) {
+  .cierre-rotulo { margin-top: 16px; }
+  .cierre-cifras { margin-top: 18px; gap: 30px; }
+  .cierre-tapa { width: 104px; }
+}

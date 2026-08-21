@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, type ReactElement } from "react";
-import { AnimatePresence, animate, motion, useReducedMotion } from "framer-motion";
-import { MINUTOS_OBJETIVO, TOTAL_XP } from "./lesson";
+import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
+import { MINUTOS_OBJETIVO } from "./lesson";
 import { cargarResumen, resumenCargado } from "./libros/indice";
 import type { Resumen } from "./libros/tipos";
 import { minutos as minutosDe } from "./libros/tipos";
@@ -17,10 +17,11 @@ import { Ajustes } from "./Ajustes";
 import { usePreferencias } from "./preferencias";
 import { AntiScroll } from "./AntiScroll";
 import { Lector } from "./Lector";
+import { FinResumen } from "./FinResumen";
 import { PAGINAS, paginasDeResumen } from "./libros/paginas";
 import { AvisoRegalo, Oferta } from "./Regalo";
 import { Resena, tocaPedirResena } from "./Resena";
-import { enterVariants, spring, springPop, springSoft, springTight } from "./motion";
+import { spring, springPop, springSoft, springTight } from "./motion";
 import { GlyphBiblioteca, GlyphLibros, GlyphLupa, GlyphRayo } from "./glyphs";
 
 type Pantalla =
@@ -48,6 +49,23 @@ const SUSCRITO = true;
    ?p=shorts abre directamente el muro. Sirve para revisar el diseño en el
    navegador y para las capturas, y no molesta a nadie: sin el parámetro la
    app arranca donde siempre. */
+/** Cuántas cajas del rayo tiene un resumen escrito a mano.
+ *
+ *  Es la cifra que enseña la pantalla de cierre, y no es decorativa: cada
+ *  página del resumen lleva exactamente una idea —la regla 3 de REDACCION.md,
+ *  «una idea por página»—, así que contarlas es contar las páginas que de
+ *  verdad afirman algo. Un libro que todavía se lea con el resumen viejo por
+ *  tarjetas devuelve cero y esa columna no se pinta.
+ */
+function ideasDe(id: string): number {
+  const paginas = PAGINAS[id];
+  if (!paginas) return 0;
+  return paginas.reduce(
+    (total, pagina) => total + pagina.bloques.filter((b) => b.b === "idea").length,
+    0,
+  );
+}
+
 function pantallaInicial(): Pantalla {
   if (typeof window === "undefined") return "intro";
   /* En un visor que no da URL propia —el simulador de móvil que se publica
@@ -160,11 +178,6 @@ export default function App() {
      está puesto. De él salen las páginas del lector. */
   const [resumen, setResumen] = useState<Resumen | undefined>(() => resumenCargado(libro.id));
   const objetivoLibro = resumen ? Math.max(1, Math.round(minutosDe(resumen) / resumen.partes.length)) : MINUTOS_OBJETIVO;
-  /* Lo que dura el resumen ENTERO. Desde que el lector va por ocho páginas y
-     no por capítulos, lo que se termina es el libro, así que la pantalla de
-     cierre tiene que medirse contra esto y no contra los cinco minutos de un
-     capítulo, que era la cifra de la lección de muestra. */
-  const objetivoResumen = resumen ? Math.max(1, Math.round(minutosDe(resumen))) : MINUTOS_OBJETIVO;
 
   // Al cambiar de libro se vacía lo anterior y se pide lo nuevo. El `vivo`
   // evita que una descarga lenta de un libro que ya se ha cerrado pise el
@@ -395,7 +408,20 @@ export default function App() {
           )}
 
           {pantalla === "fin" && (
-            <Fin key="fin" minutos={minutos} objetivo={objetivoResumen} onCerrar={() => setPantalla("racha")} />
+            <FinResumen
+              key="fin"
+              id={libro.id}
+              titulo={libro.titulo}
+              autor={libro.autor}
+              categoria={libro.categoria}
+              color={libro.color}
+              /* Los de la FICHA, no los que ha tardado el lector. Es la cifra
+                 que vio antes de entrar, así que al terminar tiene que
+                 coincidir; ver REDACCION.md, apartado 2 ter. */
+              minutosAudio={libro.minutos ?? 0}
+              ideas={ideasDe(libro.id)}
+              onCerrar={() => setPantalla("racha")}
+            />
           )}
           {pantalla === "racha" && (
             <Racha key="racha" dias={1} onContinuar={() => setPantalla("reto")} />
@@ -611,101 +637,10 @@ function reloj() {
    Cierre
    ========================================================================== */
 
-function Fin({
-  minutos,
-  objetivo,
-  onCerrar,
-}: {
-  minutos: number;
-  /** Lo que dura el resumen entero, en minutos. */
-  objetivo: number;
-  onCerrar: () => void;
-}) {
-  const [xp, setXp] = useState(0);
+/* La pantalla de cierre vive en `FinResumen.tsx` desde el 21 de agosto.
 
-  useEffect(() => {
-    const control = animate(0, TOTAL_XP, {
-      duration: 1.1,
-      ease: "easeOut",
-      onUpdate: (v) => setXp(Math.round(v)),
-    });
-    return () => control.stop();
-  }, []);
-
-  // Se mide contra lo que dura el resumen, no contra una cifra inventada.
-  const aTiempo = minutos >= objetivo * 0.6;
-  const texto = minutos < 1
-    ? `${Math.round(minutos * 60)} s`
-    : `${minutos.toFixed(1).replace(".", ",")} min`;
-
-  return (
-    <motion.div
-      className="done"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: spring }}
-      exit={{ opacity: 0, transition: { duration: 0.2 } }}
-    >
-      <motion.svg
-        width="128"
-        height="128"
-        viewBox="0 0 132 132"
-        initial={{ scale: 0.6, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1, transition: { ...springPop, delay: 0.1 } }}
-      >
-        <circle cx="66" cy="66" r="60" fill="var(--sage-veil)" />
-        <circle cx="66" cy="66" r="46" fill="var(--sage)" />
-        <motion.path
-          d="M 48 67 L 61 80 L 86 53"
-          fill="none"
-          stroke="var(--paper)"
-          strokeWidth="7"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1, transition: { ...springTight, delay: 0.34 } }}
-        />
-      </motion.svg>
-
-      <motion.h2 custom={2} variants={enterVariants} initial="hidden" animate="shown">
-        Resumen<br />completado
-      </motion.h2>
-
-      <div className="done-cifras">
-        <motion.div custom={3} variants={enterVariants} initial="hidden" animate="shown">
-          <p className="done-label">Experiencia</p>
-          <p className="done-xp">{xp}</p>
-        </motion.div>
-        <motion.div custom={4} variants={enterVariants} initial="hidden" animate="shown">
-          <p className="done-label">Tiempo de lectura</p>
-          <p className="done-xp" data-flojo={!aTiempo}>{texto}</p>
-        </motion.div>
-      </div>
-
-      <motion.p
-        className="done-nota"
-        custom={5}
-        variants={enterVariants}
-        initial="hidden"
-        animate="shown"
-      >
-        {aTiempo
-          ? `Dentro de los ${objetivo} minutos previstos para este resumen.`
-          : `Has ido rápido: este resumen está pensado para unos ${objetivo} minutos.`}
-      </motion.p>
-
-      <div className="done-cta">
-        <motion.button
-          className="primary-btn"
-          onClick={onCerrar}
-          whileTap={{ scale: 0.97 }}
-          custom={6}
-          variants={enterVariants}
-          initial="hidden"
-          animate="shown"
-        >
-          Continuar
-        </motion.button>
-      </div>
-    </motion.div>
-  );
-}
+   La que había aquí era de cuando la app iba por tarjetas: enseñaba puntos de
+   experiencia y el tiempo que habías tardado en leer, medido con un
+   cronómetro desde que abrías el resumen. Pablo la mandó rehacer a partir de
+   las capturas de Headway, y con ella se fueron `TOTAL_XP` y el aviso de «has
+   ido rápido», que castigaba justamente a quien lee deprisa. */
