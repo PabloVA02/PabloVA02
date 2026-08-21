@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "siete-lecciones-fisica":
+    "Siete artículos escritos para el suplemento dominical de un diario italiano, sin una sola ecuación y en ochenta páginas. Vendieron más de un millón de ejemplares y encabezaron las listas de ventas por delante de las novelas del momento.",
+
   "vida-arboles":
     "Un guarda forestal alemán encontró en su bosque un tocón de haya talado hacía siglos cuya madera seguía verde por dentro. Sin hojas no puede alimentarse, así que llevaba cuatrocientos años recibiendo azúcares de sus vecinos.",
 

@@ -30087,7 +30087,272 @@ const VIDA_ARBOLES: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Siete breves lecciones de física, en ocho páginas.
+
+   Breve, y aquí es casi obligado: el original tiene ochenta páginas y son
+   siete artículos de periódico.
+
+   Ensayo científico: titular que afirma, tercera persona.
+
+   La conclusión dice lo que el libro no dice con suficiente claridad: la
+   teoría del capítulo quinto es la del propio autor, no está confirmada
+   por ningún experimento y no es la mayoritaria.
+   -------------------------------------------------------------------------- */
+
+const SIETE_LECCIONES_FISICA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ochenta páginas escritas para un suplemento dominical" },
+      {
+        b: "texto",
+        texto:
+          "Carlo Rovelli es físico teórico y trabaja en uno de los problemas abiertos más difíciles de su disciplina: cómo encajar la teoría de la gravedad de Einstein con la mecánica cuántica, que hoy son incompatibles. En 2013 le pidieron unos artículos de divulgación para el suplemento dominical de un diario económico italiano, y escribió siete.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Recogidos en un volumen de ochenta páginas, aquellos artículos se convirtieron en un fenómeno editorial: superaron el millón de ejemplares, encabezaron las listas de ventas en Italia por delante de las novelas del momento y se tradujeron a más de cuarenta idiomas. Es probablemente el libro de física más vendido de la última década.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su decisión de estilo explica buena parte de eso. No hay ni una ecuación, los capítulos duran diez páginas y la prosa es deliberadamente literaria, con citas de Dante y de Lucrecio y con adjetivos que un artículo científico no admitiría. Rovelli habla de la teoría de Einstein como se hablaría de una obra de arte, y sostiene que eso no es un adorno: que la belleza formal es lo que guió su descubrimiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren las siete lecciones: qué dice la relatividad general, qué tres cosas raras trae la mecánica cuántica, cómo ha ido cambiando nuestra imagen del universo, de qué está hecho todo, qué propone la teoría en la que él mismo trabaja, por qué el pasado se distingue del futuro y qué lugar ocupamos nosotros en todo esto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro de física de ochenta páginas y sin una sola ecuación vendió más de un millón de ejemplares, cosa que no había pasado nunca.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El espacio no es un escenario donde ocurren las cosas: es una de las cosas",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera lección trata la relatividad general de 1915, que Rovelli considera la teoría más hermosa que se ha formulado. Su idea de partida se le ocurrió a Einstein diez años antes y él la llamó la más feliz de su vida: una persona en caída libre no siente su propio peso. Si alguien cae, no nota ninguna fuerza; flota.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la conclusión que cambió la física. Si la gravedad no se siente cuando uno se deja llevar por ella, quizá no sea una fuerza que tira de los objetos, sino una propiedad del propio espacio. Einstein tardó diez años en convertir esa intuición en matemáticas, y el resultado dice que el espacio y el tiempo no son un escenario fijo donde las cosas suceden: son un campo que se curva, se estira y ondula.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La imagen que Rovelli propone es la de un molusco enorme y flexible. La Tierra no gira alrededor del Sol porque una fuerza invisible la atraiga a distancia, sino porque el Sol deforma el espacio a su alrededor y la Tierra recorre el camino más recto posible dentro de esa deformación, igual que una canica rueda por un embudo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las consecuencias fueron todas comprobadas después: la luz se curva al pasar cerca de una masa, el tiempo transcurre más despacio cuanto más cerca se está de una, el universo se expande y existen los agujeros negros. Todo eso estaba dentro de unas ecuaciones escritas antes de que hubiera manera de medirlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La Tierra no gira porque el Sol tire de ella: recorre el camino más recto posible dentro de un espacio que el Sol ha deformado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La mecánica cuántica trae tres cosas raras y ninguna es intuitiva" },
+      {
+        b: "texto",
+        texto:
+          "La segunda lección aborda la otra gran teoría del siglo XX, que funciona con una precisión extraordinaria, sostiene toda la tecnología moderna y sigue sin que nadie se ponga de acuerdo en qué significa. Nació en 1900 con Planck y dio su forma definitiva en 1925, cuando un joven de veinticuatro años llamado Heisenberg pasó unos días en una isla del mar del Norte huyendo de una alergia y volvió con las ecuaciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rovelli resume lo que aporta en tres rarezas. La primera es la granularidad: la energía no viene en cantidades continuas sino en paquetes mínimos, como si el mundo estuviera hecho de píxeles. La segunda es la indeterminación: no se puede predecir dónde estará un electrón, solo la probabilidad de encontrarlo en cada sitio, y esa incertidumbre no es ignorancia nuestra sino una propiedad del mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es la que a él más le interesa y es la más difícil de digerir: la relacionalidad. Un electrón no tiene una posición mientras nadie interactúe con él; solo la adquiere en el momento del choque con otra cosa, y solo respecto a esa cosa. Rovelli sostiene que las propiedades de un objeto no existen en abstracto, sino siempre en relación con otro objeto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene saber que esa última afirmación no es una descripción neutral del consenso, sino la interpretación que el propio Rovelli defiende desde los años noventa. Existen varias interpretaciones rivales de la mecánica cuántica, todas compatibles con los mismos experimentos, y ninguna se ha impuesto. El libro lo menciona muy de pasada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las ecuaciones de la mecánica cuántica llevan un siglo funcionando perfectamente y nadie se pone de acuerdo en qué están describiendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nuestra imagen del universo ha cambiado por completo seis veces" },
+      {
+        b: "texto",
+        texto:
+          "La tercera lección repasa cómo ha ido cambiando el dibujo que la humanidad hace del cosmos, y lo hace con dibujos: literalmente, con esquemas sencillos, uno por época. Es la lección más breve y la que mejor se recuerda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Empieza con la imagen antigua: una Tierra plana con una bóveda encima. Sigue con la primera revolución, que Rovelli atribuye a Anaximandro en el siglo VI antes de Cristo: darse cuenta de que el cielo no está solo encima sino también debajo, porque el Sol se pone por un lado y sale por otro, de modo que la Tierra flota en el espacio y no se apoya en nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después vienen las esferas concéntricas de Aristóteles y Ptolomeo, con la Tierra en el centro; el giro copernicano, con el Sol en el centro y la Tierra convertida en un planeta más; y el descubrimiento de que aquel Sol es una estrella entre miles de millones en una galaxia. En 1924, Hubble comprobó que hay otras galaxias, y poco después, que se alejan unas de otras: el universo está en expansión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cierra con la imagen actual, que ya no es intuitiva. Si la teoría de Einstein describe bien el conjunto, el universo podría ser finito y no tener borde, del mismo modo que la superficie de la Tierra es finita y no tiene ningún sitio donde acabe. En cada paso de esa lista, señala Rovelli, la humanidad tuvo que renunciar a una imagen que le parecía evidente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cada uno de esos seis dibujos parecía el sentido común de su época, y los seis fueron sustituidos por otro que parecía absurdo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La teoría que mejor funciona de la historia es la que menos les gusta",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cuarta lección presenta el modelo estándar de partículas, que describe de qué está hecho todo lo que se puede tocar. La lista es corta: unos cuantos tipos de quarks, que forman los protones y neutrones del núcleo; los electrones; unas partículas casi fantasmales llamadas neutrinos; y las partículas que transmiten las fuerzas, entre ellas el fotón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rovelli subraya que lo que hay detrás no son bolitas sino campos. Un electrón no es una canica minúscula: es una excitación de un campo que llena el espacio, igual que una ola no es un objeto sino una forma que adopta el agua. Y esos campos son a la vez los que forman el espacio mismo, según la lección siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante del capítulo es lo que dice de la actitud de los físicos hacia esta teoría. El modelo estándar hace predicciones que se han comprobado con una precisión sin comparación en ninguna otra ciencia, incluida la existencia de partículas que se detectaron décadas después de ser previstas. Y a la mayoría de los físicos no les gusta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo es estético y también práctico: la teoría contiene una veintena de constantes cuyos valores no se deducen de nada y hay que medir y meter a mano, tiene un aspecto desordenado y no incluye la gravedad. Rovelli lo cuenta como una lección sobre cómo funciona su gremio: una teoría que acierta siempre y parece un remiendo genera desconfianza, porque la experiencia dice que las buenas suelen ser simples.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una teoría que acierta siempre y a la vez parece un remiendo desconfía a los físicos, porque las buenas suelen ser simples.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Si el espacio está hecho de granos, no hay nada donde ponerlos" },
+      {
+        b: "texto",
+        texto:
+          "La quinta lección es la del propio campo de investigación de Rovelli y conviene leerla sabiéndolo. El problema de fondo es que las dos grandes teorías del siglo XX se contradicen: la relatividad describe un espacio continuo y liso, y la mecánica cuántica dice que todo viene en paquetes discretos. En condiciones normales no chocan, porque cada una gobierna una escala distinta; en el interior de un agujero negro o en el origen del universo, chocan de frente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La propuesta en la que él trabaja se llama gravedad cuántica de bucles y aplica a la propia geometría lo que la cuántica hizo con la energía. Si la energía viene en paquetes, tal vez el espacio también: existiría un tamaño mínimo, muchísimo más pequeño que un núcleo atómico, por debajo del cual la palabra distancia deja de tener sentido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia difícil de imaginar es que esos granos no están en ninguna parte. No son objetos colocados dentro de un espacio, porque no hay ningún espacio previo donde ponerlos: son ellos, y sus relaciones entre sí, lo que llamamos espacio. Y ocurre lo mismo con el tiempo: en las ecuaciones fundamentales de esta teoría, la variable tiempo no aparece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí es donde el libro necesita un aviso que no da con claridad. Ni esta teoría ni ninguna de sus rivales está confirmada por ningún experimento: no hay manera actual de medir a esa escala. Y la teoría más trabajada por la comunidad internacional es otra distinta, la de cuerdas, que Rovelli menciona apenas de pasada en un libro donde presenta la suya como la respuesta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los granos de espacio no están dentro de ningún sitio: no hay un espacio previo donde colocarlos, porque ellos son el espacio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El pasado se distingue del futuro solo porque miramos borroso" },
+      {
+        b: "texto",
+        texto:
+          "La sexta lección plantea un problema que sorprende a cualquiera que lo oiga por primera vez: en las leyes fundamentales de la física no hay ninguna diferencia entre el pasado y el futuro. Las ecuaciones funcionan igual hacia delante que hacia atrás, y no contienen nada que señale una dirección.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y sin embargo la experiencia dice lo contrario. Una taza se rompe y no se recompone; el calor pasa de lo caliente a lo frío y nunca al revés; uno recuerda el pasado y no el futuro. La única ley de la física que distingue las dos direcciones es la segunda de la termodinámica, que dice que el desorden de un sistema aislado no disminuye.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación que Rovelli desarrolla viene de Boltzmann y es sutil. El desorden no es una propiedad del mundo, es una propiedad de cómo lo describimos. Cuando decimos que una baraja está desordenada, estamos usando una descripción gruesa que no distingue entre miles de configuraciones concretas; y hay muchísimas más maneras de que las cosas estén revueltas que ordenadas, así que lo probable es ir hacia lo revuelto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca su conclusión, que es la idea más audaz del libro. El paso del tiempo no estaría en el mundo sino en nuestra manera aproximada de mirarlo: percibimos el universo de forma borrosa, ignorando la mayor parte de sus detalles, y esa ceguera es la que produce la sensación de dirección. Es una hipótesis suya y hay físicos que no la comparten.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay muchísimas más maneras de que algo esté revuelto que ordenado, y de esa aritmética sale toda la dirección del tiempo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Siete breves lecciones de física recorre en ochenta páginas las dos grandes teorías del siglo XX, de qué está hecha la materia, cómo ha cambiado nuestra imagen del universo, qué se está intentando para unir las dos teorías incompatibles y por qué el tiempo tiene una dirección. La séptima lección se ocupa de nosotros y termina en un sitio poco habitual en un libro de divulgación: recordando que nuestra especie es un episodio breve, que probablemente se extinguirá y que la Tierra seguirá funcionando sin ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una puerta de entrada. Alguien que no haya abierto un libro de ciencia en veinte años lo termina en dos tardes y sale sabiendo qué dice la relatividad, qué es un campo y por qué el modelo estándar incomoda a sus propios usuarios.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Somos, escribe, una especie curiosa capaz de saber que va a desaparecer, y esa es una rareza mayor que cualquiera de las anteriores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es una introducción y no explica nada a fondo: quien quiera entender de verdad la mecánica cuántica no la va a entender aquí, y en varios pasajes la prosa lírica ocupa el lugar que debería tener la explicación. Rovelli lo advierte, y aun así conviene decirlo, porque el libro se recomienda a menudo como si diera más de lo que da.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un problema de honestidad expositiva que es el reproche serio. En dos de las siete lecciones —la de la interpretación de la mecánica cuántica y la de los granos de espacio— lo que se presenta con tono de estado de la cuestión es en realidad la posición del propio autor: su interpretación relacional es minoritaria, y su teoría de la gravedad cuántica de bucles es una entre varias candidatas, ninguna confirmada por ningún experimento, y no la más trabajada por la comunidad. Nada de eso desmerece el libro, y un lector que no lo sepa acabará creyendo que la física ya ha resuelto cosas que están abiertas.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "siete-lecciones-fisica": SIETE_LECCIONES_FISICA,
   "vida-arboles": VIDA_ARBOLES,
   "mundo-demonios": MUNDO_DEMONIOS,
   nudge: NUDGE,

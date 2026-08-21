@@ -552,22 +552,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "siete-lecciones-fisica",
-    titulo: "Siete breves lecciones de física",
-    autor: "Carlo Rovelli",
-    ano: 2014,
-    gancho: "Noventa y seis páginas escritas para el suplemento dominical de un periódico económico. Vendieron más de un millón de ejemplares y convirtieron a un físico de Marsella en un autor de masas a los cincuenta y ocho años.",
-    porQue: "Porque es el mejor libro que existe para entender qué siente un físico ante lo que estudia. Y porque hay que saber una cosa que el libro no dice con claridad: su quinta lección defiende la propia teoría del autor, que es minoritaria y no está confirmada.",
-    minutos: 26.3,
-    capitulos: [
-      { titulo: "Siete artículos en el suplemento del domingo", minutos: 5.2 },
-      { titulo: "La idea más bella de la ciencia", minutos: 5.2 },
-      { titulo: "El mundo hecho de granos", minutos: 5.3 },
-      { titulo: "El tiempo que no está en la ecuación", minutos: 5.3 },
-      { titulo: "Nosotros, que estamos hechos de lo mismo", minutos: 5.2 },
-    ],
-  },
-  {
     id: "orden-del-tiempo",
     titulo: "El orden del tiempo",
     autor: "Carlo Rovelli",

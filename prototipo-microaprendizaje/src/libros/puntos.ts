@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "siete-lecciones-fisica": [
+    "por qué el espacio no es un escenario donde ocurren las cosas",
+    "qué tres rarezas trae la mecánica cuántica",
+    "cómo ha cambiado seis veces nuestra imagen del universo",
+    "por qué a los físicos no les gusta su teoría más exacta",
+    "por qué el pasado se distingue del futuro",
+  ],
+
   "vida-arboles": [
     "cómo se avisan los árboles cuando algo los está mordiendo",
     "qué hay debajo del suelo que conecta un bosque entero",
