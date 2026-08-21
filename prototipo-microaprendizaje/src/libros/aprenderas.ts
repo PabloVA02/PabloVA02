@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "hombre-rico-babilonia":
+    "En 1926, un editor de mapas empezó a repartir folletos con parábolas sobre dinero ambientadas hace cuatro mil años; los bancos los regalaban a sus clientes. De ahí salió el libro del que descienden todos los manuales de finanzas personales.",
+
   "casa-espiritus":
     "Empezó como una carta a un abuelo de noventa y nueve años que se estaba muriendo en Chile mientras su nieta seguía en el exilio. La carta creció hasta quinientas páginas y acabó siendo cuatro generaciones de una familia y un golpe de Estado.",
 

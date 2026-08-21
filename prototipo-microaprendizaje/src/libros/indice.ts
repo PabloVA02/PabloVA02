@@ -29,7 +29,6 @@ const CARGADORES: Record<string, Cargador> = {
   /* Psicología */
 
   /* Economía */
-  "hombre-rico-babilonia": () => import("./economia").then((m) => m.BABILONIA),
 
   /* Filosofía */
 

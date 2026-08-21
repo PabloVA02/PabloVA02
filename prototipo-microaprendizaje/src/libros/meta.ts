@@ -1352,22 +1352,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "hombre-rico-babilonia",
-    titulo: "El hombre más rico de Babilonia",
-    autor: "George S. Clason",
-    ano: 1926,
-    gancho: "Un vendedor de mapas de Denver inventó una Babilonia entera para poder decirte que ahorres el diez por ciento.",
-    porQue: "Es el libro de finanzas personales más antiguo que sigue en las listas, y conviene saber qué parte de él es consejo comprobable y qué parte es decorado.",
-    minutos: 25.7,
-    capitulos: [
-      { titulo: "El vendedor de mapas de Denver", minutos: 5.1 },
-      { titulo: "Bansir deja el carro a medio hacer", minutos: 5.1 },
-      { titulo: "Las siete curas y las cinco leyes", minutos: 5.1 },
-      { titulo: "Las tablillas que nadie ha desenterrado", minutos: 5.2 },
-      { titulo: "Lo que queda cuando se quita Babilonia", minutos: 5.2 },
-    ],
-  },
-  {
     id: "antifragil",
     titulo: "Antifrágil",
     autor: "Nassim Taleb",

@@ -23431,7 +23431,243 @@ const CASA_ESPIRITUS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El hombre más rico de Babilonia, en ocho páginas.
+
+   Breve.
+
+   Libro PRÁCTICO de dinero, así que aquí sí va la segunda persona en la
+   prosa, como manda el apartado 4.7. Titular que afirma.
+
+   La conclusión lleva el reproche que este libro casi nunca recibe: su
+   premisa es que solo hace falta disciplina, y eso no vale para quien
+   gana lo justo para comer.
+   -------------------------------------------------------------------------- */
+
+const HOMBRE_RICO_BABILONIA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El manual de finanzas más veterano empezó como publicidad de un banco",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1926, un editor de mapas de Estados Unidos llamado George Clason empezó a repartir unos folletos con parábolas sobre dinero ambientadas en la antigua Babilonia. No los vendía: se los daba a bancos y a compañías de seguros, que los regalaban a sus clientes como material promocional. Los folletos circularon durante años en cantidades enormes y acabaron reunidos en un libro que lleva un siglo vendiéndose.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ambientación no es un capricho. Clason eligió Babilonia porque fue la primera ciudad conocida que usó préstamos con interés, contratos escritos y depósitos, y porque situar los consejos hace cuatro mil años los saca de cualquier discusión sobre la coyuntura. Nadie puede decir que aquello valía para otra época, porque la época que propone es la más antigua posible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El personaje principal es Arkad, el hombre más rico de la ciudad, que empezó siendo un escriba que grababa tablillas de arcilla por un jornal. Sus antiguos compañeros van a preguntarle cómo lo hizo, con el argumento de que todos empezaron igual, y él les responde con las reglas que ocupan el resto del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que enseña: cuál es la primera regla y por qué está antes que ninguna otra, por qué los gastos necesarios crecen siempre, qué hay que hacer con lo que se ahorra, qué plan usa para salir de deudas, cuál de sus leyes ha hecho perder más dinero a más gente y qué truco literario emplea para que todo esto parezca comprobado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro fundador de las finanzas personales no se escribió para venderse: se regalaba en la ventanilla de un banco.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una parte de todo lo que ganas es tuya para conservarla" },
+      {
+        b: "texto",
+        texto:
+          "La primera regla del libro es también la frase que lo resume, y conviene leerla despacio porque no dice lo que parece: una parte de todo lo que ganas es tuya para conservarla. La idea detrás es que casi nadie se queda con nada de lo que cobra. Lo cobras, y a los pocos días está en manos del casero, del supermercado, de la compañía eléctrica y de quien te vendió algo. De todo lo que has ganado en tu vida, lo tuyo es exclusivamente lo que no has entregado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cantidad que propone Arkad es una décima parte, y la propone con un argumento comprobable: si apartas la décima parte de lo que cobras, en un año habrás vivido con nueve décimas y no notarás una diferencia que puedas señalar. Su prueba es que la gente vive con lo que tiene, tenga lo que tenga, y que quien gana un diez por ciento más al cabo de un tiempo no vive un diez por ciento mejor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo importante es el orden. Esa décima parte se aparta el día que entra el dinero, antes de pagar nada, no con lo que sobra a fin de mes, porque a fin de mes no sobra nunca. Ese cambio de orden es todo el mecanismo, y es lo que hoy se enseña con el nombre de págate primero a ti mismo, que viene directamente de aquí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "De todo lo que has ganado en tu vida, lo único que es tuyo es lo que no llegaste a entregarle a nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los gastos necesarios crecen siempre hasta igualar los ingresos" },
+      {
+        b: "texto",
+        texto:
+          "La segunda regla explica por qué la primera fracasa en casi todo el mundo, y es la observación más aguda del libro. Cuando alguien mira su presupuesto, ve una lista de gastos que le parecen todos imprescindibles y concluye que no hay margen. Arkad contesta que eso ocurre siempre y a todos los niveles de ingreso, porque lo que llamamos gastos necesarios es una lista que se estira sola hasta ocupar exactamente lo que entra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba está en tu propia vida y no hace falta ningún estudio. Piensa en lo que ganabas hace cinco o diez años. Entonces cubrías tus gastos necesarios y hoy también, y sin embargo hoy ganas más y no te sobra más. Lo que ha crecido no es tu nivel de vida en algo que puedas nombrar: es la lista de lo que consideras que no se puede quitar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su recomendación práctica es hacer una lista escrita de todos los deseos y separar los que se pueden cumplir con las nueve décimas partes restantes. Los demás no desaparecen: se aplazan sin dramatismo. Y avisa de algo que el resto del género repite un siglo después: no confundas un gasto con una necesidad solo porque llevas años pagándolo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que llamas gastos imprescindibles no es una lista fija: es una lista que crece exactamente hasta donde tú la dejes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El dinero parado no es riqueza: es un montón que se encoge" },
+      {
+        b: "texto",
+        texto:
+          "La tercera regla corrige el error de quien ha entendido las dos primeras. Ahorrar no basta, porque una cantidad guardada no crece y, entre tanto, todo lo demás sube de precio. Arkad lo dice a su manera: el oro que se guarda en una bolsa no produce nada; el oro que trabaja para ti te trae más oro y ese oro trae otro, y así mientras vivas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo es un cálculo. Si prestas mil monedas y te devuelven algo cada año, y en vez de gastar esa ganancia la vuelves a prestar junto al resto, la cantidad crece cada vez más deprisa aunque tú no aportes nada nuevo. Es el interés compuesto explicado sin decir su nombre, en un texto de 1926 ambientado hace cuatro mil años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí viene su definición de riqueza, que es la más útil del libro. Rico no es quien tiene mucho dinero guardado, porque eso se acaba. Rico es quien tiene una corriente de ingresos que sigue llegando aunque no trabaje ni un día más. Con esa definición, mucha gente con un sueldo alto no es rica en absoluto: solo cobra mucho mientras siga yendo. Y avisa contra la trampa que le sigue: quien empieza a ganar más tiende a subir su nivel de vida a la misma velocidad, con lo cual pasa toda su vida ganando más y sin acercarse ni un paso a esa corriente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ser rico no es tener una cantidad guardada: es tener algo que sigue entrando cuando dejas de ir a trabajar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Setenta para vivir, veinte para las deudas, diez para ti" },
+      {
+        b: "texto",
+        texto:
+          "La mejor historia del libro es la de Dabasir, un tratante de camellos que se arruina, huye de sus acreedores, acaba vendido como esclavo en el desierto y consigue volver a Babilonia. Lo que hace al llegar es lo que interesa: en vez de esconderse, se presenta ante cada uno de sus acreedores con una lista escrita de lo que le debe a cada uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y les propone un reparto de todo lo que gane, con tres partes. El setenta por ciento para vivir, porque si no puede comer y vestirse no podrá trabajar y no cobrará nadie. El veinte por ciento repartido entre todos los acreedores en proporción a lo que se les debe. Y el diez por ciento para él, intocable, que es la regla primera aplicada incluso estando arruinado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese último punto es el que hace el plan distinto de cualquier acuerdo de pago, y es el que suele llamar la atención de quien lo lee endeudado. Dabasir sigue apartando su décima parte mientras devuelve el dinero, y su argumento es psicológico: un hombre que solo ve salir dinero durante tres años acaba abandonando el plan, mientras que uno que ve crecer algo propio, por poco que sea, aguanta hasta el final.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Algunos acreedores lo aceptan de buen grado, otros le insultan y uno le persigue por la calle. Él paga a todos igual, cada vez que cobra, y anota cada pago. Tarda algo más de dos años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un plan para salir de deudas que no te deja quedarte con nada lo abandonarás, aunque las cuentas salgan mejor que en ninguno.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La ley que más dinero ha hecho perder" },
+      {
+        b: "texto",
+        texto:
+          "El libro tiene un capítulo con cinco leyes del oro, y una de ellas está redactada con toda intención para que duela. Dice que el dinero huye de quien lo pone a producir en algo que no entiende o siguiendo el consejo de gente que no tiene experiencia en ese asunto concreto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que da Arkad es de su propia juventud, y es el mejor golpe del libro. Le entregó sus ahorros a un ladrillero para que comprara joyas en Fenicia, porque le pareció un hombre honrado y de confianza. Lo era. Volvió con unos cristales de colores que le habían vendido como gemas. Arkad lo cuenta sin rencor y saca la lección exacta: no le pidió consejo a un mentiroso, se lo pidió a un albañil sobre joyas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade la regla complementaria, la de proteger el capital principal antes de buscar ganancia. Un rendimiento alto que puede llevarse todo lo que has puesto no es un buen negocio con un poco de riesgo: es un mal negocio con una etiqueta atractiva. Arkad recomienda no arriesgar nunca lo que no se pueda perder entero, cosa que su propio libro le va a costar recordar al lector varias veces.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de seguir un consejo sobre dinero, mira si quien te lo da tiene experiencia en eso exactamente, no en algo parecido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Unas tablillas de arcilla y un profesor de Nottingham" },
+      {
+        b: "texto",
+        texto:
+          "El libro incluye una jugada narrativa que casi nadie menciona y que explica buena parte de su eficacia. Uno de los capítulos no está contado en Babilonia: son cinco tablillas de arcilla supuestamente encontradas en unas excavaciones y enviadas a un profesor de arqueología inglés, que las traduce y va publicando el contenido. Las tablillas son el diario de Dabasir mientras cumplía su plan de pagos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y a continuación viene el remate: unas cartas del propio profesor contando que él está endeudado hasta el cuello, que ha decidido probar el sistema de las tablillas por curiosidad y que, meses después, ha empezado a salir. La ficción se pliega sobre sí misma y el lector recibe el testimonio de alguien de su época y de su mundo aplicando un método antiguo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es un recurso de publicidad, y hay que verlo como lo que es: una historia inventada que funciona como prueba sin serlo. Sabiéndolo, sigue teniendo su valor, porque lo que demuestra el capítulo no es que el método funcione, sino cuál es el orden correcto de las operaciones, con las cifras apuntadas mes a mes. Conviene además fijarse en para quién se escribió todo esto. Los folletos los regalaba un banco, y un banco tiene un interés directo en que sus clientes ahorren y depositen. El consejo es bueno y el que lo repartía no era neutral, y las dos cosas pueden ser ciertas a la vez.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un testimonio inventado convence más que un argumento correcto, y por eso conviene saber cuándo estás leyendo uno.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El hombre más rico de Babilonia sostiene cinco cosas y todas caben en una página. Aparta la décima parte de lo que ganes antes de pagar nada. Los gastos que llamas necesarios crecen hasta comerse lo que entre, así que hay que ponerles un techo escrito. Lo ahorrado tiene que producir algo o se encoge solo. No pongas dinero en lo que no entiendes ni sigas consejos de quien no tiene experiencia en ese asunto. Y para salir de deudas, reparte lo que ganes en setenta, veinte y diez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta hoy, cien años después, es haber inventado el género entero. Todos los manuales de finanzas personales que vinieron después descienden de estas parábolas, y muchos dicen exactamente lo mismo con más páginas y más gráficos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Págate primero a ti mismo no es una frase moderna de un blog: está en un folleto de banco de 1926, dicha con otras palabras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Se escribió en 1926 y hay consejos que la realidad ha ido corrigiendo. Su capítulo sobre convertir la vivienda propia en la mejor inversión posible es, palabra por palabra, lo que millones de personas creyeron hasta 2008. No hay ni una mención a la inflación, ni a los impuestos, ni a la diferencia entre invertir en algo diversificado y prestarle dinero a un conocido, que es como funcionan casi todos sus ejemplos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un reproche de fondo que este libro casi nunca recibe. Su premisa entera es que la diferencia entre el rico y el pobre es la disciplina, y por eso todos sus personajes parten del mismo sitio y solo se distinguen por lo que hacen con su décima parte. Quien gana lo justo para comer y pagar un alquiler no tiene ninguna décima parte que apartar, y ese caso no aparece en ninguna página. Leído como lo que es —un método para quien ya tiene margen y lo está gastando— es excelente; leído como una explicación de por qué hay gente pobre, es falso.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "hombre-rico-babilonia": HOMBRE_RICO_BABILONIA,
   "casa-espiritus": CASA_ESPIRITUS,
   rayuela: RAYUELA,
   "bernarda-alba": BERNARDA_ALBA,

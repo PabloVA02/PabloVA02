@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "hombre-rico-babilonia": [
+    "por qué la primera regla está antes que ninguna otra",
+    "por qué los gastos necesarios crecen hasta igualar lo que ganas",
+    "qué diferencia hay entre ahorrar y ser rico",
+    "cómo reparte el libro los ingresos para salir de deudas",
+    "cuál de sus leyes ha hecho perder más dinero a más gente",
+  ],
+
   "casa-espiritus": [
     "qué son los cuadernos de anotar la vida",
     "por qué el patriarca cuenta su propia versión",
