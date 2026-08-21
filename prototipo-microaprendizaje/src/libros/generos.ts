@@ -143,6 +143,29 @@ export const GENEROS: Genero[] = [
   { id: "literatura", nombre: "Novela", sub: "Las historias que había que leer", icono: "libro", categoria: "Literatura" },
   { id: "arte", nombre: "Arte y creatividad", sub: "Mirar mejor y ponerse a hacer", icono: "paleta", categoria: "Arte" },
   { id: "deportes", nombre: "Deportes", sub: "Lo que cuesta llegar y lo que cuesta quedarse", icono: "copa", categoria: "Deportes" },
+  /* Vidas es el cajón que pidió Pablo el 21 de agosto —«me gusta la sección de
+     personalidades»— al mandar veinte fichas de Headway, donde ese cajón junta
+     a Michelle Obama, la princesa Diana, Henry Ford y Cameron Diaz.
+
+     Es el género más transversal de todos y por eso va escrito a mano y no por
+     categoría: sus libros están repartidos en Arte, Ciencia, Historia, Salud,
+     Economía y Deportes, y lo único que comparten es que se leen para saber
+     cómo fue vivir siendo esa persona. Dan igual autobiografías y biografías
+     ajenas: lo que decide es de quién trata, no quién lo firma. */
+  {
+    id: "vidas",
+    nombre: "Vidas",
+    sub: "Cómo fue por dentro ser esa persona",
+    icono: "retrato",
+    libros: [
+      "steve-jobs", "leonardo", "einstein", "feynman", "diario-ana-frank",
+      "malala", "mandela", "diarios-frida", "vida-dali", "van-gogh-cartas",
+      "vidas-vasari", "si-esto-hombre", "tatuador", "aliento-aire",
+      "open-agassi", "messi-ronaldo", "yo-soy-el-diego", "cruyff-14",
+      "soy-zlatan", "rafa-mi-historia", "mamba-mentality", "once-anillos",
+      "nunca-te-pares", "rey-del-mundo", "hablo-correr",
+    ],
+  },
 ];
 
 /* Los identificadores que existen de verdad. Una lista de arriba con una

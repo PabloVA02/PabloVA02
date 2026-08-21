@@ -783,6 +783,32 @@ ha leído *1984*; «por qué la tortura busca creencia y no información», sí.
 Y van **en minúscula**, como en la referencia: detrás del visto no empieza una
 frase, se continúa la del rótulo —aprenderás… esto—.
 
+### Lo que enseñan las veinte fichas del 21 de agosto
+
+Es la única tanda de FICHAS que hay, y la ficha se ve antes que el resumen, así
+que decide si alguien entra. De ahí sale esto:
+
+- **Ellos ponen cuatro «Aprenderás» y nosotros cinco.** Se queda en cinco:
+  cabe, y el quinto es justo donde entra lo que no es obvio. Pero conviene
+  saber que cuatro también funciona y que el quinto no vale si es relleno.
+- **Cinco formas válidas, y usarlas todas.** «Cómo el pensamiento ingenioso da
+  forma al espíritu empresarial», «por qué la negociación es vital para una
+  empresa nueva», «que tu voz importa», «los músculos que te ayudan a mejorar
+  la postura», «elegir la actividad física a la que vas a ceñirte». O sea:
+  *cómo*, *por qué*, *que*, un sustantivo con su relativo, y un infinitivo.
+  Los nuestros abusan de *cómo* y *por qué*; las otras tres dan variedad.
+- **Y dos maneras de estropearlo, las dos en esas capturas.** «Las mayores
+  lecciones de vida de Michelle Obama» es el índice del libro entero
+  disfrazado de punto: no dice ni una. «Que tu voz importa» es una consigna,
+  no algo que se sepa al terminar. La prueba sigue siendo la misma: **si no se
+  puede contestar con un dato, no es un «Aprenderás».**
+
+Sobre el «de qué va», las veinte fichas confirman nuestra regla al revés.
+Todas empiezan con un imperativo dirigido al lector —«Descubre…», «Domina…»,
+«Saca provecho…», «Conoce…», «Inspírate…»— y ninguna abre con un hecho. La
+única que trae algo concreto, la de Michelle Obama, lo remata igualmente con
+«y verás que todo es posible». **El nuestro abre con un dato y no manda.**
+
 ## 6. Lo que ya salió mal, para no repetirlo
 
 - **Contar la historia del libro** en vez del libro. Corregido el 19 de agosto.

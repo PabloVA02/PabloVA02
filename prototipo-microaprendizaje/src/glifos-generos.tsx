@@ -200,6 +200,18 @@ export function GlifoCopa({ tamano = 22 }: Props) {
   );
 }
 
+/** Vidas: un retrato de perfil dentro de su marco. Silueta única en la
+    parrilla: es el único rectángulo con una cabeza dentro. */
+export function GlifoRetrato({ tamano = 22 }: Props) {
+  return (
+    <svg {...marco(tamano)}>
+      <rect x="4" y="3.2" width="16" height="17.6" rx="1.6" />
+      <circle cx="12" cy="10" r="2.6" />
+      <path d="M7.4 18.2a4.8 4.8 0 0 1 9.2 0" />
+    </svg>
+  );
+}
+
 export const GLIFOS_GENERO: Record<string, (p: Props) => ReactElement> = {
   escalera: GlifoEscalera,
   hucha: GlifoHucha,
@@ -216,4 +228,5 @@ export const GLIFOS_GENERO: Record<string, (p: Props) => ReactElement> = {
   libro: GlifoLibro,
   paleta: GlifoPaleta,
   copa: GlifoCopa,
+  retrato: GlifoRetrato,
 };
