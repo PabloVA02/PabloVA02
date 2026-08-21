@@ -16828,7 +16828,7 @@ const MONTECRISTO: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Y falta el cuarto, que es el peor. Villefort, el fiscal, interroga a Dantès, se convence en cinco minutos de que es inocente y está a punto de soltarlo. Entonces lee el nombre del destinatario de la carta que el chico llevaba sin saber lo que era: su propio padre, un bonapartista. Si aquello sale a la luz, su carrera se acaba. Quema la carta y firma la orden de encierro perpetuo del hombre que sabe inocente.",
+          "Y falta el cuarto, que es el peor. Villefort, el fiscal, interroga a Dantès, se convence en cinco minutos de que es inocente y está a punto de soltarlo. Entonces lee el nombre del destinatario de la carta que el chico llevaba sin saber lo que era: su propio padre, un bonapartista. Si aquello sale a la luz, su carrera se acaba. Quema la carta y firma la orden de encierro perpetuo del hombre que sabe inocente. Y el papel que redactan en la taberna está en el libro entero, con sus faltas: cuatro líneas escritas en un rato de sobremesa que le cuestan a un hombre catorce años.",
       },
       {
         b: "idea",
@@ -16853,7 +16853,7 @@ const MONTECRISTO: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Y entonces empieza lo que de verdad importa. Faria era secretario de un cardenal, sabe media docena de idiomas, matemáticas, química, historia y esgrima, y se pasa años enseñándoselo todo a un marinero que apenas sabía leer. Dantès entra en la cárcel siendo un chico simpático y sale siendo un hombre instruido, y esa transformación es lo que hace posible todo lo demás: sin los catorce años no hay conde.",
+          "Y entonces empieza lo que de verdad importa. Faria era secretario de un cardenal, sabe media docena de idiomas, matemáticas, química, historia y esgrima, y se pasa años enseñándoselo todo a un marinero que apenas sabía leer. Dantès entra en la cárcel siendo un chico simpático y sale siendo un hombre instruido, y esa transformación es lo que hace posible todo lo demás: sin los catorce años no hay conde. El ventanuco importa: desde la celda se ve la ciudad, y en los primeros años Dantès cuenta las luces de las casas para saber en cuál está su padre.",
       },
       {
         b: "idea",
@@ -16903,7 +16903,7 @@ const MONTECRISTO: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Y aquí está lo que separa este libro de las venganzas corrientes: Montecristo no mata a ninguno de los tres grandes. Lo que hace es investigarlos, encontrar el delito que cada uno tiene escondido y colocar las piezas para que se destruyan con lo suyo. Es una operación paciente, cara y sobre todo indirecta: él nunca aparece con un arma.",
+          "Y aquí está lo que separa este libro de las venganzas corrientes: Montecristo no mata a ninguno de los tres grandes. Lo que hace es investigarlos, encontrar el delito que cada uno tiene escondido y colocar las piezas para que se destruyan con lo suyo. Es una operación paciente, cara y sobre todo indirecta: él nunca aparece con un arma. Su fortuna, según el propio libro, ronda los cien millones de francos, y él la usa como quien mueve fichas: comprando informaciones, casas, silencios y titulares de periódico.",
       },
       {
         b: "idea",
