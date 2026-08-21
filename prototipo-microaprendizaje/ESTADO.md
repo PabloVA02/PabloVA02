@@ -196,22 +196,33 @@ No por gusto ni por orden alfabético. Por lo que más se ve, que es:
    es lo peor que puede haber. *Hechos los veinte.*
 2. **Los que tienen cubierta dibujada de Pablo.** Es la segunda peor
    combinación: la cubierta invita a entrar y el texto devuelve al lector.
-   Estuvo al día hasta las tandas 10 y 11 del 21 de agosto, que trajeron 16
-   cubiertas nuevas y volvieron a abrir el hueco. **Van nueve con dibujo y
-   texto automático debajo, y son los siguientes que hay que escribir:**
+   Estuvo al día hasta las tandas 10 a 13 del 21 de agosto, que trajeron 30
+   cubiertas nuevas y volvieron a abrir el hueco. **Van diecisiete con dibujo
+   y texto automático debajo, y son los siguientes que hay que escribir:**
 
-       Los cañones de agosto            Barbara Tuchman
-       La cuchara menguante             Sam Kean
-       Einstein: su vida y su universo  Walter Isaacson
-       La música de los números primos  Marcus du Sautoy
-       Postguerra                       Tony Judt
-       El pulgar del panda              Stephen Jay Gould
-       Los últimos días de los dinosaurios  Riley Black
-       El universo en una cáscara de nuez   Stephen Hawking
-       El universo en tu mano           Christophe Galfard
+       Anticáncer                           David Servan-Schreiber   Salud
+       Los cañones de agosto                Barbara Tuchman          Historia
+       El código de la obesidad             Jason Fung               Salud
+       La cuchara menguante                 Sam Kean                 Ciencia
+       Mi dieta cojea                       Aitor Sánchez García     Salud
+       Einstein: su vida y su universo      Walter Isaacson          Ciencia
+       Invicto                              Marcos Vázquez           Salud
+       Mañanas milagrosas                   Hal Elrod                Salud
+       El milagro metabólico                Carlos Jaramillo         Salud
+       La música de los números primos      Marcus du Sautoy         Ciencia
+       Nacidos para correr                  Christopher McDougall    Salud
+       Postguerra                           Tony Judt                Historia
+       El pulgar del panda                  Stephen Jay Gould        Ciencia
+       Los últimos días de los dinosaurios  Riley Black              Ciencia
+       El universo en una cáscara de nuez   Stephen Hawking          Ciencia
+       El universo en tu mano               Christophe Galfard       Ciencia
+       Vivir con plenitud las crisis        Jon Kabat-Zinn           Salud
 
    La lista no se cuenta a mano: sale de cruzar `cubiertas.ts` con el registro
-   `PAGINAS` de `paginas.ts`. De estos, *Postguerra* y *Einstein* piden Amplio.
+   `PAGINAS` de `paginas.ts`. *Postguerra* y *Einstein* piden Amplio, y ocho de
+   los diecisiete son de Salud, así que la regla 5 —decir dónde falla— va a
+   tener trabajo: *Mañanas milagrosas*, *El milagro metabólico* y *El código de
+   la obesidad* afirman más de lo que sostienen sus pruebas.
 3. **Los conocidos** del resto del catálogo.
 4. **El resto**, por categorías.
 
