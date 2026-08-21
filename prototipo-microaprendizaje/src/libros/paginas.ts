@@ -57620,7 +57620,296 @@ const HEROE_MIL_CARAS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El elemento, en ocho páginas.
+
+   Breve: una sola idea con muchas anécdotas detrás, que es exactamente la
+   señal de Breve del apartado 2 ter.
+
+   Libro práctico → TÚ.
+
+   LA REGLA 5 ES AQUÍ MEDIO RESUMEN, y por dos motivos distintos. El
+   primero es de método y es el mismo que el de «El millonario de al lado»:
+   son historias de gente que llegó, elegidas después de que llegara, y los
+   que hicieron lo mismo y no llegaron no salen. El segundo es que su
+   consejo central se ha puesto a prueba: hay investigación con nombre y
+   fecha que dice que «sigue tu pasión» funciona peor que lo contrario.
+
+   Y hay un neuromito dentro que hay que desmontar porque el libro lo
+   defiende: los estilos de aprendizaje. Va en su propia página, igual que
+   el de los hemisferios en «El cerebro del niño».
+   -------------------------------------------------------------------------- */
+
+const EL_ELEMENTO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una niña que no podía estarse quieta no tenía ningún trastorno: era bailarina",
+      },
+      {
+        b: "texto",
+        texto:
+          "En los años treinta, una escuela inglesa escribió a los padres de una alumna de ocho años llamada Gillian Lynne diciendo que la niña no atendía, molestaba a sus compañeras, entregaba los trabajos tarde y probablemente tenía algún problema de aprendizaje. La madre la llevó a un médico. Él la escuchó durante veinte minutos mientras la niña esperaba sentada sobre sus manos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al terminar, el médico le dijo a la niña que necesitaba hablar un momento a solas con su madre, encendió la radio de la consulta y salió con ella. Desde el pasillo le pidió que mirara por la ventana. Gillian se había levantado y se estaba moviendo con la música. El médico le dijo a la madre que su hija no estaba enferma, que era bailarina, y que la llevara a una escuela de danza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gillian Lynne llegó a bailar profesionalmente y después fue coreógrafa de dos de los musicales más vistos de la historia. Ken Robinson cuenta esa historia al principio de este libro, publicado en 2009, y añade la observación que lo resume: otro médico la habría medicado y le habría dicho que se calmara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robinson era catedrático de educación en Inglaterra y dio en 2006 una conferencia de dieciocho minutos preguntando si la escuela mata la creatividad, que sigue siendo la más vista de toda la historia de aquellas charlas. Estas páginas recorren seis cosas: qué llama exactamente el elemento, por qué sostiene que la escuela impide encontrarlo, qué pasó con Paul McCartney en clase de música, qué dice sobre la inteligencia, el error que defiende sin saberlo, y qué se sabe hoy sobre su consejo principal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La misma conducta que en un sitio es un trastorno en otro es una aptitud: antes de corregir a alguien, comprueba si está en la habitación equivocada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El elemento es el punto donde lo que se te da bien coincide con lo que te gusta",
+      },
+      {
+        b: "texto",
+        texto:
+          "La definición del libro es sencilla y conviene tenerla exacta, porque la mayoría de los resúmenes la simplifican a seguir tu pasión, que no es lo mismo. El elemento es el punto en el que se encuentran dos cosas distintas: la aptitud natural, es decir, aquello que se te da bien sin un esfuerzo desproporcionado; y la pasión personal, aquello que disfrutas haciendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robinson insiste en que hacen falta las dos. Alguien puede tener facilidad para las matemáticas y odiarlas, y entonces no es su elemento; y alguien puede amar la música sin ninguna aptitud, y tampoco. Lo que describe es la intersección, y sostiene que cuando alguien la encuentra pasan dos cosas reconocibles: pierde la noción del tiempo mientras trabaja y no se cansa de la misma manera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade dos condiciones más que suelen olvidarse al citarlo. La actitud, que es cómo interpreta cada uno sus circunstancias y lo que hace con la mala suerte; y la oportunidad, que es tener acceso a la actividad. Sin la última, la aptitud no se descubre: nadie sabe que se le da bien tocar el violonchelo si no ha tenido nunca un violonchelo delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa cuarta condición es la más importante del libro y la que él desarrolla menos. Si encontrar el elemento depende de haber tenido acceso a la actividad correcta, entonces la búsqueda no depende sobre todo de mirarse hacia dentro, sino de cuántas cosas distintas has tenido la ocasión de probar. Y eso depende del sitio donde naciste mucho más que de tu carácter.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie descubre que se le da bien algo que no ha probado nunca: lo que decide es cuántas cosas distintas has tenido delante, y eso no lo eliges tú.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La escuela que tienes se diseñó para otra economía y en otro siglo" },
+      {
+        b: "texto",
+        texto:
+          "El argumento más fuerte del libro es histórico. Los sistemas educativos públicos se construyeron en Europa en el siglo XIX, para responder a las necesidades de la industrialización, y su forma lo delata: los alumnos se agrupan por año de fabricación, es decir por edad, avanzan en lotes, cambian de actividad cuando suena un timbre, estudian las materias por separado y se evalúan con una medida común.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dentro de ese diseño hay una jerarquía de asignaturas que Robinson dice que es la misma en todos los países del mundo. Arriba, matemáticas y lengua; después, las ciencias sociales y las humanidades; y abajo del todo, las artes. Y dentro de las artes hay otra jerarquía: la música y la plástica están por encima del teatro y de la danza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su frase más citada sobre esto es una observación y no una queja: no existe ningún sistema educativo en el mundo que enseñe danza todos los días a los niños de la misma manera que les enseña matemáticas. Y pregunta por qué, si es evidente que a los niños les interesa el cuerpo tanto como el número.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón que da es que todo el sistema está orientado hacia una salida: la universidad. La jerarquía de asignaturas reproduce lo que se necesita para entrar en ella, y por lo tanto la escuela está diseñada, sin decirlo, para producir profesores universitarios. Todos los que no encajan en ese perfil pasan por el sistema como alumnos deficientes, aunque tengan aptitudes que el sistema no mide.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La escuela agrupa a los niños por año de fabricación y los evalúa con una medida única: eso no describe a los niños, describe una fábrica.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En una clase de música de Liverpool había dos Beatles y el profesor no vio a ninguno",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo con el que Robinson demuestra el problema de detección es concreto y comprobable. Paul McCartney pasó por el instituto de Liverpool sin que ningún profesor le encontrara talento musical, y en su clase de música estaba también George Harrison. El mismo profesor tuvo delante durante años a dos de los cuatro Beatles y no detectó nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento no es que aquel profesor fuera malo. Es que la clase de música de un instituto está diseñada para detectar un tipo de habilidad muy concreto —leer partitura, cantar afinado en un coro, tocar un instrumento del repertorio clásico— y no detecta las demás. McCartney componía canciones; eso no aparecía en ninguna casilla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robinson reúne más casos del mismo tipo. Un dibujante de cómics famoso al que suspendían dibujo porque no dibujaba lo que se pedía. Un empresario que fue diagnosticado de dislexia y salió del colegio a los dieciséis. Una actriz a la que su timidez marcó como problema. En todos, el patrón es idéntico: la aptitud existía y el instrumento de medida no la registraba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la advertencia práctica, que sirve para un padre y para cualquiera que se juzgue a sí mismo. Un mal resultado escolar informa sobre el ajuste entre una persona y un examen, y no sobre la capacidad de esa persona. Es un dato con un alcance mucho más pequeño del que se le atribuye, y del que muchísima gente saca una conclusión sobre sí misma que le dura cuarenta años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una mala nota mide el ajuste entre tú y un examen concreto; mucha gente saca de ahí una conclusión sobre sí misma que le dura cuarenta años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La inteligencia no es una cantidad, y medirla con un número decide muchas vidas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robinson dedica un capítulo a atacar la idea de que la inteligencia es una cosa única que cada persona tiene en más o menos cantidad y que se puede resumir en una cifra. Sostiene que es diversa —pensamos con sonido, con movimiento y con imágenes, no solo con palabras y números—, dinámica —cambia y se desarrolla— y distinta en cada persona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se apoya explícitamente en el psicólogo Howard Gardner, que en 1983 propuso la teoría de las inteligencias múltiples, según la cual existirían varias capacidades relativamente independientes: lingüística, lógico-matemática, espacial, musical, corporal, interpersonal e intrapersonal. Es una teoría muy popular en el mundo educativo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir en qué situación está esa teoría, porque el libro la presenta como establecida y no lo está. La psicología cognitiva mayoritaria sostiene que las distintas capacidades correlacionan bastante entre sí, y que esa correlación es real y está medida; y a la propuesta de Gardner se le reprocha que llame inteligencias a lo que se venía llamando aptitudes y que no haya producido pruebas independientes que la confirmen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí se sostiene, y es lo útil que puedes quedarte, es la crítica al uso. Un número resume mal a una persona, los exámenes miden un rango estrecho de capacidades, y colocar a alguien en una categoría a los diez años tiene efectos que duran décadas porque cambia lo que se espera de él y lo que él espera de sí mismo. Eso está bien documentado y no depende de que haya siete inteligencias o una.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo grave de resumir a alguien en un número no es la imprecisión: es que cambia lo que se espera de él y lo que él acaba esperando de sí mismo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los estilos de aprendizaje no existen, y el libro los da por buenos" },
+      {
+        b: "texto",
+        texto:
+          "Hay una idea que Robinson defiende varias veces y que conviene desmontar, porque es probablemente la creencia falsa más extendida en educación. Es la de que cada persona tiene un estilo de aprendizaje propio —visual, auditivo o cinestésico— y que aprende mejor si se le enseña en su estilo: al visual con dibujos, al auditivo con explicaciones habladas y al que aprende con el cuerpo, moviéndose.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La afirmación es comprobable y se ha comprobado. Para que fuera cierta haría falta demostrar que un alumno clasificado como visual aprende más con material visual que con material auditivo, y que con el auditivo pasa lo contrario. En 2008, un equipo de psicólogos encabezado por Harold Pashler revisó toda la literatura disponible y no encontró prácticamente ningún estudio bien diseñado que mostrara ese efecto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los estudios posteriores han confirmado lo mismo: la gente tiene preferencias reales sobre cómo le gusta que le enseñen, y esas preferencias no predicen con qué método aprende más. Lo que sí funciona es adaptar el formato al contenido: la geografía se aprende con mapas y la música escuchando, para todo el mundo, y no según el alumno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La creencia sigue en pie de todas formas: las encuestas a profesores en varios países europeos encuentran que alrededor de nueve de cada diez la dan por buena. Y esto no invalida el resto del libro, igual que el neuromito de los hemisferios no invalidaba las estrategias de crianza de Siegel; obliga a quitar esa página al recomendarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que prefieras que te expliquen algo de cierta manera es verdad; que aprendas más así no lo es, y son dos afirmaciones distintas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "«Sigue tu pasión» se ha puesto a prueba y funciona peor que lo contrario",
+      },
+      {
+        b: "texto",
+        texto:
+          "El consejo que se saca de este libro, aunque él lo formule con más matices, es que hay que encontrar la propia pasión y organizar la vida alrededor. Esa recomendación se ha convertido en la más repetida de las últimas dos décadas y ha sido investigada, con resultados que conviene conocer antes de aplicarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2018, un equipo formado por Paul O'Keefe, Carol Dweck y Gregory Walton publicó una serie de experimentos sobre esto. Comparó a personas que creen que los intereses se encuentran, como algo que estaba ahí esperando, con personas que creen que los intereses se desarrollan con el tiempo y el trabajo. Los primeros abandonaban antes cuando el tema nuevo se ponía difícil, porque interpretaban la dificultad como una señal de que aquello no era lo suyo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro resultado va en la misma dirección y tiene que ver con el orden de las cosas. Lo habitual no es que alguien encuentre su pasión y después se vuelva bueno: es que alguien se vuelva bueno en algo y entonces empiece a apasionarle, porque hacer bien una cosa produce reconocimiento, autonomía y la sensación de dominio, que es de donde sale el gusto por trabajar en ello.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Si vas a usar este libro, dale la vuelta al consejo y funcionará mejor. En vez de esperar a identificar tu pasión antes de empezar, elige algo que te resulte razonablemente interesante y en lo que puedas llegar a ser bueno, trabájalo el tiempo suficiente para pasar de la incomodidad inicial, y comprueba después si te apasiona. La dificultad de las primeras semanas no es una señal de que te hayas equivocado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La dificultad de las primeras semanas no significa que no sea lo tuyo: casi siempre la pasión llega después de la competencia y no antes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que cada persona tiene un punto en el que su aptitud coincide con lo que disfruta, que encontrarlo cambia una vida entera, y que el sistema educativo, diseñado en el siglo XIX y ordenado por una jerarquía de asignaturas, impide encontrarlo a la mayoría. Lo demuestra con decenas de historias de personas que lo encontraron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la crítica de la escuela, que es lo mejor que tiene y que no depende de sus anécdotas. La descripción del modelo industrial —lotes por edad, timbres, asignaturas separadas, una medida común— y la observación de que la jerarquía de materias es idéntica en todo el mundo son certeras y siguen siendo útiles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en el método, exactamente igual que «El millonario de al lado». Todas las personas del libro encontraron su elemento y llegaron a ser conocidas, y por eso Robinson pudo entrevistarlas. Los que dejaron una carrera para seguir una vocación y no llegaron a nada no aparecen, y son muchísimos más. Con una muestra elegida por el resultado se puede describir a los que llegaron, no explicar por qué llegaron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en dos cosas concretas. Defiende los estilos de aprendizaje, que no existen. Y su consejo central no tiene ninguna investigación que lo respalde: no hay en el libro un solo estudio que muestre que quienes encuentran su elemento vivan mejor, y sí hay investigación posterior que sugiere que buscar la pasión antes que la competencia hace abandonar más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una última objeción de la que el libro no se ocupa. Seguir la propia vocación exige poder elegir, y poder elegir exige dinero, tiempo y no tener a nadie a cargo. Convertido en consejo universal, «haz lo que amas» ha servido para hacer sentir culpable a quien no puede permitírselo, y para justificar sueldos bajos en oficios vocacionales.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quédate con lo que dice de la escuela, que es certero, y con lo del elemento haz al revés: primero llega a ser bueno y comprueba después si te apasiona.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "el-elemento": EL_ELEMENTO,
   "heroe-mil-caras": HEROE_MIL_CARAS,
   reproductibilidad: REPRODUCTIBILIDAD,
   "espiritual-arte": ESPIRITUAL_ARTE,

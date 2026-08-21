@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "el-elemento":
+    "A una niña de ocho años que no paraba quieta la llevaron al médico en los años treinta; él puso la radio, salió de la consulta y dijo que no estaba enferma, que era bailarina. De ahí parte el libro.",
+
   "heroe-mil-caras":
     "Campbell leyó durante veinte años mitos de todos los continentes y en 1949 sostuvo que todos cuentan la misma historia: alguien sale de su mundo, atraviesa pruebas y vuelve con algo para los suyos.",
 

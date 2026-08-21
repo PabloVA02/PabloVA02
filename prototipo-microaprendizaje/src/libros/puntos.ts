@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "el-elemento": [
+    "qué dos cosas tienen que coincidir para que algo sea tu elemento",
+    "por qué la escuela sigue teniendo forma de fábrica del siglo XIX",
+    "qué demuestra que nadie viera el talento de Paul McCartney",
+    "por qué los estilos de aprendizaje no existen",
+    "qué dice la investigación sobre eso de seguir tu pasión",
+  ],
+
   "heroe-mil-caras": [
     "por qué el héroe empieza siempre rechazando la llamada",
     "qué es el vientre de la ballena y para qué sirve en el relato",

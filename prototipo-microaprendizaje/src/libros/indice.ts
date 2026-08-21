@@ -52,7 +52,6 @@ const CARGADORES: Record<string, Cargador> = {
   /* Psicología */
 
   /* Capítulos largos */
-  "el-elemento": () => import("./arte").then((m) => m.EL_ELEMENTO),
 };
 
 /** Los identificadores con resumen escrito. No carga ningún texto. */

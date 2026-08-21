@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "el-elemento": "Descubrir tu pasión lo cambia todo",
   imperiofobia: "Roma, Rusia, Estados Unidos y el Imperio español",
   "homo-sovieticus": "El tiempo de segunda mano",
   "mas-alla-bien-mal": "Preludio de una filosofía del futuro",

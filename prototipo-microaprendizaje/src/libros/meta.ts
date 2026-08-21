@@ -23,22 +23,7 @@ export type FichaMeta = {
 };
 
 export const META: FichaMeta[] = [
-  {
-    id: "el-elemento",
-    titulo: "El elemento",
-    autor: "Ken Robinson",
-    ano: 2009,
-    gancho: "La charla más vista de la historia de TED se apoya en una estadística que la NASA nunca hizo. Y el argumento, curiosamente, aguanta igual sin ella.",
-    porQue: "Porque es el libro que convenció a media docena de generaciones de que el colegio les había escondido algo. Vale la pena separar lo que Robinson demostró de lo que solo contó bien, porque las dos cosas están mezcladas y la segunda es la que más se repite.",
-    minutos: 25,
-    capitulos: [
-      { titulo: "Una niña que no paraba quieta", minutos: 5 },
-      { titulo: "Diecinueve minutos en Monterrey", minutos: 5 },
-      { titulo: "El test que la NASA nunca hizo", minutos: 5.1 },
-      { titulo: "La escuela que dicen que es una fábrica", minutos: 4.9 },
-      { titulo: "Lo que aguanta cuando le quitas las cifras", minutos: 5 },
-    ],
-  },
+
 ];
 
 /** Índice por identificador, que es como lo pide la pantalla. */
