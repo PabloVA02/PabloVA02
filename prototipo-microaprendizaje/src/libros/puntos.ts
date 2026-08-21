@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "ultimos-dinosaurios": [
+    "por qué el cielo se volvió una fuente de calor",
+    "qué tenía la roca de debajo del impacto",
+    "por qué el registro se llena de esporas de helecho",
+    "qué salvó a las aves que se salvaron",
+    "por qué los mamíferos no estaban esperando su turno",
+  ],
+
   "pulgar-panda": [
     "por qué lo imperfecto es la mejor prueba de la evolución",
     "qué dice el registro fósil sobre el ritmo del cambio",

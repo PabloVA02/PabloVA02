@@ -248,22 +248,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "ultimos-dinosaurios",
-    titulo: "Los últimos días de los dinosaurios",
-    autor: "Riley Black",
-    ano: 2022,
-    gancho: "La primera hora después del impacto, contada minuto a minuto. El asteroide no mató a los dinosaurios: los mató lo que pasó en los meses siguientes.",
-    porQue: "Reconstruye el peor día de la historia de la vida en la Tierra con el detalle de una crónica, y luego explica de dónde sale cada dato de esa crónica.",
-    minutos: 21.7,
-    capitulos: [
-      { titulo: "La última tarde de Hell Creek", minutos: 4.3 },
-      { titulo: "La hora del cielo en llamas", minutos: 4.4 },
-      { titulo: "El invierno sin sol", minutos: 4.3 },
-      { titulo: "Los que sobrevivieron en un agujero", minutos: 4.3 },
-      { titulo: "Un millón de años después", minutos: 4.4 },
-    ],
-  },
-  {
     id: "einstein",
     titulo: "Einstein: su vida y su universo",
     autor: "Walter Isaacson",

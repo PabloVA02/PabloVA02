@@ -43487,7 +43487,276 @@ const PULGAR_PANDA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Los últimos días de los dinosaurios, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO: el libro es una reconstrucción con escenas, así que
+   títulos cortos de imagen y la afirmación en la primera frase.
+
+   Aviso que va DENTRO del resumen y no solo en la conclusión: son escenas
+   imaginadas sobre datos reales, y la autora lo dice. Un lector que no lo
+   sepa se lleva detalles vívidos creyendo que son hallazgos.
+
+   La conclusión lleva lo que sigue discutiéndose: el papel del Decán, los
+   incendios globales y el yacimiento de Tanis.
+   -------------------------------------------------------------------------- */
+
+const ULTIMOS_DINOSAURIOS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una mañana cualquiera de hace sesenta y seis millones de años" },
+      {
+        b: "texto",
+        texto:
+          "Hace sesenta y seis millones de años, un asteroide de unos diez o doce kilómetros de diámetro entró en la atmósfera a unos veinte kilómetros por segundo y chocó contra lo que hoy es la península de Yucatán. Dejó un cráter de unos ciento ochenta kilómetros. La energía liberada fue de aproximadamente cien millones de megatones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Riley Black, paleontóloga y periodista científica, publicó en 2022 un libro que no cuenta esa historia: cuenta lo que pasó después. Está organizado por tiempo transcurrido desde el impacto —los primeros minutos, la primera hora, el primer día, el primer mes, el primer año, el primer siglo, los primeros cien mil años, el primer millón— y el escenario es un mismo sitio, Hell Creek, en Montana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir desde el principio qué clase de libro es, porque decide cómo hay que leerlo. Son escenas reconstruidas: hay un dinosaurio concreto haciendo algo concreto un martes concreto. Black lo advierte y añade un apéndice largo con la base de cada escena, pero el texto se lee como una novela y el lector se lleva detalles que son plausibles, no hallados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que sí está establecido: qué ocurrió en las dos primeras horas, qué salvó a los que se salvaron, por qué la roca que había debajo del impacto importó tanto como el impacto, por qué el mundo se llenó de helechos, por qué los mamíferos no estaban esperando su turno y cuánto tardó en volver a haber un bosque.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta interesante no es qué mató a los dinosaurios, sino qué tuvo que tener un ser vivo para no morirse aquel día.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos horas de cielo al rojo" },
+      {
+        b: "texto",
+        texto:
+          "El impacto no mató al planeta por la onda expansiva ni por el terremoto, que fueron devastadores pero locales. Lo que alcanzó al mundo entero fue lo que subió. El golpe lanzó al espacio miles de millones de toneladas de roca pulverizada, que salieron de la atmósfera en trayectorias balísticas y volvieron a caer por todas partes al cabo de un rato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al reentrar, cada uno de esos fragmentos se calentó por rozamiento, igual que una estrella fugaz. Millones a la vez, durante horas. El efecto fue convertir el cielo del planeta en una fuente de calor radiante: la temperatura del aire en superficie subió lo suficiente como para tostar todo lo que estuviera expuesto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el filtro de las dos primeras horas y explica quién se salvó. Sobrevivir aquella tarde no dependía del tamaño ni de la fuerza, sino de estar debajo de algo. Bajo tierra, en una madriguera, dentro del agua, en el fango de un río o en una cueva. Todo lo que estuviera a la intemperie, midiera lo que midiera, se cocinó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí es donde entra el yacimiento de Tanis, en Dakota del Norte, que Black usa mucho: peces fósiles con esferas de vidrio de impacto alojadas en las branquias, lo que sugiere que murieron dentro de la primera hora, y una acumulación de animales arrastrados por una ola de río. Es un hallazgo espectacular y también el más discutido del libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Aquella tarde no sobrevivió lo más fuerte: sobrevivió lo que estaba debajo de algo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La roca que había debajo importó tanto como la piedra que cayó" },
+      {
+        b: "texto",
+        texto:
+          "Lo que convirtió un desastre continental en una extinción global fue la geología del sitio del impacto, y es el dato menos conocido de toda la historia. Bajo Yucatán había una plataforma de rocas carbonatadas y evaporitas cargadas de azufre. El impacto las vaporizó y lanzó a la estratosfera una cantidad enorme de compuestos de azufre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esos compuestos forman en altura pequeñísimas gotas que reflejan la luz del sol y no se lavan con la lluvia porque están por encima de las nubes. El resultado fue oscuridad y frío durante años. La fotosíntesis se detuvo o se redujo drásticamente, primero en el mar y después en tierra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está la causa real de la mortandad. No murieron achicharrados casi todos: murieron de hambre, por abajo. Sin luz no hay plancton ni plantas; sin plantas no hay herbívoros; sin herbívoros no hay depredadores. Una cadena alimentaria se desmonta desde el escalón de abajo, y desde abajo tarda años en volver a montarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un cálculo publicado en 2020 añadió un detalle incómodo: el ángulo. El asteroide entró en torno a los sesenta grados, que resulta ser el ángulo que más material expulsa. Más vertical o más rasante habría levantado menos azufre. Es decir, una parte del desenlace dependió de la inclinación con la que llegó aquella mañana.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La mayoría no murió por el golpe ni por el fuego: murió de hambre, años después, porque se apagó la luz.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El mundo se llenó de helechos" },
+      {
+        b: "texto",
+        texto:
+          "En los sedimentos de todo el mundo, justo por encima de la capa que marca el impacto, ocurre algo que se ve al microscopio y que tiene nombre propio: el pico de helechos. Durante un tramo, el polen desaparece casi por completo y lo que hay son esporas de helecho, en una proporción abrumadora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo es que los helechos son colonizadores de desastres. Sus esporas son minúsculas, viajan lejos, aguantan condiciones malas y germinan en terreno desnudo sin necesitar suelo formado ni polinizadores. Cuando un ecosistema se arrasa, son de los primeros en aparecer, y cuando vuelven los árboles se retiran a la sombra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso no es una deducción teórica: se comprobó en directo. Después de la erupción del monte Santa Helena en 1980, la sucesión de plantas sobre las laderas arrasadas siguió el mismo patrón, con helechos ocupando primero el terreno quemado. La misma firma que se lee en una roca de sesenta y seis millones de años se puede ver en una ladera moderna.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y explica qué clase de mundo quedó. No un desierto vacío, sino un paisaje de plantas oportunistas creciendo sobre restos, con muy pocas especies y muchísimos individuos. Un ecosistema pobre y monótono, del tipo que puede alimentar a animales muy pequeños y a ninguno grande.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los helechos no ganaron por buenos: ganaron porque son los primeros en llegar donde no queda nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un pico sirve para comer semillas, y las semillas esperan en el suelo",
+      },
+      {
+        b: "texto",
+        texto:
+          "De todos los dinosaurios, sobrevivió un grupo: las aves. Pero no todas las aves de entonces, ni mucho menos. Se extinguieron los linajes de aves con dientes, las marinas buceadoras y prácticamente todo lo que vivía en los árboles. Lo que pasó el filtro fueron aves de pequeño tamaño, de suelo y con pico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El pico resultó ser la pieza decisiva, y por una razón que solo se entiende sabiendo cómo era aquel mundo. Con los bosques arrasados y la fotosíntesis apagada no había hojas, ni frutos, ni insectos abundantes. Lo que sí quedaba, y en cantidad, eran semillas: enterradas en el suelo, secas, y capaces de aguantar años sin germinar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una semilla es una despensa que no se pudre. Un animal capaz de encontrarlas y romperlas tenía comida durante el peor tramo, y un pico córneo hace exactamente eso mejor que una boca con dientes. Los que dependían de carne fresca, de hojas o de insectos se quedaron sin nada; los que comían semillas cruzaron el desierto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es un ejemplo perfecto de lo que decide una extinción masiva. No sobrevive lo mejor adaptado a las condiciones normales, sino lo que casualmente servía para unas condiciones nuevas que no habían existido nunca. Ser pequeño, poder cavar, comer semillas y aguantar el hambre no eran virtudes hasta esa semana.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una semilla es una despensa que no se pudre, y sobrevivió quien tenía con qué abrirla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los mamíferos no estaban esperando su turno" },
+      {
+        b: "texto",
+        texto:
+          "La versión popular dice que los mamíferos eran unas criaturas diminutas escondidas bajo tierra, esperando a que desaparecieran los dinosaurios para heredar la Tierra. Black desmonta las dos mitades de esa frase, y es probablemente lo mejor del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera mitad es falsa porque los mamíferos del Cretácico no eran un grupo insignificante. Llevaban más de cien millones de años en el mundo, había docenas de linajes, algunos trepaban, otros nadaban y algunos alcanzaban el tamaño de un tejón. No estaban en un rincón: estaban repartidos y les iba razonablemente bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la segunda es falsa porque la extinción no los perdonó. Se calcula que la mayor parte de los linajes de mamíferos también desaparecieron en aquel episodio; los que quedaron fueron unos pocos, pequeños, generalistas y capaces de comer casi cualquier cosa. Lo que heredó el mundo no fue un grupo entero, fue un puñado de supervivientes empobrecidos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia entre las dos versiones no es un matiz. La primera cuenta una historia de progreso, con un relevo previsto en el que los mejores acaban ocupando su sitio. La segunda cuenta lo que hubo: una carnicería sin criterio de la que salieron los que estaban de suerte, y a partir de ahí, mucho tiempo después, todo lo demás.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los mamíferos no heredaron el mundo: fueron los pocos que quedaron después de que casi todos ellos murieran también.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cien mil años hasta que volvió a haber un bosque" },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro es la que menos se cuenta en otros sitios: cuánto tardó aquello en repararse. La respuesta depende de qué se considere reparado. Los helechos volvieron en años. Los primeros bosques de verdad, con dosel y estratos, tardaron del orden de cien mil años. La diversidad comparable a la anterior, del orden de un millón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que volvió no fue lo mismo. Un ecosistema que se rehace desde unos pocos supervivientes no reconstruye lo que había, porque las piezas que faltan no vuelven: sigue con las que quedaron y las lleva a sitios nuevos. Los mamíferos crecieron de tamaño, ocuparon los papeles vacíos y en unos pocos millones de años había ya formas que hoy resultan reconocibles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los yacimientos clave está en Colorado y cubre el primer millón de años tras el impacto con una resolución poco frecuente. Ahí se lee la secuencia entera: primero helechos y palmeras, después leguminosas, después bosques de dosel cerrado; y en paralelo, mamíferos que pasan de tamaño de rata a tamaño de perro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que Black saca de todo esto es la que da sentido al libro: nosotros existimos por lo que pasó aquella semana. No como culminación de nada, sino porque un ecosistema entero se vació y unos pocos supervivientes se repartieron el hueco. La historia de los mamíferos no empieza con un mérito: empieza con una vacante.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un ecosistema que se rehace no reconstruye lo que había: sigue con lo que quedó y lo lleva a sitios nuevos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Los últimos días de los dinosaurios cuenta lo que ocurrió después del impacto, minuto a minuto primero y milenio a milenio después. Dos horas de cielo radiante que cocieron todo lo expuesto, años de oscuridad por el azufre de la roca vaporizada, un mundo de helechos, y una recuperación que tardó cien mil años en producir un bosque.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es el cambio de pregunta. Casi todo lo que se ha escrito sobre esto se ocupa de qué mató a los dinosaurios; este libro se ocupa de qué hizo falta para no morir, y esa pregunta da respuestas mucho más concretas: estar debajo de algo, ser pequeño, poder cavar y comer semillas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En una extinción masiva no gana lo mejor adaptado al mundo de antes: gana lo que por casualidad servía para el de después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es narrativa reconstruida y el lector tiene que tenerlo presente todo el rato. Hay animales concretos con conductas concretas en tardes concretas, y eso no está en ningún fósil: es lo que Black considera plausible a partir de lo que se sabe. Lo advierte y documenta el apéndice, pero la prosa es tan vívida que la frontera se borra mientras se lee.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y se apoya en material discutido. El yacimiento de Tanis, del que salen algunas de sus mejores escenas, ha sido cuestionado por otros investigadores, incluidas dudas sobre los datos de alguno de sus trabajos. Los incendios globales que describe también se discuten: hay quien sostiene que el hollín procede de hidrocarburos de la roca del impacto y no de bosques ardiendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falta además el otro sospechoso. Al mismo tiempo que caía el asteroide, en la India llevaban decenas de miles de años entrando en erupción las coladas del Decán, una de las mayores emisiones volcánicas de la historia de la Tierra. Una parte de los paleontólogos sostiene que el planeta ya estaba deteriorado y que el impacto remató a un enfermo. El libro le da al asteroide un protagonismo que sigue debatiéndose.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "ultimos-dinosaurios": ULTIMOS_DINOSAURIOS,
   "pulgar-panda": PULGAR_PANDA,
   "cuchara-menguante": CUCHARA_MENGUANTE,
   "vida-dali": VIDA_DALI,

@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "ultimos-dinosaurios": "El asteroide, la extinción y el principio de nuestro mundo",
   "pulgar-panda": "Reflexiones sobre historia natural y evolución",
   "cuchara-menguante": "Y otras historias verídicas de locura, amor y muerte a partir de los elementos químicos",
   "magia-crear": "Una vida creativa más allá del miedo",

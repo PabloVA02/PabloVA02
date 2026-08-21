@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "ultimos-dinosaurios":
+    "Un asteroide de doce kilómetros chocó contra Yucatán hace sesenta y seis millones de años. Este libro no cuenta eso: cuenta lo que pasó en las dos horas siguientes, en el primer año y en los cien mil años que tardó en volver a haber un bosque.",
+
   "pulgar-panda":
     "El pulgar con el que el panda sujeta el bambú no es un dedo: es un hueso de la muñeca agrandado, porque sus cinco dedos ya estaban ocupados en caminar. Treinta y un ensayos sobre por qué las chapuzas prueban más que las obras maestras.",
 
