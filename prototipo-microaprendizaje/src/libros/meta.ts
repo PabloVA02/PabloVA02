@@ -200,22 +200,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "brevedad-vida",
-    titulo: "Sobre la brevedad de la vida",
-    autor: "Séneca",
-    ano: 49,
-    gancho: "No tenemos poco tiempo: perdemos mucho. Lo escribió el hombre más rico de Roma mientras trabajaba para Nerón.",
-    porQue: "Es la carta en la que un ministro le pide a su suegro que deje el cargo, y de paso el mejor texto antiguo sobre en qué se nos va la vida.",
-    minutos: 25.8,
-    capitulos: [
-      { titulo: "La carta al hombre del trigo", minutos: 5.2 },
-      { titulo: "El catálogo de los ocupados", minutos: 5.2 },
-      { titulo: "Los tres tiempos y el pasado que no se mira", minutos: 5.1 },
-      { titulo: "El millonario que predicaba el retiro", minutos: 5.2 },
-      { titulo: "Un emperador, un esclavo y un ministro", minutos: 5.2 },
-    ],
-  },
-  {
     id: "enquiridion",
     titulo: "Enquiridión",
     autor: "Epicteto",

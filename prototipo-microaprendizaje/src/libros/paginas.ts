@@ -31768,7 +31768,264 @@ const GEN_HISTORIA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Sobre la brevedad de la vida, en ocho páginas.
+
+   Breve, y aquí es casi obligado: el original tiene unas cuarenta páginas.
+
+   Libro PRÁCTICO de filosofía moral: segunda persona en la prosa, que es
+   lo que hace el propio Séneca con su destinatario. Titular que afirma.
+
+   La página 7 lleva lo que casi ningún resumen da: quién escribió esto y
+   cómo vivía mientras lo escribía. No para descalificarlo, sino porque es
+   exactamente la tensión que el texto describe.
+   -------------------------------------------------------------------------- */
+
+const BREVEDAD_VIDA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Es una carta al encargado del trigo de Roma" },
+      {
+        b: "texto",
+        texto:
+          "El texto tiene unas cuarenta páginas y no es un tratado: es una carta larga dirigida a una persona concreta, un tal Paulino, que ocupaba uno de los cargos más agotadores del imperio. Era el responsable del abastecimiento de grano de la ciudad de Roma, es decir, el hombre del que dependía que un millón de personas comiera cada día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Séneca era cordobés, nacido hacia el año cuatro antes de Cristo en la Hispania romana, y escribió esto hacia el año cuarenta y nueve, recién vuelto de ocho años de destierro en Córcega. El destinatario era, con toda probabilidad, su suegro, lo cual explica el tono: es una carta de familia con un consejo concreto dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el consejo, que aparece al final, es que deje el cargo. Séneca le dice a un alto funcionario en plena carrera que lo abandone y se dedique a otra cosa, y dedica cuarenta páginas a argumentar por qué. Ese propósito práctico es lo que salva al texto de ser una meditación abstracta sobre el tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que sostiene: por qué la vida no es corta, qué hacemos con el tiempo que no hacemos con el dinero, a quiénes llama ocupados y por qué no son los que más trabajan, qué le pasa a quien vive esperando, cuál de los tres tiempos es el único seguro y qué relación tenía su autor con todo esto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuarenta páginas escritas para convencer a un alto funcionario en plena carrera de que dejara su puesto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "No es que tengas poco tiempo: es que gastas mucho" },
+      {
+        b: "texto",
+        texto:
+          "El texto empieza discutiendo la queja más universal que existe, la de que la vida es demasiado corta, y le da la vuelta en la primera frase. No tenemos poco tiempo, escribe Séneca: perdemos mucho. La vida es lo bastante larga y se nos ha dado en cantidad suficiente para las cosas más grandes, si se empleara entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su formulación es la que se ha citado durante dos mil años: no recibimos una vida breve, sino que la hacemos breve; no somos pobres de tiempo, somos derrochadores. Y añade la comparación que lo aclara: un patrimonio enorme en manos de un mal administrador se disipa en un momento, mientras que uno modesto, bien llevado, crece con el uso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia es incómoda porque traslada la responsabilidad. Si el problema fuera la cantidad, no habría nada que hacer y la queja estaría justificada; si el problema es el uso, entonces cada uno responde de lo suyo. Séneca se apoya en algo comprobable: hay quien a los cincuenta años ha hecho una vida entera y quien a los ochenta apenas ha empezado a vivir la suya.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aclara qué entiende por perder el tiempo, que no es lo que suele entenderse. No se refiere al descanso ni al ocio, que defiende expresamente; se refiere a estar ocupado en cosas que uno no ha elegido y que no le importan, que es una manera de estar continuamente activo y no vivir nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No recibes una vida corta: la haces corta, y la diferencia entre las dos afirmaciones es a quién le corresponde arreglarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nadie reparte su dinero y todo el mundo reparte su vida" },
+      {
+        b: "texto",
+        texto:
+          "La comparación más aguda del texto es de contabilidad y sigue funcionando igual. Séneca observa que nadie permite que otro le ocupe una finca, que ante la menor discusión sobre un lindero la gente saca piedras y llama a los vecinos, y que nadie va repartiendo su dinero entre quien se lo pida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y sin embargo, con la vida, todos hacen exactamente lo contrario. Cualquiera que se presente puede llevarse una mañana entera; se acepta una cita que no interesa, una conversación que no lleva a nada, un encargo que corresponde a otro. Somos, escribe, cerrados y cuidadosos guardando el patrimonio, y en cuanto se trata de perder tiempo nos volvemos derrochadores de lo único en lo que ser avaro sería honroso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación de esa asimetría es que el tiempo no se ve. Un patrimonio se cuenta, se anota y se echa de menos cuando falta; el tiempo no tiene volumen, no deja hueco, y por eso nadie lleva la cuenta de lo que ha entregado ni a quién. Nadie te devuelve una tarde, y además nunca sabrías cuál reclamar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su recomendación práctica, que es sencilla de enunciar y difícil de aplicar: tratar el tiempo propio con la misma naturalidad con la que se trata el dinero. Decir que no a un gasto que no interesa no se considera grosero cuando se trata de euros, y sí cuando se trata de una tarde.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie te va a devolver una tarde que le regalaste, y además ni siquiera sabrías cuál reclamarle.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los ocupados no son los que más trabajan" },
+      {
+        b: "texto",
+        texto:
+          "La palabra que organiza el texto entero es la que Séneca aplica a la gente que describe: los ocupados. Y conviene entender bien a quiénes se refiere, porque no son los que tienen mucho trabajo. Son los que tienen la vida llena de asuntos que no han elegido y que no les importan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su catálogo es de la Roma del siglo I y se reconoce sin esfuerzo. El que se pasa el día en las salas de espera de gente importante para que le vean allí. El que va detrás de un cargo y, en cuanto lo consigue, empieza a ir detrás del siguiente. El que administra los asuntos de otro con más celo que los suyos. El que dedica horas a discusiones que se olvidarán mañana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y luego está una categoría que él llama, con una expresión difícil de traducir, la ocupación perezosa: la del que está permanentemente activo en cosas minúsculas. Cita al que se preocupa por su peinado, al que colecciona objetos, al que no puede dejar un juego de mesa, al que se pasa la tarde comentando lo que hacen otros. No están descansando, están trabajando mucho en nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su prueba para distinguir una cosa de otra es rápida y sirve hoy. Un ocupado, si se le pregunta qué ha hecho esta semana, no sabe contestar aunque no haya parado un minuto. Alguien que ha empleado bien su tiempo lo puede enumerar, aunque haya hecho poco.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Estar permanentemente activo y no saber qué has hecho esta semana no es tener mucho trabajo: es otra cosa con mejor nombre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Esperar el momento adecuado es lo que se lleva la vida entera" },
+      {
+        b: "texto",
+        texto:
+          "El mayor obstáculo para vivir, escribe Séneca, es la espera: esa costumbre de colgar la vida del mañana y perder el día de hoy. Uno organiza lo que hará cuando termine este proyecto, cuando cambien las circunstancias, cuando los hijos sean mayores, cuando llegue el retiro, y mientras tanto va gastando los años en la sala de espera de su propia vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo es demoledor y es el hombre más poderoso que había existido. El emperador Augusto, dueño del mundo conocido, dejó escrito en sus cartas al Senado y a sus amigos que deseaba retirarse, que soñaba con una vida tranquila, que ya estaba cansado; lo escribió durante décadas y nunca lo hizo. Séneca añade el caso de Cicerón, que se describía a sí mismo en su correspondencia como medio libre, y el de otros senadores que decían lo mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También cuenta un episodio que hoy suena moderno. Un anciano llamado Turanio, funcionario durante toda su vida, fue relevado de su cargo con noventa años por orden del emperador; se metió en la cama y ordenó a su familia que lo llorase como si hubiera muerto. Séneca comenta que aquel hombre no lamentaba perder su trabajo: lamentaba no tener ni idea de qué hacer sin él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su instrucción, que es la más citada del texto: todo lo que ha de venir está en lo incierto, así que vive ya. Y su corolario, que suele olvidarse: quien aplaza no está ganando tiempo para después, está renunciando a la única parte de su vida sobre la que tiene algún poder.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El hombre más poderoso del mundo pasó treinta años escribiendo que quería retirarse, y se murió sin hacerlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El pasado es el único tiempo que ya nadie te puede quitar" },
+      {
+        b: "texto",
+        texto:
+          "El pasaje más original del texto divide la vida en tres tramos con propiedades distintas y saca de ahí una conclusión que no es la esperada. El presente es brevísimo, apenas un instante que se escapa mientras se nombra. El futuro es dudoso por completo y no pertenece a nadie. Y el pasado es el único que está fijado y es seguro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De los tres, sostiene Séneca, solo el pasado es propiedad plena: la fortuna ya no puede tocarlo, nadie lo puede reclamar y no depende de ninguna circunstancia futura. Quien ha vivido bien tiene ahí un patrimonio al que puede volver cuando quiera, y por eso las personas serenas suelen recordar con gusto y con detalle.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí llega el giro. Los ocupados, dice, son incapaces de mirar hacia atrás, y no por falta de tiempo: es que no se atreven. Volver la vista significa encontrarse con años perdidos, con favores humillantes, con lo que hicieron por conseguir un cargo y con las cosas de las que se avergüenzan, así que apartan la mirada y siguen adelante, y de ese modo pierden también el único tiempo que era suyo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es una manera distinta de mirar lo que uno hace hoy. Cada día está formando la única parte de la vida que después no se podrá perder, y quien vive de manera que no soporta recordarse a sí mismo se está quedando sin las tres partes a la vez.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien no soporta mirar hacia atrás no ha perdido solo aquellos años: ha perdido el único tiempo que ya no le podían quitar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo escribió uno de los hombres más ricos y más ocupados de Roma" },
+      {
+        b: "texto",
+        texto:
+          "Este texto no se puede leer bien sin saber quién lo escribió, y lo que hay es una contradicción documentada que ya le echaron en cara en su época. Séneca defendió el retiro y la moderación mientras era consejero principal del emperador Nerón y uno de los hombres más ricos del imperio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los datos están en Tácito y en Dión Casio. Fue tutor de Nerón desde que este tenía doce años y después su asesor durante ocho años de gobierno. Acumuló una fortuna descomunal. Prestaba dinero a intereses muy altos, incluso en las provincias, y una fuente antigua atribuye a la retirada brusca de esos préstamos en Britania una parte del origen de la rebelión que estalló allí en el año sesenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo peor. Cuando Nerón hizo asesinar a su propia madre, fue Séneca quien redactó el discurso con el que el emperador justificó el crimen ante el Senado. Un senador, Publio Suilio, lo atacó públicamente por esa distancia entre lo que escribía y lo que hacía, y Séneca respondió con un tratado sobre la vida feliz en el que reconoce la acusación y contesta que él no dice ser sabio, sino estar en camino.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su final tampoco fue el de un retirado. En el año sesenta y cinco, acusado de conspirar, recibió la orden de Nerón de quitarse la vida y se abrió las venas rodeado de amigos, dictando hasta el final. Nada de eso quita valor a lo que dejó escrito; lo que hace es convertir el texto en algo más interesante, porque describe desde dentro exactamente la trampa en la que su autor estaba metido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El hombre que escribió esto contra la ambición era, mientras lo escribía, el consejero del emperador y uno de los mayores prestamistas del imperio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Sobre la brevedad de la vida sostiene que el tiempo no es escaso sino mal administrado, que protegemos el dinero con un cuidado que no aplicamos a las horas, que estar continuamente ocupado no es lo mismo que hacer algo, que aplazar es la manera más eficaz de no vivir y que el pasado bien empleado es el único patrimonio que no se puede perder. Y termina pidiéndole a su destinatario que deje su cargo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta a un lector de hoy es que casi todo lo que describe se reconoce sin traducción. Los pasillos donde se espera a que a uno lo vean, la ambición que nunca llega a su destino, la actividad frenética que al final de la semana no ha producido nada y la costumbre de vivir en el mes que viene son las mismas de hace dos mil años, con otros aparatos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Vivir hay que aprenderlo toda la vida, y —lo que quizá sorprenda más— toda la vida hay que aprender a morir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Su ideal presupone rentas. Séneca escribe para un alto funcionario con patrimonio y le propone retirarse a estudiar, cosa que no está al alcance de la mayoría de las personas que había en aquella ciudad, empezando por las que descargaban los sacos de grano que el destinatario administraba. Ese punto ciego atraviesa todo el estoicismo romano y no aparece en ninguna línea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay dos cosas más de forma y de fondo. El texto es retórico, propio de la declamación de su época: acumula ejemplos, insiste tres veces en la misma idea y a ratos suena a discurso más que a razonamiento. Y su desprecio hacia las ocupaciones ajenas es a menudo clasista: se burla del que colecciona objetos o del que se cuida el pelo con una superioridad que hoy resulta desagradable, aunque el argumento de fondo —que uno puede pasar la vida entera trabajando en cosas que no ha elegido— siga siendo exacto.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "brevedad-vida": BREVEDAD_VIDA,
   "gen-historia": GEN_HISTORIA,
   "orden-del-tiempo": ORDEN_DEL_TIEMPO,
   "revoluciones-cientificas": REVOLUCIONES_CIENTIFICAS,

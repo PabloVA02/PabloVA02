@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "brevedad-vida": [
+    "por qué sostiene que la vida no es corta",
+    "qué hacemos con el tiempo que no haríamos con el dinero",
+    "a quiénes llama ocupados, que no son los que más trabajan",
+    "qué le pasa a quien vive esperando el momento adecuado",
+    "cuál de los tres tiempos es el único que ya es tuyo",
+  ],
+
   "gen-historia": [
     "por qué nadie leyó a Mendel durante treinta y cinco años",
     "dónde empezó realmente la eugenesia y quién copió a quién",

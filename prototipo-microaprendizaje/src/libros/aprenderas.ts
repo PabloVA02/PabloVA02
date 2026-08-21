@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "brevedad-vida":
+    "Una carta de cuarenta páginas escrita hacia el año 49 para convencer al responsable del abastecimiento de grano de Roma de que dejara su cargo. Su primera frase discute la queja más universal que existe y le da la vuelta.",
+
   "gen-historia":
     "Dos tíos y un primo del autor tuvieron enfermedades mentales graves, y el libro empieza y acaba con la pregunta de qué probabilidad tienen él y sus hijas. Entre medias, siglo y medio de la idea de que la herencia va en paquetes.",
 

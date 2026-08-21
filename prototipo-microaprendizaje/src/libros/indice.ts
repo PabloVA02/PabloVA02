@@ -55,7 +55,6 @@ const CARGADORES: Record<string, Cargador> = {
   /* Literatura — clásicos */
 
   /* Filosofía */
-  "brevedad-vida": () => import("./filosofia").then((m) => m.BREVEDAD_VIDA),
 
   /* Economía */
 
