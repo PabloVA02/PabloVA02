@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "orden-del-tiempo": [
+    "qué pasa con dos relojes a distinta altura",
+    "por qué no existe un ahora compartido con nada lejano",
+    "por qué las ecuaciones no distinguen pasado y futuro",
+    "de dónde sale entonces la dirección del tiempo",
+    "por qué puedes recordar ayer y no mañana",
+  ],
+
   "revoluciones-cientificas": [
     "en qué consiste realmente el trabajo científico habitual",
     "qué se hace con los resultados que no encajan",

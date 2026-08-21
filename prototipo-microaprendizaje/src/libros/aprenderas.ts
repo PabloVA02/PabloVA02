@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "orden-del-tiempo":
+    "Un reloj atómico colocado treinta centímetros más alto que otro va medible­mente más deprisa. El libro parte de ahí y va retirando una por una todas las propiedades que atribuimos al tiempo, hasta no dejar ninguna.",
+
   "revoluciones-cientificas":
     "Un doctorando en física leyó la Física de Aristóteles y le pareció que decía disparates, hasta que entendió que usaba las palabras con otro significado. De aquella tarde salió el libro que puso en circulación la palabra paradigma.",
 

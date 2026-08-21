@@ -31127,7 +31127,267 @@ const REVOLUCIONES_CIENTIFICAS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El orden del tiempo, en ocho páginas.
+
+   Breve.
+
+   Ensayo científico: titular que afirma, tercera persona.
+
+   La conclusión separa lo comprobado —la dilatación del tiempo, la
+   entropía— de lo que es el programa de investigación del propio autor y
+   todavía no está confirmado por ningún experimento.
+   -------------------------------------------------------------------------- */
+
+const ORDEN_DEL_TIEMPO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro consiste en ir quitándole al tiempo lo que creemos que tiene",
+      },
+      {
+        b: "texto",
+        texto:
+          "Carlo Rovelli publicó este libro en 2017, tres años después del que le hizo famoso, y con una estructura poco habitual. La primera parte no explica nada: desmonta. Va tomando una por una las propiedades que cualquiera atribuye al tiempo y mostrando que la física ha ido demostrando que no las tiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esas propiedades son cinco y son las que hacen que la palabra tenga sentido para nosotros. Que el tiempo es único, el mismo para todos. Que hay un presente común, un ahora compartido por el universo entero. Que fluye siempre en la misma dirección. Que es independiente de lo que ocurra. Y que es continuo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al final de esa primera parte no queda ninguna en pie, y el libro se queda con un problema: si el tiempo no tiene nada de eso, hay que explicar por qué lo experimentamos así. Las dos partes siguientes intentan describir el mundo sin la variable tiempo y después reconstruir de dónde sale nuestra sensación de que pasa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren ese recorrido: qué se ha medido sobre relojes a distinta altura, por qué no existe un ahora compartido con nada lejano, qué dicen las ecuaciones fundamentales sobre la dirección del tiempo, de dónde sale entonces esa dirección, qué queda cuando se quita el tiempo de la descripción y qué papel tiene la memoria.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro no empieza explicando qué es el tiempo: empieza quitándole todo lo que creemos que tiene, y no queda nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un reloj en la montaña va más deprisa que uno en la playa" },
+      {
+        b: "texto",
+        texto:
+          "El primer desmontaje se apoya en un hecho comprobado experimentalmente y que casi nadie tiene presente: el tiempo no transcurre a la misma velocidad en todas partes. Cuanto más cerca se está de una masa grande, más despacio va. Un reloj al nivel del mar se retrasa respecto a uno colocado en lo alto de una montaña.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No es una teoría: se mide desde hace décadas y la precisión actual es asombrosa. En 2010, un equipo del instituto de metrología estadounidense detectó la diferencia entre dos relojes atómicos separados por poco más de treinta centímetros de altura. Con esa sensibilidad, la diferencia de ritmo entre la cabeza y los pies de una persona de pie es medible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica está en el bolsillo de cualquiera. Los satélites de navegación llevan relojes que, por su altura, adelantan alrededor de cuarenta y cinco microsegundos al día respecto a los de la superficie, y por su velocidad se retrasan unos siete. Si no se corrigiera esa diferencia neta, las posiciones que da un móvil se desviarían varios kilómetros en un solo día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rovelli saca de ahí la conclusión que le interesa: no existe un tiempo del universo, existe un ritmo distinto en cada punto del espacio, y lo que llamamos la hora es un acuerdo práctico entre relojes que van a velocidades ligeramente distintas y a los que sincronizamos a propósito.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tu cabeza envejece un poco más deprisa que tus pies, y eso no es una metáfora: se puede medir con dos relojes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "No hay ningún ahora compartido con nada que esté lejos" },
+      {
+        b: "texto",
+        texto:
+          "El segundo desmontaje es más difícil de aceptar y viene de la relatividad especial de 1905. La pregunta es sencilla: qué está ocurriendo ahora mismo en un lugar muy lejano, por ejemplo en la galaxia de Andrómeda, que está a dos millones y medio de años luz.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La respuesta de la física es que la pregunta no tiene sentido. Como ninguna señal puede viajar más rápido que la luz, no hay manera de establecer una correspondencia entre un instante de aquí y un instante de allí; y peor aún: dos observadores que se muevan uno respecto a otro asignarán a ese lugar instantes distintos como su presente, y ninguno de los dos estará equivocado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que queda es lo que Rovelli llama el presente extendido: una franja alrededor de cualquier suceso lejano que no es ni su pasado ni su futuro respecto a nosotros, porque no existe ninguna manera física de establecer el orden. Con Andrómeda esa franja dura millones de años; con alguien que está en la misma habitación, unos nanosegundos, y por eso en la vida corriente la ilusión de un presente compartido funciona perfectamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale una idea que cuesta interiorizar: el universo no tiene un instante presente. Lo que hay es una red de sucesos con relaciones de antes y después bien definidas solo entre los que pueden influirse mutuamente, y sin orden ninguno entre los demás.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Preguntar qué está pasando ahora mismo en una galaxia lejana no tiene respuesta, y no por ignorancia: la pregunta no significa nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las ecuaciones fundamentales no distinguen el pasado del futuro" },
+      {
+        b: "texto",
+        texto:
+          "El tercer desmontaje es el que más desconcierta a quien lo oye por primera vez. Si se toma cualquiera de las leyes básicas de la física —las de Newton, las de Maxwell, la relatividad, la mecánica cuántica— y se sustituye la variable tiempo por su negativa, es decir, se hace correr la película hacia atrás, las ecuaciones siguen siendo válidas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso significa que en la descripción fundamental del mundo no hay nada que señale una dirección. Dos bolas de billar chocando hacia atrás son una escena físicamente correcta; un planeta orbitando al revés también. Nada en esas leyes prohíbe ninguna de las dos cosas ni distingue cuál es la original.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y sin embargo la diferencia entre pasado y futuro es la experiencia más segura que tenemos. Una taza se rompe y no se recompone. El café se enfría y no se calienta solo. Recordamos lo de ayer y no lo de mañana. Rovelli señala que toda esa asimetría, absolutamente toda, procede de una sola ley: la segunda de la termodinámica, que dice que el calor pasa de lo caliente a lo frío y no al revés.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su formulación del problema es la que organiza el resto del libro. Todo lo que distingue el pasado del futuro tiene que ver con el calor, y solo con el calor: si en el mundo no existiera esa magnitud, no habría ninguna diferencia entre las dos direcciones, ni memoria, ni causas antes que efectos, ni nada de lo que llamamos el paso del tiempo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todo lo que distingue el pasado del futuro procede de una sola ley, la del calor: sin ella, las dos direcciones serían idénticas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La dirección del tiempo aparece porque miramos borroso" },
+      {
+        b: "texto",
+        texto:
+          "La explicación que Rovelli desarrolla viene de Boltzmann y es sutil. La entropía, que es lo que mide el desorden y lo que solo puede aumentar, no es una propiedad de los átomos: es una propiedad de cómo los describimos. Los átomos por separado no están ordenados ni desordenados; el desorden aparece cuando se agrupan en categorías gruesas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo es una baraja. Si se define un estado ordenado como los palos separados y en orden ascendente, entonces hay una sola manera de estar ordenado y billones de estar desordenado, así que al barajar lo probable es acabar en el segundo grupo. Pero esa distinción la ha puesto quien mira; para la física, cualquier orden concreto de cuarenta cartas es tan particular como cualquier otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rovelli lleva esa idea hasta el final y ahí está su tesis más audaz. Sostiene que el paso del tiempo no es una propiedad del universo sino de nuestra manera aproximada de mirarlo: percibimos el mundo ignorando la inmensa mayoría de sus variables, esa ceguera define qué llamamos orden y desorden, y de esa borrosidad sale la dirección.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Queda entonces una pregunta que él reconoce abierta: por qué el universo estaba en un estado tan extraordinariamente ordenado al principio, cosa que es la condición de que la entropía pueda aumentar durante trece mil ochocientos millones de años. Su respuesta es una hipótesis y él la presenta como tal: que esa baja entropía inicial también podría depender de la perspectiva particular desde la que lo miramos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El desorden no está en las cosas: aparece cuando alguien decide qué diferencias entre ellas va a ignorar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El mundo no está hecho de cosas: está hecho de acontecimientos" },
+      {
+        b: "texto",
+        texto:
+          "La parte central del libro intenta describir el mundo sin usar la variable tiempo, y para eso propone un cambio de vocabulario que es la mejor idea que contiene. En lugar de pensar el universo como un conjunto de cosas que duran y a las que les pasan cosas, propone pensarlo como un conjunto de acontecimientos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia se ve con ejemplos. Un beso es evidentemente un acontecimiento: ocurre, dura un rato y se acaba. Una piedra parece una cosa, pero mirada con la escala adecuada también es un acontecimiento: se formó en un proceso geológico, se está erosionando y desaparecerá; solo dura lo suficiente para que a nosotros nos parezca permanente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mismo vale para todo lo demás. Una montaña es un suceso lento. Una familia, una empresa o una persona son procesos que se mantienen mientras se sostienen sus relaciones. Rovelli sostiene que la gramática nos engaña al obligarnos a poner sustantivos donde hay procesos, y que las mejores descripciones físicas del mundo no hablan de objetos sino de sucesos y de sus relaciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese giro tiene además una consecuencia técnica. Si el mundo es una red de acontecimientos relacionados, entonces no hace falta un tiempo de fondo donde colocarlos: el orden lo dan las propias relaciones entre ellos. Es exactamente lo que ocurre en las ecuaciones de la teoría en la que él trabaja, donde la variable tiempo no aparece.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una piedra no es una cosa: es un acontecimiento lento que dura lo suficiente para que a ti te parezca permanente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El tiempo que sentimos pasar lo fabrica la memoria" },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro se ocupa de la pregunta que queda: si el tiempo no tiene ninguna de las propiedades que le atribuimos, por qué lo experimentamos con tanta claridad. Y la respuesta de Rovelli tiene que ver con cómo está hecho un cerebro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un ser vivo es un sistema que registra huellas. Esas huellas —una cicatriz, un recuerdo, un hábito, una marca en la corteza cerebral— solo se pueden formar en una dirección, porque su formación depende de procesos que consumen energía y aumentan la entropía. De ahí que se pueda recordar el pasado y no el futuro: no es una limitación mental, es una consecuencia termodinámica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y esas huellas son también lo que produce la sensación de ser alguien continuo. Rovelli sostiene que lo que llamamos yo no es una cosa sino un proceso sostenido por la memoria: una historia que se va contando a sí misma y que reúne huellas del pasado y previsiones del futuro. Somos, escribe, historias más que objetos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su conclusión encaja las dos mitades del libro. La estructura del mundo no contiene un tiempo que fluya, y la sensación de que fluye tampoco es una ilusión sin fundamento: es el efecto real de estar hechos de la manera en que estamos hechos, dentro de un universo con calor y con entropía creciente. El tiempo no está en las cosas; está en la relación entre el mundo y nosotros.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Puedes recordar ayer y no mañana por una razón termodinámica: una huella solo se puede formar en una dirección.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El orden del tiempo desmonta una por una las propiedades que atribuimos al tiempo —que es único, común, direccional y de fondo—, muestra que la física ha ido retirándolas todas y sostiene que lo que queda de él procede del calor y de nuestra manera aproximada de mirar. Después reconstruye por qué lo sentimos, y responde con la memoria y con la termodinámica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un cambio de vocabulario que sirve fuera de la física. Pensar las cosas como acontecimientos de distinta duración —una piedra, una empresa, una persona— es un ejercicio que reordena bastantes intuiciones, y no depende de que su teoría sea correcta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El tiempo no está en las cosas ni en tu cabeza: está en la relación entre un mundo con entropía y un ser que deja huellas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El libro mezcla tres capas sin distinguirlas bien y esa es su avería principal. La dilatación del tiempo y la relatividad del presente están comprobadas con relojes atómicos y se usan a diario en cualquier navegador; el papel de la entropía en la dirección del tiempo es física asentada desde el siglo XIX; y la afirmación de que el tiempo desaparece en la descripción fundamental pertenece a la teoría en la que trabaja el propio autor, que no ha sido confirmada por ningún experimento y que no es la única candidata.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Además hay físicos de primer nivel que sostienen exactamente lo contrario. Lee Smolin, que trabajó con Rovelli en los años ochenta en esa misma teoría, ha defendido en varios libros que el tiempo es lo único realmente fundamental del universo y que la geometría es lo que emerge de él. Es un desacuerdo de fondo entre dos especialistas del mismo campo, y este libro apenas lo menciona. Y en la última parte, sobre la conciencia y la identidad, Rovelli sale del terreno donde es competente y la prosa poética empieza a ocupar el sitio del argumento.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "orden-del-tiempo": ORDEN_DEL_TIEMPO,
   "revoluciones-cientificas": REVOLUCIONES_CIENTIFICAS,
   "astrofisica-prisa": ASTROFISICA_PRISA,
   "doble-helice": DOBLE_HELICE,

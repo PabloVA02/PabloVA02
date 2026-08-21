@@ -504,22 +504,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "orden-del-tiempo",
-    titulo: "El orden del tiempo",
-    autor: "Carlo Rovelli",
-    ano: 2017,
-    gancho: "En 2010, dos relojes atómicos colocados en la misma mesa, uno treinta y tres centímetros más alto que el otro, midieron ritmos distintos. No es una metáfora ni un experimento mental: es una medida de laboratorio con la altura de un escalón.",
-    porQue: "Porque desmonta una a una las propiedades que damos por seguras del tiempo y luego reconstruye por qué lo sentimos como lo sentimos. Y porque su tercera parte no es física establecida, sino la teoría del propio autor, y eso el libro no lo señala tan claro como debería.",
-    minutos: 26.8,
-    capitulos: [
-      { titulo: "Dos relojes separados por treinta y tres centímetros", minutos: 5.4 },
-      { titulo: "El presente extendido de Próxima Centauri", minutos: 5.4 },
-      { titulo: "La ecuación en la que no aparece el tiempo", minutos: 5.3 },
-      { titulo: "El borrón que somos nosotros", minutos: 5.3 },
-      { titulo: "La hermana del sueño", minutos: 5.5 },
-    ],
-  },
-  {
     id: "henrietta-lacks",
     titulo: "La vida inmortal de Henrietta Lacks",
     autor: "Rebecca Skloot",

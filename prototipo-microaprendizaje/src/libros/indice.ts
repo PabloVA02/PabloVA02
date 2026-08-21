@@ -87,7 +87,6 @@ const CARGADORES: Record<string, Cargador> = {
   enquiridion: () => import("./filosofia").then((m) => m.ENQUIRIDION),
   "lean-startup": () => import("./economia").then((m) => m.LEAN_STARTUP),
   "universo-mano": () => import("./ciencia").then((m) => m.UNIVERSO_MANO),
-  "orden-del-tiempo": () => import("./ciencia").then((m) => m.ORDEN_DEL_TIEMPO),
   "cuchara-menguante": () => import("./ciencia").then((m) => m.CUCHARA_MENGUANTE),
   "cuentos-poe": () => import("./literatura").then((m) => m.CUENTOS_POE),
   mujercitas: () => import("./literatura").then((m) => m.MUJERCITAS),
