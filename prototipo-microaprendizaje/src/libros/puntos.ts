@@ -41,7 +41,7 @@ export const PUNTOS: Record<string, string[]> = {
   "numero-uno": [
     "por qué un conductor veterano no conduce mejor",
     "qué recuerda un maestro de ajedrez y qué no",
-    "qué se entendió mal de la regla de las diez mil horas",
+    "qué se entendió mal de las diez mil horas",
     "qué requisitos tiene que cumplir un entrenamiento para servir",
     "por qué el oído absoluto se puede enseñar",
   ],
