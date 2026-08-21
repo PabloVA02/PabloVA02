@@ -56892,7 +56892,7 @@ const ESPIRITUAL_ARTE: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Y falla en el triángulo, que ha hecho más daño del que parece. Un modelo en el que el rechazo del público confirma que se va por delante ha servido durante un siglo para blindar cualquier obra frente a cualquier crítica, y su forma —un hombre solo en el vértice— es demasiado favorecedora para quien la propone.",
+          "Y falla en el triángulo, que ha hecho más daño del que parece. Un modelo en el que el rechazo del público confirma que se va por delante ha servido durante un siglo para blindar cualquier obra frente a cualquier crítica.",
       },
       {
         b: "texto",
