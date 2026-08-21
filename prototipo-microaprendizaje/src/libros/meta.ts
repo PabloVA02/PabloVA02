@@ -24,22 +24,6 @@ export type FichaMeta = {
 
 export const META: FichaMeta[] = [
   {
-    id: "espiritual-arte",
-    titulo: "De lo espiritual en el arte",
-    autor: "Vasili Kandinsky",
-    ano: 1911,
-    gancho: "El libro con el que un pintor se dio permiso para dejar de pintar cosas. Su teoría del color es casi toda falsa y aun así cambió lo que se cuelga en las paredes.",
-    porQue: "Porque explica de dónde salió el arte abstracto, que es lo que más incomoda al visitante de un museo. Y enseña una manera concreta de mirar un cuadro que no representa nada, que es dejar de preguntar qué es.",
-    minutos: 24,
-    capitulos: [
-      { titulo: "Un cuadro apoyado del revés", minutos: 4.9 },
-      { titulo: "El amarillo suena a trompeta", minutos: 4.9 },
-      { titulo: "La necesidad interior", minutos: 4.8 },
-      { titulo: "La mujer que llegó cuatro años antes", minutos: 4.8 },
-      { titulo: "Del Bauhaus a la pared del salón", minutos: 4.7 },
-    ],
-  },
-  {
     id: "reproductibilidad",
     titulo: "La obra de arte en la época de su reproductibilidad técnica",
     autor: "Walter Benjamin",

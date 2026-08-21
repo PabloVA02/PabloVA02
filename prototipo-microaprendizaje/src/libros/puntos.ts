@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "espiritual-arte": [
+    "cuál es el único criterio que admite para juzgar una obra",
+    "el modelo del triángulo y el daño que ha hecho",
+    "qué dice sobre los colores y qué se sabe hoy de eso",
+    "por qué la comparación con la música desarma la objeción habitual",
+    "qué significa exactamente lo espiritual del título",
+  ],
+
   "vidas-vasari": [
     "el esquema de tres edades con el que ordenó el arte europeo",
     "por qué llamó gótico a lo medieval y con qué intención",

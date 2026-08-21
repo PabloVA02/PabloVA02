@@ -56614,7 +56614,302 @@ const VIDAS_VASARI: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   De lo espiritual en el arte, en ocho páginas.
+
+   Breve: es un libro corto y de una sola tesis desarrollada.
+
+   Ensayo → afirmación entera y tercera persona.
+
+   LO QUE CASI NINGÚN RESUMEN CUENTA, y que cambia el libro entero: lo
+   «espiritual» del título no es una manera de hablar. Kandinsky era lector
+   de teosofía y asistía a las conferencias de Rudolf Steiner, y el libro se
+   apoya en esa cosmología. Quitarlo deja la tesis sin cimientos y produce
+   el malentendido habitual, que es leerlo como un manual de psicología del
+   color. Va en su propia página.
+
+   Y se emparejó con «Historia del arte sin hombres», que lo desmiente en
+   un punto de fecha: no fue el primero, y eso no es opinión.
+   -------------------------------------------------------------------------- */
+
+const ESPIRITUAL_ARTE: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un cuadro cuyo asunto no se reconoce puede seguir funcionando, y de esa observación salió la pintura abstracta",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1896, en Moscú, un abogado de treinta años llamado Vasili Kandinsky visitó una exposición de pintura francesa y se detuvo ante un cuadro cuyo asunto no conseguía identificar. Tuvo que mirar el catálogo para enterarse de que era un almiar. Le molestó no reconocerlo y le desconcertó todavía más comprobar que, sin saber qué era, el cuadro seguía produciéndole algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquel mismo año le ofrecieron una cátedra de derecho en una universidad del Báltico y la rechazó para marcharse a Múnich a aprender a pintar. Tenía treinta años, una carrera hecha en derecho y economía, y ninguna formación artística. Quince años después publicó el libro que fundó teóricamente la pintura abstracta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo episodio que cuenta ocurrió en su propio taller. Entró al anochecer y vio apoyado un cuadro de una belleza que no reconocía, sin ningún tema identificable; era uno suyo, colocado de lado. De esas dos experiencias saca la pregunta que ordena el libro: si un cuadro funciona sin que se sepa qué representa, ¿para qué representa algo?",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: cuál es el único criterio que admite para juzgar una obra, el modelo con el que explica por qué el artista va por delante, su sistema de correspondencias entre colores y estados, por qué sostiene que la pintura debe parecerse a la música, cómo llega desde ahí a suprimir el objeto, y de dónde viene exactamente la palabra espiritual del título.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un cuadro colocado del revés sigue produciendo algo: ahí está toda la pregunta de la que salió la pintura del siglo XX.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El único criterio válido para juzgar una obra es si nace de una necesidad interior",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kandinsky rechaza de entrada los tres criterios que se usaban en su época para valorar un cuadro. No vale el parecido con la naturaleza, porque copiar bien es una habilidad y no un arte. No vale la habilidad técnica, por la misma razón. Y no vale el gusto del público ni el de los críticos, porque van siempre por detrás de lo que se está haciendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En su lugar propone uno solo, que en alemán llama necesidad interior. Una obra es legítima si el artista no podía no hacerla: si la forma que ha elegido responde a algo que tenía dentro y que exigía esa forma y no otra. Todo lo demás —el asunto, el estilo, la escuela, la moda— es secundario y puede cambiar sin que la obra deje de valer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ese criterio saca una consecuencia práctica que sí es comprobable. Si lo que importa es la necesidad interior, entonces no existen formas prohibidas ni asuntos indignos, y un cuadro puede componerse con cualquier cosa: manchas, líneas, colores planos o una figura reconocible. La forma queda subordinada al contenido interior, y por eso puede ser cualquiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene señalar el problema que arrastra ese criterio, porque es el mismo que lleva un siglo discutiéndose. La necesidad interior de un artista no la puede comprobar nadie desde fuera: no hay manera de distinguir una obra que nació de ella de otra que nació del cálculo o de la incompetencia. Kandinsky entrega la evaluación del arte a un dato al que solo tiene acceso el autor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un criterio que solo puede comprobar el autor de la obra no es un criterio: es una declaración de que no acepta ninguno.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Su modelo del progreso cultural es un triángulo, y en la punta está él",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para explicar por qué el público no entiende lo nuevo, Kandinsky propone una figura que se ha repetido durante un siglo. Imagina la vida espiritual como un triángulo grande dividido en franjas horizontales que avanza muy despacio hacia arriba. Cada franja es un nivel de comprensión, y cuanto más arriba, menos gente hay.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el vértice, dice, hay a veces un solo hombre, que ve lo que los de abajo todavía no pueden ver y cuya alegría es incomprensible para ellos. Lo que dice ese hombre les parece un disparate y a menudo lo tratan con desprecio; y una generación después, cuando el triángulo entero haya subido una franja, lo que él decía será lo que se enseña en las escuelas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El modelo describe algo real y comprobable: hay obras que se rechazaron y que hoy son canónicas, y el desfase entre lo que hace un artista y lo que entiende su público está documentado muchas veces. Los impresionistas fueron rechazados por los salones oficiales, y treinta años después eran el gusto establecido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y tiene un problema que conviene decir con claridad, porque ha hecho daño. La figura no permite distinguir al que va por delante del que sencillamente lo hace mal, ya que los dos son incomprendidos, y convierte el rechazo en una prueba de acierto. Durante el siglo XX ha servido para justificar mucho trabajo malo y bastante desprecio por el público, y su forma —un solo hombre en la cima— es sospechosamente favorecedora para quien la escribe.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si el rechazo del público se cuenta como prueba de que vas por delante, entonces ningún fracaso puede enseñarte nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Sostiene que el amarillo se acerca y el azul se aleja, y lo presenta como un hecho",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte más citada del libro, y la más copiada por diseñadores y publicistas desde entonces, es su descripción de los colores. Kandinsky los trata como fuerzas con propiedades objetivas y describe cada uno con precisión. El amarillo es terrestre, agresivo y punzante, y avanza hacia el espectador hasta molestarlo. El azul es celeste, profundo y se retira hacia dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El verde, mezcla de los dos, queda inmóvil y él lo llama la burguesía de los colores, satisfecha y sin ambición. El rojo es potente y vivo sin la agresividad del amarillo. El negro es el silencio después de que todo ha terminado, y el blanco un silencio anterior, lleno de posibilidades. El gris es la inmovilidad sin esperanza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y va más lejos: asigna a cada color un sonido de orquesta y una forma geométrica. El amarillo suena a trompeta aguda; el azul, cuanto más profundo, suena a flauta, a violonchelo, a contrabajo y por último a órgano. El amarillo corresponde al triángulo, el azul al círculo y el rojo al cuadrado. El sistema es completo, minucioso y está presentado como si fuera una descripción de la naturaleza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay que decir qué se sabe hoy de eso, porque el libro no lo presenta como una impresión suya. La investigación posterior ha encontrado algunas asociaciones bastante estables entre culturas —el rojo con la activación, el azul con la calma—, y nada que se parezca al sistema exacto que él describe; buena parte de esas correspondencias son aprendidas y varían según la cultura. Su tabla no es una ley: es su experiencia, y probablemente una experiencia poco común.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que un color te produzca algo es cierto; que produzca lo mismo a todo el mundo y suene a un instrumento concreto no está demostrado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La música lleva siglos siendo abstracta y a nadie le parece un problema",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento más eficaz del libro es una comparación, y es el que convenció a una generación de pintores. Nadie sale de un concierto preguntando qué representaba la sinfonía. Una obra musical no imita nada, no describe ningún objeto y sin embargo produce emociones precisas, ordenadas y compartidas; y a nadie se le ocurre reprocharle que no se parezca a la realidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kandinsky se pregunta por qué la pintura, que trabaja con materiales igual de directos —color, forma, ritmo, proporción—, tiene que estar obligada a representar objetos para ser tomada en serio. Su conclusión es que esa obligación no es una necesidad del arte sino una costumbre histórica, y que la pintura puede alcanzar el mismo estado que la música si se decide a hacerlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se lo aplicó a sí mismo hasta en los títulos. A partir de aquellos años dejó de titular sus cuadros con lo que aparecía en ellos y empezó a usar vocabulario musical: impresiones, improvisaciones y composiciones, numeradas. Un cuadro pasaba a llamarse como se llama una pieza para piano, y esa decisión pequeña le decía al espectador cómo tenía que mirarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su modelo declarado en esto fue el compositor Arnold Schönberg, al que escribió después de oír un concierto suyo en 1911 y con el que mantuvo correspondencia y amistad durante años. Los dos estaban haciendo la misma operación al mismo tiempo en dos artes distintas: Schönberg quitando la tonalidad y Kandinsky quitando el objeto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "A nadie se le ocurre preguntar qué representa una sinfonía: la obligación de que un cuadro represente algo es una costumbre, no una condición del arte.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Si el efecto lo producen el color y la forma, el objeto representado estorba",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las piezas anteriores llevan a una conclusión que Kandinsky formula con cautela y que la pintura del siglo XX aplicó sin ella. Si lo que emociona en un cuadro es la relación entre los colores y las formas, entonces el objeto representado no es imprescindible; y en cuanto se admite eso, se puede prescindir de él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento no es solo que sobre, sino que puede estorbar. Cuando en un cuadro hay una figura reconocible, el espectador la reconoce y se pone a mirar eso: identifica una mujer, un caballo, una casa, y desde ese momento evalúa el parecido y la anécdota en lugar de sentir la composición. Retirar el objeto sería quitar el obstáculo que impide llegar a lo que el cuadro hace.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y a la vez es prudente, cosa que suele olvidarse. Advierte de que suprimir el objeto sin tener nada dentro produce un adorno vacío, y compara ese resultado con una corbata: agradable, decorativo y sin ninguna necesidad interior detrás. Su propia obra tardó años en despojarse del todo, y en sus cuadros de aquellos años se siguen adivinando jinetes, montañas y torres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene además retirar una idea que el propio libro ayudó a instalar. Kandinsky no fue el primero en pintar sin objeto: la sueca Hilma af Klint había producido obras completamente abstractas en 1906, cuatro años antes que él, y las guardó por voluntad propia hasta décadas después de su muerte. La prioridad cronológica no es discutible; lo que sí es suyo es haber escrito la teoría.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quitar el objeto sin tener nada dentro no produce arte abstracto: produce decoración, y él lo advirtió antes que ninguno de sus imitadores.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo espiritual del título no es una manera de hablar: es una doctrina concreta",
+      },
+      {
+        b: "texto",
+        texto:
+          "Este es el capítulo que casi ningún resumen cuenta y sin el cual el libro se entiende al revés. Cuando Kandinsky habla de lo espiritual no está usando una metáfora sobre la sensibilidad o la emoción: se está refiriendo a una cosmología concreta que él aceptaba, la de la teosofía, un movimiento fundado a finales del siglo XIX por Helena Blavatsky.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro la cita expresamente y elogia a Blavatsky por su intento de explicar los problemas del espíritu. Kandinsky asistió además en Múnich a las conferencias de Rudolf Steiner, que venía de aquel movimiento, y buena parte del vocabulario del libro —la época materialista, el despertar espiritual que viene, las vibraciones del alma— es vocabulario teosófico de la época.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con ese contexto, sus afirmaciones sobre el color dejan de ser psicología y pasan a ser otra cosa. No está diciendo que el azul relaje: está diciendo que el color es una vibración que actúa sobre el alma del que mira igual que un sonido hace vibrar una cuerda, y que el artista es quien puede transmitir esa vibración. La comparación con el piano y las teclas, que él usa, es literal en su sistema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esto no es una curiosidad biográfica, porque decide qué se sostiene del libro. Quien acepte aquella cosmología tiene un argumento completo; quien no la acepte se queda con las observaciones sobre la música y sobre el objeto, que son excelentes, y con un sistema de colores que ya no tiene ningún fundamento y que se convierte en el gusto personal de un pintor con una percepción poco común.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quitarle a un libro la cosmología en la que se apoya no lo moderniza: lo deja con las conclusiones y sin las razones.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que una obra vale si nace de una necesidad interior y no de la imitación; que el color y la forma actúan por sí mismos sobre quien mira; que la pintura puede funcionar como la música, sin representar nada; y que por lo tanto el objeto puede desaparecer del cuadro. Es el fundamento teórico de la pintura abstracta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, y sigue funcionando cien años después, es la comparación con la música. Ese argumento no depende de ninguna doctrina, se entiende en treinta segundos y desmonta de golpe la objeción que sigue oyéndose delante de un cuadro abstracto: la de que eso no se parece a nada. Nadie exige a una sinfonía que se parezca a algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en su sistema de colores, que presenta como una descripción del mundo y que es su experiencia personal, probablemente atravesada por una condición neurológica real que entonces no estaba descrita: hay personas que perciben sonidos al ver colores, alrededor de un cuatro por ciento de la población, y sus descripciones se parecen mucho a las de él. Lo que no se sostiene es generalizarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en el triángulo, que ha hecho más daño del que parece. Un modelo en el que el rechazo del público confirma que se va por delante ha servido durante un siglo para blindar cualquier obra frente a cualquier crítica, y su forma —un hombre solo en el vértice— es demasiado favorecedora para quien la propone.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después tiene dos direcciones. Kandinsky enseñó en la Bauhaus entre 1922 y 1933 y allí escribió otro libro sobre lo mismo, mucho más sistemático y sin mística; los nazis cerraron la escuela y colgaron su obra en la exposición de arte degenerado de 1937, y él murió en Francia en 1944. Y su tabla de colores se convirtió en la base de una industria entera de psicología del color aplicada a marcas y a interiores, que sigue citándolo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Su mejor argumento no necesita creer en nada: a una sinfonía no se le pide que se parezca a algo, y a un cuadro tampoco hace falta pedírselo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "espiritual-arte": ESPIRITUAL_ARTE,
   "vidas-vasari": VIDAS_VASARI,
   "van-gogh-cartas": VAN_GOGH_CARTAS,
   "arte-sin-hombres": ARTE_SIN_HOMBRES,

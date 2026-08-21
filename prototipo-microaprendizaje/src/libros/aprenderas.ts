@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "espiritual-arte":
+    "Kandinsky vio en 1896 un cuadro cuyo asunto no conseguía identificar y comprobó que le seguía produciendo algo. Rechazó una cátedra de derecho, se fue a aprender a pintar y quince años después escribió esto.",
+
   "vidas-vasari":
     "En 1550, un pintor florentino de segunda fila reunió las biografías de unos ciento sesenta artistas italianos. Con ese libro inventó la historia del arte, la palabra Renacimiento y la idea misma de artista.",
 
