@@ -43,7 +43,7 @@ export const PUNTOS: Record<string, string[]> = {
     "qué le enseñó Capello que no sabía hacer",
     "qué pasó de verdad en su año en el Barcelona",
     "cómo se conquista un vestuario en la primera semana",
-    "para qué sirve anunciar en voz alta lo que vas a hacer",
+    "para qué sirve anunciar lo que vas a hacer",
   ],
 
   "cruyff-14": [
