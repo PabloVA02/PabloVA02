@@ -69,7 +69,6 @@ const CARGADORES: Record<string, Cargador> = {
   "el-elemento": () => import("./arte").then((m) => m.EL_ELEMENTO),
   "cosas-buenas": () => import("./psicologia").then((m) => m.COSAS_BUENAS),
   "intro-psicoanalisis": () => import("./psicologia").then((m) => m.INTRO_PSICOANALISIS),
-  "maneras-de-amar": () => import("./psicologia").then((m) => m.MANERAS_AMAR),
   "existencialismo-humanismo": () => import("./filosofia").then((m) => m.EXISTENCIALISMO_HUMANISMO),
   "mas-alla-bien-mal": () => import("./filosofia").then((m) => m.MAS_ALLA_BIEN_MAL),
   "contrato-social": () => import("./filosofia").then((m) => m.CONTRATO_SOCIAL),

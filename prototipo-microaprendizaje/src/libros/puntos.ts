@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "maneras-de-amar": [
+    "de dónde salieron los tres estilos de apego y cuándo",
+    "la lista exacta de lo que hace alguien ansioso al sentirse lejos",
+    "las maniobras con las que un evitativo mantiene la distancia",
+    "por qué esas dos personas se emparejan tanto entre sí",
+    "por qué apoyarte bien en alguien te vuelve más autónomo",
+  ],
+
   "cerebro-del-nino": [
     "el modelo del cerebro que se hace con una mano",
     "distinguir un berrinche calculado de uno desbordado",

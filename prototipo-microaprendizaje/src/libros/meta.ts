@@ -455,22 +455,6 @@ export const META: FichaMeta[] = [
       { titulo: "La casa de Maresfield Gardens", minutos: 4.5 },
     ],
   },
-  {
-    id: "maneras-de-amar",
-    titulo: "Maneras de amar",
-    autor: "Levine y Heller",
-    ano: 2010,
-    gancho: "Las cifras que hoy repite medio internet —la mitad de la gente es segura, un cuarto evitativa, un quinto ansiosa— salen de un cuestionario que dos psicólogos publicaron en un periódico de Denver en 1985 y que los lectores contestaron por correo.",
-    porQue: "Porque explica por qué la pareja que te vuelve loco te parece más intensa que la que te trata bien, y porque su vocabulario se ha convertido en un horóscopo de tres casillas que el propio libro no defiende.",
-    minutos: 27,
-    capitulos: [
-      { titulo: "Un cuestionario en un periódico de Denver", minutos: 5.5 },
-      { titulo: "Qué hace cada uno cuando tiene miedo", minutos: 5.4 },
-      { titulo: "La trampa", minutos: 5.4 },
-      { titulo: "Lo que este libro no puede demostrar", minutos: 5.2 },
-      { titulo: "Depender bien", minutos: 5.5 },
-    ],
-  },
 ];
 
 /** Índice por identificador, que es como lo pide la pantalla. */

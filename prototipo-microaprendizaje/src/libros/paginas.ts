@@ -48603,7 +48603,297 @@ const CEREBRO_DEL_NINO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Maneras de amar, en ocho páginas.
+
+   Breve. Libro práctico → TÚ.
+
+   Es un libro que se ha convertido en un sistema de etiquetas de
+   personalidad en internet, y ese es justo el uso que la investigación de
+   la que sale desaconseja. Así que el resumen cuenta bien los tres estilos
+   —que es lo útil— y dedica la conclusión a lo que el libro simplifica: que
+   no son cajas sino dos dimensiones continuas, que cambian, y que el trato
+   que da a los evitativos es injusto.
+
+   Las dos listas —conducta de protesta y estrategias de desactivación— son
+   lo mejor del libro y van completas, porque son lo único que un lector
+   puede reconocer en su propia vida esa misma noche.
+
+   Y dos estudios con nombre sostienen la parte que no es clasificación:
+   Coan 2006, las manos en el escáner, y Feeney 2007, la paradoja de la
+   dependencia.
+   -------------------------------------------------------------------------- */
+
+const MANERAS_DE_AMAR: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "La biología no preparó a los adultos para arreglárselas solos" },
+      {
+        b: "texto",
+        texto:
+          "En 2006, un equipo de la Universidad de Virginia dirigido por James Coan metió en un escáner cerebral a dieciséis mujeres casadas y les avisó de que podían recibir una descarga eléctrica leve en el tobillo. Midieron su respuesta cerebral a la amenaza en tres condiciones: solas, dándole la mano a un desconocido, y dándole la mano a su marido. La activación de las zonas de alarma bajó un poco con el desconocido y mucho más con el marido. Y la diferencia era mayor cuanto mejor iba el matrimonio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Amir Levine, psiquiatra e investigador de la Universidad de Columbia, y la psicóloga Rachel Heller publicaron este libro en 2010 partiendo de esa clase de datos. Su tesis va contra la idea más repetida sobre las relaciones: que un adulto sano es autosuficiente y que necesitar mucho a alguien es una debilidad que hay que corregir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sostienen es lo contrario. Los seres humanos vienen equipados con un sistema biológico que busca la proximidad de unas pocas personas concretas y que, cuando la consigue de forma fiable, deja de dar la alarma y libera al resto del organismo para hacer otras cosas. No es una cursilería: es lo que se ve en el escáner de Coan y lo que explica por qué una mala relación cansa tanto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: de dónde sale esta teoría y cuáles son los tres estilos, la lista exacta de lo que hace alguien ansioso cuando se siente lejos, la lista exacta de lo que hace alguien evitativo para mantener la distancia, por qué esas dos personas se buscan entre ellas, qué significa que la dependencia bien hecha vuelva más autónomo, y qué se puede hacer con todo esto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una relación fiable no es un lujo emocional: es lo que apaga el sistema de alarma y deja el resto del organismo libre para otra cosa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los tres estilos no salieron de una consulta: salieron de mirar a bebés y luego a adultos",
+      },
+      {
+        b: "texto",
+        texto:
+          "La teoría del apego la formuló el psiquiatra británico John Bowlby a partir de los años cincuenta, y quien la convirtió en algo medible fue Mary Ainsworth con un procedimiento llamado la situación extraña. Consistía en dejar a un niño de un año en una habitación con juguetes, hacer salir a la madre un par de minutos y observar sobre todo qué pasaba al volver, que resultó ser el momento informativo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aparecieron tres patrones. Unos niños protestaban al irse la madre, se dejaban consolar al volver y regresaban a jugar. Otros se enfadaban muchísimo y luego no se dejaban calmar, alternando búsqueda y rechazo. Y otros parecían no inmutarse, aunque las medidas fisiológicas mostraban que estaban igual de alterados por dentro: habían aprendido a no pedir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El salto a los adultos lo dieron Cindy Hazan y Phillip Shaver en 1987, y de una manera bastante casera: publicaron un cuestionario sobre el amor en un periódico de Denver y analizaron las respuestas de los lectores. Los mismos tres patrones aparecieron en las relaciones de pareja, con proporciones parecidas, y aquello abrió una línea de investigación que sigue viva.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los nombres que usa este libro son seguro, ansioso y evitativo, y las proporciones que maneja son de alrededor de un cincuenta por ciento de seguros, un veinticinco de evitativos y un veinte de ansiosos. El seguro está cómodo con la cercanía y pide lo que necesita sin dramatizarlo. El ansioso quiere más cercanía de la que recibe y vive pendiente del estado de la relación. El evitativo vive la cercanía como una amenaza a su independencia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El dato que reveló el experimento de Ainsworth no fue cómo reaccionaban los niños al quedarse solos, sino qué hacían cuando volvía su madre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La conducta de protesta es un intento de recuperar el contacto que consigue lo contrario",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando alguien con estilo ansioso percibe distancia —un mensaje que tarda, un tono raro, un plan que se cancela—, su sistema de apego se activa y produce una serie de conductas que el libro agrupa con un nombre: conducta de protesta. No son manipulaciones calculadas. Son intentos automáticos de restablecer el contacto, y la lista es tan concreta que casi todo el mundo se reconoce en alguna.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Llamar o escribir muchas veces seguidas. Contar cuánto tarda en contestar y ajustar lo que tú tardas. Dejar de hablarle a ver si reacciona. Amenazar con dejarlo sin querer dejarlo. Dar celos mencionando a otra persona. Llevar la cuenta de quién ha hecho más esfuerzo. Y la más frecuente: repasar la última conversación buscando la frase que demuestre lo que sospechas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema no es que estén mal: es que hacen exactamente lo contrario de lo que buscan. Todas ellas piden cercanía por una vía que la otra persona vive como presión o como castigo, así que la respuesta habitual es alejarse un poco más, lo cual dispara otra ronda. El sistema se alimenta a sí mismo, y el que protesta acaba pareciendo el problema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La alternativa que propone el libro es incómoda de tan sencilla: decirlo. No «haz lo que quieras», sino «cuando pasas dos días sin escribirme me pongo nerviosa y necesito saber si estás bien». La conducta de protesta existe porque pedir directamente expone a un no; y ese es justamente el motivo por el que funciona, porque una respuesta clara resuelve en dos frases lo que la protesta alarga semanas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Toda conducta de protesta es una petición de cercanía disfrazada de castigo, y por eso obtiene la respuesta contraria a la que busca.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las estrategias de desactivación no son falta de amor: son un sistema para mantener la distancia",
+      },
+      {
+        b: "texto",
+        texto:
+          "La otra lista es la que hace que este libro se recuerde. Alguien con estilo evitativo no rechaza la intimidad de manera consciente; lo que hace es poner en marcha, sin darse cuenta, una serie de maniobras que mantienen la relación a una distancia soportable. Los autores las llaman estrategias de desactivación y las enumeran con detalle.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Decir que no estás preparado para comprometerte después de cuatro años juntos. Fijarte en detalles pequeños que no encajan —cómo habla, su familia, una manía— y darles el peso de un motivo. Idealizar a un ex con quien la relación fue mala, que el libro llama el fantasma del ex. Flirtear fuera. No decir «te quiero» aunque te comportes como si lo sintieras. Enamorarte de personas inalcanzables. Y guardarte cosas para conservar una zona propia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hay debajo no es indiferencia. Cuando se mide la respuesta fisiológica de una persona evitativa en un momento de conflicto, se altera igual que las demás; lo que ha aprendido es a apagar la señal en lugar de expresarla. Por eso alguien puede parecer frío por fuera y estar activado por dentro, y por eso la persona ansiosa que tiene enfrente se vuelve loca intentando encontrar la emoción que no aparece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro es duro con este grupo y conviene decirlo desde ya, porque es su mayor defecto: describe a una cuarta parte de la población como un riesgo del que apartarse. Es más justo el dato: una persona evitativa no está incapacitada para querer, y lo que necesita es que le pidan las cosas de una en una, con margen, y que no interpreten cada retirada como un abandono.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Alguien evitativo no siente menos: ha aprendido a apagar la señal en vez de emitirla, y por dentro se altera exactamente igual.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El ansioso y el evitativo se encuentran una y otra vez, y por eso duran tanto sus relaciones malas",
+      },
+      {
+        b: "texto",
+        texto:
+          "La observación que más veces se cita del libro es que esas dos personas se emparejan con muchísima frecuencia, y que su relación resulta especialmente difícil de romper. La explicación tiene dos partes y las dos son mecánicas, no morales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es que cada uno confirma el miedo del otro. La protesta del ansioso —insistir, reclamar, reprochar— es exactamente lo que el evitativo teme, así que se aleja; y alejarse es exactamente lo que el ansioso teme, así que insiste más. Ninguno de los dos está haciendo nada raro para su estilo: es que sus estilos encajan como una llave en su cerradura, y giran hacia el mismo sitio siempre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda explica por qué no se acaba. Los ratos buenos existen y llegan de forma imprevisible, cuando el evitativo se acerca porque la distancia le ha vuelto a resultar cómoda. Una recompensa que llega a intervalos impredecibles es el esquema que más engancha que existe, y está medido desde los años cincuenta en el laboratorio: es el mismo mecanismo de una máquina tragaperras. La montaña rusa se confunde entonces con intensidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una razón estadística que el libro señala y que casi nadie ha pensado. Las personas seguras se emparejan y se quedan emparejadas, así que salen del mercado; las ansiosas y las evitativas rompen más y vuelven a él. Con lo cual la proporción de gente disponible en un momento dado está sesgada hacia esos dos estilos, y quien lleva años buscando puede llegar a la conclusión, falsa, de que casi nadie es seguro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las relaciones más difíciles de dejar no son las mejores: son las que reparten los buenos momentos a intervalos imprevisibles.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuanto mejor puedes apoyarte en alguien, más lejos llegas solo" },
+      {
+        b: "texto",
+        texto:
+          "El libro lo llama la paradoja de la dependencia, y es su aportación más importante. La formulación es esta: cuanto más eficazmente puede una persona depender de su pareja, más independiente se vuelve. Suena al revés de lo que dice el sentido común y está medido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La psicóloga Brooke Feeney publicó en 2007 un estudio siguiendo a parejas y observando cómo respondía cada miembro cuando el otro tenía una necesidad. Los que tenían una pareja que aceptaba esa dependencia sin castigarla ni ridiculizarla, y respondía, resultaron ser después los que más se atrevían a perseguir sus propios objetivos y los que funcionaban de forma más autónoma. La seguridad no ata: libera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo es el de la base segura, que se ve muy bien en un parque infantil. Un niño que sabe que su madre está en el banco explora hasta el final del arenero; uno que no está seguro de dónde está no se separa del banco. En un adulto pasa lo mismo con un cambio de trabajo, una mudanza o un proyecto arriesgado: quien tiene una relación fiable detrás asume más riesgo, no menos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fíjate en la consecuencia práctica, porque cambia lo que hay que buscar en alguien. La pregunta útil ante una pareja no es cuánto te gusta ni cuánta química hay, sino algo más aburrido y más predictivo: cuando le dices que necesitas algo, ¿qué hace? Responder de forma consistente a eso es la definición operativa de una persona segura, y se puede comprobar en las primeras semanas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta que predice una relación no es cuánta química hay, sino qué hace la otra persona cuando le dices que necesitas algo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo único que hay que aprender a hacer es decir las cosas pronto, en concreto y sin reproche",
+      },
+      {
+        b: "texto",
+        texto:
+          "Toda la parte práctica del libro se apoya en una habilidad que llaman comunicación eficaz y que tiene cuatro condiciones. Que sea directa: se dice lo que se necesita, no se insinúa. Que sea concreta: no «necesito más atención», sino «me gustaría que los domingos hiciéramos algo juntos». Que sea pronto, antes de que se acumule. Y que no acuse: hablar de lo que a ti te pasa y no de lo que el otro es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso, además de resolver problemas, funciona como prueba. Cómo responde alguien la primera vez que le planteas una necesidad así te dice más de la relación que meses de observación: si escucha y busca una solución, si se pone a la defensiva, si te hace sentir exagerado, o si desaparece. Es una información que se puede tener pronto y que casi nadie busca pronto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre cambiar de estilo, el libro es más optimista de lo que suele contarse. El apego no es un rasgo fijo: se mueve, y una de las cosas que más lo mueven es estar unos años con una persona segura. También la terapia de pareja centrada en las emociones, que trabaja exactamente sobre esto, tiene ensayos detrás con proporciones altas de parejas que salen de la crisis.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y una advertencia contra el mal uso, que es el que domina hoy. Esto no sirve para etiquetarte ni para etiquetar a nadie. Si te reconoces en la lista ansiosa, lo útil no es decir «soy ansiosa» sino ver qué tres conductas concretas haces y sustituirlas por una frase dicha a tiempo. La etiqueta cierra; la lista de conductas se puede trabajar una por una.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cómo responde alguien la primera vez que le pides algo con claridad informa más que meses de observarle.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro traslada a la pareja adulta una teoría con sesenta años de investigación detrás, y lo hace con dos listas de conductas concretas —las del que protesta y las del que se desactiva— que permiten a cualquiera reconocer un patrón propio en una tarde. Su idea central es que depender bien de alguien no resta autonomía, sino que la produce.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es ese reconocimiento. Ver por escrito que contar los minutos que tarda en contestar tiene nombre, que le pasa a una quinta parte de la población y que existe una alternativa concreta hace más por alguien que cualquier consejo general sobre quererse a uno mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en convertirlo en tres cajas. La investigación de la que sale mide dos dimensiones continuas —cuánta ansiedad y cuánta evitación— y la mayoría de la gente está en algún punto intermedio de las dos, no dentro de un tipo. Poner nombres a tres perfiles se lee mucho mejor y produce el efecto que el libro dice querer evitar: gente convencida de tener un rasgo fijo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo fallo es de trato. El retrato del evitativo es casi siempre negativo, hasta el punto de leerse como una guía para descartar a un cuarto de la población. Y el estilo tampoco es una condena: cambia con los años, cambia según la pareja, y existe lo que la investigación llama seguridad ganada, que es llegar a funcionar de forma segura sin haber empezado así.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después es el mejor ejemplo de esos dos fallos. A partir de 2018 estos tres nombres se convirtieron en un sistema de clasificación de personalidad en las redes sociales, con test de tres minutos y con gente descartando citas por la etiqueta ajena. Es exactamente el uso que la investigación desaconseja, y el libro, con sus tres cajas bien dibujadas, se lo puso fácil.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quédate con las dos listas de conductas, que son excelentes, y no con la etiqueta, que es lo único del libro que no sostiene la investigación.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "maneras-de-amar": MANERAS_DE_AMAR,
   "cerebro-del-nino": CEREBRO_DEL_NINO,
   "poder-metabolismo": PODER_METABOLISMO,
   "vivir-plenitud": VIVIR_PLENITUD,

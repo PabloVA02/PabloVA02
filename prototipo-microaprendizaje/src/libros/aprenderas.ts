@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "maneras-de-amar":
+    "En un escáner, la respuesta cerebral de una mujer ante la amenaza de una descarga bajaba mucho más al darle la mano a su marido que a un desconocido, y bajaba más cuanto mejor iba el matrimonio. De ahí parte el libro.",
+
   "cerebro-del-nino":
     "Las partes del cerebro que frenan un impulso y ponen en palabras lo que pasa dentro siguen formándose hasta la veintena. Siegel y Bryson convierten ese hecho en una manera de responder a un berrinche.",
 
