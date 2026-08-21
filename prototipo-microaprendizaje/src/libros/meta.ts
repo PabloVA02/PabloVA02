@@ -1080,22 +1080,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "arte-de-amar",
-    titulo: "El arte de amar",
-    autor: "Erich Fromm",
-    ano: 1956,
-    gancho: "Ciento treinta páginas escritas en unos meses que han vendido más de veinticinco millones de ejemplares, y de las que su autor llegó a decir que se sentía casi avergonzado.",
-    porQue: "Porque su tesis —que amar es una capacidad que se aprende y no una suerte que ocurre— sigue siendo la más útil que se ha escrito sobre el asunto, y porque el capítulo sobre madres y padres envejeció fatal.",
-    minutos: 21.6,
-    capitulos: [
-      { titulo: "La chica que quiso ser enterrada con su padre", minutos: 4.5 },
-      { titulo: "El problema no es encontrar a alguien", minutos: 4.6 },
-      { titulo: "Cuidado, responsabilidad, respeto, conocimiento", minutos: 4.2 },
-      { titulo: "El egoísta no se quiere nada", minutos: 4.2 },
-      { titulo: "El libro que le dio vergüenza", minutos: 4.2 },
-    ],
-  },
-  {
     id: "marte-venus",
     titulo: "Los hombres son de Marte, las mujeres son de Venus",
     autor: "John Gray",

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "arte-de-amar":
+    "Fromm parte de una comprobación incómoda: casi nadie cree que amar sea algo que haya que aprender, así que nadie lo estudia. Su libro descompone esa capacidad en cuatro componentes que no son sentimientos y que se pueden observar.",
+
   educada:
     "No tuvo partida de nacimiento hasta los nueve años ni pisó un aula hasta los diecisiete, y a los veintiocho terminó un doctorado en Cambridge. Entre medias, un desguace de chatarra, ningún médico y una familia que negaba lo que ella recordaba.",
 

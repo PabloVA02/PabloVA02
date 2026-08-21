@@ -29044,7 +29044,268 @@ const EDUCADA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El arte de amar, en ocho páginas.
+
+   Breve. El original tiene 150 páginas.
+
+   Libro PRÁCTICO sobre una capacidad: segunda persona en la prosa,
+   titular que afirma.
+
+   La conclusión dice lo que casi ningún resumen dice: su reparto entre
+   amor materno y paterno es de 1956 y suena a ello, y lo que escribe sobre
+   la homosexualidad es la posición psicoanalítica de la época y es falso.
+   -------------------------------------------------------------------------- */
+
+const ARTE_DE_AMAR: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi todo el mundo cree que el problema es encontrar a la persona adecuada",
+      },
+      {
+        b: "texto",
+        texto:
+          "Erich Fromm empieza el libro con una comprobación incómoda. Casi nadie considera que amar sea algo que haya que aprender. Si a alguien le va mal en esto, concluye que ha tenido mala suerte con las personas, o que todavía no ha encontrado a la adecuada, o que no le quieren lo suficiente; casi nunca concluye que no sepa hacerlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y señala tres errores que sostienen esa manera de verlo. El primero es que la gente piensa en ser amada y no en amar, y por eso dedica sus esfuerzos a resultar deseable —a tener éxito, a gustar, a estar presentable— en lugar de a desarrollar una capacidad. El segundo es creer que se trata de un problema de objeto y no de facultad: encontrar a la persona correcta, como quien busca un objeto en una tienda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercero es el que más daño hace: confundir el enamoramiento inicial con el amor. Ese momento de derrumbe repentino de las barreras entre dos desconocidos es intensísimo y por su propia naturaleza no puede durar, porque depende de que el otro sea desconocido. Cuando se acaba, mucha gente concluye que se equivocó de persona y vuelve a empezar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que propone en su lugar: qué problema humano viene a resolver el amor, en qué se distingue el maduro del inmaduro, de qué cuatro elementos está hecho, por qué quererse a uno mismo es la condición y no lo contrario, qué dijo en 1956 sobre el mercado de las relaciones y qué hay que practicar exactamente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si algo te sale mal muchas veces, la explicación más probable no es la suerte con las personas: es que no sabes hacerlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El problema que hay que resolver es saberse separado" },
+      {
+        b: "texto",
+        texto:
+          "Antes de hablar de amor, Fromm plantea de qué problema es una respuesta. Sostiene que la angustia humana fundamental viene de la conciencia de separación: el ser humano es el único animal que sabe que está separado de los demás, que su vida es una y que va a morir. Esa conciencia, dice, es insoportable si no se resuelve de alguna manera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y repasa las salidas que las sociedades han ensayado. La primera son los estados de trance: rituales orgiásticos, alcohol, drogas, sexo sin vínculo. Funcionan, son intensos y duran poco, y al pasar el efecto la separación vuelve, así que hay que repetirlos cada vez con más frecuencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es la conformidad con el grupo: volverse igual a todos los demás, hacer lo que se hace, pensar lo que se piensa, y sentir que uno pertenece. Es la salida más frecuente, y Fromm apunta que en una sociedad moderna esa igualación se toma por libertad, porque nadie te obliga: te apuntas solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es la actividad creadora: unirse al material con el que se trabaja, como hace un artesano con la madera. Funciona bien y tiene un límite, porque la unión es con una cosa y no con otra persona. Solo queda la cuarta, que es el amor entendido como unión con otro conservando la propia integridad, y ahí está la paradoja del libro: dos seres se hacen uno y siguen siendo dos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Volverse igual a todo el mundo alivia la soledad y en una sociedad moderna encima parece una elección libre, porque no te obliga nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El amor maduro invierte el orden de la frase" },
+      {
+        b: "texto",
+        texto:
+          "La distinción más citada del libro cabe en dos frases puestas una al lado de la otra. El amor inmaduro dice: te quiero porque te necesito. El amor maduro dice: te necesito porque te quiero. La diferencia no es de intensidad, es de orden, y ese orden decide todo lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el primer caso, la otra persona es la solución a una carencia: alivia una soledad, da seguridad, resuelve una posición o llena un hueco. Es un vínculo real y funciona mientras siga cumpliendo esa función; el momento en que deja de cumplirla, se acaba, y quien lo vive lo describe casi siempre diciendo que la otra persona ha cambiado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el segundo, la necesidad aparece después y como consecuencia. Uno no busca a alguien para dejar de estar incompleto, sino que al querer a alguien pasa a necesitarlo, cosa que ocurre porque ha puesto algo en juego. Fromm insiste en que solo puede hacer eso quien ya es capaz de estar solo, y que ahí está la condición previa de todo el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su formulación de la paradoja: en el amor, dos seres se convierten en uno y siguen siendo dos. Lo contrario —fundirse, disolverse, dejar de tener vida propia— no es una versión más intensa: es la solución fácil al problema de la separación, y produce dependencia y no unión.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Te necesito porque te quiero, y no al revés: es el mismo par de palabras en otro orden y cambia todo lo que viene después.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Está hecho de cuatro elementos y ninguno es un sentimiento" },
+      {
+        b: "texto",
+        texto:
+          "La parte más aplicable del libro descompone el amor en cuatro componentes que se pueden observar, y ninguno de ellos es una emoción. El primero es el cuidado, que Fromm define como la preocupación activa por la vida y el crecimiento de lo que se ama. Su prueba es sencilla: nadie cree a una persona que dice que adora las flores si no las riega.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo es la responsabilidad, y la despoja del sentido de obligación. En su definición es la capacidad de responder: estar disponible para lo que el otro necesita, incluidas las necesidades que no se dicen en voz alta. No es un deber impuesto desde fuera, sino una respuesta que se da porque uno decide darla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercero es el respeto, y aquí usa la etimología: respetar viene del latín *respicere*, que significa mirar. Respetar es ver a la otra persona tal como es, con sus rasgos propios, y desear que se desarrolle según su manera y no según la mía. Y añade una condición que lo hace difícil: el respeto solo existe sobre la base de la libertad, porque no se puede querer que alguien crezca a su manera y a la vez querer controlarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuarto es el conocimiento, y no es acumular información sobre alguien. Es la capacidad de ver más allá de lo que la persona muestra: saber que la irritación de alguien es miedo, o que su silencio es tristeza. Sin conocimiento, el cuidado se vuelve invasión y el respeto se vuelve distancia; los cuatro se necesitan entre sí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie cree a quien dice que adora las flores y no las riega, y esa prueba vale igual para las personas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Quien no puede quererse a sí mismo no puede querer a nadie" },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos más útiles corrige una idea muy asentada: la de que quererse a uno mismo es egoísmo y que la virtud consiste en pensar solo en los demás. Fromm sostiene que esa oposición es falsa y que además produce exactamente el resultado contrario del que busca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es de coherencia. Si amar es una actitud —cuidado, responsabilidad, respeto y conocimiento— dirigida a un ser humano, no hay ninguna razón para excluir de esa lista a uno mismo, que también lo es. Quien se trata a sí mismo con desprecio está practicando el desprecio, y esa es la práctica que va a aplicar a los demás por mucho que se esfuerce.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da la vuelta al retrato del egoísta, que es la parte más aguda. Sostiene que el egoísta no se ama demasiado: se ama demasiado poco. Precisamente porque no se soporta, necesita estar todo el tiempo compensando, acaparando y demostrando, y esa avidez es lo que los demás ven desde fuera y confunden con un exceso de amor propio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que analiza con más detalle es el de la persona abnegada, que se sacrifica por todos y nunca pide nada. Fromm observa que ese comportamiento suele producir en quienes lo rodean una incomodidad difícil de explicar, y que los hijos de padres así son a menudo bastante infelices: se les ha dado todo y se les ha transmitido, sin una palabra, que vivir es una carga.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El egoísta no se quiere demasiado: se quiere tan poco que necesita compensarlo todo el rato, y eso es lo que ves desde fuera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En 1956 describió con exactitud las aplicaciones de citas" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más profético del libro no habla de psicología sino de economía. Fromm sostiene que en una sociedad organizada como un mercado, las personas acaban tratándose entre sí como mercancías, y aplica esa idea a la manera de buscar pareja con una precisión que en 1956 no tenía referente y hoy sí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su descripción es literal. Cada persona calcula, con bastante exactitud, su propio valor de cambio: el atractivo físico, la edad, la posición social, el dinero, la educación, el éxito profesional. Con esa cifra en la cabeza busca en el mercado el mejor objeto disponible, es decir, la persona de mayor valor que esté a su alcance. Y dos personas se enamoran, escribe, cuando cada una siente que ha encontrado la mejor operación posible dentro de sus propios límites.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hoy hace estremecer esa página es que existan aplicaciones que hacen ese cálculo de forma explícita, ordenando a las personas por deseabilidad medida y mostrando a cada usuario perfiles de su misma franja. Fromm describió el mecanismo cuarenta años antes de que hubiera una máquina que lo ejecutara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade su crítica al modelo de pareja que produce esa sociedad, al que llama el equipo bien engrasado. Dos personas que funcionan sin roces, que se reparten tareas, que se apoyan mutuamente y que no discuten nunca. Fromm lo presenta como un síntoma y no como un logro: es un refugio compartido contra la soledad, un egoísmo entre dos, y en él no hay ninguna de las cuatro cosas que él llama amor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribió en 1956 que la gente se empareja calculando qué es lo mejor que puede conseguir con su propio valor de cambio, y hoy hay aplicaciones que lo calculan por ti.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un arte se practica con disciplina, concentración y paciencia" },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro es la práctica, y Fromm empieza avisando de que va a decepcionar: no hay instrucciones. Lo que ofrece son las condiciones generales del aprendizaje de cualquier arte, las mismas que harían falta para la carpintería o la medicina, aplicadas a esto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es la disciplina, entendida como una práctica regular y no como un esfuerzo heroico ocasional. La segunda es la concentración, y la considera la más difícil de conseguir hoy: sostiene que casi nadie sabe estar haciendo una sola cosa, que la gente come mirando otra cosa, escucha pensando en lo siguiente y está con alguien sin estar del todo, y que quien no sabe estar solo en una habitación sin distraerse tampoco va a saber estar con otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es la paciencia, y su ejemplo es exacto: quien intente aprender cualquier arte con prisa no lo aprenderá nunca, porque las etapas no se pueden acortar. Y la cuarta es que el asunto le importe a uno de verdad, por encima de otras cosas, porque un arte que se practica los ratos libres no se domina.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso añade dos requisitos propios de este arte. Superar el narcisismo, que define como la incapacidad de percibir a la otra persona tal como es en lugar de como aparece en la propia película; y tener fe, que no es una fe religiosa sino la confianza razonada en que uno mismo y el otro pueden ser fiables, lo cual exige haber sido fiable primero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien no sabe estar quince minutos solo en una habitación sin distraerse tampoco va a saber estar del todo con otra persona.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El arte de amar sostiene que amar es una capacidad que se aprende y no una suerte que se tiene, y que casi todo el mundo trabaja sobre el problema equivocado: se dedica a resultar deseable en vez de a desarrollar esa capacidad. Propone cuatro componentes concretos —cuidado, responsabilidad, respeto y conocimiento—, sitúa como condición previa la capacidad de estar solo y de quererse uno mismo, y describe con una precisión notable cómo una sociedad de mercado convierte a las personas en operaciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es que quita el asunto del terreno del sentimiento y lo pone en el de la práctica. Después de leerlo, la pregunta de si uno quiere a alguien se sustituye por otra bastante más útil: qué hace exactamente por esa persona, con qué regularidad y si la está viendo tal como es.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El amor no es un sentimiento que te ocurre: es una actitud con cuatro componentes que se pueden observar desde fuera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es un ensayo sin un solo dato: Fromm afirma, no demuestra, y varias de sus afirmaciones sobre el desarrollo psicológico están tomadas del psicoanálisis de su época sin ninguna comprobación. Y su reparto entre amor materno y paterno es de 1956 y suena a ello: la madre representa la naturaleza, el hogar y el amor incondicional, y el padre el pensamiento, la ley, la aventura y el amor que hay que merecer. Es un esquema que hoy describe una época y no a las personas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una frase que conviene señalar sin rodeos. En un par de líneas, el libro presenta la homosexualidad como un fracaso en la unión de los polos masculino y femenino. Era la posición psicoanalítica dominante en los años cincuenta, es sencillamente falsa y la propia disciplina la abandonó décadas después. Y la parte práctica, que es la que promete el título, es la más floja del volumen: apenas veinte páginas bastante generales, cosa que él mismo advierte antes de empezarlas.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "arte-de-amar": ARTE_DE_AMAR,
   educada: EDUCADA,
   "historia-espana": HISTORIA_ESPANA,
   "pilares-tierra": PILARES_TIERRA,

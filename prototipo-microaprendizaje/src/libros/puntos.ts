@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "arte-de-amar": [
+    "por qué casi todo el mundo trabaja sobre el problema equivocado",
+    "qué diferencia hay entre el amor maduro y el inmaduro",
+    "de qué cuatro elementos está hecho, y ninguno es una emoción",
+    "por qué quererse a uno mismo es la condición previa",
+    "qué escribió en 1956 sobre el mercado de las relaciones",
+  ],
+
   educada: [
     "qué había en aquella casa en lugar de escuela",
     "qué pasaba cuando alguien se hacía daño de verdad",
