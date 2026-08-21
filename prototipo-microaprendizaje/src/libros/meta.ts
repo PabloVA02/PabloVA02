@@ -136,22 +136,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "mandela",
-    titulo: "El largo camino hacia la libertad",
-    autor: "Nelson Mandela",
-    ano: 1994,
-    gancho: "Escribió la mitad a escondidas en la cárcel y la enterró en tres latas de cacao en el patio. Los carceleros encontraron una.",
-    porQue: "Es la autobiografía de veintisiete años de cárcel contada sin autocompasión. Y es también un libro escrito por un presidente en ejercicio, con todo lo que eso implica sobre lo que calla.",
-    minutos: 26.5,
-    capitulos: [
-      { titulo: "El niño al que llamaron Alborotador", minutos: 5.2 },
-      { titulo: "El abogado que dejó de creer en la ley", minutos: 5.2 },
-      { titulo: "Preso 466/64", minutos: 5.4 },
-      { titulo: "Tres latas de cacao enterradas", minutos: 5.3 },
-      { titulo: "La negociación que hizo solo", minutos: 5.4 },
-    ],
-  },
-  {
     id: "tatuador",
     titulo: "El tatuador de Auschwitz",
     autor: "Heather Morris",

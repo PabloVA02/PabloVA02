@@ -48,7 +48,6 @@ const CARGADORES: Record<string, Cargador> = {
   /* Historia */
   "diario-ana-frank": () => import("./historia").then((m) => m.ANA_FRANK),
   "armas-germenes": () => import("./historia").then((m) => m.ARMAS_GERMENES),
-  mandela: () => import("./historia").then((m) => m.MANDELA),
 
   /* Ciencia */
   feynman: () => import("./ciencia").then((m) => m.FEYNMAN),

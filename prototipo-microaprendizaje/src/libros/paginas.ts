@@ -22027,7 +22027,249 @@ const EICHMANN_JERUSALEN: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El largo camino hacia la libertad, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO (biografía): títulos cortos de imagen, afirmación en
+   la primera frase, caja del rayo en segunda persona. Prosa en tercera.
+
+   La página 4 es la que casi ningún resumen tiene: Mandela fundó y dirigió
+   el brazo armado del ANC, y el libro lo cuenta y lo argumenta. Sin eso,
+   esto sería la estampita del anciano sonriente.
+   -------------------------------------------------------------------------- */
+
+const MANDELA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El nombre se lo puso una maestra" },
+      {
+        b: "texto",
+        texto:
+          "Nació el 18 de julio de 1918 en una aldea del Transkei y su padre lo llamó Rolihlahla, que en xhosa significa literalmente tirar de la rama de un árbol y que en la práctica se usa para decir revoltoso. El nombre por el que lo conoce el mundo se lo pusieron el primer día de colegio: la maestra, siguiendo la costumbre de dar nombres ingleses a los alumnos africanos, le dijo que a partir de entonces se llamaba Nelson. Nunca supo por qué eligió ese.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro tiene una historia de escritura poco corriente. Mandela empezó a redactarlo a escondidas en 1975, en la prisión de Robben Island, escribiendo de noche y durmiendo de día, con sus compañeros Walter Sisulu y Ahmed Kathrada revisando cada hoja. Iban enterrando el manuscrito en botes de plástico en el patio. Los guardias encontraron una parte durante unas obras y le retiraron el derecho a estudiar durante cuatro años. El resto salió del penal escondido entre los papeles de otro preso que quedaba en libertad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo terminó veinte años después, ya fuera, con la ayuda del periodista Richard Stengel, y se publicó en 1994, el año en que fue elegido presidente. Son setecientas cincuenta páginas y no es un libro de citas inspiradoras: es un relato político con actas de reuniones, discusiones de estrategia y errores propios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que cuenta: qué le dijo un jefe tribal a los dieciséis años que tardó veinte en entender, en qué consistía exactamente el apartheid como sistema legal, por qué en 1961 dejó de defender la no violencia, qué declaró en el juicio que lo condenó, cómo fueron dieciocho años en una celda de dos metros y por qué empezó a negociar sin consultar a su partido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El manuscrito de este libro estuvo enterrado en botes de plástico en el patio de una cárcel, y una parte no se recuperó nunca.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El jefe que aguó la fiesta" },
+      {
+        b: "texto",
+        texto:
+          "La escena que Mandela señala como el principio de su conciencia política es una ceremonia. A los dieciséis años pasó, con otros veinticinco jóvenes, por el rito de iniciación de su pueblo. Después de la circuncisión hubo discursos, regalos y ganado, y el orador principal era un jefe llamado Meligqili.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que dijo aguó la celebración entera. Que aquella promesa era hueca, porque los jóvenes que tenía delante no llegarían a ser hombres en ningún sentido real: eran esclavos en su propio país, arrendatarios de una tierra que no les pertenecía, y su destino era ir a trabajar a las minas de los blancos por un salario que no les permitiría volver. Terminó diciendo que ojalá se equivocara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mandela cuenta con toda honestidad que en aquel momento le pareció un hombre resentido que estropeaba una fiesta buena. Estaba orgulloso de ser inglés en la escuela, admiraba a los magistrados británicos y creía que su porvenir estaba en llegar a ser consejero de la corte thembu como su padre. Aquel discurso, dice, se le quedó dentro sin efecto durante años, hasta que empezó a tener sentido solo. De aquellos veintiséis jóvenes, la mayoría acabó exactamente donde el jefe había anunciado: en las minas de oro del Rand, con contratos de un año y barracones de doce hombres. Mandela llegó a Johannesburgo poco después y su primer empleo fue vigilante nocturno en una de esas minas, con un uniforme, una linterna y un silbato.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todo lo que acabas entendiendo te lo dijeron mucho antes, y aquel día te pareció que quien lo decía exageraba.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un país escrito en leyes" },
+      {
+        b: "texto",
+        texto:
+          "La parte más instructiva del libro es la que explica que el apartheid no era un ambiente racista ni una costumbre: era un cuerpo legislativo, aprobado por un parlamento, aplicado por jueces y registrado en oficinas. Empezó formalmente en 1948, cuando el Partido Nacional ganó las elecciones con ese programa, y se construyó ley a ley durante los quince años siguientes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mandela las enumera porque las conocía como abogado. Una ley de registro clasificaba a cada habitante en una categoría racial anotada en un documento, con juntas que resolvían los casos dudosos mirando el pelo. Otra reservaba cada zona del país a un grupo, lo que permitió expulsar a poblaciones enteras de barrios donde llevaban generaciones. Otra prohibía los matrimonios mixtos. Otra creaba una enseñanza específica para africanos, cuyo ministro explicó en el parlamento que no tenía sentido enseñar matemáticas a quien no iba a usarlas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y por encima de todas, la ley de pases: cualquier africano mayor de dieciséis años debía llevar encima un cuaderno con sus permisos de residencia y de trabajo, y enseñarlo a cualquier policía que se lo pidiera. Detenían por eso a cientos de miles de personas al año. En 1952, Mandela y Oliver Tambo abrieron en Johannesburgo el primer bufete de abogados negros del país, y su trabajo diario era defender a gente acusada de no llevar el cuaderno encima o de vivir en una casa que la ley había reasignado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un sistema así no se sostiene con odio: se sostiene con formularios, funcionarios y un cuaderno que hay que enseñar en la calle.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La lanza de la nación" },
+      {
+        b: "texto",
+        texto:
+          "La parte que casi nunca se cuenta de esta biografía es que su protagonista organizó y dirigió una campaña armada, y que el libro lo argumenta sin ninguna incomodidad. Durante casi cincuenta años, el Congreso Nacional Africano fue una organización estrictamente no violenta: peticiones, huelgas, desobediencia civil, quema pública de los cuadernos de pases.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que cambió su cálculo fue una fecha: el 21 de marzo de 1960, en Sharpeville, la policía disparó contra una manifestación pacífica contra los pases y mató a sesenta y nueve personas, la mayoría por la espalda. Semanas después el gobierno ilegalizó el ANC. Mandela escribe entonces la frase que resume su posición: la no violencia no era para ellos un principio moral, era una táctica, y una táctica que ya no producía ningún resultado había que cambiarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1961 fundó Umkhonto we Sizwe, la lanza de la nación, con un plan de cuatro fases: sabotaje primero, y solo si fracasaba, guerrilla, terrorismo y revolución abierta. La primera fase era deliberadamente contra instalaciones —centrales eléctricas, líneas de tren, oficinas— y no contra personas, porque el sabotaje, escribe, es el que menos vidas cuesta y el que deja abierta la posibilidad de un entendimiento después. Salió del país clandestinamente, recibió instrucción militar en Etiopía y Argelia y volvió.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien insiste en que la no violencia es sagrada suele estar en una posición desde la que nunca ha tenido que comprobarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Tres horas de pie en el banquillo" },
+      {
+        b: "texto",
+        texto:
+          "Lo detuvieron en agosto de 1962 y en 1963 la policía asaltó una granja en Rivonia donde estaba el mando de la organización armada, con documentos que lo implicaban todo. En el juicio, que podía acabar en la horca, Mandela y sus abogados tomaron una decisión inusual: no defenderse negando los hechos, sino reconocerlos y explicar por qué.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 20 de abril de 1964 leyó desde el banquillo una declaración de tres horas. Empezó admitiendo que él había fundado la organización armada y que lo había hecho después de calcular fríamente que no quedaba otra vía. Explicó la diferencia entre sabotaje y terrorismo y por qué habían elegido lo primero. Habló de sueldos, de mortalidad infantil y de la ley de pases con cifras. Y aclaró algo que resultó decisivo para su figura futura: que había combatido la dominación blanca y que combatiría igual la dominación negra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Terminó de pie, mirando al juez, con un párrafo que su abogado le había pedido que suavizara y que él dejó tal cual: que la suya era una sociedad libre y democrática por la que esperaba vivir y verla realizada; y que, si hacía falta, era un ideal por el que estaba dispuesto a morir. Hubo un silencio largo en la sala.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 12 de junio de 1964 lo condenaron a cadena perpetua, junto a siete compañeros. No los ejecutaron, en buena parte por la presión internacional que aquella declaración había provocado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "A veces la mejor defensa no consiste en negar lo que hiciste, sino en obligar al tribunal a escuchar por qué lo hiciste.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una cantera de cal" },
+      {
+        b: "texto",
+        texto:
+          "Pasó dieciocho de sus veintisiete años de cárcel en Robben Island, una isla frente a Ciudad del Cabo. Su celda medía poco más de dos metros por dos y medio, sin cama, con un petate en el suelo de cemento y un cubo. Como preso africano recibía la ración más baja de comida y la clasificación más baja del sistema penitenciario: una visita de treinta minutos y una carta cada seis meses, y las cartas llegaban recortadas con cuchilla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante trece años el trabajo consistió en picar piedra caliza en una cantera al aire libre. El detalle que Mandela cuenta y que no aparece en ninguna película es el daño: el sol reflejado en la cal blanca, sin gafas, le arruinó la vista, y el polvo le dañó los conductos lagrimales de forma permanente. Años después, en el funeral de su madre, no pudo llorar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí dentro montaron lo que los propios presos llamaron la universidad de Robben Island. Cada uno enseñaba lo que sabía: derecho, historia, idiomas, economía. Se pasaban textos escritos en papel de fumar escondidos en cajas de cerillas. Discutían de estrategia política durante los descansos en la cantera, con los guardias delante, y esas discusiones fueron literalmente el gobierno del ANC durante veinte años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando en 1969 murió su hijo mayor en un accidente de coche, le comunicaron la noticia por escrito y le denegaron el permiso para asistir al entierro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que sostiene a alguien tanto tiempo casi nunca es la esperanza: es una rutina de trabajo con otras personas dentro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El idioma del carcelero" },
+      {
+        b: "texto",
+        texto:
+          "La decisión más útil que tomó en prisión parecía una excentricidad. Se puso a estudiar afrikáans, el idioma de los guardias y del gobierno, y a leer la historia de los afrikáners: sus guerras contra los británicos, sus campos de concentración, su literatura. Sus compañeros no lo entendían y algunos lo tomaron por una forma de rendición.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su razonamiento era práctico. Para negociar algún día con aquella gente había que saber qué temían, y para hablar con un carcelero había que hablarle en su lengua. El resultado se vio a lo largo de los años: varios guardias acabaron tratándolo con un respeto que no correspondía a su situación, y cuando llegaron las conversaciones de verdad, Mandela podía citar de memoria pasajes de la historia que los otros consideraban sagrada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1985 empezó a hablar en secreto con miembros del gobierno, y lo hizo por su cuenta, sin consultar a la dirección del ANC en el exilio. El libro no lo disimula: sabía que aquello podía costarle la acusación de traición por parte de los suyos, y decidió que alguien tenía que empezar y que era mejor que empezara alguien que ya estaba encerrado y no tenía nada que ganar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese mismo año rechazó una oferta de libertad condicional a cambio de renunciar públicamente a la lucha armada. Su respuesta la leyó su hija en un mitin, porque él no podía hablar en público: solo los hombres libres pueden negociar, y un preso no puede firmar contratos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Estudiar a fondo al que está enfrente no es acercarse a él: es dejar de negociar a ciegas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El largo camino hacia la libertad cuenta setenta y cinco años de una vida y, de paso, cómo se construyó y cómo se desmontó un sistema legal de segregación. Sus tres decisiones difíciles están todas explicadas con su cálculo delante: pasar a la lucha armada en 1961, reconocer los hechos en el juicio de 1964 y empezar a negociar en secreto en 1985 sin permiso de su propia organización.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es el detalle político. No es un libro sobre el perdón ni sobre la resistencia interior: es un libro sobre estrategia, escrito por un abogado que anota siempre qué opciones había sobre la mesa y por qué eligió una.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Combatí la dominación blanca y combatiré la dominación negra: lo dijo en un tribunal que podía ahorcarlo, y esa frase es la que decidió lo que vino treinta años después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Son setecientas cincuenta páginas y la última parte, la de las negociaciones y la transición, es la más apresurada y la más diplomática de todas, justo cuando el lector querría más detalle. Hay además silencios grandes: su vida familiar aparece poco y siempre con culpa —dos matrimonios rotos, hijos que apenas conoció—, y sobre Winnie Mandela el libro es extraordinariamente cauto en un momento en que ella estaba señalada por asuntos muy graves. Y está escrito con un periodista, de modo que la voz es más pulida y más prudente que la de sus cartas de prisión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después. Fue elegido presidente en 1994, gobernó un solo mandato y se retiró, cosa poco frecuente en el continente. Impulsó la Comisión de la Verdad y la Reconciliación, que ofrecía amnistía a cambio de confesión completa y que sigue siendo el experimento más citado de justicia transicional. Y hay un reproche que se le hace hoy y que el libro no podía prever: el acuerdo consiguió la igualdad política y dejó intacta la estructura económica, y Sudáfrica sigue siendo uno de los países más desiguales del mundo. Quien lo lea buscando el final feliz de una historia, se llevará esa corrección de la realidad.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  mandela: MANDELA,
   "eichmann-jerusalen": EICHMANN_JERUSALEN,
   malala: MALALA,
   "chico-pijama": CHICO_PIJAMA,

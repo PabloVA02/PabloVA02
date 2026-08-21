@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  mandela:
+    "Empezó a escribirlo a escondidas en la cárcel en 1975 y enterraba las hojas en botes en el patio; los guardias encontraron una parte. Es un relato político con estrategia y errores propios, no una colección de frases sobre el perdón.",
+
   "eichmann-jerusalen":
     "Seis psiquiatras examinaron a Eichmann antes del juicio y todos lo declararon normal. Arendt cubrió el proceso para una revista y salió de allí con la idea de que aquello no lo hicieron monstruos, sino gente sin capacidad de pensar.",
 

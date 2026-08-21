@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  mandela: [
+    "en qué consistía el apartheid como cuerpo de leyes",
+    "por qué en 1961 dejó de defender la no violencia",
+    "qué declaró en el juicio que pudo condenarlo a muerte",
+    "cómo eran dieciocho años en Robben Island",
+    "por qué se puso a estudiar el idioma de sus carceleros",
+  ],
+
   "eichmann-jerusalen": [
     "qué significa exactamente «banalidad del mal»",
     "qué observó Arendt en la manera de hablar del acusado",
