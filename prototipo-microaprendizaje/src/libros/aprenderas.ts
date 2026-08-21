@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "casa-espiritus":
+    "Empezó como una carta a un abuelo de noventa y nueve años que se estaba muriendo en Chile mientras su nieta seguía en el exilio. La carta creció hasta quinientas páginas y acabó siendo cuatro generaciones de una familia y un golpe de Estado.",
+
+  rayuela:
+    "El libro empieza con un tablero de instrucciones: se puede leer del capítulo 1 al 56 o saltando entre los 155 en un orden distinto. Dentro hay un argentino en París, un idioma inventado y un final que se muerde la cola.",
+
   "bernarda-alba":
     "Lorca fechó el manuscrito el 19 de junio de 1936 y lo mataron dos meses después, sin haberla visto nunca en un escenario. Son tres actos, una casa, diez mujeres y ningún hombre en escena.",
 

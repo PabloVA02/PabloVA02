@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "casa-espiritus": [
+    "qué son los cuadernos de anotar la vida",
+    "por qué el patriarca cuenta su propia versión",
+    "cómo vuelve un hijo engendrado en una violación",
+    "por qué el país de la novela no se nombra nunca",
+    "qué decide la última mujer de la familia",
+  ],
+
+  rayuela: [
+    "cómo funcionan sus dos órdenes de lectura",
+    "qué ocurre en el capítulo que nadie olvida",
+    "para qué sirve un idioma inventado desde cero",
+    "quién es el viejo que critica la novela desde dentro",
+    "por qué el segundo final no termina nunca",
+  ],
+
   "bernarda-alba": [
     "qué ordena Bernarda en su primera intervención",
     "por qué no aparece ningún hombre en los tres actos",

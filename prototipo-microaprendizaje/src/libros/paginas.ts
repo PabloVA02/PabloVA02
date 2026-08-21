@@ -22964,7 +22964,476 @@ const BERNARDA_ALBA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Rayuela, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO: títulos cortos de imagen, afirmación en la primera
+   frase, caja del rayo en segunda persona.
+
+   Lo que casi nadie cuenta y aquí sí: los números exactos del tablero, el
+   capítulo 28 entero, el glíglico, el bucle 58-131 y que el propio
+   Cortázar se retractó por escrito de lo del «lector hembra».
+   -------------------------------------------------------------------------- */
+
+const RAYUELA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos libros en un solo tomo" },
+      {
+        b: "texto",
+        texto:
+          "Rayuela empieza con una página que no es del relato y que se titula Tablero de dirección. Allí Cortázar avisa de que su libro es muchos libros pero sobre todo dos, y explica cómo se leen. El primero se lee del capítulo 1 al 56, en orden, y al terminar el 56 hay tres estrellitas y el lector puede prescindir sin remordimientos de lo que sigue.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo empieza por el capítulo 73 y va saltando: al final de cada capítulo, un número indica cuál toca después. Ese recorrido recorre los ciento cincuenta y cinco capítulos del libro en un orden que no es el impreso, e incorpora los que Cortázar llama prescindibles, del 57 al 155, que contienen recortes de prensa, citas, notas de un escritor viejo y escenas que faltan en la primera versión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro está dividido además en tres partes con nombres de barrio: Del lado de allá, que ocurre en París; Del lado de acá, que ocurre en Buenos Aires; y De otros lados, que es el material suelto. Se publicó en 1963, cuando su autor tenía cuarenta y nueve años y llevaba doce viviendo en Francia, y se convirtió en el libro emblema de una generación entera de lectores latinoamericanos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que hay dentro: qué busca su protagonista en París, qué ocurre en el capítulo que más se recuerda, para qué sirve un idioma inventado, quién es el viejo que critica la novela desde dentro de la novela, qué pasa en Buenos Aires con un tablón entre dos ventanas, y por qué el final no termina.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro que te ofrece dos recorridos te está diciendo algo antes de empezar: que el orden en que llegan las cosas también las cambia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "¿Encontraría a la Maga?" },
+      {
+        b: "texto",
+        texto:
+          "La novela abre con una pregunta de cuatro palabras que se ha convertido en una de las primeras líneas más conocidas en español: si encontraría a la Maga. Horacio Oliveira es un argentino de cuarenta años que vive en París sin trabajar demasiado, y la Maga es Lucía, una uruguaya que llegó allí con un hijo pequeño y sin plan ninguno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su relación funciona por una asimetría que el libro no disimula. Oliveira lo ha leído todo, discute de filosofía y no consigue sentir nada de forma directa; la Maga no ha leído casi nada, pregunta cosas que a los demás les parecen tontas y da con lo que importa por un camino que él no puede reproducir. Ellos no se citaban: se encontraban por azar en el barrio, y esa costumbre de no quedar es lo que Oliveira echa de menos cuando ya no aparece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Alrededor está el Club de la Serpiente, un grupo de amigos de varios países que se reúnen de noche a escuchar discos de jazz, beber y discutir de arte hasta que los vecinos golpean el techo. Cortázar escribe esas discusiones con una fidelidad casi documental, con las agujas del tocadiscos, los nombres de los músicos y las marcas de aguardiente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se puede saberlo todo sobre algo y no sentirlo nunca, y esa distancia no se arregla leyendo un libro más.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una habitación a oscuras" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo 28 es el que nadie olvida y el que decide si un lector sigue o abandona. El Club se ha reunido en el cuarto de la Maga, que es minúsculo y donde duerme su hijo pequeño, Rocamadour. Hay poca luz, se apaga la vela, se habla de música, alguien pone un disco, entra Gregorovius, discuten de metafísica y de arte durante páginas y páginas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En algún momento de esa conversación, Oliveira se acerca a la cuna y descubre que el niño ha muerto. Y no dice nada. Lo saben Etienne y Ronald, y tampoco dicen nada. La charla continúa con la madre en la misma habitación, sentada, participando, mientras los demás miden cómo decírselo o si decírselo, y el capítulo avanza treinta páginas con esa información colgando encima de todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo insoportable no es la muerte del niño, que ocurre fuera de escena y sin dramatismo. Es la cobardía educada de un grupo de gente cultísima que discute de estética con un cadáver a dos metros. Cortázar no comenta nada ni juzga a nadie: deja el mecanismo funcionando y que el lector saque la cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de ese capítulo, Oliveira deja de ser un intelectual simpático perdido en París y pasa a ser otra cosa. La Maga desaparece de su vida y del libro, y no se sabe si se ha ido, si ha vuelto a Montevideo o si se ha tirado al río.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Callar una mala noticia por delicadeza casi nunca es delicadeza: suele ser el miedo a estar delante cuando se diga.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un idioma que no existe" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo 68 está escrito íntegramente en un idioma inventado por Cortázar al que llama glíglico. Empieza diciendo que apenas él le amalaba el noema, a ella se le agolpaba el clémiso, y sigue así durante una página entera con verbos, sustantivos y adjetivos que no existen en ninguna lengua.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y se entiende perfectamente. Lo que se está contando es una escena sexual, y cualquier lector lo sabe desde la tercera línea sin conocer el significado de una sola palabra de las inventadas. Funciona porque Cortázar mantiene intacto todo lo demás: los artículos, las preposiciones, los pronombres, el orden de las frases y, sobre todo, el ritmo, que sube y baja exactamente como el de la escena que describe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es una demostración práctica de una idea que el libro defiende en otros sitios con argumentos: que el idioma corriente está gastado y que hay experiencias para las que las palabras de siempre ya no sirven porque llegan cargadas de todo lo que se ha dicho antes con ellas. El glíglico es el chiste y a la vez la prueba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mismo procedimiento aparece en otras partes con otras formas. En el capítulo 34, dos textos van entrelazados línea a línea: en las impares corre una novela decimonónica que Oliveira está leyendo, y en las pares, lo que piensa mientras la lee. Hay que leerlo dos veces, una por cada juego de líneas, y después una tercera para ver cómo se pisan.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si el ritmo de una frase acierta, entiendes lo que dice aunque no conozcas ni una sola de sus palabras.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un viejo que critica la novela desde dentro" },
+      {
+        b: "texto",
+        texto:
+          "Entre los capítulos prescindibles hay decenas dedicados a un escritor anciano llamado Morelli, que los miembros del Club leen y comentan y al que Oliveira acaba conociendo. Morelli está escribiendo una novela imposible y va dejando anotaciones sobre qué le pasa a la novela como género, por qué la trama tradicional le parece una estafa y qué habría que hacer en su lugar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El truco es evidente y no pretende ocultarse: Morelli dice lo que Cortázar está haciendo, y sus notas funcionan como el manual de instrucciones del libro dentro del propio libro. Defiende una novela hecha de fragmentos que el lector tenga que montar, contra la novela cerrada donde todo encaja porque el autor lo ha decidido de antemano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su distinción más citada y también la que peor ha envejecido. Morelli reclama un lector cómplice, que trabaje y construya, frente a otro pasivo que solo quiere que le cuenten algo, y a ese segundo lo llama lector hembra. La expresión hizo fortuna durante años. El propio Cortázar se retractó de ella por escrito y en entrevistas de los años ochenta, diciendo que era una tontería machista de la que se avergonzaba y que ya no la usaría.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un autor que mete dentro de su libro la teoría de su libro te está dando las instrucciones y a la vez la coartada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un tablón entre dos ventanas" },
+      {
+        b: "texto",
+        texto:
+          "La segunda parte devuelve a Oliveira a Buenos Aires, y allí el tono cambia de la discusión al humor incómodo. Se reencuentra con Traveler, un amigo de juventud que nunca ha viajado a ninguna parte pese a su apellido, y con Talita, la mujer de Traveler, en la que Oliveira empieza a ver a la Maga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena que resume esa parte ocurre entre dos ventanas de enfrente, en un tercer piso. Oliveira necesita yerba mate y unos clavos, y en lugar de bajar a la calle, tienden un tablón entre las dos ventanas y hacen que Talita cruce a gatas por encima con el paquete. Se queda parada en medio, sobre el vacío, mientras los dos hombres discuten desde sus respectivas ventanas y una vecina los increpa desde abajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Toda la situación de los tres está en esa imagen: una mujer inmóvil sobre un tablón, sostenida por dos hombres que hablan de otra cosa, y a la que nadie le pregunta nada. Después trabajan los tres en un circo, y cuando el circo se vende, en un manicomio, cuidando enfermos de noche.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cortázar mantiene ahí una ambigüedad que no resuelve: no se sabe si Traveler y Talita son otra versión de Oliveira y la Maga, o si es Oliveira el que ha empezado a verlo todo doble.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando dos personas discuten sobre algo que solo le pasa a una tercera, esa tercera suele estar quieta encima de un tablón.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un final que no termina" },
+      {
+        b: "texto",
+        texto:
+          "La primera lectura, la del 1 al 56, acaba en el manicomio con Oliveira asomado a una ventana del segundo piso, con hilos y palanganas de agua puestos en el suelo como defensa, mirando hacia el patio donde hay dibujada una rayuela. Abajo están Traveler y Talita mirándolo. La novela se corta ahí, con él sobre el marco, sin decir si salta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda lectura, la del tablero, termina de otra manera y es una broma perfecta. Al final del capítulo 58 el tablero remite al 131, y al final del 131 remite otra vez al 58. El lector que siga las instrucciones queda dando vueltas entre dos capítulos para siempre, sin final posible, hasta que decida por su cuenta cerrar el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El juego del título es la explicación entera. La rayuela se dibuja con tiza en el suelo, se lanza una piedra y se va saltando a la pata coja de casilla en casilla desde la Tierra hasta el Cielo. Casi nadie llega al Cielo, y quien llega descubre que no había nada allí salvo una casilla más. La novela pregunta si merece la pena seguir saltando, y su respuesta consiste en no dar ninguna.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El único modo de terminar algunas cosas es decidir tú que se han terminado, porque solas no van a parar nunca.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Rayuela cuenta la historia de un argentino en París que pierde a la mujer con la que estaba y vuelve a Buenos Aires a repetirla mal, y lo hace desmontando la maquinaria de la novela mientras la usa: dos órdenes de lectura posibles, un idioma inventado, capítulos entrelazados línea a línea, un escritor de ficción que teoriza sobre el libro que se está leyendo y un final circular del que no se sale.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la idea de que leer es una actividad y no una recepción. Después de este libro, pedirle al lector que monte una parte del sentido dejó de ser una rareza y pasó a ser una opción disponible en cualquier novela.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie llega al Cielo de la rayuela, y quien llega descubre que allí solo había otra casilla dibujada con tiza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Los capítulos teóricos han envejecido peor que el resto: hay páginas de Morelli que hoy suenan a conversación de café de 1960, con mucho vocabulario y poca consecuencia. Y hay un problema mayor, que sus lectoras señalan desde hace décadas: la Maga solo existe vista por Oliveira, admirada precisamente por no saber, por intuir y por no leer, y no tiene en toda la novela un solo capítulo en el que piense por su cuenta. Es la musa perfecta del intelectual que la mira, y eso hoy pesa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después. El libro se convirtió en uno de los emblemas del boom latinoamericano y en un objeto de culto para varias generaciones de estudiantes, con el efecto secundario de que muchos lo citan sin haber pasado del capítulo 28. El propio Cortázar se fue distanciando de él: se retractó de lo del lector hembra, dijo en los años ochenta que si volviera a escribirlo sería menos cerebral, y dedicó su última etapa a una literatura mucho más política y mucho menos experimental.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   La casa de los espíritus, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO: títulos cortos de imagen, afirmación en la primera
+   frase, caja del rayo en segunda persona.
+
+   La comparación con Cien años de soledad va en la conclusión y va en los
+   dos sentidos, como manda el apartado 4 bis: los parecidos son reales y
+   la segunda mitad política no existe en el otro libro.
+   -------------------------------------------------------------------------- */
+
+const CASA_ESPIRITUS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una carta de quinientas páginas" },
+      {
+        b: "texto",
+        texto:
+          "El 8 de enero de 1981, en Caracas, Isabel Allende recibió una llamada desde Chile: su abuelo Agustín, que tenía noventa y nueve años, se estaba muriendo. Ella llevaba seis años en el exilio y no podía volver. Se sentó a escribirle una carta para decirle que todo lo que él le había contado seguía vivo mientras ella lo recordara. La carta creció durante un año y acabó teniendo quinientas páginas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nunca se la envió, porque su abuelo murió antes. Aquel montón de folios era esta novela. Desde entonces, Allende empieza todos sus libros un 8 de enero, y lo ha mantenido durante cuarenta años. La casa de los espíritus fue rechazada por varias editoriales latinoamericanas hasta que la agente Carmen Balcells la colocó en Barcelona, donde se publicó en 1982.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que contiene son cuatro generaciones de una familia chilena a lo largo de casi un siglo, contadas por dos voces que se alternan sin previo aviso: una narradora en tercera persona y, de golpe, en primera, el patriarca de la familia dando su versión. Y el libro empieza con una frase que también es la última: que Barrabás llegó a la familia por vía marítima.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que hay dentro: qué son los cuadernos de anotar la vida, qué cambia que el patrón cuente su parte, cómo un hijo engendrado en una violación vuelve tres generaciones después, qué pasó en la hacienda de Las Tres Marías, por qué el país no se nombra ni una vez y qué decide al final la última mujer de la familia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi ninguna historia familiar se escribe por gusto: se escribe cuando alguien se está muriendo y hay algo que ya no se le puede decir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los cuadernos de anotar la vida" },
+      {
+        b: "texto",
+        texto:
+          "Clara del Valle es el centro de la novela y su rasgo definitorio no es la clarividencia, sino la escritura. Desde los cuatro años lleva unos cuadernos que ella llama de anotar la vida, donde apunta lo que ocurre en la casa sin ordenarlo por fechas, solo por lo que le parece importante. Esos cuadernos existen durante toda la novela y son el material con el que se escribe el libro que el lector tiene delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Alrededor de ella pasan cosas que nadie explica y que nadie discute. Mueve el salero sin tocarlo, adivina lo que va a ocurrir y convive con espíritus que se sientan a la mesa. La novela lo cuenta con el mismo tono con el que cuenta que llovió: sin subrayarlo, sin justificarlo y sin que ningún personaje se sorprenda. Es la marca del realismo mágico y aquí funciona porque nadie del libro la trata como magia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su episodio más importante es de silencio. Cuando tiene diez años muere su hermana mayor, Rosa la bella, envenenada por un aguardiente que iba dirigido a su padre; Clara presencia la autopsia escondida y deja de hablar durante nueve años. Vuelve a hacerlo un día, sin aviso, para anunciar que se va a casar con el novio de su hermana muerta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien apunta lo que pasa en su casa está decidiendo, sin saberlo, cuál de las versiones sobrevivirá cuando ya no quede nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El patrón cuenta su parte" },
+      {
+        b: "texto",
+        texto:
+          "La decisión más eficaz del libro es dejar hablar en primera persona a Esteban Trueba, que es el personaje más detestable de todos. Es un hombre furioso, autoritario, dueño de una hacienda y luego senador conservador, que pega, que compra, que fuerza y que está convencido de haber sido siempre justo. Cada cierto número de páginas, la narración se interrumpe y aparece él contando lo mismo desde dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto es incómodo a propósito. Cuando Trueba explica que levantó Las Tres Marías de la nada, que dio casas y escuela a sus inquilinos y que nadie se lo agradeció, no está mintiendo del todo, y el lector se descubre entendiéndolo justo después de haberlo visto hacer algo abominable. Allende no lo convierte en un monstruo ni lo perdona: le da micrófono.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo envejece delante del lector. Trueba se va encogiendo físicamente a lo largo del libro —la novela dice que cada arrebato de furia le quita centímetros—, se queda solo, pierde a su mujer, a su hija y a su fortuna, y en las últimas cien páginas es un anciano que depende de la nieta a la que despreció y que le está dictando la historia que se está escribiendo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dejar hablar a alguien indefendible es más devastador que juzgarlo, porque se condena solo y con sus propias palabras.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un apellido que vuelve" },
+      {
+        b: "texto",
+        texto:
+          "La estructura moral de la novela está montada sobre una violación que ocurre en las primeras cien páginas y cuyas consecuencias tardan sesenta años en llegar. Cuando Esteban Trueba llega joven a la hacienda, fuerza a una campesina llamada Pancha García. De ahí nace un hijo al que nunca reconoce y al que ve crecer entre los inquilinos, y de ese hijo nace a su vez un nieto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese nieto se llama Esteban García, lleva el nombre del patrón por decisión de su abuela y crece sabiendo exactamente quién es y qué le corresponde. Entra en la policía, asciende, y en la última parte del libro, cuando llega la dictadura y él tiene el poder de hacerlo, detiene y tortura personalmente a Alba, la nieta legítima de Trueba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La novela no presenta eso como una casualidad novelesca ni como justicia poética. Lo presenta como una cuenta pendiente que alguien iba a cobrar. Trueba, ya viejo, comprende que lo que le está pasando a su nieta lo empezó él mismo en un potrero, medio siglo antes, y que en aquel momento no le pareció un delito porque el mundo entero estaba de acuerdo con él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El daño no desaparece cuando se olvida: cambia de apellido, espera dos generaciones y vuelve con uniforme.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Tres dedos de la mano derecha" },
+      {
+        b: "texto",
+        texto:
+          "La mitad rural del libro transcurre en Las Tres Marías y contiene su escena más brutal, que además es la que explica el conflicto político posterior sin necesidad de discursos. Blanca, la hija de Trueba, se enamora desde niña de Pedro Tercero García, hijo del capataz, y se ven a escondidas durante años en el campo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pedro Tercero se hace adulto, empieza a repartir folletos entre los inquilinos y a cantar canciones sobre unas gallinas que se organizan contra un zorro. Trueba lo expulsa de la hacienda, pone precio a su cabeza y, cuando lo encuentra, le da un hachazo. Le corta tres dedos de la mano derecha. El hombre al que muti­la es cantante y guitarrista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese detalle es todo el conflicto de clase del libro en una imagen: no se le mata, se le quita el instrumento. Pedro Tercero aprende a tocar con lo que le queda, se convierte en un cantante popular conocido y muchos años después, cuando llega el golpe militar, es Trueba quien tiene que esconderlo en su casa para que no lo maten.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quitarle a alguien la herramienta con la que se defiende es más eficaz que hacerle daño, y más difícil de perdonar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un país que no se nombra" },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro cuenta un golpe de Estado y una dictadura, y lo hace sin decir en ningún momento de qué país se trata. Chile no aparece. Tampoco aparece ningún nombre propio real: hay un Poeta que muere pocos días después del golpe y cuyo entierro se convierte en la primera manifestación contra los militares; hay un Candidato que gana unas elecciones y muere en el palacio presidencial; hay un general que jura respetar la Constitución.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cualquier lector reconoce a Neruda, a Salvador Allende y a Pinochet, y ninguno está nombrado. La decisión tiene dos efectos. El primero es de precaución, porque el libro se escribió en 1981 con la dictadura en pleno funcionamiento y con la autora en una lista. El segundo es literario: al quitar los nombres, lo que ocurre deja de ser un caso chileno y pasa a ser un mecanismo reconocible en media docena de países del continente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un dato familiar que el libro no menciona y que conviene saber: Isabel Allende era pariente del presidente derrocado, al que llamaba tío, y salió de Chile en 1975 después de haber ayudado a esconder a perseguidos. La novela no lo cuenta, y sin embargo su última parte está escrita desde ahí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quitarle el nombre propio a una catástrofe no la disimula: la vuelve reconocible en todos los sitios donde volvió a pasar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Romper la cadena" },
+      {
+        b: "texto",
+        texto:
+          "El final del libro se juega en una decisión y no en un acontecimiento. Alba, la nieta, ha sido detenida y torturada durante semanas por Esteban García, el nieto no reconocido, que lleva toda su vida esperando ese momento. Sale de allí gracias a una mujer que la saca de noche y la deja en un vertedero; su abuelo, que ha tenido que pedir favores a gente a la que despreciaba, la recoge.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace después es lo que la novela quería contar desde el principio. Alba está embarazada y no sabe de quién; puede ser de su compañero desaparecido o de sus torturadores. Y decide que eso da igual, que la niña es suya. Y se sienta con los cuadernos de su abuela Clara, con las cartas y con lo que le va dictando el viejo Trueba, a escribir todo lo ocurrido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su razonamiento está escrito con claridad y sin sentimentalismo: dice que le costaría mucho vengarse, porque tendría que hacerle a alguien lo mismo que le hicieron a ella, y que la cadena que empezó con una violación en un potrero solo se corta si alguien decide no cobrar la deuda. No es perdón; es cálculo. Y el libro termina con Alba escribiendo la misma frase con la que empezó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una cadena de agravios no se rompe cuando alguien perdona, sino cuando alguien decide que no va a pasar la factura.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La casa de los espíritus recorre cuatro generaciones de una familia y, con ellas, un siglo de un país que no se nombra: la hacienda con inquilinos, la ciudad, la política de salón, unas elecciones ganadas por la izquierda, un golpe militar y una dictadura. Su tesis es que la violencia privada y la pública son la misma cosa, y que un hijo no reconocido en una hacienda puede acabar siendo el hombre que dirige un centro de tortura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la mezcla de registros. La primera mitad tiene fantasmas, levitaciones y perros gigantescos; la segunda tiene interrogatorios y desapariciones, y las dos comparten el mismo tono sereno, como si todo perteneciera al mismo orden de cosas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La memoria, escribe Alba al final, es frágil y la existencia demasiado breve para andar decidiendo a quién odiar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La comparación con Cien años de soledad le persiguió durante décadas y no es del todo injusta: hay una saga familiar de varias generaciones, nombres que se repiten, una mujer que levita, un patriarca fundador y un manuscrito que resulta ser el propio libro. Los ecos son reales y el lector que venga de García Márquez los va a oír todos. Lo que no está en aquel libro es la segunda mitad de este: un golpe de Estado contado desde dentro por alguien que lo vivió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un desequilibrio de escritura. La primera parte, con la infancia de Clara y la hacienda, está mucho mejor sostenida que el tramo intermedio, donde la novela se acelera y despacha años enteros en un párrafo. Y Allende ha respondido siempre a la acusación de imitación con un argumento que también dice algo: que el realismo mágico era el aire que se respiraba en el continente y que a los autores hombres de aquella generación nunca se les reprochó parecerse entre ellos.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "casa-espiritus": CASA_ESPIRITUS,
+  rayuela: RAYUELA,
   "bernarda-alba": BERNARDA_ALBA,
   ficciones: FICCIONES,
   "sobre-tirania": SOBRE_TIRANIA,
