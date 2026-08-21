@@ -51214,7 +51214,7 @@ const ETICA_AMADOR: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Después de 1991 el libro vendió más de un millón de ejemplares, se convirtió en lectura obligatoria en los institutos durante tres décadas y tuvo continuación con «Política para Amador» al año siguiente. Y pasó lo único que podía pasarle a un libro que pide pensar por cuenta propia: el Amador del título creció, se hizo escritor, participó en los movimientos sociales de 2011 y ha dicho en público que no comparte las posiciones políticas de su padre. Es la mejor reseña que ha tenido.",
+          "Después de 1991 el libro vendió más de un millón de ejemplares, fue lectura obligatoria en los institutos durante tres décadas y tuvo continuación con «Política para Amador». Y pasó lo único que podía pasarle a un libro que pide pensar por cuenta propia: el Amador del título creció, se hizo escritor, participó en los movimientos sociales de 2011 y ha dicho en público que no comparte las posiciones políticas de su padre.",
       },
       {
         b: "idea",
