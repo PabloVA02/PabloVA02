@@ -54,7 +54,6 @@ const CARGADORES: Record<string, Cargador> = {
 
   /* Capítulos largos */
   "arte-sin-hombres": () => import("./arte").then((m) => m.ARTE_SIN_HOMBRES),
-  tatuador: () => import("./historia").then((m) => m.TATUADOR),
   "heroe-mil-caras": () => import("./arte").then((m) => m.HEROE_MIL_CARAS),
   "vidas-vasari": () => import("./arte").then((m) => m.VIDAS_VASARI),
   reproductibilidad: () => import("./arte").then((m) => m.REPRODUCTIBILIDAD),

@@ -24,22 +24,6 @@ export type FichaMeta = {
 
 export const META: FichaMeta[] = [
   {
-    id: "tatuador",
-    titulo: "El tatuador de Auschwitz",
-    autor: "Heather Morris",
-    ano: 2018,
-    gancho: "Un hombre de ochenta y siete años que llevaba cincuenta callado, porque temía que si contaba lo que hizo en Auschwitz lo tomaran por colaborador.",
-    porQue: "Porque ha vendido más de ocho millones de ejemplares y es, para mucha gente, su única idea de cómo era Auschwitz. Y porque el propio Museo de Auschwitz publicó un informe enumerando lo que tiene de falso.",
-    minutos: 20.9,
-    capitulos: [
-      { titulo: "El número 32407", minutos: 4.3 },
-      { titulo: "El hombre que marcaba brazos", minutos: 4.1 },
-      { titulo: "34902", minutos: 4.1 },
-      { titulo: "Los diamantes en el dobladillo", minutos: 4.1 },
-      { titulo: "Melbourne, 2003", minutos: 4.4 },
-    ],
-  },
-  {
     id: "guerra-civil-thomas",
     titulo: "La guerra civil española",
     autor: "Hugh Thomas",

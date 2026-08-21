@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  tatuador: [
+    "qué era un prisionero con función y qué compraba con ese puesto",
+    "por qué Auschwitz fue el único campo que tatuaba números",
+    "cómo funcionaba el mercado negro dentro del campo",
+    "qué errores documentó el Museo de Auschwitz en 2018",
+    "por qué esos errores no son un asunto de pedantería",
+  ],
+
   postguerra: [
     "sobre qué traslado forzoso de población se levantó la paz",
     "qué hizo de verdad el Plan Marshall, que no fue reconstruir",

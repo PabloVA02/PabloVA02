@@ -54045,7 +54045,305 @@ const POSTGUERRA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El tatuador de Auschwitz, en ocho páginas.
+
+   Breve.
+
+   DECISIÓN DE REGISTRO, y va razonada. Es una novela, así que el apartado
+   3 bis pediría titular corto de imagen; pero lo que hay que resumir aquí
+   no es una obra literaria, es una afirmación sobre el pasado y su
+   fiabilidad. Así que van titulares de afirmación entera y tercera persona.
+
+   Y se aplica entera la regla del apartado 4 bis para libros escritos desde
+   una desgracia real: NADA de segunda persona, ninguna caja del rayo que
+   convierta esto en una lección de vida, y muchísimo cuidado con las frases
+   que, leídas como fórmula de éxito, dicen algo cruel.
+
+   La regla 5 es aquí el trabajo principal y no un apartado final. El Museo
+   de Auschwitz publicó en 2018 un análisis con los errores documentados, y
+   un resumen que no los cuente estaría propagándolos. Se cuenta qué es
+   cierto, qué no lo es y por qué la diferencia importa.
+   -------------------------------------------------------------------------- */
+
+const TATUADOR: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un hombre de ochenta y siete años contó en Melbourne lo que había hecho durante tres años en Auschwitz",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2003, poco después de enviudar, un anciano de Melbourne llamado Ludwig Sokolov empezó a contar su historia a una guionista, Heather Morris. Había nacido en Eslovaquia en 1916, se llamaba entonces Ludwig Eisenberg y en abril de 1942 fue deportado a Auschwitz. Allí acabó teniendo un oficio: era el prisionero que tatuaba en el antebrazo el número a los recién llegados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hablaron durante unos tres años, hasta que él murió en 2006. Morris escribió primero un guion y después una novela, que se publicó en 2018 y ha vendido más de doce millones de ejemplares en todo el mundo. Para muchísimos lectores ha sido el primer libro que han leído sobre los campos de exterminio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay que decir en la primera página lo que ese libro es y lo que no, porque de eso depende cómo leerlo. Es una novela basada en el testimonio oral de un hombre que recordaba a los ochenta y siete años unos hechos ocurridos cincuenta y cinco antes, escrita sin cotejar ese relato con los archivos, que están abiertos y son consultables. El centro de investigación del Museo Estatal de Auschwitz publicó en 2018 un análisis detallado con sus errores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas separan las dos cosas. Recorren qué era realmente un tatuador de Auschwitz y qué posición ocupaba, cómo funcionaba el sistema de números, la economía interior del campo —que es la parte más verdadera y menos conocida del libro—, qué hace un relato de amor con un lugar así, qué errores están documentados, y por qué importa que un libro leído por millones de personas los tenga.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un testimonio oral recogido cincuenta y cinco años después es una fuente valiosísima para lo vivido y muy poco fiable para las fechas y los números.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El campo lo administraban en buena parte los propios prisioneros, y ese fue el hallazgo del sistema",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo primero que conviene entender, y que el libro cuenta bien porque su protagonista lo vivió desde dentro, es que las SS no tenían personal para gestionar un campo de cientos de miles de personas. Delegaron la administración diaria en prisioneros seleccionados: jefes de barracón, capataces de cuadrilla, escribientes, enfermeros, cocineros y también tatuadores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esos puestos tenían nombre en la jerga del campo y una consecuencia inmediata: quien los ocupaba comía más, dormía mejor, no trabajaba a la intemperie y podía moverse por el recinto. En un sitio donde la esperanza de vida de un prisionero corriente se contaba en semanas, esa diferencia era literalmente la vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y tenían un precio que el libro no siempre mira de frente. Un prisionero con función formaba parte de la maquinaria: transmitía órdenes, mantenía la disciplina y, en el caso del tatuador, marcaba a personas que en muchos casos iban a morir en pocos días. Los supervivientes que ocuparon esos puestos han escrito sobre esa posición durante ochenta años, y Primo Levi le dedicó su último libro entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Levi lo llamó la zona gris: el espacio en el que la víctima colabora en su propia administración porque es la única manera de seguir viva, y en el que las categorías de culpable e inocente dejan de servir. Sostuvo además que juzgar desde fuera a quien estuvo ahí es una forma de comodidad. Ese concepto es la mejor herramienta para leer esta historia, y el libro no lo usa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El sistema funcionó porque obligó a las víctimas a administrarlo, y quien aceptaba un puesto compraba semanas de vida a cambio de una posición imposible.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Auschwitz fue el único campo del sistema nazi que tatuaba a sus prisioneros",
+      },
+      {
+        b: "texto",
+        texto:
+          "El número en el antebrazo se ha convertido en la imagen del Holocausto entero, y conviene saber que solo se hizo allí. En los demás campos el número iba cosido en la ropa; en Auschwitz se empezó a tatuar en el otoño de 1941, primero a prisioneros de guerra soviéticos, porque morían tan deprisa que los cadáveres desnudos resultaban imposibles de identificar. Desde 1942 se extendió a los demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa es la función administrativa y también la simbólica. Un número tatuado en la piel sustituye al nombre de manera permanente y convierte a una persona en una unidad de inventario, que es exactamente lo que el campo pretendía. Quien lo llevaba no podía quitárselo al salir, y muchos supervivientes vivieron el resto de su vida con esa cifra visible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los números se asignaban por series y en orden de llegada, con lo cual el archivo permite hoy saber con precisión quién recibió cada uno y en qué fecha. Esa trazabilidad es la razón por la que las inexactitudes de este libro se pueden comprobar una por una, y no es un detalle menor: significa que había manera de verificarlo antes de publicar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La comprobación más citada afecta a la escena fundacional de la novela, el momento en que el protagonista tatúa a la mujer de la que se enamora. El número que aparece en el libro no era el suyo: pertenecía a otra prisionera. El número real de Gita Furman era el 4562, y está en los registros. El libro construye su escena más importante sobre una cifra equivocada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los números se asignaban en orden y quedaron registrados, así que cualquiera de esas cifras se podía comprobar antes de imprimirla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dentro del campo funcionaba un mercado negro, y esa es la parte más verdadera del libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que la novela cuenta mejor, y lo que menos sabe el lector medio, es que Auschwitz tenía una economía. Los deportados llegaban con equipaje, y ese equipaje se clasificaba en unos almacenes gigantescos que los prisioneros llamaban Canadá, por ser el nombre que asociaban a un país de abundancia. Allí trabajaban cuadrillas separando ropa, zapatos, dinero, relojes y joyas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una parte de aquello se robaba, y ese robo sostenía un mercado. Las prisioneras que trabajaban en los almacenes sacaban piedras o billetes escondidos; los prisioneros con libertad de movimiento los pasaban a los obreros civiles polacos que entraban a trabajar en las obras del campo; y esos obreros traían a cambio comida, medicinas y a veces cartas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El protagonista de este libro estuvo en ese circuito, y ahí la novela describe algo documentado por muchos testimonios y por la propia investigación histórica. Comer un poco más no era un lujo: era la diferencia entre aguantar un invierno y no aguantarlo, y quien podía introducir alimentos salvaba a gente concreta cuyos nombres a veces se conocen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También está documentado el riesgo. Ser sorprendido en ese tráfico llevaba al bloque de castigo y a la tortura, y muchos no volvieron de allí. El relato de que Sokolov fue descubierto, castigado y devuelto encaja con lo que se sabe del funcionamiento del campo, y es la parte de su historia que menos se ha discutido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En un campo de exterminio, conseguir media ración de más no era un privilegio menor: decidía quién llegaba a la primavera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Contar Auschwitz como una historia de amor tiene un efecto y también un coste",
+      },
+      {
+        b: "texto",
+        texto:
+          "La estructura de la novela es la de un romance con final feliz: dos personas se conocen en el peor lugar del mundo, se buscan, sobreviven, se reencuentran en Bratislava después de la guerra, se casan, emigran a Australia y viven juntos más de cincuenta años. Eso ocurrió de verdad, y es lo que ha hecho que millones de personas lean el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto es real y conviene reconocerlo antes de criticar nada. Muchos lectores no se acercan a un libro sobre los campos porque saben que no van a poder con él, y este les da una puerta de entrada. Su autora ha dicho que ese era su objetivo, y en el caso de mucha gente joven ha funcionado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El coste es de forma y es más difícil de ver. Un relato de amor necesita que el mundo alrededor sea el escenario de una relación, y en Auschwitz el mundo alrededor era el asesinato de más de un millón de personas, en su inmensa mayoría deportados que morían en las horas siguientes a llegar. Cuando el lector cierra el libro, lo que recuerda es la pareja.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un problema estructural que ninguna intención resuelve. Una historia de supervivencia con final feliz solo se puede contar de quien sobrevivió, y sobrevivieron muy pocos y casi siempre por una posición de privilegio, por azar o por las dos cosas. El género produce, sin quererlo, la impresión estadística contraria a la verdad: que de allí se salía si uno tenía coraje y suerte.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Solo se puede contar la historia de los que salieron, y por eso el conjunto de esas historias da una impresión falsa de cuántos salieron.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El Museo de Auschwitz publicó una lista de errores y ninguno es un detalle de estilo",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2018, el centro de investigación del Museo Estatal de Auschwitz-Birkenau publicó en su revista un análisis del libro firmado por la historiadora Wanda Witek-Malicka. No es una reseña literaria: es un cotejo del texto con los registros del campo, y su conclusión es que la novela contiene numerosos errores de hecho, algunos de ellos en episodios centrales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Además del número de Gita, el análisis señala imposibilidades cronológicas y materiales. La más citada es la penicilina: en la novela el protagonista consigue ese medicamento para curar a su amada, y la penicilina no estaba disponible en la Europa ocupada en aquellas fechas, porque su producción industrial empezó en los países aliados hacia el final de la guerra y no llegó al continente hasta después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El informe recoge más: escenas atribuidas a Josef Mengele en momentos y lugares en los que no consta que estuviera, descripciones de la geografía del campo que no corresponden, un episodio de experimentación médica sobre el protagonista que no encaja con lo conocido, y datos sobre transportes y selecciones que contradicen los registros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La defensa de la autora ha sido siempre la misma y hay que exponerla con justicia: dice que escribió una novela, no un tratado, y que trabajó con la memoria de un anciano que le contaba lo que recordaba. Es una defensa legítima para el género y no resuelve el problema, porque la portada de muchas ediciones presenta el libro como basado en una historia real y ha sido leído y recomendado como testimonio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un error de fecha en una novela es una licencia; el mismo error en un libro que se vende como testimonio se convierte en información falsa para millones de lectores.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Importa porque los últimos testigos se están muriendo y estos libros van a quedarse",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento del museo no es de pedantería académica, y merece exponerse entero. Sostiene que los últimos supervivientes con memoria directa están desapareciendo, que dentro de pocos años no quedará ninguno, y que a partir de ese momento lo que el público sepa de los campos vendrá de libros, películas y series. Lo que esos productos contengan será, en la práctica, lo que se recuerde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En ese escenario, un libro con doce millones de lectores pesa más que cualquier monografía. Si un porcentaje alto de la gente que sabe algo de Auschwitz lo sabe por esta novela, sus errores no se quedan en la novela: pasan a formar parte de lo que se cree saber, y son muy difíciles de corregir después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un motivo específico y desagradable. Existe una corriente organizada dedicada a negar o minimizar el exterminio, y su método consiste precisamente en localizar inexactitudes en relatos conocidos para desacreditar el conjunto. Un libro popular con errores comprobables les entrega material, y esa es la razón por la que instituciones que no suelen reseñar novelas se molestaron en publicar un informe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se le pide a un libro así no es que sea un tratado, sino que compruebe lo comprobable. Los archivos de Auschwitz están digitalizados y se consultan por internet; el número de una prisionera se verifica en minutos. La distancia entre lo que costaba comprobarlo y lo que ha costado el error es lo que convierte esto en una crítica seria y no en una manía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando ya no queden testigos, lo que la gente sepa vendrá de los libros que más se hayan vendido: por eso sus errores no son un asunto privado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta la historia real de un hombre que sobrevivió a Auschwitz tatuando números, que conoció allí a la mujer con la que viviría medio siglo, y que utilizó su posición para introducir comida y medicinas arriesgando la vida. Ese núcleo es cierto, está documentado y merece contarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es el acceso. Ha llevado a millones de personas que nunca habrían abierto un libro sobre el tema hasta un relato de primera mano, y ha explicado bien dos cosas que la divulgación suele ignorar: que el campo lo administraban prisioneros y que dentro funcionaba una economía de trueque de la que dependían muchas vidas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en la verificación, que era barata. El centro de investigación del Museo de Auschwitz documentó en 2018 errores en episodios centrales, empezando por el número tatuado en la escena que abre la historia de amor. La autora defiende que escribió una novela; el libro se vende y se lee como testimonio, y esa contradicción no la resuelve nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en la forma, y ese reproche vale para todo un género. Un relato de supervivencia con final feliz, ambientado en el sitio donde murió más de un millón de personas, deja al lector con la sensación equivocada sobre lo que fue aquello. Primo Levi avisó de esto: los que volvieron para contarlo no son los testigos completos, porque los testigos completos no volvieron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de 2018 la autora publicó dos libros más en la misma línea, y el segundo recibió críticas todavía más duras, incluida la de la familia de la mujer real en la que se basaba, que sostuvo que el retrato era falso. En 2024 se estrenó una serie de televisión basada en esta novela. Y la recomendación práctica sigue siendo la misma: para quien quiera saber qué pasó allí, están «Si esto es un hombre» de Primo Levi y los archivos del museo, que son públicos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que cuenta este libro ocurrió; comprobar los detalles costaba una tarde de archivo, y esa tarde es la diferencia entre un testimonio y un relato.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  tatuador: TATUADOR,
   postguerra: POSTGUERRA,
   "canones-agosto": CANONES_AGOSTO,
   "ensayos-montaigne": ENSAYOS_MONTAIGNE,

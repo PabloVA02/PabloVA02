@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  tatuador:
+    "En 2003, un anciano de Melbourne empezó a contarle a una guionista lo que había hecho en Auschwitz: tatuar los números en el antebrazo de los recién llegados. Allí conoció a la mujer con la que viviría medio siglo.",
+
   postguerra:
     "Entre 1939 y 1945 murieron en Europa unos treinta y seis millones y medio de personas y trece millones de niños quedaron huérfanos. Judt cuenta en novecientas páginas qué hizo el continente a partir de ahí, y a qué precio.",
 
