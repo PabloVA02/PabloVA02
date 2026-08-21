@@ -45559,7 +45559,7 @@ const MILLONARIO_AL_LADO: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Hay dos objeciones más, menores y reales. El hogar millonario típico de la muestra ingresaba ciento treinta y un mil dólares en los años noventa, o sea, estaba muy arriba: ahorrar el veinte por ciento con ese sueldo y con el salario mediano son ejercicios distintos, y el libro los trata igual. Y sus datos se recogieron durante la mayor subida bursátil e inmobiliaria de la historia, así que una parte de lo que atribuye a la frugalidad la puso el mercado.",
+          "Hay dos objeciones más, menores y reales. El hogar millonario típico de la muestra ingresaba ciento treinta y un mil dólares en los años noventa: ahorrar el veinte por ciento con ese sueldo y con el salario mediano son ejercicios distintos, y el libro los trata igual. Y sus datos se recogieron durante la mayor subida bursátil e inmobiliaria de la historia, así que parte de lo que atribuye a la frugalidad la puso el mercado.",
       },
       {
         b: "texto",
@@ -45569,7 +45569,7 @@ const MILLONARIO_AL_LADO: PaginaLibro[] = [
       {
         b: "idea",
         texto:
-          "Léelo como un retrato excelente de quienes acumularon, y no como la receta de por qué acumularon: el estudio no puede contestar esa segunda pregunta.",
+          "Léelo como un retrato excelente de quienes acumularon y no como la receta de por qué acumularon: el estudio no puede contestar esa segunda pregunta.",
       },
     ],
   },
