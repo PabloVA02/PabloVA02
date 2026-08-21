@@ -61917,7 +61917,287 @@ const NUMERO_UNO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El gen deportivo, en ocho páginas.
+
+   Breve. Ensayo de ciencia → afirmación entera en el rótulo y tercera
+   persona; la caja del rayo es la idea de la página.
+
+   Riesgo principal: el asunto roza la raza y un resumen descuidado sale
+   racista sin proponérselo. Se hace lo que hace el libro: hablar de
+   poblaciones pequeñas y concretas —un valle, una parroquia— y decir
+   explícitamente que la raza no es una categoría biológica útil aquí.
+
+   Va justo después de Número uno y lo contradice en parte, así que conviene
+   nombrar esa discusión: los dos libros se leen mejor juntos.
+   -------------------------------------------------------------------------- */
+
+const GEN_DEPORTIVO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El talento no es lo contrario del entrenamiento: es la capacidad de responder a él",
+      },
+      {
+        b: "texto",
+        texto:
+          "David Epstein escribió este libro como respuesta a la idea de que cualquiera puede llegar a lo más alto acumulando horas de práctica dirigida. Su tesis no es la contraria, que sería igual de falsa. Es una tercera: los genes casi nunca determinan el resultado, pero sí determinan cuánto mejora una persona con la misma cantidad de entrenamiento que otra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Formulada así, la discusión cambia de sitio. Deja de ser talento contra esfuerzo, que es un debate sin salida, y pasa a ser una pregunta medible: si a cien personas se les da exactamente el mismo programa durante cinco meses, ¿mejoran lo mismo? La respuesta, comprobada, es que no se parecen en nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Epstein era periodista de una revista deportiva estadounidense y había estudiado ciencias ambientales, y el libro se nota escrito por alguien que va a los laboratorios y a las pistas por igual. Cada capítulo enfrenta un caso concreto con lo que dicen los estudios, y cuando los estudios son flojos lo dice.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado es un libro incómodo para los dos bandos. Desmonta la idea de que las horas lo explican todo y desmonta también la de que existan genes del campeón. Lo que queda en medio es más difícil de resumir en un eslogan, y es probablemente la razón de que se cite menos que los libros que simplifican.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta útil no es si importa el talento, sino qué parte exacta del resultado explica.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un saltador con ocho meses de entrenamiento ganó a otro con veinte años",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2006, un estudiante de las Bahamas llamado Donald Thomas aceptó una apuesta de unos compañeros y saltó por encima de un listón de altura sin haber practicado nunca ese deporte. Pasó dos metros veintidós en zapatillas de baloncesto. Ocho meses después, con un entrenamiento mínimo y una técnica que los expertos calificaban de horrorosa, ganó el campeonato del mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al que derrotó en aquella final era el ejemplo perfecto del libro anterior. Stefan Holm, sueco, campeón olímpico, llevaba saltando desde niño, había acumulado más de veinte mil horas de entrenamiento minucioso y tenía una técnica considerada modélica. Hizo su salto de siempre y perdió contra un aficionado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación resultó ser anatómica. A Thomas le midieron el tendón de Aquiles y era extraordinariamente largo, casi treinta centímetros, lo que convierte la pierna en un muelle mucho más eficiente al impulsarse. Nadie se lo había entrenado y nadie puede entrenárselo: se nace con esa longitud.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Epstein no usa el caso para negar el valor del trabajo, sino para acotarlo. Holm había exprimido hasta el último centímetro de un cuerpo corriente y no habría llegado a ninguna parte sin esas veinte mil horas. Thomas no habría llegado más lejos con ellas. Los dos tenían techos distintos y el entrenamiento sirve para acercarse al propio, no para cambiarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El entrenamiento te acerca a tu techo, y quién tiene el techo más alto no lo decide el entrenamiento.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los mejores bateadores del mundo no tienen mejores reflejos que tú" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo que abre el libro cuenta un experimento célebre. Una lanzadora profesional de sóftbol, Jennie Finch, se enfrentó a algunos de los mejores bateadores de béisbol del mundo, hombres capaces de golpear pelotas que llegan a más de ciento cincuenta kilómetros por hora. No le acertaron ni una, y su lanzamiento era más lento y por debajo del hombro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando se les midió el tiempo de reacción puro en un laboratorio, con una luz y un botón, aquellos bateadores dieron resultados absolutamente normales. No tenían mejores reflejos que un oficinista. Lo que tenían era una biblioteca inmensa de patrones aprendidos: leían el hombro, la cadera y la muñeca del lanzador y sabían dónde iría la pelota antes de que saliera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ante una lanzadora que se movía de otra manera, esa biblioteca no servía de nada y volvían a ser gente corriente con un bate. Es exactamente el mismo hallazgo que en el ajedrez: la habilidad experta es un conjunto de estructuras específicas, no una mejora general de las capacidades.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Epstein concede aquí todo lo que hay que conceder a la otra tesis. En la parte perceptiva y técnica, el entrenamiento manda y los genes casi no aparecen. Lo que discute es el salto siguiente: que si eso vale para leer un lanzamiento, valga también para tener el corazón, los tendones y los músculos que hacen falta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi toda la maestría que admiras es específica, y fuera de su terreno no sirve absolutamente para nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los cuerpos de la élite llevan un siglo separándose unos de otros" },
+      {
+        b: "texto",
+        texto:
+          "A principios del siglo veinte se creía que existía un cuerpo atlético ideal, más o menos el mismo para todos los deportes: alto, proporcionado, musculado de manera armónica. Los manuales lo dibujaban. Durante los cien años siguientes, a medida que la competición se profesionalizaba y el dinero crecía, ocurrió lo contrario de lo previsto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los cuerpos se especializaron hasta separarse. Los nadadores desarrollaron torsos largos y piernas relativamente cortas; los corredores de fondo, lo contrario; los lanzadores de peso engordaron y los gimnastas encogieron. La comparación de las medias entre 1925 y hoy da gráficas que se abren como un abanico, y Epstein lo llama la gran explosión de los tipos de cuerpo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo es una selección brutal. Cuando un deporte mueve mucho dinero y hay millones de aspirantes, el filtro deja pasar solo a los cuerpos óptimos para esa tarea concreta, y las diferencias que en la población general son irrelevantes se vuelven decisivas. Ocho centímetros de envergadura no cambian una vida y sí cambian una carrera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El dato más citado del libro va en esa línea: entre los hombres estadounidenses de veinte a cuarenta años que miden dos metros trece o más, una proporción altísima —las estimaciones más repetidas hablan de casi uno de cada seis— ha jugado en la liga profesional de baloncesto. Ningún entrenamiento produce una cifra así.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuanto más compite un sector, más pesan las diferencias pequeñas que nadie puede cambiar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La respuesta al entrenamiento se hereda y va de cero a más del cincuenta por ciento",
+      },
+      {
+        b: "texto",
+        texto:
+          "El estudio que más daño hace a la idea de que todo es práctica se hizo con familias enteras. Casi quinientas personas siguieron el mismo programa de ejercicio aeróbico durante veinte semanas, con la misma intensidad, la misma frecuencia y el mismo control. Al terminar se midió cuánto había mejorado la capacidad aeróbica de cada una.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los resultados no se parecían en nada. Unos mejoraron por encima del cincuenta por ciento y otros, en torno al quince por ciento del total, no mejoraron prácticamente nada pese a haber hecho exactamente lo mismo. Y esa capacidad de responder al entrenamiento se agrupaba por familias, lo que indica que se hereda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión es la que reordena el debate entero. No es solo que unos empiecen con más ventaja: es que el propio entrenamiento rinde cantidades distintas en cuerpos distintos. Dos personas con la misma disciplina y el mismo método pueden acabar en sitios muy alejados sin que ninguna de las dos haya hecho nada mal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Epstein saca de ahí una consecuencia práctica poco consoladora y bastante útil. Si un programa razonable no está dando resultados en un plazo razonable, la explicación no tiene por qué ser falta de voluntad, y cambiar de método o de disciplina suele ser más inteligente que insistir con más horas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que un método no te funcione a ti no significa que no sea bueno ni que tú no te esfuerces.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los grandes corredores kenianos no son un país, son un valle" },
+      {
+        b: "texto",
+        texto:
+          "Kenia gana una parte desproporcionada de las carreras de fondo del mundo, y dentro de Kenia casi todos los campeones proceden de un solo grupo, los kalenjin, que ronda el doce por ciento de la población del país. Cuando se afina más, la concentración se reduce a unos pocos valles del Rift a más de dos mil metros de altitud.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte biológica es concreta y medible. Los kalenjin tienen de media piernas largas y muy delgadas en su parte inferior, con tobillos finos. Como el peso situado lejos del centro del cuerpo es el que más energía cuesta mover a cada zancada, unos gramos menos en el tobillo se traducen en un ahorro grande a lo largo de un maratón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte social es igual de decisiva. Muchos niños recorren kilómetros al día para ir a la escuela desde pequeños, la altitud opera como entrenamiento permanente, y sobre todo el atletismo es una de las pocas vías reales de salir de la pobreza, así que compiten cientos de miles de chicos por unos pocos puestos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Epstein insiste en algo que conviene repetir. El nivel al que estas explicaciones funcionan es el de poblaciones pequeñas y muy concretas —un valle, una parroquia jamaicana—, y no el de categorías raciales, que agrupan a cientos de millones de personas genéticamente diversísimas. Los datos apoyan lo primero y desmienten lo segundo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un fenómeno que se explica en un valle no se explica en un continente, y confundirlo es el error clásico.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una sola mutación puede explicar una carrera entera, y casi nunca lo hace",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso más limpio del libro es el de un esquiador finlandés que ganó siete medallas olímpicas en los años sesenta y al que durante décadas se sospechó de dopaje. Cuando se estudió a su familia se descubrió que varios miembros tenían una mutación en el receptor de una hormona que regula la producción de glóbulos rojos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto es exactamente el que persigue el dopaje sanguíneo: alrededor de un cincuenta por ciento más de glóbulos rojos que una persona normal, es decir, mucho más oxígeno transportado a los músculos. Aquel hombre nació con la ventaja que otros deportistas han ido a la cárcel por fabricarse, y compitió con ella toda su vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso es espectacular y Epstein lo usa para advertir de lo contrario de lo que parece. Situaciones así son rarísimas: la inmensa mayoría de las capacidades deportivas depende de cientos de variantes genéticas de efecto minúsculo, ninguna de las cuales sirve para predecir nada por sí sola.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo dice sobre todo por el gen que la prensa bautizó como el de la velocidad. Es cierto que una versión que anula cierta proteína muscular es prácticamente inexistente entre los velocistas de élite; y también que la tiene una parte enorme de la población que jamás correrá los cien metros. Sirve para descartar, no para elegir, y los tests genéticos que se venden a padres no valen nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un factor puede ser real, estar medido y aun así no predecir nada sobre una persona concreta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El gen deportivo sostiene que la discusión entre talento y esfuerzo está mal planteada, y propone otra: los genes influyen sobre todo en cuánto rinde el entrenamiento en cada cuerpo. Lo demuestra con un saltador improvisado que ganó un mundial, con bateadores de reflejos normales, con quinientas personas que hicieron el mismo programa y mejoraron cosas distintas y con un esquiador que nació dopado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un antídoto contra las dos supersticiones habituales. Contra la de que basta con querer y repetir, que culpa de todo fracaso a la falta de carácter. Y contra la de que existe un don que exime de trabajar, que es falsa en todos los casos documentados: ninguno de los cuerpos privilegiados del libro llegó a nada sin años de entrenamiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en el terreno resbaladizo. El libro dedica capítulos enteros a diferencias entre poblaciones y, por mucho cuidado que ponga —y pone bastante—, es material que se cita constantemente fuera de contexto para sostener cosas que él no dice. Epstein lo sabía y aun así no siempre marca los límites con la insistencia que el asunto exige.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay partes que han envejecido. Varias de las asociaciones genéticas concretas que menciona se han debilitado en estudios posteriores con muestras mayores, que es lo que suele pasar en este campo. La estructura del argumento aguanta bien; algunos de sus ejemplos, menos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El propio autor matizó su tesis después. En 2019 publicó otro libro en el que defiende que en la mayoría de las profesiones conviene probar muchas cosas antes de especializarse, justo lo contrario de lo que aconseja la práctica deliberada temprana. Leídos juntos, este libro y el de Ericsson dan una imagen bastante completa, y por separado engañan los dos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dos libros que se contradicen suelen tener cada uno la mitad de la razón, y hay que leer los dos.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "gen-deportivo": GEN_DEPORTIVO,
   "numero-uno": NUMERO_UNO,
   "hablo-correr": HABLO_CORRER,
   "rey-del-mundo": REY_DEL_MUNDO,

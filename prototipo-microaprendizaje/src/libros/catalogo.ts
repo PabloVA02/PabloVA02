@@ -298,7 +298,7 @@ export const CATALOGO: Ficha[] = [
   { id: "rey-del-mundo", titulo: "Rey del mundo", autor: "David Remnick", ano: 1998, categoria: "Deportes", estado: "escrito" },
   { id: "hablo-correr", titulo: "De qué hablo cuando hablo de correr", autor: "Haruki Murakami", ano: 2007, categoria: "Deportes", estado: "escrito" },
   { id: "numero-uno", titulo: "Número uno", autor: "Anders Ericsson", ano: 2016, categoria: "Deportes", estado: "escrito" },
-  { id: "gen-deportivo", titulo: "El gen deportivo", autor: "David Epstein", ano: 2013, categoria: "Deportes", estado: "pendiente" },
+  { id: "gen-deportivo", titulo: "El gen deportivo", autor: "David Epstein", ano: 2013, categoria: "Deportes", estado: "escrito" },
   { id: "legado-all-blacks", titulo: "Legado", autor: "James Kerr", ano: 2013, categoria: "Deportes", estado: "pendiente" },
   { id: "nunca-te-pares", titulo: "Nunca te pares", autor: "Phil Knight", ano: 2016, categoria: "Deportes", estado: "pendiente" },
   { id: "siete-pecados", titulo: "Siete pecados capitales", autor: "David Walsh", ano: 2012, categoria: "Deportes", estado: "pendiente" },

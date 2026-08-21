@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "gen-deportivo": "Qué parte del rendimiento explican de verdad los genes",
   "numero-uno": "Qué dice de verdad la ciencia sobre llegar a ser excepcional",
   "hablo-correr": "Un novelista explica por qué escribir es un oficio físico",
   "rey-del-mundo": "Los cinco años en que Cassius Clay se convirtió en Muhammad Ali",

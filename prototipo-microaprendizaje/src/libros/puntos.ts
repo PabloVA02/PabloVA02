@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "gen-deportivo": [
+    "cómo ganó un mundial alguien con ocho meses de práctica",
+    "por qué los bateadores fallaron contra una lanzadora de sóftbol",
+    "qué pasó cuando quinientas personas hicieron el mismo programa",
+    "por qué los corredores kenianos salen de unos pocos valles",
+    "para qué sirven y para qué no los tests genéticos",
+  ],
+
   "numero-uno": [
     "por qué un conductor veterano no conduce mejor",
     "qué recuerda un maestro de ajedrez y qué no",

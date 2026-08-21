@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "gen-deportivo":
+    "Epstein enfrenta cada caso célebre del deporte con lo que dicen los laboratorios. Su tesis no es que los genes decidan el resultado, sino que deciden cuánto mejora cada cuerpo con el mismo entrenamiento.",
+
   "numero-uno":
     "El psicólogo que originó la investigación sobre la práctica deliberada explica por qué acumular años no mejora a nadie, y corrige personalmente la regla de las diez mil horas que salió de un estudio suyo.",
 
