@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "historia-arte": [
+    "para qué servían de verdad las pinturas de las cuevas",
+    "por qué los egipcios dibujaban así durante tres mil años",
+    "cuándo y dónde se inventó exactamente la perspectiva",
+    "qué le hizo la fotografía al oficio de pintar",
+    "de qué tres insatisfacciones sale todo el arte del siglo XX",
+  ],
+
   "madame-bovary": [
     "de dónde le viene a Emma exactamente su desgracia",
     "qué le hace a una vida entera una sola noche de baile",

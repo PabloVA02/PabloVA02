@@ -840,22 +840,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "historia-arte",
-    titulo: "La historia del arte",
-    autor: "E. H. Gombrich",
-    ano: 1950,
-    gancho: "Empieza diciendo que el Arte no existe. Ocho millones de ejemplares después, sigue siendo la mejor primera frase de un libro de arte.",
-    porQue: "Es el libro de arte más vendido de la historia y no es un catálogo: es una sola idea sostenida durante veintisiete capítulos.",
-    minutos: 22.3,
-    capitulos: [
-      { titulo: "No existe el Arte", minutos: 4.6 },
-      { titulo: "Lo que se sabe y lo que se ve", minutos: 4.5 },
-      { titulo: "El problema que deja el anterior", minutos: 4.5 },
-      { titulo: "Quién pagaba", minutos: 4.2 },
-      { titulo: "Ocho millones de ejemplares", minutos: 4.5 },
-    ],
-  },
-  {
     id: "modos-ver",
     titulo: "Modos de ver",
     autor: "John Berger",

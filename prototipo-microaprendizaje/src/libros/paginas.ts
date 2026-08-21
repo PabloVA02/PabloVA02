@@ -20791,7 +20791,520 @@ const MADAME_BOVARY: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La historia del arte, en dieciséis páginas.
+
+   EXTENSO, y con motivo: recorre treinta mil años y sostiene media docena
+   de tesis distintas —la función de la imagen, el despertar griego, la
+   perspectiva, el óleo, la fotografía, el encargo perdido—. En ocho
+   páginas saldría la lista de nombres que el propio libro combate.
+
+   Ensayo: titular que afirma, tercera persona. La página 15 lleva la
+   ausencia de mujeres, que es la crítica mayor que ha recibido.
+   -------------------------------------------------------------------------- */
+
+const HISTORIA_ARTE: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "No existe el Arte: solo existen los artistas" },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con una frase que desarma todo lo que el lector esperaba: no existe, realmente, el Arte; tan solo hay artistas. Gombrich la escribe en la primera línea y la explica en la segunda: hubo hombres que dibujaron bisontes en la pared de una cueva, otros que tallaron santos en una catedral y otros que pintaron manchas de color, y llamar a todo eso con una misma palabra mayúscula ha creado más confusión que entendimiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ernst Gombrich era vienés, nacido en 1909, y huyó a Inglaterra en 1936. Durante la guerra trabajó escuchando la radio alemana para el servicio de escucha de la BBC, y fue él quien identificó, el 1 de mayo de 1945, la emisión de música de Bruckner que precedía a un anuncio grave: así comunicó a Londres la muerte de Hitler. Escribió este libro en 1950, por encargo de una editorial, pensando en lectores adolescentes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se impuso dos reglas. No mencionar ninguna obra que no pudiera reproducirse en el propio libro, para que el lector nunca tuviera que fiarse de una descripción; y no usar jerga. Lleva más de ocho millones de ejemplares vendidos y sigue en catálogo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y tiene una tesis, aunque parezca un manual. Cada época no hizo un arte peor que la anterior: hizo lo que servía para lo que necesitaba. Esa idea, sostenida durante quinientas páginas, convierte un recorrido cronológico en un argumento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas dieciséis páginas siguen ese argumento: para qué servían las primeras pinturas, qué dibujaban los egipcios, qué revolución hicieron los griegos, por qué la Edad Media renuncia a la ilusión, cuándo y dónde se inventó la perspectiva, qué permitió el óleo, qué problema dejaron los grandes del Renacimiento, cómo la fotografía dejó a la pintura sin oficio y de dónde sale todo lo que vino después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ninguna época pintó peor que otra: pintó para otra cosa, y compararlas por su parecido con la realidad es medirlas con una vara que no era la suya.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las primeras pinturas no eran decoración: eran herramientas" },
+      {
+        b: "texto",
+        texto:
+          "Las pinturas de las cuevas paleolíticas no están donde la gente vivía. Están al fondo de galerías estrechas, a cientos de metros de la entrada, en lugares a los que solo se llega arrastrándose y con una luz que hay que llevar encima. Nadie decora un sitio donde nadie pasa. Ese detalle topográfico es el que abre el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gombrich propone entenderlas por comparación con algo que cualquiera conoce. Un niño que juega con una escoba y la llama caballo no está haciendo una escultura ni un símbolo: para él, en ese momento, la escoba funciona. La hipótesis más aceptada sobre aquellos bisontes es del mismo orden: dibujar un animal atravesado por una lanza era una manera de intervenir sobre la caza, no de recordarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La calidad técnica descarta la torpeza. En Lascaux, descubierta en 1940 por unos adolescentes que buscaban a un perro, y en Altamira, encontrada en 1879 porque la hija de ocho años del excavador levantó la vista hacia el techo, los animales están dibujados con un dominio del movimiento que tardaría milenios en repetirse. Altamira se consideró una falsificación durante más de veinte años precisamente porque parecía demasiado buena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca Gombrich la primera regla del libro: antes de juzgar una imagen hay que preguntar para qué se hizo. Un objeto que hoy está en una vitrina de museo fue, casi siempre, una pieza de uso, y su autor no pretendía que le gustara a nadie.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La primera pregunta ante cualquier imagen antigua no es si es bonita: es qué se esperaba que hiciera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los egipcios no dibujaban lo que veían: dibujaban lo que sabían" },
+      {
+        b: "texto",
+        texto:
+          "El arte egipcio parece raro hasta que se entiende su regla, y entonces resulta perfectamente lógico. Una figura humana aparece con la cabeza de perfil, el ojo de frente, los hombros de frente, las caderas y las piernas de perfil y los dos pies vistos desde dentro. No es un error de dibujo: es que cada parte del cuerpo está representada desde el ángulo en el que se reconoce mejor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón es funcional. Casi todo lo que ha llegado se hizo para tumbas, y su trabajo era conservar. Un relieve que muestra al difunto pescando, cazando aves y contando su ganado tenía que garantizar que aquello siguiera existiendo, así que nada podía quedar oculto ni ambiguo: un estanque se dibuja desde arriba y los peces de perfil dentro, porque de cualquier otra forma se perdería información.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado es el fenómeno más asombroso de la historia del arte, y Gombrich lo subraya: el estilo egipcio se mantiene casi idéntico durante tres mil años. Un escultor del año 1000 antes de Cristo trabajaba con las mismas proporciones que uno de dos mil años antes. Hubo un único intento de romperlo, bajo el faraón Akenatón, en el siglo XIV antes de Cristo, y sus sucesores lo borraron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el propio libro avisa contra la lectura fácil. Aquello no es rigidez ni falta de talento: es un oficio donde el mérito consistía en repetir bien la forma correcta, exactamente igual que hoy el mérito de un notario no está en redactar de manera original.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Durante tres mil años, el mérito de un artista consistió en no cambiar nada, y funcionó.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los griegos hicieron la única revolución que cambió el oficio entero",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gombrich fecha el mayor cambio de toda la historia del arte en Grecia, entre los siglos VI y V antes de Cristo, y lo localiza en un detalle minúsculo. En una vasija ática pintada hacia el año 500, un pintor dibujó un pie visto de frente, en escorzo, en lugar de dibujarlo de perfil como mandaba la tradición. Con eso estaba diciendo algo nuevo: pinto lo que se ve desde aquí, no lo que sé que hay.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese gesto abre todo lo demás. Si la imagen depende del punto de vista, entonces existe un espectador situado en un sitio, y el cuadro deja de ser un inventario para pasar a ser una escena. Gombrich lo llama el gran despertar, y señala que ocurre a la vez que los griegos empiezan a discutir de otras cosas en lugar de repetirlas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En escultura, el cambio se ve en la postura. Las figuras arcaicas están de pie, simétricas, con los dos pies plantados, como las egipcias. En una generación aparece el contraposto: el peso cae sobre una pierna, la cadera sube de un lado, el hombro baja del mismo, y el cuerpo entero se organiza alrededor de ese desequilibrio. Es una figura que puede moverse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una advertencia que el libro repite: casi ninguna escultura griega original ha llegado hasta nosotros. Lo que se ve en los museos son copias romanas en mármol de bronces perdidos, y en muchos casos copias mediocres. También estaban pintadas de colores vivos, cosa que el mármol blanco del gusto neoclásico borró de la imaginación de todo el mundo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todo lo que vino después depende de una decisión pequeña: dibujar el pie tal como se ve desde donde uno está.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El arte medieval no es torpe: renuncia a la ilusión a propósito" },
+      {
+        b: "texto",
+        texto:
+          "Durante siglos se dijo que la Edad Media había olvidado lo que Grecia sabía hacer. Gombrich sostiene lo contrario: lo dejó de hacer porque le estorbaba. Una imagen medieval no quiere que el espectador crea que hay un hombre delante; quiere que entienda quién es ese hombre, qué hizo y qué lugar ocupa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba documental es una carta del papa Gregorio Magno, hacia el año 600, al obispo de Marsella, que había mandado destruir las imágenes de su iglesia por miedo a la idolatría. Gregorio le responde que se equivoca: la pintura es, para quien no sabe leer, lo que la escritura para quien sabe. Con esa frase el arte occidental recibió durante mil años un encargo concreto, que era contar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí salen sus reglas visuales, que dejan de parecer arbitrarias. Las figuras importantes se pintan más grandes, no más cercanas. El fondo es de oro, porque no representa un lugar sino la ausencia de lugar. Los personajes miran de frente al espectador y no entre sí. Y los gestos están codificados: cada posición de una mano significa algo, igual que en un texto cada palabra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado son obras que se leen y no se contemplan. Un tímpano románico con el Juicio Final es un documento donde cada figura ocupa el sitio que le corresponde en un orden, y cambiar ese orden por realismo habría sido tan absurdo como poner un mapa en perspectiva.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una imagen hecha para explicar algo no puede permitirse la ilusión, porque la ilusión distrae de lo que hay que leer.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La perspectiva se inventó en Florencia y tiene fecha casi exacta" },
+      {
+        b: "texto",
+        texto:
+          "La perspectiva no es una manera natural de ver: es un procedimiento geométrico que alguien inventó, en un sitio y en unos años concretos. Hacia 1413, el arquitecto Filippo Brunelleschi hizo en Florencia un experimento célebre: pintó en una tabla el baptisterio tal como se veía desde la puerta de la catedral, le hizo un agujero en el centro y colocó un espejo delante. Mirando por el agujero, la pintura y el edificio real coincidían.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El principio es simple: las líneas paralelas que se alejan del espectador convergen en un punto único, y los tamaños disminuyen en proporción a la distancia. La primera obra que lo aplica en serio es la Trinidad de Masaccio, pintada hacia 1427 en Santa María Novella, donde una capilla abovedada parece abrirse en una pared plana. Los florentinos, cuenta la crónica, hacían cola para verla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1435, León Battista Alberti escribió el tratado que convirtió el hallazgo en método enseñable, con instrucciones paso a paso. Desde entonces, y durante casi quinientos años, todo pintor europeo aprendió a construir un espacio antes de poner nada dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gombrich subraya el precio de la conquista. La perspectiva obliga a que todo el cuadro se vea desde un punto único e inmóvil, y eso significa que el pintor pierde libertad: ya no puede colocar las figuras donde le convenga para contar la historia, tiene que colocarlas donde el espacio permita. La pintura ganó profundidad y perdió flexibilidad narrativa, y buena parte de lo que ocurre en los cuatro siglos siguientes es una negociación con ese problema.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La perspectiva no fue solo una conquista: fue también una obligación, porque a partir de entonces cada figura tuvo que caber donde la geometría dijera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En el norte llegaron al mismo sitio con otra herramienta: el óleo" },
+      {
+        b: "texto",
+        texto:
+          "Mientras Florencia calculaba, en Flandes se resolvía el mismo problema por otro camino. Los pintores del norte no partieron de la geometría, partieron de la materia: hacia 1420, en el taller de los Van Eyck, se perfeccionó la pintura al óleo, que sustituye la yema de huevo del temple por aceite como aglutinante del pigmento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cambio técnico tiene consecuencias enormes. El temple seca en minutos y obliga a trabajar por trazos separados; el óleo tarda días, así que permite fundir un color con otro, corregir, superponer capas transparentes y conseguir brillos que el temple no da. De golpe se puede pintar el reflejo de una ventana en una perla, el pelo de un perro o la textura de un latón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuadro que Gombrich usa como ejemplo es el retrato del matrimonio Arnolfini, de Jan van Eyck, fechado en 1434. En la pared del fondo hay un espejo convexo del tamaño de una mano, y dentro del espejo se ven, reflejadas de espaldas, las dos figuras del cuadro y otras dos personas más que están en la habitación y a las que el espectador no puede ver. Encima, escrito en la pared, dice que Jan van Eyck estuvo aquí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante décadas se leyó ese detalle como un acta notarial pintada: el artista firmando como testigo de una boda. Hoy esa interpretación está discutida y no hay acuerdo sobre qué representa la escena. Lo que nadie discute es la técnica: en ese espejo de cinco centímetros hay más información visual que en cuadros veinte veces mayores.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un cambio de aglutinante, del huevo al aceite, hizo por la pintura tanto como un siglo de teoría.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los tres grandes del Renacimiento resolvieron un problema y crearon otro",
+      },
+      {
+        b: "texto",
+        texto:
+          "En los primeros años del siglo XVI coinciden en Italia tres pintores que llevan al límite todo lo aprendido en el siglo anterior, y Gombrich cuenta qué aportó cada uno con una precisión que evita la palabra genio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Leonardo resolvió la dureza del contorno. Hasta entonces las figuras estaban perfiladas con una línea, y por muy bien dibujadas que estuvieran se recortaban del fondo como una plantilla. Su solución fue dejar los bordes deliberadamente indefinidos, en penumbra, para que el ojo del espectador los completara: es lo que se llama *sfumato*, de humo. En la Gioconda, las comisuras de los labios y los extremos de los ojos están precisamente en esa zona borrosa, y por eso su expresión parece cambiar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Miguel Ángel resolvió el cuerpo. Pintó la bóveda de la Capilla Sixtina entre 1508 y 1512, de pie sobre un andamio y con el cuello doblado hacia atrás —no tumbado, como cuenta la leyenda—, y cubrió trescientos metros cuadrados con más de trescientas figuras humanas en las que no hay ni una postura repetida. Rafael, el tercero, resolvió la composición: sus grupos parecen colocarse solos, sin esfuerzo aparente, y esa naturalidad es el efecto más difícil de conseguir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí queda planteado el problema del que sale todo lo demás. Cuando un oficio alcanza lo que se consideraba su meta, la generación siguiente no puede hacer lo mismo un poco mejor. Tiene que hacer otra cosa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando un oficio llega a hacer perfectamente aquello para lo que existía, sus herederos ya no pueden mejorarlo: solo pueden desviarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El manierismo nace de que ya no se podía hacer mejor lo mismo" },
+      {
+        b: "texto",
+        texto:
+          "La generación posterior a Rafael se encontró con un oficio agotado por arriba, y su respuesta fue exagerar a propósito. A ese período se le llamó durante siglos manierismo, y el nombre nació como insulto: pintores que trabajaban a la manera de los grandes sin tener nada que decir. Gombrich lo defiende y explica su lógica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que usa es la Virgen del cuello largo de Parmigianino, pintada en los años treinta del siglo XVI. Todo en ese cuadro está mal según las reglas: el cuello de la Virgen es imposible, el niño está desproporcionado y parece a punto de resbalar, una columna del fondo no sostiene nada y hay una figura diminuta en el ángulo por un error de escala que no es un error. El pintor conocía perfectamente las proporciones correctas y decidió no usarlas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mismo ocurre con El Greco, que llegó a Toledo desde Creta pasando por Venecia. Sus figuras alargadas, sus colores ácidos y sus espacios sin suelo se explicaron durante siglos como un defecto de la vista, y esa explicación es falsa: es una decisión de estilo perfectamente coherente con lo que un cliente de la Contrarreforma española quería, que era arrebato y no verosimilitud.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gombrich saca de aquí una idea que atraviesa el resto del libro. A partir de este momento, y por primera vez en la historia, un artista puede romper una regla como argumento y esperar que el espectador entienda que la conoce. La ruptura se convierte en un lenguaje.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Romper una regla solo significa algo cuando todo el mundo sabe que quien la rompe podría cumplirla sin esfuerzo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En el siglo XVII el asunto del cuadro pasó a ser la luz" },
+      {
+        b: "texto",
+        texto:
+          "El barroco añade una herramienta nueva que el Renacimiento apenas había explorado: la iluminación como manera de organizar una escena. Caravaggio, en Roma, hacia 1600, empieza a pintar interiores casi negros atravesados por un foco lateral, de modo que solo se ve lo que la luz decide, y lo demás desaparece en la sombra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso resuelve el problema narrativo que la perspectiva había complicado: ya no hace falta colocar bien las figuras en el espacio, basta con iluminar lo que importa. Y añade otra provocación, que le costó disgustos: pintaba a los santos como lo que habrían sido, gente pobre con los pies sucios y las uñas negras. Su primer San Mateo fue rechazado por los clérigos que lo habían encargado, y tuvo que pintar otro más presentable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En Holanda, Rembrandt lleva la misma herramienta a otro sitio. Su luz no señala la acción, señala el interior de la gente: en sus retratos, media cara está en penumbra y el ojo visible es lo único plenamente iluminado. Pintó además unos cien autorretratos a lo largo de cuarenta años, que juntos forman el registro más completo que existe de cómo envejece una cara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y Gombrich desmonta de paso un mito repetido. La ronda de noche, de 1642, no arruinó a Rembrandt ni fue rechazada por sus clientes: se pagó, se colgó y se admiró. Su quiebra, catorce años después, vino de haber gastado sin control comprando arte y objetos, y de un pleito de familia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando la luz decide qué se ve, el pintor deja de necesitar un espacio bien construido: le basta con un foco.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La fotografía dejó a la pintura sin la mitad de su oficio" },
+      {
+        b: "texto",
+        texto:
+          "En 1839 se hizo pública la fotografía, y en pocos años una máquina barata hacía mejor que cualquier pintor la tarea que había justificado el oficio durante cuatro siglos: dejar constancia exacta de una cara, de un edificio o de un acontecimiento. Un retratista de provincias que vivía de eso se quedó sin trabajo en una década.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La respuesta tardó una generación en formularse y llegó en Francia. Si la fidelidad ya no era el trabajo del pintor, el trabajo pasaba a ser lo que la cámara no podía hacer: registrar la impresión de un instante concreto, con esa luz, ese aire y ese temblor. Los impresionistas salieron a pintar al aire libre, cosa que se volvió posible cuando en 1841 aparecieron los tubos de pintura de estaño y ya no hubo que moler los colores en el taller.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El nombre del grupo salió de una burla. Monet expuso en 1874 un cuadro del puerto de El Havre titulado Impresión, sol naciente, y un crítico escribió que aquello no eran cuadros sino impresiones, que un papel pintado en estado embrionario estaba más terminado. Ellos se quedaron con el insulto y lo convirtieron en su bandera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gombrich subraya el rechazo que provocaron y por qué. No era gusto: era que aquellos cuadros exigían al espectador algo nuevo, mirarlos desde lejos y dejar que su ojo mezclara los colores, y el público de entonces no tenía la costumbre. Un cuadro impresionista visto a treinta centímetros es un montón de manchas, y eso lo sabían perfectamente sus autores.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando una máquina hizo mejor que nadie lo que un oficio llevaba siglos haciendo, ese oficio tuvo que averiguar qué le quedaba en exclusiva.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "De tres pintores insatisfechos salieron los tres caminos del siglo XX",
+      },
+      {
+        b: "texto",
+        texto:
+          "El pasaje mejor argumentado del libro es el que explica el arte moderno sin misterios. Hacia 1890, tres pintores que venían del impresionismo estaban descontentos con él por tres razones distintas, y de cada descontento salió una rama entera del siglo siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cézanne echaba de menos la solidez. Le parecía que a fuerza de captar el instante, los cuadros habían perdido la estructura de los antiguos, y se propuso recuperarla sin renunciar al color: tratar la naturaleza, escribió, por el cilindro, la esfera y el cono. De esa insistencia en la forma debajo de la apariencia salieron el cubismo y, detrás, la abstracción geométrica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Van Gogh echaba de menos la intensidad. No quería registrar lo que veía, quería que el cuadro transmitiera lo que sentía delante de ello, aunque tuviera que deformar el color y retorcer la pincelada. De ahí sale el expresionismo. Y Gauguin echaba de menos algo distinto: le parecía que la civilización europea había convertido el arte en un ejercicio educado, y se marchó a Tahití buscando formas más directas. De ahí sale el interés del siglo XX por el arte africano y oceánico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los tres murieron sin ver el resultado y ninguno tuvo un éxito comparable al de sus imitadores. Gombrich lo dice sin dramatismo: no eran incomprendidos románticos, eran profesionales resolviendo un problema técnico que ellos mismos se habían planteado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todo el arte del siglo XX cabe en tres insatisfacciones concretas de tres pintores que trabajaban a la vez y no se soportaban demasiado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El arte moderno se entiende mejor si se mira quién paga" },
+      {
+        b: "texto",
+        texto:
+          "La explicación que da Gombrich del desconcierto del arte contemporáneo no es estética, es económica, y por eso funciona. Durante toda la historia anterior, el artista trabajaba por encargo: un templo, una tumba, un retablo, un retrato de familia, una decoración de palacio. El cliente decía el tema, el tamaño, el plazo y a veces hasta los colores, y el artista resolvía el problema lo mejor que sabía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el siglo XIX ese sistema se rompió. Aparecen el marchante, la galería, la exposición y el crítico, y con ellos un artista que pinta primero y busca comprador después. La consecuencia es enorme: por primera vez nadie le dice qué tiene que hacer, y por primera vez tiene que justificar por qué hace lo que hace.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale, según el libro, el rasgo que más desconcierta al público: la obligación de ser nuevo. Cuando la única manera de existir es distinguirse de lo anterior, la novedad deja de ser una consecuencia del trabajo y pasa a ser el requisito. Y una vez que el requisito es ese, cada generación tiene que ir más lejos que la anterior, no porque quiera, sino porque no queda otro sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gombrich no ridiculiza nada de lo que vino después, y tampoco lo celebra. Se limita a mostrar que un cuadro incomprensible en un museo y una catedral gótica responden a situaciones distintas de encargo, y que juzgar el primero con la vara del segundo es el mismo error que juzgar a los egipcios por su falta de perspectiva.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El día que nadie encarga nada, ser distinto deja de ser una elección del artista y pasa a ser su única manera de existir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuarenta años después, el autor tuvo que añadir un capítulo" },
+      {
+        b: "texto",
+        texto:
+          "Pocos libros de referencia envejecen delante de su autor durante medio siglo, y este lo hizo. Gombrich publicó la primera edición en 1950, y siguió revisándola hasta la decimosexta, en 1995, cuando tenía ochenta y seis años. La última lleva un capítulo escrito para explicar por qué el final del libro anterior ya no valía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese epílogo se titula, más o menos, una historia sin final, y en él hace algo poco frecuente: admitir lo que no vio venir. Reconoce que había dado por cerrada una etapa que no lo estaba, que el arte de la segunda mitad del siglo tomó direcciones que su esquema no preveía y que el mercado del arte se convirtió en un factor tan determinante como antes lo fueron la Iglesia o la corte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También añade una advertencia sobre su propio método. Un libro que cuenta una historia continua, dice, obliga a que cada cosa parezca consecuencia de la anterior, y eso es en parte un efecto del relato: en la realidad hubo caminos que no llevaron a ninguna parte, artistas excelentes que no influyeron en nadie y modas que se apagaron sin dejar herederos, y de todo eso un libro así no puede hablar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la mejor página del volumen, porque es el momento en que el autor le enseña al lector las costuras de lo que acaba de contarle.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Toda historia contada de corrido hace parecer inevitable lo que solo fue lo que sobrevivió.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un libro sin una sola mujer dentro" },
+      {
+        b: "texto",
+        texto:
+          "Hay una ausencia en La historia del arte que no se puede pasar por alto y que su autor tuvo que responder muchas veces: en la primera edición, de 1950, no aparece ni una sola artista mujer en quinientas páginas y treinta mil años. Ni Artemisia Gentileschi, ni Sofonisba Anguissola, ni Élisabeth Vigée Le Brun, ni Berthe Morisot, que expuso con los impresionistas desde la primera muestra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gombrich contestó siempre lo mismo: que su criterio era la relevancia dentro de una cadena de influencias, que no pensaba hacer añadidos por corrección y que quien quisiera otra selección escribiera otro libro. Las revisiones posteriores apenas cambiaron nada en ese punto. Es la crítica más repetida que ha recibido y es justa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene entender de dónde viene la ausencia, porque explica algo del propio asunto. Durante siglos, las academias europeas no admitieron mujeres, y las que no admitían mujeres tampoco les permitían el estudio del desnudo, que era el requisito para pintar los temas considerados mayores. Quien no podía pintar historia ni mitología quedaba confinada al retrato, al bodegón y a la miniatura, es decir, a los géneros que las mismas academias consideraban menores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "O sea que la cadena de influencias que Gombrich toma como criterio ya venía filtrada, y usarla sin decirlo convierte una exclusión histórica en un juicio de calidad. En 2022 la historiadora Katy Hessel publicó una historia del arte escrita únicamente con mujeres, y su título dice directamente de dónde viene.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando se usa como criterio a quién influyó cada artista, se hereda sin darse cuenta la lista de quién pudo entrar en las escuelas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La historia del arte recorre treinta mil años sosteniendo una sola idea: que cada época hizo imágenes para un encargo distinto, y que compararlas por su parecido con la realidad es medirlas con una vara que solo tuvo sentido durante cuatro siglos europeos. Un egipcio dibujaba para conservar, un artesano medieval para explicar, un florentino para construir un espacio y un pintor de 1900 para distinguirse de sus contemporáneos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, además del recorrido, es una manera de mirar que sirve para cualquier obra: preguntar qué problema tenía delante quien la hizo. Con eso, casi todo lo que parecía torpe, raro o arbitrario se convierte en una solución razonable a un problema que ya no es el nuestro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ante cualquier obra que no se entienda, la pregunta útil no es qué quiso decir, sino qué problema estaba resolviendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La ausencia total de mujeres es el reproche mayor y el propio autor se negó a corregirlo. Hay además otros dos desequilibrios: el mundo no europeo aparece en un capítulo corto y funciona sobre todo como contexto o como influencia sobre Occidente, y la arquitectura, aunque está presente, recibe bastante menos atención que la pintura. Y su relato continuo, como él mismo admite al final, hace inevitable lo que solo fue lo que se conservó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después. El libro se ha convertido en el manual de arte más vendido de la historia, con más de ocho millones de ejemplares y traducciones a unas treinta lenguas, y su prosa sigue siendo el modelo de cómo se explica algo complicado sin jerga: no hay una sola frase en quinientas páginas que necesite un diccionario al lado. También ha ocurrido lo que él temía: se usa a menudo como lista de nombres que hay que saberse, cuando su tesis dice justo lo contrario, que no existe el Arte y solo existen los artistas y sus problemas concretos.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "historia-arte": HISTORIA_ARTE,
   "madame-bovary": MADAME_BOVARY,
   "ana-karenina": ANA_KARENINA,
   sisifo: SISIFO,

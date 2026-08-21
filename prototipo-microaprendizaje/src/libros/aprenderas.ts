@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "historia-arte":
+    "Empieza diciendo que no existe el Arte, que solo existen los artistas. Gombrich lo escribió en 1950 para lectores jóvenes, con una regla: no mencionar ninguna obra que no pudiera reproducir en la propia página.",
+
   "madame-bovary":
     "Flaubert tardó cuatro años y siete meses, a veces una página por semana, y en 1857 el gobierno lo llevó a juicio por ultraje a la moral. La novela cuenta cómo una mujer de provincias se arruina intentando parecerse a lo que leyó de adolescente.",
 
