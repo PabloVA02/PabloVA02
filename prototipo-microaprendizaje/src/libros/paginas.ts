@@ -49584,7 +49584,7 @@ const INTRO_PSICOANALISIS: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Y el mejor dato sobre este libro concreto lo puso su propio autor. En 1926 Freud publicó una revisión completa de su teoría de la angustia, invirtiendo lo que aquí enseña: ya no sería la libido reprimida la que se convierte en angustia, sino la angustia la que pone en marcha la represión. Y en 1933 publicó unas conferencias nuevas para corregir por escrito varias partes de estas. Quien lea este curso está leyendo una versión que su autor dio por superada.",
+          "Y el mejor dato sobre este libro lo puso su propio autor. En 1926 Freud publicó una revisión completa de su teoría de la angustia, invirtiendo lo que aquí enseña: ya no sería la libido reprimida la que se convierte en angustia, sino la angustia la que pone en marcha la represión. Y en 1933 publicó unas conferencias nuevas para corregir por escrito varias partes de estas.",
       },
       {
         b: "idea",
