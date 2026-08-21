@@ -27608,12 +27608,12 @@ const ORIGENES_TOTALITARISMO: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Dónde falla. Su tesis más discutida es la central: meter el nazismo y el estalinismo en la misma categoría. Muchos historiadores lo rechazan, y hay un motivo de peso: Arendt escribía en 1949, sin acceso a nada soviético, y su análisis de la Unión Soviética se apoya en información fragmentaria; ella misma lo revisó en ediciones posteriores. Las dos primeras partes son además muy desiguales, con generalizaciones grandes en el tramo del imperialismo, y no es un libro de historia con método de historiador: es filosofía política que escoge su material.",
+          "Dónde falla. Su tesis más discutida es la central: meter el nazismo y el estalinismo en la misma categoría. Muchos historiadores lo rechazan con un motivo de peso: Arendt escribía en 1949, sin acceso a nada soviético, y ella misma lo revisó después. Las dos primeras partes son además muy desiguales, con generalizaciones grandes en el tramo del imperialismo, y no es un libro de historia con método de historiador: es filosofía política que escoge su material.",
       },
       {
         b: "texto",
         texto:
-          "Y hay algo que conviene tener presente al leer la cadena que propone. Que el antisemitismo, el imperialismo y el totalitarismo aparezcan uno detrás de otro en el libro no demuestra que uno produjera al siguiente; es una reconstrucción hecha desde el final, sabiendo ya cómo terminó todo, que es exactamente el defecto que ella le reprocha a la historiografía militar. Lo que sí queda en pie, y es lo que ha hecho durar el libro, es el análisis de la tercera parte: el retrato de por dentro de cómo funciona un régimen así y de qué necesita de sus ciudadanos.",
+          "Y hay algo que conviene tener presente al leer la cadena que propone. Que el antisemitismo, el imperialismo y el totalitarismo aparezcan uno detrás de otro en el libro no demuestra que uno produjera al siguiente; es una reconstrucción hecha desde el final, sabiendo ya cómo terminó todo, que es el defecto que ella misma reprocha a la historiografía militar. Lo que sí queda en pie, y es lo que ha hecho durar el libro, es el análisis de la tercera parte: el retrato de por dentro de cómo funciona un régimen así y de qué necesita de sus ciudadanos.",
       },
     ],
   },
