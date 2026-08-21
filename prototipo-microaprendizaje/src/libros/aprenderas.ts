@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "pajaro-a-pajaro":
+    "Un niño de diez años llevaba tres meses con un trabajo sobre pájaros y seguía sin empezar la víspera de entregarlo. Su padre le dijo: ve pájaro a pájaro. De ahí sale un libro sobre poder sentarse a escribir, no sobre escribir bien.",
+
+  "camino-artista":
+    "Una guionista dejó de beber a los treinta y descubrió que sobria no le salía nada. De intentar resolverlo salió un curso de doce semanas con dos rutinas: tres páginas a mano cada mañana y dos horas a solas cada semana.",
+
   "dieta-cojea":
     "Casi todo lo que una persona cree saber sobre comer no lo aprendió en clase ni en la consulta: lo oyó en un anuncio o lo leyó en un envase. Un dietista rastrea de dónde salió cada mito y comprueba si alguna vez hubo algo debajo.",
 

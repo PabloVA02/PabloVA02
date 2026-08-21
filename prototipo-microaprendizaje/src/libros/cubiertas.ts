@@ -428,7 +428,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: ACTO_CREATIVO,
     autor: "El acto creativo, de Rick Rubin.",
     licencia: "Obra propia",
-    alt: "La cubierta de «El acto creativo».",
+    alt: "La cubierta de «El acto creativo»: sobre naranja quemado, una puerta clara entreabierta por la que asoma un ojo enorme de iris turquesa, y del que sale hacia la izquierda una ola de franjas azules, verdes y doradas.",
   },
   "aliento-aire": {
     local: ALIENTO_AIRE,
@@ -506,7 +506,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: CAMINO_ARTISTA,
     autor: "El camino del artista, de Julia Cameron.",
     licencia: "Obra propia",
-    alt: "La cubierta de «El camino del artista».",
+    alt: "La cubierta de «El camino del artista»: sobre verde muy oscuro, un camino rojo serpentea desde una maraña de garabatos enredados en la esquina de abajo hasta una puerta amarilla entreabierta arriba, con un lápiz, un cuaderno y un pincel apoyados en el trayecto.",
   },
   "canones-agosto": {
     local: CANONES_AGOSTO,
@@ -518,7 +518,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: CARTAS_JOVEN_POETA,
     autor: "Cartas a un joven poeta, de Rainer Maria Rilke.",
     licencia: "Obra propia",
-    alt: "La cubierta de «Cartas a un joven poeta».",
+    alt: "La cubierta de «Cartas a un joven poeta»: sobre amarillo mostaza, una pluma estilográfica traza una espiral azul que sube envolviendo un brote naranja plantado en un montículo de tierra.",
   },
   "casi-todo": {
     local: CASI_TODO,
@@ -614,7 +614,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: DIARIOS_FRIDA,
     autor: "El diario de Frida Kahlo, de Frida Kahlo.",
     licencia: "Obra propia",
-    alt: "La cubierta de «El diario de Frida Kahlo».",
+    alt: "La cubierta de «El diario de Frida Kahlo»: sobre rojo, un libro azul abierto del que brota un tallo espinoso con tres flores —blanca, roja y amarilla— y, por encima, la ceja unida dibujada como un pájaro negro.",
   },
   "dieta-cojea": {
     local: DIETA_COJEA,
@@ -722,7 +722,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: GUERRA_ARTE,
     autor: "La guerra del arte, de Steven Pressfield.",
     licencia: "Obra propia",
-    alt: "La cubierta de «La guerra del arte».",
+    alt: "La cubierta de «La guerra del arte»: un muro negro ocupa media portada y en él se abre un vano iluminado por el que se ve, al fondo, un lápiz rojo de pie y solo; a la izquierda del muro, una maraña de garabatos rojos.",
   },
   "habitos-atomicos": {
     local: HABITOS_ATOMICOS,
@@ -800,7 +800,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: MAGIA_CREAR,
     autor: "La magia de crear, de Elizabeth Gilbert.",
     licencia: "Obra propia",
-    alt: "La cubierta de «La magia de crear».",
+    alt: "La cubierta de «La magia de crear»: sobre amarillo, un baúl azul abierto del que salen volando una espiral turquesa, una hoja verde, un avión de papel, un disco de colores y una llave naranja, camino de una puerta abierta.",
   },
   "malala": {
     local: MALALA,
@@ -854,7 +854,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: MIENTRAS_ESCRIBO,
     autor: "Mientras escribo, de Stephen King.",
     licencia: "Obra propia",
-    alt: "La cubierta de «Mientras escribo».",
+    alt: "La cubierta de «Mientras escribo»: sobre verde muy oscuro, unas piedras de vado con las letras de la palabra escribir cruzan la portada en zigzag hasta una puerta roja entreabierta, entre matas de hojas doradas y rojas.",
   },
   "milagro-manana": {
     local: MILAGRO_MANANA,
@@ -968,7 +968,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: PAJARO_A_PAJARO,
     autor: "Pájaro a pájaro, de Anne Lamott.",
     licencia: "Obra propia",
-    alt: "La cubierta de «Pájaro a pájaro».",
+    alt: "La cubierta de «Pájaro a pájaro»: sobre crema, un pájaro blanco vuela hecho de plumas sueltas azules, naranjas, amarillas y negras, y las que aún no se le han unido flotan repartidas por el resto de la portada.",
   },
   "paseo-aleatorio": {
     local: PASEO_ALEATORIO,
@@ -1070,7 +1070,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: ROBA_ARTISTA,
     autor: "Roba como un artista, de Austin Kleon.",
     licencia: "Obra propia",
-    alt: "La cubierta de «Roba como un artista».",
+    alt: "La cubierta de «Roba como un artista»: sobre crema, unas tijeras negras recortan trozos de papel de colores y los pedazos, al salir volando, se van montando hasta formar un pájaro.",
   },
   "sapiens": {
     local: SAPIENS,
@@ -1124,7 +1124,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: SOBRE_FOTOGRAFIA,
     autor: "Sobre la fotografía, de Susan Sontag.",
     licencia: "Obra propia",
-    alt: "La cubierta de «Sobre la fotografía».",
+    alt: "La cubierta de «Sobre la fotografía»: sobre rojo coral, una tira de negativo curvada cruza la portada y en sus cuatro fotogramas la misma casa con su árbol se va acercando hasta salirse del encuadre.",
   },
   "sombra-viento": {
     local: SOMBRA_VIENTO,
@@ -1190,7 +1190,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: VIDA_DALI,
     autor: "La vida secreta de Salvador Dalí, de Salvador Dalí.",
     licencia: "Obra propia",
-    alt: "La cubierta de «La vida secreta de Salvador Dalí».",
+    alt: "La cubierta de «La vida secreta de Salvador Dalí»: sobre crema, un bigote negro enorme y curvado enmarca un ojo de cerradura por el que se ve un paisaje de mar azul con una silla roja y un huevo blanco.",
   },
   "vivir-plenitud": {
     local: VIVIR_PLENITUD,

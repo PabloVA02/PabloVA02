@@ -41570,7 +41570,551 @@ const DIETA_COJEA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El camino del artista, en ocho páginas.
+
+   Breve.
+
+   Libro práctico: la prosa habla de TÚ (regla 4.7).
+
+   La conclusión separa las dos herramientas —que son buenas y no dependen de
+   nada— del andamiaje espiritual que las envuelve, que es lo que hace que
+   mucha gente cierre el libro en la página treinta. Y dice lo que sí se ha
+   medido de escribir a mano por las mañanas, que no es lo que el libro dice.
+   -------------------------------------------------------------------------- */
+
+const CAMINO_ARTISTA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No es un libro sobre crear: es un curso de doce semanas para desatascarse",
+      },
+      {
+        b: "texto",
+        texto:
+          "Julia Cameron era guionista en Hollywood, estuvo casada con Martin Scorsese y dejó de beber a los treinta. Cuando lo dejó descubrió que había estado escribiendo borracha durante años y que sobria no le salía nada. De intentar resolver ese problema, primero para ella y después en talleres en Nueva York desde 1978, salió este libro, publicado en 1992.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su punto de partida es que casi nadie que quiera crear algo tiene un problema de talento. Tiene un problema de bloqueo: una acumulación de miedo, de vergüenza y de opiniones ajenas que impide sentarse a hacerlo. Y sostiene que un bloqueo no se resuelve pensando en él, sino con dos rutinas concretas repetidas semana tras semana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso no es un ensayo sino un curso de doce semanas, con tareas cada una. Ha vendido más de cinco millones de ejemplares y es el origen de una costumbre que hoy repiten miles de personas que no han leído el libro: escribir tres páginas a mano nada más levantarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren el método: en qué consisten esas tres páginas y por qué a mano, la cita semanal a solas que casi nadie cumple, qué es un artista en la sombra, cómo se le contesta al censor que llevas dentro, y la idea que sostiene todo lo demás, que la cantidad va por delante de la calidad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie que quiere crear algo tiene un problema de talento: tiene un problema de arranque.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Tres páginas a mano, antes de nada, todos los días" },
+      {
+        b: "texto",
+        texto:
+          "La primera herramienta se llama páginas matinales y la instrucción es deliberadamente tonta: al levantarte, antes del café si puedes, escribes tres páginas a mano de lo que sea. No es un diario, no es literatura, no tiene tema y no hay manera de hacerlo mal. Si no se te ocurre nada, escribes que no se te ocurre nada hasta que se te ocurra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cameron insiste en tres condiciones. A mano, no en el teclado. Tres páginas, ni dos ni cinco: la cifra importa porque a las dos todavía estás escribiendo quejas y a partir de ahí empieza a salir otra cosa. Y lo primero de la mañana, antes de que el día te dé asuntos en los que pensar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sale al principio es basura y eso es exactamente lo que se busca. La lista de la compra, la discusión de ayer, que hay que llamar al banco, que estás cansado. Su tesis es que todo eso ocupa sitio, y que sacarlo al papel por la mañana lo deja fuera del camino durante el resto del día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una regla que la mayoría se salta: no se releen. Durante las ocho primeras semanas no las lee nadie, ni siquiera tú. En cuanto se escriben para ser leídas dejan de ser un vaciado y se convierten en una actuación, y entonces vuelve el mismo censor que se intentaba esquivar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribir sin que nadie vaya a leerlo, ni siquiera tú, es lo único que apaga al que corrige mientras escribes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La mano es más lenta que la cabeza, y esa lentitud es la herramienta",
+      },
+      {
+        b: "texto",
+        texto:
+          "La insistencia en escribir a mano parece una manía y tiene un motivo que el libro explica bien. Escribiendo a mano se va a unas veinte palabras por minuto y tecleando al doble o al triple. Con el teclado se puede seguir el ritmo del pensamiento; con el bolígrafo no, y esa diferencia obliga a elegir qué merece la pena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cameron añade otro motivo, más práctico: la pantalla trae compañía. Un ordenador abierto tiene correo, mensajes y una ventana para buscar cualquier cosa, y un cuaderno no tiene nada. Las tres páginas dependen de que no haya adónde escaparse, porque el aburrimiento es lo que empuja hacia lo que hay debajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su descripción del efecto es la parte más convincente. Las primeras semanas las páginas son una lista de agravios; hacia la tercera aparecen ideas que no sabías que tenías; hacia la sexta empiezan a repetirse las mismas quejas tantas veces que uno acaba haciendo algo al respecto, no por decisión sino por hartazgo de leerse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y es honesta sobre el precio. Son entre veinte y cuarenta minutos cada mañana, todos los días, incluidos los que no apetece; en un año son más de cien horas y un cajón lleno de cuadernos que nadie va a abrir. Lo presenta como lo que es, un mantenimiento, no una actividad con resultado visible.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La mano no puede seguir el ritmo del pensamiento, y por eso obliga a decidir qué merece escribirse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una cita semanal contigo mismo, y a solas es la condición" },
+      {
+        b: "texto",
+        texto:
+          "La segunda herramienta se llama cita con el artista y es la que casi todo el mundo se salta. Consiste en reservar dos horas a la semana, en el calendario y con hora, para ir a hacer algo que te interese. Un museo, una ferretería, un mercado, una película rara, un paseo por un barrio en el que no has estado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La condición innegociable es ir solo. No es una salida cultural ni un plan con alguien: en cuanto hay compañía la atención se reparte, hay que conversar y se acaba viendo lo que le interesa al otro. Cameron sostiene que la mitad del efecto está en las horas seguidas sin tener que atender a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El razonamiento detrás es de contabilidad. Si escribir, pintar o componer es sacar cosas de un pozo, alguien que solo saca acaba con el pozo seco, y eso es lo que la gente llama quedarse sin ideas. La cita es la entrada de material: mirar, oír, oler y tocar cosas que no has elegido para nada en concreto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una razón por la que se incumple tanto, que el libro señala sin piedad: las páginas matinales se sienten como trabajo y la cita se siente como capricho. A mucha gente le resulta más fácil escribir tres páginas a las seis y media de la mañana que darse permiso para pasar dos horas de un sábado mirando escaparates.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien solo saca del pozo acaba con el pozo seco, y a eso se le llama quedarse sin ideas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Mucha gente trabaja al lado exacto de lo que querría estar haciendo" },
+      {
+        b: "texto",
+        texto:
+          "El concepto más afilado del libro es el del artista en la sombra. Es quien no se atrevió a hacer lo que quería y organizó su vida alrededor: el que quería escribir y se hizo editor, la que quería pintar y lleva una galería, el que quería tocar y monta el sonido de los conciertos, la que quería actuar y da clases de teatro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cameron subraya que no es una posición cómoda sino dolorosa, y que se disimula muy bien porque desde fuera parece una carrera coherente. Quien está ahí pasa la vida a cinco metros de lo que quería hacer, ayudando a que lo hagan otros, y muchas veces desarrolla hacia esos otros una mezcla de admiración y resentimiento que no sabe explicarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su diagnóstico es que casi nunca falta capacidad: falta permiso. Y que el permiso no suele venir de una decisión heroica sino de un rodeo pequeño, empezar a hacer la cosa mal, en privado y sin contárselo a nadie, que es exactamente para lo que sirven las dos herramientas anteriores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica también un capítulo a las personas que consumen el tiempo y la atención de quien intenta crear algo: las que siempre tienen una crisis, las que necesitan ayuda justo el día que ibas a trabajar. El aviso es útil y el consejo se pasa de frenada, porque tratar cualquier relación exigente como un obstáculo a la propia obra es una forma cómoda de tener razón.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Al artista en la sombra no le falta capacidad: le falta permiso, y el permiso no lo da nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El crítico que llevas dentro tiene voz propia y se le puede contestar por escrito",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cameron llama Censor a la voz que comenta mientras trabajas: esto ya está hecho, esto es pretencioso, quién te has creído, a tu edad. Su primera propuesta es reconocer que no es tu criterio. Es una voz con acento propio, que casi siempre suena a alguien concreto que dijo algo hace veinte años y que sigue repitiéndolo gratis.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejercicio que propone es escribir lo que dice, literal, en una lista. Puesto por escrito casi todo resulta ser una frase infantil —no vales, es tarde, no eres de los que hacen eso— y una frase infantil escrita en un papel se sostiene mucho peor que la misma frase dicha dentro de la cabeza a las siete de la mañana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda parte es la que más ha viajado del libro: rastrear de dónde viene cada frase. Un profesor que devolvió una redacción, una hermana que se rio de un dibujo, un comentario sobre la voz al cantar. Cameron sostiene que casi todos los bloqueos creativos tienen fecha y nombre, y que buscarlos quita mucho de su autoridad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da una regla de forma que funciona sola: al Censor se le contesta, no se discute con él. Discutir es aceptar la conversación, y la conversación siempre la gana quien tiene la lista de tus defectos. Contestar es escribir la frase y volver a la tarea, que es lo único que de verdad la desmiente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todos los bloqueos creativos tienen fecha y nombre, y escribirlos les quita la mitad de la autoridad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La cantidad va delante de la calidad, y no al revés" },
+      {
+        b: "texto",
+        texto:
+          "La idea que sostiene todo el método es que nadie hace una cosa buena decidiendo hacerla buena. Se hacen muchas y algunas salen bien. Por eso las páginas matinales no tienen que estar bien escritas, por eso no se releen, y por eso el curso mide semanas cumplidas y no obras terminadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es también lo mejor sostenido del libro, porque coincide con lo que se ha medido fuera de él. Cuando se estudia la obra de creadores prolíficos —compositores, científicos, escritores— resulta que su porcentaje de aciertos no es mayor que el de los demás: lo que tienen es más obra total. Producen más obras buenas porque producen más obras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la instrucción práctica que se puede aplicar sin creerse nada del resto: bajar el listón de la primera versión hasta que quepa en un día malo. Un párrafo malo, un boceto feo, una toma torcida. Lo que hay que proteger no es la calidad, que ya llegará al corregir, sino la costumbre de haber hecho algo hoy.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cameron lo lleva a la idea de que hay que dejar de esperar la inspiración y tratar el trabajo como quien riega una planta: poco, todos los días, sin mirar si ha crecido. Y avisa de lo que pasa cuando algo empieza a salir bien, que es cuando aparecen las ganas de saltarse las dos herramientas por no tener tiempo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien hace más obra no acierta más a menudo: acierta más veces porque tiene más intentos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El camino del artista sostiene que el bloqueo creativo no se resuelve pensando sino con dos rutinas: tres páginas escritas a mano cada mañana sin releerlas, y dos horas a solas a la semana para llenar el pozo. Alrededor de eso monta un curso de doce semanas con el censor, el artista en la sombra y la cantidad por delante de la calidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta y no tiene nadie más es la cita con el artista. Es una idea pequeña y rara —una cita contigo mismo, en el calendario, y a solas— que nombra algo que no tenía nombre: que crear consume material y que el material hay que ir a buscarlo. Y el artista en la sombra es un retrato que se reconoce al instante.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Crear consume material, y casi nadie tiene previsto el rato de ir a buscarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El envoltorio espiritual es constante y no es opcional: Cameron sostiene que la creatividad es un asunto espiritual, habla de un Gran Creador y pide al lector que se abra a él. También promete que en cuanto uno se comprometa empezarán a aparecer casualidades favorables, que es una afirmación que no se puede comprobar ni desmentir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y no hay ninguna prueba de que el método funcione. Lo que sí se ha medido es otra cosa parecida y conviene no confundirlas: desde 1986 se ha estudiado la escritura expresiva, que consiste en escribir de quince a veinte minutos durante tres o cuatro días sobre un asunto emocional concreto, y ahí sí hay efectos repetidos sobre el ánimo y la salud. Las páginas matinales no son eso: no tienen tema, no se releen y no acaban nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa diferencia importa más de lo que parece. Escribir cada día sobre lo que a uno le molesta, sin ordenarlo y sin darle sentido, se parece bastante a rumiar, y rumiar empeora el ánimo de algunas personas en vez de aliviarlo. La parte que Cameron considera secundaria —hacer algo con lo que sale— es justamente la que la investigación señala como la que cura.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   Pájaro a pájaro, en ocho páginas.
+
+   Breve.
+
+   Libro práctico sobre escribir: la prosa habla de TÚ (regla 4.7).
+
+   La conclusión dice lo que ha envejecido —los agentes, el correo, la
+   máquina de escribir— y el hueco del método: que «escribe mal primero»
+   solo funciona si detrás hay una cultura de corrección que Lamott da por
+   supuesta y que su lector no suele tener.
+   -------------------------------------------------------------------------- */
+
+const PAJARO_A_PAJARO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un niño de diez años ante un trabajo sobre pájaros que había que entregar al día siguiente",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hermano de Anne Lamott tenía diez años y llevaba tres meses con un trabajo del colegio sobre pájaros. La víspera de entregarlo seguía sin empezar, sentado a la mesa de la cocina, rodeado de libros y de papeles, paralizado y a punto de llorar. Su padre se sentó a su lado, le pasó el brazo por el hombro y le dijo: pájaro a pájaro, chaval. Ve pájaro a pájaro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el título de este libro, publicado en 1994, y también su método entero. Lamott es novelista y da clases de escritura, y lo que enseña no es a escribir bien: es a poder sentarse a escribir cuando lo que hay delante es demasiado grande y la fecha está demasiado cerca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que el problema de casi todo el que quiere escribir no está en la técnica sino en las expectativas. Espera que le salga bien a la primera, que la inspiración llegue antes de sentarse y que publicar cambie algo importante de su vida. Las tres cosas son falsas y las tres impiden trabajar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que propone: por qué los primeros borradores tienen que ser malos, el marco de una pulgada, la emisora que suena dentro de la cabeza mientras trabajas, por qué la trama sale de los personajes y no al revés, qué hacer con la envidia y por qué publicar no arregla nada de lo que uno espera que arregle.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando lo que hay delante es demasiado grande, lo único que funciona es mirar solo la parte que cabe hoy.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los primeros borradores son malos, y tienen que serlo" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más citado del libro sostiene algo que suena a consuelo y es una descripción técnica: casi todo lo que está bien escrito empezó siendo un desastre. Lamott lo llama, sin adornos, el primer borrador de mierda, y explica que lo escriben así todos los escritores que conoce, incluidos los que en las entrevistas cuentan otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su descripción del proceso es de tres pasadas. La primera se escribe entera, mal, sin corregir nada y sin volver atrás: es la pasada del niño, la que se permite ser tonta y larga y sentimental. La segunda es la del adulto, que quita lo que sobra y ordena. La tercera es la del dentista, que comprueba diente por diente si algo está podrido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón técnica de que haga falta la primera es que no se puede corregir lo que no existe. Nadie sabe de qué va una cosa hasta que la ha escrito entera una vez, y por eso pulir el primer párrafo durante una semana es la manera más eficaz de no terminar nunca: se está corrigiendo un texto que todavía no sabe adónde va.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lamott cuenta su propia experiencia con una columna gastronómica que escribía en los ochenta: cada mes se convencía de que aquella vez no le iba a salir, escribía cinco páginas horribles, y al día siguiente encontraba dentro un párrafo aprovechable. El texto publicado salía siempre de ese párrafo. Las cinco páginas no eran un fracaso: eran el procedimiento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No se puede corregir lo que no existe: el borrador malo no es un paso en falso, es la materia prima.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un marco de dos centímetros y medio, y dentro solo lo que quepa" },
+      {
+        b: "texto",
+        texto:
+          "Lamott tiene sobre su mesa un marco de fotos de una pulgada, unos dos centímetros y medio de lado, y lo usa como instrumento de trabajo. Cuando se bloquea, se obliga a escribir solo lo que cabría dentro de ese marco: no la novela, ni el capítulo, ni la escena. Un detalle. La cara de alguien en un momento concreto. Un plato de comida sobre una mesa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo es que la parálisis casi nunca viene de la tarea real sino del tamaño con el que uno se la representa. Nadie se bloquea escribiendo una frase; la gente se bloquea escribiendo una novela, que es una idea que no cabe en una mañana y que no se puede empezar porque no hay por dónde cogerla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la misma idea del padre a la mesa de la cocina, aplicada al oficio. El trabajo sobre los pájaros no se hace pensando en el trabajo sobre los pájaros: se hace escribiendo lo que sabes del primer pájaro. Y entonces existe un párrafo, y con un párrafo delante ya no estás ante un vacío sino ante algo que continuar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lamott añade el complemento práctico: llevar siempre fichas de cartón en el bolsillo. Las cosas que sirven para escribir aparecen conduciendo, en la cola del supermercado o a las tres de la mañana, y se olvidan en noventa segundos. No es una manía de escritora, es aceptar que la memoria no guarda lo que uno no ha escrito.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie se bloquea escribiendo una frase: la gente se bloquea escribiendo una novela.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dentro de la cabeza suena una emisora que emite en los dos oídos a la vez",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lamott describe la voz interior de quien trabaja como una emisora de radio con dos canales sonando al mismo tiempo. Por un oído entra el que dice que eres brillante, que esto es lo mejor que se ha escrito nunca y que van a llamarte de todas partes. Por el otro, el que dice que eres un fraude, que esto es ridículo y que todo el mundo lo va a notar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo importante de su descripción es que los dos canales son igual de inútiles y vienen del mismo sitio. Los dos hablan de ti y no del texto, y mientras estén sonando no se puede oír lo único que sirve, que es si la frase que acabas de escribir dice lo que querías que dijera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su remedio no es apagarla, porque no se puede, sino bajarle el volumen a mano: notar que ha empezado, ponerle nombre —está sonando otra vez— y volver a la frase. Lo compara con imaginar que metes a cada voz en un frasco y le bajas el sonido, y admite que suena ridículo y que funciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su frase más dura y más útil sobre el perfeccionismo: que es la voz del opresor. No es una virtud ni un nivel de exigencia alto; es el miedo a que te pillen, disfrazado de criterio. Y tiene una consecuencia práctica muy concreta: el perfeccionista no corrige más, publica menos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El que te dice que eres brillante y el que te dice que eres un fraude hablan los dos de ti, y ninguno del texto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La trama sale de los personajes, y no al revés" },
+      {
+        b: "texto",
+        texto:
+          "En la parte de oficio, la instrucción central de Lamott es que no se construye una historia decidiendo qué pasa. Se construye conociendo a alguien lo bastante bien como para saber qué haría, y entonces lo que pasa se deduce solo. Una trama planificada sobre personajes que no existen todavía produce gente que hace cosas raras para que la historia avance.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su método para conocerlos es lento y poco literario: escribir sobre ellos cosas que no van a salir en el libro. Qué desayunan, qué hay en su bolso, a qué le tienen miedo, cómo hablan cuando están cansados. La mayor parte de eso se tira, y su función no era salir sino que quien escribe deje de improvisar cada vez que el personaje abre la boca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre el diálogo da una prueba concreta: leerlo en voz alta. Un diálogo escrito para ser leído con los ojos casi siempre suena a nadie, porque la gente no habla en frases completas ni contesta a lo que le preguntan. Y avisa de que cada personaje tiene que sonar distinto sin que haga falta poner quién habla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una idea que se aplica más allá de la ficción: escribir sobre lo que te obsesiona y no sobre lo que crees que interesa. Lamott sostiene que lo que se escribe por cálculo se nota siempre, y que la única ventaja competitiva de alguien que escribe es que le importe de verdad lo que está contando.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si sabes lo bastante de alguien, lo que hace deja de ser una decisión tuya y pasa a ser una consecuencia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La envidia se cuenta en voz alta porque callada engorda" },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos más honestos del libro se ocupa de la envidia entre quienes escriben, y Lamott no la presenta como un defecto de carácter ajeno sino como algo que ella siente y describe: la amiga a la que le publican el libro, la reseña buena de otro, el premio. Cuenta que hubo un año en que le costaba abrir el periódico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su diagnóstico es que la envidia entre colegas es especialmente corrosiva porque llega disfrazada de juicio literario. Nadie se dice a sí mismo que tiene envidia: se dice que ese libro está sobrevalorado, que la fama es cuestión de contactos, que el mercado premia lo fácil. Y todo eso puede ser cierto y aun así no ser lo que se está sintiendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que propone es decirlo. En voz alta y a alguien que no lo vaya a usar en tu contra: estoy muerto de envidia y me siento pequeño. Su observación es que la envidia dicha se encoge y la envidia callada se convierte en resentimiento, que ya no se puede desmontar porque para entonces tiene argumentos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La misma honestidad aparece en cómo trata la ayuda ajena. Recomienda tener dos o tres personas que lean lo que escribes antes que nadie, elegidas por que te digan la verdad y no por que te animen, y avisa de que hay que decirles expresamente qué clase de lectura hace falta, porque casi todo el mundo por defecto tranquiliza.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La envidia dicha en voz alta se encoge; la callada se convierte en un juicio y ya no hay quien la desmonte.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Publicar no arregla nada de lo que esperas que arregle" },
+      {
+        b: "texto",
+        texto:
+          "El final del libro es un jarro de agua fría deliberado. Lamott lleva años viendo a alumnos convencidos de que publicar les va a cambiar la vida, y cuenta lo que ocurre de verdad: sale el libro, hay unos días raros, algunas reseñas, unas ventas menores de las esperadas, y al mes siguiente uno está exactamente donde estaba, con los mismos problemas y sin nada que escribir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación es que la expectativa está mal formulada desde el principio. Publicar es un acontecimiento externo, y los acontecimientos externos no reparan por dentro; quien esperaba dejar de sentirse un fraude descubre que ahora es un fraude publicado. Lo describe sin amargura y con bastante detalle, que es lo que lo hace creíble.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí sostiene es lo otro: que el rato de escribir sí da algo, y que ese algo está disponible desde el primer día y no depende de nadie. Prestar atención a las cosas con la intensidad que exige contarlas cambia cómo se mira lo demás, y eso pasa mientras se escribe, no cuando se publica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí su recomendación final, que es también la más difícil de seguir: escribir como regalo. Escribir para alguien concreto, y darlo. Lamott cuenta que escribió sobre la muerte de su padre y sobre la de una amiga, y que en los dos casos el texto sirvió a otras personas de una manera que ninguna cifra de ventas mide.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien esperaba dejar de sentirse un fraude al publicar descubre que ahora es un fraude publicado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Pájaro a pájaro enseña a poder sentarse a escribir, no a escribir bien. Sus herramientas son pocas y encajan unas en otras: el primer borrador se escribe mal a propósito, se mira solo la parte que cabe en un marco de dos centímetros, se le baja el volumen a la emisora interior, y se conoce a los personajes hasta que la trama se deduce sola.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta y ha entrado en el idioma del oficio es el permiso para hacerlo mal la primera vez. Antes de este libro, escribir un borrador horrible era una señal de que uno no valía; después, es una fase con nombre. Y su capítulo sobre la envidia sigue siendo el más honesto que se ha escrito sobre un asunto del que casi nadie escribe.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El perfeccionismo no es un nivel de exigencia alto: es el miedo a que te pillen, disfrazado de criterio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es de 1994 y se nota en todo lo práctico: hay consejos sobre máquinas de escribir, sobre mandar manuscritos por correo, sobre cómo tratar con un agente y sobre unas revistas que ya no existen. Y está escrito para quien quiere hacer novela literaria estadounidense; a quien escriba ensayo, guion o cualquier cosa por encargo le sirve la mitad del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hueco del método es más de fondo. «Escribe mal primero» funciona dentro de una cultura de corrección, y Lamott la da por supuesta porque enseña en talleres donde alguien lee y devuelve el texto. Fuera de ahí, el consejo se queda a medias y produce cajones llenos de borradores que nadie corrigió nunca, que es un resultado distinto del que promete.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un desequilibrio en el reparto. Las dos terceras partes del libro son sobre no bloquearse y sobre la vida del que escribe, y la parte de oficio —estructura, ritmo, cómo se construye una escena— ocupa muchísimo menos. Es un libro excelente para empezar y flojo para mejorar, y conviene saberlo antes de esperar de él lo segundo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "pajaro-a-pajaro": PAJARO_A_PAJARO,
+  "camino-artista": CAMINO_ARTISTA,
   "dieta-cojea": DIETA_COJEA,
   anticancer: ANTICANCER,
   "milagro-manana": MILAGRO_MANANA,

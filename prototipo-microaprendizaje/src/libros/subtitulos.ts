@@ -22,6 +22,8 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "pajaro-a-pajaro": "Algunas instrucciones sobre escribir y sobre la vida",
+  "camino-artista": "Un curso de descubrimiento y rescate de tu propia creatividad",
   "dieta-cojea": "Los mitos sobre nutrición que te han hecho creer",
   anticancer: "Una nueva forma de vida",
   "milagro-manana": "Los 6 hábitos que cambiarán tu vida antes de las 8:00",

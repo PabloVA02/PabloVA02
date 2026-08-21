@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "pajaro-a-pajaro": [
+    "por qué el primer borrador tiene que ser malo",
+    "qué es el marco de una pulgada",
+    "cómo se le baja el volumen al crítico interior",
+    "por qué la trama sale de los personajes",
+    "qué cambia de verdad al publicar",
+  ],
+
+  "camino-artista": [
+    "en qué consisten las páginas matinales",
+    "por qué a mano y por qué no se releen",
+    "qué es una cita con el artista",
+    "cómo se reconoce a un artista en la sombra",
+    "por qué la cantidad va antes que la calidad",
+  ],
+
   "dieta-cojea": [
     "de dónde salió lo del desayuno obligatorio",
     "por qué un zumo no equivale a la fruta",

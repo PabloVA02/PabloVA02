@@ -55,7 +55,6 @@ const CARGADORES: Record<string, Cargador> = {
   /* Capítulos largos */
   "arte-sin-hombres": () => import("./arte").then((m) => m.ARTE_SIN_HOMBRES),
   einstein: () => import("./ciencia").then((m) => m.EINSTEIN),
-  "camino-artista": () => import("./arte").then((m) => m.CAMINO_ARTISTA),
   "etica-amador": () => import("./filosofia").then((m) => m.ETICA_AMADOR),
   "canones-agosto": () => import("./historia").then((m) => m.CANONES_AGOSTO),
   "ultimos-dinosaurios": () => import("./ciencia").then((m) => m.ULTIMOS_DINOSAURIOS),
@@ -75,7 +74,6 @@ const CARGADORES: Record<string, Cargador> = {
   "heroe-mil-caras": () => import("./arte").then((m) => m.HEROE_MIL_CARAS),
   "vidas-vasari": () => import("./arte").then((m) => m.VIDAS_VASARI),
   reproductibilidad: () => import("./arte").then((m) => m.REPRODUCTIBILIDAD),
-  "pajaro-a-pajaro": () => import("./arte").then((m) => m.PAJARO_A_PAJARO),
   "espiritual-arte": () => import("./arte").then((m) => m.ESPIRITUAL_ARTE),
   "el-elemento": () => import("./arte").then((m) => m.EL_ELEMENTO),
   "magia-crear": () => import("./arte").then((m) => m.MAGIA_CREAR),
