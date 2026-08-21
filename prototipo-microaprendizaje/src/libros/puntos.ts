@@ -39,7 +39,7 @@
 
 export const PUNTOS: Record<string, string[]> = {
   "guardian-centeno": [
-    "qué le pasó a su hermano y por qué apenas lo dice",
+    "qué le pasó a su hermano, y por qué no lo dice",
     "qué le pregunta dos veces a un taxista de madrugada",
     "qué consejo le da el único adulto que lo escucha",
     "de dónde sale el título, que es un verso mal oído",
