@@ -24,22 +24,6 @@ export type FichaMeta = {
 
 export const META: FichaMeta[] = [
   {
-    id: "reproductibilidad",
-    titulo: "La obra de arte en la época de su reproductibilidad técnica",
-    autor: "Walter Benjamin",
-    ano: 1936,
-    gancho: "Un refugiado alemán sin trabajo escribió en un café de París por qué una foto de un cuadro no es el cuadro. Cuatro años después murió en la frontera española.",
-    porQue: "Es el ensayo del que salió todo lo que se dice hoy sobre imágenes, copias y originales. Y casi nadie lo lee: se citan cuatro frases suyas, casi siempre al revés de lo que él quería decir.",
-    minutos: 22.5,
-    capitulos: [
-      { titulo: "El Instituto en el exilio", minutos: 4.5 },
-      { titulo: "El aura", minutos: 4.8 },
-      { titulo: "La sala de montaje", minutos: 4.6 },
-      { titulo: "El estadio de Núremberg", minutos: 4.2 },
-      { titulo: "Portbou, 26 de septiembre de 1940", minutos: 4.3 },
-    ],
-  },
-  {
     id: "heroe-mil-caras",
     titulo: "El héroe de las mil caras",
     autor: "Joseph Campbell",

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  reproductibilidad:
+    "Benjamin lo escribió en París en 1935, exiliado, y sostiene que copiar una obra por medios técnicos no cambia el número de ejemplares sino lo que la obra es. Cinco años después se quitó la vida huyendo en la frontera española.",
+
   "espiritual-arte":
     "Kandinsky vio en 1896 un cuadro cuyo asunto no conseguía identificar y comprobó que le seguía produciendo algo. Rechazó una cátedra de derecho, se fue a aprender a pintar y quince años después escribió esto.",
 

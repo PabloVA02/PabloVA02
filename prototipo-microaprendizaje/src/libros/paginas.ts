@@ -56908,7 +56908,295 @@ const ESPIRITUAL_ARTE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La obra de arte en la época de su reproductibilidad técnica, en ocho páginas.
+
+   Breve: es un ensayo de sesenta páginas. Estirarlo sería parafrasear.
+
+   Ensayo → afirmación entera y tercera persona.
+
+   EL ERROR QUE HAY QUE DESHACER, y lo comete casi todo el mundo: se cita
+   este texto como un lamento por la pérdida del aura, y Benjamin sostiene
+   lo contrario. Considera que destruirla es una liberación, porque el aura
+   ataba el arte al ritual y a la autoridad. La página cuarta está dedicada
+   entera a corregir eso, porque sin esa corrección el resumen estaría
+   propagando el malentendido.
+
+   Y el marcador del apartado 4 bis se puede poner con precisión: acertó de
+   pleno con el sistema de estrellas y falló con el efecto político del
+   cine, mientras Leni Riefenstahl rodaba lo contrario a pocos kilómetros.
+   -------------------------------------------------------------------------- */
+
+const REPRODUCTIBILIDAD: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Poder copiar una obra sin límite cambia lo que esa obra es, no solo cuántas hay",
+      },
+      {
+        b: "texto",
+        texto:
+          "Walter Benjamin escribió este ensayo en París en 1935, exiliado de Alemania, sin trabajo estable y viviendo de encargos. La primera versión publicada apareció al año siguiente traducida al francés y con recortes que le impusieron los editores de la revista, que suprimieron las menciones explícitas a Marx, al fascismo y al comunismo para no comprometer a la publicación. Hay tres versiones del texto y la alemana completa no se publicó hasta 1955.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su autor no llegó a ver ninguna de esas ediciones. En 1940, cuando los alemanes entraron en París, Benjamin huyó hacia el sur, cruzó los Pirineos a pie con un grupo de refugiados y llegó a Portbou, en la frontera española. Allí la policía les comunicó que serían devueltos a Francia al día siguiente. Se quitó la vida aquella noche, el 26 de septiembre, a los cuarenta y ocho años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ensayo sostiene una tesis que en 1935 era completamente nueva: que la posibilidad de copiar una obra de arte por medios técnicos no afecta solo al número de ejemplares, sino a la naturaleza de la obra, a la manera en que la miramos y, por lo tanto, a la función del arte en una sociedad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: por qué la reproducción técnica es distinta de copiar a mano, qué es exactamente el aura, por qué su destrucción le parecía una buena noticia, qué diferencia hay entre una obra hecha para existir y una hecha para verse, qué le ocurre a un actor cuando actúa ante una máquina, y cómo termina el ensayo hablando de la guerra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Poder copiar algo sin límite no cambia solo cuántos ejemplares hay: cambia lo que ese objeto es y cómo se mira.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Copiar a mano y copiar con una máquina no son lo mismo, aunque el resultado se parezca",
+      },
+      {
+        b: "texto",
+        texto:
+          "Benjamin empieza reconociendo que la obra de arte siempre ha sido reproducible: los discípulos copiaban al maestro, los talleres repetían modelos, los romanos fundían bronces en serie. Lo que sostiene es que a partir de cierto momento aparece un tipo de reproducción distinto en su naturaleza y no solo en su velocidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sitúa la escala con precisión. La xilografía permitió multiplicar el dibujo, la imprenta multiplicó la escritura, y hacia 1800 la litografía permitió por primera vez que las imágenes acompañaran a la vida diaria en cantidades ilimitadas. Y entonces, en 1839, llega la fotografía y el salto es de otra clase: la mano queda descargada por completo del trabajo de reproducir y solo interviene el ojo, que capta más deprisa de lo que la mano puede dibujar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese detalle, que la mano deje de intervenir, es el que le interesa. Una copia hecha a mano, por buena que sea, es siempre otra obra hecha por otra persona, y por eso se la puede considerar falsificación o interpretación. Una fotografía no es ninguna de las dos cosas: no compite con el original ni lo imita, lo pone en circulación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca la operación característica de la reproducción técnica, que es de movimiento. La copia va al espectador en lugar de obligar al espectador a ir a ella: la fotografía de la catedral entra en un salón, la grabación de un coro suena en una cocina. Y esa capacidad de moverse es la que va a producir todo lo demás.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una copia a mano compite con el original; una copia técnica no compite: lo transporta, y el transporte es lo que cambia todo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El aura es estar en un sitio y no en otro" },
+      {
+        b: "texto",
+        texto:
+          "El concepto por el que se conoce este ensayo es difícil porque Benjamin lo usa de varias maneras, y conviene empezar por su base más sencilla. Sostiene que a una obra de arte le falta siempre algo a su copia: su aquí y ahora, su existencia irrepetible en el lugar en el que se encuentra. Un cuadro está en una sala, ha estado en otras, se ha restaurado, se ha oscurecido, ha cambiado de dueño; esa historia forma parte de él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso le llama autenticidad, y advierte que no es una cuestión de sentimiento: es lo que puede comprobar un análisis químico y lo que no tiene ninguna copia. Sobre esa autenticidad se construye lo que llama aura, que es la manifestación irrepetible de una lejanía, por cerca que se esté de la obra: la sensación de que aquello está a una distancia que no se puede salvar aunque se tenga delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para explicarlo con algo que no sea arte, pone un ejemplo que es la mejor página del texto. Descansar una tarde de verano siguiendo con la mirada la línea de una cordillera en el horizonte o una rama que proyecta su sombra encima de uno es respirar el aura de esas montañas y de esa rama. Está ahí, se puede mirar, y sigue estando lejos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y explica de dónde viene ese carácter. Las obras nacieron dentro de un ritual: la pintura de una cueva, la estatua del dios en su templo, la imagen medieval que solo se descubría en ciertas fechas. Su valor no estaba en ser vistas sino en estar en su sitio, y ese origen ceremonial es lo que dejó en ellas la distancia que seguimos notando en un museo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El aura no es una cualidad mística: es la distancia que queda en un objeto que fue hecho para estar en un sitio y no para ser mirado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Que la reproducción destruya el aura le parece una buena noticia, y ahí es donde se le cita al revés",
+      },
+      {
+        b: "texto",
+        texto:
+          "Este es el punto que más se malinterpreta y merece decirlo con todas las letras. Benjamin escribe que lo que se atrofia en la época de la reproducción técnica es el aura de la obra de arte, y esa frase se cita constantemente como un lamento de un intelectual europeo por un mundo perdido. Su posición es exactamente la contraria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es de política y no de gusto. El aura ataba la obra al ritual, y el ritual la ataba a una autoridad: a un templo, a una iglesia, a un palacio, a un propietario que decidía quién podía verla y cuándo. Una obra con aura es una obra que exige acercarse a ella con reverencia, en el sitio que otro ha elegido y en las condiciones que otro impone.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al liberarse de eso, sostiene, el arte deja de tener su fundamento en el ritual y pasa a poder tenerlo en otra cosa: en la política. Una imagen que circula libremente, que cualquiera puede tener, comparar, recortar y usar deja de ser un objeto de culto y se convierte en material disponible. Para él, esa emancipación es el acontecimiento más importante que le ha ocurrido al arte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El malentendido tiene una explicación y conviene darla. Benjamin era muy sensible a lo que se perdía y lo describe con una belleza que hace pensar que lo lamenta; su ejemplo de la cordillera y la rama es de lo más delicado que escribió. Pero describir bien algo no es defenderlo, y el propio ensayo dice a continuación para qué servía aquello y a quién.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Describir con delicadeza lo que se pierde no es defenderlo: se puede echar de menos algo y sostener que su desaparición era necesaria.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay obras hechas para existir y obras hechas para ser vistas, y la proporción se ha invertido",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para explicar el cambio, Benjamin propone dos valores que conviven en toda obra y que se reparten el peso de distinta manera según la época. El valor de culto es el de una obra cuya función es estar: los animales pintados en una cueva paleolítica servían para la ceremonia y probablemente casi nadie los veía, y algunas imágenes medievales permanecían tapadas la mayor parte del año.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El valor de exhibición es el contrario: el de una obra cuya función es ser vista por el mayor número posible de personas. Una escultura que se puede llevar de una ciudad a otra ya tiene más valor de exhibición que un fresco en una pared; una fotografía, mucho más; una película, prácticamente todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tesis es que la reproducción técnica desplaza el peso de un valor al otro hasta un punto en que la obra cambia de naturaleza, como el agua que se calienta y en cierto momento deja de ser agua caliente y es vapor. El cine, dice, es una forma en la que el valor de culto ya no existe en absoluto: una película no puede tener un original al que peregrinar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un caso que trata con especial cuidado y que sigue siendo el más interesante. En la fotografía de retrato, sobre todo en la de personas queridas y muertas, sostiene que el valor de culto sobrevive un tiempo: el rostro humano hace que la imagen se conserve, se enmarque y se mire como se miraba una reliquia. Es el último refugio del aura, dice, antes de que la fotografía se vuelva por completo un medio de exhibición.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las pinturas de una cueva no se hicieron para ser vistas: se hicieron para estar ahí, y esa diferencia separa dos maneras distintas de que exista una imagen.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El actor de cine trabaja para una máquina, y la industria le fabrica un aura de repuesto",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las páginas sobre el cine son las más agudas del ensayo y las que mejor han resistido. Benjamin observa que un actor de teatro está delante de un público, actúa en orden y puede ajustar su interpretación en función de lo que nota en la sala. Un actor de cine no tiene nada de eso: actúa ante un aparato, sin público, en el orden que convenga al rodaje y en fragmentos de segundos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia es que su trabajo lo termina otra persona. Lo que llega al espectador no es lo que hizo el actor, sino lo que un montador seleccionó y ordenó, con planos de distinta procedencia y con una interpretación construida en una mesa. El actor entrega material; la actuación la fabrica el montaje.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca su observación más profética. El actor de cine no puede tener aura, porque el aura depende de la presencia, y en el cine no hay presencia sino imagen. Entonces la industria, que necesita esa cualidad para vender, se la fabrica artificialmente fuera de la pantalla: construye alrededor de la persona un culto a la personalidad, sostenido por revistas, apariciones y biografías, para reponer lo que el medio destruye. Eso es el sistema de estrellas, descrito en 1935.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade el reverso, que es lo que hace útil el capítulo casi un siglo después. Cuando cualquiera puede ser filmado, la línea entre autor y público se difumina: cita los periódicos que empezaban a publicar cartas de lectores y la Unión Soviética filmando a trabajadores en su puesto. Escribe que todo hombre tiene derecho a ser filmado, y esa frase, leída hoy, describe una situación que él no llegó a imaginar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El sistema de estrellas no es un exceso del cine: es la reposición artificial de algo que el propio medio destruye, y se describió en 1935.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El ensayo termina explicando por qué el fascismo necesita la guerra" },
+      {
+        b: "texto",
+        texto:
+          "El epílogo cambia de asunto y es la parte que los editores le recortaron en 1936. Benjamin sostiene que el fascismo se enfrenta a un problema que no puede resolver: quiere organizar a las masas recién proletarizadas sin tocar la estructura de propiedad que las hace proletarias, es decir, sin darles lo único que resolvería su situación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su salida, dice, es darles expresión en lugar de derechos. Grandes concentraciones, desfiles, símbolos, uniformes, arquitectura monumental y liturgia política: una vida pública convertida en espectáculo en la que la masa se ve a sí misma y se emociona sin cambiar nada de su posición. A eso lo llama la estetización de la vida política.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y sostiene que esa lógica desemboca necesariamente en la guerra, porque solo una guerra permite movilizar a toda la población, dar sentido épico a la miseria y poner en marcha la industria sin alterar la propiedad. Para demostrar que no exagera cita un manifiesto futurista de Marinetti sobre la guerra colonial en Etiopía, en el que se elogia la guerra como espectáculo estético.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ensayo termina con una frase de dos líneas que es la más citada de su autor: así está la estetización de la política que practica el fascismo, y el comunismo le responde con la politización del arte. Está escrita en París en 1935 por un judío alemán que ya no podía volver a su país y que moriría cinco años después huyendo de él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando a una población se le da representación en vez de derechos, la lógica de ese intercambio termina siempre necesitando una guerra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El ensayo sostiene que poder reproducir técnicamente una obra destruye su aura, es decir, su vínculo con un lugar, con una tradición y con un ritual; que esa destrucción no es una pérdida sino una liberación política; y que el arte, desligado del culto, queda disponible tanto para emancipar como para servir a un régimen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un vocabulario que no existía y que sigue usándose. Aura, autenticidad, valor de culto y valor de exhibición son las palabras con las que se discuten hoy la fotografía, el cine, la copia digital y los museos; y sus páginas sobre el actor y el sistema de estrellas describen con noventa años de antelación algo que entonces estaba naciendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en lo que más le importaba, que era la política del medio. Da por supuesto que el cine, por su forma, tiende a desmontar la reverencia y a favorecer una mirada crítica; y mientras él escribía esto en París, Leni Riefenstahl estrenaba en Alemania una película que hacía lo contrario, convirtiendo un congreso del partido nazi en liturgia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su amigo Theodor Adorno se lo escribió en una carta en marzo de 1936, y la objeción sigue en pie: sostenía que Benjamin idealizaba la conciencia política del público de masas y que la risa colectiva en una sala de cine no tiene nada de emancipador.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después contradice su pronóstico central de la manera más visible. El aura no se atrofió: la reproducción masiva ha multiplicado el valor del original. La Mona Lisa recibe cada día decenas de miles de visitantes que la han visto mil veces en pantallas y que hacen cola para mirar treinta segundos el cuadro auténtico. Y en 2021 el mercado llegó a inventar una escasez artificial para objetos digitales que se pueden copiar sin coste, con tal de devolverles un aquí y ahora que no tienen.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuanto más se reproduce una obra, más gente hace cola para ver el original: es lo contrario de lo que predijo, y es su mejor argumento en contra.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  reproductibilidad: REPRODUCTIBILIDAD,
   "espiritual-arte": ESPIRITUAL_ARTE,
   "vidas-vasari": VIDAS_VASARI,
   "van-gogh-cartas": VAN_GOGH_CARTAS,

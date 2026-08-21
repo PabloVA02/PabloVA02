@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  reproductibilidad: [
+    "en qué se diferencia copiar a mano de copiar con una máquina",
+    "qué es exactamente el aura, con su definición",
+    "por qué su destrucción le parecía una buena noticia",
+    "qué le ocurre a un actor cuando actúa ante un aparato",
+    "por qué el ensayo termina hablando de la guerra",
+  ],
+
   "espiritual-arte": [
     "cuál es el único criterio que admite para juzgar una obra",
     "el modelo del triángulo y el daño que ha hecho",
