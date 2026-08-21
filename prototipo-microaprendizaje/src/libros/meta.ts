@@ -1672,22 +1672,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "ser-mortal",
-    titulo: "Ser mortal",
-    autor: "Atul Gawande",
-    ano: 2014,
-    gancho: "Un cirujano de Harvard descubre, con su padre muriéndose, que en toda su formación médica nadie le enseñó qué hacer cuando ya no se puede curar a alguien.",
-    porQue: "Porque desmonta la creencia más extendida sobre los cuidados paliativos —que son rendirse— con un ensayo clínico que encontró justo lo contrario: los pacientes que los recibieron pronto vivieron más.",
-    minutos: 25.2,
-    capitulos: [
-      { titulo: "Lo que no enseñan en la facultad", minutos: 4.9 },
-      { titulo: "La llave de la puerta", minutos: 4.9 },
-      { titulo: "Dos perros, cuatro gatos y cien periquitos", minutos: 4.3 },
-      { titulo: "El helado de chocolate y el fútbol", minutos: 5.4 },
-      { titulo: "Las cenizas en el Ganges", minutos: 5.6 },
-    ],
-  },
-  {
     id: "anticancer",
     titulo: "Anticáncer",
     autor: "David Servan-Schreiber",

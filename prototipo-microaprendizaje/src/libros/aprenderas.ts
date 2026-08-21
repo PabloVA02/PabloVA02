@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "ser-mortal":
+    "En la facultad de medicina de Gawande hubo una hora sobre la muerte y ninguna sobre qué se le dice a alguien que no va a curarse. El libro reúne lo que sí funciona, incluido un ensayo donde menos tratamiento alargó la vida.",
+
   "digestion-cuestion":
     "Salió de una charla de diez minutos que una estudiante de medicina de veintitrés años dio en un concurso de divulgación. El vídeo circuló, una editorial llamó, y el libro estuvo más de un año como el más vendido de Alemania.",
 

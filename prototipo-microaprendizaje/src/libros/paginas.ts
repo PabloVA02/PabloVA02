@@ -24949,7 +24949,267 @@ const DIGESTION_CUESTION: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Ser mortal, en ocho páginas.
+
+   Breve.
+
+   Ensayo médico sobre la muerte: TERCERA persona siempre. Aquí un «tú
+   puedes» sería obsceno. Titular que afirma.
+
+   El dato que sostiene el libro entero es el ensayo de Temel de 2010:
+   menos tratamiento y más vida. Va en la página 5 con sus cifras.
+   -------------------------------------------------------------------------- */
+
+const SER_MORTAL: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "En la facultad no se enseña qué hacer cuando ya no se puede curar" },
+      {
+        b: "texto",
+        texto:
+          "Atul Gawande es cirujano en Boston y escribe en revistas desde hace veinte años. Empieza este libro contando qué le enseñaron en la facultad de medicina sobre la muerte: prácticamente nada. Hubo una hora sobre un texto de Tolstói y ninguna sobre qué se le dice a alguien que no va a curarse, ni sobre cómo se decide cuándo dejar de tratar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que la medicina moderna resolvió el problema para el que se diseñó —la enfermedad aguda, la infección, la fractura, el tumor operable— y sigue aplicando ese esquema a una situación distinta: la de la persona que envejece o que tiene una enfermedad que no se va a curar. Ahí el objetivo deja de ser la supervivencia y casi nadie cambia de objetivo, porque a los médicos les han entrenado para arreglar cosas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro alterna investigación con casos que Gawande trató personalmente, incluidos varios en los que reconoce haberlo hecho mal. Y termina con la enfermedad y la muerte de su propio padre, también cirujano, con un tumor en la médula espinal, y con las decisiones que su familia tomó sabiendo todo lo que este libro cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que sostiene: qué le pasa realmente a un cuerpo que envejece, quién inventó una alternativa a la residencia y por qué se degradó, qué ocurrió cuando un médico metió animales en un geriátrico, qué demostró un ensayo clínico sobre cuidados paliativos, cuáles son las cuatro preguntas que cambian una conversación y qué tres maneras hay de ser médico.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La medicina se organizó para arreglar cosas, y no tiene ningún procedimiento para lo que no se puede arreglar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Envejecer no es una enfermedad, y por eso casi nadie lo estudia" },
+      {
+        b: "texto",
+        texto:
+          "La primera parte del libro describe con detalle qué ocurre en un cuerpo con los años, y lo hace porque casi nadie lo sabe. Los dientes se desgastan y el esmalte no se repone. Las arterias se van calcificando: la aorta de una persona mayor está tan endurecida que su rigidez sirve por sí sola como indicador de edad. La masa muscular cae entre un treinta y un cuarenta por ciento entre los treinta y los ochenta años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cerebro también encoge, y no de manera uniforme: pierde volumen antes en el lóbulo frontal, que gobierna el juicio y la planificación, y en el hipocampo, donde se forma la memoria. A los setenta años se ha perdido alrededor de un ocho por ciento del volumen, y el hueco se llena de líquido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el problema práctico que domina la vejez y que nadie nombra: las caídas. En los países ricos, alrededor de cuatro de cada diez personas mayores de sesenta y cinco años se cae al menos una vez al año, y una caída puede terminar con la autonomía de golpe. Los tres factores de riesgo están identificados con precisión: mal equilibrio, debilidad muscular y tomar más de cuatro medicamentos distintos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gawande subraya que existe una especialidad dedicada exactamente a eso, la geriatría, que sabe intervenir sobre esos tres factores y que en los estudios reduce ingresos y mantiene la independencia. Y que es la especialidad peor pagada, con menos plazas y menos candidatos, porque un sistema que premia procedimientos no sabe cómo remunerar a alguien cuyo trabajo consiste en revisar la medicación, mirar los pies y quitar alfombras.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La especialidad que mejor evita ingresos y mantiene la autonomía es la peor pagada, porque su trabajo no consiste en hacer nada espectacular.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una mujer inventó la alternativa a la residencia por su madre" },
+      {
+        b: "texto",
+        texto:
+          "La historia mejor contada del libro empieza con una petición. Keren Brown Wilson, socióloga estadounidense, tenía a su madre Jessie en una residencia después de un ictus que la dejó paralizada de un lado. Su madre le pidió una sola cosa cada vez que iba a verla: sácame de aquí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que a su madre le pesaba no era la falta de cuidados, que eran correctos, sino todo lo demás: le decían a qué hora levantarse, qué comer, cuándo bañarse y con quién compartir habitación. Wilson se preguntó qué haría falta para que alguien con esas limitaciones físicas siguiera decidiendo esas cosas, y en 1983 abrió en Oregón el primer edificio construido con esa idea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los detalles eran deliberados y todos incomodaron a alguien. Cada residente tenía su apartamento con puerta y llave —la suya, no la del personal—, su cocina, sus muebles y su horario. Podía comer lo que quisiera, aunque fuera mal para su diabetes, y podía tener un animal. El personal ayudaba con lo que hiciera falta y no mandaba. Cuando se estudiaron los resultados, aquellos residentes conservaban mejor su autonomía física, tenían menos depresión, costaban menos y no vivían menos que los de una residencia normal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y después vino lo que Gawande cuenta con más amargura. El nombre de aquel modelo se convirtió en una etiqueta comercial y hoy lo usan en Estados Unidos miles de centros que no cumplen casi ninguna de sus condiciones originales: sin llave propia, con horarios fijos y con la seguridad del residente como argumento para decidirlo todo. La propia Wilson lo dice en el libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando la seguridad de alguien se convierte en el único criterio, lo primero que desaparece es su capacidad de decidir nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un médico metió cien periquitos en una residencia y midió lo que pasaba",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1991, un médico joven llamado Bill Thomas se hizo cargo de una residencia en el norte del estado de Nueva York. Lo que encontró allí lo resumió en tres palabras que se han hecho célebres en el sector: aburrimiento, soledad y desamparo. No había nada que hacer, nadie a quien cuidar y nada que decidir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su intervención fue tan poco convencional que necesitó una subvención estatal para poder hacerla. Metió en el centro dos perros, cuatro gatos, cien periquitos, conejos y gallinas; puso plantas vivas en cada habitación y montó un huerto y una guardería para los hijos del personal. Repartió los animales entre los residentes, de modo que cada uno tuviera alguno a su cargo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caos de las primeras semanas fue considerable y los resultados se midieron durante dos años frente a otro centro comparable. El número de recetas por residente cayó a la mitad, y el gasto en medicamentos bajó alrededor de un tercio; el descenso mayor fue en psicofármacos para la agitación. Y la mortalidad fue un quince por ciento menor que en el centro de comparación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación que da Thomas no es sentimental. Sostiene que la diferencia no la hicieron los animales, sino tener una razón para levantarse: alguien que depende de uno, aunque sea un periquito, restituye la única cosa que una institución le quita a la gente sistemáticamente, que es tener algo a su cargo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que se le devuelve a alguien al darle algo que cuidar no es compañía: es una razón concreta para levantarse mañana.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un ensayo demostró que menos tratamiento alargaba la vida" },
+      {
+        b: "texto",
+        texto:
+          "El dato que sostiene el libro entero procede de un ensayo clínico publicado en 2010 y dirigido por la oncóloga Jennifer Temel, en el Hospital General de Massachusetts. Participaron pacientes recién diagnosticados de cáncer de pulmón metastásico, es decir, con una enfermedad que no se iba a curar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A la mitad se les dio el tratamiento oncológico habitual. A la otra mitad, el mismo tratamiento más consultas regulares con un equipo de cuidados paliativos desde el primer día, no al final: conversaciones sobre qué les preocupaba, control del dolor, qué querían y qué no querían.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El grupo con paliativos dejó antes la quimioterapia, entró antes en programas de atención al final de la vida y recibió menos tratamiento agresivo. Tuvieron menos dolor y menos depresión, cosa esperable. Y hubo un resultado que nadie esperaba: vivieron más. Una media de once meses y medio frente a menos de nueve, casi tres meses de diferencia, más de lo que aportan bastantes fármacos oncológicos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que Gawande saca es incómoda para su propia profesión. Un tratamiento agresivo en las últimas semanas no solo no alarga la vida, sino que a menudo la acorta, porque debilita a alguien que ya está débil. Y la conversación que nadie tiene tiempo de mantener resultó ser una intervención con más efecto medible que muchas de las que sí se financian.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En un ensayo con enfermos de cáncer avanzado, quienes recibieron menos tratamiento y más conversación vivieron casi tres meses más.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hay cuatro preguntas que cambian por completo la decisión" },
+      {
+        b: "texto",
+        texto:
+          "La parte más aplicable del libro es una lista de preguntas que Gawande aprendió de otros médicos y que usó después con su propio padre. No son preguntas médicas, y esa es la clave: sirven para averiguar qué está dispuesta a aceptar una persona antes de que alguien decida por ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es qué entiende el enfermo de su situación, porque casi siempre hay una distancia enorme entre lo que se le ha dicho y lo que ha entendido. La segunda es cuáles son sus miedos y cuáles sus esperanzas, en ese orden, porque los miedos concretos —no poder hablar, depender de alguien para lavarse, morir con dolor— guían mejor que las esperanzas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es la decisiva y casi nunca se hace: qué renuncias está dispuesto a aceptar y cuáles no. Alguien puede aceptar quedarse en una silla de ruedas y no aceptar perder la capacidad de reconocer a su familia; otro decide justo al revés. Y la cuarta es cuál de las opciones disponibles sirve mejor a esa respuesta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gawande cuenta cómo se lo preguntó a su padre y qué contestó: que estaría dispuesto a soportar bastante mientras pudiera seguir estando con gente, hablar y comer. Esa respuesta orientó todas las decisiones posteriores de la familia, incluida la de parar. Y cuenta también el caso contrario, una paciente joven a la que él mismo fue ofreciendo tratamientos experimentales hasta el final sin haber tenido nunca esa conversación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta que casi nadie hace es qué está dispuesta a perder una persona, y es la única cuya respuesta permite decidir algo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hay tres maneras de ser médico y solo una sirve aquí" },
+      {
+        b: "texto",
+        texto:
+          "El libro clasifica en tres tipos la relación entre un médico y su paciente, y sostiene que las dos primeras fallan en esta situación. La primera es la paternalista, la de toda la vida: el médico sabe, decide y comunica la decisión. Es rápida, funciona en urgencias y trata al enfermo como a un menor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda apareció como reacción a la anterior y hoy domina: el médico informativo. Expone las opciones con sus porcentajes de supervivencia y sus efectos secundarios, y deja que el paciente elija. Parece respetuosa y Gawande la llama sin piedad la del médico minorista: descarga toda la responsabilidad sobre alguien asustado, con poca información y que a menudo pide precisamente que le orienten.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es la que defiende y la más difícil de las tres: la interpretativa. Consiste en averiguar primero qué le importa a esa persona, con las cuatro preguntas, y después usar el conocimiento médico para recomendar la opción que mejor sirva a eso. No es decidir por el paciente ni abandonarlo delante de un menú: es ayudarle a saber qué quiere y decirle qué camino lleva ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo favorito es una conversación de dos minutos: en vez de ofrecer tres alternativas, un médico pregunta qué es lo que más le preocupa y, con la respuesta, dice cuál de las tres recomienda y por qué. La información es la misma; lo que cambia es quién carga con el peso de ordenarla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Poner tres opciones sobre la mesa y dejar que elija un enfermo asustado parece respeto, y muchas veces es abandono con buenos modales.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Ser mortal sostiene que la medicina ha convertido la vejez y el final de la vida en un problema técnico que no sabe resolver, porque sigue midiendo el éxito en tiempo ganado cuando lo que está en juego es otra cosa. Sus pruebas son concretas: un modelo de vivienda que devolvió autonomía sin acortar vidas, una residencia con animales que redujo fármacos y mortalidad, y un ensayo clínico donde menos tratamiento alargó la supervivencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un procedimiento. Las cuatro preguntas se pueden hacer sin ser médico, y hacerlas a tiempo cambia decisiones que de otro modo las toma la inercia del sistema.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El objetivo no es una buena muerte, escribe Gawande: es una buena vida hasta el final, que es una cosa bastante distinta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es un libro profundamente estadounidense: su sistema de residencias, sus seguros, su manera de financiar la medicina y hasta su idea de autonomía personal no se trasladan sin traducción a un país con sanidad pública y con familias que cuidan en casa. El propio Gawande deja ver esa tensión al contar cómo murió su abuelo en la India, rodeado de tres generaciones y sin decidir gran cosa por su cuenta, y no acaba de resolverla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una ausencia importante. Casi todo el libro descansa en la conversación y en las preferencias, y apenas trata quién puede permitirse el tipo de final que describe. Morir en casa con ayuda profesional exige alguien que cuide, una vivienda adecuada y dinero, y el reparto de esas tres cosas es muy desigual. Lo que sí ha ocurrido desde que salió es medible: en Estados Unidos, la proporción de personas que mueren en su casa superó por primera vez en 2017 a la de las que mueren en un hospital, invirtiendo una tendencia de medio siglo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "ser-mortal": SER_MORTAL,
   "digestion-cuestion": DIGESTION_CUESTION,
   antifragil: ANTIFRAGIL,
   factfulness: FACTFULNESS,

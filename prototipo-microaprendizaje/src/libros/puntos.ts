@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "ser-mortal": [
+    "qué le pasa realmente a un cuerpo que envejece",
+    "quién inventó la alternativa a la residencia y por qué se degradó",
+    "qué ocurrió al meter animales en un geriátrico",
+    "qué demostró el ensayo de cuidados paliativos de 2010",
+    "cuáles son las cuatro preguntas que cambian la decisión",
+  ],
+
   "digestion-cuestion": [
     "por qué la postura cambia la mecánica de todo el asunto",
     "cómo negocian entre sí tus dos esfínteres",
