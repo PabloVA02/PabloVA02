@@ -52061,7 +52061,7 @@ const CONTRATO_SOCIAL: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Lo que vino después fue desmesurado. El libro se vendió poco en vida de su autor y se convirtió en el texto de cabecera de la Revolución francesa: Robespierre lo citaba constantemente y en 1794 los restos de Rousseau fueron trasladados al Panteón. Kant, que era un hombre de costumbres inalterables, contaba que dejó de dar su paseo diario el día que se puso a leerlo. Y el sistema que hoy llamamos democracia, con partidos y representantes, es exactamente lo que este libro declara imposible.",
+          "Lo que vino después fue desmesurado. El libro se vendió poco en vida de su autor y se convirtió en el texto de cabecera de la Revolución francesa: Robespierre lo citaba constantemente y en 1794 los restos de Rousseau fueron trasladados al Panteón. Y el sistema que hoy llamamos democracia, con partidos y representantes, es exactamente lo que este libro declara imposible.",
       },
       {
         b: "idea",
