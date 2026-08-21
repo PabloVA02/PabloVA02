@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "magia-crear": [
+    "qué hacer con el miedo en lugar de esperar a que se vaya",
+    "por qué no conviene dejar el trabajo",
+    "de dónde sale el mito del artista atormentado",
+    "por qué la curiosidad sirve mejor que la pasión",
+    "qué sostiene el libro sobre las ideas, y si se sostiene",
+  ],
+
   "pajaro-a-pajaro": [
     "por qué el primer borrador tiene que ser malo",
     "qué es el marco de una pulgada",

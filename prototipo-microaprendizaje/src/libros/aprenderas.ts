@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "magia-crear":
+    "Después de vender doce millones de ejemplares con unas memorias, Elizabeth Gilbert escribió esto para quien quiere hacer algo y no se atreve. Su tesis: el miedo no se va nunca, pero se le puede quitar el volante.",
+
   "pajaro-a-pajaro":
     "Un niño de diez años llevaba tres meses con un trabajo sobre pájaros y seguía sin empezar la víspera de entregarlo. Su padre le dijo: ve pájaro a pájaro. De ahí sale un libro sobre poder sentarse a escribir, no sobre escribir bien.",
 

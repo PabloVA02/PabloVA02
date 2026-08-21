@@ -42112,7 +42112,289 @@ const PAJARO_A_PAJARO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La magia de crear, en ocho páginas.
+
+   Breve.
+
+   Libro práctico: la prosa habla de TÚ (regla 4.7).
+
+   El asunto delicado es que Gilbert sostiene LITERALMENTE que las ideas son
+   seres vivos que buscan socio, y lo dice sin metáfora. Se cuenta lo que
+   dice, con su ejemplo, y la conclusión dice que no se sostiene y qué queda
+   cuando se le quita.
+   -------------------------------------------------------------------------- */
+
+const MAGIA_CREAR: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Vivir de forma creativa es dejar que decida la curiosidad y no el miedo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Elizabeth Gilbert publicó en 2006 unas memorias sobre un divorcio y un viaje que vendieron doce millones de ejemplares y acabaron en una película con Julia Roberts. Este libro es de 2015 y es lo que escribió después, cuando llevaba años recibiendo la misma pregunta de gente que quería escribir, pintar o montar algo y no se atrevía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis cabe en una frase: una vida creativa es la que dirige la curiosidad en lugar del miedo. No dice que el miedo desaparezca —sostiene que no desaparece nunca y que quien lo espera no empieza jamás—, sino que se le puede quitar el volante sin echarlo del coche.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y conviene avisar de una cosa antes de entrar, porque decide si el libro te sirve o te expulsa. Gilbert cree, literalmente y no como metáfora, que las ideas son entidades vivas que van por el mundo buscando a alguien que las saque adelante. Lo escribe en serio y lo defiende con un ejemplo de su propia vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que propone: qué hacer con el miedo, por qué no hay que dejar el trabajo, por qué el artista atormentado es una moda con muertos, el alivio de que nadie esté pensando en ti, qué hacer cuando no encuentras tu pasión, y esa idea suya de que las ideas van buscando socio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El miedo no se va nunca: lo único que se puede decidir es si conduce él.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Al miedo se le habla, no se le echa" },
+      {
+        b: "texto",
+        texto:
+          "La imagen con la que Gilbert organiza todo el libro es un viaje en coche. Van tres: tú, la creatividad y el miedo. El miedo tiene derecho a ir en el coche porque su trabajo es protegerte y lo hace de buena fe, y echarlo no es una opción realista. Lo que no tiene es derecho a conducir, ni a tocar el mapa, ni a poner la radio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La utilidad de la imagen está en el reparto. La mayoría de la gente hace una de dos cosas, y las dos fallan: o se pasa la vida esperando a no tener miedo, que no llega, o se avergüenza de tenerlo y por eso no cuenta a nadie lo que está intentando hacer. Gilbert propone dar por hecho que va a estar ahí y seguir conduciendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade una observación que explica por qué el miedo aparece justo con lo creativo y no con otras cosas. El miedo está diseñado para avisar de lo desconocido, y hacer algo nuevo es por definición ir a un sitio del que no hay información. Cuanto más original sea lo que intentas, más ruido va a hacer, y ese ruido no es una señal de que vayas mal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí saca su regla sobre la vergüenza de empezar. Como el miedo se disfraza de sensatez —no es el momento, no tengo formación, ya lo hace alguien mejor—, conviene escribir esas frases y comprobar que son siempre las mismas, en todo el mundo y para cualquier oficio. Una objeción universal casi nunca es un diagnóstico: es un síntoma.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El miedo grita más cuanto más original es lo que estás intentando, así que su ruido no es una señal de que vayas mal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "No dejes tu trabajo: no le cargues a tu obra la factura de tu vida" },
+      {
+        b: "texto",
+        texto:
+          "El consejo más contrario a la mitología del ramo es que no hay que dejar el empleo. Gilbert cuenta que ella tuvo trabajos hasta bien pasados los cuarenta, mucho después de publicar y de vender, y que lo hizo a propósito. Su frase es clara: nunca quiso cargar a su escritura con la responsabilidad de pagarle la vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El razonamiento es económico y psicológico a la vez. Una obra que tiene que pagar el alquiler deja de poder equivocarse: hay que terminarla a tiempo, tiene que gustar, no puede ser rara ni fallar. Y en el momento en que no puede fallar, deja de poder ser buena, porque lo bueno sale de intentos que podían salir mal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De paso desmonta la idea de que el trabajo alimenticio es una traición. Enumera los oficios con los que se han mantenido escritores y músicos, y sostiene que el empleo aburrido tiene una ventaja que nadie cuenta: te obliga a salir de casa, te da material y te quita la presión de que cada frase valga dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su formulación es que no le debes nada a tu obra y tu obra no te debe nada a ti. No te debe fama, ni dinero, ni sentido; y tú no le debes sufrimiento. Es un contrato mucho menos romántico que el habitual, y es el que permite seguir después de un fracaso, porque no había ninguna promesa que se haya roto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una obra que tiene que pagar el alquiler ya no puede permitirse fallar, y lo que no puede fallar tampoco puede salir bien.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El artista atormentado no es un tipo humano: es una moda con muertos detrás",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gilbert dedica un tramo del libro a desmontar la asociación entre crear y sufrir, y lo hace con una impaciencia poco frecuente en este género. Sostiene que la figura del genio torturado es una construcción del romanticismo del siglo XIX, que se puso de moda, que se copió, y que ha costado vidas de verdad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su objeción no es sentimental sino práctica: si uno cree que el sufrimiento es el combustible, entonces cuidarse es traicionar la obra, y beber, arruinarse las relaciones o no dormir se convierten en credenciales. Es una creencia que se autoconfirma, porque quien la sostiene organiza su vida para tener material que la respalde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Frente a eso propone lo que llama, medio en broma, el camino del artista feliz: tratar el oficio con ligereza, no exigirle que sea sagrado y aceptar que hacer cosas es, ante todo, entretenido. Cuenta que la frase que más le costó decir en público fue que escribir le divierte, porque suena a poco serio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade un antídoto contra el perfeccionismo que es el mejor titular del libro: el perfeccionismo es el miedo con zapatos de tacón. Suena a virtud, se presenta como criterio alto, y su efecto medible es siempre el mismo, que se termina menos. De ahí su lema de taller: lo terminado vale más que lo perfecto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien cree que el sufrimiento es el combustible acaba organizando su vida para tener combustible.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Nadie está pensando en ti, y eso es la mejor noticia que vas a recibir",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre el permiso arranca de una constatación incómoda que Gilbert convierte en alivio: a nadie le importa lo que hagas. No en el sentido cruel, sino en el estadístico. La gente está ocupada con su propia vida, sus propias vergüenzas y sus propias facturas, y no tiene ancho de banda para juzgar tu primera novela.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia es doble y las dos partes son buenas. Nadie te va a dar permiso, porque no hay nadie mirando para dárselo; y nadie te lo va a quitar, por la misma razón. La ansiedad de estar haciendo el ridículo se sostiene sobre un público imaginario que no existe: el público real está mirando su propio teléfono.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su idea de que uno tiene derecho a hacer cosas sin credenciales. No hace falta un título, ni una beca, ni que alguien te llame artista. Gilbert defiende que ese derecho no lo concede nadie porque no lo administra nadie, y que esperar a que llegue es esperar a alguien que no ha sido nombrado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y avisa del reverso, que es donde más gente se atasca: si nadie está mirando, tampoco va a venir nadie a pedirte que lo hagas. No hay encargo. Lo único que hay es una decisión propia, tomada sin testigos y sin garantía, que es exactamente la parte que hace que mucha gente prefiera seguir esperando el permiso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La vergüenza de hacer el ridículo se sostiene sobre un público imaginario: el real está mirando su propio teléfono.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Si no encuentras tu pasión, sigue a la curiosidad, que es mucho más fácil de ver",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una de las partes más útiles del libro es su corrección a la orden de seguir tu pasión. Gilbert sostiene que ese consejo, repetido en cada discurso de graduación, deja fuera a la mayoría de la gente, porque la pasión es una llamarada que o la tienes o no la tienes, y quien no la siente concluye que le falta algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su alternativa es la curiosidad, que describe como una versión mucho más modesta y mucho más disponible. La pasión exige saber qué quieres hacer con tu vida; la curiosidad solo exige saber qué te apetece mirar el jueves por la tarde. No pide compromiso, no pide certeza y casi nunca falta del todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El método que propone es de rastreo. Cuando no hay nada que arda, se busca lo templado: el asunto que te hace pararte en un titular, el tema que buscas cuando no buscas nada, el oficio ajeno del que preguntarías detalles. Se tira de ese hilo sin exigirle que lleve a ningún sitio, y con frecuencia lleva.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuenta como ejemplo su propia afición a la jardinería, que no era ninguna vocación y que empezó plantando cosas sin saber, y que acabó llevándola por un rastreo largo hasta escribir una novela sobre una botánica del siglo XIX. Su moraleja es que la curiosidad no anuncia adónde va, y que esa es precisamente la razón de seguirla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pasión exige saber qué quieres hacer con tu vida; la curiosidad solo exige saber qué te apetece mirar hoy.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Gilbert sostiene, sin metáfora, que las ideas van buscando con quién trabajar",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea que da título al libro y que más se le discute es esta: que las ideas son entidades vivas e incorpóreas que circulan por el mundo buscando un ser humano disponible. Cuando una encuentra a alguien, llama a su puerta; si esa persona la atiende, se pone a trabajar con ella; si no, la idea se va y busca a otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su prueba es una historia personal que cuenta con nombres. Estuvo dos años con una novela ambientada en la selva amazónica, la abandonó por un asunto de su vida, y al retomarla comprobó que la idea se había ido. Poco después su amiga la escritora Ann Patchett publicó una novela con un argumento asombrosamente parecido, empezada justo cuando ella la había soltado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ellas dos se habían saludado con un beso en una comida entre medias, y Gilbert cree literalmente que la idea pasó de una a otra en ese momento. Lo cuenta sin ironía y lo sostiene en entrevistas. Es la clave de bóveda del libro y también el punto donde una parte de sus lectores lo cierra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene separar dos cosas, porque una sirve y la otra no. La explicación mágica no se sostiene: dos escritoras contemporáneas que leen la misma prensa y viven en el mismo país tienen argumentos parecidos disponibles. Pero la instrucción práctica que Gilbert saca de ahí es buena, y no depende de creerse nada: cuando algo te ronde, ponte, porque el momento en que una idea te interesa dura poco y no vuelve.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El rato en que una idea te interesa de verdad dura poco, y casi nunca vuelve en las mismas condiciones.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La magia de crear sostiene que una vida creativa es la que dirige la curiosidad en lugar del miedo, y que para eso hace falta menos épica y no más: no dejar el trabajo, no exigirle sentido a la obra, aceptar que el miedo va en el coche, entender que nadie está mirando y ponerse a hacer cosas sin permiso ni credenciales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta y se sostiene solo son tres correcciones. Que no le debes sufrimiento a lo que haces, contra doscientos años de mitología. Que cargarle a tu obra el pago de tu vida la estropea. Y que la curiosidad es un motor mucho más disponible que la pasión, y sirve exactamente para lo mismo pidiendo mucho menos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No le debes sufrimiento a lo que haces, y lo que haces no te debe ni fama ni sentido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La tesis del título no se sostiene y Gilbert la sostiene en serio. Que dos escritoras del mismo país, la misma generación y la misma lengua acaben con argumentos parecidos no necesita ideas viajeras: comparten prensa, conversaciones y época, y las coincidencias creativas simultáneas son un fenómeno documentado y bastante aburrido de explicar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un problema de quién habla. Es un libro sobre darse permiso escrito por alguien con permiso ilimitado: cuando Gilbert recomienda no dejar el empleo, lo dice desde una posición en la que su empleo dejó de importar tras vender doce millones de libros. Los consejos son buenos; el tono de que todo saldrá bien viene de una vida donde salió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después es que la propia autora dejó de encajar en el libro. En 2016 se separó y en 2017 acompañó hasta el final a su pareja, Rayya Elias, enferma de cáncer; escribió entonces que había pasado un tiempo sin poder crear nada y sin que ninguna idea llamara a su puerta. Es la mejor prueba de lo que el libro no cubre: qué se hace cuando la curiosidad también se apaga.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "magia-crear": MAGIA_CREAR,
   "pajaro-a-pajaro": PAJARO_A_PAJARO,
   "camino-artista": CAMINO_ARTISTA,
   "dieta-cojea": DIETA_COJEA,

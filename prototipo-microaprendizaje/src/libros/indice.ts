@@ -76,7 +76,6 @@ const CARGADORES: Record<string, Cargador> = {
   reproductibilidad: () => import("./arte").then((m) => m.REPRODUCTIBILIDAD),
   "espiritual-arte": () => import("./arte").then((m) => m.ESPIRITUAL_ARTE),
   "el-elemento": () => import("./arte").then((m) => m.EL_ELEMENTO),
-  "magia-crear": () => import("./arte").then((m) => m.MAGIA_CREAR),
   "vivir-plenitud": () => import("./salud").then((m) => m.VIVIR_PLENITUD),
   "milagro-metabolico": () => import("./salud").then((m) => m.MILAGRO_METABOLICO),
   "poder-metabolismo": () => import("./salud").then((m) => m.PODER_METABOLISMO),

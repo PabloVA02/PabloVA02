@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "magia-crear": "Una vida creativa más allá del miedo",
   "pajaro-a-pajaro": "Algunas instrucciones sobre escribir y sobre la vida",
   "camino-artista": "Un curso de descubrimiento y rescate de tu propia creatividad",
   "dieta-cojea": "Los mitos sobre nutrición que te han hecho creer",

@@ -408,22 +408,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "magia-crear",
-    titulo: "La magia de crear",
-    autor: "Elizabeth Gilbert",
-    ano: 2015,
-    gancho: "Sostiene que las ideas son criaturas conscientes que van buscando un colaborador humano, y que si tú no la coges se marcha a otra casa. Y cuenta el caso concreto en el que dice que le pasó, con nombre y apellido de la escritora que la recibió.",
-    porQue: "Porque su consejo central va contra todo lo que dice el género: no dejes el trabajo, no le pidas a tu arte que te pague el alquiler. Y porque la autora acabó haciendo con un libro suyo exactamente lo contrario de lo que este libro predica.",
-    minutos: 27.5,
-    capitulos: [
-      { titulo: "Una novela que se fue a otra casa", minutos: 6 },
-      { titulo: "Tener un genio en vez de serlo", minutos: 5.3 },
-      { titulo: "No le pidas a tu arte que te pague el alquiler", minutos: 5.5 },
-      { titulo: "El problema de escribirlo desde arriba", minutos: 5.3 },
-      { titulo: "El libro que retiró", minutos: 5.4 },
-    ],
-  },
-  {
     id: "vidas-vasari",
     titulo: "Las vidas de los más excelentes pintores, escultores y arquitectos",
     autor: "Giorgio Vasari",
