@@ -72,22 +72,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "postguerra",
-    titulo: "Postguerra",
-    autor: "Tony Judt",
-    ano: 2005,
-    gancho: "Europa en 1945 era un continente de escombros, hambre y treinta millones de muertos. Cómo salió de ahí es la mejor historia que se ha escrito de nuestro propio siglo.",
-    porQue: "Explica de dónde salieron el estado del bienestar, la Unión Europea y la Transición española, y por qué nada de eso era inevitable. Y termina con la idea más incómoda del libro: que Europa se reconstruyó sobre un acuerdo de no recordar.",
-    minutos: 24.3,
-    capitulos: [
-      { titulo: "El año cero", minutos: 5.1 },
-      { titulo: "Los treinta años que parecieron normales", minutos: 5.6 },
-      { titulo: "La mitad que se quedó al otro lado", minutos: 4.3 },
-      { titulo: "1968, 1973 y la vuelta del sur", minutos: 4.6 },
-      { titulo: "1989 y la deuda con los muertos", minutos: 4.8 },
-    ],
-  },
-  {
     id: "homo-sovieticus",
     titulo: "El fin del Homo Sovieticus",
     autor: "Svetlana Aleksiévich",

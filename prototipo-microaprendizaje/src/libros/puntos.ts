@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  postguerra: [
+    "sobre qué traslado forzoso de población se levantó la paz",
+    "qué hizo de verdad el Plan Marshall, que no fue reconstruir",
+    "por qué el crecimiento de los años cincuenta era irrepetible",
+    "por qué el acontecimiento político de 1968 fue Praga y no París",
+    "cuándo empezó Europa a recordar a sus judíos asesinados",
+  ],
+
   "canones-agosto": [
     "por qué el plan alemán obligaba a invadir un país neutral",
     "qué costó la doctrina francesa de atacar siempre",

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  postguerra:
+    "Entre 1939 y 1945 murieron en Europa unos treinta y seis millones y medio de personas y trece millones de niños quedaron huérfanos. Judt cuenta en novecientas páginas qué hizo el continente a partir de ahí, y a qué precio.",
+
   "canones-agosto":
     "En mayo de 1910, nueve reyes cabalgaron juntos en el entierro de Eduardo VII y nadie sabía que era la última vez. Cuatro años después, treinta días bastaron para cerrar todas las salidas de Europa.",
 

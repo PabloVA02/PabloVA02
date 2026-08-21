@@ -62,7 +62,6 @@ const CARGADORES: Record<string, Cargador> = {
   "el-elemento": () => import("./arte").then((m) => m.EL_ELEMENTO),
   "homo-sovieticus": () => import("./historia").then((m) => m.HOMO_SOVIETICUS),
   "guerra-civil-thomas": () => import("./historia").then((m) => m.GUERRA_CIVIL_THOMAS),
-  postguerra: () => import("./historia").then((m) => m.POSTGUERRA),
   imperiofobia: () => import("./historia").then((m) => m.IMPERIOFOBIA),
   "auschwitz-rees": () => import("./historia").then((m) => m.AUSCHWITZ_REES),
 };

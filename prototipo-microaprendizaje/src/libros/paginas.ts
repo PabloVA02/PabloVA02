@@ -53481,7 +53481,572 @@ const CANONES_AGOSTO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Postguerra, en dieciséis páginas.
+
+   EXTENSO, y es el que mejor lo justifica del catálogo después de Sapiens:
+   sesenta años, las dos mitades del continente y media docena de tesis
+   independientes que no se pueden juntar sin destruirlas. REDACCION dice un
+   Extenso cada quince o veinte libros y con motivo; este es el motivo.
+
+   Historia → afirmación entera y tercera persona, y sobre todo el aviso del
+   apartado 4 bis: NADA DE CRONOLOGÍA. Un libro de sesenta años resumido en
+   orden de fechas es una línea del tiempo, y no afirma nada. Cada página
+   lleva una tesis discutible y las fechas van debajo.
+
+   La regla 5 tiene aquí material de sobra: el libro es muy occidental pese
+   a proponerse lo contrario, deja fuera casi entera la península ibérica, y
+   sus simpatías socialdemócratas se le ven en cada capítulo. Y el «después»
+   es duro: la guerra de Ucrania desmiente el supuesto con el que se cierra.
+   -------------------------------------------------------------------------- */
+
+const POSTGUERRA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La Europa próspera y pacífica de hoy se construyó sobre una catástrofe que se prefirió no mirar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entre 1939 y 1945 murieron en Europa unos treinta y seis millones y medio de personas por causas relacionadas con la guerra, más que la población entera de un país mediano. Trece millones de niños quedaron huérfanos. Al terminar, había en el continente millones de personas fuera de su casa, sin documentos y a veces sin país, que los aliados clasificaban con una sigla administrativa: desplazados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tony Judt, historiador británico afincado en Nueva York, publicó en 2005 este libro de novecientas páginas para contar qué hizo Europa a partir de ahí. Lo escribió prácticamente solo, sin equipo de investigación, y abarca sesenta años y las dos mitades del continente, la occidental y la que quedó al otro lado del telón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis general es incómoda y recorre el libro entero: la recuperación europea fue posible gracias a un olvido deliberado y a un reparto de población hecho por la fuerza, y solo décadas después, cuando la prosperidad estaba asegurada, Europa se atrevió a mirar lo que había pasado. La reconciliación no vino de recordar; vino de no hacerlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas dieciséis páginas recorren catorce asuntos, y ninguno es una lista de fechas: la magnitud real de 1945, el traslado forzoso de poblaciones, qué hizo de verdad el Plan Marshall, por qué se aceptó pagar el Estado del bienestar, por qué el crecimiento de los años cincuenta fue irrepetible, qué pasó cuando se vació el campo, qué cambió y qué no en 1968, Praga, el final de los imperios, los setenta, 1989, la Unión Europea, Yugoslavia y la memoria.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La paz europea no se construyó recordando lo ocurrido: se construyó acordando no hablar de ello durante treinta años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En 1945 Europa no estaba derrotada ni liberada: estaba deshecha" },
+      {
+        b: "texto",
+        texto:
+          "El primer capítulo se dedica a restablecer la escala, porque el relato posterior la ha suavizado. Varsovia estaba destruida en más de la mitad de sus edificios; Alemania había perdido en torno a una quinta parte de sus viviendas; en muchas ciudades no había agua corriente, ni transporte, ni administración civil. La producción industrial de Francia en 1945 era la tercera parte de la de 1938.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hambre fue lo primero. En el invierno de 1945 la ración diaria en muchas zonas de Alemania estaba por debajo de las mil calorías, y en Viena y en Budapest se comió lo que se pudo. Judt insiste en que ese fue el mundo real durante años, no un momento breve, y que el racionamiento no terminó en Gran Bretaña hasta 1954, nueve años después de la victoria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda dimensión es institucional y es la que suele olvidarse. En buena parte del continente no había Estado: no había policía en la que confiar, ni tribunales que hubieran salido limpios de la ocupación, ni funcionarios que no hubieran servido a alguien. La cuestión práctica no era cómo hacer justicia, sino con quién administrar un país cuando casi todos los administradores disponibles habían colaborado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca Judt una afirmación que ordena todo el libro. La depuración de posguerra fue amplia en el número de juicios y superficial en sus efectos: en Francia, en Italia, en Austria y en Alemania Occidental, la mayoría de los funcionarios, jueces y policías siguieron en su puesto pasados unos años, porque no había con quién sustituirlos. La continuidad del personal fue el precio de que el Estado funcionara.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando un país entero ha colaborado con algo, la pregunta deja de ser a quién se juzga y pasa a ser con quién se administra al día siguiente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La estabilidad de la posguerra descansó sobre el mayor traslado forzoso de población de la historia europea",
+      },
+      {
+        b: "texto",
+        texto:
+          "Este es el capítulo que más incomoda y el que Judt considera imprescindible. Entre 1945 y 1949 fueron expulsados de Europa central y oriental alrededor de trece millones de alemanes: de Checoslovaquia, de Polonia, de Hungría, de Yugoslavia, de Rumanía. No fue un desorden de la posguerra: fue una política acordada por los aliados en Potsdam y ejecutada por los Estados, con muertos por el camino que se cuentan por cientos de miles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El movimiento fue simétrico y afectó a mucha más gente. Polonia entera se desplazó hacia el oeste: perdió sus territorios orientales, que pasaron a la Unión Soviética, y recibió tierras alemanas al oeste, con lo que millones de polacos fueron trasladados también. Ucranianos, húngaros, italianos de Istria, finlandeses de Carelia: en cinco años, decenas de millones de personas cambiaron de país sin moverse o se movieron para no cambiar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado es el que Judt formula sin adornos y que hay que leer dos veces. Por primera vez en su historia, la mayoría de los países europeos quedaron étnicamente homogéneos, y esa homogeneidad —conseguida por asesinato durante la guerra y por expulsión después— fue una de las condiciones de la estabilidad posterior. Las democracias de posguerra funcionaron, entre otras cosas, porque ya no tenían minorías con las que discutir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Judt no lo dice como aprobación, y ese matiz importa. Lo dice como diagnóstico: la Europa de fronteras estables y convivencia pacífica que se ofrece como modelo se construyó sobre una operación que hoy tiene nombre en el derecho penal internacional, y que en aquel momento pareció a casi todos la única solución razonable al problema de las minorías.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las democracias estables de posguerra funcionaron en parte porque ya no tenían minorías: eso no las inventó la política, lo dejó la violencia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El Plan Marshall no reconstruyó Europa: le devolvió la confianza y la obligó a cooperar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estados Unidos transfirió a Europa occidental alrededor de trece mil millones de dólares entre 1948 y 1952, algo más del uno por ciento de su producto nacional durante aquellos años. Judt sostiene, con las cuentas de los economistas, que esa cantidad no explica por sí sola la recuperación: fue una fracción modesta de la inversión total europea del periodo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí hizo fue romper un círculo. En 1947 los gobiernos europeos no invertían porque no confiaban en el futuro, y el futuro no mejoraba porque no se invertía; y sobre todo faltaban dólares para comprar en el único sitio donde había maquinaria y materias primas. El dinero estadounidense levantó ese cuello de botella y, más importante, convenció a inversores y gobiernos de que la recuperación iba a ocurrir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo efecto fue político y es el que Judt subraya. Washington entregó el dinero con una condición: que los europeos decidieran juntos cómo repartirlo. Para eso hubo que crear un organismo permanente en el que Francia, Alemania Occidental, Italia y los demás se sentaban a negociar cifras. Fue el primer hábito de cooperación entre países que llevaban un siglo invadiéndose.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un tercer efecto, del que casi nunca se habla y que Judt considera decisivo. Al aceptar el plan, los gobiernos occidentales se comprometieron con una economía abierta y con el crecimiento como objetivo político, y eso quitó argumentos a los partidos comunistas, que en Francia y en Italia sacaban en torno a un cuarto de los votos. El dinero compró tiempo y el tiempo cambió la política.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El efecto principal de una inyección de dinero no siempre es lo que compra: a veces es que la gente vuelva a creer que hay futuro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El Estado del bienestar no nació de un ideal, sino del miedo a repetir los años treinta",
+      },
+      {
+        b: "texto",
+        texto:
+          "Judt desmonta la versión heroica de la seguridad social europea. No la levantaron unos reformadores generosos contra la resistencia de los ricos: la aceptaron sociedades enteras, incluidos los conservadores, porque tenían delante la memoria de la década anterior. El desempleo masivo de los años treinta había producido el fascismo, y nadie quería volver a averiguar qué producía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso el argumento decisivo fue de seguridad y no de justicia. Un sistema de pensiones, sanidad y subsidios era una póliza contra el desorden social; y a eso se sumaba una razón demográfica muy concreta, la necesidad de que la gente volviera a tener hijos después de la matanza. Buena parte de la política familiar europea de los años cincuenta se explica por ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hallazgo más fino del capítulo es a quién benefició. Judt sostiene que los grandes beneficiarios de los sistemas europeos no fueron los pobres sino las clases medias: la sanidad pública, la universidad gratuita, las pensiones contributivas y las hipotecas subvencionadas fueron aprovechadas sobre todo por quienes ya estaban en mitad de la escala.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí saca una conclusión política que explica su durabilidad. Precisamente porque la clase media recibía, la clase media pagó impuestos altos sin rebelarse durante treinta años. Un sistema que solo hubiera atendido a los más pobres habría perdido a sus votantes en la primera crisis; el europeo aguantó porque casi todo el mundo tenía algo dentro que perder.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un sistema público que solo atiende a los más pobres pierde a sus defensores en la primera crisis: el europeo duró porque casi todos tenían algo dentro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los treinta años de crecimiento que Europa tomó por normalidad fueron una excepción irrepetible",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entre 1950 y 1973, la economía de Europa occidental creció a un ritmo cercano al cinco por ciento anual sostenido, algo que no había ocurrido nunca antes y que no ha vuelto a ocurrir. Italia creció más deprisa en aquellos años que en cualquier otro momento de su historia; Alemania Occidental multiplicó su producción; España, ya en los sesenta, entró en el mismo tren.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Judt explica por qué fue excepcional, y su explicación quita romanticismo. Se partía de un nivel bajísimo, así que cualquier recuperación daba porcentajes enormes. Había una reserva gigantesca de mano de obra en el campo esperando entrar en la industria. Existía una tecnología estadounidense ya desarrollada que solo había que aplicar. Y el petróleo estaba a precios que hoy parecen inverosímiles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ninguna de esas cuatro condiciones podía repetirse, y esa es la afirmación del capítulo. Una vez alcanzado el nivel, agotada la reserva rural, aplicada la tecnología y subido el petróleo, el crecimiento tenía que bajar, y bajó a partir de 1973. Lo que Judt reprocha a los europeos no es no haberlo previsto, sino haber construido durante veinte años promesas —pensiones, empleo, servicios— calculadas sobre un ritmo que era una anomalía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale una de sus tesis más citadas sobre la política posterior. Buena parte de los conflictos europeos desde los años setenta hasta hoy consisten en repartir la diferencia entre lo que se prometió en la época excepcional y lo que la economía normal puede pagar. Casi todas las discusiones sobre pensiones y sanidad de las últimas cinco décadas son eso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi toda la política europea desde 1975 consiste en repartir la diferencia entre lo que se prometió en una época excepcional y lo que da una normal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En una generación se vació el campo europeo, y eso cambió más vidas que cualquier gobierno",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cambio social más grande de la posguerra no fue político. En 1945, en buena parte de Europa, una proporción enorme de la población vivía del campo y en aldeas: en Francia, en Italia, en España, en Polonia, la vida rural seguía siendo la vida de millones de personas. Treinta años después, esa Europa había desaparecido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las cifras son brutales y Judt las despliega. Francia pasó de tener alrededor de una cuarta parte de su población activa en la agricultura a menos de una décima en 1975. Italia vivió una migración interna del sur al norte que trasladó a millones de personas en pocos años. Andalucía y Extremadura se vaciaron hacia Barcelona, Madrid y Alemania.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que llegó a la vez fue el consumo, y Judt lo cuenta con objetos porque es como se vive. El frigorífico, la lavadora, el coche pequeño y sobre todo el televisor entraron en las casas europeas en el mismo periodo, y con ellos una vida cotidiana que no se parecía en nada a la de los padres. En Italia, el número de televisores pasó de unas decenas de miles a millones en menos de una década.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su conclusión es que ese desplazamiento explica media política europea posterior mejor que cualquier ideología. Millones de personas dejaron un mundo de familia extensa, parroquia y autoridad heredada y se instalaron en bloques de pisos de las afueras con vecinos desconocidos; y el desconcierto de esa mudanza está detrás tanto del auge de los partidos de masas como de su desmoronamiento treinta años después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El cambio que más vidas alteró en la Europa del siglo XX no lo firmó ningún gobierno: fue mudarse del pueblo a un piso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "1968 cambió las costumbres y no tocó el poder" },
+      {
+        b: "texto",
+        texto:
+          "Judt dedica a 1968 uno de sus capítulos más ácidos y es donde más lectores pierde. Su tesis es que los movimientos estudiantiles del año, y en especial el de París, fueron un acontecimiento cultural de primer orden y un acontecimiento político menor, y que la confusión entre las dos cosas la mantienen sobre todo quienes participaron y después escribieron los libros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus argumentos son concretos. En Francia, el mes de mayo terminó con unas elecciones en junio en las que el partido del general De Gaulle obtuvo la mayoría más amplia de su historia. Los obreros que se sumaron a la huelga volvieron al trabajo con un acuerdo salarial y sin ningún interés en la revolución que proclamaban los estudiantes. Y el propio movimiento estudiantil se disolvió en meses.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí cambió, sostiene, fue todo lo demás: la relación con la autoridad, la moral sexual, el trato entre profesores y alumnos, la posición de las mujeres, la manera de vestir y de hablar. Esa transformación fue profunda, duradera y no la revirtió nadie, y ocurrió en países donde no hubo barricadas igual que en los que las hubo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una observación que remata el capítulo. Aquella generación era, en Europa occidental, la más numerosa, la más sana y la más rica que había existido nunca, y su rebelión fue posible precisamente por la prosperidad que despreciaba. Fueron, dice, hijos del pleno empleo protestando contra el mundo que se lo garantizaba, y muchos de ellos ocuparon después con toda naturalidad los puestos de mando de ese mundo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un cambio de costumbres puede ser enorme y permanente sin haber movido ni un gramo de poder: son dos cosas distintas y se confunden siempre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El acontecimiento político de 1968 no ocurrió en París, sino en Praga en agosto",
+      },
+      {
+        b: "texto",
+        texto:
+          "La contrapartida del capítulo anterior es la que da su fuerza al argumento. Mientras los estudiantes franceses discutían en la Sorbona, en Checoslovaquia ocurría algo que sí iba de poder: un gobierno comunista, encabezado por Alexander Dubcek, estaba intentando reformar el sistema desde dentro, con libertad de prensa, debate público y competencia dentro del partido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la noche del 20 al 21 de agosto de 1968, medio millón de soldados del Pacto de Varsovia entraron en el país y lo ocuparon. No hubo resistencia armada; hubo estudiantes discutiendo con los tanquistas, señales de tráfico giradas para desorientarlos y una población que aguantó unos meses. Dubcek fue llevado a Moscú y devuelto para firmar su propia derrota.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Judt sostiene que esa noche fue el verdadero final de una posibilidad histórica. Hasta entonces, millones de europeos del este y del oeste podían creer que el comunismo era reformable, que aquello se podía corregir sin destruirlo. Después de Praga, esa creencia se acabó: los partidos comunistas occidentales empezaron a perder intelectuales en masa y en el este dejó de haber reformistas y empezó a haber disidentes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cambio de vocabulario es la parte más fina del análisis. A partir de los años setenta, la oposición del este dejó de pedir un socialismo mejor y empezó a pedir otra cosa: derechos humanos, cumplimiento de la ley, la firma del propio gobierno en los acuerdos de Helsinki de 1975. No pedían cambiar el sistema, pedían que el sistema cumpliera lo que había firmado, y eso resultó ser mucho más difícil de reprimir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pedir que cumplan lo que ellos mismos han firmado es más difícil de reprimir que pedir que cambien: no se puede llamar subversivo a quien cita tu ley.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Europa perdió sus imperios en treinta años y contó esa historia aparte de la suya",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entre 1947 y 1975, las potencias europeas dejaron de gobernar buena parte del mundo. Gran Bretaña salió de la India en 1947; Francia, de Indochina en 1954 y de Argelia en 1962 tras una guerra que estuvo a punto de costarle la república; Bélgica dejó el Congo en 1960; Portugal aguantó hasta 1974 y su imperio cayó con su dictadura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Judt insiste en que ese proceso se cuenta casi siempre como historia de otros continentes, y sostiene que es historia europea. La guerra de Argelia derribó la Cuarta República francesa y llevó a De Gaulle al poder; la crisis de Suez de 1956 demostró a Londres y a París que ya no podían actuar sin permiso de Washington; y la revolución portuguesa de 1974 salió directamente del desgaste de sus guerras coloniales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia interna llegó después y es la que más pesa hoy. Las antiguas metrópolis empezaron a recibir a la población de sus antiguas colonias, unas veces reclutada expresamente para trabajar en la industria y otras llegada por su cuenta. La Europa étnicamente homogénea que había salido de las expulsiones de los años cuarenta dejó de serlo en una generación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y Judt señala lo que casi ningún país hizo: pensar qué significaba eso. Ni Francia, ni Alemania, ni Gran Bretaña se plantearon en serio, mientras ocurría, qué implicaba para su idea de nación; se trató como un asunto laboral temporal, y buena parte de la política europea de los últimos treinta años consiste en discutir a destiempo lo que no se discutió entonces.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La Europa homogénea de 1950 no era un estado natural: era el resultado reciente de unas expulsiones, y duró una sola generación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los años setenta no fueron una crisis pasajera: fue el final de la excepción",
+      },
+      {
+        b: "texto",
+        texto:
+          "En octubre de 1973, tras la guerra árabe-israelí, los países exportadores de petróleo cuadruplicaron el precio del crudo en pocos meses. Judt sitúa ahí el corte, aunque insiste en que el petróleo fue el detonante y no la causa: las cuatro condiciones que habían permitido el crecimiento excepcional ya se estaban agotando por su cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino fue una combinación que la economía de posguerra consideraba imposible: inflación alta y paro alto a la vez. Los instrumentos con los que los gobiernos europeos llevaban veinticinco años gobernando —estimular la demanda para bajar el paro— dejaron de funcionar, porque estimular la demanda solo subía los precios. Fue una crisis intelectual antes que presupuestaria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y en ese hueco entró un conjunto de ideas que llevaban décadas en los márgenes. Judt cuenta con detalle la llegada de Margaret Thatcher en 1979 y lo que hizo, y aquí sus simpatías son visibles: es duro con ella y bastante más benévolo con las inercias que ella atacó. Conviene leer ese tramo sabiendo que se está leyendo a un socialdemócrata convencido escribiendo sobre su adversario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis de fondo, sin embargo, no depende de la simpatía. Sostiene que a partir de 1973 Europa dejó de discutir cómo repartir un excedente creciente y empezó a discutir cómo repartir recortes, y que ese cambio de conversación transformó la política europea entera: de una competencia entre proyectos a una gestión de la escasez con distintos acentos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando una sociedad pasa de discutir cómo repartir lo que crece a discutir dónde recortar, cambia la política entera, no solo el presupuesto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En 1989 no ganó un sistema: se agotó el otro y alguien decidió no disparar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Judt desmonta la lectura triunfal de 1989 con dos argumentos. El primero es que los regímenes del este no cayeron derrotados: se derrumbaron por dentro, sin recursos, sin legitimidad y sin nadie dispuesto a defenderlos, después de veinte años en los que ni siquiera sus dirigentes creían en lo que administraban.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo es una decisión concreta con nombre. En 1956 en Hungría y en 1968 en Checoslovaquia, Moscú había mandado los tanques. En 1989, Mijaíl Gorbachov hizo saber que no lo haría, y sin esa garantía ningún gobierno del este pudo reprimir a su población. La caída del bloque no fue el resultado de una presión exterior, sino de la retirada de un respaldo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El relato del año, contado país por país, muestra hasta qué punto nadie lo esperaba. Polonia negoció en una mesa redonda y celebró elecciones parcialmente libres en junio; Hungría abrió su frontera con Austria en verano y desagüó a la Alemania del este; el muro de Berlín se abrió el 9 de noviembre por una rueda de prensa mal preparada; y Checoslovaquia cambió de régimen en unas semanas sin un disparo. Solo en Rumanía hubo violencia y muertos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que Judt subraya como consecuencia es lo que aquella facilidad ocultó. Los países del este entraron en el mercado y en la democracia sin instituciones, sin experiencia y con economías que había que desmontar enteras, y el coste social de los años noventa —paro masivo, caída de la esperanza de vida en varios países, aparición de oligarquías— fue mucho mayor de lo que anunció la euforia de aquel otoño.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un régimen no cae cuando pierde apoyo: cae el día que quien lo sostenía desde fuera decide que ya no va a mandar los tanques.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La Unión Europea es la solución a un problema que los europeos no sabían que tenían",
+      },
+      {
+        b: "texto",
+        texto:
+          "El origen del proyecto europeo es mucho menos idealista de lo que cuenta su propaganda, y Judt lo reconstruye paso a paso. En 1950, la propuesta de poner el carbón y el acero de Francia y Alemania bajo una autoridad común no nació de un sueño de fraternidad: nació del problema francés de qué hacer con una Alemania que iba a rearmarse de todas formas y a la que era mejor tener atada por la economía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ahí, cada paso resolvió un problema concreto de alguien. La política agrícola común compró a los agricultores franceses; el mercado interior convino a la industria alemana; los fondos regionales compraron la adhesión de los países del sur. Judt sostiene que casi nunca hubo un proyecto federal explícito votado por nadie: hubo negociaciones técnicas cuyo efecto acumulado fue una unión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su crítica es de método democrático y la formula sin ambigüedad. La construcción europea la hicieron funcionarios, comisiones y jefes de gobierno en cumbres nocturnas, y los ciudadanos aparecieron al final para ratificar lo ya hecho, o para rechazarlo, como ocurrió en 2005 con la constitución europea, que franceses y neerlandeses votaron en contra pocos meses antes de que este libro apareciera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hace un balance que no es hostil, y por eso convence más. Reconoce que el resultado ha sido extraordinario: medio siglo sin guerra entre sus miembros, y una atracción tan fuerte que reconstruyó las democracias del sur y del este porque querían entrar. Su reproche es que un edificio construido sin explicarse a sí mismo se queda sin defensores el día que deje de repartir beneficios.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un proyecto que nunca se ha explicado a la gente se sostiene mientras reparte beneficios y se queda sin defensores el día que reparte costes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Yugoslavia demostró que la convivencia europea era una anestesia y no una cura",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cincuenta años después del final de la guerra, y a mil kilómetros de Bruselas, volvieron a Europa los campos de prisioneros, las deportaciones por origen étnico y los asesinatos en masa. Judt dedica al desmembramiento de Yugoslavia un capítulo largo y sin concesiones, y lo utiliza para comprobar todo lo que ha sostenido antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación no es la que se dio entonces. Rechaza la idea de unos odios ancestrales que estallan solos: sostiene que la guerra la organizaron dirigentes concretos, con nombre —Slobodan Milosevic el primero—, que necesitaban una identidad de recambio cuando el comunismo dejó de dársela, y que la fabricaron con televisión, con historia manipulada y con milicias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El episodio que resume el fracaso europeo ocurrió en julio de 1995 en Srebrenica, una ciudad declarada zona segura por las Naciones Unidas y protegida por cascos azules. Las fuerzas serbobosnias entraron en ella y asesinaron a unos ocho mil hombres y niños. Es el mayor crimen masivo cometido en suelo europeo desde 1945 y ocurrió delante de una fuerza internacional que no lo impidió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que saca Judt es la más dura del libro. La convivencia pacífica de la Europa de posguerra no había resuelto nada de fondo: se había apoyado en la homogeneidad forzada de los años cuarenta, en la prosperidad y en el orden impuesto por dos superpotencias. Donde faltaron las tres cosas a la vez, lo de antes volvió en menos de un año.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los odios que parecen ancestrales suelen tener autores recientes con nombre y apellidos y acceso a una televisión.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Europa tardó cuarenta años en recordar lo que le había pasado a sus judíos",
+      },
+      {
+        b: "texto",
+        texto:
+          "El epílogo es la mejor parte del libro y sostiene una afirmación que sorprende al lector actual: durante los primeros treinta años de posguerra, el asesinato de los judíos europeos no fue un tema en la memoria pública de casi ningún país. No estaba ocultado ni negado; sencillamente no era una categoría propia dentro de lo que se recordaba de la guerra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cada país recordó lo que le convenía para reconstruirse. Francia se contó a sí misma como una nación de resistentes, con Vichy reducido a un accidente de unos pocos. Austria se presentó como la primera víctima de Hitler, cosa que los aliados le concedieron por conveniencia política. Alemania Occidental habló durante años de sus propios muertos, sus ciudades bombardeadas y sus expulsados. Polonia integró a los judíos asesinados en un martirologio nacional polaco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cambio llegó tarde y se puede fechar por hitos. El juicio de Adolf Eichmann en Jerusalén en 1961 puso por primera vez a los supervivientes a hablar ante el mundo. En enero de 1979, una serie de televisión estadounidense titulada «Holocausto» se emitió en Alemania Occidental y la vieron alrededor de veinte millones de personas, provocando un debate nacional que ningún historiador había conseguido abrir. Y los museos y monumentos llegaron después: el memorial de Berlín se inauguró en mayo de 2005, el mismo año de este libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Judt cierra con una frase que resume su tesis y con un aviso. La frase: la memoria recuperada de los judíos muertos de Europa se ha convertido en la definición y la garantía de la humanidad recobrada del continente. El aviso: conmemorar puede sustituir a comprender, y un país lleno de monumentos y de visitas escolares obligatorias puede estar administrando su pasado en lugar de discutirlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un monumento puede ser una manera de recordar y también una manera de dar el asunto por cerrado: conmemorar no es lo mismo que entender.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la Europa próspera y pacífica de finales del siglo XX no fue el resultado de haber aprendido la lección, sino de unas condiciones excepcionales: una homogeneidad étnica conseguida por la violencia, un crecimiento irrepetible, un orden impuesto desde fuera y un acuerdo tácito de no mirar atrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la mirada completa. Es el único relato de un solo volumen que trata las dos mitades del continente como una sola historia, en lugar de contar Europa occidental y añadir un capítulo sobre el bloque del este; y esa decisión cambia el resultado, porque obliga a ver 1989 como el final de una historia común y no como la incorporación de unos recién llegados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en el equilibrio que se proponía. Pese a su ambición, el peso de las páginas está en Francia, Alemania, Gran Bretaña e Italia; el este recibe menos espacio y menos detalle; y España, Portugal y Grecia aparecen sobre todo cuando entran en la Comunidad Europea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en dos cosas más. La economía está contada por sus efectos políticos y casi nunca por sus mecanismos: hay muy pocos números sobre productividad, moneda o inflación para un libro que explica sesenta años de crecimiento y crisis. Y sus simpatías socialdemócratas son constantes y no siempre declaradas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que le ocurrió al autor después importa para leerlo. En 2008 le diagnosticaron una esclerosis lateral amiotrófica que en meses le dejó sin movimiento; siguió trabajando, dictando de memoria párrafos que componía por la noche, y publicó en 2010 un alegato en defensa de la socialdemocracia europea. Murió aquel agosto, a los sesenta y dos años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y su tesis tiene ya un marcador. Judt cierra el libro en 2005 dando por asentado que en Europa las fronteras ya no se cambian por la fuerza y que la guerra entre Estados europeos pertenece al pasado. La anexión de Crimea en 2014 y la invasión de Ucrania en 2022 desmintieron ese supuesto de la manera más literal posible, y convierten su epílogo sobre la memoria en algo más urgente de lo que él pretendía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La paz europea no fue una lección aprendida: fue una combinación de circunstancias, y las circunstancias se gastan.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  postguerra: POSTGUERRA,
   "canones-agosto": CANONES_AGOSTO,
   "ensayos-montaigne": ENSAYOS_MONTAIGNE,
   "existencialismo-humanismo": EXISTENCIALISMO_HUMANISMO,
