@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "revoluciones-cientificas": [
+    "en qué consiste realmente el trabajo científico habitual",
+    "qué se hace con los resultados que no encajan",
+    "por qué una teoría nueva sustituye en vez de completar",
+    "qué papel tienen los libros de texto en todo esto",
+    "cómo se impone finalmente una teoría sobre otra",
+  ],
+
   "astrofisica-prisa": [
     "qué quedó decidido en los tres primeros minutos",
     "por qué existe materia en lugar de nada",

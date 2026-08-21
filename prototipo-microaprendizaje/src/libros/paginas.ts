@@ -30865,7 +30865,270 @@ const ASTROFISICA_PRISA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La estructura de las revoluciones científicas, en ocho páginas.
+
+   Breve. El original tiene 170 páginas.
+
+   Ensayo: titular que afirma, tercera persona.
+
+   La conclusión lleva las correcciones que el propio Kuhn hizo en su
+   posdata de 1969 y el destino de la palabra «paradigma», que él detestó.
+   -------------------------------------------------------------------------- */
+
+const REVOLUCIONES_CIENTIFICAS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Todo empezó con un doctorando leyendo a Aristóteles y sin entender nada",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1947, Thomas Kuhn estaba terminando un doctorado en física en Harvard cuando le encargaron preparar unas clases de historia de la ciencia para estudiantes de humanidades. Tuvo que leer la física de Aristóteles, y lo que encontró le desconcertó: un hombre extraordinariamente inteligente, cuyos escritos sobre política y sobre lógica seguían siendo brillantes, decía sobre el movimiento cosas que parecían disparates elementales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kuhn contó varias veces cómo se resolvió aquello. Una tarde de verano, sentado en su escritorio y mirando por la ventana, cayó de golpe en la cuenta de que Aristóteles no estaba haciendo mala física de Newton: estaba haciendo excelente física de Aristóteles, con un concepto de movimiento distinto que incluía el crecimiento de una planta o el cambio de color de una fruta. Con ese significado, sus argumentos eran impecables.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De aquella experiencia salió este libro, publicado en 1962 en una colección de filosofía de la ciencia que defendía exactamente lo contrario de lo que él iba a sostener. Tiene ciento setenta páginas y es uno de los libros académicos más citados del siglo XX, además del origen del uso corriente de la palabra paradigma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que sostiene: en qué consiste el trabajo científico habitual, qué pasa con los resultados que no encajan, cómo ocurre un cambio de teoría, qué papel tienen los libros de texto, por qué dos teorías rivales no se pueden comparar punto por punto y cómo se impone finalmente una de las dos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando un autor antiguo e inteligente parece decir disparates, la explicación más probable es que use las palabras con otro significado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El trabajo científico habitual no pone a prueba ninguna teoría" },
+      {
+        b: "texto",
+        texto:
+          "La primera afirmación fuerte del libro va contra la imagen escolar de la ciencia, según la cual un científico formula hipótesis atrevidas e intenta refutarlas. Kuhn sostiene que eso ocurre muy pocas veces y que el trabajo cotidiano de la inmensa mayoría de los investigadores, en cualquier disciplina, es otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo llama ciencia normal y lo describe con una comparación que no pretende ser despectiva: resolver rompecabezas. El investigador da por buena la teoría fundamental de su campo, que no cuestiona nunca, y dedica su carrera a problemas concretos dentro de ella: medir una constante con un decimal más, aplicar la teoría a un caso todavía no tratado, mejorar un instrumento o cerrar el hueco entre una predicción y una medida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y sostiene que esa restricción, lejos de ser una limitación, es la condición del progreso. Precisamente porque nadie discute los fundamentos, se puede profundizar: si en cada experimento hubiera que replantear la teoría entera, no se llegaría nunca al detalle donde aparecen los hallazgos. Un campo en el que todo el mundo discute de principios es un campo que no avanza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El concepto que agrupa todo eso es el de paradigma, que Kuhn usa en un sentido amplio: no solo la teoría, sino también los instrumentos que se consideran adecuados, los problemas que se consideran importantes, lo que cuenta como una solución aceptable y los ejemplos concretos que se enseñan a los estudiantes en los primeros cursos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un campo donde todo el mundo discute continuamente de fundamentos no es un campo especialmente libre: es un campo que no avanza.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los resultados que no encajan se aparcan durante décadas" },
+      {
+        b: "texto",
+        texto:
+          "El segundo hallazgo del libro es histórico y desmiente otra imagen habitual: la de que un solo experimento en contra basta para tumbar una teoría. Kuhn muestra que eso no ha ocurrido nunca. Cualquier teoría, en cualquier momento de su historia, tiene resultados que no encajan, y los científicos conviven con ellos con toda tranquilidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A esos resultados los llama anomalías, y describe lo que se hace con ellas. Se atribuyen a un error de medición. Se archivan pendientes de una explicación futura. Se resuelven con un añadido a la teoría para ese caso concreto. O simplemente se dejan de lado porque no son el problema de nadie en ese momento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo mejor es la órbita de Mercurio. Desde mediados del siglo XIX se sabía que el punto más cercano al Sol de esa órbita se desplazaba un poco más de lo que predecía la ley de Newton. Nadie concluyó que Newton estuviera equivocado; se supuso que faltaba un planeta por descubrir, se le puso nombre y se le buscó durante décadas. La anomalía se resolvió en 1915, cuando la teoría de Einstein dio la cifra exacta sin ningún planeta añadido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kuhn subraya que esa manera de proceder es razonable y no una cobardía. Una teoría que funciona en mil casos no se tira por uno que falla, porque lo más probable es que el fallo esté en la medición o en un detalle. El problema aparece cuando las anomalías se acumulan, empiezan a afectar al núcleo y los propios especialistas comienzan a discutir de fundamentos: eso es lo que él llama una crisis.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un experimento en contra no ha tumbado nunca una teoría: se archiva como anomalía y se espera a que alguien lo explique.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una revolución no añade conocimiento: sustituye una manera de ver" },
+      {
+        b: "texto",
+        texto:
+          "La tesis que da título al libro es que el cambio científico profundo no es acumulativo. La imagen habitual dice que el conocimiento crece como un edificio al que se van añadiendo pisos, y que Einstein completó a Newton igual que Newton había completado a Galileo. Kuhn sostiene que eso no describe lo que ocurrió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurre en una revolución es una sustitución. La teoría nueva no contiene a la vieja como caso particular, aunque a veces se parezca en sus resultados numéricos: cambia lo que se considera que existe, qué preguntas tienen sentido y qué cuenta como una explicación. El universo de Copérnico no es el de Ptolomeo con un ajuste; es otro universo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo más claro es el del oxígeno. Antes de Lavoisier, la combustión se explicaba porque los cuerpos liberaban una sustancia, el flogisto. Después, porque se combinan con un gas. No es que se añadiera un dato: cambió qué era arder, cambió qué era un elemento y cambió qué había que pesar en el experimento. Los mismos hornos y las mismas balanzas pasaron a medir otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kuhn describe ese cambio con una comparación que él mismo maneja con cuidado: la de esos dibujos ambiguos que unos ven como un pato y otros como un conejo. Después de una revolución, dice, los científicos miran en la misma dirección y ven cosas distintas, y no es una manera de hablar: los mismos datos se interpretan dentro de otro esquema y dejan de significar lo que significaban.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una teoría nueva no suele completar a la anterior: cambia qué se considera que existe y qué preguntas tienen sentido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los libros de texto reescriben la historia y por eso nadie se entera",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos más incómodos explica por qué casi ningún científico percibe el proceso que el libro describe, y la respuesta está en cómo se aprende una disciplina. A diferencia de la filosofía o de la literatura, en ciencia no se leen los originales: se estudia en manuales que resumen el estado actual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y esos manuales, dice Kuhn, tienen que reescribir el pasado para poder enseñar el presente. Presentan la historia como una acumulación ordenada en la que cada generación aportó una pieza del edificio actual, atribuyen a autores antiguos preguntas que no se hicieron y silencian los callejones sin salida, las teorías que dominaron durante un siglo y las discusiones que se resolvieron por agotamiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto es que un estudiante termina su carrera con la impresión de que la ciencia siempre ha ido en esta dirección y de que la teoría actual es el destino natural de todo lo anterior. Y esa impresión, señala Kuhn, no es un accidente ni una manipulación: es lo que hace falta para formar en pocos años a alguien capaz de trabajar dentro del paradigma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su comparación es dura y la sostiene: dice que los manuales científicos hacen con la historia de su campo algo parecido a lo que hacen los regímenes autoritarios con la suya, no por mala fe sino porque una comunidad que está resolviendo rompecabezas no tiene ningún uso para las preguntas que ya no se hace.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un manual tiene que contar el pasado como si llevara hasta el presente, y por eso quien estudia solo manuales no ve nunca una revolución.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos teorías rivales no se pueden comparar punto por punto" },
+      {
+        b: "texto",
+        texto:
+          "La idea más discutida del libro es la que Kuhn llama inconmensurabilidad, y significa que dos paradigmas rivales no se pueden poner uno al lado del otro y comparar como se comparan dos ofertas, porque no comparten la vara de medir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tiene tres motivos, y los tres son concretos. El primero es que no están de acuerdo en qué problemas hay que resolver: lo que para una teoría es una cuestión central para la otra puede ser irrelevante. El segundo es que las palabras cambian de significado: masa significa una cosa en la mecánica de Newton y otra distinta en la de Einstein, aunque se escriba igual y a menudo dé el mismo número.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el tercero es que quienes trabajan en cada uno perciben cosas distintas ante los mismos datos, porque los han aprendido con ejemplos distintos. Kuhn insiste en que esa formación por ejemplos, y no por reglas explícitas, es lo que hace que un científico reconozca en un segundo si un problema pertenece a su campo y cómo se ataca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sacó la conclusión que le costó la acusación de relativismo durante treinta años: que el paso de un paradigma a otro no se puede decidir solo con argumentos y datos, porque no hay un tribunal neutral por encima de los dos. Kuhn pasó el resto de su vida aclarando que él no negaba que hubiera progreso, y que sostener que dos teorías son difíciles de traducir entre sí no es lo mismo que decir que da igual cuál se elija.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Masa significa cosas distintas en Newton y en Einstein aunque se escriba igual, y esa es la clase de problema que hace difícil comparar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una teoría nueva no gana convenciendo: gana esperando" },
+      {
+        b: "texto",
+        texto:
+          "Si dos paradigmas no se pueden comparar con un criterio neutral, queda la pregunta de cómo se impone uno. Y la respuesta que da el libro es sociológica: se impone cuando la comunidad científica se traslada, y ese traslado se produce por partes y a lo largo de años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kuhn cita para explicarlo una observación del físico Max Planck que se ha hecho célebre: una verdad científica nueva no triunfa convenciendo a sus adversarios y haciéndoles ver la luz, sino porque esos adversarios acaban muriendo y crece una generación nueva que está familiarizada con la idea desde el principio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La observación suena cínica y Kuhn la matiza con una explicación razonable. Un investigador con treinta años de carrera dentro de un paradigma tiene ahí su formación, sus instrumentos, su reputación y sus problemas resueltos; cambiar significa que buena parte de eso deja de valer. Un estudiante que empieza no tiene nada que perder y elige la teoría que le parece más prometedora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade qué es lo que de hecho convence a los jóvenes, que no son solo los datos. Suele ser una mezcla de precisión en algún punto llamativo, de capacidad para resolver la anomalía que tenía atascado al campo, de simplicidad, y a menudo de una promesa: la sensación de que ahí quedan muchos problemas interesantes por resolver y en el otro sitio ya no.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie con treinta años de carrera cambia de teoría: cambian los que empiezan, porque no tienen nada invertido en la anterior.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La estructura de las revoluciones científicas sostiene que la ciencia no avanza por acumulación continua sino por períodos largos de trabajo dentro de un marco compartido, interrumpidos por crisis y por sustituciones completas de ese marco. Describe con precisión qué se hace con los resultados que no encajan, por qué los manuales ocultan ese proceso, por qué dos teorías rivales son difíciles de comparar y cómo se traslada finalmente una comunidad entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una manera de mirar cualquier disciplina, no solo la física. Preguntar qué se está dando por supuesto, qué anomalías se llevan años archivando y quién tendría que cambiar de oficio si el marco cayera es un ejercicio útil en cualquier campo con especialistas dentro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todo campo tiene resultados que no encajan y llevan años archivados, y el momento interesante es cuando alguien deja de archivarlos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, empezando por lo que el propio Kuhn reconoció. Usó la palabra paradigma con tantos sentidos distintos que una investigadora contó más de veinte usos diferentes en el mismo libro; en la posdata que añadió en 1969 intentó arreglarlo separando el concepto en dos, el conjunto de compromisos de una comunidad y los ejemplos concretos con los que se aprende, y ese arreglo llegó cuando la palabra ya circulaba sola.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su modelo, además, encaja bien con la historia de la física y bastante mal con la de otras ciencias. En biología, en medicina o en las ciencias sociales no hay un paradigma único dominante ni revoluciones limpias, sino varios marcos conviviendo a la vez durante décadas. Y el destino público del libro es una ironía en sí mismo: la expresión cambio de paradigma se usa hoy para cualquier novedad comercial, y Kuhn, que dedicó su vida a describir un proceso que tarda generaciones, detestaba ese uso y lo dijo por escrito varias veces.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "revoluciones-cientificas": REVOLUCIONES_CIENTIFICAS,
   "astrofisica-prisa": ASTROFISICA_PRISA,
   "doble-helice": DOBLE_HELICE,
   "siete-lecciones-fisica": SIETE_LECCIONES_FISICA,

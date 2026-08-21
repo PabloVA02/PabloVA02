@@ -504,22 +504,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "revoluciones-cientificas",
-    titulo: "La estructura de las revoluciones científicas",
-    autor: "Thomas S. Kuhn",
-    ano: 1962,
-    gancho: "Un físico se sentó a leer a Aristóteles para dar una clase, le pareció un disparate, y de pronto entendió que el disparate era su manera de leerlo.",
-    porQue: "De aquí sale la expresión «cambio de paradigma», que hoy se usa para vender móviles. Merece la pena saber qué significaba de verdad, porque el libro dice algo bastante más incómodo que lo que se le atribuye.",
-    minutos: 23.2,
-    capitulos: [
-      { titulo: "Un despacho prestado en Harvard, 1947", minutos: 4.5 },
-      { titulo: "La ciencia normal", minutos: 4.7 },
-      { titulo: "La anomalía", minutos: 4.5 },
-      { titulo: "La inconmensurabilidad", minutos: 4.7 },
-      { titulo: "Un seminario en Londres, 1965", minutos: 4.8 },
-    ],
-  },
-  {
     id: "orden-del-tiempo",
     titulo: "El orden del tiempo",
     autor: "Carlo Rovelli",

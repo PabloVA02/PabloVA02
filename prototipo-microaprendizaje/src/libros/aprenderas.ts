@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "revoluciones-cientificas":
+    "Un doctorando en física leyó la Física de Aristóteles y le pareció que decía disparates, hasta que entendió que usaba las palabras con otro significado. De aquella tarde salió el libro que puso en circulación la palabra paradigma.",
+
   "astrofisica-prisa":
     "Doce artículos de revista reunidos en un libro que se lee en un trayecto de tren. Cuenta lo esencial de lo que se sabe del universo, y esconde su objetivo real hasta el último capítulo: cambiar la escala en la que uno se sitúa.",
 

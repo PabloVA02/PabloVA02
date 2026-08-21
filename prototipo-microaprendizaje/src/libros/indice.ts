@@ -125,7 +125,6 @@ const CARGADORES: Record<string, Cargador> = {
   "etica-nicomaco": () => import("./filosofia").then((m) => m.ETICA_NICOMACO),
   "ensayos-montaigne": () => import("./filosofia").then((m) => m.ENSAYOS_MONTAIGNE),
   "henrietta-lacks": () => import("./ciencia").then((m) => m.HENRIETTA_LACKS),
-  "revoluciones-cientificas": () => import("./ciencia").then((m) => m.REVOLUCIONES_CIENTIFICAS),
   "emperador-males": () => import("./ciencia").then((m) => m.EMPERADOR_MALES),
   "sexta-extincion": () => import("./ciencia").then((m) => m.SEXTA_EXTINCION),
   "pulgar-panda": () => import("./ciencia").then((m) => m.PULGAR_PANDA),
