@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "bernarda-alba": [
+    "qué ordena Bernarda en su primera intervención",
+    "por qué no aparece ningún hombre en los tres actos",
+    "qué papel tiene la herencia en todo el conflicto",
+    "quién vigila realmente a quién dentro de la casa",
+    "por qué la obra termina con la palabra que termina",
+  ],
+
+  ficciones: [
+    "por qué reseñar un libro inventado en vez de escribirlo",
+    "qué demuestra un texto idéntico a otro escrito siglos después",
+    "cómo sería una biblioteca con todos los libros posibles",
+    "dónde aparecen los universos paralelos por primera vez",
+    "por qué recordarlo todo impide pensar",
+  ],
+
   "sobre-tirania": [
     "qué es la obediencia anticipada y por qué decide tanto",
     "qué porcentaje de votos sacaron realmente los nazis",

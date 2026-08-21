@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "bernarda-alba":
+    "Lorca fechó el manuscrito el 19 de junio de 1936 y lo mataron dos meses después, sin haberla visto nunca en un escenario. Son tres actos, una casa, diez mujeres y ningún hombre en escena.",
+
+  ficciones:
+    "Borges casi muere en 1938 por una infección tras golpearse la cabeza, y al recuperarse escribió su primer cuento por miedo a no poder volver a escribir. Estos diecisiete relatos comparten un truco: reseñar con tono de catálogo libros que no existen.",
+
   "sobre-tirania":
     "Ciento veintiocho páginas con veinte lecciones sacadas de cómo cayeron las democracias europeas entre las dos guerras. Su premisa es que nadie de hoy es más resistente que aquellos ciudadanos: solo tenemos su caso documentado.",
 

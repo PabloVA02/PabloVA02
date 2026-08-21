@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "bernarda-alba": "Drama de mujeres en los pueblos de España",
   malala: "La historia de la niña que defendió el derecho a la educación y fue tiroteada por los talibanes",
   "cuerpo-cuenta": "Cerebro, mente y cuerpo en la superación del trauma",
   "cerebro-buda": "La neurociencia de la felicidad, el amor y la sabiduría",
@@ -100,4 +101,4 @@ export const SUBTITULOS: Record<string, string> = {
    distingue «este libro no tiene» de «se me olvidó escribirlo»: la ficha no
    pinta la línea, y el validador los da por completos en vez de avisar cada
    vez. Inventarles una frase estaría prohibido por la regla de arriba. */
-export const SIN_SUBTITULO: string[] = ["quijote", "matar-ruisenor", "orgullo-prejuicio", "alquimista", "sombra-viento", "steve-jobs", "gen-egoista", "odisea", "republica-platon", "mundo-feliz", "fahrenheit", "crimen-castigo", "metamorfosis", "gran-gatsby", "senor-moscas", "frankenstein", "dorian-gray", "dracula", "moby-dick", "montecristo", "viejo-mar", "nombre-rosa", "pedro-paramo", "guardian-centeno", "si-esto-hombre", "los-miserables", "casi-todo", "extranjero", "ana-karenina", "madame-bovary", "historia-arte"];
+export const SIN_SUBTITULO: string[] = ["quijote", "matar-ruisenor", "orgullo-prejuicio", "alquimista", "sombra-viento", "steve-jobs", "gen-egoista", "odisea", "republica-platon", "mundo-feliz", "fahrenheit", "crimen-castigo", "metamorfosis", "gran-gatsby", "senor-moscas", "frankenstein", "dorian-gray", "dracula", "moby-dick", "montecristo", "viejo-mar", "nombre-rosa", "pedro-paramo", "guardian-centeno", "si-esto-hombre", "los-miserables", "casi-todo", "extranjero", "ana-karenina", "madame-bovary", "historia-arte", "ficciones"];

@@ -22507,7 +22507,466 @@ const SOBRE_TIRANIA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Ficciones, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO: títulos cortos de imagen, afirmación en la primera
+   frase, caja del rayo en segunda persona.
+
+   La prueba del título tapado se pasa con lo concreto: la ventana de
+   Nochebuena, las 410 páginas de los libros de Babel, el perro de las tres
+   y catorce, y el laberinto de una sola línea recta.
+   -------------------------------------------------------------------------- */
+
+const FICCIONES: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una ventana abierta en Nochebuena" },
+      {
+        b: "texto",
+        texto:
+          "En la Nochebuena de 1938, Borges subía una escalera mal iluminada y se golpeó la cabeza contra el batiente de una ventana abierta. La herida se infectó, la infección se volvió una septicemia y estuvo semanas entre la vida y la muerte, con alucinaciones y sin poder hablar. Tenía treinta y nueve años y había publicado hasta entonces poemas y ensayos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al recuperarse le entró un miedo concreto: haber perdido la cabeza para escribir. Y tomó una decisión de una astucia notable. En vez de intentar otro ensayo, que le habría demostrado el fracaso, probó con algo que no había hecho nunca, un cuento; así, si salía mal, podría echarle la culpa al género y no a sí mismo. Aquel cuento fue Pierre Menard, autor del Quijote.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Trabajaba entonces de auxiliar tercero en una biblioteca municipal del barrio de Almagro, en Buenos Aires. Contaba que había tan poco que hacer que los empleados pasaban el día hablando de fútbol y de caballos, y que él se escondía en el sótano a leer. Ficciones reúne los diecisiete relatos que escribió en aquellos años, publicados en dos entregas, en 1941 y en 1944.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren su procedimiento y sus mejores piezas: por qué reseña libros que no existen, qué demuestra un texto idéntico a otro, cómo es una biblioteca que contiene todos los libros posibles, dónde aparecen por primera vez en la literatura los universos paralelos, qué le pasa a quien no puede olvidar nada y qué le ocurre a un detective demasiado inteligente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si te da miedo intentar algo, hazlo en un terreno nuevo: así, si sale mal, podrás echarle la culpa al terreno.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Reseñar un libro que no existe" },
+      {
+        b: "texto",
+        texto:
+          "El prólogo del libro contiene el método entero en tres líneas, y es una de las declaraciones de oficio más útiles que se han escrito. Borges dice que componer libros vastos es un desvarío trabajoso y empobrecedor: estirar en quinientas páginas una idea que se puede exponer en cinco minutos. Mejor procedimiento, escribe, es fingir que esos libros ya existen y ofrecer de ellos un resumen o un comentario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la forma característica de casi todos sus relatos. No cuentan una historia: reseñan una obra imaginaria, discuten a un autor inventado con notas al pie, corrigen una traducción que nunca se hizo o comentan un artículo de una enciclopedia que no está en ninguna enciclopedia. Y lo hacen con el tono seco de una publicación académica, citando ediciones, fechas y números de página.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto de ese tono es lo que hace funcionar el truco. Cuando alguien escribe que una idea es fantástica, el lector se prepara para un cuento. Cuando alguien escribe que el ejemplar que consultó era el de la edición de 1917 y que le faltaba la página cuatrocientos, el lector va a comprobarlo. Borges llegó a incluir libros reales entre los inventados, mezclados en la misma lista, para que no hubiera manera de saber cuáles eran cuáles sin ir a mirar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un dato falso puesto entre cuatro verdaderos con la misma cara aguanta muchísimo mejor que cualquier mentira grande.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos páginas exactamente iguales" },
+      {
+        b: "texto",
+        texto:
+          "El primer cuento que escribió es también el que más ha influido en la manera de leer del siglo XX. Pierre Menard es un escritor francés de principios de siglo que se propone una tarea rarísima: escribir el Quijote. No copiarlo, ni versionarlo, ni actualizarlo. Escribirlo: llegar por su propio camino y desde su propia vida a producir unas páginas que coincidan palabra por palabra con las de Cervantes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Consigue terminar dos capítulos y un fragmento. El narrador del cuento reproduce entonces un pasaje de Cervantes y a continuación el mismo pasaje de Menard, letra por letra idénticos, y sostiene con toda seriedad que el segundo es infinitamente más rico. La frase sobre la historia como madre de la verdad, escrita por un soldado español del siglo XVII, es un elogio retórico; escrita por un contemporáneo del pragmatismo y de la investigación histórica, es una afirmación asombrosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso Borges formula, en 1939 y en forma de broma erudita, algo que la teoría literaria tardaría treinta años en decir en serio: que el significado de un texto no está guardado dentro de él, sino que se produce en el cruce entre lo escrito y quien lo lee, con su época y sus lecturas encima. El propio cuento saca la consecuencia práctica y la propone como técnica: leer la Odisea como si fuera posterior a la Eneida, atribuir un libro a otro autor, y ver qué pasa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las mismas palabras exactas dicen cosas distintas según quién las escriba y en qué siglo, y eso no es un juego: es cómo funciona leer.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Galerías hexagonales" },
+      {
+        b: "texto",
+        texto:
+          "La biblioteca de Babel empieza con una definición, no con una historia: el universo, al que otros llaman la Biblioteca, se compone de un número indefinido de galerías hexagonales, con veinte anaqueles por sala, treinta y dos libros por anaquel, cuatrocientas diez páginas por libro y veinticinco símbolos ortográficos posibles. Cada libro es distinto y están todos los que se pueden formar combinando esos símbolos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De esa premisa Borges va sacando consecuencias como quien resuelve un problema. Si están todas las combinaciones, entonces está el libro que explica el origen del universo, y está la biografía exacta de cada lector, y está la traducción de cada libro a cada idioma. Y también están, en la misma proporción, todos los libros que dicen exactamente lo contrario, y millones de volúmenes de puras letras sin sentido por cada uno que diga algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuento describe entonces lo que hicieron sus habitantes al enterarse. Primero, una alegría desmedida: la certeza de que todo está resuelto en alguna parte. Después, la desesperación de que encontrarlo es imposible. Aparecen sectas que buscan el libro definitivo, peregrinos que mueren en los pozos de ventilación y purificadores que destruyen volúmenes al azar convencidos de estar limpiando lo inútil, sin advertir que la Biblioteca es tan enorme que su destrucción no se nota.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En un sitio donde está absolutamente todo, encontrar lo que buscas es igual de imposible que si no hubiera nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Todos los desenlaces a la vez" },
+      {
+        b: "texto",
+        texto:
+          "El relato que da nombre a la primera mitad del libro parece una historia de espías y es otra cosa. Un profesor chino que trabaja para el servicio de inteligencia alemán en Inglaterra, durante la Primera Guerra Mundial, tiene que transmitir el nombre de una ciudad y no tiene manera de comunicarse. La solución que encuentra es un crimen, y el camino hacia ese crimen atraviesa la casa de un sinólogo que ha dedicado su vida a estudiar a un antepasado del propio espía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese antepasado había anunciado que iba a escribir una novela y a construir un laberinto, y al morir dejó un montón de páginas contradictorias y ningún laberinto. El sinólogo ha resuelto el enigma: la novela y el laberinto eran la misma cosa. En ese libro, cada vez que un personaje se enfrenta a una elección, no elige una salida y descarta las otras: las toma todas a la vez, y de cada una nacen bifurcaciones nuevas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Borges publicó eso en 1941. La interpretación de los muchos mundos de la mecánica cuántica, que propone algo estructuralmente parecido, se formuló en 1957. Y la idea de un texto que se ramifica según lo que elija quien lo recorre describe con exactitud lo que sería el hipertexto medio siglo después. Es, muy probablemente, la anticipación más citada de la literatura del siglo XX.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cada vez que eliges, las versiones que no elegiste no dejan de existir: dejas de verlas, que no es lo mismo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un hombre que no podía olvidar nada" },
+      {
+        b: "texto",
+        texto:
+          "Ireneo Funes es un muchacho de un pueblo del Uruguay que se cae de un caballo, queda paralítico y descubre que a partir de ese golpe no olvida absolutamente nada. Recuerda las vetas de cada tabla que ha visto, la forma de las nubes del amanecer del treinta de abril de mil ochocientos ochenta y dos y cada uno de los movimientos de su propio cuerpo desde entonces. Aprendió latín en unos días con una gramática y un diccionario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que parece un don es, en el cuento, una incapacidad. A Funes le costaba entender que la palabra genérica perro abarcara animales tan distintos, y le fastidiaba que el perro de las tres y catorce, visto de perfil, se llamara igual que el perro de las tres y cuarto, visto de frente. Para él eran cosas diferentes, y tenía razón: lo eran.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Borges saca de ahí la frase que sostiene el relato: pensar es olvidar diferencias, es generalizar, abstraer. En el mundo abarrotado y perfecto de Funes no cabían ideas, porque una idea consiste precisamente en tirar la mayor parte de lo que se percibe y quedarse con lo que se repite. Funes pasa las noches en una habitación a oscuras, tumbado, repasando su memoria, y muere joven.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pensar es olvidar diferencias: si te acordaras de todo con exactitud, no podrías tener una sola idea.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un laberinto de una sola línea recta" },
+      {
+        b: "texto",
+        texto:
+          "Los dos mejores relatos del libro son los que dejan de ser un mecanismo y le pasan algo a alguien. En La muerte y la brújula, un detective llamado Lönnrot investiga tres crímenes cometidos en fechas señaladas y en lugares que forman una figura sobre el plano de la ciudad. Desprecia la explicación policial, que es aburrida y probablemente cierta, y construye otra elegantísima, con cábala, con el nombre impronunciable de Dios y con una cuarta fecha y un cuarto lugar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Acierta y llega puntual al sitio que ha deducido. Allí lo espera el criminal, que ha cometido los tres primeros crímenes exactamente para que un hombre con esa cabeza dedujera el cuarto. Antes de dispararle, le concede una petición: Lönnrot le pide que la próxima vez, en otra vida, lo mate en un laberinto más simple, uno de una sola línea recta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro es El Sur, que Borges consideraba su mejor cuento. Un bibliotecario de Buenos Aires sube una escalera, se golpea la cabeza con una ventana abierta, enferma de septicemia y, al salir del sanatorio, viaja al campo, donde termina aceptando un duelo a cuchillo que no tiene ninguna posibilidad de ganar. El accidente es el de Borges. Y el cuento admite las dos lecturas a la vez: que el hombre viajó, o que murió en el quirófano y aquel viaje fue la muerte que él habría elegido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una explicación demasiado elegante suele ser la que alguien preparó pensando en cómo funciona tu cabeza.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Ficciones reúne diecisiete relatos que comparten un procedimiento —reseñar obras que no existen con el tono de un catálogo— y una obsesión: qué pasa cuando una idea abstracta se lleva hasta el final. Una biblioteca con todos los libros. Un hombre con toda la memoria. Un texto idéntico a otro y distinto. Una novela con todos los desenlaces. En cada caso, Borges no argumenta la idea: la construye y deja que el lector vea qué se rompe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un formato. Demostró que un cuento de doce páginas podía contener lo que un tratado y además leerse en el tranvía, y que la erudición podía ser un material narrativo en vez de un adorno.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Fingir que un libro enorme ya existe y limitarse a comentarlo ahorra quinientas páginas y dice exactamente lo mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es literatura hecha con literatura, y lo asume: no hay personajes con interior, no hay emociones y las mujeres están prácticamente ausentes. Quien busque que le importe alguien no lo va a encontrar aquí. Además la fórmula se repite: leídos de corrido, varios relatos son la misma máquina con otro decorado, y algunos exigen una erudición que si falta deja al lector fuera de la mitad de la broma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después. En 1942, la primera mitad de este libro quedó fuera del Premio Nacional argentino, y la revista Sur publicó un número entero de desagravio con textos de una treintena de escritores. La traducción francesa de 1951 lo lanzó en Europa, y en 1961 el Premio Formentor, compartido con Samuel Beckett, lo convirtió en una figura mundial; el Nobel no llegó nunca. Su rastro está en sitios muy distintos: Foucault abre uno de sus libros más conocidos citando una clasificación borgiana, Umberto Eco llamó Jorge de Burgos al bibliotecario ciego de El nombre de la rosa, y no hay historia de internet que no acabe mencionando la biblioteca de Babel.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   La casa de Bernarda Alba, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO: títulos cortos de imagen, afirmación en la primera
+   frase, caja del rayo en segunda persona.
+
+   Lo concreto que salva la prueba del título tapado: la fecha del
+   manuscrito, los ocho años de luto, la vecina real de Valderrubio, el
+   caballo garañón, la oveja de María Josefa y la última palabra del texto.
+   -------------------------------------------------------------------------- */
+
+const BERNARDA_ALBA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Terminada el 19 de junio de 1936" },
+      {
+        b: "texto",
+        texto:
+          "En la última página del manuscrito, Federico García Lorca anotó la fecha en que lo terminó: 19 de junio de 1936. Menos de dos meses después fue detenido en Granada y fusilado. Nunca vio esta obra representada, nunca la ensayó con actores y nunca hizo sobre ella los cambios que un autor de teatro hace siempre al oírla en voz alta encima de un escenario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se estrenó nueve años después, el 8 de marzo de 1945, en Buenos Aires, con Margarita Xirgu, que había sido su actriz y estaba exiliada. En España tardó casi treinta años en poder verse. El texto llegó hasta entonces a través de copias mecanografiadas que circulaban de mano en mano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El subtítulo que le puso es exacto y conviene leerlo: drama de mujeres en los pueblos de España. Y encima, antes del reparto, escribió una advertencia que decide el estilo de todo lo demás: que estos tres actos tienen la intención de un documental fotográfico. Venía de escribir Bodas de sangre y Yerma, cargadas de verso; aquí baja el lenguaje a ras de suelo y el resultado es su obra más seca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren cómo funciona: qué ordena Bernarda en su primera intervención, por qué no aparece en escena ningún hombre, qué papel tiene el dinero en el conflicto, qué dice la única persona a la que nadie escucha, quién vigila realmente a quién y por qué la obra termina con la palabra que termina.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El autor la dio por terminada y nunca la vio en un escenario, así que lo que se lee es un borrador definitivo por accidente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ocho años de luto" },
+      {
+        b: "texto",
+        texto:
+          "La obra empieza con un entierro y la primera decisión de Bernarda pone en marcha todo lo demás. Acaba de morir su segundo marido y anuncia la duración del luto: ocho años. Durante ese tiempo, dice, no ha de entrar en la casa el viento de la calle; se hará cuenta de que han tapiado con ladrillos puertas y ventanas. Así pasó en casa de su padre y en casa de su abuelo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle que hace insoportable la orden es la edad de las hijas. Son cinco: Angustias tiene treinta y nueve años, Magdalena treinta, Amelia veintisiete, Martirio veinticuatro y Adela veinte. Ocho años de encierro significan para las mayores el final de cualquier posibilidad de casarse, y en aquel pueblo casarse era la única forma de salir de esa casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bernarda añade en la misma escena el resto del reglamento. Mientras dure el luto, las hijas bordarán el ajuar: veinte piezas de hilo, sábanas y embozos. Ninguna saldrá. Ninguna se asomará. Y a Magdalena, que llora, le suelta la frase que resume el mundo entero de la obra: hilo y aguja para las hembras, látigo y mula para el varón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nada de esto se lo impone un hombre. Se lo impone su madre, que a su vez lo heredó de la suya, y que no lo hace por crueldad gratuita sino por lo que ella llama la decencia y el temor a lo que dirá el pueblo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi ninguna cárcel doméstica la construye un enemigo: la construye alguien que está convencido de estar protegiéndote.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un hombre que no sale nunca" },
+      {
+        b: "texto",
+        texto:
+          "La decisión formal más audaz de la obra es que en el escenario no aparece ni un solo hombre en los tres actos. Hay diez personajes con nombre y todos son mujeres: Bernarda, sus cinco hijas, su madre y dos criadas. Los hombres existen fuera: se los oye, se habla de ellos, pasan por la calle, entran a segar en verano, pero ninguno cruza la puerta delante del público.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el que mueve toda la trama es el que menos se ve. Pepe el Romano, un joven de veinticinco años, se ha comprometido con Angustias, que le lleva catorce y es la única hermana con dinero. Se acuesta con Adela, la menor, en el corral, de madrugada. Martirio está enamorada de él en silencio. Los tres vértices del conflicto dependen de un personaje que nunca dice una línea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto es doble y muy calculado. Por un lado, refuerza el encierro: el espectador también se queda dentro de la casa, sin ver la calle, igual que ellas. Por otro, convierte a Pepe en algo más útil que un personaje: es la salida, sea quien sea. Ninguna de las hermanas sabe realmente cómo es, y ninguna necesita saberlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien representa la única salida posible, deja de importar cómo sea esa persona: importa que es la puerta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La hija que tenía dinero" },
+      {
+        b: "texto",
+        texto:
+          "Debajo del drama del deseo hay uno económico, y la obra lo pone por delante desde el primer acto. Angustias es hija del primer marido de Bernarda y ha heredado de él; las otras cuatro son del segundo, que era pobre. En el reparto de la herencia, a Angustias le corresponde una fortuna y a sus hermanas, casi nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso Pepe el Romano, que tiene veinticinco años, va a casarse con la de treinta y nueve. Las propias hermanas lo dicen sin ningún eufemismo: la busca por el dinero. Magdalena comenta que aunque Angustias es fea y está deslucida, es la primera que tiene un pretendiente, y que si fuera por otra cosa ninguna de ellas estaría en esa situación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese detalle es el que impide leer la obra solo como una tragedia de pasiones. El encierro de Bernarda tiene una lógica de patrimonio: mantener el apellido, no mezclarse con quien está por debajo, no dar que hablar y conservar las tierras. Cuando la criada Poncia le sugiere que vigile a Adela, Bernarda contesta que en su casa no pasa nada porque ella está vigilando, y esa ceguera voluntaria también es una forma de administrar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Detrás de casi toda vigilancia moral hay unas cuentas, y basta con preguntar quién heredaría para verlas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una anciana con una oveja en brazos" },
+      {
+        b: "texto",
+        texto:
+          "El único personaje que dice la verdad en toda la obra está encerrado bajo llave. María Josefa, la madre de Bernarda, tiene ochenta años y la mantienen cerrada en un cuarto para que no la vean las visitas. Aparece tres veces, y cada una de sus salidas es la escena más incómoda del acto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la primera pide que le devuelvan sus cosas, que la dejen salir y que quiere casarse con un varón hermoso a la orilla del mar, porque en aquel pueblo los hombres huyen de las mujeres. En la última entra con una oveja en los brazos, la mece como a un niño y canta que ni tú ni yo queremos dormir, que la puerta sola se abrirá. Lo que dice es exactamente lo que las cinco hermanas piensan y no pueden formular.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese recurso es viejísimo y Lorca lo usa con precisión: la loca del desván como única voz autorizada para decir lo que todos saben. Su locura es también su salvoconducto. Cuando María Josefa dice que Bernarda tiene cara de lagarto y que ninguna de esas muchachas se va a casar, nadie la contradice; se limitan a llevársela.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En cualquier casa cerrada hay alguien que dice en voz alta lo que todos piensan, y por eso lo tratan de loco.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El pozo y la ventana" },
+      {
+        b: "texto",
+        texto:
+          "La obra tiene una idea incómoda que es la que la separa de un melodrama sobre la opresión: quienes vigilan de verdad son las propias encerradas. Bernarda dicta la norma, pero el sistema de espionaje lo montan las hijas entre ellas. Martirio escucha detrás de las puertas, Amelia cuenta lo que ha oído, Poncia mira por las rendijas y todas saben a qué hora se levanta cada una.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El origen real de la casa refuerza esa lectura. Lorca conoció en Valderrubio, un pueblo de la vega granadina donde su familia tenía tierras, a una vecina viuda con hijas soltera y llamada Frasquita Alba. La casa de sus primos lindaba con la de ella y compartían pozo medianero, y desde ese pozo se oía lo que se hablaba al otro lado. Algunos nombres de las hijas coinciden. Cuando la obra se conoció, la familia protestó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El pueblo entero funciona igual. En medio del segundo acto se oyen gritos: la hija de la Librada, soltera, ha tenido un hijo y lo ha matado para ocultarlo, y los vecinos la arrastran para lincharla. Bernarda sale gritando que la maten, y Adela, escuchando aquello, se agarra el vientre. Nadie en escena defiende a la muchacha; la que más grita pidiendo carbón encendido es Martirio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El vigilante más eficaz no es el que manda: es el que está encerrado contigo y tiene miedo de pagar por lo que tú hagas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La última palabra es silencio" },
+      {
+        b: "texto",
+        texto:
+          "El desenlace ocurre de madrugada y en pocos minutos. Adela ha estado viéndose con Pepe el Romano en el corral; Martirio la descubre y la delata. En el enfrentamiento, Adela le arranca a su madre el bastón que lleva en todas las escenas y lo parte en dos delante de todas, diciendo que en ella no manda nadie más que Pepe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bernarda sale con una escopeta y se oye un disparo. Martirio, que sabe la verdad, deja creer a su hermana que Pepe ha muerto; en realidad ha huido a caballo y el tiro ha fallado. Adela entra en un cuarto y cierra la puerta. Cuando la fuerzan, se la encuentran ahorcada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y entonces viene el final, que es lo que convierte la obra en lo que es. Bernarda no llora ni se derrumba. Ordena descolgarla, vestirla de virgen y que nadie diga nada. Repite tres veces que su hija menor ha muerto virgen y exige que la avisen para que a la mañana siguiente doblen las campanas. Sus últimas palabras, y las últimas del texto, son la misma repetida: silencio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay casas donde una muerte no cambia nada, porque lo único que se protegía nunca fue nadie de dentro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La casa de Bernarda Alba cuenta ocho años de luto impuestos por una madre a cinco hijas adultas, y cómo esa clausura acaba en un suicidio que se tapa en la misma escena. Lo hace sin un solo hombre en escena, con un lenguaje deliberadamente despojado y con un conflicto que es a la vez de deseo y de herencia. Su tesis es que quien sostiene el encierro no es un poder exterior, sino el miedo compartido a lo que dirán en el pueblo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una economía de medios difícil de igualar. Tres actos, una casa, diez mujeres, ningún decorado que cambie salvo el color de las paredes, y en ese espacio caben la honra, el dinero, la envidia, la vejez, el deseo y la violencia entre iguales.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La obra no termina con la muerte de una hija: termina con una madre ordenando cómo se va a contar esa muerte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es una obra de tesis y sus personajes cargan con ella: Martirio es la envidia, Adela la rebeldía, Angustias la resignación con dinero, y ninguna se sale de su función. La simbología está tan subrayada —el bastón que se parte, el caballo garañón que golpea los muros, el blanco de las paredes que se va enfriando acto a acto— que a un espectador de hoy puede resultarle explicada de más. Y quedó sin el pulido que dan los ensayos, cosa que se nota en algún desequilibrio del tercer acto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene además leerla por lo que es. Se cita mucho como manifiesto feminista, y esa etiqueta le queda grande: la obra describe una represión con enorme exactitud y no propone ninguna salida, ninguna alianza entre esas mujeres y ninguna esperanza. La única que se rebela se ahorca, y la penúltima frase de la obra es una orden de callarse. Como retrato, es implacable; como programa, no hay ninguno.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "bernarda-alba": BERNARDA_ALBA,
+  ficciones: FICCIONES,
   "sobre-tirania": SOBRE_TIRANIA,
   mandela: MANDELA,
   "eichmann-jerusalen": EICHMANN_JERUSALEN,
