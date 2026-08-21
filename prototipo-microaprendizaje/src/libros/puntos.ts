@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "pedro-paramo": [
+    "en qué momento se descubre lo que pasa en Comala",
+    "cómo está montado un libro de sesenta y ocho trozos",
+    "cómo se hizo Pedro Páramo dueño de todo un valle",
+    "qué es lo único que no pudo comprar",
+    "qué hizo para que el pueblo se muriera de hambre",
+  ],
+
   "nombre-rosa": [
     "por qué el investigador se apellida Baskerville",
     "por qué nadie puede entrar en la biblioteca",

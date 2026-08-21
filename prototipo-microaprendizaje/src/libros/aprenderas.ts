@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "pedro-paramo":
+    "Un hombre va a Comala a buscar al padre que no conoce, tal como le pidió su madre al morir. Encuentra un pueblo vacío en el que, sin embargo, se oye hablar a mucha gente.",
+
   "nombre-rosa":
     "En una abadía de 1327 aparecen siete monjes muertos en siete días, y todos habían pasado por la biblioteca. Un fraile inglés investiga qué libro es el que mata.",
 

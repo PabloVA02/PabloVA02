@@ -17445,7 +17445,234 @@ const NOMBRE_ROSA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Pedro Páramo, en ocho páginas.
+
+   Breve: son ciento treinta páginas.
+
+   Registro narrativo. El problema de este libro es que su mejor efecto es
+   un descubrimiento —que todos están muertos, el narrador incluido— y
+   salta a la mitad. Aquí se cuenta, porque sin eso no se entiende nada
+   del resto y porque el libro no se lee por la sorpresa: se lee por cómo
+   suena.
+
+   Lo que casi nadie cuenta y aquí sí está: que son sesenta y ocho
+   fragmentos sin orden; que Rulfo quitó a mano todos los puentes; que
+   después de esto no publicó casi nada en treinta años; y que García
+   Márquez se lo aprendió de memoria.
+   -------------------------------------------------------------------------- */
+
+const PEDRO_PARAMO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Vine a Comala porque me dijeron" },
+      {
+        b: "texto",
+        texto:
+          "Vine a Comala porque me dijeron que acá vivía mi padre, un tal Pedro Páramo. Con esa frase empieza uno de los libros más raros que se han escrito, y en ella ya está casi todo: alguien que llega a un sitio, una madre que ha muerto y le ha hecho prometer que vaya, y un padre al que no conoce y del que solo tiene un nombre y un rencor prestado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Juan Preciado baja hacia Comala en agosto, por un camino cuesta abajo, con un arriero que le va contando cosas. El pueblo, dice el arriero, está sobre las brasas de la tierra, en la mera boca del infierno, y muchos de los que se mueren allí vuelven por su cobija. En el camino Juan le pregunta a quién pertenecen todas esas tierras y el otro contesta lo mismo cada vez: a Pedro Páramo. Y al despedirse le dice que Pedro Páramo era también su padre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ciento treinta páginas, publicadas en México en 1955. Vendió mal y las reseñas fueron tibias. Hoy es el libro fundacional de media literatura latinoamericana: García Márquez contó que lo leyó dos veces la misma noche, que llegó a recitarlo de memoria y que fue lo que le enseñó por dónde seguir después de un año sin poder escribir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que hay que saber para no perderse: qué encuentra Juan en Comala, en qué momento se entera el lector de lo que pasa, cómo está montado el libro, quién fue Pedro Páramo, qué es lo único que no pudo comprar y cómo acaba todo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un hijo va a buscar a su padre a un pueblo que está en la boca del infierno, y lo primero que le dicen es que él también lo era.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un pueblo vacío y lleno de voces" },
+      {
+        b: "texto",
+        texto:
+          "Comala está deshabitada y a la vez no lo está. Juan llega y encuentra calles sin nadie, casas abiertas, un calor que no deja respirar. Una mujer lo aloja, doña Eduviges, que le dice que su madre le avisó de que iba a llegar. Y Juan cae en la cuenta de que su madre murió hace una semana y no pudo avisar a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ahí las cosas dejan de encajar y el libro no las explica. Oye conversaciones de gente que no está, risas en cuartos vacíos, pasos, alguien que se queja detrás de una pared. Los pocos que aparecen dicen frases raras: una mujer le cuenta que ya no queda nadie, otra que hace mucho que Eduviges murió, un hombre y su hermana que viven juntos como marido y mujer le explican que no tienen alma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y entonces, hacia la mitad exacta del libro, ocurre lo que lo cambia todo. Juan Preciado, encerrado en un cuarto, sin aire, rodeado de murmullos que suben de intensidad, se muere de miedo. Y sigue contando. La voz que nos ha traído hasta aquí continúa hablando desde debajo de la tierra, en una tumba compartida con una mendiga llamada Dorotea, que le va explicando lo que él no entendió mientras estaba vivo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El narrador se muere a mitad de libro y sigue contando: a partir de ahí, todo lo que oíamos eran muertos hablando entre ellos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Sesenta y ocho trozos" },
+      {
+        b: "texto",
+        texto:
+          "El libro no tiene capítulos: tiene sesenta y ocho fragmentos separados por un blanco, sin numerar, sin fechas y sin ningún aviso de quién habla ni cuándo ocurre. Se salta de la llegada de Juan a la infancia de Pedro Páramo, de ahí a un diálogo entre dos muertos y de ahí a una escena de la revolución, sin transición.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rulfo contó cómo lo hizo, y es lo más útil que se puede saber de este libro. Escribió una primera versión ordenada y de trescientas páginas, y después se dedicó a quitar: eliminó las explicaciones, los enlaces, los avisos al lector, las frases que decían quién estaba hablando. Dijo que había cortado unas ciento cincuenta páginas, y que lo que buscaba era que quedara solo lo que se oye.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso la primera lectura desconcierta y la segunda es otra cosa. Hay dos tiempos trenzados: el presente de Juan, que dura una noche y ya está muerto, y el pasado del pueblo, que abarca sesenta años y llega en pedazos por boca de los que lo vivieron. Al terminar, el lector tiene el rompecabezas completo, y ninguna pieza se lo ha dado nadie ordenada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribió trescientas páginas y quitó ciento cincuenta: lo que hace grande a este libro es lo que decidió no explicar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Quién fue el hombre" },
+      {
+        b: "texto",
+        texto:
+          "Pedro Páramo no nació rico. Su familia estaba arruinada y llena de deudas cuando él, todavía joven, tomó las riendas con un método sencillo: quedarse con todo. A quien le debía dinero le ofrecía cancelar la deuda casándose con su hija —así se casó con Dolores Preciado, la madre de Juan, a la que después mandó a vivir fuera y de la que no volvió a acordarse—; a quien le estorbaba lo mandaba matar; a quien tenía tierras se las compraba con dinero que no pagaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En unos años era el dueño de todo el valle: la Media Luna, las tierras de alrededor, el agua, el ganado, el cura y el pueblo. Tuvo hijos con muchas mujeres y no reconoció a ninguno salvo a uno, Miguel, un hijo violento al que protegía de todo y que murió de una caída de caballo. Cuando el cura le dijo que su hijo se había ido al infierno, Pedro Páramo le contestó que le daba igual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está el retrato del cacique que este libro fijó para siempre en la literatura latinoamericana: no un tirano exótico, sino un hombre práctico que entiende que la propiedad de la tierra es la propiedad de las personas que viven en ella. Lo llaman un rencor vivo. Media docena de novelas posteriores, de García Márquez a Vargas Llosa, salen de este personaje.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hizo falta un ejército: bastó con ser el dueño del agua, de la tierra y de las deudas de todos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo único que no pudo comprar" },
+      {
+        b: "texto",
+        texto:
+          "Debajo del cacique hay un niño de siete años sentado en el escusado pensando en Susana San Juan, y esa es la clave del personaje. Susana fue su amiga de infancia, la única cosa que quiso de verdad, y se marchó del pueblo con su padre. Pedro Páramo se pasó treinta años esperándola, y todo lo que construyó lo construyó, según el libro sugiere, para poder traerla de vuelta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando por fin lo consigue —hace matar a su padre para que ella vuelva sola—, se la trae a la Media Luna y descubre que no ha ganado nada. Susana está loca, o algo parecido: se pasa el día en la cama hablando sola, con la ventana cerrada, recordando a un marido muerto llamado Florencio y un mar en el que se bañaba desnuda. No lo reconoce. No lo mira. Está en otro sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Él se sienta a la puerta de su cuarto noche tras noche a oírla delirar por un hombre que no es él. Susana muere sin haberle dicho una palabra que valga. Y el pueblo, que oye doblar las campanas, entiende que hay fiesta: llegan de todas partes, ponen puestos, hay música y feria durante tres días encima de su duelo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Compró un valle entero para traerla de vuelta, y cuando la tuvo delante ella hablaba con otro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Me cruzaré de brazos" },
+      {
+        b: "texto",
+        texto:
+          "La venganza de Pedro Páramo por aquella fiesta es la frase más famosa del libro y la más fría. Mirando la feria desde su ventana, dice que se cruzará de brazos y que Comala se morirá de hambre. Y lo hace: deja de sembrar, deja de dar trabajo, deja de mover una sola cosa. No hace falta que mate a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí se explica lo que Juan Preciado se encontró al llegar. El pueblo vacío del principio, las casas abiertas y el calor sin gente son el resultado de esa decisión: la gente se fue o se murió, y los que quedaron están enterrados hablando bajo tierra. El lector tarda cien páginas en entender que ya sabía cómo acababa esto desde la primera página.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Antes ha pasado también la revolución. Llegan unos hombres armados a la Media Luna anunciando que se han levantado, y Pedro Páramo los recibe, les pregunta contra quién, les da dinero, hombres y consejo, y los manda a pelear a otra parte con uno de los suyos al mando. Es una de las escenas más lúcidas del libro: la revolución pasa por encima del pueblo y el dueño sigue siendo el dueño.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No mandó matar a nadie: se cruzó de brazos, y con eso bastó para vaciar un pueblo entero.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un montón de piedras" },
+      {
+        b: "texto",
+        texto:
+          "El final de Pedro Páramo ocupa media página. Ya viejo, sentado en un equipal junto a la puerta de la Media Luna, mirando el camino por donde se fue todo, se levanta apoyándose en los brazos y echa a andar. Aparece Abundio, el arriero del principio, borracho, que acaba de enterrar a su mujer y viene a pedir dinero para el entierro; hay un forcejeo y lo apuñala.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y entonces el libro escribe una de las últimas frases más recordadas del idioma: dio un golpe seco contra la tierra y se fue desmoronando como si fuera un montón de piedras. Eso es todo. El hombre que era dueño de todo se deshace en el suelo como lo que había hecho con su pueblo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene notar quién lo mata: su propio hijo, uno de los muchos que no reconoció, el mismo que llevó a Juan Preciado hasta Comala en la primera página. El círculo se cierra sin que nadie lo anuncie, como todo en este libro, y hay que darse cuenta solo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se desmorona como un montón de piedras, y lo mata uno de los hijos que nunca quiso reconocer.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Pedro Páramo cuenta cómo un hombre se hizo dueño de un valle entero y cómo lo dejó morir por un rencor, y lo cuenta desde dentro del cementerio, con las voces de los que vivieron aquello. Su tesis está en la forma: un pueblo arruinado por un cacique no es un lugar con historia, es un lugar sin futuro, y por eso todos sus habitantes hablan en pasado aunque sigan hablando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una manera de escribir que no existía. Fragmentos sin explicación, diálogos de muertos, tiempos superpuestos y un castellano de campo mexicano lleno de silencios, sin una sola frase de más. De aquí salen Cien años de soledad —García Márquez lo dijo mil veces— y buena parte de lo que después se llamó realismo mágico.",
+      },
+      { b: "idea", texto: "Me crucé de brazos y Comala se murió de hambre." },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, o mejor dicho, qué hay que saber. La primera lectura desorienta a casi todo el mundo: no se sabe quién habla, ni cuándo, ni si está vivo. Es un libro que está pensado para leerse dos veces, y de hecho se lee entero en dos tardes. En la segunda vuelta, cuando ya se sabe que todos están muertos y quién es cada cual, no queda ni un cabo suelto: lo que parecía desorden era un mecanismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que pasó después es raro y forma parte del personaje. Rulfo había publicado el año anterior un libro de cuentos, El llano en llamas, y después de Pedro Páramo no volvió a publicar novela en los treinta y un años que le quedaban de vida. Anunció varias, dio explicaciones distintas —que se le había muerto el tío que le contaba las historias, que trabajaba, que no le salía— y se convirtió en un escritor famoso sobre todo por su silencio. Dos libros de doscientas páginas en total, y con eso cambió un idioma.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "pedro-paramo": PEDRO_PARAMO,
   "nombre-rosa": NOMBRE_ROSA,
   "viejo-mar": VIEJO_MAR,
   montecristo: MONTECRISTO,

@@ -1320,22 +1320,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "pedro-paramo",
-    titulo: "Pedro Páramo",
-    autor: "Juan Rulfo",
-    ano: 1955,
-    gancho: "Ciento treinta páginas. Su autor no publicó nada más en treinta y un años. García Márquez decía que se lo sabía de memoria, del principio al final y al revés.",
-    porQue: "Porque es la novela que desbloqueó la literatura latinoamericana del siglo XX, y porque hay que saber una cosa antes de empezarla para no perderse.",
-    minutos: 21.1,
-    capitulos: [
-      { titulo: "El tío Celerino", minutos: 4.1 },
-      { titulo: "Vine a Comala", minutos: 4.2 },
-      { titulo: "Los murmullos", minutos: 4.2 },
-      { titulo: "Susana San Juan", minutos: 4.4 },
-      { titulo: "Un montón de piedras", minutos: 4.2 },
-    ],
-  },
-  {
     id: "ficciones",
     titulo: "Ficciones",
     autor: "Jorge Luis Borges",
