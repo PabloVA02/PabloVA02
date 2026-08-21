@@ -50404,7 +50404,273 @@ const RENGLONES_TORCIDOS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Mujercitas, en ocho páginas.
+
+   Breve. NOVELA → apartado 3 bis: titular corto de imagen, la afirmación en
+   la primera frase, caja del rayo en segunda persona.
+
+   La trampa de este libro es contarlo como lo cuenta su fama: cuatro
+   hermanas buenas y una lección. El apartado 4 bis dice que hay que contar
+   lo que casi nadie cuenta, y aquí eso está documentado en los diarios de
+   la propia Alcott: escribió por encargo un libro que no quería escribir,
+   se negó por escrito a casar a Jo con Laurie, y firmaba a la vez novelas
+   de intriga con seudónimo.
+
+   El dinero recorre el resumen entero porque recorre el libro entero, y es
+   la parte que la versión edulcorada borra siempre.
+   -------------------------------------------------------------------------- */
+
+const MUJERCITAS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un encargo que no quería" },
+      {
+        b: "texto",
+        texto:
+          "El libro más querido de la literatura infantil estadounidense lo escribió alguien que no quería escribirlo. En 1868, el editor Thomas Niles le pidió a Louisa May Alcott una novela para niñas. Ella apuntó en su diario que lo intentaría, y poco después que iba avanzando aunque aquello no le gustaba, que nunca le habían gustado las niñas ni conocía a muchas, salvo a sus hermanas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aceptó porque necesitaba el dinero, y ese dato no es una anécdota: es el motor del libro. Su padre, Bronson Alcott, era un filósofo idealista que había arruinado a la familia en experimentos educativos y comunidades utópicas, y quien sostenía económicamente la casa era ella, escribiendo. La pobreza de las March no es un decorado moral: es la de las Alcott.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La novela se publicó en dos partes, en 1868 y 1869, y transcurre en un pueblo de Massachusetts durante la guerra civil estadounidense, con el padre de familia ausente como capellán en el frente. Las cuatro hermanas March —Meg, Jo, Beth y Amy— corresponden bastante de cerca a las cuatro hermanas Alcott, y Jo es Louisa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: cómo el primer capítulo instala en veinte páginas toda la moral del libro, quién es Jo y qué hace con el dinero, la armazón religiosa que sostiene la primera parte, qué hace la novela con la muerte de una hermana, la decisión de la autora que más se ha discutido en siglo y medio, y por qué la hermana que peor caía a todo el mundo ha cambiado de sitio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro que millones de personas leyeron como un retrato de la bondad doméstica lo escribió por encargo alguien que necesitaba pagar las facturas de su casa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Navidad sin regalos" },
+      {
+        b: "texto",
+        texto:
+          "La primera frase de la novela la dice Jo tumbada en la alfombra: que la Navidad no será Navidad sin regalos. En veinte páginas, a partir de esa queja, Alcott monta el mecanismo moral que va a funcionar durante todo el libro, y lo monta con dinero encima de la mesa, no con sermones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las cuatro hermanas tienen un dólar cada una. Primero deciden gastárselo en sí mismas y cada una dice en qué: partituras, libros, lápices, colonia. Después deciden comprarle algo a su madre en su lugar. Y la mañana de Navidad, cuando por fin tienen delante un desayuno bueno, su madre les cuenta que en el pueblo hay una familia de inmigrantes sin nada, y las cuatro se levantan y se lo llevan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el patrón de toda la novela: un deseo legítimo, una renuncia decidida por quien la hace, y una consecuencia que llega enseguida. Alcott no escribe niñas buenas, escribe niñas que quieren cosas y que a veces las dejan, y por eso sus renuncias significan algo. Meg quiere ropa, Jo quiere gloria, Amy quiere posición y Beth quiere que la dejen en paz.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la novela retrata a las cuatro con sus defectos declarados, cosa rarísima en un libro para niñas de 1868. Meg es vanidosa, Jo tiene un carácter violento que le hace daño a la gente, Amy es egoísta y calculadora, y Beth es tan tímida que no puede sostener una conversación. Ese es el fardo que cada una lleva y lo que la novela va a trabajar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una renuncia solo vale algo si antes has dicho en voz alta qué era exactamente lo que querías.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Veinticinco dólares por una melena" },
+      {
+        b: "texto",
+        texto:
+          "La escena que define a Jo March no es literaria: es económica. Llega a casa un telegrama diciendo que el padre está muy enfermo en un hospital de Washington y que la madre debe viajar, y no hay dinero para el viaje. Jo desaparece unas horas y vuelve con veinticinco dólares y con la cabeza rapada: ha vendido su pelo, que era lo único que ella misma consideraba bonito de sí misma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa noche llora en la cama, y cuando su hermana la oye, Jo dice que no llora por su padre sino por su pelo, y que ya se le pasará. Esa admisión —que un sacrificio duele aunque se haga con gusto y que se puede llorar por una vanidad sin dejar de ser generosa— es más honesta que casi toda la literatura moral del siglo XIX.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Jo escribe, y escribe para vender. Manda relatos de intriga a los periódicos, cobra por ellos, y ese dinero entra en la casa. La novela es muy explícita con las cantidades, con los plazos y con la humillación de negociar; hay un capítulo entero dedicado a la primera vez que le pagan por un cuento y a lo que hace con ese dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está el segundo espejo con su autora. Mientras escribía este libro edificante, Alcott firmaba con seudónimo novelas de intriga con venganzas, drogas y mujeres calculadoras, que se vendían muy bien y de las que no hablaba. Eso no se supo del todo hasta más de un siglo después, cuando dos investigadoras identificaron el seudónimo y publicaron aquellos relatos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Puedes hacer algo generoso y llorar por lo que te ha costado: lo segundo no anula lo primero, y fingir que no duele no lo hace más noble.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El peregrino y su fardo" },
+      {
+        b: "texto",
+        texto:
+          "La primera parte del libro está construida sobre otro libro. Las hermanas juegan de pequeñas a ser peregrinos siguiendo «El progreso del peregrino», la alegoría que John Bunyan publicó en 1678 y que era lectura habitual en cualquier casa protestante: un hombre camina hacia la Ciudad Celestial cargando un fardo y atravesando el Pantano del Desaliento y la Feria de las Vanidades.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Alcott toma ese esquema y lo aplica a cuatro adolescentes en su propia casa. Cada hermana tiene su fardo, que es su defecto de carácter, y cada capítulo es una etapa. El libro entero está organizado como una peregrinación doméstica en la que los monstruos son la vanidad, la envidia, la timidez y la ira.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese armazón explica lo mejor y lo peor de la novela. Lo mejor, que tiene una estructura firme y que los conflictos son morales y concretos en lugar de sentimentales. Lo peor, que algunos capítulos son sermones con diálogos: hay uno en el que las cuatro dejan de trabajar durante una semana para demostrar que el ocio no hace feliz, y el resultado es una demostración escolar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene leerlo sabiendo de dónde viene, porque cambia el efecto. Un lector actual que tropieza con esas páginas suele pensar que la autora está moralizando por su cuenta; en realidad está citando una tradición que sus lectoras reconocían, igual que hoy se reconoce una referencia a una película. La moral está prestada; lo que Alcott pone es que las peregrinas se equivocan mucho.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todo el mundo carga con un fardo y casi nadie sabe decir cuál es el suyo: nombrarlo es la mitad del trabajo de quitárselo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La hermana que se muere" },
+      {
+        b: "texto",
+        texto:
+          "Beth March enferma por cuidar a la familia de inmigrantes a la que le habían llevado el desayuno de Navidad, y nunca se recupera del todo. Su muerte, en la segunda parte, es el episodio más recordado del libro y también el que más ha envejecido en su forma: está escrito con la retórica de las muertes bellas del siglo XIX, con luz suave, dulzura y resignación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás hay un hecho que no tiene nada de suave. Elizabeth Alcott, la tercera hermana de Louisa, murió en 1858 con veintidós años por las secuelas de una escarlatina contraída exactamente así, al atender a una familia pobre del vecindario. Louisa la cuidó y la vio morir, y escribió sobre ello en su diario con un detalle que no se parece nada al capítulo de la novela.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa distancia entre lo que ocurrió y cómo lo cuenta el libro es una decisión, no una torpeza. Alcott estaba escribiendo para un mercado que quería consuelo, y le dio consuelo. Lo que sí conserva de la experiencia es lo mejor del capítulo: el detalle doméstico de una enfermedad larga, la manera en que una casa se organiza alrededor de una habitación, y el hecho de que la vida siga ocurriendo alrededor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una consecuencia argumental que suele pasarse por alto. La muerte de Beth es lo que empuja a Jo a escribir en serio: se queda sin la hermana que la escuchaba, se encierra a escribir para soportarlo y sale de ahí con un libro que no se parece a lo que escribía antes. La novela hace del duelo el origen de una obra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El trabajo que sale de un duelo no lo repara, pero suele ser el primero que se parece de verdad a quien lo hace.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La carta de las lectoras" },
+      {
+        b: "texto",
+        texto:
+          "Entre la primera y la segunda parte, Alcott recibió una avalancha de cartas de lectoras exigiendo saber con quién se casaban las hermanas, y sobre todo pidiendo que Jo se casara con Laurie, el vecino rico y encantador. Ella apuntó en su diario que las niñas escribían para preguntar con quién se casaban las mujercitas, como si ese fuera el único fin y objetivo de la vida de una mujer, y que no iba a casar a Jo con Laurie para complacer a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su solución fue una maniobra doble y bastante irónica. No dejó soltera a Jo, porque su editor no lo habría permitido y porque el libro tenía que venderse; pero la casó con el profesor Bhaer, un alemán mayor que ella, pobre, corpulento, con el abrigo raído y sin nada de romántico. Es decir: cedió en la forma y no cedió en el fondo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado es la decisión más discutida de la novela desde hace siglo y medio. Generaciones de lectoras han considerado ese matrimonio una traición al personaje, y no les falta razón textual: la energía de Jo, su ambición y su rabia se apagan bastante en las últimas páginas, y termina dirigiendo una escuela para niños en lugar de escribiendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El contexto lo explica sin justificarlo del todo. Alcott escribía por encargo, con un editor detrás y un público que compraba finales, y ella misma no se casó nunca; escribió en su diario que prefería remar en su propia canoa. Quien lee hoy la segunda parte está leyendo una negociación comercial visible dentro del texto, y saberlo la vuelve mucho más interesante.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando un final te chirría, mira quién lo pagó: muchas veces la incoherencia de un personaje es la huella de una negociación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La hermana que sabía contar" },
+      {
+        b: "texto",
+        texto:
+          "Durante cien años, Amy fue la hermana antipática: la pequeña que quema el manuscrito de Jo por despecho, la que quiere ropa cara, la que se casa con Laurie después de que él haya sido rechazado por su hermana. La lectura actual la ha cambiado de sitio, y no por caridad, sino porque hay un pasaje que no encaja con esa versión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En él, Amy le explica a Laurie por qué piensa casarse por dinero, y no lo dice como una frivolidad sino como un análisis. Una mujer de su época no puede ganar dinero, no puede conservar lo que gana ni lo que hereda si se casa, y no tiene ninguna profesión abierta; por lo tanto, el matrimonio es la única decisión económica de su vida y va a tomarla como tal. Es la página más lúcida del libro sobre la posición real de esas cuatro chicas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Vista así, la novela deja de ser un retrato de cuatro caracteres y pasa a ser un mapa de cuatro estrategias ante el mismo problema. Meg acepta las reglas y se casa por amor con un hombre pobre, y la novela le enseña la factura. Jo intenta ganarse la vida escribiendo. Amy calcula. Y Beth no elige, se queda en casa, y es la única que no sobrevive.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Que Beth sea la más buena y la que muere no es casual en un libro de 1869, y es lo más duro que dice sin decirlo. La hermana que no quiere nada, que no negocia, que no sale y que se contenta con lo que hay, es la que desaparece. Las tres que quieren algo del mundo, cada una a su manera, siguen ahí al final.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de juzgar la decisión de alguien, mira qué opciones tenía realmente disponibles: muchas veces lo que parece carácter era aritmética.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La novela cuenta cuatro años de una familia sin dinero durante una guerra, y organiza esa vida como una peregrinación en la que cada hermana carga con un defecto y va aprendiendo a soltarlo. Lo que la mantiene viva no es la moral, que es la de su época, sino que las cuatro quieren cosas concretas y que el libro dice siempre cuánto cuestan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es Jo March. Antes de ella casi no había en la literatura una chica que quisiera ser escritora, que tuviera mal genio, que ganara dinero con su trabajo y que no quisiera casarse; y varias generaciones de escritoras han dicho que empezaron por ahí. Simone de Beauvoir contó en sus memorias que se reconoció en ella siendo niña.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en lo que le impusieron y en lo que aceptó. La segunda parte pierde el nervio en cuanto empieza el reparto de matrimonios, y el final de Jo —una escuela de niños en lugar de una obra— sigue sonando a renuncia siglo y medio después. Y hay capítulos que son sermones con diálogo, escritos para un público que compraba mejora moral.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un fallo que ella no eligió y otro que sí. El que no eligió es la presión comercial, visible dentro del texto. El que sí es la familia pobre del pueblo, que aparece varias veces como ocasión de caridad y a la que la novela no le da nunca una frase propia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después ha ido revelando a la autora que el libro escondía. Alcott no se casó nunca y murió en 1888, dos días después que su padre. En el siglo XX se descubrió que había firmado con seudónimo un puñado de novelas de intriga muy alejadas de esta. Y en 2019 la película de Greta Gerwig llevó al cine lo que decían sus diarios: montó la historia de modo que el matrimonio final aparece como lo que fue, una negociación entre una escritora y su editor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si un personaje se apaga al final de un libro, pregúntate si se apagó por dentro de la historia o por fuera, en el despacho del editor.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  mujercitas: MUJERCITAS,
   "renglones-torcidos": RENGLONES_TORCIDOS,
   "elegancia-erizo": ELEGANCIA_ERIZO,
   "el-tunel": EL_TUNEL,

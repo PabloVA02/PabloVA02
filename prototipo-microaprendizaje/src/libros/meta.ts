@@ -344,22 +344,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "mujercitas",
-    titulo: "Mujercitas",
-    autor: "Louisa May Alcott",
-    ano: 1868,
-    gancho: "Le encargaron un libro para chicas. Escribió en su diario que no le apetecía nada, que nunca le habían gustado las chicas y que no conocía a ninguna aparte de sus hermanas. Lo terminó en diez semanas.",
-    porQue: "Porque el libro que enseñó a varias generaciones de mujeres que se podía querer otra cosa lo escribió alguien que estaba negociando, capítulo a capítulo, con lo que su editor le dejaba escribir.",
-    minutos: 22.1,
-    capitulos: [
-      { titulo: "Fruitlands, siete meses", minutos: 4.5 },
-      { titulo: "Un libro para chicas", minutos: 4.2 },
-      { titulo: "No voy a casar a Jo con Laurie", minutos: 4.4 },
-      { titulo: "La casa de Concord", minutos: 4.6 },
-      { titulo: "El escritorio entre dos ventanas", minutos: 4.4 },
-    ],
-  },
-  {
     id: "cuentos-poe",
     titulo: "Cuentos de Edgar Allan Poe",
     autor: "Edgar Allan Poe",

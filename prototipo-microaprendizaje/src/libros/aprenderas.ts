@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  mujercitas:
+    "Alcott aceptó en 1868 un encargo que no quería —una novela para niñas— porque necesitaba el dinero para mantener a su familia. Salieron cuatro hermanas sin dinero durante una guerra, y una de ellas quería ser escritora.",
+
   "renglones-torcidos":
     "Una mujer ingresa en un hospital psiquiátrico y explica que es detective privado y que está allí investigando un asesinato. Su relato es coherente, y también es exactamente lo que construiría un delirio bien organizado.",
 

@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  mujercitas: [
+    "cómo el primer capítulo instala toda la moral del libro",
+    "qué vende Jo March y por cuánto",
+    "de qué libro de 1678 sale la estructura de la primera parte",
+    "por qué Alcott se negó a casar a Jo con Laurie",
+    "por qué Amy ha dejado de ser la hermana antipática",
+  ],
+
   "renglones-torcidos": [
     "por qué su historia no se puede confirmar ni desmentir",
     "cómo dos psiquiatras llegan a conclusiones opuestas del mismo expediente",
