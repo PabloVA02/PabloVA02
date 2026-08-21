@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  leonardo: "La biografía",
   "roba-artista": "Las cosas que nadie te ha dicho sobre ser creativo",
   "por-que-fracasan": "Los orígenes del poder, la prosperidad y la pobreza",
   "deja-de-ser-tu": "La mente crea la realidad",

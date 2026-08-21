@@ -38,14 +38,12 @@ const CARGADORES: Record<string, Cargador> = {
 
   /* Arte */
   "van-gogh-cartas": () => import("./arte").then((m) => m.CARTAS_THEO),
-  leonardo: () => import("./arte").then((m) => m.LEONARDO),
 
   /* Historia */
   "diario-ana-frank": () => import("./historia").then((m) => m.ANA_FRANK),
   "armas-germenes": () => import("./historia").then((m) => m.ARMAS_GERMENES),
 
   /* Ciencia */
-  feynman: () => import("./ciencia").then((m) => m.FEYNMAN),
 
   /* Salud */
   "nacidos-correr": () => import("./salud").then((m) => m.NACIDOS_CORRER),

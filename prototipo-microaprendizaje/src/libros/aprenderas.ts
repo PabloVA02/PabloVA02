@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  feynman:
+    "No es una autobiografía ni la escribió él: son siete años de conversaciones grabadas por un amigo con el que tocaba percusión, transcritas y ordenadas después. Por eso el libro suena exactamente a alguien hablando.",
+
+  leonardo:
+    "Se conservan siete mil doscientas páginas de sus cuadernos, alrededor de una cuarta parte de las que escribió. En la misma hoja hay un músculo del hombro, un cálculo hidráulico y un recordatorio para comprar mostaza.",
+
   "sobre-fotografia":
     "Seis ensayos publicados en una revista literaria entre 1973 y 1977, sobre qué le hace a una persona mirar imágenes. El libro no contiene ni una sola fotografía, y esa ausencia es deliberada.",
 

@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  feynman: [
+    "qué le enseñó su padre sobre el nombre de las cosas",
+    "a qué se dedicaba mientras se construía la bomba atómica",
+    "qué descubrió dando clase de física en Brasil",
+    "qué pasó cuando evaluó libros de texto escolares",
+    "de dónde salió el trabajo que le dio el Nobel",
+  ],
+
+  leonardo: [
+    "por qué sus cuatro desventajas de partida fueron una ventaja",
+    "qué se apuntaba en aquellas listas de cosas por averiguar",
+    "qué averiguó abriendo treinta cadáveres de noche",
+    "por qué la Última Cena empezó a caerse en vida suya",
+    "cómo está construida la sonrisa que aparece y desaparece",
+  ],
+
   "sobre-fotografia": [
     "por qué hacer una foto de algo es apropiárselo",
     "por qué el vocabulario del oficio es el de un arma",

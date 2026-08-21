@@ -35880,7 +35880,644 @@ const SOBRE_FOTOGRAFIA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Leonardo da Vinci, en doce páginas.
+
+   AMPLIO: son diez argumentos independientes —el origen, los cuadernos, la
+   anatomía, la Última Cena, la Gioconda, la geología, los proyectos sin
+   terminar, Francia—. En ocho páginas saldría la lista de tópicos.
+
+   Registro NARRATIVO (biografía): títulos cortos de imagen, afirmación en
+   la primera frase, caja del rayo en segunda persona.
+   -------------------------------------------------------------------------- */
+
+const LEONARDO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Siete mil doscientas páginas de cuadernos" },
+      {
+        b: "texto",
+        texto:
+          "Walter Isaacson había escrito antes biografías de Einstein, de Franklin y de Steve Jobs cuando se puso con esta, publicada en 2017. Su material principal no son las pinturas: son los cuadernos. Se conservan alrededor de siete mil doscientas páginas manuscritas de Leonardo, y se calcula que son aproximadamente una cuarta parte de las que llegó a escribir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esas páginas no son un diario ni un tratado. Son un revoltijo deliberado: en la misma hoja hay el estudio de un músculo del hombro, la lista de la compra, un chiste, el dibujo de una máquina de guerra, un cálculo sobre la caída del agua y una anotación para recordar comprar mostaza. Isaacson sostiene que esa mezcla no es desorden, es el método.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la tesis del libro, que va contra la idea habitual de genio. Leonardo no era, dice, un talento sobrenatural inexplicable: era alguien con una curiosidad desmedida y desordenada, que se pasó la vida mirando cosas con una atención que casi nadie sostiene, y esa capacidad se puede describir, se puede analizar y en parte se puede imitar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas doce páginas recorren lo que cuenta: por qué sus desventajas de partida fueron una ventaja, qué había en aquellas listas, qué encontró abriendo cadáveres, por qué la Última Cena se estropeó en vida suya, cuántos años tuvo la Gioconda en su taller, por qué su sonrisa funciona así, qué dedujo de unas conchas en una montaña y cuántos cuadros llegó a terminar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En la misma página hay un músculo del hombro, un cálculo hidráulico y un recordatorio para comprar mostaza, y esa mezcla es el método.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuatro desventajas de partida" },
+      {
+        b: "texto",
+        texto:
+          "Leonardo nació en 1452 en una aldea de la Toscana, hijo de un notario acomodado y de una campesina joven que no se casó con él. Esa ilegitimidad, que en su época marcaba a alguien para toda la vida, es la primera de las cuatro circunstancias que Isaacson considera decisivas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo considera así por una razón concreta: los gremios de Florencia exigían legitimidad para ejercer, de modo que Leonardo no pudo ser notario como su padre, su abuelo y su bisabuelo. Tampoco fue a la universidad ni aprendió latín, así que quedó fuera del sistema entero de la educación culta. Lo mandaron de aprendiz a un taller de artesanos, y allí se aprendía mirando y haciendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda circunstancia es que fue autodidacta y lo sabía. Se llamaba a sí mismo, con una mezcla de resentimiento y de orgullo, hombre sin letras, y escribió que quienes citan autoridades no usan su ingenio sino su memoria. Como no podía discutir con textos antiguos, discutía con la observación directa: si quería saber cómo vuela un pájaro, se iba a mirar pájaros durante meses.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es que era zurdo, cosa que en aquel siglo se consideraba un defecto y que a él le dio una manera peculiar de sombrear y de escribir. Y la cuarta es que era homosexual en una ciudad donde eso era delito: en 1476, con veinticuatro años, fue denunciado junto a otros tres jóvenes por sodomía, y el caso se archivó porque el denunciante era anónimo. Vivió siempre en los márgenes de lo respetable.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No pudo ser notario porque era hijo ilegítimo, y por eso acabó en un taller de artesanos donde se aprendía mirando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las listas de cosas que quería averiguar" },
+      {
+        b: "texto",
+        texto:
+          "La parte más reveladora de los cuadernos son unas listas de tareas que Leonardo se escribía a sí mismo, y que Isaacson reproduce porque describen mejor que ninguna teoría cómo funcionaba aquella cabeza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Algunas son encargos de trabajo: consultar a un maestro sobre cómo se levanta una bóveda, averiguar las medidas del sol. Otras son gestiones prácticas: preguntarle a un comerciante cómo caminan sobre el hielo en Flandes. Y otras no le servían absolutamente para nada, y son las que impresionan: describir la lengua del pájaro carpintero, averiguar por qué el cielo es azul, describir cómo se sostienen las nubes en el aire, entender por qué al golpear una mesa se mueve el polvo del otro extremo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Isaacson subraya lo de la lengua del pájaro carpintero porque es su ejemplo favorito y porque no tiene ninguna aplicación. Nadie le pagaba por eso, no le hacía falta para ningún cuadro y no llevaba a ninguna parte: solo quería saberlo. Y esa curiosidad sin propósito es, sostiene, lo que separa a un experto de alguien capaz de relacionar cosas que nadie relaciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resto de sus anotaciones tienen el mismo carácter: pasa de la estructura del ala de un murciélago a la manera de dibujar una cara vista desde abajo, y de ahí al remolino que forma el agua al chocar con una piedra, un dibujo que después reaparece en el pelo rizado de sus retratos y en el diseño de una válvula del corazón.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se apuntó averiguar cómo es la lengua de un pájaro carpintero, y no le servía para nada: por eso vale la pena saberlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Escribía al revés y no era por guardar secretos" },
+      {
+        b: "texto",
+        texto:
+          "Los cuadernos de Leonardo están escritos en espejo: de derecha a izquierda, con las letras invertidas, de modo que hay que ponerlos ante un espejo para leerlos con comodidad. Durante siglos se ha contado que lo hacía para ocultar sus hallazgos, y esa explicación es casi con seguridad falsa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón más probable es mecánica. Era zurdo, y en el siglo XV se escribía con pluma y tinta líquida que tardaba en secar; un zurdo que escriba de izquierda a derecha arrastra la mano por encima de lo recién escrito y lo emborrona. Escribiendo al revés, la mano avanza siempre sobre papel limpio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento que remata el asunto es de contenido: si hubiera querido ocultar algo, no habría dejado los dibujos perfectamente legibles al lado del texto, ni habría anotado en las mismas páginas listas de la compra y direcciones de conocidos. Cualquiera que se pusiera delante de un espejo lo leería, así que como sistema de cifrado sería inútil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí hubo fue un descuido enorme con esos papeles. Leonardo no ordenó ni publicó nada; a su muerte legó los cuadernos a un discípulo, que los conservó, y a partir de ahí se fueron dispersando, vendiendo y desmembrando durante siglos. Hoy están repartidos entre bibliotecas de varios países, y una parte considerable se ha perdido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribir al revés no era un cifrado: era la manera de que un zurdo no se arrastrara la mano por encima de la tinta fresca.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Treinta cadáveres y un hallazgo que tardó cuatrocientos años" },
+      {
+        b: "texto",
+        texto:
+          "Leonardo llegó a diseccionar alrededor de treinta cuerpos humanos, muchos de ellos de noche, en el depósito de un hospital de Florencia y después en Roma. Trabajaba a la luz de una vela, sin conservantes, con cadáveres que se descomponían mientras dibujaba, y lo describe en sus cuadernos con una franqueza notable sobre el olor y el asco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus láminas anatómicas son las mejores que se hicieron hasta el siglo XIX, y no solo por el dibujo. Inventó procedimientos: representar un miembro desde cuatro ángulos como si girara, hacer secciones transversales, y en una ocasión inyectar cera fundida en el interior de un ventrículo del corazón de un buey para obtener el molde exacto de una cavidad que no se podía ver de otra manera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su hallazgo mayor está en la válvula aórtica. Leonardo se preguntó cómo se cierra esa válvula con la precisión con la que lo hace, construyó un modelo de vidrio de la raíz de la aorta y bombeó agua con semillas de hierba en suspensión para poder ver el movimiento. Observó que en los ensanchamientos que hay detrás de las valvas se forman pequeños remolinos, y dedujo que esos remolinos son los que empujan las valvas hasta cerrarlas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquello no se confirmó hasta finales de los años sesenta del siglo XX, con técnicas de medición de flujo. Y no influyó en nadie: como no publicó, ese conocimiento se quedó en un cuaderno durante cuatro siglos y medio, y la medicina tuvo que descubrirlo otra vez por su cuenta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Averiguó con un modelo de vidrio cómo se cierra una válvula del corazón, no lo publicó, y hubo que redescubrirlo cuatro siglos después.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La Última Cena se estropeó porque quiso poder corregir" },
+      {
+        b: "texto",
+        texto:
+          "La pintura mural se hacía al fresco, un procedimiento que consiste en aplicar el color sobre el yeso todavía húmedo. Tiene una ventaja enorme, que es la durabilidad, y una condición innegociable: hay que pintar deprisa, por secciones, y una vez seca la zona no se puede retocar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa condición era incompatible con la manera de trabajar de Leonardo, que consistía en volver una y otra vez sobre lo mismo, dudar, cambiar, dejarlo y retomarlo meses después. Así que en el refectorio de Milán, entre 1495 y 1498, usó una mezcla experimental de temple y óleo sobre pared seca, para poder trabajar a su ritmo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La técnica falló. La pintura empezó a desprenderse pocos años después, y ya en vida de Leonardo un visitante anotó que la obra se estaba arruinando. Ha sido restaurada más de media docena de veces a lo largo de cinco siglos, y lo que se ve hoy es en buena medida obra de restauradores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí sobrevivió es la composición, que es lo que la hizo célebre. Leonardo eligió el instante exacto posterior a la frase sobre la traición, y pintó no un acontecimiento sino trece reacciones distintas a una misma noticia, repartidas en cuatro grupos de tres. Y colocó el punto de fuga de toda la perspectiva justo en la sien de la figura central, de modo que las líneas del techo y de las paredes conducen la mirada allí sin que el espectador se dé cuenta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Eligió una técnica que le permitía corregir y por eso la obra se empezó a caer de la pared antes de que él muriera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dieciséis años con el mismo cuadro sin entregarlo" },
+      {
+        b: "texto",
+        texto:
+          "El retrato más famoso del mundo fue un encargo de un comerciante de seda florentino, Francesco del Giocondo, que quería un retrato de su mujer. Leonardo lo empezó hacia 1503. Nunca se lo entregó, nunca cobró y nunca dio el encargo por terminado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se lo llevó consigo a Milán, después a Roma y por último a Francia, y siguió trabajando en él de manera intermitente durante dieciséis años, hasta su muerte en 1519. Se han detectado capas correspondientes a momentos muy distintos de ese periodo, y el paisaje del fondo se retocó años después que la figura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La técnica explica esa lentitud. Leonardo aplicaba veladuras: capas de pintura muy diluida y transparente, una sobre otra, cada una de un grosor mínimo, dejando secar entre ellas. Los análisis modernos han contado en algunas zonas decenas de capas superpuestas, con espesores de micrómetros. Ese procedimiento no se puede acelerar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Isaacson usa ese caso para su tesis sobre el defecto profesional de Leonardo, que es el mismo que produce sus mejores obras. Trabajaba para satisfacerse a sí mismo y no para cumplir con un cliente, dejaba abierto lo que otros habrían cerrado y consideraba que una obra no está nunca acabada, solo abandonada. Terminó unos quince cuadros en cuarenta años de carrera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El cuadro más famoso del mundo es un encargo que nunca se entregó ni se cobró y en el que su autor siguió trabajando dieciséis años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La sonrisa está donde no la estás mirando" },
+      {
+        b: "texto",
+        texto:
+          "El efecto por el que se recuerda ese retrato tiene una explicación óptica bastante precisa, y Leonardo la construyó a propósito. La sonrisa no es fija: parece aparecer y desvanecerse según dónde se pose la mirada, y esa inestabilidad es el resultado de una técnica y de un conocimiento anatómico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La técnica es el difuminado que Leonardo llamó humo: los contornos, en lugar de estar definidos por una línea, se disuelven en una transición gradual sin borde. Y las comisuras de la boca y los extremos de los ojos son precisamente las zonas donde ese difuminado es más pronunciado, es decir, donde no hay información nítida y el ojo tiene que completar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ojo humano ve con detalle solo en una zona central minúscula y percibe el resto del campo con una resolución mucho menor, más sensible a las sombras y a los volúmenes. Al mirar directamente la boca, la visión precisa encuentra un contorno indefinido y la sonrisa se atenúa; al mirar los ojos, la boca cae en la visión periférica, que registra la sombra de las comisuras, y la sonrisa aparece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está la conexión que sostiene el libro entero. Poco antes, Leonardo había estado diseccionando cabezas humanas y dibujando uno por uno los músculos de los labios, buscando cuál es el que levanta la comisura. Los cuadernos de anatomía y el retrato son el mismo trabajo: primero averiguó cómo se produce una sonrisa por dentro y después la pintó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La sonrisa se ve cuando miras los ojos y se apaga cuando miras la boca, y eso está construido a propósito con lo que sabía de anatomía.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Unas conchas en una montaña contra el relato del diluvio" },
+      {
+        b: "texto",
+        texto:
+          "En los Alpes y en los Apeninos aparecen fósiles marinos a cientos de metros sobre el nivel del mar, y en el siglo XV la explicación aceptada era el diluvio universal: aquellas aguas habrían subido hasta las cumbres y depositado allí las conchas al retirarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Leonardo fue a mirarlas y escribió en sus cuadernos por qué esa explicación no funciona. Sus argumentos son de observación directa y son correctos. Los fósiles no están revueltos en una sola capa, como habría dejado una inundación única, sino ordenados en estratos distintos, unos encima de otros, con especies diferentes en cada nivel: eso indica varios episodios separados por mucho tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añadió más. Muchas conchas conservan sus dos valvas unidas y en posición de vida, cosa que no ocurre con las que arrastra una corriente. Hay galerías de gusanos y rastros de organismos que se movían por aquel sedimento, lo que exige que vivieran allí. Y algunos de esos animales se desplazan unos pocos metros al día, así que no habrían podido subir a una montaña durante los cuarenta días del relato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su conclusión fue que aquellas montañas habían estado bajo el mar y que el terreno se había levantado después. Eso es, en lo esencial, lo que sostiene la geología desde el siglo XIX. Lo escribió alrededor de 1508, no lo publicó y no influyó en nadie: la explicación del diluvio siguió siendo la oficial durante trescientos años más.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dedujo que aquellas montañas habían estado bajo el mar mirando cómo estaban colocadas las conchas, y la ciencia tardó trescientos años en decir lo mismo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un caballo de siete metros que acabó en cañones" },
+      {
+        b: "texto",
+        texto:
+          "El proyecto más ambicioso de su vida fue una estatua ecuestre en bronce para el duque de Milán, en honor a su padre. Tenía que ser el caballo de bronce más grande jamás fundido, de más de siete metros de altura, y Leonardo dedicó años a resolver los problemas técnicos que nadie había resuelto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estudió anatomía equina midiendo caballos reales de las cuadras ducales, diseñó un sistema de fundición en una sola pieza que era una novedad absoluta y proyectó los hornos y los moldes. En 1493 expuso en Milán el modelo de arcilla a tamaño real, y quienes lo vieron lo describieron como una de las cosas más impresionantes que existían.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nunca se fundió. Se habían reunido unas setenta toneladas de bronce para la obra, y cuando la guerra con Francia se acercó, el duque las envió a Ferrara para fabricar cañones. Poco después, las tropas francesas entraron en Milán y unos ballesteros usaron el modelo de arcilla como diana. Se deshizo con las lluvias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es el caso más extremo de una lista larga. La Adoración de los Magos quedó a medias cuando se marchó a Milán. La Batalla de Anghiari, un enorme mural para Florencia, se estropeó porque volvió a experimentar con la técnica. San Jerónimo se quedó sin terminar. Y varios proyectos de ingeniería —desviar un río, un ala mecánica, una máquina voladora— no pasaron del cuaderno.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El bronce reunido para su obra mayor acabó convertido en cañones, y el modelo de arcilla lo usaron unos soldados como diana.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los últimos tres años, cobrando por conversar" },
+      {
+        b: "texto",
+        texto:
+          "En 1516, con sesenta y cuatro años y sin encargos importantes en Italia, Leonardo aceptó la invitación del rey de Francia y cruzó los Alpes con tres cuadros en el equipaje, entre ellos el retrato que nunca entregó. Se instaló en una casa señorial cerca del castillo real de Amboise.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las condiciones eran insólitas para la época. Recibió el título de primer pintor, arquitecto e ingeniero del rey, una pensión anual considerable y ninguna obligación concreta: no se le encargó ninguna obra ni se le exigió producir nada. El rey, que tenía veintidós años, iba a verle a menudo y contaba después que ningún hombre había sabido tanto como aquel.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Isaacson subraya lo que eso significa: al final de su vida, a Leonardo se le pagó por existir y por conversar. Siguió trabajando en sus cuadernos, dibujó diluvios, proyectó una ciudad ideal y organizó fiestas de corte con autómatas, y no terminó ningún cuadro nuevo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Murió en mayo de 1519. En su testamento dejó sus cuadernos y sus instrumentos a su discípulo Francesco Melzi, que los conservó ordenadamente durante toda su vida; a la muerte de este, la familia los fue vendiendo y dispersando. Isaacson calcula que se ha perdido la mayor parte.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Al final le pagaban una pensión por no hacer nada concreto, y ahí es donde llevaba trabajando toda su vida sin saberlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Leonardo da Vinci reconstruye una vida a partir de siete mil doscientas páginas de cuadernos y sostiene una tesis: que lo que hizo excepcional a aquel hombre no fue un don inexplicable sino una curiosidad sin propósito, sostenida durante décadas y aplicada por igual a la anatomía, al agua, a la luz y a la lengua de un pájaro carpintero. Y que sus mejores obras y sus fracasos salen de lo mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la conexión entre las dos mitades que suelen contarse por separado. Las disecciones no eran una afición al margen de la pintura: son el motivo de que una sonrisa funcione de esa manera. Y el estudio de los remolinos del agua está en el pelo de sus retratos y en su modelo de una válvula del corazón.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una obra de arte no se termina nunca, solo se abandona: lo escribió él, y su carrera entera es la demostración.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Isaacson escribe biografías de genios con una plantilla reconocible, y aquí se le ve: el libro termina con una sección de lecciones aplicables —sé curioso, observa, distráete, deja reposar— que convierte a Leonardo en un manual de productividad y desentona con las quinientas páginas anteriores. Y aporta pocos hechos nuevos: su trabajo es de síntesis y de divulgación a partir de la investigación de especialistas que llevaban décadas con esos cuadernos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una atribución discutible presentada con demasiada seguridad. El libro trata como obra de Leonardo un cuadro, el Salvator Mundi, cuya autoría está seriamente cuestionada por parte de los especialistas; se vendió en 2017 por cuatrocientos cincuenta millones de dólares y, dos años después, el Louvre no lo incluyó como obra plenamente autógrafa en su gran exposición del quinto centenario. Isaacson lo da por bueno sin recoger el alcance de esa discusión, y en un libro que se apoya en la autoridad de los expertos ese detalle importa.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   ¿Está usted de broma, Sr. Feynman?, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO (memorias): títulos cortos de imagen, afirmación en
+   la primera frase, caja del rayo en segunda persona.
+
+   La conclusión lleva las dos ausencias del libro: la muerte de su primera
+   mujer y la responsabilidad por la bomba, y lo del trato con las mujeres,
+   que hoy se lee muy distinto.
+   -------------------------------------------------------------------------- */
+
+const FEYNMAN: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El libro no lo escribió él" },
+      {
+        b: "texto",
+        texto:
+          "Richard Feynman ganó el premio Nobel de Física en 1965 y era conocido en su gremio por dos cosas: por su trabajo y por ser el personaje más divertido de cualquier sala. Este libro, publicado en 1985, no es una autobiografía y él no lo redactó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Son las transcripciones de siete años de conversaciones grabadas con un amigo suyo, Ralph Leighton, con quien tocaba percusión un par de veces por semana. Leighton ponía una grabadora, Feynman contaba historias, y después él transcribió, seleccionó y ordenó el material. Por eso el libro suena a alguien hablando: porque es exactamente eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El título viene de una de esas historias. Recién llegado a Princeton, en una merienda de la facultad, la mujer del decano le preguntó si quería crema o limón en el té, y él, distraído, contestó que las dos cosas, gracias. Ella le respondió con la frase que da nombre al volumen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que cuenta: qué le enseñó su padre sobre los nombres de las cosas, a qué se dedicaba en los ratos libres mientras se construía la bomba atómica, qué descubrió dando clase en Brasil, qué pasó cuando le pidieron evaluar libros de texto escolares, de dónde salió el trabajo que le dio el Nobel y qué son los aviones de madera con los que cerró su carrera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro que suena a alguien hablando en voz alta suele ser exactamente eso: alguien hablando, con una grabadora encendida.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Saber el nombre de un pájaro no es saber nada del pájaro" },
+      {
+        b: "texto",
+        texto:
+          "La escena que explica la manera de pensar de Feynman ocurre cuando era un niño y la protagoniza su padre, que era vendedor de uniformes y no tenía estudios. Estaban paseando por el bosque y otro niño le preguntó, señalando un pájaro, si sabía cómo se llamaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su padre le había preparado para eso. Le había explicado que a aquel pájaro se le llama de una manera en italiano, de otra en portugués, de otra en chino y de otra en japonés, y que se pueden aprender todos esos nombres y seguir sin saber absolutamente nada del pájaro; solo se sabrá algo sobre las personas que le pusieron nombre. Después le dijo que se fijara en lo que hacía, y ahí es donde empieza el conocimiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que le dio es concreto y lo repite el libro entero. Mira el pájaro, le dijo: se picotea las plumas continuamente. ¿Por qué crees que hace eso? Y estuvieron discutiendo hipótesis, y su padre le dio una explicación que resultó ser incorrecta, y le enseñó a la vez cómo se comprobaría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De esa distinción —entre saber el nombre de algo y saber cómo funciona— sale toda la actitud que Feynman aplicó después a la física, a la enseñanza y a la burocracia. Y también su desprecio por los honores, los títulos y las academias, que en su relato son sobre todo maneras de ponerle nombre a la gente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Puedes aprender cómo se llama un pájaro en cinco idiomas y seguir sin saber nada del pájaro: solo sabrás algo de la gente que lo nombró.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Abría las cajas fuertes de la bomba atómica por deporte" },
+      {
+        b: "texto",
+        texto:
+          "Feynman llegó a Los Álamos con veinticuatro años y se aburría. Su entretenimiento fue aprender a abrir las cajas fuertes y los archivadores de combinación donde se guardaban los documentos del proyecto más secreto de la guerra, y lo consiguió sin ninguna herramienta, solo pensando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus dos hallazgos son de método. El primero es que aquellos combinadores tenían una tolerancia de dos números arriba y abajo, así que en lugar de un millón de combinaciones posibles había unas ocho mil, cifra que se puede probar en unas horas de tarde. El segundo es humano: la mayoría de la gente no cambiaba la combinación de fábrica, y quienes la cambiaban, siendo físicos y matemáticos, elegían las cifras de constantes conocidas como el número pi o la base de los logaritmos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Abría los armarios de sus colegas, sacaba documentos y dejaba dentro notas firmadas para que supieran quién había estado allí. El efecto fue el contrario del que esperaba: en lugar de revisar el sistema de seguridad, los responsables emitieron una orden para que nadie dejara a Feynman acercarse a sus archivadores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hizo lo mismo con la valla del recinto. Encontró un agujero por el que se entraba sin control, y para demostrar el fallo empezó a salir por la puerta principal una y otra vez sin haber entrado nunca por ella, hasta que el guardia, que llevaba la cuenta, no entendía nada. Tampoco entonces arreglaron el agujero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien demuestra un fallo de seguridad, lo habitual no es arreglar el fallo: es prohibirle a esa persona que se acerque.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los estudiantes de Río lo sabían todo y no entendían nada" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más importante del libro cuenta el año que Feynman pasó dando clase de física en Brasil, y no es una anécdota simpática: es la mejor descripción que existe de un problema que sigue existiendo en cualquier sistema educativo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus alumnos eran brillantes y respondían a todo. Sabían de memoria las definiciones, recitaban las leyes con las palabras exactas del libro y resolvían los ejercicios del temario. Pero cuando Feynman les preguntaba algo con otras palabras, o sobre una situación de la calle, se quedaban en blanco. Descubrió que habían memorizado frases sin ninguna imagen detrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su prueba favorita es de manual. Preguntó por el índice de refracción y contestaron perfectamente; preguntó después qué se vería al mirar a través del agua de la bahía con una lámina de material polarizado, que es exactamente lo mismo aplicado a algo que tenían delante, y no supo contestar nadie. Habían aprendido las palabras y no la cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al final del curso lo invitaron a dar una conferencia ante los profesores y responsables del ministerio, y les dijo, con los libros de texto en la mano, que en aquel país no se estaba enseñando ciencia sino a repetir palabras. Abrió al azar un manual oficial delante de ellos y demostró que la primera definición que apareció no significaba nada. El acto terminó con varios estudiantes levantándose a decir que tenía razón.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Alguien que recita una definición perfecta y no reconoce el mismo fenómeno en la calle no ha aprendido la cosa: ha aprendido la frase.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un libro que llegó en blanco recibió buena nota" },
+      {
+        b: "texto",
+        texto:
+          "En los años sesenta le pidieron formar parte de una comisión del estado de California encargada de elegir los libros de texto de matemáticas de las escuelas. Aceptó, y fue el único miembro que se leyó todos los libros: varios metros de estantería que le enviaron a casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que encontró le pareció peor que malo. Definiciones falsas, ejercicios sin sentido, problemas donde se sumaban temperaturas de estrellas sin ninguna razón, capítulos enteros dedicados a un vocabulario técnico que no servía para resolver nada. Su conclusión fue que aquellos libros enseñaban a decir palabras, exactamente el mismo problema que había encontrado en Brasil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que descubrió sobre el procedimiento fue todavía peor. Comparando las puntuaciones con el resto de la comisión, comprobó que sus colegas valoraban libros que no habían abierto, guiándose por la reputación de la editorial o por lo que decían otros. Y encontró un caso que lo demostraba sin discusión: uno de los libros de la lista había llegado por error con las tapas y las páginas en blanco, y aun así tenía notas de varios evaluadores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando lo señaló, la explicación fue que aquellas personas habían querido colaborar y no dejar huecos. Feynman dedujo lo que le interesaba: que en un procedimiento con muchas firmas y ninguna responsabilidad individual, la gente puntúa lo que sea con tal de cumplir el trámite.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro que llegó por error con las páginas en blanco recibió puntuaciones, porque nadie quería dejar su casilla vacía.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un plato girando en el aire de una cafetería" },
+      {
+        b: "texto",
+        texto:
+          "Después de la guerra, Feynman entró a dar clase en Cornell y se encontró incapaz de trabajar. Se sentía agotado, las ideas no le venían y estaba convencido de estar acabado a los veintisiete años, con una reputación que le abría todas las puertas y ninguna gana de investigar nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hizo entonces fue tomar una decisión rara: renunciar a hacer nada importante y volver a jugar con la física por gusto, como cuando era niño, sin importarle si servía para algo ni si a alguien le interesaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A los pocos días, en la cafetería de la facultad, alguien lanzó un plato al aire por diversión y él se fijó en que el plato giraba y a la vez se bamboleaba, y en que las dos velocidades no eran iguales. Se puso a calcularlo por curiosidad. Un colega le preguntó para qué servía aquello y él contestó que para nada, que lo hacía por gusto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De aquel cálculo salieron las ecuaciones del movimiento del electrón, y de ahí el trabajo sobre electrodinámica cuántica por el que recibió el Nobel años después. Su conclusión, tal como la cuenta, es que el bloqueo se le pasó en el momento en que dejó de exigirse resultados, y que lo que le dieron el premio por hacer empezó como un juego con un plato.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Salió del bloqueo el día que decidió que ya no iba a hacer nada importante y se puso a calcular un plato girando por gusto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Aviones de madera esperando que aterrice algo" },
+      {
+        b: "texto",
+        texto:
+          "El libro termina con el mejor texto que escribió Feynman, que fue el discurso de graduación de su universidad en 1974, y que se apoya en una imagen tomada de la antropología del Pacífico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuenta que, después de la guerra, en algunas islas donde los ejércitos habían instalado pistas de aterrizaje y habían llegado aviones cargados de mercancías, los habitantes construyeron sus propias pistas cuando aquello terminó: despejaron el terreno, encendieron fuegos a los lados, levantaron una cabaña de madera y sentaron dentro a un hombre con dos trozos de madera atados a las orejas a modo de auriculares y una antena de bambú. Y esperaron que aterrizaran los aviones. No aterrizó ninguno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Feynman llama a eso ciencia de carga y sostiene que se practica continuamente. Tiene la forma completa: hay datos, gráficas, revistas, comités, vocabulario técnico y aparatos, y falta lo esencial, que es una honestidad determinada. Su regla es la más citada que dejó: el primer principio es que no debes engañarte a ti mismo, y tú eres la persona más fácil de engañar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y concreta qué exige esa honestidad, que va más allá de no mentir. Consiste en dar toda la información que pueda invalidar el propio resultado, y no solo la que lo apoya: los detalles que podrían echarlo abajo, las otras explicaciones posibles, los experimentos que salieron mal. Si se omite eso, dice, la forma sigue estando y los aviones no van a aterrizar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El primer principio es no engañarte a ti mismo, y tú eres exactamente la persona más fácil de engañar que tienes a mano.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "¿Está usted de broma, Sr. Feynman? reúne las historias que un físico contó durante siete años a un amigo con una grabadora delante. Debajo de las anécdotas hay una sola idea repetida: la diferencia entre saber el nombre de algo y entenderlo, aplicada a la enseñanza, a la burocracia, a los comités y a la investigación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una manera de estar en cualquier oficio: mirar las cosas por tu cuenta, desconfiar de la autoridad, comprobar personalmente lo que se da por sabido y no fingir que se entiende lo que no se entiende. Y una frase que resume la honestidad intelectual mejor que cualquier código deontológico.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay que dar toda la información que podría echar abajo tu resultado, y no solo la que lo apoya: eso es lo que falta en los aviones de madera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. No es una autobiografía y conviene no leerla como tal, porque falta casi todo lo importante. Su primera mujer, Arline, murió de tuberculosis a los veinticinco años mientras él estaba en Los Álamos, y en el libro eso ocupa unas líneas; la carta que le escribió dos años después de su muerte, que no se conoció hasta después de la suya, muestra a alguien completamente distinto del personaje que aquí se presenta. La física apenas aparece, y el trabajador obsesivo que había detrás del bromista está deliberadamente fuera de plano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además dos cosas que hoy se leen de otra manera. La primera es su trato con las mujeres: un capítulo entero cuenta con orgullo cómo aprendió en un bar a conseguir que le hicieran caso tratándolas con desprecio calculado, y no es el único pasaje de ese tenor. La segunda es la bomba: participó en construirla y en el libro eso son sobre todo anécdotas de cajas fuertes, con un solo momento de lucidez —al volver a Nueva York, mirando obras en la calle y pensando que era inútil construir nada— y ninguna reflexión sostenida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después le da la razón en lo que importa. En 1986, ya enfermo, formó parte de la comisión que investigó la explosión del transbordador Challenger, y en una audiencia televisada metió un trozo de la junta de goma en un vaso de agua helada con una pinza para demostrar que a baja temperatura perdía la elasticidad. Amenazó con retirar su firma si no publicaban su apéndice al informe, y ese texto termina con una frase que es su testamento: para que una tecnología funcione, la realidad tiene que estar por encima de las relaciones públicas, porque a la naturaleza no se la puede engañar.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  feynman: FEYNMAN,
+  leonardo: LEONARDO,
   "sobre-fotografia": SOBRE_FOTOGRAFIA,
   "roba-artista": ROBA_ARTISTA,
   "por-que-fracasan": POR_QUE_FRACASAN,
