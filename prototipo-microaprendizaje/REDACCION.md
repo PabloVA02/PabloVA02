@@ -204,10 +204,16 @@ No se cuentan a mano. Dos scripts lo dicen en un segundo:
     node scripts/medir-paginas.mjs    palabras y minutos de cada resumen
     node scripts/revisa-fichas.mjs    a qué libro le falta una pieza de ficha
 
-Al cerrar el 20 de agosto van **46 escritos a mano** —42 Breve, 3 Amplio y 1
-Extenso—, todos dentro de su horquilla, y **los 46 libros con cubierta dibujada
-por Pablo ya no llevan texto automático**, que era la peor combinación posible:
-dibujo bueno y relleno debajo.
+La cifra la da `medir-paginas.mjs` y no hace falta apuntarla aquí. Lo que sí
+conviene recordar de la noche del 21 de agosto, escribiendo del tirón: **la
+página sale corta si se escriben tres párrafos y sale en su sitio si se
+escriben cuatro.** Con cuatro bloques de texto por página, un Breve aterriza
+solo entre 2.100 y 2.300 palabras y no hay que retocar nada. Con tres, se
+queda en 1.950 y hay que alargarlo después con `scripts/apendice.mjs`.
+
+Y **los 46 libros con cubierta dibujada por Pablo ya no llevan texto
+automático**, que era la peor combinación posible: dibujo bueno y relleno
+debajo.
 
 Los tres primeros Amplio dicen bien cuándo toca subir de tamaño: *El mundo de
 ayer* (cincuenta años de Europa, diez argumentos), *Don Quijote* (dos partes que
