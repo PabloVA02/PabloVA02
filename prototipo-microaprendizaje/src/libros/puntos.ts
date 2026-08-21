@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  factfulness: [
+    "por qué la división entre países ricos y pobres ya no sirve",
+    "en qué consisten los cuatro niveles de ingreso",
+    "cómo pueden ser ciertas a la vez «mal» y «mejorando»",
+    "por qué casi ninguna tendencia real es una línea recta",
+    "qué error le costó vidas por decidir con prisa",
+  ],
+
+  respira: [
+    "por qué ningún cráneo antiguo tiene los dientes torcidos",
+    "qué hace la nariz que la boca no puede hacer",
+    "por qué respirar más aire lleva menos oxígeno a tus tejidos",
+    "cuál es el ritmo de respiración que calma y por qué",
+    "qué partes del libro no tienen evidencia detrás",
+  ],
+
   "inversor-inteligente": [
     "qué separa invertir de especular según su definición",
     "quién es Míster Mercado y cómo hay que tratarlo",

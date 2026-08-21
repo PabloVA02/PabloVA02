@@ -22,6 +22,8 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  factfulness: "Diez razones por las que estamos equivocados sobre el mundo",
+  respira: "La nueva ciencia de un arte olvidado",
   "inversor-inteligente": "Un libro de asesoramiento práctico",
   "bernarda-alba": "Drama de mujeres en los pueblos de España",
   malala: "La historia de la niña que defendió el derecho a la educación y fue tiroteada por los talibanes",

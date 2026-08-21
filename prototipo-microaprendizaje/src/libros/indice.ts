@@ -33,7 +33,6 @@ const CARGADORES: Record<string, Cargador> = {
   /* Filosofía */
 
   /* Ciencia y salud */
-  respira: () => import("./ciencia-salud").then((m) => m.RESPIRA),
 
   /* Literatura */
 
@@ -65,7 +64,6 @@ const CARGADORES: Record<string, Cargador> = {
   "brevedad-vida": () => import("./filosofia").then((m) => m.BREVEDAD_VIDA),
 
   /* Economía */
-  factfulness: () => import("./economia").then((m) => m.FACTFULNESS),
 
   /* Psicología */
   educada: () => import("./psicologia").then((m) => m.EDUCADA),

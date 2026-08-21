@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  factfulness:
+    "En un test de doce preguntas sobre datos básicos del planeta, la gente saca dos aciertos de media; un chimpancé al azar sacaría cuatro. Rosling escribió este libro sabiendo que se moría, para explicar por qué fallamos siempre hacia el mismo lado.",
+
+  respira:
+    "Su autor se taponó la nariz durante diez días bajo control médico en Stanford: acabó en prehipertensión, con cuatro horas de ronquidos por noche y las apneas multiplicadas por decenas. De ahí parte todo lo demás.",
+
   "inversor-inteligente":
     "Graham perdió cerca del setenta por ciento de su cartera entre 1929 y 1932, y casi todo lo que enseña sale de ahí. No promete rendimientos: enseña a comprar con margen suficiente para poder equivocarse sin arruinarse.",
 

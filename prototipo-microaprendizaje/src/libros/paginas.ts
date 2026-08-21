@@ -23901,7 +23901,533 @@ const INVERSOR_INTELIGENTE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Respira, en ocho páginas.
+
+   Breve.
+
+   Libro PRÁCTICO de salud: segunda persona en la prosa, titular que
+   afirma.
+
+   La página 7 y la conclusión separan lo sólido (nariz, ritmo lento,
+   variabilidad cardíaca) de lo flojo (el tummo, la ortodoncia de
+   expansión, el esparadrapo). Sin esa separación, esto sería un folleto.
+   -------------------------------------------------------------------------- */
+
+const RESPIRA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dos hombres se taponaron la nariz durante diez días para comprobarlo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro se apoya en un experimento que su autor se hizo a sí mismo. En la Universidad de Stanford, bajo supervisión médica, a James Nestor y a un colaborador sueco les taponaron las dos fosas nasales con silicona y esparadrapo durante diez días seguidos. Comieron, durmieron, trabajaron e hicieron ejercicio respirando solo por la boca, con mediciones continuas de tensión, pulso, gases en sangre y sueño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los resultados llegaron antes de lo esperado. La tensión arterial de Nestor subió unos trece puntos y entró en rango de prehipertensión. La variabilidad de su frecuencia cardíaca, un indicador de cómo está el sistema nervioso, se hundió. Los ronquidos pasaron de unos minutos por noche a más de cuatro horas, y los episodios de apnea se multiplicaron por decenas. Los dos estaban agotados, irritables y con la mente espesa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después les quitaron los tapones y pasaron otros diez días respirando exclusivamente por la nariz, con el mismo horario y la misma dieta. Todo volvió a su sitio en cuestión de días: la tensión bajó, los ronquidos casi desaparecieron y el sueño se normalizó. Nestor es periodista, no médico, y el experimento tuvo dos participantes; conviene tenerlo presente durante todo el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que sostiene: por qué afirma que la boca humana ha encogido, qué hace la nariz que la boca no puede hacer, por qué respirar más aire puede llevar menos oxígeno a tus tejidos, cuál es el ritmo que calma y en qué se le nota al libro que su autor se entusiasma más de lo que su material aguanta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Diez días respirando por la boca bastaron para meter a un hombre sano en prehipertensión y multiplicar por decenas sus apneas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ningún cráneo antiguo tiene los dientes torcidos" },
+      {
+        b: "texto",
+        texto:
+          "La tesis de fondo del libro es anatómica y viene de mirar huesos. Una ortodoncista y un dentista infantil examinaron centenares de cráneos humanos de colecciones europeas y estadounidenses, algunos de miles de años de antigüedad y otros de hace unos siglos. Buscaban lo que hoy llena las consultas: apiñamiento dental, mordidas cruzadas, paladares estrechos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No lo encontraron. Los cráneos preindustriales tienen mandíbulas anchas, arcadas amplias, dientes rectos y separados, y muelas del juicio que caben sin problema. La diferencia con un cráneo actual salta a la vista sin instrumentos, y no es una cuestión de un pueblo o de una región: se repite en colecciones de continentes distintos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación que propone el libro es la comida. Durante cientos de miles de años, masticar fue un trabajo de horas: raíces, carne dura, cortezas, granos sin moler. El hueso responde al esfuerzo igual que el músculo, y una mandíbula que trabaja crece. Con la industrialización de la alimentación —harinas finas, cocción, texturas blandas, papillas— desapareció ese estímulo en la infancia, que es cuando el hueso se forma. Y una boca pequeña deja menos sitio para la lengua y para el aire.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la cifra que el libro repite: una mayoría enorme de la población actual tiene algún grado de obstrucción respiratoria, casi la mitad de los adultos ronca habitualmente y la ortodoncia se ha convertido en una necesidad de masas que hace tres mil años no existía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los dientes torcidos no son una lotería genética: aparecen en el registro de cráneos justo cuando la comida deja de exigir masticar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La nariz no es un tubo de entrada: es un órgano que hace cosas" },
+      {
+        b: "texto",
+        texto:
+          "La parte más sólida y más práctica del libro es la que explica qué pasa con el aire que entra por la nariz y no pasa con el que entra por la boca. La nariz filtra partículas y patógenos con su mucosa y sus cilios, humedece el aire hasta cerca del cien por cien y lo calienta hasta la temperatura del cuerpo antes de que llegue a los pulmones. La boca no hace nada de eso: entrega el aire tal cual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Además fabrica algo. Los senos paranasales producen óxido nítrico, un gas que dilata los vasos sanguíneos y las vías aéreas y que tiene efecto antimicrobiano. Al respirar por la nariz, ese gas entra con el aire y mejora el intercambio en el pulmón; al respirar por la boca, no llega. Es la razón química de que un mismo esfuerzo canse más con la boca abierta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y tiene un funcionamiento que casi nadie conoce: el ciclo nasal. Las dos fosas no trabajan igual a la vez. Una está más abierta y la otra más congestionada, y se van turnando cada pocas horas, toda la vida. Se ha observado además que la fosa derecha se asocia a estados de mayor activación —pulso y temperatura algo más altos— y la izquierda a lo contrario, lo que da un fundamento a prácticas de yoga que llevaban siglos alternando una y otra a propósito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es la instrucción más repetida del libro y la más fácil de aplicar: cierra la boca. Al andar, al dormir, al hablar por teléfono y sobre todo al hacer ejercicio, aunque al principio cueste y haya que bajar el ritmo unas semanas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El mismo esfuerzo cansa más con la boca abierta, y no es una impresión: es que falta un gas que solo fabrica la nariz.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Respirar más aire hace que llegue menos oxígeno a tus tejidos" },
+      {
+        b: "texto",
+        texto:
+          "La idea más contraintuitiva del libro es también la mejor fundamentada, y tiene más de un siglo. El dióxido de carbono no es solo un desecho que hay que expulsar: es la señal que hace que la hemoglobina suelte el oxígeno cuando llega a los tejidos. Lo describió el fisiólogo danés Christian Bohr en 1904 y se estudia desde entonces en cualquier facultad de medicina.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la consecuencia que casi nadie deduce. Si respiras deprisa y profundo sin necesidad, expulsas más dióxido de carbono del que produces, su concentración en sangre baja y la hemoglobina se agarra al oxígeno en lugar de entregarlo. El resultado es que tienes la sangre bien oxigenada y tus músculos y tu cerebro reciben menos. Eso explica el mareo y el hormigueo de una crisis de ansiedad, que es una hiperventilación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica un capítulo a un médico ruso, Konstantin Buteyko, que en los años cincuenta construyó un método entero sobre esa idea: enseñar a respirar menos volumen, más despacio y siempre por la nariz, y medir el progreso con una prueba sencilla, cuánto aguanta uno cómodamente después de una espiración normal. Su trabajo llegó a Occidente en los noventa y hoy se usa sobre todo con asmáticos, con resultados irregulares pero reales en los síntomas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La instrucción práctica que se deriva es incómoda al principio: respirar menos de lo que apetece, tolerar una ligera sensación de falta de aire durante unos minutos al día y dejar de tomar bocanadas grandes cuando uno se pone nervioso, que es exactamente lo contrario de lo que todo el mundo aconseja.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una bocanada grande cuando estás nervioso empeora las cosas: baja el dióxido de carbono y tu cerebro recibe menos oxígeno, no más.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El ritmo que calma es el mismo en el rosario y en el mantra budista" },
+      {
+        b: "texto",
+        texto:
+          "Uno de los hallazgos que el libro cuenta mejor procede de un estudio publicado en 2001 por investigadores italianos. Querían medir el efecto de la oración sobre el organismo y compararon a personas rezando el rosario en latín con personas recitando un mantra tradicional del yoga, midiendo respiración, pulso y presión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Encontraron que las dos prácticas llevaban a los participantes a un ritmo casi idéntico: alrededor de seis respiraciones por minuto. Y a ese ritmo ocurría algo medible: los ritmos cardiovasculares se sincronizaban, la variabilidad de la frecuencia cardíaca aumentaba y el flujo hacia el cerebro mejoraba. Dos tradiciones separadas por miles de kilómetros y muchos siglos habían dado con la misma frecuencia sin saber lo que estaban haciendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nestor recorre después otras prácticas y encuentra la misma cifra una y otra vez: en el canto llano, en el conteo de los rezos budistas, en algunas técnicas del pranayama y en lo que hoy los manuales llaman respiración coherente. El número redondo que propone es cinco segundos y medio para tomar el aire y otros cinco y medio para soltarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la recomendación más aplicable del libro y la que menos exige: unos minutos al día, sentado, contando, sin nada que comprar. Y es también la que tiene detrás más literatura, porque el efecto de la respiración lenta sobre la tensión arterial y sobre el sistema nervioso está medido en decenas de trabajos independientes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Media docena de tradiciones religiosas dieron por su cuenta con el mismo ritmo de respiración, y solo hace veinte años que se sabe por qué funciona.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La mandíbula se puede ensanchar, y ahí es donde el libro flojea" },
+      {
+        b: "texto",
+        texto:
+          "Si la boca pequeña es la causa, la solución lógica sería agrandarla, y a eso dedica Nestor la parte más discutible del libro. Prueba con un aparato de expansión del paladar durante meses, mastica un chicle resinoso durísimo para trabajar los maseteros y visita a los defensores de una escuela de ortodoncia que sostiene que la posición de la lengua contra el paladar modela el hueso de la cara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuenta sus resultados personales con entusiasmo: más hueso, más espacio, mejor respiración. Y aquí conviene aplicar el freno. Se trata de un caso único y sin control, medido en un solo paciente que además es el autor del libro y tiene un interés evidente en que salga bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Además, la escuela que más defiende esas ideas no goza de buena posición en su propia profesión. Su principal impulsor británico fue expulsado del colegio profesional en 2017 tras un procedimiento disciplinario, y no existen ensayos clínicos que respalden que colocar la lengua de determinada manera cambie la estructura ósea de un adulto. Nestor lo menciona, aunque sin darle el peso que tendría en una revisión médica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí está establecido es más modesto y también sirve: la expansión palatal en niños y adolescentes es un tratamiento ortodóncico reconocido, y masticar alimentos que exijan trabajo durante la infancia tiene sentido a la luz de los cráneos. En adultos, la evidencia se vuelve mucho más fina.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un tratamiento probado en una sola persona, que además es quien escribe el libro, no es un resultado: es una anécdota bien contada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El esparadrapo que este libro puso de moda tiene un riesgo real" },
+      {
+        b: "texto",
+        texto:
+          "La práctica que más se ha extendido a partir de este libro es también la que más precauciones exige: pegarse un trozo de esparadrapo en los labios antes de dormir para forzar la respiración nasal durante la noche. Nestor lo usó durante todo el experimento y lo describe con detalle.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El razonamiento es coherente con el resto. De noche nadie controla si abre la boca, la respiración bucal reseca la garganta, favorece el ronquido y empeora el sueño, y un trozo de cinta lo impide. Muchas personas informan de que roncan menos y se despiertan sin la boca seca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema es a quién puede hacerle daño. Alguien con apnea obstructiva del sueño sin diagnosticar necesita esa boca abierta para compensar los episodios en que la vía aérea se cierra, y taparla puede empeorar el cuadro. Lo mismo vale para quien tenga la nariz congestionada de forma crónica, un tabique desviado o alergia estacional. Varios neumólogos han tenido que advertirlo públicamente desde que el libro se hizo popular.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La versión prudente de la misma idea es la que conviene: comprobar primero si puedes respirar cómodamente por la nariz con la boca cerrada durante el día, tratar la congestión si la hay y consultar si roncas fuerte o te despiertas ahogado, porque eso ya no es un hábito, es un síntoma.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un remedio que funciona bien en general puede ser peligroso justo para las personas con el problema que pretende arreglar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Respira sostiene que el ser humano moderno respira mal por una causa anatómica —bocas más pequeñas por una alimentación que no exige masticar— y que corregir el modo de respirar tiene efectos medibles sobre la tensión, el sueño y el sistema nervioso. Sus recomendaciones fuertes son tres y no cuestan dinero: respirar siempre por la nariz, respirar menos volumen del que apetece y bajar el ritmo a unas seis veces por minuto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la reunión de material disperso. Junta fisiología de hace un siglo, colecciones de cráneos, medicina del sueño, un método soviético y varias tradiciones religiosas en un solo argumento, y lo hace legible.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie te ha enseñado nunca a hacer lo que haces veinte mil veces al día, y resulta que tiene una manera correcta y varias equivocadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es periodismo y no ciencia, y la diferencia se nota en la mitad del libro. El experimento que lo sostiene tuvo dos participantes. Varios capítulos —el dedicado a la respiración de tipo tibetano y a los métodos de hiperventilación voluntaria, y el que sugiere efectos sobre enfermedades autoinmunes— se apoyan en casos sueltos y en el entusiasmo del autor, y ahí el libro se pone a prometer bastante más de lo que tiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene por eso leerlo separando dos capas. Una está bien apoyada: la ventaja de la respiración nasal, el papel del dióxido de carbono en la entrega de oxígeno y el efecto de la respiración lenta sobre el sistema nervioso, todo ello con literatura independiente detrás. La otra es exploratoria: la ortodoncia de expansión en adultos, la modelación ósea por la postura de la lengua y las técnicas extremas. Nestor las presenta con el mismo tono, y esa es la principal responsabilidad que un lector tiene que asumir por su cuenta.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   Factfulness, en ocho páginas.
+
+   Breve.
+
+   Ensayo: titular que afirma, tercera persona.
+
+   La conclusión lleva las dos correcciones que este libro necesita: el
+   umbral de pobreza extrema que usa es bajísimo y está discutido, y la
+   pandemia interrumpió en 2020 la tendencia que celebra. Sin eso sería
+   una nota de prensa.
+   -------------------------------------------------------------------------- */
+
+const FACTFULNESS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En un examen de doce preguntas, un chimpancé sacaría mejor nota que tú",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hans Rosling, médico sueco y profesor de salud internacional, pasó veinte años haciéndole a la gente el mismo cuestionario. Son doce preguntas de tres opciones sobre hechos básicos del mundo: cuántas niñas terminan la escuela primaria, cuánta gente tiene electricidad, cuántos niños están vacunados, cuánto ha cambiado la pobreza extrema en veinte años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo pasó a decenas de miles de personas en catorce países. La media de aciertos es de dos sobre doce. Un chimpancé señalando plátanos al azar sacaría cuatro, porque cada pregunta tiene tres opciones. O sea que las respuestas humanas no son ignorancia: son peores que el azar, lo cual significa que hay algo empujando sistemáticamente hacia el lado equivocado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y los peores resultados no los dan los peor informados. Rosling pasó el cuestionario a periodistas, a banqueros de inversión, a personal de Naciones Unidas, a profesores universitarios y a los asistentes del foro económico de Davos, y en varias preguntas puntuaron por debajo de la media general. Sabían más de todo y acertaban menos, porque tenían una imagen del mundo más elaborada y más antigua.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro lo escribió sabiendo que se moría. Rosling recibió un diagnóstico de cáncer de páncreas en 2016, dejó todo lo demás y lo terminó con su hijo y su nuera. Murió en febrero de 2017 y el libro salió en 2018.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Fallar por debajo del azar no es no saber: es tener una idea equivocada que empuja todas las respuestas hacia el mismo lado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La división entre países ricos y países pobres dejó de describir el mundo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer error que el libro desmonta es el más extendido: pensar el mundo en dos bloques, el desarrollado y el que está en vías de serlo, nosotros y ellos. Rosling lo llama el instinto del abismo y muestra con los datos que ese hueco central ya no existe. En 1965, la distribución de países por hijos por mujer y por mortalidad infantil formaba efectivamente dos montones separados. Hoy forma uno solo, continuo, con casi todo el mundo en la parte que antes era la nuestra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su alternativa es lo mejor del libro y es de una sencillez rara. Propone dejar de hablar de países y hablar de cuatro niveles de ingreso, medidos en dólares al día. En el nivel uno, con menos de dos dólares, viven unos mil millones de personas: se anda descalzo, se acarrea agua, se cocina con leña y una enfermedad arruina a la familia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el nivel dos, entre dos y ocho dólares, hay unos tres mil millones: aparecen la bicicleta, las sandalias, la bombona de gas y un colchón. En el tercero, hasta treinta y dos dólares, unos dos mil millones tienen agua corriente, moto y nevera. Y en el cuarto están los mil millones que pueden coger un avión y comprar comida sin mirar el precio. La mayor parte de la humanidad está hoy en los dos escalones intermedios, que es exactamente el lugar que la palabra abismo dice que no existe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle que hace funcionar la propuesta es visual. La fundación de Rosling fotografió casas reales de cientos de familias en decenas de países, ordenadas por ingreso, y al mirarlas se ve que dos familias del mismo nivel viven parecido aunque estén en continentes distintos, y que dos del mismo país pueden vivir en mundos diferentes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El nivel de ingresos de una familia predice cómo vive mucho mejor que su país, su religión o su continente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Que las cosas estén mal y que estén mejorando no se contradice" },
+      {
+        b: "texto",
+        texto:
+          "El segundo instinto que analiza es el de la negatividad: la certeza casi universal de que el mundo va a peor. Rosling la desmonta con series largas. La pobreza extrema afectaba a alrededor de la mitad de la humanidad en 1966 y a menos de una décima parte cincuenta años después. La mortalidad infantil ha caído sin parar en casi todos los países. Los niños de un año vacunados contra alguna enfermedad son cuatro de cada cinco en el mundo entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación de por qué casi nadie lo sabe tiene tres partes. La memoria retoca el pasado y lo suaviza. Los periodistas y los activistas informan de lo que va mal, porque una mejora lenta no es noticia ningún día concreto. Y sentir que las cosas mejoran parece una falta de respeto hacia quien sufre ahora, así que la gente prefiere no decirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Frente a eso propone una frase que es la más útil que se saca del libro: hay que aprender a sostener dos ideas a la vez, que la situación es mala y que está mejorando. No son contrarias. Un país donde mueren cuatro niños de cada cien antes de los cinco años está en una situación terrible, y hace treinta años morían doce.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y avisa del efecto práctico de equivocarse en esto. Quien cree que nada funciona deja de apoyar lo que sí funciona, y quien cree que un continente entero está condenado no invierte allí, no comercia, no viaja y no contrata. La imagen falsa tiene consecuencias económicas concretas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Malo y mejorando no son dos afirmaciones que compitan: son las dos que hacen falta para entender casi cualquier cosa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi ninguna tendencia real es una línea recta" },
+      {
+        b: "texto",
+        texto:
+          "El tercer instinto consiste en prolongar mentalmente cualquier curva como si fuera una recta. Rosling lo ilustra con un ejemplo doméstico: si se midiera a un bebé cada mes y se prolongara su crecimiento en línea recta, a los diez años mediría cuatro metros. Nadie comete ese error con un niño y casi todo el mundo lo comete con los datos del mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su caso principal es la población mundial, sobre la que existe un pánico basado precisamente en esa prolongación. Los datos de Naciones Unidas apuntan a que la población se estabilizará en torno a los once mil millones a finales de este siglo y dejará de crecer, y la razón no es una catástrofe, sino que el número de hijos por mujer ya ha caído a alrededor de dos y medio en el mundo entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue creciendo, explica, es otra cosa: el número de adultos, porque los niños que ya nacieron van llegando a la edad adulta. Es un efecto de relleno, no de aceleración. Y viene acompañado de un dato que casi nadie conoce: el número de niños en el mundo lleva años sin aumentar y ronda los dos mil millones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca la regla general. Ante cualquier gráfico, hay que preguntarse qué forma tiene la curva de verdad: hay líneas que suben y se aplanan, otras que forman una ese, otras que caen y otras que hacen joroba. Suponer una recta es la manera más rápida de asustarse por lo que no va a pasar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Prolongar una curva como si fuera recta es el error que convierte un dato tranquilizador en una catástrofe futura.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los riesgos que dan miedo no son los que matan" },
+      {
+        b: "texto",
+        texto:
+          "El cuarto instinto es el del miedo, y Rosling lo trata desde su propio oficio. La atención humana se dirige a tres cosas: el daño físico, el encierro y la contaminación. Todo lo que active una de las tres captura la atención por completo y desplaza al resto, tenga la probabilidad que tenga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus ejemplos son incómodos a propósito. Los desastres naturales causan hoy una fracción minúscula de las muertes anuales del mundo, y su número ha caído a menos de la mitad en un siglo. Los accidentes de avión llenaron titulares durante décadas mientras el riesgo por pasajero se dividía por más de dos mil desde 1930. Y el terrorismo, que domina la conversación pública, provoca una cantidad de muertes muy inferior a la de causas que no salen nunca en las noticias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La distinción que propone es entre lo que asusta y lo que es peligroso, y no siempre coinciden. Peligroso es lo que multiplica el riesgo real por el número de personas expuestas; aterrador es lo que enciende alguno de aquellos tres botones. Actuar según el segundo criterio es lo que hace que se gasten fortunas en lo que apenas mata y nada en lo que mata mucho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su recomendación práctica es de método: cuando algo te asusta, no decidas todavía. Calcula el riesgo antes, porque el miedo y la urgencia juntos son lo que hace tomar la peor decisión disponible, y el capítulo siguiente del libro lo demuestra con un caso propio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo aterrador y lo peligroso son categorías distintas, y confundirlas hace gastar fortunas donde no mueren personas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El peor error de su carrera lo cometió por urgencia" },
+      {
+        b: "texto",
+        texto:
+          "El instinto de la urgencia es el último de los diez y el que Rosling trata con menos distancia, porque cuenta un episodio suyo. Trabajaba de médico en Nacala, en el norte de Mozambique, cuando apareció una enfermedad desconocida que paralizaba las piernas de decenas de personas en pocas horas. Nadie sabía si se transmitía por contagio, por agua o por comida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aterrado y sin datos, fue a ver al alcalde y le pidió que hiciera algo para frenar el movimiento de gente. El alcalde ordenó bloquear la carretera hacia la ciudad. Las mujeres de los pueblos, que necesitaban vender su producto en el mercado del día siguiente, buscaron otra vía y contrataron barcas de pescadores. Una se hundió con demasiada gente a bordo y murieron ahogadas varias mujeres y varios niños.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La enfermedad, se supo después, era el konzo: una parálisis provocada por comer mandioca amarga mal procesada en época de hambre. No se contagiaba de persona a persona. El bloqueo no servía para nada y aquellas muertes fueron consecuencia directa de una decisión que Rosling tomó con miedo, con prisa y sin comprobar nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca su aviso sobre la frase ahora o nunca. Cuando alguien te dice que hay que actuar inmediatamente y que no hay tiempo para datos, casi nunca es verdad y casi siempre es la señal de que estás a punto de tomar una decisión mala. Pedir un dato más rara vez cuesta tanto como haberse equivocado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien te dice que hay que decidir ya y que no hay tiempo para comprobar nada, esa frase es la información más importante que te está dando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Buscar un culpable impide entender el sistema que falló" },
+      {
+        b: "texto",
+        texto:
+          "El noveno instinto es el de la culpa: la tendencia a explicar cualquier problema encontrando a alguien concreto que lo hizo mal. Es rápido, es satisfactorio y casi siempre impide ver el mecanismo que produjo el resultado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rosling lo demuestra con un caso de su propio campo. Los refugiados que llegan a Europa en botes pagan cantidades enormes a traficantes y viajan en embarcaciones peligrosísimas, y el instinto lleva a culpar a los traficantes, que efectivamente son criminales. Pero la razón por la que nadie llega en avión con un billete normal es una directiva europea que multa a la aerolínea que transporte a alguien sin visado y la obliga a devolverlo. Sin esa norma, el negocio del traficante no existiría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo aplica también al revés, contra el instinto de buscar héroes. Los grandes avances en mortalidad infantil o en vacunación no los produjo ningún personaje ni ninguna organización célebre: los produjeron miles de funcionarios de sanidad, comadronas, cadenas de frío y campañas aburridas que no salen en ninguna parte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla que propone es la misma en los dos sentidos: en lugar de preguntar quién lo hizo, preguntar qué lo hizo posible. Y desconfiar especialmente de las explicaciones que dejan a uno indignado, porque la indignación cierra la investigación antes de empezarla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Encontrar un culpable satisface y cierra el caso; entender el sistema es más lento y es lo único que arregla algo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Factfulness sostiene que la imagen que casi todo el mundo tiene del planeta está treinta años atrasada, y que el error no viene de falta de información sino de diez sesgos que empujan siempre en la misma dirección. Frente a la división en dos bloques propone cuatro niveles de renta; frente a la sensación de deterioro, series largas; y frente a la urgencia, la costumbre de pedir un dato más antes de decidir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una caja de herramientas que se usa sola. Después de leerlo cuesta oír una cifra suelta sin preguntar con qué se compara, y cuesta ver una curva sin preguntarse qué forma tiene de verdad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una cifra sola siempre parece grande; el trabajo entero consiste en dividirla por algo o compararla con otra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El libro celebra la mejora y apenas analiza quién la produjo, a costa de qué y con qué reparto. Su umbral de pobreza extrema, algo menos de dos dólares al día, es un listón muy bajo que ha sido criticado por economistas del desarrollo: salir de él significa dejar de estar en la miseria absoluta y no significa vivir con dignidad, y contar cuánta gente lo cruza deja fuera la pregunta de cuánta se queda apenas por encima. La desigualdad dentro de los países aparece muy poco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay dos cosas que el tiempo ha añadido. La primera, el clima: Rosling lo menciona como problema serio y lo trata con un optimismo que hoy suena corto, entre otras cosas porque su marco de mejora continua no encaja bien con un riesgo que no es gradual. La segunda, la pandemia: en 2020, la pobreza extrema aumentó en el mundo por primera vez en veinte años, interrumpiendo justamente la tendencia que da nombre al libro. No lo invalida —la caída se reanudó después— y sí demuestra su propia lección número tres: ninguna línea sigue recta porque a uno le convenga.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  factfulness: FACTFULNESS,
+  respira: RESPIRA,
   "inversor-inteligente": INVERSOR_INTELIGENTE,
   "hombre-rico-babilonia": HOMBRE_RICO_BABILONIA,
   "casa-espiritus": CASA_ESPIRITUS,
