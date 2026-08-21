@@ -13,7 +13,7 @@
  * se retiró—, ese paso se salta sin quejarse.
  */
 import { execFileSync } from "node:child_process";
-import { existsSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
 const [carpeta, id] = process.argv.slice(2);
@@ -47,7 +47,10 @@ const corre = (cmd, args, tolera = false) => {
 
 corre("node", ["scripts/mete-libro.mjs", borrador]);
 corre("node", ["scripts/ficha-libro.mjs", ficha]);
-corre("node", ["scripts/retira-viejo.mjs", id], true);
+/* El id del libro sale del JSON, no del nombre del fichero: el borrador puede
+   llamarse `eichmann.json` y el libro ser `eichmann-jerusalen`, y pasar el
+   nombre del fichero deja el texto viejo puesto sin que se note. */
+const datos = JSON.parse(readFileSync(borrador, "utf8"));
+corre("node", ["scripts/retira-viejo.mjs", datos.id], true);
 corre("npx", ["tsx", "scripts/generar-meta.mjs"]);
-const constante = JSON.parse(execFileSync("cat", [borrador], { encoding: "utf8" })).const;
-corre("node", ["scripts/medir-paginas.mjs", constante, "--detalle"]);
+corre("node", ["scripts/medir-paginas.mjs", datos.const, "--detalle"]);

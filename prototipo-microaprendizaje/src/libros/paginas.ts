@@ -21787,7 +21787,248 @@ const MALALA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Eichmann en Jerusalén, en ocho páginas.
+
+   Breve.
+
+   Ensayo: titular que afirma, TERCERA persona siempre. Aquí la segunda
+   persona sería obscena.
+
+   La página 7 es obligatoria: las cintas de Sassen, publicadas en 2011,
+   corrigen la tesis del libro sobre el hombre concreto. Un resumen que no
+   las mencione está vendiendo una idea que su propio caso no sostiene.
+   -------------------------------------------------------------------------- */
+
+const EICHMANN_JERUSALEN: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Arendt fue a Jerusalén a ver a un monstruo y encontró a un funcionario",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 11 de mayo de 1960, un comando del servicio secreto israelí secuestró en una calle de Buenos Aires a un hombre que se hacía llamar Ricardo Klement y trabajaba en una fábrica de Mercedes-Benz. Lo sacaron de Argentina drogado y vestido de tripulante de una compañía aérea. Era Adolf Eichmann, el oficial de las SS que había organizado la logística de la deportación de millones de judíos a los campos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su juicio empezó en Jerusalén el 11 de abril de 1961, con el acusado sentado en una cabina de cristal blindado. Hannah Arendt, filósofa alemana de origen judío que había huido de Alemania en 1933 y de Francia en 1941, se ofreció a cubrirlo como reportera para la revista The New Yorker. Sus cinco artículos se publicaron en 1963 y el libro salió ese mismo año.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fue a ver la encarnación del mal y escribió otra cosa. Lo que describe es un hombre mediocre, vanidoso, obsesionado con su carrera frustrada dentro del escalafón, que hablaba en fórmulas hechas y que insistió durante todo el proceso en que él nunca había matado a nadie ni había odiado a los judíos. El subtítulo del libro recoge la conclusión: un estudio sobre la banalidad del mal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que sostiene y lo que se le ha discutido: qué dijeron de él los psiquiatras, qué observó Arendt en su manera de hablar, qué contestó cuando le preguntaron por Kant, para qué se organizó realmente aquel juicio, qué capítulo le costó la mitad de sus amistades y qué apareció cincuenta años después en unas grabaciones hechas en Buenos Aires.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La expresión «banalidad del mal» aparece una sola vez en todo el libro, en la última página, y desde entonces se usa para casi cualquier cosa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Seis psiquiatras lo examinaron y lo declararon normal" },
+      {
+        b: "texto",
+        texto:
+          "El dato con el que arranca el análisis de Arendt es de expediente. Media docena de psiquiatras examinaron a Eichmann antes del juicio para determinar si estaba en condiciones de ser juzgado, y todos coincidieron: era normal. Uno de ellos comentó que el acusado era más normal que él mismo después de haberlo examinado. Otro certificó que su actitud hacia su mujer, sus hijos, su padre y sus amigos era no ya correcta, sino ejemplar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para el tribunal aquello era un trámite. Para Arendt era el problema entero. Si media docena de especialistas no encuentra nada anormal en el hombre que organizó los trenes de la deportación, entonces la explicación que la posguerra daba por buena —que aquello lo hicieron sádicos, enfermos y fanáticos— no puede sostenerse, porque no hubo en Europa suficientes sádicos como para llenar una administración.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que saca es la que dio nombre al libro y a la vez la más malinterpretada. Banal no significa poco importante ni disculpable: significa que el motor de aquello no fue un odio extraordinario, sino algo corriente, sin profundidad, casi sin contenido. Arendt escribió que el mal puede ser extremo sin ser radical, que puede extenderse por la superficie del mundo entero como un hongo y no tener ninguna raíz.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si hicieran falta monstruos para que ocurra algo así, no habría ocurrido nunca: no hay suficientes monstruos para llenar una administración.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "No podía decir una frase que no fuera una frase hecha" },
+      {
+        b: "texto",
+        texto:
+          "La observación más aguda del libro es de lenguaje, y Arendt la construye a lo largo de páginas de transcripciones. Eichmann era incapaz de pronunciar una frase que no fuera un cliché. Cuando declaraba, encadenaba fórmulas administrativas, refranes y expresiones de manual. Al preguntarle por sus actos respondía con giros de expediente; al preguntarle por su vida, con lugares comunes de autoayuda de la época.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle que lo remata es que a veces las fórmulas se contradecían entre sí y él no lo notaba. Podía decir que se alegraba de morir con un ejemplo para la juventud del mundo y, minutos después, que él no era creyente y que iba a saltar a la tumba con alegría, sin advertir que estaba usando frases de dos manuales incompatibles. Sus últimas palabras en el patíbulo fueron una sucesión de tópicos funerarios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la conclusión que a Arendt le importaba más que ninguna: su incapacidad para hablar estaba estrechamente unida a su incapacidad para pensar, y pensar quería decir aquí una cosa muy concreta, mirar algo desde el punto de vista de otro. Eichmann no tenía ese mecanismo. Podía describir la carga de un tren sin que se le ocurriera en ningún momento imaginarse dentro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien solo dispone de frases hechas no puede pensar contra sí mismo, porque no tiene con qué formular la objeción.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Eichmann citó a Kant en el juicio, y no del todo mal" },
+      {
+        b: "texto",
+        texto:
+          "En mitad del interrogatorio ocurrió algo que dejó a la sala descolocada. Un juez le preguntó a Eichmann si había vivido conforme a algún principio moral, y él contestó que había vivido según los principios éticos de Kant, en particular según su definición del deber. El juez, incrédulo, le pidió que lo explicara. Y Eichmann dio una versión aproximadamente correcta del imperativo categórico: obrar de manera que la norma de la propia voluntad pudiera valer como ley universal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después admitió que desde que se encargó de la deportación había dejado de vivir según ese principio, aunque se consolaba pensando que ya no era dueño de sus actos. Y aportó su propia versión doméstica de la fórmula, que es la parte escalofriante: obrar de tal modo que si el Führer conociera la acción, la aprobara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Arendt señala lo que ese arreglo hace exactamente. Kant había puesto el juicio moral en cada persona, obligándola a decidir por sí misma si su norma valdría para todos. La versión de Eichmann conserva la forma entera y sustituye el juicio propio por el de otro. El resultado es una máquina de obediencia que se siente moral: no solo cumplía órdenes, quería cumplirlas bien, se anticipaba a ellas y se sentía culpable si no las cumplía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo grave no fue que obedeciera órdenes: fue que reemplazó su propio juicio por el de otro y siguió sintiéndose una persona de principios.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El juicio no se montó para juzgarlo a él" },
+      {
+        b: "texto",
+        texto:
+          "La segunda tesis del libro es jurídica y provocó casi tanto ruido como la primera. Arendt sostiene que aquel proceso se desvió de su función. Un tribunal existe para determinar si un acusado concreto cometió unos actos concretos y qué pena le corresponde, y no para establecer un relato histórico, dar voz a las víctimas ni educar a una generación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los hechos que cita para sostenerlo son públicos. El primer ministro israelí, Ben Gurión, había declarado que el juicio serviría para que los jóvenes del país conocieran lo ocurrido en Europa. El fiscal, Gideon Hausner, llamó a declarar a más de cien supervivientes, muchos de los cuales no habían tenido ninguna relación con el acusado ni con sus decisiones. Sus testimonios eran estremecedores y, jurídicamente, no probaban nada contra el hombre del cristal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Arendt se enfrentó también a la calificación del delito. El tribunal juzgaba crímenes contra el pueblo judío; ella defendía que lo ocurrido era un crimen contra la humanidad cometido en el cuerpo del pueblo judío, y que la diferencia no era retórica: si la ofensa es solo a un pueblo, cualquier otro pueblo puede considerarse ajeno. Su propia conclusión sobre la pena, sin embargo, fue durísima: escribió que Eichmann debía morir porque había respaldado una política que negaba a otros el derecho a compartir la Tierra, y por eso nadie podía esperar querer compartirla con él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un tribunal que se convierte en una clase de historia deja de hacer lo único que un tribunal sabe hacer, que es juzgar a una persona.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El capítulo que le costó casi todos sus amigos" },
+      {
+        b: "texto",
+        texto:
+          "Hay unas páginas en el libro que provocaron una de las mayores polémicas intelectuales del siglo XX. Al reconstruir cómo funcionaron las deportaciones, Arendt describe el papel de los Consejos Judíos, los órganos que los alemanes obligaron a constituir en cada comunidad ocupada y que en muchos casos elaboraron los listados, repartieron las citaciones y organizaron el orden de los transportes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su frase fue que ese papel constituía el capítulo más oscuro de toda aquella oscura historia, y añadió que sin esa administración interna el número total de víctimas habría sido considerablemente menor. Lo escribió en tres o cuatro páginas de un libro de trescientas, y esas páginas se convirtieron en el asunto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La reacción fue inmediata y masiva. Organizaciones judías estadounidenses hicieron circular refutaciones, periódicos publicaron series contra ella y amistades de treinta años se rompieron. Su viejo amigo Gershom Scholem le escribió que en su libro faltaba amor por el pueblo judío; ella respondió que nunca en su vida había amado a un pueblo ni a un colectivo, y que solo amaba a sus amigos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con los años, la historiografía ha matizado a las dos partes. Los consejos actuaban bajo coacción absoluta y con información fragmentaria, y hubo casos de resistencia y de suicidio antes que entregar listas; también hubo colaboración calculada. Lo que casi nadie discute ya es que el asunto existía y que en 1963 no se podía nombrar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que una pregunta sea insoportable no es una prueba de que esté mal formulada, aunque quien la formule vaya a pagarla igual.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Unas cintas de Buenos Aires desmontan al hombre del cristal" },
+      {
+        b: "texto",
+        texto:
+          "La corrección más seria a este libro llegó medio siglo después y no viene de una opinión, viene de un archivo. Entre 1957 y 1958, escondido en Argentina, Eichmann concedió decenas de horas de entrevistas a Willem Sassen, un periodista neerlandés que había sido colaborador de los nazis y que reunía material para un libro. Se conservan las grabaciones y más de mil páginas de transcripción.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hombre que habla allí no se parece al de Jerusalén. No es un funcionario que cumplía órdenes: es un antisemita convencido que discute de ideología, que se enorgullece de su papel y que lamenta que el trabajo quedara a medias. En una de las sesiones dice que si hubieran matado a diez millones y pico habría quedado satisfecho, y en otra se define a sí mismo, hablando de su propio futuro juicio, como alguien que sabrá presentarse de otra manera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La filósofa alemana Bettina Stangneth publicó en 2011 el estudio completo de ese material, y su conclusión es directa: el burócrata gris de la cabina era una interpretación preparada, y Arendt la compró. Parte de las transcripciones estuvo disponible durante el juicio, pero el tribunal no admitió las grabaciones, y ella asistió a una fracción de las sesiones y leyó el resto en actas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso no anula el concepto que hizo famoso el libro; lo separa de su ejemplo. Que existan personas que hacen daño enorme sin odio, por rutina y ambición, sigue siendo verdad y lo confirmaron después los experimentos de obediencia de Stanley Milgram, que citaba a Arendt. Lo que ya no se sostiene es que Adolf Eichmann fuera uno de ellos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una idea puede seguir siendo cierta después de que su ejemplo más famoso resulte falso, pero entonces hay que buscarle otro ejemplo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Eichmann en Jerusalén sostiene tres cosas. Que el hombre que organizó las deportaciones no era un fanático sino un mediocre incapaz de mirar nada desde fuera de sí mismo. Que aquel proceso se convirtió en una lección de historia y perdió por el camino parte de su función judicial. Y que la maquinaria del exterminio necesitó, además de los alemanes, la colaboración administrativa de los propios perseguidos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un concepto que ya no se puede desalojar del vocabulario. Después de este libro es imposible explicar una catástrofe administrativa apelando solo a la maldad de sus autores, porque hay que explicar también a los miles de personas normales sin las cuales no habría funcionado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El mal puede ser extremo sin ser profundo: puede extenderse como un hongo por la superficie entera del mundo y no tener ninguna raíz.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Falla en el punto donde más segura estaba: en su retrato del acusado. Arendt asistió a una parte del juicio, se apoyó en actas y aceptó como carácter lo que era una estrategia de defensa muy bien construida. También hay un problema de tono que le reprocharon incluso quienes le daban la razón: la ironía continua sobre el fiscal, sobre el tribunal y a ratos sobre las propias víctimas, que en un libro sobre esto suena a otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después. Eichmann fue ahorcado el 31 de mayo de 1962, incinerado y sus cenizas arrojadas al mar fuera de las aguas territoriales de Israel: es la única ejecución civil que ha llevado a cabo ese país. A Arendt le costó décadas de aislamiento en buena parte del mundo judío, y sus tesis se han ido reevaluando desde los años noventa. Y su frase ha corrido una suerte que ella habría detestado: hoy se usa la expresión banalidad del mal para cualquier jefe antipático, cuando lo que nombraba era algo mucho más incómodo, la ausencia total de pensamiento en gente que se considera decente.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "eichmann-jerusalen": EICHMANN_JERUSALEN,
   malala: MALALA,
   "chico-pijama": CHICO_PIJAMA,
   "historia-arte": HISTORIA_ARTE,

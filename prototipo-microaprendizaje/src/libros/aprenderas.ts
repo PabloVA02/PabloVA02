@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "eichmann-jerusalen":
+    "Seis psiquiatras examinaron a Eichmann antes del juicio y todos lo declararon normal. Arendt cubrió el proceso para una revista y salió de allí con la idea de que aquello no lo hicieron monstruos, sino gente sin capacidad de pensar.",
+
   malala:
     "En su valle, cuando nace una niña no se añade su nombre al árbol familiar. Su padre añadió el suyo a mano. Diez años después, un hombre subió a su autobús escolar y preguntó cuál de aquellas chicas era Malala.",
 

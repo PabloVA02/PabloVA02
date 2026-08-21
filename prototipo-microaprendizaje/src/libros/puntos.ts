@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "eichmann-jerusalen": [
+    "qué significa exactamente «banalidad del mal»",
+    "qué observó Arendt en la manera de hablar del acusado",
+    "qué contestó Eichmann cuando le preguntaron por Kant",
+    "por qué unas páginas le costaron casi todas sus amistades",
+    "qué apareció medio siglo después en unas cintas argentinas",
+  ],
+
   malala: [
     "cómo una emisora de radio pirata cambió un valle entero",
     "qué era el diario que escribió para la BBC a los once años",

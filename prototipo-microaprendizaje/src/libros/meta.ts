@@ -184,22 +184,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "eichmann-jerusalen",
-    titulo: "Eichmann en Jerusalén",
-    autor: "Hannah Arendt",
-    ano: 1963,
-    gancho: "Fue a Jerusalén esperando encontrarse a un monstruo y se encontró a un funcionario mediocre. La frase que escribió para describirlo le costó la mitad de sus amigos.",
-    porQue: "Es el libro más malinterpretado del siglo veinte, se equivoca en cosas importantes y sigue siendo imprescindible. Enseña a la vez una idea sobre el mal y una lección sobre qué hacer cuando los archivos desmienten a un pensador que admiras.",
-    minutos: 23.1,
-    capitulos: [
-      { titulo: "Una cabina de cristal en Jerusalén", minutos: 4.6 },
-      { titulo: "El hombre que sólo cumplía órdenes", minutos: 4.4 },
-      { titulo: "La banalidad, que no significa lo que se cree", minutos: 4.2 },
-      { titulo: "Las diez páginas que nadie le perdonó", minutos: 5.7 },
-      { titulo: "Lo que dijeron los archivos cincuenta años después", minutos: 4.2 },
-    ],
-  },
-  {
     id: "homenaje-cataluna",
     titulo: "Homenaje a Cataluña",
     autor: "George Orwell",
