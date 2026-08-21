@@ -29,6 +29,15 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "lenguajes-amor":
+    "Un consejero matrimonial releyó doce años de cuadernos de consulta y agrupó las quejas por parecido. Le salieron cinco montones, y de ahí sacó la idea de que el afecto se expresa en cinco idiomas y casi nadie habla el de su pareja.",
+
+  "lean-startup":
+    "Cuatro socios dedicaron seis meses a resolver el problema más difícil de su producto y resultó que ningún cliente lo tenía. De ahí salió un método para dirigir una empresa nueva con experimentos en lugar de planes.",
+
+  "cero-a-uno":
+    "En 2012 el fundador de PayPal dio un curso en Stanford y un alumno tomó apuntes. De ahí salió este libro, que sostiene que competir destruye el beneficio y que el dinero está en hacer lo que nadie más puede hacer.",
+
   "riqueza-naciones":
     "Un taller de diez hombres fabrica cuarenta y ocho mil alfileres al día y uno solo no llega a veinte. De esa observación salió, en 1776, la primera explicación entera de por qué unos países son ricos.",
 

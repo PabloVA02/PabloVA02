@@ -37630,7 +37630,874 @@ const RIQUEZA_NACIONES: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   De cero a uno, en ocho páginas.
+
+   Breve: es un libro de una sola tesis —el beneficio está en el monopolio—
+   repetida desde seis ángulos.
+
+   Libro de empresa, así que la prosa admite el TÚ donde se vuelve consejo
+   (regla 4.7). Titulares que afirman.
+
+   Anécdota famosa comprobada: el origen de eBay con los dispensadores Pez
+   se lo inventó una relaciones públicas en 1997; el libro cuenta la versión
+   buena, los peluches Beanie Babies.
+
+   La conclusión lleva las dos cosas que el libro no soporta: que su propio
+   caso estrella, Facebook, fue un uno-a-n, y la energía limpia, que él pone
+   de ejemplo de fracaso justo antes de que el precio solar cayera un noventa
+   por ciento.
+   -------------------------------------------------------------------------- */
+
+const CERO_A_UNO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Copiar lo que funciona y crear lo que no existe son dos negocios distintos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Peter Thiel abre su libro con una pregunta que usa en las entrevistas de trabajo: dime una verdad importante en la que casi nadie esté de acuerdo contigo. Casi nadie sabe contestarla, porque exige decir algo que quien escucha va a considerar equivocado. Su versión empresarial es la misma pregunta con otra ropa: qué empresa valiosa no está construyendo nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el título. Fabricar una máquina de escribir más y montar cien fábricas de máquinas de escribir es ir de uno a n: progreso horizontal, copiar cosas que ya funcionan. Pasar de la máquina de escribir al procesador de textos es ir de cero a uno: progreso vertical, hacer algo que no existía. Globalizar es lo primero. La tecnología es lo segundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro salió en 2014 y no lo escribió Thiel del todo. Son los apuntes de un curso que dio en Stanford en la primavera de 2012 y que tomó uno de sus alumnos, Blake Masters; las notas circularon por internet, tuvieron cientos de miles de lectores y de ahí salió el libro. Eso explica su virtud —va al grano y no repite— y su defecto, que casi todo se afirma sin demostrarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren sus seis argumentos: por qué las lecciones que dejó la burbuja puntocom son justo las contrarias de las buenas, por qué el beneficio está en el monopolio y no en la competencia, cómo se empieza dominando un mercado diminuto, por qué un producto excelente no se vende solo, por qué una sola inversión rinde más que todas las demás juntas, y las siete preguntas que un negocio tiene que contestar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Copiar lo que ya funciona lleva el mundo de uno a n; solo hacer lo que no existe lo lleva de cero a uno.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las cuatro lecciones que dejó la burbuja puntocom son las cuatro equivocadas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando el índice Nasdaq se desplomó en marzo de 2000 y desaparecieron en semanas billones de dólares de valor, el mundo de la tecnología sacó cuatro conclusiones que se convirtieron en dogma en Silicon Valley. Avanzar poco a poco. Mantenerse ligero y flexible, sin planes. Mejorar lo que ya hace la competencia. Y centrarse en el producto, no en las ventas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Thiel sostiene que las cuatro son falsas y propone las contrarias. Es mejor arriesgarse a ser audaz que a ser trivial, porque las mejoras pequeñas no dejan margen. Un mal plan es mejor que ningún plan, porque quien no tiene plan reacciona pero no construye. Los mercados competitivos destruyen el beneficio, así que copiar al rival es lo peor que puedes hacer. Y las ventas importan tanto como el producto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La corrección de fondo es sobre qué pasó realmente en 1999. La burbuja no demostró que la tecnología estuviera sobrevalorada: demostró que un montón de empresas sin negocio se financiaron a la vez. Las que tenían algo debajo sobrevivieron. PayPal, donde él estaba, perdía dinero regalando diez dólares a cada usuario nuevo, y aquello funcionó porque la red crecía en progresión geométrica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es incómoda para el vocabulario de moda. Iterar, pivotar y validar son formas de moverse sin decidir adónde, y sirven para un negocio pequeño que se apaña. Si lo que quieres es construir algo que no existe, tienes que ser capaz de decir cómo será el mundo dentro de diez años y trabajar hacia atrás desde ahí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ir dando pasos pequeños y flexibles es una manera de no equivocarse nunca y de no construir nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La competencia es para perdedores: todo el beneficio está en el monopolio",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento central del libro es una inversión de lo que se enseña en las escuelas de negocios. En competencia perfecta, dice la propia teoría económica, el beneficio tiende a cero: si un negocio da dinero entra más gente hasta que deja de darlo. Por tanto, cualquier empresa que gane dinero de verdad durante años está haciendo algo que los demás no pueden hacer. Es decir, tiene un monopolio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La comparación que usa es de 2012 y se entiende de una vez. Las aerolíneas estadounidenses movieron aquel año unos ciento sesenta mil millones de dólares y ganaron alrededor de treinta y siete céntimos por viajero transportado. Google facturó cincuenta mil millones y se quedó con el veintiuno por ciento en beneficio neto. Google valía en bolsa más del triple que todas las aerolíneas del país juntas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y todos mienten sobre ello, cada uno en una dirección. El monopolista describe su mercado lo más grande posible para que no lo regulen: Google no dice que tiene dos tercios de las búsquedas del mundo, dice que compite en publicidad, o en tecnología, o incluso en fabricación de coches. El que no lo es hace lo contrario, y define un mercado tan estrecho que resulte que lo domina: comida británica en el centro de Palo Alto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un monopolio duradero, sostiene, se apoya en cuatro cosas y conviene tener varias. Una tecnología propia que sea diez veces mejor que la alternativa, no un poco mejor. Efectos de red, que hacen el producto más útil cuanto más gente lo usa. Economías de escala, que abaratan cada unidad nueva. Y una marca que nadie pueda copiar. Sin al menos una de ellas, el margen se evapora en pocos años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si una empresa lleva años ganando mucho dinero, es que hace algo que los demás no pueden copiar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un monopolio se empieza dominando un mercado diminuto, no atacando uno enorme",
+      },
+      {
+        b: "texto",
+        texto:
+          "El error habitual de quien empieza es al revés: calcula que el mercado mundial de algo vale cien mil millones y que con un uno por ciento ya tendría un negocio de mil millones. Thiel dice que esa cuenta es la señal más fiable de que el proyecto va a fracasar, porque un uno por ciento no se defiende de nadie y porque nunca se explica cómo se conseguiría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que funciona es lo contrario: buscar un grupo pequeño y concreto de gente a la que casi nadie sirve, y quedarse con todo. PayPal no salió a competir con la banca; empezó con los vendedores profesionales de eBay, unos veinte mil, que necesitaban cobrar de desconocidos y no tenían manera decente de hacerlo. Amazon empezó vendiendo solo libros, que son idénticos, fáciles de enviar y sumaban millones de títulos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Facebook empezó con los diez mil estudiantes de Harvard y en diez días se había apuntado el sesenta por ciento. Un mercado tan pequeño que casi da vergüenza describirlo es exactamente lo que hace falta, porque permite ser el único proveedor de algo antes de que aparezca nadie a discutirlo. Y desde ahí se expande a círculos concéntricos: primero otras universidades, después todo el mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La historia de eBay merece un paréntesis por una razón que enseña a desconfiar de las fábulas de fundación. La versión conocida, la de que nació porque la novia de Pierre Omidyar coleccionaba dispensadores de caramelos Pez, se la inventó una responsable de comunicación de la empresa en 1997 porque la verdad no era vendible. El primer producto que despegó de verdad en eBay fueron los peluches Beanie Babies.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Es mejor ser el único que vende algo a mil personas que el cuarto que se lo vende a un millón.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un producto que se vende solo no existe, y la distribución también sigue una ley de potencias",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre ventas es el que más molesta a los ingenieros, y Thiel lo escribe sabiéndolo. Un vendedor bueno no parece un vendedor: parece un asesor, un amigo o un consultor, y todos los oficios en los que hay que convencer a alguien —abogado, médico, profesor, político— evitan cuidadosamente esa palabra. La consecuencia es que quien fabrica cosas suele despreciar exactamente la función que decide si su cosa llega a alguien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La aritmética es simple y no perdona: lo que te deja un cliente a lo largo de su vida tiene que ser mayor que lo que te cuesta conseguirlo. Si tu producto cuesta diez mil dólares al año, no puedes venderlo con publicidad, porque no compensa, ni con visitas comerciales, porque no salen las cuentas. Ese hueco, la zona muerta, es donde se atascan y mueren muchísimos negocios que tenían buen producto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay cinco maneras de llegar al cliente y cada una vale para un tamaño de venta. La venta compleja, de millones, la hace el fundador en persona y a lo largo de meses; así vende Palantir y así vende SpaceX. La venta personal, de decenas de miles, la hace un equipo comercial. Después vienen el marketing y la publicidad de masas, para productos baratos, y por último la difusión viral, donde el propio uso invita a otros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí aparece otra vez la ley de potencias. Casi ninguna empresa consigue que dos canales funcionen a la vez: normalmente hay uno que sirve y los demás no rinden nada. Si has probado varios y ninguno funciona, dice Thiel, no es que te falte constancia: es que el negocio no está donde crees, y no lo va a salvar contratar a más comerciales.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un producto no es superior porque nadie lo compre: la distribución forma parte del producto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una sola inversión rinde más que todas las demás juntas, y eso cambia cómo hay que decidir",
+      },
+      {
+        b: "texto",
+        texto:
+          "El secreto peor guardado y peor entendido del capital riesgo, escribe Thiel, es que la mejor inversión de un fondo que funciona rinde tanto como todas las demás sumadas, y la segunda mejor rinde tanto como todas las restantes. No es que haya buenos resultados y malos: es que la distribución es tan desigual que la media no significa nada. En su propio fondo, Facebook rindió más que todo lo demás junto, y Palantir fue lo siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia para quien invierte es que diversificar tranquiliza y arruina. Un fondo que reparte su dinero en cuarenta apuestas razonables casi seguro que no acierta la única que importaba. Hay que invertir solo en empresas que puedan devolver el fondo entero, lo que reduce brutalmente el número de candidatas y obliga a decir que no casi siempre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la consecuencia para tu propia vida es la que Thiel considera importante. Si el mundo funciona así, repartirse en muchas opciones para no cerrar puertas —el currículum lleno de cosas variadas, la cartera de habilidades— es la peor estrategia posible. No puedes diversificarte a ti mismo, porque una persona no es un fondo de inversión; tienes que decidir en qué vas a ser el mejor y aceptar el riesgo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí viene su ataque más citado y más discutible, dirigido contra la explicación del éxito por la suerte y el momento histórico: no eres un billete de lotería. Thiel opone el optimismo definido —saber cómo quieres que sea el futuro y trabajar para construirlo, que es lo que hacía Estados Unidos cuando levantaba autopistas y programas espaciales— al optimismo indefinido, que confía en que las cosas mejoren sin que nadie tenga un plan.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En un mundo de resultados extremos, repartirse para no fallar es la manera más segura de no acertar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un negocio tiene que contestar siete preguntas, y basta fallar una para perderlo todo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro resume su método en una lista de siete preguntas que toda empresa debería poder contestar antes de empezar. La de ingeniería: ¿puedes crear una tecnología rompedora en lugar de una mejora incremental? La del momento: ¿es ahora el instante adecuado para este negocio en concreto? La del monopolio: ¿empiezas con una cuota grande de un mercado pequeño?",
+      },
+      {
+        b: "texto",
+        texto:
+          "La de las personas: ¿tienes el equipo adecuado, y no solo el currículum adecuado? La de la distribución: ¿tienes una manera de hacer llegar el producto, y no solo de fabricarlo? La de la durabilidad: ¿seguirá tu posición defendida dentro de diez o veinte años? Y la del secreto: ¿has visto una oportunidad que los demás no ven?",
+      },
+      {
+        b: "texto",
+        texto:
+          "El valor de la lista está en cómo la usa. Thiel repasa con ella el sector de las energías limpias, en el que entre 2005 y 2011 se invirtieron decenas de miles de millones de dólares en Estados Unidos y desaparecieron casi enteros. Su diagnóstico es que aquellas empresas fallaban las siete a la vez: paneles apenas mejores, momento equivocado, mercados enormes y disputados, equipos de vendedores en traje, ninguna vía de distribución, ninguna ventaja defendible y ningún secreto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que más repite es Solyndra, que levantó más de mil millones de dólares y una garantía federal de quinientos treinta y cinco millones antes de quebrar en 2011. Frente a ella pone a Tesla, que a su juicio contestaba las siete: batería propia, subvenciones cogidas en el momento justo, un mercado inicial diminuto —los deportivos eléctricos caros—, marca, tiendas propias y una idea que nadie compartía, que un coche eléctrico podía ser deseable en vez de virtuoso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un negocio que contesta seis de las siete preguntas no obtiene seis séptimos del resultado: obtiene cero.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "De cero a uno sostiene una sola cosa desde seis ángulos: que el beneficio está en hacer algo que nadie más pueda hacer, y que casi todo lo que se enseña sobre competir, iterar y diversificar empuja en la dirección contraria. Se empieza dominando un mercado diminuto, se defiende con tecnología propia, red, escala o marca, y se cuida la distribución tanto como el producto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un vocabulario que se queda. La diferencia entre progreso horizontal y vertical, las dos mentiras simétricas sobre el tamaño del mercado, la zona muerta de la distribución y las siete preguntas son herramientas que se pueden usar el lunes por la mañana sobre cualquier proyecto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta útil no es en qué eres bueno, sino qué puedes hacer tú que los demás no puedan copiar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El libro entero está construido desde los ganadores y niega expresamente el papel de la suerte —no eres un billete de lotería—, cuando la ley de potencias que él mismo describe es justo lo que produce un proceso con mucho azar y colas largas. Nunca se enfrenta a ese argumento. Y su caso estrella lo contradice: Facebook, su mayor acierto, no fue un cero a uno sino una copia mejor de redes sociales que ya existían.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un problema de conveniencia. Thiel defiende que el monopolista, al no vivir angustiado por la competencia, tiene margen para pensar en sus empleados y en el mundo. Es un argumento agradable de leer y muy cómodo de sostener para quien tiene participaciones en monopolios, y desde 2014 lo han repetido casi con las mismas palabras las empresas investigadas por abuso de posición dominante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y su ejemplo de fracaso envejeció mal en tiempo récord. El precio de los paneles solares cayó alrededor de un noventa por ciento entre 2010 y 2020 y la solar es hoy la electricidad más barata en buena parte del mundo. El diagnóstico de las siete preguntas seguía siendo correcto para aquellas empresas concretas; la conclusión de que el sector no tenía futuro se cayó en menos de una década.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   El método Lean Startup, en ocho páginas.
+
+   Breve: una idea —el progreso se mide en aprendizaje— con seis
+   herramientas colgando de ella.
+
+   Libro de empresa: admite el TÚ donde se vuelve consejo (regla 4.7).
+
+   La conclusión lleva tres cosas que no salen en la contraportada: que el
+   caso estrella del libro, IMVU, nunca fue grande; que «producto mínimo
+   viable» se convirtió en la coartada del sector y el propio Ries se
+   arrepintió del nombre; y que su mayor escaparate corporativo, General
+   Electric, perdió tres cuartas partes de su valor entre 2016 y 2018.
+   -------------------------------------------------------------------------- */
+
+const LEAN_STARTUP: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Seis meses de trabajo perfecto sobre un problema que no tenía nadie" },
+      {
+        b: "texto",
+        texto:
+          "En 2004, Eric Ries y tres socios fundaron IMVU, un programa de avatares en tres dimensiones que se acoplaba a los servicios de mensajería instantánea. Dedicaron seis meses a lo que consideraban la parte difícil: conseguir que su producto funcionara a la vez con los cuatro sistemas de mensajería de la época, para que nadie tuviera que cambiar de programa ni pedirle nada a sus amigos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando por fin lo lanzaron, casi nadie lo descargó. Y al conseguir los primeros clientes descubrieron algo que ninguna reunión había previsto: los adolescentes no querían ponerse un avatar para hablar con los amigos que ya tenían. Querían conocer gente nueva. Los seis meses de ingeniería más cuidadosa de sus vidas resolvían un problema que no tenía ningún cliente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ese fracaso salió el libro, publicado en 2011, que vendió más de un millón de ejemplares y cambió el vocabulario de un sector entero. Su tesis es que una empresa nueva no es una versión pequeña de una empresa grande, sino una institución diseñada para crear algo bajo incertidumbre extrema, y que por tanto no se dirige con planes: se dirige con experimentos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren las seis herramientas del método: por qué el progreso se mide en aprendizaje y no en funciones terminadas, qué es de verdad un producto mínimo viable, por qué las cifras que solo suben no sirven para decidir nada, cuándo hay que cambiar de hipótesis, los tres motores de crecimiento y las dos técnicas de fábrica —los lotes pequeños y los cinco porqués— que Ries trajo de Toyota.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Construir con esmero algo que nadie quiere es la forma más cara de fracasar, porque parece trabajo bien hecho.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El progreso de una empresa nueva se mide en aprendizaje, no en funciones terminadas",
+      },
+      {
+        b: "texto",
+        texto:
+          "En una empresa establecida, el trabajo se planifica: hay un plan, unos plazos, unos hitos, y cumplirlos es hacerlo bien. Ries sostiene que ese método funciona porque la empresa establecida conoce a sus clientes y su mercado, y que aplicarlo a una empresa nueva produce la peor combinación posible, que él llama lograr el fracaso: entregar a tiempo, dentro del presupuesto y con la calidad prometida algo que a nadie le importa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su alternativa es medir otra cosa, el aprendizaje validado: la demostración con datos reales de clientes reales de que lo que creías sobre el negocio es verdad o es mentira. No vale la conversación en la que un cliente dice que le parece buena idea. Vale la conducta: si se apunta, si vuelve, si paga, si lo recomienda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motor del método es un ciclo de tres pasos: construir, medir, aprender. Lo importante es que se planifica al revés. Primero decides qué necesitas aprender, después qué dato tendrías que ver para saberlo, y solo entonces qué es lo mínimo que hay que construir para conseguir ese dato. Casi todo el mundo lo hace en el orden natural y por eso construye de más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Debajo hay dos hipótesis que toda empresa nueva sostiene sin darse cuenta. La hipótesis de valor: que el producto le sirve de verdad a quien lo usa. Y la hipótesis de crecimiento: que quienes lo usan van a traer a otros o a repetir. Son las dos cosas que hay que poner a prueba primero, porque si alguna de las dos es falsa, todo lo demás sobra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Entregar a tiempo y con calidad algo que a nadie le importa no es un éxito parcial: es la manera más limpia de fracasar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un producto mínimo viable no es un producto malo: es el experimento más barato que contesta la pregunta",
+      },
+      {
+        b: "texto",
+        texto:
+          "El producto mínimo viable es la versión que permite dar una vuelta completa al ciclo con el menor esfuerzo posible. No es la primera versión del producto ni una versión recortada del producto final: es un instrumento de medida, y por eso a veces no contiene ni una línea de código. Su única obligación es producir un dato que no tenías.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Drew Houston, fundador de Dropbox, tenía un problema difícil: para que alguien entendiera su producto, tenía que verlo funcionando en varios ordenadores a la vez, y construir eso costaba años. Grabó en cambio un vídeo de tres minutos enseñando lo que haría un programa que todavía no existía, lo publicó en un agregador de noticias y su lista de espera pasó de cinco mil a setenta y cinco mil personas en una noche.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una versión aún más barata, que Ries llama el conserje. Manuel Rosso quería hacer un servicio que planificara la compra semanal según las ofertas del supermercado. En vez de programarlo, cobró diez dólares a la semana a una sola clienta, se sentó con ella cada domingo y le preparó a mano el menú y la lista de la compra. Cuando tuvo unas cuantas clientas así, ya sabía qué había que construir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y una tercera, el mago de Oz, en la que el cliente cree que le atiende un programa y en realidad hay personas detrás haciendo el trabajo. Nick Swinmurn fundó Zappos así: fotografió los zapatos de las tiendas de su barrio, colgó las fotos en una web y, cuando alguien compraba, iba a la tienda, pagaba el precio de venta al público y lo enviaba. Perdía dinero en cada pedido, pero estaba comprando una respuesta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si lo que necesitas es una respuesta, cualquier cosa que te la dé antes y más barata que el producto es mejor que el producto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las cifras que solo pueden subir no sirven para decidir nada" },
+      {
+        b: "texto",
+        texto:
+          "Ries llama métricas vanidosas a las que van creciendo pase lo que pase: usuarios registrados totales, descargas acumuladas, visitas al mes. Todas tienen la misma trampa: como el total nunca baja, siempre puedes enseñar una gráfica que sube, y ninguna te dice si lo que hiciste el mes pasado sirvió para algo. Se usan para tranquilizar a los inversores y para tranquilizarse uno mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sirve es el análisis por cohortes: en lugar de mirar el total, se mira qué hizo el grupo de gente que llegó en enero, y al lado, qué hizo el que llegó en febrero. Así cada cambio del producto tiene su propia respuesta. Una buena métrica cumple tres condiciones: indica qué hacer, la entiende cualquiera del equipo y se puede comprobar hablando con clientes de carne y hueso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El propio IMVU es el ejemplo. Durante meses los ingresos totales subían y el equipo se felicitaba, hasta que miraron las cohortes y vieron unas líneas casi planas: mes tras mes de trabajo, el porcentaje de usuarios que pagaba se movía del cero coma cinco al cero coma seis por ciento. Estaban mejorando el producto de verdad, y aquello no llevaba a ninguna parte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale lo que llama contabilidad de la innovación, que tiene tres etapas. Primero se mide dónde estás de verdad, aunque duela. Después se trabaja para mover ese número desde donde está hasta donde tendría que estar para que el negocio funcione. Y llegado un punto, si por mucho que se afine no se acerca, la pregunta deja de ser cómo mejorar el producto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una gráfica que sube siempre no es una buena noticia: es una gráfica que no puede darte una mala.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Pivotar no es empezar de cero: es cambiar una hipótesis conservando todo lo aprendido",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un pivote es un cambio de rumbo estructurado que pone a prueba una hipótesis nueva y fundamental sobre el producto, el cliente o el modelo de negocio. No es lo mismo que rendirse ni que reinventarse: se conserva casi todo —el equipo, la tecnología, lo que se ha aprendido de los clientes— y se cambia una sola pieza, la que los datos han demostrado falsa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ries enumera diez tipos, y la utilidad de la lista es que obliga a decir cuál estás haciendo. Se puede acercar el foco, y convertir una función del producto en el producto entero; o alejarlo, y convertir el producto en una función de algo mayor. Se puede cambiar de segmento de cliente manteniendo el producto, o cambiar de problema manteniendo el cliente. Y se puede cambiar el canal, la forma de cobrar o el motor de crecimiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que más detalla es el de Votizen, de Dave Binetti, que empezó como una red social de votantes verificados. Cada versión funcionaba un poco mejor y ninguna lo bastante: el porcentaje de gente que se registraba y volvía no llegaba nunca a lo que el negocio necesitaba. Después de cuatro pivotes en dos años y medio, el producto acabó siendo una herramienta para que organizaciones contactaran con legisladores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su consejo práctico es dejar el pivote fuera de la intuición. Conviene tener una reunión fijada en el calendario, cada pocas semanas, donde se decida expresamente pivotar o continuar, con los datos delante, porque si no existe esa cita nadie plantea nunca la pregunta. Y hay que medir la pista de despegue no en meses de dinero, sino en cuántos pivotes te da tiempo a hacer antes de que se acabe.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El dinero que te queda no se mide en meses: se mide en cuántas veces puedes todavía cambiar de hipótesis.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Solo hay tres maneras de crecer y mezclarlas impide entender cuál está funcionando",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un negocio crece porque los clientes de ayer pagan lo que trae a los clientes de mañana, y eso ocurre solo de tres formas. Ries las llama motores de crecimiento, y sostiene que casi todas las empresas nuevas se confunden porque intentan empujar los tres a la vez y no saben cuál las está moviendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motor pegajoso funciona con la retención: si consigues clientes más deprisa de lo que los pierdes, creces. La cifra que importa no es cuánta gente entra, sino cuánta se va, y una tasa de abandono del diez por ciento mensual se come cualquier campaña de captación. Aquí la tentación es gastar en publicidad para tapar un agujero que no se tapa con dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motor viral funciona cuando el uso normal del producto trae usuarios nuevos, sin que nadie se lo proponga. Se mide con un coeficiente: cuántas personas nuevas trae de media cada usuario. Si es mayor que uno, la cosa crece sola; si es cero coma nueve, se apaga. Y por eso los productos virales suelen ser gratis: cobrar introduce una fricción que hunde ese número por debajo de uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motor pagado funciona si lo que te deja un cliente durante toda su vida es mayor que lo que cuesta conseguirlo, y la diferencia se reinvierte en conseguir más. Es el único de los tres que se puede acelerar con dinero, y también el que se agota, porque los canales de captación se encarecen a medida que los usas. Elegir uno y medirlo bien vale más que perseguir los tres.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Crecer no es una cosa: son tres mecanismos distintos, y el que no sabe cuál lo mueve no puede acelerarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Trabajar en lotes pequeños encuentra los errores antes, y cinco preguntas seguidas dan con la causa",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda mitad del libro viene de la fábrica de Toyota. El ejemplo con el que Ries lo explica es meter cartas en sobres: la intuición dice que es más rápido doblar todas las cartas, después meterlas todas y después cerrarlos todos. En la práctica es más lento, y sobre todo, si los sobres son de un tamaño equivocado, quien trabaja de uno en uno lo descubre en el primero y el otro lo descubre al final.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Llevado al software, eso significa entregar cambios pequeños y muy a menudo en lugar de versiones grandes cada seis meses. En IMVU acabaron desplegando cambios al producto real unas cincuenta veces al día, con un sistema que vigilaba los indicadores clave y, si alguno se desviaba, deshacía el cambio automáticamente y avisaba al equipo. Es la versión informática del cordel que en Toyota cualquier operario puede tirar para parar la cadena entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La otra herramienta son los cinco porqués, de Taiichi Ohno. Ante un fallo se pregunta cinco veces por qué. Una función dejó de funcionar; porque falló un servidor; porque se usó mal un subsistema; porque el ingeniero no sabía usarlo; porque nadie se lo enseñó; porque su jefe no forma a los nuevos, ya que el equipo va demasiado apurado. El fallo parecía técnico y era una decisión de gestión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla que acompaña a la técnica es invertir de forma proporcional en cada uno de los cinco niveles: un arreglo pequeño en cada uno, no una reforma general. Y hay una trampa que Ries advierte porque la sufrió: si no se controla, la reunión se convierte en los cinco culpables y acaba señalando al último que entró. El antídoto es tolerar cualquier error la primera vez y no tolerar nunca el mismo dos veces.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi ningún fallo técnico es técnico del todo: cinco preguntas seguidas suelen terminar en una decisión de gestión.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El método Lean Startup sostiene que una empresa nueva no se dirige con un plan sino con experimentos, y que su progreso se mide en aprendizaje validado. De ahí salen sus herramientas: el ciclo de construir, medir y aprender planificado al revés; el producto mínimo viable como instrumento de medida; las cohortes en lugar de los totales, y el pivote como cambio de una sola hipótesis.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, más que las técnicas, es un permiso. Antes de este libro, cambiar de rumbo era admitir un error y lanzar algo incompleto era hacerlo mal; después de él, las dos cosas tienen nombre, procedimiento y momento en el calendario.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta no es si tu plan se está cumpliendo, sino qué has aprendido esta semana que no supieras la anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El caso que sostiene el libro entero es IMVU, la propia empresa de Ries, y IMVU nunca llegó a ser grande: se quedó en un negocio de avatares de unas decenas de millones de dólares al año. Todos los demás ejemplos son también supervivientes, y no hay ni una página dedicada a cuántas empresas midieron, iteraron y pivotaron ordenadamente hasta desaparecer. Es un libro sobre medir que casi no mide nada de lo que afirma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el método no vale para todo. Un avión, un medicamento, un puente o un chip no admiten lanzar algo incompleto y ver qué pasa, ni una segunda versión el martes siguiente. Tampoco funciona donde el cliente no puede decirte qué quiere porque aún no existe: preguntando a los usuarios de los años noventa qué necesitaban no salía un buscador.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después incluye el arrepentimiento del autor. La expresión producto mínimo viable se convirtió en la coartada del sector para entregar cosas rotas, y Ries ha dicho que es el nombre del que más se arrepiente, porque todo el mundo oye mínimo y nadie oye viable. Su mayor escaparate corporativo tampoco ayudó: General Electric adoptó el método con decenas de miles de empleados formados y perdió unas tres cuartas partes de su valor en bolsa entre 2016 y 2018.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   Los cinco lenguajes del amor, en ocho páginas.
+
+   Breve: una sola idea con cinco casos y dos corolarios.
+
+   Libro práctico, así que la prosa habla de TÚ (regla 4.7).
+
+   La conclusión lleva lo que no está en la contraportada: que la
+   clasificación salió de los cuadernos del propio autor y no de ningún
+   estudio, y que la revisión publicada en 2024 desmontó sus tres supuestos
+   centrales. Y la anécdota de los seis meses, que es la más famosa del libro
+   y la más peligrosa, se cuenta diciendo por qué.
+   -------------------------------------------------------------------------- */
+
+const LENGUAJES_AMOR: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos personas pueden quererse mucho y no notarlo ninguna de las dos" },
+      {
+        b: "texto",
+        texto:
+          "Gary Chapman llevaba doce años atendiendo a parejas en Carolina del Norte cuando se dio cuenta de que oía siempre la misma conversación. Uno decía: siento que ya no me quiere. El otro contestaba, desconcertado y con razón: pero si trabajo, si pago la casa, si arreglo lo que se rompe, ¿qué más quiere? Los dos decían la verdad y ninguno entendía al otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se puso a releer sus cuadernos de aquellos años y a agrupar las quejas por parecido. Le salieron cinco montones, y de ahí sale el libro, publicado en 1992: la idea de que existen cinco maneras básicas de expresar y de recibir afecto, que cada persona tiene una que le llega mucho más que las otras, y que la mayoría de las parejas no comparten la misma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia es un malentendido perfectamente simétrico. Quien da amor de la única manera que sabe se queda sin entender por qué no se lo agradecen; quien lo recibe en un idioma que no es el suyo lo registra como un gesto amable, no como una prueba de que le quieren. Los dos hacen esfuerzos reales y los dos se quedan vacíos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren el argumento entero: por qué el enamoramiento se acaba y qué empieza cuando se acaba, por qué casi todo el mundo regala lo que le gustaría recibir, cuáles son los cinco idiomas uno por uno, cómo se averigua cuál es el tuyo y cuál es el de la otra persona, y la afirmación de fondo del libro, que el amor es una decisión y no un sentimiento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El problema de muchas parejas no es la falta de amor: es que lo están enviando en un idioma que el otro no lee.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El enamoramiento se acaba solo, y lo que viene después es otro oficio",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro arranca con una advertencia que no suele darse en los libros de pareja. La euforia de los primeros meses —la obsesión, la idealización, la sensación de que se ha encontrado a la persona perfecta— no es amor en el sentido que va a usar después: es un estado involuntario, que llega sin permiso y se va sin permiso, y durante el cual las dos personas son incapaces de verse con exactitud.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Chapman se apoya en el trabajo de la psicóloga Dorothy Tennov, que en los años setenta entrevistó y encuestó a cientos de personas sobre esa experiencia y calculó que dura de media unos dos años. Después el mundo vuelve a su sitio: el otro deja de ser perfecto, reaparecen las manías, y a mucha gente eso le parece la prueba de que se equivocó de persona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que ese momento no es el final de nada, sino el principio de lo único que se puede trabajar. Mientras dura la euforia no hace falta ningún método, porque todo lo que hace el otro gusta; cuando se acaba, empieza a importar de verdad qué hace cada uno y cómo lo recibe el otro. La mayoría de las parejas llegan a ese punto sin ninguna herramienta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para explicar lo que falta, Chapman toma prestada del psiquiatra infantil Ross Campbell la imagen del depósito. Cada persona tiene un depósito emocional que se llena o se vacía según cómo la traten, y cuando está vacío la convivencia se vuelve áspera aunque no haya pasado nada grave. Su pregunta de control es directa: del cero al diez, ¿cómo tienes hoy el depósito?",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que se acabe la euforia no significa que te equivocaras de persona: significa que empieza la parte que depende de ti.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi todo el mundo da lo que le gustaría recibir, y por eso los dos se quedan vacíos",
+      },
+      {
+        b: "texto",
+        texto:
+          "La observación más útil del libro no es la lista de los cinco idiomas, sino lo que hace la gente sin darse cuenta: expresar afecto en el idioma que uno mismo entiende. Si lo que a ti te llena es que te digan las cosas, dirás cosas bonitas. Si lo que a ti te llena es que te ayuden, ayudarás. Y en los dos casos estarás dando exactamente lo que a ti te haría falta, que no tiene por qué ser lo que le hace falta al otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Chapman cuenta el caso que mejor lo enseña. Un marido que trabajaba doce horas al día, que había pagado la casa y llevaba a los niños al colegio, no entendía la queja de su mujer. Ella no le pedía más esfuerzo: le pedía que se sentara media hora con ella sin el televisor puesto. Él estaba dando servicio a espuertas, que era su idioma, y ella necesitaba atención, que era el suyo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mismo pasa al revés y produce discusiones circulares. Quien necesita palabras interpreta el silencio de su pareja como indiferencia, aunque esa pareja lleve tres años arreglándole el coche. Quien necesita contacto físico puede oír cien elogios y seguir sintiéndose solo. Ninguno de los dos está exagerando ni siendo injusto: están midiendo el afecto con instrumentos distintos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la propuesta práctica, que es contraintuitiva. No se trata de esforzarse más, sino de esforzarse en otra dirección, y a menudo eso significa hacer menos de lo que estabas haciendo. Aprender el idioma del otro casi nunca es cómodo, porque por definición es el que a ti no te sale solo y el que no te dice nada cuando te lo hacen a ti.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si llevas años esforzándote y no sirve de nada, es probable que estés dando con mucha generosidad lo que a ti te haría falta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las palabras y el tiempo parecen lo mismo y son dos idiomas distintos",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer idioma son las palabras de afirmación: decir en voz alta lo que se aprecia. Chapman insiste en que no se trata de halagos genéricos sino de reconocimientos concretos —te ha quedado muy bien esa conversación, gracias por haberte quedado con los niños ayer— y en que a quien tiene este idioma le duran semanas. La otra cara es que a esa misma persona una crítica seca le hace un destrozo desproporcionado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Distingue tres formas dentro del mismo idioma: el elogio, que reconoce algo hecho; el ánimo, que empuja hacia algo que el otro todavía no se atreve a hacer; y las palabras amables, que tienen más que ver con el tono que con el contenido. Y añade una regla incómoda: las peticiones dan dirección al amor y las exigencias lo cortan, aunque el contenido sea idéntico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo idioma es el tiempo de calidad, que no es estar en la misma habitación sino prestar atención sin repartirla. Ver la televisión juntos no cuenta; hablar mientras se ve la televisión, tampoco. Lo que cuenta es la atención entera, y por eso a quien tiene este idioma le hiere tanto que le miren el móvil mientras habla, más que cualquier discusión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí Chapman da lo mejor de su oficio de consejero: la diferencia entre escuchar para entender y escuchar para resolver. Mira a los ojos, no hagas otra cosa a la vez, escucha el sentimiento y no solo la información, fíjate en el cuerpo, y no interrumpas. Casi todo el mundo interrumpe para dar una solución, y quien está contando algo casi nunca la ha pedido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Estar en la misma habitación no es estar juntos: la atención repartida no la nota nadie como cariño.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un regalo no vale por lo que cuesta y un favor deja de valer si se ha exigido",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercer idioma son los regalos, y es el que peor fama tiene porque se confunde con el materialismo. Chapman sostiene lo contrario: un regalo es un símbolo visible de que alguien pensó en ti cuando no estabas delante, y su valor no tiene nada que ver con el precio. Una piedra recogida en un paseo funciona igual de bien que una joya si el idioma es ese.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dentro de este idioma incluye una variante que no es un objeto: la presencia física en los momentos que importan. Estar en el hospital, en el entierro, en la función del colegio. Para quien tiene este idioma, la ausencia en un momento así no se compensa después con nada, porque lo que se valoraba era exactamente el hecho de que estuvieras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuarto son los actos de servicio: hacer cosas que sabes que el otro querría que hicieras. Cocinar, arreglar el grifo, planchar, encargarse del papeleo. Chapman avisa de que es el idioma más fácil de convertir en reproche, y añade la regla que ya había dado con las palabras: pedir orienta, exigir bloquea. En cuanto un favor se cobra, ha dejado de ser un favor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y pone un límite que conviene subrayar, porque es donde más se malinterpreta el libro. Hablar el idioma del servicio no significa aceptar cualquier reparto ni convertirse en el felpudo de nadie; una relación en la que uno solo sirve y el otro solo recibe no es una relación con un problema de idioma, es una relación con un problema distinto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una petición orienta el cariño y una exigencia lo corta, aunque las dos frases digan exactamente lo mismo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El contacto físico no es el sexo, y confundirlos deja a mucha gente vacía",
+      },
+      {
+        b: "texto",
+        texto:
+          "El quinto idioma es el contacto físico, y Chapman dedica media página a aclarar que no está hablando de la vida sexual. Está hablando de la mano en el hombro al pasar, del abrazo al llegar a casa, de ir cogidos del brazo, de tocar el pelo mientras se habla. Para quien tiene este idioma, una tarde entera sin un solo contacto es una tarde de distancia, aunque la conversación haya sido buena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade una observación seria: para esa misma persona, cualquier violencia física es más devastadora que para otra, porque se ejerce justo en el canal por el que recibe el afecto. Y lo mismo funciona con los cambios de vida: una enfermedad, una operación o un duelo cambian a menudo qué tipo de contacto sirve, y hay que volver a preguntarlo en vez de darlo por sabido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cada idioma tiene además dialectos, y esa es la parte que la gente se salta. No basta con saber que a tu pareja le llegan los actos de servicio: importa cuáles. Fregar los platos puede no valer nada y ocuparse de las facturas valer muchísimo. Preguntar por el dialecto concreto ahorra años de esfuerzo mal colocado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para averiguar el idioma propio, Chapman propone tres preguntas. Qué es lo que más te duele que tu pareja haga o deje de hacer, porque lo contrario suele ser tu idioma. Qué es lo que le has pedido más veces a lo largo de los años. Y cómo expresas tú el cariño normalmente, porque casi todo el mundo habla el suyo por defecto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Saber el idioma del otro no basta: hay que saber en qué dialecto lo habla, y eso solo se averigua preguntando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El amor es una decisión, y por eso se puede hablar un idioma que no es el propio",
+      },
+      {
+        b: "texto",
+        texto:
+          "La afirmación de fondo del libro es que el amor del que habla no es un sentimiento sino una conducta. Los sentimientos no se ordenan: nadie puede decidir emocionarse. Los actos sí, y por eso se puede empezar a hablar el idioma del otro sin sentir nada especial al hacerlo, esperar a ver qué pasa, y comprobar que el sentimiento suele venir detrás y no delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que Chapman cuenta para demostrarlo es el más famoso del libro y conviene contarlo entero. Una mujer llegó a su consulta diciendo que odiaba a su marido y quería divorciarse. Él le propuso un experimento de seis meses: comportarse de la manera más cariñosa posible en el idioma de él, para que cuando se fuera la pérdida le doliera lo máximo. Ella aceptó, y a los seis meses el marido se había enamorado otra vez y ella no quería marcharse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La historia se cita siempre como la prueba definitiva del método, y es justo donde el libro necesita una advertencia que no trae. Funciona si el problema era una distancia acumulada por desencuentro; es un consejo dañino si lo que hay debajo es maltrato, desprecio o una decisión ya tomada. Recomendar seis meses de esfuerzo unilateral a alguien que quiere irse puede ser exactamente lo contrario de lo que necesita.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con esa reserva, el mecanismo es sólido y no depende de creerse la clasificación. Consiste en preguntar en vez de suponer, en observar qué reclama el otro cuando se queja, y en dedicar el esfuerzo a lo que se recibe y no a lo que se da con gusto. Es una idea pequeña, y su tamaño es la razón de que se pueda aplicar el mismo día que se lee.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie puede decidir lo que siente, pero cualquiera puede decidir lo que hace, y el sentimiento suele venir detrás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Los cinco lenguajes del amor sostiene que el afecto se expresa y se recibe de cinco maneras —palabras, tiempo, regalos, servicios y contacto—, que cada persona tiene una principal y que casi todo el mundo da la suya en lugar de la del otro. De ahí sale un método corto: averiguar el idioma ajeno, averiguar su dialecto y hablarlo aunque no salga solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta y se sostiene es más pequeño que la clasificación y más útil: la distinción entre lo que uno cree que está dando y lo que el otro está recibiendo. Explica sin culpar a nadie por qué dos personas que se esfuerzan de verdad pueden acabar las dos resentidas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En una relación no cuenta lo que has dado: cuenta lo que le ha llegado al otro, y no son la misma cifra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La clasificación no viene de ningún estudio: viene de que Chapman agrupó a ojo las quejas de sus cuadernos de consulta, y ese origen se nota. No hay ninguna razón para que sean cinco y no cuatro o nueve, y mucha gente responde que le llegan tres por igual, algo que el libro trata como una excepción rara. Sus cifras tampoco están respaldadas: los dos años del enamoramiento salen de cuestionarios de los setenta, no de un experimento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además dos supuestos ocultos. El libro está escrito desde una consulta pastoral evangélica y da por hecho, sin discutirlo nunca, que el matrimonio hay que salvarlo; y trata el amor como un intercambio de entregas, que en manos de la persona equivocada se convierte en llevar la cuenta, justo lo que Chapman quería evitar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después es una revisión seria y tardía. En 2024, un equipo de psicólogas de la pareja repasó la evidencia acumulada y concluyó que los tres supuestos centrales no se sostienen: no está claro que cada persona tenga un idioma principal, no hay razón para que sean cinco, y las parejas que coinciden de idioma no son más felices que las demás. El libro lleva vendidos más de veinte millones de ejemplares.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "lenguajes-amor": LENGUAJES_AMOR,
+  "lean-startup": LEAN_STARTUP,
+  "cero-a-uno": CERO_A_UNO,
   "riqueza-naciones": RIQUEZA_NACIONES,
   "emperador-males": EMPERADOR_MALES,
   "henrietta-lacks": HENRIETTA_LACKS,

@@ -38,6 +38,30 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "lenguajes-amor": [
+    "cuánto dura de media el enamoramiento y qué viene después",
+    "por qué esforzarse más a veces empeora las cosas",
+    "los cinco idiomas y qué duele en cada uno",
+    "las tres preguntas para averiguar el tuyo",
+    "qué dice la evidencia de todo esto",
+  ],
+
+  "lean-startup": [
+    "por qué cumplir el plan puede ser la peor señal",
+    "qué es de verdad un producto mínimo viable",
+    "por qué los totales acumulados no sirven para decidir",
+    "cuándo toca cambiar de hipótesis y cuándo insistir",
+    "los tres únicos motores de crecimiento que existen",
+  ],
+
+  "cero-a-uno": [
+    "por qué la competencia perfecta deja beneficio cero",
+    "cómo mienten los monopolios sobre su mercado",
+    "por qué se empieza en un mercado diminuto",
+    "la zona muerta donde mueren los buenos productos",
+    "las siete preguntas que decide un negocio",
+  ],
+
   "riqueza-naciones": [
     "por qué la especialización tiene un techo",
     "cuántas veces aparece de verdad la mano invisible",

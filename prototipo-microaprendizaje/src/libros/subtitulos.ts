@@ -22,6 +22,9 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "lenguajes-amor": "Cómo expresar devoción sincera a su cónyuge",
+  "lean-startup": "Cómo crear empresas de éxito utilizando la innovación continua",
+  "cero-a-uno": "Cómo inventar el futuro",
   "emperador-males": "Una biografía del cáncer",
   leonardo: "La biografía",
   "roba-artista": "Las cosas que nadie te ha dicho sobre ser creativo",
