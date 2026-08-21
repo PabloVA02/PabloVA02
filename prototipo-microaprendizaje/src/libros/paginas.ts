@@ -27942,7 +27942,7 @@ const CAPITAL_SIGLO_XXI: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Frente a las alternativas habituales explica por qué prefiere esta. El proteccionismo empobrece a todos; el control de capitales es difícil y tiene efectos secundarios grandes; y subir solo el impuesto sobre la renta no toca los patrimonios ya formados, que son precisamente el problema que describe el libro.",
+          "Frente a las alternativas habituales explica por qué prefiere esta. El proteccionismo empobrece a todos; el control de capitales es difícil y tiene efectos secundarios grandes; y subir solo el impuesto sobre la renta no toca los patrimonios ya formados, que son precisamente el problema que describe el libro. Y conviene una advertencia sobre cómo se ha usado su fórmula fuera del libro. Se cita continuamente como si fuera una ley física, y aquí dentro es una regularidad histórica con excepciones, medida con datos que su autor discute a lo largo de cien páginas. Tomarla por una ley es hacer con este libro justo lo que él le reprocha a la teoría económica anterior.",
       },
       {
         b: "idea",
@@ -28008,11 +28008,6 @@ const CAPITAL_SIGLO_XXI: PaginaLibro[] = [
         b: "texto",
         texto:
           "Lo que vino después. Piketty ha ido corrigiendo y ampliando en dos libros posteriores, donde da más peso a las instituciones y a las ideologías que legitiman cada reparto, y menos al mecanismo aritmético que hizo célebre a este. Y el efecto público fue considerable: desde 2014, la desigualdad de patrimonio dejó de ser un asunto marginal en la discusión económica, y buena parte de los organismos internacionales que antes no la medían empezaron a publicar datos sobre ella.",
-      },
-      {
-        b: "texto",
-        texto:
-          "Conviene por último una advertencia sobre cómo se ha usado. La fórmula que lo hizo famoso se cita continuamente como si fuera una ley física, y en el propio libro es una regularidad histórica con excepciones, medida con datos que su autor discute a lo largo de cien páginas. Tomarla como una ley es hacer con este libro exactamente lo que él le reprocha a la teoría económica anterior.",
       },
     ],
   },
