@@ -88,22 +88,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "pilares-tierra",
-    titulo: "Los pilares de la Tierra",
-    autor: "Ken Follett",
-    ano: 1989,
-    gancho: "Un autor de thrillers de éxito dejó de escribir espías para contar la construcción de una catedral. Su editor se opuso. Vendió veintisiete millones de ejemplares.",
-    porQue: "Porque convierte una obra de albañilería del siglo XII en un thriller de mil páginas, y porque explica el arco apuntado mejor que cualquier manual.",
-    minutos: 21.1,
-    capitulos: [
-      { titulo: "La horca de Shiring", minutos: 4.2 },
-      { titulo: "Tom, el constructor", minutos: 4.3 },
-      { titulo: "El prior Philip", minutos: 4.2 },
-      { titulo: "El arco apuntado", minutos: 4.4 },
-      { titulo: "Canterbury", minutos: 4 },
-    ],
-  },
-  {
     id: "canones-agosto",
     titulo: "Los cañones de agosto",
     autor: "Barbara Tuchman",

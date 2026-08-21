@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "pilares-tierra":
+    "Un autor de novelas de espías tardó tres años y medio en escribir mil páginas sobre unos albañiles del siglo XII, contra el consejo de su agente y su editor. Es su libro más vendido y explica cómo se levantaba una catedral y quién la pagaba.",
+
   "homenaje-cataluna":
     "Orwell llegó a Barcelona en diciembre de 1936 para escribir artículos y acabó en una milicia por casualidad. Volvió con una bala atravesada en el cuello y con el descubrimiento que decidió toda su obra posterior.",
 

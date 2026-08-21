@@ -28272,7 +28272,264 @@ const HOMENAJE_CATALUNA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Los pilares de la Tierra, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO: títulos cortos de imagen, afirmación en la primera
+   frase, caja del rayo en segunda persona.
+
+   Lo concreto que salva la prueba del título tapado: el naufragio del
+   Barco Blanco, la Anarquía inglesa, Saint-Denis, el comercio de lana con
+   Flandes y el asesinato de Canterbury en 1170.
+   -------------------------------------------------------------------------- */
+
+const PILARES_TIERRA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un autor de novelas de espías se puso a escribir sobre catedrales" },
+      {
+        b: "texto",
+        texto:
+          "Ken Follett era conocido a principios de los ochenta por sus novelas de espionaje ambientadas en la Segunda Guerra Mundial, un género que le funcionaba bien y del que vivía cómodamente. Cuando anunció que iba a escribir mil páginas sobre unos albañiles que construyen una catedral en la Inglaterra del siglo XII, su agente y su editor le desaconsejaron el proyecto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El origen fue una afición personal. Follett había empezado a visitar catedrales por su cuenta y a leer sobre arquitectura, y le llamó la atención un hecho que suele pasar inadvertido: aquellos edificios los levantaron hombres sin ninguna formación teórica, sin planos como los entendemos hoy, sin cálculo de estructuras y sin la palabra arquitecto. Se aprendía en la obra, mirando y equivocándose.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tardó tres años y medio en escribirlo y lo publicó en 1989. Le costó arrancar en su propio país y acabó siendo su libro más vendido con diferencia, con más de veinte millones de ejemplares y un éxito especialmente enorme en Alemania, Italia y España, donde estuvo años seguidos en las listas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que contiene: qué pregunta está en el centro del libro, en qué época real transcurre, cómo convierte una técnica constructiva en argumento, de dónde salía el dinero de una obra así, por qué se caían las bóvedas y qué hecho histórico cierra la novela.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los edificios más ambiciosos de Europa los levantó gente que no sabía leer, aprendiendo en la obra y equivocándose.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Por qué una sociedad hambrienta dedica un siglo a un edificio" },
+      {
+        b: "texto",
+        texto:
+          "La pregunta que sostiene la novela está formulada en las primeras páginas y no es narrativa: es histórica. Cómo es posible que una sociedad en la que la mayoría de la gente pasaba hambre, moría joven y vivía en casas de barro dedicara recursos enormes durante tres o cuatro generaciones a levantar un edificio que ninguno de los que empezaron llegaría a ver terminado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La novela contesta con la economía y no con la fe. Una catedral era el mayor motor económico que podía tener una comarca: daba trabajo durante décadas a canteros, carpinteros, herreros, carreteros y peones, atraía peregrinos que gastaban, obligaba a abrir caminos y a montar un mercado, y convertía a un pueblo de barro en una ciudad con dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso en el libro pelean por ella tres poderes a la vez. El priorato la quiere para su monasterio, el obispo la quiere para su propio prestigio y contra el prior, y el conde de la comarca quiere impedir que el pueblo prospere, porque un pueblo con mercado deja de depender de su castillo. Ninguno de los tres discute de teología en ninguna página.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un mecanismo legal que Follett explica bien y que casi nadie conoce: el derecho de mercado. Un pueblo necesitaba una licencia real para celebrarlo, y quien la conseguía atraía el comercio de toda la comarca; quien la perdía se arruinaba. La mitad de la trama política del libro gira alrededor de un permiso administrativo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una catedral no era sobre todo un edificio religioso: era la mayor obra pública que una comarca podía tener, con todo lo que eso arrastra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un barco que se hundió y un reino sin heredero" },
+      {
+        b: "texto",
+        texto:
+          "La novela transcurre durante un período real que casi nunca se novela y que en Inglaterra tiene nombre propio: la Anarquía, la guerra civil que ocupó buena parte del reinado de Esteban de Blois entre 1135 y 1153. No es un decorado: cada giro de la trama depende de quién manda ese año.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El origen está en un naufragio. En noviembre de 1120, un barco salió de Normandía hacia Inglaterra de noche, con la tripulación borracha, y se hundió contra una roca. Murieron unas trescientas personas, entre ellas el único hijo varón legítimo del rey Enrique I. El rey se quedó sin heredero, hizo jurar a los barones que aceptarían a su hija Matilde y, en cuanto murió, los barones se olvidaron del juramento y coronaron a su sobrino Esteban.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después fueron casi veinte años de guerra entre dos facciones, con el país repartido, los señores locales cambiando de bando según el mes y ninguna autoridad capaz de imponer nada. Los cronistas de la época escribieron que Cristo y sus santos dormían.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Follett convierte ese caos en el motor de la novela. En un reino sin ley efectiva, un obispo puede quedarse con una cantera ajena, un conde puede arrasar un pueblo sin consecuencias y un prior sin ejército solo puede defenderse con documentos, favores y paciencia. Toda la trama consiste en ver quién sobrevive a eso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando ningún poder es capaz de imponer la ley, el único que puede defenderse sin ejército es el que sabe usar los papeles.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Del arco redondo al arco apuntado" },
+      {
+        b: "texto",
+        texto:
+          "El hallazgo del libro es haber convertido una técnica constructiva en la trama principal, y funciona porque la técnica de verdad cambió en esos años. Al empezar la novela se construye en románico: muros gruesísimos, ventanas pequeñas, arcos de medio punto y bóvedas pesadas que exigen apoyarlo todo sobre paredes macizas. El resultado son iglesias oscuras y bajas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cambio que ocurre a mitad del libro es real y tiene fecha y lugar. Hacia 1140, en la abadía de Saint-Denis, cerca de París, se levantó el primer edificio con las tres piezas del gótico funcionando juntas: el arco apuntado, que dirige el peso hacia abajo en vez de hacia los lados; la bóveda de crucería, que concentra las cargas en unos pocos puntos; y el arbotante, un contrafuerte exterior que sujeta desde fuera lo que antes tenía que sujetar el muro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto de esas tres cosas es que el muro deja de sostener el edificio, y entonces se puede vaciar. Donde había piedra puede haber vidrio. Follett lo hace pasar por su personaje: el joven Jack viaja a Francia, ve aquello construido, entiende cómo funciona y vuelve a Inglaterra con la idea en la cabeza y sin un solo plano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está lo mejor del libro para un lector que no sepa nada de arquitectura: al terminarlo se entiende por qué una catedral gótica tiene ventanales enormes y una románica no, y esa explicación no viene en un capítulo aparte, viene dentro de una discusión entre dos hombres que se odian.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando el muro dejó de tener que sostener el edificio, se pudo vaciar y llenar de vidrio: eso es todo el gótico en una frase.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La lana paga las piedras" },
+      {
+        b: "texto",
+        texto:
+          "La otra mitad del libro es económica, y es la parte que menos se recuerda y más enseña. Una catedral necesitaba dinero cada semana durante décadas, y ese dinero no lo daba la Iglesia de golpe: había que producirlo en la comarca, año tras año, o la obra se paraba y los canteros se marchaban a otro sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La fuente que Follett elige es la que fue realmente la base de la riqueza inglesa medieval: la lana. Los monasterios criaban ovejas, la lana inglesa era la mejor de Europa y se exportaba en bruto a Flandes, donde estaban los telares. Toda la cadena aparece en la novela: la esquila, los vellones, el pesaje, los compradores flamencos, las ferias y el crédito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El personaje que monta ese negocio desde cero, empezando por comprar vellones sueltos a campesinos y acabando por tratar con mercaderes extranjeros, es Aliena, la hija arruinada de un conde depuesto. Es la historia empresarial más detallada que existe en un superventas, con precios, márgenes y quiebras incluidos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale un hilo que atraviesa el libro: cada vez que la guerra corta un camino, cada vez que un señor prohíbe un mercado o cada vez que se hunden los precios en Flandes, la obra de la catedral se detiene. El edificio avanza al ritmo exacto del comercio de lana, y esa dependencia es históricamente correcta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El edificio avanzaba al ritmo del comercio, y una guerra a doscientos kilómetros podía parar una obra durante años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las catedrales se caían" },
+      {
+        b: "texto",
+        texto:
+          "El libro insiste en algo que la imagen actual de esos edificios hace olvidar: se venían abajo con frecuencia. No había cálculo de estructuras ni manera de saber de antemano si una bóveda aguantaría; se avanzaba por imitación, copiando lo que se había mantenido en pie en otro sitio y añadiendo un poco más de altura cada vez, hasta que algo cedía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La historia inglesa da varios ejemplos reales de esos años y de los siguientes: torres centrales que se derrumbaron sobre el crucero, bóvedas que reventaron y campanarios que hubo que rehacer. Cada derrumbe se pagaba con vidas de obreros y con años de trabajo perdidos, y a menudo con la ruina del maestro constructor, que perdía el encargo y la reputación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Follett usa eso como el momento de mayor tensión de la novela y como argumento técnico. Después de un derrumbe hay que averiguar qué falló, y esa investigación es la que empuja a los constructores a probar la solución nueva: si el muro no aguanta el empuje lateral de la bóveda, o se hace el muro más grueso, que es lo que se venía haciendo, o se apunta el arco y se sujeta desde fuera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está la observación más interesante del libro sobre el oficio. Aquellos hombres no tenían teoría, así que su conocimiento avanzaba exactamente al ritmo de sus fracasos, y cada catedral que se caía enseñaba a la siguiente hasta dónde se podía llegar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Sin teoría, el conocimiento avanza al ritmo de los fracasos, y cada edificio que se derrumbó enseñó al siguiente hasta dónde podía subir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un asesinato en Canterbury" },
+      {
+        b: "texto",
+        texto:
+          "La novela termina con un hecho histórico que ocurrió de verdad y que Follett coloca como cierre de todas sus tramas. El 29 de diciembre de 1170, cuatro caballeros entraron en la catedral de Canterbury durante las vísperas y mataron a espada al arzobispo Thomas Becket delante de sus monjes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El origen del asesinato era un pulso de años entre Becket y el rey Enrique II sobre quién juzgaba a los clérigos, si los tribunales del rey o los de la Iglesia. Según la tradición, el rey soltó delante de sus caballeros una frase de exasperación preguntando si nadie iba a librarle de aquel cura, y cuatro de ellos la tomaron por una orden y cabalgaron hasta Canterbury.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después es lo que le interesa a la novela. Becket fue canonizado en tres años, su tumba se convirtió en el centro de peregrinación más importante de Inglaterra y el rey, acorralado por el escándalo en toda Europa, tuvo que hacer penitencia pública caminando descalzo y dejándose azotar por los monjes. El asesinato le salió carísimo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Follett hace que sus personajes lleguen a esa escena por sus propios motivos, y aprovecha para cerrar la lección política del libro: un poder sin límites puede matar a quien quiera, y a veces descubre después que ese muerto le ha costado más que cualquier derrota militar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un poder sin límites puede matar a quien quiera, y a veces ese muerto le sale más caro que perder una guerra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Los pilares de la Tierra cuenta cuarenta años de un pueblo inglés inventado durante la guerra civil del siglo XII, con la construcción de una catedral como hilo. Su acierto es haber hecho de la técnica constructiva el argumento —el paso del románico al gótico, con sus arcos y sus contrafuertes— y haber explicado de dónde salía el dinero, que era el comercio de lana con Flandes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es divulgación disfrazada. Quien termina las mil páginas sabe cómo se levantaba una bóveda, por qué las ventanas crecieron, qué era el derecho de mercado, cómo funcionaba el comercio medieval y qué fue la Anarquía inglesa, sin haber leído un solo párrafo con aspecto de manual.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ninguno de los que empezaban una catedral llegaba a verla terminada, y aun así se empezaban, que es lo que el libro quiere explicar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Los personajes son planos y están repartidos moralmente sin matices: el conde es malvado sin una sola duda, el prior es bueno sin una sola sombra, el joven constructor es el genio incomprendido de manual. Y hablan como gente del siglo XX: razonan sobre el amor, el mérito personal y la libertad individual con categorías que en 1140 no existían, y la protagonista tiene una mentalidad empresarial contemporánea que resulta muy cómoda para el lector y muy improbable para la época.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un reproche recurrente que conviene decir. La violencia sexual aparece de forma reiterada y funciona como recurso para caracterizar al villano y para poner en marcha la trama; son escenas explícitas, repetidas, y a un lector de hoy le van a resultar gratuitas más de una vez. Follett ha defendido que la brutalidad de aquel siglo era esa y que la violencia sobre las mujeres era un instrumento de poder; el argumento es válido y no explica del todo cuántas veces recurre a ello el libro.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "pilares-tierra": PILARES_TIERRA,
   "homenaje-cataluna": HOMENAJE_CATALUNA,
   "capital-siglo-xxi": CAPITAL_SIGLO_XXI,
   "origenes-totalitarismo": ORIGENES_TOTALITARISMO,

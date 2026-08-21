@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "pilares-tierra": [
+    "por qué una sociedad hambrienta dedicaba un siglo a un edificio",
+    "qué fue la guerra civil inglesa en la que transcurre",
+    "cómo se pasó del arco de medio punto al arco apuntado",
+    "de dónde salía el dinero para pagar la obra",
+    "por qué se derrumbaban tantas catedrales",
+  ],
+
   "homenaje-cataluna": [
     "cómo era de verdad un frente en el invierno de 1936",
     "qué ocurrió en Barcelona en mayo de 1937",
