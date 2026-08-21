@@ -81,7 +81,6 @@ const CARGADORES: Record<string, Cargador> = {
   "etica-nicomaco": () => import("./filosofia").then((m) => m.ETICA_NICOMACO),
   "ensayos-montaigne": () => import("./filosofia").then((m) => m.ENSAYOS_MONTAIGNE),
   "repensar-pobreza": () => import("./economia").then((m) => m.REPENSAR_POBREZA),
-  "paseo-aleatorio": () => import("./economia").then((m) => m.PASEO_ALEATORIO),
   "dinero-domina-juego": () => import("./economia").then((m) => m.DINERO_DOMINA_JUEGO),
   "doctrina-shock": () => import("./economia").then((m) => m.DOCTRINA_SHOCK),
   superpronosticadores: () => import("./economia").then((m) => m.SUPERPRONOSTICADORES),

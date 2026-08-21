@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "paseo-aleatorio":
+    "Malkiel construyó un gráfico de bolsa lanzando una moneda y un analista profesional le recomendó comprar. De ahí sale su tesis: el precio de mañana no está escrito en el gráfico de ayer.",
+
   "millonario-al-lado":
     "La mitad de los millonarios encuestados no había pagado nunca más de 235 dólares por un reloj, y ocho de cada diez no habían heredado nada. Veinte años de encuestas para averiguar qué hacen distinto.",
 

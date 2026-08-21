@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "paseo-aleatorio": "La estrategia probada a lo largo del tiempo para invertir con éxito",
   "millonario-al-lado": "Los sorprendentes secretos de los ricos de Estados Unidos",
   "bogle-sentido-comun": "La única forma de garantizar tu parte justa de lo que rinde la bolsa",
   einstein: "Su vida y su universo",

@@ -504,22 +504,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "paseo-aleatorio",
-    titulo: "Un paseo aleatorio por Wall Street",
-    autor: "Burton Malkiel",
-    ano: 1973,
-    gancho: "Un mono con los ojos vendados tirando dardos a las páginas de bolsa elige una cartera tan buena como la de los expertos. Lleva cincuenta años sin que nadie lo desmienta del todo.",
-    porQue: "Es el libro que explica por qué casi todo lo que se cobra por gestionar tu dinero no vale lo que cuesta, y lo demuestra con datos en vez de con indignación. Sirve igual para invertir que para desconfiar de cualquiera que prometa predecir el futuro.",
-    minutos: 23.1,
-    capitulos: [
-      { titulo: "El mono con los ojos vendados", minutos: 4.5 },
-      { titulo: "Tulipanes, mares del Sur y puntocom", minutos: 4.8 },
-      { titulo: "Las dos maneras de fallar el pronóstico", minutos: 4.5 },
-      { titulo: "Lo único que está en tu mano", minutos: 4.6 },
-      { titulo: "Dónde cojea el paseo aleatorio", minutos: 4.7 },
-    ],
-  },
-  {
     id: "repensar-pobreza",
     titulo: "Repensar la pobreza",
     autor: "Banerjee y Duflo",

@@ -45575,7 +45575,292 @@ const MILLONARIO_AL_LADO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Un paseo aleatorio por Wall Street, en ocho páginas.
+
+   Breve. Libro práctico de dinero → TÚ. Economía → persona con nombre en
+   cada argumento y términos traducidos la primera vez.
+
+   SE ESCRIBIÓ MIRANDO AL DE BOGLE PARA NO REPETIRLO. Los dos terminan en
+   fondos índice y llegan por caminos distintos: Bogle demuestra que los
+   costes se comen el resultado; Malkiel pregunta si el precio de mañana se
+   puede saber. Aquí se cuenta lo segundo y la aritmética se deja a Bogle.
+
+   La página de las burbujas aplica el aviso del apartado 4 bis sobre la
+   anécdota famosa: la de los tulipanes está muy limada, Anne Goldgar la
+   desmontó en 2007 y Malkiel la repite. Se cuenta con lo que se sabe.
+   -------------------------------------------------------------------------- */
+
+const PASEO_ALEATORIO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El precio de mañana no está escrito en el gráfico de ayer" },
+      {
+        b: "texto",
+        texto:
+          "En 1720 Isaac Newton perdió unas veinte mil libras en la burbuja de la Compañía de los Mares del Sur, una fortuna que hoy serían varios millones de euros. Había vendido con beneficio, vio subir la acción sin él, volvió a comprar cerca del máximo y se arruinó. Se le atribuye una frase que aparece en un libro de anécdotas publicado después de su muerte, así que conviene citarla con esa reserva: podía calcular el movimiento de los astros, pero no la locura de la gente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Burton Malkiel, economista de Princeton, publicó este libro en 1973 y lleva trece ediciones; la última salió en 2023, cuando el autor tenía noventa años. Su tesis es más incómoda que la de cualquier libro de bolsa: no dice que sea difícil ganar al mercado, dice que la información que usarías para intentarlo ya está metida en el precio antes de que la mires.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El título es un término técnico, no una imagen. Un paseo aleatorio es una serie en la que el siguiente paso no se puede predecir a partir de los pasos anteriores. Aplicado a la bolsa significa que los cambios pasados de un precio no contienen información sobre los futuros, y de ahí sale la frase más citada del libro: un mono con los ojos vendados que lanzara dardos contra las páginas de bolsa de un periódico armaría una cartera tan buena como la de un experto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: qué significa exactamente eso del paseo aleatorio, las dos maneras opuestas de decidir lo que vale una acción, por qué las burbujas se parecen tanto entre sí, por qué leer gráficos no funciona, por qué analizar empresas tampoco basta, y qué contestan los psicólogos que llevan cuarenta años diciendo que los mercados no son tan listos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La bolsa no es impredecible porque sea caótica: es impredecible porque cualquier cosa predecible se agota en cuanto alguien la ve.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Si un patrón funcionara, dejaría de funcionar en cuanto se supiera" },
+      {
+        b: "texto",
+        texto:
+          "El argumento central de Malkiel no es sobre estadística sino sobre competencia. Supón que se descubre que las acciones suben los lunes. En cuanto se sepa, mucha gente comprará el viernes para aprovecharlo, con lo que el viernes subirá; entonces habrá que comprar el jueves, y así hasta que el patrón se disuelva. Cualquier regularidad rentable se destruye a sí misma al ser explotada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso la eficiencia del mercado no significa que los precios sean correctos, y este es el malentendido más extendido sobre el libro. Significa que son difíciles de batir. Un precio puede estar disparatado —y las burbujas demuestran que lo está a menudo— y aun así resultar imposible ganar dinero apostando contra él, porque no hay manera de saber cuándo volverá a su sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba más divertida la organizó el «Wall Street Journal». Entre 1988 y 2002 enfrentó a profesionales de la inversión contra un tablero de dardos: cuatro expertos elegían acciones y un becario las lanzaba contra la página de cotizaciones. En 142 concursos los profesionales ganaron 87. Suena a victoria clara y Malkiel señala tres trampas: se comparaba la subida del precio sin contar dividendos, las acciones elegidas por los expertos subían al publicarse el artículo, y las suyas eran más volátiles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hay que sacar de aquí no es que los profesionales sean inútiles. Es que su ventaja, si existe, es tan pequeña que se pierde dentro del ruido y por debajo de lo que cobran por aplicarla. Y para ti eso significa que la pregunta no es si alguien puede ganar al mercado, sino si puedes identificar por adelantado quién lo hará.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que un mercado sea difícil de batir no quiere decir que tenga razón: quiere decir que no sabes cuándo dejará de no tenerla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay dos maneras de decidir lo que vale una acción y solo una habla de la empresa",
+      },
+      {
+        b: "texto",
+        texto:
+          "Malkiel organiza toda la historia de la inversión en dos relatos enfrentados. El primero lo llama la teoría del cimiento firme: cada acción tiene un valor intrínseco que se puede calcular a partir de los beneficios futuros de la empresa, y el precio de mercado oscila alrededor de ese valor. Comprar bien consiste en calcularlo mejor que los demás y esperar. Es la escuela de Benjamin Graham y de Warren Buffett.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo lo llama la teoría de los castillos en el aire, y viene de John Maynard Keynes, que además de economista fue un inversor con dinero propio en juego. En el capítulo doce de su obra de 1936, Keynes compara la bolsa con un concurso de un periódico en el que hay que elegir las seis caras más bonitas entre cien fotografías, y gana quien acierte las más votadas por el resto de los lectores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia de esa comparación es demoledora y explica la mitad de lo que pasa en los mercados. Para ganar el concurso no hay que elegir las caras que a ti te parecen bonitas, ni siquiera las que la mayoría encontrará bonitas: hay que anticipar lo que la media cree que la media va a elegir. Aplicado a la bolsa: no compras lo que vale, compras lo que crees que otro querrá comprarte más caro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Malkiel no elige entre las dos teorías, y ahí es honesto. Sostiene que el mercado funciona con las dos a la vez, que la primera manda a largo plazo y la segunda a corto, y que el problema práctico es que nadie sabe cuánto dura el corto plazo. Por eso la frase que se le atribuye a Keynes sobre que el mercado puede seguir siendo irracional más tiempo del que tú puedes seguir siendo solvente resume mejor el libro que ninguna de Malkiel.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En una burbuja no pierde quien se equivoca de valoración: pierde quien acierta demasiado pronto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Todas las burbujas tienen la misma forma y ninguna se reconoce desde dentro",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica su primera parte a un catálogo de manías, y el catálogo sirve porque se repiten los mismos cinco elementos: una novedad real, un relato sobre lo que esa novedad cambiará, dinero prestado para comprarla, gente nueva entrando por haber visto ganar a un vecino, y la creencia de que siempre habrá alguien dispuesto a pagar más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que abre la lista es el de los tulipanes holandeses de 1637, y conviene contarlo con cuidado porque está muy limado. La versión famosa dice que un solo bulbo llegó a valer lo que una casa en un canal de Ámsterdam y que el país entero se arruinó. La historiadora Anne Goldgar revisó en 2007 los archivos notariales y encontró que los precios altísimos eran reales pero afectaban a un círculo pequeño de comerciantes, y que la ruina generalizada es un añadido posterior. Malkiel repite la versión de siempre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los casos modernos no necesitan adornos. En 1999 la tienda de juguetes por internet eToys valía en bolsa unos ocho mil millones de dólares con ciento cincuenta millones de ventas, mientras Toys «R» Us valía seis mil con once mil millones de ventas y beneficios. eToys quebró en 2001. Y en enero de 2021 la cadena de videojuegos GameStop pasó de diecisiete dólares a tocar cuatrocientos ochenta y tres en tres semanas, empujada por un foro de internet.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ninguna de estas historias enseña es a salir a tiempo, y Malkiel lo admite. Desde dentro, una burbuja no se distingue de un cambio real: internet en 1999 sí transformó el comercio, aunque casi ninguna de las empresas de entonces sobreviviera. La lección práctica no es detectarla, es no depender de detectarla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Toda burbuja empieza con una novedad verdadera: por eso desde dentro no parece una burbuja, parece que llegas tarde.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Leer gráficos para adivinar el precio es la alquimia de las finanzas",
+      },
+      {
+        b: "texto",
+        texto:
+          "El análisis técnico, o chartismo, sostiene que en la forma del gráfico de un precio hay información sobre hacia dónde irá después. Tiene un vocabulario propio —hombro-cabeza-hombro, doble suelo, banderín, resistencia— y una industria detrás. Malkiel le dedica un capítulo entero y termina escribiendo que, sometido a examen, el estudio de gráficos merece compartir pedestal con la alquimia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El experimento que hizo con sus alumnos de Princeton es el mejor argumento del libro. Construyó un gráfico partiendo de cien euros y lanzando una moneda cada día: cara, sube medio punto; cruz, baja medio punto. El resultado tenía tendencias, suelos, techos y todas las figuras del manual. Se lo enseñó a un chartista profesional, que le recomendó comprar inmediatamente y le preguntó de qué empresa era.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo de fondo es el de la página segunda. Si una figura del gráfico anticipara de verdad una subida, quien la viera compraría antes de que la subida ocurriera, y con eso la adelantaría hasta borrarla. Y hay un segundo problema, más práctico: operar mucho cuesta dinero. Aunque una regla técnica tuviera una ventaja pequeña y real, las comisiones y las horquillas se la comerían antes de llegar a tu cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esto no significa que los precios no tengan ninguna estructura: se han documentado efectos de momento, en los que lo que ha subido tiende a seguir subiendo unos meses. Lo que significa es que esos efectos son pequeños, aparecen y desaparecen, y no sostienen una estrategia después de restarle los costes. Como sistema para decidir qué comprar mañana, el gráfico no vale.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un gráfico hecho lanzando una moneda contiene todas las figuras del manual, y eso dice todo lo que hay que saber sobre el manual.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Analizar la empresa a fondo tampoco basta, porque el análisis ya está en el precio",
+      },
+      {
+        b: "texto",
+        texto:
+          "El análisis fundamental es el trabajo serio: leer las cuentas, estimar los beneficios de los próximos años y calcular lo que vale la empresa. Malkiel lo respeta y le dedica una crítica mucho más fina que al chartismo. No dice que sea inútil; dice que hay miles de personas muy competentes haciéndolo a la vez, y que el precio que ves ya incorpora el resultado de todo ese trabajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aporta un dato que duele en el gremio. Cuando se comparan las previsiones de crecimiento de beneficios a cinco años que hacen los analistas con lo que ocurre de verdad, el acierto es aproximadamente el mismo que se obtiene suponiendo que la empresa seguirá creciendo al ritmo del año pasado. Miles de horas de trabajo para igualar a una regla que cabe en una línea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Da cinco razones, y ninguna es que los analistas sean tontos. Los sucesos que mueven una empresa —un pleito, una pandemia, un competidor nuevo— son imprevisibles por definición. La contabilidad admite mucha creatividad legal. Los mejores analistas acaban ascendiendo a gestión y dejando de analizar. Y durante décadas los departamentos de análisis dependieron del banco que colocaba las acciones de las empresas analizadas, lo cual es un conflicto de interés que se cobró varias multas históricas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión práctica es más suave de lo que parece. No es que no debas mirar una empresa antes de comprarla; es que mirarla bien te pone al nivel del mercado, no por encima. Para ganarle tienes que ver algo que miles de profesionales dedicados a eso a tiempo completo no han visto, y tienes que acertar más veces de las que fallas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hacer el análisis bien no te da ventaja: te iguala. La ventaja exigiría ver lo que no han visto miles de personas que hacen solo eso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los psicólogos demostraron que el inversor no es racional, y no consiguieron que se pueda ganar con ello",
+      },
+      {
+        b: "texto",
+        texto:
+          "Desde los años ochenta, la escuela de las finanzas conductuales ha desmontado el supuesto del inversor racional con experimentos, no con opiniones. Daniel Kahneman y Amos Tversky mostraron que perder duele aproximadamente el doble de lo que agrada ganar lo mismo, lo cual explica por qué la gente vende sus acciones ganadoras y se queda con las perdedoras esperando recuperar. También está documentado el exceso de confianza: la mayoría de los inversores particulares creen batir al mercado y los datos de sus cuentas dicen lo contrario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso se suman las anomalías que fue encontrando la estadística. El efecto enero, según el cual las acciones pequeñas rendían más en ese mes, se documentó en 1976. El efecto tamaño, el efecto valor, el efecto momento. Durante años parecieron grietas por las que colarse a batir al mercado sin adivinar nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La respuesta de Malkiel a esto es la parte más discutible del libro y también la más comprobable. Sostiene que casi todas esas anomalías se encogen o desaparecen después de publicarse, precisamente porque se publican, y lo cierto es que el efecto enero se desvaneció en las décadas siguientes y el efecto valor lleva desde 2007 sin funcionar en el mercado estadounidense. Su argumento es que un mercado con inversores irracionales puede seguir siendo imposible de batir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La disputa no está cerrada y tiene el árbitro más raro que existe. En 2013 el Nobel de Economía se repartió entre Eugene Fama, que formuló la hipótesis del mercado eficiente, y Robert Shiller, que se pasó la carrera demostrando que los precios oscilan mucho más de lo que justifican los beneficios de las empresas. Premiaron a la vez las dos respuestas contrarias a la misma pregunta, que es la manera más honrada de decir que no se sabe.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que los inversores se comporten de forma irracional y que el mercado sea difícil de batir son dos cosas compatibles, y esa es la parte que casi nadie acepta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que el precio de una acción incorpora ya todo lo que se sabe y se opina sobre ella, así que ni los gráficos ni el análisis de las cuentas te dan ventaja sistemática. De ahí saca una receta idéntica a la de Bogle por un camino distinto: comprar todo el mercado, pagar lo mínimo y no tocarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a los demás libros de bolsa es la historia. Las burbujas, el concurso de belleza de Keynes y el gráfico hecho con una moneda hacen que el consejo se sostenga solo, sin que haga falta creerse ninguna teoría. Es un libro que se puede leer sin invertir un céntimo y salir sabiendo más del mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en dos sitios. El primero es una tensión que arrastra desde 1973: dedica cien páginas a demostrar que los precios enloquecen y luego defiende que están bien formados, y aunque la distinción entre precio correcto y precio imbatible es válida, la prosa resbala una y otra vez de una a la otra. El segundo es la acumulación: trece ediciones en cincuenta años han dejado un libro con capas, en el que conviven consejos fiscales caducados con datos de 2022.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ha pasado desde la primera edición le ha dado la razón en lo grande. Los fondos índice pasaron de ser una rareza a mover más dinero que la gestión activa, y las anomalías que se anunciaron como vías para batir al mercado han ido apagándose después de publicarse, tal como él predijo. Su pronóstico más comprobable se cumplió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y le ha llevado la contraria en un detalle que importa: sus propias ediciones han ido añadiendo capítulos sobre inversión por factores y carteras alternativas, o sea, sobre maneras de intentar ganarle un poco al mercado. El autor que demostró que no se puede sigue publicando páginas sobre cómo intentarlo, y esa contradicción está dentro del mismo libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Léelo por las burbujas y por el gráfico de la moneda; la receta del final la da mejor Bogle en la mitad de páginas.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "paseo-aleatorio": PASEO_ALEATORIO,
   "millonario-al-lado": MILLONARIO_AL_LADO,
   "bogle-sentido-comun": BOGLE_SENTIDO_COMUN,
   einstein: EINSTEIN,

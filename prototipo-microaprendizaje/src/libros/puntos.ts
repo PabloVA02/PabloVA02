@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "paseo-aleatorio": [
+    "qué significa exactamente que la bolsa sea un paseo aleatorio",
+    "el concurso de belleza de Keynes y por qué explica las burbujas",
+    "por qué el análisis técnico no sobrevive a un examen",
+    "qué aciertan las previsiones de beneficios de los analistas",
+    "distinguir un precio correcto de un precio imbatible",
+  ],
+
   "millonario-al-lado": [
     "la fórmula que dice si acumulas o gastas, con tu edad y tu sueldo",
     "por qué médicos y abogados salen mal parados",
