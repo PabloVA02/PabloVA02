@@ -424,22 +424,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "cerebro-del-nino",
-    titulo: "El cerebro del niño",
-    autor: "Siegel y Payne Bryson",
-    ano: 2011,
-    gancho: "Doce estrategias para criar, todas envueltas en neurociencia. Los consejos son buenos y llevan décadas funcionando. La neurociencia, en cambio, está ahí sobre todo para que te los creas.",
-    porQue: "Porque es el manual de crianza más vendido de los últimos quince años y merece que alguien separe lo que está probado de lo que está decorado. Y porque hay un experimento de 1975, que el libro apenas menciona, que demuestra su tesis mejor que todas sus resonancias juntas.",
-    minutos: 26.2,
-    capitulos: [
-      { titulo: "Una rabieta en el asiento de atrás", minutos: 5.4 },
-      { titulo: "El río entre el caos y la rigidez", minutos: 5.4 },
-      { titulo: "Ponle nombre para domarlo", minutos: 5.3 },
-      { titulo: "El encanto de una resonancia magnética", minutos: 5.1 },
-      { titulo: "La cara que deja de responder", minutos: 5 },
-    ],
-  },
-  {
     id: "cosas-buenas",
     titulo: "Cómo hacer que te pasen cosas buenas",
     autor: "Marian Rojas Estapé",

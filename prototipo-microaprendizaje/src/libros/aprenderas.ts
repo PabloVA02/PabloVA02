@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cerebro-del-nino":
+    "Las partes del cerebro que frenan un impulso y ponen en palabras lo que pasa dentro siguen formándose hasta la veintena. Siegel y Bryson convierten ese hecho en una manera de responder a un berrinche.",
+
   "poder-metabolismo":
     "Su tesis es que engordas porque tu metabolismo va lento. Es una afirmación que se puede medir, y en 2021 se midió en más de seis mil personas: el gasto en reposo es mayor en los cuerpos grandes, no menor.",
 

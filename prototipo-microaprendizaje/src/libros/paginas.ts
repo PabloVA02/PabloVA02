@@ -48308,7 +48308,303 @@ const PODER_METABOLISMO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El cerebro del niño, en ocho páginas.
+
+   Breve. Libro práctico → TÚ, y aquí el tú es un padre o una madre en
+   mitad de un berrinche, así que las páginas tienen que servir esa misma
+   tarde.
+
+   La prueba del título tapado es dura con este libro, porque la mitad del
+   género de crianza dice lo mismo. Lo que solo existe aquí y sostiene el
+   resumen: el modelo de la mano, la distinción entre los dos berrinches, el
+   orden conecta-y-redirige, y el mando a distancia de la mente.
+
+   Y la página séptima hace la regla 5 dentro del libro, que en este caso es
+   obligatorio: el envoltorio neurocientífico de izquierda-lógica y
+   derecha-emocional es un neuromito documentado, y las estrategias
+   funcionan igual sin él. Decirlo no desmonta el libro; lo separa de su
+   decoración.
+   -------------------------------------------------------------------------- */
+
+const CEREBRO_DEL_NINO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un cerebro infantil no está estropeado ni es un adulto pequeño: está a medio conectar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las partes del cerebro que regulan los impulsos, aplazan una recompensa y ponen en palabras lo que pasa dentro son las últimas en terminar de formarse. Los estudios de resonancia magnética que siguieron durante años a los mismos niños, empezando por los del Instituto Nacional de Salud Mental estadounidense en 1999, muestran que la corteza prefrontal sigue reorganizándose hasta bien entrada la veintena. Un niño de cuatro años que no consigue calmarse no está desobedeciendo: está usando una herramienta que todavía se está fabricando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Daniel Siegel, psiquiatra de la Universidad de California, y Tina Payne Bryson, psicoterapeuta infantil, publicaron este libro en 2011 con esa idea como eje. Su tesis es que la palabra que ordena la crianza no es disciplina sino integración: hacer que las partes del cerebro se conecten entre sí, y que los momentos difíciles son precisamente las ocasiones en que esa conexión se entrena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la frase que repiten todo el libro y que le da la vuelta al planteamiento habitual: sobrevivir a un mal momento y aprovecharlo no son dos objetivos distintos. El berrinche del supermercado no es un obstáculo entre tú y la crianza; es la crianza. Lo que hagas en esos tres minutos enseña más que cualquier conversación tranquila.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: un modelo del cerebro que se hace con una mano y se le puede enseñar a un niño de cinco años, por qué hay dos tipos de berrinche que se tratan al revés, en qué orden hay que hacer las cosas cuando alguien está desbordado, qué pasa cuando se pone nombre a una emoción, cómo se entrena la parte que falta, y qué hay de neuromito en el envoltorio del libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los momentos en que peor se porta un niño no interrumpen la crianza: son la única ocasión en que se practica lo que le falta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El cerebro cabe en una mano, y eso se le puede explicar a un niño de cinco años",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hazlo mientras lees, porque es la pieza más útil del libro. Levanta una mano con la palma hacia ti. Dobla el pulgar hacia dentro, sobre la palma. Ahora cierra los otros cuatro dedos por encima del pulgar. Eso es un cerebro, y la muñeca es la médula que lo une al resto del cuerpo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte de abajo, la palma y el pulgar tapado, es el cerebro de abajo: lo que respira, lo que se asusta, lo que ataca o huye, lo que siente antes de pensar. Funciona desde el nacimiento y es rapidísimo. Los cuatro dedos que lo cubren son el cerebro de arriba, la corteza: lo que decide, lo que espera, lo que se pone en el lugar del otro y lo que explica. Es lento y está en obras durante veinte años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahora levanta los cuatro dedos de golpe, dejando el pulgar al aire. Eso es lo que pasa cuando alguien pierde los papeles: la parte de arriba deja de tapar la de abajo y el cerebro de abajo funciona solo. Siegel lo llama destapar la tapa, y el gesto es tan claro que un niño de cinco años lo entiende y puede decir después, con la mano, que se le levantó la tapa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es inmediata y explica por qué casi todo lo que hacemos en ese momento falla. Cuando alguien tiene la tapa levantada, la parte a la que estás hablando no está disponible: razonar, amenazar con un castigo o explicar por qué eso no se hace son mensajes dirigidos a unos dedos que están en el aire. Primero se baja la mano, y después se habla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Explicarle algo a alguien con la tapa levantada es hablarle a la parte del cerebro que en ese momento está desconectada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay dos berrinches que parecen iguales y que exigen respuestas opuestas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esta distinción es lo más práctico que ha aportado el libro y no está en casi ningún manual anterior. Un berrinche de arriba es una decisión: el niño ha calculado que gritando consigue el helado. Se reconoce porque puede parar en seco si le conviene, porque te mira para comprobar el efecto, y porque negocia. Está usando el cerebro de arriba, entero y funcionando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un berrinche de abajo es una inundación. Ahí no hay cálculo: el niño ha superado su capacidad de regularse y el cerebro de abajo ha tomado el mando. Se reconoce porque no puede parar aunque quiera, porque no responde a lo que le ofreces, porque a veces ni te ve, y porque después llega agotado y a menudo asustado de lo que ha pasado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las respuestas correctas son contrarias, y por eso confundirlos sale tan caro. Con el de arriba, lo que toca es no ceder: mantener el límite con calma, sin discurso y sin negociación, porque cualquier concesión enseña que el método funciona. Con el de abajo, mantener el límite mientras sigue inundado no enseña nada, porque no hay nadie aprendiendo: lo que toca es acompañar, bajar el tono, acercarse y esperar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La comprobación rápida, cuando dudes, es mirar si te está mirando. Un niño que controla lo que hace vigila el efecto que produce; un niño desbordado no. Y si te equivocas, equivócate hacia el acompañamiento: acompañar a un manipulador durante dos minutos cuesta poco, y exigir autocontrol a alguien inundado le enseña que en sus peores momentos se queda solo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si te está mirando para ver el efecto, está decidiendo; si no te ve, está desbordado. La respuesta correcta es la contraria en cada caso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Primero se conecta y después se corrige, y el orden no es negociable",
+      },
+      {
+        b: "texto",
+        texto:
+          "La estrategia central del libro tiene dos tiempos y casi todo el mundo intenta hacerlos a la vez. Primero conectar: ponerse a su altura, bajar la voz, tocarle un brazo, decir en voz alta lo que le pasa —estás muy enfadado porque queríamos irnos y tú no habías terminado—. Nada de eso opina sobre la conducta. Solo dice: te veo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después, y solo después, redirigir: aquí está el límite, esto no se hace, vamos a hacerlo así. La corrección es exactamente la misma que ibas a aplicar; lo único que cambia es que ahora hay alguien al otro lado escuchándola. Sin el primer paso, el segundo rebota; con el primer paso, suele bastar la mitad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir con claridad qué no es esto, porque es el malentendido que más daño hace. Conectar no es ceder, no es quitar el castigo y no es decir que da igual lo que ha hecho. Reconocer una emoción y permitir una conducta son dos cosas distintas: puedes estar furioso, y aun así no se pega. El libro insiste en que un niño necesita las dos, y que solo funciona en ese orden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y funciona igual con adultos, cosa que el libro apenas menciona. La misma secuencia —reconocer primero lo que siente la otra persona, plantear después lo que hay que resolver— es lo que separa una discusión que avanza de una que se repite. Si te cuesta creerlo con tu hijo, pruébalo en una conversación difícil de trabajo y verás la diferencia en la primera frase.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Reconocer una emoción y permitir una conducta son cosas distintas, y hacerlo en ese orden no ablanda el límite: lo hace audible.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ponerle nombre a lo que se siente baja la actividad de la alarma del cerebro",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la segunda estrategia estrella y tiene un respaldo experimental concreto. En 2007, un equipo de la Universidad de California dirigido por Matthew Lieberman metió a treinta personas en un escáner y les enseñó caras con expresiones de miedo o de ira. Cuando solo miraban, la amígdala —la estructura que dispara la alarma— se activaba con fuerza. Cuando tenían que elegir la palabra que describía esa emoción, la actividad de la amígdala bajaba y subía la de una zona de la corteza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Traducido a una casa: cuando un niño está asustado o furioso y consigue contar lo que le pasa, el simple hecho de contarlo rebaja la intensidad. De ahí sale la fórmula que da título a la estrategia, ponerle nombre para domarlo. No se trata de que el niño analice sus sentimientos, sino de que ponga en orden lo que pasó: primero esto, después esto otro, y entonces yo sentí esto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para los sucesos que le dan miedo recordar, el libro propone una técnica que se explica en un minuto: el mando a distancia de la mente. El niño es el que maneja el mando de su propia película. Puede darle a la pausa cuando algo se pone feo, rebobinar para ver lo que pasó antes, adelantar para llegar a la parte en la que ya está a salvo. Devolverle el control sobre el relato es lo que le permite contarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo por el que esto importa está en cómo funciona la memoria. Una experiencia intensa deja rastro aunque nadie la cuente, y ese rastro sin palabras sigue disparando reacciones —miedo al ascensor, a los perros, al médico— sin que el niño sepa de dónde vienen. Convertir ese rastro en una historia con principio y final es lo que lo desactiva, y por eso los libros insisten tanto en contar el día antes de dormir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un susto que no se cuenta no desaparece: se queda funcionando sin palabras y disparando reacciones que nadie sabe de dónde salen.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La parte que falta se entrena usándola, y a veces se arregla moviendo el cuerpo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Si el cerebro de arriba está en obras, la conclusión del libro es que hay que darle trabajo, y eso significa dejar de resolverle las cosas. En vez de decidir por él, hacerle decidir: ¿prefieres ducharte antes o después de cenar? En vez de dictar el castigo, preguntar qué le parece justo, que suele ser más severo de lo que ibas a poner. En vez de zanjar una pelea entre hermanos, pedirles que propongan una solución que valga para los dos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cada una de esas preguntas es una repetición de gimnasio para las funciones que están creciendo: decidir, aplazar, ponerse en el lugar del otro, prever consecuencias. Y tiene un coste que hay que aceptar, porque es la razón por la que casi nadie lo hace: se tarda muchísimo más que decidiendo tú, y hay que aguantar decisiones malas que no sean peligrosas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La otra herramienta va por el camino contrario y sirve cuando las palabras ya no entran. Cambiar lo que hace el cuerpo cambia el estado mental: sacar a un niño atascado a dar una vuelta a la manzana, ponerlo a saltar, echar una carrera hasta la esquina. No es una distracción para que se olvide; es que un cuerpo que se mueve descarga la activación que mantiene la tapa levantada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Prueba el orden completo la próxima vez y verás que se sostiene: primero mover o acercarse, después conectar, después contar lo que ha pasado, y al final el límite. Poner el límite el primero, que es lo que sale solo, es intentar entrar por una puerta que en ese momento está cerrada por dentro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Decidir por él le ahorra un minuto y le quita una repetición; el objetivo no es que la decisión salga bien, es que la tome.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El envoltorio neurocientífico del libro es un neuromito, y las estrategias funcionan sin él",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una parte importante del libro está organizada sobre la idea de que el hemisferio izquierdo es lógico, lineal y verbal, y el derecho emocional, holístico e intuitivo, y de que criar bien consiste en conectarlos. Es una idea con enorme éxito popular y no es así como funciona la lateralización cerebral.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los dos hemisferios participan en el lenguaje y los dos participan en la emoción; hay asimetrías reales y son mucho más sutiles y específicas que ese reparto. La comprobación más citada se publicó en 2013: un equipo de la Universidad de Utah analizó las imágenes cerebrales en reposo de mil once personas buscando si alguien usa más un hemisferio que otro de forma global. No encontraron nada parecido a personas de cerebro izquierdo o de cerebro derecho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa creencia está clasificada desde hace años entre los neuromitos educativos, y no es inofensiva: en un estudio de 2012 con profesores británicos y holandeses, alrededor del noventa por ciento daba por buena la idea de los alumnos de hemisferio dominante. La gracia de un neuromito es que suena a ciencia y por eso se acepta sin comprobarlo, que es exactamente lo que pasa al leer este libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo importante es qué se cae con ello, y la respuesta tranquilizadora es que casi nada. Conectar antes de corregir, distinguir los dos berrinches, contar lo que pasó, dar decisiones pequeñas: todo eso se sostiene por sí mismo, por experiencia clínica y por lo que se sabe de la regulación emocional. Lo que sobra es la explicación anatómica que las envuelve, y conviene quitarla al contárselo a otro para no propagar el mito.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que la explicación de por qué funciona sea falsa no hace falso que funcione, pero obliga a dejar de repetir la explicación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que criar consiste en ayudar a conectar las partes de un cerebro que aún está formándose, y que los peores momentos son las mejores ocasiones para hacerlo. Su método cabe en una secuencia: primero conectar, después corregir, y después contar lo que ha pasado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es que se puede usar. El modelo de la mano se aprende en treinta segundos y se le puede enseñar a un niño; la distinción entre los dos berrinches resuelve la duda más frecuente de cualquier padre; y el orden conectar-corregir cambia el resultado de una discusión esa misma tarde. Muy pocos libros de crianza dejan tres herramientas tan concretas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en el envoltorio y en la evidencia. La arquitectura de izquierda lógica y derecha emocional es un neuromito, y el libro la usa como si fuera anatomía. Y no existe ningún ensayo que haya comprobado que este programa concreto mejore nada: lo que hay es experiencia clínica y el respaldo indirecto de la investigación sobre acompañamiento emocional, que es bastante menos de lo que sugiere el tono.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una tercera cosa que conviene tener en cuenta y que el género entero evita. Los estudios de genética del comportamiento llevan décadas encontrando que la parte de las diferencias entre adultos que se explica por el estilo de crianza es más pequeña de lo que suponen estos libros. Eso no hace inútil criar bien —la relación y el bienestar del niño hoy dependen de ello—, pero rebaja la promesa de estar esculpiendo un futuro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de 2011 los autores convirtieron esto en una serie con varios títulos más, y el modelo de la mano se metió en colegios y consultas de medio mundo. En sentido contrario, la idea de los hemisferios que el libro popularizó se ha convertido en el ejemplo de manual de neuromito educativo, citado precisamente en los cursos que enseñan a los maestros a no creérselo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quédate con la mano, con los dos berrinches y con el orden; y cuando se lo cuentes a alguien, cuenta las herramientas sin la anatomía.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cerebro-del-nino": CEREBRO_DEL_NINO,
   "poder-metabolismo": PODER_METABOLISMO,
   "vivir-plenitud": VIVIR_PLENITUD,
   "milagro-metabolico": MILAGRO_METABOLICO,

@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cerebro-del-nino": [
+    "el modelo del cerebro que se hace con una mano",
+    "distinguir un berrinche calculado de uno desbordado",
+    "por qué conectar antes de corregir no es ceder",
+    "qué le pasa a la amígdala cuando pones nombre a una emoción",
+    "detectar el neuromito sobre el que está montado el libro",
+  ],
+
   "poder-metabolismo": [
     "la regla del plato de dos tercios y un tercio",
     "qué le pasa a la grelina cuando duermes cuatro horas",
