@@ -33,6 +33,7 @@ en el orden de lectura del resumen.
 | `republica/` | *La República*, 8 páginas | Confirma el registro de ensayo, la lista numerada con negrita y la etimología (*eudaimōn*) |
 | `realidad-virtual/` | un libro sobre simulación y realidad virtual | La entrada que anuncia el recorrido enumerando las cinco perspectivas, en el registro bueno |
 | `messi-ronaldo/` | *Messi y Ronaldo* | Lo concreto antes que el adjetivo: veintitrés goles en 2007, sesenta y uno en 2014-15, el nombre del entrenador de técnica |
+| `futuro-mente/` | *El futuro de nuestra mente*, de Michio Kaku, 8 páginas | **La más útil de las malas.** De aquí sale la regla del marcador: es un libro de predicciones de 2014 resumido sin decir la fecha y sin comprobar ni una. Y dos vicios nuevos: la cita de adorno mal atribuida y el «según los científicos» sin nombre. Apartado 4 bis, caso quinto |
 | `joyas-vocabulario/` | *Vocabulario picante* | **No es un resumen de un libro**: es un formato propio de Headway —«Joyas»— que mezcla varios títulos sobre un tema. Ficha de 6 puntos clave, 8 minutos y 3 conocimientos |
 | `tarjeta-libro-del-dia/` | la tarjeta del inicio | El modelo de `src/LibroDelDia.tsx`, con lo que se copió y lo que se cambió |
 

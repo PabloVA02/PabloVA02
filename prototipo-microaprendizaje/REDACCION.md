@@ -71,6 +71,14 @@ nombre debajo: en *El cerebro de Buda* hay dos, una del Dalái lama y otra de
 Marvin Minsky. No es del autor del libro: es de alguien a quien el libro cita.
 Una o dos por resumen, y solo si la frase dice algo que la prosa no dice mejor.
 
+**Y tiene que poder rastrearse.** La captura de *El futuro de nuestra mente*,
+del 21 de agosto, mete en la página cuarta la frase «el verdadero signo de la
+inteligencia no es el conocimiento, sino la imaginación» firmada por Einstein,
+que es una de las atribuciones falsas que más circulan por internet; y abre un
+libro de Michio Kaku con una cita de Carl Sagan que no viene a cuento. Una cita
+que no se puede localizar en una obra concreta no se pone, por buena que suene:
+el resumen entero se vuelve menos creíble por una frase de adorno.
+
 ### Lo que NO se copia de la referencia
 
 Esta lista crece con cada captura, porque Headway tiene tanto de modelo como de
@@ -82,7 +90,16 @@ cuatro cosas más que no se hacen:
 - **«La investigación demuestra que…» sin decir qué investigación.** Aparece
   tres veces en ese resumen y no sostiene nada: es la fórmula con la que se
   afirma cualquier cosa. Si hay un estudio, se dice cuál y de qué año; si no se
-  sabe, se escribe la frase sin el respaldo falso.
+  sabe, se escribe la frase sin el respaldo falso. La captura de *El futuro de
+  nuestra mente* trae la misma trampa con otro disfraz —«los científicos creen
+  que», «según los científicos e investigadores, el cerebro almacena veinte
+  categorías de recuerdos»—, y ahí la cifra exacta sin fuente es lo que más
+  engaña: parece un dato y es un relleno.
+- **La entrada que es un índice.** «Este resumen te explicará el papel que
+  desempeña la neurociencia… Verás cómo… Este resumen también destaca…» es la
+  primera página entera de ese mismo resumen, y no contiene ni un hecho. La
+  entrada abre con algo que se sepa del mundo; el recorrido se anuncia al final
+  y en una frase.
 - **Los imperativos vagos de crecimiento personal.** «Nunca debes limitarte a
   una sola cultura, explora distintos lugares, intenta descubrir tu identidad.»
   Eso no es el libro: es relleno con forma de consejo. Rompe la regla 1 —al
@@ -449,7 +466,7 @@ La regla, que completa la 4.7:
     NOSOTROS                solo cuando se habla de verdad de la especie
                             entera —Sapiens, la evolución— y de nada más
 
-## 4 bis. Los cuatro casos que dan problemas
+## 4 bis. Los cinco casos que dan problemas
 
 Estos salieron escribiendo, uno por uno, y cada uno costó una reescritura. Van
 aquí para que la siguiente vez se sepan antes de empezar.
@@ -519,6 +536,36 @@ convierte en verdad lo demás. Taleb acertó en 2008 y eso no valida su método,
 porque quien avisa cada año de una catástrofe acaba coincidiendo con una — que
 es exactamente el sesgo que su propio libro enseña a detectar.
 
+### Un libro que PREDICE se resume con el marcador puesto
+
+Es la lección de la captura de *El futuro de nuestra mente*, y vale para todo
+el estante de futurología, tecnología y tendencias.
+
+Kaku publicó ese libro en **2014** y lo llenó de pronósticos: telepatía por
+interfaz cerebro-máquina, grabar recuerdos y volver a meterlos, subir una mente
+a un ordenador, ingeniería inversa del cerebro entero. El resumen de Headway lo
+cuenta **en presente y sin fecha**, de modo que el lector de hoy no puede saber
+si está leyendo un pronóstico cumplido, uno fallado o uno todavía abierto. Once
+años después hay marcador de sobra: los implantes cerebrales han llegado a
+ensayos con personas, las prótesis de memoria en el hipocampo se probaron en
+pacientes con resultados modestos, y descargar una mente sigue exactamente donde
+estaba. Nada de eso aparece.
+
+La regla, entonces:
+
+1. **Se dice el año en la primera página.** En un libro de predicciones la
+   fecha no es un dato bibliográfico: es la mitad del sentido de cada frase.
+2. **El futuro del libro se escribe en pasado.** No «las máquinas permitirán
+   mover cosas con la mente», sino «Kaku predijo en 2014 que…». Cambiar el
+   tiempo verbal es lo que separa informar de repetir el folleto.
+3. **La conclusión pone el marcador**: qué acertó, qué falló y qué sigue
+   abierto, con lo que se sepa hoy. Es la regla 5 aplicada al caso más fácil de
+   comprobar que existe, y casi nadie la aplica.
+
+Y sirve de aviso general: cuando un resumen no lleva fecha, el lector supone
+que es de ahora. Si el libro tiene diez años y habla del futuro, no decirlo no
+es una omisión: es engañar sin querer.
+
 ## 5. La ficha del libro
 
 Se ve ANTES que el resumen y se escribe con el mismo cuidado. Son tres cosas
@@ -562,6 +609,8 @@ frase, se continúa la del rótulo —aprenderás… esto—.
 - [ ] ¿Cada página tiene su caja del rayo, y se sostiene sola?
 - [ ] ¿La conclusión dice dónde falla?
 - [ ] ¿Y lo que pasó DESPUÉS de publicarse, si pasó algo?
+- [ ] Si el libro predice algo, ¿está el año en la primera página y el marcador
+      —qué acertó, qué falló— en la conclusión?
 - [ ] Si es novela, ¿los titulares afirman sobre el libro y no cuentan la trama?
 - [ ] ¿Alguna anécdota famosa metida sin comprobar de dónde sale?
 - [ ] ¿Las páginas que pide su tamaño, y todas de unas 260 palabras?
