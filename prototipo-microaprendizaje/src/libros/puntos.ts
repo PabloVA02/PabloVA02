@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "origen-especies": [
+    "por qué el libro empieza hablando de palomas domésticas",
+    "qué cálculo de elefantes demuestra la lucha por la existencia",
+    "por qué la selección natural no elige a nadie",
+    "qué contestó Darwin a la objeción del ojo",
+    "qué le faltaba a la teoría el día que se publicó",
+  ],
+
+  zaratustra: [
+    "por qué «Dios ha muerto» es un diagnóstico, no un ataque",
+    "las tres transformaciones por las que pasa quien crea algo propio",
+    "qué es el último hombre y por qué gusta tanto",
+    "por qué el eterno retorno es una prueba, no una teoría",
+    "cómo su hermana convirtió su obra en lo contrario",
+  ],
+
   "si-esto-hombre": [
     "qué se le quita a una persona en las primeras horas",
     "qué significa que allí no haya ningún porqué",

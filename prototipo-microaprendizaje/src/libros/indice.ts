@@ -68,7 +68,6 @@ const CARGADORES: Record<string, Cargador> = {
 
   /* Filosofía */
   "brevedad-vida": () => import("./filosofia").then((m) => m.BREVEDAD_VIDA),
-  zaratustra: () => import("./filosofia").then((m) => m.ZARATUSTRA),
   sisifo: () => import("./filosofia").then((m) => m.SISIFO),
 
   /* Economía */
@@ -165,7 +164,6 @@ const CARGADORES: Record<string, Cargador> = {
   "discurso-metodo": () => import("./filosofia").then((m) => m.DISCURSO_METODO),
   "etica-nicomaco": () => import("./filosofia").then((m) => m.ETICA_NICOMACO),
   "ensayos-montaigne": () => import("./filosofia").then((m) => m.ENSAYOS_MONTAIGNE),
-  "origen-especies": () => import("./ciencia").then((m) => m.ORIGEN_ESPECIES),
   "henrietta-lacks": () => import("./ciencia").then((m) => m.HENRIETTA_LACKS),
   "doble-helice": () => import("./ciencia").then((m) => m.DOBLE_HELICE),
   "revoluciones-cientificas": () => import("./ciencia").then((m) => m.REVOLUCIONES_CIENTIFICAS),

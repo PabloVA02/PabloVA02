@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "origen-especies":
+    "Darwin tenía la teoría escrita desde 1844 y la guardó veinte años. La publicó en 1859 al recibir una carta con la misma idea, y la defendió empezando por las palomas de corral y enumerando él mismo sus puntos débiles.",
+
+  zaratustra:
+    "La cuarta parte no encontró editor y Nietzsche imprimió cuarenta ejemplares a su costa. Es un poema narrativo, escrito con el ritmo de la Biblia, sobre qué queda cuando se retira el suelo que sostenía la moral.",
+
   "si-esto-hombre":
     "Un químico italiano de veinticuatro años pasó once meses en Auschwitz y lo contó nada más volver, con la precisión de un informe técnico y sin levantar la voz una sola vez.",
 

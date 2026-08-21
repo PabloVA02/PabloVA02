@@ -18126,7 +18126,484 @@ const SI_ESTO_HOMBRE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Así habló Zaratustra, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO del apartado 3 bis: es un poema, así que los titulares
+   son títulos cortos de imagen y la afirmación va en la primera frase. La
+   caja del rayo habla al lector en segunda persona.
+
+   La prueba del título tapado se pasa con lo que casi nadie cuenta: los
+   cuarenta ejemplares de la cuarta parte, el loco del farol, el pastor que
+   muerde la serpiente, la fiesta del asno y lo que hizo su hermana.
+   -------------------------------------------------------------------------- */
+
+const ZARATUSTRA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuarenta ejemplares y siete amigos" },
+      {
+        b: "texto",
+        texto:
+          "Así habló Zaratustra no encontró editor para su última parte. Nietzsche había publicado las tres primeras entre 1883 y 1885 sin apenas ventas, y cuando terminó la cuarta la pagó de su bolsillo: cuarenta ejemplares, que ni siquiera puso a la venta. Repartió siete entre conocidos. El libro que hoy se cita en discursos, camisetas y películas empezó con esa tirada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No es un tratado de filosofía. Es un poema narrativo: un hombre baja de una montaña después de diez años de soledad, intenta enseñar lo que ha aprendido, fracasa una vez tras otra y vuelve a subir. Habla en parábolas, con un ritmo copiado a propósito de la Biblia de Lutero. Nietzsche quería que sonara a escritura sagrada para decir en ella justo lo contrario de una.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El nombre del protagonista tampoco es un adorno. Zaratustra es Zoroastro, el profeta persa que hacia el siglo VI a. C. (a. C. significa antes de Cristo) puso la lucha entre el bien y el mal en el centro del mundo. Nietzsche explicó después por qué eligió a ese y no a otro: el que cometió el error primero tiene que ser el primero en reconocerlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que el libro sostiene: qué significa exactamente que Dios haya muerto, las tres formas por las que pasa quien quiere valores propios, qué es y qué no es el superhombre, por qué el eterno retorno es una prueba y no una teoría del universo, qué tiene el cuerpo que decir en todo esto, y por qué el maestro del libro termina solo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro escrito con la música de la Biblia para anunciar que ya no queda ninguna.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El loco del farol a mediodía" },
+      {
+        b: "texto",
+        texto:
+          "«Dios ha muerto» no es un grito de victoria, y en la obra de Nietzsche no lo dice nunca nadie con alegría. La frase aparece por primera vez un año antes, en La gaya ciencia, en boca de un loco que enciende un farol a plena luz del día, corre a la plaza y pregunta dónde está Dios. Los que están allí se ríen de él. Entonces les dice que lo han matado ellos y que no saben lo que han hecho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que la frase describe es un hecho cultural, no una tesis teológica. Nietzsche no está discutiendo si existe un dios: está diciendo que Europa ya vive como si no existiera —hace ciencia, comercia, gobierna, juzga y se cura sin contar con él— y que todavía no ha mirado la factura. Durante dos mil años, el bien, la verdad y el sentido de la vida se apoyaban en el mismo sitio. Si se retira el apoyo, no se queda todo donde estaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la palabra que da nombre al problema. El nihilismo es el estado en el que los valores más altos se devalúan y ya nada tiene por qué. Nietzsche lo daba por inevitable y calculó que tardaría en llegar los dos siglos siguientes; escribía en 1882. El loco del farol termina diciendo que él ha llegado demasiado pronto, que la noticia va todavía de camino y que los rayos y los truenos necesitan tiempo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que la noticia sea vieja no significa que se hayan sacado sus consecuencias, y esa distancia es exactamente donde vives tú.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Camello, león, niño" },
+      {
+        b: "texto",
+        texto:
+          "El primer discurso del libro es también el más útil: describe las tres formas por las que pasa quien quiere llegar a tener valores propios, y avisa de que no se puede saltar ninguna. Nietzsche las llama las tres transformaciones del espíritu, y son un camello, un león y un niño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El camello es el que carga. Se arrodilla y pide peso: aprende lo difícil, obedece una disciplina, aguanta la tradición que le ha tocado, se humilla para saber. Aquí no hay ningún desprecio; sin esa etapa no hay nada que superar después, porque nadie discute con provecho una herencia que no conoce. El error no es ser camello: es quedarse camello.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El león aparece en el desierto y allí se pelea con un dragón que lleva escrito en cada escama, con letras doradas, un valor de mil años. El dragón se llama «Tú debes». El león conquista frente a él el «yo quiero», y esa es la parte que todo el mundo celebra. Pero el león solo sabe decir que no. Puede romper el mandamiento y no puede poner nada en su sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso hace falta el tercero. El niño es inocencia y olvido, un comenzar de nuevo, un juego, una rueda que gira por sí misma. Crear un valor exige poder empezar sin rencor contra lo que se acaba de dejar atrás, y eso no lo hace quien está ocupado en llevar la contraria: lo hace quien juega.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si tu libertad consiste sobre todo en las cosas que has dejado de hacer, todavía eres el león.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una cuerda sobre un abismo" },
+      {
+        b: "texto",
+        texto:
+          "El superhombre no es un hombre superior, ni una raza, ni un tipo de jefe: es una dirección. La imagen que da el libro lo dice todo. «El hombre es una cuerda tendida entre el animal y el superhombre, una cuerda sobre un abismo.» Lo valioso del hombre, añade, es que es un puente y no una meta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La frase que acompaña siempre a esa figura es «el superhombre es el sentido de la tierra», y va dirigida contra los que colocan el sentido en cualquier otro sitio: en el cielo, en el más allá, en el progreso, en la historia. Nietzsche no describe nunca qué haría un superhombre, qué comería ni cómo gobernaría. La palabra aparece pocas veces y siempre como horizonte, no como retrato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su contrario sí está descrito con detalle, y es la mejor escena del libro. Zaratustra le habla a la multitud del último hombre: el que ha inventado la felicidad y parpadea. Ha abandonado las comarcas donde hace frío. Trabaja poco, porque el trabajo cansa. Tiene su placer para el día y su placer para la noche. Nadie se hace rico ni pobre, porque las dos cosas dan mucho trabajo. Nadie manda y nadie obedece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y entonces pasa lo que nadie cuenta. La multitud, en vez de espantarse, grita: danos ese último hombre. Zaratustra se queda callado en mitad de la plaza. Ha pintado su advertencia y el público la ha entendido como una oferta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todo lo que hoy llamas una vida razonable estaba en ese libro como el retrato de lo que había que evitar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El pastor que muerde la serpiente" },
+      {
+        b: "texto",
+        texto:
+          "El eterno retorno no es una teoría sobre el universo: es una pregunta puesta para medir cómo vive alguien. Su formulación más clara está otra vez en La gaya ciencia. Imagina que un demonio se cuela en tu soledad más solitaria y te dice que esta vida, tal como la has vivido, la vivirás otra vez e innumerables veces más, sin nada nuevo, cada dolor y cada alegría en el mismo orden. ¿Te tirarías al suelo rechinando los dientes, o le llamarías un dios?",
+      },
+      {
+        b: "texto",
+        texto:
+          "En Zaratustra la idea no llega como argumento, llega como visión, y el capítulo se titula «La visión y el enigma». Un enano se le sube al hombro y le suelta con desdén que el tiempo es un círculo, que todo lo recto miente y toda verdad es curva. Zaratustra le llama espíritu de la pesadez y se enfada, y no por lo que dice, sino por cómo lo dice: como quien se quita de encima una idea insoportable resumiéndola.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después viene la imagen. Zaratustra encuentra a un pastor joven retorciéndose en el suelo con una serpiente negra metida en la garganta. Tira de ella con las dos manos y no sale. Entonces le grita que muerda, que muerda de una vez. El pastor muerde, escupe lejos la cabeza del animal, se levanta y ríe con una risa que, dice el texto, no era la de un hombre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa escena es la respuesta del libro. La idea del retorno se atraganta, no se acepta razonando: se acepta mordiendo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que de verdad quieres es aquello que aceptarías repetir para siempre sin cambiar una coma.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hay más razón en tu cuerpo" },
+      {
+        b: "texto",
+        texto:
+          "La parte del libro que menos se cita es la que mejor ha envejecido: su ataque al desprecio del cuerpo. Nietzsche llama «trasmundanos» a los que inventan otro mundo detrás de este, y no discute si ese mundo existe. Se pregunta otra cosa: de dónde sale la idea. Y contesta que fue el sufrimiento y la impotencia lo que creó todos los trasmundos, y el cansancio, ese cansancio que quiere llegar a lo último de un salto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su alternativa está en dos frases que valen por un capítulo entero. «Cuerpo soy yo íntegramente, y ninguna otra cosa; alma es solo una palabra para designar algo en el cuerpo.» Y la que remata: hay más razón en tu cuerpo que en tu mejor sabiduría. Doscientos años de filosofía habían puesto el pensamiento arriba y la carne abajo; el libro invierte el orden y deja el yo consciente de portavoz de algo mayor que él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su método, que es lo más aprovechable que tiene. Ante una moral, no pregunta si es verdadera. Pregunta qué clase de vida la necesita. La humildad, la castidad, la compasión, la obediencia y la prudencia pasan por ese filtro, y algunas salen siendo virtudes de quien no puede hacer otra cosa y le pone un nombre noble a su incapacidad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de preguntarte si una idea es verdadera, mira qué clase de vida la está necesitando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La fiesta del asno" },
+      {
+        b: "texto",
+        texto:
+          "Casi nadie cuenta lo que de verdad ocurre en el libro: Zaratustra fracasa en todos sus intentos y la obra termina en una farsa. En la plaza no le escucha nadie. Después consigue discípulos, y en cuanto los tiene los despide: mal paga a un maestro quien se queda siempre discípulo, les dice, y les ordena que lo pierdan a él y se encuentren a sí mismos. Un maestro que exige ser abandonado es una idea rara, y es suya.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cuarta parte, la de los cuarenta ejemplares, va más lejos. Zaratustra recoge por el camino a los que llama «hombres superiores»: dos reyes, un adivino, el último papa, un mago, un mendigo voluntario, el más feo de los hombres. Los mete en su cueva y sale un momento. Cuando vuelve, se los encuentra arrodillados, adorando a un asno y contestando amén a sus rebuznos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la escena más ácida que escribió Nietzsche y va contra sus propios lectores. Los que habían llegado hasta allí huyendo de la religión habían montado otra en una tarde, con su liturgia y su animal sagrado. El final no arregla nada: Zaratustra sale de la cueva ardiendo como un sol de la mañana y se marcha. No queda doctrina establecida ni discípulo formado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cualquiera levanta una religión nueva en una tarde, incluida la religión de no tener ninguna.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Así habló Zaratustra sostiene que la moral europea se apoyaba en algo que ya no está, que el hueco no se tapa con sustitutos —ni el progreso, ni el estado, ni la comodidad—, y que crear valores propios exige pasar por cargar, por destruir y por volver a empezar sin rencor. Su prueba de que alguien ha llegado ahí es una: si querría vivir su vida otra vez, igual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta no es un sistema, porque no lo tiene. Aporta un método —preguntar de qué estado sale una idea antes de discutirla—, un puñado de imágenes que no se olvidan y la mejor descripción del hombre satisfecho que ha dejado de querer nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El hombre es un puente, no una meta: es la frase con la que el libro se juega todo, y también la más difícil de vivir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El estilo profético que le da la fuerza es también su avería: en parábola, cada afirmación admite cinco lecturas, y un libro que se lee de cinco maneras acaba sirviendo de coartada a las cinco. La cuarta parte es floja y el propio Nietzsche la retiró de circulación. Y el libro promete un superhombre que jamás describe, lo cual es honesto y a la vez deja el hueco abierto para que lo rellene cualquiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que pasó después es inseparable del libro. Nietzsche se derrumbó en Turín en enero de 1889 y pasó once años sin decidir nada. Su hermana Elisabeth, casada con el antisemita Bernhard Förster, se quedó con el archivo, compiló con notas descartadas un libro que él nunca escribió —La voluntad de poder— y acercó la obra al nacionalsocialismo. En la Primera Guerra Mundial se repartió entre los soldados alemanes una edición de campaña de Zaratustra. Él había roto con Wagner y con su propio cuñado por el antisemitismo, y en sus cartas llamaba canalla a los antisemitas. Que su nombre acabara donde acabó no fue una lectura: fue una operación editorial, y las ediciones críticas de Colli y Montinari, desde los años sesenta, han devuelto el texto a lo que él escribió.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   El origen de las especies, en ocho páginas.
+
+   Breve.
+
+   Ensayo científico: titular que afirma, tercera persona, nada de «tú».
+   La prueba del título tapado se pasa con las palomas, el cálculo de los
+   elefantes, la frase del ojo, la única ilustración del libro y el agujero
+   de la herencia que Darwin no pudo tapar.
+   -------------------------------------------------------------------------- */
+
+const ORIGEN_ESPECIES: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Darwin tardó veinte años en publicar lo que ya tenía escrito" },
+      {
+        b: "texto",
+        texto:
+          "Darwin volvió del viaje del Beagle en 1836 con la idea hecha. En 1842 escribió un esbozo de treinta y cinco páginas y en 1844 otro de doscientas treinta, y lo guardó con una carta para su mujer en la que le pedía que lo publicara si él moría. Después estuvo ocho años clasificando percebes. No publicó hasta 1859, cuando llevaba veintitrés años dándole vueltas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que le hizo publicar fue una carta. En junio de 1858 recibió un manuscrito de Alfred Russel Wallace, un naturalista que se ganaba la vida vendiendo ejemplares desde el archipiélago malayo, con la misma teoría escrita en unas pocas páginas. El 1 de julio se leyeron los dos trabajos juntos en la Linnean Society de Londres. Ninguno de los dos autores estaba presente, y el presidente de la sociedad escribió en su informe de aquel año que no había traído ningún descubrimiento notable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro salió el 24 de noviembre de 1859 con un título que hoy nadie dice entero: El origen de las especies por medio de la selección natural, o la preservación de las razas favorecidas en la lucha por la vida. Los mil doscientos cincuenta ejemplares de la primera tirada los compraron los libreros el mismo día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren cómo está construido su argumento: por qué empieza hablando de palomas, qué cálculo de un economista le dio la pieza que faltaba, en qué consiste exactamente la selección natural, cómo trató la objeción del ojo, qué dice su única ilustración y qué agujero enorme tenía la teoría el día que se publicó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro salió porque otro había llegado a lo mismo, no porque su autor lo diera por terminado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El libro no empieza con los pinzones: empieza con palomas de corral" },
+      {
+        b: "texto",
+        texto:
+          "El primer capítulo no habla de islas remotas ni de fósiles. Habla de la variación en los animales domésticos, y sobre todo de palomas. Darwin se hizo socio de dos clubes de colombicultura de Londres, crió palomas en su casa de Down y hervía los cadáveres para comparar los esqueletos. Es la parte del libro que menos se cuenta y es la que sostiene todo lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento allí es sencillo y demoledor. La buchona, la mensajera, la volteadora y la colipava —que tiene cuarenta plumas en la cola donde una paloma normal tiene doce— son tan distintas entre sí que, dice Darwin, si un ornitólogo se las encontrara en el campo las clasificaría en géneros diferentes. Y todas descienden de la misma especie silvestre, la paloma bravía, en unos pocos siglos de cría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el paso decisivo. Si un criador de pueblo, escogiendo a ojo qué animales cruza, produce esa cantidad de diferencia en trescientos años, la pregunta no es si el cambio es posible, sino qué haría el mismo procedimiento aplicado sin descanso durante millones de años. Darwin llamó a lo primero selección artificial y a lo segundo selección natural, y usó una para explicar la otra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El orden importa. En 1859 la idea de que las especies cambian era escandalosa; la de que un palomo de exposición viene de una paloma de tejado no la discutía nadie, porque los criadores lo hacían delante de todo el mundo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Para hacer creíble algo enorme, conviene empezar por lo que el lector ya ve pasar en su propio patio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La naturaleza fabrica siempre más seres de los que puede alimentar" },
+      {
+        b: "texto",
+        texto:
+          "La pieza que le faltaba se la dio un economista. En octubre de 1838 Darwin leyó, según dijo, por entretenerse, el Ensayo sobre el principio de población de Thomas Malthus, que sostenía que la población humana crece en progresión geométrica y los alimentos en progresión aritmética, de modo que el hambre es matemática. Darwin lo aplicó a todos los seres vivos y encontró lo que buscaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cálculo con el que lo demuestra en el libro es memorable porque escoge el caso más desfavorable. El elefante es el animal que se reproduce más despacio que se conoce: no cría hasta los treinta años, deja de criar hacia los noventa y tiene seis crías en toda su vida. Pues bien, si todas sobrevivieran, en setecientos cincuenta años una sola pareja tendría casi diecinueve millones de descendientes vivos. No los hay. Sobran dieciocho millones y pico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso es lo que Darwin llama la lucha por la existencia, y aclara que usa la expresión en sentido amplio: incluye al lobo que persigue al ciervo, pero también a la planta del desierto que lucha contra la sequía y a las mil semillas de un cardo que compiten por un metro cuadrado. La mayoría de los seres que nacen no llegan a reproducirse. Esa es la única premisa que hace falta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ninguna especie está en equilibrio: todas nacen de más, y la diferencia se la come el mundo cada año sin que nadie lo apunte.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La selección natural no elige nada: es una resta que ocurre sola" },
+      {
+        b: "texto",
+        texto:
+          "Con las dos observaciones anteriores el argumento se cierra solo y no necesita nada más. Los individuos de una misma especie no son idénticos. Parte de esas diferencias pasan a los hijos. Nacen muchos más de los que pueden vivir. Por tanto, los que por casualidad tengan una diferencia que les venga bien en ese sitio y en ese momento dejarán algo más de descendencia, y esa diferencia será un poco más frecuente en la generación siguiente. Repetido el tiempo suficiente, cambia la especie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No hay ninguna fuerza en ese razonamiento, y ese es el punto que más costó entonces y sigue costando ahora. La selección natural no es alguien que decide, no persigue un fin y no mejora nada en abstracto. Es el resultado aritmético de que unos dejen más hijos que otros. Darwin lamentó haber elegido la palabra selección, porque le acusaron de haber metido una voluntad por la puerta de atrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un malentendido más, que además no es suyo. «La supervivencia del más apto» la escribió Herbert Spencer, y Darwin la incorporó en la quinta edición, en 1869, por consejo de Wallace. Fue un mal negocio. Apto no significa fuerte: significa que encaja. En un año de sequía el más apto puede ser el más pequeño, y en un bosque con cazadores, el más cobarde.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La selección natural no es alguien que escoge a los mejores: es lo que queda cuando los demás no llegan a tener descendencia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Darwin dedicó un capítulo entero a los argumentos contra su teoría" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sexto se titula «Dificultades de la teoría» y es el que explica por qué el libro convenció. En vez de esperar a que los adversarios encontraran los puntos flojos, Darwin los enumera él: la ausencia de formas intermedias en los fósiles, los órganos de una complejidad extrema, los instintos que parecen imposibles de heredar poco a poco y la esterilidad de los híbridos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo famoso es el ojo, y la frase que escribió se cita desde entonces truncada. Dice que suponer que el ojo, con sus mecanismos para enfocar a distintas distancias, admitir distintas cantidades de luz y corregir la aberración, se formó por selección natural «parece, lo confieso libremente, absurdo en el más alto grado». Ahí es donde la cortan. La frase sigue: si se puede demostrar que existen gradaciones intermedias, y cada una es útil, la dificultad desaparece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y se fue a buscar las gradaciones. Existen, todas vivas y a la vez: animales con una simple mancha de células sensibles a la luz, otros con esa mancha hundida en una copa que ya informa de la dirección, el nautilus con una copa casi cerrada que funciona como una cámara oscura sin cristalino, y ojos con lente. Cada paso ve algo mejor que el anterior, y ver algo mejor es una ventaja en cualquiera de ellos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro que enumera sus propios puntos débiles resiste mucho mejor que uno que los esconde y espera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La única ilustración del libro convierte la biología en una genealogía",
+      },
+      {
+        b: "texto",
+        texto:
+          "En quinientas páginas hay un solo dibujo: un diagrama plegable de líneas que se ramifican. No es un adorno, es la segunda tesis del libro y va aparte de la selección natural. Dice que todas las especies actuales descienden, por ramificación, de antepasados comunes, y que si se retrocede lo suficiente las ramas se juntan en unas pocas formas primitivas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso cambia el sentido de una tarea que llevaba un siglo haciéndose. Linneo había ordenado los seres vivos en especies, géneros, familias y órdenes por su parecido, como quien clasifica un archivo. Con el árbol, esa clasificación deja de ser una comodidad y pasa a ser un hecho: los grupos se parecen porque son parientes, y el archivo era un árbol de familia sin saberlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale una predicción que se puede comprobar, y Darwin la señala como su mejor prueba: si un animal desciende de otro, debe conservar restos inútiles de lo que su antepasado usaba. Las ballenas tienen huesos de pelvis y de fémur que no sostienen nada. Hay escarabajos con alas soldadas bajo los élitros. Él comparó esos órganos con las letras que se siguen escribiendo en una palabra y ya no se pronuncian: no sirven para hablar y delatan de dónde viene.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Clasificar dejó de ser ordenar cajones parecidos y pasó a ser dibujar un árbol de familia con todo lo vivo dentro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La teoría se publicó sin saber cómo se hereda nada" },
+      {
+        b: "texto",
+        texto:
+          "El agujero del libro está en su centro y Darwin lo sabía. Todo su argumento necesita que las variaciones se transmitan a los hijos, y en 1859 nadie tenía idea de cómo. La creencia general era que la herencia mezcla, como se mezclan dos pinturas: el hijo queda a medio camino entre sus padres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1867 un ingeniero escocés, Fleeming Jenkin, publicó la objeción que casi tumba la teoría. Si la herencia mezcla, cualquier novedad ventajosa que aparezca en un individuo quedará diluida a la mitad en sus hijos, a la cuarta parte en sus nietos y se habrá esfumado mucho antes de poder extenderse. Darwin la consideró seria. Respondió en 1868 con una hipótesis propia, la pangénesis: cada parte del cuerpo suelta unas partículas diminutas, las gémulas, que viajan hasta las células sexuales. Era falsa de arriba abajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La respuesta estaba impresa desde 1866, en las actas de una sociedad de historia natural de Brno, donde un monje llamado Gregor Mendel había demostrado con guisantes que la herencia no mezcla: va en unidades que se separan y se recombinan enteras. No lo leyó casi nadie hasta 1900. Darwin murió en 1882 sin enterarse, y en las últimas ediciones dio cada vez más peso al uso y desuso de los órganos, que era volver a Lamarck.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La mejor idea del siglo XIX se publicó con un agujero en medio, y aguantó cuarenta años hasta que apareció la pieza.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El origen de las especies sostiene dos cosas distintas. Una, que todos los seres vivos descienden de antepasados comunes y la clasificación es una genealogía. Otra, que el mecanismo del cambio es la selección natural: hay variación, se hereda y nacen más de los que caben, así que las diferencias que ayudan se acumulan solas. Lo demuestra con palomas, con abejas, con percebes y con un cálculo de elefantes, y dedica un capítulo a las objeciones antes de que se las hagan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta hoy, además de la teoría, es una manera de argumentar. Empieza por lo que el lector ya acepta, avanza un paso cada vez, enumera lo que no sabe explicar y no promete más de lo que tiene.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay grandeza en esta concepción de la vida, escribió al final: de un comienzo tan sencillo han salido y siguen saliendo formas infinitas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La prosa es de 1859: subordinadas largas, disculpas continuas y un exceso de detalle de criador que hoy se salta cualquiera. El libro no explica el origen de la vida y del ser humano solo dice una frase, que se arrojará luz sobre su origen; eso llegó doce años después en otro libro. Y su gradualismo estricto —la naturaleza no da saltos— se ha matizado: en 1972 Eldredge y Gould describieron el equilibrio puntuado, largos períodos sin cambios y tramos rápidos, que encaja mejor con lo que enseñan los fósiles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después es media historia. Entre 1930 y 1950 la llamada síntesis moderna juntó a Darwin con Mendel y la teoría quedó cerrada. Y una advertencia sobre el título: las «razas favorecidas» del subtítulo son variedades de plantas y animales, no razas humanas, pero la palabra sirvió de coartada al darwinismo social, que Darwin no defendió aunque su libro de 1871 sí contiene pasajes sobre pueblos «civilizados» y «salvajes» que hoy no se sostienen.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "origen-especies": ORIGEN_ESPECIES,
+  zaratustra: ZARATUSTRA,
   "si-esto-hombre": SI_ESTO_HOMBRE,
   "guardian-centeno": GUARDIAN_CENTENO,
   "pedro-paramo": PEDRO_PARAMO,

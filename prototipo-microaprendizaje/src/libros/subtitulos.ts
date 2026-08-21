@@ -84,6 +84,8 @@ export const SUBTITULOS: Record<string, string> = {
   "gen-historia": "Una historia personal",
   feynman: "Aventuras de un curioso personaje",
 
+  "origen-especies": "Por medio de la selección natural",
+
   /* Psicología */
   "habitos-atomicos": "Cambios pequeños, resultados extraordinarios",
   "club-5-manana": "Controla tus mañanas, impulsa tu vida",
