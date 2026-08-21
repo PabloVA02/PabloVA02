@@ -8342,10 +8342,12 @@ button {
   align-items: center;
   justify-content: center;
   gap: 0;
-  padding: 0 30px 26px;
+  padding: 34px 30px 40px;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: var(--paper);
+  --tapa: 138px;
 }
 
 /* El aura. Un solo degradado radial, sin filtro de desenfoque: `blur` sobre
@@ -8355,21 +8357,24 @@ button {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 132%;
-  aspect-ratio: 1;
-  translate: -50% -58%;
+  width: 150%;
+  aspect-ratio: 1 / 0.82;
+  translate: -50% -62%;
   border-radius: 50%;
   background: radial-gradient(
-    circle,
-    color-mix(in srgb, var(--tono) 42%, transparent) 0%,
-    color-mix(in srgb, var(--tono) 14%, transparent) 42%,
-    transparent 68%
+    ellipse,
+    color-mix(in srgb, var(--tono) 62%, transparent) 0%,
+    color-mix(in srgb, var(--tono) 30%, transparent) 30%,
+    color-mix(in srgb, var(--tono) 12%, transparent) 50%,
+    color-mix(in srgb, var(--tono) 4%, transparent) 70%,
+    color-mix(in srgb, var(--tono) 0%, transparent) 100%
   );
   pointer-events: none;
 }
 
 .cierre-escena {
   position: relative;
+  width: var(--tapa);
   perspective: 900px;
   display: grid;
   place-items: center;
@@ -8381,12 +8386,31 @@ button {
   will-change: transform;
 }
 
+/* El charco de sombra bajo el libro: es lo que lo posa. Sin él, con el fondo
+   plano de papel, la cubierta parecía pegada con celo sobre la pantalla. */
+.cierre-libro::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -16px;
+  width: 78%;
+  height: 16px;
+  translate: -50% 0;
+  border-radius: 50%;
+  background: radial-gradient(
+    ellipse,
+    color-mix(in srgb, var(--ink) 26%, transparent) 0%,
+    transparent 70%
+  );
+  z-index: -1;
+}
+
 /* La tapa recorta el barrido de luz. El radio y la sombra son los mismos que
    los de la portada en la estantería, para que sea reconociblemente el mismo
    objeto que se ha estado viendo. */
 .cierre-tapa {
   position: relative;
-  width: 120px;
+  width: var(--tapa);
   aspect-ratio: 2 / 3;
   border-radius: 9px;
   overflow: hidden;
@@ -8413,12 +8437,13 @@ button {
   background: linear-gradient(
     to bottom,
     transparent 0%,
-    rgb(255 255 255 / 0.42) 38%,
-    rgb(255 255 255 / 0.92) 50%,
-    rgb(255 255 255 / 0.42) 62%,
+    color-mix(in srgb, var(--tono) 30%, transparent) 34%,
+    color-mix(in srgb, var(--tono) 92%, white) 49%,
+    color-mix(in srgb, var(--tono) 92%, white) 51%,
+    color-mix(in srgb, var(--tono) 30%, transparent) 66%,
     transparent 100%
   );
-  mix-blend-mode: overlay;
+  opacity: 0.9;
   pointer-events: none;
 }
 
@@ -8436,25 +8461,29 @@ button {
 .cierre-chispas {
   position: absolute;
   inset: 0;
+  overflow: visible;
   pointer-events: none;
 }
 
 .cierre-chispa {
   position: absolute;
-  bottom: 18%;
-  width: 7px;
-  height: 7px;
+  top: 58%;
+  width: 9px;
+  height: 9px;
   border-radius: 2px;
   rotate: 45deg;
   background: var(--tono);
-  box-shadow: 0 0 10px color-mix(in srgb, var(--tono) 70%, transparent);
+  box-shadow:
+    0 0 0 1.5px color-mix(in srgb, var(--paper) 80%, transparent),
+    0 0 14px color-mix(in srgb, var(--tono) 80%, transparent);
 }
 
 .cierre-chispa-quieta {
   position: static;
   rotate: 45deg;
-  width: 6px;
-  height: 6px;
+  width: 5px;
+  height: 5px;
+  flex: none;
 }
 
 .cierre-rotulo {
@@ -8477,24 +8506,34 @@ button {
    si se montaran al llegar su fase, la cubierta daría un salto hacia arriba. */
 .cierre-cifras {
   display: flex;
-  gap: 38px;
-  margin-top: 26px;
+  gap: 0;
+  width: 100%;
+  max-width: 340px;
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid var(--paper-edge);
   opacity: 0;
   transition: opacity 0.4s ease;
+}
+
+.cierre-dato + .cierre-dato {
+  border-left: 1px solid var(--paper-edge);
 }
 
 .cierre-cifras[data-visible="true"] { opacity: 1; }
 
 .cierre-dato {
+  flex: 1 1 0;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 104px;
+  padding: 0 10px;
 }
 
 .cierre-barra {
-  width: 88px;
-  height: 5px;
+  width: 92px;
+  height: 6px;
   border-radius: 999px;
   background: color-mix(in srgb, var(--ink) 10%, transparent);
   overflow: hidden;
@@ -8502,6 +8541,8 @@ button {
 }
 
 .cierre-relleno {
+  position: relative;
+  overflow: hidden;
   width: 100%;
   height: 100%;
   border-radius: 999px;
@@ -8514,15 +8555,34 @@ button {
   box-shadow: 0 0 12px color-mix(in srgb, var(--tono) 60%, transparent);
 }
 
+.cierre-cifras[data-visible="true"] .cierre-relleno::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgb(255 255 255 / 0.85) 50%,
+    transparent 100%
+  );
+  transform: translateX(-100%);
+  animation: cierre-destello 0.85s 0.62s ease-out 1;
+}
+
+@keyframes cierre-destello {
+  to { transform: translateX(100%); }
+}
+
 /* La fila de chispas posadas mide lo mismo que la barra de al lado, para que
    las dos columnas arranquen a la misma altura. */
 .cierre-posadas {
-  height: 5px;
+  height: 6px;
+  max-width: 92px;
   margin-bottom: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
+  gap: 4px;
 }
 
 .cierre-numero {
@@ -8545,8 +8605,11 @@ button {
 }
 
 .cierre-boton {
-  margin-top: auto;
-  width: 100%;
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  bottom: 26px;
+  width: auto;
 }
 
 /* En una pantalla baja —un iPhone SE— lo que cede es el aire, nunca el tamaño
@@ -8554,5 +8617,6 @@ button {
 @media (max-height: 700px) {
   .cierre-rotulo { margin-top: 16px; }
   .cierre-cifras { margin-top: 18px; gap: 30px; }
-  .cierre-tapa { width: 104px; }
+  .cierre { --tapa: 112px; }
+  .cierre { padding-bottom: 32px; }
 }

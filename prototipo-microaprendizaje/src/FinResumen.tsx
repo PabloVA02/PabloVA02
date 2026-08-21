@@ -204,25 +204,33 @@ export function FinResumen({
           </svg>
         </motion.div>
 
-        {/* Las chispas: una por idea. Suben durante el escaneo y en la fase de
-            cifras ya no están aquí, están posadas abajo. */}
+        {/* Las chispas: una por idea. Salen de la cubierta y suben por encima
+            de ella; en la fase de cifras ya no están aquí, están posadas.
+
+            El reparto horizontal NO va por orden de índice. Con `left`
+            proporcional a `i` las chispas salían en fila de izquierda a
+            derecha, como una máquina de escribir, y como cada una tarda en
+            aparecer lo que dura su retardo, en cada instante solo se veían las
+            tres últimas amontonadas en un lado. Con la posición barajada
+            —resto de una multiplicación por un primo— salen repartidas por
+            todo el ancho desde el primer momento. */}
         {!quieto && fase !== "cifras" && (
           <div className="cierre-chispas" aria-hidden>
             {Array.from({ length: chispas }, (_, i) => (
               <motion.span
                 key={i}
                 className="cierre-chispa"
-                style={{ left: `${8 + (i * 84) / Math.max(1, chispas - 1)}%` }}
-                initial={{ opacity: 0, y: 30, scale: 0.5 }}
+                style={{ left: `${10 + ((i * 37) % 80)}%` }}
+                initial={{ opacity: 0, y: 0, scale: 0.35 }}
                 animate={{
                   opacity: [0, 1, 1, 0],
-                  y: [30, -46 - (i % 3) * 14],
-                  scale: [0.5, 1, 1, 0.8],
+                  y: [0, -104 - (i % 3) * 22],
+                  scale: [0.35, 1, 1, 0.65],
                   transition: {
-                    duration: 1.15,
-                    delay: 0.18 + (i * (ESCANEO - 0.5)) / Math.max(1, chispas),
+                    duration: 1.25,
+                    delay: 0.15 + (i * (ESCANEO - 0.55)) / Math.max(1, chispas),
                     ease: "easeOut",
-                    times: [0, 0.22, 0.7, 1],
+                    times: [0, 0.2, 0.68, 1],
                   },
                 }}
               />
