@@ -59229,7 +59229,267 @@ const FIEBRE_GRADAS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   14. La autobiografía de Johan Cruyff, en ocho páginas.
+
+   Breve. Autobiografía → títulos cortos de imagen, la afirmación en la
+   primera frase y la caja del rayo en segunda persona (apartado 3 bis).
+
+   Riesgo principal: es un libro de un hombre que siempre tiene razón, y
+   resumirlo sin más produce una hagiografía. Se cuentan sus tesis como
+   suyas y los hechos como hechos, y la conclusión dice dónde el libro se
+   defiende a sí mismo en lugar de explicarse.
+
+   El motivo real de su ausencia en 1978 —el secuestro de 1977— se cuenta
+   con la fecha en que él lo contó, 2008, porque el retraso es la historia.
+   -------------------------------------------------------------------------- */
+
+const CRUYFF_14: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un barrio de trescientos metros" },
+      {
+        b: "texto",
+        texto:
+          "Johan Cruyff nació a trescientos metros del estadio del Ajax y no se movió mucho más lejos hasta los veintiséis años. Betondorp era un barrio obrero de Ámsterdam construido en hormigón barato, con calles estrechas y muros por todas partes, y él siempre sostuvo que jugar contra un muro le enseñó más que cualquier entrenador: la pared te devuelve el balón exactamente como se lo mandas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su padre, Manus, tenía una frutería y murió de un infarto cuando Johan tenía doce años. El libro entero está escrito con ese hueco dentro. Cuenta que durante décadas habló con él antes de cada partido importante y que muchas de las decisiones que los demás le reprocharon las tomó preguntándose qué habría dicho su padre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su madre entró a limpiar en el Ajax para sacar adelante a la familia. Por eso el niño creció dentro del club, ayudando en el vestuario y colándose en los entrenamientos, y por eso siempre entendió el fútbol desde el lado del que trabaja allí y no desde el lado del que va a ver el partido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La combinación explica al personaje. Un chico flaco, enfermizo de pequeño, sin fuerza y sin velocidad excepcional, criado en un sitio donde no había espacio y en un club donde conocía a todos los empleados. Todo lo que hizo después consiste en resolver problemas de espacio y en discutir con los que mandan.",
+      },
+      { b: "idea", texto: "Lo que te falta de niño decide en qué te vas a volver bueno de mayor." },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El número que nadie quería" },
+      {
+        b: "texto",
+        texto:
+          "Cruyff jugó con el catorce en una época en la que los dorsales iban del uno al once según la posición, de modo que su número anunciaba que no estaba en ninguna. La anécdota es menor y él la usa como declaración: su idea del fútbol empieza por negar que un jugador tenga un sitio fijo en el campo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con Rinus Michels en el Ajax eso se convirtió en un sistema. Si un defensa sube, alguien ocupa su lugar; si el delantero se retrasa, un centrocampista entra por dentro. Se llamó fútbol total y no era improvisación, sino lo contrario: exigía que once hombres supieran a la vez dónde estaban los otros diez y qué hueco quedaba abierto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Funcionó de forma abrumadora. El Ajax ganó tres Copas de Europa seguidas en 1971, 1972 y 1973, y Cruyff obtuvo tres Balones de Oro en cuatro años. Ningún club holandés había ganado nada así antes, y el equipo lo formaban en su mayoría chicos de Ámsterdam que se conocían desde los diez años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro insiste en un detalle que suele perderse: aquel equipo discutía todo el rato. Se corregían en el campo a gritos, se peleaban por las primas y votaban al capitán. Cruyff sostiene que esa costumbre de discutir era parte del método, porque un jugador que obedece sin entender no sabrá qué hacer cuando el plan se rompa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si obedeces sin entender, no sabrás qué hacer el día que el plan se venga abajo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El giro" },
+      {
+        b: "texto",
+        texto:
+          "El gesto más famoso de su carrera duró un segundo y lo hizo en un partido que acabó sin goles. En el Mundial de 1974, frente a Suecia, amagó un centro con el interior, pasó el balón por detrás de su propia pierna de apoyo y salió en dirección contraria dejando al defensa mirando hacia otro lado. Hoy se enseña con su nombre en todas las escuelas del mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquella Holanda llegó a la final y la perdió contra Alemania por dos a uno, después de marcar en el primer minuto sin que los alemanes hubieran tocado el balón. Es probablemente el equipo más admirado que no ganó nunca nada, y Cruyff pasó cuarenta años oyendo la misma pregunta sobre aquel partido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su respuesta en el libro es característica y poco consoladora. Dice que jugaron mal la final, que se creyeron superiores después del gol y que el mérito de Alemania fue no ponerse nerviosa. No hay teoría de la conspiración ni queja arbitral. Perdieron porque hicieron mal su trabajo durante ochenta minutos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí reivindica es lo otro. Aquella selección cambió la manera de jugar de todos los demás, y treinta años después los equipos que ganaban Mundiales se parecían más a la Holanda de 1974 que a la Alemania que la venció. Es su idea de la victoria: la que se mide en lo que copian los rivales.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay derrotas que se imponen a largo plazo porque todo el mundo acaba copiando al que perdió.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un fichaje que cambió una ciudad" },
+      {
+        b: "texto",
+        texto:
+          "En 1973 el Barcelona pagó por él la cifra más alta que se había pagado nunca por un futbolista y se llevó a un jugador que llegaba a una ciudad donde no se podía hablar en catalán en público. Cruyff no sabía casi nada de todo eso al firmar, y lo entendió en cuestión de semanas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El equipo llevaba catorce años sin ganar la liga y la ganó ese mismo curso. Por el camino ganó en el Bernabéu por cero a cinco, un resultado que en aquella ciudad y en aquel año se recordó mucho más que el título. La gente no celebraba una goleada: celebraba lo único que se le permitía celebrar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al año siguiente su hijo nació en Ámsterdam y lo llamó Jordi, el nombre del santo patrón de Cataluña, prohibido entonces en el registro civil español. Hubo trámites, negativas y una insistencia terca hasta salirse con la suya. Fue un gesto pequeño con un efecto enorme: el extranjero mejor pagado del país eligió bando en público.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro se detiene en lo que aprendió allí. Descubrió que un club puede significar cosas que no tienen nada que ver con el fútbol y que eso, bien administrado, es una ventaja competitiva: la gente aguanta malas rachas por lealtad a algo más grande. Bastantes de sus decisiones posteriores como entrenador salen de esa observación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando eliges bando en público, pagas un precio inmediato y ganas una lealtad que dura décadas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los cerdos y el hombre de la pistola" },
+      {
+        b: "texto",
+        texto:
+          "A mitad de los años setenta, Cruyff perdió casi todo su dinero. Un asesor le metió en una inversión ruinosa relacionada con una granja de cerdos y el hombre que ganaba más que ningún futbolista del mundo se quedó con deudas y con la obligación de volver a jugar cuando ya se había retirado. El libro lo cuenta con más detalle técnico que rencor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1977 pasó algo peor. Un hombre armado entró en su casa de Barcelona, le ató delante de su mujer y de sus hijos y durante meses la familia vivió con policía en la puerta y con los niños escoltados al colegio. Cruyff decidió entonces no ir al Mundial de 1978 y no explicó por qué.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante treinta años medio mundo dio por hecho que había sido una protesta contra la dictadura argentina, y él nunca lo desmintió. La verdad la contó en 2008, en una entrevista de radio. La confesión tardía es una de las partes más interesantes del libro, porque enseña a un hombre público administrando su propia leyenda durante tres décadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El final de su carrera fue igual de poco ortodoxo. Jugó en Estados Unidos, volvió al Ajax, y cuando el Ajax le negó la renovación en 1983 fichó por el Feyenoord, el rival, y ganó allí la liga y la copa a los treinta y siete años. Nunca lo presentó como una venganza. Lo presentó como una demostración.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien te da por acabado, la respuesta más elocuente es un resultado, no un discurso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El entrenador y la piruleta" },
+      {
+        b: "texto",
+        texto:
+          "Como entrenador del Barcelona entre 1988 y 1996 hizo lo que ningún predecesor había conseguido: ganar la primera Copa de Europa del club, en Wembley en 1992, y cuatro ligas seguidas. Aquel equipo se llamó el Dream Team y jugaba con tres defensas y tres delanteros en un fútbol que entonces parecía una temeridad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que duró más que los títulos fue lo otro. Ordenó que todos los equipos del club, desde los niños, jugaran con el mismo sistema y las mismas normas, y que los chicos de la cantera fueran seleccionados por criterio técnico y no por tamaño. En 1990 subió al primer equipo a un centrocampista flaco de diecinueve años llamado Pep Guardiola al que nadie veía capaz de aguantar un partido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1991, con cuarenta y cuatro años, sufrió un infarto y le operaron del corazón. Fumaba veinte cigarrillos al día desde los quince. Dejó de fumar y se pasó a las piruletas, que se convirtieron en su imagen en el banquillo, y grabó una campaña antitabaco para la sanidad catalana en la que decía que había tenido dos vicios y que uno casi lo mata.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su etapa acabó mal, con una pelea con el presidente del club y un despido por teléfono en 1996 que le dolió el resto de su vida. El libro dedica bastantes páginas a esa ruptura, y son las páginas donde peor se le ve: sigue teniendo razón, sigue sin conceder nada y sigue enfadado veinte años después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que dejas montado para los que vienen dura más que cualquier cosa que ganes tú.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Jugar sencillo es lo más difícil" },
+      {
+        b: "texto",
+        texto:
+          "Su idea del fútbol cabe en pocas reglas y todas van contra el instinto. La primera: si tienes el balón, el rival no lo tiene, y por tanto no puede hacerte daño. De ahí salen la posesión, el pase corto y la manía de sacar jugando desde el portero incluso con el delantero rival encima.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es sobre el espacio. Un campo es siempre del mismo tamaño, así que jugar bien consiste en hacerlo grande cuando tienes el balón y pequeño cuando lo tiene el otro. Abrir a los extremos hasta la banda, presionar arriba en manada y dejar a los defensas solos atrás no son gestos de valentía: son geometría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es la que más discutió con todo el mundo. Cruyff desconfiaba del esfuerzo como valor: decía que correr mucho es la prueba de que has llegado tarde a los sitios, y que la velocidad de un equipo la da el balón, que se mueve más rápido que cualquier jugador. Prefería un futbolista lento que pensara antes de recibir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su frase resumen es la que da nombre al capítulo: jugar al fútbol es muy sencillo, pero jugar un fútbol sencillo es lo más difícil que hay. La gracia de la fórmula es que sirve fuera del campo: lo complicado casi nunca es entender la buena solución, es tener la sangre fría de ejecutarla cuando aprieta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si tienes que correr mucho para llegar, casi siempre es que saliste tarde.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "14 es la explicación que Johan Cruyff dio de sí mismo cuando ya sabía que se estaba muriendo. La escribió a los sesenta y ocho años, la publicó en 2016 y falleció de un cáncer de pulmón semanas después. Recorre el barrio, el Ajax, el Mundial perdido, Barcelona, la ruina, el infarto y los ocho años de banquillo que cambiaron un club entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una manera de pensar aplicable fuera del fútbol: reducir un problema a sus reglas mínimas, desconfiar del esfuerzo que solo compensa una mala decisión previa y dejar montado un sistema que funcione sin ti. La cantera del Barcelona y el equipo que ganó todo entre 2008 y 2012 son consecuencias directas de decisiones que él tomó veinte años antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en lo mismo en que fallan casi todas las autobiografías de gente que ha ganado mucho. Cruyff tiene razón en todas las páginas. Los conflictos siempre los empezó otro, los presidentes eran ambiciosos, los periodistas no entendían y los jugadores que no le gustaban no valían. No hay una sola línea de autocrítica de verdad, y hubo muchos a los que arrolló por el camino.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También reparte de menos. El fútbol total lo diseñó junto a Rinus Michels y lo jugaron diez compañeros muy buenos, y el libro tiende a contarlo como un invento propio. Y hay huecos deliberados: sobre el secuestro de 1977 calló treinta años, y sobre varios negocios y rupturas familiares pasa de puntillas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de su muerte, su nombre acabó en el estadio del Ajax, su fundación siguió construyendo campos para niños en barrios pobres y su modelo llegó a media Europa por medio de discípulos que hoy entrenan en todas partes. La discusión que dejó abierta sigue viva: si aquello era una filosofía trasladable o simplemente lo que se le ocurría a un hombre con un talento irrepetible.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El que cambia un oficio para siempre casi nunca es capaz de contar su parte con justicia.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cruyff-14": CRUYFF_14,
   "fiebre-gradas": FIEBRE_GRADAS,
   "futbol-contra-enemigo": FUTBOL_CONTRA_ENEMIGO,
   "futbol-sol-sombra": FUTBOL_SOL_SOMBRA,

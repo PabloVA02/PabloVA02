@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cruyff-14":
+    "Cruyff la escribió sabiendo que se moría. Del barrio de hormigón de Ámsterdam al Dream Team, pasando por el Mundial perdido de 1974, la ruina, un secuestro y la cantera que cambió al Barcelona.",
+
   "fiebre-gradas":
     "Hornby repasa su vida por el único calendario que le sirve, el de su equipo. Noventa capítulos cortos, cada uno con su partido y su fecha, para sostener que ser hincha no es una afición sino un enganche.",
 

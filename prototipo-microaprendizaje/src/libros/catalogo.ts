@@ -287,7 +287,7 @@ export const CATALOGO: Ficha[] = [
   { id: "futbol-sol-sombra", titulo: "El fútbol a sol y sombra", autor: "Eduardo Galeano", ano: 1995, categoria: "Deportes", estado: "escrito" },
   { id: "futbol-contra-enemigo", titulo: "Fútbol contra el enemigo", autor: "Simon Kuper", ano: 1994, categoria: "Deportes", estado: "escrito" },
   { id: "fiebre-gradas", titulo: "Fiebre en las gradas", autor: "Nick Hornby", ano: 1992, categoria: "Deportes", estado: "escrito" },
-  { id: "cruyff-14", titulo: "14. La autobiografía de Johan Cruyff", autor: "Johan Cruyff", ano: 2016, categoria: "Deportes", estado: "pendiente" },
+  { id: "cruyff-14", titulo: "14. La autobiografía de Johan Cruyff", autor: "Johan Cruyff", ano: 2016, categoria: "Deportes", estado: "escrito" },
   { id: "soy-zlatan", titulo: "Yo soy Zlatan Ibrahimović", autor: "David Lagercrantz", ano: 2011, categoria: "Deportes", estado: "pendiente" },
   { id: "open-agassi", titulo: "Open", autor: "Andre Agassi", ano: 2009, categoria: "Deportes", estado: "escrito" },
   { id: "rafa-mi-historia", titulo: "Rafa, mi historia", autor: "Rafael Nadal y John Carlin", ano: 2011, categoria: "Deportes", estado: "pendiente" },

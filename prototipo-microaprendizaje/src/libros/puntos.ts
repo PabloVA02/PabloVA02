@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cruyff-14": [
+    "en qué consistía de verdad el fútbol total del Ajax",
+    "por qué se llamó Jordi el hijo de un holandés",
+    "por qué no fue al Mundial de 1978",
+    "qué dejó montado en la cantera del Barcelona",
+    "por qué desconfiaba de los jugadores que corren mucho",
+  ],
+
   "fiebre-gradas": [
     "por qué el estado natural del hincha es la decepción",
     "qué le dio el fútbol a un niño con padres separados",
