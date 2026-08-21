@@ -16085,7 +16085,237 @@ const FRANKENSTEIN: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El retrato de Dorian Gray, en ocho páginas.
+
+   Breve. Registro narrativo.
+
+   Caso (d) de la 4 bis, y aquí es el corazón del asunto: el libro se
+   publicó censurado por su propio editor, provocó un escándalo, y cinco
+   años después se usó como prueba en el juicio que mandó a Wilde a la
+   cárcel. Eso va en la conclusión.
+
+   Lo que casi nadie cuenta: que la primera versión, la de la revista, era
+   bastante más explícita y que Wilde tuvo que añadir capítulos para
+   suavizarla; y que el prólogo de las frases célebres —«no hay libros
+   morales ni inmorales»— se escribió DESPUÉS, como defensa.
+   -------------------------------------------------------------------------- */
+
+const DORIAN_GRAY: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un retrato que envejece por ti" },
+      {
+        b: "texto",
+        texto:
+          "Un pintor termina el retrato de un muchacho de veinte años y le sale la mejor obra de su vida. El muchacho, que hasta ese momento no se había parado a pensar en su cara, mira el cuadro y por primera vez entiende lo que tiene y lo que va a perder. Y suelta, medio en broma, un deseo: que envejeciera el cuadro y no él, que él daría el alma por eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El deseo se cumple, y el libro no explica cómo ni pierde un minuto en intentarlo. A partir de ahí Dorian Gray no envejece ni un día durante dieciocho años, mientras el cuadro, guardado bajo llave en el desván de su infancia, se va llenando de arrugas, de crueldad en la boca y de manchas de sangre en las manos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la única novela que escribió Oscar Wilde, se publicó en 1890 en una revista y provocó un escándalo inmediato: varios periódicos pidieron que se retirara, un librero de Londres la quitó del escaparate y el propio editor había cortado por su cuenta unos quinientos pasajes antes de imprimirla, sin decírselo al autor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que el libro sostiene: qué le dice el hombre que lo estropea, qué pasa con la primera persona a la que hace daño, en qué consiste la vida que lleva durante esos dieciocho años, qué le ocurre al pintor que lo retrató, y cómo termina un pacto que nadie firmó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No vendió el alma en una ceremonia: la vendió en voz alta, delante de un cuadro, sin creérselo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El hombre que habla en epigramas" },
+      {
+        b: "texto",
+        texto:
+          "Lord Henry Wotton es el personaje que estropea a Dorian y el que se lleva las mejores frases del libro. Es un aristócrata ocioso que no hace absolutamente nada en trescientas páginas salvo hablar, y hablar en sentencias: que la única manera de librarse de una tentación es caer en ella, que puede resistirlo todo menos la tentación, que la conciencia y la cobardía son la misma cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su discurso en el jardín, el día en que se conocen, es el que le cambia la vida a Dorian, y no habla de placer: habla del tiempo. Le dice que tiene unos pocos años de juventud, que la belleza es una forma de genio que no admite discusión, y que cuando se le vaya se le irá todo, porque los dioses son injustos y no la devuelven. Le dice, en resumen, que se dé prisa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí está la mejor broma del libro: lord Henry no vive nada de lo que predica. Está casado, va a cenas, se acuesta temprano y su vida es intachablemente aburrida. Wilde lo dijo él mismo en una carta: lord Henry es lo que la gente piensa que soy, Basil el pintor es lo que yo creo que soy, y Dorian es lo que me gustaría ser en otras épocas. El corruptor es un señor que solo corrompe de palabra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El que arruina una vida con sus consejos no aplica ni uno solo: se limita a hablar bien y a mirar qué pasa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La primera víctima" },
+      {
+        b: "texto",
+        texto:
+          "Dorian se enamora de una actriz de diecisiete años, Sibyl Vane, que trabaja en un teatro cochambroso del extremo malo de Londres haciendo de Julieta y de Rosalinda. Se enamora de eso exactamente: de cómo actúa. Le lleva a sus amigos para que la vean y esa noche Sibyl actúa fatal, de una manera vergonzosa, y el público se va.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la explicación que ella le da es lo mejor del capítulo. Actuaba bien, dice, cuando el amor era solo algo que había leído en los papeles; ahora que sabe lo que es de verdad, todo aquello le parece falso y no puede fingirlo. Ha dejado de actuar porque él le ha enseñado qué es la realidad. Le pide que la perdone.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dorian la deja esa misma noche con una crueldad de manual: le dice que sin su arte no es nada y que ha matado su amor. Al llegar a casa ve en el cuadro un pliegue nuevo de crueldad en la boca, se asusta y decide a la mañana siguiente pedirle perdón y casarse con ella. Es tarde: Sibyl se ha suicidado esa noche. Y lord Henry lo convence en veinte minutos de que aquello fue, en el fondo, un final artístico precioso. Esa noche Dorian va a la ópera. El hermano de la chica, un marinero de dieciséis años, jura en el muelle que lo matará si le hace daño. Tardará dieciocho años en volver.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La primera arruga del cuadro no la pintó un pecado: la pintó una frase dicha para hacer daño.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dieciocho años que el libro no cuenta" },
+      {
+        b: "texto",
+        texto:
+          "Aquí está el gran hueco de la novela, y es deliberado. Pasan casi dos décadas en las que Dorian hace de todo, y el libro no lo enseña: lo sugiere. Hay un capítulo entero dedicado a sus colecciones —bordados, joyas, perfumes, instrumentos raros—, hay hombres que se van del salón cuando él entra, hay carreras arruinadas, hay una chica de campo y un joven oficial, y hay opio en el puerto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se cuenta siempre es la consecuencia social: fulano tuvo que dejar el ejército, mengano no puede volver a Inglaterra, a este otro lo vieron salir de una casa a las cinco de la mañana. Nunca los hechos. Wilde escribía en 1890 en un país donde los actos que insinúa eran delito —él mismo acabaría condenado por ellos—, así que la elipsis no es pudor literario: es la única forma en que ese libro podía existir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un libro dentro del libro. Lord Henry le regala una novela francesa amarilla, sin título en el texto, que Dorian lee de una sentada y que lo envenena durante años: la historia de un joven parisino que dedica su vida a experimentar todas las pasiones del mundo. Wilde reconoció en el juicio que estaba pensando en A contrapelo, de Huysmans, aunque dijo que su libro era imaginario. Es la misma idea que ya está en el Quijote: alguien que se estropea por lo que lee.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro no enseña lo que hace: enseña quién deja de saludarle, que es como se veía de verdad una reputación en 1890.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La noche que se lo enseña al pintor" },
+      {
+        b: "texto",
+        texto:
+          "Basil Hallward, el pintor, es el único personaje decente del libro y el que peor acaba. Lleva años oyendo lo que se dice de Dorian y se niega a creerlo. Una noche de niebla va a su casa a advertirle, antes de coger un tren a París, y le suplica que lo desmienta: dice que para conocer a alguien de verdad habría que verle el alma, y que solo Dios puede hacer eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dorian se ríe y le contesta que él va a enseñársela. Sube con él al desván, quita la cortina y le pone delante el retrato, convertido en una cosa monstruosa que aún conserva su firma en la esquina. Basil, horrorizado, no le grita: le pide que recen juntos, que todavía hay tiempo, que hay una oración para eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y Dorian lo apuñala en el cuello, ahí mismo, delante del cuadro. Después chantajea a un antiguo amigo científico para que haga desaparecer el cuerpo con ácido, y esa misma noche se va a una cena. Lo que el libro señala no es el asesinato, es la reacción: no siente nada, y lo único que le molesta al día siguiente es el olor a productos químicos en la escalera. Y hay un detalle de una frialdad excepcional: mientras espera a que el químico termine, Dorian se sienta en el salón de abajo a leer poemas franceses.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mató al único hombre que seguía defendiéndole en público, y lo que le molestó fue el olor que quedó en la escalera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El cuchillo, otra vez" },
+      {
+        b: "texto",
+        texto:
+          "El final llega después de un intento de enmienda que sale mal. Dorian decide portarse bien y perdona la vida a una chica del campo a la que iba a arruinar, y sube al desván esperando ver el cuadro un poco mejor. Lo que encuentra es peor: la cara tiene ahora un gesto nuevo, el de la hipocresía, porque el único motivo de su buena acción era la curiosidad de ver qué pasaba con el retrato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí entiende que no hay salida. Sabe que confesar sería inútil y que nadie le creería; sabe que mientras el cuadro exista, existe la prueba. Así que decide destruirlo. Coge el mismo cuchillo con el que mató al pintor y lo clava en el lienzo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los criados oyen un grito espantoso. Suben, fuerzan la puerta y encuentran colgado en la pared un retrato magnífico de su señor tal como era de joven, en todo el esplendor de su belleza, y en el suelo a un hombre muerto en frac, con un cuchillo en el corazón, marchito, arrugado y repugnante. Solo lo reconocen por los anillos. Y el cuadro vuelve a ser el que era: los criados no ven ninguna deformidad, solo la obra maestra que el pintor entregó dieciocho años antes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Destruir la prueba y destruirse a sí mismo eran, desde el principio, exactamente el mismo gesto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El prólogo que se escribió después" },
+      {
+        b: "texto",
+        texto:
+          "La versión que se lee hoy no es la que se publicó. En 1890 apareció en una revista mensual con trece capítulos, y la reacción fue brutal: un periódico dijo que era un libro para forajidos y decadentes y que debía tirarse al fuego. Wilde contestó a las críticas una por una en cartas a los directores, con más ingenio que prudencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al año siguiente lo publicó como libro, y lo cambió: añadió seis capítulos, quitó pasajes en los que la admiración del pintor por Dorian resultaba demasiado explícita, dio a Sibyl un hermano marinero que jura vengarla y así convirtió parte de la novela en una trama de persecución. Y le puso delante un prólogo de veinticinco aforismos que hoy se citan sueltos: que no hay libros morales ni inmorales, que los libros están bien o mal escritos, que todo arte es completamente inútil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene leer ese prólogo por lo que es: una defensa jurídica escrita después del delito. No es la poética previa de un artista, es la coartada de un autor al que acaban de acusar en la prensa de corromper a la juventud. Y no le sirvió: cinco años más tarde, en el juicio que acabó llevándolo dos años a trabajos forzados, el fiscal leyó pasajes de esta novela en voz alta ante el tribunal y le preguntó si consideraba que aquello era un texto adecuado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El prólogo más citado sobre la libertad del arte se escribió como defensa, y a su autor no le sirvió de nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El retrato de Dorian Gray cuenta qué le pasa a alguien que consigue lo que casi todo el mundo desearía: que las consecuencias de lo que hace no se le noten. Su tesis no es que el placer corrompa, sino algo más incómodo: que lo que de verdad estropea a una persona es la impunidad, y que el rostro es lo único que nos obliga a llevar la cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una idea que se ha independizado del libro. Hablar del retrato de alguien en el desván es hoy una manera corriente de decir que la factura de una vida está pendiente en algún sitio, y funciona porque la novela puso una imagen exacta —un cuadro tapado bajo llave en el cuarto de juegos de la infancia— a algo que hasta entonces solo se decía con sermones.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que corrompe no es el placer: es que nada de lo que haces se te quede en la cara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La novela es tres cosas mal cosidas: una comedia de salón brillantísima, un cuento fantástico y un melodrama de venganza con hermano marinero incluido, y las costuras se ven. El capítulo de las colecciones —páginas y páginas de perfumes, joyas y bordados— es un catálogo que casi todo el mundo se salta, y los personajes secundarios existen para dar pie a un epigrama.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un aviso sobre las citas. Media red social funciona con frases de lord Henry presentadas como sabiduría de Wilde, cuando en el libro están puestas en boca del personaje que arruina a un chico de veinte años y que no cumple ni una de ellas. Wilde escribió a un lector que el libro tiene una moral, y que es demasiado evidente: que todo exceso, igual que toda renuncia, trae su propio castigo. Conviene tenerlo delante antes de colgar un epigrama en la pared.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "dorian-gray": DORIAN_GRAY,
   frankenstein: FRANKENSTEIN,
   "senor-moscas": SENOR_MOSCAS,
   "gran-gatsby": GRAN_GATSBY,

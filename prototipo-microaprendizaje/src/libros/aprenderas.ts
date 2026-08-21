@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "dorian-gray":
+    "Un chico de veinte años desea que envejezca su retrato en su lugar, y el deseo se cumple. Durante dieciocho años hace lo que quiere sin que se le note nada en la cara.",
+
   frankenstein:
     "Un estudiante fabrica un ser vivo, le ve la cara y sale corriendo. La criatura, que aprende sola a hablar y a leer, se pasa el libro pidiéndole cuentas.",
 

@@ -80,7 +80,6 @@ const CARGADORES: Record<string, Cargador> = {
 
   /* Capítulos largos */
   extranjero: () => import("./literatura").then((m) => m.EXTRANJERO),
-  "dorian-gray": () => import("./literatura").then((m) => m.DORIAN_GRAY),
   "homo-deus": () => import("./historia").then((m) => m.HOMO_DEUS),
   dracula: () => import("./literatura").then((m) => m.DRACULA),
   "viejo-mar": () => import("./literatura").then((m) => m.VIEJO_MAR),

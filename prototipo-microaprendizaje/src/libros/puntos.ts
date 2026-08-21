@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "dorian-gray": [
+    "qué le dice el hombre que le cambia la vida",
+    "por qué la primera arruga aparece por una frase",
+    "qué hace el libro con los dieciocho años que no cuenta",
+    "qué le pasa al pintor cuando ve el cuadro",
+    "por qué el prólogo famoso se escribió después",
+  ],
+
   frankenstein: [
     "por qué el pecado no fue crearlo sino abandonarlo",
     "cómo aprende a leer espiando por una rendija",

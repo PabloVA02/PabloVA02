@@ -1288,22 +1288,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "dorian-gray",
-    titulo: "El retrato de Dorian Gray",
-    autor: "Oscar Wilde",
-    ano: 1890,
-    gancho: "El editor le censuró quinientas palabras sin avisarle. Cinco años después, el libro se leyó en voz alta en el juicio que le destruyó.",
-    porQue: "Un pacto imposible, una novela de terror elegantísima y la mejor colección de frases ingeniosas del siglo XIX, todo a la vez.",
-    minutos: 23.7,
-    capitulos: [
-      { titulo: "El pintor y el retrato", minutos: 4.9 },
-      { titulo: "Sibyl Vane", minutos: 5 },
-      { titulo: "Dieciocho años", minutos: 4.4 },
-      { titulo: "El chantaje", minutos: 4.4 },
-      { titulo: "El cuchillo", minutos: 5 },
-    ],
-  },
-  {
     id: "dracula",
     titulo: "Drácula",
     autor: "Bram Stoker",
