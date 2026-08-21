@@ -23666,7 +23666,243 @@ const HOMBRE_RICO_BABILONIA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El inversor inteligente, en ocho páginas.
+
+   Breve.
+
+   Libro PRÁCTICO de dinero: segunda persona en la prosa, titular que
+   afirma.
+
+   La conclusión lleva la retractación del propio Graham en 1976, meses
+   antes de morir. Es el dato que casi ningún resumen da y el que más
+   cambia lo que un lector debería hacer con este libro.
+   -------------------------------------------------------------------------- */
+
+const INVERSOR_INTELIGENTE: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El único libro de bolsa que Warren Buffett recomienda entero" },
+      {
+        b: "texto",
+        texto:
+          "Benjamin Graham publicó este libro en 1949 y lo revisó hasta la edición de 1973, que es la que se sigue leyendo. Era profesor en Columbia y gestor de un fondo, y había vivido en primera línea el crac de 1929: su cartera perdió alrededor del setenta por ciento entre 1929 y 1932, y estuvo a punto de arruinarse. Casi todo lo que enseña después sale de haber estado en esa situación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un alumno suyo de aquellas clases lo ha llamado durante sesenta años el mejor libro sobre inversión jamás escrito. Warren Buffett lo leyó a los diecinueve años, en 1950, y sostiene que solo dos de sus veinte capítulos hacen falta de verdad: el octavo, que trata de cómo comportarse cuando el mercado sube y baja, y el vigésimo, que explica qué es el margen de seguridad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene saber qué no es este libro. No enseña a elegir acciones que suban, no promete rendimientos y no habla de tendencias. Su propósito declarado es más modesto y bastante más raro: enseñar a no perder dinero de forma grave, y a comportarse de manera que las decisiones no dependan del ánimo del día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que sostiene: qué separa invertir de especular según su definición, cómo hay que tratar al mercado, en qué consiste el margen de seguridad, qué reglas concretas da para quien no quiere dedicarle tiempo, quién es el principal enemigo de tu cartera y qué pasó con la mejor operación de su propia carrera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro no enseña a ganar más que nadie: enseña a no arruinarse, que es lo que le pasó a su autor antes de escribirlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Invertir y especular no son actitudes: son dos definiciones distintas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Graham empieza poniendo una frontera que casi nadie respeta, y la escribe como una definición cerrada. Una operación de inversión es aquella que, después de un análisis a fondo, ofrece seguridad para el capital que pones y un rendimiento razonable. Las operaciones que no cumplen esas condiciones son especulación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fíjate en que ahí no hay nada sobre el riesgo que sientes ni sobre tus intenciones. No decide si eres prudente o atrevido, ni si piensas mantener la posición mucho tiempo. Decide si has hecho el análisis y si el precio te protege. Comprar una empresa magnífica a un precio disparatado es especular, aunque pienses conservarla treinta años; y comprar una empresa aburrida por debajo de lo que valen sus activos es invertir, aunque la vendas en seis meses.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Graham no condena especular. Dice que es legítimo y a veces necesario, y añade dos condiciones muy concretas: hazlo con una cantidad separada, nunca superior a una porción pequeña de tu patrimonio, y sobre todo no te engañes creyendo que estás invirtiendo. Lo peligroso no es la especulación: es la especulación disfrazada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y avisa de la trampa más común, que sigue funcionando igual ochenta años después: la mayor parte del dinero que se pierde en bolsa lo pierde gente convencida de estar invirtiendo a largo plazo, que ha comprado en el momento de mayor entusiasmo porque todo el mundo hablaba de ello.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo peligroso no es especular: es especular creyendo que estás invirtiendo, porque entonces no tomas ninguna de las precauciones.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El mercado es un socio maníaco que te llama todos los días" },
+      {
+        b: "texto",
+        texto:
+          "La imagen que hizo famoso a Graham es la de Míster Mercado, y está en el capítulo octavo. Imagina que tienes una participación en un negocio privado y un socio que se llama así. Todos los días, sin faltar uno, tu socio se presenta y te dice un precio: a ese precio te compra tu parte o te vende la suya, lo que tú prefieras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema de este socio es que está muy mal de los nervios. Hay días en que ve el futuro espléndido y te pide una cantidad absurda por su parte. Hay días en que solo ve problemas y te ofrece la suya por una miseria. Y hay algo que nunca hace: molestarse si no le haces caso. Vuelve mañana con otro precio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale toda la actitud que el libro propone. El precio que te dice ese señor no es información sobre cuánto vale tu negocio: es información sobre su estado de ánimo. Tú no estás obligado a operar nunca. Lo que sí puedes hacer es aprovecharte de él: comprarle cuando esté deprimido y venderle cuando esté eufórico, y el resto del tiempo dedicarte a lo tuyo sin mirar la cotización.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La cotización de hoy no te dice lo que vale algo: te dice cómo se siente hoy el que te está poniendo el precio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un puente que aguanta treinta toneladas por el que solo pasan diez" },
+      {
+        b: "texto",
+        texto:
+          "El concepto que Graham consideraba central de todo el libro cabe en tres palabras: margen de seguridad. Consiste en comprar algo por bastante menos de lo que has calculado que vale, no para ganar más, sino para que puedas equivocarte en el cálculo y aun así no perder.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La comparación que se usa para explicarlo es la de un ingeniero. Si construyes un puente por el que van a pasar camiones de diez toneladas, no lo calculas para diez: lo calculas para treinta. No porque esperes camiones de treinta, sino porque el acero puede tener un defecto, tu medición puede estar mal y algún día pasará algo que no habías previsto. El margen no es optimismo al revés: es el reconocimiento de que tus números no son exactos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aplicado a comprar una empresa, eso significa que no basta con que te parezca buena. Tiene que estar lo bastante barata como para que, si tus previsiones fallan a la mitad, sigas sin perder el capital. Graham lo resume diciendo que el margen de seguridad es lo que hace innecesario acertar en el pronóstico, y que quien depende de acertar no está invirtiendo, está apostando con más trabajo. Y hay un corolario que Graham repite: cuanto peor sea tu capacidad de valorar una empresa, mayor tiene que ser el margen que exijas. El descuento no es un premio para el listo, es una compensación por lo que no sabes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un buen cálculo no es el que acierta: es el que aguanta que te hayas equivocado a la mitad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nunca menos de un cuarto ni más de tres cuartos en lo mismo" },
+      {
+        b: "texto",
+        texto:
+          "Graham divide a los lectores en dos y les da instrucciones distintas. El inversor emprendedor está dispuesto a dedicar horas al análisis y a buscar oportunidades concretas. El defensivo no quiere dedicarle tiempo, y a ese le da las reglas más útiles del libro, que son también las más aburridas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es de reparto. Nunca menos de un veinticinco por ciento ni más de un setenta y cinco en renta variable, y el resto en renta fija; y lo mismo al revés. La razón no es de rentabilidad: es de comportamiento. Con ese reparto, ningún desplome te deja fuera del todo y ninguna subida te deja con todo dentro, y sobre todo te quita la posibilidad de tomar la decisión heroica en el peor momento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las demás son igual de concretas. Reparte entre diez y treinta empresas distintas, y grandes; exige un historial largo de beneficios y de dividendos; comprueba que el activo corriente sea al menos el doble que el pasivo corriente; y no pagues por una empresa más de quince veces sus beneficios ni mucho más de vez y media su valor contable. Compra siempre la misma cantidad cada mes, pase lo que pase, que es lo que él llamaba promediar el coste.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un reparto fijo no sirve para ganar más: sirve para que ningún día del año puedas tomar una decisión enorme de golpe.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El peor enemigo de un inversor es él mismo" },
+      {
+        b: "texto",
+        texto:
+          "La frase de Graham que mejor ha aguantado no es sobre balances: dice que el principal problema del inversor, y probablemente su peor enemigo, es él mismo. Y lo argumenta con la observación que sostiene el libro entero: la diferencia de resultados entre dos personas con la misma información casi nunca viene del análisis, viene de lo que cada una hace en los tres o cuatro momentos del año en que el mercado da un susto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí su insistencia en escribir las reglas antes de necesitarlas. Un reparto decidido en frío, un calendario de compras y una lista de criterios funcionan porque te quitan la decisión justo cuando peor la tomarías. Graham no confía en el temple de nadie, incluido él: prefiere un procedimiento mediocre que se cumpla a uno excelente que dependa de estar tranquilo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade un aviso sobre las previsiones que sigue vigente. Nadie sabe qué va a hacer el mercado el año que viene, y quien lo dice con seguridad está vendiendo algo. Toda la construcción del libro consiste en montar una manera de operar que no necesite saberlo, porque los que sí lo necesitan acaban comprando caro y vendiendo barato con una regularidad asombrosa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las reglas escritas en frío existen para quitarte la decisión exactamente en los tres días del año en que la tomarías peor.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La mejor operación de Graham incumplía sus propias reglas" },
+      {
+        b: "texto",
+        texto:
+          "En una nota a pie de página de la última edición, Graham cuenta algo que ningún otro autor del género contaría. En 1948, su fondo compró una participación grande en una compañía de seguros de automóviles poco conocida, y esa compra le costó alrededor de una cuarta parte de todo el capital del fondo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquello violaba su regla de diversificación de manera flagrante, y lo dice con esas palabras. La operación salió extraordinariamente bien: con los años, el valor de esa única participación acabó superando al de todas las demás decisiones acertadas del fondo durante veinte años juntas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y en vez de presentarlo como su gran acierto, saca de ahí una lección incómoda para su propio libro. Que una operación fuera de las reglas resultara ser la mejor de su carrera no demuestra que las reglas estuvieran mal; demuestra que en los resultados de cualquier inversor hay una parte de suerte que no se puede repetir a voluntad, y que quien cuenta su mejor operación como método está enseñando a otros a jugar a la lotería con un sistema. Zweig, que anotó la última edición del libro, añade un dato que redondea la lección: aquella compañía era GEICO, y el alumno de Graham que estaba en clase cuando esto ocurrió acabó comprándola entera cuarenta y siete años después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien te cuenta cómo ganó mucho dinero una vez, te está contando un suceso y no un método.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El inversor inteligente sostiene que la bolsa no se gana con previsiones, sino con dos cosas: comprar con un descuento suficiente para poder equivocarte y comportarte igual el día que todo sube y el día que todo baja. De ahí salen su definición de inversión frente a especulación, su reparto fijo entre renta fija y variable, sus criterios numéricos para elegir empresas y su parábola del socio maníaco que te llama todos los días con un precio nuevo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, más que las fórmulas, es una manera de estar. Después de leerlo cuesta mirar una cotización como si fuera una información sobre el mundo en vez de una información sobre el humor de quien compra hoy.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que decide tus resultados no es lo que sabes de una empresa: es lo que haces los tres días del año en que el mercado se asusta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Está lleno de ejemplos de empresas estadounidenses de los años sesenta y setenta que hoy no dicen nada, y hay capítulos enteros de tablas comparativas que ningún lector actual necesita. Sus criterios numéricos han envejecido peor de lo que parece: exigir un valor contable bajo tenía sentido cuando el patrimonio de una empresa eran fábricas y almacenes, y hoy una compañía de software puede valer una fortuna sin apenas activos contables, de modo que sus filtros dejan fuera medio mercado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una retractación del propio autor que casi ningún resumen menciona. En 1976, pocos meses antes de morir y con más de cuarenta años de oficio detrás, Graham declaró en una entrevista profesional que ya no era partidario de las técnicas elaboradas de análisis de valores individuales: sostuvo que el mercado se había vuelto lo bastante eficiente como para que el coste de ese trabajo no compensara, y recomendó a la mayoría reglas sencillas y un enfoque general. Los fondos indexados, que hoy serían la aplicación natural de esa idea, aparecieron aquel mismo año y no están en el libro.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "inversor-inteligente": INVERSOR_INTELIGENTE,
   "hombre-rico-babilonia": HOMBRE_RICO_BABILONIA,
   "casa-espiritus": CASA_ESPIRITUS,
   rayuela: RAYUELA,

@@ -80,7 +80,6 @@ const CARGADORES: Record<string, Cargador> = {
   einstein: () => import("./ciencia").then((m) => m.EINSTEIN),
   "acto-creativo": () => import("./arte").then((m) => m.ACTO_CREATIVO),
   nudge: () => import("./psicologia").then((m) => m.NUDGE),
-  "inversor-inteligente": () => import("./economia").then((m) => m.INVERSOR_INTELIGENTE),
   "pilares-tierra": () => import("./historia").then((m) => m.PILARES_TIERRA),
   "astrofisica-prisa": () => import("./ciencia").then((m) => m.ASTROFISICA_PRISA),
   "camino-artista": () => import("./arte").then((m) => m.CAMINO_ARTISTA),

@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "inversor-inteligente": [
+    "qué separa invertir de especular según su definición",
+    "quién es Míster Mercado y cómo hay que tratarlo",
+    "en qué consiste exactamente el margen de seguridad",
+    "qué reglas da para quien no quiere dedicarle tiempo",
+    "qué pasó con la mejor operación de su carrera",
+  ],
+
   "hombre-rico-babilonia": [
     "por qué la primera regla está antes que ninguna otra",
     "por qué los gastos necesarios crecen hasta igualar lo que ganas",

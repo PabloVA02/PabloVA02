@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "inversor-inteligente": "Un libro de asesoramiento práctico",
   "bernarda-alba": "Drama de mujeres en los pueblos de España",
   malala: "La historia de la niña que defendió el derecho a la educación y fue tiroteada por los talibanes",
   "cuerpo-cuenta": "Cerebro, mente y cuerpo en la superación del trauma",

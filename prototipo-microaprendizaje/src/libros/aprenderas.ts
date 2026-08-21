@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "inversor-inteligente":
+    "Graham perdió cerca del setenta por ciento de su cartera entre 1929 y 1932, y casi todo lo que enseña sale de ahí. No promete rendimientos: enseña a comprar con margen suficiente para poder equivocarse sin arruinarse.",
+
   "hombre-rico-babilonia":
     "En 1926, un editor de mapas empezó a repartir folletos con parábolas sobre dinero ambientadas hace cuatro mil años; los bancos los regalaban a sus clientes. De ahí salió el libro del que descienden todos los manuales de finanzas personales.",
 

@@ -1368,22 +1368,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "inversor-inteligente",
-    titulo: "El inversor inteligente",
-    autor: "Benjamin Graham",
-    ano: 1949,
-    gancho: "Buffett lo leyó a los diecinueve años y lo llama el mejor libro de inversión jamás escrito. Su autor casi se arruina en 1929 antes de escribirlo.",
-    porQue: "Porque no va de elegir acciones: va de temperamento. Y porque el propio Graham acabó desdiciéndose de casi todo su método poco antes de morir.",
-    minutos: 21.6,
-    capitulos: [
-      { titulo: "El pánico de 1907", minutos: 4.4 },
-      { titulo: "Lo que perdió en 1929", minutos: 4.2 },
-      { titulo: "El señor Mercado", minutos: 4.4 },
-      { titulo: "El margen de seguridad", minutos: 4.3 },
-      { titulo: "Lo que dijo en 1976", minutos: 4.4 },
-    ],
-  },
-  {
     id: "cero-a-uno",
     titulo: "De cero a uno",
     autor: "Peter Thiel",
