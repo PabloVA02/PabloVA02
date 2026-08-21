@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "siete-pecados":
+    "Un periodista irlandés sostuvo durante trece años que los siete Tours de Lance Armstrong eran mentira. Cuenta qué le hizo sospechar, quién se atrevió a declarar y lo que le costó tener razón antes de tiempo.",
+
   "nunca-te-pares":
     "De un chico inventándose una empresa en una oficina de Kobe en 1962 a la salida a bolsa de 1980. Una historia de crecimiento constante, insolvencia constante y un entrenador rediseñando suelas en su cocina.",
 

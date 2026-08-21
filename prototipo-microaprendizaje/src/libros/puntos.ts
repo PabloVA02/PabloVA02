@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "siete-pecados": [
+    "qué indicio físico despertó la sospecha en 1999",
+    "por qué el ciclismo necesitaba una historia limpia",
+    "quiénes declararon sin ganar nada con ello",
+    "cómo se usan las demandas para silenciar",
+    "qué papel jugó la fundación contra el cáncer",
+  ],
+
   "nunca-te-pares": [
     "cómo consiguió la distribución sin tener ninguna empresa",
     "por qué crecer el cien por cien anual casi lo arruina",

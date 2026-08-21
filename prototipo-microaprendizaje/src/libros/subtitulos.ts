@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "siete-pecados": "Trece años persiguiendo la mejor historia del deporte mundial",
   "nunca-te-pares": "Los dieciocho años en que Nike estuvo a punto de quebrar cada verano",
   "legado-all-blacks": "Quince prácticas concretas del equipo que más gana del mundo",
   "gen-deportivo": "Qué parte del rendimiento explican de verdad los genes",

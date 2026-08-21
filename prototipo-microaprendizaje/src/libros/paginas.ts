@@ -62728,7 +62728,277 @@ const NUNCA_TE_PARES: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Siete pecados capitales, en ocho páginas.
+
+   Breve. Investigación periodística → afirmación entera en el rótulo y
+   tercera persona; la caja del rayo es la idea de la página, nunca una
+   lección de vida en segunda persona: en un libro con la muerte de un hijo
+   dentro, el tuteo consolador quedaría fuera de sitio (apartado 4 bis).
+
+   Riesgo principal: contarlo como la victoria del bueno. Se cuenta lo que
+   Walsh comprobó y cómo lo comprobó, y la conclusión dice que el libro es
+   también un ajuste de cuentas escrito por el que ganó la discusión.
+   -------------------------------------------------------------------------- */
+
+const SIETE_PECADOS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una historia demasiado buena es exactamente la que nadie quiere comprobar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entre 1999 y 2005, Lance Armstrong ganó siete Tours de Francia consecutivos después de haber superado un cáncer con metástasis en los pulmones y en el cerebro. Era la mejor historia del deporte mundial: un hombre al que habían dado pocas probabilidades de sobrevivir dominaba la prueba más dura que existe, y encima presidía una fundación contra el cáncer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "David Walsh, periodista irlandés del Sunday Times, dedicó trece años a sostener en público que aquello era mentira. Este libro, publicado en 2012, cuenta esos trece años desde dentro: qué le hizo sospechar, a quién encontró, qué le costó y por qué durante casi una década estuvo prácticamente solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El título alude a los siete títulos, que fueron anulados el mismo año en que el libro apareció. El calendario es importante: Walsh escribía convencido de que tenía razón y sin ninguna resolución oficial que le respaldara, y el desenlace llegó mientras el libro estaba en imprenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis no es solo que un ciclista se dopara, cosa que en aquel momento hacía la mayor parte del pelotón. Es que un relato lo bastante conmovedor desactiva el escepticismo de todo un oficio, y que el periodismo deportivo, la industria del ciclismo y los patrocinadores prefirieron durante años no comprobar lo que tenían delante. Walsh escribe sin ninguna satisfacción, y esa es una de las razones por las que el libro se sostiene hoy.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuanto mejor es una historia, menos gente está dispuesta a comprobarla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La sospecha no vino de un rumor, vino de un cambio de cuerpo" },
+      {
+        b: "texto",
+        texto:
+          "Walsh conocía a Armstrong desde antes del cáncer, cuando era un corredor potente y explosivo, bueno en pruebas de un día y mediocre en las carreras de tres semanas. Ese perfil físico es bastante estable: un ciclista pesado y fuerte no se convierte en escalador, porque lo que decide en la montaña es la potencia por kilo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando volvió de la enfermedad, más delgado tras la quimioterapia, subía los puertos por delante de los mejores escaladores del mundo manteniendo una potencia que antes no tenía. Esa combinación, y no ninguna acusación de un tercero, fue lo que puso a Walsh en marcha en julio de 1999.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo indicio era el entorno. Su preparación estaba en manos de un médico deportivo italiano que estaba siendo investigado por dopaje y que se hizo célebre por comparar en público el riesgo de la eritropoyetina con el de beber zumo de naranja. Armstrong negó durante años trabajar con él y después reconoció que le pagaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Walsh insiste en que nada de eso era una prueba, y ahí está la parte útil del libro para cualquier lector. Un indicio no demuestra nada y sí obliga a hacer preguntas, y lo que ocurrió durante una década fue que casi nadie en su oficio quiso hacerlas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un indicio no demuestra nada, pero sirve para saber qué hay que ir a comprobar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El escándalo de 1998 demostró que el dopaje era el sistema y no la excepción",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para entender el libro hay que situar el año anterior. En el Tour de 1998, la policía francesa detuvo al coche de un equipo entero cargado de eritropoyetina y de hormonas, hubo detenciones, registros en los hoteles y varias escuadras abandonaron la carrera en protesta. Quedó a la vista que el dopaje estaba organizado por los propios equipos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La eritropoyetina había cambiado el ciclismo desde principios de los noventa. Aumenta los glóbulos rojos, es decir, el oxígeno que llega al músculo, que es justo lo que decide una carrera de tres semanas, y durante años no existió ninguna prueba capaz de detectarla. El que no la usaba competía en otra categoría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de aquel desastre, el ciclismo necesitaba desesperadamente una historia limpia que devolviera a los patrocinadores. Y en julio de 1999 apareció un superviviente de cáncer ganando el Tour. Walsh sostiene que esa necesidad explica por qué nadie quiso mirar: no era complicidad, era conveniencia compartida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese contexto también matiza el caso. Los ciclistas que acabaron segundos y terceros en aquellos Tours estaban dopados casi todos, y por eso los años de 1999 a 2005 no tienen hoy ganador oficial: no hubo a quién dárselo. El libro se centra en un hombre y el problema era del deporte entero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando un sector necesita una buena noticia, deja de examinar a quien se la trae.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las pruebas estaban en gente que no tenía nada que ganar hablando" },
+      {
+        b: "texto",
+        texto:
+          "Walsh no encontró documentos: encontró testigos, y todos pagaron por serlo. La más importante fue Emma O'Reilly, masajista del equipo, que describió con detalle cómo transportaba productos, cómo se deshacía de jeringuillas y cómo se resolvió un control positivo por corticoides con una receta fechada hacia atrás para una crema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo testimonio clave vino de un antiguo compañero y de su mujer, que declararon que en 1996, en la habitación de un hospital de Indiana, oyeron a Armstrong enumerar a sus médicos las sustancias que había usado. Ellos no ganaban nada con contarlo y perdieron bastante: presiones, insultos públicos y años de litigios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También habló un ciclista neozelandés retirado que había sido compañero suyo y que describió cómo se tomó la decisión colectiva de empezar a usar eritropoyetina en aquel equipo. Ninguno de los tres tenía interés económico, y los tres fueron descritos por el entorno del ciclista como resentidos, alcohólicos o mentirosos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lección de método es la que Walsh subraya. Cuando alguien declara contra un poderoso sin ganar nada y arriesgando mucho, eso no prueba que diga la verdad, pero sí obliga a explicar qué motivo tendría para mentir. Durante diez años, la respuesta que se dio a esa pregunta fue el insulto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ante un testimonio incómodo, la pregunta correcta es qué gana el que lo da.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un periodista que investiga a un héroe se queda solo muy deprisa" },
+      {
+        b: "texto",
+        texto:
+          "La parte del libro que más se recuerda no es la investigación sino el aislamiento. Walsh describe años de Tour en los que sus colegas dejaron de hablarle, en los que no encontraba quien le llevara en coche entre etapas y en los que su acreditación se convirtió en un problema para el periódico. El propio ciclista le dedicó insultos en rueda de prensa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo del rechazo no era solo la amistad de sus compañeros con el corredor. Un periodista deportivo depende del acceso: si pierde la relación con los equipos, pierde las entrevistas y las exclusivas, y deja de servirle a su medio. Investigar al hombre más importante de tu especialidad equivale a quedarte sin materia prima.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Walsh cuenta también lo que le sostuvo, y ahí entra la parte personal. Su hijo John había muerto en 1995, a los doce años, atropellado mientras montaba en bicicleta. El libro no establece ninguna relación heroica entre las dos cosas; se limita a señalar que después de aquello le resultó más fácil aguantar que le retirasen el saludo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica que describe es la que preocupa a cualquier redacción. El coste de investigar a alguien muy popular recae entero sobre un periodista concreto, mientras el beneficio de no hacerlo lo cobran todos los demás. Por eso, en la mayoría de los casos, no se investiga.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El coste de comprobar algo incómodo lo paga siempre una persona y el ahorro lo disfruta todo el gremio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los tribunales sirvieron para silenciar y no para averiguar nada" },
+      {
+        b: "texto",
+        texto:
+          "En 2004, Walsh publicó en Francia, con el periodista Pierre Ballester, un libro con todo lo que tenían. Ninguna editorial británica se atrevió a sacarlo por miedo a las leyes de difamación del país, que obligan al acusado a demostrar lo que ha dicho en lugar de obligar al demandante a demostrar la falsedad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las demandas llegaron enseguida. El periódico para el que trabajaba acabó pagando una indemnización de cientos de miles de libras por un artículo que resumía el libro, no porque se demostrara que era falso, sino porque defenderlo en juicio salía todavía más caro. Años después, cuando todo quedó probado, recuperó el dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El uso del dinero como método de silencio se repite a lo largo del libro. Hubo demandas contra la masajista, contra los antiguos compañeros, contra periodistas de varios países y contra una aseguradora que se negaba a pagar unas primas. La mayoría se resolvió con acuerdos, y cada acuerdo funcionaba como una prueba pública de inocencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la parte más incómoda del asunto y la que menos ha cambiado. Un litigio no averigua quién dice la verdad: averigua quién puede pagar más abogados durante más tiempo. Walsh tuvo detrás a un periódico grande y aun así estuvo a punto de quedarse sin sitio donde publicar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un pleito no decide quién tiene razón: decide quién puede aguantar pagando más tiempo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que le protegió durante diez años fue mucho más grande que él" },
+      {
+        b: "texto",
+        texto:
+          "El libro describe una estructura de protección con varios pisos. El primero era deportivo: la federación internacional de ciclismo, que aceptó donaciones económicas del propio corredor mientras se le investigaba y que gestionó con notable laxitud un resultado anómalo suyo, algo que años después le costó una comisión de investigación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo era comercial. Un patrocinio de esa magnitud implicaba a marcas globales, a una cadena de televisión y a una carrera que vive de audiencias, y ninguna de esas partes tenía el menor interés en que la historia fuera falsa. Nadie ordenó tapar nada; simplemente nadie preguntó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercero era moral, y es el más eficaz de los tres. Su fundación contra el cáncer había recaudado cientos de millones y era un símbolo real para millones de enfermos, así que cualquier acusación contra él podía presentarse como un ataque a esa causa. Esa pulsera amarilla funcionó durante años como un escudo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Walsh sostiene que ese tercer piso explica la duración del engaño mejor que ningún otro. Muchos periodistas y directivos no callaron por miedo ni por dinero, sino porque desmontar aquello significaba quitarle una historia de esperanza a gente que la estaba usando para pasar una quimioterapia. El resultado fue que durante años las únicas preguntas incómodas se hicieron en francés, en periódicos que no dependían del mercado estadounidense.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una buena causa alrededor de una persona funciona como blindaje contra cualquier pregunta sobre ella.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Siete pecados capitales cuenta trece años de investigación sobre el ciclista más famoso del mundo y sostiene que el problema no fue solo el dopaje. Fue que una historia extraordinaria —un superviviente de cáncer ganando siete Tours— desactivó el escepticismo de un oficio entero, y que quien insistió en comprobarla se quedó solo, fue demandado y estuvo a punto de perder su trabajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un manual de cómo se sostiene una investigación sin documentos: valorar indicios físicos antes que rumores, buscar testigos que no ganen nada, preguntarse siempre qué motivo tendría alguien para mentir y aguantar años sin confirmación oficial. Sirve fuera del deporte y explica por qué este tipo de trabajo se hace tan poco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en el reparto de la culpa. Casi todo el pelotón de aquellos años estaba dopado, incluidos los que llegaban detrás, y concentrar el relato en un hombre permite que las federaciones, los patrocinadores y los medios queden retratados como espectadores despistados en vez de como parte del mecanismo. Walsh lo menciona; no lo desarrolla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y está escrito por el que ganó la discusión. Es un ajuste de cuentas legítimo y bien documentado en el que el autor es también el héroe, con sus propios errores de juicio contados de pasada y sus aciertos en primer plano. Conviene leerlo sabiendo que la versión completa de aquellos años requiere más de un libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En octubre de 2012, semanas después de publicarse, la agencia antidopaje estadounidense presentó un expediente demoledor con testimonios de once excompañeros. Le retiraron los siete títulos y lo inhabilitaron de por vida, y en enero de 2013 confesó en televisión. Los Tours de 1999 a 2005 siguen sin ganador en los libros de récords, que es la manera más exacta de contarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un fraude enorme no lo sostiene un mentiroso: lo sostiene todo el que prefiere no comprobarlo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "siete-pecados": SIETE_PECADOS,
   "nunca-te-pares": NUNCA_TE_PARES,
   "legado-all-blacks": LEGADO_ALL_BLACKS,
   "gen-deportivo": GEN_DEPORTIVO,
