@@ -54014,7 +54014,7 @@ const POSTGUERRA: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Lo que aporta es la mirada completa. Es el único relato de un solo volumen que trata las dos mitades del continente como una sola historia, en lugar de contar Europa occidental y añadir un capítulo sobre el bloque del este; y esa decisión cambia el resultado, porque obliga a ver 1989 como el final de una historia común y no como la incorporación de unos recién llegados.",
+          "Lo que aporta es la mirada completa. Es el único relato de un solo volumen que trata las dos mitades del continente como una sola historia, y esa decisión cambia el resultado: obliga a ver 1989 como el final de una historia común y no como la incorporación de unos recién llegados.",
       },
       {
         b: "texto",
