@@ -50669,7 +50669,274 @@ const MUJERCITAS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Cuentos de Edgar Allan Poe, en ocho páginas.
+
+   Breve. Es una colección de relatos, no un ensayo: registro narrativo del
+   apartado 3 bis, titular corto de imagen, afirmación en la primera frase y
+   caja del rayo en segunda persona.
+
+   LO QUE HAY QUE EVITAR es el resumen que enumera cuentos. Un índice no es
+   un resumen. Así que cada página coge UNA invención suya —la unidad de
+   efecto, el narrador que miente, el cuarto cerrado, el escondite a la
+   vista, el encierro, la mujer que muere— y la explica con el cuento donde
+   está, con su año.
+
+   La regla 5 aquí tiene un caso muy concreto: sus muertas. Y el «después»
+   es de los mejores del estante: el retrato del Poe borracho y loco lo
+   fabricó su albacea con cartas falsificadas.
+   -------------------------------------------------------------------------- */
+
+const CUENTOS_POE: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un hombre con la ropa de otro" },
+      {
+        b: "texto",
+        texto:
+          "El 3 de octubre de 1849, día de elecciones en Baltimore, encontraron a Edgar Allan Poe delirando en la calle, junto a una taberna que servía de colegio electoral, vestido con ropa que no era la suya. Murió cuatro días después, a los cuarenta años, sin recobrar la coherencia suficiente para explicar qué le había pasado. Su historial clínico desapareció y la causa de su muerte no se ha establecido nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa escena es la última de una vida bastante desgraciada: huérfano a los tres años, criado sin ser adoptado por un comerciante con el que rompió, expulsado de la academia militar, siempre sin dinero, y viudo a los treinta y ocho de su mujer, Virginia, con la que se había casado cuando ella tenía trece años y que murió de tuberculosis a los veinticuatro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nada de eso explica sus cuentos, y conviene decirlo porque es la trampa habitual al hablar de él. Poe no escribía sus pesadillas: escribía con una frialdad de ingeniero, calculando qué efecto quería producir en el lector y qué palabras lo producían. Publicó incluso un ensayo explicando cómo había construido su poema más famoso, paso a paso, como quien enseña un plano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis inventos suyos que siguen funcionando: la regla con la que fundó el cuento moderno, el narrador al que no se puede creer, el primer relato policiaco de la historia, el escondite que está a la vista, el mecanismo con el que produce el terror sin usar monstruos, y la mujer que se muere despacio, que es lo que peor ha envejecido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El escritor que inventó el miedo moderno no escribía desde el descontrol: escribía como un ingeniero que sabe exactamente qué palanca mueve qué.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cada palabra para un solo efecto" },
+      {
+        b: "texto",
+        texto:
+          "El cuento moderno como forma tiene una fecha de nacimiento y es 1842, cuando Poe publicó una reseña de un libro de relatos de Nathaniel Hawthorne y aprovechó para escribir la regla. Dice que un escritor de cuentos debe decidir primero qué efecto único quiere producir, y después construir cada frase, cada palabra y cada detalle de manera que contribuya a ese efecto y a ningún otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso separa el cuento de la novela por algo más que la longitud. Una novela puede permitirse páginas que no van a ninguna parte, personajes que aparecen y se van, y cambios de tono; un cuento, según esta regla, no. Todo lo que no empuja hacia el efecto está estorbando, y por eso los cuentos buenos no se pueden resumir sin estropearlos: no sobra nada que quitar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda parte de la regla es de duración y es la que más consecuencias ha tenido. Poe sostiene que el relato debe poder leerse de una sentada, porque en cuanto el lector interrumpe la lectura el mundo real entra por la rendija y deshace el efecto. Toda la potencia de la forma dependería de que el lector no se levante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Casi todo lo que se enseña hoy en un taller de escritura sobre relatos viene de esas dos páginas. Y se puede comprobar en sus cuentos: en «El barril de amontillado», que ocupa cinco folios, no hay una sola frase que no esté empujando hacia el final, ni una descripción decorativa, ni un personaje de más. El primer párrafo ya contiene el crimen entero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de escribir algo corto, decide qué efecto único quieres producir; después borra todo lo que no empuje hacia él, por bueno que sea.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El narrador que jura estar cuerdo" },
+      {
+        b: "texto",
+        texto:
+          "«El corazón delator», de 1843, empieza con el narrador negando que esté loco: dice que es cierto que ha estado y está muy nervioso, pero que por qué van a decir que está loco. Nadie que esté cuerdo empieza así. En dos líneas, Poe ha instalado la técnica que sostiene media literatura posterior: un narrador que cuenta su versión y cuya versión el lector tiene que corregir mientras lee.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuento entero funciona con esa doble lectura. Él explica su plan con orgullo de artesano, insiste en su lucidez, describe la prudencia con la que actuó, y cada detalle que aporta como prueba de cordura demuestra lo contrario. Cuando al final oye latir bajo el suelo el corazón del hombre al que ha matado, el lector ya sabía desde la primera página lo que estaba oyendo en realidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mismo hace en «El gato negro», donde el narrador atribuye a la perversidad, como si fuera una fuerza natural, unos actos que ha ido eligiendo uno por uno. Y en «El barril de amontillado», donde Montresor cuenta su venganza cincuenta años después con una serenidad que resulta mucho más inquietante que cualquier grito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Poe descubrió ahí, y que no existía antes de él en esa forma, es que el terror más eficaz no se produce enseñando algo monstruoso, sino colocando al lector dentro de una cabeza y dejando que note, poco a poco, dónde está metido. El monstruo es la voz que le está contando el cuento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien insiste sin que se lo pidan en que está tranquilo, la información no está en lo que dice: está en que necesite decirlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una habitación cerrada por dentro" },
+      {
+        b: "texto",
+        texto:
+          "En abril de 1841, Poe publicó «Los crímenes de la calle Morgue» e inventó de una sentada el género policiaco entero. Dos mujeres aparecen asesinadas en un cuarto de París cerrado por dentro, sin salida posible, y la policía no encuentra explicación. Un aficionado, el caballero Auguste Dupin, resuelve el caso razonando a partir de lo que publican los periódicos y de una visita al lugar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En ese relato están ya, montadas, las cuatro piezas con las que sigue funcionando el género. El detective genial y excéntrico que no pertenece a la policía. El amigo que narra, admira y hace las preguntas que necesita el lector. La policía oficial competente y superada. Y el enigma imposible que se resuelve por razonamiento y no por casualidad ni por confesión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Arthur Conan Doyle lo reconoció sin rodeos: dijo que cada uno de aquellos cuentos era una raíz de la que había crecido una literatura entera y preguntó dónde estaba el relato de detectives antes de que Poe le insuflara vida. Sherlock Holmes y el doctor Watson son Dupin y su amigo con otro nombre y a cuarenta y seis años de distancia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Poe llamaba raciocinio tiene además una descripción precisa dentro del cuento, y es más interesante que el truco final. Consiste en identificarse con el adversario hasta pensar como él, y en fijarse en lo que falta y no en lo que hay: en el cuarto de la calle Morgue la clave no es lo que está en la habitación, sino que no haya ninguna manera de salir siendo humano.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando un problema parece imposible, deja de mirar lo que hay y haz la lista de lo que debería estar y no está.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La carta que estaba a la vista" },
+      {
+        b: "texto",
+        texto:
+          "«La carta robada», de 1844, es el mejor de los tres relatos de Dupin y su solución sigue enseñándose fuera de la literatura. La policía sabe quién ha robado una carta comprometedora y sabe que está en su casa; ha registrado el edificio entero durante meses, midiendo muebles, sondeando paredes y examinando cada libro con lupa, y no la encuentra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dupin la encuentra en una tarde porque hace la pregunta contraria. La policía ha buscado donde escondería una carta alguien que quisiera esconderla; el ladrón, que es listo, la ha dejado arrugada en un tarjetero colgado sobre la chimenea, con otro sobre y otra letra, a la vista de cualquiera que entre. Un escondite perfecto es aquel que la búsqueda no considera un escondite.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento que Poe pone debajo es el interesante, y vale para cualquier investigación. Un método de búsqueda muy minucioso puede fallar completamente si su punto de partida es equivocado, y cuanto más minucioso sea, más convencido quedará el que busca de que allí no está. La policía del cuento no fue perezosa: fue exhaustiva dentro de la casilla equivocada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro relato de Dupin, sin embargo, enseña el límite del método por la vía dura. En «El misterio de Marie Rogêt», Poe cogió un asesinato real ocurrido en Nueva York en 1841, lo trasladó a París y se propuso resolverlo razonando solo con recortes de prensa. Es el primer caso de investigación de sillón de la historia, y se equivocó: cuando aparecieron datos nuevos, tuvo que retocar el texto para que no cantara tanto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un método muy minucioso aplicado a la casilla equivocada no encuentra nada y además te convence de que allí no había nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El péndulo y las paredes que se acercan" },
+      {
+        b: "texto",
+        texto:
+          "En los cuentos de terror de Poe casi nunca hay un monstruo, y esa es la razón por la que siguen funcionando. Lo que hay es un cuerpo humano en un espacio que se cierra y un tiempo que corre. En «El pozo y el péndulo», de 1842, un preso de la Inquisición yace atado mientras una cuchilla se balancea sobre él, bajando un poco en cada oscilación, y el cuento entero consiste en calcular cuánto falta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mismo mecanismo aparece una y otra vez con otros disfraces. Ser enterrado vivo, que era un miedo social real en el siglo XIX y al que dedicó un relato entero. Ser emparedado en un sótano por alguien que va colocando los ladrillos mientras habla contigo. Estar en una casa que se agrieta al ritmo de la enfermedad de sus dueños. Todos son variaciones de lo mismo: el espacio disponible mengua.",
+      },
+      {
+        b: "texto",
+        texto:
+          "«La máscara de la Muerte Roja», de 1842, aplica el procedimiento a una escala mayor y con una idea muy limpia. Un príncipe se encierra con mil cortesanos en una abadía amurallada mientras una epidemia asola el país, y celebra allí un baile creyéndose a salvo. El cuento no necesita explicar cómo entra la peste; le basta con demostrar que los muros que te protegen son los mismos que no te dejan salir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lección de oficio que se saca de estos relatos es que el terror no depende de la amenaza sino del margen. Un monstruo que persigue permite correr; una pared que avanza un centímetro por minuto no permite nada, y por eso da mucho más miedo. Poe descubrió que la angustia es una operación aritmética: tiempo disponible dividido entre salidas posibles.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que asusta no es la amenaza, es la resta: cuánto tiempo queda dividido entre cuántas salidas hay.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La mujer que se muere despacio" },
+      {
+        b: "texto",
+        texto:
+          "Hay un patrón en Poe que no se puede pasar por alto y que él mismo dejó por escrito como norma. En 1846 publicó un ensayo explicando cómo había compuesto «El cuervo», y allí afirma que la muerte de una mujer hermosa es, sin discusión posible, el tema más poético del mundo. No es una interpretación de un crítico: es su declaración.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y su obra lo cumple con una regularidad incómoda. Ligeia, Berenice, Morella, Madeline Usher, Lenore: mujeres pálidas, cultísimas, adoradas y moribundas, que se apagan durante páginas y a veces vuelven. Ninguna de ellas tiene una conversación propia, una opinión o un deseo que no sea el del narrador que las contempla. Son el objeto de un efecto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se suele explicar esto por su biografía —su madre, su madre adoptiva y su mujer murieron todas de tuberculosis y muy jóvenes—, y la explicación es cierta y no basta. El ensayo de 1846 convierte el duelo en método: no dice que le doliera, dice que funciona. Y una vez formulado como principio, deja de ser una herida y pasa a ser una decisión de oficio, que es lo que se le puede discutir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay más zonas que hoy chirrían. Su prosa es enfática hasta el agotamiento, con exclamaciones y cursivas donde un escritor actual no pondría nada; varios de sus relatos son bromas y engaños periodísticos que ya no tienen gracia; y en su única novela larga aparecen episodios con una carga racista que la crítica lleva un siglo discutiendo. Poe se lee entero o se lee elegido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien convierte su herida en un método y lo publica como regla, deja de ser una herida y pasa a ser algo que se le puede discutir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Los cuentos de Poe sostienen que un relato es un aparato: se decide primero el efecto y después se construye cada palabra para producirlo. Con esa idea fundó dos cosas que siguen en pie, el cuento moderno como forma y el género policiaco entero, y perfeccionó una tercera, el narrador al que el lector no puede creer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta hoy, además del placer de leerlos, es que son cortos y están desmontables. Cualquiera puede ver en cinco folios cómo funciona un mecanismo narrativo, porque no hay nada más en la página: se ve la palanca. Por eso siguen siendo el material de enseñanza más usado que existe para explicar cómo se escribe algo breve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en lo dicho y en el tono. Sus mujeres no existen como personas y él dejó escrito que eso era una decisión estética; su prosa carga las tintas de una manera que hoy cansa. Un lector de hoy hace bien en leerlo seleccionado, y la selección que aguanta entera son unos quince relatos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después de su muerte es el mejor caso documentado de una reputación fabricada. Su albacea literario, Rufus Griswold, que lo detestaba, publicó dos días después de morir él un obituario firmado con otro nombre y, poco más tarde, una biografía en la que lo retrataba como un borracho envidioso y trastornado, apoyándose en cartas que había falsificado. Ese retrato duró más de un siglo y es el origen de la imagen popular de Poe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fuera de su país lo rescataron antes. Charles Baudelaire lo tradujo al francés desde 1848 y lo convirtió en un clásico europeo, y en español lo tradujo entero Julio Cortázar en 1956, en una edición que sigue reimprimiéndose. El principal premio de la novela policiaca estadounidense se llama Edgar desde 1946, en su honor, que es la manera exacta en que un género reconoce a quien lo inventó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si vas a escribir algo breve, decide el efecto antes que la trama: es la única regla de Poe y sigue siendo la que más se nota al aplicarla.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cuentos-poe": CUENTOS_POE,
   mujercitas: MUJERCITAS,
   "renglones-torcidos": RENGLONES_TORCIDOS,
   "elegancia-erizo": ELEGANCIA_ERIZO,

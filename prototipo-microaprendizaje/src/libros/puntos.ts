@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cuentos-poe": [
+    "la regla de 1842 con la que fundó el cuento moderno",
+    "cómo funciona un narrador al que no se puede creer",
+    "las cuatro piezas del género policiaco, ya montadas en 1841",
+    "por qué un escondite a la vista derrota a una búsqueda minuciosa",
+    "quién fabricó el retrato del Poe borracho y loco",
+  ],
+
   mujercitas: [
     "cómo el primer capítulo instala toda la moral del libro",
     "qué vende Jo March y por cuánto",

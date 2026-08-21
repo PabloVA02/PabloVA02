@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cuentos-poe":
+    "Poe no escribía sus pesadillas: decidía primero qué efecto quería producir y construía cada palabra para producirlo. Con ese método fundó el cuento moderno como forma y, en 1841, el relato policiaco entero.",
+
   mujercitas:
     "Alcott aceptó en 1868 un encargo que no quería —una novela para niñas— porque necesitaba el dinero para mantener a su familia. Salieron cuatro hermanas sin dinero durante una guerra, y una de ellas quería ser escritora.",
 

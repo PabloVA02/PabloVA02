@@ -343,22 +343,6 @@ export const META: FichaMeta[] = [
       { titulo: "Lo que aguanta cuando le quitas las cifras", minutos: 5 },
     ],
   },
-  {
-    id: "cuentos-poe",
-    titulo: "Cuentos de Edgar Allan Poe",
-    autor: "Edgar Allan Poe",
-    ano: 1845,
-    gancho: "Inventó el relato de detectives, fijó las reglas del cuento moderno y escribió el poema más famoso de su país. Cobró nueve dólares por él y murió nueve años después, delirando, con la ropa de otro hombre.",
-    porQue: "Porque casi todo lo que la gente cree saber de él lo escribió el hombre que lo odiaba, y porque su fama de autor de terror esconde que inventó dos géneros enteros.",
-    minutos: 22,
-    capitulos: [
-      { titulo: "Un huérfano en Richmond", minutos: 4.1 },
-      { titulo: "El hombre del tomahawk", minutos: 4.5 },
-      { titulo: "El corazón debajo del suelo", minutos: 4.5 },
-      { titulo: "El cuervo y los nueve dólares", minutos: 4.4 },
-      { titulo: "Baltimore, 3 de octubre de 1849", minutos: 4.5 },
-    ],
-  },
 ];
 
 /** Índice por identificador, que es como lo pide la pantalla. */
