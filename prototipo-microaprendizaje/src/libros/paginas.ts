@@ -47725,7 +47725,300 @@ const MILAGRO_METABOLICO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Vivir con plenitud las crisis, en ocho páginas.
+
+   Breve. Libro práctico de salud → TÚ.
+
+   La prueba del sustituto del apartado 4 bis aquí se traduce así: si una
+   página funcionara igual siendo el resumen de cualquier otro libro de
+   atención plena, está mal escrita. Lo que solo existe en ESTE libro y
+   sostiene el resumen: la clínica de 1979, las ocho semanas exactas, los
+   cuarenta y cinco minutos diarios, la pasa, el escaneo corporal, las siete
+   actitudes con sus nombres, y el ensayo de la psoriasis de 1998.
+
+   La página séptima es la regla 5 hecha dentro del libro: el metaanálisis
+   de 2014, el ensayo contra el escitalopram de 2022 y los efectos adversos
+   que el campo tardó treinta años en medir.
+   -------------------------------------------------------------------------- */
+
+const VIVIR_PLENITUD: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En 1979 un biólogo molecular pidió al hospital los pacientes que la medicina ya no sabía tratar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Jon Kabat-Zinn se doctoró en biología molecular en el Instituto Tecnológico de Massachusetts en 1971, con un premio Nobel de director de tesis. En 1979 propuso al hospital universitario de Massachusetts algo insólito: que le mandaran a los pacientes que llevaban años con dolor crónico, con enfermedades que no remitían o con síntomas que ningún servicio conseguía aliviar. Los pacientes de los que ya nadie esperaba nada. Montó con ellos una clínica de reducción de estrés.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hizo allí durante once años lo publicó en 1990 en este libro, que es el manual fundacional de todo lo que hoy se llama atención plena o «mindfulness» en hospitales, empresas y aplicaciones de móvil. El título viene de una frase de la novela «Zorba el griego»: cuando le preguntan a Zorba si está casado, contesta que sí, mujer, hijos, casa, todo. La catástrofe completa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa frase explica la tesis mejor que cualquier resumen. El libro no promete quitarte los problemas ni relajarte: da por hecho que la vida trae enfermedad, pérdida y dolor, y sostiene que buena parte del sufrimiento no viene de eso sino de la manera automática en que reaccionamos a eso. Y propone un entrenamiento concreto, con horario, para cambiar esa reacción.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: en qué consiste exactamente el programa de ocho semanas, qué demuestra el ejercicio de comerse una pasa, cómo se separa un dolor de la historia que uno se cuenta sobre él, la diferencia entre reaccionar y responder al estrés, las siete actitudes con las que se practica, y qué han encontrado los ensayos serios, incluidos los que salieron mal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El programa no nació para gente sana que quería estar mejor: nació con los pacientes a los que el hospital ya no tenía nada que ofrecer.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que se ha estudiado no es la atención plena en general: es este programa concreto",
+      },
+      {
+        b: "texto",
+        texto:
+          "El programa se llama reducción del estrés basada en la atención plena y tiene una forma fija que conviene conocer con detalle, porque es lo que separa este libro de todo lo que vino después. Dura ocho semanas. Hay una clase presencial de dos horas y media a la semana, en grupo. Hacia la sexta semana hay una jornada entera de práctica en silencio, de unas seis horas. Y hay deberes diarios: cuarenta y cinco minutos, todos los días, ocho semanas seguidas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esos cuarenta y cinco minutos diarios no son un detalle de intendencia. Son la variable que separa el programa de casi todo lo que se vende hoy con la misma etiqueta, y son la razón por la que buena parte de los estudios positivos no se pueden trasladar sin más a una aplicación de móvil de diez minutos. Cuando leas que la atención plena ha demostrado tal cosa, comprueba siempre si lo que se estudió era esto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las prácticas son cuatro y se van turnando. El escaneo corporal, cuarenta y cinco minutos tumbado recorriendo el cuerpo por partes con la atención, sin intentar cambiar nada. La meditación sentada, siguiendo la respiración y volviendo a ella cada vez que la cabeza se va. Unas secuencias sencillas de yoga, hechas muy despacio. Y la meditación caminando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kabat-Zinn define la atención plena en una frase que conviene tener presente porque desmonta la mitad de los malentendidos: es la conciencia que surge de prestar atención, a propósito, al momento presente, y sin juzgar. No dice relajarse, no dice vaciar la mente, no dice sentirse bien. Dice darse cuenta. Que además relaje es un efecto secundario frecuente, no el objetivo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todo lo que se afirma sobre la atención plena se midió en un programa de ocho semanas con cuarenta y cinco minutos diarios de deberes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El primer ejercicio del programa consiste en comerse una pasa durante varios minutos",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la primera sesión no se habla de estrés ni de meditación. Se reparte a cada participante una pasa y se le pide que la mire como si no supiera lo que es: el color, los pliegues, cómo brilla. Que la toque. Que la huela. Que se la ponga en la boca sin masticarla. Que la mastique una vez y note dónde ha ido el sabor. Todo eso ocupa varios minutos, y produce risas incómodas la primera vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que demuestra el ejercicio es lo que ocurre después, cuando la gente cuenta que nunca había notado el sabor de una pasa. La mayoría de los actos de un día se hacen sin estar presente en ellos: se conduce un trayecto conocido sin recordarlo, se come mirando una pantalla, se escucha a alguien preparando la respuesta. El piloto automático no es un fallo, es lo normal, y es también donde vive la reacción automática al malestar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso el programa empieza por la comida y no por un problema. Aprender a notar el sabor de una pasa es entrenar exactamente la misma operación que después se aplicará a una punzada en la espalda o a una oleada de ansiedad: dirigir la atención a algo concreto, ver que se escapa, y traerla de vuelta. El ejercicio no va de pasas, va de que veas cómo funciona tu atención.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y trae la primera lección del método, que va contra la intuición. Nadie se hace bueno en esto por conseguir que la mente no se distraiga. La distracción es el material del ejercicio: cada vez que te das cuenta de que te habías ido y vuelves, eso es una repetición completa. Alguien que se distrae cuarenta veces en diez minutos y vuelve cuarenta veces ha practicado más que alguien que no se distrajo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La distracción no interrumpe la práctica: es la práctica. La repetición es darse cuenta de que te habías ido y volver.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un dolor tiene dos partes y solo una está en el cuerpo" },
+      {
+        b: "texto",
+        texto:
+          "La primera población de la clínica fue de dolor crónico, y de ahí sale la distinción más útil del libro. Hay una sensación física —la punzada, la quemazón, la presión— y hay una segunda capa hecha de todo lo que la cabeza añade: esto no se va a ir nunca, mañana no voy a poder trabajar, algo tengo que tener mal, no aguanto más. La primera capa está en el cuerpo. La segunda es un pensamiento, y multiplica la primera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El escaneo corporal se diseñó para trabajar esa separación. Tumbado, se recorre el cuerpo por zonas y se le pregunta a cada una qué hay ahí exactamente, sin nombrarlo como dolor y sin intentar cambiarlo. Muchos pacientes descubren que lo que llamaban un dolor constante en la espalda es en realidad una sensación que cambia de sitio y de intensidad, y que tiene ratos en los que casi no está.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir con claridad qué promete y qué no, porque aquí se generan falsas expectativas. Esto no elimina el dolor y el libro no dice que lo haga. Lo que los estudios de la clínica encontraron y lo que confirman revisiones posteriores es que baja la intensidad percibida y baja mucho la interferencia: la cantidad de vida que el dolor te impide hacer. Que es, para alguien con dolor crónico, una diferencia enorme.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La misma lógica se aplica a lo demás. Un diagnóstico, un despido o una discusión traen un hecho y traen una historia sobre el hecho, y la historia suele ocupar el noventa por ciento del sufrimiento y ser la parte con la que sí se puede trabajar. La frase con la que Kabat-Zinn lo resume es suya y es buena: no puedes parar las olas, pero puedes aprender a surfear.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El dolor que se puede trabajar no es la sensación: es la frase que la acompaña, y ocupa la mayor parte del sufrimiento.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El estrés no lo causa lo que pasa, sino lo que ocurre en los tres segundos siguientes",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro distingue dos cosas que en castellano solemos llamar igual. La reacción al estrés es automática: el cuerpo interpreta una amenaza, dispara adrenalina y cortisol, sube la tensión y el pulso, tensa los músculos y prepara para pelear o huir. Es un mecanismo excelente para un peligro físico de treinta segundos y muy malo para un correo del jefe, porque no se apaga solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema moderno no es tener esa reacción, es tenerla activada de fondo durante meses. Un sistema pensado para episodios breves funcionando de forma continua se cobra su precio en tensión arterial, sueño, digestión y estado de ánimo, y además se refuerza: cuanto peor duermes, más reactivo estás, y cuanto más reactivo estás, peor duermes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La respuesta al estrés, en cambio, incluye una pausa. No consiste en no alterarse, que no se puede decidir, sino en darse cuenta de que la reacción ha empezado —el pecho, la mandíbula, el estómago— antes de haber contestado. Ese hueco de unos segundos entre el estímulo y lo que haces es lo único que el programa entrena, y es de donde sale todo lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la práctica se entrena con algo mucho más pequeño que una crisis. Cuando notes que estás reaccionando, para y haz tres respiraciones prestándoles atención de verdad, notando dónde entra y dónde sale el aire. No es para calmarte: es para ocupar los segundos en los que ibas a contestar de mala manera. Kabat-Zinn insiste en que la práctica formal diaria existe justamente para que en ese momento sepas cómo se hace.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No se entrena para no alterarse: se entrena para que quepa una pausa entre la alteración y lo que haces con ella.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Se practica con siete actitudes, y las tres más raras son las que deciden si funciona",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kabat-Zinn enumera siete actitudes que hay que traer a la práctica y sin las cuales el ejercicio se convierte en otra tarea: no juzgar, paciencia, mente de principiante, confianza, no esforzarse, aceptación y soltar. Las cuatro primeras se entienden solas. Las tres siguientes son contraintuitivas y son las que suelen entenderse mal.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "No esforzarse", texto: "es la paradoja del método. La gente llega para conseguir algo —dormir, dejar de tener ansiedad— y la instrucción es practicar sin perseguir ningún resultado, porque perseguirlo introduce la evaluación constante que produce el malestar." },
+          { fuerte: "Aceptación", texto: "no es resignación ni aprobación. Es reconocer cómo son las cosas ahora, que es el requisito para poder cambiarlas: nadie puede actuar bien sobre una situación cuya existencia está negando." },
+          { fuerte: "Soltar", texto: "es dejar de agarrar tanto lo agradable como lo desagradable. Lo segundo se entiende; lo primero, menos: sujetar un buen momento para que no se acabe es también una forma de no estar en él." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "Las cuatro primeras tampoco son evidentes del todo. No juzgar no significa no tener opiniones, sino notar cuántas veces al minuto se emite una: agradable, desagradable, esto lo hago mal. Y mente de principiante es mirar algo conocido como si fuera la primera vez, que es lo que hace posible que alguien que lleva veinte años con la misma dolencia note algo nuevo en ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La distinción entre aceptación y resignación es la que más se estropea al divulgarla, y merece un ejemplo. Aceptar un diagnóstico no es dejar de tratarse: es dejar de gastar energía en discutir que ha ocurrido, para poder gastarla en decidir qué hacer. La resignación deja de actuar; la aceptación es lo que permite empezar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Aceptar no es rendirse: es dejar de discutir con lo que ya ha pasado, que es el requisito para poder hacer algo al respecto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La evidencia es real, es más modesta de lo que se cuenta, y tardó treinta años en medir lo que sale mal",
+      },
+      {
+        b: "texto",
+        texto:
+          "La revisión que ordenó el campo se publicó en 2014 en «JAMA Internal Medicine»: cuarenta y siete ensayos con más de tres mil quinientos participantes. Encontró pruebas moderadas de mejora en ansiedad, depresión y dolor, que es un resultado respetable. Y encontró algo que casi nunca se cita: no había pruebas de que estos programas fueran mejores que otras intervenciones activas —ejercicio, medicación o psicoterapia— en ningún resultado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mejor dato a favor llegó en 2022. Un ensayo publicado en «JAMA Psychiatry» comparó cara a cara el programa de ocho semanas con escitalopram, un antidepresivo de uso corriente para la ansiedad, en doscientas setenta y seis personas con trastornos de ansiedad. El programa resultó no inferior al fármaco. Es la prueba más sólida que tiene el campo y es importante: significa que un tratamiento sin efectos secundarios farmacológicos aguanta la comparación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y está la parte que se calló durante décadas. La psicóloga Willoughby Britton, de la Universidad Brown, ha documentado que la meditación intensiva produce efectos adversos con más frecuencia de la que se admitía: en sus estudios, más de la mitad de los practicantes refería alguno, y alrededor de una de cada diez personas tuvo efectos que duraron más de un mes y le afectaron a la vida diaria, desde ansiedad y despersonalización hasta reviviscencias de traumas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso no invalida el programa; lo pone en su sitio, que es el de un tratamiento. Ningún tratamiento eficaz carece de efectos adversos, y la novedad no es que existan sino que durante treinta años no se buscaran. La consecuencia práctica: si tienes un trauma no tratado, un trastorno psicótico o una depresión grave, esto no se hace por tu cuenta con una aplicación, se hace acompañado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Funciona lo bastante como para compararse con un fármaco, y por eso mismo tiene efectos adversos que nadie midió durante treinta años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que gran parte del sufrimiento no viene de lo que ocurre sino de la reacción automática a lo que ocurre, y que esa reacción se puede entrenar. Y en vez de dejarlo en una idea, propone un programa con horario: ocho semanas, clases en grupo, una jornada de silencio y cuarenta y cinco minutos diarios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es esa concreción. Es un manual, no un ensayo: enseña cómo se hace un escaneo corporal minuto a minuto, qué hacer cuando la mente se va y qué esperar en cada semana. Y aporta el gesto fundacional de sacarlo del contexto religioso y meterlo en un hospital, que es lo que permitió medirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en tres sitios. Es larguísimo y repetitivo, con casi setecientas páginas en su edición revisada para un método que cabe en cincuenta. Su tono, en la edición de 1990, prometía bastante más de lo que sus estudios sostenían, y algunos de sus resultados estrella —el de la psoriasis de 1998, con treinta y siete pacientes— nunca se replicaron bien. Y ignoró los efectos adversos durante décadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una cuarta objeción, de fondo. Al quitarle el contexto budista dejó fuera el marco ético que acompañaba a la práctica, y eso permitió que la técnica se usara para cualquier fin, incluido el de que un empleado aguante mejor unas condiciones que deberían cambiar. La crítica tiene nombre desde 2019, cuando Ronald Purser publicó un libro entero sobre ello.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de 1990 esto se convirtió en un sector. En 2002 tres psicólogos adaptaron el programa para prevenir recaídas de depresión, y esa versión está hoy recomendada por el organismo británico que evalúa tratamientos. Y a partir de 2010 llegaron las aplicaciones de móvil, que llevan la etiqueta y no el programa: diez minutos guiados no son cuarenta y cinco minutos diarios durante ocho semanas, y casi ninguna de las pruebas de este libro les corresponde.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Es el manual del programa que de verdad se ha medido, y conviene leerlo sabiendo que casi nada de lo que hoy lleva esa etiqueta es ese programa.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "vivir-plenitud": VIVIR_PLENITUD,
   "milagro-metabolico": MILAGRO_METABOLICO,
   invencible: INVENCIBLE,
   "repensar-pobreza": REPENSAR_POBREZA,

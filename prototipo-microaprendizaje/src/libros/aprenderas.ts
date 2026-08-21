@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "vivir-plenitud":
+    "En 1979 un biólogo molecular pidió al hospital de Massachusetts los pacientes que la medicina ya no sabía tratar y montó con ellos una clínica. Este libro es el manual de lo que hizo allí durante once años.",
+
   "milagro-metabolico":
     "En 1967 la industria del azúcar pagó a tres investigadores de Harvard para culpar a la grasa, y está documentado. Jaramillo parte de ahí para sostener que la enfermedad metabólica la causa una sola hormona.",
 

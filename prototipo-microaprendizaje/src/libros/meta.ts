@@ -488,22 +488,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "vivir-plenitud",
-    titulo: "Vivir con plenitud las crisis",
-    autor: "Jon Kabat-Zinn",
-    ano: 1990,
-    gancho: "Un biólogo molecular montó en el sótano de un hospital una consulta para los pacientes que ya no mejoraban, y les enseñó a comerse una uva pasa.",
-    porQue: "Es el manual del programa del que salió todo el mindfulness que hay hoy en hospitales, aplicaciones y oficinas. Merece la pena leer el original para ver qué prometía de verdad y qué le han colgado después.",
-    minutos: 23.9,
-    capitulos: [
-      { titulo: "El sótano de Worcester", minutos: 4.9 },
-      { titulo: "Una uva pasa", minutos: 5.1 },
-      { titulo: "Cuarenta y cinco minutos tumbado", minutos: 4.7 },
-      { titulo: "La consulta del dermatólogo", minutos: 4.6 },
-      { titulo: "La sala de reuniones de Google", minutos: 4.7 },
-    ],
-  },
-  {
     id: "poder-metabolismo",
     titulo: "El poder del metabolismo",
     autor: "Frank Suárez",

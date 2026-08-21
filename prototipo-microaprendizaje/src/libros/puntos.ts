@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "vivir-plenitud": [
+    "en qué consiste exactamente el programa de ocho semanas",
+    "qué demuestra el ejercicio de comerse una pasa",
+    "separar un dolor de la historia que te cuentas sobre él",
+    "por qué aceptar no es lo mismo que resignarse",
+    "qué encontraron los ensayos, incluidos los efectos adversos",
+  ],
+
   "milagro-metabolico": [
     "qué hace exactamente la insulina y por qué bloquea la grasa",
     "por qué contar calorías es cierto y no sirve",
