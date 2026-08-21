@@ -22823,7 +22823,7 @@ const BERNARDA_ALBA: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "El efecto es doble y muy calculado. Por un lado, refuerza el encierro: el espectador también se queda dentro de la casa, sin ver la calle, igual que ellas. Por otro, convierte a Pepe en algo más útil que un personaje: es la salida, sea quien sea. Ninguna de las hermanas sabe realmente cómo es, y ninguna necesita saberlo.",
+          "El efecto es doble y muy calculado. Por un lado, refuerza el encierro: el espectador también se queda dentro de la casa, sin ver la calle, igual que ellas. Por otro, convierte a Pepe en algo más útil que un personaje: es la salida, sea quien sea. Ninguna de las hermanas sabe realmente cómo es, y ninguna necesita saberlo. Hay una excepción que confirma la regla y es de sonido, no de escena. En el segundo acto pasan por la calle los segadores camino del trigo, cantando, y las hermanas corren a la ventana a mirarlos. Es el único momento en que entra el mundo de fuera, y entra por el oído.",
       },
       {
         b: "idea",
@@ -22848,7 +22848,7 @@ const BERNARDA_ALBA: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Ese detalle es el que impide leer la obra solo como una tragedia de pasiones. El encierro de Bernarda tiene una lógica de patrimonio: mantener el apellido, no mezclarse con quien está por debajo, no dar que hablar y conservar las tierras. Cuando la criada Poncia le sugiere que vigile a Adela, Bernarda contesta que en su casa no pasa nada porque ella está vigilando, y esa ceguera voluntaria también es una forma de administrar.",
+          "Ese detalle es el que impide leer la obra solo como una tragedia de pasiones. El encierro de Bernarda tiene una lógica de patrimonio: mantener el apellido, no mezclarse con quien está por debajo, no dar que hablar y conservar las tierras. Cuando la criada Poncia le sugiere que vigile a Adela, Bernarda contesta que en su casa no pasa nada porque ella está vigilando, y esa ceguera voluntaria también es una forma de administrar. La propia Poncia lo dice en una frase que resume el pueblo entero: nacer mujer es el mayor castigo, y ella lleva treinta años sirviendo en esa casa por un jornal y unas sobras.",
       },
       {
         b: "idea",
@@ -22873,7 +22873,7 @@ const BERNARDA_ALBA: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Ese recurso es viejísimo y Lorca lo usa con precisión: la loca del desván como única voz autorizada para decir lo que todos saben. Su locura es también su salvoconducto. Cuando María Josefa dice que Bernarda tiene cara de lagarto y que ninguna de esas muchachas se va a casar, nadie la contradice; se limitan a llevársela.",
+          "Ese recurso es viejísimo y Lorca lo usa con precisión: la loca del desván como única voz autorizada para decir lo que todos saben. Su locura es también su salvoconducto. Cuando María Josefa dice que Bernarda tiene cara de lagarto y que ninguna de esas muchachas se va a casar, nadie la contradice; se limitan a llevársela. Lorca le da además el único verso de la obra. En un texto escrito a propósito sin poesía, la anciana encerrada es la única que canta.",
       },
       {
         b: "idea",
@@ -22923,7 +22923,7 @@ const BERNARDA_ALBA: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Y entonces viene el final, que es lo que convierte la obra en lo que es. Bernarda no llora ni se derrumba. Ordena descolgarla, vestirla de virgen y que nadie diga nada. Repite tres veces que su hija menor ha muerto virgen y exige que la avisen para que a la mañana siguiente doblen las campanas. Sus últimas palabras, y las últimas del texto, son la misma repetida: silencio.",
+          "Y entonces viene el final, que es lo que convierte la obra en lo que es. Bernarda no llora ni se derrumba. Ordena descolgarla, vestirla de virgen y que nadie diga nada. Repite tres veces que su hija menor ha muerto virgen y exige que la avisen para que a la mañana siguiente doblen las campanas. Sus últimas palabras, y las últimas del texto, son la misma repetida: silencio. Hay un detalle más que la mayoría de los montajes subraya. Toda la escena ocurre a oscuras, con una lámpara, y lo último que se oye antes del telón son los golpes de un caballo en el muro del corral: el mismo animal que en el segundo acto quería salir y al que Bernarda mandó soltar al amanecer.",
       },
       {
         b: "idea",
