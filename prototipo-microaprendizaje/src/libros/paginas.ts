@@ -33377,12 +33377,12 @@ const SEGUNDO_SEXO: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Y añade el obstáculo interior, que es el que más le interesa. Una mujer criada en esa situación arrastra, dice, una tentación permanente hacia la comodidad de la dependencia: la libertad da miedo, exige responder de lo propio y no ofrece ninguna garantía, y la sociedad le ha ofrecido durante toda su infancia una alternativa cómoda y aplaudida.",
+          "Y añade el obstáculo interior. Una mujer criada así arrastra, dice, la tentación permanente de la dependencia: la libertad da miedo, exige responder de lo propio y no garantiza nada, y la alternativa lleva toda la infancia ofreciéndose como cómoda y aplaudida.",
       },
       {
         b: "texto",
         texto:
-          "Su conclusión es que ninguna de las dos partes se arregla sola. La igualdad legal sin independencia económica no sirve de nada; la independencia económica sin un cambio en cómo se educa y en cómo se reparte el trabajo de la casa produce mujeres agotadas; y ese cambio, dice, exige que también cambien los hombres, cosa que el libro plantea y no desarrolla. Conviene señalar además un límite de mirada que hoy salta a la vista: el libro habla casi exclusivamente de mujeres blancas, europeas y de clase media. Las obreras, las campesinas y las mujeres de las colonias que Francia administraba entonces aparecen apenas, y su ideal de liberación consiste en buena medida en acceder al modelo de vida masculino —oficio, proyecto, independencia— sin poner en duda ese modelo.",
+          "Su conclusión es que ninguna de las dos partes se arregla sola. La igualdad legal sin independencia económica no sirve de nada; la independencia económica sin un cambio en cómo se educa y en cómo se reparte el trabajo de la casa produce mujeres agotadas; y ese cambio, dice, exige que también cambien los hombres, cosa que el libro plantea y no desarrolla. Conviene señalar además un límite de mirada que hoy salta a la vista: el libro habla casi exclusivamente de mujeres blancas, europeas y de clase media. Las obreras, las campesinas y las mujeres de las colonias francesas aparecen apenas, y su ideal de liberación consiste en acceder al modelo de vida masculino sin poner en duda ese modelo.",
       },
       {
         b: "idea",
