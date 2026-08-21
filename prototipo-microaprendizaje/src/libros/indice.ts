@@ -108,7 +108,6 @@ const CARGADORES: Record<string, Cargador> = {
   antifragil: () => import("./economia").then((m) => m.ANTIFRAGIL),
   "chico-pijama": () => import("./historia").then((m) => m.CHICO_PIJAMA),
   "pedro-paramo": () => import("./literatura").then((m) => m.PEDRO_PARAMO),
-  "moby-dick": () => import("./literatura").then((m) => m.MOBY_DICK),
   "madame-bovary": () => import("./literatura").then((m) => m.MADAME_BOVARY),
   montecristo: () => import("./literatura").then((m) => m.MONTECRISTO),
   "bernarda-alba": () => import("./literatura").then((m) => m.BERNARDA_ALBA),

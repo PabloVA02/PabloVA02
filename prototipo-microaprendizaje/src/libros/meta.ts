@@ -1496,22 +1496,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "moby-dick",
-    titulo: "Moby Dick",
-    autor: "Herman Melville",
-    ano: 1851,
-    gancho: "Un capitán manco de una pierna arrastra a treinta hombres al otro lado del mundo para matar a un animal que ni siquiera sabe que existe.",
-    porQue: "Es la novela más famosa que casi nadie ha terminado, y la que peor se resume: no va de una caza, va de qué le pasa a un hombre que necesita que el universo tenga un culpable.",
-    minutos: 23.2,
-    capitulos: [
-      { titulo: "La posada del Surtidor", minutos: 4.9 },
-      { titulo: "El doblón clavado en el mástil", minutos: 4.9 },
-      { titulo: "La sala de despiece", minutos: 4.3 },
-      { titulo: "La blancura de la ballena", minutos: 4.6 },
-      { titulo: "El Raquel", minutos: 4.5 },
-    ],
-  },
-  {
     id: "montecristo",
     titulo: "El conde de Montecristo",
     autor: "Alejandro Dumas",

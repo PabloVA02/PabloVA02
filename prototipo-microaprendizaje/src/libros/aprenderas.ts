@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "moby-dick":
+    "Un capitán arrastra a treinta hombres al Pacífico para vengarse del cachalote blanco que le arrancó una pierna. Un tercio del libro no es novela: es un tratado sobre ballenas.",
+
   dracula:
     "Un abogado inglés viaja a Transilvania a cerrar la venta de una finca y descubre que su cliente es un muerto. No hay narrador: son diarios, cartas y telegramas ordenados como un expediente.",
 

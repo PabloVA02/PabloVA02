@@ -16540,7 +16540,237 @@ const DRACULA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Moby Dick, en ocho páginas.
+
+   Breve, y cuesta: son ochocientas páginas. Se aguanta porque la tesis es
+   una y los argumentos son seis; lo que no cabe es el catálogo de
+   ballenas, y para eso está la página que explica por qué está ahí.
+
+   Registro narrativo. Caso (d) de la 4 bis por partida doble en la
+   conclusión: el libro fracasó y su autor murió olvidado, y la edición
+   inglesa se publicó SIN EL EPÍLOGO, así que los críticos británicos
+   leyeron un libro contado por un muerto.
+
+   Y lo concreto contra la prueba del título tapado: el Essex, el doblón
+   clavado en el palo, el ataúd de Queequeg, los tres días de caza.
+   -------------------------------------------------------------------------- */
+
+const MOBY_DICK: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Llamadme Ismael" },
+      {
+        b: "texto",
+        texto:
+          "Un hombre sin dinero y de mal humor decide embarcarse en un ballenero porque, dice, es su manera de quitarse de encima las ganas de tirarle el sombrero a la gente por la calle. Así empieza uno de los libros más famosos que existen, y con una de las tres frases iniciales más citadas de la literatura. Lo que viene después no se parece a lo que casi nadie espera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Moby Dick es la historia de un capitán que persigue a un cachalote blanco que años atrás le arrancó una pierna, y también es un tratado sobre ballenas, un manual de la industria del aceite, un ensayo sobre el color blanco, una obra de teatro con acotaciones incluidas y un catálogo de todos los oficios que caben en un barco. Un tercio del volumen no es novela.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se publicó en 1851 y fue un fracaso. Vendió unos tres mil doscientos ejemplares en toda la vida de su autor, que dejó de escribir novelas, entró de inspector de aduanas en el puerto de Nueva York y murió en 1891 tan olvidado que su esquela salió con el nombre mal escrito. El libro se rescató treinta años después de su muerte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren de dónde salió la ballena, quién es Ahab y qué le pide a su tripulación, por qué el libro se para a explicar anatomía, quién es el hombre que le salva la vida al narrador, qué significa el color blanco y qué pasa en los tres últimos días.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No es una novela de aventuras con digresiones: es un tratado sobre ballenas con una persecución dentro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La ballena que hundió un barco de verdad" },
+      {
+        b: "texto",
+        texto:
+          "En noviembre de 1820, en mitad del Pacífico, un cachalote de veinticinco metros embistió dos veces al ballenero Essex, de Nantucket, y lo hundió. Veinte hombres quedaron a la deriva en tres botes a cuatro mil kilómetros de tierra. Sobrevivieron ocho, después de tres meses en el mar y de comerse a sus compañeros muertos; al final echaron a suertes quién sería el siguiente, y le tocó al primo de diecisiete años del capitán.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Melville leyó el relato del primer oficial, Owen Chase, y llegó a conocer a su hijo en alta mar, que le prestó un ejemplar. También había leído un artículo de 1839 sobre Mocha Dick, un cachalote albino que rondaba la isla chilena de Mocha, al que se atribuían un centenar de encuentros con balleneros y que llevaba clavados una veintena de arpones de intentos anteriores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale todo: la ballena blanca existía y hundir un barco estaba probado. Conviene saberlo porque cambia el libro: la parte fantástica de Moby Dick no es el animal ni lo que hace, es la idea de Ahab de que aquello va contra él en particular. El cachalote es un dato de la industria; lo insólito es el capitán.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo increíble del libro no es que una ballena hunda un barco: eso pasó de verdad. Lo increíble es un hombre convencido de que lo hizo a propósito.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El doblón clavado en el palo" },
+      {
+        b: "texto",
+        texto:
+          "Ahab no aparece hasta bien entrado el libro. Lleva días encerrado en su camarote y, cuando por fin sube, lo hace con una pierna de marfil de mandíbula de cachalote encajada en un agujero hecho a medida en la cubierta, para poder mantenerse de pie sin agarrarse. Es un hombre de sesenta años que ha pasado cuarenta en el mar, con una cicatriz blanca que le cruza la cara y el cuerpo entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena que decide el viaje es una ceremonia. Reúne a toda la tripulación, clava un doblón de oro español en el palo mayor y anuncia que será para el primero que avise de un cachalote blanco de frente arrugada y mandíbula torcida. Los arponeros cruzan sus hierros, se bebe ron en los huecos de los arpones y todos juran, gritando, muerte a Moby Dick.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El único que discute es Starbuck, el primer oficial: un hombre prudente y creyente que le dice a la cara lo que ninguno se atreve a decir, que vengarse de un animal mudo es una blasfemia y que están ahí para hacer dinero para los armadores de Nantucket. Ahab no lo niega. Contesta que para él la ballena no es un animal, es una máscara detrás de la cual hay algo que lo odia, y que golpearía al sol si el sol lo hubiera ofendido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todos juran, y el que juró más fuerte fue el que menos entendía qué estaba jurando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Por qué el libro se para" },
+      {
+        b: "texto",
+        texto:
+          "A mitad de la persecución, el libro se detiene y no vuelve a arrancar hasta dentro de doscientas páginas. Melville clasifica todas las ballenas conocidas ordenándolas, en broma seria, por tamaños de libro: los folios, los octavos, los duodécimos. Dedica capítulos enteros a la cabeza del cachalote, a la grasa, al aceite, a la cuerda del arpón, a los cuadros de ballenas mal pintados, a si una ballena es un pez y a las razones por las que casi nadie ha visto una entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mucha gente abandona el libro ahí, y conviene saber por qué está puesto. Melville había pasado dieciocho meses embarcado en un ballenero, y sabe que la obsesión de Ahab solo asusta si el lector ha entendido antes lo que es de verdad una ballena: un animal de cincuenta toneladas del que se sabe poquísimo, al que se caza desde un bote de remos con un arpón de mano y una cuerda que puede cortar a un hombre en dos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un capítulo, el de la cuerda, que resume lo que hace todo lo demás. Explica que el cabo del arpón va enrollado en el bote pasando entre los remeros, rozándolos, y que en cuanto la ballena tira, esa cuerda sale disparada a una velocidad que arranca miembros. Termina diciendo que todos los hombres viven rodeados de cuerdas así, solo que no las ven. Ese es el tono del libro entero: una explicación técnica que acaba siendo otra cosa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Explica la anatomía de un animal durante cien páginas para que, cuando aparezca, el lector sepa exactamente lo que hay delante.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El caníbal de la cama de al lado" },
+      {
+        b: "texto",
+        texto:
+          "El comienzo del libro, antes de embarcar, es una comedia. Ismael llega a una posada de New Bedford llena hasta arriba y el posadero le ofrece compartir cama con un arponero que ha salido a vender cabezas humanas por la calle. Ismael pasa la noche aterrorizado hasta que aparece el otro: un hombre tatuado de arriba abajo, con un hacha-pipa y un ídolo de madera en el bolsillo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A la mañana siguiente despierta con el brazo del arponero encima como si fuera su mujer, y a partir de ahí son inseparables. Queequeg es hijo de un rey de una isla del Pacífico, se escapó de casa para conocer el mundo cristiano y ha llegado a la conclusión de que los cristianos son más desgraciados que los suyos. Ismael, que había empezado el libro despreciándolo, acaba diciendo que prefiere dormir con un caníbal sobrio que con un cristiano borracho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa amistad es el otro corazón del libro, el que compensa a Ahab, y da además el objeto que decide el final. A mitad de viaje, Queequeg cae enfermo, se le encarga al carpintero un ataúd a su medida, se mete dentro para probarlo, cambia de opinión y decide no morirse. El ataúd se queda a bordo, se le pone brea y se convierte en boya salvavidas del barco.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El hombre del que huía en la primera noche acaba siendo el único al que le importa que siga vivo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Por qué es blanca" },
+      {
+        b: "texto",
+        texto:
+          "Hay un capítulo, La blancura de la ballena, que Melville pone justo antes de la caza y que es el centro intelectual del libro. Ismael dice que puede explicar la ferocidad del animal y su tamaño, pero que lo que de verdad le aterra es el color, y que no sabe explicarlo, y aun así lo intenta durante veinte páginas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Va enumerando: el blanco es el color de lo sagrado, de la novia, del rey, y también el del oso polar, el del tiburón blanco, el de la niebla en la que se pierde un barco, el de los albinos que dan miedo sin motivo, el de un paisaje nevado donde no hay nada. Y llega a la conclusión que lo asusta: el blanco no es un color, es la ausencia de todos, y por eso las cosas blancas no significan nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está la diferencia entre los dos personajes. Ahab necesita que la ballena signifique algo —que sea la máscara de una voluntad que lo persigue—, porque un universo con una intención cruel todavía es un universo con sentido. Ismael sospecha que no hay nada detrás, ni bueno ni malo, y que eso es mucho peor. Los dos miran al mismo animal y ven cosas opuestas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Da más miedo un mundo que no significa nada que un mundo que te odia, porque contra el que te odia se puede pelear.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Tres días" },
+      {
+        b: "texto",
+        texto:
+          "La caza final ocupa los tres últimos capítulos y está contada casi hora a hora. El primer día avistan la ballena y los botes salen; Moby Dick muerde en dos el de Ahab. El segundo día vuelven a intentarlo, la ballena embiste otra vez y la pierna de marfil se rompe. El carpintero le hace otra esa misma noche. Starbuck le suplica por última vez que vuelvan y Ahab reconoce en voz alta que lleva cuarenta años sin pisar tierra, que apenas conoce a su mujer y a su hijo, y que ya no puede parar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercer día la ballena, ya arponeada varias veces, se vuelve contra el barco y embiste al Pequod de frente. El casco se abre y el barco empieza a irse a pique con toda la tripulación dentro. Ahab, desde su bote, lanza el último arpón, y ocurre lo único que podía ocurrir: la cuerda se le enreda en el cuello y se lo lleva con ella. Muere atado a lo que perseguía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una imagen final que no se olvida: mientras el mástil se hunde, un marinero está clavando en él una bandera, y un halcón que sobrevolaba queda atrapado por el ala entre el martillo y el palo, así que el barco se lleva al fondo también un trozo de cielo vivo. Después el mar se cierra y todo queda como estaba desde hace cinco mil años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo mata su propio arpón: no la ballena, sino la cuerda que él mismo había lanzado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Moby Dick cuenta cómo un capitán arrastra a treinta hombres a la muerte por una cuenta pendiente con un animal, y alrededor de esa persecución levanta un tratado sobre las ballenas, sobre el trabajo en el mar y sobre lo que la gente proyecta en lo que no entiende. Su tesis está en el contraste entre los dos que miran: uno necesita que aquello signifique algo y el otro sospecha que no significa nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la ambición. Es un libro que mezcla novela, ensayo, teatro, manual técnico y sermón sin pedir permiso, ochenta años antes de que eso se pusiera de moda, y de él sale una figura que ya no necesita ni el libro ni el mar: perseguir la propia ballena blanca se entiende hoy sin haber leído una página.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Golpearía al sol si el sol me hubiera ofendido, dice Ahab, y ahí está el libro entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y hay que decirlo claro: los capítulos técnicos frenan la novela hasta pararla, y no todos son buenos. Hay clasificaciones que no llevan a ninguna parte, y un lector de hoy puede leerse el libro saltándose una parte de ellos sin perderse la historia, aunque se pierda el efecto. Y no hay una sola mujer en ochocientas páginas: el barco es un mundo entero y ese mundo es de hombres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que pasó después explica su fama tardía. En la edición inglesa, publicada un mes antes que la americana, el epílogo se quedó fuera por un error de imprenta o de criterio: el capítulo en el que Ismael cuenta que sobrevivió agarrado al ataúd de Queequeg. Los críticos británicos leyeron un libro donde muere toda la tripulación y sin embargo alguien lo está contando, y lo destrozaron por eso. El libro tardó setenta años en levantarse, ya con su autor muerto y olvidado.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "moby-dick": MOBY_DICK,
   dracula: DRACULA,
   "dorian-gray": DORIAN_GRAY,
   frankenstein: FRANKENSTEIN,

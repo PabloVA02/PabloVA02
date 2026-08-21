@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "moby-dick": [
+    "qué barco hundió una ballena de verdad en 1820",
+    "qué jura la tripulación alrededor del doblón",
+    "por qué el libro se para a explicar anatomía",
+    "por qué el color blanco es lo que más asusta",
+    "cómo muere Ahab, que no es como se cuenta",
+  ],
+
   dracula: [
     "cómo se descubre que en el castillo no hay espejos",
     "qué le pasó al barco que llegó a puerto sin nadie",
