@@ -10,6 +10,8 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 | shorts con sus cuatro fotos | 532 | 225 |
 | imágenes puestas | 2139, verificadas hasta 1854 | |
 | portadas de los libros | 200 de 200 | 0 |
+| libros con resumen escrito a mano | 223 de 223 | 0 |
+| resúmenes antiguos generados | 0 | 0 |
 | títulos que no caben en una línea | | 0 |
 | entradas que dejan hueco abajo | 228 alargadas | 0 |
 
@@ -116,7 +118,18 @@ Lo tiene abierto en el móvil. Se actualiza EN ESE MISMO ENLACE —publicando
 sigue mirando el viejo y parece que no se ha hecho nada. Pasó: se le mandó el
 fichero suelto tres veces mientras él miraba el artefacto de hacía una semana.
 Y antes de publicar hay que leer lo que está publicado, que es como se
-comprueba desde qué versión se parte.
+comprueba desde qué versión se parte. **En un contenedor nuevo esto no es un
+consejo: es obligatorio.** Si la sesión no ha leído esa URL, la publicación se
+rechaza con «You hadn't viewed the live version of this artifact». Pasó el 21
+de agosto. Se arregla leyendo el artefacto —queda guardado en un fichero cuya
+ruta indica el propio resultado— y comprobando con unos cuantos `grep` de
+frases distintivas que lo publicado es un paquete generado y no una versión
+editada a mano; si lo es, se recompila desde el repo, que produce por fuerza un
+superconjunto, y se vuelve a publicar.
+
+El tamaño manda: el tope de publicación son 16 MB. Con 223 libros y 757 shorts,
+`--tope 1.6` se pasa; con `--tope 1.2`, `--ancho 240` y `--calidad 0.55` el
+`movil.html` sale por debajo de 15 MB.
 
 Las órdenes para rehacerlo están en el README, en «Verlo sin instalar nada».
 Con el caché de fotos lleno —`fotos-cache/`, que ya no vive en `/tmp`
@@ -160,18 +173,37 @@ vieja. El procedimiento entero está en `REDACCION.md`.
     node scripts/mete-cubiertas.mjs   mete una tanda de cubiertas de Pablo
     node scripts/hoja-cubiertas.mjs   la estantería entera en una página
 
-### EL ENCARGO EN CURSO: ESCRIBIRLOS TODOS
+### EL ENCARGO ESTÁ CUMPLIDO: LOS 223 ESTÁN ESCRITOS
 
 Pablo, el 21 de agosto: *«ve redactando todos los libros que nos faltan, con
 todos los ejemplos que te he pasado de Headway, con un estilo muy muy similar;
 es muy importante que cojas ese tipo de redacción y sobre todo que esté bien
-escrito. De unos 15 minutos a unos 30, siendo mayoritariamente cerca de los 15.
-Cuando se acabe la ventana de contexto debes saber que debes seguir ese tipo de
-redacción.»*
+escrito. De unos 15 minutos a unos 30, siendo mayoritariamente cerca de los
+15.»* Y después: *«las redacciones antiguas bórralas todas y haces las nuevas
+con las nuevas normas que te pedí, hazlo y no pares hasta escribir todos los
+libros.»*
 
-O sea: **no hay que preguntar qué toca. Toca el siguiente libro sin texto a
-mano**, en el orden de abajo, hasta que no quede ninguno. Cuáles faltan lo dice
-esta orden, que no se equivoca:
+**Terminado.** Los 223 libros del catálogo tienen resumen escrito a mano con
+las normas nuevas, no queda ni un texto de los antiguos y no hay un solo aviso
+de medida. No se cuenta de memoria; lo dicen estas tres órdenes:
+
+    node scripts/medir-paginas.mjs       223 resúmenes, ningún aviso
+    npx tsx scripts/revisa-fichas.mjs    las 223 con ficha completa
+    npx tsx scripts/estado.mjs           «Catálogo e índice coinciden»
+
+Reparto por tamaño: **197 Breve, 22 Amplio, 4 Extenso**. Por categoría:
+Literatura 40, Historia 24, Filosofía 24, Ciencia 24, Psicología 24,
+Economía 24, Arte 21, Salud 21 y Deportes 21.
+
+`meta.ts` se quedó en **0 fichas**, que es como tiene que estar: solo se
+generaba a partir de los resúmenes viejos, y ya no queda ninguno. Los ficheros
+de texto antiguo se fueron borrando según se reescribían sus libros; el último
+en caer fue `src/libros/ciencia.ts`, al instalar Einstein.
+
+### SI PABLO AÑADE LIBROS NUEVOS
+
+No hay que preguntar qué toca: toca el siguiente libro sin texto a mano.
+Cuáles faltan lo dice esta orden, que no se equivoca:
 
     npx tsx -e 'import { PAGINAS } from "./src/libros/paginas.ts";
       import { LIBROS_RESUMEN as L } from "./src/libros/puente.ts";
@@ -179,87 +211,46 @@ esta orden, que no se equivoca:
       console.log(f.length + " sin escribir");
       for (const l of f) console.log(`  ${l.id} · ${l.titulo} — ${l.autor}`);'
 
+Ojo: esa consulta solo ve los libros que ya tienen ficha o páginas. Los que
+Pablo añada solo a `catalogo.ts` —como pasó con los 19 de Deportes— no salen
+ahí; se ven con `npx tsx scripts/estado.mjs`, que compara catálogo e índice.
+
 Y antes de escribir ninguno, **se lee `REDACCION.md` entero** y se mira alguna
 de las capturas de `referencia/`, empezando por `referencia/odisea/`. La
 proporción de tamaños la manda el apartado 2 ter: siete u ocho Breve de cada
 diez, uno o dos Amplio, un Extenso cada quince o veinte.
 
-### CÓMO VA LA NOCHE DEL 21 AL 22 DE AGOSTO
+El orden lo marca lo que más se ve: primero los veinte de «Tendencias», después
+los que tienen cubierta dibujada de Pablo —esa lista sale de cruzar
+`cubiertas.ts` con `PAGINAS`, y es la misma que usa `faltan-cubiertas.mjs`—,
+después los conocidos y al final el resto por categorías.
 
-Se está cumpliendo el encargo. El recuento exacto lo da siempre
-`node scripts/medir-paginas.mjs`, que no se equivoca; no hace falta apuntarlo
-aquí ni contarlo de memoria.
-
-Tres cosas que ha enseñado escribir setenta y seis seguidos:
+### LO QUE ENSEÑÓ ESCRIBIR LOS 223
 
 1. **Cuatro párrafos por página, no tres.** Con tres, la página sale de 230
    palabras y el libro se queda corto; con cuatro aterriza sola en su sitio.
    Está apuntado también en REDACCION.md, apartado 2 ter.
-2. **`node scripts/libro-entero.mjs <carpeta> <id>` hace la secuencia entera**
-   —meter páginas, ficha, retirar el texto viejo, regenerar meta y medir— y
-   `scripts/apendice.mjs` alarga una página concreta sin tocar el resto.
+2. **Medir el borrador ANTES de instalarlo.** Un script de diez líneas que
+   suma las palabras de cada página del JSON ahorra media docena de idas y
+   venidas por libro. Se rehace en un minuto: recorre `paginas`, cuenta
+   `texto`, los `fuerte`+`texto` de las listas y la `frase` de las citas.
 3. **La conclusión SIEMPRE se pasa de 350 palabras a la primera.** Lleva seis
    bloques —síntesis, aporta, caja, dónde falla, y lo que vino después— y no
-   caben en 320. Se escribe sabiendo que habrá que recortarla, o se reparte
-   algún párrafo a una página de en medio que tenga sitio.
-
-**Siguen faltando Amplios y Extensos.** La proporción que manda REDACCION es
-de uno o dos Amplio por cada diez libros y un Extenso cada quince o veinte.
-De los que quedan sin escribir, conviene subir de tamaño: *Postguerra*, los
-*Ensayos* de Montaigne, *La guerra civil española*, *Introducción al
-psicoanálisis*, *Ética a Nicómaco*, *El contrato social*, *La doctrina del
-shock*, *El héroe de las mil caras* y *Einstein: su vida y su universo*.
-
-Hay además **4 avisos viejos** que `medir-paginas.mjs` marca y que no son de
-esta tanda: HOMO_DEUS, ARMAS_GERMENES, ANA_FRANK y CISNE_NEGRO tienen alguna
-página por debajo de 220 palabras. Se arreglan cuando no queden libros sin
-escribir, no antes.
-
-### EN QUÉ ORDEN SE ESCRIBEN
-
-No por gusto ni por orden alfabético. Por lo que más se ve, que es:
-
-1. **Los veinte de «Tendencias».** Salen grandes en la primera pantalla de
-   Explorar y con una PROMESA escrita debajo. Un texto malo bajo una promesa
-   es lo peor que puede haber. *Hechos los veinte.*
-2. **Los que tienen cubierta dibujada de Pablo.** Es la segunda peor
-   combinación: la cubierta invita a entrar y el texto devuelve al lector.
-   Estuvo al día hasta las tandas del 21 de agosto, que trajeron 50 cubiertas
-   nuevas y volvieron a abrir el hueco. **Van veinte con dibujo y texto
-   automático debajo, y son los siguientes que hay que escribir:**
-
-       El pequeño libro para invertir…      John C. Bogle      Economía
-       Los cañones de agosto                Tuchman            Historia
-       El cerebro del niño                  Siegel y Bryson    Psicología
-       La cuchara menguante                 Sam Kean           Ciencia
-       Dinero: domina el juego              Tony Robbins       Economía
-       La doctrina del shock                Naomi Klein        Economía
-       Einstein: su vida y su universo      Isaacson           Ciencia
-       Invicto                              Marcos Vázquez     Salud
-       Maneras de amar                      Levine y Heller    Psicología
-       El milagro metabólico                Jaramillo          Salud
-       El millonario de al lado             Stanley y Danko    Economía
-       La música de los números primos      Du Sautoy          Ciencia
-       Un paseo aleatorio por Wall Street   Malkiel            Economía
-       Postguerra                           Tony Judt          Historia
-       El pulgar del panda                  Gould              Ciencia
-       Superpronosticadores                 Tetlock y Gardner  Economía
-       Los últimos días de los dinosaurios  Riley Black        Ciencia
-       El universo en una cáscara de nuez   Hawking            Ciencia
-       El universo en tu mano               Galfard            Ciencia
-       Vivir con plenitud las crisis        Kabat-Zinn         Salud
-
-   La lista no se cuenta a mano: sale de cruzar `cubiertas.ts` con el registro
-   `PAGINAS` de `paginas.ts`. Notas para escribirlos: *Postguerra* y *Einstein*
-   piden Amplio; los seis de Economía se benefician del apartado 4 bis —cada
-   argumento con una persona con nombre— que salió de la captura de *La gran
-   apuesta*; y *Superpronosticadores* pide el marcador del apartado 4 bis,
-   porque es un libro sobre acertar predicciones y ya se puede comprobar.
-3. **Los conocidos** del resto del catálogo.
-4. **El resto**, por categorías.
-
-`faltan-cubiertas.mjs` usa exactamente ese orden para las cubiertas, así que
-las dos listas van a la par.
+   caben en 320. Se escribe presupuestando 330 y sabiendo que habrá que
+   recortar un bloque concreto, no adelgazando frases al azar.
+4. **El suelo del Breve son 2.000 palabras y se roza por abajo.** Ocho páginas
+   de 250 dan 2.000 justas. Cuando el total queda en 1.990, `apendice.mjs`
+   añade dos frases a una página con sitio y se acabó.
+5. **Los «Aprenderás» de doce palabras los rechaza `ficha-libro.mjs`.** El tope
+   son once y se pasa constantemente por una preposición. Se comprueba antes
+   de instalar o se corrige y se reinstala la ficha, que es barato.
+6. **Un libro nuevo que Pablo añada a `catalogo.ts` sigue en `pendiente`.**
+   Después de instalarlo hay que cambiarle el estado a `escrito` o `estado.mjs`
+   avisa de que «el catálogo miente». Se hace con una sustitución sobre la
+   entrada de ese id en `catalogo.ts`.
+7. **Se hace `git push` después de cada libro, sin excepción.** El contenedor
+   se recicla sin avisar y un libro escrito y no empujado se pierde entero.
+   Ya pasó una vez con *Repensar la pobreza*.
 
 ## Lo que está cerrado y no se toca
 
