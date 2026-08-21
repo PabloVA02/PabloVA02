@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "modos-ver": [
+    "por qué no existe una manera inocente de mirar",
+    "qué le hizo la fotografía al significado de los cuadros",
+    "en qué se diferencia estar desnuda de ser un desnudo",
+    "qué relación hay entre el óleo europeo y la propiedad",
+    "por qué la publicidad necesita que te falte algo",
+  ],
+
+  "aliento-aire": [
+    "por qué eligió operar cerebros y no otra cosa",
+    "cómo es una residencia de más de cien horas semanales",
+    "qué cambia cuando el médico pasa a ser el paciente",
+    "por qué su oncóloga se negó a darle cifras",
+    "qué decidió hacer con el tiempo que le quedaba",
+  ],
+
   "ser-mortal": [
     "qué le pasa realmente a un cuerpo que envejece",
     "quién inventó la alternativa a la residencia y por qué se degradó",

@@ -39,7 +39,6 @@ const CARGADORES: Record<string, Cargador> = {
   /* Arte */
   "roba-artista": () => import("./arte").then((m) => m.ROBA_ARTISTA),
   "guerra-arte": () => import("./arte").then((m) => m.GUERRA_ARTE),
-  "modos-ver": () => import("./arte").then((m) => m.MODOS_VER),
   "van-gogh-cartas": () => import("./arte").then((m) => m.CARTAS_THEO),
   leonardo: () => import("./arte").then((m) => m.LEONARDO),
 
@@ -55,7 +54,6 @@ const CARGADORES: Record<string, Cargador> = {
   /* Salud */
   "nacidos-correr": () => import("./salud").then((m) => m.NACIDOS_CORRER),
   "dilema-omnivoro": () => import("./salud").then((m) => m.DILEMA_OMNIVORO),
-  "aliento-aire": () => import("./salud").then((m) => m.ALIENTO_AIRE),
 
   /* Literatura — clásicos */
 

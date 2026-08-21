@@ -25208,7 +25208,525 @@ const SER_MORTAL: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Cuando el aliento se vuelve aire, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO (memorias): títulos cortos de imagen, afirmación en
+   la primera frase. TERCERA persona en la prosa y ninguna lección de
+   superación: es un libro escrito por un hombre que se estaba muriendo.
+
+   Las cajas del rayo van en segunda persona, que es lo que manda el 3 bis
+   para narrativa, pero sin convertir esto en un manual de resiliencia.
+   -------------------------------------------------------------------------- */
+
+const ALIENTO_AIRE: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un soneto isabelino" },
+      {
+        b: "texto",
+        texto:
+          "El título viene de un poema del siglo XVI, de Fulke Greville, que Paul Kalanithi puso como epígrafe: al que busca qué es la vida en la muerte, le dice que encontrará aire lo que antes fue aliento. Kalanithi había estudiado literatura inglesa antes que medicina, y el libro está construido con esa doble formación por delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los datos de su biografía son casi inverosímiles. Licenciado en literatura y en biología por Stanford, máster en literatura, otro máster en historia y filosofía de la ciencia por Cambridge, y después la carrera de medicina en Yale. Eligió la especialidad más dura de todas, neurocirugía, y estaba en el séptimo y último año de residencia, con treinta y seis años, cuando le diagnosticaron un cáncer de pulmón en fase cuatro. Nunca había fumado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Escribió este libro durante los veintidós meses que vivió después. Murió el 9 de marzo de 2015, con treinta y siete años, sin haberlo terminado. Su mujer, Lucy Kalanithi, que también es médica, escribió el epílogo y lo publicó en 2016.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que contiene: por qué eligió operar cerebros, cómo es una formación de siete años que lo consume todo, qué ocurrió el día que se puso a mirar su propio escáner, en qué cambia todo cuando el médico pasa a ser el paciente, por qué su oncóloga se negó a darle cifras y qué decidió hacer con el tiempo que le quedaba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un hombre que había pasado años dando pronósticos se pasó los últimos veintidós meses del otro lado de esa conversación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Por qué eligió el cerebro" },
+      {
+        b: "texto",
+        texto:
+          "La primera mitad del libro explica una decisión que a casi nadie le parece razonable: elegir la especialidad con la residencia más larga, las guardias más duras y los peores resultados posibles. Kalanithi la justifica con un argumento que viene de sus años de literatura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sostiene que el cerebro es el único lugar donde la biología y la identidad son la misma cosa. Un cirujano de rodilla arregla una rodilla; un neurocirujano toca el sitio donde vive lo que una persona es. Y por eso la pregunta que se hace no es solo si la operación es posible: es si la vida que queda después seguirá siendo la vida de alguien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus ejemplos son de quirófano y son incómodos. Un tumor situado en una zona del habla se puede extirpar entero, con más margen y menos riesgo de recidiva, a cambio de que el paciente no vuelva a construir una frase. O se puede dejar un borde y aceptar que vuelva. Esa decisión no es técnica y no la puede tomar el cirujano solo: depende de qué esté dispuesto a perder quien está en la mesa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la frase que define su manera de entender el oficio. Un buen neurocirujano, escribe, no busca salvar todas las vidas posibles, porque eso no está en su mano; busca averiguar qué es lo que hace que esa vida concreta merezca la pena para su dueño, y proteger eso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de decidir cuánto se puede quitar, hay que saber qué es lo que esa persona no está dispuesta a perder.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cien horas a la semana" },
+      {
+        b: "texto",
+        texto:
+          "La descripción de la residencia es la parte más informativa del libro y la que menos se comenta. Kalanithi cuenta jornadas que superaban las cien horas semanales, guardias de treinta y seis horas, semanas enteras durmiendo en el hospital y una relación con su mujer reducida a mensajes y a cruzarse en el pasillo de casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cuenta también el proceso de endurecimiento que exige aquel trabajo. Empieza en la sala de disección, donde un estudiante tiene que trocear durante meses el cuerpo de una persona que donó su cadáver, y sigue en las urgencias, donde uno aprende a manejar la muerte de un desconocido con eficacia administrativa. Ese blindaje es necesario para operar y también es el que va gastando la parte del oficio que importa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un momento en que se da cuenta de que ha cruzado la línea. Descubre que ha empezado a pensar en sus pacientes como problemas técnicos —ese aneurisma, aquel glioma— y decide corregirlo a propósito: sentarse, preguntar, tardar más en las conversaciones difíciles y no dar nunca un pronóstico sin haber averiguado antes qué esperaba oír la persona que tiene delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro no esconde el precio de ese sistema. Un compañero suyo de residencia, cirujano brillante, se suicidó tras la muerte de un paciente. Kalanithi lo cuenta en dos páginas, sin adornarlo, y señala lo que aquella profesión no tiene: ningún sitio donde alguien pueda decir que no puede más sin que eso arruine su carrera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El blindaje que hace falta para trabajar con la muerte es el mismo que va borrando la razón por la que uno eligió ese trabajo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El escáner que miró un lunes" },
+      {
+        b: "texto",
+        texto:
+          "El diagnóstico llega en la mitad exacta del libro y está contado por alguien que sabe leer una imagen. Kalanithi llevaba meses con dolor de espalda y una pérdida de peso que atribuía al agotamiento de la residencia. Un día pidió una radiografía y después un escáner, y se puso a mirarlo él mismo en la pantalla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vio no admitía interpretación: los pulmones llenos de nódulos, las vértebras deformadas, un lóbulo hepático borrado. Escribe que hizo lo mismo que había visto hacer a decenas de pacientes: buscar durante unos segundos una explicación alternativa que no existía. Después llamó a su mujer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle que hace insoportable esa escena es que él conocía la respuesta a todas las preguntas que iban a venir. Sabía qué significaba cada nódulo, cuáles eran las cifras de supervivencia de aquel estadio y cómo se les habla a los pacientes cuando ya no hay nada que ofrecer, porque él había mantenido esas conversaciones cientos de veces desde la otra silla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y describe con precisión el cambio de posición. El día antes era un médico que decidía; el día después era un cuerpo que esperaba resultados, que se pone una bata sin espalda y que necesita que otro le explique qué van a hacerle. Lo llama pasar de ser el sujeto de la frase a ser el complemento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todo lo que sabes sobre una enfermedad deja de servirte de nada en el instante en que la enfermedad es la tuya.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una oncóloga que se negaba a dar cifras" },
+      {
+        b: "texto",
+        texto:
+          "El personaje más interesante de la segunda mitad es su oncóloga, Emma Hayward, y lo es por lo que se niega a hacer. Kalanithi le pide desde el principio los datos de supervivencia de su estadio, que como médico sabe consultar y que en su caso eran malos. Ella se niega a dárselos, una vez tras otra, durante meses.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento no es proteger su ánimo. Le dice que una curva de supervivencia describe a un grupo de miles de personas y no dice nada útil sobre un caso concreto, y que si él se agarra a una mediana va a pasar el tiempo que le quede comprobando en qué lado de esa raya está en vez de decidir qué hacer con él. Su trabajo, le dice, no es darle un número: es ayudarle a averiguar qué es lo que más le importa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kalanithi tarda en aceptarlo y acaba dándole la razón, porque es exactamente lo que él había hecho durante siete años con sus propios pacientes sin verlo desde dentro. Y observa algo que no había notado nunca: que quien pide un número casi nunca quiere el número, quiere saber si puede seguir haciendo planes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la reflexión sobre el tiempo que atraviesa el libro. Escribe que la pregunta no es cuánto le queda, sino qué haría con cada cantidad posible: con tres meses, pasarlos con su familia; con un año, escribir un libro; con diez, volver al quirófano. Y que sin saber cuál de las tres es, hay que elegir de todas formas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie que pide un pronóstico quiere el número: quiere saber si todavía puede hacer planes, que es otra pregunta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Volvió al quirófano" },
+      {
+        b: "texto",
+        texto:
+          "Lo que hizo con la respuesta es la parte que casi ningún resumen cuenta. Después de unos meses de tratamiento en los que el tumor respondió, Kalanithi decidió volver a operar y terminar su residencia. Nadie se lo pidió y varios intentaron disuadirle.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Volvió por etapas: primero una operación corta, luego jornadas completas, después guardias. Describe el proceso físico con detalle —la fatiga, el momento en que las manos vuelven a hacer lo que sabían, la necesidad de sentarse entre casos— y también la sensación de estar haciendo algo que a lo mejor no tenía sentido. Terminó el programa y se graduó en 2014, siete años después de empezarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación es la más clara del libro. No volvió por heroísmo ni por demostrar nada, sino porque operar era lo que él era, y renunciar a ello antes de tiempo habría sido adelantar la parte que más temía. Sostiene que un enfermo no tiene que reinventarse: tiene que seguir siendo quien era mientras pueda serlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Poco después de graduarse, el tumor progresó y ya no volvió a un quirófano. Entonces se puso a escribir este libro, que era la segunda respuesta de su lista de tres.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hace falta convertirse en otra persona cuando llega una mala noticia: hace falta seguir siendo la que eras mientras se pueda.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una hija en julio" },
+      {
+        b: "texto",
+        texto:
+          "La decisión más discutida del libro la tomaron los dos juntos y está contada en un párrafo. Paul y Lucy querían tener un hijo desde antes del diagnóstico. Después de él, la pregunta era otra: si tener una hija no haría la despedida mucho más dolorosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se lo planteó así, con esas palabras, y Lucy le contestó con una frase que se ha citado miles de veces: no sería estupendo si lo fuera. Es decir, que ese dolor añadido sería la prueba de que había algo que valía la pena perder. Decidieron seguir adelante, y Cady nació en julio de 2014.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Paul vivió ocho meses con ella. El libro no convierte eso en un final feliz ni pretende que compense nada, y esa contención es lo que lo salva de ser un libro de consuelo. Lo último que escribió es un párrafo dirigido a su hija, para cuando tenga edad de leerlo, en el que le pide que no omita una cosa al contar quién es: que llenó los días de un hombre que se moría de una alegría que él no conocía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El epílogo lo escribió Lucy después de su muerte, y cuenta lo que él ya no pudo contar: los últimos días, la decisión de no entrar en ventilación mecánica, la habitación llena de familia. Es la mejor parte del volumen, cosa que dice bastante de cómo quedó el libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que algo te vaya a doler más al perderlo no es una razón para no tenerlo: suele ser la prueba de que merecía la pena.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Cuando el aliento se vuelve aire cuenta dos formaciones consecutivas: la de un neurocirujano que aprende a decidir qué merece la pena salvar en el cerebro de otro, y la del mismo hombre aprendiendo a responder esa pregunta sobre sí mismo desde el otro lado de la consulta. Su tesis, si tiene una, es que un pronóstico no es una información útil y que lo útil es saber qué es lo que uno no está dispuesto a perder.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una posición que casi no existe en la literatura sobre enfermedad: la de alguien que conocía técnicamente cada paso de lo que le estaba pasando y que aun así tuvo que aprenderlo todo otra vez.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un enfermo no necesita reinventarse: necesita seguir haciendo lo que le hacía ser quien era, todo el tiempo que pueda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Está sin terminar y se nota. La segunda mitad es más fragmentaria que la primera, hay hilos abiertos que no se cierran y el conjunto carece del último pulido que su autor no llegó a darle. Que el epílogo escrito por su mujer sea la mejor parte del libro es a la vez su mayor virtud y la prueba de lo que le falta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo que el libro no menciona y que conviene tener presente: Kalanithi murió con todos los recursos disponibles. Era neurocirujano en uno de los mejores hospitales del país, con un seguro completo, con acceso inmediato a la oncología más avanzada, con colegas que eran amigos y con una mujer médica que entendía cada decisión. Es un relato de una muerte extraordinariamente bien acompañada, y esa parte de la ecuación —quién puede permitirse morir así— no aparece en ninguna página.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   Modos de ver, en ocho páginas.
+
+   Breve. El libro original tiene 160 páginas y tres de sus siete ensayos
+   son solo imágenes.
+
+   Ensayo: titular que afirma, tercera persona.
+
+   La conclusión dice lo que casi ningún resumen dice: la tesis del óleo
+   como arte de propiedad es una generalización enorme, y su mejor idea
+   —la del desnudo— Berger la reconoce tomada de Walter Benjamin.
+   -------------------------------------------------------------------------- */
+
+const MODOS_VER: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro salió de cuatro programas de televisión y empieza con un cúter",
+      },
+      {
+        b: "texto",
+        texto:
+          "En enero de 1972, la BBC emitió cuatro programas de media hora presentados por John Berger, escritor y crítico de arte inglés, con un presupuesto mínimo. El libro salió ese mismo año y está hecho con el material: siete ensayos, de los cuales tres no tienen ni una palabra y consisten solo en imágenes puestas en un orden determinado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer programa abre con un gesto que en 1972 escandalizó a media crítica. Berger coge un libro de arte, saca un cúter y recorta un detalle de un cuadro de Botticelli delante de la cámara, para enseñar cómo cambia el significado de una imagen cuando se la separa del resto. No fue una provocación gratuita: era la tesis del segundo capítulo, representada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La serie era además una respuesta directa. Tres años antes, la BBC había emitido Civilización, de Kenneth Clark, trece episodios espléndidos que contaban el arte europeo como una herencia gloriosa y compartida. Berger propuso lo contrario: mirar los mismos cuadros preguntando quién los pagó, quién aparece en ellos y para el ojo de quién están pintados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que sostiene: por qué ver viene antes que hablar, qué le hizo la reproducción a la pintura, en qué se diferencia estar desnuda de ser un desnudo, qué relación hay entre el óleo europeo y la propiedad, y por qué considera que la publicidad es la heredera directa de aquella pintura.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Recortar un detalle de un cuadro no muestra una parte del cuadro: fabrica una imagen distinta que dice otra cosa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ver viene antes que hablar, y por eso nunca se mira una sola cosa" },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con una observación elemental y con consecuencias grandes: ver es anterior a las palabras. Un niño mira y reconoce antes de saber hablar, y esa prioridad no se pierde nunca. Cuando alguien mira algo, no está aplicando un vocabulario a lo que ve; está haciendo otra operación, más antigua, que las palabras solo alcanzan a explicar en parte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la segunda afirmación, que es la que hace trabajar al resto del libro. Nunca se mira una sola cosa: siempre se mira la relación entre las cosas y uno mismo. Mirar es un acto de elección, porque uno decide dónde poner los ojos, y esa elección sitúa a quien mira dentro de lo que está mirando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Berger añade el detalle recíproco. Vemos y a la vez somos vistos, y el ojo del otro es igual de activo que el nuestro; por eso una mirada no es un registro pasivo sino un intercambio. Un cuadro es una imagen fabricada por alguien que hizo esa elección antes que nosotros y la dejó fijada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que saca del capítulo es la que da título al libro. Lo que vemos depende de lo que sabemos y de lo que creemos: quien mira una hoguera en la Edad Media viendo el infierno no ve lo mismo que quien mira una hoguera hoy. No hay una manera neutral de mirar, y la costumbre de creer que sí la hay es lo que permite que muchas imágenes funcionen sin que nadie las discuta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que ves depende de lo que sabes, y una mirada neutral no existe: existe una que no se ha examinado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La reproducción cambió lo que significan los cuadros" },
+      {
+        b: "texto",
+        texto:
+          "El segundo ensayo parte de una idea de Walter Benjamin, que Berger cita expresamente en una nota al principio del libro. Durante siglos, una pintura existía en un solo lugar: había que ir hasta ella, y su significado estaba unido a ese sitio, a la pared, a la capilla o al salón donde colgaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cámara acabó con eso. Una vez fotografiado, un cuadro puede estar en todas partes a la vez: en un libro, en una pared de cocina, en una pantalla, en la portada de un disco. Y cada uno de esos contextos le añade un significado que el pintor no puso. La misma virgen de Leonardo dice una cosa en una capilla, otra en un anuncio de seguros y otra en un cartel de museo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca el efecto que le interesa. Como la imagen ya está en todas partes, lo único que le queda de exclusivo al original es su autenticidad, es decir, su precio. Por eso las salas de los museos hablan cada vez más de lo que costó un cuadro, de cuánto se pagó en la última subasta y de qué milagro es que se conserve, y cada vez menos de lo que la pintura dice.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Berger lo formula como una inversión: la reproducción, que podía haber democratizado el acceso a las imágenes, sirvió sobre todo para convertir el original en una reliquia. Y observa algo comprobable en cualquier museo: la mayoría de los visitantes fotografía el cuadro famoso y no lo mira.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando una imagen está en todas partes, lo único exclusivo que le queda al original es cuánto cuesta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Estar desnuda no es lo mismo que ser un desnudo" },
+      {
+        b: "texto",
+        texto:
+          "El tercer ensayo es el que ha aguantado mejor y empieza con una distinción de vocabulario. Estar desnudo es simplemente no llevar ropa: es ser uno mismo, sin más. Un desnudo, en cambio, es un género de la pintura, y consiste en ser visto desnudo por otros sin que uno se reconozca en esa imagen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Berger lo formula con una frase que da la vuelta al asunto: el desnudo es una forma de vestido. La persona pintada está compuesta, colocada, iluminada y presentada para el ojo de alguien que no aparece en el cuadro, y esa presentación es tan articulada como un traje.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo canónico es la historia bíblica de Susana y los viejos, que la pintura europea repitió durante siglos. En varias versiones, el pintor le pone a Susana un espejo en la mano y el cuadro pasa a llamarse La vanidad. Con ese gesto, la culpa de que se la esté mirando se le traslada a ella: era una mujer mirándose, no un pintor pintándola para que otro la mirase.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade el caso del juicio de Paris, que se pintó incontables veces. Tres mujeres desnudas comparecen ante un hombre que decide cuál es la más hermosa y le entrega una manzana. Es, señala Berger, la estructura exacta de un concurso de belleza, con dos mil años de antelación y colgada en museos como escena mitológica.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ponerle un espejo en la mano a una mujer pintada para que la miren traslada la culpa de mirar a la persona mirada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los hombres actúan y las mujeres aparecen" },
+      {
+        b: "texto",
+        texto:
+          "La formulación más citada del libro está en ese mismo ensayo y cabe en cuatro frases. Los hombres actúan y las mujeres aparecen. Los hombres miran a las mujeres. Las mujeres se miran a sí mismas siendo miradas. Y eso determina no solo la relación entre unos y otras, sino la relación de una mujer consigo misma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El desarrollo es lo que la hace potente. Berger sostiene que una mujer educada en esa tradición se acostumbra desde niña a acompañarse de un observador interno, a vigilar continuamente cómo aparece, porque cómo aparezca va a decidir cómo la traten. De modo que se desdobla: hay una parte que actúa y otra que la supervisa. Y la que supervisa, escribe, es masculina; la supervisada, femenina.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo demuestra con la propia pintura. En centenares de desnudos europeos, la mujer no mira al hombre que aparece en la escena, mira fuera del cuadro, hacia el espectador, que se supone hombre y propietario. Su expresión está calculada para que quien mire se sienta el destinatario. En los raros casos en que no ocurre —Berger pone como ejemplo un cuadro de Rubens con su joven esposa— la diferencia salta a la vista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esta formulación es de 1972 y precede en tres años a la de mirada masculina que la teórica del cine Laura Mulvey haría célebre en 1975 para el cine. Sigue siendo la versión más clara y la más citada de las dos, y es la parte del libro que se estudia hoy en cualquier escuela de arte.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Aprender desde niña a vigilar cómo apareces produce una persona partida en dos: una que actúa y otra que la supervisa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El óleo europeo pintó sobre todo lo que se podía comprar" },
+      {
+        b: "texto",
+        texto:
+          "El cuarto ensayo es el más discutido del libro. Berger sostiene que la pintura al óleo europea, entre 1500 y 1900, no es un lenguaje neutral sino una técnica especialmente adecuada para una función: representar la textura, el brillo y la solidez de las cosas que se poseen. Terciopelo, plata, mármol, piel, alfombras, caballos, tierras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo principal es un retrato de Gainsborough de 1750 en el que un matrimonio de terratenientes ingleses posa en el campo. Berger señala que Kenneth Clark había elogiado ese cuadro por su naturalidad y por el placer del pintor ante el paisaje, sin mencionar lo evidente: que aquel no es un paisaje cualquiera, es la finca de esa pareja, y el cuadro funciona como un documento de propiedad con dos propietarios dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Extiende el argumento a otros géneros. Los bodegones muestran comida cara y objetos importados. Los cuadros de animales son de ganado premiado. Los retratos de grupo enseñan a los socios de una compañía. Incluso muchas escenas mitológicas y religiosas incluyen al donante que las pagó, arrodillado en un rincón, con su ropa buena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Berger reconoce en un párrafo que hay excepciones enormes —Rembrandt, Vermeer, Goya, Turner— y las despacha diciendo que son precisamente artistas que trabajaron contra la corriente de su propio medio. Esa concesión, hecha en tres líneas, es la parte más débil de todo el libro, porque las excepciones que menciona son media historia de la pintura europea.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Preguntar quién pagó un cuadro y qué sale en él cambia lo que el cuadro dice más que cualquier análisis de su técnica.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La publicidad hereda el óleo y le da la vuelta" },
+      {
+        b: "texto",
+        texto:
+          "El último ensayo es el que más sorprende a quien lo lee hoy, porque describe la publicidad de 1972 y podría estar escrito la semana pasada. Berger sostiene que la publicidad es la heredera directa de la pintura al óleo: usa sus mismas composiciones, sus mismos gestos, sus mismos objetos brillantes y su misma manera de presentar a las personas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y señala una diferencia que lo invierte todo. El óleo mostraba lo que su propietario ya tenía; era una confirmación. La publicidad muestra lo que uno podría llegar a ser si compra, y por tanto es una promesa. La primera afirma un presente; la segunda vende un futuro y necesita, para funcionar, que el presente resulte insuficiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la frase que resume el capítulo. El propósito de la publicidad no es que el espectador esté insatisfecho con la sociedad en la que vive, cosa que sería peligrosa, sino que lo esté con su propia vida dentro de ella. Le ofrece la imagen de sí mismo mejorado por el producto, y consigue el efecto más raro que existe: que se envidie a sí mismo tal como podría ser.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Berger añade que el glamour, entendido así, es una emoción moderna que no existía antes: hace falta una sociedad que se mueva, donde parezca posible cambiar de posición, para que la envidia funcione como motor. En una sociedad estamental nadie envidia al noble, porque nadie puede llegar a serlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La publicidad no te vende un producto: te vende la imagen de ti mismo que tendrías con él, para que te envidies desde donde estás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Modos de ver sostiene que no existe una manera inocente de mirar una imagen y que preguntar quién la pagó, para qué ojo está hecha y en qué contexto aparece cambia por completo lo que dice. De ahí salen sus cuatro tesis: que la reproducción convirtió los originales en reliquias caras, que el desnudo europeo es un género construido para un espectador masculino, que el óleo sirvió sobre todo para representar propiedad y que la publicidad es su heredera invertida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un método portátil. Las preguntas del libro se pueden aplicar a un cartel, a una portada, a una fotografía de prensa o a una pantalla de móvil, y funcionan igual de bien que con un Botticelli.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La imagen no es lo que muestra: es lo que muestra, para quién y en qué compañía aparece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es un panfleto de 1972 y tiene la contundencia y las costuras de un panfleto. Su tesis sobre la pintura al óleo como arte de la propiedad es una generalización enorme que se sostiene solo eligiendo los ejemplos, y la excepción que él mismo admite —Rembrandt, Vermeer, Goya— es tan grande que se lleva por delante media demostración. Los historiadores del arte le reprochan además que trate a los pintores como ejecutores de una ideología, sin margen propio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene también saber de dónde viene lo mejor que tiene. Berger pone al principio del libro una nota reconociendo que sus ideas centrales están tomadas de un ensayo de Walter Benjamin de 1936 sobre la reproducción de la obra de arte, y esa honestidad le honra y a la vez sitúa el libro: es una divulgación brillante de un pensamiento ajeno, con una aportación propia importante, la del capítulo sobre el desnudo. Esa parte sí es suya, precedió en tres años a la formulación de la mirada masculina en el cine, y es la razón por la que el libro se sigue leyendo cincuenta años después.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "modos-ver": MODOS_VER,
+  "aliento-aire": ALIENTO_AIRE,
   "ser-mortal": SER_MORTAL,
   "digestion-cuestion": DIGESTION_CUESTION,
   antifragil: ANTIFRAGIL,

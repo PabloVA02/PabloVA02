@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "modos-ver":
+    "Nació como cuatro programas de la BBC de 1972, hechos como respuesta a una serie que contaba el arte europeo como una herencia gloriosa. Berger propone mirar los mismos cuadros preguntando quién los pagó y para el ojo de quién están pintados.",
+
+  "aliento-aire":
+    "A los treinta y seis años, en el último año de su residencia de neurocirugía, Paul Kalanithi miró su propio escáner y vio los pulmones llenos de nódulos. Nunca había fumado. Escribió este libro en los veintidós meses que vivió después.",
+
   "ser-mortal":
     "En la facultad de medicina de Gawande hubo una hora sobre la muerte y ninguna sobre qué se le dice a alguien que no va a curarse. El libro reúne lo que sí funciona, incluido un ensayo donde menos tratamiento alargó la vida.",
 
