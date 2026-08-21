@@ -53,7 +53,6 @@ const CARGADORES: Record<string, Cargador> = {
   "mundo-demonios": () => import("./ciencia").then((m) => m.MUNDO_DEMONIOS),
 
   /* Salud */
-  "digestion-cuestion": () => import("./salud").then((m) => m.DIGESTION),
   "nacidos-correr": () => import("./salud").then((m) => m.NACIDOS_CORRER),
   "dilema-omnivoro": () => import("./salud").then((m) => m.DILEMA_OMNIVORO),
   "aliento-aire": () => import("./salud").then((m) => m.ALIENTO_AIRE),
@@ -89,7 +88,6 @@ const CARGADORES: Record<string, Cargador> = {
   "diarios-frida": () => import("./arte").then((m) => m.DIARIOS_FRIDA),
   invencible: () => import("./salud").then((m) => m.INVICTO),
   tao: () => import("./filosofia").then((m) => m.TAO_TE_CHING),
-  antifragil: () => import("./economia").then((m) => m.ANTIFRAGIL),
   "el-tunel": () => import("./literatura").then((m) => m.EL_TUNEL),
   "renglones-torcidos": () => import("./literatura").then((m) => m.RENGLONES_TORCIDOS),
   "guerra-y-paz": () => import("./literatura").then((m) => m.GUERRA_Y_PAZ),

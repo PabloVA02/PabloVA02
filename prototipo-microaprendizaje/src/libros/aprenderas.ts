@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "digestion-cuestion":
+    "Salió de una charla de diez minutos que una estudiante de medicina de veintitrés años dio en un concurso de divulgación. El vídeo circuló, una editorial llamó, y el libro estuvo más de un año como el más vendido de Alemania.",
+
+  antifragil:
+    "Lo contrario de frágil no es resistente, porque resistente es lo que está en medio. Taleb tuvo que inventar la palabra para nombrar lo que mejora con los golpes, y sostiene que casi todo lo que hacemos para proteger sistemas vivos los debilita.",
+
   factfulness:
     "En un test de doce preguntas sobre datos básicos del planeta, la gente saca dos aciertos de media; un chimpancé al azar sacaría cuatro. Rosling escribió este libro sabiendo que se moría, para explicar por qué fallamos siempre hacia el mismo lado.",
 

@@ -22,6 +22,8 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "digestion-cuestion": "Descubre los secretos del órgano más infravalorado del cuerpo humano",
+  antifragil: "Las cosas que se benefician del desorden",
   factfulness: "Diez razones por las que estamos equivocados sobre el mundo",
   respira: "La nueva ciencia de un arte olvidado",
   "inversor-inteligente": "Un libro de asesoramiento práctico",

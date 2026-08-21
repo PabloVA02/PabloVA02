@@ -24425,7 +24425,533 @@ const FACTFULNESS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Antifrágil, en ocho páginas.
+
+   Breve.
+
+   Ensayo con parte práctica: titular que afirma, tercera persona salvo en
+   las cajas del rayo.
+
+   La conclusión lleva la advertencia expresa del apartado 4 bis: que Taleb
+   acertara en 2008 no valida su método, porque quien avisa cada año de una
+   catástrofe acaba coincidiendo con una. Es su propio sesgo aplicado a él.
+   -------------------------------------------------------------------------- */
+
+const ANTIFRAGIL: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Existe una categoría entera sin nombre en ningún idioma" },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con una comprobación de diccionario. Si algo se rompe con los golpes, decimos que es frágil, y en cualquier idioma hay una palabra para eso. Si alguien pregunta cuál es lo contrario, la respuesta habitual es resistente, sólido o robusto. Y ahí, sostiene Taleb, hay un error de bulto que arrastramos por falta de vocabulario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo robusto no es lo contrario de lo frágil: es lo que está en medio. Un paquete frágil llega roto y uno robusto llega igual que salió. El verdadero contrario sería un paquete que llegara mejor de lo que salió, que se beneficiara de los golpes del camino. Esa categoría existe en la realidad y no tiene nombre en ninguna lengua, así que Taleb tuvo que inventarlo: antifrágil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ausencia de la palabra le parece la prueba del problema. Sin un nombre, no se piensa la categoría, no se busca, no se diseña y sobre todo no se distingue de la resistencia. El libro se publicó en 2012 como cuarta entrega de una serie que empezó con El cisne negro, y su autor venía de una carrera de veinte años operando con opciones financieras, es decir, apostando profesionalmente por lo improbable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que sostiene: qué distingue a las tres categorías, por qué una dosis pequeña de daño fortalece, por qué eliminar toda variabilidad produce catástrofes grandes, qué regla propone para la medicina, cómo repartir el riesgo en forma de haltera, y qué dice el tiempo sobre lo que merece la pena leer.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando algo no tiene nombre en ningún idioma, no es que no exista: es que no se está pensando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El símbolo de lo antifrágil es una hidra, no un ave fénix" },
+      {
+        b: "texto",
+        texto:
+          "Taleb propone clasificar cualquier cosa —un negocio, un cuerpo, una carrera, un país— en una de tres columnas, y usa tres figuras de la mitología griega para fijarlas. La espada de Damocles cuelga de un pelo sobre la cabeza del que se sienta debajo: cualquier alteración la hace caer. Eso es lo frágil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ave fénix arde y renace idéntica a como era. Eso es lo robusto: aguanta el desorden y sale igual, ni mejor ni peor. Es lo que casi todo el mundo persigue cuando dice que quiere ser resistente, y Taleb sostiene que apuntar ahí es apuntar bajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y luego está la hidra. Cuando Hércules le corta una cabeza, le salen dos. El daño no la debilita: la mejora. Ese es el tercer estado, y en cuanto se tiene la palabra aparece por todas partes. Los músculos crecen porque se desgarran. Los huesos se densifican donde reciben carga. El sistema inmunitario necesita encontrarse con patógenos para funcionar. Las especies mejoran porque sus individuos mueren.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle que hace útil la tríada es que las tres columnas conviven dentro de una misma cosa. Un restaurante concreto es frágil y quiebra; el conjunto de los restaurantes de una ciudad es antifrágil y mejora precisamente porque los malos cierran. Lo que es antifrágil arriba suele estar hecho de piezas frágiles abajo, y esa es la parte que a nadie le gusta si le toca ser una de las piezas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un sistema que mejora con los golpes suele estar hecho de partes que se rompen, y eso es una tragedia si tú eres una de ellas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una dosis pequeña de daño fortalece y la ausencia de daño debilita" },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo que produce la antifragilidad en los seres vivos tiene nombre desde el siglo XIX: hormesis. Consiste en que una dosis pequeña de algo dañino provoca una respuesta que deja al organismo mejor de lo que estaba. Se documentó con tóxicos y se comprueba a diario con el ejercicio, con el ayuno y con la exposición a microbios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la afirmación que da la vuelta al sentido común: para muchas cosas vivas, la comodidad continua no es neutra, es dañina. Un astronauta en ingravidez pierde masa ósea porque nada le exige nada. Un niño criado en un ambiente esterilizado desarrolla más alergias que otro criado entre perros y tierra. Un tobillo inmovilizado se atrofia en semanas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El error que Taleb persigue está en confundir un sistema vivo con una máquina. Una lavadora se desgasta con el uso y se cuida usándola menos; un cuerpo, una economía o una empresa se deterioran si no se les exige nada. Aplicar a lo segundo la lógica de lo primero es lo que produce padres que protegen a sus hijos de toda frustración y bancos centrales que impiden cualquier recesión pequeña.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una condición que el libro repite y que muchos lectores se saltan: la dosis y la recuperación. La hormesis funciona con estrés intenso, breve y seguido de descanso. Un estrés continuo y moderado —el de un trabajo que agota todos los días sin pausa— no fortalece nada; hace exactamente lo contrario.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que fortalece es el esfuerzo intenso seguido de descanso; lo que destruye es el esfuerzo mediano que no para nunca.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Sofocar todos los incendios pequeños prepara el incendio grande" },
+      {
+        b: "texto",
+        texto:
+          "El argumento más aplicable del libro es el que explica cómo se fabrican las catástrofes queriendo evitarlas. Su ejemplo canónico son los bosques. Durante décadas, la política forestal estadounidense consistió en apagar cualquier fuego en cuanto se detectaba. El resultado fue que la materia seca se fue acumulando año tras año sin que nada la consumiera, hasta que un incendio encontró combustible para arrasar superficies que antes no habría podido tocar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mismo patrón aparece en sitios muy distintos. Una economía en la que se impide cualquier quiebra acumula empresas insolventes y deuda hasta que la corrección llega toda junta. Un país sin oposición ni conflicto político visible parece estable durante décadas y después estalla de golpe. Un profesional al que nunca han corregido descubre su primer error grave cuando ya es caro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación técnica es de estadística y Taleb la desarrolló en su libro anterior. Suprimir la variabilidad pequeña no elimina el riesgo: lo traslada a la cola, o sea, lo concentra en sucesos raros y enormes. Un sistema con sobresaltos frecuentes y pequeños es mucho más seguro que uno con calma aparente y un desastre cada varias décadas, aunque el segundo tenga mejores estadísticas casi todos los años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí su desconfianza hacia los que él llama fragilizadores: gestores, planificadores y responsables que consiguen que todo vaya suave durante su mandato trasladando el problema a un momento en el que ya no estarán. La calma que ofrecen es real y el precio también, solo que lo paga otro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un sistema que no ha tenido nunca un sobresalto pequeño no es seguro: es uno que todavía no ha pagado la factura acumulada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cuanto más leve es un problema, más probable es que el remedio sobre",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo médico del libro parte de una palabra técnica poco conocida fuera del oficio: iatrogenia, el daño causado por el propio tratamiento. Taleb sostiene que se contabiliza mal porque el daño de intervenir es visible y atribuible, mientras que el daño de no intervenir se reparte y no tiene culpable, lo cual empuja a todo el mundo a hacer algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus ejemplos históricos son contundentes. La sangría se practicó durante casi dos mil años como tratamiento de casi todo, con la autoridad entera de la medicina detrás; a George Washington le extrajeron varios litros de sangre en el último día de su vida, y probablemente eso lo mató. Ninguno de aquellos médicos era un charlatán: eran los mejores de su época haciendo lo que se consideraba correcto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su regla es asimétrica y se puede aplicar sin ser médico. En una situación grave, el beneficio potencial de intervenir es enorme y el daño posible es pequeño en comparación, así que hay que intervenir sin dudar: una apendicitis se opera. En una situación leve o normal, la relación se invierte, y el remedio tiene más probabilidades de causar problemas que la propia molestia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca una recomendación general que va más allá de la salud: cuando el problema es pequeño, la opción de no hacer nada suele ser la mejor y casi nunca se considera, porque no hacer nada no se puede presentar como una decisión ni cobrar por ella.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuanto menos grave es un problema, más probable es que el remedio haga más daño que el problema.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los extremos protegen mejor que el término medio" },
+      {
+        b: "texto",
+        texto:
+          "La propuesta práctica más conocida del libro se llama estrategia de la haltera, por la barra con pesas en los dos extremos y nada en el centro. Consiste en combinar una parte muy conservadora con una parte muy arriesgada, y evitar el medio, que es donde casi todo el mundo se coloca creyendo que es lo prudente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En dinero, la versión de Taleb es tener la mayor parte del patrimonio en algo extremadamente seguro y una porción pequeña en apuestas de alto riesgo con la pérdida limitada a lo invertido. Lo que rechaza es el término medio: un producto de riesgo moderado que uno cree entender y en el que puede perder mucho más de lo que calculó, porque el riesgo medio suele estar mal medido y no está acotado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La misma forma vale para una carrera. Un trabajo estable y aburrido que cubra lo necesario, más un proyecto propio de altísimo riesgo por las tardes, es una haltera. Un puesto de riesgo moderado en una empresa con futuro incierto es el centro de la barra: se puede perder el sueldo y encima no hay ninguna ganancia extraordinaria posible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás está el concepto que Taleb llama opcionalidad: acumular situaciones donde lo máximo que se puede perder es pequeño y conocido, y lo máximo que se puede ganar es grande y desconocido. Con suficientes opciones así, no hace falta acertar en los pronósticos, que es justo lo que él sostiene que nadie sabe hacer.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Con muchas apuestas en las que pierdes poco y puedes ganar mucho, no necesitas acertar ningún pronóstico.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que lleva cincuenta años en pie probablemente dure otros cincuenta",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro incluye una regla para decidir a qué hacer caso, y se llama efecto Lindy. Dice que en las cosas no perecederas —una idea, una tecnología, un libro, una costumbre— la esperanza de vida que queda es proporcional a la edad que ya se tiene. Una persona de ochenta años tiene por delante menos que una de treinta; un libro que lleva ochenta años imprimiéndose tiene por delante más que uno publicado hace tres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón es que el tiempo funciona como un filtro que nadie diseñó. Todo lo que ha sobrevivido varias generaciones ha pasado por miles de oportunidades de ser abandonado y no lo fue, y esa acumulación de pruebas superadas dice bastante más que cualquier reseña. Aplicado a la lectura, la consecuencia es incómoda para las novedades: leer lo que ha aguantado un siglo tiene mejores probabilidades que leer lo que se publicó el mes pasado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La otra herramienta de la misma familia es lo que llama la vía negativa. Sabemos con mucha más seguridad qué es falso que qué es verdadero, y por eso quitar es más fiable que añadir. La salud mejora más dejando de fumar, de beber y de comer azúcar que tomando suplementos. Un texto mejora más tachando que escribiendo. Una empresa mejora más eliminando lo que no funciona que lanzando algo nuevo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y las dos reglas se apoyan en lo mismo: en desconfiar de la capacidad humana de predecir, y en confiar en cambio en lo que ya ha sido puesto a prueba por la realidad muchas veces.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se sabe con mucha más seguridad qué hay que quitar que qué hay que añadir, y por eso quitar acierta más veces.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Antifrágil sostiene que existe una categoría de cosas que mejoran con el desorden, distinta de las que aguantan, y que casi todo lo que se hace para proteger sistemas vivos los fragiliza. De ahí salen sus recomendaciones concretas: estrés intenso y breve en vez de comodidad continua, intervenir mucho en lo grave y nada en lo leve, repartir el riesgo en los extremos y no en el medio, y fiarse de lo que lleva mucho tiempo funcionando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la palabra. Tener el término disponible cambia lo que se ve: en cuanto se distingue entre aguantar un golpe y mejorar con él, muchas decisiones que parecían prudentes se revelan como apuestas a que no pase nada raro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo contrario de frágil no es resistente: es lo que sale del golpe mejor de lo que entró, y eso hay que diseñarlo a propósito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El tono. Taleb insulta por su nombre a economistas, a periodistas y a académicos a lo largo de todo el libro, y dedica capítulos enteros a ajustes de cuentas que no aportan nada al argumento; mucha gente lo abandona por ahí y no le falta razón. Y el concepto, que es bueno, se estira demasiado: hacia el final se llama antifrágil a cosas que solo son robustas o simplemente afortunadas, y una idea que lo explica todo deja de explicar nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una advertencia que conviene hacer con su propio material. Taleb avisó de la fragilidad del sistema financiero antes de 2008 y acertó, y ese acierto se usa continuamente como aval de todo lo demás. No lo es. Quien anuncia todos los años que viene una catástrofe acabará coincidiendo con una, y entonces se recordarán sus avisos y se olvidarán los años en que no pasó nada: es exactamente el sesgo que su propio libro enseña a detectar, aplicado a él.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   La digestión es la cuestión, en ocho páginas.
+
+   Breve.
+
+   Libro de divulgación PRÁCTICA: segunda persona en la prosa, titular que
+   afirma.
+
+   La conclusión separa lo firme de lo prometedor, que en este libro es
+   imprescindible: el capítulo del intestino y el ánimo se ha citado mil
+   veces y en 2014 se apoyaba casi solo en ratones.
+   -------------------------------------------------------------------------- */
+
+const DIGESTION_CUESTION: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro salió de una charla de concurso de una estudiante de medicina",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2012, una estudiante alemana de medicina de veintitrés años se presentó a un concurso de divulgación científica en Friburgo, de esos en los que hay que explicar algo en diez minutos delante de un público que vota. Su tema era el intestino. El vídeo de aquella charla circuló por internet, una editorial la llamó y dos años después el libro que escribió llevaba más de un año en el primer puesto de ventas de Alemania.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Giulia Enders no eligió el asunto por casualidad. Cuenta en el prólogo que a los diecisiete años le apareció una lesión en la pierna que se le fue extendiendo por el cuerpo, que ningún médico supo decirle qué era y que empezó a leer por su cuenta. Encontró la relación entre la piel y el intestino, cambió la dieta y tomó un preparado de lactobacilos. Aquello se le curó, y es un caso único que ella misma presenta como lo que es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro lo ilustró su hermana con dibujos sencillos, y tiene un tono deliberadamente desenfadado que explica buena parte de su éxito y también su principal problema: los datos firmes y las hipótesis prometedoras se cuentan con el mismo entusiasmo, y separarlos queda de tu cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que enseña: por qué la postura importa más de lo que parece, cómo negocian entre sí dos esfínteres, cuántas neuronas tiene tu intestino y en qué dirección va la conversación con el cerebro, cuánto pesan las bacterias que llevas dentro, qué hacen los antibióticos y cuál es el único tratamiento de este campo que funciona de forma espectacular.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El órgano del que menos se habla en una cena tiene más neuronas que la médula espinal y pesa más en bacterias que tu cerebro entero.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La postura en el váter cambia la mecánica del asunto" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo que más se comenta del libro explica algo puramente anatómico. Alrededor de la parte final del intestino hay un músculo, el puborrectal, que forma un lazo y tira de él como una cuerda, dejándolo acodado. Ese acodamiento es lo que te permite estar de pie sin sorpresas: el conducto no está recto, está doblado, y la curva funciona como un tapón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sentado en una taza normal, ese ángulo se abre solo en parte, así que sigue habiendo un codo y hace falta empujar contra él. En cuclillas, con las rodillas por encima de las caderas, el músculo se relaja del todo y el conducto queda recto. Hay mediciones sobre esto: sentado se tarda alrededor del doble de tiempo y con bastante más esfuerzo que en cuclillas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Enders relaciona esa diferencia con dos afecciones que son mucho más frecuentes en los países donde se usa taza que donde se usa letrina: las hemorroides y los divertículos, esas bolsitas que se forman en la pared del intestino grueso. La relación es una hipótesis razonable con datos epidemiológicos detrás, no una demostración, y ella lo presenta con ese grado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La solución que propone no exige obra ninguna: un taburete bajo delante de la taza para subir las rodillas, o apoyar los pies en algo y echar el tronco hacia delante. Cuesta cero euros y es la recomendación más comprobable de todo el libro, porque el efecto se nota el mismo día.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El problema no era de fuerza sino de geometría: con las rodillas altas, el conducto deja de estar doblado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Tienes dos esfínteres y se pasan el día negociando" },
+      {
+        b: "texto",
+        texto:
+          "Lo que Enders explica mejor es un sistema del que nadie te ha hablado nunca. No tienes un esfínter, tienes dos, y funcionan de manera distinta. El interno es involuntario y no lo controlas; el externo es el que aprendiste a manejar de niño y responde a tu voluntad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El reparto de tareas es exquisito. Cuando llega material al final del intestino, el esfínter interno se abre un poco y deja pasar una muestra minúscula a una zona llena de células sensoriales que analizan qué es: gas, líquido o sólido. Esa información sube al cerebro, que consulta la situación —dónde estás, con quién, hay un baño cerca— y devuelve una orden al esfínter externo, que decide si se abre o si aguanta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la explicación de una cosa cotidiana que nadie cuenta: si decides aguantar, el material vuelve hacia atrás y las ganas desaparecen durante un rato, hasta que el sistema lo vuelve a intentar. Y de ahí también el consejo práctico: ignorar el aviso de forma sistemática, por vergüenza o por prisa, es la manera más eficaz de acabar con estreñimiento crónico, porque el sistema aprende a avisar menos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Enders añade el dato que remata el capítulo: distinguir con precisión entre gas y sólido es una capacidad que requiere unas células especializadas exquisitamente finas, y es la razón de que un mecanismo tan discreto no falle casi nunca en toda una vida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Aguantarse siempre por vergüenza no es una molestia menor: el sistema aprende a avisar menos y el aviso deja de llegar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El intestino habla mucho más de lo que escucha" },
+      {
+        b: "texto",
+        texto:
+          "El intestino tiene su propio sistema nervioso, con alrededor de cien millones de neuronas repartidas en dos redes por sus paredes. Es más de lo que hay en toda la médula espinal, y por eso se le ha puesto el apodo de segundo cerebro. Funciona con autonomía: si se cortara la conexión con el cerebro, seguiría moviendo el contenido, coordinando el ritmo y reaccionando a lo que llega.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conexión principal con la cabeza es el nervio vago, y ahí está el dato que da la vuelta a la intuición: la mayor parte de las fibras de ese nervio llevan información del intestino al cerebro, y no al revés. Cerca de nueve de cada diez señales suben. O sea que el intestino informa continuamente y recibe órdenes de vez en cuando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso encaja con experiencias que todo el mundo tiene y nadie explica: el nudo en el estómago antes de un examen, el retortijón de una mala noticia, la sensación física que acompaña a una decisión difícil. No son metáforas: son señales que suben. Y funcionan también hacia abajo, porque el estrés sostenido altera la motilidad y la permeabilidad de la pared intestinal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí conviene un matiz que el libro menciona de pasada y que muchos lectores se saltan. Es cierto que la mayor parte de la serotonina del cuerpo está en el intestino, alrededor del noventa y cinco por ciento, y también es cierto que esa serotonina no viaja al cerebro: no cruza la barrera. Hace su trabajo allí abajo, regulando el movimiento. La relación entre intestino y ánimo existe y no funciona de esa manera tan directa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nueve de cada diez señales del nervio que une los dos van hacia arriba: tu intestino informa mucho más de lo que obedece.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Llevas encima kilo y medio de bacterias, y no son tuyas" },
+      {
+        b: "texto",
+        texto:
+          "La tercera parte del libro es la que le dio fama, y empieza por el tamaño del asunto. En tu intestino grueso viven billones de bacterias de cientos de especies distintas, con un peso total de alrededor de kilo y medio. En genes, esa población aporta muchísimos más que los tuyos propios, y hace cosas que tu cuerpo no sabe hacer: descomponer fibras, fabricar vitaminas como la K y varias del grupo B, y ocupar el sitio para que no lo ocupe otra cosa peor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cómo se instala esa población es lo más interesante. Un bebé nace prácticamente estéril y recibe su primera colonización al pasar por el canal del parto, con la flora de su madre. Los nacidos por cesárea reciben en cambio bacterias de la piel y del ambiente del quirófano, y su flora tarda meses en parecerse a la de los otros. La leche materna refuerza el proceso con unos azúcares que el bebé no puede digerir y que están ahí exclusivamente para alimentar a las bacterias buenas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro presenta además una clasificación en tres tipos de flora, según qué género bacteriano domine, como si fueran grupos sanguíneos. Conviene saber que ese hallazgo, publicado poco antes, no se ha sostenido: hoy se considera que la variación entre personas es continua y no se agrupa en tres categorías limpias. Es un buen ejemplo de cómo envejece un libro de divulgación escrito al filo de la investigación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí se mantiene es la idea general: la diversidad de esa población se relaciona con la salud, y se alimenta con fibra vegetal variada, que es lo que las bacterias comen. No con suplementos caros, sino con verdura, legumbre y grano entero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que alimenta a tus bacterias no son los productos que las venden: es la fibra vegetal que tú no puedes digerir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los antibióticos que engordan al ganado hacen algo en ti también" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre antibióticos es el más incómodo y también el mejor argumentado. Un tratamiento antibiótico no distingue: arrasa la población bacteriana del intestino junto con la infección que se pretendía tratar. Después la flora se recompone, pero no del todo ni deprisa: puede tardar meses, y algunas especies no vuelven nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El dato que Enders usa para argumentar sus consecuencias viene de la ganadería. Desde los años cincuenta se sabe que dar antibióticos en dosis bajas a los animales de granja los hace engordar más con la misma comida, y por eso se hizo de forma rutinaria durante décadas en medio mundo. Nadie sabía exactamente por qué funcionaba; hoy se piensa que la alteración de la flora cambia cuánta energía se extrae del mismo alimento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí la pregunta que el libro plantea y no cierra: si en un cerdo funciona así, qué le hace un tratamiento antibiótico al metabolismo de una persona, y sobre todo al de un niño que ha recibido varios antes de los cinco años. Los estudios que relacionan antibióticos tempranos con obesidad posterior existen y son observacionales, así que muestran asociación y no causa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La recomendación práctica es la de siempre y hay que decirla entera: los antibióticos salvan vidas y cuando un médico los indica hay que tomarlos, y tomarlos completos. Lo que no procede es pedirlos para un catarro, que es un virus, ni guardar los que sobraron para la próxima vez.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El mismo efecto por el que un antibiótico engorda a un cerdo con la misma comida ocurre dentro de ti, y todavía no se sabe cuánto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El tratamiento más eficaz de este campo suena a broma y no lo es" },
+      {
+        b: "texto",
+        texto:
+          "Si hay que señalar una sola prueba de que la flora intestinal importa de verdad, no está en el ánimo ni en el peso: está en una infección concreta. El Clostridium difficile es una bacteria que aprovecha justamente el hueco que deja un tratamiento antibiótico para colonizar el intestino grueso, y provoca diarreas graves que pueden ser mortales en personas mayores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema es que responde mal a los antibióticos y reaparece una y otra vez. La alternativa que se probó consiste en trasplantar la flora completa de una persona sana al intestino del enfermo, mediante una sonda o en cápsulas. El nombre técnico es trasplante de microbiota fecal, y lo que se trasplanta es exactamente lo que su nombre indica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los resultados fueron tan buenos que un ensayo tuvo que interrumpirse antes de tiempo porque no era ético seguir dando el tratamiento convencional al grupo de control. Las tasas de curación superan el ochenta por ciento y en algunas series pasan del noventa, frente a un antibiótico que fracasa en la mitad de los casos recurrentes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el argumento más sólido del libro entero y conviene tenerlo separado del resto: demuestra que una comunidad bacteriana sana hace algo real y medible que ningún fármaco consigue. Lo que no demuestra es nada sobre el ánimo, el peso o la energía, que es donde el resto del campo sigue investigando.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay un ensayo que se detuvo antes de tiempo porque el tratamiento nuevo funcionaba demasiado bien para seguir negándoselo a la mitad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La digestión es la cuestión explica cómo funciona el aparato digestivo con detalle y sin solemnidad, y sostiene tres cosas: que la postura y los hábitos cambian la mecánica más de lo que la gente cree, que el intestino tiene su propio sistema nervioso y le manda muchísima información al cerebro, y que la población bacteriana que vive dentro hace un trabajo que ningún órgano hace.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es que se lee. Un manual de fisiología digestiva no lo abre nadie, y este lo han leído millones de personas que ahora saben lo que es un esfínter interno y para qué sirve la fibra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El aparato que más decide tu bienestar diario es el único del que nadie te ha explicado nunca cómo funciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El tono ligero hace que lo firme y lo especulativo suenen igual, y en un libro de salud eso pasa factura. El capítulo que relaciona flora intestinal con ánimo y con depresión es el más citado del libro y el más flojo: en 2014 se apoyaba casi por completo en experimentos con ratones y en estudios pequeños, y una década después sigue siendo un campo prometedor sin ningún tratamiento aprobado. La clasificación en tres tipos de flora que presenta como establecida tampoco se ha sostenido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene por tanto leerlo separando capas. Es fiable en anatomía y en fisiología, que es la mayor parte del libro y está bien explicada. Es sólido en lo del trasplante de microbiota para una infección concreta, que es un tratamiento clínico consolidado. Y es exploratorio en todo lo que relaciona el intestino con el estado de ánimo, el peso o la personalidad, que es justamente la parte por la que casi todo el mundo lo recomienda.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "digestion-cuestion": DIGESTION_CUESTION,
+  antifragil: ANTIFRAGIL,
   factfulness: FACTFULNESS,
   respira: RESPIRA,
   "inversor-inteligente": INVERSOR_INTELIGENTE,

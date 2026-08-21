@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "digestion-cuestion": [
+    "por qué la postura cambia la mecánica de todo el asunto",
+    "cómo negocian entre sí tus dos esfínteres",
+    "en qué dirección va la conversación con el cerebro",
+    "qué hacen los antibióticos con tu flora intestinal",
+    "qué tratamiento de este campo funciona de verdad",
+  ],
+
+  antifragil: [
+    "qué distingue lo frágil, lo robusto y lo antifrágil",
+    "por qué una dosis pequeña de daño fortalece",
+    "cómo se fabrica una catástrofe queriendo evitarla",
+    "qué regla propone para decidir cuándo intervenir",
+    "en qué consiste repartir el riesgo como una haltera",
+  ],
+
   factfulness: [
     "por qué la división entre países ricos y pobres ya no sirve",
     "en qué consisten los cuatro niveles de ingreso",
