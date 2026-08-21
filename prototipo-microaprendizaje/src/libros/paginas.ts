@@ -52777,7 +52777,420 @@ const EXISTENCIALISMO_HUMANISMO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Ensayos, en doce páginas.
+
+   AMPLIO. Ciento siete capítulos escritos a lo largo de veinte años, con
+   argumentos que no dependen unos de otros y que a veces se contradicen a
+   propósito. En ocho páginas saldría «qué sé yo» y la torre, que es lo que
+   se sabe de él sin haberlo leído.
+
+   Ensayo → afirmación entera y tercera persona.
+
+   EL RIESGO DE ESTE LIBRO es resumirlo como una colección de frases
+   bonitas. Por eso cada página coge UN capítulo con su número y cuenta qué
+   sostiene, con la escena concreta que lo sostiene: los tres brasileños de
+   Ruán en 1562, la ternera que se convierte en toro, la gata, las coles.
+
+   Y la regla 5 aquí no es una queja de lector moderno: el propio libro está
+   escrito por un señor con rentas que podía retirarse a una torre mientras
+   su país se mataba, y eso hay que decirlo donde afecta al argumento.
+   -------------------------------------------------------------------------- */
+
+const ENSAYOS_MONTAIGNE: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El primer libro que se propone contar a su autor tal como es lo escribió un magistrado retirado en una torre",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1571, al cumplir treinta y ocho años, Michel de Montaigne dejó su cargo en el parlamento de Burdeos y se encerró en la torre de su castillo, en el Périgord. Hizo pintar en las vigas del techo de su biblioteca cincuenta y siete sentencias en griego y en latín, se rodeó de alrededor de mil libros, y se puso a escribir sin saber muy bien qué. Estuvo veinte años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El aviso al lector con el que abre el libro es una de las declaraciones más raras de la literatura. Dice que es un libro de buena fe, que no se ha propuesto ningún fin útil ni glorioso, que quiere que se le vea en su manera simple, natural y ordinaria, sin estudio ni artificio, porque es a sí mismo a quien pinta. Y termina: así pues, lector, yo mismo soy la materia de mi libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso no se había hecho. Existían confesiones religiosas, vidas de santos y memorias de hombres de Estado justificando su gestión; no existía nadie que se propusiera describir a una persona corriente por dentro, con sus manías, su digestión, sus miedos y sus contradicciones, sin sacar de ahí ninguna moraleja. De ese gesto salen la autobiografía moderna y el género que él bautizó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas doce páginas recorren diez asuntos: qué significaba la palabra que inventó, por qué escribir sobre sí mismo era una tesis y no una vanidad, el método de añadir sin borrar nunca, la amistad que ordena su vida, los tres brasileños que conoció en Ruán, cómo hay que educar, la fuerza de la costumbre, en qué consiste su escepticismo, cómo cambió de opinión sobre la muerte, y qué dice el último ensayo, que es el mejor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de este libro nadie se había propuesto describir a una persona corriente por dentro sin sacar de ello ninguna lección.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Inventó una palabra para lo que estaba haciendo, y la palabra explica el método",
+      },
+      {
+        b: "texto",
+        texto:
+          "Montaigne llamó a sus capítulos «essais», y en el francés de su tiempo la palabra no significaba lo que significa hoy. Un ensayo era un intento, una prueba, un tanteo: lo que se hace cuando se pesa algo para ver cuánto pesa o se prueba un caballo para ver cómo responde. Al titular así su libro estaba avisando de que aquello no eran conclusiones, sino pruebas de su propio juicio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso decide la forma de todo el libro. Un capítulo suyo empieza por un tema y se va donde le lleva: el que se titula sobre los cojos habla en su mayor parte de los procesos de brujería, y el que se titula sobre unos carruajes dedica sus mejores páginas a la conquista de América. No es desorden por descuido; es que el pensamiento se sigue mientras piensa, no cuando ya ha terminado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale también su desconfianza hacia las afirmaciones redondas. Escribe que no enseña, sino que cuenta; que no pinta el ser, sino el paso; y que si su alma pudiera afirmarse, no ensayaría, se decidiría. La palabra que él inventó lleva dentro la renuncia a concluir, y por eso el género que fundó admite todavía hoy lo que no admite ningún otro: cambiar de opinión a mitad de camino y dejarlo escrito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir el precio de esa forma, porque un lector actual lo nota en la primera página. Los Ensayos son largos, se van por las ramas, repiten y están sembrados de más de mil citas latinas que él intercalaba de memoria y que hoy interrumpen la lectura. Se leen mejor a saltos, un capítulo cada vez, que es exactamente como se escribieron.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un ensayo no es la exposición de lo que ya has decidido: es el registro de un juicio en el acto de probarse, y por eso puede equivocarse dentro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Escribir sobre uno mismo no era una vanidad: era una tesis sobre el conocimiento",
+      },
+      {
+        b: "texto",
+        texto:
+          "La objeción que le hicieron desde el principio, y que Pascal repetiría un siglo después con dureza, es que dedicar un libro a describirse es una tontería egocéntrica. Montaigne la contesta por adelantado y su respuesta es lo que hace filosófico el libro: sostiene que cada hombre lleva la forma entera de la condición humana, y que por lo tanto describirse bien a uno mismo es describir algo que sirve a cualquiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo argumento es de método. Se puede escribir sobre el alma, sobre la virtud o sobre la muerte en general, y entonces uno habla de lo que ha leído; pero el único material sobre el que puede tenerse información de primera mano es uno mismo. Montaigne decide estudiar el único caso al que tiene acceso directo, y anuncia que va a hacerlo sin adornar nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cumple con una franqueza que todavía sorprende. Cuenta que es de estatura baja y de memoria pésima, que come deprisa y se muerde la lengua, que le da miedo el dolor y no la muerte, que prefiere dormir solo, que no soporta el olor de ciertas cosas y que se le ha caído un diente. Dedica un capítulo entero de su libro tercero a hablar del sexo a los cincuenta y cinco años con un detalle que en 1588 no tenía precedente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado de esa acumulación de pequeñeces es lo contrario de lo que se esperaría: no produce un retrato ridículo, produce reconocimiento. Es el primer libro en el que un lector cualquiera se encuentra a sí mismo, y esa es la razón por la que se sigue leyendo cuatro siglos y medio después, cuando casi todo lo que se escribió a su alrededor es ya solo material de historiadores.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El único caso humano sobre el que tienes información de primera mano eres tú: describirlo bien es más útil que teorizar sobre todos los demás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Nunca borró nada: corregía añadiendo, y por eso el libro se contradice a la vista",
+      },
+      {
+        b: "texto",
+        texto:
+          "Montaigne publicó los dos primeros libros en 1580, añadió el tercero en 1588, y siguió anotando su propio ejemplar hasta su muerte en 1592. Su manera de revisar era peculiar y decidió la forma final de la obra: cuando cambiaba de opinión no tachaba lo anterior, sino que escribía al lado lo que pensaba ahora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado es que el libro contiene tres capas de escritura superpuestas, y en las ediciones modernas se marcan con letras para que el lector sepa de qué año es cada frase. Se puede leer un párrafo de 1580 y, tres líneas más abajo, la objeción que el mismo hombre le puso ocho años después, y luego el matiz que añadió a los sesenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso convierte a los Ensayos en algo que casi ningún libro es: el registro de una cabeza cambiando de opinión durante veinte años, con las fechas puestas. Montaigne lo defiende expresamente y dice que no corrige sus errores, sino que los deja para que se vea el camino; sus contradicciones no son un descuido de edición, son el contenido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una consecuencia material que da gusto contar. El ejemplar que él anotaba a mano se conserva en Burdeos y las ediciones modernas se hacen a partir de él, es decir, a partir del libro que Montaigne tenía encima de la mesa y llenaba de letra pequeña en los márgenes. La obra que fundó el género más personal que existe se sigue reconstruyendo desde el ejemplar personal de su autor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dejar por escrito en qué te has ido corrigiendo dice más de tu criterio que cualquier conclusión final.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Todo el libro nació de una amistad que duró cuatro años" },
+      {
+        b: "texto",
+        texto:
+          "En 1558, Montaigne conoció en Burdeos a Étienne de La Boétie, magistrado como él y tres años mayor, autor de un discurso célebre contra la servidumbre voluntaria. Fueron amigos durante poco más de cuatro años. La Boétie murió de disentería en 1563, con treinta y dos, y Montaigne estuvo con él en la agonía y la contó por carta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo veintiocho del primer libro está dedicado a esa amistad y contiene la frase que se le cita más veces. Después de dar vueltas a por qué se querían, dice que si le insisten en que explique por qué lo amaba, siente que solo puede responderse diciendo: porque era él, porque era yo. Es una explicación que no explica nada y que cualquiera que haya tenido un amigo así reconoce.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Distingue esa clase de amistad de todas las demás relaciones con una precisión que recuerda a Aristóteles y va más lejos. La compara con el amor, que le parece más ardiente y más inconstante; con los lazos de familia, que no se eligen; con las relaciones de interés, que duran lo que el interés. Lo que describe es una fusión tan completa que dice que sus almas se mezclaron sin costura y que ya no podían encontrar la juntura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una consecuencia biográfica que explica el libro entero. Montaigne se retiró a escribir ocho años después de aquella muerte, y varios lectores han sostenido que los Ensayos son la conversación que ya no podía tener. Él lo insinúa: dice que desde entonces no hace más que arrastrarse, y que lo que escribe lo escribiría de otra manera si tuviera a quien contárselo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando algo importa de verdad, la explicación de por qué importa no llega: porque era él, porque era yo, y ahí se acaba el análisis.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Llamamos barbarie a lo que no es nuestra costumbre" },
+      {
+        b: "texto",
+        texto:
+          "En 1562, en Ruán, Montaigne conoció a tres indígenas tupinambá traídos de Brasil, en presencia del rey Carlos IX, que tenía doce años. Habló con ellos a través de un intérprete y del encuentro salió el capítulo treinta y uno del primer libro, que es el texto fundacional de todo lo que después se llamó relativismo cultural.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento tiene dos pasos y el primero es el que se cita: cada cual llama barbarie a lo que no es su costumbre, porque no tenemos otro criterio de verdad y de razón que el ejemplo y la idea de las opiniones y los usos del país en que estamos. El segundo paso es más incómodo y es el que da valor al capítulo, porque no se queda en la simetría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Compara las dos crueldades con cifras y con hechos. Aquellos hombres se comían a sus enemigos, sí, pero después de matarlos; y en Francia, dice, se tortura a hombres vivos, se les hace despedazar por perros y por cerdos, y se hace bajo pretexto de piedad y de religión. Escribía en 1580, ocho años después de la matanza de San Bartolomé. Concluye que se puede llamar bárbaros a aquellos según las reglas de la razón, y no según las nuestras, que los superamos en toda clase de barbarie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y termina con un detalle que vale por todo el capítulo. Les preguntó qué les había llamado la atención de Francia y le dijeron tres cosas; recuerda dos —que hombres armados obedecieran a un niño, y que hubiera hombres hartos de todo junto a mendigos escuálidos sin que estos les cortaran el cuello— y confiesa que la tercera se le ha olvidado. Después se queja del intérprete, que era tan malo que no pudo sacarles nada más.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de llamar bárbaro a alguien, comprueba si tu criterio es la razón o simplemente lo que se hace en tu calle.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Vale más una cabeza bien hecha que una cabeza bien llena" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo veintiséis del primer libro, sobre la educación de los niños, contiene la frase con la que Montaigne ha entrado en todas las facultades de pedagogía: al elegir preceptor, escribe, preferiría uno que tuviera la cabeza bien hecha antes que bien llena. Y todo el capítulo desarrolla qué significa eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ataque es a la memorización. Dice que saber de memoria no es saber, que es guardar lo que se ha confiado a la memoria, y que un alumno así se parece a quien va a buscar fuego a casa del vecino, lo encuentra, se queda calentándose allí y se olvida de llevárselo a la suya. Lo que se aprende repitiendo palabras ajenas no cambia el juicio de nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que propone en su lugar es que el maestro hable menos y haga hablar al alumno, que le pida que aplique lo aprendido a cien casos distintos, que no le corrija de inmediato y que no le exija que crea nada por autoridad. Escribe que se le debe hacer pasar todo por el tamiz y no alojar nada en la cabeza por simple crédito, y que solo se apropia de verdad lo que se ha digerido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade dos cosas que en 1580 eran radicales y hoy siguen sin cumplirse del todo. Que hay que enseñar viajando y conversando con gente distinta, porque frotar el cerebro con el de otros es lo que lo pule. Y que la educación no sirve para acumular saber sino para formar el juicio y el carácter: preguntarle a un alumno qué ha aprendido y esperar que recite es la manera segura de no averiguar nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Saber de memoria no es saber: es haber ido a buscar fuego a casa del vecino y haberse quedado calentándose allí.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La costumbre es la fuerza que decide lo que nos parece natural" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo veintitrés del primer libro es el más subestimado de todos y sostiene buena parte del resto. Montaigne sostiene que la costumbre es una maestra de escuela violenta y traidora, y que su poder consiste en que no se nota: establece poco a poco su autoridad, empieza con un pie suave y modesto y, una vez plantada, muestra un rostro tiránico contra el que ya no se puede levantar la vista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su imagen para explicarlo es la de una mujer que empezó a cargar con una ternera recién nacida, siguió cargando con ella todos los días y acabó cargando con un toro, porque el aumento fue tan gradual que nunca hubo un día en el que le pareciera imposible. Así se instalan, dice, las costumbres más absurdas de cualquier pueblo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hace después algo que en su siglo era peligroso: enumera páginas y páginas de costumbres de otros lugares y de otras épocas, unas junto a otras, sin ordenarlas ni juzgarlas. Pueblos que entierran a sus muertos, que los queman, que se los comen; sitios donde se saluda dando la espalda; sitios donde las mujeres orinan de pie. El efecto acumulado es exactamente el que buscaba: cualquier costumbre propia queda dentro de una lista de rarezas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca una conclusión política prudente y un poco decepcionante: como no hay manera de saber qué costumbres son mejores, y como cambiarlas produce siempre más daño del previsto, conviene obedecer las leyes del país en el que se vive aunque no se crea en ellas. Es la posición de alguien que estaba viendo cómo cuarenta años de guerra de religión destrozaban Francia por intentar corregir las costumbres del vecino.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie carga con un toro de un día para otro: las cosas insoportables se instalan por aumentos tan pequeños que nunca hay un día para negarse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Su lema era una pregunta: ¿qué sé yo?" },
+      {
+        b: "texto",
+        texto:
+          "Montaigne mandó acuñar una medalla con una balanza y una frase en francés: qué sé yo. No es una coquetería; es la conclusión del capítulo más largo del libro, la apología de Raimundo Sabunde, doscientas páginas del segundo libro dedicadas a demoler la confianza en la razón humana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su procedimiento es acumular casos en los que nuestros sentidos nos engañan, nuestras opiniones dependen de la salud, del humor y de la digestión, y los sabios de cada época se contradicen entre sí con la misma seguridad. Si un filósofo cambia de opinión cuando le sube la fiebre, pregunta, ¿qué crédito puede darse al instrumento con el que juzga?",
+      },
+      {
+        b: "texto",
+        texto:
+          "En medio de esa demolición coloca la frase suya que más se cita después de las dos anteriores, y que es una manera perfecta de desinflar la presunción humana: cuando juego con mi gata, ¿quién sabe si ella no se está entreteniendo conmigo más de lo que yo me entretengo con ella? En dos líneas retira al ser humano del centro de la escena, y lo hace sin discutir con nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene señalar el límite de todo esto, porque es donde el libro se vuelve incómodo. Su escepticismo termina recomendando aceptar lo recibido: si la razón no alcanza, hay que apoyarse en la fe y en la costumbre. Nunca ha estado claro si Montaigne era sincero ahí o si estaba protegiéndose de la Inquisición, y el resultado práctico es el mismo: una duda tan radical que no obliga a cambiar nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si tu juicio cambia cuando te sube la fiebre, la pregunta no es si tienes razón: es qué crédito merece el aparato con el que estás juzgando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Empezó diciendo que filosofar es aprender a morir y acabó diciendo lo contrario",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo veinte del primer libro, de sus años estoicos, se titula que filosofar es aprender a morir, y sostiene la doctrina clásica: hay que tener la muerte presente a todas horas, ensayarla, quitarle la extrañeza, no dejar que nos coja desprevenidos. Es el Montaigne que había leído a Séneca y que acababa de ver morir a su amigo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Veinte años después, en el libro tercero, escribe casi lo contrario y no borra lo anterior. Dice que quiere que la muerte lo encuentre plantando sus coles, indiferente a ella y más aún a su jardín sin terminar. Y añade que si uno no sabe morir, no se preocupe: la naturaleza se lo enseñará en el momento, cumplidamente y de sobra, sin que haya que romperse la cabeza antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entre las dos posiciones hay un hecho concreto. Hacia 1569, Montaigne se cayó del caballo en un choque y quedó inconsciente, dando por muerto a los suyos. Cuenta con detalle lo que recuerda de aquellas horas: que no sufría, que se le iba la vida suavemente, que estaba como quien se adormece. De ahí concluye que morir no es lo que se teme, y que lo que asusta de la muerte es la representación que uno se hace de ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese cambio es el mejor ejemplo de por qué su método de no borrar importa. En cualquier otro libro habríamos leído solo la conclusión final; aquí se leen las dos, con veinte años de distancia, y se puede ver a un hombre desmontando una doctrina que él mismo había defendido en la misma obra. Pocas veces se puede seguir así a alguien cambiando de opinión sobre algo que importa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que asusta de la muerte no es morirse: es la representación que te has hecho de morirte, y esa se puede examinar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El último ensayo dice que la vida más hermosa es la que se ajusta al modelo común",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro se cierra con el capítulo trece del tercer libro, sobre la experiencia, que es el más largo y el mejor. Empieza con una observación sobre las leyes: cuantas más se dictan, menos se cumple ninguna, porque la realidad produce más casos de los que ninguna norma puede prever, y Francia tenía entonces más leyes que el resto del mundo junto y menos justicia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí pasa a su propio cuerpo, que llevaba años pasándolo mal con cálculos renales, la enfermedad que había matado a su padre. Cuenta sus dolores, sus dietas, sus horarios de sueño y su desconfianza absoluta hacia los médicos de su tiempo, que le parecían capaces de matar antes que de curar; y sostiene que cada uno tiene que aprender de su propia experiencia lo que le sienta bien, porque nadie más va a hacerlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y termina con una tesis moral que resume el libro entero y que va contra todo lo que suele defender la filosofía. Dice que no hay nada tan hermoso ni tan legítimo como hacer bien de hombre, y que las vidas más bellas son, a su juicio, las que se ajustan al modelo común y humano, con orden, pero sin milagro y sin extravagancia. Nada de heroísmo, nada de santidad, nada de gestos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La última frase que pone en boca de un poeta antiguo pide que le concedan vivir con lo que tiene y con la salud entera, sin perder la cabeza y con una vejez que no sea vergonzosa ni le prive de la música. Un hombre que había vivido cuarenta años de guerra civil terminó pidiendo lo mínimo, y lo escribió sin ninguna solemnidad, que es exactamente su manera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La vida más lograda no es la extraordinaria: es la que se ajusta a lo común con orden, sin milagro y sin extravagancia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que el único material que uno conoce de primera mano es él mismo, que cada persona contiene la forma entera de la condición humana, y que por lo tanto describirse con honradez es la vía más segura para averiguar algo. De esa idea salen el ensayo como género y la autobiografía moderna.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta y no ha envejecido son cinco cosas concretas: que llamamos barbarie a lo que no es nuestra costumbre, que saber de memoria no es saber, que las costumbres insoportables se instalan por aumentos que nunca son el día para negarse, que el juicio propio depende de la digestión, y que la vida lograda se parece bastante a la de cualquiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla, o cuesta, por su forma. Son mil doscientas páginas desordenadas a propósito, con más de mil citas latinas intercaladas y con capítulos cuyo título no anuncia lo que hay dentro. No se puede leer de corrido y quien lo intenta lo abandona; se lee a saltos, y esa es una limitación real por mucho que su autor la defendiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en algo de fondo. Montaigne escribe desde una torre que era suya, con rentas que le permitían no trabajar, mientras Francia se mataba en ocho guerras de religión. Su tolerancia, que es admirable, es también la de quien puede retirarse; y su escepticismo termina justificando que todo se quede como está.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después es desmesurado para un libro que decía no proponerse ningún fin. La Iglesia lo puso en el índice de libros prohibidos en 1676, donde estuvo casi dos siglos. Shakespeare leyó la traducción inglesa de 1603 y trasladó a «La tempestad» un pasaje de su capítulo sobre los caníbales casi palabra por palabra. Pascal se pasó la vida discutiendo con él, y Nietzsche escribió que el hecho de que un hombre así hubiera escrito aumentaba de verdad las ganas de vivir en esta tierra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Es el primer libro en el que un lector cualquiera se reconoce a sí mismo, y por eso lleva cuatro siglos y medio sin dejar de leerse.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "ensayos-montaigne": ENSAYOS_MONTAIGNE,
   "existencialismo-humanismo": EXISTENCIALISMO_HUMANISMO,
   "mas-alla-bien-mal": MAS_ALLA_BIEN_MAL,
   "contrato-social": CONTRATO_SOCIAL,

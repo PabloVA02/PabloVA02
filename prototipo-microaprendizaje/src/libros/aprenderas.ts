@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "ensayos-montaigne":
+    "En 1571, a los treinta y ocho años, Montaigne se retiró a la torre de su castillo con mil libros y se puso a escribir sobre sí mismo. Avisa en la primera página: él mismo es la materia de su libro.",
+
   "existencialismo-humanismo":
     "El 29 de octubre de 1945, en una sala de París donde se rompieron sillas y hubo gente desmayada, Sartre defendió durante una hora una filosofía que dos bandos atacaban a la vez. El texto se publicó al año siguiente.",
 

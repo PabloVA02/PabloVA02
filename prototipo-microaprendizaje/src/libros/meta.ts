@@ -136,22 +136,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "ensayos-montaigne",
-    titulo: "Ensayos",
-    autor: "Michel de Montaigne",
-    ano: 1580,
-    gancho: "Se encerró en una torre a los treinta y ocho años para escribir sobre el único asunto que conocía de primera mano: él mismo. Inventó de paso un género entero.",
-    porQue: "Es el primer libro moderno y sigue siendo el más honrado. Enseña un hábito que no caduca: preguntarle a cada cosa que uno cree si la creería igual habiendo nacido cuarenta leguas más allá.",
-    minutos: 25,
-    capitulos: [
-      { titulo: "Una torre con frases en el techo", minutos: 5 },
-      { titulo: "El hombre que se puso a sí mismo de tema", minutos: 5 },
-      { titulo: "Contra la crueldad", minutos: 5 },
-      { titulo: "La caída del caballo", minutos: 5 },
-      { titulo: "Lo que hizo con los que vinieron después", minutos: 5.1 },
-    ],
-  },
-  {
     id: "arte-sin-hombres",
     titulo: "Historia del arte sin hombres",
     autor: "Katy Hessel",

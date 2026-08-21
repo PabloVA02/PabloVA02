@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "ensayos-montaigne": [
+    "qué significaba la palabra «ensayo» cuando la inventó",
+    "por qué corregía añadiendo y no borraba nunca",
+    "qué le dijeron los tres brasileños que conoció en Ruán en 1562",
+    "por qué saber de memoria no es saber",
+    "cómo cambió de opinión sobre la muerte en veinte años",
+  ],
+
   "existencialismo-humanismo": [
     "qué significa que la existencia preceda a la esencia",
     "por qué elegir por uno mismo sería elegir por todos",
