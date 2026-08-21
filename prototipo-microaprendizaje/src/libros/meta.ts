@@ -968,22 +968,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "por-que-fracasan",
-    titulo: "Por qué fracasan los países",
-    autor: "Acemoglu y Robinson",
-    ano: 2012,
-    gancho: "Dos ciudades con el mismo nombre, separadas por una valla: al norte se vive tres veces mejor.",
-    porQue: "Es el libro que cambió la conversación sobre por qué unos países son ricos y otros no: la respuesta no está en el clima ni en la cultura, sino en quién manda y con qué reglas. Sus autores recibieron el Nobel de Economía en 2024.",
-    minutos: 23.4,
-    capitulos: [
-      { titulo: "La valla de Nogales", minutos: 4.8 },
-      { titulo: "Potosí y Jamestown", minutos: 4.7 },
-      { titulo: "El telar que la reina no quiso", minutos: 4.7 },
-      { titulo: "1688", minutos: 4.5 },
-      { titulo: "Pekín", minutos: 4.7 },
-    ],
-  },
-  {
     id: "doctrina-shock",
     titulo: "La doctrina del shock",
     autor: "Naomi Klein",

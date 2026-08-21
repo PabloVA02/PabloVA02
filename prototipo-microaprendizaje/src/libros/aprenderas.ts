@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "por-que-fracasan":
+    "Nogales está partida en dos por una valla: mismo clima, misma comida, mismas familias, y el triple de renta a un lado. De ese caso parten para sostener que lo que separa a los países ricos de los pobres son sus instituciones.",
+
   "deja-de-ser-tu":
     "Su autor sostiene que la personalidad determina lo que le ocurre a una persona y propone una meditación diaria para sustituir los patrones repetidos. Mezcla neurociencia establecida, física cuántica mal usada y promesas sobre la salud.",
 

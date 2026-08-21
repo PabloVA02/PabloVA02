@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "por-que-fracasan": [
+    "por qué no valen la geografía, la cultura ni la ignorancia",
+    "qué distingue unas instituciones inclusivas de unas extractivas",
+    "por qué se puede crecer con las malas y solo hasta cierto punto",
+    "cómo la misma peste negra bifurcó a las dos mitades de Europa",
+    "por qué Botsuana es la excepción del continente",
+  ],
+
   "deja-de-ser-tu": [
     "de dónde viene la historia personal que lo sostiene todo",
     "qué parte de su argumento está bien demostrada",

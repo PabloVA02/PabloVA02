@@ -34984,7 +34984,398 @@ const DEJA_DE_SER_TU: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Por qué fracasan los países, en doce páginas.
+
+   AMPLIO: son diez argumentos independientes con casos de cinco
+   continentes y quinientos años. En ocho páginas se caería la mitad de la
+   demostración.
+
+   Ensayo económico: titular que afirma, tercera persona.
+   -------------------------------------------------------------------------- */
+
+const POR_QUE_FRACASAN: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una ciudad partida por una valla" },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con el mejor experimento natural que existe en ciencias sociales. Nogales es una ciudad partida en dos por la frontera entre Estados Unidos y México: al norte, Nogales de Arizona; al sur, Nogales de Sonora. Las separa una valla que atraviesa la calle.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Todo lo demás es idéntico. El mismo clima, el mismo terreno, las mismas enfermedades, la misma comida, la misma música, los mismos apellidos y, en muchos casos, las mismas familias con parientes a los dos lados. Cualquier explicación basada en la geografía o en la cultura tiene que dar cuenta de eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y los datos de las dos mitades no se parecen. La renta media del lado norte triplica largamente la del sur. La esperanza de vida es varios años mayor. Casi todos los adultos del norte han terminado la secundaria y en el sur son bastantes menos. La mortalidad infantil, la criminalidad, el acceso a electricidad y agua corriente y la fiabilidad de la policía y de los tribunales difieren de manera abrumadora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas doce páginas recorren la explicación que proponen Daron Acemoglu y James Robinson en este libro de 2012: por qué descartan las tres explicaciones habituales, qué entienden por instituciones, por qué unas producen crecimiento sostenido y otras no, cómo se bifurcan dos sitios parecidos en momentos críticos y qué le pasó a este libro doce años después de publicarse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dos mitades de la misma ciudad, con el mismo clima, la misma comida y las mismas familias, tienen el triple de renta a un lado de una valla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las tres explicaciones habituales no funcionan" },
+      {
+        b: "texto",
+        texto:
+          "Antes de proponer la suya, los autores repasan las tres respuestas que suelen darse a la pregunta de por qué unos países son ricos y otros pobres, y muestran por qué ninguna aguanta los casos difíciles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es la geografía: el clima tropical, las enfermedades, la falta de salida al mar, la calidad del suelo. Es una explicación seria y tiene defensores de primer nivel, y no explica Nogales, donde el clima es el mismo a ambos lados de la valla. Tampoco explica que el Congo, con una dotación de recursos naturales extraordinaria, sea uno de los países más pobres del mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es la cultura: los valores, la religión, la ética del trabajo. Su contraejemplo es Corea, partida en 1948 tras milenios de historia común, con la misma lengua, la misma tradición y hasta las mismas familias separadas por la línea, y con una diferencia de renta que hoy es de más de diez a uno. Y añaden un detalle sobre este tipo de explicaciones: durante décadas se dijo que la cultura confuciana impedía el desarrollo económico, y cuando esos países se enriquecieron se empezó a decir que lo explicaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es la ignorancia: la idea de que los dirigentes de los países pobres no saben qué políticas funcionan y hay que enseñárselas. Los autores sostienen que suelen saberlo perfectamente y que el problema es otro: aplicar esas políticas amenazaría su propia posición, así que la decisión de no hacerlo no es un error, es un cálculo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Durante décadas se dijo que la cultura confuciana impedía el desarrollo, y cuando esos países se enriquecieron se dijo que lo explicaba.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hay dos tipos de instituciones y se reconocen por a quién sirven" },
+      {
+        b: "texto",
+        texto:
+          "La explicación que proponen es institucional, y su distinción central es entre dos tipos. Las llaman inclusivas y extractivas, y la diferencia está en para quién están diseñadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Unas instituciones económicas inclusivas permiten y animan a participar a la mayoría de la población: garantizan la propiedad incluso de los que no tienen poder, aplican la ley por igual, permiten que cualquiera monte un negocio, entre en un mercado y compita, y proporcionan servicios públicos —educación, infraestructuras, seguridad— que hacen posible esa participación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Unas instituciones extractivas están diseñadas para lo contrario: extraer recursos de la mayoría en beneficio de un grupo pequeño. Trabajo forzado, monopolios concedidos, tribunales que dependen de quién sea el demandado, permisos que se compran, propiedad segura solo para los cercanos al poder. No son un fallo de diseño ni una consecuencia del atraso: funcionan exactamente como se pretende.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añaden la pieza que hace funcionar el argumento: las instituciones económicas las determinan las políticas. Si el poder está repartido y hay contrapesos, es difícil sostener un sistema que perjudica a la mayoría; si el poder está concentrado en pocas manos, es fácil, porque los perjudicados no tienen forma de cambiar las reglas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Unas instituciones extractivas no son un fallo ni un signo de atraso: funcionan exactamente como quiere quien las diseñó.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una reina negó una patente porque dejaría gente sin trabajo" },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que mejor resume el libro es de 1589. Un clérigo inglés llamado William Lee inventó una máquina de tejer medias, un aparato que multiplicaba la producción, y viajó a Londres a solicitar a la reina Isabel una patente que le permitiera explotarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La reina se la negó, y su razonamiento está recogido: le dijo que su invento dejaría sin sustento a sus súbditos, los convertiría en mendigos y les arruinaría. Años después, Lee lo intentó con el rey Jacobo I y recibió la misma respuesta. Se marchó a Francia, tampoco tuvo suerte y murió arruinado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los autores subrayan que ni la reina ni el rey eran ignorantes ni especialmente tontos. Entendían perfectamente lo que aquella máquina podía hacer, y precisamente por eso la bloquearon: una masa de tejedores arruinados es un problema político, y un poder que depende del equilibrio existente no tiene ningún interés en romperlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está el concepto que sostiene todo el libro y que viene del economista Joseph Schumpeter: el crecimiento sostenido exige destrucción creativa, es decir, que lo nuevo desplace a lo viejo. Y la destrucción creativa siempre perjudica a alguien que hoy tiene poder, así que un sistema donde ese alguien puede impedirla, la impide. Casos parecidos abundan: en el siglo XIX, tanto el emperador austríaco como el zar ruso frenaron la construcción de ferrocarriles por temor a lo que traerían.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El crecimiento exige que lo nuevo desplace a lo viejo, y eso siempre perjudica a alguien que ahora mismo tiene poder para impedirlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Se puede crecer con instituciones extractivas, y solo hasta cierto punto",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los matices más importantes del libro es que las instituciones extractivas no impiden crecer. Pueden producir crecimiento rápido durante décadas, y lo han hecho varias veces, siempre por el mismo procedimiento: reasignar recursos desde una actividad de baja productividad hacia otra de alta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su caso principal es la Unión Soviética. Entre 1930 y 1970 creció a un ritmo notable trasladando por la fuerza millones de trabajadores del campo a la industria pesada, donde producían mucho más. Ese movimiento genera un crecimiento real y considerable, y muchos economistas occidentales de aquellos años creyeron que aquel sistema acabaría superando al capitalista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurre después es lo que interesa. Ese tipo de crecimiento se agota cuando la reasignación se ha completado, y a partir de ahí seguir creciendo exige innovación, es decir, que aparezcan cosas nuevas que sustituyan a las viejas. Y un sistema extractivo no puede permitirlo: no puede dar seguridad a un inventor cuyo invento amenace a una empresa estatal, ni tolerar que se enriquezca alguien de fuera del círculo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los autores aplican ese razonamiento al caso chino y hacen una predicción explícita: que el crecimiento sostenido bajo aquel sistema político acabará frenándose, y que solo continuará si se abren las instituciones políticas. Escribieron eso en 2012; conviene tenerlo anotado, porque es la parte del libro que la realidad está poniendo a prueba en tiempo real.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se puede crecer mucho reasignando gente del campo a la fábrica, y ese crecimiento se acaba en cuanto hay que innovar en vez de mover.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hace falta un Estado fuerte y también hace falta que esté limitado" },
+      {
+        b: "texto",
+        texto:
+          "El libro insiste en un requisito que suele olvidarse cuando se habla de libertad económica: para que existan instituciones inclusivas hace falta un Estado suficientemente centralizado, capaz de imponer la ley en todo el territorio, cobrar impuestos y garantizar contratos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sin eso no hay nada. Los autores describen casos de países donde el gobierno central no controla partes de su propio territorio, donde nadie puede hacer cumplir un contrato porque no hay tribunal que llegue, y donde la ausencia de Estado no produce libertad sino señores locales, milicias y una inseguridad que impide cualquier inversión a largo plazo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y a la vez hace falta lo contrario: que ese Estado esté limitado y que el poder esté repartido, con contrapesos capaces de impedir que quien manda cambie las reglas a su favor. Un Estado fuerte sin límites es exactamente la maquinaria que hace posible la extracción a gran escala.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esas dos condiciones —centralización y pluralismo— tienen que darse juntas, y esa es la razón de que sea tan difícil llegar ahí. Cada una por separado produce un desastre distinto, y las dos a la vez exigen que quienes tienen el poder acepten unos límites que nadie les está obligando a aceptar, cosa que en la historia ha ocurrido pocas veces y casi siempre después de un conflicto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La ausencia de Estado no produce libertad: produce señores locales, y nadie invierte a diez años donde no hay tribunal que llegue.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La misma peste produjo efectos opuestos en las dos mitades de Europa",
+      },
+      {
+        b: "texto",
+        texto:
+          "Si las instituciones son tan estables, queda por explicar cómo cambian, y para eso los autores proponen dos conceptos. El primero es que entre dos sociedades parecidas siempre hay pequeñas diferencias acumuladas, que llaman deriva institucional. El segundo es que de vez en cuando ocurre un acontecimiento enorme que altera el equilibrio de poder, y a eso lo llaman una coyuntura crítica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su mejor ejemplo es la peste negra, que entre 1346 y 1353 mató en Europa a una proporción enorme de la población, con estimaciones que van de un tercio a la mitad. Fue el mismo acontecimiento en todo el continente, con la misma causa y en las mismas fechas, así que sirve como experimento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En Europa occidental, la escasez brutal de mano de obra dio a los campesinos supervivientes una posición de fuerza que no habían tenido nunca: podían exigir mejores condiciones o marcharse a otra parte, porque en todas partes faltaban brazos. Los señores intentaron congelar los salarios por ley y no lo consiguieron. La servidumbre se fue deshaciendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En Europa oriental ocurrió lo contrario. Allí los señores estaban mejor organizados, había menos ciudades y menos comercio, y su respuesta a la misma escasez fue apretar: ataron a los campesinos a la tierra, prohibieron su movimiento y aumentaron las obligaciones. El resultado se conoce como la segunda servidumbre y duró siglos. Mismo golpe, dos direcciones opuestas, y la diferencia estaba en lo que ya había antes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un mismo golpe empuja a dos sociedades parecidas en direcciones opuestas, y lo que decide la dirección son las diferencias pequeñas que ya había.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los territorios más ricos de 1500 son los más pobres de hoy" },
+      {
+        b: "texto",
+        texto:
+          "Uno de los resultados más contraintuitivos del libro procede de una investigación anterior de los propios autores y se conoce como la reversión de fortuna. Consiste en comparar el nivel de desarrollo de los territorios colonizados alrededor de 1500 con el que tienen hoy.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo esperable sería una continuidad: los sitios prósperos entonces deberían serlo ahora. Lo que aparece es lo contrario. Los territorios más ricos, más poblados y más urbanizados de aquel momento —el valle de México, los Andes centrales, la India, partes de África occidental— están hoy entre los más pobres. Y los que entonces estaban escasamente poblados y eran considerados un destino sin interés —Norteamérica, Australia, Nueva Zelanda— están entre los más ricos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación que dan es institucional y encaja con todo lo demás. Donde había población densa y una estructura de poder ya montada, la potencia colonizadora encontró algo que valía la pena capturar: bastaba con sustituir a la élite anterior y quedarse con el mecanismo de extracción que ya funcionaba. Donde no había casi nadie a quien explotar, no había otra opción que atraer colonos, y para que fueran hacía falta ofrecerles tierra, derechos y una participación en el gobierno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es decir, que lo que determinó el destino de un territorio a quinientos años vista no fue su riqueza sino qué tipo de institución resultaba rentable instalar allí. Y esa reversión es difícil de explicar con la geografía, porque los climas y los suelos no cambiaron entre 1500 y hoy.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En los sitios donde había mucha gente a la que explotar se montó un sistema de extracción; donde no la había, hubo que ofrecer derechos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El trabajo forzado del siglo XVI todavía se mide en los datos de hoy",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo más concreto de esa persistencia viene de los Andes y de un sistema colonial llamado la mita. Consistía en la obligación de aportar cada año un porcentaje de los hombres adultos de determinadas comunidades para trabajar en las minas de plata de Potosí y de mercurio de Huancavelica, en condiciones que mataban a una parte considerable de ellos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El sistema estuvo vigente durante más de dos siglos y afectaba a unas comunidades sí y a otras no, según un límite administrativo trazado en el siglo XVI. Ese límite, que hoy no significa nada y no aparece en ningún mapa moderno, permite una comparación limpia entre municipios situados a un lado y a otro, que comparten geografía, altitud, etnia e historia posterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una investigación de 2010 hizo exactamente esa comparación, y encontró diferencias que persisten dos siglos después de la abolición del sistema. Los municipios que estuvieron dentro de aquella zona tienen hoy un consumo por hogar menor y peores indicadores de desarrollo infantil que los de justo al lado. La explicación propuesta pasa por las carreteras, la propiedad de la tierra y la relación de esas comunidades con el Estado, que quedaron marcadas por aquel régimen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la mejor prueba disponible de la tesis del libro. No se trata de una diferencia de cultura ni de recursos, sino de un arreglo institucional impuesto hace cuatro siglos y suprimido hace dos, cuyos efectos siguen apareciendo en una encuesta de hogares.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un límite administrativo trazado en el siglo XVI todavía se puede detectar hoy en el consumo de los hogares de un lado y de otro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Botsuana es la excepción y por eso interesa" },
+      {
+        b: "texto",
+        texto:
+          "Frente al pesimismo que podría deducirse de todo lo anterior, el libro dedica un capítulo a un caso que fue en la otra dirección, y es el que más se cita. Botsuana era en 1966, al independizarse, uno de los países más pobres del mundo: tenía doce kilómetros de carretera asfaltada, veintidós licenciados universitarios y ningún recurso conocido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sesenta años después es uno de los países de renta media-alta del continente, con uno de los mayores crecimientos sostenidos del mundo en ese período, elecciones regulares desde la independencia y sin haber sufrido ninguna guerra civil ni ningún golpe de Estado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los autores proponen tres razones y ninguna es la suerte. La primera es que las estructuras políticas previas de aquellos pueblos incluían mecanismos de consulta y límites reales al poder de los jefes. La segunda es que la colonización británica fue superficial: el territorio interesaba poco y apenas se montó una administración extractiva. Y la tercera es que los dirigentes de la independencia, teniendo la oportunidad de montar un sistema para su propio beneficio, no lo hicieron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle que remata el caso es el de los diamantes. Se descubrieron poco después de la independencia y en casi todo el continente ese hallazgo ha sido una maldición; allí, el gobierno negoció una participación mayoritaria del Estado, canalizó los ingresos hacia educación e infraestructuras y mantuvo las reglas. Los mismos diamantes, con otras instituciones, habrían producido lo de siempre.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los mismos diamantes que en otros países financiaron guerras, en Botsuana pagaron escuelas: lo que cambió no fue el mineral.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las instituciones se refuerzan a sí mismas en las dos direcciones" },
+      {
+        b: "texto",
+        texto:
+          "La última pieza del argumento explica por qué esto es tan difícil de cambiar, y consiste en dos círculos que funcionan solos una vez puestos en marcha.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El virtuoso opera así: unas instituciones políticas repartidas hacen difícil que un grupo capture el poder; el pluralismo hace que la prensa sea libre y que las alarmas suenen; una economía abierta produce muchos actores con intereses distintos, que se vigilan entre sí; y cuando alguien intenta concentrarlo todo, hay demasiada gente con algo que perder. Los autores señalan casos concretos en la historia británica y estadounidense donde ese mecanismo frenó intentos de acumulación de poder.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El vicioso funciona igual de bien en dirección contraria. Quien controla un sistema extractivo tiene todos los incentivos para mantenerlo, porque el poder político da acceso a la riqueza y la riqueza permite conservar el poder político. Y produce además un efecto perverso que explica muchas revoluciones fallidas: cuando el premio de mandar es tan grande, la lucha por él es feroz, y quien derriba al tirano se encuentra con la misma maquinaria intacta y la usa igual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso lo llaman la ley de hierro de la oligarquía, tomando una expresión antigua, y su ejemplo es Sierra Leona, donde un régimen colonial extractivo fue sustituido por un gobierno independiente que conservó exactamente las mismas estructuras, incluidos los jefes locales con poder sobre la tierra, y con los mismos resultados.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando el premio de mandar es enorme, quien derriba al tirano se encuentra la maquinaria intacta y casi siempre acaba usándola.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Por qué fracasan los países sostiene que la diferencia entre la prosperidad y la pobreza no la explican la geografía, la cultura ni la ignorancia, sino las instituciones: si el sistema político reparte el poder y el económico permite participar a la mayoría, hay crecimiento sostenido; si están diseñados para extraer en beneficio de unos pocos, puede haber crecimiento durante un tiempo y no innovación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una manera de mirar cualquier país, incluido el propio. Preguntar quién puede montar un negocio sin permiso de nadie, si un tribunal falla igual contra un poderoso, quién controla al que manda y qué pasaría si alguien inventara algo que arruinara a una empresa grande da bastante información en pocos minutos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los países pobres no lo son porque sus dirigentes no sepan qué hacer: lo son porque hacerlo les costaría el poder.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La crítica más repetida es que su concepto de institución es tan amplio que resulta difícil de refutar, y que el argumento tiene un aire circular: los países ricos tienen buenas instituciones, y las buenas instituciones se reconocen porque producen países ricos. Historiadores especialistas han señalado además simplificaciones concretas en su tratamiento de Roma, de Venecia, de la Revolución Gloriosa y del imperio otomano, donde los ejemplos se recortan para que encajen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y tienen una predicción abierta. En 2012 sostuvieron que el crecimiento chino, basado en instituciones políticas cerradas, se frenaría a menos que se abrieran; más de una década después no ha ocurrido, y ese caso sigue siendo el principal problema empírico de su teoría. Además minimizan factores que sí pesan: la geografía influye en la agricultura y en la carga de enfermedades, y el colonialismo no solo instaló instituciones, sino que destruyó capacidades que existían.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después es la mejor noticia posible para este libro. En 2024, Acemoglu y Robinson recibieron el premio Nobel de Economía, junto a Simon Johnson, precisamente por sus estudios sobre cómo las instituciones se forman y afectan a la prosperidad. Doce años después de publicarse, la discusión que abrió sigue viva y su marco es hoy uno de los más usados en economía del desarrollo, con todos sus problemas incluidos.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "por-que-fracasan": POR_QUE_FRACASAN,
   "deja-de-ser-tu": DEJA_DE_SER_TU,
   "cerebro-de-pan": CEREBRO_DE_PAN,
   "come-comida-real": COME_COMIDA_REAL,

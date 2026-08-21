@@ -114,7 +114,6 @@ const CARGADORES: Record<string, Cargador> = {
   "emperador-males": () => import("./ciencia").then((m) => m.EMPERADOR_MALES),
   "sexta-extincion": () => import("./ciencia").then((m) => m.SEXTA_EXTINCION),
   "pulgar-panda": () => import("./ciencia").then((m) => m.PULGAR_PANDA),
-  "por-que-fracasan": () => import("./economia").then((m) => m.POR_QUE_FRACASAN),
   "riqueza-naciones": () => import("./economia").then((m) => m.RIQUEZA_NACIONES),
   "repensar-pobreza": () => import("./economia").then((m) => m.REPENSAR_POBREZA),
   "paseo-aleatorio": () => import("./economia").then((m) => m.PASEO_ALEATORIO),

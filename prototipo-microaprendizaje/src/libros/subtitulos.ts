@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "por-que-fracasan": "Los orígenes del poder, la prosperidad y la pobreza",
   "deja-de-ser-tu": "La mente crea la realidad",
   "cerebro-de-pan": "La devastadora verdad sobre los efectos del trigo, el azúcar y los carbohidratos",
   "dilema-omnivoro": "En busca de la comida perfecta",
