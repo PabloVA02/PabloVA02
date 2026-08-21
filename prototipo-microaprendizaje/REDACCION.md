@@ -481,7 +481,7 @@ sapiens de los últimos setenta mil años, y deja de valer en cuanto tiene
 hipoteca.** Si la frase se puede discutir mirando la vida de alguien concreto,
 ya no era la especie.
 
-## 4 bis. Los seis casos que dan problemas
+## 4 bis. Los siete casos que dan problemas
 
 Estos salieron escribiendo, uno por uno, y cada uno costó una reescritura. Van
 aquí para que la siguiente vez se sepan antes de empezar.
@@ -550,6 +550,58 @@ contraportada ni en la solapa. Va en la conclusión, con lo concreto:
 convierte en verdad lo demás. Taleb acertó en 2008 y eso no valida su método,
 porque quien avisa cada año de una catástrofe acaba coincidiendo con una — que
 es exactamente el sesgo que su propio libro enseña a detectar.
+
+### En SALUD, la trampa es el género: la prueba del sustituto
+
+Las capturas de *Cortisol* y de un libro sobre mitocondrias, las dos del 21 de
+agosto, no se entienden por separado y son demoledoras juntas. Son dos libros
+distintos, de dos autores distintos, sobre dos moléculas distintas, y el
+resumen es el mismo:
+
+    todo se reduce a X · X está saboteado por la vida moderna
+    · aquí tienes cinco hábitos · come bien, duerme, muévete
+
+De ahí sale la comprobación, que es la hermana de la prueba del título tapado y
+en esta categoría es todavía más rápida. **Tapa el título y sustituye el nombre
+de la molécula.** Si la página funciona igual poniendo cortisol, mitocondrias,
+inflamación, microbiota, insulina o cadenas de glicina, esa página no cuenta el
+libro: cuenta el género.
+
+Las cuatro señales, con su nombre para poder detectarlas:
+
+- **«Todo se reduce a X».** Es literalmente el titular de una de las dos
+  capturas. Ningún fisiólogo sostiene que la salud dependa de una sola
+  hormona, y un resumen que repite esa frase como titular ha dejado de
+  informar para hacer de altavoz. Cuando un libro reduce todo a una causa, eso
+  ES la noticia del resumen, y va dicho.
+- **El villano con nombre propio.** «HSD, el saboteador oculto» convierte una
+  enzima —la 11 beta-hidroxiesteroide deshidrogenasa tipo 1, que existe y hace
+  algo mucho más aburrido— en un personaje de novela. Explicar un mecanismo
+  está bien; darle intenciones, no.
+- **El consejo que vale para cualquier libro.** «Lleva una dieta equilibrada,
+  descansa, duerme bien y haz ejercicio con regularidad» es la intersección de
+  los veintiún libros de Salud del catálogo. Si al resumir una página queda
+  eso, la página estaba vacía. Lo específico de un libro de salud es la
+  DISCREPANCIA: en qué se separa de los demás y con qué prueba.
+- **Toxinas sin dosis.** «Estamos expuestos a un sinfín de sustancias
+  químicas» no es información: no hay ni una sustancia nombrada, ni una
+  cantidad, ni un umbral. La frase con la que nace la toxicología es que la
+  dosis hace el veneno, así que un tóxico sin dosis no está dicho.
+
+Y una más, que abre la segunda captura y es una técnica de venta:
+
+- **El cuestionario del horóscopo.** «¿Te sientes cansado todo el tiempo? ¿Te
+  cuesta ganar peso? ¿Te pones enfermo más a menudo de lo que te gustaría?»
+  Son síntomas tan generales que todo el mundo contesta que sí, y sirven para
+  que el lector se reconozca antes de que le hayan demostrado nada. Una entrada
+  se abre con un hecho, no con un espejo.
+
+**Por eso en Salud la regla 5 no es opcional ni general: es la mitad del
+valor.** Y tiene que ser concreta. En el caso del cortisol, lo que hay que
+contar es que aquella hipótesis se vendió con suplementos que decían bloquearlo
+y que la autoridad de comercio estadounidense actuó contra sus anunciantes por
+publicidad engañosa. Ese párrafo es la diferencia entre un resumen y un folleto,
+y Headway no lo escribe nunca.
 
 ### En HISTORIA, la trampa es la crónica
 
@@ -659,6 +711,8 @@ frase, se continúa la del rótulo —aprenderás… esto—.
       —qué acertó, qué falló— en la conclusión?
 - [ ] Si es novela, ¿los titulares afirman sobre el libro y no cuentan la trama?
 - [ ] Si es de historia, ¿hay alguna página que sea solo una línea del tiempo?
+- [ ] Si es de salud, **la prueba del sustituto**: ¿funcionaría la página
+      cambiando el nombre de la molécula por otra?
 - [ ] ¿Alguna anécdota famosa metida sin comprobar de dónde sale?
 - [ ] ¿Las páginas que pide su tamaño, y todas de unas 260 palabras?
 - [ ] ¿El tamaño sale de contar sus argumentos, y no de lo famoso que sea?
