@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "mas-alla-bien-mal": [
+    "por qué toda filosofía sería una confesión involuntaria",
+    "qué le objeta al «pienso, luego existo» de Descartes",
+    "qué significa exactamente voluntad de poder",
+    "en qué se diferencian la moral de señores y la de esclavos",
+    "qué hizo su hermana con sus manuscritos",
+  ],
+
   "contrato-social": [
     "por qué la fuerza no crea ninguna obligación",
     "el problema exacto que el contrato tiene que resolver",

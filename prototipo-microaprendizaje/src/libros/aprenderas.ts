@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "mas-alla-bien-mal":
+    "Nietzsche lo pagó de su bolsillo en 1886 y vendió ciento catorce ejemplares el primer año. Empieza con una pregunta que nadie hacía: por qué preferimos la verdad y no la mentira, si nadie lo ha demostrado nunca.",
+
   "contrato-social":
     "«El hombre ha nacido libre y por todas partes está encadenado.» La frase es famosa; la que sigue es la que importa, porque dice que Rousseau ignora cómo ocurrió y que va a averiguar qué podría hacerlo legítimo.",
 

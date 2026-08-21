@@ -52072,7 +52072,430 @@ const CONTRATO_SOCIAL: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Más allá del bien y del mal, en doce páginas.
+
+   AMPLIO. Nueve partes y otras tantas tesis que no dependen unas de otras:
+   la filosofía como confesión, la voluntad de verdad, el «yo pienso», la
+   utilidad de lo falso, la voluntad de poder, el perspectivismo, la
+   historia natural de la moral, señores y esclavos, y la política
+   aristocrática. En ocho páginas saldría lo que ya cree saber todo el
+   mundo, que es el aforismo del abismo.
+
+   Ensayo → afirmación entera y tercera persona.
+
+   DOS OBLIGACIONES DE LA REGLA 5, Y LAS DOS SIN ROMPER NADA. La primera:
+   las páginas sobre las mujeres son indefendibles y se dicen, con su número
+   de apartado. La segunda: su política aristocrática está en el texto y no
+   es un invento de sus lectores, así que va como argumento del libro y no
+   como excusa. Y el «después» es el mejor que hay en el estante: el libro
+   ataca expresamente el nacionalismo alemán y el antisemitismo, y su
+   hermana lo entregó a los dos falsificando un libro suyo.
+   -------------------------------------------------------------------------- */
+
+const MAS_ALLA_BIEN_MAL: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro empieza preguntando por qué queremos la verdad, en vez de darlo por evidente",
+      },
+      {
+        b: "texto",
+        texto:
+          "Friedrich Nietzsche publicó este libro en 1886, pagándolo de su bolsillo. Vendió ciento catorce ejemplares el primer año. Tres años después se derrumbó en una calle de Turín, no volvió a escribir nada y murió en 1900 sin haber tenido lectores, y sin sospechar lo que iba a hacerse con sus papeles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer apartado no discute ninguna doctrina: pregunta por el deseo mismo de conocer. La voluntad de verdad, dice, nos hará muchas preguntas; y él propone hacerle a ella una que nadie hace. ¿Por qué preferimos la verdad y no la mentira, o la incertidumbre, o la ignorancia? Nadie ha demostrado que la verdad valga más; se ha dado por supuesto durante dos mil años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese gesto —volver la pregunta hacia quien pregunta— es el método del libro entero. No refuta doctrinas: examina qué clase de persona necesita sostenerlas. Y el título anuncia lo mismo: no propone situarse más allá del bien y del mal en el sentido de hacer lo que a uno le apetezca, sino más allá de una pareja concreta de conceptos, la que él considera un invento histórico con fecha y con autores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas doce páginas recorren diez argumentos: por qué toda filosofía sería una confesión involuntaria, qué esconde el deseo de verdad, por qué el «yo pienso» de Descartes no describe lo que ocurre, por qué la falsedad de una idea no basta para descartarla, qué es la voluntad de poder, qué significa que no haya un punto de vista neutral, cómo hay que estudiar la moral, en qué consisten la moral de señores y la de esclavos, qué significa exactamente el título, y qué política defiende el libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie ha demostrado nunca que la verdad valga más que la mentira: se ha dado por supuesto, y ese supuesto es el primero que este libro examina.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Toda gran filosofía sería la confesión involuntaria de quien la escribió",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el apartado sexto está una de las afirmaciones que más han cambiado la manera de leer. Nietzsche sostiene que toda gran filosofía ha sido hasta ahora la confesión personal de su autor y una especie de memorias involuntarias; y que las intenciones morales de un filósofo constituyen el germen del que ha brotado su planta entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que propone, en consecuencia, es leer al revés. Ante un sistema, en vez de discutir si sus premisas se siguen, hay que preguntarse a qué moral apunta: qué clase de vida está defendiendo ese hombre, de qué necesita convencerse, contra qué se está protegiendo. Los argumentos vendrían después, como abogados contratados para defender una posición ya tomada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso desmonta la imagen del filósofo como alguien impulsado por un impulso de conocer desinteresado. Sostiene que en él, como en cualquiera, lo que decide son los instintos, y que la conciencia se limita a construir razones para lo que ya se ha querido. La filosofía sería un modo particularmente refinado de decir qué se quiere.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema evidente de esa tesis es que se aplica a sí misma, y él lo sabe. Si toda filosofía es una confesión involuntaria, la suya también lo es, y este libro sería el retrato de un profesor enfermo, solitario y sin lectores. Nietzsche no lo esquiva; escribe en varios sitios que también lo suyo es interpretación, y lo deja ahí, que es honrado y no es una solución.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ante un sistema de ideas, pregunta primero qué clase de vida está defendiendo quien lo sostiene: los argumentos suelen llegar después de la decisión.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El «yo pienso» de Descartes no describe lo que ocurre cuando se piensa",
+      },
+      {
+        b: "texto",
+        texto:
+          "El apartado diecisiete contiene una de sus críticas más precisas y menos citadas. Descartes había construido toda la filosofía moderna sobre la certeza de que si pienso, existo. Nietzsche objeta que esa frase contiene un contrabando gramatical: da por supuesto que hay un «yo» que realiza la acción de pensar, y eso es exactamente lo que no se observa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se observa, dice, es que un pensamiento viene cuando él quiere, y no cuando yo quiero. Nadie decide tener una idea; las ideas aparecen. Decir «yo pienso» es como decir «el rayo relampaguea», donde la gramática exige un sujeto para un verbo y con eso inventa un agente detrás del acto que no está en el fenómeno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su diagnóstico general es que el lenguaje nos impone una metafísica sin que nos demos cuenta. Como nuestras frases necesitan un sujeto y un predicado, acabamos creyendo que en el mundo hay cosas que hacen acciones, y de ahí salen el alma, la sustancia y la voluntad libre. Escribe, con una frase que resume el libro, que no nos libraremos de Dios mientras sigamos creyendo en la gramática.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la parte de su obra que más se ha confirmado por otra vía. La psicología del siglo XX terminó documentando que buena parte de lo que hacemos se decide antes de que aparezca la sensación de haberlo decidido, y que la explicación que damos de nuestros actos se construye después. Nietzsche llegó a eso sin experimentos, mirando la gramática.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie decide tener una idea: las ideas aparecen. El «yo» que dices que piensa lo ha puesto la gramática, no la observación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Que un juicio sea falso no basta para descartarlo" },
+      {
+        b: "texto",
+        texto:
+          "En el apartado cuarto hay una frase que suele leerse como una boutade y es un argumento serio. La falsedad de un juicio, escribe, no constituye para él una objeción contra ese juicio; la cuestión es en qué medida ese juicio favorece la vida, la conserva, conserva la especie o incluso la cría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El razonamiento que hay detrás es este: hay creencias que no describen el mundo y sin las cuales no se podría vivir. Que hay cosas idénticas entre sí, que existen sustancias permanentes, que el mundo se deja medir con números, que hay causas y efectos separables. Todas ellas simplifican una realidad que no funciona así, y sin esa simplificación no habría ni ciencia ni conversación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca que renunciar a los juicios falsos equivaldría a renunciar a la vida, y que una filosofía que se atreva a eso se sitúa por sí sola más allá del bien y del mal, que es la primera aparición del título en el libro. No está diciendo que dé igual mentir; está diciendo que el criterio verdadero o falso no agota la evaluación de una creencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es el punto donde más fácil resulta llevárselo a un sitio en el que él no está, y conviene marcarlo. De aquí no se sigue que uno pueda creer lo que le convenga: Nietzsche desprecia esa operación y llama al cristianismo, precisamente, una mentira útil. Lo que sostiene es que hay que investigar de dónde vienen las creencias, no que uno pueda elegirlas por comodidad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay creencias falsas sin las cuales no se puede vivir, y decirlo no autoriza a creer lo que te convenga: obliga a averiguar de dónde vienen.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo vivo no busca conservarse: busca descargar su fuerza" },
+      {
+        b: "texto",
+        texto:
+          "El apartado trece introduce el concepto que ordena toda su obra posterior, y lo hace corrigiendo a los biólogos de su tiempo. Los darwinistas sostenían que el impulso fundamental de un ser vivo es la autoconservación. Nietzsche responde que eso es un efecto secundario y no el motor: lo vivo quiere ante todo descargar su fuerza, y la vida misma es voluntad de poder.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay que entender bien la palabra, porque en castellano suena a política y a dominar a otros. Se refiere a algo más amplio: al impulso de crecer, de extenderse, de imponer una forma, de convertir en propio lo ajeno. Una planta que ocupa una grieta, un artista que somete un material, un científico que reduce un fenómeno a una ley y un tirano que somete a un pueblo estarían haciendo, según él, la misma operación en escalas distintas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y observa que la conservación pura no explica lo que hace la gente: nadie se juega la vida por conservarse, y sin embargo la gente se juega la vida constantemente por una idea, por una obra o por una posición. Un ser cuya ley fuera conservarse no correría ningún riesgo, y los seres vivos no hacen otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el apartado treinta y seis intenta el paso grande: propone que quizá todo lo que existe sea voluntad de poder y nada más, y lo formula expresamente como una hipótesis, con condicionales. Ahí el libro pasa de la psicología a la metafísica y se queda sin apoyos; es su afirmación más ambiciosa y la que menos se sostiene.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un ser cuya ley fuera conservarse no arriesgaría nada, y los seres vivos no hacen otra cosa que arriesgar: por eso la conservación no puede ser lo primero.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No existe un punto de vista desde el que se vea sin estar en ningún sitio",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tesis que hoy se llama perspectivismo recorre el libro sin ese nombre. Sostiene que todo conocimiento se produce desde una posición, con unos intereses y con unos órganos determinados, y que la idea de un conocimiento sin perspectiva —ver sin estar en ninguna parte, un ojo que no mira desde ningún sitio— es una contradicción.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su blanco no es la ciencia, que le interesa y que respeta, sino la pretensión filosófica de haber alcanzado un punto de vista absoluto. Contra Kant, contra los realistas y contra los idealistas, sostiene lo mismo: cada uno describe el mundo que sus intereses le permiten ver, y llama objetividad a la posición desde la que lo mira.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La objeción evidente se la hace él mismo en el apartado veintidós, y es de las mejores páginas del libro. Después de describir la interpretación mecanicista de la naturaleza como una interpretación entre otras, imagina a un lector protestando que también eso que él dice es interpretación; y contesta que tanto mejor, que en buena hora sea así. No pretende haber escapado del problema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sale de ahí no es un relativismo cómodo, y conviene decirlo porque es el malentendido más extendido sobre Nietzsche. No sostiene que todas las interpretaciones valgan lo mismo; sostiene que hay que juzgarlas por lo que revelan de quien las hace y por lo que permiten hacer. Unas perspectivas son más ricas, más amplias y más honradas que otras, y esa jerarquía le importa muchísimo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que todo conocimiento venga de algún sitio no significa que todos valgan igual: significa que hay que preguntar desde dónde se mira antes de creerlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los filósofos quisieron fundar la moral cuando aún no la habían descrito",
+      },
+      {
+        b: "texto",
+        texto:
+          "La quinta parte del libro se titula, con toda intención, para la historia natural de la moral, y su acusación es de método. Todos los filósofos morales, dice, han querido dar un fundamento a la moral, es decir, demostrar que la suya es la correcta; y ninguno ha hecho antes el trabajo que haría cualquier ciencia, que es reunir el material y describir las morales que existen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su propuesta es tratar las morales como datos, no como candidatas a la verdad. Y ofrece una manera de leerlas que sigue siendo útil: toda moral es una semiótica de los afectos, un conjunto de signos que revela qué teme, qué desea y qué necesita el grupo que la sostiene. Una prohibición dice más de quienes la dictan que de lo prohibido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sostiene además que lo esencial en toda moral es que sea una coacción prolongada en una sola dirección, y que de esa coacción larga han salido todas las cosas que hoy admiramos: el arte, la música, la danza, la razón, la capacidad de pensar durante horas. Lo que produjo la civilización europea no fue la libertad, dice, sino siglos de obediencia estrecha y arbitraria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa mirada, aplicada sistemáticamente, es lo que después llamaría genealogía y lo que ha influido en toda la sociología y la historia posteriores. Su límite es que la historia concreta que cuenta apenas tiene pruebas: reconstruye el origen de la moral europea por conjetura psicológica, y los historiadores llevan un siglo señalando que ese relato no está documentado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una prohibición informa más sobre quien la dicta que sobre lo prohibido: lee las morales como síntomas y no como propuestas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hay dos morales básicas y una de ellas empieza diciendo que no" },
+      {
+        b: "texto",
+        texto:
+          "El apartado doscientos sesenta contiene la distinción más famosa de Nietzsche, y hay que contarla con cuidado porque se cita casi siempre mal. Distingue dos tipos básicos de moral que ha encontrado recorriendo la historia: la de señores y la de esclavos. No son dos clases sociales que existan hoy, sino dos maneras de generar valores, y sostiene que en cualquier europeo actual conviven las dos, mezcladas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la moral de señores, el que valora es el que está bien: mira su propia vida y la llama buena, y llama malo, en el sentido de despreciable, a lo que le parece bajo, cobarde, servil o mezquino. Su punto de partida es una afirmación de sí mismo, y lo despreciado es un añadido posterior, una consecuencia sin importancia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La moral de esclavos funciona al revés y ese orden es lo esencial. Nace de quienes sufren y no pueden responder, y empieza diciendo que no a lo que está fuera, a lo distinto, a lo que no es uno mismo: primero fabrica al malvado —que es exactamente el bueno de la otra moral— y solo después, por contraste, se llama buena a sí misma. Nietzsche llama a ese motor resentimiento, y sostiene que aquí valorar es un acto de venganza imaginaria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y observa cuáles son sus virtudes: la compasión, la humildad, la paciencia, la bondad, la mansedumbre. Son, dice, exactamente las cualidades que hacen soportable el sufrimiento de los que no pueden cambiar su situación. No las considera despreciables por ser útiles: las considera sospechosas porque se presentan como valores universales cuando son la moral de una posición concreta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Fíjate en cuál de los dos gestos llega primero: si empiezas afirmando lo tuyo o si empiezas señalando lo que odias, ya estás en una moral o en la otra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El título no propone hacer lo que a uno le apetezca, sino salir de una pareja de palabras",
+      },
+      {
+        b: "texto",
+        texto:
+          "El malentendido que arrastra este libro desde que se publicó está en su título, y se deshace en cuanto se entiende que en alemán hay dos parejas de palabras distintas y en castellano casi una sola. Una pareja es bueno y malo en el sentido de logrado y fracasado, noble y despreciable. La otra es bueno y malvado, en el sentido moral, con culpa y con castigo. La primera es de la moral de señores; la segunda, de la de esclavos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que el título anuncia es situarse más allá de la segunda pareja, no de las dos. Nietzsche no propone abolir toda distinción entre lo mejor y lo peor —al contrario, su libro entero es una jerarquía constante—, sino dejar de pensar en términos de culpa, pecado y merecimiento, que son la aportación de la moral que él está examinando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El aforismo del libro que más se cita ilumina esto mismo desde otro sitio. Dice que quien lucha con monstruos debe cuidar de no convertirse él en monstruo, y que si uno mira largo tiempo un abismo, el abismo mira dentro de él. Es una advertencia sobre el resentimiento: quien organiza su vida contra algo acaba teniendo la forma de aquello contra lo que se organizó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y en la sección de aforismos hay una frase que es la formulación positiva del título, y es probablemente la más luminosa que escribió: lo que se hace por amor acontece siempre más allá del bien y del mal. No describe una licencia, describe un estado en el que la contabilidad moral —lo que debo, lo que merezco, lo que me deben— sencillamente no aparece.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien organiza su vida entera contra algo acaba teniendo la forma de aquello contra lo que se organizó.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La política que defiende el libro es aristocrática, y eso está en el texto",
+      },
+      {
+        b: "texto",
+        texto:
+          "La última parte se titula qué es aristocrático y no admite lecturas suaves. Nietzsche sostiene que toda elevación del tipo humano ha sido hasta ahora obra de una sociedad aristocrática, es decir, de una sociedad que creía en una larga escala de jerarquías y en la desigualdad de valor entre los hombres, y que necesitaba la esclavitud en algún sentido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es que una cultura alta exige que alguien tenga tiempo, y que ese tiempo lo paga siempre el trabajo de otros; y que las sociedades que aspiran a la igualdad producen comodidad, seguridad y mediocridad, pero no producen ni grandes obras ni grandes hombres. Considera la democracia, el socialismo y el cristianismo tres formas del mismo movimiento de nivelación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene ser exactos con lo que esto significa y con lo que no. No es un programa político: Nietzsche no propone medidas, ni partido, ni Estado, y desprecia a los políticos de su época. Es una jerarquía de valores, y en ella la igualdad no es un bien. Quien lea el libro y no vea esto no lo ha leído; y quien lo use para justificar un régimen está haciendo algo que el propio texto no autoriza, porque el libro desprecia a las masas y también a quienes las gobiernan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay que decir dónde está el otro extremo, porque suele omitirse. En la parte octava, dedicada a los pueblos y las patrias, Nietzsche se burla del nacionalismo alemán, se declara buen europeo, elogia a los judíos como la raza más fuerte y más pura de Europa, y trata a los agitadores antisemitas de su tiempo con un desprecio que no dedica a casi nadie más. Eso también está en el texto y en el mismo libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En el mismo libro está la defensa de la desigualdad y el desprecio explícito por el nacionalismo y el antisemitismo: leerlo entero es la única manera de citarlo con honradez.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Sus páginas sobre las mujeres no admiten defensa" },
+      {
+        b: "texto",
+        texto:
+          "En la séptima parte, dedicada a nuestras virtudes, hay una serie de apartados sobre las mujeres que no se pueden explicar por el contexto, ni salvar con una lectura generosa, ni separar del resto sin hacer trampa. Hay que leerlos y decir lo que son.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Escribe que cuando una mujer tiene inclinaciones eruditas suele haber algo que no funciona bien en su sexualidad. Sostiene que querer instruirla y darle derechos es un síntoma de la decadencia europea, que su emancipación es obra de mujeres fracasadas, y que el hombre debe concebir a la mujer como una posesión. Dedica varios apartados a explicar que quienes mejor la han entendido siempre la han tratado con dureza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que agrava el caso es que aquí abandona su propio método. El resto del libro consiste en desconfiar de las evidencias heredadas y en preguntar de dónde vienen; en estas páginas repite sin examen los tópicos más gastados de su época y de su clase, y los presenta como verdades eternas sobre la naturaleza femenina. Es exactamente lo que él llama, en otro capítulo, hablar desde un instinto sin saberlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia para el lector es práctica y no exige censurar nada. Estos apartados no son una nota al pie que se pueda saltar, y tampoco invalidan las tesis sobre el conocimiento o sobre la moral, que se sostienen o se caen por sus propios argumentos. Lo que sí hacen es servir de comprobación de su tesis principal: si toda filosofía es la confesión involuntaria de su autor, aquí hay una confesión.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Su tesis era que toda filosofía delata a quien la escribe: estas páginas suyas son la mejor prueba que existe de que tenía razón.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que los valores no se descubren sino que se fabrican, que se pueden fechar y atribuir, y que averiguar quién los fabricó y para qué es más importante que discutir si son verdaderos. De ahí salen la crítica del sujeto, el perspectivismo y la distinción entre las dos morales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una manera de leer que ya no se puede desaprender. Después de él, preguntar de dónde viene una norma y a quién le conviene es un gesto normal en historia, en sociología y en psicología; y buena parte de la filosofía del siglo XX, empezando por Freud y siguiendo por Foucault, trabaja con herramientas que están en estas páginas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en el método y en el alcance. Argumenta por afirmación, por diagnóstico psicológico y a menudo por insulto, y convierte esa falta de sistema en una virtud; su historia del origen de la moral es una conjetura sin pruebas; y su intento de explicar el mundo entero como voluntad de poder es el tipo de metafísica que él critica en los demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en dos contenidos concretos que ya se han dicho: los apartados sobre las mujeres, indefendibles, y una jerarquía de valores en la que la igualdad no cuenta y la esclavitud es el precio aceptable de una cultura alta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que le pasó a este libro después es la razón por la que hay que leerlo con la historia delante. Nietzsche enloqueció en 1889 y su hermana Elisabeth, casada con un agitador antisemita, se hizo con sus manuscritos, montó un archivo en Weimar, compuso con sus notas sueltas un libro que él nunca escribió y lo entregó al nacionalismo alemán, hasta el punto de regalarle a Hitler el bastón de su hermano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La reparación llegó tarde y es de las pocas historias felices de la filología. A partir de 1950, el trabajo de Walter Kaufmann empezó a separar a Nietzsche de la lectura nazi, y desde 1967 la edición crítica de Giorgio Colli y Mazzino Montinari reconstruyó los textos a partir de los manuscritos originales y dejó documentadas, una por una, las manipulaciones de su hermana.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro que ataca el nacionalismo alemán acabó siendo su símbolo porque quien guardaba los papeles decidió qué se publicaba: eso también es una lección.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "mas-alla-bien-mal": MAS_ALLA_BIEN_MAL,
   "contrato-social": CONTRATO_SOCIAL,
   "etica-nicomaco": ETICA_NICOMACO,
   "etica-amador": ETICA_AMADOR,

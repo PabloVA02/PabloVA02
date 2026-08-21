@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "mas-alla-bien-mal": "Preludio de una filosofía del futuro",
   "contrato-social": "Principios de derecho político",
   "cosas-buenas": "Entiende tu cerebro, gestiona tus emociones, mejora tu vida",
   "maneras-de-amar": "La nueva ciencia del apego adulto y cómo puede ayudarte a encontrar el amor y conservarlo",

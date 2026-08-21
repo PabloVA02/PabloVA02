@@ -136,22 +136,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "mas-alla-bien-mal",
-    titulo: "Más allá del bien y del mal",
-    autor: "Friedrich Nietzsche",
-    ano: 1886,
-    gancho: "Lo pagó de su bolsillo, se imprimieron seiscientos ejemplares y en el primer año vendió poco más de cien. Cuarenta años después, su hermana recibía a Hitler en el archivo donde guardaba sus papeles, con un libro suyo que él nunca escribió.",
-    porQue: "Porque es el Nietzsche argumentado, el que explica en prosa lo que Zaratustra decía en parábolas. Y porque el título no significa lo que casi todo el mundo cree que significa: no es una licencia para hacer lo que a uno le dé la gana.",
-    minutos: 27.5,
-    capitulos: [
-      { titulo: "Seiscientos ejemplares pagados de su bolsillo", minutos: 5.3 },
-      { titulo: "El filósofo también tiene un cuerpo", minutos: 5.5 },
-      { titulo: "Dos maneras de decir bueno", minutos: 5.7 },
-      { titulo: "Lo que no se puede lavar", minutos: 5.4 },
-      { titulo: "El archivo de Weimar", minutos: 5.6 },
-    ],
-  },
-  {
     id: "existencialismo-humanismo",
     titulo: "El existencialismo es un humanismo",
     autor: "Jean-Paul Sartre",
