@@ -26748,7 +26748,502 @@ const GUERRA_ARTE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Guerra y paz, en dieciséis páginas.
+
+   EXTENSO, y aquí no hay discusión: mil quinientas páginas, quince años de
+   historia europea, 559 personajes y dos ensayos de filosofía dentro. En
+   ocho páginas saldría el resumen de contraportada.
+
+   Registro NARRATIVO: títulos cortos de imagen, afirmación en la primera
+   frase, caja del rayo en segunda persona.
+   -------------------------------------------------------------------------- */
+
+const GUERRA_Y_PAZ: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "«Esto no es una novela»" },
+      {
+        b: "texto",
+        texto:
+          "Cuando le preguntaron qué había escrito, Tolstói contestó por escrito que Guerra y paz no era una novela, ni mucho menos un poema, y todavía menos una crónica histórica. Lo publicó en un artículo de 1868, mientras aún salía por entregas, y no era una pose: la literatura rusa, dijo, nunca se había ajustado a las formas europeas y no tenía por qué empezar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las dimensiones explican en parte esa negativa. Son unas mil quinientas páginas, quince años de historia europea y quinientos cincuenta y nueve personajes con nombre, de los cuales alrededor de doscientos existieron de verdad. Dentro hay una novela de familias, una crónica militar, tres tratados de filosofía de la historia y un ensayo final sobre el libre albedrío.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su mujer, Sofía Tolstáia, copió el manuscrito a mano siete veces mientras él lo reescribía, descifrando una letra que casi nadie más entendía, con cinco hijos en la casa y llevando la contabilidad de la finca. Ese trabajo aparece documentado en sus propios diarios y sin él no habría libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas dieciséis páginas recorren lo que contiene: por dónde empezó a escribirlo, quiénes son las familias que lo habitan, qué le pasa a un hombre tumbado en el campo de Austerlitz, por qué una escena con un roble decide una vida, qué ocurrió en Borodinó, por qué sostiene que ningún general dirige una batalla, quién es el campesino que cambia a su protagonista y qué demonios hace un tratado de filosofía al final de una novela.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Su autor se negó a llamarlo novela, y tenía razón: dentro hay una novela, una crónica militar y dos ensayos discutiendo con ella.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Empezó por el final y fue retrocediendo" },
+      {
+        b: "texto",
+        texto:
+          "El libro que Tolstói quería escribir era otro. En 1856 se propuso una novela sobre un decembrista que vuelve a Moscú después de treinta años de destierro en Siberia, envejecido y con las ideas intactas. Para explicar a ese hombre tuvo que contar la revuelta de 1825 en la que participó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y para explicar la revuelta de 1825 tuvo que contar de dónde habían salido aquellos oficiales, que era de la campaña contra Napoleón: jóvenes aristócratas que entraron en París en 1814, vieron cómo se vivía en Europa y volvieron a un país con siervos. Así que retrocedió hasta 1812.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y una vez allí decidió que no se entendía 1812 sin las derrotas anteriores, así que se fue hasta 1805, a la campaña de Austerlitz, donde el ejército ruso quedó humillado. Ahí empieza el libro, con una recepción en un salón de San Petersburgo donde todos hablan en francés de lo peligroso que es Bonaparte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El decembrista que iba a ser el protagonista no llega a aparecer nunca, y esa manera de trabajar explica la forma del libro: cada acontecimiento está contado buscando su causa, y la causa siempre está más atrás y es más pequeña de lo que parecía. Es el método del libro y también su tesis.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cada vez que buscas la causa de algo, la encuentras más atrás y más pequeña de lo que esperabas, y sigue habiendo otra detrás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cinco familias y un país que habla francés en casa" },
+      {
+        b: "texto",
+        texto:
+          "La novela sigue a cinco familias de la aristocracia rusa, y el detalle que las define aparece en la primera página: hablan en francés entre ellos. La primera edición reproduce párrafos enteros en ese idioma sin traducir, porque así se hablaba en los salones de San Petersburgo mientras el país se preparaba para luchar contra Francia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los Rostov son una familia de Moscú, cariñosa, ruidosa y arruinándose despacio por generosidad y mala cabeza. De ellos salen Natasha, que tiene trece años cuando empieza el libro, y su hermano Nikolái, que se va de húsar. Los Bolkonski son lo contrario: una casa de campo gobernada por un viejo príncipe autoritario que impone horarios de geometría a su hija María, con el príncipe Andréi como heredero inteligente y amargado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los Kuraguin son los depredadores: el príncipe Vasili coloca a sus hijos donde conviene, y esos dos hijos —la bellísima Hélène y el guapo e idiota de Anatole— van a hacer casi todo el daño de la novela sin proponérselo especialmente. Y en medio está Pierre Bezújov, hijo ilegítimo de un conde riquísimo, gordo, miope, torpe en los salones y con una honestidad que le impide encajar en ninguna parte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tolstói los presenta a todos en las primeras cien páginas, en una fiesta y en una casa donde un anciano se está muriendo, y desde ahí los va a seguir durante quince años. Ninguno de los cinco acaba donde el lector espera al empezar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una aristocracia que habla en el idioma del país contra el que va a luchar es la primera contradicción del libro y no se resuelve nunca.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una fortuna que no sabe llevar" },
+      {
+        b: "texto",
+        texto:
+          "Pierre entra en la novela como un problema social: es hijo natural, nadie sabe qué hacer con él y todos le tratan con una condescendencia amable. Cuando su padre muere y resulta que le ha dejado la fortuna entera y el título, la misma gente que le ignoraba empieza a buscarle. En dos semanas está casado con Hélène Kuraguin sin haberlo decidido del todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ahí, la mitad del libro consiste en verle intentar hacer algo bueno con lo que tiene. Se bate en duelo por un asunto que no le importa y descubre que no siente nada. Entra en la masonería convencido de haber encontrado por fin un sentido, se toma en serio los rituales y acaba viendo que la mayoría de sus hermanos están allí por contactos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después decide reformar sus tierras: liberar a sus siervos, construir escuelas y hospitales. Recorre sus propiedades, da órdenes, se emociona con lo que ve y no se entera de nada. Su administrador le enseña escuelas que están vacías y hospitales que son fachadas, y le presenta cuentas donde el dinero de la reforma se ha ido a lo de siempre. Pierre vuelve a Moscú convencido de haber hecho el bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tolstói, que estaba intentando exactamente eso mismo en su propia finca de Yásnaia Poliana mientras escribía el libro, cuenta ese fracaso sin ninguna piedad y sin ninguna burla. Es la parte de la novela que menos se cita y una de las más honestas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Querer hacer el bien con dinero y sin saber cómo funciona lo que administras produce sobre todo escuelas vacías bien enseñadas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un cielo enorme y un hombre pequeño" },
+      {
+        b: "texto",
+        texto:
+          "La escena más famosa del libro dura media página. En la batalla de Austerlitz, en diciembre de 1805, el príncipe Andréi coge una bandera caída y corre hacia delante gritando, buscando exactamente el momento heroico que llevaba años imaginando. Un golpe lo tira al suelo y se queda tumbado boca arriba, herido, sin poder moverse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y entonces ve el cielo. Escribe Tolstói que no había visto nunca nada parecido: un cielo alto, gris, tranquilo, con nubes que se deslizan despacio. Andréi piensa que qué callado y qué solemne, nada que ver con la carrera, los gritos y la bandera; y que todo es vacío y engaño salvo ese cielo infinito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Poco después pasan unos jinetes junto a él. Uno se detiene, mira el cuerpo y dice en francés que es una muerte hermosa. Es Napoleón, el hombre al que Andréi admiraba por encima de todos y a cuya altura quería llegar. Desde el suelo, comparado con aquel cielo, le parece un hombre pequeño, insignificante y ocupado en cosas mínimas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena decide el resto de la novela y decide también su argumento sobre la historia. El personaje que quería ser un gran hombre descubre en un instante, y no razonando sino mirando hacia arriba, que la grandeza que perseguía no existe.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todo lo que persigues con más ambición se ve pequeño desde el suelo, y no hace falta un argumento para verlo: basta con caerse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un roble seco a principios de primavera" },
+      {
+        b: "texto",
+        texto:
+          "La otra escena que decide una vida no tiene ninguna batalla dentro. Andréi ha vuelto de la guerra, su mujer ha muerto en el parto, vive en el campo administrando sus tierras y ha decidido que ya no espera nada. En un viaje de primavera, el coche pasa junto a un roble viejo, torcido, con las ramas rotas y sin una sola hoja mientras todo el bosque alrededor ha reverdecido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Andréi se reconoce en él y se lo dice a sí mismo con una satisfacción amarga: el roble tiene razón, no hay que dejarse engañar por la primavera, la vida está terminada para los dos. Piensa que su papel es vivir sin hacer daño y sin desear nada, y sigue el viaje casi consolado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa noche se aloja en casa de los Rostov y no puede dormir. Por la ventana abierta oye a una muchacha de dieciséis años, Natasha, hablando con su prima en el piso de arriba, entusiasmada con la luna, diciendo que si se pusiera en cuclillas y se abrazara las rodillas podría echarse a volar. No dice nada interesante; solo está entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al volver, semanas después, el coche pasa por el mismo sitio y Andréi busca el roble y no lo encuentra, porque el árbol está cubierto de hojas nuevas de arriba abajo y ya no lo reconoce. Y entonces decide, sin razonarlo, que a los treinta y un años la vida no ha terminado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie sale de una temporada mala por un razonamiento: se sale porque un día ves algo que no encaja con la historia que te contabas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una danza que nadie le había enseñado" },
+      {
+        b: "texto",
+        texto:
+          "La escena en la que Tolstói dice lo que piensa de su país no tiene una sola frase patriótica. Natasha y su hermano vuelven de una cacería y paran en la casa modesta de un pariente lejano al que llaman el tío, un hombre que vive en el campo, caza con perros y toca la guitarra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de cenar, el tío se pone a tocar una canción popular rusa. Un criado da unas palmadas. Y Natasha, que se levanta y empieza a bailar, hace algo que asombra a todos los presentes: baila la danza rusa exactamente como hay que bailarla, con los gestos y los tiempos justos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tolstói se detiene ahí y hace la pregunta en voz alta. De dónde había sacado aquello una condesita educada por una institutriz francesa, criada en salones, que no había pisado nunca una aldea y a la que solo habían enseñado a bailar el vals y la mazurca. Y contesta que aquel espíritu y aquellos movimientos estaban en el aire que había respirado, y que eran lo que su padre, su madre y su tía llevaban dentro sin saberlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la respuesta del libro entero a la contradicción del principio, la de una aristocracia que habla francés y va a luchar contra Francia. No hace falta ninguna declaración: hace falta una chica de dieciséis años bailando bien una danza que nunca aprendió.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que de verdad has heredado no es lo que te enseñaron: es lo que te sale bien sin que nadie te lo haya enseñado nunca.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una fuga que lo rompe todo" },
+      {
+        b: "texto",
+        texto:
+          "Andréi y Natasha se comprometen, y el viejo príncipe Bolkonski impone una condición: un año de espera antes de la boda, con él fuera del país. Es un plazo razonable para un hombre de treinta y cuatro años y una eternidad para una chica de dieciséis, y esa asimetría es la que produce el desastre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En Moscú, sola, aburrida y sin noticias, Natasha conoce a Anatole Kuraguin en la ópera. Anatole es guapo, seguro, y se le acerca con una intensidad que ella no había visto nunca. En unas semanas la convence para fugarse. Lo que ella no sabe, y el lector sí, es que Anatole ya está casado en secreto con una mujer en Polonia y que todo el plan lo ha montado un amigo suyo por diversión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La fuga se frustra la misma noche porque una prima la descubre y avisa. Natasha rompe el compromiso por carta, intenta envenenarse con arsénico, sobrevive y pasa meses enferma. Andréi, al enterarse, se niega a perdonarla y busca a Anatole por media Rusia para batirse con él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tolstói no la juzga ni la disculpa. Se limita a contar cómo una chica sin nada que hacer durante un año, sin nadie que la escuche y con un hombre delante que le presta toda su atención, toma en dos semanas una decisión que destruye su vida y la de otros tres. Es la parte de la novela que mejor entiende cualquier lector de cualquier época.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La atención completa de alguien durante dos semanas puede más que cualquier promesa hecha con un año por delante.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Setenta mil bajas en una tarde" },
+      {
+        b: "texto",
+        texto:
+          "El 7 de septiembre de 1812, los ejércitos ruso y francés se encontraron junto a la aldea de Borodinó, a unos ciento veinte kilómetros de Moscú. En una sola jornada hubo alrededor de setenta mil muertos y heridos entre los dos bandos, la cifra más alta de toda la época napoleónica en un día de combate. Nadie ganó de manera clara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tolstói fue al campo de batalla en 1867 mientras escribía el libro, recorrió el terreno, dibujó mapas y calculó distancias y horas. Y decidió contarlo de una manera que en 1869 no se había hecho: desde dentro, sin ninguna visión general, siguiendo a un civil que no entiende nada de lo que ve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pierre Bezújov se presenta allí a caballo, con sombrero blanco y frac, como quien va a ver un espectáculo. Los soldados lo miran con extrañeza y luego con simpatía. Sube a una batería, se queda mirando, y en un rato empieza a haber humo, gritos que no entiende, hombres que caen a su lado y una confusión en la que nadie sabe qué está pasando a cien metros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa manera de narrar es la que hizo escuela. En Borodinó no hay panorámica ni mapa: hay barro, ruido, órdenes que llegan tarde y una sensación permanente de que aquello no lo está gobernando nadie. Tolstói había estado en la guerra de Crimea, en el sitio de Sebastopol, y sabía exactamente de qué estaba hablando.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie que esté dentro de una batalla sabe cómo va la batalla, y todos los relatos ordenados de una se escriben después.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nadie está dirigiendo esto" },
+      {
+        b: "texto",
+        texto:
+          "De aquella experiencia sale la tesis que Tolstói repite en toda la segunda mitad del libro y que va contra la manera entera de contar la historia. Sostiene que un general no dirige una batalla, y lo argumenta con detalle militar y no con retórica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus razones son de logística. Cuando un mando da una orden, esa orden tarda en llegar, y al llegar el sitio al que se refería ha cambiado: el regimiento ya no está ahí, la colina ya se ha tomado o se ha perdido, el enemigo se ha movido. Además, la mayoría de las órdenes no se ejecutan, se ejecutan a medias o se ejecutan al revés, y nadie informa hacia arriba de eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Napoleón, en el retrato que hace de él, pasa Borodinó resfriado, en una tienda, recibiendo partes que ya no valen y dando instrucciones sobre una batalla que existe solo en su cabeza. Está convencido de dirigirla, y lo que en realidad decide el resultado es una suma inabarcable de cosas pequeñas: si un regimiento aguanta, si un puente se atasca, si llueve, si un cabo grita en el momento adecuado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tolstói añade el detalle que le da la razón. Los partes de batalla se redactan después, cuando ya se sabe quién ganó, y en ellos todo aparece ordenado y previsto. La historia militar se escribe entera con esos partes, y por eso siempre parece que alguien lo había planeado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los planes que explican una victoria se redactan cuando ya se sabe quién ganó, y por eso siempre encajan tan bien.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El general que gana no haciendo nada" },
+      {
+        b: "texto",
+        texto:
+          "Frente a Napoleón, Tolstói coloca a Kutúzov, el viejo general ruso que dirigió la campaña de 1812, y lo convierte en su héroe por razones que a cualquier militar le sonarían a insulto. Kutúzov es gordo, está enfermo, tiene un ojo perdido, se duerme en los consejos de guerra y apenas da órdenes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su gran acierto es una decisión de no hacer. Después de Borodinó, con Moscú por delante, convoca un consejo en una isba de la aldea de Filí y decide entregar la ciudad sin combatir, contra la opinión de casi todos sus generales y sabiendo que le van a acusar de traición. Su razonamiento es que el ejército importa más que la capital, y que si conserva el ejército el invierno hará el resto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y así ocurrió. Napoleón entró en Moscú, se encontró una ciudad vacía que ardió durante días, esperó cinco semanas una rendición que no llegó y tuvo que retirarse por el mismo camino arrasado por el que había venido. De los más de medio millón de hombres que entraron en Rusia, volvieron unas decenas de miles en condiciones de combatir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kutúzov, en el retrato de Tolstói, no ganó porque tuviera un plan mejor: ganó porque entendió que él no controlaba nada y se limitó a no estropear lo que el tiempo, el hambre y la distancia estaban haciendo solos. Es la definición de sabiduría que el libro defiende.",
+      },
+      {
+        b: "idea",
+        texto:
+          "A veces la decisión más difícil y más acertada consiste en aguantar sin hacer nada mientras todo el mundo exige que hagas algo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un conde disfrazado de campesino con una pistola" },
+      {
+        b: "texto",
+        texto:
+          "Cuando el ejército y casi toda la población abandonan Moscú, Pierre decide quedarse. La idea que le mantiene en pie es delirante y él lo sabe a medias: cree que su destino personal es matar a Napoleón, y ha llegado a esa conclusión sumando las letras de su nombre y las del emperador según un cálculo numerológico que le enseñaron los masones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se disfraza de campesino, esconde una pistola y se queda en una ciudad que arde. Y no llega a acercarse a Napoleón en ningún momento: se pasa el día salvando a una niña de una casa en llamas y defendiendo a una mujer armenia de unos soldados franceses que le están arrancando el collar. Por eso lo detienen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después viene la escena que Tolstói escribe con más frialdad de todo el libro. A Pierre lo llevan con otros presos ante un pelotón. Los van fusilando de dos en dos, de manera rutinaria y con papeleo. Él es el sexto y espera su turno mirando. Cuando llega, lo apartan: nunca estuvo condenado, se lo llevaron para que viera. Después de aquello, escribe, algo dentro de él se desprendió y dejó de creer en el orden del mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hombre riquísimo que quería reformar sus tierras y encontrar el sentido de todo pasa entonces cuatro semanas descalzo, con piojos, comiendo lo que le dan y andando en una columna de prisioneros.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se puede perder la fe en que el mundo tenga algún orden en una sola mañana, viendo cómo se hace una cosa con papeleo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un campesino redondo que habla en refranes" },
+      {
+        b: "texto",
+        texto:
+          "En el barracón de los prisioneros, Pierre conoce a Platón Karatáiev, un soldado campesino de unos cincuenta años al que Tolstói describe como redondo: la cabeza redonda, la espalda, los movimientos, el olor a pan. Karatáiev es la respuesta que Pierre llevaba mil páginas buscando, y llega en forma de un hombre que no ha leído nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No tiene ideas, tiene refranes, y los suelta sin ninguna intención de convencer a nadie. Habla con todo el mundo igual, se duerme en cuanto se tumba, cose botas para los guardias franceses con el mismo cuidado que para los suyos, y cuando le preguntan algo cuenta una historia que no siempre viene a cuento y que a veces contradice la que contó ayer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Pierre ve en él no es sabiduría: es la ausencia total de la angustia que a él lo ha perseguido siempre. Karatáiev no se pregunta por el sentido de nada porque está entero dentro de cada cosa que hace, y no se considera a sí mismo importante en absoluto, cosa que lo libera de casi todo el sufrimiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la retirada, agotado y enfermo, Karatáiev se queda sentado en la cuneta y ya no puede seguir. Un soldado francés se acerca, se oye un disparo y la columna continúa. Pierre no vuelve la cabeza y sigue andando, y así lo cuenta el libro, sin una sola frase de duelo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La paz que buscas leyendo suele tenerla alguien que no ha leído nada y que no se considera importante.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una novela que termina en un tratado" },
+      {
+        b: "texto",
+        texto:
+          "Guerra y paz tiene dos epílogos y el segundo no contiene ni un personaje. Son unas cuarenta páginas de ensayo puro en las que Tolstói argumenta su tesis sobre la historia y sobre la libertad, y es la parte que casi todos los lectores se saltan y que algunas ediciones colocan en apéndice.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento contra la historia de los grandes hombres es que confunde la coincidencia con la causa. Cuando millones de personas se desplazan de oeste a este y matan, decir que ocurrió porque Napoleón lo quiso es tan explicativo como decir que un río corre porque la primera gota empuja. Lo que hubo fue una suma de millones de voluntades, cada una minúscula.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y propone una herramienta para pensarlo, que es la parte más original del ensayo. Dice que la historia necesita hacer lo mismo que hizo el cálculo infinitesimal con el movimiento: dejar de estudiar unidades discretas —este rey, aquella batalla— e integrar cantidades infinitamente pequeñas, las voluntades individuales, para obtener la ley del conjunto. Es una intuición sorprendente para 1869.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La última parte trata del libre albedrío, y ahí es donde el ensayo se enreda. Tolstói sostiene que cuanto más se conocen las causas de un acto, menos libre parece, y que la sensación de libertad es tan real como inexplicable. Cuarenta páginas después no ha resuelto la contradicción, y lo dice.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuantas más causas conoces de algo que hiciste, menos libre parece haber sido, y la sensación de haberlo elegido no se va.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Qué le pasa a Natasha al final" },
+      {
+        b: "texto",
+        texto:
+          "El primer epílogo transcurre siete años después, en 1820, y contiene la decisión más discutida del libro. Natasha, la chica que bailaba y cantaba y que era la fuerza viva de mil páginas, aparece casada con Pierre, con cuatro hijos, descuidada, engordada, sin cantar nunca y absorbida por completo por los pañales y por la salud de los niños.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tolstói lo escribe además con aprobación. Dice que ha dejado de lado todos sus encantos porque ya no le hacían falta, que se ocupa de su marido con celo y que discutir de ideas o cuidarse el pelo le parecería ahora una tontería. A muchísimos lectores, desde 1869, esa página les ha parecido una traición al personaje.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y es deliberada. Tolstói estaba escribiendo contra la novela romántica europea, en la que el amor termina en la boda y no se cuenta lo que viene después, y quiso mostrar exactamente lo que viene después, con la convicción, muy suya, de que una mujer entregada a su familia había alcanzado lo mejor de la vida y no lo peor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sea o no compartible esa convicción, lo que hace el epílogo es lo mismo que hace el resto del libro: negarse a terminar donde termina una historia bonita. El príncipe Andréi ha muerto, Petia Rostov también, la finca de los Rostov está arruinada, y los supervivientes discuten de política en un salón mientras los niños escuchan desde el suelo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi ninguna historia de amor cuenta los siete años siguientes, y esta los cuenta precisamente porque incomodan.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Guerra y paz recorre quince años de historia europea a través de cinco familias rusas y sostiene, con la novela y con dos ensayos, que la historia no la hacen los grandes hombres. Napoleón cree dirigir una batalla que no dirige nadie; Kutúzov acierta precisamente porque sabe que no controla nada; y lo que decide el resultado es la suma inabarcable de lo que hacen millones de personas que no aparecen en ningún parte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Junto a eso hay una segunda tesis, que va por dentro de los personajes. Andréi busca la gloria y encuentra un cielo; Pierre busca el sentido en la masonería, en la reforma agraria y en un magnicidio, y lo encuentra descalzo en una columna de prisioneros, hablando con un campesino que no ha leído nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todo lo que sé, dice Andréi al final, es que solo existen dos males verdaderos: el remordimiento y la enfermedad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Los ensayos históricos están repetidos hasta la extenuación: Tolstói vuelve seis o siete veces sobre el mismo argumento con distintas palabras, y el segundo epílogo es un tratado colocado detrás de una novela sin ninguna transición. Turguéniev, que lo admiraba, escribió que aquella parte era lo peor del libro, y Flaubert dijo lo mismo desde Francia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una contradicción de fondo que la crítica señala desde el principio. Tolstói dedica cientos de páginas a demostrar que las decisiones individuales no cambian nada, y a la vez escribe una novela donde lo único que importa son las decisiones morales de sus personajes: si Pierre se queda o se va, si Andréi perdona o no. Las dos mitades del libro no se ponen de acuerdo, y esa tensión sin resolver es probablemente lo que lo mantiene vivo. Y conviene saber una cosa más: después de su crisis religiosa de 1880, Tolstói renegó de este libro y lo llamó basura, y dedicó los treinta años siguientes a escribir otra cosa.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "guerra-y-paz": GUERRA_Y_PAZ,
   "guerra-arte": GUERRA_ARTE,
   "acto-creativo": ACTO_CREATIVO,
   "cartas-joven-poeta": CARTAS_JOVEN_POETA,

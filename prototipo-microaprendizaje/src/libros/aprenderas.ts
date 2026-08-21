@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "guerra-y-paz":
+    "Tolstói se negó a llamarlo novela: dentro hay cinco familias, quince años de historia europea, 559 personajes y dos ensayos de filosofía discutiendo con el relato. Su mujer lo copió a mano siete veces mientras él lo reescribía.",
+
   "guerra-arte":
     "Pressfield fue camionero, taxista y recolector de fruta, y publicó su primera novela a los cincuenta y dos años. Este libro trata de una sola cosa: por qué la gente no hace lo que sabe que debería hacer.",
 

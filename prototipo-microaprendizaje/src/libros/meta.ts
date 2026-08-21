@@ -1048,22 +1048,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "guerra-y-paz",
-    titulo: "Guerra y paz",
-    autor: "León Tolstói",
-    ano: 1869,
-    gancho: "El libro más famoso de la literatura rusa empieza con dos páginas en francés, no se publicó como novela sino por entregas con otro título, y su autor negó toda su vida que fuera una novela. Y su última parte es un ensayo sin personajes que casi nadie lee.",
-    porQue: "Porque debajo del baile y de las batallas hay una tesis: que nadie dirige la historia, que Napoleón creía decidir y no decidía nada, y que lo que mueve el mundo es la suma de millones de actos diminutos que ningún general controla.",
-    minutos: 26.7,
-    capitulos: [
-      { titulo: "Una velada en San Petersburgo, en francés", minutos: 5.2 },
-      { titulo: "El cielo de Austerlitz", minutos: 5.5 },
-      { titulo: "El general que se duerme en el consejo", minutos: 5.2 },
-      { titulo: "El baile, la caza y los pañales", minutos: 5.4 },
-      { titulo: "El segundo epílogo, que casi nadie lee", minutos: 5.4 },
-    ],
-  },
-  {
     id: "el-tunel",
     titulo: "El túnel",
     autor: "Ernesto Sabato",

@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "guerra-y-paz": [
+    "por qué empezó el libro por el final y fue retrocediendo",
+    "qué ve el príncipe Andréi tumbado en Austerlitz",
+    "cómo cuenta una batalla desde dentro y sin panorámica",
+    "por qué sostiene que ningún general dirige nada",
+    "qué encuentra su protagonista en una columna de presos",
+  ],
+
   "guerra-arte": [
     "qué nombre le pone al obstáculo y por qué eso importa",
     "por qué el rechazo que sientes funciona como brújula",

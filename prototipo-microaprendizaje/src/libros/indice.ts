@@ -85,7 +85,6 @@ const CARGADORES: Record<string, Cargador> = {
   tao: () => import("./filosofia").then((m) => m.TAO_TE_CHING),
   "el-tunel": () => import("./literatura").then((m) => m.EL_TUNEL),
   "renglones-torcidos": () => import("./literatura").then((m) => m.RENGLONES_TORCIDOS),
-  "guerra-y-paz": () => import("./literatura").then((m) => m.GUERRA_Y_PAZ),
   "universo-cascara": () => import("./ciencia").then((m) => m.UNIVERSO_CASCARA),
   "vida-dali": () => import("./arte").then((m) => m.VIDA_DALI),
   "milagro-manana": () => import("./salud").then((m) => m.MILAGRO_MANANA),
