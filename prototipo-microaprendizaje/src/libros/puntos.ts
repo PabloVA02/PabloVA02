@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "elegancia-erizo": [
+    "por qué un disfraz así aguanta veintisiete años",
+    "qué está diagnosticando Paloma cuando decide morirse",
+    "cómo una cita de Tolstói derriba todo el montaje",
+    "de dónde sale el erizo del título y quién lo escribe",
+    "por qué su final es lo más discutido del libro",
+  ],
+
   "el-tunel": [
     "por qué contar el final en la primera línea cambia el libro",
     "el detalle de un cuadro del que nace todo",

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "elegancia-erizo":
+    "Una portera de cincuenta y cuatro años finge la torpeza que sus vecinos ricos esperan y lee a Tolstói con la puerta cerrada. Una niña de doce ha decidido suicidarse el día que cumpla trece. Viven en el mismo edificio.",
+
   "el-tunel":
     "La primera línea dice quién es el narrador y a quién mató, así que no queda intriga. Lo que Sabato cuenta en las ciento cincuenta páginas siguientes es cómo un hombre llega ahí razonando correctamente.",
 

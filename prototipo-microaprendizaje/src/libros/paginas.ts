@@ -49870,7 +49870,272 @@ const EL_TUNEL: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La elegancia del erizo, en ocho páginas.
+
+   Breve. NOVELA → apartado 3 bis: titular corto de imagen y la afirmación
+   en la primera frase; caja del rayo en segunda persona.
+
+   El riesgo de este libro es resumirlo como lo resume su propia contraportada
+   —una portera secretamente culta y una niña superdotada—, que es contar el
+   disfraz y no el libro. Lo que hay que contar es el mecanismo: por qué
+   funciona el disfraz, qué lo rompe y qué precio pone la novela al final.
+
+   Y la regla 5 aquí tiene un caso claro y muy discutido: la crítica de
+   clase que se le hace al libro —que la portera vale porque lee a Husserl—
+   es seria y va en la conclusión con su argumento, no despachada.
+   -------------------------------------------------------------------------- */
+
+const ELEGANCIA_ERIZO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una portera que lee a Husserl" },
+      {
+        b: "texto",
+        texto:
+          "La novela se sostiene sobre un ocultamiento voluntario. Renée Michel, cincuenta y cuatro años, viuda, portera de un edificio señorial del número 7 de la calle de Grenelle, en París, ha decidido que nadie sepa quién es. Tiene la televisión encendida todo el día en la portería para que se oiga desde el descansillo, deja que huela a col, contesta con monosílabos y aparenta la torpeza que sus vecinos esperan de ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás de esa puerta lee a Tolstói, a Kant y a Husserl, tiene un gato llamado León por Tolstói, ve cine japonés y escucha a Mahler. No es una autodidacta ingenua: discute a los filósofos que lee y se ríe de la fenomenología con la soltura de quien la ha estudiado. Muriel Barbery, que publicó esta novela en 2006, era profesora de filosofía, y se nota.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda voz del libro tiene doce años. Paloma Josse vive en el cuarto piso, es hija de un diputado, es extraordinariamente inteligente y ha decidido suicidarse el día que cumpla trece años, el 16 de junio, después de prender fuego al piso. Mientras llega la fecha escribe dos cuadernos donde apunta lo que observa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: por qué el disfraz de Renée funciona durante veintisiete años, qué está diagnosticando exactamente Paloma cuando decide morirse, la escena en que alguien la reconoce por una cita, qué dice el libro que hace el arte con el tiempo, de dónde sale el erizo del título, y por qué su final es lo más discutido de todo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un disfraz solo necesita ser mejor que la atención que le van a prestar, y a algunas personas casi no se les presta ninguna.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El disfraz que nadie comprueba" },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace verosímil la novela no es que Renée sea culta: es que nadie mire. Su interpretación de portera es bastante mala si alguien se fija —tiene libros por todas partes, se le escapan palabras que no tocan, y en una escena temprana corrige mentalmente una falta de gramática a una vecina rica—, y aguanta porque los habitantes del edificio han decidido de antemano lo que hay detrás de esa puerta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro es preciso con el mecanismo, y por eso incomoda. La invisibilidad social no funciona por desprecio activo, que exigiría mirar, sino por clasificación: se asigna a alguien una categoría en el primer segundo y a partir de ahí se le atiende lo justo para confirmarla. Los vecinos no piensan mal de Renée; sencillamente no piensan en ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Renée colabora con eso, y esa es la parte que la novela no le perdona del todo. Su ocultamiento empezó por defensa —cuenta de dónde viene, de una familia campesina pobre, y qué le pasó a su hermana— y se convirtió en costumbre y luego en orgullo. Prefiere el desprecio de gente a la que desprecia antes que exponerse a que la miren de verdad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia es que su vida entera cabe en dos habitaciones y unas horas de lectura, y que ella lo llama libertad. La novela la trata con cariño y no le da la razón: enseña con bastante frialdad que un escondite perfecto y una celda son la misma construcción vista desde dos lados.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El escondite que te protege de que te juzguen mal también te protege de que te conozcan, y las dos cosas van juntas siempre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un cuaderno y una fecha" },
+      {
+        b: "texto",
+        texto:
+          "Paloma no quiere morirse por infelicidad, y eso es lo que hace interesante su parte. Lo que ha concluido, con doce años, es que la vida de los adultos que tiene alrededor es una pecera: gente muy preparada y muy cara que se pasa el día hablando de nada, y que ella acabará siendo eso mismo si se deja. Su suicidio es una conclusión lógica, no un arrebato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mientras espera la fecha lleva dos cuadernos, y la distinción entre ellos es lo mejor de su personaje. En uno anota lo que llama pensamientos profundos, que son sus juicios sobre el mundo. En el otro anota el movimiento del mundo: gestos concretos que ha visto y que le han parecido bellos, un jugador de rugby haciendo algo con el balón, alguien recogiendo una cosa del suelo. El primero la confirma en su decisión; el segundo la va contradiciendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El retrato de su familia es donde la novela se pone satírica y afila mejor. La madre lleva diez años en psicoanálisis y habla con las plantas; el padre es diputado y ejerce de diputado también en casa; la hermana mayor prepara una tesis sobre Husserl y usa la filosofía como quien usa un bolso caro. Es una crítica muy francesa a un tipo muy francés: el que confunde tener criterio con tener referencias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay que decir el precio de ese personaje, porque es el reparo más repetido. Paloma no habla como una niña de doce años ni de lejos: escribe aforismos, cita autores y construye párrafos idénticos a los de la portera de cincuenta y cuatro. Las dos voces del libro son en realidad una sola, la de la autora, repartida en dos edades.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Apunta durante un mes los gestos concretos que te han parecido bellos: es una lista que discute con casi cualquier conclusión general que hayas sacado sobre tu vida.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La primera frase de Anna Karénina" },
+      {
+        b: "texto",
+        texto:
+          "El libro gira cuando alguien mira. Muere un vecino y compra su piso Kakuro Ozu, un japonés adinerado, culto y educado de una manera que el edificio no había visto nunca: saluda a la portera, la escucha y le hace preguntas. Y en una conversación de descansillo Renée baja la guardia un segundo y se le escapa el principio de la primera frase de «Anna Karénina», la de que todas las familias felices se parecen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cualquier otro vecino habría seguido hablando. Ozu la completa. Ese es el momento exacto en que la novela cambia de dirección, y es una escena magnífica precisamente porque no pasa nada: dos personas terminan una frase de Tolstói en un rellano y a partir de ahí ya no se puede volver atrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace la cita es una operación muy concreta: convierte a Renée en alguien con quien se puede hablar. Y demuestra la tesis de la página anterior por la vía contraria: el disfraz no se cae porque ella lo pierda, se cae porque por primera vez en veintisiete años alguien estaba atendiendo. La información llevaba décadas disponible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que viene después es lo mejor del libro y lo más sencillo: una cena, un vestido prestado, una vecina que la ve salir y no la reconoce, y el pánico de Renée ante la posibilidad de que la traten bien. La novela es muy exacta con eso: alguien que lleva media vida escondido no vive una invitación como una alegría, sino como una amenaza a un sistema que le costó mucho construir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "A veces no hace falta contarle a nadie quién eres: basta con que alguien esté escuchando la primera vez que se te escapa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que el arte hace con el tiempo" },
+      {
+        b: "texto",
+        texto:
+          "El argumento de fondo de la novela es estético, y está repartido en digresiones que interrumpen la trama a propósito. Su tesis es que la vida corriente transcurre en un tiempo que no se puede habitar —urgencias, obligaciones, ruido— y que ciertas experiencias abren dentro de él un hueco donde el tiempo se detiene sin salir de él. Barbery lo llama, con una expresión suya, siempres dentro de nunca jamás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los ejemplos son concretos y es lo que salva las digresiones. Un bodegón holandés del siglo XVII, con una mesa, una copa y unas ostras, en el que no pasa absolutamente nada y que sin embargo detiene a quien lo mira. Una escena de cine japonés en la que un padre y una hija hablan de cosas sin importancia. Un movimiento de Mahler. Una taza de té.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La imagen que mejor resume la idea es la de una camelia sobre el musgo de un templo: una cosa pequeña, sin ninguna importancia, colocada donde hace falta y capaz de sostener una vida entera. La novela sostiene que esas cosas no son un consuelo ni una distracción, sino la única respuesta seria a la pregunta de si merece la pena seguir, y que por eso el cuaderno del movimiento del mundo acaba pesando más que el de los pensamientos profundos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene señalar una tensión que el libro nunca resuelve. La lista de lo que salva —Vermeer, Mahler, Ozu, el té japonés— es exactamente el catálogo de la alta cultura europea con un toque oriental de prestigio. Un libro que denuncia que se juzgue a la gente por su clase propone como salvación el gusto de una clase muy concreta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que detiene el tiempo no suele ser grande: es una cosa pequeña puesta donde hacía falta, y hay que estar mirando para verla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La elegancia del erizo" },
+      {
+        b: "texto",
+        texto:
+          "El título aparece en el cuaderno de Paloma y es la mejor página del libro. Escribe que la señora Michel tiene la elegancia del erizo: por fuera está cubierta de púas, es una verdadera fortaleza, pero sospecha que por dentro tiene la misma elegancia sencilla de los erizos, animales falsamente indolentes, ferozmente solitarios y terriblemente elegantes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace potente esa frase es quién la escribe. La única persona del edificio que descubre a Renée sin ayuda de ninguna cita es una niña de doce años, y la descubre porque es la única que se dedica a mirar a la gente en lugar de a clasificarla. La novela deja claro que no hizo falta ninguna sagacidad especial: hizo falta atención.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El erizo funciona además como aviso sobre el propio libro. Un animal que se hace bola no está siendo elegante, está teniendo miedo; y las púas que protegen impiden por definición cualquier contacto. Llamar elegancia a esa defensa es un piropo de Paloma, no un diagnóstico de la autora, y la novela se encarga después de mostrar lo cara que sale.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ahí las dos historias se cruzan de verdad. Paloma empieza a bajar a la portería, las dos leen juntas, comen juntas y hablan; y la niña que había decidido morirse encuentra por primera vez a alguien delante de quien no tiene que ser lista. La amistad entre una portera de cincuenta y cuatro años y una niña de doce es lo que de verdad cuenta este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Descubrir a alguien no exige perspicacia: exige mirarle más de tres segundos, que es más de lo que casi nadie hace.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una furgoneta de tintorería" },
+      {
+        b: "texto",
+        texto:
+          "El final de esta novela es lo más discutido que tiene y conviene contarlo, porque decide qué clase de libro es. Cuando Renée acaba de aceptar que la miren, cuando ha cenado con Ozu, cuando tiene una amiga de doce años y una vida por delante, sale a la calle a ayudar a alguien y la atropella y la mata una furgoneta de tintorería.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La muerte es rápida, arbitraria y sin ninguna preparación narrativa, y ese es su argumento: la novela lleva doscientas páginas sosteniendo que lo importante no es morir sino qué se está haciendo en ese momento, y coloca a Renée muriendo justo cuando por fin estaba haciendo algo. Paloma escribe entonces la conclusión del libro y decide no matarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El reproche que se le ha hecho, y es serio, es que la casualidad hace un trabajo que la autora no quiso hacer. Una portera pobre que asciende socialmente por la vía del amor y la cultura plantea a la novela un problema difícil —qué pasa después, cómo se sostiene eso, qué dice el edificio— y una furgoneta lo resuelve en dos líneas. Hay lectores para los que ese golpe es lo más honesto del libro y otros para los que es una salida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí queda en pie es lo que la muerte produce en la otra. Paloma no cambia de idea por un consuelo ni por una lección: cambia de idea porque ha visto que una vida puede volverse otra cosa a los cincuenta y cuatro años, y que si eso es posible, esperar tiene sentido. La niña que iba a morirse el 16 de junio decide buscar siempres dentro de nunca jamás.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que importa no es que te vayas a morir, que eso es seguro: es qué estarás haciendo, y eso todavía se decide.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La novela sostiene que a la gente se le asigna una categoría en el primer segundo y se le atiende solo lo justo para confirmarla, y que basta con que alguien mire de verdad para que todo el edificio se venga abajo. Lo demuestra con dos personas que se esconden por motivos opuestos: una portera que oculta lo que sabe y una niña que oculta que quiere vivir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la precisión sobre la invisibilidad. La novela no denuncia el desprecio, que sería fácil y falso, sino algo peor y más común: que a ciertas personas no se las desprecia, se las clasifica, y la clasificación ahorra el trabajo de mirarlas. Cualquiera que haya trabajado de cara al público reconoce el mecanismo en la primera página.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en algo que se le reprocha desde que salió: su idea de qué redime a Renée. La portera vale porque lee a Husserl, ve cine japonés y distingue un bodegón holandés; su dignidad viene de compartir el gusto de la clase que la ignora. Un libro que denuncia una jerarquía de clase acaba proponiendo otra jerarquía, la del gusto culto, y no la discute en ningún momento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los otros dos reparos son de oficio. Las dos narradoras hablan igual, con el mismo aforismo y el mismo vocabulario, de modo que la niña de doce años no existe como voz. Y las digresiones filosóficas paran la novela cada pocas páginas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de 2006 el libro se convirtió en uno de los mayores éxitos de la literatura francesa reciente, con más de un millón de ejemplares en Francia y traducciones a decenas de idiomas, mientras buena parte de la crítica literaria francesa lo trataba con frialdad. En 2009 se estrenó una adaptación al cine dirigida por Mona Achache. Y Barbery se marchó a vivir a Kioto en 2008, o sea, al sitio del que había sacado la camelia y el té.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de decidir quién es alguien que ves a diario, cuenta cuántas veces le has hecho una pregunta cuya respuesta no supieras.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "elegancia-erizo": ELEGANCIA_ERIZO,
   "el-tunel": EL_TUNEL,
   "intro-psicoanalisis": INTRO_PSICOANALISIS,
   "cosas-buenas": COSAS_BUENAS,

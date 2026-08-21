@@ -376,22 +376,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "elegancia-erizo",
-    titulo: "La elegancia del erizo",
-    autor: "Muriel Barbery",
-    ano: 2006,
-    gancho: "Una portera de cincuenta y cuatro años finge ser tonta durante veintisiete años para que la dejen en paz, mientras lee a Tolstói y a Husserl en el cuarto de atrás.",
-    porQue: "Porque vendió millones de ejemplares por el boca a boca y porque su idea de fondo —que la cultura es la verdadera aristocracia— es a la vez lo que lo hace emocionante y lo que lo hace tramposo.",
-    minutos: 21.8,
-    capitulos: [
-      { titulo: "La portera del número 7", minutos: 4.2 },
-      { titulo: "Una niña con fecha", minutos: 4.4 },
-      { titulo: "Todas las familias felices se parecen", minutos: 4.6 },
-      { titulo: "La furgoneta de la tintorería", minutos: 4.3 },
-      { titulo: "Camelias sobre el musgo", minutos: 4.4 },
-    ],
-  },
-  {
     id: "renglones-torcidos",
     titulo: "Los renglones torcidos de Dios",
     autor: "Torcuato Luca de Tena",

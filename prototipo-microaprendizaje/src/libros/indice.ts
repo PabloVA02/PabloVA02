@@ -60,7 +60,6 @@ const CARGADORES: Record<string, Cargador> = {
   tatuador: () => import("./historia").then((m) => m.TATUADOR),
   "cuentos-poe": () => import("./literatura").then((m) => m.CUENTOS_POE),
   mujercitas: () => import("./literatura").then((m) => m.MUJERCITAS),
-  "elegancia-erizo": () => import("./literatura").then((m) => m.ELEGANCIA_ERIZO),
   "heroe-mil-caras": () => import("./arte").then((m) => m.HEROE_MIL_CARAS),
   "vidas-vasari": () => import("./arte").then((m) => m.VIDAS_VASARI),
   reproductibilidad: () => import("./arte").then((m) => m.REPRODUCTIBILIDAD),
