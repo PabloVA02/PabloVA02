@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cosas-buenas": [
+    "qué hace el cortisol y qué no puedes hacer con él",
+    "por qué dar vueltas a lo mismo predice una depresión",
+    "qué hay de cierto en que el cerebro no distinga lo imaginado",
+    "por qué las cuatro hormonas de la felicidad no explican nada",
+    "qué predijo la salud a los ochenta en el estudio de Harvard",
+  ],
+
   "maneras-de-amar": [
     "de dónde salieron los tres estilos de apego y cuándo",
     "la lista exacta de lo que hace alguien ansioso al sentirse lejos",

@@ -424,22 +424,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "cosas-buenas",
-    titulo: "Cómo hacer que te pasen cosas buenas",
-    autor: "Marian Rojas Estapé",
-    ano: 2018,
-    gancho: "Es probablemente el libro de divulgación más vendido en España en lo que va de siglo, y repite en cada capítulo una frase que es falsa tal y como está escrita.",
-    porQue: "Porque su capítulo sobre el estrés crónico está bien y es útil, y porque su neurociencia de cuatro hormonas es una versión de manual popular que conviene saber leer con distancia.",
-    minutos: 21.9,
-    capitulos: [
-      { titulo: "La hija del psiquiatra", minutos: 4.1 },
-      { titulo: "El oso que no está", minutos: 4.7 },
-      { titulo: "El circuito de la recompensa", minutos: 4.2 },
-      { titulo: "Personas vitamina", minutos: 4.5 },
-      { titulo: "La psiquiatra que dice que vayas al psiquiatra", minutos: 4.4 },
-    ],
-  },
-  {
     id: "intro-psicoanalisis",
     titulo: "Introducción al psicoanálisis",
     autor: "Sigmund Freud",

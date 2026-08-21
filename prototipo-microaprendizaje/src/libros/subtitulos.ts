@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "cosas-buenas": "Entiende tu cerebro, gestiona tus emociones, mejora tu vida",
   "maneras-de-amar": "La nueva ciencia del apego adulto y cómo puede ayudarte a encontrar el amor y conservarlo",
   "cerebro-del-nino": "12 estrategias revolucionarias para cultivar la mente en desarrollo de tu hijo",
   "vivir-plenitud": "Cómo utilizar la sabiduría del cuerpo y de la mente para afrontar el estrés, el dolor y la enfermedad",

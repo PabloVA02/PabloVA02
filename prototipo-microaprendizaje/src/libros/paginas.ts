@@ -48892,7 +48892,301 @@ const MANERAS_DE_AMAR: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Cómo hacer que te pasen cosas buenas, en ocho páginas.
+
+   Breve. Libro práctico → TÚ.
+
+   Es el mismo género que REDACCION analiza en el apartado 4 bis a partir de
+   la captura de «Cortisol»: todo se reduce a una hormona, la hormona está
+   saboteada por la vida moderna, aquí tienes unos hábitos. La regla dice
+   que esa reducción ES la noticia del resumen y va dicha.
+
+   Pero hay que ser justo, y este libro lo merece más que otros del estante:
+   la fisiología que describe es correcta a nivel de manual, la rumiación
+   que señala está medida desde 1991, y su consejo central —cuida a la gente
+   que tienes cerca— es el que mejor respaldo tiene de toda la psicología
+   que existe. Eso se cuenta con nombres y fechas.
+
+   Lo que no aguanta son tres cosas concretas, y cada una lleva su fuente:
+   las cuatro hormonas de la felicidad, que el cerebro no distinga lo real
+   de lo imaginado, y el filtro reticular que te haría ver lo que buscas.
+   -------------------------------------------------------------------------- */
+
+const COSAS_BUENAS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El cuerpo tiene un sistema de alarma excelente para treinta segundos y pésimo para treinta meses",
+      },
+      {
+        b: "texto",
+        texto:
+          "Media hora después de despertarte, el cortisol de tu sangre ha subido más de la mitad respecto al nivel con el que abriste los ojos. Es un pico normal y necesario: es lo que te pone en marcha. A partir de ahí debe ir bajando durante todo el día hasta quedarse casi plano por la noche. En una persona sometida a estrés continuado, esa curva se aplana: ni sube bien por la mañana ni baja bien por la noche.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Marian Rojas Estapé, psiquiatra española, publicó en 2018 este libro alrededor de esa idea, y se convirtió en uno de los mayores éxitos editoriales de no ficción en castellano. Su tesis es que buena parte del malestar contemporáneo —insomnio, cansancio, irritabilidad, enfermar más a menudo— viene de tener el sistema de alarma encendido de fondo, y que se puede aprender a apagarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir qué clase de libro es antes de entrar, porque decide cómo hay que leerlo. Es un libro de una sola causa, con una hormona en el papel de villano y una lista de hábitos como solución, escrito sin referencias y con casos de consulta como prueba. Esa forma tiene la virtud de que se entiende y se aplica, y el riesgo de que todo encaje demasiado bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas y separan las que están medidas de las que no: qué hace el cortisol de verdad, por qué dar vueltas a lo mismo es un factor de riesgo comprobado, qué hay de cierto en que el cerebro no distinga lo real de lo imaginado, qué pasa con las cuatro hormonas de la felicidad, qué predice de verdad que estés bien dentro de treinta años, y por qué empiezas a ver coches como el tuyo por todas partes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El problema no es tener cortisol alto un rato: es que la curva que debía subir por la mañana y bajar por la noche se quede plana durante meses.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El cortisol no es un veneno: es la hormona que te levanta de la cama",
+      },
+      {
+        b: "texto",
+        texto:
+          "El circuito se llama eje hipotálamo-hipófisis-suprarrenal y funciona así. El cerebro detecta algo que interpreta como exigencia —un peligro, una fecha de entrega, una discusión—, manda una señal a la hipófisis y esta a las glándulas suprarrenales, que están encima de los riñones y sueltan cortisol. El cortisol sube el azúcar en sangre, aumenta la atención, aplaza la digestión y frena temporalmente el sistema inmunitario. Todo eso sirve para un problema de treinta segundos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sirve tan bien que sin él no se vive: quien no fabrica cortisol tiene una enfermedad grave. Y también hay un exceso patológico bien definido, el síndrome de Cushing, con signos característicos. Lo que discute este libro no es ninguno de esos dos extremos, sino el terreno de en medio: una activación moderada y continua, que es la que produce una vida con demasiadas exigencias y poco descanso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí los efectos están documentados y son los que reconoce cualquiera. Cuesta dormir aunque estés agotado, porque la hormona que debía estar baja a medianoche no lo está. Se cogen más infecciones. La digestión va peor. Y la memoria se resiente, porque el hipocampo, la estructura que fija los recuerdos nuevos, está entre las más sensibles a la exposición prolongada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El límite honesto es este, y el libro no lo pone. El cortisol alto de forma crónica es a la vez un marcador y un mecanismo: acompaña al problema y participa en él. De ahí no se sigue que sea la causa única, ni que puedas gestionarlo directamente. Lo que puedes cambiar es lo que lo dispara: cuánto duermes, qué exigencias aceptas, cuánto te mueves y con quién estás.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No se trabaja sobre la hormona, se trabaja sobre lo que la dispara: nadie puede bajarse el cortisol a voluntad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dar vueltas a lo mismo es un factor de riesgo medido, no una manía" },
+      {
+        b: "texto",
+        texto:
+          "Aquí el libro señala algo con respaldo sólido, aunque no lo cite. Hay una diferencia entre pensar en un problema para resolverlo y repasarlo una y otra vez sin llegar a ninguna parte. A lo segundo se le llama rumiación, y la psicóloga estadounidense Susan Nolen-Hoeksema dedicó su carrera a medirlo desde comienzos de los años noventa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que encontró es que no es un síntoma sino un predictor: entre personas que están igual de tristes hoy, las que responden dándole vueltas a por qué se sienten así tienen más probabilidad de estar deprimidas meses después que las que se distraen o actúan. Lo comprobó entre otras cosas siguiendo a personas antes y después de un terremoto, aprovechando que tenía sus datos previos por casualidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene distinguir además dos formas, porque se combaten distinto. La preocupación mira al futuro y hace preguntas del tipo qué pasará si; la rumiación mira al pasado y pregunta por qué me pasó esto, por qué dije aquello. Las dos generan activación fisiológica sin producir ninguna acción, que es lo que las hace caras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La herramienta concreta que puedes usar es una pregunta de dos partes, y funciona porque obliga a decidir. ¿Esto que me ronda tiene alguna acción posible en las próximas veinticuatro horas? Si la tiene, escríbela con hora y hazla. Si no la tiene, no es un problema pendiente: es un hecho, y darle vueltas no lo cambia. Lo difícil no es entender la distinción, es aplicarla la tercera vez de la noche.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Entre dos personas igual de tristes hoy, la que se pregunta por qué se siente así tiene más probabilidades de seguir estándolo dentro de seis meses.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "«El cerebro no distingue lo real de lo imaginado» es medio verdad, y la otra media importa",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la frase que más repite el libro y la que más se cita de él. La parte verdadera es considerable: imaginar una situación temida activa buena parte de los mismos circuitos que vivirla, y produce respuestas corporales reales. Por eso a alguien le sudan las manos preparando una conversación que aún no ha tenido, y por eso un examen imaginado quinientas veces cansa como si se hubiera hecho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay más pruebas en la misma dirección, y son las buenas. El efecto placebo produce mejoras medibles a partir de una expectativa, y su hermano feo, el nocebo, produce efectos secundarios reales a partir de una advertencia. En dolor se ha medido con claridad: la misma sensación duele más o menos según lo que se espere de ella. El cuerpo hace caso a lo que el cerebro anticipa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte que no es cierta es la literal. Las respuestas a lo imaginado y a lo real no son idénticas: son más débiles, se apagan antes y el cerebro mantiene marcadores que distinguen un recuerdo de una percepción, que es justamente lo que falla en un trastorno psicótico. Que un mecanismo se solape parcialmente no es lo mismo que decir que el cerebro se confunde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La distinción tiene consecuencias prácticas y por eso merece la pena. De la versión correcta se sigue algo útil: no ensayes veinte veces la conversación temida, porque cada ensayo te cuesta activación real. De la versión literal se han sacado en cambio conclusiones sin base, como que visualizar el éxito lo acerca; lo que se ha medido es más bien lo contrario, que fantasear con el resultado reduce el esfuerzo posterior.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Imaginar una amenaza cuesta activación de verdad, y de ahí no se sigue que imaginar un éxito lo acerque: eso se midió y sale al revés.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las cuatro hormonas de la felicidad son una regla mnemotécnica, no una explicación",
+      },
+      {
+        b: "texto",
+        texto:
+          "El esquema que popularizó este libro y otros muchos reparte el bienestar entre cuatro sustancias: dopamina para el placer, serotonina para el ánimo, oxitocina para el amor y endorfinas para el alivio del dolor. Es cómodo, se recuerda y no describe bien ninguna de las cuatro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La dopamina no es la molécula del placer. Los trabajos de Wolfram Schultz desde los años noventa muestran que se dispara ante la sorpresa de una recompensa mayor de la esperada, no ante disfrutarla: codifica el error de predicción. Y la investigación posterior separó dos cosas que se confundían, querer algo y disfrutarlo, y situó la dopamina en la primera. Se puede desear intensamente algo que ya no da placer, y eso describe una adicción mucho mejor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La oxitocina tampoco es la hormona del amor a secas. Aumenta la confianza y el vínculo con los de tu grupo y, en los mismos experimentos, aumenta la desconfianza y la hostilidad hacia los de fuera; se publicó en «Science» en 2011. Es una hormona de pertenencia, con las dos caras que eso tiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la serotonina es el caso más incómodo. La idea de que la depresión se debe a una falta de serotonina se dio por buena durante décadas, y en 2022 una revisión amplia publicada en «Molecular Psychiatry» concluyó que no hay pruebas consistentes que la sostengan. La revisión fue muy discutida, y conviene precisar qué dice y qué no: no dice que los antidepresivos no funcionen, que sí lo hacen en cuadros moderados y graves; dice que la explicación química sencilla no está demostrada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Explicar un día malo por cuatro moléculas es como explicar un atasco por cuatro coches: no está mal del todo y no explica nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que mejor predice cómo estarás a los ochenta es con quién estás ahora",
+      },
+      {
+        b: "texto",
+        texto:
+          "El consejo central del libro —cuida a la gente que tienes cerca— es el que mejor respaldo tiene de toda la psicología, y merece contarse con su fuente porque impresiona. En 1938, la Universidad de Harvard empezó a seguir a un grupo de jóvenes: doscientos sesenta y ocho estudiantes y cuatrocientos cincuenta y seis chicos de los barrios pobres de Boston. Los siguió, con entrevistas, analíticas y visitas a sus casas, durante más de ochenta años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hallazgo que más se cita de aquel seguimiento es este: lo que mejor predecía cómo estaría un hombre de salud a los ochenta no era su colesterol a los cincuenta, sino lo satisfecho que estaba con sus relaciones a los cincuenta. Robert Waldinger, que dirige el estudio desde 2003, lo resume diciendo que las buenas relaciones no solo hacen más felices a las personas: las mantienen más sanas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una medida del efecto contrario que es todavía más contundente. Un metaanálisis publicado en 2010, que reunió ciento cuarenta y ocho estudios y más de trescientas mil personas, encontró que tener relaciones sociales sólidas se asociaba con un cincuenta por ciento más de probabilidad de seguir vivo en el periodo de seguimiento. El tamaño de ese efecto es comparable al de dejar de fumar y mayor que el de la obesidad o el sedentarismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es más incómoda que un consejo genérico sobre socializar, porque implica gestionar tiempo. Las relaciones que producen ese efecto son pocas, antiguas y requieren dedicación regular, no un evento al año. Si hay que priorizar algo por salud, esto compite de igual a igual con el ejercicio y con la dieta, y casi nadie lo pone en la agenda como pone el gimnasio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El efecto de tener relaciones sólidas sobre la supervivencia es comparable al de dejar de fumar, y nadie lo apunta en la agenda.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Empiezas a ver coches como el tuyo por atención selectiva, no por un filtro que atraiga cosas",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro explica que hay una estructura cerebral, el sistema reticular activador, que actúa como filtro y hace que veas aquello en lo que te centras; de ahí saca que enfocarse en lo bueno hace que aparezcan cosas buenas. La primera parte describe mal la estructura y la segunda es una conclusión que no se sigue.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El sistema reticular existe y su función principal es otra: regula el nivel general de alerta, mantiene despierto y participa en el ciclo de sueño y vigilia. No es un portero que decida qué contenidos pasan. El filtrado de lo que percibes lo hacen redes de atención repartidas por la corteza, y funcionan por relevancia para lo que estás haciendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El fenómeno que la gente reconoce sí existe y tiene nombre: la ilusión de frecuencia. Compras un coche de un modelo y de pronto ves ese modelo por todas partes. Ocurre por dos cosas a la vez: la atención selectiva hace que lo notes, y un sesgo de confirmación hace que cuentes los casos que encajan y no los que no. Los coches eran los mismos la semana pasada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es que la recomendación práctica del libro sobrevive sin el mecanismo equivocado. Es verdad que aquello a lo que atiendes de forma sistemática cambia lo que ves y lo que recuerdas del día, y que llevar un registro de tres cosas buenas produce mejoras modestas y medidas del estado de ánimo, comprobado en estudios desde 2003. Lo que no hace es atraer nada: cambia el inventario, no el mundo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Apuntar lo bueno del día cambia lo que recuerdas del día, que ya es bastante; lo que no hace es que ocurran más cosas buenas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que el malestar contemporáneo viene de tener el sistema de alarma encendido de fondo, y que se apaga con sueño, ejercicio, relaciones, atención al presente y menos pantalla. La descripción de la fisiología es correcta a nivel de manual y los consejos son razonables. Lo que no aguanta es la reducción de todo a una hormona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es alcance. Está escrito por una psiquiatra en ejercicio, en castellano llano y con casos reconocibles, y ha llevado a un público enorme dos cosas que le convienen: que el estrés continuado tiene consecuencias físicas medibles, y que ir al psiquiatra no es cosa de locos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en tres afirmaciones concretas y en una costumbre. Las cuatro hormonas de la felicidad son un recurso mnemotécnico presentado como neurociencia; el filtro reticular no hace lo que dice; y que el cerebro no distinga lo real de lo imaginado es una exageración de algo que sí ocurre. La costumbre es publicar sin referencias, que en un libro divulgativo de salud deja al lector sin manera de comprobar nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en algo más de fondo, que comparte con el género entero. El título promete influir en lo que te pasa, y buena parte de lo que le pasa a alguien no depende de él: un despido, una enfermedad, un duelo. Un libro que enseña a gestionar el estrés propio es útil; leído como que las cosas buenas dependen de tu actitud, se convierte en una manera de responsabilizar a la gente de su mala suerte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de 2018 la autora se convirtió en la voz más leída de la psiquiatría en español. Y la parte de su envoltorio que peor ha envejecido es la química: la revisión de 2022 sobre la serotonina dejó claro que la explicación sencilla de las moléculas de la felicidad no está demostrada, justo mientras esas cuatro palabras se convertían en vocabulario común.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quédate con lo que se puede comprobar fuera del libro —dormir, moverse, rumiar menos, cuidar a los tuyos— y no con la química que lo envuelve.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cosas-buenas": COSAS_BUENAS,
   "maneras-de-amar": MANERAS_DE_AMAR,
   "cerebro-del-nino": CEREBRO_DEL_NINO,
   "poder-metabolismo": PODER_METABOLISMO,

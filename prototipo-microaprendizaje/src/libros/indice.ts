@@ -67,7 +67,6 @@ const CARGADORES: Record<string, Cargador> = {
   reproductibilidad: () => import("./arte").then((m) => m.REPRODUCTIBILIDAD),
   "espiritual-arte": () => import("./arte").then((m) => m.ESPIRITUAL_ARTE),
   "el-elemento": () => import("./arte").then((m) => m.EL_ELEMENTO),
-  "cosas-buenas": () => import("./psicologia").then((m) => m.COSAS_BUENAS),
   "intro-psicoanalisis": () => import("./psicologia").then((m) => m.INTRO_PSICOANALISIS),
   "existencialismo-humanismo": () => import("./filosofia").then((m) => m.EXISTENCIALISMO_HUMANISMO),
   "mas-alla-bien-mal": () => import("./filosofia").then((m) => m.MAS_ALLA_BIEN_MAL),

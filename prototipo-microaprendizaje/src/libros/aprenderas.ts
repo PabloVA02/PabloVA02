@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cosas-buenas":
+    "Media hora después de despertar, el cortisol ha subido más de la mitad, y debe bajar durante el día hasta quedarse plano de noche. Rojas Estapé sostiene que el malestar moderno viene de que esa curva no baja.",
+
   "maneras-de-amar":
     "En un escáner, la respuesta cerebral de una mujer ante la amenaza de una descarga bajaba mucho más al darle la mano a su marido que a un desconocido, y bajaba más cuanto mejor iba el matrimonio. De ahí parte el libro.",
 
