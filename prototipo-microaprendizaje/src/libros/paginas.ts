@@ -30606,7 +30606,267 @@ const DOBLE_HELICE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Astrofísica para gente con prisa, en ocho páginas.
+
+   Breve.
+
+   Ensayo científico: titular que afirma, tercera persona.
+
+   La conclusión dice lo que el título esconde: es una recopilación de
+   artículos de revista escritos a lo largo de diez años, y se nota en las
+   repeticiones y en la falta de hilo.
+   -------------------------------------------------------------------------- */
+
+const ASTROFISICA_PRISA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Doce capítulos que caben en un trayecto de tren" },
+      {
+        b: "texto",
+        texto:
+          "Neil deGrasse Tyson es astrofísico y dirige el planetario del museo de historia natural de Nueva York. Durante una década escribió una columna mensual de divulgación en una revista de ciencia, y en 2017 reunió doce de aquellos textos, revisados, en un libro de menos de doscientas páginas cuyo título anuncia exactamente lo que ofrece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La premisa del prólogo es que casi nadie tiene tiempo para leer un tratado y casi todo el mundo quiere saber qué está pasando ahí arriba. Así que el libro va al grano: cada capítulo se lee en un cuarto de hora, no hay ecuaciones y hay un chiste cada tres páginas. Fue uno de los libros de ciencia más vendidos de la década.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que no anuncia es su otro objetivo, que aparece en el último capítulo y que en realidad justifica los once anteriores. Tyson quiere que el lector salga con lo que él llama la perspectiva cósmica, una manera de situarse que cambia el tamaño de casi todas las preocupaciones propias, y para eso primero necesita que sepa unas cuantas cosas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que cuenta: qué se decidió en los primeros minutos, por qué existe materia en lugar de nada, cómo se puede saber de qué está hecha una estrella sin ir hasta ella, qué proporción del universo no sabemos qué es, de dónde salieron los átomos de un cuerpo humano y por qué casi toda la astronomía se hace con luz invisible.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro de divulgación breve suele tener un objetivo escondido, y el de este está en el último capítulo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los tres primeros minutos decidieron de qué está hecho todo" },
+      {
+        b: "texto",
+        texto:
+          "El primer capítulo cuenta el origen del universo con un criterio poco habitual: en vez de detenerse en lo espectacular, se detiene en lo que quedó decidido y ya no cambió. Y casi todo eso ocurrió en los primeros minutos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la primera fracción de segundo, las cuatro fuerzas que hoy gobiernan la naturaleza —la gravedad, el electromagnetismo y las dos nucleares— estaban unificadas y se fueron separando una tras otra. Con cada separación quedó fijada una manera de comportarse que sigue igual trece mil ochocientos millones de años después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En los tres primeros minutos, con el universo todavía a miles de millones de grados, los protones y neutrones se combinaron para formar los primeros núcleos ligeros. Las proporciones resultantes —alrededor de tres cuartas partes de hidrógeno y una cuarta de helio, con trazas de litio— son las que se siguen midiendo hoy en el gas más antiguo que se observa, y esa coincidencia es una de las pruebas más fuertes de toda la cosmología.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después hubo que esperar. Durante trescientos ochenta mil años el universo fue una sopa opaca en la que la luz no podía viajar sin chocar. Cuando se enfrió lo suficiente para que los electrones se unieran a los núcleos, la luz quedó libre de golpe, y esa luz sigue viajando: es el fondo de microondas que se detecta hoy en cualquier dirección del cielo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La proporción de hidrógeno y helio que se mide hoy en el gas más viejo del universo es la que se fabricó en los tres primeros minutos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Existimos por un resto de uno entre mil millones" },
+      {
+        b: "texto",
+        texto:
+          "El dato más raro del libro tiene que ver con por qué hay algo en lugar de nada, y es una cuestión de contabilidad. En aquel universo primitivo, la energía se convertía continuamente en pares de partículas: cada vez que aparecía una partícula de materia, aparecía también su antipartícula correspondiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema es que materia y antimateria se aniquilan al encontrarse y se convierten otra vez en energía. Si las cantidades hubieran sido exactamente iguales, todo se habría cancelado y el universo sería hoy un espacio lleno de radiación y sin un solo átomo, sin estrellas y sin nadie que lo mirara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurrió fue un desequilibrio minúsculo. Por cada mil millones de antipartículas hubo, aproximadamente, mil millones y una partículas de materia. Todo lo demás se aniquiló, y de aquel sobrante de una entre mil millones están hechas las galaxias, las estrellas, los planetas y las personas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tyson subraya que nadie sabe con seguridad por qué existió ese desequilibrio. Hay hipótesis sobre pequeñas asimetrías en el comportamiento de ciertas partículas, y se investiga en aceleradores, y de momento es una de las preguntas abiertas más importantes de la física. Lo que se sabe con certeza es la cifra del resto, porque se puede calcular a partir de la cantidad de luz que quedó de aquellas aniquilaciones.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todo lo que existe está hecho del sobrante de una partícula por cada mil millones que se aniquilaron, y nadie sabe por qué sobró.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Se puede saber de qué está hecha una estrella sin acercarse" },
+      {
+        b: "texto",
+        texto:
+          "El segundo capítulo defiende la idea que hace posible toda la astrofísica y que en su momento no era evidente: que las leyes que funcionan aquí funcionan igual en cualquier punto del universo. Newton lo propuso al demostrar que la misma ley explica la caída de un objeto y la órbita de la Luna, y desde entonces cada comprobación lo ha confirmado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es la espectroscopía. Cada elemento químico absorbe y emite luz en unas longitudes de onda concretas, que son su huella y no se parecen a las de ningún otro. Al descomponer la luz de una estrella se ven esas huellas, así que se puede saber de qué está hecha una bola de gas situada a miles de años luz sin haber ido nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que lo demuestra mejor es el del helio. En 1868, dos astrónomos que observaban un eclipse solar detectaron en el espectro del Sol una línea amarilla que no correspondía a ningún elemento conocido en la Tierra. Dedujeron que existía allí un elemento desconocido y le pusieron nombre a partir de la palabra griega para el Sol. Tardaron veintisiete años en encontrarlo también aquí abajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es el único elemento de la tabla periódica descubierto fuera de nuestro planeta, y es la mejor prueba de que aquella idea de Newton funciona: si las leyes de la física cambiaran de un sitio a otro, aquella línea amarilla no habría significado absolutamente nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El helio se descubrió en el Sol veintisiete años antes que en la Tierra, y ese es el único caso de la tabla periódica.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El noventa y cinco por ciento del universo es algo que no sabemos qué es",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los dos capítulos centrales del libro tratan el asunto más incómodo de la cosmología actual, y Tyson lo plantea sin suavizarlo: todo lo que se puede ver, tocar y estudiar —estrellas, planetas, gas, polvo, personas— constituye alrededor del cinco por ciento del contenido del universo. El resto no se sabe qué es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer trozo desconocido se llama materia oscura y ocupa cerca del veintisiete por ciento. Se dedujo su existencia por la gravedad: en 1933, un astrónomo suizo midió cómo se movían las galaxias de un cúmulo y calculó que hacía falta mucha más masa de la visible para que no salieran despedidas. Cuarenta años después, la astrónoma Vera Rubin midió la rotación de galaxias individuales y encontró lo mismo: las estrellas de los bordes giran demasiado rápido para la masa que se ve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tyson insiste en que el nombre está mal puesto. Oscura sugiere una sustancia que no emite luz, y en realidad lo único que se sabe es que hay un efecto gravitatorio que la materia visible no explica; sería más honesto, dice, llamarla gravedad oscura, porque el nombre actual da por supuesto que se trata de materia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo trozo se descubrió en 1998, cuando dos equipos independientes que medían supernovas lejanas encontraron algo que nadie esperaba: la expansión del universo no se está frenando, se está acelerando. Sea lo que sea lo que la empuja, ocupa alrededor del sesenta y ocho por ciento del contenido total. Y resultó parecerse mucho a un término que Einstein había metido en sus ecuaciones ochenta años antes y había retirado después llamándolo el mayor error de su vida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todo lo que se puede ver y tocar en el universo entero suma alrededor del cinco por ciento de lo que hay.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cada átomo pesado de tu cuerpo se fabricó dentro de una estrella" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre los elementos químicos es el que sostiene la idea final del libro y el que más impresiona a quien no lo sabía. Del origen del universo salieron solo los tres elementos más ligeros: hidrógeno, helio y algo de litio. Todos los demás, los noventa y tantos restantes, no existían.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se fabricaron después, y en un solo tipo de sitio: el interior de las estrellas. Una estrella es un reactor donde la presión y la temperatura fusionan núcleos ligeros en otros más pesados, y ese proceso va construyendo la tabla periódica hacia arriba: helio, carbono, oxígeno, neón, silicio, hasta llegar al hierro, donde la cadena se detiene porque a partir de ahí fusionar consume energía en vez de producirla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los elementos más pesados que el hierro necesitan otra cosa: el momento en que una estrella grande agota su combustible, se derrumba sobre sí misma y explota. En esos segundos hay energía suficiente para fabricar oro, plata, plomo y uranio, y la explosión lo reparte todo por el espacio, donde acaba formando parte de nubes que se condensan en estrellas y planetas nuevos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí la frase que Tyson repite en cada charla y que aquí está argumentada. El carbono de las células, el oxígeno que se respira, el hierro de la sangre y el calcio de los huesos se cocinaron dentro de estrellas que explotaron antes de que existiera el Sol. Y él añade el giro que le importa: no se trata solo de que el universo esté dentro de nosotros, sino de que nosotros estamos dentro del universo, que es una cosa bastante distinta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El hierro de tu sangre se fabricó dentro de una estrella que explotó antes de que existiera el Sol.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi toda la astronomía se hace con luz que nadie ve" },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos más útiles explica algo que cambia la manera de mirar cualquier imagen astronómica. La luz visible, la que perciben los ojos humanos, es una franja estrechísima de un espectro enorme que va desde las ondas de radio hasta los rayos gamma, y no hay ninguna razón física para que sea la importante: es simplemente la que emite con más intensidad el Sol.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante milenios, toda la astronomía se hizo con esa franja. Y en menos de un siglo se abrieron todas las demás: la radioastronomía en los años treinta, los observatorios de rayos X y de infrarrojos en satélites a partir de los sesenta, los detectores de rayos gamma. Cada apertura reveló objetos que no se habían visto nunca porque no brillan en visible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los ejemplos son concretos. Los agujeros negros se detectan por los rayos X que emite la materia al caer en ellos. Las nubes donde nacen las estrellas están llenas de polvo opaco a la luz visible y transparente al infrarrojo, así que solo se ve lo que pasa dentro mirando en esa banda. El fondo de microondas es luz de microondas, y sin esa banda no habría cosmología.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale una advertencia sobre las fotografías espectaculares que circulan. Casi ninguna es una imagen tal como se vería con los ojos: son datos tomados en bandas invisibles y traducidos a colores para que un ser humano pueda interpretarlos. No son falsas, son traducciones, y conviene saber que se está mirando una traducción.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi ninguna imagen astronómica es lo que verías con los ojos: es una traducción a colores de una luz que no puedes ver.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Astrofísica para gente con prisa cuenta en doce capítulos cortos lo esencial de lo que se sabe hoy del universo: qué quedó decidido en los primeros minutos, por qué existe materia, cómo se averigua de qué está hecha una estrella, qué proporción del contenido cósmico sigue sin identificar, de dónde salieron los elementos de un cuerpo humano y por qué la mayor parte de la astronomía trabaja con luz invisible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su objetivo real está en el capítulo final. Tyson defiende lo que llama la perspectiva cósmica: la costumbre de situar lo propio en la escala que le corresponde, que no vuelve a nadie indiferente a sus problemas y sí cambia el tamaño relativo de casi todos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No es que el universo esté dentro de nosotros: es que nosotros estamos dentro del universo, y eso es una cosa bastante distinta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es una recopilación de artículos escritos a lo largo de una década para una revista, y eso se nota más de lo que el libro admite: hay ideas que aparecen tres veces con otras palabras, capítulos que no dialogan con los anteriores y un par que son casi puramente descriptivos y no dejan nada. El título promete brevedad y también entrega superficialidad: quien quiera entender de verdad la materia oscura o la relatividad no lo va a conseguir aquí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay cifras que ya han caducado, como en cualquier libro de este campo. Cuando se publicó, en 2017, se conocían alrededor de tres mil quinientos planetas fuera del sistema solar; hoy pasan de cinco mil ochocientos, y la manera de estudiarlos ha cambiado por completo con los telescopios espaciales nuevos, que analizan la composición de sus atmósferas. El capítulo dedicado a eso es el que peor ha envejecido, y es también el único caso en que envejecer así es una buena noticia.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "astrofisica-prisa": ASTROFISICA_PRISA,
   "doble-helice": DOBLE_HELICE,
   "siete-lecciones-fisica": SIETE_LECCIONES_FISICA,
   "vida-arboles": VIDA_ARBOLES,

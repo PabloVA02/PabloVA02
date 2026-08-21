@@ -408,22 +408,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "astrofisica-prisa",
-    titulo: "Astrofísica para gente con prisa",
-    autor: "Neil deGrasse Tyson",
-    ano: 2017,
-    gancho: "Doscientas páginas para explicar de qué está hecho el universo. Y la respuesta incómoda es que el noventa y cinco por ciento no sabemos qué es.",
-    porQue: "Es la puerta de entrada más rápida que existe a la cosmología moderna, y la única parte que no ha envejecido es la que más humildad exige.",
-    minutos: 21.1,
-    capitulos: [
-      { titulo: "Los primeros tres minutos", minutos: 4.4 },
-      { titulo: "El ruido de la televisión", minutos: 4.1 },
-      { titulo: "Lo que no se ve", minutos: 4.1 },
-      { titulo: "El universo que acelera", minutos: 4.3 },
-      { titulo: "Somos polvo de estrellas", minutos: 4.3 },
-    ],
-  },
-  {
     id: "gen-historia",
     titulo: "El gen",
     autor: "Siddhartha Mukherjee",

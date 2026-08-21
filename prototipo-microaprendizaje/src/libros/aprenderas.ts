@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "astrofisica-prisa":
+    "Doce artículos de revista reunidos en un libro que se lee en un trayecto de tren. Cuenta lo esencial de lo que se sabe del universo, y esconde su objetivo real hasta el último capítulo: cambiar la escala en la que uno se sitúa.",
+
   "doble-helice":
     "Dos hombres que no eran químicos ni cristalógrafos resolvieron la estructura del ADN sin hacer un solo experimento propio. Watson lo contó quince años después como una novela de intriga, y su primera editorial se retiró por las protestas.",
 

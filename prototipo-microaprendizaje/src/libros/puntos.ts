@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "astrofisica-prisa": [
+    "qué quedó decidido en los tres primeros minutos",
+    "por qué existe materia en lugar de nada",
+    "cómo se sabe de qué está hecha una estrella lejana",
+    "qué proporción del universo sigue sin identificar",
+    "dónde se fabricaron los átomos de tu cuerpo",
+  ],
+
   "doble-helice": [
     "cómo se puede resolver algo así sin medir nada",
     "por qué su primer modelo fue un ridículo público",
