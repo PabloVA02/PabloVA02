@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "zonas-azules": [
+    "cómo se mueve la gente que no pisa un gimnasio",
+    "qué significa comer hasta el ochenta por ciento",
+    "qué alimento está en el centro de las cinco dietas",
+    "qué estructuras sociales tienen esos sitios y aquí no",
+    "qué apareció al revisar los registros civiles de esas zonas",
+  ],
+
   outlive: [
     "qué cuatro enfermedades causan casi todas las muertes",
     "cómo fijarse objetivos físicos para los últimos años",

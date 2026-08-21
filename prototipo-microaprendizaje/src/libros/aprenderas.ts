@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "zonas-azules":
+    "Dos demógrafos marcaron con rotulador azul las comarcas de Cerdeña con más centenarios, y de ahí salió el nombre. El libro visita cinco lugares con fama de longevidad y busca qué tienen en común.",
+
   outlive:
     "En autopsias de soldados de veinte años ya aparecían placas en las arterias. Las enfermedades que matan a casi todo el mundo tardan décadas en formarse, y la medicina actual está diseñada para esperar al diagnóstico.",
 

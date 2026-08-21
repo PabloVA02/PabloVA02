@@ -33687,7 +33687,269 @@ const OUTLIVE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El secreto de las zonas azules, en ocho páginas.
+
+   Breve.
+
+   Libro PRÁCTICO de salud: segunda persona en la prosa, titular que
+   afirma.
+
+   La página 7 y la conclusión son OBLIGATORIAS: en 2024 se publicó un
+   análisis de los registros civiles de esas zonas que pone en duda los
+   datos de partida. Un resumen que no lo diga está vendiendo un producto.
+   -------------------------------------------------------------------------- */
+
+const ZONAS_AZULES: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cinco círculos azules dibujados en un mapa" },
+      {
+        b: "texto",
+        texto:
+          "La expresión zona azul no la inventó el autor de este libro. Viene de dos demógrafos, Gianni Pes y Michel Poulain, que a principios de los dos mil estudiaban la longevidad en Cerdeña y fueron marcando con un rotulador azul, en un mapa, las comarcas montañosas donde encontraban una proporción inusual de hombres centenarios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dan Buettner, escritor y explorador estadounidense, retomó la idea, la llevó a una revista de gran tirada en 2005 y publicó este libro en 2008. Su planteamiento era sencillo y atractivo: si hay lugares del mundo donde la gente vive mucho más y mucho mejor que la media, conviene ir allí, mirar cómo viven y averiguar qué tienen en común.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las cinco zonas que acabó proponiendo son la Barbagia sarda, en Italia; la isla de Okinawa, en Japón; la península de Nicoya, en Costa Rica; la isla de Icaria, en Grecia; y una comunidad de adventistas del séptimo día en Loma Linda, California. Cuatro son lugares rurales y aislados; la quinta es un grupo religioso dentro de un país rico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren los factores que el libro identifica como comunes a las cinco —cómo se mueven, cuánto comen, qué comen, con quién viven y para qué se levantan— y también algo que el libro no podía contener: lo que apareció cuando alguien fue a comprobar los registros civiles de esos sitios.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El nombre viene literalmente de unos círculos que dos demógrafos dibujaron con rotulador azul sobre un mapa de Cerdeña.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nadie de esos sitios ha pisado un gimnasio en su vida" },
+      {
+        b: "texto",
+        texto:
+          "El primer factor común que describe el libro es el movimiento, y su hallazgo es que en ninguna de las cinco zonas la gente hace ejercicio en el sentido moderno de la palabra. No hay gimnasios, ni carreras populares, ni sesiones de entrenamiento; hay actividad continua a lo largo del día porque la vida cotidiana la exige.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los ejemplos son concretos. Los pastores sardos recorren a pie decenas de kilómetros semanales por terreno con pendiente. En Okinawa se cultiva un huerto propio hasta edades muy avanzadas, y hay una particularidad postural: la costumbre de sentarse en el suelo y levantarse decenas de veces al día, cosa que mantiene la fuerza de piernas y el equilibrio sin ningún ejercicio deliberado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Buettner subraya la diferencia entre ese patrón y el occidental, que consiste en estar sentado ocho o diez horas y compensarlo con cuarenta y cinco minutos intensos tres veces por semana. En las zonas que describe no hay picos ni compensación: hay una actividad moderada y constante desde que uno se levanta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La recomendación práctica que saca es de diseño y no de fuerza de voluntad. Consiste en organizar el entorno para que moverse sea inevitable en lugar de opcional: tener un huerto o unas plantas que exijan atención, no comprar los aparatos que ahorran esfuerzo, ir andando a los sitios cercanos y sentarse en el suelo de vez en cuando.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Estar diez horas sentado y compensarlo con tres sesiones de gimnasio no es lo mismo que moverse poco a poco todo el día.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dejar de comer cuando estás al ochenta por ciento" },
+      {
+        b: "texto",
+        texto:
+          "El factor que más se cita del libro es una costumbre okinawense que tiene incluso una fórmula que se recita antes de empezar a comer y que significa, más o menos, comer hasta que el estómago esté lleno en un ochenta por ciento. Es una instrucción explícita y aprendida, no una recomendación médica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su fundamento fisiológico es real y es cuestión de retraso. La señal de saciedad tarda alrededor de veinte minutos en llegar desde el aparato digestivo hasta el cerebro, así que quien come hasta sentirse lleno ha comido de más y todavía no lo sabe. Parar antes de la señal es la única manera de acertar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro añade otras prácticas de la misma familia que refuerzan el efecto y que no tienen nada de teoría. Comer en platos más pequeños, servir en la cocina y no dejar las fuentes en la mesa, hacer la comida principal a mediodía y la más ligera por la noche, y comer sentado y acompañado en lugar de de pie y deprisa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás de todo eso hay además una restricción calórica moderada y sostenida durante toda la vida, que es una de las pocas intervenciones que en animales de laboratorio alarga la vida de forma consistente. En humanos no hay ensayos de décadas que lo demuestren, y el libro lo presenta con más seguridad de la que la evidencia permite.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La señal de estar lleno tarda veinte minutos en llegar, así que quien come hasta notarla ha comido de más sin saberlo todavía.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las legumbres están en el centro de las cinco dietas" },
+      {
+        b: "texto",
+        texto:
+          "Al comparar lo que se come en los cinco sitios, el libro encuentra un elemento que aparece en todos y que no es el que la gente espera: las legumbres. Habas y garbanzos en Cerdeña, soja negra en Nicoya, lentejas y garbanzos en Icaria, soja en Okinawa, y todo tipo de legumbre en la dieta de los adventistas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resto del patrón también coincide. La alimentación es mayoritariamente vegetal, con verdura de temporada, cereales integrales y frutos secos; la carne aparece pocas veces al mes y en porciones pequeñas, casi siempre asociada a una fiesta; el pescado se come donde hay mar y en cantidades moderadas; y los productos ultraprocesados y el azúcar añadido son prácticamente inexistentes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Buettner señala un detalle económico que suele pasarse por alto: ninguna de esas dietas es cara. Son las cocinas de gente pobre de zonas rurales, basadas en lo que se cultiva cerca, y el papel central de la legumbre se explica porque era la fuente de proteína asequible. Nada de lo que aparece en esos platos es un superalimento importado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El factor del vino, que el libro incluye entre sus recomendaciones, es el que peor ha aguantado y él mismo tiene un problema con él dentro de su propio material: una de las cinco zonas, la de los adventistas, no bebe absolutamente nada de alcohol y es la que tiene los datos mejor documentados de todas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ninguna de las cinco cocinas es cara: son comidas de gente pobre de zonas rurales, y la legumbre está en el centro de todas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cinco amigos comprometidos de por vida" },
+      {
+        b: "texto",
+        texto:
+          "El factor social es el que Buettner considera más importante y el que menos aparece en cualquier consejo de salud. En las cinco zonas, las personas mayores viven acompañadas y forman parte de estructuras estables que no dependen de que a uno le apetezca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo mejor descrito es una costumbre de Okinawa que consiste en formar, desde la infancia, grupos pequeños de amigos —cinco o seis personas— que se comprometen a apoyarse durante toda la vida, con reuniones regulares y con una caja común a la que todos aportan y de la que se saca cuando alguno lo necesita. Hay grupos así que llevan noventa años juntos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resto del patrón es parecido en los demás sitios: los mayores no viven solos ni en residencias, sino con la familia y con una función reconocida dentro de la casa; hay una comunidad religiosa a la que se acude con frecuencia; y las relaciones no son voluntarias en el sentido moderno, sino obligatorias en el buen sentido, es decir, no dependen de encontrar un hueco en la agenda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los datos que apoyan la importancia de esto no vienen de este libro y son sólidos: el aislamiento social se asocia a un aumento de mortalidad comparable al de fumar, y ese resultado se ha replicado en muchos países. Es probablemente el factor mejor apoyado de los nueve que propone Buettner.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En Okinawa hay grupos de cinco amigos que llevan noventa años juntos y tienen una caja común, y nadie tiene que buscar hueco en la agenda.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Tener una razón concreta para levantarse por la mañana" },
+      {
+        b: "texto",
+        texto:
+          "El último factor que el libro destaca es el propósito, y tiene la particularidad de que en dos de las cinco zonas existe una palabra específica para nombrarlo, mientras que en inglés y en español hay que explicarlo con una frase.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En Okinawa lo llaman de una manera que se ha traducido como la razón por la que uno se levanta por la mañana, y en Nicoya con una expresión que significa plan de vida. En los dos casos no se refiere a una vocación grandiosa ni a un propósito trascendente: se refiere a algo concreto que hay que hacer hoy y que depende de uno, como cuidar un huerto, atender a un nieto o pescar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Buettner subraya la diferencia con la jubilación tal como se entiende en los países ricos, donde a una edad fija una persona deja de tener responsabilidades y a menudo pierde de golpe su papel, su estructura horaria y su red de relaciones. En las zonas que describe no existe ese corte: la gente sigue teniendo funciones, más ligeras pero reales, hasta el final.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Existe además un estudio japonés grande que encontró asociación entre tener ese sentido de propósito y una mortalidad menor a lo largo de varios años de seguimiento, y otros trabajos posteriores han apuntado en la misma dirección. Es una asociación y no una causa demostrada, y encaja con el resto de lo que se sabe.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No es tener un gran propósito en la vida: es que alguien o algo dependa de que te levantes hoy.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En 2024 alguien fue a mirar los registros civiles" },
+      {
+        b: "texto",
+        texto:
+          "Este libro necesita un aviso que no puede darse de pasada, porque afecta a sus datos de partida. En 2024, el investigador Saul Justin Newman publicó un análisis de las regiones del mundo con más personas de edades extremas documentadas, y su conclusión fue incómoda: esas regiones comparten sistemáticamente unos rasgos que no son la dieta ni el ejercicio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que comparten es tener registros civiles malos o incompletos, niveles altos de pobreza, poca alfabetización y, en varios casos, incentivos económicos para no declarar una muerte, porque la pensión sigue cobrándose. Sus datos son concretos: en Estados Unidos, la implantación de registros de nacimiento fiables redujo drásticamente el número de personas de más de ciento diez años que aparecían en las estadísticas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso de Okinawa es el más serio. En 2010, una auditoría del gobierno japonés sobre sus registros de personas muy ancianas encontró que una proporción enorme de esos supuestos supercentenarios estaba muerta desde hacía años, había desaparecido o directamente no existía. A eso se suma que los registros civiles de la prefectura fueron destruidos durante la batalla de 1945, lo cual hace muy difícil verificar cualquier fecha de nacimiento anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un dato posterior que tampoco encaja con el relato. Okinawa, que fue la zona azul emblemática, tiene hoy una de las peores esperanzas de vida de Japón y la tasa de obesidad más alta del país, un cambio que se atribuye a la occidentalización de la dieta desde la ocupación estadounidense. La generación longeva que se estudió fue la que pasó hambre en los años treinta y cuarenta, y sus hijos y nietos están peor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las regiones con más personas de edades extremas documentadas comparten un rasgo: registros civiles poco fiables y pensiones que se siguen cobrando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El secreto de las zonas azules describe cinco lugares con fama de longevidad extrema y extrae nueve factores comunes: movimiento continuo sin ejercicio deliberado, comer hasta el ochenta por ciento, una dieta mayoritariamente vegetal con las legumbres en el centro, vínculos sociales estables y obligatorios, mayores integrados en la familia, comunidad religiosa y una razón concreta para levantarse cada mañana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un enfoque distinto del habitual: en lugar de proponer disciplina, propone entorno. Sus recomendaciones consisten casi todas en organizar la vida de modo que lo saludable ocurra sin decidirlo, que es probablemente lo único que funciona a treinta años vista.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ninguna de esas personas hace un esfuerzo por vivir sano: viven en sitios donde vivir sano es lo que sale sin decidirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y hay que decirlo entero. El edificio se apoya en unos datos de longevidad que la investigación posterior ha puesto en duda de manera seria, sobre todo en Okinawa y en las zonas mediterráneas, por problemas de registro civil y por incentivos de pensión. Y el método es débil por diseño: se eligieron cinco lugares porque ya tenían el resultado y después se buscaron similitudes entre ellos, sin grupo de comparación. Encontrar nueve cosas en común entre cinco poblaciones rurales cualesquiera no es difícil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además dos cosas concretas que han envejecido mal. La recomendación del vino diario contradice la evidencia actual sobre alcohol, que ha revisado a la baja cualquier beneficio del consumo moderado, y contradice también su propio material, porque la única de las cinco zonas con datos verificables es la de los adventistas, que no beben nada. Y conviene saber que alrededor de este concepto se ha construido un negocio considerable, con certificaciones, productos y una serie de televisión, cosa que no lo invalida y sí explica la ausencia total de matices.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se salva es más de lo que parece. Comer legumbres, verdura y grano entero, moverse a diario sin depender de la fuerza de voluntad, no comer hasta reventar, mantener vínculos sociales estables y tener una función que dependa de uno son recomendaciones que la evidencia respalda por otros caminos, con estudios que no tienen nada que ver con estos cinco pueblos. El consejo aguanta aunque la historia con la que se cuenta se venga abajo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "zonas-azules": ZONAS_AZULES,
   outlive: OUTLIVE,
   "segundo-sexo": SEGUNDO_SEXO,
   "discurso-metodo": DISCURSO_METODO,

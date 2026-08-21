@@ -1176,22 +1176,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "zonas-azules",
-    titulo: "El secreto de las zonas azules",
-    autor: "Dan Buettner",
-    ano: 2008,
-    gancho: "Cinco sitios del mundo donde la gente llega a los cien años. Y una pregunta incómoda que llegó quince años después: ¿y si muchos no los tuvieran?",
-    porQue: "Es el libro que metió el ikigai y la dieta mediterránea en medio mundo, y también el mejor caso práctico de cómo se convierte una correlación en un negocio.",
-    minutos: 22.3,
-    capitulos: [
-      { titulo: "El círculo azul en el mapa", minutos: 4.4 },
-      { titulo: "Los pastores de Cerdeña", minutos: 4.5 },
-      { titulo: "El moai de Okinawa", minutos: 4.6 },
-      { titulo: "El plan de vida", minutos: 4.4 },
-      { titulo: "Los papeles", minutos: 4.4 },
-    ],
-  },
-  {
     id: "anticancer",
     titulo: "Anticáncer",
     autor: "David Servan-Schreiber",
