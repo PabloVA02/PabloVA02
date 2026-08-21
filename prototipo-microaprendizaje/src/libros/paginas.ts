@@ -47435,7 +47435,298 @@ const INVENCIBLE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El milagro metabólico, en ocho páginas.
+
+   Breve. Libro práctico de salud → TÚ.
+
+   ES EL CASO EXACTO DEL APARTADO 4 BIS DE REDACCION, el que salió de las
+   capturas de «Cortisol» y del libro de mitocondrias: todo se reduce a X, X
+   está saboteado por la vida moderna, aquí tienes unos hábitos. La regla
+   dice que cuando un libro reduce todo a una causa, ESO es la noticia del
+   resumen y va dicho. Va dicho en la primera página y demostrado en la
+   séptima con los ensayos que probaron la hipótesis directamente.
+
+   La prueba del sustituto: si una página funcionara cambiando «insulina»
+   por «cortisol» o «microbiota», está mal escrita. Por eso cada página
+   lleva un ensayo con nombre, año y número de participantes: DiRECT,
+   DIETFITS, TREAT, los estudios de sala metabólica de Kevin Hall.
+
+   Y hay que ser justo: lo que el libro recomienda comer es bastante
+   razonable y hay una prueba de 2019 que lo respalda. Lo que no aguanta es
+   el mecanismo con el que lo explica. Las dos cosas van.
+   -------------------------------------------------------------------------- */
+
+const MILAGRO_METABOLICO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En 1967 la industria del azúcar pagó a tres investigadores de Harvard para que señalaran a la grasa",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2016, un equipo de la Universidad de California en San Francisco encontró en unos archivos la correspondencia de una fundación financiada por la industria azucarera estadounidense. Los documentos, publicados en la revista «JAMA Internal Medicine», mostraban que en 1967 aquella fundación pagó a tres investigadores de Harvard para escribir una revisión científica sobre las causas de la enfermedad cardíaca, eligió los estudios que debían incluir y revisó los borradores. La revisión culpaba a la grasa y exculpaba al azúcar. La financiación no se declaró.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Carlos Jaramillo, médico colombiano, abre con esa clase de material su libro de 2019, que se convirtió en uno de los mayores éxitos de ventas de salud en español. Su tesis es que la epidemia de obesidad, diabetes tipo 2 e hígado graso no la causan las calorías ni la grasa, sino una hormona en niveles crónicamente altos: la insulina, disparada por el azúcar, la harina y la costumbre de comer cada dos horas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir desde el principio qué clase de libro es, porque decide cómo hay que leerlo. Es un libro de una sola causa: todo lo que explica lo explica con lo mismo. Esa forma tiene una virtud —se entiende de una sentada y se aplica— y un riesgo grande, porque ningún fisiólogo sostiene que la salud metabólica dependa de una sola hormona, y una explicación única siempre encaja mejor de lo que le corresponde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: qué hace la insulina de verdad, por qué contar calorías es cierto y no sirve, qué recomienda comer exactamente, qué se sabe del ayuno intermitente, cómo se revierte de verdad una diabetes tipo 2, y qué pasó cuando esta hipótesis se metió en una sala metabólica y se midió.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que la industria del azúcar manipulara la ciencia en 1967 está documentado; que por eso la culpa sea entera del azúcar es otra afirmación distinta y necesita sus propias pruebas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Mientras la insulina está alta, el cuerpo no saca grasa de la despensa",
+      },
+      {
+        b: "texto",
+        texto:
+          "La insulina es una hormona que fabrica el páncreas y que se libera sobre todo cuando sube el azúcar en sangre. Su trabajo es abrir la puerta de las células para que entre la glucosa y guardar el sobrante, parte en el hígado y en el músculo, parte como grasa. Es la hormona del almacenamiento, y hasta aquí no hay ninguna discusión: esto está en cualquier manual de fisiología.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo segundo tampoco se discute. Mientras la insulina está elevada, la grasa acumulada no sale del tejido adiposo, porque la misma señal que ordena guardar bloquea la que ordena soltar. Así que un cuerpo con insulina permanentemente alta pasa el día en modo almacén y casi nunca en modo despensa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El paso que da Jaramillo a partir de ahí es el que sostiene el libro entero: si comes cinco o seis veces al día y buena parte de lo que comes son azúcares y harinas refinadas, la insulina no baja nunca lo suficiente y quedas atrapado en ese modo. La consecuencia práctica que saca es reducir las veces que comes y reducir la carga de hidratos de cada vez, para que haya horas del día con la insulina baja.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un fenómeno real que refuerza el argumento y que conviene entender: la resistencia a la insulina. Cuando la señal se mantiene alta durante años, las células dejan de responderle bien, así que el páncreas fabrica más para conseguir el mismo efecto, y así sucesivamente. Ese círculo es la antesala de la diabetes tipo 2 y se puede medir con un análisis de sangre; pregunta por la insulina en ayunas, que casi nunca se pide y cuesta lo mismo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La insulina no engorda por sí sola: mientras está alta, impide que salga la grasa que ya está guardada. Esa es la parte que el libro cuenta bien.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Contar calorías es verdad y no sirve, y el motivo no es el que dice el libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica muchas páginas a atacar la cuenta de calorías, y aquí hay que separar dos afirmaciones que suelen ir juntas. Que la energía que entra menos la que sale determina lo que se acumula es una identidad física y no admite discusión. Que contar calorías sea una estrategia útil para una persona real es otra cosa, y ahí Jaramillo tiene razón, aunque no por el motivo que da.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo real lo midió Kevin Hall, investigador de los Institutos Nacionales de Salud de Estados Unidos, en un experimento de 2019 que es el más importante de la nutrición de la última década. Veinte adultos vivieron cuatro semanas ingresados, comiendo lo que quisieran de dos menús que se turnaban: uno de comida ultraprocesada y otro de comida sin procesar, igualados en calorías ofrecidas, en azúcar, en grasa, en sal y en fibra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con el menú ultraprocesado comieron unas quinientas calorías más al día, sin darse cuenta y sin declarar más hambre, y ganaron cerca de un kilo en dos semanas; con el otro perdieron una cantidad parecida. Lo mismo, con la misma composición sobre el papel, produjo dos resultados opuestos, y la diferencia no la explicó ninguna hormona: la explicó lo fácil que era comer más deprisa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la lección práctica que puedes aplicar mañana y que este libro acierta a medias. No hace falta contar: hace falta cambiar la lista de la compra, porque el tipo de comida decide cuánto comes antes de que llegues a la mesa. Lo que el experimento no dice, y el libro sí afirma, es que el mecanismo sea la insulina.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La misma cantidad de calorías sobre el papel produce resultados opuestos según lo procesado que esté lo que las lleva.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Su recomendación práctica es corta, concreta y bastante sensata" },
+      {
+        b: "texto",
+        texto:
+          "Al margen de la discusión sobre el mecanismo, conviene saber qué pide exactamente, porque es la parte que la gente aplica. Tres comidas al día y ninguna picadura entre ellas. Construir el plato empezando por la proteína y la grasa —huevos, pescado, carne, aceite de oliva, aguacate, frutos secos— y poner los hidratos al final y en poca cantidad. Verduras sin almidón, todas las que quieras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fuera, y esta lista es la mitad del libro: los zumos, incluidos los naturales, porque son el azúcar de la fruta sin la fibra que la frenaba; los cereales de desayuno; la harina refinada en todas sus formas; los productos con la etiqueta ligero o desnatado, que casi siempre compensan la grasa quitada con azúcar añadido; y las bebidas azucaradas, que son la vía más rápida que existe para meter azúcar en sangre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rehabilita a la vez tres cosas que estuvieron proscritas durante treinta años: el huevo entero, cuyo colesterol dietético apenas afecta al de la sangre en la mayoría de la gente; la grasa de los alimentos de verdad; y la idea de pasar hambre un rato, que dejó de ser peligrosa en cuanto se demostró que el metabolismo no se para por saltarse una comida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fíjate en algo importante antes de decidir si el libro tiene razón. Esta lista, aplicada, elimina casi toda la comida ultraprocesada de tu dieta, que es exactamente lo que el experimento de la página anterior identificó como determinante. Es decir: la recomendación puede funcionar aunque la explicación esté equivocada, y probablemente sea eso lo que pasa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Su lista de la compra funciona sobre todo porque elimina los ultraprocesados, y eso ocurriría igual aunque la insulina no tuviera nada que ver.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El ayuno intermitente adelgaza, y adelgaza porque comes menos" },
+      {
+        b: "texto",
+        texto:
+          "El ayuno intermitente consiste en concentrar las comidas en unas horas del día y no comer nada el resto; la fórmula más popular es la de dieciséis horas sin comer y ocho para comer, que en la práctica significa saltarse el desayuno o la cena. Jaramillo lo defiende con entusiasmo como la manera más directa de tener horas con la insulina baja.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que dicen los ensayos es más modesto. En 2020, un equipo de la Universidad de California en San Francisco asignó al azar a ciento dieciséis personas con sobrepeso a comer en una ventana de ocho horas o a hacer tres comidas normales, durante doce semanas. El grupo del ayuno perdió menos de un kilo, una diferencia que no fue estadísticamente distinta de la del otro grupo, y perdió además una proporción llamativa de masa magra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ensayo más limpio se publicó en 2022 en el «New England Journal of Medicine»: ciento treinta y nueve pacientes chinos con obesidad, durante un año, todos con la misma restricción de calorías, unos comiendo en ventana de ocho horas y otros a lo largo del día. Perdieron prácticamente lo mismo. El ayuno no añadió nada por encima de comer menos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Así que úsalo si te sirve, que a mucha gente le sirve: saltarse una comida es la forma más sencilla de reducir la ingesta sin pesar nada y sin pensar en ello. Lo que no hay que esperar es un efecto metabólico especial más allá de eso. Y si entrenas fuerza o tienes más de sesenta años, vigila la proteína, porque ahí es donde aparece el problema de masa muscular.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El ayuno funciona como funciona una ventana pequeña: es difícil meter mucha comida por ella. No hay interruptor metabólico debajo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La diabetes tipo 2 sí se revierte, y el ensayo que lo demostró usaba batidos llenos de hidratos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esta es la parte más importante del resumen, porque el libro promete algo que es verdad y lo atribuye a la causa equivocada. Una diabetes tipo 2 de pocos años de evolución puede remitir: azúcar en sangre normal, sin medicación. No es una promesa de vendedor, está demostrado en un ensayo grande y bien hecho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se llama DiRECT, lo dirigieron Roy Taylor y Michael Lean en el Reino Unido, y sus resultados se publicaron en «The Lancet» a finales de 2017. Trescientos seis pacientes con diabetes tipo 2 diagnosticada en los seis años anteriores; a la mitad se le retiró toda la medicación y se le puso a tomar durante tres meses un sustitutivo líquido de unas ochocientas cincuenta calorías al día, y después se reintrodujo comida normal. Al año, el cuarenta y seis por ciento estaba en remisión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle decisivo es de qué estaban hechos aquellos batidos: eran productos comerciales con una proporción alta de hidratos de carbono. O sea que la remisión se consiguió con una dieta que, según la tesis de este libro, tendría que haber empeorado las cosas. Lo que la produjo, según los propios autores, fue perder peso suficiente para vaciar de grasa el hígado y el páncreas; quienes perdieron más de quince kilos remitieron en un ochenta y seis por ciento de los casos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica para ti es buena noticia y libera de un dogma. Si tienes una diabetes tipo 2 reciente, lo que decide tus posibilidades de remisión es cuánto peso pierdes y no de qué macronutriente prescindas. Elige el método que puedas sostener —bajo en hidratos, mediterráneo, sustitutivos bajo control médico— y hazlo con tu médico, porque retirar medicación por tu cuenta es peligroso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La remisión de la diabetes tipo 2 sigue al peso perdido, no al macronutriente eliminado: el ensayo que la demostró usaba batidos ricos en hidratos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cuando la hipótesis se probó en una sala metabólica, no salió lo que decía",
+      },
+      {
+        b: "texto",
+        texto:
+          "La hipótesis de los hidratos y la insulina es comprobable, y se ha comprobado varias veces. Si fuera cierta que los hidratos engordan por su efecto hormonal y no por su energía, una dieta baja en hidratos debería hacer perder más grasa que otra con las mismas calorías. Kevin Hall lo midió en 2016 encerrando a diecisiete hombres durante semanas y controlando cada gramo que entraba: al pasarlos a una dieta cetogénica con las mismas calorías, la pérdida de grasa no aumentó. Se frenó un poco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2021 repitió la comparación dejando comer libremente, que es como come la gente. Los mismos veinte participantes pasaron por dos menús, uno bajo en hidratos y de origen animal y otro bajo en grasa y de origen vegetal. Con el bajo en grasa comieron espontáneamente unas setecientas calorías menos al día. El resultado fue justo el contrario del que predice el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y está el ensayo que zanjó la discusión fuera del laboratorio. En 2018, Christopher Gardner publicó en «JAMA» un estudio con seiscientas nueve personas seguidas durante doce meses, repartidas al azar entre una dieta sana baja en grasa y una dieta sana baja en hidratos, sin contar calorías en ninguna de las dos. Perdieron prácticamente lo mismo, cinco y seis kilos de media. Y algo más: no hubo diferencia según cuánta insulina segregara cada participante, que es justo lo que la hipótesis predecía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resumen honesto de todo esto es que la dieta baja en hidratos funciona, funciona bien para mucha gente y no funciona por el motivo que dice el libro. Funciona porque, hecha con comida de verdad, sacia más y elimina casi todo lo ultraprocesado. Que el mecanismo sea otro no la invalida como método; invalida la afirmación de que todo se reduce a una hormona.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La dieta baja en hidratos funciona; lo que no aguanta la comprobación es la explicación de por qué funciona.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la enfermedad metabólica moderna la causa la insulina crónicamente alta por el azúcar, la harina y comer a todas horas, y que la solución es tres comidas, poca carga de hidratos y comida sin procesar. La recomendación es sensata; la explicación única que la sostiene no lo es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es que se aplica. Está escrito en un castellano claro, con listas de la compra y menús, y ha conseguido que cientos de miles de personas dejen los zumos y los cereales de desayuno, que es un cambio real y en la dirección correcta. Y desmonta bien dos cosas que llevaban treinta años en pie: el miedo al huevo y los productos ligeros cargados de azúcar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en la forma que el género repite y que este libro lleva al extremo: todo se reduce a X. Cuando esa hipótesis se ha probado con las calorías controladas, no ha salido; cuando se ha comparado con una dieta baja en grasa hecha también con comida de verdad, han empatado; y la remisión de la diabetes que promete se demostró con batidos ricos en hidratos. Falla además al presentar su experiencia de consulta como prueba, sin grupo de comparación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y en lo que acierta, lo que vino después le ha dado la razón por otra puerta. Desde 2019 el marco dominante en nutrición ya no es qué macronutriente sobra, sino cuánto ultraprocesado hay en la dieta. La lista de la compra del libro reduce mucho los ultraprocesados, así que funciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ha aparecido algo que ningún libro de dieta previó. Desde 2021, los fármacos de la familia de la semaglutida consiguen en ensayos pérdidas de peso del quince al veinte por ciento, cifras que ninguna dieta había logrado sostener. Eso no anula nada de lo que hay que comer, pero cambia la conversación: durante décadas el debate fue de voluntad y de hormonas, y resultó que una parte grande del problema era regulable con un medicamento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quédate con la lista de la compra, que es buena, y no con el mecanismo, que es el que no ha resistido las comprobaciones.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "milagro-metabolico": MILAGRO_METABOLICO,
   invencible: INVENCIBLE,
   "repensar-pobreza": REPENSAR_POBREZA,
   "doctrina-shock": DOCTRINA_SHOCK,

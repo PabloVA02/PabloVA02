@@ -68,7 +68,6 @@ const CARGADORES: Record<string, Cargador> = {
   "espiritual-arte": () => import("./arte").then((m) => m.ESPIRITUAL_ARTE),
   "el-elemento": () => import("./arte").then((m) => m.EL_ELEMENTO),
   "vivir-plenitud": () => import("./salud").then((m) => m.VIVIR_PLENITUD),
-  "milagro-metabolico": () => import("./salud").then((m) => m.MILAGRO_METABOLICO),
   "poder-metabolismo": () => import("./salud").then((m) => m.PODER_METABOLISMO),
   "cosas-buenas": () => import("./psicologia").then((m) => m.COSAS_BUENAS),
   "intro-psicoanalisis": () => import("./psicologia").then((m) => m.INTRO_PSICOANALISIS),

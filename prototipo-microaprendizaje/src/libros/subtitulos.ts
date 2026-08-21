@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "milagro-metabolico": "Alimentación saludable para vivir sin enfermedades",
   invencible: "Logra más, sufre menos",
   "repensar-pobreza": "Un giro radical en la lucha contra la desigualdad global",
   "doctrina-shock": "El auge del capitalismo del desastre",

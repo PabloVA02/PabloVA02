@@ -488,22 +488,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "milagro-metabolico",
-    titulo: "El milagro metabólico",
-    autor: "Carlos Jaramillo",
-    ano: 2019,
-    gancho: "Sostiene que el problema no son las calorías sino las hormonas. Acierta en la crítica al modelo viejo y se pasa de frenada al sustituirlo por una sola causa.",
-    porQue: "Es el libro de salud más vendido en español de los últimos años y tiene una mitad sólida y otra que no se sostiene. Separarlas enseña a leer cualquier libro de nutrición, que es lo más útil que se puede sacar de este estante.",
-    minutos: 23.4,
-    capitulos: [
-      { titulo: "Una consulta en Bogotá", minutos: 4.7 },
-      { titulo: "Lo que sí está respaldado", minutos: 4.8 },
-      { titulo: "La hipótesis de la insulina", minutos: 4.6 },
-      { titulo: "El ayuno y el resto del botiquín", minutos: 4.8 },
-      { titulo: "Cómo se lee un libro de salud", minutos: 4.5 },
-    ],
-  },
-  {
     id: "vivir-plenitud",
     titulo: "Vivir con plenitud las crisis",
     autor: "Jon Kabat-Zinn",

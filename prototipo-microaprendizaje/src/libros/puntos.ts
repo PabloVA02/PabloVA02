@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "milagro-metabolico": [
+    "qué hace exactamente la insulina y por qué bloquea la grasa",
+    "por qué contar calorías es cierto y no sirve",
+    "qué se sabe del ayuno intermitente cuando se mide",
+    "con qué se consiguió revertir la diabetes tipo 2 en el ensayo DiRECT",
+    "separar la lista de la compra, que es buena, del mecanismo",
+  ],
+
   invencible: [
     "separar lo que depende de ti de lo que no, y su límite",
     "la frase que se cuela entre lo que pasa y lo que sientes",

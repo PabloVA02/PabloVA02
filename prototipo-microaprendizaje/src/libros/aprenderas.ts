@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "milagro-metabolico":
+    "En 1967 la industria del azúcar pagó a tres investigadores de Harvard para culpar a la grasa, y está documentado. Jaramillo parte de ahí para sostener que la enfermedad metabólica la causa una sola hormona.",
+
   invencible:
     "La cifra de los veintiún días para crear un hábito salió de un cirujano plástico en 1960; la medición real da sesenta y seis. Vázquez ordena el estoicismo y la psicología del comportamiento en un curso de noventa días.",
 
