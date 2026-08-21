@@ -60016,7 +60016,290 @@ const RAFA_MI_HISTORIA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Moneyball, en ocho páginas.
+
+   Breve. Ensayo de empresa → afirmación entera en el rótulo y tercera
+   persona; la caja del rayo es la idea de la página.
+
+   Riesgo principal: es un libro de béisbol y el lector español no sabe las
+   reglas. Se explica solo lo imprescindible —la eliminación como recurso
+   escaso— y todo lo demás se cuenta como un problema de mercado, que es lo
+   que de verdad es.
+
+   Y la conclusión tiene que decir lo que el libro no dijo: que la ventaja
+   se cerró en cuanto la copiaron los ricos, y que Oakland siguió sin ganar.
+   -------------------------------------------------------------------------- */
+
+const MONEYBALL: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un equipo pobre ganó lo mismo que el más rico por un tercio del precio",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2002, los Yankees de Nueva York gastaron unos ciento veinticinco millones de dólares en salarios y los Atléticos de Oakland unos cuarenta. En el béisbol no hay límite salarial, así que esa diferencia se traduce directamente en jugadores: los ricos se llevan a los mejores en cuanto quedan libres. Aquella temporada, los dos equipos ganaron prácticamente el mismo número de partidos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Oakland ganó ciento tres encuentros y encadenó veinte victorias seguidas, un récord que sigue en pie en su liga. Lo hizo con una plantilla formada por jugadores que otros equipos habían descartado, dirigida por un director deportivo de cuarenta años sin estudios universitarios y por un economista de veintiocho recién salido de Harvard.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Michael Lewis, que venía de escribir sobre Wall Street, entró en aquel despacho para contar una historia deportiva y salió con otra cosa: un caso de manual sobre qué ocurre cuando un mercado entero valora mal su mercancía durante un siglo y alguien se da cuenta antes que los demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro nunca sostiene que Oakland tuviera un secreto matemático. Sostiene algo más incómodo para cualquier sector: que los expertos de un oficio muy antiguo estaban comprando lo que les parecía valioso, que nadie había comprobado nunca si lo era, y que los datos para comprobarlo llevaban veinticinco años publicados y a la venta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un sector entero puede llevar un siglo pagando por lo que no sirve sin que a nadie le extrañe.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El problema de los ojeadores no era la ignorancia, era la seguridad" },
+      {
+        b: "texto",
+        texto:
+          "Las escenas más divertidas del libro transcurren en la sala donde los ojeadores de Oakland eligen a los chicos que van a fichar. Son hombres de sesenta y setenta años que llevan media vida en carreteras secundarias viendo partidos de instituto, y su método consiste en mirar al chaval y decidir si tiene aspecto de jugador de béisbol.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso incluía criterios que ellos enunciaban en voz alta sin ningún pudor: la constitución física, la forma de andar, la mandíbula, si el chico tenía novia guapa. Existía incluso una expresión del oficio, la buena cara, para describir al que parecía destinado a triunfar. Ninguno de esos rasgos había demostrado nunca predecir nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lewis no los retrata como tontos. Eran hombres con muchísima experiencia acumulada y con una confianza absoluta en su ojo, y ese es exactamente el problema: la experiencia sin comprobación produce certeza, no acierto. Ninguno llevaba la cuenta de cuántos de sus fichajes seguros habían fracasado, así que ninguno tenía motivos para dudar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El equipo hizo lo contrario. Empezó a elegir jugadores por lo único que estaba medido de verdad, sus resultados en la universidad, y a ignorar el aspecto. Los ojeadores lo vivieron como una humillación personal, y en cierto modo lo era: se les estaba diciendo que cuarenta años de instinto valían menos que una hoja de cálculo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La experiencia sin comprobación no produce acierto: produce seguridad, que se le parece mucho.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El hombre que dirigía aquello había sido el error más caro del sistema",
+      },
+      {
+        b: "texto",
+        texto:
+          "Billy Beane sabía por qué desconfiaba de los ojeadores: él había sido su obra maestra. En 1980 lo eligieron en primera ronda como uno de los mayores talentos de su generación, un chico alto, rápido, atlético y guapo que reunía todas las cualidades que aquel oficio consideraba decisivas. Rechazó una beca universitaria para firmar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y no funcionó. Pasó años en categorías inferiores sin llegar a ser un bateador aceptable, se hundió mentalmente cada vez que falló, destrozó bates contra las paredes y acabó retirándose joven para pedir un puesto de becario en las oficinas del club. Es un caso rarísimo: un fracaso deportivo que se convierte en el mejor directivo de su liga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro usa su biografía como prueba central. Si el método de los ojeadores hubiera valido algo, Beane habría sido una estrella; si los números hubieran mandado, nadie le habría fichado, porque en el instituto ya se veía que no sabía esperar la bola buena. Los expertos se equivocaron con el ejemplar perfecto de su propia teoría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale también su norma como directivo: no fichar nunca por potencial, y desconfiar del jugador que impresiona en el calentamiento. Lewis señala el fondo psicológico sin insistir demasiado: el hombre estaba corrigiendo, con dinero ajeno y con veinte años de retraso, el error que le habían hecho cometer a los dieciocho.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El que ha sido víctima de un método malo es quien mejor ve por dónde falla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El recurso escaso del béisbol no son los golpes: son las eliminaciones",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea que lo cambió todo la había publicado un vigilante nocturno. Bill James trabajaba de guardia en una fábrica de conservas de Kansas y desde 1977 se autoeditaba unos cuadernos con estadísticas de béisbol que él mismo mecanografiaba y vendía por correo. Durante veinticinco años ningún equipo profesional le hizo el menor caso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su observación fundamental es tan sencilla que cuesta creer que hiciera falta descubrirla. Un equipo dispone de veintisiete eliminaciones por partido y ni una más; cuando se acaban, se acabó el partido. Por tanto, lo único que importa de verdad de un bateador es la frecuencia con la que consigue no ser eliminado, y da igual cómo lo consiga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso reordena las prioridades del oficio entero. El promedio de bateo, que era la cifra sagrada, ignora las bases por bolas, es decir, ignora al jugador que tiene la paciencia de no golpear a lo que no debe. Y las jugadas de sacrificio, que la tradición consideraba nobles, consisten literalmente en regalar el recurso más escaso que tienes.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Lo sobrevalorado", texto: "el promedio de bateo, las carreras robadas y las jugadas de sacrificio." },
+          { fuerte: "Lo infravalorado", texto: "el porcentaje de veces que un bateador llega a base por cualquier vía." },
+          { fuerte: "La razón", texto: "las eliminaciones son limitadas y cada una gastada es una oportunidad menos." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de optimizar nada, averigua cuál es el recurso que de verdad se te acaba.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los jugadores baratos eran justo los que no parecían jugadores" },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica fue una plantilla que daba risa en el campo y ganaba partidos. Oakland fichó a Scott Hatteberg, un receptor con una lesión de nervio que le impedía lanzar, y lo puso en otra posición porque tenía la mejor paciencia en el bateo del mercado y costaba una cuarta parte de lo que valía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Contrató a Chad Bradford, un lanzador que soltaba la bola casi a ras de suelo con un movimiento tan poco ortodoxo que los ojeadores lo descartaban por feo, y que llevaba años obteniendo resultados excelentes. Y eligió en el sorteo a Jeremy Brown, un receptor universitario gordo del que media sala se rio en voz alta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El patrón es siempre el mismo. El mercado penalizaba un defecto visible —una lesión, un gesto raro, un cuerpo que no encaja— y descontaba de golpe todo lo demás. Como el defecto era visible y la virtud estaba en una tabla, el precio se hundía muy por debajo de lo que el jugador rendía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lewis convierte eso en la lección económica del libro. Un mercado no se equivoca al azar: se equivoca de forma sistemática, siempre en la misma dirección y siempre por prejuicios que sus profesionales ni siquiera saben que tienen. Quien conozca el prejuicio puede comprar barato durante todo el tiempo que los demás tarden en enterarse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un defecto visible hace que se descuente todo lo bueno que no se ve a simple vista.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ganar con poco dinero exige aceptar lo que a los demás les da vergüenza",
+      },
+      {
+        b: "texto",
+        texto:
+          "Beane administraba su equipo como una cartera. Vendía caro a cualquier jugador propio en cuanto el resto del mercado empezaba a admirarlo, incluso a los queridos por la afición, y compraba a los que estaban en el momento más bajo de su cotización. Le costó una fama de desalmado que el libro no discute.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También aceptó cosas que sus colegas consideraban impresentables. Prohibió las jugadas de sacrificio y las carreras robadas, que son las más celebradas por el público; renunció al espectáculo; y armó un equipo sin ninguna estrella reconocible en un deporte que vende entradas por las estrellas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La condición para todo eso era soportar el ridículo durante un par de temporadas. Los periodistas locales le trataron de arrogante, los ojeadores filtraron su desprecio a la prensa y varios entrenadores se negaron a aplicar sus instrucciones. Sin dinero, la única ventaja disponible consiste en hacer lo que los demás no están dispuestos a hacer en público.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la definición del libro sobre las ineficiencias del mercado, que sirve igual para una empresa pequeña. No están escondidas en ningún sitio complicado: están en las prácticas que todo el mundo mantiene porque abandonarlas quedaría mal, y duran exactamente hasta que alguien acepta quedar mal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las ventajas baratas están donde hacer lo correcto te deja en ridículo delante de tus colegas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El método lleva a la eliminatoria y la eliminatoria es una lotería" },
+      {
+        b: "texto",
+        texto:
+          "El final de la temporada de 2002 desmiente en parte al libro, y el libro lo cuenta. Después de ciento tres victorias y del récord de veinte seguidas, Oakland perdió la primera eliminatoria contra Minnesota y se fue a casa, como los tres años anteriores y como los siguientes. El sistema no había ganado nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Beane lo explica con una frase que Lewis recoge sin suavizarla: lo suyo funciona a lo largo de ciento sesenta y dos partidos y no funciona en una serie de cinco. En una muestra tan pequeña, la diferencia entre un equipo bueno y uno mediocre desaparece dentro del azar, y lo que decide es qué lanzador tuvo un buen día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa admisión es lo que separa el libro de un manual de autoayuda empresarial. Un método puede ser correcto, mejorar de verdad las probabilidades y no darte nunca el premio, porque el premio se reparte en un formato que no premia la probabilidad. Muchísimos sectores funcionan igual y casi nadie lo dice.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es dura de asumir. Si la eliminatoria es una lotería, lo único que un equipo pobre puede hacer es comprar el máximo número de boletos posible, año tras año, y aceptar que la mayoría de los años no le va a tocar. Como estrategia es impecable y como consuelo no vale nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un método bueno mejora tus probabilidades y no te garantiza el resultado ni una sola vez.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Moneyball cuenta cómo un equipo con un tercio del presupuesto de sus rivales igualó sus resultados por el procedimiento de comprobar lo que su sector daba por sabido. La tesis no es que los números manden: es que un mercado formado por expertos muy seguros de su criterio puede equivocarse en la misma dirección durante décadas, y que el error es dinero para quien lo detecte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un método trasladable a cualquier oficio. Identificar el recurso que de verdad escasea, medir lo que se paga y no lo que se admira, comprar lo que tiene un defecto visible y una virtud invisible, y estar dispuesto a hacer en público lo que a los colegas les daría vergüenza. Fuera del deporte se ha aplicado en selección de personal, en seguros y en fondos de inversión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en el reparto del mérito. Aquel Oakland tenía tres lanzadores titulares excelentes, fichados por métodos convencionales, y al jugador más valioso de la liga en su plantilla, y el libro apenas se detiene en ello. Escrito como una novela con héroes y villanos, exagera cuánto de aquellas victorias venía de la hoja de cálculo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y envejeció por su propio éxito. Boston contrató a Bill James en 2003 y ganó en 2004 su primer título en ochenta y seis años; en pocos años todos los equipos tenían departamento de análisis, y los que más analistas pudieron pagar fueron los ricos. La ventaja se cerró, Oakland siguió sin ganar nada y el dinero volvió a mandar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto sobre el juego fue mayor que sobre los resultados. El béisbol se llenó de defensas colocadas por ordenador, de bateos a por el todo o nada y de partidos más lentos, hasta que en 2023 hubo que cambiar las reglas para devolverle el ritmo. La película de 2011, con Brad Pitt, llevó la palabra a todos los idiomas: hoy se usa para cualquiera que gane con poco por medir mejor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Toda ventaja basada en ver antes lo que otros no miran dura solo hasta que la copian los que tienen dinero.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  moneyball: MONEYBALL,
   "rafa-mi-historia": RAFA_MI_HISTORIA,
   "soy-zlatan": SOY_ZLATAN,
   "cruyff-14": CRUYFF_14,

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  moneyball:
+    "Los Atléticos de Oakland igualaron los resultados de los Yankees con un tercio del presupuesto. Lewis cuenta cómo se detecta que un sector entero lleva un siglo pagando por lo que no sirve.",
+
   "rafa-mi-historia":
     "Nadal cuenta su vida alternándola con la final de Wimbledon de 2008, punto a punto. Su tesis es incómoda: es un hombre miedoso, y lo que le hizo distinto fue un método familiar muy estricto.",
 

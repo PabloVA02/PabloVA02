@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  moneyball: [
+    "por qué las eliminaciones son el recurso escaso del béisbol",
+    "cómo elegían los ojeadores antes de que llegaran los datos",
+    "quién era el vigilante nocturno que lo descubrió todo",
+    "por qué los jugadores baratos parecían siempre defectuosos",
+    "por qué la ventaja se cerró en pocos años",
+  ],
+
   "rafa-mi-historia": [
     "cómo era el método de entrenamiento del tío Toni",
     "por qué juega con la izquierda si es diestro",
