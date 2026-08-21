@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "nunca-te-pares": [
+    "cómo consiguió la distribución sin tener ninguna empresa",
+    "por qué crecer el cien por cien anual casi lo arruina",
+    "de dónde salieron el nombre y el símbolo",
+    "cómo se pelea una reclamación que te puede cerrar",
+    "qué se llevó por delante todo aquello",
+  ],
+
   "legado-all-blacks": [
     "por qué los veteranos limpian el vestuario después de jugar",
     "cómo se descarta a un jugador por carácter",

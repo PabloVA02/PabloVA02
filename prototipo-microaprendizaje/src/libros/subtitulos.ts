@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "nunca-te-pares": "Los dieciocho años en que Nike estuvo a punto de quebrar cada verano",
   "legado-all-blacks": "Quince prácticas concretas del equipo que más gana del mundo",
   "gen-deportivo": "Qué parte del rendimiento explican de verdad los genes",
   "numero-uno": "Qué dice de verdad la ciencia sobre llegar a ser excepcional",

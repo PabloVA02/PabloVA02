@@ -62466,7 +62466,270 @@ const LEGADO_ALL_BLACKS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Nunca te pares, en ocho páginas.
+
+   Breve. Memoria de fundador → títulos cortos de imagen, la afirmación en
+   la primera frase y la caja del rayo en segunda persona (apartado 3 bis).
+
+   Riesgo principal: es un libro encantador escrito por un hombre muy rico
+   sobre sus años de pobreza, y el encanto arrastra. Cada página cuenta la
+   cifra o el trámite exacto, que es lo que sostiene el relato.
+
+   Y la conclusión tiene que decir lo que el libro esquiva del todo: acaba
+   en 1980 y las fábricas asiáticas de los años noventa quedan fuera.
+   -------------------------------------------------------------------------- */
+
+const NUNCA_TE_PARES: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "La idea loca" },
+      {
+        b: "texto",
+        texto:
+          "En 1962, Phil Knight tenía veinticuatro años, un título de contable y un trabajo de escritorio que le esperaba. Lo que hizo fue pedirle dinero a su padre para dar la vuelta al mundo, con una idea que había desarrollado en un trabajo de clase: si las cámaras japonesas habían desplazado a las alemanas por ser igual de buenas y mucho más baratas, lo mismo podía pasar con las zapatillas de correr.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En Kobe se presentó en la sede de un fabricante japonés de calzado deportivo sin cita y sin empresa. Cuando le preguntaron a quién representaba, se inventó un nombre en el acto —Blue Ribbon Sports— y describió una compañía que no existía. Salió de allí con la distribución para el oeste de Estados Unidos y con un pedido que pagó su padre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta esos primeros dieciocho años, de 1962 a 1980, y se detiene justo cuando la empresa sale a bolsa. Es una decisión narrativa importante: no es la historia de una gran marca, es la de un negocio pequeño que estuvo a punto de quebrar todos los años durante casi dos décadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Knight lo escribió a los setenta y ocho años, cuando ya no tenía nada que demostrar, y eso se nota en el tono. Es una memoria de fundador poco habitual porque está llena de miedo, de deudas, de decisiones tomadas mal y de noches sin dormir, y muy escasa de lecciones de gestión.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie empieza con una empresa: se empieza con un nombre inventado y un pedido que hay que pagar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Vender zapatillas desde el maletero" },
+      {
+        b: "texto",
+        texto:
+          "Los primeros años consistieron en ir a competiciones de atletismo con las cajas en el maletero del coche y vender de una en una a corredores y a entrenadores. No había tienda, no había publicidad y no había empleados: había un hombre con un trabajo de contable durante el día que dedicaba las tardes y los fines de semana a colocar pares de zapatillas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer empleado a jornada completa fue Jeff Johnson, un corredor obsesivo que abrió la primera tienda, fotografiaba a los clientes, les escribía cartas a mano y llevaba fichas con los kilómetros y las lesiones de cada uno. Escribía a Knight varias cartas por semana que Knight casi nunca contestaba, y varias de las mejores ideas de la empresa salieron de ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese detalle explica media historia. La empresa creció durante años gracias a un puñado de personas raras, obsesionadas con correr, que trabajaban por sueldos ridículos porque no encajaban en ningún otro sitio. Knight las describe con afecto y sin idealizarlas: eran difíciles, discutían entre ellas y ninguna era un ejecutivo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También cuenta lo que aquello tenía de precario. Durante años él siguió dando clases de contabilidad para pagar las facturas, la empresa no daba beneficios y su padre, editor de un periódico, consideraba que su hijo estaba desperdiciando una carrera respetable vendiendo calzado en aparcamientos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Al principio no necesitas profesionales: necesitas a unos cuantos obsesionados con lo mismo que tú.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El entrenador y la gofrera" },
+      {
+        b: "texto",
+        texto:
+          "El socio de Knight fue su antiguo entrenador de atletismo en la universidad, Bill Bowerman, que puso quinientos dólares y se quedó con el cuarenta y nueve por ciento. Bowerman llevaba años desmontando zapatillas y cosiéndolas de nuevo para sus corredores, buscando quitar gramos, y usaba a sus propios atletas como banco de pruebas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El episodio más famoso ocurrió en 1971 en la cocina de su casa. Bowerman quería una suela que agarrara sin clavos y se le ocurrió mirando el desayuno: vertió caucho líquido en la gofrera de su mujer, la destrozó y obtuvo la suela de tacos cuadrados que convirtió a la empresa en una marca reconocible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante no es la anécdota sino el método. Bowerman probaba cada modificación en corredores reales durante temporadas enteras, medía, descartaba y volvía a empezar, y su criterio era siempre el mismo: quitar peso, porque unos gramos menos por zapatilla se multiplican por miles de zancadas en una carrera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Knight reconoce que ese fue el activo de verdad. Cualquiera podía importar zapatillas japonesas; lo que nadie más tenía era a un entrenador de primer nivel rediseñándolas cada temporada con atletas de élite dentro. La ventaja no estaba en el negocio, estaba en el taller.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tu ventaja rara vez está en cómo vendes: suele estar en algo que solo tú puedes fabricar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Crecer el cien por cien y no tener dinero" },
+      {
+        b: "texto",
+        texto:
+          "El problema central de la empresa durante quince años no fue vender poco: fue vender demasiado. Knight duplicaba la facturación casi todos los años, y cada duplicación exigía pedir más zapatillas, que había que pagar por adelantado a Japón meses antes de cobrarlas en Estados Unidos. Cuanto más crecía, más dinero le faltaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los bancos de la época no entendían aquello. Querían ver reservas y prudencia, no crecimiento agresivo con el balance a cero, y le fueron cerrando la línea de crédito uno detrás de otro. Knight cuenta reuniones humillantes con directores de sucursal que le trataban como a un aficionado irresponsable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1975 la situación se rompió. Un cheque de la empresa quedó sin fondos, el banco cortó la relación y avisó a las autoridades federales por si había fraude. Durante unas semanas, el fundador de lo que hoy es la mayor marca deportiva del mundo estuvo pendiente de una investigación y sin un dólar disponible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo salvó una empresa comercial japonesa, que le financió la mercancía a cambio de comisiones y de información. La lección que Knight extrae es de tesorería pura y aplica a cualquier negocio que crezca deprisa: la quiebra casi nunca llega por vender poco, llega por no tener el dinero en el mes en que hay que pagar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los negocios que crecen rápido no quiebran por falta de ventas: quiebran por falta de caja.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La ruptura y el nombre nuevo" },
+      {
+        b: "texto",
+        texto:
+          "Hacia 1971 la relación con el fabricante japonés se envenenó. Knight descubrió que estaban buscando otro distribuidor para sustituirle en cuanto el mercado estadounidense creciera lo suficiente, y decidió adelantarse: empezó a fabricar zapatillas propias en secreto, con otro proveedor, mientras seguía vendiendo las del socio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando aquello salió a la luz, hubo demandas por las dos partes y un juicio que se resolvió a su favor en 1974. Knight no lo presenta como una hazaña: cuenta los meses de mentiras, la sensación de estar haciendo algo turbio y el hecho evidente de que el otro estaba preparando exactamente lo mismo contra él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con marca propia hacían falta un nombre y un logotipo. El nombre lo propuso Jeff Johnson tras soñar con la diosa griega de la victoria, y a Knight no le gustó nada; se quedó porque había que mandar las cajas a imprenta al día siguiente. El símbolo lo dibujó una estudiante de diseño por treinta y cinco dólares, y tampoco le convenció.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El comentario que hace sobre eso es de las cosas más útiles del libro. Las dos decisiones de marca más valiosas de su vida se tomaron con prisa, sin acuerdo y sin entusiasmo, y funcionaron porque detrás hubo veinte años de producto. Ninguna reunión de márketing habría producido nada mejor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Muchas decisiones que luego parecen geniales se tomaron con prisa y sin que nadie estuviera convencido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Veinticinco millones de aduanas" },
+      {
+        b: "texto",
+        texto:
+          "En 1977 llegó la amenaza más seria. El servicio de aduanas estadounidense aplicó a la empresa una norma antigua y poco usada sobre el precio de los productos importados y le reclamó veinticinco millones de dólares de derechos atrasados. Era una cifra que la compañía no tenía ni de lejos y que suponía el cierre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La reclamación venía impulsada por competidores nacionales que conocían bien el mecanismo. Knight comprendió que aquello no se resolvía en un despacho de abogados sino en Washington, y montó una campaña política: presión de congresistas del estado, prensa, y una demanda propia contra el gobierno mientras negociaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tardó tres años. En 1980 se cerró el asunto pagando nueve millones, una cantidad enorme y asumible, y la empresa salió a bolsa pocos meses después. Ese es el final del libro: el 2 de diciembre de 1980, un contable de Oregón que había empezado vendiendo zapatillas en un aparcamiento se encontró con una participación de ciento setenta y ocho millones de dólares.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El episodio se cuenta sin triunfalismo y con una moraleja incómoda. Una empresa que crece deprisa se vuelve un objetivo, y las amenazas más peligrosas no vienen del mercado sino de la regulación y de los competidores que saben usarla. Nadie avisa de eso en ninguna escuela de negocios.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando empiezas a molestar de verdad, el golpe no llega del mercado: llega de un despacho.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que costó" },
+      {
+        b: "texto",
+        texto:
+          "El último tercio del libro cambia de tono y es la razón por la que se recuerda. Knight repasa lo que aquellos dieciocho años se llevaron por delante: un matrimonio sostenido por la paciencia de su mujer, amistades convertidas en socios y después en litigios, y sobre todo dos hijos a los que apenas vio crecer porque estaba en un avión o en una reunión con un banco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También cuenta las muertes. Steve Prefontaine, el corredor más popular del país y la primera gran figura ligada a la marca, murió en un accidente de coche en 1975 con veinticuatro años. Y su hijo Matthew murió en 2004 buceando en Centroamérica, un episodio que Knight menciona en pocas líneas y que atraviesa el final del libro entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que no hace es convertir eso en una lección de equilibrio vital. No dice que se pueda tener todo ni recomienda a nadie que se organice mejor. Dice que eligió, que sabía lo que estaba eligiendo y que a los setenta y ocho años sigue sin saber si mereció la pena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa ambigüedad es lo que separa este libro de los cientos de memorias de fundador que se publican cada año. La mayoría termina explicando por qué el sacrificio valió la pena. Esta termina con un hombre muy rico haciendo una lista de lo que no volverá y sin sacar ninguna conclusión tranquilizadora.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se puede elegir con los ojos abiertos y seguir sin saber, cuarenta años después, si acertaste.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Nunca te pares cuenta los dieciocho años que van de un joven inventándose una empresa en una oficina de Kobe a la salida a bolsa de 1980. Es una historia de crecimiento constante y de insolvencia constante, sostenida por un entrenador que rediseñaba suelas en su cocina y por un puñado de empleados raros que trabajaban por casi nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la parte que casi ningún libro de emprendimiento cuenta: la tesorería. Aquí se ve con números por qué duplicar ventas cada año es peligrosísimo, cómo se negocia con un banco que ya no te quiere, qué se hace cuando un proveedor prepara tu sustitución y cómo se pelea una amenaza regulatoria. Es un manual disfrazado de novela.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla por dónde termina. El libro acaba en 1980 y por tanto no menciona el asunto que define a esa empresa en la conciencia pública: las denuncias de los años noventa sobre las condiciones de trabajo en sus fábricas de Asia, con jornadas abusivas, salarios de miseria y trabajo infantil en algunos proveedores. El propio Knight lo reconoció públicamente en 1998.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Que la memoria de un fundador se detenga justo antes del problema moral de su compañía no es un descuido de calendario. Un lector que solo lea este libro se queda con la parte simpática de una historia que tiene una parte muy poco simpática, y conviene saberlo antes de tomarla como modelo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de 1980, la empresa pasó de facturar unos cientos de millones a decenas de miles, Knight dejó la dirección en 2004 y la presidencia en 2016, y ha donado miles de millones a dos universidades. El libro se publicó en 2016 y lo recomendaron desde inversores célebres hasta entrenadores, que lo usan por una razón que el propio autor no subraya: es un relato honesto sobre aguantar quince años sin saber si vas a llegar a fin de mes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una historia contada con honestidad puede seguir siendo parcial: fíjate siempre en dónde decide terminar.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "nunca-te-pares": NUNCA_TE_PARES,
   "legado-all-blacks": LEGADO_ALL_BLACKS,
   "gen-deportivo": GEN_DEPORTIVO,
   "numero-uno": NUMERO_UNO,

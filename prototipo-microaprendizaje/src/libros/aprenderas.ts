@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "nunca-te-pares":
+    "De un chico inventándose una empresa en una oficina de Kobe en 1962 a la salida a bolsa de 1980. Una historia de crecimiento constante, insolvencia constante y un entrenador rediseñando suelas en su cocina.",
+
   "legado-all-blacks":
     "En 2004 la selección de rugby de Nueva Zelanda reescribió su funcionamiento interno para que el éxito no la pudriera. Kerr pasó cinco semanas dentro y volvió con quince lecciones de gestión.",
 
