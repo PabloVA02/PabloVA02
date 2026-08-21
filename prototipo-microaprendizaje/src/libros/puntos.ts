@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "legado-all-blacks": [
+    "por qué los veteranos limpian el vestuario después de jugar",
+    "cómo se descarta a un jugador por carácter",
+    "qué significa que la camiseta esté prestada",
+    "qué hacer con la cabeza cuando llega el pánico",
+    "por qué un ritual inventado por el jefe no funciona",
+  ],
+
   "gen-deportivo": [
     "cómo ganó un mundial alguien con ocho meses de práctica",
     "por qué los bateadores fallaron contra una lanzadora de sóftbol",

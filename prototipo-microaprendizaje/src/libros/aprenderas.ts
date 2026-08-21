@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "legado-all-blacks":
+    "En 2004 la selección de rugby de Nueva Zelanda reescribió su funcionamiento interno para que el éxito no la pudriera. Kerr pasó cinco semanas dentro y volvió con quince lecciones de gestión.",
+
   "gen-deportivo":
     "Epstein enfrenta cada caso célebre del deporte con lo que dicen los laboratorios. Su tesis no es que los genes decidan el resultado, sino que deciden cuánto mejora cada cuerpo con el mismo entrenamiento.",
 

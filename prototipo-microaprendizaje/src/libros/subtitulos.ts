@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "legado-all-blacks": "Quince prácticas concretas del equipo que más gana del mundo",
   "gen-deportivo": "Qué parte del rendimiento explican de verdad los genes",
   "numero-uno": "Qué dice de verdad la ciencia sobre llegar a ser excepcional",
   "hablo-correr": "Un novelista explica por qué escribir es un oficio físico",

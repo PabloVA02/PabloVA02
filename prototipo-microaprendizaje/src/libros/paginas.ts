@@ -62196,7 +62196,278 @@ const GEN_DEPORTIVO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Legado, en ocho páginas.
+
+   Breve. Libro de gestión → afirmación entera en el rótulo y caja del rayo
+   en segunda persona (apartados 3 bis y 4.7).
+
+   Riesgo principal: es un libro de eslóganes escrito por un publicista con
+   acceso concedido, y resumirlo tal cual produce un cartel de oficina. Cada
+   página cuenta primero qué hicieron exactamente y solo después qué
+   significa.
+
+   La conclusión tiene que decir lo que el libro no dice: que Nueva Zelanda
+   lleva un siglo ganando y que la causa no se puede aislar.
+   -------------------------------------------------------------------------- */
+
+const LEGADO_ALL_BLACKS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El equipo con más victorias de la historia estuvo a punto de pudrirse por dentro",
+      },
+      {
+        b: "texto",
+        texto:
+          "La selección de rugby de Nueva Zelanda ha ganado alrededor de tres de cada cuatro partidos internacionales que ha jugado desde 1903, un porcentaje que no tiene ningún otro equipo profesional en ningún deporte. En un país de cinco millones de habitantes, ese equipo es la institución nacional más importante y lo sabe todo el mundo, empezando por sus jugadores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2004 aquello estaba funcionando mal. Venían de un Mundial fallido, el vestuario arrastraba una cultura de alcohol y de privilegios, varios jugadores se comportaban como estrellas intocables y el país los trataba como tales. La federación hizo algo poco habitual: en lugar de cambiar de entrenador y seguir, reescribió el funcionamiento interno del equipo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "James Kerr, un publicista británico, consiguió pasar cinco semanas dentro del equipo en 2010 y salió con este libro, organizado en quince lecciones, una por cada puesto del campo. No es una crónica deportiva: es un manual de gestión que usa un vestuario como caso de estudio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tesis es que en un grupo con mucho talento el problema nunca es el talento. Es que el éxito prolongado produce sensación de derecho adquirido, y que una cultura fuerte consiste en un puñado de prácticas concretas, diarias y bastante incómodas cuya única función es impedir que eso ocurra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que hunde a un grupo bueno casi nunca es la falta de nivel: es creerse que se lo ha ganado ya.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Barrer el vestuario impide que un grupo se crea especial" },
+      {
+        b: "texto",
+        texto:
+          "La práctica más famosa del libro dura diez minutos y ocurre cuando se han ido las cámaras. Después de cada partido, incluidos los que se juegan delante de ochenta mil personas, dos de los jugadores más veteranos cogen una escoba y limpian el vestuario: recogen las vendas, las botellas y el barro, y lo dejan como estaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No lo hacen los jóvenes ni el personal auxiliar, y ese detalle es todo el asunto. Si limpiara el último en llegar, sería una novatada; si lo hace el capitán con cien partidos internacionales, la señal es que nadie de aquel grupo está por encima de las tareas que no se ven.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla se resume en una frase que se ha copiado en medio mundo: nadie cuida el edificio como el que lo va a heredar. Un equipo que espera que otro recoja lo suyo ha empezado ya a dividirse en dos categorías de personas, y esa división aparece después en el campo, en las coberturas y en los minutos malos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kerr insiste en que estas prácticas solo funcionan si son visibles y si las hace el de arriba. Un valor escrito en una pared no cambia el comportamiento de nadie; un capitán con una escoba en la mano, cada semana, durante diez años, lo cambia sin que haga falta decir nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un valor solo existe si el de arriba lo hace delante de todos cuando le resulta incómodo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Se elige por carácter, y al que no lo tiene se le deja fuera aunque juegue mejor",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda decisión de 2004 fue de selección. El equipo adoptó una norma que sus responsables enunciaban de manera muy poco diplomática y que consistía en no convocar a jugadores tóxicos por buenos que fueran. No se trataba de temperamento fuerte ni de carácter difícil: se trataba de gente que ponía su interés por delante del grupo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La norma se aplicó de verdad, que es lo que la hace interesante. Varios internacionales con nivel de titular quedaron fuera de listas, y algún caso célebre se resolvió dejando en casa a alguien en plena forma. Es la única manera de que una regla así signifique algo: se comprueba cuando cuesta puntos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El razonamiento es de aritmética de equipo. Un jugador excepcional puede sumar una décima parte del rendimiento colectivo, y un jugador que erosiona la confianza del vestuario puede restar mucho más que eso, sin que aparezca en ninguna estadística. En una plantilla amplia, el coste de sustituirlo es casi siempre menor que el de aguantarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kerr traslada la idea al mundo del trabajo con una advertencia sensata. La norma solo es defendible si la organización define con precisión qué comportamientos son inaceptables y los aplica a todos por igual, empezando por los jefes. Si no, se convierte en una excusa para echar al que cae mal.",
+      },
+      { b: "idea", texto: "Una norma que nunca te ha costado nada todavía no es una norma." },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La camiseta no es tuya: la tienes prestada un rato" },
+      {
+        b: "texto",
+        texto:
+          "El concepto que sostiene todo lo demás viene de la cultura maorí y tiene que ver con la genealogía: la idea de que una persona es un eslabón entre los que vinieron antes y los que vendrán después. Aplicado al equipo, significa que un internacional no es dueño de su camiseta, sino que la lleva durante unos años en nombre de una cadena que empezó en 1903.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la frase que resume el libro: deja la camiseta en mejor estado del que la encontraste. No es un adorno. Los debutantes reciben la camiseta en una ceremonia privada de manos de un exjugador, con un cuaderno donde se anota la historia del número que van a llevar, y se les explica quién lo llevó antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto práctico es el de cualquier institución vieja bien administrada. Un jugador que se considera propietario negocia por sí mismo y se va cuando le conviene; un jugador que se considera depositario mide sus decisiones por lo que dejará detrás, y eso incluye ayudar a formar al que le va a quitar el puesto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kerr señala que esto es exactamente lo que casi ninguna empresa consigue transmitir. Se pide compromiso a largo plazo a gente a la que se contrata y se despide a corto plazo, y no se le cuenta a nadie qué hubo antes de que llegara ni qué se espera que quede cuando se vaya.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pregúntate qué vas a dejar montado cuando te vayas: cambia bastantes decisiones de hoy.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Bajo presión hay dos estados mentales y se puede elegir el bueno" },
+      {
+        b: "texto",
+        texto:
+          "En 2007 el equipo perdió un cuartos de final que tenía ganado y el análisis posterior no habló de táctica sino de pánico. Los últimos veinte minutos los jugaron acelerados, discutiendo con el árbitro, tomando decisiones absurdas. Contrataron entonces a un psiquiatra forense neozelandés para trabajar exactamente ese problema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El modelo que les enseñó distingue dos estados. Uno, que llamaron cabeza roja, es el del que está tenso, acelerado, agresivo y con la atención estrechada: reacciona en vez de decidir. El otro, la cabeza azul, es el del que está despierto pero tranquilo, ve el campo entero y elige. Todo el mundo pasa de uno a otro sin darse cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo útil es que entrenaron el paso de un estado al otro con gestos físicos concretos. Mirar un punto fijo, pisar fuerte el suelo, echarse agua en la cara, describirse en voz baja lo que se está viendo. Son trucos aparentemente ridículos y funcionan porque interrumpen el bucle antes de que el cuerpo decida por uno.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Cabeza roja", texto: "tensión, prisa, visión estrecha; se reacciona y luego no se recuerda por qué." },
+          { fuerte: "Cabeza azul", texto: "calma alerta, campo entero a la vista, decisiones que se pueden explicar después." },
+          { fuerte: "El puente", texto: "un gesto físico ensayado que corta el bucle: pisar, respirar, mirar un punto." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando te aceleras no necesitas un discurso: necesitas un gesto ensayado que corte el bucle.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los responsables de verdad fabrican responsables y después se apartan",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cambio de 2004 menos visible desde fuera fue el de la estructura de mando. El cuerpo técnico cedió una parte real de sus competencias a un grupo de jugadores, que pasó a decidir sobre normas internas, sanciones, horarios y parte de la preparación de los partidos. No era un buzón de sugerencias: eran decisiones que se cumplían.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto sobre el campo es el que buscaban. Un jugador que ha participado en decidir el plan lo defiende cuando las cosas van mal, en lugar de esperar instrucciones del banquillo, y en un deporte donde el entrenador no puede hablar durante el partido esa diferencia es enorme.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El coste lo pagan los que mandan, y por eso casi nadie lo hace. Ceder decisiones significa aceptar que algunas se van a tomar peor de lo que las tomarías tú, y aguantarlo. Kerr subraya que el cuerpo técnico se comprometió a no rectificar en público ninguna decisión del grupo de jugadores, aunque le pareciera mala.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la lección de dirección más clara del libro, que se enuncia con una imagen de rugby: pasa el balón. El trabajo de un responsable no es tomar las decisiones buenas, es conseguir que dentro de tres años haya diez personas capaces de tomarlas sin él.",
+      },
+      { b: "idea", texto: "Si tu equipo se para cuando tú no estás, tu trabajo lo has hecho mal." },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los rituales existen para recordarle a un grupo por qué está allí" },
+      {
+        b: "texto",
+        texto:
+          "El ritual más conocido del equipo es la danza que ejecutan antes de cada partido, un desafío de origen maorí que se interpreta desde hace más de un siglo. Fuera de Nueva Zelanda se ve como un espectáculo turístico; dentro del vestuario funciona como otra cosa, y el libro dedica bastante espacio a explicar qué.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los jugadores tienen que aprender la letra, entender lo que dice y saber de dónde viene, y hay quien pasa años sin sentirse autorizado a colocarse delante. En 2005 se incorporó una versión nueva escrita expresamente para el equipo, y la discusión sobre cuándo usarla se llevó con la seriedad de un asunto de Estado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La función es doble y bastante práctica. Hacia fuera, avisa; hacia dentro, obliga a quince personas a hacer lo mismo al mismo tiempo mirando a los ojos al rival, justo en el minuto anterior al partido. Es el mismo mecanismo de cualquier rito bien hecho: sincroniza a un grupo y le recuerda a qué pertenece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kerr generaliza con prudencia. Un ritual inventado por el departamento de comunicación no sirve para nada, porque todo el mundo detecta la impostura; los que funcionan son los que tienen historia, los que cuestan algo de hacer y los que se repiten exactamente igual durante años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un ritual sirve si tiene historia y cuesta algo: si lo acaba de inventar el jefe, no engaña a nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Legado cuenta cómo la selección de rugby de Nueva Zelanda reconstruyó su funcionamiento interno a partir de 2004 y lo convierte en quince lecciones de gestión. Las mejores son muy concretas: los veteranos limpian el vestuario, se descarta por carácter aunque cueste partidos, se ceden decisiones reales a los jugadores y se entrena qué hacer con la cabeza cuando llega el pánico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es esa concreción. Casi todos los libros de cultura de empresa hablan de valores y este habla de escobas, de listas de convocados y de gestos para bajar las pulsaciones. Cualquiera puede copiar mañana tres o cuatro de esas prácticas sin cambiar nada más, que es exactamente lo que han hecho decenas de clubes y de empresas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en la demostración. Nueva Zelanda gana tres de cada cuatro partidos desde 1903, es decir, ochenta años antes de todo lo que cuenta el libro, y tiene además el mejor sistema de formación del mundo en un país donde el rugby es la actividad nacional. Atribuir esos resultados a las reformas de 2004 es imposible de sostener, y el libro ni lo intenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También es un libro promocional. Kerr es publicista, estuvo cinco semanas dentro con permiso del equipo y no hay en todo el volumen una sola voz crítica, ni un exjugador descontento, ni una explicación de qué pasó cuando el sistema falló. Los conceptos maoríes, además, llegan filtrados por un autor británico que los usa como material de gestión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La historia posterior es más matizada que el libro. Aquel equipo ganó los Mundiales de 2011 y 2015 con esa cultura funcionando, y después perdió una semifinal en 2019 y una final en 2023 con la misma cultura intacta. Es la prueba de lo que el propio libro debería haber dicho: una buena cultura mejora mucho las probabilidades y no gana los partidos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una cultura excelente te hace más probable ganar y nunca te lo garantiza.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "legado-all-blacks": LEGADO_ALL_BLACKS,
   "gen-deportivo": GEN_DEPORTIVO,
   "numero-uno": NUMERO_UNO,
   "hablo-correr": HABLO_CORRER,
