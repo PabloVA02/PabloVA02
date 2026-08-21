@@ -194,9 +194,24 @@ No por gusto ni por orden alfabético. Por lo que más se ve, que es:
 1. **Los veinte de «Tendencias».** Salen grandes en la primera pantalla de
    Explorar y con una PROMESA escrita debajo. Un texto malo bajo una promesa
    es lo peor que puede haber. *Hechos los veinte.*
-2. ~~**Los que tienen cubierta dibujada de Pablo.**~~ **HECHO.** Los 46 con
-   dibujo tienen ya texto a mano. Era la segunda peor combinación: la cubierta
-   invita a entrar y el texto devolvía al lector.
+2. **Los que tienen cubierta dibujada de Pablo.** Es la segunda peor
+   combinación: la cubierta invita a entrar y el texto devuelve al lector.
+   Estuvo al día hasta las tandas 10 y 11 del 21 de agosto, que trajeron 16
+   cubiertas nuevas y volvieron a abrir el hueco. **Van nueve con dibujo y
+   texto automático debajo, y son los siguientes que hay que escribir:**
+
+       Los cañones de agosto            Barbara Tuchman
+       La cuchara menguante             Sam Kean
+       Einstein: su vida y su universo  Walter Isaacson
+       La música de los números primos  Marcus du Sautoy
+       Postguerra                       Tony Judt
+       El pulgar del panda              Stephen Jay Gould
+       Los últimos días de los dinosaurios  Riley Black
+       El universo en una cáscara de nuez   Stephen Hawking
+       El universo en tu mano           Christophe Galfard
+
+   La lista no se cuenta a mano: sale de cruzar `cubiertas.ts` con el registro
+   `PAGINAS` de `paginas.ts`. De estos, *Postguerra* y *Einstein* piden Amplio.
 3. **Los conocidos** del resto del catálogo.
 4. **El resto**, por categorías.
 
