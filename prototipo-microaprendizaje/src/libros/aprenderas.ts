@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  superpronosticadores:
+    "El espionaje estadounidense montó en 2011 un torneo de predicción y lo ganó un equipo de voluntarios sin acceso a documentos secretos. Tetlock lleva treinta años puntuando predicciones una a una y aquí cuenta qué separa a los que aciertan.",
+
   "paseo-aleatorio":
     "Malkiel construyó un gráfico de bolsa lanzando una moneda y un analista profesional le recomendó comprar. De ahí sale su tesis: el precio de mañana no está escrito en el gráfico de ayer.",
 

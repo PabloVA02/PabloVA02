@@ -520,22 +520,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "superpronosticadores",
-    titulo: "Superpronosticadores",
-    autor: "Philip E. Tetlock y Dan Gardner",
-    ano: 2015,
-    gancho: "Un psicólogo apuntó durante veinte años los pronósticos de 284 expertos y los corrigió como un examen. El experto medio acertaba menos que una regla tonta.",
-    porQue: "Es el único libro que trata la predicción como algo medible en vez de como una opinión con traje. Y de ahí saca hábitos concretos que se pueden usar mañana: partir la pregunta, empezar por la frecuencia base y corregir poco a poco.",
-    minutos: 24.4,
-    capitulos: [
-      { titulo: "Veinte años apuntando aciertos", minutos: 4.7 },
-      { titulo: "El torneo que pagó el espionaje", minutos: 4.9 },
-      { titulo: "Cómo piensan los que aciertan", minutos: 5.1 },
-      { titulo: "Dónde deja de funcionar", minutos: 4.8 },
-      { titulo: "Llevar la cuenta", minutos: 4.8 },
-    ],
-  },
-  {
     id: "dinero-domina-juego",
     titulo: "Dinero: domina el juego",
     autor: "Tony Robbins",

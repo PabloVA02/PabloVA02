@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  superpronosticadores: [
+    "cómo se puntúa una predicción desde 1950",
+    "por qué el experto más famoso suele acertar menos",
+    "partir una pregunta imposible en cuatro difíciles",
+    "empezar por la frecuencia general y no por el caso",
+    "qué acertaron y qué fallaron desde que salió el libro",
+  ],
+
   "paseo-aleatorio": [
     "qué significa exactamente que la bolsa sea un paseo aleatorio",
     "el concurso de belleza de Keynes y por qué explica las burbujas",

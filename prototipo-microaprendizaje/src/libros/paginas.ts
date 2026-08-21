@@ -45859,7 +45859,293 @@ const PASEO_ALEATORIO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Superpronosticadores, en ocho páginas.
+
+   Breve. Economía. Registro mixto según la regla 7 de la gramática: tercera
+   persona en las páginas que cuentan el torneo y sus resultados, y TÚ en las
+   dos que enseñan el método, que es donde el texto se vuelve consejo.
+
+   ES EL CASO PURO DEL APARTADO 4 BIS: un libro sobre acertar predicciones,
+   publicado en 2015, o sea, con once años de marcador disponible. Así que
+   el año va en la primera página y la conclusión dice qué acertaron y qué
+   no, incluidos el Brexit y 2016, que no vieron venir.
+
+   Cada argumento va con una persona con nombre —Sherman Kent, Fermi, Doug
+   Lorch, Bill Flack, Isaiah Berlin, Taleb— porque es Economía y porque el
+   libro trabaja así.
+   -------------------------------------------------------------------------- */
+
+const SUPERPRONOSTICADORES: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi nadie que predice en público lleva la cuenta de lo que acierta" },
+      {
+        b: "texto",
+        texto:
+          "En 1951 los servicios de inteligencia estadounidenses escribieron que un ataque soviético contra Yugoslavia era una «posibilidad seria». A Sherman Kent, que dirigía aquel departamento de análisis, le picó la curiosidad y preguntó a sus colegas qué probabilidad concreta entendían al leer esa expresión. Las respuestas fueron desde el veinte por ciento hasta el ochenta. Todos habían firmado el mismo informe creyendo que decía cosas distintas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Philip Tetlock, psicólogo político, y el periodista Dan Gardner publicaron este libro en 2015 para contar qué pasa cuando se obliga a las predicciones a llevar número y fecha. Tetlock llevaba treinta años en ello: entre 1984 y 2003 recogió más de veintisiete mil predicciones concretas de doscientos ochenta y cuatro expertos, y las puntuó una a una según ocurrieran o no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado de aquel primer estudio le dio fama y él se pasó una década corrigiendo cómo se contaba. La versión periodística fue que el experto medio acertaba menos que un chimpancé lanzando dardos. Lo que los datos decían es algo más matizado y no mucho más halagüeño: el experto medio acertaba algo más que el azar y menos que una regla automática que se limitara a prolongar la tendencia de los últimos años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: cómo se puntúa una predicción, qué separa a los expertos que aciertan de los que no, qué pasó en el torneo que organizó el espionaje estadounidense entre 2011 y 2015, las dos técnicas concretas que usan los que ganan, por qué el número decimal importa, y por qué casi ninguna organización hace nada de esto. Y como el libro es de 2015, la conclusión trae el marcador.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una predicción sin fecha ni número no se puede acertar ni fallar, y por eso se hacen tantas así.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una predicción solo cuenta si se puede puntuar, y puntuarla es fácil desde 1950",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para que una predicción sirva tiene que cumplir dos condiciones que casi ninguna cumple. Una fecha: no «habrá violencia en Oriente Medio», sino «antes del 31 de diciembre». Y un criterio que permita decidir sin discusión si ocurrió: no «habrá una crisis», sino «el precio del barril cerrará por encima de noventa dólares algún día de este trimestre». Sin esas dos cosas, cualquiera puede declararse ganador después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La nota se calcula con algo que existe desde hace setenta y cinco años. En 1950 el meteorólogo Glenn Brier propuso medir el error de un pronóstico probabilístico elevando al cuadrado la diferencia entre lo que dijiste y lo que pasó. Si diste un setenta por ciento a algo que ocurrió, tu error es el cuadrado de tres décimas; si se lo diste a algo que no ocurrió, el cuadrado de siete. Cuanto más bajo sale el número, mejor pronosticas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa fórmula tiene una propiedad que la hace justa y que conviene entender: castiga tanto equivocarse como no mojarse. Decir siempre cincuenta por ciento da una nota mediocre garantizada, así que no se puede sobrevivir sin pronunciarse. Y castiga muchísimo la confianza mal puesta: un noventa y cinco por ciento fallado hace más daño que diez sesentas fallados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con ese instrumento, Tetlock descubrió en su primer estudio el hallazgo que ordena todo el libro: la fama de un experto y su puntuación estaban relacionadas al revés. Cuanto más se le entrevistaba en televisión, peor pronosticaba. No porque salir en televisión estropee a nadie, sino porque lo que hace atractivo a un tertuliano —seguridad, un relato claro, una teoría que lo explica todo— es exactamente lo que estropea una previsión.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El sistema de puntuación castiga por igual equivocarse y no mojarse, y por eso ningún tertuliano quiere que se lo apliquen.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los que aciertan tienen muchas ideas pequeñas; los que fallan tienen una grande",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para ordenar a sus expertos, Tetlock recuperó una imagen que Isaiah Berlin había usado en 1953 en un ensayo sobre Tolstói, tomada a su vez de un verso del poeta griego Arquíloco: el zorro sabe muchas cosas, el erizo sabe una grande. Berlin la aplicaba a los escritores; Tetlock la aplicó a quien predice, y le funcionó como criterio de clasificación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El erizo tiene una teoría que lo explica todo —el mercado se corrige solo, el imperio siempre se extralimita, la tecnología acaba resolviéndolo— y mete cada noticia nueva dentro de ella. El zorro reúne trozos de sitios distintos, no tiene una gran explicación y se contradice a sí mismo sin sufrir demasiado. En los datos de Tetlock, los zorros pronosticaron sistemáticamente mejor, y la diferencia era grande.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es el segundo hallazgo, que explica por qué esto no se corrige solo. Los erizos eran los que más aparecían en los medios. Un erizo cuenta una historia clara, tiene una respuesta antes de que termine la pregunta y no dice nunca «depende», que es lo peor que puede decirse en un plató de tres minutos. La selección de tertulianos favorece exactamente el perfil que peor acierta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un matiz que el libro cuida y que suele perderse al citarlo. Los erizos no eran ignorantes: solían saber más que los zorros de su especialidad concreta. El problema no era el conocimiento sino qué hacían con él. Un experto con una teoría fuerte usa cada dato nuevo para confirmarla, y cuanto más sabe, mejor se le da encontrar razones para no cambiar de opinión.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Saber mucho de un tema mejora tus explicaciones y no tus previsiones, porque también te da mejores excusas para no cambiar de idea.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un ama de casa y un programador jubilado ganaron a los analistas con acceso a documentos secretos",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2002 los servicios de inteligencia estadounidenses concluyeron que Irak tenía armas de destrucción masiva. No las tenía. El fracaso fue tan caro que en 2011 la agencia que financia investigación para el espionaje, conocida por sus siglas IARPA, montó algo insólito: un torneo de pronóstico abierto, con cinco equipos universitarios compitiendo durante cuatro años sobre preguntas geopolíticas reales, puntuadas con la fórmula de Brier.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tetlock y la psicóloga Barbara Mellers presentaron un equipo formado por voluntarios reclutados por internet: jubilados, amas de casa, profesores de instituto, un farmacéutico, un cineasta. Nadie cobraba y nadie tenía acceso a información reservada. Ganaron el primer año por tanta diferencia que la agencia acabó retirando de la competición a los otros cuatro equipos y quedándose solo con el suyo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El dato que hizo famoso al proyecto llegó por la prensa a partir de una evaluación interna: aquellos voluntarios superaban a los analistas profesionales de inteligencia, que sí leían material clasificado, en torno a un treinta por ciento de precisión. Conviene tomarlo con la reserva que merece una cifra filtrada, pero el sentido de la comparación no lo discute nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dentro de aquellos voluntarios había un dos por ciento que acertaba mucho más que el resto, año tras año, que es lo que descarta la casualidad: la suerte no se repite cuatro veces seguidas. A esos los llamaron superpronosticadores. Uno era Doug Lorch, programador jubilado de IBM; otro, Bill Flack, funcionario retirado del ministerio de Agricultura en Nebraska. Ninguno era especialista en política internacional.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que distingue a un buen pronosticador no es el acceso a la información: es el método con el que la trata.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La técnica es partir la pregunta y empezar por la estadística, no por el caso",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo primero que hacen es descomponer. Enrico Fermi enseñaba a sus alumnos a estimar cuántos afinadores de pianos hay en Chicago sin consultar nada: cuánta gente vive, cuántos hogares tienen piano, cada cuánto se afina, cuántos pianos afina uno al día. Ninguna de esas cifras se sabe, todas se pueden acotar, y los errores se compensan. Una pregunta imposible se convierte en cuatro difíciles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo segundo es más contraintuitivo y es donde se gana casi todo. Antes de mirar el caso concreto, pregúntate con qué frecuencia ocurre esa clase de cosa en general. Si quieres estimar si un restaurante que acaba de abrir seguirá abierto dentro de un año, no empieces por lo simpático que es el dueño: empieza por el porcentaje de restaurantes que cierran su primer año, que es alto y está publicado. Eso te da el punto de partida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Solo después se ajusta esa cifra con lo particular del caso: la calle, el precio, la experiencia del dueño. El error humano típico es hacerlo al revés, meterse directamente en el detalle y dejarse llevar por lo vívido de la historia. Daniel Kahneman llamó a las dos maneras la visión desde fuera y la visión desde dentro, y demostró que casi todo el mundo empieza por la de dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fíjate en qué tipo de habilidad es esta. No requiere talento, ni información privilegiada, ni un modelo matemático: requiere buscar el dato de frecuencia antes de opinar, que es un hábito, no un don. Ese es el argumento más fuerte del libro, porque significa que pronosticar mejor es entrenable, y Tetlock lo comprobó: un curso de una hora sobre estas técnicas mejoró la puntuación de los voluntarios durante todo el año siguiente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de preguntar qué va a pasar en este caso, pregunta cuántas veces suele pasar en los casos como este.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La diferencia entre un 63 y un 65 por ciento es información de verdad",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera costumbre de los que ganan es cambiar de opinión a menudo y poco. Cuando aparece una noticia, mueven su número unos pocos puntos, no lo tiran a la basura ni lo dejan intacto. Los malos pronosticadores hacen una de las dos cosas extremas: o se agarran a su primera cifra por coherencia, o dan un bandazo con cada titular. La corrección pequeña y frecuente es lo que más separa a unos de otros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y usan decimales. Un superpronosticador distingue entre un sesenta y tres y un sesenta y cinco por ciento, cosa que suena a manía. Los investigadores lo comprobaron de la manera más limpia posible: cogieron sus predicciones ya hechas y las redondearon a la decena más cercana. La puntuación empeoró de forma medible. O sea que aquellos dos puntos de diferencia contenían información real sobre el mundo, y no eran un adorno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El rasgo que mejor predecía quién ascendería al grupo de los buenos no era la inteligencia ni la formación, aunque las dos ayudaban. Era lo que Tetlock llama estar en beta permanente: la costumbre de tratar cada opinión propia como una versión provisional que se corrige, y de ir a buscar los propios errores en vez de esperar a tropezar con ellos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y funcionan mejor en grupo, con una condición. Cuando se juntó a los superpronosticadores en equipos que discutían entre sí, su precisión subió alrededor de un veintitrés por ciento respecto a trabajar solos. La condición es que el grupo tiene que estar hecho para llevar la contraria: si se convierte en un sitio donde se busca acuerdo, el efecto se invierte y aparece el pensamiento de rebaño.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Redondear una previsión a la decena más cercana la empeora de forma medible: el decimal no era presunción, era información.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ninguna organización lleva la cuenta, y no es por falta de medios" },
+      {
+        b: "texto",
+        texto:
+          "Todo lo anterior es barato, comprobado y prácticamente nadie lo aplica. El primer motivo es el lenguaje. Los informes, los consejos de administración y los periódicos siguen usando las palabras que Sherman Kent atacó en 1951: «probable», «no se descarta», «riesgo significativo». Kent llegó a proponer una tabla que asignaba un rango de porcentaje a cada expresión, y sus propios colegas la rechazaron porque decían que ponerle número a un juicio lo hacía parecer falsamente científico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo motivo es de incentivos y es más fuerte. Una previsión vaga nunca se falla, así que quien la firma no arriesga nada; una previsión numerada se puede comprobar, y quien la firma se juega el prestigio unas cuantas veces al año. En una organización donde equivocarse en público se paga y acertar no se premia, la vaguedad no es pereza: es la estrategia correcta para el que la escribe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercero es que nadie guarda el archivo. Para saber si un analista acierta hace falta apuntar lo que dijo, con fecha, y volver a mirarlo dos años después. Es trabajo administrativo aburrido y sin dueño, y no se hace ni en los medios ni en las empresas ni en los gobiernos. Sin archivo no hay nota, y sin nota nadie mejora, porque mejorar exige saber en qué fallaste.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Si quieres aplicarlo a lo tuyo, el arranque es pequeño y no necesita a nadie más. Apunta tres decisiones al año con su fecha, su criterio y tu porcentaje; guarda el papel; míralo cuando toque. La primera vez que compruebes que aquello que dabas por segurísimo lo dabas al noventa por ciento y falló, habrás aprendido más sobre tu criterio que en diez años de opinar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La vaguedad de los informes no es un defecto de redacción: es lo que protege a quien los firma de que se le pueda puntuar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que pronosticar es una destreza medible y entrenable, no un don, y lo demuestra con un torneo de cuatro años financiado por el espionaje estadounidense en el que unos voluntarios ganaron a los analistas profesionales. Las técnicas caben en una página: partir la pregunta, empezar por la frecuencia general, corregir poco y a menudo, y llevar la cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la puntuación. Es el único libro popular sobre predicción escrito por alguien que lleva treinta años poniendo notas, y por eso puede permitirse decir cosas que nadie dice: que la fama de un experto va en contra de su acierto y que un curso de una hora mejora los resultados más que veinte años de carrera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una objeción seria que el propio libro recoge, la de Nassim Taleb: los torneos preguntan por cosas que se resuelven en meses, y lo que cambia la historia son sucesos raros que nadie tenía en la lista. Tetlock contesta que la mayoría de las decisiones importantes dependen de plazos medios y sí se pueden puntuar. El libro no cierra la discusión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Once años después hay marcador y sale repartido. En contra: ni los superpronosticadores ni nadie vio venir el Brexit en junio de 2016 ni la victoria de Trump en noviembre. A favor: en las semanas previas al 24 de febrero de 2022 las plataformas de pronóstico agregado subieron la probabilidad de una invasión rusa de Ucrania mucho antes que la mayoría de los comentaristas, que la descartaban.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un resultado posterior que matiza su tesis. En 2022 el equipo de Tetlock montó un torneo sobre riesgos catastróficos en el que superpronosticadores y especialistas discutieron durante meses; sobre una catástrofe causada por la inteligencia artificial, los primeros daban cifras muy inferiores a los segundos, y el debate no acercó a los dos grupos. Cuando la pregunta no tiene plazo comprobable, el método deja de arbitrar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Enseña a puntuar las predicciones, y su propio marcador demuestra que el método funciona donde hay fecha y falla donde no la hay.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  superpronosticadores: SUPERPRONOSTICADORES,
   "paseo-aleatorio": PASEO_ALEATORIO,
   "millonario-al-lado": MILLONARIO_AL_LADO,
   "bogle-sentido-comun": BOGLE_SENTIDO_COMUN,
