@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "origenes-totalitarismo": [
+    "en qué se distingue el antisemitismo moderno del odio religioso",
+    "por qué la riqueza sin función se odia más que el poder",
+    "dónde se ensayó gobernar por decreto y sin ley",
+    "qué demostraron los apátridas sobre los derechos del hombre",
+    "por qué el terror crece cuando ya no queda oposición",
+  ],
+
   "guerra-y-paz": [
     "por qué empezó el libro por el final y fue retrocediendo",
     "qué ve el príncipe Andréi tumbado en Austerlitz",

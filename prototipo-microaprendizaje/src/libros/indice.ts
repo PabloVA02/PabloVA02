@@ -149,7 +149,6 @@ const CARGADORES: Record<string, Cargador> = {
   "dinero-domina-juego": () => import("./economia").then((m) => m.DINERO_DOMINA_JUEGO),
   "doctrina-shock": () => import("./economia").then((m) => m.DOCTRINA_SHOCK),
   superpronosticadores: () => import("./economia").then((m) => m.SUPERPRONOSTICADORES),
-  "origenes-totalitarismo": () => import("./historia").then((m) => m.ORIGENES_TOTALITARISMO),
   "homo-sovieticus": () => import("./historia").then((m) => m.HOMO_SOVIETICUS),
   "homenaje-cataluna": () => import("./historia").then((m) => m.HOMENAJE_CATALUNA),
   "guerra-civil-thomas": () => import("./historia").then((m) => m.GUERRA_CIVIL_THOMAS),

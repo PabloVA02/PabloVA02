@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "origenes-totalitarismo":
+    "Arendt lo escribió entre 1945 y 1949, con Stalin vivo y los archivos cerrados. Sostiene que en el siglo XX apareció una forma de gobierno sin precedentes, y reconstruye los elementos que llevaban un siglo sueltos por Europa.",
+
   "guerra-y-paz":
     "Tolstói se negó a llamarlo novela: dentro hay cinco familias, quince años de historia europea, 559 personajes y dos ensayos de filosofía discutiendo con el relato. Su mujer lo copió a mano siete veces mientras él lo reescribía.",
 

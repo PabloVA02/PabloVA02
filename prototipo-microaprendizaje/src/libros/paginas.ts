@@ -27242,7 +27242,385 @@ const GUERRA_Y_PAZ: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Los orígenes del totalitarismo, en doce páginas.
+
+   AMPLIO: son tres libros en uno —antisemitismo, imperialismo,
+   totalitarismo— y diez argumentos independientes. En ocho páginas habría
+   que tirar la mitad de la cadena que el libro construye.
+
+   Ensayo: titular que afirma, TERCERA persona siempre.
+   -------------------------------------------------------------------------- */
+
+const ORIGENES_TOTALITARISMO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El libro está escrito antes de que se supiera casi nada" },
+      {
+        b: "texto",
+        texto:
+          "Hannah Arendt escribió Los orígenes del totalitarismo entre 1945 y 1949, en Nueva York, adonde había llegado en 1941 tras huir de Alemania, ser internada en un campo francés y escapar de él. Lo publicó en 1951. Stalin seguía vivo, los archivos soviéticos estaban cerrados y la magnitud exacta del exterminio nazi acababa de empezar a documentarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es la que da título al libro y va contra la manera habitual de explicar aquello. Arendt sostiene que el totalitarismo no es una tiranía más, ni un despotismo con tecnología moderna, ni una dictadura especialmente brutal: es una forma de gobierno nueva, sin precedentes en la historia, y por tanto no se puede entender con las categorías políticas de siempre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro tiene tres partes que casi parecen tres libros distintos: una sobre el antisemitismo europeo, otra sobre el imperialismo entre 1884 y 1914 y otra sobre el totalitarismo propiamente dicho. Su argumento es que los elementos que se combinaron en el siglo XX estaban sueltos en el XIX, funcionando por separado y sin que nadie los relacionara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas doce páginas recorren esa cadena: en qué se distingue el antisemitismo moderno del odio religioso anterior, por qué la riqueza sin función es lo más peligroso que hay, qué ensayó el caso Dreyfus, qué fue la expansión por la expansión, dónde se probó el gobierno sin ley, qué demostraron los apátridas de entreguerras, sobre qué se apoya un régimen así, cómo está organizado por dentro y para qué sirve el terror cuando ya no queda enemigo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los elementos de una catástrofe suelen llevar décadas sueltos y funcionando por separado sin que nadie los relacione.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El antisemitismo moderno no es la continuación del odio religioso" },
+      {
+        b: "texto",
+        texto:
+          "La primera parte empieza rompiendo una explicación cómoda: la de que lo ocurrido en el siglo XX fue el punto final de un odio religioso de dos mil años que fue creciendo hasta desbordarse. Arendt sostiene que eso es falso y que además tranquiliza demasiado, porque convierte una catástrofe política en una fatalidad histórica que nadie podía evitar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es de cronología. El antijudaísmo cristiano era religioso: se dirigía a una creencia y tenía una salida, la conversión. El antisemitismo moderno aparece en el último tercio del siglo XIX, cuando la religión ya no manda en la política europea, y no ofrece ninguna salida, porque define a su objeto por el origen y no por lo que piensa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y es una novedad de otro tipo: nace como programa de partido. En los años ochenta y noventa del siglo XIX se fundan en Alemania, Austria y Francia partidos y ligas cuyo punto central no es la economía, ni la nación, ni la religión, sino esa hostilidad, y que se presentan a elecciones con ella. Es la primera vez que ocurre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale una advertencia de método que atraviesa todo el libro. Explicar un fenómeno político por una continuidad milenaria impide ver qué había de nuevo en él, y lo nuevo es siempre lo que hay que entender, porque es lo que puede repetirse en otras condiciones y con otros nombres.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Explicar una catástrofe como el final de un odio milenario es tranquilizador y falso: impide ver qué tenía de nuevo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La riqueza sin una función visible se odia más que el poder" },
+      {
+        b: "texto",
+        texto:
+          "La explicación que Arendt propone es histórica y económica, y es una de las partes más originales del libro. Durante los siglos XVII y XVIII, cuando los Estados europeos necesitaron crédito para hacer guerras y construir administraciones, ni la aristocracia ni la burguesía naciente estaban dispuestas a financiarlos. Lo hicieron unas cuantas familias de banqueros judíos, que quedaron ligadas directamente al Estado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa posición tenía una particularidad. Aquellas familias no pertenecían a la nobleza ni a la burguesía ni a ninguna otra clase; su vínculo era con el poder estatal, por encima de todas ellas y sin formar parte de ninguna. Eso les daba privilegios y las dejaba sin ningún grupo social que las respaldara si el vínculo se rompía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y se rompió. Con el siglo XIX, los Estados encontraron otras fuentes de financiación —la banca ya no era un asunto de unas pocas familias— y aquella función desapareció. Lo que quedó fue riqueza y visibilidad sin ninguna tarea reconocible detrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Arendt formula ahí una de sus observaciones más agudas y más generales: lo que la gente tolera no es el poder ni la riqueza, sino la riqueza que cumple una función visible. La riqueza sin función, la que ya no sirve para nada que se pueda señalar, se odia mucho más que el poder abierto, y ese odio no se dirige contra lo que se hace sino contra lo que se es.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El poder con una función visible se acepta; la riqueza que ya no sirve para nada reconocible es lo que se odia de verdad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El caso Dreyfus fue el ensayo general del siglo XX" },
+      {
+        b: "texto",
+        texto:
+          "Arendt dedica un capítulo entero al asunto Dreyfus y explica por qué: porque en aquel proceso francés, entre 1894 y 1906, aparecieron juntos por primera vez todos los ingredientes de lo que vendría cuarenta años después, en un país que era la república más consolidada de Europa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los hechos son conocidos y lo que interesa es la mecánica. Un capitán del ejército francés, judío, fue condenado por alta traición con pruebas falsificadas y deportado a la isla del Diablo. Cuando un oficial descubrió el error y lo comunicó, el ejército prefirió sostener la condena antes que admitir el fallo, y falsificó más documentos para tapar los anteriores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Arendt subraya no es la injusticia sino lo que se movilizó alrededor. Una prensa de gran tirada convirtió el caso en una campaña diaria. Una parte del ejército y de la Iglesia se cerró en bloque. Aparecieron manifestaciones en las calles con consignas contra los judíos. Y quedó claro que la verdad de los hechos era irrelevante para la mayoría de los que opinaban: cada bando ya sabía qué quería creer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso terminó bien, con la rehabilitación de Dreyfus, y por eso mismo tranquilizó a todo el mundo. Arendt sostiene que ese final feliz fue lo peor que pudo pasar, porque hizo creer que aquellas fuerzas eran un episodio superado en vez de un ensayo con público.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando un escándalo termina bien, todo el mundo concluye que el sistema funcionó, y nadie mira lo que se movilizó por el camino.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La expansión por la expansión no es una política: es un principio sin final",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda parte del libro cubre el periodo entre 1884 y 1914 y sostiene una idea incómoda: que la política europea aprendió en las colonias las técnicas que después aplicaría en Europa. Y empieza por el motor económico de aquella expansión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capital acumulado en Europa había dejado de encontrar inversiones rentables dentro, y salió a buscar territorios donde colocarse. Con él salió también la población que sobraba: gente sin lugar en la sociedad europea, aventureros, arruinados y desclasados. Arendt llama alianza entre el capital y la chusma a esa combinación, y sostiene que es la que hizo posible lo que vino.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo nuevo no fue conquistar, que se llevaba haciendo milenios, sino el principio que lo guiaba. Antes, un imperio conquistaba un territorio concreto para incorporarlo. Aquí, el objetivo declarado era expandirse sin límite previsto, porque el capital tiene que crecer y no hay una cantidad que baste. Arendt cita a Cecil Rhodes diciendo que anexionaría los planetas si pudiera, y lo toma completamente en serio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia política es la que le interesa. Un Estado-nación tiene fronteras, leyes y ciudadanos; un proyecto de expansión indefinida no puede tener ninguna de las tres cosas, porque cualquier frontera es provisional y cualquier ley se convierte en un estorbo. El imperialismo, escribe, no amplió el Estado-nación: empezó a destruirlo desde fuera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una política cuyo objetivo es crecer sin límite no puede tener fronteras ni leyes, porque las dos cosas serían un obstáculo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Gobernar sin ley y por decreto se ensayó primero en las colonias" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más duro de la segunda parte describe cómo se administraban aquellos territorios, y Arendt sostiene que allí se probaron dos instrumentos que después volverían a Europa. El primero es la burocracia como forma de gobierno: administradores que no responden ante ningún parlamento, que gobiernan por decreto y que ajustan las normas caso por caso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia entre una ley y un decreto es la que importa. Una ley es general, se publica, se conoce de antemano y limita también a quien la aplica. Un decreto se dicta para una situación, puede cambiar mañana y no obliga a nadie más que a quien lo recibe. Gobernar por decreto significa que nadie puede saber a qué atenerse, y eso no es un fallo del sistema: es su ventaja.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo instrumento es el racismo convertido en ideología. Arendt distingue entre el desprecio corriente hacia el extranjero, que es viejísimo, y una doctrina que explica la historia entera por la lucha entre razas y que ordena a la humanidad en una escala. Esa doctrina se formuló y se aplicó primero en África, donde permitía tratar a poblaciones enteras como parte del paisaje.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade un tercer elemento que venía de la Europa central: los movimientos que ella llama tribales, el pangermanismo y el paneslavismo, que definen la pertenencia no por un territorio ni por una ciudadanía sino por un origen común. Un nacionalismo así no puede tener fronteras, porque los suyos están siempre también al otro lado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un decreto se puede cambiar mañana y una ley no, y por eso quien gobierna por decretos consigue que nadie sepa a qué atenerse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los apátridas demostraron que los derechos del hombre no existían" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más influyente del libro trata de lo que ocurrió en Europa después de 1918. Los tratados de paz deshicieron tres imperios y crearon Estados nuevos con fronteras trazadas sobre poblaciones mezcladas. El resultado fueron millones de personas que se quedaron fuera: minorías en países que no las querían y, sobre todo, apátridas, gente sin ninguna nacionalidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Arendt observa entonces algo que nadie había formulado. Las declaraciones de derechos del hombre proclamaban derechos inalienables que corresponden a cualquier persona por el hecho de serlo, con independencia de su gobierno. Y en el momento exacto en que aparecieron millones de seres humanos reducidos a su condición de seres humanos, sin más, esos derechos no sirvieron absolutamente para nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón es que no había quién los garantizara. Un derecho lo hace efectivo una comunidad política concreta, con tribunales, policía y funcionarios; nadie tiene derechos frente a la humanidad en abstracto. De modo que el apátrida, precisamente por ser solo un hombre y nada más, quedaba fuera de toda protección, y su desgracia no era que lo maltrataran, sino que no pertenecía a ninguna parte donde su maltrato importara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su formulación más célebre: el derecho a tener derechos. Y el dato que lo demuestra hasta el absurdo: un apátrida recuperaba una posición legal cometiendo un delito, porque al ser detenido y juzgado el Estado lo trataba por fin como a un sujeto con garantías. Ser criminal era una mejora.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un apátrida recuperaba su condición de sujeto de derecho cometiendo un delito, porque solo entonces alguien lo trataba como a una persona.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El totalitarismo no se apoya en clases: se apoya en gente sin sitio" },
+      {
+        b: "texto",
+        texto:
+          "La tercera parte del libro empieza corrigiendo la idea de que estos movimientos representan a una clase social. Arendt sostiene lo contrario: solo pudieron crecer donde el sistema de clases se había roto y donde la gente había dejado de sentirse representada por su partido, su sindicato, su gremio o su iglesia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Llama masa a esa población, y la define con precisión: no son los pobres ni los obreros, sino quienes por su número o su indiferencia no pueden integrarse en ninguna organización basada en un interés común, y que por eso no han votado nunca ni han pertenecido a nada. Los movimientos totalitarios reclutaron ahí, entre gente a la que los partidos existentes habían dado por perdida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su rasgo principal no es la ira: es el desinterés por el propio interés. Arendt subraya que la abnegación de aquellos militantes desconcertó a todos los observadores: eran capaces de aceptar el sacrificio, la ruina y hasta la propia condena si el movimiento lo pedía, porque no estaban buscando un beneficio sino pertenecer a algo que diera sentido a una vida que no lo tenía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la frase más citada del libro. El sujeto ideal de un régimen así, escribe, no es el convencido de la doctrina, sino aquel para quien la distinción entre hecho y ficción, y entre verdadero y falso, ha dejado de existir. No hace falta que la gente crea: basta con que ya no distinga.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hace falta que la gente crea lo que se le dice: basta con que haya dejado de distinguir entre lo que es cierto y lo que no.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Estos movimientos se organizan en capas de cebolla" },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos más útiles describe la arquitectura interna de estos movimientos, y Arendt usa la imagen de una cebolla: capas concéntricas, cada una más dura que la anterior, con el líder en el centro y las organizaciones de simpatizantes en la parte de fuera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El diseño resuelve un problema real. En la capa exterior hay asociaciones de aspecto normal —culturales, deportivas, de veteranos— llenas de gente que no comparte del todo el programa. Esa capa protege al núcleo de dos maneras: hace que el mundo exterior vea el movimiento como algo más moderado de lo que es, y hace que el militante del núcleo vea a la sociedad normal como algo más afín de lo que es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto conjunto es que nadie ve el todo. Cada capa considera que la de fuera es demasiado tibia y que la de dentro exagera un poco, y todas trabajan para lo mismo. Y a diferencia de un partido, que tiene un programa que cumplir y unos límites, un movimiento así no puede detenerse nunca, porque su razón de ser es estar en marcha.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Arendt añade una observación sobre la propaganda que sigue siendo útil. La forma más eficaz que empleó fue la profecía: anunciar lo que iba a ocurrir y después ponerlo en marcha. Nada convence tanto como haber acertado, y una organización con poder puede fabricar sus propios aciertos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Anunciar lo que va a pasar y después hacerlo pasar es la forma de propaganda más eficaz que existe, porque parece un acierto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El terror aumenta justo cuando ya no queda oposición" },
+      {
+        b: "texto",
+        texto:
+          "La observación que separa el análisis de Arendt de cualquier otro es de cronología del terror. En una dictadura corriente, la represión sirve para eliminar a los adversarios y disminuye cuando ya no quedan. En los regímenes que ella estudia ocurre lo contrario: el terror alcanza su máximo cuando la oposición ha desaparecido por completo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las purgas soviéticas de los años treinta se llevaron por delante a los propios cuadros del partido; las detenciones se hicieron por categorías demográficas y por cupos, no por conductas. En Alemania, las persecuciones más masivas llegaron cuando ya no existía ningún partido rival ni ninguna prensa libre. Si el terror fuera un instrumento, ahí debería haber cesado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que saca es que no es un instrumento: es la esencia del régimen. Su función no es castigar a nadie por lo que hace, sino romper cualquier vínculo entre las personas, de modo que no quede ningún espacio donde dos puedan ponerse de acuerdo sobre nada. Escribe que el terror sustituye las fronteras y los canales entre los hombres por una banda de hierro que los aprieta tanto que su pluralidad desaparece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí su análisis de los campos de concentración, que considera la institución central de este tipo de régimen y no un exceso. Los describe como los laboratorios donde se comprueba la creencia de que todo es posible, con tres fases: matar primero a la persona jurídica quitándole cualquier estatuto legal, después a la persona moral impidiendo cualquier gesto que tenga sentido, y por último la individualidad misma.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si la represión crece cuando ya no queda nadie a quien reprimir, es que nunca sirvió para eliminar adversarios.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La experiencia sobre la que se construye todo esto es la desolación" },
+      {
+        b: "texto",
+        texto:
+          "El último capítulo, añadido en una edición posterior, busca la experiencia humana concreta sobre la que estos regímenes se apoyan, y Arendt distingue tres estados que en las lenguas corrientes se confunden en una sola palabra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La soledad buscada es estar a solas consigo mismo, y es fecunda: en ella uno se hace compañía, discute consigo, piensa. El aislamiento es político: ocurre cuando a alguien se le impide actuar junto a otros, y aunque impide la acción todavía deja intacta la capacidad de pensar. El tercer estado es otro, y es el que le interesa: no tener a nadie, no pertenecer a nada, no contar para nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se pierde ahí es más de lo que parece. Para saber que uno percibe bien la realidad hace falta comprobarla con otros: el sentido común es literalmente eso, el sentido que compartimos y que confirma que el mundo es como creemos. Quien no tiene con quién comprobar nada se queda a merced de lo único que le queda, que es la deducción lógica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí encaja la ideología. Una vez aceptada una premisa —la historia es lucha de clases, la naturaleza es lucha de razas—, todo lo demás se deduce sin necesidad de mirar ningún hecho, con una coherencia impecable y sin ninguna posibilidad de contraste. Arendt sostiene que esa coherencia es exactamente lo que ofrece a quien ha perdido el mundo: un sitio donde todo encaja.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Para saber que ves bien la realidad necesitas comprobarla con alguien; quien no tiene con quién se queda solo con la lógica.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Los orígenes del totalitarismo sostiene que en el siglo XX apareció una forma de gobierno nueva, distinta de cualquier tiranía anterior, y reconstruye los elementos que la hicieron posible: un antisemitismo convertido en programa político, una expansión imperial que enseñó a gobernar sin ley, la ruina del Estado-nación que dejó a millones sin ningún derecho aplicable, una población sin pertenencia y una ideología que funciona por deducción y no por comprobación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, más que la historia, son herramientas de reconocimiento. La diferencia entre ley y decreto, la profecía como propaganda, el terror que crece sin adversarios y el derecho a tener derechos sirven para mirar cosas que ocurren ahora, y por eso el libro tuvo un repunte enorme de ventas en 2016 y 2017, sesenta y cinco años después de publicarse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El sujeto ideal de un régimen así no es el que cree la doctrina: es aquel para quien ya no hay diferencia entre lo verdadero y lo falso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Su tesis más discutida es la central: meter el nazismo y el estalinismo en la misma categoría. Muchos historiadores lo rechazan, y hay un motivo de peso: Arendt escribía en 1949, sin acceso a nada soviético, y su análisis de la Unión Soviética se apoya en información fragmentaria; ella misma lo revisó en ediciones posteriores. Las dos primeras partes son además muy desiguales, con generalizaciones grandes en el tramo del imperialismo, y no es un libro de historia con método de historiador: es filosofía política que escoge su material.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo que conviene tener presente al leer la cadena que propone. Que el antisemitismo, el imperialismo y el totalitarismo aparezcan uno detrás de otro en el libro no demuestra que uno produjera al siguiente; es una reconstrucción hecha desde el final, sabiendo ya cómo terminó todo, que es exactamente el defecto que ella le reprocha a la historiografía militar. Lo que sí queda en pie, y es lo que ha hecho durar el libro, es el análisis de la tercera parte: el retrato de por dentro de cómo funciona un régimen así y de qué necesita de sus ciudadanos.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "origenes-totalitarismo": ORIGENES_TOTALITARISMO,
   "guerra-y-paz": GUERRA_Y_PAZ,
   "guerra-arte": GUERRA_ARTE,
   "acto-creativo": ACTO_CREATIVO,

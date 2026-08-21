@@ -152,22 +152,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "origenes-totalitarismo",
-    titulo: "Los orígenes del totalitarismo",
-    autor: "Hannah Arendt",
-    ano: 1951,
-    gancho: "Dos tercios de un libro sobre el nazismo no hablan de Alemania: hablan del antisemitismo del siglo diecinueve y de lo que los europeos hicieron en sus colonias africanas.",
-    porQue: "Porque explica el totalitarismo como el resultado de procesos que llevaban un siglo funcionando, y porque su frase más famosa —la banalidad del mal— no está en este libro y significa otra cosa de lo que la gente cree.",
-    minutos: 22.9,
-    capitulos: [
-      { titulo: "Ocho días en una comisaría de Berlín", minutos: 4.4 },
-      { titulo: "La riqueza sin función", minutos: 4.4 },
-      { titulo: "El bumerán", minutos: 4.6 },
-      { titulo: "El derecho a tener derechos", minutos: 4.7 },
-      { titulo: "Jerusalén, 1961", minutos: 4.8 },
-    ],
-  },
-  {
     id: "homenaje-cataluna",
     titulo: "Homenaje a Cataluña",
     autor: "George Orwell",
