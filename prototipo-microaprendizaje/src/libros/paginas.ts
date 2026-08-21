@@ -52473,7 +52473,7 @@ const MAS_ALLA_BIEN_MAL: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Y falla en dos contenidos concretos que ya se han dicho: los apartados sobre las mujeres, indefendibles, y una jerarquía de valores en la que la igualdad no cuenta y la esclavitud es el precio aceptable de una cultura alta.",
+          "Y falla en dos contenidos concretos ya dichos: los apartados sobre las mujeres, y una jerarquía de valores en la que la igualdad no cuenta y la esclavitud es el precio aceptable de una cultura alta.",
       },
       {
         b: "texto",
