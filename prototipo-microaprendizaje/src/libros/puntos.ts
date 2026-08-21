@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "hablo-correr": [
+    "por qué no hay que descansar nunca dos días seguidos",
+    "por qué para de escribir cuando aún sabe cómo sigue",
+    "en qué piensa exactamente mientras corre",
+    "qué le pasó al pasar del kilómetro setenta y cinco",
+    "qué hizo cuando dejó de poder mejorar sus marcas",
+  ],
+
   "rey-del-mundo": [
     "qué dos papeles encarnaban Patterson y Liston",
     "de dónde sacó su manera de hablar en público",

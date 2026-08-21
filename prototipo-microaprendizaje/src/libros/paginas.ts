@@ -61371,7 +61371,275 @@ const REY_DEL_MUNDO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   De qué hablo cuando hablo de correr, en ocho páginas.
+
+   Breve. Memoria → títulos cortos de imagen, la afirmación en la primera
+   frase y la caja del rayo en segunda persona (apartado 3 bis).
+
+   Riesgo principal: es un libro divagatorio, sin tesis declarada, y un
+   resumen fiel a su tono no diría nada. Se le extrae la tesis que sí tiene
+   —escribir es un oficio físico y solo dos de sus tres requisitos se
+   entrenan— y las páginas van demostrándola.
+
+   El título es un homenaje a Raymond Carver, al que él traducía. Conviene
+   decirlo una vez y seguir.
+   -------------------------------------------------------------------------- */
+
+const HABLO_CORRER: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una tarde en el estadio" },
+      {
+        b: "texto",
+        texto:
+          "Haruki Murakami decidió que iba a escribir novelas una tarde de abril de 1978, viendo un partido de béisbol tumbado en el césped del estadio de Jingu. Un bateador estadounidense golpeó bien la pelota, la gente aplaudió poco y a él se le ocurrió, sin más aviso, que podía escribir un libro. Tenía veintinueve años y no había escrito nunca nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por entonces regentaba un bar de jazz en Tokio con su mujer. Trabajaban dieciocho horas, servían copas hasta la madrugada, dormían de día, y él fumaba sesenta cigarrillos diarios. Escribió su primera novela de noche, en la mesa de la cocina, cuando cerraba el local, y ganó con ella un premio para autores nuevos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1981 vendió el bar para dedicarse solo a escribir, y ahí apareció el problema que da origen a todo el libro. Sentado doce horas al día, sin clientes ni barra ni horarios, empezó a engordar y a fumar más. Un oficio sedentario le iba a destrozar el cuerpo en pocos años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el otoño de 1982, con treinta y tres años, empezó a correr. No por afición ni por salud abstracta: como contrapeso exacto de una decisión profesional. Desde entonces ha corrido casi todos los días y ha hecho al menos un maratón al año durante más de dos décadas, y este libro es lo que sacó de ahí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando eliges un trabajo, estás eligiendo también lo que le va a hacer a tu cuerpo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Diez kilómetros al día" },
+      {
+        b: "texto",
+        texto:
+          "Su rutina es tan aburrida que resulta instructiva. Corre unos diez kilómetros al día, seis días por semana, unos doscientos sesenta kilómetros al mes. Se levanta pronto, escribe cinco o seis horas seguidas por la mañana, corre por la tarde, se acuesta temprano. Lleva así más de veinte años y lo cuenta sin ninguna épica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tiene una sola norma explícita y es la más útil del libro: no descansar nunca dos días seguidos. Un día libre es descanso; dos días libres es el principio del final, porque a partir del segundo la cabeza empieza a negociar. La constancia no se sostiene con fuerza de voluntad, se sostiene evitando el punto exacto donde la voluntad se rompe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También defiende no correr nunca hasta agotarse. Termina siempre con la sensación de que podría haber hecho un poco más, precisamente para tener ganas al día siguiente. Aplica lo mismo a la escritura: para de escribir cuando aún sabe cómo sigue la frase, de modo que al día siguiente empieza con algo ya resuelto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Debajo de esas dos reglas hay una idea que sirve para cualquier trabajo largo. Lo difícil de una tarea de años no es hacerla bien un día, es hacerla mañana otra vez. Todo su sistema está diseñado para proteger las ganas del día siguiente, aunque cueste rendimiento hoy. El resultado, dice, no es fuerza de voluntad: es que a estas alturas le cuesta más no salir a correr que salir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Termina siempre con ganas de un poco más: es lo único que garantiza que mañana vuelvas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Talento, concentración y aguante" },
+      {
+        b: "texto",
+        texto:
+          "La tesis del libro es que escribir novelas es un oficio físico, y que un novelista necesita tres cosas en este orden. La primera es el talento, y sobre el talento no hay nada que hacer: se tiene o no se tiene, viene en la cantidad que viene y puede cerrarse el grifo sin avisar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las otras dos sí se entrenan, y ahí está el argumento. La segunda es la concentración: la capacidad de estar cuatro o cinco horas dentro de una sola cosa sin levantarse a mirar nada. La tercera es el aguante: hacer eso todos los días durante meses, o años, sin que el interés se apague ni el cuerpo se rompa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Murakami sostiene que la mayoría de los que abandonan no lo hacen por falta de talento, sino porque nadie les explicó que la parte larga es una cuestión de resistencia. Un escritor con talento mediano y mucha concentración termina libros; uno brillante y disperso, no. Y la concentración es un músculo, no un rasgo del carácter.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Talento", texto: "no se puede entrenar ni administrar, y su cantidad no la decides tú." },
+          { fuerte: "Concentración", texto: "estar dentro de una sola tarea varias horas seguidas; se entrena y se pierde." },
+          { fuerte: "Aguante", texto: "repetir eso durante meses sin agotarse; es lo que separa a los que terminan." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "De las tres cosas que hacen falta para algo grande, la que no controlas es solo una.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Correr dentro de un vacío" },
+      {
+        b: "texto",
+        texto:
+          "La pregunta que más le hacen es en qué piensa mientras corre, y su respuesta decepciona a todo el mundo: en nada. Dice que corre dentro de un vacío, que se le ocurren pensamientos sueltos que atraviesan la cabeza como nubes y que ninguno se queda. No resuelve problemas de sus novelas corriendo, ni tiene ideas, ni medita.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese vacío es justamente lo que va a buscar. Alguien que pasa la mañana entera fabricando frases necesita unas horas al día en las que la cabeza no produzca nada, y el ejercicio repetitivo es una de las pocas actividades que lo consiguen sin drogas ni pantallas. No es un descanso del trabajo: es la otra mitad del trabajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Repite en el libro una frase que le oyó a otro corredor y que se ha hecho famosa por su culpa: el dolor es inevitable, el sufrimiento es opcional. Le duele todo, como a cualquiera, y la parte opcional es la conversación interna sobre lo mal que se está pasando, que es la que hace abandonar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tampoco presume de disfrutarlo. Cuenta con detalle las mañanas en que le da pereza, los días en que corre de mal humor y los kilómetros que no le gustan, y precisamente por eso el libro convence: no propone amar la disciplina, propone practicarla en los días en que uno no la ama. Cuando le preguntan si correr le hace feliz, contesta que la felicidad no tiene nada que ver: que lo hace porque le sienta bien y porque, si lo dejara, sabe perfectamente en qué se convertiría al cabo de un par de años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El dolor no lo eliges; la conversación que tienes contigo sobre el dolor sí.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Atenas en julio" },
+      {
+        b: "texto",
+        texto:
+          "En 1983, una revista le encargó correr en solitario el recorrido original del maratón, entre Atenas y la localidad de Maratón. Lo hizo en julio, con el asfalto a temperaturas que superaban los cuarenta grados, en dirección contraria a la histórica porque el tráfico de la mañana lo hacía menos peligroso, con un coche de apoyo detrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo es el mejor del libro porque no tiene nada de heroico. Describe carreteras sin sombra, camiones, perros, un carnero muerto en la cuneta y una sed que no se arreglaba con nada. A partir del kilómetro treinta empezó a enfadarse con todo: con el calor, con la revista, con la idea entera, con los griegos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Llegó, se bebió una cerveza y descubrió que no sentía casi nada. Ni euforia, ni orgullo, ni la revelación que se supone que espera al final de una prueba así. Sentía alivio y el cuerpo destrozado, y esa honestidad es la que le salva de escribir un libro de superación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí le quedó fue el dato. Sabía a partir de entonces que podía hacer eso, y esa certeza le sirvió después en todos los procesos largos de su vida, incluidos los cinco años que le costó una novela. No es una metáfora: es una comprobación que se hizo a sí mismo y que podía consultar cuando dudaba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hacer una vez algo muy duro te deja un dato sobre ti mismo que puedes consultar años después.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cien kilómetros" },
+      {
+        b: "texto",
+        texto:
+          "En 1996 corrió una ultramaratón de cien kilómetros en el norte de Japón y esa carrera cambió su relación con el asunto. Fue bien hasta el kilómetro cincuenta y cinco. A partir de ahí empezó un derrumbe progresivo, y hacia el setenta y cinco estaba convencido de que no podía dar un paso más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es lo que pasó después. Siguió, y en algún punto atravesó algo: dejó de dolerle, dejó de pensar, y los últimos veinticinco kilómetros los hizo en un estado que describe como pasar a través de una pared. Adelantó a decenas de corredores sin proponérselo y terminó las once horas casi sin registrarlas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El precio llegó después. Durante los años siguientes se le fue la motivación: seguía corriendo, seguía haciendo maratones, y no encontraba dentro la misma necesidad. Lo llama la melancolía del corredor y dedica varios capítulos a describir un estado que casi ningún libro de deporte reconoce, porque no queda bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su observación más incómoda. Después de llevar algo a su límite absoluto, es habitual que aquello deje de importarte durante un tiempo largo, y no es un fallo de carácter ni una crisis: es lo que le pasa a cualquiera que ha ido demasiado lejos una vez. Se vuelve, pero se vuelve más despacio de lo que uno cree.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Después de llevar algo al límite, es normal que deje de importarte una temporada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cada año un poco más lento" },
+      {
+        b: "texto",
+        texto:
+          "La parte final del libro trata del envejecimiento y es la más honesta que se ha escrito sobre el asunto en un libro deportivo. Murakami tenía cincuenta y seis años cuando lo escribió, entrenaba igual o más que a los cuarenta y sus tiempos empeoraban año tras año sin excepción. Lo cuenta con datos, sin consolarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Describe con detalle el momento en que dejó de poder bajar de cierta marca por mucho que entrenara, y lo que ese momento le hizo a la cabeza. No lo presenta como una lección sobre aceptar los límites: lo presenta como un hecho desagradable con el que hay que seguir levantándose por las mañanas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hizo fue cambiar la vara de medir. Empezó a hacer triatlón, donde era un principiante y podía volver a mejorar, y trasladó la medida del resultado al proceso: correr hoy, terminar hoy, no haber caminado. Su epitafio propuesto, que aparece en el libro, resume esa transición mejor que cualquier explicación.",
+      },
+      { b: "cita", frase: "Haruki Murakami. Escritor (y corredor). Al menos nunca caminó.", autor: "El epitafio que propone en el libro" },
+      {
+        b: "texto",
+        texto:
+          "El paralelismo con su oficio es explícito. Sabe que sus novelas también tienen un techo y una fecha, que ninguna carrera es infinita, y que lo único administrable es la cantidad de días que uno consigue seguir trabajando bien. Su plan no es mejorar: es durar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando ya no puedes mejorar en algo, cambia lo que mides antes de dejarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "De qué hablo cuando hablo de correr es una memoria escrita mientras el autor preparaba el maratón de Nueva York de 2005, y su tesis es que escribir novelas es un oficio físico. De las tres cosas que hacen falta —talento, concentración y aguante—, dos se entrenan exactamente igual que se entrena un cuerpo, y esa es la parte que depende de uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta son reglas prácticas para cualquier trabajo largo, dichas sin ínfulas: no descansar dos días seguidos, parar antes de agotarse para tener ganas mañana, dejar la frase a medias para empezar con algo resuelto y saber que después de un esfuerzo enorme viene una temporada sin ninguna gana. Casi nadie escribe esa última parte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en lo que no se pregunta. Es la rutina de un hombre sin horario fijo, sin jefe y sin hijos, que puede correr cada tarde y acostarse a las nueve, y en ningún momento se plantea qué queda de su método para quien tiene turnos, niños o dos trabajos. La disciplina se presenta como carácter cuando en buena medida es una circunstancia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y decepciona a quien lo abra buscando un libro sobre escribir. De cómo construye una novela, de cómo revisa o de cómo decide qué contar apenas hay unas páginas; el asunto vuelve siempre a las zapatillas. Ese libro lo escribió después, mucho más tarde, y son dos libros distintos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Publicado en Japón en 2007, se convirtió en lectura de cabecera de dos gremios que no suelen compartir estantería, corredores y escritores, y sigue siendo el título por el que muchos lectores entran en su obra sin haber leído ninguna de sus novelas. Murakami cumplió setenta y cinco años sin dejar de correr ni de publicar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi toda la disciplina que admiras en alguien está sostenida por unas circunstancias que no te ha contado.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "hablo-correr": HABLO_CORRER,
   "rey-del-mundo": REY_DEL_MUNDO,
   "remando-un-hombre": REMANDO_UN_HOMBRE,
   "mamba-mentality": MAMBA_MENTALITY,

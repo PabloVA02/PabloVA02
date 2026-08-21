@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "hablo-correr":
+    "Murakami empezó a correr a los treinta y tres, cuando dejó su bar de jazz para escribir. Veinte años después sostiene que un novelista necesita talento, concentración y aguante, y que solo los dos últimos se entrenan.",
+
   "rey-del-mundo":
     "De 1960 a 1965. Remnick cuenta cómo un chico de Louisville se negó a aceptar los dos papeles que su país reservaba a un campeón negro, y cómo la prensa de la época se equivocó entera y por escrito.",
 

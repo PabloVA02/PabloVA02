@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "hablo-correr": "Un novelista explica por qué escribir es un oficio físico",
   "rey-del-mundo": "Los cinco años en que Cassius Clay se convirtió en Muhammad Ali",
   "remando-un-hombre": "Nueve chicos pobres, un bote y el oro olímpico en el Berlín de Hitler",
   "mamba-mentality": "El manual de trabajo del jugador más obsesivo que ha existido",
