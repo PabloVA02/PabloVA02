@@ -52463,7 +52463,7 @@ const MAS_ALLA_BIEN_MAL: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Lo que aporta es una manera de leer que ya no se puede desaprender. Después de él, preguntar de dónde viene una norma y a quién le conviene es un gesto normal en historia, en sociología y en psicología; y buena parte de la filosofía del siglo XX, empezando por Freud y siguiendo por Foucault, trabaja con herramientas que están en estas páginas.",
+          "Lo que aporta es una manera de leer que ya no se puede desaprender. Después de él, preguntar de dónde viene una norma y a quién le conviene es un gesto normal en historia y en psicología; y buena parte de la filosofía del siglo XX trabaja con herramientas que están en estas páginas.",
       },
       {
         b: "texto",
@@ -52483,7 +52483,7 @@ const MAS_ALLA_BIEN_MAL: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "La reparación llegó tarde y es de las pocas historias felices de la filología. A partir de 1950, el trabajo de Walter Kaufmann empezó a separar a Nietzsche de la lectura nazi, y desde 1967 la edición crítica de Giorgio Colli y Mazzino Montinari reconstruyó los textos a partir de los manuscritos originales y dejó documentadas, una por una, las manipulaciones de su hermana.",
+          "La reparación llegó tarde. A partir de 1950 el trabajo de Walter Kaufmann empezó a separar a Nietzsche de la lectura nazi, y desde 1967 la edición crítica de Giorgio Colli y Mazzino Montinari reconstruyó los textos a partir de los manuscritos y dejó documentadas las manipulaciones de su hermana.",
       },
       {
         b: "idea",
