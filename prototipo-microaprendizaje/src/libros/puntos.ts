@@ -41,7 +41,7 @@ export const PUNTOS: Record<string, string[]> = {
   "futbol-contra-enemigo": [
     "por qué Holanda celebró la victoria de 1988 como una liberación",
     "qué hacía el Camp Nou bajo la dictadura de Franco",
-    "qué pasó de verdad en el partido de la muerte de Kiev",
+    "qué pasó en el partido de la muerte de Kiev",
     "cómo un presidente africano elegía la alineación de su selección",
     "por qué en Estados Unidos el fútbol no significaba nada",
   ],
