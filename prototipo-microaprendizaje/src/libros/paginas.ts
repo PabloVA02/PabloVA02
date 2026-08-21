@@ -55749,7 +55749,7 @@ const IMPERIOFOBIA: PaginaLibro[] = [
       {
         b: "idea",
         texto:
-          "Léelo por los datos que divulga, que son verdaderos, y no por su explicación general, que está construida de modo que no puede equivocarse.",
+          "Léelo por los datos que divulga, que son verdaderos, y no por su explicación general, construida de modo que no puede equivocarse.",
       },
     ],
   },
