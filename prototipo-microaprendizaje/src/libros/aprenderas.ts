@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "poder-metabolismo":
+    "Su tesis es que engordas porque tu metabolismo va lento. Es una afirmación que se puede medir, y en 2021 se midió en más de seis mil personas: el gasto en reposo es mayor en los cuerpos grandes, no menor.",
+
   "vivir-plenitud":
     "En 1979 un biólogo molecular pidió al hospital de Massachusetts los pacientes que la medicina ya no sabía tratar y montó con ellos una clínica. Este libro es el manual de lo que hizo allí durante once años.",
 

@@ -48017,7 +48017,299 @@ const VIVIR_PLENITUD: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El poder del metabolismo, en ocho páginas.
+
+   Breve. Libro práctico de salud → TÚ.
+
+   Es el libro más difícil del estante y el que peor saldría escrito de
+   cualquiera de las dos maneras fáciles. Resumirlo entusiasmado sería
+   repetir afirmaciones que no se sostienen; despacharlo sería tirar la
+   regla 2x1, que es sencilla, aplicable y funciona. Se hace lo que manda
+   REDACCION en el apartado 4 bis para SALUD: se cuenta lo que propone, se
+   dice qué está comprobado y qué no, y se dice quién vende qué.
+
+   Las cuatro señales del género están todas aquí y todas nombradas: «todo
+   se reduce a X» —el metabolismo lento—, el villano con nombre propio —la
+   cándida—, el consejo que vale para cualquier libro, y el cuestionario del
+   horóscopo con el que abre.
+
+   La refutación central de su premisa tiene nombre, año y tamaño de muestra:
+   Pontzer, Science, 2021, 6.400 personas medidas con agua doblemente
+   marcada. Sin eso, esta sería una opinión contra otra.
+   -------------------------------------------------------------------------- */
+
+const PODER_METABOLISMO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro entero descansa en una afirmación que se puede medir: que engordas porque tu metabolismo va lento",
+      },
+      {
+        b: "texto",
+        texto:
+          "Frank Suárez era puertorriqueño, no era médico y había pesado ciento veinte kilos. A finales de los noventa montó un negocio de asesoramiento y suplementos para adelgazar, y en 2006 publicó este libro, que se convirtió en uno de los mayores éxitos de ventas de salud en español y ha vendido más de un millón de ejemplares. Murió en 2021.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis cabe en una frase: la gente no engorda por comer de más sino por tener un metabolismo lento, y el metabolismo se puede acelerar quitando lo que él llama enemigos —azúcar, harina, deshidratación, falta de sueño, estrés, hongos, tiroides parada— y añadiendo ayudantes. Todo el libro son esos dos listados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa forma —todo se reduce a una causa— es la del género entero y conviene decirlo en la primera página, porque decide cómo hay que leer el resto. Tiene la ventaja de que se entiende de una sentada, y el problema de que la afirmación central es comprobable y se ha comprobado. Este resumen cuenta lo que propone, señala lo que está medido y lo que no, y explica quién cobra por cada consejo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: la regla del plato que es lo único verdaderamente útil del libro, los dos aciertos que sí tienen respaldo, qué es el metabolismo y qué pasa cuando se mide de verdad, el capítulo de los hongos que hay que saltarse entero, qué hacer con la sospecha de tiroides, y el negocio que hay detrás de las páginas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando un libro de salud reduce todo a una sola causa, esa reducción es la noticia: ningún fisiólogo sostiene que la salud dependa de una variable.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La regla del plato es lo mejor que tiene y cabe en dos líneas" },
+      {
+        b: "texto",
+        texto:
+          "Suárez divide los alimentos en dos grupos con nombres tontos que funcionan. Los que llama tipo A son los que no elevan mucho el azúcar en sangre: carne, pescado, huevos, quesos, ensalada, verduras que no sean féculas, aguacate, frutos secos. Los que llama tipo E son los que sí: pan, pasta, arroz, patata, azúcar, cereales, dulces y buena parte de la fruta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla es de proporción y se aplica mirando el plato, sin pesar ni contar nada. Dos tercios del plato de tipo A y un tercio de tipo E; y si quieres adelgazar más deprisa, tres cuartos y un cuarto. Eso es todo. No hay calorías, no hay báscula de cocina, no hay que aprender nada más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y funciona, aunque no por el motivo que él da. Aplicada, esa proporción sube la proteína y la fibra de cada comida, baja mucho la carga de azúcares rápidos y, sobre todo, expulsa del plato casi toda la comida ultraprocesada, que es donde los experimentos controlados han localizado el problema. Es una manera sencilla de comer menos sin proponérselo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tiene además una ventaja práctica que no hay que despreciar: se puede aplicar en un restaurante, en casa de alguien y sin decírselo a nadie. Pides lo que ibas a pedir y cambias la proporción, dejando media guarnición de patatas y pidiendo verdura o ensalada. Las dietas que exigen comprar cosas raras se abandonan en la primera comida fuera de casa; esta no obliga a nada de eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Si te llevas una sola cosa de este libro, llévate esta, y llévatela sin la teoría. No estás acelerando ningún metabolismo: estás llenando el plato con comida que sacia más por caloría, y por eso acabas comiendo menos sin pasar hambre. El resultado es real; la explicación es la que no se sostiene.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dos tercios del plato de proteína y verdura y un tercio de hidratos: es una regla útil, y lo es por saciedad y no por velocidad metabólica.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dormir poco cambia las hormonas del apetito, y eso sí está medido" },
+      {
+        b: "texto",
+        texto:
+          "El libro insiste mucho en el sueño, y aquí acierta con respaldo. En 2004, un equipo de la Universidad de Chicago dirigido por Eve Van Cauter midió qué pasa cuando doce hombres jóvenes y sanos duermen cuatro horas dos noches seguidas, comparado con dormir diez. La leptina, que es la hormona que avisa de que hay reservas suficientes, bajó alrededor de un dieciocho por ciento. La grelina, que es la que da hambre, subió cerca de un veintiocho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto sobre lo que apetecía fue todavía más concreto. El apetito general subió alrededor de un veinticuatro por ciento, y el apetito específico por dulces, pan y comida salada de bolsa subió entre un treinta y tres y un cuarenta y cinco. No era falta de voluntad: era el mismo cerebro con otro perfil hormonal. El mismo grupo había demostrado en 1999 que seis noches de cuatro horas empeoran la tolerancia a la glucosa hasta niveles de prediabetes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo acierto es el azúcar líquido, y no necesita estudio complicado. Un vaso de zumo o de refresco mete en pocos minutos una cantidad de azúcar que en su forma sólida tardarías mucho más en comer y te habría llenado. La fruta entera lleva fibra que frena la absorción y ocupa sitio en el estómago; exprimida, se queda solo el azúcar. Quitar las bebidas azucaradas es la mejora individual más rentable que existe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Del resto de su lista, el consejo de beber agua está inflado. La deshidratación te sienta mal, te da dolor de cabeza y te confunde la sed con el hambre, y eso ya es motivo suficiente para beber; lo que no hace es acelerar el metabolismo, y la fórmula exacta de vasos al día que da el libro no viene de ningún sitio comprobable.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dos noches de cuatro horas bastan para subir la grelina un veintiocho por ciento: el hambre del día siguiente no es un fallo de carácter.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El metabolismo lento no existe como causa de la obesidad, y se ha medido en miles de personas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Metabolismo es la energía que gasta el cuerpo, y tiene tres partes: la que consume en reposo solo por seguir vivo, que es la mayor con diferencia; la que gasta digiriendo; y la que gasta moviéndose. Se mide, y no con una báscula: la manera buena es el agua doblemente marcada, que consiste en beber agua con isótopos y calcular el gasto por la velocidad a la que se eliminan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con ese método se hizo en 2021 el estudio que zanja la cuestión, publicado en «Science» y firmado por Herman Pontzer y un consorcio internacional: seis mil cuatrocientas personas de veintinueve países, desde bebés de ocho días hasta ancianos de noventa y cinco. El gasto energético ajustado por masa magra es estable entre los veinte y los sesenta años, y no cae en la mediana edad. La idea de que el metabolismo se frena a los cuarenta no aparece en los datos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo que suena al revés y es fundamental: una persona con obesidad quema más calorías en reposo que una delgada de su misma altura, no menos. Un cuerpo más grande tiene más tejido que mantener. Así que el metabolismo lento no puede ser la causa de haber engordado, porque va en la dirección contraria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde sí hay algo real es después, y es justo lo contrario de lo que dice el libro. Cuando alguien pierde mucho peso, su gasto en reposo baja más de lo que corresponde a su nuevo tamaño y se queda bajo durante años: se midió en 2016 en catorce concursantes de un programa de televisión de adelgazamiento, que seis años después gastaban unas quinientas calorías diarias menos de lo previsto. El metabolismo lento es una consecuencia de haber adelgazado mucho, no la razón de haber engordado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un cuerpo grande gasta más en reposo que uno pequeño: el metabolismo lento no explica la obesidad, la sigue.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El capítulo del hongo es el que hay que saltarse entero" },
+      {
+        b: "texto",
+        texto:
+          "Una parte considerable del libro atribuye el sobrepeso, el cansancio y los antojos a una proliferación del hongo Candida albicans por todo el cuerpo, y propone un protocolo para combatirlo. Conviene saber qué hay de cierto en cada pieza de esa afirmación, porque están mezcladas a propósito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cándida existe y es un habitante normal de la boca, el intestino y la piel de casi todo el mundo. Puede causar infecciones locales muy reales: la candidiasis vaginal, el muguet de la boca, las infecciones de uñas. Y puede causar una infección generalizada gravísima, la candidemia, que ocurre en hospitales, en personas con el sistema inmunitario destrozado o con catéteres, y que se trata con antifúngicos por vía intravenosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que no existe como diagnóstico es el cuadro intermedio que vende el libro: una colonización sistémica en personas sanas que produciría cansancio, niebla mental, antojos de dulce y sobrepeso. No está reconocido por ninguna sociedad médica, no tiene una prueba que lo confirme y sus síntomas son tan generales que todo el mundo cumple varios. Es el villano con nombre propio: una criatura a la que se le atribuyen intenciones y a la que se puede combatir comprando algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fíjate además en cómo está construido el argumento, porque el patrón se repite en todo el género. Se abre con un cuestionario de síntomas —¿estás cansado?, ¿te cuesta perder peso?, ¿te apetece el dulce por la tarde?— que casi cualquier adulto contesta afirmativamente. Reconocerte en esa lista no es un diagnóstico: es haber pasado por un espejo diseñado para que te reconozcas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un síndrome cuyos síntomas los tiene todo el mundo y que no se puede confirmar con ninguna prueba no es un diagnóstico: es un argumento de venta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La tiroides sí importa, y no se mide con un termómetro debajo del brazo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí el libro parte de algo cierto y termina en algo falso, que es la combinación más difícil de desmontar. Lo cierto: el hipotiroidismo existe, es frecuente —bastante más en mujeres y a partir de los cuarenta—, y entre sus efectos están el cansancio, el frío, el estreñimiento, la caída de pelo y una ganancia de peso de unos pocos kilos. Si tienes varios de esos síntomas, merece la pena descartarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo falso es cómo propone detectarlo. Suárez sostiene que los análisis de sangre no lo captan en la mayoría de los casos y recomienda medirse la temperatura basal con un termómetro nada más despertar, tomando una lectura baja como prueba de tiroides lenta. Ese método lo popularizó un médico estadounidense en los años setenta y se abandonó porque la temperatura al despertar varía con el sueño, el ciclo menstrual, la habitación y el propio termómetro, y no distingue a quien tiene hipotiroidismo de quien no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí lo detecta es un análisis de sangre corriente. Se mide la TSH, que es la hormona con la que el cerebro le pide trabajo a la tiroides: cuando la tiroides responde poco, el cerebro insiste y esa cifra sube. Si sale alterada se completa con la hormona tiroidea. Es barato, está en cualquier analítica y lo interpreta un médico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es sencilla y va en la dirección contraria a la del libro. Si sospechas de tu tiroides, no compres un suplemento de yodo ni te fíes de un termómetro: pide la analítica. Y ojo con el yodo, porque tomarlo por libre en dosis altas puede empeorar una tiroides que funcionaba, no solo no ayudar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El hipotiroidismo se confirma con un análisis que cuesta poco y está en cualquier laboratorio; ningún termómetro lo diagnostica.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro es la entrada de un negocio de suplementos, y eso hay que saberlo al leerlo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Frank Suárez fundó a finales de los noventa una empresa que vende suplementos y programas de adelgazamiento, y siguió dirigiéndola mientras el libro se convertía en un superventas. Varios de los problemas que el libro identifica —el hongo, el metabolismo frenado, la falta de determinados minerales— tienen su solución correspondiente en ese catálogo. No es una insinuación: es la estructura del negocio y está a la vista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso no convierte en falso todo lo que dice, y conviene no caer en el atajo contrario. Lo que obliga es a aplicar una regla concreta al leer cualquier libro de salud: mira si el problema que te acaban de describir tiene un producto asociado y quién lo vende. Cuando la respuesta es que la vende el autor, ese capítulo necesita una fuente externa antes de creerlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aplicado a este caso, la lista se separa sola. Lo que puedes comprobar fuera del libro y aguanta: la regla del plato, dormir, quitar las bebidas azucaradas, hacer ejercicio, pedir una analítica de tiroides. Lo que solo se sostiene dentro del libro y coincide con lo que se vende: el protocolo del hongo, los tipos de sistema nervioso que decidirían qué alimentos te convienen, y los suplementos que aceleran el metabolismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un ejemplo concreto de esa segunda lista, porque es de los más repetidos: el aceite de coco como acelerador del metabolismo. Contiene grasas de cadena media que aumentan ligeramente el gasto, y eso es cierto y pequeño; pero también es la grasa vegetal que más sube el colesterol LDL, y la asociación cardiológica estadounidense recomendó en 2017 no usarlo por eso. Un efecto pequeño a favor no compensa uno medido en contra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta que ordena cualquier libro de salud es si el problema que acaban de describirte tiene a la venta su propia solución, y quién la vende.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la obesidad es un problema de metabolismo lento y que se corrige quitando una lista de enemigos y añadiendo una de ayudantes. La premisa no se sostiene: el gasto en reposo es mayor en los cuerpos grandes, no menor, y las mediciones en más de seis mil personas no encuentran el frenazo de la mediana edad que el libro da por hecho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, y no es poco, es la regla del plato. Dos tercios de proteína y verdura, un tercio de hidratos, mirado a ojo y sin contar nada: es de las reglas más aplicables que existen, se explica en veinte segundos y funciona, aunque funcione por saciedad y no por velocidad metabólica. Y acierta en el sueño y en las bebidas azucaradas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en el mecanismo entero y en dos capítulos que conviene saltarse: el del hongo, que describe un síndrome que ninguna sociedad médica reconoce y que no tiene prueba que lo confirme, y el de los tipos de sistema nervioso, que no tiene base. Y falla en algo que no es científico sino de transparencia: los problemas que describe tienen su solución a la venta en la empresa del autor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después ha ido en su contra en lo grande. El estudio de 2021 sobre el gasto energético dejó sin base la idea del metabolismo que se frena; el aceite de coco pasó de aliado a desaconsejado; y desde 2021 unos fármacos consiguen pérdidas del quince al veinte por ciento actuando sobre el apetito, o sea, sobre lo que entra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y a favor: el sueño y el estrés, que en 2006 sonaban a excusa cuando se hablaba de peso, están hoy dentro de cualquier recomendación seria, y la comida ultraprocesada se ha convertido en el centro de la discusión, que es justo lo que su regla del plato elimina sin nombrarla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quédate con la regla del plato, con dormir y con quitar el azúcar líquido; el resto necesita una fuente que no sea este libro.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "poder-metabolismo": PODER_METABOLISMO,
   "vivir-plenitud": VIVIR_PLENITUD,
   "milagro-metabolico": MILAGRO_METABOLICO,
   invencible: INVENCIBLE,

@@ -487,22 +487,6 @@ export const META: FichaMeta[] = [
       { titulo: "Depender bien", minutos: 5.5 },
     ],
   },
-  {
-    id: "poder-metabolismo",
-    titulo: "El poder del metabolismo",
-    autor: "Frank Suárez",
-    ano: 2006,
-    gancho: "El libro de salud más vendido en español lo escribió alguien sin ninguna titulación sanitaria, que vendía los suplementos que recomendaba. Y aun así acertó en la cosa que la medicina tardó otros diez años en admitir.",
-    porQue: "Porque separar en este libro lo que funciona de lo que está inventado es el mejor ejercicio de lectura crítica que se puede hacer en salud. Y porque millones de personas en español lo usaron: merecen que alguien haga esa separación en serio, sin reírse de ellas.",
-    minutos: 25.4,
-    capitulos: [
-      { titulo: "Un hombre de ciento treinta kilos con una libreta", minutos: 5 },
-      { titulo: "Dos tipos de sistema nervioso que no existen", minutos: 5.2 },
-      { titulo: "El plato partido en dos tercios", minutos: 5.3 },
-      { titulo: "La tienda que hay detrás del libro", minutos: 4.9 },
-      { titulo: "Lo que sí se le rompe a un cuerpo que ha hecho veinte dietas", minutos: 5.1 },
-    ],
-  },
 ];
 
 /** Índice por identificador, que es como lo pide la pantalla. */

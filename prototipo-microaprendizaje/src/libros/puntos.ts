@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "poder-metabolismo": [
+    "la regla del plato de dos tercios y un tercio",
+    "qué le pasa a la grelina cuando duermes cuatro horas",
+    "qué es el metabolismo y cómo se mide de verdad",
+    "por qué el capítulo del hongo no describe ningún diagnóstico",
+    "confirmar una sospecha de tiroides con un análisis corriente",
+  ],
+
   "vivir-plenitud": [
     "en qué consiste exactamente el programa de ocho semanas",
     "qué demuestra el ejercicio de comerse una pasa",
