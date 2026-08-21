@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "arte-sin-hombres": [
+    "por qué no poder dibujar del natural cerraba una carrera entera",
+    "qué le hicieron a Artemisia Gentileschi en el juicio de 1612",
+    "cómo se borraba a una pintora cambiándole la firma",
+    "quién pintó el primer cuadro abstracto y en qué año",
+    "cuánto menos vale hoy el mismo cuadro firmado por una mujer",
+  ],
+
   imperiofobia: [
     "qué mecanismo propone y por qué no se puede desmentir",
     "quién escribió el libro con el que se construyó la leyenda negra",

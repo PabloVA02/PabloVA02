@@ -55755,7 +55755,297 @@ const IMPERIOFOBIA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Historia del arte sin hombres, en ocho páginas.
+
+   Breve. Ensayo de historia del arte → afirmación entera y tercera persona.
+
+   LA TRAMPA DE ESTE LIBRO ES RESUMIRLO COMO UNA LISTA DE NOMBRES. Un
+   catálogo de pintoras no es un resumen: es un índice, y además es lo que
+   el propio libro tiene de más flojo. Lo que hay que contar es el
+   ARGUMENTO: por qué no las hubo, cómo se borraron las que hubo, y qué se
+   ha comprobado desde entonces.
+
+   Por eso cada página lleva un mecanismo con su caso: la clase del natural,
+   la firma falsificada de Judith Leyster, la fecha del primer cuadro
+   abstracto, el recuento del Met y el descuento del mercado. Todo con
+   fechas y con cifras, que es lo que ninguna opinión puede contestar.
+   -------------------------------------------------------------------------- */
+
+const ARTE_SIN_HOMBRES: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro de historia del arte más vendido del mundo no mencionaba a ninguna mujer",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1950, el historiador Ernst Gombrich publicó «La historia del arte», que ha vendido más de ocho millones de ejemplares en unos treinta idiomas y que sigue siendo el manual de referencia en medio mundo. En su primera edición no aparecía ni una sola mujer artista. La primera, Käthe Kollwitz, se incorporó en la decimosexta edición, en 1995, cuarenta y cinco años después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Katy Hessel, historiadora del arte británica, publicó en 2022 un libro cuyo título es una respuesta directa a aquel: cuenta la historia del arte desde el Renacimiento hasta hoy sin incluir a ningún artista varón. No es un apéndice ni un capítulo añadido al final, es una sustitución completa del relato, y esa decisión de forma es la mitad de su argumento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su punto de partida es una pregunta que formuló en 1971 la historiadora Linda Nochlin en un artículo famoso: por qué no ha habido grandes mujeres artistas. La respuesta de Nochlin, que Hessel hereda, es que la pregunta está mal hecha. No hay genios escondidos esperando ser descubiertos; lo que hubo fueron instituciones que hacían imposible llegar a serlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas y ninguna es una lista de nombres: qué impedimentos concretos había, el caso de la pintora que fue torturada en el juicio por su propia violación, cómo se borraba materialmente a una artista, quién pintó de verdad el primer cuadro abstracto, el recuento que unas activistas hicieron en un museo de Nueva York, y cuánto menos vale hoy un cuadro por estar firmado por una mujer.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta de por qué no hubo grandes artistas mujeres no se contesta buscando genios olvidadas: se contesta mirando quién podía entrar en una academia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que faltaba no era talento: era el permiso para aprender el oficio",
+      },
+      {
+        b: "texto",
+        texto:
+          "La formación de un pintor europeo, desde el Renacimiento hasta bien entrado el siglo XIX, tenía un centro obligatorio: dibujar del natural, es decir, copiar cuerpos humanos desnudos en una academia. Sin ese entrenamiento no se podía pintar una escena de historia, una batalla ni un tema religioso con varias figuras, que eran los géneros de prestigio y los que daban encargos grandes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A las mujeres se les prohibió esa clase por decoro durante siglos. La Real Academia de Londres no admitió a alumnas hasta 1860 y no las dejó entrar en la clase del natural hasta 1893, y aun entonces con el modelo parcialmente cubierto. Sin anatomía, la pintora quedaba limitada al retrato, al bodegón y a la escena doméstica, es decir, a los géneros que las mismas academias clasificaban como menores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo cerrojo era gremial y económico. En la mayoría de las ciudades europeas no se podía trabajar como pintor sin pertenecer a un gremio, y en muchos no se admitía a mujeres o solo se admitía a viudas e hijas de maestros. Sin gremio no había taller propio, ni aprendices, ni derecho a firmar contratos, y en varios países una mujer casada no podía cobrar sin autorización de su marido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercero era de biografía. Casi todas las pintoras que llegaron a algo antes del siglo XIX fueron hijas de pintor y aprendieron en el taller de su padre, o entraron en un convento, que era el otro sitio donde una mujer podía trabajar. No es una casualidad estadística: es la lista completa de las dos puertas que existían.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si no puedes dibujar del natural, no puedes pintar historia; y si no puedes pintar historia, no puedes optar a los encargos que hacen a un pintor famoso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "A Artemisia Gentileschi la torturaron en el juicio por su propia violación para comprobar si decía la verdad",
+      },
+      {
+        b: "texto",
+        texto:
+          "Artemisia Gentileschi nació en Roma en 1593, hija del pintor Orazio Gentileschi, y aprendió en su taller. A los diecisiete años fue violada por Agostino Tassi, un pintor al que su padre había contratado para enseñarle perspectiva. El padre denunció en 1612, y el proceso se conserva íntegro en los archivos romanos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante aquel juicio, que duró siete meses, Artemisia declaró y fue sometida a un procedimiento habitual en la época para comprobar la veracidad de un testimonio: la sibila, unos cordeles que se apretaban alrededor de los dedos hasta triturarlos. Se los aplicaron a una pintora de diecinueve años, delante de su agresor, mientras ella repetía que era verdad. Tassi fue condenado y la condena no se ejecutó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Hessel discute es cómo se ha leído después su obra, y ahí está su mejor argumento. Su cuadro más conocido, la «Judit decapitando a Holofernes», se ha explicado durante décadas como una venganza personal, con lo cual una de las mejores composiciones del barroco queda reducida a un desahogo biográfico. A ningún pintor varón se le explica su obra entera por lo que le pasó a los diecisiete años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su trayectoria posterior desmiente además el papel de víctima. Se trasladó a Florencia, y en 1616 fue la primera mujer admitida en la Academia del Dibujo de aquella ciudad; trabajó para los Médici, viajó a Venecia, a Nápoles y a Londres, dirigió su propio taller y negoció sus precios por carta. Fue una empresaria del arte en un siglo en el que una mujer no podía firmar un contrato sola.",
+      },
+      {
+        b: "idea",
+        texto:
+          "A ningún pintor se le explica la obra entera por lo que le ocurrió a los diecisiete años: reducir una carrera a una biografía es una manera de archivarla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Borrar a una pintora podía ser tan sencillo como raspar su firma" },
+      {
+        b: "texto",
+        texto:
+          "El caso que mejor documenta el mecanismo es el de Judith Leyster, pintora holandesa nacida en 1609 y admitida en el gremio de Haarlem, con taller propio y aprendices. Murió en 1660 y durante más de dos siglos su nombre desapareció por completo de la historia del arte, mientras sus cuadros seguían colgados en museos y colecciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Seguían colgados con otro nombre. Se atribuían a Frans Hals, el gran maestro de la misma ciudad, o a su taller. La verdad salió en 1893, cuando el Louvre compró un cuadro vendido como un Hals y, al examinarlo, apareció bajo la firma de Hals el monograma original de Leyster: una jota y una ele enlazadas con una estrella, un juego con su apellido, que significa estrella polar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está el mecanismo entero y no es una metáfora. Un cuadro firmado por una mujer valía menos en el mercado que el mismo cuadro firmado por un hombre famoso, así que hubo un incentivo económico continuo para cambiar la atribución. No hizo falta ninguna conspiración: bastó con que a cada marchante le conviniera, uno por uno, durante doscientos años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el proceso continúa en sentido contrario. Los análisis técnicos actuales —radiografía, reflectografía infrarroja, análisis de pigmentos— están devolviendo autorías cada pocos años: obras atribuidas al padre que eran de la hija, obras del marido que eran de la mujer, cuadros anónimos que resultan tener firma debajo. La historia del arte no se está reescribiendo por una moda: se está reescribiendo con laboratorio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hizo falta ninguna conspiración para borrar a las pintoras: bastó con que a cada marchante le conviniera cambiar la firma, uno por uno.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El primer cuadro abstracto de la historia lo pintó una sueca en 1906, y ella pidió que no se enseñara",
+      },
+      {
+        b: "texto",
+        texto:
+          "La historia oficial del arte moderno sitúa el nacimiento de la abstracción hacia 1910, con Vasili Kandinsky, y desde ahí explica todo el siglo XX. Hay un problema de fechas: Hilma af Klint, pintora sueca formada en la Academia de Estocolmo, había producido en 1906 una serie de obras sin ninguna referencia figurativa, cuatro años antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No fue un experimento aislado. Entre 1906 y 1915 pintó alrededor de doscientas obras de un ciclo que llamó las pinturas para el templo, algunas de más de tres metros, con formas geométricas, espirales y colores planos que se parecen muchísimo a lo que se pintaría en Europa veinte y treinta años más tarde. Trabajaba en secreto y las guardaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y dejó dispuesto en su testamento que no se mostraran hasta veinte años después de su muerte, convencida de que su época no las entendería. Murió en 1944; su familia ofreció el legado a un museo de Estocolmo que lo rechazó; las obras estuvieron guardadas en cajas durante cuarenta años y no se expusieron en serio hasta 1986. En 2018 el Museo Guggenheim de Nueva York le dedicó una retrospectiva que fue la exposición más visitada de su historia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso es el más fuerte del libro porque no es una cuestión de gusto sino de cronología. Discutir si una pintora es buena admite opiniones; discutir qué cuadro es anterior, no. Y la conclusión incómoda es que el relato fundacional del arte del siglo XX se construyó sin mirar unas cajas que estaban en un desván sueco porque nadie las buscó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que un cuadro sea anterior a otro no es una cuestión de gusto: es una fecha, y esa fecha obliga a reescribir el relato fundacional del arte moderno.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Unas activistas se dedicaron a contar cuadros, y el recuento resultó ser el mejor argumento",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1985, un grupo de artistas neoyorquinas empezó a aparecer en público con máscaras de gorila y nombres de artistas muertas, y se dedicó a algo muy poco espectacular: contar. Contaban cuántas obras de mujeres había en las exposiciones, en las galerías y en las colecciones permanentes, y pegaban los resultados por las calles en carteles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El más famoso es de 1989 y preguntaba si hacía falta estar desnuda para entrar en el Museo Metropolitano de Nueva York. Debajo iba el dato: menos del cinco por ciento de los artistas de las salas de arte moderno eran mujeres, y el ochenta y cinco por ciento de los desnudos eran femeninos. La frase la recuerda todo el mundo; lo que la sostiene es el recuento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La operación se ha repetido varias veces desde entonces y esa continuidad es lo que la hace útil. Al volver a contar en el mismo museo más de veinte años después, la proporción de artistas mujeres había bajado y la de desnudos femeninos seguía siendo abrumadora. Un dato aislado se discute; una serie de datos con las mismas reglas y con veinte años de distancia es otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ese método aporta al debate es que lo saca de la opinión. Se puede discutir eternamente si una artista merece estar en un museo, y no se puede discutir cuántas hay colgadas. Los museos empezaron a publicar sus propias cifras a partir de ahí, y buena parte de los cambios de programación de las dos últimas décadas se explican por la existencia de ese contador.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se puede discutir para siempre si una artista merece estar en un museo; no se puede discutir cuántas hay colgadas, y contar cambió la conversación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El mismo cuadro vale menos si lo firma una mujer, y eso se ha medido",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte del argumento que más resistencia encuentra es la del mercado, porque se responde siempre igual: el precio lo pone la calidad. Existe una investigación que lo puso a prueba y se publicó en 2021 en una revista de economía financiera, firmada por un equipo encabezado por la economista Renée Adams.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Analizaron un millón y medio de subastas de arte en cuarenta y cinco países durante casi veinte años. Al comparar obras equivalentes, las firmadas por mujeres se vendían de media alrededor de un cuarenta y dos por ciento más baratas. La diferencia se mantenía después de descontar el tamaño, la técnica, la época, el género pictórico y la trayectoria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mismo equipo hizo después un experimento que cierra la discusión sobre la calidad. Enseñaron cuadros generados por ordenador a un grupo de personas y les atribuyeron al azar un nombre de autor masculino o femenino. Los mismos cuadros recibieron valoraciones más bajas cuando se les atribuyó a una mujer, y el efecto era más marcado entre las personas de renta alta, que son las que compran arte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese resultado es el que convierte todo lo anterior en algo comprobable y presente. No habla del siglo XVII ni de gremios cerrados: habla de compradores actuales valorando una imagen idéntica de dos maneras según el nombre que lleve al lado. La firma no es un dato sobre el cuadro; es un dato sobre quien lo mira.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El mismo cuadro recibe una valoración distinta según el nombre que se le ponga al lado: eso no informa sobre el cuadro, informa sobre quien lo mira.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la ausencia de mujeres en la historia del arte no se explica por una falta de talento sino por una acumulación de barreras concretas —academias cerradas, gremios prohibidos, contratos que no podían firmar—, y por un borrado posterior que tuvo incentivos económicos. Y lo demuestra rehaciendo el relato entero sin ellos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la decisión de forma. Añadir un capítulo de artistas mujeres al final de un manual las convierte en un apéndice; escribir quinientas páginas en las que no aparece ningún hombre obliga a comprobar que el relato se sostiene igual, y que la laguna estaba en el manual y no en los talleres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en lo que ese mismo formato le impone. Es un panorama, y un panorama con centenares de artistas en quinientas páginas deja a cada una en un párrafo: hay muchos nombres y muy poco análisis de obra, y a menudo el lector no distingue a quién considera la autora una figura de primer orden y a quién incluye para cubrir un hueco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y repite dos vicios del canon al que se opone. Sigue siendo un relato cronológico, por movimientos y por individuos con nombre, que es la estructura que excluyó a las mujeres; y sigue siendo muy occidental. Deja fuera además el terreno donde trabajó la mayoría: el textil, la cerámica y el bordado, clasificados como artesanía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ha pasado alrededor le da la razón en lo concreto. En 2019, el Museo del Prado dedicó por primera vez en sus dos siglos una exposición monográfica a dos pintoras, Sofonisba Anguissola y Lavinia Fontana; en 2020 la National Gallery de Londres hizo lo mismo con Artemisia Gentileschi; y la retrospectiva de Hilma af Klint en el Guggenheim batió el récord de visitantes de aquel museo. Todo eso ocurrió en los cinco años anteriores a este libro, que es a la vez su causa y su consecuencia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La historia del arte no se está reescribiendo por una moda: se está reescribiendo con archivos, radiografías y recuentos, que son las tres cosas que no opinan.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "arte-sin-hombres": ARTE_SIN_HOMBRES,
   imperiofobia: IMPERIOFOBIA,
   "homo-sovieticus": HOMO_SOVIETICUS,
   "guerra-civil-thomas": GUERRA_CIVIL_THOMAS,

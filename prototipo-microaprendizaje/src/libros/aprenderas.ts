@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "arte-sin-hombres":
+    "El manual de historia del arte más vendido del mundo salió en 1950 sin mencionar a una sola mujer, y tardó cuarenta y cinco años en incluir a la primera. Hessel responde contando quinientas páginas sin ningún hombre.",
+
   imperiofobia:
     "El término «leyenda negra» lo acuñó Julián Juderías en 1914 para nombrar algo real: una propaganda antiespañola con financiación y objetivos políticos. Roca Barea sostiene que es un caso de un fenómeno general.",
 

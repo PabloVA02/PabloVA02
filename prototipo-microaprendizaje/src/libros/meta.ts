@@ -24,22 +24,6 @@ export type FichaMeta = {
 
 export const META: FichaMeta[] = [
   {
-    id: "arte-sin-hombres",
-    titulo: "Historia del arte sin hombres",
-    autor: "Katy Hessel",
-    ano: 2022,
-    gancho: "En una feria de arte de Londres con miles de obras no había ni una sola de una mujer. La que se dio cuenta tenía veintiún años y decidió escribir el otro libro.",
-    porQue: "Es la respuesta directa al manual de Gombrich, y no va de opinar: va de enseñar los mecanismos concretos por los que media historia del arte desapareció.",
-    minutos: 22,
-    capitulos: [
-      { titulo: "Una feria sin una sola mujer", minutos: 4.4 },
-      { titulo: "El juicio de Artemisia", minutos: 4.4 },
-      { titulo: "Las dos que solo están en el cuadro", minutos: 4.3 },
-      { titulo: "La abstracción llegó antes", minutos: 4.6 },
-      { titulo: "¿Hay que estar desnuda?", minutos: 4.3 },
-    ],
-  },
-  {
     id: "van-gogh-cartas",
     titulo: "Cartas a Theo",
     autor: "Vincent van Gogh",
