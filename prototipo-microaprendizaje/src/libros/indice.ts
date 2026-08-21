@@ -24,7 +24,6 @@ import type { Resumen } from "./tipos";
 type Cargador = () => Promise<Resumen>;
 
 const CARGADORES: Record<string, Cargador> = {
-  sapiens: () => import("./sapiens").then((m) => m.SAPIENS),
 
   /* Psicología */
 
@@ -40,8 +39,6 @@ const CARGADORES: Record<string, Cargador> = {
   "van-gogh-cartas": () => import("./arte").then((m) => m.CARTAS_THEO),
 
   /* Historia */
-  "diario-ana-frank": () => import("./historia").then((m) => m.ANA_FRANK),
-  "armas-germenes": () => import("./historia").then((m) => m.ARMAS_GERMENES),
 
   /* Ciencia */
 
@@ -57,7 +54,6 @@ const CARGADORES: Record<string, Cargador> = {
   /* Psicología */
 
   /* Capítulos largos */
-  "homo-deus": () => import("./historia").then((m) => m.HOMO_DEUS),
   "arte-sin-hombres": () => import("./arte").then((m) => m.ARTE_SIN_HOMBRES),
   einstein: () => import("./ciencia").then((m) => m.EINSTEIN),
   "camino-artista": () => import("./arte").then((m) => m.CAMINO_ARTISTA),
@@ -93,8 +89,6 @@ const CARGADORES: Record<string, Cargador> = {
   "poder-metabolismo": () => import("./salud").then((m) => m.PODER_METABOLISMO),
   "cosas-buenas": () => import("./psicologia").then((m) => m.COSAS_BUENAS),
   "intro-psicoanalisis": () => import("./psicologia").then((m) => m.INTRO_PSICOANALISIS),
-  "marte-venus": () => import("./psicologia").then((m) => m.MARTE_VENUS),
-  "sentirse-bien": () => import("./psicologia").then((m) => m.SENTIRSE_BIEN),
   "cerebro-del-nino": () => import("./psicologia").then((m) => m.CEREBRO_DEL_NINO),
   "maneras-de-amar": () => import("./psicologia").then((m) => m.MANERAS_AMAR),
   "existencialismo-humanismo": () => import("./filosofia").then((m) => m.EXISTENCIALISMO_HUMANISMO),

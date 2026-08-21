@@ -22,6 +22,8 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "marte-venus": "Guía práctica para mejorar la comunicación y obtener lo que deseas en tus relaciones",
+  "sentirse-bien": "Una nueva terapia contra las depresiones",
   "open-agassi": "Memorias",
   "sexta-extincion": "Una historia nada natural",
   "error-descartes": "La emoción, la razón y el cerebro humano",

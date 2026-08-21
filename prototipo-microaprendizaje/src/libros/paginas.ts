@@ -39620,7 +39620,575 @@ const OPEN_AGASSI: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Sentirse bien, en ocho páginas.
+
+   Breve.
+
+   Libro práctico de psicología: la prosa habla de TÚ (regla 4.7), pero con
+   cuidado, porque el asunto es la depresión y no vale el tono de manual de
+   superación.
+
+   La conclusión lleva lo que casi nadie cuenta: que los estudios que
+   desmontaron la terapia cognitiva por piezas encontraron que la parte que
+   este libro enseña quizá no sea la que cura, y que el efecto medido de la
+   terapia cognitiva se ha ido reduciendo desde 1977.
+   -------------------------------------------------------------------------- */
+
+const SENTIRSE_BIEN: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que te hunde no es lo que ha pasado, sino lo que te dices sobre lo que ha pasado",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con un cuestionario de veinticinco preguntas que el lector se puntúa a sí mismo. No es un adorno: es la manera de convertir un estado de ánimo en un número que se puede volver a medir dentro de tres semanas. David Burns, psiquiatra de la Universidad de Pensilvania, lo publicó en 1980 y lleva vendidos más de cinco millones de ejemplares.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es una inversión de lo que casi todo el mundo cree. La secuencia habitual sería: ocurre algo malo, y entonces te sientes mal. Burns sostiene que entre las dos cosas hay siempre un paso invisible, un pensamiento, y que ese paso es el que decide la emoción. Dos personas a las que despiden el mismo día no se sienten igual, y la diferencia no está en el despido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es que el pensamiento se puede examinar. Un sentimiento no se discute —si estás triste, estás triste—, pero una frase sí: se puede escribir, se puede comprobar si es verdad y se puede sustituir por otra más exacta. Todo el método del libro consiste en llevar a la superficie frases que normalmente pasan sin que nadie las lea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren ese método: por qué el pensamiento va delante del sentimiento, las diez formas concretas en que la cabeza deforma la realidad, la técnica de las tres columnas con la que se corrigen, por qué medir tu valor como persona es el problema y no la solución, qué es de verdad la pereza y qué producen los «debería» según hacia dónde apunten.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Entre lo que te pasa y lo que sientes hay siempre una frase, y esa frase se puede leer.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los pensamientos que más daño hacen son los que ni siquiera notas que has pensado",
+      },
+      {
+        b: "texto",
+        texto:
+          "Burns los llama pensamientos automáticos, y el adjetivo es lo importante. No son reflexiones ni conclusiones a las que llegas después de darle vueltas: son frases que aparecen solas, duran medio segundo y desaparecen dejando el estado de ánimo que provocan. Cuando alguien deprimido dice que se siente mal sin motivo, casi siempre hay un motivo y no lo ha leído.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que usa es doméstico. Alguien deja un plato mal fregado y su pareja se lo dice. En medio segundo pasa por su cabeza «nunca hago nada bien», y lo que llega a la conciencia no es esa frase sino un desánimo desproporcionado. La discusión que viene después es sobre el plato, y el plato no tiene nada que ver.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tienen tres propiedades que los hacen peligrosos y a la vez tratables. Son extremadamente rápidos, así que pasan sin filtro. Se sienten como verdades evidentes y no como opiniones. Y son casi siempre falsos o exagerados, aunque la sensación que producen sea exacta y real.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la primera instrucción del libro, que parece pequeña y no lo es: cuando notes un bajón repentino, para y escribe qué acababa de pasarte por la cabeza. No lo pienses, escríbelo, con las palabras exactas. Burns insiste en que a mano y en papel, porque en la cabeza esas frases se escurren y en un papel se quedan quietas y se pueden mirar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Sentirse mal sin motivo casi siempre significa que el motivo pasó demasiado deprisa para leerlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La cabeza deforma la realidad de diez maneras concretas, y todas tienen nombre",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte más copiada del libro es su lista de diez distorsiones cognitivas. Su utilidad no es teórica: es que un pensamiento con nombre deja de ser una verdad y pasa a ser un caso conocido. Las cuatro primeras son de bulto. El pensamiento de todo o nada, que solo tiene dos casillas: perfecto o desastre. La generalización excesiva, que convierte un fallo en un «siempre».",
+      },
+      {
+        b: "texto",
+        texto:
+          "El filtro mental, que consiste en quedarse con el único comentario negativo de una tarde entera de comentarios buenos. Y la descalificación de lo positivo, que es peor, porque no ignora lo bueno sino que lo anula activamente: aprobaste, pero fue fácil; te felicitaron, pero lo dicen por educación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las siguientes son de razonamiento. Las conclusiones precipitadas, que van en dos direcciones: adivinar lo que piensa otro sin preguntárselo, y predecir el futuro con certeza. La magnificación y la minimización, que Burns llama el truco de los prismáticos: los errores propios se miran por el lado que agranda y los aciertos por el que empequeñece. Y el razonamiento emocional: me siento inútil, luego lo soy.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las tres últimas son de identidad. Los «debería», que fabrican culpa cuando apuntan hacia uno mismo y rabia cuando apuntan hacia los demás. La etiquetación, que no dice «he cometido un error» sino «soy un desastre», y convierte un hecho en una categoría permanente. Y la personalización, que consiste en cargar con la responsabilidad de algo que no dependía de ti.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un pensamiento con nombre deja de ser una verdad evidente y pasa a ser un error conocido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Tres columnas en un papel hacen el trabajo que no hace darle vueltas",
+      },
+      {
+        b: "texto",
+        texto:
+          "La herramienta central del libro cabe en una hoja partida en tres. En la primera columna se escribe el pensamiento automático tal cual apareció. En la segunda, cuál de las diez distorsiones es. En la tercera, una respuesta racional: no un consuelo ni un mantra, sino una frase más exacta que la primera y que tú te creas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Burns es explícito sobre lo que no vale. La respuesta racional no puede ser «todo va a salir bien», porque no te lo crees y el cerebro lo descarta al instante. Tiene que ser comprobable. Frente a «he arruinado la presentación», no vale «ha sido genial»: vale «me he trabado dos veces en cuarenta minutos y me han hecho tres preguntas al final», que es lo que efectivamente ocurrió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo de escribirlo y no pensarlo tiene que ver con cómo funciona el bucle. Darle vueltas a una preocupación produce la sensación de estar trabajando en ella, y en realidad la repite. Escribir obliga a terminar la frase, a ponerla en un tiempo verbal y a mirarla como un objeto separado de ti, y ese cambio de posición es la mitad del efecto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro añade una segunda técnica para llegar más abajo, la flecha vertical. Ante un pensamiento, en vez de rebatirlo se pregunta qué significaría si fuera cierto; a la respuesta, lo mismo; y otra vez, cuatro o cinco veces. Al final de esa cadena no aparece el problema del día, sino la regla de fondo con la que uno se maneja: si no gusto a todo el mundo, no valgo nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una respuesta racional que no te crees no sirve de nada: tiene que ser más exacta que el pensamiento al que sustituye.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Medir tu valor como persona es el problema, no la manera de resolverlo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre la autoestima va en contra de casi todo lo que se ha publicado después. Burns no propone subir la autoestima ni repetirse afirmaciones: propone abandonar la pregunta. Sostiene que la valía de una persona no es una magnitud, que no existe ninguna escala que la mida y que el intento de calcularla es precisamente lo que genera el sufrimiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento es lógico, no consolador. Si tu valor dependiera de tus logros, subiría y bajaría cada semana, y entonces no sería tu valor sino tu marcador. Si dependiera de que te quieran, dependería de personas que cambian de opinión. Cualquier definición operativa de «valgo» se rompe en cuanto se le pide que dé un número.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca cuatro adicciones que describe una por una. La adicción a la aprobación: necesitar caer bien a todo el mundo para estar tranquilo. La adicción al amor, sobre la que escribe la frase más dura del libro: que ser amado es algo muy deseable, pero no es una necesidad de un adulto. La adicción al logro, que confunde lo que uno hace con lo que uno es. Y el sentimiento de merecimiento, que espera que la vida cumpla un contrato que nadie firmó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La alternativa que propone no es quererse mucho: es dejar de puntuarse. Se pueden juzgar conductas concretas —esto lo hice mal, esto lo hice bien— sin convertir el resultado en una nota global sobre la persona. Burns lo resume así: puedes evaluar lo que haces, no puedes evaluar lo que eres, y confundir las dos cosas es la fábrica de la depresión.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se puede juzgar lo que haces; lo que no se puede es convertir esa nota en una nota sobre ti.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La pereza casi nunca es pereza: es una predicción equivocada" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre la procrastinación empieza desmontando la explicación habitual. Cuando alguien no consigue empezar algo, se dice que le falta motivación y que ya lo hará cuando tenga ganas. Burns sostiene que el orden es el contrario: la acción va delante y la motivación viene detrás. Esperar a tener ganas es esperar a que ocurra lo que solo ocurre después de empezar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Debajo hay siempre una predicción, y suele ser falsa. Quien no empieza a ordenar los papeles ha calculado por dentro que será insoportable y que le llevará toda la tarde. Su hoja antiprocrastinación consiste en apuntar antes cuánto costará y cuánto se disfrutará, del cero al diez, hacer solo quince minutos y apuntar después las cifras reales. Casi siempre la previsión era mucho peor que lo que pasó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para las tareas que se atascan propone separar dos tipos de pensamiento. Los que interfieren en la tarea —«no me va a salir», «no es el momento»— y los que la orientan —«voy a escribir un párrafo malo y luego lo arreglo»—. Escribirlos en dos columnas hace visible que la mayoría de lo que uno se dice mientras no trabaja no habla de la tarea, sino de uno mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade un principio general para lo que se acumula: casi nada exige hacerlo entero. Un capítulo de tesis, una casa que ordenar o una conversación pendiente se paralizan porque se conciben como un bloque. Partirlos hasta que el primer paso dure cinco minutos no es un truco de organización: es quitar de en medio la predicción que impedía empezar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La motivación no viene antes de ponerse: viene después de haber empezado, y por eso esperarla no funciona.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los «debería» fabrican culpa cuando apuntan hacia dentro y rabia cuando apuntan hacia fuera",
+      },
+      {
+        b: "texto",
+        texto:
+          "Burns recoge de la psicoanalista Karen Horney una expresión que le viene muy bien: la tiranía de los debería. Son las frases que imponen una obligación sin decir de dónde sale: debería estar disfrutando esto, debería haber llamado, debería ser capaz de hacerlo sin ayuda. No describen nada del mundo; solo comparan lo que hay con una norma que nadie ha escrito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su observación más útil es sobre la dirección. Un «debería» dirigido a uno mismo produce culpa, y la culpa no corrige conductas: paraliza y consume el tiempo que haría falta para arreglar el asunto. El mismo «debería» dirigido a otra persona produce rabia, porque afirma que el otro está incumpliendo una regla que solo existe en tu cabeza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su tratamiento de la ira, que es de lo mejor del libro. Sostiene que nadie te enfada: te enfada lo que te dices sobre lo que ha hecho. Y propone algo que casi nadie hace, un cálculo de costes y beneficios: escribir en un papel qué ganas estando furioso con esa persona y qué pierdes. La mayoría de los enfados largos no sobreviven a esa lista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recambio no es rendirse ni tragar. Es cambiar el tiempo verbal de la frase: en vez de «debería haberme avisado», que exige que el pasado hubiera sido otro, «me habría venido bien que me avisara, y voy a pedírselo la próxima vez». La segunda no es más blanda; es la única de las dos que se puede hacer algo con ella.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La culpa no arregla nada de lo que la provoca: solo ocupa el tiempo que haría falta para arreglarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Sentirse bien sostiene que la emoción viene de un pensamiento y no del suceso, que ese pensamiento se puede escribir y comprobar, y que la cabeza lo deforma de diez maneras que tienen nombre. Su método cabe en una hoja de tres columnas, y su idea más contraria al sentido común es que no hay que subir la autoestima sino dejar de puntuarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, y lo separa de casi todo lo que se publica en su estantería, es que se puede medir. Se abre con un cuestionario que da un número y se repite cada semana, y en los años noventa unos estudios de la Universidad de Alabama comprobaron que leerlo solo, sin terapeuta, bajaba la puntuación de depresión de forma comparable a algunos tratamientos, y que la mejora seguía años después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Es de los poquísimos libros de autoayuda que traen dentro la manera de comprobar si te está funcionando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Todo el libro da por sentado que las distorsiones causan la depresión, y esa dirección no está demostrada: pensar así puede ser en buena parte un síntoma y no el motor. Y hay un riesgo de tono: un método presentado con tanta confianza deja al lector que sigue mal con la sospecha de que no ha hecho bien los ejercicios, que es justo la clase de pensamiento que el libro enseña a desmontar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después es más incómodo todavía. Cuando en 1996 se desmontó la terapia cognitiva por piezas para ver cuál curaba, el grupo que solo hacía activación conductual —salir, moverse, retomar actividades— mejoraba igual que el que además rebatía pensamientos. O sea, justo la parte que enseña este libro puede no ser la que funciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el efecto medido se ha ido encogiendo. Un metaanálisis de 2015 revisó setenta ensayos publicados entre 1977 y 2014 y encontró que el beneficio de la terapia cognitiva frente a la depresión se había reducido casi a la mitad en esas décadas. Nadie tiene una explicación cerrada. Sigue funcionando, pero menos de lo que decían los estudios con los que se escribió este libro.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   Los hombres son de Marte, las mujeres son de Venus, en ocho páginas.
+
+   Breve.
+
+   Libro práctico de pareja: la prosa habla de TÚ (regla 4.7).
+
+   Este es de los que exigen la regla 5 entera. Vendió cincuenta millones y
+   no tiene ni un dato detrás; la conclusión lleva la revisión de 2005 sobre
+   las semejanzas entre sexos, el análisis de 2013 que comprobó si la
+   diferencia es de categoría o de grado, y de dónde salió el doctorado del
+   autor. Y dice también lo que del libro sí se sostiene, que es poco pero
+   existe.
+   -------------------------------------------------------------------------- */
+
+const MARTE_VENUS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro de pareja más vendido de la historia se apoya en una metáfora y en ningún dato",
+      },
+      {
+        b: "texto",
+        texto:
+          "John Gray publicó este libro en 1992 y vendió más de cincuenta millones de ejemplares, lo que lo convirtió en el libro de no ficción más vendido de aquella década en Estados Unidos. Se ha traducido a más de cuarenta idiomas y su título se usa como expresión hecha por gente que nunca lo ha abierto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su punto de partida es una fábula. Los hombres venían de Marte y las mujeres de Venus; se conocieron, se enamoraron y bajaron juntos a la Tierra, y al llegar sufrieron una amnesia que les hizo olvidar que procedían de sitios distintos. Desde entonces cada uno espera que el otro reaccione como reaccionaría él, y de ahí, según Gray, sale casi todo el conflicto de pareja.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro tiene un valor real y un problema grande, y conviene saber los dos antes de empezar. El valor: describe con precisión unas cuantas escenas domésticas que cualquiera reconoce, y acierta al señalar que la ayuda no pedida se recibe como una crítica. El problema: atribuye todas esas escenas a una diferencia de naturaleza entre sexos, y para eso no aporta una sola prueba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que sostiene: por qué él intenta resolver y ella intenta mejorarlo, qué es la cueva en la que él se mete y por qué ir a buscarlo empeora las cosas, qué es la ola en la que ella baja, las seis necesidades que asigna a cada lado, el marcador de puntos con el que dice que ella cuenta los gestos, y cómo hay que pedir las cosas para que se hagan.",
+      },
+      { b: "idea", texto: "Casi toda la ayuda que sienta mal es ayuda que nadie había pedido." },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Él ofrece soluciones y ella ofrece mejoras, y ninguno de los dos las había pedido",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena que abre el libro es la más citada y la más útil. Ella cuenta un problema del trabajo. Él escucha treinta segundos y propone qué hacer. Ella se enfada, él no entiende por qué —acaba de intentar ayudar— y la conversación se estropea antes de llegar al minuto dos. Gray lo llama el señor Arréglalo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación es que las dos personas están usando la conversación para cosas distintas. Uno la usa como un canal de información: se expone un problema para llegar a una solución, y si no hay solución la conversación no tiene objeto. La otra la usa como una manera de descargar y de sentirse acompañada, y una solución rápida equivale a decir que el asunto no merecía tanto rato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La versión simétrica también está, y es igual de reconocible. Gray la llama el comité de mejora del hogar: ella le da consejos que él no ha pedido —cómo aparcar, cómo hablar con su madre, cómo llevar un asunto del trabajo— desde el afecto y con toda la buena intención, y él los recibe como un informe de sus defectos. Los dos están dando lo que a ellos les gustaría recibir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La instrucción práctica que se saca no depende de la fábula de los planetas y funciona igual. Antes de dar una solución, preguntar si lo que hace falta es una solución o compañía. Y antes de dar un consejo, preguntar si se quiere. Las dos preguntas duran tres segundos y evitan la mitad de las discusiones que describe el libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de resolverle el problema a alguien conviene averiguar si te lo ha traído para que lo resuelvas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuando alguien se encierra, ir a buscarlo alarga el encierro" },
+      {
+        b: "texto",
+        texto:
+          "La imagen más famosa del libro es la cueva. Gray sostiene que ante un problema o una tensión, muchos hombres se retiran: dejan de hablar, se meten en la televisión, el móvil o el garaje, y no responden. No es un castigo ni una señal de que algo va mal en la pareja; es la manera en que procesan lo que les preocupa, en silencio y por su cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema es lo que ocurre al otro lado. Para quien procesa hablando, el silencio de alguien cercano se interpreta como una señal de alarma y activa lo contrario: preguntar, insistir, acercarse. Y cada acercamiento alarga el encierro, porque quien se ha metido dentro necesita exactamente lo único que no le están dando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gray añade una segunda imagen para explicar qué pasa si se espera: la goma elástica. Sostiene que ese alejamiento no es indefinido, que llega a un punto y vuelve solo, y que el regreso suele traer más cercanía de la que había antes. Su instrucción es no perseguir y no pedir explicaciones al volver, porque preguntar por qué se fue reinicia el ciclo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir aquí lo que el libro no dice. Retirarse en silencio también puede ser una manera de castigar, de evitar una conversación necesaria o de dejar a la otra persona sin información, y a eso los estudios sobre parejas lo llaman muro de piedra y lo cuentan entre los predictores más fiables de ruptura. La diferencia entre las dos cosas no está en el libro, y es la que importa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Necesitar un rato solo y castigar con el silencio se parecen mucho por fuera y no son lo mismo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cuando alguien está en horas bajas no está esperando que le arreglen el ánimo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La contrapartida de la cueva es lo que Gray llama la ola. Sostiene que el ánimo de muchas mujeres sube y baja en un ciclo propio, que cuando toca bajar se toca fondo de verdad, y que la bajada no la ha provocado necesariamente nada de lo que ha pasado esa semana. En el fondo de la ola sale a la superficie todo lo que estaba guardado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El error típico está en tratar la bajada como una avería. Quien intenta arreglarla —enumerando razones para estar bien, señalando que no es para tanto, proponiendo planes— consigue que la otra persona se sienta además incomprendida. Y quien pregunta «¿qué te pasa?» esperando una causa concreta obliga a inventar una, porque a veces no la hay.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Gray propone es incómodo por lo poco que es: quedarse. Escuchar sin corregir los hechos, sin defenderse de las quejas que salgan y sin ofrecer soluciones, y aguantar el silencio si lo hay. Su observación es que la ola sube sola si nadie intenta empujarla, y que casi todo el daño lo hacen los intentos de acelerarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y también aquí hay que poner el límite que el libro no pone. Un ánimo que baja durante semanas, que no vuelve a subir o que se lleva por delante el sueño, el apetito y las ganas de todo no es una ola: es una depresión, y no se trata escuchando con paciencia. Presentar los dos casos como el mismo fenómeno natural es la parte más imprudente de este capítulo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Intentar acelerar el ánimo de alguien suele conseguir que además se sienta incomprendido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cada uno da lo que le gustaría recibir, y por eso se cruzan sin tocarse",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gray reparte doce necesidades en dos listas de seis. A un lado pone cuidado, comprensión, respeto, entrega, reconocimiento de lo que se siente y tranquilidad sobre el vínculo. Al otro, confianza, aceptación, agradecimiento, admiración, aprobación y ánimo. La lista importa menos que lo que hace con ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que las dos listas se emparejan de dos en dos, y que darse la propia en lugar de la ajena es lo que produce el desencuentro. Alguien que necesita confianza demuestra su amor confiando y dejando espacio, cuando el otro estaba esperando atención. Alguien que necesita cuidado demuestra su amor cuidando y organizando, cuando el otro lo recibe como falta de confianza en que se apañe solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo doméstico que usa es el de la ayuda no pedida otra vez, ahora al revés. Cuando alguien reorganiza los asuntos del otro para facilitarle la vida está dando cuidado, que es lo que a él le gustaría recibir; y el otro está oyendo que no le creen capaz. Ninguno de los dos ha hecho nada mal y los dos acaban molestos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se puede aprovechar de este capítulo, quitándole el reparto por sexos, es la pregunta que propone: qué es lo que más te duele que la otra persona haga o deje de hacer. Lo contrario de esa respuesta suele ser lo que uno necesita, y casi nadie lo ha dicho nunca en voz alta porque da por supuesto que se nota.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que más te duele que no te den suele ser exactamente lo que nunca has pedido en voz alta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En el marcador de los gestos, uno pequeño vale igual que uno enorme" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo del marcador de puntos es el que más ha sobrevivido y el que más se cita sin saber de dónde viene. Gray sostiene que muchos hombres cuentan los gestos por su tamaño: un viaje sorpresa vale cincuenta puntos y traer el pan vale uno, así que compensan una temporada ausente con un regalo grande. Y que muchas mujeres cuentan distinto: cada gesto vale un punto, sea cual sea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Si eso es así, la aritmética de la pareja cambia por completo. Cincuenta detalles pequeños repartidos en dos meses valen cincuenta puntos, y un regalo caro vale uno. La consecuencia práctica es que la constancia rinde más que la intensidad, y que quien intenta arreglar seis meses de distancia con un fin de semana está haciendo la operación equivocada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gray añade una lista de cosas concretas que puntúan: llamar para avisar de que llegas tarde, preguntar cómo ha ido el día y esperar la respuesta entera, ocuparse de una gestión sin que haya que recordarla, apagar la televisión cuando el otro entra hablando. Todas duran menos de dos minutos y ninguna cuesta dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y avisa de una trampa que aparece al llevar la cuenta: el marcador solo sirve para dar, nunca para reclamar. En cuanto se usa para exigir —llevo tres semanas haciendo cosas y tú ninguna— deja de ser una manera de cuidar y se convierte en contabilidad, que es lo contrario. Es la misma advertencia que hace falta en cualquier método que convierta el afecto en un intercambio de entregas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La constancia puntúa más que la intensidad, y ningún gesto grande compensa seis meses de ausencia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi todo lo que se pide mal se pide con una pregunta que suena a reproche",
+      },
+      {
+        b: "texto",
+        texto:
+          "El último tramo del libro es el más útil y el que menos depende de su teoría. Gray sostiene que buena parte de lo que no se consigue en una pareja no se ha pedido nunca, y que de lo que sí se ha pedido, mucho se ha pedido de una forma que garantizaba la negativa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su regla de forma es minúscula y funciona: no preguntes si puede, pide que lo haga. «¿Puedes sacar la basura?» invita a contestar que sí en abstracto y a no moverse; «¿sacas la basura?» es una petición concreta. Y la peor forma de todas es la que empieza por «¿por qué no…?», porque no pide nada: informa de que hasta ahora se ha hecho mal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade tres avisos más. No acumular: quien pide diez cosas de golpe está en realidad presentando una factura. No pedir en el peor momento, que suele ser al entrar por la puerta. Y aceptar un no sin castigarlo, porque quien sabe que un no le va a costar la tarde deja de decir que sí de verdad y empieza a decir que sí por evitar el conflicto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para lo que ya está enquistado propone escribir una carta que nadie tiene que enviar, y en un orden fijo: primero la rabia, después la tristeza, después el miedo, después lo que uno lamenta, y al final lo que se quiere. El orden es la técnica. Casi todo el mundo se queda en el primer apartado, y los cuatro siguientes son los que contienen lo que de verdad hay que decir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La rabia es siempre la primera capa: debajo hay tristeza, y debajo de la tristeza casi siempre hay miedo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Los hombres son de Marte, las mujeres son de Venus sostiene que los conflictos de pareja vienen de una diferencia de naturaleza entre sexos: uno se encierra y el otro habla, uno resuelve y el otro acompaña. Y propone corregirlo aprendiendo el idioma del otro en vez de esperar que reaccione como uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí se sostiene es más pequeño que el libro y sigue siendo útil: que la ayuda no pedida se recibe como una crítica, que la constancia rinde más que los gestos grandes, que un no castigado convierte todos los síes siguientes en falsos, y que la rabia suele ser la capa de encima de una tristeza y de un miedo que nadie ha dicho.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que funciona de este libro no funciona porque seáis de planetas distintos: funciona porque sois dos personas distintas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. No hay ni un dato en las trescientas páginas, y lo que se ha medido después va en contra: una revisión de 2005 que juntó cuarenta y seis metaanálisis sobre millones de personas encontró que en el setenta y ocho por ciento de los rasgos psicológicos la diferencia entre sexos es pequeña o casi nula, y las excepciones no están en cómo se comunica uno ni en qué necesita de su pareja.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el libro afirma algo todavía más comprobable: que son dos categorías, dos planetas. En 2013 se analizaron ciento veintidós rasgos para ver si las diferencias entre hombres y mujeres se agrupan en dos montones separados o se reparten en una escala continua. Salió lo segundo en casi todo. No hay dos tipos de persona: hay un abanico en el que la mayoría se solapa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además dos cosas que conviene saber. El doctorado que Gray usa en la cubierta procede de una institución por correspondencia que un tribunal de California ordenó cerrar en el año 2000. Y su explicación tiene un efecto secundario: si la culpa es del planeta, no hay nada que cambiar, y las conductas que sí predicen una ruptura —el desprecio, la crítica, el muro de silencio— se pueden cambiar.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "marte-venus": MARTE_VENUS,
+  "sentirse-bien": SENTIRSE_BIEN,
   "open-agassi": OPEN_AGASSI,
   "messi-ronaldo": MESSI_RONALDO,
   "sexta-extincion": SEXTA_EXTINCION,

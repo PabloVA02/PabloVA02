@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "marte-venus":
+    "Vendió cincuenta millones de ejemplares con una fábula: que los hombres venían de Marte, las mujeres de Venus, y al llegar a la Tierra olvidaron que eran distintos. No trae ni un dato, y lo que se ha medido después va en contra.",
+
+  "sentirse-bien":
+    "Un psiquiatra sostiene que entre lo que te pasa y lo que sientes hay siempre una frase de medio segundo que casi nunca llegas a leer. El libro entero consiste en sacarla al papel y comprobar si es verdad.",
+
   "open-agassi":
     "Su padre le montó una máquina lanzabolas en el jardín y le hacía golpear dos mil quinientas pelotas al día, casi un millón al año. El niño ganó ocho torneos del Grand Slam y empieza estas memorias diciendo que odia el tenis.",
 

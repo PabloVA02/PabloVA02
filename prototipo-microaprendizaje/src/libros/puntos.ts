@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "marte-venus": [
+    "por qué la ayuda no pedida se recibe como una crítica",
+    "qué es la cueva y por qué perseguir a alguien la alarga",
+    "cómo se piden las cosas para que se hagan",
+    "por qué la constancia puntúa más que los gestos grandes",
+    "qué dice la evidencia sobre las diferencias entre sexos",
+  ],
+
+  "sentirse-bien": [
+    "por qué el pensamiento va delante del sentimiento",
+    "las diez maneras en que la cabeza deforma la realidad",
+    "cómo se rebate un pensamiento en tres columnas",
+    "por qué medir tu valor es el problema",
+    "qué hay debajo de la pereza casi siempre",
+  ],
+
   "open-agassi": [
     "qué cuentas le echaba su padre en el jardín",
     "qué escondía el peinado con el que se hizo famoso",
