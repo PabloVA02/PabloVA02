@@ -33382,7 +33382,7 @@ const SEGUNDO_SEXO: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Su conclusión es que ninguna de las dos partes se arregla sola. La igualdad legal sin independencia económica no sirve de nada; la independencia económica sin un cambio en cómo se educa y en cómo se reparte el trabajo de la casa produce mujeres agotadas; y ese cambio, dice, exige que también cambien los hombres, cosa que el libro plantea y no desarrolla.",
+          "Su conclusión es que ninguna de las dos partes se arregla sola. La igualdad legal sin independencia económica no sirve de nada; la independencia económica sin un cambio en cómo se educa y en cómo se reparte el trabajo de la casa produce mujeres agotadas; y ese cambio, dice, exige que también cambien los hombres, cosa que el libro plantea y no desarrolla. Conviene señalar además un límite de mirada que hoy salta a la vista: el libro habla casi exclusivamente de mujeres blancas, europeas y de clase media. Las obreras, las campesinas y las mujeres de las colonias que Francia administraba entonces aparecen apenas, y su ideal de liberación consiste en buena medida en acceder al modelo de vida masculino —oficio, proyecto, independencia— sin poner en duda ese modelo.",
       },
       {
         b: "idea",
@@ -33413,11 +33413,6 @@ const SEGUNDO_SEXO: PaginaLibro[] = [
         b: "texto",
         texto:
           "Dónde falla. Es un libro de 1949 y hay páginas que hoy se leen con incomodidad, empezando por su capítulo sobre la homosexualidad femenina, que arrastra buena parte de los prejuicios de la psiquiatría de su tiempo. Y hay un reproche mayor que le hicieron feministas posteriores: su descripción del cuerpo femenino es a menudo despectiva —habla de la menstruación y del embarazo con un vocabulario de alienación y de esclavitud de la especie—, como si tomara el cuerpo masculino por la norma y el otro por un estorbo del que hay que emanciparse.",
-      },
-      {
-        b: "texto",
-        texto:
-          "Hay además un límite de mirada que en 1949 era enorme y hoy salta a la vista: el libro habla casi exclusivamente de mujeres blancas, europeas y de clase media. Las obreras, las campesinas y las mujeres de las colonias que Francia administraba entonces aparecen apenas, y su ideal de liberación consiste en buena medida en acceder al modelo de vida masculino —oficio, proyecto, independencia— sin poner en duda ese modelo.",
       },
       {
         b: "texto",
