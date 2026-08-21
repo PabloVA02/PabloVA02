@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "nombre-rosa":
+    "En una abadía de 1327 aparecen siete monjes muertos en siete días, y todos habían pasado por la biblioteca. Un fraile inglés investiga qué libro es el que mata.",
+
   "viejo-mar":
     "Un pescador lleva ochenta y cuatro días sin coger nada. El día ochenta y cinco engancha un pez más grande que su barca y pasa tres días peleando con él en alta mar.",
 

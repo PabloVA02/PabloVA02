@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "nombre-rosa": [
+    "por qué el investigador se apellida Baskerville",
+    "por qué nadie puede entrar en la biblioteca",
+    "qué libro es el que envenena a quien lo lee",
+    "por qué el asesino cree que la risa es peligrosa",
+    "por qué el título no significa nada",
+  ],
+
   "viejo-mar": [
     "qué es la teoría del iceberg y qué se calla aquí",
     "por qué el chico y él se inventan una cena",

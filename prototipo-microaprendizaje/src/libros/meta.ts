@@ -1304,22 +1304,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "nombre-rosa",
-    titulo: "El nombre de la rosa",
-    autor: "Umberto Eco",
-    ano: 1980,
-    gancho: "Un profesor de semiótica de cuarenta y ocho años decidió escribir una novela policiaca. Vendió cincuenta millones de ejemplares.",
-    porQue: "Es un caso de asesinatos en una abadía medieval, y por debajo una discusión sobre por qué alguien mataría para que un libro no se leyera.",
-    minutos: 20.9,
-    capitulos: [
-      { titulo: "Siete días", minutos: 4.5 },
-      { titulo: "La risa", minutos: 4.1 },
-      { titulo: "La chica sin nombre", minutos: 3.9 },
-      { titulo: "El segundo libro de Aristóteles", minutos: 4.3 },
-      { titulo: "El profesor que escribió una novela", minutos: 4.1 },
-    ],
-  },
-  {
     id: "casa-espiritus",
     titulo: "La casa de los espíritus",
     autor: "Isabel Allende",

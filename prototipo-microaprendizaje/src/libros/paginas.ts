@@ -17220,7 +17220,233 @@ const VIEJO_MAR: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El nombre de la rosa, en ocho páginas.
+
+   Breve. Registro narrativo.
+
+   Lo que casi nadie cuenta y aquí sí está: que el libro por el que se
+   mata existió de verdad y sigue perdido; que el bibliotecario ciego es
+   un chiste sobre Borges; que Eco escribió las primeras cien páginas
+   aburridas A PROPÓSITO y lo explicó por escrito; y que el título lo
+   eligió precisamente porque no significa nada.
+   -------------------------------------------------------------------------- */
+
+const NOMBRE_ROSA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Siete días en una abadía" },
+      {
+        b: "texto",
+        texto:
+          "Noviembre de 1327, en algún punto de los Apeninos. Un fraile inglés y su joven ayudante llegan a una abadía benedictina para preparar una reunión diplomática entre el emperador y el papa. Se encuentran con que la mañana anterior ha aparecido un monje muerto al pie de un torreón. El abad, que sabe de la fama del inglés como antiguo inquisidor, le pide discretamente que averigüe qué ha pasado antes de que lleguen las delegaciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En los siete días siguientes mueren seis monjes más, todos relacionados con la biblioteca de la abadía, que es la más grande de la cristiandad y a la que nadie puede entrar salvo el bibliotecario. La investigación avanza como una novela policiaca clásica y a la vez como un tratado sobre lo que se puede leer y quién decide qué se lee.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo escribió en 1980 un profesor de semiótica de Bolonia que hasta entonces solo había publicado ensayos, con la idea, según contó, de envenenar a un monje. Vendió más de cincuenta millones de ejemplares en todo el mundo, cosa que ni él ni su editorial esperaban de un libro con citas en latín sin traducir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren quién es el investigador y de dónde viene, qué esconde la biblioteca, por qué se mata por un libro concreto, quién es el bibliotecario ciego, qué hace allí la Inquisición y por qué el título no significa nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un policiaco de siete días en el que el asesino es un libro, y el móvil, lo que ese libro autoriza a pensar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un fraile llamado Baskerville" },
+      {
+        b: "texto",
+        texto:
+          "El investigador se llama Guillermo de Baskerville, es franciscano, inglés, alto y flaco, tiene una curiosidad insaciable y unas lentes para leer que en 1327 eran un artilugio casi mágico. Su ayudante y narrador es un novicio benedictino alemán llamado Adso. Los nombres no son casuales: Baskerville sale del perro de los Baskerville y Adso suena a Watson.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la presentación del personaje es un homenaje descarado. Antes de entrar en la abadía se cruzan con unos monjes que buscan algo, y Guillermo les dice, sin haber visto nada, que persiguen a Brunello, el caballo preferido del abad, de quince palmos, cola negra y cabeza pequeña, y que ha tirado hacia la derecha. Después explica cómo lo dedujo: las huellas, unas crines enganchadas en una zarza, las ramas rotas a cierta altura y el hecho de que un caballo así solo puede llamarse como se llaman los caballos hermosos en los libros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es Sherlock Holmes puro, y Eco lo sabía: ese truco viene de un cuento de Voltaire y de un relato oriental mucho más antiguo. Lo que añade es la lección que Guillermo saca al final del libro: que sus deducciones brillantes le sirvieron para llegar al culpable por un camino equivocado, y que ordenó el mundo según una figura que él había inventado y que resultó no existir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Llegó al asesino razonando de maravilla sobre un dibujo que no estaba ahí, y eso también cuenta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una biblioteca en la que nadie puede entrar" },
+      {
+        b: "texto",
+        texto:
+          "La abadía guarda su tesoro en la última planta del edificio principal, y ese tesoro no se enseña. Los monjes copistas trabajan abajo, y si necesitan un libro lo piden: el bibliotecario decide si existe, si se lo da y si conviene que lo lea. Los catálogos están, pero solo él sabe dónde está cada volumen físicamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El almacén es un laberinto de habitaciones idénticas, cada una con una letra pintada en el dintel, dispuestas de manera que las letras van formando los nombres de los países del mundo conocido. Hay espejos que devuelven la propia figura deformada, una habitación con lámparas que producen visiones y pasadizos que devuelven al que entra al punto de partida. Guillermo y Adso lo recorren de noche, con una vela y sin plano, y tardan días en entender el sistema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está la tesis política del libro, que se ve mejor desde 1980 que desde 1327. La biblioteca no existe para difundir el saber: existe para conservarlo y para controlar quién accede a él. El bibliotecario, no el abad, es el hombre más poderoso de la abadía, porque el poder no está en tener los libros: está en decidir quién los ve.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El poder no lo tiene el que guarda los libros: lo tiene el que decide quién puede leerlos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El libro que mata" },
+      {
+        b: "texto",
+        texto:
+          "Los muertos van apareciendo con un rasgo común que Guillermo tarda en interpretar: dos de ellos tienen manchas negras en las yemas de los dedos y en la lengua. La explicación resulta ser mecánica y perfecta. Alguien ha impregnado de veneno el borde superior de las páginas de un manuscrito, y quien lo lee se moja el dedo con la lengua para pasar la hoja, como se hacía y se hace.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro envenenado es un manuscrito griego escondido en la sala más secreta de la biblioteca, la que las letras del laberinto llaman el fin de África. Y no es un grimorio ni un texto satánico: es el segundo libro de la Poética de Aristóteles, el que trataba de la comedia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí está el detalle que le da peso a toda la novela y que casi ningún resumen menciona: ese libro existió de verdad. Aristóteles anunció en la Poética que trataría la comedia después de la tragedia, y esa segunda parte no ha llegado hasta nosotros. Se perdió en algún momento entre la Antigüedad y la Edad Media, y sigue perdida. Eco cogió un agujero real de la historia de la cultura y escribió qué habría pasado si alguien lo hubiera provocado a propósito.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro por el que se mata en esta novela existió de verdad, y de verdad sigue desaparecido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Por qué la risa da miedo" },
+      {
+        b: "texto",
+        texto:
+          "El culpable es Jorge de Burgos, un monje español ciego, viejísimo, que fue bibliotecario y que sigue siendo la autoridad moral de la abadía. Ha matado para que nadie lea ese libro, y cuando por fin lo dice, su argumento no es de loco: es de teólogo, y está muy bien construido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sostiene que la risa mata el miedo, y que sin miedo no hay fe. Que el campesino que se ríe del demonio en el carnaval deja de temerlo, y que quien no teme puede acabar preguntándose por qué obedece. Y que si Aristóteles —la mayor autoridad intelectual de la época, la que todo el mundo cita— hubiera dedicado un libro entero a explicar que la comedia enseña la verdad, la risa dejaría de ser una travesura de aldeanos para convertirse en un instrumento de conocimiento. Por eso ese volumen no puede existir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El nombre del personaje es la broma culta del libro. Un bibliotecario ciego, español, capaz de moverse a oscuras por una biblioteca laberíntica, remite a Jorge Luis Borges, que dirigió la Biblioteca Nacional argentina mientras se quedaba ciego y escribió un cuento sobre una biblioteca infinita y laberíntica. Eco lo reconoció con humor: dijo que necesitaba un bibliotecario ciego, y que un bibliotecario ciego solo podía llamarse Jorge.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mata para que nadie lea un libro sobre la risa, porque quien se ríe de algo ha dejado de temerlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El inquisidor que no busca la verdad" },
+      {
+        b: "texto",
+        texto:
+          "A mitad de la novela llega la delegación papal con un inquisidor de verdad: Bernardo Gui, que existió, que fue inquisidor en Toulouse y que dejó escrito un manual sobre cómo interrogar herejes. En el libro llega, mira, y en unas horas tiene resuelto el caso a su manera: detiene al cillerero, que en su juventud perteneció a un grupo herético, y a una campesina que se colaba de noche en la cocina a cambio de comida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El proceso está contado con detalle y es el capítulo más duro. Guillermo asiste sin poder hacer nada y ve el mecanismo: no se busca averiguar qué pasó, se busca una confesión que encaje con lo que ya se ha decidido. El acusado que niega es un hereje obstinado y el que confiesa es un hereje confeso; las dos respuestas conducen al mismo sitio. Con la amenaza de la tortura, el cillerero acaba confesando también los asesinatos que no cometió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un contraste que Eco marca sin subrayarlo. Guillermo se equivoca todo el rato y va corrigiendo; Bernardo Gui no se equivoca nunca porque su método no admite error. Uno investiga y el otro instruye un expediente. El primero acaba con la biblioteca ardiendo y sin culpable formal; el segundo se marcha con dos condenados y la sensación del deber cumplido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un interrogatorio en el que negar y confesar llevan al mismo sitio no sirve para averiguar nada: sirve para confirmar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El fuego y una frase en latín" },
+      {
+        b: "texto",
+        texto:
+          "El final es una persecución nocturna dentro del laberinto. Acorralado, Jorge empieza a comerse las páginas envenenadas del libro delante de ellos, para llevárselo consigo. En el forcejeo cae una lámpara, arden los manuscritos y el fuego se extiende por la sala más seca del edificio: madera, pergamino, siglos de trabajo. La abadía entera arde durante tres días y no queda nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Adso vuelve muchos años después, ya viejo, y recorre las ruinas recogiendo del suelo fragmentos de pergamino quemados: trozos de frases sueltas, palabras cortadas, hojas de libros que ya no existen. Con eso construye una biblioteca minúscula y absurda, dice, hecha de restos de la biblioteca grande, y con esos restos escribe lo que hemos leído.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro termina con un verso latino medieval que dice, más o menos, que de la rosa de antes solo queda el nombre, y que lo que conservamos son nombres desnudos. Eco explicó después que eligió ese título justamente porque la rosa es un símbolo con tantos significados acumulados que ya no significa nada en concreto, y así el título no orientaba al lector hacia ninguna interpretación. Quería que nadie supiera de qué iba antes de empezar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "De la rosa de entonces solo queda el nombre, y lo que nos queda son nombres desnudos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El nombre de la rosa cuenta siete días de una investigación en una abadía del siglo catorce donde se mata para impedir que se lea un libro. Su tesis no es sobre crímenes: es sobre el control del saber. Quien decide qué se puede leer decide qué se puede pensar, y el argumento del asesino —que la risa destruye el miedo y el miedo sostiene la obediencia— está construido con tanto cuidado que resulta incómodo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la demostración de que se puede hacer un superventas sin bajar el listón: un policiaco con citas latinas sin traducir, discusiones teológicas de verdad y un final sin consuelo, leído por millones de personas. Y una novela histórica en la que el pasado no es un decorado, porque cada objeto —las lentes, el veneno, el catálogo, el laberinto— hace un trabajo en la trama.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien decide qué libros se pueden leer está decidiendo, en realidad, qué preguntas se pueden hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, o mejor dicho, dónde avisa. Las primeras cien páginas son duras: descripciones larguísimas de un pórtico, debates sobre la pobreza de Cristo, nombres de herejías. Eco lo explicó después sin ninguna vergüenza: dijo que esas cien páginas eran una penitencia deliberada, una manera de construir al lector que él quería, y que quien no las pasara no era su lector. Sabiéndolo, se atraviesan mejor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay dos ayudas. La primera es que el propio autor publicó unas Apostillas explicando cómo lo escribió, que se leen en una tarde y valen la pena después, no antes. La segunda es práctica: hay ediciones con las citas latinas traducidas a pie de página, y conviene buscarlas, porque en las que no las traducen se pierden bromas y algún dato de la trama.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "nombre-rosa": NOMBRE_ROSA,
   "viejo-mar": VIEJO_MAR,
   montecristo: MONTECRISTO,
   "moby-dick": MOBY_DICK,
