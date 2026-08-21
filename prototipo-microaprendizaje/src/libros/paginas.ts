@@ -58687,7 +58687,288 @@ const FUTBOL_SOL_SOMBRA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Fútbol contra el enemigo, en ocho páginas.
+
+   Breve. Reportaje ensayístico → afirmación entera en el rótulo y tercera
+   persona; la caja del rayo es la idea de la página, no una lección de vida.
+
+   Riesgo principal: el libro son veintidós países y si se enumeran queda una
+   guía de viaje. Se eligen seis escenarios y cada uno demuestra un mecanismo
+   distinto de cómo la política usa el juego. El séptimo es el caso de
+   control —Estados Unidos, donde el fútbol no significaba nada— porque sin
+   él la tesis no se puede falsar.
+   -------------------------------------------------------------------------- */
+
+const FUTBOL_CONTRA_ENEMIGO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cuando un país quiere hablar de sí mismo, lo hace en un campo de fútbol",
+      },
+      {
+        b: "texto",
+        texto:
+          "Simon Kuper tenía veintitrés años y una idea sencilla: si el fútbol es el fenómeno cultural más extendido del planeta, debe servir para entender los países mejor que las embajadas. Cogió un billete abierto y pasó nueve meses recorriendo veintidós países, desde Escocia hasta Camerún, desde Ucrania hasta Argentina, preguntando siempre lo mismo: qué se está discutiendo aquí cuando se discute de fútbol.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado no es un libro de partidos. Es un libro de conversaciones: con el hijo de un dictador, con un brujo contratado por una federación, con hinchas que llevan cuarenta años odiando a la misma ciudad. Kuper apenas describe jugadas. Le interesa lo que la gente cree que se juega, que casi nunca coincide con lo que marca el reloj.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tesis es que el fútbol no crea los conflictos de una sociedad, pero es el único sitio donde esa sociedad los enseña completos y en voz alta. Un país miente en sus discursos oficiales y no puede mentir en su estadio, porque en el estadio hay cincuenta mil personas diciendo a la vez lo que piensan de verdad sobre el vecino.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Publicado en 1994, ganó el premio al mejor libro deportivo del año en el Reino Unido y fundó de hecho un género. Antes de él, escribir de fútbol era escribir de fútbol. Después, media biblioteca de periodismo deportivo consiste en usar un partido como excusa para contar un país.",
+      },
+      { b: "idea", texto: "Lo que un pueblo no puede decir en público lo grita en el estadio." },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Holanda no ganó una semifinal en 1988: ganó una guerra con cuarenta años de retraso",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 21 de junio de 1988, Holanda eliminó a Alemania en Hamburgo en la semifinal de la Eurocopa. Aquella noche salieron a la calle en Holanda unos nueve millones de personas, más de la mitad del país. Fue, según los propios periódicos holandeses, la mayor celebración pública desde la liberación de 1945. Nadie sostenía que se estuviera celebrando solo un partido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kuper reconstruye por qué. Alemania ocupó Holanda cinco años, deportó a la práctica totalidad de la comunidad judía de Ámsterdam y requisó bicicletas por todo el país, un detalle menor que se convirtió en el símbolo doméstico del rencor. Cuarenta y tres años después, un gesto de Ronald Koeman fingiendo limpiarse con la camiseta de un rival alemán resumió el asunto mejor que cualquier libro de historia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es lo que el autor encuentra debajo. Habla con holandeses que descubren, al preguntarles, que su odio deportivo a Alemania convive con no haber sentido nunca demasiada curiosidad por lo que hicieron sus propios abuelos durante la ocupación. El fútbol permitía sostener una versión heroica del pasado sin someterla a examen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo funciona como aviso para todo el libro: la memoria que se canta en un estadio es siempre más simple y más cómoda que la que está en los archivos. Sirve para unir a un país entero durante noventa minutos, y por eso mismo nunca es del todo cierta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La memoria que cabe en un cántico es siempre más halagadora que la que está en los archivos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El Barça funcionó como un parlamento porque Cataluña no tenía ninguno",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bajo la dictadura de Franco, el Camp Nou fue uno de los pocos lugares de Barcelona donde se podía hablar catalán en voz alta y en masa sin que interviniera la policía. No porque estuviera permitido, sino porque hacer callar a noventa mil personas a la vez es un problema de orden público que ningún gobernador civil quiere tener un domingo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kuper recoge la historia que sostiene esa identidad: Josep Sunyol, presidente del club y diputado, fue fusilado por tropas franquistas en 1936, al principio de la guerra. Un club de fútbol con un presidente ejecutado deja de ser un club de fútbol. La frase que define al Barça —más que un club— no es publicidad, es una descripción bastante exacta de lo que pasó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El autor añade el matiz que casi nunca se cuenta. El Real Madrid no era el equipo de Franco por decreto ni el Barça un club de resistentes puros: el Madrid tuvo dirigentes republicanos, el Barça tuvo directivas cómodas con el régimen, y ambos clubes sobrevivieron haciendo lo que había que hacer. La leyenda se ordenó después, cuando convenía a los dos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que le interesa es el mecanismo, no el reparto de culpas. Cuando a una comunidad se le prohíben la lengua, la bandera y el partido político, la identidad no desaparece: se muda al único edificio donde se permiten multitudes. Eso explica también a los clubes vascos, a los escoceses y a media Europa del Este.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Prohibir todos los cauces de una identidad no la elimina: la concentra en el que queda abierto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El partido de la muerte no ocurrió como se cuenta, y funcionó igual" },
+      {
+        b: "texto",
+        texto:
+          "En Kiev, Kuper fue a investigar la historia más famosa del fútbol soviético. En 1942, con la ciudad ocupada por los alemanes, un equipo formado por antiguos jugadores del Dinamo, que trabajaban en una panadería, ganó a una selección de la guarnición alemana. La versión oficial decía que los fusilaron por negarse a perder, y hay un monumento que lo conmemora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al ir a los papeles y a los supervivientes, la historia se descompone. Hubo partidos, y los ganaron. Varios jugadores fueron detenidos meses después y algunos murieron en un campo, pero la relación directa entre el resultado y los fusilamientos no aparece por ningún lado. La leyenda se construyó al terminar la guerra, cuando la Unión Soviética necesitaba mártires civiles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kuper no lo cuenta como un desenmascaramiento triunfal. Le interesa lo contrario: la historia falsa hizo un trabajo real. Durante cincuenta años sostuvo el orgullo de una ciudad arrasada y dio a Ucrania un episodio propio dentro de una guerra que se contaba desde Moscú. Los hinchas que la repiten no son ingenuos: eligen.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Lo comprobable", texto: "unos panaderos que habían sido futbolistas ganaron a un equipo alemán en 1942." },
+          { fuerte: "Lo añadido", texto: "que los fusilaran allí mismo por negarse a dejarse ganar el partido." },
+          { fuerte: "Lo útil", texto: "una ciudad ocupada y humillada obtuvo una victoria propia que contar." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "Una historia se conserva por lo que le da a quien la cuenta, no por ser cierta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En varios países la alineación la firmaba el presidente" },
+      {
+        b: "texto",
+        texto:
+          "En Camerún, Kuper encontró el caso más claro de un fenómeno que se repite por todo el continente: el jefe del Estado interviniendo directamente en la selección. Antes del Mundial de 1990, el presidente Paul Biya intercedió para que volviera Roger Milla, un delantero de treinta y ocho años que ya estaba retirado en una isla. Milla marcó cuatro goles y Camerún llegó a cuartos, la primera vez para un equipo africano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La historia se cuenta como anécdota simpática y el libro la usa para otra cosa. Una selección que gana es el mejor acto propagandístico disponible para un gobierno con problemas, y sale mucho más barata que una carretera. Por eso los presidentes premian a los jugadores con casas y con dinero en efectivo, y por eso también los castigan cuando pierden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro elemento que Kuper documenta sin burlarse es el de los brujos. Varias federaciones contrataban marabús para preparar los partidos, enterraban amuletos en el área rival y discutían sus honorarios como los de un fisioterapeuta. Los jugadores educados en Europa lo encontraban ridículo y participaban igual, porque negarse tenía un coste social alto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su conclusión evita el exotismo fácil. Donde el Estado es débil y el dinero llega a golpes, el fútbol funciona como el resto de la vida pública: por favores personales, por lealtades y por rituales. No es una rareza africana; es lo que ocurre en cualquier sitio donde las instituciones no cubren el hueco.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Donde las instituciones no llegan, mandan los favores personales, también en el deporte.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En Rumanía los clubes pertenecían al ejército y a la policía secreta",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más incómodo del libro es una entrevista. Kuper consiguió sentarse con Valentin Ceaușescu, hijo del dictador rumano fusilado en 1989, y hablar con él del Steaua de Bucarest, el club del ejército que ganó la Copa de Europa en 1986 y del que la familia era protectora. El hijo, físico de profesión, le recibió con una educación desconcertante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mapa que sale de ahí es el de casi todo el bloque del Este. El Steaua era del ejército; el Dinamo, del Ministerio del Interior y de la Securitate. En la Unión Soviética, el Dinamo de Moscú era de la policía política y el CSKA del ejército. Los partidos no eran metáforas de la lucha por el poder: eran, literalmente, dos ministerios enfrentados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso tenía consecuencias en el campo. Los clubes con padrino podían llevarse por decreto al mejor jugador de cualquier equipo pequeño, ganar árbitros y arreglar resultados sin disimular demasiado. Los hinchas lo sabían, y por eso ir al estadio a insultar al equipo del régimen era una de las pocas formas de disidencia con riesgo asumible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kuper señala el final de la historia, que es lo que la hace útil. Cuando cayeron los regímenes, aquellos clubes no se hundieron: se privatizaron en manos de los mismos que los administraban antes. El aparato cambió de nombre y siguió mandando en el fútbol, igual que siguió mandando en todo lo demás.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando un régimen cae, sus estructuras no desaparecen: cambian de nombre y de dueño.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El fútbol no provoca las guerras: enseña dónde estaban ya las líneas",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tesis del libro necesita un caso donde no ocurra nada, y Kuper lo va a buscar a Estados Unidos, dos años antes del Mundial de 1994. Allí encuentra un país donde el fútbol no significa absolutamente nada: un deporte de niños de barrios acomodados, sin hinchadas, sin rencores heredados y sin una sola ciudad dispuesta a odiar a otra por ello.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El contraste demuestra el mecanismo. El fútbol no genera identidad ni odio por sí mismo; solo es un recipiente de una capacidad enorme. Donde hay un conflicto previo —una ocupación, una lengua prohibida, dos ministerios rivales— el recipiente se llena hasta arriba. Donde no lo hay, el mismo deporte es un pasatiempo de tarde de sábado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la corrección a la frase que da título al libro. Se suele decir que el deporte es la guerra continuada por otros medios, y Kuper matiza que casi siempre funciona al revés: el estadio absorbe una hostilidad que ya existía y la devuelve en forma de cánticos, no de muertos. La famosa guerra del fútbol entre Honduras y El Salvador en 1969 tuvo causas agrarias y migratorias; los partidos fueron la chispa, no el motivo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa distinción es lo que salva al libro de ser alarmista. Kuper no escribe contra el fútbol, escribe contra la idea de que es inofensivo. Un espectáculo capaz de mover a nueve millones de personas a la calle en una noche no es neutral, y quien gobierna lo sabe siempre antes que quien mira.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El fútbol es un recipiente enorme: lo que sale de él depende de lo que ya había fuera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Fútbol contra el enemigo sostiene que el estadio es el sitio donde un país dice en voz alta lo que en otros sitios calla. Veintidós países en nueve meses sirven para probarlo con casos que no se parecen entre sí: la memoria de una ocupación en Holanda, una lengua prohibida en Barcelona, dos ministerios enfrentados en Bucarest, un presidente eligiendo delantero en Camerún.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un modo de mirar. Kuper trata el fútbol como fuente histórica y no como entretenimiento, y lo hace sin solemnidad, viajando barato y preguntando a la gente equivocada, que suele ser la que sabe. Casi todo el periodismo deportivo con ambición que se ha escrito después parte de este libro, incluida la carrera del propio autor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en el método. Son conversaciones sueltas presentadas como pruebas: no hay datos, no hay contraste sistemático y cada capítulo se apoya en dos o tres entrevistados que el autor eligió porque hablaban bien. Cuando la tesis no encaja, el caso simplemente no aparece. Es un libro de indicios excelentes que en ningún momento demuestra nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y envejeció por donde no podía evitarlo. Se escribió justo antes de la sentencia Bosman, de la Liga de Campeones moderna y de la compra de clubes europeos por fondos y por Estados del Golfo. La política que Kuper encuentra es la de las banderas; la que vino después es la de los balances, y ese fútbol no está en el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ganó el premio William Hill al libro deportivo del año en 1994 y se convirtió en lectura de referencia. Kuper siguió el camino hasta Soccernomics, escrito con un economista y con las cifras que aquí faltaban, lo que puede leerse como la enmienda que él mismo le puso a su libro de los veintitrés años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro de indicios bien elegidos convence más que uno de pruebas, y demuestra bastante menos.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "futbol-contra-enemigo": FUTBOL_CONTRA_ENEMIGO,
   "futbol-sol-sombra": FUTBOL_SOL_SOMBRA,
   "piramide-invertida": PIRAMIDE_INVERTIDA,
   "yo-soy-el-diego": YO_SOY_EL_DIEGO,

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "futbol-contra-enemigo":
+    "Kuper viajó por veintidós países preguntando qué se discute en cada uno cuando se discute de fútbol. La respuesta es siempre otra cosa: una ocupación, una lengua prohibida, un dictador, un ministerio.",
+
   "futbol-sol-sombra":
     "Doscientas estampas cortas sobre el juego y el dinero que lo gobierna. Galeano recorre cada Mundial desde 1930 poniendo al lado quién mandaba en el mundo aquel verano, y sostiene que el fútbol pasó del placer al deber.",
 
