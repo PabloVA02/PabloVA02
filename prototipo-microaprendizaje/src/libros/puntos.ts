@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "yo-soy-el-diego": [
+    "de qué barrio salió y qué explica eso de sus peleas",
+    "qué significó para una ciudad pobre ganar dos ligas italianas",
+    "qué dice catorce años después sobre el gol con la mano",
+    "cuándo sitúa él el principio de su consumo de cocaína",
+    "qué falta en el libro y en qué dirección deforma",
+  ],
+
   "el-elemento": [
     "qué dos cosas tienen que coincidir para que algo sea tu elemento",
     "por qué la escuela sigue teniendo forma de fábrica del siglo XIX",

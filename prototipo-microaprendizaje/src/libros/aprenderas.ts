@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "yo-soy-el-diego":
+    "Dos periodistas grabaron cincuenta horas de conversación con Maradona en 2000 y transcribieron su voz sin corregirla. El resultado es su versión de todo, sin nadie que le lleve la contraria en ninguna página.",
+
   "el-elemento":
     "A una niña de ocho años que no paraba quieta la llevaron al médico en los años treinta; él puso la radio, salió de la consulta y dijo que no estaba enferma, que era bailarina. De ahí parte el libro.",
 

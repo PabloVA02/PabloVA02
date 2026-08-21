@@ -57848,7 +57848,274 @@ const EL_ELEMENTO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Yo soy el Diego, en ocho páginas.
+
+   Breve. MEMORIAS → registro narrativo del apartado 3 bis: titular corto de
+   imagen, afirmación en la primera frase y caja del rayo en segunda
+   persona.
+
+   DOS CUIDADOS. El primero: es un libro dictado por un adicto sobre su
+   propia adicción, mientras la tenía, y murió veinte años después. Se
+   cuenta lo que dice sin moralina y sin convertir su vida en una lección,
+   que es lo que pide el apartado 4 bis para lo escrito desde una desgracia
+   real.
+
+   El segundo: es su versión y solo su versión, sin nadie que le lleve la
+   contraria. Eso no lo invalida, obliga a decirlo, y por eso hay una página
+   entera dedicada a qué falta y cómo leerlo.
+   -------------------------------------------------------------------------- */
+
+const YO_SOY_EL_DIEGO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cincuenta horas de cintas" },
+      {
+        b: "texto",
+        texto:
+          "Este libro no está escrito, está hablado. En 2000, dos periodistas argentinos, Daniel Arcucci y Ernesto Cherquis Bialo, grabaron alrededor de cincuenta horas de conversación con Diego Armando Maradona y las transcribieron respetando su manera de hablar: la sintaxis, los saltos, las repeticiones, los insultos y los apodos. Lo que se lee es su voz sin corregir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa decisión de forma es lo que lo hace distinto de cualquier otra autobiografía deportiva. No hay un negro literario puliendo frases ni un asesor de imagen quitando aristas: hay un hombre de treinta y nueve años, retirado, con la salud rota y con cuentas pendientes con medio mundo, contando su vida y ajustando esas cuentas por su nombre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay que decir desde el principio qué clase de documento es. Es una versión, la suya, sin contradicción ni contraste. Todo lo que le salió bien es mérito propio y casi todo lo que salió mal es culpa de alguien con nombre y apellido. Leído sabiendo eso, es una fuente de primer orden; leído como una biografía, engaña.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: de dónde salió, qué significó lo que hizo en Nápoles, los cuatro minutos del estadio Azteca que le dieron la fama mundial, la entrada que le partió el tobillo y lo que empezó por entonces, cómo cuenta él los dos positivos que le costaron la carrera, y qué falta en el libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien cuenta su vida y todo lo malo tiene un culpable con nombre y apellidos, no te está mintiendo necesariamente: te está enseñando cómo se lo cuenta a sí mismo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una pelota en Villa Fiorito" },
+      {
+        b: "texto",
+        texto:
+          "Maradona nació en 1960 en Villa Fiorito, un barrio pobre al sur del Gran Buenos Aires, sin agua corriente ni asfalto, en una casa de chapa con siete hermanos. Cuenta que a los tres años le regalaron una pelota de cuero, que durmió con ella abrazada aquella noche y varias más, y que esa pelota es lo primero que recuerda de su vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A los nueve entró en el equipo infantil de Argentinos Juniors, los Cebollitas, que encadenó más de cien partidos sin perder y que llegó a llenar tribunas en los descansos de los partidos de primera, porque la gente iba a ver al chico que hacía cosas con el balón en el entretiempo. Salió en televisión con doce años haciendo malabares.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Debutó en primera división diez días antes de cumplir dieciséis, en octubre de 1976, y en su primera acción le hizo un caño a un rival que le sacaba diez años. A los diecisiete ya era el máximo goleador del torneo argentino, y en 1982 fue traspasado al Barcelona por la cifra más alta que se había pagado nunca por un futbolista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese origen no es un detalle sentimental en el libro: es su argumento permanente. Todo lo que cuenta después —su relación con los dirigentes, con los periodistas, con Nápoles, con la selección— lo explica desde ahí, desde ser el chico de un barrio pobre metido en un mundo de gente rica que, según él, nunca dejó de tratarlo como a un empleado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie discute desde donde está: se discute desde donde se empezó, y treinta años después esa posición sigue explicando las peleas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una ciudad que no había ganado nada" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo de Nápoles es el mejor del libro y también el que explica por qué en aquella ciudad todavía hay altares con su cara. Cuando llegó, en 1984, el Nápoles era un equipo mediocre del sur pobre de Italia que no había ganado nunca la liga y que el año anterior había estado a punto de descender. Setenta y cinco mil personas fueron al estadio a verlo pisar el césped el día de su presentación, sin partido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurrió después no tiene comparación en el fútbol europeo. Aquel equipo ganó la liga italiana en 1987 y en 1990, la copa nacional y una copa europea, en la década en que el campeonato italiano era el más fuerte del mundo y en la que jugaban allí casi todas las estrellas del planeta. Un club sin dinero del sur ganó dos veces a los clubes del norte industrial.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Maradona insiste en que aquello no fue solo deportivo, y tiene razón. Italia arrastraba y arrastra un desprecio del norte rico hacia el sur, y en los estadios del norte se recibía a los napolitanos con pancartas sobre el cólera y sobre la falta de higiene. Ganar dos ligas fue, para media ciudad, una respuesta a eso, y por eso lo trataron como a un santo laico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Él lo devolvió con una lealtad que le costó cara. En el Mundial de 1990, con la semifinal Argentina-Italia jugándose precisamente en Nápoles, pidió públicamente a los napolitanos que apoyaran a su equipo recordándoles cómo los trataba el resto del país. Argentina ganó, Italia quedó fuera y aquel gesto le convirtió en el hombre más odiado de Italia fuera de Nápoles.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La lealtad que te hace querer en un sitio suele ser exactamente la misma que te hace insoportable en otro: no son dos cosas, es una.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuatro minutos en el Azteca" },
+      {
+        b: "texto",
+        texto:
+          "El 22 de junio de 1986, en el estadio Azteca de Ciudad de México, Argentina eliminó a Inglaterra en cuartos de final del Mundial con dos goles suyos separados por cuatro minutos, y esos cuatro minutos son la razón por la que su nombre lo conoce gente que no ha visto un partido en su vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primero lo metió con la mano, saltando junto al portero, y el árbitro no lo vio. En rueda de prensa dijo aquella frase sobre la cabeza de Diego y la mano de Dios; en este libro, catorce años después, lo cuenta sin ninguna ambigüedad: dice que lo hizo a propósito, que sabía lo que estaba haciendo y que fue como robarle la cartera a un inglés.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo llegó cuatro minutos después y es lo contrario. Recibió en su propio campo, giró y recorrió sesenta metros dejando atrás a seis jugadores ingleses en unos diez segundos antes de marcar. En una votación mundial celebrada en 2002 fue elegido el mejor gol de la historia de los mundiales, y quien lo mira hoy sigue sin entender cómo mantuvo el balón pegado al pie a esa velocidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un contexto que el libro pone en el centro y que fuera de Argentina se olvida. Cuatro años antes, en 1982, los dos países habían estado en guerra por las islas Malvinas, con más de seiscientos muertos argentinos, casi todos chicos de veinte años. Maradona escribe que aquel partido fue una revancha, que jugaron pensando en eso, y que meterle la mano a Inglaterra le pareció justicia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los mismos cuatro minutos contienen la trampa y la obra maestra, y quien solo recuerde una de las dos se está contando media historia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Barcelona, septiembre de 1983" },
+      {
+        b: "texto",
+        texto:
+          "El tramo más oscuro del libro empieza en su primer año en Europa. En el Barcelona pasó por una hepatitis que lo tuvo tres meses parado y, cuando volvía, recibió una entrada por detrás de un defensa del Athletic de Bilbao, Andoni Goikoetxea, que le partió el tobillo izquierdo. Se oyó desde la grada. Estuvo otros tres meses de baja y volvió antes de tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que cuenta a partir de ahí es una manera de sostenerse que él describe sin adornos. Infiltraciones para poder jugar con dolor, calmantes, presión para no faltar a ningún partido porque cada uno movía dinero, y una vida entera organizada alrededor de que aquel cuerpo saliera al campo cada tres días. Ninguna de esas cosas era secreta y todas se hacían con médicos delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y es en ese periodo donde sitúa el principio de lo otro. Dice que empezó a consumir cocaína en Barcelona, hacia 1983, con veintitrés años, y que la mantuvo durante toda su carrera. No lo cuenta como una confesión dramática ni pide perdón: lo cuenta como un hecho de su vida, y advierte al lector joven de que él no se lo recomienda a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene leer ese capítulo por lo que es. No es el relato de alguien recuperado que mira hacia atrás con distancia: es el de alguien que seguía consumiendo mientras hablaba, que murió veinte años después y cuya salud ya estaba destrozada cuando dictó estas páginas. Es un testimonio de primera mano y no es un análisis.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un testimonio dado desde dentro de un problema vale muchísimo como material y no sirve como diagnóstico: no se le puede pedir la distancia que no tiene.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "«Me cortaron las piernas»" },
+      {
+        b: "texto",
+        texto:
+          "Su carrera se terminó en dos análisis de orina. El primero, en marzo de 1991, en Nápoles: dio positivo por cocaína y lo sancionaron con quince meses sin jugar. El segundo, en el Mundial de Estados Unidos de 1994, después del partido contra Nigeria: dio positivo por efedrina y lo expulsaron del torneo con Argentina invicta y con él jugando bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La frase que dijo entonces, y que repite aquí, es la que quedó: me cortaron las piernas. Su versión es que la efedrina venía de un preparado que le dieron para bajar de peso, que él lo comunicó y que lo utilizaron para sacarlo de en medio. Sostiene además que en el fútbol de aquellos años se consumían sustancias por todas partes y que a él se le aplicó la norma porque molestaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene poner al lado lo que no dice y es comprobable. La efedrina estaba prohibida y él la tenía en el cuerpo; los controles existían y se aplicaban; y su historial anterior no le ayudaba. Que hubiera además intereses políticos en su expulsión es plausible y no cambia el hecho del análisis.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resto del libro es un ajuste de cuentas y ahí está su parte más viva. Nombra y ataca a los dirigentes de la federación internacional, a los de la argentina, a periodistas concretos, a médicos y a antiguos compañeros. Se equivoca a menudo y exagera casi siempre, y a la vez es de los pocos deportistas de su generación que dijo en voz alta cómo se repartía el dinero que él generaba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que alguien tenga razón en la queja general no significa que la tenga en su caso concreto, y las dos cosas se pueden discutir por separado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un libro donde nadie le lleva la contraria" },
+      {
+        b: "texto",
+        texto:
+          "El método del libro decide lo que se puede sacar de él. Son cincuenta horas de conversación con dos periodistas que le hacían preguntas y transcribían las respuestas, sin contrastarlas con otras fuentes, sin buscar la versión de los mencionados y sin corregir las fechas. Es un testimonio, no una investigación, y sus autores no pretendían otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso produce un efecto reconocible en cada capítulo: no hay ni una sola página en la que él quede mal por su culpa. Las lesiones son de los defensas, las derrotas de los árbitros, los positivos de las conspiraciones, las rupturas de los que se aprovecharon, y el dinero perdido de los que le robaron. La estructura completa está montada sobre esa distribución.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay ausencias que conviene conocer antes de leerlo. Apenas aparece el hijo que tuvo en Nápoles y cuya paternidad negó durante casi treinta años, hasta reconocerlo en 2016. No hay nada sobre su relación con los círculos de la camorra napolitana, documentada por la justicia italiana. Y el consumo, que aparece fechado y admitido, se cuenta como un episodio y no como lo que atravesó su carrera entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nada de esto quita valor a lo que sí ofrece. Es la voz de un hombre que salió de un barrio de chapa y llegó a ser el deportista más famoso del mundo, contando cómo lo vivió por dentro y con quién se peleó; y ese material, con todas sus deformaciones, no lo puede dar ninguna biografía escrita desde fuera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un testimonio deforme sigue siendo un testimonio: lo que hay que saber es en qué dirección deforma, y entonces se puede usar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro es la vida de Maradona contada por Maradona: el barrio, el debut a los quince, Nápoles, los dos goles del Azteca, las lesiones, la cocaína, los positivos y el ajuste de cuentas final. No pretende ser objetivo y no lo es, y su valor está exactamente ahí: en oír cómo se lo contaba él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es lo que ninguna biografía consigue: el tono. La sintaxis está sin corregir, los insultos están donde los dijo y las contradicciones se suceden en la misma página. Y aporta un dato histórico real que suele quedarse en anécdota: lo que significó para una ciudad pobre del sur de Italia ganar dos veces a los clubes del norte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla por lo que es. Es una versión sin contraste, en la que él nunca es responsable de nada; omite un hijo, unas amistades y la magnitud real del consumo; y sus fechas y sus cifras hay que comprobarlas fuera. Cualquiera que quiera saber qué pasó de verdad tiene que leer además a alguien que no fuera él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una advertencia que el propio libro impone. Está dictado por alguien que en ese momento seguía enfermo, con un problema de adicción que no había resuelto y que no resolvió; leer sus explicaciones como si fueran las de alguien que ya ha salido de aquello es leerlo mal. Lo que hay en estas páginas es el relato desde dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Murió el 25 de noviembre de 2020, a los sesenta años, y Argentina decretó tres días de duelo nacional y veló su cuerpo en la sede del gobierno. Nápoles le puso su nombre al estadio unas semanas después. Y en 2022 la camiseta que llevaba en aquel partido contra Inglaterra se vendió en una subasta por más de nueve millones de dólares, la cifra más alta pagada nunca por una prenda deportiva.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Léelo como lo que es —una voz, no un informe— y entenderás por qué en media Italia y en media Argentina siguen hablando de él como de alguien de la familia.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "yo-soy-el-diego": YO_SOY_EL_DIEGO,
   "el-elemento": EL_ELEMENTO,
   "heroe-mil-caras": HEROE_MIL_CARAS,
   reproductibilidad: REPRODUCTIBILIDAD,
