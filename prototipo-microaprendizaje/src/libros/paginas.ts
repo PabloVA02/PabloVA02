@@ -52751,7 +52751,7 @@ const EXISTENCIALISMO_HUMANISMO: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Lo que aporta es la claridad y el caso del estudiante. Ese ejemplo hace en dos páginas lo que muchos tratados no consiguen: demostrar que un principio moral, por bueno que sea, no decide por sí solo cuando dos deberes se enfrentan, y que la elección la hace alguien. Cualquiera que haya tenido delante dos obligaciones incompatibles lo reconoce.",
+          "Lo que aporta es la claridad y el caso del estudiante. Ese ejemplo hace en dos páginas lo que muchos tratados no consiguen: demostrar que un principio moral, por bueno que sea, no decide por sí solo cuando dos deberes se enfrentan.",
       },
       {
         b: "texto",
