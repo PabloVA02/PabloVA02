@@ -232,22 +232,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "universo-cascara",
-    titulo: "El universo en una cáscara de nuez",
-    autor: "Stephen Hawking",
-    ano: 2001,
-    gancho: "Escribió la continuación de su libro más famoso porque le habían dicho que el primero no lo entendía nadie. El segundo tampoco es fácil, y explica cosas más raras.",
-    porQue: "Porque su predicción más importante —que los agujeros negros se evaporan— sigue sin haberse observado, y eso explica por qué nunca le dieron el Nobel.",
-    minutos: 21.8,
-    capitulos: [
-      { titulo: "Dos años de vida", minutos: 4.4 },
-      { titulo: "La cáscara de nuez", minutos: 4.5 },
-      { titulo: "Los agujeros negros no son negros", minutos: 4.4 },
-      { titulo: "La apuesta de la enciclopedia", minutos: 4.4 },
-      { titulo: "Lo que no se ha visto", minutos: 4.3 },
-    ],
-  },
-  {
     id: "einstein",
     titulo: "Einstein: su vida y su universo",
     autor: "Walter Isaacson",

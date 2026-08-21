@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "universo-cascara": [
+    "por qué la gravedad no es una fuerza sino una forma",
+    "qué significa que el universo no tenga bordes en tiempo imaginario",
+    "cómo se evapora un agujero negro y qué se lleva",
+    "la conjetura con la que Hawking blindó el pasado",
+    "distinguir en el libro lo medido de lo conjeturado",
+  ],
+
   "ultimos-dinosaurios": [
     "por qué el cielo se volvió una fuente de calor",
     "qué tenía la roca de debajo del impacto",

@@ -43755,7 +43755,297 @@ const ULTIMOS_DINOSAURIOS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El universo en una cáscara de nuez, en ocho páginas.
+
+   Breve. Ciencia, así que titular de afirmación entera y tercera persona
+   —apartados 3 y 4.7 de REDACCION—.
+
+   Es además un libro que PREDICE, y de los fáciles de puntuar: Hawking
+   apostó en 2001 por las branas, por las dimensiones grandes y por que la
+   información se pierde en un agujero negro. Tres años después él mismo
+   retiró la última en público. Por eso el año va en la primera página y el
+   marcador va en la conclusión, como manda el apartado 4 bis.
+
+   Lo que NO se cuenta aquí, y es la tentación de este libro: la silla, la
+   voz sintética y la biografía. Nada de eso es el libro.
+   -------------------------------------------------------------------------- */
+
+const UNIVERSO_CASCARA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El espacio y el tiempo se doblan, y esa curvatura se corrige todos los días",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los relojes atómicos que llevan los satélites del GPS, a veinte mil kilómetros de altura, no marcan la misma hora que los de tierra. Adelantan unos treinta y ocho microsegundos cada día: pierden siete por ir deprisa y ganan cuarenta y cinco por estar lejos de la masa de la Tierra. Sin esa corrección, la posición que da un teléfono se desviaría unos diez kilómetros diarios. Va programada en los satélites desde el primero que llevó un reloj de cesio, en 1977.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Stephen Hawking publicó este libro en 2001, trece años después de «Historia del tiempo». No es un manual de física general: es el mapa de un programa de investigación concreto, el suyo, dibujado en lugar de escrito en ecuaciones. Y buena parte de sus páginas son apuestas fechadas en 2001 sobre lo que se encontraría después, de modo que hoy se puede leer con el marcador delante.",
+      },
+      { b: "texto", texto: "El título sale de una frase de Hamlet, y no está puesto de adorno:" },
+      { b: "cita", frase: "Podría estar encerrado en una cáscara de nuez y sentirme rey de un espacio infinito, si no fuera porque tengo malos sueños.", autor: "William Shakespeare, Hamlet, acto II" },
+      {
+        b: "texto",
+        texto:
+          "Hawking la toma al pie de la letra. En su propuesta, la historia entera del universo cabe dibujada en una superficie cerrada del tamaño de una nuez. Estas páginas recorren seis cosas: por qué la gravedad no es una fuerza, qué significa que el tiempo tenga forma, por qué el futuro no se puede predecir ni en principio, qué se lleva un agujero negro al evaporarse, por qué las ecuaciones permiten viajar al pasado y qué sería vivir dentro de una membrana.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La curvatura del espacio-tiempo no es una manera de hablar: es un número que hay que meter en el software de un satélite.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La gravedad no tira de nada: cambia la forma del sitio por donde se va",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1907 Einstein tuvo lo que llamó el pensamiento más feliz de su vida: una persona en caída libre no siente su peso. De ahí sale el principio de equivalencia, que dice que dentro de una cabina cerrada no hay ningún experimento capaz de distinguir si se está cayendo o si se está flotando lejos de cualquier masa. Si caer y flotar son lo mismo, caer no puede ser el efecto de una fuerza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La alternativa es que la masa deforme el espacio y el tiempo, y que todo lo demás vaya recto por dentro de esa deformación. La Tierra no está siendo arrastrada por el Sol: sigue el camino más corto que hay disponible, y ese camino es una elipse porque el sitio está doblado. Dos viajeros que salgan del ecuador hacia el norte en líneas paralelas acabarán encontrándose en el polo sin haber girado nunca: la curvatura los junta, no una fuerza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La comprobación llegó el 29 de mayo de 1919. Arthur Eddington viajó a la isla de Príncipe, frente a la costa africana, para fotografiar las estrellas que se ven junto al Sol durante un eclipse total. La luz que pasaba rozando el Sol aparecía desviada 1,75 segundos de arco, justo el doble de lo que salía con las cuentas de Newton.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tiempo se dobla igual que el espacio, y también está medido. En octubre de 1971 Joseph Hafele y Richard Keating metieron cuatro relojes de cesio en vuelos comerciales y dieron dos veces la vuelta al mundo, una hacia el este y otra hacia el oeste. Al volver, los relojes discrepaban de los de tierra en decenas y centenares de nanosegundos, y en el sentido y la cantidad previstos. Un reloj a nivel del mar atrasa respecto a otro en la montaña.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nada cae porque algo tire de ello: cae porque va recto por un sitio que está torcido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Preguntar qué hubo antes del Big Bang es como preguntar qué hay al sur del Polo Sur",
+      },
+      {
+        b: "texto",
+        texto:
+          "La relatividad general predice su propio fracaso. Hawking y Roger Penrose demostraron entre 1965 y 1970 unos teoremas que obligan a que, hacia atrás en el tiempo, la teoría lleve a un punto de densidad infinita donde las ecuaciones dejan de significar algo. Es lo que se llama una singularidad. Fue el resultado que hizo famoso a Hawking, y en este libro explica por qué acabó dejando de gustarle: una teoría que termina en un infinito está avisando de que le falta algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su salida es un truco de cálculo que se toma en serio: el «tiempo imaginario». Consiste en medir el tiempo multiplicado por la raíz cuadrada de menos uno. Con ese cambio, el tiempo deja de comportarse como una dirección aparte y pasa a comportarse como una más del espacio, sin diferencia entre antes y después. No es una fantasía: es la misma operación que los físicos usaban desde hacía décadas para que ciertas cuentas convergieran.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1983, con James Hartle, Hawking propuso lo que llamaron la condición de ausencia de contorno. Dibujada en tiempo imaginario, la historia entera del universo sería una superficie cerrada y sin bordes, como la superficie de la Tierra: finita, recorrible entera, y sin ningún punto que sea el primero. El Polo Sur es un sitio igual que los demás, y preguntar qué hay más al sur no es una pregunta difícil, es una pregunta sin contenido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se gana con eso es enorme y conviene decirlo despacio. Si el universo no tiene borde, no hace falta darle condiciones iniciales desde fuera: el principio deja de ser un dato que alguien tiene que poner y pasa a ser algo que se calcula. Hawking lo defendió durante treinta años. Y sigue siendo una propuesta, no un resultado: nadie ha medido nada que la confirme ni que la descarte.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si el universo no tiene bordes, el principio deja de ser una frontera y pasa a ser un sitio como cualquier otro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El futuro no es impredecible por falta de datos: lo es por construcción",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1814 Pierre-Simon Laplace escribió el programa de la física clásica en una frase: una inteligencia que conociera la posición y la velocidad de cada partícula podría calcular el pasado y el futuro enteros. Durante un siglo pareció que solo faltaba capacidad de cálculo. No faltaba capacidad de cálculo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1927 Werner Heisenberg enunció el principio de incertidumbre: cuanto más se afina la posición de una partícula, menos definida queda su velocidad, y al revés. No es un problema de instrumentos ni de torpeza del observador; es cómo está hecho el mundo. Con eso, el programa de Laplace se quedó sin objeto, porque los datos que pedía no existen a la vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La física cuántica conservó, aun así, un determinismo más flojo. Lo que evoluciona de forma predecible no es la partícula, sino su función de onda, que es el objeto que dice qué probabilidad tiene cada resultado. No se puede saber dónde aparecerá un electrón, pero sí con qué frecuencia aparecerá en cada sitio si el experimento se repite mil veces. Ese residuo es todo lo que queda de la vieja causalidad, y en la página siguiente estará en peligro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para calcular con eso, Hawking usa en todo el libro la herramienta que Richard Feynman publicó en 1948: la suma sobre historias. Una partícula que va de un sitio a otro no toma un camino, toma todos los caminos posibles a la vez, cada uno con su peso, y lo que se observa es lo que queda al sumarlos. Aplicado al universo entero, su historia es la suma de todas las historias posibles, y la condición sin contorno es la regla que decide cuáles entran en la suma.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una partícula no elige camino: recorre todos, y el mundo es lo que sobrevive a la suma.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un agujero negro no es negro, y al evaporarse se lleva algo que no debería poder perderse",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1974 Hawking demostró lo contrario de lo que él mismo esperaba: un agujero negro emite. El vacío no está vacío. En él aparecen y se aniquilan sin parar parejas de partículas, y en el borde del agujero —el horizonte, la superficie desde la que ya no se puede volver— ocurre a veces que una de las dos cae dentro y la otra se escapa. La que escapa se lleva energía, y esa energía sale de la masa del agujero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un agujero negro tiene por tanto una temperatura, y es más frío cuanto más grande. Uno con la masa del Sol estaría a menos de una millonésima de grado sobre el cero absoluto, es decir, mucho más frío que la radiación de fondo que llena el universo, que está a 2,7 grados. Así que absorbe más de lo que emite y crece. Solo uno muy pequeño se evaporaría del todo, y terminaría en un estallido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí aparece la paradoja que ocupa la mitad del libro. La radiación que sale es térmica: depende solo de la masa, la carga y el giro del agujero, y no de qué cayó dentro. Si el agujero se evapora entero y solo deja eso, la información sobre lo que se tragó ha desaparecido del universo. Y entonces se ha perdido incluso el determinismo flojo de la página anterior: dos pasados distintos llevan al mismo futuro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2001 Hawking sostenía que la información se pierde de verdad, y no por un fallo de la teoría. Tenía dinero puesto: en 1997 había apostado, junto a Kip Thorne, contra John Preskill, que defendía que la información sale de alguna manera. El premio era una enciclopedia, a elegir por el ganador. La conclusión de este resumen cuenta cómo acabó, porque acabó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si un agujero negro se evapora entero, se lleva la respuesta a la pregunta de qué cayó dentro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las ecuaciones permiten viajar al pasado y la física parece dedicarse a impedirlo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Viajar al pasado no está prohibido por la relatividad general. En 1949 Kurt Gödel encontró una solución exacta de las ecuaciones de Einstein que describe un universo en rotación en el que existen curvas temporales cerradas: trayectorias que, sin salirse nunca del futuro local, vuelven a su propio pasado. Se la regaló a Einstein por su setenta cumpleaños. Aquel universo no es el nuestro, pero el hecho está ahí: la teoría admite soluciones así.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La versión que más se ha estudiado es el agujero de gusano, un atajo que une dos regiones lejanas. El problema es mantenerlo abierto: hace falta materia con densidad de energía negativa, algo que la teoría cuántica permite en cantidades diminutas. El efecto Casimir, predicho en 1948 y medido con precisión por Steve Lamoreaux en 1997, es exactamente eso: dos placas metálicas muy juntas se atraen porque entre ellas la energía del vacío es menor que fuera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hawking respondió a esto en 1992 con lo que llamó la conjetura de protección de la cronología. Su idea es que, en cuanto un espacio-tiempo está a punto de formar una de esas curvas cerradas, los efectos cuánticos se disparan sobre esa superficie y la destruyen antes de que se complete. No es un teorema. Es una sospecha con cuentas detrás, y él la resumía diciendo que así el universo queda a salvo para los historiadores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su otro argumento es de andar por casa y no es despreciable: no nos han invadido los turistas del futuro. En 2009 lo llevó hasta el final y montó una fiesta para viajeros del tiempo en Cambridge, con globos y champán, y mandó las invitaciones al día siguiente de celebrarla. No fue nadie. Es una broma y también un experimento con un resultado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El pasado no lo protege una ley demostrada, sino una sospecha con buenas cuentas detrás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La gravedad es ridículamente débil porque quizá no se queda en nuestro mundo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un imán de nevera del tamaño de una moneda sostiene un clip contra la gravedad de un planeta entero. La comparación exacta: entre dos protones, la repulsión eléctrica es unas mil cuatrillones de veces mayor que su atracción gravitatoria, un uno seguido de treinta y seis ceros. Esa diferencia de escala no tiene explicación dentro de la física establecida, y es el agujero por el que entra la última parte del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A mediados de los noventa las cinco teorías de cuerdas que competían entre sí resultaron ser cinco vistas de lo mismo. Edward Witten lo planteó en 1995 y llamó teoría M a esa cosa única, que necesita once dimensiones. La palabra clave que sale de ahí es «brana», acortamiento de membrana: una superficie de menos dimensiones que el espacio en el que flota.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mundo-brana propone que las tres dimensiones que vemos son una de esas superficies. La luz y la materia estarían pegadas a ella, como el dibujo a una hoja, y por eso ninguna de las dimensiones extra se nota mirando. La gravedad, en cambio, no estaría pegada: se escaparía hacia fuera. Sería débil aquí porque se reparte allá, igual que el sonido de una habitación con la puerta abierta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es que eso se puede medir. Si las dimensiones extra fueran del tamaño de un milímetro, la ley de Newton —la atracción baja con el cuadrado de la distancia— dejaría de cumplirse por debajo de esa distancia. En 2001 nadie había pesado nada a esa escala. Hawking escribió que las medidas estaban a punto de llegar, y por una vez el libro pone un número contra el que se le puede juzgar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si la gravedad se escapa por otras dimensiones, no hace falta creerlo: basta con medir el peso de dos cosas muy juntas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene tres cosas. Que el espacio y el tiempo son objetos deformables y medidos, no un escenario. Que el principio del universo se puede calcular, si se admite que en tiempo imaginario no hay bordes. Y que el nuestro sería una membrana dentro de un mundo de once dimensiones. Lo primero está comprobado, lo segundo es una propuesta y lo tercero era una apuesta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es a Hawking explicando el programa de Hawking. Que el autor de los teoremas de singularidad dedique un capítulo a contar por qué su propio resultado le parecía una señal de alarma es algo que un manual no hace nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en dos sitios. Las páginas medidas y las conjeturadas llevan el mismo tono de certeza, y nada avisa de que el capítulo del eclipse es física establecida y el de las branas era una esperanza sin un dato a favor. Y el capítulo sobre el futuro de la especie calcula la complejidad contando bits de ADN y páginas de libros: futurología suelta en un libro que pide pruebas para todo lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 21 de julio de 2004, en un congreso en Dublín, Hawking anunció que se había equivocado: la información sí sale del agujero negro, degradada. Pagó la apuesta con una enciclopedia de béisbol y comentó que quizá debería haberla quemado para entregarle a Preskill las cenizas. La tesis que más defiende este libro la retiró su autor tres años después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resto del marcador va en los dos sentidos. A favor: LIGO detectó ondas gravitacionales el 14 de septiembre de 2015, y en 2019 se publicó la primera imagen de la sombra de un agujero negro. En contra: las balanzas de torsión han medido la gravedad hasta decenas de micras sin ver desviación, y el CERN lleva desde 2010 sin rastro de dimensiones extra. La radiación que lleva su apellido sigue sin observarse. Hawking murió el 14 de marzo de 2018 sin verla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Es el mejor libro para saber qué pensaba Hawking, a condición de leerlo sabiendo qué páginas están medidas y cuáles eran una apuesta.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "universo-cascara": UNIVERSO_CASCARA,
   "ultimos-dinosaurios": ULTIMOS_DINOSAURIOS,
   "pulgar-panda": PULGAR_PANDA,
   "cuchara-menguante": CUCHARA_MENGUANTE,

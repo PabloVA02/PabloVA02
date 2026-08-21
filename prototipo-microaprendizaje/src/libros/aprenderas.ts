@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "universo-cascara":
+    "Los relojes de los satélites del GPS adelantan treinta y ocho microsegundos al día y hay que corregirlos. Hawking parte de ahí para contar su propia física: tiempo imaginario, agujeros negros que se evaporan y mundos con más dimensiones.",
+
   "ultimos-dinosaurios":
     "Un asteroide de doce kilómetros chocó contra Yucatán hace sesenta y seis millones de años. Este libro no cuenta eso: cuenta lo que pasó en las dos horas siguientes, en el primer año y en los cien mil años que tardó en volver a haber un bosque.",
 

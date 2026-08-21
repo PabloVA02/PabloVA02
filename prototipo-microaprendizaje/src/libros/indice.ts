@@ -60,7 +60,6 @@ const CARGADORES: Record<string, Cargador> = {
   invencible: () => import("./salud").then((m) => m.INVICTO),
   "el-tunel": () => import("./literatura").then((m) => m.EL_TUNEL),
   "renglones-torcidos": () => import("./literatura").then((m) => m.RENGLONES_TORCIDOS),
-  "universo-cascara": () => import("./ciencia").then((m) => m.UNIVERSO_CASCARA),
   "musica-primos": () => import("./ciencia").then((m) => m.MUSICA_PRIMOS),
   tatuador: () => import("./historia").then((m) => m.TATUADOR),
   "universo-mano": () => import("./ciencia").then((m) => m.UNIVERSO_MANO),
