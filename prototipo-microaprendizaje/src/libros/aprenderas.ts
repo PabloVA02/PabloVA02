@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "pulgar-panda":
+    "El pulgar con el que el panda sujeta el bambú no es un dedo: es un hueso de la muñeca agrandado, porque sus cinco dedos ya estaban ocupados en caminar. Treinta y un ensayos sobre por qué las chapuzas prueban más que las obras maestras.",
+
+  "cuchara-menguante":
+    "El galio se funde a veintinueve grados, así que con él se hacen cucharas de broma que desaparecen dentro del té. De ahí sale un recorrido por la tabla periódica contando qué hay detrás de cada casilla.",
+
   "vida-dali":
     "Nació nueve meses después de que muriera un hermano suyo que también se llamaba Salvador, y sus padres le pusieron el mismo nombre. Esta autobiografía empieza describiendo sus recuerdos de antes de nacer, y avisa de que va a inventar.",
 

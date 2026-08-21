@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "pulgar-panda": [
+    "por qué lo imperfecto es la mejor prueba de la evolución",
+    "qué dice el registro fósil sobre el ritmo del cambio",
+    "por qué las plumas no aparecieron para volar",
+    "qué cambia cuando un animal crece de tamaño",
+    "cómo se coló el prejuicio en mediciones de buena fe",
+  ],
+
+  "cuchara-menguante": [
+    "por qué la tabla tiene esa forma tan rara",
+    "cómo se cuela el cadmio en el sitio del zinc",
+    "qué reacción alimenta al mundo y municionó una guerra",
+    "por qué hubo una guerra fría por poner nombres",
+    "por qué la electrónica se hace de arena",
+  ],
+
   "vida-dali": [
     "por qué el libro empieza con un recuerdo imposible",
     "qué rocas hay dentro de sus cuadros",

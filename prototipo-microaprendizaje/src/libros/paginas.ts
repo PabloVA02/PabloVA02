@@ -42923,7 +42923,573 @@ const VIDA_DALI: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La cuchara menguante, en ocho páginas.
+
+   Breve.
+
+   Registro de ENSAYO divulgativo: el titular afirma, tercera persona.
+
+   Es un libro de anécdotas, así que aquí manda el apartado 4 bis sobre la
+   anécdota famosa: cada una se cuenta diciendo lo que se sabe de ella. Dos
+   de las mejores del libro están matizadas o desmentidas y eso va dicho.
+
+   La conclusión lleva lo que le falta —la tabla se cuenta como galería de
+   curiosidades y casi nunca como el sistema que es— y las correcciones
+   posteriores.
+   -------------------------------------------------------------------------- */
+
+const CUCHARA_MENGUANTE: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una cuchara que desaparece en el té cuenta cómo funciona la tabla periódica",
+      },
+      {
+        b: "texto",
+        texto:
+          "El galio es un metal plateado que parece aluminio y se funde a veintinueve grados y medio, o sea por debajo de la temperatura del cuerpo humano. Con él se fabrican cucharas de broma: se le ofrece una al invitado, este remueve el té y la cuchara se deshace dentro de la taza mientras él mira. De ahí el título de este libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sam Kean lo publicó en 2010 y su idea es sencilla: la tabla periódica no es un cartel que hay que memorizar, es un mapa donde cada casilla tiene una historia detrás, y algunas de esas historias son de guerra, de fraude, de suerte y de gente que se envenenó por curiosidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento de fondo, y el que sostiene el libro, es que la posición de un elemento en la tabla predice cómo se va a comportar antes de haberlo probado. La columna dice con qué se junta, la fila dice cuánto pesa, y con esas dos coordenadas se puede saber si un metal servirá para una bombilla o matará a quien lo toque.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que cuenta: por qué la tabla está ordenada así y qué se puede leer en ella, los elementos que engañan al cuerpo suplantando a otros, los que decidieron guerras, la carrera por poner nombre a los nuevos, los que enfermaron a quienes los descubrieron y el que hizo posible que existan los ordenadores.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La tabla periódica no es una lista que memorizar: es un mapa que predice cómo se comporta algo antes de tocarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La tabla está ordenada de manera que la columna dice con quién se junta cada elemento",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo primero que hace el libro es explicar por qué esa forma tan rara —filas de distinta longitud, un bloque suelto abajo— no es un capricho de diseño. Los elementos están puestos por número de protones, y al ponerlos en fila las propiedades se repiten cada cierto número de casillas. Al doblar la fila justo ahí, los parecidos quedan en columna.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que decide el comportamiento son los electrones de la última capa. Un átomo que tiene la capa casi llena tiende a robar uno, y uno que le sobra tiende a soltarlo; por eso la primera columna, la de los que sueltan, y la penúltima, la de los que roban, reaccionan entre sí con violencia. El sodio y el cloro juntos hacen sal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La columna de la derecha del todo es la de los que tienen la capa completa y no quieren nada de nadie: helio, neón, argón. Se llaman gases nobles porque no se mezclan, y esa indiferencia es la razón de que se usen para rellenar bombillas y globos, donde lo que hace falta es precisamente algo que no reaccione con nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica de todo esto es la que hizo célebre a Mendeléyev en 1869. Al ordenar los conocidos le quedaron huecos, y en vez de disimularlos predijo qué habría en cada uno: el peso, el color, la densidad. Cuando aparecieron el galio, el escandio y el germanio, coincidían con lo previsto. Una tabla que acierta lo que todavía no existe es una teoría, no una lista.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mendeléyev dejó huecos y describió lo que habría dentro; cuando aparecieron, coincidían.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Algunos elementos matan porque el cuerpo los confunde con sus vecinos de columna",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia más siniestra de que la columna determine el comportamiento es que el organismo también se deja engañar. El cuerpo reconoce los elementos por cómo se comportan químicamente, no por cuáles son, así que un vecino de columna puede colarse en el sitio de otro y quedarse allí haciendo daño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso más claro es el cadmio, justo debajo del zinc. El zinc es imprescindible: participa en cientos de enzimas. El cadmio encaja en los mismos huecos y no hace el trabajo, así que las bloquea. En el Japón de los años cuarenta y cincuenta, el agua contaminada por una mina provocó una enfermedad que los afectados llamaron itai-itai, «ay, ay», por el dolor de huesos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro caso es el estroncio, debajo del calcio. El cuerpo lo trata como calcio y lo manda al hueso, que es exactamente lo que hace peligroso al estroncio radiactivo de la lluvia nuclear: no se elimina, se instala en el esqueleto y sigue emitiendo desde dentro durante años. La misma lógica explica por qué el yodo radiactivo va a la tiroides.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ese conocimiento sirve también para lo contrario. Como el cuerpo no distingue, en un accidente nuclear se reparten pastillas de yodo normal: si la tiroides está llena de yodo bueno, no le queda sitio para el radiactivo. Es un truco que solo se le ocurre a quien entiende que la casilla manda más que el nombre.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El cuerpo no reconoce elementos, reconoce comportamientos, y por eso un vecino de columna se le cuela sin que lo note.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un fertilizante y un explosivo salieron de la misma máquina" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más consecuente del libro es el del nitrógeno. Es el setenta y ocho por ciento del aire, pero viene en una molécula con un triple enlace tan fuerte que las plantas no pueden usarlo. Antes de 1909 el nitrógeno aprovechable venía del estiércol y de unos yacimientos de guano y salitre en Chile y Perú, y se estaban acabando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fritz Haber consiguió en 1909 romper ese enlace con presión, temperatura y un catalizador, y Carl Bosch lo llevó a escala industrial. Ese proceso fabrica hoy la mayor parte del fertilizante del mundo, y se calcula que alrededor de la mitad del nitrógeno de los átomos de una persona viva pasó por él. Sin eso no comería la población que hay.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La misma reacción hace explosivos. Alemania entró en la Primera Guerra Mundial con el bloqueo naval británico cortándole el salitre chileno y pudo seguir fabricando munición durante cuatro años porque tenía el proceso. Haber además dirigió personalmente el primer ataque con gas cloro en Ypres, en abril de 1915.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su mujer, Clara Immerwahr, química también, se suicidó semanas después de aquel ataque con la pistola de él. Haber recibió el Nobel de Química en 1918 entre protestas. Y en los años treinta, siendo judío, tuvo que huir de Alemania; un pesticida desarrollado en su instituto acabó usándose, en otra formulación, en las cámaras de gas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La mitad del nitrógeno del cuerpo de una persona viva pasó por la misma reacción que alimentó cuatro años de munición.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Poner nombre a un elemento nuevo fue una guerra fría en miniatura" },
+      {
+        b: "texto",
+        texto:
+          "Los elementos que van después del uranio no existen en la naturaleza: se fabrican estrellando núcleos en un acelerador y duran a veces milisegundos. Encontrarlos da prestigio, y quien lo encuentra le pone el nombre. Entre los años sesenta y los noventa, los laboratorios de Estados Unidos y de la Unión Soviética se pelearon por ese derecho durante casi treinta años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro lo llama las guerras de los transfermios y lo cuenta como lo que fue: dos equipos anunciando el mismo descubrimiento, acusándose de no poder reproducir los resultados del otro, y publicando tablas periódicas distintas en sus respectivos países. Durante años, la casilla 104 se llamaba una cosa en Berkeley y otra en Dubná.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El árbitro acabó siendo la unión internacional de química, que en 1997 repartió los nombres en un acuerdo que no contentó a nadie del todo. De ahí salieron el rutherfordio y el dubnio, y el seaborgio, que fue polémico porque Glenn Seaborg estaba vivo y no había precedente de poner el nombre de alguien vivo a un elemento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kean señala lo que hay debajo, y es lo interesante del capítulo: en la ciencia contemporánea la prioridad —quién llegó primero— importa tanto como el hallazgo, porque es lo único que se reparte. Un elemento que dura una milésima de segundo no sirve para nada; el nombre en la tabla dura para siempre.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un elemento que dura una milésima de segundo no sirve para nada, pero su nombre en la tabla dura para siempre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Varios descubridores se envenenaron con lo que acababan de encontrar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los hilos del libro es el precio que pagaron quienes trabajaron con elementos cuyos efectos nadie conocía. Marie Curie manipuló radio y polonio durante décadas, llevaba muestras en el bolsillo y guardaba tubos luminosos en su mesilla; murió en 1934 de una anemia aplásica compatible con la exposición prolongada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus cuadernos de laboratorio siguen siendo tan radiactivos que se guardan en cajas forradas de plomo y hay que firmar una renuncia para consultarlos. Es un detalle que dice más sobre la dosis a la que trabajaban que cualquier explicación: el papel que tocaba todos los días sigue emitiendo noventa años después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso colectivo son las trabajadoras que pintaban esferas de reloj luminosas con pintura de radio en Nueva Jersey en los años veinte. Les enseñaron a afinar la punta del pincel con los labios. Muchas enfermaron de necrosis de mandíbula y varias murieron; el pleito que ganaron en 1928 está en el origen de la legislación laboral sobre sustancias peligrosas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un caso anterior y más doméstico: el mercurio de los sombrereros. Se usaba para tratar el fieltro, se inhalaba en talleres cerrados y produce temblores, irritabilidad y alteraciones del carácter. La expresión sobre estar loco como un sombrerero, que hoy suena a cuento, describía un cuadro laboral perfectamente reconocible.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los cuadernos de Marie Curie siguen tan radiactivos noventa años después que hay que firmar una renuncia para tocarlos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El elemento que hizo posible la electrónica no es ni conductor ni aislante",
+      },
+      {
+        b: "texto",
+        texto:
+          "El silicio ocupa en la tabla un sitio que Kean describe como el más rentable de todos: está en la frontera entre los metales, que conducen la electricidad, y los no metales, que no. Ni conduce bien ni aísla bien, y esa mediocridad es exactamente lo que lo hace útil, porque se puede decidir cuándo conduce y cuándo no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese control es lo que hace un transistor, que es un interruptor sin partes móviles. Se le añaden al silicio impurezas medidas de otros elementos vecinos —fósforo por un lado, boro por otro— y se obtienen zonas que ceden electrones y zonas que los aceptan; juntándolas se puede abrir y cerrar el paso de corriente con otra corriente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer transistor se construyó en los laboratorios Bell en 1947, y era de germanio, el vecino de abajo del silicio en la misma columna. Se cambió al silicio porque aguanta mejor el calor y porque su óxido forma una capa aislante excelente, y porque es el segundo elemento más abundante de la corteza terrestre: es arena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kean remata el capítulo con la consecuencia que suele pasarse por alto. Toda la electrónica del mundo descansa sobre un elemento que no destaca en nada, elegido no por ser el mejor conductor ni el mejor aislante sino por estar justo en medio y ser barato. Es el mejor ejemplo de su tesis: lo que decide es la casilla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El silicio sirve precisamente porque no es bueno en nada: se puede decidir cuándo conduce y cuándo no.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La cuchara menguante recorre la tabla periódica contando qué hay detrás de las casillas: por qué la columna predice el comportamiento, cómo el cadmio y el estroncio se cuelan en el cuerpo suplantando a sus vecinos, cómo una misma reacción dio de comer al mundo y municionó una guerra, y por qué el elemento que sostiene la electrónica es el que no destaca en nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un cambio de estatus para un cartel que casi todo el mundo ha visto y nadie ha leído. Después de este libro la tabla deja de ser una lista de símbolos y pasa a ser lo que es: un instrumento que predice, en el que la posición de una casilla dice de antemano si algo servirá para una bombilla o matará a quien lo toque.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La tabla no describe lo que ya se sabe: predice lo que va a hacer algo que todavía no se ha probado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es una colección de anécdotas y se nota en la estructura: los capítulos saltan de un siglo a otro sin construir nada acumulativo, así que al terminar se recuerdan seis historias buenas y no un sistema. La química propiamente dicha —por qué se forman los enlaces, cómo se lee una reacción— se despacha en dos páginas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y como libro de anécdotas, algunas conviene mirarlas dos veces. Kean las cuenta a menudo en su versión más redonda. La del sueño en que se le apareció la tabla a Mendeléyev, en concreto, procede de un relato tardío del propio Mendeléyev y no hay nada que la respalde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después ha ampliado la tabla. Cuando este libro se publicó, en 2010, la fila séptima estaba incompleta; en 2016 se aprobaron los cuatro últimos —nihonio, moscovio, teneso y oganesón— y el nombre japonés fue la primera vez que un elemento lo bautizó un equipo asiático. La tabla está ahora cerrada hasta la casilla ciento dieciocho y nadie sabe si hay una fila más.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   El pulgar del panda, en ocho páginas.
+
+   Breve.
+
+   Registro de ENSAYO científico: el titular afirma, tercera persona.
+
+   Es una colección de ensayos sueltos, así que el riesgo es la crónica: se
+   ordena por ARGUMENTO —la chapuza como prueba, el ritmo del cambio, el mal
+   uso de la biología— y no por orden de capítulos.
+
+   La conclusión lleva lo que se ha discutido después de sus dos tesis
+   grandes, el equilibrio puntuado y las enjutas, y lo que sí quedó fijado
+   del caso Morton.
+   -------------------------------------------------------------------------- */
+
+const PULGAR_PANDA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El sexto dedo del panda no es un dedo, y por eso demuestra algo" },
+      {
+        b: "texto",
+        texto:
+          "El panda gigante come bambú y lo sujeta con lo que parece un pulgar oponible: agarra el tallo, lo gira y le quita las hojas con una destreza notable. Ese pulgar no es un dedo. Es un hueso de la muñeca, el sesamoideo radial, agrandado y movido de sitio, con músculos reciclados de otras funciones. El panda tiene sus cinco dedos, todos apuntando hacia delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Stephen Jay Gould, paleontólogo de Harvard, escribió durante veintisiete años una columna mensual en una revista de historia natural, y este libro de 1980 recoge treinta y uno de esos ensayos. Ganó el premio nacional del libro estadounidense y es probablemente la mejor puerta de entrada a su manera de pensar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis, y la razón de que el panda esté en el título, es que las chapuzas prueban más que las obras maestras. Un ojo perfecto podría haberlo diseñado alguien; un hueso de muñeca reconvertido en pulgar solo puede ser el resultado de un proceso que trabaja con lo que ya hay, sin plan y sin poder empezar de cero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren sus argumentos: por qué lo imperfecto es la mejor prueba de la evolución, por qué el cambio no siempre es lento y gradual, qué hace un órgano que apareció para otra cosa, cómo se ha usado la biología para justificar prejuicios, y el episodio de los cráneos medidos que le costó a Gould una polémica que duró décadas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una obra maestra podría haberla diseñado alguien; una chapuza solo puede ser el resultado de trabajar con lo que ya había.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La evolución no diseña: reforma lo que ya está construido" },
+      {
+        b: "texto",
+        texto:
+          "El argumento central de Gould es que la evolución no tiene folio en blanco. No puede tirar un órgano y hacer otro: solo puede modificar lo que hay, porque cada paso intermedio tiene que funcionar lo bastante como para que su portador sobreviva. De ahí que los resultados sean apaños, y que los apaños sean legibles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El panda es el caso perfecto porque desciende de osos carnívoros. Cuando su linaje se pasó al bambú necesitaba algo con que sujetar tallos, y los cinco dedos ya estaban comprometidos en caminar. Lo único disponible era un huesecillo de la muñeca, así que se agrandó ese. Es una solución peor que un pulgar de verdad y es la única que estaba a mano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gould acumula ejemplos del mismo tipo. El nervio laríngeo recurrente de los mamíferos, que en vez de ir directo del cerebro a la laringe baja hasta el pecho, rodea un vaso y vuelve a subir; en una jirafa eso son varios metros de rodeo. La retina de los vertebrados, cableada del revés, con los cables por delante de las células que reciben la luz.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia lógica es la que le interesa. Si la naturaleza estuviera diseñada, esos rodeos no tendrían explicación; solo se entienden como herencias que ningún paso posterior pudo corregir sin romper algo por el camino. La imperfección no es un fallo del argumento evolutivo: es su prueba más difícil de rebatir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El nervio de la laringe de una jirafa da varios metros de rodeo porque ningún paso intermedio pudo enderezarlo sin romperla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las especies pasan la mayor parte de su historia sin cambiar, y luego cambian de golpe",
+      },
+      {
+        b: "texto",
+        texto:
+          "La aportación teórica por la que se conoce a Gould la publicó en 1972 con Niles Eldredge y se llama equilibrio puntuado. Parte de una queja de los paleontólogos: en el registro fósil casi no se ven las transiciones graduales que la teoría clásica llevaba un siglo prometiendo. Una especie aparece, se mantiene igual millones de años y desaparece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación tradicional era que el registro está incompleto, que los fósiles son una muestra pobre. Gould y Eldredge propusieron lo contrario: que el registro dice la verdad. Que las especies se estabilizan durante largos periodos y que el cambio se concentra en episodios breves, normalmente cuando una población pequeña queda aislada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene entender la escala, porque es lo que más se malinterpreta. Breve en geología puede ser cincuenta mil años, que en el registro fósil es un instante y en generaciones es tiempo de sobra. No están proponiendo saltos milagrosos ni un mecanismo distinto de la selección natural: están discutiendo el ritmo, no el motor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese matiz importa porque la idea fue capturada casi de inmediato por los creacionistas, que la citaron como si los propios evolucionistas admitieran que faltan las transiciones. Gould pasó años desmintiéndolo por escrito y llegó a decir que era la tergiversación que más le exasperaba de toda su carrera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que el registro fósil no enseñe transiciones graduales puede significar que el registro está incompleto o que la transición fue rápida.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un órgano que sirve para algo no tuvo que aparecer para eso" },
+      {
+        b: "texto",
+        texto:
+          "La segunda idea grande de Gould corrige un hábito de razonamiento muy extendido: preguntar para qué sirve algo y responder que para eso apareció. Sostiene que muchas estructuras surgieron por un motivo y acabaron usándose para otro completamente distinto, y que confundir el uso actual con el origen es un error de método, no un detalle.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo mejor son las plumas. Las plumas no aparecieron para volar: hay dinosaurios emplumados que no volaban, y todo apunta a que servían para conservar el calor o para exhibirse. El vuelo llegó después y aprovechó una estructura que ya estaba ahí por otra razón. Preguntarse para qué sirve una pluma no explica de dónde salió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1979 escribió con Richard Lewontin un artículo célebre en el que le puso nombre a la trampa usando una imagen de arquitectura: las enjutas de la basílica de San Marcos, esos triángulos curvos que quedan entre dos arcos y una cúpula. Están decoradas con mosaicos preciosos, pero no se hicieron para poner mosaicos: son lo que sobra al apoyar una cúpula sobre arcos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su blanco era la costumbre de explicar cualquier rasgo humano —la sonrisa, la religión, el arte— inventando la ventaja adaptativa que debió de tener. Gould sostiene que muchas cosas son enjutas: subproductos de otra estructura, aprovechados después. Y que dar por hecho que todo tiene una función original es contar historias, no hacer ciencia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las plumas no aparecieron para volar, así que preguntarse para qué sirve algo no explica de dónde salió.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El tamaño manda más de lo que parece: un animal grande no es uno pequeño ampliado",
+      },
+      {
+        b: "texto",
+        texto:
+          "Varios ensayos del libro insisten en una idea que Gould consideraba la más subestimada de la biología: cuando algo crece, no crece igual en todas sus dimensiones. Al doblar el tamaño de un cuerpo, la superficie se multiplica por cuatro y el volumen por ocho, y esa discrepancia obliga a cambiarlo todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí que un elefante no sea un ratón grande. Necesita patas desproporcionadamente gruesas, porque el peso crece con el volumen y la resistencia del hueso con su sección; necesita orejas enormes para disipar calor, porque el volumen que lo genera crece más deprisa que la superficie que lo suelta; y no puede saltar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mismo por abajo. Un insecto puede caminar por el techo y sobrevivir a una caída de cien veces su altura porque a su tamaño la fuerza que domina no es el peso sino la adherencia superficial. Y un ratón come cada día una fracción enorme de su peso porque pierde calor mucho más deprisa que un animal grande.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gould usa esta regla para desmontar razonamientos de bulto sobre el cerebro humano. El tamaño del cerebro escala con el del cuerpo de una forma predecible, así que comparar cerebros en gramos sin corregir por el cuerpo no dice nada, y es exactamente lo que se hizo durante un siglo para ordenar razas y sexos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Al doblar un cuerpo su superficie se multiplica por cuatro y su volumen por ocho, y de ahí sale casi toda su forma.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La biología se ha usado durante dos siglos para justificar lo que ya se creía",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hilo político del libro, que Gould desarrolló en otro libro entero, es que la ciencia no ocurre fuera de su época. Repasa cómo se midieron cráneos en el siglo XIX para establecer jerarquías raciales, cómo se usaron los primeros tests de inteligencia para restringir la inmigración a Estados Unidos, y cómo esas mediciones se presentaron siempre como puros datos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis no es que aquellos científicos mintieran a sabiendas. Es peor y más interesante: que casi todos actuaban de buena fe y que el sesgo se coló en decisiones pequeñas y aparentemente técnicas, en qué cráneos se incluían, en cómo se llenaban de perdigones para medir el volumen, en qué muestras se descartaban por atípicas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que más trabajó fue el de Samuel Morton, un médico de Filadelfia que a mediados del siglo XIX midió más de mil cráneos y concluyó que los europeos tenían la capacidad craneal mayor. Gould reanalizó sus tablas en 1978 y sostuvo que los números estaban torcidos por el orden de las mediciones y por selecciones interesadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia general que saca es la que conviene guardarse: un resultado que confirma exactamente lo que la sociedad de su tiempo ya creía merece una revisión más dura que uno que la contradice. No porque sea falso por definición, sino porque es donde el sesgo tiene menos resistencia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un resultado que confirma lo que ya se creía merece un examen más duro, porque es donde el sesgo encuentra menos resistencia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un ensayo mensual durante veintisiete años es un formato, y explica el libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene entender de dónde salen estos textos, porque explica sus virtudes y sus límites. Gould escribió una columna todos los meses desde 1974 hasta el año 2000 sin faltar una sola vez, trescientas entregas seguidas, y cada una tenía que funcionar sola, en unas cuatro mil palabras, para lectores sin formación científica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese formato le impuso una estructura que repite y que se aprende: empieza por algo minúsculo y concreto —un molusco, un partido de béisbol, una escultura, un anuncio—, tira del hilo y acaba en una cuestión general de biología o de método. Es exactamente la técnica de mirar una cosa pequeña hasta que se vuelve grande.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También explica su gusto por lo raro. Dedica ensayos a los seres que no encajan en ninguna casilla, a las clasificaciones que fallan y a los animales que resultaron ser otra cosa, porque en un texto de cuatro mil páginas el caso anómalo es lo que enseña la regla, y porque una anomalía se cuenta y una regla se explica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y explica su defecto. Treinta y un ensayos independientes puestos en fila no hacen un libro con un argumento: hay repeticiones, hay saltos, y el lector que espere una exposición ordenada de la evolución no la va a encontrar. Se lee mejor de uno en uno que del tirón, que es como se escribió.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Su técnica es siempre la misma: empezar por algo minúsculo y concreto y tirar del hilo hasta que se vuelve una cuestión general.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El pulgar del panda reúne treinta y un ensayos alrededor de una idea: que lo imperfecto explica mejor que lo perfecto. Un hueso de muñeca convertido en pulgar, un nervio que da varios metros de rodeo y una retina cableada del revés solo se entienden como reformas sobre lo que ya había, hechas sin plan y sin poder empezar de cero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, más allá de la biología, son dos herramientas de método. No confundir para qué sirve algo con por qué apareció, que es la trampa de las enjutas. Y desconfiar de los resultados que confirman lo que la sociedad ya creía, porque ahí es donde el sesgo encuentra menos resistencia y donde entra sin que nadie lo note.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo bien hecho admite muchas explicaciones; la chapuza solo admite una historia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Son ensayos sueltos y no un libro, con repeticiones y sin recorrido acumulativo; y su fama de gran divulgador convive con un estilo que se va por las ramas más de lo que le conviene al lector que empieza. Además está muy anclado en las polémicas de su momento, y varias de las discusiones que le importaban ya no se discuten así.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus dos tesis grandes se han matizado. Del equilibrio puntuado se acepta hoy que el ritmo del cambio es irregular, pero se considera menos revolucionario de lo que él sostuvo: cabe dentro de la teoría clásica en vez de sustituirla. Y su ataque a explicar todo rasgo por su ventaja adaptativa se ha reconocido como saludable y a la vez como excesivo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después le dio un revés en su propio terreno. En 2011, un equipo remidió los cráneos de Morton y concluyó que las medidas originales eran en buena parte correctas y que quien había sesgado el análisis, sin querer, era Gould. Un trabajo de 2018 matizó ese veredicto. Lo que queda en pie es su tesis de fondo, comprobada sobre él mismo: el sesgo entra sin que su portador lo note.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "pulgar-panda": PULGAR_PANDA,
+  "cuchara-menguante": CUCHARA_MENGUANTE,
   "vida-dali": VIDA_DALI,
   "diarios-frida": DIARIOS_FRIDA,
   "magia-crear": MAGIA_CREAR,

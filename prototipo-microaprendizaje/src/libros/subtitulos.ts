@@ -22,6 +22,8 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "pulgar-panda": "Reflexiones sobre historia natural y evolución",
+  "cuchara-menguante": "Y otras historias verídicas de locura, amor y muerte a partir de los elementos químicos",
   "magia-crear": "Una vida creativa más allá del miedo",
   "pajaro-a-pajaro": "Algunas instrucciones sobre escribir y sobre la vida",
   "camino-artista": "Un curso de descubrimiento y rescate de tu propia creatividad",
