@@ -45549,7 +45549,7 @@ const MILLONARIO_AL_LADO: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Lo que aporta es el retrato, que en 1996 era una noticia y sigue siendo útil: la persona con dinero no es la que lo enseña. Después de leerlo cuesta volver a leer un coche caro como una señal de riqueza, y esa recalibración vale más que cualquiera de sus consejos sueltos.",
+          "Lo que aporta es el retrato, que en 1996 era una noticia y sigue siendo útil: la persona con dinero no es la que lo enseña. Después de leerlo cuesta volver a leer un coche caro como señal de riqueza.",
       },
       {
         b: "texto",
