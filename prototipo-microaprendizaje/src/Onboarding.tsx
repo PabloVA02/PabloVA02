@@ -292,7 +292,7 @@ const PASOS: Paso[] = [
     opciones: [
       { texto: "Historia" }, { texto: "Filosofía" }, { texto: "Ciencia" },
       { texto: "Arte" }, { texto: "Literatura" }, { texto: "Psicología" },
-      { texto: "Economía" }, { texto: "Salud" },
+      { texto: "Economía" }, { texto: "Salud" }, { texto: "Deportes" },
     ],
   },
   {

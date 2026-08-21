@@ -38,7 +38,7 @@ import {
 
 type Pieza = { Comp: ComponentType<{ banda: "fondo" | "medio" | "frente" }>; vb: string };
 
-/* Ocho colores distinguibles SOBRE FONDO OSCURO, que es donde vive la
+/* Nueve colores distinguibles SOBRE FONDO OSCURO, que es donde vive la
    estantería. Los tonos «deep» de la paleta se hicieron para el papel: sobre
    el oscuro se hunden y el chip de categoría deja de leerse. */
 const PALETA: Record<Categoria, string> = {
@@ -50,6 +50,7 @@ const PALETA: Record<Categoria, string> = {
   Psicología: "var(--sage-light, #9aab88)",
   Economía: "var(--ochre)",
   Salud: "var(--sage)",
+  Deportes: "var(--teal)",
 };
 
 const ARTES: Record<Categoria, Pieza[]> = {
@@ -92,6 +93,14 @@ const ARTES: Record<Categoria, Pieza[]> = {
     { Comp: LuzLuna, vb: LuzLunaVB },
     { Comp: TardeNoche, vb: TardeNocheVB },
     { Comp: LecturaTranquila, vb: LecturaTranquilaVB },
+  ],
+  /* Deportes no tiene ilustración propia todavía: van las tres de movimiento
+     y superación que ya existen, que es mejor que dejarlo sin portada. Si
+     Pablo dibuja cubiertas para estos, dejan de verse. */
+  Deportes: [
+    { Comp: Aventura, vb: AventuraVB },
+    { Comp: Explorando, vb: ExplorandoVB },
+    { Comp: Tendencias, vb: TendenciasVB },
   ],
 };
 

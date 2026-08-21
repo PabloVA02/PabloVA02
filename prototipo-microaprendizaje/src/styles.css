@@ -28,6 +28,13 @@
   --slate-deep: #42545e;
   --clay-deep: #9e5637;
 
+  /* El noveno acento, para la categoría de Deportes (agosto de 2026). Los
+     ocho de arriba estaban repartidos ya, y repetir uno rompe la lectura por
+     bloques de la estantería. Verde azulado: es el único hueco que quedaba
+     entre el sage —verde tierra— y el slate —azul grisáceo—, y se distingue
+     de los dos a tamaño de chip. */
+  --teal: #4a8279;
+
   /* El fondo de los planos de noche */
   --night: #272031;
 
@@ -5054,6 +5061,7 @@ button {
   --slate: #85a0ae;
   --clay-light: #e39d78;
   --sage-light: #aec19a;
+  --teal: #74b0a5;
 
   /* Los velos pasan de tinte claro a tinte oscuro del mismo tono. */
   --clay-veil: #3b2b28;

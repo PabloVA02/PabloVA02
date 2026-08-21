@@ -186,6 +186,20 @@ export function GlifoPaleta({ tamano = 22 }: Props) {
   );
 }
 
+/** Deportes: una copa. Silueta que no repite ninguna otra: es la única con
+    asas y con pie, así que en la parrilla se lee antes de mirarla. */
+export function GlifoCopa({ tamano = 22 }: Props) {
+  return (
+    <svg {...marco(tamano)}>
+      <path d="M7.6 4.6h8.8v3.4a4.4 4.4 0 0 1-8.8 0z" />
+      <path d="M7.6 5.6H5.4A2.6 2.6 0 0 0 8 9.8" />
+      <path d="M16.4 5.6h2.2A2.6 2.6 0 0 1 16 9.8" />
+      <path d="M12 12.4v4.2" />
+      <path d="M10.2 16.6h3.6l1 3.4H9.2z" />
+    </svg>
+  );
+}
+
 export const GLIFOS_GENERO: Record<string, (p: Props) => ReactElement> = {
   escalera: GlifoEscalera,
   hucha: GlifoHucha,
@@ -201,4 +215,5 @@ export const GLIFOS_GENERO: Record<string, (p: Props) => ReactElement> = {
   pensar: GlifoPensar,
   libro: GlifoLibro,
   paleta: GlifoPaleta,
+  copa: GlifoCopa,
 };

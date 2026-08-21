@@ -79,9 +79,10 @@ import type { Card } from "../lesson";
    Famosos y muy vendidos, de los que alguien reconoce el título aunque no lo
    haya leído. Que se entiendan sin formación previa.
 
-   Las ocho categorías son EXACTAMENTE las del onboarding, ni una más:
+   Las nueve categorías son EXACTAMENTE las del onboarding, ni una más:
    Psicología, Economía, Filosofía, Ciencia, Salud, Literatura, Arte,
-   Historia. `catalogo.ts` manda; `indice.ts` comprueba que no mienta.
+   Historia y Deportes. `catalogo.ts` manda; `indice.ts` comprueba que no
+   mienta.
 
    ── MEDIR ────────────────────────────────────────────────────────────────
 

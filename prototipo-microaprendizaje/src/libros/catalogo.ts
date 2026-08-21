@@ -9,10 +9,10 @@
    resúmenes, para saber qué queda habría que abrir cien ficheros; así se lee
    de un vistazo y `progreso()` da la cuenta exacta en cualquier momento.
 
-   LAS CATEGORÍAS SON LAS OCHO DE LA INTRODUCCIÓN
+   LAS CATEGORÍAS SON LAS NUEVE DE LA INTRODUCCIÓN
 
    Y no unas parecidas. Al entrar preguntamos «¿qué temas te interesan?» y
-   ofrecemos ocho; si luego la biblioteca se organizara por otras, la
+   ofrecemos nueve; si luego la biblioteca se organizara por otras, la
    respuesta del usuario no serviría para nada y la recomendación sería
    mentira. `Categoria` es literalmente esa lista, así que si algún día se
    cambia una opción de la introducción, aquí deja de compilar. Es a
@@ -28,7 +28,7 @@
      "pendiente" está elegido y aprobado, pero aún no redactado
    ========================================================================== */
 
-/** Las mismas ocho que se ofrecen en la introducción. Ni una más. */
+/** Las mismas nueve que se ofrecen en la introducción. Ni una más. */
 export type Categoria =
   | "Historia"
   | "Filosofía"
@@ -37,7 +37,8 @@ export type Categoria =
   | "Literatura"
   | "Psicología"
   | "Economía"
-  | "Salud";
+  | "Salud"
+  | "Deportes";
 
 export type Estado = "escrito" | "pendiente";
 
@@ -269,6 +270,38 @@ export const CATALOGO: Ficha[] = [
   { id: "vivir-plenitud", titulo: "Vivir con plenitud las crisis", autor: "Jon Kabat-Zinn", ano: 1990, categoria: "Salud", estado: "escrito" },
   { id: "deja-de-ser-tu", titulo: "Deja de ser tú", autor: "Joe Dispenza", ano: 2012, categoria: "Salud", estado: "escrito" },
   { id: "poder-metabolismo", titulo: "El poder del metabolismo", autor: "Frank Suárez", ano: 2006, categoria: "Salud", estado: "escrito" },
+
+  /* --- Deportes ---------------------------------------------------------
+     La novena, pedida por Pablo el 21 de agosto: «añade sección de deportes
+     también, que puede ser interesante con libros famosos y títulos que
+     atraigan mucho leer como Messi y Cristiano».
+
+     El criterio del catálogo no cambia: famosos y con algo que contar. Un
+     libro de deporte que solo cuente partidos no entra; entran los que
+     explican algo —cómo se ficha, cómo se entrena, qué cuesta ganar— o los
+     que están bien escritos de verdad. La mitad son de fútbol porque es lo
+     que pidió Pablo y es lo que se busca, y la otra mitad reparte. */
+  { id: "messi-ronaldo", titulo: "Messi vs. Ronaldo", autor: "Clegg y Robinson", ano: 2021, categoria: "Deportes", estado: "pendiente" },
+  { id: "yo-soy-el-diego", titulo: "Yo soy el Diego", autor: "Diego Armando Maradona", ano: 2000, categoria: "Deportes", estado: "pendiente" },
+  { id: "piramide-invertida", titulo: "La pirámide invertida", autor: "Jonathan Wilson", ano: 2008, categoria: "Deportes", estado: "pendiente" },
+  { id: "futbol-sol-sombra", titulo: "El fútbol a sol y sombra", autor: "Eduardo Galeano", ano: 1995, categoria: "Deportes", estado: "pendiente" },
+  { id: "futbol-contra-enemigo", titulo: "Fútbol contra el enemigo", autor: "Simon Kuper", ano: 1994, categoria: "Deportes", estado: "pendiente" },
+  { id: "fiebre-gradas", titulo: "Fiebre en las gradas", autor: "Nick Hornby", ano: 1992, categoria: "Deportes", estado: "pendiente" },
+  { id: "cruyff-14", titulo: "14. La autobiografía de Johan Cruyff", autor: "Johan Cruyff", ano: 2016, categoria: "Deportes", estado: "pendiente" },
+  { id: "soy-zlatan", titulo: "Yo soy Zlatan Ibrahimović", autor: "David Lagercrantz", ano: 2011, categoria: "Deportes", estado: "pendiente" },
+  { id: "open-agassi", titulo: "Open", autor: "Andre Agassi", ano: 2009, categoria: "Deportes", estado: "pendiente" },
+  { id: "rafa-mi-historia", titulo: "Rafa, mi historia", autor: "Rafael Nadal y John Carlin", ano: 2011, categoria: "Deportes", estado: "pendiente" },
+  { id: "moneyball", titulo: "Moneyball", autor: "Michael Lewis", ano: 2003, categoria: "Deportes", estado: "pendiente" },
+  { id: "once-anillos", titulo: "Once anillos", autor: "Phil Jackson", ano: 2013, categoria: "Deportes", estado: "pendiente" },
+  { id: "mamba-mentality", titulo: "Mamba Mentality", autor: "Kobe Bryant", ano: 2018, categoria: "Deportes", estado: "pendiente" },
+  { id: "remando-un-hombre", titulo: "Remando como un solo hombre", autor: "Daniel James Brown", ano: 2013, categoria: "Deportes", estado: "pendiente" },
+  { id: "rey-del-mundo", titulo: "Rey del mundo", autor: "David Remnick", ano: 1998, categoria: "Deportes", estado: "pendiente" },
+  { id: "hablo-correr", titulo: "De qué hablo cuando hablo de correr", autor: "Haruki Murakami", ano: 2007, categoria: "Deportes", estado: "pendiente" },
+  { id: "numero-uno", titulo: "Número uno", autor: "Anders Ericsson", ano: 2016, categoria: "Deportes", estado: "pendiente" },
+  { id: "gen-deportivo", titulo: "El gen deportivo", autor: "David Epstein", ano: 2013, categoria: "Deportes", estado: "pendiente" },
+  { id: "legado-all-blacks", titulo: "Legado", autor: "James Kerr", ano: 2013, categoria: "Deportes", estado: "pendiente" },
+  { id: "nunca-te-pares", titulo: "Nunca te pares", autor: "Phil Knight", ano: 2016, categoria: "Deportes", estado: "pendiente" },
+  { id: "siete-pecados", titulo: "Siete pecados capitales", autor: "David Walsh", ano: 2012, categoria: "Deportes", estado: "pendiente" },
 ];
 
 /* --------------------------------------------------------------------------

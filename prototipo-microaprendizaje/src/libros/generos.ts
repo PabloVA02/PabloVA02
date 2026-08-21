@@ -142,6 +142,7 @@ export const GENEROS: Genero[] = [
   { id: "filosofia", nombre: "Filosofía", sub: "Las preguntas que no se cierran", icono: "pensar", categoria: "Filosofía" },
   { id: "literatura", nombre: "Novela", sub: "Las historias que había que leer", icono: "libro", categoria: "Literatura" },
   { id: "arte", nombre: "Arte y creatividad", sub: "Mirar mejor y ponerse a hacer", icono: "paleta", categoria: "Arte" },
+  { id: "deportes", nombre: "Deportes", sub: "Lo que cuesta llegar y lo que cuesta quedarse", icono: "copa", categoria: "Deportes" },
 ];
 
 /* Los identificadores que existen de verdad. Una lista de arriba con una
