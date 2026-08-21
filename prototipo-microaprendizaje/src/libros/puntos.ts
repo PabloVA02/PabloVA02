@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "soy-zlatan": [
+    "por qué unos padres pidieron que lo echaran del equipo",
+    "qué le enseñó Capello que no sabía hacer",
+    "qué pasó de verdad en su año en el Barcelona",
+    "cómo se conquista un vestuario en la primera semana",
+    "para qué sirve anunciar en voz alta lo que vas a hacer",
+  ],
+
   "cruyff-14": [
     "en qué consistía de verdad el fútbol total del Ajax",
     "por qué se llamó Jordi el hijo de un holandés",

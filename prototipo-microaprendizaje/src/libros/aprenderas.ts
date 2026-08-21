@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "soy-zlatan":
+    "La autobiografía del delantero sueco, escrita con David Lagercrantz. Un chico de un barrio de inmigrantes decide que no va a encajar en ningún sitio y convierte esa decisión en un método para mandar en cualquier vestuario.",
+
   "cruyff-14":
     "Cruyff la escribió sabiendo que se moría. Del barrio de hormigón de Ámsterdam al Dream Team, pasando por el Mundial perdido de 1974, la ruina, un secuestro y la cantera que cambió al Barcelona.",
 

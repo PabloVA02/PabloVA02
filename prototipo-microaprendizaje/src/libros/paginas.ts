@@ -59488,7 +59488,273 @@ const CRUYFF_14: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Yo soy Zlatan Ibrahimović, en ocho páginas.
+
+   Breve. Autobiografía → títulos cortos de imagen, la afirmación en la
+   primera frase y la caja del rayo en segunda persona (apartado 3 bis).
+
+   Riesgo principal: el libro tiene una voz tan marcada que el resumen se
+   contagia y acaba siendo una imitación de Zlatan. Aquí se cuenta en la voz
+   de la colección; la suya aparece solo en las dos citas que son literales
+   del libro.
+
+   Y el aviso de siempre: la carrera siguió cinco años después de publicarse,
+   así que la conclusión tiene que decir qué pasó luego.
+   -------------------------------------------------------------------------- */
+
+const SOY_ZLATAN: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El niño que robaba bicis" },
+      {
+        b: "texto",
+        texto:
+          "Zlatan Ibrahimović creció en Rosengård, un barrio de bloques de Malmö donde casi nadie tenía apellido sueco. Su padre era bosnio, portero de finca y bebedor; su madre, croata, limpiaba escaleras. Se separaron cuando él tenía dos años y le crió el padre en un piso donde, cuenta, la nevera estaba llena de cerveza y no de comida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las primeras páginas están dedicadas a las bicicletas robadas. No las cuenta como una travesura pintoresca: las cuenta como el sistema de transporte de un chico que tenía que llegar a los entrenamientos y no tenía ni bici ni dinero para el autobús. En el libro hay una lista bastante larga de cosas que aprendió a conseguir sin pedirlas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La guerra de Yugoslavia atravesó su casa sin que él la viera. El padre pasaba las noches oyendo la radio y llorando por los que se habían quedado allí, y el hijo entendió pronto que en aquella casa nadie iba a preguntarle cómo le había ido el día. Aprendió a resolverse solo y presenta esa soledad como la primera fuente de su carácter.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El barrio le dio también lo que después llamaría su estilo. En Rosengård se jugaba en pistas de cemento entre bloques, sin árbitro y con chicos mayores, y lo único que valía era el regate: si perdías el balón no lo recuperabas. Nadie le enseñó nunca a pasar en corto, y tardaría quince años en aprender.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El sitio donde aprendes algo te marca el estilo mucho más que el que te lo enseña.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La carta de los padres" },
+      {
+        b: "texto",
+        texto:
+          "En su club juvenil de Malmö, unos padres firmaron una carta pidiendo que lo echaran del equipo. Era conflictivo, cabezota y no pasaba el balón. El episodio es el centro emocional del libro: un chaval de quince años descubriendo que en aquel club los otros niños se llamaban Andersson, tenían padres en la grada y encajaban, y que él nunca iba a encajar por más goles que metiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estuvo a punto de dejarlo. Cuenta que le ofrecieron un trabajo en el puerto de Malmö y que lo pensó en serio, porque era dinero seguro y él no creía demasiado en aquello. Un entrenador insistió en que se quedara. Toda la carrera posterior depende de esa conversación, y él lo sabe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Debutó en el primer equipo del Malmö en 1999, con diecisiete años, y en dos temporadas ya estaba vendido. Lo que retiene del episodio no es el éxito, sino la lección que sacó y que aplicó el resto de su vida: que el que es distinto no se gana el sitio portándose bien, sino haciendo cosas que los demás no puedan hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro no idealiza al chico difícil. Reconoce que llegaba tarde, que respondía mal y que se peleó con compañeros que no le habían hecho nada. Lo que niega es que fuera un problema de educación: sostiene que a los chicos del barrio se les mide con otra vara desde el primer día, y que él se limitó a aceptar el papel que le habían dado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si sabes que no vas a encajar de todas formas, deja de intentarlo y vuélvete imprescindible.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ámsterdam no era su sitio" },
+      {
+        b: "texto",
+        texto:
+          "El Ajax lo fichó en 2001 por la cifra más alta pagada nunca por un sueco y lo metió en la cultura futbolística menos compatible con él que existía. En Holanda el equipo está por encima de todo, el regate innecesario se considera un error y el jugador que no cumple su función molesta, por muy bien que juegue.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Marcó goles espectaculares y no terminó de convencer nunca. El vestuario le veía egoísta y él veía un club que le pedía que dejara de hacer justo aquello por lo que le habían pagado. Es la parte del libro donde mejor se entiende su carrera entera: no es un problema de carácter, es un choque entre dos ideas de para qué sirve un futbolista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El final llegó en un amistoso entre Suecia y Holanda en 2004. Rafael van der Vaart, compañero suyo en el Ajax, salió lesionado de una entrada suya y le acusó en público de haberlo hecho a propósito. La respuesta de Zlatan, que el libro reproduce, hizo imposible que siguieran en el mismo vestuario.",
+      },
+      { b: "cita", frase: "Te voy a romper las dos piernas.", autor: "Zlatan Ibrahimović a Rafael van der Vaart" },
+      {
+        b: "texto",
+        texto:
+          "Se marchó a la Juventus ese mismo verano. Lo cuenta como una victoria, aunque el balance sea otro: en tres años en Ámsterdam ganó dos ligas holandesas y se fue sin haber convencido a nadie de que era algo más que un chico con un talento enorme y ningún interés en el equipo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando choques con un sitio entero, mira si el problema es la cultura antes de decidir que eres tú.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El hombre que le enseñó a marcar" },
+      {
+        b: "texto",
+        texto:
+          "En la Juventus, Fabio Capello le hizo un jugador distinto, y el libro se lo reconoce sin una sola reserva. Capello le dijo que con veintitrés años metía diez goles por temporada haciendo cosas preciosas, y que un delantero de verdad mete veinticinco haciendo cosas feas. Le puso a entrenar remates, movimientos de área y posiciones fijas durante meses.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle que mejor lo resume es un ejercicio: repetir una y otra vez la misma jugada de definición hasta hacerla sin pensar. Zlatan, que había construido su identidad sobre la improvisación, cuenta que odió cada sesión y que después marcó el doble. Es la única persona en todo el libro a la que obedece sin discutir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquella Juventus se hundió por el escándalo del Calciopoli en 2006. Se descubrió que el club había manipulado la designación de árbitros, le retiraron dos títulos y lo mandaron a Segunda. Zlatan describe la sensación de ver desaparecer de un día para otro un equipo que estaba ganando todo, sin que ninguno de los futbolistas hubiera hecho nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se fue al Inter y ganó tres ligas italianas seguidas. Ahí termina la parte en la que todo le sale bien y empieza la que le hizo escribir el libro, porque a los veintisiete años había ganado mucho y no había ganado nunca la Copa de Europa, que era la única cuenta que él llevaba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El que más te va a mejorar es el que te obliga a repetir lo que se te da mal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Compraste un Ferrari" },
+      {
+        b: "texto",
+        texto:
+          "El Barcelona lo fichó en 2009 y el resultado fue el mayor fracaso de su carrera, contado en las páginas más citadas del libro. Empezó bien, marcando en sus primeros partidos, y a partir del invierno Pep Guardiola dejó de contar con él, dejó de explicarle por qué y, según Zlatan, dejó directamente de hablarle.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su versión del conflicto es concreta. Dice que le pidieron que jugara pegado al área, quieto, esperando el balón, y que en aquel equipo cualquier gesto que se saliera del guion se consideraba una falta de respeto. Un día, harto del silencio, entró en el despacho del entrenador y le soltó la frase que ha quedado.",
+      },
+      { b: "cita", frase: "Compraste un Ferrari y lo conduces como si fuera un Fiat.", autor: "Zlatan Ibrahimović a Pep Guardiola" },
+      {
+        b: "texto",
+        texto:
+          "El episodio dice tanto de él como del club. Aquel Barcelona era el equipo más obediente y más colectivo que se había visto en veinte años, y él era exactamente lo contrario. La operación costó una fortuna y un delantero como Eto'o, y duró once meses. Guardiola no ha respondido nunca en público.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se fue al Milan y ganó la liga italiana al año siguiente. El libro se escribió en ese momento exacto, con la herida abierta, y por eso funciona: no es la memoria serena de un veterano, es la defensa de un hombre de veintinueve años convencido de que le han humillado sin motivo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un sitio prestigioso no te sirve de nada si allí lo que sabes hacer sobra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El miedo por debajo" },
+      {
+        b: "texto",
+        texto:
+          "Toda la fanfarronería del libro tapa un motor bastante triste, y él lo deja ver más veces de las que probablemente quería. Habla de sí mismo en tercera persona, se compara con dioses y anuncia lo que va a hacer antes de hacerlo, y a la vez cuenta que le aterra la idea de volver a ser el chico de Rosengård al que nadie escuchaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La chulería es una herramienta. La usa para entrar en vestuarios donde no conoce a nadie, para marcar quién manda desde el primer entrenamiento y para ponerse una presión que le obliga a rendir. Cuando anuncia que va a marcar, no está presumiendo: está cerrándose la puerta de atrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El taekwondo explica la otra mitad. Entrenó de niño hasta el cinturón negro, y de ahí salen las chilenas imposibles y las volteretas que le hicieron famoso. Es el único sitio del libro donde admite haber trabajado de manera constante y aburrida durante años en algo que no era el fútbol.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que nunca aparece es la duda. En más de cuatrocientas páginas no hay una sola situación en la que se pregunte si se equivocó, y esa ausencia acaba diciendo más que las bravuconadas: un hombre que no puede permitirse dudar en voz alta suele ser un hombre que no se siente nunca seguro del todo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Anunciar en voz alta lo que vas a hacer te cierra la puerta de atrás, y a veces eso es justo lo que necesitas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Mandar en un vestuario" },
+      {
+        b: "texto",
+        texto:
+          "La parte más útil del libro, y la menos comentada, es cómo se conquista un grupo. Zlatan describe con precisión su método al llegar a un equipo nuevo: los primeros días observa y calla, localiza quién manda de verdad, y en el primer entrenamiento hace algo tan bueno que ya no hace falta discutir la jerarquía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ahí gobierna con bromas pesadas, retos y una lealtad muy concreta hacia los que trabajan. Trata mal a los que se esconden y defiende en público a los suplentes y a los canteranos, y cuenta varias veces que los utilleros y los cocineros del club le importaban más que los directivos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el motivo por el que sus compañeros casi siempre hablan bien de él, incluso los que sufrieron sus humillaciones. Un vestuario tolera a un tipo insoportable si el tipo insoportable rinde y no miente. Lo que no tolera es al que se cree por encima y luego falla los domingos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El precio se ve igual de claro. Sus mejores relaciones duran lo que dura el contrato, cambió de club siete veces y en el libro apenas hay amigos, solo compañeros. Se muestra como un hombre que sabe exactamente cómo hacerse respetar por un grupo y bastante peor cómo formar parte de él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un grupo perdona casi cualquier carácter, y no perdona nunca que le falles cuando cuenta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Yo soy Zlatan es la historia de un chico de un barrio de inmigrantes de Malmö que decidió muy pronto que no iba a encajar en ningún sitio y convirtió esa decisión en un método. La escribió con él el periodista David Lagercrantz a partir de decenas de horas de conversación, y publicada en 2011 vendió en Suecia más de setecientos mil ejemplares, cifra descomunal para un país de nueve millones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un retrato honesto de la ambición sin barniz: cómo se entra en un grupo desde abajo, por qué la chulería anunciada funciona como compromiso, qué hace un entrenador exigente por un talento desordenado y qué ocurre cuando un jugador enorme aterriza en un sistema que no le necesita. Como libro está muy por encima de la media del género, y el mérito literario es en buena parte del que lo escribió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en lo previsible: es un alegato. En cada conflicto el culpable es el otro, y los rivales aparecen retratados por alguien que sigue enfadado. La versión de Guardiola no está, porque nunca la ha dado, y el lector se queda con un juicio en el que solo declara una de las partes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y evita la pregunta importante. Un futbolista con ese talento ganó ligas en cuatro países y no ganó nunca la Copa de Europa, y el libro no se detiene ni una página a considerar si su manera de estar en un equipo tuvo algo que ver con eso. Es el único asunto sobre el que un hombre que opina de todo prefiere no opinar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después vinieron cuatro ligas francesas con el París Saint-Germain, una chilena desde treinta metros contra Inglaterra que dio la vuelta al mundo, el Manchester United, Los Ángeles, el regreso al Milan y la retirada en 2023 a los cuarenta y un años. La frase del Ferrari se quedó en el idioma, y hoy se usa para cualquier talento al que su jefe no sabe sacar partido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El que nunca duda en voz alta suele estar defendiéndose de una duda que no puede permitirse.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "soy-zlatan": SOY_ZLATAN,
   "cruyff-14": CRUYFF_14,
   "fiebre-gradas": FIEBRE_GRADAS,
   "futbol-contra-enemigo": FUTBOL_CONTRA_ENEMIGO,

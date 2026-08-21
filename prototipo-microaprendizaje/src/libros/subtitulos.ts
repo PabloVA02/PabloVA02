@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "soy-zlatan": "Del barrio de bloques de Malmö al despacho de Guardiola",
   "cruyff-14": "La explicación que dio de sí mismo el hombre que cambió el fútbol",
   "fiebre-gradas": "Veintitrés años de hincha del Arsenal contados como una dependencia",
   "futbol-contra-enemigo": "Veintidós países en nueve meses para entender por qué el fútbol importa tanto",
