@@ -46408,7 +46408,7 @@ const DINERO_DOMINA_JUEGO: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Lo que aporta son las entrevistas, que no están en ningún otro sitio, y la cartera de todas las estaciones, que Dalio nunca había publicado en esa forma. Y el capítulo de las comisiones, que es correcto y agresivo, y que a mucha gente le ha ahorrado más dinero que cualquier consejo de inversión.",
+          "Lo que aporta son las entrevistas, que no están en ningún otro sitio, y la cartera de todas las estaciones, que Dalio nunca había publicado en esa forma. Y el capítulo de las comisiones, correcto y agresivo, que a mucha gente le ha ahorrado más que cualquier consejo de inversión.",
       },
       {
         b: "texto",
