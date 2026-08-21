@@ -375,22 +375,6 @@ export const META: FichaMeta[] = [
       { titulo: "Baltimore, 3 de octubre de 1849", minutos: 4.5 },
     ],
   },
-  {
-    id: "renglones-torcidos",
-    titulo: "Los renglones torcidos de Dios",
-    autor: "Torcuato Luca de Tena",
-    ano: 1979,
-    gancho: "Para escribirla, el director de un periódico nacional se hizo ingresar en un psiquiátrico durante dieciocho días. Solo el director del centro sabía que no estaba enfermo, y ni siquiera él sabía cómo iba a salir de allí.",
-    porQue: "Porque plantea la pregunta más incómoda que existe: cómo demostrarías que estás cuerdo si nadie te creyera. Y porque el experimento científico que hizo esa misma pregunta seis años antes acabó, cuarenta años después, resultando bastante menos limpio de lo que decía.",
-    minutos: 25.5,
-    capitulos: [
-      { titulo: "Dieciocho días de ingreso voluntario", minutos: 5.3 },
-      { titulo: "Una detective que dice ser detective", minutos: 5 },
-      { titulo: "El experimento que se le adelantó seis años", minutos: 4.9 },
-      { titulo: "Los internos", minutos: 5.2 },
-      { titulo: "Renglones torcidos", minutos: 5.2 },
-    ],
-  },
 ];
 
 /** Índice por identificador, que es como lo pide la pantalla. */

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "renglones-torcidos":
+    "Una mujer ingresa en un hospital psiquiátrico y explica que es detective privado y que está allí investigando un asesinato. Su relato es coherente, y también es exactamente lo que construiría un delirio bien organizado.",
+
   "elegancia-erizo":
     "Una portera de cincuenta y cuatro años finge la torpeza que sus vecinos ricos esperan y lee a Tolstói con la puerta cerrada. Una niña de doce ha decidido suicidarse el día que cumpla trece. Viven en el mismo edificio.",
 

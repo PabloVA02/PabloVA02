@@ -50134,7 +50134,278 @@ const ELEGANCIA_ERIZO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Los renglones torcidos de Dios, en ocho páginas.
+
+   Breve. NOVELA → apartado 3 bis: titular corto de imagen, la afirmación
+   en la primera frase, y caja del rayo en segunda persona.
+
+   Es una novela con un giro final muy conocido, y el apartado 4 bis dice
+   que hay que contar lo que casi nadie cuenta y no lo que todo el mundo
+   sabe. Así que el resumen NO se organiza alrededor de si Alice está loca:
+   se organiza alrededor de por qué la pregunta no se podía contestar en
+   1979, que es lo que la novela sostiene de verdad.
+
+   Y el después es de los buenos: la novela retrata el último momento de la
+   psiquiatría anterior a los criterios operativos —el DSM-III salió al año
+   siguiente— y el manicomio que describe lo cerró en España la ley de 1986.
+   -------------------------------------------------------------------------- */
+
+const RENGLONES_TORCIDOS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "La detective que se hizo ingresar" },
+      {
+        b: "texto",
+        texto:
+          "La novela plantea en su primera escena un problema que no se puede resolver mirando. Alice Gould de Almenara llega a un hospital psiquiátrico acompañada de su marido, es admitida como paciente, y en cuanto puede hablar a solas con un médico le explica la verdad: es detective privado, se ha hecho ingresar con papeles falsos y está allí para investigar un asesinato cometido dentro del centro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su relato es coherente, detallado y verificable en algunos puntos. También es exactamente la clase de historia que construye un delirio paranoico bien organizado: una misión secreta, una identidad oculta, una razón que explica por qué nadie le cree. El médico que la escucha tiene delante dos hipótesis que encajan igual de bien con todo lo que está oyendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Torcuato Luca de Tena publicó el libro en 1979, y para escribirlo hizo algo que la novela hereda entera: se hizo ingresar él mismo en un hospital psiquiátrico como un paciente más, sin que lo supiera nadie salvo el director del centro, y convivió con los internos durante semanas. De ahí salen las escenas de sala, los diálogos entre médicos y los pacientes, que son lo mejor del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: por qué la historia de Alice no se puede desmentir ni confirmar, cómo dos psiquiatras llegan desde el mismo expediente a conclusiones opuestas, quiénes son los internos y qué tienen en común, qué prueban las pruebas psicológicas que le hacen, quién firma que una persona no puede salir, y qué hace el final con el lector que lleva setecientas páginas decidiendo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando dos explicaciones opuestas encajan igual de bien con todo lo que ves, el problema ya no es la información: es que no tienes ninguna prueba que las separe.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Todo lo que dice encaja" },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace inquietante a Alice Gould es que no falla nunca. Es culta, elegante, irónica, memoriza detalles, razona mejor que la mayoría de los médicos que la interrogan y responde a cada objeción con una explicación razonable. Si el ingreso lo firmó su marido, es porque forma parte del encargo; si no aparecen los papeles, es porque el encargo era secreto; si nadie confirma su historia, es exactamente lo que cabría esperar de una investigación encubierta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el nudo del libro y también la descripción clínica de un delirio bien construido. Un sistema paranoico no es un disparate: es un edificio lógico levantado sobre una premisa falsa, en el que cada objeción se convierte en confirmación. Cuanta más inteligencia tenga quien lo sostiene, más sólido queda, porque tiene mejores respuestas para todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La novela obliga al lector a hacer el trabajo del psiquiatra, y ese es su gran acierto de construcción. Durante centenares de páginas uno va apuntando indicios a favor y en contra, cambia de opinión tres o cuatro veces, y en cada cambio descubre que su convicción anterior se apoyaba en algo que también encajaba con la hipótesis contraria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle que Luca de Tena maneja muy bien: la simpatía. Alice cae bien. El lector quiere que tenga razón, y esa preferencia contamina cada indicio que evalúa. La novela demuestra por la vía práctica algo que la psiquiatría sabe: que la impresión personal que produce un paciente pesa en el diagnóstico mucho más de lo que a nadie le gustaría admitir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si cada objeción a una idea tuya la refuerza en vez de debilitarla, deja de comprobar la idea y comprueba el método con el que la estás comprobando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos médicos, el mismo expediente" },
+      {
+        b: "texto",
+        texto:
+          "El conflicto central del hospital no es entre los enfermos y los sanos: es entre dos psiquiatras que leen el mismo expediente y concluyen cosas contrarias. Samuel Alvar, el nuevo director, joven, moderno y con muchas ganas de demostrar algo, sostiene una cosa; César Arellano, mayor, clínico y menos brillante, sostiene la contraria. Ninguno de los dos miente ni es incompetente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está la tesis del libro. En 1979, un diagnóstico psiquiátrico dependía casi por completo del juicio del médico que tenías delante: no había análisis, ni imagen, ni criterio escrito que obligara a dos profesionales a coincidir. Lo que decidía tu vida entera era una opinión formada en una entrevista, y esa opinión venía teñida por la escuela, la experiencia y el carácter de quien la firmaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La novela añade la parte incómoda: los médicos no solo discrepan, también compiten. El pulso entre Alvar y Arellano tiene tanto de discusión clínica como de disputa de autoridad dentro del centro, y hay decisiones sobre Alice que se explican mejor por lo que uno quiere demostrarle al otro que por lo que le conviene a ella. Nadie actúa de mala fe, y el resultado es igualmente malo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese planteamiento no salió de la imaginación del autor. Seis años antes, en 1973, la revista «Science» había publicado un experimento del psicólogo David Rosenhan en el que ocho personas sanas se presentaron en hospitales psiquiátricos estadounidenses diciendo que oían una voz, y todas fueron ingresadas con un diagnóstico grave pese a comportarse con normalidad desde el momento del ingreso. Aquel artículo sacudió a la profesión entera, y el clima que produjo está dentro de esta novela.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando un juicio profesional no tiene ninguna prueba que lo obligue, entra en él todo lo demás: la escuela, el carácter y quién manda en el pasillo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuerdo en todo salvo en una cosa" },
+      {
+        b: "texto",
+        texto:
+          "La galería de internos es lo que hace que este libro se recuerde treinta años después de leerlo, y todos comparten un rasgo: son perfectamente lúcidos salvo en un punto. Ignacio Urquieta es un hombre culto, divertido y encantador, con el que se puede hablar de cualquier cosa, y que sufre un terror insoportable al agua: no puede ducharse, no puede ver llover, un vaso derramado lo destroza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sergio Zapatero llena las paredes de números buscando la fórmula que fijará la fecha exacta del fin del mundo, y trabaja con el rigor de un matemático. Norberto Machimbarrena, maquinista naval jubilado, se comporta con una competencia impecable como si siguiera de servicio y arregla de verdad lo que se estropea en el hospital. Y están los gemelos, y el resto de la sala.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que la novela consigue con ese reparto es quitarle al lector la idea de un bloque llamado los locos. Cada uno tiene una vida, un oficio, una manera de hablar y una zona intacta mucho mayor que la dañada, y el trato entre ellos es más civilizado que el de muchas oficinas. El manicomio de este libro no da miedo por sus internos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El título se explica ahí. Viene del refrán que dice que Dios escribe recto con renglones torcidos, y la novela lo usa para preguntar quiénes son los renglones y qué se está escribiendo con ellos. Si esas vidas son las líneas torcidas de un texto que tiene sentido, el sentido no aparece por ninguna parte dentro del edificio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie está roto entero: la parte dañada suele ser pequeña y el resto sigue funcionando, y ese resto es una persona.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Manchas de tinta sobre una mesa" },
+      {
+        b: "texto",
+        texto:
+          "Una parte considerable de la novela transcurre en la batería de pruebas psicológicas que le hacen a Alice, y Luca de Tena las cuenta con detalle documental porque las vio hacer. Se le pasan pruebas de inteligencia, cuestionarios de personalidad y el más famoso de todos: una serie de láminas con manchas de tinta simétricas en las que se le pide que diga qué ve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El interés narrativo es evidente: la escena permite que dos profesionales interpreten de manera opuesta lo mismo que dice la paciente, que es la novela entera concentrada en una mesa. Alice, además, sabe perfectamente para qué sirve cada prueba y contesta sabiendo qué se está midiendo, con lo cual el instrumento vuelve a quedarse sin filo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir dónde ha quedado esa prueba, porque el lector actual necesita saberlo. Las técnicas proyectivas, y en especial las manchas de tinta, han sido de lo más discutido de la psicología del siglo XX: su fiabilidad depende muchísimo del sistema de corrección que se use y del profesional que corrija, y su uso ha ido reduciéndose en la práctica clínica seria a un papel secundario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es que la novela ya lo intuye. Ninguna de las pruebas resuelve nada; todas producen material que cada bando incorpora a su hipótesis. El libro, sin decirlo, está retratando el momento exacto en que la psiquiatría se dio cuenta de que necesitaba criterios que no dependieran del ojo de quien miraba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una prueba que da un resultado distinto según quién la corrige no está midiendo lo que dice medir: está recogiendo la opinión de quien corrige.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Quién firma que no puedes salir" },
+      {
+        b: "texto",
+        texto:
+          "El hecho que sostiene toda la angustia del libro es administrativo. Alice ingresó, y a partir de ese momento salir no depende de ella: depende de que alguien firme. Su libertad, su patrimonio, su capacidad de decidir y hasta el crédito que se da a lo que dice han quedado en manos de una institución a la que entró por su propio pie o engañada, según a quién se pregunte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La novela enseña con frialdad cómo funciona eso por dentro. Toda protesta contra el ingreso se lee como síntoma: si te enfadas, estás agitado; si insistes en que no estás enfermo, tienes falta de conciencia de enfermedad; si te calmas para demostrar que estás bien, has aprendido a disimular. La estructura no deja ninguna conducta disponible con la que un ingresado pueda demostrar nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso es exactamente lo que el experimento de 1973 había puesto encima de la mesa: sus ocho voluntarios sanos, una vez dentro, no consiguieron convencer a nadie de que lo estaban, y sus intentos de comportarse con normalidad se anotaron como parte del cuadro. Fueron los otros pacientes, y no el personal, quienes sospecharon que eran impostores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro no propone que se cierren los hospitales ni presenta a los médicos como carceleros; su retrato del personal es más bien amable. Lo que denuncia es más difícil de arreglar: que una institución con poder sobre la libertad de alguien, y sin ninguna prueba objetiva que la corrija, acaba interpretando cualquier dato en la dirección que ya había elegido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Desconfía de cualquier sistema en el que negar la acusación cuente como prueba de la acusación: ahí no hay manera de defenderse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El último renglón" },
+      {
+        b: "texto",
+        texto:
+          "El final es lo que ha hecho famosa a la novela, y funciona por una razón concreta: hasta la última página se puede sostener cualquiera de las dos versiones. Luca de Tena administra la información de manera que el lector llegue al desenlace habiendo cambiado de bando varias veces y convencido de que ya lo tiene claro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurre entonces no es un golpe de efecto gratuito, aunque lo parezca. Es la comprobación del argumento del libro: durante setecientas páginas el lector ha tenido delante la misma información que los médicos y ha hecho exactamente lo que ellos, elegir la explicación que le resultaba más simpática y encajar después los datos dentro de ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el desenlace no absuelve a nadie. Que uno de los dos médicos acertara no significa que actuara bien: sus decisiones estuvieron guiadas por lo que quería demostrar, y el libro se cuida de dejar claro que acertar por los motivos equivocados no es un mérito profesional. La novela reparte el error entre todos los que participaron, incluido quien lee.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene además leer el desenlace sabiendo qué clase de escritor lo firma. Luca de Tena era periodista de profesión y dirigió un diario, y la novela está construida con oficio de reportero: administra la información como se administra una investigación, soltando un dato por entrega y dejando que el lector saque conclusiones antes de tiempo. El final funciona porque las conclusiones prematuras eran suyas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Queda además una pregunta que el libro deja abierta a propósito y que es la más incómoda. Aunque el diagnóstico fuera correcto, nada de lo que ocurrió en aquel hospital lo demuestra: el mismo procedimiento, aplicado a alguien sano, habría producido el mismo resultado. Un método que acierta a veces y que no puede distinguir cuándo acierta no es un método.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Acertar no valida el procedimiento: si el mismo camino te habría llevado igual a la conclusión contraria, el acierto fue una casualidad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La novela sostiene que en 1979 no había manera de decidir con certeza si una persona estaba enferma, y que esa decisión, que determinaba la libertad de alguien, dependía del juicio de un profesional al que nada obligaba a coincidir con el de al lado. Lo demuestra construyendo un caso que encaja igual de bien con las dos respuestas y obligando al lector a elegir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, y es de lo más raro que hay en una novela, es la documentación. Luca de Tena vivió dentro de un hospital psiquiátrico para escribirla, y por eso los internos no son un decorado gótico: tienen oficio, conversación, humor y una zona intacta mucho mayor que la dañada. Muy pocos libros han hecho tanto contra la caricatura del manicomio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla por extensión y por época. Son setecientas páginas y la parte central se detiene en historias de pacientes que no llevan a ningún sitio; y el romance y algunos diálogos suenan a otro tiempo, empezando por la insistencia en la belleza de la protagonista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y eso último es lo que vino después, que en este libro es notable. Justo al año siguiente, en 1980, la psiquiatría estadounidense publicó un manual de diagnóstico con criterios explícitos y numerados, hecho precisamente para que dos profesionales dejaran de discrepar tanto; su influencia llegó a todas partes. Y en España la ley de sanidad de 1986 acabó con los hospitales psiquiátricos como el de la novela e integró la atención en los hospitales generales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un giro final que la propia novela no podía prever. El experimento de 1973 que dio a esta historia su clima fue revisado en 2019 por la periodista Susannah Cahalan, que buscó a los ocho voluntarios, encontró a dos y halló indicios de que buena parte de aquel estudio estaba manipulada. El trabajo más citado sobre lo poco fiable que era un diagnóstico psiquiátrico resultó ser, él mismo, poco fiable.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si te descubres seguro de algo sobre alguien y no puedes decir qué dato te haría cambiar de opinión, no tienes un juicio: tienes una preferencia.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "renglones-torcidos": RENGLONES_TORCIDOS,
   "elegancia-erizo": ELEGANCIA_ERIZO,
   "el-tunel": EL_TUNEL,
   "intro-psicoanalisis": INTRO_PSICOANALISIS,

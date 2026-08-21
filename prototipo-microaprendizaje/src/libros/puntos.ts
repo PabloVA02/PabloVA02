@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "renglones-torcidos": [
+    "por qué su historia no se puede confirmar ni desmentir",
+    "cómo dos psiquiatras llegan a conclusiones opuestas del mismo expediente",
+    "quiénes son los internos y qué tienen intacto",
+    "qué pasa cuando negar la acusación cuenta como prueba",
+    "qué cambió en la psiquiatría justo después de este libro",
+  ],
+
   "elegancia-erizo": [
     "por qué un disfraz así aguanta veintisiete años",
     "qué está diagnosticando Paloma cuando decide morirse",
