@@ -64,7 +64,6 @@ const CARGADORES: Record<string, Cargador> = {
   "existencialismo-humanismo": () => import("./filosofia").then((m) => m.EXISTENCIALISMO_HUMANISMO),
   "mas-alla-bien-mal": () => import("./filosofia").then((m) => m.MAS_ALLA_BIEN_MAL),
   "contrato-social": () => import("./filosofia").then((m) => m.CONTRATO_SOCIAL),
-  "etica-nicomaco": () => import("./filosofia").then((m) => m.ETICA_NICOMACO),
   "ensayos-montaigne": () => import("./filosofia").then((m) => m.ENSAYOS_MONTAIGNE),
   "homo-sovieticus": () => import("./historia").then((m) => m.HOMO_SOVIETICUS),
   "guerra-civil-thomas": () => import("./historia").then((m) => m.GUERRA_CIVIL_THOMAS),

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "etica-nicomaco":
+    "Son apuntes de clase del siglo IV antes de Cristo, y parten de una observación: si todo lo que haces lo haces por otra cosa, no quieres nada. De ahí sale la pregunta por lo que se busca por sí mismo.",
+
   "etica-amador":
     "Savater escribió en 1991 una carta larga a su hijo de quince años, que se llama Amador y existe. Su punto de partida es que la ética no es una lista de prohibiciones sino la pregunta por lo que a uno le conviene.",
 

@@ -136,22 +136,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "etica-nicomaco",
-    titulo: "Ética a Nicómaco",
-    autor: "Aristóteles",
-    ano: -340,
-    gancho: "El primer manual de cómo vivir. No pregunta qué debes hacer, sino en quién te estás convirtiendo cada vez que lo haces.",
-    porQue: "Es el origen de casi todo lo que hoy se dice sobre hábitos, carácter y amistad, y lo dice mejor que sus herederos. Leerlo entero enseña además a distinguir lo que sobrevive de un clásico de lo que caducó con su autor.",
-    minutos: 25,
-    capitulos: [
-      { titulo: "Una escuela a las afueras de Atenas", minutos: 5.2 },
-      { titulo: "El término medio no es la mitad", minutos: 5 },
-      { titulo: "Se aprende tocando la cítara", minutos: 4.7 },
-      { titulo: "Los amigos que hacen falta", minutos: 5.3 },
-      { titulo: "La vida que se elige por sí misma", minutos: 4.8 },
-    ],
-  },
-  {
     id: "contrato-social",
     titulo: "El contrato social",
     autor: "Jean-Jacques Rousseau",

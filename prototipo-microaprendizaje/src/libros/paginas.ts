@@ -51225,7 +51225,434 @@ const ETICA_AMADOR: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Ética a Nicómaco, en doce páginas.
+
+   AMPLIO. Son diez libros y sostienen media docena de tesis independientes
+   —la felicidad, el hábito, el término medio, la responsabilidad, la
+   prudencia, la debilidad de la voluntad, la justicia, la amistad y la vida
+   contemplativa— que no se pueden juntar sin destruirlas. En ocho páginas
+   saldría el término medio y nada más, que es justo lo que sabe todo el
+   mundo sin haberlo leído.
+
+   Ensayo → titular de afirmación entera y tercera persona.
+
+   La regla 5 aquí obliga a decir dos cosas incómodas y las dos van con su
+   sitio: que el destinatario del libro es un varón libre con dinero y
+   tiempo, y que su autor defendió por escrito que hay esclavos por
+   naturaleza. No va solo en la conclusión: va donde afecta al argumento.
+   -------------------------------------------------------------------------- */
+
+const ETICA_NICOMACO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Toda actividad busca algo, y esa cadena tiene que terminar en alguna parte",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con una observación tan sencilla que parece que no lleva a nada. Todo lo que hacemos lo hacemos por algo: se estudia medicina por curar, se cura por la salud, se fabrican bridas por la equitación y se monta a caballo por ganar una batalla. Los fines se encadenan y unos sirven a otros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aristóteles saca de ahí un argumento que decide el resto. Si toda esa cadena fuera infinita, si cada cosa se buscara siempre por otra, entonces no se desearía nada de verdad y el deseo entero quedaría vacío. Luego tiene que haber algún fin que se busque por sí mismo y no por otra cosa. A ese fin lo llama la palabra que traducimos como felicidad, y ahí empiezan los problemas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El texto son apuntes de clase del siglo IV antes de Cristo, ordenados después, no un libro escrito para publicar; por eso repite, se corta y a veces cambia de tema en mitad de una frase. Lleva el nombre de Nicómaco, que era a la vez el nombre de su padre y el de su hijo. Y está dirigido a un destinatario muy concreto: un varón adulto, libre, ciudadano, con propiedades y con tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas doce páginas recorren diez asuntos: qué es exactamente esa felicidad, el argumento con el que la deduce, por qué la virtud se adquiere haciendo y no entendiendo, qué significa de verdad el término medio, por qué somos responsables de nuestro carácter, qué es la prudencia y por qué no cabe en una regla, cómo se puede saber lo correcto y no hacerlo, las dos justicias, por qué dedica una quinta parte del libro a la amistad, y en qué acaba contradiciéndose.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si todo lo que haces lo haces por otra cosa, entonces no quieres nada: en algún punto tiene que haber algo que quieras por sí mismo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La felicidad de la que habla no es un estado de ánimo, sino una vida entera bien llevada",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palabra griega es «eudaimonía» y traducirla por felicidad produce un malentendido que estropea el libro entero. No se refiere a sentirse bien, ni a un rato agradable, ni a un estado de ánimo. Se refiere a que a alguien le vaya bien la vida en el sentido en que se dice que a un árbol le va bien: que esté desplegando todo lo que puede ser. Florecimiento es una traducción mejor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale una de sus frases más citadas y peor entendidas: una golondrina no hace verano, ni un solo día tampoco; y de la misma manera, un solo día ni un breve tiempo hacen a nadie afortunado y feliz. La felicidad de la que habla no se puede tener un martes. Se predica de una vida completa, y solo se puede juzgar mirando el conjunto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aristóteles añade algo que lo separa de los estoicos y que lo hace mucho más creíble: los bienes exteriores importan. Hace falta cierta cantidad de dinero, salud, amigos, buena suerte, y hasta un aspecto decente y una familia que no avergüence. Sin nada de eso, dice, es muy difícil que a alguien le vaya bien la vida, por virtuoso que sea. La virtud no basta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese realismo tiene un precio que conviene decir aquí y no al final. Si la vida lograda exige tiempo libre, patrimonio y ciudadanía, entonces está fuera del alcance de la mayoría de los habitantes de Atenas: los esclavos, las mujeres, los extranjeros residentes y los que trabajaban de sol a sol. El libro no lo oculta; lo da por supuesto, que es peor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie es feliz un martes en el sentido de este libro: se está juzgando una vida entera, y se juzga por lo que uno hizo con ella.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Deduce el bien humano preguntando cuál es la tarea propia de un ser humano",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para averiguar en qué consiste esa vida lograda, Aristóteles usa un argumento que es la pieza más discutida de todo el libro. Observa que de un flautista, de un escultor o de un carpintero decimos que son buenos cuando hacen bien aquello que les es propio, y se pregunta si un ser humano, en cuanto tal, tiene también una tarea propia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Va descartando por eliminación. No puede ser vivir, porque eso lo hacen las plantas. No puede ser sentir, porque eso lo hacen los animales. Lo que queda como propio del hombre es la actividad de la parte racional del alma. Luego el bien humano será la actividad del alma conforme a la excelencia, y a lo largo de una vida completa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese razonamiento tiene consecuencias enormes y también una debilidad que la filosofía moderna le ha señalado sin descanso. Del hecho de que algo sea característico de una especie no se sigue que sea bueno para ella: también es característico del ser humano mentir con sofisticación, y nadie deduce de ahí que mentir sea su excelencia. Pasar de lo que somos a lo que debemos es exactamente el salto que la ética contemporánea desconfía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aun así, hay algo que sobrevive del argumento y que explica su vigencia. Aristóteles no busca una regla exterior que obligue, ni un mandato divino, ni un cálculo de consecuencias: busca en qué consiste que a un ser humano le vaya bien siendo lo que es. Esa manera de plantear la pregunta ética, distinta de las otras dos grandes, es la que ha vuelto en el siglo XX con fuerza.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Del hecho de que algo sea propio de nuestra especie no se sigue que sea bueno: ese salto es el punto débil de todo el edificio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Nadie se vuelve justo entendiendo la justicia: se vuelve justo haciendo cosas justas",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro segundo contiene la tesis más práctica y probablemente la más acertada de toda la obra. Las virtudes del carácter no se aprenden como se aprende geometría, escuchando una explicación y entendiéndola. Se aprenden como se aprende un oficio: haciendo. Nos hacemos constructores construyendo y citaristas tocando la cítara; y del mismo modo, dice, nos hacemos justos practicando la justicia y valientes practicando actos de valor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palabra que usa para lo que se adquiere así es «héxis», que significa una disposición estable, algo instalado, distinto de un estado de ánimo pasajero. No es lo que uno siente, es lo que uno hace normalmente sin tener que decidirlo cada vez. Y se construye por repetición, que es lo que la palabra ética significa en griego antes de significar nada más: costumbre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca la conclusión que un lector de manuales de conducta reconocerá enseguida: no es poca cosa habituarse de una manera o de otra desde joven, sino que es muchísimo, o mejor dicho, todo. La educación moral consiste en hacer que alguien repita las acciones correctas hasta que le salgan solas y hasta que le guste hacerlas, porque el que hace lo justo a disgusto todavía no es justo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa última condición es lo que separa su planteamiento de una disciplina externa. La señal de que alguien ha adquirido de verdad una virtud es el placer: el valiente no se fuerza a ser valiente, el generoso disfruta dando. Mientras haya lucha interna, hay progreso pero no hay virtud todavía. Y eso solo llega después de años de repetición.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La señal de que has adquirido algo de verdad no es que te salga: es que te guste. Mientras te cueste, aún estás entrenando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El término medio no es la mitad, y no todo tiene término medio" },
+      {
+        b: "texto",
+        texto:
+          "La doctrina más famosa del libro es también la peor entendida. Aristóteles observa que cada virtud del carácter está entre dos defectos, uno por exceso y otro por defecto. El valor está entre la cobardía y la temeridad; la generosidad, entre la tacañería y el despilfarro; la afabilidad, entre el servilismo y la aspereza. La virtud es el punto justo entre dos maneras de fallar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer malentendido es aritmético y él mismo lo desactiva con un ejemplo. Si diez libras de comida son mucho y dos son poco, el entrenador no receta seis a todo el mundo: a Milón, el luchador famoso por su fuerza, seis serían poquísimas, y a un principiante, demasiadas. El medio no es el punto medio de la escala, es el que corresponde a esta persona en esta situación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo malentendido es más grave y también lo previene: no todo admite término medio. Hay acciones y pasiones cuyo nombre ya implica maldad —cita el adulterio, el robo y el asesinato—, y de esas no se puede decir que estén mal por exceso o por defecto. No existe la cantidad correcta de asesinato. La doctrina describe la estructura de las virtudes, no autoriza la moderación en todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su límite práctico es el que le señalan hoy: saber que el valor está entre dos extremos no dice cuánto valor hace falta esta tarde. La doctrina explica por qué el carácter puede fallar de dos maneras opuestas, cosa que ninguna otra teoría explica tan bien, y no proporciona ninguna regla que aplicar. Para eso hace falta otra cosa, que es la prudencia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No existe la cantidad correcta de traición: el término medio explica cómo fallan las virtudes, no autoriza la moderación en cualquier cosa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Somos responsables de nuestro carácter porque lo fabricamos con nuestros actos",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro tercero se ocupa de cuándo alguien responde de lo que hace, y distingue lo voluntario de lo involuntario con más finura de la que suele reconocérsele. Involuntario es lo que se hace por fuerza —si el viento te arrastra— o por ignorancia de un dato relevante, siempre que uno no fuera responsable de ignorarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entre los dos coloca un caso mixto que sigue siendo el ejemplo clásico. Un capitán arroja la carga por la borda durante una tormenta. Nadie lo hace por gusto, y sin embargo lo hizo él y lo decidió él, y en aquellas circunstancias cualquiera con cabeza habría hecho lo mismo. La acción es voluntaria aunque nadie la eligiera en abstracto: se elige dentro de lo que hay.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis más dura llega al aplicar esto al carácter. Si las virtudes se adquieren repitiendo actos, entonces los vicios también, y por lo tanto cada uno es responsable de haberse hecho como es. A quien alega que ya no puede evitar comportarse así, Aristóteles le contesta con una imagen exacta: estaba en su mano no llegar a ser así, igual que estaba en su mano no lanzar la piedra, y una vez lanzada ya no puede recogerla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia es incómoda y hay que decirla con su matiz. No sostiene que uno pueda cambiar de carácter esta tarde por un acto de voluntad; sostiene lo contrario, que llegado cierto punto ya no se puede. Lo que afirma es que la responsabilidad estaba antes, repartida en centenares de decisiones pequeñas que en su momento sí se podían tomar de otra manera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La libertad no está en el momento en que ya no puedes evitarlo: estaba repartida en las cien veces anteriores en que sí podías.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La prudencia no es aplicar una regla: es ver qué pide esta situación concreta",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro sexto introduce el concepto que más ha influido fuera de la filosofía, y que en griego se llama «frónesis». Se suele traducir por prudencia, aunque en castellano esa palabra ha acabado significando cautela, que no es lo que quiere decir. Es la capacidad de deliberar bien sobre lo que conviene hacer, en este caso y ahora, para vivir bien en general.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La distingue cuidadosamente de otras dos cosas. De la sabiduría teórica, que trata de lo que no puede ser de otra manera —las matemáticas, la astronomía— y que no sirve para decidir nada práctico. Y de la técnica, que también trata de lo variable pero que persigue un producto exterior: un zapatero puede ser excelente y mala persona, porque su excelencia está en el zapato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su prueba de que la prudencia es otra cosa es empírica y demoledora. Los jóvenes, observa, llegan a ser matemáticos y geómetras excelentes, y en cambio no se considera que un joven pueda ser prudente. La razón es que las matemáticas se deducen y la prudencia se refiere a lo particular, que solo se conoce por experiencia, y la experiencia requiere tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la razón por la que este libro no da nunca una lista de normas, cosa que decepciona a mucho lector. Aristóteles sostiene que no es posible: ninguna regla puede especificar por adelantado cuánto valor pide esta batalla o cuánto dinero pide este amigo. El criterio último que ofrece es una persona: hay que hacer lo que haría en esa situación alguien prudente, y a esa persona hay que aprender a reconocerla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se puede ser un genio a los veinte en cualquier cosa que se deduzca; en lo que solo se conoce por experiencia no hay atajo, y ese es el punto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Se puede saber perfectamente lo que hay que hacer y hacer lo contrario",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro séptimo se enfrenta a un problema que Sócrates había resuelto negándolo. Sócrates sostenía que nadie obra mal a sabiendas: si alguien hace lo peor es porque en ese momento le parece lo mejor, o sea, por ignorancia. Aristóteles responde que esa tesis contradice de plano lo que se observa todos los días, y se pone a explicar cómo es posible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El fenómeno tiene nombre griego, «akrasía», y se traduce como incontinencia o debilidad de la voluntad. Es la situación de quien sabe que no debería, quiere no hacerlo, y lo hace igualmente; y se distingue del vicioso, que hace lo mismo pero convencido de que está bien. El incontinente se arrepiente; el vicioso, no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación es una distinción entre tener un conocimiento y tenerlo en uso. Compara al incontinente con el que está dormido, con el borracho o con el actor que recita versos de memoria sin entender lo que dice: puede pronunciar la frase correcta sobre lo que conviene y no tenerla operativa en ese instante. El deseo no derrota al conocimiento en un combate: lo desconecta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es la que se deduce de todo el libro y no de este capítulo: si el saber puede quedar desconectado en el momento de la tentación, entonces el trabajo no consiste en convencerse más, sino en haber convertido la conducta correcta en costumbre para que no dependa de estar convencido. Es exactamente lo que sostiene el libro segundo, y por eso el orden de los libros importa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El deseo no discute con lo que sabes: lo deja fuera de servicio un rato, y por eso convencerte más no funciona.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Repartir y reparar son dos justicias distintas y se calculan de otra manera",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro quinto contiene el análisis de la justicia que sigue estando debajo de casi todos los sistemas jurídicos occidentales. Aristóteles separa dos operaciones que solemos llamar igual. La justicia distributiva reparte lo que hay entre varios —cargos, honores, dinero público— y lo hace en proporción al mérito de cada uno, de modo que dos personas desiguales reciben cantidades desiguales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La justicia correctiva, en cambio, interviene cuando alguien ha dañado a otro, y ahí no importa quién sea cada uno. El juez mira solo el daño y lo que hay que restituir, tratando a las partes como iguales aunque una sea un ciudadano prominente y la otra no. La primera opera con proporciones; la segunda, con una simple resta que devuelve el equilibrio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El apartado más fino es el de la equidad, y de él viene una imagen que da gusto contar. Toda ley se enuncia en términos generales, y lo general no puede prever todos los casos, así que a veces aplicar la ley al pie de la letra produce una injusticia. La equidad es la corrección de la ley en ese punto. Y la compara con la regla de plomo que usaban los constructores de Lesbos, que en vez de obligar a la piedra a ser recta se adapta a la forma de la piedra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa imagen resume una idea jurídica que ha llegado hasta hoy: la ley no puede prever su propia aplicación, y necesita a alguien que decida cuándo su letra traiciona su propósito. Todo el debate moderno sobre la discrecionalidad judicial está prefigurado en esas dos páginas escritas hace veintitrés siglos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una regla general no puede prever todos los casos, así que aplicarla siempre al pie de la letra produce injusticias: eso no es un fallo, es su naturaleza.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dedica una quinta parte del libro a la amistad, y no es un exceso sentimental",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dos de los diez libros, casi una quinta parte del total, tratan de la amistad. A un lector moderno le parece desproporcionado en un tratado de ética, y esa reacción dice más de nuestra idea de la ética que de la suya: para Aristóteles, una vida lograda es una vida entre otros, y sin amigos nadie querría vivir aunque tuviera todos los demás bienes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Distingue tres clases según lo que se quiere del otro. La amistad por utilidad, en la que cada uno saca un provecho, como entre socios o entre vecinos que se hacen favores. La amistad por placer, en la que uno lo pasa bien con el otro, típica de los jóvenes. Y la amistad completa, la de los buenos, en la que cada uno quiere el bien del otro por el otro mismo y no por lo que obtiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las dos primeras no son falsas, y esto suele contarse mal: son amistades de verdad, solo que accidentales. Se acaban cuando se acaba el motivo, y por eso se deshacen tan fácilmente cuando uno cambia de trabajo o de ciudad. La tercera es rara, requiere que ambos sean buenas personas, y requiere sobre todo tiempo: no se puede saber si alguien lo es, dice, hasta haber comido con él la proverbial cantidad de sal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca dos conclusiones que aguantan bien. La primera, que no se pueden tener muchos amigos del tercer tipo, porque no da la vida. La segunda, que el amigo es otro yo: en él uno puede ver lo que hace y lo que es con una claridad que no tiene mirándose a sí mismo, y por eso la amistad no es un adorno de la vida buena sino una condición para conocerse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las amistades por interés o por diversión no son falsas: son verdaderas y accidentales, y por eso se acaban con el interés o con la diversión.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El último libro dice que la mejor vida es la del pensamiento, y con eso desmonta parte de lo anterior",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de nueve libros sobre cómo actuar bien entre los demás, el décimo da un giro que lleva discutiéndose desde entonces. Aristóteles sostiene que la actividad más alta de la que es capaz un ser humano es la contemplación: la actividad de la parte más divina de nosotros, la que no persigue ningún fin exterior, la que puede sostenerse más tiempo y la que menos depende de otros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema es de coherencia interna. Todo el libro anterior sostenía que la vida lograda consiste en actuar bien, que hacen falta bienes exteriores, que hacen falta amigos y una ciudad; y ahora resulta que la cima es una actividad solitaria que apenas necesita nada. Los comentaristas llevan un siglo discutiendo si la felicidad de Aristóteles incluye todo eso o si la contemplación lo domina todo, y el texto admite las dos lecturas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También conviene decir lo que salta a la vista: es la conclusión que más le conviene a un filósofo. Que la mejor vida posible resulte ser exactamente la que lleva quien escribe el libro es un resultado sospechoso, y no hay en el texto ningún argumento independiente que lo sostenga fuera del propio esquema de la función.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El final, en cambio, es de una lucidez que redime el capítulo. Aristóteles reconoce que los razonamientos no bastan para hacer buena a la gente: sirven para los que ya están bien dispuestos y no mueven a los demás, que solo obedecen al miedo. Por lo tanto hacen falta leyes y una educación pública desde la infancia. Y con esa frase anuncia que el asunto continúa en otro tratado, la «Política».",
+      },
+      {
+        b: "idea",
+        texto:
+          "Reconoce al final que argumentar no hace buena a la gente: para eso hacen falta costumbres y leyes, y por eso la ética termina en política.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la vida lograda no consiste en cumplir normas ni en calcular consecuencias, sino en llegar a ser cierta clase de persona, y que eso se consigue repitiendo actos hasta que dejan de costar. La ética se convierte así en una cuestión de entrenamiento y de compañía, no de reglas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta y no ha envejecido son cuatro cosas concretas: que el carácter se fabrica con actos, que la señal de haberlo conseguido es que deje de costar, que ninguna regla puede sustituir al criterio para el caso concreto, y que la amistad no es un adorno de una buena vida sino parte de ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en su base lógica y en su alcance. El paso de lo que es propio de la especie humana a lo que un ser humano debe hacer es un salto que la filosofía posterior ha rechazado mayoritariamente. Y hay una circularidad que él nunca resuelve: lo correcto es lo que haría el prudente, y el prudente es el que hace lo correcto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en quién cabe dentro. Su vida lograda exige tiempo libre, patrimonio y ciudadanía, es decir, excluye por construcción a la mayoría de los habitantes de su ciudad. Su autor defendió por escrito, en otro tratado, que hay hombres esclavos por naturaleza. Y el retrato del hombre magnánimo del libro cuarto, que camina despacio y se considera digno de grandes cosas, resulta hoy insufrible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su historia posterior explica por qué sigue aquí. El texto se perdió para la Europa latina durante siglos y volvió por la vía árabe: los comentaristas islámicos lo conservaron y en 1247 se tradujo del griego al latín, tras lo cual Tomás de Aquino lo convirtió en el armazón de la moral cristiana. Y en 1958 la filósofa Elizabeth Anscombe sostuvo que había que volver a él: de ahí nació la ética de la virtud.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Es el libro que dice que uno no se hace bueno decidiéndolo, sino repitiendo cosas hasta que dejan de costarle, y esa parte no la ha desmentido nadie.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "etica-nicomaco": ETICA_NICOMACO,
   "etica-amador": ETICA_AMADOR,
   "cuentos-poe": CUENTOS_POE,
   mujercitas: MUJERCITAS,

@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "etica-nicomaco": [
+    "por qué la felicidad de la que habla no se puede tener un martes",
+    "por qué nadie se vuelve justo entendiendo la justicia",
+    "qué dice de verdad la doctrina del término medio",
+    "cómo se puede saber lo correcto y hacer lo contrario",
+    "por qué dedica una quinta parte del libro a la amistad",
+  ],
+
   "etica-amador": [
     "por qué la libertad no consiste en poder hacerlo todo",
     "las tres cosas que confundimos con razones para actuar",
