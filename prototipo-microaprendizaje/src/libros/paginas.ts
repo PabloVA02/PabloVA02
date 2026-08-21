@@ -31757,12 +31757,12 @@ const GEN_HISTORIA: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Dónde falla. Son setecientas páginas y el tramo central, el de la genética molecular, se hace denso incluso para un lector interesado. El marco familiar, que sostiene bien el principio y el final, aparece a veces intercalado para dar peso emocional a discusiones técnicas donde no aporta nada. Y en los capítulos sobre genes e identidad —raza, sexo, orientación— trata en pocas páginas asuntos donde cada matiz importa, y algunos se pierden.",
+          "Dónde falla. Son setecientas páginas y el tramo central, el de la genética molecular, se hace denso incluso para un lector interesado. El marco familiar, que sostiene bien el principio y el final, se intercala a veces para dar peso emocional a discusiones técnicas donde no aporta. Y en los capítulos sobre genes e identidad —raza, sexo, orientación— trata en pocas páginas asuntos donde cada matiz importa, y algunos se pierden.",
       },
       {
         b: "texto",
         texto:
-          "Lo que vino después es lo que más cambia el libro. En noviembre de 2018, dos años después de publicarse, un investigador chino anunció el nacimiento de dos niñas cuyo genoma había editado en el embrión; la comunidad científica internacional lo condenó de forma unánime, y él fue juzgado y condenado a tres años de prisión en su país. Fue exactamente el escenario que Mukherjee plantea al final como hipótesis, y llegó antes de lo que nadie esperaba. En sentido contrario, en 2023 se aprobó en varios países la primera terapia basada en esa misma técnica de edición para tratar la anemia falciforme, esta vez sobre células de un paciente adulto y sin tocar la herencia.",
+          "Lo que vino después es lo que más cambia el libro. En noviembre de 2018, dos años después de publicarse, un investigador chino anunció el nacimiento de dos niñas cuyo genoma había editado en el embrión; la comunidad científica lo condenó de forma unánime y él fue condenado a tres años de prisión. Fue exactamente el escenario que Mukherjee plantea al final como hipótesis, y llegó antes de lo que nadie esperaba. En sentido contrario, en 2023 se aprobó en varios países la primera terapia basada en esa misma técnica de edición para tratar la anemia falciforme, esta vez sobre células de un adulto y sin tocar la herencia.",
       },
     ],
   },
