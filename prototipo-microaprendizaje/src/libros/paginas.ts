@@ -23290,7 +23290,7 @@ const CASA_ESPIRITUS: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Y lo envejece delante del lector. Trueba se va encogiendo físicamente a lo largo del libro —la novela dice que cada arrebato de furia le quita centímetros—, se queda solo, pierde a su mujer, a su hija y a su fortuna, y en las últimas cien páginas es un anciano que depende de la nieta a la que despreció y que le está dictando la historia que se está escribiendo.",
+          "Y lo envejece delante del lector. Trueba se va encogiendo físicamente a lo largo del libro —la novela dice que cada arrebato de furia le quita centímetros—, se queda solo, pierde a su mujer, a su hija y a su fortuna, y en las últimas cien páginas es un anciano que depende de la nieta a la que despreció y que le está dictando la historia que se está escribiendo. Allende ha contado que ese personaje es su abuelo, el destinatario de la carta que dio origen al libro, y que escribirlo desde dentro fue la única manera de quererlo y de no perdonarle nada.",
       },
       {
         b: "idea",
@@ -23315,7 +23315,7 @@ const CASA_ESPIRITUS: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "La novela no presenta eso como una casualidad novelesca ni como justicia poética. Lo presenta como una cuenta pendiente que alguien iba a cobrar. Trueba, ya viejo, comprende que lo que le está pasando a su nieta lo empezó él mismo en un potrero, medio siglo antes, y que en aquel momento no le pareció un delito porque el mundo entero estaba de acuerdo con él.",
+          "La novela no presenta eso como una casualidad novelesca ni como justicia poética. Lo presenta como una cuenta pendiente que alguien iba a cobrar. Trueba, ya viejo, comprende que lo que le está pasando a su nieta lo empezó él mismo en un potrero, medio siglo antes, y que en aquel momento no le pareció un delito porque el mundo entero estaba de acuerdo con él. Y hay un detalle que cierra la aritmética. La abuela de García le puso a su nieto el nombre del patrón porque estaba convencida de que algún día aquel apellido le abriría una puerta. Le abrió otra: la de saber, desde niño, exactamente cuánto le habían quitado.",
       },
       {
         b: "idea",
@@ -23340,7 +23340,7 @@ const CASA_ESPIRITUS: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Ese detalle es todo el conflicto de clase del libro en una imagen: no se le mata, se le quita el instrumento. Pedro Tercero aprende a tocar con lo que le queda, se convierte en un cantante popular conocido y muchos años después, cuando llega el golpe militar, es Trueba quien tiene que esconderlo en su casa para que no lo maten.",
+          "Ese detalle es todo el conflicto de clase del libro en una imagen: no se le mata, se le quita el instrumento. Pedro Tercero aprende a tocar con lo que le queda, se convierte en un cantante popular conocido y muchos años después, cuando llega el golpe militar, es Trueba quien tiene que esconderlo en su casa para que no lo maten. La escena tiene además su reverso económico, que es lo que la hace política y no personal. Los inquilinos de Las Tres Marías no cobraban en dinero, sino en papeletas que solo servían en la tienda de la hacienda, y por eso no podían irse: no tenían con qué pagarse el viaje.",
       },
       {
         b: "idea",
