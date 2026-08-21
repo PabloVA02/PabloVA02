@@ -32790,7 +32790,263 @@ const APOLOGIA_SOCRATES: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Discurso del método, en ocho páginas.
+
+   Breve: el original tiene menos de ochenta páginas.
+
+   Ensayo: titular que afirma, tercera persona.
+
+   La página 7 lleva la mejor objeción que recibió este sistema, y se la
+   hizo por carta la princesa Isabel de Bohemia en 1643. Descartes no supo
+   contestarla y sigue sin respuesta.
+   -------------------------------------------------------------------------- */
+
+const DISCURSO_METODO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El libro más famoso de la filosofía moderna era el prólogo de otro" },
+      {
+        b: "texto",
+        texto:
+          "En 1637 se publicó en Leiden, sin nombre de autor, un volumen de unas quinientas páginas que contenía tres tratados científicos: uno sobre óptica, otro sobre fenómenos atmosféricos y otro sobre geometría. Delante iba una introducción de menos de ochenta páginas en la que el autor explicaba cómo había llegado a trabajar de esa manera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De todo aquel volumen, lo único que se sigue leyendo es la introducción, que se conoce como Discurso del método. Su título completo, que ya nadie dice entero, era discurso del método para conducir bien la propia razón y buscar la verdad en las ciencias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y conviene saber qué había detrás, porque casi nadie lo asocia con este libro. El tercero de aquellos tratados contiene la geometría analítica: la unión del álgebra con la geometría, la idea de representar una curva mediante una ecuación y el sistema de coordenadas que lleva su nombre. Es probablemente su mayor aportación técnica y viajaba como apéndice de un prólogo filosófico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que contiene esa introducción: por qué está escrita en francés y no en latín, cuáles son sus cuatro reglas y de dónde las saca, qué hacer mientras se reconstruye todo, en qué consiste su duda y adónde lleva, por qué guardó su obra mayor en un cajón y qué objeción no supo responder nunca.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro que funda la filosofía moderna era el prólogo de un tratado de óptica, y en el apéndice iba la geometría analítica.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo escribió en francés para que pudiera leerlo cualquiera" },
+      {
+        b: "texto",
+        texto:
+          "La decisión más provocadora del libro no está en su contenido sino en su idioma. En 1637, la filosofía y la ciencia se escribían en latín, que era la lengua común de los sabios de Europa y también la garantía de que solo la leyeran ellos. Descartes lo escribió en francés.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y explica por qué al final del texto: porque espera que quienes se sirvan de su razón natural juzguen mejor sus opiniones que quienes solo creen en los libros antiguos, y porque quiere que lo entiendan incluso las mujeres, cosa que en aquel momento equivalía a decir cualquier persona con cabeza y sin estudios universitarios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa elección encaja con la primera frase del libro, que se cita mucho y casi siempre sin advertir que es una ironía. Dice que el buen sentido es la cosa mejor repartida del mundo, porque todo el mundo cree tener bastante: incluso los más difíciles de contentar en cualquier otro asunto no suelen desear más entendimiento del que ya tienen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hay detrás de la broma es una afirmación seria y es la que abre el libro: que la capacidad de razonar bien está repartida por igual, y que la diferencia entre unas personas y otras no está en la inteligencia sino en el método que usan. De ahí que lo que él ofrezca no sea una doctrina sino un procedimiento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La diferencia entre pensar bien y pensar mal no está en la inteligencia, que está repartida: está en el procedimiento que se usa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuatro reglas copiadas de cómo trabajan los matemáticos" },
+      {
+        b: "texto",
+        texto:
+          "El núcleo práctico del libro son cuatro reglas, y Descartes dice de dónde las ha sacado. Fue educado en uno de los mejores colegios de Europa, estudió todo lo que allí se enseñaba y salió convencido de que no había aprendido nada seguro, con una excepción: en matemáticas las demostraciones eran ciertas y nadie las discutía. Sus cuatro reglas son un intento de exportar esa manera de proceder a todo lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es la de la evidencia: no aceptar nunca nada como verdadero si no consta con tal claridad que no quede ninguna ocasión de ponerlo en duda, y evitar cuidadosamente la precipitación y la costumbre de dar por buenas las cosas porque lo dice alguien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es dividir cada dificultad en tantas partes como sea posible y como haga falta para resolverla. La tercera es empezar por los objetos más simples y fáciles de conocer e ir ascendiendo por grados hasta los más complejos, suponiendo incluso un orden entre los que no lo tienen de forma natural. Y la cuarta es hacer recuentos completos y revisiones generales, hasta estar seguro de no omitir nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Vistas hoy parecen de sentido común, y esa es la mejor prueba de su influencia: son el procedimiento estándar de cualquier trabajo técnico moderno. Descomponer un problema en partes, resolver primero lo sencillo, comprobar que no falta ningún caso y no dar nada por supuesto es exactamente lo que se enseña en cualquier ingeniería, y en 1637 no era evidente para nadie.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dividir el problema, empezar por lo fácil y comprobar que no falta ningún caso parece de sentido común porque este libro ganó.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Mientras se derriba la casa hay que vivir en algún sitio" },
+      {
+        b: "texto",
+        texto:
+          "Antes de ponerse a dudar de todo, Descartes plantea un problema práctico que casi ningún filósofo se había planteado. Si uno va a poner en cuestión todas sus creencias, incluidas las morales, va a pasar un tiempo sin saber qué hacer, y mientras tanto la vida sigue. Su comparación es doméstica: quien derriba su casa para reconstruirla necesita otra donde alojarse mientras dura la obra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Así que se da tres máximas provisionales. La primera es obedecer las leyes y las costumbres de su país y la religión en la que fue educado, y en todo lo demás guiarse por las opiniones más moderadas de la gente sensata que le rodea. Es una decisión prudente y también, en la Europa de 1637, bastante conveniente para seguir vivo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es la mejor del libro. Consiste en ser lo más firme y resuelto posible en las acciones una vez tomada una decisión, aunque la decisión sea dudosa, y seguirla como si fuera segura. Su imagen es la de alguien perdido en un bosque: lo peor que puede hacer es andar dando vueltas o cambiar continuamente de dirección; lo que tiene que hacer es elegir un rumbo y caminar recto, porque así al menos llegará a alguna parte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la tercera es directamente estoica: procurar vencerse a sí mismo antes que a la fortuna, y cambiar sus propios deseos antes que el orden del mundo, acostumbrándose a creer que nada está enteramente en nuestro poder salvo nuestros pensamientos. Es la misma idea de Epicteto, y Descartes la usa como alojamiento temporal mientras construye la casa nueva.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien se pierde en un bosque no debe dar vueltas buscando la salida: debe elegir un rumbo cualquiera y caminar recto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dudar de todo hasta que quede algo que no se pueda dudar" },
+      {
+        b: "texto",
+        texto:
+          "La cuarta parte es la más famosa y consiste en un experimento mental que hoy se enseña en cualquier bachillerato. Descartes se propone rechazar como absolutamente falso todo aquello en lo que pueda imaginar la menor duda, no porque crea que es falso, sino para ver si al final queda algo que resista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Empieza por los sentidos: como a veces engañan —un remo parece roto dentro del agua, una torre lejana parece redonda y es cuadrada—, decide no fiarse nunca de ellos. Sigue por el razonamiento: como hasta los mejores matemáticos cometen errores en demostraciones, rechaza también todo eso. Y llega al argumento más incómodo: no existe ninguna señal que permita distinguir con seguridad estar despierto de estar soñando, así que todo lo que percibe podría ser un sueño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí encuentra el punto que buscaba. Puede dudar de su cuerpo, del mundo, de sus recuerdos y de sus cálculos; lo que no puede es dudar de que hay alguien dudando. Para engañarse hay que existir. Y lo formula en la frase que ha quedado: pienso, luego existo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene saber qué es y qué no es esa frase. No es un silogismo ni una demostración de que hay un alma inmortal: es la comprobación de que existe al menos una cosa cierta, y de que esa cosa es una actividad. A partir de ahí, Descartes reconstruye el mundo entero apoyándose en un argumento sobre la existencia de Dios, que es la parte de su edificio que hoy no le compra nadie.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Para poder ser engañado hace falta existir, así que el engaño más completo posible sigue necesitando a alguien a quien engañar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Guardó su obra mayor en un cajón por lo que le pasó a Galileo" },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro explica por qué lo publica, y contiene un episodio de autocensura documentado que dice mucho de la época. Descartes tenía terminado un tratado sobre el mundo físico, mucho más ambicioso que estos ensayos, que contenía su sistema completo: una explicación mecánica de la naturaleza, con la Tierra en movimiento alrededor del Sol.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1633, estando a punto de mandarlo a imprimir, se enteró de que la Inquisición romana acababa de condenar a Galileo por sostener exactamente eso. Escribió a un amigo diciendo que había estado a punto de quemar sus papeles, que no quería publicar nada que contuviera una sola palabra desaprobada por la Iglesia y que prefería suprimir el libro antes que hacerlo aparecer mutilado. Guardó el manuscrito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquel tratado no se publicó hasta después de su muerte. Lo que hizo en su lugar fue este volumen de 1637: tres ensayos científicos donde no se dice nada del movimiento de la Tierra, precedidos de una introducción metodológica y publicados sin firma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El episodio explica también el tono cauteloso de todo el Discurso, sus repetidas declaraciones de fidelidad a la religión y su insistencia en que no pretende reformar nada más que sus propios pensamientos. Un lector que no conozca ese contexto puede tomar esa prudencia por convicción. De poco le sirvió a la larga: sus obras acabaron en el índice de libros prohibidos trece años después de su muerte.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tenía su gran libro terminado y lo guardó al enterarse de la condena de Galileo; no se publicó hasta después de morir él.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una princesa le hizo la objeción que no supo responder" },
+      {
+        b: "texto",
+        texto:
+          "De la duda cartesiana sale una división que ha marcado tres siglos de discusión: la que separa dos sustancias distintas, una cosa que piensa y no ocupa espacio, y una cosa que ocupa espacio y no piensa. El alma y el cuerpo. La mente y la materia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La objeción evidente se la planteó por escrito, en 1643, la princesa Isabel de Bohemia, que mantuvo con él una correspondencia filosófica de primer nivel durante años. Su pregunta era directa: si el alma no es material y no ocupa espacio, cómo consigue mover un brazo. Todo lo que sabemos sobre mover algo implica contacto, empuje y superficie, y una sustancia sin extensión no tiene nada de eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Descartes contestó varias veces y ninguna resultó convincente, ni para ella ni para él. En su última obra propuso que la comunicación ocurría en una pequeña glándula del centro del cerebro, la pineal, elegida porque es de las pocas estructuras que no está duplicada en los dos hemisferios. Aquella respuesta no la aceptó prácticamente nadie ya en su siglo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa correspondencia es lo mejor que le pasó a su filosofía y estuvo trescientos años fuera de los programas de estudio. La princesa Isabel no era una aficionada ilustre: identificó el punto exacto donde el sistema no cierra, y ese punto sigue abierto. La discusión actual sobre la relación entre los estados mentales y la actividad del cerebro es su descendiente directa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si el alma no ocupa espacio, cómo consigue mover un brazo: esa pregunta se la hizo una princesa por carta y sigue sin respuesta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El Discurso del método propone que la capacidad de razonar está repartida por igual y que lo que distingue a unos de otros es el procedimiento, ofrece cuatro reglas sacadas de la práctica matemática, propone una moral provisional para vivir mientras se reconstruyen las convicciones, y demuestra con una duda llevada al extremo que queda al menos una certeza: que hay alguien pensando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta y sigue en pie es el gesto. Empezar por cuenta propia, no aceptar nada porque lo diga una autoridad, descomponer los problemas y comprobar los pasos es hoy el procedimiento normal de cualquier trabajo serio, y en 1637 significaba romper con dos mil años de argumentación por citas de autores antiguos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No aceptar nada por venir de una autoridad y comprobar cada paso parece obvio hoy porque este libro se impuso, no porque lo fuera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Su reconstrucción del mundo después de la duda se apoya en una prueba de la existencia de Dios que hoy no convence a nadie, y encima con un problema de circularidad que le señalaron ya en vida: garantiza la fiabilidad de las ideas claras apelando a Dios, y demuestra a Dios mediante una idea clara. Su duda, además, es en buena medida un recurso expositivo: Descartes nunca dudó realmente de nada, y el edificio que levanta después llega asombrosamente rápido justo a las conclusiones que ya tenía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay dos herencias suyas que han envejecido mal. La separación entre mente y cuerpo, que la neurociencia actual ha abandonado por completo y que un neurólogo tituló como error suyo en un libro entero. Y su tesis de que los animales son máquinas sin sensibilidad, que era coherente con su sistema y que sirvió durante siglos para justificar la vivisección sin anestesia: es la parte más desagradable de su obra y no se puede pasar por alto al recomendarla.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "discurso-metodo": DISCURSO_METODO,
   "apologia-socrates": APOLOGIA_SOCRATES,
   tao: TAO_TE_CHING,
   enquiridion: ENQUIRIDION,

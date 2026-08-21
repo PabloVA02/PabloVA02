@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "discurso-metodo": [
+    "por qué lo escribió en la lengua vulgar y no en latín",
+    "cuáles son sus cuatro reglas y de dónde las sacó",
+    "qué hacer mientras uno pone en duda sus convicciones",
+    "adónde lleva dudar de absolutamente todo",
+    "qué objeción le hizo por carta la princesa Isabel",
+  ],
+
   "apologia-socrates": [
     "qué acusación pesaba realmente sobre él",
     "qué hizo cuando un oráculo lo declaró el más sabio",

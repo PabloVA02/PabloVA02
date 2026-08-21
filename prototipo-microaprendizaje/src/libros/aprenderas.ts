@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "discurso-metodo":
+    "Se publicó en 1637 sin firma y en francés en vez de en latín, para que pudiera leerlo cualquiera con cabeza y sin estudios. Y no era un libro: era el prólogo de setenta páginas de un volumen de tratados científicos.",
+
   "apologia-socrates":
     "Un ateniense de setenta años pisa un tribunal por primera vez, acusado de impiedad y de corromper a la juventud. La ciudad acababa de perder una guerra y una ley de amnistía impedía juzgarlo por lo que de verdad se le reprochaba.",
 

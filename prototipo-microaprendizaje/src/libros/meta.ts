@@ -232,22 +232,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "discurso-metodo",
-    titulo: "Discurso del método",
-    autor: "René Descartes",
-    ano: 1637,
-    gancho: "Un soldado de veintitrés años se queda encerrado por la nieve en una habitación con estufa, tiene tres sueños esa noche y decide refundar el conocimiento entero.",
-    porQue: "Son sesenta páginas de las que sale la filosofía moderna y también la geometría analítica. Y la frase por la que se le conoce no está escrita como se cita, ni significa lo que se le hace decir.",
-    minutos: 24.6,
-    capitulos: [
-      { titulo: "La habitación de la estufa, noviembre de 1619", minutos: 5.2 },
-      { titulo: "El colegio de La Flèche", minutos: 4.8 },
-      { titulo: "Las cuatro reglas", minutos: 4.7 },
-      { titulo: "El cogito", minutos: 4.7 },
-      { titulo: "Estocolmo, febrero de 1650", minutos: 5.1 },
-    ],
-  },
-  {
     id: "contrato-social",
     titulo: "El contrato social",
     autor: "Jean-Jacques Rousseau",
