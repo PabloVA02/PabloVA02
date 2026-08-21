@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "rey-del-mundo": [
+    "qué dos papeles encarnaban Patterson y Liston",
+    "de dónde sacó su manera de hablar en público",
+    "qué pasó de verdad en Miami en febrero de 1964",
+    "por qué la prensa se negó a usar su nombre nuevo",
+    "cómo acabó su amistad con Malcolm X",
+  ],
+
   "remando-un-hombre": [
     "qué es el momento en que un bote parece levantarse",
     "por qué los ocho mejores remeros no forman el mejor equipo",

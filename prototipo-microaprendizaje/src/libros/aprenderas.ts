@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "rey-del-mundo":
+    "De 1960 a 1965. Remnick cuenta cómo un chico de Louisville se negó a aceptar los dos papeles que su país reservaba a un campeón negro, y cómo la prensa de la época se equivocó entera y por escrito.",
+
   "remando-un-hombre":
     "Hijos de leñadores y pescadores arruinados por la Depresión aprenden a remar a los diecinueve años y ganan en Berlín en 1936. Detrás va un chico abandonado por su familia aprendiendo a depender de otros ocho.",
 

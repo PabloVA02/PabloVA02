@@ -61108,7 +61108,271 @@ const REMANDO_UN_HOMBRE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Rey del mundo, en ocho páginas.
+
+   Breve. Biografía narrativa → títulos cortos de imagen, la afirmación en
+   la primera frase y la caja del rayo en segunda persona (apartado 3 bis).
+
+   El libro no cubre la carrera entera: va de 1960 a 1965 y el resto está en
+   un epílogo. El resumen respeta ese recorte y mete lo demás en la
+   conclusión, que es donde va lo que pasó después.
+
+   Riesgo principal: santificarlo. Se cuentan también las crueldades —lo que
+   les hizo a Patterson y a Terrell, y sobre todo a Malcolm X— porque están
+   en el libro y porque sin ellas el personaje no se entiende.
+   -------------------------------------------------------------------------- */
+
+const REY_DEL_MUNDO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "La bicicleta robada" },
+      {
+        b: "texto",
+        texto:
+          "A los doce años le robaron la bicicleta en Louisville y fue a denunciarlo a un policía que resultó ser entrenador de boxeo. El niño dijo que quería darle una paliza al ladrón y el policía le contestó que antes tendría que aprender a pelear. Así entró Cassius Clay en un gimnasio, y esa es la única parte de su biografía que todo el mundo conoce.",
+      },
+      {
+        b: "texto",
+        texto:
+          "David Remnick, director de una revista de Nueva York y premio Pulitzer por un libro sobre el final de la Unión Soviética, no escribió una biografía completa. Escribió los cinco años que van de 1960 a 1965, que son los que convirtieron a un chico de Kentucky en el hombre más famoso del planeta y, de paso, cambiaron lo que un deportista podía decir en público.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1960 ganó el oro olímpico en Roma con dieciocho años y volvió a casa con la medalla puesta. La leyenda, que él mismo difundió años después, dice que la tiró al río al negarle un restaurante el servicio por ser negro. Remnick reúne las pruebas y concluye que probablemente no ocurrió: la medalla se perdió, sin más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Que el episodio sea falso no lo hace menos revelador. Un campeón olímpico negro volvía en 1960 a una ciudad donde había fuentes separadas y no podía comer en cualquier sitio, y el país entero prefirió durante décadas la versión dramática antes que mirar la corriente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando una historia falsa se repite mucho, suele ser porque resulta más cómoda que la verdadera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los dos papeles disponibles" },
+      {
+        b: "texto",
+        texto:
+          "El libro está construido alrededor de tres boxeadores, y los dos primeros existen para explicar al tercero. Estados Unidos tenía dos papeles preparados para un campeón negro de los pesos pesados, y ni uno solo más: el bueno y el peligroso. Floyd Patterson y Sonny Liston los ocupaban con una exactitud casi insultante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Patterson era el aceptable. Educado, tímido, partidario de la integración, pedía perdón después de ganar y se marchaba de los estadios con barba postiza cuando perdía para que no le reconocieran. La prensa blanca lo adoraba porque no molestaba a nadie, y él vivía aterrorizado por la posibilidad de decepcionar a esa prensa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Liston era el otro. Uno de más de veinte hermanos de una familia de aparceros de Arkansas, analfabeto, con antecedentes penales y con vínculos reales con la mafia de San Luis. Los periódicos lo describían con un vocabulario de zoológico. Cuando noqueó a Patterson en el primer asalto, dos veces seguidas, el país lo vivió como una desgracia nacional.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El chico de Louisville miró aquel reparto y se negó a entrar en ninguna de las dos casillas. No iba a ser humilde ni iba a ser mudo, y esa negativa —más que ningún combate— es el asunto real del libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi siempre te ofrecen dos papeles y los dos los ha escrito otro: puedes negarte a los dos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nadie hablaba así" },
+      {
+        b: "texto",
+        texto:
+          "Antes de él, un boxeador daba las gracias, elogiaba a su rival y decía que había tenido suerte. Clay recitaba versos propios en las ruedas de prensa, anunciaba en qué asalto iba a ganar, se llamaba a sí mismo el más grande y el más guapo, y se presentaba en los entrenamientos de sus rivales a gritar. En 1962 aquello no lo había hecho nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Remnick cuenta de dónde lo sacó, y el origen es magnífico. Coincidió en una emisora de radio con un luchador profesional que actuaba con una melena teñida y un séquito, insultaba al público y llenaba pabellones enteros de gente que pagaba por verle perder. El chico entendió el mecanismo en una tarde: al que odian, van a verlo igual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que parecía chulería era también un cálculo económico bastante frío. Cada frase suya vendía entradas y aumentaba su bolsa, y en un deporte donde el promotor se queda casi todo, ser el que llena la sala es la única manera de negociar. Le funcionó desde el primer combate profesional.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y tenía un tercer efecto, el más importante. Un joven negro diciendo en la televisión de 1963 que era el más guapo y el más listo del país estaba haciendo algo que no tenía nada que ver con el boxeo, y millones de personas lo entendieron perfectamente, incluidas las que se ofendieron.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El que decide cómo se habla de él deja de depender de cómo lo cuenten los demás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Miami, 25 de febrero de 1964" },
+      {
+        b: "texto",
+        texto:
+          "Cuando por fin se enfrentó a Liston por el título, las casas de apuestas lo daban perdedor por siete a uno y cuarenta y tres de los cuarenta y seis periodistas acreditados pronosticaron que perdería. Varios escribieron que temían por su integridad física. Él pasó el pesaje gritando como un loco, y el médico del combate le tomó el pulso y lo declaró histérico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Remnick sostiene que aquel espectáculo era pura estrategia. Clay quería que Liston llegase convencido de que iba a ganar sin esfuerzo y de que tenía delante a un chalado. La táctica sobre el ring fue la contraria a lo esperado: no cambiar golpes, moverse en círculos, dejar que el otro fallara y castigarle al salir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el quinto asalto ocurrió lo que casi lo arruina todo. Algo le entró en los ojos —probablemente un producto usado en la esquina de su rival— y peleó un asalto entero prácticamente ciego, con las manos abiertas, esquivando de memoria. Su entrenador le empujó al centro del cuadrilátero cuando quiso abandonar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al terminar el sexto, Liston se quedó sentado en su taburete y no salió. El chico de veintidós años saltó las cuerdas, se encaró con los periodistas que le habían enterrado durante meses y les gritó que se comieran sus palabras y que había puesto el mundo del revés. Tenía razón en las dos cosas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Al que te espera confiado se le gana cambiando el juego, no jugando mejor al suyo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ya no me llamo así" },
+      {
+        b: "texto",
+        texto:
+          "A la mañana siguiente de ganar el título anunció que era musulmán y miembro de la Nación del Islam, y una semana después Elijah Muhammad le dio un nombre nuevo. Ese fue el escándalo verdadero, mucho mayor que cualquier combate: el campeón de los pesos pesados de Estados Unidos acababa de renunciar en público a su apellido de nacimiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene entender qué era aquella organización. No era el islam mayoritario: era un grupo separatista negro con una teología propia, que predicaba que la convivencia con los blancos era imposible y que rechazaba el movimiento de derechos civiles por integracionista. Para la América de 1964 resultaba mucho más inquietante que cualquier otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prensa deportiva respondió negándose a usar el nombre. Los cronistas más importantes del país siguieron escribiendo el antiguo durante años, algunos hasta su muerte, con el argumento de que un hombre no puede cambiarse de nombre por capricho. Él respondió a golpes: en 1967 castigó durante quince asaltos a un rival que le llamaba por el nombre viejo, preguntándole cómo se llamaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Remnick trata ese episodio sin admiración. La escena es cruel y calculada, igual que las burlas racistas con las que humilló a Patterson, al que llamaba en público sirviente de los blancos. El hombre que exigía que le llamaran por su nombre negaba a otros negros el derecho a ser lo que quisieran.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Exigir que te respeten como eres no te convierte automáticamente en alguien que respeta a los demás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Malcolm" },
+      {
+        b: "texto",
+        texto:
+          "El hombre que le llevó a la Nación del Islam fue Malcolm X, que tenía treinta y ocho años y era el orador más brillante del país. Se hicieron amigos de verdad: Malcolm estuvo en Miami la semana del combate, comieron juntos, viajaron juntos, y el joven campeón le trataba como a un hermano mayor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Poco después, Malcolm rompió con Elijah Muhammad al descubrir la conducta privada del líder y quedó fuera de la organización. Ali eligió a la organización. Se cruzaron en un aeropuerto de Ghana en 1964 y él le negó el saludo delante de todo el mundo, con una frase despectiva sobre su ropa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En febrero de 1965, Malcolm X fue asesinado a tiros en Nueva York por miembros de la organización de la que ambos habían formado parte. Ali no fue al funeral. Muchos años más tarde escribiría que aquel desprecio en el aeropuerto fue el error del que más se arrepentía en su vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El episodio es el centro moral del libro. Enseña a un chico de veintidós años, recién convertido en la persona más famosa del país, obedeciendo a una organización que le protegía y le usaba, y sacrificando a la única persona que le había tratado como a un igual. Nada de eso se cuenta con indulgencia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El grupo que te acoge también te va a pedir que abandones a alguien: conviene saberlo antes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los que no lo vieron venir" },
+      {
+        b: "texto",
+        texto:
+          "El personaje al que Remnick dedica más atención después de los boxeadores no es un boxeador: es la prensa. Los grandes cronistas deportivos de los años sesenta eran hombres blancos, mayores, formados en los años treinta, que habían construido su prestigio contando héroes discretos y que se encontraron delante de alguien que no encajaba en una sola línea de lo que sabían escribir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus textos de la época, que el libro cita en abundancia, resultan hoy difíciles de leer. Llamaban payaso al mejor boxeador que habían visto, escribieron que su religión era una farsa y su nombre una impostura, y varios celebraron abiertamente que le quitaran el título cuando se negó a ir a la guerra de Vietnam.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás había un cambio de generación en el oficio. Los periodistas jóvenes que le siguieron entendieron que el deporte era un sitio donde se discutía la raza, la religión y la guerra, y empezaron a escribir de otra manera. El personaje obligó a su propia prensa a cambiar de método.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Remnick, que dirige una revista y conoce el asunto desde dentro, saca de ahí la moraleja del libro sin enunciarla. Los que cuentan una época casi siempre se equivocan con lo verdaderamente nuevo, porque lo miden con la vara de lo anterior, y suelen tardar veinte años en admitirlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El que juzga lo nuevo con la vara de lo anterior se equivoca casi siempre, y tú también.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Rey del mundo cuenta cinco años, de 1960 a 1965, y sostiene que en ellos ocurrió algo más grande que un cambio de campeón. Un joven negro de Kentucky se negó a aceptar los dos papeles que su país tenía preparados para él, se cambió de nombre y de religión en público y obligó a Estados Unidos a discutir en la sección de deportes lo que no quería discutir en ninguna otra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es el método de Remnick: la biografía de un hombre contada a través de la prensa que lo describió mal. Al reproducir lo que se escribía entonces, el libro documenta cómo una sociedad entera se equivoca a la vez, con buena conciencia y por escrito, sobre lo que tiene delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla por recorte. Se detiene en 1965, así que la negativa a ir a Vietnam, los tres años y medio sin licencia, los combates contra Frazier y la pelea de Zaire quedan en un epílogo apresurado, y esa es justo la parte que convirtió al personaje en un símbolo mundial. Quien busque la carrera completa tiene que leer otro libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y tiene un punto ciego. Remnick admira a su personaje y lo trata con más comprensión que a nadie más: cuando Ali es cruel, se explica; cuando lo son los demás, se juzga. Del papel del deporte como negocio, de quién ganaba dinero con aquellos combates y de la propia Nación del Islam como aparato de poder hay bastante menos de lo que el asunto pedía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después está en los libros de historia. Se negó a incorporarse al ejército en 1967, le retiraron el título y la licencia, y en 1971 el Tribunal Supremo le dio la razón por unanimidad. Le diagnosticaron párkinson en 1984, encendió la llama olímpica temblando en Atlanta en 1996 delante del mundo entero y murió en 2016 convertido en lo contrario de lo que aquellos cronistas anunciaron.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que en su momento parece insolencia intolerable, treinta años después se enseña como valentía.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "rey-del-mundo": REY_DEL_MUNDO,
   "remando-un-hombre": REMANDO_UN_HOMBRE,
   "mamba-mentality": MAMBA_MENTALITY,
   "once-anillos": ONCE_ANILLOS,
