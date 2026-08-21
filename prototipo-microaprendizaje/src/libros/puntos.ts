@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  montecristo: [
+    "quiénes lo denunciaron y qué ganaba cada uno",
+    "qué le enseña el preso de la celda de al lado",
+    "por qué no mata a ninguno de los tres",
+    "cómo arruina a cada uno con su propio vicio",
+    "en qué momento la venganza se le va de las manos",
+  ],
+
   "moby-dick": [
     "qué barco hundió una ballena de verdad en 1820",
     "qué jura la tripulación alrededor del doblón",

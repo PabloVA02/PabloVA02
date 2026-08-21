@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  montecristo:
+    "A un marinero de diecinueve años lo detienen en su propia boda por una denuncia falsa y lo encierran catorce años. Sale convertido en otra persona y dedica nueve años a devolver el golpe.",
+
   "moby-dick":
     "Un capitán arrastra a treinta hombres al Pacífico para vengarse del cachalote blanco que le arrancó una pierna. Un tercio del libro no es novela: es un tratado sobre ballenas.",
 

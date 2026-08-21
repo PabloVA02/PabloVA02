@@ -16769,7 +16769,233 @@ const MOBY_DICK: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El conde de Montecristo, en ocho páginas.
+
+   Breve. Registro narrativo.
+
+   Lo que casi nadie sabe y aquí sí está: que la trama salió de un
+   expediente real de la policía de París; que Montecristo no mata a
+   ninguno de los cuatro con sus manos, sino que arruina a cada uno con su
+   propio vicio; que la venganza se le va de las manos con un niño; y que
+   las ediciones que circulan suelen estar recortadas casi a la mitad.
+   -------------------------------------------------------------------------- */
+
+const MONTECRISTO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un expediente de la policía de París" },
+      {
+        b: "texto",
+        texto:
+          "En los archivos de la prefectura de París había un caso de 1807: un zapatero llamado Pierre Picaud, a punto de casarse con una mujer rica, fue denunciado como espía por tres amigos que le tenían envidia, con un cuarto que lo sabía y se calló. Pasó siete años preso sin juicio. Allí dentro cuidó a un clérigo italiano moribundo que le dejó en herencia un tesoro escondido. Salió, lo encontró, y dedicó el resto de su vida a destruir a los cuatro, uno por uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Alejandro Dumas leyó ese expediente publicado y le añadió lo que le faltaba: el mar, Napoleón, un castillo en una isla, un tesoro descomunal y una venganza que dura nueve años y se ejecuta con paciencia de contable. El resultado se publicó por entregas entre 1844 y 1846 en un periódico, ciento treinta y nueve capítulos, con los lectores esperando la siguiente cada semana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La historia empieza en Marsella en 1815. Edmond Dantès tiene diecinueve años, acaban de ascenderlo a capitán de un barco mercante y se casa esa misma tarde con Mercedes. En una hora lo pierde todo: lo detienen en su propio banquete de bodas por una denuncia anónima y lo encierran sin juicio en una isla frente al puerto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren quiénes lo denunciaron y por qué, qué le pasa en los catorce años de calabozo, cómo sale, en qué consiste exactamente su venganza, dónde se le va de las manos y con qué dos palabras termina el libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La novela de venganza más famosa que existe salió de un expediente policial de tres páginas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuatro hombres y cuatro motivos" },
+      {
+        b: "texto",
+        texto:
+          "La denuncia no es obra de un villano: es obra de cuatro personas normales con cuatro motivos corrientes, y ahí está la parte más fina del libro. Danglars, el contable del barco, quiere el puesto de capitán que le han dado a Dantès y es quien redacta el papel, con la mano izquierda para que no se reconozca su letra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fernand, primo de Mercedes, quiere a Mercedes y solo tiene que echar la carta al correo. Caderousse, el vecino sastre, está delante mientras los otros dos lo preparan, está borracho, cree que es una broma y no dice nada: su delito es no haber abierto la boca. Los tres desaparecen esa noche y solo uno de ellos vuelve a acordarse del asunto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falta el cuarto, que es el peor. Villefort, el fiscal, interroga a Dantès, se convence en cinco minutos de que es inocente y está a punto de soltarlo. Entonces lee el nombre del destinatario de la carta que el chico llevaba sin saber lo que era: su propio padre, un bonapartista. Si aquello sale a la luz, su carrera se acaba. Quema la carta y firma la orden de encierro perpetuo del hombre que sabe inocente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ninguno de los cuatro es un monstruo: son un ascenso, un enamoramiento, un silencio de borracho y una carrera que proteger.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Catorce años y un vecino" },
+      {
+        b: "texto",
+        texto:
+          "El castillo de If está en un islote a la vista de Marsella, así que Dantès pasa catorce años mirando por un ventanuco la ciudad donde vive su prometida. Los primeros años se los pasa esperando que alguien corrija el error. Después pide papel para escribir al rey. Después deja de comer, decide morirse, y cuando lleva varios días sin probar bocado oye un ruido de rascar en la pared.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es el abate Faria, un preso italiano al que todos toman por loco porque promete millones a quien lo saque. Lleva años cavando un túnel y se ha equivocado de dirección: en vez de llegar al exterior ha llegado a la celda de al lado. Ese error, dice el libro, es lo que salva a los dos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y entonces empieza lo que de verdad importa. Faria era secretario de un cardenal, sabe media docena de idiomas, matemáticas, química, historia y esgrima, y se pasa años enseñándoselo todo a un marinero que apenas sabía leer. Dantès entra en la cárcel siendo un chico simpático y sale siendo un hombre instruido, y esa transformación es lo que hace posible todo lo demás: sin los catorce años no hay conde.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El túnel que se equivocó de dirección le dio catorce años de universidad, y esa fue la verdadera fuga.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La pregunta que lo cambia todo" },
+      {
+        b: "texto",
+        texto:
+          "La escena decisiva no es la fuga: es una conversación. Dantès le cuenta a Faria su historia y el viejo, que ha pasado la vida entre intrigas de palacio, se limita a hacerle preguntas. A quién beneficiaba tu ascenso. Quién sabía lo de la carta. Quién estaba delante. Qué ganaba cada uno. En media hora, sin salir del calabozo, le reconstruye la conspiración entera con nombres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dantès, que llevaba catorce años creyendo en un error administrativo, descubre en una tarde que su vida se la quitaron cuatro personas concretas por cuatro motivos concretos. Faria se arrepiente en el acto de habérselo dicho: dice que le acaba de meter en la cabeza algo que ya no podrá quitarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el viejo le deja además lo otro. Antes de morir de un ataque le explica dónde está el tesoro de una familia italiana extinguida, escondido en la isla de Montecristo, que él descubrió leyendo un papel viejo y que nadie creyó porque lo contaba un preso. Dantès se mete en el saco mortuorio con un cuchillo, deja el cadáver del abate en su cama, lo tiran al mar desde el acantilado con una bala en los pies, corta la tela debajo del agua y sale nadando.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que lo saca del calabozo no es el cuchillo: son cuatro preguntas bien hechas por alguien que sabía dónde mirar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nueve años preparándolo" },
+      {
+        b: "texto",
+        texto:
+          "Entre la fuga y la venganza pasan nueve años que el libro casi no cuenta, y son de trabajo. Dantès recupera el tesoro, compra la isla, se hace con un título, aprende a moverse por media Europa, monta una red de contactos, financia bandidos en Roma, se inventa varias identidades —un conde, un abate italiano, un banquero inglés, un marinero maltés— y va reuniendo la información de lo que ha sido de cada uno de los cuatro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando aparece en París, veintitrés años después de la denuncia, los cuatro han prosperado. Danglars es barón y banquero riquísimo. Fernand es conde, general y héroe condecorado, casado con Mercedes. Villefort es fiscal general. Caderousse es un posadero arruinado y alcohólico, el único que no sacó nada. Ninguno sospecha quién es el conde que da fiestas y del que todo París habla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí está lo que separa este libro de las venganzas corrientes: Montecristo no mata a ninguno de los tres grandes. Lo que hace es investigarlos, encontrar el delito que cada uno tiene escondido y colocar las piezas para que se destruyan con lo suyo. Es una operación paciente, cara y sobre todo indirecta: él nunca aparece con un arma.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No los mata: les pone delante lo que hicieron y les deja que se hundan con su propio peso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cada uno con su vicio" },
+      {
+        b: "texto",
+        texto:
+          "Al banquero lo arruina por donde peca: la codicia. Le pasa informaciones falsas por telégrafo, le organiza pérdidas en bolsa, le hunde inversiones y le va vaciando la caja hasta dejarlo en la miseria, y remata el trabajo dejándolo secuestrado por bandidos que le cobran cien mil francos por cada pollo asado hasta que se le acaba el dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al general lo destruye por donde tiene el honor. Descubre y hace pública la traición con la que hizo su fortuna en Grecia: vendió al bajá de Janina, lo hizo fusilar y vendió como esclavas a su mujer y a su hija. Lo prueba en el Senado con la propia hija, Haydée, a la que Montecristo había comprado y educado. El general pierde el nombre, el hijo lo desafía, la mujer lo reconoce todo y él se pega un tiro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al fiscal lo hunde por donde ha ido construyendo su carrera: por sus muertos escondidos. Saca a la luz que enterró vivo a un hijo recién nacido que tuvo con una amante, y le organiza el terreno para que sea su propia mujer quien vaya envenenando a media familia con tal de heredar. Villefort acaba juzgando en el tribunal un caso en el que el acusado es su hijo abandonado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "A cada uno lo destruye lo mismo que lo hizo grande: la codicia, el honor comprado y una carrera hecha de expedientes tapados.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El día en que se le fue de las manos" },
+      {
+        b: "texto",
+        texto:
+          "El libro tiene un punto en el que la venganza deja de ser justa, y Dumas lo pone a propósito. La mujer de Villefort, acorralada por su marido, envenena a su hijo pequeño, Édouard, y se envenena ella. Montecristo llega a la casa, sube corriendo y encuentra al niño muerto en un sofá. Ha calculado durante nueve años cada movimiento y no había calculado eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que viene después es la mejor página del libro. Montecristo, que llevaba media novela hablando como si fuera un instrumento de la Providencia, duda por primera vez. Vuelve al castillo de If, entra en su antigua celda, lee lo que escribió el abate en la pared y se pregunta si tenía derecho a lo que ha hecho. La respuesta que se da es que no del todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ahí desmonta la última parte de su plan. Le perdona la vida a Danglars cuando ya lo tiene arruinado y lo deja marchar con cincuenta mil francos, y se dedica a arreglar lo que puede: salva a la familia del armador que intentó ayudarle en 1815, casa a los jóvenes que le importan y le deja a Mercedes la casa donde vivieron. Y se va.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un plan de nueve años lo puede romper una cosa que no estaba en el plan, y ahí se ve de qué está hecho quien lo hizo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El conde de Montecristo cuenta cómo un marinero de diecinueve años pierde su vida por una denuncia, la recupera catorce años después convertido en otra persona y dedica nueve años a devolver el golpe con una precisión de relojero. Su tesis no es que la venganza sea dulce: es que se puede ejecutar con inteligencia, que sale carísima en tiempo y en alma, y que en algún punto atropella a alguien que no tenía nada que ver.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un mecanismo narrativo que después ha usado todo el mundo: el que vuelve disfrazado, se sienta a la mesa de los que le hicieron daño y va colocando las piezas mientras los otros no saben con quién están cenando. Y una fórmula final que resume el libro en dos palabras: toda la sabiduría humana está en esperar y confiar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Esperar y confiar: eso es lo que deja escrito al final el hombre que se pasó veintitrés años haciendo lo contrario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es larguísimo —mil trescientas páginas— y se nota que se publicaba por entregas y se cobraba por línea: hay tramas enteras que se podrían quitar, como los bandidos romanos, y personajes que aparecen para llenar dos capítulos. Muchas ediciones baratas están recortadas casi a la mitad sin decirlo, así que conviene mirar cuántas páginas tiene la que uno compra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay dos cosas que hoy se leen peor. La primera es Haydée: una mujer que Montecristo compró como esclava siendo una niña, a la que educó él mismo, y con la que el libro termina emparejándolo con toda naturalidad. La segunda es el propio conde, que en la parte central del libro se comporta como si fuera un dios que reparte premios y castigos, y que solo se baja de ahí cuando muere un niño. El libro lo corrige, pero tarda mil páginas.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  montecristo: MONTECRISTO,
   "moby-dick": MOBY_DICK,
   dracula: DRACULA,
   "dorian-gray": DORIAN_GRAY,

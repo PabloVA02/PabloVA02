@@ -109,7 +109,6 @@ const CARGADORES: Record<string, Cargador> = {
   "chico-pijama": () => import("./historia").then((m) => m.CHICO_PIJAMA),
   "pedro-paramo": () => import("./literatura").then((m) => m.PEDRO_PARAMO),
   "madame-bovary": () => import("./literatura").then((m) => m.MADAME_BOVARY),
-  montecristo: () => import("./literatura").then((m) => m.MONTECRISTO),
   "bernarda-alba": () => import("./literatura").then((m) => m.BERNARDA_ALBA),
   "ana-karenina": () => import("./literatura").then((m) => m.ANA_KARENINA),
   rayuela: () => import("./literatura").then((m) => m.RAYUELA),

@@ -1496,22 +1496,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "montecristo",
-    titulo: "El conde de Montecristo",
-    autor: "Alejandro Dumas",
-    ano: 1844,
-    gancho: "A un marinero de diecinueve años lo detienen en su propia boda por una carta que no ha leído. Sale de la cárcel catorce años después con un plan y una fortuna.",
-    porQue: "Es la novela de venganza que han copiado todas las demás durante ciento ochenta años. Y en su último tercio hace algo que sus imitadores no copian: preguntarse si el vengador tiene derecho a lo que está haciendo.",
-    minutos: 22.5,
-    capitulos: [
-      { titulo: "El puerto de Marsella, 1815", minutos: 4.7 },
-      { titulo: "El castillo de If", minutos: 4.4 },
-      { titulo: "La isla de Montecristo", minutos: 4.8 },
-      { titulo: "La casa de Auteuil", minutos: 4.2 },
-      { titulo: "La vela en el horizonte", minutos: 4.4 },
-    ],
-  },
-  {
     id: "rayuela",
     titulo: "Rayuela",
     autor: "Julio Cortázar",
