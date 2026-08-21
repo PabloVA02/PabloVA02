@@ -15828,27 +15828,27 @@ const SENOR_MOSCAS: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Lo que aporta es un mecanismo que se reconoce fuera de la isla: lo urgente comiéndose a lo importante, el miedo a algo que nadie ha comprobado, el líder que promete carne frente al que pide esfuerzo, y el grupo que primero se ríe del raro y acaba linchándolo sin que nadie lo haya decidido.",
+          "El señor de las moscas cuenta cómo un grupo de niños bien educados monta una democracia en una playa y la desmonta en unas semanas, y sostiene que lo que falla no son las circunstancias sino ellos: que el defecto está dentro y que las normas solo lo tapan mientras hay alguien mirando. Golding lo escribió a propósito contra las novelas de aventuras que decían lo contrario.",
       },
       {
         b: "texto",
         texto:
-          "Lo que aporta es un mecanismo que se reconoce fuera de la isla: lo urgente comiéndose a lo importante, el miedo a algo que nadie ha comprobado, el líder que promete carne y protección frente al que pide esfuerzo y paciencia, y el grupo que primero se ríe del raro, luego lo aparta y por último lo linchea sin que nadie lo haya decidido.",
+          "Lo que aporta es un mecanismo que se reconoce fuera de la isla: lo urgente comiéndose a lo importante, el miedo a algo que nadie ha comprobado, el líder que promete carne frente al que pide esfuerzo, y el grupo que primero se ríe del raro y acaba linchándolo sin que nadie lo haya decidido.",
       },
       {
         b: "idea",
+        texto:
+          "Puede que la bestia seamos nosotros, dice el único que lo entiende, y no le dejan terminar la frase.",
+      },
+      {
+        b: "texto",
         texto:
           "Dónde falla. En la isla no hay ni una niña, y el propio Golding dijo que no sabría escribirlas; eso deja su tesis sobre la naturaleza humana apoyada en media especie. Y el simbolismo, a partir de la cabeza de cerdo, se pone a explicarse a sí mismo más de la cuenta.",
       },
       {
         b: "texto",
         texto:
-          "Y hay un contraejemplo real que conviene conocer, porque el libro se cita como si fuera un experimento. En 1965, seis chicos de entre trece y dieciséis años se escaparon en barca de un internado de Tonga, naufragaron en un islote llamado ʻAta y estuvieron quince meses solos. Cuando los encontraron habían montado huertos y gallineros, mantenían un fuego encendido desde el primer año, resolvían las peleas mandando a los dos a esquinas opuestas de la isla hasta que se les pasara, y a uno que se rompió una pierna lo entablillaron y lo cuidaron. Estaban todos vivos. Es un solo caso, pero es el único naufragio de niños de verdad que ha ocurrido, y salió al revés.",
-      },
-      {
-        b: "texto",
-        texto:
-          "Y hay un contraejemplo real que conviene conocer, porque el libro se cita todo el rato como si fuera un experimento. En 1965, seis chicos de entre trece y dieciséis años se escaparon en barca de un internado de Tonga, naufragaron en un islote llamado ʻAta y estuvieron quince meses solos. Cuando los encontraron habían montado huertos, gallineros y turnos de guardia, mantenían un fuego encendido desde el primer año, resolvían las peleas mandando a los dos a esquinas opuestas de la isla hasta que se les pasara, y a uno que se rompió una pierna lo entablillaron y lo cuidaron hasta que sanó. Estaban todos vivos y sanos. Es un solo caso y no demuestra la tesis contraria, pero es el único naufragio de niños de verdad que ha ocurrido, y salió al revés que en el libro.",
+          "Y hay un contraejemplo real, porque el libro se cita como si fuera un experimento. En 1965, seis chicos de entre trece y dieciséis años se escaparon en barca de un internado de Tonga, naufragaron en un islote llamado ʻAta y estuvieron quince meses solos. Cuando los encontraron habían montado huertos y gallineros, mantenían un fuego encendido desde el primer año, resolvían las peleas mandando a los dos a esquinas opuestas de la isla hasta que se les pasara, y a uno que se rompió una pierna lo entablillaron y lo cuidaron. Estaban todos vivos. Es un solo caso, pero es el único naufragio de niños de verdad que ha ocurrido, y salió al revés.",
       },
     ],
   },
