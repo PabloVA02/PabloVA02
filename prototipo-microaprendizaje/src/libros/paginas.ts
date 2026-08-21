@@ -58114,7 +58114,296 @@ const YO_SOY_EL_DIEGO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La pirámide invertida, en ocho páginas.
+
+   Breve. Ensayo de historia → afirmación entera y tercera persona.
+
+   Y el aviso del apartado 4 bis para HISTORIA, que aquí es el riesgo
+   principal: contar ciento cincuenta años de tácticas en orden de fechas
+   produce una línea del tiempo con nombres de formaciones y ninguna
+   afirmación. Cada página lleva su tesis discutible; los años van debajo.
+
+   Y una decisión de contenido: el libro está lleno de esquemas numéricos y
+   aquí solo se usan los cuatro que hacen falta para entender el argumento.
+   Un resumen que enumere formaciones no sirve a nadie que no sepa ya de
+   esto.
+   -------------------------------------------------------------------------- */
+
+const PIRAMIDE_INVERTIDA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La historia táctica del fútbol es la de una pirámide que se ha ido dando la vuelta",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante las últimas décadas del siglo XIX, casi todos los equipos del mundo jugaban con la misma distribución: dos defensas, tres centrocampistas y cinco delanteros. Dibujada sobre el campo, esa formación tiene forma de pirámide, con la punta en la propia portería y la base ancha en la del rival. Se la llamaba así y se dio por buena durante cuarenta años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hoy los equipos juegan con cuatro defensas, cinco o seis centrocampistas y uno o ningún delantero. La pirámide está exactamente del revés. Jonathan Wilson, periodista británico, publicó en 2008 este libro para contar cómo se dio la vuelta, y su tesis es que ese giro no fue casual ni cuestión de gustos, sino el resultado de una cadena de respuestas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su idea es la de una discusión larga en la que cada sistema provoca el que lo derrota. Alguien encuentra una manera de atacar, el rival encuentra una de pararla, y para superar esa defensa hace falta un ataque nuevo. Nadie inventa desde cero: se responde. Y las respuestas están limitadas por tres cosas que casi nunca se nombran: la regla del fuera de juego, el estado del terreno y la resistencia física de los jugadores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis momentos en los que esa discusión se movió de sitio: cuando Escocia inventó el pase, cuando un cambio de reglamento en 1925 obligó a inventar la defensa moderna, la tarde de 1953 en que Hungría demostró que Inglaterra estaba obsoleta, la pelea entre el fútbol defensivo italiano y el fútbol total holandés, la línea adelantada de Arrigo Sacchi, y por qué la historia va hacia menos delanteros.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ningún sistema táctico se inventa desde cero: cada uno es la respuesta a otro que estaba funcionando demasiado bien.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El pase no estaba en el fútbol: lo inventaron los escoceses porque eran más pequeños",
+      },
+      {
+        b: "texto",
+        texto:
+          "El fútbol que se codificó en Inglaterra en 1863 no se parecía a lo que hoy se entiende por fútbol. Era un juego de regate y de carga: un jugador conducía el balón hasta que se lo quitaban y sus compañeros corrían detrás para recogerlo. Pasar hacia atrás o hacia un lado se consideraba poco viril, y el reglamento del fuera de juego, mucho más estricto, casi lo impedía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cambio llegó de Escocia, y por un motivo bastante práctico. Los jugadores del Queen's Park de Glasgow, en los años setenta del siglo XIX, eran de media más bajos y más ligeros que los ingleses, así que perdían todos los choques. Su solución fue mover el balón entre ellos antes de que llegara el contrario, y a eso lo llamaron el juego de combinación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La demostración pública fue el primer partido internacional de la historia, en 1872, entre Escocia e Inglaterra. Los ingleses regatearon, los escoceses se pasaron el balón, y el partido acabó sin goles, lo cual para los cronistas de la época fue un escándalo y para los escoceses una victoria moral: once hombres más pequeños habían empatado sin que los pasaran por encima.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Wilson subraya lo que eso significa y es más grande de lo que parece. La técnica que define el fútbol —pasar el balón a un compañero mejor situado— no está en el origen del juego: la inventó alguien, en un sitio concreto, por una razón concreta, y se impuso porque ganaba. Todo lo que viene después es la administración de esa invención.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La técnica más obvia de un juego puede no estar en su origen: alguien la inventó porque era más débil y necesitaba otra manera de ganar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cambiar una línea del reglamento en 1925 obligó a inventar la defensa moderna",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que mejor demuestra la tesis del libro es una modificación administrativa. Hasta 1925, para que un atacante no estuviera en fuera de juego tenía que haber tres rivales entre él y la portería. Las defensas habían aprendido a explotarlo adelantándose en bloque, y los partidos se habían vuelto una sucesión de interrupciones con muy pocos goles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La federación internacional cambió el número de tres a dos. El efecto fue inmediato y masivo: en la liga inglesa, la cantidad de goles marcados en una temporada subió alrededor de un cuarenta por ciento de un año para otro. Con una defensa de dos hombres y una regla más permisiva, atacar se había vuelto demasiado fácil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La respuesta la dio Herbert Chapman, entrenador del Arsenal, y consistió en retrasar al centrocampista central hasta colocarlo entre los dos defensas, creando por primera vez una línea de tres atrás. Aquello dejó un hueco en el medio que hubo que rellenar bajando a dos delanteros, y el resultado, dibujado sobre el campo, formaba una uve doble y una eme. Se lo llamó el sistema WM.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con esa disposición, el Arsenal ganó cinco ligas en los años treinta jugando de una manera que entonces escandalizó: defender con muchos hombres, ceder el balón y salir muy rápido al espacio que dejaba el rival. Chapman inventó a la vez la defensa moderna y el contraataque, y lo hizo obligado por un cambio de dos palabras en un reglamento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cambia una regla y cambiarás la manera de jugar entera: casi todas las innovaciones tácticas son respuestas a una norma nueva.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El 25 de noviembre de 1953 quedó demostrado en Wembley que el sistema inglés estaba obsoleto",
+      },
+      {
+        b: "texto",
+        texto:
+          "Inglaterra llevaba noventa años sin perder en casa contra un equipo de fuera de las islas británicas, y aquella racha sostenía una convicción: que ellos habían inventado el juego y que, por lo tanto, lo entendían mejor que nadie. En noviembre de 1953 recibieron en Wembley a Hungría, campeona olímpica, ante noventa mil espectadores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Perdieron seis a tres, y la manera de perder importó más que el resultado. Los húngaros jugaban con el número nueve, Nándor Hidegkuti, retrasado varios metros por detrás de sus dos delanteros. El defensa central inglés tenía la instrucción de marcar al nueve rival; si lo seguía, dejaba un agujero enorme en la defensa, y si no lo seguía, Hidegkuti recibía libre en el centro del campo. Metió tres goles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El sistema inglés, con marcajes fijos por posición, no tenía prevista la posibilidad de que el rival no ocupara las posiciones esperadas. Seis meses después Inglaterra viajó a Budapest para la revancha y perdió siete a uno, que sigue siendo su mayor derrota. Aquellos dos partidos son la bisagra del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Wilson lo utiliza para su segunda tesis, la que recorre todo el volumen: que Inglaterra inventó el fútbol y después se pasó un siglo negándose a aprender de nadie, con una cultura de entrenadores orgullosamente antiintelectual en la que pensar el juego se consideraba una excentricidad continental. Las innovaciones vinieron todas de fuera: de Escocia, de Austria, de Hungría, de Italia, de Brasil, de Holanda y de Argentina.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Haber inventado algo es la peor posición posible para mejorarlo: quien está seguro de entenderlo mejor que nadie deja de mirar lo que hacen los demás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El catenaccio y el fútbol total son dos respuestas a la misma pregunta",
+      },
+      {
+        b: "texto",
+        texto:
+          "En los años sesenta, el fútbol italiano llevó la defensa hasta el extremo. El sistema, llamado catenaccio —cerrojo—, colocaba a un hombre libre por detrás de la línea defensiva, sin marca asignada, para barrer lo que se escapara, y organizaba el resto del equipo en marcajes individuales estrictos. El Inter de Helenio Herrera ganó así dos copas de Europa seguidas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lógica era económica antes que estética. Un club con menos recursos podía competir renunciando a la posesión, aceptando el sufrimiento y esperando un contraataque o una jugada aislada. Wilson insiste en que el catenaccio no lo inventaron los italianos por carácter nacional, sino un entrenador austriaco en Suiza en los años treinta para que equipos amateurs pudieran resistir a profesionales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La respuesta llegó de Holanda en los setenta y fue exactamente la contraria. El Ajax de Rinus Michels y la selección holandesa de 1974 practicaron lo que se llamó fútbol total: presionar al rival en su propio campo para recuperar el balón lo antes posible, adelantar la línea defensiva hasta el centro para reducir el espacio, y permitir que los jugadores intercambiaran posiciones continuamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Wilson señala el punto que suele omitirse al elogiarlo. Aquello exigía una condición física excepcional, un entendimiento entre once jugadores formados juntos desde niños y un organizador dentro del campo con una lectura del juego fuera de lo común, que fue Johan Cruyff. Era un sistema que no se podía comprar ni copiar, y en cuanto se dispersó aquella generación desapareció.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un sistema que depende de once jugadores formados juntos y de un genio dentro del campo no es un método: es una circunstancia que no se puede repetir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Sacchi demostró que se podía enseñar lo que parecía un talento" },
+      {
+        b: "texto",
+        texto:
+          "El personaje que Wilson considera decisivo en el fútbol moderno no fue jugador profesional. Arrigo Sacchi vendía zapatos en el negocio de su padre en Fusignano, entrenaba a equipos de aficionados por las tardes y llegó al Milan en 1987 sin haber jugado nunca en primera división. Cuando se lo reprocharon contestó que para ser jinete no hace falta haber sido caballo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su aportación fue convertir en instrucciones enseñables lo que en el Ajax había sido intuición colectiva. Su regla más conocida es de distancia: entre el último defensa y el delantero más adelantado no debía haber más de veinticinco metros, sin importar dónde estuviera el balón ni en qué zona del campo. Todo el equipo se movía como un bloque, adelante y atrás, manteniendo esa medida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí se sigue todo lo demás. Con el equipo comprimido en veinticinco metros, el rival juega siempre rodeado y la presión no es un esfuerzo individual sino la consecuencia geométrica de la posición; y la línea defensiva adelantada convierte el fuera de juego en un arma sistemática. Sacchi entrenaba esos movimientos sin balón, con los once jugadores desplazándose juntos por el campo vacío.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquel Milan ganó dos copas de Europa consecutivas jugando así, y su método se pudo transmitir precisamente porque estaba escrito en forma de distancias y de reglas. Todo lo que hoy se llama presión alta, bloque medio o línea adelantada viene de allí, y por eso Wilson lo sitúa como el punto en el que la táctica dejó de ser una intuición y pasó a ser una disciplina que se enseña.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Convertir una intuición en una distancia medida es lo que permite enseñarla: mientras siga siendo talento, no se puede transmitir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La historia va hacia menos delanteros porque los partidos se deciden en el centro",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recuento del libro es sencillo de comprobar. En 1880 se jugaba con cinco delanteros; en los años treinta, con tres; en los sesenta, con dos; hoy, con uno, y algunos equipos han jugado partidos importantes sin ninguno. Los hombres que se han retirado de arriba han ido a parar al centro del campo, que en 1880 tenía tres jugadores y hoy tiene cinco o seis.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón que da Wilson es de superficie. Un campo mide siempre lo mismo y la zona por la que pasa todo balón es la del medio; quien tiene allí más hombres recupera antes, conserva más y obliga al rival a jugar largo. Ganar el centro del campo no produce goles por sí solo, y decide quién tiene el balón, que es lo que determina dónde se juega el partido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El extremo de esa lógica es el falso nueve, que es donde el libro termina y que se popularizó justo después de publicarse. Consiste en jugar sin un delantero fijo: el jugador más adelantado se retrasa a recibir al centro del campo, y los defensas centrales rivales se quedan sin nadie a quien marcar. Es exactamente lo que hizo Hidegkuti en 1953, cincuenta años antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese detalle es la mejor prueba de la tesis del libro. Las ideas del fútbol no se inventan una vez y se acumulan: vuelven, porque cada solución deja de funcionar cuando todos la conocen y la respuesta a la respuesta se parece muchas veces a algo que ya se hizo. La pirámide no solo se ha invertido: se ha invertido dando vueltas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las soluciones vuelven porque cada una deja de funcionar en cuanto todos la conocen: lo nuevo suele ser algo viejo aplicado a otro problema.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta ciento cincuenta años de fútbol como una discusión encadenada en la que cada sistema aparece para derrotar al anterior, y demuestra que los cambios grandes suelen venir de una restricción externa: una regla nueva, un terreno de juego, unos jugadores más pequeños o un club sin dinero. La forma de jugar no la decide el gusto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una manera de mirar un partido. Después de leerlo se ve dónde está la línea defensiva, cuántos metros hay entre ella y el delantero, quién se queda sin marca cuando el nueve se retrasa y por qué un equipo mete a un centrocampista más. Es un libro de historia que cambia lo que ves el domingo siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en lo que deja fuera. Es una historia de entrenadores y de ideas, con muy poco sobre los jugadores, el dinero, el mercado de fichajes o las condiciones de trabajo, que son lo que decide qué puede intentar un entrenador. Y su esquema de acción y reacción es a veces demasiado limpio: los cambios reales suelen deberse a que a alguien le tocaron los jugadores que le tocaron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es además muy denso para quien no venga con base. Hay páginas enteras de formaciones numéricas y de nombres de jugadores centroeuropeos de los años treinta, y las ediciones sucesivas han ido añadiendo capítulos que no siempre encajan con el hilo original.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después le dio la razón de inmediato. El libro salió en 2008 y al año siguiente el Barcelona de Pep Guardiola ganó todo jugando con un falso nueve y con la presión más alta que se había visto, y detrás llegó la presión inmediata tras pérdida que popularizó Jürgen Klopp. Y llegó también un desafío a su método: hoy la táctica se estudia con datos de posicionamiento y no con relatos, y esa manera de analizarla apenas aparece en el libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un partido se entiende mucho mejor mirando dónde está la línea defensiva que mirando dónde está el balón.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "piramide-invertida": PIRAMIDE_INVERTIDA,
   "yo-soy-el-diego": YO_SOY_EL_DIEGO,
   "el-elemento": EL_ELEMENTO,
   "heroe-mil-caras": HEROE_MIL_CARAS,

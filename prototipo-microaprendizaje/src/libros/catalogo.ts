@@ -283,7 +283,7 @@ export const CATALOGO: Ficha[] = [
      que pidió Pablo y es lo que se busca, y la otra mitad reparte. */
   { id: "messi-ronaldo", titulo: "Messi vs. Ronaldo", autor: "Clegg y Robinson", ano: 2021, categoria: "Deportes", estado: "escrito" },
   { id: "yo-soy-el-diego", titulo: "Yo soy el Diego", autor: "Diego Armando Maradona", ano: 2000, categoria: "Deportes", estado: "escrito" },
-  { id: "piramide-invertida", titulo: "La pirámide invertida", autor: "Jonathan Wilson", ano: 2008, categoria: "Deportes", estado: "pendiente" },
+  { id: "piramide-invertida", titulo: "La pirámide invertida", autor: "Jonathan Wilson", ano: 2008, categoria: "Deportes", estado: "escrito" },
   { id: "futbol-sol-sombra", titulo: "El fútbol a sol y sombra", autor: "Eduardo Galeano", ano: 1995, categoria: "Deportes", estado: "pendiente" },
   { id: "futbol-contra-enemigo", titulo: "Fútbol contra el enemigo", autor: "Simon Kuper", ano: 1994, categoria: "Deportes", estado: "pendiente" },
   { id: "fiebre-gradas", titulo: "Fiebre en las gradas", autor: "Nick Hornby", ano: 1992, categoria: "Deportes", estado: "pendiente" },

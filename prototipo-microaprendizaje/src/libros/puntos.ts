@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "piramide-invertida": [
+    "por qué el pase lo inventaron los escoceses",
+    "qué cambió cuando se tocó el fuera de juego en 1925",
+    "qué demostró Hungría en Wembley en 1953",
+    "en qué consiste exactamente la regla de los veinticinco metros",
+    "por qué cada vez hay menos delanteros sobre el campo",
+  ],
+
   "yo-soy-el-diego": [
     "de qué barrio salió y qué explica eso de sus peleas",
     "qué significó para una ciudad pobre ganar dos ligas italianas",

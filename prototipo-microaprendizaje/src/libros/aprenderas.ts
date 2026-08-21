@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "piramide-invertida":
+    "En 1880 se jugaba con dos defensas y cinco delanteros; hoy, con cuatro defensas y uno o ninguno. Wilson cuenta cómo se dio la vuelta esa pirámide, y sostiene que cada sistema nació para derrotar al anterior.",
+
   "yo-soy-el-diego":
     "Dos periodistas grabaron cincuenta horas de conversación con Maradona en 2000 y transcribieron su voz sin corregirla. El resultado es su versión de todo, sin nadie que le lleve la contraria en ninguna página.",
 

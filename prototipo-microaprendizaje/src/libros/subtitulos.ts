@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "piramide-invertida": "La historia de la táctica del fútbol",
   "el-elemento": "Descubrir tu pasión lo cambia todo",
   imperiofobia: "Roma, Rusia, Estados Unidos y el Imperio español",
   "homo-sovieticus": "El tiempo de segunda mano",
