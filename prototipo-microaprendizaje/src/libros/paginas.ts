@@ -49595,7 +49595,283 @@ const INTRO_PSICOANALISIS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El túnel, en ocho páginas.
+
+   Breve. Es una novela corta y de una sola idea llevada hasta el final:
+   REDACCION, apartado 2 ter, dice que eso es Breve.
+
+   NOVELA → registro narrativo del apartado 3 bis: titular corto de imagen,
+   de tres a cinco palabras, y la afirmación en la primera frase de la
+   página. Y la caja del rayo habla al lector en segunda persona y saca de
+   la escena algo que le sirva, como en la captura de La Odisea.
+
+   Y la advertencia del apartado 4 bis sobre novelas: los titulares afirman
+   SOBRE EL LIBRO y no cuentan la trama. Que aquí se pueda contar el final
+   no es una licencia mía: es que la novela lo cuenta en su primera línea, y
+   esa decisión es justamente lo que hay que explicar.
+   -------------------------------------------------------------------------- */
+
+const EL_TUNEL: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El pintor que mató a María" },
+      {
+        b: "texto",
+        texto:
+          "La novela empieza confesando el final. En su primera línea, el narrador dice que bastará con decir que es Juan Pablo Castel, el pintor que mató a María Iribarne, y que supone que el proceso está en el recuerdo de todos. No hay intriga que resolver: se sabe quién, se sabe a quién y se sabe qué pasó. Lo único que queda por saber es cómo llegó ahí una cabeza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ernesto Sabato la publicó en Buenos Aires en 1948, y su biografía explica bastante del libro. Se había doctorado en física en 1937 y había trabajado en el laboratorio Curie de París; dejó la ciencia en 1945 para escribir. El asesino que inventó no es un impulsivo ni un enfermo que delira: es un hombre que razona, y que va encadenando deducciones correctas hasta un sitio monstruoso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Todo lo que se lee está contado por él desde el manicomio donde acabó, y esa es la segunda decisión que ordena el libro. No hay ningún narrador que corrija, ningún testigo que aporte otra versión y ninguna escena vista desde fuera. El lector queda encerrado en la cabeza de Castel durante ciento cincuenta páginas, que es exactamente lo que el título anuncia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: el detalle de un cuadro en el que empieza todo, la manera en que Castel razona, el marido ciego de María y lo que significa que sea ciego, el interrogatorio que no puede terminar, la imagen de los túneles paralelos que da nombre al libro, y qué hace Sabato con el final que ya nos había contado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si te cuentan el final en la primera línea, es que el libro no va de lo que pasó: va de por qué te parecerá razonable mientras pasa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una ventana en la esquina del cuadro" },
+      {
+        b: "texto",
+        texto:
+          "La historia entera nace de un malentendido, y de uno muy pequeño. Castel expone en un salón de Buenos Aires un cuadro que titula «Maternidad»: una mujer con un niño, pintada de la manera que gusta a los críticos. En la esquina superior izquierda, casi escondida, hay una ventanita, y dentro de ella una playa solitaria y una mujer que mira el mar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nadie la mira. Los visitantes se detienen ante la figura grande, los críticos escriben sobre la maternidad, y aquella escena minúscula pasa desapercibida durante toda la exposición. Hasta que una mujer se para delante y la mira largo rato, sin fijarse en el resto del cuadro, y luego se marcha sin decir nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Castel la busca durante meses por las calles de Buenos Aires. Y aquí está el motor de toda la novela, que es una inferencia y no un sentimiento: si ella miró justo eso, es que entendió lo que él quiso decir; si lo entendió, es la única persona del mundo que puede entenderlo; luego ella le pertenece. Ninguno de esos tres pasos se apoya en nada que ella haya dicho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sabato coloca ahí una trampa que el lector suele pisar entera. La escena es conmovedora —el artista incomprendido encuentra por fin a alguien— y funciona como una historia de amor durante muchas páginas. Solo al final se ve que la primera conversación ya contenía el crimen, porque desde el minuto uno Castel no está mirando a una mujer: está mirando la prueba de una teoría suya.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien te dice que eres la única persona que lo entiende, fíjate en si te ha preguntado algo antes de decidirlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un hombre que razona" },
+      {
+        b: "texto",
+        texto:
+          "La locura de Castel no está hecha de delirios ni de voces: está hecha de razonamientos. Antes de abordar a María en la calle, se pasa páginas enteras calculando escenarios: si la encuentro en tal esquina diré esto, y si ella responde aquello significará esto otro, y en caso contrario habré demostrado esto. Planifica una conversación como quien resuelve un problema de física.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese detalle es la aportación de Sabato al personaje y viene directamente de su formación. Un físico que se pasa a la novela escribe a un asesino que argumenta, y el efecto sobre el lector es incómodo por una razón concreta: se le puede seguir. Cada paso individual parece razonable, y solo mirando la cadena entera se ve adónde ha llevado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene comparar con la otra gran novela existencialista de aquellos años. En «El extranjero», publicada por Camus en 1942, Meursault mata a un hombre en la playa casi sin motivo y sin sentir nada. Castel es el reverso exacto: mata con un exceso de motivos y sintiéndolo todo. Camus, que leyó esta novela, la hizo publicar en Francia en 1956.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que la novela sostiene, y por eso sigue leyéndose, es que la lucidez no protege. Castel se da cuenta de lo que está haciendo casi siempre; se ve celoso, se ve ridículo, se ve cruel, y a menudo lo dice. Saberlo no le sirve de nada. Es un libro sobre la idea, bastante desagradable, de que entender un mecanismo propio no basta para detenerlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Darte cuenta de lo que estás haciendo no te detiene: la lucidez es una manera de acompañar el acto, no de impedirlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El marido ciego" },
+      {
+        b: "texto",
+        texto:
+          "María está casada con Allende, un hombre ciego, y esa elección es la ironía más dura del libro. La profesión de Castel es mirar: pinta, se gana la vida con los ojos, y su desgracia empieza porque alguien miró un detalle de un cuadro. Y el único personaje que parece conocer a María de verdad es el que no puede verla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Allende sabe cosas de su mujer que Castel nunca averigua a fuerza de interrogatorios, y las sabe sin espiar y sin preguntar. La novela sugiere que la conoce porque no la mira: porque no puede construir con ella una imagen y luego exigirle que se le parezca, que es exactamente lo que hace el pintor desde el primer día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ceguera es además una obsesión personal de Sabato, y quien siga leyéndolo se la encontrará convertida en el centro de su siguiente novela, con un capítulo entero sobre una supuesta secta de ciegos. Aquí todavía funciona como lo que es en una buena novela: un dato del argumento que además significa algo, sin dejar de ser un dato del argumento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene fijarse además en un detalle de oficio. Allende apenas aparece: tiene tres o cuatro escenas en toda la novela y en ninguna se defiende ni explica nada. Sabato consigue que pese en cada página sin ponerlo en ellas, porque Castel lo tiene delante todo el rato, y ese es el mismo procedimiento con el que la novela entera funciona: lo que más ocupa es lo que no está.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y prepara el final. Cuando Castel confiese lo que ha hecho, se lo confesará precisamente a él, al hombre que no puede verle la cara mientras lo dice. Toda la novela ha ido colocando a los dos hombres en los extremos de la misma línea: uno tiene ojos y no ve nada, el otro no tiene ojos y lo sabe todo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando te has hecho una imagen de alguien, dejas de mirarlo: pasas a comprobar si se parece a lo que ya decidiste.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las preguntas que no terminan" },
+      {
+        b: "texto",
+        texto:
+          "El centro del libro es un interrogatorio que dura meses y que no puede acabar nunca, porque está diseñado para no acabar. Castel pregunta a María por su marido, por su pasado, por lo que hizo ayer, por el tono de una frase, por un silencio. Cuando ella contesta, la respuesta se convierte en material para la pregunta siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo es el que hace de los celos algo distinto de una emoción: son un método. Si ella niega, miente; si admite, confirma; si se enfada, es que le ha tocado un punto; si no se enfada, es que le da igual, y eso también es una prueba. No existe ninguna respuesta que pueda cerrarlo, y ella tarda en darse cuenta de que está en un juego cuyas reglas no le permiten ganar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El escenario donde todo se acelera es la estancia de la familia de María, en el campo, donde vive su primo Hunter. Allí Castel pasa unos días entre gente que se ríe de cosas que él no comparte, viendo a María moverse en un mundo que existía antes de él y que seguirá existiendo. Que ella tenga una vida propia es la ofensa que no puede perdonar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La novela hace algo muy hábil con esto: no aclara casi nada. No sabemos si María tuvo algo con Hunter, ni si mintió sobre su marido, ni qué sentía. Ese vacío no es un descuido, es la forma del libro: solo tenemos la versión de un hombre que no distingue lo que sabe de lo que dedujo, y el lector se descubre a sí mismo intentando reconstruir a María con sus pistas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una sospecha que convierte cualquier respuesta en prueba no busca averiguar nada: busca tener razón, y siempre acaba teniéndola.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos túneles paralelos" },
+      {
+        b: "texto",
+        texto:
+          "El título aparece explicado casi al final, en la imagen que sostiene el libro entero. Castel dice que ha vivido siempre dentro de un túnel oscuro y estrecho, sin ver a nadie, y que durante un tiempo creyó que María caminaba por otro túnel paralelo al suyo, muy cerca, y que en algún punto los dos muros se volvían transparentes y podían mirarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade la corrección que lo destruye todo. Aquella transparencia era ilusión suya: él seguía en su túnel, y ella caminaba a la luz, por la playa, viviendo su vida entre otras personas, y solo se acercaba de vez en cuando a mirar por la ventanita. Los túneles nunca fueron paralelos. Uno era un túnel y el otro era el mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La imagen dice algo más preciso que la soledad general, y por eso funciona. No sostiene que las personas no puedan comunicarse: sostiene que el que está encerrado confunde una visita con una compañía, y que la desproporción entre lo que él pone y lo que el otro pone es invisible desde dentro. María se asomaba; Castel creía que vivían juntos en la misma galería.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la imagen tiene una precisión que suele perderse al citarla. Castel no dice que el mundo sea un conjunto de túneles, que sería una queja general y bastante cómoda. Dice que el suyo lo era, y que se equivocó al suponer que el de ella también. La diferencia entre esas dos frases es toda la distancia que hay entre lamentarse de la condición humana y reconocer un error propio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es también la única página en la que Castel entiende de verdad algo, y llega tarde: la escribe recluido y después del crimen. El libro no ofrece ninguna redención por ese entendimiento. La lucidez llega, sirve para narrar y no sirve para nada más, que es la conclusión más dura de toda la novela.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si pones tú todo lo que sostiene una relación, desde dentro parece intensidad; desde fuera, la otra persona solo se estaba asomando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El grito de un hombre a oscuras" },
+      {
+        b: "texto",
+        texto:
+          "El final que ya conocíamos desde la primera línea llega igualmente como un golpe, y ese es el mejor argumento a favor de haberlo contado al principio. Castel va de noche a la estancia, entra en la habitación de María y la mata a puñaladas. La escena está narrada con una frialdad de informe, sin adjetivos y sin defensa, por el mismo hombre que ha dedicado ciento cuarenta páginas a explicarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después va a Buenos Aires y lo confiesa. No a la policía: a Allende. Le dice que la ha matado y le dice también, porque necesita hacer daño hasta el final, que ella lo engañaba. Y el ciego, encerrado con esa información y sin nada que pueda hacer con ella, se pone a gritarle una sola palabra: insensato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa palabra es la última pieza y conviene leerla despacio, porque no es un insulto cualquiera. No le llama asesino ni monstruo. Le llama insensato, es decir, alguien sin sentido, alguien que no ha entendido nada. En una novela construida entera sobre el razonamiento, el veredicto final es que el que razonaba se equivocaba en todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sabato deja además a Allende encerrado con una crueldad que la novela no comenta. Un hombre ciego acaba de perder a su mujer y ha recibido, de manos de quien la mató, una acusación que no podrá comprobar jamás. Es el único personaje verdaderamente inocente del libro y es el que se queda con el daño entero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La última palabra del libro sobre un hombre que se pasó la vida deduciendo es que no entendió nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La novela sostiene que la soledad extrema no impide razonar, y que ese es el problema. Castel deduce, ordena, prevé y concluye durante todo el libro, y cada operación correcta lo aleja un paso más de la única persona con la que quería estar. Es un libro sobre la inteligencia usada para no ver.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la forma. Contar el final en la primera línea obliga a que todo el interés esté en el proceso mental, y encerrar al lector en la cabeza del asesino durante ciento cincuenta páginas consigue algo incómodo: durante buena parte del libro se le da la razón. Muy pocas novelas se atreven a dejar al lector solo con una versión sin ningún contrapeso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla, o cuesta, en un punto que un lector de hoy nota enseguida: María no existe. No tiene ni una página propia, ni un pensamiento que no venga filtrado por él, y muere sin haber dicho nada que podamos creernos. Puede argumentarse que ese vacío es el tema; el resultado es que la mujer asesinada es, también en el libro, lo que Castel decía que era.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se le ha reprochado además que se le vean las costuras filosóficas. Es una novela de tesis escrita en pleno auge del existencialismo, y hay pasajes donde el personaje parece exponer un argumento del autor más que hablar. Sabato mismo la tuvo después por una obra menor comparada con «Sobre héroes y tumbas», que publicó trece años más tarde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después es extraordinario y no lo previó nadie. Albert Camus la leyó y consiguió que se publicara en Francia en 1956; Sabato escribió solo tres novelas en toda su vida y ganó el Premio Cervantes en 1984. Y ese mismo año entregó al presidente argentino el informe «Nunca más»: había presidido la comisión que investigó los desaparecidos de la dictadura y documentó casi nueve mil casos. El hombre que inventó a un asesino que razonaba acabó catalogando los reales.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si alguna vez has construido una explicación completa sobre alguien sin preguntarle nada, este libro está escrito contra ti.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "el-tunel": EL_TUNEL,
   "intro-psicoanalisis": INTRO_PSICOANALISIS,
   "cosas-buenas": COSAS_BUENAS,
   "maneras-de-amar": MANERAS_DE_AMAR,

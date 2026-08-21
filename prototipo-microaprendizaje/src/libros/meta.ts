@@ -392,22 +392,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "el-tunel",
-    titulo: "El túnel",
-    autor: "Ernesto Sabato",
-    ano: 1948,
-    gancho: "Lo escribió un doctor en física que había trabajado en el laboratorio Curie y que a los treinta y cuatro años abandonó la ciencia para siempre. Es la mejor novela en español sobre un razonamiento impecable que termina en un crimen.",
-    porQue: "Porque en ciento cincuenta páginas enseña algo que no se aprende de otra manera: cómo se construye una certeza absoluta a partir de nada, paso a paso, sin que ninguno de los pasos sea ilógico. Y porque casi todo el mundo la lee olvidando quién la está contando.",
-    minutos: 26.2,
-    capitulos: [
-      { titulo: "El primer párrafo dice quién y a quién", minutos: 5.3 },
-      { titulo: "Una ventanita en la esquina de un cuadro", minutos: 5.2 },
-      { titulo: "La cadena de razonamientos", minutos: 5.2 },
-      { titulo: "Todo lo que sabemos de María", minutos: 5.3 },
-      { titulo: "Dos túneles paralelos", minutos: 5.2 },
-    ],
-  },
-  {
     id: "renglones-torcidos",
     titulo: "Los renglones torcidos de Dios",
     autor: "Torcuato Luca de Tena",

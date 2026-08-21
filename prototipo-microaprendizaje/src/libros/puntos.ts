@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "el-tunel": [
+    "por qué contar el final en la primera línea cambia el libro",
+    "el detalle de un cuadro del que nace todo",
+    "por qué los celos funcionan como un método y no como una emoción",
+    "qué significa que el marido de María sea ciego",
+    "de dónde sale la imagen de los túneles paralelos",
+  ],
+
   "intro-psicoanalisis": [
     "por qué un lapsus tendría dos intenciones dentro",
     "las cuatro operaciones con las que se fabrica un sueño",
