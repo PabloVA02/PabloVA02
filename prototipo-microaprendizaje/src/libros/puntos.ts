@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "acto-creativo": [
+    "qué cambia entenderse como un recipiente y no como una fuente",
+    "cuáles son las cuatro fases y por qué no se mezclan",
+    "por qué el único público que puedes conocer eres tú",
+    "qué diferencia hay entre la técnica y el punto de vista",
+    "de qué avisa la duda cuando aparece",
+  ],
+
+  "cartas-joven-poeta": [
+    "qué prueba propone para saber si uno debe dedicarse a esto",
+    "qué hacer cuando la propia vida parece mal material",
+    "qué significa vivir las preguntas en lugar de responderlas",
+    "por qué la tristeza no es un daño sino un cambio",
+    "en qué consiste el amor entre dos soledades",
+  ],
+
   "mientras-escribo": [
     "qué pasó con las tres páginas que tiró a la papelera",
     "qué le puso su familia delante una tarde en el salón",

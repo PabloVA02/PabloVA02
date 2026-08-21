@@ -67,13 +67,11 @@ const CARGADORES: Record<string, Cargador> = {
 
   /* Capítulos largos */
   "homo-deus": () => import("./historia").then((m) => m.HOMO_DEUS),
-  "cartas-joven-poeta": () => import("./arte").then((m) => m.CARTAS_JOVEN_POETA),
   "zonas-azules": () => import("./salud").then((m) => m.ZONAS_AZULES),
   "gen-historia": () => import("./ciencia").then((m) => m.EL_GEN),
   "arte-sin-hombres": () => import("./arte").then((m) => m.ARTE_SIN_HOMBRES),
   outlive: () => import("./salud").then((m) => m.OUTLIVE),
   einstein: () => import("./ciencia").then((m) => m.EINSTEIN),
-  "acto-creativo": () => import("./arte").then((m) => m.ACTO_CREATIVO),
   nudge: () => import("./psicologia").then((m) => m.NUDGE),
   "pilares-tierra": () => import("./historia").then((m) => m.PILARES_TIERRA),
   "astrofisica-prisa": () => import("./ciencia").then((m) => m.ASTROFISICA_PRISA),

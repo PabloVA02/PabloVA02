@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "acto-creativo":
+    "El productor de Johnny Cash, los Beastie Boys y Adele no sabe tocar ningún instrumento ni leer una partitura. Su libro sostiene que la creatividad no es una habilidad técnica sino una manera de prestar atención.",
+
+  "cartas-joven-poeta":
+    "Un cadete de diecinueve años le mandó sus versos a un poeta pidiéndole que le dijera si valían algo. Recibió diez cartas escritas a lo largo de seis años que nunca contestan esa pregunta y contestan casi todas las demás.",
+
   "mientras-escribo":
     "King lo tenía a medias cuando una furgoneta lo atropelló en un arcén de Maine y le rompió la pierna en nueve sitios. Lo terminó en una silla de ruedas, en tandas de cuarenta minutos, y salió el manual de escritura más leído que existe.",
 

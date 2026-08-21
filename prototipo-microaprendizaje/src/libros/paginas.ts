@@ -25981,7 +25981,521 @@ const MIENTRAS_ESCRIBO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Cartas a un joven poeta, en ocho páginas.
+
+   Breve. El original son diez cartas y cabe en setenta páginas.
+
+   Registro NARRATIVO: títulos cortos de imagen, afirmación en la primera
+   frase, caja del rayo en segunda persona.
+
+   La conclusión lleva dos cosas que casi ningún resumen da: lo que le
+   costó a Rilke vivir según lo que aconsejaba, y que en 2019 aparecieron
+   las cartas del otro lado.
+   -------------------------------------------------------------------------- */
+
+const CARTAS_JOVEN_POETA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Diez cartas a un cadete de diecinueve años" },
+      {
+        b: "texto",
+        texto:
+          "En 1902, un cadete de la Academia Militar de Wiener Neustadt llamado Franz Xaver Kappus escribía versos a escondidas y estaba a punto de decidir su vida. Descubrió por casualidad que un poeta al que admiraba, Rainer Maria Rilke, había estudiado años antes en aquella misma academia. Le escribió, le mandó sus poemas y le pidió una opinión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rilke contestó, y la correspondencia duró seis años: diez cartas escritas entre febrero de 1903 y diciembre de 1908, desde París, desde Italia, desde Suecia. En ninguna de ellas dice si los poemas del muchacho son buenos, y esa negativa es lo primero que hay que saber del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También conviene saber quién escribía. Rilke tenía veintisiete años, aún no había publicado la obra que lo hizo grande y vivía con estrecheces trabajando como secretario del escultor Rodin en París. O sea que el maestro que habla con tanta autoridad era un hombre de veintisiete años en mitad de sus propias dudas, escribiéndole a otro de diecinueve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kappus publicó las cartas en 1929, tres años después de la muerte de Rilke, con un prólogo suyo. Estas páginas recorren lo que dicen: cómo saber si uno debe dedicarse a esto, qué hacer cuando la propia vida parece un mal material, qué se hace con las preguntas que no tienen respuesta, para qué sirve la tristeza, qué son las cosas que dan miedo y en qué consiste el amor según él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un chico pidió que le dijeran si sus versos valían algo, y recibió diez cartas que nunca contestan esa pregunta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Pregúntese si se moriría si le prohibieran escribir" },
+      {
+        b: "texto",
+        texto:
+          "La primera carta empieza rechazando el encargo. Rilke le dice que no puede juzgar sus versos, que nadie puede, y que además está mal planteada la pregunta: preguntar hacia fuera si uno vale es la manera más segura de no averiguarlo nunca. Le pide que deje de leer críticas y que deje de comparar sus poemas con los de otros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y le da una prueba concreta que se ha citado desde entonces en todos los idiomas. Que se pregunte en la hora más callada de su noche si de verdad tiene que escribir. Que busque la respuesta en la raíz de su corazón. Y que se plantee si moriría en caso de que se lo prohibieran. Si puede vivir sin escribir, no escriba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba parece dura y no lo es tanto en su contexto, porque lo que Rilke está desmontando es la idea de vocación como una carrera. No le pregunta si tiene talento, ni si va a publicar, ni si le van a leer. Le pregunta si esa actividad forma parte de su necesidad diaria, como comer, o si es una aspiración con la que le gustaría ser alguien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la única instrucción práctica de la primera carta: acercarse a la naturaleza y a lo pequeño, escribir sobre lo que uno ve cada día, y evitar los temas más frecuentados. Le desaconseja expresamente los poemas de amor, porque son la forma más difícil que existe: hay tanta tradición encima que ahí es donde menos se distingue una voz propia de una imitación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si puedes vivir sin hacerlo, no lo hagas; y si preguntas si vales, ya estás buscando la respuesta en el sitio equivocado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Si su vida le parece pobre, la culpa no es de su vida" },
+      {
+        b: "texto",
+        texto:
+          "Kappus le había escrito lo que escribe todo el mundo a los diecinueve años: que su vida en un cuartel de provincias era gris, que allí no pasaba nada digno de contarse y que necesitaba salir a algún sitio donde ocurrieran cosas. Rilke le contesta con la frase más útil de todo el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Le dice que si su vida cotidiana le parece pobre, no la acuse a ella: acúsese a sí mismo, dígase que no es bastante poeta para convocar sus riquezas, porque para el que crea no hay pobreza ni lugares pobres o indiferentes. Y añade que aunque estuviera en una cárcel cuyas paredes no dejaran llegar ningún ruido del mundo, le quedaría todavía su infancia entera, que es una riqueza enorme y un almacén de recuerdos al que casi nadie baja.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rilke sabía de lo que hablaba. Aquella academia militar donde estaba Kappus era la suya, y él la había pasado fatal: un niño enfermizo al que su madre había vestido de niña durante años y al que su padre metió en el ejército. No le está diciendo que su cuartel es interesante; le está diciendo que él sacó material de allí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El consejo va acompañado de una recomendación de método que sigue funcionando: reunir las cosas pequeñas, los objetos, los sueños, lo que se oye de paso, en vez de esperar el acontecimiento grande. Un poema, escribe en otra carta, no nace de un sentimiento, sino de experiencias acumuladas durante años que han bajado hasta la sangre y ya no se distinguen de uno.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando lo que tienes alrededor te parece poco material, el problema casi nunca está en el material.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Viva las preguntas" },
+      {
+        b: "texto",
+        texto:
+          "El pasaje más citado del libro está en la cuarta carta y es la respuesta a un joven que quería certezas. Rilke le pide que tenga paciencia con todo lo que está sin resolver en su corazón y que intente amar las preguntas mismas, como si fueran habitaciones cerradas o libros escritos en un idioma que todavía no sabe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Le dice que no busque ahora las respuestas, porque no podrían darle, ya que no sería capaz de vivirlas. Que se trata de vivirlo todo. Que viva ahora las preguntas, y que quizá así, poco a poco y sin darse cuenta, viva un día lejano dentro de la respuesta, sin haber notado el momento en que entró en ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es una idea que suena a consuelo y no lo es tanto si se mira despacio. Lo que dice es que hay preguntas cuya respuesta no es una frase sino un estado, y que llegar a ese estado exige un tiempo que no se puede acortar leyendo a nadie. Quien exige la respuesta hoy va a recibir una fórmula que no le sirve, y encima creerá que ya está resuelto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la misma carta le pide que no se deje engañar por la palabra difícil: que lo difícil es exactamente aquello por lo que hay que ir, porque todo en la naturaleza crece y se defiende según su propia manera, y lo fácil es casi siempre lo que otro ya masticó. La frase se ha convertido en un lugar común, y en 1903 tenía filo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay preguntas cuya respuesta no es una frase sino un estado, y a ese estado no se llega antes de tiempo por mucho que leas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La tristeza es algo entrando" },
+      {
+        b: "texto",
+        texto:
+          "La octava carta es la mejor del libro y la que menos se cita. Kappus atravesaba una temporada mala y Rilke, en vez de animarlo, le propone una manera distinta de entender lo que le pasa. Le dice que las tristezas son los momentos en que algo nuevo ha entrado en nosotros, algo desconocido, y que nuestros sentimientos se quedan callados, replegados, mientras eso nuevo permanece en el centro sin que sepamos qué es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El movimiento que describe es preciso. Lo nuevo entra, nosotros nos quedamos quietos y confusos, y por eso la tristeza no es un daño sino un cambio en curso; el sufrimiento viene de que en ese rato uno ya no es lo que era y todavía no es lo que va a ser. Cuanto más quieto, más paciente y más abierto se esté durante ese tránsito, más adentro entra lo que ha llegado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca una recomendación contraria a todo lo que se aconseja normalmente: no distraerse de la tristeza, no buscar quién la explique y no correr a estar acompañado, porque en ese estado el ruido de los demás sirve para volver rápido a lo de antes, que es exactamente lo que impide que el cambio se complete.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La misma carta contiene su imagen más conocida. Quizá todos los dragones de nuestra vida, escribe, sean princesas que solo esperan vernos actuar una vez con belleza y valor. Quizá todo lo terrible sea, en su fondo más íntimo, algo desamparado que necesita nuestra ayuda. Es la parte más discutible del libro y también la que más gente recuerda de por vida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando estás triste no te está pasando nada: te está entrando algo, y el ruido de alrededor solo sirve para que no acabe de entrar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos soledades que se saludan" },
+      {
+        b: "texto",
+        texto:
+          "La séptima carta trata del amor y contiene la definición por la que Rilke se cita en la mitad de las bodas del mundo occidental sin que casi nadie sepa de dónde sale. Empieza diciendo lo contrario de lo que se espera: que amar es difícil, que es la obra más difícil que se le encarga a una persona, y que todo lo demás —el trabajo, la fama— es preparación para eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su crítica es al amor entendido como entrega y fusión. Dos personas jóvenes que se lanzan la una sobre la otra, dice, se arrojan al primer refugio que encuentran, se confunden y después no saben distinguir qué es de cada quien; y de esa mezcla no sale ninguna comunidad, sale un desorden compartido. Lo que propone en su lugar es que cada uno siga siendo alguien entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí la frase: el amor consiste en que dos soledades se protejan, se limiten y se saluden mutuamente. No dice que se fundan ni que se completen. Dice que se guarden, que respeten el límite del otro y que se saluden a través de él, lo cual supone que la soledad de cada uno sigue estando y no es un fallo del vínculo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la misma carta hay una reflexión sobre las mujeres que en 1903 resultaba insólita. Rilke sostiene que la mujer está atravesando un cambio que la va a librar de haber sido definida siempre por el hombre, y que cuando eso termine, el amor entre dos personas se parecerá menos a lo de entonces, con una parte que espera y otra que decide, y más a un trato entre iguales.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El amor no es fundirse: es que dos soledades se guarden mutuamente y se saluden por encima del límite.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que le costó vivir así" },
+      {
+        b: "texto",
+        texto:
+          "Hay un dato que estas cartas no cuentan y que cambia cómo se leen. Mientras escribía las primeras, Rilke tenía mujer e hija. Se había casado en 1901 con la escultora Clara Westhoff, alumna de Rodin, y en diciembre de aquel año nació Ruth. Menos de un año después, la familia se deshizo: él se marchó a París y ella a su taller, y la niña se crió en buena medida con los abuelos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No fue una ruptura al uso ni hubo divorcio; fue una decisión razonada por los dos con un argumento que aparece en estas mismas cartas, el de que cada uno debe guardar su propia soledad para poder trabajar. Rilke pasó el resto de su vida moviéndose de casa en casa, alojado por mecenas, escribiendo miles de cartas y viendo a su hija muy de tarde en tarde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene tenerlo presente sin convertirlo en una acusación. Estas cartas no son las de un hombre que ha resuelto la ecuación entre la vida y el trabajo: son las de alguien que eligió un lado con todas sus consecuencias y las pagó. Leerlas sabiéndolo las hace más útiles, no menos, porque enseñan también el precio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una segunda cosa que solo se sabe desde hace poco. Durante noventa años, este libro se leyó a una sola voz, porque las cartas de Kappus se daban por perdidas. Aparecieron en su legado y se publicaron en 2019, y con ellas se descubrió que el joven no era el aficionado mediocre que la tradición había supuesto: escribía con soltura, contaba cosas concretas y, en varias ocasiones, Rilke no responde a lo que él había preguntado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un consejo se entiende mejor cuando se sabe qué le costó a quien lo daba vivir de acuerdo con él.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Cartas a un joven poeta sostiene que ninguna pregunta importante se contesta desde fuera, y organiza alrededor de eso todo lo demás: que la duda sobre la propia vocación se resuelve preguntándose si se podría vivir sin ello, que el material está en lo cotidiano y en la infancia y no en un sitio mejor, que hay preguntas que se viven antes de contestarse, que la tristeza es un cambio en curso y que el amor es un trato entre dos personas que siguen siendo enteras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es el tono. No hay ni una instrucción técnica en las setenta páginas, y sin embargo es el libro que más gente ha llevado encima al empezar algo, seguramente porque su primer consejo es dejar de pedir permiso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ame las preguntas mismas, como habitaciones cerradas o libros escritos en un idioma que todavía no sabe leer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Quien escribe esto tiene veintisiete años y todavía no ha hecho la obra por la que se le recuerda, y sin embargo habla con la autoridad de un maestro al final de su camino; ese desajuste está en cada página. Su receta es un romanticismo completo —soledad, interioridad, paciencia, no leer crítica, no comparar— que funciona como higiene ocasional y es pésimo como norma: nadie aprende un oficio sin mirar lo que hacen otros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una ironía que conviene señalar porque el libro no la ve. Se ha convertido en el regalo estándar para cualquier joven que empieza algo creativo, y su primer consejo es exactamente que no le pida consejo a nadie. Kappus, por cierto, dejó la poesía: fue oficial del ejército austrohúngaro, después periodista y autor de novelas populares, y vivió hasta 1966 conocido sobre todo por haber recibido estas cartas.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   El acto creativo, en ocho páginas.
+
+   Breve.
+
+   Libro PRÁCTICO sobre oficio creativo: segunda persona en la prosa,
+   titular que afirma.
+
+   La conclusión dice lo que casi ningún resumen dice: que el libro no
+   contiene ni una sola anécdota de su carrera, que varias de sus ideas
+   vienen de otros y que su método presupone una carrera ya hecha.
+   -------------------------------------------------------------------------- */
+
+const ACTO_CREATIVO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El productor más influyente del pop no sabe tocar ni leer música" },
+      {
+        b: "texto",
+        texto:
+          "Rick Rubin fundó un sello discográfico en su habitación de la residencia universitaria en 1984, y desde entonces ha producido discos de los Beastie Boys, Run-DMC, Slayer, Red Hot Chili Peppers, Johnny Cash, Adele y System of a Down, entre muchos otros. Es probablemente el productor con más influencia sobre la música popular de los últimos cuarenta años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y no sabe tocar ningún instrumento. No sabe leer una partitura. No sabe manejar una mesa de mezclas ni ha aprendido a usar los programas con los que se graba. Lo ha dicho él mismo en entrevistas: no tiene ninguna habilidad técnica, y lo único que aporta es confianza absoluta en su propio criterio sobre lo que suena bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese hecho es la mejor prueba de la tesis de su libro, publicado en 2023 y titulado en el original una manera de estar. Rubin sostiene que la creatividad no es una habilidad técnica ni un talento raro, sino una forma de prestar atención, y que quien la desarrolla puede trabajar en cualquier oficio sin dominarlo por dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que propone: qué significa entenderse como un recipiente y no como una fuente, cuáles son las cuatro fases de cualquier trabajo creativo y por qué no se pueden mezclar, qué papel tiene el público, por qué el punto de vista importa más que la técnica y qué hacer con la duda cuando aparece.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Alguien sin ninguna habilidad técnica lleva cuarenta años decidiendo cómo suenan discos importantes, y eso ya es un argumento.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "No creas nada: recoges lo que ya estaba ahí" },
+      {
+        b: "texto",
+        texto:
+          "La primera idea del libro es un cambio de posición. Rubin propone dejar de pensarse como una fuente de la que salen las ideas y empezar a pensarse como un recipiente por el que pasan. Lo que hay alrededor —una conversación oída en una cafetería, un color, una avería, un ritmo— está disponible para todo el mundo; la diferencia entre unos y otros no está en producir, está en recibir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la única disciplina que propone para esta fase: aumentar la superficie de contacto. Salir a mirar cosas sin propósito, escuchar música que no te gusta, leer sobre asuntos que no tienen que ver con lo tuyo, cambiar de camino al volver a casa. Nada de eso se hace para buscar una idea concreta, porque buscarla es la manera más eficaz de no encontrarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su recomendación práctica es un cuaderno de semillas: apuntar todo lo que llame la atención sin juzgar si sirve, sin ordenarlo por temas y sin descartar nada por ridículo. Un cuaderno así es inútil el mismo día y muy valioso seis meses después, cuando uno lo relee y encuentra material que ya no recordaba haber visto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia menos cómoda de esta idea es que quita el mérito. Si uno no fabrica sus ideas sino que las recibe, entonces ni el acierto es un logro personal ni el bloqueo es un fallo personal. Rubin sostiene que esa distancia es liberadora y es también lo que más le cuesta creer a la gente que ha construido una identidad alrededor de su talento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie se bloquea por falta de ideas: se bloquea por buscarlas, que es exactamente el estado en el que no se ve nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Todo trabajo tiene cuatro fases y el desastre viene de mezclarlas" },
+      {
+        b: "texto",
+        texto:
+          "La parte más aplicable del libro es la que ordena el proceso en cuatro etapas con reglas distintas. La primera es la de la semilla: recoger material sin criterio, en cantidad, sin decidir todavía qué va a ser aquello. La segunda es la experimentación: probar con esas semillas, hacer versiones, mezclar, ver qué crece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es la artesanía, y es donde se hace el trabajo duro: construir, dar forma, repetir, corregir. Y la cuarta es la culminación, que consiste en decidir que está terminado y soltarlo, que suele ser la que peor se lleva.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla que da valor a la lista es una sola: cada fase tiene su propio criterio y aplicarle a una el criterio de otra es lo que destroza la mayoría de los proyectos. En la fase de semilla no se juzga nada, porque juzgar mata el material antes de que exista; en la de artesanía hay que juzgar sin piedad, porque no hacerlo deja el trabajo a medias. El error habitual es el mismo en todas partes: criticar en la primera y ser indulgente en la tercera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rubin añade una advertencia sobre la última fase. Terminar algo no es alcanzar una calidad objetiva, porque esa calidad no existe: es decidir que esta versión es la que va a salir. Y recomienda no confundir la sensación de no estar preparado con la de que la obra no lo está, porque la primera no se va nunca.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El error que más proyectos destroza es juzgar mientras se recoge material y ser indulgente mientras se construye.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El único público al que puedes conocer eres tú" },
+      {
+        b: "texto",
+        texto:
+          "La postura más discutida del libro es la que tiene sobre la audiencia, y Rubin no la matiza: haz el trabajo para ti, y el público, si viene, vendrá después. No propone despreciar a nadie ni hacerse el incomprendido; propone algo más práctico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es que a un público no se le puede conocer. Un artista que intenta adivinar qué quiere la gente está trabajando con una idea inventada de un grupo de personas que no ha visto, basada en lo que funcionó el año pasado, es decir, en el pasado. En cambio sí puede saber con precisión si algo le gusta a él, y ese es el único dato fiable con el que cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la prueba que propone como criterio final: la sorpresa. Si al terminar algo uno siente que ya sabía cómo iba a quedar, probablemente no valga la pena; si le sorprende, aunque no sepa explicar por qué, hay algo. Rubin cuenta que su manera de trabajar con músicos consiste sobre todo en escuchar y decir qué le hace sentir algo y qué no, sin argumentos técnicos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí conviene poner el freno que el libro no pone. Este consejo lo da alguien que puede permitírselo desde hace cuarenta años. Decirle a quien necesita vender lo que hace que ignore por completo a quien lo va a comprar es un consejo de otro planeta, y Rubin no distingue en ningún momento entre esas dos situaciones.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No puedes conocer a tu público y sí puedes conocerte a ti, así que uno de los dos criterios es un dato y el otro una suposición.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La técnica se aprende, el punto de vista no se copia" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo que mejor argumenta el libro es el que separa dos cosas que suelen confundirse. La técnica es el conjunto de habilidades que permiten ejecutar algo: tocar, dibujar, escribir con corrección, manejar una herramienta. Se aprende, se puede enseñar, se puede medir y hoy, en muchos campos, se puede comprar o encargar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El punto de vista es otra cosa: qué te llama la atención, qué te aburre, qué te parece bonito o insoportable, qué asocias con qué. No se aprende en ninguna escuela porque procede de todo lo que has vivido y oído, y no se puede copiar porque nadie más tiene tu inventario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rubin sostiene que casi todos los que empiezan invierten su tiempo en la primera y descuidan la segunda, cuando en un mundo con técnica abundante lo escaso es lo otro. Y su propia carrera es la demostración incómoda: cuarenta años de discos decididos por alguien que no sabe leer una partitura, cuyo trabajo consiste literalmente en sentarse en un sofá y decir qué le parece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La instrucción que se deriva es concreta y va contra la costumbre. En vez de estudiar cómo se hace lo que admiras, estudia por qué te gusta: qué tiene exactamente, en qué se diferencia de lo parecido que no te gusta. Ese inventario, hecho a lo largo de años, es lo que después decide.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En un mundo donde la técnica se puede comprar, lo único escaso es tener un criterio propio sobre lo que está bien.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La duda avisa de que estás cerca de algo que no habías hecho" },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos más útiles trata la duda al revés de como se trata normalmente. Rubin sostiene que sentir inseguridad sobre lo que se está haciendo no es una señal de que sea malo: suele ser la señal de que se ha salido del terreno conocido, porque de lo que uno domina no duda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La distinción que propone es entre dos tipos de incomodidad. Una es la que produce el trabajo mal hecho, que uno reconoce enseguida y que se arregla trabajando más. La otra es la que produce lo desconocido, y esa no tiene arreglo mientras dure: acompaña a cualquier cosa que no se parezca a lo anterior, y si se espera a que desaparezca antes de terminar, no se termina nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca su recomendación sobre la seguridad excesiva, que es la contraria de la que se suele dar. Cuando alguien está totalmente convencido de que lo que hace es bueno, casi siempre está repitiendo algo que ya sabía hacer, y esa certeza es más preocupante que la duda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro añade el otro remedio clásico, que es de tiempo: guardar el trabajo terminado y no mirarlo durante semanas. Nadie puede juzgar hoy lo que hizo hoy, porque está juzgando su propio esfuerzo y no el resultado; con distancia, la obra se convierte en un objeto ajeno y entonces se ve.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Estar completamente seguro de lo que haces suele significar que estás repitiendo algo que ya sabías hacer.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El libro no cuenta ni una sola historia de estudio" },
+      {
+        b: "texto",
+        texto:
+          "Hay algo que sorprende a casi todo el que lo abre y conviene decirlo antes de recomendarlo: en cuatrocientas páginas escritas por el productor de Johnny Cash, de los Beastie Boys y de Adele no hay ni una sola anécdota de su carrera. Ni un nombre, ni una sesión de grabación, ni una discusión con un artista, ni un ejemplo concreto de una decisión suya.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fue una decisión deliberada. Rubin ha explicado que no quería un libro de memorias ni un manual de música, sino algo que sirviera igual a un cocinero, a un programador o a un jardinero, y que las anécdotas de estudio habrían atado el texto a un oficio concreto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado son setenta y ocho capítulos cortos, algunos de una página, escritos en un tono sereno y a veces vagamente místico, con pasajes sobre la energía del universo y sobre la naturaleza que el propio libro no aclara si hay que tomar en sentido literal o como manera de hablar. Quien buscaba método técnico se encuentra con aforismos, y eso ha decepcionado a mucha gente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Leído por lo que es, funciona de otra manera: no como un libro que se lee de corrido, sino como uno que se abre por cualquier página cuando uno está atascado. Muchas de sus mejores partes no dicen nada nuevo y dicen bien algo conocido, que en este género no es poco.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro de aforismos no se lee de corrido: se abre por una página cualquiera el día que no sabes qué hacer.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El acto creativo sostiene que la creatividad no es un talento sino una manera de prestar atención, y que se organiza en cuatro fases con criterios distintos que no deben mezclarse. Sus recomendaciones son claras: recoger material sin juzgarlo, construir juzgando sin piedad, trabajar para el único público que se puede conocer y cultivar un punto de vista propio, que es lo único que no se puede copiar ni comprar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la autoridad de quien lo escribe. Que un hombre sin ninguna habilidad técnica lleve cuarenta años decidiendo cómo suenan discos que importan es la demostración práctica de su propia tesis, aunque el libro nunca la use como argumento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todos dedican su tiempo a mejorar la técnica, que se puede aprender, y ninguno al criterio, que es lo que no se puede copiar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es el libro de aforismos más caro del mercado: cuatrocientas páginas donde muchas tienen tres frases, y una edición hecha para que parezca más de lo que contiene. Además, varias de sus ideas centrales no son suyas y el libro no lo dice: la del artista como recipiente por el que pasan las ideas tiene dos mil quinientos años y la había popularizado antes otra autora de este mismo género; la separación en fases está en casi todos los manuales de creatividad desde hace décadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una condición que no se nombra en ningún capítulo. Todos sus consejos —trabaja sin pensar en el público, no aceptes encargos que no te interesen, deja reposar el trabajo meses, no negocies tu criterio— presuponen una carrera hecha, una reputación y unos ingresos que hacen posible decir que no. Nada de eso está al alcance de la mayoría de sus lectores, y el libro los trata como si sí lo estuviera.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "acto-creativo": ACTO_CREATIVO,
+  "cartas-joven-poeta": CARTAS_JOVEN_POETA,
   "mientras-escribo": MIENTRAS_ESCRIBO,
   "modos-ver": MODOS_VER,
   "aliento-aire": ALIENTO_AIRE,
