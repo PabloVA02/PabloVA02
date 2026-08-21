@@ -38,6 +38,30 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "riqueza-naciones": [
+    "por qué la especialización tiene un techo",
+    "cuántas veces aparece de verdad la mano invisible",
+    "qué pensaba Smith de los empresarios",
+    "las tres obligaciones que asigna al Estado",
+    "las cuatro reglas de un impuesto bien puesto",
+  ],
+
+  "emperador-males": [
+    "por qué no se operó el cáncer durante trece siglos",
+    "de qué gas de guerra salió la quimioterapia",
+    "qué se demostró en 1981 sobre la mastectomía radical",
+    "cómo se curó la leucemia infantil y a qué precio",
+    "por qué el enemigo son genes propios y no invasores",
+  ],
+
+  "henrietta-lacks": [
+    "por qué esas células no se mueren y las demás sí",
+    "qué se probó con esas células antes de 1973",
+    "cómo se enteraron sus hijos, veintidós años después",
+    "de quién es el tejido que sale de tu cuerpo",
+    "por qué arruinaron miles de experimentos en todo el mundo",
+  ],
+
   feynman: [
     "qué le enseñó su padre sobre el nombre de las cosas",
     "a qué se dedicaba mientras se construía la bomba atómica",

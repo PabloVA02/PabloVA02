@@ -36292,6 +36292,11 @@ const FEYNMAN: PaginaLibro[] = [
           "Estas páginas recorren lo que cuenta: qué le enseñó su padre sobre los nombres de las cosas, a qué se dedicaba en los ratos libres mientras se construía la bomba atómica, qué descubrió dando clase en Brasil, qué pasó cuando le pidieron evaluar libros de texto escolares, de dónde salió el trabajo que le dio el Nobel y qué son los aviones de madera con los que cerró su carrera.",
       },
       {
+        b: "texto",
+        texto:
+          "El personaje que sale de esas cintas tiene también sus zonas oscuras. Un capítulo entero cuenta con orgullo cómo aprendió en un bar a conseguir que las mujeres le hicieran caso tratándolas con desprecio calculado, y no es el único pasaje de ese tenor: hoy se lee de otra manera que en 1985.",
+      },
+      {
         b: "idea",
         texto:
           "Un libro que suena a alguien hablando en voz alta suele ser exactamente eso: alguien hablando, con una grabadora encendida.",
@@ -36350,6 +36355,11 @@ const FEYNMAN: PaginaLibro[] = [
         b: "texto",
         texto:
           "Hizo lo mismo con la valla del recinto. Encontró un agujero por el que se entraba sin control, y para demostrar el fallo empezó a salir por la puerta principal una y otra vez sin haber entrado nunca por ella, hasta que el guardia, que llevaba la cuenta, no entendía nada. Tampoco entonces arreglaron el agujero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que no hay en esas páginas es la bomba. Feynman participó en construirla y del hecho de haberla construido apenas queda un momento de lucidez: al volver a Nueva York, mirando unas obras en la calle, pensó que era inútil seguir levantando edificios. Después de esa línea el libro vuelve a las cajas fuertes.",
       },
       {
         b: "idea",
@@ -36504,18 +36514,1126 @@ const FEYNMAN: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Hay además dos cosas que hoy se leen de otra manera. La primera es su trato con las mujeres: un capítulo entero cuenta con orgullo cómo aprendió en un bar a conseguir que le hicieran caso tratándolas con desprecio calculado, y no es el único pasaje de ese tenor. La segunda es la bomba: participó en construirla y en el libro eso son sobre todo anécdotas de cajas fuertes, con un solo momento de lucidez —al volver a Nueva York, mirando obras en la calle y pensando que era inútil construir nada— y ninguna reflexión sostenida.",
-      },
-      {
-        b: "texto",
-        texto:
           "Lo que vino después le da la razón en lo que importa. En 1986, ya enfermo, formó parte de la comisión que investigó la explosión del transbordador Challenger, y en una audiencia televisada metió un trozo de la junta de goma en un vaso de agua helada con una pinza para demostrar que a baja temperatura perdía la elasticidad. Amenazó con retirar su firma si no publicaban su apéndice al informe, y ese texto termina con una frase que es su testamento: para que una tecnología funcione, la realidad tiene que estar por encima de las relaciones públicas, porque a la naturaleza no se la puede engañar.",
       },
     ],
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La vida inmortal de Henrietta Lacks, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO (reportaje): títulos cortos de imagen y la afirmación
+   en la primera frase. Pero es un libro escrito desde una desgracia real,
+   así que la caja del rayo NO habla en segunda persona: dice la idea de la
+   página en tercera.
+
+   La conclusión lleva el matiz que casi nadie cuenta —a los pacientes
+   blancos también se les tomaba tejido sin preguntar—, el hecho de que Gey
+   regalara las células sin cobrar nunca, la disputa de la propia familia con
+   el libro y el acuerdo con los NIH de 2013 y la demanda de 2023.
+   -------------------------------------------------------------------------- */
+
+const HENRIETTA_LACKS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un tubo con dos sílabas" },
+      {
+        b: "texto",
+        texto:
+          "Una mujer que murió en Baltimore el 4 de octubre de 1951 tiene hoy más masa viva repartida por el mundo de la que tuvo nunca en su cuerpo. Se llamaba Henrietta Lacks, tenía treinta y un años, cinco hijos y un cáncer de cuello de útero que la mató en ocho meses. La enterraron en una tumba sin lápida en Clover, Virginia, en un terreno familiar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mientras la trataban, un cirujano del hospital Johns Hopkins cortó dos trozos pequeños de su cuello del útero: uno del tumor y otro de tejido sano. Los mandó al laboratorio de George Gey, que llevaba treinta años intentando conseguir células humanas que siguieran dividiéndose fuera del cuerpo. Su ayudante, Mary Kubicek, etiquetó el tubo con las dos primeras letras del nombre y las dos del apellido: HeLa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquellas células no murieron. Se dividieron cada veinticuatro horas y siguen dividiéndose. Fueron la primera línea celular humana inmortal de la historia, y con ellas se probó la vacuna de la polio, se estudió el efecto de la radiación, se desarrolló la fecundación in vitro y se escribieron más de sesenta mil artículos científicos. Su familia no supo nada durante veintidós años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rebecca Skloot tardó diez años en escribir este libro y lo publicó en 2010. En estas páginas está lo que encontró: de dónde salió aquel tejido y por qué nadie preguntó, por qué esas células y no otras resultaron ser inmortales, qué se hizo con ellas, cómo se enteró la familia, lo que las células hicieron dentro de los propios laboratorios, y quién era la hija que se pasó la vida intentando saber quién había sido su madre.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las células más usadas de la historia de la medicina llevan el nombre de alguien a quien nunca se le preguntó.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos trozos sin preguntar" },
+      {
+        b: "texto",
+        texto:
+          "A Henrietta Lacks nadie le pidió permiso para quedarse con su tejido, y en 1951 nadie estaba obligado a pedírselo. El consentimiento que firmó autorizaba al hospital a administrarle los tratamientos que considerase necesarios: no decía nada de investigación, porque no hacía falta que lo dijera. Tomar muestras de lo que se extirpaba en quirófano era rutina en cualquier hospital universitario del país.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El Johns Hopkins era además una de las pocas instituciones de Baltimore que atendía a pacientes negros, y lo hacía gratis en su sala pública. Henrietta llegó allí en enero conduciendo veintinueve kilómetros porque no había otro sitio adonde ir. Le dijo al médico que tenía «un nudo en la matriz». El diagnóstico fue carcinoma de cuello de útero y el tratamiento, tubos de radio cosidos contra el cérvix.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El doctor Lawrence Wharton Jr. cortó los dos trozos antes de colocar el radio, con ella dormida sobre la mesa. Skloot documenta que hacía lo mismo con todas las pacientes de aquella consulta, y que Gey recibía tejido de decenas de mujeres cuyos nombres tampoco constan. La diferencia con Henrietta no está en cómo se tomó la muestra: está en que la suya fue la única que creció.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La historia clínica añade un detalle que el libro no suaviza. Cuando el cáncer se extendió, los médicos anotaron que Henrietta preguntaba una y otra vez qué le pasaba y nadie se lo explicaba con claridad; su marido, Day, entendió tan poco de lo que le decían que dio su consentimiento para la autopsia creyendo que servía para saber si la enfermedad afectaría a sus hijos. Aquello no era un abuso excepcional: era el trato normal de la época.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El tejido no se tomó a escondidas: se tomó en una época en la que no se le ocurría a nadie que hubiera que avisar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Células que no sabían morir" },
+      {
+        b: "texto",
+        texto:
+          "Una célula humana normal se divide unas cincuenta veces y se para. El límite lo describió Leonard Hayflick en 1961 y explica por qué todos los intentos anteriores de Gey acababan igual: los cultivos aguantaban unos días, se volvían perezosos y se morían. Gey y su mujer, Margaret, habían pasado tres décadas fabricando a mano los medios de cultivo, exprimiendo plasma de sangre de pollo y sacando trozos de cordón umbilical de la maternidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las HeLa no se pararon. Al día siguiente de sembrarlas, Mary Kubicek vio una capa de células cubriendo el fondo del tubo, y a los dos días había que repartirlas en más tubos porque no cabían. Doblaban su número cada veinticuatro horas, algo que ninguna célula humana había hecho jamás en un laboratorio, y no dieron ninguna señal de agotarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón se supo mucho después y tiene dos partes. El tumor de Henrietta contenía ADN del virus del papiloma humano tipo 18, insertado en su genoma junto a un oncogén, lo que dejó a la célula con las órdenes de división permanentemente encendidas. Y esas células producen telomerasa, la enzima que reconstruye los extremos de los cromosomas: sin ese desgaste, el contador que apaga a las demás no llega nunca a cero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro insiste en un punto incómodo: lo que hizo inmortales a esas células es exactamente lo que mató a Henrietta en ocho meses. Su cáncer era extraordinariamente agresivo, y la autopsia encontró tumores del tamaño de perlas cubriéndole casi todos los órganos. La misma anomalía que la salvó del olvido fue la que no le dejó cumplir treinta y dos años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que hizo únicas a las células de Henrietta Lacks fue la violencia con la que su cáncer la mató.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una fábrica en Tuskegee" },
+      {
+        b: "texto",
+        texto:
+          "Gey no patentó las HeLa ni cobró nunca por ellas: las metía en tubos y las regalaba a quien se las pidiera, y se las mandaba por correo a cualquier laboratorio del mundo envueltas en hielo. Ese gesto es la razón de que se extendieran tan deprisa, y también la razón de que la historia sea más complicada que un robo con beneficio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer uso masivo llegó en 1952. Para probar la vacuna de la polio de Jonas Salk hacían falta cantidades enormes de células, y se montó en el Instituto Tuskegee la primera fábrica de células de la historia, con un equipo formado en su mayoría por científicos y técnicos negros. Producían veinte mil tubos de HeLa a la semana, seis billones de células, y las mandaban a los laboratorios que ensayaban la vacuna.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ahí las HeLa entraron en todo. Sirvieron para contar por primera vez los cromosomas humanos correctamente —cuarenta y seis, no cuarenta y ocho, como se creía—, para estudiar el efecto de la bomba atómica, para los primeros trabajos de clonación y de fecundación in vitro, para el desarrollo de fármacos contra el sida y el párkinson. Subieron en satélites soviéticos y estadounidenses para ver qué le hacía a un tejido humano la ausencia de gravedad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las cifras que da el libro cuesta imaginarlas. Se han cultivado unas cincuenta toneladas de células HeLa. Aparecen en más de sesenta mil artículos científicos y hay más de once mil patentes que las mencionan. Una empresa, Microbiological Associates, montó el primer negocio de venta de células humanas con ellas: fue la primera vez que una parte del cuerpo de una persona se convirtió en un producto de catálogo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El hombre que hizo posible el negocio de las células humanas fue el único que nunca cobró por ellas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Veintidós años después" },
+      {
+        b: "texto",
+        texto:
+          "La familia Lacks se enteró en 1973, y por casualidad. En una cena, la mujer de un nieto de Henrietta coincidió con un investigador que trabajaba con células HeLa y que, al oír el apellido, preguntó si tenía algo que ver con la mujer de Baltimore. Los hijos llevaban veintidós años sin saber que existía algo llamado HeLa y creyeron al principio que se habían quedado con un trozo de su madre entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurrió después empeoró la confusión. Unos genetistas del Johns Hopkins necesitaban sangre de los familiares para fabricar marcadores que permitieran identificar las HeLa, y los llamaron por teléfono. Nadie les explicó para qué era: Day Lacks entendió que iban a hacerles pruebas para saber si tenían el cáncer que había matado a su mujer, y durante años sus hijos esperaron unos resultados que nunca llegaron porque nunca existieron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mientras tanto, ninguno de ellos tenía seguro médico. Deborah pagaba de su bolsillo medicinas para la artritis y la ansiedad que a veces no podía comprar; su hermano Zakariyya, ciego de un ojo y sordo, vivía en una residencia; Sonny se hizo una operación de corazón que le dejó una deuda de más de ciento veinticinco mil dólares. La frase que repetían era siempre la misma: si las células de nuestra madre valen tanto, ¿por qué nosotros no podemos ir al médico?",
+      },
+      {
+        b: "texto",
+        texto:
+          "La respuesta legal llegó en 1990 con el caso de John Moore, un paciente de leucemia cuyo bazo extirpado dio lugar a una línea celular patentada por la Universidad de California. Moore denunció y el Tribunal Supremo de California falló en su contra: el tejido que sale de un cuerpo y se descarta deja de pertenecer a la persona, entre otras cosas porque reconocer lo contrario paralizaría la investigación biomédica. Esa sigue siendo, en lo esencial, la doctrina vigente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un tejido que sale del cuerpo deja de ser de nadie, y esa regla no se escribió pensando en los que no pueden pagar un médico.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La bomba de 1966" },
+      {
+        b: "texto",
+        texto:
+          "Las HeLa hicieron dentro de los laboratorios algo que nadie había previsto: se comieron a las demás. En 1966, en un congreso, el genetista Stanley Gartler anunció que dieciocho de las líneas celulares más usadas del mundo, supuestamente de tejidos distintos y de personas distintas, compartían un marcador genético raro que solo aparece en poblaciones afroamericanas. Todas eran, en realidad, células de Henrietta Lacks.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bastaba una gota de líquido en una pipeta mal lavada, o un aerosol invisible al abrir un frasco. Las HeLa crecían tan deprisa que en pocos días desplazaban al cultivo original sin que nadie notara el cambio. Los laboratorios llevaban años publicando trabajos sobre cáncer de mama, de próstata o de hígado utilizando, sin saberlo, células de un tumor de cuello de útero de 1951.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La reacción fue de negación. Walter Nelson-Rees se dedicó durante la década siguiente a publicar listas con los nombres de las líneas contaminadas y de los laboratorios responsables, y se ganó la enemistad de media profesión. Se calcula que la contaminación cruzada echó a perder decenas de miles de artículos, y el problema no está resuelto: todavía hoy se retractan trabajos por trabajar con células que no son las que dicen ser.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En plena Guerra Fría el asunto llegó a tener consecuencias diplomáticas. Un intercambio de cultivos con laboratorios soviéticos, presentado como un gesto de deshielo científico, terminó cuando se comprobó que las células rusas eran también HeLa. El libro cuenta la escena con la ironía justa: la persona más viajada de la ciencia del siglo XX fue una mujer que apenas salió de Virginia y Maryland.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un contaminante que invade cualquier cultivo en tres días arruinó más investigación que ningún fraude conocido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La hija que quería saber" },
+      {
+        b: "texto",
+        texto:
+          "El centro del libro no es Henrietta: es Deborah, su cuarta hija, que tenía un año cuando su madre murió y se pasó la vida intentando averiguar quién había sido. Skloot tardó casi un año en conseguir que le cogiera el teléfono, porque en veinte años habían pasado por allí periodistas, investigadores y algún estafador, y de todos ellos la familia había sacado siempre la misma conclusión: alguien viene, coge algo y no vuelve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Deborah aprendió a leer artículos científicos con un diccionario médico y llenó carpetas de fotocopias que no entendía del todo. Le aterraba una idea concreta: si las células de su madre estaban vivas, ¿estaba su madre sintiendo algo cuando las congelaban o las metían en un reactor? Un investigador del Johns Hopkins, Christoph Lengauer, la llevó por fin a un laboratorio, le enseñó las células al microscopio y le explicó lo que eran. Ella les habló en voz baja.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Buscando a su madre encontró a su hermana. Elsie, la segunda hija, era sorda y epiléptica, y a los diez años la ingresaron en el hospital de Crownsville, entonces llamado Hospital para Negros Dementes. Murió allí en 1955, a los quince. Skloot y Deborah encontraron su expediente en un sótano, con una fotografía en la que alguien sostiene la cabeza de la niña hacia la cámara, y el registro de las investigaciones que se hacían con los internos sin avisar a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquel hallazgo casi la mata: Deborah tuvo una crisis de urticaria y de tensión al volver a casa y estuvo días sin poder hablar del asunto. El libro no le da un final consolador. Deborah Lacks murió de un infarto en 2009, a los cincuenta y nueve años, unos meses antes de que se publicara el libro que llevaba una década esperando.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La familia no pedía dinero al principio: pedía que alguien les explicara qué había pasado con su madre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La vida inmortal de Henrietta Lacks cuenta tres cosas que casi nunca se cuentan juntas: la vida de una mujer negra pobre que murió de cáncer en 1951, la de las células que le tomaron sin avisar y que han sostenido medio siglo de biomedicina, y la de unos hijos que se enteraron veintidós años después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una pregunta que antes de este libro no estaba planteada así: qué se le debe a alguien de quien sale el material con el que se hace ciencia. No es una pregunta sobre patentes, sino sobre información y sobre trato. La familia no protestó por no haber cobrado: protestó por enterarse en una cena.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El problema no fue que se ganara dinero con esas células: fue que nadie consideró necesario decírselo a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El libro está montado para que el lector concluya que a Henrietta le quitaron el tejido por ser negra y pobre, y esa lectura no se sostiene del todo: en 1951 se tomaba tejido sin avisar a todos los pacientes, blancos y negros, y el Johns Hopkins la trató gratis cuando casi ningún hospital de la ciudad la habría admitido. Skloot lo dice, pero lo dice bajito, y el orden de las escenas empuja en la otra dirección.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después incluye una disputa dentro de la propia familia. Unos Lacks apoyaron el libro y la fundación que Skloot creó con parte de los ingresos; otros, el hijo mayor y un nieto, sostienen que contó la historia sin su permiso y publicaron en 2020 su propia versión. Un relato sobre el consentimiento acabó abriendo otra discusión sobre el consentimiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la ley se movió un poco. En 2013 un equipo alemán publicó el genoma completo de las HeLa sin avisar a nadie; hubo protesta y los Institutos Nacionales de Salud firmaron un acuerdo por el que dos miembros de la familia deciden quién accede a esos datos. En 2023 la empresa Thermo Fisher llegó a un acuerdo con los Lacks: setenta y dos años después de la biopsia.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   El emperador de todos los males, en doce páginas.
+
+   Amplio: son diez argumentos independientes y quitar cualquiera deja la
+   historia coja —la bilis negra, Halsted, el gas mostaza, Farber, Lasker,
+   VAMP, el trasplante, el tabaco, los oncogenes y Gleevec—.
+
+   Registro de ENSAYO: el titular afirma, tercera persona, la caja del rayo
+   es la idea de la página.
+
+   La conclusión lleva lo que el libro no ve venir —la inmunoterapia, que
+   empezó a aprobarse un año después de publicarse— y el precio de Gleevec.
+   -------------------------------------------------------------------------- */
+
+const EMPERADOR_MALES: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una paciente preguntó contra qué estaba luchando y no había una respuesta corta",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2004, una mujer de treinta años llamada Carla Reed empezó un tratamiento contra una leucemia aguda en Boston. Su médico era Siddhartha Mukherjee, que estaba en el último año de su formación como oncólogo. Un día ella le hizo una pregunta que él no supo contestar: estoy dispuesta a seguir luchando, pero necesito saber contra qué estoy luchando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De esa pregunta salió este libro, publicado en 2010, que no es un manual ni un ensayo sobre la enfermedad, sino su biografía: la historia de un paciente de cuatro mil años contada como se cuenta la de una persona. El primer caso descrito está en un papiro egipcio y la última escena ocurre en un ensayo clínico. En medio hay más errores que aciertos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tesis de fondo es que el cáncer no es un invasor. No es un microbio ni un veneno que entre de fuera: son células propias con las instrucciones de crecimiento estropeadas, y por eso ninguna estrategia de las que funcionan contra una infección funciona aquí. Todo lo que se ha intentado contra él ha tropezado tarde o temprano con esa dificultad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren esa historia en diez tramos: los trece siglos que perdió la medicina persiguiendo un humor que no existe, la cirugía que cortaba cada vez más lejos, el gas de guerra del que salió la quimioterapia, la primera remisión infantil, la ley de 1971, los venenos combinados, el desastre del trasplante de médula, el tabaco, el descubrimiento de que los genes del cáncer son los nuestros y el primer fármaco diseñado contra una avería concreta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El cáncer no es algo que entra en el cuerpo: es el propio cuerpo funcionando con las órdenes cambiadas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una teoría sobre un líquido inexistente frenó la cirugía durante trece siglos",
+      },
+      {
+        b: "texto",
+        texto:
+          "La descripción más antigua que se conserva de un cáncer tiene unos cuatro mil quinientos años y está en el papiro Edwin Smith, atribuido al médico egipcio Imhotep. El caso número cuarenta y cinco describe una masa abultada en el pecho, fría al tacto y dura como una fruta verde. En el apartado del tratamiento, el papiro escribe una frase que no aparece en ningún otro caso: no lo hay.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hacia el año 160, Galeno explicó la enfermedad con la teoría de los cuatro humores: el cuerpo contiene sangre, flema, bilis amarilla y bilis negra, y el cáncer es un exceso de la última, atrapada y coagulada. La explicación tenía una consecuencia práctica que duró mil trescientos años. Si el mal es un líquido que circula por todo el cuerpo, operar no sirve de nada: la bilis negra vuelve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema es que la bilis negra no existe. Andrés Vesalio la buscó en sus disecciones a mediados del siglo XVI, dibujó el cuerpo entero con un detalle que nadie había alcanzado y no encontró ni rastro de ella. Matthew Baillie publicó en 1793 un atlas de órganos enfermos donde tampoco aparece. Un canal anatómico que nadie había visto nunca había gobernado el tratamiento de la enfermedad durante más de mil años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mukherjee usa a lo largo del libro un personaje real para medir el paso del tiempo: Atosa, reina persa del siglo V antes de Cristo, a la que Heródoto describe con un bulto sangrante en el pecho que un esclavo griego, Democedes, le extirpó. La pregunta que recorre el libro es qué le habría pasado a Atosa en cada siglo posterior, y la respuesta durante casi toda la historia es la misma.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Durante trece siglos no se operó el cáncer por respeto a una sustancia que nadie ha visto jamás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La cirugía cortó cada vez más lejos durante ochenta años sin salvar a nadie más",
+      },
+      {
+        b: "texto",
+        texto:
+          "William Stewart Halsted, cirujano del hospital Johns Hopkins, razonó a finales del siglo XIX que si el cáncer volvía después de una operación era porque se habían dejado células dentro. La solución le pareció evidente: cortar más. Su mastectomía radical extirpaba la mama, el músculo pectoral mayor, después también el menor, y los ganglios de la axila y de encima de la clavícula, dejando una concavidad en el tórax.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El propio Halsted es un personaje que el libro no adorna. Había demostrado en su juventud que la cocaína servía como anestésico local experimentando consigo mismo y con sus ayudantes, se hizo adicto, y trató de curarse con morfina, a la que también se enganchó. Operaba con una precisión obsesiva, en silencio, y sus discípulos extendieron su método por todos los hospitales del país.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lógica se llevó hasta el final. Jerome Urban desarrolló en los años cincuenta la mastectomía superradical, que abría el esternón y retiraba costillas y ganglios del interior del tórax. Se calcula que medio millón de mujeres pasaron por la operación de Halsted o sus versiones ampliadas a lo largo del siglo XX, muchas con el brazo inutilizado después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bernard Fisher hizo lo que nadie había hecho: repartir a las pacientes al azar entre la operación grande y una pequeña, y esperar. Los resultados publicados en 1981 y ampliados en 1985 no dejaron dudas: la supervivencia era la misma. La razón desmontaba el razonamiento entero. O el tumor está localizado, y entonces basta con quitarlo, o ya ha soltado células por la sangre, y entonces no hay operación lo bastante amplia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ochenta años de cirugía cada vez más amplia se sostuvieron sobre una lógica que nadie se había molestado en comprobar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La quimioterapia empezó siendo un gas de guerra hundido en un puerto italiano",
+      },
+      {
+        b: "texto",
+        texto:
+          "La noche del 2 de diciembre de 1943, la aviación alemana bombardeó el puerto de Bari, en el sur de Italia. Entre los barcos hundidos estaba el John Harvey, un carguero estadounidense que llevaba en secreto un centenar de toneladas de bombas de gas mostaza. El gas se mezcló con el agua y el humo y alcanzó a los marineros y a los habitantes del puerto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El médico militar Stewart Alexander investigó las muertes y encontró un patrón que no venía en los manuales: los cadáveres tenían la médula ósea vaciada y los glóbulos blancos casi desaparecidos. El gas destruía preferentemente las células que se dividen deprisa. Alexander comprendió que un veneno capaz de arrasar la médula podía servir contra una enfermedad de la médula.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En Yale, Louis Goodman y Alfred Gilman ya habían tenido la misma idea trabajando con mostaza nitrogenada bajo contrato militar. En 1942 la inyectaron a un paciente con linfosarcoma que aparece en los papeles solo con dos iniciales, J. D. Los bultos del cuello, duros como piedras, se ablandaron y desaparecieron en semanas. Después volvieron, y el hombre murió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese resultado quedó clasificado hasta 1946 por tratarse de material de guerra, y contiene ya en miniatura toda la historia posterior de la quimioterapia: un veneno que funciona porque mata células que se dividen deprisa, un tumor que se derrite, y un regreso. La diferencia entre las células enfermas y las sanas no era de naturaleza sino de velocidad, y de ahí salieron a la vez la eficacia y los efectos secundarios.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los primeros fármacos contra el cáncer no se diseñaron: se encontraron mirando de qué morían los envenenados por un gas de guerra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La primera remisión de una leucemia infantil duró unos meses y lo cambió todo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sidney Farber era patólogo del Hospital Infantil de Boston y trabajaba en un sótano con muestras de niños muertos. La leucemia linfoblástica aguda mataba entonces en cuestión de semanas y ningún médico intentaba tratarla; se consideraba de mala educación molestar a un niño moribundo. Farber se propuso probar algo, y su primer intento salió al revés.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Había leído que el ácido fólico corregía cierta anemia y decidió administrarlo a niños con leucemia. Los enfermos empeoraron deprisa: el fólico es precisamente lo que las células leucémicas necesitan para multiplicarse, y les estaba dando combustible. El error contenía la respuesta. Si el fólico aceleraba la enfermedad, un compuesto que bloqueara el fólico podría frenarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El químico Yellapragada Subbarao le fabricó en los laboratorios Lederle varios antagonistas del ácido fólico, y uno de ellos, la aminopterina, funcionó. En diciembre de 1947, un niño de dos años llamado Robert Sandler, que ya no podía caminar, recuperó el recuento de células normales y volvió a jugar. Farber publicó en junio de 1948 dieciséis casos, diez de ellos con remisión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El artículo se recibió con incredulidad y con reproches, porque todas las remisiones eran temporales: los niños recaían a los pocos meses y morían igual. Robert Sandler murió en 1948. Farber sostuvo que eso no era el argumento en contra sino el argumento a favor, porque nadie había conseguido nunca detener aquella enfermedad ni un solo día. Por primera vez existía algo que hacer.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una remisión que dura cuatro meses no cura a nadie, pero demuestra que la enfermedad se puede tocar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El cáncer se convirtió en causa política antes que en enfermedad tratable",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mary Lasker era la viuda de un publicista millonario y tenía una idea clara de cómo se mueve el dinero público: se mueve con campañas. Se alió con Farber en los años cuarenta y montaron primero el Jimmy Fund, que empezó con una emisión de radio en 1948 en la que un niño enfermo de doce años, Einar Gustafson, hablaba desde su cama de hospital con jugadores de béisbol.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La operación mayor llegó veinte años después. El 9 de diciembre de 1969, los llamados laskeritas pagaron una página entera del New York Times con un titular dirigido al presidente: señor Nixon, usted puede curar el cáncer. El argumento era el de la carrera espacial: si se había llegado a la Luna con dinero y voluntad política, se podía llegar a esto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nixon firmó la Ley Nacional del Cáncer el 23 de diciembre de 1971 con mil quinientos millones de dólares para tres años. El país se dio a sí mismo un plazo: el bicentenario de 1976. La cifra de muertes por cáncer no bajó en esos años; subió, en parte porque la población envejecía y en parte porque el tabaco de los años cuarenta estaba empezando a pasar factura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los críticos habían avisado. James Watson, que estaba en el consejo asesor, y el virólogo Sol Spiegelman sostuvieron que era como lanzar un cohete a la Luna antes de que existiera la ley de la gravedad: se puede financiar la búsqueda de un tratamiento, pero no se puede financiar la comprensión de un mecanismo que aún nadie ha descrito. Tenían razón, y esa comprensión tardó veinte años más.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El dinero puede acelerar una búsqueda, pero no puede sustituir a la explicación que todavía no existe.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cuatro venenos administrados a la vez curaron lo que ninguno curaba por separado",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el Instituto Nacional del Cáncer, a principios de los años sesenta, Emil Frei y Emil Freireich probaron una idea tomada de la tuberculosis: si el microbio se hace resistente a un fármaco pero no a tres, quizá con las células leucémicas ocurra lo mismo. Juntaron cuatro medicamentos —vincristina, metotrexato, mercaptopurina y prednisona— en un régimen que llamaron VAMP.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los primeros meses fueron insoportables de mirar. Los niños se quedaban sin defensas, sangraban por las encías, cogían infecciones que los mataban antes que la leucemia, y varios colegas del hospital consideraron que aquello era experimentación con moribundos. Freireich resolvió el problema del sangrado demostrando que las transfusiones de plaquetas funcionaban, algo que entonces se negaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Faltaba una pieza. Los niños recaían con la leucemia instalada en el cerebro, porque los fármacos no atraviesan la barrera que lo protege. Donald Pinkel, en el hospital St. Jude de Memphis, añadió radiación craneal y quimioterapia inyectada en el líquido de la médula espinal, y alargó el tratamiento a dos años. Su protocolo, llamado terapia total, empezó a curar de verdad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La leucemia linfoblástica aguda infantil pasó de matar a prácticamente todos los niños que la padecían a curarse hoy en torno al ochenta y cinco por ciento de los casos. Tiene una letra pequeña que el libro no esconde: los supervivientes de aquella radiación craneal arrastraron problemas de aprendizaje y segundos tumores años después, y los protocolos hubo que rehacerlos para quitarla en cuanto se pudo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La primera curación de un cáncer no salió de un fármaco nuevo, sino de combinar cuatro que fallaban por separado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Decenas de miles de mujeres recibieron un tratamiento brutal que nunca se había comprobado",
+      },
+      {
+        b: "texto",
+        texto:
+          "El éxito de las combinaciones dejó una moraleja peligrosa: si más fármacos curan, más dosis curarán más. En los años ochenta y noventa se extendió para el cáncer de mama avanzado un procedimiento llamado trasplante autólogo de médula, que consistía en extraer médula de la paciente, administrarle dosis de quimioterapia que habrían sido mortales y devolverle después su propia médula para rescatarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tratamiento se extendió antes de que existiera un solo ensayo aleatorizado que lo respaldara. Las pacientes lo exigían, los hospitales montaron unidades enteras, las aseguradoras que se negaban a pagarlo acabaron en los tribunales —a una la condenaron en 1993 a pagar ochenta y nueve millones de dólares— y varios estados aprobaron leyes obligando a cubrirlo. Se calcula que entre treinta y cuarenta mil mujeres pasaron por él en Estados Unidos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los únicos datos brillantes venían de un investigador sudafricano, Werner Bezwoda, que presentó en congresos resultados muy superiores a los de nadie. En 2000, un equipo enviado a auditar su trabajo en Johannesburgo descubrió que los historiales no existían y que las cifras estaban inventadas. Los ensayos serios, publicados por esas fechas, no encontraron ninguna ventaja de supervivencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El episodio es el más incómodo del libro porque no hubo un villano claro. Hubo médicos convencidos, pacientes desesperadas, jueces compasivos y una prensa entusiasta, y todos juntos sostuvieron durante quince años un procedimiento que mataba a un porcentaje de las mujeres que lo recibían sin alargar la vida de las demás. La única defensa contra eso es el ensayo aleatorizado, que es lento y antipático.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un tratamiento puede extenderse quince años por consenso, compasión y sentencias judiciales sin que nadie haya comprobado si funciona.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La industria del tabaco no negó la ciencia: fabricó dudas sobre ella",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cáncer de pulmón era una rareza a principios del siglo XX y en los años cincuenta se había convertido en la causa principal de muerte por cáncer entre los hombres. En 1950 se publicaron dos trabajos que apuntaban al tabaco: el de Richard Doll y Austin Bradford Hill en Inglaterra y el de Ernst Wynder y Evarts Graham en Estados Unidos. Doll y Hill siguieron después durante décadas a más de treinta mil médicos británicos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Graham merece una línea aparte. Era el cirujano que había hecho en 1933 la primera extirpación completa de un pulmón por cáncer, fumaba sin parar y aceptó el estudio convencido de que no encontrarían nada. Dejó de fumar cuando vio los resultados. Murió de cáncer de pulmón en 1957, y escribió antes una carta reconociendo lo que había tardado en creerse sus propios datos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La industria reaccionó en diciembre de 1953 con una reunión en un hotel de Nueva York y una agencia de relaciones públicas. De ahí salió en enero de 1954 la Declaración Franca a los Fumadores, un anuncio publicado en cientos de periódicos que no negaba los estudios: pedía más investigación. La estrategia quedó escrita en un memorando interno de 1969 con una frase que lo resume todo: la duda es nuestro producto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Funcionó durante cuarenta años. El informe del cirujano general estadounidense de 1964 estableció oficialmente el vínculo, pero las demandas no empezaron a ganarse hasta los años noventa, cuando aparecieron documentos internos que probaban que las compañías conocían el riesgo y la adicción desde hacía décadas. En 1994, siete directivos juraron ante el Congreso que la nicotina no era adictiva.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Para bloquear una política sanitaria no hace falta demostrar que la ciencia se equivoca: basta con sostener que aún no está clara.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los genes que provocan el cáncer no vienen de fuera: son los nuestros estropeados",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1911, Peyton Rous demostró en el Instituto Rockefeller que un sarcoma de gallina podía transmitirse a otra gallina con un filtrado sin células, es decir, con un virus. Nadie le hizo caso durante medio siglo; recibió el Nobel en 1966, con ochenta y siete años. Su virus, sin embargo, contenía la pieza que resolvería el problema: un gen llamado src capaz de transformar una célula sana en tumoral.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1976, Harold Varmus y Michael Bishop hicieron el descubrimiento que reordenó todo lo anterior. Buscaron src en el ADN de aves normales, sin virus, y lo encontraron. El virus no había inventado nada: había robado un gen que ya estaba en el genoma de los animales, donde cumple una función normal de crecimiento, y lo había devuelto averiado. El enemigo estaba dentro desde el principio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ahí el rompecabezas se armó por los dos lados. Alfred Knudson había deducido en 1971, contando casos de retinoblastoma infantil, que hacen falta dos golpes en el mismo gen para que aparezca el tumor, lo que anunciaba la existencia de genes que frenan el crecimiento. Se identificaron: el Rb, y sobre todo el p53, que aparece alterado en más de la mitad de los cánceres humanos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2000, Douglas Hanahan y Robert Weinberg resumieron cuarenta años de trabajo en un artículo que enumeraba seis rasgos que toda célula cancerosa tiene que adquirir: multiplicarse sin señal externa, ignorar las órdenes de frenar, esquivar el suicidio celular, dividirse sin límite, fabricarse vasos sanguíneos y viajar a otros órganos. Deja de ser una lista de doscientas enfermedades y pasa a ser un mismo problema resuelto de doscientas maneras.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El cáncer usa los mismos genes que nos hacen crecer y cicatrizar, con los frenos rotos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El primer fármaco dirigido a una avería concreta convirtió una leucemia mortal en una enfermedad crónica",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1960, dos investigadores de Filadelfia, Peter Nowell y David Hungerford, vieron que las células de la leucemia mieloide crónica tenían un cromosoma acortado, al que llamaron cromosoma Filadelfia. En 1973, Janet Rowley demostró qué había pasado: un trozo del cromosoma nueve se había pegado al veintidós, formando un gen fusionado que fabrica una enzima permanentemente encendida que ordena a la célula dividirse sin parar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso era, por primera vez, una avería concreta contra la que apuntar. El químico Nicholas Lydon buscó en Ciba-Geigy una molécula que encajara en esa enzima y la bloqueara, y encontró una. El oncólogo Brian Druker, en Oregón, se empeñó en probarla en pacientes contra el desinterés de la propia empresa, que no veía negocio en una enfermedad poco frecuente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer ensayo, en 1998, dio un resultado que en oncología no se había visto nunca: de cincuenta y cuatro pacientes tratados, cincuenta y tres normalizaron el análisis de sangre, y con efectos secundarios menores. La agencia estadounidense del medicamento aprobó el imatinib, comercializado como Gleevec, en mayo de 2001, en dos meses y medio. La supervivencia a diez años de esa leucemia pasó de rondar el veinte por ciento a superar el ochenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Casi al mismo tiempo, Dennis Slamon identificó que una parte de los cánceres de mama fabrica en exceso una proteína llamada HER2, y desarrolló contra ella un anticuerpo, el trastuzumab, aprobado en 1998 después de años de presión de las propias pacientes sobre el laboratorio. El principio quedó establecido: primero se averigua qué está roto en ese tumor concreto, y después se busca la llave de esa cerradura.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando se conoce la avería exacta de un tumor, el tratamiento deja de ser un veneno general y pasa a ser una llave.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El emperador de todos los males cuenta cuatro mil años de una enfermedad como se cuenta la vida de alguien: su primera descripción en un papiro egipcio, los siglos en que se la explicó con un líquido inexistente, la cirugía que cortaba cada vez más lejos, la ley de 1971 y el momento en que se entendió que sus genes son los nuestros con los frenos rotos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta no es optimismo ni pesimismo, sino un criterio. La historia entera se puede leer como una sucesión de teorías razonables que no se comprobaron a tiempo: la bilis negra, la cirugía superradical, el trasplante de médula. Lo único que ha corregido cada uno de esos errores es el mismo instrumento aburrido: repartir pacientes al azar y esperar años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todos los daños de esta historia los causaron médicos convencidos de tener razón sin haberlo comprobado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es una historia de la oncología estadounidense contada a través de héroes: Boston, Bethesda, Farber, Lasker, Druker. Fuera de ese circuito casi no mira, y hoy la mayoría de las muertes por cáncer ocurren en países de renta baja y media donde ninguno de estos fármacos está disponible. Y es más confiado con la mamografía de lo que sostiene la evidencia posterior sobre el sobrediagnóstico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después contradice su final. El libro se cierra en 2010 con la terapia dirigida como horizonte, y al año siguiente se aprobó el primer inhibidor de punto de control, un fármaco que no ataca al tumor sino que retira el freno que este pone al sistema inmunitario. Desde 2014 esa familia es el cambio más grande desde Gleevec, y en 2017 se autorizaron las primeras células T modificadas. Nada de eso se ve venir aquí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el propio Gleevec acabó ilustrando un problema que el libro celebra sin sospechar. Su precio pasó de unos veintiséis mil dólares al año en 2001 a más de cien mil una década después, y en 2013 un centenar de especialistas en esa leucemia firmaron un artículo conjunto denunciándolo. La enfermedad se volvió crónica y el tratamiento, vitalicio.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   La riqueza de las naciones, en doce páginas.
+
+   Amplio: son diez argumentos independientes repartidos en cinco libros, y
+   el quinto —el del Estado, las escuelas y los impuestos— es justo el que
+   no cita nadie.
+
+   Registro de ENSAYO: el titular afirma, tercera persona.
+
+   Dato que ordena el resumen: «mano invisible» aparece UNA vez en las
+   novecientas páginas, en el libro IV, y no significa lo que se cree.
+
+   La conclusión lleva la teoría del valor-trabajo, que se cayó en 1871, y
+   la fábrica industrial, que Smith tenía en Glasgow y no vio.
+   -------------------------------------------------------------------------- */
+
+const RIQUEZA_NACIONES: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un taller de alfileres explica por qué unos países son ricos y otros no",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un hombre que fabricara alfileres él solo, dice Adam Smith en la primera página de su libro, no llegaría a hacer veinte en un día entero. En un taller que él visitó, diez operarios se repartían dieciocho operaciones distintas —uno estira el alambre, otro lo endereza, otro lo corta, otro afila la punta, otro prepara la cabeza— y fabricaban entre todos cuarenta y ocho mil alfileres diarios. Cuatro mil ochocientos por cabeza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La riqueza de las naciones se publicó el 9 de marzo de 1776 y su título completo es Investigación sobre la naturaleza y causas de la riqueza de las naciones. Son cinco libros y unas novecientas páginas escritas a lo largo de doce años por un profesor de filosofía moral de Glasgow que ya había publicado otro libro, la Teoría de los sentimientos morales, y que siguió corrigiéndolo hasta el año de su muerte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La pregunta del libro no es cómo se hace rico un hombre, sino de dónde sale la riqueza de un país entero. La respuesta rompe con lo que se creía en su época: no está en el oro que guarda un reino, sino en la cantidad de cosas que su gente produce en un año, y esa cantidad depende sobre todo de lo bien repartido que esté el trabajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren los diez argumentos del libro: la división del trabajo y su límite, el error de confundir riqueza con oro, el interés propio del carnicero, la mano invisible —que aparece una sola vez en toda la obra—, el enigma del agua y los diamantes, la confabulación de los patronos, su desconfianza hacia los comerciantes, las tres obligaciones del Estado, el daño que la especialización hace al trabajador y las cuatro reglas de los impuestos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La riqueza de un país no es lo que guarda, sino lo que produce en un año.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La división del trabajo multiplica la producción, pero el tamaño del mercado la limita",
+      },
+      {
+        b: "texto",
+        texto:
+          "Repartir un oficio en tareas pequeñas multiplica lo que se produce por tres razones, y Smith las enumera sin adornos. Cada operario mejora su destreza al repetir un solo gesto miles de veces. Se ahorra el tiempo que se pierde pasando de una tarea a otra, que es más del que parece. Y quien hace siempre lo mismo acaba inventando una máquina que lo haga por él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercer motivo es el que Smith más subraya, y lo demuestra con un caso que le contaron: un niño encargado de abrir y cerrar la válvula de una máquina de vapor ató un cordel entre la palanca y otra parte de la máquina para que se moviera sola, y así pudo irse a jugar con sus compañeros. La mayoría de las mejoras técnicas, sostiene, no las hicieron inventores sino trabajadores aburridos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pero hay un techo, y es el capítulo tercero: la división del trabajo está limitada por la extensión del mercado. En una aldea de las Highlands nadie puede dedicarse solo a hacer clavos, porque no hay quien le compre tantos; allí el campesino tiene que ser también carnicero, panadero y cervecero. Solo donde hay muchos compradores puede alguien especializarse en una sola cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su explicación de por qué las civilizaciones nacen en las costas y en los ríos. Llevar mercancía por tierra de Londres a Edimburgo exigía cincuenta hombres y cuatrocientos caballos durante semanas; un barco con seis o ocho tripulantes hacía el mismo trayecto con mucha más carga. El agua abarata el transporte, el transporte barato agranda el mercado y el mercado grande permite especializarse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie puede dedicarse a una sola cosa si no hay bastante gente cerca a quien vendérsela.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Creer que la riqueza es el oro llevó a Europa a doscientos años de política equivocada",
+      },
+      {
+        b: "texto",
+        texto:
+          "El sistema que Smith se propuso demoler ocupa el cuarto libro y se llamaba mercantilismo. Su idea central era que un país se enriquece acumulando metales preciosos, de modo que hay que vender al extranjero todo lo posible y comprarle lo menos posible. De ahí salían los aranceles, las prohibiciones de importar, las primas a la exportación y el monopolio del comercio con las colonias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El error, dice Smith, está en confundir el dinero con la riqueza. El oro no se come ni abriga: sirve para comprar cosas, y por tanto lo que enriquece a un país es la cantidad de cosas disponibles, no la cantidad de monedas. Un país lleno de oro y sin trigo pagaría el trigo muy caro. La riqueza es el producto anual de la tierra y del trabajo, y nada más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí se sigue la consecuencia que más molestó en su momento: el comercio no es una partida en la que uno gana lo que el otro pierde. Si Portugal vende vino a Inglaterra y compra paño, las dos partes acaban con más de lo que tenían, porque cada una ha hecho lo que sabe hacer mejor. Prohibir la importación de vino francés no enriquece a Inglaterra: solo la obliga a fabricar mal un vino caro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Smith añade un argumento doméstico que sigue siendo el más claro que existe contra el proteccionismo. La máxima de cualquier padre de familia prudente es no fabricar en casa lo que cueste más caro que comprarlo fuera; el sastre no se hace los zapatos y el zapatero no se cose la ropa. Lo que es prudencia en una familia, escribe, difícilmente puede ser locura en un reino.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El comercio entre dos países no reparte una tarta fija: hace que haya más tarta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El interés propio funciona porque es previsible, no porque sea admirable",
+      },
+      {
+        b: "texto",
+        texto:
+          "El pasaje más citado del libro está en el capítulo segundo y dice que no esperamos nuestra cena de la benevolencia del carnicero, del cervecero o del panadero, sino de la atención que prestan a su propio interés. No hablamos con ellos de nuestras necesidades, sino de sus ventajas. Es una frase que se ha usado durante dos siglos para convertir a Smith en un apologista del egoísmo, y no es lo que dice.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sostiene es una observación sobre la escala. Un hombre puede contar con la ayuda desinteresada de unos pocos amigos, pero necesita cada día la cooperación de multitudes a las que no conocerá nunca, y la simpatía no llega tan lejos. El interés propio es el único motivo que se puede dar por supuesto en un desconocido, y por eso sirve para organizar a millones de personas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mismo Smith había publicado diecisiete años antes la Teoría de los sentimientos morales, que empieza afirmando exactamente lo contrario: por muy egoísta que se suponga al hombre, hay en su naturaleza principios que le hacen interesarse por la suerte de los demás. Durante el siglo XIX se discutió si eran dos libros incompatibles. No lo son: Smith reeditó y amplió el primero en 1790, el año en que murió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia está en el sitio, no en la doctrina. En el trato cercano funciona la simpatía; en el mercado anónimo funciona el interés, y funciona solo si hay competencia. Sin competencia, ese mismo interés propio produce lo contrario: precios altos, mala calidad y clientes atrapados. Smith dedica más páginas a ese peligro que a elogiar el mercado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El interés propio no es una virtud: es el único motivo con el que se puede contar en alguien a quien no conoces.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La mano invisible aparece una sola vez en novecientas páginas y no significa lo que se cree",
+      },
+      {
+        b: "texto",
+        texto:
+          "La expresión con la que se resume el libro entero aparece exactamente una vez en el libro entero. Está en el capítulo segundo del libro cuarto, y no habla de los mercados en general: habla de un comerciante que prefiere invertir su capital en su propio país en lugar de mandarlo al extranjero, porque lo tiene más a la vista y le da menos miedo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento es que, al hacerlo por su propia seguridad, ese comerciante aumenta sin proponérselo el capital que trabaja dentro de su país, y es en ese sentido concreto en el que Smith escribe que le conduce una mano invisible a promover un fin que no formaba parte de su intención. Es un comentario sobre la inversión doméstica, y en la frase siguiente Smith aclara que esto no siempre ocurre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La expresión sale otras dos veces en toda su obra: una en la Teoría de los sentimientos morales, donde los terratenientes ricos reparten sin querer entre sus criados casi lo mismo que habrían repartido si hubiera igualdad, y otra en un ensayo juvenil sobre historia de la astronomía, donde se refiere burlonamente a la mano invisible de Júpiter que los antiguos veían detrás de los rayos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Que tres apariciones se hayan convertido en el resumen de un autor dice más sobre sus lectores que sobre él. El propio libro está lleno de casos en los que el interés privado no produce ningún bien público: los monopolios, las corporaciones de oficio, las compañías coloniales y los propietarios que piden aranceles. Smith no tenía una teoría de la mano invisible; tenía una frase.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tres frases dispersas en toda una obra se convirtieron en el nombre de una doctrina que su autor nunca formuló.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El agua vale mucho y no cuesta nada, y ese enigma le pudo" },
+      {
+        b: "texto",
+        texto:
+          "Smith distingue dos significados de la palabra valor. El valor de uso es la utilidad de un objeto, y el valor de cambio es lo que se puede conseguir a cambio de él. Y observa que van a menudo en direcciones opuestas: nada es más útil que el agua y con ella apenas se compra nada, mientras que un diamante no sirve para casi nada y se cambia por una cantidad enorme de mercancías.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su respuesta es que el precio real de una cosa es el esfuerzo y la molestia de conseguirla. En una sociedad primitiva, si cazar un castor cuesta el doble de trabajo que cazar un ciervo, un castor valdrá dos ciervos. En una sociedad con tierras y capital, el precio se reparte en tres partes: salarios, beneficios y rentas, cada una con su nivel corriente en cada lugar y cada época.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su distinción más útil. El precio natural es la suma de esas tres partes en sus niveles corrientes; el precio de mercado es lo que se paga hoy, y sube o baja según la cantidad que se lleva al mercado y la demanda que hay. Cuando el precio de mercado supera al natural durante un tiempo, entra gente en el negocio y lo empuja hacia abajo. La competencia es un mecanismo de retorno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que no consigue es resolver su propio enigma. El agua y los diamantes no se explican por el trabajo que cuesta obtenerlos, sino por lo que vale la unidad siguiente: quien tiene agua de sobra no paga por un vaso más, y quien no tiene ninguno la pagaría a cualquier precio. Esa idea llegó casi un siglo después y dejó anticuada toda esta parte del libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El precio de algo no depende de lo útil que sea en general, sino de lo que valga la unidad siguiente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los patronos están siempre confabulados y la ley les da la razón" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo octavo del primer libro contiene un pasaje que sorprende a quien llega a Smith por su fama. El salario, escribe, se fija en una disputa entre dos partes con intereses opuestos y con fuerzas muy desiguales. Los patronos son pocos y pueden ponerse de acuerdo con facilidad; los trabajadores son muchos y les cuesta organizarse. Y la ley, añade, prohíbe las asociaciones de trabajadores y permite las de patronos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La frase exacta va más lejos: los patronos están siempre y en todas partes en una especie de acuerdo tácito, pero constante y uniforme, de no subir los salarios por encima de su nivel. Nadie oye hablar de esos acuerdos, precisamente porque son el estado normal de las cosas y no hacen ruido; lo que se oye son las coaliciones de trabajadores, que son ruidosas porque son excepcionales y desesperadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Smith añade que un patrono puede aguantar un año o dos sin contratar a nadie y un obrero no aguanta una semana sin comer, y que además el trabajador tiene en contra las leyes de aprendizaje, que impiden ejercer un oficio sin siete años de servidumbre, y las de asentamiento, que le prohíben mudarse de parroquia a buscar empleo. Las llama una violación evidente de la libertad natural.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la frase con la que se cierra el argumento: ninguna sociedad puede ser floreciente y feliz si la mayor parte de sus miembros son pobres y miserables. No es un desahogo suelto. Smith sostiene que los salarios altos son señal de un país que crece y que además mejoran el rendimiento del trabajador, y que el país donde peor se paga es el que está estancado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los acuerdos entre patronos no se oyen nunca porque son el estado normal de las cosas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Toda ley que propongan los comerciantes hay que examinarla con desconfianza",
+      },
+      {
+        b: "texto",
+        texto:
+          "Smith desconfía de los comerciantes más que de ningún otro grupo, y lo dice con una precisión que no admite dudas. La gente del mismo oficio, escribe, rara vez se reúne, ni siquiera para divertirse, sin que la conversación termine en una conspiración contra el público o en algún artificio para subir los precios. No propone prohibir esas reuniones, porque sería imposible; propone no darles el poder de fijar reglas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su regla práctica está al final del primer libro y es la frase más dura de la obra: cualquier propuesta de una ley nueva que venga de este orden de hombres debe escucharse con la mayor precaución y no adoptarse jamás hasta haberla examinado larga y cuidadosamente, porque procede de gente cuyo interés nunca coincide exactamente con el del público y que suele tener interés en engañarlo y hasta en oprimirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo mayor lo tenía delante: la Compañía de las Indias Orientales, que gobernaba Bengala mientras comerciaba con ella. Smith llama a eso la mayor de las absurdidades, porque una compañía de mercaderes que administra un territorio siempre preferirá el beneficio de la venta al bienestar de los gobernados. La hambruna de Bengala de 1770, con millones de muertos, era el argumento más reciente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mismo razonamiento le lleva a proponer, en 1776, que Gran Bretaña renuncie a sus colonias americanas. Sostiene que el imperio cuesta más de lo que rinde y que el monopolio colonial beneficia a un puñado de comerciantes a costa de todos los demás, y describe el proyecto como propio de una nación cuyo gobierno está dominado por tenderos. El libro salió el mismo año que la declaración de independencia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los empresarios piden libertad de mercado hasta el día en que consiguen un monopolio, y entonces piden que se respete.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El Estado tiene tres obligaciones y la tercera es la más larga de todas",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro quinto, que es el que casi nadie cita, se dedica entero a lo que debe hacer un gobierno. Smith le asigna tres deberes. Defender el país de otros países. Administrar justicia, protegiendo a cada miembro de la injusticia de los demás. Y levantar y mantener aquellas obras e instituciones públicas que, siendo muy ventajosas para la sociedad, nunca compensarían a un particular ni a un grupo pequeño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es la que se estira. Ahí entran los caminos, los puentes, los canales y los puertos, que Smith prefiere financiados con peajes proporcionales al uso; también las instituciones de enseñanza y algunas medidas sanitarias. No es una lista corta ni una concesión de mala gana: ocupa más páginas que ninguna otra parte del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un caso en el que Smith autoriza expresamente restringir la libertad: la banca. Después de la quiebra del banco de Ayr en 1772, que arrastró a decenas de negocios escoceses, escribió que aquellas manifestaciones de la libertad natural de unos pocos que pueden poner en peligro la seguridad de toda la sociedad deben ser restringidas por la ley, y lo comparó con la obligación de levantar muros cortafuegos entre casas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre las sociedades por acciones dejó una advertencia que se cita poco y ha envejecido bien. Sus directores, escribe, administran dinero ajeno y no el propio, así que no cabe esperar que lo vigilen con la misma ansiosa atención con que los socios vigilan el suyo; la negligencia y el despilfarro son inevitables en mayor o menor grado. Se equivocó al concluir que esa forma de empresa no prosperaría, pero acertó el diagnóstico.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien administra dinero ajeno no lo vigila con la misma inquietud con la que vigilaría el suyo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La misma división del trabajo que enriquece al país embrutece al trabajador",
+      },
+      {
+        b: "texto",
+        texto:
+          "El pasaje más incómodo del libro está en el quinto y contradice de frente el primero. El hombre que se pasa la vida haciendo unas pocas operaciones sencillas, escribe Smith, cuyos efectos son siempre los mismos, no tiene ocasión de ejercitar el entendimiento ni de inventar recursos para dificultades que nunca se presentan, y pierde de manera natural el hábito de hacerlo. Se vuelve, dice literalmente, todo lo estúpido e ignorante que puede llegar a ser una criatura humana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No es una frase de paso. Smith añade que esa torpeza le incapacita para conversar razonablemente, para tener sentimientos generosos y para formarse un juicio justo sobre los asuntos de su país, y hasta para defenderlo en la guerra. Y sostiene que esto le ocurre inevitablemente a la mayoría del pueblo en toda sociedad avanzada, salvo que el gobierno tome medidas para impedirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su medida es la escuela. Propone que en cada parroquia haya una escuela elemental sostenida en parte con fondos públicos, con una cuota tan pequeña que un jornalero pueda pagarla, donde se enseñe a leer, escribir y contar, y algo de geometría y mecánica en lugar del latín. Y propone además exigir un examen básico antes de dejar que alguien ejerza un oficio o se establezca por su cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale también su ataque a las universidades. Un profesor con renta asegurada, dice, cobra igual dé bien la clase o no la dé, y por tanto acabará no dándola. Él cobraba en Glasgow de las cuotas de sus alumnos y lo consideraba un sistema mejor; de Oxford, donde había estudiado seis años, escribió que sus catedráticos habían abandonado hasta la apariencia de enseñar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El coste de la especialización no lo paga la economía: lo paga la cabeza del que repite el mismo gesto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un impuesto justo cumple cuatro condiciones, y el rico debe pagar más que en proporción",
+      },
+      {
+        b: "texto",
+        texto:
+          "Smith cierra el libro quinto con cuatro máximas sobre los impuestos que se han citado desde entonces en casi todos los tratados de hacienda pública. La primera: cada ciudadano debe contribuir en proporción a los ingresos de que disfrute bajo la protección del Estado. La segunda: el impuesto debe ser cierto y no arbitrario, de modo que el contribuyente sepa de antemano cuánto, cuándo y cómo debe pagar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera: debe cobrarse en el momento y de la manera que resulten más cómodos para quien paga, como se hace con los impuestos sobre artículos de consumo, que se pagan poco a poco al comprarlos. Y la cuarta: debe costar lo menos posible recaudarlo, porque un impuesto mal montado puede sacar del bolsillo del pueblo mucho más de lo que entra en el tesoro público.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre la primera máxima añadió algo que se cita mucho menos: al hablar del impuesto sobre el alquiler de las viviendas escribió que no es irrazonable que los ricos contribuyan al gasto público no solo en proporción a sus ingresos, sino algo más que en esa proporción. Defendió también gravar los carruajes de lujo más que los carros de transporte, para que la ostentación del rico ayudara a pagar los caminos del pobre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una ironía final en su biografía. Dos años después de publicar el libro que desmontaba los aranceles, Smith aceptó el puesto de comisario de aduanas de Escocia, con seiscientas libras al año, y se pasó los últimos doce años de su vida haciendo cumplir exactamente las tarifas que había criticado. Murió en Edimburgo en 1790, después de ordenar que quemaran sus manuscritos inéditos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El impuesto peor diseñado no es el más alto: es el que cuesta más recaudar de lo que rinde.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La riqueza de las naciones sostiene que un país se enriquece produciendo, no acumulando; que la producción crece cuando el trabajo se reparte, y que el reparto solo llega hasta donde llega el mercado. De ahí sale todo lo demás: que los aranceles empobrecen a quien los pone y que el comercio no es una partida de suma cero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, y que casi nadie le atribuye, es la otra mitad. Smith desconfía sistemáticamente de los empresarios, describe a los patronos como una coalición permanente contra los salarios, pide escuelas públicas en cada parroquia, defiende que el rico pague algo más que en proporción y autoriza a regular la banca.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Smith no escribió un manifiesto a favor de los empresarios: escribió un libro que desconfía de ellos en casi todas sus páginas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Su teoría del valor no se sostiene. Plantea el enigma del agua y los diamantes y no lo resuelve, porque insiste en explicar el precio por el trabajo incorporado; la respuesta llegó en 1871 con la idea de que lo que cuenta es la utilidad de la unidad siguiente. Y hay tramos ilegibles: la digresión sobre el valor de la plata son ochenta páginas de tablas de precios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en lo que tenía delante. Vivía en Glasgow y conocía a James Watt, que perfeccionaba la máquina de vapor a unos metros de su aula, y su libro describe un mundo de talleres y artesanos en el que la fábrica industrial no aparece por ninguna parte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después es sobre todo una carrera por apropiárselo. Se agotó en seis meses y el arancel del trigo cayó en 1846 invocándolo. Pero desde los años ochenta del siglo XX se usa como bandera de una doctrina que él no defendió, y en 2007 el Banco de Inglaterra puso su retrato en el billete de veinte libras. La mitad que pide escuelas, impuestos progresivos y control de la banca sigue sin citarse.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "riqueza-naciones": RIQUEZA_NACIONES,
+  "emperador-males": EMPERADOR_MALES,
+  "henrietta-lacks": HENRIETTA_LACKS,
   feynman: FEYNMAN,
   leonardo: LEONARDO,
   "sobre-fotografia": SOBRE_FOTOGRAFIA,

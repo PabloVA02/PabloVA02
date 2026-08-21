@@ -29,6 +29,15 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "riqueza-naciones":
+    "Un taller de diez hombres fabrica cuarenta y ocho mil alfileres al día y uno solo no llega a veinte. De esa observación salió, en 1776, la primera explicación entera de por qué unos países son ricos.",
+
+  "emperador-males":
+    "El primer cáncer descrito está en un papiro egipcio de hace cuatro mil quinientos años y el tratamiento que propone es ninguno. Un oncólogo cuenta lo que pasó desde entonces, incluidos los errores que costaron más vidas que la enfermedad.",
+
+  "henrietta-lacks":
+    "En 1951 un cirujano cortó dos trozos del tumor de una paciente de treinta y un años sin decírselo. Aquellas células siguen dividiéndose hoy, aparecen en sesenta mil artículos científicos y su familia no supo de su existencia hasta 1973.",
+
   feynman:
     "No es una autobiografía ni la escribió él: son siete años de conversaciones grabadas por un amigo con el que tocaba percusión, transcritas y ordenadas después. Por eso el libro suena exactamente a alguien hablando.",
 
