@@ -45569,7 +45569,7 @@ const MILLONARIO_AL_LADO: PaginaLibro[] = [
       {
         b: "idea",
         texto:
-          "Léelo como un retrato excelente de quienes acumularon y no como la receta de por qué acumularon: el estudio no puede contestar esa segunda pregunta.",
+          "Léelo como un retrato de quienes acumularon y no como la receta de por qué acumularon: el estudio no puede contestar eso.",
       },
     ],
   },
