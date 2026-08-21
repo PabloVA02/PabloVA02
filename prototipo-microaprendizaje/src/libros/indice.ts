@@ -98,7 +98,6 @@ const CARGADORES: Record<string, Cargador> = {
   tao: () => import("./filosofia").then((m) => m.TAO_TE_CHING),
   antifragil: () => import("./economia").then((m) => m.ANTIFRAGIL),
   "chico-pijama": () => import("./historia").then((m) => m.CHICO_PIJAMA),
-  "madame-bovary": () => import("./literatura").then((m) => m.MADAME_BOVARY),
   "bernarda-alba": () => import("./literatura").then((m) => m.BERNARDA_ALBA),
   rayuela: () => import("./literatura").then((m) => m.RAYUELA),
   "el-tunel": () => import("./literatura").then((m) => m.EL_TUNEL),

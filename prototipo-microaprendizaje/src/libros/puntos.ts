@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "madame-bovary": [
+    "de dónde le viene a Emma exactamente su desgracia",
+    "qué le hace a una vida entera una sola noche de baile",
+    "cómo se escribe una seducción sin escribirla",
+    "qué hay dentro del coche que llevó a Flaubert a los tribunales",
+    "quién la arruina en realidad y quién acaba ganando",
+  ],
+
   "ana-karenina": [
     "por qué son dos novelas dentro de un mismo libro",
     "qué perdía una mujer rusa al dejar a su marido",

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "madame-bovary":
+    "Flaubert tardó cuatro años y siete meses, a veces una página por semana, y en 1857 el gobierno lo llevó a juicio por ultraje a la moral. La novela cuenta cómo una mujer de provincias se arruina intentando parecerse a lo que leyó de adolescente.",
+
   "ana-karenina":
     "En 1872, cerca de la finca de Tolstói, una mujer se arrojó bajo un tren y él asistió a la autopsia. De ahí salió una novela que pone al lado dos vidas, la que rompe las reglas y la que las cumple, sin repartir premios.",
 

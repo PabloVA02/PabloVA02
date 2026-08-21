@@ -1256,22 +1256,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "madame-bovary",
-    titulo: "Madame Bovary",
-    autor: "Gustave Flaubert",
-    ano: 1856,
-    gancho: "La novela más perfecta que se ha escrito trata de una mujer aburrida en un pueblo que se endeuda comprando cortinas.",
-    porQue: "Es donde nace la novela moderna: la primera vez que un autor se mete dentro de la cabeza de un personaje sin juzgarlo, y por eso lo llevaron a juicio. Además explica mejor que nadie qué le hace a alguien leer mal.",
-    minutos: 23.1,
-    capitulos: [
-      { titulo: "El internado de Ruan", minutos: 4.9 },
-      { titulo: "El baile de La Vaubyessard", minutos: 4.7 },
-      { titulo: "La operación del pie zambo", minutos: 4.4 },
-      { titulo: "La tienda de Lheureux", minutos: 4.3 },
-      { titulo: "El tribunal de París", minutos: 4.7 },
-    ],
-  },
-  {
     id: "guerra-y-paz",
     titulo: "Guerra y paz",
     autor: "León Tolstói",

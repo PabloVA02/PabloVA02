@@ -20565,7 +20565,234 @@ const ANA_KARENINA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Madame Bovary, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO: títulos cortos de imagen, afirmación en la primera
+   frase, caja del rayo en segunda persona.
+
+   La frase «Madame Bovary soy yo» va tratada como manda el apartado 4 bis:
+   no aparece en ninguna carta de Flaubert y se transmitió de oídas. Se usa
+   diciendo lo que se sabe de ella.
+   -------------------------------------------------------------------------- */
+
+const MADAME_BOVARY: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuatro años y siete meses" },
+      {
+        b: "texto",
+        texto:
+          "Flaubert tardó cuatro años y siete meses en escribir esta novela, y hay semanas documentadas en las que avanzó una página. Sus cartas de aquel período son un diario de tortura: se queja de haber pasado cinco días buscando la manera de decir que un hombre entra en una habitación. Cuando terminaba un párrafo lo leía a gritos en su gabinete para comprobar si el ritmo aguantaba la voz; llamaba a esa habitación su berreadero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El encargo se lo dieron sus amigos. Flaubert les había leído en voz alta durante treinta y dos horas una primera versión de La tentación de San Antonio, llena de visiones y de exotismo, y ellos le contestaron que la tirase al fuego y escribiera algo pegado al suelo, sobre gente corriente de provincias. Le propusieron un suceso local: la mujer de un oficial de sanidad normando que se había arruinado, había tenido amantes y se había envenenado en 1848.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se publicó por entregas en 1856, y en enero de 1857 el gobierno de Napoleón III llevó a juicio al autor, al editor y al impresor por ultraje a la moral pública y a la religión. El fiscal, Ernest Pinard, citó como pruebas dos escenas concretas. Flaubert fue absuelto el 7 de febrero. Meses después, el mismo fiscal procesó Las flores del mal de Baudelaire, y a él sí lo condenaron. El juicio multiplicó las ventas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren cómo está construida: de dónde le viene a Emma su desgracia, qué hace una sola noche de baile con una vida entera, cómo se escribe una seducción sin escribirla, qué hay dentro del coche de caballos que llevó a Flaubert a los tribunales, quién la arruina en realidad y quién es el único personaje que gana.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro que fundó la novela moderna se escribió a razón de una página por semana, y a gritos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Unos libros leídos en un convento" },
+      {
+        b: "texto",
+        texto:
+          "La novela identifica el origen del problema de Emma con una precisión que sorprende: no es su carácter, es una lista de lecturas. Entre los trece y los quince años estuvo interna en un convento de Ruan, y allí una vieja costurera que iba a remendar la ropa metía novelas a escondidas para las mayores. Flaubert enumera lo que contenían: amores contrariados, damas perseguidas, caballos que revientan en cada página, bosques oscuros, juramentos, lágrimas y besos en barca a la luz de la luna.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso se le formó a Emma un catálogo de lo que debe ser una vida. No espera ser feliz: espera que le pasen determinadas escenas. Y cuando se casa con un oficial de sanidad de pueblo que ronca, come bien y la quiere de una manera plácida y sin frases, lo que siente no es desamor sino desconcierto administrativo, como si le hubieran entregado un pedido equivocado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El propio libro cuenta el momento exacto en que se da cuenta. Emma busca en los diccionarios qué significan las palabras felicidad, pasión y embriaguez, que tan hermosas le habían parecido en los libros, y comprueba que en su vida no corresponden a nada. Un filósofo francés puso nombre a esto en 1892, treinta años después, y lo llamó bovarismo: la capacidad de concebirse distinto de como se es.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie es infeliz por lo que tiene: se es infeliz por la lista de escenas que uno decidió a los catorce años que le correspondían.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una noche que le duró treinta años" },
+      {
+        b: "texto",
+        texto:
+          "El único acontecimiento realmente extraordinario de la vida de Emma ocupa un capítulo y contamina el resto del libro. Un marqués invita a los Bovary a un baile en su castillo, por una cortesía menor que el marido le había hecho. Emma ve por primera vez lo que había leído: candelabros, criados, mujeres con guantes hasta el codo, hombres que hablan de Italia y de caballos, un vals que la marea, granadas y piñas en una mesa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Flaubert lo cuenta a través de detalles minúsculos y de precio. A Emma le llama la atención que las señoras no lleven el vaso al lado del plato como en su casa; que un viejo duque coma con el babero puesto y le chorree la salsa; que un vizconde la saque a bailar sin decirle su nombre. Al día siguiente vuelven al pueblo y se acabó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace grande el capítulo es lo que viene después. Emma encuentra en el camino una petaca de seda verde que se le ha caído a alguien, la guarda y la conserva durante años en un cajón. Cada vez que la vida se le hace insoportable, saca el recuerdo del baile y lo repasa. Un solo día de excepción le sirve de prueba de que existe otra vida y de que la suya es un error.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un solo día extraordinario puede estropear diez años corrientes, porque a partir de entonces sirve de vara para medirlos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Estiércol y juramentos de amor" },
+      {
+        b: "texto",
+        texto:
+          "La escena técnicamente más famosa de la novela es una seducción contada en dos voces a la vez. Rodolphe Boulanger, un terrateniente de la zona, se lleva a Emma al primer piso del ayuntamiento durante los comicios agrícolas del pueblo, la feria anual de ganado y premios a los labradores. Desde la ventana se oye el discurso oficial.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Flaubert alterna las dos cosas frase por frase, sin comentar nada. Rodolphe le habla del magnetismo de las almas y de que hay seres destinados a encontrarse; abajo, el orador enumera las mejoras en el cultivo de la colza, el uso de los abonos y las razas de cerdos. Él le coge la mano; abajo dan un premio de setenta francos por el mejor estiércol. La escena culmina con una medalla de plata concedida a una criada por cincuenta y cuatro años de servicio en la misma granja, mientras arriba se juran amor eterno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No hay ni una línea de ironía explícita, y ese es el hallazgo: el autor no aparece, el montaje lo dice todo. Nabokov, que analizaba este libro capítulo a capítulo en sus clases, llamaba a este procedimiento contrapunto y lo señalaba como el momento en que la novela europea aprendió a juzgar sin opinar. Y no está inventado: Flaubert asistió a unos comicios agrícolas reales en Normandía y se llevó apuntado el discurso de las autoridades para poder copiarle el tono.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hace falta decir que algo es ridículo: basta con poner al lado lo que está pasando a la vez.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un coche con las cortinas bajadas" },
+      {
+        b: "texto",
+        texto:
+          "La escena que llevó a Flaubert ante un tribunal no muestra absolutamente nada, y esa es la razón de que funcione. Emma y León, su segundo amante, suben a un coche de alquiler en Ruan y le ordenan al cochero que vaya donde quiera. El capítulo entero está narrado desde fuera, desde la calle.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se lee es una lista de calles. El coche baja al puerto, sube por el cementerio, cruza plazas, pasa dos veces por los mismos sitios, y el cochero, cada vez más desesperado, mira hacia las tabernas sin entender por qué aquellos señores no quieren parar. Los caballos van empapados. Una voz desde dentro grita que siga. A media tarde, por la ventanilla, aparece una mano desnuda que tira unos pedacitos de papel blanco que se dispersan al viento como mariposas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los papeles son la carta en la que Emma iba a romper con él. No hay ninguna otra información. El fiscal lo usó como prueba de obscenidad, cosa que dice bastante de la lectura de aquel tribunal: no había un cuerpo, ni una descripción, ni un adjetivo; había un itinerario urbano y un cochero cansado. Es el ejemplo de manual de mostrar sin contar. Hay un dato más sobre esa escena. Cuando la novela salía por entregas, la revista que la publicaba la suprimió por miedo, y Flaubert los obligó a imprimir una nota advirtiendo al lector de que el texto que tenía delante estaba mutilado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que no se cuenta trabaja más que lo que se cuenta, porque lo pone el lector y nadie discute lo que pone uno mismo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los pagarés de un comerciante amable" },
+      {
+        b: "texto",
+        texto:
+          "La caída de Emma no la provocan sus amantes: la provoca un tendero. Lheureux vende telas, chales y objetos en el pueblo, y su método está descrito con un detalle que hoy resulta familiar. No cobra nunca en el momento, ofrece facilidades, se muestra comprensivo, sugiere firmar un pequeño papel para más adelante y acepta que un pagaré se renueve con otro pagaré por una cantidad algo mayor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Emma va firmando durante años sin llevar la cuenta. Compra cortinas, un neceser, regalos para sus amantes, un viaje que no hace. Cuando la deuda estalla, no es una deuda: es una red de efectos comerciales vencidos, cedidos a un tercero, con intereses y costas, y una orden de embargo pegada en la puerta de su casa. Su marido no sabe nada; ella tiene poder notarial sobre los bienes desde hacía tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Flaubert dedica páginas a esa mecánica financiera y no es un capricho: es lo que convierte la novela en un retrato de la Francia de su tiempo. Emma recorre el pueblo pidiendo dinero —al notario, a León, a Rodolphe— y todos se lo niegan con buenas palabras. Solo entonces, sin salida legal ni económica, va a la farmacia. Hasta el apellido es una broma: *Lheureux* significa en francés el afortunado, el dichoso. Flaubert le puso ese nombre al hombre que se queda con todo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi ninguna ruina empieza con una gran compra: empieza con una firma pequeña que alguien amable te asegura que no es nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El farmacéutico gana" },
+      {
+        b: "texto",
+        texto:
+          "El personaje más venenoso del libro no es ninguno de los amantes: es Homais, el boticario del pueblo. Se declara hombre de progreso, cita periódicos, se burla de los curas, escribe artículos que nadie lee y habla sin parar con la seguridad del que ha leído resúmenes. Flaubert lo convierte en el retrato de una época entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su obra maestra es convencer a Charles Bovary, que es un médico mediocre pero honrado, de operar el pie deforme del mozo de la posada para que el pueblo tenga su gloria científica y él su artículo. La operación sale mal, se gangrena y hay que amputar la pierna a la altura del muslo. Homais no asume nada; escribe una crónica sobre el asunto y sigue.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el libro termina con él. Después de la muerte de Emma por el arsénico que ella misma cogió de su farmacia, después de la muerte de Charles y de que la hija de ambos acabe trabajando en una hilandería de algodón, la última frase de la novela informa de que Homais acaba de recibir la cruz de la Legión de Honor. No hay comentario. Es la última línea y no hay nada después. Antes de eso ha conseguido que tres médicos sucesivos se marchen del pueblo, porque cualquiera con título le hace sombra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En casi todas las historias reales, el que sale mejor parado es el que hablaba mucho y no se hizo responsable de nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Madame Bovary cuenta cómo una mujer de provincias se destruye intentando que su vida se parezca a lo que había leído, y demuestra que el mecanismo no es moral sino económico y social: unas lecturas mal administradas, un matrimonio sin salida legal, un comerciante con pagarés y un pueblo donde nadie le presta dinero. Flaubert lo escribe sin juzgar a nadie y sin salvar a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la técnica que usa después toda la novela europea: el autor desaparece, el montaje opina por él y lo importante ocurre fuera del cuadro. Después de este libro, decir lo que hay que pensar de un personaje pasó a ser un defecto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El autor debe estar en su obra como Dios en el universo, escribió Flaubert: presente en todas partes y visible en ninguna.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. No hay un solo personaje admirable en cuatrocientas páginas y eso cansa: la mirada es tan implacable con la tonta como con el listo, con la adúltera como con el marido bueno, y a ratos la crueldad parece un ejercicio de estilo. Además el punto de vista tiene una rareza sin resolver: la novela empieza narrada por un compañero de clase que dice «nosotros» y ese narrador desaparece en la página quince y no vuelve nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y conviene mirar dos veces la frase más citada sobre este libro. «Madame Bovary soy yo» no aparece en ninguna carta ni en ningún texto de Flaubert: la contó décadas después una conocida suya, que a su vez decía habérsela oído. Puede que la dijera y encaja perfectamente con lo que sí escribió; pero se repite como una confesión documentada y no lo es. El propio Flaubert dejó por escrito lo contrario en sus cartas: que no había nada suyo en el libro y que Emma no existía en ninguna parte.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "madame-bovary": MADAME_BOVARY,
   "ana-karenina": ANA_KARENINA,
   sisifo: SISIFO,
   extranjero: EXTRANJERO,
