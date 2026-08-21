@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "vida-dali": [
+    "por qué el libro empieza con un recuerdo imposible",
+    "qué rocas hay dentro de sus cuadros",
+    "qué cuenta y qué calla sobre Lorca",
+    "en qué consiste el método paranoico-crítico",
+    "qué cambió cuando llegó Gala",
+  ],
+
+  "diarios-frida": [
+    "qué le hizo al cuerpo el accidente de 1925",
+    "qué significaba cada color en su lista privada",
+    "cómo aparece Diego Rivera en esas páginas",
+    "qué imágenes vuelven una y otra vez",
+    "qué dice de verdad la frase de los pies y las alas",
+  ],
+
   "magia-crear": [
     "qué hacer con el miedo en lugar de esperar a que se vaya",
     "por qué no conviene dejar el trabajo",

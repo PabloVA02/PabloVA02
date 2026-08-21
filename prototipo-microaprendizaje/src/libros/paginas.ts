@@ -42393,7 +42393,539 @@ const MAGIA_CREAR: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El diario de Frida Kahlo, en ocho páginas.
+
+   Breve.
+
+   CASO (c) del apartado 4 bis: está escrito desde un cuerpo destrozado y
+   desde una vida con mucho dolor real. TERCERA PERSONA en todo el resumen y
+   nada de convertirlo en lección de superación, que es exactamente lo que
+   se le ha hecho a Kahlo durante treinta años.
+
+   Registro NARRATIVO: títulos cortos de imagen, la afirmación en la primera
+   frase.
+
+   La conclusión lleva lo que pasó después: la conversión de Kahlo en marca,
+   y el diario usado como cantera de frases que muchas veces no son suyas.
+   -------------------------------------------------------------------------- */
+
+const DIARIOS_FRIDA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un cuaderno que no estaba escrito para nadie" },
+      {
+        b: "texto",
+        texto:
+          "Frida Kahlo llenó un cuaderno de tapas rojas durante los diez últimos años de su vida, aproximadamente entre 1944 y 1954. No es un diario en el sentido corriente: no hay fechas, no hay orden y casi no hay relato de lo que le pasaba. Hay dibujos a tinta y a lápiz de color, manchas, palabras sueltas, listas, cartas que nunca mandó y frases escritas encima de otras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Son ciento setenta páginas y se publicaron por primera vez en 1995, cuarenta años después de su muerte, en una edición facsímil que reproduce cada mancha. Eso es lo primero que hay que entender de este libro: no fue escrito para ser leído. Es material privado de alguien que ya no puede decidir si quiere enseñarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí ofrece es algo que ninguna biografía puede dar: cómo pensaba mientras pintaba. Se ve el momento en que una mancha de tinta se convierte en una figura, cómo una palabra lleva a otra por el sonido y no por el sentido, y qué imágenes volvían una y otra vez sin que ella pareciera decidirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que hay dentro: el accidente que le partió la vida en dos y que el cuaderno apenas nombra, el color como idioma propio, la relación con Diego Rivera contada desde dentro, los pies como obsesión, la política, y el final, que está escrito en la última página con una frase que se ha convertido en otra cosa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un cuaderno privado no es una obra: es el sitio donde alguien piensa antes de decidir qué enseñar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El autobús y el tranvía" },
+      {
+        b: "texto",
+        texto:
+          "El 17 de septiembre de 1925, Frida Kahlo tenía dieciocho años y volvía a casa en autobús cuando un tranvía embistió el vehículo. Un pasamanos de hierro le atravesó el cuerpo entrando por el costado y saliendo por la pelvis. Se rompió la columna en tres sitios, la clavícula, dos costillas, la pierna derecha por once puntos y el pie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pasó meses inmovilizada y siguió operándose el resto de su vida: más de treinta intervenciones, corsés de yeso y de acero, y al final la amputación de la pierna derecha en 1953. Empezó a pintar en la cama, con un caballete adaptado y un espejo en el dosel, que es la razón de que la mitad de su obra sean autorretratos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo llamativo del cuaderno es cuánto de esto NO aparece. Casi no hay descripciones del dolor, ni partes médicos, ni quejas ordenadas. Lo que hay son dibujos de pies separados del cuerpo, de columnas rotas, de figuras partidas por la mitad, y frases cortas que aparecen sin aviso: pies para qué los quiero si tengo alas para volar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa frase es de este cuaderno y está escrita en 1953, junto a un dibujo de dos pies cortados sobre un pedestal, el año en que le amputaron la pierna. Fuera de ahí se ha convertido en un lema de superación estampado en tazas. Dentro, al lado del dibujo y con la fecha, dice algo bastante distinto y bastante más duro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La frase más repetida de Kahlo la escribió el año en que le cortaron una pierna, y no significa lo que se le hace decir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una lista de colores con lo que significa cada uno" },
+      {
+        b: "texto",
+        texto:
+          "Una de las páginas más citadas del cuaderno es una lista en la que Kahlo va anotando colores y lo que le sugieren, uno por uno. Verde: luz tibia y buena. Magenta: sangre de tuna, el más vivo y antiguo. Café: color de mole, de hoja que se va, tierra. Amarillo: locura, enfermedad, miedo; parte del sol y de la alegría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No es una teoría del color ni pretende serlo. Es un diccionario privado, escrito para ella, en el que cada color tiene a la vez una cosa buena y una mala, y en el que el significado viene de comidas, de plantas y de estados de ánimo mexicanos y no de ninguna tradición pictórica europea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su valor está en que explica los cuadros por dentro. Cuando en un autorretrato el fondo es amarillo, esa lista dice que el amarillo era locura y miedo además de sol. Y como está escrita a mano, con dudas y tachaduras, se ve que no era una decisión tomada de una vez sino algo que ella misma estaba fijando mientras escribía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuaderno funciona así en casi todo. Hay listas de palabras que suenan parecido encadenadas por el sonido, hay dibujos que empiezan siendo un borrón de tinta doblado sobre sí mismo, y hay figuras que aparecen tres o cuatro veces con pequeñas variaciones. Es un taller, no una obra, y ese es exactamente su interés.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En su diccionario de colores cada uno tiene a la vez un significado bueno y uno malo, incluido el amarillo del sol.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Diego, escrito muchas veces" },
+      {
+        b: "texto",
+        texto:
+          "Diego Rivera aparece en el cuaderno más que ningún otro asunto, y aparece de todas las maneras: como nombre repetido en una página entera, como dibujo, en cartas que empiezan y no terminan, y en frases que van del amor absoluto al reproche en el mismo párrafo. Se casaron en 1929, se divorciaron en 1939 y volvieron a casarse en 1940.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que el cuaderno enseña, y las biografías suelen ordenar demasiado, es que las dos cosas convivían al mismo tiempo y no por etapas. En una página lo llama principio, constructor, mi niño, mi novio, mi madre, mi padre, el universo; en otra escribe sobre la soledad y sobre no ser suficiente. No hay una versión buena y otra mala: están juntas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También está lo que no dice. Las infidelidades de Rivera —incluida la que tuvo con Cristina, la hermana de Frida— no se cuentan como episodios; se notan en el tono de páginas concretas. Y su propia vida sentimental, que incluyó relaciones con hombres y con mujeres, aparece a medias palabras y sin nombres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuaderno tiene además cartas dirigidas a él que probablemente nunca leyó, escritas con el mismo idioma inventado que usa en las listas: palabras juntadas por el sonido, diminutivos, apodos que no se explican. Es la parte más difícil de leer y la que deja más claro que aquello no estaba escrito para nadie de fuera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En estas páginas el amor y el reproche no van por etapas: están en la misma frase.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Pies, columnas y cosas partidas por la mitad" },
+      {
+        b: "texto",
+        texto:
+          "Hay imágenes que vuelven en el cuaderno sin que ella parezca decidirlo, y son las mismas que gobiernan su pintura. Los pies, dibujados sueltos, heridos, sobre pedestales o con clavos. Las columnas, a veces como columna vertebral y a veces como columna de arquitectura rota. Y las figuras partidas por el eje, una mitad de una cosa y la otra de otra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa última imagen es la que da sentido a buena parte de su obra conocida. Kahlo era hija de un fotógrafo alemán y de una mexicana, se pintó a sí misma dos veces en el mismo cuadro con dos trajes distintos, y el cuaderno está lleno de seres duplicados o divididos. No hace falta interpretar: la repetición está a la vista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aparecen también criaturas que no existen: animales con cara humana, figuras con varios ojos, cuerpos con raíces. Kahlo rechazó siempre que la llamaran surrealista —dijo que ella no pintaba sueños sino su propia realidad— y estos dibujos ayudan a entender por qué lo decía en serio y no como pose.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una técnica muy visible: muchas páginas empiezan con una mancha de tinta caída al azar, doblada para que se duplique, y a partir de ahí ella busca qué figura hay dentro. Es un juego infantil convertido en método de trabajo, y explica por qué en su obra hay formas que parecen brotar en vez de estar construidas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las imágenes que vuelven una y otra vez en un cuaderno privado dicen más que cualquier declaración de intenciones.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La militante que casi nadie recuerda" },
+      {
+        b: "texto",
+        texto:
+          "En las páginas finales del cuaderno la política ocupa cada vez más sitio. Kahlo fue militante comunista desde joven, alojó a Trotski en su casa de Coyoacán entre 1937 y 1939 —y tuvo una relación con él—, y en los últimos años volvió a acercarse al Partido con una intensidad que se lee en cada página.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Escribe consignas, dibuja hoces y martillos, retratos de Marx, de Lenin y de Stalin, y frases que hoy resultan incómodas de leer por lo acríticas que son. En una de las últimas páginas se declara comunista y agradece haber podido serlo. Once días antes de morir participó en una manifestación en silla de ruedas contra la intervención estadounidense en Guatemala.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Este tramo es el que más sistemáticamente se recorta cuando Kahlo se cita en otros sitios. Encaja mal con la figura que se ha construido —la de una mujer que se pintó a sí misma y superó el dolor— y no da frases aprovechables para una taza, así que suele desaparecer de las selecciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y merece dejarlo dicho tal cual: fue una parte central de su identidad, no un detalle biográfico. En el cuaderno, la enfermedad, Diego y la política ocupan el mismo espacio y se mezclan en las mismas páginas, y quedarse solo con las dos primeras es leer dos tercios de un documento y llamarlo el documento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La parte del cuaderno que casi nunca se cita es la política, porque no da frases que quepan en una taza.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La última página" },
+      {
+        b: "texto",
+        texto:
+          "El cuaderno termina con un dibujo a lápiz de una figura negra alada, casi una silueta, y debajo una frase escrita con letra grande: espero alegre la salida y espero no volver jamás. Es una de las últimas cosas que escribió. Murió el 13 de julio de 1954, a los cuarenta y siete años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La causa oficial fue una embolia pulmonar. Nunca se le hizo autopsia y hay un debate abierto, desde hace décadas, sobre si fue un suicidio: llevaba meses con dolores insoportables, había intentado quitarse la vida antes, y su enfermera anotó una cantidad de calmantes superior a la prescrita. No hay manera de saberlo y conviene decirlo así.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa última frase se reproduce hoy en carteles y camisetas como si fuera una despedida serena. Leída en el cuaderno, encima de un dibujo funerario y en el estado en que estaba, es otra cosa: es alguien con dolor crónico grave diciendo que no quiere repetir. Las dos lecturas usan las mismas palabras y no significan lo mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rivera cerró la Casa Azul después de su muerte y ordenó que ciertos armarios y baúles no se abrieran. Se abrieron en 2004, cincuenta años después, y aparecieron corsés, medicinas, ropa, cartas y fotografías. El cuaderno, en cambio, había salido antes, y su publicación en 1995 fue lo que empezó a cambiar cómo se lee su obra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La misma frase, dentro del cuaderno y estampada en un cartel, dice dos cosas distintas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El diario de Frida Kahlo son ciento setenta páginas de un cuaderno privado de sus diez últimos años, publicado en facsímil cuarenta años después de su muerte. No cuenta una vida: enseña un taller. Están el diccionario de colores, las manchas de tinta convertidas en figuras, Diego escrito cien veces, los pies dibujados sueltos y la política de los últimos años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta y no da ninguna biografía es el orden en que aparecían las cosas dentro de su cabeza. Se ve una imagen naciendo de un borrón, una palabra llamando a otra por el sonido y un motivo repitiéndose tres veces antes de llegar a un cuadro. Para entender su obra vale más que cualquier análisis, precisamente porque no está explicando nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se entiende mejor un cuadro viendo el cuaderno donde su autora ensayaba que leyendo lo que otros dijeron de él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y no es culpa del libro sino de su naturaleza. Es material que ella no eligió publicar, sin fechas, sin orden y con la letra a veces ilegible; leerlo del tirón es desconcertante y quien busque la historia de una vida no la va a encontrar aquí. Las ediciones traducidas pierden además buena parte de lo que hay dentro, porque muchas páginas son juegos de sonido en español.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema mayor está en cómo se ha usado. Desde su publicación, el cuaderno se ha convertido en cantera de frases sueltas para carteles y camisetas, arrancadas del dibujo que las acompaña y de la fecha que las explica. Lo de los pies y las alas lo escribió el año de la amputación; leído como lema de superación dice casi lo contrario de lo que dice al lado de su dibujo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después es una industria. Kahlo se ha convertido en una de las imágenes más reproducidas del mundo, con litigios de por medio por los derechos de su nombre, y en ese proceso la militante comunista, la mujer con dolor crónico y la pintora técnica han quedado debajo de un retrato decorativo.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   La vida secreta de Salvador Dalí, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO: títulos cortos de imagen, la afirmación en la primera
+   frase.
+
+   El problema de este libro es que MIENTE a propósito y lo dice. Así que el
+   resumen no puede contarlo como si fuera una biografía: cuenta lo que él
+   cuenta, avisa de que muchos episodios están inventados y separa lo que sí
+   está documentado.
+
+   La conclusión lleva el ensayo que Orwell escribió sobre este mismo libro
+   en 1944 y el silencio sobre la guerra y sobre Lorca.
+   -------------------------------------------------------------------------- */
+
+const VIDA_DALI: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El niño que se llamaba como su hermano muerto" },
+      {
+        b: "texto",
+        texto:
+          "Salvador Dalí nació en Figueres en 1904, nueve meses después de que muriera un hermano suyo de veintiún meses. Aquel hermano también se llamaba Salvador. Sus padres le pusieron el mismo nombre, colgaron el retrato del muerto en el dormitorio y, cuando el segundo Salvador tenía cinco años, lo llevaron a la tumba y le dijeron que era su reencarnación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el dato con el que abre esta autobiografía, escrita en Estados Unidos entre 1941 y 1942, cuando él tenía treinta y ocho años y llevaba dos huyendo de la guerra en Europa. Explica el libro entero: alguien que creció convencido de estar ocupando el sitio de otro dedicó su vida a fabricar un personaje que no se pudiera confundir con nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay que decir desde el principio lo que este libro es y lo que no. No es un documento fiable y no pretende serlo. Dalí escribe que la verdad de los hechos le interesa poco, que hay recuerdos falsos que le pertenecen más que los verdaderos, y a partir de ahí inventa, exagera y se contradice con toda la intención.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que cuenta y separan lo comprobado de lo fabricado: el recuerdo imposible con el que abre, la tumba del otro Salvador, el paisaje de Cadaqués que está dentro de sus cuadros, los años de Madrid con Lorca y Buñuel, el método con el que decía pintar, y la llegada de Gala, que es donde el libro cambia de tono.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien crece convencido de ocupar el sitio de un muerto dedica la vida a fabricar a alguien que no se pueda confundir con nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un recuerdo que nadie puede tener" },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con Dalí describiendo con detalle sus recuerdos de antes de nacer. Dice que la vida intrauterina era el paraíso, y la describe con colores: amarillo de fuego de infierno, rojo, azul, todo luminoso y fosforescente, blando y viscoso como una pasta. Escribe que lo recuerda con precisión y que es el recuerdo más importante que tiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nadie puede tener ese recuerdo. La memoria autobiográfica no empieza a funcionar hasta los tres o cuatro años y no hay ningún caso documentado de nada anterior. Dalí lo sabe perfectamente, y por eso lo pone en la primera página: es un aviso al lector de bajo qué reglas se juega en las trescientas siguientes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su declaración de intenciones aparece en el prólogo y es igual de explícita: a los seis años quería ser cocinero, a los siete quería ser Napoleón, y desde entonces su ambición no ha hecho más que crecer. No dice que vaya a contar su vida; dice que va a construir un personaje, y lo construye delante del lector.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con esa advertencia puesta, el libro se puede leer de una manera que sí funciona: no como testimonio de lo que pasó, sino como documento de cómo alguien decide fabricarse. Lo que es verdad de estas páginas no son los episodios, es el procedimiento; y el procedimiento está a la vista porque él quiere que se vea.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un recuerdo imposible en la primera página no es un error: es el aviso de bajo qué reglas se lee el resto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un niño que contaba de sí mismo cosas espantosas" },
+      {
+        b: "texto",
+        texto:
+          "Buena parte del libro son episodios de infancia contados con evidente gusto y todos ellos crueles. Que tiró a un compañero desde un puente. Que le dio una patada en la cabeza a su hermana pequeña. Que mordió a un murciélago medio muerto lleno de hormigas. Que fingía toses y desmayos para conseguir que le mirasen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No hay manera de comprobar casi ninguno, y el biógrafo que más ha trabajado sobre él, Ian Gibson, documentó en 1997 que muchos episodios de este libro están inventados, cambiados de fecha o atribuidos a la persona equivocada. Conviene leerlos como lo que probablemente son: escenas construidas para causar un efecto concreto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto que buscan sí es legible. Dalí se presenta como un ser inclasificable desde antes de tener uso de razón, alguien a quien no se le puede aplicar la vara normal. Es la misma operación de la primera página, llevada a la infancia: no se trata de contar qué hizo, sino de establecer que él es de otra especie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí está documentado es el ambiente. Su padre era notario en Figueres, un hombre autoritario y anticlerical; su madre murió cuando él tenía dieciséis años y fue el golpe que él mismo describió como el mayor de su vida; y el retrato del hermano muerto estuvo colgado en la casa durante toda su infancia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las escenas que un autobiógrafo cuenta con más gusto suelen ser las que menos ocurrieron.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las rocas de Cap de Creus" },
+      {
+        b: "texto",
+        texto:
+          "La parte más útil del libro para entender los cuadros es la que describe el paisaje. Dalí pasó los veranos de su infancia en Cadaqués y en Portlligat, en el cabo de Creus, un tramo de costa donde la pizarra está erosionada por la tramontana en formas que parecen blandas: cabezas, animales, cuerpos derritiéndose.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Él insiste en que no inventó esas formas, que están ahí. Y es cierto: las rocas del cabo de Creus tienen perfiles que cambian de figura según desde dónde se miren, y hay una en concreto, la que llaman el águila, que aparece reconocible en varios de sus cuadros. La costumbre de ver dos cosas en la misma forma la aprendió mirando piedras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro elemento del paisaje que se cuela en su pintura es la luz. La llanura del Empordà tiene una claridad que deja las sombras muy definidas y los horizontes muy lejos, y ese fondo —una playa vacía, una línea de horizonte alta y unos objetos pequeños proyectando sombras largas— es el escenario de la mitad de su obra conocida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuenta también el origen de su cuadro más famoso, el de los relojes blandos de 1931, y lo cuenta de una manera que ya no se sabe si creerle: dice que se le ocurrió mirando un queso camembert derretido al final de una cena, con dolor de cabeza, y que pintó el cuadro en dos horas mientras Gala estaba en el cine.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las formas blandas de sus cuadros no las inventó: están erosionadas por el viento en la costa donde pasó los veranos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una residencia en Madrid, y dos amigos" },
+      {
+        b: "texto",
+        texto:
+          "En 1922 Dalí se instaló en la Residencia de Estudiantes de Madrid, y allí coincidió con Federico García Lorca y con Luis Buñuel. Es el episodio más importante de su juventud y el que el libro trata con más incomodidad: lo cuenta, pero de lado, y se escapa cada vez que se acerca demasiado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con Lorca la relación fue intensa y quedó documentada por los dos lados: Lorca le dedicó en 1926 la Oda a Salvador Dalí, se escribieron durante años, y Dalí escribió después que Lorca estaba enamorado de él y que él no correspondió. Es prácticamente lo único que dice del asunto, y lo dice en un tono que no encaja con la importancia que aquello tuvo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con Buñuel el resultado fue una película. Escribieron juntos Un perro andaluz en 1929, en unos días, con la regla de no aceptar ninguna imagen que admitiera explicación; de ahí salió la escena de la navaja y el ojo, que sigue siendo el plano más citado del cine surrealista. Después se separaron y acabaron mal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También en Madrid ocurrió el episodio que mejor le retrata: en 1926 lo expulsaron de la Academia de Bellas Artes de San Fernando porque se negó a ser examinado, declarando que ninguno de los profesores del tribunal estaba capacitado para juzgarle. Esto sí está documentado y no hizo falta que lo exagerara.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que un autobiógrafo cuenta de lado suele ser lo que más le importó.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Volverse loco a propósito y volver" },
+      {
+        b: "texto",
+        texto:
+          "La aportación teórica de Dalí, y la única parte del libro que resistiría en un manual, es lo que llamó método paranoico-crítico. Consiste en entrenarse para interpretar la realidad como lo haría alguien delirante —ver una cosa en otra, encontrar conexiones donde no las hay— pero conservando el control para poder pintar lo que se ha visto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí salen sus imágenes dobles, que son su marca: una figura que es a la vez un rostro y un frutero, un grupo de personas que forma una calavera, una roca que es un perro. No son trucos ópticos añadidos: son el resultado de mirar una forma hasta que aparece otra, que es lo que él había aprendido de niño mirando las rocas del cabo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La frase con la que lo resume es la más citada del libro y funciona como declaración de método: la única diferencia entre un loco y él es que él no está loco. Es decir, reivindica el material del delirio y rechaza el estado; quiere las imágenes de la locura administradas por alguien que sigue teniendo oficio y calendario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está su diferencia con el resto del grupo surrealista, que fue lo que acabó rompiéndolo. Los surrealistas buscaban el automatismo, dejar que saliera lo que saliera sin control. Dalí quería lo contrario: control absoluto sobre un material incontrolado, y una técnica de pintura académica y minuciosa para ejecutarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quería el material del delirio administrado por alguien que conserva el oficio y el calendario.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Gala llega a Cadaqués" },
+      {
+        b: "texto",
+        texto:
+          "En el verano de 1929 llegó a Cadaqués un grupo de surrealistas franceses, y con ellos Elena Ivanovna Diakonova, rusa, diez años mayor que Dalí y casada con el poeta Paul Éluard. La llamaban Gala. No se volvió a marchar. Estuvo con Dalí desde entonces hasta su muerte en 1982 y el libro presenta ese encuentro como el momento en que su vida se ordenó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La descripción que hace es reveladora por lo poco romántica que es. Dice que hasta entonces vivía en un estado de crisis nerviosa constante, con ataques de risa incontrolable y miedos que le impedían trabajar, y que ella lo curó. La palabra que usa no es amor sino curación, y el libro entero se divide en el antes y el después de esa fecha.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gala se ocupó de todo lo que él no sabía hacer: negociar con galeristas, poner precios, organizar la agenda, decidir qué se vendía y qué no. Esa división del trabajo es la que hizo posible el Dalí posterior, y es también la que permitió que se convirtiera en un personaje público a tiempo completo sin dejar de producir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mismo año la relación le costó la familia. Su padre lo echó de casa tras un escándalo por una inscripción provocadora en un cuadro y por la relación con una mujer casada. Dalí se afeitó la cabeza y enterró el pelo en la playa. Tardaron años en volver a hablarse, y el libro cuenta la escena con más teatro que dolor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La palabra que usa para describir la llegada de Gala no es amor: es curación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La vida secreta de Salvador Dalí es una autobiografía que empieza con un recuerdo imposible y avisa en el prólogo de que va a construir un personaje. Dentro están el hermano muerto que le dio el nombre, las rocas de Cap de Creus que están dentro de sus cuadros, los años de Madrid con Lorca y Buñuel, el método paranoico-crítico y la llegada de Gala.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, y no lo da ninguna biografía escrita desde fuera, son dos cosas. El método explicado por quien lo usaba: entrenar la mirada delirante conservando el oficio, que es la mejor descripción que existe de cómo se fabrican sus imágenes dobles. Y el retrato involuntario de alguien construyéndose un personaje, con las costuras a la vista.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Como documento de hechos no vale nada; como documento de cómo se fabrica alguien a sí mismo, no hay otro igual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Miente, y lo hace a propósito. Ian Gibson documentó en 1997 decenas de episodios inventados, desplazados de fecha o atribuidos a otras personas, y no hay forma de saber sin comprobarlo cuáles de las escenas más memorables ocurrieron. Un lector que lo tome por biografía sale con una versión de los hechos que su propio autor no defendía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un silencio que pesa más que las mentiras. El libro se escribe en 1941 y 1942, con España saliendo de una guerra en la que Lorca, su amigo más íntimo, fue asesinado en 1936. De eso no hay prácticamente nada: ni una condena, ni un duelo, ni una posición. Dalí evitó pronunciarse entonces y años después se acomodó al régimen de Franco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después incluye la mejor respuesta que se le ha dado. En 1944, George Orwell reseñó este libro y escribió que Dalí era a la vez un dibujante excepcional y una persona desagradable, y que perdonarle cualquier cosa a alguien por su talento es una forma de cobardía. Las dos cosas hay que aguantarlas a la vez, sin que una cancele a la otra. Sigue siendo la manera más honesta de leerlo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "vida-dali": VIDA_DALI,
+  "diarios-frida": DIARIOS_FRIDA,
   "magia-crear": MAGIA_CREAR,
   "pajaro-a-pajaro": PAJARO_A_PAJARO,
   "camino-artista": CAMINO_ARTISTA,

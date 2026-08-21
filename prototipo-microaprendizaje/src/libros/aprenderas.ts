@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "vida-dali":
+    "Nació nueve meses después de que muriera un hermano suyo que también se llamaba Salvador, y sus padres le pusieron el mismo nombre. Esta autobiografía empieza describiendo sus recuerdos de antes de nacer, y avisa de que va a inventar.",
+
+  "diarios-frida":
+    "Durante sus diez últimos años Frida Kahlo llenó un cuaderno de tapas rojas con dibujos, manchas de tinta, listas y cartas sin enviar. Se publicó en facsímil cuarenta años después de su muerte y no explica su vida: enseña su taller.",
+
   "magia-crear":
     "Después de vender doce millones de ejemplares con unas memorias, Elizabeth Gilbert escribió esto para quien quiere hacer algo y no se atreve. Su tesis: el miedo no se va nunca, pero se le puede quitar el volante.",
 
