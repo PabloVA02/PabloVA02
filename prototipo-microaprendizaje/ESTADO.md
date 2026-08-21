@@ -224,37 +224,37 @@ No por gusto ni por orden alfabético. Por lo que más se ve, que es:
    es lo peor que puede haber. *Hechos los veinte.*
 2. **Los que tienen cubierta dibujada de Pablo.** Es la segunda peor
    combinación: la cubierta invita a entrar y el texto devuelve al lector.
-   Estuvo al día hasta las tandas del 21 de agosto, que trajeron 40 cubiertas
-   nuevas y volvieron a abrir el hueco. **Van veintiuno con dibujo y texto
+   Estuvo al día hasta las tandas del 21 de agosto, que trajeron 50 cubiertas
+   nuevas y volvieron a abrir el hueco. **Van veinte con dibujo y texto
    automático debajo, y son los siguientes que hay que escribir:**
 
-       Anticáncer                           Servan-Schreiber   Salud
+       El pequeño libro para invertir…      John C. Bogle      Economía
        Los cañones de agosto                Tuchman            Historia
        El cerebro del niño                  Siegel y Bryson    Psicología
-       El código de la obesidad             Jason Fung         Salud
        La cuchara menguante                 Sam Kean           Ciencia
-       Mi dieta cojea                       Aitor Sánchez      Salud
+       Dinero: domina el juego              Tony Robbins       Economía
+       La doctrina del shock                Naomi Klein        Economía
        Einstein: su vida y su universo      Isaacson           Ciencia
        Invicto                              Marcos Vázquez     Salud
        Maneras de amar                      Levine y Heller    Psicología
-       Los hombres son de Marte…            John Gray          Psicología
-       Mañanas milagrosas                   Hal Elrod          Salud
        El milagro metabólico                Jaramillo          Salud
+       El millonario de al lado             Stanley y Danko    Economía
        La música de los números primos      Du Sautoy          Ciencia
-       Nacidos para correr                  McDougall          Salud
+       Un paseo aleatorio por Wall Street   Malkiel            Economía
        Postguerra                           Tony Judt          Historia
        El pulgar del panda                  Gould              Ciencia
-       Sentirse bien                        David D. Burns     Psicología
+       Superpronosticadores                 Tetlock y Gardner  Economía
        Los últimos días de los dinosaurios  Riley Black        Ciencia
        El universo en una cáscara de nuez   Hawking            Ciencia
        El universo en tu mano               Galfard            Ciencia
        Vivir con plenitud las crisis        Kabat-Zinn         Salud
 
    La lista no se cuenta a mano: sale de cruzar `cubiertas.ts` con el registro
-   `PAGINAS` de `paginas.ts`. *Postguerra* y *Einstein* piden Amplio; ocho son
-   de Salud, donde manda la prueba del sustituto del apartado 4 bis; y dos
-   —*Los hombres son de Marte* y *Mañanas milagrosas*— son de los que peor han
-   envejecido, así que la regla 5 va a ser la mitad del resumen.
+   `PAGINAS` de `paginas.ts`. Notas para escribirlos: *Postguerra* y *Einstein*
+   piden Amplio; los seis de Economía se benefician del apartado 4 bis —cada
+   argumento con una persona con nombre— que salió de la captura de *La gran
+   apuesta*; y *Superpronosticadores* pide el marcador del apartado 4 bis,
+   porque es un libro sobre acertar predicciones y ya se puede comprobar.
 3. **Los conocidos** del resto del catálogo.
 4. **El resto**, por categorías.
 
