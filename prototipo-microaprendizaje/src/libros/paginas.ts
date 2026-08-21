@@ -29304,7 +29304,272 @@ const ARTE_DE_AMAR: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Un pequeño empujón, en ocho páginas.
+
+   Breve.
+
+   Libro PRÁCTICO de política pública y decisiones: segunda persona en la
+   prosa, titular que afirma.
+
+   La conclusión lleva las dos correcciones serias: el ejemplo de los
+   órganos que los propios autores matizaron, y el metaanálisis que puso en
+   duda el tamaño del efecto medio. Sin eso, esto sería publicidad.
+   -------------------------------------------------------------------------- */
+
+const NUDGE: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "No existe una manera neutral de presentar una decisión" },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con un caso real que resume su tesis entera. La responsable del servicio de comedores de un distrito escolar descubre que puede cambiar mucho lo que comen los niños sin quitar ni añadir un solo plato: basta con cambiar el orden en que están colocados en la bandeja del autoservicio. Poner la fruta primero y a la altura de los ojos, o ponerla al final y abajo, altera lo que se consume en proporciones grandes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí llega la pregunta que abre el libro: qué debería hacer esa persona. Puede colocar los platos para que los niños coman mejor, puede colocarlos para maximizar los ingresos, o puede intentar ser neutral. Y lo que Thaler y Sunstein demuestran es que la tercera opción no existe: los platos van a estar colocados de alguna manera, esa manera va a influir, y no hay ninguna disposición que no influya.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso lo llaman arquitectura de las decisiones, y sostienen que está en todas partes: el formulario que rellenas, el orden de las opciones de un menú, cuál viene marcada por defecto, dónde está el botón, qué se te pregunta primero. Alguien lo diseñó, aunque fuera sin pensarlo, y ese diseño tiene consecuencias medibles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que proponen: en qué se distingue un empujón de una prohibición, por qué la opción por defecto decide casi todo, qué experimento consiguió triplicar el ahorro de unos trabajadores, en qué se equivocaba la economía sobre las personas, qué ejemplo suyo resultó ser más complicado de lo que contaron y para qué se usa hoy la misma técnica.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los platos van a estar colocados de alguna manera y esa manera va a influir: la neutralidad no es una opción disponible.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un empujón no quita ninguna opción, y esa es la prueba" },
+      {
+        b: "texto",
+        texto:
+          "La definición que dan es estricta y conviene tenerla clara, porque la palabra se usa hoy para casi cualquier cosa. Un empujón es cualquier aspecto de la arquitectura de una decisión que modifica el comportamiento de manera previsible sin prohibir ninguna opción y sin cambiar de forma significativa los incentivos económicos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la prueba práctica. Poner la fruta a la altura de los ojos es un empujón. Prohibir la comida basura no lo es, porque quita una opción. Subirle un impuesto tampoco, porque cambia el precio. Y el criterio que ellos añaden: un empujón tiene que ser fácil y barato de evitar; si esquivarlo te cuesta esfuerzo o dinero, ya no lo es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La etiqueta política que se ponen a sí mismos es un oxímoron reconocido: paternalismo libertario. Libertario porque nadie pierde ninguna alternativa y quien quiera hacer lo contrario puede hacerlo en dos segundos. Paternalista porque el que diseña empuja deliberadamente hacia lo que considera mejor para la gente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y anticipan la objeción evidente: quién decide qué es lo mejor. Su respuesta es un criterio concreto: empujar hacia lo que la propia persona elegiría si tuviera toda la información, atención ilimitada y ninguna prisa. No hacia lo que el diseñador prefiera, sino hacia lo que ella misma diría querer en frío. Es un criterio razonable y, como se verá, difícil de aplicar sin trampa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si esquivar un empujón te cuesta esfuerzo o dinero, ya no es un empujón: es otra cosa con mejor nombre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La opción marcada por defecto decide más que cualquier campaña" },
+      {
+        b: "texto",
+        texto:
+          "Si hay que quedarse con una sola herramienta del libro, es esta. En cualquier decisión con una opción predeterminada, la enorme mayoría de la gente se queda con ella, y no por convicción sino por inercia, por prisa o por no saber qué elegir. Cambiar cuál viene marcada produce efectos que ninguna campaña de información consigue.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso mejor documentado son los planes de pensiones de empresa en Estados Unidos. Con el sistema clásico, en el que el trabajador tiene que rellenar un formulario para apuntarse, la participación ronda la mitad de la plantilla. Cambiando la opción por defecto, de modo que uno queda inscrito automáticamente y puede darse de baja cuando quiera, la participación sube por encima del ochenta y cinco o noventa por ciento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es que casi nadie se da de baja. O sea que la mayoría de los que antes no se apuntaban tampoco estaban en contra: simplemente no habían rellenado el papel. La misma gente, con la misma información y las mismas dos opciones, se comporta de manera completamente distinta según cuál de las dos exija hacer algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la consecuencia práctica para quien diseña cualquier cosa: la pregunta más importante no es qué opciones ofreces, sino cuál dejas puesta. Y para quien decide, la instrucción es la contraria: cada vez que algo viene marcado, conviene preguntarse si eso es lo que habrías elegido tú o solo lo que venía puesto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cada vez que algo viene marcado de antemano, pregúntate si eso es lo que tú habrías elegido o solo lo que venía puesto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un programa consiguió que unos trabajadores casi cuadruplicaran su ahorro",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mejor resultado del libro no es un experimento de laboratorio: es un programa aplicado en empresas reales, diseñado por Thaler con el economista Shlomo Benartzi, y se llama Ahorra Más Mañana. Su punto de partida es un problema conocido: casi todo el mundo dice que debería ahorrar más para la jubilación y casi nadie lo hace.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El programa aprovecha tres cosas que se saben del comportamiento humano. Que a la gente le cuesta mucho menos comprometerse con algo que empieza en el futuro que con algo que empieza hoy. Que perder poder adquisitivo duele mucho más que dejar de ganar algo que todavía no se tiene. Y que la inercia mantiene cualquier decisión ya tomada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Así que la propuesta es esta: el trabajador se compromete hoy a que una parte de sus futuras subidas de sueldo vaya automáticamente al plan de pensiones. No pierde nada de lo que cobra ahora, la aportación sube sola con cada aumento y puede salirse cuando quiera. En la primera empresa donde se aplicó, la tasa media de ahorro de los participantes pasó de alrededor del tres y medio por ciento a más del trece en tres años y medio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y casi nadie abandonó. Ese es el resultado mejor documentado de todo el campo y el que explica por qué gobiernos de medio mundo se interesaron por estas ideas: no hizo falta prohibir nada, ni subvencionar nada, ni convencer a nadie de nada, solo cambiar cuándo empieza el compromiso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Comprometerte con algo que empieza dentro de un año cuesta muchísimo menos que empezarlo hoy, y funciona igual de bien.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La economía llevaba un siglo calculando con una especie que no existe",
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás de todo el libro hay una discusión con la teoría económica clásica, y Thaler la resume con una broma que se ha hecho famosa en su gremio. Los modelos suponen agentes que calculan sin errores, que tienen fuerza de voluntad ilimitada y que solo persiguen su propio interés. A esos los llama econs, y observa que no ha conocido a ninguno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las personas reales fallan de maneras que se pueden predecir, y ese es el punto. No es que sean caprichosas: es que se equivocan siempre en la misma dirección. Sobrestiman la probabilidad de lo que recuerdan con facilidad, se dejan arrastrar por la primera cifra que oyen, prefieren no perder cien a ganar ciento veinte y siguen a la mayoría incluso cuando la mayoría se equivoca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro organiza esos fallos con la distinción entre dos maneras de pensar: una rápida, automática e intuitiva, que funciona sola y resuelve casi todo el día, y otra lenta, deliberada y costosa, que se activa poco porque cansa. Los empujones funcionan porque hablan con la primera, que es la que decide en el supermercado, en el formulario y en la máquina de café.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí la consecuencia para las políticas públicas. Si la gente decidiera como los modelos suponen, informar bastaría: bastaría con publicar los datos y cada uno elegiría bien. Como no es así, la información sola casi nunca cambia nada, y por eso las campañas que se limitan a explicar producen resultados tan pobres.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las personas no fallan de forma caprichosa: fallan siempre hacia el mismo lado, y por eso se puede diseñar contando con ello.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Su ejemplo más famoso resultó ser más complicado de lo que contaron" },
+      {
+        b: "texto",
+        texto:
+          "El caso de la donación de órganos aparece en todas las presentaciones sobre este asunto y conviene contarlo entero, incluida la corrección. La versión original es espectacular: en países donde hay que apuntarse expresamente para ser donante, el porcentaje de inscritos es bajísimo; en países donde se es donante salvo que uno diga lo contrario, es altísimo. La comparación entre dos países vecinos con culturas parecidas daba cifras de doce frente a noventa y nueve por ciento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es un ejemplo perfecto de lo que sostiene el libro y tiene un problema: el porcentaje de gente registrada no es lo mismo que el número de trasplantes que se hacen. Lo que decide cuántos órganos se donan realmente no es solo la casilla, sino qué ocurre en el hospital cuando alguien muere en condiciones de donar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que lo demuestra es España, que lleva más de treinta años siendo el país con más donaciones efectivas por habitante del mundo. Su sistema no se apoya en la ley del consentimiento presunto, que también tienen otros países con cifras mucho peores, sino en una organización concreta: coordinadores de trasplantes en cada hospital, formación específica y un protocolo para hablar con las familias en el momento adecuado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los propios autores incorporaron ese matiz en la revisión del libro y cambiaron su recomendación: hoy proponen un sistema de elección obligatoria, en el que a cada ciudadano se le pregunta expresamente y tiene que contestar. Es un caso raro y digno de mención: dos autores corrigiendo por escrito su propio ejemplo estrella.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuánta gente marca una casilla y cuántos trasplantes se hacen son dos cifras distintas, y confundirlas es el error clásico.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La misma técnica sirve para que no puedas darte de baja" },
+      {
+        b: "texto",
+        texto:
+          "La aportación más útil de la edición revisada es un concepto nuevo que los autores llaman fango, y que es exactamente lo contrario del empujón: la arquitectura de decisiones diseñada a propósito para dificultar algo que la gente quiere hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los ejemplos son cotidianos y se reconocen al instante. Suscribirse a un servicio cuesta dos clics y darse de baja exige llamar por teléfono en horario laboral. Un descuento requiere enviar un formulario por correo postal con el ticket original. Una ayuda pública a la que uno tiene derecho pide seis documentos que hay que pedir en tres ventanillas distintas. Nadie prohíbe nada; simplemente se pone el trámite lo bastante pesado como para que mucha gente lo abandone.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que los autores subrayan es que ese fango es tan eficaz como el empujón y está muchísimo más extendido, porque a menudo le conviene a alguien. Las empresas lo usan para retener clientes y las administraciones, a veces sin querer y a veces queriendo, para reducir el número de personas que reclaman lo que les corresponde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y proponen algo concreto: auditar el fango. Medir cuántos minutos y cuántos pasos exige cada trámite, publicar esa cifra y reducirla, igual que se auditan otros costes. Es la parte del libro con más consecuencias prácticas inmediatas y la que menos se cita.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie te prohíbe darte de baja: solo hacen falta ocho pasos y una llamada en horario laboral, y con eso basta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Un pequeño empujón sostiene que no existe una manera neutral de presentar una decisión, que quien diseña el contexto influye quiera o no, y que por tanto conviene diseñarlo a favor de quien decide. Su herramienta principal es la opción por defecto, su mejor resultado documentado es un programa de ahorro que triplicó las aportaciones de unos trabajadores, y su aportación más útil de los últimos años es haber puesto nombre a la técnica contraria, la de poner trabas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta a un lector particular es un hábito de sospecha. Después de leerlo cuesta rellenar un formulario sin fijarse en qué viene marcado, y cuesta creer que un trámite complicado sea complicado por casualidad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si algo viene marcado de antemano, alguien decidió que viniera así, y esa decisión influye más que toda la información que te den.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La crítica técnica más seria llegó después de publicarse y sigue abierta. Un metaanálisis de 2022 encontró un efecto medio apreciable, y una revisión posterior de esos mismos datos, corrigiendo el hecho de que los estudios con resultados nulos casi no se publican, concluyó que el efecto promedio quedaba muy cerca de cero. La discusión continúa, y lo prudente hoy es decir que algunos empujones funcionan muy bien —los de la opción por defecto, sobre todo— y que otros muchos no hacen nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una objeción política que el libro reconoce y no cierra. Si estas técnicas funcionan, funcionan igual para quien quiere venderte algo, para quien quiere que no reclames y para quien quiere tu voto, y en esos casos no hay ningún criterio que garantice que se empuja hacia lo que tú elegirías en frío. La respuesta de los autores es la transparencia —que cualquier empujón se pueda explicar en público sin que nadie se sienta engañado— y es una respuesta razonable que depende por completo de la buena fe del que diseña. Por último, un empujón tiene efectos pequeños por definición, y su éxito ha servido a veces de coartada para no tomar medidas estructurales que serían mucho más eficaces y mucho más caras.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  nudge: NUDGE,
   "arte-de-amar": ARTE_DE_AMAR,
   educada: EDUCADA,
   "historia-espana": HISTORIA_ESPANA,

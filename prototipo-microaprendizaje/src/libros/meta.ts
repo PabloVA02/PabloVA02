@@ -1016,22 +1016,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "nudge",
-    titulo: "Un pequeño empujón",
-    autor: "Thaler y Sunstein",
-    ano: 2008,
-    gancho: "Retiró el cuenco de anacardos antes de cenar y sus invitados le dieron las gracias. Un economista no debería alegrarse de tener menos opciones.",
-    porQue: "Cambió cómo diseñan políticas media docena de gobiernos, le dio un Nobel a su autor, y quince años después la mitad de sus pruebas están en discusión.",
-    minutos: 21.2,
-    capitulos: [
-      { titulo: "El cuenco de anacardos", minutos: 4.3 },
-      { titulo: "La mosca del urinario", minutos: 4.3 },
-      { titulo: "Ahorra más mañana", minutos: 4.2 },
-      { titulo: "La unidad de empujones", minutos: 4.3 },
-      { titulo: "La crisis de replicación", minutos: 4.2 },
-    ],
-  },
-  {
     id: "cerebro-del-nino",
     titulo: "El cerebro del niño",
     autor: "Siegel y Payne Bryson",

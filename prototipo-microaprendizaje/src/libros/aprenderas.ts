@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  nudge:
+    "Colocar la fruta a la altura de los ojos cambia lo que comen los niños de un colegio, y no existe una manera neutral de colocarla. De ahí parte un libro sobre cómo el diseño de una decisión influye en lo que la gente acaba eligiendo.",
+
   "arte-de-amar":
     "Fromm parte de una comprobación incómoda: casi nadie cree que amar sea algo que haya que aprender, así que nadie lo estudia. Su libro descompone esa capacidad en cuatro componentes que no son sentimientos y que se pueden observar.",
 

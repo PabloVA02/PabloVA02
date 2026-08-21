@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  nudge: [
+    "en qué se distingue un empujón de una prohibición",
+    "por qué la opción marcada por defecto decide casi todo",
+    "qué programa consiguió triplicar el ahorro de unos trabajadores",
+    "qué tuvieron que corregir de su ejemplo más famoso",
+    "qué es el fango y para qué lo usan las empresas",
+  ],
+
   "arte-de-amar": [
     "por qué casi todo el mundo trabaja sobre el problema equivocado",
     "qué diferencia hay entre el amor maduro y el inmaduro",
