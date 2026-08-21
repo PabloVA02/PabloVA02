@@ -25724,7 +25724,265 @@ const MODOS_VER: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Mientras escribo, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO (memorias de oficio): títulos cortos de imagen,
+   afirmación en la primera frase, caja del rayo en segunda persona, que
+   aquí encaja porque medio libro son instrucciones.
+
+   La conclusión dice lo que casi nadie dice: sus consejos valen para su
+   clase de literatura y se leen como universales, y su método presupone
+   tiempo y una habitación.
+   -------------------------------------------------------------------------- */
+
+const MIENTRAS_ESCRIBO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una furgoneta en un arcén de Maine" },
+      {
+        b: "texto",
+        texto:
+          "El 19 de junio de 1999, Stephen King paseaba por el arcén de una carretera de Maine, como todas las tardes. Una furgoneta se salió de la calzada y lo golpeó por detrás. Salió despedido varios metros y quedó en la cuneta con la pierna derecha rota en nueve sitios, la cadera fracturada, cuatro costillas rotas, la columna astillada, un pulmón colapsado y el cuero cabelludo abierto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pasó tres semanas en el hospital y cinco operaciones en diez días. Este libro estaba escrito a medias y llevaba dieciocho meses parado. Lo retomó en julio, en el porche de su casa, sentado en una silla de ruedas y con un dolor que solo le permitía cuarenta minutos por sesión. La última parte del libro cuenta exactamente eso, y por eso el manual termina siendo también un argumento sobre para qué sirve escribir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado son en realidad tres libros cosidos. Unas memorias fragmentarias de infancia y juventud, un manual de oficio con instrucciones concretas y un relato del accidente y de la vuelta al trabajo. Se publicó en 2000 y desde entonces es el libro sobre escritura más vendido y más recomendado que existe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que contiene: cómo se aprende el oficio desde abajo, qué pasó con las tres páginas que tiró a la basura, qué le puso su familia delante una tarde, en qué consiste su definición de escribir, cuáles son sus reglas concretas de prosa y por qué se niega a planificar sus novelas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El manual de escritura más leído del mundo lo terminó su autor en una silla de ruedas, en tandas de cuarenta minutos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un clavo lleno de cartas de rechazo" },
+      {
+        b: "texto",
+        texto:
+          "La primera parte del libro no es una autobiografía ordenada, sino una serie de escenas sueltas que King elige porque explican de dónde sale su manera de escribir. Su padre salió a comprar tabaco en 1949 y no volvió nunca. Su madre crió sola a dos hijos con trabajos mal pagados, mudándose de estado en estado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Empezó a mandar relatos a revistas a los doce o trece años. Clavó la primera carta de rechazo en un clavo de la pared de su cuarto, y siguió clavando las siguientes en el mismo sitio. A los catorce, el clavo no aguantaba el peso del montón y tuvo que sustituirlo por un pincho más grande. Ese pincho es la imagen que mejor resume esa parte del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuenta también el rechazo que más le sirvió. Uno de aquellos editores le devolvió un manuscrito con una nota manuscrita en la que había una fórmula: la segunda versión es la primera menos un diez por ciento. King dice que se la aprendió aquel día y que la sigue aplicando cincuenta años después a todo lo que escribe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cuenta cómo se ganaba la vida antes de publicar: en una lavandería industrial, lavando sábanas de hospital y manteles de restaurante llenos de gusanos, y después como profesor de instituto por seis mil cuatrocientos dólares al año, escribiendo por las noches en el cuarto de la caldera de una caravana, con una máquina de escribir de su mujer apoyada en un escritorio infantil.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La primera versión menos un diez por ciento: una fórmula que le llegó en una carta de rechazo y le ha servido cincuenta años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Tres páginas en la papelera" },
+      {
+        b: "texto",
+        texto:
+          "La escena que cambió su vida es doméstica y dura un minuto. King había empezado un relato sobre una chica de instituto acosada por sus compañeras que desarrolla poderes. Escribió tres páginas, decidió que no sabía escribir sobre chicas adolescentes, que no le interesaba y que no iba a ninguna parte, y las tiró a la papelera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su mujer, Tabitha, las encontró al vaciar la basura, las alisó encima de la mesa, se sentó a leerlas y le dijo que ahí había algo. Él contestó que no sabía nada de vestuarios de chicas. Ella le respondió que en eso le ayudaría, y le pidió que siguiera. King ha repetido durante cincuenta años que si su mujer no vacía la papelera aquella tarde no habría existido nada de lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquel relato creció hasta convertirse en Carrie. Doubleday lo compró por un adelanto de dos mil quinientos dólares. Meses después, King recibió en la escuela una llamada de su editor diciéndole que los derechos de bolsillo se habían vendido por cuatrocientos mil dólares y que la mitad era suya. Cuenta que se quedó de pie en el pasillo repitiendo la cifra y que salió a comprarle a Tabby un secador de pelo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lección que saca no es sobre la suerte. Es sobre a quién se le enseña un texto y cuándo: escribir la primera versión solo y para uno mismo, y después enseñársela a una persona, una sola, cuyo juicio uno respete de verdad. Lo llama la puerta cerrada y la puerta abierta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribe la primera versión con la puerta cerrada y la segunda con la puerta abierta: una sola persona, y que sea la buena.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una bolsa de basura sobre la alfombra" },
+      {
+        b: "texto",
+        texto:
+          "La parte más incómoda de las memorias es la que King contó por primera vez aquí. Durante buena parte de los años ochenta escribió borracho y drogado, con una adicción al alcohol y a la cocaína que llegó a ser total. Admite que hay libros suyos de aquella época que apenas recuerda haber escrito, y menciona uno concreto del que no guarda memoria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El final llegó en una escena que describe en dos páginas. Su familia se reunió en el salón, entró su mujer con una bolsa de basura y la volcó sobre la alfombra delante de él. Dentro estaba lo que habían sacado de su despacho a lo largo de una semana: latas de cerveza, colillas, restos de cocaína, cucharillas con costra, frascos de tranquilizantes, jarabe para la tos y botellas de enjuague bucal, que se bebía por el alcohol.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Le dijeron que eligiera. King pidió tiempo para pensarlo y su mujer le contestó que aquello estaba matándolo. Lo dejó, y cuenta que los primeros dos años escribiendo sobrio le dieron un miedo cerval, porque durante mucho tiempo había creído la vieja idea de que un escritor necesita algo que le abra la cabeza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su conclusión es directa y va contra un mito muy asentado. Los escritores alcohólicos, escribe, no beben porque escriban; beben porque son alcohólicos, igual que los fontaneros alcohólicos. La idea de que la sustancia aporta algo a la obra le parece la coartada más eficaz que ha inventado un gremio para no dejarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un escritor que bebe no bebe por escribir: bebe porque es alcohólico, exactamente igual que un fontanero que bebe.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Escribir es telepatía" },
+      {
+        b: "texto",
+        texto:
+          "La definición del oficio que da King es la mejor página del libro y funciona como una demostración práctica. Dice que escribir es telepatía, y en vez de explicarlo lo hace: le pide al lector que imagine una mesa cubierta con un mantel rojo, y encima una jaula del tamaño de un acuario pequeño, con ocho peces de colores dibujados en el cristal, y dentro un conejo blanco con el número ocho pintado en el lomo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después señala lo ocurrido. Él escribió esa frase un día de un año concreto, en un sitio concreto, y el lector la ha leído en otro año, en otro país, tal vez décadas después. No comparten nada. Y sin embargo, en este momento, los dos están viendo el mismo conejo blanco con el mismo número en el lomo. Eso, dice, es transmitir un contenido de una mente a otra a través del tiempo, que es la definición exacta de telepatía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca la consecuencia práctica. Si el oficio consiste en que un objeto imaginado aparezca dentro de otra cabeza, entonces todo lo que estorbe esa transmisión sobra: el adorno, la palabra rara, la construcción retorcida, la explicación de lo que ya se ve. Su prosa es transparente a propósito, no por falta de ambición.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade la regla que se deriva de esto y que repite varias veces: la honradez del detalle importa más que su belleza. Un mantel rojo funciona; un mantel de un rojo profundo como la sangre de un atardecer no funciona mejor, funciona peor, porque el lector deja de ver la mesa y empieza a ver al escritor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si el lector empieza a fijarse en cómo está escrito, ha dejado de ver lo que le estabas enseñando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El camino al infierno está empedrado de adverbios" },
+      {
+        b: "texto",
+        texto:
+          "La sección de instrucciones se organiza como la caja de herramientas de su abuelo carpintero: arriba lo que más se usa, abajo lo pesado. En la bandeja de arriba pone dos cosas, vocabulario y gramática, y da una regla para cada una que va contra lo que enseñan en la escuela.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre el vocabulario: usa la primera palabra que te venga a la cabeza si es adecuada y viva. No vayas al diccionario de sinónimos a vestirla, porque un lector detecta a la legua la palabra buscada, igual que detecta a alguien disfrazado para una fiesta. Su ejemplo es cruel: escribir jodido cuando se quiere decir jodido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre la gramática, dos avisos concretos. El primero, contra la voz pasiva, que le parece cosa de escritores tímidos: alguien escribe que la reunión fue clausurada por él porque le da miedo escribir que él clausuró la reunión. El segundo, el famoso: el camino al infierno está empedrado de adverbios. Los compara con los dientes de león, que uno parece bonito en el césped y a la semana siguiente son cincuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su caso más concreto es el de los verbos de habla en los diálogos. Escribe siempre dijo, y nada más. Nada de espetó, exclamó, farfulló, aventuró ni musitó. Y sobre todo, nada de dijo desdeñosamente: si la frase no suena desdeñosa por sí sola, el adverbio no la va a salvar; lo que hace es avisar de que el diálogo está mal escrito.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si tienes que añadir un adverbio para que se entienda el tono de una frase, el problema está en la frase y no en el adverbio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La trama es el martillo neumático del pobre" },
+      {
+        b: "texto",
+        texto:
+          "La postura más discutida del libro es su rechazo a planificar. King sostiene que no traza nunca la trama de una novela antes de escribirla, y no lo presenta como una manía sino como una desconfianza razonada: una trama planeada obliga a los personajes a hacer lo que hace falta para llegar al punto siguiente, y eso se nota en la página.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su método es lo que llama la situación. Se le ocurre un planteamiento —qué pasaría si un pueblo quedara aislado bajo una cúpula, qué pasaría si una fan cuidara a su escritor herido en su casa— y coloca allí a unos personajes que le interesen. A partir de ahí escribe para averiguar qué van a hacer, igual que lo averiguará el lector.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La imagen con la que lo explica es la mejor del libro. Las historias, dice, son cosas que ya existen, como fósiles enterrados; el trabajo del escritor no es fabricarlas sino desenterrarlas con cuidado, con pincel y con paciencia, procurando romper lo menos posible. Y añade que la trama, entendida como plan previo, es el martillo neumático del pobre: sirve para sacar el fósil rápido y llega arriba hecho pedazos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Junto a eso van sus dos reglas de cantidad, que son las que más gente ha copiado. Escribir todos los días, con un objetivo fijo —él se pone dos mil palabras—, y no salir de la habitación hasta cumplirlo. Y guardar el primer borrador terminado en un cajón durante al menos seis semanas sin abrirlo, para poder leerlo después como si lo hubiera escrito otro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Guarda lo que escribas seis semanas sin mirarlo: es la única manera de leerlo como si lo hubiera escrito otra persona.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Mientras escribo mezcla unas memorias, un manual y el relato de un atropello, y su tesis cabe en una frase que King repite varias veces: para escribir hay que hacer dos cosas por encima de todas, leer mucho y escribir mucho, y no hay ningún atajo. El resto son instrucciones concretas: prosa transparente, la primera palabra que sirva, nada de adverbios en los diálogos, la segunda versión con un diez por ciento menos y seis semanas de cajón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, más que las reglas, es haber quitado de en medio el misterio. En este libro escribir no es una vocación ni una llamada: es un oficio con herramientas, horarios y correcciones, aprendido en un cuarto de caldera con una máquina prestada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribir es telepatía: alguien imagina un conejo con un número en el lomo y, años después y a miles de kilómetros, otro lo ve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Son tres libros cosidos y las costuras se ven: quien busque el manual tiene que atravesar cien páginas de infancia, y quien busque las memorias se encuentra de pronto con una clase de gramática. Y hay un problema de alcance que King menciona de pasada y muchos lectores no ven: sus reglas están hechas para su clase de narrativa, la que avanza por situaciones y personajes. Aplicar el no planifiques a una novela histórica, a una policíaca con estructura o a un ensayo es un desastre asegurado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una condición material que el libro da por supuesta. Dos mil palabras diarias y una puerta que se cierra exigen tiempo y una habitación, y King los tuvo garantizados desde que vendió Carrie a los veintiséis años. Las páginas donde escribe en el cuarto de la caldera de una caravana son de un período muy corto de su vida. Como método es excelente; como norma para quien escribe entre dos turnos de trabajo, conviene tomárselo con la proporción que su autor no llegó a poner.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "mientras-escribo": MIENTRAS_ESCRIBO,
   "modos-ver": MODOS_VER,
   "aliento-aire": ALIENTO_AIRE,
   "ser-mortal": SER_MORTAL,

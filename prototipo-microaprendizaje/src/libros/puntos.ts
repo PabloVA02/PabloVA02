@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "mientras-escribo": [
+    "qué pasó con las tres páginas que tiró a la papelera",
+    "qué le puso su familia delante una tarde en el salón",
+    "por qué define escribir como una forma de telepatía",
+    "qué reglas concretas da sobre adverbios y diálogos",
+    "por qué se niega a planificar una novela",
+  ],
+
   "modos-ver": [
     "por qué no existe una manera inocente de mirar",
     "qué le hizo la fotografía al significado de los cuadros",

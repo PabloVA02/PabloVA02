@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "mientras-escribo":
+    "King lo tenía a medias cuando una furgoneta lo atropelló en un arcén de Maine y le rompió la pierna en nueve sitios. Lo terminó en una silla de ruedas, en tandas de cuarenta minutos, y salió el manual de escritura más leído que existe.",
+
   "modos-ver":
     "Nació como cuatro programas de la BBC de 1972, hechos como respuesta a una serie que contaba el arte europeo como una herencia gloriosa. Berger propone mirar los mismos cuadros preguntando quién los pagó y para el ojo de quién están pintados.",
 

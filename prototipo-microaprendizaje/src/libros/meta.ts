@@ -936,22 +936,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "mientras-escribo",
-    titulo: "Mientras escribo",
-    autor: "Stephen King",
-    ano: 2000,
-    gancho: "Llevaba media vida escribiendo cuando lo atropelló una furgoneta en una carretera de Maine. Volvió a este libro seis semanas después, sentado cuarenta minutos seguidos, que era lo que aguantaba.",
-    porQue: "Porque es el manual de escritura más leído del mundo y la mitad de sus reglas son suyas y solo suyas. Saber cuáles valen para cualquiera y cuáles no es la diferencia entre usarlo y obedecerlo.",
-    minutos: 22.3,
-    capitulos: [
-      { titulo: "La sala de la caldera", minutos: 4.3 },
-      { titulo: "La papelera de Carrie", minutos: 4.2 },
-      { titulo: "La alfombra con las latas", minutos: 4.5 },
-      { titulo: "La caja de herramientas", minutos: 4.6 },
-      { titulo: "La carretera número 5", minutos: 4.7 },
-    ],
-  },
-  {
     id: "magia-crear",
     titulo: "La magia de crear",
     autor: "Elizabeth Gilbert",
