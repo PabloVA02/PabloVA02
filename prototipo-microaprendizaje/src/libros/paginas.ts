@@ -35076,7 +35076,7 @@ const POR_QUE_FRACASAN: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Y añaden la pieza que hace funcionar el argumento: las instituciones económicas las determinan las políticas. Si el poder está repartido y hay contrapesos, es difícil sostener un sistema que perjudica a la mayoría; si el poder está concentrado en pocas manos, es fácil, porque los perjudicados no tienen forma de cambiar las reglas.",
+          "Y añaden la pieza que hace funcionar el argumento: las instituciones económicas las determinan las políticas. Si el poder está repartido y hay contrapesos, es difícil sostener un sistema que perjudica a la mayoría; si el poder está concentrado en pocas manos, es fácil, porque los perjudicados no tienen forma de cambiar las reglas. Conviene anotar además que este marco tiene un problema empírico abierto: en 2012 los autores predijeron que el crecimiento chino, con instituciones políticas cerradas, se frenaría a menos que se abrieran, y más de una década después no ha ocurrido. Y minimizan factores que sí pesan: la geografía influye en la agricultura y en la carga de enfermedades, y el colonialismo no solo instaló instituciones, sino que destruyó capacidades que ya existían.",
       },
       {
         b: "idea",
@@ -35359,11 +35359,6 @@ const POR_QUE_FRACASAN: PaginaLibro[] = [
         b: "texto",
         texto:
           "Dónde falla. La crítica más repetida es que su concepto de institución es tan amplio que resulta difícil de refutar, y que el argumento tiene un aire circular: los países ricos tienen buenas instituciones, y las buenas instituciones se reconocen porque producen países ricos. Historiadores especialistas han señalado además simplificaciones concretas en su tratamiento de Roma, de Venecia, de la Revolución Gloriosa y del imperio otomano, donde los ejemplos se recortan para que encajen.",
-      },
-      {
-        b: "texto",
-        texto:
-          "Y tienen una predicción abierta. En 2012 sostuvieron que el crecimiento chino, basado en instituciones políticas cerradas, se frenaría a menos que se abrieran; más de una década después no ha ocurrido, y ese caso sigue siendo el principal problema empírico de su teoría. Además minimizan factores que sí pesan: la geografía influye en la agricultura y en la carga de enfermedades, y el colonialismo no solo instaló instituciones, sino que destruyó capacidades que existían.",
       },
       {
         b: "texto",
