@@ -466,7 +466,22 @@ La regla, que completa la 4.7:
     NOSOTROS                solo cuando se habla de verdad de la especie
                             entera —Sapiens, la evolución— y de nada más
 
-## 4 bis. Los cinco casos que dan problemas
+**Y ese «de nada más» tiene una frontera exacta**, que enseña la captura del
+*Sapiens* de Headway, del 21 de agosto. Ahí el plural empieza bien: «nuestro
+cerebro nos ha convertido en el organismo más influyente de la Tierra» habla de
+la especie y es legítimo. Tres páginas después ya está escribiendo «hemos
+confundido el lujo con la simplicidad», «este deseo va acompañado de una
+hipoteca, hijos y el afán de poseer más» y «¿nos sentimos más relajados con
+toneladas de mensajes?». Eso ya no es la especie: es un sermón sobre el estilo
+de vida de un lector de clase media occidental, escrito en la voz que no
+compromete a nadie.
+
+La regla que se saca: **el «nosotros» vale mientras el sujeto sea el Homo
+sapiens de los últimos setenta mil años, y deja de valer en cuanto tiene
+hipoteca.** Si la frase se puede discutir mirando la vida de alguien concreto,
+ya no era la especie.
+
+## 4 bis. Los seis casos que dan problemas
 
 Estos salieron escribiendo, uno por uno, y cada uno costó una reescritura. Van
 aquí para que la siguiente vez se sepan antes de empezar.
@@ -535,6 +550,37 @@ contraportada ni en la solapa. Va en la conclusión, con lo concreto:
 convierte en verdad lo demás. Taleb acertó en 2008 y eso no valida su método,
 porque quien avisa cada año de una catástrofe acaba coincidiendo con una — que
 es exactamente el sesgo que su propio libro enseña a detectar.
+
+### En HISTORIA, la trampa es la crónica
+
+Es lo que enseña la captura de *Antiguas civilizaciones*, del 21 de agosto, un
+resumen sobre mayas, aztecas e incas.
+
+Hace bien la mitad del trabajo, y es la mitad que más cuesta: está llena de
+cosas concretas. El año 2600 antes de Cristo, los olmecas del golfo de México,
+los zapotecas —la gente de las nubes— y su ciudad de Monte Albán, las chinampas
+del lago Texcoco, la Triple Alianza contra los tepanecas, el apogeo maya entre
+250 y 900. Cualquiera de esos datos vale más que un párrafo de adjetivos, y en
+eso es un modelo.
+
+Y falla en la otra mitad entera: **no afirma nada en ninguna página.** Es una
+línea del tiempo. Pasó esto, y después esto otro, y las cosas empezaron a
+mejorar para ellos. Los enlaces entre párrafos son de cuento —«pero la suerte de
+los aztecas estaba a punto de cambiar», «desafortunadamente no fueron bien
+recibidos»— y al terminar no se ha discutido una sola idea: se ha recitado un
+orden de acontecimientos que se puede consultar en cualquier sitio.
+
+La historia es la categoría donde más fácil resulta caer en esto, porque el
+material ya viene ordenado por fechas y contarlo en orden parece lo natural.
+No lo es:
+
+- **La cronología sirve al argumento, no al revés.** Si la página se puede
+  resumir como «y entonces pasó tal cosa», sobra.
+- **Cada página sigue teniendo su afirmación discutible.** «Tenochtitlán se
+  fundó en una isla» es un dato; «los aztecas ganaron porque construyeron
+  tierra donde no la había» es un titular.
+- **Los conectores narrativos de suspense se quitan.** «La suerte estaba a
+  punto de cambiar» no informa: solo empuja a pasar de página.
 
 ### Un libro que PREDICE se resume con el marcador puesto
 
@@ -612,6 +658,7 @@ frase, se continúa la del rótulo —aprenderás… esto—.
 - [ ] Si el libro predice algo, ¿está el año en la primera página y el marcador
       —qué acertó, qué falló— en la conclusión?
 - [ ] Si es novela, ¿los titulares afirman sobre el libro y no cuentan la trama?
+- [ ] Si es de historia, ¿hay alguna página que sea solo una línea del tiempo?
 - [ ] ¿Alguna anécdota famosa metida sin comprobar de dónde sale?
 - [ ] ¿Las páginas que pide su tamaño, y todas de unas 260 palabras?
 - [ ] ¿El tamaño sale de contar sus argumentos, y no de lo famoso que sea?
