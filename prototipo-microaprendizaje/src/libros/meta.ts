@@ -488,22 +488,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "doctrina-shock",
-    titulo: "La doctrina del shock",
-    autor: "Naomi Klein",
-    ano: 2007,
-    gancho: "Su tesis es que las reformas que nadie votaría se aprueban en los días en que la gente está demasiado aturdida para discutirlas. Documenta cuarenta años de ejemplos.",
-    porQue: "Es el libro que puso nombre a algo que se ve cada vez que hay una catástrofe. Y es también un caso de estudio perfecto de cómo se lee un libro de tesis fuerte: separando lo que documenta de lo que solo insinúa, que aquí son dos cosas muy distintas.",
-    minutos: 25.3,
-    capitulos: [
-      { titulo: "Un sótano de Montreal", minutos: 4.4 },
-      { titulo: "El primer laboratorio fue Chile", minutos: 5.6 },
-      { titulo: "Cuando la crisis llega sola", minutos: 5.5 },
-      { titulo: "Bagdad, Nueva Orleans y una playa de Sri Lanka", minutos: 5.5 },
-      { titulo: "Lo que demuestra y lo que solo insinúa", minutos: 4.3 },
-    ],
-  },
-  {
     id: "repensar-pobreza",
     titulo: "Repensar la pobreza",
     autor: "Banerjee y Duflo",

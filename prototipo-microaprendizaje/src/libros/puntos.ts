@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "doctrina-shock": [
+    "por qué el plan económico chileno estaba escrito antes del golpe",
+    "quién nacionalizó la banca de Chile en 1983",
+    "cómo se repartió la economía rusa después de octubre de 1993",
+    "qué firmó Sudáfrica en la mesa que no salía en las noticias",
+    "distinguir los diez casos documentados de la tesis que los une",
+  ],
+
   "dinero-domina-juego": [
     "por qué el porcentaje que apartas manda sobre el fondo que eliges",
     "si quien te aconseja cobra de ti o de lo que te vende",

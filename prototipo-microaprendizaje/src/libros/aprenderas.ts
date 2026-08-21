@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "doctrina-shock":
+    "Milton Friedman escribió en 1982 que solo una crisis produce un cambio real y que la función de un economista es mantener las alternativas a mano hasta entonces. Klein recorre diez países para ver qué pasó cuando se aplicó.",
+
   "dinero-domina-juego":
     "Robbins entrevistó durante cuatro años a unos cincuenta de los mayores inversores del mundo, de Ray Dalio a Warren Buffett, y les hizo la misma pregunta. Las respuestas coincidían tanto que caben en un capítulo.",
 

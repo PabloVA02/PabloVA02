@@ -46434,7 +46434,431 @@ const DINERO_DOMINA_JUEGO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La doctrina del shock, en doce páginas.
+
+   AMPLIO. Setecientas páginas y diez casos de países distintos que no se
+   pueden juntar sin perder el argumento: Chile, Argentina, Bolivia, Polonia,
+   Rusia, Sudáfrica, Sri Lanka, Nueva Orleans, Irak y la industria de la
+   seguridad. En ocho páginas saldría la tesis y ningún caso, que es
+   exactamente lo que hace que un libro polémico no se pueda comprobar.
+
+   Economía → cada página con personas con nombre, fechas y cifras, que
+   aquí además es lo que permite al lector juzgar la tesis por su cuenta.
+
+   Y LA REGLA 5 AQUÍ NO ES UN APARTADO, ES LA MITAD DEL TRABAJO. Es un libro
+   militante, con críticas serias y documentadas, y también con hallazgos que
+   nadie discute. Se cuentan las dos cosas con el mismo detalle: la cifra de
+   los desaparecidos con las dos fuentes, la visita de Friedman con lo que
+   duró, y los contraejemplos que la tesis no explica.
+   -------------------------------------------------------------------------- */
+
+const DOCTRINA_SHOCK: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las reformas más impopulares se aprueban cuando la gente está demasiado aturdida para pararlas",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1982, en el prólogo a una reedición de su libro más conocido, el economista Milton Friedman escribió una frase que Naomi Klein convirtió en el cimiento de setecientas páginas: solo una crisis, real o percibida, produce un cambio verdadero; cuando esa crisis llega, las medidas que se toman dependen de las ideas que anden por ahí; y esa, decía, es nuestra función básica, mantener vivas las alternativas hasta que lo políticamente imposible se vuelva políticamente inevitable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Klein, periodista canadiense, publicó este libro en 2007 para sostener que esa función se ha ejercido de manera sistemática durante cincuenta años. Su tesis es que un conjunto de políticas económicas —privatizar lo público, abrir las fronteras al capital, recortar el gasto del Estado y desregular— se ha impuesto una y otra vez en momentos en que la población estaba desorientada por un golpe de Estado, una guerra, una hiperinflación o un desastre natural.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palabra que da título viene de dos sitios a la vez, y esa doble lectura es lo que hace el libro discutible y también lo que lo hace legible. Los propios economistas llamaban tratamiento de shock a la aplicación rápida y simultánea de todas las medidas; y Klein la superpone al electroshock psiquiátrico, un tratamiento que borra para reconstruir. La superposición es una metáfora, no un mecanismo demostrado, y conviene tenerlo presente todo el rato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren diez casos y los recorren con sus fechas: Chile en 1973 y el desastre de 1982, Argentina y Bolivia, Polonia en 1989, Rusia en 1993, Sudáfrica en 1994, el tsunami de Sri Lanka y el huracán de Nueva Orleans en 2005, Irak en 2003 y el sector empresarial que vive de gestionar catástrofes. Y la conclusión trae lo que ninguno de esos casos explica.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una idea impopular no necesita convencer a nadie si espera al día en que nadie tenga fuerzas para discutirla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro empieza con unos experimentos psiquiátricos y ahí está su punto más fuerte y su punto más débil",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer capítulo no habla de economía. Habla de Ewen Cameron, psiquiatra escocés que dirigió el Instituto Allan Memorial de la Universidad McGill, en Montreal, en los años cincuenta y sesenta. Cameron sostenía que para curar a un paciente había que borrar primero su personalidad y reconstruirla desde cero, y aplicaba para ello electrochoques muy por encima de las dosis habituales, sueño inducido con fármacos durante semanas y mensajes grabados repetidos miles de veces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquello no era una consulta privada excéntrica. Parte de aquel trabajo lo financió la CIA a través del programa conocido como MKUltra, dentro de una investigación sobre interrogatorios y control de la conducta, y en 1963 la agencia publicó un manual, el KUBARK, que describe cómo la desorientación y la regresión hacen a un detenido más manejable. Nada de eso es una conjetura de Klein: está desclasificado, y los pacientes de Cameron llegaron a demandar y a cobrar indemnizaciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El salto que da el libro a partir de ahí es lo que hay que mirar con atención. Klein propone que lo que se hizo con aquellos pacientes es lo mismo que se hace con un país en crisis: aturdirlo para reescribirlo. Como imagen es potentísima y explica el éxito del libro. Como argumento no demuestra nada, porque una analogía entre un cerebro y una sociedad no establece ninguna relación causal entre las dos cosas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene por eso separar las dos capas, y el resto del resumen las separa. Por un lado están los hechos documentados de cada país: qué se aprobó, qué día, quién lo firmó y quién estaba detenido en ese momento. Por otro, la interpretación que los une. Lo primero es comprobable y en buena parte no lo discute nadie. Lo segundo es la tesis, y ahí están las objeciones serias.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una metáfora que explica bien un libro entero suele ser lo que menos hay que creerse de él.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En Chile el programa económico estaba escrito antes del golpe" },
+      {
+        b: "texto",
+        texto:
+          "En 1956 la Universidad de Chicago y la Universidad Católica de Chile firmaron un acuerdo, financiado con dinero público estadounidense y de la Fundación Ford, para enviar a economistas chilenos a doctorarse en Chicago. Pasaron por allí unos cien entre 1957 y 1970. Volvieron a Santiago con una formación homogénea y sin ninguna influencia en un país que votaba mayoritariamente a la izquierda. Se les llamó los Chicago Boys.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante 1972 y 1973 ese grupo redactó un programa económico completo de unas quinientas páginas, conocido después como «El Ladrillo» por su grosor. Cuando el 11 de septiembre de 1973 los militares bombardearon el palacio de La Moneda y Salvador Allende murió dentro, el plan estaba terminado y circulando entre los mandos. Klein subraya la coincidencia de fechas y es real; que el plan se escribiera pensando en un golpe es una interpretación suya.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Milton Friedman viajó a Santiago en marzo de 1975. Estuvo seis días, dio conferencias y se reunió cuarenta y cinco minutos con Augusto Pinochet. Al volver le escribió una carta recomendando lo que él mismo llamó un tratamiento de shock: recortar el gasto público un veinticinco por ciento en seis meses y abrir el comercio, todo a la vez, porque el gradualismo, decía, alargaría el sufrimiento sin evitarlo. Aquel abril el Gobierno anunció un plan casi idéntico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los resultados inmediatos están medidos. La producción industrial se hundió y el desempleo, que rondaba el tres por ciento en 1973, superó el veinte a finales de los setenta y alcanzó cerca del treinta en 1982 contando los programas de empleo de emergencia. Los salarios reales tardaron más de una década en recuperar el nivel anterior al golpe. Y la oposición sindical que habría discutido todo eso estaba ilegalizada, detenida o muerta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El plan económico chileno no se improvisó tras el golpe: estaba escrito, y lo que el golpe aportó fue que no hubiera nadie que pudiera discutirlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En 1982 fueron los propios Chicago Boys quienes tuvieron que nacionalizar la banca chilena",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esta parte casi nunca se cuenta y es la que más se necesita para juzgar el caso chileno. Entre 1979 y 1982 Chile fijó su moneda al dólar y liberalizó por completo el crédito exterior. Los grupos empresariales se endeudaron masivamente en dólares y compraron con ese dinero las empresas que el Estado privatizaba, a menudo muy por debajo de su valor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando los tipos de interés estadounidenses subieron y el dólar se disparó, aquello reventó. En 1982 el producto interior bruto chileno cayó alrededor de un catorce por ciento en un solo año, y el sistema financiero quedó insolvente. En enero de 1983 el Gobierno de Pinochet intervino la mayor parte de la banca del país y asumió sus deudas con dinero público. En Santiago se le llamó, con sorna, la vía chilena al socialismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un segundo dato que desmonta la versión simple en la dirección contraria a Klein y en la contraria a sus adversarios a la vez. Codelco, la empresa estatal del cobre, había sido nacionalizada por Allende en 1971 con el voto unánime del Congreso, y la dictadura no la privatizó nunca: en 1976 una ley reservada asignó a las Fuerzas Armadas el diez por ciento de sus ingresos por exportación. El pilar de las cuentas públicas del régimen fue la medida estrella de su enemigo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la conclusión honesta sobre Chile, que no le sirve a ninguno de los dos bandos. Lo que se aplicó allí no fue el manual de Chicago en estado puro, porque el Estado se quedó el cobre y rescató la banca; y el llamado milagro chileno empezó después de 1985, con una política más pragmática, y siguió con los gobiernos democráticos que desde 1990 mantuvieron parte del modelo y redujeron mucho la pobreza.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La economía chilena que se presenta como prueba del modelo se levantó sobre una banca rescatada por el Estado y una mina que el Estado nunca soltó.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En Argentina y en Bolivia el estado de excepción llegó con el programa económico dentro",
+      },
+      {
+        b: "texto",
+        texto:
+          "La junta militar argentina tomó el poder el 24 de marzo de 1976. Las organizaciones de derechos humanos cifran en treinta mil los desaparecidos durante los siete años siguientes; la comisión oficial que investigó los hechos, la CONADEP, documentó con nombre y apellidos algo menos de nueve mil casos, y esa distancia entre las dos cifras conviene decirla siempre. Klein aporta un dato del reparto: una proporción muy alta de los desaparecidos eran delegados sindicales de fábrica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es que aquella selección no fue casual, sino funcional: el programa económico del ministro José Alfredo Martínez de Hoz —apertura comercial, congelación salarial, desregulación financiera— necesitaba que no hubiera quien parara una fábrica. Es una interpretación, y es de las suyas mejor sostenidas, porque los datos de la propia comisión muestran que el grupo profesional más golpeado fue el de los obreros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bolivia da el caso más limpio porque no hubo dictadura. En 1985 el país sufría una hiperinflación superior al diez mil por ciento anual. El presidente Víctor Paz Estenssoro, elegido en las urnas, aprobó el 29 de agosto el decreto 21060, redactado en secreto por un pequeño equipo asesorado por el economista estadounidense Jeffrey Sachs: liberalización total de precios, devaluación, despidos masivos en la minería estatal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La inflación se detuvo en semanas, y eso hay que decirlo porque es el argumento más fuerte a favor del método. Lo que Klein añade es lo que vino con ello: cuando la central obrera convocó huelga general, el Gobierno declaró el estado de sitio, detuvo a los dirigentes sindicales y los trasladó a localidades remotas del Amazonas. La política que paró la hiperinflación se aplicó, en su momento decisivo, con la oposición encerrada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El caso boliviano es el más incómodo para los dos bandos: el remedio funcionó, y se aplicó con los sindicalistas confinados en la selva.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En Polonia el movimiento obrero ganó las elecciones y aplicó el programa contrario al suyo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Solidaridad era un sindicato de diez millones de afiliados nacido en los astilleros de Gdansk, y su programa económico defendía que las empresas pasaran a manos de sus trabajadores. En las elecciones parcialmente libres de junio de 1989 arrasó: obtuvo noventa y nueve de los cien escaños del Senado. Fue la primera vez que un régimen comunista europeo perdió unas urnas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aprobó su Gobierno el 1 de enero de 1990 no fue nada de aquello. Fue el plan del ministro de Finanzas Leszek Balcerowicz, asesorado también por Jeffrey Sachs: liberalización simultánea de precios, fin de las subvenciones, apertura comercial y privatización. Se aplicó entero y de golpe, y se le llamó terapia de choque en la prensa polaca sin que nadie protestara por el nombre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El coste de los primeros años está medido: la producción industrial cayó alrededor de una cuarta parte, y el paro, que oficialmente no existía, llegó al dieciséis por ciento en 1993. También está medido lo que vino después, y Klein le dedica mucho menos espacio: Polonia creció de forma sostenida durante las tres décadas siguientes hasta multiplicar su renta por habitante, y hoy es uno de los casos de convergencia más citados de Europa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí no hubo tanques ni detenidos, y por eso el caso obliga a afinar la tesis. Lo que Klein sostiene es que el shock fue la deuda y el desabastecimiento heredados, y que el nuevo Gobierno negociaba con acreedores que ponían condiciones. Sus críticos responden que en Polonia hubo elecciones libres cada cuatro años a partir de entonces y que los polacos tuvieron ocasiones de sobra de revertirlo y no lo hicieron.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando el mismo programa se aplica sin tanques y el país acaba prosperando, la tesis del aturdimiento tiene que explicar por qué nadie lo revirtió después.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En Rusia el reparto de la economía vino después de bombardear el Parlamento",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso ruso es el más grave del libro y el que menos discusión genera. En septiembre de 1993 Borís Yeltsin disolvió por decreto el Parlamento, que se negó a disolverse. El 4 de octubre el Ejército bombardeó con carros de combate el edificio del Sóviet Supremo en Moscú, con los diputados dentro; hubo cerca de ciento cincuenta muertos según las cifras oficiales. Después de aquello, Yeltsin gobernó por decreto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las privatizaciones grandes llegaron a continuación. En 1995 se puso en marcha el mecanismo llamado préstamos por acciones: un puñado de banqueros prestó dinero al Estado a cambio de quedarse en garantía paquetes de control de las mayores empresas de petróleo, níquel y metales. El Estado no devolvió los préstamos y las empresas quedaron en manos de los prestamistas, que las habían adquirido en subastas que ellos mismos organizaban. Así nacieron los oligarcas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El coste humano de aquella década está en las estadísticas del Banco Mundial y de la propia Rusia. El número de personas que vivían con menos de cuatro dólares al día pasó de unos dos millones en 1989 a setenta y cuatro millones en 1996. La esperanza de vida de los hombres rusos cayó de unos sesenta y cuatro años a principios de los noventa a unos cincuenta y siete en 1994, un desplome sin precedentes en un país en paz.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una consecuencia política que se ha confirmado mucho después. Aquella década asoció en la memoria rusa las palabras democracia, mercado y humillación, y dejó el terreno preparado para quien prometiera orden a cualquier precio. Vladímir Putin llegó al poder en 1999 con exactamente esa promesa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La década que debía convertir a Rusia en una democracia de mercado dejó a los rusos convencidos de que las dos palabras significaban ruina.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Sudáfrica ganó el poder político en 1994 y aceptó no tocar el económico",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es el capítulo que más incomoda a los lectores que simpatizan con Klein, porque el que sale mal parado no es una dictadura sino Nelson Mandela. La Carta de la Libertad, el documento fundacional del Congreso Nacional Africano aprobado en 1955, decía que la riqueza mineral del subsuelo, la banca y la industria pasarían a ser propiedad del pueblo. En 1994, al ganar las primeras elecciones con sufragio universal, nada de eso se aplicó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón está en la mesa de negociación paralela. Mientras se discutía en público el reparto del poder político, otro equipo negociaba las condiciones económicas de la transición, y allí se acordaron tres cosas decisivas: que el banco central sería independiente y quedaría fuera del alcance del Gobierno electo, que se respetaría la propiedad privada existente, y que Sudáfrica asumiría la deuda contraída por el régimen del apartheid, unos dieciocho mil millones de dólares.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esas tres cláusulas decidieron los treinta años siguientes. El nuevo Gobierno tenía que pagar una deuda enorme contraída por quienes lo habían encarcelado, no controlaba su política monetaria y no podía redistribuir la tierra ni las minas. En 1996 adoptó un programa llamado GEAR, de disciplina presupuestaria y apertura, que su propio partido no había llevado en ningún programa electoral.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los resultados son los que Sudáfrica arrastra hoy. El país tiene desde hace años uno de los mayores índices de desigualdad del mundo, un desempleo que ronda o supera el treinta por ciento y una distribución de la propiedad de la tierra que ha cambiado poco. Klein no dice que la negociación fuera una traición; dice que se negoció bajo una amenaza real de fuga de capitales y que se cambió poder económico por paz.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se puede ganar todo el poder político de un país y descubrir después que las decisiones que importaban se firmaron en otra sala.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Después de un tsunami y de un huracán se reconstruyó otra cosa distinta de lo que había",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 26 de diciembre de 2004 un tsunami mató a más de doscientas treinta mil personas en el océano Índico. En Sri Lanka, el Gobierno prohibió a continuación reconstruir viviendas a menos de cien o doscientos metros de la orilla, alegando seguridad. La prohibición vació de aldeas de pescadores una franja costera entera. En esa misma franja, y en muchos casos con permisos concedidos poco después, se autorizaron complejos hoteleros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La documentación de esto no es de Klein: hay informes de organizaciones locales y de agencias internacionales sobre las zonas de amortiguación y sobre las excepciones concedidas al sector turístico. Es el ejemplo más nítido de lo que ella llama capitalismo del desastre, porque no hace falta suponer intenciones ocultas: basta comparar quién no pudo volver a construir y quién sí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nueva Orleans da el caso paralelo y con firma. El huracán Katrina inundó la ciudad el 29 de agosto de 2005 y desplazó a cientos de miles de personas. En diciembre de aquel año, Milton Friedman publicó un artículo en el «Wall Street Journal» en el que escribía que aquello era una tragedia y también una oportunidad para rehacer radicalmente el sistema educativo de la ciudad sustituyendo las escuelas públicas por un sistema de cheques escolares.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurrió después coincide con la propuesta. El Estado de Luisiana asumió el control de la mayoría de las escuelas públicas de la ciudad, se despidió en 2006 a unos siete mil quinientos maestros y el convenio colectivo del sindicato de profesores expiró sin renovarse. Las escuelas se reabrieron como centros concertados de gestión privada, y con los años Nueva Orleans se convirtió en el primer distrito escolar de Estados Unidos sin ninguna escuela pública de gestión directa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Reconstruir nunca es devolver las cosas a su sitio: es decidir otra vez qué va en cada sitio, y esa decisión se toma cuando los afectados están fuera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Irak en 2003 fue el laboratorio más ambicioso, y fracasó" },
+      {
+        b: "texto",
+        texto:
+          "Tras la invasión de marzo de 2003, la administración estadounidense creó una autoridad provisional dirigida por Paul Bremer, que gobernó Irak por decreto durante catorce meses. Sus órdenes cambiaron la estructura económica del país de golpe. La orden 39, de septiembre de 2003, permitía la propiedad extranjera del cien por cien de cualquier empresa iraquí salvo en el petróleo, con repatriación total de beneficios. La orden 37 sustituyó el sistema fiscal por un impuesto único del quince por ciento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La decisión más consecuente fue anterior. La orden número 2, de mayo de 2003, disolvió el Ejército iraquí: unos cuatrocientos mil hombres armados y entrenados se quedaron sin sueldo y sin destino en cuestión de días. Junto con la depuración de todos los funcionarios afiliados al partido gobernante, aquello dejó al país sin administración y proporcionó a la insurgencia una reserva enorme de personal cualificado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Alrededor de todo aquello se montó un sistema de contratación privada sin precedentes. Empresas estadounidenses recibieron contratos de reconstrucción por miles de millones, muchos adjudicados sin concurso; la seguridad de los propios funcionarios se subcontrató a compañías privadas; y auditorías posteriores del inspector general para la reconstrucción cifraron en miles de millones el dinero que no se pudo justificar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí el propio caso se le vuelve en contra a la tesis, cosa que Klein no explora. Si la doctrina del shock fuera una estrategia eficaz para implantar un modelo económico, Irak tendría que haber salido como se planeó, y salió al revés: la ocupación no consiguió ni estabilidad ni una economía abierta, sino veinte años de conflicto. Un plan que fracasa cada vez que se aplica con toda la fuerza disponible es un plan malo antes que una conspiración eficaz.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Irak es a la vez el caso que mejor ilustra la tesis y el que peor la sostiene: se aplicó entera, sin resistencia posible, y no funcionó.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Existe un sector empresarial cuyo mercado son las catástrofes, y eso sí es nuevo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte final del libro es la que mejor ha aguantado, y no depende de la tesis general. Klein documenta que a partir de 2001 se consolidó en Estados Unidos una industria dedicada a la seguridad, la vigilancia y la gestión de emergencias, financiada con dinero público y operada por empresas privadas: desde el control de fronteras hasta los servicios de inteligencia, pasando por la logística militar y la respuesta a desastres naturales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle que da fuerza al argumento no es moral, es de contabilidad. Cuando la respuesta a una catástrofe está subcontratada, hay empresas cuyos ingresos suben cuando ocurre una catástrofe y bajan cuando no ocurre ninguna. Eso no las convierte en culpables de nada, pero crea un grupo de interés estable con incentivos para que el gasto en emergencias crezca y para que las capacidades públicas no se recuperen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso más conocido que cuenta es el de las compañías de seguridad privada en Irak, que llegaron a desplegar decenas de miles de contratistas armados con un estatuto jurídico confuso; uno de aquellos episodios, el tiroteo de la plaza Nisour en Bagdad en 2007, acabó con diecisiete civiles iraquíes muertos y con condenas penales años después. Klein señala que esa función, la fuerza armada, era hasta entonces la definición misma de lo que un Estado no subcontrata.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un efecto de segundo orden que se ha confirmado desde entonces: cuando la capacidad pública se vacía, la contratación privada deja de ser una opción y pasa a ser la única salida disponible. Un gobierno que ha desmantelado su propio cuerpo técnico no puede elegir hacerlo por su cuenta la próxima vez, aunque quiera. La decisión no se toma en la emergencia; se tomó años antes, al vaciar la capacidad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando la respuesta a los desastres se subcontrata, aparecen empresas cuyo peor año es un año sin desastres.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que un mismo paquete de políticas económicas se ha impuesto durante cincuenta años aprovechando momentos de conmoción, y lo apoya en diez casos con fechas, decretos y nombres. Se puede rechazar la tesis y salir sabiendo lo que pasó en Santiago en 1975 y en Moscú en 1993.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la pregunta, que antes de 2007 no se hacía en voz alta: quién estaba en condiciones de discutir una reforma el día que se aprobó. Vale para cualquier gobierno de cualquier signo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en la dirección causal, que es lo grave en un libro de tesis. Que las reformas lleguen en las crisis se explica sin conspiración: en una crisis se hace evidente que lo anterior no funcionaba, y el coste político de cambiar baja. Sus críticos añaden que la asociación entre mercado y dictadura no aguanta los contraejemplos: Nueva Zelanda en 1984 y Suecia en los noventa liberalizaron en democracia y sin shock, y algunas de las peores dictaduras del siglo fueron economías planificadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay dos objeciones más concretas. Trata a Friedman como arquitecto del régimen chileno a partir de una visita de seis días y una carta, cuando él criticó en público la falta de libertades y asesoró también a gobiernos comunistas. Y elige los tramos temporales que le convienen: cuenta el derrumbe polaco de 1990 con detalle y despacha en un párrafo las tres décadas de crecimiento posteriores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de 2007 el marcador va en los dos sentidos. La crisis de 2008 y la austeridad impuesta a Grecia desde 2010 encajan casi punto por punto con el libro. La pandemia de 2020 hizo lo contrario: el mayor shock global desde la guerra produjo gasto público masivo y transferencias directas. Y en noviembre de 2023 Argentina eligió a Javier Milei, que prometió una terapia de choque sin disimularlo y ganó con el cincuenta y seis por ciento de los votos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Léelo por los diez casos, que están documentados, y discútele la explicación que los une, que es lo único suyo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "doctrina-shock": DOCTRINA_SHOCK,
   "dinero-domina-juego": DINERO_DOMINA_JUEGO,
   superpronosticadores: SUPERPRONOSTICADORES,
   "paseo-aleatorio": PASEO_ALEATORIO,
