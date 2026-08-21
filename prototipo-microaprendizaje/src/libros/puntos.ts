@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  freakonomics: [
+    "por qué una multa puede empeorar lo que castiga",
+    "cómo se detecta a un tramposo sin llegar a verlo",
+    "cuánto gana de verdad un vendedor de droga de calle",
+    "qué explica la caída del crimen en los años noventa",
+    "qué influye realmente en las notas de un niño",
+  ],
+
+  "los-miserables": [
+    "por qué su conversión no ocurre en la escena de los candelabros",
+    "cómo se llega paso a paso de un despido a la calle",
+    "por qué Javert no está escrito como un villano",
+    "qué revuelta es en realidad la de la barricada",
+    "qué hacen cien páginas sobre alcantarillas dentro de una novela",
+  ],
+
   "origen-especies": [
     "por qué el libro empieza hablando de palomas domésticas",
     "qué cálculo de elefantes demuestra la lucha por la existencia",

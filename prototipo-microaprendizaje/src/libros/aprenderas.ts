@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  freakonomics:
+    "Una multa de tres dólares por recoger tarde a los niños duplicó los retrasos en diez guarderías de Haifa. El libro reúne casos así para enseñar dos cosas: que la gente responde a incentivos y que casi ninguna creencia extendida se ha comprobado.",
+
+  "los-miserables":
+    "La condena de Jean Valjean por robar un pan fue de cinco años; los otros catorce se los añadieron por intentar fugarse. Hugo tardó diecisiete años en escribir este alegato de mil quinientas páginas sobre lo que la miseria produce.",
+
   "origen-especies":
     "Darwin tenía la teoría escrita desde 1844 y la guardó veinte años. La publicó en 1859 al recibir una carta con la misma idea, y la defendió empezando por las palomas de corral y enumerando él mismo sus puntos débiles.",
 

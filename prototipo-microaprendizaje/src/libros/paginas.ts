@@ -18601,7 +18601,471 @@ const ORIGEN_ESPECIES: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Los miserables, en ocho páginas.
+
+   Breve.
+
+   Registro NARRATIVO del apartado 3 bis: títulos cortos de imagen, la
+   afirmación en la primera frase, la caja del rayo en segunda persona.
+
+   Lo que casi nadie cuenta y aquí sí: los cinco años de condena original,
+   la moneda del niño saboyano, el origen de Javert, la fecha real de la
+   barricada, el chiste del ABC y el ensayo de las alcantarillas.
+   -------------------------------------------------------------------------- */
+
+const LOS_MISERABLES: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Diecisiete años y mil quinientas páginas" },
+      {
+        b: "texto",
+        texto:
+          "Los miserables no es una novela con un mensaje: es un alegato con una novela dentro. Hugo lo empezó en 1845, lo dejó a medias en 1851 cuando el golpe de Estado de Luis Napoleón lo mandó al exilio, y lo terminó diez años después en la isla de Guernsey. Diecisiete años en total, mil quinientas páginas y trescientos sesenta y cinco capítulos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El prefacio, que ocupa media página, dice para qué se escribió. Mientras existan por ley y por costumbre tres problemas —la degradación del hombre por el trabajo, la caída de la mujer por el hambre y la atrofia del niño por la falta de luz—, libros como este, escribe, no serán inútiles. Los tres problemas tienen después su personaje: Jean Valjean, Fantine y Cosette.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se publicó en 1862 en diez volúmenes y en varias ciudades a la vez, y fue un éxito inmediato de público mientras la crítica lo trataba mal. En Francia se formaron colas ante las librerías el día que salía cada entrega.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que sostiene: cuánto costaba de verdad un pan robado, por qué la conversión del protagonista no ocurre donde todo el mundo cree, cómo se llega paso a paso de un despido a la prostitución, por qué el policía que persigue no es el malo, qué revuelta es exactamente la de la barricada y qué hacen ahí dentro cien páginas sobre alcantarillas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si crees que este libro va de un hombre que roba un pan, te has quedado en el primer capítulo de cuarenta y ocho.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cinco años por un pan" },
+      {
+        b: "texto",
+        texto:
+          "La cifra que todo el mundo repite está mal, y la buena es mucho peor. A Jean Valjean no lo condenan a diecinueve años por robar un pan: lo condenan a cinco. Es podador, tiene a su cargo a una hermana viuda con siete hijos, es invierno y no hay trabajo. Rompe el cristal de una panadería. Cinco años de galeras en Tolón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los otros catorce se los añaden por intentar escaparse cuatro veces. O sea que la condena no la alarga el delito: la alarga la reacción a la condena. Hugo lo cuenta con una frialdad de expediente, sumando los años uno detrás de otro, porque quiere que el lector vea el mecanismo y no la injusticia aislada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y después viene el detalle que remata el capítulo. Cuando sale, en octubre de 1815, le dan el pasaporte amarillo de los presidiarios, que está obligado a enseñar en cada pueblo. Con ese papel en la mano no hay posada que lo admita ni patrón que lo contrate; hasta el carcelero de la prisión donde pide asilo le dice que para dormir allí tendría que haber hecho algo. El documento que certifica que ha cumplido su pena es exactamente lo que impide que la pena termine. El personaje tiene además un origen documentado. Hugo se inspiró en Eugène-François Vidocq, un presidiario fugado varias veces que acabó dirigiendo la policía de seguridad de París y montando la primera agencia de detectives del mundo. De él salen las dos mitades del libro: la escena en que Valjean levanta un carro con las manos para sacar a un hombre atrapado debajo se contaba de Vidocq, y su carrera de policía está repartida en Javert.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una condena no acaba el día que se cumple: acaba cuando dejas de tener que enseñarla, y eso puede no llegar nunca.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los candelabros y la moneda" },
+      {
+        b: "texto",
+        texto:
+          "Todo el mundo recuerda la escena de la plata y casi nadie recuerda la que viene inmediatamente después, que es la que de verdad cambia al personaje. Hugo dedica los primeros catorce capítulos del libro entero al obispo Myriel antes de que Valjean aparezca: un hombre que cambió su palacio por el hospital porque en el palacio cabían más camas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Valjean duerme en su casa, se lleva la plata de noche y los gendarmes lo traen de vuelta a la mañana siguiente. El obispo dice delante de ellos que se la había regalado, y le reprocha haberse olvidado los candelabros. Cuando se van, le explica en voz baja que con ese metal le ha comprado el alma y se la ha entregado al bien. Ahí acaba la escena famosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí empieza la otra. Esa misma tarde, sentado en un camino, Valjean ve pasar a un niño saboyano de unos diez años, Petit-Gervais, que juega con sus monedas. Se le escapa una de cuarenta sueldos y Valjean le pone el pie encima. El niño le pide que la levante, primero pidiendo y luego llorando, y él no la levanta. Cuando el chico se va corriendo, reacciona, sale a buscarlo por los caminos gritando su nombre y no lo encuentra nunca más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que lo transforma no es que lo perdonen. Es haber hecho algo que ya no tiene arreglo, un cuarto de hora después de que lo perdonaran.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cambiar no empieza cuando alguien te da otra oportunidad: empieza cuando descubres lo que hiciste con ella.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El pelo, los dientes y la calle" },
+      {
+        b: "texto",
+        texto:
+          "La historia de Fantine es la demostración del segundo problema del prefacio, y está escrita como una cuenta que va bajando. La despiden de la fábrica de Montreuil-sur-Mer por tener una hija sin marido; la fábrica es de Madeleine, que es Valjean con otro nombre, y él no se entera hasta que es tarde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Desde ahí, cada escalón lo provoca una carta. Los Thénardier, que tienen a Cosette a pensión, escriben pidiendo diez francos para una falda de lana, y Fantine se vende el pelo. Escriben pidiendo cuarenta para una fiebre miliar que la niña no ha tenido nunca, y se vende los dos incisivos de delante a un dentista ambulante. Escriben una tercera vez y ya no le queda nada que vender que no sea ella. Muere sin haber vuelto a ver a su hija.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hugo no la presenta como una víctima pasiva ni como un ejemplo moral: la presenta como el resultado de una aritmética. Y aprovecha para decir en qué consiste su tesis. Se suele creer que la esclavitud desapareció de Europa; sigue existiendo, escribe, solo que ahora se llama prostitución y no pesa sobre las mujeres en general, sino sobre las que no tienen ninguna otra cuenta que hacer. La escena de su detención Hugo la vio con sus ojos. En enero de 1841, en un bulevar de París, un señorito le metió un puñado de nieve por la espalda del vestido a una prostituta; ella se le echó encima y la policía se llevó detenida a ella. Hugo entró en la comisaría, declaró lo que había visto y consiguió que la soltaran. Lo escribió aquel mismo día, y veinte años después está en el libro casi igual.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien va vendiendo su cuerpo por partes, casi nunca hay una decisión: hay una carta que llega cada mes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un policía que no era el malo" },
+      {
+        b: "texto",
+        texto:
+          "Javert es el personaje que más se malinterpreta del libro, porque no está escrito como un villano sino como un creyente. Hugo le da un origen que lo explica entero: nació dentro de una cárcel, hijo de una echadora de cartas y de un galeote. Un hombre así, dice, o se pone del lado de los suyos o se pone del lado contrario con una devoción que nadie más tendría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su descripción cabe en dos sentimientos muy simples: respeto a la autoridad y odio a la rebelión. Para él la ley y la justicia son la misma cosa, y esa identidad no es hipocresía, es su fe. Persigue a Valjean durante décadas porque un hombre que ha quebrantado la ley y vive bien es una contradicción que le duele físicamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso su final no es una derrota, es un derrumbe. En la barricada, Valjean tiene la oportunidad de matarlo y lo deja marchar. Después, en las alcantarillas, es Javert quien tiene a Valjean y lo deja marchar a él. Se queda solo en el puente del Cambio, delante del Sena, y el capítulo se titula «Javert descarrilado». Ha descubierto que un presidiario puede ser mejor que la ley, y en el código no hay ningún artículo que le diga qué se hace con eso. Salta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El día que descubras que tu regla más firme se equivoca, lo difícil no será cambiarla: será seguir siendo alguien sin ella.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La barricada que nadie sitúa" },
+      {
+        b: "texto",
+        texto:
+          "La revuelta del libro no es la Revolución francesa, aunque casi todo el mundo lo crea. Es el levantamiento republicano del 5 y 6 de junio de 1832, que estalló durante el entierro del general Lamarque en un París con cólera y hambre, duró dos días y dejó unos ochocientos muertos y heridos. Fracasó por completo y hoy no lo recordaría nadie si no fuera por esta novela.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los estudiantes que la levantan se llaman los Amigos del ABC, y el nombre es un chiste que se pierde al traducirlo: en francés, decir las tres letras seguidas suena igual que *abaissé*, el rebajado. Son los amigos de los rebajados, y a la vez unos chicos que enseñan las primeras letras. Hugo los nombra uno a uno y los mata a casi todos en dos páginas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La muerte de Gavroche es la escena mejor construida del libro. El niño sale de la barricada con un cesto a recoger cartuchos de las cartucheras de los soldados muertos, mientras le disparan, y va cantando una canción que él mismo se inventa por estrofas. Hugo escribe la letra entera. La bala llega en mitad de un verso, y el verso se queda sin terminar en la página.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La causa perdida que hoy te suena heroica solo se recuerda porque alguien se sentó a escribirla; las demás fueron exactamente igual y no las sabes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cien páginas sobre alcantarillas" },
+      {
+        b: "texto",
+        texto:
+          "Una quinta parte del libro no cuenta ninguna historia, y ahí está lo que lo separa de cualquier otra novela del siglo. Hugo mete diecinueve capítulos sobre la batalla de Waterloo, un tratado sobre los conventos, un ensayo sobre el argot y otro sobre el alcantarillado de París, que visitó personalmente antes de escribirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No son adornos, y el de Waterloo lo demuestra. Después de sesenta páginas de estrategia militar, la digresión termina con un merodeador que roba a los muertos del campo de batalla y, al desvalijarlo, salva sin querer a un oficial. El merodeador es Thénardier y el oficial es el padre de Marius. Toda la trama posterior cuelga de esa casualidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El de las alcantarillas tiene además una tesis económica que suena moderna. París, escribe Hugo, tira cada año al mar por sus desagües un abono que vale una fortuna, y podría devolverlo a sus campos. El estiércol de las ciudades es oro y lo estamos echando al agua. Es el mismo argumento que hoy se llama economía circular, publicado en 1862 dentro de una novela sobre un presidiario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Saltarse esas páginas, que es lo que aconsejan casi todas las ediciones abreviadas, deja una novela más ágil y otro libro. Este no es una novela con ensayos intercalados: es un ensayo sobre Francia con una novela dentro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las partes de un libro que te dicen que te saltes suelen ser exactamente aquellas por las que se escribió.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Los miserables sostiene una sola cosa a lo largo de mil quinientas páginas: que la miseria fabrica delincuentes y que después la ley castiga lo que la sociedad ha producido. Lo demuestra con una condena que se multiplica por cuatro al intentar huir, con un despido que acaba en la calle y con un niño que muere recogiendo balas. Y añade que la redención personal existe, pero no arregla nada del sistema: Valjean se salva y Fantine no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El título ya contiene el argumento. En francés, *misérable* significa a la vez el pobre y el canalla, y las mil quinientas páginas van contra esa confusión de la propia lengua.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La sociedad condena a los que ha ido produciendo, y luego se sorprende del resultado como si viniera de fuera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Los personajes son tipos morales más que personas: Valjean es la bondad, Javert la ley, Thénardier el mal sin fisuras, y ninguno cambia de opinión sobre nada. Las casualidades son inverosímiles hasta la risa —un París de un millón de habitantes donde los seis protagonistas se cruzan sin parar—. Y Cosette, que da nombre a un tercio del libro, apenas tiene carácter propio: es un objeto de amor que se pasa de un hombre a otro, y hoy eso se nota mucho más que en 1862.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después. La crítica lo trató mal desde el principio: los Goncourt y Flaubert lo despreciaron, y Baudelaire lo elogió en la prensa y lo llamó inmundo en una carta privada a su madre. Se vendió igual. Y circula desde entonces una anécdota que conviene mirar dos veces: que Hugo escribió a su editor un telegrama con un signo de interrogación y recibió otro con uno de admiración. No hay prueba de que ocurriera, encaja demasiado bien y en 1862 aquellos telegramas se cobraban por palabra. Desde 1980, el musical de Boublil y Schönberg ha llevado la historia a más gente que el libro, con un efecto curioso: mucha de esa gente cree que la barricada es la de 1789.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   Freakonomics, en ocho páginas.
+
+   Breve.
+
+   Ensayo: titular que afirma, tercera persona. No es un libro práctico,
+   así que nada de «tú» en la prosa.
+
+   La conclusión lleva las dos correcciones que el propio libro se comió
+   después: el error de programación del capítulo del aborto y el episodio
+   de Stetson Kennedy. Sin eso, esto sería una contraportada.
+   -------------------------------------------------------------------------- */
+
+const FREAKONOMICS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un libro de economía que empieza diciendo que no tiene tema" },
+      {
+        b: "texto",
+        texto:
+          "Freakonomics nació de un reportaje. En 2003, Stephen Dubner, periodista del New York Times, fue a Chicago a hacerle un perfil a Steven Levitt, un economista de treinta y seis años que acababa de ganar la medalla John Bates Clark, el premio que se da cada dos años al mejor economista estadounidense menor de cuarenta. Levitt no estudiaba la inflación ni el paro: estudiaba trampas en los exámenes y bandas de crack.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro salió en 2005 y su introducción hace algo que no hace ningún otro: avisa de que no tiene una tesis. Los editores les pidieron un hilo conductor y ellos se negaron a inventarlo. Lo más parecido a una idea central son dos frases: que los incentivos gobiernan casi todo el comportamiento humano, y que la sabiduría convencional suele estar equivocada porque a nadie le ha convenido comprobarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su método es una sola cosa repetida: buscar un conjunto de datos que nadie había mirado y hacerle una pregunta rara. Setecientos mil exámenes de las escuelas de Chicago. Treinta y dos mil combates de sumo. El libro de cuentas de una banda de traficantes. Los nombres de todos los niños nacidos en California entre 1961 y 2000.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren esos casos y lo que demuestran: por qué una multa puede empeorar aquello que castiga, cómo se detecta a un tramposo sin verlo, qué ventaja tiene siempre el que sabe más que tú, cuánto gana de verdad un vendedor de droga, cuál es su explicación de la caída del crimen en los noventa y qué influye realmente en las notas de un niño.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La sabiduría convencional casi nunca se comprueba, porque comprobarla no le conviene a nadie que esté en condiciones de hacerlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una multa por llegar tarde hizo que llegaran más tarde" },
+      {
+        b: "texto",
+        texto:
+          "El experimento que abre el libro es una guardería, y su resultado es el que mejor resume el argumento entero. En 1998, los economistas Uri Gneezy y Aldo Rustichini estudiaron diez guarderías de Haifa con el mismo problema: padres que recogían a sus hijos después de la hora y dejaban a una educadora esperando. En algunas se impuso una multa de tres dólares por retraso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los retrasos se duplicaron. La multa no funcionó como castigo, funcionó como tarifa: por tres dólares, llegar veinte minutos tarde dejó de ser una faena a la profesora y pasó a ser un servicio contratado. Los padres que antes se sentían mal ahora se sentían en paz, y aparecieron más. Cuando pasadas unas semanas se retiró la multa, los retrasos no volvieron al nivel anterior: se quedaron altos. La sanción había borrado algo y no lo devolvió al quitarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la clasificación que el libro usa después en todos los capítulos. Hay incentivos económicos, que se pagan en dinero; sociales, que se pagan en lo que piensan los demás; y morales, que se pagan en lo que uno piensa de sí mismo. Los tres funcionan, pero no se suman: meter uno económico donde había uno moral suele expulsar al segundo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ponerle precio a una falta la convierte en un servicio, y un servicio se compra sin remordimiento.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hacer trampa deja una huella que se puede contar" },
+      {
+        b: "texto",
+        texto:
+          "En 1996, Chicago empezó a cerrar escuelas y a despedir directores según los resultados de un examen estandarizado. Levitt consiguió las hojas de respuestas de setecientos mil exámenes y buscó dos patrones: cadenas idénticas de respuestas en alumnos distintos de la misma clase, y bloques de preguntas difíciles acertadas al final del test, donde el cansancio debería producir lo contrario. Encontró señales de trampa en un cinco por ciento de las aulas, y las trampas eran de los maestros, no de los niños.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El distrito le hizo caso e hizo algo poco frecuente: volvió a examinar a las clases señaladas y a un grupo de control. Los resultados de las clases sospechosas se hundieron y los del grupo de control se mantuvieron. Una docena de maestros perdió su puesto. El detalle que Levitt subraya no es el fraude: es que los maestros empezaron a hacer trampas justo cuando el examen empezó a decidir sus carreras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mismo método aplicado al sumo dio el caso más limpio del libro. En un torneo, un luchador con siete victorias y siete derrotas se lo juega todo en el último combate; su rival con ocho victorias ya no se juega nada. La estadística previa dice que el primero debería ganar el 48,7 por ciento de esos combates. Gana el 79,6. Y en el siguiente torneo, cuando se vuelven a encontrar sin nada en juego, el que ganó pierde. Con treinta y dos mil combates analizados, eso no es suerte: es una devolución.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cualquiera que haga trampas a escala deja un patrón en los datos, y un patrón se puede ir a buscar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El experto sabe algo que tú no, y ahí está su ventaja" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre la información asimétrica es el más útil del libro para la vida corriente. Su ejemplo central son los agentes inmobiliarios. Levitt analizó cien mil ventas de casas en Chicago y comparó las de sus clientes con las de las casas propias del agente. Cuando venden la suya, la dejan diez días más en el mercado y sacan un tres por ciento más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo no es maldad, es aritmética. En una casa de trescientos mil dólares, esperar y sacar diez mil más significa para el propietario diez mil. Para el agente, cuya comisión es de un uno y medio por ciento después de repartirla, significa ciento cincuenta dólares por semanas de trabajo extra. Le sale mucho más a cuenta cerrar hoy y pasar a la siguiente. Su consejo es sincero y su interés no es el mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La misma estructura aparece en los seguros de vida, cuyos precios cayeron cuando internet permitió comparar; en las agencias de coches usados; y en las citas por internet, donde el libro documenta lo que la gente escribe sobre sí misma frente a lo que declara a Hacienda. Cuando desaparece la asimetría, desaparece el margen.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La ventaja de casi cualquier experto no está en lo que sabe: está en lo que sabe y tú no puedes comprobar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La banda de crack estaba montada como una franquicia" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo mejor documentado del libro no lo investigó Levitt. Sudhir Venkatesh, un estudiante de sociología, entró en 1989 en un bloque de viviendas sociales de Chicago con un cuestionario, la banda lo retuvo una noche y acabó pasando seis años con ellos. Un jefe le entregó cuatro años de libros de cuentas escritos a mano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las cifras desmontan la imagen entera. La banda tenía ciento veinte miembros con estructura de franquicia: pagaba una cuota a la organización central por el derecho a vender en su territorio y a usar la marca. El jefe local se llevaba unos ocho mil quinientos dólares al mes. Sus tres oficiales, alrededor de mil. Los cincuenta y tantos vendedores de calle cobraban tres dólares con treinta la hora, por debajo del salario mínimo, y muchos vivían con su madre porque con eso no se paga un alquiler.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el riesgo era el de una guerra. En los cuatro años de las cuentas, la probabilidad de morir de un miembro de a pie fue de uno entre cuatro. En el oficio civil más peligroso de Estados Unidos, la tala de árboles, muere uno de cada cinco mil trabajadores. Seguían allí por la misma razón por la que alguien trabaja de becario en una discográfica: el puesto de arriba se ve desde abajo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En una organización con forma de pirámide, la base cobra poco porque en realidad está comprando lotería.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La caída del crimen empezó veinte años antes de notarse" },
+      {
+        b: "texto",
+        texto:
+          "A principios de los noventa, todos los expertos de Estados Unidos anunciaban una ola de crimen juvenil sin precedentes. Ocurrió lo contrario: entre 1991 y 2001 los homicidios cayeron más de un cuarenta por ciento y el resto de delitos con ellos. Las explicaciones que se dieron entonces fueron la buena economía, las leyes de armas, el envejecimiento y las nuevas técnicas policiales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro las pasa por los datos y casi ninguna aguanta. La economía iba bien pero la relación entre paro y crimen violento es débil. Las leyes de control de armas no se aplicaron donde más cayó el crimen. Nueva York se llevó el mérito de su política policial, aunque la caída ya había empezado allí antes y ocurrió también en ciudades que no cambiaron nada. Sí aguantan dos factores medibles: más policías en la calle y muchísima más gente en la cárcel.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí ponen su explicación más discutida, publicada en 2001 por Levitt y John Donohue. En 1973, la sentencia Roe contra Wade legalizó el aborto en todo el país; cinco estados lo habían hecho tres años antes. La generación que habría nacido en los peores hogares fue mucho menos numerosa, y veinte años después esa generación no estaba en la edad de delinquir. Su prueba: en esos cinco estados el crimen empezó a bajar antes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La causa de un fenómeno social puede estar veinte años antes del fenómeno, donde nadie la busca porque nadie relaciona las dos cosas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que los padres son pesa más que lo que los padres hacen" },
+      {
+        b: "texto",
+        texto:
+          "El último argumento del libro es el que más incomoda, y sale de una base de datos del gobierno estadounidense que siguió a veinte mil niños desde la guardería. Cruzando ocho factores que sí correlacionan con las notas y ocho que no, el resultado tiene una forma clarísima.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Correlacionan: que los padres tengan estudios, que la familia tenga buena posición, que la madre tuviera treinta años o más al primer hijo, que se hable el idioma del país en casa y que haya muchos libros en la casa. No correlacionan: que la familia esté intacta, que se hayan mudado a un barrio mejor, que la madre dejara de trabajar, que lo lleven a museos, que le lean todos los días y que vea o no televisión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle de los libros es el que resume el capítulo. Tener libros en casa correlaciona con las notas; leerle al niño todos los días, no. O sea que los libros no funcionan como herramienta, funcionan como señal de qué clase de padres hay allí. Levitt y Dubner lo dicen sin suavizarlo: casi todo lo que la industria del consejo vende a los padres influye menos que lo que los padres ya eran antes de tener al niño. Y avisan de que esto es correlación y no receta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tener libros en casa influye en las notas; leérselos cada noche, no. Los libros no son la herramienta: son la señal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Freakonomics sostiene dos cosas y no pretende sostener más. La primera, que las personas responden a incentivos incluso cuando juran que no, y que quien diseña un incentivo suele provocar lo contrario de lo que quería. La segunda, que casi cualquier creencia extendida se puede comprobar si alguien encuentra los datos adecuados y se molesta en mirarlos con una pregunta rara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es el método, más que las conclusiones. Después de leerlo cuesta oír una explicación de un fenómeno social sin preguntar qué datos la sostienen y a quién le convenía no comprobarla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La moral dice cómo le gustaría a alguien que funcionara el mundo; la economía enseña cómo funciona de verdad. Es la frase con la que abren, y es su programa entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Al no tener tesis, el libro tampoco tiene freno: cada capítulo va donde le apetece y algunos se apoyan en un solo estudio. Además confunde a menudo al lector entre correlación y causa, sobre todo en el capítulo de los padres, aunque los autores avisen en una nota. Y su tono de listillo simpático envejece regular.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después importa más que ninguna crítica. En 2005, Christopher Foote y Christopher Goetz, de la Reserva Federal de Boston, revisaron el código del capítulo del aborto y encontraron un error de programación: faltaba un control estadístico y las cifras no estaban ajustadas por población. Corregidos los dos puntos, el efecto se desvanecía. Levitt admitió el error y sostuvo que con más años de datos el resultado se mantenía; el asunto sigue sin cerrarse. Y el episodio del Ku Klux Klan, donde el libro cuenta cómo un infiltrado, Stetson Kennedy, filtró las claves del Klan a un programa de radio de Supermán, resultó ser en buena parte exagerado por el propio Kennedy: lo destapó el historiador Ben Green en 2006 y Dubner y Levitt lo reconocieron por escrito. Que un libro sobre desmontar creencias se tragara esas dos es su mejor lección involuntaria.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  freakonomics: FREAKONOMICS,
+  "los-miserables": LOS_MISERABLES,
   "origen-especies": ORIGEN_ESPECIES,
   zaratustra: ZARATUSTRA,
   "si-esto-hombre": SI_ESTO_HOMBRE,

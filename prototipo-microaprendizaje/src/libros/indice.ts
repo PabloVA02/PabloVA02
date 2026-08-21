@@ -71,7 +71,6 @@ const CARGADORES: Record<string, Cargador> = {
   sisifo: () => import("./filosofia").then((m) => m.SISIFO),
 
   /* Economía */
-  freakonomics: () => import("./economia").then((m) => m.FREAKONOMICS),
   factfulness: () => import("./economia").then((m) => m.FACTFULNESS),
 
   /* Psicología */
@@ -109,7 +108,6 @@ const CARGADORES: Record<string, Cargador> = {
   rayuela: () => import("./literatura").then((m) => m.RAYUELA),
   "el-tunel": () => import("./literatura").then((m) => m.EL_TUNEL),
   "renglones-torcidos": () => import("./literatura").then((m) => m.RENGLONES_TORCIDOS),
-  "los-miserables": () => import("./literatura").then((m) => m.LOS_MISERABLES),
   "guerra-y-paz": () => import("./literatura").then((m) => m.GUERRA_Y_PAZ),
   "universo-cascara": () => import("./ciencia").then((m) => m.UNIVERSO_CASCARA),
   "vida-dali": () => import("./arte").then((m) => m.VIDA_DALI),
