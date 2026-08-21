@@ -58967,7 +58967,270 @@ const FUTBOL_CONTRA_ENEMIGO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Fiebre en las gradas, en ocho páginas.
+
+   Breve. Memoria personal → títulos cortos de imagen, la afirmación en la
+   primera frase y la caja del rayo en segunda persona (apartado 3 bis).
+
+   Riesgo principal: el libro son noventa capítulos encabezados por un
+   partido y en veintitrés años de resultados del Arsenal no hay ningún
+   argumento. El hilo es la tesis de Hornby —esto no es afición, es una
+   dependencia— y los partidos solo aparecen cuando prueban algo de eso.
+
+   Hillsborough se cuenta con las cifras exactas y sin lirismo.
+   -------------------------------------------------------------------------- */
+
+const FIEBRE_GRADAS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El sábado que empezó todo" },
+      {
+        b: "texto",
+        texto:
+          "El 14 de septiembre de 1968, un padre recién separado llevó a su hijo de once años a ver al Arsenal. Nick Hornby cuenta que aquel día no le gustó el fútbol: le gustó que hubiera un sitio al que ir con su padre donde ninguno de los dos tuviera que hablar de lo que había pasado en casa. El partido acabó uno a cero y fue aburridísimo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el mecanismo entero del libro. Los sábados alternos dejaron de ser el día en que un niño veía a su padre por obligación y pasaron a ser el día en que los dos iban a Highbury. El fútbol resolvió un problema doméstico que nadie sabía nombrar, y a cambio se quedó con todo lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Publicado en 1992, el libro está organizado como noventa capítulos cortos, cada uno encabezado por un partido y una fecha. No hay trama. Hay un hombre de treinta y cinco años repasando su vida por el único índice que le sirve, que es el calendario de su equipo, y descubriendo que ese índice explica más de él que cualquier otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hornby no escribe como hincha orgulloso. Escribe como alguien que examina una dependencia larga y trata de entender qué le dio y qué le quitó. Por eso el libro convenció a millones de lectores que no habían pisado un estadio: no va del Arsenal, va de por qué las personas necesitan algo a lo que pertenecer.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Aquello a lo que te enganchas de niño suele estar resolviendo un problema que no sabes nombrar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "No es amor, es una enfermedad" },
+      {
+        b: "texto",
+        texto:
+          "Hornby insiste en que ser hincha no es una afición: es una condición médica sin tratamiento. Un aficionado a la ópera elige cuándo va y qué escucha. Él no elige nada. No puede dejar de mirar el resultado, no puede irse antes de que acabe y no puede cambiar de equipo aunque el suyo lleve una década sin darle una sola tarde buena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su observación más citada: el estado natural del hincha es la decepción amarga. La cuenta es sencilla. En una liga de veinte equipos, diecinueve aficiones terminan la temporada sin ganar nada, y las que ganan pasan la mayor parte del año temiendo perder. El placer aparece en ráfagas de segundos y el resto es espera y malestar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que le fascina es que la cuenta no importa. Sabiendo todo eso, vuelve el sábado siguiente. Compara la sensación con la de las apuestas y con la del tabaco: la recompensa es escasa y aleatoria, y precisamente por eso el enganche es más fuerte que si llegara siempre. Un equipo que ganara todo cada año se volvería insoportable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro se toma en serio esa parte oscura sin dramatizarla. Cuenta broncas familiares por un partido, exámenes suspendidos, viajes de once horas para ver un empate a cero bajo la lluvia. No pide perdón por ello ni presume: lo pone encima de la mesa y deja que el lector reconozca su propia versión, que casi nunca es el fútbol.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una recompensa rara e imprevisible te engancha mucho más que una que llega siempre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Aburrido, aburrido Arsenal" },
+      {
+        b: "texto",
+        texto:
+          "El equipo que le tocó era, durante casi toda su vida, feo de ver. El Arsenal de los años setenta y ochenta ganaba uno a cero, defendía, aburría, y las gradas rivales lo cantaban con una tonadilla que se hizo célebre. Hornby dedica páginas enteras a defender el placer específico de ver ganar mal a los tuyos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está la diferencia entre el hincha y el espectador. El espectador quiere un buen partido; el hincha quiere los tres puntos y firma cualquier método para conseguirlos. Un cero a cero soporífero en el que tu portero salva tres veces produce una satisfacción que un partido brillante perdido por tres a cuatro no dará jamás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso le lleva a una confesión incómoda que casi ningún libro de fútbol hace. Reconoce haberse alegrado de lesiones rivales, haber deseado el despido de entrenadores decentes y haber odiado a jugadores de su propio equipo por motivos que no resisten un minuto de examen. La lealtad no le vuelve a uno mejor persona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El único momento verdaderamente hermoso de veintitrés años, cuenta, cabe en unos pocos segundos repartidos por dos décadas. Y aun así compensa, porque la unidad de medida de un hincha no es la calidad media del espectáculo sino la intensidad de los tres o cuatro instantes que recordará hasta que se muera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando algo te importa de verdad, dejas de juzgarlo por su calidad y lo juzgas por lo que te hace sentir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Todo lo demás cabía dentro" },
+      {
+        b: "texto",
+        texto:
+          "La parte más honesta del libro es la que cuenta lo que el fútbol se comió. Hornby describe años en los que organizó el trabajo, las vacaciones, las bodas ajenas y hasta las relaciones alrededor del calendario del Arsenal, y periodos de depresión en los que ir al estadio era literalmente lo único que le hacía salir de casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo cuenta sin coartada. No dice que el fútbol le salvara la vida ni que fuera una metáfora de nada. Dice que le dio una estructura —cada dos sábados, siempre el mismo sitio, siempre la misma gente— cuando no tenía ninguna otra, y que una estructura prestada es mejor que ninguna y peor que una propia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una escena que resume el problema. Una novia le pregunta por qué está de mal humor un domingo entero y él no sabe explicarle que un resultado del sábado puede estropear siete días sin que haya nada personal en juego. Es una pregunta que no tiene respuesta razonable, y Hornby no intenta darla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro tuvo tanto éxito porque muchísimos lectores reconocieron ese reparto de la vida. La obsesión no era la suya, pero la mecánica sí: algo que empieza siendo un refugio, ocupa el hueco de las cosas difíciles y acaba pareciendo una identidad completa cuando en realidad solo es una costumbre muy larga.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un refugio que dura demasiado deja de protegerte y empieza a decidir por ti.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las jaulas" },
+      {
+        b: "texto",
+        texto:
+          "El fútbol inglés de los años ochenta trataba a sus espectadores como a ganado peligroso, y Hornby estuvo dentro. Describe gradas de pie sin numerar donde se entraba a empujones, avalanchas rutinarias, orina por el suelo, y vallas de tres metros con pinchos instaladas para impedir que la gente saltara al campo. Nadie consideraba que aquello fuera un problema de seguridad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En apenas cuatro años llegaron las tres catástrofes. En mayo de 1985 ardió una tribuna de madera en Bradford y murieron cincuenta y seis personas. Ese mismo mes, en Heysel, se derrumbó un muro durante una carga de hinchas y murieron treinta y nueve. En abril de 1989, en Hillsborough, una avalancha contra las vallas mató a noventa y seis, y años después a una más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hornby escribe sobre Hillsborough con una frialdad deliberada, porque el país entero pasó una década contándolo mal. La prensa culpó a los hinchas, la policía sostuvo esa versión y la verdad tardó casi treinta años en imponerse en los tribunales. Lo que él aporta es lo que sabía cualquiera que fuese al fútbol: que aquello podía ocurrir cualquier sábado y en cualquier campo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El Informe Taylor de 1990 obligó a quitar las vallas y a poner asientos en todos los estadios grandes. El fútbol dejó de matar a su público y, de paso, dejó de ser barato. El libro se escribió justo en esa bisagra, y esa es la razón de que se lea hoy como un documento y no solo como una memoria.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando algo te resulta normal desde niño, tardas años en ver que era intolerable.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "26 de mayo de 1989" },
+      {
+        b: "texto",
+        texto:
+          "El clímax del libro es un partido que ningún guionista se habría atrevido a escribir. El Arsenal llegaba a la última jornada teniendo que ganar en Anfield al Liverpool por dos goles de diferencia para arrebatarle el título. Nadie ganaba allí por dos goles. Hornby lo vio en la televisión de su casa porque no era capaz de estar en el estadio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primero llegó en la segunda parte. El segundo, en el último minuto del descuento del último partido de la temporada: Michael Thomas entró solo, controló y marcó cuando ya no quedaba tiempo para nada más. Es probablemente el final de liga más improbable que se ha jugado en Inglaterra, y le ocurrió al hombre que llevaba veintiún años esperando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace grande el capítulo no es el gol, sino lo que Hornby escribe después. Cuenta que corrió por la calle, abrazó a desconocidos y se sintió, por unos minutos, exactamente como había imaginado a los once años. Y cuenta también que a la mañana siguiente estaba igual de solo, con el mismo trabajo y los mismos problemas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí cierra su argumento sobre la dependencia. Lo que espera un hincha durante veinte años sí llega alguna vez, y cuando llega es tan bueno como prometía. Lo que nunca hace es arreglar nada de lo que estaba usando el fútbol para no mirar. Dura una noche, y el lunes las cosas siguen donde estaban.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que llevas años esperando puede cumplirse entero y aun así no arreglar nada de tu vida.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La gente del mismo asiento" },
+      {
+        b: "texto",
+        texto:
+          "Lo que el fútbol le dio con más claridad fue una comunidad que no tuvo que ganarse. Hornby describe a los desconocidos de su fila, a los que vio envejecer durante veinte años sin saber su apellido ni a qué se dedicaban, y con los que compartió más momentos de emoción física que con casi cualquiera de sus amigos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También cuenta la parte que esa comunidad tiene de mentira. Él era un chico de clase media, universitario, hijo de un ejecutivo, y durante años cultivó una idea romántica de estar mezclado con la clase obrera de la que en realidad no formaba parte. En la grada nadie preguntaba, pero al salir cada uno volvía a su vida, y no eran la misma vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y está lo que no se puede maquillar. Las mismas gradas coreaban insultos racistas a jugadores negros, incluidos los propios, y a las mujeres se les hacía saber de mil maneras que aquel no era su sitio. Hornby no lo esconde ni lo justifica: reconoce haber callado, que es lo que hacía la inmensa mayoría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El balance que hace es deliberadamente incómodo. Pertenecer a algo grande sienta bien, y el precio de pertenecer es aceptar sin protestar bastantes cosas que a solas uno no aceptaría. No propone ninguna salida. Solo deja escrito, con nombres y fechas, cuál fue el precio en su caso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pertenecer a un grupo siempre te cobra algo, y casi siempre te lo cobra en silencios.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Fiebre en las gradas sostiene que la afición al fútbol no es una afición sino una dependencia, y lo demuestra con el único material que le sirve: veintitrés años de su propia vida contados partido a partido. La conclusión no es que el fútbol sea malo. Es que un hombre puede dejar que algo ajeno a él le organice la biografía entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un tono que no existía. Hasta 1992, escribir de fútbol era crónica o hagiografía; Hornby escribió de fútbol como se escribe de una relación difícil, con humor, con vergüenza y con datos personales que dejan mal al autor. Inventó el libro de deporte en primera persona y lo hizo tan bien que su fórmula se copia todavía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla por estrechez. Es un mundo de hombres blancos ingleses y todo lo demás queda fuera: las mujeres aparecen como novias que no entienden, y el fútbol femenino, que en Inglaterra ya existía, no se menciona. Además convierte una obsesión en objeto literario sin plantearse nunca si merecía la pena tenerla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y tiene un efecto secundario que se le ha reprochado mucho. El libro hizo respetable el fútbol para las clases medias británicas justo cuando nacía la Premier League, en ese mismo 1992, y ayudó a vender como cultura lo que en pocos años sería el producto más caro de la televisión europea. Hornby lo ha admitido a medias en entrevistas posteriores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ganó el premio al mejor libro deportivo del año en 1992, vendió millones de ejemplares y se llevó dos veces al cine, la segunda en Estados Unidos cambiando el Arsenal por un equipo de béisbol. Su autor dejó de dar clases y se convirtió en novelista, y todos sus libros posteriores tratan, de una manera u otra, de hombres que se refugian en una obsesión.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Contar bien una obsesión propia la vuelve simpática, y eso no la convierte en buena idea.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "fiebre-gradas": FIEBRE_GRADAS,
   "futbol-contra-enemigo": FUTBOL_CONTRA_ENEMIGO,
   "futbol-sol-sombra": FUTBOL_SOL_SOMBRA,
   "piramide-invertida": PIRAMIDE_INVERTIDA,

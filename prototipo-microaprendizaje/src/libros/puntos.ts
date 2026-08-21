@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "fiebre-gradas": [
+    "por qué el estado natural del hincha es la decepción",
+    "qué le dio el fútbol a un niño con padres separados",
+    "cómo eran las gradas inglesas antes de Hillsborough",
+    "qué pasó en Anfield el 26 de mayo de 1989",
+    "qué precio se paga por pertenecer a algo grande",
+  ],
+
   "futbol-contra-enemigo": [
     "por qué Holanda celebró la victoria de 1988 como una liberación",
     "qué hacía el Camp Nou bajo la dictadura de Franco",

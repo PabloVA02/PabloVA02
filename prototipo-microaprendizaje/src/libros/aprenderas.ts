@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "fiebre-gradas":
+    "Hornby repasa su vida por el único calendario que le sirve, el de su equipo. Noventa capítulos cortos, cada uno con su partido y su fecha, para sostener que ser hincha no es una afición sino un enganche.",
+
   "futbol-contra-enemigo":
     "Kuper viajó por veintidós países preguntando qué se discute en cada uno cuando se discute de fútbol. La respuesta es siempre otra cosa: una ocupación, una lengua prohibida, un dictador, un ministerio.",
 
