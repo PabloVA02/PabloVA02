@@ -56320,7 +56320,302 @@ const VAN_GOGH_CARTAS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Las vidas, en ocho páginas.
+
+   Breve.
+
+   DECISIÓN DE REGISTRO, razonada: es una colección de biografías y el
+   apartado 3 bis pediría titular corto de imagen, pero lo que hay que
+   resumir no son las vidas sino lo que ese libro HIZO —inventar la historia
+   del arte, inventar el Renacimiento y fijar un canon con sesgo—. Eso es
+   argumento, así que van titulares de afirmación entera y tercera persona.
+
+   LA TRAMPA es resumirlo con sus anécdotas, que son buenísimas y que es lo
+   que hace todo el mundo. Las anécdotas van, en una sola página y con la
+   advertencia de cuáles están comprobadas y cuáles no; el resto del resumen
+   cuenta lo que el libro cambió.
+
+   Y se emparejó a propósito con «Historia del arte sin hombres»: el canon
+   que aquel libro discute lo montó este, y conviene que se lean seguidos.
+   -------------------------------------------------------------------------- */
+
+const VIDAS_VASARI: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La historia del arte como disciplina empezó con un libro de 1550 escrito por un pintor mediano",
+      },
+      {
+        b: "texto",
+        texto:
+          "Giorgio Vasari era un pintor y arquitecto de Arezzo, competente y no genial, que trabajaba para los Médici en Florencia. En 1550 publicó las biografías de unos ciento sesenta artistas italianos, desde finales del siglo XIII hasta su propia época, y en 1568 sacó una segunda edición muy ampliada, con retratos grabados y con los artistas vivos incluidos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Antes de ese libro no existía nada parecido. Había tratados sobre cómo pintar, contratos, inventarios y elogios sueltos, y no había una obra que reuniera a los artistas, ordenara sus vidas, atribuyera obras concretas a cada uno, describiera cómo trabajaban y juzgara quién era mejor y por qué. Vasari inventó ese género en un solo volumen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y no inventó solo el género: inventó el mapa. La división de la pintura europea en épocas, la idea de que hubo una decadencia medieval y un renacimiento, la palabra gótico como insulto y la lista de los nombres que hay que conocer salen de estas páginas y siguen organizando cualquier museo del mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene además saber qué clase de fuente es, porque el libro se ha usado durante siglos como si fuera un archivo. Vasari conoció personalmente a muchos de los artistas vivos de los que escribe, entrevistó a discípulos y familiares de los muertos y consultó documentos; y a la vez adornó, repitió chismes y colocó anécdotas donde le convenían para el retrato. Es una fuente de primer orden que hay que comprobar dato a dato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: el esquema de las tres edades y lo que impuso, por qué llamó gótico a lo anterior, cómo convirtió a unos artesanos en artistas, qué hay de cierto en sus anécdotas famosas, en qué consiste su sesgo florentino, y qué pasó cuando el protagonista de su mejor biografía leyó lo que había escrito de él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El mapa mental con el que casi todo el mundo recorre un museo lo dibujó un pintor florentino de segunda fila en 1550, y no se ha cambiado desde entonces.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dividió el arte en tres edades y con eso inventó el Renacimiento" },
+      {
+        b: "texto",
+        texto:
+          "El libro no es una sucesión de biografías sueltas: está montado sobre una tesis. Vasari sostiene que el arte, después de haber alcanzado la perfección en la Antigüedad, se hundió con la caída de Roma y quedó sepultado durante siglos, hasta que en la Toscana, a finales del siglo XIII, empezó a renacer. Usa esa palabra, renacimiento, y de ella viene el nombre de una época entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Reparte el proceso en tres edades, como las de una persona. La primera es la infancia, con Cimabue y sobre todo Giotto, que según él fue el primero en pintar figuras que parecían vivas en lugar de repetir esquemas heredados. La segunda es la juventud, el siglo XV, con Masaccio, Brunelleschi, Donatello y la conquista de la perspectiva. La tercera es la madurez perfecta: Leonardo, Rafael y Miguel Ángel.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese esquema tiene dos consecuencias que duran hasta hoy. La primera es que convierte la historia del arte en un progreso hacia una meta, con lo cual todo lo anterior es preparación y todo lo posterior corre el riesgo de ser decadencia. Vasari escribe con la convicción de que la perfección ya se ha alcanzado y de que él tuvo la suerte de verla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es que fija dónde ocurrió: en Florencia. El renacimiento de Vasari nace en Toscana, madura en Toscana y culmina en un florentino. Cualquier historia posterior del arte europeo ha tenido que discutir con ese planteamiento o aceptarlo, y durante cuatro siglos casi todas lo aceptaron.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Contar una historia como un progreso hacia una cumbre obliga a que todo lo anterior sea preparación y todo lo posterior, decadencia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La palabra gótico la puso él, y la puso como insulto" },
+      {
+        b: "texto",
+        texto:
+          "Cuando Vasari tiene que nombrar la arquitectura medieval que había en toda Europa —las catedrales de arco apuntado, las bóvedas de crucería, los pináculos—, no la llama por ningún nombre técnico: la llama la manera de los godos. Es decir, la de los pueblos bárbaros que destruyeron Roma. La escoge deliberadamente y explica que aquello es monstruoso y confuso comparado con el orden antiguo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese juicio no era una excentricidad suya: era la posición de la cultura italiana de su siglo, que se veía a sí misma restaurando la civilización romana después de un largo paréntesis. Lo que hizo Vasari fue darle un nombre y meterlo en un libro que se leyó en toda Europa durante trescientos años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado es una de las inversiones de gusto más completas que se conocen. Hasta bien entrado el siglo XVIII, gótico significó en Europa tosco y bárbaro; a partir del romanticismo la valoración se dio la vuelta por completo y aquellas catedrales pasaron a ser el arte espiritual europeo por excelencia, hasta el punto de que en el siglo XIX se construyeron cientos de edificios imitándolas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle de método que conviene retener de este capítulo. Vasari no despreciaba aquellas catedrales por ignorancia: las había visto y sabía lo que costaba levantarlas. Las despreciaba porque medía todo el arte con una vara única, la de la Antigüedad romana, y cualquier cosa que no se pareciera a eso quedaba fuera por definición. Los juicios más seguros suelen venir de tener una sola vara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palabra, sin embargo, se quedó. Hoy se usa sin ninguna carga negativa para nombrar una arquitectura admirada, y casi nadie recuerda que es un insulto fosilizado. Es un buen recordatorio de que las etiquetas con las que ordenamos el pasado las puso alguien, con una intención, en una fecha concreta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El nombre con el que hoy admiramos las catedrales medievales lo puso quien las despreciaba: las etiquetas del pasado las eligió alguien y con una intención.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Antes de este libro un pintor era un artesano; después fue un artista",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la Italia del siglo XV, un pintor pertenecía a un gremio, en Florencia al de los médicos y boticarios, porque compraba allí los pigmentos. Trabajaba por contrato, con el tema, el tamaño, los plazos y a veces la cantidad de oro y de azul ultramar especificados por escrito, y su nombre podía no aparecer en la obra. Era un proveedor cualificado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las vidas de Vasari hacen otra cosa con esa gente. Les dan infancia, carácter, rivalidades, manías, enfermedades y muerte; explican en qué es distinto el modo de hacer de cada uno; y sostienen que esa diferencia es lo que da valor a la obra. La palabra que emplea para eso es «maniera», la manera personal de cada cual, y de ahí viene todo el vocabulario posterior sobre el estilo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso aparece una figura nueva: el artista como individuo cuyo don explica su obra, y cuya biografía interesa. Vasari llega a hablar del talento como algo casi milagroso, y en varias vidas describe a sus protagonistas como elegidos por el cielo para restaurar el arte. Es el nacimiento del genio como categoría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene ver la consecuencia, porque no es solo cultural. Si el valor de una obra depende de quién la hizo y no de su tamaño ni de sus materiales, entonces la firma se convierte en el dato económico decisivo. El mercado del arte tal como funciona hoy —donde el mismo cuadro vale una fortuna o casi nada según a quién se atribuya— empieza conceptualmente aquí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando el valor de una obra pasó a depender de quién la hizo, la firma dejó de ser un dato y se convirtió en el precio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi todas las anécdotas famosas sobre los artistas italianos salen de aquí, y no todas son ciertas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Vasari es la fuente de la mayor parte de las historias que cualquiera sabe sobre el Renacimiento. Que Cimabue descubrió a Giotto siendo un pastorcillo que dibujaba una oveja sobre una piedra. Que Giotto, cuando un enviado del papa le pidió una muestra de su trabajo, cogió un pincel y trazó a mano alzada un círculo perfecto de un solo golpe, y dijo que con eso bastaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "O que Paolo Uccello se quedaba trabajando de noche en sus estudios de perspectiva y, cuando su mujer lo llamaba a la cama, contestaba que qué cosa tan dulce era aquella perspectiva. O que Leonardo compraba pájaros enjaulados en el mercado para soltarlos. Son escenas memorables, contadas con oficio de narrador, y por eso llevan cinco siglos repitiéndose.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cuestión de cuánto hay de cierto tiene una respuesta matizada que conviene dar entera. Vasari no es un fabulador: consultó documentos, viajó, entrevistó a discípulos y familiares de los artistas muertos y conoció personalmente a muchos de los vivos, y buena parte de sus atribuciones y de sus fechas han resistido cinco siglos de comprobación archivística.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y a la vez adornaba, repetía chismes de taller y contaba anécdotas que le venían bien al retrato moral que estaba haciendo. Hay errores demostrados: sostiene, por ejemplo, que la pintura al óleo la inventó el flamenco Jan van Eyck, cosa que es falsa. La regla práctica es que se le puede creer en lo verificable y hay que tomar cada anécdota como lo que es: literatura útil.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No es un mentiroso ni una fuente segura: es un autor que comprobó lo comprobable y adornó lo demás, y hay que leerlo sabiendo cuál es cuál.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Su sesgo florentino decidió el canon europeo durante cuatro siglos" },
+      {
+        b: "texto",
+        texto:
+          "Vasari era toscano, trabajaba para el duque de Florencia y escribió un libro cuya tesis es que el arte moderno nació y se perfeccionó en su ciudad. Ese sesgo no es una sospecha de lectores posteriores: recorre el libro entero y él ni siquiera lo disimula, porque en su época defender la primacía artística de una ciudad era un asunto político.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El valor que coloca por encima de todos es el dibujo, el «disegno», entendido como la capacidad de concebir y construir una figura, y considera que es el fundamento de las tres artes. Frente a eso, la pintura veneciana —que trabajaba primero el color y construía la forma con la mancha— le parece brillante y mal cimentada, un placer para los ojos que no llega al fondo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las consecuencias son visibles en el reparto de páginas. Tiziano, el pintor vivo más famoso de Europa cuando salió la segunda edición, no tenía biografía en 1550 y en 1568 recibió una con elogios y con reservas constantes sobre su falta de dibujo. Los pintores de Siena, de Lombardía y del norte de Europa aparecen de pasada, y la pintura flamenca la conoce mal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese reparto se convirtió en el canon. Durante cuatro siglos, la historia del arte europeo se enseñó como una carrera que ganaba Florencia, y la reivindicación de Venecia, de Siena o de los primitivos flamencos llegó bastante después. Un libro escrito para defender a una ciudad acabó decidiendo qué cuadros cuelgan hoy en las salas principales de los museos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro escrito para defender el prestigio de una ciudad acabó decidiendo qué obras cuelgan cinco siglos después en las salas principales.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Miguel Ángel leyó su propia biografía y encargó otra para corregirla",
+      },
+      {
+        b: "texto",
+        texto:
+          "La vida más larga del libro es la de Miguel Ángel, y es la única de un artista vivo que incluyó en la edición de 1550. Vasari lo conocía, se carteaba con él y lo trataba como la culminación de todo el proceso que su libro narra: el punto en el que la escultura, la pintura y la arquitectura alcanzan a la vez la perfección.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Miguel Ángel la leyó, tenía setenta y cinco años y no le gustó del todo. Consideraba que había errores y que ciertos episodios de su juventud no estaban contados como él quería, y en 1553, tres años después, su ayudante y discípulo Ascanio Condivi publicó otra biografía suya, mucho más breve, escrita con su colaboración directa y su versión de los hechos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es probablemente el primer caso documentado de un biografiado que responde a su biografía publicando otra. Y tuvo efecto: cuando Vasari preparó la edición de 1568, tres años después de la muerte de Miguel Ángel, reescribió aquella vida incorporando buena parte de las correcciones de Condivi, con lo cual la versión que se lee hoy contiene ya la respuesta del interesado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese episodio dice mucho de lo que era este libro para sus contemporáneos. No lo leían como una obra de erudición sino como el registro oficial de quién había hecho qué, y salir bien o mal en él tenía consecuencias en los encargos y en el prestigio. Un artista podía discutir su entrada como hoy se discute una reseña.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El primer biografiado que respondió publicando otra biografía lo hizo en 1553, y consiguió que la versión definitiva incorporara sus correcciones.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro reúne unas ciento sesenta vidas de artistas italianos y las ordena según una tesis: que el arte se hundió con Roma y renació en Toscana hasta alcanzar la perfección con Miguel Ángel. Con esa operación creó la historia del arte como disciplina, el concepto de Renacimiento, la palabra gótico y la figura misma del artista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta hoy, además de su valor documental, es que se lee bien. Vasari escribe con oficio de narrador, tiene ojo para el detalle y para la manía, y sus vidas se pueden leer sueltas como relatos. Es de los pocos libros del siglo XVI que un lector actual puede abrir por cualquier página sin preparación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en el sesgo y en la fiabilidad, y las dos cosas van juntas. Su Florencia gana siempre, Venecia y el norte pierden siempre, y todo lo anterior a Giotto es barbarie por definición. Sus anécdotas se han repetido durante siglos como si fueran documentos, y algunas son invención o rumor de taller. Y hay una ausencia que se nota más ahora: en ciento sesenta vidas hay apenas un puñado de mujeres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también por su esquema, que es el que más ha condicionado. Contar el arte como un progreso que culmina en una cumbre obliga a que lo que venga después sea decadencia, y esa forma de pensar ha estorbado a todas las generaciones posteriores que tuvieron que explicar por qué el arte siguió cambiando cuando la perfección ya se había alcanzado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y su influencia no se quedó en el papel. Vasari fundó en 1563, con el duque de Florencia, la primera academia de arte de Europa, con la que la formación dejó de ser un aprendizaje de taller y pasó a ser una enseñanza reglada; y construyó el edificio de los Uffizi, pensado como oficinas del gobierno y convertido después en museo. El mismo hombre escribió el canon, fundó la escuela y levantó el edificio donde se exponen.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El mismo hombre escribió el canon del arte europeo, fundó la primera academia y construyó el edificio donde se exponen las obras que canonizó.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "vidas-vasari": VIDAS_VASARI,
   "van-gogh-cartas": VAN_GOGH_CARTAS,
   "arte-sin-hombres": ARTE_SIN_HOMBRES,
   imperiofobia: IMPERIOFOBIA,

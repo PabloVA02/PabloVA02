@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "vidas-vasari":
+    "En 1550, un pintor florentino de segunda fila reunió las biografías de unos ciento sesenta artistas italianos. Con ese libro inventó la historia del arte, la palabra Renacimiento y la idea misma de artista.",
+
   "van-gogh-cartas":
     "Van Gogh decidió ser pintor a los veintisiete años y murió a los treinta y siete. En esa década escribió a su hermano más de seiscientas cartas explicando qué pintaba, por qué y con qué dinero.",
 

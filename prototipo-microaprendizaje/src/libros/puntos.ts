@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "vidas-vasari": [
+    "el esquema de tres edades con el que ordenó el arte europeo",
+    "por qué llamó gótico a lo medieval y con qué intención",
+    "qué cambió cuando un pintor dejó de ser un artesano",
+    "cuáles de sus anécdotas famosas están comprobadas",
+    "qué hizo Miguel Ángel al leer su propia biografía",
+  ],
+
   "van-gogh-cartas": [
     "en qué cuatro oficios fracasó antes de coger un pincel",
     "de qué vivió durante los diez años que duró su carrera",

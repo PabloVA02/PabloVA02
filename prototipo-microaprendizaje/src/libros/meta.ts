@@ -24,22 +24,6 @@ export type FichaMeta = {
 
 export const META: FichaMeta[] = [
   {
-    id: "vidas-vasari",
-    titulo: "Las vidas de los más excelentes pintores, escultores y arquitectos",
-    autor: "Giorgio Vasari",
-    ano: 1550,
-    gancho: "Casi todo lo que crees saber sobre los artistas del Renacimiento lo escribió un pintor de Arezzo que conocía a la mitad de ellos.",
-    porQue: "Es el primer libro de historia del arte que se escribió, y sigue siendo la fuente de casi todas las anécdotas que circulan sobre Giotto, Leonardo o Miguel Ángel. También es donde nacieron algunos de los errores que todavía repetimos.",
-    minutos: 23.8,
-    capitulos: [
-      { titulo: "Una cena en casa del cardenal", minutos: 4.8 },
-      { titulo: "El niño que dibujaba ovejas", minutos: 4.8 },
-      { titulo: "Las puertas del Paraíso", minutos: 4.7 },
-      { titulo: "El funeral de San Lorenzo", minutos: 4.8 },
-      { titulo: "El muro de la Sala de los Quinientos", minutos: 4.7 },
-    ],
-  },
-  {
     id: "espiritual-arte",
     titulo: "De lo espiritual en el arte",
     autor: "Vasili Kandinsky",
