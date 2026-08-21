@@ -136,22 +136,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "existencialismo-humanismo",
-    titulo: "El existencialismo es un humanismo",
-    autor: "Jean-Paul Sartre",
-    ano: 1946,
-    gancho: "El texto filosófico más leído del siglo XX es la transcripción de una conferencia que su autor dio sin notas, en una sala donde la gente se desmayaba, y de cuya publicación se arrepintió el resto de su vida.",
-    porQue: "Porque de aquí salen las tres frases que todo el mundo cita sobre la libertad. Y porque leerlo entero enseña algo que las frases sueltas ocultan: que no es una filosofía permisiva, sino la más exigente que hay en el estante.",
-    minutos: 25.5,
-    capitulos: [
-      { titulo: "Una sala rota en la rue Jean-Goujon", minutos: 5 },
-      { titulo: "Un cortapapeles y un Dios que no está", minutos: 5.1 },
-      { titulo: "El chico que no sabía si irse a Londres", minutos: 5.1 },
-      { titulo: "La carta que le mandó Heidegger", minutos: 5.1 },
-      { titulo: "Lo que Sartre dejó de creer", minutos: 5.2 },
-    ],
-  },
-  {
     id: "ensayos-montaigne",
     titulo: "Ensayos",
     autor: "Michel de Montaigne",

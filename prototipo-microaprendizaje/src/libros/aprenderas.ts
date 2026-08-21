@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "existencialismo-humanismo":
+    "El 29 de octubre de 1945, en una sala de París donde se rompieron sillas y hubo gente desmayada, Sartre defendió durante una hora una filosofía que dos bandos atacaban a la vez. El texto se publicó al año siguiente.",
+
   "mas-alla-bien-mal":
     "Nietzsche lo pagó de su bolsillo en 1886 y vendió ciento catorce ejemplares el primer año. Empieza con una pregunta que nadie hacía: por qué preferimos la verdad y no la mentira, si nadie lo ha demostrado nunca.",
 

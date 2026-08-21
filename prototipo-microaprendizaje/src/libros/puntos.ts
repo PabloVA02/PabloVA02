@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "existencialismo-humanismo": [
+    "qué significa que la existencia preceda a la esencia",
+    "por qué elegir por uno mismo sería elegir por todos",
+    "en qué sentido estamos condenados a ser libres",
+    "el caso del estudiante que ninguna doctrina resolvía",
+    "por qué su propio autor se arrepintió de haberlo publicado",
+  ],
+
   "mas-alla-bien-mal": [
     "por qué toda filosofía sería una confesión involuntaria",
     "qué le objeta al «pienso, luego existo» de Descartes",

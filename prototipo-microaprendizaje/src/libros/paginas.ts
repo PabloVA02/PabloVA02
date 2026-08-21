@@ -52494,7 +52494,291 @@ const MAS_ALLA_BIEN_MAL: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El existencialismo es un humanismo, en ocho páginas.
+
+   Breve, y no admite discusión: es una conferencia de una hora, publicada
+   tal cual. Estirarla sería rellenar.
+
+   Ensayo → afirmación entera y tercera persona.
+
+   El «después» de este libro es de los mejores del apartado 4 bis, porque
+   lo firma su propio autor: Sartre se arrepintió del texto, se negó durante
+   años a reeditarlo y dijo en una entrevista de 1975 que lo lamentaba. A
+   eso se suma que Heidegger le contestó por escrito en 1947 diciendo que lo
+   había leído mal, y que la ética que esta conferencia promete la escribió
+   Simone de Beauvoir al año siguiente porque él nunca la publicó.
+
+   La página del estudiante es la que sostiene el resumen entero: es el
+   mejor ejemplo que existe de un dilema en el que ninguna doctrina decide.
+   -------------------------------------------------------------------------- */
+
+const EXISTENCIALISMO_HUMANISMO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una hora de conferencia en 1945 convirtió una filosofía técnica en un fenómeno de masas",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 29 de octubre de 1945, en una sala de París, Jean-Paul Sartre dio una conferencia ante un público que desbordó el local: se rompieron sillas, hubo gente desmayada por la falta de aire y quienes no pudieron entrar se quedaron en la calle. Habló poco más de una hora, sin papeles. Tenía cuarenta años y Francia llevaba un año liberada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No iba a exponer su filosofía sino a defenderla de dos ataques simultáneos. Los comunistas decían que el existencialismo era una invitación al quietismo, una contemplación burguesa que desmovilizaba; y los católicos, que negaba la solidaridad humana, que se recreaba en lo sórdido y que dejaba al hombre sin fundamento. La conferencia responde a los dos, en ese orden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El texto se publicó al año siguiente y se convirtió en el libro por el que millones de personas conocen el existencialismo, para desgracia de su autor. Dos años antes había publicado «El ser y la nada», setecientas páginas de filosofía técnica que casi nadie había leído; esta hora de charla lo hizo célebre y lo simplificó de una manera de la que después se arrepintió por escrito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren seis cosas: la fórmula que resume todo el sistema, por qué produce angustia, qué significa estar desamparado, el caso del estudiante que fue a pedirle consejo, por qué nadie es más que la suma de lo que ha hecho, y en qué sentido llama humanismo a todo esto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La filosofía más influyente del siglo XX en la calle no se transmitió por un tratado, sino por una hora de conferencia que su autor acabó lamentando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En el hombre, la existencia precede a la esencia" },
+      {
+        b: "texto",
+        texto:
+          "La fórmula es de Sartre y él la explica con un objeto pequeño. Un cortapapeles lo fabrica un artesano que sabe de antemano qué es y para qué sirve: existe primero el concepto y después la cosa. Nadie fabricaría un cortapapeles sin saber qué es un cortapapeles. En un objeto hecho por alguien, la esencia precede a la existencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante siglos se pensó al ser humano igual, con Dios en el papel de artesano: un creador que tenía en la cabeza el concepto de hombre y después lo fabricó, de modo que cada persona nace con una naturaleza que la define y que le indica para qué está. Sartre observa que incluso los filósofos ateos del siglo XVIII conservaron esa naturaleza humana después de quitar a Dios, lo cual es incoherente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que si no hay artesano, no hay concepto previo. El hombre empieza por existir, se encuentra, surge en el mundo, y solo después se define. Al principio no es nada; será después, y será lo que él se haga. No hay naturaleza humana porque no hay nadie que la haya concebido, y por lo tanto no existe ninguna respuesta previa a la pregunta de para qué sirve una persona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la consecuencia práctica del libro entero, y es incómoda en las dos direcciones. No se puede alegar que uno es así, ni que tiene mal carácter, ni que no vale para eso: no hay un ser previo que justifique nada. Y tampoco se puede alegar lo contrario, que uno vale mucho aunque no lo demuestre, porque tampoco hay nada ahí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hay ninguna respuesta previa a la pregunta de para qué sirves, porque no hay nadie que te fabricara pensando en algo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Al elegir por uno mismo se está eligiendo por todos, y eso produce angustia",
+      },
+      {
+        b: "texto",
+        texto:
+          "Del punto anterior Sartre saca un paso que es el más discutible de la conferencia y que él da sin apenas argumentarlo. Cuando alguien elige, dice, no elige solo para sí: al escoger, crea una imagen del hombre tal como considera que debe ser, y elegirse a sí mismo así es afirmar el valor de lo que escoge. Al elegirme, elijo al hombre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que pone es el de casarse y tener hijos: aunque la decisión parezca privadísima, quien la toma está comprometiendo con ella a la humanidad entera en la práctica de la monogamia. Cada acto, por pequeño que sea, funciona como una propuesta sobre cómo debería vivirse. De ahí viene la responsabilidad total que él atribuye a cualquier decisión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La angustia es la conciencia de eso. No es miedo ni ansiedad: es lo que siente quien sabe que no puede escudarse en ninguna instancia. Sartre usa la figura de Abraham, al que un ángel ordena sacrificar a su hijo: aunque el ángel fuera real, alguien tiene que decidir que aquello es un ángel y que se dirige a él, y esa decisión es suya y de nadie más. Ninguna orden se recibe sin que alguien la reconozca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aclara enseguida algo que la palabra angustia hace olvidar: no paraliza. Un oficial que ordena un ataque sabiendo que va a costar vidas siente exactamente eso, y ordena el ataque igual. La angustia acompaña a la acción de quien se sabe responsable; los que no la sienten, dice, se están escondiendo de sí mismos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ninguna orden llega sin que alguien decida que es una orden y que va dirigida a él: esa decisión siempre es tuya, y por eso no hay dónde esconderse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Estamos condenados a ser libres, y la palabra condenados va en serio",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda palabra clave es desamparo, y describe la situación de quien tiene que decidir sin ningún manual. Sartre parte de la frase que atribuye a Dostoievski —si Dios no existiera, todo estaría permitido— y dice que ese es exactamente el punto de partida del existencialismo, no su conclusión temida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se sigue de ahí no es que valga todo, sino algo más incómodo: que no hay valores escritos en ninguna parte a los que agarrarse. No existe un cielo inteligible donde consultar el bien, no hay excusas detrás y no hay justificaciones delante. Cada uno está solo frente a lo que hace y sin nada que lo respalde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la fórmula más citada de la conferencia: el hombre está condenado a ser libre. Condenado, explica, porque no se ha creado a sí mismo y no eligió estar aquí; y libre porque, una vez arrojado al mundo, es responsable de todo lo que hace. La libertad no es un premio que se conquista: es una carga que no se puede devolver.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ni siquiera la pasión sirve de coartada, y ese es su golpe al sentido común. Quien dice que actuó arrastrado por un sentimiento incontrolable está eligiendo tratar ese sentimiento como incontrolable; el existencialista, dice, no cree en la fuerza de la pasión, y sostiene que el hombre es responsable también de sus pasiones. No hay signos en el mundo que indiquen el camino, y quien los ve es porque ha decidido interpretarlos así.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Decir que te arrastró un sentimiento es ya una decisión: has elegido tratarlo como algo que no se podía controlar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El estudiante que tenía que elegir entre su madre y la guerra" },
+      {
+        b: "texto",
+        texto:
+          "La mejor página de la conferencia es un caso real. Durante la ocupación, un alumno suyo fue a pedirle consejo. Su hermano mayor había muerto en la ofensiva alemana de 1940 y él quería vengarlo alistándose en las fuerzas francesas libres, en Inglaterra. Vivía solo con su madre, desolada por la muerte del primer hijo y a medias separada de un padre que colaboraba con los alemanes. Él era su único consuelo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las dos opciones eran incomparables. Quedarse tenía un efecto seguro y limitado: mantener viva a una persona concreta. Irse tenía un efecto inmenso y completamente incierto: podía acabar de oficinista en un despacho de Londres o muerto en un tren camino de España, y nada garantizaba que sirviera de algo. Una acción segura y pequeña frente a una incierta y grande.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sartre repasa las doctrinas disponibles y ninguna decide. La moral cristiana dice amar al prójimo, sacrificarse por los demás: ¿por qué prójimo, por su madre o por sus compatriotas? La moral de Kant prohíbe tratar a nadie como un medio y solo como un fin: si se queda, trata a los combatientes como medios; si se va, trata a su madre como medio. Los principios son demasiado amplios para casos así, que es cuando hacen falta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que le contestó, y es el corazón del libro, fue que era libre, que eligiera, es decir, que inventara. Y añade un detalle que remata el argumento: elegir a quién se pide consejo ya es elegir, porque uno sabe aproximadamente qué le va a decir cada persona. Aquel chico fue a ver a un profesor de la resistencia; si hubiera querido quedarse, habría ido a ver a un sacerdote.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Elegir a quién le pides consejo ya es haber elegido: sabes de sobra qué te va a decir cada uno antes de llamarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nadie es más que la suma de lo que ha hecho" },
+      {
+        b: "texto",
+        texto:
+          "La tercera palabra de la conferencia es desesperación, y significa algo mucho más sobrio de lo que suena: limitarse a contar con lo que depende de la propia voluntad y no apoyarse en esperanzas ajenas. Sartre no dice que haya que desesperar; dice que hay que actuar sin garantías, porque contar con que otros harán su parte es contar con sus decisiones, que no están tomadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí viene su respuesta a la acusación de quietismo, y es la contraria de lo que se le imputaba. No hay más realidad que en la acción, y el hombre no es otra cosa que el conjunto de sus actos, nada más que su vida. Ninguna filosofía menos contemplativa que esa: no queda nada que valorar aparte de lo hecho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento se aplica a la excusa más extendida que existe. Mucha gente sostiene que valía para grandes cosas y que las circunstancias no le dejaron; que llevaba dentro una novela que no escribió, un amor que no vivió, un talento que no desarrolló. Sartre responde que no hay ningún genio guardado en ninguna parte: el genio de Proust es el conjunto de las obras de Proust, y el de Racine es la serie de sus tragedias, y fuera de eso no hay nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Reconoce que esa doctrina parece dura y contesta que solo se lo parece a quienes no han hecho su vida, porque les quita la única consolación que tenían. Lo llama optimismo severo: severo porque no admite atenuantes, y optimismo porque coloca el destino de cada uno en sus manos y no en su carácter, su clase, su infancia ni su suerte.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hay ningún talento guardado esperando su momento: hay obras hechas y obras no hechas, y fuera de ellas no queda nada que valorar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo llama humanismo, y no en el sentido en que suele usarse esa palabra",
+      },
+      {
+        b: "texto",
+        texto:
+          "La última parte contesta a la pregunta del título, y empieza rechazando el humanismo corriente. Sartre pone el ejemplo de un personaje de Cocteau que, sobrevolando montañas en avión, exclama que el hombre es asombroso; y objeta que eso es tomar los logros de unos cuantos como mérito propio, y que hacer del hombre un valor supremo lleva directamente al fascismo, que es exactamente lo que acababa de ocurrir en Europa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su humanismo es otra cosa y se define por dos rasgos. El primero es que el hombre está siempre fuera de sí mismo: existe proyectándose hacia lo que todavía no es, y solo existe en la medida en que se realiza. No hay un interior que valorar, hay una trayectoria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo es que no se llega solo. Sartre sostiene que en el momento en que alguien se piensa a sí mismo descubre al mismo tiempo a los demás, y que para obtener cualquier verdad sobre uno mismo hay que pasar por otro: uno no puede saber si es ingenioso, o cobarde, o cruel, sin que alguien se lo devuelva. La intimidad no es un cuarto cerrado, es un lugar de paso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso responde a la acusación de aislamiento y hace una distinción que conviene retener. Niega que exista una naturaleza humana y afirma que existe una condición humana universal: estar en el mundo, tener que trabajar, vivir entre otros y ser mortal. Eso no dice qué hay que hacer, y sí garantiza que un proyecto de vida ajeno, por raro que sea, se pueda entender desde el propio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No puedes saber si eres cobarde o generoso sin que alguien te lo devuelva: para llegar a una verdad sobre ti hace falta pasar por otro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La conferencia sostiene que no hay naturaleza humana, que cada uno se hace con lo que hace, que no existen valores escritos a los que acudir y que por eso toda decisión es enteramente propia y compromete a quien la toma. Y que eso, lejos de desmovilizar, es la posición menos cómoda que se puede sostener.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la claridad y el caso del estudiante. Ese ejemplo hace en dos páginas lo que muchos tratados no consiguen: demostrar que un principio moral, por bueno que sea, no decide por sí solo cuando dos deberes se enfrentan, y que la elección la hace alguien. Cualquiera que haya tenido delante dos obligaciones incompatibles lo reconoce.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en lo que promete y no da. Si cada uno inventa sus valores, no hay manera de preferir una elección a otra, y el propio Sartre introduce a mitad de camino un criterio de universalidad que se parece al de Kant sin explicar de dónde lo saca. Y su libertad total ignora el peso de las circunstancias: el hambre, la clase o una ocupación militar limitan lo elegible de un modo que la conferencia apenas menciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mejor comentario del libro lo hizo su autor. Sartre se negó durante años a que se reeditara, y en una entrevista de 1975 dijo que lamentaba haberlo publicado: había simplificado su filosofía para hacerla digerible y el resultado se convirtió en lo único que la gente conocía de ella. Prometió además un libro de moral que nunca publicó en vida; sus apuntes aparecieron después de morir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo demás también se corrigió alrededor. Martin Heidegger, al que la conferencia cita como existencialista, respondió en 1947 con una carta pública en la que sostenía que Sartre lo había leído al revés. Y la ética que aquí se promete la escribió Simone de Beauvoir al año siguiente, en un libro sobre la ambigüedad que sí se enfrenta al problema de cómo elegir entre libertades que chocan.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Es la mejor puerta de entrada al existencialismo y su autor la desautorizó: léela sabiendo que es un resumen de urgencia hecho para una sala llena.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "existencialismo-humanismo": EXISTENCIALISMO_HUMANISMO,
   "mas-alla-bien-mal": MAS_ALLA_BIEN_MAL,
   "contrato-social": CONTRATO_SOCIAL,
   "etica-nicomaco": ETICA_NICOMACO,
