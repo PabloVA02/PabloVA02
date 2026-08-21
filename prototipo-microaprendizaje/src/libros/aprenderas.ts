@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "once-anillos":
+    "El entrenador que más campeonatos ha ganado explica que su trabajo casi nunca fue táctico. Estructura clara, mucho menos ruido del habitual y reglas distintas para cada jugador difícil.",
+
   moneyball:
     "Los Atléticos de Oakland igualaron los resultados de los Yankees con un tercio del presupuesto. Lewis cuenta cómo se detecta que un sector entero lleva un siglo pagando por lo que no sirve.",
 

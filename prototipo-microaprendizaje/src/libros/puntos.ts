@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "once-anillos": [
+    "en qué consiste el sistema del triángulo y por qué funciona",
+    "cómo convenció a Jordan de que pasara el balón",
+    "por qué no pedía tiempo muerto cuando su equipo fallaba",
+    "cómo dirigía a los jugadores imposibles de dirigir",
+    "por qué mirar el marcador te hace jugar peor",
+  ],
+
   moneyball: [
     "por qué las eliminaciones son el recurso escaso del béisbol",
     "cómo elegían los ojeadores antes de que llegaran los datos",

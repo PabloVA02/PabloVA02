@@ -292,7 +292,7 @@ export const CATALOGO: Ficha[] = [
   { id: "open-agassi", titulo: "Open", autor: "Andre Agassi", ano: 2009, categoria: "Deportes", estado: "escrito" },
   { id: "rafa-mi-historia", titulo: "Rafa, mi historia", autor: "Rafael Nadal y John Carlin", ano: 2011, categoria: "Deportes", estado: "escrito" },
   { id: "moneyball", titulo: "Moneyball", autor: "Michael Lewis", ano: 2003, categoria: "Deportes", estado: "escrito" },
-  { id: "once-anillos", titulo: "Once anillos", autor: "Phil Jackson", ano: 2013, categoria: "Deportes", estado: "pendiente" },
+  { id: "once-anillos", titulo: "Once anillos", autor: "Phil Jackson", ano: 2013, categoria: "Deportes", estado: "escrito" },
   { id: "mamba-mentality", titulo: "Mamba Mentality", autor: "Kobe Bryant", ano: 2018, categoria: "Deportes", estado: "pendiente" },
   { id: "remando-un-hombre", titulo: "Remando como un solo hombre", autor: "Daniel James Brown", ano: 2013, categoria: "Deportes", estado: "pendiente" },
   { id: "rey-del-mundo", titulo: "Rey del mundo", autor: "David Remnick", ano: 1998, categoria: "Deportes", estado: "pendiente" },

@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "once-anillos": "Cómo se dirige a doce personas que se creen las mejores del mundo",
   moneyball: "Cómo un equipo pobre ganó a los ricos midiendo lo que nadie medía",
   "rafa-mi-historia": "El mejor partido de la historia contado desde dentro",
   "soy-zlatan": "Del barrio de bloques de Malmö al despacho de Guardiola",

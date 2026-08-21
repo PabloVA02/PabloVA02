@@ -60298,7 +60298,282 @@ const MONEYBALL: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Once anillos, en ocho páginas.
+
+   Breve. Libro de liderazgo en forma de memoria: rótulo con la afirmación
+   entera, como los ensayos, y caja del rayo en segunda persona, como los
+   prácticos (apartados 3 bis y 4.7).
+
+   Riesgo principal: la parte espiritual del libro es fácil de convertir en
+   incienso. Se cuenta lo que hacía —silencio, meditación, libros elegidos
+   uno a uno— y para qué le servía, sin adjetivos místicos.
+
+   Y la conclusión tiene que decir lo evidente: entrenó a Jordan, a Shaq y a
+   Kobe, y su método nunca se probó con una plantilla mediocre.
+   -------------------------------------------------------------------------- */
+
+const ONCE_ANILLOS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Once campeonatos no se ganan con jugadas, se ganan con personas" },
+      {
+        b: "texto",
+        texto:
+          "Phil Jackson ganó once campeonatos de la liga estadounidense de baloncesto como entrenador, seis con los Toros de Chicago y cinco con los Lakers de Los Ángeles, más otros dos que había ganado como jugador. Nadie ha ganado tantos, y el libro se propone explicar cómo, con la incomodidad de que el autor es también el protagonista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su respuesta desconcierta a quien espere pizarra. Jackson sostiene que la parte táctica de su trabajo era la menor, que sus equipos usaron siempre el mismo sistema ofensivo y que su verdadero oficio consistía en conseguir que doce hombres jóvenes, riquísimos y acostumbrados a ser los mejores de cualquier sitio renunciaran a lucirse durante ocho meses seguidos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para eso usó herramientas que en el deporte profesional estadounidense sonaban a broma: meditación en grupo antes de los entrenamientos, sesiones enteras en silencio, libros elegidos uno por uno para cada jugador según lo que le estuviera pasando, y rituales tomados del budismo zen y de los pueblos indígenas de las llanuras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro se publicó en 2013, dos años después de su retirada, y está escrito con la calma de quien ya no tiene que ganar nada. Cuenta las victorias, pero se detiene mucho más en las temporadas en que el vestuario estuvo a punto de romperse, que son las que explican el método.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si diriges a gente muy buena, tu trabajo casi nunca es técnico: es conseguir que se soporten.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El hijo de dos predicadores acabó buscando otra religión" },
+      {
+        b: "texto",
+        texto:
+          "Jackson se crió en Montana y Dakota del Norte, hijo de dos pastores pentecostales, en una casa donde no había televisión ni cine, no se bailaba y se esperaba que los hijos predicaran. De niño vivió pendiente de un juicio final que podía llegar cualquier tarde, y de adolescente empezó a no creerse nada de aquello.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que no se le quitó fue la costumbre. Necesitaba una disciplina, un ritual y un sentido, y los fue a buscar a otra parte: primero a la psicología, después al budismo zen, más tarde a las ceremonias de los pueblos lakota. El libro es bastante honesto sobre el mecanismo: cambió de creencias y conservó entera la estructura mental de un hijo de predicadores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su formación como jugador vino de Red Holzman, entrenador de los Knicks de Nueva York con los que ganó dos títulos en los años setenta. Holzman le enseñó dos cosas que repetiría toda su vida: mirar siempre el balón y no al hombre, y que un entrenador que grita todo el rato acaba siendo ruido de fondo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa mezcla explica su rareza en un oficio de sargentos. Traía la solemnidad de la iglesia de su infancia, la desconfianza hacia la autoridad de su generación y una fe muy práctica en que un grupo bien puesto rinde más que la suma de sus miembros. No inventó ninguna de las tres cosas: las juntó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Puedes dejar de creer en lo que te enseñaron y quedarte con la disciplina que te dejó dentro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un buen sistema da más libertad que la ausencia de sistema" },
+      {
+        b: "texto",
+        texto:
+          "Todos sus equipos jugaron con el mismo ataque, el triángulo, que no era invento suyo sino de su ayudante Tex Winter. No consiste en jugadas ensayadas: consiste en que los cinco jugadores se coloquen siempre formando unos triángulos determinados, de modo que quien recibe el balón tenga en todo momento dos o tres opciones a la vista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia es que decide el balón y no el banquillo. En un ataque normal, el entrenador pide una jugada y la defensa contraria sabe qué esperar; en el triángulo, la elección la hace el jugador que recibe, en función de lo que le den. No hay nada que anticipar, porque ni el propio equipo sabe qué va a pasar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Jackson defendía el sistema con un argumento que va más allá del baloncesto. La libertad total en un grupo produce parálisis y peleas: si nadie sabe dónde tiene que estar, todos van adonde está el balón. Una estructura clara y sencilla es justo lo que permite improvisar, porque quita de encima las decisiones que no aportan nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tenía un efecto secundario que a él le importaba tanto como el primero. Un ataque que reparte el balón obliga a todos a tocarlo y castiga al que se lo queda, así que el sistema hacía por sí solo el trabajo disciplinario que un entrenador tendría que hacer a gritos cada semana.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una estructura sencilla no te quita libertad: te la devuelve al ahorrarte las decisiones tontas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Su trabajo más difícil fue convencer al mejor del mundo de que pasara el balón",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando Jackson llegó a Chicago, Michael Jordan era el mejor jugador del planeta, anotaba más que nadie y su equipo no ganaba nada. El triángulo le pareció una tontería y lo dijo con una frase memorable: un sistema pensado para dar las mismas oportunidades a todos, lo cual, en un equipo con Jordan dentro, era exactamente el problema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La discusión duró meses y no se ganó con argumentos morales. Jackson le expuso una cuenta: anotando cuarenta puntos por partido había perdido siete años seguidos, y los rivales sabían que bastaba con doblar la marca sobre él en el último cuarto. Compartir no era generosidad: era la única manera de que dejaran de defenderle así.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Jordan cedió a medias y ganó seis campeonatos. En las finales de 1991 se dejó bloquear la salida y pasó el balón a John Paxson, un tirador discreto que decidió el título; en 1993 hizo lo mismo con otro compañero. El libro considera esos dos pases más importantes que cualquiera de sus canastas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Jackson saca de ahí una regla de dirección incómoda. Al mejor de tu equipo no le convences apelando al grupo, porque él ya sabe que puede hacerlo solo. Le convences enseñándole exactamente qué está perdiendo por hacerlo solo, con números y con partidos concretos, y aceptando que necesitará varios años para creérselo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Al mejor de tu equipo no lo mueve el discurso del grupo: lo mueve ver lo que está perdiendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un entrenador que lo controla todo se convierte en ruido de fondo" },
+      {
+        b: "texto",
+        texto:
+          "El método de Jackson consistía en intervenir mucho menos de lo que se espera de un entrenador. No pedía tiempo muerto cuando el equipo empezaba a jugar mal, y dejaba que la racha se alargara hasta que los propios jugadores tuvieran que arreglarla. Su argumento era que un grupo que resuelve una crisis solo la resuelve solo también en junio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También quitó ruido. Hacía entrenamientos enteros en silencio absoluto, sin una palabra ni un pitido, para que los jugadores tuvieran que mirarse; y sesiones de meditación breve antes de empezar, no como práctica religiosa sino como manera de bajar las pulsaciones a doce personas que llegaban del avión y del teléfono.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y personalizaba. A cada jugador le regalaba a lo largo de la temporada un libro elegido para él, según su carácter y su momento, y montaba los vídeos de análisis mezclando jugadas con escenas de películas para que el mensaje entrara por otro sitio. Muchos jugadores contaron después que era la primera vez que un entrenador les trataba como personas distintas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás hay una idea que se puede llevar a cualquier equipo de trabajo. La autoridad se gasta: cada instrucción que das tiene un coste, y quien da doscientas al día no consigue que se cumpla ninguna. Guardar el silencio como recurso es lo que hace que, cuando por fin hablas, alguien levante la cabeza.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cada instrucción que das gasta autoridad, así que guarda las palabras para cuando importen.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "A las personas difíciles se las dirige de una en una y con reglas distintas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los tres casos que más espacio ocupan en el libro son tres problemas de naturaleza distinta. Dennis Rodman era un jugador excepcional en defensa y un desastre en todo lo demás: desaparecía días enteros, se teñía, provocaba. Jackson decidió no aplicarle las normas del grupo y explicárselo al grupo, que es la parte que casi nadie se atreve a hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En Los Ángeles el conflicto fue entre dos estrellas. Shaquille O'Neal y Kobe Bryant se llevaban mal, competían por el mismo protagonismo y estuvieron a punto de reventar tres temporadas seguidas, en las que ganaron tres campeonatos. Jackson admite que nunca los reconcilió: se limitó a conseguir que se necesitaran mientras durase.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con Bryant la ruptura fue personal. En un libro anterior, escrito en caliente en 2004, Jackson le había llamado imposible de entrenar. Volvió al club un año después y tuvieron que trabajar juntos con aquello publicado, lo cual da lugar a las páginas más honestas del libro y a dos campeonatos más en 2009 y 2010.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lección que extrae es la que menos gusta en las empresas: tratar a todo el mundo igual es cómodo para el jefe y no funciona con la gente que rinde de verdad. Lo que hay que hacer es negociar reglas distintas con cada uno y decir en voz alta por qué, para que nadie tenga que adivinarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tratar a todos igual es cómodo para ti y casi nunca es lo que necesita tu equipo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Sus principios valen fuera del baloncesto y ninguno es agradable de aplicar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Jackson ordena su experiencia en once principios, uno por anillo, y la mayoría son incómodos precisamente porque van contra el instinto de cualquiera que dirija a un grupo. El primero es que el liderazgo se ejerce de dentro afuera: nadie sigue a quien no ha resuelto antes su propio desorden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Otros dos van juntos y son los más difíciles de sostener. Uno pide dejar que cada persona descubra su propio destino, aunque el camino sea peor que el que tú tenías previsto. El otro dice que ante la duda no hagas nada, que en un oficio donde se paga por intervenir es casi una herejía.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Aparca tu ego", texto: "el reconocimiento que te llevas tú es rendimiento que le quitas al grupo." },
+          { fuerte: "Ante la duda, no hagas nada", texto: "la mayoría de las intervenciones de un jefe empeoran una situación que se estaba arreglando sola." },
+          { fuerte: "Olvídate del anillo", texto: "quien juega pensando en el título juega peor que quien juega pensando en el partido." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "El último principio es el que da sentido a los otros diez: olvídate del anillo. Jackson sostiene que los equipos que ganan son los que dejan de pensar en ganar y se concentran en hacer bien lo que están haciendo esa tarde, y que su trabajo consistía en gran medida en apartarles el premio de la vista durante ocho meses.",
+      },
+      { b: "idea", texto: "Mirar el marcador todo el rato es la manera más segura de jugar peor." },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Once anillos sostiene que dirigir a gente con mucho talento es un problema de convivencia y no de táctica, y que se resuelve con una estructura clara, muchísimo menos ruido del habitual y reglas distintas para cada persona. Jackson lo cuenta a través de los once campeonatos que ganó en Chicago y en Los Ángeles, deteniéndose más en las crisis que en las victorias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta son ideas de dirección que se aplican en cualquier oficio y que casi nadie practica: guardar la autoridad para cuando haga falta, no intervenir mientras el equipo pueda resolverlo, convencer al mejor con números en vez de con sermones y aceptar en voz alta que a las personas difíciles se las trata de manera distinta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en lo que un lector escéptico ve enseguida: entrenó a Michael Jordan, a Scottie Pippen, a Shaquille O'Neal, a Kobe Bryant y a Pau Gasol. Su método no se probó nunca con una plantilla mediocre, y el propio libro no ofrece ni un solo caso en el que las mismas herramientas sacaran a un equipo del montón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También hay que leer con cuidado la parte espiritual. Jackson toma prestados rituales de tradiciones indígenas norteamericanas con una ligereza que hoy se discute bastante, y presenta como sabiduría antigua lo que a menudo es una intuición suya bien contada. Cuando explica qué hacía y para qué, es muy útil; cuando explica de dónde lo sacó, hay que descontar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de retirarse en 2011 aceptó dirigir a los Knicks de Nueva York desde el despacho, entre 2014 y 2017, y el resultado fue de los peores de la historia del club. El detalle importa: el mejor entrenador de vestuarios que ha existido fracasó en cuanto su trabajo dejó de consistir en estar dentro de uno.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ser buenísimo en una cosa no te dice absolutamente nada sobre la de al lado.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "once-anillos": ONCE_ANILLOS,
   moneyball: MONEYBALL,
   "rafa-mi-historia": RAFA_MI_HISTORIA,
   "soy-zlatan": SOY_ZLATAN,
