@@ -58,7 +58,6 @@ const CARGADORES: Record<string, Cargador> = {
   "mundo-demonios": () => import("./ciencia").then((m) => m.MUNDO_DEMONIOS),
 
   /* Salud */
-  "cuerpo-cuenta": () => import("./salud").then((m) => m.CUERPO_CUENTA),
   "digestion-cuestion": () => import("./salud").then((m) => m.DIGESTION),
   "nacidos-correr": () => import("./salud").then((m) => m.NACIDOS_CORRER),
   "dilema-omnivoro": () => import("./salud").then((m) => m.DILEMA_OMNIVORO),

@@ -19063,7 +19063,236 @@ const FREAKONOMICS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El cuerpo lleva la cuenta, en ocho páginas.
+
+   Breve.
+
+   Ensayo clínico: titular que afirma, TERCERA PERSONA. Es un libro sobre
+   gente con daño real, así que ni «tú puedes» ni tono de superación. Se
+   explica lo que la investigación muestra y se dan los tamaños de muestra,
+   que es lo que separa esto de un artículo de bienestar.
+   -------------------------------------------------------------------------- */
+
+const CUERPO_CUENTA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El estrés postraumático no existió como diagnóstico hasta 1980" },
+      {
+        b: "texto",
+        texto:
+          "En 1978, Bessel van der Kolk empezó a trabajar en el hospital de veteranos de Boston. Los hombres que atendía volvían de Vietnam sin dormir, con explosiones de rabia y con la sensación de seguir allí. Buscó el cuadro en el manual de diagnósticos y no estaba. Lo que existía se llamaba neurosis de guerra o fatiga de combate, y en muchos expedientes anteriores se había llamado cobardía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El trastorno de estrés postraumático entró en el manual estadounidense de psiquiatría en 1980, empujado por los veteranos y por sus terapeutas. La fecha importa porque explica el resto del libro: durante un siglo, la medicina trató los síntomas del trauma sin tener una categoría para su causa, y trató a esas personas de deprimidas, de alcohólicas o de trastornadas de la personalidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Van der Kolk publicó este libro en 2014 con treinta y cinco años de consulta y de laboratorio detrás. Su tesis cabe en una frase suya: el trauma no es la historia de lo que ocurrió hace tiempo, es la huella que ese acontecimiento dejó en el cerebro, en la mente y en el cuerpo, y esa huella sigue funcionando ahora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren lo que sostiene: qué hace exactamente el trauma en el sistema nervioso, qué pasa en el cerebro cuando alguien revive lo que le ocurrió, qué descubrió por accidente una clínica de obesidad de California, por qué contar lo sucedido no siempre cura, qué tratamientos tienen datos detrás y qué ocurre con los niños a los que nadie diagnostica bien.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Durante un siglo la medicina tuvo nombres para todos los síntomas del trauma y ninguno para el trauma.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El trauma no es un recuerdo: es un cuerpo que no ha salido de allí" },
+      {
+        b: "texto",
+        texto:
+          "La distinción central del libro es entre recordar y revivir. Una persona con un recuerdo malo sabe que aquello pasó y que pasó antes. Una persona traumatizada no tiene esa distancia: un olor, un tono de voz o una postura disparan la misma reacción física que tuvo entonces —el pulso, la tensión muscular, la respiración corta— sin que medie ninguna decisión ni, muchas veces, ninguna imagen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón está en cómo se reparte el trabajo dentro del cerebro. La amígdala, que van der Kolk llama el detector de humos, evalúa una amenaza en milisegundos y dispara la respuesta antes de que la corteza prefrontal, la torre de vigilancia, haya podido comprobar si hay fuego. En una persona traumatizada, ese detector queda calibrado demasiado bajo y la torre pierde autoridad sobre él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la consecuencia práctica de todo el libro. El sistema nervioso autónomo, que gobierna el pulso, la digestión y la respiración, queda atrapado entre dos estados: la alerta permanente o el apagón, esa desconexión en la que el paciente dice que se ve a sí mismo desde fuera. Ninguno de los dos se corrige razonando, porque ninguno de los dos se decidió razonando. Y explica por qué la voluntad no alcanza: ese sistema no responde a órdenes, responde a respiración, a movimiento y a ritmo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien no se siente seguro dentro de su propio cuerpo no se siente seguro en ninguna parte, y eso no se arregla explicándoselo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Al revivir el trauma se apaga la zona del cerebro que habla" },
+      {
+        b: "texto",
+        texto:
+          "En 1996, van der Kolk y Roger Pitman hicieron un experimento que se ha convertido en la imagen más citada del libro. Metieron a ocho personas con estrés postraumático en un escáner y les leyeron, grabado con su propia voz, el relato de lo que les había pasado. Mientras revivían la escena, midieron qué zonas se encendían y cuáles se apagaban.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se encendió el hemisferio derecho, el de las imágenes, las emociones y las sensaciones corporales, y en particular la ínsula y la amígdala. Y se apagó una zona concreta del izquierdo: el área de Broca, que es la que produce el lenguaje. Es la misma región que deja de funcionar en algunos ictus, y quien la pierde no puede poner en palabras lo que piensa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que saca es literal y no metafórica: el trauma deja a la gente sin habla. Explica por qué a un paciente le cuesta tanto contar lo que le ocurrió, por qué su relato sale desordenado o congelado, y por qué al preguntarle qué siente responde con un nudo, una piedra, un peso. Hay un nombre griego para eso: la alexitimia, de *a*, sin, y *léxis*, palabra. No es que no quieran hablar de ello; es que en ese estado la maquinaria de hablar está desconectada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que alguien no sepa contar lo que le pasó no significa que lo esté ocultando: puede significar que la zona que fabrica las palabras estaba apagada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El estudio más importante sobre trauma empezó en una clínica de obesidad",
+      },
+      {
+        b: "texto",
+        texto:
+          "A finales de los ochenta, Vincent Felitti dirigía un programa de pérdida de peso en Kaiser Permanente, en San Diego, con un resultado extraño: más de la mitad de los pacientes lo abandonaban, y lo abandonaban justo cuando estaban adelgazando bien. Felitti empezó a entrevistarlos uno a uno para averiguar por qué se iban en el mejor momento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La respuesta apareció al preguntar por la infancia. Una proporción enorme había sufrido abusos sexuales o maltrato, y el peso les funcionaba como protección: al adelgazar volvían a sentirse visibles y expuestos. De ahí salió el estudio de Experiencias Adversas en la Infancia, hecho con más de diecisiete mil adultos de clase media con seguro médico, gente que había ido a la consulta por un chequeo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los resultados cambiaron la salud pública. Dos tercios habían vivido al menos una experiencia adversa, y quienes acumulaban cuatro o más tenían casi cinco veces más depresión, doce veces más intentos de suicidio, siete veces más alcoholismo y cerca de cuatro veces más enfermedad pulmonar crónica. Con seis o más, la esperanza de vida se acortaba en unos veinte años. Y el efecto era escalonado: a más experiencias, más riesgo, sin excepción.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El mayor factor de riesgo de salud pública del país llevaba décadas dentro de las casas y no se preguntaba en ninguna consulta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Contar lo que pasó no basta, y a veces deja al paciente peor" },
+      {
+        b: "texto",
+        texto:
+          "El libro discute la creencia central de un siglo de psicoterapia: que poner el suceso en palabras lo desactiva. Van der Kolk sostiene que hablar es necesario y no suficiente, y que en algunos casos el relato repetido vuelve a disparar la misma reacción física sin cambiarla, con lo cual el paciente sale de la sesión peor de lo que entró.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación encaja con el escáner. Si al revivir la escena se apaga la zona del lenguaje y se enciende el sistema de alarma, pedirle a alguien que la reviva en voz alta es pedirle que trabaje con la herramienta que en ese momento está desconectada. Y hay un mecanismo peor documentado en las terapias de exposición mal aplicadas: el paciente se disocia durante la sesión, o sea, se ausenta, y entonces no se está exponiendo a nada, solo repitiendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su propuesta de orden. Primero hay que devolverle a la persona la sensación de calma dentro de su cuerpo —respiración, movimiento, ritmo, sueño—, y solo desde ahí tiene sentido la conversación. Lo llama trabajar de abajo arriba, empezando por el cuerpo, frente al de arriba abajo, que empieza por el pensamiento. Los dos hacen falta; el orden es lo que casi nadie respeta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie puede procesar lo que le pasó mientras su cuerpo siga creyendo que está pasando ahora.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los tratamientos con datos detrás entran por el cuerpo" },
+      {
+        b: "texto",
+        texto:
+          "La parte más útil del libro es la que repasa qué se ha ensayado y con qué resultado, y van der Kolk da las cifras de sus propios estudios. En uno de 2007 comparó la terapia de movimientos oculares con fluoxetina y con placebo en ochenta y ocho adultos. A los ocho meses, entre los que habían sufrido un trauma único de adultos, tres de cada cuatro ya no cumplían criterios de estrés postraumático, y el efecto se mantenía tras dejar el tratamiento, cosa que no ocurría con el fármaco. Entre los que arrastraban trauma desde la infancia, los resultados fueron mucho peores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2014 publicó un ensayo con sesenta y cuatro mujeres con estrés postraumático crónico que no había respondido a nada. Diez semanas de yoga adaptado frente a un grupo con clases de salud: más de la mitad del grupo de yoga dejó de cumplir criterios, frente a una quinta parte del otro. La medida que mejoraba no era el ánimo declarado, sino la variabilidad de la frecuencia cardíaca, un indicador del equilibrio del sistema nervioso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro añade el teatro, el canto en grupo, la percusión y el neurofeedback, con estudios más pequeños. El hilo común de todos ellos es el mismo: son actividades donde el cuerpo se mueve a un ritmo compartido y la persona experimenta que puede tener efecto sobre algo, que es exactamente lo que el trauma le quitó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo contrario del trauma no es la calma: es poder hacer algo y comprobar que ocurre lo que se pretendía.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "A los niños con trauma se les diagnostica otra cosa" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más incómodo del libro es el de la infancia, y su tesis es que el diagnóstico de estrés postraumático no sirve para un niño maltratado. Fue diseñado a partir de veteranos y de víctimas de un suceso único: un accidente, un atentado, una agresión. Un niño que crece con miedo dentro de su casa no tiene un suceso, tiene un ambiente, y el daño no está en el recuerdo sino en el desarrollo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Van der Kolk y un grupo de colegas propusieron para la quinta edición del manual una categoría nueva, el trastorno traumático del desarrollo, con datos de miles de casos. La propuesta fue rechazada en 2011. Su consecuencia, sostiene, se ve en las consultas: al mismo niño se le acaban colgando tres o cuatro etiquetas distintas —déficit de atención, trastorno negativista desafiante, trastorno bipolar infantil— y una medicación para cada una.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El dato que aporta es de gasto y de edad. En la primera década de este siglo, la prescripción de antipsicóticos a niños con seguro público se multiplicó, y una parte importante fue a menores en acogida, es decir, a los que por definición vienen de un hogar que falló. Ninguna de esas etiquetas menciona lo que les ocurrió. Su alternativa no es dejar de diagnosticar, sino ordenar la pregunta. Van der Kolk propone que en la primera entrevista se pregunte qué le ocurrió a esa persona antes de preguntar qué le ocurre, porque las dos preguntas llevan a tratamientos distintos y solo una de ellas incluye a la familia en el cuadro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un diagnóstico que no nombra la causa acaba tratando la reacción como si fuera la enfermedad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El cuerpo lleva la cuenta sostiene que el trauma no se guarda como una historia sino como una configuración del sistema nervioso, y que por eso se manifiesta en el pulso, el sueño y la tensión muscular antes que en el relato. De ahí saca dos consecuencias: que hay que preguntar por la infancia en cualquier consulta médica, y que el tratamiento empieza por devolver la calma corporal antes de pedir que se hable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, además de la síntesis, es haber puesto números donde había impresiones clínicas: diecisiete mil historiales en el estudio de experiencias adversas, ensayos propios con sus tamaños de muestra y sus fracasos incluidos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Preguntar a un paciente qué le pasó, en lugar de qué le pasa, cambia el diagnóstico más veces de las que la medicina admite.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Varios estudios en los que se apoya son pequeños: el escáner de su idea más famosa se hizo con ocho personas, y los de yoga y teatro con decenas y sin comparación ciega. El neurofeedback, al que dedica un capítulo entusiasta, tiene la evidencia más floja del libro. Y el título es una metáfora que se lee a menudo al pie de la letra: el cuerpo no almacena recuerdos como un archivo, lo que cambia es la regulación del sistema nervioso, cosa menos mágica y más útil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después. El estudio de experiencias adversas se ha replicado en decenas de países y hoy es rutina en salud pública, aunque sigue siendo correlacional y no todos los que puntúan alto enferman. De la terapia de movimientos oculares, las revisiones posteriores confirman que funciona y a la vez apuntan que los movimientos de los ojos no añaden nada: el ingrediente activo no es el que le da nombre. Y el libro tuvo una segunda vida: llegó a lo más alto de las listas en 2021, siete años después de salir, y con él se extendió el uso de la palabra trauma para casi cualquier disgusto, algo contra lo que su autor ha tenido que advertir.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cuerpo-cuenta": CUERPO_CUENTA,
   freakonomics: FREAKONOMICS,
   "los-miserables": LOS_MISERABLES,
   "origen-especies": ORIGEN_ESPECIES,

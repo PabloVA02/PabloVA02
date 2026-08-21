@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cuerpo-cuenta": [
+    "por qué revivir no es lo mismo que recordar",
+    "qué zona del cerebro se apaga al revivir un trauma",
+    "qué descubrió por accidente una clínica de obesidad",
+    "por qué contar lo ocurrido a veces deja peor al paciente",
+    "por qué el diagnóstico no sirve para un niño maltratado",
+  ],
+
   freakonomics: [
     "por qué una multa puede empeorar lo que castiga",
     "cómo se detecta a un tramposo sin llegar a verlo",

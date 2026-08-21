@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "cuerpo-cuenta": "Cerebro, mente y cuerpo en la superación del trauma",
   "cerebro-buda": "La neurociencia de la felicidad, el amor y la sabiduría",
   "rebelion-granja": "Un cuento de hadas",
   "semana-4-horas": "No hace falta trabajar más",

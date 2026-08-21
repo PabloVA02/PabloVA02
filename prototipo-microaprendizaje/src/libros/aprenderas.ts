@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cuerpo-cuenta":
+    "El estrés postraumático no existió como diagnóstico hasta 1980. Van der Kolk reúne treinta años de consulta y de escáneres para sostener que el trauma no se guarda como recuerdo, sino como una configuración del sistema nervioso.",
+
   freakonomics:
     "Una multa de tres dólares por recoger tarde a los niños duplicó los retrasos en diez guarderías de Haifa. El libro reúne casos así para enseñar dos cosas: que la gente responde a incentivos y que casi ninguna creencia extendida se ha comprobado.",
 
