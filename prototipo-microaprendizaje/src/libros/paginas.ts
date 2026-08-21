@@ -54034,7 +54034,7 @@ const POSTGUERRA: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Y su tesis tiene ya un marcador. Judt cierra el libro en 2005 dando por asentado que en Europa las fronteras ya no se cambian por la fuerza y que la guerra entre Estados europeos pertenece al pasado. La anexión de Crimea en 2014 y la invasión de Ucrania en 2022 desmintieron ese supuesto de la manera más literal posible, y convierten su epílogo sobre la memoria en algo más urgente de lo que él pretendía.",
+          "Y su tesis tiene ya un marcador. Judt cierra el libro en 2005 dando por asentado que en Europa las fronteras ya no se cambian por la fuerza. La anexión de Crimea en 2014 y la invasión de Ucrania en 2022 desmintieron ese supuesto de la manera más literal posible.",
       },
       {
         b: "idea",
