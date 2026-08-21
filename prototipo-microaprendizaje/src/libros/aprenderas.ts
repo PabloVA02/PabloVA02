@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "auschwitz-rees":
+    "En mayo de 1940 se abrió un campo para presos políticos polacos en unos cuarteles viejos. Cinco años después habían sido asesinadas allí un millón cien mil personas, y nadie había planeado esa transformación de una vez.",
+
   tatuador:
     "En 2003, un anciano de Melbourne empezó a contarle a una guionista lo que había hecho en Auschwitz: tatuar los números en el antebrazo de los recién llegados. Allí conoció a la mujer con la que viviría medio siglo.",
 

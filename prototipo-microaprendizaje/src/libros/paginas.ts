@@ -54342,7 +54342,429 @@ const TATUADOR: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Auschwitz: los nazis y la solución final, en doce páginas.
+
+   AMPLIO. Sostiene varias tesis independientes —la evolución del campo, el
+   origen del método, el programa T4, el papel de los gobiernos aliados de
+   Alemania, lo que sabía la población— y cada una necesita su sitio.
+
+   Historia → afirmación entera y tercera persona. Y se aplica entera la
+   regla del apartado 4 bis para lo escrito desde una desgracia real: NADA
+   de segunda persona y ninguna caja del rayo convertida en lección de vida.
+   Las cajas aquí son la idea de la página y nada más.
+
+   Este resumen es el que corrige al del «Tatuador»: los dos hablan del
+   mismo sitio y uno de ellos está comprobado. Conviene que quien lea aquel
+   encuentre este.
+   -------------------------------------------------------------------------- */
+
+const AUSCHWITZ_REES: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Auschwitz no se construyó para lo que acabó siendo, y esa es la afirmación central del libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "En mayo de 1940 se abrió un campo de concentración en unos viejos cuarteles del ejército polaco, junto a la localidad de Oswiecim, en la Alta Silesia anexionada por Alemania. Su primer transporte llegó el 14 de junio de aquel año: setecientos veintiocho presos políticos polacos. No estaba pensado para judíos, no tenía cámaras de gas y su comandante, Rudolf Höss, había recibido el encargo de organizar un campo de castigo corriente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cinco años después, aquel recinto era el mayor centro de exterminio que ha existido: allí fueron asesinadas alrededor de un millón cien mil personas, de las cuales cerca de un millón eran judíos, además de unos setenta mil polacos, veintiún mil gitanos y quince mil prisioneros de guerra soviéticos. Entre una cosa y la otra hay una transformación que nadie diseñó de una vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Laurence Rees, responsable durante años de los programas históricos de la BBC, publicó este libro en 2005 junto con una serie documental. Su material distintivo son más de cien entrevistas hechas a lo largo de varios años: con supervivientes, con habitantes de la zona y, sobre todo, con antiguos miembros de las SS que aceptaron hablar ante una cámara sesenta años después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas doce páginas recorren diez asuntos: cómo cambió de función el campo cuatro veces, de dónde salió el método de matar, el programa con el que los nazis empezaron matando alemanes, qué problema tenían los que disparaban en el este, las dos casas de campesinos convertidas en cámaras de gas, las ocho semanas de 1944 en que llegaron los judíos húngaros, qué dijeron los verdugos al ser entrevistados, qué gobiernos cobraron por deportar a los suyos, qué sabía la gente, y la discusión que sigue abierta sobre si hubo un plan.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Entre un cuartel para presos políticos y el mayor centro de exterminio de la historia hay cinco años y ninguna reunión en la que alguien decidiera pasar de lo uno a lo otro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El campo cambió de función cuatro veces en cuatro años, y cada cambio se improvisó",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera función, en 1940, fue encerrar a la élite polaca: profesores, sacerdotes, oficiales, miembros de la resistencia. La ocupación alemana de Polonia tenía como objetivo declarado descabezar al país, y Auschwitz era una pieza de esa política. Las condiciones eran atroces y la mortalidad altísima, pero era un campo de concentración y no un centro de exterminio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda llegó en 1941, cuando Himmler ordenó construir a tres kilómetros un campo enorme, Birkenau, previsto inicialmente para cien mil prisioneros de guerra soviéticos que iban a trabajar como esclavos. En octubre llegaron unos diez mil; los pusieron a construir su propio recinto en pleno invierno y sin comida suficiente, y en la primavera siguiente quedaban unos cientos vivos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera empezó en 1942, cuando el campo se incorporó al asesinato sistemático de los judíos europeos y se habilitaron las primeras instalaciones para gasear. Y la cuarta, en 1943, con la construcción de cuatro crematorios grandes con cámara de gas incorporada, que convirtieron el recinto en una instalación industrial con capacidad para matar a miles de personas al día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rees insiste en que cada uno de esos pasos se tomó sobre la marcha, resolviendo un problema práctico planteado por el anterior, y que el resultado final no estaba en la cabeza de nadie en 1940. Esa es su tesis y no es una atenuante: sostiene que un sistema capaz de llegar hasta ahí sin haberlo planeado es más inquietante, no menos, porque significa que el camino se abrió paso a paso y que en cada paso hubo gente que dijo que sí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que nadie planeara el resultado final no lo hace menos grave: significa que cada paso pareció razonable a quienes lo dieron.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El gas que se usó para matar a un millón de personas era un insecticida que ya estaba en el almacén",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 3 de septiembre de 1941, en el sótano del bloque 11 de Auschwitz, se hizo una prueba: se encerró a unos seiscientos prisioneros de guerra soviéticos y a unos doscientos cincuenta enfermos y se arrojó dentro un producto llamado Zyklon B. Tardaron en morir y hubo que repetir la ventilación, pero funcionó. Aquella prueba no la ordenó Berlín: la organizó el segundo del comandante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El Zyklon B no se fabricó para eso. Era un plaguicida comercial, cianuro de hidrógeno absorbido en gránulos, que se usaba habitualmente en los campos para desinsectar la ropa y los barracones y matar los piojos que propagaban el tifus. Estaba en el almacén porque era material sanitario ordinario, y de ahí salió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese detalle es el que Rees considera más revelador de todo el libro, y merece detenerse en él. La imagen habitual del exterminio es la de una tecnología concebida expresamente para asesinar; lo que ocurrió fue lo contrario. Buscaban un procedimiento que resolviera un problema logístico y encontraron uno entre los suministros de la enfermería.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale una advertencia que el libro repite con distintas formas. Lo que hizo posible aquello no fue una invención diabólica sino una combinación de cosas corrientes: un pesticida, unos horarios de ferrocarril, unos formularios, unos funcionarios que cumplían y un edificio adaptado por una empresa constructora que presentó su presupuesto. La maquinaria estaba hecha de piezas normales.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El instrumento del mayor asesinato en masa de la historia no se inventó para eso: era material de desinsectación que ya estaba en el almacén.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Antes de matar judíos, el régimen se entrenó matando alemanes" },
+      {
+        b: "texto",
+        texto:
+          "Entre 1939 y 1941, el Estado alemán asesinó a unas setenta mil personas de su propio país: enfermos mentales, discapacitados intelectuales y físicos, epilépticos, pacientes crónicos de instituciones psiquiátricas. El programa se conoce por la dirección de la oficina que lo dirigía en Berlín, Tiergartenstrasse 4, y se le llamó por eso T4.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El procedimiento incluía ya casi todos los elementos posteriores. Formularios rellenados por médicos que decidían sobre pacientes a los que no veían; autobuses con las ventanas pintadas que trasladaban a los seleccionados; seis centros con instalaciones fijas donde se les mataba con monóxido de carbono en cámaras disfrazadas de duchas; hornos para incinerar; y cartas de condolencia a las familias con causas de muerte inventadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El programa se suspendió oficialmente en agosto de 1941, después de que las protestas de familias y sobre todo el sermón público del obispo de Münster hicieran políticamente costoso continuarlo. Es uno de los pocos casos documentados en que la protesta pública dentro de Alemania obligó al régimen a rectificar, y por eso se cita siempre: demuestra que era posible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurrió después es lo que conecta las dos historias. El personal de aquellos centros no se disolvió: fue trasladado al este, y hombres como Christian Wirth o Franz Stangl, que habían dirigido instalaciones de T4, pasaron a organizar los campos de exterminio de la Polonia ocupada. La técnica, el personal y el vocabulario administrativo del asesinato en masa se desarrollaron primero contra ciudadanos alemanes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El único programa de exterminio que el régimen tuvo que suspender fue el que provocó protestas públicas: eso demuestra que las protestas eran posibles.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las cámaras de gas se desarrollaron porque fusilar resultaba duro para los que disparaban",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con la invasión de la Unión Soviética en junio de 1941 empezó la fase más sangrienta y menos conocida del exterminio: los fusilamientos masivos. Unidades móviles llamadas Einsatzgruppen recorrieron el este acompañando al ejército y asesinaron a tiros a algo más de un millón de personas, en fosas excavadas junto a los pueblos y a menudo a la vista de los vecinos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rees documenta, con testimonios de participantes y con informes internos, que aquel método planteó un problema a los mandos, y el problema no era moral en el sentido en que se esperaría. Era que los ejecutores se venían abajo: alcoholismo, crisis nerviosas, negativas a continuar, suicidios. Matar a miles de personas cara a cara, incluidos niños, resultaba insostenible para los que apretaban el gatillo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En agosto de 1941, Himmler presenció personalmente un fusilamiento en Minsk y se impresionó lo bastante como para preguntar por el estado de ánimo de sus hombres. A partir de ahí se ordenó buscar un método menos penoso, y la palabra que se usó en los documentos internos fue precisamente esa: más humano. Humano para quien mataba, no para quien moría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De esa búsqueda salieron primero los camiones de gas, usados desde finales de 1941, y después las instalaciones fijas. La conclusión que Rees extrae es de las más duras que contiene el libro: el rasgo más característico del exterminio, la cámara de gas, no se desarrolló para hacer más eficiente la matanza ni para ocultarla, sino para proteger la salud mental de los asesinos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La cámara de gas no se buscó para matar mejor: se buscó porque matar a tiros estaba destrozando a los que disparaban.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las primeras cámaras de gas de Birkenau fueron dos casas de campesinos con las ventanas tapiadas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando en 1942 Auschwitz empezó a recibir transportes de judíos para ser asesinados, no había ninguna instalación preparada. Lo que se hizo fue adaptar dos casas de labranza polacas que estaban en el terreno expropiado alrededor de Birkenau: se tapiaron las ventanas, se reforzaron las puertas y se abrieron unos huecos en el techo para arrojar el gas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los prisioneros las llamaban la casita roja y la casita blanca por el color de sus paredes. Los deportados que llegaban eran conducidos hasta allí a pie, se les decía que iban a ducharse y se les hacía desnudarse en unos barracones de madera levantados al lado. Los cadáveres se enterraban en fosas cercanas y, cuando las fosas empezaron a dar problemas sanitarios, se desenterraron y se quemaron al aire libre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa improvisación duró más de un año, hasta que en 1943 entraron en funcionamiento los cuatro crematorios grandes, con vestuario subterráneo, cámara de gas y hornos en el mismo edificio. Los diseñó una empresa civil alemana que hizo el proyecto, calculó las capacidades y facturó su trabajo, y los planos con su membrete se conservan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rees se detiene en esa transición porque contiene su tesis en pequeño. Nadie construyó Birkenau sabiendo que iba a servir para esto; se adaptó lo que había, se comprobó que funcionaba, se detectaron los problemas prácticos —el enterramiento, la capacidad, el tiempo de ventilación— y se encargó una versión industrial a un proveedor. Es la trayectoria normal de un proyecto técnico.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los planos de las instalaciones los firmó una empresa constructora que calculó capacidades y presentó factura: la burocracia no es un adorno del horror, es su forma.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En ocho semanas de 1944 llegaron a Auschwitz más de cuatrocientos mil judíos húngaros",
+      },
+      {
+        b: "texto",
+        texto:
+          "La operación más rápida y más grande del campo ocurrió cuando la guerra ya estaba perdida para Alemania. Hungría había sido aliada del Reich y había mantenido a su población judía dentro del país, sometida a leyes discriminatorias pero viva. En marzo de 1944, ante la evidencia de que Budapest buscaba salirse de la guerra, Alemania ocupó el país.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entre el 15 de mayo y el 9 de julio de 1944 fueron deportadas alrededor de cuatrocientas treinta y siete mil personas, casi todas a Auschwitz. Para poder recibirlas se prolongó la vía férrea hasta el interior de Birkenau, de modo que los trenes entraban ahora dentro del recinto y la selección se hacía en el andén, a pocos metros de las cámaras. La mayoría de los que bajaban de aquellos trenes fue asesinada el mismo día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle que Rees subraya es quién lo hizo. La concentración, el registro de bienes, la vigilancia y el embarque de los deportados los ejecutó la gendarmería húngara, con funcionarios húngaros, en el plazo de unas semanas y sin que hicieran falta apenas tropas alemanas. La velocidad de aquella operación no la explica la eficiencia alemana: la explica la colaboración de una administración entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un dato que impide cualquier excusa de desconocimiento. En abril de 1944, dos prisioneros eslovacos, Rudolf Vrba y Alfréd Wetzler, se fugaron de Auschwitz y redactaron un informe detallado del funcionamiento del campo, con planos y cifras, que llegó a manos de líderes judíos húngaros y de los aliados antes de que empezaran las deportaciones. Se sabía lo que había al final de aquellos trenes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La deportación más rápida del exterminio no la ejecutó el ejército alemán: la ejecutó la policía de un país aliado, con sus propios funcionarios.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los verdugos que aceptaron hablar sesenta años después casi nunca se arrepintieron",
+      },
+      {
+        b: "texto",
+        texto:
+          "El material que hace único a este libro son las entrevistas con antiguos miembros de las SS, con guardias y con auxiliares locales. Rees dedicó años a localizarlos y a convencerlos, y el resultado es incómodo por una razón que él no esconde: la inmensa mayoría no expresó remordimiento y varios siguieron defendiendo lo que hicieron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las justificaciones se repiten y forman un catálogo reconocible. Que ellos no mataron a nadie personalmente. Que si no lo hacían ellos lo habría hecho otro. Que era una guerra y en la guerra pasan cosas. Que cumplían órdenes. Que entonces todo el mundo pensaba así. Y una que aparece con frecuencia y es la más reveladora: que se les había explicado que aquello era necesario y que ellos lo creyeron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rees advierte contra la lectura fácil de ese material, y hay que repetir su advertencia. Son declaraciones interesadas de hombres muy mayores que hablan sesenta años después, con motivos evidentes para minimizar y con una memoria que se ha ido reorganizando durante toda una vida para poder convivir consigo misma. No son documentos, son testimonios con dueño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso más conocido es el de Oskar Gröning, que había trabajado en Auschwitz contando y clasificando el dinero requisado a los deportados y que aceptó hablar ante la cámara. Contó lo que vio en el andén con una precisión que ningún otro dio, y explicó que decidió hacerlo porque le indignaba oír a los negacionistas decir que aquello no había ocurrido. Su historia continúa en la conclusión, porque continuó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi ninguno de los que participaron y hablaron décadas después pidió perdón: lo que ofrecieron fue un catálogo de explicaciones que se repiten entre sí.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Varios gobiernos entregaron a sus propios ciudadanos, y uno de ellos pagó por hacerlo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos que más molestó en algunos países es el dedicado a la colaboración. Rees documenta que la deportación de los judíos europeos no fue una operación alemana ejecutada sobre poblaciones pasivas, sino que dependió en muchos sitios de administraciones locales que aportaron listas, policía, trenes y presupuesto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso extremo es Eslovaquia, un Estado satélite gobernado por un sacerdote católico, Jozef Tiso. Su gobierno no solo entregó a decenas de miles de judíos eslovacos en 1942: pagó a Alemania quinientos marcos por cada deportado, oficialmente en concepto de gastos de reasentamiento, y se quedó con sus bienes. Un Estado pagó por que se llevaran a sus ciudadanos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En Francia, la policía francesa detuvo en julio de 1942 a más de trece mil personas en París, incluidos más de cuatro mil niños que no estaban incluidos en la petición alemana y que el gobierno de Vichy ofreció añadir. En los territorios bálticos y en Ucrania, unidades auxiliares locales participaron directamente en los fusilamientos. Y en Hungría, como se ha visto, lo hizo la gendarmería.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rees también recoge lo contrario, y es importante que esté. Dinamarca evacuó en octubre de 1943 a la práctica totalidad de su población judía a Suecia en unas noches, con la participación de pescadores, policías y funcionarios; y Bulgaria no llegó a deportar a los judíos de su territorio nacional pese a la presión alemana. Las dos excepciones demuestran que había margen.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hubo países que salvaron a casi todos sus judíos en unas noches: eso demuestra que en los demás sitios existía margen y no se usó.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La cuestión no es si se sabía, sino qué se hizo con lo que se sabía" },
+      {
+        b: "texto",
+        texto:
+          "La frase de que nadie sabía nada es la primera que Rees desmonta, y lo hace con material de tres clases. Los fusilamientos del este ocurrieron a la vista de miles de soldados alemanes que escribían cartas a casa; los deportados salían de estaciones céntricas ante vecinos que veían los trenes; y las viviendas y los negocios de los deportados se repartieron entre la población local a los pocos días.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre Auschwitz en concreto, los habitantes de la zona convivían con el olor y con el humo, y varios de los entrevistados lo describen sin dificultad. Los prisioneros trabajaban en fábricas civiles alrededor, con lo cual cientos de empleados alemanes veían todos los días a hombres esqueléticos custodiados por las SS.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Rees distingue con cuidado es entre saber y saber con detalle. Muy pocos alemanes conocían el número de cámaras de gas ni el funcionamiento del sistema; muchísimos sabían que los judíos deportados no volvían, que se les estaba haciendo algo terrible en el este, y que preguntar por ello no era prudente. Ese conocimiento difuso y general está documentado en informes de la propia policía secreta sobre el estado de opinión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo mismo se aplica a los gobiernos aliados. El informe de los dos fugados de 1944 llegó a Londres y a Washington, se conocía la existencia de los campos y se debatió si bombardear las vías de acceso a Birkenau. No se hizo, con el argumento de que la manera de salvar a las víctimas era ganar la guerra cuanto antes. Esa decisión se sigue discutiendo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie conocía los detalles y muchísimos sabían lo esencial: que los deportados no volvían y que preguntar por ello no convenía.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Que no hubiera un plan desde el principio es una tesis, no un hecho establecido",
+      },
+      {
+        b: "texto",
+        texto:
+          "Todo el libro descansa en una posición dentro de una discusión que lleva medio siglo abierta entre historiadores, y conviene que el lector lo sepa. Una escuela sostiene que Hitler tenía la intención de exterminar a los judíos desde muy pronto y que todo lo demás fue la búsqueda del momento y del método; otra sostiene que la política nazi fue improvisando, radicalizándose por acumulación, sin un plan previo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rees defiende con claridad la segunda, y sus argumentos son sólidos. Hasta 1941 la política oficial fue la expulsión, no el asesinato: hubo planes serios para deportar a los judíos europeos a Madagascar, y proyectos de reservas en el este de Polonia. Y no se ha encontrado nunca una orden escrita de Hitler ordenando el exterminio, pese a que se conserva una cantidad enorme de documentación del régimen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los argumentos de la otra escuela también son serios y el libro los trata deprisa. Hitler había anunciado en público, en enero de 1939, que una nueva guerra mundial acabaría con la aniquilación de la raza judía en Europa; volvió sobre esa frase varias veces cuando ya estaba ocurriendo; y la ausencia de una orden escrita es lo esperable en un régimen que daba las instrucciones más graves de palabra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La posición mayoritaria hoy combina las dos: una intención declarada y radical desde arriba, y una ejecución construida de abajo arriba por iniciativas locales que competían por interpretar lo que se esperaba de ellas. Quien lea este libro está leyendo un lado de esa discusión expuesto con mucha convicción, y le conviene saberlo antes de dar la cuestión por cerrada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No se ha encontrado ninguna orden escrita de exterminio, y eso admite dos lecturas opuestas: que no la hubo, o que las órdenes graves se daban hablando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro reconstruye cómo un campo abierto en 1940 para presos polacos se convirtió en cinco años en el mayor centro de exterminio de la historia, y sostiene que ese resultado no estaba planeado de antemano sino que se construyó decisión a decisión, con métodos encontrados por casualidad, con personal reciclado de otro programa y con la colaboración activa de varios Estados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta y no está en ningún otro sitio son las entrevistas. Escuchar a antiguos miembros de las SS explicar sesenta años después por qué lo que hicieron les parecía razonable es un material histórico de primer orden, y también un aviso: lo que se oye no son monstruos justificándose, sino hombres corrientes repitiendo las mismas cinco frases.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en lo que arrastra por su origen. Es un libro escrito junto a una serie de televisión y se le nota: está montado en episodios, repite lo dicho para el espectador que se ha incorporado tarde, y elige la anécdota que funciona en pantalla frente al dato que no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en dos contenidos. Trata muy por encima la dimensión económica —el trabajo esclavo, la fábrica química que se construyó al lado, el beneficio de las empresas implicadas—, que fue una parte enorme de lo que Auschwitz era. Y presenta su tesis sobre la ausencia de plan con más seguridad de la que permite una discusión que sigue viva.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de 2005 ocurrió algo que ningún autor podía prever y que afecta a su propio material. En 2011, la condena de John Demjanjuk cambió el criterio de los tribunales alemanes: haber servido en un campo de exterminio pasó a considerarse complicidad, sin necesidad de probar un acto concreto. Con ese criterio, Oskar Gröning, el hombre que había hablado ante la cámara de Rees, fue juzgado en 2015 a los noventa y tres años y condenado como cómplice de trescientos mil asesinatos. Murió en 2018 sin haber ingresado en prisión.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Es el relato comprobado del mismo lugar sobre el que circulan novelas: quien haya leído una de ellas debería leer después este.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "auschwitz-rees": AUSCHWITZ_REES,
   tatuador: TATUADOR,
   postguerra: POSTGUERRA,
   "canones-agosto": CANONES_AGOSTO,

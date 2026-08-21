@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "auschwitz-rees": [
+    "cómo cambió de función el campo cuatro veces en cuatro años",
+    "de dónde salió el gas que se usó para matar",
+    "por qué se buscaron las cámaras de gas, que no fue por eficiencia",
+    "qué gobiernos entregaron a sus propios ciudadanos y cuál cobró",
+    "qué dijeron los antiguos miembros de las SS al ser entrevistados",
+  ],
+
   tatuador: [
     "qué era un prisionero con función y qué compraba con ese puesto",
     "por qué Auschwitz fue el único campo que tatuaba números",

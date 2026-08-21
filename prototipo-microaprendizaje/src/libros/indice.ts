@@ -62,7 +62,6 @@ const CARGADORES: Record<string, Cargador> = {
   "homo-sovieticus": () => import("./historia").then((m) => m.HOMO_SOVIETICUS),
   "guerra-civil-thomas": () => import("./historia").then((m) => m.GUERRA_CIVIL_THOMAS),
   imperiofobia: () => import("./historia").then((m) => m.IMPERIOFOBIA),
-  "auschwitz-rees": () => import("./historia").then((m) => m.AUSCHWITZ_REES),
 };
 
 /** Los identificadores con resumen escrito. No carga ningún texto. */

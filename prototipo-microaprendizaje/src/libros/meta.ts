@@ -40,22 +40,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "auschwitz-rees",
-    titulo: "Auschwitz: los nazis y la solución final",
-    autor: "Laurence Rees",
-    ano: 2005,
-    gancho: "En mayo de 1940, el sitio era un cuartel abandonado en un pueblo polaco de doce mil habitantes y estaba pensado para presos políticos polacos. Nadie que estuviera allí aquel día había planeado lo que vendría después, y ese es exactamente el argumento del libro.",
-    porQue: "Porque explica, paso a paso y con fechas, cómo se llegó hasta allí sin que exista una sola orden firmada; y porque corrige de raíz las dos cosas que casi todo el mundo cree: la cifra de la placa y la idea de que Auschwitz es donde murió la mayoría.",
-    minutos: 26.9,
-    capitulos: [
-      { titulo: "Un cuartel de artillería en un pueblo polaco", minutos: 5.4 },
-      { titulo: "Nadie encontró la orden firmada", minutos: 5.4 },
-      { titulo: "La cifra de la placa", minutos: 5.3 },
-      { titulo: "Los que intentaron pararlo", minutos: 5.3 },
-      { titulo: "El contable que se sentó delante de la cámara", minutos: 5.5 },
-    ],
-  },
-  {
     id: "homo-sovieticus",
     titulo: "El fin del Homo Sovieticus",
     autor: "Svetlana Aleksiévich",
