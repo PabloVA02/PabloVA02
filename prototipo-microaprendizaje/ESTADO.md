@@ -246,6 +246,70 @@ vieja. El procedimiento entero está en `REDACCION.md`.
     node scripts/mete-cubiertas.mjs   mete una tanda de cubiertas de Pablo
     node scripts/hoja-cubiertas.mjs   la estantería entera en una página
 
+### EL ENCARGO EN CURSO — LA NOCHE DEL 24 AL 25 DE AGOSTO
+
+**Esto es lo que hay que hacer AHORA. Se lee antes que nada y no se pregunta.**
+
+Pablo, el 24 de agosto de madrugada:
+
+> «Añade más libros de personalidades muy famosas sobre todo muy conocidas, de
+> amor y sexo también, que sean comerciales con títulos que vendan. Y libros de
+> autoayuda muchos, de cómo ganar dinero, cómo triunfar en la vida, cómo ganar
+> amigos, cómo ser atractivo, muchas promesas que tengan títulos así, todos los
+> que encuentres. **Añade hasta unos 350 libros**, un poco de todas las
+> secciones que tenemos, con las redacciones de Headway, algo parecido, como ya
+> hablamos. Y ten cuidado, que no pierdas el contexto y se te olvide lo que
+> tienes que hacer. **Trabaja durante toda la noche.**»
+
+O sea, dos cosas y en este orden:
+
+1. **Llegar a 350 en el catálogo.** Comercial: personalidades muy conocidas,
+   amor y sexo, autoayuda con título de promesa, superventas. Un poco de todas
+   las categorías.
+2. **Escribirlos todos**, con las normas de `REDACCION.md`, sin parar.
+
+**Cuántos van y cuántos faltan NO se cuenta de memoria.** Lo dicen estas dos
+órdenes, y se ejecutan al empezar cada sesión:
+
+    grep -c 'id: "' src/libros/catalogo.ts     cuántos hay en el catálogo
+    node scripts/medir-paginas.mjs | tail -1   cuántos están escritos
+
+Y los que faltan por escribir, con su nombre:
+
+    npx tsx scripts/estado.mjs
+
+### CÓMO SE ESCRIBE CADA UNO, paso a paso
+
+Un libro son ocho pasos y ninguno se salta. `$B` es la carpeta de borradores
+del scratchpad; si no existe se crea, y se rehacen `mide.py` y `marca.py` con
+lo que dice el apartado «LO QUE ENSEÑÓ ESCRIBIR LOS 223».
+
+    1. Se lee REDACCION.md si no se ha leído en esta sesión.
+    2. Se escribe $B/<id>.json y $B/f-<id>.json.
+    3. python3 $B/mide.py $B/<id>.json        ANTES de instalar
+    4. node scripts/mete-libro.mjs  $B/<id>.json
+    5. node scripts/ficha-libro.mjs $B/f-<id>.json
+    6. python3 $B/marca.py <id>               pendiente → escrito
+    7. npx tsx scripts/generar-meta.mjs
+    8. node scripts/medir-paginas.mjs <CONSTANTE>
+       node scripts/concreto.mjs · node scripts/revisa-puntos.mjs
+       node scripts/revisa-estructura.mjs · npx tsc --noEmit
+    9. git add -A && git commit && git push -u origin claude/app-development-xpo6fx
+
+**El push va DESPUÉS DE CADA LIBRO, sin excepción.** El contenedor se recicla
+sin avisar —pasó dos veces el 24 de agosto— y un libro escrito y no empujado se
+pierde entero.
+
+**Y cada quince o veinte libros: rehacer el simulador y publicarlo**, con las
+tres órdenes del apartado de arriba. Es lo único que Pablo ve.
+
+### LO QUE NO HAY QUE PREGUNTAR
+
+Pablo dijo «trabaja durante toda la noche». No se para a pedir permiso para
+seguir, no se pregunta por dónde continuar y no se propone un plan: se escribe
+el siguiente libro que aparezca en `estado.mjs`, priorizando lo comercial —las
+personalidades, el amor y la autoayuda—, que es lo que pidió.
+
 ### EL ENCARGO ESTÁ CUMPLIDO: LOS 223 ESTÁN ESCRITOS
 
 Pablo, el 21 de agosto: *«ve redactando todos los libros que nos faltan, con
