@@ -819,6 +819,60 @@ ha leído *1984*; «por qué la tortura busca creencia y no información», sí.
 Y van **en minúscula**, como en la referencia: detrás del visto no empieza una
 frase, se continúa la del rótulo —aprenderás… esto—.
 
+### LA REGLA DE LOS «APRENDERÁS», que costó reescribir los 223
+
+Pablo los devolvió enteros el 22 de agosto, y el ejemplo que puso lo explica
+todo: en el *Diario de Ana Frank* había un punto que decía **«qué pasó la
+mañana del 4 de agosto»**.
+
+> «Es que eso no tiene ningún sentido, eso no es aprender algo. Aprender algo
+> es tipo cómo una niña sobrevivió…, o algo así.»
+
+Tiene razón, y el fallo era sistemático: los cinco puntos de casi todos los
+libros estaban escritos como **preguntas de examen sobre el argumento** —«qué
+pasó en Anfield el 26 de mayo de 1989», «cómo acabó su amistad con Malcolm
+X»— en lugar de como **conocimientos que el lector se lleva**.
+
+    así NO   qué pasó la mañana del 4 de agosto
+    así SÍ   cómo se sobrevive dos años escondido en unos pocos metros
+
+**La prueba, y se aplica punto por punto: léelo sin saber nada del libro. ¿Se
+entiende? ¿Suena a algo que valga la pena saber?** Si hace falta haber leído
+el libro para saber de qué habla —una fecha, un nombre propio, un episodio—,
+está mal.
+
+Las cinco fichas que mandó con la corrección están en
+`referencia/fichas-aprenderas/` y son el modelo:
+
+| libro | punto |
+|---|---|
+| *El alquimista* | cómo las pasiones moldean tu futuro |
+| *La metamorfosis* | el coste de ser el sostén de la familia |
+| *La metamorfosis* | cómo la culpa corroe la identidad |
+| *Frankenstein* | por qué saber cuándo parar es una forma de sabiduría |
+| *Frankenstein* | cómo el aislamiento transforma la nostalgia en rabia |
+| *El gran Gatsby* | el peligro de construir la identidad en torno a un único sueño |
+| *Dar y recibir* | los inconvenientes de recibir siempre |
+
+Ninguno exige haber leído nada, y todos hablan del MUNDO y no del argumento:
+«el coste de ser el sostén de la familia» es lo que enseña *La metamorfosis*
+sin contar que Gregorio amanece convertido en insecto.
+
+De esas fichas salen además dos correcciones de medida:
+
+- **El tope sube de once palabras a CATORCE.** La referencia llega a catorce
+  —«por qué no podemos escapar de nuestro pasado por mucho que nos
+  reinventemos»— y el tope anterior obligaba a recortes que estropeaban la
+  frase. `ficha-libro.mjs` ya avisa a partir de quince.
+- **Un nombre propio solo entra si el punto se entiende igual sin saber quién
+  es.** «¿Fue Gregorio el único en transformarse?» vale, porque la pregunta se
+  sostiene sola. «Cómo acabó su amistad con Malcolm X», no.
+
+Lo que se puede comprobar a máquina —fechas, años, «qué pasó» en pasado,
+longitud, imperativos de folleto— lo marca `node scripts/revisa-puntos.mjs`,
+y los 223 lo pasan limpios. Lo que no se puede comprobar a máquina es si un
+nombre propio se entiende sin contexto: eso se mira con la prueba de arriba.
+
 ### Lo que enseñan las veinte fichas del 21 de agosto
 
 Es la única tanda de FICHAS que hay, y la ficha se ve antes que el resumen, así
