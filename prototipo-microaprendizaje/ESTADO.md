@@ -135,6 +135,53 @@ Las órdenes para rehacerlo están en el README, en «Verlo sin instalar nada».
 Con el caché de fotos lleno —`fotos-cache/`, que ya no vive en `/tmp`
 justamente por esto— tardan un par de minutos.
 
+## VER LA APP ENTERA: `docs/`, que no tiene ningún tope
+
+Pablo lo preguntó el 24 de agosto: *«¿no existe ninguna forma de ir viendo la
+aplicación entera, que no sea en el simulador, que tiene poca memoria?»*.
+
+Sí, y hacía falta. **El simulador no puede llevar las 760 fotografías, y no es
+cuestión de ajustar el ancho: no cabe de ninguna manera.** La cuenta:
+
+    texto de los libros y los shorts   7,8 MB   irreducible, es el producto
+    las 145 cubiertas, ya encogidas    4,9 MB
+    tope del artefacto                16,0 MB
+    ---------------------------------------------
+    queda para fotografías             1,6 MB → unas 74 de 760
+
+Aunque se encogieran las cubiertas a la mitad se llegaría a ciento y pico. Las
+760 a 240 de ancho son unos 15 MB ellas solas. **En el artefacto no caben, y
+no van a caber nunca.**
+
+La salida es publicarla como una página web normal, porque **la app de verdad
+no lleva las fotos dentro: se las pide a Wikimedia Commons según hacen falta**.
+Ahí no hay nada que empotrar y no hay ningún límite.
+
+    npx vite build --config vite.web.config.mjs
+
+Eso deja la app en `docs/`, con las rutas relativas —`base: "./"`— para que
+funcione servida desde una subcarpeta. `docs/` SÍ va al repositorio: son unos
+16 MB por compilación, así que se rehace cuando Pablo lo pide y no en cada
+commit.
+
+### Lo que falta, y es un clic de Pablo
+
+GitHub Pages está apagado en el repositorio (`has_pages: false`, comprobado el
+24 de agosto). El repositorio es público, así que Pages es gratis. Hay que
+entrar una vez en **Settings → Pages** y elegir:
+
+    Source: Deploy from a branch
+    Branch: claude/app-development-xpo6fx   ·   carpeta: /docs
+
+Y a los dos minutos la app entera está en una dirección fija, con las 760
+fotos, y se actualiza sola cada vez que se empuje una versión nueva de `docs/`.
+
+**Ojo con una cosa antes de decírselo:** `PabloVA02/PabloVA02` es el
+repositorio de su PERFIL de GitHub. Encender Pages ahí publica el sitio en
+`pablova02.github.io`, que es su dirección personal. Si prefiere no mezclarlo,
+la alternativa es un repositorio aparte solo para la app; eso ya no es un clic
+y hay que pedírselo.
+
 ## OJO: el contenedor puede arrancar con el repo atrasado
 
 Ha pasado tres veces en un mismo día: la copia de trabajo aparece en un commit
