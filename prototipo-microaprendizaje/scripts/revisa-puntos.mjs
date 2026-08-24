@@ -36,11 +36,15 @@ const MESES =
 const AVISOS = [
   [/\b(1[0-9]{3}|20[0-2][0-9])\b/, "lleva un año: cuenta un episodio, no lo que enseña"],
   [new RegExp(`\\b(${MESES})\\b`, "i"), "lleva un mes: es una fecha, no un conocimiento"],
-  [/^(qué|que) (le )?pas(ó|a)\b/i, "«qué pasó» es una pregunta de examen, no algo que se aprenda"],
+  /* Solo el PASADO. «qué le pasa a un rumiante que come grano» describe un
+     mecanismo y vale; «qué pasó en Anfield» cuenta un episodio y no. */
+  [/^(qué|que) (le )?pasó\b/i, "«qué pasó» cuenta un episodio; di qué se aprende de él"],
   [/^cómo acab(ó|a)\b/i, "«cómo acabó» cuenta el desenlace; di qué enseña ese desenlace"],
   [/^(qué|quién) (dijo|declaró|contestó|respondió)\b/i, "promete una anécdota, no un conocimiento"],
   [/^qué hizo\b/i, "promete el argumento; di qué se aprende de lo que hizo"],
-  [/\b(descubre|el secreto de|imprescindible|las claves|los fundamentos)\b/i, "suena a venta"],
+  /* «descubre» en imperativo es venta; «qué se descubre al…» no lo es. */
+  [/^(descubre|domina|inspírate|aprovecha|conoce|saca provecho)\b/i, "empieza con un imperativo de folleto"],
+  [/\b(el secreto de|imprescindible|las claves del|los fundamentos de)\b/i, "suena a venta"],
   [/^[A-ZÁÉÍÓÚÑ]/, "empieza en mayúscula, y van en minúscula"],
 ];
 
