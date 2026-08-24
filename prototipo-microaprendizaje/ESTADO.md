@@ -147,6 +147,32 @@ nada**, `git log --oneline -1` y comparar con
 Los ficheros sin seguimiento sobreviven, así que lo escrito en la sesión no se
 pierde; lo que se pierde es el tiempo de descubrirlo a la mitad.
 
+## Y UN CONTENEDOR NUEVO NO TRAE LAS DEPENDENCIAS
+
+Comprobado el 22 de agosto, al reciclarse el contenedor a media sesión. Aparte
+del repositorio atrasado, faltan tres cosas y ninguna avisa con claridad:
+
+1. **`npm install`**, que no está hecho. Sin él, cualquier script muere con
+   `ERR_MODULE_NOT_FOUND`.
+2. **`sharp` y `playwright` NO están en `package.json`.** Se instalaron a mano
+   en sesiones anteriores y hay ocho scripts que los importan. Hace falta
+   `npm install --no-save sharp playwright`.
+3. **El Chromium de Playwright es el del contenedor y no coincide de versión.**
+   Playwright busca el número de compilación que espera su versión y no lo
+   encuentra, y sugiere `npx playwright install`, que aquí no hay que ejecutar.
+   Todos los scripts que lanzan un navegador llevan ya la ruta puesta:
+
+       chromium.launch({ executablePath:
+         process.env.CHROMIUM ?? "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" })
+
+   Si el contenedor trae otro número, se cambia la variable `CHROMIUM` y no hay
+   que tocar ningún fichero.
+
+Y **`fotos-cache/` tampoco sobrevive**: rehacer `movil.html` desde cero vuelve
+a bajar las 829 fotografías de Commons y tarda bastante más de diez minutos.
+Conviene lanzarlo en segundo plano y no dar por hecho que va a acabar en dos
+minutos como cuando el caché está lleno.
+
 ## CÓMO SE REDACTA UN RESUMEN: `REDACCION.md`
 
 Es el documento de estilo y manda sobre cualquier instrucción suelta, venga de
