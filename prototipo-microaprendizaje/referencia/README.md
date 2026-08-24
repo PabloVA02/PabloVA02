@@ -2,8 +2,8 @@
 
 **Aquí están las pruebas. Las reglas están en `REDACCION.md`, y mandan ellas.**
 
-Pablo mandó estas capturas entre el 19 y el 21 de agosto de 2026, y al mandar
-las últimas dijo por qué se guardan:
+Pablo mandó estas capturas entre el 19 y el 22 de agosto de 2026, y al mandar
+las primeras dijo por qué se guardan:
 
 > «Te paso algunos ejemplos más. Cuando se te acabe la ventana de contexto
 > debes ver todos estos ejemplos para seguir haciéndolos así, con este tipo de
@@ -43,6 +43,7 @@ en el orden de lectura del resumen.
 | `antiguas-civilizaciones/` | *Antiguas civilizaciones*, sobre mayas, aztecas e incas | **Cómo NO se resume historia.** Fechas y nombres propios excelentes —2600 a. C., Monte Albán, las chinampas del lago Texcoco, la Triple Alianza— dentro de una crónica sin una sola afirmación discutible. De aquí sale la trampa de la crónica, apartado 4 bis |
 | `futuro-mente/` | *El futuro de nuestra mente*, de Michio Kaku, 8 páginas | **La más útil de las malas.** De aquí sale la regla del marcador: es un libro de predicciones de 2014 resumido sin decir la fecha y sin comprobar ni una. Y dos vicios nuevos: la cita de adorno mal atribuida y el «según los científicos» sin nombre. Apartado 4 bis, caso quinto |
 | `joyas-vocabulario/` | *Vocabulario picante* | **No es un resumen de un libro**: es un formato propio de Headway —«Joyas»— que mezcla varios títulos sobre un tema. Ficha de 6 puntos clave, 8 minutos y 3 conocimientos |
+| `fichas-aprenderas/` | cinco FICHAS: *El alquimista*, *La metamorfosis*, *Frankenstein*, *El gran Gatsby* y *Dar y recibir* | **La que obligó a reescribir los 1.115 «Aprenderás».** Un «Aprenderás» no es una pregunta sobre el argumento, es un conocimiento que te llevas: «cómo la culpa corroe la identidad», no «qué pasó la mañana del 4 de agosto». De aquí sale también el tope de catorce palabras, que antes estaba en once. Apartado 5 |
 | `tarjeta-libro-del-dia/` | la tarjeta del inicio | El modelo de `src/LibroDelDia.tsx`, con lo que se copió y lo que se cambió |
 
 ## Cómo se guarda una tanda nueva
