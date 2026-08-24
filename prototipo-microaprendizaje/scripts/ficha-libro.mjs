@@ -26,7 +26,7 @@ if (palabras > 45) avisos.push(`«de qué trata» tiene ${palabras} palabras, y 
 if (ficha.puntos.length !== 5) avisos.push(`hay ${ficha.puntos.length} «Aprenderás» y tienen que ser 5`);
 for (const p of ficha.puntos) {
   const n = p.trim().split(/\s+/).length;
-  if (n > 11) avisos.push(`«${p}» tiene ${n} palabras, y la regla es una línea`);
+  if (n > 14) avisos.push(`«${p}» tiene ${n} palabras, y el tope son 14`);
   if (/^[A-ZÁÉÍÓÚÑ]/.test(p)) avisos.push(`«${p}» empieza en mayúscula, y van en minúscula`);
 }
 

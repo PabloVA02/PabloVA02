@@ -1,569 +1,610 @@
 /* ==========================================================================
    «Aprenderás»: lo que uno se lleva de cada libro.
 
-   Es la tarjeta de los vistos de la ficha, calcada de Headway. Allí cada
-   punto es UNA COSA QUE SABRÁS HACER O ENTENDER cuando termines, escrita en
-   una línea y empezando por el verbo o por el qué:
+   Es la tarjeta de los vistos de la ficha. Allí cada punto es UNA COSA QUE
+   SABRÁS O ENTENDERÁS cuando termines, escrita en una línea y en minúscula.
 
-       cómo detectar y promover a los mejores trabajadores
-       formas de lograr el ajuste producto-mercado
-       qué se necesita para mejorar el compromiso del equipo
+   LA REGLA QUE LO DECIDE TODO, y que costó una reescritura de los 223:
 
-   No son los capítulos, ni el índice, ni frases sueltas del libro. Son la
-   promesa, y por eso van escritos a mano.
+   **Un «Aprenderás» NO es una pregunta sobre el libro. Es un conocimiento
+   que te llevas.** Pablo lo devolvió el 22 de agosto con el ejemplo exacto:
+
+       así NO   qué pasó la mañana del 4 de agosto          (Ana Frank)
+       así SÍ   cómo una niña sobrevivió dos años escondida
+
+   «Eso no es aprender algo». Y tiene razón: lo primero es una pregunta de
+   examen que solo entiende quien ya ha leído el libro, y encima no promete
+   ningún conocimiento. Lo segundo se entiende sin contexto y dice qué te
+   llevas.
+
+   LA PRUEBA, que se aplica punto por punto: **léelo sin saber nada del
+   libro. ¿Se entiende? ¿Y suena a algo que valga la pena saber?** Si hace
+   falta haber leído el libro para saber de qué habla —una fecha, un nombre
+   propio, un episodio—, está mal.
+
+   LOS EJEMPLOS BUENOS son los de `referencia/fichas-aprenderas/`, las cinco
+   fichas que mandó Pablo el 22 de agosto:
+
+       El alquimista      cómo las pasiones moldean tu futuro
+                          por qué debes proteger tus sueños
+                          cómo las dificultades clarifican tu propósito
+       La metamorfosis    el coste de ser el sostén de la familia
+                          cómo la culpa corroe la identidad
+                          el sufrimiento provocado por el exilio emocional
+       Frankenstein       lo que realmente cuesta una ambición desenfrenada
+                          cómo el aislamiento transforma la nostalgia en rabia
+                          por qué saber cuándo parar es una forma de sabiduría
+       El gran Gatsby     por qué no podemos escapar de nuestro pasado
+                          el peligro de construir la identidad en torno a un
+                          único sueño inalcanzable
+       Dar y recibir      cómo ser generoso atrae el éxito
+                          los inconvenientes de recibir siempre
+
+   Ninguno exige haber leído nada. Todos prometen un conocimiento. Y fíjate
+   en que hablan del MUNDO, no del argumento: «el coste de ser el sostén de
+   la familia» es lo que enseña La metamorfosis sin contar que Gregorio se
+   despierta convertido en insecto.
 
    LAS REGLAS
 
-   1. UNA LÍNEA. Diez palabras como mucho. Si pide dos renglones en un móvil,
-      sobra la mitad.
+   1. UNA LÍNEA, hasta CATORCE palabras. La referencia llega a catorce —«por
+      qué no podemos escapar de nuestro pasado por mucho que nos
+      reinventemos»— así que el tope de once que había antes obligaba a
+      recortes que estropeaban la frase. Dos renglones en un móvil está bien;
+      tres, no.
 
-   1 bis. EN MINÚSCULA, como en la referencia: «por qué el cerebro humano
-      vence a la inteligencia artificial», no «Por qué...». Detrás del visto no
-      empieza una frase, se continúa la del rótulo: aprenderás… esto.
+   1 bis. EN MINÚSCULA. Detrás del visto no empieza una frase, se continúa la
+      del rótulo: aprenderás… esto.
 
-   2. QUE SE ENTIENDA SIN HABER LEÍDO EL LIBRO. «La habitación 101» no dice
-      nada a quien no ha leído 1984; «por qué la tortura busca creencia y no
-      información» sí.
+   2. SIN FECHAS, SIN NOMBRES PROPIOS QUE HAYA QUE CONOCER Y SIN EPISODIOS.
+      «qué pasó en Anfield el 26 de mayo de 1989» no lo entiende nadie que no
+      haya leído el libro. Lo que ese episodio ENSEÑA, sí: «por qué lo que
+      llevas veinte años esperando no arregla nada».
 
-   3. CONCRETO. Una idea que se pueda contar en una cena, no una categoría.
-      Nada de «las claves del éxito» ni «los fundamentos de la felicidad».
+      Un nombre propio solo entra si el punto se entiende igual sin saber
+      quién es: «¿fue Gregorio el único en transformarse?» funciona porque la
+      pregunta se entiende sola. «cómo acabó su amistad con Malcolm X», no.
+
+   3. CINCO FORMAS, y conviene usarlas todas para que no suenen iguales:
+      *cómo* · *por qué* · *lo que* / *el coste de* / *el peligro de* ·
+      un sustantivo con su relativo · un infinitivo.
 
    4. CINCO POR LIBRO. Es lo que cabe en la tarjeta sin desplazar la pantalla.
 
-   5. SIN VENDER. Ni «descubre», ni «el secreto de», ni «imprescindible».
+   5. SIN VENDER. Ni «descubre», ni «el secreto de», ni «imprescindible». Y
+      sin consignas: «que tu voz importa» no es un conocimiento.
 
-   Un libro sin entrada aquí cae en los títulos de sus capítulos, que son
-   cortos y concretos pero hablan del recorrido y no de lo que te llevas. Se
-   nota la diferencia, y por eso esta lista se va llenando.
+   `node scripts/revisa-puntos.mjs` marca lo que se puede detectar a máquina:
+   fechas, cifras de año, longitud y las fórmulas de pregunta de examen.
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
   "siete-pecados": [
-    "qué indicio físico despertó la sospecha en 1999",
-    "por qué el ciclismo necesitaba una historia limpia",
-    "quiénes declararon sin ganar nada con ello",
-    "cómo se usan las demandas para silenciar",
-    "qué papel jugó la fundación contra el cáncer",
+    "por qué cuanto mejor es una historia menos gente quiere comprobarla",
+    "por qué un sector que necesita buenas noticias deja de examinarlas",
+    "qué preguntarse ante un testimonio que acusa a alguien poderoso",
+    "cómo se usan las demandas para silenciar sin demostrar nada",
+    "por qué una buena causa alrededor de alguien funciona como blindaje",
   ],
 
   "nunca-te-pares": [
-    "cómo consiguió la distribución sin tener ninguna empresa",
-    "por qué crecer el cien por cien anual casi lo arruina",
-    "de dónde salieron el nombre y el símbolo",
-    "cómo se pelea una reclamación que te puede cerrar",
-    "qué se llevó por delante todo aquello",
+    "por qué un negocio que crece rápido quiebra por caja y no por ventas",
+    "por qué al principio no necesitas profesionales sino obsesionados",
+    "dónde está la ventaja real: en lo que solo tú puedes fabricar",
+    "de dónde llega el golpe cuando empiezas a molestar de verdad",
+    "lo que se lleva por delante dedicarle veinte años a una sola cosa",
   ],
 
   "legado-all-blacks": [
-    "por qué los veteranos limpian el vestuario después de jugar",
-    "cómo se descarta a un jugador por carácter",
-    "qué significa que la camiseta esté prestada",
-    "qué hacer con la cabeza cuando llega el pánico",
-    "por qué un ritual inventado por el jefe no funciona",
+    "por qué a un grupo bueno lo hunde creerse que ya se lo ganó",
+    "cómo se instala un valor: haciéndolo el de arriba cuando le incomoda",
+    "por qué una norma que nunca te ha costado nada no es una norma",
+    "qué gesto ensayado corta el bucle cuando llega el pánico",
+    "por qué un ritual que acaba de inventar el jefe no engaña a nadie",
   ],
 
   "gen-deportivo": [
-    "cómo ganó un mundial alguien con ocho meses de práctica",
-    "por qué los bateadores fallaron contra una lanzadora de sóftbol",
-    "qué pasó cuando quinientas personas hicieron el mismo programa",
-    "por qué los corredores kenianos salen de unos pocos valles",
-    "para qué sirven y para qué no los tests genéticos",
+    "por qué la pregunta no es si importa el talento sino cuánto explica",
+    "por qué el entrenamiento te acerca a tu techo pero no te lo cambia",
+    "por qué toda maestría es específica y fuera de su terreno no sirve",
+    "por qué el mismo programa mejora muchísimo a unos y nada a otros",
+    "para qué sirven y para qué no los tests genéticos que se venden",
   ],
 
   "numero-uno": [
-    "por qué un conductor veterano no conduce mejor",
-    "qué recuerda un maestro de ajedrez y qué no",
-    "qué se entendió mal de las diez mil horas",
-    "qué requisitos tiene que cumplir un entrenamiento para servir",
-    "por qué el oído absoluto se puede enseñar",
+    "por qué acumular años haciendo algo no te hace mejor en ello",
+    "por qué muchos límites del cerebro son solo límites de tu método",
+    "qué tiene un experto que no se puede transmitir con una explicación",
+    "qué requisitos cumple un entrenamiento que de verdad mejora a alguien",
+    "por qué en varias profesiones se empeora a medida que se acumula oficio",
   ],
 
   "hablo-correr": [
     "por qué no hay que descansar nunca dos días seguidos",
-    "por qué para de escribir cuando aún sabe cómo sigue",
-    "en qué piensa exactamente mientras corre",
-    "qué le pasó al pasar del kilómetro setenta y cinco",
-    "qué hizo cuando dejó de poder mejorar sus marcas",
+    "por qué conviene parar antes de agotarte para tener ganas mañana",
+    "cuáles de los requisitos de un oficio se entrenan y cuál no",
+    "por qué después de llevar algo al límite deja de importarte un tiempo",
+    "cómo se cambia la vara de medir cuando ya no puedes mejorar",
   ],
 
   "rey-del-mundo": [
-    "qué dos papeles encarnaban Patterson y Liston",
-    "de dónde sacó su manera de hablar en público",
-    "qué pasó de verdad en Miami en febrero de 1964",
-    "por qué la prensa se negó a usar su nombre nuevo",
-    "cómo acabó su amistad con Malcolm X",
+    "qué haces cuando los dos papeles que te ofrecen los ha escrito otro",
+    "por qué el que decide cómo se habla de él deja de depender",
+    "cómo se gana a un rival confiado cambiando el juego en vez de mejorarlo",
+    "lo que un grupo que te protege te va a pedir que sacrifiques",
+    "por qué juzgar lo nuevo con la vara de lo viejo falla siempre",
   ],
 
   "remando-un-hombre": [
-    "qué es el momento en que un bote parece levantarse",
-    "por qué los ocho mejores remeros no forman el mejor equipo",
-    "cómo se pagaron ellos mismos el viaje a Berlín",
-    "qué pasó en la final del 14 de agosto de 1936",
-    "qué decía el constructor de barcos sobre la madera",
+    "por qué los ocho mejores no forman nunca el mejor equipo",
+    "qué ocurre cuando un grupo por fin se mueve exactamente a la vez",
+    "cómo aprende a depender de otros alguien a quien abandonaron pronto",
+    "por qué lo que crece deprisa y protegido se rompe antes",
+    "lo que te enseña un trabajo duro y ajeno a lo tuyo",
   ],
 
   "mamba-mentality": [
-    "qué buscaba exactamente cuando estudiaba vídeo de un rival",
-    "por qué se aprendió el reglamento y a los árbitros",
-    "cómo aprendió a moverse en la Italia de su infancia",
-    "cómo se le pide a un veterano que te enseñe",
-    "en qué consiste de verdad la mentalidad mamba",
+    "qué se mira exactamente al estudiar a alguien a quien vas a enfrentarte",
+    "por qué conviene aprenderse las reglas mejor que quien las aplica",
+    "cómo se le pide a alguien mejor que tú que te enseñe lo suyo",
+    "por qué lo que llevas años haciendo sin pensar es donde queda margen",
+    "por qué un método excelente puede ser pésimo consejo para casi todos",
   ],
 
   "once-anillos": [
-    "en qué consiste el sistema del triángulo y por qué funciona",
-    "cómo convenció a Jordan de que pasara el balón",
-    "por qué no pedía tiempo muerto cuando su equipo fallaba",
-    "cómo dirigía a los jugadores imposibles de dirigir",
-    "por qué mirar el marcador te hace jugar peor",
+    "por qué una estructura clara da más libertad que no tener ninguna",
+    "cómo se convence al mejor del equipo de que reparta",
+    "por qué cada instrucción que das gasta autoridad",
+    "cómo se dirige a la gente difícil sin tratarla como a los demás",
+    "por qué mirar el marcador todo el rato te hace jugar peor",
   ],
 
   moneyball: [
-    "por qué las eliminaciones son el recurso escaso del béisbol",
-    "cómo elegían los ojeadores antes de que llegaran los datos",
-    "quién era el vigilante nocturno que lo descubrió todo",
-    "por qué los jugadores baratos parecían siempre defectuosos",
-    "por qué la ventaja se cerró en pocos años",
+    "cómo se detecta que un sector entero lleva un siglo midiendo mal",
+    "por qué hay que saber cuál es el recurso que se te acaba",
+    "por qué un defecto visible hace que se descuente todo lo bueno",
+    "dónde están las ventajas baratas: en lo que a los demás les da vergüenza",
+    "por qué un buen método mejora tus probabilidades y no te garantiza nada",
   ],
 
   "rafa-mi-historia": [
-    "cómo era el método de entrenamiento del tío Toni",
-    "por qué juega con la izquierda si es diestro",
-    "para qué sirven de verdad las botellas alineadas",
-    "qué le pasó en el año en que todo se rompió",
-    "qué le enseñaron las dos finales que perdió antes",
+    "por qué quejarte del viento le anuncia al rival que vas perdiendo",
+    "cómo se administra el miedo sin esperar a que desaparezca",
+    "para qué sirven de verdad las rutinas antes de algo importante",
+    "por qué la concentración se agota y hay que volver a encenderla",
+    "cómo un rival que te supera te obliga a inventar un plan mejor",
   ],
 
   "soy-zlatan": [
-    "por qué unos padres pidieron que lo echaran del equipo",
-    "qué le enseñó Capello que no sabía hacer",
-    "qué pasó de verdad en su año en el Barcelona",
-    "cómo se conquista un vestuario en la primera semana",
-    "para qué sirve anunciar lo que vas a hacer",
+    "qué haces cuando sabes que no vas a encajar por más que lo intentes",
+    "por qué te mejora más quien te obliga a repetir lo que odias",
+    "cómo se conquista un grupo nuevo en la primera semana",
+    "por qué un sitio prestigioso no sirve si allí sobra lo que sabes hacer",
+    "para qué sirve anunciar en voz alta lo que vas a hacer",
   ],
 
   "cruyff-14": [
-    "en qué consistía de verdad el fútbol total del Ajax",
-    "por qué se llamó Jordi el hijo de un holandés",
-    "por qué no fue al Mundial de 1978",
-    "qué dejó montado en la cantera del Barcelona",
-    "por qué desconfiaba de los jugadores que corren mucho",
+    "por qué obedecer sin entender te deja indefenso cuando falla el plan",
+    "cómo se ocupa un espacio en vez de correr detrás del que lo tiene",
+    "lo que cuesta y lo que da elegir bando en público",
+    "por qué correr mucho suele ser la prueba de que saliste tarde",
+    "cómo se deja montado un sistema que funciona sin ti",
   ],
 
   "fiebre-gradas": [
     "por qué el estado natural del hincha es la decepción",
-    "qué le dio el fútbol a un niño con padres separados",
-    "cómo eran las gradas inglesas antes de Hillsborough",
-    "qué pasó en Anfield el 26 de mayo de 1989",
-    "qué precio se paga por pertenecer a algo grande",
+    "cómo una recompensa rara e imprevisible engancha más que una segura",
+    "lo que un refugio te da y lo que te acaba quitando",
+    "por qué lo que llevas veinte años esperando no arregla tu vida",
+    "el precio en silencios que se paga por pertenecer a algo grande",
   ],
 
   "futbol-contra-enemigo": [
-    "por qué Holanda celebró la victoria de 1988 como una liberación",
-    "qué hacía el Camp Nou bajo la dictadura de Franco",
-    "qué pasó en el partido de la muerte de Kiev",
-    "cómo un presidente africano elegía la alineación de su selección",
-    "por qué en Estados Unidos el fútbol no significaba nada",
+    "por qué un país dice en el estadio lo que calla en otros sitios",
+    "qué le pasa a una identidad cuando le cierran todos los cauces menos uno",
+    "por qué una historia falsa puede sostener el orgullo de una ciudad",
+    "cómo se gobierna un deporte donde el Estado no llega",
+    "por qué el mismo juego no significa nada en algunos países",
   ],
 
   "futbol-sol-sombra": [
-    "por qué el gol vale tanto en un juego sin goles",
-    "cómo el potrero de tierra inventó el regate sudamericano",
-    "qué se jugaba en el Mundial de Argentina de 1978",
-    "de dónde viene la frase del placer al deber",
-    "en qué acertó Galeano y en qué se equivocó",
+    "por qué lo que escasea en un espectáculo es lo que le da valor",
+    "cómo la falta de espacio y de dinero inventa un estilo propio",
+    "para qué le sirve el deporte a un gobierno con problemas",
+    "por qué una industria que teme perder acaba castigando la belleza",
+    "en qué acierta y en qué se equivoca el que denuncia lo que ama",
   ],
 
   "piramide-invertida": [
-    "por qué el pase lo inventaron los escoceses",
-    "qué cambió cuando se tocó el fuera de juego en 1925",
-    "qué demostró Hungría en Wembley en 1953",
-    "en qué consiste exactamente la regla de los veinticinco metros",
-    "por qué cada vez hay menos delanteros sobre el campo",
+    "por qué el pase se inventó donde había peores jugadores individuales",
+    "cómo un cambio pequeño de reglamento reordena un deporte entero",
+    "por qué el sistema que arrasa hoy será el más fácil de batir mañana",
+    "cómo se defiende un equipo adelantando la línea en vez de retrasarla",
+    "por qué cada década sobran más delanteros y faltan más centrocampistas",
   ],
 
   "yo-soy-el-diego": [
-    "de qué barrio salió y qué explica eso de sus peleas",
-    "qué significó para una ciudad pobre ganar dos ligas italianas",
-    "qué dice catorce años después sobre el gol con la mano",
-    "cuándo sitúa él el principio de su consumo de cocaína",
-    "qué falta en el libro y en qué dirección deforma",
+    "cómo el barrio en el que naces decide contra quién peleas",
+    "lo que significa para una ciudad pobre ganarle a las ricas",
+    "por qué un tramposo célebre no se arrepiente nunca en público",
+    "cómo empieza una adicción cuando nadie a tu alrededor quiere verla",
+    "en qué deforma un libro cuando lo cuenta el propio protagonista",
   ],
 
   "el-elemento": [
-    "qué dos cosas tienen que coincidir para que algo sea tu elemento",
-    "por qué la escuela sigue teniendo forma de fábrica del siglo XIX",
-    "qué demuestra que nadie viera el talento de Paul McCartney",
-    "por qué los estilos de aprendizaje no existen",
-    "qué dice la investigación sobre eso de seguir tu pasión",
+    "qué dos cosas tienen que coincidir para encontrar lo tuyo",
+    "por qué la escuela sigue teniendo la forma de una fábrica",
+    "cómo se le pasa por alto un talento enorme a quien debería verlo",
+    "por qué los estilos de aprendizaje no existen, aunque se enseñen",
+    "qué se sabe realmente sobre eso de seguir tu pasión",
   ],
 
   "heroe-mil-caras": [
-    "por qué el héroe empieza siempre rechazando la llamada",
-    "qué es el vientre de la ballena y para qué sirve en el relato",
-    "por qué la parte difícil del recorrido es volver",
-    "de quién es realmente la estructura de tres tiempos",
+    "por qué casi todo héroe empieza rechazando lo que le proponen",
+    "para qué sirve en un relato el momento en que todo se hunde",
+    "por qué la parte difícil de un viaje es siempre la vuelta",
+    "de quién es realmente la estructura que usan todas las películas",
     "por qué un esquema que encaja con todo no informa de nada",
   ],
 
   reproductibilidad: [
-    "en qué se diferencia copiar a mano de copiar con una máquina",
-    "qué es exactamente el aura, con su definición",
-    "por qué su destrucción le parecía una buena noticia",
-    "qué le ocurre a un actor cuando actúa ante un aparato",
-    "por qué el ensayo termina hablando de la guerra",
+    "en qué se diferencia copiar algo a mano de copiarlo con una máquina",
+    "qué pierde una obra cuando cualquiera puede tener una copia",
+    "por qué esa pérdida puede ser una buena noticia y no un desastre",
+    "qué le ocurre a un actor cuando actúa delante de un aparato",
+    "cómo un régimen convierte la política en un espectáculo bonito",
   ],
 
   "espiritual-arte": [
-    "cuál es el único criterio que admite para juzgar una obra",
-    "el modelo del triángulo y el daño que ha hecho",
-    "qué dice sobre los colores y qué se sabe hoy de eso",
-    "por qué la comparación con la música desarma la objeción habitual",
-    "qué significa exactamente lo espiritual del título",
+    "cuál es el único criterio para juzgar si una obra vale algo",
+    "por qué la idea de que el arte va por delante ha hecho daño",
+    "qué se creía sobre lo que provocan los colores y qué se sabe hoy",
+    "por qué comparar la pintura con la música desarma la objeción habitual",
+    "qué se gana cuando un cuadro deja de tener que parecerse a algo",
   ],
 
   "vidas-vasari": [
-    "el esquema de tres edades con el que ordenó el arte europeo",
-    "por qué llamó gótico a lo medieval y con qué intención",
-    "qué cambió cuando un pintor dejó de ser un artesano",
-    "cuáles de sus anécdotas famosas están comprobadas",
-    "qué hizo Miguel Ángel al leer su propia biografía",
+    "cómo se ordena la historia del arte y a quién beneficia ese orden",
+    "por qué llamamos gótico a algo que nadie llamó así en su época",
+    "qué cambia cuando un artesano empieza a considerarse un artista",
+    "cómo se comprueba si una anécdota famosa ocurrió de verdad",
+    "qué pasa cuando alguien lee en vida su propia biografía",
   ],
 
   "van-gogh-cartas": [
-    "en qué cuatro oficios fracasó antes de coger un pincel",
-    "de qué vivió durante los diez años que duró su carrera",
-    "qué se proponía hacer exactamente con el rojo y el verde",
-    "qué tono tienen las cartas escritas desde el manicomio",
-    "quién consiguió que hoy conozcas sus cuadros",
+    "en cuántos oficios se puede fracasar antes de encontrar el propio",
+    "de qué vive quien no vende nada durante diez años",
+    "qué se busca al poner dos colores enfrentados en un cuadro",
+    "cómo escribe sobre su trabajo alguien encerrado en un manicomio",
+    "de quién depende que hoy conozcamos a un artista que murió pobre",
   ],
 
   "arte-sin-hombres": [
-    "por qué no poder dibujar del natural cerraba una carrera entera",
-    "qué le hicieron a Artemisia Gentileschi en el juicio de 1612",
-    "cómo se borraba a una pintora cambiándole la firma",
-    "quién pintó el primer cuadro abstracto y en qué año",
-    "cuánto menos vale hoy el mismo cuadro firmado por una mujer",
+    "cómo se cierra una carrera entera prohibiendo una sola clase",
+    "qué le hacían a una mujer que denunciaba una violación entonces",
+    "cómo se borra a una artista cambiándole la firma a un cuadro",
+    "quién pintó el primer cuadro abstracto, que no fue quien te enseñaron",
+    "cuánto menos vale el mismo cuadro si lo firma una mujer",
   ],
 
   imperiofobia: [
-    "qué mecanismo propone y por qué no se puede desmentir",
-    "quién escribió el libro con el que se construyó la leyenda negra",
-    "qué dicen las cifras contadas de la Inquisición",
-    "por qué en España casi no hubo caza de brujas",
-    "qué deja fuera el libro y por qué eso pesa",
+    "por qué todo imperio genera un desprecio que le sobrevive siglos",
+    "cómo se fabrica la mala fama de un país y quién la escribe",
+    "por qué una cifra repetida mil veces no se parece a la contada",
+    "por qué una explicación que sirve para todo no explica nada",
+    "cómo distinguir corregir un tópico de fabricar el tópico contrario",
   ],
 
   "homo-sovieticus": [
-    "cómo está construido un libro hecho solo de monólogos ajenos",
-    "qué libertad esperaba la gente y qué recibió",
-    "qué pasó con los ahorros de una vida en enero de 1992",
-    "por qué nadie respondió nunca de lo ocurrido en setenta años",
-    "de dónde viene la nostalgia, que no es del comunismo",
+    "cómo se cuenta un país entero solo con voces de gente corriente",
+    "qué le pasa a quien recibe una libertad que no había pedido así",
+    "cómo desaparecen en unas semanas los ahorros de toda una vida",
+    "por qué hay regímenes de los que nadie responde nunca",
+    "de qué es la nostalgia de quien echa de menos una dictadura",
   ],
 
   "guerra-civil-thomas": [
-    "por qué un golpe que fracasa a medias produce una guerra",
-    "cómo el bando legal se quedó sin Estado en la primera semana",
-    "en qué consistió realmente el acuerdo de no intervención",
-    "qué diferencia hay entre las matanzas de las dos retaguardias",
-    "por qué perdió la República, además de por las armas",
+    "por qué un golpe de Estado que fracasa a medias produce una guerra",
+    "qué le pasa a un gobierno legal que se queda sin ejército ni policía",
+    "cómo un pacto de no intervención puede favorecer a un solo bando",
+    "en qué se diferencian las matanzas de una retaguardia y de la otra",
+    "por qué se pierde una guerra por motivos que no son militares",
   ],
 
   "auschwitz-rees": [
-    "cómo cambió de función el campo cuatro veces en cuatro años",
-    "de dónde salió el gas que se usó para matar",
-    "por qué se buscaron las cámaras de gas, que no fue por eficiencia",
-    "qué gobiernos entregaron a sus propios ciudadanos y cuál cobró",
-    "qué dijeron los antiguos miembros de las SS al ser entrevistados",
+    "cómo un sitio cambia de función cuatro veces sin que nadie lo planee",
+    "por qué una burocracia hace posible lo que ninguna persona haría sola",
+    "qué buscaban de verdad los que eligieron un método de matar",
+    "qué hace un gobierno cuando le piden entregar a sus propios vecinos",
+    "qué contestan cincuenta años después los que participaron en aquello",
   ],
 
   tatuador: [
-    "qué era un prisionero con función y qué compraba con ese puesto",
-    "por qué Auschwitz fue el único campo que tatuaba números",
-    "cómo funcionaba el mercado negro dentro del campo",
-    "qué errores documentó el Museo de Auschwitz en 2018",
-    "por qué esos errores no son un asunto de pedantería",
+    "cómo sobrevive alguien a quien le dan un puesto dentro del horror",
+    "qué compra y qué cuesta un privilegio concedido por tus verdugos",
+    "cómo funciona un mercado negro donde no existe el dinero",
+    "por qué una novela basada en hechos reales sigue siendo una novela",
+    "por qué los errores de detalle importan al contar un genocidio",
   ],
 
   postguerra: [
-    "sobre qué traslado forzoso de población se levantó la paz",
-    "qué hizo de verdad el Plan Marshall, que no fue reconstruir",
-    "por qué el crecimiento de los años cincuenta era irrepetible",
-    "por qué el acontecimiento político de 1968 fue Praga y no París",
-    "cuándo empezó Europa a recordar a sus judíos asesinados",
+    "sobre qué se levantó la paz europea, que no fue la reconciliación",
+    "para qué sirvió de verdad el dinero americano de la posguerra",
+    "por qué el crecimiento de aquellas décadas no se puede repetir",
+    "cuánto tarda un continente en atreverse a mirar su propio pasado",
+    "por qué un país recuerda lo que le conviene y olvida el resto",
   ],
 
   "canones-agosto": [
-    "por qué el plan alemán obligaba a invadir un país neutral",
-    "qué costó la doctrina francesa de atacar siempre",
-    "qué pasó el día en que el káiser quiso parar el despliegue",
-    "cómo dos barcos metieron al imperio otomano en la guerra",
-    "por qué Kennedy repartió este libro en 1962",
+    "cómo un plan militar rígido arrastra a un país a una guerra",
+    "lo que cuesta una doctrina que ordena atacar siempre",
+    "por qué llega un punto en que nadie puede ya parar nada",
+    "cómo un detalle logístico decide de qué bando se pone un imperio",
+    "por qué conviene leer cómo empezó una guerra antes de empezar otra",
   ],
 
   "ensayos-montaigne": [
-    "qué significaba la palabra «ensayo» cuando la inventó",
-    "por qué corregía añadiendo y no borraba nunca",
-    "qué le dijeron los tres brasileños que conoció en Ruán en 1562",
-    "por qué saber de memoria no es saber",
-    "cómo cambió de opinión sobre la muerte en veinte años",
+    "qué significa ensayar una idea en vez de demostrarla",
+    "por qué corregirse añadiendo enseña más que borrar lo anterior",
+    "cómo mirar tu propia cultura desde fuera y qué se ve entonces",
+    "por qué saber algo de memoria no es saberlo",
+    "cómo se cambia de opinión sobre la muerte a lo largo de una vida",
   ],
 
   "existencialismo-humanismo": [
-    "qué significa que la existencia preceda a la esencia",
-    "por qué elegir por uno mismo sería elegir por todos",
-    "en qué sentido estamos condenados a ser libres",
-    "el caso del estudiante que ninguna doctrina resolvía",
-    "por qué su propio autor se arrepintió de haberlo publicado",
+    "qué significa que primero existas y solo después decidas quién eres",
+    "por qué cada decisión tuya propone en silencio cómo debería vivir todo el mundo",
+    "en qué sentido no puedes librarte de ser libre",
+    "por qué ninguna doctrina te va a resolver la decisión difícil",
+    "por qué un autor puede arrepentirse de su libro más leído",
   ],
 
   "mas-alla-bien-mal": [
-    "por qué toda filosofía sería una confesión involuntaria",
-    "qué le objeta al «pienso, luego existo» de Descartes",
-    "qué significa exactamente voluntad de poder",
-    "en qué se diferencian la moral de señores y la de esclavos",
-    "qué hizo su hermana con sus manuscritos",
+    "por qué una filosofía sería la confesión involuntaria de quien la escribe",
+    "qué le falla al «pienso, luego existo» de Descartes",
+    "en qué se diferencian una moral de fuertes y una de débiles",
+    "qué quiere decir que lo que te mueve no sea la razón",
+    "cómo se falsifica la obra de un muerto y para qué sirve luego",
   ],
 
   "contrato-social": [
-    "por qué la fuerza no crea ninguna obligación",
-    "el problema exacto que el contrato tiene que resolver",
-    "qué es la voluntad general y por qué no es la de la mayoría",
-    "por qué sostiene que la soberanía no se puede delegar",
-    "las dos frases suyas por las que se le acusa desde 1952",
+    "por qué la fuerza no crea ninguna obligación de obedecer",
+    "qué problema tiene que resolver cualquier gobierno para ser legítimo",
+    "en qué se diferencia lo que quiere la mayoría de lo que conviene",
+    "por qué hay poderes que no se pueden delegar en un representante",
+    "cómo se usa a un pensador para justificar lo contrario de lo que dijo",
   ],
 
   "etica-nicomaco": [
     "por qué la felicidad de la que habla no se puede tener un martes",
-    "por qué nadie se vuelve justo entendiendo la justicia",
-    "qué dice de verdad la doctrina del término medio",
-    "cómo se puede saber lo correcto y hacer lo contrario",
-    "por qué dedica una quinta parte del libro a la amistad",
+    "por qué nadie se vuelve justo entendiendo lo que es la justicia",
+    "qué dice de verdad el término medio, que no es la mediocridad",
+    "cómo se puede saber lo correcto y hacer exactamente lo contrario",
+    "por qué la amistad ocupa una quinta parte de un tratado de ética",
   ],
 
   "etica-amador": [
-    "por qué la libertad no consiste en poder hacerlo todo",
-    "las tres cosas que confundimos con razones para actuar",
-    "qué diferencia hay entre querer algo y que te apetezca",
-    "por qué se es humano solo porque otros te tratan como tal",
-    "dónde acaba la ética y empieza la política",
+    "por qué la libertad no consiste en poder hacer cualquier cosa",
+    "las tres cosas que confundimos con razones para hacer algo",
+    "qué diferencia hay entre querer algo y que simplemente te apetezca",
+    "por qué eres humano solo porque otros te han tratado como tal",
+    "dónde acaba lo que decides tú y empieza lo que decidimos entre todos",
   ],
 
   "cuentos-poe": [
-    "la regla de 1842 con la que fundó el cuento moderno",
+    "la regla con la que se fundó el cuento moderno",
     "cómo funciona un narrador al que no se puede creer",
-    "las cuatro piezas del género policiaco, ya montadas en 1841",
+    "las cuatro piezas con las que se monta cualquier relato policiaco",
     "por qué un escondite a la vista derrota a una búsqueda minuciosa",
-    "quién fabricó el retrato del Poe borracho y loco",
+    "cómo se fabrica la leyenda negra de un escritor después de muerto",
   ],
 
   mujercitas: [
-    "cómo el primer capítulo instala toda la moral del libro",
-    "qué vende Jo March y por cuánto",
-    "de qué libro de 1678 sale la estructura de la primera parte",
-    "por qué Alcott se negó a casar a Jo con Laurie",
-    "por qué Amy ha dejado de ser la hermana antipática",
+    "cómo un primer capítulo instala la moral de todo un libro",
+    "cuánto le pagaban a una escritora por lo que sabía que era malo",
+    "de qué libro antiguo sale la estructura de media literatura juvenil",
+    "por qué una autora niega a sus lectores el final que le piden",
+    "por qué el personaje antipático de un libro deja de serlo con los años",
   ],
 
   "renglones-torcidos": [
-    "por qué su historia no se puede confirmar ni desmentir",
-    "cómo dos psiquiatras llegan a conclusiones opuestas del mismo expediente",
-    "quiénes son los internos y qué tienen intacto",
-    "qué pasa cuando negar la acusación cuenta como prueba",
-    "qué cambió en la psiquiatría justo después de este libro",
+    "por qué una historia contada desde dentro no se puede confirmar",
+    "cómo dos expertos llegan a conclusiones opuestas con el mismo informe",
+    "qué pasa cuando negar una acusación cuenta como prueba de culpa",
+    "por qué es tan difícil demostrar que estás cuerdo desde dentro",
+    "qué cambió en la psiquiatría justo después de que saliera este libro",
   ],
 
   "elegancia-erizo": [
-    "por qué un disfraz así aguanta veintisiete años",
-    "qué está diagnosticando Paloma cuando decide morirse",
-    "cómo una cita de Tolstói derriba todo el montaje",
-    "de dónde sale el erizo del título y quién lo escribe",
-    "por qué su final es lo más discutido del libro",
+    "por qué alguien esconde durante décadas lo que sabe",
+    "qué está diagnosticando una adolescente cuando decide morirse",
+    "cómo un detalle mínimo derriba un disfraz de veintisiete años",
+    "por qué la clase social decide quién puede parecer culto",
+    "por qué un final abrupto puede arruinar o salvar una novela",
   ],
 
   "el-tunel": [
-    "por qué contar el final en la primera línea cambia el libro",
-    "el detalle de un cuadro del que nace todo",
+    "por qué contar el final en la primera línea cambia todo el libro",
+    "cómo un detalle que solo tú ves se convierte en una obsesión",
     "por qué los celos funcionan como un método y no como una emoción",
-    "qué significa que el marido de María sea ciego",
-    "de dónde sale la imagen de los túneles paralelos",
+    "cómo alguien construye pruebas de lo que ya ha decidido creer",
+    "de dónde sale la imagen de dos personas que no llegan a tocarse",
   ],
 
   "intro-psicoanalisis": [
-    "por qué un lapsus tendría dos intenciones dentro",
+    "por qué una equivocación al hablar tendría dos intenciones dentro",
     "las cuatro operaciones con las que se fabrica un sueño",
     "en qué sentido un síntoma es un acuerdo entre dos fuerzas",
-    "qué es la transferencia y por qué la llamó obstáculo e instrumento",
-    "qué corrigió el propio Freud de este libro en 1926 y 1933",
+    "por qué el paciente acaba tratando al médico como a otra persona",
+    "qué corrigió el propio Freud de su libro más leído",
   ],
 
   "cosas-buenas": [
-    "qué hace el cortisol y qué no puedes hacer con él",
+    "qué hace el cortisol y qué no vas a poder hacer con él",
     "por qué dar vueltas a lo mismo predice una depresión",
     "qué hay de cierto en que el cerebro no distinga lo imaginado",
     "por qué las cuatro hormonas de la felicidad no explican nada",
-    "qué predijo la salud a los ochenta en el estudio de Harvard",
+    "qué predice de verdad cómo estarás de salud a los ochenta",
   ],
 
   "maneras-de-amar": [
-    "de dónde salieron los tres estilos de apego y cuándo",
-    "la lista exacta de lo que hace alguien ansioso al sentirse lejos",
-    "las maniobras con las que un evitativo mantiene la distancia",
-    "por qué esas dos personas se emparejan tanto entre sí",
-    "por qué apoyarte bien en alguien te vuelve más autónomo",
+    "de dónde salen los tres modos de comportarse dentro de una pareja",
+    "qué hace exactamente alguien ansioso cuando siente que se aleja el otro",
+    "las maniobras con las que una persona evitativa mantiene la distancia",
+    "por qué esas dos formas de ser se emparejan tanto entre sí",
+    "por qué apoyarte bien en alguien te vuelve más autónomo y no menos",
   ],
 
   "cerebro-del-nino": [
-    "el modelo del cerebro que se hace con una mano",
-    "distinguir un berrinche calculado de uno desbordado",
-    "por qué conectar antes de corregir no es ceder",
-    "qué le pasa a la amígdala cuando pones nombre a una emoción",
-    "detectar el neuromito sobre el que está montado el libro",
+    "un modelo del cerebro que se explica con una sola mano",
+    "cómo distinguir un berrinche calculado de uno desbordado",
+    "por qué calmar antes de corregir no es ceder",
+    "qué le pasa al miedo cuando le pones nombre a lo que sientes",
+    "cómo detectar el mito científico sobre el que se monta un libro",
   ],
 
   "poder-metabolismo": [
-    "la regla del plato de dos tercios y un tercio",
-    "qué le pasa a la grelina cuando duermes cuatro horas",
+    "cómo se reparte un plato sin tener que contar nada",
+    "qué le pasa al hambre cuando duermes cuatro horas",
     "qué es el metabolismo y cómo se mide de verdad",
-    "por qué el capítulo del hongo no describe ningún diagnóstico",
-    "confirmar una sospecha de tiroides con un análisis corriente",
+    "por qué un diagnóstico que no existe se vende igual de bien",
+    "cómo confirmar una sospecha de tiroides con un análisis corriente",
   ],
 
   "vivir-plenitud": [
-    "en qué consiste exactamente el programa de ocho semanas",
-    "qué demuestra el ejercicio de comerse una pasa",
-    "separar un dolor de la historia que te cuentas sobre él",
-    "por qué aceptar no es lo mismo que resignarse",
-    "qué encontraron los ensayos, incluidos los efectos adversos",
+    "en qué consiste exactamente un programa de reducción del estrés",
+    "qué demuestra pasarse diez minutos comiendo una sola pasa",
+    "cómo separar un dolor de la historia que te cuentas sobre él",
+    "por qué aceptar algo no es lo mismo que resignarse",
+    "qué encontraron los ensayos, incluidos los efectos que nadie cuenta",
   ],
 
   "milagro-metabolico": [
-    "qué hace exactamente la insulina y por qué bloquea la grasa",
-    "por qué contar calorías es cierto y no sirve",
-    "qué se sabe del ayuno intermitente cuando se mide",
-    "con qué se consiguió revertir la diabetes tipo 2 en el ensayo DiRECT",
-    "separar la lista de la compra, que es buena, del mecanismo",
+    "qué hace la insulina y por qué bloquea el uso de la grasa",
+    "por qué contar calorías es cierto y aun así no te sirve",
+    "qué se sabe del ayuno intermitente cuando por fin se mide",
+    "con qué se consiguió revertir una diabetes en un ensayo serio",
+    "cómo separar los consejos buenos de la teoría que los envuelve",
   ],
 
   invencible: [
-    "separar lo que depende de ti de lo que no, y su límite",
-    "la frase que se cuela entre lo que pasa y lo que sientes",
-    "escribir por qué fracasó algo que aún no ha empezado",
-    "la fórmula de una línea que triplicó el cumplimiento",
+    "cómo separar lo que depende de ti de lo que no",
+    "qué frase se cuela entre lo que te pasa y lo que sientes",
+    "por qué escribir por qué fracasará algo antes de empezarlo",
+    "una fórmula de una línea que triplica las probabilidades de cumplir algo",
     "por qué la fuerza de voluntad no es un depósito que se vacía",
   ],
 
   "repensar-pobreza": [
-    "por qué la discusión sobre si la ayuda funciona no tiene respuesta",
-    "qué compra una familia pobre cuando le sobra dinero",
-    "por qué nadie paga céntimos por lo que salva vidas",
-    "qué midieron cuando por fin midieron el microcrédito",
-    "las tres causas por las que fracasan los programas",
+    "por qué la pregunta de si la ayuda funciona no tiene respuesta",
+    "en qué se gasta el dinero una familia pobre cuando le sobra algo",
+    "por qué nadie paga céntimos por lo que le salvaría la vida",
+    "qué pasó cuando por fin se midió si el microcrédito funcionaba",
+    "las tres razones por las que fracasa un programa bienintencionado",
   ],
 
   "doctrina-shock": [
-    "por qué el plan económico chileno estaba escrito antes del golpe",
-    "quién nacionalizó la banca de Chile en 1983",
-    "cómo se repartió la economía rusa después de octubre de 1993",
-    "qué firmó Sudáfrica en la mesa que no salía en las noticias",
-    "distinguir los diez casos documentados de la tesis que los une",
+    "cómo se aprovecha una catástrofe para aprobar lo que nadie votaría",
+    "por qué un plan económico puede estar escrito antes del golpe",
+    "qué le pasa a una economía que se privatiza entera en dos años",
+    "qué se firma en una negociación política que no sale en las noticias",
+    "cómo distinguir los casos documentados de la teoría que los une",
   ],
 
   "dinero-domina-juego": [
-    "por qué el porcentaje que apartas manda sobre el fondo que eliges",
+    "por qué el porcentaje que apartas manda sobre el fondo que elijas",
     "si quien te aconseja cobra de ti o de lo que te vende",
-    "la cartera de cuatro climas que Ray Dalio publicó aquí",
-    "calcular la cifra exacta que te hace falta para vivir",
-    "leer con lupa el capítulo de las rentas vitalicias",
+    "una cartera pensada para aguantar los cuatro escenarios posibles",
+    "cómo calcular la cifra exacta que te haría falta para vivir",
+    "qué mirar con lupa cuando alguien te ofrece una renta de por vida",
   ],
 
   superpronosticadores: [
-    "cómo se puntúa una predicción desde 1950",
-    "por qué el experto más famoso suele acertar menos",
-    "partir una pregunta imposible en cuatro difíciles",
-    "empezar por la frecuencia general y no por el caso",
-    "qué acertaron y qué fallaron desde que salió el libro",
+    "cómo se puntúa si una predicción fue buena o mala",
+    "por qué el experto más famoso suele acertar menos que los demás",
+    "cómo partir una pregunta imposible en cuatro preguntas difíciles",
+    "por qué hay que empezar por la frecuencia general y no por el caso",
+    "qué rasgos comparten los que aciertan más que el resto",
   ],
 
   "paseo-aleatorio": [
     "qué significa exactamente que la bolsa sea un paseo aleatorio",
-    "el concurso de belleza de Keynes y por qué explica las burbujas",
-    "por qué el análisis técnico no sobrevive a un examen",
-    "qué aciertan las previsiones de beneficios de los analistas",
-    "distinguir un precio correcto de un precio imbatible",
+    "por qué la gente compra lo que cree que comprarán los demás",
+    "por qué el análisis de gráficos no sobrevive a un examen serio",
+    "cuánto aciertan las previsiones de beneficios de los analistas",
+    "cómo distinguir un precio correcto de un precio imbatible",
   ],
 
   "millonario-al-lado": [
-    "la fórmula que dice si acumulas o gastas, con tu edad y tu sueldo",
-    "por qué médicos y abogados salen mal parados",
-    "en qué oficios estaban de verdad los millonarios",
-    "qué le pasa a un hijo adulto al que sus padres ayudan",
-    "detectar el fallo de método que arrastra todo el libro",
+    "una fórmula que dice si acumulas o gastas, con tu edad y tu sueldo",
+    "por qué los que más ganan salen mal parados en esa cuenta",
+    "en qué oficios estaban de verdad los millonarios que estudiaron",
+    "qué le pasa a un hijo adulto al que sus padres siguen ayudando",
+    "cómo detectar el fallo de método que arrastra un estudio entero",
   ],
 
   "bogle-sentido-comun": [
-    "por qué los gestores en conjunto no pueden ganar al mercado",
-    "cuánto se lleva de verdad una comisión del dos por ciento",
-    "qué es el sesgo de supervivencia en una tabla de fondos",
-    "el hueco entre lo que rinde un fondo y lo que ganas tú",
-    "cómo acabó la apuesta de un millón de dólares de Buffett",
+    "por qué los gestores en conjunto no pueden ganarle al mercado",
+    "cuánto se lleva de verdad una comisión que parece pequeña",
+    "por qué las tablas de fondos ocultan a todos los que quebraron",
+    "el hueco entre lo que rinde un fondo y lo que acabas ganando tú",
+    "cómo acabó la apuesta de un millón de dólares sobre esto mismo",
   ],
 
   einstein: [
-    "por qué es falso que suspendiera matemáticas",
-    "qué pregunta abrió la relatividad, y no era de física",
-    "cómo salieron los cuatro artículos de 1905",
-    "la discusión con Bohr que perdió en 2022",
-    "distinguir su papel real en la bomba atómica del inventado",
+    "por qué es falso que suspendiera matemáticas de pequeño",
+    "qué pregunta abrió la relatividad, y no era una pregunta de física",
+    "cómo salieron cuatro descubrimientos enormes de un mismo año",
+    "por qué el mejor físico del siglo se equivocó sobre la física cuántica",
+    "cómo distinguir el papel real de alguien en la bomba atómica del inventado",
   ],
 
   "musica-primos": [
-    "por qué los primos son los átomos de la aritmética",
-    "qué dice exactamente la hipótesis de Riemann",
-    "por qué diez billones de comprobaciones no demuestran nada",
-    "la coincidencia con los niveles de energía de un núcleo",
-    "cómo un asunto inútil acabó protegiendo las tarjetas de crédito",
+    "por qué los números primos son los átomos de la aritmética",
+    "qué es el problema sin resolver más importante de las matemáticas",
+    "por qué comprobar algo diez billones de veces no lo demuestra",
+    "cómo un problema abstracto acaba coincidiendo con la física",
+    "cómo un asunto inútil acabó protegiendo tu tarjeta de crédito",
   ],
 
   "universo-mano": [
     "por qué mirar el cielo es mirar hacia atrás en el tiempo",
     "qué se sabe del noventa y cinco por ciento que no se ve",
-    "qué separa exactamente el horizonte de un agujero negro",
-    "el experimento de las dos rendijas y lo que sigue sin explicarse",
-    "distinguir lo medido de lo deducido y de lo imaginado",
+    "qué separa exactamente el punto de no retorno de un agujero negro",
+    "por qué un experimento con dos rendijas sigue sin poder explicarse",
+    "cómo distinguir lo medido de lo deducido y de lo imaginado",
   ],
 
   "universo-cascara": [
-    "por qué la gravedad no es una fuerza sino una forma",
-    "qué significa que el universo no tenga bordes en tiempo imaginario",
-    "cómo se evapora un agujero negro y qué se lleva",
-    "la conjetura con la que Hawking blindó el pasado",
-    "distinguir en el libro lo medido de lo conjeturado",
+    "por qué la gravedad no es una fuerza sino una forma del espacio",
+    "qué significa que el universo pueda no tener ningún borde",
+    "cómo se evapora un agujero negro y qué se lleva por delante",
+    "por qué un físico defiende que el pasado no se puede cambiar",
+    "cómo distinguir en un libro de divulgación lo medido de lo conjeturado",
   ],
 
   "ultimos-dinosaurios": [
-    "por qué el cielo se volvió una fuente de calor",
-    "qué tenía la roca de debajo del impacto",
-    "por qué el registro se llena de esporas de helecho",
-    "qué salvó a las aves que se salvaron",
-    "por qué los mamíferos no estaban esperando su turno",
+    "por qué el cielo entero puede convertirse en una fuente de calor",
+    "por qué importa tanto qué tipo de roca hay bajo un impacto",
+    "qué crece primero en un mundo donde ya no queda casi nada",
+    "qué tuvieron de distinto los animales que sobrevivieron",
+    "por qué los que heredan un mundo no estaban esperando su turno",
   ],
 
   "pulgar-panda": [
     "por qué lo imperfecto es la mejor prueba de la evolución",
-    "qué dice el registro fósil sobre el ritmo del cambio",
+    "qué dice el registro fósil sobre el ritmo al que cambia la vida",
     "por qué las plumas no aparecieron para volar",
-    "qué cambia cuando un animal crece de tamaño",
-    "cómo se coló el prejuicio en mediciones de buena fe",
+    "qué le pasa a un animal cuando cambia de tamaño",
+    "cómo se cuela un prejuicio en mediciones hechas de buena fe",
   ],
 
   "cuchara-menguante": [
-    "por qué la tabla tiene esa forma tan rara",
-    "cómo se cuela el cadmio en el sitio del zinc",
-    "qué reacción alimenta al mundo y municionó una guerra",
-    "por qué hubo una guerra fría por poner nombres",
-    "por qué la electrónica se hace de arena",
+    "por qué la tabla periódica tiene esa forma tan rara",
+    "por qué un metal puede ocupar el sitio de otro dentro de tu cuerpo",
+    "qué reacción alimenta al mundo y municionó una guerra mundial",
+    "cómo dos países se pelean durante décadas por poner nombres",
+    "por qué la electrónica se fabrica a partir de arena",
   ],
 
   "vida-dali": [
@@ -663,19 +704,19 @@ export const PUNTOS: Record<string, string[]> = {
   ],
 
   "open-agassi": [
-    "qué cuentas le echaba su padre en el jardín",
-    "qué escondía el peinado con el que se hizo famoso",
-    "cómo cayó al puesto 141 del mundo",
-    "qué le confesó a la asociación de tenistas y qué le pasó",
-    "en qué gastó el dinero al retirarse",
+    "cómo se vive dedicándote a algo que tu padre eligió por ti",
+    "por qué odiar tu trabajo no te impide ser el mejor del mundo",
+    "lo que esconde un cambio de imagen que todo el mundo celebra",
+    "cómo se reconstruye una carrera desde abajo a los veintisiete años",
+    "por qué se aguanta mejor el dolor cuando el motivo es de otro",
   ],
 
   "messi-ronaldo": [
-    "cómo se firmaron los dos fichajes y lo poco que costaron",
-    "por qué casi ningún club habría conservado a Messi",
-    "qué cambió Ronaldo de su cuerpo y de su juego",
-    "qué ganaba la industria con que la discusión no acabara",
-    "cómo salieron los dos de sus clubes",
+    "cómo dos maneras opuestas de trabajar llegan igual de lejos",
+    "por qué un rival de tu edad te empuja más que cualquier entrenador",
+    "lo que cambia en un oficio cuando entra el dinero de la televisión",
+    "por qué el talento precoz necesita a alguien que lo administre",
+    "qué le queda a alguien cuando se retira lo que lo definía",
   ],
 
   "sexta-extincion": [
@@ -1287,11 +1328,11 @@ export const PUNTOS: Record<string, string[]> = {
   ],
 
   "si-esto-hombre": [
-    "qué se le quita a una persona en las primeras horas",
-    "qué significa que allí no haya ningún porqué",
-    "cómo funcionaba el mercado interno del campo",
-    "por qué dice que los que volvieron no eran los mejores",
-    "qué pasó en los diez días antes de la liberación",
+    "cómo un sistema convierte a una persona en un número",
+    "por qué sobrevivir dependía de aprender reglas que nadie explicaba",
+    "qué queda de la dignidad cuando se quitan todas las condiciones",
+    "por qué el que sobrevive carga con la culpa de haberlo hecho",
+    "por qué escribir sin rabia hace un testimonio más demoledor",
   ],
 
   "guardian-centeno": [
@@ -1367,27 +1408,27 @@ export const PUNTOS: Record<string, string[]> = {
   ],
 
   "senor-moscas": [
-    "contra qué libro está escrito este libro",
-    "por qué se apaga la hoguera justo cuando pasa un barco",
-    "qué es de verdad la bestia de la montaña",
-    "qué le pasa al único que descubre la verdad",
-    "cómo acabó el mismo naufragio en la vida real",
+    "cuánto tarda en romperse un orden que parecía natural",
+    "por qué el miedo compartido une más que cualquier acuerdo",
+    "cómo se fabrica un monstruo para no mirar de dónde viene el peligro",
+    "por qué el que tiene razón es el primero al que hacen callar",
+    "qué dicen los experimentos reales que contradicen esta novela",
   ],
 
   "gran-gatsby": [
-    "por qué el hombre que da las fiestas no bebe",
-    "qué separa el dinero viejo del recién hecho",
-    "qué oyó Gatsby de verdad en la voz de Daisy",
-    "qué son los ojos que vigilan el descampado",
-    "quién fue al funeral",
+    "por qué no se escapa del propio pasado por mucho que uno se reinvente",
+    "cómo la riqueza genera una indiferencia que destruye vidas",
+    "el peligro de construir tu identidad sobre un solo sueño inalcanzable",
+    "por qué el dinero heredado y el ganado nunca se mezclan",
+    "cómo se corrompe una promesa colectiva cuando solo queda el dinero",
   ],
 
   metamorfosis: [
-    "por qué nadie pregunta cómo ha pasado",
-    "qué descubre sobre el dinero que había en casa",
-    "cómo se va vaciando su habitación",
-    "qué frase dice su hermana al final",
-    "qué bicho es en realidad, y por qué Kafka prohibió dibujarlo",
+    "el coste de ser el que sostiene económicamente a una familia",
+    "cómo la culpa va corroyendo la identidad de una persona",
+    "qué le pasa a alguien cuando deja de ser útil para los suyos",
+    "por qué la familia también se transforma, y nadie lo cuenta",
+    "cómo una situación absurda contada en serio da más miedo",
   ],
 
   "crimen-castigo": [
@@ -1399,19 +1440,19 @@ export const PUNTOS: Record<string, string[]> = {
   ],
 
   fahrenheit: [
-    "por qué nadie tuvo que prohibir los libros",
-    "qué son las paredes que le hablan a su mujer",
-    "por qué quitaron los porches de las casas",
-    "las tres cosas que hacen falta para pensar",
-    "por qué el jefe de bomberos ha leído más que nadie",
+    "por qué la gente dejó de leer antes de que nadie prohibiera nada",
+    "cómo el entretenimiento continuo hace innecesaria la censura",
+    "por qué el que quema libros puede saber muy bien lo que hay dentro",
+    "qué se pierde exactamente cuando se pierde un libro",
+    "cómo se conserva algo cuando no se puede conservar el objeto",
   ],
 
   "mundo-feliz": [
-    "cómo se fabrican noventa y seis personas de un óvulo",
-    "por qué se enseña a los niños a odiar las flores",
-    "para qué sirve de verdad el soma",
-    "por qué está prohibido querer a alguien en concreto",
-    "qué pidió el Salvaje cuando pudo pedir cualquier cosa",
+    "por qué una dictadura basada en el placer es más difícil de derribar",
+    "cómo se fabrica el consentimiento repitiendo frases mientras duermes",
+    "qué le pasa a una sociedad que ha eliminado la incomodidad",
+    "por qué el que quiere sufrir es el único disidente posible",
+    "en qué se diferencia esta pesadilla de la de un Estado policial",
   ],
 
   "republica-platon": [
@@ -1511,11 +1552,11 @@ export const PUNTOS: Record<string, string[]> = {
   ],
 
   quijote: [
-    "por qué los molinos ocupan solo dos páginas",
-    "quién es el historiador árabe que finge haber escrito el libro",
-    "qué pasa cuando todos los personajes han leído tu historia",
-    "por qué Sancho resulta ser un buen gobernante",
-    "cómo respondió Cervantes al Quijote falso de 1614",
+    "qué le pasa a alguien que decide vivir según lo que ha leído",
+    "por qué el criado sensato acaba contagiándose de su señor",
+    "cómo cambia una novela cuando sus personajes saben que existe",
+    "por qué la segunda parte funciona al revés que la primera",
+    "por qué el final es más triste de lo que casi nadie recuerda",
   ],
 
   "mundo-ayer": [
@@ -1599,11 +1640,11 @@ export const PUNTOS: Record<string, string[]> = {
   ],
 
   principito: [
-    "por qué los mayores necesitan cifras para creer algo",
-    "qué le pasa a los seis adultos de los planetas",
-    "por qué una rosa entre cinco mil sigue siendo única",
-    "el método del zorro para crear un lazo, paso a paso",
-    "cómo termina de verdad, que casi nadie recuerda",
+    "por qué lo que hace única a una rosa es el tiempo dedicado",
+    "cómo se ve el mundo adulto desde fuera y qué tiene de ridículo",
+    "qué significa domesticar a alguien y qué obligaciones crea",
+    "por qué lo esencial es invisible y qué se hace con eso",
+    "por qué el final de este cuento es una muerte",
   ],
 
   meditaciones: [
@@ -1623,11 +1664,11 @@ export const PUNTOS: Record<string, string[]> = {
   ],
 
   "1984": [
-    "qué es el doblepensar y por qué no es hipocresía",
-    "por qué el Partido quita palabras del diccionario",
-    "por qué persigue el amor y no solo la política",
+    "qué es sostener dos ideas contrarias a la vez y creerse las dos",
+    "por qué un régimen quita palabras del diccionario",
+    "por qué a un poder le estorba el amor más que la política",
     "por qué la tortura busca creencia y no información",
-    "qué cambia el apéndice, que está escrito en pasado",
+    "qué cambia en una novela cuando su apéndice está escrito en pasado",
   ],
 
   flow: [
@@ -1639,11 +1680,11 @@ export const PUNTOS: Record<string, string[]> = {
   ],
 
   "busca-sentido": [
-    "las tres fases por las que pasaba un prisionero",
-    "por qué murió tanta gente la semana después de Navidad",
-    "qué es lo único que no te pueden quitar",
-    "las tres vías por las que aparece un sentido",
-    "cómo se cura un insomnio pidiendo no dormir",
+    "qué queda de una persona cuando le quitan absolutamente todo",
+    "por qué quien encuentra un para qué aguanta casi cualquier cómo",
+    "cómo se usa el humor como arma en un sitio sin ninguna salida",
+    "en qué consiste una terapia que busca sentido en vez de causas",
+    "por qué esa idea se vuelve cruel cuando se convierte en lema de éxito",
   ],
 
   mindset: [
@@ -1767,11 +1808,11 @@ export const PUNTOS: Record<string, string[]> = {
   ],
 
   sapiens: [
-    "por qué hubo seis especies humanas y solo queda una",
-    "cómo una ficción compartida permite cooperar entre desconocidos",
-    "por qué la agricultura empeoró la vida de casi todos",
-    "qué sostiene el valor del dinero cuando nadie lo respalda",
-    "por qué más poder no ha traído más felicidad",
+    "por qué ganó una especie que no era la más fuerte ni lista",
+    "cómo se coopera en masa creyéndose todos la misma ficción",
+    "por qué la agricultura empeoró la vida de casi todo el mundo",
+    "cómo el dinero, los imperios y las religiones unificaron el planeta",
+    "por qué ser más poderosos no nos ha hecho más felices",
   ],
 
   "habitos-atomicos": [
@@ -1807,18 +1848,18 @@ export const PUNTOS: Record<string, string[]> = {
   ],
 
   "diario-ana-frank": [
-    "cómo se vivía en un escondite de cincuenta metros y ocho personas",
-    "por qué Ana estaba reescribiendo su diario para publicarlo",
-    "qué pasó la mañana del 4 de agosto de 1944",
-    "qué le quitó su padre al libro antes de publicarlo",
-    "por qué leerla como un símbolo de esperanza la deja en nada",
+    "cómo se sobrevive dos años escondido en unos pocos metros cuadrados",
+    "qué le hace a una adolescente crecer sin poder salir a la calle",
+    "por qué una niña escribió el mismo diario dos veces",
+    "qué hicieron los vecinos que arriesgaron la vida por unos desconocidos",
+    "cómo un editor cambió el texto y qué se recuperó después",
   ],
 
   "homo-deus": [
     "por qué el hambre, la peste y la guerra han dejado de ser destinos",
-    "qué persigue la humanidad ahora que los ha resuelto",
-    "por qué la felicidad tiene un techo bioquímico",
-    "cómo los algoritmos acaban conociéndote mejor que tu pareja",
+    "qué persigue la humanidad ahora que ha resuelto lo que la mataba",
+    "por qué la felicidad tiene un techo que es bioquímico",
+    "cómo unos algoritmos acaban conociéndote mejor que tu pareja",
     "en qué se diferencian la inteligencia y la conciencia",
   ],
 };
