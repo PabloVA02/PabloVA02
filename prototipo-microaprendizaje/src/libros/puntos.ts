@@ -436,7 +436,7 @@ export const PUNTOS: Record<string, string[]> = {
     "las cuatro operaciones con las que se fabrica un sueño",
     "en qué sentido un síntoma es un acuerdo entre dos fuerzas",
     "por qué el paciente acaba tratando al médico como a otra persona",
-    "qué corrigió el propio Freud de su libro más leído",
+    "por qué un autor acaba corrigiendo su propio libro más leído",
   ],
 
   "cosas-buenas": [
@@ -1212,7 +1212,7 @@ export const PUNTOS: Record<string, string[]> = {
     "qué revela alguien que solo sabe hablar con frases hechas",
     "cómo se justifica una persona que dice haber cumplido órdenes",
     "por qué unas pocas páginas pueden costarte todas tus amistades",
-    "en qué se equivocó Arendt y qué sigue en pie de su libro",
+    "en qué se equivocó ese libro y qué sigue en pie de él",
   ],
 
   malala: [
