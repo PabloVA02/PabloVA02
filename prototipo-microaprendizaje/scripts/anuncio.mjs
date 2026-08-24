@@ -371,7 +371,7 @@ const ff = spawn(FFMPEG, [
 
 const escribe = (buf) => new Promise((r) => (ff.stdin.write(buf) ? r() : ff.stdin.once("drain", r)));
 
-const navegador = await chromium.launch({ args: ["--force-color-profile=srgb", "--font-render-hinting=none"] });
+const navegador = await chromium.launch({ executablePath: process.env.CHROMIUM ?? "/opt/pw-browsers/chromium-1194/chrome-linux/chrome", args: ["--force-color-profile=srgb", "--font-render-hinting=none"] });
 let total = 0;
 
 /* Para afinar una toma sin volver a rodar las tres. */

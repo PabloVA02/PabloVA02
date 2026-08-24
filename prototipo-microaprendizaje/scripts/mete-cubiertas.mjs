@@ -93,7 +93,7 @@ if (!entradas.length) {
 
 /* -- 2. A WebP, por Chromium --------------------------------------------- */
 
-const navegador = await chromium.launch();
+const navegador = await chromium.launch({ executablePath: process.env.CHROMIUM ?? "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
 const pagina = await navegador.newPage();
 const hechas = [];
 for (const e of entradas) {

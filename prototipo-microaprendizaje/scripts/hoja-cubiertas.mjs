@@ -126,7 +126,7 @@ async function trae(nombre) {
 const necesarias = CATALOGO.filter((f) => !DIBUJADAS.has(f.id) && !TIPO.has(f.id) && FOTOS.has(f.id));
 console.log(`${DIBUJADAS.size} dibujadas · ${TIPO.size} tipográficas · ${necesarias.length} fotografías que traer`);
 
-const navegador = await chromium.launch();
+const navegador = await chromium.launch({ executablePath: process.env.CHROMIUM ?? "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
 const pagina = await navegador.newPage();
 const empotradas = new Map();
 

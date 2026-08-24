@@ -7,7 +7,7 @@ import { readFile, writeFile } from "node:fs/promises";
 
 const BASE = "node_modules/undraw-svg/svgs";
 const nombres = JSON.parse(await readFile("elegidas.json", "utf8"));
-const browser = await chromium.launch();
+const browser = await chromium.launch({ executablePath: process.env.CHROMIUM ?? "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
 const page = await browser.newPage();
 const cajas = {};
 

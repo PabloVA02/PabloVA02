@@ -193,7 +193,7 @@ if (fallidas.length) console.log(`  ${fallidas.length} sin traer, saldrán con s
 /* No hay ImageMagick en este entorno, pero sí Chromium, y un <canvas> sabe
    escribir WebP. Se hace de diez en diez para no tener ciento diez imágenes
    descodificadas en memoria a la vez. */
-const navegador = await chromium.launch();
+const navegador = await chromium.launch({ executablePath: process.env.CHROMIUM ?? "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
 const hoja = await navegador.newPage();
 const tabla = new Map();
 let peso = 0;

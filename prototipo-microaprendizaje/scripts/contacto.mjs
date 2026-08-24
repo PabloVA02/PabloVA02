@@ -104,7 +104,7 @@ ${fichas.map((f) => `<figure>
 </figure>`).join("\n")}
 </div>`;
 
-const navegador = await chromium.launch();
+const navegador = await chromium.launch({ executablePath: process.env.CHROMIUM ?? "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
 const pagina = await navegador.newPage({ viewport: { width: grande ? 1000 : 1100, height: 800 } });
 await pagina.setContent(html, { waitUntil: "load" });
 await pagina.screenshot({ path: salida, fullPage: true });

@@ -58,7 +58,7 @@ if (!capturas.length) {
   process.exit(1);
 }
 
-const navegador = await chromium.launch();
+const navegador = await chromium.launch({ executablePath: process.env.CHROMIUM ?? "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
 const pagina = await navegador.newPage();
 let peso = 0;
 
