@@ -79,6 +79,12 @@ export const CATALOGO: Ficha[] = [
   { id: "sobre-tirania", titulo: "Sobre la tiranía", autor: "Timothy Snyder", ano: 2017, categoria: "Historia", estado: "escrito" },
   { id: "imperiofobia", titulo: "Imperiofobia y leyenda negra", autor: "María Elvira Roca Barea", ano: 2016, categoria: "Historia", estado: "escrito" },
 
+  { id: "becoming", titulo: "Mi historia", autor: "Michelle Obama", ano: 2018, categoria: "Historia", estado: "pendiente" },
+  { id: "malcolm-x", titulo: "Autobiografía de Malcolm X", autor: "Malcolm X y Alex Haley", ano: 1965, categoria: "Historia", estado: "pendiente" },
+  { id: "espia-traidor", titulo: "Espía y traidor", autor: "Ben Macintyre", ano: 2018, categoria: "Historia", estado: "pendiente" },
+  { id: "equipo-rivales", titulo: "Equipo de rivales", autor: "Doris Kearns Goodwin", ano: 2005, categoria: "Historia", estado: "pendiente" },
+  { id: "en-la-sombra", titulo: "En la sombra", autor: "Príncipe Harry", ano: 2023, categoria: "Historia", estado: "pendiente" },
+  { id: "21-lecciones", titulo: "21 lecciones para el siglo XXI", autor: "Yuval Noah Harari", ano: 2018, categoria: "Historia", estado: "pendiente" },
   /* --- Filosofía -------------------------------------------------------- */
   { id: "meditaciones", titulo: "Meditaciones", autor: "Marco Aurelio", ano: 180, categoria: "Filosofía", estado: "escrito" },
   { id: "busca-sentido", titulo: "El hombre en busca de sentido", autor: "Viktor Frankl", ano: 1946, categoria: "Filosofía", estado: "escrito" },
@@ -105,6 +111,8 @@ export const CATALOGO: Ficha[] = [
   { id: "segundo-sexo", titulo: "El segundo sexo", autor: "Simone de Beauvoir", ano: 1949, categoria: "Filosofía", estado: "escrito" },
   { id: "ensayos-montaigne", titulo: "Ensayos", autor: "Michel de Montaigne", ano: 1580, categoria: "Filosofía", estado: "escrito" },
 
+  { id: "amor-liquido", titulo: "Amor líquido", autor: "Zygmunt Bauman", ano: 2003, categoria: "Filosofía", estado: "pendiente" },
+  { id: "caballero-armadura", titulo: "El caballero de la armadura oxidada", autor: "Robert Fisher", ano: 1989, categoria: "Filosofía", estado: "pendiente" },
   /* --- Ciencia ---------------------------------------------------------- */
   { id: "breve-historia-tiempo", titulo: "Breve historia del tiempo", autor: "Stephen Hawking", ano: 1988, categoria: "Ciencia", estado: "escrito" },
   { id: "cosmos", titulo: "Cosmos", autor: "Carl Sagan", ano: 1980, categoria: "Ciencia", estado: "escrito" },
@@ -131,6 +139,9 @@ export const CATALOGO: Ficha[] = [
   { id: "cuchara-menguante", titulo: "La cuchara menguante", autor: "Sam Kean", ano: 2010, categoria: "Ciencia", estado: "escrito" },
   { id: "sexta-extincion", titulo: "La sexta extinción", autor: "Elizabeth Kolbert", ano: 2014, categoria: "Ciencia", estado: "escrito" },
 
+  { id: "madame-curie", titulo: "Madame Curie", autor: "Ève Curie", ano: 1937, categoria: "Ciencia", estado: "pendiente" },
+  { id: "por-que-amamos", titulo: "Por qué amamos", autor: "Helen Fisher", ano: 2004, categoria: "Ciencia", estado: "pendiente" },
+  { id: "cerebro-femenino", titulo: "El cerebro femenino", autor: "Louann Brizendine", ano: 2006, categoria: "Ciencia", estado: "pendiente" },
   /* --- Arte ------------------------------------------------------------- */
   { id: "historia-arte", titulo: "La historia del arte", autor: "E. H. Gombrich", ano: 1950, categoria: "Arte", estado: "escrito" },
   { id: "modos-ver", titulo: "Modos de ver", autor: "John Berger", ano: 1972, categoria: "Arte", estado: "escrito" },
@@ -154,6 +165,10 @@ export const CATALOGO: Ficha[] = [
   { id: "heroe-mil-caras", titulo: "El héroe de las mil caras", autor: "Joseph Campbell", ano: 1949, categoria: "Arte", estado: "escrito" },
   { id: "el-elemento", titulo: "El elemento", autor: "Ken Robinson", ano: 2009, categoria: "Arte", estado: "escrito" },
 
+  { id: "will-smith", titulo: "Will", autor: "Will Smith y Mark Manson", ano: 2021, categoria: "Arte", estado: "pendiente" },
+  { id: "just-kids", titulo: "Éramos unos niños", autor: "Patti Smith", ano: 2010, categoria: "Arte", estado: "pendiente" },
+  { id: "confesiones-chef", titulo: "Confesiones de un chef", autor: "Anthony Bourdain", ano: 2000, categoria: "Arte", estado: "pendiente" },
+  { id: "frida-herrera", titulo: "Frida", autor: "Hayden Herrera", ano: 1983, categoria: "Arte", estado: "pendiente" },
   /* --- Literatura ------------------------------------------------------- */
   { id: "1984", titulo: "1984", autor: "George Orwell", ano: 1949, categoria: "Literatura", estado: "escrito" },
   { id: "rebelion-granja", titulo: "Rebelión en la granja", autor: "George Orwell", ano: 1945, categoria: "Literatura", estado: "escrito" },
@@ -196,6 +211,22 @@ export const CATALOGO: Ficha[] = [
   { id: "el-tunel", titulo: "El túnel", autor: "Ernesto Sabato", ano: 1948, categoria: "Literatura", estado: "escrito" },
   { id: "renglones-torcidos", titulo: "Los renglones torcidos de Dios", autor: "Torcuato Luca de Tena", ano: 1979, categoria: "Literatura", estado: "escrito" },
 
+  { id: "harry-potter-1", titulo: "Harry Potter y la piedra filosofal", autor: "J. K. Rowling", ano: 1997, categoria: "Literatura", estado: "pendiente" },
+  { id: "senor-anillos", titulo: "El señor de los anillos", autor: "J. R. R. Tolkien", ano: 1954, categoria: "Literatura", estado: "pendiente" },
+  { id: "codigo-da-vinci", titulo: "El código Da Vinci", autor: "Dan Brown", ano: 2003, categoria: "Literatura", estado: "pendiente" },
+  { id: "juegos-hambre", titulo: "Los juegos del hambre", autor: "Suzanne Collins", ano: 2008, categoria: "Literatura", estado: "pendiente" },
+  { id: "cumbres-borrascosas", titulo: "Cumbres borrascosas", autor: "Emily Brontë", ano: 1847, categoria: "Literatura", estado: "pendiente" },
+  { id: "jane-eyre", titulo: "Jane Eyre", autor: "Charlotte Brontë", ano: 1847, categoria: "Literatura", estado: "pendiente" },
+  { id: "el-proceso", titulo: "El proceso", autor: "Franz Kafka", ano: 1925, categoria: "Literatura", estado: "pendiente" },
+  { id: "siddhartha", titulo: "Siddhartha", autor: "Hermann Hesse", ano: 1922, categoria: "Literatura", estado: "pendiente" },
+  { id: "alicia-maravillas", titulo: "Alicia en el país de las maravillas", autor: "Lewis Carroll", ano: 1865, categoria: "Literatura", estado: "pendiente" },
+  { id: "jekyll-hyde", titulo: "El extraño caso del doctor Jekyll y el señor Hyde", autor: "R. L. Stevenson", ano: 1886, categoria: "Literatura", estado: "pendiente" },
+  { id: "historia-interminable", titulo: "La historia interminable", autor: "Michael Ende", ano: 1979, categoria: "Literatura", estado: "pendiente" },
+  { id: "patria", titulo: "Patria", autor: "Fernando Aramburu", ano: 2016, categoria: "Literatura", estado: "pendiente" },
+  { id: "tiempo-entre-costuras", titulo: "El tiempo entre costuras", autor: "María Dueñas", ano: 2009, categoria: "Literatura", estado: "pendiente" },
+  { id: "come-reza-ama", titulo: "Come, reza, ama", autor: "Elizabeth Gilbert", ano: 2006, categoria: "Literatura", estado: "pendiente" },
+  { id: "veinte-poemas", titulo: "Veinte poemas de amor y una canción desesperada", autor: "Pablo Neruda", ano: 1924, categoria: "Literatura", estado: "pendiente" },
+  { id: "vivir-para-contarla", titulo: "Vivir para contarla", autor: "Gabriel García Márquez", ano: 2002, categoria: "Literatura", estado: "pendiente" },
   /* --- Psicología ------------------------------------------------------- */
   { id: "pensar-rapido", titulo: "Pensar rápido, pensar despacio", autor: "Daniel Kahneman", ano: 2011, categoria: "Psicología", estado: "escrito" },
   { id: "habitos-atomicos", titulo: "Hábitos atómicos", autor: "James Clear", ano: 2018, categoria: "Psicología", estado: "escrito" },
@@ -222,6 +253,15 @@ export const CATALOGO: Ficha[] = [
   { id: "sentirse-bien", titulo: "Sentirse bien", autor: "David D. Burns", ano: 1980, categoria: "Psicología", estado: "escrito" },
   { id: "cerebro-buda", titulo: "El cerebro de Buda", autor: "Rick Hanson y Richard Mendius", ano: 2009, categoria: "Psicología", estado: "escrito" },
 
+  { id: "inteligencia-erotica", titulo: "Inteligencia erótica", autor: "Esther Perel", ano: 2006, categoria: "Psicología", estado: "pendiente" },
+  { id: "nueva-mirada-infidelidad", titulo: "Una nueva mirada a la infidelidad", autor: "Esther Perel", ano: 2017, categoria: "Psicología", estado: "pendiente" },
+  { id: "gottman-pareja", titulo: "Siete reglas de oro para vivir en pareja", autor: "John Gottman", ano: 1999, categoria: "Psicología", estado: "pendiente" },
+  { id: "arte-seduccion", titulo: "El arte de la seducción", autor: "Robert Greene", ano: 2001, categoria: "Psicología", estado: "pendiente" },
+  { id: "48-leyes-poder", titulo: "Las 48 leyes del poder", autor: "Robert Greene", ano: 1998, categoria: "Psicología", estado: "pendiente" },
+  { id: "secreto-byrne", titulo: "El secreto", autor: "Rhonda Byrne", ano: 2006, categoria: "Psicología", estado: "pendiente" },
+  { id: "tus-zonas-erroneas", titulo: "Tus zonas erróneas", autor: "Wayne Dyer", ano: 1976, categoria: "Psicología", estado: "pendiente" },
+  { id: "mujeres-lobos", titulo: "Mujeres que corren con los lobos", autor: "Clarissa Pinkola Estés", ano: 1992, categoria: "Psicología", estado: "pendiente" },
+  { id: "cuatro-mil-semanas", titulo: "Cuatro mil semanas", autor: "Oliver Burkeman", ano: 2021, categoria: "Psicología", estado: "pendiente" },
   /* --- Economía --------------------------------------------------------- */
   { id: "psicologia-dinero", titulo: "La psicología del dinero", autor: "Morgan Housel", ano: 2020, categoria: "Economía", estado: "escrito" },
   { id: "padre-rico", titulo: "Padre rico, padre pobre", autor: "Robert Kiyosaki", ano: 1997, categoria: "Economía", estado: "escrito" },
@@ -248,6 +288,12 @@ export const CATALOGO: Ficha[] = [
   { id: "superpronosticadores", titulo: "Superpronosticadores", autor: "Tetlock y Gardner", ano: 2015, categoria: "Economía", estado: "escrito" },
   { id: "dinero-domina-juego", titulo: "Dinero: domina el juego", autor: "Tony Robbins", ano: 2014, categoria: "Economía", estado: "escrito" },
 
+  { id: "elon-musk", titulo: "Elon Musk", autor: "Walter Isaacson", ano: 2023, categoria: "Economía", estado: "pendiente" },
+  { id: "ford-vida-obra", titulo: "Mi vida y obra", autor: "Henry Ford", ano: 1922, categoria: "Economía", estado: "pendiente" },
+  { id: "coach-silicon-valley", titulo: "El coach de Silicon Valley", autor: "Schmidt, Rosenberg y Eagle", ano: 2019, categoria: "Economía", estado: "pendiente" },
+  { id: "promesa-lapiz", titulo: "La promesa de un lápiz", autor: "Adam Braun", ano: 2014, categoria: "Economía", estado: "pendiente" },
+  { id: "quien-queso", titulo: "¿Quién se ha llevado mi queso?", autor: "Spencer Johnson", ano: 1998, categoria: "Economía", estado: "pendiente" },
+  { id: "empieza-porque", titulo: "Empieza con el porqué", autor: "Simon Sinek", ano: 2009, categoria: "Economía", estado: "pendiente" },
   /* --- Salud ------------------------------------------------------------ */
   { id: "por-que-dormimos", titulo: "Por qué dormimos", autor: "Matthew Walker", ano: 2017, categoria: "Salud", estado: "escrito" },
   { id: "cuerpo-cuenta", titulo: "El cuerpo lleva la cuenta", autor: "Bessel van der Kolk", ano: 2014, categoria: "Salud", estado: "escrito" },
@@ -271,6 +317,9 @@ export const CATALOGO: Ficha[] = [
   { id: "deja-de-ser-tu", titulo: "Deja de ser tú", autor: "Joe Dispenza", ano: 2012, categoria: "Salud", estado: "escrito" },
   { id: "poder-metabolismo", titulo: "El poder del metabolismo", autor: "Frank Suárez", ano: 2006, categoria: "Salud", estado: "escrito" },
 
+  { id: "entre-dos-reinos", titulo: "Entre dos reinos", autor: "Suleika Jaouad", ano: 2021, categoria: "Salud", estado: "pendiente" },
+  { id: "tal-como-eres", titulo: "Tal como eres", autor: "Emily Nagoski", ano: 2015, categoria: "Salud", estado: "pendiente" },
+  { id: "magia-orden", titulo: "La magia del orden", autor: "Marie Kondo", ano: 2011, categoria: "Salud", estado: "pendiente" },
   /* --- Deportes ---------------------------------------------------------
      La novena, pedida por Pablo el 21 de agosto: «añade sección de deportes
      también, que puede ser interesante con libros famosos y títulos que

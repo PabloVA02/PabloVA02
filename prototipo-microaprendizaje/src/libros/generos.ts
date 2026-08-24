@@ -102,7 +102,26 @@ export const GENEROS: Genero[] = [
     icono: "dos",
     libros: [
       "amigos-influir", "influencia", "lenguajes-amor", "maneras-de-amar",
+      "48-leyes-poder", "gottman-pareja",
       "arte-de-amar", "marte-venus", "cuatro-acuerdos", "cerebro-del-nino", "nudge",
+    ],
+  },
+  {
+    id: "amor",
+    nombre: "Amor y sexo",
+    /* Es el cajón que más se abre en cualquier app de resúmenes, y el que más
+       fácil se llena de folletos. Aquí entra por dos vías: lo que está medido
+       —Gottman grabando a parejas durante años, Fisher metiendo enamorados en
+       un escáner— y lo que está bien contado, incluida la poesía. Y entra
+       también lo que se vende muchísimo y no se sostiene, porque un resumen
+       nuestro dice dónde falla y ese es justo el servicio. */
+    sub: "Deseo, pareja y lo que dicen los datos",
+    icono: "dos",
+    libros: [
+      "inteligencia-erotica", "nueva-mirada-infidelidad", "gottman-pareja",
+      "tal-como-eres", "por-que-amamos", "cerebro-femenino", "amor-liquido",
+      "arte-seduccion", "lenguajes-amor", "maneras-de-amar", "arte-de-amar",
+      "marte-venus", "veinte-poemas", "come-reza-ama",
     ],
   },
   {
@@ -164,6 +183,10 @@ export const GENEROS: Genero[] = [
       "open-agassi", "messi-ronaldo", "yo-soy-el-diego", "cruyff-14",
       "soy-zlatan", "rafa-mi-historia", "mamba-mentality", "once-anillos",
       "nunca-te-pares", "rey-del-mundo", "hablo-correr",
+      "becoming", "malcolm-x", "will-smith", "elon-musk", "en-la-sombra",
+      "madame-curie", "just-kids", "confesiones-chef", "frida-herrera",
+      "vivir-para-contarla", "espia-traidor", "equipo-rivales",
+      "ford-vida-obra", "entre-dos-reinos", "promesa-lapiz",
     ],
   },
 ];
