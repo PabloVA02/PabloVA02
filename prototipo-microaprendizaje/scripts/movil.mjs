@@ -56,6 +56,13 @@ const arg = (nombre, porDefecto) => {
    sobre el tope de 16. */
 const ANCHO = Number(arg("--ancho", 400));
 const CALIDAD = Number(arg("--calidad", 0.74));
+
+/* Las cubiertas que dibuja Pablo viven en `cubiertas.ts` a la calidad que
+   necesita la APP, que no tiene ningún tope de tamaño. Este fichero sí lo
+   tiene —16 MB para publicarlo—, así que aquí se encogen, y solo aquí.
+   Así el producto conserva la calidad y el simulador cabe. */
+const CUB_ANCHO = Number(arg("--cubiertas-ancho", 480));
+const CUB_CALIDAD = Number(arg("--cubiertas-calidad", 0.82));
 /* De dónde sale la app compilada. Por defecto `dist-uno`, que lleva los libros
    dentro; `dist-artefacto` los deja como trozos aparte y libera siete megas
    para fotografías. Se coge el trozo de entrada, no el primero por orden. */
@@ -245,7 +252,55 @@ const leer = (ext) => {
   return readFileSync(join(DIST, f), "utf8").trim();
 };
 const css = leer(".css");
-const js = leer(".js");
+let js = leer(".js");
+
+/* Las cubiertas viajan dentro del propio JavaScript, como texto, y son la
+   partida más gorda del paquete. Se reescriben aquí a un ancho menor: en la
+   app se pintan a 172 puntos como mucho, así que 480 sobra, y lo que se
+   ahorra se lo quedan las fotografías de los shorts.
+
+   Se localizan por el `data:` y no por el nombre de la constante, porque
+   Vite se los cambia al minimizar. En el paquete compilado no hay ninguna
+   otra imagen WebP: las de los shorts las mete este mismo script después. */
+const cubiertas = [...js.matchAll(/data:image\/webp;base64,[A-Za-z0-9+/=]+/g)].map((m) => m[0]);
+if (cubiertas.length) {
+  const antes = cubiertas.reduce((s, c) => s + c.length, 0);
+  const nav2 = await chromium.launch({ executablePath: process.env.CHROMIUM ?? "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
+  const hoja2 = await nav2.newPage();
+  const cambios = new Map();
+  for (let i = 0; i < cubiertas.length; i += 10) {
+    const grupo = cubiertas.slice(i, i + 10);
+    const hechas = await hoja2.evaluate(async ([grupo, ancho, calidad]) => {
+      const lienzo = document.createElement("canvas");
+      const pincel = lienzo.getContext("2d");
+      const salida = [];
+      for (const fuente of grupo) {
+        const img = new Image();
+        img.src = fuente;
+        try { await img.decode(); } catch { salida.push(null); continue; }
+        const escala = Math.min(1, ancho / img.naturalWidth);
+        lienzo.width = Math.round(img.naturalWidth * escala);
+        lienzo.height = Math.round(img.naturalHeight * escala);
+        pincel.drawImage(img, 0, 0, lienzo.width, lienzo.height);
+        salida.push(lienzo.toDataURL("image/webp", calidad));
+      }
+      return salida;
+    }, [grupo, CUB_ANCHO, CUB_CALIDAD]);
+    /* Solo se cambia si de verdad encoge: una cubierta antigua que ya
+       estuviera por debajo de este ancho no se vuelve a comprimir. */
+    hechas.forEach((nueva, k) => {
+      if (nueva && nueva.length < grupo[k].length) cambios.set(grupo[k], nueva);
+    });
+    process.stdout.write(`\r  cubiertas reescritas ${cambios.size}/${cubiertas.length}`);
+  }
+  await nav2.close();
+  for (const [vieja, nueva] of cambios) js = js.split(vieja).join(nueva);
+  const despues = cubiertas.reduce((s, c) => s + (cambios.get(c) ?? c).length, 0);
+  console.log(
+    `\n  ${cubiertas.length} cubiertas a ${CUB_ANCHO} de ancho · ` +
+      `${mb(antes)} → ${mb(despues)}`,
+  );
+}
 
 /* -- 4. El teléfono ------------------------------------------------------- */
 
