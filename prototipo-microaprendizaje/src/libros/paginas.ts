@@ -288,6 +288,11 @@ const HABITOS_ATOMICOS: PaginaLibro[] = [
         texto:
           "Clear usa una imagen para explicar por qué se abandona justo antes de tiempo. Un cubito de hielo a diez grados bajo cero al que se le calienta la habitación: a los nueve bajo cero no pasa nada, a los cinco tampoco, a los dos tampoco. Todo el esfuerzo parece perdido hasta que se llega a cero y entonces, de golpe, se derrite. Lo anterior no era inútil, era lo que hacía falta para llegar ahí.",
       },
+      {
+        b: "idea",
+        texto:
+          "Si alcanzas la meta y no cambias el sistema, vuelves justo a donde estabas.",
+      },
     ],
   },
 
@@ -353,6 +358,11 @@ const HABITOS_ATOMICOS: PaginaLibro[] = [
         texto:
           "Apilar hábitos tiene una fórmula que cabe en una frase: después de tal cosa que ya hago, haré tal otra. El anclaje es una costumbre que ya está instalada —el café de la mañana, cerrar el portátil, lavarse los dientes— y no una hora del reloj, porque la hora se puede ignorar y la costumbre no. Y el entorno hace la mitad del trabajo: la fruta a la vista y las galletas en el armario de arriba deciden más que cualquier propósito.",
       },
+      {
+        b: "idea",
+        texto:
+          "Cambiar lo que tienes a la vista cuesta mucho menos que cambiar tu voluntad.",
+      },
     ],
   },
 
@@ -414,6 +424,11 @@ const HABITOS_ATOMICOS: PaginaLibro[] = [
         b: "texto",
         texto:
           "De ahí sale la regla de los dos minutos: cualquier hábito nuevo se recorta hasta que empezarlo cueste menos de dos minutos. Leer treinta páginas se convierte en leer una; ir al gimnasio, en ponerse las zapatillas y salir por la puerta. Suena a trampa y no lo es, porque lo difícil de un hábito nunca es hacerlo: es empezarlo, y una vez empezado casi siempre se sigue.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quita un paso intermedio y lo harás; añade uno y dejarás de hacerlo.",
       },
     ],
   },
