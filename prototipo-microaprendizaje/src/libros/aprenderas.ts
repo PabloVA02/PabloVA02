@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "rompe-barrera-no":
+    "Veinticuatro años negociando secuestros para el FBI, convertidos en siete herramientas. La tesis: no gana el que tiene mejores argumentos, sino el que consigue que el otro se sienta entendido.",
+
   "gottman-pareja":
     "Gottman grabó a cientos de parejas en un apartamento con cámaras y las siguió durante décadas. De ahí salen las cuatro maneras de discutir que anuncian el final y las siete costumbres de las que duran.",
 

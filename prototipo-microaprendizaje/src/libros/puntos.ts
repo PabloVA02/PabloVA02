@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "rompe-barrera-no": [
+    "por qué nadie escucha tus razones hasta sentirse entendido",
+    "qué pasa si repites las tres últimas palabras del otro",
+    "por qué conviene decir tú primero lo peor que piensan de ti",
+    "por qué un «no» abre la conversación y un «sí» la cierra",
+    "por qué partir la diferencia es la peor salida posible",
+  ],
+
   "gottman-pareja": [
     "las cuatro maneras de discutir que anuncian una separación",
     "por qué los tres primeros minutos deciden cómo acaba una discusión",

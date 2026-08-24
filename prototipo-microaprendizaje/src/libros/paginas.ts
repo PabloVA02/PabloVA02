@@ -63290,7 +63290,285 @@ const GOTTMAN_PAREJA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Rompe la barrera del no, en ocho páginas.
+
+   Breve. Libro práctico → afirmación entera en el rótulo y segunda persona
+   (apartados 3 bis y 4.7).
+
+   Riesgo principal: es un manual de técnicas y el resumen puede quedarse en
+   una lista de trucos. Cada página lleva el caso real de secuestro del que
+   salió la técnica, que es lo que le da autoridad y lo que se recuerda.
+
+   Y la conclusión tiene que decir lo evidente: negociar por la vida de un
+   rehén y negociar un sueldo no son lo mismo, y el libro los mezcla.
+   -------------------------------------------------------------------------- */
+
+const ROMPE_BARRERA_NO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En una negociación de verdad no hay dos partes racionales buscando un punto medio",
+      },
+      {
+        b: "texto",
+        texto:
+          "Chris Voss fue durante veinticuatro años negociador del FBI y llegó a jefe de negociación internacional de secuestros. Su trabajo consistía en hablar por teléfono con gente armada que tenía a alguien encerrado, sin poder ofrecer casi nada a cambio y sabiendo que un error costaba una vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando llegó a la unidad, el manual oficial venía de la escuela de Harvard: separar a la persona del problema, buscar intereses comunes, llegar a un acuerdo racional en el que ambas partes ganen. Voss cuenta que en una habitación de hotel con un rehén dentro eso no sirve de nada, porque enfrente no hay nadie razonable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que las personas no decidimos por cálculo sino por emoción, y que después buscamos una razón. De modo que negociar no consiste en presentar mejores argumentos: consiste en conseguir que el otro se sienta comprendido, porque hasta que eso no ocurre no escucha ni una palabra de lo que le dices.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro traslada esas técnicas a las negociaciones normales: un sueldo, un contrato, un alquiler, una discusión en casa. La traslación es la parte discutible y se verá al final, pero el material de origen no lo tiene ningún otro manual del estante. Lo que sigue son sus siete herramientas, en el orden en que él las usaba al descolgar el teléfono.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie escucha tus argumentos hasta que siente que has entendido los suyos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Repetir las tres últimas palabras del otro le hace seguir hablando" },
+      {
+        b: "texto",
+        texto:
+          "La técnica más sencilla del libro se llama el reflejo y consiste en repetir, con tono de pregunta, las últimas tres palabras que ha dicho la otra persona. Nada más. Y después callarse durante cuatro segundos, que es lo que cuesta de verdad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Funciona porque el silencio incomoda y el reflejo suena a que no has entendido del todo, así que el otro amplía. Y al ampliar cuenta cosas que no pensaba contar: los motivos que hay debajo de su posición, lo que le preocupa, lo que se está callando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Voss cuenta el caso de tres fugitivos atrincherados en un apartamento de Harlem que llevaban horas sin contestar. Seis horas de reflejos y de voz baja al teléfono, sin ninguna amenaza, terminaron con los tres saliendo por su propio pie. Ninguno pensaba rendirse cuando empezó la conversación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al reflejo le añade la voz, que es la mitad de la técnica. Habla de tres registros: el de locutor nocturno —grave, lento, hacia abajo—, el asertivo, que casi nunca conviene, y el positivo y juguetón, que es el que hay que usar por defecto. Bajar el tono baja las pulsaciones del otro. Voss insiste en que la técnica solo funciona si de verdad quieres oír la respuesta: dicha con prisa suena a burla y estropea la conversación entera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Repite sus últimas tres palabras y calla cuatro segundos: te contará lo que no pensaba contarte.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Poner nombre a lo que el otro siente desactiva la emoción antes que negarla",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda herramienta es el etiquetado: decir en voz alta la emoción que estás viendo. «Parece que esto te ha molestado». «Da la impresión de que no te fías de mí». Se enuncia como observación, nunca como acusación, y sobre todo nunca empezando por «yo».",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo está medido fuera del libro: poner nombre a una emoción reduce la actividad de la amígdala, que es la parte del cerebro que dispara la alarma. Nombrar el miedo del otro no se lo confirma, se lo baja. Negárselo —«no tienes por qué preocuparte»— hace exactamente lo contrario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la técnica más contraintuitiva del libro: la auditoría de acusaciones. Antes de que el otro saque sus reproches, los sacas tú y los dices todos. «Vas a pensar que soy un aprovechado. Que llego tarde. Que esto no lo he preparado.» Al oírlos en tu boca pierden casi toda su fuerza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Voss cuenta cómo lo usó en una negociación de honorarios que empezaba muy mal: enumeró él mismo todas las razones por las que el cliente iba a decir que no. La conversación cambió de sitio en un minuto, porque ya no quedaba nada que reprochar que no estuviera dicho.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Di tú primero lo peor que el otro piensa de ti: en su boca pesa el doble que en la tuya.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un «no» abre la conversación y un «sí» prematuro la cierra" },
+      {
+        b: "texto",
+        texto:
+          "Aquí está el giro que da título al libro. Toda la escuela clásica enseña a conseguir síes pequeños que lleven al sí grande. Voss sostiene lo contrario: el sí pone a la gente en guardia, porque todos hemos aprendido que detrás de un sí viene un compromiso que no queríamos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El no, en cambio, devuelve el control. Una persona que acaba de decir que no se siente a salvo y se relaja, y a partir de ahí escucha. Por eso propone hacer preguntas diseñadas para que contesten que no: «¿Es mal momento para hablar?», «¿Sería una locura probar otra cosa?».",
+      },
+      {
+        b: "texto",
+        texto:
+          "Distingue además tres síes distintos y avisa de que dos son falsos. Está el sí de compromiso, que es el que quieres; el sí de confirmación, que solo reconoce un hecho; y el sí de falsificación, que dice quien quiere terminar la conversación y marcharse. Casi todos los acuerdos que se caen empezaron con el tercero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La señal de que has llegado de verdad es otra frase, la que él considera la mejor de una negociación: «eso es». No «tienes razón», que suele significar «cállate ya», sino el momento en que el otro reconoce que has descrito su situación mejor que él mismo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien te dice «tienes razón» suele estar pidiéndote que te calles; «eso es» significa que te ha escuchado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las preguntas que empiezan por «cómo» le hacen resolver a él tu problema",
+      },
+      {
+        b: "texto",
+        texto:
+          "Voss llama preguntas calibradas a las que empiezan por «cómo» o «qué» y no admiten un sí o un no por respuesta. «¿Cómo se supone que voy a hacer eso?» «¿Qué es lo que más te preocupa de esto?» Están diseñadas para que el otro trabaje.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La favorita en secuestros es «¿cómo quieres que haga eso?», dicha con voz tranquila ante una exigencia imposible. No es un no, así que no provoca; pero obliga al otro a enfrentarse a los obstáculos reales de lo que está pidiendo, y muchas veces retira la exigencia él solo.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Evita el «por qué»", texto: "en casi todos los idiomas suena a acusación, y pone al otro a defenderse." },
+          { fuerte: "Nada de preguntas de sí o no", texto: "cierran la conversación en vez de abrirla; se pregunta cómo y qué." },
+          { fuerte: "Deja que resuelva él", texto: "un plan que propone el otro lo defiende el otro; el que impones lo boicotea." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "Cierra con lo que llama la regla del siete treinta y ocho cincuenta y cinco, que atribuye a un estudio antiguo sobre comunicación: la mayor parte del mensaje va en el tono y en el gesto, y muy poco en las palabras. La cifra concreta es discutible —el estudio original medía otra cosa—, pero el consejo práctico se sostiene.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un plan que propone el otro lo defiende él; el que le impones lo boicoteará.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El que da la primera cifra decide dónde se discute todo lo demás" },
+      {
+        b: "texto",
+        texto:
+          "La parte más técnica del libro trata del regateo, y arranca de algo comprobado: la primera cifra que se dice ancla la conversación entera, aunque todo el mundo sepa que es un ancla. Por eso importa quién la pone y con qué contexto se pone.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Voss propone un método de concesiones que llama de Ackerman y que va contra el instinto de partir la diferencia. Se fija el objetivo, se empieza en el sesenta y cinco por ciento de esa cifra y se sube en cuatro pasos decrecientes: ochenta y cinco, noventa y cinco, cien. Los saltos cada vez más pequeños comunican, sin decirlo, que se ha llegado al límite.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El último paso lleva un remate: en lugar de una cifra redonda se ofrece una rara y precisa, y se añade algo pequeño que no sea dinero. Una cantidad exacta parece calculada y no negociable; una redonda parece un número puesto a ojo, y a un número puesto a ojo se le regatea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y avisa contra la costumbre más extendida: partir la diferencia. Si tú pides cien y el otro cincuenta, quedar en setenta y cinco no es justo, es cómodo. Voss lo ilustra con unos zapatos negros y unos marrones: partir la diferencia sería salir con uno de cada color. Y una advertencia sobre el momento: un ancla puesta antes de que el otro haya explicado lo que necesita se convierte en el techo de la conversación en vez de en el suelo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Partir la diferencia no es justo: es la manera cómoda de que los dos salgáis perdiendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi siempre falta alguien en la mesa, y es quien decide de verdad" },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro trata de lo que llama los cisnes negros: la información que no sabes que no sabes y que cambia el sentido de la negociación entera. Su ejemplo es un secuestro que se resolvió al descubrir que el negociador del otro lado no mandaba nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca una regla que sirve para cualquier reunión: pregunta siempre quién más tiene que aprobar esto. En la mayoría de los acuerdos que se caen, la persona con la que se ha negociado durante semanas no era la que decidía, y la que decidía no ha oído ninguno de los argumentos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También insiste en localizar lo que llama la religión del otro: qué es lo que a esa persona le importa de verdad y que no aparece en la lista de condiciones. Casi siempre es algo distinto del dinero —quedar bien, no perder el control, cerrar el asunto antes de una fecha— y casi siempre es más barato de dar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y advierte de dos señales que hay que escuchar cuando aparecen. Una es «lo siento, pero», que suele preceder a una negativa disfrazada. La otra es cualquier frase en la que el otro se justifique sin que se lo hayas pedido: ahí acaba de enseñar dónde le aprieta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pregunta quién más tiene que aprobar esto: la mitad de los acuerdos se caen por hablar con quien no decide.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Rompe la barrera del no sostiene que las negociaciones no las gana el que tiene mejores argumentos sino el que consigue que el otro se sienta entendido. Sus herramientas son concretas y se practican el mismo día: repetir las tres últimas palabras, poner nombre a la emoción, decir tú los reproches antes que él, preguntar cómo, y buscar el «eso es».",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es de dónde viene. Casi todo el estante de negociación son casos de empresa contados por consultores; esto son veinticuatro años de llamadas en las que la otra parte tenía a alguien encerrado y no había ningún incentivo que ofrecer. Las técnicas están probadas en el escenario más hostil que existe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla justo en el salto que da el libro. Negociar con un secuestrador y negociar un sueldo se parecen menos de lo que promete: en un secuestro no hay relación futura, no hay contrato y el otro no puede levantarse e irse. Aplicar la auditoría de acusaciones con tu jefe, tal cual, puede salir bastante mal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También tiene el vicio del género: el caso siempre sale bien. No hay ni una negociación en la que las técnicas fallaran, y en veinticuatro años de secuestros las hubo. Y la regla del siete treinta y ocho cincuenta y cinco que cita procede de un experimento de los años sesenta que medía otra cosa, algo que su propio autor lleva décadas aclarando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Publicado en 2016, se convirtió en el manual de negociación más vendido de la década y en lectura habitual en escuelas de negocios que hasta entonces enseñaban el método contrario. Su rival directo, el clásico de Harvard, sigue en pie: quien tenga que negociar en serio hace bien en leer los dos, porque cada uno tiene razón en un escenario distinto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una técnica probada en el peor escenario posible no vale automáticamente para el tuyo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "rompe-barrera-no": ROMPE_BARRERA_NO,
   "gottman-pareja": GOTTMAN_PAREJA,
   "siete-pecados": SIETE_PECADOS,
   "nunca-te-pares": NUNCA_TE_PARES,
