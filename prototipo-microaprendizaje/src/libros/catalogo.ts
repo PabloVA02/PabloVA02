@@ -255,7 +255,7 @@ export const CATALOGO: Ficha[] = [
 
   { id: "inteligencia-erotica", titulo: "Inteligencia erótica", autor: "Esther Perel", ano: 2006, categoria: "Psicología", estado: "pendiente" },
   { id: "nueva-mirada-infidelidad", titulo: "Una nueva mirada a la infidelidad", autor: "Esther Perel", ano: 2017, categoria: "Psicología", estado: "pendiente" },
-  { id: "gottman-pareja", titulo: "Siete reglas de oro para vivir en pareja", autor: "John Gottman", ano: 1999, categoria: "Psicología", estado: "pendiente" },
+  { id: "gottman-pareja", titulo: "Siete reglas de oro para vivir en pareja", autor: "John Gottman", ano: 1999, categoria: "Psicología", estado: "escrito" },
   { id: "arte-seduccion", titulo: "El arte de la seducción", autor: "Robert Greene", ano: 2001, categoria: "Psicología", estado: "pendiente" },
   { id: "48-leyes-poder", titulo: "Las 48 leyes del poder", autor: "Robert Greene", ano: 1998, categoria: "Psicología", estado: "pendiente" },
   { id: "secreto-byrne", titulo: "El secreto", autor: "Rhonda Byrne", ano: 2006, categoria: "Psicología", estado: "pendiente" },

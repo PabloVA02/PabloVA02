@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "gottman-pareja": "Una guía práctica a partir de los estudios más extensos sobre pareja",
   "siete-pecados": "Trece años persiguiendo la mejor historia del deporte mundial",
   "nunca-te-pares": "Los dieciocho años en que Nike estuvo a punto de quebrar cada verano",
   "legado-all-blacks": "Quince prácticas concretas del equipo que más gana del mundo",

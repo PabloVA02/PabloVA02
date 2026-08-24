@@ -63012,7 +63012,286 @@ const SIETE_PECADOS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Siete reglas de oro para vivir en pareja, en ocho páginas.
+
+   Breve. Libro práctico → afirmación entera en el rótulo y segunda persona,
+   que aquí es la voz correcta (apartados 3 bis y 4.7).
+
+   Riesgo principal: es el cajón donde más folleto hay. El antídoto es que
+   aquí SÍ hay datos: un laboratorio, parejas grabadas durante décadas y
+   porcentajes publicados. Cada página lleva la cifra o el experimento.
+
+   Y la conclusión tiene que decir lo del 94 %, que es la cifra que vende el
+   libro y la que más se le ha discutido.
+   -------------------------------------------------------------------------- */
+
+const GOTTMAN_PAREJA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Se puede predecir un divorcio viendo discutir a una pareja quince minutos",
+      },
+      {
+        b: "texto",
+        texto:
+          "John Gottman montó en la Universidad de Washington un apartamento con cámaras y sensores al que llamaron el laboratorio del amor. Invitaba a parejas a pasar allí un fin de semana normal: cocinar, ver la televisión, discutir. Les medía el pulso, la conductancia de la piel y cada gesto de la cara, y después las seguía durante años para ver quiénes seguían juntos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado que le hizo famoso es que con unos minutos de conversación grabada acertaba quién se iba a separar. No hacía falta saber de qué discutían ni cuánto se querían: bastaba con cómo se hablaban mientras discutían. Eso convirtió una intuición de terapeuta en algo que se puede medir y contrastar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro salió de ahí, y por eso se distingue del resto del estante. La inmensa mayoría de los manuales de pareja son la opinión ordenada de un terapeuta con consulta; este es un resumen de veinte años de grabaciones, con sus porcentajes y sus muestras, escrito para que lo entienda cualquiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sostiene, y va contra casi todo lo que se dice, es que las parejas que duran no son las que discuten poco ni las que resuelven sus problemas. Discuten igual y arrastran los mismos asuntos sin resolver durante décadas. Lo que cambia es lo que hacen mientras tanto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que decide una relación no es de qué discutís, sino cómo os habláis mientras discutís.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hay cuatro maneras de discutir que anuncian el final" },
+      {
+        b: "texto",
+        texto:
+          "Gottman aisló cuatro comportamientos que aparecen en las parejas que se separan y casi nunca en las que duran. Los llamó los cuatro jinetes, y lo importante es que van en orden: cada uno llama al siguiente, y cuando aparece el cuarto la conversación ya no se puede arreglar desde dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primero es la crítica, que no es lo mismo que la queja. Una queja habla de un hecho: «no sacaste la basura y me molestó». Una crítica habla del carácter: «nunca te acuerdas de nada, eres un desastre». La primera se puede contestar; la segunda solo se puede negar.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Crítica", texto: "atacar el carácter del otro en lugar de describir lo que ha pasado." },
+          { fuerte: "Actitud defensiva", texto: "contestar a una queja con otra queja, o con una excusa que no reconoce nada." },
+          { fuerte: "Desprecio", texto: "el sarcasmo, el insulto, poner los ojos en blanco; hablar desde arriba." },
+          { fuerte: "Actitud evasiva", texto: "desconectar y dejar de responder, aunque se siga sentado enfrente." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "El más destructivo con diferencia es el tercero. El desprecio es el único que predice por sí solo la separación, y Gottman añadió un dato que sorprendió incluso a los médicos: las personas que reciben desprecio de forma habitual en casa se ponen enfermas con más frecuencia. La convivencia hostil aparece en el sistema inmunitario.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una queja habla de lo que ha pasado; una crítica habla de quién eres. Solo la primera tiene arreglo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los primeros tres minutos de una discusión deciden cómo va a acabar" },
+      {
+        b: "texto",
+        texto:
+          "Uno de los hallazgos más útiles del laboratorio es que el final de una conversación difícil se puede predecir por cómo empieza. Si los primeros tres minutos son duros —reproche, sarcasmo, subir la voz—, la discusión acaba mal en la inmensa mayoría de los casos, hagan lo que hagan después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso lo llamó el arranque brusco, y el remedio es sencillo de decir y difícil de hacer: empezar por lo que sientes y por lo que necesitas, no por lo que ha hecho el otro. «Me he agobiado con la casa y necesito que te ocupes de la cena» funciona; «nunca haces nada» no, aunque las dos frases quieran decir lo mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo mecanismo es fisiológico y explica por qué las discusiones se descontrolan. Cuando el pulso pasa de unas cien pulsaciones, el cuerpo entra en estado de alarma: se estrecha la atención, se pierde el acceso al humor y al razonamiento, y solo quedan disponibles el ataque y la huida. En ese estado nadie negocia nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la recomendación más concreta del libro: cuando notes que te has acelerado, se para la conversación y se retoma en veinte minutos, que es lo que tarda el cuerpo en volver. Y hay que decirlo en voz alta y volver de verdad, porque irse sin más es el cuarto jinete.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si te has acelerado, para veinte minutos y vuelve: en alarma no se negocia nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El sesenta y nueve por ciento de los problemas de una pareja no se resuelve nunca",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la cifra que más incomoda del libro y la que más alivio produce cuando se entiende. Al analizar los conflictos de cientos de parejas, Gottman encontró que alrededor de dos tercios eran perpetuos: diferencias de fondo en el carácter, en el orden, en el dinero, en cuánta gente se quiere tener alrededor. No se arreglan. Siguen ahí a los veinte años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que distingue a las parejas felices no es haber resuelto esos dos tercios: es haber aprendido a hablar de ellos sin acabar mal. A eso lo llama diálogo, y la alternativa es el estancamiento, donde el mismo asunto se convierte en una trinchera y cada conversación repite la anterior con más rencor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia entre una cosa y la otra suele estar debajo del asunto aparente. Detrás de una discusión repetida sobre el desorden o sobre los horarios casi siempre hay algo que a uno de los dos le importa mucho y que nunca ha llegado a explicar del todo. El libro insiste en preguntar por eso antes de negociar el detalle.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica cambia el objetivo. No se trata de terminar la discusión con un acuerdo, sino de terminarla sabiendo algo nuevo de por qué al otro le importa tanto. Un problema perpetuo bien hablado deja de estorbar aunque siga entero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dos tercios de vuestros problemas no se van a resolver: el objetivo es poder hablarlos sin acabar mal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que sostiene una pareja son los gestos pequeños y no las grandes ocasiones",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gottman llama intentos de conexión a las decenas de gestos mínimos que una persona lanza al día: enseñar algo del móvil, comentar el tiempo, suspirar en voz alta, tocar un hombro al pasar. Cada uno es una petición pequeña de atención, y casi nunca se reconoce como tal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que midió es qué se hace con ellos. Hay tres respuestas posibles: girarse hacia el otro, girarse hacia otro lado o girarse en contra. En su seguimiento, las parejas que seguían juntas seis años después respondían a esos gestos la inmensa mayoría de las veces; las que se separaron, apenas a un tercio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa contabilidad explica una cosa que desconcierta a mucha gente: parejas que no discuten casi nunca acaban separándose igual. No hubo ninguna pelea; hubo miles de gestos que no encontraron respuesta, y un día ya no queda nada que sostenga la habitación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro añade una proporción que se ha hecho célebre. En las conversaciones de las parejas estables, por cada intercambio negativo hay unos cinco positivos. No es que no haya reproches: es que están compensados por una cantidad de aprobación mucho mayor de la que la gente imagina.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cada vez que el otro te habla de una tontería te está pidiendo atención: contestarle es casi todo el trabajo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conocer al otro por dentro es una tarea que no termina nunca" },
+      {
+        b: "texto",
+        texto:
+          "La primera de las siete reglas es la más aburrida de enunciar y la que más sostiene: saber cosas del otro. Gottman lo llama el mapa del amor, y lo mide con preguntas concretas. Quiénes son sus dos mejores amigos. Qué le preocupa ahora mismo del trabajo. Cuál fue el peor año de su vida y por qué.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es que ese mapa se queda anticuado sin que nadie lo note. Una pareja de quince años suele responder con la información de hace ocho: el jefe que ya no está, el miedo que ya se le pasó, la amiga con la que se dejó de hablar. Y a partir de ahí las dos personas empiezan a hablar con una versión antigua del otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El remedio no es una técnica sino una costumbre: preguntar por cosas que no sean logística. El libro incluye listas de preguntas precisamente porque, después de años juntos, casi nadie sabe ya qué preguntar que no sea a qué hora vuelves o quién compra el pan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ese conocimiento salen las otras dos reglas de la base: el cariño y la admiración. Gottman pedía a las parejas que contaran cómo se conocieron, y descubrió que el tono con el que narraban esa historia predecía su futuro mejor que casi cualquier otra cosa. Quien todavía cuenta con gusto el principio, suele seguir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si llevas años sin preguntarle nada nuevo, estás hablando con una versión antigua del otro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El poder hay que compartirlo, y eso se mide en decisiones pequeñas" },
+      {
+        b: "texto",
+        texto:
+          "La cuarta regla es la que más cambió con los datos. Gottman encontró que en las parejas heterosexuales estables el hombre acepta la influencia de su mujer: cede en discusiones cotidianas, pregunta antes de decidir, cambia de opinión cuando ella insiste. En las que se separaban, ese reparto no aparecía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No habla de grandes decisiones sino de las pequeñas, que son las que se cuentan por miles: dónde se cena, cómo se organiza un fin de semana, si se compra algo. Una persona que no cede nunca en lo pequeño está comunicando algo sobre lo grande sin decirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ligado a eso está lo que llama los intentos de reparación, que son los frenos de una discusión: una broma a tiempo, un «espera, empecemos otra vez», un gesto de cansancio compartido. Todas las parejas los lanzan; lo que distingue a las que duran es que el otro los acepta en lugar de seguir atacando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La última regla es la más abstracta y la que da sentido a las anteriores: construir un sentido compartido. Rituales que se repiten, papeles que cada uno acepta, cosas que en esa casa se hacen de una manera concreta porque sí. Una pareja también es una cultura pequeña con sus costumbres.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ceder en lo pequeño mil veces dice más de una relación que estar de acuerdo en lo grande.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Siete reglas de oro para vivir en pareja resume veinte años de un laboratorio en el que se grabó a cientos de parejas y se las siguió durante décadas. Su tesis es que la convivencia se juega en lo cotidiano y no en los grandes asuntos: en cómo empieza una discusión, en si se contesta a los gestos pequeños, en si se cede en lo que no importa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es que casi todo lo que dice se puede hacer mañana y comprobar. Los cuatro jinetes se reconocen en una conversación propia sin ningún esfuerzo, el arranque suave se practica, la parada de veinte minutos funciona, y saber que dos tercios de los problemas no se van a resolver quita de encima una expectativa que hacía daño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en la cifra que más se le cita. El famoso noventa y cuatro por ciento de acierto al predecir divorcios no salió de una predicción hecha por adelantado, sino de ajustar un modelo a parejas que ya se habían separado, y varios estadísticos lo señalaron en los años dos mil. Cuando se ha intentado predecir de verdad, el acierto baja bastante. El método sigue en pie; el porcentaje del reclamo, no del todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También hay que leerlo con la fecha delante. La muestra son sobre todo parejas heterosexuales, casadas, blancas y estadounidenses de los años ochenta y noventa, y la regla sobre aceptar la influencia está escrita para ese reparto de papeles. Gottman publicó después trabajos con parejas del mismo sexo, pero este libro no los recoge.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con esas cautelas, sigue siendo el libro de pareja con más suelo empírico que se ha escrito para el gran público. Su instituto formó a miles de terapeutas, sus cuatro jinetes se enseñan en las facultades y la proporción de cinco a uno se cita constantemente. Ningún otro título del estante tiene detrás algo parecido a esas grabaciones.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Desconfía de la cifra que un libro pone en la portada, sobre todo cuando el método que hay debajo es bueno.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "gottman-pareja": GOTTMAN_PAREJA,
   "siete-pecados": SIETE_PECADOS,
   "nunca-te-pares": NUNCA_TE_PARES,
   "legado-all-blacks": LEGADO_ALL_BLACKS,

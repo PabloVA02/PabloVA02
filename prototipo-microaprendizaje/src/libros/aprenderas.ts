@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "gottman-pareja":
+    "Gottman grabó a cientos de parejas en un apartamento con cámaras y las siguió durante décadas. De ahí salen las cuatro maneras de discutir que anuncian el final y las siete costumbres de las que duran.",
+
   "siete-pecados":
     "Un periodista irlandés sostuvo durante trece años que los siete Tours de Lance Armstrong eran mentira. Cuenta qué le hizo sospechar, quién se atrevió a declarar y lo que le costó tener razón antes de tiempo.",
 

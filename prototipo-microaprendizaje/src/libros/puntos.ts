@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "gottman-pareja": [
+    "las cuatro maneras de discutir que anuncian una separación",
+    "por qué los tres primeros minutos deciden cómo acaba una discusión",
+    "por qué dos tercios de los problemas no se resuelven nunca",
+    "cómo se pide atención sin darte cuenta de que la estás pidiendo",
+    "qué relación tiene ceder en lo pequeño con durar en lo grande",
+  ],
+
   "siete-pecados": [
     "por qué cuanto mejor es una historia menos gente quiere comprobarla",
     "por qué un sector que necesita buenas noticias deja de examinarlas",
