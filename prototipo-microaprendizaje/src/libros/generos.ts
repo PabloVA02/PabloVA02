@@ -102,7 +102,9 @@ export const GENEROS: Genero[] = [
     icono: "dos",
     libros: [
       "amigos-influir", "influencia", "lenguajes-amor", "maneras-de-amar",
-      "48-leyes-poder", "gottman-pareja",
+      "48-leyes-poder", "gottman-pareja", "rompe-barrera-no", "obtenga-el-si",
+      "lenguaje-del-cuerpo", "hombres-no-escuchan", "nunca-comas-solo",
+      "dar-y-recibir", "pre-suasion", "poder-introvertidos",
       "arte-de-amar", "marte-venus", "cuatro-acuerdos", "cerebro-del-nino", "nudge",
     ],
   },
@@ -119,6 +121,7 @@ export const GENEROS: Genero[] = [
     icono: "dos",
     libros: [
       "inteligencia-erotica", "nueva-mirada-infidelidad", "gottman-pareja",
+      "modelos-manson", "hombres-no-escuchan",
       "tal-como-eres", "por-que-amamos", "cerebro-femenino", "amor-liquido",
       "arte-seduccion", "lenguajes-amor", "maneras-de-amar", "arte-de-amar",
       "marte-venus", "veinte-poemas", "come-reza-ama",
