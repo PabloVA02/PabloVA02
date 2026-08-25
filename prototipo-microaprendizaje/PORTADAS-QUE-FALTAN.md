@@ -1,84 +1,178 @@
 # Portadas que faltan
 
-Al 2026-08-25: **418 libros** en el catálogo, **216 con cubierta**, **202 sin ella**.
+Al 2026-08-25: **418 libros** en el catálogo, **135 con cubierta**, **283 sin ella**.
 
 El fichero de cada una se llama como el id, en PNG a 1024 × 1536.
 
+**Y lleva mensaje.** Una portada con solo el título y el autor no vale: hace falta
+una frase corta debajo —de cuatro a nueve palabras— que prometa algo. Es lo del
+apartado 5 bis de `REDACCION.md`. El 25 de agosto se retiraron 81 portadas por
+no tenerla, y están en `cubiertas-originales/reemplazadas/` por si hicieran falta.
 
-# PRIMERO ESTAS: 49 libros que ya se pueden leer y salen sin portada
 
-## Arte — 4
+# PRIMERO ESTAS: 135 libros que ya se pueden leer y salen sin portada
+
+## Arte — 11
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
 | `van-gogh-cartas` | Cartas a Theo | Vincent van Gogh | 1914 |
+| `espiritual-arte` | De lo espiritual en el arte | Vasili Kandinsky | 1911 |
+| `el-elemento` | El elemento | Ken Robinson | 2009 |
+| `heroe-mil-caras` | El héroe de las mil caras | Joseph Campbell | 1949 |
 | `frida-herrera` | Frida | Hayden Herrera | 1983 |
 | `arte-sin-hombres` | Historia del arte sin hombres | Katy Hessel | 2022 |
+| `reproductibilidad` | La obra de arte en la época de su reproductibilidad técnica | Walter Benjamin | 1936 |
+| `vidas-vasari` | Las vidas de los más excelentes pintores, escultores y arquitectos | Giorgio Vasari | 1550 |
+| `leonardo` | Leonardo da Vinci | Walter Isaacson | 2017 |
+| `modos-ver` | Modos de ver | John Berger | 1972 |
 | `will-smith` | Will | Will Smith y Mark Manson | 2021 |
 
-## Ciencia — 2
+## Ciencia — 3
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
 | `el-cerebro` | El cerebro | David Eagleman | 2015 |
+| `henrietta-lacks` | La vida inmortal de Henrietta Lacks | Rebecca Skloot | 2010 |
 | `por-que-amamos` | Por qué amamos | Helen Fisher | 2004 |
 
-## Deportes — 2
+## Deportes — 23
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
+| `cruyff-14` | 14. La autobiografía de Johan Cruyff | Johan Cruyff | 2016 |
 | `correr-o-morir` | Correr o morir | Kilian Jornet | 2011 |
+| `hablo-correr` | De qué hablo cuando hablo de correr | Haruki Murakami | 2007 |
+| `futbol-sol-sombra` | El fútbol a sol y sombra | Eduardo Galeano | 1995 |
+| `gen-deportivo` | El gen deportivo | David Epstein | 2013 |
+| `fiebre-gradas` | Fiebre en las gradas | Nick Hornby | 1992 |
+| `futbol-contra-enemigo` | Fútbol contra el enemigo | Simon Kuper | 1994 |
 | `relentless` | Imparable | Tim Grover | 2013 |
+| `piramide-invertida` | La pirámide invertida | Jonathan Wilson | 2008 |
+| `legado-all-blacks` | Legado | James Kerr | 2013 |
+| `mamba-mentality` | Mamba Mentality | Kobe Bryant | 2018 |
+| `messi-ronaldo` | Messi vs. Ronaldo | Clegg y Robinson | 2021 |
+| `moneyball` | Moneyball | Michael Lewis | 2003 |
+| `numero-uno` | Número uno | Anders Ericsson | 2016 |
+| `nunca-te-pares` | Nunca te pares | Phil Knight | 2016 |
+| `once-anillos` | Once anillos | Phil Jackson | 2013 |
+| `open-agassi` | Open | Andre Agassi | 2009 |
+| `rafa-mi-historia` | Rafa, mi historia | Rafael Nadal y John Carlin | 2011 |
+| `remando-un-hombre` | Remando como un solo hombre | Daniel James Brown | 2013 |
+| `rey-del-mundo` | Rey del mundo | David Remnick | 1998 |
+| `siete-pecados` | Siete pecados capitales | David Walsh | 2012 |
+| `yo-soy-el-diego` | Yo soy el Diego | Diego Armando Maradona | 2000 |
+| `soy-zlatan` | Yo soy Zlatan Ibrahimović | David Lagercrantz | 2011 |
 
-## Economía — 5
+## Economía — 10
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
 | `quien-queso` | ¿Quién se ha llevado mi queso? | Spencer Johnson | 1998 |
+| `capital-siglo-xxi` | El capital en el siglo XXI | Thomas Piketty | 2013 |
+| `hombre-rico-babilonia` | El hombre más rico de Babilonia | George S. Clason | 1926 |
 | `millonario-automatico` | El millonario automático | David Bach | 2004 |
 | `elon-musk` | Elon Musk | Walter Isaacson | 2023 |
 | `empieza-porque` | Empieza con el porqué | Simon Sinek | 2009 |
+| `esencialismo` | Esencialismo | Greg McKeown | 2014 |
+| `por-que-fracasan` | Por qué fracasan los países | Acemoglu y Robinson | 2012 |
+| `repensar-pobreza` | Repensar la pobreza | Banerjee y Duflo | 2011 |
 | `ensenare-ser-rico` | Te enseñaré a ser rico | Ramit Sethi | 2009 |
 
-## Historia — 5
+## Filosofía — 10
+
+| id (nombre del fichero) | Título | Autor | Año |
+|---|---|---|---|
+| `apologia-socrates` | Apología de Sócrates | Platón | 399 a. C. |
+| `discurso-metodo` | Discurso del método | René Descartes | 1637 |
+| `contrato-social` | El contrato social | Jean-Jacques Rousseau | 1762 |
+| `existencialismo-humanismo` | El existencialismo es un humanismo | Jean-Paul Sartre | 1946 |
+| `segundo-sexo` | El segundo sexo | Simone de Beauvoir | 1949 |
+| `enquiridion` | Enquiridión | Epicteto | 125 |
+| `ensayos-montaigne` | Ensayos | Michel de Montaigne | 1580 |
+| `republica-platon` | La República | Platón | 375 a. C. |
+| `mas-alla-bien-mal` | Más allá del bien y del mal | Friedrich Nietzsche | 1886 |
+| `brevedad-vida` | Sobre la brevedad de la vida | Séneca | 49 |
+
+## Historia — 16
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
 | `21-lecciones` | 21 lecciones para el siglo XXI | Yuval Noah Harari | 2018 |
+| `auschwitz-rees` | Auschwitz: los nazis y la solución final | Laurence Rees | 2005 |
 | `malcolm-x` | Autobiografía de Malcolm X | Malcolm X y Alex Haley | 1965 |
 | `eichmann-jerusalen` | Eichmann en Jerusalén | Hannah Arendt | 1963 |
+| `homo-sovieticus` | El fin del Homo Sovieticus | Svetlana Aleksiévich | 2013 |
+| `chico-pijama` | El niño con el pijama de rayas | John Boyne | 2006 |
+| `tatuador` | El tatuador de Auschwitz | Heather Morris | 2018 |
+| `homenaje-cataluna` | Homenaje a Cataluña | George Orwell | 1938 |
+| `imperiofobia` | Imperiofobia y leyenda negra | María Elvira Roca Barea | 2016 |
+| `guerra-civil-thomas` | La guerra civil española | Hugh Thomas | 1961 |
 | `origenes-totalitarismo` | Los orígenes del totalitarismo | Hannah Arendt | 1951 |
+| `pilares-tierra` | Los pilares de la Tierra | Ken Follett | 1989 |
 | `becoming` | Mi historia | Michelle Obama | 2018 |
+| `si-esto-hombre` | Si esto es un hombre | Primo Levi | 1947 |
+| `sobre-tirania` | Sobre la tiranía | Timothy Snyder | 2017 |
+| `historia-espana` | Una historia de España | Arturo Pérez-Reverte | 2019 |
 
-## Literatura — 4
+## Literatura — 27
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
+| `ana-karenina` | Ana Karenina | León Tolstói | 1877 |
+| `cuentos-poe` | Cuentos de Edgar Allan Poe | Edgar Allan Poe | 1845 |
 | `cumbres-borrascosas` | Cumbres borrascosas | Emily Brontë | 1847 |
+| `dracula` | Drácula | Bram Stoker | 1897 |
+| `extranjero` | El extranjero | Albert Camus | 1942 |
+| `guardian-centeno` | El guardián entre el centeno | J. D. Salinger | 1951 |
+| `nombre-rosa` | El nombre de la rosa | Umberto Eco | 1980 |
+| `dorian-gray` | El retrato de Dorian Gray | Oscar Wilde | 1890 |
+| `senor-moscas` | El señor de las moscas | William Golding | 1954 |
 | `senor-anillos` | El señor de los anillos | J. R. R. Tolkien | 1954 |
+| `el-tunel` | El túnel | Ernesto Sabato | 1948 |
+| `viejo-mar` | El viejo y el mar | Ernest Hemingway | 1952 |
+| `ficciones` | Ficciones | Jorge Luis Borges | 1944 |
+| `frankenstein` | Frankenstein | Mary Shelley | 1818 |
+| `guerra-y-paz` | Guerra y paz | León Tolstói | 1869 |
 | `harry-potter-1` | Harry Potter y la piedra filosofal | J. K. Rowling | 1997 |
+| `bernarda-alba` | La casa de Bernarda Alba | Federico García Lorca | 1936 |
 | `casa-espiritus` | La casa de los espíritus | Isabel Allende | 1982 |
+| `elegancia-erizo` | La elegancia del erizo | Muriel Barbery | 2006 |
+| `odisea` | La Odisea | Homero | 750 a. C. |
+| `los-miserables` | Los miserables | Victor Hugo | 1862 |
+| `renglones-torcidos` | Los renglones torcidos de Dios | Torcuato Luca de Tena | 1979 |
+| `madame-bovary` | Madame Bovary | Gustave Flaubert | 1856 |
+| `mujercitas` | Mujercitas | Louisa May Alcott | 1868 |
+| `pedro-paramo` | Pedro Páramo | Juan Rulfo | 1955 |
+| `rayuela` | Rayuela | Julio Cortázar | 1963 |
+| `mundo-feliz` | Un mundo feliz | Aldous Huxley | 1932 |
 
-## Psicología — 23
+## Psicología — 29
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
+| `amar-o-depender` | Amar o depender | Walter Riso | 1999 |
 | `cosas-buenas` | Cómo hacer que te pasen cosas buenas | Marian Rojas Estapé | 2018 |
 | `comunicacion-no-violenta` | Comunicación no violenta | Marshall Rosenberg | 1999 |
+| `conversaciones-cruciales` | Conversaciones cruciales | Patterson, Grenny, McMillan y Switzler | 2002 |
 | `segundo-cerebro` | Crea tu segundo cerebro | Tiago Forte | 2022 |
 | `cuatro-mil-semanas` | Cuatro mil semanas | Oliver Burkeman | 2021 |
 | `dar-y-recibir` | Dar y recibir | Adam Grant | 2013 |
 | `determinacion` | Determinación | Angela Duckworth | 2016 |
 | `dopamina-lieberman` | Dopamina | Daniel Z. Lieberman y Michael E. Long | 2018 |
 | `arte-seduccion` | El arte de la seducción | Robert Greene | 2001 |
+| `cerebro-buda` | El cerebro de Buda | Rick Hanson y Richard Mendius | 2009 |
 | `lenguaje-del-cuerpo` | El lenguaje del cuerpo | Allan y Barbara Pease | 2004 |
+| `obstaculo-es-camino` | El obstáculo es el camino | Ryan Holiday | 2014 |
 | `poder-5-segundos` | El poder de los 5 segundos | Mel Robbins | 2017 |
 | `poder-introvertidos` | El poder de los introvertidos | Susan Cain | 2012 |
 | `secreto-byrne` | El secreto | Rhonda Byrne | 2006 |
 | `inteligencia-erotica` | Inteligencia erótica | Esther Perel | 2006 |
+| `intro-psicoanalisis` | Introducción al psicoanálisis | Sigmund Freud | 1917 |
 | `magia-pensar-grande` | La magia de pensar en grande | David Schwartz | 1959 |
 | `48-leyes-poder` | Las 48 leyes del poder | Robert Greene | 1998 |
 | `leyes-naturaleza-humana` | Las leyes de la naturaleza humana | Robert Greene | 2018 |
+| `cinco-arrepentimientos` | Los cinco arrepentimientos de los moribundos | Bronnie Ware | 2011 |
 | `hombres-marte-mujeres-venus` | Los hombres son de Marte, las mujeres son de Venus | John Gray | 1992 |
 | `nunca-comas-solo` | Nunca comas solo | Keith Ferrazzi | 2005 |
 | `obtenga-el-si` | Obtenga el sí | Fisher y Ury | 1981 |
@@ -87,17 +181,19 @@ El fichero de cada una se llama como el id, en PNG a 1024 × 1536.
 | `gottman-pareja` | Siete reglas de oro para vivir en pareja | John Gottman | 1999 |
 | `tus-zonas-erroneas` | Tus zonas erróneas | Wayne Dyer | 1976 |
 
-## Salud — 4
+## Salud — 6
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
+| `cuerpo-cuenta` | El cuerpo lleva la cuenta | Bessel van der Kolk | 2014 |
 | `dilema-omnivoro` | El dilema del omnívoro | Michael Pollan | 2006 |
 | `metodo-wim-hof` | El método Wim Hof | Wim Hof | 2020 |
+| `poder-metabolismo` | El poder del metabolismo | Frank Suárez | 2006 |
 | `magia-orden` | La magia del orden | Marie Kondo | 2011 |
 | `tal-como-eres` | Tal como eres | Emily Nagoski | 2015 |
 
 
-# DESPUÉS: 153 que todavía no tienen texto
+# DESPUÉS: 148 que todavía no tienen texto
 
 ## Arte — 7
 
@@ -127,7 +223,7 @@ El fichero de cada una se llama como el id, en PNG a 1024 × 1536.
 | `tecnologias-radicales` | Tecnologías radicales | Adam Greenfield | 2017 |
 | `vida-3-0` | Vida 3.0 | Max Tegmark | 2017 |
 
-## Economía — 34
+## Economía — 33
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
@@ -139,7 +235,6 @@ El fichero de cada una se llama como el id, en PNG a 1024 × 1536.
 | `efecto-compuesto` | El efecto compuesto | Darren Hardy | 2010 |
 | `empresas-sobresalen` | Empresas que sobresalen | Jim Collins | 2001 |
 | `chingona-dinero` | Eres un chingón haciendo dinero | Jen Sincero | 2017 |
-| `esencialismo` | Esencialismo | Greg McKeown | 2014 |
 | `bolsa-o-vida` | La bolsa o la vida | Robin y Dominguez | 1992 |
 | `ciencia-hacerse-rico` | La ciencia de hacerse rico | Wallace D. Wattles | 1910 |
 | `dieta-financiera` | La dieta financiera | Chelsea Fagan y Lauren Ver Hage | 2018 |
@@ -221,23 +316,20 @@ El fichero de cada una se llama como el id, en PNG a 1024 × 1536.
 | `veinte-poemas` | Veinte poemas de amor y una canción desesperada | Pablo Neruda | 1924 |
 | `vivir-para-contarla` | Vivir para contarla | Gabriel García Márquez | 2002 |
 
-## Psicología — 49
+## Psicología — 45
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
 | `termina-acuff` | ¡Termina! | Jon Acuff | 2017 |
 | `treinta-dias` | 30 días | Marc Reklau | 2014 |
 | `actua-dama-piensa-hombre` | Actúa como dama, piensa como hombre | Steve Harvey | 2009 |
-| `amar-o-depender` | Amar o depender | Walter Riso | 1999 |
 | `cambia-el-chip` | Cambia el chip | Chip y Dan Heath | 2010 |
 | `ninos-escuchen` | Cómo hablar para que los niños escuchen | Adele Faber y Elaine Mazlish | 1980 |
 | `adulto-relaciones` | Cómo ser un adulto en las relaciones | David Richo | 2002 |
-| `conversaciones-cruciales` | Conversaciones cruciales | Patterson, Grenny, McMillan y Switzler | 2002 |
 | `desenredadas` | Desenredadas | Lisa Damour | 2016 |
 | `despertando-gigante` | Despertando al gigante interior | Tony Robbins | 1991 |
 | `arte-no-amargarse` | El arte de no amargarse la vida | Rafael Santandreu | 2011 |
 | `ego-es-el-enemigo` | El ego es el enemigo | Ryan Holiday | 2016 |
-| `obstaculo-es-camino` | El obstáculo es el camino | Ryan Holiday | 2014 |
 | `placebo-eres-tu` | El placebo eres tú | Joe Dispenza | 2014 |
 | `poder-de-la-presencia` | El poder de la presencia | Amy Cuddy | 2015 |
 | `poder-magico-voluntad` | El poder mágico de la voluntad | Claude M. Bristol | 1948 |
@@ -256,7 +348,6 @@ El fichero de cada una se llama como el id, en PNG a 1024 × 1536.
 | `quietud-es-la-clave` | La quietud es la clave | Ryan Holiday | 2019 |
 | `21-leyes-liderazgo` | Las 21 leyes irrefutables del liderazgo | John C. Maxwell | 1998 |
 | `cinco-heridas` | Las cinco heridas que impiden ser uno mismo | Lise Bourbeau | 2000 |
-| `cinco-arrepentimientos` | Los cinco arrepentimientos de los moribundos | Bronnie Ware | 2011 |
 | `maestria-greene` | Maestría | Robert Greene | 2012 |
 | `modelos-manson` | Modelos | Mark Manson | 2011 |
 | `mujeres-aman-demasiado` | Mujeres que aman demasiado | Robin Norwood | 1985 |
