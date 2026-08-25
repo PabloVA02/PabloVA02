@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "secreto-byrne": [
+    "de dónde sale realmente la ley de la atracción",
+    "qué parte de la visualización está medida y cuál no",
+    "por qué visualizar el resultado reduce el esfuerzo",
+    "por qué un método que nunca falla no explica nada",
+    "qué le pasa a un enfermo al que le dicen que se cure pensando",
+  ],
+
   "48-leyes-poder": [
     "por qué no conviene eclipsar nunca a quien está por encima",
     "por qué el silencio produce más efecto que un argumento",

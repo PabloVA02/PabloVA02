@@ -288,7 +288,7 @@ export const CATALOGO: Ficha[] = [
   { id: "gottman-pareja", titulo: "Siete reglas de oro para vivir en pareja", autor: "John Gottman", ano: 1999, categoria: "Psicología", estado: "escrito" },
   { id: "arte-seduccion", titulo: "El arte de la seducción", autor: "Robert Greene", ano: 2001, categoria: "Psicología", estado: "pendiente" },
   { id: "48-leyes-poder", titulo: "Las 48 leyes del poder", autor: "Robert Greene", ano: 1998, categoria: "Psicología", estado: "escrito" },
-  { id: "secreto-byrne", titulo: "El secreto", autor: "Rhonda Byrne", ano: 2006, categoria: "Psicología", estado: "pendiente" },
+  { id: "secreto-byrne", titulo: "El secreto", autor: "Rhonda Byrne", ano: 2006, categoria: "Psicología", estado: "escrito" },
   { id: "tus-zonas-erroneas", titulo: "Tus zonas erróneas", autor: "Wayne Dyer", ano: 1976, categoria: "Psicología", estado: "pendiente" },
   { id: "mujeres-lobos", titulo: "Mujeres que corren con los lobos", autor: "Clarissa Pinkola Estés", ano: 1992, categoria: "Psicología", estado: "pendiente" },
   { id: "cuatro-mil-semanas", titulo: "Cuatro mil semanas", autor: "Oliver Burkeman", ano: 2021, categoria: "Psicología", estado: "pendiente" },

@@ -65197,7 +65197,295 @@ const LEYES_PODER_48: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El secreto, en ocho páginas.
+
+   Breve. Ensayo → afirmación entera en el rótulo y tercera persona. La
+   caja del rayo NO va en segunda persona: en un libro que promete que
+   pensar cura el cáncer, el tuteo sonaría a que lo suscribimos.
+
+   Riesgo principal: hacer de altavoz o hacer de burla. Ni una cosa ni la
+   otra: se cuenta con precisión qué afirma, de dónde sale, qué parte tiene
+   un grano de verdad conocido y dónde hace daño de verdad, que es la parte
+   que casi ningún resumen incluye.
+
+   Este es el caso más claro de por qué existe la regla 5.
+   -------------------------------------------------------------------------- */
+
+const SECRETO_BYRNE: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Es el libro de autoayuda más vendido del siglo y su tesis es que el pensamiento crea la realidad",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rhonda Byrne era productora de televisión australiana y atravesaba una mala racha personal cuando su hija le pasó un libro de 1910 sobre la riqueza. De ahí salió primero un documental y después este volumen, publicado en 2006, que ha vendido más de treinta millones de ejemplares en cincuenta idiomas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sostiene se llama ley de la atracción y se enuncia sin matices: los pensamientos emiten una frecuencia, el universo responde enviando aquello que coincide con esa frecuencia, y por tanto todo lo que hay en la vida de una persona ha sido atraído por ella. Todo, sin excepciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El método son tres pasos: pedir, creer y recibir. Pedir con precisión lo que se quiere, creer que ya se tiene, y sentir de antemano la emoción de tenerlo. El libro insiste en que el universo no distingue entre lo imaginado y lo real, y que por eso funciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Merece un resumen honesto por dos motivos. El primero es que millones de personas lo han leído y conviene saber qué dice exactamente. El segundo es que dentro hay una intuición psicológica cierta envuelta en una afirmación física falsa, y separar las dos cosas es más útil que despacharlo entero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando un libro promete que basta con pensarlo, la pregunta útil es qué parte de eso está medida.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La idea no es nueva: viene de un movimiento estadounidense del siglo diecinueve",
+      },
+      {
+        b: "texto",
+        texto:
+          "Byrne presenta la ley de la atracción como un conocimiento antiguo escondido durante siglos y conocido por unos pocos elegidos. La genealogía real es bastante menos misteriosa y está documentada: procede del Nuevo Pensamiento, un movimiento surgido en Nueva Inglaterra a mediados del siglo diecinueve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí salen sus antecedentes directos: los escritos de Prentice Mulford, el libro de Wallace Wattles de 1910 que su hija le dio, y la tradición del pensamiento positivo estadounidense que sigue con Napoleon Hill en los años treinta y con Norman Vincent Peale en los cincuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa genealogía explica el tono del libro y también su público. Es una idea profundamente estadounidense y protestante: la prosperidad como señal de estar bien alineado, la pobreza como problema de actitud, y el individuo como único responsable de todo lo que le ocurre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro lo disimula con vocabulario científico. Habla de frecuencias, de vibraciones, de física cuántica y de leyes del universo, y varios de los expertos que aparecen en el documental se presentan con títulos que no siempre corresponden a lo que dicen. Nada de eso figura en ninguna revista de física. Wattles, el autor de aquel libro de 1910, murió pocos años después de publicarlo sin haberse enriquecido, un detalle que el documental no menciona.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Presentar una idea vieja como un secreto escondido es una técnica de venta, no un dato histórico.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay un grano de verdad y está bien documentado, pero es mucho más pequeño",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí está medido es que la atención selecciona. Una persona que decide comprarse un coche de un modelo concreto empieza a verlos por todas partes, y no es que hayan aparecido: es que su atención los filtra. Con las oportunidades pasa algo parecido y es un fenómeno real.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También está medido el efecto de las expectativas sobre el rendimiento, y el de la visualización en deportistas, aunque con una condición que el libro omite: funciona visualizar el proceso —los entrenamientos, la técnica, los obstáculos—, y no funciona visualizar el resultado. Varios experimentos encuentran que imaginar el éxito reduce el esfuerzo posterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y está el efecto placebo, que es real, está cuantificado y explica bastante de lo que los lectores atribuyen a la ley de la atracción. Creer que algo va a funcionar cambia parte de la experiencia, sobre todo en dolor y en ánimo, y no cambia el tamaño de un tumor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La distancia entre ese grano y lo que promete el libro es enorme. Que la atención filtre oportunidades no es que el universo entregue pedidos; que una expectativa mejore el ánimo no es que un pensamiento module la materia. El libro coge un fenómeno pequeño y lo estira hasta la física. El experimento clásico sobre esto se hizo con estudiantes que imaginaban aprobar un examen: los que se visualizaron con la nota puesta estudiaron menos horas y sacaron peores resultados que los del grupo de control.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Visualizar el proceso ayuda; visualizar el resultado suele reducir el esfuerzo que hace falta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La promesa de curar enfermedades es la parte que hace daño de verdad",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica un capítulo a la salud y ahí deja de ser una fantasía inofensiva. Sostiene que la enfermedad es el resultado de pensamientos negativos sostenidos, que se puede revertir cambiándolos, y recoge testimonios de personas que dicen haberse curado de un cáncer pensando en positivo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los pasajes recomienda no prestar atención a las malas noticias médicas para no alimentar la frecuencia equivocada. Eso, leído por alguien recién diagnosticado, es una recomendación con consecuencias, y es la razón por la que médicos y asociaciones de pacientes llevan años criticándolo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay literatura al respecto y va en la dirección contraria: los estudios que han seguido a pacientes oncológicos no encuentran que la actitud modifique la supervivencia. Lo que sí encuentran es lo que un psicooncólogo lleva décadas señalando: la presión de tener que estar positivo añade culpa al que empeora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está el vicio de fondo del libro, que no es la ingenuidad sino la crueldad implícita. Si todo lo que te pasa lo has atraído tú, entonces el que enferma, el que pierde el trabajo o el que nace en un país en guerra tiene la culpa de su situación. El libro no lo dice así, pero se sigue de lo que dice.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Toda doctrina que dice que tú lo atraes todo acaba culpando al que peor lo está pasando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Su parte práctica es un método de fijación de objetivos disfrazado de magia",
+      },
+      {
+        b: "texto",
+        texto:
+          "Si se despoja el libro del vocabulario cósmico, lo que queda en sus ejercicios es reconocible: escribir con precisión lo que se quiere, repasarlo a diario, imaginarse en la situación, llevar una lista de agradecimiento. Nada de eso es nuevo ni es magia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Escribir un objetivo con detalle funciona, y está medido: obliga a concretar y a detectar contradicciones. Repasarlo a diario mantiene la atención donde se ha decidido. Y la práctica de anotar tres cosas buenas cada día es una de las intervenciones con más respaldo de la psicología positiva.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema no es lo que propone sino lo que quita. Al atribuir el resultado al universo, el libro elimina el único elemento que hace funcionar todo eso: el plan y el trabajo. En sus páginas apenas aparece la palabra esfuerzo, y cuando aparece es para decir que la lucha es señal de estar en la frecuencia equivocada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la comparación más útil para el lector. Otros libros del mismo estante piden lo mismo —claridad, repetición, gratitud— y añaden la parte que falta aquí: qué se hace el lunes por la mañana. Ese es todo el trecho que separa un método de una superstición. Y hay una diferencia práctica que conviene tener presente: los métodos que funcionan piden escribir también qué puede salir mal, y este pide expresamente no pensarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribir con precisión lo que quieres funciona; lo que falla es quitar de la ecuación el trabajo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Está construido con testimonios elegidos y ninguno de los que fallaron",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro se sostiene sobre casos: personas que pidieron un coche y lo tuvieron, que visualizaron una casa y la consiguieron, que pensaron en un cheque y les llegó. Ninguno se comprueba, ninguno tiene apellido verificable y, sobre todo, no aparece ni uno solo de los que hicieron lo mismo y no obtuvieron nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el sesgo del superviviente en su forma más pura, y es el mismo que hace que las historias de emprendedores parezcan una receta. Si treinta millones de personas practican el método, unas cuantas conseguirán lo que querían por motivos ordinarios, y esas son las que salen en el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El sistema está además blindado contra el fracaso, que es la señal habitual de que algo no se puede comprobar. Si funciona, es la ley; si no funciona, es que no creíste lo bastante o que albergabas una duda escondida. Una afirmación que se cumple pase lo que pase no informa de nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene saber reconocer esa estructura porque aparece en muchos sitios además de este. Un método que explica todos los resultados posibles, incluidos los contrarios, no es una teoría fuerte: es una que ha renunciado a poder equivocarse. Byrne llegó a escribir que la tragedia solo alcanza a quienes están en su misma frecuencia, una frase que se le citó mucho después de varias catástrofes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un método que explica igual de bien el éxito y el fracaso no está explicando nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Su éxito dice más de la época que del libro" },
+      {
+        b: "texto",
+        texto:
+          "La pregunta interesante no es si es verdad, que no lo es, sino por qué treinta millones de personas lo compraron. Salió en 2006, justo antes de la crisis financiera, en un momento de precariedad creciente y de desconfianza en las instituciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ofrece exactamente lo que falta en ese contexto: control. Si el mundo es imprevisible y las decisiones que importan las toman otros, un libro que dice que todo depende de lo que pienses devuelve la sensación de mando, aunque sea falsa. Esa es su mercancía real.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y llegó con la distribución perfecta: primero un documental, después el libro, después una aparición en un programa de máxima audiencia en Estados Unidos que lo lanzó a la lista de más vendidos durante casi dos años. Su éxito es también un caso de manual de marketing.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso explica su vida posterior. La ley de la atracción es hoy vocabulario común en redes sociales, con millones de vídeos, y ha generado una industria de cursos y coaches. El libro dejó de ser un libro y se convirtió en un lugar común, que es lo que ocurre con las ideas que consuelan. Y hay un dato que lo sitúa: el año en que se publicó, la deuda media de los hogares estadounidenses estaba en máximos históricos y faltaban dos años para que estallara todo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuanto más incierta es una época, mejor se vende cualquier cosa que prometa control.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El secreto sostiene que los pensamientos emiten una frecuencia que el universo responde, y que por tanto todo lo que hay en la vida de alguien lo ha atraído él. Su método son tres pasos —pedir, creer, recibir— y su promesa alcanza al dinero, a las relaciones y a la salud.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, si se lee con distancia, es un catálogo perfecto de cómo se construye una creencia que no se puede desmentir: vocabulario científico sin ciencia, testimonios sin comprobar, ningún caso fallido y una explicación de reserva para cuando no funciona. Como ejercicio de lectura crítica es muy instructivo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla, para empezar, en lo básico: no hay ninguna evidencia de que el pensamiento modifique acontecimientos externos, y el aparato de frecuencias y física cuántica que utiliza no tiene relación con la física. Varios de los expertos del documental fueron cuestionados por sus propias titulaciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla donde importa. El capítulo de la salud sugiere que la enfermedad se atrae y se cura pensando, y recomienda apartar la información médica negativa. Eso ha llevado a asociaciones de pacientes y a psicooncólogos a criticarlo durante años, porque añade culpa a personas que ya están enfermas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con todo, dentro hay algo aprovechable si se separa: escribir con precisión lo que se quiere, repasarlo, y anotar lo bueno de cada día son prácticas con respaldo real. Lo que hay que devolver a la ecuación es lo único que el libro elimina, que es el trabajo. Sin esa parte, lo que queda es una lotería con instrucciones.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un consejo bueno metido dentro de una explicación falsa se vuelve peligroso, porque lo que se copia es la explicación.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "secreto-byrne": SECRETO_BYRNE,
   "48-leyes-poder": LEYES_PODER_48,
   becoming: BECOMING,
   "inteligencia-erotica": INTELIGENCIA_EROTICA,

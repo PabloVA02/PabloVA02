@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "secreto-byrne":
+    "El libro de autoayuda más vendido del siglo sostiene que el pensamiento atrae los acontecimientos. Aquí está qué afirma exactamente, de dónde viene la idea, qué grano de verdad tiene y dónde hace daño.",
+
   "48-leyes-poder":
     "Cuarenta y ocho reglas sacadas de cortesanos, estrategas y estafadores, con el episodio histórico de cada una. Es a la vez un catálogo excelente para reconocer jugadas y un manual incómodo para hacerlas.",
 

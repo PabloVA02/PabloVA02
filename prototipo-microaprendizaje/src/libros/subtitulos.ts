@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "secreto-byrne": "La ley de la atracción, contada y comprobada",
   "48-leyes-poder": "Cómo se ha conseguido y conservado la influencia durante tres mil años",
   becoming: "Las memorias de la primera dama que no quiso serlo",
   "inteligencia-erotica": "Claves para mantener la pasión en la pareja",
