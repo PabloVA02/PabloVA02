@@ -73710,7 +73710,270 @@ const CUMBRES_BORRASCOSAS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Frida, de Hayden Herrera, en ocho páginas.
+
+   Breve. Biografía → apartado 3 bis: título corto de imagen en el rótulo y
+   la afirmación en la primera frase.
+
+   Y la caja del rayo en TERCERA persona, no en segunda, por el apartado
+   4 bis: es una vida de dolor físico continuo y treinta operaciones, y una
+   caja que le hable de tú al lector convierte eso en un lema de taza. Es el
+   mismo caso que MALCOLM_X y que WILL_SMITH.
+
+   Riesgo principal: el póster. La versión de Frida Kahlo que circula —la
+   mujer que convirtió el dolor en arte— sale en buena medida de este libro,
+   y el resumen tiene que decirlo en vez de repetirlo.
+
+   ARTE: hace falta un cuadro con nombre, no «su obra». Y la conclusión
+   dice que el libro es de 1983 y qué apareció en 2004.
+   -------------------------------------------------------------------------- */
+
+const FRIDA_HERRERA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El libro que inventó a la Frida Kahlo que conoce todo el mundo" },
+      {
+        b: "texto",
+        texto:
+          "Cuando Hayden Herrera publicó esta biografía en 1983, Frida Kahlo llevaba casi treinta años muerta y era conocida sobre todo como la mujer de Diego Rivera. Fuera de México apenas se la citaba, sus cuadros valían poco y no había ninguna biografía suya en inglés.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro cambió eso por completo. De él salieron las exposiciones, el mercado, la película de 2002 y la imagen que hoy está en carteles y camisetas en todo el mundo. Conviene tenerlo presente al leerlo: no es un libro que describa un fenómeno, es en buena parte el libro que lo produjo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El método de Herrera consiste en leer cada cuadro como una entrada de diario: este es el aborto de Detroit, este el divorcio, este la operación de la columna. Es una manera de mirar que funciona muy bien con esta pintora en concreto y que tiene un coste, porque convierte a una artista en una narradora de su propia vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre el accidente que ordena todo lo demás, por qué se pintó a sí misma más de cincuenta veces, por qué rechazó la etiqueta que le puso Europa, cuál fue el segundo accidente de su vida, qué hacía a la vez el traje que llevaba, y cómo entró a su única exposición en México.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro puede describir a alguien famoso y puede fabricar esa fama, y conviene saber cuál de las dos cosas se está leyendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un pasamanos de hierro" },
+      {
+        b: "texto",
+        texto:
+          "Columna vertebral rota en tres puntos, clavícula fracturada, dos costillas rotas, la pierna derecha rota en once sitios, el pie derecho aplastado y dislocado, el hombro izquierdo fuera de su sitio y la pelvis partida en tres. Pasó un mes en el hospital y muchos más metida dentro de corsés de escayola que le cubrían el torso entero, y a lo largo de su vida la operaron alrededor de treinta veces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Columna vertebral rota en tres puntos, clavícula fracturada, dos costillas, la pierna derecha rota en once sitios, el pie derecho aplastado, el hombro izquierdo dislocado y la pelvis partida en tres. Pasó un mes en el hospital y muchos más dentro de corsés de escayola que le cubrían el torso entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No fue el primer daño. A los seis años había tenido poliomielitis, que le dejó la pierna derecha más delgada y más corta, y por eso llevaba desde niña varios calcetines superpuestos en ese pie. Antes del accidente estudiaba para ser médica, en una escuela preparatoria donde era una de las treinta y cinco chicas entre unos dos mil alumnos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquella formación médica interrumpida no desapareció: se ve en sus cuadros. Las columnas vertebrales, los fetos, los órganos y los sistemas circulatorios que pinta están dibujados con una precisión anatómica que no tiene nada de simbólica, y que solo se explica por los años que pasó estudiando láminas de anatomía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La formación que alguien no llegó a terminar suele reaparecer después en lo que sí hizo, y con toda su precisión.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un espejo en el dosel de la cama" },
+      {
+        b: "texto",
+        texto:
+          "Empezó a pintar tumbada y por una razón práctica: era lo único que podía hacer sin moverse. Su madre le encargó un caballete especial que se sujetaba a la cama y le hizo colocar un espejo en el techo del dosel, encima de ella, para que tuviera algo que mirar durante los meses que iba a pasar ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el rasgo por el que se la reconoce. Pintó autorretratos porque era el único modelo disponible: el que tenía a mano, el que estaba siempre y el que no se cansaba de posar. De los alrededor de ciento cuarenta cuadros que dejó, más de cincuenta son de ella misma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa combinación —una cara serena en medio de un cuerpo abierto en canal, un ciervo atravesado por flechas, una columna vertebral partida en dos, un corsé de hierro— es todo su idioma pictórico. El espectador no puede refugiarse en la emoción de la retratada porque la retratada no muestra ninguna: le está mirando a él, de frente y sin parpadear, y esperando a ver qué hace con lo que está viendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa combinación —una cara serena en medio de un cuerpo abierto, un ciervo atravesado por flechas, una columna partida— es todo su idioma. El espectador no puede refugiarse en la emoción del retratado porque el retratado no tiene ninguna: le está mirando a él y esperando a ver qué hace con lo que está viendo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se pintó a sí misma porque era el único modelo disponible, y de esa limitación salió lo que la distingue de todos los demás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nunca pintó sueños" },
+      {
+        b: "texto",
+        texto:
+          "En 1938, el poeta francés André Breton visitó México, vio sus cuadros y la declaró surrealista, lo que en aquel momento era la mejor tarjeta de presentación posible para entrar en el mercado europeo. Ella lo rechazó de manera explícita y repetida, y su frase sobre el asunto es la más citada que dijo nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dijo que nunca había pintado sueños, que había pintado su propia realidad. No es una boutade. El surrealismo trabajaba con el inconsciente, el azar y la asociación libre; lo que hay en sus cuadros es un aborto que tuvo en un hospital de Detroit en 1932, una operación concreta, una cama de hospital identificable y un divorcio con fecha.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está su fuente verdadera, que no es europea en absoluto. Kahlo coleccionaba exvotos, esas pequeñas láminas de metal pintadas que en México se ofrecen a un santo para agradecerle haber sobrevivido a un accidente, con la escena del desastre arriba y un texto abajo explicando qué pasó, en qué fecha y a quién. Sus cuadros tienen exactamente esa estructura, incluidas las cintas con texto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está su fuente verdadera, que no es europea. Kahlo coleccionaba exvotos, esas pequeñas láminas de metal que en México se ofrecen a un santo para agradecer haber sobrevivido a un accidente, con la escena del desastre pintada arriba y el texto explicando qué pasó. Sus cuadros tienen exactamente esa estructura.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que a un europeo le pareció un sueño era una escena documentada, pintada con la forma de un exvoto mexicano.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos accidentes graves" },
+      {
+        b: "texto",
+        texto:
+          "Conoció a Diego Rivera cuando él pintaba un mural en su escuela y ella tenía quince años. Se casaron en 1929, ella con veintidós y él con cuarenta y dos, ya famoso, dos veces casado antes y con una reputación bien establecida de infidelidad. Su madre describió la boda como la unión de un elefante y una paloma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El golpe llegó en 1934, cuando descubrió que Rivera tenía una relación con Cristina, su hermana menor, con la que se crio y a la que estaba muy unida. No fue una infidelidad más: fue la que combinó a las dos personas de las que dependía. Se cortó el pelo y pintó un autorretrato con el pelo cortado y un traje de hombre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la frase que Herrera recoge y que resume su vida entera: que había sufrido dos accidentes graves, uno el del tranvía y el otro Diego, y que el segundo fue peor. Se divorciaron en 1939 y volvieron a casarse un año después, con un acuerdo que incluía que ella se mantendría económicamente por su cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro no resuelve esa relación y hace bien. Rivera fue el que la animó a pintar, el que la defendió, el que la sostuvo cuando no podía moverse y el que le hizo más daño que nadie; y ella tuvo por su parte varias relaciones, entre ellas una con León Trotski, que se alojó en su casa en 1937.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Contó su vida como dos accidentes, y en su recuento el que le hizo más daño no fue el que le rompió la columna.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El traje de Tehuana" },
+      {
+        b: "texto",
+        texto:
+          "A partir de 1929 empezó a vestir el traje tradicional de las mujeres del istmo de Tehuantepec: falda larga hasta el suelo, blusa bordada, joyería pesada y flores en el pelo. Es la imagen por la que se la reconoce en todo el mundo y estaba haciendo tres cosas a la vez, todas deliberadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Era una declaración política. México salía de una revolución y estaba construyendo una identidad propia frente a lo europeo, y vestir indígena en un salón de la capital era tomar partido en esa discusión. Kahlo y Rivera militaban en ese bando y lo hacían con todo lo que tenían a mano, incluida la ropa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y era, a la vez y sin ninguna contradicción, una solución práctica: aquellas faldas largas y muy amplias tapaban por completo la pierna atrofiada por la polio, el pie más pequeño y los aparatos ortopédicos que llevaba puestos. Las tres cosas son ciertas al mismo tiempo y ninguna anula a las otras dos. La imagen más famosa de la historia del arte mexicano es también un vendaje.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y era, a la vez, una solución práctica: aquellas faldas largas y amplias tapaban por completo la pierna atrofiada por la polio y los aparatos ortopédicos que llevaba. Las tres cosas son ciertas al mismo tiempo, y ninguna anula a las otras. La imagen más famosa de la historia del arte mexicano es también un vendaje.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una misma decisión puede ser política, identitaria y práctica a la vez, sin que ninguna de las tres cosas sea la verdadera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La cama en la galería" },
+      {
+        b: "texto",
+        texto:
+          "Vendió muy poco en vida. El Louvre le compró un cuadro pequeño en 1939, el primero de un artista mexicano del siglo XX que entraba en ese museo, y hubo alguna exposición en Nueva York; pero en su propio país no tuvo ninguna exposición individual hasta abril de 1953, un año antes de morir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para entonces estaba tan enferma que los médicos le prohibieron levantarse. Su respuesta fue mandar su cama con dosel a la galería, montarla en medio de la sala antes de la inauguración y llegar en ambulancia, en camilla y con escolta de motoristas. Recibió a los visitantes tumbada, cantando y bebiendo, toda la noche.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Murió el 13 de julio de 1954, con cuarenta y siete años. La causa oficial fue una embolia pulmonar, no se le practicó autopsia y siempre ha quedado en el aire la duda de si fue un suicidio; su enfermera declaró que la dosis de calmantes de aquella noche no era la prescrita. La última anotación de su diario, escrita unos días antes, dice que espera que la salida sea alegre y que espera no volver nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Murió el 13 de julio de 1954, con cuarenta y siete años. La causa oficial fue una embolia pulmonar, no se le hizo autopsia y siempre ha quedado la duda de si fue un suicidio. La última anotación de su diario, unos días antes, dice que espera que la salida sea alegre y que espera no volver nunca.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si no puedes ir a tu propia inauguración, cabe la posibilidad de mandar la cama, y esa decisión también es parte de la obra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta una vida con dos accidentes, un idioma pictórico que sale del exvoto mexicano y no del surrealismo europeo, y una obra breve —unos ciento cuarenta cuadros— hecha casi entera desde una cama. Y cuenta a alguien que no vendió apenas nada en vida y que hoy tiene el récord de precio de todo el arte latinoamericano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en el método. Herrera lee cada cuadro como una página de diario, y esa correspondencia tan cerrada entre biografía y obra convierte a una pintora en una narradora de sí misma. Deja poco sitio para las decisiones que tomó como artista: qué tradición estaba usando, qué había mirado, qué estaba resolviendo formalmente en cada cuadro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también por su fecha y por sus fuentes. Es de 1983 y se apoya mucho en entrevistas hechas décadas después de los hechos y en lo que contaba Diego Rivera, que reconocía él mismo inventarse historias sobre su propia vida. Y en 2004 se abrió en la Casa Azul un cuarto de baño sellado desde 1954, con miles de documentos, cartas, medicinas y vestidos que han obligado a corregir bastantes detalles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un efecto del propio libro que conviene decir. La lectura que propone —una mujer que convierte el dolor en arte— es exactamente la versión que se convirtió después en película, en cartel y en camiseta, y que hoy tapa casi todo lo demás. Un libro que fabrica el icono que estudia no puede después quejarse del icono, y este no se queja.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lee cada cuadro como una página de diario, y esa lectura es la que acabó convirtiéndola en un cartel.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "frida-herrera": FRIDA_HERRERA,
   "cumbres-borrascosas": CUMBRES_BORRASCOSAS,
   "nunca-comas-solo": NUNCA_COMAS_SOLO,
   "el-cerebro": EL_CEREBRO,

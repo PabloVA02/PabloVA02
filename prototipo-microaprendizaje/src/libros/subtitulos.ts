@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "frida-herrera": "Una biografía de Frida Kahlo",
   "nunca-comas-solo": "Y otros secretos para el éxito, una relación cada vez",
   "el-cerebro": "Nuestra historia",
   "tus-zonas-erroneas": "Guía para combatir las causas de la infelicidad",

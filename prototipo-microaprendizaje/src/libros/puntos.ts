@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "frida-herrera": [
+    "cómo reaparece después una formación que alguien no llegó a terminar",
+    "qué sale de pintar teniendo un solo modelo disponible",
+    "de qué tradición vienen sus cuadros, que no es el surrealismo",
+    "cómo una misma decisión puede ser política y práctica a la vez",
+    "qué pasa cuando un libro fabrica el icono que está estudiando",
+  ],
+
   "cumbres-borrascosas": [
     "por qué quien participó en algo no puede ser testigo de ello",
     "en qué se diferencia que alguien te necesite de que te quiera bien",

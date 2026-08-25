@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "frida-herrera":
+    "En 1983 Frida Kahlo era conocida sobre todo como la mujer de Diego Rivera. De este libro salieron las exposiciones, el mercado y la imagen que hoy está en camisetas: no describe un fenómeno, en buena parte lo produjo.",
+
   "cumbres-borrascosas":
     "Se publicó en 1847 con un nombre que no revelaba si su autora era hombre o mujer. Todo lo que se cuenta llega filtrado por dos narradores que no son de fiar, y la venganza se ejecuta con escrituras de propiedad.",
 
