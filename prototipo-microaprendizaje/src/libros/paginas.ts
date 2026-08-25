@@ -73442,7 +73442,276 @@ const NUNCA_COMAS_SOLO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Cumbres borrascosas, en ocho páginas.
+
+   Breve. NARRATIVA → apartado 3 bis: título corto de imagen en el rótulo,
+   la afirmación en la primera frase y la caja en segunda persona sacando una
+   lección de la escena. El modelo es `referencia/odisea/`.
+
+   Riesgo principal, y aquí es enorme: contarla como una historia de amor.
+   Esa lectura es de las películas del siglo XX, no del libro, y hay que
+   decirlo en su página.
+
+   Lo que casi nadie cuenta y sostiene el resumen: la narración a dos
+   distancias, que la venganza se hace con escrituras y no con violencia,
+   el origen en Liverpool, y la segunda generación, que las adaptaciones
+   cortan entera y que es donde el libro dice lo que quería decir.
+   -------------------------------------------------------------------------- */
+
+const CUMBRES_BORRASCOSAS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una mano en la ventana" },
+      {
+        b: "texto",
+        texto:
+          "Lockwood reacciona a esa mano de una manera que conviene retener: le frota la muñeca contra los cristales rotos de la ventana, una y otra vez, hasta que la sangre empapa las sábanas de la cama. Eso ocurre en el tercer capítulo, y es la primera cosa que hace en el libro un personaje que se presenta como educado, correcto y del todo inofensivo. Sirve de aviso sobre lo que viene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lockwood reacciona frotando la muñeca de la aparición contra los cristales rotos hasta que la sangre corre por las sábanas. Eso ocurre en el tercer capítulo, y es la primera cosa que hace un personaje simpático en este libro. Sirve de aviso sobre lo que viene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se publicó en diciembre de 1847 firmada como Ellis Bell, un nombre que no revelaba si su autora era hombre o mujer, y los críticos de entonces la encontraron brutal, grosera y desagradable. No se equivocaban en la descripción: se equivocaban en que eso fuera un defecto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue no es la trama, que se sabe a medias en todas partes y a medias mal. Es lo otro: por qué todo lo que se cuenta llega de segunda mano, por qué esto no es una historia de amor, con qué instrumento se ejecuta en realidad la venganza, de dónde sale el protagonista, qué significan las dos casas, y qué pasa en la mitad que casi nadie ha leído.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando algo empieza asustando y no enamorando, esa primera página está diciéndote qué clase de libro tienes en la mano.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Todo llega de segunda mano" },
+      {
+        b: "texto",
+        texto:
+          "La decisión técnica más audaz del libro es que el lector no presencia nada. Lockwood, el forastero, escribe en su diario lo que le cuenta Nelly Dean, el ama de llaves, que a su vez cuenta lo que vio o lo que le contaron. Todo el material llega filtrado dos veces antes de llegar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ninguno de los dos filtros es neutral. Lockwood es un señorito de ciudad que malinterpreta absolutamente todo: en su primera visita cree que la joven de la casa es la esposa del dueño, luego que es la nuera, y se equivoca las dos veces. Su función es demostrar que un observador educado y bienintencionado puede no enterarse de nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nelly es el filtro serio. No es una testigo: es una participante que estuvo dentro de todo, que tuvo sus preferencias entre los personajes, que ocultó cartas, que calló información en momentos decisivos y que en varias ocasiones pudo intervenir y decidió no hacerlo. Cuenta la historia sabiendo lo que hizo, y no lo dice.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso convierte la novela en algo distinto de lo que parece. No hay ninguna versión de los hechos disponible: hay el relato de una mujer que participó, contado a un hombre que no entiende nada, y el lector tiene que ir calculando qué falta. Se escribió así en 1847, y muy pocas novelas de cualquier época hacen algo tan difícil.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien te cuenta una historia en la que estuvo dentro nunca es un testigo, aunque no mienta en un solo dato.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La lectura romántica de este libro no está en el libro, y conviene decirlo pronto. En sus casi cuatrocientas páginas no hay una sola escena de ternura entre los dos protagonistas, ninguna relación consumada, ninguna declaración correspondida, ningún plan de futuro y ningún momento en el que ninguno de los dos sea feliz a causa del otro. Lo que hay son dos personas que se destrozan y destrozan a los demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lectura romántica de este libro no está en el libro. En sus casi cuatrocientas páginas no hay una sola escena de ternura entre los dos protagonistas, ninguna relación consumada, ninguna declaración correspondida y ningún momento en que ninguno de los dos sea feliz por causa del otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La frase más citada tampoco dice lo que se cree. Catherine no dice que le quiera: dice que ella <em>es</em> él. Lo formula como una constatación sobre de qué está hecha, y en la misma conversación explica que casarse con él la rebajaría socialmente, y decide casarse con el otro. Las dos cosas están en el mismo párrafo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hacen los dos a lo largo del libro tampoco encaja. Entre ambos arruinan dos familias enteras, maltratan a sus respectivos cónyuges, destrozan a sus hijos y dejan a una generación entera de niños sin educación y sin herencia. Y él, después de muerta ella, hace abrir su ataúd.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lectura amable llegó en el siglo XX y sobre todo desde el cine: la versión más influyente, de 1939, corta la segunda mitad del libro y termina con los dos amantes reunidos como fantasmas, un final que la novela no tiene. Millones de personas conocen esa película y muy pocas el libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que alguien te diga que eres parte de él no es lo mismo que quererte bien, y la novela lleva cuatrocientas páginas demostrándolo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que más sorprende al leerla es que la destrucción no se ejecuta con violencia, sino con papeles. Heathcliff desaparece tres años siendo un mozo sin nada, vuelve convertido en un caballero con dinero cuyo origen el libro no explica nunca, y a partir de ese momento su venganza consiste, casi por completo, en una serie de operaciones legales perfectamente válidas que nadie podría impugnar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que más sorprende al leerla es que la destrucción no se hace con violencia, sino con papeles. Heathcliff desaparece tres años, vuelve con dinero de origen desconocido y a partir de ahí su venganza consiste, casi por completo, en operaciones legales perfectamente válidas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Le presta dinero al dueño de la primera casa, lo emborracha, lo deja jugar y se queda con la propiedad hipotecada. Después provoca la fuga y la boda de la hermana de su rival, lo que en la ley inglesa de entonces le daba control sobre lo que ella tuviera. Y más tarde fuerza el matrimonio de dos menores para heredar la segunda casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La precisión jurídica es notable y estaba deliberadamente puesta. En 1847, una mujer casada no conservaba su propiedad: pasaba a su marido, y las hijas no heredaban si había herederos varones por otra vía. Toda la catástrofe del libro está construida sobre reglas que existían y que cualquier lector de la época conocía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso cambia lo que es la novela. No es un relato de pasiones desatadas en un páramo: es la historia de alguien a quien se humilló siendo niño y que descubre que las mismas leyes que lo dejaron sin nada se pueden usar al revés. La parte más aterradora del libro se hace con firmas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las reglas que te dejaron sin nada suelen funcionar en las dos direcciones, y ahí está la parte más fría de esta historia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un niño encontrado en Liverpool" },
+      {
+        b: "texto",
+        texto:
+          "El origen del protagonista es un hueco deliberado. El viejo señor de la casa vuelve de un viaje a Liverpool con un niño de unos siete años recogido en la calle, que no habla inglés y balbucea algo que nadie entiende. No se sabe quién es, ni de dónde viene, ni por qué lo trajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los personajes lo describen con las palabras de su época y ninguna es neutral. Le llaman gitano, dicen que parece un marinero indio y que podría ser un náufrago español o americano. Se le llama repetidamente cosa oscura, y su piel se menciona en casi todas sus apariciones. La novela no aclara nada de eso en ningún momento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El dato que no está en el libro y que el lector de 1847 tenía en la cabeza es qué era Liverpool en aquellos años. Era el mayor puerto negrero de Gran Bretaña, y una parte importante de su riqueza venía de ahí. Brontë sitúa el hallazgo del niño exactamente ahí y no dice ni una palabra más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Que lo deje abierto es lo que hace funcionar el personaje. Todo lo que se sabe de él viene de gente que lo desprecia y que necesita explicarse por qué lo desprecia, y esa gente le atribuye una naturaleza en lugar de una historia. El lector nunca tiene la información que le permitiría decidir, igual que no la tenía nadie en aquella casa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando lo único que sabes de alguien te lo cuenta quien lo desprecia, lo que estás recibiendo no es su historia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos casas y una elección" },
+      {
+        b: "texto",
+        texto:
+          "El libro tiene dos escenarios y sus nombres son el argumento. La finca de las cumbres está en lo alto, sin protección, azotada por el viento hasta el punto de que los árboles crecen inclinados; la de abajo, en el valle, está cerrada, alfombrada, cálida y llena de objetos delicados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Catherine conoce las dos por accidente. Se cuela de niña con Heathcliff a espiar la casa de abajo, un perro la muerde y la tienen que dejar allí cinco semanas curándose. Entra siendo una niña salvaje del páramo y sale sabiendo comportarse, vestida de otra manera y capaz de ver a su amigo como lo que la casa de abajo veía en él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ahí, su elección entre dos hombres es en realidad una elección entre dos casas y entre dos versiones de sí misma, y ella lo sabe y lo dice. Escoge la de abajo, que le da seguridad, posición y una vida sin sobresaltos, y se pasa el resto de su corta vida asfixiándose dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El páramo, mientras tanto, no es paisaje. Es el único sitio del libro donde aquellos dos niños fueron libres, y es adonde vuelven todas las referencias cuando alguien recuerda algo bueno. La novela sitúa la felicidad entera de sus protagonistas en un terreno que no pertenece a nadie y donde no se puede vivir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Elegir una vida cómoda no es una traición y tampoco es gratis: la novela dedica cuatrocientas páginas a cobrar esa factura.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El que aprende a leer" },
+      {
+        b: "texto",
+        texto:
+          "La mitad que casi nadie ha leído es la que explica el libro. Muertos los protagonistas, la novela sigue con la generación siguiente: la hija de Catherine y Hareton, el hijo de aquel hombre al que Heathcliff arruinó, criado por él a propósito como un bruto, sin escuela y sin saber leer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa segunda pareja repite la situación de la primera casi punto por punto: la chica de la casa acomodada y el chico basto de las cumbres, con la misma diferencia de clase y el mismo desprecio de partida. Brontë monta deliberadamente una rima, y por eso el final importa: esta vez sale bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está la única tesis que la novela llega a defender, y es más concreta de lo que su fama sugiere: la crueldad se transmite de una generación a la siguiente manteniendo a la gente en la ignorancia, y se corta cuando alguien se sienta a enseñarle a leer a otro. Cortar esa parte, como hacen casi todas las adaptaciones, deja el libro sin argumento y con solo un romance oscuro entre dos personas muertas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está la única tesis que la novela defiende: la crueldad se transmite de una generación a otra manteniendo a la gente en la ignorancia, y se corta enseñándole a leer a alguien. Cortar esa parte, como hacen casi todas las adaptaciones, deja el libro sin argumento y con solo un romance oscuro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La escena más tierna del libro es alguien enseñando a leer a otro, y es exactamente lo que se había estado impidiendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Es una novela sobre lo que hace la humillación de clase a lo largo de dos generaciones, contada a dos distancias por dos narradores en los que no se puede confiar, y donde la venganza se ejecuta con escrituras de propiedad. La lectura romántica no está dentro: llegó del cine del siglo XX y sobre todo de una película de 1939 que corta la segunda mitad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la lectura. La cronología es endiablada porque hay dos Catherines, dos Lintons y un padre que le pone a su hijo el nombre de su enemigo, y mucha gente abandona a la mitad sin saber quién es quién. Y el criado Joseph habla en un dialecto de Yorkshire transcrito fonéticamente que resulta casi ilegible incluso para lectores ingleses.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una objeción que la propia novela se busca. Le da a los dos personajes destructivos toda la fuerza del idioma y a la gente sensata ninguna, así que el lector sale hechizado por quienes arruinan la vida a todos los demás. Que la lectura romántica sea un error no significa que el libro no la invite.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después empezó enseguida. Emily Brontë murió en diciembre de 1848, un año después de publicarla y a los treinta años, sin saber que el libro sobreviviría. Su hermana Charlotte escribió para la edición de 1850 un prólogo que casi pide disculpas por la aspereza del texto y explica a su hermana como alguien salvaje y sin instrucción, y esa presentación condicionó la manera de leerlo durante un siglo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No cuenta un amor: cuenta lo que hace la humillación cuando se hereda, y lo cuenta con papeles firmados.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cumbres-borrascosas": CUMBRES_BORRASCOSAS,
   "nunca-comas-solo": NUNCA_COMAS_SOLO,
   "el-cerebro": EL_CEREBRO,
   "tus-zonas-erroneas": TUS_ZONAS_ERRONEAS,

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cumbres-borrascosas":
+    "Se publicó en 1847 firmada con un nombre que no revelaba si su autora era hombre o mujer, y los críticos la encontraron brutal. Todo lo que se cuenta llega filtrado por dos narradores que no son de fiar, y la venganza se ejecuta con escrituras.",
+
   "nunca-comas-solo":
     "En 1973, Mark Granovetter encontró que la mayoría de la gente no había conseguido su trabajo por amigos íntimos, sino por conocidos a los que veía una o dos veces al año. Ferrazzi construye sobre eso un método para no perder esa segunda fila.",
 

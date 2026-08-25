@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cumbres-borrascosas": [
+    "por qué quien participó en algo no puede ser testigo de ello",
+    "en qué se diferencia que alguien te necesite de que te quiera bien",
+    "cómo las reglas que dejan a alguien sin nada sirven al revés",
+    "qué recibes cuando lo único que sabes de alguien te lo cuenta quien lo desprecia",
+    "qué corta la crueldad que se hereda de una generación a otra",
+  ],
+
   "nunca-comas-solo": [
     "por qué tus amigos cercanos saben exactamente lo mismo que tú",
     "qué convierte un contacto en una relación, y cuánto tarda",
