@@ -83166,7 +83166,299 @@ const CAMBIA_EL_CHIP: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El camino hacia la libertad financiera, en ocho paginas.
+
+   Breve. ECONOMIA y libro practico de dinero -> afirmacion entera en el rotulo
+   y SEGUNDA PERSONA en la caja.
+
+   Seis argumentos: la responsabilidad del cien por cien, pagarse primero, la
+   gallina de los huevos de oro, las tres cuentas, la regla del cincuenta por
+   ciento y el interes compuesto con la regla del 72.
+
+   Apartado 4 bis, economia: aqui la persona con nombre es el propio autor y su
+   historia esta en el libro. A los veintiseis, endeudado; a los treinta,
+   viviendo de los intereses.
+
+   La conclusion no se anda con rodeos con la aritmetica: la promesa del titulo
+   del original —el primer millon en siete anos— exige a la vez una tasa de
+   ahorro altisima y una rentabilidad sostenida de dos digitos, y el libro no
+   ensena nunca las dos cuentas juntas.
+   -------------------------------------------------------------------------- */
+
+const CAMINO_LIBERTAD_FINANCIERA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que decide el patrimonio de alguien no es cuánto gana, sino qué porcentaje no se gasta",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bodo Schäfer cuenta en la primera página que a los veintiséis años estaba endeudado hasta el punto de entregar a sus acreedores casi todo lo que ganaba, y que a los treinta vivía de los intereses de su capital. El libro es el método que dice haber usado, y se publicó en Alemania en 1998 con un subtítulo que lo explica todo: el primer millón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación de partida va contra la explicación que da casi todo el mundo. La gente que se queda sin patrimonio no es la que gana poco: es la que gasta el cien por cien de lo que entra, tenga esa cifra el tamaño que tenga. Y como los gastos crecen a la misma velocidad que los ingresos, ganar más no arregla nada por sí solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el planteamiento del libro, que es de porcentajes y no de cantidades. Lo que hay que fijar no es cuánto se ahorra, que depende del mes, sino qué proporción de todo lo que entre se aparta antes de tocarlo. Una proporción fija se puede sostener con cualquier sueldo y se puede empezar hoy, y una cantidad no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre la postura ante los problemas de dinero que Schäfer considera imprescindible, en qué orden hay que repartir lo que entra, qué no se puede tocar jamás, por qué hace falta una cuenta para gastar sin culpa, qué hacer cuando suben los ingresos, cómo funciona el interés a largo plazo y qué le sobra a este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Fija un porcentaje, no una cantidad. Un porcentaje se sostiene con cualquier sueldo y se puede empezar este mes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hacerse responsable de lo que no es culpa tuya es la única postura desde la que se puede actuar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Schäfer empieza por algo que no es financiero y que él considera la condición de todo lo demás. Lo llama la responsabilidad del cien por cien, y consiste en hacerse cargo de la propia situación económica sin repartir la causa: no el sueldo del sector, no la crisis, no lo que le enseñaron a uno de pequeño sobre el dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es importante entender qué está diciendo y qué no. No dice que todo sea culpa de uno, que sería falso: hay sueldos bajos, hay despidos y hay mala suerte. Dice que la culpa y la responsabilidad son cosas distintas, y que buscar de quién es la culpa produce explicaciones correctas que no permiten hacer nada, mientras que preguntarse qué depende de uno produce una lista corta y accionable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La herramienta que da para sostener esa postura es un cuaderno que llama diario del éxito. Consiste en apuntar cada día unas cuantas cosas que uno ha hecho bien, por pequeñas que sean, y releerlo cuando las cosas van mal. Su argumento es que quien lleva años sin dinero acumula pruebas de que no es capaz, y que hay que fabricar pruebas del otro lado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y pide poner por escrito las razones. No los objetivos, sino para qué se quiere el dinero, con detalle y con nombres: qué casa, qué trabajo dejado, a quién ayudar. Schäfer sostiene que un plan de ahorro sin razones escritas se abandona en el primer trimestre malo, y que las razones se olvidan mucho más deprisa de lo que la gente cree.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La culpa y la responsabilidad no son lo mismo. Buscar la culpa da explicaciones correctas con las que no se puede hacer nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que se ahorra tiene que salir antes de pagar nada, y no con lo que sobre a final de mes",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla práctica central del libro es vieja y Schäfer la aplica con más dureza que la mayoría: págate a ti primero. En cuanto entra dinero, un porcentaje fijo sale automáticamente a una cuenta que no se toca, antes del alquiler, antes de las facturas y antes de cualquier otra cosa. Lo que quede después es lo que hay para vivir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El orden importa por una razón de conducta que se comprueba sola. Lo que se guarda con lo que sobra al final del mes no se guarda nunca, porque el gasto se expande hasta ocupar todo el espacio disponible. En cambio, un ingreso que llega ya menguado se convierte en el ingreso normal en dos o tres meses, y la vida se ajusta a él sin drama.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Schäfer pide porcentajes altos y ahí es donde el libro se pone exigente. Habla de empezar donde se pueda y de subir el porcentaje deprisa, y sus propias cuentas trabajan con cifras muy por encima de lo que ahorra una familia media. Conviene saberlo desde el principio: el método funciona en la dirección que dice, y las cifras del subtítulo suponen mucho más de lo que suena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre las deudas de consumo da un consejo discutible que conviene contar tal cual. En vez de destinarlo todo a pagarlas, propone repartir: una parte a los acreedores y otra al ahorro desde el primer mes, aunque salga peor en la cuenta de intereses. Su razón es de ánimo, no de matemáticas: quien solo paga deudas durante tres años abandona antes de terminar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que guardas con lo que sobra a fin de mes no se guarda nunca. El gasto crece hasta ocupar todo el espacio que le dejes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El capital ahorrado no se toca jamás, y esa regla es la que separa ahorrar de tener patrimonio",
+      },
+      {
+        b: "texto",
+        texto:
+          "La imagen más recordada del libro es la de la gallina de los huevos de oro. El capital es la gallina; los intereses que produce son los huevos. La regla es una sola y no admite excepciones: se comen los huevos y no se come la gallina, pase lo que pase, porque una gallina comida no vuelve a poner nada nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Parece obvio y no lo es, porque el ahorro de casi todo el mundo funciona al revés. Se acumula un colchón durante dos años y se gasta entero en un coche, en una obra o en unas vacaciones, y después se vuelve a empezar desde cero. Schäfer sostiene que eso no es ahorrar: es aplazar un gasto, y que quien lleva quince años haciéndolo tiene lo mismo que al principio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la definición de libertad financiera que usa el libro, y es aritmética pura. Se es libre cuando los intereses del capital cubren los gastos mensuales, y por tanto hay dos maneras de acercarse: subir el capital o bajar los gastos. La segunda es más rápida y casi nadie la considera parte del plan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Schäfer pide además separar tres objetivos que se mezclan siempre y que exigen dinero distinto. La reserva para emergencias, que es líquida y no se invierte. El dinero de los sueños, que se gasta a propósito. Y la gallina, que no se toca. Cuando todo está en la misma cuenta, cualquier imprevisto se paga con el futuro sin que nadie lo decida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cómete los huevos y nunca la gallina. Un ahorro que se gasta entero cada dos años no es ahorro: es un gasto aplazado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un plan de dinero sin una cuenta para disfrutar se abandona, y por eso hay que presupuestar el capricho",
+      },
+      {
+        b: "texto",
+        texto:
+          "La pieza más contraintuitiva del método es que Schäfer obliga a gastar. Además de la cuenta de gastos corrientes y de la gallina, pide una tercera cuenta para caprichos, viajes y cosas que no sirven para nada, alimentada también con un porcentaje fijo de cada ingreso y destinada a vaciarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es el mismo que hunde las dietas. Un plan que consiste solo en privarse produce un ahorro alto durante unos meses y un atracón después, y el atracón se lleva más de lo que se había guardado. Un gasto planificado y sin culpa hace de válvula, y a la vez enseña que se puede disfrutar del dinero sin salirse del sistema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una razón de aprendizaje que el libro explica bien. El dinero de esa cuenta se gasta a propósito y hasta el final, y eso obliga a decidir qué se quiere de verdad, que es una pregunta que casi nadie se hace cuando compra por impulso. Schäfer sostiene que la mayoría de la gente no sabe en qué disfruta gastando, porque nunca lo ha elegido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El reparto concreto entre las tres cuentas lo deja abierto y da rangos, y ese es probablemente el consejo más aplicable del libro entero para quien no vaya a seguir el resto. Tres cuentas, tres porcentajes fijos, tres funciones distintas, y una transferencia automática el mismo día que entra la nómina para no tener que decidir nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Presupuesta el capricho. Un plan que solo consiste en privarse acaba en un atracón que se lleva más de lo que guardaste.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cuando suben los ingresos, la mitad del aumento tiene que desaparecer de la vista",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo que más rinde a largo plazo trata el momento en que alguien empieza a ganar más. Schäfer observa lo que le pasa a casi todo el mundo: un ascenso, un cliente nuevo o un cambio de trabajo suben el sueldo, y en tres meses el nivel de vida ha subido lo mismo. Al año siguiente esa persona gana más y ahorra igual, o menos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su regla es que la mitad de cualquier aumento vaya directa al ahorro antes de tocarla, y que la otra mitad sí se disfrute. El reparto no es caprichoso: si se guarda todo el aumento, la sensación es de que trabajar más no sirve de nada y el sistema se rompe; si no se guarda nada, la subida de ingresos no cambia nunca el patrimonio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto acumulado es lo llamativo. Con esa regla, cada subida de ingresos sube también el porcentaje de ahorro, porque el gasto crece la mitad de deprisa que los ingresos. Al cabo de unos años, alguien puede estar guardando una proporción que le habría parecido imposible al principio sin haber pasado ni un mes apretándose.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Schäfer añade un aviso sobre los gastos que no se pueden bajar después. Un coche financiado, una hipoteca más grande o un colegio caro no son gastos: son compromisos, y convierten un aumento temporal en una obligación permanente. Su regla es no comprometer nunca un ingreso que no esté asegurado, y aquí es de los pocos sitios donde el libro es prudente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La mitad de cada subida de sueldo, directa al ahorro y antes de verla. Con la otra mitad disfruta, o abandonarás el plan.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El interés compuesto no premia la cantidad, premia los años, y esa es la parte que no se puede recuperar",
+      },
+      {
+        b: "texto",
+        texto:
+          "La última pieza del método es lo que hace que las cifras del libro parezcan posibles: el interés sobre el interés. Schäfer lo explica con la regla del setenta y dos, que es una cuenta de cabeza. Se divide setenta y dos entre la rentabilidad anual en porcentaje y sale el número de años que tarda un capital en duplicarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al ocho por ciento anual, nueve años; al doce, seis. Lo que enseña la regla no es el resultado sino la forma: el crecimiento no es una línea, es una curva que casi no se mueve al principio y se dispara al final. Por eso los primeros años son desmoralizantes y por eso casi todo el mundo abandona precisamente ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es que el tiempo pesa más que la cantidad. Empezar diez años antes con una cifra pequeña bate a empezar tarde con una grande, y esos diez años no se pueden recuperar después con esfuerzo. Es la única variable del método que no está a la venta y la que Schäfer repite más veces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre dónde poner el dinero, el libro es bastante más flojo que sobre cómo conseguirlo. Habla de fondos, de repartir el riesgo y de no perseguir modas, y trabaja en sus ejemplos con rentabilidades anuales de dos dígitos sostenidas durante décadas, que es una suposición muy generosa y que en la práctica cambia por completo todas las cuentas del libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El interés compuesto premia los años, no las cantidades. Y los años empezados tarde no se recuperan ahorrando más.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro reglas y funcionan con cualquier sueldo. Un porcentaje fijo que sale automáticamente el día de la nómina, antes de pagar nada. Tres cuentas separadas, y una de ellas para gastar sin culpa. La mitad de cualquier subida de ingresos, directa al ahorro. Y no tocar el capital jamás, que es lo que separa ahorrar de tener patrimonio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la aritmética de su propia promesa. El subtítulo del original habla del primer millón, y las cuentas que lo hacen posible exigen a la vez una tasa de ahorro altísima y una rentabilidad sostenida de dos dígitos durante años. Schäfer nunca enseña esas dos cifras juntas y en la misma página, que es exactamente donde el lector vería el tamaño de lo que se le está pidiendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en lo que deja fuera. El libro trata el dinero como un asunto de mentalidad y apenas dedica atención al sueldo, al sector, al precio de la vivienda o a la suerte. Y su consejo de ahorrar mientras se pagan deudas de consumo sale peor en intereses que pagarlas primero: Schäfer lo defiende por motivos de ánimo y no cuantifica nunca lo que cuesta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una cosa que conviene saber al leerlo. Schäfer construyó sobre este libro una carrera de conferenciante y de formador financiero, y buena parte de lo que vino después consiste en enseñar a otros a hacer lo mismo. Lo que ha quedado del libro veinticinco años después es una imagen que se repite en toda Europa: la gallina de los huevos de oro, que no se come.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Monta hoy la transferencia automática del día de la nómina. Es la única pieza que funciona aunque no te creas ninguna cifra del libro.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "camino-libertad-financiera": CAMINO_LIBERTAD_FINANCIERA,
   "cambia-el-chip": CAMBIA_EL_CHIP,
   "mente-justos": MENTE_JUSTOS,
   "cinco-disfunciones": CINCO_DISFUNCIONES,

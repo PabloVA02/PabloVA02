@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "camino-libertad-financiera":
+    "Schäfer cuenta que a los veintiséis entregaba a sus acreedores casi todo lo que ganaba y que a los treinta vivía de los intereses. Su afirmación es que lo que decide el patrimonio no es cuánto entra, sino qué proporción no se gasta.",
+
   "cambia-el-chip":
     "En 1990, Jerry Sternin llegó a Vietnam con seis meses de visado para reducir la desnutrición infantil. En vez de estudiar por qué fallaba, buscó a los niños que estaban sanos siendo igual de pobres y copió lo que hacían sus madres.",
 

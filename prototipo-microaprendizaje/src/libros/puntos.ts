@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "camino-libertad-financiera": [
+    "en qué se diferencian la culpa y la responsabilidad cuando hablamos de dinero",
+    "por qué lo que guardas a fin de mes no se guarda nunca",
+    "qué regla separa ahorrar de llegar a tener patrimonio",
+    "por qué un plan de dinero necesita una cuenta para gastar",
+    "qué hacer con la mitad de cada subida de sueldo",
+  ],
+
   "cambia-el-chip": [
     "por qué conviene mirar lo que ya funciona antes que lo que falla",
     "qué le pasa a alguien cuando le pides un objetivo y no un movimiento",
