@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "poder-introvertidos": [
+    "en qué se diferencia la timidez de la preferencia por el silencio",
+    "por qué las reuniones creativas dan peores ideas que trabajar solo",
+    "cómo el sistema de recompensa explica quién asume riesgos",
+    "cuándo un jefe callado rinde más que uno que llena la sala",
+    "hasta dónde se puede fingir un carácter que no se tiene",
+  ],
+
   "magia-orden": [
     "por qué ordenar poco a poco garantiza volver a empezar",
     "por qué se ordena por categorías y nunca por habitaciones",

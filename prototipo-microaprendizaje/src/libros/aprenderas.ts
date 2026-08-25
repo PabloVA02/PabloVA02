@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "poder-introvertidos":
+    "En 1963, veintitrés de veinticuatro grupos de lluvia de ideas produjeron menos que sus propios miembros por separado. Cain reúne lo que se sabe del temperamento y muestra qué pierde una organización montada para los que hablan.",
+
   "magia-orden":
     "Kondo ordenó armarios ajenos en Tokio hasta tener lista de espera de meses, y encontró por qué la gente recae. Su método es un proceso completo que se hace una sola vez, por categorías y en un orden fijo.",
 

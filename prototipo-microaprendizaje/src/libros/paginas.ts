@@ -65755,7 +65755,436 @@ const MAGIA_ORDEN: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El poder de los introvertidos, en doce páginas.
+
+   Amplio. Ensayo de psicología → afirmación entera en el rótulo, tercera
+   persona, y la caja es la idea de la página (apartados 3 y 4.7).
+
+   Sostiene diez argumentos independientes —la historia del ideal, la
+   biología, la reunión creativa, la oficina abierta, la soledad experta, la
+   recompensa, el mando, la cultura, los rasgos libres— y quitar cualquiera
+   deja el argumento cojo. Por eso doce y no ocho.
+
+   Riesgo principal: la prueba del título tapado. Un resumen de este libro
+   que sirva igual para otros veinte de superación personal está mal escrito.
+   Lo que lo salva son los nombres y las cifras: Dunnette y los 3M, Kagan y
+   los quinientos bebés, Kaminski en Enron, las camisetas de Grant.
+
+   Y la conclusión dice lo que el libro no dice: que junta cuatro cosas
+   distintas bajo una palabra, y que el propio Grant lo matizó en 2013.
+   -------------------------------------------------------------------------- */
+
+const PODER_INTROVERTIDOS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Occidente premia a la mitad de la población y llama defecto a la otra mitad",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 1 de diciembre de 1955, en Montgomery, Alabama, una costurera de cuarenta y dos años se negó a levantarse de su asiento en un autobús. Cincuenta años después, los periódicos que contaron su muerte la describieron casi todos con las mismas dos palabras: tímida y callada. Su autobiografía, publicada en 1994, se titula «Fuerza tranquila».",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rosa Parks no encaja en la imagen que Occidente tiene de la persona decidida. Esa imagen tiene un nombre en este libro: el «ideal extrovertido», la creencia de que quien vale es sociable, rápido al hablar y cómodo entre desconocidos. Susan Cain sostiene que entre un tercio y la mitad de las personas funcionan al revés, y que las aulas, las oficinas y los procesos de selección están construidos para las otras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia es medible y cara. Las empresas colocan a sus empleados en salas sin paredes y les piden que generen ideas en grupo, dos prácticas que la investigación lleva sesenta años desmintiendo. Los colegios sientan a los niños en islas de cuatro y puntúan la participación oral. Y el resultado no es que los callados sufran: es que se pierde el trabajo que solo se hace en silencio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre de dónde salió ese ideal —tiene fecha y tiene un culpable con nombre—, qué se sabe de la biología que hay debajo, qué le cuesta a una empresa aplicarlo, por qué en otras culturas nadie lo entendería, y hasta dónde puede alguien comportarse como lo contrario de lo que es.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El ideal extrovertido no describe cómo son las personas: describe a quién se asciende.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hacia 1920 el mérito dejó de ser lo que uno era y pasó a ser la impresión que causaba",
+      },
+      {
+        b: "texto",
+        texto:
+          "El historiador cultural Warren Susman contó las palabras de los manuales de consejos norteamericanos de los dos siglos y encontró un corte limpio. Los del XIX repetían carácter, deber, honor, integridad, buenas obras, modales, reputación. Los de las primeras décadas del XX repetían magnético, fascinante, atractivo, dominante, enérgico. Susman llamó a lo primero «cultura del carácter» y a lo segundo «cultura de la personalidad».",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cambio tuvo una causa material. En una generación, millones de personas pasaron de trabajar en pueblos donde los vecinos las conocían de toda la vida a trabajar en ciudades entre desconocidos que las juzgaban en treinta segundos. Cuando el que decide sobre ti no sabe nada de ti, la primera impresión deja de ser un detalle y pasa a ser el expediente entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El emblema del cambio es Dale Carnegie. Nació en 1888 en una granja de Misuri, vendió tocino y jabón para la empresa cárnica Armour, empezó a dar clases de oratoria en una sede de la Asociación Cristiana de Jóvenes en 1912 y publicó en 1936 «Cómo ganar amigos e influir sobre las personas». Hasta se cambió la grafía del apellido, de Carnagey a Carnegie, para que sonara al del millonario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los libros de superación cambiaron entonces lo que prometían. Antes prometían ser mejor persona; después, causar mejor efecto. Y la promesa se institucionalizó: en la Escuela de Negocios de Harvard, donde Cain pasó una temporada, buena parte de la nota depende de hablar en clase, y el alumno que no habla no se considera un alumno distinto sino un problema que hay que arreglar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La timidez pasó a ser un defecto el día en que empezamos a vivir entre desconocidos que nos juzgaban en treinta segundos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La introversión no mide el miedo a la gente: mide cuánta estimulación le sienta bien a cada uno",
+      },
+      {
+        b: "texto",
+        texto:
+          "Son dos cosas distintas que el idioma confunde. La timidez es miedo al juicio ajeno. La introversión es una preferencia por entornos con poco estímulo. Se pueden dar juntas y se pueden dar por separado: hay extrovertidos tímidos, como los actores que necesitan el escenario y vomitan antes de salir, y hay introvertidos a los que el juicio ajeno les da exactamente igual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación fisiológica más antigua es de Hans Eysenck, que la formuló en 1967. Según su modelo, el cerebro de un introvertido parte de un nivel de activación más alto, así que necesita menos entrada de fuera para llegar a su punto óptimo; el de un extrovertido parte más bajo y necesita más. Nadie tiene demasiado o poco: cada uno tiene un punto distinto, y lo que a uno le despierta a otro le satura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La comprobación clásica es tosca y por eso vale: la prueba del limón. Se pone una gota de zumo de limón en la lengua y se mide con un algodón cuánta saliva produce cada persona. Los introvertidos salivan más. No hay que preguntarle nada a nadie ni fiarse de lo que conteste; se mide una reacción del sistema nervioso autónomo, que no sabe mentir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la corrección práctica del libro. La misma oficina, la misma reunión y la misma fiesta no son el mismo sitio para dos personas: para una son poco y para otra son demasiado. Discutir cuál de las dos tiene razón no lleva a ninguna parte, porque están describiendo dos experiencias fisiológicas distintas del mismo sitio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hay personas más y menos sociables: hay personas que llegan antes a su punto de saturación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los bebés que más se agitan ante lo nuevo son los que de mayores hablarán menos",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1989, el psicólogo del desarrollo Jerome Kagan reunió en Harvard a quinientos bebés de cuatro meses y les fue presentando cosas que no habían visto nunca: móviles de colores, globos que estallaban, voces grabadas, un bastoncillo mojado en alcohol pasado bajo la nariz. Grabó cómo reaccionaba cada uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cerca de un veinte por ciento pataleó, arqueó la espalda y lloró. Kagan los llamó «altamente reactivos». Un cuarenta por ciento apenas se inmutó, y el resto quedó en medio. Entonces hizo un pronóstico que a casi todo el mundo le pareció al revés: los que más se habían agitado serían los adolescentes serios, prudentes y callados, y los tranquilos serían los sociables.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Parece invertido porque leemos el llanto como carácter fuerte y la quietud como calma. Kagan lo lee al revés: el bebé que llora ante el globo no está siendo valiente, está registrando mucho. Un sistema nervioso que capta con detalle lo nuevo produce de mayor a alguien que prefiere lo conocido, y uno que apenas lo capta produce a alguien que va a buscar más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kagan siguió a aquellos niños hasta la adolescencia y el pronóstico se cumplió bastante por encima del azar. Lo contó en «La profecía de Galeno», de 1994; el título viene del médico griego que en el siglo II describió cuatro temperamentos —melancólico, sanguíneo, colérico y flemático— casi con los mismos límites. Y el propio Kagan insiste en la letra pequeña: es una tendencia, no un destino, y muchos niños de cada grupo acabaron donde no tocaba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La reactividad no es debilidad: es un sistema nervioso que registra más de lo que hay delante.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La lluvia de ideas en grupo produce menos ideas y peores que esas mismas personas trabajando solas",
+      },
+      {
+        b: "texto",
+        texto:
+          "El método lo inventó Alex Osborn, socio de la agencia de publicidad BBDO, y lo publicó en 1948 en «Tu poder creativo». Sus cuatro reglas se siguen repitiendo hoy en cualquier sala de reuniones: no criticar, buscar cantidad, admitir lo descabellado y combinar las ideas ajenas. Osborn prometía que un grupo así produciría el doble de ideas que sus miembros por separado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1963, el psicólogo Marvin Dunnette, de la Universidad de Minnesota, lo puso a prueba con cuarenta y ocho científicos y cuarenta y ocho publicistas de la empresa 3M. Cada participante hizo el ejercicio dos veces: solo y en grupos de cuatro. Veintitrés de los veinticuatro grupos produjeron menos ideas que las que habían producido sus propios miembros por separado, y un jurado externo calificó las ideas solitarias igual de buenas o mejores.",
+      },
+      { b: "texto", texto: "Se han propuesto tres explicaciones, y las tres están medidas:" },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Pereza social", texto: "en grupo, parte del trabajo lo hace otro, y casi nadie es capaz de notar que está dejando de esforzarse." },
+          { fuerte: "Bloqueo de producción", texto: "solo puede hablar uno a la vez, así que los demás pasan el rato esperando turno, y mientras esperan olvidan o descartan lo que iban a decir." },
+          { fuerte: "Miedo al juicio", texto: "la regla de no criticar no elimina la crítica, solo la vuelve silenciosa, y la gente sigue callándose lo que puede quedar mal." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una excepción, y es la que señala dónde está el fallo: la lluvia de ideas por escrito y a distancia sí funciona, y además funciona mejor cuanto más grande es el grupo. Lo que estropea el invento de Osborn no es reunir cabezas, es reunirlas en una sala con turno de palabra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que arruina una reunión creativa no es la gente: es tener que esperar el turno para hablar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La oficina sin paredes se instaló para que la gente hablara y consiguió que hablara menos",
+      },
+      {
+        b: "texto",
+        texto:
+          "La oficina abierta se vendió con dos promesas: sale más barata por metro cuadrado y multiplica los encuentros de los que salen las buenas ideas. La primera es cierta y nadie la discute. La segunda es la que se ha medido, y sale al revés.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un estudio danés dirigido por Jan Pejtersen y publicado en 2011 siguió a 2.403 empleados y cruzó su salud con el tipo de sitio donde trabajaban. Las bajas por enfermedad crecían con el número de personas por sala: quienes compartían un espacio abierto cogieron alrededor de un sesenta por ciento más de bajas que quienes tenían despacho propio. Se han medido además tensión más alta, más discusiones y más rotación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El dato más incómodo llegó seis años después de publicarse el libro. En 2018, Ethan Bernstein y Stephen Turban colgaron sensores a los empleados de dos grandes empresas antes y después de tirar las paredes, para contar interacciones reales en vez de preguntar por ellas. El contacto cara a cara cayó alrededor de un setenta por ciento y los mensajes escritos subieron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo no es la distracción, es la retirada. Quien no puede cerrar una puerta se protege como puede: auriculares, una sala reservada para trabajar, un mensaje en lugar de una conversación. Cain no pide un despacho para cada uno; pide poder elegir dónde se trabaja cada hora, que es lo único que devuelve el control sobre el estímulo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien no puede cerrar una puerta acaba encerrándose igual, solo que con auriculares.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi todo el trabajo que exige pericia se hace a solas, y las oficinas lo han vuelto casi imposible",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 5 de marzo de 1975, en el garaje de Gordon French en Menlo Park, se reunió por primera vez el Homebrew Computer Club. Steve Wozniak fue, vio allí el primer ordenador de aficionado y salió con la idea. Después construyó el Apple I solo, de noche y los fines de semana, en su cubículo de Hewlett-Packard en Cupertino.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las dos mitades importan y casi siempre se cuenta solo una. La idea vino de un grupo; la máquina, de meses a solas. Wozniak lo dejó escrito en sus memorias de 2006 como consejo, y es el consejo que menos se repite en los libros de innovación.",
+      },
+      { b: "cita", frase: "La mayoría de los inventores e ingenieros que he conocido son como yo: viven dentro de su cabeza. Son casi artistas. Y los artistas trabajan mejor solos.", autor: "Steve Wozniak, «iWoz», 2006" },
+      {
+        b: "texto",
+        texto:
+          "La investigación sobre pericia dice lo mismo con números. En 1993, Anders Ericsson estudió a los violinistas de la Academia de Música de Berlín Occidental repartidos en tres niveles. A los dieciocho años, los del nivel más alto acumulaban más de siete mil horas de práctica en solitario; los del nivel más bajo, unas tres mil cuatrocientas. Los propios músicos calificaban la práctica a solas como la actividad más determinante de todas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón es de oficio. La práctica que mejora es la que se hace justo en el punto donde uno falla, repitiendo el compás que no sale hasta que sale. Eso exige equivocarse muchas veces seguidas, y casi nadie es capaz de hacerlo delante de otros. Acompañado se practica lo que ya se sabe, que es agradable y no enseña nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La práctica que mejora se hace en el punto exacto donde uno falla, y eso casi nadie lo soporta delante de nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los extrovertidos no arriesgan más por valientes: persiguen la recompensa con más fuerza",
+      },
+      {
+        b: "texto",
+        texto:
+          "La investigación sobre el sistema de recompensa, iniciada por Richard Depue, sitúa la diferencia en un sitio distinto del que se supone. No está en el miedo, sino en el tirón: ante una ganancia posible, el cerebro extrovertido reacciona con más intensidad, con más dopamina y más actividad en el núcleo accumbens. Lo que cambia no es cuánto asusta perder, es cuánto atrae ganar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es que, cuando el premio está cerca, el extrovertido acelera y registra peor las señales que aconsejan parar. No es que las desprecie: es que compiten en desventaja con el tirón de la ganancia. El introvertido, con menos tirón, las oye mejor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Enron dejó el caso más claro. Vincent Kaminski era el director de investigación de riesgos de la compañía, un analista prudente que se negó a firmar varias de las operaciones con sociedades interpuestas y lo puso por escrito. La respuesta de la dirección no fue discutirle los números: fue retirarle a su equipo la competencia de revisar aquellos contratos. Enron quebró en diciembre de 2001.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El gestor de fondos Boykin Curry lo resume para el conjunto del sector: durante veinte años, la estructura de incentivos de Wall Street ascendió sistemáticamente a quien más riesgo asumía, y quien pedía cautela fue quedando fuera de las decisiones. Vista así, la crisis de 2008 no fue un fallo de inteligencia. Fue el resultado de haber seleccionado un temperamento durante dos décadas seguidas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una organización que asciende siempre al que empuja acaba sin nadie que sepa frenar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un jefe introvertido rinde más que uno extrovertido en cuanto el equipo tiene iniciativa",
+      },
+      {
+        b: "texto",
+        texto:
+          "Adam Grant, Francesca Gino y David Hofmann publicaron en 2010 el estudio que más ha movido esta discusión. Midieron el carácter de los encargados de ciento treinta franquicias de una cadena de pizzerías y, por separado, cuánta iniciativa tenían sus plantillas: si proponían cambios o si esperaban instrucciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado no favorece a ningún carácter, favorece a las combinaciones. Con empleados que proponían cosas, los locales dirigidos por encargados introvertidos ganaron alrededor de un catorce por ciento más. Con empleados que esperaban órdenes, se invirtió: ahí rendían más los extrovertidos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los mismos investigadores lo repitieron en laboratorio con una prueba deliberadamente boba: grupos de estudiantes doblando camisetas contra reloj, cada uno con un jefe designado. En algunos grupos había un cómplice que a mitad de la prueba proponía un método de doblado más rápido. Los jefes extrovertidos tendieron a desoírlo; los introvertidos lo adoptaron, y sus grupos doblaron cerca de un veintiocho por ciento más de camisetas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación que dan es de espacio. Un extrovertido llena la sala, y una buena idea que viene de abajo le suena a competencia por el mando. Un introvertido deja hueco y escucha, lo que resulta inútil si nadie tiene nada que decir y decisivo si alguien lo tiene. Preguntar qué carácter manda mejor está mal planteado: depende de a quién dirija.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hay un carácter que mande mejor: hay caracteres que encajan con equipos distintos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El ideal extrovertido es una costumbre americana, no un rasgo de la especie",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las comparaciones de personalidad entre países que dirigió Robert McCrae, con muestras de más de treinta culturas, encuentran las puntuaciones de extraversión más altas en Europa y América y más bajas en buena parte de Asia y de África. Es la misma escala aplicada en todas partes, así que lo que se mueve no es el instrumento: es la población.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un experimento que lo deja en el terreno de lo práctico. Heejung Kim, en Stanford, publicó en 2002 una prueba de razonamiento en la que a la mitad de los participantes se les pedía pensar en voz alta. A los estudiantes de origen europeo-americano no les afectó. A los de origen asiático-americano les empeoró el rendimiento. Hablar mientras se piensa no es una ayuda neutral: es una técnica aprendida en una cultura concreta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la tradición confuciana el silencio no es un hueco que hay que llenar, sino una señal de dominio de uno mismo, y quien habla mucho pierde autoridad en vez de ganarla. Cain pasó por institutos de Cupertino, en California, donde la mayoría del alumnado es de origen asiático, y encontró a chicos que ensayaban hablar más y más alto porque sabían que en la universidad los tomarían por apáticos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la conclusión más incómoda del libro. Lo que las empresas llaman «habilidades sociales» y evalúan como si fuera una capacidad general es en buena medida un dialecto: el conjunto de costumbres de conversación de una parte del mundo, enseñado y puntuado como si midiera el talento.",
+      },
+      { b: "idea", texto: "Lo que en un sitio se llama habilidad social, en otro se llama ruido." },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Se puede actuar como lo contrario de lo que uno es, pero solo por algo que importe y solo un rato",
+      },
+      {
+        b: "texto",
+        texto:
+          "Brian Little es profesor de psicología, ha dado clase en Harvard y en Carleton y ha ganado premios a la mejor docencia de su facultad. También es introvertido. Entre una charla y la siguiente se encierra en un cubículo del baño con la puerta cerrada, no porque le pase nada, sino porque es el único sitio de un congreso donde nadie le va a hablar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación es la teoría de los rasgos libres. Los genes fijan un margen dentro del cual cada uno se mueve, y dentro de ese margen se puede actuar como lo contrario de lo que uno es, y hacerlo bien, con una condición: que sea al servicio de algo que a esa persona le importe de verdad. Little lo llama «proyectos personales centrales», y son los que hacen que un introvertido dé clase durante treinta años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que no se puede es sostenerlo indefinidamente. Actuar fuera del propio carácter cansa de una manera que no se nota mientras dura y se cobra después, y Little sospecha que sostenerlo durante años tiene además coste físico. De ahí la pieza que completa la teoría: los «nichos restauradores», el hueco pactado de antemano —el baño, el coche, la hora sin reuniones, la comida a solas— sin el cual lo anterior no se aguanta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Puesto así, el consejo del libro no es elegir entre ser uno mismo y funcionar. Es decidir por qué cosas concretas vale la pena gastarse, porque el presupuesto es limitado, y organizar los descansos como parte del trabajo y no como una debilidad que se disimula.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Actuar fuera del propio carácter se paga después, así que conviene saber por qué cosas exactamente se está pagando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene tres cosas. Que la preferencia por el estímulo bajo es un rasgo biológico repartido en cerca de la mitad de la población. Que hacia 1920 Occidente empezó a premiar el rasgo contrario y montó sobre él sus escuelas y sus empresas. Y que ese montaje cuesta dinero, porque la reunión creativa, la oficina abierta y el ascenso al más ruidoso producen peores resultados que las alternativas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la palabra que lo sostiene todo. Cain mete bajo «introversión» cuatro cosas que la psicología separa: la introversión propiamente dicha, la timidez, la sensibilidad al estímulo y el gusto por estar solo. En el modelo de los cinco grandes rasgos, la extraversión se define sobre todo por la sociabilidad y la emoción positiva, no por la sensibilidad. La cifra de «un tercio a la mitad» tampoco es un hallazgo: es dónde se decide cortar un rasgo continuo en el que la mayoría de la gente está en medio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el investigador en el que más se apoya lo matizó él mismo. En 2013, Adam Grant siguió a los comerciales de una empresa de programas informáticos y encontró que quienes más vendían no eran ni los introvertidos ni los extrovertidos, sino los ambivertidos del medio. Queda además un rincón sin resolver: la receta de los rasgos libres —compórtate como un extrovertido cuando el asunto lo merezca— es la misma que el libro reprocha a la cultura de la personalidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después le dio la razón en lo práctico y una ironía en lo demás. Su charla de 2012 es una de las más vistas de la historia de las conferencias TED y el libro se tradujo a unas cuarenta lenguas. En 2015 Cain fundó Quiet Revolution, que forma a directivos y que llegó a diseñar mobiliario con el fabricante Steelcase: el libro contra la oficina abierta terminó convertido en una línea de cabinas para oficinas abiertas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Junta cuatro rasgos bajo una sola palabra, y aun así acierta en lo que se puede medir: las salas llenas producen menos que la gente sola.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "poder-introvertidos": PODER_INTROVERTIDOS,
   "magia-orden": MAGIA_ORDEN,
   "secreto-byrne": SECRETO_BYRNE,
   "48-leyes-poder": LEYES_PODER_48,

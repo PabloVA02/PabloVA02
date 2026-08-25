@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "poder-introvertidos": "El poder secreto de las personas que callan",
   "magia-orden": "El método japonés para ordenar una vez y no volver a empezar",
   "secreto-byrne": "La ley de la atracción, contada y comprobada",
   "48-leyes-poder": "Cómo se ha conseguido y conservado la influencia durante tres mil años",

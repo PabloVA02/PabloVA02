@@ -318,7 +318,7 @@ export const CATALOGO: Ficha[] = [
   { id: "cinco-heridas", titulo: "Las cinco heridas que impiden ser uno mismo", autor: "Lise Bourbeau", ano: 2000, categoria: "Psicología", estado: "pendiente" },
   { id: "usted-puede-sanar", titulo: "Usted puede sanar su vida", autor: "Louise Hay", ano: 1984, categoria: "Psicología", estado: "pendiente" },
   { id: "nunca-comas-solo", titulo: "Nunca comas solo", autor: "Keith Ferrazzi", ano: 2005, categoria: "Psicología", estado: "pendiente" },
-  { id: "poder-introvertidos", titulo: "El poder de los introvertidos", autor: "Susan Cain", ano: 2012, categoria: "Psicología", estado: "pendiente" },
+  { id: "poder-introvertidos", titulo: "El poder de los introvertidos", autor: "Susan Cain", ano: 2012, categoria: "Psicología", estado: "escrito" },
   { id: "modelos-manson", titulo: "Modelos", autor: "Mark Manson", ano: 2011, categoria: "Psicología", estado: "pendiente" },
   { id: "buena-suerte", titulo: "La buena suerte", autor: "Rovira y Trías de Bes", ano: 2004, categoria: "Psicología", estado: "pendiente" },
   /* --- Economía --------------------------------------------------------- */
