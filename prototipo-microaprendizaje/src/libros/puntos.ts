@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "traguese-sapo": [
+    "por qué conviene hacer lo más pesado antes que nada",
+    "cómo se distingue lo urgente de lo que importará dentro de un mes",
+    "qué le pasa a una tarea que retomas cuatro veces",
+    "por qué hay que escribir la lista de lo que no vas a hacer",
+    "qué habilidad marca el techo de todas las demás",
+  ],
+
   "codigo-da-vinci": [
     "por qué un dato cierto al principio te hace creer lo que viene después",
     "qué se puede deducir de verdad de un símbolo, y qué no",

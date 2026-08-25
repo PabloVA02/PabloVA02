@@ -81706,7 +81706,300 @@ const CODIGO_DA_VINCI: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Traguese ese sapo, en ocho paginas.
+
+   Breve. Libro practico -> afirmacion entera en el rotulo y SEGUNDA PERSONA en
+   la caja.
+
+   Seis argumentos: el orden y no el tiempo, las consecuencias como medida, el
+   metodo ABCDE, la postergacion deliberada, la tarea de una sola sentada y la
+   habilidad mas debil como techo.
+
+   Apartado 4 bis, LA ANECDOTA FAMOSA ES UNA TRAMPA: la frase del sapo se le
+   atribuye a Mark Twain en la portada de medio mundo y no aparece en ninguna
+   obra suya. Se usa igual, pero diciendo lo que se sabe de ella. Eso no
+   estropea el resumen: lo hace fiable.
+
+   La conclusion tiene el punto duro: Tracy apoya su idea central en Edward
+   Banfield y su libro de 1970, que sostenia que la perspectiva temporal explica
+   quien prospera. Aquel libro se discutio muchisimo entonces por explicar la
+   pobreza con la mentalidad de los pobres, y aqui aparece como hecho cerrado.
+   -------------------------------------------------------------------------- */
+
+const TRAGUESE_SAPO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La tarea que más te pesa hay que hacerla lo primero, cuando todavía no te ha desgastado el día",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro se llama así por una frase que suele atribuirse a Mark Twain: si te comes un sapo vivo a primera hora de la mañana, puedes pasar el resto del día sabiendo que lo peor ya ha quedado atrás. Conviene decir que nadie la ha encontrado en ninguna obra suya, y que se parece bastante a una del francés Nicolas Chamfort, del siglo XVIII.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Brian Tracy publicó esto en 2001 en poco más de cien páginas y con veintiún capítulos cortos. Su sapo es la tarea más grande e importante que tienes hoy, la que más vas a aplazar y la que más consecuencias tiene. Y su regla, que es la única cosa que casi todo el mundo recuerda del libro, es que esa va primero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento no es de fuerza de voluntad sino de horario. La capacidad de decidir se gasta durante el día, y a las seis de la tarde la tarea difícil no es más difícil pero uno tiene menos con qué afrontarla. Además, una vez hecha deja un rastro que dura horas: la sensación de que el día ya está salvado pase lo que pase.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué el problema casi nunca es de tiempo, con qué se mide la importancia de una tarea, un método de cinco letras para ordenar una lista, por qué hay que aplazar cosas a propósito, qué se gana al hacer algo de una sola sentada, qué habilidad marca el techo de lo que uno gana y qué se le puede reprochar a este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Haz lo más pesado a primera hora. No porque sea más fácil entonces, sino porque tú tienes más con qué hacerlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Nunca vas a hacerlo todo, así que el trabajo consiste en elegir qué se queda sin hacer",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tracy abre con una constatación que quita bastante presión. Nadie termina nunca su lista, y no es un problema de organización ni de esfuerzo: cada tarea hecha genera dos nuevas, y siempre entra más de lo que sale. Cualquier método que prometa vaciar la lista está prometiendo algo que no ha ocurrido nunca en ninguna oficina.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca la consecuencia que ordena el libro entero. Si es imposible hacerlo todo, entonces el trabajo importante no es hacer más deprisa sino elegir mejor, y elegir significa decidir qué se queda sin hacer para siempre. La productividad, en su definición, no se mide en cantidad de tareas terminadas sino en cuáles fueron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aplica a las listas la vieja proporción de Pareto: un veinte por ciento de las tareas produce el ochenta por ciento del valor. Y añade la observación incómoda: ese veinte por ciento suele estar formado por las tareas grandes, difíciles y aplazables, mientras que el ochenta restante son las pequeñas, rápidas y satisfactorias que uno hace primero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso, dice, una mañana muy productiva y una mañana muy útil no son lo mismo, y se confunden constantemente. Se puede terminar el día con dieciocho cosas tachadas y no haber tocado ninguna de las dos que importaban. La sensación es excelente y el resultado es cero, y esa combinación puede sostenerse durante años sin que nadie la note.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Puedes tachar dieciocho cosas y no haber hecho nada. Mira tu lista de ayer y busca cuáles de ellas se notarán dentro de un mes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La importancia de una tarea se mide por lo que pasa a largo plazo si la haces o no",
+      },
+      {
+        b: "texto",
+        texto:
+          "La herramienta que da Tracy para distinguir lo importante de lo urgente es una sola pregunta: qué consecuencias tiene esto. Una tarea importante es aquella cuyas consecuencias son grandes a largo plazo, y una tarea sin importancia es aquella que no cambia nada dentro de un mes, aunque hoy parezca urgentísima y la esté pidiendo alguien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La distinción funciona porque separa dos cosas que se sienten igual. Un teléfono que suena es urgente y casi nunca es importante. Preparar la conversación difícil de la semana que viene no es urgente y decide bastante. Como la urgencia se siente en el cuerpo y la importancia no, el día se llena solo de lo primero si nadie interviene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tracy apoya esto en un investigador de Harvard, Edward Banfield, que en 1970 sostuvo que el factor que mejor predice a quién le va bien es la «perspectiva temporal»: cuánto hacia delante mira alguien al tomar decisiones. Quien piensa en veinte años elige distinto que quien piensa en el viernes, y esa diferencia, según él, se acumula.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea es útil como criterio aunque su respaldo sea flojo, cosa que se dirá al final. Aplicada a una lista funciona en un minuto: al lado de cada tarea, cuánto importará dentro de un mes. Casi todo se cae, dos o tres cosas quedan de pie, y esas son las que Tracy llama sapos y las que hay que poner a primera hora.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Al lado de cada tarea escribe cuánto importará dentro de un mes. La urgencia se siente en el cuerpo y la importancia no.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cinco letras ordenan cualquier lista, y la regla es no bajar de nivel mientras quede algo arriba",
+      },
+      {
+        b: "texto",
+        texto:
+          "El método más concreto del libro consiste en poner una letra al lado de cada tarea. La A es lo que hay que hacer y tiene consecuencias serias si no se hace. La B es lo que se debería hacer, con consecuencias leves. La C es lo que estaría bien hacer y no tiene ninguna consecuencia. La D se delega y la E se elimina de la lista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla que lo hace funcionar es una y es dura: no se toca una B mientras haya una A pendiente, y no se toca una C mientras haya una B. Tracy sostiene que casi todo el mundo hace exactamente lo contrario, porque las C son agradables, se terminan rápido y dan la sensación de estar avanzando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando hay varias A, se numeran: A-1, A-2, A-3. Y el A-1 es el sapo. Su instrucción sobre el A-1 no admite matices: empezar por ahí en cuanto uno se sienta, antes del correo, antes de las noticias y antes de la reunión de las diez, y no levantarse hasta que esté terminado o hasta que tope con algo que dependa de otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La letra E, eliminar, es la que más cuesta usar y la que más rinde. Tracy pide revisar la lista buscando cosas que se arrastran desde hace semanas, que nadie ha reclamado y que no tienen consecuencia alguna, y tacharlas del todo. Sostiene que una lista con tareas muertas dentro pesa cada vez que se abre, aunque no se haga ninguna.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hagas una tarea agradable mientras quede una importante. Es la regla más sencilla del libro y la que menos gente cumple.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Aplazar cosas a propósito es una técnica, y todo el mundo aplaza sin elegir qué",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más original se titula postergación creativa y le da la vuelta al asunto del libro. Tracy dice que todo el mundo pospone, que es inevitable porque no cabe todo, y que la diferencia entre unos y otros no está en si posponen sino en qué. La mayoría pospone sin decidirlo, con lo que pospone justamente lo que más pesa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su propuesta es elegir la lista de lo que no se va a hacer, y escribirla. Actividades que se hacen por costumbre, reuniones a las que se va porque siempre se ha ido, informes que nadie lee, correos que se contestan por educación. Al ponerlas por escrito como decisión dejan de ser un olvido y pasan a ser una elección con la que se puede vivir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es cómo se decide qué entra en esa lista. Tracy usa una pregunta de gestión que se puede aplicar a casi todo: si no estuviera haciendo esto ya, sabiendo lo que sé ahora, ¿lo empezaría hoy? Si la respuesta es no, la actividad no necesita mejorarse ni optimizarse: necesita terminarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El límite del consejo es evidente y el libro no lo trata. Buena parte de lo que llena el día de una persona no lo ha elegido ella, y decir que no a una reunión no siempre está disponible. Aun así, la lista de lo que se abandona a propósito suele tener más entradas de las que uno se espera al empezarla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribe lo que has decidido no hacer. Si no lo eliges tú, lo que se quede sin hacer será justo lo que más pesa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una tarea empezada y terminada de una sentada cuesta bastante menos que la misma partida en trozos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tracy insiste en una regla que llama manejar cada tarea una sola vez: empezar y no levantarse hasta acabar. Su afirmación es que la misma tarea, hecha del tirón, cuesta mucho menos que hecha en cuatro ratos, y que la diferencia no está en el tiempo trabajado sino en todas las veces que hay que volver a entrar en ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo se entiende sin ningún dato. Cada vez que se retoma algo hay que recordar dónde se estaba, releer, recuperar el hilo y volver a coger velocidad, y ese arranque cuesta lo mismo la cuarta vez que la primera. Cuatro arranques por tarea, en un día con seis tareas, son veinticuatro arranques que no producen nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para las tareas grandes, que no caben en una sentada, da dos técnicas con nombres de comida. La del salami consiste en cortar el trabajo en rodajas y comprometerse solo con una. La del queso suizo, en abrir un agujero: ponerse cinco minutos exactos y parar cuando suene, sabiendo que casi siempre no se para.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade el consejo que en 2001 sonaba menor y hoy es el central: quitar de en medio lo que interrumpe. Tracy hablaba de la puerta abierta y del teléfono; el mecanismo es idéntico con las notificaciones. Su regla es que no hace falta disciplina para no mirar algo que no suena, y que casi toda la disciplina que se gasta en resistir se podría ahorrar apagando.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cada vez que retomas algo pagas el arranque entero otra vez. Empieza y termina, o corta el trabajo tú antes de que te lo corten.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Tu habilidad más floja marca el techo de todo lo demás, por buenas que sean las otras",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo que Tracy considera más importante y que casi nadie recuerda va sobre formación. Sostiene que en cualquier oficio hay cinco o seis habilidades que deciden el resultado, y que el nivel de la más floja marca el techo del conjunto, por muy alto que se esté en las demás. Ser excelente en cuatro y malo en una deja a alguien parado en esa una.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que da es de ventas y se traslada a casi todo. Alguien puede conocer el producto, caer bien, escuchar y negociar, y si no sabe cerrar no vende. El resto del trabajo no compensa el hueco: lo alimenta, porque produce más ocasiones para fallar en el mismo sitio. Y lo habitual es dedicar el tiempo de formación a lo que ya se hace bien, que es más agradable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La pregunta que propone es incómoda y es de las mejores del libro: ¿qué habilidad, si la dominara, tendría el mayor efecto positivo sobre mi trabajo? Casi todo el mundo sabe la respuesta al instante, y casi todo el mundo lleva años sin hacer nada al respecto, que es exactamente la señal de que ahí está el sapo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su recomendación es de calendario y no de intención: una hora al día de estudio del propio oficio, todos los días laborables, sostenida durante años. Tracy calcula que eso convierte a cualquiera en alguien muy competente en un puñado de años, y aunque la cifra sea una estimación suya, la idea de tratar la formación como una cita fija y no como un propósito se sostiene sola.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pregúntate qué habilidad, si la dominaras, cambiaría más tu trabajo. Vas a saberlo al instante, y llevas tiempo sin tocarla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cinco reglas y caben en una tarjeta. La tarea más pesada a primera hora. Al lado de cada cosa, cuánto importará dentro de un mes. Ninguna tarea agradable mientras quede una importante. Una lista escrita de lo que has decidido no hacer. Y una hora al día para la habilidad que más te frena, tratada como una cita y no como un propósito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en el respaldo, y de manera bastante llamativa para un libro tan tajante. Aparecen porcentajes sueltos —esto reduce el tiempo a la mitad, la persona media hace tal cosa— sin un solo estudio, año ni autor detrás. Es la fórmula de afirmar cualquier cosa sin decir de dónde sale, y en este libro es constante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un punto que merece decirse entero. La idea de la perspectiva temporal se apoya en Edward Banfield y en un libro suyo de 1970 que sostenía que la manera de mirar al futuro explica quién prospera y quién no. Aquella obra se discutió muchísimo en su momento por explicar la pobreza con la mentalidad de los pobres antes que con sus condiciones, y aquí se cita como si fuera un hecho cerrado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso a la vista, lo que queda es un manual corto y bien ordenado que ha vendido más de dos millones de ejemplares y se ha traducido a decenas de idiomas, y cuyo valor está en la disciplina de las reglas y no en las explicaciones que las envuelven. Se lee en dos horas, y de las veintiuna técnicas que trae, con tres bien puestas ya se nota la diferencia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mañana, antes del correo y antes de nada, media hora con lo que más te pesa. Es la única de las veintiuna que hay que probar.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "traguese-sapo": TRAGUESE_SAPO,
   "codigo-da-vinci": CODIGO_DA_VINCI,
   "mujeres-lobos": MUJERES_LOBOS,
   "come-reza-ama": COME_REZA_AMA,

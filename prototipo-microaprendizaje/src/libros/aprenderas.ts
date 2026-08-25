@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "traguese-sapo":
+    "Nadie termina nunca su lista, porque cada tarea hecha genera dos nuevas. Tracy sostiene que entonces el trabajo no es hacer más deprisa, sino decidir qué se queda sin hacer para siempre.",
+
   "codigo-da-vinci":
     "El conservador del Louvre aparece muerto en la Gran Galería, desnudo y colocado como el Hombre de Vitruvio. Antes del primer capítulo hay una página titulada HECHO, y esa página es la que convirtió una novela de intriga en un fenómeno mundial.",
 
