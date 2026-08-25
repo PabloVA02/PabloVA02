@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "millonario-automatico": "Un plan poderoso y sencillo para vivir y acabar rico",
   "por-que-amamos": "Naturaleza y química del amor romántico",
   "poder-5-segundos": "Atrévete a cambiar tu vida en cinco segundos",
   "obtenga-el-si": "Cómo negociar sin ceder",

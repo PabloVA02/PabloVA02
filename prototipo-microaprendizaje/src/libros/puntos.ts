@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "millonario-automatico": [
+    "por qué los presupuestos se abandonan a los tres meses",
+    "en qué orden tiene que salir el dinero para que quede algo",
+    "qué gasto revisar primero, que no es el que todos dicen",
+    "cómo quitarle años a una hipoteca sin pagar más al mes",
+    "para qué sirve de verdad tener tres meses guardados",
+  ],
+
   "will-smith": [
     "por qué un objetivo grande no tiene por dónde empezarse",
     "qué se gana al contar lo que funciona en un oficio donde nadie cuenta",

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "millonario-automatico":
+    "Un matrimonio que ganaba cuarenta mil dólares al año se jubiló a los cincuenta y dos con dos casas pagadas y más de un millón ahorrado. Bach descubrió que no habían invertido bien: habían automatizado las transferencias treinta años antes.",
+
   "will-smith":
     "A los doce y nueve años, él y su hermano tardaron año y medio en levantar el muro que su padre había derribado. El libro explica una carrera entera desde dos escenas de infancia, y salió cuatro meses antes de los Óscar de 2022.",
 

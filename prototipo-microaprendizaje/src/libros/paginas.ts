@@ -71754,7 +71754,289 @@ const WILL_SMITH: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El millonario automático, en ocho páginas.
+
+   Breve. Libro práctico de dinero → afirmación entera en el rótulo y
+   SEGUNDA PERSONA en la caja (apartado 4.7).
+
+   ECONOMÍA: ninguna página sin una persona, una cifra o una fecha. Aquí eso
+   son los McIntyre, la aritmética de las veintiséis quincenas y el tanto por
+   ciento de rendimiento que el libro supone.
+
+   Riesgo principal: repetir el factor café sin la crítica. La aritmética es
+   correcta y el énfasis está mal, y las dos cosas hay que decirlas en la
+   misma página, no dejarlas para el final.
+
+   Y la conclusión trae el dato que lo decide: es de 2004 y empuja a comprar
+   vivienda como camino automático a la riqueza, justo antes de 2008.
+   -------------------------------------------------------------------------- */
+
+const MILLONARIO_AUTOMATICO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un plan de ahorro que dependa de tu voluntad ya ha fracasado" },
+      {
+        b: "texto",
+        texto:
+          "David Bach era asesor financiero y daba clases nocturnas cuando se le presentó un matrimonio de unos cincuenta años. Jim McIntyre había sido mando intermedio en una empresa de suministros y ganaba alrededor de cuarenta mil dólares al año; su mujer trabajaba de esteticista. No habían heredado nada ni habían tenido ningún golpe de suerte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tenían dos casas pagadas, ninguna deuda, dos hijos con la carrera terminada y más de un millón de dólares ahorrado. Él se había jubilado a los cincuenta y dos años. Cuando Bach les preguntó cómo lo habían hecho, la respuesta no incluía ninguna inversión inteligente ni ningún negocio: describieron un sistema de transferencias automáticas montado treinta años antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la afirmación que sostiene el libro entero, y va contra casi toda la literatura del asunto: no hace falta presupuesto, ni disciplina, ni ingresos altos, ni saber de inversiones. Hace falta que el dinero se mueva solo, porque cualquier plan que dependa de que uno se acuerde cada mes ya ha fallado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué los presupuestos no funcionan, en qué orden tiene que salir el dinero, la idea más famosa del libro y por qué es a la vez correcta y engañosa, un cambio en la forma de pagar la hipoteca que quita años, para qué sirve un colchón, y qué pasó con el consejo principal cuatro años después de publicarse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si tu plan de ahorro depende de que te acuerdes cada mes, no es un plan: son doce oportunidades al año de fallar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los presupuestos fracasan porque exigen tomar decisiones cuando peor se decide",
+      },
+      {
+        b: "texto",
+        texto:
+          "Además llega siempre en el peor momento posible. Las decisiones de gasto se toman al final del día, cansado, con hambre, con prisa o con los niños tirando de la manga, que es exactamente cuando peor decide cualquier persona. Un sistema que coloca la parte difícil justo ahí está mal diseñado, por muy bien hecha que esté la hoja de cálculo y por muy buena intención que se le ponga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Además llega en el peor momento. Las decisiones de gasto se toman al final del día, cansado, con hambre o con prisa, que es exactamente cuando peor decide cualquiera. Un sistema que sitúa la parte difícil ahí está mal diseñado, por muy bien hecha que esté la hoja de cálculo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su alternativa traslada la decisión al único momento en que se decide bien: una tarde tranquila, una sola vez. Se programan las transferencias, se firman los papeles y a partir de ahí el sistema funciona sin supervisión, incluidos los meses malos, las mudanzas y las semanas en que uno no quiere ni mirar la cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una ventaja psicológica que Bach subraya: lo que sale antes de llegar no se echa de menos. Quien nunca ve ese dinero en la cuenta corriente ajusta su nivel de vida al resto en dos meses, y el ahorro deja de sentirse como una renuncia repetida para convertirse en un dato del sueldo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Traslada la decisión difícil a una tarde tranquila y que la ejecute un banco: tú de noche y con prisa decides fatal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El dinero tiene que salir hacia tu ahorro antes de llegar a tu cuenta",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla que ordena el libro se llama págate a ti primero y significa algo muy literal: el ahorro no es lo que queda a final de mes, sino lo primero que sale, antes que el alquiler, antes que los recibos y antes de que el dinero toque la cuenta corriente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bach pone cifras y son útiles porque son escalones. Un diez por ciento del ingreso bruto es un principio decente. Un quince es una posición sólida. Un veinte es lo que él llama el nivel del millonario automático, y lo traduce a una imagen que se recuerda: apartar el equivalente a una hora de trabajo de cada jornada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo importante es el orden y no el porcentaje. Quien ahorra lo que sobra ahorra cero, porque el gasto se expande hasta llenar el ingreso disponible, y eso ocurre igual con dos mil euros al mes que con seis mil. Cuando el ahorro sale primero, el gasto se ajusta al resto sin que nadie tenga que decidir nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su recomendación para las subidas de sueldo es la que más resultado da con menos esfuerzo, y coincide con lo que dicen los demás libros del estante: subir el porcentaje el mismo día que sube el ingreso. Si se deja para más adelante, el nivel de vida ya se habrá comido la diferencia en dos o tres meses.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien ahorra lo que le sobra ahorra cero, porque el gasto crece hasta llenar exactamente lo que hay.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El factor café tiene bien la aritmética y mal el énfasis" },
+      {
+        b: "texto",
+        texto:
+          "La idea más famosa de Bach es que los gastos pequeños y diarios que nadie registra —el café, el tabaco, la comida fuera, la suscripción olvidada— suman una cantidad enorme al cabo de décadas si en vez de gastarse se invierten. La llamó el factor café y se convirtió en una expresión corriente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La aritmética es correcta en su mecánica: cinco euros al día son unos mil ochocientos al año, y una aportación así sostenida durante cuarenta años con rendimiento compuesto llega a una cifra considerable. Ahí no hay truco, y es una manera eficaz de hacer visible un gasto que no se ve porque nunca aparece junto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí hay que corregir es el número que usa. Sus ejemplos suponen rendimientos anuales de en torno al diez o el doce por ciento, muy por encima de lo que una cartera diversificada ha dado históricamente descontando la inflación. Con una hipótesis realista, las cifras finales que promete el libro se reducen a menos de la mitad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el énfasis está mal, que es la crítica seria y hay que hacerla aquí. Lo que se lleva el dinero de casi cualquier persona no es el café: es la vivienda, el transporte, el seguro y las cuotas fijas. Revisar una vez el alquiler o un préstamo mueve más dinero que dos años sin cafés, y el factor café ha servido sobre todo para responsabilizar a la gente de lo que no decide.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Revisar una vez tu vivienda, tu préstamo o tu seguro mueve más dinero que dos años renunciando a cosas pequeñas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Pagar la hipoteca cada dos semanas quita años sin que se note en el mes",
+      },
+      {
+        b: "texto",
+        texto:
+          "El truco más concreto del libro es de calendario y funciona por una casualidad del año. Consiste en pagar la mitad de la cuota de la hipoteca cada dos semanas en vez de la cuota entera cada mes, y su efecto viene de que un año tiene cincuenta y dos semanas y no cuarenta y ocho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cuenta es esta: veintiséis medias cuotas al año equivalen a trece cuotas mensuales completas, en lugar de las doce que se pagarían de la manera normal. Se está amortizando una cuota extra al año sin haber tomado ninguna decisión dolorosa, porque la cantidad que sale cada quincena es la mitad de lo que ya se pagaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto sobre un préstamo largo es grande, porque esa cuota adicional va casi entera contra el capital pendiente y reduce los intereses de todos los años siguientes. En una hipoteca a treinta años, según el tipo, adelanta el final entre cuatro y siete años y ahorra una cantidad de intereses que se cuenta en decenas de miles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene añadir dos avisos que el libro no da con la claridad suficiente. No todos los bancos ni todos los países admiten ese calendario, y a veces cobran por gestionarlo, con lo que la ventaja se evapora. Y en muchos sitios se consigue lo mismo, y más barato, haciendo una amortización parcial al año por tu cuenta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Veintiséis medias cuotas son trece cuotas al año en vez de doce, y esa de más se come entre cuatro y siete años de hipoteca.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El colchón no es un ahorro: es lo que impide que un imprevisto rompa el sistema",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bach separa con claridad dos cosas que mucha gente mezcla. El dinero invertido a largo plazo, que no se toca, y un colchón de emergencia, que tiene otra función y otras reglas: estar disponible, no dar rendimiento y no depender del valor de nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón de que el colchón vaya antes que cualquier inversión es de fontanería y no de prudencia. Quien no lo tiene y sufre una avería del coche, una baja laboral o un mes malo se ve obligado a sacar dinero de donde estaba invertido, y casi siempre en el peor momento posible, porque los meses malos personales tienden a coincidir con los meses en que todo el mundo está vendiendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón de que esto vaya antes que invertir es de fontanería. Quien no tiene colchón y sufre una avería, una baja o un mes malo tiene que sacar dinero de donde estaba invertido, y casi siempre en el peor momento posible, porque los meses malos personales tienden a coincidir con los meses malos de todo el mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un efecto que Bach describe bien y que no es financiero: tener tres meses guardados cambia las decisiones que uno puede tomar. Se puede rechazar un encargo malo, discutir una condición o dejar un trabajo insoportable, y esa libertad vale bastante más que el rendimiento que ese dinero habría dado en otro sitio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tres meses guardados no son rentabilidad: son la posibilidad de decir que no, y eso no lo da ninguna inversión.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro empuja a comprar vivienda, y ese consejo se puso a prueba en 2008",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento tiene una parte cierta y conviene concederla entera: una hipoteca es un ahorro forzoso, y esa es exactamente la clase de mecanismo automático que el libro predica en todas sus páginas. Cada cuota mensual convierte una parte del ingreso en patrimonio sin que haya que tomar ninguna decisión ni resistir ninguna tentación, que es la definición misma de lo que Bach propone.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento tiene una parte cierta: una hipoteca es un ahorro forzoso, y esa es exactamente la clase de mecanismo que el libro predica. Cada cuota mensual convierte una parte del ingreso en patrimonio sin que haya que decidir nada, que es la definición de automático.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que el capítulo no dice es que eso solo funciona si el precio pagado era razonable, si el préstamo es asumible y si no hay que vender en un mal momento. Comprar caro con un préstamo grande no es ahorro forzoso: es una posición apalancada sobre un activo que puede bajar, y el libro no distingue las dos situaciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La fecha importa mucho aquí. Este libro se publicó en 2004 y su autor defendió esa idea también en televisión durante los años siguientes, es decir, en el tramo final de la mayor burbuja inmobiliaria de la historia estadounidense. Millones de personas que siguieron ese consejo en 2005 o 2006 perdieron la casa o pasaron una década debiendo más de lo que valía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una hipoteca es ahorro forzoso solo si el precio era razonable: si no, es una apuesta con dinero prestado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Cuatro cosas de este libro aguantan y se pueden montar en una tarde. Que el ahorro salga antes de llegar a la cuenta, en un porcentaje fijo del bruto. Que el porcentaje suba el mismo día que suba el sueldo. El colchón de tres a seis meses de gastos, separado y sin tarjeta. Y la aritmética de las veintiséis quincenas, que quita años de hipoteca sin cambiar el esfuerzo mensual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en los números y en el énfasis. Sus ejemplos suponen rendimientos anuales muy por encima de lo históricamente razonable, y con hipótesis realistas las cifras finales bajan a menos de la mitad. Y el factor café dirige la atención a los gastos pequeños cuando lo que se lleva el dinero de casi todo el mundo son cuatro cuotas fijas grandes que casi nadie revisa nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla sobre todo en su consejo estrella. Un libro de 2004 que sitúa la compra de vivienda como el paso automático hacia la riqueza, sin distinguir entre comprar a un precio razonable y comprar caro con un préstamo grande, se publicó en el peor momento posible de la historia reciente para dar ese consejo, y muchísima gente lo siguió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después es que el libro siguió vendiéndose y actualizándose durante veinte años, con ediciones revisadas en 2016 y en años posteriores donde el capítulo de la vivienda aparece bastante más matizado que en el original. Bach publicó además en 2019 una versión en forma de novela corta de su idea más famosa, dedicada solo al factor café.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La fontanería del libro es buena y sigue sirviendo; los porcentajes que promete y el capítulo de la vivienda, no.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "millonario-automatico": MILLONARIO_AUTOMATICO,
   "will-smith": WILL_SMITH,
   "por-que-amamos": POR_QUE_AMAMOS,
   "poder-5-segundos": PODER_5_SEGUNDOS,
