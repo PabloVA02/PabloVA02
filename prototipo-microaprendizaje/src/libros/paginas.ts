@@ -64925,7 +64925,280 @@ const BECOMING: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Las 48 leyes del poder, en ocho páginas.
+
+   Breve. Ensayo → afirmación entera en el rótulo y tercera persona; la
+   caja del rayo es la idea de la página, NO un consejo en segunda persona:
+   aquí el tuteo convertiría el resumen en un manual de manipulación, que
+   es justo lo que el libro tiene de discutible.
+
+   Riesgo principal: hacer de altavoz. Se cuenta lo que sostiene y cómo lo
+   sostiene, y la conclusión dice quién lo lee y para qué, que es la parte
+   que el libro no cuenta de sí mismo.
+   -------------------------------------------------------------------------- */
+
+const LEYES_PODER_48: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro más pedido en las cárceles estadounidenses es un manual de estrategia",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robert Greene era guionista fracasado y había pasado por unos ochenta empleos cuando un editor le propuso escribir un manual sobre el poder. Salió en 1998, vendió millones de ejemplares y acabó en dos sitios que dicen mucho de él: los despachos de la industria del entretenimiento y las bibliotecas de las prisiones, donde figura entre los títulos más solicitados y en varios estados está prohibido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro son cuarenta y ocho reglas, cada una ilustrada con episodios históricos y con un caso en el que la regla se incumplió y salió mal. Los personajes se repiten: cortesanos de Luis XIV, Talleyrand, Bismarck, estafadores del siglo diecinueve, emperadores chinos, Kissinger.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su punto de partida es una afirmación que conviene tener clara desde el principio: el poder existe en toda relación humana, nadie escapa de él, y quien decide no jugar no queda fuera del juego, solo juega mal. De ahí que Greene rechace expresamente la posición moral que su propio material sugiere.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado es un libro incómodo de resumir, porque describe con precisión mecanismos reales y a la vez los presenta como instrucciones. Lo primero es útil incluso para quien no piense usarlo; lo segundo es lo que hay que mirar con distancia, y de eso trata la última página.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El que decide no jugar al poder no queda fuera del juego: juega sin saber las reglas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La primera regla es no eclipsar nunca a quien está por encima" },
+      {
+        b: "texto",
+        texto:
+          "La ley que abre el libro es la que más ejemplos históricos tiene detrás, y el caso que usa es el de Nicolas Fouquet, superintendente de finanzas de Luis XIV. Fouquet organizó en su castillo una fiesta espectacular para agasajar al rey, con fuegos artificiales y una obra de Molière estrenada esa noche.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al día siguiente fue detenido. El rey, que tenía veintitrés años y acababa de asumir el poder, no soportó que un subordinado tuviera un castillo mejor que el suyo. Fouquet pasó el resto de su vida en prisión, y Luis XIV contrató a sus arquitectos para construir Versalles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Greene generaliza el mecanismo: quien está arriba necesita sentirse el más brillante de la habitación, y quien lo desmiente en público paga por ello aunque tenga razón. La regla no dice que haya que ser mediocre, sino que los méritos hay que hacerlos parecer una consecuencia del jefe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la ley más fácil de comprobar en cualquier oficina y la que mejor explica carreras que se frenan sin motivo aparente. También es el mejor ejemplo de la ambigüedad del libro: describe un mecanismo cierto y a la vez recomienda halagar a un incompetente para sobrevivirle. Greene añade el detalle que convierte la anécdota en regla: el rey no actuó por envidia declarada, sino porque un subordinado le había enseñado, delante de toda la corte, que había alguien con más gusto que él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Al que manda no se le desmiente en público, aunque se tenga razón: sobre todo si se tiene razón.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El silencio produce más efecto que cualquier argumento" },
+      {
+        b: "texto",
+        texto:
+          "Varias leyes del libro giran alrededor de decir menos. Greene sostiene que quien habla mucho revela sus intenciones, se hace previsible y da munición; y que quien habla poco parece tener más de lo que tiene, porque el silencio se llena con lo que imagina el otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cita a Luis XIV otra vez, cuya frase entera ante una petición era «ya veré», sin más, y describe el efecto que producía en una corte entera pendiente de descifrarla. La ambigüedad, sostiene, es un instrumento de poder porque obliga al otro a trabajar.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Di menos de lo necesario", texto: "cuanto más hablas, más previsible y más corriente pareces." },
+          { fuerte: "No discutas: demuestra", texto: "ganar un argumento deja resentimiento; enseñar el resultado no admite réplica." },
+          { fuerte: "Oculta tus intenciones", texto: "quien sabe adónde vas puede ponerse en medio antes de que llegues." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás hay una observación que resiste bien fuera del contexto cortesano: casi nadie cambia de opinión porque le ganen una discusión. Greene lo dice con un ejemplo de Miguel Ángel, que ante un mecenas que criticó la nariz de su David fingió corregirla dejando caer polvo de mármol sin tocar la escultura. Y hay un límite que conviene poner: hablar poco funciona cuando se tiene algo detrás, y el que calla sin nada que enseñar solo parece ausente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ganar una discusión deja resentimiento; enseñar el resultado no admite respuesta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La reputación tarda años en construirse y se defiende como un territorio",
+      },
+      {
+        b: "texto",
+        texto:
+          "Greene dedica varias leyes a la reputación y la trata como el único activo que no se puede recomprar. Sostiene que se construye sobre una sola cualidad —la generosidad, la dureza, la honradez, la eficacia— y que conviene elegirla y repetirla hasta que se anticipe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El corolario es que un ataque a la reputación no se ignora. Aquí el libro se separa del consejo habitual de no responder: Greene sostiene que un rumor sin contestar se convierte en un hecho, y que la respuesta debe ser rápida y una sola vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una recomendación que atraviesa el libro entero: atacar la reputación del rival es más eficaz que atacar sus argumentos. Es de las líneas donde mejor se ve por qué el libro incomoda, porque describe una táctica real y frecuente sin ninguna reserva.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que usa es el de P. T. Barnum, el empresario de circo que construyó una fama de embaucador simpático y la explotó durante cuarenta años. Lo que Greene subraya no es el engaño sino la coherencia: Barnum nunca hizo nada que contradijera el personaje que había fabricado. Ese es el motivo por el que Greene insiste en que la reputación se elige y no se hereda: la que no se decide la escribe el primero que hable de ti.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una reputación se construye repitiendo una sola cualidad hasta que la gente la dé por hecha.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que se consigue gratis suele salir muy caro" },
+      {
+        b: "texto",
+        texto:
+          "Una de las leyes más prácticas del libro trata del dinero, y va contra la intuición de ahorrar. Greene sostiene que aceptar favores, descuentos y regalos crea obligaciones que se cobran en el peor momento, y que pagar el precio completo compra algo que casi no tiene precio: no deber nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo ilustra con la diferencia entre dos maneras de financiar el arte. Los mecenas del Renacimiento pagaban y exigían; los artistas que aceptaban favores encadenados acababan atados a una corte concreta. Y con el caso de Kissinger, que según cuenta pagaba siempre sus cuentas para no deber nada a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ley hermana es igual de contraintuitiva: ser generoso de manera selectiva y visible produce más lealtad que un favor pequeño y constante. Greene lo cuenta desde el lado frío —la generosidad como herramienta—, que es exactamente lo que hace que el libro dé grima y a la vez funcione.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene ponerle un límite que el libro no pone: esto describe muy bien las cortes y las organizaciones jerárquicas, y bastante peor a la gente que trabaja en equipo con sus iguales durante años. Ahí el que solo calcula deudas acaba solo, y eso está medido en otros libros del catálogo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un favor aceptado es una deuda que la cobra el otro, y la cobra cuando a él le convenga.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El poder tiene un final y casi nadie lo elige" },
+      {
+        b: "texto",
+        texto:
+          "Algunas de las leyes más útiles del libro tratan de saber parar, y son las que menos se citan. Greene insiste en que la victoria completa produce enemigos permanentes, que llevar un triunfo demasiado lejos lo deshace, y que hay que retirarse en el punto más alto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que utiliza es el de Napoleón, que ganó casi todo y siguió hasta Moscú. Y lo contrapone al de los generales romanos que celebraban su triunfo y volvían a su granja, dejando el cargo antes de que el cargo los devolviera con menos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ley del final es la única del libro que se contradice con todas las demás, y Greene lo sabe: recomienda no adoptar ninguna forma fija, no volverse previsible y no convertirse en el personaje que uno ha fabricado, porque un personaje conocido se puede anticipar y desmontar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí aparece la mejor idea del volumen y la que más se olvida: la rigidez es la debilidad. Quien lleva veinte años usando la misma táctica ya no tiene una estrategia, tiene una costumbre, y las costumbres las conocen todos los que están alrededor. La cita que usa es de Baltasar Gracián, el jesuita aragonés del que salen bastantes de sus leyes: retirarse a tiempo del juego es tan importante como jugarlo bien.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una táctica repetida veinte años deja de ser estrategia: se convierte en una costumbre previsible.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Sirve mucho más para reconocer las jugadas que para hacerlas" },
+      {
+        b: "texto",
+        texto:
+          "El uso sensato del libro es defensivo, y es el que sus lectores más citados reconocen. Leerlo enseña a nombrar movimientos que ocurren constantemente y que sin nombre pasan desapercibidos: el halago que precede a una petición, el favor que crea deuda, el rumor que se deja correr sin firmarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Puesto así, funciona como un catálogo de reconocimiento. Alguien que sabe que existe la ley de no eclipsar al superior entiende por qué su jefe reaccionó mal a una buena idea, y alguien que conoce la del favor gratuito mira dos veces una invitación que llega en el momento oportuno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aplicarlo en la dirección contraria tiene un coste que el libro no contabiliza. Casi todas sus tácticas funcionan en relaciones de un solo uso y en organizaciones cortesanas; en un equipo estable, quien las practica se queda sin nadie que le avise de nada, que es la peor posición posible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Greene ha respondido a esa objeción diciendo que él describe y no prescribe. Es una defensa a medias: el libro está escrito en imperativo, las leyes se enuncian como órdenes y el diseño imita un manual. Quien lo escribió sabía perfectamente cómo se iba a leer. Y hay una prueba sencilla para saber en qué lado se está usando el libro: si al terminar un movimiento hay que ocultarlo a la gente con la que trabajas, es que estaba en el otro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Conocer una jugada sirve sobre todo para verla venir, que es más valioso que ejecutarla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Las 48 leyes del poder describe cómo se ha comportado la gente que ha buscado y conservado influencia, desde las cortes europeas hasta la industria del entretenimiento. Sus mejores ideas son las menos vistosas: no eclipsar a quien manda, hablar menos, no aceptar favores, retirarse en lo alto y no volverse previsible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un vocabulario. Muchas de las cosas que describe ocurren todos los días en cualquier organización y no tienen nombre, y ponerles nombre permite verlas venir. Como manual defensivo es de los libros más útiles del estante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en el método histórico. Los ejemplos están elegidos después de saber cómo acabó cada historia, no hay ni un caso en el que la ley se cumpliera y el resultado fuera malo, y varias anécdotas están contadas en la versión más redonda y no en la mejor documentada. Es persuasión, no demostración.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en lo que decide no mirar. El libro no se pregunta nunca qué clase de vida se construye siguiéndolo, ni qué pasa con las relaciones de alguien que trata cada conversación como una partida. Que sea uno de los libros más pedidos en las prisiones estadounidenses —y prohibido en varias— dice algo que él no dice de sí mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Publicado en 1998, ha vendido varios millones de ejemplares y se hizo famoso en la industria musical estadounidense, donde varios artistas lo citaron como libro de cabecera. Greene siguió con volúmenes sobre la seducción, la guerra, la maestría y la naturaleza humana, y este sigue siendo el más leído y el que peor envejece cuando el lector se hace mayor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro que describe bien un mecanismo no está diciéndote que lo uses, aunque esté escrito en imperativo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "48-leyes-poder": LEYES_PODER_48,
   becoming: BECOMING,
   "inteligencia-erotica": INTELIGENCIA_EROTICA,
   determinacion: DETERMINACION,

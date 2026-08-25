@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "48-leyes-poder": [
+    "por qué no conviene eclipsar nunca a quien está por encima",
+    "por qué el silencio produce más efecto que un argumento",
+    "cómo se construye una reputación y cómo se defiende",
+    "por qué lo que consigues gratis acaba saliendo caro",
+    "por qué la rigidez es la mayor debilidad posible",
+  ],
+
   becoming: [
     "qué decide de verdad el futuro de un niño sin recursos",
     "cómo se contesta a quien duda de que valgas",

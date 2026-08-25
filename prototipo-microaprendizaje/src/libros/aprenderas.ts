@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "48-leyes-poder":
+    "Cuarenta y ocho reglas sacadas de cortesanos, estrategas y estafadores, con el episodio histórico de cada una. Es a la vez un catálogo excelente para reconocer jugadas y un manual incómodo para hacerlas.",
+
   becoming:
     "De un piso dividido con un tabique en Chicago a la Casa Blanca. Su tesis es que nadie termina de hacerse, y lo cuenta con las cuentas delante: lo que ganaba, lo que dejó y lo que costó.",
 
