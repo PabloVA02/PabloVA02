@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "mente-justos": "Por qué la política y la religión dividen a la gente sensata",
   "cinco-disfunciones": "Un inteligente modelo para formar un equipo cohesionado y eficaz",
   "empresas-sobresalen": "Por qué algunas sí pueden mejorar la rentabilidad y otras no",
   "traguese-sapo": "21 buenas formas de acabar con la procrastinación",

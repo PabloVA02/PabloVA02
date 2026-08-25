@@ -82581,7 +82581,300 @@ const CINCO_DISFUNCIONES: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La mente de los justos, en ocho paginas.
+
+   Breve. ENSAYO DE CIENCIA -> afirmacion entera en el rotulo y TERCERA PERSONA
+   en la caja (apartado 4.7). Aqui la segunda persona sonaria a sermon, que es
+   justo de lo que trata el libro.
+
+   Seis argumentos: el elefante y el jinete, la razon como abogado, los seis
+   fundamentos, las sociedades RARAS, la moral que une y ciega, y la religion
+   como tecnologia de cohesion.
+
+   Lo concreto: los experimentos de perplejidad moral, el anillo de Giges de
+   Platon, el acronimo de Henrich, el noventa por ciento chimpance y el diez por
+   ciento abeja.
+
+   La conclusion: el cuestionario de los seis fundamentos no replica limpio, la
+   seleccion de grupo es una postura discutida que aqui se presenta con mas
+   seguridad de la que tiene el campo, y el alegato de civismo de 2012 ha
+   envejecido.
+   -------------------------------------------------------------------------- */
+
+const MENTE_JUSTOS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La gente juzga primero y busca las razones después, y está convencida de que lo hace al revés",
+      },
+      {
+        b: "texto",
+        texto:
+          "Jonathan Haidt es psicólogo social y lleva desde los años noventa haciendo un experimento que da siempre el mismo resultado. Se cuenta una historia deliberadamente rara: dos hermanos adultos, de viaje, deciden acostarse una vez, con dos métodos anticonceptivos, en secreto, y les sale bien y refuerza su relación. Después se pregunta si estuvo mal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Casi todo el mundo dice que sí, inmediatamente. Y cuando se les piden razones, salen argumentos que la propia historia ya ha descartado: los hijos, el daño, el secreto. Cuando se le cierran todas las salidas, la persona no cambia de opinión: dice que no sabe explicarlo, que sabe que está mal y ya está. Haidt lo llama «perplejidad moral».",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la afirmación que sostiene el libro y que Haidt publicó en 2012 después de veinte años de trabajo. El juicio moral no es el resultado de un razonamiento: llega antes, deprisa y de una pieza, y el razonamiento aparece después para justificarlo. La sensación de haber pensado la conclusión es una reconstrucción y ocurre siempre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre la imagen con la que explica esa relación, por qué discutir de política casi nunca convence a nadie, cuántas cosas distintas cuentan como moral según a quién se pregunte, por qué la psicología se estudió durante décadas con las personas menos representativas del planeta, qué gana un grupo con una moral compartida y qué le cuesta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un juicio moral llega antes que sus razones. Las razones se buscan después, y el que las busca cree sinceramente que las tenía.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La intuición es un elefante y la razón un jinete pequeño que casi nunca decide el camino",
+      },
+      {
+        b: "texto",
+        texto:
+          "La imagen con la que Haidt explica su tesis es la más citada de toda su obra. La mente funciona como un elefante con un jinete encima. El elefante es la intuición: rápido, potente, entrenado por la evolución y por la costumbre, y se inclina hacia un lado o hacia otro antes de que nadie pregunte nada. El jinete es la razón consciente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo importante es el tamaño. El jinete no manda sobre el elefante; puede sugerir, puede razonar y puede, con paciencia, ir cambiando su dirección a largo plazo. Pero si el elefante se inclina, el jinete no lo endereza discutiendo. Haidt insiste en que no es un modelo pesimista: describe qué se puede hacer y qué no con un argumento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El trabajo real del jinete, según los datos que recoge, es otro: explicar hacia fuera. Es un portavoz. Su función es producir justificaciones aceptables de lo que el elefante ya ha decidido, y en eso es extraordinariamente bueno y rapidísimo. Haidt lo llama abogado y no juez, y dice que un abogado no cambia de bando cuando le presentan una prueba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una consecuencia práctica que atraviesa el libro entero. Si se quiere mover a alguien, hablarle al jinete no sirve de casi nada, porque el jinete contestará con argumentos. Lo que mueve el elefante es otra cosa: la simpatía, el ejemplo de gente parecida, la experiencia directa y el tiempo. Los argumentos funcionan sobre todo entre personas que ya se caen bien.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El razonamiento no es un juez que decide: es un abogado que defiende lo que la intuición ya eligió, y lo hace muy deprisa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La razón individual es mala buscando la verdad y buena buscando aliados, y ahí funciona muy bien",
+      },
+      {
+        b: "texto",
+        texto:
+          "Haidt se apoya en Platón para nombrar un problema viejo. En La República, Glaucón propone un experimento mental: si alguien tuviera un anillo que le hiciera invisible, ¿seguiría comportándose bien? Su respuesta es que no, y que las personas no buscan ser buenas sino parecerlo, porque lo que se paga y se cobra en la vida social es la reputación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Haidt sostiene que Glaucón tenía razón y que eso explica el diseño de la mente moral. Nuestro razonamiento no evolucionó para averiguar qué es verdad, sino para defender nuestra posición ante los demás y quedar bien. Visto así, deja de ser un mal instrumento defectuoso y pasa a ser un instrumento excelente para otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El apoyo experimental que recoge es abundante y reconocible. Las personas dedican mucho más esfuerzo a buscar pruebas a favor de lo que ya creen que a buscarlas en contra, y ante algo que contradice su postura se preguntan si están obligadas a creerlo, mientras que ante algo que la confirma se preguntan si pueden creerlo. La pregunta cambia y el resultado también.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la parte más útil del libro para la vida corriente. Un individuo solo casi nunca corrige sus propios errores; lo que funciona son grupos donde la gente piensa distinto y se lleva lo bastante bien como para señalarse los fallos. La ciencia y los tribunales, dice Haidt, no funcionan porque sus miembros sean racionales, sino porque están montados para que unos revisen a otros.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie corrige solo sus propios errores. Los corrigen grupos donde se piensa distinto y se toleran lo suficiente para decírselo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La moral no se reduce a no hacer daño y a ser justo: hay al menos seis cosas en juego",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda parte del libro presenta lo que Haidt y sus colegas llaman fundamentos morales, y sostienen que son varios y no uno. El primero es el cuidado y el rechazo del daño. El segundo, la justicia y el rechazo del engaño. Hasta aquí, la moral que reconoce cualquier manual occidental de filosofía moral del siglo XX.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los otros cuatro son los que provocan la discusión. La lealtad al propio grupo y el rechazo de la traición. La autoridad legítima y el rechazo de la subversión. La santidad y el rechazo de lo degradante, que es la que explica por qué hay cosas que repugnan sin dañar a nadie. Y la libertad frente a la opresión, que añadieron después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hallazgo que hizo famoso el libro es cómo se reparten. Según sus cuestionarios, quienes se identifican con la izquierda apoyan sus juicios sobre todo en los dos primeros, mientras que quienes se identifican con la derecha usan los seis de manera más repartida. Haidt lo presenta como una diferencia de paladar y no de calidad moral.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia que saca es la que le interesaba desde el principio, y él mismo cuenta que le cambió su propia postura política. Cuando un bando no reconoce como morales los fundamentos del otro, interpreta sus posiciones como egoísmo o como estupidez, y a partir de ahí no hay conversación posible. Cada uno cree estar discutiendo con alguien que no tiene moral.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie defiende una postura por egoísmo. La defiende con fundamentos morales que el otro bando no reconoce como morales.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La psicología estudió durante décadas a las personas menos representativas del planeta",
+      },
+      {
+        b: "texto",
+        texto:
+          "Haidt dedica un tramo a una crítica que no es suya pero que usa a fondo. El antropólogo Joseph Henrich y sus colegas señalaron en 2010 que la inmensa mayoría de los estudios de psicología se hacía con estudiantes universitarios de países occidentales, y que ese grupo es raro en el sentido estadístico: está en un extremo de casi todas las distribuciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El acrónimo que usaron en inglés significa occidental, educado, industrializado, rico y democrático, y forma la palabra «raro», que era exactamente el chiste. Haidt lo aplica a la moral: cuanto más encaja alguien en ese perfil, más tiende a pensar en individuos separados y en derechos, y menos en relaciones, grupos y obligaciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su propia experiencia es el ejemplo que da. Haidt pasó tres meses investigando en Bhubaneswar, en la India, y describe el choque de entrar en una moral organizada alrededor de la familia, la jerarquía y la pureza, donde muchas de las cosas que a él le parecían opresivas tenían para la gente de allí un sentido que podía explicar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que saca es metodológica y bastante seria. Si una teoría de la moral se construye preguntando solo a personas de ese perfil, describirá su moral y no la moral, y llamará inmadura o irracional a la de la mayor parte de la humanidad. Es la razón por la que Haidt sostiene que la psicología moral tenía que empezar otra vez.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi toda la psicología se ha hecho con universitarios occidentales, que son el grupo más raro del planeta en casi todas las medidas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una moral compartida convierte a un grupo en un equipo y a la vez lo vuelve ciego",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera parte del libro es la más discutida. Haidt sostiene que los seres humanos son sobre todo individuos que compiten entre sí, y en una pequeña parte criaturas capaces de fundirse en un grupo y actuar como uno solo. Su fórmula es que somos noventa por ciento chimpancés y diez por ciento abejas, y que ese diez por ciento explica casi todo lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Llama «interruptor de la colmena» a la capacidad de dejar de ser uno mismo durante un rato y sentirse parte de algo mayor. Lo describe en sitios muy distintos: un estadio, una manifestación, un coro, una ceremonia religiosa, un ejército, un concierto, una ola humana en las gradas. Y sostiene que las personas buscan esa experiencia y la recuerdan durante años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que le interesa es la función. Un grupo capaz de encenderse así coopera mucho mejor que uno que no puede, y compite mejor contra otros grupos. La moral compartida es lo que permite ese encendido: reglas, símbolos, rituales y enemigos comunes que hacen que muchos desconocidos se comporten como si fueran uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale el título de esa parte, que resume el libro entero: la moral une y ciega. Lo mismo que hace posible la cooperación a gran escala hace imposible ver los argumentos de fuera. Un grupo moralmente cohesionado no discute mal por casualidad: discute mal porque su cohesión depende de que ciertas cosas no se puedan pensar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que hace que un grupo coopere es lo mismo que le impide escuchar. La cohesión se paga con la parte que no se puede pensar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La religión no se explica por lo que la gente cree, sino por lo que hace hacer a la gente junta",
+      },
+      {
+        b: "texto",
+        texto:
+          "Haidt aplica lo anterior a la religión y se separa de la explicación que estaba de moda cuando escribía. La versión corriente decía que la religión es un subproducto accidental de la mente, un error de detección de agentes, y que sus creencias son falsas y por tanto el fenómeno queda explicado. Haidt sostiene que eso mira el sitio equivocado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es que lo importante de una religión no son sus proposiciones sino sus prácticas: comer juntos, cantar a la vez, guardar días, prohibirse cosas, reunirse cada semana. Y que esas prácticas producen algo medible, que es la disposición a cooperar y a sacrificarse por desconocidos que llevan la misma marca. Es lo que llama una tecnología de cohesión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cierra con un concepto que le sirve para hablar de política sin hablar de partidos: el capital moral. Es el conjunto de normas, costumbres e instituciones que hacen que en una sociedad la gente coopere sin vigilarse todo el tiempo. Sostiene que es difícil de construir, fácil de destruir e invisible mientras funciona, como la fontanería de una casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su alegato final es de convivencia y explica el subtítulo del libro. Si cada bando tiene fundamentos morales reales y ninguno tiene el paladar completo, entonces la discusión pública no es una batalla entre gente buena y gente mala, sino entre dos maneras incompletas de mirar. Haidt pide, literalmente, empezar por reconocer que el otro tiene razón en algo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que sostiene a una religión no son sus creencias, sino lo que hace hacer a la gente junta y con qué frecuencia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que mejor aguanta de este libro son tres cosas. Que el juicio llega antes que sus razones, comprobado con experimentos que se pueden repetir en una sobremesa. Que discutir con argumentos funciona sobre todo entre personas que ya se toleran. Y que ningún individuo corrige solo sus errores, de modo que la fiabilidad no está en las personas sino en cómo están organizadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en su pieza más famosa. El cuestionario con el que se miden los seis fundamentos no se comporta limpiamente: al analizar sus datos, la estructura de seis factores no siempre reaparece, y varios reanálisis los reducen a dos o tres. Haidt presenta los seis como una anatomía descubierta y son, de momento, una hipótesis con una medición discutida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en la biología de la última parte. La selección de grupo —la idea de que la evolución premia a grupos enteros y no solo a individuos— es una postura minoritaria y muy debatida entre biólogos evolutivos, y el libro la usa con bastante más seguridad de la que el campo le concede. Varios científicos se lo discutieron en público al salir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el alegato de 2012 ha envejecido a la vista de todos. Haidt supone dos bandos con morales coherentes que se malinterpretan, y pide civismo. Lo que vino después en la vida pública de su país complicó bastante esa descripción. Él siguió por ahí: fundó en 2015 una asociación por la diversidad de opinión en las universidades y publicó dos libros más sobre lo mismo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La prueba más barata del libro cabe en una cena: pedirle a alguien las razones de un juicio moral suyo y ver cuántas aguantan.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "mente-justos": MENTE_JUSTOS,
   "cinco-disfunciones": CINCO_DISFUNCIONES,
   "empresas-sobresalen": EMPRESAS_SOBRESALEN,
   "traguese-sapo": TRAGUESE_SAPO,

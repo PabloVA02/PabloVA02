@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "mente-justos":
+    "Haidt lleva desde los años noventa contando historias moralmente incómodas y pidiendo razones. La gente condena al instante y después no sabe explicar por qué, aunque esté segura de tenerlo claro.",
+
   "cinco-disfunciones":
     "Una empresa con más dinero, mejores currículos y mejor consejo que sus rivales va perdiendo en todo, y su comité de dirección se reúne con puntualidad y no discute nunca. Lencioni lo cuenta como novela y deja el modelo para el final.",
 

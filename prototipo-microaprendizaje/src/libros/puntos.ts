@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "mente-justos": [
+    "por qué un juicio moral llega antes que sus razones",
+    "qué mueve de verdad a alguien, ya que no es el argumento",
+    "cuántas cosas distintas cuenta la gente como moral",
+    "con quién se ha hecho casi toda la psicología, y por qué importa",
+    "qué precio paga un grupo por estar moralmente unido",
+  ],
+
   "cinco-disfunciones": [
     "qué está pasando cuando en una reunión no discute nadie",
     "qué clase de confianza sostiene a un equipo, que no es fiarse",
