@@ -65091,7 +65091,7 @@ const LEYES_PODER_48: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Conviene ponerle un límite que el libro no pone: esto describe muy bien las cortes y las organizaciones jerárquicas, y bastante peor a la gente que trabaja en equipo con sus iguales durante años. Ahí el que solo calcula deudas acaba solo, y eso está medido en otros libros del catálogo.",
+          "Conviene ponerle un límite que el libro no pone: esto describe muy bien las cortes y las organizaciones jerárquicas, y bastante peor a la gente que trabaja en equipo con sus iguales durante años. Ahí el que solo calcula deudas acaba solo, y eso está medido en otros libros del catálogo. Kissinger llegó a devolver regalos protocolarios que otros aceptaban sin pensarlo dos veces.",
       },
       {
         b: "idea",
