@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "mujeres-aman-demasiado": [
+    "qué significa que la gente estable te resulte aburrida",
+    "por qué lo conocido se reconoce como amor aunque fuera caótico",
+    "qué tapa la costumbre de ocuparse de los problemas de otro",
+    "cómo contar el patrón con un calendario en vez de con la memoria",
+    "por qué llamarlo adicción traslada la responsabilidad de lado",
+  ],
+
   "revolucion-glucosa": [
     "por qué el mismo plato en otro orden entra más despacio en la sangre",
     "qué hace una cucharada de vinagre antes de una comida",

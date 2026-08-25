@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "mujeres-aman-demasiado":
+    "Norwood trabajaba en tratamiento de adicciones y aplicó ese modelo al amor. El patrón que describe existe y es reconocible; el nombre que le pone importa, porque decide qué se hace después, y hoy se describe bastante mejor.",
+
   "revolucion-glucosa":
     "Tres de sus trucos están medidos en ensayos publicados y funcionan: el orden de los alimentos, el vinagre y el paseo después de comer. Lo que se cuelga encima —el acné, las arrugas, la niebla mental— no tiene ese respaldo.",
 

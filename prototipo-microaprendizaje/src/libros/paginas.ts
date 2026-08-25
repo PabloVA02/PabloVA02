@@ -76791,7 +76791,271 @@ const REVOLUCION_GLUCOSA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Mujeres que aman demasiado, en ocho páginas.
+
+   Breve. Libro práctico → afirmación entera en el rótulo y SEGUNDA PERSONA
+   en la caja (apartado 4.7), sobria y sin una sola exclamación.
+
+   Riesgo principal: repetir el marco. Es de 1985, atribuye el patrón a las
+   mujeres y el problema a los hombres, y llama adicción a algo que no lo
+   es. Eso se dice en su página, no solo al final, y se pone al lado lo que
+   hoy describe mejor lo mismo: el apego adulto, que no tiene sexo asignado
+   y está en este catálogo con «Maneras de amar».
+
+   Lo que se salva y hay que sacar limpio: la observación de que una persona
+   estable se registra como aburrida, que es el mejor indicador del libro.
+   -------------------------------------------------------------------------- */
+
+const MUJERES_AMAN_DEMASIADO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro describe una conducta que se repite y le pone un nombre que no le corresponde",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robin Norwood era terapeuta familiar en California y trabajaba en tratamiento de adicciones cuando publicó esto en 1985. De ahí viene todo su vocabulario: aplicó al amor el modelo que usaba con el alcoholismo, incluidos la negación, el tocar fondo y un programa de recuperación con grupo de apoyo al final.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que describe es un patrón que sí existe y que cualquiera reconoce: personas que se enamoran una y otra vez de alguien inestable, distante o con problemas serios, que se pasan la relación intentando arreglarle, y que al terminar una encuentran a otro con el mismo perfil sin proponérselo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre la señal más fiable de todo el libro, por qué el caos puede sentirse como casa y buscarse sin querer, qué esconde el impulso de ayudar al otro, la lista de conductas observables que lo hizo famoso, qué falla exactamente en el marco de la adicción, y cómo se describe hoy lo mismo con herramientas bastante mejores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre la señal más fiable de todo el libro, por qué el caos puede sentirse como casa, qué esconde el impulso de ayudar, la lista de conductas observables, qué falla en el marco de la adicción, y cómo se describe hoy lo mismo con mejores herramientas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El patrón que describe existe y es reconocible; el nombre que le pone importa, porque decide qué se hace después.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La señal más fiable es que la gente tranquila te resulte aburrida" },
+      {
+        b: "texto",
+        texto:
+          "De toda la lista del libro, la observación que más gente reconoce y la que mejor funciona como indicador es la última: que las personas amables, estables, disponibles y claramente interesadas no resultan atractivas, y que a menudo se describen con la palabra aburridas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es un dato de una precisión considerable porque no depende de interpretar nada. No hace falta decidir si una relación es sana o si uno depende demasiado: basta con notar a quién se descarta. Si la gente que trata bien produce indiferencia y la que trata mal produce interés, eso ya está diciendo algo sobre qué se está buscando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una advertencia práctica que conviene retener: ese aburrimiento no se corrige razonando, porque no es una opinión sobre esa persona ni un juicio sobre sus méritos. Lo que suele funcionar es lo contrario de lo que se hace por instinto: quedarse un tiempo con la sensación de que no está pasando nada, en vez de salir corriendo a buscar algo que sí se sienta como algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una advertencia práctica: ese aburrimiento no se corrige razonando, porque no es una opinión sobre esa persona. Lo que suele funcionar es lo contrario de lo que se hace: quedarse un tiempo con la sensación de que no pasa nada, en vez de salir corriendo a buscar algo que sí se sienta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Fíjate en a quién descartas: si la gente que te trata bien te aburre, eso ya te está diciendo qué estás buscando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El caos puede sentirse como casa, y por eso se busca sin querer" },
+      {
+        b: "texto",
+        texto:
+          "La explicación de fondo del libro es de familiaridad y no de gusto. Alguien que creció en una casa donde el afecto era imprevisible —un padre alcohólico, una madre que unos días estaba y otros no, gritos y reconciliaciones— aprendió a asociar el amor con ese ritmo concreto, y no con la calma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo importante es que eso no se elige ni se sabe. Nadie decide buscar problemas: lo que ocurre es que lo conocido se reconoce inmediatamente y lo desconocido no, aunque lo desconocido sea mejor. Una relación tranquila puede resultar incómoda simplemente por no tener la forma que uno aprendió a llamar amor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Norwood añade una pieza que se comprueba en cualquier historia: en una casa así, el niño aprende también que su función es arreglar cosas. Estar atento al humor del adulto, calmarlo, adelantarse a lo que va a pasar. Eso se convierte en una habilidad muy desarrollada, y las habilidades desarrolladas buscan dónde ejercerse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la única explicación del libro que no necesita ninguna teoría de la adicción: quien es muy bueno cuidando a alguien difícil va a sentirse útil, competente y en su sitio con alguien difícil, y va a sentirse innecesario con alguien que está bien. La sensación de sobrar no es tranquilidad, es desempleo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo conocido se reconoce enseguida y lo bueno no: una relación tranquila puede incomodar solo por no tener la forma aprendida.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ayudarle a él es a menudo la manera de no mirarse a uno mismo" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más incómodo del libro trata del impulso de arreglar al otro, y no lo trata como generosidad. Norwood sostiene que ocuparse a jornada completa de los problemas de alguien es una manera muy eficaz de no ocuparse de los propios, y que además tiene todas las apariencias de una virtud.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su descripción es reconocible. Mientras hay una crisis ajena que atender —una recaída, un trabajo perdido, una discusión con su familia—, no hay tiempo ni cabeza para preguntarse qué quiere uno hacer con su vida, si el trabajo compensa o si esa relación va a alguna parte. La urgencia del otro tapa la propia falta de dirección.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La corrección que propone es de orden y no de dureza, y hay que entenderla bien: dejar de trabajar a jornada completa en la vida del otro y empezar a trabajar en la propia, sin esperar a que él cambie y sin poner su cambio como condición de nada. No se trata de abandonar a nadie ni de dejar de querer; se trata de dejar de tener un proyecto vital que consiste enteramente en otra persona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La corrección que propone es de orden y no de dureza: dejar de trabajar en la vida del otro y empezar a trabajar en la propia, sin esperar a que él cambie y sin usarlo como condición. No es abandonar a nadie; es dejar de tener un proyecto que consiste enteramente en otra persona.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mientras haya una crisis ajena que atender, no hay tiempo ni cabeza para preguntarte qué quieres hacer con tu vida.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La lista del libro sirve porque son conductas y no sentimientos" },
+      {
+        b: "texto",
+        texto:
+          "Lo que hizo famoso a este libro es una lista de rasgos, y su utilidad está en que casi todos son cosas que se hacen y se pueden contar, no cosas que se sienten y hay que interpretar. Puestas juntas describen un funcionamiento completo:",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Asumes más de la mitad", texto: "de la responsabilidad, de la culpa y del trabajo de la relación, y lo haces sin que nadie te lo pida." },
+          { fuerte: "Nada te parece demasiado", texto: "si sirve para ayudarle: ni el tiempo, ni el dinero, ni el trastorno que suponga en tu vida." },
+          { fuerte: "Estás dispuesta a esperar", texto: "porque estás acostumbrada a que el cariño escasee, así que aguantas, confías y lo intentas con más fuerza." },
+          { fuerte: "Vives en cómo podría ser", texto: "más que en cómo es. Defiendes una versión futura de esa persona que todavía no existe y quizá no exista nunca." },
+          { fuerte: "Necesitas controlar", texto: "sus horarios, su ánimo, sus decisiones, y lo llamas preocuparte porque desde dentro se parece mucho." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "La manera de usar esa lista es con un calendario y no con la memoria. Cuántas veces en los últimos tres meses se ha cambiado un plan propio por él; cuánto dinero ha salido en un año; cuántas conversaciones han terminado con una disculpa que no tocaba. Los números son incómodos y no admiten discusión.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuenta con el calendario delante, no con la memoria: los números de tres meses no admiten discusión.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Llamarlo adicción explica poco y trae dos problemas serios" },
+      {
+        b: "texto",
+        texto:
+          "El marco del libro es el del alcoholismo trasladado entero: hay una sustancia —la relación—, una negación, un fondo que hay que tocar, una impotencia que hay que admitir y una recuperación que dura toda la vida. Norwood venía de ese mundo profesional y lo aplicó tal cual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer problema es que no es un diagnóstico. La adicción a las relaciones no figura en los manuales que usan los clínicos, no tiene criterios acordados ni pruebas que la establezcan como entidad, y aquí funciona como una metáfora ocupando el sitio de una explicación. Suena a mecanismo y no lo es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo es más grave. Decirle a alguien que está en una relación en la que le tratan mal que su problema es una adicción propia traslada la responsabilidad al lado equivocado. Norwood dice expresamente que hay que salir de las situaciones peligrosas, pero el marco general del libro sitúa lo que hay que tratar en la persona que lo sufre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y trae una consecuencia práctica del modelo de doce pasos que conviene señalar: la idea de admitir la propia impotencia, que en el alcoholismo tiene un sentido concreto, aquí empuja a alguien que ya se siente sin control a confirmarse que no lo tiene. La salida de estas relaciones exige lo contrario.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que te traten mal no es una adicción tuya, y llamarlo así traslada la responsabilidad exactamente al lado equivocado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo mismo está descrito hoy mejor, y sin repartirlo por sexos" },
+      {
+        b: "texto",
+        texto:
+          "El libro es de 1985 y atribuye el patrón entero a las mujeres, hasta en el título. Los hombres aparecen en él casi siempre como el problema: alcohólicos, ausentes, infieles o violentos, y prácticamente nunca como alguien con el mismo funcionamiento. Eso no era una descripción de la realidad; era el reparto de papeles de su época.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La investigación sobre vínculos adultos, desarrollada desde los años ochenta, describe lo mismo con más precisión y sin asignarlo a ningún sexo. Habla de tres maneras de vincularse: la segura, la ansiosa —que corresponde casi punto por punto a lo que describe este libro— y la evitativa, que es la de la persona que en estas historias aparece como el hombre inalcanzable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese cambio de marco tiene una consecuencia que mejora mucho el pronóstico. Deja de haber una persona enferma y otra que la enferma: hay dos maneras de vincularse que encajan entre sí de la peor forma posible, porque quien teme el abandono persigue y quien teme la cercanía se aleja, y cada uno confirma el miedo del otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y sobre todo cambia la salida. En el marco de la adicción, lo que toca es abstenerse y recuperarse durante años; en el del apego, lo que toca es aprender a vincularse de otra manera, cosa que se ha medido y que ocurre con más frecuencia de la que este libro sugiere, muchas veces simplemente al estar mucho tiempo con alguien seguro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hay uno enfermo y otro que le enferma: hay dos maneras de vincularse que encajan de la peor forma posible.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que se lleva alguien de aquí son tres cosas. La señal de a quién se descarta: si la gente estable aburre, eso es un dato y no una preferencia. La idea de que lo conocido se reconoce como amor aunque fuera caótico. Y la lista de conductas, que sirve porque se cuenta con un calendario y no se discute.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en el nombre. Llamar adicción a esto no es una manera de hablar: importa el nombre porque decide qué se hace después. No existe como diagnóstico, no tiene criterios ni pruebas, y arrastra del modelo del alcoholismo la idea de admitir la propia impotencia, que empuja en la dirección contraria a la que hace falta para salir de una relación así.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en el reparto de papeles. Es de 1985 y sitúa el patrón en las mujeres y el problema en los hombres, con lo que deja fuera a la mitad de las personas que funcionan igual y exime a la otra mitad de mirarse. Tampoco hay en el libro ni un estudio, ni una cifra, ni un seguimiento: son historias de su propia consulta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después fue que este libro nombró algo que no tenía nombre, vendió millones de ejemplares y montó grupos de apoyo por medio mundo, y que su marco quedó superado en la práctica clínica por la teoría del apego, que describe lo mismo con tipos definidos, medidas y estudios de seguimiento. Norwood publicó una continuación con cartas de sus lectoras en 1988 y después se retiró casi por completo de la vida pública.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nombró algo que nadie había nombrado, y lo nombró mal: el patrón es real y la palabra adicción sobra.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "mujeres-aman-demasiado": MUJERES_AMAN_DEMASIADO,
   "revolucion-glucosa": REVOLUCION_GLUCOSA,
   "poder-de-la-presencia": PODER_DE_LA_PRESENCIA,
   "conversaciones-cruciales": CONVERSACIONES_CRUCIALES,
