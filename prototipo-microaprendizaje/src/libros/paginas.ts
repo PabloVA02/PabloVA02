@@ -68139,7 +68139,271 @@ const RELENTLESS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Correr o morir, de Kilian Jornet, en ocho páginas.
+
+   Breve. Memoria narrativa → apartado 3 bis: título corto de imagen en el
+   rótulo, la afirmación en la primera frase, y la caja del rayo en segunda
+   persona sacando de la escena una lección. El modelo es
+   `referencia/odisea/`.
+
+   No es de los del apartado 4 bis: no está escrito desde una desgracia, así
+   que la segunda persona está bien.
+
+   Riesgo principal: la postal de montaña. Se evita con lo concreto: el
+   refugio de Cap del Rec, los 168 kilómetros y los 10.000 metros de desnivel
+   del Mont Blanc, y la fisiología medida.
+
+   Y la conclusión tiene que traer lo que pasó DESPUÉS, que es casi todo:
+   el libro es de 2011 y lo que le hizo famoso vino después, incluido el
+   Everest de 2017 y su discusión.
+   -------------------------------------------------------------------------- */
+
+const CORRER_O_MORIR: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El refugio de Cap del Rec" },
+      {
+        b: "texto",
+        texto:
+          "La biografía explica más de este libro que cualquier plan de entrenamiento. Kilian Jornet nació en Sabadell en 1987 y creció en un refugio de montaña de la Cerdaña, en los Pirineos catalanes, a unos mil novecientos metros de altitud, donde su padre era el guarda y su madre daba clase.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso significa que se crio en el sitio al que los demás van los fines de semana. Para él, la nieve no era una excursión ni el desnivel un obstáculo: era el camino a casa. Su madre le llevaba de niño a travesías largas de varios días, y a los trece años entró en un centro de tecnificación de esquí de montaña.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué se niega a hablar de conquistar una montaña y qué tiene eso que ver con la seguridad, qué le pasa de verdad a un cuerpo durante veinte horas seguidas de carrera, la diferencia entre dos dolores que se parecen mucho y se confunden siempre, quién decide en realidad cuando la voluntad ya no da para más, y qué es exactamente ese límite del que tanto se habla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué se niega a hablar de conquistar una montaña, qué le pasa de verdad a un cuerpo durante veinte horas seguidas de carrera, la diferencia entre dos dolores que se parecen mucho, quién decide en realidad cuando la voluntad ya no da para más, y qué es exactamente el límite del que tanto se habla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando algo es el camino de tu casa y no una excursión, dejas de medirlo en esfuerzo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nadie conquista una montaña" },
+      {
+        b: "texto",
+        texto:
+          "Jornet dedica varias páginas a rechazar el vocabulario habitual del alpinismo, y no es una manía de estilo. Sostiene que hablar de conquistar, de vencer o de dominar una cumbre describe mal lo que ocurre: la montaña no participa en ningún duelo, no se entera, y no cambia nada después de que alguien pase por arriba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí ocurre, dice, es que un día concreto las condiciones permiten pasar: la nieve está donde tiene que estar, el viento afloja, la persona llega entera. Y otro día, con la misma preparación y la misma persona, no permiten pasar. Llamar victoria a lo primero obliga a llamar derrota a lo segundo, y ninguna de las dos palabras describe el tiempo atmosférico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es además el argumento con el que separa su deporte del relato heroico que se le suele poner encima desde fuera. La montaña no le está poniendo a prueba, no tiene ningún plan sobre él, no le espera y le resulta completamente indiferente que llegue arriba o que se quede a mitad. Todo lo que ocurra ahí arriba ocurre dentro del que sube, y por eso no hay nadie a quien ganarle nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es además el argumento con el que separa su deporte del relato heroico que se le suele poner encima. La montaña no le está poniendo a prueba, no tiene ningún plan sobre él y le resulta indiferente. Todo lo que ocurra ahí arriba ocurre dentro del que sube.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si has ido a vencer a algo, tendrás un motivo para seguir el día en que había que dar la vuelta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ciento sesenta y ocho kilómetros alrededor del Mont Blanc" },
+      {
+        b: "texto",
+        texto:
+          "Conviene poner las cifras antes que las metáforas. La carrera que estructura el libro da la vuelta al macizo del Mont Blanc: unos ciento sesenta y ocho kilómetros, cerca de diez mil metros de desnivel positivo acumulado, y el recorrido pasa por Francia, Italia y Suiza. Los mejores tardan algo más de veinte horas; la mayoría, entre treinta y cuarenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace el libro con eso es lo que casi ningún relato deportivo hace: contar las horas por dentro y en orden. La salida de noche, el estómago que a las ocho horas deja de aceptar comida, el frío en los puertos de madrugada, el sueño real —no el cansancio, el sueño— que aparece en la segunda noche y con el que hay que seguir corriendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También cuenta la parte que no se ve en las fotos. Los pies, que a partir de cierto kilómetro dejan de ser una parte del cuerpo y pasan a ser un problema con horario. Y el hecho de que en ese tipo de prueba casi nadie abandona por las piernas: se abandona por el estómago, por el frío o por la cabeza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Puesto así, se entiende por qué el entrenamiento de esto no se parece al de una maratón. No consiste en ir más rápido, sino en fabricar un cuerpo capaz de comer, de digerir y de tomar decisiones sensatas después de quince horas de esfuerzo. La velocidad es la parte fácil del asunto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En una prueba muy larga casi nadie se retira por las piernas: se retira por el estómago, por el frío o por la cabeza.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos dolores que se parecen mucho" },
+      {
+        b: "texto",
+        texto:
+          "La parte más útil del libro fuera del deporte es una distinción que Jornet hace sin darle importancia: hay un dolor que informa y otro que solo cuesta. Aprender a separarlos es, según él, la mitad del oficio, y es lo que más tarda en aprenderse porque los dos se sienten parecido mientras ocurren.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El que informa es localizado, aparece de golpe, cambia la manera de pisar y empeora si se sigue. Ese avisa de una lesión y hay que hacerle caso el mismo día. El que solo cuesta es general, sube despacio, aparece siempre en el mismo tramo de la prueba y no deja nada roto detrás; ese es el precio y ya está.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla que propone para eso es de las que se pueden copiar tal cual y sirve fuera del deporte. La conversación consigo mismo no se tiene durante la carrera, se tiene antes de salir: se decide en frío qué señales concretas obligan a parar, y durante la prueba uno solo comprueba si esa señal ha aparecido o no, sin volver a abrir la discusión. Discutirlo a mitad es discutirlo con alguien que no está en condiciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla que propone para eso es de las que se pueden copiar tal cual: la conversación consigo mismo no se tiene durante la carrera, se tiene antes. Antes de salir se decide qué señales obligan a parar, y durante la prueba solo se comprueba si esa señal ha aparecido, sin volver a discutirlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Decide antes de empezar qué te obligará a parar, porque a mitad ya no vas a poder pensarlo bien.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La voluntad no decide a las veinte horas" },
+      {
+        b: "texto",
+        texto:
+          "Jornet desmonta de pasada la idea de la fuerza de voluntad, que es la que sostiene casi todo lo que se escribe sobre resistencia. Su versión es que en el kilómetro ciento cuarenta no hay ninguna voluntad operativa: quien está ahí no está eligiendo nada, está ejecutando una decisión que tomó semanas antes, en frío.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sostiene a esa hora no es el carácter, dice, es la costumbre. Los años de salir a entrenar los días en que no apetecía construyen un automatismo que funciona sin supervisión, y ese automatismo es el que sigue moviendo las piernas cuando la parte consciente ya solo produce razones para dejarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y explica por qué la motivación es tan mal combustible, que es la parte trasladable a cualquier cosa. La motivación es un estado y los estados cambian solos cada pocas horas; la costumbre es una estructura y las estructuras aguantan sin que nadie las vigile. Quien depende de estar motivado entrena aproximadamente los días en que lo está, que resultan ser pocos y además casi nunca coinciden con los que hacían falta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y explica por qué la motivación es tan mal combustible. La motivación es un estado y los estados cambian; la costumbre es una estructura y las estructuras aguantan. Quien depende de estar motivado entrena aproximadamente los días en que lo está, que resultan ser pocos y además nunca son los que hacen falta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En el momento duro no vas a decidir nada: vas a ejecutar lo que decidiste semanas antes, en frío.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Prefiere perder entero que ganar guardándose algo" },
+      {
+        b: "texto",
+        texto:
+          "Hay una frase que Jornet repite y que suena a tópico hasta que se ve lo que implica: prefiere perder habiéndolo dado todo que ganar reservándose. En un deportista profesional eso no es una postura moral, es una decisión táctica que le ha costado carreras y que él sostiene a sabiendas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón que da es de información. Una carrera corrida al máximo devuelve un dato: dónde está hoy el límite. Una carrera administrada para ganar por poco no devuelve nada, porque el corredor termina sin saber qué le quedaba dentro, y esa ignorancia se acumula temporada tras temporada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo trasladable de aquí es la parte de la información y no la del riesgo, y conviene decirlo con claridad. Quien nunca se acerca a su tope no lo conoce, y quien no lo conoce se pasa la vida planificando con un número inventado, casi siempre muy por debajo del real. La diferencia entre él y un aficionado es que él lleva un equipo médico detrás y trabaja en eso, y el aficionado va solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo trasladable es la parte de la información y no la del riesgo. Quien nunca se acerca a su tope no lo conoce, y quien no lo conoce se pasa la vida calculando con un número inventado, casi siempre por debajo. La diferencia entre él y un aficionado es que él tiene un equipo médico detrás y el aficionado no.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si nunca te acercas a tu tope, todo lo que planifiques irá con un número que te has inventado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El límite no es una pared" },
+      {
+        b: "texto",
+        texto:
+          "La idea que ordena el libro entero es que el límite no es un muro fijo que se descubre una vez, sino un sitio que se puede visitar, medir y del que se vuelve. Jornet lo trata como un lugar concreto de su geografía personal, y no como una frontera dramática que separa a los capaces de los demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso tiene dos consecuencias. La primera es que el límite de hoy no es el de dentro de dos años, así que averiguarlo una vez no sirve de mucho. La segunda es que la mayoría de la gente cree tener uno mucho más cerca de lo que lo tiene, porque lo ha estimado a ojo desde el sofá y nunca ha ido a comprobarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su corrección a la épica es que ir hasta allí no tiene nada de heroico ni de excepcional: es un trabajo de campo, se hace despacio y se repite. Lo que sí es excepcional, y él lo dice, es la fisiología con la que nació y el hecho de haberse criado a mil novecientos metros de altura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso cierra la respuesta a la pregunta con la que abre el libro, la de por qué corre. No corre para ganar carreras, que las gana; corre porque es la única manera que ha encontrado de saber con exactitud de qué está hecho, y ese dato caduca y hay que volver a buscarlo cada temporada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tu límite no es una pared que se descubre una vez: es un sitio que caduca y hay que volver a visitar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que se lleva alguien que no corra por la montaña son tres cosas concretas. La distinción entre el dolor que avisa y el que solo cuesta. La regla de decidir en frío qué te obliga a parar, porque a mitad ya no se piensa bien. Y la idea de que la constancia no es una virtud del carácter, sino un sistema para no tener que decidir cada mañana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en lo que no dice. No es un manual y mucha gente lo usa como si lo fuera: no hay planificación, ni cifras, ni una palabra sobre lesiones o sobre cómo se sale de una. Y hay un salto que el libro no reconoce: quien escribe tiene una capacidad aeróbica medida en laboratorio entre las más altas registradas y se crio en altura, así que la instrucción de llevar el cuerpo hasta que no responda significa una cosa en él y otra bastante peor en un aficionado de cuarenta años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falta también lo que entonces no se veía. Es un libro de 2011 sobre un deporte que en la década siguiente multiplicó sus participantes, con lo que eso ha supuesto para los senderos, los pueblos y los rescates. No hay ni una línea sobre el coste de todo eso, y es una ausencia que el propio autor terminó atendiendo por su cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Porque lo que pasó después es casi todo. Vino el proyecto de récords de velocidad en montañas grandes, con el Cervino en 2013 subido y bajado en menos de tres horas; vino el Everest de mayo de 2017, dos ascensiones en una semana sin oxígeno ni cuerdas fijas, la primera de las cuales quedó discutida por no haber ni rastro de GPS ni foto en la cima, y él publicó sus datos. Y en 2019 creó una fundación dedicada a la conservación de la montaña, que es exactamente el hueco que tiene este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Sirve para entender por qué alguien hace esto, y no sirve en absoluto para hacerlo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "correr-o-morir": CORRER_O_MORIR,
   relentless: RELENTLESS,
   "malcolm-x": MALCOLM_X,
   "harry-potter-1": HARRY_POTTER_1,

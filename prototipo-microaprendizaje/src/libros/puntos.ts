@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "correr-o-morir": [
+    "por qué ir a vencer algo te quita el momento de dar la vuelta",
+    "cómo distinguir el dolor que avisa del que solo cuesta",
+    "por qué las decisiones difíciles se toman antes y no durante",
+    "en qué se diferencia la costumbre de la motivación",
+    "qué se pierde al planificar con un límite que nunca comprobaste",
+  ],
+
   relentless: [
     "en qué se diferencia quien decide de quien sugiere",
     "por qué conviene comprometerse con el resultado y no con la tarea",

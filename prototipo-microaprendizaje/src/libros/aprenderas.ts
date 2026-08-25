@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "correr-o-morir":
+    "Jornet se crio en un refugio de los Pirineos a mil novecientos metros, donde su padre era guarda. Escribió esto a los veintitrés años, con dos victorias en la Ultra Trail del Mont Blanc, para contestar por qué hace lo que hace.",
+
   relentless:
     "Grover mandó cartas a los jugadores de los Bulls en 1989 y le contestó uno, Michael Jordan; trabajó con él quince años y luego con Kobe Bryant. Su libro clasifica en tres tipos cómo se comporta alguien cuando la responsabilidad se queda sin dueño.",
 

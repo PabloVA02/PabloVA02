@@ -430,7 +430,7 @@ export const CATALOGO: Ficha[] = [
   { id: "nunca-te-pares", titulo: "Nunca te pares", autor: "Phil Knight", ano: 2016, categoria: "Deportes", estado: "escrito" },
   { id: "siete-pecados", titulo: "Siete pecados capitales", autor: "David Walsh", ano: 2012, categoria: "Deportes", estado: "escrito" },
   { id: "relentless", titulo: "Imparable", autor: "Tim Grover", ano: 2013, categoria: "Deportes", estado: "escrito" },
-  { id: "correr-o-morir", titulo: "Correr o morir", autor: "Kilian Jornet", ano: 2011, categoria: "Deportes", estado: "pendiente" },
+  { id: "correr-o-morir", titulo: "Correr o morir", autor: "Kilian Jornet", ano: 2011, categoria: "Deportes", estado: "escrito" },
 ];
 
 /* --------------------------------------------------------------------------
