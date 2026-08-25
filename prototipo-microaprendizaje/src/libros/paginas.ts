@@ -77590,7 +77590,289 @@ const SIDDHARTHA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Pre-suasión, en ocho páginas.
+
+   Breve. Libro práctico → afirmación entera en el rótulo y SEGUNDA PERSONA
+   en la caja (apartado 4.7).
+
+   Es la continuación de «Influencia», que ya está en el catálogo, y el
+   resumen tiene que decir en qué se diferencia y en qué es más frágil.
+
+   Riesgo principal, y es serio: la primera mitad se apoya en el tipo de
+   estudio de psicología social que peor ha salido de la crisis de
+   replicación. Eso no va escondido en la conclusión: ocupa una página
+   entera, la sexta, con nombres y fechas.
+
+   Lo que sí se sostiene y hay que dar limpio: el efecto de la pregunta
+   previa, que es compromiso y coherencia, y el séptimo principio.
+   -------------------------------------------------------------------------- */
+
+const PRE_SUASION: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que decide una respuesta suele ocurrir antes de que empiece el mensaje",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robert Cialdini publicó en 1984 «Influencia», el libro que fijó los seis principios con los que se estudia la persuasión desde entonces, y que está en este catálogo. Treinta y dos años después publicó este, y su tema es distinto: no qué se dice, sino qué ocurre en los segundos anteriores a decirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación es que la receptividad de alguien a un mensaje se decide en buena medida antes de que el mensaje llegue, y que quien consigue dirigir la atención de la otra persona hacia un asunto determinado ha hecho la mayor parte del trabajo antes de abrir la boca. A eso lo llama pre-suasión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro es a la vez más ambicioso y más frágil que el anterior. Más ambicioso porque describe un mecanismo general en lugar de un catálogo de tácticas; más frágil porque se apoya en un tipo concreto de investigación que en los años posteriores ha resultado ser mucho menos sólido de lo que parecía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre el experimento que mejor ilustra la idea, por qué mirar algo lo hace parecer más importante, la pregunta previa que compromete más que cualquier argumento, el séptimo principio que añade a los seis anteriores, qué le ha pasado a la mitad de sus pruebas, y qué propone él sobre el uso de todo esto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien consigue dirigir tu atención hacia un asunto antes de hablarte ya ha hecho la mayor parte de su trabajo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La música de una tienda cambia lo que se compra y nadie se da cuenta",
+      },
+      {
+        b: "texto",
+        texto:
+          "El experimento que mejor explica la idea se hizo en un supermercado británico en el pasillo del vino. Durante dos semanas se alternó, día por día, música francesa de acordeón y música alemana de banda, con los mismos vinos, los mismos precios y la misma colocación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los días de música francesa se vendió muchísimo más vino francés, y los de música alemana, mucho más alemán. La diferencia fue grande, no marginal. Y al preguntar a los compradores a la salida si la música había influido en su elección, la inmensa mayoría dijo que no se había fijado en que hubiera música.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo que propone Cialdini no es que la música convenza de nada, sino que dirige la atención. Al sonar acordeón, lo francés está momentáneamente más disponible en la cabeza de quien mira una estantería con cuarenta botellas, y esa disponibilidad se convierte en una preferencia sin pasar por ninguna decisión consciente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte incómoda del resultado no es que funcione, sino que no se note. Quien elige el vino francés sale de la tienda con una explicación propia perfectamente razonable —que le apetecía, que le habían hablado bien—, y esa explicación es sincera y no tiene nada que ver con lo que pasó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Sales de una tienda con una explicación sincera de por qué elegiste eso, y esa explicación puede no tener nada que ver.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Aquello a lo que se mira parece más importante por el simple hecho de mirarlo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea que organiza el libro es que la atención funciona como una señal de importancia. Cuando algo ocupa la atención de alguien durante un rato, esa persona concluye —sin darse cuenta de que lo está concluyendo— que aquello debe de importar, porque si no, no estaría pensando en ello.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La demostración más limpia viene del estudio de los medios de comunicación. Se ha comprobado muchas veces que la prensa no consigue decirle a la gente qué pensar sobre un asunto, y sí consigue decirle en qué asunto pensar; y que aquello de lo que se habla mucho durante unas semanas pasa a considerarse el problema más importante del país, aunque los datos no hayan cambiado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aplicado a una conversación, eso significa que el orden importa tanto como el contenido. Quien empieza hablando del riesgo consigue que su interlocutor evalúe todo lo que venga después en términos de riesgo; quien empieza hablando de la oportunidad, lo contrario, con los mismos datos encima de la mesa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la defensa, que es la parte útil para quien no quiera persuadir a nadie: preguntarse, antes de decidir algo importante, por qué se está pensando precisamente en eso y no en otra cosa. Casi siempre hay una respuesta, y casi siempre es alguien que lo puso ahí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de decidir algo, pregúntate por qué estás pensando precisamente en eso: casi siempre alguien lo puso ahí.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una pregunta hecha antes compromete más que cualquier argumento" },
+      {
+        b: "texto",
+        texto:
+          "El hallazgo mejor sostenido del libro es también el más sencillo de aplicar. Antes de pedir algo, se hace una pregunta que invite a la persona a describirse de una manera determinada, y esa autodescripción la deja comprometida con lo que viene después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo concreto es de un estudio de campo con encuestadores en la calle. Cuando se pedía directamente el correo electrónico a los transeúntes para enviarles una promoción, aceptaba alrededor de un tercio. Cuando antes se les preguntaba si se consideraban personas aventureras, y contestaban que sí, aceptaba más del setenta por ciento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo no es la pre-suasión sino uno de los principios del libro anterior, el de coherencia: quien acaba de decir en voz alta que es de una determinada manera se comporta después de acuerdo con lo que dijo, porque contradecirse cuesta más que aceptar. Y funciona igual con «¿te consideras una persona servicial?».",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene ver las dos caras. Usado para conseguir algo de alguien es una manipulación bastante fina y difícil de detectar; usado hacia dentro es una de las técnicas mejor establecidas para cambiar la propia conducta, porque decirse en voz alta qué clase de persona se es funciona mejor que proponerse hacer algo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si alguien te pregunta qué clase de persona eres justo antes de pedirte algo, esa pregunta era parte de la petición.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El séptimo principio no es que les caigas bien: es que seas de los suyos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cialdini añade en este libro un principio a los seis de «Influencia», y es la aportación más duradera del volumen. Lo llama unidad, y lo distingue expresamente de la simpatía: no consiste en caer bien, sino en que la otra persona te incluya dentro de un «nosotros».",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia es de categoría y no de grado. A alguien que cae bien se le escucha con benevolencia; a alguien que se considera de los propios se le atribuyen las opiniones sin examinarlas, se le perdonan los errores y se le presta ayuda sin llevar la cuenta. Es el principio que más conducta explica y el que menos se puede fingir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Enumera tres fuentes de esa sensación. El parentesco y lo que se le parece: la familia, el pueblo, la lengua, la región. El compartir un sitio: el barrio, la escuela, el edificio, la trinchera. Y hacer algo a la vez y coordinado: cantar juntos, remar juntos, marchar al mismo paso, que aparece en todas las culturas y en todos los ejércitos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa tercera es la que más se puede comprobar y la que más se usa sin saberlo. Los estudios sobre movimiento sincronizado encuentran de manera bastante consistente que las personas que se han movido a la vez cooperan después más entre ellas, y eso explica por qué todas las instituciones que necesitan cohesión hacen a la gente hacer cosas al unísono.",
+      },
+      {
+        b: "idea",
+        texto:
+          "A quien te cae bien lo escuchas; a quien consideras de los tuyos le crees sin examinar lo que dice.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La mitad de las pruebas de este libro es del tipo que peor ha resistido",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí hay que ser claro. Buena parte de la primera mitad del libro se apoya en lo que se llama activación social: estudios que muestran que exponer a alguien brevemente a una palabra, una imagen o un fondo de pantalla cambia después su conducta sin que lo note. Es el terreno de los fondos de nubes que hacen comprar sofás cómodos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es exactamente el campo de la psicología que peor ha salido de la revisión que empezó alrededor de 2011. Muchos de sus resultados clásicos no se han podido reproducir al repetirlos con más gente y con el análisis decidido de antemano, empezando por el más famoso de todos, el de las personas que caminaban más despacio tras leer palabras asociadas a la vejez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cialdini publicó esto en 2016, con la discusión ya en marcha, y la menciona brevemente para seguir adelante. Él mismo se ha expresado en público con preocupación sobre el estado de esa literatura, lo que deja el libro en una posición rara: su autor duda de una parte del material sobre el que lo construyó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que no está en cuestión son sus principios anteriores —reciprocidad, coherencia, prueba social, autoridad, simpatía, escasez— y el nuevo, la unidad, que se apoyan en tipos de estudio mucho más robustos y en experimentos de campo con miles de personas. La distinción entre las dos mitades del libro es la información más útil de este resumen.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando un autor duda en público de una parte del material sobre el que escribió su libro, esa parte hay que leerla aparte.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Su argumento contra el uso deshonesto es de negocio y no de moral" },
+      {
+        b: "texto",
+        texto:
+          "El último capítulo trata de qué pasa cuando una empresa usa todo esto para engañar, y Cialdini evita expresamente el sermón. Sostiene que hacerlo sale caro, y da tres razones que se pueden comprobar en una cuenta de resultados en vez de en una conciencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es la que llama tributo de la mentira. Una organización que engaña a sus clientes acaba siendo descubierta, y el coste de recuperar la confianza es mucho mayor que lo que se ganó, si es que se recupera. Eso es conocido y no aporta gran cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las dos siguientes sí. Una empresa que pide a su gente que manipule a los clientes selecciona sin querer a los empleados dispuestos a hacerlo, y esa disposición no se queda en la puerta del cliente: aparece después en los gastos, en los informes y en el trato interno. Y expulsa a los que no lo están, que suelen ser los que se pueden ir a otro sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es de coste oculto y es la mejor: el desgaste de rotación, contratación y formación que produce eso no se le atribuye nunca a su causa, porque aparece en una partida distinta y meses después. La empresa ve que se le va la gente y no ve por qué, y la respuesta está en lo que pide hacer todos los días.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pedirle a tu gente que engañe selecciona a los dispuestos a hacerlo, y esa disposición no se queda en la puerta del cliente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son tres cosas. Que el orden de una conversación decide en qué términos se evalúa todo lo demás, así que conviene preguntarse por qué se está pensando en eso. Que una pregunta previa sobre qué clase de persona eres compromete más que cualquier argumento posterior. Y el séptimo principio, la unidad, que explica más conducta que los otros seis juntos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la mitad de sus pruebas. La activación social —fondos de pantalla, palabras sueltas, imágenes de refilón que cambian la conducta— es el terreno de la psicología que peor ha resistido la revisión de la última década, y varios de sus resultados clásicos no se han podido reproducir. El libro salió en 2016, con esa discusión ya abierta, y la despacha en unas líneas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también por acumulación. Son cientos de estudios contados uno detrás de otro para sostener una tesis que cabe en dos páginas, y esa manera de argumentar —muchos ejemplos elegidos porque encajan— es precisamente la que no permite distinguir un efecto real de una colección de casualidades publicadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después es que Cialdini incorporó formalmente la unidad como séptimo principio en la edición ampliada de «Influencia», de 2021, con lo que la aportación duradera de este libro acabó absorbida por el anterior. Y ha seguido siendo una de las voces más críticas con el estado de su propio campo, que es lo más honrado que puede hacer alguien en su posición.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La mitad que viene de sus principios se sostiene entera; la que viene de la activación social hay que leerla con pinzas.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "pre-suasion": PRE_SUASION,
   siddhartha: SIDDHARTHA,
   originales: ORIGINALES,
   "mujeres-aman-demasiado": MUJERES_AMAN_DEMASIADO,

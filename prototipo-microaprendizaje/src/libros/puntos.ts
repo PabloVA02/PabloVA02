@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "pre-suasion": [
+    "por qué tu explicación de una compra puede ser sincera y falsa",
+    "cómo el orden de una conversación decide en qué términos se evalúa",
+    "qué hace una pregunta previa sobre qué clase de persona eres",
+    "en qué se diferencia caer bien de ser de los suyos",
+    "qué parte de este libro se apoya en estudios que se cayeron",
+  ],
+
   siddhartha: [
     "por qué hay conocimientos que nadie te puede transmitir",
     "qué le da a alguien poder aguantar sin lo que necesita",

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "pre-suasion":
+    "En un supermercado británico, la música francesa o alemana del pasillo cambió qué vino se vendía, y los compradores ni recordaban que hubiera música. Cialdini sostiene que la receptividad se decide antes de que llegue el mensaje.",
+
   siddhartha:
     "Su protagonista no es el Buda: es un joven inventado que se cruza con él y decide no seguirle. Hesse lo escribió en 1922, tras una crisis grave y un viaje a Asia que le decepcionó, y su India es una India leída.",
 
