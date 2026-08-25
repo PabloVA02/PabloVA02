@@ -83748,7 +83748,301 @@ const PRIMAVERA_SILENCIOSA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Creatividad, S.A., en ocho paginas.
+
+   Breve. Libro practico de empresa y de oficio creativo -> afirmacion entera en
+   el rotulo y SEGUNDA PERSONA en la caja.
+
+   Seis argumentos: todas las peliculas empiezan mal, el Braintrust, la bestia y
+   el bebe, fallar antes y mas barato, los problemas que todos ven y nadie dice,
+   y las autopsias.
+
+   Lo concreto: Toy Story en 1995, la reconstruccion de Toy Story 2 en nueve
+   meses, el borrado del servidor y la copia que Galyn Susman tenia en casa, el
+   atrio de Emeryville, el Dia de las Notas de 2013.
+
+   La conclusion es la que ningun resumen de este libro escribe, y hay que
+   escribirla: en 2014, el mismo ano de la publicacion, Catmull era figura
+   conocida del pleito por los acuerdos de no contratacion entre estudios; y en
+   noviembre de 2017 John Lasseter, su socio creativo, se aparto tras las
+   denuncias y dejo la empresa en 2018. Un libro sobre una cultura que detecta
+   los problemas pronto no menciona el problema que esa cultura no detecto.
+   -------------------------------------------------------------------------- */
+
+const CREATIVIDAD_SA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Conseguir lo que uno perseguía desde niño deja un problema nuevo: qué se hace después",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ed Catmull se propuso a los veinte años hacer la primera película de animación por ordenador de la historia. Tardó veinte años más. Toy Story se estrenó en noviembre de 1995, fue la película más taquillera del año y Pixar salió a bolsa una semana después. Catmull tenía cincuenta años y, según cuenta, se pasó los meses siguientes con una sensación de vacío que no esperaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro nace de esa incomodidad. Su siguiente objetivo, dice, dejó de ser una película y pasó a ser una pregunta: por qué las empresas creativas que triunfan dejan de ser buenas al cabo de unos años, y si se puede hacer algo para evitarlo. Lo publicó en 2014, después de haber dirigido también la animación de Disney.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación de partida va contra el sentido común del sector. Las buenas ideas no son escasas ni valen gran cosa por sí solas; lo escaso es un grupo de personas capaz de coger una idea mediocre y convertirla en algo bueno a base de rehacerla muchas veces. Catmull lo dice sin adornos: si eliges entre una buena idea y un buen equipo, elige el equipo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre en qué estado nacen de verdad las películas de Pixar, cómo funciona el grupo que las critica, qué tensión hay entre la máquina de producir y lo que aún es frágil, por qué conviene fallar pronto, qué problemas conoce todo el mundo sin decirlos, qué se hace al terminar un proyecto y qué le falta a este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Entre una buena idea y un buen equipo, quédate con el equipo. Un buen equipo arregla una idea mala; al revés no pasa nunca.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Todas las películas de Pixar empezaron siendo malas, y eso no es una frase modesta",
+      },
+      {
+        b: "texto",
+        texto:
+          "Catmull repite en varios capítulos algo que suena a falsa humildad y él presenta como un dato de fábrica: todas sus películas fueron horribles durante bastante tiempo. No flojas ni mejorables. Malas, con problemas de estructura que las habrían hundido si alguien las hubiera estrenado tal como estaban en la primera versión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que usa más veces es Toy Story 2, que iba a salir directamente en vídeo y acabó reconstruida casi entera en nueve meses, con el equipo trabajando a un ritmo que él mismo describe como dañino y del que sacaron consecuencias después. Otras películas cambiaron de director a mitad de producción, y eso en Pixar no significaba despedir a nadie del estudio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La imagen que usa para explicar el estado inicial de una idea es la de un bebé feo. Un proyecto recién nacido es torpe, desproporcionado y vulnerable, y no se parece en nada a lo que va a ser. El error habitual, dice, es juzgarlo como si fuera un producto terminado, porque entonces se mata siempre y siempre con buenas razones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale una obligación concreta para quien dirige: proteger lo nuevo mientras es feo, y a la vez no engañarse sobre lo feo que es. Catmull insiste en que las dos cosas van juntas y en que casi todo el mundo hace solo una. Quien solo protege acaba estrenando el bebé feo; quien solo juzga no llega a tener nada que estrenar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que acabas de empezar es feo y va a serlo un tiempo. Protégelo sin mentirte sobre lo feo que está.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una crítica sirve cuando no manda, y deja de servir en cuanto se convierte en una orden",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo del que Catmull está más orgulloso se llama Braintrust. Cada pocos meses, el director de una película enseña el montaje en curso a un grupo de directores y guionistas de la casa, y todos dicen sin filtros lo que no funciona. Las sesiones duran horas y son duras, y son el motor de las reescrituras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Funciona por dos reglas que Catmull considera inseparables del invento. La primera: el grupo no tiene ninguna autoridad. El director escucha y decide, y puede no hacer caso de nada. La segunda: se señalan problemas y no se recetan soluciones. Decir que el segundo acto se cae es útil; decir que hay que meter una escena de persecución no lo es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón de la primera regla es la que cuesta entender desde fuera. En cuanto una nota se convierte en una orden, el que la recibe deja de escucharla y empieza a defenderse, porque ya no es información sino jerarquía. Catmull dice que ha visto ese cambio ocurrir en directo y que basta con que el que habla tenga poder de decidir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda regla protege la propiedad del proyecto. Un director que aplica soluciones ajenas acaba con una película que no es de nadie, y sin nadie que la sostenga cuando se complique. Catmull observa además que las soluciones que propone un grupo suelen ser peores que el problema que ha detectado, porque detectar es fácil y resolver requiere estar dentro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando des una opinión sobre el trabajo de alguien, señala el problema y no recetes la solución. En cuanto recetas, deja de escucharte.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La máquina de producir siempre tiene hambre, y lo que es nuevo nunca está listo para alimentarla",
+      },
+      {
+        b: "texto",
+        texto:
+          "Catmull describe una tensión que aparece en cualquier organización que fabrique algo con regularidad, y le pone un nombre: la bestia hambrienta. Es el conjunto de gente, presupuestos, calendarios y compromisos que exige que salga producto de manera constante, y no es un enemigo: es lo que paga los sueldos y lo que permite hacer la película siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema es que la bestia y el bebé feo tienen necesidades opuestas. La bestia quiere previsibilidad, fechas y decisiones tomadas; el proyecto nuevo necesita tiempo, cambios de rumbo y permiso para no funcionar todavía. Y como la bestia habla con cifras y el bebé no habla, la bestia gana casi siempre y sin que nadie tenga que discutirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado que describe es reconocible en cualquier sector. Una empresa que alimenta a la bestia sin protección para lo frágil empieza a producir versiones de lo que ya funcionó, cada vez más seguras y cada vez menos interesantes, y lo hace sin ninguna decisión consciente de dejar de arriesgar. Nadie eligió eso: se llegó ahí un trimestre detrás de otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su respuesta no es un truco sino un reparto de responsabilidades. Alguien tiene que tener explícitamente el trabajo de proteger lo nuevo frente al calendario, y ese alguien tiene que tener poder de verdad, porque si no, la conversación la gana siempre quien trae los números. Catmull dice que esa protección es la mitad de su trabajo y que no se puede delegar hacia abajo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si nadie tiene el encargo explícito de proteger lo nuevo frente al calendario, el calendario gana todas las semanas sin discutirlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un error temprano cuesta poco, y por eso conviene provocarlos antes de que salgan caros",
+      },
+      {
+        b: "texto",
+        texto:
+          "Catmull dedica un capítulo a separar dos cosas que se confunden: el fallo como accidente y el fallo como método. Sostiene que en un trabajo creativo es imposible saber si algo funciona sin construirlo, y que por tanto el objetivo no puede ser evitar errores, sino hacerlos pronto, en pequeño y donde salgan baratos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la lógica de los guiones dibujados que usan en el estudio. Antes de animar un solo plano, la historia se cuenta con miles de dibujos rápidos montados con voces provisionales, y esa versión se tira y se rehace muchas veces. Cada versión tirada es un error que se ha cometido con lápiz en vez de con un equipo de animación durante un año.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Catmull señala además el coste oculto de la otra manera de trabajar. Quien intenta no equivocarse nunca no está siendo prudente: está retrasando el momento de enterarse, y en ese retraso el error se hace más caro y más difícil de admitir. Y cuando por fin aparece, ya hay tanto trabajo encima que la tentación es defenderlo en vez de corregirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo tiene una anécdota que lo resume sin querer. Durante la producción de Toy Story 2, un borrado accidental en el servidor empezó a hacer desaparecer la película, y las copias de seguridad llevaban tiempo fallando sin que nadie lo hubiera comprobado. Se salvó porque una directora técnica, Galyn Susman, trabajaba desde casa tras ser madre y tenía una copia en su ordenador.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No intentes no equivocarte: intenta equivocarte pronto y barato. Retrasar el error solo lo encarece y lo hace más difícil de admitir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En toda organización hay problemas que casi todo el mundo conoce y nadie dice en voz alta",
+      },
+      {
+        b: "texto",
+        texto:
+          "La observación más incómoda del libro es que el mayor riesgo de una empresa que funciona no son los problemas desconocidos, sino los que conoce mucha gente y no llegan nunca a la mesa donde se decide. Catmull dice que en Pixar los ha habido siempre y que su trabajo consistía en buscarlos, no en esperar a que subieran solos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación de por qué no suben es de costes personales. Contar un problema tiene un precio inmediato y seguro —quedar como el pesimista, señalar a alguien, complicarse la semana— y un beneficio lejano e incierto. Con esa aritmética, callarse es lo racional para cada persona por separado, y el resultado colectivo es que nadie se entera de nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre el vocabulario hace una distinción fina que se usa mucho desde entonces. Prefiere hablar de franqueza y no de honestidad, porque la honestidad arrastra una carga moral: quien no está de acuerdo contigo se convierte en un mentiroso. La franqueza es solo decir lo que se piensa, y se puede pedir sin acusar a nadie de nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuenta también el intento más ambicioso de sacar esos problemas a la superficie. En 2013 el estudio paró un día entero, más de mil personas, para que todo el mundo propusiera qué había que cambiar en cómo se trabajaba. Lo llamaron el Día de las Notas, y de ahí salieron cambios reales en producción y en herramientas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que más te va a costar caro no es lo que nadie sabe: es lo que sabe mucha gente y a nadie le compensa decir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Al terminar algo hay que analizarlo aunque haya salido bien, y sobre todo si ha salido bien",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pixar hace una autopsia obligatoria al terminar cada película, y Catmull explica por qué tuvo que hacerse obligatoria: nadie quiere hacerlas. Después de un estreno la gente está agotada, quiere pasar página, y si ha ido bien no ve qué se puede analizar. Justo por eso, dice, es cuando más se aprende y cuando menos duele aprender.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Da además un truco práctico para que no se conviertan en una lista de quejas o en una ronda de felicitaciones. Pedir a cada equipo cinco cosas que volverían a hacer y cinco que no. El número obliga a pensar de verdad en las dos direcciones, y la simetría impide que la reunión se decante hacia el elogio o hacia el reproche.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade otra observación sobre el formato: hay que cambiarlo cada vez. Cualquier ritual repetido igual acaba contestándose de memoria, y la gente aprende qué se espera que diga. Catmull describe eso como la ley de todos los mecanismos de este libro: funcionan mientras son incómodos y dejan de funcionar en cuanto se vuelven costumbre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y termina con una advertencia sobre los propios mecanismos. Ninguno de ellos —ni el Braintrust, ni las autopsias, ni el día de las notas— es la causa de que Pixar funcionara. Son intentos concretos de resolver un problema concreto en un momento concreto, y copiarlos sin el problema detrás produce reuniones nuevas y ningún cambio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Al terminar algo, pide cinco cosas que repetirías y cinco que no. El número obliga a mirar en las dos direcciones.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro cosas y funcionan en cualquier equipo pequeño. Señalar problemas sin recetar soluciones, y quitarle autoridad a quien critica. Tratar lo nuevo como algo frágil sin mentirse sobre su estado. Provocar los errores pronto y en barato. Y hacer la revisión al terminar, sobre todo cuando ha salido bien, pidiendo cinco cosas de cada lado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en lo de siempre en este género: es la historia de un ganador contada por él, sin ningún caso de una empresa que hiciera exactamente esto y se hundiera igual. Catmull escribe con más cuidado que la mayoría y reconoce fallos concretos, pero no hay manera de saber cuánto de Pixar se explica por su cultura y cuánto por haber llegado el primero a una tecnología.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay dos cosas que faltan y que pesan mucho en un libro sobre franqueza. En 2014, el mismo año de la publicación, Catmull era una figura conocida del litigio por los acuerdos entre estudios para no contratarse mutuamente a los empleados, una práctica que limitaba los sueldos de los animadores y que él defendió en sus declaraciones. El libro no la menciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda llegó después. En noviembre de 2017, John Lasseter, socio de Catmull desde el principio y cabeza creativa del estudio, se apartó tras reconocer errores ante las quejas por su conducta con empleadas, y dejó la compañía en 2018. Un libro que explica cómo una cultura hace aflorar los problemas que todos conocen se lee distinto sabiendo cuál no afloró.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los mecanismos de este libro funcionan mientras son incómodos. En cuanto se vuelven costumbre, la gente contesta de memoria.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "creatividad-sa": CREATIVIDAD_SA,
   "primavera-silenciosa": PRIMAVERA_SILENCIOSA,
   "camino-libertad-financiera": CAMINO_LIBERTAD_FINANCIERA,
   "cambia-el-chip": CAMBIA_EL_CHIP,

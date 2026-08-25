@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "creatividad-sa":
+    "Catmull consiguió a los cincuenta años lo que perseguía desde los veinte: la primera película de animación por ordenador. Lo que cuenta aquí es el problema siguiente, que era por qué las empresas creativas dejan de ser buenas.",
+
   "primavera-silenciosa":
     "En un lago de California se trató el agua con un pariente del DDT a una parte por cada setenta millones. En la grasa de los somormujos que comían los peces del lago apareció miles de veces más concentrado, y la colonia se desplomó.",
 

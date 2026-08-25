@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "creatividad-sa": [
+    "en qué estado nacen de verdad las películas que luego funcionan",
+    "por qué una crítica deja de servir en cuanto puede mandar",
+    "qué le pasa a lo nuevo cuando nadie lo protege del calendario",
+    "por qué conviene provocar los errores antes de que salgan caros",
+    "qué problemas conoce todo el mundo y a nadie le compensa decir",
+  ],
+
   "primavera-silenciosa": [
     "qué le pasa a un veneno que no se degrada tras hacer su trabajo",
     "por qué una concentración inofensiva deja de serlo tres escalones más arriba",
