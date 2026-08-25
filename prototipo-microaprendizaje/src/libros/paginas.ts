@@ -75988,7 +75988,7 @@ const CONVERSACIONES_CRUCIALES: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Los cuatro autores de este libro dirigían una consultora de formación y lo publicaron en 2002. Su definición de partida es estrecha y útil: una conversación crucial es aquella en la que hay algo importante en juego, las opiniones son distintas y las emociones están altas. Las tres cosas a la vez.",
+          "Kerry Patterson, Joseph Grenny, Ron McMillan y Al Switzler dirigían una consultora de formación en Utah y publicaron esto en 2002. Su definición de partida es estrecha y útil: una conversación crucial es aquella en la que hay algo importante en juego, las opiniones son distintas y las emociones están altas. Las tres cosas a la vez.",
       },
       {
         b: "texto",
@@ -76187,7 +76187,7 @@ const CONVERSACIONES_CRUCIALES: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Antes de eso hay que decidir cómo se va a decidir, que es la parte que casi ninguna reunión hace explícita. Hay cuatro maneras —decide uno, decide uno después de consultar, se vota, se busca el acuerdo de todos— y la mayoría de los conflictos posteriores vienen de que cada participante creía que se estaba usando una distinta.",
+          "Antes de eso hay que decidir cómo se va a decidir, que es la parte que casi ninguna reunión hace explícita y que Grenny señala como origen de la mitad de los conflictos posteriores. Hay cuatro maneras —decide uno, decide uno después de consultar, se vota, se busca el acuerdo de todos— y la mayoría de los conflictos posteriores vienen de que cada participante creía que se estaba usando una distinta.",
       },
       {
         b: "texto",
