@@ -70347,7 +70347,289 @@ const DOPAMINA_LIEBERMAN: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   ¿Quién se ha llevado mi queso?, en ocho páginas.
+
+   Breve, y de los que piden Breve por las tres señales del apartado 2 ter:
+   es una fábula, tiene una sola idea repetida y cabe en su propio subtítulo.
+
+   Libro de empresa → afirmación entera en el rótulo y SEGUNDA PERSONA en la
+   caja (apartado 4.7). No va en registro narrativo aunque sea un cuento:
+   se vende y se usa como manual, y es como manual como hay que examinarlo.
+
+   Riesgo principal: repetir la moraleja. Un resumen que se limite a decir
+   «hay que adaptarse al cambio» está haciendo publicidad. Lo que hay que
+   contar es qué falta dentro del laberinto, que es todo lo demás.
+
+   Y la conclusión trae el dato que cierra el asunto: el libro que publicó
+   en 2018 la herencia del autor, donde Hem por fin sale.
+   -------------------------------------------------------------------------- */
+
+const QUIEN_QUESO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Es el libro de empresa más vendido de la historia y se lee en cuarenta minutos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Spencer Johnson era médico y llevaba desde 1982 escribiendo libros de gestión muy cortos, empezando por «El ejecutivo al minuto». En 1998 publicó una fábula de noventa y pocas páginas, con letra grande, que ha vendido más de treinta millones de ejemplares y estuvo años encabezando las listas de libros de empresa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El contenido cabe entero en una frase: cuando las condiciones cambian, quien lo acepta y se mueve deprisa acaba mejor que quien se queda esperando a que las cosas vuelvan a ser como eran. No hay ninguna otra afirmación en todo el libro. Está repetida tres veces —en un cuento, en una conversación posterior entre antiguos compañeros de colegio y en diez frases sueltas escritas en una pared— y esa repetición es el formato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El contenido cabe en una frase: cuando las condiciones cambian, quien acepta el cambio y se mueve deprisa acaba mejor que quien se queda esperando que las cosas vuelvan a ser como eran. No hay ninguna otra afirmación en todo el libro, y está repetida en un cuento, en una discusión posterior y en diez frases sueltas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre qué ocurre exactamente en la fábula, por qué gana un personaje que no piensa, cuál es la única técnica aprovechable que contiene, qué acierta sobre el miedo, qué falta dentro de ese laberinto, y por qué se repartió donde se repartió.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando un libro lo compra tu empresa para dártelo, la primera pregunta útil es por qué te lo está dando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En un laberinto viven dos ratones, Fisgón y Escurridizo, y dos personitas del tamaño de un ratón, Hem y Haw. Los cuatro se pasan el día buscando queso, que en el cuento representa lo que cada lector quiera que represente: un empleo, una relación, una casa, la salud, un negocio. Un día encuentran un depósito enorme en un pasillo del laberinto y se instalan alrededor de él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En un laberinto viven dos ratones, Fisgón y Escurridizo, y dos personitas del tamaño de un ratón, Hem y Haw. Los cuatro buscan queso, que en el cuento representa lo que cada uno quiera que represente: un empleo, una relación, una casa, la salud. Encuentran un depósito enorme en un pasillo y se instalan alrededor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pasan meses. Los ratones siguen inspeccionando cada mañana y notan que el montón mengua y que el queso ya no huele igual. Las personitas, en cambio, se han mudado allí, han colgado carteles en la pared y dan por hecho que ese queso es suyo y que va a seguir estando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una mañana no queda nada. Los ratones no se detienen ni un segundo: se atan las zapatillas y salen a buscar por el laberinto. Hem y Haw se quedan gritando que aquello es injusto, exigiendo que les devuelvan lo suyo, analizando quién ha podido llevárselo y esperando a que el queso vuelva.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al cabo de mucho tiempo, Haw se decide a salir, muerto de miedo, y va escribiendo frases en las paredes por si su amigo lo sigue. Acaba encontrando un depósito mucho mayor, y a los ratones ya instalados allí desde hacía tiempo. Hem se queda donde estaba y el libro no cuenta qué fue de él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los que revisaban cada mañana lo vieron venir; los que colgaron carteles en la pared, no.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los ratones ganan precisamente porque no son capaces de pedir explicaciones",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle que estructura la fábula y que casi nadie comenta es por qué el autor eligió ratones para el papel de listos. Los ratones no tienen ideas sobre el queso. No creen merecerlo, no han hecho planes con él, no se sienten traicionados cuando desaparece y no necesitan entender qué ha pasado para volver a moverse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una parte de eso que es cierta y que sirve fuera del cuento. Cuando algo ya ha ocurrido y no se puede deshacer, el tiempo dedicado a establecer de quién fue la culpa no cambia el resultado ni un milímetro y sí retrasa el siguiente movimiento, que es lo único que todavía depende de uno. Muchísima gente pierde meses enteros en esa fase, y el cuento la describe con bastante precisión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una parte de eso que es cierta y sirve. Cuando algo ya ha ocurrido y no se puede deshacer, el tiempo dedicado a establecer de quién fue la culpa no cambia el resultado y sí retrasa el siguiente movimiento. Muchísima gente pierde meses en esa fase, y el cuento lo describe bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay otra parte que es un problema serio: la fábula no distingue entre lo que no se puede cambiar y lo que sí. Preguntar quién decidió algo es inútil ante el clima y es el primer paso ante casi todo lo demás, y el libro trata las dos situaciones exactamente igual.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Buscar culpables no arregla lo que ya pasó, pero saber quién decidió sí cambia lo que puedes hacer después.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "De las diez frases que Haw va escribiendo en las paredes del laberinto, hay una que no es un lema motivacional sino un procedimiento que se puede ejecutar: huele el queso a menudo para saber cuándo empieza a estar viejo. Es la parte aprovechable del libro entero, y curiosamente es la que menos se cita de todas: las que circulan son las otras nueve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De las diez frases que Haw escribe en las paredes, hay una que no es un lema motivacional sino un procedimiento: huele el queso a menudo para saber cuándo empieza a estar viejo. Es la parte aprovechable del libro y la que menos se cita.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que propone es una asimetría de costes que se comprueba en cualquier situación. Revisar periódicamente si algo va bien cuesta muy poco: media hora al mes mirando los números, una conversación incómoda al trimestre, una comprobación honesta de si la cosa sigue funcionando. Enterarse tarde cuesta todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los ratones del cuento no son más rápidos ni más valientes: llevan meses de ventaja porque inspeccionaban a diario. Cuando el depósito se vació ya sabían por dónde ir, mientras que las personitas se enteraron el mismo día en que se quedaron sin nada y tuvieron que empezar desde cero y en estado de pánico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón por la que casi nadie lo hace es psicológica y el libro la nombra: revisar significa arriesgarse a encontrar una mala noticia mientras todavía se puede vivir sin saberla. No mirar el extracto, no preguntar cómo va el proyecto y no hablar del asunto pendiente son maneras de conservar la tranquilidad un poco más y de pagar mucho más luego.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Revisar si algo sigue funcionando cuesta media hora al mes; enterarse tarde cuesta el asunto entero.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que se imagina antes de moverse casi siempre es peor que lo que se encuentra",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro acierto del cuento está en cómo describe la salida de Haw. No sale porque haya entendido nada ni porque se haya convencido con un argumento: sale cuando el miedo a quedarse supera al miedo a moverse, y entra en el laberinto temblando y sin ningún plan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se encuentra fuera es peor que la etapa buena y mucho mejor que lo que había imaginado en la estación vacía. El libro lo formula en una de las frases de la pared: cuando se atraviesa el miedo, uno se siente libre. Dicho así suena a cartel, y la observación de debajo es correcta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurre es que el miedo se calcula desde dentro, y desde dentro solo se ven las cosas que se pierden, que están todas contadas y son concretas. Lo que se puede ganar no está en la lista porque todavía no se conoce, así que la comparación se hace siempre entre algo real y algo que no tiene forma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle honesto en la fábula: Haw sigue teniendo miedo todo el rato, incluso caminando. El libro no promete que se quite, dice que se puede avanzar con él puesto. Es la única frase de todo el texto que no suena a persona que ya ha resuelto su vida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Comparas algo concreto que pierdes con algo que todavía no tiene forma, y por eso la cuenta sale siempre en contra de moverse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En este laberinto no hay nadie que mueva el queso" },
+      {
+        b: "texto",
+        texto:
+          "El título hace una pregunta y el libro entero está construido para que no se pueda contestar. En ningún momento aparece nadie que se lleve el queso: simplemente deja de haberlo. El laberinto funciona como el tiempo atmosférico, sin intenciones y sin responsables, y el que pregunta queda retratado como el personaje que no lo ha entendido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso es una decisión de diseño y tiene consecuencias. En casi todas las situaciones en las que se reparte este libro, el queso lo ha movido alguien con nombre, un cargo y un motivo: se ha cerrado una planta, se ha externalizado un servicio, se ha decidido un recorte. Ahí, preguntar quién decidió no es la fase de negación, es información.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se nota también en lo que falta. No hay ningún personaje que consiga cambiar el laberinto, ni que negocie, ni que se junte con otros, ni que exija nada y lo obtenga. Las únicas dos conductas disponibles son moverse deprisa y quedarse quejándose, y una de las dos está descrita como patética.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la fábula mete en el mismo saco cosas que no se parecen. Un despido, una separación, una enfermedad y un cambio de tecnología son todos el mismo suceso —el queso se movió— y admiten todos el mismo consejo. Cualquier situación en la que quejarse sirviera para algo queda fuera del cuento por construcción.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si a lo que te ha pasado se le puede poner un nombre y un cargo detrás, preguntar quién decidió no es negarlo: es enterarse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Se repartió en los despidos, y el libro encaja demasiado bien ahí" },
+      {
+        b: "texto",
+        texto:
+          "La historia comercial de este libro explica su reputación. Se compró por palés y se repartió en reuniones de plantilla, en muchos casos justo antes o justo después de anunciar recortes, y a menudo lo entregaba la misma dirección que había tomado la decisión de la que el libro decía que no había que preguntar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Puesto en ese contexto, la moraleja cambia de significado sin cambiar ni una palabra. Leído por alguien que decide sobre su propia vida, es un empujón razonable para dejar de esperar. Entregado por quien acaba de retirarte algo, dice que aceptarlo deprisa y sin preguntas es una virtud de carácter.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nada de eso es culpa del texto, que es corto, no engaña a nadie sobre lo que es y no pretende ser un tratado. Pero sí enseña algo que sirve para leer cualquier otra cosa: un consejo no significa lo mismo según quién lo dé y según qué gane esa persona con que tú le hagas caso. Esa pregunta se hace antes de entrar a discutir si el contenido es bueno o malo, porque muchas veces la contesta todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nada de eso es culpa del texto, que es corto y no engaña a nadie sobre lo que es. Pero sí enseña algo que sirve para leer cualquier cosa: un consejo no significa lo mismo según quién lo dé y qué gane con que lo sigas, y esa pregunta se hace antes de discutir el contenido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de discutir si un consejo es bueno, mira quién te lo da y qué gana él si le haces caso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "De un libro de noventa páginas quedan dos cosas y las dos son buenas. Revisar a menudo si lo que sostiene tu vida sigue estando, porque comprobarlo cuesta poco y enterarse tarde cuesta todo. Y saber que el miedo se calcula comparando lo concreto que se pierde con algo que todavía no tiene forma, así que la cuenta sale siempre en contra de moverse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en lo que decidió dejar fuera. En este laberinto nadie mueve nada, no existe la posibilidad de negociar ni de organizarse, y el personaje que pide explicaciones está retratado como el fracasado del cuento. Eso convierte una fábula sobre adaptarse en un argumento sobre no preguntar, y explica por qué la compraron las empresas y no los sindicatos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también por meterlo todo en la misma caja. Perder un empleo, una pareja y la salud son el mismo suceso para este libro y admiten el mismo consejo, y no lo son: en unas cosas moverse deprisa es lo único sensato y en otras el duelo no es una fase que se pueda saltar, aunque quien te dio el libro tenga prisa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después es lo más interesante y casi nadie lo cuenta. Spencer Johnson murió en 2017, y en 2018 se publicó una continuación póstuma autorizada por su herencia, dedicada entera al personaje que se quedó. En ella Hem por fin sale, y lo que le hace salir no es la prisa: es examinar la creencia que lo tenía clavado. Veinte años después, el libro le da la razón al que preguntaba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se aguanta lo de revisar a menudo, y el resto es un cuento donde preguntar quién decidió está prohibido.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "quien-queso": QUIEN_QUESO,
   "dopamina-lieberman": DOPAMINA_LIEBERMAN,
   "segundo-cerebro": SEGUNDO_CEREBRO,
   "cuatro-mil-semanas": CUATRO_MIL_SEMANAS,

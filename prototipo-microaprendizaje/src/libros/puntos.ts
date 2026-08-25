@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "quien-queso": [
+    "por qué comprobar a menudo sale mucho más barato que enterarse tarde",
+    "qué compara tu cabeza cuando calcula el miedo a moverte",
+    "cuándo buscar responsables estorba y cuándo es el primer paso",
+    "qué conductas quedan fuera de una fábula sin nadie al mando",
+    "por qué mirar quién te da un consejo cambia lo que significa",
+  ],
+
   "dopamina-lieberman": [
     "por qué lo predecible deja de motivar aunque siga siendo bueno",
     "cómo se puede querer algo sin disfrutarlo en absoluto",

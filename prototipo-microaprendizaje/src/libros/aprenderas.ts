@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "quien-queso":
+    "Noventa páginas con letra grande que han vendido más de treinta millones de ejemplares, buena parte comprados por empresas a granel para repartirlos entre sus plantillas. Cuenta una fábula con dos ratones y dos personitas en un laberinto.",
+
   "dopamina-lieberman":
     "Las neuronas de dopamina de un macaco dejan de dispararse con el zumo en cuanto una luz lo anuncia: miden la sorpresa, no el premio. De ahí sale casi todo lo que este libro explica sobre el deseo, la adicción y el enamoramiento.",
 
