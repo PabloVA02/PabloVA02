@@ -87008,7 +87008,297 @@ const GULAG: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Vender es humano, en ocho paginas.
+
+   Breve. ECONOMIA y libro practico -> afirmacion entera en el rotulo y SEGUNDA
+   PERSONA en la caja.
+
+   Seis argumentos: el comprador ya no esta a ciegas, la sintonia, los
+   ambivertidos, la flotabilidad, la claridad y los sucesores del discurso de
+   ascensor.
+
+   Lo concreto: la encuesta de siete mil trabajadores, los veinticuatro minutos
+   de cada hora, la prueba de la E en la frente, el estudio de Adam Grant con
+   trescientos cuarenta teleoperadores, el experimento del habla interior en
+   forma de pregunta de 2010.
+
+   La conclusion tiene un dato duro que casi ningun resumen da: la proporcion de
+   tres a uno entre emociones positivas y negativas que el libro presenta como
+   ciencia fue retirada formalmente en 2013, un ano despues de publicarse esto,
+   porque su base matematica no se sostenia. Y que la asimetria de informacion no
+   desaparecio: cambio de lado.
+   -------------------------------------------------------------------------- */
+
+const VENDER_ES_HUMANO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi todo el mundo se pasa el día vendiendo algo, aunque su trabajo no se llame así",
+      },
+      {
+        b: "texto",
+        texto:
+          "Daniel Pink parte de un dato que suena a curiosidad y no lo es. En Estados Unidos, alrededor de una de cada nueve personas trabaja en ventas. La pregunta que se hace es qué hacen las otras ocho, y su respuesta es que también venden, solo que sin comisión y sin llamarlo así.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para comprobarlo encargó una encuesta a unos siete mil trabajadores de todos los sectores, y les preguntó en qué empleaban el día. Los que no eran comerciales declararon dedicar alrededor del cuarenta por ciento de su tiempo a convencer, persuadir e influir en otros sin que hubiera de por medio ninguna compra. Son unos veinticuatro minutos de cada hora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pink llama a eso venta sin venta, y la define con precisión: conseguir que alguien renuncie a algo que valora —su tiempo, su atención, su esfuerzo, su manera de hacer las cosas— a cambio de algo que tú tienes. Un profesor lo hace, un médico lo hace, un jefe de equipo lo hace y un padre lo hace cada tarde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué el vendedor de toda la vida ya no funciona, qué habilidad ha sustituido a la labia, qué clase de carácter vende más, cómo se sostiene alguien que recibe muchos noes, por qué encontrar el problema vale más que resolverlo, cómo se presenta hoy una idea en pocos segundos y qué le falta a este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Convencer a alguien de que cambie algo que valora por algo que tienes es vender, aunque tu trabajo se llame de otra manera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El vendedor clásico existía porque el comprador no sabía nada, y eso se ha terminado",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento más sólido del libro es histórico. Durante un siglo, el que vendía sabía mucho más que el que compraba: qué costaba realmente el coche, qué llevaba dentro, qué garantía había y qué ofrecía la competencia. Toda la profesión, con sus técnicas de presión y sus trucos de cierre, se construyó sobre esa diferencia de información.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pink recuerda de dónde viene la advertencia latina que resume aquel mundo y que se traduce como que el comprador tenga cuidado. Tenía sentido cuando el comprador no podía comprobar nada: la única defensa disponible era la desconfianza, porque no había manera de saber si le estaban engañando hasta mucho después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación es que esa asimetría se ha invertido. Hoy quien va a comprar un coche llega con el precio de fábrica, con los foros leídos y con tres presupuestos, y a veces sabe del modelo más que el que se lo enseña. Con eso, las técnicas de presión dejan de funcionar, y no por motivos éticos: dejan de funcionar porque el otro las reconoce.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia es un cambio de oficio y no de estilo. Si el comprador ya tiene la información, lo que le falta no son datos sino criterio: qué de todo eso importa en su caso concreto. Vender pasa a consistir en ayudar a decidir, y el vendedor que sigue ocultando cosas se queda sin la única ventaja que tenía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando el otro puede comprobarlo todo, ocultarle algo deja de ser una ventaja y pasa a ser el motivo por el que no vuelve.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Entender la cabeza del otro rinde más que sentir lo que el otro siente",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera de las tres habilidades que propone Pink es la sintonía, y empieza distinguiéndola de algo con lo que se confunde. La empatía consiste en sentir lo que siente el otro; tomar su perspectiva consiste en calcular qué está pensando y qué le conviene. Son cosas distintas y, para negociar, la segunda funciona bastante mejor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo es práctico. Quien siente el disgusto del otro tiende a ceder para que ese disgusto se acabe, con lo que cierra acuerdos malos. Quien calcula la posición del otro entiende qué le hace falta y encuentra soluciones que a los dos les valen, sin haber sufrido por el camino.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pink presenta una prueba sencilla y algo tramposa para medir esto: pedirle a alguien que se dibuje con el dedo una letra E en la frente. Hay dos maneras de hacerlo, la que se lee bien desde fuera y la que se lee bien desde dentro, y la que elige cada uno depende de si está pensando en quien mira o en sí mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hace una observación sobre el poder que explica muchas reuniones. Quien tiene una posición fuerte tiende a mirar menos la perspectiva ajena, porque no lo necesita; quien tiene una posición débil se pasa el día calculando qué piensan los demás. De ahí saca un consejo incómodo: para sintonizar hay que ponerse deliberadamente en la posición de abajo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Sentir el disgusto del otro te empuja a ceder para que se acabe. Calcular lo que piensa te permite encontrar algo que os valga a los dos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los que más venden no son los extrovertidos, son los que están en medio de la escala",
+      },
+      {
+        b: "texto",
+        texto:
+          "El dato que más ha circulado del libro contradice la creencia de todo el sector. El psicólogo Adam Grant estudió a trescientos cuarenta teleoperadores de una empresa de software, midió su grado de extroversión en una escala y lo comparó con sus ingresos por ventas durante tres meses. El resultado no fue una línea ascendente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fue una curva con el máximo en el centro. Los que más facturaron no eran los muy extrovertidos ni los muy introvertidos, sino los que estaban a mitad de camino, y la diferencia era grande: quienes ocupaban esa zona intermedia ingresaron bastante más por hora que los de los dos extremos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación que da Pink encaja con el capítulo anterior. Un extrovertido puro habla demasiado, escucha poco y empuja cuando no toca; un introvertido puro escucha bien y no cierra. El del medio hace las dos cosas a ratos y sabe cambiar de una a otra, que es exactamente lo que hace falta cuando el otro ya tiene la información.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El dato tiene una consecuencia práctica que va contra cómo se contrata en el sector. Si la mayoría de la gente está en esa franja intermedia, entonces la mayoría de la gente puede vender, y seleccionar comerciales por lo simpáticos y lanzados que parecen en una entrevista es quedarse justo con el perfil que rinde menos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los que más vendieron en aquel estudio no eran los muy lanzados ni los muy callados: eran los que sabían pasar de una cosa a la otra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Preguntarse si uno podrá funciona mejor que repetirse que sí puede" },
+      {
+        b: "texto",
+        texto:
+          "La segunda habilidad la llama flotabilidad, y trata de lo que hace cualquier oficio de convencer: recibir noes todo el día. Pink la divide en tres momentos —antes, durante y después del intento— y el consejo del primero es el que más sorprende, porque va contra el manual de motivación de toda la vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un estudio publicado en 2010 comparó dos maneras de hablarse a uno mismo antes de una tarea difícil. Un grupo se decía que podía hacerlo, en afirmativo; otro se lo preguntaba, en interrogativo. El segundo grupo rindió mejor, y la explicación de los autores es que una pregunta obliga a buscar razones y recursos concretos, mientras que una afirmación solo sube el ánimo un rato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para el durante, Pink recomienda un exceso de emoción positiva sobre la negativa, y ahí se apoya en una proporción concreta que conviene mirar con cuidado, como se dirá al final. La parte que sí se sostiene es el aviso contra el otro extremo: el optimismo sin límite hace bajar el rendimiento porque quita la sensación de que hay algo que resolver.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y para el después recoge el trabajo sobre estilo explicativo. Ante un no, hay quien lo interpreta como permanente, general y culpa suya, y hay quien lo interpreta como pasajero, concreto y ajeno. La segunda manera no es autoengaño: en un oficio donde la mayoría de los intentos falla, es simplemente la lectura más exacta de lo que ha ocurrido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de algo difícil, pregúntate si podrás en vez de decirte que sí. La pregunta te obliga a buscar razones; la afirmación solo anima.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ahora vale más encontrar el problema que resolverlo, porque las soluciones están a un clic",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera habilidad es la claridad, y Pink la define de una manera que se entiende enseguida. En un mundo donde cualquiera puede buscar la solución a un problema que ya tiene identificado, el trabajo valioso se ha desplazado un paso atrás: ayudar a alguien a descubrir un problema que no sabía que tenía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo ilustra con un estudio antiguo de arte que le sirve de metáfora. A unos estudiantes de bellas artes se les dio material y se les pidió un bodegón; unos cogieron los objetos y se pusieron a dibujar, y otros pasaron mucho rato manipulándolos y cambiándolos de sitio antes de empezar. Años después, los que habían dedicado tiempo a plantearse qué pintar habían tenido más éxito profesional.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca dos recomendaciones concretas. Una es la del comisario: dejar de producir información, que sobra, y dedicarse a filtrar, ordenar y explicar la que ya existe. La otra es preguntar más y afirmar menos, porque una pregunta bien puesta hace que el otro se conteste solo, y nadie discute una conclusión a la que ha llegado él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pink añade un truco de presentación que suena raro y está bien documentado: mencionar un inconveniente pequeño y real aumenta la persuasión, siempre que se diga antes que las ventajas y que el defecto sea menor. Funciona porque hace creíble todo lo demás, que es lo que se pierde cuando una oferta parece no tener ninguna pega.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La solución a un problema identificado la busca cualquiera. Lo que ya no encuentra nadie solo es qué problema tiene.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El discurso de ascensor ha muerto porque ya nadie escucha treinta segundos seguidos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pink dedica un capítulo a cómo se presenta hoy una idea, y empieza enterrando la fórmula clásica. El discurso de ascensor se inventó cuando existía la posibilidad de tener a alguien atrapado medio minuto; hoy esa persona mira el teléfono, y una presentación que necesita treinta segundos ininterrumpidos no llega a empezar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Propone seis formatos más cortos, y varios funcionan. El de una sola palabra, que obliga a decidir qué es lo único que se quiere que quede. El que consiste en una pregunta, que hace trabajar al otro en vez de recibir. El asunto de un correo, que es el formato que más gente juzga cada día en menos tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y uno que viene de un estudio de cine y es el más útil de todos. Consiste en contar cualquier cosa con seis frases encadenadas: había una vez, todos los días, un día, por eso, por eso, y hasta que finalmente. La estructura obliga a que haya una situación estable, una ruptura, unas consecuencias y un desenlace, que es lo que hace que algo se recuerde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cierra el libro con dos ideas sobre el trato. La primera es improvisar en vez de recitar: escuchar la objeción de verdad y construir sobre ella en lugar de aplicar la respuesta prevista. La segunda es que la persuasión aguanta mucho mejor cuando quien la ejerce puede decirse a sí mismo que el otro va a estar mejor después, y no solo él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuenta cualquier cosa con seis frases: había una vez, todos los días, un día, por eso, por eso, y hasta que finalmente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cinco cosas y no hace falta dedicarse a vender para usarlas. Calcular qué piensa el otro en vez de sentir lo que siente. Preguntarse si uno podrá en lugar de repetirse que sí. Dedicar tiempo a encontrar el problema antes de proponer nada. Mencionar un inconveniente pequeño y real antes de las ventajas. Y contar las cosas con la estructura de seis frases.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en el apoyo científico de una de sus piezas. La proporción de tres a uno entre emociones positivas y negativas que el libro presenta como un hallazgo fue retirada formalmente en 2013, un año después de publicarse esto, cuando se demostró que la base matemática con la que se había calculado no se sostenía. La idea general de que conviene más ánimo que desánimo sigue en pie; la cifra, no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en su propia prueba. El dato del cuarenta por ciento del tiempo, que es el que sostiene el título del libro, sale de una encuesta que encargó el propio autor para escribirlo. No es un fraude ni mucho menos, y tampoco es evidencia independiente: es una cifra fabricada para el argumento que iba a defender.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo que no podía prever en 2012 y que cambia su tesis central. Pink celebra que la información se haya equilibrado entre comprador y vendedor. Lo que ocurrió después es que la asimetría no desapareció, cambió de lado: hoy el comprador conoce el producto, y quien vende conoce al comprador —lo que mira, lo que busca, cuánto puede pagar y cuándo duda.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El comprador ya conoce el producto. Lo que no sabe es cuánto sabe de él quien se lo está vendiendo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "vender-es-humano": VENDER_ES_HUMANO,
   gulag: GULAG,
   patria: PATRIA,
   "procrastinacion-steel": PROCRASTINACION_STEEL,

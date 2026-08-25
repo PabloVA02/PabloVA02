@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "vender-es-humano": [
+    "por qué las técnicas de presión dejaron de funcionar, y no por ética",
+    "qué rinde más que sentir lo que siente el otro",
+    "qué carácter vende más, que no es el que se contrata",
+    "cómo hablarse a uno mismo antes de algo difícil",
+    "por qué encontrar el problema vale hoy más que resolverlo",
+  ],
+
   gulag: [
     "en qué año se abrieron los primeros campos, que no fue con Stalin",
     "por qué siguieron treinta años abiertos costando más de lo que producían",

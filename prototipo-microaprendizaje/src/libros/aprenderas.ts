@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "vender-es-humano":
+    "Una de cada nueve personas trabaja en ventas, y Pink se pregunta qué hacen las otras ocho. En su encuesta a siete mil trabajadores, los que no eran comerciales declararon dedicar unos veinticuatro minutos de cada hora a convencer a alguien.",
+
   gulag:
     "Gulag no era un lugar: eran las iniciales rusas de Dirección General de Campos, un departamento con nóminas, circulares y objetivos de producción. Applebaum calcula que dieciocho millones de personas pasaron por ellos entre 1929 y 1953.",
 

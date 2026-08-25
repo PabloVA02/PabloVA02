@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "vender-es-humano": "La sorprendente verdad sobre cómo convencer a los demás",
   gulag: "Historia de los campos de concentración soviéticos",
   "procrastinacion-steel": "Por qué dejamos para mañana lo que podemos hacer hoy",
   "amor-liquido": "Acerca de la fragilidad de los vínculos humanos",
