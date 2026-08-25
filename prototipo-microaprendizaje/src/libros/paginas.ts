@@ -88138,7 +88138,303 @@ const EFECTO_COMPUESTO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La ciencia de hacerse rico, en ocho paginas.
+
+   Breve. Libro practico de dinero -> afirmacion entera en el rotulo y SEGUNDA
+   PERSONA en la caja.
+
+   CUIDADO ESPECIAL. Este libro afirma que la pobreza la causa pensar en la
+   pobreza y que la enfermedad es cuestion de pensamiento. Eso NO se puede
+   reproducir como si fuera consejo. La formula es 'Wattles sostiene', y la
+   conclusion lo desmonta con todas las letras.
+
+   Seis argumentos: la sustancia pensante, crear en vez de competir, dar mas
+   valor de uso del que se cobra, hacer hoy lo de hoy y hacerlo bien, la imagen
+   clara con gratitud, y el sitio donde uno ya esta.
+
+   Lo bueno del libro es lo que casi nadie cita: la distincion entre mentalidad
+   creativa y competitiva, y la regla de entregar mas valor del que se cobra.
+   Eso son dos ideas de negocio decentes y no necesitan la metafisica.
+
+   QUE PASO DESPUES: Rhonda Byrne ha contado que El secreto empezo cuando su
+   hija le dio un ejemplar de este folleto de 1910. Ese es el dato que ordena la
+   conclusion.
+   -------------------------------------------------------------------------- */
+
+const CIENCIA_HACERSE_RICO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un folleto de 1910 sostiene que hacerse rico es una ciencia exacta con leyes como las del álgebra",
+      },
+      {
+        b: "texto",
+        texto:
+          "Wallace Wattles era un escritor estadounidense del movimiento llamado Nuevo Pensamiento, y publicó esto en 1910 en poco más de cien páginas. Murió al año siguiente, con unos cincuenta y un años. El libro estuvo prácticamente olvidado durante casi todo el siglo XX y hoy se vende en decenas de idiomas por una razón que se cuenta al final.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación de partida está en el título y la repite en el primer capítulo sin rodeos: hacerse rico no es cuestión de suerte, ni de talento, ni de entorno, sino de hacer las cosas de una determinada manera, y quien las haga se hará rico igual que quien aplique bien el álgebra obtendrá el resultado correcto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para sostenerlo señala algo real: en la misma ciudad, en el mismo barrio y en el mismo oficio hay gente que prospera y gente que no, y a veces son vecinos. De ahí concluye que la diferencia no puede estar en el entorno y tiene que estar en la manera de proceder. La observación es correcta y el salto lógico que hace después no lo es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre en qué consiste esa manera, qué distingue crear de competir, qué significa dar más de lo que se cobra, qué hay que hacer exactamente el lunes por la mañana, qué papel le da a la imaginación y a la gratitud, por qué dice que no hace falta cambiar de trabajo, y qué hay de cierto en todo ello.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En el mismo barrio y el mismo oficio hay quien prospera y quien no. La observación es correcta; lo que Wattles deduce de ella, no.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Toda la teoría se apoya en que el pensamiento actúa sobre una sustancia de la que están hechas las cosas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Antes de dar ningún consejo práctico, Wattles expone la creencia sobre la que se sostiene todo lo demás, y conviene contarla tal cual para saber qué se está leyendo. Sostiene que existe una sustancia pensante que lo impregna todo y de la que están hechas todas las cosas, y que un pensamiento impreso en ella produce aquello que se ha pensado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca su mecanismo. Formar una imagen mental clara de lo que se quiere, mantenerla con fe absoluta y sin dudar, y esa sustancia se pondrá en movimiento para traerlo. Wattles es explícito en que no se trata de una metáfora ni de una manera de motivarse: afirma que es una descripción literal de cómo funciona el universo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decirlo aquí y no solo en la última página: no hay ninguna prueba de que exista esa sustancia ni de que el pensamiento actúe así sobre el mundo material. Es una creencia religiosa del Nuevo Pensamiento estadounidense de finales del siglo XIX, y el libro la presenta como física. Todo lo que sigue se lee mejor sabiendo eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo más que conviene saber antes de seguir. De esa misma premisa Wattles deduce que la pobreza la causa pensar en la pobreza y que la enfermedad es un asunto de pensamiento equivocado. Es la parte más dañina del libro, es falsa, y se comenta entera al final porque es lo que separa lo aprovechable de lo que no lo es.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro afirma que una sustancia pensante convierte en cosas lo que se piensa. No es una metáfora suya: dice literalmente que funciona así.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Competir consiste en quitarle a otro lo que ya existe, y crear consiste en que haya más",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera idea aprovechable del libro, y la que casi nadie cita, es una distinción entre dos maneras de ganar dinero. Una es la competitiva: hay una cantidad fija de riqueza y prosperar consiste en arrancarle una parte a otro, ganándole el cliente, comprándole barato o quedándose con su sitio en el mercado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La otra es la creativa, y consiste en producir algo que antes no existía o hacer que exista más de algo. Wattles sostiene que quien piensa en modo competitivo se pasa la vida vigilando a los rivales, actúa siempre en reacción y se contagia de la mentalidad de escasez, mientras que quien piensa en modo creativo mira el hueco y no la competencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Escrito en 1910, ese planteamiento se adelanta bastante a lo que después ha repetido la literatura de estrategia empresarial durante décadas. La formulación es distinta, y la observación de fondo es la misma: pelear por la misma cuota que todos y crear una demanda que antes no existía no son la misma actividad ni dan los mismos resultados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Wattles añade una consecuencia moral que se puede aceptar sin comprarle la metafísica. Si se crea en vez de quitar, entonces enriquecerse no requiere que nadie pierda, y quien lo hace no tiene por qué actuar contra nadie. Es la parte del libro que mejor ha envejecido, y no depende en absoluto de que exista ninguna sustancia pensante.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pelear por la cuota que ya existe y crear algo que antes no había son dos actividades distintas, y no dan los mismos resultados.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay que entregar siempre más valor de uso del que se cobra en dinero",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda idea aprovechable es una regla concreta que Wattles repite varias veces. Distingue entre el valor de uso de algo, que es lo que le sirve a quien lo recibe, y su valor en dinero, que es lo que se cobra por ello. Y exige que lo primero sea siempre mayor que lo segundo en cada transacción.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que pone es de su época y se entiende igual. Un vendedor puede colocarle a un granjero un cuadro que no le sirve para nada, y habrá hecho una venta legal y un mal negocio a largo plazo; y puede venderle una herramienta que le ahorre trabajo durante años por bastante menos de lo que le va a valer, y habrá hecho lo contrario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla funciona sin ninguna metafísica detrás, y por eso se sostiene sola. Un cliente al que se le ha dado más de lo que ha pagado vuelve, recomienda y no discute el precio la siguiente vez, y el que ha pagado más de lo que ha recibido no vuelve aunque no se haya quejado. Wattles lo plantea como ley moral y funciona como cálculo comercial.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca además un criterio para elegir a qué dedicarse que sigue siendo utilizable. Si en un negocio no se puede dar más valor del que se cobra, entonces ese negocio depende de que el cliente no se entere, y eso tiene fecha de caducidad. La pregunta es sencilla de hacerse y bastantes actividades no la pasan.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que lo que entregas valga siempre más para el otro de lo que te paga. Si no puede ser, el negocio depende de que no se entere.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo único que se puede hacer para el futuro es hacer hoy bien todo lo de hoy",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte más práctica del libro es también la menos espectacular, y Wattles la formula con una insistencia que sorprende en un texto de este género. Dice que nada se consigue haciendo hoy el trabajo de mañana, que es imposible, y que la única manera de avanzar consiste en hacer hoy todo lo que se puede hacer hoy y hacer cada acto de manera eficaz.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo desarrolla con dos exigencias separadas. La primera es de cantidad: no dejar sin hacer nada de lo que hoy se podía hacer, porque lo aplazado se acumula y come el tiempo de mañana. La segunda es de calidad: cada tarea, por pequeña que sea, hecha del todo y no a medias, aunque nadie vaya a mirarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y avisa contra el error contrario, que en 1910 ya identificaba. Hay quien intenta hacer en un día el trabajo de tres para llegar antes, y lo que consigue es hacerlo todo mal y agotarse. Wattles insiste en que la prisa y la eficacia son cosas distintas, y que hacer muchas cosas deprisa y a medias no es avanzar sino generar trabajo futuro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esta es la parte del libro que hace de contrapeso a todo lo demás, y por eso conviene subrayarla. El texto que sostiene que el pensamiento crea la realidad dedica varios capítulos a decir que hay que trabajar todos los días, hacerlo bien y no aplazar nada. La contradicción es evidente y funciona a favor del lector.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No se puede hacer hoy el trabajo de mañana. Lo único disponible es hacer hoy todo lo de hoy, y hacerlo entero.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Wattles pide una imagen concreta y sostenida, y ahí sí hay algo que funciona por otro motivo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El método que propone empieza por formar una imagen mental muy definida de lo que se quiere. No un deseo vago de tener más dinero, sino algo concreto: qué casa, qué trabajo, qué vida, con detalles. Wattles insiste en que un deseo impreciso no produce nada y en que la mayoría de la gente nunca ha llegado a decidir qué quiere exactamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa parte sí funciona, y no por la razón que él da. Concretar un objetivo obliga a saber qué haría falta para conseguirlo, y con eso aparecen los pasos, los plazos y las decisiones que un deseo vago no permite ni plantear. La imagen no atrae nada: lo que hace es convertir una aspiración en un problema con soluciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo elemento es la gratitud, a la que dedica un capítulo entero. Wattles pide agradecer a diario lo que ya se tiene, y su argumento es que la gratitud mantiene la mente en contacto con lo que funciona en vez de con lo que falta. Es una práctica con efectos razonablemente documentados sobre el ánimo, aunque no sobre la cuenta corriente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el tercero es la fe sin dudas, que es donde el método se vuelve inatacable y por tanto inútil como afirmación. Si funciona, la fórmula era correcta; si no funciona, el fallo fue haber dudado. Wattles lo dice literalmente, y con eso el libro se blinda contra cualquier posible desmentido, que es la señal de que ha dejado de describir algo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Concretar qué quieres no atrae nada: convierte una aspiración en un problema con pasos, plazos y decisiones que se pueden ver.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No hace falta cambiar de oficio ni de ciudad para empezar, y eso es lo más sensato que dice",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos más útiles va contra la idea de que primero hay que ponerse en la situación adecuada. Wattles sostiene que nadie tiene que esperar a cambiar de trabajo, de ciudad o de sector para empezar a hacer las cosas de otra manera, y que quien no hace bien lo que tiene delante ahora tampoco lo hará cuando cambie de sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es de oportunidad. La ocasión de mejorar aparece casi siempre dentro de lo que uno ya está haciendo, porque es ahí donde tiene conocimiento, contactos y ocasión de demostrar algo; y quien está esperando la oportunidad grande suele estar dejando pasar las pequeñas que la habrían hecho posible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade una observación sobre el descontento que sigue siendo válida. Estar insatisfecho con el trabajo actual y hacerlo mal por eso es la manera más segura de no salir de él, porque nadie recomienda ni asciende a alguien que ha demostrado desgana. Wattles pide hacer el trabajo presente mejor que nadie precisamente para poder dejarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cierra ese capítulo con una advertencia que no encaja con la fama del libro. Dice que hay que actuar, no esperar; que la sustancia no le lleva a nadie nada a casa; y que la parte del método que consiste en pensar no sustituye en ningún caso a la parte que consiste en trabajar, sino que la dirige. Es lo más razonable que escribió.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hacer mal el trabajo que quieres dejar es la manera más segura de no poder dejarlo. Nadie recomienda a quien ha demostrado desgana.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro cosas y ninguna necesita creerse la teoría. Distinguir entre crear algo nuevo y pelear por la cuota que ya existe. Entregar siempre más valor del que se cobra, que además es buen cálculo. Hacer hoy todo lo de hoy y hacerlo entero. Y concretar qué se quiere hasta que se convierta en un problema con pasos, que es lo que un deseo vago nunca llega a ser.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en el mecanismo entero. No existe ninguna sustancia pensante que convierta pensamientos en cosas, y el libro lo afirma como un hecho físico, no como una imagen. Y su método está construido para no poder fallar: si no funciona, es que se dudó. Cualquier afirmación que solo pueda confirmarse ha dejado de decir algo del mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en algo que hay que decir con todas las letras. Wattles sostiene que la pobreza la produce pensar en la pobreza y que la enfermedad es un asunto de pensamiento equivocado. Eso es falso y además es cruel: convierte a quien está enfermo o arruinado en el responsable de estarlo, y le añade culpa a una situación que casi nunca eligió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí está el dato que explica por qué este folleto de 1910 sigue vendiéndose. Rhonda Byrne ha contado que El secreto empezó cuando su hija le puso en las manos un ejemplar de este libro, en un momento malo de su vida. De ahí salió el documental, el libro y un fenómeno de decenas de millones de ejemplares. Todo aquello viene de aquí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quédate con crear en vez de competir y con dar más valor del que cobras. Son dos ideas de negocio decentes y no necesitan nada de lo demás.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "ciencia-hacerse-rico": CIENCIA_HACERSE_RICO,
   "efecto-compuesto": EFECTO_COMPUESTO,
   "miedo-libertad": MIEDO_LIBERTAD,
   "kite-runner": KITE_RUNNER,

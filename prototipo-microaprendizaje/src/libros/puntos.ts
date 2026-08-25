@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "ciencia-hacerse-rico": [
+    "en qué se distingue crear algo nuevo de pelear por lo que ya existe",
+    "por qué conviene entregar siempre más valor del que se cobra",
+    "qué se puede hacer hoy de verdad para el futuro",
+    "qué consigue concretar un objetivo, que no es lo que dice el libro",
+    "qué parte de esta teoría es falsa y además hace daño",
+  ],
+
   "efecto-compuesto": [
     "cómo se separan dos personas idénticas sin decidirlo ningún día",
     "por qué hay que apuntar dos semanas antes de cambiar nada",

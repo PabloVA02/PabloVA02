@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "ciencia-hacerse-rico":
+    "Un folleto de 1910 que sostiene que hacerse rico no es cuestión de suerte ni de entorno, sino una ciencia exacta con leyes como las del álgebra. Estuvo olvidado casi todo el siglo XX y hoy se vende en decenas de idiomas.",
+
   "efecto-compuesto":
     "Un céntimo que se duplica cada día durante treinta y un días termina valiendo más de diez millones, y en el día veinte va perdiendo por muchísimo contra tres millones cobrados de golpe. Hardy aplica esa curva a la conducta diaria.",
 
