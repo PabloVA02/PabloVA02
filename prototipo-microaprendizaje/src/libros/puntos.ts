@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  siddhartha: [
+    "por qué hay conocimientos que nadie te puede transmitir",
+    "qué le da a alguien poder aguantar sin lo que necesita",
+    "cómo se acaba siendo aquello que se despreciaba",
+    "por qué escuchar bien es un oficio y no una actitud",
+    "qué cambia saber quién escribió algo y desde dónde",
+  ],
+
   originales: [
     "cómo distinguir una historia elegante de una prueba",
     "por qué conviene no dejar lo seguro mientras pruebas algo",

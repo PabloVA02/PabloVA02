@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  siddhartha:
+    "Su protagonista no es el Buda: es un joven inventado que se cruza con él y decide no seguirle. Hesse lo escribió en 1922, tras una crisis grave y un viaje a Asia que le decepcionó, y su India es una India leída.",
+
   originales:
     "Un seguimiento de cinco mil emprendedores encontró que quienes conservaron su empleo mientras montaban el negocio fracasaron un tercio menos. Grant sostiene que los originales no arriesgan más que la media: reparten el riesgo.",
 

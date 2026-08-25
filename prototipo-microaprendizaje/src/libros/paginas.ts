@@ -77328,7 +77328,270 @@ const ORIGINALES: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Siddhartha, en ocho páginas.
+
+   Breve. NARRATIVA → apartado 3 bis: título corto de imagen en el rótulo,
+   la afirmación en la primera frase de la página, y la caja en segunda
+   persona sacando de la escena una lección. El modelo es
+   `referencia/odisea/`.
+
+   Riesgo principal: la postal oriental. Este libro se lee desde los años
+   sesenta como manual espiritual, y así queda un resumen que sirve para
+   otros veinte libros. Lo que lo salva es lo concreto: que Siddhartha NO es
+   el Buda y se encuentra con él, que se hace rico y avaro, que abandona a
+   su hijo, y que su maestro final es un barquero que no enseña nada.
+
+   Y la conclusión dice de dónde salió: un europeo de 1922 escribiendo sobre
+   la India después de un viaje que le decepcionó, y qué hizo el libro en
+   los años sesenta.
+   -------------------------------------------------------------------------- */
+
+const SIDDHARTHA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El hijo del brahmán que se va" },
+      {
+        b: "texto",
+        texto:
+          "El protagonista de esta novela no es el Buda, aunque se llame como él y aunque casi todo el mundo lo dé por hecho. Siddhartha es un joven inventado, hijo de un brahmán, que lo tiene todo —posición, inteligencia, la admiración de su aldea— y que a pesar de eso decide marcharse porque nada de aquello le ha enseñado lo que quiere saber.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que quiere saber es sencillo de enunciar y no de conseguir. Ha oído toda su vida a los sabios recitar los textos sagrados y ha notado algo que nadie dice: que ninguno de ellos parece haber llegado a lo que describe. Repiten un conocimiento heredado y viven como cualquiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hermann Hesse publicó esto en 1922, con cuarenta y cinco años, después de una crisis personal grave, de un viaje a Asia que le decepcionó bastante y de un tratamiento psicoanalítico. No es un libro sobre budismo escrito por un budista: es un libro alemán de entreguerras que usa la India como escenario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue no es el argumento, que es breve y se cuenta en dos frases. Es lo que casi nadie recuerda de él: que se cruza con el Buda de verdad y no le sigue, que pasa veinte años siendo rico y avaro, que abandona a su propio hijo, y que su último maestro es alguien que no explica nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si quienes te enseñan algo no parecen haber llegado a lo que describen, esa es información sobre lo que enseñan.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Se cruza con el Buda y no le sigue" },
+      {
+        b: "texto",
+        texto:
+          "La escena que decide la novela ocurre pronto y es la que casi nadie cuenta. Siddhartha y su amigo Govinda llegan donde predica Gotama, el Buda histórico, y lo escuchan. Los dos reconocen inmediatamente que aquel hombre sí ha llegado a donde dice: se le nota en cómo camina y en cómo mira.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Govinda se queda con él y se hace monje. Siddhartha se marcha, y le explica al Buda por qué en una conversación breve y educadísima. Le dice que su doctrina es coherente y no tiene grietas, y que precisamente por eso no puede transmitir lo único que importa, que es lo que aquel hombre vivió por su cuenta bajo un árbol.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento que le da es el centro del libro: una enseñanza puede transmitir conocimiento y no puede transmitir experiencia, y lo que él busca es de la segunda clase. Aceptar la doctrina de otro sería exactamente el mismo error que cometía escuchando a los brahmanes de su aldea, con mejor maestro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo notable es que el libro no da la razón a ninguno de los dos. Govinda pasa la vida buscando dentro de una escuela y no llega; Siddhartha pasa la vida buscando fuera y llega tarde, después de haberlo hecho casi todo mal. Al final se reencuentran de viejos y ninguno de los dos ha tenido razón del todo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una enseñanza te puede pasar el conocimiento de alguien y nunca su experiencia, y hay cosas que solo existen en la segunda.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los tres oficios del asceta" },
+      {
+        b: "texto",
+        texto:
+          "Antes de eso, Siddhartha pasa unos años con unos ascetas que ayunan, no duermen y se maltratan el cuerpo. Cuando un mercader le pregunta más tarde qué sabe hacer, le contesta con tres cosas que ha aprendido allí y que constituyen la mejor frase del libro: sé pensar, sé esperar y sé ayunar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y explica para qué sirve cada una en el mundo de los negocios, que es donde está en ese momento. Saber pensar le permite ver el fondo de un asunto. Saber esperar le permite no cerrar un trato malo por impaciencia. Y saber ayunar le permite aguantar sin comer, lo que significa que nadie puede presionarle con la necesidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa tercera es la que menos se entiende y la que más peso tiene. Quien puede pasar hambre no tiene urgencia, y quien no tiene urgencia negocia desde otro sitio. No es una virtud espiritual: es una posición de fuerza, y Siddhartha la usa exactamente así, para hacerse rico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La novela lo dice sin adornarlo: las tres capacidades que aprendió buscando la iluminación le sirven estupendamente para el comercio. Una disciplina no viene con instrucciones sobre para qué usarla, y la misma que sirve para renunciar sirve para acumular.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien puede aguantar sin lo que necesita no tiene urgencia, y quien no tiene urgencia negocia desde otro sitio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Veinte años de rico" },
+      {
+        b: "texto",
+        texto:
+          "La parte del libro que menos se cuenta es la más larga. Siddhartha se instala en la ciudad, se hace socio de un comerciante, se hace muy rico, aprende a jugar y a beber, y pasa unos veinte años viviendo exactamente como la gente de la que se había marchado. No es una caída rápida ni un episodio: es la mitad de su vida adulta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hesse describe cómo ocurre y es lo mejor escrito de la novela, porque no ocurre de golpe. Al principio lo hace como un juego, mirando desde fuera y sin tomárselo en serio; después empieza a importarle perder; y en algún momento, sin fecha, deja de estar jugando y pasa a estar dentro, y ya no puede parar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que le pasa al final de esos años tiene un nombre en el libro: se ha vuelto avaro, impaciente y desagradable, y se sorprende una mañana comportándose como los mercaderes que despreciaba. La palabra que usa Hesse es que la enfermedad del alma de la gente rica se le ha pegado, y que ni siquiera se dio cuenta de cuándo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle que lo remata: se marcha de allí sin decir nada a nadie, exactamente igual que se marchó de casa de su padre veinte años antes, y con el mismo gesto de dejar todo lo construido. La novela no lo presenta como una liberación: lo presenta como que hace lo mismo otra vez.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie decide un día volverse lo que despreciaba: se empieza jugando desde fuera y no hay ninguna mañana en que se note el cambio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un barquero que no enseña nada" },
+      {
+        b: "texto",
+        texto:
+          "El maestro definitivo del libro es un hombre que no sabe leer, que no tiene doctrina y que no explica nada. Vasudeva es el barquero que cruza a la gente de una orilla a otra, y lo único que hace bien, según él mismo, es escuchar. Siddhartha se queda con él y se pasa el resto de la vida cruzando gente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aprende ahí no se lo dice nadie: lo aprende del río, que en esta novela funciona como la única idea filosófica que Hesse desarrolla de verdad. El río está en todas partes a la vez —en la fuente, en la desembocadura, en el mar— y sin embargo siempre es el mismo río y siempre es ahora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca la conclusión que ordena el libro: que el tiempo no existe de la manera en que lo tratamos. Que el niño que fue, el rico que fue y el viejo que es no están en fila esperando turno, sino a la vez, igual que el agua. Y que casi todo el sufrimiento consiste en tratar una etapa como si fuera un error del camino.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es una idea que suena a taller y que la novela se gana, porque llega después de doscientas páginas en las que ese hombre ha hecho el ridículo, ha sido avaro, ha sido cruel y ha perdido a todo el mundo. No es una consigna: es lo que uno se puede decir con sesenta años y habiéndolo estropeado casi todo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escuchar bien es un oficio, y hay quien lo hace mejor sin haber leído un libro que quien ha leído todos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El hijo que se va" },
+      {
+        b: "texto",
+        texto:
+          "La parte más dura del libro llega al final y es la que impide leerlo como un manual de serenidad. Siddhartha descubre que tiene un hijo de once años, criado por Kamala en la ciudad, y cuando ella muere se lo lleva a vivir a la cabaña del río.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El chico lo odia. Está acostumbrado a la ciudad, al dinero y a los criados, y no entiende qué hace en una choza con dos viejos que no tienen nada. Siddhartha, que ha renunciado a todo durante cincuenta años, descubre que no es capaz de renunciar a esto: le retiene, le consiente, le suplica y le persigue.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hijo acaba robándole el dinero y marchándose a la ciudad, y él sale detrás hasta que Vasudeva le hace volver. La escena en la que entiende lo que está haciendo es la mejor del libro: reconoce que está repitiendo con su hijo lo que hizo su propio padre con él, que le dejó marchar sufriendo y en silencio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que la novela deja claro es que esa herida no se cierra. No hay una página en la que aquello se resuelva ni un consuelo que se lo quite; simplemente aprende a llevarla. Un libro que en todas partes se vende como manual de paz interior termina con un padre que perdió a su hijo y no lo recupera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay heridas que no se resuelven ni se explican: solo se aprende a llevarlas, y eso ya es todo lo que había.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un alemán de 1922 escribiendo sobre la India" },
+      {
+        b: "texto",
+        texto:
+          "Conviene saber de dónde sale este libro, porque cambia cómo se lee. Hesse era hijo y nieto de misioneros protestantes que habían estado en la India, creció en una casa llena de objetos y de libros indios, y viajó al sudeste asiático en 1911 esperando encontrar algo que no encontró: volvió decepcionado y enfermo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Escribió esto once años después, en Suiza, tras una crisis grave, la ruptura de su matrimonio y un tratamiento con un discípulo de Carl Jung. Es un libro europeo de entreguerras, escrito por alguien que buscaba una salida a su propia situación, y su India es una India leída y no una India vivida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso explica sus mezclas, que a un lector indio le resultan raras. El libro junta elementos hindúes y budistas que pertenecen a tradiciones distintas y que discuten entre sí, y su idea final —el río, la unidad del tiempo— se parece bastante más al pensamiento romántico alemán que a cualquiera de las dos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Decirlo no es un reproche, es situarlo. Como novela sobre alguien que busca, funciona; como retrato de una tradición religiosa concreta, no, y millones de lectores lo han usado durante décadas como si fuera lo segundo, que es probablemente el destino más raro que ha tenido un libro alemán de 1922.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Saber quién escribió algo y desde dónde no es un dato de archivo: cambia qué clase de cosa estás leyendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La novela sostiene una sola cosa y la sostiene bien: que hay conocimientos que no se pueden recibir de nadie, y que el precio de averiguarlos por cuenta propia es hacerlo todo mal durante muchos años. Su protagonista se cruza con el Buda y no le sigue, se hace rico y avaro, abandona su vida dos veces y pierde a su hijo, y solo entonces llega a algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en lo que le resulta fácil. La segunda mitad se apoya en el símbolo del río durante muchas páginas, y ahí la prosa se pone solemne y repetitiva; lo que en las escenas concretas está bien contado, en las contemplativas se convierte en una sucesión de frases con la misma cadencia. Y los personajes femeninos existen únicamente en función de lo que le enseñan a él: Kamala le enseña el amor y el placer, y después muere para que él pueda continuar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también, si se lee como lo que no es, en su versión de la India. Mezcla tradiciones que no se mezclan, y su conclusión sobre el tiempo debe más al romanticismo alemán que al budismo. Es una novela sobre buscar, escrita por un europeo en crisis, y ha sido leída durante sesenta años como manual espiritual oriental.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después explica esa lectura. El libro no fue especialmente popular en su momento; se tradujo al inglés en 1951 y se convirtió en un fenómeno en Estados Unidos en los años sesenta, cuando toda una generación lo leyó como una autorización para dejarlo todo y buscar por su cuenta. Hesse había ganado el Nobel en 1946 y murió en 1962, justo antes de aquello.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se lee como un manual de serenidad y termina con un padre que perdió a su hijo y no lo recupera nunca.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  siddhartha: SIDDHARTHA,
   originales: ORIGINALES,
   "mujeres-aman-demasiado": MUJERES_AMAN_DEMASIADO,
   "revolucion-glucosa": REVOLUCION_GLUCOSA,
