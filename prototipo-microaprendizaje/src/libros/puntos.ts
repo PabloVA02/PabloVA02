@@ -80,7 +80,7 @@
 
 export const PUNTOS: Record<string, string[]> = {
   "primavera-silenciosa": [
-    "qué le pasa a un veneno que no se degrada después de hacer su trabajo",
+    "qué le pasa a un veneno que no se degrada tras hacer su trabajo",
     "por qué una concentración inofensiva deja de serlo tres escalones más arriba",
     "cómo murieron unos pájaros a los que nadie había fumigado",
     "por qué fumigar más produce insectos más difíciles de matar",
