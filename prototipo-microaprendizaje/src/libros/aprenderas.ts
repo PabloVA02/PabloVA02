@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "metodo-wim-hof":
+    "En 2014, doce voluntarios entrenados diez días en este método resistieron mejor una inyección de endotoxina que doce sin entrenar. Aquello rompió una creencia previa: que la respuesta inflamatoria no se podía influir a voluntad.",
+
   "frida-herrera":
     "En 1983 Frida Kahlo era conocida sobre todo como la mujer de Diego Rivera. De este libro salieron las exposiciones, el mercado y la imagen que hoy está en camisetas: no describe un fenómeno, en buena parte lo produjo.",
 

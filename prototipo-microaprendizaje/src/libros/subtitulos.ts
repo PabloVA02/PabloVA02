@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "metodo-wim-hof": "Activa todo tu potencial",
   "frida-herrera": "Una biografía de Frida Kahlo",
   "nunca-comas-solo": "Y otros secretos para el éxito, una relación cada vez",
   "el-cerebro": "Nuestra historia",

@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "metodo-wim-hof": [
+    "de dónde vienen las ganas de respirar, que no es del oxígeno",
+    "por qué esta técnica no se hace nunca dentro del agua",
+    "qué demostró exactamente el estudio que sostiene el método",
+    "las tres cosas que ese estudio no puede decir",
+    "qué se sabe del agua fría cuando se mide por separado",
+  ],
+
   "frida-herrera": [
     "cómo reaparece después una formación que alguien no llegó a terminar",
     "qué sale de pintar teniendo un solo modelo disponible",

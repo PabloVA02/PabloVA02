@@ -73972,7 +73972,293 @@ const FRIDA_HERRERA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El método Wim Hof, en ocho páginas.
+
+   Breve. Libro práctico de salud → afirmación entera en el rótulo y SEGUNDA
+   PERSONA en la caja (apartado 4.7).
+
+   SALUD, y aquí manda todo lo del apartado 4 bis. La prueba del sustituto:
+   si una página funcionara cambiando el frío por otra cosa, está vacía. Y
+   sobre todo: «en Salud la regla 5 no es opcional, es la mitad del valor».
+
+   Por eso la página tercera es entera de seguridad. Esta técnica ha matado
+   gente que la hizo dentro del agua, y un resumen que no lo diga con todas
+   las letras no vale nada, por muy bien escrito que esté.
+
+   Y hay que separar con cuidado lo que demostró el estudio de Radboud de
+   2014 —que es real y es importante— de todo lo que se le ha colgado encima.
+   -------------------------------------------------------------------------- */
+
+const METODO_WIM_HOF: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El método tiene tres partes y solo una de ellas ha pasado por un laboratorio",
+      },
+      {
+        b: "texto",
+        texto:
+          "Wim Hof es un holandés nacido en 1959 al que llaman el hombre de hielo. Ha permanecido más de una hora y cincuenta minutos metido en un cajón lleno de hielo, ha subido por encima de los siete mil metros en el Everest en pantalón corto y ha corrido una media maratón descalzo por encima del círculo polar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su método tiene tres piezas y él insiste en que las tres van juntas: exposición al frío, una técnica de respiración concreta y lo que llama compromiso, que es la parte mental. Las dos primeras se pueden describir con precisión; la tercera es donde el libro deja de ser comprobable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una razón para tomárselo en serio antes que a cualquier otro libro parecido, y es que existe un estudio publicado en 2014 en el que se sometió a prueba en un hospital universitario. Ese estudio dio un resultado real e importante, y también es mucho más pequeño y mucho más limitado de lo que se dice en todas partes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre qué hace exactamente la respiración en el cuerpo, la advertencia de seguridad que hay que leer antes que nada, qué demostró aquel estudio, qué es lo que no puede demostrar, qué se sabe del frío por sí solo, y qué parte del libro no se puede comprobar de ninguna manera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de probar cualquier técnica corporal, separa lo que se ha medido en un laboratorio de lo que se le ha colgado encima.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La respiración funciona bajando el dióxido de carbono, y eso explica todo lo que se siente",
+      },
+      {
+        b: "texto",
+        texto:
+          "La técnica es sencilla de describir. Tumbado o sentado, se hacen entre treinta y cuarenta respiraciones profundas seguidas: se llena el pecho a fondo y se suelta el aire sin forzar. Después se vacían los pulmones y se aguanta sin respirar todo lo que se pueda sin agobio. Luego una inspiración profunda, retenerla quince segundos, y se repite tres o cuatro veces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurre por dentro tiene nombre y no tiene misterio. Respirar mucho y rápido no aumenta apenas el oxígeno de la sangre, que ya iba casi lleno, pero sí expulsa dióxido de carbono en grandes cantidades. Al bajar el dióxido de carbono, la sangre se vuelve algo más alcalina, y eso es lo que produce el hormigueo en manos y cara y el mareo ligero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y explica el efecto que más impresiona a quien lo prueba: aguantar la respiración dos o tres minutos sin haber entrenado nunca. Las ganas de respirar no las produce la falta de oxígeno, las produce la acumulación de dióxido de carbono; si se ha vaciado antes, la señal de alarma tarda mucho más en llegar aunque el oxígeno esté bajando igual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa frase de arriba contiene a la vez el efecto y el peligro, y es la razón de la página siguiente. La técnica desactiva la alarma sin desactivar el problema: el cuerpo deja de avisar de que le falta oxígeno mientras le sigue faltando, y esa es exactamente la definición de una situación en la que alguien puede perder el conocimiento sin notarlo venir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las ganas de respirar no vienen de que falte oxígeno: vienen del dióxido de carbono, y esta técnica lo quita antes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Esta respiración no se hace nunca dentro del agua ni cerca de ella" },
+      {
+        b: "texto",
+        texto:
+          "Esta página es la más importante de todo el resumen y va antes que cualquier beneficio. La técnica de respiración no se practica dentro de una bañera, ni en una piscina, ni en el mar, ni de pie, ni conduciendo, ni en ningún sitio donde caerse tenga consecuencias. Se hace tumbado en el suelo o sentado con la espalda apoyada, y nada más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo es el mecanismo de la página anterior. Al haber expulsado el dióxido de carbono, la persona no siente ninguna urgencia de respirar mientras el oxígeno de su sangre va bajando, y puede perder el conocimiento de golpe y sin ningún aviso previo. Fuera del agua eso es un susto; dentro del agua es un ahogamiento en aguas poco profundas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No es una precaución teórica. Se han documentado muertes por ahogamiento de personas que hacían esta respiración metidas en el agua, y varias de ellas ocurrieron en piscinas y bañeras a poca profundidad, con gente cerca que no se dio cuenta porque no hubo ninguna lucha ni ningún ruido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El propio libro lo advierte, y hay que reconocérselo. El problema es que la advertencia desaparece en el momento en que la técnica se copia de un vídeo, y la imagen que más circula de este método es exactamente la de alguien metido en agua helada. Quien lo cuente sin decir esto está contando la mitad peligrosa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tumbado en el suelo y nunca en el agua: la técnica quita el aviso sin quitar el problema, y por eso no hay lucha ni ruido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En 2014, doce voluntarios entrenados resistieron mejor una inyección de endotoxina",
+      },
+      {
+        b: "texto",
+        texto:
+          "El estudio que sostiene la credibilidad de todo esto se hizo en el hospital universitario Radboud, en Nimega, y se publicó en 2014. Doce voluntarios sanos recibieron diez días de entrenamiento en el método, con frío, respiración y meditación, y otros doce, sin ningún entrenamiento, hicieron de grupo de control.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El grupo entrenado produjo mucha más adrenalina que el de control, más de una sustancia que apaga la inflamación y bastante menos de las tres que la encienden, y sus miembros declararon muchos menos síntomas de gripe durante las horas siguientes. La diferencia entre los dos grupos fue clara, no marginal, y el trabajo se publicó en una revista científica de primer nivel.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El grupo entrenado produjo mucha más adrenalina, más de una sustancia que apaga la inflamación y bastante menos de las tres que la encienden, y declaró muchos menos síntomas. La diferencia fue clara y se publicó en una revista de primer nivel.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo importante de ese resultado no es lo que promete un folleto, sino lo que rompió: hasta entonces se daba por hecho que el sistema nervioso autónomo y la respuesta inmunitaria innata no se podían influir voluntariamente. Aquello demostró que sí se puede, al menos durante unas horas y al menos en esa situación concreta. Es un hallazgo de verdad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que aquel estudio rompió fue una creencia previa: que la respuesta inflamatoria no se podía influir a voluntad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ese mismo estudio no puede decir tres cosas que se le atribuyen todos los días",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo primero que no puede decir es cuál de las tres partes del método produjo el efecto. Los voluntarios entrenaron a la vez frío, respiración y meditación, así que el resultado corresponde al paquete completo y no hay manera de saber si lo hizo la respiración sola, el frío solo o la combinación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo segundo es cuánta gente. Doce personas por grupo es una muestra muy pequeña, hecha en un solo laboratorio, con hombres jóvenes y sanos. Un resultado así es una señal fuerte para seguir investigando y no es una conclusión establecida sobre la población general, ni sobre mujeres, ni sobre personas mayores, ni sobre enfermos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo tercero es qué pasa a largo plazo. Aquello midió una reacción aguda de unas horas ante un desafío provocado en un hospital. No dice absolutamente nada sobre resfriados, sobre enfermedades autoinmunes, sobre inflamación crónica ni sobre vivir más años, que es exactamente lo que se le atribuye en casi todos los sitios donde se cita.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una cosa más que conviene saber: apagar la inflamación no siempre es bueno. La inflamación es la respuesta con la que el cuerpo combate una infección, y suprimirla en el momento equivocado puede empeorar el cuadro. Que se pueda influir voluntariamente es un hallazgo; que convenga hacerlo depende de la situación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Doce personas sanas y una reacción de unas horas: eso es una señal para seguir investigando y no una conclusión sobre nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Del frío por su cuenta se sabe menos de lo que se vende y algo más que nada",
+      },
+      {
+        b: "texto",
+        texto:
+          "El frío se ha estudiado por separado y los resultados son más modestos que la propaganda y menos que cero. El trabajo mejor dimensionado que existe es un ensayo holandés publicado en 2016 con unos tres mil participantes, que se repartieron al azar entre terminar la ducha con agua fría durante treinta, sesenta o noventa segundos, o no hacerlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los que se duchaban con agua fría declararon alrededor de un veintinueve por ciento menos de días de baja laboral. Pero cuando se enfermaban, no estuvieron enfermos menos días ni con menos síntomas: la diferencia parece estar en que iban a trabajar igualmente, no en que enfermaran menos, y eso cambia bastante lo que significa el dato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí está razonablemente establecido es más pequeño y más inmediato: el frío produce una descarga de noradrenalina que mejora el estado de ánimo y el estado de alerta durante un rato, y activa el tejido adiposo pardo, un tipo de grasa que quema energía para generar calor. Nada de eso equivale a adelgazar de manera apreciable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un aviso médico que el libro pasa por encima. Un choque de frío sube la tensión arterial de golpe y produce un jadeo involuntario, así que no es inocuo para quien tenga problemas de corazón, arritmias o hipertensión mal controlada. La costumbre de empezar por treinta segundos al final de la ducha no es prudencia excesiva: es lo correcto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El dato más sólido del frío no dice que enfermes menos: dice que fuiste a trabajar igual, y no es lo mismo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La tercera parte del método no se puede medir, y ocupa media biografía",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercer pilar, el que Hof llama compromiso, no se puede comprobar y él no lo presenta como si se pudiera. Es la parte del libro donde se habla del fuego interior, de la voluntad y de que el cuerpo puede mucho más de lo que la cabeza le concede, y su prueba es su propia biografía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa biografía tiene un centro que explica el tono del libro entero. En 1995 su mujer, Olaya, se quitó la vida, y él quedó solo con cuatro hijos pequeños. Cuenta que el agua helada fue el único sitio donde conseguía dejar de pensar, y que su método salió de ahí y no de ninguna curiosidad fisiológica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso hay que leerlo con cuidado en las dos direcciones. Por un lado es sincero, y explica por qué el libro insiste tanto en algo que ningún estudio puede medir. Por otro, una historia así funciona como argumento aunque no lo sea: convence de algo que no está demostrado, y el lector no siempre nota que ha cambiado de terreno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El límite se ve en lo que Hof ha llegado a afirmar fuera del libro, que incluye que su método puede ayudar en la depresión, en enfermedades autoinmunes y hasta en el cáncer. Nada de eso está respaldado, y quien tenga una enfermedad seria y esté decidiendo qué hacer con ella necesita saber exactamente dónde se acaba la evidencia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una historia personal convence sin demostrar nada, y conviene notar el momento exacto en que se ha cambiado de terreno.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que se lleva alguien de aquí son tres cosas. Cómo funciona la respiración y por qué produce lo que produce. Que existe un hallazgo real de 2014: la respuesta inflamatoria se puede influir voluntariamente, cosa que antes se daba por imposible. Y una advertencia de seguridad que puede evitar una muerte, porque la técnica quita el aviso sin quitar el peligro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la distancia entre ese hallazgo y lo que se afirma. Un estudio con doce personas sanas, en un laboratorio, sobre una reacción de unas horas, se ha convertido en la base de afirmaciones sobre enfermedades crónicas, autoinmunidad y cáncer que ese estudio no puede sostener ni de lejos. La parte científica del libro es pequeña y buena; lo que se ha construido encima, ni una cosa ni la otra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en distinguirse a sí mismo de su autor. Hof lleva cuarenta años haciendo esto y es además un caso extremo, y el libro no marca en ninguna parte qué puede esperar alguien que empiece hoy. Y el capítulo del frío pasa muy por encima de a quién no le conviene, que es exactamente el sitio donde un libro de salud tiene que ser más pesado y no menos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ha pasado después va en las dos direcciones. La investigación ha seguido, con estudios posteriores más pequeños y de resultados mezclados que no han confirmado las promesas grandes. Y por el otro lado se han documentado ahogamientos de personas que hacían la respiración dentro del agua, con demandas judiciales de por medio, y la organización que enseña el método ha tenido que reforzar sus advertencias.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La parte comprobada es pequeña y de verdad; lo que se ha construido encima no lo es, y la diferencia importa mucho aquí.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "metodo-wim-hof": METODO_WIM_HOF,
   "frida-herrera": FRIDA_HERRERA,
   "cumbres-borrascosas": CUMBRES_BORRASCOSAS,
   "nunca-comas-solo": NUNCA_COMAS_SOLO,
