@@ -9,8 +9,9 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 | shorts escritos | 757 | 243 para llegar a 1000 |
 | shorts con sus cuatro fotos | 532 | 225 |
 | imágenes puestas | 2139, verificadas hasta 1854 | |
-| portadas de los libros | 200 de 200 | 0 |
-| libros con resumen escrito a mano | 223 de 223 | 0 |
+| libros en el catálogo | 418 | |
+| libros con resumen escrito a mano | 315 | 103 |
+| cubiertas dibujadas por Pablo | 265 | 50 escritos sin dibujo |
 | resúmenes antiguos generados | 0 | 0 |
 | títulos que no caben en una línea | | 0 |
 | entradas que dejan hueco abajo | 228 alargadas | 0 |
@@ -263,7 +264,9 @@ Pablo, el 24 de agosto de madrugada:
 
 O sea, dos cosas y en este orden:
 
-1. **Llegar a 350 en el catálogo.** Comercial: personalidades muy conocidas,
+1. **Llegar a 400 escritos.** El catálogo ya tiene 418; el 25 de agosto por
+   la noche Pablo subió el objetivo de 350 a 400 y pidió priorizar autoayuda
+   con promesas de dinero y de éxito. Comercial: personalidades muy conocidas,
    amor y sexo, autoayuda con título de promesa, superventas. Un poco de todas
    las categorías.
 2. **Escribirlos todos**, con las normas de `REDACCION.md`, sin parar.
@@ -409,8 +412,8 @@ después los conocidos y al final el resto por categorías.
 
 ## LAS CUBIERTAS DE PABLO NO SE TOCAN SIN QUE ÉL LO DIGA
 
-Son 216, están en `cubiertas-originales/` y son **lo único del proyecto que no
-se puede rehacer**: un resumen mal escrito se reescribe en veinte minutos, un
+Son 265, están en `cubiertas-originales/` a 1024 de ancho, y son **lo único
+del proyecto que no se puede rehacer**: un resumen mal escrito se reescribe en veinte minutos, un
 dibujo no.
 
 El 25 de agosto retiré 81 con `quita-cubiertas.mjs` porque me pareció que
@@ -428,8 +431,8 @@ Lo que hay que hacer distinto la próxima vez:
 3. **Ante la duda, se deja puesta y se pregunta.**
 
 Y para saber cuántas faltan de verdad, el cruce es entre `catalogo.ts` y
-`cubiertas.ts`, separando escritos de pendientes: hoy **216 dibujadas, 60
-libros escritos sin dibujo y 142 pendientes**. La lista con título, autor y año
+`cubiertas.ts`, separando escritos de pendientes: hoy **265 dibujadas, 50
+libros escritos sin dibujo y 103 pendientes de escribir**. La lista con título, autor y año
 está en `PORTADAS-QUE-FALTAN.md` y se regenera sola.
 
 ## Lo que está cerrado y no se toca
@@ -481,11 +484,23 @@ Guarda WebP de 1024 de ancho en `cubiertas-originales/`, unos 150 kB cada uno.
 **Se hace SIEMPRE al recibir una tanda, antes de `mete-cubiertas.mjs`**, porque
 después el zip ya no está.
 
-**Van 50 de 121 archivados**, que son las tandas del 21 de agosto. Las otras 71
-—las anteriores a esa fecha— solo existen a 480 de ancho, y sus originales se
-perdieron con los contenedores de aquellos días. Si Pablo los conserva, merece
-la pena que los vuelva a mandar; si no, la app funciona igual, pero esas
-cubiertas no se podrán volver a generar a otro tamaño nunca.
+**Están archivadas las 265**, auditado el 25 de agosto: `git ls-files
+cubiertas-originales | wc -l` da el mismo número que `ls
+cubiertas-originales/*.webp | wc -l`, y la rama remota lleva las mismas 265.
+Ninguna vive ya solo a 480 de ancho.
+
+El orden al recibir una tanda no se negocia, y es este:
+
+    1. unzip a una carpeta temporal
+    2. node scripts/archiva-cubiertas.mjs <carpeta>   ← ANTES QUE NADA
+    3. git add cubiertas-originales && git commit && git push
+    4. node scripts/mete-cubiertas.mjs <carpeta> --ancho 520 --calidad 0.88
+    5. hojas de contacto y ESCRIBIR LAS DESCRIPCIONES alt MIRÁNDOLAS
+
+El paso 5 no se puede saltar: `mete-cubiertas.mjs` deja un texto de relleno y
+`revisa-fichas.mjs` lo canta como «descripción demasiado corta». Y no se
+inventa: se hace una hoja de contacto de doce en doce y se describe lo que se
+ve.
 
 Los cuatro sitios, y qué va en cada uno:
 
