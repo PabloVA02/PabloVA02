@@ -65589,7 +65589,7 @@ const MAGIA_ORDEN: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Y hay una parte que suele leerse como excentricidad y tiene su lógica: agradecer a lo que se descarta antes de soltarlo. Kondo lo explica sin misticismo cuando se le pregunta bien: sirve para cerrar la decisión y para que no vuelva la culpa, que es lo que hace que la gente recupere cosas de la bolsa.",
+          "Y hay una parte que suele leerse como excentricidad y tiene su lógica: agradecer a lo que se descarta antes de soltarlo. Kondo lo explica sin misticismo cuando se le pregunta bien: sirve para cerrar la decisión y para que no vuelva la culpa, que es lo que hace que la gente recupere cosas de la bolsa. Y una advertencia sobre la traducción, que ha hecho mucho ruido: en inglés se tradujo por «spark joy», y en español por «dar alegría», pero lo que la palabra japonesa describe es más una punzada física que una emoción declarada.",
       },
       {
         b: "idea",
@@ -65709,7 +65709,7 @@ const MAGIA_ORDEN: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Lo que sí se puede decir es que el método tiene una virtud que casi ningún otro tiene: es completo y está ordenado. Dice qué hacer, en qué orden, con qué criterio y qué no hacer, y eso ya lo distingue de la mayoría de los consejos sobre el asunto.",
+          "Lo que sí se puede decir es que el método tiene una virtud que casi ningún otro tiene: es completo y está ordenado. Dice qué hacer, en qué orden, con qué criterio y qué no hacer, y eso ya lo distingue de la mayoría de los consejos sobre el asunto. El libro sí admite una excepción a la promesa: los papeles, que vuelven solos porque los trae el buzón y no dependen de ninguna decisión de quien vive en la casa.",
       },
       {
         b: "idea",
