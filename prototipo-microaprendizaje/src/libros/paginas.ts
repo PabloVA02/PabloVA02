@@ -67857,7 +67857,290 @@ const MALCOLM_X: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Imparable, de Tim Grover, en ocho páginas.
+
+   Breve. Libro práctico → afirmación entera en el rótulo y SEGUNDA PERSONA
+   en la caja del rayo (apartado 4.7).
+
+   Riesgo principal: repetir el folleto. Es el libro del entrenador de
+   Jordan y de Kobe, y un resumen suyo se convierte solo en una arenga si no
+   lleva dentro las escenas concretas —la carta de 1989, la noche de Las
+   Vegas de 2012, el puñetazo a Steve Kerr— y si no dice dónde se pasa.
+
+   Y se pasa: el capítulo del «lado oscuro» convierte en método una conducta
+   que fuera de un vestuario es un problema laboral. La conclusión lo dice, y
+   dice también lo que Jordan reconoció en cámara en 2020.
+   -------------------------------------------------------------------------- */
+
+const RELENTLESS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro no promete talento: promete describir a quién se busca cuando todo va mal",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1989, un ayudante de veinticuatro años de la Universidad Loyola de Chicago mandó cartas a los jugadores de los Bulls ofreciéndose como preparador personal y regalando los treinta primeros días. Contestó uno: Michael Jordan. Tim Grover trabajó con él quince años, y después con Kobe Bryant y Dwyane Wade.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación es que hay tres maneras distintas de estar dentro de un equipo, que casi nadie cambia de una a otra por mucho que se lo proponga, y que la diferencia entre las tres se ve en un solo instante: cuando algo sale mal y todo el mundo mira a los lados esperando que hable otro. Lo demás del libro son las consecuencias de esa clasificación, aplicadas a los entrenamientos, a los vestuarios y a las oficinas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación es que hay tres maneras de estar en un equipo, que casi nadie cambia de una a otra, y que la diferencia se ve en un solo instante: cuando algo sale mal y todo el mundo mira a los lados. Lo demás del libro son las consecuencias de esa clasificación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre esas tres maneras, la diferencia entre decidir y sugerir, por qué el trabajo no tiene por qué gustarte, qué significa exactamente dejar de pensar y dónde vale eso, el capítulo donde el libro se sale de la carretera, y la parte más sensata y menos citada de todas, que es la del descanso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se ve quién eres en el instante en que algo sale mal y la responsabilidad se queda sin dueño.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay tres maneras de estar en un equipo y casi nadie cambia de una a otra",
+      },
+      {
+        b: "texto",
+        texto:
+          "La clasificación de Grover es la columna del libro y usa tres nombres sacados del vestuario. El refrigerador, el cerrador y el limpiador. No mide el talento de cada uno, mide qué hace cuando llega el momento en que hay que decidir algo sin tener toda la información.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "El refrigerador", texto: "espera instrucciones, evita el conflicto y se queda quieto en el momento decisivo. Puede ser buenísimo en todo lo demás." },
+          { fuerte: "El cerrador", texto: "aparece cuando se le llama y responde bien bajo presión, pero necesita que le pidan que aparezca y quiere que se le reconozca después." },
+          { fuerte: "El limpiador", texto: "asume el resultado antes de que nadie se lo pida, no espera permiso, no reparte la culpa y no se para a celebrar lo que sale bien." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "La distinción interesante no está entre el primero y los otros dos, que es evidente, sino entre los dos últimos. El cerrador quiere el momento; el limpiador quiere que el problema desaparezca y le da igual quién quede en la foto. Grover sostiene que esa diferencia es la que separa una buena carrera de una carrera entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro deja además claro que ser refrigerador no es un defecto moral y que la mayoría de las personas de cualquier organización lo son. El problema, dice, es la organización que trata a todos como si fueran lo mismo y luego se sorprende de que en el momento crítico nadie dé un paso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mírate en el momento en que hay que decidir sin toda la información: ahí se ve cuál de los tres eres.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Quien manda de verdad en una sala decide, y el resto sugiere" },
+      {
+        b: "texto",
+        texto:
+          "De todas las frases del libro, la que más aguanta fuera del deporte es esta: toma decisiones, no sugerencias. Grover la usa para describir una diferencia de conducta que se puede observar en cualquier reunión, y que no tiene nada que ver con el cargo que ocupe cada uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una sugerencia reparte la responsabilidad de antemano. Quien dice «quizá podríamos probar» ha construido la frase de manera que, si sale mal, no fue idea suya del todo, y esa protección se nota en el tono. Quien dice «lo hacemos así» se queda con el resultado, sea el que sea, y por eso se le escucha distinto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde esto se complica es cuando quien decide se equivoca, y el libro pasa por encima sin detenerse. Un limpiador que se queda con el resultado también se queda con el error, y Grover cuenta muchas veces la primera mitad de esa frase y muy pocas la segunda. Decidir sin tener la autoridad para hacerlo tiene otro nombre y peores consecuencias, y en una organización lo pagan otros antes que quien decidió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde esto se complica es cuando quien decide se equivoca, y el libro pasa por encima. Un limpiador que se queda con el resultado también se queda con el error, y Grover cuenta muchas veces la primera mitad de esa frase y muy pocas la segunda. Decidir sin autoridad para hacerlo tiene un nombre distinto y peores consecuencias.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si construyes la frase para no quedarte con el resultado, ya has dicho de qué lado estás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No hace falta que te guste el trabajo: hace falta que no puedas dejar el resultado",
+      },
+      {
+        b: "texto",
+        texto:
+          "Grover va contra el consejo más repetido de los últimos treinta años, el de dedicarse a lo que a uno le apasiona. Sostiene que la gente con la que ha trabajado no disfrutaba de los entrenamientos, y que ninguno de ellos habría descrito como agradable lo que hacía todas las mañanas de todos los años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que describe en su lugar es otra cosa: una relación con el resultado parecida a una dependencia. No es que les gustara ganar; es que perder les resultaba insoportable durante mucho más tiempo del que le dura a cualquiera. La motivación no venía por delante empujando, venía por detrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo es una noche de 2012 en Las Vegas, con la selección olímpica concentrada. Kobe Bryant le llamó a las tres y media de la madrugada para entrenar a las cuatro. Estuvieron hasta las seis con trabajo de fuerza. Grover se fue a dormir, volvió al pabellón a las once y Kobe seguía allí, tirando a canasta: no se había ido en ningún momento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lección que saca es práctica y sirve para cualquiera. Si esperas a tener ganas, el trabajo se hace cuando hay ganas, que es aproximadamente un tercio de los días. El compromiso útil no es con la actividad, que unos días apetece y otros no, sino con algo que se quiere de manera constante y que está al otro lado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si tu compromiso es con el trabajo, se cae los días malos; ponlo en lo que quieres al otro lado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dejar de pensar sirve en el partido y arruina el entrenamiento" },
+      {
+        b: "texto",
+        texto:
+          "En eso tiene razón y está bien documentado fuera de este libro: cuando alguien que domina un gesto empieza a vigilar cómo lo está haciendo, el gesto empeora de manera inmediata y medible. Le pasa a un pianista con una pieza que sabe de memoria, a un portero en un penalti y a cualquiera que lleve veinte años conduciendo. La atención consciente estorba justo en las cosas que ya se hicieron diez mil veces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En eso tiene razón y está bien documentado fuera de este libro: cuando alguien que domina un gesto empieza a vigilar cómo lo hace, el gesto empeora. Le pasa a un pianista, a un portero y a quien conduce. La atención consciente estorba justo en las cosas que se hicieron diez mil veces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema es que el libro lo escribe como una manera de ser y no como una instrucción para un momento concreto. Y ahí choca con lo que se sabe de cómo se mejora: la práctica que sirve consiste exactamente en lo contrario, en pensar mucho, en el punto donde uno falla y con toda la atención puesta ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las dos cosas son verdad y no se contradicen si se separan los momentos. En el entrenamiento, pensar hasta que duela; en la competición, nada. Grover mezcla los dos porque escribe desde el lado de la competición, y un lector que aplique el capítulo entero a su trabajo diario dejará de mejorar sin saber por qué.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Piensa hasta que duela mientras entrenas, y no pienses nada mientras ejecutas: son dos momentos distintos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El capítulo del lado oscuro es donde el libro se sale de la carretera",
+      },
+      {
+        b: "texto",
+        texto:
+          "Grover dedica un capítulo entero a defender que la gente que gana tiene una parte que no es agradable, que las organizaciones intentan limarla desde niños, y que limarla es exactamente lo que quita el filo. Lo llama el lado oscuro y lo presenta como un activo que hay que proteger.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La descripción no es falsa. Jordan llevaba la competitividad a extremos documentados: se inventaba agravios de rivales que no habían dicho nada para tener motivo, y en un entrenamiento de 1995 le dio un puñetazo en la cara a su compañero Steve Kerr. Kerr lo ha contado muchas veces en público, y también que después Jordan se disculpó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fuera de un vestuario, ese razonamiento no se sostiene ni un minuto. Jordan estaba rodeado de gente a la que se pagaba muy bien por aguantarle y cuyos ingresos dependían directamente de que él ganara partidos; una oficina, un aula o una casa no funcionan así en ningún sentido. El capítulo sirve para entender a un deportista concreto, y no vale como instrucción para nadie más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fuera de un vestuario, ese razonamiento no se sostiene ni un minuto. Jordan estaba rodeado de gente a la que se pagaba por aguantarle y cuyo trabajo dependía de sus victorias; una oficina no funciona así. El capítulo sirve para entender a un deportista concreto y no vale como instrucción para nadie más.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que a alguien excepcional se le tolere el trato que da no significa que el trato fuera parte de lo que le hacía excepcional.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La parte más sensata del libro es la que nadie cita: el descanso es trabajo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un libro que se titula «Imparable» debería predicar veinticuatro horas de esfuerzo, y hace lo contrario. Grover es entrenador de profesión y dedica varias páginas a explicar que el descanso no es una recompensa por el trabajo, sino una fase del trabajo, y que quien no la respeta se lesiona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es de oficio y no admite mucha discusión: la mejora física no ocurre durante el esfuerzo, ocurre después, mientras el cuerpo repara lo que se ha roto. Entrenar sin recuperar no acumula entrenamiento, acumula daño, y llega un punto en que el rendimiento baja aunque las horas suban.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Puesto al lado del resto del libro, este capítulo enseña además cómo hay que leerlo entero. Grover es fiable cuando habla de lo que ha medido durante treinta años en un gimnasio —carga, recuperación, lesiones, sueño— y es un divulgador entusiasta cuando habla de carácter y de voluntad. Las dos cosas están escritas con el mismo tono seguro, y no valen lo mismo ni de lejos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Puesto al lado del resto del libro, este capítulo enseña cómo hay que leerlo. Grover es fiable cuando habla de lo que ha medido durante treinta años —carga, recuperación, lesiones— y es un divulgador entusiasta cuando habla de carácter. Las dos cosas están escritas con el mismo tono, y no valen lo mismo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No mejoras mientras te esfuerzas: mejoras después, y si no organizas esa parte, las horas de más no cuentan.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable del libro cabe en tres cosas. La distinción entre decidir y sugerir, que se comprueba en cualquier reunión. La idea de que el compromiso hay que ponerlo en el resultado y no en la actividad, porque la actividad unos días no apetece. Y el recordatorio, viniendo de quien viene, de que el descanso es parte del trabajo y no un premio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la aritmética. Es un argumento construido sobre tres casos, y esos tres casos están entre los seres humanos con mejores condiciones físicas de su generación. La competitividad de Jordan no le dio ni la estatura ni el salto, y el libro nunca separa qué parte del resultado corresponde a cada cosa. Tampoco aparece ni un solo caso en el que ser implacable saliera mal, y los hay a miles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y su marco no se puede refutar, que es el defecto de fondo. Si alguien es implacable y gana, confirma la tesis; si es implacable y pierde, es que no lo era de verdad. Una clasificación con la que ningún resultado puede estar en desacuerdo no describe el mundo: describe una manera de hablar de él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ha pasado después ha puesto la última palabra. En 2020, el documental «The Last Dance» llevó todo este material a millones de personas, y en él se ve a Jordan romperse al hablar de lo que costó a la gente que tenía al lado: dice que ese es el precio de ganar, y que él nunca pidió a un compañero nada que no hiciera él primero. Grover publicó en 2021 otro libro insistiendo en lo mismo. Kobe Bryant había muerto en enero de 2020, y las anécdotas de las cuatro de la mañana no se leen igual desde entonces.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Describe muy bien a tres personas y no demuestra nada sobre las demás.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  relentless: RELENTLESS,
   "malcolm-x": MALCOLM_X,
   "harry-potter-1": HARRY_POTTER_1,
   "tal-como-eres": TAL_COMO_ERES,

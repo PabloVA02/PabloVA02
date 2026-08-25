@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  relentless:
+    "Grover mandó cartas a los jugadores de los Bulls en 1989 y le contestó uno, Michael Jordan; trabajó con él quince años y luego con Kobe Bryant. Su libro clasifica en tres tipos cómo se comporta alguien cuando la responsabilidad se queda sin dueño.",
+
   "malcolm-x":
     "Dejó la escuela a los quince años y en la cárcel copió un diccionario entero a mano porque no sabía escribir cartas. Contado a Alex Haley en dos años de entrevistas, el libro recorre cuatro conversiones seguidas, cada una escrita desde dentro.",
 

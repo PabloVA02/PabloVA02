@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  relentless: [
+    "en qué se diferencia quien decide de quien sugiere",
+    "por qué conviene comprometerse con el resultado y no con la tarea",
+    "cuándo ayuda dejar de pensar y cuándo arruina el aprendizaje",
+    "por qué el descanso cuenta como parte del entrenamiento",
+    "qué falla en un argumento construido sobre casos excepcionales",
+  ],
+
   "malcolm-x": [
     "por qué un techo puesto con buena intención frena más que el odio",
     "qué aprende sobre sí mismo quien se cambia el aspecto para encajar",
