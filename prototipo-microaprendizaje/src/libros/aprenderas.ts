@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "magia-orden":
+    "Kondo ordenó armarios ajenos en Tokio hasta tener lista de espera de meses, y encontró por qué la gente recae. Su método es un proceso completo que se hace una sola vez, por categorías y en un orden fijo.",
+
   "secreto-byrne":
     "El libro de autoayuda más vendido del siglo sostiene que el pensamiento atrae los acontecimientos. Aquí está qué afirma exactamente, de dónde viene la idea, qué grano de verdad tiene y dónde hace daño.",
 

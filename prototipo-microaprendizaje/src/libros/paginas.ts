@@ -65484,7 +65484,279 @@ const SECRETO_BYRNE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La magia del orden, en ocho páginas.
+
+   Breve. Libro práctico → afirmación entera en el rótulo y segunda persona
+   en la caja (apartados 3 bis y 4.7).
+
+   Riesgo principal: quedarse en «tira lo que no te haga feliz», que es el
+   eslogan y no el método. El método tiene un orden concreto, una regla
+   contraria a la intuición —por categoría y no por habitación— y una
+   razón para cada paso. Eso es lo que se cuenta.
+
+   Y la conclusión dice lo que casi nadie dice: cuánto de esto depende de
+   vivir en Tokio y de tener con qué reponer.
+   -------------------------------------------------------------------------- */
+
+const MAGIA_ORDEN: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ordenar poco a poco es la razón por la que la casa vuelve a desordenarse",
+      },
+      {
+        b: "texto",
+        texto:
+          "Marie Kondo empezó a organizar armarios ajenos a los diecinueve años en Tokio y llegó a tener una lista de espera de meses. Su primera observación llegó de mirar a sus clientes: casi ninguno recaía por vaguería, y casi todos habían ordenado un poco cada día durante años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación es que el método gradual no funciona porque no produce ningún cambio visible. Ordenar un cajón el martes deja la casa igual, y al no cambiar nada, la costumbre que llenó ese cajón sigue intacta y vuelve a llenarlo en unas semanas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Frente a eso propone lo contrario: un único proceso, intenso, que se hace una sola vez en la vida y que dura de semanas a unos pocos meses. La palabra japonesa que usa para eso —un festival del orden— es la que da sentido al libro entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lógica es psicológica, no doméstica. Un cambio suficientemente grande produce un antes y un después que la persona no quiere estropear, y esa sensación es lo que sostiene el resultado. La casa no se mantiene ordenada por disciplina: se mantiene porque desordenarla ahora costaría algo. Kondo cuenta que llegó a esa conclusión después de años ordenando su propia casa por partes y de encontrarse una y otra vez en el mismo punto de partida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ordenar un poco cada día no cambia nada, y por eso vuelves a desordenarlo todo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Se ordena por categorías y nunca por habitaciones" },
+      {
+        b: "texto",
+        texto:
+          "Es la regla que más cambia el resultado y la que casi nadie aplica. La mayoría empieza por un armario, sigue por otro y así; Kondo sostiene que eso garantiza el fracaso porque las cosas de una misma categoría están repartidas por toda la casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejercicio que lo demuestra es sacar toda la ropa de la casa entera y ponerla en un montón en el suelo. La reacción habitual —según ella, casi universal— es de sobresalto: nadie sabe cuánta ropa tiene hasta que la ve junta, y ahí empieza el trabajo de verdad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un orden fijo entre categorías que tampoco es arbitrario. Ropa primero, libros después, papeles, objetos varios y, al final, todo lo que tiene valor sentimental. El orden va de lo más fácil de decidir a lo más difícil. La razón de dejar lo sentimental para el final es que exige un criterio ya entrenado: con una caja de fotos delante, alguien que no ha decidido nada todavía se pasa la tarde mirando y no descarta nada.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Ropa", texto: "es donde menos cuesta decidir, y sirve para entrenar el criterio." },
+          { fuerte: "Libros y papeles", texto: "ya cuesta más, y aparecen las excusas del algún día lo leeré." },
+          { fuerte: "Objetos varios", texto: "cables, cosméticos, recuerdos de viaje; el cajón donde vive el desorden." },
+          { fuerte: "Lo sentimental", texto: "fotos y cartas, siempre al final; empezar por aquí paraliza el proceso." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "Saca toda una categoría de la casa entera y ponla junta: hasta que no lo ves, no sabes cuánto tienes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Se decide qué se queda y no qué se tira" },
+      {
+        b: "texto",
+        texto:
+          "El giro que hizo famoso el método es una inversión de la pregunta. Casi todos los manuales de orden preguntan qué se puede tirar, y esa pregunta obliga a justificar cada descarte y produce parálisis. Kondo propone la contraria: coger cada objeto y preguntarse si se quiere conservar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La expresión japonesa que usa —tokimeku— se tradujo como si algo te da alegría, y esa traducción ha hecho parte del ruido alrededor del libro. Lo que describe es más físico que sentimental: una reacción del cuerpo al coger algo, que se nota o no se nota.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso insiste en tocar cada objeto uno por uno, que es lo que más se critica del método y lo que él considera imprescindible. Mirar un armario no funciona porque la vista promedia; coger la prenda obliga a decidir sobre esa prenda concreta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una parte que suele leerse como excentricidad y tiene su lógica: agradecer a lo que se descarta antes de soltarlo. Kondo lo explica sin misticismo cuando se le pregunta bien: sirve para cerrar la decisión y para que no vuelva la culpa, que es lo que hace que la gente recupere cosas de la bolsa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Preguntar qué tirar te paraliza; preguntar qué quieres conservar decide en un segundo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La ropa se dobla de pie porque así se ve toda a la vez" },
+      {
+        b: "texto",
+        texto:
+          "El otro aporte concreto del libro es la manera de guardar, y su principio es que nada debe apilarse. En un montón, lo de abajo desaparece: no se ve, no se usa y se compra otra vez porque se ha olvidado que estaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su solución es doblar cada prenda en un rectángulo que se sostenga solo y colocarla de canto en el cajón, como archivos en un archivador. Al abrirlo se ve todo el contenido de una vez, y ese detalle es lo que impide que el cajón vuelva a desordenarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La misma regla se aplica al resto de la casa: todo en vertical, todo visible, y cada cosa con un sitio asignado. Kondo sostiene que la mayoría de los desórdenes no vienen de tener mucho sino de que hay objetos que no tienen ningún sitio propio, y por eso acaban en cualquiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y advierte contra la trampa favorita de la industria del orden: comprar cajas organizadoras antes de haber descartado. Comprar almacenamiento no resuelve nada, solo esconde el problema en un recipiente más bonito y permite seguir acumulando. El libro dedica páginas enteras a explicar cómo se dobla cada prenda para que se sostenga, y esa parte tan minuciosa es la que más se ha copiado en vídeos por todo el mundo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todo lo que se apila desaparece: guarda de canto y verás lo que tienes sin buscarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cada objeto que se conserva tiene una razón, y casi siempre son dos" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más psicológico del libro trata de por qué cuesta soltar. Kondo sostiene que detrás de casi todo lo que se conserva sin usar hay una de dos cosas: apego al pasado o miedo al futuro. Y que saber cuál de las dos es cambia la decisión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El apego al pasado es la ropa de una época en la que uno era otra persona, los libros de una carrera que no siguió, los regalos de relaciones terminadas. El miedo al futuro es lo que se guarda por si acaso: la ropa de cuando adelgace, el aparato por si se estropea el otro, los papeles por si los piden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su afirmación más discutida: que ordenar la casa produce cambios en la vida de la gente. Sus clientes dejaban trabajos, terminaban relaciones o empezaban proyectos después del proceso, y ella lo atribuye al orden. Una explicación más sencilla es que decidir cien veces seguidas entrena la decisión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con los regalos da la única regla que quita de verdad la culpa: la función del regalo se cumplió al recibirlo. Guardar durante años algo que no se usa por respeto a quien lo dio no honra a nadie, y quien lo regaló casi siempre lo ha olvidado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que guardas sin usar es apego al pasado o miedo al futuro; conviene saber cuál de los dos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "No se ordena la casa de nadie más, empezando por la familia" },
+      {
+        b: "texto",
+        texto:
+          "Una de las reglas más firmes del libro y de las que menos se citan: no se toca lo de los demás. Ni la habitación de un hijo adolescente, ni el armario de la pareja, ni los trastos del garaje que son de otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón que da es práctica antes que moral. Lo que a uno le sobra a otro le hace falta, el criterio no se puede prestar, y tirar algo ajeno produce un conflicto que dura años y que hunde el proceso entero. Además, dice, el ejemplo funciona: los demás suelen empezar solos al ver el resultado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También hay una regla sobre la culpa hacia uno mismo que conviene retener: no se juzga lo acumulado. El proceso no va de reprocharse las compras de los últimos diez años; va de decidir qué se quiere ahora, y la culpa solo consigue que la persona se detenga a mitad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y una recomendación doméstica que es la más fácil de aplicar de todo el libro: vaciar el bolso al llegar a casa, cada día, y dejar cada cosa en su sitio. Es un ritual de dos minutos que impide que el desorden empiece por donde empieza casi siempre. Y cuenta el error que ella misma cometió de adolescente: tirar cosas de sus hermanos, que le costó meses de enfado en casa y una lección que repite en cada capítulo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El criterio no se presta: ordenar las cosas de otro es la manera más rápida de arruinarlo todo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que promete es una casa que no vuelve a desordenarse nunca" },
+      {
+        b: "texto",
+        texto:
+          "La afirmación más fuerte del libro es que sus clientes no recaen. Kondo dice tener una tasa de recaída del cero por ciento en años de consulta, y lo atribuye a que el proceso completo cambia el criterio y no solo la casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento tiene sentido interno: si se ha decidido una por una sobre cada posesión, comprar algo nuevo pasa por el mismo filtro, y meter en casa lo que no se quiere conservar deja de ser automático. El método no enseña a ordenar, enseña a decidir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cifra, en cambio, no se puede comprobar y viene de su propia consulta, con clientes que pagaron por el servicio y estaban muy motivados. Es el mismo problema que tienen casi todos los libros de método escritos por profesionales con lista de espera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí se puede decir es que el método tiene una virtud que casi ningún otro tiene: es completo y está ordenado. Dice qué hacer, en qué orden, con qué criterio y qué no hacer, y eso ya lo distingue de la mayoría de los consejos sobre el asunto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un método que te obliga a decidir cien veces seguidas te cambia el criterio, no solo el resultado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La magia del orden propone hacer una sola vez en la vida un proceso completo: por categorías y no por habitaciones, en un orden fijo que va de la ropa a lo sentimental, decidiendo qué se conserva en lugar de qué se tira, y guardándolo todo de canto para que se vea. Su tesis es que ordenar poco a poco garantiza volver a empezar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un método entero y no una colección de consejos. La inversión de la pregunta, el orden entre categorías, la prohibición de comprar cajas antes de descartar y la regla de no tocar lo de los demás son cuatro decisiones que se pueden aplicar el sábado que viene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en la prueba y en el alcance. Lo del cero por ciento de recaídas sale de su propia consulta y no lo ha comprobado nadie, y la idea de que ordenar la casa cambia la vida se apoya en anécdotas de clientes. Que decidir mucho entrene la decisión es plausible; que ordenar un armario provoque un divorcio, bastante menos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una condición material que el libro no examina: descartar con esa alegría es más fácil cuando se puede reponer. En una casa donde el aparato roto se guarda porque no hay con qué comprar otro, o donde se conserva ropa de tres tallas porque no se compra ropa nueva, buena parte del criterio deja de aplicarse tal cual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Publicado en Japón en 2011, ha vendido más de doce millones de ejemplares, dio lugar a dos series de televisión y convirtió su apellido en un verbo en varios idiomas. La propia Kondo declaró en 2023, después de su tercer hijo, que había renunciado a mantener su casa perfectamente ordenada, lo que provocó una polémica que dice más de sus lectores que de ella.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un método pensado para quien puede reponer lo que tira no se aplica igual en una casa que no puede.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "magia-orden": MAGIA_ORDEN,
   "secreto-byrne": SECRETO_BYRNE,
   "48-leyes-poder": LEYES_PODER_48,
   becoming: BECOMING,

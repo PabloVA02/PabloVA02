@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "magia-orden": [
+    "por qué ordenar poco a poco garantiza volver a empezar",
+    "por qué se ordena por categorías y nunca por habitaciones",
+    "por qué preguntar qué tirar te paraliza y qué preguntar en su lugar",
+    "por qué nada debe apilarse nunca en un cajón",
+    "por qué no se ordenan las cosas de nadie más",
+  ],
+
   "secreto-byrne": [
     "de dónde sale realmente la ley de la atracción",
     "qué parte de la visualización está medida y cuál no",

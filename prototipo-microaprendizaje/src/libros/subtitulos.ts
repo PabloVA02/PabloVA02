@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "magia-orden": "El método japonés para ordenar una vez y no volver a empezar",
   "secreto-byrne": "La ley de la atracción, contada y comprobada",
   "48-leyes-poder": "Cómo se ha conseguido y conservado la influencia durante tres mil años",
   becoming: "Las memorias de la primera dama que no quiso serlo",
