@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cinco-arrepentimientos":
+    "Ware cuidó a domicilio a personas en sus últimas semanas y escribió en 2009 lo que decían lamentar. La lista se cita hoy como si fuera investigación, y no lo es: son recuerdos sin registros ni método, y conviene leerlos sabiéndolo.",
+
   esencialismo:
     "Southwest ganó dinero durante décadas por su lista de negativas: sin comida, sin asientos asignados, sin clase preferente y con un solo modelo de avión. McKeown sostiene que una estrategia es exactamente eso, y una agenda también.",
 

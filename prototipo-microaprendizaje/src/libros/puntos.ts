@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cinco-arrepentimientos": [
+    "por qué la vida que uno no eligió se construye con decisiones pequeñas",
+    "cómo distinguir lo que tiene ventana de lo que se puede intentar siempre",
+    "qué hace que una amistad se pierda sin ninguna discusión",
+    "qué le hace a alguien callarse durante años para mantener la paz",
+    "qué predice de verdad cómo estarás a los ochenta años",
+  ],
+
   esencialismo: [
     "por qué copiar solo la parte agradable de una estrategia sale carísimo",
     "qué tipo de oportunidad te come el año, que no es la mala",

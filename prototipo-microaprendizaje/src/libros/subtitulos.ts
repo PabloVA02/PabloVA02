@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "cinco-arrepentimientos": "Lo que enseña la vida a los que van a morir",
   esencialismo: "Logra el máximo de resultados con el mínimo de esfuerzo",
   "comunicacion-no-violenta": "Un lenguaje de vida",
   "hombres-marte-mujeres-venus": "Cómo mejorar la comunicación y obtener lo que deseas en tus relaciones",

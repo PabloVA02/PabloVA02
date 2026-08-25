@@ -75107,7 +75107,291 @@ const ESENCIALISMO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Los cinco arrepentimientos de los moribundos, en ocho páginas.
+
+   Breve. La caja va en SEGUNDA persona y es una decisión pensada. El
+   apartado 4 bis pide tercera en los libros escritos desde una desgracia
+   real, y aquí la desgracia es de los pacientes y no de la autora: el libro
+   está escrito expresamente para que el lector vivo cambie algo ahora, y en
+   tercera persona esa función se pierde. Segunda persona, sobria y sin una
+   sola exclamación.
+
+   Riesgo principal: tratar la lista como si fuera un hallazgo. No lo es: es
+   el recuerdo de una cuidadora, sin registros, sin recuento y sin método.
+   Eso se dice DENTRO, en su página, y se pone al lado el estudio de Harvard,
+   que sí es un dato y respalda uno de los cinco.
+   -------------------------------------------------------------------------- */
+
+const CINCO_ARREPENTIMIENTOS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La lista más citada sobre el final de la vida no salió de ningún estudio",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bronnie Ware trabajaba en un banco australiano, lo dejó, encadenó oficios y acabó cuidando a domicilio a personas en sus últimas semanas de vida. No era enfermera ni tenía formación sanitaria: acompañaba, hacía la casa y estaba allí durante los tres o doce últimos meses de gente que había decidido morir en su cama.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2009 escribió en un blog una entrada con lo que aquellas personas le habían dicho que lamentaban. Se difundió por todo el mundo en pocas semanas y de ahí salió este libro, en 2011. Hoy la lista se cita constantemente y casi siempre como si fuera el resultado de una investigación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre los cinco arrepentimientos y quién decía cada uno, la parte de la lista que sí tiene detrás una investigación seria de ochenta años, el sitio exacto donde el libro afirma algo médico que no se sostiene, y qué queda de todo esto leído con las advertencias puestas. Son cinco cosas y las cinco comparten una propiedad que conviene ver desde el principio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre los cinco arrepentimientos, quién decía cada uno, la parte de la lista que sí tiene una investigación seria detrás, dónde el libro afirma algo que no se sostiene, y qué queda de todo esto leído con las advertencias puestas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando una lista sobre la vida circula por todas partes, conviene mirar primero de dónde salió: casi nunca es de donde parece.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El más repetido no es una gran renuncia: es la suma de muchas pequeñas",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primero de los cinco, y según Ware el más frecuente con diferencia, es haber vivido la vida que los demás esperaban en lugar de la propia. Dicho así suena a cartel, y lo que lo salva es el detalle con que ella lo describe: casi nadie mencionaba una renuncia grande.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que contaban era la acumulación. La carrera que se eligió porque parecía sensata, la ciudad en la que se quedaron porque era donde estaba todo el mundo, el trabajo que no se dejó porque venía un hijo, el año que no se pidió porque no era buen momento. Ninguna de esas decisiones era mala por separado, y ninguna se tomó pensando que sería definitiva.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle que ella subraya y que corrige la lectura fácil: casi ninguno hablaba de haber querido algo espectacular ni de sueños abandonados. Lo que aparecía era pequeño, cercano y perfectamente posible en su momento —haber vivido unos años en otro sitio, haber estudiado aquello, haber dicho una cosa a tiempo—, y precisamente por pequeño había parecido siempre aplazable hasta el año siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle que ella subraya y que corrige la lectura fácil: casi ninguno hablaba de haber querido algo espectacular. Lo que aparecía era pequeño y cercano —haber vivido en otro sitio, haber estudiado aquello, haber dicho una cosa a tiempo—, y precisamente por pequeño había parecido siempre aplazable.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ninguna de esas decisiones era mala por separado, y ninguna se tomó pensando que iba a ser definitiva.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El segundo lo decían los hombres, y siempre con las mismas palabras" },
+      {
+        b: "texto",
+        texto:
+          "El segundo arrepentimiento es haber trabajado tanto, y Ware hace sobre él una observación concreta: lo dijeron todos los pacientes varones a los que cuidó. Ninguna de las mujeres lo mencionó, aunque muchas de ellas también habían trabajado, y ella lo atribuye a que pertenecían a generaciones con repartos distintos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que lamentaban no era el esfuerzo en abstracto, sino cosas contables. Haberse perdido la infancia de sus hijos, que dura un número fijo de años y no se repite. No haber tenido conversaciones con su pareja durante décadas de convivencia. Haber pasado la mayor parte de su vida despierta dentro de un edificio al que no volverían.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lectura útil no es dejar de trabajar, que casi nadie puede hacer, sino notar qué cosas tienen ventana y cuáles no la tienen. Un ascenso se puede intentar diez años seguidos y sigue estando ahí al undécimo; un hijo tiene seis años una sola vez, y el año que se pierde no vuelve a ofrecerse después en ninguna condición ni a ningún precio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lectura útil no es dejar de trabajar, que casi nadie puede hacer, sino notar qué cosas tienen ventana y cuáles no. Un ascenso se puede intentar diez años seguidos; un hijo tiene seis años una sola vez, y el año que se pierde no vuelve a ofrecerse en ninguna condición.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Distingue lo que tiene ventana de lo que no: un ascenso se puede intentar diez años y un hijo tiene seis una sola vez.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las amistades no se pierden por una discusión: se pierden por meses de nada",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuarto arrepentimiento es no haber mantenido el contacto con los amigos, y según Ware apareció en todos los casos sin excepción. En las últimas semanas, dice, absolutamente todo el mundo echaba de menos a sus amigos, y muchos ya no eran capaces de localizarlos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo que describe no tiene nada de dramático y por eso funciona tan bien. Nadie había roto con nadie: simplemente habían dejado pasar semanas, luego meses, con la vida ocupada, y en algún momento llamar después de tanto tiempo empezó a dar una pereza y una vergüenza que no la había dado nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es de mantenimiento y es barata. Una amistad no exige un plan grande ni una cena de cuatro horas; lo único que exige es que no pasen dos años seguidos. Un mensaje sin motivo, una llamada de diez minutos, un café al trimestre bastan para que la relación siga existiendo, y son exactamente las cosas que se aplazan siempre porque no son urgentes ningún día concreto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es de mantenimiento y es barata. Una amistad no exige un plan grande; exige que no pasen dos años. Un mensaje sin motivo, una llamada de diez minutos, un café al trimestre bastan para que la relación siga existiendo, y son exactamente las cosas que se aplazan porque nunca son urgentes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie rompe con sus amigos: pasan los meses, y llamar después de tanto tiempo empieza a dar una vergüenza que antes no daba.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Callarse para mantener la paz sale caro, y aquí el libro afirma algo que no se sostiene",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercer arrepentimiento es no haber tenido el valor de expresar lo que se sentía. Ware cuenta que muchos se habían pasado la vida tragándose lo que pensaban para no molestar y para mantener la paz en su casa o en su trabajo, y que se convirtieron en personas mediocres y resentidas por ese silencio acumulado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa parte es una observación razonable y coincide con lo que se sabe de las relaciones largas: lo que no se dice no desaparece, se acumula y sale en forma de distancia, de sarcasmo o de una explosión desproporcionada años después, cuando ya nadie recuerda de dónde venía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pero el libro da un paso más y afirma que varios de esos pacientes creían que la amargura contenida había contribuido a la enfermedad que los estaba matando. Eso ya no es una observación: es una afirmación médica, y no está respaldada. La idea de que existe un carácter que produce cáncer se ha examinado muchas veces en grandes estudios y no se ha confirmado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Repetirla no es inofensivo, y por eso hay que decirlo aquí y no de pasada. Añade a una persona enferma la sospecha de que su enfermedad es consecuencia de cómo ha sido, que es una carga que nadie necesita y que además es falsa. La observación sobre lo que hace callarse durante años se sostiene perfectamente sin ese añadido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que no dices no desaparece, se acumula; que además enferme a alguien no está demostrado y no conviene repetirlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El que más la sorprendió fue descubrir que la felicidad era una costumbre",
+      },
+      {
+        b: "texto",
+        texto:
+          "El quinto es el que Ware dice que más le sorprendió: mucha gente se dio cuenta al final de que ser feliz había sido, en buena medida, una elección de costumbres, y de que había pasado la vida dentro de patrones que no la hacían feliz sin llegar a plantearse cambiarlos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que describe no es una revelación filosófica sino algo bastante prosaico. La gente se queda en rutinas conocidas porque son conocidas, y porque cambiarlas obliga a explicar a los demás por qué se cambian. Muchos le dijeron que se habían quedado donde estaban por lo que pensarían los otros, y no por lo que ellos querían.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí queda, quitado el exceso, es una pregunta que se puede hacer cualquier martes y que no acusa a nadie: qué cosas de la propia semana se mantienen porque se han elegido y cuáles porque nunca se han vuelto a mirar. La mayoría de las rutinas de una vida adulta se instalaron por una razón concreta que ya no existe, y siguen ahí solo porque nadie las ha revisado desde entonces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí queda, quitado el exceso, es una pregunta que se puede hacer cualquier martes: qué cosas de la propia semana se mantienen porque se han elegido y cuáles porque nunca se han vuelto a mirar. La mayoría de las rutinas de una vida adulta se instalaron por una razón que ya no existe.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La mayoría de tus rutinas se instalaron por una razón que probablemente ya no existe, y nadie ha vuelto a mirarlas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Uno de los cinco sí tiene detrás un estudio serio, y es el de los amigos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Como la lista no es una investigación, conviene poner al lado la que sí lo es. Desde 1938, la Universidad de Harvard mantiene un estudio que ha seguido a las mismas personas durante toda su vida: empezó con setecientos veinticuatro hombres jóvenes, unos estudiantes y otros de los barrios pobres de Boston, y hoy sigue con más de mil descendientes suyos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es probablemente el seguimiento más largo que existe sobre vidas humanas, con analíticas, historiales médicos, entrevistas y visitas cada pocos años durante más de ochenta. Lo dirigieron primero George Vaillant y después Robert Waldinger, y su conclusión principal está publicada y es la que interesa aquí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso convierte el cuarto arrepentimiento de la lista en el único que se puede afirmar con datos, y le cambia la categoría entera. Cuidar las amistades deja de ser una recomendación sentimental sobre cómo vivir mejor y pasa a ser una variable de salud medida durante ochenta años en las mismas personas, al lado del tabaco y del alcohol.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso convierte el cuarto arrepentimiento de la lista en el único que puede afirmarse con datos, y le cambia la categoría: cuidar las amistades no es una recomendación sentimental sobre cómo vivir mejor, es una variable de salud medida durante ochenta años en las mismas personas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El mejor predictor de cómo estarás a los ochenta no es tu colesterol a los cincuenta: es con quién estás a esa edad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Los cinco no son un hallazgo y sí son una buena lista de comprobación, porque las cinco cosas que nombran comparten una propiedad: se deterioran en silencio. Nadie decide perder a sus amigos, ni trabajar de más, ni callarse, ni quedarse en una rutina; todo eso ocurre sin ninguna decisión, y por eso no dispara ninguna alarma hasta que no hay remedio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en de dónde sale. Son recuerdos de una cuidadora escritos años después, sin notas, sin recuento y sin ningún método, y frases como «todos los hombres a los que cuidé decían esto» son una memoria y no un dato. Hay además una selección enorme: son personas que morían en su casa, en Australia, mayores y con medios para pagar cuidados a domicilio. Quien muere de golpe, joven, pobre o en un hospital no está en este libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una afirmación que conviene rechazar expresamente: la de que la amargura contenida contribuyó a la enfermedad de algunos pacientes. Eso no está respaldado, se ha investigado mucho y no se ha confirmado, y repetirlo carga a personas enfermas con la sospecha de haberse provocado lo que tienen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después es que la entrada de blog de 2009 llegó a millones de personas, el libro se tradujo a unas treinta lenguas y la lista se instaló en la conversación corriente hasta el punto de citarse como si fuera investigación. Ware publicó después otro libro, en 2017, sobre una época propia de depresión, que es bastante más honesto sobre los límites de su experiencia que este.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las cinco cosas que nombra se deterioran en silencio, y por eso no avisan hasta que ya no se pueden arreglar.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cinco-arrepentimientos": CINCO_ARREPENTIMIENTOS,
   esencialismo: ESENCIALISMO,
   "comunicacion-no-violenta": COMUNICACION_NO_VIOLENTA,
   "hombres-marte-mujeres-venus": HOMBRES_MARTE,

@@ -360,7 +360,7 @@ export const CATALOGO: Ficha[] = [
   { id: "disciplina-es-destino", titulo: "La disciplina es el destino", autor: "Ryan Holiday", ano: 2022, categoria: "Psicología", estado: "pendiente" },
   { id: "ley-de-atraccion", titulo: "La ley de la atracción", autor: "Esther y Jerry Hicks", ano: 2006, categoria: "Psicología", estado: "pendiente" },
   { id: "hazte-rico-durmiendo", titulo: "Hazte rico mientras duermes", autor: "Ben Sweetland", ano: 1962, categoria: "Psicología", estado: "pendiente" },
-  { id: "cinco-arrepentimientos", titulo: "Los cinco arrepentimientos de los moribundos", autor: "Bronnie Ware", ano: 2011, categoria: "Psicología", estado: "pendiente" },
+  { id: "cinco-arrepentimientos", titulo: "Los cinco arrepentimientos de los moribundos", autor: "Bronnie Ware", ano: 2011, categoria: "Psicología", estado: "escrito" },
   /* --- Economía --------------------------------------------------------- */
   { id: "psicologia-dinero", titulo: "La psicología del dinero", autor: "Morgan Housel", ano: 2020, categoria: "Economía", estado: "escrito" },
   { id: "padre-rico", titulo: "Padre rico, padre pobre", autor: "Robert Kiyosaki", ano: 1997, categoria: "Economía", estado: "escrito" },
