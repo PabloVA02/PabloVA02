@@ -331,7 +331,7 @@ export const CATALOGO: Ficha[] = [
   { id: "placebo-eres-tu", titulo: "El placebo eres tú", autor: "Joe Dispenza", ano: 2014, categoria: "Psicología", estado: "pendiente" },
   { id: "termina-acuff", titulo: "¡Termina!", autor: "Jon Acuff", ano: 2017, categoria: "Psicología", estado: "pendiente" },
   { id: "haz-cosas-dificiles", titulo: "Haz cosas difíciles", autor: "Steve Magness", ano: 2022, categoria: "Psicología", estado: "pendiente" },
-  { id: "procrastinacion-steel", titulo: "Procrastinación", autor: "Piers Steel", ano: 2010, categoria: "Psicología", estado: "pendiente" },
+  { id: "procrastinacion-steel", titulo: "Procrastinación", autor: "Piers Steel", ano: 2010, categoria: "Psicología", estado: "escrito" },
   { id: "no-lo-pienses-demasiado", titulo: "No lo pienses demasiado", autor: "Anne Bogel", ano: 2020, categoria: "Psicología", estado: "pendiente" },
   { id: "mente-justos", titulo: "La mente de los justos", autor: "Jonathan Haidt", ano: 2012, categoria: "Psicología", estado: "escrito" },
   { id: "poder-magico-voluntad", titulo: "El poder mágico de la voluntad", autor: "Claude M. Bristol", ano: 1948, categoria: "Psicología", estado: "pendiente" },

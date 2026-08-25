@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "procrastinacion-steel": [
+    "por qué el domingo decides empezar el lunes y lo dices en serio",
+    "qué sube de verdad tu confianza en que puedes con algo",
+    "qué hacer con una tarea que es aburrida de verdad",
+    "por qué calculas mal el tiempo aunque ya lo hayas hecho antes",
+    "qué plazos funcionan, que no son los que pide nadie",
+  ],
+
   "amor-liquido": [
     "en qué se comportan al revés una conexión y un lazo",
     "por qué no se puede tener a la vez seguridad y ninguna atadura",

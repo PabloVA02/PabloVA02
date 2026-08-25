@@ -86024,7 +86024,301 @@ const AMOR_LIQUIDO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Procrastinacion, en ocho paginas.
+
+   Breve. Libro practico -> afirmacion entera en el rotulo y SEGUNDA PERSONA en
+   la caja (4.7).
+
+   Seis argumentos: el descuento temporal, los tres factores de la ecuacion uno
+   por pagina, el error de calculo del tiempo y los plazos.
+
+   Este libro SI tiene datos, al reves que casi todo el estante: Steel publico en
+   2007 un metaanalisis de cientos de estudios en Psychological Bulletin, y de
+   ahi sale todo. Eso hay que decirlo en la primera pagina, porque es lo que lo
+   separo de sus vecinos de estanteria.
+
+   La conclusion: la ecuacion es una regla nemotecnica y no una ley medida; la
+   cifra de que la procrastinacion se ha cuadruplicado desde los setenta compara
+   encuestas distintas; parte de las intervenciones se apoyan en la idea de la
+   voluntad como deposito que se agota, que fallo en la replicacion multicentro
+   de 2016; y el libro no distingue procrastinar de una depresion, un deficit de
+   atencion o un trabajo que de verdad es insoportable.
+   -------------------------------------------------------------------------- */
+
+const PROCRASTINACION_STEEL: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Aplazar lo importante no es pereza: es lo que hace cualquiera cuando el premio queda lejos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Piers Steel es profesor de la Universidad de Calgary y en 2007 publicó algo poco habitual en este terreno: un metaanálisis con cientos de estudios sobre por qué la gente aplaza las cosas. Este libro, de 2010, es lo que salió de ahí, y esa procedencia lo separa de casi todos sus vecinos de estantería, que no tienen ningún dato detrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su primera corrección es sobre la palabra pereza. Quien aplaza un informe no se queda mirando la pared: ordena el escritorio, contesta correos, hace la compra y limpia el horno. Está trabajando mucho, y trabajando precisamente para no hacer aquello. Steel insiste en que llamarle vago a alguien así no describe lo que ocurre ni sugiere ninguna solución.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que propone en su lugar es una fórmula con cuatro piezas. Las ganas de ponerse con algo suben con dos cosas: cuánto esperas conseguirlo y cuánto te compensa. Y bajan con otras dos: lo impulsivo que eres y lo lejos que está el momento de cobrar. Cuatro números, y la conducta sale de cómo se combinan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué el lunes siempre parece buen día y hoy no, qué pasa cuando no te crees capaz de hacer algo, qué hacer con una tarea que es aburrida de verdad, cómo se acorta la distancia hasta el premio, por qué todo el mundo calcula mal cuánto va a tardar, qué plazos funcionan y qué le falta a este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien aplaza algo no está parado: está haciendo otras cosas con mucha energía, y todas para no hacer esa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un premio lejano vale muy poco hoy, y esa caída explica por qué el lunes siempre parece buen día",
+      },
+      {
+        b: "texto",
+        texto:
+          "La pieza más explicativa del libro se llama descuento temporal, y describe algo que hace todo el mundo sin saberlo: restarle valor a una recompensa según lo lejos que esté. Cien euros hoy valen más que cien euros dentro de un año, y eso no es una opinión sobre el dinero sino cómo funciona la cabeza con cualquier premio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo importante es la forma de la caída. No baja de manera suave y constante: se desploma en los primeros tramos y luego se aplana. Un premio que está a un año o a trece meses vale prácticamente lo mismo, casi nada; pero uno que está hoy y uno que está mañana se diferencian muchísimo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la escena que reconoce cualquiera. El domingo por la noche, la tarea del jueves y la tentación del jueves están las dos igual de lejos, así que se decide sinceramente empezar el lunes: la elección sensata gana sin esfuerzo. El jueves por la mañana, la tentación está aquí y el premio sigue estando en el futuro, y la elección se da la vuelta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Steel subraya que no hubo mentira ni debilidad en la promesa del domingo. Las dos decisiones son coherentes con el mismo mecanismo aplicado a distancias distintas. Y de ahí saca la consecuencia que ordena su método: si las preferencias se invierten cuando algo se acerca, la estrategia no es prometer mejor, sino cambiar las distancias.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El domingo no te mentiste. A esa distancia lo sensato gana solo; el problema aparece cuando la tentación se acerca y el premio no.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Quien no cree que vaya a conseguirlo no se pone, y eso se arregla con victorias pequeñas y no con ánimos",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer factor de la fórmula es lo que Steel llama expectativa: cuánto crees que vas a lograrlo si te pones. Cuando esa cifra es baja, no hay disciplina que valga, porque nadie se esfuerza en algo que da por perdido. Y las razones de que sea baja suelen ser dos, y se tratan de manera distinta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es haber fracasado antes en algo parecido. Ahí lo que funciona, según los estudios que revisa, es fabricar una racha: partir la tarea en trozos tan pequeños que sea casi imposible no terminarlos, y encadenar unos cuantos. Lo que cambia no es la habilidad sino la previsión que uno hace de sí mismo, y esa previsión se alimenta de hechos recientes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es no haber visto nunca a nadie parecido conseguirlo. Steel recoge que ver a alguien de tu mismo nivel lograr algo sube la expectativa propia bastante más que cualquier discurso de ánimo, y bastante más que ver a un experto. El experto demuestra que se puede; alguien parecido demuestra que lo puedes tú.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y avisa contra el optimismo a secas. Creerse capaz de todo produce planes irreales que fallan y bajan la expectativa aún más, con lo que la cosa empeora. Lo que sube ese primer factor de forma estable no es la confianza declarada, sino un historial de cosas terminadas, aunque sean ridículamente pequeñas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Parte la tarea hasta que sea casi imposible no terminar el primer trozo. Lo que sube tu confianza son hechos recientes, no ánimos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Si la tarea es aburrida de verdad, el problema es la tarea y hay que trabajar sobre ella",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo factor es el valor: cuánto compensa hacerlo, contando el resultado y también el rato que se pasa haciéndolo. Steel dedica un tramo a algo que casi ningún libro de productividad admite: hay tareas que son genuinamente aburridas, y ahí el problema no está en la cabeza de quien las aplaza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo primero que propone es subir el valor del rato, no el del premio. Una tarea aburrida se hace más llevadera si se le añade dificultad, si se le pone un objetivo dentro —terminar esta parte antes de que suene la alarma— o si se hace en un sitio y a una hora que resulten agradables. Se está cambiando la experiencia, no el resultado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo segundo es la energía, y ahí es de los pocos que lo tratan con seriedad. Recomienda colocar lo que menos apetece en las horas en que uno rinde mejor, que en casi todo el mundo son las primeras del día, y observa que la mayoría hace lo contrario: usa esas horas para lo fácil y deja lo difícil para cuando ya no queda nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da una técnica que suena a trampa y funciona: aplazar productivamente. Consiste en tener siempre otra tarea útil pendiente, de modo que huir de la primera te lleve a la segunda en vez de al teléfono. Steel lo presenta sin idealizarlo, como un apaño que aprovecha el mecanismo en vez de pelearse con él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pon lo que menos te apetece en tus mejores horas. Casi todo el mundo las gasta en lo fácil y deja lo difícil para cuando ya no puede.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La distancia hasta el premio se puede acortar, y es el factor sobre el que más se puede actuar",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercer y el cuarto factor van juntos: lo impulsivo que es alguien y lo lejos que está la recompensa. Lo primero se cambia poco, porque es bastante estable en cada persona; lo segundo se cambia mucho, y por eso Steel dedica ahí la mayor parte de sus recomendaciones prácticas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La herramienta principal son los compromisos que atan por adelantado. Bloquear el acceso a lo que distrae, dejar el móvil en otra habitación, anunciar públicamente una entrega, quedar con alguien para trabajar juntos, poner dinero de por medio. Todos funcionan por lo mismo: no ganan la pelea del jueves, la eliminan antes de que empiece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda son las intenciones con sitio y hora. Steel recoge la evidencia de que decidir de antemano cuándo y dónde exactamente se va a hacer algo mejora bastante que se haga, comparado con decidir solo que se hará. La razón es que una intención concreta se dispara sola al llegar la situación, sin necesidad de volver a decidir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la tercera es fabricar premios más cercanos. Como el premio real está lejos, se colocan pequeños en el camino: algo agradable después de cada tramo, un registro visible del avance, un plazo intermedio con alguien esperando. Nada de eso cambia el objetivo; cambia dónde está el siguiente cobro, que es lo único que la cabeza mira.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No ganes la pelea del jueves: quítala. Lo que no está a mano no hay que resistirlo, y decidir dónde y cuándo evita decidir otra vez.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Todo el mundo calcula mal cuánto va a tardar, y sigue calculándolo mal después de comprobarlo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Steel dedica un capítulo a un error tan repetido que tiene nombre propio desde los años setenta: la falacia de la planificación, descrita por Daniel Kahneman y Amos Tversky. Consiste en estimar que algo llevará bastante menos tiempo del que llevará, y en hacerlo aunque uno haya hecho esa misma tarea antes y sepa cuánto tardó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo llamativo es que la experiencia no lo corrige. Al calcular, la gente imagina cómo irá esta vez, y al imaginarlo se figura el camino despejado: sin imprevistos, sin interrupciones, sin la parte que siempre se complica. Los imprevistos no aparecen en la previsión precisamente porque son imprevistos, y sin embargo aparecen todas las veces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La corrección que funciona no es ser prudente, que no basta, sino cambiar de fuente: no preguntarse cuánto se tardará, sino cuánto se tardó las últimas veces en algo parecido, y usar ese número. Es un dato aburrido y suele ser bastante peor que la intuición, y por eso casi nadie lo mira.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto sobre la procrastinación es directo y explica muchos plazos incumplidos sin mala fe. Quien cree que algo le llevará dos horas empieza el día antes con toda tranquilidad, y no está aplazando: está calculando mal. Steel señala que ese caso se confunde constantemente con la falta de voluntad y se trata con la herramienta equivocada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No calcules cuánto vas a tardar: mira cuánto tardaste las últimas veces en algo parecido. Ese número es peor y es el bueno.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Muchos plazos pequeños funcionan mejor que un solo plazo grande, aunque nadie los pida",
+      },
+      {
+        b: "texto",
+        texto:
+          "El último tramo práctico trata de los plazos, y Steel recoge un resultado que va contra la idea de que la libertad ayuda. En experimentos con estudiantes a los que se dejó elegir sus propias fechas de entrega, quienes se repartieron los trabajos a lo largo del curso obtuvieron mejores resultados que quienes se los dejaron todos para el final, que era la opción más cómoda y la más elegida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación encaja con el descuento temporal. Un plazo único y lejano no produce ninguna urgencia hasta que está encima, y entonces produce demasiada; varios plazos cercanos mantienen el premio y el castigo siempre a poca distancia, que es donde la cabeza los ve. La cantidad de trabajo es idéntica y el resultado no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Steel añade que un plazo funciona bastante mejor cuando alguien lo está esperando. Una fecha que solo conoce uno mismo se mueve sin coste; una que conoce otra persona, no. Por eso recomienda buscar destinatario para los tramos intermedios, aunque sea un compañero al que se le manda un avance que no ha pedido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cierra con un aviso sobre las prisas. Quien trabaja siempre contra la fecha límite acaba entregando cosas peores y creyendo lo contrario, porque la memoria guarda que se entregó y no cuánto se dejó fuera. Steel señala que la sensación de rendir bajo presión es muy común y que no aparece en los datos de calidad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ponte plazos intermedios y dáselos a alguien. Una fecha que solo conoces tú se mueve sin ningún coste.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cinco cosas, y ninguna consiste en tener más voluntad. Partir la tarea hasta que el primer trozo sea imposible de no terminar. Poner lo difícil en las mejores horas. Quitar de en medio lo que distrae en vez de resistirlo. Estimar el tiempo mirando cuánto se tardó antes y no imaginando. Y repartir plazos cortos con alguien esperando en cada uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en su pieza más vendida. La fórmula de cuatro factores es una regla para acordarse de las cuatro palancas, y no una ley medida: sus términos no se pueden cuantificar por separado, no hay manera de comprobarla y no predice ningún número concreto. Steel la presenta como un descubrimiento y funciona como un buen esquema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en dos apoyos concretos. La cifra que repite —que la procrastinación crónica se ha multiplicado desde los años setenta— sale de comparar encuestas distintas con preguntas distintas, y es sugerente y poco más. Y varias de las técnicas que recomienda se apoyaban en la idea de la voluntad como un depósito que se agota, que en una replicación con muchos laboratorios en 2016 no apareció.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo que el libro no separa y debería. Aplazar por descuento temporal y no hacer nada por una depresión, por un déficit de atención o porque el trabajo es de verdad insoportable son cosas distintas, y solo la primera se arregla con esto. Después de 2010, el campo se ha movido hacia entender la procrastinación como una manera de esquivar un mal rato emocional, y ese enfoque encaja mal en la fórmula.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si llevas meses sin poder con casi nada, no es un problema de plazos. Este libro es para lo otro, y conviene saber cuál de los dos te pasa.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "procrastinacion-steel": PROCRASTINACION_STEEL,
   "amor-liquido": AMOR_LIQUIDO,
   "martes-con-mi-profesor": MARTES_CON_MI_PROFESOR,
   incognito: INCOGNITO,

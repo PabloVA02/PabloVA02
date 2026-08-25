@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "procrastinacion-steel":
+    "Steel publicó en 2007 un metaanálisis con cientos de estudios sobre por qué la gente aplaza las cosas, y este libro salió de ahí. Su primera corrección: quien aplaza un informe no está parado, está haciendo otras cosas con mucha energía.",
+
   "amor-liquido":
     "Bauman lo escribió en 2003, antes de las redes sociales, del teléfono con internet y de cualquier aplicación de citas. Su tesis es que los vínculos han dejado de plantearse como algo hecho para durar, y que eso cambia lo que ocurre dentro.",
 
