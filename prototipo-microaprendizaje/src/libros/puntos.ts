@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  becoming: [
+    "qué decide de verdad el futuro de un niño sin recursos",
+    "cómo se contesta a quien duda de que valgas",
+    "qué red hace falta debajo para poder cambiar de vida",
+    "qué se aprende en una terapia de pareja de veinte años",
+    "por qué ser el primero de algo cansa el doble",
+  ],
+
   "inteligencia-erotica": [
     "por qué el amor y el deseo piden cosas contrarias",
     "en qué momento se vuelve a mirar con deseo a la pareja",

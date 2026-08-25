@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  becoming: "Las memorias de la primera dama que no quiso serlo",
   "inteligencia-erotica": "Claves para mantener la pasión en la pareja",
   determinacion: "El poder de la pasión y la perseverancia",
   "dar-y-recibir": "Por qué ayudar a los demás conduce al éxito",

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  becoming:
+    "De un piso dividido con un tabique en Chicago a la Casa Blanca. Su tesis es que nadie termina de hacerse, y lo cuenta con las cuentas delante: lo que ganaba, lo que dejó y lo que costó.",
+
   "inteligencia-erotica":
     "Por qué el deseo se apaga justo cuando la relación va bien. Perel sostiene que el amor pide cercanía y el deseo pide distancia, y que muchas parejas construyen con esfuerzo lo que apaga una de las dos.",
 

@@ -64664,7 +64664,269 @@ const INTELIGENCIA_EROTICA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Mi historia, en ocho páginas.
+
+   Breve. Autobiografía → títulos cortos de imagen, la afirmación en la
+   primera frase y la caja del rayo en segunda persona (apartado 3 bis).
+
+   Riesgo principal: es el libro de personalidad más vendido de la década y
+   el resumen puede salir hagiográfico. Se cuenta lo concreto —el piso de
+   su abuela, el sueldo que dejó, la frase de la orientadora— y la
+   conclusión dice qué evita el libro, que es bastante.
+   -------------------------------------------------------------------------- */
+
+const BECOMING: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un piso encima de la tía abuela" },
+      {
+        b: "texto",
+        texto:
+          "Michelle Robinson creció en el piso de arriba de la casa de su tía abuela, en el South Side de Chicago, en un espacio tan pequeño que su padre dividió con un tabique improvisado el salón para hacer dos dormitorios. Su padre trabajaba en la depuradora municipal y tenía esclerosis múltiple; su madre cosía y llevaba la casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los cuatro vivían con una disciplina que el libro describe sin nostalgia: la cena a la misma hora, los deberes antes de nada, y una norma familiar de que a los niños se les escuchaba y se les hacía argumentar. Su hermano y ella discutían con sus padres, y eso era exactamente lo que se esperaba de ellos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle que ella señala como decisivo no es el dinero sino el barrio, y cómo cambió. Cuenta cómo las familias blancas se fueron marchando calle a calle a lo largo de su infancia, cómo el colegio empeoró a medida que se vaciaba, y cómo su madre acabó peleándose con la dirección para que a su hija la cambiaran de aula.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el asunto de la primera parte del libro: cómo una familia sin recursos y con un enfermo crónico dentro consigue que dos hijos salgan de allí. La respuesta que da no es inspiradora ni cómoda: horas, control, y una madre dispuesta a discutir con instituciones que no esperaban que discutiera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que decide el futuro de un niño pobre no es su esfuerzo: es quién está dispuesto a pelearse por él.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "«No creo que tengas nivel»" },
+      {
+        b: "texto",
+        texto:
+          "En el instituto, una orientadora le dijo que no creía que tuviera nivel para Princeton. Michelle no discutió con ella, se presentó igualmente y entró. La escena aparece en el libro sin ningún subrayado triunfal, y la lección que saca no es la que se espera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que cuenta es lo que le hizo por dentro: la pregunta de si era suficiente se le quedó pegada durante años, y volvió cada vez que entró en una habitación nueva. La frase de una persona que apenas la conocía funcionó durante décadas, y ese es el efecto que describe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En Princeton fue una de las pocas estudiantes negras, y describe cosas concretas: la madre de una compañera de habitación que pidió cambiar a su hija de cuarto, la sensación de tener que demostrar algo cada mañana, la energía que se va en eso y que los demás dedican a estudiar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sacó lo que llama su antídoto, que repite a lo largo del libro y que es la mejor idea que ofrece: cuando alguien duda de si vales, la respuesta no es convencerle, es hacer el trabajo. Y llevar la cuenta uno mismo, porque quien duda no la va a llevar. Y cuenta el detalle que remata la escena: años después, ya en la Casa Blanca, seguía sin poder recordar el nombre de aquella orientadora, pero recordaba palabra por palabra lo que le dijo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "A quien duda de ti no se le convence con argumentos: se le contesta con el trabajo hecho.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dejar el despacho de la esquina" },
+      {
+        b: "texto",
+        texto:
+          "Terminó Derecho en Harvard y entró en un bufete grande de Chicago con un sueldo alto y despacho propio a los veinticinco años. Era exactamente lo que su familia había perseguido durante dos generaciones, y a los tres años estaba pensando en irse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta esa crisis con una honestidad poco frecuente en el género. No fue una revelación: fue la muerte de su padre, la de una amiga de la universidad a los veintiséis, y la constatación de que estaba dedicando su vida a redactar contratos de propiedad intelectual para empresas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se marchó al ayuntamiento cobrando bastante menos, y después dirigió una organización que formaba a jóvenes para el servicio público. Cuenta las cuentas concretas —lo que dejó de ganar, lo que costó la hipoteca— porque sabe que el consejo de seguir tu vocación se da casi siempre sin números.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade la parte que las historias de reconversión suelen ocultar: pudo hacerlo porque tenía un título de Harvard debajo, o sea, una red de seguridad que casi nadie tiene. Lo dice ella, no un crítico, y es de los momentos en que el libro se distingue de un discurso motivacional. El capítulo termina con una frase de su madre que ella cita a menudo: que ganar mucho dinero no es lo mismo que tener una vida, y que las dos cosas se confunden a los veinticinco.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cambiar de vida es más fácil con una red debajo, y quien lo cuenta sin decirlo te está engañando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casarse con alguien que llega tarde" },
+      {
+        b: "texto",
+        texto:
+          "Conoció a Barack Obama cuando ella era su tutora en el bufete: él era el becario de verano y llegó tarde el primer día. El retrato que hace es el de dos caracteres opuestos, y ese contraste es el hilo de la segunda mitad del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ella es ordenada, planifica, necesita saber qué pasa el mes que viene. Él llega tarde, deja los calcetines por el suelo, tolera la incertidumbre y decide dedicarse a lo más incierto que existe. El libro no lo cuenta como una anécdota simpática: lo cuenta como el conflicto central de veinte años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte más comentada es la que casi ningún libro de esposa de presidente incluye: fueron a terapia de pareja. Y ella explica qué aprendió allí, que es lo que la convierte en información útil. Dejó de esperar que él cambiara de carácter y empezó a construirse una vida que no dependiera de sus horarios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También cuenta con detalle los dos abortos espontáneos y el tratamiento de fertilidad con el que nacieron sus hijas, incluidas las inyecciones que se puso sola porque él estaba en la cámara legislativa. Nada de eso se sabía, y explicó por qué lo contaba: porque el silencio hace que muchas mujeres crean que les pasa solo a ellas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No esperes a que el otro cambie de carácter: construye una vida que no dependa de que lo haga.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un puesto sin sueldo, sin funciones y con reglas" },
+      {
+        b: "texto",
+        texto:
+          "El día que su marido ganó las elecciones, ella pasó a ocupar un cargo que no existe legalmente: no se cobra, no tiene atribuciones y no se puede renunciar a él. Y a la vez es de los más visibles del mundo, con lo que eso significa para alguien que tenía su propia carrera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Describe las restricciones con precisión doméstica, que es lo que hace el capítulo memorable. Dejar de conducir. No poder abrir una ventana. Que un equipo se ocupe de la ropa de las niñas. Que sus hijas fueran al colegio con escolta y que ella no pudiera ir a buscarlas sin organizar un operativo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el asunto que atraviesa toda esa parte: lo que le hicieron con la imagen. Una revista la retrató como una mujer enfadada, un canal recogió una frase suya sacada de contexto durante meses, y hubo que decidir qué hacer con eso. La respuesta que dio es la que se citó después en todas partes.",
+      },
+      { b: "cita", frase: "Cuando ellos caen bajo, nosotros vamos alto.", autor: "Michelle Obama" },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta también la parte de trabajo real: una campaña sobre alimentación infantil, un huerto en el jardín de la residencia oficial, programas para hijas de militares y para acceso a la universidad. Todo escogido, según explica, entre lo poco que un cargo sin competencias puede hacer sin pedir permiso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando no puedes elegir el puesto, lo único que decides es qué haces con el margen que deja.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La primera de algo" },
+      {
+        b: "texto",
+        texto:
+          "Hay un asunto que recorre el libro entero y que ella nombra sin rodeos: fue la primera mujer negra en ese puesto, y eso significó que todo lo que hacía se leyera como representación de algo más grande que ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo describe como un peso concreto, no como un honor abstracto. Un error suyo no era su error: confirmaba un prejuicio sobre millones de personas. Un vestido, un gesto o un tono de voz se analizaban en clave racial, y ella tenía que calcular todo eso antes de abrir la boca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la reflexión más útil del libro para cualquiera que sea el primero de algo en su entorno: la energía que se gasta en vigilarse. Es la misma que otros dedican a hacer su trabajo, y explica por qué llegar el primero cansa más que llegar el décimo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da una salida que no es motivacional: contarlo. Sostiene que la manera de que el siguiente no cargue con lo mismo es que alguien describa el mecanismo en voz alta, y que ese fue uno de los motivos por los que escribió el libro en lugar de unas memorias más discretas. Y describe la parte física de ese cálculo: aprender a no fruncir el ceño en las fotografías, porque una expresión seria en su cara se titulaba de otra manera que en la de otras personas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ser el primero de algo cansa el doble, porque medio esfuerzo se va en vigilarte a ti mismo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nunca se termina de llegar" },
+      {
+        b: "texto",
+        texto:
+          "El título original del libro es un gerundio, y esa es su tesis: no hay un punto en el que uno haya terminado de convertirse en quien es. Michelle Obama lo enuncia contra la pregunta que le hacían de niña y que odia, la de qué quieres ser de mayor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sostiene que esa pregunta está mal hecha porque sugiere que hay un destino y que se llega. Su propia vida no encaja: abogada de empresa, funcionaria municipal, directora de una fundación, vicerrectora de un hospital, y después ocho años en un cargo que no había pedido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro tampoco cierra con una moraleja de superación. Termina con una mujer de cincuenta y cuatro años saliendo de la residencia oficial, sin plan claro, describiendo la sensación de tener que reinventarse otra vez con toda la vida por delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la frase con la que se despide es la que resume su idea del asunto: hay poder en dejar que te vean como eres, y hay poder en contar la propia historia con voz propia antes de que la cuente otro. Es, en el fondo, la justificación del libro entero. Cuenta que a las niñas les repetía otra pregunta en su lugar, que le parece la correcta: qué problema te gustaría ayudar a resolver, que se puede contestar a cualquier edad y admite cambiar de respuesta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta de qué quieres ser de mayor está mal hecha: da por hecho que se llega a algún sitio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Mi historia recorre cincuenta años desde un piso dividido con un tabique en el South Side de Chicago hasta la salida de la Casa Blanca. Su tesis es que nadie termina de hacerse, y su material son las decisiones concretas: dejar un bufete por un sueldo mucho menor, ir a terapia de pareja, contar un tratamiento de fertilidad, y aceptar un cargo sin funciones y con todas las miradas encima.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, y es raro en el género, es la contabilidad. Dice cuánto ganaba y cuánto dejó de ganar, admite que pudo cambiar de vida porque tenía un título que la respaldaba, nombra a la orientadora que la desanimó y describe la energía que se gasta en vigilarse cuando uno es el primero de algo en su entorno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en lo previsible: es un libro escrito por una figura pública en activo, y evita la política de fondo. Las decisiones difíciles de aquella presidencia —los drones, las deportaciones, la reforma sanitaria a medias— quedan fuera, porque el libro decide contar una vida y no un gobierno. Es legítimo y hay que saberlo antes de abrirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También hay un punto ciego que se le ha señalado. Su historia se lee fácilmente como prueba de que el esfuerzo basta, y ella misma se resiste a esa lectura en varios pasajes; pero la estructura del relato —niña pobre, universidades de élite, Casa Blanca— empuja hacia ahí, y millones de lectores la han leído así.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Publicado en 2018, vendió más de diez millones de ejemplares en su primer año y se convirtió en la memoria más vendida de la historia reciente. Su gira llenó estadios, algo que no había ocurrido nunca con un libro, y ella siguió con un segundo volumen en 2022 sobre cómo sostenerse en tiempos inciertos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una vida que sale bien se lee siempre como si el esfuerzo bastara, aunque quien la cuenta diga lo contrario.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  becoming: BECOMING,
   "inteligencia-erotica": INTELIGENCIA_EROTICA,
   determinacion: DETERMINACION,
   "dar-y-recibir": DAR_Y_RECIBIR,
