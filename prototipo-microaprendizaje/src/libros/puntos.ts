@@ -84,7 +84,7 @@ export const PUNTOS: Record<string, string[]> = {
     "qué le cuesta a una empresa cada descuento que hace",
     "a cuánta gente hay que convencer para que el resto imite",
     "cómo comprobar si un propósito declarado es de verdad",
-    "qué le pasa a una empresa cuando solo se dirige por lo que se mide",
+    "qué le pasa a una empresa que solo se dirige por lo medible",
   ],
 
   "correr-o-morir": [
