@@ -30,7 +30,7 @@
 
 export const APRENDERAS: Record<string, string> = {
   "will-smith":
-    "A los doce y nueve años, él y su hermano tardaron año y medio en levantar el muro de ladrillo que su padre había derribado. El libro explica una carrera entera a partir de dos escenas de infancia, y se publicó cuatro meses antes de los Óscar de 2022.",
+    "A los doce y nueve años, él y su hermano tardaron año y medio en levantar el muro que su padre había derribado. El libro explica una carrera entera desde dos escenas de infancia, y salió cuatro meses antes de los Óscar de 2022.",
 
   "por-que-amamos":
     "Fisher metió en un escáner a diecisiete personas intensamente enamoradas y las zonas que se encendieron no fueron las de las emociones, sino las de la recompensa. De ahí sale su tesis: el enamoramiento es un impulso, no un sentimiento.",
