@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "amar-o-depender": [
+    "por qué una relación intermitente engancha más que una buena",
+    "qué señales se pueden contar con un calendario delante",
+    "por qué el límite hay que escribirlo antes de necesitarlo",
+    "en qué momento exacto llega la recaída después de una ruptura",
+    "por qué no necesitar a nadie no es la curación de la dependencia",
+  ],
+
   "obstaculo-es-camino": [
     "cómo separar de un problema la parte que sí depende de ti",
     "qué le pasa a una situación cuando la describes sin adjetivos",

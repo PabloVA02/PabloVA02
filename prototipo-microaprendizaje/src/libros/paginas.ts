@@ -75678,7 +75678,288 @@ const OBSTACULO_ES_CAMINO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Amar o depender, en ocho páginas.
+
+   Breve. Libro práctico → afirmación entera en el rótulo y SEGUNDA PERSONA
+   en la caja (apartado 4.7).
+
+   Riesgo principal: el aforismo. Riso escribe con muchas frases redondas y
+   un resumen se puede quedar en ellas. Lo que sostiene esto son las
+   conductas concretas —las señales son cosas que se hacen, no cosas que se
+   sienten— y el mecanismo del refuerzo intermitente, que es real y explica
+   por qué las relaciones malas enganchan más que las buenas.
+
+   Y la conclusión trae la corrección importante: la teoría del apego adulto
+   describe mejor este terreno, y su conclusión no es la independencia sino
+   el vínculo seguro. Enlaza con «Dopamina» y «Por qué amamos», ya escritos.
+   -------------------------------------------------------------------------- */
+
+const AMAR_O_DEPENDER: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Walter Riso es psicólogo clínico, formado en terapia cognitiva, y lleva desde los años noventa escribiendo sobre relaciones desde la consulta. Este libro, de 1999, parte de una distinción que en la cultura corriente está completamente borrada y que él insiste en separar: querer a alguien y necesitar a alguien no son dos grados de la misma cosa, sino dos cosas distintas que a veces coinciden y muchas veces no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Walter Riso es psicólogo clínico, formado en terapia cognitiva, y lleva desde los años noventa escribiendo sobre relaciones desde la consulta. Este libro, de 1999, parte de una distinción que en la cultura corriente está borrada: querer a alguien y necesitarlo no son grados de la misma cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación es que la cultura amorosa occidental confunde las dos y además premia la segunda. No poder vivir sin alguien, sentir celos, dejarlo todo por una persona, aguantar cualquier cosa: todo eso se presenta como prueba de amor en canciones, películas y consejos de familia, y describe con bastante precisión un cuadro de dependencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia clínica que señala es que quien depende no está eligiendo estar donde está. Se queda porque el miedo a la pérdida organiza todas sus decisiones, y ese miedo produce conductas —ceder siempre, callarse, vigilar, aceptar lo inaceptable— que a su vez empeoran la relación y aumentan el miedo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre los mitos que enseñan a llamar amor a otra cosa, por qué una relación intermitente engancha más que una buena, en qué señales se reconoce esto —que son conductas y no sentimientos—, por qué el límite hay que escribirlo antes, y cómo funciona el final.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El miedo a perder a alguien produce conductas que empeoran la relación, y una relación peor aumenta el miedo a perderla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cinco frases muy repetidas enseñan a llamar amor a algo que no lo es",
+      },
+      {
+        b: "texto",
+        texto:
+          "Riso dedica buena parte del libro a desmontar creencias que casi nadie ha examinado porque se aprenden antes de tener edad para discutirlas. No son opiniones sueltas: forman un sistema coherente que hace muy difícil reconocer una relación mala mientras se está dentro.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "La media naranja", texto: "que a cada uno le falta una mitad y hay una persona que encaja. Si es verdad, perder a esa persona es quedarse incompleto para siempre, y entonces cualquier cosa se aguanta." },
+          { fuerte: "El amor todo lo puede", texto: "que con suficiente amor se resuelve cualquier incompatibilidad. Convierte en fracaso personal lo que muchas veces era una diferencia de fondo." },
+          { fuerte: "Los celos son prueba de amor", texto: "que quien no siente celos no quiere. Confunde el afecto con la vigilancia, y da carta de naturaleza al control." },
+          { fuerte: "El amor verdadero duele", texto: "que el sufrimiento mide la intensidad. Con esa creencia, cuanto peor va una relación, más se parece a la de las canciones." },
+          { fuerte: "Si me deja, no lo supero", texto: "que hay pérdidas que acaban con uno. Es la que más miedo produce y la que la experiencia desmiente con más claridad." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera viene de lejos: es la historia que cuenta Aristófanes en «El banquete» de Platón, donde los humanos eran seres completos que fueron partidos en dos y desde entonces buscan su mitad. Riso señala que esa idea, dicha en un diálogo de hace veinticuatro siglos como un mito cómico, sigue funcionando hoy como si fuera una descripción del amor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si crees que te falta una mitad, perder a alguien te deja incompleto, y entonces vas a aguantar cualquier cosa por no perderlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una relación intermitente engancha más que una buena, y eso está medido",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo más importante del libro no es de Riso y viene del estudio del aprendizaje. Cuando una conducta se premia siempre, se aprende deprisa y se abandona deprisa en cuanto deja de premiarse. Cuando se premia de manera imprevisible —a veces sí y a veces no—, se aprende más despacio y se vuelve extraordinariamente resistente a desaparecer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es exactamente el mecanismo de una máquina tragaperras, y explica algo que desde fuera parece incomprensible: por qué una persona se queda en una relación en la que lo pasa mal la mayor parte del tiempo. No se queda a pesar de la intermitencia: se queda por ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la corrección más útil del libro, y va justo contra lo que siente quien está dentro de una relación así. La intensidad no mide la calidad de un vínculo: mide la incertidumbre que hay en él. Sentir muchísimo con alguien puede significar que hay mucho en juego y puede significar, simplemente, que esa persona no es fiable y que uno se pasa el día esperando a ver por dónde sale.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la corrección más útil del libro, y va contra lo que siente quien está dentro. La intensidad no mide la calidad de una relación: mide la incertidumbre. Sentir muchísimo con alguien puede significar que hay mucho en juego, y puede significar simplemente que esa persona no es fiable.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La intensidad que sientes no mide lo buena que es la relación: muchas veces solo mide lo poco fiable que es la otra persona.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Esto se reconoce mirando lo que se hace, no lo que se siente" },
+      {
+        b: "texto",
+        texto:
+          "La parte más aprovechable del libro es que sus señales no son estados de ánimo, que son discutibles, sino conductas observables que se pueden contar. Riso insiste en que quien está dentro es siempre el peor juez de sus propios sentimientos y el mejor testigo de sus propios actos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las que enumera se comprueban con un calendario delante. Cuántos planes propios se han cancelado en tres meses por la otra persona. Cuánto hace que no se ve a los amigos de antes. Si el ánimo del día depende del ánimo con que esa persona se levantó. Si se revisan sus mensajes o sus horarios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade dos que son las que más información dan. La primera: si se ensayan mentalmente conversaciones durante horas antes de tenerlas, lo que significa que hablar con esa persona se ha convertido en un examen. La segunda: si al recibir una llamada suya lo que se siente es alivio en vez de alegría, que son dos cosas distintas y se distinguen perfectamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba que remata el capítulo es de comparación con uno mismo: hacer una lista de cosas que hoy se aceptan y que hace tres años se habrían considerado inadmisibles. Casi nadie cambia de criterio de golpe; el criterio se mueve un poco cada vez, y por eso solo se ve mirando hacia atrás varios años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si al recibir su llamada sientes alivio en vez de alegría, eso ya es un dato, y no hace falta interpretarlo más.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El límite se escribe antes, porque dentro de la relación se mueve solo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Riso propone algo que suena burocrático y resuelve un problema real: escribir, en frío y por adelantado, la lista de cosas que uno no está dispuesto a aceptar en ninguna circunstancia. Con nombres concretos: humillación delante de otros, violencia de cualquier tipo, mentira sistemática, control del dinero o de las amistades.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón de escribirlo antes es que el umbral se desplaza. Nadie acepta de entrada lo que acabará aceptando; lo que ocurre es que cada episodio es un poco peor que el anterior y solo un poco, y compararlo con el anterior siempre lo hace parecer tolerable. La comparación que faltaría es con el punto de partida, y ese ya no se recuerda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Escribirlo tiene además otra función: convierte una decisión emocional en una comprobación. Cuando pasa algo, la pregunta no es si duele lo suficiente ni si esta vez fue peor que la anterior, sino si está o no en la lista. Y eso se puede contestar en un mal momento, que es cuando hay que contestarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene añadir lo que el libro pasa por alto: irse no depende solo de haberlo decidido. Depende del dinero, de la vivienda, de los hijos, de la familia que hay detrás y de si hay alguien a quien acudir. Un límite escrito sirve para saber cuándo hay que empezar a preparar la salida, que a veces lleva meses, y esa parte no está en el libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribe en frío lo que no vas a aceptar: dentro de la relación cada episodio se compara con el anterior y siempre parece tolerable.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Salir de una relación así funciona como una abstinencia y no como una tristeza",
+      },
+      {
+        b: "texto",
+        texto:
+          "El final del libro trata de la ruptura, y Riso lo describe con vocabulario de dependencia porque es lo que se parece. No es un duelo tranquilo que va bajando: es un proceso con picos, con recaídas y con un impulso muy fuerte de volver a buscar a la persona, que aparece justo cuando parecía que ya estaba superado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso coincide con lo que se ha visto midiendo cerebros. Cuando se escanea a personas que acaban de ser rechazadas y siguen enamoradas, siguen activándose las zonas de recompensa, y además se activan regiones asociadas al ansia y al dolor físico. El circuito no se apaga con el rechazo: se intensifica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una advertencia sobre el momento exacto en que se decide volver, que es la observación más fina del libro. Riso señala que la recaída casi nunca ocurre en los peores días, cuando uno está hundido, sino en los primeros días buenos: cuando ya se está algo mejor, el recuerdo del dolor se ha suavizado y el de los momentos buenos vuelve intacto, con lo que la cuenta que uno hace sale falseada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una advertencia sobre el momento en que se decide volver. Riso señala que la recaída casi nunca ocurre en los peores días, sino en los primeros días buenos: cuando ya se está algo mejor, el recuerdo del dolor se ha suavizado y el de los momentos buenos vuelve intacto, con lo que la cuenta sale mal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La recaída no llega en los peores días: llega en los primeros buenos, cuando el recuerdo del dolor ya se ha suavizado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo contrario de depender no es no necesitar a nadie" },
+      {
+        b: "texto",
+        texto:
+          "Aquí está el punto que el libro deja peor resuelto y que conviene enmendar. Riso propone como salida la independencia afectiva, y describe como objetivo a alguien que se basta a sí mismo, que no necesita a nadie para estar bien y que elige estar en pareja sin depender de ello.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La investigación sobre vínculos adultos, desarrollada desde los años ochenta a partir del trabajo sobre el apego infantil, describe este terreno con más precisión y llega a otra conclusión. Distingue tres maneras de vincularse: la segura, la ansiosa —que es aproximadamente lo que Riso llama dependencia— y la evitativa, que consiste precisamente en no necesitar a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo importante es que la evitación no es la curación de la ansiedad: es el otro extremo del mismo problema, y produce sus propios destrozos. Quien se ha entrenado para no necesitar a nadie mantiene relaciones a distancia, se va antes de que le dejen y confunde la autosuficiencia con la salud.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que la investigación describe como saludable no es la independencia sino la seguridad: poder necesitar a alguien, decirlo, y saber que si esa relación termina uno lo va a pasar muy mal y va a seguir existiendo. Es una posición intermedia y es bastante más difícil de explicar que las dos de los extremos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No necesitar a nadie no es la curación de la dependencia: es el otro extremo del mismo problema, con sus propios destrozos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro cosas concretas. La distinción entre querer y necesitar, que en la cultura corriente está borrada. El mecanismo del refuerzo intermitente, que explica por qué una relación mala engancha más que una buena. Las señales, que son conductas contables y no sentimientos discutibles. Y escribir el límite en frío, antes de necesitarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en las pruebas y en el estilo. No hay ningún estudio propio, ningún seguimiento y ninguna cifra: hay casos de consulta contados por el terapeuta, y una cantidad notable de frases redondas que suenan bien y no dicen nada comprobable. Es divulgación clínica escrita para vender, y conviene leerla como tal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después es que la expresión que da título al libro entró en el idioma corriente en español y hoy la usa gente que no lo ha leído, y que Riso construyó sobre ella una obra de más de treinta libros con el mismo esquema. Mientras tanto, el mismo terreno ha quedado mucho mejor descrito por la teoría del apego adulto, que sí tiene medidas, tipos definidos y estudios de seguimiento detrás de cada afirmación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después es que la expresión que da título al libro entró en el idioma corriente en español, y que Riso construyó sobre ella una obra de más de treinta libros con el mismo esquema. Mientras tanto, el mismo terreno ha quedado mucho mejor descrito por la teoría del apego adulto, que sí tiene medidas, tipos definidos y estudios de seguimiento detrás.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nombra bien el problema y se equivoca en la salida: no es dejar de necesitar, es poder necesitar sin miedo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "amar-o-depender": AMAR_O_DEPENDER,
   "obstaculo-es-camino": OBSTACULO_ES_CAMINO,
   "cinco-arrepentimientos": CINCO_ARREPENTIMIENTOS,
   esencialismo: ESENCIALISMO,

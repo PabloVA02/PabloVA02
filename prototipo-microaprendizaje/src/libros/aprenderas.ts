@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "amar-o-depender":
+    "La cultura amorosa premia lo que un clínico reconoce como dependencia: no poder vivir sin alguien, los celos, aguantar cualquier cosa. Riso separa querer de necesitar, y sus señales son conductas que se pueden contar.",
+
   "obstaculo-es-camino":
     "El estoicismo tuvo en Roma a un esclavo, un consejero riquísimo y un emperador escribiendo lo mismo. Holiday traduce esa escuela a un procedimiento de tres pasos, y deja fuera la mitad que obligaba a ocuparse de los demás.",
 

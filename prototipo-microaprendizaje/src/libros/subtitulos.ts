@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "amar-o-depender": "Cómo superar el apego afectivo y hacer del amor una experiencia plena",
   "obstaculo-es-camino": "El arte eterno de convertir las pruebas en triunfo",
   "cinco-arrepentimientos": "Lo que enseña la vida a los que van a morir",
   esencialismo: "Logra el máximo de resultados con el mínimo de esfuerzo",
