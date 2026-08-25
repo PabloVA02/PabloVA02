@@ -81998,7 +81998,299 @@ const TRAGUESE_SAPO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Empresas que sobresalen, en ocho paginas.
+
+   Breve. ECONOMIA -> apartado 4 bis: cada argumento con una persona o una
+   empresa con nombre, fecha y cifra. Segunda persona en la caja.
+
+   Seis argumentos: el liderazgo de nivel 5, primero quien, la paradoja de
+   Stockdale, el erizo, la cultura de la disciplina y el volante.
+
+   Nombres, uno por pagina: Darwin Smith y Kimberly-Clark, Colman Mockler y
+   Gillette, el almirante James Stockdale, Walgreens contra drugstore.com,
+   Nucor.
+
+   La conclusion es la mejor del catalogo en 'que paso despues' y hay que
+   contarla entera: de las once empresas ejemplares, Circuit City quebro y
+   liquido en 2009, Fannie Mae paso a control publico en septiembre de 2008 y
+   Wells Fargo tuvo el escandalo de las cuentas falsas en 2016. Y Philip Morris
+   figura como modelo de grandeza.
+   -------------------------------------------------------------------------- */
+
+const EMPRESAS_SOBRESALEN: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Once empresas normales se volvieron excepcionales sin ningún golpe de suerte, y lo hicieron igual",
+      },
+      {
+        b: "texto",
+        texto:
+          "Jim Collins montó un equipo de veintiún investigadores y les puso cinco años a una sola pregunta: si una empresa mediocre puede llegar a ser excepcional, y cómo. Partieron de mil cuatrocientas treinta y cinco compañías que habían estado en la lista Fortune 500 entre 1965 y 1995, y aplicaron un filtro duro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El filtro era este: quince años de resultados mediocres, un punto de inflexión, y después quince años seguidos con una rentabilidad bursátil de al menos el triple que la del mercado. Pasaron once. Ni una más. Después buscaron para cada una una empresa de comparación del mismo sector y tamaño que no había dado el salto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese diseño es lo que hace el libro distinto de casi todos los de su estante, y también donde está su problema, como se verá al final. Lo que Collins buscaba no era qué tienen en común las empresas buenas, sino qué tienen las que dieron el salto y no tienen las que se quedaron al lado con las mismas cartas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre qué clase de jefe aparece siempre en el punto de inflexión, por qué la primera decisión no es la estrategia, cómo se sostienen a la vez la fe y los datos malos, en qué consiste el concepto del erizo, qué cultura hace innecesario el control, por qué nunca hay un momento milagroso y qué ha sido de esas once empresas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que separa a los que dan el salto no es lo que tienen, sino lo que hacen distinto de quien tenía exactamente las mismas cartas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los jefes de las once no eran figuras carismáticas, y esa fue la mayor sorpresa del estudio",
+      },
+      {
+        b: "texto",
+        texto:
+          "Collins cuenta que había prohibido a su equipo estudiar a los directivos, porque le parecía la explicación perezosa de siempre. Los investigadores volvieron con los datos y le dijeron que no podían dejarlos fuera: en las once empresas, y en ninguna de las de comparación, mandaba una persona con el mismo perfil raro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo llamó «liderazgo de nivel 5», y consiste en dos cosas que casi nunca van juntas: una ambición feroz por la empresa y una modestia personal que llega a la timidez. Ninguno de los once salía en portadas ni escribía libros sobre sí mismo, y varios eran gente de dentro que llevaba décadas allí y a la que nadie esperaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que usa es Darwin Smith, un abogado interno que dirigió Kimberly-Clark desde 1971. Se le diagnosticó un cáncer de nariz y garganta poco después de llegar y siguió trabajando. Vendió las fábricas de papel, que eran el negocio histórico de la empresa, y metió todo el dinero en productos de consumo para pelear de frente con Procter & Gamble.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Collins añade un detalle de comportamiento que se puede comprobar en cualquier reunión. Cuando las cosas salen bien, estos directivos atribuyen el mérito a la suerte y a la gente; cuando salen mal, miran al espejo. Los de las empresas de comparación hacían exactamente lo contrario, y lo hacían en sus propias cartas a los accionistas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Fíjate en dónde mira alguien cuando algo sale mal. Si mira siempre hacia fuera, ya sabes cómo va a ir la siguiente crisis.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La primera decisión no es adónde ir, sino con quién, y ese orden lo tiene casi todo el mundo al revés",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda conclusión del estudio va contra el manual entero de estrategia. Los directivos de las once no empezaron fijando un rumbo y buscando después gente que lo ejecutara. Empezaron por las personas: subir al autobús a las adecuadas, bajar a las que no lo eran, colocarlas en el asiento correcto, y solo entonces decidir hacia dónde conducir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Collins da tres razones y las tres se sostienen. Si el mundo cambia y has elegido a la gente por el rumbo, tienes que volver a empezar. Si tienes a la gente adecuada, el problema de motivarla desaparece, porque se motiva sola. Y si tienes a la equivocada, ni el mejor rumbo del mundo te salva de dedicar el día a gestionarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre bajar a alguien del autobús dice algo incómodo y bastante honesto. Estos directivos eran rigurosos y no despiadados: no hacían despidos masivos, que en el estudio aparecen más en las empresas mediocres que en las once. Actuaban rápido con las personas concretas y con las plantillas apenas tocaban, que es justo lo contrario de lo que se hace.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da una prueba práctica para saber cuándo hay que actuar. Si te preguntas si esa persona debería estar, ya lo sabes. Y si te lo planteas y la respuesta es que la contratarías otra vez sabiendo lo que sabes hoy, no hay nada que decidir. Collins observa que casi todo el mundo tarda demasiado, y que nadie se ha arrepentido nunca de haber tardado poco.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si te estás preguntando si esa persona debería seguir, ya has contestado. Lo que queda es cuánto vas a tardar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay que mirar los datos peores de frente y creer que se sale igualmente, y las dos cosas a la vez",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más recordado del libro nace de una conversación con James Stockdale, un almirante de la marina estadounidense que estuvo ocho años preso en Vietnam, entre 1965 y 1973, torturado más de veinte veces y sin ninguna garantía de salir. Collins le preguntó quiénes no lo consiguieron y esperaba oír cualquier cosa menos lo que oyó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Stockdale contestó que los optimistas. Los que decían que estarían fuera por Navidad, y llegaba Navidad y seguían allí; y después por Pascua, y por Navidad otra vez. Murieron, dijo, de desilusión repetida. Él sostenía dos cosas a la vez: que saldría de allí y que aquello iba a durar muchísimo, y no confundía nunca la una con la otra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Collins lo convierte en un criterio de gestión que llama la paradoja de Stockdale, y lo aplica a las empresas. Las once mantenían la certeza de que iban a salir adelante y al mismo tiempo miraban sus números malos sin maquillarlos. Las de comparación solían tener lo primero sin lo segundo, que es la combinación que produce planes preciosos y ninguna corrección.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La traducción práctica que da es de reuniones. Preguntas en vez de respuestas, discusiones de verdad en vez de exposiciones, y autopsias sin culpables: reconstruir qué pasó sin buscar a quién colgárselo, porque en cuanto hay un culpable la gente deja de contar lo que ha visto. Es un consejo barato y casi nadie lo cumple dos trimestres seguidos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cree que vas a salir de esta y mira los números malos sin maquillar. Quien solo tiene lo primero se lleva un golpe cada Navidad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Solo se llega a lo excepcional en aquello en lo que se puede ser el mejor, y eso casi nunca es lo que uno quiere",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea central del libro la toma Collins de un ensayo de Isaiah Berlin sobre un verso griego: la zorra sabe muchas cosas y el erizo sabe una grande. Su afirmación es que las once empresas eran erizos: entendieron una sola cosa sobre sí mismas y organizaron todo alrededor durante décadas, mientras las otras perseguían muchas a la vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa cosa está en el cruce de tres preguntas y hay que contestar a las tres. En qué se puede llegar a ser el mejor del mundo. Qué mueve de verdad el motor económico, y aquí pide una sola cifra: beneficio por cliente, por empleado, por metro cuadrado, la que sea. Y qué apasiona de verdad a la gente de dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer círculo es el que más duele, porque no dice en qué se es bueno ni en qué se querría destacar: dice en qué se puede ser el mejor. Collins insiste en que casi siempre eso obliga a abandonar el negocio con el que la empresa se identificaba, como hizo Kimberly-Clark con el papel, y que ahí es donde se cae la mayoría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda parte, la cifra única, es la más aprovechable para cualquier tamaño. Walgreens dejó de medir el beneficio por tienda y pasó a medirlo por visita de cliente, y esa sola decisión cambió su política de aperturas: pusieron tiendas muy juntas, hasta nueve en una milla, algo que con la métrica anterior era un disparate. Estuvieron quince años haciéndolo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Elige una sola cifra que mida si vas bien. La que eliges cambia lo que haces mucho más que cualquier plan.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Con gente disciplinada no hace falta jerarquía, y la disciplina se nota más en lo que se deja de hacer",
+      },
+      {
+        b: "texto",
+        texto:
+          "Collins define la cultura que encontró como disciplina en tres capas: personas disciplinadas, pensamiento disciplinado y acción disciplinada. Y sostiene que cuando están las tres, la empresa puede permitirse muy poca burocracia, porque las normas y los controles existen sobre todo para compensar a las personas equivocadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que da es Nucor, la siderúrgica que en los años setenta y ochenta apostó por hornos de arco eléctrico cuando los grandes del acero los despreciaban. Pagaba a sus equipos por tonelada producida y sin sueldo garantizado los días de parada, y a la vez tenía una jerarquía plana y un directivo que volaba en clase turista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La herramienta que más se ha copiado de este capítulo es la lista de lo que se deja de hacer. Collins observa que casi todas las empresas tienen una lista de iniciativas y ninguna tiene una lista de cosas que ha decidido abandonar, y que en las once esa segunda lista existía y se revisaba con más disciplina que la primera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Del capítulo sobre tecnología queda una frase que ha envejecido bien. La tecnología nunca causó ninguna de las transformaciones, dice, pero las aceleró todas. Walgreens tardó en montar su tienda en internet mientras drugstore.com salía a bolsa entre aplausos; hizo lo suyo despacio y con su propia lógica, y la que desapareció fue la otra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Haz la lista de lo que vas a dejar de hacer. Casi nadie la tiene, y decide más que la lista de lo que va a empezar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No hubo en ningún caso un momento decisivo, y desde fuera siempre parece que lo hubo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La última idea del libro es la que más consuela y la que menos se vende. Collins cuenta que buscaron en las once el acontecimiento fundacional —el programa, la adquisición, el discurso, la crisis— y no lo encontraron en ninguna. Ni siquiera los propios directivos sabían señalar el día en que la cosa cambió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La imagen que usa es un volante enorme y pesado. Empujarlo la primera vez casi no lo mueve; la segunda tampoco se nota; a las mil vueltas gira solo y hace falta esfuerzo para pararlo. Nadie puede decir cuál fue el empujón que lo puso en marcha, porque no hubo uno: hubo la acumulación de todos en la misma dirección.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su contrario, que llama el bucle de la perdición, describe lo que hacían las de comparación. Un plan nuevo cada dos años, una adquisición grande, una reorganización, un directivo llegado de fuera con otro rumbo. Cada iniciativa borraba el impulso de la anterior, y el volante se paraba antes de coger velocidad. Y todo eso se anunciaba con mucho más ruido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Collins añade una observación sobre cómo se ve desde fuera y explica bastante. Cuando el volante ya gira, la prensa descubre la empresa y busca la causa, y siempre encuentra un momento fundacional que en realidad no existió. Por eso las historias de éxito que se leen tienen todas un punto de inflexión heroico y ninguna se parece a lo que pasó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hay un empujón que lo cambie todo. Hay muchos en la misma dirección, y el mérito está en no cambiar de dirección.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro cosas y funcionan a cualquier tamaño. Primero quién y después qué. Sostener a la vez la certeza de salir adelante y la lectura sin maquillar de los números malos. Elegir una sola cifra que mida si se va bien, porque esa elección cambia la conducta más que cualquier plan. Y tener escrita la lista de lo que se ha decidido dejar de hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en cómo se construyó, y es un fallo conocido. Collins eligió a las ganadoras y después buscó qué tenían en común, que es mirar el resultado antes que la causa. Con mil cuatrocientas empresas y ventanas de quince años, unas cuantas superan al mercado por puro azar, y los rasgos que se les encuentran después pueden ser los de cualquier empresa grande.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pero lo que de verdad juzga a este libro es lo que hicieron sus once ejemplos después de 2001. Circuit City se declaró en quiebra y liquidó sus tiendas en 2009. Fannie Mae pasó a control del gobierno estadounidense en septiembre de 2008 tras pérdidas enormes. Wells Fargo reconoció en 2016 que sus empleados habían abierto millones de cuentas sin permiso de los clientes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y queda una elección que envejece peor cada año: Philip Morris, una tabacalera, figura entre los once modelos de grandeza, y el libro despacha el asunto en unas líneas. Collins publicó en 2009 otro libro, Cómo caen los poderosos, dedicado a explicar por qué se hunden las empresas excelentes. Fue una respuesta elegante a una pregunta que le habían hecho sus propios datos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quédate con el orden: primero con quién, después adónde. Es lo único de este libro que ninguna de las quiebras posteriores desmiente.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "empresas-sobresalen": EMPRESAS_SOBRESALEN,
   "traguese-sapo": TRAGUESE_SAPO,
   "codigo-da-vinci": CODIGO_DA_VINCI,
   "mujeres-lobos": MUJERES_LOBOS,

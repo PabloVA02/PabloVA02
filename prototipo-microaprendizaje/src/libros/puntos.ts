@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "empresas-sobresalen": [
+    "qué clase de jefe aparece siempre en el punto de inflexión",
+    "por qué la primera decisión no es adónde ir sino con quién",
+    "cómo se sostienen a la vez la fe y los datos malos",
+    "por qué la cifra que eliges cambia lo que haces más que un plan",
+    "qué pasó después con las once empresas ejemplares",
+  ],
+
   "traguese-sapo": [
     "por qué conviene hacer lo más pesado antes que nada",
     "cómo se distingue lo urgente de lo que importará dentro de un mes",

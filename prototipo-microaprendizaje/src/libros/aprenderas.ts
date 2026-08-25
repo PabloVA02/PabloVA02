@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "empresas-sobresalen":
+    "Veintiún investigadores, cinco años y mil cuatrocientas treinta y cinco empresas para encontrar once que pasaran de mediocres a excepcionales durante quince años seguidos. Después buscaron qué hicieron distinto de sus rivales del mismo sector.",
+
   "traguese-sapo":
     "Nadie termina nunca su lista, porque cada tarea hecha genera dos nuevas. Tracy sostiene que entonces el trabajo no es hacer más deprisa, sino decidir qué se queda sin hacer para siempre.",
 
