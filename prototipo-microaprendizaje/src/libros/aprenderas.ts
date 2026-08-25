@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "malcolm-x":
+    "Dejó la escuela a los quince años y en la cárcel copió un diccionario entero a mano porque no sabía escribir cartas. Contado a Alex Haley en dos años de entrevistas, el libro recorre cuatro conversiones seguidas, cada una escrita desde dentro.",
+
   "harry-potter-1":
     "Rowling injertó criaturas mágicas sobre un género inglés de 1857, la novela de internado, sin cambiarle ninguna pieza: casas rivales, puntos, prefectos y exámenes. Debajo hay una idea que aparece tres veces y decide el libro.",
 

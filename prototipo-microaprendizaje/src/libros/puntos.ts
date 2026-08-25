@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "malcolm-x": [
+    "por qué un techo puesto con buena intención frena más que el odio",
+    "qué aprende sobre sí mismo quien se cambia el aspecto para encajar",
+    "cómo se aprende a hablar en público empezando por leer",
+    "lo que cuesta rectificar en público algo defendido durante años",
+    "por qué reformular un problema cambia quién tiene que responder",
+  ],
+
   "harry-potter-1": [
     "por qué lo nuevo suele ser algo viejo puesto en otro sitio",
     "la diferencia entre ser conocido y haber hecho algo",

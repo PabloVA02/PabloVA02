@@ -80,7 +80,7 @@ export const CATALOGO: Ficha[] = [
   { id: "imperiofobia", titulo: "Imperiofobia y leyenda negra", autor: "María Elvira Roca Barea", ano: 2016, categoria: "Historia", estado: "escrito" },
 
   { id: "becoming", titulo: "Mi historia", autor: "Michelle Obama", ano: 2018, categoria: "Historia", estado: "escrito" },
-  { id: "malcolm-x", titulo: "Autobiografía de Malcolm X", autor: "Malcolm X y Alex Haley", ano: 1965, categoria: "Historia", estado: "pendiente" },
+  { id: "malcolm-x", titulo: "Autobiografía de Malcolm X", autor: "Malcolm X y Alex Haley", ano: 1965, categoria: "Historia", estado: "escrito" },
   { id: "espia-traidor", titulo: "Espía y traidor", autor: "Ben Macintyre", ano: 2018, categoria: "Historia", estado: "pendiente" },
   { id: "equipo-rivales", titulo: "Equipo de rivales", autor: "Doris Kearns Goodwin", ano: 2005, categoria: "Historia", estado: "pendiente" },
   { id: "en-la-sombra", titulo: "En la sombra", autor: "Príncipe Harry", ano: 2023, categoria: "Historia", estado: "pendiente" },

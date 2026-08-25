@@ -67588,7 +67588,277 @@ const HARRY_POTTER_1: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Autobiografía de Malcolm X, en ocho páginas.
+
+   Breve. Biografía → apartado 3 bis: título corto de imagen en el rótulo y
+   la afirmación en la primera frase de la página.
+
+   PERO la caja del rayo va en TERCERA persona y no en segunda, contra lo que
+   dice ese mismo apartado para la narrativa. La razón es la del apartado
+   4 bis: es un libro escrito desde una desgracia real —la casa incendiada,
+   el padre muerto, la madre internada, el propio autor asesinado antes de
+   que saliera— y una caja que le hable de tú al lector convierte eso en un
+   lema de taza.
+
+   Riesgo principal: la hagiografía o el resumen de la Wikipedia. Lo que lo
+   salva son las escenas concretas: Ostrowski, la lejía, el diccionario
+   copiado a mano, el plato compartido en La Meca.
+
+   Y la conclusión trae lo que casi ningún resumen dice: que el libro lo
+   armó Alex Haley, que Marable documentó en 2011 lo que se cortó, y que en
+   2021 se exoneró a dos de los tres condenados.
+   -------------------------------------------------------------------------- */
+
+const MALCOLM_X: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "La casa que ardió en Lansing" },
+      {
+        b: "texto",
+        texto:
+          "La violencia que ordena esta vida empieza antes de que el protagonista tenga uso de razón. Malcolm Little nació en Omaha en mayo de 1925, cuarto de siete hermanos. Su padre, Earl, era predicador bautista y organizador del movimiento de Marcus Garvey, que defendía que los negros de América debían construir sus propias instituciones y volver a África.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1929, la casa familiar de Lansing, Michigan, ardió de noche. En 1931, Earl apareció muerto bajo un tranvía: la versión oficial fue accidente y la familia nunca la creyó. La compañía de seguros se negó a pagar la póliza grande alegando suicidio, y con eso empezó la caída.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su madre, Louise, aguantó ocho años criando a siete hijos con el subsidio y lo que se pudiera. En 1939 la ingresaron en un hospital psiquiátrico estatal, donde pasaría más de dos décadas, y los hermanos se repartieron entre casas de acogida. Malcolm insiste en un punto: no fue una familia que se rompiera sola, fue una familia desmontada por decisiones administrativas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue son las cuatro conversiones de un hombre que cambió de nombre cuatro veces, y una quinta que no le dio tiempo a desarrollar: el chico de Michigan que quería ser abogado, el delincuente de Harlem, el preso que aprendió a leer copiando un diccionario, el predicador que llenaba salas y el hombre que volvió de La Meca con otra idea en la cabeza y quince meses de vida por delante.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La suya no fue una familia que se deshiciera sola: fue desmontada, y el libro lo cuenta con nombres y fechas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El consejo del mejor profesor" },
+      {
+        b: "texto",
+        texto:
+          "La escena que decide esta vida no tiene ninguna violencia dentro y dura dos minutos. Malcolm iba a la escuela de Mason, Michigan, era el primero de su clase y sus compañeros —todos blancos— lo habían elegido delegado. Un profesor al que apreciaba, el señor Ostrowski, le preguntó qué quería ser de mayor. Contestó que abogado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El profesor le dijo que fuera realista, que aquello no era una meta razonable para un chico negro, y le sugirió la carpintería: se le daban bien los trabajos manuales y la gente le apreciaba. Lo dijo sin ninguna hostilidad, con la mejor intención, como quien da un consejo sensato a un alumno al que quiere bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa distinción recorre el libro entero y es lo que lo hace útil fuera de su época. La violencia abierta es visible y por eso se puede nombrar y combatir. El consejo prudente de alguien que te aprecia y ha decidido de antemano hasta dónde puedes llegar no deja ninguna huella, no se puede denunciar en ningún sitio y hace más daño, porque quien lo recibe acaba tomándolo por sentido común y se ahorra el intento él solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa distinción recorre el libro entero. La violencia abierta es visible y se puede combatir; el consejo prudente de alguien que te aprecia y ha decidido de antemano hasta dónde puedes llegar no deja huella y hace más daño, porque el que lo recibe acaba tomándolo por sentido común y ahorrándose el intento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El techo que más frena no lo pone el que odia, sino el que aprecia y ha decidido de antemano hasta dónde puedes llegar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La lejía en el pelo" },
+      {
+        b: "texto",
+        texto:
+          "El símbolo que Malcolm elige para contar aquellos años no es una pistola ni una droga: es un peinado. En Boston, con dieciséis años, se alisó el pelo por primera vez con una pasta casera de lejía, patatas y huevo, que quema la piel de verdad y que hay que aguantar todo lo posible antes de meter la cabeza bajo el grifo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Describe el dolor con detalle: el cuero cabelludo ardiendo, el agua fría que no llega a tiempo, las costras de los días siguientes. Y después, el espejo: el pelo liso y brillante, «tan bueno como el de cualquier blanco». Lo llama su primer gran paso hacia la degradación de sí mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El razonamiento que hace décadas después es lo que convierte una anécdota de peluquería en un argumento. Un hombre que se quema la cabeza para parecerse a otro ha aceptado antes, sin discutirlo, que su aspecto de origen era el equivocado. Ninguna ley lo obligaba a eso; lo había aprendido sin que nadie se lo enseñara expresamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después vinieron los años de Harlem, los números de la lotería ilegal, la droga y los robos. En enero de 1946 lo detuvieron por una serie de robos en casas y le cayeron de ocho a diez años, una pena mucho mayor de lo normal para aquello. Él siempre sostuvo que lo que se juzgó de verdad fueron las dos mujeres blancas que participaron en los robos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien se quema la cabeza para parecerse a otro ya ha aceptado antes, sin discutirlo, que era él quien estaba mal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La segunda mitad de esta vida empieza en una celda y con un problema muy práctico: Malcolm quería escribir cartas y no era capaz de escribirlas. Había dejado la escuela a los quince años, apenas leía de corrido, y cuando se sentaba a escribir a alguien no encontraba las palabras ni sabía en qué orden ponerlas. Lo cuenta sin ningún dramatismo, como quien describe una herramienta que le faltaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda mitad de esta vida empieza en una celda y con un problema práctico: Malcolm quería escribir cartas y no sabía escribirlas. Había dejado la escuela a los quince años, apenas leía de corrido y, cuando intentaba expresarse por carta, no encontraba las palabras ni sabía ordenarlas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hizo con eso es el episodio más citado del libro. Consiguió un diccionario y empezó a copiarlo a mano, entero, empezando por la primera página. Copiaba una página, la leía en voz alta, y seguía. Estuvo así meses, hasta que dice haber copiado el diccionario completo, y luego siguió leyendo por su cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Le ayudó el sitio. Lo habían trasladado a la colonia penitenciaria de Norfolk, en Massachusetts, que tenía una biblioteca de verdad donada por un particular, con historia, filosofía y religión. Y tenía equipo de debate: allí aprendió a discutir en público, que es exactamente el oficio del que viviría después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Salió de la cárcel en 1952 leyendo varios libros a la vez y convertido a la Nación del Islam por cartas de su hermano Reginald. Cambió el apellido Little por una X, porque Little era el apellido del dueño de esclavos que había comprado a sus antepasados y el verdadero se había perdido. La X marca el sitio del dato que falta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Copió el diccionario entero a mano porque no sabía escribir cartas, y de ahí salió uno de los grandes oradores del siglo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El día que se cayó el maestro" },
+      {
+        b: "texto",
+        texto:
+          "Entre 1952 y 1963, Malcolm convirtió una secta de unos pocos cientos de miembros en una organización con decenas de miles. Abrió templos por todo el país, fundó el periódico «Muhammad Speaks» en 1960 y se convirtió en el portavoz más reconocible de un movimiento cuyo líder, Elijah Muhammad, apenas aparecía en público.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1963 confirmó lo que llevaba tiempo oyendo: que Elijah Muhammad había tenido varios hijos con secretarias jóvenes de la organización, algunas menores de veinte años, y que la doctrina moral que se imponía a los miembros no se le aplicaba a él. Malcolm lo comprobó hablando con las propias mujeres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Salió de la Nación en marzo de 1964 y fundó dos organizaciones propias, una religiosa y otra política. Lo que dejaba atrás no era solo una iglesia: era la única estructura que lo había sostenido desde que salió de la cárcel, la que le daba casa, sueldo y protección. Y sabía desde el primer día que la gente que ahora lo amenazaba conocía su dirección, sus horarios y los nombres de sus hijas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Salió de la Nación en marzo de 1964 y fundó dos organizaciones propias. Lo que dejaba atrás no era solo una iglesia: era la única estructura que lo había sostenido desde la cárcel, y sabía desde el primer día que la gente que ahora le amenazaba conocía su casa, sus horarios y a sus hijas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El golpe no fue descubrir el fraude, sino descubrir que su vida entera estaba construida sobre el hombre que lo cometía.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un plato compartido en La Meca" },
+      {
+        b: "texto",
+        texto:
+          "En abril de 1964, Malcolm hizo la peregrinación a La Meca, y allí se le cayó la doctrina que había predicado durante doce años. La Nación del Islam enseñaba que el hombre blanco era el diablo, literalmente y sin metáforas, y él lo había repetido en cientos de mítines con esa misma palabra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que encontró fue una multitud de peregrinos de todos los colores cumpliendo el mismo rito. Escribió cartas desde allí describiendo lo que le parecía imposible: haber comido del mismo plato, bebido del mismo vaso y dormido en la misma alfombra que hombres de ojos azules y pelo rubio, sin que nadie reparase en ello.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Volvió con otro nombre, El-Hajj Malik El-Shabazz, y con un problema político de primer orden: tenía que decirle a un movimiento que había construido sobre esa doctrina que la doctrina estaba equivocada. Cambiar de opinión en público, después de doce años afirmando lo contrario delante de miles de personas que te siguen precisamente por eso, es la operación más difícil que hizo en toda su vida, y la que menos se le reconoce.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Volvió con otro nombre, El-Hajj Malik El-Shabazz, y con un problema político grande: tenía que decirle a un movimiento que había construido sobre esa doctrina que la doctrina estaba mal. Cambiar de opinión en público, después de doce años afirmando lo contrario delante de miles de personas, es lo más difícil que hizo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Rectificó en público doce años de predicación, que es la operación más cara que puede hacer alguien que vive de hablar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Del derecho civil al derecho humano" },
+      {
+        b: "texto",
+        texto:
+          "El último año de su vida contiene el argumento que menos se le recuerda, y es el más portátil de todos. Malcolm sostuvo que plantear la situación de los negros americanos como un problema de derechos civiles era un error táctico, porque los derechos civiles son un asunto interno de un país y nadie de fuera puede intervenir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su propuesta era reformularlo como una cuestión de derechos humanos, que sí tiene foros internacionales. Con eso, el asunto podía llevarse a Naciones Unidas y Estados Unidos tendría que responder ante otros gobiernos, igual que respondían entonces otros países por sus propias violaciones. Viajó por África y Oriente Medio buscando ese apoyo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mataron el 21 de febrero de 1965 en el salón Audubon de Harlem, delante de su mujer y sus hijas, mientras empezaba a hablar. Tenía treinta y nueve años y llevaba dos dando entrevistas para este libro. La estrategia internacional no llegó a probarse nunca, y esa parte es la que el libro tiene menos desarrollada, precisamente porque se estaba desarrollando en el momento en que lo asesinaron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mataron el 21 de febrero de 1965 en el salón Audubon de Harlem, mientras empezaba a hablar. Tenía treinta y nueve años y llevaba dos dando entrevistas para este libro. La estrategia internacional no llegó a probarse, y esa parte es la que el libro tiene menos desarrollada, precisamente porque se estaba desarrollando cuando lo asesinaron.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Reformular un asunto interno como una cuestión internacional cambia quién está obligado a contestar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace único a este libro no es la vida que cuenta, sino su forma: es la crónica de cuatro conversiones sucesivas escritas cada una desde dentro. El chico de Michigan, el delincuente de Harlem, el predicador y el peregrino aparecen convencidos de lo suyo, sin que el hombre que escribe corrija al que fue. Por eso se puede leer como un manual de cómo se cambia de idea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Que sea así fue una decisión editorial, y es lo primero que hay que saber. El libro lo armó Alex Haley con dos años de entrevistas, y cuando Malcolm salió de la Nación quiso volver atrás y reescribir los capítulos que elogiaban a Elijah Muhammad. Haley lo convenció de no tocarlos. Acertó, pero conviene saber que la estructura que hace grande el libro es de otro, y que el epílogo lo escribió Haley solo, después del asesinato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en los años de delincuencia, que son los más vívidos y los menos comprobables. En 2011, el historiador Manning Marable publicó una biografía —premio Pulitzer póstumo— que documentó dos cosas: que Malcolm exageró bastante su carrera criminal, porque un relato de conversión necesita un pozo hondo del que salir, y que del manuscrito se cortaron capítulos críticos con la Nación y con los dirigentes de los derechos civiles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que ha pasado después es que la investigación de su muerte se cayó entera. En noviembre de 2021, dos de los tres hombres condenados por el asesinato, Muhammad Aziz y Khalil Islam, fueron exonerados al comprobarse que el FBI y la policía de Nueva York habían ocultado pruebas que los descartaban. Aziz tenía ochenta y tres años y había pasado veinte en prisión. Islam había muerto en 2009.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Vale como manual de cómo se cambia de idea, y esa forma se la dio en parte el hombre que lo escribió con él.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "malcolm-x": MALCOLM_X,
   "harry-potter-1": HARRY_POTTER_1,
   "tal-como-eres": TAL_COMO_ERES,
   "magia-pensar-grande": MAGIA_PENSAR_GRANDE,
