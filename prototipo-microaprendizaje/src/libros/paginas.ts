@@ -79615,7 +79615,299 @@ const ADULTO_RELACIONES: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El arte de no amargarse la vida, en ocho paginas.
+
+   Breve. Libro practico -> afirmacion entera en el rotulo y SEGUNDA PERSONA en
+   la caja.
+
+   Seis argumentos: la letra B entre lo que pasa y lo que sientes, la
+   terribilitis, la necesitis, las tres exigencias de Ellis, mirar el peor
+   escenario y como se discute una creencia de verdad.
+
+   De donde sale: Santandreu divulga la terapia racional emotiva conductual de
+   Albert Ellis, de 1955. Eso hay que decirlo en la primera pagina, porque el
+   libro lo dice poco y la portada nada.
+
+   CUIDADO con el tono. Este libro puede leerse como que quien lo pasa mal es
+   porque no se esfuerza en pensar bien, y esa lectura hace dano. La conclusion
+   lo dice: los ejemplos de gente feliz en la desgracia estan elegidos entre los
+   que se adaptaron, y con los que no se adaptaron no se cuenta.
+   -------------------------------------------------------------------------- */
+
+const ARTE_NO_AMARGARSE: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Entre lo que te pasa y lo que sientes hay siempre una frase, y esa frase se puede cambiar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rafael Santandreu es psicólogo clínico y publicó esto en 2011 divulgando un método que no es suyo: la terapia racional emotiva conductual, que Albert Ellis puso en marcha en Nueva York en 1955. Ellis la construyó sobre una frase del estoico Epicteto que tiene dos mil años: a los hombres no les perturban las cosas, sino la opinión que tienen de las cosas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El esquema que usa Ellis se conoce por tres letras y es todo el libro. La A es lo que ocurre, la C es cómo te sientes, y en medio está la B, que son las cosas que te dices sobre lo que ha ocurrido. Casi todo el mundo cree que la A produce la C directamente, y por eso intenta cambiar la A, que muchas veces no se puede cambiar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba que da el método es sencilla y se puede hacer en casa. El mismo despido produce en una persona semanas de insomnio y en otra un mes raro y un cambio de rumbo. Si la A produjera la C, las dos reacciones serían iguales. Como no lo son, en medio hay algo, y ese algo son frases que se pueden escribir y revisar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre qué es exactamente convertir una molestia en una catástrofe, en qué se distingue querer algo de necesitarlo, las tres exigencias que según Ellis producen casi todo el malestar, por qué mirar de frente el peor escenario quita miedo en vez de darlo, cómo se discute de verdad una creencia y qué se le puede reprochar a todo esto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que sientes no lo produce lo que ha pasado, sino la frase que te has dicho sobre lo que ha pasado. Esa frase se puede escribir y revisar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi todo lo que te amarga es una molestia que has convertido en una catástrofe",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ellis inventó una palabra medio en broma para lo que considera el error más común, y Santandreu la usa en todo el libro: «terribilitis». Es la costumbre de calificar de terrible, insoportable u horroroso algo que en realidad es incómodo, caro o molesto. Perder un vuelo, que te dejen, que te vaya mal un examen. Malo, sí. Terrible, casi nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La distinción no es un juego de palabras y ahí está el argumento. Si algo es molesto, la respuesta es resolverlo o aguantarlo. Si algo es insoportable, por definición no se puede soportar, y entonces el cuerpo entra en alarma: taquicardia, insomnio, incapacidad de pensar. La palabra elegida decide qué respuesta fisiológica se pone en marcha, y casi siempre se elige la peor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Santandreu propone una escala de cero a diez donde el diez sea lo peor que le puede pasar a un ser humano, y colocar ahí lo que a uno le está pasando. El ejercicio es incómodo y desinfla mucho: casi todo lo que quita el sueño acaba en un tres. Y un tres se afronta de una manera muy distinta a como se afronta un diez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro insiste en que esto no es minimizar ni fingir que da igual. Es nombrar con precisión, que es lo contrario de exagerar. Quien dice que un atasco es horroroso ha gastado en un atasco la palabra que le hará falta algún día, y mientras tanto la ha usado para ponerse el cuerpo en estado de emergencia dentro de un coche parado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En una escala del cero al diez, casi todo lo que te quita el sueño es un tres. Y un tres se afronta de otra manera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Necesitas mucho menos de lo que crees, y confundir querer con necesitar es lo que da miedo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda palabra del método es «necesitis», y señala otro automatismo: llamar necesidad a lo que es un deseo. Necesito ese trabajo. Necesito que me quiera. Necesito aprobar. Ellis sostenía que un ser humano necesita muy pocas cosas para vivir, y que todo lo demás es preferible, deseable o conveniente, pero no necesario, y que la diferencia se nota en el cuerpo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo es directo. Si algo es un deseo, no conseguirlo produce disgusto. Si algo es una necesidad, no conseguirlo produce pánico, porque la cabeza lo trata como una amenaza de supervivencia. Por eso una entrevista de trabajo puede provocar los mismos síntomas que un peligro real: no los produce la entrevista, los produce la palabra con la que se ha etiquetado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Santandreu añade una consecuencia que se ve enseguida en la vida de cualquiera. Quien necesita algo lo persigue peor. Se pone nervioso en la entrevista, insiste demasiado con quien le gusta, acepta condiciones malas por miedo a quedarse sin ello. La necesidad no solo hace sufrir: además empeora los resultados, con lo que la creencia se confirma sola.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cambio que pide es de vocabulario y luego de conducta. Sustituir «necesito» por «me gustaría mucho» y comprobar qué pasa con el cuerpo al decirlo. Después, hacer alguna vez sin ello a propósito, en pequeño, para comprobar que se sigue vivo. El método llama a eso perder el miedo por experiencia, y sostiene que ningún razonamiento sustituye a la comprobación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cambia «necesito» por «me gustaría mucho» y fíjate en el cuerpo. La palabra decide si esto es un disgusto o una amenaza.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ellis reduce casi todo el malestar a tres exigencias, y las tres empiezan por la palabra debería",
+      },
+      {
+        b: "texto",
+        texto:
+          "El corazón teórico del método son tres creencias que Ellis llamaba irracionales y que, según él, están detrás de la mayor parte del sufrimiento evitable. La primera: yo debo hacerlo bien y merecer la aprobación de los demás. La segunda: los demás deben tratarme con justicia y consideración. La tercera: la vida debe darme lo que quiero sin demasiada dificultad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que las hace dañinas no es el contenido, que suena razonable, sino el verbo. Preferir hacerlo bien es sano y ayuda a trabajar. Exigirse hacerlo bien convierte cada error en una prueba de que uno no vale, porque un deber incumplido no admite matices. Ellis decía que la salud mental consiste en gran medida en cambiar los debería por preferiría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda exigencia explica la rabia mejor que ninguna otra cosa del libro. La injusticia enfada a todo el mundo, pero quien cree que los demás deben tratarle bien vive cada trato malo como una ley violada, y la rabia se dispara y dura días. Quien solo lo prefiere se enfada, actúa si puede y sigue, que es más útil aunque parezca menos justo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es la que produce la queja crónica. Si la vida debe ser razonablemente fácil, cada dificultad es una anomalía y hay que protestar por ella. Si la vida es difícil por defecto, una dificultad es martes. Santandreu observa que la gente que aguanta mejor los golpes no es la más fuerte, es la que nunca dio por hecho que no fuera a haberlos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Prefiere en vez de exigir. Un deseo incumplido es un disgusto; un deber incumplido es una prueba de que no vales.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Mirar de frente lo peor que podría pasar quita más miedo que apartar la vista",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejercicio central del libro va contra el instinto. Ante lo que da miedo, en vez de distraerse o de repetirse que todo saldrá bien, Santandreu manda ir hasta el final: ¿y si pasa lo peor? ¿Y entonces qué? ¿Y después de eso? Se sigue preguntando hasta llegar al fondo, que casi siempre es una vida distinta y peor, pero una vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación de por qué funciona es de las mejores del libro. El miedo se alimenta de lo que no se mira, porque lo no mirado se queda del tamaño que la imaginación quiera darle. Al describirlo con detalle, el escenario adquiere contornos, y los contornos se pueden evaluar. Casi nada de lo que aterra sobrevive a que se le pregunte qué pasaría exactamente después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El apoyo que usa son casos de personas que perdieron muchísimo y viven bien. Es la parte más citada y también la más discutible, y conviene decirlo aquí y no solo al final. Esos casos demuestran que se puede; no demuestran que se pueda siempre, ni que quien no lo consigue sea porque no ha pensado bien lo suficiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí se sostiene sin discusión es el efecto sobre las decisiones. Quien ha mirado el peor escenario negocia mejor, se atreve a preguntar y aguanta un no, porque ya ha visto qué hay detrás del no y no era el vacío. El método lo plantea como una vacuna en dosis pequeñas, y ahí la comparación es bastante exacta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Al miedo pregúntale qué pasaría exactamente después. Casi nada de lo que te aterra sobrevive a esa pregunta hecha tres veces seguidas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cambiar una creencia no es repetirse frases bonitas, es discutírselas hasta que se caen",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí el libro se separa del pensamiento positivo, y hace bien en separarse. Repetirse que uno vale mucho no cambia nada si por dentro no se lo cree, y Ellis era despectivo con esa práctica. Lo que propone es otra cosa: discutir la creencia como discutiría un abogado, buscando la prueba que la sostiene y comprobando si aguanta o no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las preguntas de la discusión están tasadas y son cuatro. Dónde está escrito que esto tenga que ser así. Qué prueba tengo de que sea cierto. Qué es lo peor que pasaría si no lo fuera. Y qué le diría a un amigo que me contara esto mismo. La cuarta es la que más rápido funciona, porque nadie es tan duro con un amigo como consigo mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Santandreu insiste en que esto se escribe, no se piensa. Una creencia discutida mentalmente se escapa; escrita en una hoja, con la frase exacta arriba y las respuestas debajo, se queda quieta y se puede mirar. Y pide repetición: el método no consiste en descubrir algo una vez, sino en hacer el mismo ejercicio muchas veces hasta que la frase nueva salga sola.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La última pieza es la conducta, y sin ella lo anterior no cuaja. Después de discutir la creencia hay que hacer algo que la contradiga: hablar en público si uno cree que no puede, pedir algo si cree que le van a decir que no. La cabeza acepta el argumento a medias y acepta la experiencia del todo, y eso vale para cualquier método.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pregúntate qué le dirías a un amigo que te contara esto mismo. Nadie es tan duro con un amigo como consigo mismo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El método no promete estar contento, promete no hundirse por cosas de tamaño mediano",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir qué ofrece este libro exactamente, porque su título promete más de lo que el método da. Ellis nunca planteó la terapia racional emotiva como un camino a la felicidad, sino como una manera de reducir el malestar innecesario: el que se añade encima de lo que ya duele. Un despido duele; las tres semanas de rumiar por qué a mí son lo añadido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia se nota en el objetivo que se pone. No es no sentir nada malo, que sería inhumano y además inútil. Es que la tristeza sea tristeza y no depresión, que el nerviosismo sea nerviosismo y no pánico, y que el disgusto dure lo que dura el motivo. Ellis lo llamaba distinguir las emociones negativas sanas de las insanas, y es una distinción práctica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Santandreu añade una observación que se puede comprobar sin creerse la teoría. La gente que lo lleva mejor no piensa en positivo: piensa en concreto. Delante de un problema hace preguntas del tipo qué se puede hacer hoy, y no del tipo por qué me pasa esto. Las primeras tienen respuesta y llevan a algún sitio; las segundas no y dan vueltas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso el libro insiste tanto en el vocabulario, que a primera vista parece lo más flojo. Terrible, insoportable, necesito, siempre, nunca, debería. Son seis palabras, se usan a diario y cada una carga un supuesto que nadie ha examinado. Cambiarlas no arregla la vida de nadie, y es lo más barato que hay que se pueda hacer hoy mismo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El objetivo no es no sufrir. Es que el disgusto dure lo que dura el motivo, y no tres semanas más.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro herramientas y las cuatro se hacen con una hoja de papel. Poner en una escala del cero al diez lo que te está quitando el sueño. Cambiar «necesito» por «me gustaría mucho» y ver qué hace el cuerpo. Preguntarle al miedo qué pasaría exactamente después, tres veces seguidas. Y discutir una creencia por escrito, preguntándote qué le dirías a un amigo que te contara eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en cómo demuestra. Los ejemplos de personas que perdieron mucho y viven bien están elegidos precisamente entre las que se adaptaron, y con las que no se adaptaron no se cuenta en ningún capítulo. Presentados como prueba de que cualquiera puede, dejan una conclusión cruel al lado: que quien sigue hundido es porque no ha hecho bien los deberes mentales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en el alcance. El método tiene apoyo razonable en ansiedad y en estados de ánimo bajos, y el libro lo extiende con mucha confianza a casi todo, con casos de consulta que solo cuenta el autor y sin un dato comprobable. Los factores biológicos, el tratamiento farmacológico y las condiciones materiales de la vida de alguien aparecen poco y salen mal parados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo que conviene saber al terminarlo. Casi nada de esto es de Santandreu: las tres exigencias, la terribilitis, la discusión de creencias y el esquema de las tres letras son de Albert Ellis y tienen setenta años. El libro lo menciona, pero de pasada, y ha vendido más de un millón de ejemplares en España mientras el nombre de Ellis sigue sin sonarle a casi nadie.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Vigila seis palabras que dices a diario: terrible, insoportable, necesito, siempre, nunca y debería. Cada una carga un supuesto que no has mirado.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "arte-no-amargarse": ARTE_NO_AMARGARSE,
   "adulto-relaciones": ADULTO_RELACIONES,
   "bolsa-o-vida": BOLSA_O_VIDA,
   "despertando-gigante": DESPERTANDO_GIGANTE,

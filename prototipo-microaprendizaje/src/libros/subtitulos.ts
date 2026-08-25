@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "arte-no-amargarse": "Cambiando la forma de pensar",
   "adulto-relaciones": "Cómo mantener relaciones adultas y saludables",
   "bolsa-o-vida": "Los 9 pasos para transformar tu relación con el dinero",
   "despertando-gigante": "Cómo controlar tu vida mental, emocional, física y económica",

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "arte-no-amargarse":
+    "Santandreu divulga el método que Albert Ellis puso en marcha en 1955: entre lo que ocurre y lo que sientes hay una frase que te dices, y esa frase se puede escribir, discutir y cambiar.",
+
   "adulto-relaciones":
     "Richo sostiene que lo que un adulto necesita de otro son cinco conductas y no cinco sentimientos: que le escuchen, no le corrijan, le noten, le toquen y le dejen ir. Las mismas que necesitaba a los tres años.",
 

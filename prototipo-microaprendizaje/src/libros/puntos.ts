@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "arte-no-amargarse": [
+    "por qué el mismo despido hunde a una persona y a otra no",
+    "qué le pasa a tu cuerpo cuando llamas insoportable a algo molesto",
+    "en qué se nota la diferencia entre querer algo y necesitarlo",
+    "por qué mirar de frente lo peor quita más miedo que apartar la vista",
+    "cómo se discute una creencia para que se caiga de verdad",
+  ],
+
   "adulto-relaciones": [
     "por qué a veces tu reacción es mucho mayor que lo que ha pasado",
     "en qué se distingue algo que puedes pedir de algo que solo esperas",
