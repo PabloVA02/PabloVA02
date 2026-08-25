@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "por-que-amamos": [
+    "en qué se diferencia un impulso de una emoción, y por qué importa",
+    "por qué desear, enamorarse y encariñarse son tres cosas separadas",
+    "qué demuestran dos roedores casi idénticos sobre la fidelidad",
+    "por qué un rechazo se parece más a una abstinencia que a la tristeza",
+    "qué se sabe y qué no del efecto de los antidepresivos en el vínculo",
+  ],
+
   "poder-5-segundos": [
     "por qué las ganas llegan después de empezar y no antes",
     "qué hace contar hacia atrás que no hace decidirse",

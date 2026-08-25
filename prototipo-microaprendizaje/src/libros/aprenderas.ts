@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "por-que-amamos":
+    "Fisher metió en un escáner a diecisiete personas intensamente enamoradas y las zonas que se encendieron no fueron las de las emociones, sino las de la recompensa. De ahí sale su tesis: el enamoramiento es un impulso, no un sentimiento.",
+
   "poder-5-segundos":
     "Robbins llevaba meses sin poder levantarse, vio en televisión la cuenta atrás de un cohete y probó a contar cinco, cuatro, tres, dos, uno y ponerse de pie. Todo el libro es esa regla, y funciona por motivos distintos de los que da.",
 

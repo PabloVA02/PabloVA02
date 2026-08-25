@@ -71198,7 +71198,296 @@ const PODER_5_SEGUNDOS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Por qué amamos, en ocho páginas.
+
+   Breve. Divulgación científica → afirmación entera en el rótulo, TERCERA
+   persona y la caja como idea de la página (apartado 4.7).
+
+   CIENCIA: hace falta el experimento con su año y su tamaño de muestra, no
+   «la investigación demuestra». Aquí eso son los diecisiete escaneados de
+   2004, los topillos de Insel y Carter, y Marazziti en 1999.
+
+   Enlaza con «Dopamina» y con «Tal como eres», los dos ya escritos: los
+   tres usan a Marazziti y conviene que no se contradigan.
+
+   Y la conclusión dice lo que falla: el ciclo de cuatro años se apoya en
+   datos viejos y discutidos, las muestras de imagen son pequeñísimas, y la
+   tipología de cuatro caracteres que vendió después no tiene validación.
+   -------------------------------------------------------------------------- */
+
+const POR_QUE_AMAMOS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El enamoramiento no es una emoción: es un impulso, y por eso no se apaga queriendo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Helen Fisher era antropóloga biológica y llevaba veinte años estudiando el emparejamiento humano cuando propuso una distinción que cambió el planteamiento del asunto. Sostuvo que el amor romántico no pertenece a la familia de las emociones, sino a la de los impulsos, como el hambre o la sed.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia no es de vocabulario. Una emoción aparece, dura un rato y se va; se puede sentir alegría un martes y no el miércoles sin que pase nada. Un impulso organiza la conducta hasta que se satisface, no se puede desactivar por decisión, y cuanto más se frustra, más fuerte se vuelve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Puesto así, se explican cosas que como emoción no encajaban. Que alguien enamorado no pueda pensar en otra cosa aunque se lo proponga. Que la prohibición aumente el deseo en vez de reducirlo. Y que un rechazo no produzca tristeza, que sería lo propio de una emoción, sino algo que se parece mucho más a una abstinencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre los tres sistemas que Fisher separa y que no siempre apuntan a la misma persona, lo que se ve en un escáner cuando alguien mira una foto, dos roedores casi idénticos que se comportan al revés, qué ocurre en el cerebro de quien acaba de ser dejado, y en qué se equivoca este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un impulso no se apaga por decisión y crece cuando se frustra: por eso prohibir a alguien enamorarse funciona al revés.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay tres sistemas distintos y no tienen por qué apuntar a la misma persona",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea más aprovechable del libro es un reparto en tres mecanismos que evolucionaron por separado, funcionan con sustancias distintas y sirven para cosas distintas. Fisher insiste en que se pueden encender de manera independiente, y de ahí sale casi todo el enredo humano en este asunto.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "El deseo sexual", texto: "va sobre todo con la testosterona, en hombres y en mujeres, y no está dirigido a una sola persona: sirve para buscar, no para elegir." },
+          { fuerte: "El enamoramiento", texto: "sube la dopamina y baja la serotonina, dura un tiempo limitado y sí apunta a una persona concreta y a ninguna más. Es el que produce la obsesión." },
+          { fuerte: "El apego", texto: "va con oxitocina y vasopresina, aparece despacio, produce calma en lugar de excitación, y es el que permite convivir años y criar." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "Que sean tres y no uno explica situaciones que la moral trata como fallos de carácter. Se puede desear a alguien a quien no se ama, amar a alguien a quien ya no se desea, y sentir un apego profundo por una persona mientras se está enamorado de otra. No es hipocresía ni debilidad: son tres circuitos con tres objetivos que no se consultan entre sí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fisher no saca de ahí ninguna receta moral, y esa contención es parte del valor del libro. Solo señala que una cultura que da por hecho que las tres cosas tienen que coincidir de por vida en la misma persona está pidiéndole a la biología algo que la biología no promete en ningún sitio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Desear, enamorarse y encariñarse son tres sistemas distintos, y nada garantiza que apunten los tres a la misma persona.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El enamoramiento se enciende donde se enciende el hambre, y no donde se encienden las emociones",
+      },
+      {
+        b: "texto",
+        texto:
+          "El experimento que sostiene el libro lo hizo Fisher con Arthur Aron y Lucy Brown. Reclutaron a diecisiete personas intensamente enamoradas y las metieron en un escáner de resonancia magnética funcional, enseñándoles alternativamente una foto de la persona amada y una foto neutra de un conocido, con una tarea de distracción en medio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se activó al ver la foto no fueron las zonas asociadas a las emociones, que era lo que casi todo el mundo esperaba. Fueron dos regiones profundas y antiguas, el área tegmental ventral y el núcleo caudado, que forman parte del sistema de recompensa y están llenas de neuronas de dopamina.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es exactamente el circuito que se activa ante la comida cuando se tiene hambre y ante una sustancia cuando hay adicción. No es una metáfora ni un parecido: es la misma maquinaria, en el mismo sitio, haciendo lo mismo, que es marcar algo como aquello hacia lo que hay que moverse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso queda respaldada la afirmación de la primera página. Un impulso vive ahí abajo, en la parte del cerebro que organiza la búsqueda de lo que hace falta para vivir, y no arriba, donde se procesan los sentimientos. Por eso se le puede hablar a alguien enamorado con toda la lógica del mundo sin que sirva de nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se enciende en la zona que organiza la búsqueda de comida, no en la de los sentimientos, y por eso los argumentos no llegan.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dos roedores casi idénticos se comportan al revés por unos receptores",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba más limpia de que el apego tiene una base química viene de dos especies de topillo, un roedor pequeño de Norteamérica. El topillo de pradera forma parejas estables, cría con su compañera y la reconoce entre otras. El topillo de montaña, muy parecido y muy emparentado, no forma ningún vínculo y se aparea sin más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los trabajos de Thomas Insel, Sue Carter y otros investigadores encontraron dónde está la diferencia. Las especies que forman pareja tienen una densidad alta de receptores de oxitocina y vasopresina en las zonas de recompensa del cerebro; las que no la forman, no los tienen ahí. El vínculo se apoya en dónde están esos receptores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fisher usa ese hallazgo con la prudencia que hace falta y lo dice expresamente: los humanos no son topillos y la extrapolación tiene límites obvios, empezando por que en nuestra especie el vínculo también se sostiene con acuerdos, historia compartida e hijos. Lo que sí queda establecido es que la fidelidad de una especie no es un rasgo de su carácter ni de su cultura, y que se puede localizar en un tejido concreto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fisher usa ese hallazgo con la prudencia necesaria: los humanos no son topillos y la extrapolación tiene límites obvios. Lo que sí queda establecido es que la fidelidad de una especie no es un rasgo de su carácter ni de su cultura, y que se puede localizar en un tejido concreto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El apego se puede bloquear sin tocar el deseo, así que no eran dos grados de lo mismo: eran dos mecanismos distintos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Quien acaba de ser dejado no está triste: está en abstinencia" },
+      {
+        b: "texto",
+        texto:
+          "Fisher repitió después el experimento del escáner con personas que acababan de ser rechazadas y que seguían enamoradas. Lo que encontró explica por qué esa situación se comporta como se comporta y por qué los consejos que se le dan a alguien así no sirven de nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al ver la foto de quien las había dejado seguían activándose las zonas de recompensa, igual que en los correspondidos, y además se activaban regiones asociadas al ansia y al dolor físico. El circuito no se apaga con el rechazo: se intensifica, que es exactamente lo que ocurre en una abstinencia cuando falta la sustancia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica que se deduce de eso es de manual de adicciones y no de consejo sentimental, y por eso resulta tan poco romántica: lo único que reduce la señal es dejar de exponerse al estímulo. Borrar las fotos, quitar el contacto de todas partes y no pasar por los sitios donde se coincidía no es rencor ni exageración de nadie; es la única medida que actúa sobre el mecanismo que de verdad está funcionando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica que se deduce es de manual de adicciones y no de consejo sentimental: lo único que reduce la señal es dejar de exponerse al estímulo. Borrar las fotos, quitar el contacto y no pasar por los sitios no es rencor ni exageración; es la única medida que actúa sobre el mecanismo real.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El circuito no se apaga con el rechazo, se intensifica, y lo único que baja la señal es dejar de exponerse al estímulo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los antidepresivos actúan sobre la misma química, y conviene que se hable de ello",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos más discutidos plantea una consecuencia médica del modelo. Si el enamoramiento cursa con la serotonina baja, y los antidepresivos más recetados actúan precisamente subiendo la serotonina disponible, entonces esos fármacos tocan de lleno el mecanismo del que trata el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fisher sostuvo, con el psiquiatra Anderson Thomson, que además de los efectos sexuales bien documentados —pérdida de deseo y dificultad para llegar al orgasmo, que aparecen en las fichas técnicas—, esos tratamientos podrían embotar también la capacidad de enamorarse y quizá parte del vínculo, y que eso casi nunca se advierte al recetarlos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí queda en pie es lo que el capítulo pide, que es modesto: que se informe. Un tratamiento que puede afectar a la vida afectiva de alguien durante años es algo que esa persona tiene derecho a conocer antes de empezarlo y a poder discutir con quien se lo receta. El argumento no va contra los fármacos, que funcionan y evitan muertes, sino contra recetarlos sin mencionar nunca esa parte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí queda en pie es lo que pide: que se informe. Un tratamiento que puede afectar a la vida afectiva de alguien durante años es algo que ese alguien tiene derecho a saber antes de empezarlo, y el argumento no es contra los fármacos, que funcionan y salvan vidas, sino contra recetarlos sin mencionar esa parte.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los efectos sexuales están documentados y el efecto sobre el vínculo es una hipótesis, y las dos cosas hay que decirlas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Fisher sostiene que la especie está hecha para parejas sucesivas y no para una sola",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tesis evolutiva del libro es la más ambiciosa y la más discutida. Fisher sostiene que la especie humana no está diseñada para un solo vínculo de por vida ni para la promiscuidad total, sino para una monogamia en serie: vínculos intensos que duran lo suficiente para sacar adelante a una criatura pequeña.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su apoyo empírico viene de un trabajo anterior en el que analizó datos de divorcio de anuarios demográficos de Naciones Unidas, correspondientes a decenas de sociedades. Encontró que las separaciones tendían a agruparse alrededor del cuarto año de matrimonio, y relacionó ese plazo con el tiempo que un niño tarda en dejar de ser completamente dependiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento es coherente y la prueba es floja, y conviene decirlo aquí y no solo al final. Los datos son antiguos, muchos países registran los divorcios de maneras que no se pueden comparar, y el pico del cuarto año se explica en buena parte por cuándo se casa la gente y no por ningún reloj biológico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí aporta el capítulo, sin necesidad de creerse la cifra, es un cambio de marco. Que una relación intensa se agote no es necesariamente un fracaso de las dos personas ni la prueba de que se eligió mal: puede ser el funcionamiento normal de un mecanismo que no estaba diseñado para durar cincuenta años sin transformarse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que una relación intensa se agote puede no ser un fracaso de nadie: el mecanismo no estaba hecho para durar así.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que este libro deja fijado son tres cosas. Que el enamoramiento se enciende en el circuito de la motivación y no en el de las emociones, lo que explica por qué no se apaga razonando. Que deseo, enamoramiento y apego son tres sistemas separables que no siempre apuntan a la misma persona. Y que un rechazo se comporta como una abstinencia, con lo que eso implica sobre qué hacer y qué no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla, primero, es en el tamaño. El estudio fundacional escaneó a diecisiete personas, y las imágenes cerebrales de aquella época han resultado mucho menos sólidas de lo que parecían: muestras pequeñas, muchas comparaciones y resultados que a veces no se han reproducido. El hallazgo central se ha sostenido, pero conviene saber sobre qué está apoyado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en el ciclo de cuatro años, que es la afirmación que más se repite del libro y la peor sostenida, y en su alcance: casi todo lo que examina son parejas heterosexuales y el marco es reproductivo, así que el amor que no va dirigido a criar apenas aparece. Y hay una parte comercial que hay que decir: años después, Fisher diseñó para una empresa de citas un cuestionario que reparte a las personas en cuatro caracteres según cuatro sustancias, y esa tipología no tiene validación independiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después fue que el modelo de los tres sistemas se convirtió en la manera estándar de organizar este campo y sigue usándose. Fisher dirigió desde 2010 una encuesta anual sobre solteros en Estados Unidos, con muestras grandes, que ha aportado datos que no existían antes sobre cómo se emparejan las personas. Murió en 2024.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El reparto en tres sistemas se aguanta entero; el reloj de cuatro años es la parte que hay que dejar fuera.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "por-que-amamos": POR_QUE_AMAMOS,
   "poder-5-segundos": PODER_5_SEGUNDOS,
   "obtenga-el-si": OBTENGA_EL_SI,
   "quien-queso": QUIEN_QUESO,

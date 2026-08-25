@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "por-que-amamos": "Naturaleza y química del amor romántico",
   "poder-5-segundos": "Atrévete a cambiar tu vida en cinco segundos",
   "obtenga-el-si": "Cómo negociar sin ceder",
   "quien-queso": "Cómo adaptarnos a un mundo en constante cambio",
