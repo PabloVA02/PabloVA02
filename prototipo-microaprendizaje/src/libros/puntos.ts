@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "despertando-gigante": [
+    "por qué sabes lo que te conviene y aun así no lo haces",
+    "qué hace falta para que un cambio aguante cuando se acaban las ganas",
+    "de qué están hechas las cosas que crees que no puedes hacer",
+    "cómo una pregunta decide lo que vas a ver de una situación",
+    "cuántas de tus condiciones para estar bien dependen de otra persona",
+  ],
+
   "ego-es-el-enemigo": [
     "por qué anunciar un plan te quita parte de las ganas de cumplirlo",
     "qué se pierde el día que dejas de tener a alguien que te corrija",

@@ -78743,7 +78743,298 @@ const EGO_ES_EL_ENEMIGO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Despertando al gigante interior, en ocho paginas.
+
+   Breve. Libro practico -> afirmacion entera en el rotulo y SEGUNDA PERSONA en
+   la caja.
+
+   Seis argumentos: dolor y placer, la palanca, las creencias como mesas con
+   patas, las preguntas, las reglas y el vocabulario con la identidad.
+
+   Riesgo principal: es el libro de autoayuda mas puro del catalogo y el que mas
+   facil se resume en aire. La regla 1 aqui es de vida o muerte: cada pagina
+   tiene que dejar un mecanismo que se pueda contar, no un animo.
+
+   Y riesgo segundo: creerselo. El metodo se llama condicionamiento
+   neuroasociativo y es programacion neurolinguistica con otro nombre, cosa que
+   el libro no dice. La conclusion lo dice, y cuenta lo del firewalk, que es el
+   sitio exacto donde la tesis se puso a prueba en el mundo real.
+   -------------------------------------------------------------------------- */
+
+const DESPERTANDO_GIGANTE: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que decide tu vida no son las condiciones que te tocaron, sino las decisiones que tomas dentro de ellas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tony Robbins publicó esto en 1991, con treinta y un años y después de haber vendido seminarios ajenos desde los diecisiete. El libro parte de una afirmación que repite en todas las páginas: dos personas con la misma infancia, el mismo dinero y la misma mala suerte acaban en sitios distintos, y la diferencia está en decisiones concretas y no en circunstancias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nombra tres decisiones que, según él, se toman a diario sin darse cuenta. En qué te concentras, qué significado le das a lo que pasa y qué haces a continuación. Las tres se pueden cambiar en el momento, y las tres se toman igual estés donde estés. De ahí sale su promesa, que es enorme y conviene tener presente mientras se lee.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al método lo bautizó «condicionamiento neuroasociativo», y es un nombre suyo para un procedimiento de seis pasos: saber qué quieres y qué te lo impide, conseguir una razón lo bastante fuerte para moverte, romper el hábito viejo, montar uno nuevo, repetirlo hasta que se sostenga solo y comprobar después que aguanta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué todo lo que haces se explica por dolor y placer, qué es exactamente una palanca y por qué sin ella no cambia nadie, de qué están hechas las creencias que te frenan, cómo una pregunta decide lo que ves, qué condiciones te has puesto para permitirte estar bien, y qué parte de todo esto no se sostiene.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tres cosas decides cada día sin notarlo: dónde miras, qué significa lo que pasa y qué haces después. Las tres se pueden cambiar hoy.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Todo lo que haces y lo que no haces se explica por lo que asociaste al dolor y al placer",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motor del libro es una idea vieja con una vuelta útil. Robbins sostiene que nadie actúa por lo que la situación es, sino por lo que ha aprendido a asociar con ella. Fumar no da placer la primera vez: da tos. Correr no da dolor a quien lleva diez años haciéndolo. Las asociaciones se montaron en algún momento y desde entonces mandan sin pedir permiso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso explica la conducta que más desespera a la gente: saber lo que hay que hacer y no hacerlo. Si alguien tiene claro que le conviene dejar el trabajo y no lo deja, es porque en su cabeza hay más dolor asociado a irse —la conversación, el miedo, la cara de su madre— que a quedarse. Y a igualdad de fuerzas, evitar el dolor gana siempre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robbins añade una asimetría que se nota en cuanto se busca. El dolor inmediato pesa más que el placer futuro, aunque el futuro sea mucho mayor. Por eso las dietas, los ahorros y los idiomas se abandonan: el coste llega hoy y el premio dentro de dos años. Cualquier plan que no toque esa asimetría fracasa por muy razonable que sea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia es que el método no consiste en tener más voluntad, sino en cambiar de sitio las asociaciones. Poner dolor donde había alivio y placer donde había esfuerzo. Robbins insiste en que eso no se hace pensando: se hace con el cuerpo, con la voz y con repetición, que es la parte que casi nadie está dispuesto a hacer y por la que casi nadie cambia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si sabes lo que te conviene y no lo haces, no te falta información: tienes más dolor asociado a hacerlo que a seguir igual.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Nadie cambia cuando quiere cambiar, sino cuando el precio de seguir igual se vuelve insoportable",
+      },
+      {
+        b: "texto",
+        texto:
+          "La pieza que Robbins llama «palanca» es lo mejor del libro y lo que menos se cita. Sostiene que el cambio no llega el día que alguien se convence, sino el día que reúne razones suficientes para que quedarse quieto duela más que moverse. Todo el mundo conoce a alguien que dejó de fumar de golpe después de veinte años de intentarlo, y siempre hay una fecha detrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El procedimiento que propone es concreto y algo brutal. Escribir qué te va a costar ese hábito dentro de un año si no cambia nada. Después, dentro de cinco. Después, dentro de veinte, y no en general sino con nombres: qué relación se habrá roto, qué no habrás hecho, qué aspecto tendrás. La idea es traer al presente un dolor que ahora está repartido en el futuro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade el otro lado, que sin él la cosa se queda en miedo. Escribir con el mismo detalle qué se gana al cambiar, también a un año, a cinco y a veinte. Robbins llama a las dos listas juntas «apalancar», y su afirmación es que el cambio ocurre cuando las dos están claras a la vez, no cuando solo se tiene la de arriba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí el libro dice una cosa honesta que se le suele olvidar a este género. La motivación no dura, y él lo reconoce: compara mantenerse motivado con ducharse, algo que hay que repetir porque el efecto se va. Lo que se monta con la palanca no es entusiasmo sino una asociación nueva, y esa sí aguanta cuando las ganas se acaban, que es a la semana.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribe qué te va a costar esto dentro de un año, de cinco y de veinte, con nombres. Eso es traer al presente un dolor que tenías aplazado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una creencia es una mesa, y sus patas son las cosas que recuerdas que te pasaron",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robbins da la mejor imagen del libro para explicar por qué cuesta tanto discutirle a alguien lo que piensa de sí mismo. Una creencia es un tablero apoyado en patas, y cada pata es una referencia: algo que viviste, algo que te dijeron, algo que leíste. «No se me dan bien los números» descansa sobre un examen de tercero, una cara de un profesor y dos veces que te bloqueaste.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí salen dos cosas útiles. La primera es que las creencias no se cambian discutiendo con el tablero, sino tocando las patas: recordando referencias que no encajan o fabricando nuevas a base de hacer cosas. La segunda es que una creencia con muchas patas se vuelve muy estable, y por eso las convicciones antiguas resisten cualquier argumento que se les ponga delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robbins llama «convicción» a la creencia con tantas patas que ya no se examina, y avisa de que la fuerza es neutra. La misma solidez que sostiene a alguien que se sabe capaz sostiene a alguien que se sabe torpe, y la segunda funciona igual de bien: le hace evitar situaciones donde podría comprobar lo contrario, con lo que la creencia nunca recibe una pata en contra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El consejo práctico es de los pocos que aquí se pueden comprobar. Buscar deliberadamente las referencias que faltan: hacer una vez, en pequeño y donde nadie mire, aquello que uno cree que no puede. No para convencerse con un discurso, sino para tener un recuerdo nuevo. Una pata puesta vale más que una hora de razonamiento contra el tablero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que crees de ti se apoya en recuerdos concretos. Para cambiarlo hace falta un recuerdo nuevo, no un argumento mejor.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una pregunta decide lo que vas a ver, y por eso las que te haces a diario ordenan tu vida",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robbins sostiene que el pensamiento funciona por preguntas y respuestas, y que la cabeza contesta a todo lo que se le pregunta, incluso si la pregunta está mal hecha. «¿Por qué siempre me pasa esto a mí?» tiene respuesta, y la cabeza la busca y la encuentra. El problema no es la respuesta: es que la pregunta ya daba por bueno que siempre pasa y que es a ti.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo que describe es de atención. Cualquier situación tiene más datos de los que caben en la cabeza, y la pregunta decide cuáles entran. Preguntar qué tiene esto de bueno hace que aparezcan cosas buenas que estaban ahí sin ser miradas; preguntar por qué es tan injusto hace aparecer injusticias, que también estaban. Las dos listas existen y solo se ve la que se pide.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su propuesta es cambiar el repertorio de preguntas habituales, que son pocas y se repiten mucho. Sustituir «¿de quién es la culpa?» por «¿qué es lo primero que puedo hacer con esto?». Cambiar «¿por qué a mí?» por «¿qué tiene esto de aprovechable, aunque sea poco?». No es optimismo: es dirigir el foco hacia el sitio donde hay algo que hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da un detalle de método que se sostiene bien. Si a una pregunta no aparece respuesta, hay que añadirle «¿y si lo hubiera?» y seguir. La cabeza acepta el juego y produce algo. Es el mismo truco que usan los interrogadores y los buenos entrevistadores, y no depende de creerse nada de lo demás que dice el libro para funcionar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tu cabeza contesta a lo que le preguntes, incluso a una pregunta tramposa. Cambia la pregunta y cambia lo que ves.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cada uno se ha puesto unas condiciones para permitirse estar bien, y casi nadie las ha revisado",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí está la idea más original del libro, y Robbins la llama «reglas». Son las condiciones que alguien tiene puestas, sin haberlas escrito nunca, para permitirse sentir algo. Dos personas pueden querer lo mismo —sentirse queridas, sentirse exitosas— y tener reglas tan distintas que una lo consigue casi todos los días y la otra no lo consigue nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que usa es el de alguien que solo se considera en forma si pesa exactamente lo que pesaba a los veinte, frente a alguien que se considera en forma si esta semana ha entrenado tres veces. Los dos pueden estar igual de sanos. Solo uno puede sentirse bien, y no es por el cuerpo: es por la condición que puso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robbins separa dos clases y ahí está lo aprovechable. Hay reglas que dependen de ti —lo que haces— y reglas que dependen de otros o del azar: que te lo reconozcan, que llegue el número, que él llame. Las segundas ponen tu estado de ánimo en manos ajenas, y quien tiene muchas vive con la sensación permanente de que le deben algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La revisión que propone es sencilla de decir: escribir qué tendría que pasar para considerarte un buen padre, un buen profesional o alguien con éxito, y mirar cuántas de esas condiciones dependen de ti. Casi siempre salen menos de la mitad. Cambiar una sola regla imposible por una que esté en tu mano cambia más el día a día que un año de esfuerzo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribe qué tendría que pasar para considerarte bueno en algo, y cuenta cuántas de esas condiciones dependen de ti.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las palabras con las que nombras lo que sientes cambian la intensidad de lo que sientes",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robbins llama «vocabulario transformador» a algo que descubrió observando a gente enfadada. Quien dice que está furioso se comporta de una manera; quien dice que está algo molesto, de otra. La palabra no describe solo el estado, también lo alimenta, porque después de decirla el cuerpo se pone a la altura de lo que se ha dicho. El vocabulario de cada uno es corto y se repite.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su propuesta es bajar de intensidad las palabras que se usan para lo malo y subirla en las que se usan para lo bueno. En vez de «estoy hundido», «estoy un poco bajo de forma». En vez de «bien», «estupendamente». Suena a truco de escenario y tiene una parte razonable: nombrar con precisión un estado es la manera más rápida de dejar de estar del todo dentro de él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La otra pieza de este tramo es la identidad, que él considera el techo de todo lo demás. Alguien puede tener el método, las ganas y el plan, y no sostenerlos porque no encajan con quien cree ser. «Yo es que soy desordenado» y «yo es que no valgo para hablar en público» son frases que anulan cualquier hábito nuevo a las tres semanas, sin discutirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso Robbins pide escribir la identidad en presente y en términos de lo que se hace, no de lo que se es: alguien que entrena tres veces por semana, alguien que devuelve las llamadas. La etiqueta se sostiene mientras se sostiene la conducta, y esa es la única versión de este consejo que no se queda en repetirse frases delante del espejo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Baja el volumen de las palabras con las que nombras lo malo. Después de decirlas, tu cuerpo se pone a la altura.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro herramientas y se pueden usar sin comprar el resto. La palanca, que es escribir el coste de no cambiar a uno, cinco y veinte años con nombres. Las creencias como mesas: para tumbar una hace falta un recuerdo nuevo, no un argumento. Cambiar la pregunta para cambiar lo que se ve. Y revisar cuántas de tus condiciones para estar bien dependen de otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en el respaldo. El «condicionamiento neuroasociativo» es en lo esencial programación neurolingüística con otro nombre, y el libro no lo dice; la programación neurolingüística fue puesta a prueba durante los años ochenta y sus piezas centrales, como leer el pensamiento en el movimiento de los ojos, no se sostuvieron. El texto está lleno de afirmaciones sobre el cerebro sin un solo estudio citado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en lo que deja fuera. Si todo depende de decisiones internas, entonces un sueldo bajo, una enfermedad o un mercado cerrado pasan a ser cuestiones de actitud, y el que no sale adelante es que no puso de su parte. Robbins escribe cuatrocientas páginas sobre tomar el control sin dedicar una sola a los casos en los que el control no está ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que pasó después es la mejor prueba de los dos puntos anteriores. El libro convirtió a Robbins en una industria de seminarios cuyo momento más famoso es caminar sobre brasas para demostrar que la mente manda sobre el cuerpo. En julio de 2012, en San José, más de veinte asistentes fueron atendidos por quemaduras; en Dallas, en 2016, alrededor de treinta. El fuego no lee las creencias de nadie.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quédate con la palanca y con las reglas. Son las dos piezas que funcionan aunque no te creas ni una palabra del resto.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "despertando-gigante": DESPERTANDO_GIGANTE,
   "ego-es-el-enemigo": EGO_ES_EL_ENEMIGO,
   "organizate-eficacia": ORGANIZATE_EFICACIA,
   "maestria-greene": MAESTRIA_GREENE,

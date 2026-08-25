@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "despertando-gigante":
+    "Robbins sostiene que nadie cambia el día que se convence, sino el día que seguir igual le duele más que moverse. Su método consiste en cambiar de sitio lo que uno tiene asociado al dolor y al placer.",
+
   "ego-es-el-enemigo":
     "En un experimento de 2009, los estudiantes que habían contado su objetivo profesional trabajaron después menos en él y se sintieron más cerca de lograrlo. Holiday sostiene que el mayor obstáculo no es la competencia, sino la idea que uno se hace de sí mismo.",
 
