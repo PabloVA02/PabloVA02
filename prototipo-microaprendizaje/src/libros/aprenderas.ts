@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "poder-5-segundos":
+    "Robbins llevaba meses sin poder levantarse, vio en televisión la cuenta atrás de un cohete y probó a contar cinco, cuatro, tres, dos, uno y ponerse de pie. Todo el libro es esa regla, y funciona por motivos distintos de los que da.",
+
   "obtenga-el-si":
     "En Camp David, en 1978, las posiciones eran incompatibles y los intereses no: Israel quería seguridad y Egipto soberanía. Fisher y Ury sacaron de casos así un método de cuatro reglas que se enseña desde entonces en medio mundo.",
 

@@ -70917,7 +70917,289 @@ const OBTENGA_EL_SI: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El poder de los 5 segundos, en ocho páginas.
+
+   Breve, y de los más claros: una sola idea repetida, que es la primera
+   señal del apartado 2 ter.
+
+   Libro práctico → afirmación entera en el rótulo y SEGUNDA PERSONA en la
+   caja (apartado 4.7).
+
+   Riesgo principal: comprar la neurociencia. La ventana de cinco segundos
+   no está establecida en ningún sitio, es un recurso narrativo, y el libro
+   la presenta como un hecho del cerebro. Eso se dice en la página tercera,
+   sin esperar a la conclusión, porque es el centro del asunto.
+
+   Lo que sí está medido y hay que contar: el trabajo de Alison Wood Brooks
+   de 2014 sobre reetiquetar el nerviosismo, y el locus de control.
+   -------------------------------------------------------------------------- */
+
+const PODER_5_SEGUNDOS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro entero es una regla que se explica en un párrafo, y funciona",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mel Robbins tenía cuarenta y un años, un negocio familiar hundido, una deuda enorme y embargos sobre la casa, y llevaba meses sin ser capaz de levantarse por las mañanas. Vio en la televisión el despegue de un cohete con su cuenta atrás, y a la mañana siguiente probó a contar cinco, cuatro, tres, dos, uno y ponerse de pie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa es la regla completa. En el momento en que aparece el impulso de hacer algo que uno sabe que debería hacer, se cuenta hacia atrás desde cinco y se ejecuta un movimiento físico antes de llegar a uno. No hay más método, no hay pasos posteriores y no hay variantes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación sobre por qué hace falta es la parte interesante. Sostiene que el problema de casi nadie es no saber qué hay que hacer: la gente sabe perfectamente que tiene que llamar, levantarse, mandar el correo o dejar de mirar el móvil. Lo que falla es el tramo de tres segundos entre saberlo y moverse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué esperar a tener ganas es un error de diseño y no de carácter, por qué contar funciona y por qué no funciona por lo que ella dice, por qué arrancar cuesta tanto más que seguir, qué hacer con los nervios, qué cambia al creerse uno capaz de influir, y para qué no sirve esto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El problema casi nunca es no saber qué hacer: es el tramo de tres segundos entre saberlo y moverte.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "No vas a tener ganas nunca, y organizarse esperándolas es el fallo" },
+      {
+        b: "texto",
+        texto:
+          "La frase que sostiene el libro es de las que molestan: nunca vas a tener ganas. No es una exageración retórica, es una constatación sobre cómo funciona esto. Las ganas de hacer algo que cuesta aparecen después de haberlo empezado, no antes, y quien espera a tenerlas está esperando algo que llega en el orden contrario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robbins insiste en que la motivación es un estado emocional y que los estados emocionales van y vienen sin permiso. Construir una vida encima de ellos equivale a que las decisiones importantes las tome cada mañana la persona con peor criterio disponible, que es uno mismo recién despertado y sin haber desayunado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una consecuencia práctica que se comprueba en cuanto uno se fija: casi todo lo que cuesta mucho cuesta solo al principio. Levantarse de la cama cuesta y estar de pie no cuesta nada. Empezar a correr cuesta y el kilómetro cuatro ya no. Abrir el documento cuesta y escribir el tercer párrafo no. Lo que hay que resolver no es la actividad entera, es únicamente el primer movimiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una consecuencia práctica que se comprueba enseguida: casi todo lo que cuesta mucho cuesta solo al principio. Levantarse cuesta; estar de pie no cuesta. Empezar a correr cuesta; el kilómetro cuatro no. Lo que hay que resolver no es la actividad entera, es el primer movimiento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las ganas llegan después de empezar y no antes, así que esperarlas es esperar en el orden equivocado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Contar hacia atrás funciona, y no por el motivo que da el libro" },
+      {
+        b: "texto",
+        texto:
+          "Conviene decirlo pronto y con claridad: la ventana de cinco segundos no existe como hallazgo. No hay ninguna investigación que establezca que un impulso muere en cinco segundos, ni que ese número tenga nada de especial. Robbins lo presenta como una propiedad del cerebro y es un recurso que salió de un anuncio de un cohete.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es además un ritual con un límite claro, y eso importa más de lo que parece. Contar hacia delante no tiene final y se puede seguir indefinidamente; contar hacia atrás desde cinco termina en uno, y al llegar a uno hay que hacer algo o admitir que no se va a hacer. Es el mismo mecanismo por el que un cronómetro puesto para quince minutos funciona mucho mejor que la intención de trabajar un rato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es además un ritual con un límite claro, y eso importa. Contar hacia delante no tiene final; contar hacia atrás desde cinco termina en uno, y en uno hay que hacer algo. Es el mismo mecanismo por el que un cronómetro puesto para quince minutos funciona mejor que la intención de trabajar un rato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y exige un movimiento físico, que es la parte que se olvida al contarlo. No vale decidir mentalmente: hay que poner un pie en el suelo, abrir el ordenador o marcar el número. La cuenta atrás sin movimiento es una manera nueva de no hacer nada, y Robbins repite eso más veces que ninguna otra cosa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mientras cuentas no estás deliberando, y casi todo lo que te impide arrancar es deliberación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Arrancar cuesta mucho más que seguir, y esa diferencia se puede medir",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea que da fundamento a todo esto no es de Robbins y viene de la química: la energía de activación, que es la cantidad de energía que hay que aportar para que una reacción empiece, y que es mayor que la que hace falta para que continúe una vez en marcha. El psicólogo Mihaly Csikszentmihalyi la trasladó al comportamiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aplicado a una tarde cualquiera, explica una experiencia que todo el mundo reconoce: lo difícil de ir al gimnasio es salir de casa, no entrenar; lo difícil de escribir es abrir el documento, no escribir. Quien mide la dificultad de una tarea por lo que cuesta empezarla la sobreestima siempre, porque ese es el punto más caro de todos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la recomendación de reducir la energía de activación por adelantado, que es más eficaz que aumentar la voluntad. Dejar la ropa de deporte preparada, el instrumento fuera de la funda, el documento abierto en la pantalla. Cada obstáculo pequeño retirado la noche anterior es una decisión menos que tomar cansado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y explica por qué las interrupciones cuestan tanto más de lo que duran. Una interrupción no roba los tres minutos que dura: obliga a pagar otra vez el arranque completo, que es la parte cara. Un trabajo cortado cinco veces cuesta cinco arranques, y por eso una tarde troceada rinde mucho menos que una hora seguida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quita los obstáculos la noche anterior: cada uno que retires es una decisión menos que tomar cuando estés cansado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El nerviosismo y la ilusión son la misma reacción, y se puede elegir el nombre",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte mejor sostenida del libro es la que trata los nervios, y descansa en una investigación concreta. Alison Wood Brooks publicó en 2014, desde Harvard, una serie de experimentos con personas a punto de hacer algo que les daba miedo: cantar delante de otros, hablar en público o hacer un examen de matemáticas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A unos les pidió que dijeran en voz alta «estoy tranquilo» antes de empezar, y a otros «estoy emocionado». Los segundos lo hicieron mejor, y de manera consistente. La explicación es que la excitación y la ansiedad son el mismo estado corporal —pulso alto, atención estrecha, adrenalina—, y cambiar de uno a otro solo requiere cambiarle la etiqueta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Intentar calmarse, en cambio, exige ir de un estado activado a uno tranquilo, que es un viaje mucho más largo y que casi nunca se completa en los dos minutos que quedan. Quien intenta calmarse y no lo consigue añade a los nervios la constatación de que ni siquiera es capaz de controlarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robbins añade su propia pieza, que no está medida pero es coherente: emparejar la sensación con una imagen concreta de por qué se está haciendo eso. No un pensamiento positivo genérico, sino la razón real —la persona a la que se quiere ayudar, el sitio al que se quiere llegar—, para que el cuerpo activado tenga hacia dónde.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No intentes calmarte: di en voz alta que estás emocionado, que es el mismo estado con otro nombre y está a un paso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Creer que influyes en el resultado cambia lo que haces antes de saber si es verdad",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro se apoya en uno de los rasgos más estudiados de la psicología desde los años cincuenta: el locus de control, que mide hasta qué punto una persona atribuye lo que le pasa a sus propias decisiones o a circunstancias que no dependen de ella. No mide quién tiene razón, mide qué cree cada uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se ha encontrado repetidamente es que quien se atribuye influencia sobre los resultados actúa más, insiste más tras un fallo y busca más alternativas. Y funciona en las dos direcciones: quien cree que no depende de él deja de intentarlo, con lo que efectivamente deja de depender de él, y la creencia se confirma sola.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene añadir el matiz que el libro no pone en ninguna página. Creerse capaz de influir ayuda mucho cuando efectivamente se puede influir, y produce culpa cuando no. Hay situaciones —una enfermedad grave, un despido colectivo, la economía de un país— en las que atribuírselo todo a las decisiones propias no es fortaleza de carácter: es equivocarse sobre quién tomó la decisión, y pagar por ello dos veces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene añadir el matiz que el libro no pone. Creerse capaz de influir ayuda cuando efectivamente se puede influir, y produce culpa cuando no. Hay situaciones —una enfermedad, un despido colectivo, un país— en las que atribuírselo todo a uno mismo no es fortaleza, es equivocarse sobre quién decidió.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cada vez que actúas te fabricas una prueba de que tus decisiones cambian algo, y eso pesa más que cualquier frase que te digas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Sirve para arrancar y no sirve para sostener nada, y el libro no lo aclara",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla resuelve un momento muy concreto: el instante en que hay que pasar de la intención al movimiento. Para eso es buena, es gratis y no requiere creerse nada. Lo que no hace es nada de lo que viene después, y el libro está escrito como si sí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Levantarse a las seis contando hacia atrás funciona una mañana y funciona una semana. Lo que decide si se sigue haciendo dentro de tres meses no es la cuenta atrás, es si dormir menos era sostenible, si eso a lo que uno se levanta merece la pena y si hay alguien alrededor a quien le importe. Nada de eso se arregla contando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una confusión más seria. La dificultad para levantarse por la mañana puede ser una costumbre mala y puede ser un síntoma. Robbins cuenta su propio caso, que incluía una deuda enorme y meses sin poder salir de la cama, y lo trata como un problema de arranque. A veces lo es y a veces es una depresión, que no se resuelve con un procedimiento de cinco segundos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Puesta en su sitio, la regla es una herramienta pequeña y honrada: quita el obstáculo de la primera acción. Presentada como el libro la presenta —la técnica que cambia una vida—, produce en quien no le funciona la conclusión de que si algo tan sencillo no le sirve, el problema tiene que ser él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Sirve para el primer movimiento y para nada más: si eso a lo que te levantas no compensa, contar no lo va a arreglar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Quedan tres cosas y las tres se pueden usar hoy. Que las ganas llegan después de empezar, así que esperarlas es esperar en el orden equivocado. Que contar hacia atrás funciona porque ocupa la atención con una tarea con final mientras el cuerpo se mueve. Y que ante los nervios conviene reetiquetarlos como emoción en vez de intentar calmarse, que es lo único de todo el libro con un experimento detrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en el fundamento. La ventana de cinco segundos no está establecida en ninguna parte: salió de un anuncio de televisión y se cuenta como si fuera una propiedad conocida del cerebro. Que la técnica funcione no valida la explicación, y confundir las dos cosas es lo que convierte un truco útil en una teoría falsa que después se repite en todas partes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla por relleno y por pruebas. Una regla que cabe en un párrafo ocupa más de doscientas páginas, buena parte de ellas mensajes de lectores agradecidos reproducidos uno detrás de otro. Eso no es evidencia de nada: solo escribe la gente a la que le funcionó, y de los que lo probaron y lo dejaron no hay ni una línea en el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después es que la regla se convirtió en una empresa. Robbins venía de una charla de 2011 que se hizo muy popular, publicó este libro por su cuenta, vendió millones y montó alrededor un negocio de conferencias, cursos y programas. Después ha publicado otros dos libros con el mismo formato: una regla corta con nombre propio, repetida durante doscientas páginas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El truco es bueno, la explicación es inventada, y conviene quedarse con lo primero sabiendo lo segundo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "poder-5-segundos": PODER_5_SEGUNDOS,
   "obtenga-el-si": OBTENGA_EL_SI,
   "quien-queso": QUIEN_QUESO,
   "dopamina-lieberman": DOPAMINA_LIEBERMAN,

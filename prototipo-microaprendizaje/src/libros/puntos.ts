@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "poder-5-segundos": [
+    "por qué las ganas llegan después de empezar y no antes",
+    "qué hace contar hacia atrás que no hace decidirse",
+    "por qué arrancar cuesta más que continuar, y cómo abaratarlo",
+    "qué decirse antes de algo que da miedo, según un experimento",
+    "para qué no sirve una técnica de arranque por buena que sea",
+  ],
+
   "obtenga-el-si": [
     "por qué preguntar para qué lo quiere el otro desbloquea la conversación",
     "dónde está tu poder real cuando negocias algo",

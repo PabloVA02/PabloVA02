@@ -301,7 +301,7 @@ export const CATALOGO: Ficha[] = [
   { id: "rompe-barrera-no", titulo: "Rompe la barrera del no", autor: "Chris Voss", ano: 2016, categoria: "Psicología", estado: "escrito" },
   { id: "obtenga-el-si", titulo: "Obtenga el sí", autor: "Fisher y Ury", ano: 1981, categoria: "Psicología", estado: "escrito" },
   { id: "determinacion", titulo: "Determinación", autor: "Angela Duckworth", ano: 2016, categoria: "Psicología", estado: "escrito" },
-  { id: "poder-5-segundos", titulo: "El poder de los 5 segundos", autor: "Mel Robbins", ano: 2017, categoria: "Psicología", estado: "pendiente" },
+  { id: "poder-5-segundos", titulo: "El poder de los 5 segundos", autor: "Mel Robbins", ano: 2017, categoria: "Psicología", estado: "escrito" },
   { id: "organizate-eficacia", titulo: "Organízate con eficacia", autor: "David Allen", ano: 2001, categoria: "Psicología", estado: "pendiente" },
   { id: "traguese-sapo", titulo: "Tráguese ese sapo", autor: "Brian Tracy", ano: 2001, categoria: "Psicología", estado: "pendiente" },
   { id: "cambia-el-chip", titulo: "Cambia el chip", autor: "Chip y Dan Heath", ano: 2010, categoria: "Psicología", estado: "pendiente" },
