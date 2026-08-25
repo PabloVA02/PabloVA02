@@ -78451,7 +78451,300 @@ const ORGANIZATE_EFICACIA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El ego es el enemigo, en ocho paginas.
+
+   Breve. Libro practico -> afirmacion entera en el rotulo y SEGUNDA PERSONA en
+   la caja.
+
+   Seis argumentos: hablar descarga de hacer, el aprendiz permanente, la
+   estrategia del lienzo, contenerse, la historia que te cuentas cuando llega
+   el exito, y tiempo vivo contra tiempo muerto.
+
+   Riesgo principal: que suene a sermon. Holiday escribe en imperativo y si se
+   le copia el tono, la pagina se queda sin hechos. Cada pagina lleva su dato:
+   el estudio de Gollwitzer de 2009, Hammett pagando clases despues de entrar
+   en Metallica, el anteambulo romano, los tres anos de Jackie Robinson.
+
+   La conclusion no repite la critica de Maestria. Aqui el problema es otro: la
+   palabra ego cubre tantas cosas que ya no se puede desmentir, los ejemplos son
+   casi todos generales y directivos, y el consejo de contenerse no pesa igual
+   para quien tiene que pelear por que le escuchen.
+   -------------------------------------------------------------------------- */
+
+const EGO_ES_EL_ENEMIGO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El mayor obstáculo para llegar a algo no es la competencia, sino la idea que te haces de ti mismo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ryan Holiday abre con un general que rechazaba ascensos. William Tecumseh Sherman recibió el mando del ejército del Oeste después de haber dicho por escrito que no se creía capaz, y cuando le ofrecieron presentarse a presidente contestó con una frase famosa: si me nombran no me presento, y si me eligen no sirvo. Murió sin ocupar el cargo que todos daban por suyo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Holiday usa ese caso para definir lo que le interesa. Su «ego» no es la autoestima ni la confianza: es la creencia de ser más importante de lo que uno ha demostrado todavía. Es lo que te hace hablar cuando convendría escuchar, rechazar el trabajo pequeño y contarte una versión de tu propia historia en la que siempre supiste lo que hacías.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro se divide en tres momentos, y esa división es su mejor idea. Cuando aspiras a algo, el ego te convence de que ya casi lo tienes. Cuando lo consigues, te convence de que fue todo mérito tuyo. Y cuando fracasas, te convence de que la culpa es de otro. En los tres sitios estorba, y en los tres estorba de una manera distinta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué contar tus planes te quita las ganas de cumplirlos, qué hace un aprendiz que ya es bueno, en qué consiste trabajar para el lucimiento de otro, qué se gana al no responder a una provocación, qué historia empieza a contarse quien ha ganado, para qué sirve el tiempo perdido y dónde se le ve el hueso a todo esto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El ego no te ataca cuando estás abajo. Te espera en el momento en que empiezas a creerte lo que dicen de ti.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Contar lo que vas a hacer te da parte de la satisfacción de haberlo hecho, y te quita las ganas",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer capítulo va contra una costumbre que se considera buena: anunciar los planes. Holiday se apoya en un trabajo del psicólogo Peter Gollwitzer publicado en 2009, en el que a unos estudiantes se les dejó contar su objetivo profesional y a otros no. Los que lo habían contado dedicaron después menos tiempo a trabajar en él, y se sintieron más cerca de conseguirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación que dan es que la mente confunde el reconocimiento con el avance. Cuando alguien asiente y dice que suena muy bien, se recibe una parte de la recompensa que debería llegar al final. Y una recompensa cobrada por adelantado deja de tirar. Por eso las conversaciones sobre lo que uno va a montar producen tanta energía y tan pocos resultados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Holiday añade una observación de oficio que se sostiene sola. Hablar de un proyecto es agradable y hacerlo no lo es: se parece más a estar atascado, aburrido y equivocándote durante meses. Entre las dos cosas, la que da satisfacción inmediata gana casi siempre. Y quien se acostumbra a la primera acaba teniendo una vida entera de proyectos que suenan muy bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es incómoda porque va contra lo que premia todo lo que nos rodea. El silencio no se aplaude, y anunciar sí. Aquí el libro no promete nada rápido: dice que el trabajo hecho a solas y sin público es la única cosa que después no hay que explicar, porque se ve. El resto son ensayos generales de una obra que no se estrena.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cada vez que cuentas lo que vas a hacer, cobras por adelantado un poco de lo que ibas a sentir al terminarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El que ya es bueno sigue siendo alumno de alguien, y por eso sigue mejorando",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1986, Kirk Hammett llevaba dos años de guitarrista en Metallica y el grupo estaba a punto de ser enorme. Hizo entonces algo que no hace casi nadie en esa situación: buscó a Joe Satriani, que había sido su profesor, y volvió a pagarle clases. Satriani contó después que Hammett aparecía con los deberes hechos y sin ninguna gana de que le dijeran que ya estaba bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Holiday lo llama seguir siendo alumno, y lo plantea como una posición que se elige y no como una etapa que se pasa. Un alumno pregunta, se equivoca delante de alguien y acepta que le corrijan. Todo eso cuesta menos cuando nadie te conoce. En cuanto te conocen, cada una de esas tres cosas empieza a parecer una confesión de que no sabes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento tiene una parte técnica que el libro cuenta bien. Para mejorar hace falta información sobre lo que haces mal, y esa información solo la tiene alguien de fuera. Quien deja de exponerse a que se lo digan se queda con la única opinión que le queda a mano, que es la suya, y esa es exactamente la menos fiable de todas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el consejo más concreto de este tramo: buscar a gente que sea mejor que tú en algo y ponerse donde puedan verte trabajar. No para tener contactos, que es otra cosa, sino para tener corrección. Holiday lo resume diciendo que un profesional siempre tiene un profesor, y que el día que no lo tiene deja de saber en qué está fallando.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El día que dejas de tener a alguien que te corrija, la única opinión que te queda sobre tu trabajo es la tuya, que es la peor.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Al principio conviene trabajar para el lucimiento de otro, y eso es una estrategia y no una humillación",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la Roma antigua había una figura llamada «anteambulo», el cliente que caminaba delante de su patrón abriendo paso entre la gente. Holiday la recupera para nombrar algo que ve repetido en las carreras que despegan: al principio, la manera más rápida de subir es hacer que suba otro. Buscarle ideas, resolverle problemas y no cobrar el favor en aplausos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo llama «la estrategia del lienzo»: en vez de pintar tu cuadro, prepararle el lienzo a alguien que ya sabe pintar. El ejemplo que más usa es el de Bill Belichick, que empezó en la Liga Nacional de Fútbol Americano analizando cintas de partidos que nadie quería ver y entregando los informes a entrenadores que se llevaban el mérito. Estuvo años haciendo eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento no es moral, es de acceso. El trabajo que nadie quiere hacer está libre, se hace sin competencia y enseña el oficio desde dentro. Quien lo hace acaba sabiendo cómo se toman las decisiones en esa habitación, que es una información que no se compra. El que se niega porque le parece poco para él se queda fuera de la habitación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Holiday marca el límite, y conviene marcarlo aquí también. Esto vale para el principio y para quien está aprendiendo, no para quien lleva diez años sosteniendo el trabajo de otro sin que le llegue nada. El libro habla de una escalera, no de un sitio donde quedarse. Si a los tres años el patrón sigue siendo el único que sube, la estrategia ha dejado de serlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El trabajo que nadie quiere hacer está libre de competencia, y desde dentro se ve cómo se decide todo lo demás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No responder a una provocación es una forma de fuerza, y casi siempre la más cara",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando Branch Rickey fichó a Jackie Robinson en 1945 para romper la barrera racial del béisbol, le pidió una cosa concreta: tres años sin devolver ni un insulto. Robinson preguntó si buscaba a alguien sin agallas para defenderse. Rickey le contestó que buscaba a alguien con agallas suficientes para no hacerlo. Robinson aceptó y cumplió, con las gradas gritándole y algún compañero pidiendo que lo echaran.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Holiday usa el caso para separar dos cosas que se confunden. Contenerse no es aguantar por miedo: es calcular qué cuesta cada reacción y quedarse con la que sirve al objetivo. Robinson no estaba tragando; estaba comprando la temporada siguiente, y las siguientes, para él y para todos los que vinieron detrás. Al cuarto año empezó a contestar, y ya nadie podía sacarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo que describe es reconocible en escalas mucho más pequeñas. Una respuesta ingeniosa a un correo hiriente da un placer inmediato y cuesta meses de relación. Una discusión ganada delante de gente deja al otro esperando el momento. El ego cobra la satisfacción al contado y deja la factura para más adelante, cuando ya no se acuerda uno de dónde salía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla que propone es sencilla de decir y difícil de hacer: preguntarse qué persigues antes de contestar, y si contestar te acerca. Casi nunca acerca. Y hay una prueba práctica que el libro no da pero se deduce sola: si la respuesta que ibas a mandar te gusta mucho, es exactamente la que no hay que mandar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de contestar a algo que te ha dolido, pregúntate qué persigues. Si la respuesta que has pensado te encanta, no es la buena.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El peligro no llega con el fracaso sino con el éxito, porque entonces empiezas a contarte una historia",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda parte del libro cambia de asunto. Holiday sostiene que el ego hace poco daño mientras nadie te hace caso, y que se vuelve peligroso justo cuando algo sale bien. Lo primero que aparece entonces es un relato: la versión de tu propia vida en la que todo lo que pasó tenía sentido, no hubo suerte y tú siempre supiste lo que estabas haciendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo largo es John DeLorean, el directivo de General Motors que en los años setenta era el más brillante de la empresa y montó su propia marca de coches. Convencido de que la burocracia era el único freno, hizo lo contrario en todo: sin controles, sin trámites, con contratación libre. La compañía duró tres años y quebró en 1982.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Holiday señala no es el error técnico sino el mecanismo. DeLorean había explicado por qué había triunfado en General Motors, se creyó su propia explicación y la aplicó donde no valía. Un relato bonito sobre uno mismo es cómodo, y a partir del momento en que se cuenta en público es muy difícil corregirlo sin quedar como un impostor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La alternativa que propone no es la modestia de discurso, que es otra forma de lo mismo. Es más aburrida: seguir midiendo lo que haces con los mismos números de antes, seguir teniendo a alguien que te lleve la contraria, y aceptar en voz alta la parte que tuvo la suerte. Quien nombra su suerte conserva la capacidad de ver cuándo deja de acompañarle.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En cuanto tienes un relato bonito de por qué te salió bien, empiezas a aplicarlo en sitios donde no vale.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El tiempo que te dan por perdido puede ser tiempo vivo, y eso lo decides tú y no la situación",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera parte es la del fracaso, y su idea central se la debe Holiday a su maestro Robert Greene: todo tiempo es tiempo vivo o tiempo muerto. El muerto se pasa esperando a que la situación cambie, resentido y a la espera. El vivo se pasa aprendiendo algo dentro de la misma situación, que no ha cambiado nada. El sitio es el mismo; lo que se hace dentro, no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que usa es Malcolm Little, condenado a diez años de cárcel en 1946 por robo. Encerrado, copió a mano un diccionario entero, palabra por palabra, para aprender a leer y escribir con soltura, y leyó todo lo que había en la biblioteca de la prisión. Salió siendo Malcolm X. La condena no fue más corta ni más justa: fue tiempo vivo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Holiday cierra con una idea que es la más útil del libro y la menos citada: mantener un marcador propio. Es decidir de antemano qué contaría como buen trabajo aunque nadie lo vea, y puntuarse con eso en vez de con el resultado. Un jugador puede ganar el partido jugando mal, y puede perderlo habiendo hecho todo lo que dependía de él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo no es de consuelo, es de gobierno. El resultado depende del mercado, del jurado, del jefe y del azar, y ninguna de esas cosas es tuya. El esfuerzo y el criterio sí lo son. Quien puntúa con lo primero vive a merced de gente que ni le conoce; quien puntúa con lo segundo puede seguir trabajando el lunes después de un no.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ten un marcador propio: decide antes qué contaría como buen trabajo aunque nadie lo vea, y púntuate con eso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro cosas y ninguna necesita creerse el marco entero. No contar los planes, porque contarlos cobra por adelantado las ganas. Seguir teniendo a alguien que te corrija. No contestar a lo que te ha dolido hasta saber qué persigues. Y puntuarte con un marcador propio, decidido antes, en vez de con el resultado, que casi nunca depende solo de ti.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la palabra que da título al libro. Holiday llama ego a la arrogancia, a la ambición, a la inseguridad, al autoengaño y a la impaciencia, y con esa amplitud la tesis ya no se puede desmentir: cualquier fracaso se explica por ego y cualquier acierto por su ausencia. Una idea que lo explica todo hacia atrás no sirve para prever nada hacia delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en de quién habla. Los ejemplos son generales, entrenadores y directivos, casi todos hombres y casi todos ya con sitio en la habitación. «Contente», «no reclames el mérito» y «trabaja para el lucimiento de otro» significan una cosa para quien ya está dentro y otra distinta para quien tiene que pelear por que le escuchen. El libro no distingue los dos casos en ningún momento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo que pasó después que dice más que cualquier crítica. Holiday había publicado en 2012 un libro sobre cómo él mismo manipulaba a los medios, y con este montó una marca personal de estoicismo —boletines diarios, monedas, agenda, camisetas— construida sobre su cara y su firma. Un libro que avisa del ego terminó siendo el cimiento de una industria basada en el nombre de su autor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hace falta que te creas lo del ego. Prueba solo una semana a no contar lo que vas a hacer, y mira cuánto trabajas.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "ego-es-el-enemigo": EGO_ES_EL_ENEMIGO,
   "organizate-eficacia": ORGANIZATE_EFICACIA,
   "maestria-greene": MAESTRIA_GREENE,
   "pre-suasion": PRE_SUASION,

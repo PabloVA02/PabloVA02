@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "ego-es-el-enemigo": "Domina tu peor instinto y alcanza tu mejor versión",
   "organizate-eficacia": "El arte de la productividad sin estrés",
   "maestria-greene": "Las claves del éxito, el sentido de la excelencia",
   "pre-suasion": "Un método revolucionario para influir y persuadir",

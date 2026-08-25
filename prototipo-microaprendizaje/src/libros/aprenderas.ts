@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "ego-es-el-enemigo":
+    "En un experimento de 2009, los estudiantes que habían contado su objetivo profesional trabajaron después menos en él y se sintieron más cerca de lograrlo. Holiday sostiene que el mayor obstáculo no es la competencia, sino la idea que uno se hace de sí mismo.",
+
   "organizate-eficacia":
     "Allen sostiene que el agobio no viene de la cantidad de trabajo, sino de los acuerdos que aceptaste y no apuntaste. Su método empieza sacando de la cabeza todo lo pendiente, y calcula entre uno y seis días hacerlo la primera vez.",
 

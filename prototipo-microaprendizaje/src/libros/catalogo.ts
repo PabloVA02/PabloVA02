@@ -355,7 +355,7 @@ export const CATALOGO: Ficha[] = [
   { id: "desenredadas", titulo: "Desenredadas", autor: "Lisa Damour", ano: 2016, categoria: "Psicología", estado: "pendiente" },
   { id: "poder-de-la-presencia", titulo: "El poder de la presencia", autor: "Amy Cuddy", ano: 2015, categoria: "Psicología", estado: "escrito" },
   { id: "obstaculo-es-camino", titulo: "El obstáculo es el camino", autor: "Ryan Holiday", ano: 2014, categoria: "Psicología", estado: "escrito" },
-  { id: "ego-es-el-enemigo", titulo: "El ego es el enemigo", autor: "Ryan Holiday", ano: 2016, categoria: "Psicología", estado: "pendiente" },
+  { id: "ego-es-el-enemigo", titulo: "El ego es el enemigo", autor: "Ryan Holiday", ano: 2016, categoria: "Psicología", estado: "escrito" },
   { id: "quietud-es-la-clave", titulo: "La quietud es la clave", autor: "Ryan Holiday", ano: 2019, categoria: "Psicología", estado: "pendiente" },
   { id: "disciplina-es-destino", titulo: "La disciplina es el destino", autor: "Ryan Holiday", ano: 2022, categoria: "Psicología", estado: "pendiente" },
   { id: "ley-de-atraccion", titulo: "La ley de la atracción", autor: "Esther y Jerry Hicks", ano: 2006, categoria: "Psicología", estado: "pendiente" },

@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "ego-es-el-enemigo": [
+    "por qué anunciar un plan te quita parte de las ganas de cumplirlo",
+    "qué se pierde el día que dejas de tener a alguien que te corrija",
+    "cuándo trabajar para el lucimiento de otro es una escalera y cuándo un pozo",
+    "qué te cuesta de verdad ganar una discusión delante de gente",
+    "por qué el peligro llega con el éxito y no con el fracaso",
+  ],
+
   "organizate-eficacia": [
     "por qué tu memoria te recuerda las cosas justo cuando no puedes hacerlas",
     "qué gana quien escribe el movimiento concreto en vez del nombre del asunto",
