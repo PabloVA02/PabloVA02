@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "obstaculo-es-camino": [
+    "cómo separar de un problema la parte que sí depende de ti",
+    "qué le pasa a una situación cuando la describes sin adjetivos",
+    "por qué un objetivo grande no se puede empezar por ningún sitio",
+    "qué preguntar cuando algo no tiene ninguna solución",
+    "qué se pierde al quedarse solo con la parte útil de una filosofía",
+  ],
+
   "cinco-arrepentimientos": [
     "por qué la vida que uno no eligió se construye con decisiones pequeñas",
     "cómo distinguir lo que tiene ventana de lo que se puede intentar siempre",

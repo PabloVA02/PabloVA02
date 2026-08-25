@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "obstaculo-es-camino":
+    "El estoicismo tuvo en Roma a un esclavo, un consejero riquísimo y un emperador escribiendo lo mismo. Holiday traduce esa escuela a un procedimiento de tres pasos, y deja fuera la mitad que obligaba a ocuparse de los demás.",
+
   "cinco-arrepentimientos":
     "Ware cuidó a domicilio a personas en sus últimas semanas y escribió en 2009 lo que decían lamentar. La lista se cita hoy como si fuera investigación, y no lo es: son recuerdos sin registros ni método, y conviene leerlos sabiéndolo.",
 

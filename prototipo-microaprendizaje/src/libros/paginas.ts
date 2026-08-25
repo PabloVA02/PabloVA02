@@ -75390,7 +75390,296 @@ const CINCO_ARREPENTIMIENTOS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El obstáculo es el camino, en ocho páginas.
+
+   Breve. Libro práctico → afirmación entera en el rótulo y SEGUNDA PERSONA
+   en la caja (apartado 4.7).
+
+   Riesgo principal: la frase de taza. «El obstáculo es el camino» circula
+   sola y no dice nada; lo que hay que contar es el procedimiento de tres
+   pasos, la distinción entre lo que depende de uno y lo que no, y el
+   ejemplo de Rockefeller con dieciséis años.
+
+   Y es un libro de estoicismo escrito por alguien del márketing, así que la
+   conclusión tiene que decir qué queda fuera de esa versión: el estoicismo
+   también tenía una física, una lógica y una obligación con los demás, y
+   aquí solo se ha traído la parte que sirve para rendir más.
+   -------------------------------------------------------------------------- */
+
+const OBSTACULO_ES_CAMINO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro coge una escuela filosófica de hace dos mil años y se queda con su parte práctica",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ryan Holiday publicó esto en 2014 y su origen es una frase de Marco Aurelio, emperador romano y estoico, escrita en el siglo II en un cuaderno privado que no pensaba publicar: que lo que se interpone en el camino se convierte en el camino, y que la acción se alimenta de los obstáculos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El estoicismo era una escuela griega fundada hacia el año 300 antes de Cristo por Zenón de Citio, y en Roma tuvo tres figuras que aún se leen: Séneca, que era rico y consejero de Nerón; Epicteto, que había sido esclavo; y Marco Aurelio, que era emperador. Un esclavo y un emperador escribiendo lo mismo es la mejor recomendación de esa filosofía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace Holiday es traducir eso a un procedimiento de tres pasos: cómo se mira un problema, qué se hace con él y qué se hace cuando no se puede hacer nada. Cada capítulo es corto y cada uno trae un personaje histórico, casi siempre norteamericano y casi siempre triunfante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre la distinción que sostiene todo el asunto, por qué un problema y la opinión sobre ese problema no son lo mismo, un adolescente de dieciséis años que aplicó esto en 1855, qué significa exactamente empezar por lo pequeño, qué se hace con lo que no tiene solución, y qué parte del estoicismo se ha quedado fuera de este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un esclavo y un emperador escribiendo lo mismo es la mejor prueba de que aquello servía en las dos situaciones.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi todo el sufrimiento se produce en la lista de lo que no depende de uno",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea que sostiene el libro entero es de Epicteto y consiste en un reparto. Hay cosas que dependen de uno —lo que hace, lo que dice, cómo interpreta lo que pasa, dónde pone la atención— y cosas que no: el tiempo, la salud ajena, la economía, lo que otros piensen, el resultado de casi todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación es que casi todo el malestar viene de haber puesto la energía en la segunda lista. Quien depende del resultado de algo que no controla vive pendiente de un veredicto que puede llegar o no; quien se ocupa de la parte que sí controla tiene siempre algo que hacer, incluso cuando las cosas salen mal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es un reparto fácil de enunciar y difícil de aplicar, porque casi todo está mezclado. En una entrevista de trabajo, la preparación depende de uno y la decisión no. En una enfermedad, el tratamiento que se sigue depende de uno y la evolución no. Lo que propone es separar las dos partes de cada asunto en vez de tratar el asunto entero como una sola cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una consecuencia práctica que se puede aplicar hoy: cuando algo produce angustia, escribir las dos columnas de ese asunto concreto. Casi siempre la columna de lo que depende de uno está bastante llena y llevaba días sin mirarse, porque toda la atención estaba puesta en la otra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando algo te angustie, escribe las dos columnas de ese asunto: la de lo que depende de ti suele estar más llena de lo que crees.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El problema y lo que uno se cuenta sobre el problema no son la misma cosa",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer paso del procedimiento es lo que Holiday llama la percepción, y consiste en separar el hecho de la interpretación. Un contrato que se cae es un hecho; que sea una catástrofe, una injusticia o el final de una carrera es una interpretación, y suele añadirse en el mismo segundo, sin que nadie note que ha añadido nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La técnica que propone para eso viene de Marco Aurelio y consiste en describir la situación con la mayor sequedad posible, quitando todos los adjetivos. No «me han humillado delante de todo el equipo», sino «mi jefe ha dicho en la reunión que el informe estaba mal». La segunda frase es la misma escena y produce otra reacción.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que consigue esa sequedad es devolver el problema a su tamaño, que casi siempre es mucho menor que el que tenía en la cabeza. Y sobre todo, lo devuelve a la categoría de cosa con la que se puede hacer algo: un informe mal hecho se arregla, y una humillación no se arregla, se rumia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí conviene poner el límite que el libro no pone. Esta técnica sirve para lo que uno se está agrandando solo, que es mucho, y no sirve para lo que es objetivamente grave. Describir con sequedad una enfermedad, un despido o una muerte no la reduce, y presentarlo como si sí lo hiciera es lo que convierte esta filosofía en una manera de no sentir nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribe lo que ha pasado sin un solo adjetivo: casi siempre el problema es más pequeño de lo que era en tu cabeza.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un chico de dieciséis años decidió en 1855 que aquel pánico era una oportunidad",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo con el que Holiday abre el libro es el de John D. Rockefeller. En 1855, con dieciséis años, entró a trabajar de contable auxiliar en Cleveland por unos pocos dólares a la semana. Dos años después estalló el pánico financiero de 1857, una de las peores crisis del siglo, y a su alrededor la gente se arruinaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que él escribió en su diario de aquellos meses es lo que interesa. No se refería a lo que estaba pasando como un desastre, sino como una escuela: decía que estaba aprendiendo cómo funcionaba de verdad el dinero, viendo con sus propios ojos qué hacía quebrar a un negocio, y que aquello no lo enseñaba nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Holiday señala que esa manera de mirar le acompañó en todas las crisis siguientes: en 1873, en 1893 y en 1907, mientras los demás vendían con pánico, él compraba. Lo llamaba mantener la sangre fría cuando todos la perdían, y sostenía que las crisis eran el momento en que se decidían las posiciones de la década siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir la otra mitad de ese ejemplo, que el libro no dice. Rockefeller construyó su posición con prácticas que hoy serían delito y que en su momento llevaron a que el Tribunal Supremo de Estados Unidos ordenara en 1911 trocear su compañía por monopolio. La serenidad ante las crisis fue real; no fue lo único que hubo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las crisis son el momento en que se deciden las posiciones de la década siguiente, y casi todo el mundo las pasa mirando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cuando algo es demasiado grande, la instrucción es hacer bien la parte más pequeña",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo paso es la acción, y su capítulo más útil es el que trata de la parálisis ante lo enorme. La instrucción es siempre la misma: no se ataca el problema entero, se hace impecablemente la unidad más pequeña que se pueda identificar dentro de él, y luego la siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Holiday lo ilustra con una frase que Martin Luther King repetía sobre el trabajo bien hecho: que si a alguien le toca barrer calles, que las barra como Miguel Ángel pintaba, y que todo el mundo se detenga a decir que ahí vivió un barrendero que hacía bien su trabajo. La cita se usa como consejo moral y aquí funciona como método.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que resuelve esa manera de mirar es un problema real de arranque. Un objetivo grande no tiene principio, así que no se puede empezar por ningún sitio y se aplaza. Una unidad pequeña sí tiene principio, se puede hacer hoy, y produce además la única cosa que sostiene el ánimo al día siguiente, que es haber avanzado algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una regla sobre los medios que va contra la costumbre: hacer con lo que hay. Casi todo el mundo aplaza hasta tener el equipo adecuado, el momento adecuado o el equipo humano adecuado, y Holiday sostiene que esas condiciones no llegan nunca y que quien empieza con lo que tiene aprende cosas que el que espera no va a aprender.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un objetivo grande no tiene principio y por eso se aplaza; la unidad más pequeña sí lo tiene y se puede hacer hoy.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El tercer paso es para lo que no tiene ninguna solución, y es el que más falta hace",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercer paso, que Holiday llama voluntad, es el único que trata de lo que no se puede arreglar: una enfermedad incurable, una muerte, un error irreversible, una injusticia que no se va a corregir. Es la parte del libro que más se salta la gente y la que de verdad distingue al estoicismo de un manual de rendimiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su instrucción no es resignarse ni pensar en positivo. Es aceptar el hecho tal como es, sin discutirlo, y preguntar qué queda por decidir dentro de esa situación, que casi siempre es algo: cómo se comporta uno, a quién cuida, qué deja resuelto, qué ejemplo da a los que están mirando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La distinción que hace con el optimismo es importante. El optimismo dice que quizá salga bien; esto dice que probablemente no saldrá y que aun así hay una manera de estar. Un enfermo que sabe que no se va a curar no necesita que le digan que quizá; necesita saber qué le queda por decidir, que es una pregunta contestable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale el ejercicio más antiguo de la escuela, que Séneca practicaba: dedicar un rato a imaginar con detalle que se pierde lo que se tiene. No para sufrir por adelantado, sino porque quien ya ha mirado esa posibilidad no queda destrozado el día en que ocurre, y mientras tanto valora lo que tiene de otra manera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ante lo que no tiene arreglo, la pregunta que sí se puede contestar es qué queda por decidir dentro de eso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Del estoicismo original falta aquí la mitad, y no es la parte decorativa",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro presenta el estoicismo como un conjunto de técnicas de resistencia personal, y esa es solo una parte de lo que era. La escuela tenía tres divisiones —lógica, física y ética— y la parte práctica se apoyaba en las otras dos, que aquí no aparecen en ninguna página.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que falta más se nota es la obligación con los demás. Para los estoicos, todos los seres humanos formaban una sola comunidad y de ahí salía un deber de justicia que no era optativo: Marco Aurelio escribe una y otra vez que lo que no beneficia a la colmena no beneficia a la abeja. En este libro, el obstáculo es siempre el de uno y el beneficio también.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa amputación tiene consecuencias. Una filosofía que enseña a aceptar lo que no se puede cambiar, sin la parte que obliga a cambiar lo que sí, se convierte en una herramienta de adaptación a cualquier cosa, incluidas las que había que discutir. El estoicismo romano no era eso: Séneca, Trásea y otros pagaron con la vida por meterse en política.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene además saber quién escribe. Holiday venía del márketing, había sido director de esa área en una empresa de ropa y había publicado antes un libro sobre cómo se manipulan los medios de comunicación. Es un divulgador bueno y no es un estudioso de la filosofía antigua, y este libro es la versión aprovechable de una escuela, no la escuela.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Aceptar lo que no se puede cambiar, sin la obligación de cambiar lo que sí, se convierte en adaptarse a cualquier cosa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro cosas y las cuatro se pueden usar el mismo día. Separar en dos columnas lo que depende de uno y lo que no, para el asunto concreto que angustia. Describir lo que ha pasado sin un solo adjetivo. Atacar la unidad más pequeña en vez del problema entero. Y, ante lo que no tiene arreglo, preguntar qué queda por decidir dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la selección de sus ejemplos, que es la de siempre. Todos los personajes que aparecen resistieron y ganaron, y no hay uno solo que aplicara exactamente esto y perdiera igualmente, que es lo que ocurre a menudo. Y varios están contados a medias: la serenidad de Rockefeller ante las crisis fue real, y su compañía acabó troceada por sentencia del Tribunal Supremo en 1911 por prácticas monopolísticas, cosa que el libro no menciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también por lo que amputa. El estoicismo tenía una obligación con los demás que aquí no está, y sin ella la filosofía se convierte en una técnica para aguantar cualquier cosa sin protestar. Y su técnica principal —quitar los adjetivos al problema— sirve para lo que uno se agranda solo y no sirve para lo que es objetivamente grave, distinción que el libro no hace nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después es que el estoicismo se convirtió en una industria y Holiday en su principal editor: publicó después varios libros más con el mismo formato, monta un boletín con cientos de miles de suscriptores y vende objetos con frases de Marco Aurelio grabadas. Que la filosofía de un emperador que escribía para sí mismo termine impresa en una taza tiene su gracia, y no invalida las cuatro técnicas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las cuatro técnicas funcionan; lo que se ha quedado fuera es justo la parte que impedía usarlas para aguantar cualquier cosa.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "obstaculo-es-camino": OBSTACULO_ES_CAMINO,
   "cinco-arrepentimientos": CINCO_ARREPENTIMIENTOS,
   esencialismo: ESENCIALISMO,
   "comunicacion-no-violenta": COMUNICACION_NO_VIOLENTA,
