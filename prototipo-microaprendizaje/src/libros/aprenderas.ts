@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "primavera-silenciosa":
+    "En un lago de California se trató el agua con un pariente del DDT a una parte por cada setenta millones. En la grasa de los somormujos que comían los peces del lago apareció miles de veces más concentrado, y la colonia se desplomó.",
+
   "camino-libertad-financiera":
     "Schäfer cuenta que a los veintiséis entregaba a sus acreedores casi todo lo que ganaba y que a los treinta vivía de los intereses. Su afirmación es que lo que decide el patrimonio no es cuánto entra, sino qué proporción no se gasta.",
 

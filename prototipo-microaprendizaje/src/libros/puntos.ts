@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "primavera-silenciosa": [
+    "qué le pasa a un veneno que no se degrada después de hacer su trabajo",
+    "por qué una concentración inofensiva deja de serlo tres escalones más arriba",
+    "cómo murieron unos pájaros a los que nadie había fumigado",
+    "por qué fumigar más produce insectos más difíciles de matar",
+    "qué se dijo de la autora en lugar de discutir sus datos",
+  ],
+
   "camino-libertad-financiera": [
     "en qué se diferencian la culpa y la responsabilidad cuando hablamos de dinero",
     "por qué lo que guardas a fin de mes no se guarda nunca",

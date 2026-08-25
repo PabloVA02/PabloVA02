@@ -83457,7 +83457,299 @@ const CAMINO_LIBERTAD_FINANCIERA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Primavera silenciosa, en ocho paginas.
+
+   Breve. ENSAYO DE CIENCIA -> afirmacion entera en el rotulo y TERCERA PERSONA
+   en la caja (apartado 4.7). Ademas Carson lo escribio con un cancer de mama
+   avanzado y murio en 1964: apartado 4 bis, un libro escrito desde una
+   desgracia real no admite la segunda persona en ningun caso.
+
+   Seis argumentos: la persistencia, la concentracion en la cadena (Clear Lake),
+   los petirrojos de Michigan, la resistencia de los insectos, lo que Carson
+   proponia de verdad y la campana en su contra.
+
+   La conclusion tiene que hacer dos cosas: decir donde exagero —el riesgo de
+   cancer por dosis minimas no se sostuvo en la escala que ella sugirio— y
+   desmontar la acusacion que se le hace desde los anos noventa, la de haber
+   causado millones de muertes por malaria. La prohibicion de 1972 fue agricola
+   y estadounidense, el uso sanitario nunca se prohibio, y la resistencia del
+   mosquito ya estaba ahi.
+   -------------------------------------------------------------------------- */
+
+const PRIMAVERA_SILENCIOSA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un producto que mata insectos no deja de existir cuando ha matado al insecto",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rachel Carson era bióloga marina y funcionaria del servicio de pesca y vida salvaje de Estados Unidos, y en 1962 publicó un libro que empieza con un cuento. Describe un pueblo americano cualquiera, con sus manzanos y sus zorros, y luego una primavera en la que no canta ningún pájaro. Después aclara que ese pueblo no existe y que cada una de esas desgracias ha ocurrido ya en algún sitio real.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que había detrás era el DDT y sus parientes químicos, insecticidas desarrollados durante la Segunda Guerra Mundial y usados después a una escala enorme sobre campos, bosques, marismas y barrios enteros. Se rociaban desde avionetas sobre pueblos con la gente en la calle, y el argumento de venta era que resultaban inofensivos para las personas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La afirmación de Carson no era que fueran venenos, cosa que nadie discutía. Era otra: que esos compuestos no desaparecen después de hacer su trabajo, que se quedan en el suelo y en el agua durante años, que se acumulan en la grasa de los animales y que van subiendo por la cadena alimentaria concentrándose en cada escalón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre qué significa que un producto sea persistente, cómo una dosis diminuta en el agua se convierte en una dosis mortal más arriba, por qué murieron los petirrojos de una universidad de Michigan, por qué fumigar más produce insectos más difíciles de matar, qué proponía Carson realmente y qué le hicieron por escribirlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un veneno persistente no termina su trabajo cuando mata: sigue existiendo, en el suelo, en el agua y en la grasa de lo que viene después.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La diferencia entre un veneno antiguo y estos no es la potencia, es que estos se quedan",
+      },
+      {
+        b: "texto",
+        texto:
+          "Carson dedica los primeros capítulos a explicar en qué se distinguen los insecticidas nuevos de los que se usaban antes. El arsénico y las sales de plomo eran venenos brutales y se comportaban como tales: mataban lo que tocaban y se sabía que había que tener cuidado. Los compuestos clorados de posguerra eran otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su rasgo decisivo es que apenas se degradan. Un suelo tratado puede seguir conteniendo el producto años después, y los análisis de la época lo encontraban en sitios donde nunca se había fumigado: en peces de ríos remotos, en la nieve, en el tejido graso de animales del Ártico. Se había repartido por el planeta en menos de veinte años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo rasgo es que se disuelven en grasa y no en agua. Eso significa que el cuerpo no los expulsa por la orina: los guarda en el tejido adiposo, donde se van sumando dosis pequeñísimas a lo largo de la vida. Carson insiste en que la pregunta relevante no es qué hace una dosis, sino qué hacen mil dosis diminutas acumuladas durante veinte años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí saca la crítica que le da estructura al libro. Las autorizaciones se concedían midiendo la toxicidad de una exposición única en un animal de laboratorio, que es exactamente lo que estos productos no hacen. Un método de evaluación pensado para venenos que desaparecen no sirve para evaluar venenos que se quedan.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Estos compuestos se disuelven en grasa y no en agua, así que el cuerpo no los expulsa: los guarda y los va sumando durante años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una dosis inofensiva en el agua se vuelve mortal tres escalones más arriba",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que mejor demuestra la tesis del libro ocurrió en Clear Lake, un lago del norte de California donde molestaba un mosquito que no picaba pero se metía en los ojos de los bañistas. Entre 1949 y 1957 se trató el agua con un pariente cercano del DDT en concentraciones minúsculas, de una parte por cada setenta millones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los análisis posteriores encontraron el producto multiplicado en cada escalón de la cadena. En el plancton estaba varios cientos de veces más concentrado que en el agua; en los peces que comían plancton, mucho más; y en la grasa de los somormujos que comían esos peces, miles de veces por encima de la dosis original.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los somormujos empezaron a morir. Una colonia que rondaba el millar de parejas se desplomó, y durante varios años no salió adelante ni un pollo. Los primeros análisis no encontraron ninguna causa evidente, porque nadie estaba buscando en la grasa un producto aplicado al agua a una concentración que se consideraba insignificante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Carson usa este caso para desmontar el concepto de dosis segura tal como se aplicaba entonces. En un sistema vivo, una concentración no se mantiene: se reparte de manera desigual y se acumula donde hay grasa y donde hay depredadores. Medir el veneno en el agua y declararlo inocuo es medirlo en el único sitio donde no va a hacer daño.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En una cadena alimentaria las concentraciones no se mantienen: se multiplican en cada escalón, y el último se lleva todo lo de abajo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los petirrojos de Michigan murieron por comer lombrices, y nadie había fumigado ninguna lombriz",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo caso del libro es urbano y por eso resultó más difícil de ignorar. A finales de los cincuenta, muchas ciudades del medio oeste estadounidense fumigaban sus olmos para combatir un hongo transmitido por un escarabajo, la grafiosis. Se rociaban los árboles enteros desde camiones, varias veces al año, en calles residenciales y en campus universitarios, con los vecinos mirando desde la acera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la Universidad Estatal de Michigan, el ornitólogo George Wallace empezó a encontrar petirrojos muertos por el campus, con temblores y convulsiones. La primavera siguiente había muchos menos, y la siguiente casi ninguno. El campus se estaba quedando sin la especie de pájaro más corriente del país.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cadena tardó en reconstruirse porque nadie había rociado a los petirrojos. Las hojas tratadas caían en otoño, las lombrices se comían la hojarasca y acumulaban el producto sin morirse, y los petirrojos que volvían en primavera se comían las lombrices. Wallace calculó que bastaban once lombrices para matar a un petirrojo, y un petirrojo se come once lombrices en una mañana de marzo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Wallace documentó además que muchos de los que sobrevivían no criaban: los nidos salían vacíos o los huevos no llegaban a eclosionar. Es el hallazgo que Carson repite en varios capítulos, porque cambia la escala del problema: un veneno que no mata pero impide reproducirse vacía una zona igual, solo que sin dejar cadáveres a la vista y sin que nadie llegue a contar nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un producto que no mata pero impide criar vacía una zona igual que uno que mata, y además no deja cadáveres que contar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Fumigar más produce insectos más difíciles de matar, porque la selección funciona a favor del bicho",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento más incómodo del libro no es ecológico sino práctico, y va dirigido a quien solo se preocupe por las cosechas. Carson explica que en cualquier población de insectos hay unos pocos individuos que resisten el producto por variación genética, y que fumigar mata a todos los demás y les deja el campo libre precisamente a esos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con generaciones que se suceden en semanas, la población entera puede volverse resistente en pocos años. Y entonces hace falta más cantidad, o un producto más fuerte, o los dos, y el ciclo vuelve a empezar. Carson ya citaba en 1962 decenas de especies con resistencia documentada, entre ellas mosquitos y moscas domésticas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso añade un segundo efecto que empeora las cosas. Los insecticidas de amplio espectro matan también a los depredadores naturales de la plaga, que son menos numerosos y se recuperan más despacio. El resultado habitual es que la plaga vuelve con más fuerza que antes y que aparecen plagas nuevas que antes estaban controladas por esos depredadores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que saca es que el método no solo era peligroso: se estaba estropeando solo. Carson lo llama una escalada que la industria química presenta como progreso y que consiste en vender cada año un producto más caro para resolver el problema que creó el del año anterior. Es la parte del libro que mejor ha envejecido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Fumigar deja vivos exactamente a los que resisten. En pocos años la población entera desciende de ellos y hace falta más veneno.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Carson no pedía prohibir los insecticidas, y eso es lo que peor se recuerda del libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decirlo con claridad porque es el malentendido más extendido sobre esta obra: en ningún momento pide la prohibición de los productos químicos. Lo que pide es dejar de usarlos indiscriminadamente, desde el aire y sobre territorios enteros, sin saber qué hacen a largo plazo y sin que nadie haya preguntado a la población que vive debajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El último tercio del libro está dedicado a alternativas, y son técnicas concretas. La más espectacular es la de los machos estériles: criar en laboratorio millones de machos de la especie plaga, esterilizarlos con radiación y soltarlos, de modo que las hembras se apareen sin descendencia. Se había usado con éxito contra la mosca del gusano barrenador del ganado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Habla también de introducir depredadores y parásitos naturales de la plaga, de usar enfermedades específicas del insecto, de atrayentes químicos que llevan a la trampa a una sola especie y de rotar los cultivos. Lo común a todas es la puntería: actúan sobre un organismo concreto en lugar de sobre todo lo que hay en cien kilómetros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un argumento que aparece varias veces y que era nuevo en 1962. Carson sostiene que el público tiene derecho a saber qué se está echando sobre su casa y a negarse, y que la costumbre de fumigar barrios enteros sin avisar convertía a millones de personas en participantes de un experimento que nadie les había explicado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El problema no era usar productos químicos, sino usarlos sobre territorios enteros sin puntería y sin saber qué hacían a veinte años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La respuesta al libro no discutió sus datos: discutió quién los firmaba",
+      },
+      {
+        b: "texto",
+        texto:
+          "Antes incluso de publicarse, cuando el libro salía por entregas en una revista, la industria química se organizó. Una empresa amenazó con demandar a la editorial para impedir la publicación. Se calcula que el sector gastó cientos de miles de dólares de la época en refutaciones, folletos y artículos preparados para la prensa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Buena parte de esa campaña no atacó los datos sino a la autora. Se la describió como histérica, sentimental y aficionada; se subrayó que era soltera y sin hijos, como si eso dijera algo de sus mediciones; se dijo que quería devolver el país a la Edad Media y que su libro provocaría hambrunas. Uno de los argumentos más repetidos fue que era mujer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Carson respondió con datos y con testimonio. El libro llevaba más de cincuenta páginas de referencias, y en 1963 declaró ante un comité del Senado pidiendo regulación y el derecho de los ciudadanos a estar informados. Ese mismo año, el comité asesor científico del presidente Kennedy revisó el asunto y le dio la razón en lo esencial.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo hizo mientras se moría. Le habían diagnosticado un cáncer de mama con metástasis mientras terminaba el libro, no lo hizo público para que no se usara contra su credibilidad, y acudió a declarar tan debilitada que apenas podía caminar. Murió en abril de 1964, a los cincuenta y seis años, año y medio después de la publicación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando una investigación incomoda, la respuesta más barata no es refutar los datos: es discutir quién los firma.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que este libro dejó dicho y ha aguantado son tres cosas. Que un compuesto persistente no se queda donde se echa. Que en una cadena alimentaria las concentraciones se multiplican hacia arriba. Y que fumigar de forma masiva selecciona a los insectos resistentes y elimina a sus depredadores, con lo que el método se estropea solo. Las tres son hoy manuales de ecología.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en el capítulo del cáncer. Carson sugirió que la exposición a dosis mínimas de estos productos estaba detrás de una parte importante de los cánceres humanos, y la epidemiología de las décadas siguientes no ha sostenido esa relación en la escala que ella planteó. Es el tramo más flojo del libro y fue precisamente el que más se usó para desacreditar el resto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después es enorme. Estados Unidos creó su agencia de protección ambiental en 1970 y prohibió el uso agrícola del DDT en 1972; muchos países siguieron; y el movimiento ecologista moderno se suele fechar en este libro. En 2001, el convenio de Estocolmo restringió los compuestos orgánicos persistentes en todo el mundo, dejando una excepción expresa para el uso sanitario contra la malaria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una acusación que circula desde los años noventa y que conviene mirar de frente: que Carson causó millones de muertes por malaria en África. No se sostiene. La prohibición de 1972 fue estadounidense y agrícola, el uso sanitario en interiores nunca se prohibió y sigue permitido, y los mosquitos ya presentaban resistencias generalizadas al DDT antes de que ella publicara nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un método que exige cada año más cantidad para el mismo resultado no está funcionando: se está estropeando delante de quien lo aplica.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "primavera-silenciosa": PRIMAVERA_SILENCIOSA,
   "camino-libertad-financiera": CAMINO_LIBERTAD_FINANCIERA,
   "cambia-el-chip": CAMBIA_EL_CHIP,
   "mente-justos": MENTE_JUSTOS,
