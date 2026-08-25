@@ -74257,7 +74257,291 @@ const METODO_WIM_HOF: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Los hombres son de Marte, las mujeres son de Venus, en ocho páginas.
+
+   Breve. Libro práctico de pareja → afirmación entera en el rótulo y
+   SEGUNDA PERSONA en la caja (apartado 4.7).
+
+   Riesgo principal: repetir los tópicos como si fueran hallazgos. Es el
+   libro de pareja más vendido de la historia y casi todo lo que afirma no
+   está demostrado, empezando por su premisa. Eso se dice DENTRO del resumen,
+   no solo al final, y con lo que sí se ha medido: los metaanálisis de Janet
+   Hyde de 2005 y las réplicas posteriores.
+
+   Lo que se salva es una observación de conducta que no depende de ningún
+   sexo, y hay que sacarla limpia de debajo de la teoría.
+   -------------------------------------------------------------------------- */
+
+const HOMBRES_MARTE: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Es el libro de pareja más vendido de la historia y su premisa no se sostiene",
+      },
+      {
+        b: "texto",
+        texto:
+          "John Gray publicó esto en 1992 y ha vendido alrededor de cincuenta millones de ejemplares en más de cuarenta lenguas, lo que lo convierte en el libro sobre relaciones más vendido que existe. Su punto de partida es una metáfora que da título a todo: hombres y mujeres vienen de planetas distintos, con idiomas y costumbres distintos, y al convivir olvidan esa diferencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir enseguida qué clase de afirmación es esa, porque el libro no lo dice nunca. No es un hallazgo de investigación ni sale de ningún estudio: es un recurso literario que Gray construyó a partir de lo que había visto en su consulta y de lo que le parecía razonable. Está escrito con el tono de quien informa de algo establecido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo establecido apunta en otra dirección. La psicóloga Janet Hyde publicó en 2005 una revisión de decenas de metaanálisis sobre diferencias psicológicas entre sexos, y encontró que en la gran mayoría de los rasgos medidos —incluida la comunicación, la empatía y el liderazgo— las diferencias eran pequeñas o nulas, y mucho menores que las diferencias dentro de cada grupo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre las dos conductas que el libro describe bien aunque las explique mal, el error de comunicación que sí ocurre en casi todas las parejas, por qué reparar algo puede sentar peor que no hacer nada, qué hay debajo de las peticiones que no se piden, y qué queda de todo esto treinta años después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una metáfora contada con tono de hallazgo sigue siendo una metáfora, y este libro no aclara la diferencia en ninguna página.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La observación que acierta no es sobre sexos: es sobre dos maneras de responder a un problema",
+      },
+      {
+        b: "texto",
+        texto:
+          "Debajo de la teoría de los planetas hay una observación de conducta que sí se sostiene, y conviene sacarla limpia. Ante un problema, hay personas que necesitan retirarse a resolverlo por dentro antes de hablar, y personas que necesitan hablarlo en voz alta para poder ordenarlo. Las dos cosas son maneras de procesar, no grados de interés.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gray las llama la cueva y la ola, y las asigna a un sexo cada una, que es donde se equivoca. La observación funciona igual sin esa asignación: en cualquier pareja, sea cual sea su composición, es frecuente que uno de los dos se cierre cuando algo va mal y el otro necesite ponerlo en palabras inmediatamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el choque que describe es real y es de los que rompen convivencias. Quien se retira lo hace para poder volver entero, y su pareja lee esa retirada como desinterés o castigo. Quien necesita hablar lo hace para procesarlo, y su pareja lee esa insistencia como una acusación o una exigencia de arreglarlo todo ahora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte útil es la instrucción, que también funciona sin planetas. Quien se retira puede decir cuándo vuelve —«necesito dos horas»— y eso convierte una desaparición en una pausa. Quien necesita hablar puede avisar de qué está haciendo: «no quiero que lo soluciones, quiero contártelo». Las dos frases cuestan cinco segundos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Di cuándo vuelves antes de retirarte: una desaparición sin fecha se lee como castigo aunque no lo sea.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ofrecer una solución a alguien que estaba contando algo casi siempre lo empeora",
+      },
+      {
+        b: "texto",
+        texto:
+          "El acierto práctico del libro es la descripción de un desencuentro que ocurre a diario en casi todas las casas. Una persona cuenta un problema; la otra, con toda la buena intención, empieza a proponer soluciones. La primera se enfada, la segunda no entiende por qué, y ninguna de las dos consigue explicar qué acaba de pasar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ha pasado es que había dos peticiones distintas y solo una estaba dicha en voz alta. Quien cuenta un problema puede estar pidiendo ayuda para resolverlo o puede estar pidiendo compañía mientras lo aguanta, y la misma frase sirve para las dos cosas. Quien escucha tiene que adivinar cuál es, y acierta la mitad de las veces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por qué molesta la solución no ofrecida es la parte interesante. Una solución dada a quien no la pidió transmite dos mensajes que no se pretendían: que el problema era fácil y no se había pensado bien, y que la conversación termina aquí. Las dos cosas dejan a quien hablaba más solo que antes de empezar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La salida no requiere ninguna teoría sobre planetas y cabe en una pregunta que se puede hacer literalmente: «¿quieres que te ayude a resolverlo o quieres contármelo?». Suena artificial la primera vez y deja de sonarlo a la tercera, y evita una discusión entera cada semana.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pregunta si quieren ayuda o compañía antes de proponer nada: la misma frase sirve para pedir las dos cosas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi nadie pide lo que necesita, y luego lo cobra" },
+      {
+        b: "texto",
+        texto:
+          "Otro capítulo describe con precisión un mecanismo que arruina convivencias sin que nadie discuta nunca. Una persona necesita algo, no lo pide porque cree que debería ser evidente, no lo recibe, y anota la falta. Repetido durante meses, la lista de faltas es larga y la otra persona no sabe que existe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El razonamiento que sostiene ese silencio es siempre el mismo, y es falso: que si hay que pedirlo, ya no vale. Gray lo describe bien: esperar que la otra persona adivine convierte el afecto en un examen que se suspende sin saber que había examen, y la nota se comunica de golpe seis meses después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La corrección que propone no tiene nada de romántica y funciona: pedir en voz alta, en presente y en concreto. No «nunca me ayudas en casa», que es un juicio sobre el carácter de alguien y no se puede cumplir, sino «¿puedes recoger tú la cocina esta noche?», que es una petición con fecha y con tarea, que se puede aceptar o negar sin que nadie tenga que defender quién es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La corrección que propone no es romántica y funciona: pedir en voz alta, en presente y en concreto. No «nunca me ayudas», que es un juicio sobre alguien, sino «¿puedes recoger tú la cocina esta noche?», que es una petición que se puede aceptar o negar sin que nadie tenga que defender su carácter.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Esperar que lo adivine convierte el cariño en un examen que se suspende sin saber que había examen.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las críticas que empiezan por «tú siempre» no son quejas: son sentencias",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica varias páginas a la diferencia entre una queja y un reproche, y aunque la envuelve en su teoría, la distinción es correcta y está confirmada por la investigación seria sobre parejas. Una queja habla de un hecho concreto; un reproche habla de cómo es la otra persona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los adverbios absolutos son la señal más fácil de detectar. «Siempre» y «nunca» casi nunca son literalmente ciertos, y quien los oye se defiende primero contra la exageración, con lo que la conversación entera pasa a ser sobre si es siempre o solo muchas veces. El asunto original —la cena fría, el plan estropeado— desaparece de la mesa y ya no vuelve esa noche.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los adverbios son la señal. «Siempre» y «nunca» casi nunca son literalmente ciertos, y quien los oye se defiende primero contra la exageración, con lo que la conversación pasa a ser sobre si es siempre o solo muchas veces, y el asunto original desaparece de la mesa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esto coincide con lo que encontró John Gottman midiendo parejas reales en laboratorio, y que está en este catálogo: la manera en que empieza una discusión predice bastante bien cómo va a acabar, y una discusión que arranca con un reproche sobre el carácter casi nunca termina en un acuerdo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quita «siempre» y «nunca» de una queja: con ellos, la discusión pasa a ser sobre el adverbio y no sobre lo que pasó.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El problema de la teoría no es que exagere: es que convierte una excusa en naturaleza",
+      },
+      {
+        b: "texto",
+        texto:
+          "El daño de este libro no está en sus consejos, que en su mayoría son razonables, sino en el marco que los envuelve. Si las diferencias de conducta entre dos personas vienen de que pertenecen a categorías distintas por nacimiento, entonces no son conductas: son naturalezas, y una naturaleza no se discute ni se cambia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la práctica eso convierte cualquier conducta en algo dado. Quien no escucha, quien no pregunta, quien se retira sin avisar o quien no expresa nada tiene a mano una explicación que lo exime: es que soy de Marte. Un libro de pareja que reparte esa coartada a la mitad de sus lectores está haciendo lo contrario de lo que promete.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cierra la puerta a la única pregunta que sirve. Si la diferencia es de planeta, no hay nada que examinar; si es una costumbre aprendida en una familia concreta durante veinte años, entonces se puede mirar de dónde viene, qué función cumplía y qué pasa si se cambia. Lo segundo es trabajoso y es lo único que produce algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba de que el marco sobra es que todos sus consejos funcionan sin él. Avisar de cuánto vas a tardar, preguntar si quieren ayuda o compañía, pedir en voz alta y quitar los adverbios absolutos: ninguna de esas cuatro cosas necesita que existan dos planetas para ser una buena idea.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si una conducta es tu naturaleza, no hay nada que hablar; si es una costumbre aprendida, se puede mirar de dónde viene.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que sí se ha medido de las diferencias entre hombres y mujeres es bastante menos de lo que se cuenta",
+      },
+      {
+        b: "texto",
+        texto:
+          "Como el libro afirma constantemente cosas sobre cómo son unos y otras, conviene poner al lado lo que sale al medirlo. La revisión de Janet Hyde de 2005 reunió cuarenta y seis metaanálisis previos, que a su vez agrupaban miles de estudios, y clasificó el tamaño de cada diferencia encontrada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado fue que en alrededor de tres cuartas partes de los rasgos psicológicos examinados la diferencia entre hombres y mujeres era pequeña o inexistente. Eso incluye la mayor parte de las capacidades verbales, matemáticas, de liderazgo, de razonamiento moral y de autoestima, que son justamente los territorios donde más tópicos circulan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa última frase es la que hay que retener y no está en ninguna página de este libro. Aunque exista una diferencia entre las medias de dos grupos, decir algo sobre la persona concreta que se tiene delante a partir de esa media es un error de razonamiento, porque las dos distribuciones se solapan casi por completo. La media describe al grupo y no describe a nadie en particular.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa última frase es la que hay que retener y no está en ninguna página de este libro. Aunque exista una diferencia media entre dos grupos, decir algo sobre la persona que se tiene delante a partir de esa media es un error de razonamiento, porque las dos distribuciones se solapan casi por completo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Aunque haya una diferencia media entre dos grupos, no dice casi nada sobre la persona concreta que tienes delante.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro instrucciones y ninguna necesita la teoría: avisar de cuándo vuelves antes de retirarte, preguntar si quieren ayuda o compañía antes de dar una solución, pedir las cosas en voz alta en vez de esperar que se adivinen, y quitar «siempre» y «nunca» de las quejas. Cuatro frases que evitan cuatro discusiones por semana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en su premisa entera. La idea de que hombres y mujeres funcionan como dos poblaciones distintas no sale de ninguna investigación: es un recurso literario presentado como un hecho. Y lo que se ha medido apunta al revés: en la mayoría de los rasgos psicológicos las diferencias entre los dos grupos son pequeñas y la variación dentro de cada uno es mucho mayor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla por lo que el marco produce. Explicar una conducta por el sexo de quien la tiene convierte una costumbre en una naturaleza, y una naturaleza no se examina ni se cambia; el libro reparte así una coartada muy cómoda a cualquiera que no quiera revisar cómo trata a su pareja. Tampoco contiene un solo estudio, ni una cifra, ni un seguimiento: son las impresiones de un terapeuta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después fue una industria. Gray publicó más de quince libros con el mismo título de partida —para el trabajo, para el dormitorio, para el divorcio, para empezar de nuevo—, montó cursos y consultas, y su metáfora se instaló en el idioma corriente hasta el punto de que hoy se usa para explicar conductas de gente que no ha leído el libro. Su premisa, mientras tanto, no ha ganado ningún apoyo empírico en treinta años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Sus consejos funcionan sin la teoría, y la teoría sirve sobre todo para no tener que revisar nada.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "hombres-marte-mujeres-venus": HOMBRES_MARTE,
   "metodo-wim-hof": METODO_WIM_HOF,
   "frida-herrera": FRIDA_HERRERA,
   "cumbres-borrascosas": CUMBRES_BORRASCOSAS,

@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "hombres-marte-mujeres-venus": [
+    "qué decir antes de retirarte para que no se lea como castigo",
+    "qué preguntar antes de proponerle a alguien una solución",
+    "por qué esperar que lo adivinen acaba pasando factura",
+    "qué le hacen a una queja las palabras «siempre» y «nunca»",
+    "qué se sabe de verdad de las diferencias entre hombres y mujeres",
+  ],
+
   "metodo-wim-hof": [
     "de dónde vienen las ganas de respirar, que no es del oxígeno",
     "por qué esta técnica no se hace nunca dentro del agua",

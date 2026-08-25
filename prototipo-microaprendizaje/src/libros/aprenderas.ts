@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "hombres-marte-mujeres-venus":
+    "Cincuenta millones de ejemplares construidos sobre una metáfora que su autor presenta como un hecho. Debajo hay cuatro instrucciones de conversación que funcionan, y una premisa que la investigación no respalda.",
+
   "metodo-wim-hof":
     "En 2014, doce voluntarios entrenados diez días en este método resistieron mejor una inyección de endotoxina que doce sin entrenar. Aquello rompió una creencia previa: que la respuesta inflamatoria no se podía influir a voluntad.",
 
