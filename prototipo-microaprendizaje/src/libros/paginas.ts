@@ -71486,7 +71486,276 @@ const POR_QUE_AMAMOS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Will, en ocho páginas.
+
+   Breve. Biografía → apartado 3 bis: título corto de imagen en el rótulo y
+   la afirmación en la primera frase de la página.
+
+   PERO la caja va en TERCERA persona, como en MALCOLM_X, por el apartado
+   4 bis: es un libro que arranca con violencia doméstica real vista por un
+   niño de nueve años, y una caja que le hable de tú al lector convierte eso
+   en un lema.
+
+   Riesgo principal: la promoción. Es una autobiografía de estrella escrita
+   con un autor de superación personal, y tiene la forma de esos libros:
+   herida, mecanismo, revelación, final. Hay que contar las escenas y no la
+   estructura.
+
+   Y la conclusión LO DICE: se publicó en noviembre de 2021 y cuatro meses
+   después pasó lo de los Óscar. Es el caso más claro del catálogo de por
+   qué la regla 5 incluye lo que ocurrió después de publicarse.
+   -------------------------------------------------------------------------- */
+
+const WILL_SMITH: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un pasillo en Filadelfia Oeste" },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con la escena que su autor considera el origen de todo lo demás. Tenía nueve años y vio a su padre golpear a su madre en un lado de la cabeza con tanta fuerza que ella cayó al suelo escupiendo sangre. Él estaba allí, mirando, y no hizo nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que escribe a continuación es la tesis del libro y está en las primeras páginas: dentro de él vive un cobarde. Sostiene que todo lo que ha hecho desde entonces —el encanto permanente, la necesidad de gustar a todo el mundo, la obsesión por ser el hombre más famoso del planeta— se levantó encima de aquella vez que se quedó quieto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro está escrito con Mark Manson, autor de manuales de superación personal, y eso se nota en la forma: hay una herida, un mecanismo que sale de ella y una explicación que ordena una vida entera. Conviene leerlo sabiéndolo, porque las vidas no vienen con esa estructura puesta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue son las escenas, que es lo que hay de verdad aquí: un muro de ladrillos que dos niños tardaron año y medio en levantar, un padre que hacía las dos cosas a la vez, una fórmula para elegir películas, una deuda que lo dejó sin nada, una fiesta de cumpleaños que era para él, y una hija que se rapó la cabeza para salir de la máquina.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que a alguien le parece el origen de su vida entera es una interpretación suya, y conviene leerla como tal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ladrillo a ladrillo" },
+      {
+        b: "texto",
+        texto:
+          "La historia más citada del libro es un castigo. Su padre, que tenía un negocio de hielo, derribó el muro de ladrillo de la fachada y les encargó a sus dos hijos, de doce y nueve años, que lo levantaran otra vez. Sin plazo, sin ayuda y sin discusión. Tardaron año y medio, trabajando después del colegio y los fines de semana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando terminaron, año y medio después, su padre les dijo la frase que Will ha repetido en entrevistas durante treinta años: que no volvieran a decirle nunca que había algo que no podían hacer. El muro sigue en pie en la fachada de aquel local de Filadelfia, y el libro lo usa como la lección práctica que ordena su carrera entera, desde la música hasta las películas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando terminaron, su padre les dijo la frase que Will ha repetido toda su vida: que no volvieran a decirle nunca que había algo que no podían hacer. El muro sigue en pie, y el libro lo usa como la lección práctica que ordena su carrera entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que la hace utilizable fuera de una autobiografía es que no es una arenga, es un cambio de unidad de medida. Un objetivo grande mirado entero paraliza porque no se puede empezar por ningún sitio; el mismo objetivo mirado como el trozo que se hace hoy sí tiene un principio. La cuenta atrás no se mira, se mira el ladrillo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un objetivo grande no se puede empezar porque no tiene principio; el trozo de hoy sí lo tiene.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El padre que hacía las dos cosas" },
+      {
+        b: "texto",
+        texto:
+          "Lo mejor del libro es que se niega a resolver a su padre. Daddio fue un hombre que pegaba a su mujer, bebía y aterrorizaba a la casa, y fue también un empresario que no faltó un solo día al trabajo en décadas, que enseñó a sus hijos a instalar equipos de refrigeración y que les inculcó una disciplina que Will atribuye a su carrera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las dos cosas están en el libro sin jerarquía, sin que una anule a la otra y sin la frase que uno espera —que en el fondo era buena persona, o que en el fondo no lo era—. Will se limita a dejar el retrato completo encima de la mesa y a decir que le debe muchísimo y que no le perdona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una escena que remata el asunto. Ya viejo y enfermo, en silla de ruedas, su padre depende de él para todo, y Will describe con detalle el momento en que se le pasó por la cabeza empujarlo por unas escaleras. No lo hace, y lo cuenta sin adornar, que es la parte que casi ningún libro de este tipo se atreve a escribir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese capítulo es la respuesta a una idea muy extendida sobre el perdón, que en los libros de superación se presenta como un trámite necesario. Aquí no hay perdón y hay cuidado: le atendió hasta el final. Las dos cosas caben a la vez y ninguna cancela a la otra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se puede deberle mucho a alguien y no perdonarle nada, y ninguna de las dos cosas anula a la otra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Diez de diez, nueve de diez, ocho de diez" },
+      {
+        b: "texto",
+        texto:
+          "El pasaje que más se ha aprovechado fuera del cine es una decisión de método. A principios de los noventa, Will y su socio James Lassiter se sentaron a estudiar las diez películas más taquilleras de la historia hasta entonces, no para inspirarse, sino para contar qué tenían en común.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Salieron tres cosas y las contaron así: diez de diez tenían efectos especiales, nueve de diez tenían efectos especiales y criaturas, y ocho de diez tenían efectos especiales, criaturas e historia de amor. Con eso se fabricaron un criterio para elegir guiones, y los siguientes diez años de su carrera salen de ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta también el fallo del método, que lo tuvo y bien gordo. En 1999 eligió una película que encajaba perfectamente con la fórmula —efectos, criaturas y una historia de amor— y rechazó por ella un guion raro de dos hermanos entonces desconocidos, que resultó ser «Matrix». La suya fue un desastre de crítica. Un criterio bueno acierta de media y no acierta siempre, y eso también hay que contarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta también el fallo del método, que lo tuvo. En 1999 eligió una película que encajaba con la fórmula y rechazó por ella un guion raro de dos hermanos desconocidos, que resultó ser «Matrix». La suya fue un desastre. Un criterio bueno acierta de media y no acierta siempre, y eso también hay que contarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En un oficio donde todo el mundo decide por intuición, sentarse a contar qué funciona es una ventaja casi gratis.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El primer éxito llegó con la música, junto a su amigo y disc-jockey Jeff Townes. En 1989 ganaron el primer premio Grammy de la historia en la categoría de rap, que se creaba aquel año; la organización decidió no emitir la entrega de ese galardón por televisión, y varios de los nominados boicotearon la ceremonia por ese motivo. Él tenía veinte años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer éxito llegó con la música, junto a DJ Jazzy Jeff. En 1989 ganaron el primer premio Grammy de la historia en la categoría de rap, un galardón que la organización no quiso emitir por televisión y que varios de los nominados boicotearon por ese motivo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y después llegó la parte que el libro cuenta con detalle porque le enseñó más: se gastó todo. Coches, casas, regalos, un tren de vida sin ninguna previsión, y sin pagar impuestos por el camino. Cuando Hacienda hizo cuentas, la deuda rondaba los dos millones ochocientos mil dólares y le embargaron lo que tenía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Salió de ahí con una serie de televisión que empezó en 1990, «El príncipe de Bel-Air», que aceptó estando embargado y sabiendo que una parte grande de cada cheque iba a ir directa a la deuda antes de llegar a sus manos. Trabajó varios años con ese descuento aplicado de antemano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lección que saca no es sobre dinero, y por eso es mejor de lo que parece: dice que ninguna cantidad de éxito arregla un problema de administración, porque un ingreso mayor sobre el mismo desorden produce un agujero mayor y no uno menor. La suma no se resuelve ganando más.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un ingreso mayor sobre el mismo desorden produce un agujero mayor: ganar más no arregla nunca un problema de administración.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La fiesta que era para él" },
+      {
+        b: "texto",
+        texto:
+          "Los capítulos sobre su matrimonio son los más incómodos y los más honrados. La tesis que sostiene es que el mismo mecanismo que lo hizo enorme como artista —controlarlo todo, encargarse de que todo el mundo esté contento, no permitir que nada se salga del plan— lo convirtió en un marido difícil de aguantar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena que lo resume es un cumpleaños. Le organizó a su mujer una fiesta descomunal, con meses de preparación, un espectáculo entero montado alrededor de su vida. Ella lo detestó. Y él tardó años en entender por qué: aquella fiesta no era para ella, era una demostración de lo que él era capaz de organizar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hay debajo es una confusión que no es solo suya. Hacer cosas grandes por alguien puede ser generosidad y puede ser una manera de no preguntarle qué quiere, porque preguntar deja el control en el otro lado. Cuanto más espectacular es el gesto, menos espacio deja para que la otra persona diga que no le apetece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí está también el límite del libro. Todo esto se cuenta desde un solo lado: su mujer, su primera mujer y su madre aparecen como personajes de su relato sobre sí mismo, y no tienen ocasión de contestar. Que él se retrate mal no convierte la versión en completa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un gesto muy grande puede ser generosidad o puede ser una manera de no preguntar, y cuanto más grande es, menos deja contestar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La niña que se rapó la cabeza" },
+      {
+        b: "texto",
+        texto:
+          "El episodio que Will señala como el que lo obligó a parar tiene que ver con su hija. Con once años, Willow había sacado una canción que funcionó en todo el mundo y estaba metida en una gira larga que él había organizado, con el calendario cerrado y los contratos firmados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un día se afeitó la cabeza. No lo discutió, no lo pidió y no lo avisó: hizo la única cosa que hacía imposible seguir con la gira tal como estaba planteada. Will lo entendió enseguida, y cuenta que aquello le enseñó más sobre lo que había construido que ninguna conversación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro saca de ahí la única conclusión organizativa que contiene, y sirve fuera de una familia famosa y fuera de una casa: cuando alguien de tu alrededor solo puede negarse haciendo algo drástico e irreversible, es que llevaba mucho tiempo sin poder negarse de ninguna otra manera. Eso no es un problema de esa persona ni una salida de tono suya: es información sobre cómo estaba montado todo lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro saca de ahí la única conclusión organizativa que contiene, y sirve fuera de una familia famosa: cuando alguien de tu alrededor solo puede negarse haciendo algo drástico, es que llevaba tiempo sin poder negarse de ninguna otra manera, y eso no es un problema suyo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si alguien solo puede negarte algo haciendo una cosa drástica, es que llevaba tiempo sin poder negarse de otra manera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son tres cosas, y ninguna necesita que a uno le interese el personaje. El muro: un objetivo grande no tiene por dónde empezarse y el trozo de hoy sí. El recuento de las diez películas: contar qué funciona en un oficio donde nadie cuenta es una ventaja enorme. Y la observación de que ningún ingreso arregla un problema de administración, solo lo amplía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la forma. Es una autobiografía escrita con un autor de superación personal, y tiene la estructura de esos libros: una herida en la infancia, un mecanismo que sale de ella, una revelación y un hombre que al final ha entendido. Las vidas no llevan esa forma puesta, y cada vez que el libro la impone se nota el andamio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla por ser una sola voz. Su padre, su madre, sus dos mujeres y sus hijos son personajes de la historia que él cuenta sobre sí mismo. Que se retrate a sí mismo con dureza —y lo hace— no convierte su versión en completa, y el libro nunca deja claro qué es un recuerdo y qué es una explicación construida treinta años después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pero lo decisivo es lo que pasó después, y no hay en este catálogo un caso más claro. El libro se publicó en noviembre de 2021 y su tesis es que dentro de él vive un cobarde que a los nueve años no protegió a una mujer. El 27 de marzo de 2022, en la ceremonia de los Óscar y en directo, subió al escenario y abofeteó a un presentador que había hecho una broma sobre su mujer. Veinte minutos después recogió el premio al mejor actor. Dimitió de la Academia y se le prohibió asistir a sus actos durante diez años. Un libro que explica una vida entera por una vez que no se movió no se puede leer igual desde entonces.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Explica una vida entera por una vez que no se movió, y cuatro meses después de publicarse se movió delante de todo el mundo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "will-smith": WILL_SMITH,
   "por-que-amamos": POR_QUE_AMAMOS,
   "poder-5-segundos": PODER_5_SEGUNDOS,
   "obtenga-el-si": OBTENGA_EL_SI,

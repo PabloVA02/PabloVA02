@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "will-smith": [
+    "por qué un objetivo grande no tiene por dónde empezarse",
+    "qué se gana al contar lo que funciona en un oficio donde nadie cuenta",
+    "por qué ganar más nunca arregla un problema de administración",
+    "cuándo un gesto muy grande deja de dejar sitio al otro",
+    "qué significa que alguien solo pueda negarse haciendo algo drástico",
+  ],
+
   "por-que-amamos": [
     "en qué se diferencia un impulso de una emoción, y por qué importa",
     "por qué desear, enamorarse y encariñarse son tres cosas separadas",
