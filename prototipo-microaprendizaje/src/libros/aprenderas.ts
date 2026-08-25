@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  perfume:
+    "Jean-Baptiste Grenouille nace en 1738 bajo un puesto de pescado de París con la mejor nariz que ha existido y ningún olor propio. Lo segundo es el eje de la novela, y se tarda doscientas páginas en entenderlo.",
+
   "oceano-azul":
     "El Cirque du Soleil quitó los animales y las estrellas, que eran las dos partidas más caras de un circo, y con lo ahorrado puso argumento y música. Costaba menos que un circo, valía más y cobraba como un teatro.",
 

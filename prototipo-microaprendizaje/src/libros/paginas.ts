@@ -80489,7 +80489,270 @@ const OCEANO_AZUL: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El perfume, en ocho paginas.
+
+   Breve. NARRATIVA -> apartado 3 bis: titulo corto de imagen en el rotulo, de
+   tres a cinco palabras, y la AFIRMACION en la primera frase de la pagina. La
+   caja del rayo habla en segunda persona y saca de la escena una leccion, que
+   es el modelo de La Odisea.
+
+   Y apartado 4 bis: de una novela hay que contar lo que casi nadie cuenta, no
+   lo que todo el mundo sabe. Aqui lo sabido es que va de un asesino con buen
+   olfato. Lo que casi nadie sabe: que Grenouille no huele a nada, que ese es el
+   eje del libro entero, y que la novela transcurre a proposito en el siglo de
+   la razon para hablar del unico sentido que la razon no sabe manejar.
+
+   La conclusion dice donde falla: las veinticinco muchachas asesinadas no
+   tienen vida ni casi nombre, y estan puestas como material de trabajo. En 1985
+   eso paso desapercibido y hoy es lo primero que se ve.
+   -------------------------------------------------------------------------- */
+
+const PERFUME: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El niño que no olía a nada" },
+      {
+        b: "texto",
+        texto:
+          "Todo el mundo recuerda esta novela como la de un asesino con un olfato prodigioso, y ese no es su asunto. Jean-Baptiste Grenouille nace en 1738 bajo un puesto de pescado del cementerio de los Inocentes de París, en el sitio más maloliente de la ciudad más maloliente de Europa, y nace con dos cosas raras: la mejor nariz que ha existido y ningún olor propio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo segundo es el eje del libro y se tarda doscientas páginas en entenderlo. Los perros no lo huelen. Las nodrizas lo devuelven sin saber explicar por qué. La gente que está con él se siente incómoda y no sabe de qué. Patrick Süskind construye toda la novela sobre esa falta, y no sobre el don, que es solo la herramienta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su madre, que ya había dejado morir a cuatro criaturas entre los desperdicios del puesto, intenta hacer lo mismo con esta. El niño grita, la detienen y la ejecutan a las pocas semanas. Es la primera muerte del libro y la causa Grenouille sin querer, cuando tiene minutos de vida. Después vendrán muchas más y ya no será sin querer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué el olfato es el sentido que la razón nunca supo tratar, qué aprende Grenouille del perfumista que lo emplea, qué descubre en siete años metido en una cueva, para qué necesita a veinticinco muchachas de Grasse, qué pasa en la plaza donde iban a ejecutarlo y cómo termina un libro que casi nadie recuerda bien.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay algo tuyo que los demás notan sin poder nombrarlo, y decide cómo te tratan más que todo lo que dices.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una nariz en el siglo de la razón" },
+      {
+        b: "texto",
+        texto:
+          "Süskind sitúa la novela a propósito en la Francia del siglo XVIII, la del racionalismo y la Enciclopedia, para hablar del único sentido que ese siglo no supo dónde colocar. El olfato no se puede medir, no se puede dibujar y apenas se puede nombrar: el español, como el francés, no tiene palabras propias para los olores y los describe siempre por comparación con la cosa que huele.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La novela se detiene en esa carencia y la convierte en argumento. Para el gusto hay dulce, salado, amargo; para el color hay cientos de nombres. Para el olor solo hay «huele a». Grenouille es el único que tiene el vocabulario completo, y lo tiene por dentro, en forma de memoria: puede recordar decenas de miles de olores y combinarlos en la cabeza como quien compone música.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está la afirmación incómoda del libro. El olor entra sin permiso y sin pasar por el juicio: nadie decide si un olor le gusta, lo sabe antes de pensarlo. Süskind lo dice sin adornos: quien domina el olor de una persona domina a esa persona, porque llega a un sitio donde la razón no está de guardia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El París que describe es una prueba constante de eso. Calles que apestan a estiércol, iglesias que apestan a muertos, reyes que apestan como animales viejos. Toda la novela empieza con esa descripción y no es ambientación: está enseñando que en aquel mundo el olor era información y todo el mundo la usaba sin darse cuenta de que la usaba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que decides con la cabeza llega tarde. Muchas cosas las has decidido antes de pensarlas, y no sabrías explicar con qué.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El aprendiz que vació al maestro" },
+      {
+        b: "texto",
+        texto:
+          "El primer tramo de la vida adulta de Grenouille cuenta algo que se le escapa a mucha gente: el talento sin oficio no sirve de nada. Trabaja de peón en una tenería, en un trabajo que mata a los hombres en pocos años, hasta que consigue entrar en el taller del perfumista Giuseppe Baldini, un veneciano venido a menos que vive de fórmulas ajenas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena en que se conocen es la mejor del libro. Baldini le pone una prueba y Grenouille, que no sabe leer ni escribir ni ha visto nunca una balanza, reproduce un perfume de la competencia echando los frascos a ojo, sin medir, y después lo mejora. Baldini se queda mirando y comprende que ese chico sucio sabe algo que él no ha sabido nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Grenouille quiere de él no es dinero ni sitio: quiere el método. Baldini le enseña la destilación, que es la manera de sacar el olor de una cosa y guardarlo, y ahí el chico descubre el límite de esa técnica: sirve para las flores y no sirve para el hierro, ni para el vidrio, ni para las personas. Ese límite es el argumento de todo lo que viene después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando ya no le queda nada que aprender, se va. Deja a Baldini centenares de fórmulas y el hombre se muere esa misma noche, cuando la casa donde vivía, en un puente del Sena, se derrumba al río con él dentro. Süskind mata a todos los que se cruzan con Grenouille, y siempre después de haberle dado lo que tenían.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El talento sin oficio no llega a ninguna parte. Lo que hay que ir a buscar de alguien que sabe es su método, no su aprobación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Siete años dentro de la montaña" },
+      {
+        b: "texto",
+        texto:
+          "El centro de la novela es un capítulo en el que no pasa nada, y es el que la sostiene entera. Camino del sur, Grenouille descubre que el olor de los seres humanos le repugna hasta la náusea, se mete en una cueva del Plomb du Cantal, en el macizo central francés, y se queda allí siete años sin ver a nadie, comiendo lagartos y bebiendo agua de lluvia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante esos años vive dentro de su memoria. Recorre los olores que ha guardado como quien recorre una bodega, los combina, se emborracha con ellos, se construye un reino entero de aromas donde es emperador. Süskind lo cuenta como una ebriedad y no como una locura, y es la parte más extraña y más hermosa del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y un día, en ese palacio imaginario, busca su propio olor y no lo encuentra. Ha guardado el de cientos de miles de cosas y de él no hay nada. La escena es un ataque de pánico de varias páginas, y de ahí sale todo lo que hará después: no mata para oler bien, mata para existir a la nariz de los demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sale de la cueva medio muerto, con la piel comida y la ropa deshecha, y baja a buscar la manera de fabricarse un olor humano. Los siete años no le han enseñado nada nuevo sobre perfumería. Le han enseñado lo que le falta, y eso, en esta novela, es infinitamente más peligroso que cualquier técnica.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Estar mucho tiempo solo no te enseña cosas nuevas: te enseña lo que te falta. Y esa es la información que después gobierna todo lo demás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El catálogo de las muchachas" },
+      {
+        b: "texto",
+        texto:
+          "En Grasse, la capital de la perfumería francesa, Grenouille aprende la técnica que le faltaba: el enfleurage, que consiste en atrapar el aroma de las flores más delicadas en grasa fría, sin calor, porque el calor lo destruye. Es un método real y se usaba de verdad para el jazmín y el nardo. Grenouille comprende enseguida que funcionaría igual con una persona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ahí la novela se convierte en un trabajo de laboratorio contado con frialdad, y ese tono es deliberado. Asesina a veinticinco muchachas jóvenes, les rapa el pelo, las envuelve en paños untados de grasa y recoge después el olor. No hay violencia sexual ni ensañamiento: las mata de un golpe y trabaja deprisa, como quien recolecta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Süskind escribe esas páginas sin ninguna emoción, y el efecto es peor que si las escribiera con horror. Para Grenouille las muchachas no son personas: son materia prima con un aroma que se echará a perder si tarda. La última que necesita es Laure Richis, hija del hombre más rico de la ciudad, y su padre pasa la novela entera intentando salvarla sin lograrlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí está lo que separa este libro de una novela de crímenes. Grenouille no busca placer ni venganza ni poder sobre esas mujeres. Busca una fórmula, y la fórmula es un olor humano que él no tiene. Todo el horror del tramo nace de que su motivo es, en su cabeza, perfectamente razonable y perfectamente técnico.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien te trata como un medio para algo, no hace falta que te odie. Basta con que su objetivo le parezca razonable.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La plaza que se arrodilló" },
+      {
+        b: "texto",
+        texto:
+          "La escena más famosa del libro es también la más incómoda de explicar. Grenouille es detenido, confiesa y lo condenan a morir en la plaza de Grasse ante diez mil personas. Sube al patíbulo con una gota del perfume que ha fabricado con las veinticinco muchachas puesta en la ropa. Y la multitud, que había ido a verlo morir, se derrumba de amor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurre después es una orgía de la ciudad entera, contada con una mezcla de solemnidad y burla. El verdugo se arrodilla. El padre de Laure Richis, que llevaba meses buscando al asesino de su hija, lo abraza y le pide que sea su hijo. Nadie puede resistirse, porque nadie está decidiendo nada: el perfume entra por donde no hay juicio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y en medio de esa adoración total, Grenouille descubre lo único que no había previsto. No siente nada. Está siendo amado por diez mil personas y le da asco, porque sabe que no le aman a él —él sigue sin oler a nada— sino a una mezcla que lleva encima. Ha conseguido exactamente lo que quería y resulta que no valía nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está la afirmación central de la novela, y por eso el libro no es una fantasía de poder. Un amor que se puede fabricar deja de ser amor en el momento en que sabes cómo se fabrica. Grenouille es el único ser humano de la historia que ha sido adorado sin límite, y es el único que sabe con certeza que la adoración no significa nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El cariño que consigues manipulando no te alimenta, porque eres justo la persona que sabe cómo lo has conseguido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Devorado por amor" },
+      {
+        b: "texto",
+        texto:
+          "El final es lo que casi nadie recuerda de este libro y es lo que le da sentido. Grenouille no huye a fundar un reino ni a gobernar a nadie. Vuelve andando a París, al cementerio de los Inocentes, al puesto de pescado donde nació, y allí se echa por encima el frasco entero delante de un grupo de mendigos y ladrones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los mendigos se le abalanzan enloquecidos de amor y lo despedazan y se lo comen. En media hora no queda nada de él. Después se miran unos a otros, avergonzados, y Süskind cierra la novela con una frase que lo pone todo del revés: por primera vez en su vida habían hecho algo por amor, y estaban orgullosos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es un suicidio y hay que leerlo así. Grenouille ha comprobado que puede tener todo el amor del mundo y que ese amor no lo alcanza, porque no va dirigido a él. Como no existe para los demás y ya no le interesa fingir que sí, se hace desaparecer del todo, y elige el sitio exacto donde su madre quiso dejarlo morir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El chiste final de la novela es el de los mendigos. La única vez que sienten amor verdadero en su vida, y es un amor de laboratorio; y el único acto de amor que cometen es devorar a un hombre. Süskind lleva doscientas páginas explicando que el olor manda sobre la razón, y remata enseñando lo que eso significa cuando alguien lo usa a fondo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ser querido por lo que finges no te quita la soledad. Te la confirma, porque solo tú sabes a quién están queriendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La novela sostiene tres cosas y las sostiene bien. Que el olfato manda sobre nosotros por debajo del pensamiento y sin que podamos siquiera nombrar lo que nos llega. Que a una persona sin presencia física reconocible se la trata como si no estuviera del todo. Y que un afecto que se puede fabricar deja de servir para quien conoce la fórmula, que es el castigo del protagonista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en las veinticinco muchachas. No tienen vida, ni casi nombre, ni una escena propia: entran en el libro para ser materia prima y salen convertidas en un frasco. Süskind lo hace a propósito, para que el lector vea el mundo desde la nariz de Grenouille, y el efecto es potente. Pero significa que el libro trata a sus víctimas exactamente igual que su asesino.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1985 casi nadie lo señaló, y hoy es lo primero que se ve. Se puede defender que la frialdad es la denuncia, y también se puede responder que una denuncia que no le concede a ninguna de las veinticinco una sola frase en primera persona se parece bastante a lo que denuncia. La novela es magnífica y ese hueco está ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después tiene su propia historia. El libro vendió más de veinte millones de ejemplares y se tradujo a decenas de idiomas, y Süskind hizo lo contrario de lo que hace un autor de superventas: se negó a dar entrevistas, rechazó premios y no volvió a publicar nada de ese tamaño. Tardó veintiún años en vender los derechos, y la película se estrenó en 2006.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Fíjate en lo que te hace confiar en alguien nada más verlo. Casi nunca es lo que dice, y casi nunca sabrías explicarlo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  perfume: PERFUME,
   "oceano-azul": OCEANO_AZUL,
   "ideas-que-pegan": IDEAS_QUE_PEGAN,
   "arte-no-amargarse": ARTE_NO_AMARGARSE,

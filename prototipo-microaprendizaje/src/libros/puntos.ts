@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  perfume: [
+    "por qué el olfato llega antes de que tu cabeza decida nada",
+    "qué te enseña estar mucho tiempo solo, que no es lo que parece",
+    "qué pasa cuando alguien te trata como material para su objetivo",
+    "por qué un cariño que sabes fabricar deja de alimentarte",
+    "qué hace la novela con sus víctimas, y por qué hoy se nota",
+  ],
+
   "oceano-azul": [
     "por qué elegir entre ser barato o ser bueno es una elección falsa",
     "qué se ve al dibujar en qué compite todo tu sector a la vez",
