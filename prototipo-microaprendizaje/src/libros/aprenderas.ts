@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "leyes-naturaleza-humana":
+    "En sus dos libros anteriores el lector era el que operaba y los demás el material. Este empieza diciéndole al lector que es irracional y narcisista, y solo después enseña a leer a los otros. Son dieciocho leyes con un caso histórico cada una.",
+
   "21-lecciones":
     "Publicado en 2018 y lleno de pronósticos, así que hoy se puede puntuar. Harari parte de que las tres grandes historias del siglo XX cayeron y no ha aparecido ninguna que las sustituya, y de ahí examina el trabajo, los datos y la escuela.",
 

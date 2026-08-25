@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "leyes-naturaleza-humana": [
+    "por qué sentir claridad especial suele significar lo contrario",
+    "qué mirar para juzgar a alguien, que no es lo que dice",
+    "las cuatro señales de quien va a costarte caro",
+    "por qué atacar una opinión de frente la refuerza",
+    "qué significa que algo de otro te irrite desproporcionadamente",
+  ],
+
   "21-lecciones": [
     "en qué se diferencia quedarse sin trabajo de dejar de hacer falta",
     "qué significa que un sistema acierte más que tu intuición",

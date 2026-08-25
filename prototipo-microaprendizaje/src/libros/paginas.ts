@@ -72312,7 +72312,295 @@ const VEINTIUNA_LECCIONES: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Las leyes de la naturaleza humana, en ocho páginas.
+
+   Breve. Es de seiscientas páginas y aun así va en Breve, por la primera
+   señal del apartado 2 ter: dieciocho leyes que son variaciones de tres o
+   cuatro ideas, con la misma estructura repetida dieciocho veces.
+
+   Libro práctico → afirmación entera en el rótulo y SEGUNDA PERSONA en la
+   caja (apartado 4.7).
+
+   Es el tercer Greene del catálogo, después de LEYES_PODER_48 y
+   ARTE_SEDUCCION, y el resumen tiene que decir en qué se diferencia: aquí
+   el primer sujeto de estudio es el lector y no los demás. En la conclusión
+   de «El arte de la seducción» ya quedó dicho que este parecía una
+   rectificación; hay que sostenerlo o corregirlo, no ignorarlo.
+
+   Y la conclusión trae lo que le pasó a Greene el mismo año de publicarlo.
+   -------------------------------------------------------------------------- */
+
+const LEYES_NATURALEZA_HUMANA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Es el libro en el que Greene deja de escribir para el manipulador y empieza por el lector",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robert Greene llevaba veinte años escribiendo manuales sobre cómo tratar a la gente. En «Las 48 leyes del poder», de 1998, y en «El arte de la seducción», de 2001, el lector es siempre el que opera y los demás son el material sobre el que se trabaja. Este libro, de 2018, empieza al revés.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su primera ley dice que el lector es irracional, y la segunda que es narcisista. No como advertencia general sobre la especie, sino en segunda persona y desde la primera página: antes de aprender a leer a nadie hay que aceptar que uno mismo decide por impulso y racionaliza después, y que exagera lo que le importa a los demás su propia persona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese cambio de sujeto es lo que hace distinto al libro y también lo que lo hace útil. Un manual para detectar manipuladores escrito por alguien que da por sentado que el lector es uno de ellos obliga a comprobar cada regla en dos direcciones, y ese es exactamente el ejercicio que ningún libro de este género propone.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué las emociones llegan antes que el razonamiento y qué hacer con eso, la única regla fiable para juzgar a alguien, cómo se detecta pronto a la persona que va a costar cara, dónde se ve la envidia con precisión, cómo se ablanda una resistencia, y qué pasa con lo que uno no se permite.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si un manual para detectar manipuladores no empieza contigo, te está enseñando a mirar en una sola dirección.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La emoción llega primero y el argumento se fabrica después para justificarla",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera ley sostiene algo que la psicología lleva décadas documentando: en la mayoría de las decisiones, la reacción emocional se produce antes de que empiece el razonamiento, y lo que llamamos razonar es a menudo construir la justificación de una postura que ya se había tomado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Greene señala que el problema no es tener emociones, que es inevitable, sino no notar que se está bajo el efecto de una. La ira, el miedo y sobre todo el resentimiento no se experimentan como emociones desde dentro: se experimentan como estar viendo la situación con una claridad especial, que es exactamente lo contrario de lo que ocurre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercer paso es el que casi nadie hace y el que más rinde con diferencia. Nadie tiene mil reacciones distintas: cada persona tiene tres o cuatro, siempre las mismas, disparadas siempre por lo mismo —que no le tengan en cuenta, que le corrijan delante de alguien, que le pongan un plazo—. Quien conoce las suyas puede reconocerlas al empezar, que es el único momento en que todavía se pueden gobernar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercer paso es el que casi nadie hace y el que más rinde. Nadie tiene mil reacciones distintas: cada uno tiene tres o cuatro, y siempre las mismas, ante los mismos disparadores. Alguien que conozca sus tres puede reconocerlas al empezar, que es el único momento en que todavía se pueden gobernar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando sientas que ves la situación con una claridad especial, casi siempre es que estás dentro de una emoción y no fuera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "A una persona se la juzga por lo que ha repetido, no por lo que promete",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla más práctica del libro es de las que se pueden aplicar mañana y ahorran años. Greene sostiene que el carácter de alguien no se descubre escuchándole hablar de sí mismo, porque en eso todo el mundo es sincero y todo el mundo se equivoca. Se descubre mirando lo que ha hecho más de una vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es que la conducta bajo presión no se elige: se repite. Quien ha dejado tres trabajos culpando cada vez a un jefe imposible, quien ha roto con todos sus socios anteriores por traiciones, quien ha tenido cuatro amistades que terminaron mal, está describiendo un patrón y no cuatro casualidades seguidas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La dificultad no está en entender la regla, que es evidente, sino en aplicarla cuando conviene lo contrario. Casi todo el mundo ve el patrón, es capaz de explicárselo a un amigo con toda claridad, y a continuación decide que en su caso será distinto porque la relación es distinta y porque esta vez hay confianza. Greene insiste en que ese razonamiento no es optimismo: es la manera educada de decidir no mirar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La dificultad no es entenderlo, es aplicarlo cuando conviene lo contrario. Casi todo el mundo ve el patrón, se lo explica, y decide que en su caso será distinto porque la relación es distinta. Greene insiste en que ese razonamiento no es optimismo: es la manera educada de decidir no mirar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mira cómo trata a quien no puede darle nada: con quien decide sobre él se comporta cualquiera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Al narcisista profundo se le detecta en la primera conversación si se sabe qué mirar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Greene coloca el narcisismo en una escala en la que estamos todos, y no en una categoría de personas raras. Lo que describe en un extremo es alguien que no tiene una imagen estable de sí mismo por dentro y necesita que se la suministren desde fuera continuamente, en dosis que nunca bastan.",
+      },
+      { b: "texto", texto: "Las señales que da son observables y se pueden comprobar en un café:" },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "No escucha", texto: "puede parecer atentísimo y no retiene nada: al rato hace una pregunta cuya respuesta le acabas de dar entera." },
+          { fuerte: "Todo vuelve", texto: "cualquier tema, por lejano que sea, regresa en dos frases a algo que le pasó a él." },
+          { fuerte: "Desproporción", texto: "una crítica menor, o incluso un desacuerdo tibio, produce una reacción que no encaja con el tamaño del asunto." },
+          { fuerte: "Un rastro de traiciones", texto: "tiene una lista larga de gente que se portó mal con él, y ninguna versión en la que él hiciera algo." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "La cuarta es la más fiable y la que menos se usa. Todo el mundo tiene alguna historia de haber sido tratado injustamente; nadie sano tiene ocho seguidas en las que además siempre fue el único bueno. Esa lista, contada como muestra de mala suerte, es en realidad el resumen del patrón de la página anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y Greene añade la advertencia que salva el capítulo de ser un juego de etiquetar a otros: quien lea esto va a reconocer a tres personas de su entorno inmediatamente y va a tardar mucho más en preguntarse cuál de esas señales da él. La rapidez de lo primero es en sí misma una de las señales.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una lista larga de gente que se portó mal con alguien, sin una sola versión en la que él hiciera algo, es el dato.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La envidia se ve en el segundo exacto en que das una buena noticia" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre la envidia parte de una dificultad: es la única emoción que casi nadie confiesa, ni siquiera a sí mismo. Se puede admitir en público que se siente ira, miedo, deseo o tristeza; admitir envidia obliga a reconocer a la vez que se quiere algo y que otro lo tiene, y eso casi nadie lo dice.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso, sostiene Greene, no se detecta escuchando lo que la gente dice, sino mirando el instante anterior a que hable. La reacción sincera dura una fracción de segundo y aparece justo al recibir la noticia; lo que viene después —la enhorabuena, la sonrisa, las preguntas— ya está compuesto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene poner aquí el aviso que el libro pone demasiado tarde. Todos estos indicios son ambiguos: una cara rara puede ser envidia y puede ser un mal día, un dolor de espalda o una preocupación que no tiene nada que ver contigo. Construirse una teoría sobre la deslealtad de alguien a partir de un gesto de medio segundo es exactamente el tipo de error que este libro dice combatir. Sirven para mirar, no para concluir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene poner aquí el aviso que el libro pone tarde. Todos estos indicios son ambiguos: una cara puede ser envidia y puede ser un mal día, y construirse una teoría sobre la deslealtad de alguien a partir de un gesto de medio segundo es exactamente el tipo de error que este libro dice combatir. Sirven para mirar, no para concluir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que alguien siente de verdad ante tu buena noticia aparece antes de que abra la boca, y lo demás ya está compuesto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La resistencia de alguien se ablanda confirmando la imagen que tiene de sí mismo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una de las leyes más aprovechables trata de por qué convencer a alguien de frente casi nunca funciona. Greene sostiene que cuando se ataca la opinión de una persona, esa persona no está defendiendo la opinión: está defendiendo la idea que tiene de sí misma como alguien inteligente, autónomo y de buen criterio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su método, que consiste en no tocar esa imagen. Todo el mundo se considera independiente, decente e inteligente, y un argumento que empiece confirmando eso encuentra la puerta abierta, mientras que uno que la ponga en duda —aunque tenga razón— provoca que el otro se atrinchere en la postura que iba a abandonar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La versión práctica es de conversación. Pedir consejo antes que dar una opinión. Reconocer en voz alta lo que la otra postura tiene de razonable antes de discrepar. Dejar que la conclusión la formule el otro, aunque cueste una tarde, porque una idea que alguien cree haber sacado él no se abandona con facilidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí hay que decir lo que el libro no dice: esto es una técnica de influencia y funciona igual en las dos direcciones. Quien empieza una conversación confirmándote muy hábilmente lo listo y lo independiente que eres puede estar siendo cortés y puede estar aplicándote la página doscientos. La misma regla sirve de defensa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie defiende su opinión: defiende la idea que tiene de sí mismo, y por eso atacarla de frente la refuerza.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que alguien no se permite acaba saliendo de lado" },
+      {
+        b: "texto",
+        texto:
+          "La ley de la represión toma de Carl Jung la idea de la sombra: la parte de uno mismo que no encaja con la imagen que quiere dar y que va quedando fuera. Ambición en quien se considera desinteresado, agresividad en quien se considera pacífico, vanidad en quien se considera humilde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Greene sostiene que eso no desaparece por no mirarlo, y que sale de otra manera. Las formas que describe son reconocibles: el comentario cruel dicho como broma, el olvido conveniente, la generosidad que se cobra después, el entusiasmo desproporcionado por corregir a alguien, la irritación fortísima ante un defecto ajeno que resulta ser el propio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que propone no es dar rienda suelta a nada, que sería el consejo contrario y peor, sino dejar de gastar energía en negarlo. Alguien que admite delante de sí mismo que es ambicioso puede decidir con calma qué hace con esa ambición y dónde la pone; alguien que insiste en que no lo es va a hacer exactamente las mismas cosas, peor hechas y contándose otra historia mientras las hace.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que propone no es dar rienda suelta a nada, sino lo contrario: dejar de gastar energía en negarlo. Alguien que admite que es ambicioso puede decidir qué hace con su ambición; alguien que insiste en que no lo es va a hacer las mismas cosas, peor y contándose otra historia mientras las hace.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando algo de otro te irrita muchísimo más de lo que el asunto merece, esa desproporción está señalando hacia dentro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Es el mejor libro de Greene y lo es por un cambio de dirección. Se lleva uno cuatro cosas: juzgar por el patrón y no por la promesa, mirar cómo trata alguien a quien no puede darle nada, la lista de traiciones como indicador, y la observación de que nadie defiende una opinión sino la idea que tiene de sí mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es donde falla siempre: en cómo demuestra. Greene argumenta con retratos históricos —Chéjov, Howard Hughes, Lyndon Johnson— elegidos después de haber formulado la ley y contados en la versión que encaja. Y cita psicología por encima: las neuronas espejo, que se han desinflado bastante desde el entusiasmo de los años dos mil, y las microexpresiones faciales, cuya fiabilidad para detectar lo que alguien esconde está seriamente discutida y en las pruebas de laboratorio anda cerca del azar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también por tamaño y por una ley concreta. Seiscientas páginas para dieciocho ideas que se solapan producen mucha repetición, y el capítulo sobre lo masculino y lo femenino se apoya en categorías junguianas que no tienen ningún respaldo empírico y desentona con el resto. Y queda en pie la advertencia de siempre: un manual para leer a la gente entrena también para verse patrones donde solo hay ruido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después tiene que ver con su última ley, que trata de mirar de frente la propia mortalidad. En 2018, el mismo año de la publicación, Greene sufrió un ictus grave que le dejó secuelas permanentes y lo dejó con la movilidad muy limitada. Ha contado en entrevistas que aquel capítulo, escrito meses antes, dejó de ser para él un ejercicio intelectual.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Es el único de sus libros que empieza por el lector, y eso es lo que lo hace utilizable en vez de peligroso.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "leyes-naturaleza-humana": LEYES_NATURALEZA_HUMANA,
   "21-lecciones": VEINTIUNA_LECCIONES,
   "millonario-automatico": MILLONARIO_AUTOMATICO,
   "will-smith": WILL_SMITH,
