@@ -30,7 +30,7 @@
 
 export const APRENDERAS: Record<string, string> = {
   "tiempo-entre-costuras":
-    "Una modista de Madrid deja a su novio por un vendedor de máquinas de escribir, se va con él a Tánger en 1936 y él la abandona embarazada, sin dinero y con una deuda enorme a su nombre. Lo único que conserva es que sabe coser.",
+    "Una modista deja a su novio por un vendedor de máquinas de escribir y se va con él a Tánger en 1936. Él la abandona embarazada, sin dinero y con una deuda a su nombre. Lo único que conserva es que sabe coser.",
 
   "juegos-hambre":
     "Collins ha contado que la idea le vino haciendo zapeo entre un concurso de telerrealidad y las imágenes de la guerra de Irak. En su país, cada distrito sortea dos adolescentes al año para que se maten en directo, y es obligatorio verlo.",
