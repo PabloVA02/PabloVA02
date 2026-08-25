@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "empieza-porque": "Cómo los grandes líderes inspiran a todos a la acción",
   relentless: "De bueno a excelente e imparable",
   "tal-como-eres": "La sorprendente ciencia que transformará tu vida sexual",
   "magia-pensar-grande": "Consigue lo que quieres desde donde estás",

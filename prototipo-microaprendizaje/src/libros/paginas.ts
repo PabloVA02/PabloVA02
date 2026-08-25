@@ -68402,7 +68402,296 @@ const CORRER_O_MORIR: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Empieza con el porqué, en ocho páginas.
+
+   Breve. Libro de empresa → afirmación entera en el rótulo y SEGUNDA PERSONA
+   en la caja (apartado 4.7).
+
+   ECONOMÍA, así que manda la regla de la categoría: ninguna página sin una
+   persona, una empresa o una fecha dentro, y el término técnico traducido y
+   definido la primera vez. Aquí eso son la curva de Rogers de 1962 y el
+   abismo de Moore de 1991.
+
+   Riesgo principal: repetir el eslogan. «La gente no compra lo que haces»
+   sale en todas partes y no dice nada; lo que hay que contar es el
+   mecanismo, la prueba del apio y la escisión.
+
+   Y la conclusión tiene que decir lo que casi ningún resumen dice: que la
+   neurociencia del libro es falsa, que el modelo del cerebro triple está
+   descartado desde hace décadas, y que la historia de los hermanos Wright
+   está arreglada.
+   -------------------------------------------------------------------------- */
+
+const EMPIEZA_PORQUE: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi todas las empresas explican lo que hacen y muy pocas explican por qué existen",
+      },
+      {
+        b: "texto",
+        texto:
+          "Simon Sinek parte de una observación de publicista y la convierte en un esquema de tres anillos que llama el círculo dorado. El anillo de fuera es el qué: el producto, el servicio, lo que se vende. El de en medio es el cómo: el proceso, la manera de hacerlo. Y el del centro es el porqué: para qué existe esa organización, aparte de ganar dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación es que casi todo el mundo comunica de fuera hacia dentro. Una empresa de ordenadores dice lo que fabrica, luego cómo de bien lo fabrica, y en ningún momento dice por qué. Eso produce mensajes correctos, comprensibles y que no mueven a nadie a hacer nada distinto de lo que ya iba a hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las pocas que lo hacen al revés, sostiene, empiezan por lo que creen y solo al final dicen qué venden. Su ejemplo es Apple reescrita: primero, que creen en cuestionar lo establecido; después, que lo hacen con productos bien diseñados y fáciles de usar; y de paso, que hacen ordenadores. El producto queda al final de la frase.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué ese orden cambia el efecto, la historia con la que Sinek lo demuestra y que conviene mirar dos veces, qué diferencia hay entre convencer y manipular, a cuánta gente hay que llegar de verdad, cómo se comprueba si una empresa cree lo que dice, y qué le pasa a un porqué cuando la empresa se hace grande.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si empiezas explicando lo que vendes, el que escucha ya ha decidido antes de llegar a lo importante.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El orden de las frases cambia el resultado, aunque los datos sean los mismos",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte comprobable del libro es esta y no necesita ninguna teoría detrás. Dos presentaciones con exactamente la misma información, cambiando solo el orden, no producen el mismo efecto. La que abre con la creencia y termina con el producto convence más que la que abre con las características.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación que da Sinek es de escucha: cuando alguien empieza por lo que vende, el que escucha entra en modo comparación y se pone a buscar alternativas mientras el otro sigue hablando. Cuando empieza por para qué lo hace, el que escucha primero decide si está de acuerdo, y solo después mira el producto, ya desde otro sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo contrario es TiVo, la empresa que en 1999 lanzó en Estados Unidos el primer grabador digital de televisión. Tenía un producto que nadie más tenía, dinero de inversores importantes y una cobertura de prensa enorme. Vendió mucho menos de lo previsto y perdió dinero durante años, y su publicidad enumeraba funciones: pausar la televisión en directo, saltarse los anuncios, grabar programas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El defecto de ese ejemplo es que un solo caso no demuestra nada: TiVo también tenía un aparato caro, un abono mensual y una función que las operadoras copiaron enseguida. Pero la observación sobre el orden se puede probar cualquier martes en una reunión, y esa parte del libro no depende de creerse ninguna historia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Di primero en qué crees y deja el producto para el final: quien escucha decide en ese orden.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La historia con la que demuestra su tesis es la más discutible del libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sinek la cuenta así. En 1903, Samuel Pierpont Langley intentaba volar con cincuenta mil dólares del Departamento de Guerra, un puesto en la Institución Smithsonian, los mejores ingenieros que pudo contratar y la prensa siguiéndole. En Dayton, Ohio, dos hermanos con una tienda de bicicletas trabajaban sin subvención y sin que ninguno tuviera un título universitario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 17 de diciembre de 1903, Orville y Wilbur Wright volaron. Langley abandonó poco después. La conclusión que saca Sinek es que Langley quería ser el primero y hacerse rico, y los Wright creían que aquella máquina cambiaría el mundo, y que esa diferencia de motivo explica el resultado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema es que la explicación técnica está disponible y es otra. Los Wright ganaron porque resolvieron el control en los tres ejes —alabeo, cabeceo y guiñada—, que era el problema que nadie había resuelto, y porque construyeron su propio túnel de viento y probaron en él más de doscientas formas de ala antes de subirse a ninguna. El aparato de Langley falló por motivos estructurales y de lanzamiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Que trabajaran con obsesión ayudó, seguro. Pero el relato tal como está contado sustituye una ventaja de ingeniería documentada por una diferencia de motivación, y esa sustitución es exactamente lo que hay que vigilar en este libro: la historia se elige después de la tesis y encaja demasiado bien.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando una historia encaja perfectamente con la tesis que la usa, conviene ir a buscar la explicación técnica.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Manipular funciona siempre y sale carísimo" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más útil del libro distingue dos maneras de conseguir que alguien haga algo, y las dos funcionan. Sinek llama manipulación a todo lo que actúa sobre la decisión de hoy sin cambiar nada de fondo, y enumera seis: el precio, las promociones, el miedo, la aspiración, la presión del grupo y la novedad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ninguna es un truco sucio y todas se usan a diario. El problema que señala es de contabilidad: cada una funciona una vez y hay que repetirla. Quien compró por precio se va con el siguiente que baje más; quien compró por una oferta espera la próxima; quien compró por miedo compra otra vez cuando vuelva a tener miedo, y no antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso claro es el descuento. Una rebaja sube las ventas del trimestre y enseña al cliente cuál es el precio que estaba dispuesto a pagar; a partir de ahí, el precio normal le parece caro. La empresa ha comprado ingresos de este mes con margen de todos los meses siguientes, y esa cuenta no aparece en el informe del trimestre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que propone en su lugar no es dejar de hacer promociones, que sería absurdo, sino saber cuál de las dos cosas se está haciendo. Una empresa que solo tiene manipulaciones necesita gastar más cada año para mantener las mismas ventas, y eso se puede ver en sus propias cuentas antes de que se note en la calle.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cada descuento compra ventas de este mes con margen de todos los meses que vienen.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No hay que convencer al mercado: hay que convencer al quince por ciento que ya está de acuerdo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí Sinek toma prestada una curva que no es suya y la usa bien. En 1962, el sociólogo Everett Rogers describió cómo se extiende una novedad en una población y repartió a la gente en cinco grupos según lo pronto que la adoptan: un dos y medio por ciento de innovadores, un trece y medio de adoptantes tempranos, dos mayorías del treinta y cuatro por ciento cada una, y un dieciséis por ciento de rezagados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La pieza que añadió Geoffrey Moore en 1991 es la importante: entre los adoptantes tempranos y la primera mayoría hay un hueco, que él llamó el abismo, donde se quedan casi todos los productos nuevos. Los primeros compran porque les gusta probar; la mayoría solo compra cuando ve que otros ya lo tienen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica que saca Sinek es de puntería. Intentar convencer directamente a la mayoría es caro e inútil, porque esa mayoría no compra por argumentos, compra por imitación. El trabajo consiste en llegar al quince o dieciocho por ciento que ya piensa como tú, porque esos compran por convicción y son los que después arrastran al resto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale una recomendación incómoda para cualquier empresa pequeña: hay que renunciar explícitamente a gustarle a todo el mundo. Un mensaje construido para no molestar a nadie no le sirve a ese primer quince por ciento, que es el único que estaba dispuesto a moverse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La mayoría no compra por argumentos, compra por imitación: tu trabajo es convencer a los pocos a los que imitarán.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un porqué no es una frase bonita: es un filtro que obliga a decir que no",
+      },
+      {
+        b: "texto",
+        texto:
+          "La mejor herramienta del libro se llama la prueba del apio y se explica en un minuto. Imagina que te aconsejan comprar galletas de chocolate, caramelos de colores, leche de arroz y apio. Si lo que de verdad te importa es la salud, sales del supermercado con la leche de arroz y el apio, y con nada más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace útil el ejemplo es la parte final: cualquiera que te vea en la cola, sin haber hablado contigo, sabe lo que crees. No hizo falta que lo dijeras. Un porqué de verdad no se comunica declarándolo, se comunica en lo que se compra, en a quién se contrata y sobre todo en lo que se rechaza teniéndolo delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí la prueba que propone para cualquier empresa que asegure tener un propósito: pedir la lista de las cosas que ha dejado de hacer por él. Un contrato que no se firmó, un cliente al que se dijo que no, un producto rentable que se retiró. Si esa lista está vacía, lo que hay es un cartel en la recepción.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es también la parte del libro que más se ignora, y se entiende por qué. Redactar una declaración de propósito es un ejercicio agradable de dos tardes; renunciar a un ingreso concreto por coherencia es una decisión que alguien tiene que defender delante del consejo con las cifras encima de la mesa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si no puedes nombrar algo rentable que rechazaste por lo que crees, todavía no crees nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cuando la empresa crece más que la voz del fundador, el porqué se pierde",
+      },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro describe un fenómeno que Sinek llama la escisión y que se puede fechar en muchas compañías. Mientras la empresa es pequeña, el porqué vive en una persona y se transmite hablando. A partir de cierto tamaño, esa persona ya no puede hablar con todo el mundo, y lo único que llega a los bordes de la organización son los números.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurre entonces es previsible. Como el qué se puede medir y el porqué no, la empresa empieza a dirigirse por lo que se mide. Las decisiones se vuelven comparaciones con la competencia, el producto se define por lo que hace el de al lado, y nadie recuerda para qué se montó aquello, aunque todos puedan recitar la frase del cartel.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su antídoto es organizativo y no motivacional: el porqué tiene que dejar de depender de una persona y quedar escrito en cómo se contrata, cómo se asciende y qué decisiones se aprueban. Sinek observa además que casi ningún fundador visionario funciona solo, y que suele haber al lado alguien que traduce eso en procesos, como Roy Disney junto a Walt.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El aviso es útil aunque el diagnóstico sea sencillo. Una empresa que ya solo compite en características tiene un problema estructural y no de márketing, y contratar una agencia para arreglarlo produce un anuncio nuevo y ningún cambio, que es lo que pasa casi siempre.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando lo único que llega a los bordes de una empresa son los números, la empresa se dirige sola hacia lo que se mide.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son tres cosas, y ninguna necesita creerse la teoría. Que el orden de una presentación cambia el resultado con la misma información. Que las promociones y el miedo funcionan hoy y encarecen mañana. Y la prueba del apio, que convierte un propósito en algo comprobable: enséñame lo que has rechazado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla, y es grave, es en el mecanismo. Sinek sostiene que su esquema coincide con la anatomía del cerebro: la corteza sería la parte racional que maneja el lenguaje, y el sistema límbico la parte que decide y siente pero no sabe hablar. Eso viene del modelo del cerebro triple que Paul MacLean propuso en los años sesenta, que la neurociencia descartó hace décadas: el sistema límbico ni siquiera es una unidad anatómica bien definida, y no existe ninguna separación limpia entre una zona que razona y otra que siente. El libro lo presenta como la prueba de todo lo demás, y no prueba nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla por selección. Todos los casos son empresas que triunfaron. No aparece ni una con un porqué clarísimo que quebrara, y hay miles; ni una sin ningún propósito que funcionara durante décadas, que son la mayoría. Con ese material no se puede saber si el propósito produjo el éxito o si el éxito permitió después contar una historia bonita sobre el propósito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después dice bastante. La charla de Sinek de 2009 se convirtió en una de las más vistas de la historia de las conferencias TED, y él publicó en 2017 «Encuentra tu porqué», un cuaderno de ejercicios que reconoce sin decirlo que el primer libro explicaba muy bien el qué y no explicaba el cómo. Y su caso central, Apple, lleva desde entonces siendo criticada precisamente por lo contrario de cuestionar lo establecido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La observación sobre el orden se puede probar mañana; la neurociencia con la que la justifica está descartada.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "empieza-porque": EMPIEZA_PORQUE,
   "correr-o-morir": CORRER_O_MORIR,
   relentless: RELENTLESS,
   "malcolm-x": MALCOLM_X,

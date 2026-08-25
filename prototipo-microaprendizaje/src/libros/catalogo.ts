@@ -352,7 +352,7 @@ export const CATALOGO: Ficha[] = [
   { id: "coach-silicon-valley", titulo: "El coach de Silicon Valley", autor: "Schmidt, Rosenberg y Eagle", ano: 2019, categoria: "Economía", estado: "pendiente" },
   { id: "promesa-lapiz", titulo: "La promesa de un lápiz", autor: "Adam Braun", ano: 2014, categoria: "Economía", estado: "pendiente" },
   { id: "quien-queso", titulo: "¿Quién se ha llevado mi queso?", autor: "Spencer Johnson", ano: 1998, categoria: "Economía", estado: "pendiente" },
-  { id: "empieza-porque", titulo: "Empieza con el porqué", autor: "Simon Sinek", ano: 2009, categoria: "Economía", estado: "pendiente" },
+  { id: "empieza-porque", titulo: "Empieza con el porqué", autor: "Simon Sinek", ano: 2009, categoria: "Economía", estado: "escrito" },
   { id: "millonario-automatico", titulo: "El millonario automático", autor: "David Bach", ano: 2004, categoria: "Economía", estado: "pendiente" },
   { id: "ciencia-hacerse-rico", titulo: "La ciencia de hacerse rico", autor: "Wallace D. Wattles", ano: 1910, categoria: "Economía", estado: "pendiente" },
   { id: "transformacion-dinero", titulo: "La transformación total de su dinero", autor: "Dave Ramsey", ano: 2003, categoria: "Economía", estado: "pendiente" },

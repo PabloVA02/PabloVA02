@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "empieza-porque":
+    "Sinek observó que casi todas las organizaciones comunican de fuera hacia dentro: primero lo que venden, luego cómo, y nunca por qué existen. Su libro propone invertir ese orden y da una prueba para saber si un propósito es real.",
+
   "correr-o-morir":
     "Jornet se crio en un refugio de los Pirineos a mil novecientos metros, donde su padre era guarda. Escribió esto a los veintitrés años, con dos victorias en la Ultra Trail del Mont Blanc, para contestar por qué hace lo que hace.",
 

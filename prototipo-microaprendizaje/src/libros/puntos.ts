@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "empieza-porque": [
+    "por qué el orden de una presentación cambia lo que decide quien escucha",
+    "qué le cuesta a una empresa cada descuento que hace",
+    "a cuánta gente hay que convencer para que el resto imite",
+    "cómo comprobar si un propósito declarado es de verdad",
+    "qué le pasa a una empresa cuando solo se dirige por lo que se mide",
+  ],
+
   "correr-o-morir": [
     "por qué ir a vencer algo te quita el momento de dar la vuelta",
     "cómo distinguir el dolor que avisa del que solo cuesta",
