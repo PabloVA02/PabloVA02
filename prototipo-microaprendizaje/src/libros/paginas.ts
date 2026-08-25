@@ -88727,7 +88727,587 @@ const CUADRANTE_FLUJO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La transformacion total de su dinero, en ocho paginas.
+
+   Breve. Dinero y practico -> afirmacion entera en el rotulo y SEGUNDA PERSONA
+   en la caja.
+
+   Seis argumentos: la quiebra propia, el ochenta por ciento de conducta, la
+   bola de nieve de deudas, el fondo de emergencia, los mitos de la deuda y los
+   sobres.
+
+   La conclusion: el doce por ciento de rentabilidad que usa en sus cuentas es
+   irreal; la bola de nieve cuesta mas intereses que ordenar por tipo y el libro
+   no cuantifica nunca cuanto; quedarse sin historial crediticio tiene costes
+   reales; y su plan supone un ingreso que se pueda apretar.
+   -------------------------------------------------------------------------- */
+
+const TRANSFORMACION_DINERO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El autor lo escribió después de arruinarse, y esa quiebra es la mitad del argumento",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dave Ramsey tenía veintiséis años y una cartera de inmuebles que valía varios millones de dólares, construida entera con préstamos a corto plazo. Los bancos le reclamaron el dinero, no pudo pagar, y a los veintiocho estaba en quiebra, con una mujer, un bebé y una casa que perdió. Este libro es lo que sacó de ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación de partida es la que da sentido al resto: las finanzas personales son un ochenta por ciento conducta y un veinte por ciento conocimiento. Nadie se arruina por no saber calcular un interés compuesto; la gente se arruina por hacer cosas que sabe perfectamente que no debería hacer, y repetirlas durante años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el diseño del método, que a un economista le parecerá mal a propósito. Ramsey dice que si la aritmética resolviera el problema, nadie estaría endeudado, porque la aritmética está al alcance de cualquiera. Así que construye un plan que funciona con la cabeza que tiene la gente y no con la que debería tener.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué el primer paso no es pagar deudas, en qué orden hay que pagarlas y por qué ese orden es peor en intereses, para qué sirve un colchón antes que nada, qué mitos sobre la deuda desmonta, cómo funciona el sistema de sobres y qué falla en todo esto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si el problema fuera de cálculo, nadie estaría endeudado. La aritmética está al alcance de cualquiera y aun así aquí estamos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo primero no es pagar deudas: es tener mil euros guardados para que la vida no descarrile el plan",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer paso del método es apartar una cantidad pequeña y fija —él habla de mil dólares— antes de destinar nada a las deudas. No es un ahorro ni una inversión: es un colchón para imprevistos, y su función no es económica sino de supervivencia del plan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón la explica con el patrón que ha visto mil veces. Alguien empieza a pagar deudas con disciplina, y al segundo mes se le rompe la lavadora o el coche. Sin colchón, eso se paga con la tarjeta, la deuda vuelve a subir y la persona concluye que aquello no funciona y lo deja. El plan no muere por falta de voluntad: muere por una avería.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ramsey insiste en que la cantidad tiene que ser pequeña a propósito. Si se pone un colchón grande, se tarda un año en llegar al paso siguiente y se pierde el impulso; si se pone demasiado pequeño, no cubre nada. Mil es suficiente para casi cualquier avería doméstica y se puede reunir en pocas semanas apretando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade la regla que lo hace funcionar: ese dinero no se toca para nada más. No es para unas vacaciones, ni para una oferta buena, ni para adelantar deuda. Está ahí para que cuando la vida haga lo que hace siempre, el plan no se caiga. Es el paso más barato del libro y el que decide si hay libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Guarda una cantidad pequeña antes de pagar nada. Los planes de deuda no mueren por falta de voluntad: mueren por una avería.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las deudas se pagan de la más pequeña a la más grande, y da igual el tipo de interés",
+      },
+      {
+        b: "texto",
+        texto:
+          "El paso siguiente es la pieza más famosa y más discutida del libro. Se apuntan todas las deudas menos la hipoteca, se ordenan de menor a mayor saldo sin mirar el tipo de interés, se paga el mínimo de todas y todo el dinero disponible se echa a la más pequeña hasta liquidarla. Después, a la siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ramsey sabe perfectamente que eso es peor en dinero. Ordenar por tipo de interés, atacando primero la deuda más cara, sale más barato siempre. Su respuesta es la frase que resume el libro entero: si estuviéramos haciendo matemáticas, no tendríamos deudas. Está optimizando otra cosa, que es la probabilidad de terminar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es de conducta y se sostiene. Liquidar una deuda entera en seis semanas produce algo que ningún ahorro de intereses produce: la prueba visible de que el plan funciona. Se pasa de cinco deudas a cuatro, y esa cuenta se puede contar en casa. Ramsey sostiene que quien tacha la primera línea sigue, y quien lleva ocho meses sin tachar ninguna abandona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al nombre del método, bola de nieve, le da además un sentido aritmético. Al liquidar la primera deuda, su cuota mensual no se gasta: se suma a lo que se paga de la segunda. Y así sucesivamente, de modo que la cantidad que se echa a cada deuda va creciendo aunque el presupuesto no cambie nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Empezar por la deuda más pequeña sale más caro y se termina más veces. Lo que se optimiza aquí no es el interés: es acabar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Sin deudas y con seis meses guardados empieza otra vida, y ese es el objetivo real del libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de liquidar todo lo que no sea la hipoteca, Ramsey manda ampliar el colchón hasta cubrir entre tres y seis meses de gastos. Ese es el punto donde considera que alguien deja de vivir al día, y lo describe con una imagen que se entiende: es la diferencia entre poder decir que no y no poder decirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Explica lo que cambia con eso en la vida diaria, y es la parte del libro que menos tiene que ver con el dinero. Se puede rechazar un trabajo malo. Se puede aguantar un despido sin aceptar lo primero que salga. Se pueden arreglar las cosas sin urgencia. Y desaparece la discusión de pareja que empieza con una factura inesperada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los pasos siguientes son más convencionales. Destinar un quince por ciento de los ingresos a la jubilación, apartar el dinero de los estudios de los hijos, y después acelerar la hipoteca hasta pagarla entera. Ramsey los ordena así a propósito: la jubilación va antes que los estudios, porque para lo segundo hay becas y préstamos y para lo primero no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el último paso es el que da nombre al método completo: acumular patrimonio y dar. Ramsey le dedica bastante espacio, y ahí se ve de dónde viene el libro, porque su programa se ha difundido durante veinte años sobre todo a través de iglesias. El plan es financiero y su marco es religioso, y conviene saberlo al leerlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Con seis meses de gastos guardados cambia una cosa concreta: puedes decir que no. Ese es el objetivo, y no el número.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La deuda no es una herramienta, y casi todo lo que se cuenta sobre ella es publicidad",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un tercio del libro está dedicado a desmontar cosas que la gente da por buenas, y ahí Ramsey es útil aunque se sea escéptico con el resto. Empieza por la idea de que la deuda es una herramienta que la gente rica usa. Su respuesta es que a él le pareció una herramienta hasta que se la reclamaron toda a la vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre el coche da la cuenta que más incomoda. Financiar un vehículo nuevo es contratar durante años una cuota por un bien que pierde una parte importante de su valor al salir del concesionario y sigue perdiéndolo cada año. Ramsey señala que la cuota del coche es, para muchas familias, la mayor barrera entre ellas y cualquier ahorro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre las tarjetas de crédito y sus puntos es igual de directo. Sostiene que quien paga con tarjeta gasta más que quien paga en efectivo, que las recompensas están calculadas por quien las ofrece para que salga a cuenta a quien las ofrece, y que nadie se ha hecho rico acumulando puntos. Su consejo es cortarlas, literalmente, y no tener ninguna.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y desmonta la idea de que la casa propia sea una inversión sin más. Una vivienda tiene impuestos, seguros, comunidad, reformas y una hipoteca con intereses, y todo eso hay que restarlo antes de comparar su revalorización con cualquier otra cosa. Ramsey no dice que no haya que comprar: dice que hay que dejar de llamarlo inversión sin hacer la resta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien paga con tarjeta gasta más que quien paga en efectivo. Las recompensas las calcula quien las ofrece, y le salen a cuenta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un presupuesto no funciona escrito: funciona cuando el dinero está separado físicamente",
+      },
+      {
+        b: "texto",
+        texto:
+          "La herramienta cotidiana del método es el sistema de sobres, y es de los años cincuenta. Al principio del mes se saca en efectivo lo que corresponde a las categorías variables —comida, ocio, ropa, gasolina— y se reparte en sobres. Cuando un sobre se acaba, esa categoría se ha acabado hasta el mes que viene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ramsey sostiene que funciona por un motivo físico y no moral. Un presupuesto en una hoja se incumple sin notarlo, porque cada gasto individual parece razonable y la suma no se ve hasta el extracto. Un sobre vacío no se puede interpretar: se ve, está en la mano, y no hay ninguna manera de discutir con él a mitad de mes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade la regla del presupuesto de base cero, que es la parte más exigente. Cada euro que entra tiene que tener un nombre antes de que empiece el mes, incluido el que se va a ahorrar y el que se va a gastar en tonterías. Lo que no se ha asignado, dice, se gasta solo y después nadie recuerda en qué.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y pide hacerlo en pareja, con las dos personas en la mesa y por escrito. Ramsey observa que en casi todas las parejas hay uno que lleva las cuentas y otro que no se entera, y que esa asimetría produce discusiones que no van de dinero sino de control. Una reunión mensual de media hora, dice, evita la mayoría de ellas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Con un sobre vacío no se puede discutir. Un presupuesto en una hoja se incumple sin notarlo, porque cada gasto parece razonable.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El método exige un periodo corto de vivir muy por debajo de lo que se puede, y ahí se cae mucha gente",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ramsey usa una imagen tomada de un proverbio bíblico para describir la actitud que pide: la de una gacela que escapa del cazador, que no corre a medias ni negocia. Traducido, significa un periodo de uno o dos años viviendo muy por debajo del nivel que uno podría permitirse, con el único objetivo de salir de las deudas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que propone durante ese tramo es concreto y poco agradable. Vender el coche financiado y comprar uno viejo al contado. Cancelar suscripciones. No salir a cenar. Buscar horas extra o un segundo trabajo temporal. Y su frase más citada sobre esa etapa: vivir como nadie ahora para poder vivir después como nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento sobre por qué tiene que ser intenso y corto es razonable. Un plan suave de siete años no lo termina casi nadie, porque siete años dan para que cambien las circunstancias y la motivación varias veces. Uno duro de dieciocho meses tiene final visible desde el principio, y eso es lo que permite aguantarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un límite que el libro no marca y hay que marcar aquí. Todo el método consiste en liberar una diferencia entre lo que entra y lo que sale, y hay hogares donde esa diferencia no existe porque el ingreso no cubre lo básico. Para ese caso, este libro no tiene nada, y Ramsey escribe como si siempre hubiera algo que apretar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un plan suave de siete años no lo termina casi nadie. Uno duro de dieciocho meses tiene final visible desde el primer día.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro cosas y funcionan con casi cualquier ingreso. El colchón pequeño antes de atacar las deudas, para que una avería no tire el plan. Ordenar las deudas por tamaño si lo que hace falta es terminar. Asignar cada euro un nombre antes de que empiece el mes. Y la reunión mensual en pareja, con los dos delante de los números.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en las cuentas de la jubilación. Ramsey proyecta rendimientos anuales del orden del doce por ciento, y ese número no se corresponde con lo que ha dado históricamente una cartera diversificada después de comisiones e inflación. Con una cifra realista, las mismas aportaciones dan resultados bastante menores, y el libro nunca enseña esa segunda cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en lo que no cuantifica. La bola de nieve cuesta dinero comparada con ordenar por tipo de interés, y Ramsey no calcula nunca cuánto en un caso concreto, que es la información que permitiría decidir. Y su consejo de no tener ningún historial crediticio tiene costes reales al alquilar, al contratar seguros o al pedir una hipoteca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo que le ha dado la razón en parte. Su método se ha extendido por decenas de miles de iglesias y ha vendido más de diez millones de ejemplares, y su pieza más criticada ha resultado estar mejor fundada de lo que parecía: los estudios sobre pago de deudas han encontrado que empezar por los saldos pequeños aumenta la probabilidad de salir del todo. Sigue costando más intereses, y termina más gente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ordena por tipo de interés si vas a aguantar hasta el final. Ordena por tamaño si lo que necesitas es no abandonar en el mes cuatro.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   La actitud mental positiva, en ocho paginas.
+
+   Breve. Autoayuda de exito -> afirmacion entera en el rotulo y SEGUNDA PERSONA
+   en la caja.
+
+   DOS AUTORES MUY DISTINTOS, y ese contraste ES el resumen. W. Clement Stone
+   fue un vendedor de seguros real que empezo a los dieciseis anos y monto una
+   compania enorme, y su metodo de ventas es comprobable. Napoleon Hill vendia
+   una historia: la del encargo de Andrew Carnegie, que nunca se ha documentado.
+
+   Seis argumentos: el talisman de dos caras, los automotivadores, el metodo de
+   venta por sistema de Stone, la insatisfaccion inspiradora, como se lee un
+   libro con lapiz, y el reves de la moneda en cada desgracia.
+
+   La conclusion: la parte de Stone se sostiene porque describe un negocio que
+   existio; la de Hill no, y la investigacion de su biografia no encontro rastro
+   de la reunion con Carnegie ni de las cartas de presentacion.
+   -------------------------------------------------------------------------- */
+
+const ACTITUD_MENTAL_POSITIVA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro lo escribieron dos hombres muy distintos, y la diferencia entre ellos es lo que hay que mirar",
+      },
+      {
+        b: "texto",
+        texto:
+          "W. Clement Stone empezó a vender periódicos en Chicago a los seis años y seguros a los dieciséis, con cien dólares de capital, y construyó una de las mayores compañías de seguros de accidentes de Estados Unidos. Su fortuna, sus oficinas y sus miles de empleados están documentados. Fue un vendedor extraordinario y sabía por qué lo era.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Napoleon Hill era el autor de un superventas de 1937 sobre cómo hacerse rico, y su fama venía de una historia: que Andrew Carnegie le encargó en 1908 estudiar durante veinte años a los hombres más ricos del país y le dio cartas de presentación para quinientos de ellos. Esa historia, como se verá al final, nunca ha podido documentarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los dos publicaron este libro juntos en 1959, y el resultado tiene dos capas que conviene separar al leerlo. Una es un manual de ventas y de organización escrito por alguien que dirigía una empresa de verdad. La otra es una doctrina sobre el poder de la mente que se afirma sin ninguna prueba y con mucha seguridad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre la imagen con la que abre el libro, qué son los automotivadores y para qué sirven, cómo vendía Stone de verdad y por qué eso funcionaba, qué llama insatisfacción inspiradora, cómo hay que leer según ellos un libro como este, qué proponen hacer con una desgracia y qué hay que saber de sus autores.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Uno de los dos autores dirigía una compañía de seguros con miles de empleados. El otro vendía una historia. Conviene leerlos por separado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La imagen del libro es un amuleto con dos caras, y la que queda arriba se elige",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con una comparación que repite en cada capítulo. La mente es como un talismán con dos caras. En una está grabada una actitud mental positiva y en la otra una negativa, y las dos están siempre disponibles porque son el mismo objeto. Lo único que hay que decidir es cuál se lleva hacia arriba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La afirmación que sostienen es que esa elección se hace todos los días y casi siempre sin darse cuenta, por costumbre. Ante el mismo hecho —un cliente que dice que no, un plan que se cae, una avería— hay dos lecturas disponibles y la mayoría de la gente usa siempre la misma, no porque la haya elegido sino porque es la que tiene a mano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable de esa idea no es el amuleto sino la observación de que la lectura es una costumbre y no un rasgo. Lo que se dice uno a sí mismo cuando algo sale mal es una frase aprendida, se repite igual durante años y se puede cambiar, aunque cambiarla exija bastante más que decidirlo una tarde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema, y hay que decirlo aquí, es la parte que añaden después: que la actitud positiva atrae resultados positivos como un imán. Eso ya no es una observación sobre las costumbres mentales de nadie, es una afirmación sobre cómo funciona el mundo, y no tienen manera de sostenerla. Todo el libro se lee mejor separando esas dos capas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que te dices cuando algo sale mal es una frase aprendida, no un rasgo de carácter. Y las frases aprendidas se pueden cambiar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una frase corta repetida muchas veces sí cambia lo que se hace, y por un motivo que no es mágico",
+      },
+      {
+        b: "texto",
+        texto:
+          "La herramienta más concreta del libro son lo que llaman automotivadores: frases muy cortas, de dos o tres palabras, que se repiten hasta que aparecen solas en el momento en que hacen falta. La suya, la que Stone hacía repetir a sus vendedores cada mañana, era una orden de tres palabras: hazlo ahora mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo que describen sí funciona, aunque su explicación sea otra. Una frase muy repetida se asocia con una situación, y cuando la situación llega la frase aparece antes de que dé tiempo a pensar. Eso no atrae nada del universo: reduce el hueco entre notar que hay que hacer algo y empezar a hacerlo, que es donde se pierde media jornada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Stone lo aplicaba con una disciplina que resulta llamativa. En su empresa se recitaba en voz alta y en grupo antes de salir a la calle, todos los días, y él consideraba que ese minuto era la parte más rentable de la mañana. No lo planteaba como un ritual de ánimo sino como el arranque mecánico de la jornada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su condición para que sirva es la que casi nadie cumple. Tiene que ser corta, tiene que ser una orden y tiene que repetirse durante semanas, no leerse una vez y aprobarla. Los autores insisten en que una frase que se lee y se encuentra interesante no hace nada, y que solo cuenta la que ya sale sola cuando toca.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una frase de tres palabras repetida durante semanas acorta el hueco entre notar que hay que hacer algo y empezar a hacerlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Stone no vendía por talento: vendía por sistema, y ese sistema es lo mejor del libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte que sostiene el libro entero es cómo vendía Stone, y no tiene nada de inspiracional. Su método consistía en recorrer un edificio de oficinas puerta por puerta, en orden, sin saltarse ninguna y sin decidir de antemano cuál parecía prometedora. Empezaba arriba y bajaba, o al revés, y no elegía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón que daba es de aritmética pura y por eso funciona. Un vendedor no sabe quién va a comprarle: los que parecen interesados a menudo no compran y los que parecen imposibles a veces sí. Si se acierta un porcentaje pequeño de las veces, lo único que se controla es cuántas puertas se abren al día, y eso sí depende de uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su manera de tratar el rechazo, que es la más práctica que hay en este género. Un no no es un juicio sobre nada: es una casilla de la estadística que hay que llenar para llegar a la siguiente venta. Stone hacía calcular a sus vendedores cuántos noes le correspondían a cada sí, y a partir de ahí cada no valía dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo completaba con dos cosas más: un guion escrito y probado, en lugar de improvisar en cada puerta, y una revisión diaria de los números. Es una máquina sencilla, se puede montar en cualquier oficio y no depende en absoluto de la actitud mental de nadie, aunque el libro la presente como si dependiera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Calcula cuántos noes te corresponden por cada sí. A partir de ese número, cada no que recibes vale dinero en vez de doler.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Estar descontento sirve cuando señala algo concreto y estorba cuando es un estado de ánimo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los autores dedican un capítulo a corregir su propio mensaje, y es más interesante de lo que parece. Dicen que la actitud positiva no consiste en estar contento con todo, y que quien está satisfecho de su situación no cambia nada. Llaman insatisfacción inspiradora al descontento que sirve, y lo separan del que no sirve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia que marcan es útil. El descontento que sirve señala algo concreto que se puede cambiar y produce un plan; el que no sirve es una sensación general de que las cosas están mal, que se puede sostener durante años sin que produzca ninguna acción y que además desgasta a quien lo tiene y a quien lo escucha.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba que proponen es directa: si el descontento no se puede convertir en una frase que empiece por un verbo, no es información sobre el mundo, es un estado de ánimo. Y con un estado de ánimo no se hace nada excepto sostenerlo. Es la parte del libro que más se parece a un consejo comprobable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añaden una observación sobre las quejas que sigue siendo cierta. Quien se queja en voz alta obtiene alivio inmediato y compañía, y esas dos recompensas llegan sin haber cambiado nada; con lo que la queja se refuerza sola y sustituye a la acción. Los autores recomiendan poner por escrito la queja y al lado el primer paso, o callarse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si tu descontento no se puede convertir en una frase que empiece por un verbo, no es información: es un estado de ánimo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un libro como este no se lee: se trabaja, y esa instrucción es más valiosa que su contenido",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un capítulo dedicado a cómo hay que leer, y es el consejo más aprovechable del libro para cualquier lectura. Dicen que la mayoría de la gente lee un libro práctico como leería una novela, de corrido, lo encuentra interesante y a las dos semanas no recuerda nada ni ha cambiado nada. Y proponen otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su procedimiento tiene cuatro pasos y se resume en uno: leer con lápiz. Reconocer qué principio se está exponiendo, relacionarlo con una situación propia y concreta, escribir en el margen cuál, y decidir una acción con fecha. Sin ese último paso, dicen, el libro se ha leído pero no se ha usado, que son cosas distintas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Insisten además en releer, y ahí van contra la costumbre de leer muchos libros distintos. Sostienen que un libro práctico útil se lee tres o cuatro veces con meses de diferencia, porque en cada lectura el lector está en una situación distinta y ve cosas que antes le parecieron obvias o irrelevantes. Es exactamente lo contrario de acumular títulos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hacen una advertencia que conviene aplicarles a ellos mismos. Dicen que a un libro de este género hay que discutirle las afirmaciones mientras se lee, y no aceptarlas por venir impresas. Es un buen consejo, y aplicado a este libro deja fuera buena parte de lo que sus autores afirman sobre el poder de la mente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lee con lápiz y escribe al lado una acción con fecha. Un libro leído y un libro usado son dos cosas distintas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En cada revés hay algo aprovechable, y decirlo así se parece peligrosamente a una frase de consuelo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea que más repiten es que toda adversidad lleva dentro la semilla de un beneficio equivalente. Es una frase de Hill y aparece en todos sus libros, y hay que mirarla con cuidado porque tiene una versión razonable y otra que hace bastante daño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La versión razonable es una instrucción de trabajo: después de algo que ha salido mal, buscar deliberadamente qué se puede usar de ahí —qué se ha aprendido, qué contacto ha aparecido, qué puerta se ha abierto— en lugar de dedicar esas semanas exclusivamente a lamentarlo. Planteado así es un ejercicio útil y se puede hacer con papel.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La versión que hace daño es la que afirma que el beneficio existe siempre y es equivalente al mal. Eso no es cierto: hay pérdidas que no tienen contrapartida, enfermedades que no enseñan nada y quiebras que solo arruinan. Presentarlo como ley obliga a quien lo está pasando mal a buscar un lado bueno que a veces no está, y a sentirse mal por no encontrarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los propios autores dan sin querer la medida del problema, porque los ejemplos que usan son todos de gente que salió adelante. Es la selección de siempre: se cuentan las adversidades que acabaron bien porque son las que se pueden contar, y las que no acabaron bien no aparecen en ningún capítulo de ningún libro de este género.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Buscar qué se puede usar de un revés es un ejercicio útil. Afirmar que siempre hay algo equivalente es otra cosa, y no es verdad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro cosas y las cuatro vienen de la mitad práctica del libro. Vender por sistema y no por intuición, recorriendo todas las puertas. Calcular cuántos noes cuesta un sí, para que el rechazo pase a ser aritmética. Convertir el descontento en una frase que empiece por un verbo o soltarlo. Y leer con lápiz, con una acción y una fecha al margen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la mitad doctrinal. La afirmación de que una actitud positiva atrae resultados no está sostenida por nada, y el libro la repite en cada capítulo como si fuera un hecho establecido. Y su idea más famosa —que lo que la mente concibe y cree se puede lograr— es sencillamente falsa dicha así, sin ninguna condición.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo sobre uno de sus autores que conviene saber. La biografía de Napoleon Hill ha sido investigada a fondo y sus episodios centrales no aparecen documentados en ninguna parte: no hay rastro del encargo de Andrew Carnegie, ni de las cartas de presentación, ni de la relación de veinte años, y sí hay constancia de varios negocios fracasados y de denuncias por fraude.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que queda, entonces, es un libro con dos autores y dos niveles de fiabilidad muy distintos. Stone dirigía una compañía real y describe un método de ventas que se puede comprobar; murió en 2002, a los cien años, después de haber donado buena parte de su fortuna. Lo que aguanta de estas páginas es casi todo suyo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "De este libro quédate con lo que escribió el que tenía una empresa de verdad. Casi todo lo comprobable viene de ese lado.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "actitud-mental-positiva": ACTITUD_MENTAL_POSITIVA,
+  "transformacion-dinero": TRANSFORMACION_DINERO,
   "cuadrante-flujo": CUADRANTE_FLUJO,
   "ciencia-hacerse-rico": CIENCIA_HACERSE_RICO,
   "efecto-compuesto": EFECTO_COMPUESTO,

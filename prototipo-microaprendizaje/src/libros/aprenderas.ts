@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "actitud-mental-positiva":
+    "Lo firman dos hombres muy distintos: un vendedor de seguros que empezó a los dieciséis con cien dólares y levantó una compañía enorme, y un autor cuya fama venía de una historia sobre Andrew Carnegie que nunca se ha podido documentar.",
+
+  "transformacion-dinero":
+    "Ramsey tenía a los veintiséis una cartera de inmuebles de varios millones construida con préstamos a corto plazo. Los bancos se los reclamaron y a los veintiocho estaba en quiebra. Este libro es lo que sacó de ahí.",
+
   "cuadrante-flujo":
     "Kiyosaki reparte el mundo en cuatro casillas según de dónde llega el dinero: empleado, autónomo, dueño de un negocio e inversor. Su afirmación es que casi todo el mundo discute cuánto cobra y casi nadie de cuál de las cuatro le viene.",
 

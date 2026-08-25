@@ -79,6 +79,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "actitud-mental-positiva": [
+    "por qué lo que te dices cuando algo sale mal no es un rasgo",
+    "qué le pasa a una frase de tres palabras repetida durante semanas",
+    "cómo vendía de verdad el autor que tenía una empresa",
+    "cuándo sirve estar descontento y cuándo solo desgasta",
+    "cómo se lee un libro práctico para que cambie algo",
+  ],
+
+  "transformacion-dinero": [
+    "por qué el primer paso no es empezar a pagar deudas",
+    "en qué orden conviene pagarlas si lo que necesitas es terminar",
+    "qué cambia el día que tienes seis meses de gastos guardados",
+    "por qué quien paga con tarjeta gasta más que quien paga en efectivo",
+    "con qué se incumple un presupuesto sin llegar a notarlo",
+  ],
+
   "cuadrante-flujo": [
     "qué comparten el empleado y el autónomo aunque se crean opuestos",
     "la pregunta que distingue un negocio de un empleo que te pertenece",
