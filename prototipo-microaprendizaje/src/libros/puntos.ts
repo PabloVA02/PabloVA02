@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "segundo-cerebro": [
+    "qué merece guardarse de un libro entero, que son cinco cosas",
+    "por qué ordenar por temas hace que no encuentres nada",
+    "cómo resumir una nota sin dedicarle tiempo a propósito",
+    "qué extraer de un trabajo terminado para no repetirlo",
+    "cómo saber si tu sistema ha sustituido a tu trabajo",
+  ],
+
   "cuatro-mil-semanas": [
     "por qué despachar más rápido hace que llegue más trabajo",
     "de dónde salió la idea de que el tiempo es algo que se gasta",

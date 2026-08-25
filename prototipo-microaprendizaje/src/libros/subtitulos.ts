@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "segundo-cerebro": "Un método probado para organizar tu vida digital",
   "cuatro-mil-semanas": "Gestión del tiempo para mortales",
   "ensenare-ser-rico": "Sin sentimiento de culpabilidad, sin excusas, sin tonterías",
   "piensalo-otra-vez": "El poder de saber lo que no sabes",

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "segundo-cerebro":
+    "Forte empezó a llevar notas propias por una enfermedad que nadie le diagnosticaba, y descubrió que el orden cambiaba las consultas. Su método reparte todo en cuatro cajones según para qué sirve, y no según de qué trata.",
+
   "cuatro-mil-semanas":
     "Ochenta años son unas cuatro mil semanas, y el número cabe en un papel. Burkeman sostiene que el desbordamiento no es un fallo de método sino una consecuencia de que las cosas que merecen la pena son más que las horas que hay.",
 

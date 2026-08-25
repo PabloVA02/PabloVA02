@@ -69789,7 +69789,290 @@ const CUATRO_MIL_SEMANAS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Crea tu segundo cerebro, en ocho páginas.
+
+   Breve. Libro práctico → afirmación entera en el rótulo y SEGUNDA PERSONA
+   en la caja (apartado 4.7).
+
+   Riesgo principal: quedarse en la lista de aplicaciones, que es lo que
+   envejece en un año. El método no depende de ninguna herramienta y eso hay
+   que dejarlo claro en la primera página.
+
+   Lo concreto que lo sostiene: la enfermedad que le llevó a montar esto, el
+   método CODE con sus cuatro pasos, el resumen progresivo en capas, los
+   proyectos intermedios de Hemingway y la carpeta de cuatro cajones.
+
+   Y la conclusión dice lo que casi ningún resumen dice: que el propio Forte
+   admite que casi nadie vuelve a mirar lo que guarda, y que el sistema puede
+   convertirse en el trabajo en lugar de servirlo.
+   -------------------------------------------------------------------------- */
+
+const SEGUNDO_CEREBRO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Guardar información no sirve de nada si no está pensada para volver a usarse",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tiago Forte empezó a construir este método por una razón médica. A los veintidós años desarrolló un dolor crónico de garganta que ningún especialista lograba diagnosticar; se pasó años yendo de consulta en consulta, y en algún momento empezó a llevar él mismo las notas de cada visita, cada prueba y cada tratamiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquel cuaderno cambió las consultas. Llegaba con el historial ordenado, con lo que ya se había probado y con lo que había pasado después, y por primera vez podía discutir de igual a igual con un médico que veía su caso por primera vez. La información no era nueva: lo nuevo era tenerla en un sitio y en un orden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la afirmación del libro. Casi todo el mundo consume mucha más información de la que puede recordar, la guarda a medias en marcadores, capturas de pantalla y correos a uno mismo, y no vuelve a encontrarla nunca. Lo que falta no es memoria ni disciplina: es un sitio pensado para sacar cosas, y no solo para meterlas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre los cuatro pasos del método, la única pregunta que decide qué se guarda y qué no, cómo se ordena para encontrarlo dentro de tres años, la técnica de resumir en capas, por qué el trabajo se corta en piezas reutilizables y qué es lo que falla en todo esto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tu problema no es que no recuerdes: es que guardas las cosas en un sitio pensado para meterlas y no para sacarlas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El método son cuatro pasos y el orden importa más que las herramientas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Forte lo resume en un acrónimo inglés, CODE, que en español se puede decir igual de bien: capturar, organizar, destilar y expresar. Su insistencia es que ninguno de los cuatro depende de ningún programa concreto, y que casi todo el mundo se atasca porque hace el primero mucho y los otros tres nada.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Capturar", texto: "quedarse solo con lo que produjo una reacción: lo que sorprendió, lo que contradijo algo que se creía o lo que sería útil dentro de un año." },
+          { fuerte: "Organizar", texto: "guardar cada cosa según para qué va a servir, y no según de qué trata, que es donde falla todo el mundo." },
+          { fuerte: "Destilar", texto: "cada vez que se abre una nota, dejarla un poco más resumida que como estaba, en capas sucesivas." },
+          { fuerte: "Expresar", texto: "sacar algo hecho. Un sistema del que nunca sale nada es una colección, y una colección no es una herramienta." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "El paso que casi nadie hace es el último, y sin él los otros tres son un pasatiempo. Forte insiste en que guardar produce una satisfacción inmediata y falsa —la sensación de haber avanzado— mientras que producir algo cuesta y expone, así que el sistema tiende solo a llenarse y a no vaciarse nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hace una advertencia sobre las aplicaciones que es lo más honrado del libro: cambiar de programa es la manera favorita de posponer el trabajo. Cualquiera de los que existen sirve, y la persona que lleva tres años probando el definitivo no tiene un problema de herramienta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si de tu sistema nunca sale nada hecho, no tienes un sistema: tienes una colección.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Se guarda lo que produjo una reacción, no lo que parecía importante" },
+      {
+        b: "texto",
+        texto:
+          "El criterio de captura de Forte es más estrecho de lo que espera cualquiera y esa es su gracia. No se guarda lo que trata de un tema que interesa, porque eso es prácticamente todo. Se guarda lo que produjo una reacción concreta al leerlo: sorpresa, desacuerdo, o la sensación de que eso resuelve un problema que se tiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su regla de cantidad es igual de estrecha: de un libro entero, entre cinco y diez fragmentos. De un artículo, uno o dos. Quien subraya la mitad de un libro no ha subrayado nada, porque volver a eso dentro de un año cuesta lo mismo que releer el libro, y por tanto no se vuelve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un efecto secundario que Forte destaca y que vale por sí solo: aplicar ese filtro cambia la manera de leer. Quien lee buscando qué le hace reaccionar lee mucho más atento que quien lee intentando entenderlo y retenerlo todo, porque la segunda tarea es pasiva y no se puede comprobar, y la primera obliga a tener una opinión propia en cada página y a notar cuándo no la tienes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un efecto secundario que Forte destaca: aplicar ese filtro cambia la manera de leer. Quien lee buscando qué le hace reaccionar lee mucho más atento que quien lee buscando entenderlo todo, porque la segunda tarea es pasiva y la primera obliga a tener una opinión en cada página.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Guarda solo lo que te hizo reaccionar: si subrayas medio libro, dentro de un año no vas a volver a abrirlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las carpetas se organizan por para qué sirven, no por de qué tratan" },
+      {
+        b: "texto",
+        texto:
+          "Aquí está la idea que de verdad separa este libro de cualquier consejo sobre notas. Forte propone cuatro cajones y solo cuatro: proyectos, áreas, recursos y archivo. Y el orden en que están escritos es el de la urgencia con la que hace falta cada cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un proyecto tiene un final y una fecha: mudarse, sacar un curso, cerrar un contrato. Un área no acaba nunca y hay que mantenerla: la salud, las finanzas, un equipo a cargo. Un recurso es un tema que interesa y no tiene responsabilidad detrás. Y el archivo es donde va lo que ya no está activo, sin borrarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y trae un beneficio que Forte destaca todavía más que el orden en sí: como los proyectos se terminan, el sistema se vacía solo sin que nadie tenga que limpiarlo. Al cerrar algo, todo su material pasa entero al archivo, y lo que queda a la vista es siempre y solo lo que está en marcha esta semana. Un sistema ordenado por temas nunca se vacía, solo crece, y a los tres años ya no lo abre nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y trae un beneficio que Forte destaca más que el orden en sí: como los proyectos se cierran, el sistema se vacía solo. Al terminar algo, todo su material pasa al archivo, y lo que queda a la vista es siempre lo que está en marcha. Un sistema por temas solo crece, y a los tres años nadie lo abre.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de guardar algo, pregúntate en qué proyecto te va a servir: eso casi siempre tiene una sola respuesta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una nota se resume por capas y cada vez que se abre" },
+      {
+        b: "texto",
+        texto:
+          "La técnica que Forte llama resumen progresivo resuelve un problema muy concreto: resumir al guardar es caro y casi nunca se hace, así que las notas quedan enteras, largas y sin releer. Su solución es no resumir de golpe, sino un poco cada vez que esa nota se vuelva a abrir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Son cuatro capas y se aplican con el tiempo. La primera es el texto tal como se guardó. La segunda, la vez siguiente, es subrayar dentro de él. La tercera es marcar en negrita lo poco que se salva del subrayado. Y la cuarta, para las pocas notas que lo merezcan, es escribir arriba dos líneas propias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado práctico es que la misma nota se puede leer a cuatro velocidades distintas según el tiempo que haya. Con prisa se leen las dos líneas propias de arriba; con algo más de tiempo, las palabras en negrita; y si de verdad hace falta el detalle exacto, el texto completo sigue estando debajo sin haberse tocado. No se ha perdido nada y se puede consultar en veinte segundos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado práctico es que la nota se puede leer a cuatro velocidades distintas. Con prisa se leen las dos líneas de arriba; con algo más de tiempo, las negritas; y si hace falta el detalle, sigue estando el texto completo debajo. Nada se ha perdido y todo se puede consultar en veinte segundos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Resume solo las notas que vuelves a abrir: las que no abres nunca no merecían el minuto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El trabajo se corta en piezas que sirvan otra vez, y casi nadie lo hace",
+      },
+      {
+        b: "texto",
+        texto:
+          "Forte llama bloques intermedios a las partes reutilizables de cualquier trabajo: un guion de una llamada, un párrafo que explica bien algo difícil, una plantilla de presupuesto, la estructura de un informe que funcionó. Su observación es que casi todo el mundo los produce y casi nadie los guarda por separado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia se ve en cualquier oficio. Alguien lleva ocho años escribiendo correos de propuesta y cada uno lo empieza en blanco, aunque el noventa por ciento del texto sea el mismo que el del mes pasado. El trabajo hecho está ahí, sepultado dentro de entregas cerradas, y no se puede sacar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su recomendación técnica es tan simple que parece poco: al terminar algo, dedicar cinco minutos a extraer las dos o tres piezas que van a volver a hacer falta y guardarlas sueltas. No después, cuando ya no se acuerda uno; en el mismo momento, mientras el material está caliente y se sabe cuál era la parte buena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade un truco contra el bloqueo que viene de Hemingway y que él aplica al trabajo de oficina: parar el día no cuando se acaba una parte, sino a mitad de algo que se sabe cómo continuar. Al volver, no hay que decidir por dónde empezar, que es donde se pierden las primeras horas de cada mañana.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Al terminar algo, saca las dos piezas que volverás a necesitar: dentro de un mes ya no sabrás cuál era la parte buena.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El sistema tiene que ser aburrido, porque el que se disfruta sustituye al trabajo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El aviso más útil del libro es contra sí mismo, y Forte lo pone por escrito varias veces. Montar un sistema de notas produce una satisfacción muy parecida a la de trabajar y no lo es: se toman decisiones, se ordena, se ve el resultado inmediatamente, y no hay ningún riesgo de que salga mal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su criterio para saber si eso está ocurriendo cabe en una sola pregunta, y se puede contestar hoy mismo sin consultar nada: qué ha salido de ahí en los últimos tres meses. Un informe, una decisión tomada con fundamento, un texto publicado, una conversación preparada. Si la única respuesta honesta es una carpeta muy bien organizada, el sistema no está funcionando por muy bonito que se vea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cierra con una recomendación de mantenimiento que va en contra de la estética de todo esto: revisar poco y borrar sin ninguna pena. Una revisión semanal de veinte minutos y una limpieza cada pocos meses bastan de sobra; los sistemas que exigen cuidado diario acaban abandonados en unas semanas, y cuando se abandona uno se pierde también la parte que sí estaba sirviendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cierra con una recomendación de mantenimiento que va en contra de la estética: revisar poco y borrar sin pena. Una revisión semanal de veinte minutos y una limpieza cada pocos meses bastan; los sistemas que exigen cuidado diario acaban abandonados, y entonces se pierde también lo que sí valía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pregúntate qué ha salido de tu sistema en tres meses: si la respuesta es una carpeta ordenada, no está funcionando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son tres decisiones concretas. Guardar solo lo que produjo una reacción, entre cinco y diez cosas por libro. Ordenar por para qué sirve —proyectos, áreas, recursos, archivo— y no por de qué trata, que es lo que hace que un sistema se vacíe solo. Y sacar las piezas reutilizables de cada trabajo terminado en el momento, mientras se sabe cuál era la buena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la evidencia, y conviene decirlo. No hay aquí ningún estudio ni ninguna medición: hay la experiencia de un consultor que lleva años enseñando esto, sus casos de clientes y un puñado de anécdotas de gente famosa. Funciona o no funciona según a quién, y el libro no ofrece nada con lo que saberlo por adelantado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un problema de fondo que el propio Forte reconoce sin desarrollarlo: la inmensa mayoría de la gente que monta uno de estos sistemas no vuelve a mirar casi nada de lo que guarda. El método está diseñado para que eso importe menos —el archivo no molesta, los proyectos se cierran—, pero no lo resuelve, y el rato de capturar sigue costando lo mismo aunque nadie regrese.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ha pasado después es que la parte débil se ha comido a la fuerte. Desde 2022, el mundo de las notas enlazadas se ha llenado de programas nuevos, plantillas de pago y discusiones sobre cuál es el mejor, exactamente el pasatiempo contra el que avisa el libro. Forte publicó en 2023 una continuación sobre el cuaderno de papel, que va en la dirección contraria: menos herramienta y más costumbre.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las tres decisiones que propone valen para cualquier programa, y lo que sobra es todo lo demás.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "segundo-cerebro": SEGUNDO_CEREBRO,
   "cuatro-mil-semanas": CUATRO_MIL_SEMANAS,
   "ensenare-ser-rico": ENSENARE_SER_RICO,
   "senor-anillos": SENOR_ANILLOS,
