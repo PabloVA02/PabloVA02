@@ -69228,7 +69228,293 @@ const SENOR_ANILLOS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Te enseñaré a ser rico, en ocho páginas.
+
+   Breve. Libro práctico de dinero → afirmación entera en el rótulo y
+   SEGUNDA PERSONA en la caja (apartado 4.7).
+
+   ECONOMÍA: ninguna página sin una persona, una empresa, una cifra o una
+   fecha, y el término financiero traducido y definido la primera vez. Aquí
+   eso son el interés compuesto, la comisión de gestión y el fondo indexado.
+
+   Riesgo principal: convertirlo en el folleto que promete el título. Lo que
+   lo salva es la aritmética: el uno por ciento de comisión sobre cuarenta
+   años, la regla del 72, y la cifra de gestores que baten al índice.
+
+   Y la conclusión dice para quién está escrito y para quién no, que es lo
+   que el libro nunca aclara.
+   -------------------------------------------------------------------------- */
+
+const ENSENARE_SER_RICO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro promete riqueza y en realidad enseña a montar un sistema y no mirarlo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ramit Sethi publicó esto en 2009, con veintisiete años, después de haber empezado escribiendo sobre dinero para estudiantes de Stanford. El título es una provocación deliberada y el contenido es lo contrario de lo que promete: no hay ningún atajo, ninguna acción que comprar y ninguna oportunidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación de partida es que la mayoría de la gente pierde el tiempo en las decisiones pequeñas —el café de tres euros, la marca del detergente— y no toca nunca las cinco o seis decisiones grandes que se llevan la mayor parte del resultado: dónde se vive, cuánto se paga en comisiones, qué tipos de interés se están sirviendo y cuánto se ahorra automáticamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su idea central, que llama gasto consciente: el objetivo no es recortar en todo, sino recortar sin piedad en lo que a uno le da igual para poder gastar sin culpa en lo que le importa. Es exactamente lo contrario de la austeridad general, que fracasa porque nadie la aguanta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre la cuenta que explica por qué empezar pronto pesa más que acertar, la comisión que se lleva un tercio de una vida de ahorro sin que nadie la vea, por qué casi ningún profesional bate al mercado, cómo se monta un sistema que funciona sin voluntad, y en qué se equivoca el libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Deja de pelearte con el café de cada mañana y mira las cinco decisiones grandes que no has revisado nunca.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El interés compuesto es que los intereses también generan intereses, y es el mecanismo que sostiene el libro entero. Si mil euros rinden un siete por ciento, el primer año producen setenta; el segundo, ese siete por ciento se calcula ya sobre mil setenta, y así sucesivamente. La diferencia con el interés simple es despreciable el primer año, se nota al décimo y es enorme al vigésimo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El interés compuesto es que los intereses también generan intereses. Si mil euros rinden un siete por ciento, el primer año producen setenta; el segundo, el siete por ciento se calcula sobre mil setenta, y así. La diferencia con el interés simple es despreciable el primer año y enorme el vigésimo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una manera de calcularlo de cabeza, la regla del setenta y dos: se divide setenta y dos entre el rendimiento anual en tanto por ciento y sale, aproximadamente, en cuántos años se duplica el dinero. Al siete por ciento, unos diez años. Al tres por ciento, veinticuatro. Al uno, setenta y dos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es la que casi nadie interioriza a tiempo. Alguien que invierte quinientos euros al mes desde los veinticinco años y para a los treinta y cinco termina, a los sesenta y cinco, con más dinero que alguien que empieza a los treinta y cinco y no para nunca. El segundo aporta el triple y llega con menos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sethi construye el libro entero sobre eso. Si el tiempo pesa más que la habilidad, entonces la decisión importante no es qué comprar, sino empezar ya con lo que se tenga, aunque sea una cantidad ridícula, y aunque el producto elegido no sea el óptimo. La optimización cuesta meses y esos meses cuestan más que la optimización.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Empieza este mes con lo poco que puedas: los años que ganes valen más que el producto que elijas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una comisión del uno por ciento se lleva casi un tercio de lo ahorrado en toda una vida",
+      },
+      {
+        b: "texto",
+        texto:
+          "La comisión de gestión es lo que cobra cada año quien administra el dinero, calculado sobre el total y no sobre las ganancias. Se cobra igual si el año va bien que si va mal, y aparece en la letra pequeña como un uno o un dos por ciento anual, que suena a nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dicho al revés, que es como se entiende de golpe: quien gestiona ese dinero se queda con una parte del resultado comparable a la que se lleva la persona que lo ahorró durante cuarenta años, sin haber puesto ni un euro de su bolsillo y sin garantizar ningún resultado. Y es, además, la única variable de toda la inversión que se conoce por adelantado y con total certeza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dicho al revés, que es como se entiende: quien gestiona ese dinero se queda con una parte del resultado comparable a la del que lo ahorró, sin haber puesto ni un euro y sin garantizar nada. Y es la única variable de toda la inversión que se conoce por adelantado y con certeza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la única recomendación concreta que Sethi repite sin matices: mirar la comisión antes que la rentabilidad pasada. La rentabilidad de los años anteriores no predice la de los siguientes, y esto está medido una y otra vez. La comisión sí predice, porque se resta siempre y se resta segura.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mira la comisión antes que la rentabilidad: la rentabilidad pasada no predice nada y la comisión se resta siempre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi ningún profesional bate al mercado durante veinte años seguidos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un fondo indexado es un fondo que no elige nada: compra todas las empresas de un índice, en la proporción de su tamaño, y se queda quieto. Como no hay nadie decidiendo, la comisión es una fracción de la de un fondo gestionado, a menudo diez o veinte veces menor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que zanjó la discusión en público fue una apuesta con nombre y fecha. En 2007, Warren Buffett apostó un millón de dólares a que un fondo indexado sencillo sobre las quinientas mayores empresas estadounidenses batiría en diez años a una selección de fondos de alto riesgo elegidos por un gestor profesional. Ganó la apuesta con mucha holgura y donó el dinero a una organización benéfica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que zanjó la discusión en público fue una apuesta. En 2007, Warren Buffett apostó un millón de dólares a que un fondo indexado sencillo batiría en diez años a una selección de fondos de alto riesgo elegidos por un profesional. Ganó la apuesta con holgura, y donó el dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia que saca Sethi es de humildad y de tiempo. Si los profesionales que se dedican a esto a jornada completa no consiguen batir al índice de manera sostenida, un particular con un rato los domingos tampoco va a conseguirlo. Comprar el índice entero no es rendirse: es dejar de pagar por intentar algo que casi nadie logra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si quien se dedica a esto a jornada completa no bate al índice, tú con los domingos tampoco vas a batirlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un sistema automático funciona porque no depende de que ese día te apetezca",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte más práctica del libro es un montaje que Sethi describe paso a paso y que se hace una vez. Consiste en programar transferencias automáticas el mismo día en que entra la nómina, de manera que el ahorro y la inversión salgan antes de que el dinero esté disponible para gastarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento no es de disciplina, es de diseño. Cualquier plan que exija acordarse cada mes de hacer una transferencia depende de doce decisiones al año tomadas por alguien cansado, y falla. Un plan que ocurre solo depende de una decisión tomada un domingo por la tarde, y esa sí se toma bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y llega hasta el detalle que casi todos los libros de finanzas personales evitan: negociar. Sethi dedica páginas concretas a cómo pedir por teléfono que le quiten a uno una comisión bancaria, cómo renegociar el tipo de interés de una deuda y cómo preparar una petición de aumento de sueldo. Son conversaciones de quince minutos que valen más dinero que un año entero recortando gastos pequeños.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y llega hasta el detalle incómodo: negociar. Sethi dedica páginas a cómo pedir la eliminación de una comisión bancaria, cómo renegociar un tipo de interés y cómo preparar una petición de aumento. Son conversaciones de quince minutos que valen más que un año entero de recortar gastos pequeños.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que el ahorro salga solo el día de la nómina: un plan que depende de acordarse falla doce veces al año.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Recortar en todo fracasa siempre, y recortar en tres cosas funciona" },
+      {
+        b: "texto",
+        texto:
+          "El gasto consciente es la idea que separa este libro de los manuales de austeridad, y consiste en un reparto. Sethi propone decidir dos o tres cosas en las que gastar sin ninguna culpa —lo que a esa persona en concreto le dé alegría— y recortar sin piedad en todo lo demás, incluidas cosas que socialmente se dan por obligatorias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y va justo en contra de la lógica del ahorro por productos que venden los bancos. La pregunta que propone no es cuánto se puede recortar del total, sino cuáles de las compras de los últimos seis meses siguen produciendo algo hoy. Casi siempre resultan ser muy pocas, y casi siempre no coinciden con las que esa persona defendería en voz alta si alguien se las discutiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y va contra la lógica del ahorro por productos que venden los bancos. La pregunta no es cuánto se puede recortar, sino qué compras de los últimos seis meses siguen produciendo algo hoy. Casi siempre son muy pocas, y casi siempre no son las que se defenderían en voz alta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejercicio que propone se hace en una tarde: sacar el extracto de tres meses y clasificar cada gasto en dos columnas, el que se repetiría y el que no. La segunda columna suele ser mucho mayor de lo que nadie espera, y ahí está todo el margen sin tener que renunciar a nada que importe.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Elige dos cosas en las que gastar sin culpa y elimina cinco categorías enteras: recortarlo todo un poco no lo aguanta nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La deuda cara se paga antes que cualquier inversión, y con una sola cuenta se ve",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sethi dedica un capítulo entero a las tarjetas de crédito y su cuenta es de una línea. Si una deuda cobra un veinte por ciento anual y una inversión razonable rinde un siete, pagar esa deuda equivale a una inversión garantizada del veinte por ciento. No existe ningún producto financiero legal que ofrezca eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace difícil verlo es que la deuda no se presenta como un tipo de interés, se presenta como una cuota mensual pequeña. Pagar el mínimo de una tarjeta con un saldo importante puede llevar más de una década, y el total pagado acaba siendo el doble de lo que se compró. La cuota mensual oculta el precio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su recomendación es ordenar las deudas por tipo de interés, de mayor a menor, y atacar la más cara mientras se paga el mínimo en las demás. Menciona la alternativa popular de empezar por la más pequeña para ganar impulso psicológico, y admite que funciona con quien necesita ver una victoria pronto, aunque cueste más dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hace una distinción que en España se aplica igual: no toda la deuda es lo mismo. Una hipoteca a tipo bajo y un descubierto de tarjeta no son el mismo problema aunque los dos se llamen deuda, y tratarlos igual lleva a mucha gente a amortizar hipoteca mientras arrastra un saldo al veinte por ciento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quitarte una deuda al veinte por ciento es una inversión garantizada al veinte por ciento, y eso no lo vende nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que enseña de verdad este libro, pese al título, es aritmética y fontanería. El interés compuesto y la regla del setenta y dos. Que la comisión es lo único conocido de antemano y se lleva una cuarta parte de cuarenta años de ahorro. Que casi nadie bate al índice. Y que un sistema automático rinde más que cualquier cantidad de fuerza de voluntad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en para quién está escrito, y el libro no lo aclara en ninguna página. Todo el método supone un ingreso estable, un excedente mensual por pequeño que sea y un horizonte de décadas. Para quien tiene ingresos irregulares, deudas que crecen más rápido que el sueldo o un horizonte de meses, el consejo de automatizar aportaciones no es que sea flojo: es que no se puede ejecutar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en el país. Está escrito para el sistema estadounidense y sus siglas —los planes de empresa, las cuentas de jubilación con ventajas fiscales, el historial crediticio que allí determina el precio de una hipoteca—, y varias de esas piezas no existen igual fuera. La mecánica financiera es universal; los productos concretos que recomienda, no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después le dio la razón en lo importante. Los fondos indexados, que en 2009 eran un producto minoritario del que casi nadie hablaba, pasaron a mover una parte enorme del ahorro mundial, y varias jurisdicciones han apretado desde entonces la obligación de enseñar las comisiones por adelantado. Sethi publicó una edición actualizada en 2019 y montó después un programa de televisión donde se ve la parte que el libro no cuenta: que casi nadie falla por no saber la aritmética.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Enseña la aritmética que nadie enseña, y da por supuesto un sueldo estable que no todo el mundo tiene.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "ensenare-ser-rico": ENSENARE_SER_RICO,
   "senor-anillos": SENOR_ANILLOS,
   "piensalo-otra-vez": PIENSALO_OTRA_VEZ,
   "empieza-porque": EMPIEZA_PORQUE,

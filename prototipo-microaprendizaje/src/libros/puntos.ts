@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "ensenare-ser-rico": [
+    "por qué empezar antes pesa más que elegir bien el producto",
+    "cuánto se lleva una comisión pequeña a lo largo de una vida",
+    "por qué comprar el índice entero bate a casi todos los gestores",
+    "cómo montar un sistema que no dependa de tu voluntad",
+    "por qué recortarlo todo un poco no lo aguanta nadie",
+  ],
+
   "senor-anillos": [
     "qué hace creíble un mundo inventado, que no es lo asombroso",
     "por qué hay poderes que corrompen a cualquiera que los use",

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "ensenare-ser-rico":
+    "Una comisión anual del uno por ciento se lleva alrededor de una cuarta parte de lo ahorrado en cuarenta años, y es la única variable de una inversión que se conoce de antemano. Sethi enseña aritmética y automatismos, no atajos.",
+
   "senor-anillos":
     "Tolkien era filólogo y llevaba treinta años construyendo dos idiomas élficos completos cuando escribió el primer capítulo. Siempre sostuvo que las historias las hizo para dar un mundo a las lenguas, y no al revés.",
 
