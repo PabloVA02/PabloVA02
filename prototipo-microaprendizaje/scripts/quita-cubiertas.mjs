@@ -3,13 +3,20 @@
  *
  *   node scripts/quita-cubiertas.mjs <fichero-con-ids>
  *
- * POR QUÉ EXISTE
+ * NO SE EJECUTA POR INICIATIVA PROPIA. NUNCA.
  *
- * El 25 de agosto Pablo miró las 216 cubiertas y dijo lo que había que decir:
- * ochenta y una llevaban solo el título y el autor, sin ninguna frase debajo.
- * Y la frase es media portada. Es lo que enseña el apartado 5 bis de
- * REDACCION.md sobre los estantes de Headway: el título casi nunca promete
- * nada y quien promete es el subtítulo.
+ * El 25 de agosto lo usé para retirar 81 cubiertas de Pablo creyendo que
+ * llevaban solo título y autor. Estaban las 81 ilustradas —el ferrocarril de
+ * Ana Karenina, el perfil de Sócrates, los abanicos de Bernarda Alba— y eran
+ * buenas. Las devolví el mismo día. El error no fue del script: fue mirar 216
+ * dibujos por encima y decidir solo que a algunos les faltaba una frase.
+ *
+ * De ahí la regla: una cubierta se retira cuando Pablo dice ESA, por su id.
+ * Los dibujos son lo único de este proyecto que no se puede rehacer, y ante la
+ * duda se dejan puestos y se le pregunta.
+ *
+ * Y antes de tocar nada, MIRARLAS: una hoja de contacto con las candidatas y
+ * su id debajo, y leerla de verdad. Una lista de ids no enseña un dibujo.
  *
  * Quitarlas a mano de un fichero con cientos de constantes en base64 es la
  * manera de romper la de al lado, así que esto lo hace por su cuenta: borra

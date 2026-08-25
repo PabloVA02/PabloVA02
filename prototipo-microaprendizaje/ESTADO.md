@@ -407,6 +407,31 @@ después los conocidos y al final el resto por categorías.
    se recicla sin avisar y un libro escrito y no empujado se pierde entero.
    Ya pasó una vez con *Repensar la pobreza*.
 
+## LAS CUBIERTAS DE PABLO NO SE TOCAN SIN QUE ÉL LO DIGA
+
+Son 216, están en `cubiertas-originales/` y son **lo único del proyecto que no
+se puede rehacer**: un resumen mal escrito se reescribe en veinte minutos, un
+dibujo no.
+
+El 25 de agosto retiré 81 con `quita-cubiertas.mjs` porque me pareció que
+llevaban solo título y autor. Estaban las 81 ilustradas y estaban bien. Pablo
+lo vio enseguida —«si portadas teníamos un montón mías, revisa bien»— y se
+devolvieron el mismo día: `git checkout <commit>^ -- src/libros/cubiertas.ts`
+y los `.webp` de vuelta desde `reemplazadas/`. No se perdió ninguna.
+
+Lo que hay que hacer distinto la próxima vez:
+
+1. **Mirar los dibujos, no la lista de ids.** Hoja de contacto de doce en doce
+   con el id debajo, y leerla entera. Un id no enseña un dibujo.
+2. **Se retira la que Pablo nombre, por su id.** Nunca un criterio mío aplicado
+   a ochenta.
+3. **Ante la duda, se deja puesta y se pregunta.**
+
+Y para saber cuántas faltan de verdad, el cruce es entre `catalogo.ts` y
+`cubiertas.ts`, separando escritos de pendientes: hoy **216 dibujadas, 60
+libros escritos sin dibujo y 142 pendientes**. La lista con título, autor y año
+está en `PORTADAS-QUE-FALTAN.md` y se regenera sola.
+
 ## Lo que está cerrado y no se toca
 
 - `DISENO.md` — la pantalla de lectura. Ojo a la lista de **lo que NO se
