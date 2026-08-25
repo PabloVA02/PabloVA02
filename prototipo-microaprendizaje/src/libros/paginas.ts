@@ -87297,7 +87297,273 @@ const VENDER_ES_HUMANO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Cometas en el cielo, en ocho paginas.
+
+   Breve. NARRATIVA -> titulo corto de imagen en el rotulo y afirmacion en la
+   primera frase (apartado 3 bis).
+
+   CAJA EN TERCERA PERSONA. Apartado 4 bis: hay una violacion de un nino, una
+   guerra y unas ejecuciones, y la segunda persona convertiria eso en material de
+   autoayuda. Ni una frase del tipo 'lo que aprendes cuando fallas a un amigo'.
+
+   Y la regla de contar lo que casi nadie cuenta. Lo sabido: es la historia de
+   una traicion entre dos amigos de la infancia. Lo que casi nadie dice y esta
+   en el libro: que no eran amigos en pie de igualdad. Hassan es criado, hazara,
+   chii y analfabeto en una casa pastun y suni, y su devocion es en parte la de
+   quien no tiene otra cosa. La culpa de Amir es inseparable de su clase.
+
+   La conclusion recoge lo que se le ha reprochado desde el mundo afgano: que el
+   villano rubio y admirador de Hitler convierte el mal en un individuo
+   desquiciado en vez de en un sistema, y que los personajes hazara existen para
+   ser victimas y ser salvados por un pastun.
+   -------------------------------------------------------------------------- */
+
+const KITE_RUNNER: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El invierno de 1975" },
+      {
+        b: "texto",
+        texto:
+          "La novela empieza con un hombre de treinta y ocho años recibiendo una llamada desde Pakistán y diciendo que se hizo lo que es en un callejón de Kabul, en el invierno de 1975, cuando tenía doce años. Todo lo que viene después está construido para explicar esa frase, y el lector tarda cien páginas en entenderla del todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Khaled Hosseini nació en Kabul en 1965, hijo de un diplomático, y su familia pidió asilo en Estados Unidos en 1980 tras la invasión soviética. Escribió esto siendo médico y lo publicó en 2003, dos años después de que su país volviera a las portadas. Es su primera novela y ha vendido decenas de millones de ejemplares.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurre en aquel invierno es un torneo de cometas, que en el Kabul de entonces era el acontecimiento del año. Se cortaban los hilos de los rivales con cuerda recubierta de vidrio molido, y cuando una cometa caía, unos chicos corrían por la ciudad a cogerla. Amir gana el torneo y Hassan sale a buscarle la última cometa cortada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre qué clase de amistad era aquella y por qué no era entre iguales, qué pasó en el callejón y qué hizo Amir desde la esquina, cómo se traiciona a alguien después de haberle fallado, qué fue de aquella familia en el exilio, qué le pidieron veintiséis años después y qué se le puede reprochar a este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La novela empieza diciendo que un hombre se convirtió en lo que es a los doce años. Todo lo demás está escrito para explicar esa frase.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un amigo que era un criado" },
+      {
+        b: "texto",
+        texto:
+          "Lo que casi nadie cuenta al resumir esta novela es que Amir y Hassan no eran amigos en pie de igualdad, y el libro lo dice desde las primeras páginas. Amir es hijo de un comerciante rico, pastún y suní. Hassan es hijo del criado de la casa, hazara y chií, y pertenece a una minoría a la que en aquel Afganistán se despreciaba abiertamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las diferencias son materiales y están contadas sin adornos. Hassan vive con su padre en una casucha en el jardín, prepara el desayuno de Amir, le plancha la ropa, le hace la cama y no va al colegio porque no se le ocurre a nadie mandarle. Es analfabeto, y Amir le lee cuentos en voz alta y a veces le engaña cambiando las palabras porque puede.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hosseini deja también la parte que a Amir le cuesta reconocer. Hassan le defiende de los otros chicos, le encubre, no le contradice nunca y repite una frase que se convierte en la del libro: por ti lo haría mil veces. Esa lealtad es real y a la vez es la lealtad de alguien que no tiene ninguna otra cosa ni ningún otro sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa desigualdad es el motor de todo lo que pasa después y por eso conviene ponerla delante. Amir no falla a un igual: falla a alguien a quien puede fallar sin consecuencias, en una ciudad donde nadie va a pedirle cuentas por lo que le pase al hijo de un criado hazara. La culpa que carga el resto de su vida está hecha de eso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No era una amistad entre iguales. Uno leía y el otro preparaba el desayuno, y eso decide todo lo que ocurre después.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que vio desde la esquina" },
+      {
+        b: "texto",
+        texto:
+          "La escena que sostiene la novela dura pocas páginas y está contada con una frialdad que la hace peor. Hassan encuentra la cometa y, de vuelta, tres chicos mayores le acorralan en un callejón. El que manda es Assef, un matón del barrio, y le exige la cometa. Hassan se niega porque es de Amir, y por negarse recibe lo que recibe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Amir llega buscándole, ve la escena desde la esquina y no hace nada. No grita, no pide ayuda, no entra. Se queda mirando y luego se va corriendo, y espera fuera a que Hassan aparezca para fingir que acaba de llegar. Hassan llega con la cometa en la mano y con la ropa manchada, y ninguno de los dos dice una palabra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hosseini escribe la parte más incómoda sin escaparse: mientras mira, Amir se dice a sí mismo que Hassan es solo un hazara. La novela no presenta la cobardía como un momento de pánico sin explicación, sino como algo que necesita una justificación, y enseña de dónde la saca un niño de doce años criado en aquella casa y en aquella ciudad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade la otra razón, que es la del padre. Amir lleva toda su vida intentando que su padre le mire con orgullo, y aquella cometa es el trofeo que por fin lo consigue. Entrar en el callejón habría significado volver sin ella. La novela sostiene que en aquella esquina se cruzaron el miedo, el desprecio de clase y las ganas de gustarle a alguien.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La novela no cuenta la cobardía como un momento de pánico, sino como algo que necesita una justificación, y enseña de dónde la sacó.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El reloj debajo del colchón" },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurre después del callejón es lo que hace que este libro no sea una historia de culpa corriente. Amir no puede soportar la presencia de Hassan, porque cada vez que lo ve recuerda lo que hizo, y en vez de pedirle perdón decide quitárselo de delante. Le pide a su padre que despida a los criados y su padre se niega en redondo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entonces esconde su reloj de cumpleaños y un fajo de billetes debajo del colchón de Hassan y acusa a Hassan de habérselos robado. Es una trampa infantil y funciona. Cuando el padre pregunta, Hassan dice que sí, que lo robó él. Sabe perfectamente lo que está pasando y miente para proteger a Amir, que es lo que ha hecho toda su vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El padre les perdona, y aun así Ali se marcha con su hijo esa misma tarde bajo la lluvia. Hosseini deja claro que Ali sabe lo del callejón, porque Hassan se lo ha contado, y que se van por eso. Amir mira el coche alejarse desde una ventana. No vuelven a verse nunca más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo que describe ese tramo es lo mejor psicológicamente del libro. Después de hacerle daño a alguien, lo más difícil de soportar no es el daño sino la cara de la persona, y la salida más fácil no es reparar sino apartarla. Amir no traiciona a Hassan porque le odie: le traiciona porque no soporta tenerle delante recordándole quién es él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Después de hacer daño a alguien, lo que más cuesta soportar es su cara. Y apartarla resulta más fácil que reparar lo hecho.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un hombre rico en una gasolinera" },
+      {
+        b: "texto",
+        texto:
+          "La segunda parte de la novela cambia de país y de tono, y es la que Hosseini escribe con más conocimiento propio. En 1981, con los soviéticos en Afganistán, Amir y su padre huyen escondidos en un camión cisterna hasta Pakistán, y de allí llegan a California. El hombre que en Kabul tenía casa, coche y criados acaba trabajando en una gasolinera de Fremont.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los capítulos del exilio están llenos de detalles pequeños y muy exactos. Baba no entiende que en Estados Unidos haya que enseñar el carné para pagar con cheque, y se ofende como si le llamaran ladrón. Los domingos, padre e hijo compran trastos en mercadillos y los revenden en otro, entre familias afganas que hacen lo mismo y que fuera de allí eran médicos y militares.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa parte contiene la mejor idea del libro sobre el destierro: que no consiste solo en perder un país, sino en perder el sitio que uno ocupaba dentro de él. Baba sigue siendo respetado en el mercadillo por los afganos, que saben quién era, y no es nadie para el resto del país en el que vive, y esa doble condición dura hasta que se muere.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Amir estudia, escribe, se casa con Soraya, la hija de un general exiliado, y entierra a su padre en 1987. Vive quince años tranquilos y publica novelas. Hosseini dedica esas páginas a enseñar que la culpa no se va con la distancia ni con el éxito: simplemente deja de doler todos los días y pasa a doler cuando algo la toca.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El destierro no consiste solo en perder un país: consiste en perder el sitio que uno ocupaba dentro de él, y ese no se recupera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una manera de volver a ser bueno" },
+      {
+        b: "texto",
+        texto:
+          "En el verano de 2001, Amir recibe una llamada de Rahim Khan, el viejo socio de su padre, que está enfermo en Peshawar y le pide que vaya. Le dice una frase que da título a un capítulo y que resume el libro entero: hay una manera de volver a ser bueno. Amir coge un avión sabiendo que va a que le cuenten algo que no quiere oír.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que le cuentan son dos cosas. La primera, que Hassan era su hermano: hijo de su padre y de la mujer de Ali, un secreto que sostuvieron todos los adultos de aquella casa durante años. La segunda, que Hassan y su mujer volvieron a cuidar la casa de Kabul y fueron ejecutados en la calle por los talibanes, y que su hijo Sohrab quedó solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La revelación del parentesco reorganiza toda la primera parte y es también la pieza más discutible del libro, porque convierte una responsabilidad moral en un asunto de sangre. Amir se enfada con su padre muerto por la misma razón por la que se odia a sí mismo: los dos mintieron y los dos dejaron que otro pagara por su mentira.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resto es un viaje de vuelta a un Kabul irreconocible, con la ciudad en ruinas, mujeres pidiendo en la calle y ejecuciones públicas en el estadio de fútbol a media parte de un partido. Amir encuentra a Sohrab en manos de un comandante talibán que resulta ser Assef, el mismo del callejón, y la novela cobra ahí una simetría que discutiremos al final.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La frase que pone en marcha el regreso no promete perdón ni olvido: dice que hay una manera de volver a ser bueno, y eso es otra cosa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El niño que dejó de hablar" },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro es la menos citada y la que impide que sea una historia de redención cómoda. Amir consigue sacar a Sohrab de Kabul, pero lo que se lleva no es un niño rescatado: es un niño de diez años que apenas habla, que se sobresalta con el ruido y que ha pasado meses en manos de sus captores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después vienen los trámites, que Hosseini cuenta con una lentitud deliberada. Adoptar a un huérfano afgano desde Estados Unidos resulta casi imposible, faltan certificados que no existen porque no existe el registro que los emitía, y en algún momento se le plantea a Sohrab volver a un orfanato mientras se resuelve el papeleo. Esa noche el niño intenta matarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobrevive, y a partir de ahí deja de hablar durante casi un año. La novela dedica sus últimas páginas a ese silencio y no lo resuelve: no hay una conversación que lo arregle, ni una terapia que funcione, ni un momento en que el niño perdone a nadie. Lo único que hay es un hombre esperando a su lado durante meses.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El final es una escena de cometas en un parque de California, con una comunidad afgana celebrando el año nuevo. Amir corta una cometa, sale a correr detrás de ella para Sohrab y le dice la frase que Hassan le decía a él. El niño esboza algo que casi es una sonrisa. Hosseini se para exactamente ahí, sin prometer nada más.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro no termina con un perdón ni con una conversación que lo arregle. Termina con alguien esperando al lado de un niño que no habla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que esta novela hace bien es contar la cobardía sin rebajarla. Enseña que un niño necesita una justificación para no ayudar y de dónde la saca; que después del daño lo insoportable es la cara del otro y que apartarla es más fácil que reparar; y que la culpa no se cura con la distancia ni con el éxito, solo deja de doler a diario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en el villano. Assef es rubio, de ojos azules, admira a Hitler, tortura por gusto desde niño y reaparece veintiséis años después convertido justo en el comandante que retiene a Sohrab. Con eso, el mal deja de ser un sistema político y pasa a ser un individuo desquiciado, que es exactamente la versión que no obliga a mirar nada más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en el reparto de papeles, y así se le ha reprochado desde el mundo afgano. Los personajes hazara existen sobre todo para ser víctimas: Hassan casi no tiene vida interior, muere fuera de escena, y su hijo se pasa el último tercio del libro mudo mientras un pastún acomodado decide su destino y se redime en el proceso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un peso que el libro no pidió. Publicado en 2003, dos años después de la invasión, se convirtió para millones de lectores occidentales en su principal fuente sobre Afganistán, escrito por alguien que salió de allí con quince años y volvió por primera vez el año en que se publicó. En agosto de 2021 los talibanes recuperaron el poder, y el final de esta novela, con el niño a salvo en California, se lee hoy de otra manera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un mal encarnado en un individuo desquiciado es cómodo de leer: no obliga a mirar el sistema que hizo posible lo demás.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "kite-runner": KITE_RUNNER,
   "vender-es-humano": VENDER_ES_HUMANO,
   gulag: GULAG,
   patria: PATRIA,

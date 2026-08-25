@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "kite-runner":
+    "Un hombre de treinta y ocho años recibe una llamada desde Pakistán y dice que se hizo lo que es en un callejón de Kabul, en el invierno de 1975, cuando tenía doce años. Todo el libro está escrito para explicar esa frase.",
+
   "vender-es-humano":
     "Una de cada nueve personas trabaja en ventas, y Pink se pregunta qué hacen las otras ocho. En su encuesta a siete mil trabajadores, los que no eran comerciales declararon dedicar unos veinticuatro minutos de cada hora a convencer a alguien.",
 

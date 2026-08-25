@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "kite-runner": [
+    "por qué aquella amistad no era entre iguales, y qué decide eso",
+    "qué necesita un niño para justificarse cuando no ayuda",
+    "por qué después de hacer daño cuesta tanto ver a la otra persona",
+    "en qué consiste el destierro además de perder un país",
+    "por qué el villano de esta novela resulta tan cómodo de leer",
+  ],
+
   "vender-es-humano": [
     "por qué las técnicas de presión dejaron de funcionar, y no por ética",
     "qué rinde más que sentir lo que siente el otro",

@@ -261,7 +261,7 @@ export const CATALOGO: Ficha[] = [
   { id: "amor-tiempos-colera", titulo: "El amor en los tiempos del cólera", autor: "Gabriel García Márquez", ano: 1985, categoria: "Literatura", estado: "pendiente" },
   { id: "perfume", titulo: "El perfume", autor: "Patrick Süskind", ano: 1985, categoria: "Literatura", estado: "escrito" },
   { id: "ladrona-libros", titulo: "La ladrona de libros", autor: "Markus Zusak", ano: 2005, categoria: "Literatura", estado: "pendiente" },
-  { id: "kite-runner", titulo: "Cometas en el cielo", autor: "Khaled Hosseini", ano: 2003, categoria: "Literatura", estado: "pendiente" },
+  { id: "kite-runner", titulo: "Cometas en el cielo", autor: "Khaled Hosseini", ano: 2003, categoria: "Literatura", estado: "escrito" },
   { id: "mil-soles", titulo: "Mil soles espléndidos", autor: "Khaled Hosseini", ano: 2007, categoria: "Literatura", estado: "pendiente" },
   { id: "martes-con-mi-profesor", titulo: "Martes con mi viejo profesor", autor: "Mitch Albom", ano: 1997, categoria: "Literatura", estado: "escrito" },
   /* --- Psicología ------------------------------------------------------- */
