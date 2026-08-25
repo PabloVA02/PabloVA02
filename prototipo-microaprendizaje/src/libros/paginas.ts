@@ -64382,7 +64382,290 @@ const DETERMINACION: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Inteligencia erótica, en ocho páginas.
+
+   Breve. Ensayo con material clínico → afirmación entera en el rótulo y
+   segunda persona en la caja (apartados 3 bis y 4.7).
+
+   Riesgo principal: es el libro del cajón de amor y sexo donde más fácil
+   sería caer en el eufemismo o en lo contrario. Se escribe con la misma
+   prosa llana que el resto: se nombra lo que hay que nombrar, una vez, sin
+   adornos y sin cargar las tintas.
+
+   Y la conclusión dice lo que le falta: son casos de consulta, no datos.
+   -------------------------------------------------------------------------- */
+
+const INTELIGENCIA_EROTICA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El deseo necesita distancia y el amor necesita cercanía, y por eso se estorban",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esther Perel es terapeuta de pareja en Nueva York, habla nueve idiomas y ha trabajado con parejas de una veintena de países. La pregunta que le llevó a escribir este libro se la hacían una y otra vez en la consulta: por qué el deseo se apaga precisamente cuando la relación va bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su respuesta es que el amor y el deseo se alimentan de cosas contrarias. El amor quiere cercanía, previsibilidad, saberlo todo del otro y que no haya sorpresas desagradables. El deseo quiere distancia, novedad, algo que no se controla del todo. Cada uno se lleva lo que le falta al otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la paradoja que da sentido al libro. Muchas parejas construyen con enorme trabajo justo lo que apaga el deseo: intimidad total, transparencia, ninguna zona propia, todo compartido. Y luego se preguntan qué han hecho mal, cuando lo que ha pasado es que lo han hecho demasiado bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Perel no propone elegir entre las dos cosas ni renunciar a ninguna. Propone entender que hay una tensión que no se resuelve, solo se administra, y que administrarla consiste sobre todo en no eliminar la distancia que queda. Perel escribe además desde una posición poco común: nació en Bélgica, hija de dos supervivientes de campos de concentración, y dice que aprendió muy pronto la diferencia entre estar vivo y no estar muerto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Puedes tenerlo todo compartido o puedes tener deseo, y casi nadie te avisa de que hay que elegir cuánto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Se desea al otro cuando se le mira desde fuera" },
+      {
+        b: "texto",
+        texto:
+          "El momento en que la gente vuelve a mirar a su pareja con deseo tiene un patrón, y Perel lo encontró preguntándolo en cientos de consultas: casi siempre es cuando la ve desde lejos y en su elemento. Dando una clase, hablando con desconocidos, riéndose con otra gente, haciendo bien algo que uno no sabe hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación es que ahí el otro no está en su papel doméstico. Deja de ser la persona con la que se organiza la compra y vuelve a ser alguien independiente, con vida propia, que podría no estar. Y esa posibilidad —remota, teórica— es lo que enciende algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su consejo más citado y menos entendido: no se trata de meter novedades en la pareja, sino de recuperar la separación. Dos personas que tienen amigos propios, oficios propios y ratos en los que no saben qué está haciendo el otro se siguen mirando; dos personas fundidas, no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro llama a esto el erotismo de la distancia, y avisa de que cuesta aceptarlo porque suena a frialdad. Perel insiste en que es al revés: lo que mata el deseo no es el desamor, es la fusión, y la fusión suele empezar como una prueba de amor. Lo ilustra con una escena que oye a menudo: alguien que vuelve a fijarse en su pareja al verla en una fiesta, hablando con otra persona, y siente unos celos pequeños que llevaban años sin aparecer.",
+      },
+      { b: "idea", texto: "Miras con deseo a quien podría no estar; a quien das por hecho, no." },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La seguridad tranquiliza y el misterio excita, y hacen falta las dos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Perel toma prestado el vocabulario de la teoría del apego y le da la vuelta. Está demostrado que un vínculo seguro es la base de una relación sana, y ella no lo discute; lo que sostiene es que ese mismo vínculo, llevado al extremo, apaga la parte erótica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo compara con lo que le pasa a un niño: necesita una base segura para atreverse a explorar, y la exploración le lleva lejos de la base. Una pareja funciona igual, y el error de muchas es quedarse todo el tiempo en la base porque salir da miedo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la consulta eso aparece como parejas que se describen como mejores amigos y hablan de su vida sexual en pasado. Se quieren, se cuidan, se cuentan todo. Y han convertido al otro en familia, que es el único vínculo humano en el que el deseo está culturalmente prohibido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La corrección que propone no es dramática: recuperar la cortesía, arreglarse para el otro, no contarlo absolutamente todo, mantener algo de vida propia. Cosas que se abandonan por comodidad y que se leen como confianza cuando son, sobre todo, desatención. Y añade una observación de consulta: las parejas que mejor sostienen las dos cosas suelen tener rituales de despedida y de reencuentro, por pequeños que sean.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Convertir al otro en familia es lo más cómodo que puedes hacer, y lo que más deseo cuesta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El deseo se apaga por el trabajo doméstico repartido de una manera concreta",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos más útiles trata de lo cotidiano y de cómo se cuela en el dormitorio. Perel describe casas donde una de las dos personas lleva la lista mental de todo lo que hay que hacer, y explica por qué esa persona llega a la noche sin ninguna disposición para nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo no es el cansancio físico sino el papel. Quien reparte tareas, recuerda citas médicas y supervisa lo que hace el otro está ocupando durante todo el día una posición de responsable, casi maternal, y desde esa posición es muy difícil pasar a otra cosa en diez minutos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y avisa del error más común: intentar arreglarlo negociando la frecuencia. Discutir cuántas veces al mes convierte el asunto en una obligación contable y garantiza que se apague del todo. El reparto de tareas cambia más cosas que cualquier acuerdo sobre calendarios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Perel es directa sobre a quién le pasa esto más: en la inmensa mayoría de las parejas heterosexuales que ha tratado, la que lleva la lista mental es ella. Y por eso el capítulo termina con una idea que descoloca a mucha gente: repartir bien la casa es una intervención erótica.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien lleva todo el día la lista mental de la casa no cambia de papel en diez minutos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que se desea en privado casi nunca coincide con lo que se defiende en público",
+      },
+      {
+        b: "texto",
+        texto:
+          "Perel dedica un capítulo a algo que en su consulta aparece constantemente y fuera de ella casi nunca se dice: las fantasías de mucha gente no encajan con sus valores. Personas igualitarias que fantasean con lo contrario, personas seguras que fantasean con perder el control.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que la vida erótica no funciona con la lógica de la vida civil, y que exigirle coherencia es un error de categoría, como pedirle coherencia política a un sueño. Una fantasía no es un plan ni un deseo de que ocurra: es un lugar donde no rigen las mismas reglas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la consulta, buena parte del trabajo consiste en quitar la culpa a esa incoherencia, porque la culpa es lo que hace que la gente se calle. Y lo que apaga una relación no suele ser lo que uno desea, sino los años que lleva sin poder mencionarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro es cuidadoso con el límite: hablar no obliga a hacer. Perel distingue entre compartir lo que a uno le pasa por la cabeza y convertirlo en una exigencia, y sostiene que la mayoría de las parejas ganan mucho con lo primero y se estropean con lo segundo. También distingue entre la fantasía y lo que la gente quiere de verdad: en su experiencia, casi nadie desea que ocurra lo que imagina, y confundir las dos cosas asusta a mucha gente sin motivo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que enfría una relación no es lo que deseas: son los años que llevas sin poder decirlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Tener hijos reorganiza la casa entera y nadie avisa de lo que se lleva por delante",
+      },
+      {
+        b: "texto",
+        texto:
+          "Perel trata la llegada de los hijos sin la solemnidad habitual. Describe lo que ocurre con detalle: la casa se llena de logística, la cama deja de ser un sitio privado, el cuerpo de uno de los dos pasa meses siendo instrumento de otra cosa, y la pareja se convierte en un equipo de gestión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade una observación cultural que en su consulta se repite: en las familias donde el hijo ocupa el centro absoluto durante años, la pareja desaparece como tal. Y cuando los hijos se van, no queda nada debajo, porque durante veinte años nadie mantuvo nada debajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su recomendación es tan concreta como poco romántica: proteger un espacio que no sea de gestión, aunque sea pequeño y aunque haya que ponerlo en el calendario. Le reprochan que programar quita espontaneidad, y contesta que la espontaneidad de los treinta no vuelve por esperarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí es donde el libro discute con la idea dominante de la buena crianza. No dice que haya que atender menos a los hijos; dice que una casa donde los adultos han desaparecido como pareja tampoco es un buen sitio para crecer, y que los niños notan la diferencia. Cuenta que en su consulta la frase más repetida por parejas con hijos pequeños no es «ya no me atrae», sino «no me acuerdo de cuándo fue la última vez que hablamos de algo que no fueran ellos».",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si durante veinte años no mantienes nada debajo, cuando los hijos se van no queda nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La transparencia total no es intimidad: es vigilancia con buenas intenciones",
+      },
+      {
+        b: "texto",
+        texto:
+          "El último argumento del libro es el más discutido. Perel sostiene que la exigencia moderna de contarlo absolutamente todo —contraseñas compartidas, ubicación visible, ninguna conversación privada— no produce confianza sino su contrario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su razón es que la confianza consiste precisamente en no comprobar. Una pareja que puede verificarlo todo no está confiando: está vigilando con permiso. Y el que sabe que se le puede comprobar deja de contar por voluntad propia, que es lo único que tenía valor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí una distinción que hace a lo largo del libro y que conviene retener: intimidad no es información. Se puede saber todo de alguien y no tener ninguna intimidad con él, y se puede tener muchísima intimidad sin saber cada cosa que hizo el jueves.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Perel defiende el derecho a un espacio propio dentro de la pareja: pensamientos que no se cuentan, amistades que son de uno, ratos que no se justifican. No como concesión sino como condición, porque solo se puede desear a alguien que sigue siendo otra persona. Y avisa de que esto no es un permiso para esconder cosas importantes: una cuenta secreta o una relación paralela no son espacio propio, son otro asunto distinto que el libro trata aparte.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Confiar es no comprobar; si puedes comprobarlo todo, lo que tienes no es confianza.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Inteligencia erótica sostiene que el deseo y el amor piden cosas contrarias: uno distancia y otro cercanía. De ahí explica por qué el deseo se apaga en relaciones buenas, qué papel tienen el reparto de la casa, los hijos y la transparencia, y por qué la fusión, que parece la meta, es el problema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una explicación que no culpa a nadie. La mayoría del estante trata el asunto como un fallo —falta de amor, falta de técnica, falta de esfuerzo— y este lo trata como una tensión estructural que viene con el paquete. Eso, en una consulta, cambia por completo la conversación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en la prueba. Todo lo que sostiene viene de su consulta: parejas urbanas, con dinero para pagar terapia, que han acudido porque tienen un problema. No hay datos, ni muestras, ni grupo de comparación, y no sabemos cuántas parejas fundidas siguen deseándose perfectamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También conviene descontar un punto ciego. Su idea de que la seguridad excesiva apaga el deseo choca con la investigación sobre apego, donde el vínculo seguro se asocia a mejor vida sexual y no a peor. Perel lo menciona de pasada y no lo resuelve, y ese es el sitio por donde más se le ha discutido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Publicado en 2006, se tradujo a más de treinta idiomas y sus charlas suman decenas de millones de visitas. Perel publicó después un segundo libro sobre infidelidad que discute con el primero, y hoy es la voz más escuchada del mundo sobre esto, con lo bueno y lo malo de que una sola consulta se haya convertido en teoría general.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una explicación que te quita la culpa es muy valiosa, y eso no la convierte en un dato.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "inteligencia-erotica": INTELIGENCIA_EROTICA,
   determinacion: DETERMINACION,
   "dar-y-recibir": DAR_Y_RECIBIR,
   "lenguaje-del-cuerpo": LENGUAJE_DEL_CUERPO,

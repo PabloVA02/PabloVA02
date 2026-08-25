@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "inteligencia-erotica": [
+    "por qué el amor y el deseo piden cosas contrarias",
+    "en qué momento se vuelve a mirar con deseo a la pareja",
+    "qué relación tiene el reparto de la casa con el dormitorio",
+    "por qué las fantasías no coinciden con lo que uno defiende",
+    "por qué la transparencia total no produce confianza",
+  ],
+
   determinacion: [
     "por qué el esfuerzo cuenta dos veces y el talento una",
     "por qué llamar genio a alguien te deja tranquilo",

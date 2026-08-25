@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "inteligencia-erotica":
+    "Por qué el deseo se apaga justo cuando la relación va bien. Perel sostiene que el amor pide cercanía y el deseo pide distancia, y que muchas parejas construyen con esfuerzo lo que apaga una de las dos.",
+
   determinacion:
     "Duckworth buscó qué predice quién abandona una academia militar durísima, y no fue la aptitud física ni las notas. De ahí sale una medida de la constancia, sus herramientas y su polémica.",
 

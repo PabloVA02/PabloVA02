@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "inteligencia-erotica": "Claves para mantener la pasión en la pareja",
   determinacion: "El poder de la pasión y la perseverancia",
   "dar-y-recibir": "Por qué ayudar a los demás conduce al éxito",
   "lenguaje-del-cuerpo": "Cómo leer la mente de los demás a través de sus gestos",
