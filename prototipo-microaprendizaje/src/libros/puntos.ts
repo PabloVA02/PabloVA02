@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "juegos-hambre": [
+    "por qué una lotería que se compra con comida deja de ser azar",
+    "qué decide de verdad quién sobrevive ahí dentro, que no es pelear",
+    "qué te pasa cuando sabes en todo momento que te están mirando",
+    "por qué un espectáculo en directo se le puede volver en contra a quien manda",
+    "por qué salir de allí no es lo mismo que haber terminado",
+  ],
+
   "vendedor-mas-grande": [
     "la instrucción de lectura que casi ninguno de sus lectores cumple",
     "por qué un mal hábito no se quita decidiéndolo",

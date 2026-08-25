@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "juegos-hambre":
+    "Collins ha contado que la idea le vino haciendo zapeo entre un concurso de telerrealidad y las imágenes de la guerra de Irak. En su país, cada distrito sortea dos adolescentes al año para que se maten en directo, y es obligatorio verlo.",
+
   "vendedor-mas-grande":
     "El libro de ventas más vendido de la historia, con más de cincuenta millones de ejemplares, no explica en ningún momento cómo se vende. Es una parábola con diez pergaminos y una instrucción muy estricta sobre cómo hay que leerlos.",
 

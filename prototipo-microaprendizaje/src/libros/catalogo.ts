@@ -244,7 +244,7 @@ export const CATALOGO: Ficha[] = [
   { id: "harry-potter-1", titulo: "Harry Potter y la piedra filosofal", autor: "J. K. Rowling", ano: 1997, categoria: "Literatura", estado: "escrito" },
   { id: "senor-anillos", titulo: "El señor de los anillos", autor: "J. R. R. Tolkien", ano: 1954, categoria: "Literatura", estado: "escrito" },
   { id: "codigo-da-vinci", titulo: "El código Da Vinci", autor: "Dan Brown", ano: 2003, categoria: "Literatura", estado: "escrito" },
-  { id: "juegos-hambre", titulo: "Los juegos del hambre", autor: "Suzanne Collins", ano: 2008, categoria: "Literatura", estado: "pendiente" },
+  { id: "juegos-hambre", titulo: "Los juegos del hambre", autor: "Suzanne Collins", ano: 2008, categoria: "Literatura", estado: "escrito" },
   { id: "cumbres-borrascosas", titulo: "Cumbres borrascosas", autor: "Emily Brontë", ano: 1847, categoria: "Literatura", estado: "escrito" },
   { id: "jane-eyre", titulo: "Jane Eyre", autor: "Charlotte Brontë", ano: 1847, categoria: "Literatura", estado: "escrito" },
   { id: "el-proceso", titulo: "El proceso", autor: "Franz Kafka", ano: 1925, categoria: "Literatura", estado: "pendiente" },

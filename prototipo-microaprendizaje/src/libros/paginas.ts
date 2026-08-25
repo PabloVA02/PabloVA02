@@ -89599,7 +89599,269 @@ const VENDEDOR_MAS_GRANDE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Los juegos del hambre, en ocho paginas.
+
+   Breve. NARRATIVA -> titulo corto de imagen en el rotulo y afirmacion en la
+   primera frase (apartado 3 bis). Caja en segunda persona con leccion, modelo
+   de La Odisea. Aqui la segunda persona SI vale, porque el mecanismo del libro
+   —actuar sabiendo que te miran— se traslada entero a la vida de cualquiera.
+
+   Apartado 4 bis, contar lo que casi nadie cuenta. Lo sabido: unos chavales se
+   matan en un bosque. Lo que hace grande al libro: apenas hay combate. Va de
+   una chica de dieciseis anos que tiene que gestionar su imagen para que le
+   manden comida, y que deja de saber cuales de sus sentimientos son suyos.
+
+   QUE PASO DESPUES, y es el mejor del catalogo: el saludo de tres dedos que se
+   inventa en el libro lo adoptaron manifestantes reales en Tailandia en 2014 y
+   en Birmania en 2021, y hubo detenidos por hacerlo.
+   -------------------------------------------------------------------------- */
+
+const JUEGOS_HAMBRE: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una lotería con niños dentro" },
+      {
+        b: "texto",
+        texto:
+          "Suzanne Collins ha contado que la idea le vino haciendo zapeo una noche: en un canal había un concurso de telerrealidad y en el siguiente imágenes de la guerra de Irak, y las dos cosas se le mezclaron. Publicó el libro en 2008 y la trilogía lleva vendidos más de cien millones de ejemplares.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El país se llama Panem y está construido sobre las ruinas de Norteamérica: un Capitolio rico y doce distritos que le mandan carbón, grano, pescado o electricidad. Hubo un decimotercero y lo arrasaron en una rebelión hace setenta y cuatro años. Desde entonces existen los Juegos, y su función no es entretener.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cada año, cada distrito sortea a un chico y a una chica de entre doce y dieciocho años. Los veinticuatro entran en un recinto y solo puede salir uno. Se retransmite en directo, es obligatorio verlo, y el día del sorteo las familias van a la plaza con la ropa buena. Collins lo tomó del mito griego de los jóvenes atenienses enviados al Minotauro, y lo ha dicho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué una chica de dieciséis años se ofrece voluntaria para ir, en qué consiste de verdad sobrevivir ahí dentro —que no es pelear—, quién decide quién come, qué pasa cuando el público se encariña con una niña de doce, cómo se gana algo que está diseñado para no poder ganarse, y qué le falta a este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que ordena todo el libro no es la violencia: es que sea obligatorio mirarla. El castigo no son los muertos, es tener que verlos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El nombre que salió de la urna" },
+      {
+        b: "texto",
+        texto:
+          "Katniss Everdeen tiene dieciséis años y vive en el Distrito 12, que es minero, pobre y está en lo que fueron los Apalaches. Su padre murió en una explosión, su madre se hundió y desde entonces come la familia porque ella entra a cazar con arco fuera de la valla, cosa que está prohibida y castigada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el sorteo sale el nombre de su hermana Prim, que tiene doce años, que es el primer año que entraba en la urna y que tenía una sola papeleta entre miles. Katniss se ofrece voluntaria en su lugar. Es la primera escena del libro y decide todo lo demás: no está allí por ambición ni por deber, está por sustituir a alguien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese detalle del sorteo es de las mejores cosas del libro y suele pasarse por alto. Los chavales pueden meter papeletas de más a cambio de comida para su familia, así que a los dieciocho años un chico pobre tiene el nombre repetido decenas de veces y uno rico solo unas pocas. La lotería es del azar y el azar está comprado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro elegido del distrito es Peeta Mellark, el hijo del panadero, y Katniss le debe algo. Años antes, cuando su familia se estaba muriendo de hambre bajo la lluvia, él le tiró dos panes quemados y se llevó por ello un golpe de su madre. Nunca han hablado de aquello, y ahora uno de los dos tiene que matar al otro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando el azar se puede comprar con comida, deja de ser azar. La lotería del libro está trucada por la vía más limpia que existe.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que de verdad hay que ganar" },
+      {
+        b: "texto",
+        texto:
+          "Aquí está lo que casi nadie cuenta de este libro: apenas hay combate. La mayor parte de las páginas dentro del recinto no van de pelear sino de conseguir agua, esconderse, dormir sin que te encuentren, y sobre todo de una cosa que decide más que cualquier arma: caerle bien a la gente que está mirando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo se llama patrocinio. Los espectadores ricos del Capitolio pueden pagar para que le manden cosas a un concursante en mitad de los Juegos: agua, una manta, medicina, pan. Y eligen a quién se lo mandan según quién les guste. Un tributo simpático come; uno antipático se muere de sed teniendo un río a dos kilómetros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Haymitch Abernathy, el único ganador vivo del Distrito 12 y un borracho, es quien se lo explica a Katniss antes de entrar. Su consejo no es sobre armas: le dice que tiene que gustarle a la gente, porque él va a ser quien negocie con los patrocinadores y no puede vender a alguien a quien nadie de los que miran tiene ganas de ayudar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la parte incómoda de la novela. Todo lo que Katniss hace dentro está calculado para la cámara: cómo mira, cuándo llora, qué dice a un micrófono que sabe que está encendido. Y el libro deja claro que ella también lo sabe, y que actuar durante semanas sin descanso le cuesta algo que después ya no recupera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ahí dentro no gana quien mejor pelea: gana quien le cae bien a los que miran. El arma que decide es la simpatía.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La chica en llamas" },
+      {
+        b: "texto",
+        texto:
+          "Antes de entrar hay una semana entera de televisión, y esa parte del libro es la que mejor ha envejecido. Hay desfile, entrevistas, puntuaciones, apuestas y estilistas. A cada tributo le asignan un equipo que decide cómo va a verse, y el de Katniss es un hombre llamado Cinna que le monta un traje que parece arder.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso deja de ser una chica del distrito minero y pasa a ser un personaje con nombre propio: la chica en llamas. Collins enseña sin comentarlo que la diferencia entre morir el primer día y tener patrocinadores no la marca lo que alguien sabe hacer, sino cómo lo han presentado y qué historia le han escrito antes de empezar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La historia que le escriben es un romance. Peeta declara en directo, ante millones de personas, que lleva años enamorado de ella, y Haymitch monta encima de eso toda la estrategia: los amantes trágicos del Distrito 12. Funciona, y los regalos empiezan a llegar. Katniss lo descubre en el momento y tiene que seguirle el juego sin haberlo acordado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace buena esa parte no es el triángulo amoroso, que es lo que se recuerda, sino lo que le pasa a ella por dentro. Katniss besa a Peeta sabiendo que la cámara lo necesita, y a partir de cierto punto deja de poder distinguir qué siente de verdad y qué está actuando. La novela no lo resuelve, y hace bien.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando sabes que te están mirando, dejas de saber cuáles de tus reacciones son tuyas. Y eso no se recupera al apagar la cámara.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las flores sobre una niña" },
+      {
+        b: "texto",
+        texto:
+          "El momento en que la novela cambia de asunto llega con Rue, la tributo del Distrito 11: doce años, muy pequeña, ágil en los árboles y experta en plantas. Katniss se alía con ella, y durante unos días el libro se convierte en otra cosa, que es dos crías compartiendo comida y turnos de vigilancia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rue muere en una trampa, atravesada por una lanza, y Katniss hace algo que no estaba en el guion de nadie: le canta hasta que se muere, y después le cubre el cuerpo de flores delante de las cámaras. No es un gesto de duelo privado. Sabe que lo está viendo el país entero y lo hace precisamente por eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurre después es lo que convierte una novela juvenil en un libro político. En el Distrito 11 la gente sale a la calle. Hay disturbios y cargas. Por primera vez, el espectáculo montado para recordarles que no pueden hacer nada produce lo contrario, porque acaban de ver a una niña suya tratada como una persona por alguien de otro distrito, y no como una cifra del marcador.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Collins deja ahí la idea que sostiene toda la trilogía. Un régimen que gobierna a través de un espectáculo depende de controlar lo que se ve, y un espectáculo en directo con personas dentro no se puede controlar del todo. El gesto de una chica de dieciséis años agachándose a poner flores es exactamente lo que no estaba en el guion de nadie.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien gobierna con un espectáculo depende de controlarlo, y un directo con personas dentro nunca se controla del todo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos puñados de bayas" },
+      {
+        b: "texto",
+        texto:
+          "El final es la mejor escena del libro y casi nunca se cuenta bien. Cuando quedan pocos, los organizadores anuncian por sorpresa que este año pueden ganar dos si son del mismo distrito. Es una jugada de audiencia y se nota: el romance que llevan semanas vendiendo necesita un final feliz, y quien programa el espectáculo lo sabe perfectamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Katniss y Peeta sobreviven hasta el final. Y entonces los organizadores retiran la norma: vuelve a haber un solo ganador. Están obligando a los dos amantes que ellos mismos han fabricado a que uno mate al otro en directo, que sería, en términos de audiencia, el mejor cierre posible para el programa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Katniss saca un puñado de bayas venenosas y le da otro a Peeta. La jugada no es un suicidio romántico: es un cálculo. Si mueren los dos, los Juegos setenta y cuatro terminan sin ningún vencedor, y un espectáculo cuyo único trabajo es coronar a alguien no puede permitirse ese final delante de todo el país.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuentan hasta tres y, antes de que traguen, la voz del locutor los detiene y proclama a dos vencedores. Han ganado los dos, y han ganado obligando al Capitolio a ceder delante de todo el país y en directo. Ese es el delito real por el que Katniss va a pagar en los dos libros siguientes: no matar a nadie, sino haber demostrado que el sistema podía perder.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No la castigan por haber sobrevivido, sino por haber enseñado a un país entero que quien manda también puede quedarse sin salida.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Volver no es lo mismo que salir" },
+      {
+        b: "texto",
+        texto:
+          "El último tramo del libro es el que lo separa de casi toda la literatura juvenil de aventuras. Katniss gana y no hay alivio. Vuelve a casa con dinero, con una casa nueva y con la certeza de que ha hecho enemigos muy arriba, y la novela dedica sus páginas finales a describir lo que le queda dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que le queda son pesadillas, sobresaltos con los ruidos y la incapacidad de estar sola con lo que hizo. Collins escribió la trilogía pensando en su propio padre, que fue militar en Vietnam y hablaba con sus hijos de la guerra, y ha explicado que quería contar qué le pasa a un adolescente que vuelve de algo así.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y queda el asunto de Peeta, que la novela cierra con una nota amarga. En el tren de vuelta él descubre que buena parte de lo que ella hizo dentro era estrategia, y se lo dice. Katniss no puede contestarle porque ni ella misma lo sabe, y el libro termina con los dos bajando del tren cogidos de la mano delante de las cámaras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el remate exacto: siguen actuando, porque ya no pueden dejar de hacerlo. Han salido del recinto y no han salido del programa. Collins deja ahí la afirmación que hace que la primera parte funcione sola, aunque después vengan dos libros más: lo que no acaba nunca no es el peligro, es la obligación de aparentar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Han salido del recinto y siguen dentro del programa. Lo que no termina no es el peligro: es la obligación de aparentar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que este libro hace bien es contar el poder de un espectáculo. Enseña que en un sistema que gobierna por televisión lo que decide quién come no es la fuerza sino la simpatía; que quien sabe que le miran deja de distinguir lo que siente de lo que actúa; y que un directo con personas dentro es lo único que quien manda no puede controlar del todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la aritmética de su propio mundo. Un Capitolio que necesita el carbón, el grano y el pescado de doce distritos no gana nada matando cada año a veinticuatro de sus jóvenes ni manteniéndolos al borde del hambre. Collins no intenta que las cuentas cuadren: le interesa la imagen moral, y el país donde ocurre es un decorado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla, sobre todo en los dos libros siguientes, en que el triángulo amoroso va comiéndole el sitio al argumento político. Aquí las dos cosas están fundidas —el romance ES la estrategia de supervivencia— y funciona muy bien; en las secuelas se separan, y el asunto de con quién se queda acaba pesando más que el de por qué existe todo aquello.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después es lo más notable. La trilogía vendió más de cien millones de ejemplares, se convirtió en cuatro películas y en una franquicia con su propia publicidad, que es la ironía que se le señala siempre. Y el saludo de tres dedos que Collins inventó salió del libro a la calle: manifestantes lo usaron en Tailandia en 2014 y en Birmania en 2021, y hubo gente detenida por hacerlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un gesto inventado en una novela acabó siendo motivo de detención en dos países reales. Los símbolos no se quedan donde nacen.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "juegos-hambre": JUEGOS_HAMBRE,
   "vendedor-mas-grande": VENDEDOR_MAS_GRANDE,
   "actitud-mental-positiva": ACTITUD_MENTAL_POSITIVA,
   "transformacion-dinero": TRANSFORMACION_DINERO,
