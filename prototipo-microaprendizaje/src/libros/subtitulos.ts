@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "cinco-disfunciones": "Un inteligente modelo para formar un equipo cohesionado y eficaz",
   "empresas-sobresalen": "Por qué algunas sí pueden mejorar la rentabilidad y otras no",
   "traguese-sapo": "21 buenas formas de acabar con la procrastinación",
   "mujeres-lobos": "La fuerza del arquetipo de la mujer salvaje",

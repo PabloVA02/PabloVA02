@@ -82289,7 +82289,300 @@ const EMPRESAS_SOBRESALEN: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Las cinco disfunciones de un equipo, en ocho paginas.
+
+   Breve. Libro practico de empresa -> afirmacion entera en el rotulo y segunda
+   persona en la caja.
+
+   Seis argumentos: una disfuncion por pagina, de la base a la punta, y una
+   sobre la forma de fabula.
+
+   OJO: el libro es una novela corta con un modelo al final, o sea que no hay ni
+   un dato. La regla 1 obliga igual: cada pagina tiene que dejar algo del mundo,
+   no un resumen de la trama. Lo concreto aqui son los ejercicios (las historias
+   personales de treinta minutos), los mecanismos y lo que se sabe por fuera del
+   libro: Amy Edmondson y la seguridad psicologica, que mide con datos lo mismo
+   que Lencioni cuenta en fabula.
+
+   La conclusion: sin ninguna prueba empirica, con Myers-Briggs recomendado
+   dentro, y con un supuesto que no se sostiene siempre, que la desconfianza es
+   un fallo psicologico y no informacion sobre el sitio donde uno trabaja.
+   -------------------------------------------------------------------------- */
+
+const CINCO_DISFUNCIONES: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un equipo de gente excelente puede funcionar mucho peor que uno de gente normal",
+      },
+      {
+        b: "texto",
+        texto:
+          "Patrick Lencioni escribió esto en 2002 como una novela corta. Una empresa tecnológica de California, DecisionTech, tiene más dinero, mejores currículos y mejor consejo que sus competidores, y va perdiendo en todo. El consejo despide al fundador y nombra directora a Kathryn Petersen, de cincuenta y siete años, que viene de fabricar coches y no sabe nada de tecnología.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que encuentra al llegar es un comité de dirección de siete personas brillantes que se reúnen con puntualidad, no discuten nunca y no consiguen nada. Kathryn dedica sus dos primeras semanas a mirar, cancela una reunión importante y se lleva al equipo dos días a un hotel de Napa, que es donde ocurre casi todo el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El modelo que hay debajo es una pirámide de cinco fallos que se apoyan uno en otro. Ausencia de confianza en la base; encima, miedo al conflicto; encima, falta de compromiso; encima, evitar la responsabilidad; y en la punta, no mirar los resultados del equipo. La afirmación de Lencioni es que no se puede arreglar ninguno sin arreglar antes el de debajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre qué clase de confianza es la que falta y no es la que se piensa, por qué un equipo que no discute está peor que uno que se pelea, qué hace falta para que alguien cumpla una decisión que no comparte, por qué es tan difícil exigirse entre iguales, qué compite con los resultados y qué se le puede reprochar a un libro escrito así.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si en tus reuniones no discute nadie, no es que estéis de acuerdo. Es que el desacuerdo está pasando en otro sitio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La confianza que hace falta no es fiarse del otro, es poder decir delante de él que no sabes",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lencioni separa dos cosas que la palabra confianza confunde. Una es la confianza que predice: sé que vas a cumplir porque llevas años cumpliendo. La otra, la que le interesa, es la de poder ser vulnerable delante del equipo: decir que te has equivocado, que no entiendes algo, que necesitas ayuda, que aquello lo hiciste mal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación es que la primera es útil y la segunda es la que sostiene todo lo demás. Un equipo donde nadie admite un error gasta una parte enorme de su energía en gestionar la impresión que da, y esa energía sale directamente del trabajo. Y como todos hacen lo mismo, nadie sabe que los demás también están fingiendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejercicio que propone es concreto y dura media hora. Cada persona contesta a tres preguntas delante del resto: dónde creció, cuántos hermanos tiene y cuál fue el mayor reto o la mayor dificultad de su infancia. Nada más. Ninguna es una confesión íntima, y Lencioni sostiene que cambia el tono de la sala durante meses.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y señala quién tiene que empezar, que es lo que en la práctica decide si funciona. El jefe. Si el jefe no se expone primero y de verdad, con algo que le cueste, el ejercicio se convierte en un juego de empresa y todo el mundo lo trata como tal. Lencioni dice que es el único punto del modelo que no se puede delegar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si nadie de tu equipo dice nunca que no sabe algo, todos están gastando energía en aparentar. Esa energía sale del trabajo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un equipo que no discute no está de acuerdo: está guardándose el desacuerdo para los pasillos",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda disfunción es el miedo al conflicto, y Lencioni la llama armonía artificial. Describe reuniones educadas, con presentaciones, sin interrupciones y sin ninguna discusión real, después de las cuales la gente sigue hablando del asunto en grupos de dos por el pasillo, que es donde ocurre de verdad la conversación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es que el desacuerdo no desaparece por no expresarse: cambia de sitio y se vuelve más caro. En la sala se resolvería en veinte minutos con todo el mundo delante; fuera de ella dura semanas, se cuenta a medias y produce alianzas. Y quien no estuvo en la conversación de pasillo acaba enterándose de lo que se decidió sin saber por qué.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lencioni distingue el conflicto que sirve del que destruye, y la línea está en el objeto. Discutir ideas, datos y decisiones es trabajo; discutir personas, intenciones y caracteres es otra cosa. Sostiene que un equipo con confianza puede discutir muy fuerte sobre lo primero precisamente porque nadie interpreta el desacuerdo como un ataque personal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y le da al jefe una tarea que suena rara: buscar el conflicto a propósito. Preguntar quién no está de acuerdo, nombrar en voz alta la objeción que nadie dice, pedirle a alguien que defienda la postura contraria. Lencioni añade un detalle práctico: al terminar una discusión tensa, decir que ha sido lo que había que hacer, porque si no la gente se va con la sensación de haberla liado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Discutid ideas todo lo que haga falta y no discutáis nunca intenciones. Casi todo el daño de una reunión viene de la segunda.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Nadie necesita estar de acuerdo para cumplir una decisión, necesita haber sido escuchado antes",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera disfunción es la falta de compromiso, y Lencioni desmonta aquí la idea más extendida sobre las decisiones de grupo. La gente razonable no exige salirse con la suya: exige que su punto de vista se haya considerado de verdad. Cuando eso ocurre, casi todo el mundo puede apoyar una decisión que no comparte y trabajar en ella sin reservas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema aparece cuando se busca consenso, que él considera una trampa. Esperar a que todos estén de acuerdo produce decisiones tardías, aguadas y de nadie, y en cuanto algo sale mal cada uno recuerda que él ya tenía dudas. Su alternativa es que se discuta a fondo, decida quien tenga que decidir, y a partir de ahí sea la decisión del equipo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade una segunda causa que se ve en cualquier organización: la ambigüedad. Un equipo puede salir de una reunión creyendo que ha decidido algo y descubrir tres semanas después que cada uno entendió una cosa distinta. Lencioni sostiene que una decisión clara y equivocada hace menos daño que una decisión difusa, porque la primera se puede corregir cuando falla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la herramienta más barata del libro. Al final de cada reunión, cinco minutos para decir en voz alta qué se ha decidido, quién lo hace, para cuándo y qué se le cuenta a quién. Se descubre casi siempre que había dos versiones en la sala, y descubrirlo ahí cuesta cinco minutos en vez de tres semanas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dedica los últimos cinco minutos a decir en voz alta qué habéis decidido. Casi siempre había dos versiones en la sala.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que más cuesta en un equipo es que la gente se exija cuentas entre iguales",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cuarta disfunción es evitar la responsabilidad, y Lencioni no habla de que el jefe controle, sino de algo bastante más difícil: que un compañero le diga a otro que lo que está haciendo no está a la altura. Sostiene que en casi todos los equipos eso no ocurre nunca, y que esperar a que lo haga el jefe deja el trabajo a medias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón por la que no ocurre es incómoda y bastante humana: nadie quiere estropear una relación personal que funciona. Se prefiere aguantar un trabajo mediocre antes que pasar un mal rato con alguien con quien se come todos los días. Y ahí el libro observa que ese silencio termina estropeando la relación igual, solo que más despacio y sin que se sepa por qué.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su condición previa es que exista un compromiso claro. No se le puede exigir a nadie que cumpla algo que nunca se dijo con esas palabras, y por eso esta capa se apoya en la anterior. Cuando todo el mundo salió de la reunión sabiendo exactamente qué había que hacer y para cuándo, señalar un incumplimiento es un dato y no una opinión sobre alguien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da dos mecanismos sencillos que quitan hierro. Publicar los objetivos y los avances donde los vea todo el equipo, para que el que va retrasado lo sepa antes de que nadie se lo diga. Y revisiones cortas y frecuentes en vez de una evaluación anual, porque un retraso de una semana se comenta y un retraso de siete meses se convierte en un asunto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Callarte que un compañero no está cumpliendo no salva la relación. La estropea igual, más despacio y sin que él sepa por qué.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que compite con el resultado del equipo no es la pereza, es el prestigio de cada uno",
+      },
+      {
+        b: "texto",
+        texto:
+          "La disfunción de arriba es no atender a los resultados colectivos, y Lencioni nombra a los dos competidores. El primero es el estatus personal: quedar bien, salir mencionado, tener razón, que el propio nombre suene. El segundo es el resultado del propio departamento, que suele estar mucho más cerca y ser mucho más medible que el de la empresa entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo es el peligroso porque parece responsabilidad. Un director que defiende a su equipo, protege su presupuesto y pelea sus prioridades está haciendo lo que se espera de él, y a la vez está optimizando una parte a costa del conjunto. Lencioni dice que en un comité de dirección el equipo de referencia tiene que ser ese comité y no el departamento propio, y que casi nunca lo es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su solución es hacer público el marcador. Un pequeño número de resultados del equipo, definidos con claridad, visibles para todos y revisados con frecuencia, de manera que sea imposible que alguien pueda ir bien mientras el conjunto va mal. Cuando eso no se puede decir, dice, el equipo no es un equipo: es un grupo de gente que comparte jefe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la novela ese es el momento de la vuelta de tuerca. Kathryn le dice a su comité que su primer equipo es ese y no el que dirige cada uno, y dos personas se van de la empresa antes de acabar el libro. Lencioni no lo esconde: aplicar esto tiene un coste en gente, y quien no esté dispuesto a pagarlo no debería empezar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pregúntate cuál es tu primer equipo: el que diriges o el que compartes. Casi todo el mundo contesta lo primero y actúa en consecuencia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Está escrito como novela a propósito, y eso explica su alcance y también su límite",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lencioni dedica ciento setenta páginas a la historia y unas veinte al modelo, y no es un capricho. Sostiene que los modelos de gestión se leen y se olvidan, y que una escena en la que alguien se calla en una reunión se recuerda porque el lector ha estado en esa reunión. La forma es el argumento de venta del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Funciona por una razón concreta. La fábula deja ver cómo se siente cada disfunción desde dentro: el directivo que prepara sus diapositivas para que nadie pregunte, el que asiente en la sala y llama a un compañero al salir, el que protege a su gente contra el resto. Ninguna de esas conductas parece un fallo mientras se está haciendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El precio es que no hay ni un dato en todo el libro. La pirámide no se apoya en ningún estudio, ninguna de las cinco capas se ha medido y no se explica de dónde salieron ni por qué son cinco y no cuatro. Es la experiencia de un consultor ordenada con elegancia, y presentada con la seguridad de un hallazgo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene saber además que lo que hay en la base de la pirámide sí se ha estudiado por fuera. Amy Edmondson lleva desde 1999 investigando lo que llama seguridad psicológica —poder decir lo que se piensa sin miedo a quedar mal— con datos de hospitales y de empresas, y Google llegó a algo muy parecido en 2015 al estudiar sus propios equipos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un modelo que se cuenta con una escena se recuerda; uno que se cuenta con un esquema, no. Eso no lo hace más verdadero.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cinco cosas y las cinco se pueden probar en la reunión del lunes. Las tres preguntas de treinta minutos para empezar. Preguntar en voz alta quién no está de acuerdo. Cerrar con cinco minutos diciendo qué se ha decidido y quién lo hace. Publicar los avances donde los vea todo el mundo. Y contestarse a qué equipo pertenece uno de verdad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en que no hay prueba de nada. El modelo es una hipótesis razonable de un consultor con mucha experiencia, y se presenta como una descripción de cómo funcionan los equipos. El propio libro recomienda además usar perfiles de personalidad tipo Myers-Briggs, cuya fiabilidad es floja: una parte considerable de quienes lo repiten a las pocas semanas cambia de tipo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en un supuesto que no siempre se sostiene. Lencioni trata la desconfianza como un fallo psicológico que se corrige con un ejercicio, cuando muchas veces es información exacta sobre el sitio donde uno trabaja. En una empresa donde admitir un error se paga, callarse no es una disfunción: es una lectura correcta del ambiente, y ningún taller de dos días la cambia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso a la vista, lo que queda es un libro que se lee en tres horas, ha vendido más de tres millones de ejemplares y ha creado una industria entera de consultoría con su pirámide. Su base, la parte de decir lo que se piensa sin miedo, es hoy un campo de investigación con datos, y se conoce por otro nombre y con otra firma.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de arreglar la confianza de tu equipo, mira si callarse sale a cuenta ahí. Si sale, el problema no es el equipo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cinco-disfunciones": CINCO_DISFUNCIONES,
   "empresas-sobresalen": EMPRESAS_SOBRESALEN,
   "traguese-sapo": TRAGUESE_SAPO,
   "codigo-da-vinci": CODIGO_DA_VINCI,

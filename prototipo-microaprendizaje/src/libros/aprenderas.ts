@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cinco-disfunciones":
+    "Una empresa con más dinero, mejores currículos y mejor consejo que sus rivales va perdiendo en todo, y su comité de dirección se reúne con puntualidad y no discute nunca. Lencioni lo cuenta como novela y deja el modelo para el final.",
+
   "empresas-sobresalen":
     "Veintiún investigadores, cinco años y mil cuatrocientas treinta y cinco empresas para encontrar once que pasaran de mediocres a excepcionales durante quince años seguidos. Después buscaron qué hicieron distinto de sus rivales del mismo sector.",
 

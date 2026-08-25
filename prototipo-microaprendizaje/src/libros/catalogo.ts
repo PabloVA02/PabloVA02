@@ -423,7 +423,7 @@ export const CATALOGO: Ficha[] = [
   { id: "retirate-joven-rico", titulo: "Retírate joven y rico", autor: "Robert Kiyosaki", ano: 2001, categoria: "Economía", estado: "pendiente" },
   { id: "cuatro-pilares-inversion", titulo: "Los cuatro pilares de la inversión", autor: "William Bernstein", ano: 2002, categoria: "Economía", estado: "pendiente" },
   { id: "primeros-90-dias", titulo: "Los primeros 90 días", autor: "Michael Watkins", ano: 2003, categoria: "Economía", estado: "pendiente" },
-  { id: "cinco-disfunciones", titulo: "Las cinco disfunciones de un equipo", autor: "Patrick Lencioni", ano: 2002, categoria: "Economía", estado: "pendiente" },
+  { id: "cinco-disfunciones", titulo: "Las cinco disfunciones de un equipo", autor: "Patrick Lencioni", ano: 2002, categoria: "Economía", estado: "escrito" },
   { id: "esencialismo", titulo: "Esencialismo", autor: "Greg McKeown", ano: 2014, categoria: "Economía", estado: "escrito" },
   { id: "sin-esfuerzo", titulo: "Sin esfuerzo", autor: "Greg McKeown", ano: 2021, categoria: "Economía", estado: "pendiente" },
   /* --- Salud ------------------------------------------------------------ */

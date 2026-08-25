@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cinco-disfunciones": [
+    "qué está pasando cuando en una reunión no discute nadie",
+    "qué clase de confianza sostiene a un equipo, que no es fiarse",
+    "por qué buscar el consenso produce decisiones de nadie",
+    "qué le pasa a la relación cuando te callas que alguien no cumple",
+    "cuál es tu primer equipo: el que diriges o el que compartes",
+  ],
+
   "empresas-sobresalen": [
     "qué clase de jefe aparece siempre en el punto de inflexión",
     "por qué la primera decisión no es adónde ir sino con quién",
