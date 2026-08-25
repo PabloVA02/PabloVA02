@@ -306,7 +306,7 @@ export const CATALOGO: Ficha[] = [
   { id: "actitud-mental-positiva", titulo: "La actitud mental positiva", autor: "Napoleon Hill y W. Clement Stone", ano: 1959, categoria: "Psicología", estado: "pendiente" },
   { id: "vendedor-mas-grande", titulo: "El vendedor más grande del mundo", autor: "Og Mandino", ano: 1968, categoria: "Psicología", estado: "pendiente" },
   { id: "21-leyes-liderazgo", titulo: "Las 21 leyes irrefutables del liderazgo", autor: "John C. Maxwell", ano: 1998, categoria: "Psicología", estado: "pendiente" },
-  { id: "dar-y-recibir", titulo: "Dar y recibir", autor: "Adam Grant", ano: 2013, categoria: "Psicología", estado: "pendiente" },
+  { id: "dar-y-recibir", titulo: "Dar y recibir", autor: "Adam Grant", ano: 2013, categoria: "Psicología", estado: "escrito" },
   { id: "originales", titulo: "Originales", autor: "Adam Grant", ano: 2016, categoria: "Psicología", estado: "pendiente" },
   { id: "piensalo-otra-vez", titulo: "Piénsalo otra vez", autor: "Adam Grant", ano: 2021, categoria: "Psicología", estado: "pendiente" },
   { id: "maestria-greene", titulo: "Maestría", autor: "Robert Greene", ano: 2012, categoria: "Psicología", estado: "pendiente" },

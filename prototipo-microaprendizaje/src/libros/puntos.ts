@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "dar-y-recibir": [
+    "por qué los generosos ocupan los dos extremos de la tabla",
+    "por qué al que se aprovecha dejan de contar con él",
+    "por qué el contacto útil es el que no ves hace años",
+    "qué tres cosas hunden a la gente generosa",
+    "cómo se organiza la ayuda para que no te agote",
+  ],
+
   "lenguaje-del-cuerpo": [
     "por qué un gesto suelto no significa absolutamente nada",
     "qué distingue una sonrisa sentida de una decidida",

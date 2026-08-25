@@ -63836,7 +63836,280 @@ const LENGUAJE_DEL_CUERPO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Dar y recibir, en ocho páginas.
+
+   Breve. Ensayo de empresa con datos → afirmación entera en el rótulo, y
+   segunda persona en la caja, que es lo que hace la ficha de Headway de
+   este mismo libro (referencia/fichas-aprenderas/).
+
+   Riesgo principal: quedarse en «ser generoso compensa», que es el
+   resumen que hace todo el mundo y es justo lo que el libro matiza. La
+   curva tiene dos extremos y los generosos están en los dos: cada página
+   tiene que sostener esa tensión.
+   -------------------------------------------------------------------------- */
+
+const DAR_Y_RECIBIR: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los que peor rinden y los que mejor rinden son la misma clase de persona",
+      },
+      {
+        b: "texto",
+        texto:
+          "Adam Grant es profesor de psicología organizativa en Wharton y llevaba años oyendo que en el trabajo triunfan los que empujan. Al mirar los datos encontró algo más raro: si se ordena a la gente por resultados, en el último puesto están los generosos. Y en el primero también.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su clasificación tiene tres cajones, y no son rasgos de carácter sino maneras de comportarse en el intercambio. Están los que dan sin llevar la cuenta, los que toman más de lo que aportan y los que equilibran: hago por ti si haces por mí. La mayoría de la gente está en el tercero.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "El que da", texto: "ayuda sin calcular el retorno; le interesa qué necesita el otro." },
+          { fuerte: "El que toma", texto: "se lleva más de lo que aporta y cuida sobre todo su propia posición." },
+          { fuerte: "El que equilibra", texto: "devuelve favor por favor; es donde está casi todo el mundo." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "El hallazgo que da sentido al libro es esa doble presencia. Los generosos ocupan los dos extremos de la curva: son los que más se hunden y los que más lejos llegan. Lo que separa a unos de otros no es cuánto dan, sino cómo lo dan, y ese es el asunto del libro entero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ser generoso no te lleva arriba ni abajo: te lleva a un extremo o al otro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los que toman ganan rápido y pierden despacio" },
+      {
+        b: "texto",
+        texto:
+          "En un intercambio suelto, el que se lleva más gana. El problema es que casi ningún intercambio profesional es suelto: se repite, y la gente habla entre sí. Grant sostiene que la ventaja del que toma se evapora en cuanto la información circula.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Describe el mecanismo con precisión: nadie denuncia a un aprovechado, pero todos dejan de recomendarlo. El castigo no llega en forma de conflicto sino de ausencia — la llamada que no se hace, el nombre que no se menciona cuando se reparte un proyecto bueno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade un detalle que se puede comprobar sin salir de la oficina: el que toma trata muy bien a los de arriba y regular a los de abajo. Esa asimetría es lo que lo delata, porque la reputación no la construyen los jefes, la construyen los compañeros y los subordinados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo célebre es Kenneth Lay, el presidente de Enron, cuya carta a los accionistas usaba el pronombre en primera persona del singular con una frecuencia llamativa y cuya fotografía ocupaba páginas enteras del informe anual. La empresa quebró en el mayor escándalo contable de su década. Grant lo resume con una imagen que se queda: el que toma sube en ascensor y baja por las escaleras, mirando a la cara a todos los que pisó al subir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Al que se aprovecha no lo castigan con un conflicto: dejan de contar con él, y no se entera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los contactos que sirven son los que hace años que no ves" },
+      {
+        b: "texto",
+        texto:
+          "El primer terreno donde los generosos ganan es la red de contactos, y el mecanismo no es el que se supone. Grant recupera un trabajo clásico de sociología: cuando se preguntó a gente que había encontrado trabajo por contacto, la mayoría lo consiguió a través de conocidos lejanos, no de amigos cercanos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón es de información. Tus amigos íntimos se mueven en tu mismo círculo y saben lo mismo que tú. El conocido con el que coincidiste hace ocho años está en otro sitio, con otras vacantes y otra información, y por eso su llamada vale más aunque la relación sea más floja.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí es donde el generoso saca una ventaja que no buscaba. Como ayuda a mucha gente sin llevar la cuenta, tiene cientos de vínculos dormidos que se pueden reactivar sin incomodidad. El que toma también tiene contactos, pero reactivar uno le obliga a pedir algo a alguien a quien no dio nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El consejo práctico es concreto y va contra el instinto de hacer contactos nuevos: repasa a quién dejaste de ver hace años y escribe a unos cuantos sin pedir nada. Grant sostiene que ese es el activo profesional peor administrado que tiene casi todo el mundo. Y avisa contra el error de leer esto como una técnica: un vínculo dormido se reactiva si hubo algo de verdad, y no si fue un intercambio de tarjetas en un congreso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El contacto que te cambia la vida no es tu mejor amigo: es aquel al que no ves desde hace años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El que reparte el mérito acaba quedándose con más" },
+      {
+        b: "texto",
+        texto:
+          "El segundo terreno es el trabajo en equipo, y aquí el libro se apoya en un sesgo bien medido. Si se pregunta a cada miembro de una pareja qué porcentaje de las tareas de casa hace, las respuestas suman muy por encima de cien. Cada uno recuerda mejor lo que hizo él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso mismo pasa en cualquier proyecto, y explica la mayoría de los conflictos por el reconocimiento: nadie está mintiendo, todos ven mejor su parte. El que da tiene una ventaja mecánica ahí, porque atribuye mérito en voz alta y eso corrige el sesgo de los demás sin discutir con nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que cuenta es el de George Meyer, guionista de Los Simpson, cuyo nombre aparece en muchos menos capítulos de los que reescribió porque su trabajo era mejorar los chistes de otros en la sala. El resto del equipo lo señala una y otra vez como la persona que hacía funcionar la serie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Grant añade el efecto a medio plazo: en los equipos donde alguien reparte reconocimiento, la gente comparte más información y esconde menos errores. El resultado colectivo sube, y quien lo puso en marcha se lleva la parte que le corresponde de algo bastante más grande.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todos recordamos mejor nuestra parte: por eso decir en voz alta la del otro cuesta poco y vale mucho.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Apostar por alguien con talento medio da mejor resultado que fichar al brillante",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercer terreno es cómo se detecta el potencial, y el libro tiene aquí su capítulo más contraintuitivo. Los generosos ven talento donde otros no lo ven, y no porque acierten más: porque invierten esfuerzo en más gente, y ese esfuerzo produce parte del talento que después se atribuye al fichaje.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cita el trabajo sobre pianistas y nadadores de élite en el que se buscó qué tenían de especial de niños, y la respuesta fue casi nada: lo que aparecía siempre era un primer profesor entusiasta que les hizo disfrutar antes de exigirles nada. La chispa se enciende después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale un consejo para cualquiera que dirija a alguien: la pregunta útil no es quién tiene más talento, sino quién pone más ganas cuando algo le sale mal. La constancia se ve en semanas y el talento tarda años en distinguirse del entrenamiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una trampa que el libro documenta: quien anuncia que alguien es brillante suele conseguir que lo sea, porque le dedica más tiempo y mejores tareas. Eso convierte la detección de potencial en una profecía que se cumple sola, y explica por qué los que apuestan por más gente aciertan más veces. El libro insiste en que esto no es optimismo: es aritmética. Apostar por diez personas con un veinte por ciento de acierto produce dos, y apostar por una segurísima produce una.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mira quién insiste cuando algo le sale mal: eso se ve en semanas y el talento tarda años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Al generoso que se hunde no le falta carácter: le falta un límite" },
+      {
+        b: "texto",
+        texto:
+          "Aquí está la mitad del libro que casi nadie resume. Los generosos del fondo de la tabla no fallan por ser generosos: fallan por tres cosas concretas que se pueden corregir sin dejar de serlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es la confianza indiscriminada: dar por hecho que todo el mundo devuelve. La segunda es la empatía como única brújula, que hace ceder ante quien insiste más y no ante quien más lo necesita. La tercera es el miedo a la incomodidad, que impide decir que no incluso cuando el sí perjudica a un tercero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El remedio que propone tiene nombre: dar con desconfianza calibrada. Se empieza dando, porque el coste de dar una vez es bajo y el de desconfiar de todos es altísimo; y se retira en cuanto aparecen señales de que el otro solo toma. En la práctica, es dar tres veces y mirar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la corrección más eficaz es negociar en nombre de otro. Los generosos se defienden fatal a sí mismos y muy bien a los suyos, así que la técnica consiste en pensar en quién depende de ti al pedir un sueldo o un plazo. Es un truco mental y funciona en los experimentos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si te cuesta pedir para ti, pide pensando en quién depende de ti: te sale otra persona.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ayudar en bloque cansa mucho menos que ayudar a ratos" },
+      {
+        b: "texto",
+        texto:
+          "El otro peligro es el agotamiento, y el libro sostiene algo que sorprende: los generosos que se queman no son los que más ayudan, sino los que peor lo organizan. La cantidad importa menos que dos cosas, y las dos se pueden cambiar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es la interrupción. Ayudar cinco veces sueltas a lo largo del día destroza la jornada porque cada interrupción cuesta el trabajo de volver; concentrar esa misma ayuda en un bloque de dos horas cansa mucho menos y rinde más. Está medido en un estudio con profesores voluntarios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es ver el efecto. Grant hizo un experimento célebre con teleoperadores que pedían becas por teléfono: a un grupo le presentó durante cinco minutos a un estudiante becado que contó qué había cambiado en su vida. Ese grupo multiplicó por varias veces el dinero recaudado en las semanas siguientes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión práctica es que la generosidad se sostiene con dos condiciones: agruparla en el tiempo y ver a quién le sirve. Un trabajo que ayuda a gente que nunca ves acaba pesando como cualquier otro, por muy noble que sea el propósito escrito en la pared. Por eso recomienda a cualquiera que dirija un equipo hacer lo mismo: traer una vez al año a alguien de fuera que cuente qué cambió gracias a ese trabajo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Agrupa la ayuda en un bloque y ve a quién le sirve: eso decide si te sostiene o te agota.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Dar y recibir sostiene que la generosidad no es una virtud que se paga con satisfacción moral sino una estrategia con resultados medibles, y que sus resultados van a los dos extremos. Los generosos que llegan lejos se distinguen por tres cosas: se protegen de los aprovechados, negocian en nombre de otros y organizan su ayuda en bloques.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la parte incómoda, que es la que suele desaparecer al citarlo. El libro no dice que ayudar compense: dice que ayudar sin límites hunde carreras, y dedica capítulos enteros a explicar cómo se pone ese límite sin convertirse en la otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en lo que falla casi todo el estante: la evidencia va del caso al dato y de vuelta, y los casos están elegidos después de saber el final. Del guionista de Los Simpson al presidente de Enron, todos ilustran una tesis que ya estaba decidida, y no aparece ningún generoso que hiciera todo bien y acabara mal igualmente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También conviene descontar el terreno. Casi todos los datos vienen de profesiones donde la reputación circula y las relaciones se repiten: ventas, consultoría, medicina, ingeniería, universidad. En un empleo de rotación alta, con jefes que cambian cada seis meses y compañeros que no volverás a ver, el mecanismo que describe tiene mucho menos por donde agarrarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Publicado en 2013, convirtió a Grant en uno de los divulgadores más leídos del mundo y llevó las tres categorías al vocabulario de recursos humanos de medio planeta. Él mismo matizó después su tesis: en sus libros posteriores insiste en que lo importante no es dar mucho, sino saber a quién y cuándo dejar de hacerlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que hunde a la gente generosa no es dar: es no haber decidido nunca dónde para.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "dar-y-recibir": DAR_Y_RECIBIR,
   "lenguaje-del-cuerpo": LENGUAJE_DEL_CUERPO,
   "rompe-barrera-no": ROMPE_BARRERA_NO,
   "gottman-pareja": GOTTMAN_PAREJA,

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "dar-y-recibir":
+    "Grant ordenó a miles de profesionales por resultados y encontró a los generosos en los dos extremos: los últimos y los primeros. Lo que separa a unos de otros no es cuánto dan, sino cómo.",
+
   "lenguaje-del-cuerpo":
     "Los Pease llevan décadas grabando entrevistas y negociaciones contando gestos. Su tesis es que el cuerpo delata lo que la persona no ha decidido decir, y aquí está el catálogo para leerlo.",
 

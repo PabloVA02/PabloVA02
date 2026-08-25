@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "dar-y-recibir": "Por qué ayudar a los demás conduce al éxito",
   "lenguaje-del-cuerpo": "Cómo leer la mente de los demás a través de sus gestos",
   "rompe-barrera-no": "Negocia como si te fuera la vida en ello",
   "gottman-pareja": "Una guía práctica a partir de los estudios más extensos sobre pareja",
