@@ -63567,7 +63567,277 @@ const ROMPE_BARRERA_NO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El lenguaje del cuerpo, en ocho páginas.
+
+   Breve. Libro práctico → afirmación entera en el rótulo y segunda persona
+   (apartados 3 bis y 4.7).
+
+   Riesgo principal: es el campo donde más se ha exagerado, y un resumen
+   fiel al libro repetiría cifras que no se sostienen. Se cuenta lo que el
+   libro afirma y, cuando la investigación posterior lo ha desmentido, se
+   dice en la misma página y no solo en la conclusión.
+
+   El 55-38-7 y las poses de poder son los dos casos que hay que marcar.
+   -------------------------------------------------------------------------- */
+
+const LENGUAJE_DEL_CUERPO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El cuerpo dice cosas que la persona no ha decidido decir" },
+      {
+        b: "texto",
+        texto:
+          "Allan y Barbara Pease llevan décadas grabando entrevistas de trabajo, negociaciones y citas, y contando gestos. Su punto de partida es que la mayor parte de lo que hacemos con el cuerpo no lo elegimos: los pies se giran hacia donde queremos ir, las pupilas se dilatan ante lo que nos gusta, el cuerpo se aparta de lo que nos incomoda antes de que nos demos cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su tesis: el cuerpo es más difícil de falsear que la voz, y por eso cuando la palabra y el gesto se contradicen, la gente cree al gesto. Un «me parece muy bien» dicho con los brazos cruzados y el cuerpo girado no convence a nadie, aunque el que escucha no sepa explicar por qué.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro se hizo enorme por un motivo comercial más que científico: promete leer a la gente. Vendió millones y está en casi todas las listas de ventas de la última década, y precisamente por eso conviene leerlo con el dato al lado, porque buena parte de lo que afirma se ha estudiado después con resultados mucho más modestos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí ha aguantado es lo básico: hay gestos que se leen igual en casi todas las culturas, hay señales de incomodidad bastante fiables, y prestar atención a lo que hace el cuerpo del otro mejora una conversación. Lo que no aguanta son las cifras exactas y la idea de que un gesto significa siempre lo mismo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando la palabra y el gesto se contradicen, quien te escucha le cree al gesto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un gesto suelto no significa nada: hay que leer racimos" },
+      {
+        b: "texto",
+        texto:
+          "Es la regla que más repite el libro y la que más se salta todo el mundo. Los brazos cruzados no significan que alguien esté a la defensiva: pueden significar que tiene frío, que la silla no tiene reposabrazos o que está cómodo así. Un gesto aislado no dice nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí dice algo es la coincidencia de tres o cuatro señales en la misma dirección y en el mismo momento: brazos cruzados, cuerpo girado, pies apuntando a la puerta y barbilla baja. Eso ya es un racimo, y un racimo es una información que se puede usar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda regla es el contexto, y sin ella la primera tampoco sirve. Alguien encogido y con los brazos pegados al cuerpo en una parada de autobús en enero está pasando frío, no está cerrado. El libro insiste en preguntarse siempre qué otra cosa explicaría lo mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la tercera es la línea base: cómo se comporta esa persona cuando está tranquila. Hay quien gesticula sin parar y quien no mueve una ceja, y lo que informa no es el gesto sino el cambio respecto a lo normal en ella. Sin conocer la línea base, cualquier lectura es una invención. La regla se resume en una frase suya que conviene recordar antes de interpretar nada: un gesto es una palabra, y con una palabra suelta no se entiende ninguna frase.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Fíjate en el cambio respecto a cómo suele estar esa persona, no en el gesto suelto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La mano que queda encima en un saludo marca quién manda" },
+      {
+        b: "texto",
+        texto:
+          "El apretón de manos ocupa un capítulo entero porque es el primer contacto y dura dos segundos. Los Pease distinguen tres posiciones: la palma hacia abajo, que coloca al otro debajo; la palma hacia arriba, que cede; y la vertical, que es la de dos iguales y es la que hay que buscar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Describen también las variantes que se usan para dominar sin que se note: el tirón hacia el propio terreno, la mano izquierda encima del codo, el apretón que dura demasiado. Y las que restan: la mano floja, la punta de los dedos, la palma sudada que se seca en el pantalón antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El truco que proponen para reequilibrar un saludo dominante es de manual y funciona: dar un paso adelante con el pie izquierdo mientras se estrecha, lo que obliga a girar la muñeca a la vertical sin que parezca una corrección. Es de las pocas cosas del libro que se pueden ensayar delante de un espejo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir que esto es cultural y el libro no siempre lo avisa. En buena parte de Asia el apretón firme se lee como agresivo, y en varios países el contacto físico entre desconocidos de distinto sexo no se practica. Una regla escrita para el mundo anglosajón no es una regla universal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los dos primeros segundos de un encuentro fijan la jerarquía, y casi nadie los prepara.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La sonrisa falsa se distingue por los ojos y no por la boca" },
+      {
+        b: "texto",
+        texto:
+          "Es el hallazgo más sólido del libro porque no es suyo: viene de un neurólogo francés del siglo diecinueve, Duchenne, que estimuló con electricidad los músculos de la cara para ver cuáles obedecen a la voluntad y cuáles no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La boca se controla: cualquiera sonríe cuando quiere. El músculo que rodea el ojo, en cambio, solo se contrae con una alegría real, y su contracción produce las arrugas del rabillo y estrecha ligeramente el párpado inferior. Una sonrisa sin ojos es una sonrisa decidida, no sentida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro convierte eso en un consejo práctico incómodo: en una fotografía o en una entrevista, forzar la boca no engaña a casi nadie. Lo que funciona es recordar algo que de verdad haga gracia durante el segundo anterior, porque entonces la cara entera se mueve sola. Y hay una consecuencia que el libro no desarrolla: el que aprende a mirar el ojo deja de fiarse de la simpatía profesional, que es exactamente el gesto que se entrena para vender.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Sonrisa sentida", texto: "se mueven la boca y el músculo del ojo; aparecen arrugas en el rabillo." },
+          { fuerte: "Sonrisa decidida", texto: "se mueve solo la boca; los ojos quedan quietos y el gesto parece pegado." },
+          { fuerte: "La duración", texto: "las auténticas aparecen y se van deprisa; las forzadas se quedan puestas de más." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "La boca la controlas; el músculo que rodea el ojo, no. Por eso la sonrisa falsa se ve.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Copiar la postura del otro es la manera más rápida de caer bien" },
+      {
+        b: "texto",
+        texto:
+          "Cuando dos personas se llevan bien, sus cuerpos se sincronizan sin querer: se sientan igual, cambian de postura casi a la vez, cogen el vaso en el mismo momento. Los Pease lo llaman reflejo, y es de los fenómenos mejor documentados del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte comercial es la contraria: si copias tú a propósito la postura del otro, la sensación de sintonía aparece igualmente. Está medido en varios experimentos de laboratorio, con camareros que reciben más propina y vendedores que cierran más ventas al imitar discretamente al cliente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro avisa de la única forma de hacerlo mal, que es la que hace todo el mundo al probarlo: copiar deprisa y copiar todo. La imitación funciona con unos segundos de retraso y con un gesto de cada tres; hacerlo a la vez y a todo es una parodia y se nota en cuanto el otro levanta la vista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con las diferencias de rango hay una excepción que conviene saber. Es el de abajo quien copia al de arriba, no al revés; un jefe que empieza a imitar la postura de su becario produce desconcierto en lugar de sintonía. La imitación comunica «somos iguales», y no siempre es lo que se quiere decir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Copia un gesto de cada tres y con unos segundos de retraso: hacerlo a la vez se nota y estropea todo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los pies apuntan adonde la persona quiere ir, y casi nadie los vigila",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más útil del libro trata de la parte del cuerpo en la que nadie piensa. Todos controlamos la cara, bastantes controlamos las manos y prácticamente nadie controla los pies, que siguen apuntando hacia donde la persona querría estar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí salen dos lecturas concretas. En un grupo de tres, si dos giran los pies hacia ti pero el tercero solo gira el torso, el tercero quiere marcharse. Y en una conversación de dos, cuando los pies del otro se giran hacia la salida, la conversación ha terminado aunque siga hablando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añaden una batería de señales de incomodidad que se leen mejor que las de mentira: tocarse el cuello, frotarse la nuca, ajustarse la ropa, aumentar el parpadeo, cambiar de postura más a menudo. Ninguna prueba que alguien esté mintiendo; todas indican que se ha puesto tenso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa distinción es la que el libro maneja peor y la que hay que tener clara. La investigación sobre detección de mentiras es demoledora: las personas entrenadas aciertan poco más que echándolo a suertes. Lo que se puede leer es el nerviosismo, y el nerviosismo tiene muchas causas además de mentir. Los Pease recomiendan mirar los pies al entrar en una reunión ya empezada: dicen quién está de acuerdo con quién antes de que nadie haya hablado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El nerviosismo se puede leer; la mentira, no. Confundir las dos cosas es el error caro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ocupar espacio cambia cómo te ven, pero no cómo te sientes" },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica sus últimos capítulos al territorio: cuánto espacio ocupa cada uno, a qué distancia se coloca, cómo se reparte una mesa. La distancia íntima, la personal, la social y la pública están medidas desde los años sesenta y varían mucho entre culturas, algo que el libro sí recoge.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y defiende que abrirse —hombros atrás, manos visibles, ocupar la silla entera— hace que te perciban como alguien con más autoridad. Esa parte se sostiene: hay bastantes estudios en los que un mismo mensaje puntúa más alto según la postura del que lo dice.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que no se sostiene es el salto siguiente, que se hizo famoso años después con las llamadas poses de poder: la idea de que ponerse dos minutos en una postura expansiva cambia tus hormonas y te vuelve más audaz. Ese experimento no se ha podido replicar, y una de sus propias autoras se retractó públicamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión práctica queda a medias, y así hay que contarla. Cómo te colocas cambia lo que los demás piensan de ti, que ya es bastante; que además te cambie a ti por dentro es lo que se vendió en las charlas y lo que no ha resistido la comprobación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tu postura cambia lo que los demás piensan de ti; que te cambie a ti por dentro no está demostrado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El lenguaje del cuerpo sostiene que buena parte de lo que comunicamos no lo decidimos, y ofrece un catálogo para leerlo: los racimos de gestos, el apretón de manos, la sonrisa del ojo, la imitación de posturas, los pies que apuntan a la salida y el espacio que ocupa cada uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es el hábito de mirar. La mayoría de la gente sale de una conversación sabiendo lo que se ha dicho y sin haber registrado nada de lo que ha hecho el otro, y ahí hay información real: cuándo alguien se ha incomodado, cuándo ha desconectado, cuándo quiere marcharse. Eso mejora conversaciones desde el primer día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en las cifras, y en una en concreto. El libro repite que el siete por ciento del mensaje va en las palabras, el treinta y ocho en el tono y el cincuenta y cinco en el cuerpo. Esa proporción sale de dos experimentos de los años sesenta que medían algo muy distinto —palabras sueltas y contradictorias sobre sentimientos—, y su propio autor lleva décadas pidiendo que se deje de citar así.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en la promesa que más vende: detectar mentiras. Los metaanálisis dan aciertos apenas por encima del azar, incluso en policías y jueces entrenados, y una parte de la investigación clásica sobre microexpresiones se ha discutido mucho. El libro promete un detector que no existe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso descontado sigue siendo un buen catálogo de observación, y ha vendido millones de ejemplares en más de cincuenta idiomas. La manera sensata de leerlo es quedarse con las reglas —racimo, contexto, línea base— y desconfiar de cada porcentaje que aparezca, empezando por el más famoso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando un libro te promete un detector de mentiras, lo que te está vendiendo es la sensación de tenerlo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "lenguaje-del-cuerpo": LENGUAJE_DEL_CUERPO,
   "rompe-barrera-no": ROMPE_BARRERA_NO,
   "gottman-pareja": GOTTMAN_PAREJA,
   "siete-pecados": SIETE_PECADOS,

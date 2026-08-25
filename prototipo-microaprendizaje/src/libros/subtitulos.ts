@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "lenguaje-del-cuerpo": "Cómo leer la mente de los demás a través de sus gestos",
   "rompe-barrera-no": "Negocia como si te fuera la vida en ello",
   "gottman-pareja": "Una guía práctica a partir de los estudios más extensos sobre pareja",
   "siete-pecados": "Trece años persiguiendo la mejor historia del deporte mundial",

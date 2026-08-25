@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "lenguaje-del-cuerpo":
+    "Los Pease llevan décadas grabando entrevistas y negociaciones contando gestos. Su tesis es que el cuerpo delata lo que la persona no ha decidido decir, y aquí está el catálogo para leerlo.",
+
   "rompe-barrera-no":
     "Veinticuatro años negociando secuestros para el FBI, convertidos en siete herramientas. La tesis: no gana el que tiene mejores argumentos, sino el que consigue que el otro se sienta entendido.",
 

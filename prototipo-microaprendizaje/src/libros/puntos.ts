@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "lenguaje-del-cuerpo": [
+    "por qué un gesto suelto no significa absolutamente nada",
+    "qué distingue una sonrisa sentida de una decidida",
+    "cómo copiar la postura del otro sin que se note",
+    "por qué los pies son la parte del cuerpo que nadie vigila",
+    "por qué detectar mentiras por el cuerpo no funciona",
+  ],
+
   "rompe-barrera-no": [
     "por qué nadie escucha tus razones hasta sentirse entendido",
     "qué pasa si repites las tres últimas palabras del otro",
