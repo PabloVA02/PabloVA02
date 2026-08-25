@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "tal-como-eres":
+    "Un metaanálisis de 132 estudios encontró que en mujeres la respuesta del cuerpo y la excitación sentida coinciden en torno a un diez por ciento. Nagoski parte de ahí para explicar la respuesta sexual como dos sistemas y no uno.",
+
   "magia-pensar-grande":
     "Schwartz era profesor de marketing en la Universidad Estatal de Georgia y publicó esto en 1959, en pleno crecimiento americano. Su idea central es que la confianza no llega antes de actuar, sino que es lo que queda después.",
 

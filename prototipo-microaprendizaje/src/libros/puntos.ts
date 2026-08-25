@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "tal-como-eres": [
+    "por qué el cuerpo puede responder a algo que no apetece nada",
+    "en qué se diferencia el deseo que llega antes del que llega después",
+    "qué frena de verdad, y por qué casi nadie lo eligió",
+    "por qué insistir empeora la situación en una pareja desigual",
+    "cómo saber si algo que te venden resuelve tu problema o el de otro",
+  ],
+
   "magia-pensar-grande": [
     "las cuatro excusas con las que casi todo el mundo se cubre",
     "por qué el valor aparece después de actuar y no antes",

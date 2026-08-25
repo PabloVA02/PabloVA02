@@ -67040,7 +67040,296 @@ const MAGIA_PENSAR_GRANDE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Tal como eres, en ocho páginas.
+
+   Breve. Libro práctico sobre el cuerpo → afirmación entera en el rótulo y
+   SEGUNDA PERSONA en la caja del rayo (apartado 4.7). No es de los del
+   apartado 4 bis: no está escrito desde una desgracia.
+
+   SALUD, así que la prueba del sustituto manda: si una página funcionara
+   igual cambiando el nombre del mecanismo, está vacía. Lo que la salva aquí
+   son las cifras de Chivers de 2010, el modelo circular de Basson frente al
+   lineal de Masters y Johnson de 1966, y el modelo de doble control de
+   Janssen y Bancroft en el Instituto Kinsey.
+
+   Y la regla 5 en Salud es la mitad del valor: la conclusión dice de qué
+   población salen los datos, y qué corrigió la propia autora en 2024.
+   -------------------------------------------------------------------------- */
+
+const TAL_COMO_ERES: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi toda la industria del deseo vende acelerador cuando el problema está en el freno",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el Instituto Kinsey, a finales de los años noventa, Erick Janssen y John Bancroft propusieron que la respuesta sexual no depende de un sistema, sino de dos que funcionan a la vez. Uno se activa con lo que resulta sexualmente relevante; el otro se activa con todas las razones para no hacerlo ahora. Un acelerador y un freno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los dos están siempre encendidos y los dos varían mucho de una persona a otra. Alguien puede tener un acelerador perfectamente sensible y unos frenos que se activan con casi cualquier cosa: la lista de la compra, un comentario sobre su cuerpo de hace quince años, un correo del trabajo sin contestar, un ruido en el pasillo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la afirmación con la que Emily Nagoski abre el libro y que explica por qué tanta gente ha probado tantas cosas sin resultado. Casi todo lo que se vende para el deseo —ropa, novedad, fármacos, técnicas— actúa sobre el acelerador. Y en la mayoría de los casos que ella describe, el acelerador nunca fue el problema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre el dato que más desmonta lo que la gente cree sobre su propio cuerpo, por qué esperar a tener ganas antes de empezar deja fuera a una de cada tres mujeres, qué significa exactamente la palabra contexto, de dónde salen los frenos que nadie eligió y qué ocurre en una pareja cuando uno de los dos insiste.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si llevas años probando cosas que aceleran y no pasa nada, probablemente el problema nunca estuvo ahí.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que hace el cuerpo y lo que quiere la persona coinciden mucho menos de lo que todo el mundo supone",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2010, la investigadora Meredith Chivers y cuatro colegas publicaron un metaanálisis de ciento treinta y dos estudios que medían dos cosas al mismo tiempo: la respuesta genital, con instrumentos de laboratorio, y la excitación que la propia persona declaraba estar sintiendo mientras tanto. La pregunta era muy simple: hasta qué punto van juntas esas dos cosas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En hombres coinciden en torno a la mitad. En mujeres, alrededor de un diez por ciento. Esa diferencia tiene nombre técnico, no concordancia de la excitación, y significa algo muy concreto: en la mayoría de las mujeres, lo que ocurre en el cuerpo predice bastante mal lo que la persona está sintiendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación que da Nagoski es que la respuesta genital no significa «esto me gusta», sino «esto es sexualmente relevante». Es un reflejo que reconoce la categoría, no el deseo. Por eso puede aparecer ante algo que no apetece nada, y por eso puede faltar en medio de algo que sí apetece mucho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las consecuencias de esto salen del dormitorio en la primera frase. Sirve para dejar de interpretar la propia respuesta como un veredicto, y sirve para desmontar el argumento más repugnante que existe: que el cuerpo de alguien dijera que sí. El cuerpo no dice que sí. Lo único que dice que sí es la persona, en voz alta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tu respuesta física no es un veredicto sobre lo que te gusta: dice que algo es sexualmente relevante, nada más.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Que las ganas lleguen después de empezar no es un trastorno: es el segundo estilo más frecuente",
+      },
+      {
+        b: "texto",
+        texto:
+          "El modelo que todo el mundo tiene en la cabeza viene de Masters y Johnson, que en 1966 describieron la respuesta sexual como una línea con cuatro fases seguidas. Helen Kaplan le añadió el deseo al principio en 1979, y con eso quedó fijada la idea de que primero aparecen las ganas y luego pasa todo lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2000, Rosemary Basson propuso otro modelo, circular en vez de lineal, a partir de sus pacientes. En él muchas personas empiezan desde un punto neutro, no desde el deseo: acceden por otros motivos —cercanía, cariño, curiosidad—, el cuerpo responde, y el deseo aparece entonces. A eso se le llama deseo responsivo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El daño que hace confundir las dos cosas es la parte útil del capítulo. Alguien con deseo responsivo que espera a tener ganas antes de empezar puede esperar años, y de esa espera sacar la conclusión de que le pasa algo, o de que ya no quiere a su pareja. No le pasa nada y probablemente sí la quiere: está aplicando un manual escrito con la otra mitad de la población, y el manual no falla en él, falla con él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El daño que hace confundir las dos cosas es la parte útil del capítulo. Alguien con deseo responsivo que espera a tener ganas antes de empezar puede esperar años, y sacar de esa espera la conclusión de que le pasa algo. No le pasa nada: está aplicando un manual escrito con la otra mitad de la población.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si nunca te llegan las ganas de la nada, no estás roto: estás esperando a que ocurra algo que en ti ocurre al revés.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El contexto no es el decorado de lo que pasa: es uno de los ingredientes",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palabra contexto es la que más se repite en el libro y la que peor se entiende, porque suena a velas y música. Nagoski la usa en un sentido mucho más literal: el mismo estímulo, con la misma persona, produce resultados distintos según el estado en que llegue el sistema nervioso y según lo que haya alrededor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo es de cosquillas. Que alguien te toque la nuca puede ser lo mejor de la semana o insoportable, y la diferencia no está en la nuca ni en la mano: está en quién es, en qué acababa de pasar y en si esperabas ese contacto. La sensación no viene puesta en el gesto; el cerebro la fabrica con el gesto y con todo lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el ejercicio más práctico del libro. Describe con detalle una vez que fue muy bien y otra que fue del montón, y en vez de comparar lo que se hizo, compara todo lo que había alrededor: cuánto habías dormido, qué habíais hablado ese día, dónde estabais, si había algo pendiente. Las diferencias aparecen ahí casi siempre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El estrés merece un párrafo aparte porque es el freno más común y el peor entendido. No basta con que el problema se resuelva; el cuerpo necesita además terminar el ciclo que arrancó, y eso se hace con actividad física, con llanto, con una conversación completa o con contacto físico prolongado. Un cuerpo que sigue en alerta no se convence con argumentos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Compara lo que había alrededor y no lo que hicisteis: la diferencia casi nunca está en la técnica.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi nadie eligió los frenos que tiene, y por eso cuesta tanto quitarlos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nagoski usa una imagen para esto y aguanta bien: naces con un terreno, y durante veinte años otras personas plantan en él sin preguntarte. La familia, el colegio, la iglesia, la televisión, las revistas y los primeros novios plantan lo suyo. De adulto no empiezas de cero: empiezas con un jardín ajeno y tienes que decidir qué se queda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nombra tres mensajes que casi todo el mundo ha recibido y que además se contradicen entre sí. El moral: que el sexo ensucia y que hay que guardarse. El médico: que es salud, pero también enfermedad y riesgo. Y el mediático: que hay que estar siempre disponible, y con un cuerpo determinado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hacen esos mensajes es meterse en el sistema de frenos por una vía que no se nota. Nadie piensa conscientemente «el sexo ensucia» mientras está en la cama; lo que ocurre es que una parte de la atención se va a vigilar el propio cuerpo desde fuera, y esa vigilancia es en sí misma una de las cosas que más frenan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La salida que propone no es quererse mucho, que no es una instrucción ejecutable. Es dejar de tratarse peor de lo que se trataría a alguien querido, que sí lo es: notar el reproche cuando aparece, reconocerlo como una plantación ajena y no discutirlo. Es lento y es lo que hay, porque tardó veinte años en plantarse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Buena parte de lo que te frena no lo elegiste tú: te lo plantaron, y por eso no se quita discutiéndolo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En una pareja desigual, insistir es exactamente lo que más frena al otro",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre parejas describe un mecanismo que se reconoce enseguida. Uno de los dos tiene más ganas o las tiene antes, así que propone. El otro, con frenos más sensibles, nota la propuesta como una cuenta pendiente. Y una cuenta pendiente es, precisamente, una de las cosas que activan el freno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se rompe ahí no es el deseo, es la seguridad, y esa distinción es lo que hace útil el capítulo. Mientras cada cercanía sea una posible factura, el sistema nervioso del que frena no va a bajar la guardia por mucho que las dos personas quieran que la baje, porque no depende de querer. Insistir con más cariño tampoco lo arregla: el problema no es el tono de la petición, es que siga habiendo una petición.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se rompe ahí no es el deseo, es la seguridad, y esa distinción es lo que hace útil el capítulo. Mientras cada cercanía sea una posible factura, el sistema nervioso del que frena no va a bajar la guardia por mucho que ambos quieran, porque no depende de querer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La salida que describe es poco romántica y bastante eficaz: separar explícitamente el afecto de la propuesta, de manera que existan ratos de contacto físico que no lleven a ninguna parte y que las dos personas sepan de antemano que no llevan a ninguna parte. Suena a burocracia y es lo único que devuelve la seguridad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mientras cada abrazo pueda ser una petición, ningún abrazo va a relajar a nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro cambia el diagnóstico por defecto, y ese es su verdadero producto",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese cambio tiene una consecuencia incómoda para quien buscaba una solución rápida. Los frenos suelen ser cosas grandes y lentas: cuánto se duerme, cuánto se discute, cuánto se reparte el trabajo de casa, cómo se habla uno a sí mismo de su propio cuerpo, cuánto queda pendiente en la cabeza a las once de la noche. Ninguna de esas cosas se arregla en una noche, y el libro no finge lo contrario en ningún momento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese cambio tiene una consecuencia incómoda para quien buscaba una solución rápida. Los frenos suelen ser cosas grandes y lentas: cuánto se duerme, cuánto se discute, cómo se habla uno de su cuerpo, cuánto trabajo hay pendiente. Ninguna de esas cosas se arregla en una noche, y el libro no finge lo contrario en ningún momento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También sirve para dejar de comparar. Como cada persona tiene una sensibilidad distinta en cada uno de los dos sistemas, no hay una cifra normal de nada: ni de frecuencia, ni de rapidez, ni de en qué orden pasan las cosas. La media de una población no describe a nadie en concreto, y en esto menos que en casi nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y deja una regla de lectura para todo lo demás que se publique sobre el asunto. Cuando algo prometa encender el deseo, la primera pregunta es sobre cuál de los dos sistemas actúa. Si actúa sobre el acelerador y tu problema son los frenos, no es que funcione poco: es que está resolviendo el problema de otra persona.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de probar nada, pregunta sobre cuál de los dos sistemas actúa: casi todo lo que se vende actúa sobre uno solo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene tres cosas y las tres se aguantan. Que la respuesta sexual depende de dos sistemas y no de uno. Que la reacción del cuerpo y lo que la persona siente coinciden poco, sobre todo en mujeres. Y que el deseo que llega después de empezar es una manera común de funcionar y no una avería. Con eso solo, muchas consultas médicas cambiarían de conversación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en de quién salen los datos. La investigación en la que se apoya —Chivers, Basson, Janssen— está hecha casi toda con mujeres cisgénero heterosexuales de países ricos, y el libro generaliza más de lo que esa base permite. La autora lo reconoce en la edición revisada de 2021, y aun así los porcentajes de deseo espontáneo y responsivo siguen presentados con más seguridad de la que tienen: vienen de muestras pequeñas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una debilidad de fondo en el modelo de los dos sistemas. Es un buen mapa y un mal instrumento de medida: los cuestionarios que miden freno y acelerador son autoinformes, y el modelo describe lo que ocurre sin explicar por qué ocurre. Nagoski lo escribe a veces como si explicara, y ahí conviene bajar el volumen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después lo corrige la propia autora. Muchas lectoras entendieron el deseo responsivo como un permiso para esperar sentadas, y en 2024 Nagoski publicó «Come Together», dedicado a parejas de larga duración, donde sostiene lo contrario: que el contexto favorable no aparece solo y hay que construirlo a propósito. Antes, en 2019, había sacado con su hermana «Burnout», que desarrolla la idea de completar el ciclo del estrés que aquí solo estaba apuntada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Diagnostica mucho mejor de lo que receta, y ese diagnóstico ya vale el libro entero.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "tal-como-eres": TAL_COMO_ERES,
   "magia-pensar-grande": MAGIA_PENSAR_GRANDE,
   "elon-musk": ELON_MUSK,
   "arte-seduccion": ARTE_SEDUCCION,

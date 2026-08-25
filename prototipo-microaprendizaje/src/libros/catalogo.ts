@@ -388,7 +388,7 @@ export const CATALOGO: Ficha[] = [
   { id: "poder-metabolismo", titulo: "El poder del metabolismo", autor: "Frank Suárez", ano: 2006, categoria: "Salud", estado: "escrito" },
 
   { id: "entre-dos-reinos", titulo: "Entre dos reinos", autor: "Suleika Jaouad", ano: 2021, categoria: "Salud", estado: "pendiente" },
-  { id: "tal-como-eres", titulo: "Tal como eres", autor: "Emily Nagoski", ano: 2015, categoria: "Salud", estado: "pendiente" },
+  { id: "tal-como-eres", titulo: "Tal como eres", autor: "Emily Nagoski", ano: 2015, categoria: "Salud", estado: "escrito" },
   { id: "magia-orden", titulo: "La magia del orden", autor: "Marie Kondo", ano: 2011, categoria: "Salud", estado: "escrito" },
   { id: "cuerpo-4-horas", titulo: "El cuerpo perfecto en 4 horas", autor: "Tim Ferriss", ano: 2010, categoria: "Salud", estado: "pendiente" },
   { id: "intestino-feliz", titulo: "El intestino feliz", autor: "Justin y Erica Sonnenburg", ano: 2015, categoria: "Salud", estado: "pendiente" },
