@@ -89860,7 +89860,275 @@ const JUEGOS_HAMBRE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El tiempo entre costuras, en ocho paginas.
+
+   Breve. NARRATIVA -> titulo corto de imagen en el rotulo y afirmacion en la
+   primera frase (apartado 3 bis). Caja en segunda persona con leccion.
+
+   Apartado 4 bis, contar lo que casi nadie cuenta. Lo sabido: una modista se
+   vuelve espia y hay romance. Lo que hace grande al libro y no se dice: no es
+   una novela romantica, es una novela sobre un OFICIO. Coser no es el decorado:
+   es su supervivencia, su tapadera, su pasaporte y al final su metodo de
+   espionaje. El asunto de fondo es la independencia economica de una mujer sin
+   nada.
+
+   Lo real: Juan Luis Beigbeder, alto comisario en Marruecos y luego ministro de
+   Exteriores de Franco, existio; Rosalinda Fox existio; Alan Hillgarth,
+   agregado naval britanico en Madrid, existio y dirigio operaciones de
+   inteligencia en Espana.
+
+   La conclusion: la trama se apoya en muchisima casualidad, los personajes
+   historicos salen muy bien parados —Beigbeder en particular, para ser ministro
+   de Franco— y el Protectorado aparece como decorado elegante, con la poblacion
+   marroqui de servicio y sin vida propia.
+   -------------------------------------------------------------------------- */
+
+const TIEMPO_ENTRE_COSTURAS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un vendedor de máquinas de escribir" },
+      {
+        b: "texto",
+        texto:
+          "María Dueñas era profesora de filología inglesa en la Universidad de Murcia y publicó su primera novela a los cuarenta y cinco años, en 2009. Vendió más de un millón de ejemplares en España, se tradujo a más de veinte idiomas y en 2013 se convirtió en una serie de televisión que vieron millones de personas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Empieza en el Madrid de 1936. Sira Quiroga tiene poco más de veinte años, es hija de una modista soltera y lleva desde niña aprendiendo el oficio en el taller donde trabaja su madre. Está prometida con Ignacio, un opositor tranquilo y sin dinero, y su vida está decidida hasta el final: un piso pequeño en el mismo barrio, unos hijos, y una máquina de coser al lado de la ventana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entonces entra en una tienda a comprar una máquina de escribir y la atiende Ramiro Arribas, que es guapo, mayor que ella y habla de sitios donde no ha estado nunca. En unas semanas ha roto el compromiso, se ha ido de casa y está haciendo las maletas para Tánger. La guerra estalla en julio, justo cuando acaban de salir de España y ya no pueden volver.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre cómo se queda sola en una ciudad extranjera con una deuda que no ha contraído, cómo monta un taller sin tener nada, para quién acaba cosiendo, qué mujer inglesa le abre la puerta del poder, en qué consistía exactamente su trabajo de espía, y qué se le puede reprochar a esta novela.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Toda la novela arranca de una decisión de tres semanas. Nadie que la tome sabe en ese momento que está decidiendo veinte años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Sola en Tánger con una deuda" },
+      {
+        b: "texto",
+        texto:
+          "El derrumbe llega deprisa y la novela no lo suaviza. Ramiro desaparece del hotel una mañana llevándose el dinero que el padre de Sira le había entregado en Madrid, y también las joyas de la familia. Se marcha sin dejar una nota y no vuelve a aparecer en todo el libro más que como una sombra en las conversaciones de otros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que le deja es peor que la ausencia. Ha montado a nombre de ella un negocio de máquinas de escribir que no existía, con una deuda enorme y una denuncia por estafa. Sira está embarazada, no tiene documentación en regla, no conoce a nadie y a los pocos días le comunican, con papeles de por medio, que si no paga entera esa cantidad irá a la cárcel.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pierde al niño, pasa semanas en un hospital y sale sin dinero y con la deuda intacta. Dueñas dedica bastantes páginas a ese fondo, y ahí está lo que sostiene el resto del libro: la protagonista no empieza siendo valiente ni lista, empieza siendo alguien a quien han hundido y que no tiene ninguna salida evidente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La única cosa que conserva es la que traía de casa y no le podía robar nadie. Sabe coser, y lo sabe muy bien, porque lleva desde los doce años en un taller. Toda la novela se apoya en ese detalle: en un momento en que ha perdido el dinero, la pareja, el país y la salud, lo que le queda es un oficio en las manos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo único que no te pueden quitar es lo que sabes hacer. Y eso solo se nota el día que te han quitado todo lo demás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un taller montado con trampas" },
+      {
+        b: "texto",
+        texto:
+          "Sira se traslada a Tetuán, capital del Protectorado español en Marruecos, y acaba en una pensión regentada por Candelaria, una contrabandista de poca monta a la que todos llaman la matutera. Es el personaje más divertido del libro y el que le enseña lo único que le hacía falta saber, que es cómo se empieza sin nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El plan lo montan entre las dos y es una estafa pequeña con la que se financia todo lo demás. Candelaria consigue unas pistolas de contrabando, las cambia por telas inglesas de calidad, y y con esas telas alquilan un piso en la parte buena de la ciudad, lo amueblan a crédito y montan un taller de alta costura para las señoras extranjeras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle que hace la escena memorable es lo que hay detrás del mostrador. En el salón hay muebles buenos, telas magníficas y una modista con acento de Madrid; en la trastienda no hay nada. Las clientas creen estar entrando en una casa de costura con historia y están entrando en un piso alquilado la semana anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dueñas trata eso sin moralina y con precisión. Sira no monta un negocio porque tenga espíritu emprendedor: lo monta porque le persigue una deuda y porque una mujer sola en 1937 sin marido, sin familia y sin papeles no tiene demasiadas maneras honradas de conseguir dinero. La novela se toma la molestia de nombrar las que había en aquel momento para alguien en su situación, y son muy pocas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todo lo que parece un salón con historia empezó siendo un piso alquilado la semana anterior. Lo demás es el oficio de quien está dentro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Coser para las mujeres de los que mandan" },
+      {
+        b: "texto",
+        texto:
+          "El taller funciona, y a quien viste es lo que convierte la novela en otra cosa. Sus clientas son las esposas de los militares españoles del Protectorado, las de los alemanes que empiezan a llegar y las de los diplomáticos, en una ciudad pequeña donde todo el mundo se conoce y donde se está decidiendo si España entra en la guerra mundial.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está la observación más aguda del libro. Una modista pasa horas de rodillas tomando medidas, con la clienta en ropa interior, hablando de lo que se va a poner en la cena del jueves y de quién va a estar en esa cena. Nadie se calla delante de la modista, porque la modista es un mueble.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dueñas construye ahí un mecanismo que funcionaría igual sin ninguna trama de espías. La información importante no circula en los despachos: circula en los sitios donde la gente que manda se relaja, y en esos sitios siempre hay alguien trabajando a quien nadie mira. Sira aprende a escuchar antes de que nadie le pida que escuche.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También aparece la otra mitad del oficio, que la novela cuida mucho. Los tejidos, los cortes, las pruebas, lo que se puede hacer con una tela mala y lo que hay que rehacer tres veces. Dueñas se documentó a fondo en talleres y en manuales de la época, y se nota; eso es lo que impide que el taller quede como un decorado bonito en vez de como un trabajo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En los sitios donde la gente que manda se relaja siempre hay alguien trabajando, y delante de esa persona no se calla nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La inglesa y el alto comisario" },
+      {
+        b: "texto",
+        texto:
+          "La puerta al otro mundo se la abre una clienta, y conviene saber que existió de verdad. Rosalinda Fox era una mujer inglesa, joven, enferma y con un hijo pequeño, que vivía en Tetuán y que era la pareja de Juan Luis Beigbeder, el alto comisario español en Marruecos, que después fue ministro de Asuntos Exteriores de Franco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dueñas los novela a los dos con bastante fidelidad a lo que se sabe. Beigbeder era arabista, hablaba árabe, tenía fama de excéntrico entre los militares y acabó destituido, en parte por su relación con una inglesa en el momento en que Alemania presionaba para que España entrara en la guerra. Su destitución y su caída en desgracia son históricas y están fechadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rosalinda se hace amiga de Sira y la mete en el círculo. Y por ahí llega el otro personaje real del libro: Alan Hillgarth, agregado naval británico en Madrid, que en la guerra dirigió operaciones de inteligencia en España. Lo que la novela cuenta de ese esfuerzo británico para que España no entrara en el conflicto está documentado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que le ofrecen a Sira no es heroísmo: es un encargo. Volver a Madrid, montar allí un taller y coser para las esposas de los alemanes y de los españoles afines, escuchando. Ella acepta por una mezcla de gratitud, de miedo y de no tener ningún otro sitio adonde ir, que es exactamente como acepta la gente las cosas difíciles.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie acepta un encargo difícil por convicción. Se acepta por gratitud, por miedo y por no tener otro sitio adonde ir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Patrones en morse" },
+      {
+        b: "texto",
+        texto:
+          "El hallazgo de la novela, y lo que la separa de cualquier otra historia de espías, es cómo transmite Sira la información. No usa micrófonos, ni tinta invisible, ni radios escondidas. Usa lo único que sabe hacer y que además nadie mira dos veces: patrones de costura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aprende el código morse y lo dibuja en los patrones como si fueran las marcas normales de un taller. Los puntos y las rayas se convierten en las líneas de piquete, las señales de pinza y las indicaciones de costura que cualquier modista traza sobre el papel. Un papel lleno de rayitas y de puntos es exactamente lo que tiene que parecer un patrón de costura, y por eso nadie lo mira dos veces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle es bueno por una razón concreta: la tapadera no es una tapadera. No está fingiendo ser modista, es modista, y los papeles que entrega son papeles de su trabajo de verdad. Un registro policial en aquel taller no habría encontrado nada raro, porque literalmente no había nada raro que encontrar: eran los patrones con los que se cortaban los vestidos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En Madrid se presenta con otro nombre, Arish Agoriuq, que es el suyo leído al revés, y como una modista llegada de Marruecos con clientela internacional. Dueñas aprovecha ese tramo para contar el Madrid de 1940 desde dentro de las casas: el hambre, el estraperlo, las delaciones y las señoras encargando trajes de gala en una ciudad medio en ruinas y con las cartillas de racionamiento en el bolso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La mejor tapadera no es una que se finge: es un oficio de verdad, porque entonces no hay nada raro que encontrar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que aprendió a hacer con miedo" },
+      {
+        b: "texto",
+        texto:
+          "La parte final del libro no va de acción sino de aguante, y ahí Dueñas hace su mejor trabajo. Sira vive durante meses con la certeza de que un error de cálculo la lleva a un interrogatorio, y sigue tomando medidas, sonriendo a clientas cuyos maridos podrían detenerla y hablando de bordados con una serenidad que ensaya cada mañana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La novela describe ese estado con detalle: dormir mal, revisar tres veces cada gesto, cronometrar las visitas, tener preparada una explicación para cada cosa que hay encima de la mesa. Y sostiene algo que se comprueba: el miedo no se va, lo que se aprende es a trabajar con él encima sin que se note por fuera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También hay una historia de amor, con un periodista británico, y conviene decir qué papel ocupa. Está bien contada y no es el motor de nada: Sira no cambia de vida por él, no le sigue y no organiza sus decisiones a su alrededor. En una novela vendida como romántica, la protagonista decide siempre por otras razones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un cierre que ordena el libro entero. Sira reaparece brevemente ante alguien de su vida anterior en Madrid y comprueba que no puede volver a ser lo que era. La chica que entró en aquella tienda a comprar una máquina de escribir ya no existe, y lo que la ha sustituido es alguien que se gana la vida sola y que ya no le pide permiso a nadie para nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El miedo no se quita. Lo que se aprende es a trabajar con él encima sin que se note por fuera, y eso se ensaya cada mañana.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que esta novela hace mejor de lo que se le reconoce es contar un oficio. No es una historia de amor con costura de fondo: es la historia de una mujer que lo pierde todo y que sale adelante porque sabe hacer una cosa bien. Coser es su supervivencia, su tapadera, su manera de entrar donde no la dejarían entrar y al final su método de trabajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la casualidad. La protagonista pasa de estar arruinada en una pensión a vestir a la mujer del alto comisario en un plazo muy corto, y el libro necesita que las personas adecuadas aparezcan en el momento adecuado una y otra vez. Es una novela de aventuras y funciona; no es un relato de cómo suelen ir las cosas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en cómo trata a sus personajes históricos. Beigbeder sale extraordinariamente bien parado para haber sido ministro de Franco: culto, sensible, enamorado y víctima. La novela se queda en el hombre y en su historia de amor, y evita casi por completo lo que aquel régimen estaba haciendo en España durante los mismos años en que ocurre todo esto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en el sitio donde transcurre la mitad del libro. El Protectorado español en Marruecos aparece como un decorado elegante —el zoco, la luz, las telas, las casas encaladas— y la población marroquí, casi siempre como servicio, comerciantes o paisaje. De lo que era una ocupación colonial no queda casi nada en estas páginas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Aprende a hacer bien una cosa concreta. Es lo único que sigue siendo tuyo el día en que se cae todo lo demás.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "tiempo-entre-costuras": TIEMPO_ENTRE_COSTURAS,
   "juegos-hambre": JUEGOS_HAMBRE,
   "vendedor-mas-grande": VENDEDOR_MAS_GRANDE,
   "actitud-mental-positiva": ACTITUD_MENTAL_POSITIVA,

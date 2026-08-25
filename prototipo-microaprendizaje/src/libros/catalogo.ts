@@ -253,7 +253,7 @@ export const CATALOGO: Ficha[] = [
   { id: "jekyll-hyde", titulo: "El extraño caso del doctor Jekyll y el señor Hyde", autor: "R. L. Stevenson", ano: 1886, categoria: "Literatura", estado: "pendiente" },
   { id: "historia-interminable", titulo: "La historia interminable", autor: "Michael Ende", ano: 1979, categoria: "Literatura", estado: "pendiente" },
   { id: "patria", titulo: "Patria", autor: "Fernando Aramburu", ano: 2016, categoria: "Literatura", estado: "escrito" },
-  { id: "tiempo-entre-costuras", titulo: "El tiempo entre costuras", autor: "María Dueñas", ano: 2009, categoria: "Literatura", estado: "pendiente" },
+  { id: "tiempo-entre-costuras", titulo: "El tiempo entre costuras", autor: "María Dueñas", ano: 2009, categoria: "Literatura", estado: "escrito" },
   { id: "come-reza-ama", titulo: "Come, reza, ama", autor: "Elizabeth Gilbert", ano: 2006, categoria: "Literatura", estado: "escrito" },
   { id: "veinte-poemas", titulo: "Veinte poemas de amor y una canción desesperada", autor: "Pablo Neruda", ano: 1924, categoria: "Literatura", estado: "pendiente" },
   { id: "vivir-para-contarla", titulo: "Vivir para contarla", autor: "Gabriel García Márquez", ano: 2002, categoria: "Literatura", estado: "pendiente" },

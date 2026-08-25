@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "tiempo-entre-costuras": [
+    "qué es lo único que no te pueden quitar cuando te quitan todo",
+    "por qué nadie se calla delante de quien está trabajando",
+    "cómo se monta un negocio cuando no se tiene absolutamente nada",
+    "por qué la mejor tapadera es un oficio de verdad",
+    "qué se aprende a hacer con el miedo, ya que no se quita",
+  ],
+
   "juegos-hambre": [
     "por qué una lotería que se compra con comida deja de ser azar",
     "qué decide de verdad quién sobrevive ahí dentro, que no es pelear",
