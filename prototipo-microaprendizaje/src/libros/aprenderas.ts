@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "come-reza-ama":
+    "Gilbert tenía en 2002 el marido, la casa y la carrera que había querido, y estaba llorando en el suelo del baño a las tres de la mañana. El año de viaje que vino después lo pagó un anticipo editorial por este mismo libro.",
+
   perfume:
     "Jean-Baptiste Grenouille nace en 1738 bajo un puesto de pescado de París con la mejor nariz que ha existido y ningún olor propio. Lo segundo es el eje de la novela, y se tarda doscientas páginas en entenderlo.",
 

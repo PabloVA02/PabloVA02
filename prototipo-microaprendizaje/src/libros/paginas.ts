@@ -80751,7 +80751,272 @@ const PERFUME: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Come, reza, ama, en ocho paginas.
+
+   Breve. NARRATIVA -> apartado 3 bis: titulo corto de imagen en el rotulo y la
+   afirmacion en la primera frase. Caja en segunda persona con leccion, modelo
+   de La Odisea.
+
+   Seis argumentos: aprender algo sin utilidad, el descanso sin merito, la
+   cabeza que no se calla, el perdon a uno mismo, el maestro que se busca y el
+   lio de la casa de Wayan.
+
+   Lo que casi nadie cuenta y aqui va en la primera pagina: el viaje lo pago un
+   anticipo editorial POR ESTE LIBRO. Gilbert lo dice en el texto y todo el
+   mundo lo olvida, y cambia por completo lo que el libro es.
+
+   La conclusion tiene el mejor 'que paso despues' del catalogo: el libro termina
+   en una boda, y en 2016 Gilbert anuncio ella misma que se separaba de ese
+   hombre y que estaba enamorada de su mejor amiga, Rayya Elias, que se estaba
+   muriendo de cancer. Murio en enero de 2018.
+   -------------------------------------------------------------------------- */
+
+const COME_REZA_AMA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El suelo del cuarto de baño" },
+      {
+        b: "texto",
+        texto:
+          "El libro más vendido sobre buscarse a uno mismo empieza con una mujer de treinta y cuatro años llorando en el suelo de un baño a las tres de la mañana. Elizabeth Gilbert tenía en 2002 lo que había querido tener: marido, casa en las afueras de Nueva York, carrera de periodista. Y estaba allí abajo, sin poder explicarse por qué, rezando por primera vez en su vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después fue un divorcio largo y feo, una relación posterior que también se hundió y una depresión con medicación. Y luego una decisión que se ha convertido en fórmula: irse un año, cuatro meses a Italia, cuatro a la India y cuatro a Indonesia. Comer, rezar y amar, una cosa por país.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un dato que el propio libro cuenta y que casi nadie recuerda: el viaje lo pagó un anticipo de la editorial por escribir precisamente este libro. Gilbert no dejó todo y se fue; vendió el proyecto y después se fue a cumplirlo. Eso no invalida nada de lo que cuenta, y cambia bastante lo que se le puede pedir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué se puso a aprender italiano sin ninguna utilidad, qué entendió del descanso en un país que no lo considera un premio, con qué se encontró al sentarse a meditar cuatro meses, en qué consistió perdonarse, qué buscaba en un curandero de Bali, cómo acabó el episodio de la casa que quiso regalar y qué le pasó después a este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se puede tener exactamente lo que uno pidió y estar mal igual. Eso no es ingratitud: es información, y conviene escucharla antes de las tres de la mañana.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un idioma que no le servía para nada" },
+      {
+        b: "texto",
+        texto:
+          "Lo primero que hace Gilbert en Roma es lo más aprovechable del libro entero y suele contarse como una anécdota. Se pone a estudiar italiano a diario, con profesor particular, sin ninguna intención de usarlo profesionalmente, sin vivir allí de forma permanente y sin que le sirva para nada. Solo porque le gusta cómo suena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento que saca de ahí lo desarrolla en varios capítulos. Está acostumbrada, como casi todo el mundo, a justificar cada hora con un rendimiento: esto me servirá para el trabajo, esto es networking, esto me mantiene en forma. Y descubre que llevaba años sin hacer nada solo porque le apeteciera, y que ni siquiera sabía ya qué le apetecía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejercicio que se pone es concreto y se puede copiar. Cada mañana decide qué hacer preguntándose únicamente qué le apetece, sin ningún otro criterio, y lo hace. Casi siempre son cosas ridículas: buscar un helado concreto al otro lado de la ciudad, sentarse dos horas en una plaza. Escribe que le costó semanas contestar a esa pregunta sin trampa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su palabra favorita del italiano resume el tramo. «Attraversiamo», crucemos, que un amigo suelta al azar en una acera y a ella le suena maravillosa por razones que no puede explicar. Cuatro meses después habla un italiano decente que no le da dinero ni currículo, y el libro sostiene que ese es el punto y no un efecto secundario.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pregúntate qué te apetece hoy, sin añadirle para qué sirve. Si no sabes contestar, esa es la respuesta más importante que vas a tener.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La belleza de no hacer nada" },
+      {
+        b: "texto",
+        texto:
+          "En Italia se topa con una idea que en su país no existe y le dedica el mejor capítulo de la primera parte. Se llama «il bel far niente», la belleza de no hacer nada, y no significa vaguería ni descanso merecido: significa que estar sin hacer nada es una cosa buena en sí misma, no el premio por haber trabajado antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La distinción es más fina de lo que parece y la explica bien. En la cultura de la que ella viene el ocio hay que ganárselo, y por eso llega agotado, con culpa y con la sensación de tener que aprovecharlo. Vacaciones intensas, listas de cosas que ver, deporte los domingos. Es el mismo rendimiento con otra ropa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gilbert cuenta que engordó unos diez kilos en cuatro meses y lo escribe sin drama y sin propósito de enmienda, que es lo llamativo. Cuenta también una escena en Nápoles, en una pizzería, en la que ella y una amiga se comen dos pizzas cada una y deciden volver al día siguiente. Es el momento en que el libro deja de pedir permiso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tramo tiene además una parte incómoda que ella no esconde. Está de duelo, no de vacaciones, y describe días en los que el placer no llega y hay que sostener la tristeza sin arreglarla. Esa honestidad es lo que separa este libro de un catálogo de viajes, y es la razón por la que millones de personas se reconocieron en él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El descanso no es el premio por haber trabajado. Si solo descansas cuando te lo has ganado, no estás descansando: estás cobrando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El pavo que no se calla" },
+      {
+        b: "texto",
+        texto:
+          "La parte de la India es la más difícil de contar y la más útil. Gilbert pasa cuatro meses en un ashram cerca de Bombay, levantándose antes de las cuatro para meditar, y lo primero que descubre es que es malísima. Se sienta a repetir un mantra y su cabeza no para: listas, discusiones antiguas, planes, la carta que debería escribir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su descripción de la mente es la imagen que más se ha citado del libro. Dice que su pensamiento va y viene como un animal doméstico revolviendo la basura, y que llevaba treinta y cuatro años creyendo que ese ruido era ella. La revelación no es aprender a callarlo, sino darse cuenta de que se puede escuchar desde fuera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese descubrimiento tiene una versión práctica que no depende de ninguna creencia. Un pensamiento observado deja de ser una orden y pasa a ser un dato. «Soy un desastre» ya no es una sentencia; es una frase que está sonando ahora en la cabeza y que se puede mirar como se mira una nube que pasa. La diferencia se nota en un mal día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El personaje que la acompaña en esa parte, un tejano al que llama Richard, le suelta la frase que más se repite del libro. Le dice que deje de aferrarse a su ex marido, que el amor tiene que sacarle a uno de sí mismo y no dejarle exactamente igual pero más triste, y que si sigue removiendo la basura seguirá encontrando basura.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un pensamiento mirado desde fuera deja de ser una orden y pasa a ser un dato. No hace falta creerlo por venir de dentro de ti.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Perdonarse en una azotea" },
+      {
+        b: "texto",
+        texto:
+          "El centro emocional del libro es una noche en la azotea del ashram, y ahí Gilbert dice algo que se le suele pasar por alto al resumirla. El problema no era perdonar a su marido: era perdonarse ella, y no por el divorcio, sino por haber destrozado a alguien que no le había hecho nada malo salvo no ser lo que ella quería.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena que monta no tiene nada de místico si se mira de cerca. Se sienta sola, se imagina a los dos sentados frente a frente y mantiene una conversación entera hasta el final, diciendo lo que nunca dijo y escuchando lo que nunca escuchó. No hay reconciliación real: hay una despedida hecha por dentro, y por eso funciona sin la otra persona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable es la distinción que hace entre perdón y olvido. Perdonar, en su versión, no es decidir que lo que pasó estuvo bien ni volver a hablarse. Es dejar de librar la discusión en la cabeza todos los días, que es donde de verdad se está librando y donde el otro ni siquiera está participando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gilbert escribe también, y esto es raro en el género, que el proceso no la dejó en paz para siempre. Vuelve la rabia, vuelve la pena, y hay que repetir. Presenta el perdón como un mantenimiento y no como un acontecimiento, y esa es probablemente la frase más honesta de las trescientas páginas que lleva escritas a esas alturas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Perdonar no es decidir que estuvo bien. Es dejar de tener esa discusión cada día en tu cabeza, donde el otro ni siquiera está.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El curandero que ya la esperaba" },
+      {
+        b: "texto",
+        texto:
+          "La tercera parte empieza con una casualidad que el libro cuenta como destino y que conviene mirar con calma. Dos años antes, en un viaje de trabajo a Bali, un curandero anciano llamado Ketut Liyer le había leído la mano y le había dicho que perdería todo su dinero, que volvería y que se quedaría con él a aprender. Gilbert vuelve y lo encuentra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aprende con él son cosas sencillas y algo desconcertantes. Una manera de meditar que consiste en sentarse en silencio y sonreír, incluso con el hígado. La idea de que hay que tener los pies en el suelo con tanta firmeza que parezca que se tienen cuatro piernas. Nada de esto se puede comprobar y ella lo cuenta sin pretender que se pueda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tramo se sostiene por otra cosa, que es la relación. Gilbert va a verlo casi todos los días durante meses, le hace de secretaria, le lleva a los turistas y aprende a estar con un anciano que le repite las mismas historias. Lo que describe no es un curso acelerado de sabiduría oriental: es la constancia de aparecer cada día en el mismo porche.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí es donde empiezan las objeciones que el libro se ha llevado desde entonces. Bali entra en la historia como escenario del equilibrio, sus habitantes como maestros y ayudantes de la recuperación de una escritora estadounidense, y de la isla real —su economía, su política, su vida— no se cuenta casi nada que no pase por ella.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie aprende nada de un maestro en una tarde. Se aprende apareciendo muchas veces en el mismo sitio sin que pase nada especial.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La casa que quiso regalar" },
+      {
+        b: "texto",
+        texto:
+          "El episodio más interesante del libro es también el que peor sale, y hay que reconocerle a Gilbert que lo cuente. En Bali conoce a Wayan, una curandera divorciada que vive con su hija en un local alquilado, y decide ayudarla: escribe a sus amigos por correo pidiendo dinero para comprarle una casa y reúne dieciocho mil dólares en cuestión de semanas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurre después no encaja en ninguna película. Wayan no compra la casa. Encuentra pegas en todos los terrenos, cambia de idea, tarda meses, y Gilbert pasa de la euforia a la sospecha, y de la sospecha a la incomodidad de estar exigiéndole cuentas a alguien a quien quería ayudar. La cosa se resuelve a medias y con presión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo enseña sin proponérselo algo que el resto del libro no toca. Regalar dinero no es un acto neutro: crea una deuda, una expectativa y una relación desigual, y quien lo da acaba comportándose como un supervisor aunque no quiera. Gilbert lo escribe con vergüenza, y es de las pocas páginas donde su lugar en la isla queda a la vista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí acaba el año. En Bali conoce a Felipe, un brasileño mayor que ella y también divorciado, y la última parte del libro es esa historia, contada con menos vértigo que el resto. El libro se cierra en el sitio donde se cierran casi todas las memorias de este tipo: con la protagonista queriendo a alguien otra vez.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El dinero que regalas crea una deuda aunque tú no la quieras. Cuenta con que vas a comportarte como un supervisor, y decide si aun así lo haces.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro cosas y ninguna necesita un año sabático. Hacer algo solo porque apetece, sin justificarlo con una utilidad. Descansar sin habérselo ganado antes. Mirar los propios pensamientos como datos y no como órdenes. Y entender el perdón como un mantenimiento diario dentro de la cabeza y no como una escena que ocurre una vez y arregla algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la premisa que hizo famosa la fórmula. El viaje lo financió un anticipo editorial por este mismo libro, o sea que el salto al vacío estaba cobrado por adelantado. Gilbert lo escribe, y aun así millones de personas leyeron aquí que había que dejarlo todo. Lo que el libro demuestra es que se puede escribir un año así, no que se pueda vivir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en el reparto de papeles. Italia pone el placer, la India la espiritualidad y Bali el equilibrio, y las personas de esos sitios aparecen sobre todo como maestros, ayudantes y anfitriones de la recuperación de una escritora estadounidense. El episodio de la casa de Wayan es el único momento en que esa desigualdad se ve entera, y a ella se le escapa entre las manos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el después es mejor que el libro. Vendió más de diez millones de ejemplares, se llevó al cine en 2010 con Julia Roberts y fundó un género entero. Termina con Gilbert casándose con Felipe. En 2016 ella misma anunció que se separaba de él y que estaba enamorada de su mejor amiga, Rayya Elias, que tenía un cáncer terminal y murió en enero de 2018.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hace falta un año ni un billete. La pregunta del libro cabe en un martes: ¿qué haría hoy si no tuviera que justificar para qué sirve?",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "come-reza-ama": COME_REZA_AMA,
   perfume: PERFUME,
   "oceano-azul": OCEANO_AZUL,
   "ideas-que-pegan": IDEAS_QUE_PEGAN,

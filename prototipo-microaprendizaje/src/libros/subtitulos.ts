@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "come-reza-ama": "Una mujer a la búsqueda de todo a través de Italia, India e Indonesia",
   perfume: "Historia de un asesino",
   "oceano-azul": "Cómo crear un espacio de mercado sin competencia",
   "ideas-que-pegan": "Por qué algunas ideas sobreviven y otras mueren",

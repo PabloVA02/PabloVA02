@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "come-reza-ama": [
+    "qué pasa cuando dejas de justificar cada hora con un rendimiento",
+    "por qué descansar solo cuando te lo has ganado no es descansar",
+    "cómo se mira un pensamiento propio sin obedecerlo",
+    "en qué se distingue perdonar de decidir que aquello estuvo bien",
+    "qué deuda crea el dinero que regalas aunque no la quieras",
+  ],
+
   perfume: [
     "por qué el olfato llega antes de que tu cabeza decida nada",
     "qué te enseña estar mucho tiempo solo, que no es lo que parece",
