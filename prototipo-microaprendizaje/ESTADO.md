@@ -508,7 +508,13 @@ Los cuatro sitios, y qué va en cada uno:
    completa. `git push -u origin claude/app-development-xpo6fx` funciona desde
    el contenedor (comprobado el 20 de agosto; antes daba 403). **Se empuja cada
    pocos commits, no al final de la sesión.**
-2. **Google Drive**, carpeta «Curva — copias de seguridad». Ahí van los
+2. **Google Drive**, carpeta «Curva — copias de seguridad».
+   **LÍMITE COMPROBADO EL 25 DE AGOSTO:** `create_file` solo admite el texto
+   pegado dentro de la propia llamada, así que un fichero grande hay que
+   reteclearlo entero, y un documento retecleado es una copia PEOR que el
+   fichero exacto. `ESTADO.md` cabe; `REDACCION.md`, de 54 kB, no sale a
+   cuenta. Para ese, la copia buena es GitHub y el fichero exacto mandado por
+   el chat. Lo que hay en Drive de `REDACCION.md` es del 22 de agosto. Ahí van los
    documentos que no se pueden reconstruir —`REDACCION.md` y `ESTADO.md`— con
    el conector de Drive. Se suben con `mcp__Google_Drive__create_file` pasando
    el texto entero; para binarios grandes no sirve.
