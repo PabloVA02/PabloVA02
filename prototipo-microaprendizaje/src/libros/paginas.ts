@@ -76116,7 +76116,7 @@ const CONVERSACIONES_CRUCIALES: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "El libro identifica tres relatos que aparecen una y otra vez y que tienen una función común: dejar a quien los cuenta sin ninguna responsabilidad y sin ninguna tarea. Se reconocen enseguida en la conversación de cualquiera, incluida la propia.",
+          "El libro identifica tres relatos que aparecen una y otra vez, en cualquier oficina y en cualquier casa, y que comparten una función: dejar a quien los cuenta sin ninguna responsabilidad y, sobre todo, sin ninguna tarea pendiente. Se reconocen enseguida en la conversación de cualquiera, y bastante más tarde en la propia.",
       },
       {
         b: "lista",
@@ -76129,7 +76129,7 @@ const CONVERSACIONES_CRUCIALES: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "La prueba para desmontarlas es la misma en los tres casos y es incómoda a propósito. Para la de víctima: qué estoy omitiendo de mi propia parte en esto. Para la de villano: qué tendría que estar pensando una persona razonable y decente para haber hecho lo que hizo. Y para la de impotente: qué haría si de verdad quisiera resolverlo.",
+          "La prueba para desmontarlas es la misma en los tres casos y es incómoda a propósito, porque está diseñada para devolverle a uno una tarea. Para la historia de víctima: qué estoy omitiendo de mi propia parte en esto. Para la de villano: qué tendría que estar pensando una persona razonable y decente para haber hecho exactamente lo que hizo. Y para la de impotente: qué haría si de verdad quisiera resolver esto, aunque no me apetezca hacerlo.",
       },
       {
         b: "idea",
