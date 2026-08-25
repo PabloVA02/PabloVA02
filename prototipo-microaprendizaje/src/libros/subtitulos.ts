@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "magia-pensar-grande": "Consigue lo que quieres desde donde estás",
   "arte-seduccion": "Las veinticuatro maniobras del seductor",
   "poder-introvertidos": "El poder secreto de las personas que callan",
   "magia-orden": "El método japonés para ordenar una vez y no volver a empezar",

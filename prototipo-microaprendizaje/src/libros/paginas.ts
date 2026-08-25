@@ -66751,7 +66751,297 @@ const ELON_MUSK: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La magia de pensar en grande, en ocho páginas.
+
+   Breve. Libro práctico → afirmación entera en el rótulo y SEGUNDA PERSONA
+   en la caja del rayo y allí donde el texto se vuelve consejo (apartado 4.7).
+
+   Es de 1959 y eso hay que decirlo en la primera página: la mitad de lo que
+   propone se entiende sabiendo en qué país y en qué década se escribió.
+
+   Riesgo principal: la prueba del título tapado. Un resumen de este libro
+   sirve para otros veinte de superación si no lleva dentro la excusitis con
+   sus cuatro variedades, el vocabulario de derrota, y la fecha.
+
+   Y la conclusión tiene que traer el contraejemplo, que existe y está
+   medido: los trabajos de Gabriele Oettingen sobre fantasía positiva, que
+   van justo contra el mecanismo central del libro.
+   -------------------------------------------------------------------------- */
+
+const MAGIA_PENSAR_GRANDE: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro sostiene que llegarás donde llegue el tamaño de lo que te atrevas a pensar",
+      },
+      {
+        b: "texto",
+        texto:
+          "David Schwartz era profesor de marketing en la Universidad Estatal de Georgia cuando publicó este libro en 1959. Su afirmación de partida es sencilla y comprobable en apariencia: entre dos personas con la misma formación y la misma inteligencia, la que llega más lejos no es la más lista, sino la que se plantea objetivos más grandes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La fecha explica la mitad del libro. Estados Unidos crecía como nunca, las empresas contrataban a un ritmo que hoy no existe y un vendedor con ganas podía subir varios escalones en pocos años. En un mundo así, la diferencia entre dos personas parecidas está sobre todo en cuánto piden, y el libro está escrito para ese mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa fecha también lo sitúa en una línea concreta. Napoleon Hill había publicado «Piense y hágase rico» en 1937 y Norman Vincent Peale «El poder del pensamiento positivo» en 1952. Schwartz viene detrás y se separa de los dos en algo importante: su mecanismo no es atraer nada, es actuar antes de sentirse preparado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre la enfermedad que da nombre a la mejor idea del libro, por qué la acción viene antes que el valor y no al revés, cómo las palabras que usas deciden lo que se te ocurre, qué hacer con la gente que te rodea, cómo se piensa desde la silla del que decide, y qué queda hoy de todo esto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Es un libro de 1959, y buena parte de lo que propone solo se entiende sabiéndolo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi todo el mundo tiene preparada de antemano la razón por la que no va a poder",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea que ha sobrevivido al libro es una palabra que se inventó Schwartz: la excusitis. La define como la enfermedad del fracaso, y su síntoma es que la explicación llega antes que el intento. Quien la padece no descubre el obstáculo por el camino: lo tiene elegido desde el principio y lo repite igual cada vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Distingue cuatro variedades, y la gracia está en que cada una es verdad a medias, que es lo que las hace difíciles de discutir:",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "La de la salud", texto: "«no me encuentro bien». Casi todo el mundo tiene algo, y quien la usa convierte ese algo en el motivo de todo lo demás." },
+          { fuerte: "La de la inteligencia", texto: "«no soy lo bastante listo». Casi siempre se subestima uno a sí mismo y se sobreestima al otro, y de ahí no se sale midiendo." },
+          { fuerte: "La de la edad", texto: "«soy demasiado mayor» o «soy demasiado joven», y sirve la misma persona para las dos a lo largo de su vida sin notarlo." },
+          { fuerte: "La de la suerte", texto: "«a él le salió bien». Es la más cómoda porque explica cualquier resultado, el propio y el ajeno, sin obligar a mirar ninguna decisión." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba que propone es incómoda y funciona: escribe tu excusa y luego busca a alguien que haya conseguido eso mismo teniendo el problema peor que tú. Casi siempre existe, y el ejercicio no elimina el obstáculo, solo lo devuelve a su tamaño real, que es lo único que hacía falta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si tienes la explicación preparada antes de intentarlo, no es una explicación: es un permiso que te has firmado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El valor no llega antes de actuar: aparece después, y solo si actuaste",
+      },
+      {
+        b: "texto",
+        texto:
+          "Schwartz lo formula como una regla de una línea: la acción cura el miedo. Sostiene que esperar a sentirse preparado es esperar en la dirección equivocada, porque la confianza no es un estado que se alcance pensando, sino el resto que queda después de haber hecho algo que daba respeto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí llegan las recomendaciones que hicieron famoso el libro y que suenan a broma hasta que se prueban: siéntate en la primera fila en vez de al fondo, sé el primero en preguntar, mira a los ojos al hablar, camina un veinticinco por ciento más rápido de lo que caminas normalmente. No son trucos de imagen para engañar a nadie. Son maneras de forzar una conducta concreta para que el estado de ánimo la siga por detrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí llegan las recomendaciones que hicieron famoso el libro y que suenan a broma hasta que se prueban: siéntate en la primera fila, sé el primero en preguntar, mira a los ojos, camina un veinticinco por ciento más rápido de lo que caminas. No son trucos de imagen. Son maneras de forzar una conducta para que el estado de ánimo la siga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es lo mejor que tiene el libro, y no porque suene bien. Es la dirección que ha resistido: en el tratamiento de la depresión, la técnica que se llama activación conductual consiste exactamente en esto, en hacer primero y esperar que las ganas lleguen después, y funciona precisamente porque no espera a que uno tenga ganas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No esperes a estar preparado para actuar: actúa, y quedarás preparado para la vez siguiente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las palabras que usas para contarte las cosas deciden qué se te ocurre después",
+      },
+      {
+        b: "texto",
+        texto:
+          "Schwartz sostiene que el pensamiento se dice con palabras y que las palabras no son neutrales: unas abren posibilidades y otras las cierran antes de examinarlas. Divide el vocabulario en palabras de derrota —imposible, no puedo, no va a funcionar, es que yo— y palabras de victoria, y pide sustituir unas por otras de manera consciente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cambio que propone no es decir que sí a todo, que sería una tontería. Es cambiar la forma de la frase. En vez de «no se puede», la pregunta «¿cómo se podría?». En vez de «no tengo tiempo», «esto no está entre mis tres primeras cosas». La segunda versión es igual de sincera y obliga a seguir pensando; la primera cierra el asunto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aplica lo mismo a cómo hablas de tu trabajo. Un vendedor que se presenta diciendo «solo soy comercial» ha decidido en cuatro palabras cómo le va a tratar el otro durante la siguiente hora. Schwartz insiste en que nadie te concede más importancia de la que tú te concedes delante de él, y eso ocurre en la primera frase.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte discutible de este capítulo es dónde se para. Cambiar «no puedo» por «cómo podría» te obliga a buscar; repetirte que puedes cuando no puedes solo retrasa la información. El libro no distingue una cosa de la otra en ninguna página, y esa falta de límite es lo que después convirtió esta idea en algo bastante peor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cambia «no se puede» por «¿cómo se podría?», que cuesta lo mismo y te obliga a seguir buscando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El entorno no es el sitio donde piensas: es una parte de cómo piensas",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo que Schwartz llama «administra tu entorno» parte de una observación que en 1959 era menos evidente que hoy: las opiniones sobre lo que es posible no se forman solas, se contagian. La conversación de la comida, la del pasillo y la de casa fijan sin discusión cuánto es razonable aspirar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su recomendación es explícita y suena dura: elige con quién comes. No propone abandonar a nadie, propone notar la diferencia entre las conversaciones que terminan en un plan y las que terminan en una queja compartida, y repartir el tiempo en consecuencia. Sostiene que la queja en grupo es agradable, y que no deja nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí el libro acierta en el mecanismo y se queda muy corto en las consecuencias. Que el ambiente contagia lo que uno cree posible está fuera de discusión y se ha medido mil veces desde entonces. Que la solución consista en seleccionar a la gente por su ambición es una receta que funciona mejor cuanto más se pueda elegir, y quien menos puede elegir su entorno —el trabajo, el barrio, la familia— es exactamente quien más lo necesitaría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí el libro acierta en el mecanismo y se queda corto en las consecuencias. Que el ambiente contagia está fuera de discusión. Que la solución sea seleccionar a la gente por su ambición es una receta que funciona mejor cuanto más se pueda elegir, y quien menos puede elegir su entorno es exactamente quien más lo necesitaría.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pide consejo a quien ya ha hecho lo que quieres hacer, no a quien está donde estás tú.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Se dirige mejor desde la cabeza del otro que desde la propia" },
+      {
+        b: "texto",
+        texto:
+          "El último capítulo es el que menos ha envejecido, y su regla principal es un ejercicio de cambio de sitio. Antes de pedir, ordenar o vender algo, Schwartz pide detenerse a contestar una pregunta: si yo fuera esa persona, con sus problemas y sus plazos, ¿qué pensaría yo de lo que le voy a proponer?",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda regla del capítulo es reservarse tiempo a solas para pensar, sin papeles delante y sin reuniones alrededor, y Schwartz insiste en que se apunte en la agenda como si fuera una cita con otra persona, porque de lo contrario no ocurre nunca: siempre hay algo urgente que ocupa ese hueco. Es un consejo de 1959 y ha ganado con el tiempo en vez de perder, porque los huecos de entonces eran mucho mayores que los de ahora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda regla del capítulo es reservarse tiempo a solas para pensar, sin papeles y sin reuniones, y Schwartz insiste en que se apunte en la agenda como si fuera una cita con otra persona, porque de lo contrario no ocurre nunca. Es un consejo de 1959 y ha ganado con el tiempo en vez de perder.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es tratar a la gente como si ya fuera lo que puede llegar a ser, y aquí conviene una advertencia. Eso funciona con alguien que está aprendiendo y se vuelve una crueldad con alguien que está desbordado, porque le pone encima una expectativa que no puede cumplir. El libro no hace esa distinción.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de pedir algo, contesta qué pensarías tú de esa petición si estuvieras en la silla del otro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La derrota solo sirve si se estudia, y casi nadie soporta mirarla de cerca",
+      },
+      {
+        b: "texto",
+        texto:
+          "Schwartz dedica un capítulo a lo que hay que hacer cuando algo sale mal, y empieza descartando las dos salidas habituales. La primera es buscar culpables fuera, que deja intacta la parte que sí dependía de uno. La segunda es olvidarlo cuanto antes, que es más elegante y desperdicia exactamente la misma información.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que propone es un procedimiento sin nada de mágico: repasar el intento fallido como quien repasa una avería, buscando en qué punto exacto se torció y qué decisión concreta lo torció. Y hacerlo por escrito, porque de memoria uno recuerda el resultado y se le olvidan los pasos que llevaron a él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es el capítulo más honrado del libro porque es el único donde admite que las cosas salen mal a menudo y que a veces vuelven a salir mal. En todos los demás capítulos el fracaso aparece como una etapa breve y bien iluminada entre dos aciertos, casi como un trámite. Aquí, por una vez, se le concede que puede repetirse sin que eso signifique nada sobre quien lo sufre, y aun así el consejo sigue siendo utilizable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es el capítulo más honrado del libro porque es el único donde admite que las cosas salen mal a menudo. En todos los demás, el fracaso aparece como una etapa breve entre dos aciertos. Aquí, por una vez, se le concede que puede repetirse, y aun así el consejo sigue siendo utilizable.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Repasa lo que salió mal como quien busca una avería: el fallo, no el culpable, aunque seas tú.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro dice tres cosas. Que la mayoría de la gente se pone objetivos por debajo de lo que podría. Que la explicación de por qué no lo intenta suele estar elegida de antemano, y a eso lo llama excusitis. Y que la confianza no viene antes de actuar, sino después. La tercera es la que se sostiene sola.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en las pruebas, y no es un detalle. En más de trescientas páginas no hay un solo estudio, y las historias que cuenta son casi todas de gente sin nombre: «un amigo mío que es director de ventas», «un joven que conocí». No es un tic de estilo de la época: significa que nada de lo que afirma se puede comprobar, y que solo aparecen los que ganaron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y su mecanismo central tiene enfrente una investigación que va justo en contra. Gabriele Oettingen lleva desde los años noventa midiendo qué hace la fantasía positiva, y sus resultados son constantes: quienes imaginan el éxito con detalle se esfuerzan menos y consiguen menos: menos ofertas de trabajo, menos kilos perdidos, peores notas. Su alternativa, el contraste mental, funciona porque obliga a nombrar el obstáculo real antes de planificar. O sea, lo contrario de pensar en grande a secas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ha pasado después es que el libro sigue en catálogo sesenta y cinco años más tarde, con más de seis millones de ejemplares vendidos, y que su parte débil hizo carrera propia: la idea de que basta con creerlo llega hasta «El secreto», de 2006, donde ya no queda ninguna acción por medio. Schwartz, al menos, mandaba levantarse y hacer algo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Acierta en que la acción precede al valor y no demuestra nada de lo demás: quédate con la mitad que manda moverse.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "magia-pensar-grande": MAGIA_PENSAR_GRANDE,
   "elon-musk": ELON_MUSK,
   "arte-seduccion": ARTE_SEDUCCION,
   "poder-introvertidos": PODER_INTROVERTIDOS,

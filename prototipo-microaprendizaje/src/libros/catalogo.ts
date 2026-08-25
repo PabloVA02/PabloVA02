@@ -300,7 +300,7 @@ export const CATALOGO: Ficha[] = [
   { id: "traguese-sapo", titulo: "Tráguese ese sapo", autor: "Brian Tracy", ano: 2001, categoria: "Psicología", estado: "pendiente" },
   { id: "cambia-el-chip", titulo: "Cambia el chip", autor: "Chip y Dan Heath", ano: 2010, categoria: "Psicología", estado: "pendiente" },
   { id: "ideas-que-pegan", titulo: "Ideas que pegan", autor: "Chip y Dan Heath", ano: 2007, categoria: "Psicología", estado: "pendiente" },
-  { id: "magia-pensar-grande", titulo: "La magia de pensar en grande", autor: "David Schwartz", ano: 1959, categoria: "Psicología", estado: "pendiente" },
+  { id: "magia-pensar-grande", titulo: "La magia de pensar en grande", autor: "David Schwartz", ano: 1959, categoria: "Psicología", estado: "escrito" },
   { id: "despertando-gigante", titulo: "Despertando al gigante interior", autor: "Tony Robbins", ano: 1991, categoria: "Psicología", estado: "pendiente" },
   { id: "poder-sin-limites", titulo: "Poder sin límites", autor: "Tony Robbins", ano: 1986, categoria: "Psicología", estado: "pendiente" },
   { id: "actitud-mental-positiva", titulo: "La actitud mental positiva", autor: "Napoleon Hill y W. Clement Stone", ano: 1959, categoria: "Psicología", estado: "pendiente" },

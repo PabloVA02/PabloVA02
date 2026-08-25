@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "magia-pensar-grande": [
+    "las cuatro excusas con las que casi todo el mundo se cubre",
+    "por qué el valor aparece después de actuar y no antes",
+    "cómo cambia lo que se te ocurre según las palabras que usas",
+    "a quién conviene pedir consejo y a quién no",
+    "cómo se repasa un fracaso sin dejar de mirarlo a mitad",
+  ],
+
   "elon-musk": [
     "cómo se decide si conviene fabricar una pieza o comprarla",
     "por qué automatizar antes de simplificar sale carísimo",

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "magia-pensar-grande":
+    "Schwartz era profesor de marketing en la Universidad Estatal de Georgia y publicó esto en 1959, en pleno crecimiento americano. Su idea central es que la confianza no llega antes de actuar, sino que es lo que queda después.",
+
   "elon-musk":
     "Isaacson pasó dos años, de 2021 a 2023, siguiendo a Musk a las reuniones y a las fábricas. El libro se organiza alrededor de una pregunta que deja abierta: si los rasgos que lo vuelven insoportable son los mismos que lo vuelven eficaz.",
 
