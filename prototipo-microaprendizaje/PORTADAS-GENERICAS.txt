@@ -1,68 +1,20 @@
 PORTADAS QUE FALTAN — solo libros que ya se leen y salen con portada genérica
-84 de 300 escritos. Las otras 216 ya son tuyas.
+50 de 315 escritos. Las otras 265 ya son tuyas.
 
 CÓMO: PNG 1024 × 1536. El nombre del fichero es el id, tal cual, con .png.
       Ejemplo: 48-leyes-poder.png
 
 
-PSICOLOGÍA — 43
+PSICOLOGÍA — 13
 ────────────────────────────────────────────────────────────
-
-cosas-buenas.png
-   Cómo hacer que te pasen cosas buenas
-   Marian Rojas Estapé, 2018
-
-inteligencia-erotica.png
-   Inteligencia erótica
-   Esther Perel, 2006
 
 nueva-mirada-infidelidad.png
    Una nueva mirada a la infidelidad
    Esther Perel, 2017
 
-gottman-pareja.png
-   Siete reglas de oro para vivir en pareja
-   John Gottman, 1999
-
-arte-seduccion.png
-   El arte de la seducción
-   Robert Greene, 2001
-
-48-leyes-poder.png
-   Las 48 leyes del poder
-   Robert Greene, 1998
-
-secreto-byrne.png
-   El secreto
-   Rhonda Byrne, 2006
-
-tus-zonas-erroneas.png
-   Tus zonas erróneas
-   Wayne Dyer, 1976
-
 mujeres-lobos.png
    Mujeres que corren con los lobos
    Clarissa Pinkola Estés, 1992
-
-cuatro-mil-semanas.png
-   Cuatro mil semanas
-   Oliver Burkeman, 2021
-
-rompe-barrera-no.png
-   Rompe la barrera del no
-   Chris Voss, 2016
-
-obtenga-el-si.png
-   Obtenga el sí
-   Fisher y Ury, 1981
-
-determinacion.png
-   Determinación
-   Angela Duckworth, 2016
-
-poder-5-segundos.png
-   El poder de los 5 segundos
-   Mel Robbins, 2017
 
 organizate-eficacia.png
    Organízate con eficacia
@@ -80,53 +32,21 @@ ideas-que-pegan.png
    Ideas que pegan
    Chip y Dan Heath, 2007
 
-magia-pensar-grande.png
-   La magia de pensar en grande
-   David Schwartz, 1959
-
 despertando-gigante.png
    Despertando al gigante interior
    Tony Robbins, 1991
 
-dar-y-recibir.png
-   Dar y recibir
-   Adam Grant, 2013
-
-originales.png
-   Originales
-   Adam Grant, 2016
-
-piensalo-otra-vez.png
-   Piénsalo otra vez
-   Adam Grant, 2021
-
-maestria-greene.png
-   Maestría
-   Robert Greene, 2012
-
-leyes-naturaleza-humana.png
-   Las leyes de la naturaleza humana
-   Robert Greene, 2018
-
-pre-suasion.png
-   Pre-suasión
-   Robert Cialdini, 2016
-
-lenguaje-del-cuerpo.png
-   El lenguaje del cuerpo
-   Allan y Barbara Pease, 2004
+actitud-mental-positiva.png
+   La actitud mental positiva
+   Napoleon Hill y W. Clement Stone, 1959
 
 arte-no-amargarse.png
    El arte de no amargarse la vida
    Rafael Santandreu, 2011
 
-nunca-comas-solo.png
-   Nunca comas solo
-   Keith Ferrazzi, 2005
-
-poder-introvertidos.png
-   El poder de los introvertidos
-   Susan Cain, 2012
+procrastinacion-steel.png
+   Procrastinación
+   Piers Steel, 2010
 
 mente-justos.png
    La mente de los justos
@@ -136,69 +56,25 @@ adulto-relaciones.png
    Cómo ser un adulto en las relaciones
    David Richo, 2002
 
-dopamina-lieberman.png
-   Dopamina
-   Daniel Z. Lieberman y Michael E. Long, 2018
-
-segundo-cerebro.png
-   Crea tu segundo cerebro
-   Tiago Forte, 2022
-
-hombres-marte-mujeres-venus.png
-   Los hombres son de Marte, las mujeres son de Venus
-   John Gray, 1992
-
-mujeres-aman-demasiado.png
-   Mujeres que aman demasiado
-   Robin Norwood, 1985
-
-amar-o-depender.png
-   Amar o depender
-   Walter Riso, 1999
-
-comunicacion-no-violenta.png
-   Comunicación no violenta
-   Marshall Rosenberg, 1999
-
-conversaciones-cruciales.png
-   Conversaciones cruciales
-   Patterson, Grenny, McMillan y Switzler, 2002
-
-poder-de-la-presencia.png
-   El poder de la presencia
-   Amy Cuddy, 2015
-
-obstaculo-es-camino.png
-   El obstáculo es el camino
-   Ryan Holiday, 2014
-
 ego-es-el-enemigo.png
    El ego es el enemigo
    Ryan Holiday, 2016
-
-cinco-arrepentimientos.png
-   Los cinco arrepentimientos de los moribundos
-   Bronnie Ware, 2011
 
 
 ECONOMÍA — 12
 ────────────────────────────────────────────────────────────
 
-elon-musk.png
-   Elon Musk
-   Walter Isaacson, 2023
+ciencia-hacerse-rico.png
+   La ciencia de hacerse rico
+   Wallace D. Wattles, 1910
 
-quien-queso.png
-   ¿Quién se ha llevado mi queso?
-   Spencer Johnson, 1998
+transformacion-dinero.png
+   La transformación total de su dinero
+   Dave Ramsey, 2003
 
-empieza-porque.png
-   Empieza con el porqué
-   Simon Sinek, 2009
-
-millonario-automatico.png
-   El millonario automático
-   David Bach, 2004
+vender-es-humano.png
+   Vender es humano
+   Daniel H. Pink, 2012
 
 oceano-azul.png
    La estrategia del océano azul
@@ -208,13 +84,17 @@ empresas-sobresalen.png
    Empresas que sobresalen
    Jim Collins, 2001
 
+efecto-compuesto.png
+   El efecto compuesto
+   Darren Hardy, 2010
+
+cuadrante-flujo.png
+   El cuadrante del flujo de dinero
+   Robert Kiyosaki, 1998
+
 bolsa-o-vida.png
    La bolsa o la vida
    Robin y Dominguez, 1992
-
-ensenare-ser-rico.png
-   Te enseñaré a ser rico
-   Ramit Sethi, 2009
 
 creatividad-sa.png
    Creatividad, S.A.
@@ -224,69 +104,41 @@ camino-libertad-financiera.png
    El camino hacia la libertad financiera
    Bodo Schäfer, 1998
 
+primeros-90-dias.png
+   Los primeros 90 días
+   Michael Watkins, 2003
+
 cinco-disfunciones.png
    Las cinco disfunciones de un equipo
    Patrick Lencioni, 2002
 
-esencialismo.png
-   Esencialismo
-   Greg McKeown, 2014
 
-
-HISTORIA — 5
+HISTORIA — 2
 ────────────────────────────────────────────────────────────
-
-origenes-totalitarismo.png
-   Los orígenes del totalitarismo
-   Hannah Arendt, 1951
-
-eichmann-jerusalen.png
-   Eichmann en Jerusalén
-   Hannah Arendt, 1963
-
-becoming.png
-   Mi historia
-   Michelle Obama, 2018
-
-malcolm-x.png
-   Autobiografía de Malcolm X
-   Malcolm X y Alex Haley, 1965
 
 21-lecciones.png
    21 lecciones para el siglo XXI
    Yuval Noah Harari, 2018
 
+gulag.png
+   Gulag
+   Anne Applebaum, 2003
 
-LITERATURA — 9
+
+LITERATURA — 7
 ────────────────────────────────────────────────────────────
-
-casa-espiritus.png
-   La casa de los espíritus
-   Isabel Allende, 1982
-
-harry-potter-1.png
-   Harry Potter y la piedra filosofal
-   J. K. Rowling, 1997
-
-senor-anillos.png
-   El señor de los anillos
-   J. R. R. Tolkien, 1954
 
 codigo-da-vinci.png
    El código Da Vinci
    Dan Brown, 2003
 
-cumbres-borrascosas.png
-   Cumbres borrascosas
-   Emily Brontë, 1847
-
 jane-eyre.png
    Jane Eyre
    Charlotte Brontë, 1847
 
-siddhartha.png
-   Siddhartha
-   Hermann Hesse, 1922
+patria.png
+   Patria
+   Fernando Aramburu, 2016
 
 come-reza-ama.png
    Come, reza, ama
@@ -296,17 +148,17 @@ perfume.png
    El perfume
    Patrick Süskind, 1985
 
+kite-runner.png
+   Cometas en el cielo
+   Khaled Hosseini, 2003
 
-SALUD — 6
+martes-con-mi-profesor.png
+   Martes con mi viejo profesor
+   Mitch Albom, 1997
+
+
+SALUD — 4
 ────────────────────────────────────────────────────────────
-
-dilema-omnivoro.png
-   El dilema del omnívoro
-   Michael Pollan, 2006
-
-tal-como-eres.png
-   Tal como eres
-   Emily Nagoski, 2015
 
 magia-orden.png
    La magia del orden
@@ -345,12 +197,16 @@ frida-herrera.png
    Hayden Herrera, 1983
 
 
-CIENCIA — 3
+CIENCIA — 4
 ────────────────────────────────────────────────────────────
 
 por-que-amamos.png
    Por qué amamos
    Helen Fisher, 2004
+
+incognito.png
+   Incógnito
+   David Eagleman, 2011
 
 el-cerebro.png
    El cerebro
@@ -371,3 +227,15 @@ relentless.png
 correr-o-morir.png
    Correr o morir
    Kilian Jornet, 2011
+
+
+FILOSOFÍA — 2
+────────────────────────────────────────────────────────────
+
+amor-liquido.png
+   Amor líquido
+   Zygmunt Bauman, 2003
+
+miedo-libertad.png
+   El miedo a la libertad
+   Erich Fromm, 1941

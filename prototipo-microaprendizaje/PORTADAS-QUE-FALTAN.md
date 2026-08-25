@@ -1,6 +1,6 @@
 # Portadas que faltan
 
-Al 2026-08-25: **418 libros** en el catálogo, **216 con cubierta tuya**, **202 sin ella**.
+Al 2026-08-25: **418 libros** en el catálogo, **265 con cubierta tuya**, **153 sin ella**.
 
 ## Cómo tiene que ser
 
@@ -14,25 +14,30 @@ Al 2026-08-25: **418 libros** en el catálogo, **216 con cubierta tuya**, **202 
 > perdió ninguna. Ninguna portada se retira sin que Pablo lo diga.
 
 
-# BLOQUE 1 — 84 libros que YA SE PUEDEN LEER y salen sin portada
+# BLOQUE 1 — 50 libros que YA SE PUEDEN LEER y salen sin portada
 
 Son los que más se notan: alguien los abre hoy y no ve nada tuyo.
 
-## Historia — 5
+## Historia — 2
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
-| `origenes-totalitarismo` | Los orígenes del totalitarismo | Hannah Arendt | 1951 |
-| `eichmann-jerusalen` | Eichmann en Jerusalén | Hannah Arendt | 1963 |
-| `becoming` | Mi historia | Michelle Obama | 2018 |
-| `malcolm-x` | Autobiografía de Malcolm X | Malcolm X y Alex Haley | 1965 |
 | `21-lecciones` | 21 lecciones para el siglo XXI | Yuval Noah Harari | 2018 |
+| `gulag` | Gulag | Anne Applebaum | 2003 |
 
-## Ciencia — 3
+## Filosofía — 2
+
+| id (nombre del fichero) | Título | Autor | Año |
+|---|---|---|---|
+| `amor-liquido` | Amor líquido | Zygmunt Bauman | 2003 |
+| `miedo-libertad` | El miedo a la libertad | Erich Fromm | 1941 |
+
+## Ciencia — 4
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
 | `por-que-amamos` | Por qué amamos | Helen Fisher | 2004 |
+| `incognito` | Incógnito | David Eagleman | 2011 |
 | `el-cerebro` | El cerebro | David Eagleman | 2015 |
 | `primavera-silenciosa` | Primavera silenciosa | Rachel Carson | 1962 |
 
@@ -45,91 +50,57 @@ Son los que más se notan: alguien los abre hoy y no ve nada tuyo.
 | `will-smith` | Will | Will Smith y Mark Manson | 2021 |
 | `frida-herrera` | Frida | Hayden Herrera | 1983 |
 
-## Literatura — 9
+## Literatura — 7
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
-| `casa-espiritus` | La casa de los espíritus | Isabel Allende | 1982 |
-| `harry-potter-1` | Harry Potter y la piedra filosofal | J. K. Rowling | 1997 |
-| `senor-anillos` | El señor de los anillos | J. R. R. Tolkien | 1954 |
 | `codigo-da-vinci` | El código Da Vinci | Dan Brown | 2003 |
-| `cumbres-borrascosas` | Cumbres borrascosas | Emily Brontë | 1847 |
 | `jane-eyre` | Jane Eyre | Charlotte Brontë | 1847 |
-| `siddhartha` | Siddhartha | Hermann Hesse | 1922 |
+| `patria` | Patria | Fernando Aramburu | 2016 |
 | `come-reza-ama` | Come, reza, ama | Elizabeth Gilbert | 2006 |
 | `perfume` | El perfume | Patrick Süskind | 1985 |
+| `kite-runner` | Cometas en el cielo | Khaled Hosseini | 2003 |
+| `martes-con-mi-profesor` | Martes con mi viejo profesor | Mitch Albom | 1997 |
 
-## Psicología — 43
+## Psicología — 13
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
-| `cosas-buenas` | Cómo hacer que te pasen cosas buenas | Marian Rojas Estapé | 2018 |
-| `inteligencia-erotica` | Inteligencia erótica | Esther Perel | 2006 |
 | `nueva-mirada-infidelidad` | Una nueva mirada a la infidelidad | Esther Perel | 2017 |
-| `gottman-pareja` | Siete reglas de oro para vivir en pareja | John Gottman | 1999 |
-| `arte-seduccion` | El arte de la seducción | Robert Greene | 2001 |
-| `48-leyes-poder` | Las 48 leyes del poder | Robert Greene | 1998 |
-| `secreto-byrne` | El secreto | Rhonda Byrne | 2006 |
-| `tus-zonas-erroneas` | Tus zonas erróneas | Wayne Dyer | 1976 |
 | `mujeres-lobos` | Mujeres que corren con los lobos | Clarissa Pinkola Estés | 1992 |
-| `cuatro-mil-semanas` | Cuatro mil semanas | Oliver Burkeman | 2021 |
-| `rompe-barrera-no` | Rompe la barrera del no | Chris Voss | 2016 |
-| `obtenga-el-si` | Obtenga el sí | Fisher y Ury | 1981 |
-| `determinacion` | Determinación | Angela Duckworth | 2016 |
-| `poder-5-segundos` | El poder de los 5 segundos | Mel Robbins | 2017 |
 | `organizate-eficacia` | Organízate con eficacia | David Allen | 2001 |
 | `traguese-sapo` | Tráguese ese sapo | Brian Tracy | 2001 |
 | `cambia-el-chip` | Cambia el chip | Chip y Dan Heath | 2010 |
 | `ideas-que-pegan` | Ideas que pegan | Chip y Dan Heath | 2007 |
-| `magia-pensar-grande` | La magia de pensar en grande | David Schwartz | 1959 |
 | `despertando-gigante` | Despertando al gigante interior | Tony Robbins | 1991 |
-| `dar-y-recibir` | Dar y recibir | Adam Grant | 2013 |
-| `originales` | Originales | Adam Grant | 2016 |
-| `piensalo-otra-vez` | Piénsalo otra vez | Adam Grant | 2021 |
-| `maestria-greene` | Maestría | Robert Greene | 2012 |
-| `leyes-naturaleza-humana` | Las leyes de la naturaleza humana | Robert Greene | 2018 |
-| `pre-suasion` | Pre-suasión | Robert Cialdini | 2016 |
-| `lenguaje-del-cuerpo` | El lenguaje del cuerpo | Allan y Barbara Pease | 2004 |
+| `actitud-mental-positiva` | La actitud mental positiva | Napoleon Hill y W. Clement Stone | 1959 |
 | `arte-no-amargarse` | El arte de no amargarse la vida | Rafael Santandreu | 2011 |
-| `nunca-comas-solo` | Nunca comas solo | Keith Ferrazzi | 2005 |
-| `poder-introvertidos` | El poder de los introvertidos | Susan Cain | 2012 |
+| `procrastinacion-steel` | Procrastinación | Piers Steel | 2010 |
 | `mente-justos` | La mente de los justos | Jonathan Haidt | 2012 |
 | `adulto-relaciones` | Cómo ser un adulto en las relaciones | David Richo | 2002 |
-| `dopamina-lieberman` | Dopamina | Daniel Z. Lieberman y Michael E. Long | 2018 |
-| `segundo-cerebro` | Crea tu segundo cerebro | Tiago Forte | 2022 |
-| `hombres-marte-mujeres-venus` | Los hombres son de Marte, las mujeres son de Venus | John Gray | 1992 |
-| `mujeres-aman-demasiado` | Mujeres que aman demasiado | Robin Norwood | 1985 |
-| `amar-o-depender` | Amar o depender | Walter Riso | 1999 |
-| `comunicacion-no-violenta` | Comunicación no violenta | Marshall Rosenberg | 1999 |
-| `conversaciones-cruciales` | Conversaciones cruciales | Patterson, Grenny, McMillan y Switzler | 2002 |
-| `poder-de-la-presencia` | El poder de la presencia | Amy Cuddy | 2015 |
-| `obstaculo-es-camino` | El obstáculo es el camino | Ryan Holiday | 2014 |
 | `ego-es-el-enemigo` | El ego es el enemigo | Ryan Holiday | 2016 |
-| `cinco-arrepentimientos` | Los cinco arrepentimientos de los moribundos | Bronnie Ware | 2011 |
 
 ## Economía — 12
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
-| `elon-musk` | Elon Musk | Walter Isaacson | 2023 |
-| `quien-queso` | ¿Quién se ha llevado mi queso? | Spencer Johnson | 1998 |
-| `empieza-porque` | Empieza con el porqué | Simon Sinek | 2009 |
-| `millonario-automatico` | El millonario automático | David Bach | 2004 |
+| `ciencia-hacerse-rico` | La ciencia de hacerse rico | Wallace D. Wattles | 1910 |
+| `transformacion-dinero` | La transformación total de su dinero | Dave Ramsey | 2003 |
+| `vender-es-humano` | Vender es humano | Daniel H. Pink | 2012 |
 | `oceano-azul` | La estrategia del océano azul | Kim y Mauborgne | 2005 |
 | `empresas-sobresalen` | Empresas que sobresalen | Jim Collins | 2001 |
+| `efecto-compuesto` | El efecto compuesto | Darren Hardy | 2010 |
+| `cuadrante-flujo` | El cuadrante del flujo de dinero | Robert Kiyosaki | 1998 |
 | `bolsa-o-vida` | La bolsa o la vida | Robin y Dominguez | 1992 |
-| `ensenare-ser-rico` | Te enseñaré a ser rico | Ramit Sethi | 2009 |
 | `creatividad-sa` | Creatividad, S.A. | Ed Catmull y Amy Wallace | 2014 |
 | `camino-libertad-financiera` | El camino hacia la libertad financiera | Bodo Schäfer | 1998 |
+| `primeros-90-dias` | Los primeros 90 días | Michael Watkins | 2003 |
 | `cinco-disfunciones` | Las cinco disfunciones de un equipo | Patrick Lencioni | 2002 |
-| `esencialismo` | Esencialismo | Greg McKeown | 2014 |
 
-## Salud — 6
+## Salud — 4
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
-| `dilema-omnivoro` | El dilema del omnívoro | Michael Pollan | 2006 |
-| `tal-como-eres` | Tal como eres | Emily Nagoski | 2015 |
 | `magia-orden` | La magia del orden | Marie Kondo | 2011 |
 | `metodo-wim-hof` | El método Wim Hof | Wim Hof | 2020 |
 | `revolucion-glucosa` | La revolución de la glucosa | Jessie Inchauspé | 2022 |
@@ -143,11 +114,11 @@ Son los que más se notan: alguien los abre hoy y no ve nada tuyo.
 | `correr-o-morir` | Correr o morir | Kilian Jornet | 2011 |
 
 
-# BLOQUE 2 — 118 libros del catálogo aún sin escribir
+# BLOQUE 2 — 103 libros del catálogo aún sin escribir
 
 Estos todavía no tienen resumen, así que no corren prisa.
 
-## Historia — 13
+## Historia — 12
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
@@ -160,31 +131,27 @@ Estos todavía no tienen resumen, así que no corren prisa.
 | `primera-guerra-keegan` | La primera guerra mundial | John Keegan | 1998 |
 | `historia-mundo-objetos` | La historia del mundo en cien objetos | Neil MacGregor | 2010 |
 | `verano-1927` | El verano de 1927 | Bill Bryson | 2013 |
-| `gulag` | Gulag | Anne Applebaum | 2003 |
 | `prision-americana` | Prisión americana | Shane Bauer | 2018 |
 | `como-llegamos-aqui` | Cómo llegamos aquí | Steven Johnson | 2014 |
 | `ucrania-relatos` | Ucrania en varios relatos | Volodímir Yermolenko | 2019 |
 
-## Filosofía — 7
+## Filosofía — 5
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
-| `amor-liquido` | Amor líquido | Zygmunt Bauman | 2003 |
 | `caballero-armadura` | El caballero de la armadura oxidada | Robert Fisher | 1989 |
 | `mundo-como-voluntad` | El mundo como voluntad y representación | Arthur Schopenhauer | 1818 |
-| `miedo-libertad` | El miedo a la libertad | Erich Fromm | 1941 |
 | `tener-o-ser` | Tener o ser | Erich Fromm | 1976 |
 | `banquete` | El banquete | Platón | 385 a.C. |
 | `sobre-la-libertad` | Sobre la libertad | John Stuart Mill | 1859 |
 
-## Ciencia — 10
+## Ciencia — 9
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
 | `madame-curie` | Madame Curie | Ève Curie | 1937 |
 | `cerebro-femenino` | El cerebro femenino | Louann Brizendine | 2006 |
 | `cerebro-adolescente` | El cerebro adolescente | Frances Jensen | 2015 |
-| `incognito` | Incógnito | David Eagleman | 2011 |
 | `alicia-cuantos` | Alicia en el país de los cuantos | Robert Gilmore | 1995 |
 | `caos-gleick` | Caos | James Gleick | 1987 |
 | `informacion-gleick` | La información | James Gleick | 2011 |
@@ -204,7 +171,7 @@ Estos todavía no tienen resumen, así que no corren prisa.
 | `el-guion` | El guion | Robert McKee | 1997 |
 | `viaje-del-escritor` | El viaje del escritor | Christopher Vogler | 1992 |
 
-## Literatura — 15
+## Literatura — 12
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
@@ -213,23 +180,19 @@ Estos todavía no tienen resumen, así que no corren prisa.
 | `alicia-maravillas` | Alicia en el país de las maravillas | Lewis Carroll | 1865 |
 | `jekyll-hyde` | El extraño caso del doctor Jekyll y el señor Hyde | R. L. Stevenson | 1886 |
 | `historia-interminable` | La historia interminable | Michael Ende | 1979 |
-| `patria` | Patria | Fernando Aramburu | 2016 |
 | `tiempo-entre-costuras` | El tiempo entre costuras | María Dueñas | 2009 |
 | `veinte-poemas` | Veinte poemas de amor y una canción desesperada | Pablo Neruda | 1924 |
 | `vivir-para-contarla` | Vivir para contarla | Gabriel García Márquez | 2002 |
 | `cronica-muerte-anunciada` | Crónica de una muerte anunciada | Gabriel García Márquez | 1981 |
 | `amor-tiempos-colera` | El amor en los tiempos del cólera | Gabriel García Márquez | 1985 |
 | `ladrona-libros` | La ladrona de libros | Markus Zusak | 2005 |
-| `kite-runner` | Cometas en el cielo | Khaled Hosseini | 2003 |
 | `mil-soles` | Mil soles espléndidos | Khaled Hosseini | 2007 |
-| `martes-con-mi-profesor` | Martes con mi viejo profesor | Mitch Albom | 1997 |
 
-## Psicología — 29
+## Psicología — 27
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
 | `poder-sin-limites` | Poder sin límites | Tony Robbins | 1986 |
-| `actitud-mental-positiva` | La actitud mental positiva | Napoleon Hill y W. Clement Stone | 1959 |
 | `vendedor-mas-grande` | El vendedor más grande del mundo | Og Mandino | 1968 |
 | `21-leyes-liderazgo` | Las 21 leyes irrefutables del liderazgo | John C. Maxwell | 1998 |
 | `hombres-no-escuchan` | Por qué los hombres no escuchan y las mujeres no saben leer los mapas | Allan y Barbara Pease | 1998 |
@@ -240,7 +203,6 @@ Estos todavía no tienen resumen, así que no corren prisa.
 | `placebo-eres-tu` | El placebo eres tú | Joe Dispenza | 2014 |
 | `termina-acuff` | ¡Termina! | Jon Acuff | 2017 |
 | `haz-cosas-dificiles` | Haz cosas difíciles | Steve Magness | 2022 |
-| `procrastinacion-steel` | Procrastinación | Piers Steel | 2010 |
 | `no-lo-pienses-demasiado` | No lo pienses demasiado | Anne Bogel | 2020 |
 | `poder-magico-voluntad` | El poder mágico de la voluntad | Claude M. Bristol | 1948 |
 | `treinta-dias` | 30 días | Marc Reklau | 2014 |
@@ -258,20 +220,15 @@ Estos todavía no tienen resumen, así que no corren prisa.
 | `ley-de-atraccion` | La ley de la atracción | Esther y Jerry Hicks | 2006 |
 | `hazte-rico-durmiendo` | Hazte rico mientras duermes | Ben Sweetland | 1962 |
 
-## Economía — 27
+## Economía — 21
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
 | `ford-vida-obra` | Mi vida y obra | Henry Ford | 1922 |
 | `coach-silicon-valley` | El coach de Silicon Valley | Schmidt, Rosenberg y Eagle | 2019 |
 | `promesa-lapiz` | La promesa de un lápiz | Adam Braun | 2014 |
-| `ciencia-hacerse-rico` | La ciencia de hacerse rico | Wallace D. Wattles | 1910 |
-| `transformacion-dinero` | La transformación total de su dinero | Dave Ramsey | 2003 |
-| `vender-es-humano` | Vender es humano | Daniel H. Pink | 2012 |
 | `arte-de-empezar` | El arte de empezar | Guy Kawasaki | 2004 |
-| `efecto-compuesto` | El efecto compuesto | Darren Hardy | 2010 |
 | `psicologia-venta` | Psicología de ventas | Brian Tracy | 2004 |
-| `cuadrante-flujo` | El cuadrante del flujo de dinero | Robert Kiyosaki | 1998 |
 | `side-hustle` | Side Hustle | Chris Guillebeau | 2017 |
 | `maestro-dinero` | Maestro del dinero: el juego | Tony Robbins | 2014 |
 | `chingona-dinero` | Eres un chingón haciendo dinero | Jen Sincero | 2017 |
@@ -287,7 +244,6 @@ Estos todavía no tienen resumen, así que no corren prisa.
 | `amor-trabajo-no-correspondido` | Tu amor al trabajo no es correspondido | Sarah Jaffe | 2021 |
 | `retirate-joven-rico` | Retírate joven y rico | Robert Kiyosaki | 2001 |
 | `cuatro-pilares-inversion` | Los cuatro pilares de la inversión | William Bernstein | 2002 |
-| `primeros-90-dias` | Los primeros 90 días | Michael Watkins | 2003 |
 | `sin-esfuerzo` | Sin esfuerzo | Greg McKeown | 2021 |
 
 ## Salud — 10
