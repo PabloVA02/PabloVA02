@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "adulto-relaciones":
+    "Richo sostiene que lo que un adulto necesita de otro son cinco conductas y no cinco sentimientos: que le escuchen, no le corrijan, le noten, le toquen y le dejen ir. Las mismas que necesitaba a los tres años.",
+
   "bolsa-o-vida":
     "Joe Dominguez dejó Wall Street en 1969, a los treinta y uno, con setenta mil dólares, y no volvió a cobrar por trabajar. Su método parte de una idea: el dinero es horas de vida que ya has entregado y no vas a recuperar.",
 

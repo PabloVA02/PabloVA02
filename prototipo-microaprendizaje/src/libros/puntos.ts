@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "adulto-relaciones": [
+    "por qué a veces tu reacción es mucho mayor que lo que ha pasado",
+    "en qué se distingue algo que puedes pedir de algo que solo esperas",
+    "qué empieza el día que se cae la imagen que te habías hecho",
+    "qué carencia no puede pagarte nadie por muy cerca que esté",
+    "cómo se pone un límite que no dependa de que el otro cambie",
+  ],
+
   "bolsa-o-vida": [
     "por qué casi nadie cobra por hora lo que cree que cobra",
     "en qué punto tener más cosas empieza a empeorarte la vida",

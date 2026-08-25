@@ -79325,7 +79325,298 @@ const BOLSA_O_VIDA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Como ser un adulto en las relaciones, en ocho paginas.
+
+   Breve. Libro practico de relaciones -> afirmacion entera en el rotulo y
+   SEGUNDA PERSONA en la caja.
+
+   Seis argumentos: las cinco aes, lo que se traslada de la infancia, la
+   diferencia entre necesidad y expectativa, las tres fases de toda relacion,
+   el duelo por lo que no se tuvo, y los limites.
+
+   Riesgo principal: el vocabulario. Richo mezcla psicoanalisis, budismo y
+   Jung, y si se le copia el registro sale una pagina de incienso sin un solo
+   hecho. La regla 1 manda: cada pagina, un mecanismo que se pueda contar.
+
+   Y riesgo segundo, mas serio: este libro pide trabajarse uno mismo pase lo que
+   pase enfrente, y eso puede sostener a alguien dentro de una relacion donde no
+   deberia estar. La conclusion lo dice con todas las letras.
+   -------------------------------------------------------------------------- */
+
+const ADULTO_RELACIONES: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que un adulto necesita de otro son cinco cosas concretas, y las mismas que necesitaba de niño",
+      },
+      {
+        b: "texto",
+        texto:
+          "David Richo lleva más de cuarenta años de terapeuta y publicó esto en 2002 con una lista de cinco palabras que empiezan por la misma letra. Atención, aceptación, aprecio, afecto y apertura, que él llama permitir. Sostiene que eso es todo lo que un ser humano necesita recibir de otro, y que es exactamente lo mismo que necesitaba a los tres años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las define de manera que se puedan reconocer. Atención es que alguien escuche sin estar preparando su respuesta. Aceptación es que no intente corregirte. Aprecio es que note lo que haces. Afecto es el contacto y las palabras. Y permitir es dejarte ir a tu ritmo y hacia donde vayas, sin controlarlo. Ninguna de las cinco es un sentimiento: las cinco son conductas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El giro del libro está en el otro lado de la lista. Esas cinco cosas son también lo que hay que dar, y son lo que un adulto se da a sí mismo cuando no las recibe. Richo dice que quien no puede dárselas depende por completo de que se las den, y esa dependencia es lo que convierte una relación normal en una emergencia permanente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre qué se traslada sin querer de la infancia a la pareja de ahora, en qué se distingue una necesidad de una expectativa, por qué toda relación pasa por tres fases y la segunda asusta a casi todo el mundo, qué duelo hay que hacer con lo que no se tuvo, cómo se pone un límite y qué se le puede reprochar a este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que necesitas de alguien son cinco conductas, no cinco sentimientos: que te escuche, no te corrija, te note, te toque y te deje ir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Buena parte de lo que le reprochas a tu pareja no va dirigido a ella",
+      },
+      {
+        b: "texto",
+        texto:
+          "Richo recupera una idea antigua de la terapia y la explica sin jerga: lo que no se recibió de pequeño se sigue reclamando de mayor, y se reclama a quien esté delante. Si de niño nadie te escuchaba, el silencio de tu pareja un martes cualquiera no duele lo que dura un martes: duele lo que dura una infancia entera, y esa desproporción es la señal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La pista que da es útil porque es medible. Cuando la reacción es mucho mayor que el hecho, casi nunca es por el hecho. Un plato sin fregar no produce dos días de silencio; los produce lo que ese plato ha tocado. Richo pide fijarse en la intensidad antes que en el contenido, porque la intensidad es el dato que señala de dónde viene esto de verdad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También describe el movimiento contrario, que se ve menos. Hay quien elige una y otra vez a personas que se comportan como se comportaba su padre o su madre, y no por masoquismo, sino porque esa manera de tratar es la que reconoce como amor. Lo conocido resulta cómodo aunque haga daño, y lo cómodo se confunde con lo correcto durante bastantes años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la propuesta del capítulo, y no es adivinar el pasado: es separarlo del presente. Preguntarse cuánto de esto es de ahora y cuánto viene de antes, y decir en voz alta la parte de ahora, que suele ser pequeña y concreta. La parte de antes no la puede reparar nadie que esté sentado enfrente, y pedírsela es garantizar que fracase.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando tu reacción es mucho mayor que lo que ha pasado, no está hablando lo que ha pasado. Fíjate en la intensidad antes que en el motivo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una necesidad se puede pedir y una expectativa no, y confundirlas rompe más parejas que la infidelidad",
+      },
+      {
+        b: "texto",
+        texto:
+          "Richo separa dos cosas que casi nadie separa. Una necesidad es algo concreto que se puede pedir, negociar y cumplir: que me escuches diez minutos al llegar, que me avises si llegas tarde. Una expectativa es una condición no dicha sobre cómo debería ser el otro: que se dé cuenta solo, que sepa lo que me pasa, que sea distinto de como es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia práctica está en quién puede cumplirla. Una necesidad tiene respuesta posible, y si el otro dice que no, se sabe dónde se está. Una expectativa no tiene respuesta posible, porque no se ha formulado y porque suele pedir un cambio de carácter. Quien vive de expectativas acumula decepciones sin haber hecho nunca una petición.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que más repite es el de esperar que el otro adivine. Se considera romántico, y Richo lo trata como lo que es: un examen que el otro va a suspender, montado además para poder cobrárselo después. Nadie adivina, y quien acierta lo hace por casualidad. La versión adulta consiste en decir lo que se quiere, con palabras, aunque decirlo quite parte del encanto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro añade un tercer grupo que llama peticiones imposibles: que el otro te haga sentir seguro siempre, que no mire a nadie, que llene un hueco que ya estaba antes de conocerle. Esas no se negocian ni se piden. Richo dice que se lloran, que es la palabra que usa, y ese duelo es el trabajo del que se ocupa la parte central del libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si nadie puede cumplir lo que quieres porque no lo has dicho, eso no es una necesidad: es un examen que has puesto para poder suspenderlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Toda relación pasa por tres fases, y la segunda no es el final sino el principio de la buena",
+      },
+      {
+        b: "texto",
+        texto:
+          "Richo describe tres momentos por los que pasa cualquier vínculo largo. El primero es el enamoramiento, en el que el otro parece encajar por completo. El segundo es el conflicto, en el que aparecen las diferencias que estaban tapadas. El tercero es el compromiso, que él define como querer a alguien sabiendo ya lo que es y no lo que parecía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es lo que dice del primero. Sostiene que el enamoramiento no es un conocimiento del otro sino una proyección: se ve en esa persona lo que uno necesita ver, y por eso encaja tan bien. No es un engaño ni una mentira, y cumple una función: acerca a dos desconocidos lo suficiente como para que el trabajo de conocerse llegue a empezar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo es donde se rompen casi todas. Cuando la proyección se cae, la sensación es de haberse equivocado de persona, y culturalmente eso se lee como la señal de que se acabó. Richo dice lo contrario: es el primer momento en que hay alguien real delante, y hasta ahí no había relación, había expectativa. Lo que llamamos desilusión es literalmente el fin de una ilusión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera fase la define de manera poco romántica y bastante exigente. Es querer a una persona con sus límites, incluidos los que no van a cambiar, y elegirla otra vez sabiéndolo. Richo insiste en que eso no significa aguantar cualquier cosa: significa dejar de esperar a que aparezca la versión del principio, que no existía y no va a volver.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando se cae la imagen que te habías hecho del otro, no se ha acabado nada. Es el primer día que hay alguien real delante.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que no te dieron de pequeño no lo va a dar nadie después, y hay que llorarlo para poder soltarlo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El centro del libro es un duelo, y es la parte que menos se cita y más pesa. Richo sostiene que cada uno recibió de sus padres una parte de las cinco aes y le faltó otra, y que la parte que faltó no se puede cobrar más adelante. No la va a pagar una pareja, ni un jefe, ni un hijo. Ese cobro pendiente es lo que estropea las relaciones de mucha gente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Describe el duelo con tres piezas, y dice que hay que pasar por las tres. Tristeza por lo que no hubo, que casi nadie se permite porque parece un reproche a los padres. Rabia por lo mismo, que suele estar prohibida en las familias que se llevan bien. Y miedo, porque soltar la esperanza de que llegue algún día deja a uno solo con lo que hay.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se gana al hacerlo es concreto y por eso merece la pena contarlo. Cuando alguien deja de esperar de su pareja lo que le faltó de su madre, la pareja pasa a poder ser evaluada por lo que hace de verdad, y las peleas bajan de tamaño hasta el tamaño de sus motivos. Richo dice que la relación no mejora: deja de cargar con algo que no era suyo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro no promete que el hueco se cierre. Dice que se convierte en historia en vez de en demanda, y esa es toda la diferencia. Una carencia contada en pasado se puede nombrar sin que gobierne el martes. Una carencia en presente se cobra sin avisar, y siempre a quien esté más cerca, que suele ser quien menos culpa tiene.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que te faltó de pequeño no te lo puede pagar tu pareja. Mientras se lo sigas cobrando, discutiréis por otra cosa cada vez.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un límite no se pone para cambiar al otro, sino para decidir dónde te quedas tú",
+      },
+      {
+        b: "texto",
+        texto:
+          "Richo dedica un tramo a los límites y empieza corrigiendo lo que casi todo el mundo entiende por eso. Un límite no es una amenaza ni un ultimátum, y no se pone para que el otro se corrija. Se pone para informar de qué se acepta y qué no, y para que quien lo pone sepa qué va a hacer si la cosa sigue igual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia se ve en la formulación. «Como me vuelvas a hablar así, te vas a enterar» es un ultimátum y le pasa la pelota al otro. «Cuando me hablas así me voy de la habitación y seguimos mañana» es un límite: describe la conducta, describe la respuesta y no exige nada. Se puede cumplir aunque el otro no cambie nada de nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro insiste en que un límite sin cumplimiento es peor que ninguno, porque enseña que lo dicho no va a pasar. Richo lo plantea sin dramatismo: si dices que te vas y no te vas, has firmado que se puede seguir. Por eso pide poner pocos, y solo los que se esté dispuesto a sostener el día que toque sostenerlos, que llegará.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí aparece lo más duro que dice, casi de pasada. Hay conductas que no se negocian ni se trabajan: el desprecio sostenido, el control y la violencia. En esos casos el trabajo interior no es la respuesta, y este libro no es el libro. Es una frase corta en cuatrocientas páginas, y debería estar bastante más arriba y bastante más grande.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un límite dice qué vas a hacer tú, no qué tiene que hacer el otro. Si no piensas cumplirlo, no lo pongas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El amor adulto se parece menos a una emoción y más a una manera de estar presente",
+      },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro es la más deudora del budismo y la que Richo escribe con menos jerga. Sostiene que dar las cinco aes es en el fondo una forma de atención sostenida: estar del todo delante de alguien, sin resolver, sin corregir y sin irse a otro sitio con la cabeza. Y que eso se entrena, igual que se entrena cualquier otra cosa difícil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Da un ejemplo doméstico que funciona muy bien. Cuando alguien cuenta un problema, la reacción automática es proponer una solución, y esa reacción parece ayuda y no lo es: interrumpe. La versión atenta consiste en quedarse, preguntar y aguantar el silencio incómodo. Es menos eficaz y es lo único que la otra persona recuerda al día siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Richo llama «amor incondicional» a esto, y se cuida de aclarar qué no significa. No significa aceptar cualquier conducta, que sería incondicionalidad hacia la conducta. Significa que el aprecio por la persona no se retira como castigo. La distinción es fina y decide bastante: se pueden poner límites duros sin retirar el afecto, y de hecho es la única manera de que un límite se escuche.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro cierra con una idea que ordena todo lo anterior. Las cinco aes se pueden practicar sin esperar reciprocidad, porque quien las da se entrena en darlas, y esa capacidad se queda con uno aunque la relación no siga. Es lo más aprovechable de las últimas páginas, y también lo que más fácil se usa mal, como se dirá enseguida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien te cuenta un problema, la solución interrumpe. Quedarte, preguntar y aguantar el silencio es lo que recuerda al día siguiente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro piezas, y las cuatro se pueden usar sin comprar el marco espiritual. Las cinco aes como lista de conductas comprobables en vez de como sentimientos. Mirar la intensidad de una reacción para saber de dónde viene. Distinguir lo que se puede pedir de lo que solo se puede esperar. Y formular los límites diciendo qué vas a hacer tú, no qué tiene que hacer el otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en el respaldo. Richo mezcla psicoanálisis, budismo y Jung, y presenta como mecanismos comprobados cosas que son marcos de interpretación: que la elección de pareja repite el vínculo con los padres es una hipótesis clínica antigua y discutida, no un hecho medido. El libro no cita un solo estudio en cuatrocientas páginas, y escribe en el tono de quien no necesita citarlos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en algo más serio, que es su ángulo entero. Todo el método consiste en trabajarse uno mismo pase lo que pase enfrente, y da las cinco aes como algo que se practica sin esperar reciprocidad. Leído por alguien que está aguantando de más, eso es una razón perfectamente redactada para quedarse. La advertencia sobre el desprecio y el control ocupa un párrafo, y tendría que ser un capítulo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después dice algo del género. El libro se publicó en 2002 sin ruido y fue creciendo por recomendación durante veinte años hasta convertirse en lectura habitual de terapeutas de pareja, sobre todo por la lista de las cinco aes, que se usa hoy suelta y en consulta sin el resto del aparato. Es una de esas obras cuya idea buena se ha independizado del libro que la trajo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quédate con la lista de las cinco: que te escuchen, no te corrijan, te noten, te toquen y te dejen ir. Sirve para mirar cualquier vínculo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "adulto-relaciones": ADULTO_RELACIONES,
   "bolsa-o-vida": BOLSA_O_VIDA,
   "despertando-gigante": DESPERTANDO_GIGANTE,
   "ego-es-el-enemigo": EGO_ES_EL_ENEMIGO,
