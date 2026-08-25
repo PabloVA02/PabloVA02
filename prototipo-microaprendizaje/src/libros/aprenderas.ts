@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "elon-musk":
+    "Isaacson pasó dos años, de 2021 a 2023, siguiendo a Musk a las reuniones y a las fábricas. El libro se organiza alrededor de una pregunta que deja abierta: si los rasgos que lo vuelven insoportable son los mismos que lo vuelven eficaz.",
+
   "arte-seduccion":
     "Plutarco escribió que la belleza de Cleopatra no era incomparable y que lo irresistible era su conversación. Greene parte de ahí para tratar la seducción como una estrategia con fases, y el resumen dice dónde deja de ser cortejo.",
 

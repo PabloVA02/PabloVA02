@@ -66466,7 +66466,293 @@ const ARTE_SEDUCCION: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Elon Musk, de Walter Isaacson, en ocho páginas.
+
+   Breve. Biografía dentro de Economía → rótulo con la afirmación entera y
+   tercera persona, igual que STEVE_JOBS, que es del mismo autor y el modelo
+   más cercano que hay.
+
+   Regla de la categoría (apartado 4 bis, ECONOMÍA): ninguna página sin una
+   persona, una empresa o una fecha dentro, y el término técnico traducido y
+   definido la primera vez. El «índice del idiota» y el algoritmo de cinco
+   pasos son los dos que hay que explicar bien.
+
+   Riesgo principal: escribir la hagiografía o el ajuste de cuentas. Ni una
+   cosa ni la otra: se cuenta el método, con las cifras, y la conclusión dice
+   lo que el libro no mira —Shotwell, el dinero público— y el error de
+   Starlink que Isaacson tuvo que corregir después de publicar.
+   -------------------------------------------------------------------------- */
+
+const ELON_MUSK: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La pregunta del libro no es cómo lo consiguió, sino si hacía falta ser así",
+      },
+      {
+        b: "texto",
+        texto:
+          "Walter Isaacson pasó dos años, de 2021 a 2023, siguiendo a Elon Musk a las reuniones, a las fábricas y a las madrugadas. El libro que salió de ahí no organiza el material por empresas ni por años: lo organiza alrededor de una sola pregunta, que además deja sin contestar del todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La pregunta es si los rasgos que lo vuelven insoportable se pueden separar de los que lo vuelven eficaz. Isaacson describe despidos por capricho, jornadas imposibles y humillaciones en público, y describe también dos empresas que hicieron lo que la industria daba por imposible. Y sostiene que las dos cosas salen del mismo sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La respuesta importa fuera de esta biografía, porque la industria tecnológica lleva veinte años usando ese razonamiento para justificar comportamientos que en cualquier otro sector costarían el puesto. Si es cierto que el resultado exige el maltrato, hay que aceptarlo; si no lo es, se ha estado pagando un precio a cambio de nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre de dónde viene esa manera de estar en el mundo, el cálculo que lo llevó a fabricar cohetes en vez de comprarlos, las cinco reglas de trabajo que aplica en todas sus empresas, el error de mil millones que le enseñó el orden correcto, lo que demostró y lo que no al despedir a tres de cada cuatro empleados de Twitter, y qué se sostiene de la tesis del libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La duda del libro es si el maltrato es el precio del resultado o un extra que se ha estado pagando de más.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Isaacson sitúa el origen de todo en un padre, y lo dice sin rodeos" },
+      {
+        b: "texto",
+        texto:
+          "Musk nació en Pretoria en junio de 1971 y fue un niño acosado con una violencia que hoy sería un asunto policial. En una ocasión lo tiraron por unas escaleras de hormigón y lo golpearon hasta dejarlo hospitalizado, con la cara tan hinchada que su madre tardó en reconocerlo; años después necesitó cirugía para reparar los daños en la nariz.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Isaacson coloca en el centro no es la paliza, sino lo que ocurrió al volver a casa. Su padre, Errol, le dio la razón a los agresores y estuvo aproximadamente una hora reprochándole a él lo sucedido. El libro vuelve una y otra vez sobre esa escena, y sobre la costumbre paterna de humillarlo largo rato y en frío.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tesis que construye encima es discutible y está declarada: Musk aprendió allí un patrón de trato y lo repite hacia fuera, sobre todo cuando está bajo presión. Su pareja durante años, la música Grimes, le puso nombre a ese estado y el libro lo adopta como término propio: el «modo demonio».",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir qué clase de explicación es esta. No es un diagnóstico ni una prueba, es la hipótesis de un biógrafo. Isaacson tiene acceso a las dos partes —entrevistó también al padre— y aun así lo que ofrece es una lectura, no una causa demostrada. El libro entero descansa sobre ella.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La explicación del carácter que da el libro es una hipótesis de biógrafo, no un hallazgo, y conviene leerla como tal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Fabricó sus propios cohetes porque hizo una división que nadie en el sector hacía",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2001 y 2002, Musk viajó dos veces a Moscú para comprar misiles balísticos reacondicionados con los que lanzar una sonda a Marte. Le pidieron ocho millones de dólares por unidad, y en la última reunión el trato terminó mal. Volvió en avión con un socio, abrió un ordenador y les enseñó una hoja de cálculo que había preparado durante el vuelo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La hoja comparaba el precio de un cohete con el precio de los materiales de los que está hecho: aluminio, titanio, cobre, fibra de carbono. La suma de los materiales rondaba el dos por ciento del precio final. La conclusión que sacó fue que no estaba comprando ingeniería, estaba comprando el margen y la ineficiencia de una industria sin competencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale un concepto que usa en todas sus empresas y que él llama «índice del idiota»: la razón entre lo que cuesta una pieza acabada y lo que cuestan sus materias primas. Un índice alto no significa que la pieza sea cara, significa que quien la fabrica lo hace mal. Es una manera brutal de decidir qué se compra fuera y qué se hace dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "SpaceX se fundó en 2002 con esa cuenta detrás y estuvo a punto de morir tres veces. El cuarto lanzamiento del cohete Falcon 1 fue el que funcionó, el 28 de septiembre de 2008, con la empresa casi sin dinero. Aquella misma Navidad cerró una ronda que salvó Tesla y la NASA le adjudicó un contrato de mil seiscientos millones de dólares.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si una pieza cuesta cincuenta veces sus materiales, el problema no es el precio: es que quien la fabrica lo hace mal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las cinco reglas con las que dirige valen para cualquier sitio donde se fabrique algo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte más aprovechable del libro es un procedimiento de cinco pasos que Musk llama «el algoritmo» y que repite hasta el hartazgo en las reuniones de todas sus empresas. Su valor está sobre todo en el orden, porque casi todas las organizaciones lo aplican al revés y por eso automatizan procesos que no deberían existir.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Discutir cada requisito", texto: "y que venga firmado con nombre y apellidos. Si el requisito lo puso «el departamento de seguridad», no hay a quién preguntarle por qué." },
+          { fuerte: "Eliminar todo lo que se pueda", texto: "y pasarse de largo a propósito: si después no hay que devolver al menos un diez por ciento de lo eliminado, es que se eliminó poco." },
+          { fuerte: "Simplificar y optimizar", texto: "solo después de lo anterior, porque el error más común de un buen ingeniero es perfeccionar una pieza que no tendría que estar ahí." },
+          { fuerte: "Acelerar el ciclo", texto: "medir cuánto se tarda en repetir una vuelta entera de prueba y corrección, y atacar eso antes que la calidad de cada vuelta." },
+          { fuerte: "Automatizar", texto: "el último, siempre. Una máquina que hace un paso inútil lo hace más deprisa y más caro de cambiar." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "Los tres primeros pasos son en realidad una sola idea repetida: la mayor parte del trabajo de una empresa grande consiste en cumplir requisitos que nadie recuerda haber puesto. Preguntar quién los puso, uno por uno, es un procedimiento tosco y funciona en cualquier sector, sin cohetes de por medio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El error más caro de un buen ingeniero es perfeccionar una pieza que no debería existir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El quinto paso lo aprendió gastándose una fortuna en robots que tuvo que arrancar",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2017 y 2018, Tesla intentó fabricar el Model 3 en una línea automatizada casi de punta a punta en su planta de Fremont, California. Musk había decidido que la fábrica era el producto y que las personas eran el cuello de botella. El resultado fue una cadena que se atascaba constantemente y una empresa que quemaba dinero sin entregar coches.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El fallo estaba en el orden del algoritmo: había automatizado antes de simplificar. Robots caros repetían con precisión pasos que no hacían falta, entre ellos colocar unas fibras de vidrio sobre la batería que resultaron ser prescindibles. Hubo que desmontar tramos enteros de la línea y poner personas donde estaban las máquinas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Musk lo reconoció en público en abril de 2018, en un mensaje que sigue siendo la frase más citada del episodio: la automatización excesiva en Tesla fue un error, dijo, y precisó que el error era suyo, y que se había infravalorado a los humanos. Es la única rectificación importante que el libro le documenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La salida fue el otro método por el que se le conoce: la urgencia fabricada. Durmió en la fábrica, trasladó allí su despacho y, en pocas semanas del verano de 2018, montó una línea entera dentro de una carpa levantada en el aparcamiento porque no había permiso para otro edificio. Aquella carpa produjo una parte decisiva de los coches de ese trimestre.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Automatizar un paso inútil solo consigue hacerlo más deprisa y volverlo más caro de quitar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Despedir a tres de cada cuatro empleados de Twitter demostró menos de lo que parece",
+      },
+      {
+        b: "texto",
+        texto:
+          "Musk compró Twitter en octubre de 2022 por cuarenta y cuatro mil millones de dólares y en unos meses redujo la plantilla de unos siete mil quinientos empleados a alrededor de dos mil. La predicción unánime del sector fue que el servicio se caería en semanas. No se cayó, y esa es la parte que hay que conceder entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aquello puso a prueba es una creencia extendida sobre cuánta gente hace falta para sostener un servicio grande, y el resultado fue incómodo para mucha gente. Isaacson lo cuenta como la demostración práctica del segundo paso del algoritmo aplicado a personas en lugar de a piezas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pero mantener el servicio en pie y mantener la empresa son cosas distintas, y la segunda salió mal. Los ingresos por publicidad se hundieron, los anunciantes grandes se marcharon y las participaciones que otros inversores tenían en la compañía se rebajaron en libros hasta una fracción del precio pagado. La infraestructura aguantó; el negocio, no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la lección que el libro no acaba de sacar. Un recorte así demuestra que había gente de más, no que se pudiera prescindir de la que se fue; el sistema que sigue funcionando es el que ya estaba construido, y lo que se pierde al vaciar un equipo no se nota en el servicio del día siguiente, sino en lo que la empresa deja de saber hacer.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que un sistema siga en pie después de vaciar el equipo prueba que estaba bien construido, no que sobrara quien lo construyó.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro sostiene que el carácter no se puede separar del resultado, y no llega a demostrarlo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tesis de Isaacson se puede resumir en una frase: la impaciencia que arruina a la gente que trabaja con Musk es la misma que puso un cohete reutilizable en órbita cuando ninguna agencia estatal lo había conseguido. Quitarle una cosa sería quitarle la otra. El libro la repite en cada etapa y la deja abierta al final.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A favor tiene un argumento serio. Las decisiones que salieron bien fueron casi siempre las que ningún comité habría aprobado: fabricar los motores en casa, aterrizar la primera fase sobre una plataforma en el mar, sacar el Model 3 de una carpa. Un plazo imposible reorganiza de verdad las prioridades de una fábrica, y eso se ha visto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En contra tiene algo que el propio libro contiene y no usa. Gwynne Shotwell dirige SpaceX en el día a día desde 2008, y de las mismas páginas se deduce que la parte de la empresa que funciona con plazos, contratos y clientes es suya, y que la lleva sin ninguno de esos métodos. Si el resultado exigiera el maltrato, ese contraejemplo no debería estar dentro del mismo edificio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La comprobación que faltaría es la que Isaacson no hace: cuántas de las decisiones acertadas se explican por la urgencia y cuántas por tener capital paciente, ingenieros excelentes y un cliente público estable. Sin separar esas dos cosas, la tesis no se puede ni confirmar ni descartar, y el libro se queda en el retrato.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que dos rasgos aparezcan juntos en una persona no demuestra que el uno haga falta para el otro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que se lleva alguien que lea este libro son dos cosas concretas y una duda. El índice del idiota, que es una manera rápida de saber si un proveedor fabrica bien. El algoritmo de cinco pasos, cuyo valor está en el orden y que funciona en cualquier fábrica. Y la duda de si el carácter que describe era necesario, que el propio libro plantea y no resuelve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en el sitio donde falla siempre esta clase de biografía: el acceso. Isaacson estuvo dos años dentro, y el precio de esa cercanía es que casi todos los conflictos se cuentan desde el lado de Musk. Los despedidos, los reguladores y los investigadores de accidentes aparecen poco y hablan menos. Y el dinero público —el préstamo de cuatrocientos sesenta y cinco millones que sostuvo a Tesla en 2010, devuelto nueve años antes de plazo, y los contratos de la NASA que sostuvieron a SpaceX— queda como telón de fondo de un relato de mérito individual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un fallo concreto que se puede señalar con fecha. El libro contaba que Musk desconectó la cobertura de Starlink cerca de Crimea en 2022 para frustrar un ataque ucraniano contra la flota rusa. Tras publicarse, Isaacson lo corrigió en público: la cobertura no había estado activa nunca en esa zona, y lo que hubo fue una petición de activarla que Musk rechazó. Es una distinción importante y el libro salió con la versión equivocada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de septiembre de 2023, casi todo lo que cuenta ha seguido moviéndose. SpaceX ha encadenado vuelos de prueba de un cohete mucho mayor, la valoración de la red social ha seguido cayendo, y Musk ha añadido una empresa de inteligencia artificial a la lista. Un libro sobre alguien en activo envejece deprisa, y este avisa de ello en su propia última página.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Enseña dos herramientas que se pueden usar mañana y deja sin contestar la única pregunta que se hace.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "elon-musk": ELON_MUSK,
   "arte-seduccion": ARTE_SEDUCCION,
   "poder-introvertidos": PODER_INTROVERTIDOS,
   "magia-orden": MAGIA_ORDEN,

@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "elon-musk": [
+    "cómo se decide si conviene fabricar una pieza o comprarla",
+    "por qué automatizar antes de simplificar sale carísimo",
+    "el orden en que se recorta un proceso para no romperlo",
+    "qué demuestra y qué no que una empresa aguante sin su plantilla",
+    "por qué dos rasgos juntos no prueban que uno cause el otro",
+  ],
+
   "arte-seduccion": [
     "por qué la atención completa pesa más que el aspecto físico",
     "cómo alguien se vuelve insustituible cuando ya no lo desean",
