@@ -2080,11 +2080,11 @@ export const PUNTOS: Record<string, string[]> = {
   ],
 
   "mente-millonaria": [
-    "por qué el dinero que llega de golpe casi nunca se queda",
-    "las tres vías por las que heredaste tu manera de ver el dinero",
-    "la diferencia entre jugar a ganar y jugar a no perder",
-    "cómo repartir lo que entra en seis partes con sus porcentajes",
-    "por qué cobrar por horas te pone un techo que se puede calcular",
+    "cómo detectar qué frases sobre dinero siguen decidiendo por ti",
+    "por qué repartir el dinero al entrar cambia el resultado del mes",
+    "por qué un plan que solo quita no lo aguanta nadie",
+    "qué diferencia hay entre cobrar por tiempo y cobrar por resultado",
+    "cómo reconocer una explicación que vale para cualquier resultado",
   ],
 
   "piensa-hazte-rico": [
