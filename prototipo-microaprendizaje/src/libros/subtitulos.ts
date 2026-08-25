@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "martes-con-mi-profesor": "Un anciano, un joven y la lección más importante de la vida",
   incognito: "Las vidas secretas del cerebro",
   "primeros-90-dias": "Estrategias de éxito para nuevos líderes",
   "nueva-mirada-infidelidad": "Repensar la infidelidad",

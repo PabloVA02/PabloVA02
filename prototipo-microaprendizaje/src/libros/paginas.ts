@@ -85466,7 +85466,274 @@ const INCOGNITO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Martes con mi viejo profesor, en ocho paginas.
+
+   Breve. NARRATIVA -> titulo corto de imagen en el rotulo y afirmacion en la
+   primera frase (apartado 3 bis).
+
+   PERO LA CAJA VA EN TERCERA PERSONA, y eso hay que sostenerlo aunque el
+   registro narrativo pida segunda. Apartado 4 bis: un libro escrito desde una
+   desgracia real no admite el tu. Morrie Schwartz se estaba muriendo de
+   esclerosis lateral amiotrofica mientras se grababan estas conversaciones, y
+   convertir eso en un lema para el lector es exactamente lo que la regla
+   prohibe.
+
+   Lo concreto: el programa de television de 1995, catorce martes, la muerte en
+   noviembre de ese ano, el funeral en vida, el telegrama que Morrie tuvo que
+   leerle a su padre a los ocho anos.
+
+   La conclusion dice lo que casi ningun resumen dice: que las frases de este
+   libro, leidas en frio, son de tarjeta de felicitacion, y que lo que las
+   sostiene es quien las dice y cuando. Y que Morrie tenia casa, familia y
+   medios, y que su buena muerte no fue solo cuestion de actitud.
+   -------------------------------------------------------------------------- */
+
+const MARTES_CON_MI_PROFESOR: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un profesor en la televisión" },
+      {
+        b: "texto",
+        texto:
+          "Una noche de 1995, un periodista deportivo de Detroit estaba haciendo zapeo y se encontró en la pantalla a un hombre al que no veía desde hacía dieciséis años. Mitch Albom se había licenciado en 1979 en la Universidad Brandeis, había prometido a su profesor de sociología que seguiría en contacto, y no había vuelto a llamarlo ni una vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Morrie Schwartz estaba en el programa porque se estaba muriendo. Le habían diagnosticado esclerosis lateral amiotrófica, una enfermedad que va paralizando el cuerpo desde los pies hacia arriba mientras la cabeza sigue funcionando perfectamente. Había decidido no esconderse, y en la entrevista hablaba de lo que estaba viviendo con una claridad que dejaba al presentador sin preguntas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Albom cogió un avión a Massachusetts. Fue a verle un martes, y luego el siguiente, y así catorce martes seguidos hasta que Morrie murió en noviembre de aquel año. Grabó las conversaciones. El libro que salió de ahí se presenta como la última asignatura del profesor, con un solo alumno, sin exámenes y con un trabajo final que es este libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre en qué consistían esos martes, qué aprendió Morrie al perder la capacidad de valerse por sí mismo, por qué organizó su propio funeral estando vivo, qué método usaba con el miedo, de dónde le venía su manera de estar con la gente, qué pensaba de la vida que llevan casi todos y qué le falta a este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Albom tardó dieciséis años en volver a llamar, y volvió porque vio a su profesor en la televisión. Casi todo el mundo tiene una llamada así pendiente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Catorce martes" },
+      {
+        b: "texto",
+        texto:
+          "El formato del libro no es un adorno: es lo que lo hace funcionar. Cada capítulo es un martes y cada martes tiene un tema, elegido por los dos: el mundo, la autocompasión, el arrepentimiento, la muerte, la familia, las emociones, el miedo a envejecer, el dinero, el amor, el matrimonio, la cultura, el perdón. La secuencia es la de un curso, y Morrie la trata como tal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entre un martes y el siguiente, la enfermedad avanza. Al principio Morrie recibe a Albom sentado en su butaca; después ya no puede levantarse; luego necesita ayuda para todo; y en los últimos capítulos habla con dificultad y hay que acercarse mucho para oírle. El deterioro va marcando el libro sin que nadie lo comente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un detalle biográfico que explica que aquello pudiera ocurrir. Albom tenía los martes libres porque el periódico en el que trabajaba estaba en huelga, y él era el típico profesional que no paraba nunca. La circunstancia que hizo posible el libro fue que se quedara sin trabajo durante unos meses, y él lo cuenta así.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay otro sobre por qué se publicó. Los cuidados de Morrie estaban costando mucho dinero, y Albom buscó editorial en parte para ayudarle a pagarlos. Varias lo rechazaron. El libro salió en 1997, poco después de la muerte de Morrie, y acabó vendiendo más de catorce millones de ejemplares en más de cuarenta idiomas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Aquellas conversaciones ocurrieron porque una huelga dejó a Albom sin trabajo los martes. El tiempo para lo importante casi nunca aparece solo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Aprender a que le limpien a uno" },
+      {
+        b: "texto",
+        texto:
+          "El tramo más incómodo del libro es el que menos se cita. Morrie explica que lo que más temía de la enfermedad no era morirse: era el día en que alguien tuviera que limpiarle después de ir al baño. Lo dice sin rodeos y varias veces, porque para él ese era el límite de la dignidad tal como se la habían enseñado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando llega ese día, cuenta lo que le pasó por dentro, y no es una superación heroica. Primero fue humillación, y duró. Después, poco a poco, empezó a entenderlo de otra manera: como volver a ser un niño al que cuidan, una etapa que todo el mundo vivió al principio y que la mayoría no vuelve a vivir hasta el final, si es que llega.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la observación sobre la cultura que sostiene medio libro. Morrie sostiene que en la sociedad en la que vive se enseña a ser independiente y no se enseña a ser dependiente, y que como todo el mundo acaba dependiendo de alguien, esa formación deja a la gente sin herramientas justo para la parte que es segura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade algo sobre el otro lado que se olvida al resumir el libro. Dice que dejarse cuidar es también un regalo para quien cuida, porque le permite acercarse; y que la gente que se niega a pedir ayuda hasta el final no está protegiendo su dignidad, está privando a los suyos de la única cosa que pueden hacer por ella.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se enseña a ser independiente y no se enseña a ser dependiente, cuando lo segundo le llega a todo el mundo tarde o temprano.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Su propio funeral estando vivo" },
+      {
+        b: "texto",
+        texto:
+          "Poco después del diagnóstico, Morrie organizó una cosa que no había visto hacer a nadie: un funeral en vida. Invitó a un grupo pequeño de amigos y familiares un domingo por la tarde, y les pidió que dijeran delante de él lo que habrían dicho en su entierro. La escena la cuenta Albom con cuidado y sin solemnidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su razón era práctica y algo irónica, y la explicaba así: en los funerales se dicen cosas maravillosas de alguien que ya no puede oírlas, y le parecía un desperdicio. Quería escucharlas él. Hubo lágrimas, hubo risas y hubo un primo que leyó un poema, y Morrie lloró y contestó a cada uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que el episodio deja dicho es más amplio que la anécdota. Casi todo lo que la gente piensa de las personas que quiere se guarda para una ocasión que suele llegar tarde, y no por falta de cariño sino por pudor y por costumbre. Decirlo en vida no requiere una enfermedad terminal: requiere estar dispuesto a pasar un rato incómodo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Del mismo capítulo sale una de las frases del libro que más ha circulado, y conviene contarla con su contexto porque suena distinta. Morrie dice que la muerte termina una vida, no una relación. No lo dice como consuelo poético: lo dice explicando que sus conversaciones con su madre, muerta hacía sesenta años, seguían ocurriendo dentro de él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En los funerales se dicen cosas maravillosas de alguien que ya no las oye. Morrie invitó a los suyos a decírselas mientras podía escucharlas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dejar entrar el miedo y salir después" },
+      {
+        b: "texto",
+        texto:
+          "Morrie tenía un método para las emociones difíciles y lo describe con precisión, que es lo que lo separa del resto de las frases del libro. Consistía en no defenderse de ellas: cuando llegaba el miedo, o la pena, o la autocompasión, se metía dentro del todo, la sentía entera sin discutirla y sin taparla, y después salía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El paso de salir es el que él consideraba la parte técnica. Decía que solo se puede soltar una emoción cuando se la ha atravesado del todo, porque lo que se aparta a medias vuelve; y que quien se pasa la vida esquivando el miedo a la muerte lo tiene funcionando de fondo todo el día sin haberlo mirado nunca de frente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo aplicaba a diario y con horario. Morrie se permitía cada mañana un rato de llorar por lo que estaba perdiendo, unos minutos, y después paraba y se ocupaba de lo que quedaba del día. Albom describe eso con detalle: no era una postura filosófica sino una rutina, y una rutina con final.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea venía en parte de sus lecturas budistas, y Morrie la resumía con una imagen que repite: hay que aprender a morirse para aprender a vivir. Su versión práctica era imaginarse un pajarito en el hombro que cada día pregunta si hoy es el día, y contestarle, porque quien tiene esa pregunta presente ordena su tiempo de otra manera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que se aparta a medias vuelve. Morrie se metía entero en el miedo, lo sentía completo y después salía, y lo hacía con horario.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El telegrama que tuvo que leer en voz alta" },
+      {
+        b: "texto",
+        texto:
+          "El libro se sostiene mejor cuando cuenta de dónde venía Morrie, y esa parte casi nunca se resume. Su madre murió cuando él tenía ocho años, en un piso del Bronx, en una familia de inmigrantes rusos muy pobres. El telegrama con la noticia llegó en inglés, y el único de la casa que sabía leerlo era el niño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tuvo que leérselo en voz alta a su padre. Morrie contaba que guardó ese papel toda su vida y que lo que vino después fue peor: su padre, un hombre callado y agotado, no volvió a hablar del asunto ni a abrazarle. Creció en una casa sin ninguna clase de contacto físico ni de palabras de afecto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese origen explica lo que hizo después con su vida y con su manera de tratar a la gente. Morrie se convirtió en un hombre que tocaba a todo el mundo, que decía en voz alta lo que sentía y que lloraba delante de quien fuera, y Albom señala que eso no era un temperamento: era una decisión tomada contra una casa concreta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay otra pieza de su historia que ordena su relación con el dinero. De joven trabajó una temporada en un taller textil de los que había entonces en Nueva York, y vio lo que era aquello; también rechazó después trabajos mejor pagados por quedarse dando clase. Cuando habla de que el dinero no sustituye a nada, no está hablando desde la teoría.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Morrie tocaba a todo el mundo y decía en voz alta lo que sentía. No era su carácter: era una decisión tomada contra la casa en la que creció.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que compramos en vez de querernos" },
+      {
+        b: "texto",
+        texto:
+          "El martes dedicado al dinero contiene el argumento más duro del libro, y Morrie lo formula sin diplomacia: dice que existe un lavado de cerebro cultural que consiste en repetir que tener más es mejor, hasta que la gente se pasa la vida persiguiendo cosas que no le hacen falta y llamando a eso trabajar duro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su observación no es que el dinero sea malo, y lo aclara varias veces. Es que ni el dinero ni el poder sustituyen nunca lo que la gente busca con ellos, que es afecto y sentirse importante para alguien; y que quien intenta el cambio se queda con más cosas y con la misma falta, y entonces suele concluir que necesita más cosas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La alternativa que propone tiene una parte concreta y poco sentimental. Dice que hay que dedicarse a algo que dé sentido y a una comunidad, y que la manera de comprobar si uno lo tiene es mirar quién aparecería si mañana no pudiera levantarse de la cama. La respuesta a esa pregunta, sostiene, se construye con años de antelación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Albom pone al lado su propia vida sin adornarla: viajaba constantemente, trabajaba sin parar, medía el éxito en columnas publicadas, no veía a su mujer y llevaba años sin hablar con su hermano, que estaba en España con un cáncer. El contraste entre los dos hombres es el que sostiene el libro, y es el que lo hizo vender catorce millones.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La prueba que proponía Morrie es sencilla: mirar quién aparecería si mañana uno no pudiera levantarse. Esa respuesta se construye con años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que este libro deja son cuatro cosas concretas, y ninguna de ellas es una frase bonita. La costumbre de decir en vida lo que se diría en un funeral. El método de meterse entero en una emoción y salir después, con horario. La idea de que dejarse cuidar es un regalo para quien cuida. Y la pregunta de quién aparecería si uno no pudiera levantarse mañana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en lo que casi nadie dice de él. Leídas en frío y separadas de quien las decía, la mayoría de las frases de Morrie son convencionales: quiérete, perdona, no persigas el dinero, dedica tiempo a los tuyos. Lo que las sostiene no es su contenido sino quién las está diciendo, en qué estado y con cuánto tiempo por delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en lo que deja fuera de una muerte. Morrie tenía casa propia, mujer, hijos que se ocupaban, dinero para cuidadores y una enfermedad que le dejó la cabeza intacta hasta el final. El libro presenta su buena muerte como una cuestión de actitud, y para mucha gente no lo es: es también una cuestión de con qué se cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y es una hagiografía escrita por un alumno devoto, sin un solo defecto del maestro y con una conversión del narrador que encaja perfectamente. Aun así, se ha convertido en uno de los libros de memorias más vendidos de la historia, y su formato ha tenido imitadores durante treinta años. La huelga de un periódico dejó a un hombre catorce martes libres.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La fuerza de este libro no está en lo que se dice, sino en quién lo dice y cuánto tiempo le queda mientras lo dice.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "martes-con-mi-profesor": MARTES_CON_MI_PROFESOR,
   incognito: INCOGNITO,
   "primeros-90-dias": PRIMEROS_90_DIAS,
   "nueva-mirada-infidelidad": NUEVA_MIRADA_INFIDELIDAD,

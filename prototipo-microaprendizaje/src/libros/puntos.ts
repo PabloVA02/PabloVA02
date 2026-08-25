@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "martes-con-mi-profesor": [
+    "qué se aprende al perder la capacidad de valerse por uno mismo",
+    "por qué organizó su propio funeral estando vivo",
+    "qué método usaba con el miedo, y por qué tenía horario",
+    "de dónde le venía su manera de tratar a la gente",
+    "cómo se comprueba si uno tiene alrededor lo que cree tener",
+  ],
+
   incognito: [
     "por qué ver no consiste en recibir imágenes del mundo",
     "cómo se puede saber hacer algo sin acceso a cómo se hace",

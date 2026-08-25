@@ -263,7 +263,7 @@ export const CATALOGO: Ficha[] = [
   { id: "ladrona-libros", titulo: "La ladrona de libros", autor: "Markus Zusak", ano: 2005, categoria: "Literatura", estado: "pendiente" },
   { id: "kite-runner", titulo: "Cometas en el cielo", autor: "Khaled Hosseini", ano: 2003, categoria: "Literatura", estado: "pendiente" },
   { id: "mil-soles", titulo: "Mil soles espléndidos", autor: "Khaled Hosseini", ano: 2007, categoria: "Literatura", estado: "pendiente" },
-  { id: "martes-con-mi-profesor", titulo: "Martes con mi viejo profesor", autor: "Mitch Albom", ano: 1997, categoria: "Literatura", estado: "pendiente" },
+  { id: "martes-con-mi-profesor", titulo: "Martes con mi viejo profesor", autor: "Mitch Albom", ano: 1997, categoria: "Literatura", estado: "escrito" },
   /* --- Psicología ------------------------------------------------------- */
   { id: "pensar-rapido", titulo: "Pensar rápido, pensar despacio", autor: "Daniel Kahneman", ano: 2011, categoria: "Psicología", estado: "escrito" },
   { id: "habitos-atomicos", titulo: "Hábitos atómicos", autor: "James Clear", ano: 2018, categoria: "Psicología", estado: "escrito" },

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "martes-con-mi-profesor":
+    "En 1995, un periodista deportivo vio en la televisión a su profesor de la universidad, al que llevaba dieciséis años sin llamar. Se estaba muriendo de esclerosis lateral amiotrófica. Fue a verle catorce martes seguidos y grabó las conversaciones.",
+
   incognito:
     "Nadie sabe explicar cómo reconoce una cara entre mil, cómo mantiene el equilibrio en bicicleta o de dónde le salen las palabras al hablar. Eagleman sostiene que casi todo lo que hace el cerebro llega ya resuelto a la conciencia.",
 
