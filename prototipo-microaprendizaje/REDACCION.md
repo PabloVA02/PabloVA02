@@ -873,6 +873,57 @@ longitud, imperativos de folleto— lo marca `node scripts/revisa-puntos.mjs`,
 y los 223 lo pasan limpios. Lo que no se puede comprobar a máquina es si un
 nombre propio se entiende sin contexto: eso se mira con la prueba de arriba.
 
+### 5 bis. EL SUBTÍTULO ES EL QUE PROMETE
+
+Pablo mandó el 25 de agosto dieciséis capturas de cuatro estantes de Explorar
+—Productividad, Dinero e inversiones, Amor y sexo, Sociedad y tecnología—, con
+unos ochenta títulos comerciales a la vista, y dijo qué había que mirar:
+
+> «Sobre todo eso que tenga un título bueno pero eso que sea prometedor y tal,
+> o al menos el título algunas veces no pero el mensaje cortito sí. Pon más,
+> sigue poniendo más de todos los tipos, sobre todo muchos que prometan cosas
+> que todo el mundo quiere, promesas de productividad, felicidad, etc.»
+
+Están en `referencia/estantes-promesa/`, y lo que enseñan es una cosa que no
+estaba escrita en ningún sitio: **en un estante, el título casi nunca promete
+nada; quien promete es el subtítulo, y mide entre cuatro y nueve palabras.**
+
+| título | subtítulo, que es donde está la promesa |
+|---|---|
+| Cuatro mil semanas | Gestión del tiempo para mortales |
+| Hábitos atómicos | Cambios pequeños, resultados extraordinarios |
+| Te enseñaré a ser rico | Sin sentimiento de culpabilidad, sin excusas, sin tonterías |
+| El millonario automático | Un plan poderoso y sencillo para vivir y acabar rico |
+| Side Hustle | Crea un negocio propio sin dejar tu trabajo |
+| Crea tu segundo cerebro | Un método probado para organizar tu vida digital |
+| La alegría de perderse | Vive más haciendo menos |
+| Todo empieza contigo | 9 duras verdades sobre el amor que cambiarán tu vida |
+| Céntrate | Las cuatro reglas para el éxito en la era de la distracción |
+| El club de las 5 de la mañana | Controla tus mañanas, impulsa tu vida |
+
+Cuatro formas se repiten, y valen las cuatro:
+
+- **La cifra**: «9 duras verdades», «las cuatro reglas», «siete sencillos pasos».
+  Promete que hay un número acotado de cosas que aprender.
+- **La negación triple**: «sin culpa, sin excusas, sin tonterías». Nombra las
+  tres objeciones del lector antes de que las piense.
+- **El intercambio**: «vive más haciendo menos», «cambios pequeños, resultados
+  extraordinarios». Poco a cambio de mucho, dicho en una línea.
+- **El para quién**: «gestión del tiempo para mortales», «una guía total para
+  principiantes». Rebaja la exigencia y deja entrar al que se creía incapaz.
+
+**Cómo se aplica esto aquí.** Nuestra regla del apartado 5 sigue en pie y no se
+toca: el subtítulo que se pone es el REAL de la cubierta, y el que no se sepa
+se declara en `SIN_SUBTITULO`. No se inventa uno bonito. Lo que estas capturas
+cambian es **qué libros entran en el catálogo**: hay que buscar y meter los
+títulos que ya vienen con una promesa puesta de fábrica, porque son los que se
+abren. La primera tanda de treinta y ocho salió de estas capturas.
+
+Y el aviso, que es el mismo de siempre: la promesa la trae el libro, no la
+escribimos nosotros. Un resumen de «Te enseñaré a ser rico» sigue teniendo que
+decir en su conclusión dónde falla el libro, y eso no lo hace ninguna de estas
+ochenta fichas.
+
 ### Lo que enseñan las veinte fichas del 21 de agosto
 
 Es la única tanda de FICHAS que hay, y la ficha se ve antes que el resumen, así

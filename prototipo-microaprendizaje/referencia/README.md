@@ -45,6 +45,7 @@ en el orden de lectura del resumen.
 | `joyas-vocabulario/` | *Vocabulario picante* | **No es un resumen de un libro**: es un formato propio de Headway —«Joyas»— que mezcla varios títulos sobre un tema. Ficha de 6 puntos clave, 8 minutos y 3 conocimientos |
 | `fichas-aprenderas/` | cinco FICHAS: *El alquimista*, *La metamorfosis*, *Frankenstein*, *El gran Gatsby* y *Dar y recibir* | **La que obligó a reescribir los 1.115 «Aprenderás».** Un «Aprenderás» no es una pregunta sobre el argumento, es un conocimiento que te llevas: «cómo la culpa corroe la identidad», no «qué pasó la mañana del 4 de agosto». De aquí sale también el tope de catorce palabras, que antes estaba en once. Apartado 5 |
 | `tarjeta-libro-del-dia/` | la tarjeta del inicio | El modelo de `src/LibroDelDia.tsx`, con lo que se copió y lo que se cambió |
+| `estantes-promesa/` | Cuatro estantes de Explorar: Productividad, Dinero e inversiones, Amor y sexo, Sociedad y tecnología | **El subtítulo es el que promete.** 16 capturas del 25 de agosto con unos ochenta títulos comerciales a la vista. Apartado 5 bis de `REDACCION.md` |
 
 ## Cómo se guarda una tanda nueva
 
