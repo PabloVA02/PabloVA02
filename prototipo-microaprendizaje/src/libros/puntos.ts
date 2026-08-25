@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cuatro-mil-semanas": [
+    "por qué despachar más rápido hace que llegue más trabajo",
+    "de dónde salió la idea de que el tiempo es algo que se gasta",
+    "por qué elegir duele siempre, aunque elijas bien",
+    "por qué se aplaza justo lo que más ganas hay de hacer",
+    "qué pierde el descanso cuando no coincide con el de nadie",
+  ],
+
   "ensenare-ser-rico": [
     "por qué empezar antes pesa más que elegir bien el producto",
     "cuánto se lleva una comisión pequeña a lo largo de una vida",

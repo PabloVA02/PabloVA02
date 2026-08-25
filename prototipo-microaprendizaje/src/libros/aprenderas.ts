@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cuatro-mil-semanas":
+    "Ochenta años son unas cuatro mil semanas, y el número cabe en un papel. Burkeman sostiene que el desbordamiento no es un fallo de método sino una consecuencia de que las cosas que merecen la pena son más que las horas que hay.",
+
   "ensenare-ser-rico":
     "Una comisión anual del uno por ciento se lleva alrededor de una cuarta parte de lo ahorrado en cuarenta años, y es la única variable de una inversión que se conoce de antemano. Sethi enseña aritmética y automatismos, no atajos.",
 

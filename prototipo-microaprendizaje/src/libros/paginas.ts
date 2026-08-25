@@ -69513,7 +69513,284 @@ const ENSENARE_SER_RICO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Cuatro mil semanas, en ocho páginas.
+
+   Breve. Libro práctico → afirmación entera en el rótulo y SEGUNDA PERSONA
+   en la caja (apartado 4.7).
+
+   Riesgo principal: sonar a consuelo. Es un libro de ideas y se sostiene con
+   lo concreto: Ruth Schwartz Cowan en 1983, E. P. Thompson en 1967, la
+   nepreryvka soviética de 1929, la etimología de decidir, y la
+   investigación de Robert Boice sobre escritores.
+
+   Y la conclusión dice lo que el libro no admite del todo: que diagnostica
+   mucho mejor de lo que receta, que la historia de Buffett y las
+   veinticinco metas es apócrifa, y que está escrito desde una vida donde
+   el problema es elegir y no la falta de horas.
+   -------------------------------------------------------------------------- */
+
+const CUATRO_MIL_SEMANAS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El problema no es que gestiones mal el tiempo: es que hay muchísimo menos del que crees",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cuenta que da título al libro se hace en diez segundos y no se olvida. Ochenta años son unas cuatro mil semanas. Si alguien tiene cuarenta, le quedan unas dos mil. Es un número tan pequeño que se puede escribir en un papel, y esa es exactamente la intención de Oliver Burkeman.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación es que la industria de la productividad se sostiene sobre una promesa falsa: que si uno se organiza lo suficiente llegará un momento en que esté al día con todo. Ese momento no llega nunca, no por falta de método, sino porque la cantidad de cosas que merecen la pena hacer es infinita y el tiempo disponible no lo es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la inversión que propone. Mientras alguien crea que el desbordamiento es un fallo suyo, comprará el siguiente sistema y volverá a fracasar. Si acepta que es una consecuencia aritmética de ser mortal en un mundo con demasiadas opciones, empieza a hacer la única cosa que sirve, que es elegir y renunciar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué ser más eficiente hace que llegue más trabajo, de dónde salió la idea de que el tiempo es algo que se gasta, qué significa exactamente decidir, por qué se aplaza justo lo que más importa, por qué la libertad de horarios deja a la gente sola, y qué se puede hacer con todo esto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No vas a ponerte al día nunca, y ese no es un fallo tuyo: es una cuenta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El premio por ser más eficiente es que llegue más trabajo" },
+      {
+        b: "texto",
+        texto:
+          "Burkeman lo llama la trampa de la eficiencia y se comprueba en cualquier oficina. Quien contesta el correo más rápido se convierte en la persona a la que se escribe, y su bandeja de entrada no baja: sube. La recompensa por vaciar una lista es que la lista se llene antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mismo se ha medido en casa y con datos. La historiadora Ruth Schwartz Cowan estudió en 1983 qué había pasado con el tiempo dedicado a las tareas domésticas tras un siglo de lavadoras, aspiradoras y agua corriente. No bajó apenas: lo que subió fue el estándar de limpieza que se consideraba aceptable, y la ropa se empezó a lavar mucho más a menudo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión práctica es incómoda para cualquiera que haya comprado un método de organización esperando llegar al fondo de la lista. Ir más rápido no la vacía, porque esa lista no es una cantidad fija de trabajo esperando a que alguien lo despache: es un caudal que se ajusta automáticamente a la velocidad de quien lo atiende. Lo único que reduce el caudal es decir que no a cosas, y eso ningún sistema lo hace por ti.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión práctica es incómoda para cualquiera que haya comprado un método de organización. Ir más rápido no vacía la lista, porque la lista no es una cantidad fija de trabajo esperando: es un caudal que se ajusta a la velocidad de quien lo atiende. Lo único que reduce el caudal es decir que no.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuanto más rápido despachas, más te llega: la lista no es una cantidad fija, es un caudal que se ajusta a ti.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La idea de que el tiempo se gasta tiene menos de trescientos años" },
+      {
+        b: "texto",
+        texto:
+          "El historiador E. P. Thompson describió en un ensayo de 1967 cómo cambió la relación con el tiempo al llegar la industria. Antes, el trabajo del campo y del taller se organizaba por tareas: se ordeña cuando la vaca lo necesita y se recoge cuando la fruta está. El día no se dividía en unidades, se dividía en cosas que hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La fábrica necesitaba a mucha gente coordinada en el mismo sitio a la misma hora, y para eso hizo falta el reloj. A partir de ahí el tiempo dejó de ser el medio en el que ocurre la vida y pasó a ser un recurso: algo que se tiene, se ahorra, se pierde, se invierte y se malgasta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese cambio de vocabulario trae una consecuencia que casi nadie nota. Si el tiempo es un recurso, se puede estar en deuda con él, y el sentimiento de ir atrasado deja de referirse a una tarea concreta y pasa a ser permanente. Se puede llegar tarde a la vida entera, que es una idea nueva y bastante rara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Burkeman no propone volver a ninguna parte, porque no se puede. Lo que propone es notar que esa manera de sentir el tiempo es una costumbre reciente y no una verdad de la naturaleza, y que el malestar de no rendir lo suficiente se mide contra una vara que se inventó para coordinar telares.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La sensación de ir siempre atrasado se mide contra una vara que se inventó hace doscientos años para coordinar fábricas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Decidir significa cortar, y el idioma lo dice desde el principio" },
+      {
+        b: "texto",
+        texto:
+          "La palabra decidir viene del latín <em>caedere</em>, cortar, la misma raíz que está en homicidio y en suicidio. Decidir es literalmente amputar: cada vez que alguien elige una cosa está matando todas las demás versiones de esa tarde, y eso no es un efecto secundario del método, es lo que significa la palabra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la corrección más útil del libro. La sensación de pérdida que produce elegir no indica que se haya elegido mal ni que falte información: indica que se ha elegido. Quien espera a que una decisión no duela está esperando algo que, por definición, no puede pasar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso extremo es la pareja y la carrera, donde la duda se puede sostener durante décadas sin que nadie te obligue a resolverla. Y hay un detalle que remata el argumento y que casi nunca se dice: no decidir también es cortar. El tiempo pasa igual, las opciones se van cerrando solas por edad o por circunstancias, y quien no eligió se queda con el resultado sin haber tenido siquiera la parte buena de haberlo elegido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso extremo es la relación de pareja y la carrera, donde la duda se puede sostener décadas. Y hay un detalle que remata el argumento: no decidir también es cortar. El tiempo pasa igual, las opciones se cierran solas, y quien no eligió se queda con el resultado sin haber tenido ni siquiera la parte buena de elegirlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que elegir duela no significa que hayas elegido mal: significa que has elegido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Burkeman separa dos aplazamientos que se llaman igual y no tienen nada que ver. Uno es la pereza corriente, que consiste en no querer hacer algo aburrido y es fácil de entender. El otro, mucho más frecuente en gente capaz y trabajadora, consiste en aplazar precisamente aquello que más se quiere hacer —el libro, el proyecto, la conversación—, y ese tiene una causa distinta y bastante menos evidente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Burkeman separa dos aplazamientos que se llaman igual y no lo son. Uno es la pereza corriente, que es aburrimiento. El otro, mucho más común en la gente capaz, consiste en aplazar precisamente aquello que más se quiere hacer, y ese tiene otra causa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mientras un proyecto no se empieza, existe en la cabeza en su versión perfecta. En cuanto se escribe la primera página o se abre el primer archivo, esa versión desaparece para siempre y queda la real, que es limitada, torpe y comparable con la de otros. Aplazar no protege del esfuerzo: protege de la decepción.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante de ese hallazgo es la parte de parar, que es lo contrario de lo que hace todo el mundo. Terminar la sesión con ganas de seguir deja algo pendiente para el día siguiente y evita el agotamiento que después obliga a dos semanas sin tocar el asunto. Burkeman lo llama incrementalismo radical, y su única condición es tolerar quedarse a medias todos los días, que es justo lo que cuesta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es la parte de parar. Terminar la sesión con ganas deja algo pendiente para el día siguiente y evita el agotamiento que después obliga a dos semanas sin tocar nada. Burkeman lo llama incrementalismo radical, y su condición es tolerar quedarse a medias todos los días.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Para cuando se acabe el rato, aunque estés inspirado: dejar algo pendiente es lo que hace que mañana vuelvas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El tiempo libre a solas vale mucho menos que el tiempo libre compartido",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un capítulo que va contra la aspiración más extendida de estos años, la de controlar el propio horario. Burkeman sostiene que el ocio es en gran parte una experiencia social, y que un domingo libre en el que todos los demás trabajan no es un domingo: es un martes con menos correos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba histórica es un experimento soviético que casi nadie conoce. En 1929, la Unión Soviética eliminó la semana de siete días y puso a la población en semanas de cinco, con los días de descanso escalonados por colores, para que las fábricas no pararan nunca. Sobre el papel cada trabajador descansaba más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale un aviso para cualquiera que esté negociando flexibilidad horaria o pensando en trabajar por su cuenta. Poder trabajar a cualquier hora suena a libertad y en la práctica significa muchas veces no coincidir con nadie: ni con los amigos, ni con la pareja, ni con los hijos. Eso tiene un precio que no aparece en ninguna cuenta de horas, y parte del valor de un festivo es precisamente que lo tenga todo el mundo a la vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale un aviso para cualquiera que negocie flexibilidad horaria. Poder trabajar a cualquier hora suena a libertad y a menudo significa no coincidir con nadie, y eso tiene un precio que no aparece en la cuenta de horas. Parte del valor de un festivo es que lo tenga todo el mundo a la vez.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un día libre que no tiene nadie más no es un día libre: buena parte del valor del descanso está en coincidir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Aceptar que casi nada de lo que hagas importará mucho quita bastante presión",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo final propone una operación que Burkeman llama, medio en broma, terapia de insignificancia cósmica. Consiste en mirar de frente lo que ya se sabe: que dentro de cien años nadie recordará el nombre de casi nadie, y que el impacto que la mayoría de la gente tendrá en el mundo es aproximadamente cero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El giro está en para qué sirve eso. La ansiedad de rendimiento se mide contra una idea de importancia que nadie ha justificado nunca: la de que una vida tiene que dejar huella para haber valido la pena. Si esa vara se retira, lo que queda no es desesperación, es que las cuatro mil semanas dejan de estar suspendiendo un examen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su consecuencia práctica es la única de todo el libro que se puede hacer hoy: dejar de exigirle a cada tarde que rinda. Un rato de aficionado en algo que se hace mal, una tarde sin producir nada, una conversación que no lleva a ningún sitio. No como recompensa por haber trabajado, sino como aquello para lo que era el tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Burkeman remata con una comparación que ordena el libro. Quien intenta hacerlo todo trata su vida como una lista que algún día quedará vacía, y morirá con la lista llena igual que todo el mundo. Quien acepta que la lista no se vacía puede elegir qué quiere que haya en ella mientras dure.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Vas a morir con la lista sin terminar igual que todo el mundo: lo único que decides es qué hay en ella mientras tanto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene una sola cosa y la sostiene bien: el desbordamiento no es un problema de método sino una consecuencia de que las cosas que merecen la pena son más que las horas que hay. De ahí salen tres ideas utilizables: que ir más rápido atrae más trabajo, que decidir es cortar y por eso duele, y que parar antes de agotarse es lo que hace que mañana se vuelva.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la receta. Después de dedicar doscientas páginas a desmontar la gestión del tiempo, el capítulo de consejos prácticos es flojo y varios están tomados prestados. Uno de ellos, la historia de Warren Buffett pidiendo a alguien que escribiera veinticinco metas y descartara veinte, es casi con seguridad apócrifa: el propio Buffett ha desmentido que él dijera eso, y circula por internet desde hace años sin fuente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un límite que el libro reconoce en una sola frase y merecía más. Todo esto está escrito para alguien cuyo problema es elegir entre demasiadas cosas buenas. Para quien tiene dos trabajos, hijos y ningún margen, el desbordamiento no viene de un exceso de opciones sino de una falta de horas, y ahí la terapia de insignificancia cósmica no cambia nada, porque la aritmética que sobra no es filosófica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después tiene su gracia. Un libro escrito contra los libros de productividad se vendió en la sección de productividad y se lee como uno de ellos, cosa que el propio Burkeman comenta divertido. Había escrito durante catorce años una columna semanal de consejos en un periódico británico, que cerró en 2020 resumiendo lo aprendido; y en 2024 publicó «Meditaciones para mortales», que es el manual práctico que a este le faltaba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Diagnostica mejor que nadie por qué no llegas, y lo que propone hacer con eso se queda corto.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cuatro-mil-semanas": CUATRO_MIL_SEMANAS,
   "ensenare-ser-rico": ENSENARE_SER_RICO,
   "senor-anillos": SENOR_ANILLOS,
   "piensalo-otra-vez": PIENSALO_OTRA_VEZ,
