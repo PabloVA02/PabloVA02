@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "organizate-eficacia": "El arte de la productividad sin estrés",
   "maestria-greene": "Las claves del éxito, el sentido de la excelencia",
   "pre-suasion": "Un método revolucionario para influir y persuadir",
   originales: "Cómo los inconformistas mueven el mundo",

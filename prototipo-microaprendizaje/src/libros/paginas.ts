@@ -78159,7 +78159,300 @@ const MAESTRIA_GREENE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Organizate con eficacia, en ocho paginas.
+
+   Breve. Libro practico -> afirmacion entera en el rotulo y SEGUNDA PERSONA en
+   la caja (apartado 4.7).
+
+   Seis argumentos independientes: recopilar antes que priorizar, la pregunta
+   que ordena, proyecto contra tarea, los contextos, la revision semanal y los
+   seis horizontes. Con eso es Breve y no hay que estirar nada.
+
+   Riesgo principal: escribirlo como un manual. El libro ES un manual, asi que
+   la tentacion es copiar el diagrama de flujo y quedarse sin nada que se sepa
+   del mundo. Cada pagina tiene que dejar un hecho: los dias que cuesta el
+   barrido inicial, el numero de proyectos abiertos de una persona normal, el
+   estanque del karate, los dos millones de ejemplares.
+
+   La conclusion dice lo que el libro nunca reconoce: el coste de mantenimiento,
+   el hueco de las prioridades y que los contextos se escribieron antes del
+   movil.
+   -------------------------------------------------------------------------- */
+
+const ORGANIZATE_EFICACIA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La cabeza es un mal sitio para guardar cosas, y es justo donde casi todo el mundo las guarda",
+      },
+      {
+        b: "texto",
+        texto:
+          "David Allen llevaba veinte años asesorando a directivos cuando publicó esto en 2001. El libro no abre con un método sino con una observación doméstica: la cabeza te recuerda las cosas en el peor momento posible. Las pilas del mando se acuerdan a las once de la noche, y aquella llamada pendiente, el domingo por la tarde. Nunca al revés, y nunca cuando podrías hacer algo con ellas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación es que la memoria no distingue entre importante y urgente ni sabe dónde estás. Guarda un aviso y lo dispara al azar. Allen llama «asuntos abiertos» a todo lo que has aceptado hacer y no has terminado ni apuntado en un sitio de confianza. Un asunto abierto no se queda quieto: vuelve, y vuelve con la misma fuerza tenga el tamaño que tenga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la afirmación que sostiene el libro entero. El agobio no viene de la cantidad de trabajo, sino de los acuerdos sin cerrar. Cambiar el aceite del coche y reorganizar un departamento pesan igual mientras estén solo en tu cabeza, porque la cabeza no tiene escala. Por eso hay gente con poco que hacer y la sensación permanente de ir tarde a todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué el método empieza vaciando la cabeza en vez de priorizando, la única pregunta que ordena cualquier cosa que llegue, la diferencia entre un proyecto y una tarea, para qué sirven las listas por contexto, por qué el sistema entero descansa en una revisión semanal, dónde coloca Allen las metas de la vida y qué parte de todo esto envejeció mal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que te agota no es lo que tienes que hacer. Es todo lo que has dicho que sí y no has dejado apuntado en ningún sitio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Vaciar la cabeza va antes que priorizar, y por eso este método empieza al revés que los demás",
+      },
+      {
+        b: "texto",
+        texto:
+          "Casi todos los sistemas de productividad empiezan preguntando qué es lo más importante. Allen empieza por otro sitio: sacarlo todo fuera, sin ordenar y sin juzgar. Llama «recopilar» a esa fase y la considera innegociable. Mientras siga habiendo cosas guardadas solo en la memoria, cualquier lista de prioridades compite con una lista invisible que no para de interrumpir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El barrido inicial que propone es incómodo de leer. Todo lo pendiente, en papel o en una aplicación, sin excepciones y sin importar el tamaño: el informe del trimestre, el regalo del cumpleaños, la bombilla del pasillo, la conversación que llevas dos meses evitando. Allen calcula entre uno y seis días de trabajo la primera vez que alguien lo hace de verdad. Casi nadie los dedica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La pieza central del montaje es la «bandeja de entrada», y no es la del correo: es cualquier sitio donde algo entra y espera una decisión. Una libreta, un cajón, un buzón de voz. Allen pide que sean pocas y que se vacíen del todo con regularidad. Una bandeja que nunca llega a cero deja de ser una bandeja y se convierte en un montón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón por la que esto funciona es más modesta de lo que parece. No se trata de recordar mejor, sino de dejar de intentarlo. En cuanto la cabeza comprueba que lo apuntado se vuelve a mirar, deja de repetírtelo. Y si comprueba lo contrario, que lo escrito se olvida, vuelve a hacer su trabajo de archivo y el sistema se cae en una semana.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tu cabeza solo suelta una tarea cuando confía en el sitio donde la has dejado. Esa confianza no se decide: se gana revisando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una sola pregunta ordena cualquier cosa que llegue: ¿hay que hacer algo con esto?",
+      },
+      {
+        b: "texto",
+        texto:
+          "Vaciada la cabeza queda un montón sin ordenar, y aquí está la pieza más útil del libro. Se coge lo de arriba, siempre lo de arriba y nunca lo más apetecible, y se hace una pregunta: ¿esto requiere alguna acción? Solo hay dos respuestas y cada una lleva a un sitio distinto. Lo que se saca no vuelve a la bandeja. Esa regla es la que sostiene todo lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Si no requiere ninguna acción, hay tres destinos y ninguno consiste en dejarlo donde estaba. A la basura, a un archivo de consulta por si algún día hace falta, o a una lista de «algún día / quizá», que es donde van las ideas que te gustan y no vas a empezar este mes. Aprender italiano vive ahí, y ahí deja de pesarte cada domingo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Si requiere acción, la primera pregunta es cuál es exactamente la siguiente, y aparece la regla más citada del libro: si se hace en menos de dos minutos, se hace ahora. Contestar ese correo, apuntar la cita, tirar el papel. El argumento es de contabilidad pura: anotar, organizar y volver a mirar una tarea de dos minutos cuesta más tiempo que hacerla de una vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pase de dos minutos se delega o se aplaza, y aplazar significa dejarlo escrito en una lista concreta, no en la intención. Lo delegado va a una lista de «a la espera» con la fecha en que lo pediste, que es la parte que casi nadie monta y la que más disgustos ahorra. Sin ella, delegar es olvidar con testigos y enterarse tarde.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si se hace en menos de dos minutos, hazlo ahora. Apuntarlo y volver a mirarlo te sale más caro que hacerlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un proyecto no es una tarea, y confundirlos es lo que deja las listas paralizadas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Allen define «proyecto» de una manera que descoloca: cualquier cosa que necesite más de un paso. Cambiar de dentista es un proyecto. Organizar la comida de Navidad es un proyecto. Con esa definición, una persona normal tiene entre treinta y cien abiertos a la vez, y el libro sostiene que ese número no es el problema. El problema es tenerlos apuntados como si fueran tareas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una lista con «madre» escrito en una línea no se puede hacer. Tampoco «impuestos», ni «la web». Son etiquetas de asunto, y delante de una etiqueta la cabeza se queda parada porque no sabe qué movimiento tocaría. Allen dice que ahí no falta voluntad: falta una decisión que nadie ha tomado todavía, y la lista es exactamente el sitio donde no se tomó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su corrección es escribir «la siguiente acción», y la exige física y visible. No «pensar en el regalo» sino «buscar tres tiendas que abran el sábado». No «hablar con Marta» sino «llamar a Marta al móvil». La prueba es que alguien que no sepa nada del asunto pueda leer la línea y saber qué cuerpo hay que mover. Si no lo sabe, eso no es una acción.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto es inmediato y es lo que más gente recuerda del libro veinte años después. Una lista de acciones siguientes se puede empezar en cualquier hueco de diez minutos; una lista de proyectos solo se puede mirar con culpa. Cambiar el verbo cambia lo que pasa delante de la lista, y no hace falta creerse nada más del método para notarlo la primera tarde.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si delante de una línea de tu lista no sabes qué mover, eso no es una tarea: es una decisión que todavía no has tomado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las listas se ordenan por dónde estás, y no por lo importante que sea cada cosa",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda idea propia de Allen es agrupar las acciones por «contexto»: el sitio o la herramienta que hacen falta para poder hacerlas. Llamadas, ordenador, recados, casa, oficina, y una lista para cada persona con la que hablas a menudo. La lógica es que en un momento dado no puedes hacer lo importante; puedes hacer lo que el sitio donde estás te deja hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que usa es la sala de espera. Veinte minutos, el móvil en el bolsillo y una lista de llamadas: se resuelven tres. Con una lista ordenada por prioridad, esos mismos veinte minutos se van en repasar tareas que ahora mismo son imposibles. La prioridad no desaparece del método, pero llega después de filtrar por lo que de verdad se puede hacer ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Allen añade dos filtros más antes de elegir: el tiempo disponible y la energía que te queda. Reconoce, y es de lo más honesto del libro, que a las seis de la tarde de un jueves largo no se hace lo difícil por mucho que sea lo importante. Para esas horas conviene tener apuntadas acciones de poca cabeza, y tenerlas apuntadas es precisamente el trabajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí es donde el método enseña la edad. En 2001 los contextos separaban mundos: el teléfono en la mesa, el ordenador en la oficina, los recados en la calle. Hoy el móvil hace las tres cosas y la lista de llamadas y la de ordenador son la misma lista. Del filtro sobrevive lo del tiempo y la energía; lo del sitio, bastante menos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de preguntarte qué es lo importante, pregúntate qué se puede hacer aquí, con el rato que tienes y con la cabeza que te queda.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El sistema entero se sostiene sobre una revisión semanal, y es la parte que casi nadie hace",
+      },
+      {
+        b: "texto",
+        texto:
+          "Allen dedica un capítulo a algo que suena a trámite y es el corazón del método: una hora o dos, el mismo día de cada semana, mirando todo lo que hay. Vaciar las bandejas, repasar la lista de proyectos uno a uno, comprobar que cada proyecto vivo tiene escrita su acción siguiente, mirar el calendario hacia atrás y hacia delante, y leer entera la lista de «a la espera».",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón es la misma que la del principio. La cabeza suelta las tareas cuando confía, y la confianza no se declara: se comprueba. Si el sistema no se revisa, el subconsciente vuelve a hacer de archivo y regresan los recordatorios a las once de la noche. Allen es rotundo en esto: sin revisión semanal no hay método, hay listas viejas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se descubre en esa hora es casi siempre lo mismo. Proyectos que llevan tres semanas sin ninguna acción siguiente. Cosas apuntadas que ya no quieres hacer y siguen ocupando sitio. Compromisos que aceptaste por educación. La revisión no es mantenimiento administrativo: es el rato en que renegocias contigo mismo qué sigue estando dentro y qué se cae de la lista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También es donde el libro pierde a la mayoría de sus lectores. Dos horas semanales de mirar listas no producen nada visible, y lo que no produce nada visible es lo primero que se cae cuando la semana aprieta. La ironía la conoce cualquiera que lo haya intentado: el método se abandona justo en las semanas malas, que son para las que se montó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un sistema que no revisas cada semana no te descarga la cabeza. Solo te añade el remordimiento de tener listas viejas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las metas de la vida van al final del método, y no al principio como en el resto de estos libros",
+      },
+      {
+        b: "texto",
+        texto:
+          "La última parte propone seis «horizontes», que son alturas desde las que mirar lo que haces. El suelo son las acciones siguientes. Por encima, los proyectos. Después las áreas de responsabilidad, que son salud, dinero, equipo o familia; luego los objetivos de uno o dos años; luego la visión de tres a cinco; y arriba del todo el propósito y los valores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo llamativo es el orden en que manda trabajarlos. Allen dice que se empieza por abajo, y lo justifica sin diplomacia: nadie piensa bien en su propósito vital con doscientos correos sin leer y la sensación de haber olvidado algo. Primero se recupera el control del suelo, después se levanta la vista. Es lo contrario de lo que hacen casi todos los libros de este estante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La imagen que usa para describir el resultado la tomó prestada del karate: «mente como el agua». Un estanque responde a una piedra pequeña con ondas pequeñas y a una grande con ondas grandes, y en los dos casos vuelve a quedarse liso. La reacción es proporcional y no deja residuo. La mayoría, en cambio, reacciona igual ante un correo molesto que ante una crisis.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es una promesa distinta de la que se le suele atribuir. El libro no ofrece hacer más cosas ni ir más rápido: ofrece que lo que no estás haciendo ahora deje de ocupar sitio mientras haces otra cosa. Allen lo llama estar «totalmente presente», y es lo único que sostiene con cuidado, porque de rendimiento habla mucho menos de lo que se cree.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El objetivo no es que hagas más cosas. Es que lo que no estás haciendo ahora deje de sonar mientras haces otra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro piezas y funcionan sueltas, sin montar el sistema entero. Sacar de la cabeza todo lo pendiente y dejarlo en un sitio que se vuelva a mirar. Hacer en el momento lo que cueste menos de dos minutos. Escribir la siguiente acción física en vez del nombre del asunto. Y mantener una lista de lo que has delegado, con la fecha en que lo pediste.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en el coste de mantenimiento, y el libro no lo reconoce en ningún momento. Montar el sistema lleva días, sostenerlo exige dos horas cada semana, y en cuanto se desatiende siete días las listas mienten, que es peor que no tenerlas. Allen presenta ese esfuerzo como una inversión que se amortiza sola y no da ni un dato de cuánta gente sigue con el método al cabo de un año.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en las prioridades. Después de filtrar por contexto, tiempo y energía, la decisión final se toma «por intuición», y ahí el método se calla justo donde más duele: qué haces cuando cuatro cosas caben en el hueco y tres van a salir mal. Y su reparto por contextos se escribió antes del móvil, del chat de trabajo y de la notificación, que rompen la idea misma de contexto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de 2001 pasó algo que dice bastante. El libro vendió más de dos millones de ejemplares, se revisó entero en 2015 y levantó una industria de aplicaciones —Things, OmniFocus, Todoist— construidas sobre su vocabulario. Su vida real está más en esas herramientas que en sus páginas: casi todo el mundo se queda con los dos minutos y la siguiente acción, y abandona lo demás.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quédate con dos cosas y el libro ya te ha pagado: lo que cueste dos minutos, hazlo ahora; y en la lista escribe el movimiento, no el asunto.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "organizate-eficacia": ORGANIZATE_EFICACIA,
   "maestria-greene": MAESTRIA_GREENE,
   "pre-suasion": PRE_SUASION,
   siddhartha: SIDDHARTHA,

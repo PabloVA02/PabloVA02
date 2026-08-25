@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "organizate-eficacia": [
+    "por qué tu memoria te recuerda las cosas justo cuando no puedes hacerlas",
+    "qué gana quien escribe el movimiento concreto en vez del nombre del asunto",
+    "cuándo sale más caro apuntar una tarea que hacerla en el momento",
+    "por qué tu cabeza solo suelta algo si confía en dónde lo dejaste",
+    "qué parte de este método envejeció mal con la llegada del móvil",
+  ],
+
   "maestria-greene": [
     "por qué el primer trabajo se elige por lo que enseña",
     "qué corrigieron los propios investigadores de las diez mil horas",

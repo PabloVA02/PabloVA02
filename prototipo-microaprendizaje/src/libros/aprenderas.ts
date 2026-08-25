@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "organizate-eficacia":
+    "Allen sostiene que el agobio no viene de la cantidad de trabajo, sino de los acuerdos que aceptaste y no apuntaste. Su método empieza sacando de la cabeza todo lo pendiente, y calcula entre uno y seis días hacerlo la primera vez.",
+
   "maestria-greene":
     "Faraday entró a los veintiuno de ayudante de laboratorio, fregando cristal para Humphry Davy. Greene sostiene que la maestría no es un don repartido al nacer, sino lo que queda después de años de aprendizaje mal pagado.",
 
