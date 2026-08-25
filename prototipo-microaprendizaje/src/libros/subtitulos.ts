@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "amor-liquido": "Acerca de la fragilidad de los vínculos humanos",
   "martes-con-mi-profesor": "Un anciano, un joven y la lección más importante de la vida",
   incognito: "Las vidas secretas del cerebro",
   "primeros-90-dias": "Estrategias de éxito para nuevos líderes",

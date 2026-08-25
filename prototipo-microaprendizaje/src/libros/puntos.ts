@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "amor-liquido": [
+    "en qué se comportan al revés una conexión y un lazo",
+    "por qué no se puede tener a la vez seguridad y ninguna atadura",
+    "qué pasa cuando dos personas se evalúan como se evalúa un producto",
+    "en qué se distingue desear a alguien de tener ganas de algo",
+    "por qué estar siempre comunicado empeora la soledad",
+  ],
+
   "martes-con-mi-profesor": [
     "qué se aprende al perder la capacidad de valerse por uno mismo",
     "por qué organizó su propio funeral estando vivo",

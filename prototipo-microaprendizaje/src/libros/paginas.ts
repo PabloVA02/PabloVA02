@@ -85732,7 +85732,300 @@ const MARTES_CON_MI_PROFESOR: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Amor liquido, en ocho paginas.
+
+   Breve. FILOSOFIA, ensayo -> afirmacion entera en el rotulo y TERCERA PERSONA
+   en la caja (apartado 4.7).
+
+   Seis argumentos: vinculos convertidos en conexiones, la contradiccion entre
+   seguridad y libertad, la logica del consumidor aplicada a las personas, deseo
+   contra ganas, la compania permanente que no acompana, y el miedo al
+   desconocido.
+
+   DATO QUE ORDENA TODO EL RESUMEN: esto se escribio en 2003. Antes de Facebook,
+   antes del iPhone y nueve anos antes de Tinder. Describe con precision cosas
+   que todavia no existian, y eso hay que decirlo en la primera pagina y otra
+   vez en la conclusion.
+
+   La conclusion: sin un solo dato, con un pasado solido idealizado que incluia
+   mucha coaccion, y con la acusacion documentada de reciclar pasajes enteros
+   entre sus propios libros.
+   -------------------------------------------------------------------------- */
+
+const AMOR_LIQUIDO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los vínculos humanos han dejado de aspirar a durar, y eso cambia la naturaleza de todos ellos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Zygmunt Bauman era sociólogo, nació en Polonia en 1925, huyó de los nazis a la Unión Soviética, fue expulsado de su país en la campaña antisemita de 1968 y acabó dando clase en Leeds hasta su muerte. Publicó este libro en 2003, con setenta y ocho años, y es la aplicación a las relaciones personales de una idea que había desarrollado antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa idea es la de una modernidad que pasa de sólida a líquida. Lo sólido conserva su forma: un oficio para toda la vida, un barrio, un matrimonio, una identidad heredada, instituciones que se daban por permanentes. Lo líquido adopta la forma del recipiente y cambia en cuanto se cambia el recipiente, y nada de eso se conserva por sí solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación es que las relaciones humanas han seguido el mismo camino. No dice que la gente quiera menos, ni que se quiera peor: dice que los vínculos han dejado de plantearse como algo que se construye para durar, y que eso cambia lo que se hace dentro de ellos y lo que se espera al empezarlos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene tener presente cuándo se escribió esto: en 2003, antes de que existieran las redes sociales, el teléfono con internet o las aplicaciones para conocer gente. Lo que sigue recorre por qué habla de conexiones y no de lazos, qué se pide a la vez y no se puede tener, cómo se aplica a las personas la manera de tratar los productos, qué distingue el deseo de las ganas, por qué se está tan acompañado y tan solo, y qué le falta a este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que ha cambiado no es cuánto quiere la gente, sino que los vínculos han dejado de plantearse como algo hecho para durar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El vocabulario ha cambiado, y las palabras nuevas describen cosas que se pueden cortar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bauman se fija en algo pequeño y revelador: cómo ha cambiado la manera de nombrar lo que une a dos personas. Antes se hablaba de lazos, de compromisos, de parentesco, de palabras que aludían a algo atado. Ahora se habla de conexiones, de contactos, de estar en la red de alguien, de vocabulario tomado de las máquinas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y sostiene que ese cambio no es de estilo. Una conexión, por definición, se establece y se corta, y las dos operaciones son igual de sencillas y no dejan nada detrás. La palabra misma incluye la posibilidad de terminar sin consecuencias, mientras que las antiguas incluían justo lo contrario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca su observación sobre la cantidad. Cuando lo que se tiene son conexiones, tener muchas parece mejor que tener pocas, porque cada una cuesta poco de mantener y ninguna exige nada. Un lazo, en cambio, se estropea si se multiplica, porque lo que lo sostiene es precisamente el tiempo y la atención que no se pueden repartir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El precio, dice, se paga cuando hace falta lo que un lazo daba y una conexión no da. Se puede tener una lista larguísima de gente y no tener a nadie a quien llamar a las tres de la mañana, y eso no es una queja moral sobre nadie: es la consecuencia previsible de haber cambiado una cosa por otra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una conexión se establece y se corta con la misma facilidad. Un lazo se estropea si se multiplica, porque lo sostiene el tiempo que no se reparte.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Se quiere a la vez la seguridad de un vínculo firme y la libertad de no estar atado, y no puede haber las dos",
+      },
+      {
+        b: "texto",
+        texto:
+          "El corazón del libro es una contradicción que Bauman considera la marca de la época. La gente quiere seguridad: alguien que esté, que no se vaya, con quien contar. Y quiere a la vez libertad: no quedarse encerrada, no renunciar a lo que podría venir, poder salir si aquello no funciona. Las dos cosas son razonables y son incompatibles en la misma dosis.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La incompatibilidad es sencilla de ver y difícil de aceptar. La seguridad de un vínculo la produce exactamente lo mismo que la restringe: que el otro haya renunciado a otras opciones. Y la libertad propia es la misma libertad del otro, así que el que se guarda la puerta abierta está garantizando que la puerta del otro también lo esté.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bauman describe cómo se manifiesta esa tensión en la práctica: relaciones que se mantienen sin definir durante años, acuerdos deliberadamente ambiguos, gente que evita las palabras que comprometen, y una sensación permanente de estar a prueba. Nada de eso es cobardía individual, sostiene, sino la manera racional de comportarse cuando todo lo demás también es provisional.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y señala la consecuencia menos comentada. En un vínculo que puede terminar en cualquier momento sin coste, el esfuerzo de arreglar lo que falla deja de compensar: siempre es más barato empezar otra cosa que reparar esta. Lo que desaparece no es el amor sino la reparación, y con ella toda una manera de aprender a convivir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La libertad propia es también la del otro. Quien se guarda la puerta abierta está garantizando que la del otro también lo esté.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "A las personas se les está aplicando la manera de tratar los productos, y esa manera incluye devolverlos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bauman sostiene que la lógica del consumo se ha extendido a terrenos donde antes no llegaba, y que las relaciones son el caso más claro. Consumir consiste en evaluar, comparar, elegir, disfrutar mientras satisface y sustituir cuando aparece algo mejor, y todo el proceso está diseñado para que no queden obligaciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aplicado a las personas, produce un vocabulario que hoy suena normal y en 2003 era una observación afilada: hablar de lo que alguien aporta, de si compensa, de si vale la pena, de mercado, de opciones. Bauman no dice que la gente sea fría; dice que se le ha dado una manera de pensar y que la usa donde tiene que decidir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema, señala, es que ese modelo tiene una asimetría que no funciona con personas. Un producto no evalúa a quien lo compra. Cuando los dos lados están evaluando y los dos pueden sustituir, lo que se produce no es un mercado eficiente sino dos personas comportándose a la vez como comprador y como mercancía, y pendientes de su propia cotización.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca una observación sobre la ansiedad que hoy se reconoce enseguida. Quien se sabe evaluable y sustituible vive gestionando su atractivo: se cuida, se muestra, mide cómo le reciben y compara. Bauman escribió eso una década antes de que existiera cualquier aplicación en la que eso se hiciera literalmente y con fotografías.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En un trato entre dos personas que se evalúan, los dos son a la vez comprador y mercancía, y los dos acaban pendientes de su cotización.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El deseo cuesta tiempo y las ganas se satisfacen al momento, y la cultura del consumo prefiere las segundas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bauman distingue dos maneras de querer algo que en castellano se confunden. El deseo es lento: se dirige a algo concreto que hay que conocer, exige cultivarlo, cambia a quien desea y no se agota al conseguirlo. Las ganas son inmediatas: se disparan solas, se satisfacen enseguida y desaparecen al satisfacerse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación es que el deseo es incómodo para una economía de consumo, porque tarda y porque cuando encuentra su objeto ya no se puede vender nada más. Las ganas, en cambio, son perfectas: llegan, se pagan, se apagan y dejan sitio para las siguientes. Un sistema que necesita repetición prefiere el segundo mecanismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Llevado a las relaciones, la diferencia se nota en qué se busca. El deseo apunta a una persona concreta y a lo que solo esa persona es, y por eso requiere conocerla, que lleva años. Las ganas apuntan a una experiencia, y la experiencia la puede dar mucha gente, con lo que la persona pasa a ser intercambiable sin que nadie haya decidido que lo sea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bauman añade que el amor, en su versión antigua, era caro precisamente por eso: obligaba a atarse a alguien insustituible y por tanto a aceptar pérdidas irreparables. Y sostiene que lo que la época ofrece a cambio no es menos amor, sino una versión con seguro incluido, en la que se paga menos y también se recibe menos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El deseo apunta a una persona concreta y por eso tarda años. Las ganas apuntan a una experiencia, y una experiencia la puede dar cualquiera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Estar localizable a todas horas no es lo mismo que estar acompañado, y a veces lo impide",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos que mejor ha envejecido trata de una tecnología que en 2003 era solo el teléfono móvil. Bauman observa que la posibilidad de estar comunicado en todo momento cambia lo que significa estar con alguien, porque quien está siempre localizable nunca está del todo en el sitio donde está.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Describe una escena que hoy es cotidiana y entonces empezaba: dos personas juntas, cada una atendiendo a alguien que no está. Y señala lo que eso hace con la conversación. Un encuentro que puede interrumpirse en cualquier momento se organiza para poder interrumpirse, y las cosas que hay que decir despacio no llegan a decirse nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su segunda observación es sobre la soledad, y es la que más se le ha citado después. Sostiene que la comunicación permanente no cura la soledad sino que la vuelve insoportable, porque quita la costumbre de estar solo. Quien nunca ha pasado un rato sin nadie no ha desarrollado nada con lo que sostenerlo, y entonces el silencio se siente como una avería.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una tercera, que es la más incómoda. La facilidad de conectar hace que romper sea barato: se puede desaparecer de la vida de alguien sin dar la cara, borrando y dejando de contestar, y esa salida sin coste existe en un extremo de cada conversación. Bauman lo describió diez años antes de que la práctica tuviera nombre propio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La comunicación permanente no cura la soledad: quita la costumbre de estar solo, y entonces el silencio se siente como una avería.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El mismo miedo que afloja los vínculos endurece el trato con los desconocidos",
+      },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro cambia de escala y sorprende a quien lo empezó pensando que iba de parejas. Bauman conecta la fragilidad de los lazos personales con la manera en que las sociedades ricas tratan a los extranjeros, y sostiene que las dos cosas salen de la misma inseguridad de fondo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es que cuando la vida se vuelve imprevisible —el trabajo, la vivienda, la pareja, el futuro— y las causas de esa inseguridad quedan lejos y son difíciles de señalar, el miedo busca un objeto cercano y visible. El desconocido que vive al lado es el candidato más fácil, y hacia él se dirige una angustia que viene de otro sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Describe la respuesta urbana a eso con dos palabras que inventó para el caso: el rechazo a mezclarse y la atracción por mezclarse, que conviven en la misma ciudad y a veces en la misma persona. Y observa cómo gana el primero: urbanizaciones cerradas, seguridad privada, barrios donde solo vive gente parecida y una vida pública cada vez más vigilada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bauman señala el coste que casi nadie cuenta. Convivir con desconocidos es una habilidad que se aprende practicando, en calles, plazas, transportes y colas, y que se pierde si se deja de practicar. Una ciudad organizada para no coincidir con nadie distinto produce vecinos cada vez menos capaces de coincidir, con lo que el miedo se confirma solo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Convivir con desconocidos es una habilidad que se practica en la calle. Si se deja de practicar, el miedo que la evitó acaba pareciendo justificado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que este libro deja son cuatro ideas que se han vuelto vocabulario común. Que una conexión y un lazo no son lo mismo y se comportan al revés cuando se multiplican. Que la libertad que uno se guarda es también la del otro. Que dos personas que se evalúan acaban siendo a la vez comprador y mercancía. Y que la comunicación permanente quita la costumbre de estar solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en que no hay un solo dato. Bauman escribe como ensayista: cita novelas, columnas de prensa y observaciones propias, y de ahí saca afirmaciones sobre cómo se comporta la gente. Es un método legítimo para pensar y muy malo para saber, y buena parte de sus diagnósticos podrían ser exactos o podrían ser la impresión de un señor mayor mirando la calle.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en el pasado con el que compara. Aquellos vínculos sólidos que duraban toda la vida duraban en buena medida porque no había salida: mujeres sin independencia económica, vergüenza social, familias que no se podían dejar. Bauman lo reconoce de pasada y el tono nostálgico del libro pesa mucho más que ese reconocimiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo sobre el autor que conviene saber. Bauman publicó decenas de libros en sus últimos años, y en 2014 dos investigadores documentaron que reciclaba pasajes largos de unos a otros sin indicarlo. Dicho eso, escribió esto en 2003 —antes de Facebook, del teléfono con internet y de cualquier aplicación de citas— y describió con precisión el mundo que iban a fabricar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribió esto antes de que existiera ninguna de las cosas que hoy se explican con sus palabras. Eso no lo hace cierto, pero conviene tenerlo en cuenta.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "amor-liquido": AMOR_LIQUIDO,
   "martes-con-mi-profesor": MARTES_CON_MI_PROFESOR,
   incognito: INCOGNITO,
   "primeros-90-dias": PRIMEROS_90_DIAS,

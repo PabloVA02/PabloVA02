@@ -121,7 +121,7 @@ export const CATALOGO: Ficha[] = [
   { id: "segundo-sexo", titulo: "El segundo sexo", autor: "Simone de Beauvoir", ano: 1949, categoria: "Filosofía", estado: "escrito" },
   { id: "ensayos-montaigne", titulo: "Ensayos", autor: "Michel de Montaigne", ano: 1580, categoria: "Filosofía", estado: "escrito" },
 
-  { id: "amor-liquido", titulo: "Amor líquido", autor: "Zygmunt Bauman", ano: 2003, categoria: "Filosofía", estado: "pendiente" },
+  { id: "amor-liquido", titulo: "Amor líquido", autor: "Zygmunt Bauman", ano: 2003, categoria: "Filosofía", estado: "escrito" },
   { id: "caballero-armadura", titulo: "El caballero de la armadura oxidada", autor: "Robert Fisher", ano: 1989, categoria: "Filosofía", estado: "pendiente" },
   { id: "mundo-como-voluntad", titulo: "El mundo como voluntad y representación", autor: "Arthur Schopenhauer", ano: 1818, categoria: "Filosofía", estado: "pendiente" },
   { id: "miedo-libertad", titulo: "El miedo a la libertad", autor: "Erich Fromm", ano: 1941, categoria: "Filosofía", estado: "pendiente" },

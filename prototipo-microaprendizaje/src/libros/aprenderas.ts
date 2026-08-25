@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "amor-liquido":
+    "Bauman lo escribió en 2003, antes de las redes sociales, del teléfono con internet y de cualquier aplicación de citas. Su tesis es que los vínculos han dejado de plantearse como algo hecho para durar, y que eso cambia lo que ocurre dentro.",
+
   "martes-con-mi-profesor":
     "En 1995, un periodista deportivo vio en la televisión a su profesor de la universidad, al que llevaba dieciséis años sin llamar. Se estaba muriendo de esclerosis lateral amiotrófica. Fue a verle catorce martes seguidos y grabó las conversaciones.",
 
