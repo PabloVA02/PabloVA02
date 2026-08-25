@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "efecto-compuesto":
+    "Un céntimo que se duplica cada día durante treinta y un días termina valiendo más de diez millones, y en el día veinte va perdiendo por muchísimo contra tres millones cobrados de golpe. Hardy aplica esa curva a la conducta diaria.",
+
   "miedo-libertad":
     "Fromm lo publicó en 1941, con la guerra en marcha, para contestar a una pregunta sin respuesta: por qué millones de personas de un país moderno y alfabetizado apoyaron con entusiasmo a un régimen que les quitaba derechos.",
 

@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "efecto-compuesto": [
+    "cómo se separan dos personas idénticas sin decidirlo ningún día",
+    "por qué hay que apuntar dos semanas antes de cambiar nada",
+    "qué tamaño hay que elegir al empezar algo, y no es el que crees",
+    "qué hacer los días en que no se puede hacer nada",
+    "en qué se distingue el dinero de todo lo demás que se acumula",
+  ],
+
   "miedo-libertad": [
     "en qué se distingue librarse de algo de ser libre para algo",
     "qué se perdió al perder el sitio fijo en el mundo",

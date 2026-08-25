@@ -87849,7 +87849,297 @@ const MIEDO_LIBERTAD: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El efecto compuesto, en ocho paginas.
+
+   Breve. Libro practico de dinero y exito -> afirmacion entera en el rotulo y
+   SEGUNDA PERSONA en la caja.
+
+   Seis argumentos: la moneda que se duplica, los tres amigos, medir lo que se
+   quiere cambiar, el ritmo por encima de la intensidad, el impulso, y las
+   influencias que entran sin permiso.
+
+   LA CONCLUSION TIENE QUE DECIR LO QUE NADIE DICE DE ESTE LIBRO: que la
+   metafora no cuadra. El dinero se compone porque los intereses generan
+   intereses; leer diez paginas al dia no se multiplica, se suma. Hardy usa una
+   curva exponencial para describir un proceso que casi siempre es lineal, y el
+   ejemplo de la moneda esta haciendo un trabajo que el argumento no puede pagar.
+   Eso no invalida la constancia: cambia lo que se puede prometer con ella.
+   -------------------------------------------------------------------------- */
+
+const EFECTO_COMPUESTO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una moneda que se duplica cada día acaba valiendo más que tres millones cobrados de golpe",
+      },
+      {
+        b: "texto",
+        texto:
+          "Darren Hardy dirigía una revista dedicada al éxito profesional cuando publicó esto en 2010, y abre con una elección que parece fácil. Se puede coger tres millones de dólares hoy, en efectivo, o una moneda de un céntimo que se duplicará cada día durante treinta y un días. Casi todo el mundo coge los tres millones, y casi todo el mundo se equivoca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El céntimo tarda mucho en parecer nada. El quinto día son dieciséis céntimos. El día veinte, poco más de cinco mil dólares, o sea que después de dos tercios del plazo la diferencia sigue siendo humillante. Y en la última semana la cifra se dispara y termina por encima de los diez millones. Todo el crecimiento ocurre al final.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa es la imagen que sostiene el libro entero, y Hardy la aplica a la conducta. Su afirmación es que las decisiones pequeñas y repetidas —lo que se come, lo que se lee, con quién se pasa el rato, lo que se ahorra— no producen ningún resultado visible durante meses y después producen diferencias enormes entre personas que empezaron igual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre qué pasa con tres personas idénticas que cambian cosas mínimas, por qué hay que medir lo que se quiere cambiar antes de intentar cambiarlo, qué importa más que la intensidad, cómo se consigue que una racha se sostenga sola, qué entra en la cabeza sin pedir permiso, y por qué la metáfora de este libro no cuadra del todo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Con el céntimo que se duplica, en el día veinte vas perdiendo por muchísimo. Todo el resultado llega en la última semana.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dos personas idénticas se separan de manera irreconocible por decisiones que no se notan",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hardy monta un ejemplo con tres amigos de la misma edad, el mismo sueldo, el mismo estado de salud y las mismas circunstancias. El primero no cambia nada y sigue con su vida exactamente igual. El segundo hace unos cuantos ajustes minúsculos. El tercero hace lo contrario, también minúsculo: come un poco peor, se mueve un poco menos, ve un poco más de televisión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los ajustes del segundo son deliberadamente ridículos. Lee diez páginas al día de algo útil, camina un rato, y quita unas ciento veinticinco calorías diarias, que son un refresco o dos galletas. Nada de eso exige fuerza de voluntad, nada de eso se nota al hacerlo y nada de eso se puede presumir delante de nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El punto del ejemplo es lo que ocurre con el tiempo. A los cinco meses, los tres siguen siendo indistinguibles, y quien esté midiendo resultados abandona ahí. A los diez, hay diferencias pequeñas. A los dos años y medio, uno de ellos ha leído decenas de libros y perdido peso, y otro ha ganado varios kilos y no recuerda haber decidido nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hardy insiste en el detalle que hace útil el ejemplo: el tercero nunca tomó una mala decisión reconocible. No hubo un día en que se rindiera. Simplemente eligió muchas veces lo cómodo, cada vez por un margen insignificante, y el resultado de dos años y medio no se parece a ninguna de esas elecciones por separado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie decide un día echarse a perder. Se elige lo cómodo muchas veces por un margen insignificante, y el resultado no se parece a ninguna de esas veces.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Nada cambia hasta que se mide, porque casi nadie sabe lo que hace de verdad",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer paso práctico que exige el libro es incómodo y es el que más gente se salta. Antes de intentar cambiar algo, hay que apuntarlo durante unas semanas sin cambiar nada: cada euro que sale, cada cosa que se come, cada rato que se dedica a algo. Solo apuntar, sin juzgar y sin corregir, hasta tener el dato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hardy cuenta que él mismo lo hizo con el dinero durante un mes, anotando hasta las propinas y los cafés, y que lo que le sorprendió no fueron las cantidades grandes sino la suma de las pequeñas, que era donde se le iba lo que no encontraba. Es un ejercicio viejo y sigue funcionando por el mismo motivo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo es que casi nadie recuerda bien lo que hace. La memoria redondea a la baja lo que gasta y a la alza lo que trabaja, y de ahí sale una idea de uno mismo que no coincide con la semana real. Un registro escrito no discute: enseña cuántas horas se fueron, en qué, y cuántas de las que uno creía haber dedicado a algo no existieron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hardy añade un efecto secundario que se observa constantemente en los estudios de conducta: el simple hecho de apuntar ya cambia lo que se hace, sin ningún propósito de corregirse. Nadie apunta con gusto la tercera galleta. Por eso recomienda empezar por la libreta y no por el plan, que es lo contrario de lo que hace casi todo el mundo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Apunta durante dos semanas sin cambiar nada. La memoria redondea a tu favor, y el papel no.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hacerlo siempre importa más que hacerlo mucho, y es lo que casi nadie está dispuesto a aceptar",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento central sobre la constancia lo plantea Hardy con una comparación clara. Alguien que corre una hora tres veces en enero y no vuelve a correr en todo el año ha corrido más que alguien que sale veinte minutos cuatro veces por semana durante doce meses, si se cuenta el primer mes. Al año, la comparación no admite discusión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación es que el sistema recompensa el ritmo y no el esfuerzo puntual, y da la razón: lo que se hace de manera irregular no llega a producir ningún cambio de fondo, porque cada parón devuelve las cosas casi al principio. Lo que se hace siempre acaba convirtiéndose en lo normal, y a partir de ahí ya no cuesta sostenerlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca un consejo que va contra el impulso de empezar fuerte. Al arrancar cualquier cosa, hay que elegir un tamaño que se pueda mantener el peor mes del año, y no el mejor. El mes bueno no es el problema; el problema es diciembre, la semana de la mudanza y los días en que todo sale mal, que son los que deciden si aquello sigue existiendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hardy insiste además en la parte menos atractiva del asunto. Nadie va a aplaudir eso, no hay nada que contar mientras dura y el resultado tarda tanto que resulta difícil relacionarlo con la causa. Sostener algo durante dos años sin recibir ninguna señal es la verdadera dificultad de este libro, y es la que no se puede resolver con ningún truco.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Elige un tamaño que puedas mantener en tu peor mes, no en el mejor. El mes bueno no es el que decide si aquello sigue existiendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una racha larga empieza a empujar sola, y romperla cuesta mucho más que empezarla",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hardy dedica un capítulo a lo que ocurre cuando algo se sostiene el tiempo suficiente, y usa la imagen de un volante pesado que cuesta muchísimo poner en marcha y luego gira solo. Al principio cada sesión exige una decisión; a partir de cierto punto, la decisión que cuesta es la de saltársela.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación no tiene ningún misterio y es la que hace que el capítulo sirva. Cuando algo se hace a la misma hora y en el mismo sitio durante meses, deja de competir con las demás opciones del día, porque ya no se plantea como una opción. El esfuerzo de decidir, que es el que agota, desaparece del proceso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su regla más citada sobre las interrupciones, y es más razonable de lo que parece. Un día perdido no rompe nada; dos seguidos empiezan a romperlo; tres son un abandono con otro nombre. Hardy recomienda tener decidido de antemano qué versión mínima se hace los días imposibles, para que la cadena no llegue a cortarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y avisa de lo que pasa después de un parón largo, que es la parte que se olvida. Volver no cuesta lo mismo que seguir: hay que recuperar el hábito desde bastante atrás, y además hay que hacerlo con el recuerdo reciente de haberlo dejado, que es lo que más pesa. Por eso su consejo es proteger la continuidad antes que la cantidad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ten decidido qué versión mínima haces los días imposibles. Un día no rompe nada; tres seguidos son un abandono con otro nombre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que entra por los ojos y por el oído todos los días también se acumula, y casi nadie lo elige",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más aplicable del libro trata de algo que no suele considerarse una decisión: lo que uno consume durante el día. Hardy sostiene que las noticias, las conversaciones, lo que se ve por la noche y las personas con las que se pasa el rato entran en la cabeza con la misma lógica de acumulación que todo lo demás, y sin que nadie las haya elegido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su recomendación sobre las noticias es de las pocas que ha envejecido bien: reducir deliberadamente la cantidad, porque el flujo constante de cosas malas sobre las que no se puede hacer nada produce una sensación de amenaza permanente que ocupa atención y no aporta ninguna información utilizable en la vida de quien la recibe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre las personas es más incómodo. Dice que hay que mirar con quién se pasa realmente el tiempo, contarlo en horas y decidir a conciencia, porque las opiniones, las expectativas y el nivel de ambición del entorno se contagian por proximidad y no por argumentos. Y que a veces hay que reducir el tiempo con gente a la que se quiere.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la parte del libro que más críticas ha recibido, y conviene decirlo aquí. Leído sin cuidado, el consejo de alejarse de quien no empuja hacia arriba se convierte en una manera elegante de dejar tirada a la gente cuando lo está pasando mal, que es justo cuando menos empuja hacia arriba y más falta hace estar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuenta las horas que pasas con cada persona y con cada pantalla. Eso también se acumula, y casi nadie lo ha elegido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El sitio donde más rinde la constancia es el dinero, y ahí la comparación sí es literal",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hardy aplica su idea al ahorro y a la inversión, y ahí la metáfora deja de ser metáfora. El interés compuesto es un mecanismo real: los intereses generan intereses, y por eso una cantidad pequeña invertida pronto termina batiendo a una cantidad grande invertida tarde. La curva del céntimo que se duplica describe eso literalmente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que usa es el de dos personas que ahorran lo mismo empezando con diez años de diferencia. La que empezó antes deja de aportar cuando la otra empieza, y aun así termina con más dinero, porque sus primeras aportaciones han tenido diez años más para multiplicarse. Es una cuenta comprobable y no depende de creerse nada del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca la única recomendación financiera concreta que da: automatizar. Que el dinero salga de la cuenta el mismo día del ingreso, sin pasar por una decisión, porque cualquier cosa que dependa de decidirla cada mes acaba dependiendo del mes que se tenga. Es el mismo argumento que ha hecho con los hábitos, aplicado al sitio donde de verdad funciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene subrayar la diferencia, porque el libro no la subraya. En el dinero la acumulación es multiplicativa y por eso la espera se paga sola; en casi todo lo demás —leer, entrenar, aprender un idioma— la acumulación es sumativa, y el resultado a dos años es grande porque son muchos días, no porque nada se haya multiplicado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En el dinero, empezar diez años antes gana aunque se aporte menos. Es aritmética, y no depende de creerse nada más.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro cosas y todas se pueden empezar hoy. Apuntar dos semanas sin cambiar nada, porque la memoria redondea a favor. Elegir un tamaño que se pueda sostener el peor mes del año. Tener decidida de antemano la versión mínima para los días imposibles. Y automatizar lo que dependa del dinero, que es donde la espera se paga sola.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en su propia imagen, y no lo dice ningún resumen de este libro. El dinero se compone porque los intereses generan intereses; leer diez páginas al día no se multiplica, se suma. La diferencia a dos años y medio es grande porque son novecientos días, y no porque nada haya crecido de forma exponencial en ningún momento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La distinción importa porque cambia lo que se puede prometer. Una curva exponencial justifica esperar mucho tiempo sin ver nada, porque la recompensa está garantizada al final; una suma lineal no promete ningún despegue, solo un total. La constancia sigue mereciendo la pena, y no por el motivo que dibuja la moneda de la primera página.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay que decir que el libro no cita ni un solo estudio en trescientas páginas, y que su autor dirigía una revista dedicada a contar historias de éxito, que es la fuente menos representativa que existe. Lo que vino después fue todo un género de mejoras diarias mínimas, que culminó en 2018 con un libro que dice casi lo mismo y sí explica el mecanismo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La constancia funciona porque son muchos días, no porque nada se multiplique. Sirve igual, y conviene saber qué se está esperando.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "efecto-compuesto": EFECTO_COMPUESTO,
   "miedo-libertad": MIEDO_LIBERTAD,
   "kite-runner": KITE_RUNNER,
   "vender-es-humano": VENDER_ES_HUMANO,
