@@ -83,7 +83,7 @@ export const PUNTOS: Record<string, string[]> = {
     "qué comparten el empleado y el autónomo aunque se crean opuestos",
     "la pregunta que distingue un negocio de un empleo que te pertenece",
     "por qué ser muy bueno en algo impide construir un sistema",
-    "en qué se diferencia lo que sube de precio de lo que paga cada mes",
+    "qué diferencia hay entre lo que sube de precio y lo que paga cada mes",
     "cómo cambia el resultado el orden en que se cobra y se tributa",
   ],
 
