@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "vendedor-mas-grande":
+    "El libro de ventas más vendido de la historia, con más de cincuenta millones de ejemplares, no explica en ningún momento cómo se vende. Es una parábola con diez pergaminos y una instrucción muy estricta sobre cómo hay que leerlos.",
+
   "actitud-mental-positiva":
     "Lo firman dos hombres muy distintos: un vendedor de seguros que empezó a los dieciséis con cien dólares y levantó una compañía enorme, y un autor cuya fama venía de una historia sobre Andrew Carnegie que nunca se ha podido documentar.",
 

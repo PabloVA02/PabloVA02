@@ -311,7 +311,7 @@ export const CATALOGO: Ficha[] = [
   { id: "despertando-gigante", titulo: "Despertando al gigante interior", autor: "Tony Robbins", ano: 1991, categoria: "Psicología", estado: "escrito" },
   { id: "poder-sin-limites", titulo: "Poder sin límites", autor: "Tony Robbins", ano: 1986, categoria: "Psicología", estado: "pendiente" },
   { id: "actitud-mental-positiva", titulo: "La actitud mental positiva", autor: "Napoleon Hill y W. Clement Stone", ano: 1959, categoria: "Psicología", estado: "escrito" },
-  { id: "vendedor-mas-grande", titulo: "El vendedor más grande del mundo", autor: "Og Mandino", ano: 1968, categoria: "Psicología", estado: "pendiente" },
+  { id: "vendedor-mas-grande", titulo: "El vendedor más grande del mundo", autor: "Og Mandino", ano: 1968, categoria: "Psicología", estado: "escrito" },
   { id: "21-leyes-liderazgo", titulo: "Las 21 leyes irrefutables del liderazgo", autor: "John C. Maxwell", ano: 1998, categoria: "Psicología", estado: "pendiente" },
   { id: "dar-y-recibir", titulo: "Dar y recibir", autor: "Adam Grant", ano: 2013, categoria: "Psicología", estado: "escrito" },
   { id: "originales", titulo: "Originales", autor: "Adam Grant", ano: 2016, categoria: "Psicología", estado: "escrito" },

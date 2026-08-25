@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "vendedor-mas-grande": [
+    "la instrucción de lectura que casi ninguno de sus lectores cumple",
+    "por qué un mal hábito no se quita decidiéndolo",
+    "qué le falta al consejo de persistir para ser un método",
+    "qué hacer cuando el ánimo va hacia abajo desde por la mañana",
+    "en qué instante exacto se pierde un día de trabajo",
+  ],
+
   "actitud-mental-positiva": [
     "por qué lo que te dices cuando algo sale mal no es un rasgo",
     "qué le pasa a una frase de tres palabras repetida durante semanas",

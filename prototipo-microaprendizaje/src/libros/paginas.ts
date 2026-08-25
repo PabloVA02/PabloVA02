@@ -89305,7 +89305,302 @@ const ACTITUD_MENTAL_POSITIVA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El vendedor mas grande del mundo, en ocho paginas.
+
+   Breve. Autoayuda de exito -> afirmacion entera en el rotulo y SEGUNDA PERSONA
+   en la caja.
+
+   Seis argumentos: el protocolo de lectura (que es lo unico tecnico del libro y
+   casi nadie lo hace), los habitos, la persistencia, vivir el dia como si fuera
+   el ultimo, dominar el animo y actuar ahora.
+
+   El gancho real y documentado: Mandino era un vendedor de seguros alcoholico
+   que en 1955 se quedo mirando un revolver en el escaparate de una casa de
+   empenos con lo poco que le quedaba, y no entro. Se fue a una biblioteca. Y
+   acabo dirigiendo la revista de W. Clement Stone, que es el autor de La actitud
+   mental positiva, o sea que los dos libros del catalogo se tocan.
+
+   La conclusion: nueve de los diez pergaminos son exhortaciones y ninguno
+   explica que hace un vendedor —prospectar, escuchar, conocer el producto,
+   rebatir—; el unico mecanismo real es el protocolo de repeticion, que esta
+   enterrado; y el decorado biblico le da una autoridad que el texto no ha
+   ganado.
+   -------------------------------------------------------------------------- */
+
+const VENDEDOR_MAS_GRANDE: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro de ventas más vendido de la historia no explica en ningún momento cómo se vende",
+      },
+      {
+        b: "texto",
+        texto:
+          "Og Mandino publicó esto en 1968 y ha vendido más de cincuenta millones de ejemplares. No es un manual: es una parábola situada en tiempos de Cristo. Hafid es un muchacho que cuida camellos para un mercader rico de Damasco, y le pide que le deje intentar vender por su cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mercader le entrega un cofre con diez pergaminos y una condición estricta sobre cómo leerlos, que es la única instrucción técnica de todo el libro. Hafid se convierte en el comerciante más rico del mundo, y al final de su vida busca a quién entregarle el cofre. Aparece un hombre llamado Pablo de Tarso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La historia de quien lo escribió explica el libro mejor que su trama. Mandino había sido navegante de bombardero en la Segunda Guerra Mundial y después vendedor de seguros y alcohólico. En 1955 estaba delante del escaparate de una casa de empeños mirando un revólver, con unos pocos dólares en el bolsillo. No entró: se metió en una biblioteca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre esa condición de lectura que casi nadie cumple, qué dice cada pergamino que merezca la pena, por qué la persistencia ocupa el sitio central, qué propone hacer con un día cualquiera, cómo trata el mal humor, qué hace con la costumbre de aplazar, y qué le falta a este libro para ser lo que su título promete.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien lo escribió había estado delante de una casa de empeños mirando un revólver. Se metió en una biblioteca y empezó a leer.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La instrucción de cómo leerlo vale más que casi todo lo que dice dentro",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mercader le impone a Hafid un procedimiento y le advierte de que sin él los pergaminos no sirven de nada. Cada uno se lee tres veces al día durante treinta días seguidos: en silencio al despertar, en silencio después de comer, y en voz alta antes de dormir. Solo entonces se pasa al siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Son diez pergaminos, o sea trescientos días. Y la instrucción incluye algo que suena raro: al principio no hay que entenderlos. Hay que repetirlos aunque las palabras no signifiquen todavía nada, porque el objetivo no es comprender un contenido sino que las frases acaben apareciendo solas en el momento en que hagan falta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que describe ahí, sin llamarlo así, es repetición espaciada con lectura en voz alta al final del día. Es una técnica de aprendizaje razonable, era conocimiento de oficio en su época y hoy tiene bastante respaldo: repetir algo separado en el tiempo y decirlo en voz alta lo fija mucho mejor que leerlo una vez con atención.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí está la ironía del libro. De sus cincuenta millones de lectores, casi ninguno ha hecho lo único que el propio libro dice que hay que hacer. Se lee en dos tardes, se encuentra bonito y se cierra, que es exactamente lo que el mercader le advierte a Hafid que no funciona. La parte técnica está enterrada bajo la parte inspiradora.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Repetir algo en voz alta antes de dormir, treinta días seguidos, fija más que leerlo una vez con toda la atención.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El primer pergamino no promete nada: dice que lo único que se cambia son las costumbres",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primero de los diez es el más sensato y el que sostiene a los otros nueve. Afirma que la diferencia entre quien fracasa y quien no está en los hábitos, y que los malos hábitos no se pueden eliminar por decisión: solo se pueden sustituir por otros, uno por uno y con repetición.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es que ahí Mandino se coloca contra el resto de su propio libro. No dice que baste con querer, ni con creérselo, ni con visualizar: dice que hace falta hacer una cosa muchas veces hasta que deje de costar. Y añade que ese proceso es lento, aburrido y no produce ninguna señal visible durante semanas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo pergamino habla de recibir a cada persona con buena disposición, y su parte útil es una lista concreta de a quién hay que tratar así: al que se pone difícil, al que insulta, al que se queja, y también a uno mismo. Es una regla de trato y no un sentimiento, que es lo que la salva de ser un tópico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el cuarto es el que peor ha envejecido en la forma y mejor en el fondo. Afirma que cada persona es un ejemplar único, con una combinación de historia, capacidades y defectos que no se repite, y que por eso compararse con otro es un error de método antes que de ánimo: se están comparando dos cosas que no son la misma unidad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un mal hábito no se quita decidiéndolo: se sustituye por otro, uno cada vez y repitiéndolo hasta que deje de costar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El pergamino central dice que el fracaso es solo el número de intentos que no llevaste",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercero es el más famoso y el más citado de los diez, y su frase se repite como un estribillo: persistiré hasta alcanzar el éxito. Lo que lo hace algo más que un lema es lo que viene detrás, que es una manera concreta de contar los intentos y no los resultados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El texto usa dos imágenes que se recuerdan. Una es la del buey que ara: no piensa en el campo entero, da un paso y luego otro. La otra es la del leñador que golpea mil veces el mismo árbol y la que lo derriba es una, aunque la que sirvió no fue esa sino todas juntas. Ninguna es original y las dos funcionan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla práctica que da es la que Stone enseñaba en su empresa con números: no terminar nunca el día con un fracaso, sino intentarlo una vez más. Y no hacer del resultado de un intento un juicio sobre uno mismo, porque en un oficio donde la mayoría de los intentos falla, tomárselo así es garantizar que se abandona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Merece la pena decir qué falta en ese pergamino, porque es lo que separa un lema de un método. No dice cuándo hay que dejar de insistir. La persistencia sin criterio para parar es indistinguible de la terquedad, y el libro no da ninguna manera de distinguirlas, ni un caso en el que insistir fuera el error.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No termines el día con un fracaso: intenta una vez más. Y ten decidido de antemano cuándo dejar de insistir, que eso el libro no lo dice.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Vivir el día como si fuera el último es un consejo de gestión del tiempo disfrazado",
+      },
+      {
+        b: "texto",
+        texto:
+          "El quinto pergamino propone tratar cada jornada como si no fuera a haber otra, y en un libro de autoayuda eso suele quedar en una frase bonita. Aquí no del todo, porque lo desarrolla en decisiones concretas sobre las horas: no aplazar nada a mañana, no dedicar tiempo a lamentar lo de ayer, y no gastar el día en preparar el siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle que lo hace utilizable es la manera de tratar las horas. El texto insiste en que las horas de hoy son la única mercancía que no se puede recuperar ni comprar, y que quien las regala en discusiones, en quejas o en pantallas está gastando lo único que no vuelve. Es un argumento de contabilidad y no de emoción.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El sexto trata del estado de ánimo y es más práctico de lo que parece. Afirma que nadie puede elegir cómo se levanta y que sí puede elegir qué hace con ello, y propone una técnica sencilla: cuando el ánimo va hacia un sitio, actuar deliberadamente en la dirección contraria —si viene la tristeza, cantar; si viene la ira, callar y bajar la voz—.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade la razón por la que a un vendedor le importa. Nadie compra a alguien que llega con el mal día encima, y quien trabaja con gente no puede permitirse que el humor de la mañana decida el resultado de la tarde. Es la única vez en todo el libro que un consejo emocional aparece justificado por el oficio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No puedes elegir cómo te levantas. Puedes elegir actuar en la dirección contraria a la que te lleva el ánimo, y eso lo cambia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El pergamino que más se recuerda es el que dice que actuar ahora sustituye a todos los demás",
+      },
+      {
+        b: "texto",
+        texto:
+          "El noveno es el más corto y el que Mandino consideraba el más importante, porque sin él los ocho anteriores son literatura. Dice que ninguna de las cualidades enumeradas vale nada sin acción, y repite una fórmula de tres palabras destinada a decirse en voz alta cada vez que aparece la tentación de aplazar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace bien ese tramo es describir el momento exacto en que se pierde el día. No es una gran decisión: es un instante pequeño en el que hay que coger el teléfono, escribir el correo o levantarse, y en el que aparece una razón razonable para hacerlo dentro de un rato. Ese instante se repite decenas de veces al día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su solución es la misma que la de Stone: una orden corta repetida hasta que salga sola en ese instante. No es magia y no es pensamiento positivo: es reducir el hueco entre notar que hay que hacer algo y empezar a hacerlo, que es donde se va la mayor parte del tiempo de casi cualquiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El décimo y último pide guía, y está escrito como una oración. Conviene decirlo tal cual: el libro es religioso en su marco y termina rezando, y quien no comparta eso puede quedarse con los nueve anteriores sin que se caiga nada, porque el décimo no añade ninguna técnica a los otros.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El día no se pierde en una decisión grande: se pierde en decenas de instantes pequeños en los que aparece una razón para hacerlo luego.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El decorado bíblico le da una autoridad que el texto no se ha ganado",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene mirar de frente la decisión formal del libro, porque explica buena parte de su efecto. Mandino sitúa su parábola en Judea en el siglo primero, con caravanas, mercaderes, túnicas y una aparición de Pablo de Tarso al final. Nada de eso aporta información: aporta antigüedad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto es conocido y funciona. Una regla contada por un mercader de Damasco hace dos mil años suena a sabiduría probada por el tiempo; la misma regla firmada por un vendedor de seguros de Chicago en 1968 suena a lo que es. El contenido es idéntico y la disposición del lector a aceptarlo, no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está lo que hay que saber al leerlo. Los diez pergaminos no son antiguos, no proceden de ninguna tradición y no los escribió nadie más que Mandino en los años sesenta. Son un texto motivacional estadounidense contemporáneo vestido de reliquia, y el vestido es lo que hace que se lea con reverencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo dice sin querer la propia biografía del autor, que es mucho más útil que la parábola. Un hombre arruinado y alcohólico entra en una biblioteca, lee durante meses, aplica lo que lee y acaba dirigiendo una revista de éxito profesional. Esa historia es verdad, es comprobable y enseña más que el cofre de los diez pergaminos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La misma regla suena a sabiduría antigua o a folleto según quién parezca decirla. El contenido no cambia; la disposición a aceptarlo, sí.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro cosas. El protocolo de repetición, que es lo único técnico del libro: una frase corta, tres veces al día, treinta días, y en voz alta antes de dormir. La regla de no terminar el día con un fracaso. Actuar en dirección contraria al ánimo cuando el ánimo va hacia abajo. Y una orden de tres palabras para el instante en que aparece la tentación de aplazar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en lo que anuncia el título. Es el libro de ventas más vendido de la historia y no explica en ningún momento cómo se vende. No hay nada sobre buscar clientes, escuchar, entender qué necesita alguien, conocer el producto, poner un precio, rebatir una objeción ni cerrar. Nueve de los diez pergaminos hablan de actitud.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en que su único mecanismo real está enterrado. La instrucción de los trescientos días es la parte que podría cambiar algo, y está en la primera parte, contada como parte de la trama, de modo que casi todo el mundo la lee como decorado y no como la receta. El libro se ha vendido cincuenta millones de veces y casi nadie lo ha usado como él manda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y queda un dato que ata este libro con otro del catálogo. Después de aquel día en la casa de empeños, Mandino acabó dirigiendo la revista de W. Clement Stone, el vendedor de seguros que firma con Napoleon Hill La actitud mental positiva. Los dos libros salen del mismo despacho, y el método de ventas comprobable está en el otro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si vas a usar este libro, usa lo único que pide: una frase, tres veces al día, treinta días. Leerlo entero en dos tardes es no haberlo usado.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "vendedor-mas-grande": VENDEDOR_MAS_GRANDE,
   "actitud-mental-positiva": ACTITUD_MENTAL_POSITIVA,
   "transformacion-dinero": TRANSFORMACION_DINERO,
   "cuadrante-flujo": CUADRANTE_FLUJO,
