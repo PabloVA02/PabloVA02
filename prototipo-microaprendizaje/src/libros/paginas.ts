@@ -3966,35 +3966,31 @@ const PIENSA_HAZTE_RICO: PaginaLibro[] = [
 const MENTE_MILLONARIA: PaginaLibro[] = [
   {
     bloques: [
+      { b: "rotulo", texto: "Los que ganan la lotería vuelven a su nivel de siempre en unos años" },
       {
-        b: "rotulo",
+        b: "texto",
         texto:
-          "El libro sostiene que la cuenta bancaria de alguien está fijada de antemano en su cabeza",
+          "T. Harv Eker abre con un fenómeno documentado: una parte grande de quienes ganan grandes premios de lotería acaban, al cabo de unos años, con un patrimonio parecido al que tenían antes. Y con el fenómeno simétrico, que es el que le interesa: hay gente que se arruina del todo y vuelve a estar donde estaba en un tiempo llamativamente corto.",
       },
       {
         b: "texto",
         texto:
-          "T. Harv Eker montó y hundió más de una docena de negocios antes de que uno le funcionara: una cadena de tiendas de material deportivo que abrió en 1990, amplió a diez locales en dos años y medio y vendió después a una empresa cotizada. Perdió buena parte de aquel dinero en poco tiempo y volvió a levantarlo.",
-      },
-      {
-        b: "texto",
-        texto:
-          "De esa segunda caída sale la afirmación del libro. Eker sostiene que cada persona tiene un nivel de ingresos con el que se siente cómoda, fijado por lo que aprendió sobre el dinero antes de los quince años, y que si sube por encima o baja por debajo, algo la devuelve al punto de partida. Lo llama el termostato financiero.",
-      },
-      {
-        b: "texto",
-        texto:
-          "Su prueba favorita es lo que ocurre con quienes ganan una gran cantidad de golpe: premios, herencias, indemnizaciones. Es cierto que una parte importante de ellos vuelve en pocos años a su situación anterior, y ese hecho está documentado. Lo que hace el libro es explicarlo por una configuración mental y no examinar ninguna otra causa.",
-      },
-      {
-        b: "texto",
-        texto:
-          "Lo que sigue recorre de dónde dice que sale ese nivel, las cuatro conductas concretas que propone y que sí funcionan, la regla de reparto que es lo mejor del libro, por qué su explicación del fracaso no se puede refutar, y qué negocio hay detrás de todo esto.",
+          "Su explicación es una imagen que sostiene el libro entero. Cada uno lleva dentro un termostato de dinero puesto a una temperatura concreta. Si te suben por encima, harás algo —gastar de más, un negocio malo, un préstamo a quien no te lo devuelve— para volver a tu número. Si te bajan, te buscarás la vida hasta volver. La cuenta corriente sigue al termostato, no al revés.",
       },
       {
         b: "idea",
         texto:
-          "Que mucha gente vuelva a su situación anterior tras un golpe de suerte es un hecho; explicarlo por una configuración mental no lo es.",
+          "Tus ingresos crecen hasta donde crezcas tú. Por eso el dinero que llega de golpe casi nunca se queda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eker cuenta que a los treinta estaba arruinado, con préstamos de su padre y una docena de negocios fallidos, y que montó una tienda de material deportivo que vendió dos años y medio después por varios millones. Su conclusión —que lo que cambió fue la manera de pensar y no la técnica— es la tesis del libro, con todo lo que eso tiene de discutible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: de dónde sale el termostato, cómo se cambia, y las diferencias concretas que él encuentra entre la manera de pensar de quien tiene dinero y de quien no. La conclusión dice también dónde falla, que aquí es importante decirlo.",
       },
     ],
   },
@@ -4003,195 +3999,200 @@ const MENTE_MILLONARIA: PaginaLibro[] = [
       {
         b: "rotulo",
         texto:
-          "Lo que se oyó sobre el dinero de niño sigue funcionando de adulto sin que nadie lo note",
+          "Tu manera de pensar sobre el dinero la escribieron otros antes de que supieras contar",
       },
       {
         b: "texto",
         texto:
-          "La parte del libro que más gente reconoce es la de las frases heredadas. Eker sostiene que casi todo el mundo lleva dentro afirmaciones sobre el dinero que oyó en su casa antes de tener edad para discutirlas, y que siguen operando como si fueran verdades sobre el mundo.",
+          "Eker sostiene que el termostato se instaló en la infancia, por tres vías, y que ninguna se eligió. La primera es lo que oíste: el dinero no crece en los árboles, los ricos son unos ladrones, el dinero no da la felicidad, hay que trabajar duro para ganarlo. Frases dichas de pasada, repetidas durante años, que se quedan funcionando como reglas.",
       },
       {
         b: "texto",
         texto:
-          "Las que enumera se reconocen enseguida: el dinero no da la felicidad, el dinero es sucio, los ricos son unos avariciosos, hay que trabajar duro para ganarlo, no somos gente de esas cosas. Ninguna se examinó nunca y todas se instalaron con la voz de alguien a quien se quería.",
-      },
-      {
-        b: "texto",
-        texto:
-          "Lo que hace útil el capítulo es el ejercicio, que es sencillo y desagradable. Escribir literalmente las frases sobre el dinero que se oían en casa, quién las decía y en qué situación. Y después preguntarse, una por una, si eso es verdad, si a esa persona le fue bien con esa creencia, y si se elige conservarla.",
-      },
-      {
-        b: "texto",
-        texto:
-          "El paso final es el que separa esto de una teoría: comprobar cuál de esas frases sigue produciendo conductas hoy. Alguien que aprendió que hablar de dinero es de mala educación no negocia su sueldo, no pregunta precios y no reclama una factura mal hecha, y ninguna de esas tres cosas se le presenta como una creencia: se le presentan como lo correcto.",
-      },
-      {
-        b: "idea",
-        texto:
-          "Escribe las frases sobre dinero que oías en casa y mira cuáles siguen decidiendo lo que haces sin que las hayas revisado.",
-      },
-    ],
-  },
-  {
-    bloques: [
-      {
-        b: "rotulo",
-        texto:
-          "Repartir cada ingreso en cuentas separadas es lo mejor que tiene el libro",
-      },
-      {
-        b: "texto",
-        texto:
-          "La parte más concreta y más útil es un sistema de reparto que Eker enseña con seis cuentas. Cada vez que entra dinero, sea el sueldo, una factura cobrada o un regalo, se reparte inmediatamente en porcentajes fijos entre cuentas con funciones distintas, y cada cuenta solo se gasta en lo suyo.",
+          "La segunda es lo que viste. Si en tu casa el dinero era motivo de discusión, aprendiste que el dinero trae broncas. Si tu padre trabajaba doce horas y no había nunca, aprendiste que ganar cuesta la vida. Nadie te lo dijo: lo dedujiste tú, con seis años, mirando.",
       },
       {
         b: "lista",
         puntos: [
-          { fuerte: "Libertad financiera, el 10%", texto: "no se toca nunca ni para emergencias: es lo que se invierte para dejar de depender del sueldo." },
-          { fuerte: "Necesidades, el 55%", texto: "vivienda, comida, recibos y transporte. Si no cabe la vida en ese porcentaje, ese es el problema y no otro." },
-          { fuerte: "Ahorro a largo plazo, el 10%", texto: "las compras grandes y el colchón: el coche, la reforma, los meses sin ingresos." },
-          { fuerte: "Formación, el 10%", texto: "cursos, libros, herramientas. La única partida que puede cambiar los ingresos futuros." },
-          { fuerte: "Diversión, el 10%", texto: "y hay que gastarlo entero cada mes, sin culpa. Un plan que solo quita nunca se aguanta." },
-          { fuerte: "Dar, el 5%", texto: "a quien uno decida. Es la parte que menos se defiende con datos y la que más gente conserva del sistema." },
+          { fuerte: "Lo que oíste", texto: "las frases que se decían en tu casa sobre la gente con dinero." },
+          { fuerte: "Lo que viste", texto: "cómo se comportaban de verdad tus padres con lo que entraba." },
+          { fuerte: "Lo que te pasó", texto: "un episodio concreto que dejó una regla escrita en piedra." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "No estás pensando sobre el dinero: estás reproduciendo lo que oíste sobre él antes de saber leer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El paso que propone es sencillo de enunciar: escribe las frases que recuerdas de tu casa, pregúntate qué te han hecho hacer, y decide si te las quieres quedar. Su punto no es que sean falsas, sino que nunca las examinaste.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una distinción que es de lo más útil del libro: entre ser víctima y ser responsable. La víctima explica —la crisis, el jefe, la familia—, y sus explicaciones pueden ser todas ciertas y no servir de nada. El responsable pregunta qué puede hacer con eso. Eker lo lleva demasiado lejos, como se verá al final, pero la distinción funciona.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El que juega a no perder ya ha decidido cuánto va a ganar" },
+      {
+        b: "texto",
+        texto:
+          "La primera diferencia que señala es de objetivo. Hay quien juega al dinero para ganar y quien juega para no perder, y la segunda postura suena prudente pero fija el resultado de antemano: el que solo quiere llegar a fin de mes llega a fin de mes, y ni un euro más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale una de sus insistencias más repetidas: escribir una cifra. No un deseo de estar bien, sino un número. Eker sostiene que el cerebro no puede trabajar en una dirección que no se le ha dado, y que la mayoría nunca ha puesto por escrito cuánto quiere ganar ni cuánto quiere tener.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Apunta a la Luna y, si fallas, caerás entre las estrellas. Apunta al techo y darás en el techo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda diferencia es qué se mira. Dice que quien no tiene dinero se fija en los obstáculos y quien lo tiene se fija en las oportunidades, y añade el matiz que salva la idea de ser un tópico: no es que los ricos no vean los problemas, es que dan por hecho que aparecerán y calculan si merece la pena a pesar de ellos. La pregunta no es si saldrá bien, es qué pasa si no sale.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la tercera, la más incómoda: la relación con la gente que ya tiene dinero. Sostiene que quien los desprecia por sistema no va a permitirse llegar a ser uno de ellos, porque nadie se convierte en aquello que critica. Es la parte del argumento que peor envejece cuando se aplica sin matices, y también la que explica por qué el libro se lee tan bien: da permiso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Te pagan por resultados, no por horas, y eso cambia dónde trabajas" },
+      {
+        b: "texto",
+        texto:
+          "Otra de sus comparaciones va sobre cómo se cobra. Eker sostiene que el ingreso fijo por hora tiene un techo que se puede calcular con una multiplicación, y que quien quiere pasar de ahí tiene que cobrar de alguna forma ligada al resultado: comisión, participación, negocio propio, derechos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento no es contra el empleo. Es que un sueldo compra seguridad y la paga con techo, y conviene saber que se está haciendo ese cambio en vez de descubrirlo a los cincuenta. Su recomendación concreta es no dejar el trabajo, sino empezar algo pequeño en paralelo donde cobrar por lo que se consigue.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si cobras por horas, tu límite lo pone el calendario. Y el calendario no negocia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Junto a eso pone la idea de pensar en grande, que explica con una cuenta: quien resuelve el problema de diez personas gana lo que gana; quien resuelve el mismo problema para diez mil, gana mil veces más por el mismo trabajo de diseñar la solución. Su pregunta es a cuánta gente sirve lo que haces, y la respuesta suele ser corregible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También insiste en algo que suena raro en un libro de dinero: dice que la gente que gana mucho se promociona sin vergüenza, y que quien considera que venderse está feo se queda con el mejor producto y sin clientes. Lo enmarca así: si crees de verdad en lo que haces, no contarlo es un problema para el que lo necesita.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El dinero se administra con frascos antes de administrarse con cifras",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte más práctica del libro es un sistema de reparto que Eker enseña con seis cuentas o seis frascos. Cada vez que entra dinero, se reparte en porcentajes fijos y cada parte tiene un uso que no se toca. Su cifra de referencia es esta:",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Necesidades, 55 %", texto: "todo lo de vivir: casa, comida, recibos, transporte." },
+          { fuerte: "Libertad financiera, 10 %", texto: "solo se invierte, nunca se gasta. De aquí no se saca." },
+          { fuerte: "Ahorro a largo, 10 %", texto: "para compras grandes y para los imprevistos." },
+          { fuerte: "Formación, 10 %", texto: "cursos, libros, aprender algo que suba tus ingresos." },
+          { fuerte: "Diversión, 10 %", texto: "y hay que gastarlo entero cada mes, obligatoriamente." },
+          { fuerte: "Dar, 5 %", texto: "a quien lo necesite, sea quien sea." },
         ],
       },
       {
         b: "texto",
         texto:
-          "Los porcentajes son discutibles y él mismo dice que se pueden ajustar; lo que importa es el mecanismo. Repartir en el momento en que entra el dinero evita la única operación que arruina cualquier plan, que es decidir a final de mes cuánto ha sobrado, porque a final de mes no sobra nunca nada.",
+          "Lo interesante no son los porcentajes, que cada uno ajustará, sino dos detalles. El primero es que la cuenta de la libertad financiera es de una sola dirección: entra dinero y no sale, nunca, para nada. El segundo es que la de diversión es obligatoria gastarla, y ahí está su razonamiento: un sistema que solo aprieta se abandona a las tres semanas, así que la parte de disfrutar es lo que hace que el resto dure.",
       },
       {
         b: "idea",
         texto:
-          "Reparte el dinero el día que entra: si esperas a ver qué sobra a final de mes, ya sabes cuánto va a sobrar.",
+          "El hábito de administrar no depende de cuánto entra. Quien no reparte cien euros tampoco va a repartir cien mil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está su respuesta a la objeción evidente. Cuando alguien dice que no tiene bastante para repartir, Eker contesta que empiece con lo que sea —un euro por frasco si hace falta— porque lo que se está instalando es la costumbre, no la cantidad.",
       },
     ],
   },
   {
     bloques: [
-      { b: "rotulo", texto: "La partida de diversión es la que hace que el sistema dure" },
+      { b: "rotulo", texto: "Lo que no se mide crece solo si es un problema" },
       {
         b: "texto",
         texto:
-          "Dentro de ese reparto hay una decisión que parece menor y es la que decide si alguien sigue con el sistema al cabo de un año: la cuenta de diversión, que hay que gastar entera cada mes y en algo que no sirva para nada útil.",
+          "Otra idea que sostiene es la de mirar los números aunque duelan. Su observación es que quien va mal de dinero deja de abrir los extractos, y que eso convierte una situación mala en una situación mala y desconocida, que es peor. Su regla es sencilla: lo que no se controla, no se puede mejorar.",
       },
       {
         b: "texto",
         texto:
-          "Su argumento es de aguante y no de moral. Un plan financiero que solo consiste en quitar produce una vida peor mes a mes, y nadie sostiene voluntariamente una vida peor durante años. La partida de gasto libre es lo que convierte el sistema en algo tolerable, y por eso está puesta con porcentaje y con obligación.",
-      },
-      {
-        b: "texto",
-        texto:
-          "Y hay un efecto secundario que él no destaca lo suficiente: como esa cuenta tiene un tope, se acaba. Quien gasta de una partida limitada se ve obligado a elegir entre unas cosas y otras, y elegir obliga a averiguar qué le gusta de verdad, que es algo que casi nadie sabe de sí mismo. Gastar sin ningún límite y gastar sin ningún criterio acaban siendo exactamente la misma cosa.",
-      },
-      {
-        b: "texto",
-        texto:
-          "Y hay un efecto secundario que él no destaca lo suficiente: como esa cuenta tiene un tope, se acaba. Quien gasta de una partida limitada elige, y elegir obliga a averiguar qué le gusta de verdad, cosa que casi nadie sabe. Gastar sin límite y gastar sin criterio son la misma cosa.",
+          "Recomienda mirar cuatro cosas cada mes y anotarlas: lo que entra, lo que sale, lo que se tiene y lo que se debe. No como contabilidad, sino como el peso en una báscula: para tener una serie y ver hacia dónde va.",
       },
       {
         b: "idea",
         texto:
-          "Deja una partida para gastar sin culpa y gástala entera: un plan que solo quita no lo aguanta nadie más de tres meses.",
+          "El dinero no se escapa por lo que gastas: se escapa por lo que no miras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Junto a eso pone la idea del trabajo sobre uno mismo, que es donde más se le nota el oficio de formador. Sostiene que lo que sabes te ha traído hasta donde estás y que, por definición, no basta para llegar más lejos, así que hay que seguir aprendiendo aunque las cosas vayan bien. Es un argumento sencillo y difícil de rebatir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y termina con lo que llama la ley de los ingresos y el crecimiento personal: los ingresos crecen hasta donde crezcas tú. Es la misma imagen del termostato del principio, cerrando el círculo, y explica por qué todo el libro habla de la cabeza y casi nunca de productos financieros.",
       },
     ],
   },
   {
     bloques: [
+      { b: "rotulo", texto: "El libro funciona como permiso, y esa es la mitad de su éxito" },
       {
-        b: "rotulo",
+        b: "texto",
         texto:
-          "La distinción entre trabajar por tiempo y cobrar por resultado es correcta y no es un secreto",
+          "Conviene entender por qué se vende tanto un libro que no explica ni un solo producto financiero. Lo que hace bien es quitar de en medio una traba que mucha gente lleva sin haberla examinado: la idea de que querer dinero es un poco sucio, de que quien lo tiene ha hecho algo raro, de que aspirar a más es de codiciosos.",
       },
       {
         b: "texto",
         texto:
-          "Otro capítulo distingue dos maneras de cobrar y sostiene que casi toda la gente con patrimonio está en la segunda. Se puede cobrar por tiempo —un sueldo, una hora facturada— o se puede cobrar por resultado: una comisión, un porcentaje, una participación, algo que se vende muchas veces.",
-      },
-      {
-        b: "texto",
-        texto:
-          "La diferencia no es de mérito, es de tope. Quien cobra por tiempo tiene un techo aritmético, porque el día tiene veinticuatro horas y no se pueden vender dos veces. Quien cobra por resultado no tiene ese techo y tampoco tiene suelo: puede ganar mucho más y puede ganar cero durante meses.",
-      },
-      {
-        b: "texto",
-        texto:
-          "Lo que sí es aprovechable, y no requiere dejar ningún trabajo ni asumir ningún riesgo, es la pregunta: qué parte de lo que uno hace se cobra una vez por cada hora dedicada y qué parte se podría cobrar más de una vez. Casi todo el mundo tiene algo en esa segunda columna —algo que sabe explicar, algo que ya ha resuelto antes— y casi nadie se ha parado nunca a mirarlo.",
-      },
-      {
-        b: "texto",
-        texto:
-          "Lo que sí es aprovechable, y no requiere dejar nada, es la pregunta: qué parte de lo que uno hace se cobra una vez por cada hora y qué parte se podría cobrar más de una vez. Casi todo el mundo tiene algo en la segunda columna y casi nadie lo mira, y esa mirada no cuesta ningún riesgo.",
+          "Eker desmonta eso con una insistencia casi pesada, y lo hace en un tono de charla que se lee en dos tardes. Sus diecisiete comparaciones funcionan como espejo: casi cualquiera se reconoce en tres o cuatro de ellas y esa es la parte que se recuerda.",
       },
       {
         b: "idea",
         texto:
-          "Mira qué parte de lo que sabes hacer se podría cobrar más de una vez: casi todo el mundo tiene algo ahí y no lo mira.",
-      },
-    ],
-  },
-  {
-    bloques: [
-      { b: "rotulo", texto: "La explicación que da del fracaso no se puede desmentir con nada" },
-      {
-        b: "texto",
-        texto:
-          "Aquí está el problema de fondo del libro y conviene verlo con claridad. Si alguien aplica el método y le va bien, es la prueba de que el termostato funcionaba. Si lo aplica y le va mal, la explicación es que sus creencias profundas seguían saboteándole sin que él lo supiera.",
+          "Buena parte de lo que este libro hace no es enseñar nada: es quitar el freno de mano a quien no sabía que lo llevaba puesto.",
       },
       {
         b: "texto",
         texto:
-          "Una afirmación que se confirma con cualquier resultado no está diciendo nada sobre el mundo. Es el mismo defecto que tienen los libros de atracción y de pensamiento positivo, y aparece siempre en el mismo sitio: en la respuesta que se le da a quien lo intentó y no le salió.",
+          "Su otra virtud es el sistema de frascos, que es concreto, se puede empezar el mismo día y no depende de ninguna creencia. Quien no se crea nada de lo demás puede coger eso y le habrá servido de algo.",
       },
       {
         b: "texto",
         texto:
-          "Lo que ese razonamiento deja fuera es todo lo demás. Un negocio se hunde por un cliente que no paga, por un competidor con más dinero, por una subida de tipos, por una enfermedad o por haber empezado en el año equivocado, y ninguna de esas cosas tiene que ver con lo que alguien oyó en su casa a los siete años.",
-      },
-      {
-        b: "texto",
-        texto:
-          "Y hay una consecuencia práctica que empeora las cosas. Alguien que atribuye un fracaso a su mentalidad no revisa los números, no busca qué falló en el producto y no aprende nada aplicable, porque se ha quedado trabajando en la parte que no se puede comprobar. La explicación cómoda impide el examen que servía.",
-      },
-      {
-        b: "idea",
-        texto:
-          "Una explicación que vale igual para el éxito y para el fracaso no te está diciendo nada de lo que pasó.",
-      },
-    ],
-  },
-  {
-    bloques: [
-      {
-        b: "rotulo",
-        texto:
-          "El libro está escrito para que compres el curso, y eso se nota en cómo está escrito",
-      },
-      {
-        b: "texto",
-        texto:
-          "Conviene saber de dónde sale este libro, porque explica su forma. Eker dirigía una empresa de formación que vendía seminarios presenciales de tres días y programas más caros, y este libro funciona como la puerta de entrada a esos cursos: los menciona, los recomienda y termina con una invitación.",
-      },
-      {
-        b: "texto",
-        texto:
-          "Se nota también en lo que falta. No hay una sola cifra sobre cuántos de sus alumnos mejoraron sus ingresos después del seminario, ni un seguimiento a dos años, ni un caso que saliera mal, ni una comparación con gente que no hizo el curso. Un negocio de formación con miles de alumnos tiene esos datos y no los publica, y esa ausencia es informativa sobre lo que probablemente dirían si se publicaran.",
-      },
-      {
-        b: "texto",
-        texto:
-          "Se nota también en lo que falta. No hay una sola cifra sobre cuántos de sus alumnos mejoraron sus ingresos, ni un seguimiento, ni un caso que saliera mal. Un negocio de formación tiene esos datos y no los publica, y esa ausencia es informativa sobre lo que probablemente dirían.",
-      },
-      {
-        b: "texto",
-        texto:
-          "Nada de esto invalida las cuatro conductas que propone, que son buenas y que no cuestan dinero. Pero cambia cómo se lee lo demás: cuando un libro te dice que lo que te falta es una transformación profunda, y resulta que quien lo escribe vende esa transformación en un seminario, ya sabes qué parte estás leyendo.",
-      },
-      {
-        b: "idea",
-        texto:
-          "Cuando un libro te dice que necesitas una transformación y su autor la vende, ya sabes qué parte del libro estás leyendo.",
+          "El precio de ese tono es que no hay ni una cifra, ni un estudio, ni una fuente en todo el libro. Todo lo que afirma se sostiene en anécdotas de sus alumnos y en su propia biografía, contada por él. Es un libro de arengas, y hay que leerlo sabiéndolo.",
       },
     ],
   },
@@ -4201,27 +4202,27 @@ const MENTE_MILLONARIA: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Lo aprovechable son cuatro cosas concretas y ninguna necesita creerse la teoría. Escribir las frases sobre dinero que se oían en casa y ver cuáles siguen decidiendo hoy. Repartir cada ingreso en el momento en que entra. Dejar una partida para gastar sin culpa y gastarla entera. Y mirar qué parte de lo que uno sabe hacer podría cobrarse más de una vez.",
+          "El libro dice que cada uno lleva un termostato de dinero puesto en la infancia, que la cuenta corriente lo obedece, y que por eso el dinero que llega de golpe se va. Para cambiarlo propone examinar las frases heredadas, ponerse una cifra por escrito, cobrar por resultados en lugar de por horas y repartir cada ingreso en seis usos fijos desde el primer euro.",
       },
       {
         b: "texto",
         texto:
-          "Donde falla es en la afirmación que da título al libro. Que exista un nivel de ingresos fijado por la infancia es una hipótesis presentada como un hecho, y su prueba favorita —que mucha gente vuelve a su situación anterior después de un golpe de suerte— tiene explicaciones mucho mejores: quien no ha administrado nunca una cantidad grande no sabe hacerlo, y nadie le enseña.",
-      },
-      {
-        b: "texto",
-        texto:
-          "Y falla porque su explicación no se puede refutar. Si funciona, era el termostato; si no funciona, eran creencias ocultas. Eso convierte cada fracaso en un defecto de carácter del lector y le impide hacer lo único útil, que es revisar los números, el producto y el momento. Y deja fuera todo lo que no depende de nadie: el sector, la salud, el país y el año.",
-      },
-      {
-        b: "texto",
-        texto:
-          "Lo que hay que saber para leerlo es que el libro es la puerta de un negocio de seminarios, y que está escrito como tal: con exclamaciones, con frases para repetir en voz alta y con una invitación al final. No publica ninguna cifra sobre qué les pasó a sus alumnos, y una empresa de formación tiene esa cifra.",
+          "Lo que aporta son dos cosas concretas. El sistema de los frascos, que funciona con cualquier sueldo y se empieza hoy. Y el permiso, que para mucha gente es la traba de verdad: hasta que uno no deja de pensar que querer dinero está mal, ninguna técnica le va a servir.",
       },
       {
         b: "idea",
         texto:
-          "Las cuatro conductas que propone son buenas y gratis; la teoría que las envuelve sirve sobre todo para vender el curso.",
+          "Si tu subconsciente no está puesto en el éxito, todo lo que aprendas va a acabar devolviéndote al mismo sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y es lo primero que hay que decir. La tesis de que la situación económica de cada uno es un reflejo de su mentalidad convierte cualquier pobreza en culpa del pobre, y eso no se sostiene: el país donde naces, la salud, los cuidados que te tocan y una crisis explican bastante más de la renta de una persona que sus creencias sobre el dinero. Eker no menciona ninguna de esas cosas en todo el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay que decir lo otro: el libro es la puerta de entrada a un seminario de tres días y a una escalera de cursos mucho más caros, y su tono está construido para eso. No hay una sola fuente, un solo dato verificable ni un solo caso comprobable, y la biografía del autor —los negocios anteriores, la venta de la tienda— solo la cuenta él. Se le pueden coger los frascos y el permiso; para lo demás, cualquier manual de finanzas personales dice más y promete menos.",
       },
     ],
   },

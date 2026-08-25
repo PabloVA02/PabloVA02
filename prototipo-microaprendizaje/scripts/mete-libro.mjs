@@ -14,8 +14,17 @@
  *     "cabecera": "Los 7 hábitos, en ocho páginas.\n\n...",
  *     "paginas": [ { "bloques": [ { "b": "rotulo", "texto": "..." } ] } ] }
  *
- * Si la constante ya existe, la sustituye: reescribir un libro es volver a
- * ejecutar esto y ya está.
+ * SI LA CONSTANTE YA EXISTE, SE NIEGA Y SE SALE. Hay que pasarle --rehacer
+ * a propósito.
+ *
+ * Antes sustituía sin preguntar, y el 25 de agosto pasó lo que tenía que
+ * pasar: escribiendo del tirón se volvió a escribir «Los secretos de la mente
+ * millonaria», que ya estaba hecho de otra sesión, y el script lo pisó
+ * anunciándolo con un «reescrito» que se pierde entre veinte líneas de salida.
+ * Se recuperó del historial de git, pero la noche entera de trabajo podría
+ * haberse ido igual de callada. Un borrado sin confirmación no lo detecta
+ * después ningún validador: los cinco comprobadores dan por bueno un libro
+ * bien escrito que ha sustituido a otro libro bien escrito.
  */
 import { readFileSync, writeFileSync } from "node:fs";
 
@@ -82,8 +91,16 @@ if (donde >= 0) {
       break;
     }
   }
+  if (!process.argv.includes("--rehacer")) {
+    console.error(
+      `${libro.const} YA EXISTE en paginas.ts y NO se ha tocado nada.\n` +
+        `   Ese libro ya estaba escrito a mano. Si de verdad quieres sustituirlo,\n` +
+        `   míralo primero y vuelve a ejecutar esto con --rehacer al final.`,
+    );
+    process.exit(1);
+  }
   src = src.slice(0, desde) + declaracion + src.slice(fin);
-  console.log(`${libro.const}: reescrito`);
+  console.log(`${libro.const}: REESCRITO ENCIMA del que había (--rehacer)`);
 } else {
   const registro = src.indexOf("export const PAGINAS: Record");
   if (registro < 0) throw new Error("no encuentro el registro PAGINAS");

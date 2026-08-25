@@ -780,7 +780,7 @@ export const APRENDERAS: Record<string, string> = {
     "A un paciente le quitaron un tumor cerebral y salió con el cociente intelectual intacto y la vida destrozada: tardaba media hora en elegir la fecha de una cita. Goleman parte de ahí para explicar la otra inteligencia.",
 
   "mente-millonaria":
-    "Eker montó y hundió más de una docena de negocios antes de que uno funcionara, y perdió después casi todo aquel dinero. De esa segunda caída sale su afirmación: que cada persona tiene un nivel de ingresos con el que se siente cómoda.",
+    "Mucha gente que gana un gran premio de lotería vuelve en pocos años al patrimonio que tenía antes. Eker lo explica con un termostato de dinero puesto en la infancia, y enseña a cambiarlo y a repartir cada ingreso.",
 
   "piensa-hazte-rico":
     "Dos buscadores de oro vendieron su mina y el chatarrero que la compró encontró la veta a un metro del punto donde habían parado. Hill publicó en plena Depresión los trece principios que fundaron el género entero.",
