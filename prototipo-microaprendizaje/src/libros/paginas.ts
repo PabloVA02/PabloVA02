@@ -73158,7 +73158,292 @@ const EL_CEREBRO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Nunca comas solo, en ocho páginas.
+
+   Breve. Libro práctico de carrera → afirmación entera en el rótulo y
+   SEGUNDA PERSONA en la caja (apartado 4.7).
+
+   Riesgo principal: sonar a manual de contactos, que es lo que el título
+   sugiere y lo que el libro dice combatir. Se evita con lo concreto: el
+   vestuario del club de golf, la lista de las cien personas, la regla de
+   la llamada sin pedir nada, y los datos de Granovetter de 1973 sobre los
+   vínculos débiles, que no son de Ferrazzi y sostienen su tesis.
+
+   Y la conclusión dice quién puede aplicar esto y quién no: casi todo el
+   libro supone tiempo libre por las noches y ninguna obligación de cuidado
+   en casa.
+   -------------------------------------------------------------------------- */
+
+const NUNCA_COMAS_SOLO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi todas las oportunidades llegan por gente a la que apenas se conoce",
+      },
+      {
+        b: "texto",
+        texto:
+          "Keith Ferrazzi creció en una zona obrera de Pensilvania, hijo de un obrero siderúrgico y de una mujer que limpiaba casas. Empezó a trabajar de niño llevando los palos en un club de golf al que su familia no habría podido entrar de otra manera, y ahí pasó años escuchando a socios que hacían negocios mientras caminaban.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que dice haber aprendido allí es la afirmación del libro: la gente que llegaba lejos no era la más lista ni la que más trabajaba, sino la que conocía a más gente y le importaba a más gente. Y que eso no era un accidente de nacimiento, sino una conducta que se podía copiar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un dato que respalda esa intuición y que no es suyo. En 1973, el sociólogo Mark Granovetter estudió cómo habían encontrado trabajo unos cientos de profesionales y encontró que la mayoría no lo había conseguido por amigos íntimos, sino por conocidos con los que tenían poco trato: gente a la que veían una o dos veces al año.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué funcionan esos vínculos flojos, la regla que separa esto de trepar, cómo se hace una lista de personas sin que sea una lista de víctimas, qué se hace en una comida, por qué la generosidad rinde más siendo indiscriminada, y para quién está escrito todo esto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La oportunidad rara vez llega por tus amigos: llega por gente a la que ves una o dos veces al año.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los conocidos lejanos sirven porque saben cosas que tu círculo no sabe",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hallazgo de Granovetter tiene una explicación que ordena el libro entero. Los amigos íntimos de alguien se conocen entre sí, van a los mismos sitios y leen lo mismo, así que casi toda la información que tienen ya circula por ese grupo. Preguntarles es preguntar a un espejo con retraso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un conocido lejano, en cambio, vive en otro círculo, con otras conversaciones, otras empresas y otras vacantes. Es la única persona que puede aportar algo que uno no podía saber, y por eso las oportunidades entran por ahí. Lo llamó la fuerza de los vínculos débiles, y es de las cosas mejor establecidas de la sociología.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es contraintuitiva y va contra lo que hace todo el mundo. Cuando alguien busca trabajo, avisa a sus cinco amigos más cercanos y se queda esperando; es exactamente el grupo con menos probabilidad de saber algo útil. La búsqueda que funciona empieza por la segunda fila: antiguos compañeros, clientes de hace años, gente del sector con la que se coincidió una vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la única tarea de mantenimiento que el libro pide de verdad: que esa segunda fila no se enfríe del todo. Un mensaje cada muchos meses basta para que la relación exista, y la diferencia entre alguien con quien no se habla desde hace un año y alguien con quien no se habla desde hace ocho es enorme.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tus amigos íntimos saben lo mismo que tú: lo que no sabes está en la segunda fila de tu agenda.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La regla que separa esto de trepar es no pedir nada durante mucho tiempo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ferrazzi dedica varios capítulos a distinguir lo que propone de la práctica que casi todo el mundo detesta, que consiste en aparecer solo cuando se necesita algo. Su regla es una y es fácil de comprobar: si la primera vez que alguien tiene noticias tuyas en tres años es para pedirle un favor, no tenías una relación, tenías un contacto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que propone en su lugar es invertir el orden. Ponerse en contacto cuando no hace falta nada, con algo que le sirva a la otra persona: un artículo que le interesa, una presentación con alguien, una felicitación por algo que ha conseguido. Y hacerlo durante años sin llevar la cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento no es moral, aunque lo parezca. Es que la gente distingue perfectamente las dos cosas y las distingue rápido: una petición que llega después de tres años de silencio se lee como lo que es, y produce un favor concedido a regañadientes que además no se repite. Lo que se está construyendo con esa llamada es la siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte incómoda, que el libro no resuelve del todo, es que esto se puede hacer con cálculo y se nota igual. Ser generoso durante años esperando el momento de cobrar sigue siendo un cálculo, solo que más lento. Ferrazzi contesta que a esa escala de tiempo la diferencia deja de importar, y esa respuesta es discutible.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si la primera noticia tuya en tres años es una petición, no tenías una relación: tenías un contacto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una lista escrita de personas convierte una intención vaga en algo que se hace",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más práctico propone algo que suena frío y funciona: escribir una lista con nombres. Personas a las que uno querría conocer o con las que querría mantener el trato, ordenadas sin ninguna ceremonia, y con una columna al lado en la que se anota cuándo fue la última vez que hubo contacto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que resuelve esa lista no es la estrategia, es el olvido. Casi nadie deja de hablar con alguien por una decisión: se deja de hablar porque pasan los meses y no se le ocurre a nadie escribir. Una lista delante de los ojos convierte una relación en algo que aparece de vez en cuando en el campo de visión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ferrazzi añade una segunda columna que es la que hace útil el sistema: para qué le sirvo yo a esta persona. No qué quiero de ella, sino qué tengo que pueda interesarle, aunque sea poco: una información, un contacto, una opinión sobre su asunto, una recomendación. Si esa casilla está vacía, no hay nada que mantener todavía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El aviso obvio hay que hacerlo. Una lista así, mal usada, es exactamente el instrumento del trepador que el libro dice combatir, y la diferencia entre las dos versiones no está en el papel sino en si la segunda columna es sincera. El propio autor reconoce que casi todo el mundo empieza rellenando solo la primera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No dejas de hablar con la gente por decisión: dejas de hablar porque pasan los meses y a nadie se le ocurre escribir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El sitio donde se construye algo es una mesa y no un acto de trescientas personas",
+      },
+      {
+        b: "texto",
+        texto:
+          "El título del libro es literal y es la parte más aprovechable: la comida. Ferrazzi sostiene que los actos de mucha gente sirven para saludar y no sirven para nada más, porque en un sitio con doscientas personas nadie mantiene una conversación de más de cuatro minutos y nadie recuerda a nadie al día siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su propuesta es aprovechar las comidas, que ya existen y ya se hacen todos los días. Comer solo o comer siempre con el mismo compañero de mesa es desperdiciar un rato que estaba ocupado de todas formas, y una comida da una hora larga, sentados, sin ruido y sin nadie mirando el reloj.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade una técnica para las comidas que sí valen la pena: invitar a dos personas que no se conozcan entre sí y que tengan algo que ver. Quien las presenta no tiene que ser el más interesante de la mesa, y las dos le van a asociar a algo que les salió bien, que es la posición más cómoda que existe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da una regla para lo que se habla, que va contra la costumbre profesional: pasar pronto de los asuntos de trabajo a los de verdad. Sostiene que nadie recuerda una conversación sobre el sector y que todo el mundo recuerda una conversación en la que el otro habló de algo que le importaba, y que lo segundo se consigue preguntando y callándose.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Presenta a dos personas que se necesitaban: no tienes que ser el más interesante de la mesa para ser el que más gana.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ayudar sin mirar a quién rinde más que ayudar con criterio" },
+      {
+        b: "texto",
+        texto:
+          "Uno de los argumentos más interesantes del libro va contra la eficiencia. Ferrazzi sostiene que intentar calcular quién va a poder devolverte algo es un mal negocio, y no por razones morales: porque el cálculo falla casi siempre y porque el esfuerzo de hacerlo es mayor que el ahorro que produce.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su razón es que nadie puede saber quién va a ser útil dentro de diez años. El becario de hoy dirige un departamento a los treinta y cinco, el proveedor pequeño acaba comprando a su cliente, y la persona sin ninguna influencia resulta ser cuñada de quien decide. Un cálculo hecho hoy sobre eso se equivoca en la mayoría de los casos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la conducta que recomienda, que además cuesta poco: ayudar cuando se puede, sin evaluar. Una presentación, una respuesta a un correo, cinco minutos de consejo sobre algo que uno sabe. Son cosas baratas para quien las da y a veces muy valiosas para quien las recibe, y esa asimetría es todo el mecanismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Coincide con lo que encontró Adam Grant estudiando esto mismo con datos, y que ya está en este catálogo: quienes dan sin llevar la cuenta ocupan a la vez los peores y los mejores resultados de sus profesiones, y lo que separa a unos de otros no es cuánto dan, sino si saben decir que no a quien solo toma.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie sabe hoy quién será útil dentro de diez años, así que calcular a quién ayudar sale más caro que ayudar sin calcular.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que de verdad se recuerda de alguien es aquello en lo que no se parece a los demás",
+      },
+      {
+        b: "texto",
+        texto:
+          "El último argumento útil trata de por qué a la mayoría de los profesionales no se les recuerda. Ferrazzi sostiene que casi todo el mundo se presenta describiendo su puesto, y que un puesto lo tienen cientos de personas, así que esa presentación no deja ninguna huella y además no se puede recomendar a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí se recuerda es una especialidad estrecha o una rareza: alguien que sabe mucho de un asunto concreto, que hace algo raro fuera del trabajo o que tiene una opinión propia sobre algo del sector. Se recuerda porque encaja en una frase, y las recomendaciones viajan en frases de una línea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia es de posicionamiento y no de personalidad: conviene ser conocido por algo estrecho antes que respetado por algo amplio. Cuando alguien necesita a una persona, no piensa en profesionales buenos, piensa en el que sabía de aquello concreto, y solo aparece en esa búsqueda quien estaba asociado a algo específico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ferrazzi recomienda además darse a conocer escribiendo o hablando de ese asunto estrecho, con un argumento que no ha envejecido: quien explica algo en público deja de ser alguien que hace un trabajo y pasa a ser alguien de quien se puede decir en una frase de qué sabe, que es lo único que se transmite de una persona a otra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las recomendaciones viajan en frases de una línea: si tu presentación no cabe en una, no te va a recomendar nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro cosas concretas. Que las oportunidades entran por la segunda fila de la agenda y no por los amigos. Que ponerse en contacto sin pedir nada es lo que construye la posibilidad de pedir algún día. Que una lista con nombres y fechas resuelve el olvido, que es lo que de verdad rompe las relaciones. Y que conviene ser conocido por algo estrecho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en cómo demuestra. No hay ningún dato propio: hay la vida de su autor contada por él, listas de gente famosa a la que conoce y anécdotas de comidas que salieron bien. El único apoyo sólido del libro —los vínculos débiles de Granovetter— no es suyo y ni siquiera lo desarrolla, y todo lo demás es un caso de éxito explicándose a sí mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en para quién sirve. El método supone noches libres, viajes, capacidad de invitar a comer y la posibilidad de estar disponible cuando surge algo. Quien tiene turnos, criaturas pequeñas, a alguien a quien cuidar o un sueldo que no llega a las cenas de trabajo no puede ejecutar la mitad del libro, y esa gente no aparece en ninguna de sus páginas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después cambió el terreno más de lo que el libro imaginaba. Se publicó en 2005, antes de que existieran las redes profesionales tal como funcionan ahora, y buena parte de lo que proponía —mantener el contacto, ver qué hace la gente, presentar a dos personas— es hoy automático y gratuito. Lo que ha resultado más escaso es exactamente lo que el libro pedía y ninguna red da: una hora sentado con alguien.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que proponía se ha vuelto automático y gratis, y por eso lo que escasea ahora es justo lo que ninguna red da.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "nunca-comas-solo": NUNCA_COMAS_SOLO,
   "el-cerebro": EL_CEREBRO,
   "tus-zonas-erroneas": TUS_ZONAS_ERRONEAS,
   "leyes-naturaleza-humana": LEYES_NATURALEZA_HUMANA,

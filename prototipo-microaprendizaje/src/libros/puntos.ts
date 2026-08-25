@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "nunca-comas-solo": [
+    "por qué tus amigos cercanos saben exactamente lo mismo que tú",
+    "qué convierte un contacto en una relación, y cuánto tarda",
+    "qué rompe de verdad una relación profesional, que no es una discusión",
+    "por qué calcular a quién ayudar sale más caro que no calcular",
+    "por qué conviene ser conocido por algo estrecho y no por algo amplio",
+  ],
+
   "el-cerebro": [
     "por qué un cerebro se termina quitando conexiones y no poniéndolas",
     "qué existe fuera de la cabeza cuando ves un color",

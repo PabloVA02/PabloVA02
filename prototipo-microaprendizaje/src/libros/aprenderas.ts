@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "nunca-comas-solo":
+    "En 1973, Mark Granovetter encontró que la mayoría de la gente no había conseguido su trabajo por amigos íntimos, sino por conocidos a los que veía una o dos veces al año. Ferrazzi construye sobre eso un método para no perder esa segunda fila.",
+
   "el-cerebro":
     "El cerebro está encerrado en una caja de hueso, sin luz y sin sonido, y solo le llegan impulsos eléctricos por unos cables. Todo lo demás lo fabrica él, y Eagleman recorre en seis preguntas qué se sabe de esa fabricación.",
 

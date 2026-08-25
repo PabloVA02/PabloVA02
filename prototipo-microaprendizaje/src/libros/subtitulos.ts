@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "nunca-comas-solo": "Y otros secretos para el éxito, una relación cada vez",
   "el-cerebro": "Nuestra historia",
   "tus-zonas-erroneas": "Guía para combatir las causas de la infelicidad",
   "millonario-automatico": "Un plan poderoso y sencillo para vivir y acabar rico",
