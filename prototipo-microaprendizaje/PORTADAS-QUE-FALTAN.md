@@ -1,6 +1,6 @@
 # Portadas que faltan
 
-Al 2026-08-25: 352 libros en el catálogo, 168 con cubierta, **184 sin ella**.
+Al 2026-08-25: 352 libros en el catálogo, 189 con cubierta, **163 sin ella**.
 
 El fichero de cada una se llama como el id, en PNG a 1024 × 1536.
 
@@ -43,33 +43,12 @@ El fichero de cada una se llama como el id, en PNG a 1024 × 1536.
 | `por-que-amamos` | Por qué amamos | Helen Fisher | 2004 |
 | `vida-3-0` | Vida 3.0 | Max Tegmark | 2017 |
 
-## Deportes — 23
+## Deportes — 2
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
-| `cruyff-14` | 14. La autobiografía de Johan Cruyff | Johan Cruyff | 2016 |
 | `correr-o-morir` | Correr o morir | Kilian Jornet | 2011 |
-| `hablo-correr` | De qué hablo cuando hablo de correr | Haruki Murakami | 2007 |
-| `futbol-sol-sombra` | El fútbol a sol y sombra | Eduardo Galeano | 1995 |
-| `gen-deportivo` | El gen deportivo | David Epstein | 2013 |
-| `fiebre-gradas` | Fiebre en las gradas | Nick Hornby | 1992 |
-| `futbol-contra-enemigo` | Fútbol contra el enemigo | Simon Kuper | 1994 |
 | `relentless` | Imparable | Tim Grover | 2013 |
-| `piramide-invertida` | La pirámide invertida | Jonathan Wilson | 2008 |
-| `legado-all-blacks` | Legado | James Kerr | 2013 |
-| `mamba-mentality` | Mamba Mentality | Kobe Bryant | 2018 |
-| `messi-ronaldo` | Messi vs. Ronaldo | Clegg y Robinson | 2021 |
-| `moneyball` | Moneyball | Michael Lewis | 2003 |
-| `numero-uno` | Número uno | Anders Ericsson | 2016 |
-| `nunca-te-pares` | Nunca te pares | Phil Knight | 2016 |
-| `once-anillos` | Once anillos | Phil Jackson | 2013 |
-| `open-agassi` | Open | Andre Agassi | 2009 |
-| `rafa-mi-historia` | Rafa, mi historia | Rafael Nadal y John Carlin | 2011 |
-| `remando-un-hombre` | Remando como un solo hombre | Daniel James Brown | 2013 |
-| `rey-del-mundo` | Rey del mundo | David Remnick | 1998 |
-| `siete-pecados` | Siete pecados capitales | David Walsh | 2012 |
-| `yo-soy-el-diego` | Yo soy el Diego | Diego Armando Maradona | 2000 |
-| `soy-zlatan` | Yo soy Zlatan Ibrahimović | David Lagercrantz | 2011 |
 
 ## Economía — 21
 
