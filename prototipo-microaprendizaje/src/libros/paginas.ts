@@ -68690,7 +68690,286 @@ const EMPIEZA_PORQUE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Piénsalo otra vez, en ocho páginas.
+
+   Breve. Ensayo de psicología con vocación práctica → afirmación entera en
+   el rótulo. La caja va en SEGUNDA persona porque el libro es de conducta y
+   da instrucciones ejecutables (apartado 4.7), no de historia ni de ciencia
+   básica.
+
+   Riesgo principal: quedarse en «hay que ser humilde», que es el resumen que
+   circula y que no obliga a nada. Lo que sostiene el resumen son los casos
+   concretos: los bomberos de Mann Gulch de 1949, el estudio de las
+   respuestas cambiadas en los exámenes, Halla Tómasdóttir en 2016, la red
+   de desafiantes y el debate como baile.
+
+   Y la conclusión tiene que decir que el propio Grant no ha replicado casi
+   nada de lo que reúne, y que la parte del efecto Dunning-Kruger ha sido
+   discutida desde 2020.
+   -------------------------------------------------------------------------- */
+
+const PIENSALO_OTRA_VEZ: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "La inteligencia sirve para defender mejor lo que ya se pensaba" },
+      {
+        b: "texto",
+        texto:
+          "Adam Grant es profesor de psicología de las organizaciones en la Escuela Wharton y su libro parte de una observación incómoda: la capacidad intelectual mejora casi todas las tareas mentales menos una. Cuanto más listo es alguien, mejor construye argumentos, y eso incluye los argumentos para no cambiar de opinión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El coste de esa falta se paga en las decisiones grandes. Grant sostiene que muchas de las peores no vienen de no tener información, sino de haber decidido demasiado pronto y de haber gastado después toda la inteligencia disponible en defender aquella decisión, seleccionando los datos nuevos que la confirmaban y encontrándole pegas a los que no. El proceso se siente por dentro exactamente igual que razonar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre los tres papeles con los que casi todos discutimos y el cuarto que casi nadie usa, un incendio de 1949 que explica por qué cuesta tanto soltar lo que se lleva encima, qué hacer con la propia duda y con la de los demás, cómo se discute para llegar a algún sitio en lugar de para ganar, la única técnica que funciona contra una postura muy firme, y de quién conviene rodearse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre los tres papeles con los que casi todos discutimos y el cuarto que casi nadie usa, un incendio de 1949 que explica por qué cuesta tanto soltar lo que se lleva encima, qué hacer con la duda de los demás, cómo se discute para llegar a algún sitio, y de quién conviene rodearse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuanto mejor argumentas, mejor defiendes lo que ya creías: la inteligencia no te protege de equivocarte, te protege de enterarte.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi todos discutimos como predicadores, fiscales o políticos, y casi nunca como científicos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Grant describe cuatro maneras de sostener una idea, y las tres primeras las reconoce cualquiera porque las usa a diario sin darse cuenta. Lo que cambia entre ellas no es el tema ni la educación de quien habla: es qué se está jugando el que habla.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "El predicador", texto: "defiende algo sagrado. Cualquier objeción es un ataque a lo que él es, así que no la examina: la rebate." },
+          { fuerte: "El fiscal", texto: "busca el fallo en el argumento del otro. Es útil, pero solo se dirige hacia fuera: nunca instruye una causa contra sí mismo." },
+          { fuerte: "El político", texto: "quiere la aprobación de su público, así que ajusta lo que dice a quién le escucha y no a lo que ha averiguado." },
+          { fuerte: "El científico", texto: "trata su propia idea como una hipótesis y busca activamente lo que la desmentiría, porque una idea que resiste eso vale mucho más." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba que cita a favor es de emprendedores: a un grupo de fundadores italianos se les enseñó a tratar su plan de negocio como una hipótesis que había que poner a prueba en vez de como una convicción que había que defender. Los que recibieron esa formación cambiaron de estrategia mucho más a menudo y facturaron bastante más que el grupo de control.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La dificultad práctica es que el modo científico se siente peor. Ir buscando en qué te equivocas produce menos seguridad, menos entusiasmo y peores discursos, y por eso casi nadie lo hace en público. Grant lo reconoce: es una técnica que funciona y que además cuesta socialmente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de discutir, pregúntate cuál de los cuatro estás siendo: si defiendes algo tuyo, no estás examinando nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que impide cambiar de idea no es la idea: es lo que se ha construido encima",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso con el que Grant lo explica ocurrió en agosto de 1949 en Mann Gulch, Montana. Quince bomberos paracaidistas saltaron sobre un incendio que parecían capaces de controlar. El fuego cambió de dirección, empezó a subir la ladera detrás de ellos y tuvieron que correr cuesta arriba para salvarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los que murieron llevaban puesto el equipo. Hachas, sierras, mochilas, entre diez y veinte kilos de herramientas que no servían para nada en una carrera contra el fuego, y que varios siguieron cargando incluso después de que su jefe les gritara que las soltaran. Trece de los quince murieron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la recomendación más práctica del libro, y es de vocabulario. Conviene definirse por los valores y no por las opiniones: quien se describe como alguien a quien le importa hacer bien su trabajo puede cambiar de método cincuenta veces sin dejar de ser él mismo, y quien se describe por un método concreto —o por un bando, o por una postura— tiene que elegir cada vez entre rectificar y dejar de ser quien era.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la recomendación más práctica del libro, y es de vocabulario. Conviene definirse por los valores y no por las opiniones: quien se describe como alguien a quien le importa hacerlo bien puede cambiar de método sin dejar de ser él, y quien se describe por un método concreto tiene que elegir entre rectificar y dejar de existir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Defínete por lo que te importa y no por lo que opinas, o cada rectificación te costará dejar de ser quien eres.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La duda propia predice mejor el acierto que la seguridad" },
+      {
+        b: "texto",
+        texto:
+          "Grant recoge un hallazgo de los años ochenta que sigue chocando con lo que todo el mundo cree: en los exámenes de tipo test, cuando un estudiante cambia una respuesta después de haberla marcado, acierta más veces de las que falla. Se ha medido en muchas muestras y el sentido es siempre el mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y sin embargo casi todos los estudiantes creen lo contrario y se aferran a la primera intuición. La explicación que se propone es de memoria selectiva: quien cambia una respuesta correcta por una equivocada recuerda ese fallo durante años, y quien corrige un error nunca llega a enterarse de que estaba a punto de fallar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su corolario práctico es que la duda hay que tratarla como información y no como una debilidad que hay que disimular. La incomodidad que produce descubrir que uno estaba equivocado es exactamente la señal de que se está aprendiendo algo, y organizarse la vida para no sentirla nunca es lo que produce carreras enteras de treinta años sin una sola idea nueva dentro, defendidas cada vez con más soltura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su corolario práctico es que la duda hay que tratarla como información y no como debilidad. La incomodidad que produce descubrir que uno estaba equivocado es exactamente la señal de que se está aprendiendo algo, y evitarla sistemáticamente es lo que produce carreras enteras sin una sola idea nueva.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ten mucha confianza en que puedes resolverlo y muy poca en que ya lo has resuelto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una discusión que se gana no cambia a nadie de opinión" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre discusiones parte de un estudio de negociadores expertos comparados con negociadores del montón, y el resultado va contra la intuición. Los expertos usaban menos argumentos, no más. Los mediocres amontonaban razones; los buenos elegían dos o tres y se quedaban ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo es que los argumentos no se suman, se promedian. Cada razón adicional le da al otro una posibilidad más de encontrar una débil, rebatir esa, y sentir que ha desmontado el conjunto. Un argumento fuerte acompañado de tres flojos convence menos que el argumento fuerte solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La imagen que propone Grant para todo esto es la de un baile en lugar de la de una guerra, y aclara bien la diferencia. En una guerra alguien tiene que perder, y perder delante de otros es precisamente lo que nadie está dispuesto a hacer, así que la discusión se convierte en dos monólogos con turnos. En un baile los dos se mueven, y una discusión en la que solo se mueve uno no era una discusión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La imagen que propone Grant para todo esto es la de un baile en lugar de la de una guerra. En una guerra alguien tiene que perder, y perder delante de otros es exactamente lo que nadie está dispuesto a hacer. En un baile los dos se mueven, y una discusión donde solo se mueve uno no se llama discusión.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Usa dos argumentos buenos y no cinco: las razones no se suman en la cabeza del otro, se promedian.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Preguntar cómo funciona algo desarma mejor que cualquier dato" },
+      {
+        b: "texto",
+        texto:
+          "Contra las opiniones muy firmes, Grant recoge una técnica que se ha medido y que no consiste en aportar información. Se llama la ilusión de profundidad explicativa y la describieron Leonid Rozenblit y Frank Keil en 2002: casi todo el mundo cree entender cómo funcionan las cosas mucho mejor de lo que las entiende.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El experimento es sencillo. Se pide a alguien que puntúe de uno a siete cuánto entiende cómo funciona una cremallera, un váter o una bicicleta. Después se le pide que lo explique paso a paso. Y al terminar se le pide que vuelva a puntuarse: la nota baja siempre, porque explicar deja a la vista los huecos que la sensación de entender tapaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia entre las dos peticiones es la clave del asunto y es fácil de recordar. Pedir razones activa al predicador, que las tiene todas preparadas y bien ensayadas de discusiones anteriores. Pedir el mecanismo obliga a mirar el propio conocimiento por dentro, y ahí casi nadie tiene lo que creía tener, incluido quien está haciendo la pregunta, que suele descubrir que tampoco sabía explicarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia entre las dos peticiones es la clave y es fácil de recordar. Pedir razones activa al predicador, que tiene muchas y bien ensayadas. Pedir el mecanismo obliga a mirar el propio conocimiento, y ahí casi nadie tiene lo que creía tener, incluido quien pregunta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No pidas razones, que las tiene todas: pide que te explique el mecanismo paso a paso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Conviene tener cerca a gente que discuta, y eso no es lo mismo que gente que critique",
+      },
+      {
+        b: "texto",
+        texto:
+          "La última idea aprovechable del libro es organizativa: Grant propone construirse a propósito lo que llama una red de desafiantes, gente elegida no por estar de acuerdo sino por ser capaz de señalar los fallos de lo que uno propone. Y aclara enseguida que no se trata de rodearse de gente hostil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia está en el objetivo. Un crítico quiere tener razón y ataca a la persona o al proyecto entero; un desafiante quiere que la cosa salga bien y ataca al argumento concreto, con el que propuso la idea del mismo lado. Un desafiante útil es alguien que te quiere y no te ahorra nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo es Halla Tómasdóttir, que se presentó a las elecciones presidenciales de Islandia en 2016 sin partido ni maquinaria detrás. Empezó con un uno por ciento en las encuestas y terminó con cerca de un veintiocho por ciento del voto, en segundo lugar. Lo hizo negándose a atacar a sus rivales y reconociendo en público lo que no sabía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Grant añade una advertencia sobre el ambiente que hace falta para que esto funcione. En un grupo donde señalar un fallo tiene consecuencias, nadie señala ninguno, y el jefe se queda con la impresión sincera de que a todo el mundo le parece bien su plan. Esa impresión es el aviso más fiable de que algo va mal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si en tu equipo nadie te lleva la contraria nunca, no es que tengas razón: es que ya han aprendido lo que cuesta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro herramientas concretas. Preguntarse cuál de los cuatro papeles se está representando antes de abrir la boca. Definirse por los valores y no por las opiniones, para que rectificar no cueste la identidad. Usar dos argumentos en vez de cinco. Y pedir el mecanismo en lugar de las razones, que es la única técnica del libro que funciona contra una postura muy firme.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la naturaleza del material. Grant es un divulgador excelente y casi nada de lo que reúne es investigación suya: son estudios de otros, elegidos porque encajan, y presentados con el nivel de seguridad de quien cuenta una historia. Muchos son de una sola muestra y de un solo laboratorio, y en psicología social eso ha resultado ser bastante menos sólido de lo que parecía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un ejemplo del propio libro lo enseña. Al hablar de gente que no sabe lo poco que sabe, se apoya en el efecto que describieron Justin Kruger y David Dunning en 1999, que se ha convertido en un tópico. Desde 2020 hay varios trabajos que sostienen que buena parte de esa curva se explica por artefactos estadísticos —el retorno a la media y el ruido— y no por un rasgo psicológico. Grant lo cuenta como un hecho asentado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una limitación de fondo que el libro no examina: repensar tiene un coste que no se reparte igual. Cambiar de opinión en público le sale barato a un catedrático con plaza fija y caro a quien está a prueba en su primer trabajo. Grant escribe desde el primer sitio, y el consejo, tal como está dado, sirve mejor a quien ya tiene el puesto asegurado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Enseña cuatro cosas que se pueden usar el lunes, y presenta como asentado bastante material que no lo está.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "piensalo-otra-vez": PIENSALO_OTRA_VEZ,
   "empieza-porque": EMPIEZA_PORQUE,
   "correr-o-morir": CORRER_O_MORIR,
   relentless: RELENTLESS,

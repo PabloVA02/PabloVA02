@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "piensalo-otra-vez": "El poder de saber lo que no sabes",
   "empieza-porque": "Cómo los grandes líderes inspiran a todos a la acción",
   relentless: "De bueno a excelente e imparable",
   "tal-como-eres": "La sorprendente ciencia que transformará tu vida sexual",

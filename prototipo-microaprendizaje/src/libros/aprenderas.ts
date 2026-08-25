@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "piensalo-otra-vez":
+    "En los exámenes tipo test, quien cambia una respuesta acierta más veces de las que falla, y casi todos los estudiantes creen lo contrario. Grant reúne lo que se sabe sobre revisar una conclusión ya tomada, que es lo que nadie entrena.",
+
   "empieza-porque":
     "Sinek observó que casi todas las organizaciones comunican de fuera hacia dentro: primero lo que venden, luego cómo, y nunca por qué existen. Su libro propone invertir ese orden y da una prueba para saber si un propósito es real.",
 

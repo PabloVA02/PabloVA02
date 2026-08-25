@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "piensalo-otra-vez": [
+    "los cuatro papeles con los que se discute, y cuál sirve",
+    "por qué definirse por una opinión encarece cada rectificación",
+    "por qué dos argumentos convencen más que cinco",
+    "qué preguntar a alguien con una postura muy firme",
+    "en qué se diferencia quien te desafía de quien te critica",
+  ],
+
   "empieza-porque": [
     "por qué el orden de una presentación cambia lo que decide quien escucha",
     "qué le cuesta a una empresa cada descuento que hace",
