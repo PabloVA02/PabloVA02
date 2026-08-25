@@ -84041,7 +84041,302 @@ const CREATIVIDAD_SA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El cerebro hambriento, en ocho paginas.
+
+   Breve. SALUD -> apartado 4 bis, la prueba del sustituto: si la pagina funciona
+   cambiando el nombre de la molecula, esa pagina cuenta el genero y no el libro.
+   Aqui se evita porque la tesis no es una molecula: es un circuito y su entorno.
+   Cada pagina lleva su experimento con autor y ano.
+
+   Segunda persona en la caja (4.7, salud es practico), pero con cuidado: todo
+   este libro es un argumento contra culpar al que engorda, asi que la caja nunca
+   puede sonar a reproche. Habla de mecanismos, no del cuerpo del lector.
+
+   Lo concreto: la maquina de formula liquida de Columbia en 1965, la leptina en
+   1994, el gasto que baja segun Leibel, las ratas de supermercado de Sclafani,
+   los sesenta dias de patatas de Chris Voigt en 2010, el experimento de
+   Minnesota de Ancel Keys.
+
+   La conclusion: el consejo practico final es flojo para trescientas paginas, la
+   neuroinflamacion en humanos esta poco probada, y lo que vino despues —los
+   farmacos que actuan sobre el apetito desde 2021— es la mejor confirmacion de
+   su tesis central.
+   -------------------------------------------------------------------------- */
+
+const CEREBRO_HAMBRIENTO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que decide cuánto comes no es una decisión consciente, y por eso la fuerza de voluntad rinde tan poco",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1965, en la Universidad de Columbia, unos investigadores montaron un experimento raro. Instalaron una máquina que dispensaba una fórmula líquida sosa, sin sabor ni variedad, y dejaron que un grupo de voluntarios comiera de ella todo lo que quisieran y cuando quisieran, sin ninguna restricción y sin que nadie les dijera nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los participantes delgados comieron aproximadamente lo que gastaban y mantuvieron su peso. Los participantes con obesidad comieron espontáneamente muchísimo menos de lo que necesitaban, adelgazaron deprisa durante semanas y, según los registros, no se quejaron de hambre. Nadie les había pedido comer menos: lo único que había cambiado era lo que había en la máquina.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Stephan Guyenet es neurobiólogo y dedicó años a investigar la regulación del peso corporal. Su libro, de 2017, parte de ese tipo de resultados para sostener una afirmación incómoda para los dos bandos del debate habitual: engordar no es una falta de carácter, y tampoco es culpa de un solo nutriente al que baste con quitar de la dieta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre cómo el cerebro vigila la cantidad de grasa del cuerpo y la defiende, por qué adelgazar se vuelve más difícil cuanto más se adelgaza, qué es exactamente lo que hace que una comida se coma sin hambre, qué papel tienen el sueño y el estrés, qué se puede hacer con todo esto y qué le falta al libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Aquellos voluntarios no comieron menos porque decidieran comer menos. Cambió lo que tenían delante, y con eso cambió cuánto pedía el cuerpo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El cerebro vigila cuánta grasa hay en el cuerpo y la defiende como un termostato defiende una temperatura",
+      },
+      {
+        b: "texto",
+        texto:
+          "La pieza central del libro es un sistema que Guyenet llama el lipostato. Una parte del hipotálamo recibe información constante sobre cuánta grasa hay almacenada y ajusta el hambre y el gasto de energía para mantenerla alrededor de una cifra concreta. No es una metáfora: se puede modificar en animales de laboratorio y el efecto se mide.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La señal principal la descubrió en 1994 el laboratorio de Jeffrey Friedman, en la Universidad Rockefeller, estudiando unos ratones que comían sin parar y engordaban muchísimo. Les faltaba una hormona que produce el propio tejido graso y que informa al cerebro de cuánta reserva hay. La llamaron leptina, y al inyectársela, los ratones dejaron de comer así.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En personas ocurre lo mismo en los poquísimos casos en que falta esa hormona por un fallo genético. Guyenet describe a niños con un hambre desesperada e incontrolable, que comían cualquier cosa a cualquier hora, y a los que el tratamiento con leptina les devolvió un apetito normal en cuestión de semanas. Es la demostración más clara de que el hambre viene del cerebro y no del carácter.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo importante es la dirección del sistema. El lipostato no está diseñado para mantener un peso saludable ni un peso bajo: está diseñado para impedir que las reservas caigan, porque durante casi toda la historia de la especie el peligro fue ese. Defiende hacia abajo con mucha más fuerza que hacia arriba, y esa asimetría explica buena parte de lo que sigue.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tu cerebro defiende una cantidad de grasa concreta, y la defiende sobre todo hacia abajo. No fue diseñado para ayudarte a adelgazar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Después de adelgazar, el cuerpo gasta menos de lo que le corresponde a su nuevo tamaño",
+      },
+      {
+        b: "texto",
+        texto:
+          "El trabajo que más se cita en este tramo es el de Rudolph Leibel y sus colegas, que midieron con precisión el gasto energético de personas antes y después de perder peso. El resultado es el que hace que las dietas fracasen tan a menudo, y no tiene nada que ver con la disciplina de nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Alguien que ha perdido un diez por ciento de su peso quema del orden de trescientas a cuatrocientas calorías diarias menos de lo que quemaría otra persona del mismo peso que nunca hubiera adelgazado. El cuerpo no ha vuelto a su gasto normal: se ha puesto en modo de recuperación, y lo mantiene durante mucho tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A la vez, el hambre sube. Con la grasa bajan la leptina y otras señales de saciedad, y el cerebro aumenta el interés por la comida, la atención que se le presta y el placer que produce. Guyenet lo resume así: adelgazar no exige sostener el mismo esfuerzo todos los meses, exige sostener un esfuerzo que va creciendo mientras la recompensa disminuye.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la conclusión que ordena el libro. Recuperar el peso perdido no es una recaída moral ni una prueba de nada sobre la persona: es el resultado previsible de un sistema que está haciendo exactamente su trabajo. Y por eso, dice, cualquier método que consista en pelearse de frente con ese sistema tiene los años contados.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Recuperar el peso perdido no dice nada sobre tu voluntad. Es lo que hace un sistema que está funcionando como fue diseñado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que hace comer de más no es el sabor agradable: es una combinación que el cerebro no sabe registrar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí el libro introduce la distinción que le da su nombre. Una cosa es que algo esté rico, que es lo que se nota en la boca, y otra distinta es lo que los investigadores llaman recompensa: cuánto empuja ese alimento a buscarlo otra vez, aprender dónde está y comer más de lo necesario. Las dos no coinciden siempre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El experimento que lo demostró es de Anthony Sclafani, en los años setenta. Las ratas alimentadas con el pienso estándar de laboratorio comen lo que necesitan y se mantienen delgadas toda su vida, aunque tengan comida libre a todas horas. A otras les ofreció comida de supermercado corriente —galletas, queso, salchichón, bananas, nubes de azúcar— y engordaron muchísimo en pocas semanas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El pienso no está racionado ni sabe mal para una rata: simplemente no tiene esa combinación. Guyenet señala qué comparten los alimentos que disparan la recompensa: mucha energía en poco volumen, grasa y azúcar juntos, sal, textura blanda que se traga deprisa y poca fibra. Casi ninguna comida de la naturaleza reúne todo eso a la vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo humano más citado es de 2010, cuando Chris Voigt, un representante del sector de la patata en Estados Unidos, comió solo patatas durante sesenta días para defender su producto. Perdió alrededor de diez kilos sin proponérselo y sin contar nada. La patata sola es saciante y aburrida; con aceite y sal se convierte en otra cosa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que te hace comer de más no es que esté bueno, sino la combinación: energía concentrada, grasa y azúcar juntos, sal y poca fibra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La variedad hace comer más que el hambre, y por eso siempre queda sitio para el postre",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los mecanismos mejor documentados del libro tiene un nombre técnico feo y una experiencia cotidiana detrás. Se llama saciedad específica del sensor, y consiste en que el apetito por un sabor concreto se apaga mucho antes que el apetito general. Por eso alguien puede estar lleno después de un plato y aceptar un postre sin ninguna dificultad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En los estudios de laboratorio el efecto es grande. Ofrecer varios alimentos distintos en la misma comida aumenta bastante la cantidad total que se come, y no porque haya más hambre, sino porque cada sabor nuevo reinicia parcialmente el sistema. La misma persona come mucho menos si solo tiene un alimento delante, aunque le guste.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Guyenet usa esto para explicar por qué las dietas de un solo alimento funcionan tan bien a corto plazo y por qué son insostenibles. Comer solo patatas, solo arroz o solo carne adelgaza a casi todo el mundo sin contar nada, y casi nadie aguanta más de unas semanas, precisamente porque el sistema que lo hace funcionar es el aburrimiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí saca su recomendación más aplicable, que es una versión suave de lo mismo. No hace falta comer solo una cosa; basta con que las comidas habituales sean sencillas, con pocos elementos, poco procesadas y parecidas entre sí, y dejar la variedad y la intensidad para ocasiones concretas en lugar de tenerlas disponibles todos los días.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Siempre queda sitio para el postre porque el apetito por un sabor se apaga antes que el hambre. Cuantos más sabores tengas delante, más comerás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dormir poco y vivir estresado suben el hambre por vías que no tienen nada que ver con la comida",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica un tramo a dos factores que no se suelen contar como alimentación. El primero es el sueño. En estudios controlados en los que se restringe el descanso durante varios días, los participantes comen más, prefieren alimentos más calóricos y toleran peor el azúcar, sin haber cambiado nada más en su vida ni haberse dado cuenta de que comen más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo es el estrés sostenido, que en muchas personas sube la ingesta y la dirige hacia alimentos concretos, casi siempre los de más recompensa. Guyenet señala que esa combinación no es un fallo de carácter sino una respuesta antigua: en un entorno duro, buscar energía densa cuando hay amenaza era exactamente lo sensato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para explicar hasta dónde llega el hambre cuando el cuerpo se siente escaso, recurre al experimento de Minnesota. Entre 1944 y 1945, Ancel Keys puso a treinta y seis voluntarios sanos a comer aproximadamente la mitad de lo que necesitaban durante veinticuatro semanas, para estudiar cómo realimentar a la población europea después de la guerra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que documentaron no fue solo pérdida de peso. Los hombres se volvieron apáticos, irritables y obsesivos con la comida: coleccionaban recetas, hablaban de comer todo el día, soñaban con ello y algunos rompieron el protocolo. Al terminar, muchos comieron sin control durante meses. Es el retrato de lo que hace una restricción severa, y explica por qué las dietas duras acaban como acaban.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si duermes mal o vas con el estrés a tope, vas a comer más aunque no lo notes. No es una excusa: es una vía distinta a la del apetito.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La estrategia que propone no es comer menos, es cambiar lo que hay para que se coma menos solo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Todo el libro conduce a un cambio de planteamiento. Si el hambre la fija un sistema automático, pelearse con él a base de disciplina es la peor estrategia posible, porque exige un esfuerzo creciente y una atención constante. La alternativa es modificar las entradas de ese sistema para que pida menos por su cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo primero que propone es bajar la recompensa de lo que se come habitualmente sin bajar la cantidad. Alimentos poco procesados, preparaciones sencillas, pocos ingredientes por plato, sin cocinar con grandes cantidades de aceite y azúcar juntas. La idea no es comer sin placer, sino no tener a diario la combinación que hace comer de más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo segundo es actuar sobre el entorno en vez de sobre la voluntad. Lo que no está en casa no se come a las once de la noche, y lo que está a la vista se come más. Guyenet insiste en que este consejo, que suena a tópico, es en realidad la aplicación directa de su tesis: la conducta la decide el sistema, y el sistema se alimenta de lo que hay delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo tercero son las dos cosas que no parecen dieta: dormir lo suficiente y bajar el estrés sostenido, que actúan sobre el hambre por vías que ningún plan de alimentación toca. Cierra con el ejercicio, del que dice algo honesto: es excelente para la salud y para mantener un peso, y bastante mediocre como herramienta para perderlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No pelees con el hambre: cambia lo que tienes delante. Lo que no está en casa no se come a las once de la noche.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que este libro deja claro son tres cosas y las tres están bien apoyadas. Que el cerebro defiende una cantidad de grasa y lo hace sobre todo hacia abajo. Que después de adelgazar el gasto baja y el hambre sube, de modo que recuperar el peso es lo previsible y no una prueba sobre nadie. Y que la combinación de energía concentrada, grasa con azúcar, sal y poca fibra hace comer más de lo necesario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la parte práctica. Después de trescientas páginas explicando un sistema complicadísimo, el consejo final —comida sencilla y poco procesada, dormir, menos estrés, moverse— es el mismo que se lee en cualquier sitio y sin el detalle que el resto del libro promete. La explicación es magnífica y la aplicación se queda corta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en el respaldo de una parte concreta. La inflamación del hipotálamo, que es el campo del propio autor y que aparece como una de las causas de que el sistema se desajuste, está bien documentada en roedores y muy poco en personas, donde los estudios son escasos y pequeños. El libro la presenta con más seguridad de la que había en 2017.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después es la mejor confirmación de su tesis central. Desde 2021 se han extendido unos fármacos que no actúan sobre el estómago ni sobre el metabolismo, sino sobre los circuitos cerebrales del apetito, y consiguen pérdidas de peso que ninguna dieta sostenía. Que funcionen precisamente ahí es justo lo que este libro llevaba años sosteniendo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El cambio más útil no es comer menos: es que lo que tienes a mano sea sencillo, aburrido y suficiente. Lo demás lo hace el sistema solo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cerebro-hambriento": CEREBRO_HAMBRIENTO,
   "creatividad-sa": CREATIVIDAD_SA,
   "primavera-silenciosa": PRIMAVERA_SILENCIOSA,
   "camino-libertad-financiera": CAMINO_LIBERTAD_FINANCIERA,

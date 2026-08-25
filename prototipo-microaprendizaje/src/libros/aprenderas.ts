@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cerebro-hambriento":
+    "En 1965, unos voluntarios comieron todo lo que quisieron de una máquina que dispensaba una fórmula líquida sosa. Los que tenían obesidad comieron muy por debajo de lo que necesitaban, adelgazaron deprisa y no se quejaron de hambre.",
+
   "creatividad-sa":
     "Catmull consiguió a los cincuenta años lo que perseguía desde los veinte: la primera película de animación por ordenador. Lo que cuenta aquí es el problema siguiente, que era por qué las empresas creativas dejan de ser buenas.",
 

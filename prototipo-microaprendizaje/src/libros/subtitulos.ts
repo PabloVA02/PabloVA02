@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "cerebro-hambriento": "Los sorprendentes secretos que hay detrás del sobrepeso",
   "creatividad-sa": "Cómo llevar la inspiración hasta el infinito y más allá",
   "camino-libertad-financiera": "Su primer millón en siete años",
   "cambia-el-chip": "Cómo afrontar cambios que parecen imposibles",

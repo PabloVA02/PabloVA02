@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cerebro-hambriento": [
+    "cómo vigila tu cerebro la grasa que tienes y en qué dirección la defiende",
+    "por qué adelgazar se pone más difícil cuanto más adelgazas",
+    "qué combinación de comida hace comer más de lo necesario",
+    "por qué siempre queda sitio para el postre",
+    "cómo suben el hambre el mal sueño y el estrés sostenido",
+  ],
+
   "creatividad-sa": [
     "en qué estado nacen de verdad las películas que luego funcionan",
     "por qué una crítica deja de servir en cuanto puede mandar",
