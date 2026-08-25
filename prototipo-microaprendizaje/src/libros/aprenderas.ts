@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "primeros-90-dias":
+    "El momento más arriesgado de una carrera no es una crisis ni un despido: es un cambio de puesto, donde hay que dar resultados antes de conocer la casa, a la gente o el problema. Watkins lo trata como un proyecto con método.",
+
   "nueva-mirada-infidelidad":
     "Perel parte de una contradicción a la vista: es difícil encontrar una conducta condenada con tanta unanimidad en todas las culturas y practicada con tanta frecuencia. Y sostiene que condenarla no la ha reducido en ninguna época.",
 

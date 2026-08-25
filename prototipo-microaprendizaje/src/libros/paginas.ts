@@ -84884,7 +84884,299 @@ const NUEVA_MIRADA_INFIDELIDAD: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Los primeros 90 dias, en ocho paginas.
+
+   Breve. ECONOMIA y libro practico de empresa -> afirmacion entera en el rotulo
+   y SEGUNDA PERSONA en la caja.
+
+   Seis argumentos: el punto de equilibrio, ascenderse a uno mismo, las cinco
+   situaciones (STARS), la conversacion con el jefe, las victorias tempranas y
+   las coaliciones.
+
+   Apartado 4 bis, economia: hace falta lo concreto. Aqui son los meses del
+   punto de equilibrio, las cinco situaciones con su nombre, las cinco
+   conversaciones y las oleadas de cambio.
+
+   La conclusion: el libro esta escrito para un directivo que llega con mandato
+   y con poder para cambiar a su equipo, y buena parte del consejo no esta
+   disponible para quien entra sin eso. Y el famoso punto de equilibrio sale de
+   encuestas a responsables de recursos humanos, no de una medicion.
+   -------------------------------------------------------------------------- */
+
+const PRIMEROS_90_DIAS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los primeros meses en un puesto nuevo deciden más que los tres años siguientes",
+      },
+      {
+        b: "texto",
+        texto:
+          "Michael Watkins daba clase en la escuela de negocios de Harvard cuando publicó esto en 2003, y parte de una observación sobre riesgo. El momento más peligroso de una carrera no es una crisis ni un despido: es un cambio de puesto. Ahí es donde alguien con veinte años de buenos resultados puede fracasar en seis meses.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón es que en una transición se juntan tres cosas a la vez: no se conoce la organización, no se conoce a la gente y hay que producir resultados pronto para que nadie dude de la elección. Y encima el recién llegado no puede pedir tiempo, porque pedir tiempo es exactamente lo que hace dudar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Watkins usa un concepto que ordena todo el libro y que llama el punto de equilibrio: el momento en que alguien ha aportado a la organización tanto valor como ha consumido en formación, reuniones y atención ajena. Sus encuestas a responsables de recursos humanos lo situaban alrededor de los seis meses para un mando intermedio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué lo primero que hay que abandonar es lo que a uno le funcionaba antes, qué cinco situaciones distintas puede encontrarse alguien al llegar y por qué exigen cosas opuestas, qué hay que hablar con el jefe y en qué orden, cómo se eligen las primeras victorias, con quién hay que aliarse y qué le sobra a este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El momento más arriesgado de tu carrera no es una crisis: es un puesto nuevo, porque tienes que dar resultados antes de conocer nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo primero que hay que dejar de hacer es aquello por lo que te dieron el puesto",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer capítulo se llama ascenderse a uno mismo, y describe el error más común de todos. Alguien es muy bueno haciendo una cosa, lo ascienden por eso, y sigue haciendo esa cosa desde el puesto nuevo. Es lo cómodo, es lo que sabe hacer y es lo que le da seguridad mientras todo lo demás le resulta desconocido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Watkins señala por qué falla, y no es una cuestión de tiempo. Un buen comercial ascendido a jefe de ventas que sigue vendiendo hace bien su trabajo antiguo y deja sin hacer el nuevo, que consiste en que vendan otros. Y como sigue teniendo buenos números, tarda meses en enterarse de que su equipo lleva ese tiempo sin dirección.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejercicio que propone es incómodo y se hace en un rato: escribir qué actividades concretas te hicieron valioso en el puesto anterior y cuáles de ellas ya no son tu trabajo. Casi siempre la lista de lo que hay que soltar incluye lo que uno hace mejor y lo que más disfruta, y por eso no se suelta solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade un aviso sobre las respuestas automáticas. Cada organización tiene una manera de funcionar, y las estrategias que triunfaron en la anterior pueden ser exactamente las que aquí ofenden. Watkins insiste en que llegar con un método probado es una ventaja solo si se comprueba antes que el terreno es el mismo, y casi nunca lo es.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribe qué hacías que te hizo valioso, y marca lo que ya no es tu trabajo. Suele ser justo lo que mejor haces.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Llegar a una empresa que va bien y va camino de un problema es la situación más difícil de todas",
+      },
+      {
+        b: "texto",
+        texto:
+          "La herramienta más útil del libro es una clasificación de cinco situaciones, porque cada una exige lo contrario que la anterior. Un arranque desde cero, donde no hay nada montado. Una reflotación, donde todo el mundo sabe que la cosa va mal. Un crecimiento acelerado, donde hay que montar estructura a la carrera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las dos últimas son las delicadas. Un reajuste es una organización que va bien y que se dirige hacia un problema que casi nadie ve todavía. Y sostener el éxito es llegar detrás de alguien admirado, a una casa que funciona, con el encargo de no estropearla y a la vez mejorarla, que es la combinación más ingrata que existe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Watkins explica por qué el reajuste es el más peligroso. En una reflotación, la gente está asustada y acepta cambios drásticos con alivio; el recién llegado puede cortar, decidir deprisa y le agradecerán la claridad. En un reajuste, si llega cortando, se convierte en el que ha venido a estropear algo que funcionaba, y se queda solo en tres semanas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es que hay que diagnosticar antes de actuar, y que el diagnóstico no lo da el organigrama. Watkins recomienda preguntar lo mismo a mucha gente de niveles distintos —qué va bien, qué va mal, qué cambiaría usted si estuviera en mi puesto— y fijarse menos en cada respuesta que en dónde coinciden y dónde no.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de decidir nada, averigua en cuál de las cinco situaciones has caído. En una hace falta cortar y en otra te cuesta el puesto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Con el jefe nuevo no hay una conversación, hay cinco, y el orden importa",
+      },
+      {
+        b: "texto",
+        texto:
+          "Watkins dedica un capítulo entero a la relación con quien te ha contratado, y su consejo central va contra la costumbre. No se trata de una charla inicial en la que se aceptan unos objetivos, sino de cinco conversaciones distintas repartidas en los primeros meses, cada una sobre un asunto y ninguna mezclada con las demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es de diagnóstico: cómo ve él la situación de la unidad, qué cree que pasa y por qué. La segunda, de expectativas: qué resultados espera y para cuándo. La tercera, de estilo: cómo prefiere que se le informe, con qué frecuencia y qué decisiones quiere que le consulten. La cuarta, de recursos. Y la quinta, de desarrollo personal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El orden es el argumento. Aceptar objetivos antes de haber hecho el diagnóstico, dice Watkins, es firmar una cifra sin saber qué hay debajo, y es el error que hunde más transiciones. Casi todos los jefes tienen una idea de la situación formada desde arriba y desde lejos, y esa idea es exactamente lo que hay que comprobar antes de comprometerse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre la conversación de estilo da un detalle práctico que ahorra muchos disgustos. Hay jefes que quieren enterarse de todo y jefes que quieren ver solo el resultado, y no lo dicen nunca porque les parece evidente. Preguntarlo directamente en la segunda semana resulta algo violento y evita medio año de informar mal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No aceptes objetivos antes de haber hecho el diagnóstico. Firmar una cifra sin saber qué hay debajo hunde más transiciones que nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las primeras victorias no se eligen por su tamaño, sino por lo que demuestran",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro insiste en conseguir resultados visibles pronto, y a la vez avisa contra la manera en que casi todo el mundo lo intenta. Un recién llegado tiende a abrir muchos frentes para demostrar energía, y acaba con doce iniciativas a medias y ninguna terminada, que es peor que no haber empezado ninguna.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Watkins propone elegir tres o cuatro asuntos como mucho, y elegirlos por un criterio que no es el impacto económico: por lo que demuestran sobre cómo va a trabajar el nuevo responsable. Resolver algo que llevaba años molestando a todo el mundo vale más, en los primeros meses, que una mejora mayor que nadie percibe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade una condición que se olvida siempre: la victoria tiene que ser reconocible como victoria por la gente de dentro, no solo por el comité que contrató. Si el equipo no nota nada distinto en su trabajo diario, el nuevo jefe sigue siendo el nuevo jefe seis meses después, por muy bien que vaya el informe trimestral.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y organiza el cambio en oleadas, que es la parte más útil de este tramo. Una primera oleada corta para asentar credibilidad y aprender cómo reacciona la casa; una pausa deliberada para consolidar; y solo entonces una segunda oleada más profunda. Meter la reforma grande en el mes dos es, según él, la manera más rápida de que te la tumben.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Elige tres cosas, no doce, y elígelas por lo que demuestran de cómo trabajas. La reforma grande va en la segunda oleada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi nada se consigue por autoridad, y menos aún cuando la autoridad es reciente",
+      },
+      {
+        b: "texto",
+        texto:
+          "Watkins dedica un capítulo a algo que los recién llegados subestiman: la mayor parte de lo que hay que sacar adelante depende de gente sobre la que no se manda. Otros departamentos, proveedores, el equipo de sistemas, el de compras, dos personas con veinte años de casa que no aparecen en ningún organigrama y a las que todo el mundo consulta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su recomendación es hacer el mapa antes de necesitarlo. Para cada cosa importante que haya que conseguir, escribir quién puede bloquearla, quién puede acelerarla y a quién escucha cada uno de ellos. Es un ejercicio de una hora que casi nadie hace, y que suele revelar que la persona decisiva no es la que figura como responsable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre el equipo propio da el consejo más duro del libro y conviene contarlo tal cual. Dice que las decisiones sobre quién sigue y quién no hay que tomarlas pronto, porque cada mes que pasa las hace más difíciles y más caras, y porque un equipo que ve al jefe evitando una decisión evidente saca sus conclusiones sobre él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cierra con lo que llama mantener el equilibrio, que es la parte más humana. Los primeros meses son agotadores, se trabaja mucho, se duerme mal y se pierde perspectiva, y Watkins recomienda montar deliberadamente una red de gente de fuera con la que hablar sin cuidarse: alguien que conozca el sector y no trabaje allí, y alguien que no sepa nada del sector.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Haz el mapa de quién puede bloquear cada cosa y a quién escucha. Casi nunca es quien figura como responsable.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un plan de aprendizaje se prepara antes de entrar, y por eso los primeros noventa días empiezan antes",
+      },
+      {
+        b: "texto",
+        texto:
+          "Watkins insiste en que el reloj no arranca el primer día de trabajo sino en cuanto se acepta el puesto. Las semanas entre la firma y la incorporación son las únicas en las que se puede leer, preguntar y pensar sin que nadie espere resultados, y se desperdician casi siempre en descansar y en despedirse del trabajo anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que propone hacer en ese tiempo es concreto. Leer los informes públicos, las notas de prensa y lo que se dice del sector; hablar con clientes o con gente que haya trabajado allí; y llegar el primer día con una lista de preguntas escritas y con hipótesis, no con la cabeza en blanco y buena disposición.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ya dentro, propone tratar el aprendizaje como un proyecto con método. Las mismas preguntas a mucha gente distinta, apuntadas, y con atención a las diferencias entre lo que dicen los de arriba, los de abajo y los de fuera. Watkins observa que las contradicciones entre esas versiones suelen señalar exactamente dónde está el problema real.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da una advertencia sobre la trampa de la acción. Un recién llegado siente una presión enorme por hacer algo visible en las primeras semanas, y esa presión empuja a decidir sin saber. Watkins dice que aprender también es hacer, que se puede enseñar como avance, y que preguntar mucho al principio se lee como interés y no como debilidad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Haz las mismas preguntas a gente de arriba, de abajo y de fuera. Donde sus respuestas no coincidan está tu problema de verdad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cinco cosas y sirven para cualquier cambio de puesto, incluso pequeño. Escribir qué hacías antes que ya no es tu trabajo. Averiguar en cuál de las cinco situaciones has caído antes de decidir nada. Hacer el diagnóstico antes de aceptar objetivos. Elegir tres victorias por lo que demuestran. Y hacer las mismas preguntas a gente de niveles distintos y mirar dónde no coinciden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en para quién está escrito. El libro supone un directivo que llega con mandato, con presupuesto, con capacidad de negociar con su jefe y de cambiar a las personas de su equipo. Buena parte del consejo —negociar el éxito, montar el equipo, elegir en qué frentes entrar— no está disponible para quien entra en un puesto sin ese poder.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en el respaldo. El punto de equilibrio de alrededor de seis meses, que se cita en todas partes como si fuera una medición, sale de encuestas en las que se preguntaba a responsables de recursos humanos por su impresión. Y las cinco situaciones son una clasificación razonable y sin ninguna comprobación detrás: nadie ha medido si acertar en el diagnóstico mejora los resultados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso a la vista, sigue siendo el manual de transición más usado que existe. Se publicó en 2003, se revisó en 2013 y se ha convertido en el regalo que se le hace a quien cambia de trabajo. Su mayor éxito es haber metido una expresión en el idioma: hoy se habla de los primeros noventa días de cualquiera sin recordar de dónde salió.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El reloj empieza cuando aceptas el puesto, no cuando entras. Las semanas de antes son las únicas en que nadie te espera nada.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "primeros-90-dias": PRIMEROS_90_DIAS,
   "nueva-mirada-infidelidad": NUEVA_MIRADA_INFIDELIDAD,
   "jane-eyre": JANE_EYRE,
   "cerebro-hambriento": CEREBRO_HAMBRIENTO,

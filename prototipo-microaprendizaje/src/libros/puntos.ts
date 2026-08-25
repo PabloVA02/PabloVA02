@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "primeros-90-dias": [
+    "qué tienes que dejar de hacer justo cuando te ascienden por hacerlo",
+    "en qué cinco situaciones puedes caer, y por qué piden cosas opuestas",
+    "qué hay que hablar con un jefe nuevo, y en qué orden",
+    "cómo se eligen las primeras victorias, que no es por su tamaño",
+    "dónde está el problema real cuando las versiones no coinciden",
+  ],
+
   "nueva-mirada-infidelidad": [
     "por qué creer que solo pasa donde algo falla resulta tan tranquilizador",
     "qué se echa de menos al terminar una aventura, que no es una persona",

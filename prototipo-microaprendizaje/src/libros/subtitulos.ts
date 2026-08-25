@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "primeros-90-dias": "Estrategias de éxito para nuevos líderes",
   "nueva-mirada-infidelidad": "Repensar la infidelidad",
   "jane-eyre": "Una autobiografía",
   "cerebro-hambriento": "Los sorprendentes secretos que hay detrás del sobrepeso",
