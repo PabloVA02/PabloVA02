@@ -84335,7 +84335,271 @@ const CEREBRO_HAMBRIENTO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Jane Eyre, en ocho paginas.
+
+   Breve. NARRATIVA -> titulo corto de imagen en el rotulo y afirmacion en la
+   primera frase (apartado 3 bis). Caja en segunda persona con leccion, modelo
+   de La Odisea.
+
+   Apartado 4 bis: contar lo que casi nadie cuenta. Lo sabido es la loca del
+   atico. Lo que casi nadie sabe: que Lowood es un colegio real donde murieron
+   dos hermanas de Charlotte Bronte en 1825; que la independencia de Jane la
+   paga una herencia; y que lo mas radical del libro no es que rechace a
+   Rochester, sino que rechace tambien a St John Rivers, y por un motivo
+   distinto.
+
+   La conclusion: Bertha Mason no tiene ni voz ni infancia ni nombre propio en
+   esta novela, y Jean Rhys le escribio una en 1966. Y el dinero que hace libre
+   a Jane viene del negocio de un tio en Madeira, o sea de la misma economia
+   colonial de la que sale Bertha.
+   -------------------------------------------------------------------------- */
+
+const JANE_EYRE: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "La niña encerrada en el cuarto rojo" },
+      {
+        b: "texto",
+        texto:
+          "La novela empieza con una niña de diez años a la que encierran en una habitación como castigo por haberse defendido. Jane Eyre es huérfana y vive en casa de su tía política, que la mantiene por obligación y la desprecia sin disimulo; el primo mayor le ha tirado un libro a la cabeza y ella le ha devuelto el golpe, que es lo que nadie esperaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuarto rojo es donde murió su tío, y la niña pasa allí horas hasta desmayarse de terror. Charlotte Brontë publicó esto en 1847 con un nombre de hombre, Currer Bell, y con un subtítulo que la mayoría de las ediciones ha ido perdiendo: una autobiografía. La novela está escrita entera en primera persona, y esa voz es la mitad de su fuerza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que la hizo escandalosa no fue la trama sino la protagonista. Jane es pobre, pequeña y fea, y el libro lo repite sin coquetería. No tiene familia, ni dinero, ni belleza, ni una posición desde la que exigir nada. Y aun así habla como alguien que se considera igual a cualquiera, y lo hace en voz alta ante quien haga falta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre el colegio en el que pasó ocho años y que existió de verdad, la casa donde entró a trabajar y lo que dijo allí, lo que se descubrió el día de su boda, por qué se fue sin nada, la segunda proposición que también rechazó y por un motivo distinto, cómo termina y qué le falta a este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El día que devuelves un golpe que llevabas años aguantando, lo que cambia no es la situación: es lo que ya no vas a poder volver a ser.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una escuela donde se morían las niñas" },
+      {
+        b: "texto",
+        texto:
+          "La parte del libro que más gente da por exagerada es la única que Charlotte Brontë no tuvo que inventarse. A los ocho años la enviaron con tres hermanas a un internado para hijas de clérigos en Cowan Bridge, y de allí volvieron dos con tuberculosis. Maria murió en mayo de 1825 y Elizabeth en junio. Charlotte tenía nueve años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El colegio de la novela se llama Lowood y funciona igual. Comida escasa y quemada, habitaciones heladas, agua congelada en las jarras por la mañana, humillaciones públicas como método pedagógico y un director, el señor Brocklehurst, que predica la mortificación de la carne mientras su mujer y sus hijas van vestidas de seda a visitar la escuela.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En mitad del curso llega una epidemia de tifus que se lleva a casi la mitad de las alumnas, y con ella muere Helen Burns, la única amiga de Jane. Helen es el personaje que sostiene la otra postura moral del libro: aguantar, perdonar, no discutir, esperar la justicia en otro sitio. Muere en brazos de Jane, y Jane no adopta su manera de vivir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese rechazo es más importante de lo que parece. La novela admira a Helen y no la sigue: deja claro que la resignación es hermosa y que a ella no le sirve. Jane pasa ocho años en Lowood, seis como alumna y dos como maestra, y sale de allí con un oficio, sin dinero y sin ninguna intención de perdonar por sistema.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Puedes admirar a alguien que aguanta sin quejarse y decidir que esa no es tu manera. Admirar no obliga a imitar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La institutriz que no bajaba la vista" },
+      {
+        b: "texto",
+        texto:
+          "Jane pone un anuncio en el periódico y entra a trabajar como institutriz en Thornfield, la casa de Edward Rochester, para educar a una niña francesa que está a su cargo. La posición de una institutriz en aquella Inglaterra era exactamente la que describe la novela: educada como una señora, pagada como una sirvienta y sin sitio en ninguna de las dos mesas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rochester es feo, brusco, veinte años mayor y muchísimo más rico, y lo que ocurre entre ellos ocurre hablando. Él la interroga, ella le contesta sin adular; él intenta imponerse, ella no cede. La novela construye una relación amorosa a base de conversaciones en las que la empleada no le da la razón a su jefe ni una sola vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El pasaje más citado del libro es de esa parte y sigue sonando moderno. Jane le pregunta si cree que, por ser pobre, oscura, fea y pequeña, no tiene alma ni corazón; y le dice que si Dios la hubiera hecho hermosa y rica, le habría costado tanto separarse de él como le cuesta ahora a ella. Y añade que le habla como si los dos hubieran pasado ya por la tumba, iguales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay otro pasaje, menos famoso y más incómodo para su época, en el que Jane sube a la azotea de la casa y dice lo que piensa de la vida de las mujeres: que sienten igual que los hombres, que necesitan ejercitar sus facultades igual que sus hermanos, y que es estrecho decir que deberían conformarse con hacer budines y bordar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hablarle de igual a igual a quien tiene poder sobre ti no cambia el poder. Cambia lo que estás dispuesto a aceptar mientras dure.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que había en el piso de arriba" },
+      {
+        b: "texto",
+        texto:
+          "La escena que todo el mundo conoce ocurre en una iglesia. Jane y Rochester se están casando cuando un abogado interrumpe la ceremonia y declara que existe un impedimento: Rochester ya está casado. Su mujer se llama Bertha Mason, vive encerrada en el tercer piso de Thornfield al cuidado de una guardiana, y lleva allí diez años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rochester lleva a toda la comitiva escaleras arriba y les enseña la habitación. La novela describe a Bertha como algo que gruñe y se arrastra a cuatro patas, con el pelo tapándole la cara, y que se abalanza sobre él. Es una escena escrita para producir horror y lo consigue, y es también el punto donde este libro se rompe por dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación de Rochester es la de un hombre que se cuenta a sí mismo como víctima. Dice que lo casaron a los veintipocos años con una heredera criolla de una familia de plantadores de Jamaica por treinta mil libras, que le ocultaron que había locura en la familia, y que la encerró porque la alternativa era un manicomio. Lo cuenta todo él, y Bertha no dice ni una palabra en toda la novela.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rochester le propone entonces a Jane irse juntos al sur de Francia y vivir como marido y mujer sin serlo. Le ofrece dinero, viajes y una vida entera de afecto, y le explica que nadie lo sabría. Y Jane, que lo quiere, que no tiene un chelín y que no tiene adónde ir, dice que no.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien te cuenta por qué tuvo que hacer algo que hizo a otro, fíjate en que quien lo cuenta siempre es él.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Irse de madrugada sin nada" },
+      {
+        b: "texto",
+        texto:
+          "Jane se marcha de Thornfield antes del amanecer, con un hatillo y unas monedas, y la novela no le ahorra ni una consecuencia. Se deja el paquete en el coche, se queda sin dinero en dos días, duerme a la intemperie en el páramo, pide comida en las casas y se la niegan, y llega a comerse unas gachas frías que iban a tirarle a un cerdo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese tramo es la razón por la que el libro convence. Charlotte Brontë podría haber hecho que la virtud se pagara sola y que apareciera una salida decorosa; en vez de eso escribe tres capítulos de hambre, humillación y frío, y deja a la protagonista tirada delante de una puerta a punto de morirse. La decisión moral tiene el precio que tenía en 1847.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo por el que se va tampoco es el que se suele resumir. Jane no se marcha por respeto a una ley ni por miedo a la opinión. Se marcha porque sabe lo que sería quedarse: la mujer mantenida de un hombre casado, sin ningún derecho, dependiendo entera de que él siga queriéndola. Es una decisión sobre su posición, no sobre su moral.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La recogen en una casa apartada tres hermanos que resultarán ser sus primos, aunque eso tarde en saberse: Diana, Mary y St John Rivers. Jane monta con ellos una escuelita de aldea y da clase a las hijas de los jornaleros, cobrando poquísimo, y por primera vez en el libro vive de algo que es suyo y de nadie más.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de aceptar algo que te conviene, mírate dentro de dos años en esa posición. La decisión no es sobre hoy.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El segundo hombre que le pidió la vida" },
+      {
+        b: "texto",
+        texto:
+          "La parte que casi nadie recuerda es la que hace grande a esta novela. St John Rivers, el primo que la ha salvado, es un clérigo joven, guapo, íntegro y frío como el mármol, que ha decidido irse de misionero a la India y sabe que probablemente morirá allí. Y le pide a Jane que se case con él y lo acompañe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No la quiere y no finge quererla. Le dice que la ha observado, que la considera trabajadora, valiente y capaz, y que le sería útil; que Dios la ha hecho para el trabajo y no para el amor. Le ofrece una vida con sentido, un propósito enorme y el respeto de todos, y no le ofrece ni una sola vez cariño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Jane le contesta que irá a la India con él si quiere, como compañera y como hermana, pero que no se casará. Y él se niega en redondo: o esposa o nada. La escena es la más dura del libro y dura varios capítulos, porque St John insiste con la autoridad de la religión y ella está a punto de ceder por agotamiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está lo que hace distinta a esta novela de casi todas las de su siglo. Jane rechaza al hombre que la deseaba sin poder casarse con ella y rechaza también al que quería casarse con ella sin desearla. Las dos veces le ofrecen una vida entera y las dos veces dice que no, y el motivo es el mismo: en ninguna de las dos sería nadie.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que alguien te necesite y te respete no es lo mismo que te quiera. Se pueden tener las dos primeras cosas y estar completamente sola.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Volver cuando ya no le hacía falta" },
+      {
+        b: "texto",
+        texto:
+          "Lo que permite el final de la novela no es el amor sino una herencia. Un tío al que Jane no llegó a conocer muere en Madeira y le deja veinte mil libras, una fortuna enorme para la época. Su primera decisión es repartirla en cuatro partes iguales con sus primos, y quedarse con cinco mil, que ya la hacen independiente para siempre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Solo entonces vuelve. Y esa es la afirmación más incómoda del libro: Jane regresa a buscar a Rochester cuando ya no lo necesita, cuando tiene dinero propio, familia propia y la posibilidad de vivir sin nadie. Charlotte Brontë le construye la independencia antes de dejarla volver, y el orden de esas dos cosas no es casualidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que encuentra es una ruina. Thornfield ardió meses atrás; el fuego lo prendió Bertha, que se tiró del tejado y murió; Rochester intentó salvarla, perdió una mano bajo un techo que se derrumbaba y quedó ciego. Vive en una casa pequeña, apartado y dependiente de dos criados, y ya no tiene ninguna ventaja sobre ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La novela termina con una de las primeras frases más famosas de un desenlace en inglés, dicha directamente al lector: me casé con él. Se casan sin invitados, ella le lee y le describe el mundo, y años después él recupera parcialmente la vista de un ojo, lo justo para ver a su primer hijo. Ese es todo el final feliz que hay.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Volver a alguien desde una posición en la que ya no lo necesitas es una relación distinta, aunque la persona sea la misma.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que esta novela hizo en 1847 no lo había hecho ninguna. Puso en el centro a una mujer pobre, fea y sin familia que trabaja para vivir, que exige ser tratada como igual por un hombre que le paga el sueldo, y que rechaza dos vidas cómodas seguidas porque en ninguna de las dos sería alguien. Y lo cuenta ella, en primera persona, sin pedir permiso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en Bertha Mason. La primera mujer de Rochester es criolla, de una familia de plantadores de Jamaica, y en toda la novela no tiene una sola frase, ni un recuerdo, ni una infancia, ni una versión de lo que le pasó. Está descrita como un animal, y su función es ser el obstáculo que hay que quitar para que la protagonista sea feliz.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle que ordena todo lo anterior. Las veinte mil libras que hacen libre a Jane vienen del negocio de un tío en Madeira, relacionado con la casa de comercio de la familia Mason; y las treinta mil por las que casaron a Rochester salían de una plantación en Jamaica. La independencia de la heroína y el encierro de Bertha se pagan con el mismo dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso lo vio alguien y escribió la respuesta. En 1966, la novelista dominicana Jean Rhys publicó Ancho mar de los Sargazos, que cuenta la vida de esa mujer antes del ático: su nombre real, Antoinette, su infancia en Jamaica, su matrimonio y cómo llegó a Inglaterra. Es la contestación a este libro y hoy se lee junto a él en media Europa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En cualquier historia que te encante, busca al personaje que no habla. Suele ser el que paga lo que hace posible el final feliz.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "jane-eyre": JANE_EYRE,
   "cerebro-hambriento": CEREBRO_HAMBRIENTO,
   "creatividad-sa": CREATIVIDAD_SA,
   "primavera-silenciosa": PRIMAVERA_SILENCIOSA,

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "jane-eyre":
+    "Charlotte Brontë la publicó en 1847 firmando como hombre. Su protagonista es pobre, pequeña y fea —el libro lo repite sin coquetería—, trabaja para vivir y exige de igual a igual a un hombre que le paga el sueldo.",
+
   "cerebro-hambriento":
     "En 1965, unos voluntarios comieron todo lo que quisieron de una máquina que dispensaba una fórmula líquida sosa. Los que tenían obesidad comieron muy por debajo de lo que necesitaban, adelgazaron deprisa y no se quejaron de hambre.",
 

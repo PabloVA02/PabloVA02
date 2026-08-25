@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "jane-eyre": [
+    "qué parte del internado del libro no hubo que inventarse",
+    "qué se puede admirar en alguien sin querer imitarlo",
+    "por qué se va de madrugada teniendo dónde quedarse",
+    "en qué se distingue que te necesiten de que te quieran",
+    "quién es el personaje que no habla, y qué paga con su silencio",
+  ],
+
   "cerebro-hambriento": [
     "cómo vigila tu cerebro la grasa que tienes y en qué dirección la defiende",
     "por qué adelgazar se pone más difícil cuanto más adelgazas",
