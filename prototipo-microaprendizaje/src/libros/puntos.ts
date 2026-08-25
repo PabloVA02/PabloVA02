@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "codigo-da-vinci": [
+    "por qué un dato cierto al principio te hace creer lo que viene después",
+    "qué se puede deducir de verdad de un símbolo, y qué no",
+    "cómo está cortado un libro que no puedes soltar",
+    "de dónde salió la teoría del linaje que la novela da por buena",
+    "qué se comprueba en un minuto y millones de lectores no comprobaron",
+  ],
+
   "mujeres-lobos": [
     "las señales concretas de que llevas tiempo sin hacerte caso",
     "qué le pasa a la intuición de quien nunca la consulta",

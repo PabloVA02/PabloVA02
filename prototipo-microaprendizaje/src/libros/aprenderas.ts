@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "codigo-da-vinci":
+    "El conservador del Louvre aparece muerto en la Gran Galería, desnudo y colocado como el Hombre de Vitruvio. Antes del primer capítulo hay una página titulada HECHO, y esa página es la que convirtió una novela de intriga en un fenómeno mundial.",
+
   "mujeres-lobos":
     "Estés tardó veinte años en escribirlo y aguantó ciento cuarenta y cinco semanas en la lista del New York Times. No argumenta: cuenta cuentos populares y los desmonta pieza a pieza como si fueran mapas de procesos internos.",
 

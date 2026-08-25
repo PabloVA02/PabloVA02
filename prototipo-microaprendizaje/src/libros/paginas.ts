@@ -81443,7 +81443,271 @@ const MUJERES_LOBOS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El codigo Da Vinci, en ocho paginas.
+
+   Breve. NARRATIVA -> titulo corto de imagen en el rotulo y afirmacion en la
+   primera frase (apartado 3 bis). Caja en segunda persona con leccion.
+
+   CUIDADO ESPECIAL. Este libro afirma cosas historicas falsas y las presenta
+   como hechos en una pagina que se titula HECHO. El resumen tiene que hacer dos
+   cosas a la vez: contar bien la novela, que como maquinaria es excelente, y
+   dejar claro en cada pagina que lo que afirma es lo que afirma la novela. La
+   formula es 'el libro sostiene', 'segun la novela', y nunca la afirmacion
+   desnuda.
+
+   La conclusion es donde se desmonta, con nombres y fechas: el Priorato de Sion
+   lo fundo Pierre Plantard en 1956, los documentos de la Biblioteca Nacional
+   eran falsificaciones suyas y lo admitio bajo juramento en 1993. Y el pleito
+   de 2006 en Londres, que perdieron Baigent y Leigh, cuyos apellidos estan
+   escondidos en el personaje de Leigh Teabing.
+   -------------------------------------------------------------------------- */
+
+const CODIGO_DA_VINCI: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un cadáver en el Louvre" },
+      {
+        b: "texto",
+        texto:
+          "La novela más vendida de este siglo empieza con un anciano moribundo colocándose él mismo en el suelo de la Gran Galería del Louvre. Jacques Saunière, conservador del museo, ha recibido un disparo en el vientre y le quedan quince minutos. Los usa en desnudarse, tumbarse con brazos y piernas abiertos imitando el Hombre de Vitruvio y escribir a su alrededor con tinta invisible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dan Brown publicó esto en 2003 y vendió más de ochenta millones de ejemplares. La trama ocupa menos de veinticuatro horas: Robert Langdon, profesor de simbología en Harvard, es llamado a identificar la escena y descubre que es sospechoso; aparece Sophie Neveu, criptóloga de la policía francesa y nieta del muerto; y los dos salen huyendo con un acertijo detrás de otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que persiguen no es un asesino sino un secreto. Según la novela, Saunière era el gran maestre de una sociedad llamada el Priorato de Sion, que lleva siglos custodiando una información capaz de sacudir a la Iglesia católica, y su asesinato forma parte de una operación para arrancársela antes de que muera con él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre la página con la que abre el libro y que explica el fenómeno entero, cómo funciona un protagonista que resuelve todo leyendo símbolos, qué sostiene la novela sobre un cuadro de Leonardo, qué dice que es en realidad el Santo Grial, de qué acusa a la Iglesia, por qué se lee tan deprisa y qué hay de cierto en todo ello.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una historia que empieza con un enigma concreto te tiene sujeto hasta que se resuelve, aunque sepas que te están manejando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una página que dice ser verdad" },
+      {
+        b: "texto",
+        texto:
+          "Antes del primer capítulo hay una página con una sola palabra arriba: HECHO. Es la pieza que convirtió una novela de intriga en un fenómeno mundial, y casi ningún resumen de este libro la menciona. Dice que el Priorato de Sion es una organización real fundada en 1099, que en 1975 aparecieron en la Biblioteca Nacional de París unos pergaminos con los nombres de sus miembros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y termina con una frase todavía más importante: que todas las descripciones de obras de arte, arquitectura, documentos y rituales secretos que aparecen en la novela son exactas. No dice que la trama sea verdad, cosa que sería insostenible. Dice que el decorado lo es, y con eso basta para que el lector dé por buenas las afirmaciones que se hacen dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto es exactamente el que describe cualquier manual de persuasión. Un dato comprobable colocado al principio hace creíble todo lo que viene detrás, aunque no lo sostenga. Millones de personas leyeron después las teorías de los personajes como si fueran historia discutida, porque una página anterior les había dicho que los detalles eran ciertos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decirlo aquí y no solo al final: casi nada de lo que afirma esa página resiste una comprobación, y el Priorato de Sion en concreto es una invención documentada de mediados del siglo XX. La novela funciona igual de bien sabiéndolo, y el resumen de un libro así tiene que separar en cada línea lo que la obra sostiene de lo que ocurrió.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un dato verdadero colocado al principio hace que te creas lo que viene después. Fíjate en quién pone esa primera línea y para qué.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Leer el mundo como si fuera un mensaje" },
+      {
+        b: "texto",
+        texto:
+          "El motor narrativo del libro es un oficio inventado: la simbología. Langdon no persigue a nadie ni dispara; mira una cosa, reconoce un símbolo y explica de dónde viene. Un pentáculo dibujado en un abdomen, la sucesión de Fibonacci desordenada en el suelo del museo, una flor de lis, una rosa de cinco pétalos, la disposición de unas figuras en un fresco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La novela alterna sin descanso dos cosas: una persecución que avanza y una explicación que se para. Cada vez que la trama aprieta, alguien explica el origen de un símbolo durante dos páginas, y esa alternancia es lo que hace que el libro se sienta a la vez trepidante y educativo. El lector aprende algo cada pocos capítulos, o cree que lo aprende.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El truco tiene un nombre viejo en literatura popular y es el mismo de Sherlock Holmes: un protagonista que ve lo que hay delante de todos y nadie mira. Lo que Brown cambia es el material. En vez de ceniza de tabaco y barro en las botas, catedrales, cuadros y palabras antiguas, que están al alcance de cualquiera y son mucho más fáciles de dar por buenas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está el problema del método dentro de la propia novela. La simbología, tal como la practica Langdon, siempre acierta y nunca se equivoca de lectura, cuando en el mundo real un símbolo admite varias interpretaciones y ninguna se puede comprobar. Es una disciplina que en el libro funciona como una ciencia exacta porque la trama necesita que funcione.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien te explica un símbolo con total seguridad, pregúntate qué otras lecturas tendría. Casi siempre hay tres.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La mujer a la derecha del cuadro" },
+      {
+        b: "texto",
+        texto:
+          "La escena que más se ha comentado del libro ocurre en la biblioteca de una casa de campo, y es una clase sobre La última cena de Leonardo. Sir Leigh Teabing, un historiador británico obsesionado con el Grial, coloca una reproducción sobre la mesa y le pide a Sophie que mire a la figura sentada a la derecha de Jesús.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Según la novela, esa figura no es el apóstol Juan sino María Magdalena: cara joven, sin barba, pelo largo, manos delicadas y ropas de colores invertidos respecto a las de Jesús. Teabing sostiene además que los dos cuerpos juntos dibujan una letra V, símbolo del cáliz y de lo femenino, y que la ausencia de una copa central en la mesa no es un descuido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es una lectura seductora y no es la de los historiadores del arte. Juan se pintaba tradicionalmente joven e imberbe en el Renacimiento italiano, y aparece así en muchísimas últimas cenas anteriores a Leonardo; sobre la mesa hay vasos, y el fresco representa el momento en que Jesús anuncia que uno de los presentes le traicionará, no la institución de la eucaristía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es que la escena funciona igualmente como literatura. Brown coge un cuadro que casi todo el mundo ha visto sin mirar, lo mira delante del lector y le enseña detalles reales —la mano, el gesto, los colores— antes de sacar una conclusión que no se sostiene. Los detalles son ciertos y la deducción no, que es la fórmula del libro entero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que los detalles de una explicación sean ciertos no hace cierta la conclusión. Casi todo el engaño bueno se construye así.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El grial nunca fue una copa" },
+      {
+        b: "texto",
+        texto:
+          "La tesis central de la novela es que el Santo Grial no es un objeto. Según el libro, la palabra viene de «sangre real» y lo que las leyendas medievales custodiaban no era una copa sino un linaje: María Magdalena habría sido la esposa de Jesús, habría huido embarazada a la Galia tras la crucifixión y su descendencia se habría mezclado con la dinastía de los reyes merovingios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale toda la maquinaria del argumento. El Priorato de Sion existiría para proteger a esos descendientes y los documentos que lo prueban; la Iglesia habría dedicado siglos a borrar el rastro; y el Grial, en la novela, no es un cáliz sino la propia María Magdalena, el recipiente que llevó dentro la sangre de Jesús.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nada de esto lo inventó Brown. Viene casi entero de un libro de 1982 titulado El enigma sagrado, escrito por Michael Baigent, Richard Leigh y Henry Lincoln, que ya sostenía el linaje merovingio y el Priorato. Brown lo reconoce dentro de la propia novela con una broma que casi nadie pilla: el apellido Teabing es un anagrama de Baigent, y Leigh es Leigh.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Como historia no hay nada que la sostenga: ninguna fuente del siglo I menciona un matrimonio, la etimología de «sangre real» no funciona, y la línea merovingia se documenta sin ningún vínculo así. Como argumento de novela es magnífico, porque une en una sola frase un secreto religioso, un linaje perseguido y una conspiración de dos mil años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una idea que explica de golpe demasiadas cosas a la vez suele ser buena literatura y mala información.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo femenino borrado del relato" },
+      {
+        b: "texto",
+        texto:
+          "Debajo de la trama hay un argumento que explica buena parte del éxito del libro entre lectoras. La novela sostiene que las religiones antiguas veneraban por igual lo masculino y lo femenino, que el cristianismo institucional eliminó esa mitad, y que convertir a María Magdalena en prostituta arrepentida fue una operación deliberada para quitarle su lugar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí el libro pisa terreno más firme de lo habitual, aunque lo exagere. La identificación de María Magdalena con la pecadora anónima del evangelio de Lucas no está en los textos: se consolidó a partir de un sermón del papa Gregorio Magno en el año 591, y la Iglesia católica la deshizo oficialmente en 1969, mil trescientos años después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde la novela se va del todo es en el concilio de Nicea. Teabing afirma que allí, en el año 325, se decidió por votación ajustada que Jesús fuera divino y se compuso la Biblia descartando otros evangelios. Nicea discutió la relación entre el Padre y el Hijo, la votación no estuvo reñida y no fijó ningún canon bíblico, que tardó siglos más en cerrarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También afirma que los manuscritos del mar Muerto están entre los primeros documentos cristianos, y no lo están: son textos judíos, en su mayoría anteriores al cristianismo, y no contienen ningún evangelio. Es el tipo de error que se comprueba en un minuto y que millones de lectores dieron por bueno porque venía después de la página que decía HECHO.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Comprueba una sola afirmación de las que te suenen más rotundas. Si esa falla, cambia lo que vale todo lo demás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Capítulos de tres páginas" },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir por qué este libro se lee de un tirón, porque es lo que peor se explica desde fuera y lo mejor hecho que tiene. Son ciento cinco capítulos en unas seiscientas páginas, o sea una media inferior a seis páginas por capítulo, y casi todos terminan en el momento exacto en que algo se revela a medias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Brown alterna además tres o cuatro líneas de acción que avanzan en paralelo: los protagonistas huyendo, el monje albino Silas cumpliendo órdenes, el policía Bezu Fache persiguiéndolos y un obispo negociando en Roma. Cada corte deja una escena colgando, y la siguiente empieza en otro sitio, con lo que la única manera de resolver la tensión es seguir leyendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro recurso es el reloj. Todo ocurre en menos de un día, casi todo de noche, y los personajes miran la hora constantemente. Un plazo corto convierte cualquier conversación en urgente, y por eso las clases de historia del arte que da Teabing no aburren: se están dando mientras la policía se acerca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un tercer truco, más discutible, que es la información dosificada. Brown reparte la explicación de cada símbolo en varios capítulos, de modo que el lector siempre tiene una pregunta abierta y una recién contestada. La sensación de estar aprendiendo es constante, y es en buena parte el motivo por el que tanta gente salió del libro creyendo que había estudiado algo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si te cuesta soltar algo, mira cómo está cortado. Casi siempre te han dejado a propósito con una pregunta abierta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Como novela hace muy bien lo que se propone: capítulos cortos, un plazo de veinticuatro horas, un enigma que se abre en cuanto se cierra el anterior y un decorado real —el Louvre, Saint-Sulpice, la abadía de Westminster, Rosslyn— que el lector puede ir a ver. Es una máquina de leer, y está construida por alguien que sabe exactamente lo que hace.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la página que dice HECHO. El Priorato de Sion no se fundó en 1099: lo registró en 1956 un francés llamado Pierre Plantard como una asociación pequeña, y los pergaminos depositados en la Biblioteca Nacional de París eran falsificaciones fabricadas por él y por un colaborador. Plantard lo admitió bajo juramento ante un juez en 1993, diez años antes de que se publicara esta novela.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí para abajo se cae el resto de la página. Lo que afirman los personajes sobre el concilio de Nicea, sobre los manuscritos del mar Muerto y sobre La última cena no es historia discutida: es incorrecto y se comprueba deprisa. La novela puede sostener lo que quiera, y el problema es la línea que la precede diciendo que los detalles son exactos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después es casi mejor que el libro. En 2006, Michael Baigent y Richard Leigh, dos de los autores de El enigma sagrado, demandaron en Londres a la editorial de Brown por haberles copiado la tesis. Perdieron: el tribunal dictaminó que una teoría histórica no se puede poseer. El juicio dio publicidad a los dos libros y las ventas subieron todavía más.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Disfrútalo como lo que es. Y con cualquier libro que se declare documentado, comprueba un dato: cuesta un minuto y cambia cómo lees el resto.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "codigo-da-vinci": CODIGO_DA_VINCI,
   "mujeres-lobos": MUJERES_LOBOS,
   "come-reza-ama": COME_REZA_AMA,
   perfume: PERFUME,
