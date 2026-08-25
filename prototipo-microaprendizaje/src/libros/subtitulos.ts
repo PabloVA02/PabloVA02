@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  esencialismo: "Logra el máximo de resultados con el mínimo de esfuerzo",
   "comunicacion-no-violenta": "Un lenguaje de vida",
   "hombres-marte-mujeres-venus": "Cómo mejorar la comunicación y obtener lo que deseas en tus relaciones",
   "metodo-wim-hof": "Activa todo tu potencial",

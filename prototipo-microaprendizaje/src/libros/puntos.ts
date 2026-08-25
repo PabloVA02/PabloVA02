@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  esencialismo: [
+    "por qué copiar solo la parte agradable de una estrategia sale carísimo",
+    "qué tipo de oportunidad te come el año, que no es la mala",
+    "qué contestar cuando te añaden trabajo sin quitarte nada",
+    "cómo averiguar si algo que llevas años haciendo hace falta",
+    "por qué calculas mal los plazos siempre en la misma dirección",
+  ],
+
   "comunicacion-no-violenta": [
     "cómo contar algo tal y como lo habría grabado una cámara",
     "cómo saber si lo que dices sentir es un sentimiento o una acusación",

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  esencialismo:
+    "Southwest ganó dinero durante décadas por su lista de negativas: sin comida, sin asientos asignados, sin clase preferente y con un solo modelo de avión. McKeown sostiene que una estrategia es exactamente eso, y una agenda también.",
+
   "comunicacion-no-violenta":
     "Rosenberg medió durante décadas en colegios, cárceles y conflictos armados, y de ahí sacó un método de cuatro pasos. Su afirmación es que casi ningún conflicto viene de intereses incompatibles, sino del idioma con que se discuten.",
 

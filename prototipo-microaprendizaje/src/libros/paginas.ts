@@ -74821,7 +74821,294 @@ const COMUNICACION_NO_VIOLENTA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Esencialismo, en ocho páginas.
+
+   Breve. Libro de empresa → afirmación entera en el rótulo y SEGUNDA
+   PERSONA en la caja (apartado 4.7).
+
+   ECONOMÍA: ninguna página sin una persona, una empresa o una fecha dentro.
+   Aquí eso son Southwest y Continental Lite, la ópera de Sídney y la
+   investigación de Amabile con sus doce mil anotaciones.
+
+   Riesgo principal: la tabla de dos columnas. El libro repite la misma
+   distinción durante doscientas sesenta páginas y un resumen puede quedarse
+   en eso, que no dice nada. Lo que hay que dar son los procedimientos: la
+   regla del 90, la pregunta del «sí, ¿qué dejo de hacer?» y el piloto al
+   revés.
+
+   Y la conclusión dice para quién está escrito, que es la objeción seria.
+   -------------------------------------------------------------------------- */
+
+const ESENCIALISMO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Si no decides tú en qué se va tu tiempo, lo decide otro, y no lo hace mal a propósito",
+      },
+      {
+        b: "texto",
+        texto:
+          "Greg McKeown cuenta que el día que nació su hija estuvo en el hospital unas horas y luego se fue a una reunión con un cliente, porque se la habían pedido y porque no supo decir que no. La reunión no sirvió para nada, el cliente perdió el respeto por él, y esa escena abre el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su afirmación, que es de aritmética y no de moral: si uno no decide en qué se va su tiempo, otras personas lo deciden por él. Y no lo hacen con mala intención, sino porque cada una tiene sus propias prioridades y para cada una es razonable pedir. La suma de peticiones razonables es una semana que no se parece a nada de lo que uno quería.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su corrección no consiste en trabajar menos ni en hacerlo todo más deprisa. Consiste en aceptar que las cosas que importan de verdad son muy pocas, que casi todo lo demás no aporta casi nada, y que la operación difícil no es priorizar sino renunciar en voz alta a lo que se ha descartado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre una compañía aérea que ganó dinero durante décadas diciendo que no a casi todo, por qué las decisiones que arruinan una vida se toman en el siete y no en el diez, cómo se dice que no sin decirlo, un método para averiguar si algo hace falta, y por qué todos los plazos se calculan mal en la misma dirección.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La suma de peticiones razonables de otros produce una semana entera que no se parece a nada de lo que tú querías.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una compañía aérea ganó dinero durante décadas por la lista de lo que se negaba a hacer",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mejor caso del libro es el de la aerolínea Southwest bajo la dirección de Herb Kelleher. Su estrategia se puede enunciar como una lista de negativas: no servir comida, no asignar asientos, no tener clase preferente, no facturar equipajes hacia otras compañías y volar un solo modelo de avión, el Boeing 737.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cada una de esas negativas tenía una consecuencia medible. Un solo modelo de avión significa una sola formación de pilotos, un solo almacén de repuestos y un solo procedimiento de mantenimiento. No asignar asientos y no servir comida significa que el avión se vacía y se llena mucho más rápido, y un avión en tierra no gana dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El contraejemplo llegó en 1994, cuando Continental montó una filial de bajo coste imitando esos precios sin renunciar a nada de lo suyo: mantuvo la clase preferente en algunas rutas, siguió sirviendo comida y conservó su red de conexiones. Perdió cientos de millones en poco tiempo y acabó cerrándose.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lección es la que formuló el economista Michael Porter y este libro repite: la esencia de una estrategia es decidir qué NO se va a hacer. Copiar solo la parte agradable de una estrategia ajena —los precios bajos— sin copiar las renuncias que los hacían posibles no es una estrategia intermedia: es una manera cara de no tener ninguna.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si no puedes enumerar lo que has decidido no hacer, no tienes una estrategia: tienes una lista de deseos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las decisiones que arruinan una agenda no se toman en el diez: se toman en el siete",
+      },
+      {
+        b: "texto",
+        texto:
+          "La herramienta más práctica del libro es una regla de puntuación. Ante cualquier oportunidad —un proyecto, una invitación, un encargo—, se elige el criterio que de verdad importa y se le pone una nota de cero a cien. Y entonces viene la parte incómoda: si no llega a noventa, se le pone un cero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El razonamiento es que las cosas que destrozan una semana no son las malas, que se rechazan solas, ni las excelentes, que se aceptan solas. Son las que valen un sesenta o un setenta: están bien, no ofenden a nadie, parecen razonables, y no hay ninguna razón clara para decir que no. Se aceptan todas y ocupan el año entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "McKeown lo resume en una frase que sirve de prueba rápida: si no es un sí clarísimo, es un no. Su valor está en que obliga a fijar por adelantado un solo criterio, que es lo que casi nadie hace; sin criterio, cualquier oferta puntúa alto en algo y por eso todas parecen aceptables.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir el límite, que es real y el libro no marca. Esta regla sirve para elegir entre opciones que ya se entienden, y no sirve donde no se puede saber de antemano: al empezar en un oficio, al conocer a alguien, al probar algo nuevo. Casi todo lo que acaba importando mucho empieza puntuando un sesenta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que te come el año no son las cosas malas: son las que puntúan un setenta y no tienes ninguna razón clara para rechazar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Se puede decir que no sin pronunciar la palabra, y hay maneras que no cuestan la relación",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más aprovechable del libro es un repertorio de negativas, porque el problema de casi nadie es no saber qué hay que rechazar: es no saber cómo hacerlo sin quedar mal con alguien de quien depende.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las que propone se pueden usar tal cual. La pausa incómoda: contar hasta tres antes de contestar, porque casi todos los síes se dicen por rellenar el silencio. El aplazamiento: déjame mirar el calendario y te digo, que separa la petición de la respuesta y quita la presión del momento. Y la negativa parcial: no puedo con eso, pero sí puedo hacerte esta otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La mejor de todas es para el trabajo y no contiene ninguna negativa. Cuando un superior añade un encargo, la respuesta es decir que sí y preguntar cuál de las cosas que ya están en marcha se retrasa para hacerle sitio. No se está rechazando nada: se está pidiendo que la decisión de prioridades la tome quien tiene autoridad para tomarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su efecto es que la conversación deja de ser sobre la disposición de uno y pasa a ser sobre la capacidad del equipo, que es donde estaba el problema. Y quien pregunta eso no queda como alguien que se escaquea, sino como alguien que sabe qué tiene encima, que es exactamente la impresión contraria.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Di que sí y pregunta qué se retrasa: la decisión de prioridades es de quien manda, no tuya, y así se la devuelves.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Para saber si algo hace falta, se deja de hacer y se mira si alguien lo nota",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro procedimiento concreto sirve para todo lo que ya está en marcha y nadie se atreve a tocar: informes que se envían cada semana, reuniones que llevan años en el calendario, tareas heredadas de alguien que ya no está. McKeown lo llama el piloto al revés.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Consiste en dejar de hacer esa cosa discretamente, sin anunciarlo, y esperar. Si al cabo de unas semanas nadie lo ha echado de menos, no hacía falta y se elimina. Si alguien pregunta, se vuelve a hacer y además se ha averiguado quién lo usaba y para qué, que es información que no se tenía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La gracia es que resuelve un problema real de las organizaciones. Preguntar en una reunión si algo se puede suprimir no funciona nunca, porque nadie quiere ser quien pida quitar el trabajo de otro y siempre aparece alguien que dice que a lo mejor hace falta. Comprobarlo en la práctica cuesta menos que discutirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás hay una idea que McKeown desarrolla: quitar cosas es una operación creativa y no una rendición. Lo demuestra con el trabajo de un editor de cine, cuyo oficio consiste enteramente en tirar material bueno para que se vea la película, y cuyo nombre nadie recuerda precisamente porque su trabajo, bien hecho, no se nota.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Deja de hacer eso que nadie se atreve a tocar y no lo anuncies: si en un mes nadie pregunta, ya tienes la respuesta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Todos los plazos se calculan mal, y siempre en la misma dirección" },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos trata de por qué las agendas están permanentemente rotas, y la respuesta no es la pereza: es un error de cálculo que se llama la falacia de la planificación, descrito por Daniel Kahneman y Amos Tversky en 1979. Consiste en que las personas subestiman de manera sistemática lo que van a tardar en algo, incluso habiéndolo hecho antes muchas veces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso más famoso está construido en piedra. La ópera de Sídney iba a costar unos siete millones de dólares australianos y abrir en 1963. Abrió en 1973, diez años tarde, y costó más de cien millones: unas catorce veces el presupuesto original, calculado por profesionales con toda la información disponible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante del error es que no se corrige con experiencia. La gente estima con optimismo su propio proyecto y con realismo el de los demás, porque para el propio imagina cómo irá si todo sale bien, y para el ajeno recuerda cómo suelen salir estas cosas. Es la misma persona haciendo dos cuentas distintas según de quién sea el asunto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La corrección que propone McKeown es de las que se pueden aplicar hoy y sin pedir permiso: añadir un cincuenta por ciento a cualquier estimación propia. No para llegar tarde con más margen, sino porque el retraso de una cosa es lo que arruina las cuatro siguientes, y una agenda sin huecos convierte un imprevisto pequeño en una semana rota.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Súmale un cincuenta por ciento a lo que calcules: un retraso pequeño sin hueco detrás se convierte en una semana entera rota.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que más anima a alguien en su trabajo no es el reconocimiento: es avanzar",
+      },
+      {
+        b: "texto",
+        texto:
+          "El último argumento aprovechable se apoya en una investigación de verdad. Teresa Amabile y Steven Kramer analizaron cerca de doce mil anotaciones de diario escritas por más de doscientos profesionales de distintas empresas, en las que apuntaban cada día cómo les había ido y cómo se sentían.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al cruzar los estados de ánimo con lo que había pasado ese día, el factor que más aparecía en las jornadas buenas no era el reconocimiento, ni el sueldo, ni el ambiente: era haber avanzado en algo que importaba, aunque fuera poco. Lo llamaron el principio del progreso, y funciona también al revés: los contratiempos pesan más que los avances.",
+      },
+      {
+        b: "texto",
+        texto:
+          "McKeown lo usa para justificar una manera de empezar: elegir una victoria pequeña y visible en lo esencial, antes que un plan grande. Un avance pequeño y real cambia el ánimo del día siguiente, y el ánimo del día siguiente decide cuánto se avanza entonces, con lo que la cosa se sostiene sola.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la corrección a una costumbre extendida: llenar la semana de tareas de otros produce muchas jornadas terminadas sin haber avanzado un milímetro en lo propio, lo que explica el agotamiento de gente que ha trabajado sin parar. No es cansancio de horas, es cansancio de no haber movido nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un avance pequeño y real cambia el ánimo de mañana, y el ánimo de mañana decide cuánto avanzas entonces.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro procedimientos concretos. Puntuar con un solo criterio y descartar todo lo que no llegue a noventa. Contestar a un encargo nuevo preguntando qué se retrasa. El piloto al revés, para averiguar si algo hacía falta. Y añadir un cincuenta por ciento a cualquier plazo propio, porque el error de cálculo es sistemático y no se corrige con experiencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en para quién está escrito, y esa es la objeción seria. Todo el libro supone a alguien que puede rechazar un proyecto, negociar sus plazos, apartarse unos días a pensar y esperar a que llegue una opción de noventa. Un enfermero por turnos, alguien en un almacén o una persona con dos trabajos y un hijo no puede ejecutar casi nada de esto, y el libro no lo dice en ninguna página.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también por selección y por exceso de regla. Todos sus ejemplos son empresas y personas que triunfaron; no aparece nadie que se concentrara con disciplina en la cosa equivocada y lo perdiera todo, que también ocurre. Y su lema más repetido —si no es un sí clarísimo, es un no— es mal consejo para cualquier terreno en el que no se pueda saber de antemano, que son casi todos los que empiezan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después lo dice el propio autor sin decirlo: en 2021 publicó otro libro dedicado a qué hacer una vez que ya se ha elegido, es decir, la parte que a este le faltaba. Porque «Esencialismo» explica muy bien qué quitar y no explica cómo se hace bien lo que queda, que resulta ser el problema siguiente de todo el que le hace caso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Explica muy bien qué quitar y no explica cómo hacer lo que queda, que es el problema del día siguiente.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  esencialismo: ESENCIALISMO,
   "comunicacion-no-violenta": COMUNICACION_NO_VIOLENTA,
   "hombres-marte-mujeres-venus": HOMBRES_MARTE,
   "metodo-wim-hof": METODO_WIM_HOF,
