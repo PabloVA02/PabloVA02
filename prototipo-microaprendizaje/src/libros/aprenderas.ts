@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "poder-de-la-presencia":
+    "El hallazgo que hizo famoso este libro no sobrevivió a las réplicas, y en 2016 la primera firmante del estudio original escribió que ya no se lo cree. Lo que queda es más pequeño, y el resto del libro es mejor que su capítulo célebre.",
+
   "conversaciones-cruciales":
     "Una conversación es crucial cuando hay algo importante en juego, las opiniones difieren y las emociones están altas. El libro no trata de hablar mejor en general: trata del minuto exacto en que una conversación se tuerce.",
 

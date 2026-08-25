@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "poder-de-la-presencia": "Autoestima, seguridad, poder personal",
   "conversaciones-cruciales": "Herramientas para hablar cuando hay mucho en juego",
   "amar-o-depender": "Cómo superar el apego afectivo y hacer del amor una experiencia plena",
   "obstaculo-es-camino": "El arte eterno de convertir las pruebas en triunfo",

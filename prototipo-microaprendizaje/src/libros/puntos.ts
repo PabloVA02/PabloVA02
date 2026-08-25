@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "poder-de-la-presencia": [
+    "qué detecta de verdad alguien que te está entrevistando",
+    "qué pasó cuando repitieron el experimento con más participantes",
+    "qué ejercicio de este libro sí se ha replicado en escuelas",
+    "cuál es el rasgo que define el síndrome del impostor",
+    "por qué esforzarse en parecer fuerte transmite lo contrario",
+  ],
+
   "conversaciones-cruciales": [
     "cómo salir de la falsa disyuntiva entre ser sincero y llevarse bien",
     "por qué callarse y gritar son exactamente la misma señal",

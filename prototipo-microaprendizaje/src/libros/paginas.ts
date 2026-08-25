@@ -76238,7 +76238,284 @@ const CONVERSACIONES_CRUCIALES: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El poder de la presencia, en ocho páginas.
+
+   Breve. Divulgación con vocación práctica → afirmación entera en el rótulo
+   y SEGUNDA PERSONA en la caja (apartado 4.7).
+
+   Este libro es el caso más importante del catálogo sobre cómo se corrige
+   la ciencia, así que la corrección NO va solo en la conclusión: ocupa las
+   páginas tercera y cuarta enteras. El hallazgo que hizo famoso el libro no
+   sobrevivió a las réplicas, y la primera firmante del estudio original
+   dijo por escrito en 2016 que ya no cree en él.
+
+   Y hay que decir lo otro: el resto del libro es mejor que su capítulo
+   famoso y no se lee nunca. El trabajo de Cohen sobre escribir valores sí
+   se ha replicado y es mucho más sólido que las posturas.
+   -------------------------------------------------------------------------- */
+
+const PODER_DE_LA_PRESENCIA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro más conocido por una idea que después no se sostuvo tiene otras que sí",
+      },
+      {
+        b: "texto",
+        texto:
+          "Amy Cuddy es psicóloga social y dio en 2012 una charla sobre posturas corporales que se convirtió en una de las dos más vistas de la historia de las conferencias TED, con decenas de millones de reproducciones. De ahí salió este libro, publicado en 2015.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su concepto central no es la postura, aunque sea lo único que se recuerda. Llama presencia al estado en el que lo que una persona muestra coincide con lo que de verdad piensa, siente y valora. No es seguridad en uno mismo ni es aplomo: es ausencia de desajuste entre el interior y el exterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La distinción importa porque cambia el objetivo. Quien quiere parecer seguro está representando un papel, y representar un papel consume atención y se nota; quien está presente no está intentando transmitir nada, y por eso transmite. Cuddy sostiene que un entrevistador no detecta la debilidad, detecta el desajuste.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre el experimento de 2010 que hizo famoso el libro, lo que ocurrió cuando otros equipos lo repitieron con más gente, qué sigue en pie de todo aquello, el ejercicio de escritura que sí se ha replicado, el fenómeno del impostor y su dato definitorio, y por qué esforzarse en parecer fuerte sale mal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un entrevistador no detecta tu inseguridad: detecta que lo que muestras no coincide con lo que hay debajo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El experimento de 2010 midió hormonas en cuarenta y dos personas durante dos minutos",
+      },
+      {
+        b: "texto",
+        texto:
+          "El estudio que dio la vuelta al mundo lo firmaron Dana Carney, Amy Cuddy y Andy Yap, y se publicó en 2010. Cuarenta y dos participantes adoptaron durante dos minutos una postura expansiva —de pie con las manos en la cintura y las piernas abiertas, o sentados con los pies sobre la mesa— o una postura encogida, con los brazos cruzados y los hombros hacia dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se les tomó saliva antes y después. Lo que se publicó fue que el grupo de las posturas expansivas mostraba después un aumento de testosterona de alrededor de un veinte por ciento y una caída de cortisol de en torno a un veinticinco, además de más disposición a apostar en una prueba de riesgo y más sensación declarada de poder.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que se extendió fue la que hizo famosa la charla: que dos minutos de postura cambian la química del cuerpo y con ella la conducta, y que por tanto cualquiera puede prepararse para una entrevista o una presentación en el cuarto de baño de al lado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene fijarse en el tamaño antes de seguir. Cuarenta y dos personas repartidas en dos grupos son unas veintiuna por grupo, midiendo un efecto hormonal en dos minutos. Es un estudio pequeño y exploratorio, del tipo que en cualquier campo se considera un punto de partida y no una conclusión, y se contó en todo el mundo como si fuera lo segundo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Veintiuna personas por grupo midiendo hormonas en dos minutos es un punto de partida, y se contó como si fuera una conclusión.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuando lo repitieron con más gente, las hormonas desaparecieron" },
+      {
+        b: "texto",
+        texto:
+          "En 2015, el mismo año en que salió este libro, un equipo dirigido por Eva Ranehill repitió el experimento en Suiza con unos doscientos participantes, casi cinco veces más, y con el procedimiento afinado para evitar que los participantes supieran de qué iba el estudio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado fue mixto y muy claro en su parte negativa. La sensación de sentirse poderoso sí apareció: quienes habían adoptado la postura expansiva declaraban después sentirse más poderosos. Los cambios de testosterona y de cortisol no aparecieron por ningún lado, y tampoco la diferencia de conducta ante el riesgo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2017 se publicó un número entero de una revista dedicado a esto, con siete réplicas registradas de antemano —es decir, con el análisis decidido antes de mirar los datos, que es lo que impide elegir después el resultado que conviene—. Confirmaron lo mismo: la sensación se sostiene y el efecto hormonal y conductual, no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo decisivo llegó en 2016 y lo escribió la primera firmante del estudio original. Dana Carney publicó en su página una declaración diciendo que ya no cree que los efectos de la postura de poder sean reales, y detallando los problemas de método que ella misma reconocía en aquel trabajo: la muestra pequeña, las decisiones de análisis tomadas sobre la marcha y los datos exprimidos hasta que salió algo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que la autora principal de un estudio salga a decir que ya no se lo cree es la mejor cosa que puede pasar en ciencia y casi nunca pasa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que queda es más pequeño, más honrado y sigue sirviendo" },
+      {
+        b: "texto",
+        texto:
+          "Cuddy no se retiró de todo aquello y tampoco se mantuvo entera. En 2018 publicó con dos colegas un análisis de cincuenta y cinco estudios sobre el asunto, y su posición desde entonces es más estrecha: sostiene que el efecto sobre cómo se siente uno existe, y ha dejado de afirmar el efecto hormonal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Puesto así, lo que queda es esto: adoptar durante un par de minutos una postura abierta, antes de una situación que impone, hace que uno se sienta algo mejor y algo más capaz. No cambia la testosterona, no cambia el resultado de la entrevista y no convierte a nadie en otra persona. Y es gratis y no tiene ningún riesgo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También sigue en pie la dirección general, que es más antigua que este libro: que el cuerpo influye en el estado de ánimo y no solo al revés. Hay bastantes maneras comprobadas de eso —la respiración lenta baja la activación, el ejercicio mejora el ánimo, la falta de sueño empeora el juicio—, y ninguna depende de aquel experimento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se cayó fue el mecanismo espectacular, no la idea modesta. Y esa distinción es la que casi nunca se hace al contar esta historia: hay quien concluye que todo era mentira y quien sigue repitiendo lo de las hormonas, y las dos versiones son falsas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dos minutos de postura abierta te hacen sentir algo mejor, y eso es todo lo que quedó: gratis, pequeño y cierto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El ejercicio del libro que sí se ha replicado es escribir sobre lo que a uno le importa",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte más sólida del libro es la que nadie cita, y no es de Cuddy. Consiste en dedicar diez o quince minutos, antes de una situación que amenaza, a escribir sobre un valor personal que importe de verdad —la familia, la honestidad, la música, la amistad— y por qué importa. Nada sobre la situación en sí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El trabajo que lo estableció lo dirigió Geoffrey Cohen y se publicó en 2006. En institutos estadounidenses con alumnado mezclado, un ejercicio de escritura de quince minutos sobre valores personales, hecho unas pocas veces durante el curso, redujo de manera apreciable la diferencia de notas entre grupos, y el efecto seguía viéndose años después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo propuesto es que ese ejercicio no da confianza ni ánimo, sino que reduce la amenaza: al recordar de qué está hecho uno, la prueba que viene deja de sentirse como un juicio sobre el valor de la persona entera y pasa a ser una prueba concreta con un resultado concreto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está la diferencia con la postura. Este ejercicio se ha replicado en escuelas y en laboratorios distintos, con muestras grandes y con seguimiento de años, y es lo que un lector debería llevarse del libro. Cuesta más que ponerse de pie con las manos en la cintura, y esa es probablemente la razón de que nadie lo recuerde.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de algo que te asusta, escribe quince minutos sobre lo que te importa, sin mencionar la prueba: eso sí está replicado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que define al síndrome del impostor no es la duda: es creer que uno es el único",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre el fenómeno del impostor recupera un trabajo de 1978 de las psicólogas Pauline Clance y Suzanne Imes, que lo describieron estudiando a unas ciento cincuenta mujeres con carreras destacadas: mujeres con títulos, publicaciones y reconocimiento que estaban convencidas de haber engañado a todo el mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La descripción clínica tiene una pieza que es la que lo hace sostenerse. No es la duda sobre las propias capacidades, que la tiene cualquiera; es la atribución del éxito a factores externos —la suerte, el momento, que alguien se equivocó al elegir— y la certeza de que en algún momento se descubrirá el error.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el rasgo que lo mantiene vivo es el silencio. Quien lo padece cree que es el único de la sala que se siente así, y esa creencia es exactamente lo que impide comprobarlo, porque nadie lo dice en voz alta. En cuanto alguien lo menciona en un grupo, aparece la mitad de la sala, que es la prueba más sencilla de que la premisa era falsa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuddy añade una observación práctica que sí es suya: el fenómeno no se cura acumulando pruebas de competencia, porque cada logro nuevo se reinterpreta como una vez más que salió bien de milagro. Lo que lo reduce es hablarlo, porque lo que se desmonta no es la duda, es la parte de creerse el único.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No lo cura acumular méritos, porque cada uno se reinterpreta como suerte: lo reduce descubrir que le pasa a la mitad de la sala.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Quien se esfuerza en parecer poderoso transmite justo lo contrario" },
+      {
+        b: "texto",
+        texto:
+          "La última idea aprovechable es una observación sobre por qué la mayoría de los consejos de imagen personal empeoran las cosas. Cuando alguien está atento a cómo se le ve —el apretón de manos, el contacto visual, la voz firme—, tiene una parte de su atención ocupada en vigilarse, y eso deja menos atención para lo que está pasando delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado es un desajuste que el otro percibe sin poder nombrarlo. Se ve a alguien que hace todos los gestos correctos y que está a otra cosa, y eso produce desconfianza aunque cada gesto por separado sea impecable. Es la misma sensación que produce alguien que recita un discurso aprendido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su recomendación va en contra de casi toda la literatura de este género: no intentar transmitir nada. Escuchar de verdad lo que dice el otro, contestar a lo que ha dicho y no a lo que uno traía preparado, y aceptar que en una entrevista de trabajo se puede decir que algo no se sabe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás hay un cálculo sobre dónde se pone la atención, que es un recurso limitado. Quien se vigila tiene menos disponible para pensar, y pensar peor es un coste mucho mayor que cualquier ganancia de imagen. La presencia no es una técnica de comunicación: es lo que ocurre cuando se deja de gastar atención en uno mismo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Vigilarte a ti mismo consume la atención que necesitas para pensar, y pensar peor cuesta más que cualquier ganancia de imagen.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Este libro se lee hoy por lo que le pasó, y por eso es de los más útiles del catálogo. Su hallazgo famoso —dos minutos de postura cambian las hormonas y la conducta— no sobrevivió: una réplica de 2015 con casi cinco veces más participantes no encontró los efectos hormonales, siete réplicas registradas de antemano tampoco, y en 2016 la primera firmante del estudio original escribió que ya no se lo cree.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que queda es más modesto y sigue siendo verdad: la postura influye en cómo se siente uno, aunque no en su química. Y lo que queda del resto del libro es mejor que su capítulo célebre: el ejercicio de escribir sobre los propios valores antes de una prueba, que se ha replicado en escuelas con seguimiento de años; y la descripción del fenómeno del impostor, cuyo rasgo definitorio es creerse el único.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla, aparte de eso, es en el momento en que se escribió. Salió en 2015, con la corrección a medio camino, y por tanto afirma con seguridad cosas que dejaron de sostenerse en los dos años siguientes. Un lector que llegue hoy sin saber nada de esto se lleva una idea falsa, y ese es el motivo por el que aquí ocupa dos páginas enteras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una parte de la historia que conviene contar entera. El ataque público que recibió Cuddy fue enorme, desproporcionado respecto al de otros casos parecidos y en buena medida personal, hasta el punto de que la prensa acabó escribiendo sobre cómo la ciencia se corrige a sí misma cuando corrige a una mujer famosa. Que un hallazgo se caiga es el funcionamiento normal de la ciencia; lo que ocurrió alrededor no lo era.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que un hallazgo se caiga es la ciencia funcionando bien; lo interesante es qué se salva, y aquí se salva más de lo que parece.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "poder-de-la-presencia": PODER_DE_LA_PRESENCIA,
   "conversaciones-cruciales": CONVERSACIONES_CRUCIALES,
   "amar-o-depender": AMAR_O_DEPENDER,
   "obstaculo-es-camino": OBSTACULO_ES_CAMINO,
