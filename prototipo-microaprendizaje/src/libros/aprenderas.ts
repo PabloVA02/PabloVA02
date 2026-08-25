@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "comunicacion-no-violenta":
+    "Rosenberg medió durante décadas en colegios, cárceles y conflictos armados, y de ahí sacó un método de cuatro pasos. Su afirmación es que casi ningún conflicto viene de intereses incompatibles, sino del idioma con que se discuten.",
+
   "hombres-marte-mujeres-venus":
     "Cincuenta millones de ejemplares construidos sobre una metáfora que su autor presenta como un hecho. Debajo hay cuatro instrucciones de conversación que funcionan, y una premisa que la investigación no respalda.",
 

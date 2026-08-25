@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "comunicacion-no-violenta": "Un lenguaje de vida",
   "hombres-marte-mujeres-venus": "Cómo mejorar la comunicación y obtener lo que deseas en tus relaciones",
   "metodo-wim-hof": "Activa todo tu potencial",
   "frida-herrera": "Una biografía de Frida Kahlo",

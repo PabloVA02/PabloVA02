@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "comunicacion-no-violenta": [
+    "cómo contar algo tal y como lo habría grabado una cámara",
+    "cómo saber si lo que dices sentir es un sentimiento o una acusación",
+    "por qué las necesidades casi nunca chocan aunque las soluciones sí",
+    "en qué se distingue una petición de una exigencia",
+    "qué esconde la frase «tengo que» cuando se termina de escribir",
+  ],
+
   "hombres-marte-mujeres-venus": [
     "qué decir antes de retirarte para que no se lea como castigo",
     "qué preguntar antes de proponerle a alguien una solución",

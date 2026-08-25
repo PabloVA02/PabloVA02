@@ -74545,7 +74545,284 @@ const HOMBRES_MARTE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Comunicación no violenta, en ocho páginas.
+
+   Breve. Libro práctico → afirmación entera en el rótulo y SEGUNDA PERSONA
+   en la caja (apartado 4.7).
+
+   Riesgo principal: sonar a taller. El método tiene cuatro pasos y un
+   vocabulario propio que en un resumen se convierte enseguida en jerga. Se
+   evita dando las pruebas concretas: la de la cámara, la de «que tú», la
+   del «no» y la del «tengo que».
+
+   Y la conclusión tiene que traer las dos objeciones serias que el libro no
+   hace: que carga todo el trabajo en quien lo usa solo, que suele ser el que
+   menos poder tiene; y que en una situación de maltrato la frase «nadie te
+   hace sentir nada» es falsa y peligrosa.
+   -------------------------------------------------------------------------- */
+
+const COMUNICACION_NO_VIOLENTA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El método tiene cuatro pasos y el primero es el que casi nadie hace" },
+      {
+        b: "texto",
+        texto:
+          "Los cuatro pasos son: decir lo que ha pasado sin opinar sobre ello, decir lo que uno siente, decir qué necesidad propia no está cubierta, y terminar con una petición concreta. Dicho así parece una obviedad y cualquiera diría que ya lo hace. Casi nadie completa el primero, que es del que dependen los otros tres, y por eso las conversaciones difíciles se tuercen siempre en el mismo sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los cuatro son: decir lo que ha pasado sin opinar sobre ello, decir lo que uno siente, decir qué necesidad suya no está cubierta, y hacer una petición concreta. Dicho así parece una obviedad, y sin embargo casi nadie completa el primero, que es del que dependen los otros tres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación de fondo es que la mayoría de los conflictos no vienen de intereses incompatibles, sino de que las dos partes están hablando en un idioma que hace imposible entenderse: un idioma hecho de juicios, comparaciones, exigencias y frases que niegan la propia responsabilidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre la diferencia entre lo que pasó y lo que opinas de lo que pasó, por qué la mitad de lo que llamamos sentimientos son acusaciones, de dónde vienen de verdad, cómo se distingue una petición de una exigencia, qué esconde la frase «tengo que», y qué está diciendo alguien cuando te insulta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi ningún conflicto viene de intereses incompatibles: viene de dos personas hablando en un idioma que impide entenderse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que pasó y lo que opinas de lo que pasó son dos frases distintas" },
+      {
+        b: "texto",
+        texto:
+          "El primer paso consiste en describir el hecho como lo habría grabado una cámara: sin adjetivos, sin adverbios de frecuencia y sin ninguna interpretación. Es la prueba más útil del libro y la más fácil de aplicar, porque una cámara no graba intenciones ni caracteres, solo lo que ocurrió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia se ve enseguida. «Has llegado tarde tres veces esta semana» es lo que graba una cámara. «Eres un impuntual» es un juicio sobre alguien. «Nunca me haces caso» es un juicio con un adverbio absoluto dentro; «te he preguntado dos veces y has seguido mirando el móvil» es un hecho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rosenberg cita una frase del pensador Jiddu Krishnamurti que resume bien la dificultad: observar sin evaluar es la forma más alta de inteligencia humana. Suena grandilocuente hasta que uno intenta contar tres cosas seguidas de su semana sin colar ni un adjetivo, ni un «siempre», ni una intención atribuida a nadie, y descubre en el segundo intento que no sabe hacerlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rosenberg cita una frase de Krishnamurti que resume la dificultad: observar sin evaluar es la forma más alta de inteligencia humana. Suena grandilocuente hasta que uno intenta contar tres cosas seguidas sin colar ni un adjetivo, y descubre que no sabe hacerlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuenta lo que habría grabado una cámara: un hecho se puede corregir y un juicio sobre alguien solo se puede negar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "«Me siento ignorado» no es un sentimiento: es una acusación con otro disfraz",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo paso choca con una costumbre que nadie nota. Buena parte de lo que la gente dice sentir no son sentimientos, sino interpretaciones de lo que ha hecho otra persona, formuladas con el verbo sentir delante para que suenen inocentes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los sentimientos de verdad son bastante menos y no acusan a nadie: triste, cansado, asustado, dolido, solo, harto, aliviado, nervioso, avergonzado. Tienen una propiedad que los distingue y sirve de prueba: se pueden decir en una habitación vacía y siguen teniendo sentido. Eso no ocurre con ninguno de los otros, porque los otros necesitan a alguien enfrente a quien estar señalando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cambio en la conversación es inmediato y se nota en la respuesta del otro. «Me siento manipulado» pone a la otra persona a defenderse de una acusación de manipulación, y a partir de ahí la discusión entera va sobre si manipuló o no, que es un asunto nuevo. «Estoy dolido» no acusa a nadie, no se puede discutir y deja el asunto exactamente donde estaba: en lo que había que arreglar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cambio en la conversación es inmediato. «Me siento manipulado» pone al otro a defenderse de una acusación de manipulación, y a partir de ahí la discusión va sobre si manipuló o no. «Estoy dolido» no acusa a nadie, no se puede discutir y deja el asunto donde estaba: en lo que hay que arreglar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si detrás de lo que sientes puedes añadir «por ti», no estabas contando un sentimiento: estabas acusando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que sientes no lo produce el otro: lo produce una necesidad tuya que no está cubierta",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercer paso es el que sostiene el método y el más difícil de aceptar. Rosenberg sostiene que lo que hace otra persona es el disparador de lo que uno siente y no su causa: la causa es una necesidad propia que en ese momento no está cubierta, y por eso la misma conducta afecta de manera distinta a personas distintas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo se comprueba solo. Que alguien llegue una hora tarde produce enfado en quien necesitaba llegar a tiempo a otro sitio, indiferencia en quien no tenía prisa, y angustia en quien necesitaba sentir que a esa persona le importa. El hecho es el mismo y las tres reacciones son distintas porque las necesidades lo son.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las necesidades de las que habla son pocas y las tiene todo el mundo: descanso, seguridad, respeto, autonomía, sentido, compañía, claridad, tiempo. No son deseos ni preferencias, y sobre todo no incluyen a ninguna persona concreta: se puede necesitar compañía, y eso no es lo mismo que necesitar que venga alguien en particular.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ventaja práctica es que las necesidades no chocan y las estrategias sí. Dos personas que discuten sobre si se apaga la televisión están enfrentadas; las mismas dos, si dicen que una necesita descansar y la otra desconectar un rato, tienen delante un problema con varias soluciones en vez de un pulso con una sola.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las estrategias chocan y las necesidades casi nunca: por eso conviene decir qué te falta antes de decir qué quieres que se haga.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una petición y una exigencia se distinguen por lo que haces cuando te dicen que no",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuarto paso pide algo concreto, en presente, en positivo y que se pueda hacer. No «quiero que me respetes», que no es ejecutable, sino «¿estarías dispuesto a avisarme cuando vayas a llegar más de veinte minutos tarde?», que se puede aceptar, negar o negociar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo de decirlo en positivo no es un detalle de cortesía. Pedir que alguien deje de hacer algo no le dice qué hacer en su lugar, y además pone su atención en aquello que no debe hacer, que es la peor manera de conseguir que no lo haga. «Deja de interrumpirme» funciona mucho peor que «déjame terminar la frase y luego te contesto».",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y luego está la prueba que decide todo el método, que es de una honradez brutal: lo que uno pide es una petición o una exigencia según lo que haga cuando le digan que no. Si tras el no vienen el enfado, el reproche, el silencio de tres días o la culpa, no era una petición aunque estuviera formulada con signos de interrogación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa distinción es la que hace incómodo el libro, porque casi todo el mundo descubre que hace bastantes menos peticiones de las que creía. Y tiene una consecuencia que Rosenberg subraya: quien pide de verdad tiene que estar dispuesto a oír que no, y eso solo se puede hacer si lo que se necesita puede conseguirse de más de una manera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que has pedido era una exigencia si al oír que no aparecen el reproche, el enfado o el silencio de tres días.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "«Tengo que» casi nunca es verdad, y decirlo cambia lo que uno hace" },
+      {
+        b: "texto",
+        texto:
+          "Hay un ejercicio corto en el libro que suele producir más efecto que el método entero. Consiste en escribir una lista de las cosas que uno hace en su vida diciéndose que tiene que hacerlas, y reescribir cada línea empezando por «elijo hacerlo, porque…» y terminando la frase con sinceridad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Casi todas las líneas se completan, y ahí está el asunto. Elijo ir a este trabajo porque necesito pagar el alquiler. Elijo ir a esa comida familiar porque no quiero el conflicto que vendría después. Elijo callarme en las reuniones porque tengo miedo de quedar mal. Las tres son elecciones con motivos reales y ninguna era una obligación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que cambia no es la conducta sino quién la está haciendo. Quien dice que tiene que ir a un trabajo es una víctima de las circunstancias y no puede hacer nada; quien dice que elige ir porque necesita pagar el alquiler está haciendo un intercambio que puede examinar, renegociar o, algún día, cambiar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rosenberg cuenta que dejó de escribir informes clínicos cuando hizo este ejercicio y descubrió que la única razón era que le daba miedo perder la licencia, y que aquella razón no le compensaba. Y hay un aviso: unas pocas líneas de la lista no se completan de ninguna manera aceptable, y esas son la información importante.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cambia «tengo que» por «elijo, porque…» y termina la frase: la que no puedas terminar es la que hay que mirar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Detrás de un insulto hay siempre una necesidad que nadie ha sabido decir",
+      },
+      {
+        b: "texto",
+        texto:
+          "La afirmación más difícil del libro es que todo lo que dice cualquier persona es, en el fondo, un «por favor» o un «gracias», y que un insulto es la expresión trágicamente torpe de algo que le falta a quien lo lanza. Suena a taller y sin embargo tiene una aplicación práctica muy concreta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ante un ataque hay cuatro reacciones posibles y Rosenberg las enumera: echarse la culpa, echársela al otro, notar lo que uno siente y necesita, o intentar oír lo que el otro siente y necesita. Las dos primeras son automáticas y no llevan a ninguna parte; las dos últimas hay que hacerlas a propósito y se pueden practicar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cuarta consiste en traducir. Cuando alguien grita que uno es un desastre y que no se puede contar con él, la traducción es que necesitaba algo y no lo tuvo. Preguntar directamente por eso —«¿te has quedado colgado esperándome?»— desarma la escena mucho más deprisa que defenderse, y no es rendirse: es cambiar de tema al asunto real.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir el límite, que el libro maneja mejor de lo que se le reconoce. Rosenberg admite el uso de la fuerza para proteger, distinguido del uso para castigar, y no propone escuchar con empatía a quien te está haciendo daño en ese momento. Traducir un ataque sirve en un conflicto, no en una agresión.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Traduce el insulto a la necesidad que hay detrás: no es rendirse, es cambiar la conversación al asunto que de verdad hay.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro pruebas que se pueden usar hoy sin aprenderse ningún vocabulario. La de la cámara, para separar lo que pasó de lo que opinas. La de «por ti», para saber si lo que dices sentir es un sentimiento o una acusación. La del no, para saber si pediste o exigiste. Y la de «elijo, porque», para las obligaciones que no lo eran.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en cómo suena. Hablar en los cuatro pasos en voz alta resulta artificial, y las transcripciones del propio libro lo demuestran: nadie habla así. Rosenberg contesta que lo que importa es la intención y no las palabras, y esa respuesta es floja, porque su método es exactamente un guion de palabras. Tampoco hay investigación seria detrás: hay décadas de práctica y testimonios de talleres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una objeción que el libro no hace y es la más seria. El método funciona muy bien si lo usan los dos, y cuando lo usa uno solo pone todo el trabajo en él: le pide que traduzca los ataques del otro, que revise sus propias necesidades y que se haga cargo de cómo formula cada frase. Quien acaba haciendo ese trabajo suele ser el que menos poder tiene en la situación, que es precisamente al revés de lo que convendría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después es que la idea salió del libro y entró en colegios, cárceles y mediaciones de decenas de países a través del centro que Rosenberg fundó en 1984, y que él siguió mediando en conflictos armados hasta poco antes de morir, en 2015. También apareció la crítica desde dentro: que en manos torpes esto sirve para vigilar el tono de quien protesta y para hacerle responsable de cómo suena su protesta, en vez de atender lo que está protestando.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las cuatro pruebas valen sin aprenderse el idioma, y el idioma es lo que hace que casi nadie lo use.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "comunicacion-no-violenta": COMUNICACION_NO_VIOLENTA,
   "hombres-marte-mujeres-venus": HOMBRES_MARTE,
   "metodo-wim-hof": METODO_WIM_HOF,
   "frida-herrera": FRIDA_HERRERA,
