@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cambia-el-chip":
+    "En 1990, Jerry Sternin llegó a Vietnam con seis meses de visado para reducir la desnutrición infantil. En vez de estudiar por qué fallaba, buscó a los niños que estaban sanos siendo igual de pobres y copió lo que hacían sus madres.",
+
   "mente-justos":
     "Haidt lleva desde los años noventa contando historias moralmente incómodas y pidiendo razones. La gente condena al instante y después no sabe explicar por qué, aunque esté segura de tenerlo claro.",
 

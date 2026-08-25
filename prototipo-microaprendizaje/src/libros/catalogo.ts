@@ -305,7 +305,7 @@ export const CATALOGO: Ficha[] = [
   { id: "poder-5-segundos", titulo: "El poder de los 5 segundos", autor: "Mel Robbins", ano: 2017, categoria: "Psicología", estado: "escrito" },
   { id: "organizate-eficacia", titulo: "Organízate con eficacia", autor: "David Allen", ano: 2001, categoria: "Psicología", estado: "escrito" },
   { id: "traguese-sapo", titulo: "Tráguese ese sapo", autor: "Brian Tracy", ano: 2001, categoria: "Psicología", estado: "escrito" },
-  { id: "cambia-el-chip", titulo: "Cambia el chip", autor: "Chip y Dan Heath", ano: 2010, categoria: "Psicología", estado: "pendiente" },
+  { id: "cambia-el-chip", titulo: "Cambia el chip", autor: "Chip y Dan Heath", ano: 2010, categoria: "Psicología", estado: "escrito" },
   { id: "ideas-que-pegan", titulo: "Ideas que pegan", autor: "Chip y Dan Heath", ano: 2007, categoria: "Psicología", estado: "escrito" },
   { id: "magia-pensar-grande", titulo: "La magia de pensar en grande", autor: "David Schwartz", ano: 1959, categoria: "Psicología", estado: "escrito" },
   { id: "despertando-gigante", titulo: "Despertando al gigante interior", autor: "Tony Robbins", ano: 1991, categoria: "Psicología", estado: "escrito" },

@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cambia-el-chip": [
+    "por qué conviene mirar lo que ya funciona antes que lo que falla",
+    "qué le pasa a alguien cuando le pides un objetivo y no un movimiento",
+    "por qué una escena consigue lo que no consigue un informe",
+    "qué motiva más que empezar algo, y no es la fuerza de voluntad",
+    "cuánta de tu falta de disciplina es en realidad un camino mal puesto",
+  ],
+
   "mente-justos": [
     "por qué un juicio moral llega antes que sus razones",
     "qué mueve de verdad a alguien, ya que no es el argumento",

@@ -82873,7 +82873,301 @@ const MENTE_JUSTOS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Cambia el chip, en ocho paginas.
+
+   Breve. Libro practico -> afirmacion entera en el rotulo y SEGUNDA PERSONA en
+   la caja.
+
+   Seis argumentos: los puntos brillantes, guionizar el movimiento exacto,
+   encontrar la emocion, encoger el cambio, tocar el entorno y usar la norma
+   del grupo.
+
+   Lo concreto, uno por pagina: Jerry Sternin en Vietnam en 1990, la campana de
+   la leche del uno por ciento en Virginia Occidental, las 424 clases de guantes
+   sobre la mesa del consejo, las tarjetas de sellos del tunel de lavado, los
+   carteles de las toallas de hotel.
+
+   La conclusion tiene un dato que casi ningun resumen menciona y que obliga a
+   la honestidad: dos de las investigaciones en las que se apoya se cayeron
+   despues. Brian Wansink dimitio de Cornell en 2018 con dieciocho articulos
+   retirados, y el trabajo de Dweck sobre la mentalidad ha tenido problemas de
+   replicacion.
+   -------------------------------------------------------------------------- */
+
+const CAMBIA_EL_CHIP: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que parece resistencia al cambio suele ser falta de claridad sobre qué hacer exactamente",
+      },
+      {
+        b: "texto",
+        texto:
+          "Chip y Dan Heath publicaron esto en 2010 y parten de una imagen prestada del psicólogo Jonathan Haidt: la mente es un elefante con un jinete encima. El jinete es la parte que analiza y planifica; el elefante, la que siente y tira. El jinete pesa unos setenta kilos y el elefante seis toneladas, así que en cualquier discusión seria gana el elefante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los Heath añaden una tercera pieza que es la suya y la más útil: el camino. La situación en la que ocurren las cosas —el sitio, los formularios, los horarios, lo que hacen los demás— y que suele explicar la conducta mejor que las personas. Cambiar el camino es más barato que convencer al jinete o domar al elefante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el diagnóstico del libro. Cuando algo no cambia, casi nunca es lo que parece. Lo que se ve como pereza suele ser agotamiento del jinete de tanto decidir; lo que se ve como resistencia suele ser falta de claridad; y lo que se ve como un problema de personas suele ser un camino mal puesto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué hay que estudiar lo que ya funciona en vez de lo que falla, cómo se convierte un objetivo en un movimiento concreto, qué hace falta además de los datos, por qué un cambio pequeño arranca mejor que uno grande, qué se consigue tocando el entorno y cómo se usa lo que hace la gente de alrededor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que parece pereza suele ser cansancio de decidir, y lo que parece resistencia suele ser no saber qué hacer exactamente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La solución suele existir ya dentro del problema, y está en los pocos casos que salen bien",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1990, Jerry Sternin llegó a Vietnam con el encargo de reducir la desnutrición infantil y con seis meses de visado. Los informes decían lo que dicen siempre: pobreza, agua sucia, falta de saneamiento, poca educación. Todo cierto y todo inútil, porque nada de eso se arregla en seis meses con el presupuesto de una organización pequeña.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sternin hizo otra cosa. Pesó a los niños de varias aldeas y buscó a los que estaban sanos siendo igual de pobres que el resto. Los había. Fue a sus casas a mirar qué hacían sus madres, y encontró tres diferencias concretas: repartían la misma comida en cuatro tomas en vez de dos, añadían hojas de boniato, que allí se consideraban comida de pobres, y echaban camarones y cangrejos diminutos de los arrozales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo importante es lo que hizo después. No dio una charla explicando el hallazgo, porque una charla se le habla al jinete y no cambia a nadie. Organizó grupos donde las madres cocinaban juntas esas recetas durante semanas. La práctica se extendió, y años después el programa había llegado a cientos de aldeas y a más de dos millones de personas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los Heath llaman a esto seguir los puntos brillantes, y su argumento es de economía de esfuerzo. Analizar por qué algo falla produce una lista de causas enormes e inabordables; buscar los casos en que ya sale bien produce una lista corta de conductas copiables, y además demuestra que se puede hacer ahí, con esos medios y esa gente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de estudiar por qué algo falla, busca los pocos casos donde ya funciona. Esa lista es corta y se puede copiar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un objetivo no cambia nada: lo que cambia algo es decir qué movimiento hay que hacer",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo consejo para el jinete es guionizar los movimientos críticos, y el ejemplo es de manual. A mediados de los noventa, unos investigadores querían que la gente de Virginia Occidental comiera con menos grasa. Podían haber hecho una campaña sobre alimentación saludable, que es lo que se hace siempre y no funciona nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En vez de eso eligieron un solo movimiento: comprar leche del uno por ciento en lugar de leche entera. Un producto, una decisión, en un pasillo concreto del supermercado. La campaña decía eso y nada más. La cuota de leche desnatada en la zona pasó del dieciocho al treinta y cinco por ciento, y se mantuvo meses después de terminar los anuncios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento de los Heath es que el jinete se paraliza ante la ambigüedad. «Comer más sano» admite mil interpretaciones, y cada una exige una decisión, y decidir cansa. «Compra la del tapón azul» no admite ninguna: se hace o no se hace. Lo que parecía falta de voluntad era en realidad falta de instrucción.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añaden el tercer elemento de este bloque, que llaman la postal del destino. No basta con el movimiento: hace falta una imagen clara de cómo será aquello cuando se consiga, contada como una escena y no como una cifra. Un objetivo del tipo aumentar un quince por ciento no se ve; una frase del tipo el año que viene esta clase leerá como los de tercero, sí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No pidas un objetivo, pide un movimiento concreto. La ambigüedad no la resuelve la voluntad: la paga el que tiene que decidir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los datos convencen al jinete y no mueven al elefante, y el elefante es el que camina",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda parte del libro va sobre la emoción, y el caso que usan es de una empresa industrial estadounidense. Jon Stegner sospechaba que la compañía estaba tirando el dinero en compras, y tenía los números para demostrarlo. Sabía también que un informe con números no iba a cambiar nada, porque llevaba años viendo informes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hizo que un becario recorriera las fábricas recogiendo un ejemplo de cada tipo de guante de trabajo que compraba la empresa. Reunió cuatrocientos veinticuatro modelos distintos, con precios que iban de cinco a diecisiete dólares, y varios eran el mismo guante a precios diferentes. Los amontonó todos sobre la mesa de la sala del consejo y llamó a los directivos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena hizo en dos minutos lo que no había hecho ningún informe. Los directivos daban vueltas a la mesa, cogían guantes, miraban las etiquetas y se reían de incredulidad. A partir de ahí la empresa autorizó una reforma de compras que llevaba años bloqueada, y aquella montaña de guantes acabó recorriendo las delegaciones como una exposición.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los Heath resumen el mecanismo en una frase que ordena todo el capítulo: la secuencia habitual es analizar, pensar y cambiar, y la que funciona es ver, sentir y cambiar. No dicen que los datos sobren; dicen que sirven para decidir qué hacer y no para conseguir que alguien se mueva, que es un trabajo distinto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Analizar, pensar y cambiar casi nunca funciona. Ver, sentir y cambiar sí, y por eso una escena vale más que un informe.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un cambio arranca mucho mejor si se encoge hasta que dé casi vergüenza empezarlo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La otra manera de mover al elefante es quitarle miedo, y para eso los Heath proponen encoger el cambio hasta que parezca ridículamente pequeño. Su ejemplo doméstico es el rescate de cinco minutos: ante una casa desordenada que abruma, poner una alarma de cinco minutos, ordenar hasta que suene y parar. Nadie puede argumentar que no tiene cinco minutos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El apoyo experimental que traen es una tarjeta de sellos de un túnel de lavado. A unos clientes se les dio una tarjeta de ocho sellos vacía; a otros, una de diez con dos ya puestos. Hacía falta lo mismo en los dos casos, ocho lavados. Completaron la tarjeta el diecinueve por ciento de los primeros y el treinta y cuatro por ciento de los segundos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación es que a la gente no le motiva empezar, le motiva no abandonar algo que ya está a medias. Por eso los Heath aconsejan no presentar nunca un cambio como una página en blanco, sino como una carrera empezada: enseñar lo que ya está hecho, lo que ya se sabe hacer y el terreno ganado antes de pedir el paso siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cierran el bloque con la identidad, que consideran más potente que cualquier incentivo. La gente no decide preguntándose qué le conviene, sino qué haría alguien como ella en una situación así. Un cambio que encaja con lo que alguien cree ser se sostiene solo; uno que la obliga a ser otra persona se cae en cuanto se afloja la vigilancia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie se motiva para empezar: se motiva para no dejar a medias. Enseña lo que ya está hecho antes de pedir el paso siguiente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cambiar el sitio donde ocurren las cosas es más barato que cambiar a las personas",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera parte del libro es la que más rinde y la que menos se aplica. Los Heath sostienen que atribuimos a la gente conductas que en realidad produce la situación, y que corregir la situación cuesta mucho menos. Su ejemplo favorito es el tamaño de los recipientes de comida: la misma persona come bastante más si el cubo es más grande, y jura que no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El principio se aplica igual en una oficina. Si se quiere que la gente rellene un informe, el formulario tiene que tener tres campos y no veinte. Si se quiere que dos equipos hablen, hay que sentarlos cerca. Si se quiere que alguien no mire el móvil, la solución no es la disciplina: es que el móvil esté en otra habitación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda herramienta del bloque son los disparadores de acción, y aquí se apoyan en el psicólogo Peter Gollwitzer. Consiste en decidir de antemano no solo qué se va a hacer, sino cuándo y dónde exactamente: no «haré ejercicio», sino «el martes, al salir del trabajo, voy directo al gimnasio». Es una decisión tomada una vez que ahorra tener que tomarla cada día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la tercera es la conducta de los demás, que consideran el camino más ancho de todos. El ejemplo son los carteles de las toallas de hotel: pedir que se reutilicen por el medio ambiente funciona algo, y decir que la mayoría de los huéspedes de esa habitación las reutiliza funciona bastante más. La gente hace lo que cree que hace la gente parecida a ella.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de pedirle disciplina a alguien, quita el obstáculo. Casi todo lo que llamamos falta de voluntad es un camino mal puesto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi todo cambio que dura empieza en un sitio pequeño y se extiende por contagio",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro cierra insistiendo en algo que va contra la manera habitual de planificar. Los cambios grandes casi nunca se implantan de arriba abajo y de golpe: empiezan en un equipo, una tienda o un aula, funcionan a la vista de los demás y se copian. Por eso la primera pregunta no es cómo convencer a toda la organización, sino dónde se puede empezar mañana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los Heath añaden un aviso sobre lo que llaman el punto de las tres semanas. Cualquier cambio pasa por un tramo en el que ya se ha perdido la novedad y todavía no se ven resultados, y ese tramo es donde muere casi todo. Su consejo es preparar de antemano qué se va a hacer en esas semanas, porque en ellas no se decide bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También piden esperar el fallo y no interpretarlo. Un cambio real produce tropiezos, y quien los lee como prueba de que aquello no funciona abandona justo cuando estaba empezando. La instrucción que dan es sencilla: decir en voz alta, antes de empezar, que va a haber semanas malas, para que cuando lleguen no signifiquen nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y terminan con una observación que resume el libro. La mayor parte de los intentos de cambio fracasan por falta de claridad y no por falta de ganas, y por eso el trabajo de quien quiere cambiar algo consiste sobre todo en quitar decisiones: menos objetivos, menos opciones, menos pasos y un movimiento concreto en un sitio concreto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Di antes de empezar que habrá semanas malas. Cuando lleguen, ya no significarán que aquello no funciona.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cinco cosas y todas se pueden hacer esta semana. Buscar los casos en los que ya funciona antes de analizar por qué falla. Pedir un movimiento concreto en vez de un objetivo. Enseñar algo que se vea y se toque en vez de un informe. Presentar el cambio como una carrera ya empezada. Y decidir de antemano cuándo y dónde exactamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en el método de siempre de este género: los casos están elegidos después de saber que salieron bien, y nadie ha comprobado cuántos programas hicieron exactamente lo mismo y no funcionaron. Eso no invalida las herramientas, que son razonables y baratas, pero convierte el libro en una colección de buenas ideas y no en un método demostrado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo más incómodo que casi ningún resumen cuenta. Dos de las investigaciones en las que se apoya se han caído después de publicarse. Brian Wansink, autor de los estudios sobre el tamaño de los recipientes, dimitió de la Universidad de Cornell en 2018 tras retirarse dieciocho de sus artículos por problemas graves de método. Y el trabajo sobre la mentalidad de crecimiento ha tenido dificultades serias de replicación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso a la vista, el libro se lee mejor. Su parte más sólida no es la que cita experimentos, sino la que describe casos de campo con nombre y fecha: Sternin en Vietnam, la leche del uno por ciento, los cuatrocientos veinticuatro guantes. Y su idea central —que el problema suele estar en el camino y no en la persona— es la más comprobable de las tres, porque se puede probar en una tarde.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Prueba primero con el camino. Es la parte del libro que puedes comprobar tú mismo esta semana, y la que menos depende de nadie.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cambia-el-chip": CAMBIA_EL_CHIP,
   "mente-justos": MENTE_JUSTOS,
   "cinco-disfunciones": CINCO_DISFUNCIONES,
   "empresas-sobresalen": EMPRESAS_SOBRESALEN,
