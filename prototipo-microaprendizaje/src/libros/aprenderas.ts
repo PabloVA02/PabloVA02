@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "21-lecciones":
+    "Publicado en 2018 y lleno de pronósticos, así que hoy se puede puntuar. Harari parte de que las tres grandes historias del siglo XX cayeron y no ha aparecido ninguna que las sustituya, y de ahí examina el trabajo, los datos y la escuela.",
+
   "millonario-automatico":
     "Un matrimonio que ganaba cuarenta mil dólares al año se jubiló a los cincuenta y dos con dos casas pagadas y más de un millón ahorrado. Bach descubrió que no habían invertido bien: habían automatizado las transferencias treinta años antes.",
 

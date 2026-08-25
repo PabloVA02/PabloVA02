@@ -72035,7 +72035,285 @@ const MILLONARIO_AUTOMATICO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   21 lecciones para el siglo XXI, en ocho páginas.
+
+   Breve. Ensayo → afirmación entera en el rótulo, tercera persona y la caja
+   como idea de la página (apartado 4.7).
+
+   Y manda además la regla del apartado 4 bis para los libros que PREDICEN:
+   el año va en la primera página, los pronósticos se escriben en pasado
+   —«Harari sostuvo en 2018 que…»— y la conclusión pone el marcador de qué
+   acertó, qué falló y qué sigue abierto.
+
+   Es de 2018 y hay siete años de marcador disponible, así que no hay excusa
+   para contarlo en presente como si acabara de salir.
+
+   Riesgo principal: la clase inútil. Es la expresión que circula y hay que
+   decir qué ha pasado con ella, que es lo que casi nadie hace.
+   -------------------------------------------------------------------------- */
+
+const VEINTIUNA_LECCIONES: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Por primera vez en mucho tiempo nadie sabe qué enseñarle a un niño de diez años",
+      },
+      {
+        b: "texto",
+        texto:
+          "Yuval Noah Harari publicó este libro en 2018, y la fecha importa más que en casi cualquier otro, porque está lleno de pronósticos sobre lo que iba a pasar. Es además un libro distinto de los dos anteriores del autor: no es una historia de la especie ni una sola tesis, sino veintiún ensayos sobre asuntos distintos, y él lo advierte al empezar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su punto de partida es una observación sobre las historias colectivas. Durante el siglo XX hubo tres relatos grandes que explicaban hacia dónde iba el mundo: el fascismo, el comunismo y el liberalismo. El primero cayó en 1945 y el segundo alrededor de 1989, y el tercero quedó solo y sin adversarios que lo obligaran a explicarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sostiene Harari es que ese tercer relato perdió crédito a partir de 2008 sin que apareciera ningún sustituto. No hay una historia rival ganando: hay un hueco. Y esa es, según él, la novedad de esta época, más que cualquier tecnología concreta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué el trabajo es el asunto que más le preocupa y con qué palabra lo nombró, qué significa exactamente que una máquina conozca a alguien mejor que él mismo, cuál es a su juicio la pregunta política del siglo, por qué los problemas grandes ya no caben en un país, y qué habría que enseñar en un colegio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo nuevo de esta época no es una tecnología: es que ninguna de las tres historias que explicaban el mundo sigue en pie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La amenaza que describe no es el paro: es dejar de hacer falta" },
+      {
+        b: "texto",
+        texto:
+          "La expresión que más ha circulado de este libro es «clase inútil», y conviene entender qué quería decir con ella. Harari distinguió entre el desempleo, que es no tener trabajo en un momento dado, y algo distinto: que el trabajo de una persona deje de tener valor económico de manera permanente y sin que exista un destino claro al que recolocarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento tiene una pieza técnica. Sostuvo que los humanos tienen dos clases de capacidades, las físicas y las cognitivas, y que hasta ahora las máquinas solo habían competido con las primeras: cuando una máquina sustituyó al brazo, la gente se movió hacia trabajos de cabeza. Lo que cambia ahora, según él, es que el ataque va contra las dos a la vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sacó su objeción al consejo habitual de reciclarse. Recolocarse supone que existe un sitio estable al que ir, y él sostuvo que en un ciclo de cambio rápido ese sitio también se mueve, de modo que alguien podría necesitar reinventarse varias veces a los cuarenta, a los cincuenta y a los sesenta, que es una exigencia distinta de la que ha hecho ninguna generación anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí hay que decir lo que el propio libro no distingue bien. Que una tecnología destruya empleos es un hecho técnico; que eso produzca una clase de personas sin ingresos es una decisión política sobre cómo se reparte lo que la tecnología produce. Al llamarlo inevitable, el libro convierte en pronóstico algo que es una elección.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que una máquina haga un trabajo es un hecho técnico; que quien lo hacía se quede sin nada es una decisión de reparto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hackear a una persona significa conocerla mejor de lo que se conoce ella",
+      },
+      {
+        b: "texto",
+        texto:
+          "La afirmación central del libro, y la más citada de su autor, es que por primera vez es técnicamente posible conocer a un ser humano mejor de lo que se conoce a sí mismo. Para eso hacen falta dos cosas a la vez: mucha información sobre lo que alguien hace, y suficiente conocimiento biológico para interpretarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El razonamiento no depende de que las máquinas tengan conciencia, y Harari insiste en ese punto. Basta con que acierten. Un sistema que predice qué va a comprar alguien, a quién va a votar o cuándo va a estar deprimido no necesita entender nada: le basta con haber visto suficientes casos parecidos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia que le preocupa es política y no comercial. Todo el edificio liberal descansa sobre la idea de que la persona es la mejor autoridad sobre sí misma: el votante sabe lo que quiere, el cliente tiene razón, hay que seguir el corazón. Si un sistema externo predice esos impulsos mejor que quien los siente, esa autoridad se puede desplazar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añadió un matiz que se olvida al citarlo: no hace falta que la predicción sea perfecta, ni que sustituya a nadie. Basta con que sea mejor que la propia intuición en promedio, porque a partir de ahí es racional delegar, y la gente delega las decisiones pequeñas mucho antes de plantearse las grandes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un sistema no necesita entender a nadie para influir en él: le basta con acertar más que su intuición.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La pregunta política de este siglo es de quién son los datos" },
+      {
+        b: "texto",
+        texto:
+          "Harari propone una manera de ordenar la historia de la propiedad que resulta útil aunque se discrepe del resto. En la época agraria, el activo que daba poder era la tierra, y la política consistió durante milenios en pelear por su reparto. En la industrial fueron las máquinas y las fábricas, y de ahí salieron las ideologías del siglo XIX y XX.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que el activo de esta época son los datos, y que ahí está el problema: no existe un modelo legal para poseerlos. La tierra se puede vallar, escriturar y heredar; una máquina se puede tener físicamente. Un dato se puede copiar infinitas veces sin quitárselo a nadie, y eso rompe las categorías con las que se ha regulado la propiedad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sacó una advertencia sobre las respuestas fáciles. Nacionalizar los datos concentra el poder en un gobierno, y dejarlos en manos privadas lo concentra en unas pocas empresas; y sostuvo que ninguna de las dos opciones había sido pensada a fondo por nadie, ni por los partidos ni por los juristas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la parte del libro que mejor ha envejecido, porque desde 2018 esa discusión ha entrado de lleno en la política real: reglamentos de protección de datos, litigios sobre con qué material se entrenan los sistemas automáticos, y peleas sobre quién es dueño de lo que producen. La pregunta que él formuló sigue sin respuesta, pero ya se hace en los parlamentos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un dato se puede copiar sin quitárselo a nadie, y por eso no encaja en ninguna de las categorías con que se regula la propiedad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El nacionalismo resuelve bien los problemas locales y no puede con los otros",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre las naciones empieza defendiéndolas, cosa que sorprende a quien espera lo contrario. Harari sostiene que el nacionalismo fue un invento útil y en buena medida benéfico: consiguió que millones de desconocidos cooperaran, pagaran impuestos para atender a gente que no conocían y aceptaran leyes comunes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su objeción es de alcance y no de valor. Un Estado puede resolver el suministro de agua de su territorio, la educación de sus niños y la seguridad de sus calles. Lo que no puede hacer, por bien gobernado que esté, es resolver por su cuenta la guerra nuclear, el cambio climático o la regulación de tecnologías que no se detienen en ninguna frontera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo más claro que usa es el clima: un país que reduzca sus emisiones a cero mientras los demás no lo hacen se perjudica y no resuelve nada, porque la atmósfera es una sola. Es una situación en la que lo racional para cada uno por separado produce el peor resultado para todos, y ninguna soberanía nacional la arregla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que propone no es suprimir las naciones, que él considera ni posible ni deseable, sino añadir una capa de lealtad global para tres o cuatro asuntos concretos. Es la parte más débil del capítulo, porque no explica cómo se construye eso ni quién lo haría, y se queda en la constatación del problema.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay problemas en los que lo sensato para cada país por separado produce el peor resultado para todos a la vez.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La verdad no se ha perdido: nunca hubo una época en que la información fuera fiable",
+      },
+      {
+        b: "texto",
+        texto:
+          "Contra la nostalgia de una edad anterior más veraz, Harari sostuvo algo incómodo: la humanidad lleva viviendo de ficciones colectivas desde que existe. Las religiones, las naciones, el dinero y las empresas son historias en las que mucha gente ha acordado creer, y funcionan precisamente porque se cree en ellas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su distinción es entre dos clases de afirmaciones. Una ficción compartida no es una mentira: nadie engaña a nadie sobre el valor de un billete, y ese valor existe porque todos actuamos como si existiera. Una mentira es otra cosa: alguien afirma algo sobre el mundo sabiendo que es falso y para obtener una ventaja.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca una recomendación práctica que es la más aplicable del libro y también la menos original: pagar por la información buena. Sostuvo que si algo se recibe gratis, probablemente el producto no es la noticia sino el lector, y que la costumbre de no pagar por nada es lo que ha vaciado a los medios capaces de comprobar hechos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añadió una segunda, más difícil: leer los artículos científicos originales sobre los asuntos que a uno le importen de verdad, aunque cuesten y aunque sean áridos. Su argumento es que un resumen periodístico de un estudio se parece al estudio lo justo, y que el error suele estar precisamente en la parte que el resumen simplifica.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una ficción compartida no es una mentira: la diferencia está en si alguien sabe que es falso y saca ventaja de ello.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que habría que enseñar es lo único que no se puede consultar" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre educación parte de una constatación: la escuela sigue organizada para transmitir información en un mundo donde la información sobra. Un niño de doce años tiene acceso a más datos de los que tuvo cualquier profesor de hace cincuenta años, y el problema ya no es conseguirlos sino distinguir cuáles importan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Harari propuso cuatro capacidades en lugar de contenidos: pensar críticamente, comunicarse, colaborar y ser creativo. Es una lista que se repite en todos los informes educativos desde hace décadas, y el propio libro no explica cómo se enseñan, que es exactamente la parte difícil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte propia y más interesante es otra: sostuvo que la capacidad más valiosa será reinventarse, y que lo que hay que preparar en un adolescente no es un oficio sino la tolerancia a cambiar de oficio varias veces. Enseñar a alguien a estar cómodo sin saber quién va a ser dentro de quince años es un objetivo educativo raro y probablemente correcto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cierra el libro por donde no se espera. Harari cuenta que medita dos horas diarias desde hace años y que hace un retiro largo de silencio cada temporada, y que sin eso no habría escrito ninguno de sus libros. Su conclusión práctica es coherente con todo lo anterior: si el riesgo es que un sistema te conozca mejor que tú, conviene llevarle ventaja.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si el riesgo es que un sistema externo te conozca mejor que tú mismo, la única defensa es adelantarse a conocerte.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Es un libro de 2018 lleno de pronósticos, así que lo primero es el marcador. Acertó de pleno en la dirección: sostuvo que los sistemas automáticos iban a atacar las capacidades cognitivas y no solo las físicas, y desde finales de 2022 eso ha ocurrido más deprisa de lo que su propio tono sugería, en la escritura, la traducción, la programación y el diseño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falló, hasta ahora, en su expresión más famosa. La «clase inútil» no ha aparecido: en la mayoría de los países ricos el empleo ha estado en máximos o cerca de ellos durante estos años. Lo que sí se ha movido es la cuestión de los datos, que en 2018 era casi teórica y hoy ocupa reglamentos, juicios y campañas electorales. Y su advertencia sobre delegar decisiones en sistemas que aciertan más que la intuición se ha cumplido en lo pequeño —qué ver, qué comprar, a quién contratar— y no en lo grande.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla como libro es en su construcción, y él lo admite en la introducción sin arreglarlo: son veintiún ensayos periodísticos reunidos, con repeticiones, con capítulos que se pisan y sin ningún argumento que se acumule de principio a fin. Y afirma mucho más de lo que documenta: hay páginas enteras de generalizaciones sobre biología, tecnología y política sin una sola fuente, y los especialistas de cada campo han sido bastante más duros con este libro que con los anteriores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después fue que su autor se convirtió en una de las voces habituales del debate sobre inteligencia artificial: firmó en 2023 la carta abierta que pedía pausar los experimentos con los sistemas más grandes, y publicó en 2024 «Nexus», dedicado entero a las redes de información, que es la parte de este libro que mejor había envejecido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Acertó la dirección y falló la consecuencia: las máquinas llegaron a la cabeza, y la clase inútil no ha aparecido.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "21-lecciones": VEINTIUNA_LECCIONES,
   "millonario-automatico": MILLONARIO_AUTOMATICO,
   "will-smith": WILL_SMITH,
   "por-que-amamos": POR_QUE_AMAMOS,

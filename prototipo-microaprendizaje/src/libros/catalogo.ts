@@ -84,7 +84,7 @@ export const CATALOGO: Ficha[] = [
   { id: "espia-traidor", titulo: "Espía y traidor", autor: "Ben Macintyre", ano: 2018, categoria: "Historia", estado: "pendiente" },
   { id: "equipo-rivales", titulo: "Equipo de rivales", autor: "Doris Kearns Goodwin", ano: 2005, categoria: "Historia", estado: "pendiente" },
   { id: "en-la-sombra", titulo: "En la sombra", autor: "Príncipe Harry", ano: 2023, categoria: "Historia", estado: "pendiente" },
-  { id: "21-lecciones", titulo: "21 lecciones para el siglo XXI", autor: "Yuval Noah Harari", ano: 2018, categoria: "Historia", estado: "pendiente" },
+  { id: "21-lecciones", titulo: "21 lecciones para el siglo XXI", autor: "Yuval Noah Harari", ano: 2018, categoria: "Historia", estado: "escrito" },
   { id: "nexus", titulo: "Nexus", autor: "Yuval Noah Harari", ano: 2024, categoria: "Historia", estado: "pendiente" },
   { id: "verano-1913", titulo: "1913: el verano del siglo", autor: "Florian Illies", ano: 2012, categoria: "Historia", estado: "pendiente" },
   { id: "hambruna-mao", titulo: "La gran hambruna en la China de Mao", autor: "Frank Dikötter", ano: 2010, categoria: "Historia", estado: "pendiente" },

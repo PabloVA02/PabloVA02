@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "21-lecciones": [
+    "en qué se diferencia quedarse sin trabajo de dejar de hacer falta",
+    "qué significa que un sistema acierte más que tu intuición",
+    "por qué un dato no encaja en las leyes de propiedad que existen",
+    "qué problemas no puede resolver un país por bien gobernado que esté",
+    "qué se puede enseñar cuando no se sabe qué oficios habrá",
+  ],
+
   "millonario-automatico": [
     "por qué los presupuestos se abandonan a los tres meses",
     "en qué orden tiene que salir el dinero para que quede algo",
