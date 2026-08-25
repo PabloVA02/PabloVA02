@@ -76514,7 +76514,285 @@ const PODER_DE_LA_PRESENCIA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La revolución de la glucosa, en ocho páginas.
+
+   Breve. Libro práctico de salud → afirmación entera en el rótulo y SEGUNDA
+   PERSONA en la caja (apartado 4.7).
+
+   SALUD, y aquí manda la PRUEBA DEL SUSTITUTO del apartado 4 bis: si una
+   página funcionara igual cambiando la glucosa por el cortisol o la
+   inflamación, esa página está vacía. Este libro es el caso puro del género
+   «todo se reduce a X», así que eso se dice dentro y con nombre.
+
+   Lo que sostiene el resumen es lo que sí está medido: el orden de los
+   alimentos —el ensayo de Shukla en Weill Cornell—, el vinagre, el paseo
+   después de comer, y qué mide de verdad un sensor continuo.
+
+   Y la conclusión dice quién no debería llevar sensor y por qué.
+   -------------------------------------------------------------------------- */
+
+const REVOLUCION_GLUCOSA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro promete arreglarlo casi todo con una sola molécula, y ahí está su problema",
+      },
+      {
+        b: "texto",
+        texto:
+          "Jessie Inchauspé es bioquímica de formación y empezó publicando en redes gráficas de su propio azúcar en sangre, medido con un sensor continuo, junto a fotos de lo que acababa de comer. De ahí salió este libro en 2022, que ha vendido millones de ejemplares en decenas de lenguas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación central es que las subidas y bajadas bruscas de glucosa en sangre —lo que ella llama picos— explican buena parte del cansancio, el hambre entre horas, los antojos, el mal humor, el envejecimiento de la piel y varias enfermedades, y que se pueden reducir sin cambiar lo que se come.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dicho eso, este libro tiene una diferencia real con los otros del género: varios de sus trucos concretos están medidos en ensayos publicados y funcionan de verdad. Lo que sigue recorre esos trucos con sus estudios y su letra pequeña, qué mide exactamente el sensor que lo hizo famoso, y dónde el libro se pasa mucho de lo que sus propios datos permiten afirmar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dicho eso, este libro tiene una diferencia real con los otros: varios de sus trucos concretos están medidos en ensayos publicados y funcionan. Lo que sigue recorre esos trucos con sus estudios, qué mide de verdad el sensor que lo hizo famoso, y dónde el libro se pasa mucho de lo que sus datos permiten.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando un libro de salud reduce todo a una sola molécula, no está describiendo el cuerpo: está vendiendo un marco.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El orden en que se comen los alimentos cambia la subida de azúcar sin cambiar el plato",
+      },
+      {
+        b: "texto",
+        texto:
+          "El truco principal del libro es de secuencia: empezar la comida por la verdura, seguir por la proteína y la grasa, y dejar los hidratos —el pan, la pasta, el arroz, la patata, el postre— para el final. El plato es exactamente el mismo y solo cambia el orden de los tenedores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Está medido y no es idea suya. Alpana Shukla y su equipo, en el hospital universitario Weill Cornell de Nueva York, publicaron varios ensayos pequeños en personas con diabetes tipo 2 y con prediabetes: comer la verdura y la proteína antes que los hidratos reducía de manera notable la subida de glucosa posterior, del orden de un tercio o más en algunas mediciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo propuesto es sencillo: la fibra y la grasa retrasan el vaciado del estómago y forman una especie de malla que hace que los azúcares lleguen al intestino más despacio y en menos cantidad de golpe. La misma cantidad de hidratos entra en la sangre repartida en más tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene poner la letra pequeña. Aquellos ensayos son pequeños, de una o dos comidas, y en personas que ya tenían el azúcar alterado. Que el efecto exista está bastante claro; que cambiar el orden de la comida durante años produzca menos enfermedad en gente sana no lo ha demostrado nadie todavía, y el libro lo da por hecho.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El mismo plato en otro orden entra en la sangre más despacio: verdura primero, hidratos al final.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una cucharada de vinagre antes de comer se ha medido muchas veces" },
+      {
+        b: "texto",
+        texto:
+          "El segundo truco es una cucharada de vinagre diluida en un vaso de agua, tomada unos minutos antes de una comida con hidratos. Suena a remedio de abuela y es de las cosas mejor estudiadas del libro: hay ensayos desde los años noventa, en varios países, con resultados consistentes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las cifras que se manejan varían bastante entre estudios, que es lo normal en algo tan pequeño y con tan poca gente, y el efecto es real y modesto: no convierte un plato de pasta en una ensalada ni cancela nada de lo que se come después. Vale para recortar un pico concreto, no para compensar una dieta, y el libro sugiere a veces lo segundo sin decirlo del todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las cifras que se manejan varían mucho entre estudios, que es lo normal en algo tan pequeño, y el efecto es real y modesto: no convierte un plato de pasta en una ensalada. Vale para recortar un pico, no para compensar una dieta, y el libro a veces sugiere lo segundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay dos avisos prácticos que sí están en el libro y conviene repetir: siempre diluido, porque el vinagre puro daña el esmalte dental y la garganta, y con cuidado si se toman medicamentos para la diabetes o para el estómago, porque los efectos se suman y ahí ya no es un truco de cocina.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El vinagre recorta un pico y no compensa una dieta: sirve para lo primero y el libro sugiere a veces lo segundo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Diez minutos andando después de comer hacen más que casi cualquier otro truco",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercer truco es el más barato y el que tiene mejor respaldo: moverse un poco después de comer. No hace falta ejercicio, ni sudar, ni cambiarse de ropa; basta con andar entre diez y quince minutos, o fregar los platos de pie, dentro de la hora siguiente a la comida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo no depende de nada complicado. El músculo que se contrae capta glucosa de la sangre sin necesitar insulina para hacerlo, así que una parte del azúcar que acaba de entrar se va al músculo en vez de quedarse circulando. La cantidad de movimiento necesaria para eso es muy pequeña.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De todos los consejos del libro, este es el que menos discusión tiene y el único que además hace otras cosas buenas comprobadas por su cuenta: mejora la digestión, ayuda a dormir mejor esa noche y suma actividad física a un día sedentario. Si alguien va a quedarse con una sola cosa de este libro y olvidar el resto, que sea esta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De todos los consejos del libro, este es el que menos discusión tiene y el único que además hace otras cosas buenas comprobadas: mejora la digestión, ayuda al sueño y suma actividad a un día sedentario. Si alguien va a quedarse con una sola cosa de este libro, es esta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Diez minutos andando después de comer mandan parte del azúcar al músculo, que lo capta sin necesitar insulina.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un desayuno dulce se paga durante el resto de la mañana" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre el desayuno es el que más gente ha cambiado de costumbres, y su argumento es de secuencia. Después de ocho o diez horas sin comer, el primer alimento del día entra en un cuerpo especialmente sensible, así que un desayuno de zumo, cereales y bollería produce la subida más alta del día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurre después es lo que importa: a la subida rápida le sigue una bajada rápida, y esa bajada llega con hambre, con sueño y con ganas de algo dulce a media mañana. Quien desayuna así no tiene poca fuerza de voluntad a las once: tiene el azúcar por debajo de donde estaba al levantarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su propuesta es un desayuno salado con proteína y grasa —huevos, queso, aguacate, pescado, frutos secos— y dejar la fruta o el dulce para después de eso, si se quiere. No es una prohibición de los hidratos: es ponerlos detrás de algo, que es la misma regla de la página segunda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí conviene una precisión que el libro no hace con suficiente claridad. Un desayuno de avena con fruta entera y frutos secos no es lo mismo que un zumo con galletas, aunque los dos lleven hidratos; la fibra que va dentro cambia el resultado. El enemigo no son los hidratos: es el hidrato solo y sin nada que lo frene.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si a media mañana tienes hambre y sueño, mira lo que desayunaste: no es falta de voluntad, es una bajada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El sensor que hizo famoso el libro no mide lo que la gente cree que mide",
+      },
+      {
+        b: "texto",
+        texto:
+          "Todo esto se popularizó con los monitores continuos de glucosa, un sensor pequeño que se lleva pegado en el brazo y envía una lectura cada pocos minutos al teléfono. Se diseñaron para personas con diabetes, donde son un avance enorme, y desde hace unos años se venden a gente sana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hay que saber es qué muestran. En una persona sin diabetes, la glucosa sube y baja después de cada comida por diseño: eso no es un fallo del cuerpo, es el cuerpo funcionando. Ver una gráfica con subidas provoca la impresión de que algo va mal, y en la inmensa mayoría de los casos no va mal nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un efecto que preocupa a bastantes médicos y que empieza a estar documentado: gente sana que empieza a retirar de su dieta alimentos perfectamente normales —fruta, legumbres, arroz, pan— porque le suben la gráfica del teléfono, y que acaba comiendo peor, más caro y con una relación bastante peor con la comida de la que tenía antes de comprarse el aparato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un efecto que preocupa a bastantes médicos: gente sana que empieza a retirar alimentos perfectamente normales —fruta, legumbres, arroz— porque le suben la gráfica, y acaba comiendo peor y con una relación peor con la comida de la que tenía antes de comprarse el aparato.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En alguien sano, que la glucosa suba después de comer no es un fallo del cuerpo: es el cuerpo funcionando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El libro promete mucho más de lo que sus estudios pueden sostener" },
+      {
+        b: "texto",
+        texto:
+          "Los trucos de las páginas anteriores están medidos y son buenos. El problema es lo que se cuelga encima: el libro atribuye a los picos de glucosa el cansancio crónico, los antojos, el mal humor, los problemas de sueño, el acné, las arrugas, la infertilidad, la niebla mental y el riesgo de varias enfermedades.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Casi ninguna de esas atribuciones tiene detrás un ensayo en personas sanas. Lo que hay es un mecanismo plausible, estudios en personas con diabetes o con síndrome metabólico, y el salto que da el libro al aplicarlo a todo el mundo y a todos los síntomas. Ese salto es exactamente lo que hay que vigilar en este género.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un desplazamiento del foco que tiene consecuencias. La forma de la curva de glucosa después de una comida importa mucho menos, en alguien sano, que cuántas calorías se comen, cuánta fibra hay en la dieta, cuánto se duerme y cuánto se mueve uno. Optimizar la curva mientras se duerme cinco horas es trabajar en la variable equivocada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y conviene mirar el modelo de negocio, que no invalida nada pero explica el tono. Alrededor de este libro hay una aplicación, suplementos y programas de pago, y la parte del libro que dice que casi cualquier síntoma podría ser la glucosa es también la que convierte a cualquier lector en cliente potencial.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Optimizar la curva de la glucosa mientras duermes cinco horas es trabajar con mucho detalle en la variable equivocada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "De este libro se llevan tres cosas medidas y baratas. Empezar la comida por la verdura y la proteína y dejar los hidratos para el final. Una cucharada de vinagre diluida antes de una comida con hidratos. Y diez o quince minutos andando después de comer, que es la mejor de las tres y la que además sirve para otras cosas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en el salto. Los estudios que respaldan sus trucos son pequeños, de una o dos comidas y hechos casi todos en personas con la glucosa ya alterada; el libro los extiende a toda la población y a una lista larguísima de síntomas —el acné, las arrugas, la niebla mental, la infertilidad— para la que no existe ese respaldo. Es el género de «todo se reduce a X» con la molécula de moda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un aviso que este resumen tiene que dar con claridad: si alguien tiene diabetes o toma medicación para el azúcar, nada de esto se cambia por su cuenta, porque los efectos se suman a los del tratamiento y una bajada de glucosa es peligrosa. Y si alguien está sano, un sensor continuo mide el líquido entre las células con retraso y error, y ver subidas después de comer no significa que pase nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ha pasado después es que los sensores se han convertido en un producto de consumo para gente sin diabetes, con aplicaciones que puntúan comidas, y que varias sociedades médicas han tenido que salir a decir que no hay pruebas de que eso mejore la salud de una persona sana y sí indicios de que a algunas les empeora la relación con la comida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tres trucos medidos y baratos, y una lista de promesas colgada encima que sus propios estudios no aguantan.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "revolucion-glucosa": REVOLUCION_GLUCOSA,
   "poder-de-la-presencia": PODER_DE_LA_PRESENCIA,
   "conversaciones-cruciales": CONVERSACIONES_CRUCIALES,
   "amar-o-depender": AMAR_O_DEPENDER,

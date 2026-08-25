@@ -461,7 +461,7 @@ export const CATALOGO: Ficha[] = [
   { id: "adelgaza-para-siempre", titulo: "Adelgaza para siempre", autor: "Ángela Quintas", ano: 2016, categoria: "Salud", estado: "pendiente" },
   { id: "libro-del-sueno", titulo: "El libro del sueño", autor: "Guy Meadows", ano: 2014, categoria: "Salud", estado: "pendiente" },
   { id: "pleno-compromiso", titulo: "El poder del pleno compromiso", autor: "Jim Loehr y Tony Schwartz", ano: 2003, categoria: "Salud", estado: "pendiente" },
-  { id: "revolucion-glucosa", titulo: "La revolución de la glucosa", autor: "Jessie Inchauspé", ano: 2022, categoria: "Salud", estado: "pendiente" },
+  { id: "revolucion-glucosa", titulo: "La revolución de la glucosa", autor: "Jessie Inchauspé", ano: 2022, categoria: "Salud", estado: "escrito" },
   { id: "cerebro-hambriento", titulo: "El cerebro hambriento", autor: "Stephan Guyenet", ano: 2017, categoria: "Salud", estado: "pendiente" },
   { id: "mente-en-forma", titulo: "Tu mente en forma", autor: "Wendy Suzuki", ano: 2015, categoria: "Salud", estado: "pendiente" },
   /* --- Deportes ---------------------------------------------------------

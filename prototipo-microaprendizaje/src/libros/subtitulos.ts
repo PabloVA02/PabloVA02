@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "revolucion-glucosa": "Mejora tu salud controlando el azúcar en sangre",
   "poder-de-la-presencia": "Autoestima, seguridad, poder personal",
   "conversaciones-cruciales": "Herramientas para hablar cuando hay mucho en juego",
   "amar-o-depender": "Cómo superar el apego afectivo y hacer del amor una experiencia plena",

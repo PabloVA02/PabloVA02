@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "revolucion-glucosa": [
+    "por qué el mismo plato en otro orden entra más despacio en la sangre",
+    "qué hace una cucharada de vinagre antes de una comida",
+    "por qué diez minutos andando valen más que cualquier otro truco",
+    "qué explica el hambre y el sueño de media mañana",
+    "qué mide de verdad un sensor de glucosa en alguien sano",
+  ],
+
   "poder-de-la-presencia": [
     "qué detecta de verdad alguien que te está entrevistando",
     "qué pasó cuando repitieron el experimento con más participantes",

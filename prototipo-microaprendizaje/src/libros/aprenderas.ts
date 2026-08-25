@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "revolucion-glucosa":
+    "Tres de sus trucos están medidos en ensayos publicados y funcionan: el orden de los alimentos, el vinagre y el paseo después de comer. Lo que se cuelga encima —el acné, las arrugas, la niebla mental— no tiene ese respaldo.",
+
   "poder-de-la-presencia":
     "El hallazgo que hizo famoso este libro no sobrevivió a las réplicas, y en 2016 la primera firmante del estudio original escribió que ya no se lo cree. Lo que queda es más pequeño, y el resto del libro es mejor que su capítulo célebre.",
 
