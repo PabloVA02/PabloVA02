@@ -341,6 +341,8 @@ export const CATALOGO: Ficha[] = [
   { id: "todo-empieza-contigo", titulo: "Todo empieza contigo", autor: "Jillian Turecki", ano: 2025, categoria: "Psicología", estado: "pendiente" },
   { id: "adulto-relaciones", titulo: "Cómo ser un adulto en las relaciones", autor: "David Richo", ano: 2002, categoria: "Psicología", estado: "pendiente" },
   { id: "dopamina-lieberman", titulo: "Dopamina", autor: "Daniel Z. Lieberman y Michael E. Long", ano: 2018, categoria: "Psicología", estado: "pendiente" },
+  { id: "segundo-cerebro", titulo: "Crea tu segundo cerebro", autor: "Tiago Forte", ano: 2022, categoria: "Psicología", estado: "pendiente" },
+  { id: "focus-goleman", titulo: "Focus", autor: "Daniel Goleman", ano: 2013, categoria: "Psicología", estado: "pendiente" },
   /* --- Economía --------------------------------------------------------- */
   { id: "psicologia-dinero", titulo: "La psicología del dinero", autor: "Morgan Housel", ano: 2020, categoria: "Economía", estado: "escrito" },
   { id: "padre-rico", titulo: "Padre rico, padre pobre", autor: "Robert Kiyosaki", ano: 1997, categoria: "Economía", estado: "escrito" },
@@ -398,6 +400,7 @@ export const CATALOGO: Ficha[] = [
   { id: "creatividad-sa", titulo: "Creatividad, S.A.", autor: "Ed Catmull y Amy Wallace", ano: 2014, categoria: "Economía", estado: "pendiente" },
   { id: "thinkertoys", titulo: "Thinkertoys", autor: "Michael Michalko", ano: 1991, categoria: "Economía", estado: "pendiente" },
   { id: "planifica-tu-futuro", titulo: "Planifica tu futuro", autor: "Michael Hyatt y Daniel Harkavy", ano: 2016, categoria: "Economía", estado: "pendiente" },
+  { id: "amor-trabajo-no-correspondido", titulo: "Tu amor al trabajo no es correspondido", autor: "Sarah Jaffe", ano: 2021, categoria: "Economía", estado: "pendiente" },
   /* --- Salud ------------------------------------------------------------ */
   { id: "por-que-dormimos", titulo: "Por qué dormimos", autor: "Matthew Walker", ano: 2017, categoria: "Salud", estado: "escrito" },
   { id: "cuerpo-cuenta", titulo: "El cuerpo lleva la cuenta", autor: "Bessel van der Kolk", ano: 2014, categoria: "Salud", estado: "escrito" },
@@ -433,9 +436,6 @@ export const CATALOGO: Ficha[] = [
   { id: "adelgaza-para-siempre", titulo: "Adelgaza para siempre", autor: "Ángela Quintas", ano: 2016, categoria: "Salud", estado: "pendiente" },
   { id: "libro-del-sueno", titulo: "El libro del sueño", autor: "Guy Meadows", ano: 2014, categoria: "Salud", estado: "pendiente" },
   { id: "pleno-compromiso", titulo: "El poder del pleno compromiso", autor: "Jim Loehr y Tony Schwartz", ano: 2003, categoria: "Salud", estado: "pendiente" },
-  { id: "segundo-cerebro", titulo: "Crea tu segundo cerebro", autor: "Tiago Forte", ano: 2022, categoria: "Salud", estado: "pendiente" },
-  { id: "focus-goleman", titulo: "Focus", autor: "Daniel Goleman", ano: 2013, categoria: "Salud", estado: "pendiente" },
-  { id: "amor-trabajo-no-correspondido", titulo: "Tu amor al trabajo no es correspondido", autor: "Sarah Jaffe", ano: 2021, categoria: "Salud", estado: "pendiente" },
   /* --- Deportes ---------------------------------------------------------
      La novena, pedida por Pablo el 21 de agosto: «añade sección de deportes
      también, que puede ser interesante con libros famosos y títulos que
