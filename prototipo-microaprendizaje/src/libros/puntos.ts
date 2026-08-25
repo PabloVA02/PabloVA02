@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "ideas-que-pegan": [
+    "por qué los expertos explican peor su tema que los principiantes",
+    "qué trabajo hay detrás de un mensaje que parece simple",
+    "por qué una frase que no se puede ver no se recuerda",
+    "de dónde sacas credibilidad cuando no tienes ninguna autoridad",
+    "qué le pasa a una historia cuando le añades estadísticas",
+  ],
+
   "arte-no-amargarse": [
     "por qué el mismo despido hunde a una persona y a otra no",
     "qué le pasa a tu cuerpo cuando llamas insoportable a algo molesto",

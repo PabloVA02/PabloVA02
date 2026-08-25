@@ -79906,7 +79906,299 @@ const ARTE_NO_AMARGARSE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Ideas que pegan, en ocho paginas.
+
+   Breve. Libro practico -> afirmacion entera en el rotulo y SEGUNDA PERSONA en
+   la caja.
+
+   Seis argumentos: la maldicion del conocimiento y las cinco cualidades
+   restantes, una por pagina. Simple, inesperado, concreto, creible y emocional
+   con historias, que van juntas.
+
+   Este libro tiene el mejor material concreto del estante y hay que usarlo:
+   el experimento de Elizabeth Newton de 1990, los treinta y siete gramos de
+   grasa de las palomitas, el hombre en la Luna, Barry Marshall bebiendose la
+   bacteria en 1984, la nina Rokia. Un dato por pagina, minimo.
+
+   La conclusion senala el fallo de fabrica: las seis cualidades salen de mirar
+   ideas que triunfaron, y nadie comprobo si las ideas que fracasaron las tienen
+   tambien.
+   -------------------------------------------------------------------------- */
+
+const IDEAS_QUE_PEGAN: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las ideas que sobreviven no son las mejores, sino las que tienen seis cualidades concretas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Chip y Dan Heath abren con una historia que casi todo el mundo ha oído: un hombre acepta una copa en un bar y despierta en una bañera llena de hielo, con una nota que le dice que llame a una ambulancia porque le han quitado un riñón. Es falsa, nunca le ocurrió a nadie, y lleva décadas circulando por medio mundo sin que nadie la promocione.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la pregunta del libro. Una empresa gasta millones en que se recuerde su mensaje y no lo consigue; una leyenda sin autor ni presupuesto se transmite sola durante veinte años. Los Heath sostienen que eso no es suerte y que se puede desmontar: las ideas que se pegan comparten unas cuantas propiedades, y esas propiedades se pueden copiar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Listan seis. Simple, inesperada, concreta, creíble, emocional y contada como historia. No hace falta que estén las seis, y muy pocas ideas las tienen todas. Lo importante, dicen, es que ninguna de las seis exige talento: son decisiones sobre cómo se dice algo, y se pueden tomar deliberadamente antes de abrir la boca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre el obstáculo que impide aplicarlas casi siempre, y después las cinco cualidades que quedan, una por página: cómo se encuentra el núcleo de un mensaje, por qué hay que romper un esquema antes de llenarlo, qué hace lo concreto que no hace lo abstracto, de dónde sale la credibilidad cuando no hay autoridad, y por qué una cifra grande conmueve menos que un nombre.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que una idea se pegue no depende de que sea buena. Depende de seis decisiones sobre cómo la cuentas, y las seis se pueden tomar a propósito.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El que sabe algo ya no puede imaginar cómo es no saberlo, y por eso lo explica mal",
+      },
+      {
+        b: "texto",
+        texto:
+          "El obstáculo tiene nombre y un experimento detrás. En 1990, Elizabeth Newton hizo en Stanford una prueba sencilla: unas personas golpeaban con el dedo el ritmo de una canción muy conocida sobre una mesa y otras tenían que adivinarla. Antes de empezar, los que golpeaban calculaban que acertaría la mitad. Acertaron tres de ciento veinte, un dos y medio por ciento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación es que quien golpea oye la canción entera dentro de la cabeza, con la letra y la orquesta, y le resulta imposible imaginar cómo suena eso desde fuera, que son unos golpes secos sin nada más. Los Heath llaman a esto «la maldición del conocimiento»: en cuanto sabes algo, ya no puedes recuperar la sensación de no saberlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto explica bastante bien por qué los expertos comunican peor que los novatos. Un directivo que lleva años con una estrategia oye la canción completa cuando dice «maximizar el valor para el accionista»; su plantilla oye golpes en la mesa. Y como él la oye, se convence de que ha sido claro, con lo que el problema nunca llega a detectarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La maldición no se cura, y ahí está lo útil del libro: no se puede desaprender lo que se sabe. Lo único que funciona es contarlo con las seis cualidades, que son precisamente las que sobreviven al viaje de una cabeza a otra. El resto del libro es el manual de cómo hacerlo, y por eso este capítulo va antes que ninguno.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando explicas algo que dominas, tú oyes la canción entera y el otro oye golpes en la mesa. No puedes desaprenderlo: solo contarlo mejor.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ser simple no es decirlo corto: es encontrar el núcleo y sacrificar lo demás",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera cualidad es la que más se malinterpreta. Simple no significa breve ni fácil, significa que se ha encontrado el núcleo: lo único que hay que entender, y que si se entiende sostiene todo lo demás. Los Heath insisten en que el trabajo no está en resumir, sino en decidir qué se queda fuera, que duele mucho más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que usan es de Southwest Airlines. Herb Kelleher decía que la empresa entera cabía en una frase: somos la aerolínea barata. Y contaba cómo se aplicaba: si alguien propone servir ensalada de pollo en el vuelo de Houston, la pregunta no es si mejora el servicio, sino si esa ensalada nos convierte en la aerolínea más barata. Como no, no hay ensalada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro usa también la enseñanza clásica del periodismo. Un profesor pidió a sus alumnos el titular de una noticia con muchos datos —una jornada de formación, ponentes, fechas— y todos escribieron variantes de lo mismo. El titular correcto era que el jueves no había clase. Encontrar el núcleo es decidir qué le importa de verdad a quien escucha, no qué es lo más completo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y dan una herramienta concreta para cuando el núcleo es difícil de explicar: apoyarlo en algo que el otro ya tenga en la cabeza. Un pomelo grande explica un pomelo mejor que su diámetro en centímetros. Los Heath lo llaman esquema prestado, y avisan de su límite: sirve para colocar la idea deprisa, no para sustituirla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Encontrar el núcleo no es resumir. Es decidir qué se queda fuera, y eso duele bastante más que escribir corto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Para que alguien te escuche hay que romperle antes un esquema que ya tenía",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda cualidad es la sorpresa, y los Heath la explican con una mecánica que no es la de llamar la atención con ruido. La atención se dispara cuando algo contradice lo que dábamos por hecho: el cerebro tenía un esquema y ese esquema ha fallado. Mientras las cosas encajan, no hace falta mirar; en cuanto una pieza no encaja, hay que mirar por fuerza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso mejor del libro es de 1992, cuando una organización de nutrición estadounidense analizó las palomitas de los cines. Podían haber dicho que tenían mucha grasa saturada. Dijeron que una ración mediana llevaba treinta y siete gramos, más que un desayuno de huevos con bacon, un almuerzo de hamburguesa con patatas y una cena de filete, todo junto. Y lo enseñaron en una mesa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que rompen no es un dato sino una creencia: que las palomitas son un capricho pequeño. Los Heath dicen que el trabajo consiste en localizar qué cree exactamente el otro, encontrar dónde su creencia falla y enseñárselo. Sin esa localización, la sorpresa es un truco y se olvida en cinco minutos, que es lo que le pasa a casi toda la publicidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También avisan del abuso. Una sorpresa que no lleva a ninguna parte deja al oyente entretenido y sin mensaje, y la memoria se queda con el efecto y no con la idea. La regla que dan es que la sorpresa tiene que apuntar al núcleo: si el dato asombroso se puede quitar sin que cambie lo que se quería decir, no era del mensaje, era del espectáculo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de convencer a alguien, localiza qué da por hecho. La atención se enciende cuando se le rompe un esquema, no cuando subes la voz.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo concreto se recuerda y se comparte, y lo abstracto solo lo entiende quien ya lo sabía",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera cualidad tiene la mejor prueba histórica del libro. En mayo de 1961, Kennedy no dijo que Estados Unidos aspiraba al liderazgo en la industria aeroespacial mediante la innovación y el trabajo en equipo. Dijo que antes de que acabara la década iban a poner un hombre en la Luna y devolverlo sano y salvo a la Tierra. Cualquiera puede repetirlo y cualquiera sabría si se ha cumplido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los Heath explican por qué lo concreto viaja mejor. Una imagen o un objeto significan lo mismo para todo el mundo; una palabra abstracta significa una cosa distinta en cada cabeza, y en la del experto significa mucho más que en la del resto. «Calidad», «excelencia» y «sinergia» pasan de una reunión a otra sin que nadie las traduzca a nada que se pueda hacer el lunes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Traen además una prueba de dos mil quinientos años. Las fábulas de Esopo siguen contándose porque son escenas: una zorra que no llega a las uvas y decide que están verdes. La idea abstracta detrás —despreciamos lo que no podemos conseguir— es exactamente igual de cierta y no la ha repetido nadie durante veinticinco siglos, porque no se puede ver.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La aplicación práctica que dan es de las más fáciles de usar. Al preparar cualquier explicación, buscar el objeto, la persona o la escena donde eso ocurre, y contar eso. No «mejoraremos la atención al cliente», sino «cuando alguien llame, contestamos antes del tercer tono». La segunda frase se puede cumplir y se puede comprobar; la primera no es ni verdadera ni falsa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si tu frase no se puede ver ni comprobar, no es una idea todavía. Busca el objeto, la persona o la escena donde eso pasa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La credibilidad no la da el título de quien habla, sino un detalle que el otro pueda comprobar",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cuarta cualidad responde a una pregunta incómoda: por qué habría alguien de creerte. Los Heath descartan primero lo evidente, que es la autoridad, porque casi nadie la tiene cuando la necesita. Y proponen fuentes de credibilidad que están al alcance de cualquiera, empezando por el detalle concreto, que funciona incluso cuando no demuestra nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo más incómodo es de un juicio: un testimonio sobre una madre resultó más creíble a los jurados cuando incluía que su hijo tenía un cepillo de dientes con forma de personaje. El dato no probaba nada del caso. Los Heath lo cuentan sin adornarlo: un detalle vívido hace creer, y por eso hay que usarlo con las cosas que además son ciertas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda fuente la llaman «la prueba de Sinatra», por aquello de que quien triunfa en Nueva York triunfa en cualquier parte. Es un solo caso tan exigente que ya no hacen falta más: una empresa de seguridad que guarda el oro de un banco central no necesita enseñar su catálogo. Un ejemplo extremo vale más que diez ejemplos medianos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la tercera es la más potente: dejar que el otro lo compruebe. En 1984, el médico australiano Barry Marshall se bebió un cultivo de la bacteria que él decía que causaba las úlceras, enfermó y se curó con antibióticos, porque llevaba años sin que le hicieran caso. En 2005 le dieron el Nobel. Casi ningún argumento resiste la comparación con una demostración.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si no tienes autoridad, da un detalle comprobable o un caso extremo. Uno solo, muy exigente, vale más que diez razonables.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Nadie se conmueve con una estadística, y por eso lo que se cuenta tiene que tener nombre",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las dos últimas cualidades van juntas. Un mensaje mueve a alguien cuando le importa, y a la gente le importan las personas, no los números. Los Heath citan un experimento en el que se pedía dinero de dos maneras: con cifras sobre el hambre en África, o hablando de Rokia, una niña de Malí de siete años. Con Rokia se recaudó bastante más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle que hace el experimento demoledor es el tercer grupo, al que se le dieron las dos cosas: la niña y las cifras. Recaudó menos que el que solo tenía a la niña. Añadir estadísticas a una historia no suma, resta: pone al lector en modo de análisis, y en modo de análisis se dona menos. La compasión y el cálculo usan cabezas distintas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la sexta cualidad, las historias, y los Heath les dan una función precisa. Una historia es un simulador: quien la escucha ensaya la situación por dentro y sale sabiendo qué haría. Por eso las empresas que quieren cambiar una conducta cuentan casos de empleados concretos en vez de repartir manuales, y por eso esos casos se repiten en los pasillos durante años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y avisan de lo que la gente entiende mal aquí. No hace falta inventar historias buenas: hace falta cazarlas, porque ya están pasando. La mayoría de las que usa el libro las contó alguien de dentro de la empresa antes de que llegara ningún consultor. Lo escaso no es el talento narrativo; es la costumbre de fijarse y de apuntar lo que ocurre.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si quieres que a alguien le importe, dale un nombre y una cara. Y no le añadas cifras: la estadística apaga lo que acaba de encender la historia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable es una lista de comprobación que se pasa en dos minutos antes de decir algo importante. Cuál es el núcleo y qué estoy dispuesto a dejar fuera. Qué da por hecho el otro y dónde le falla. Qué objeto o escena hace visible esto. Qué detalle puede comprobar. Y de quién es la cara que voy a contar, sin añadirle cifras detrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en el método con el que se construyó, y es un fallo de fábrica. Las seis cualidades salen de examinar ideas que triunfaron y buscarles lo común. Nadie miró las que fracasaron para ver si también las tenían. Es posible que miles de mensajes simples, concretos y emocionales pasaran sin pena ni gloria, y el libro no puede saberlo porque no los buscó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en algunos de sus propios ejemplos, y tiene gracia en un libro sobre credibilidad. Varias de sus mejores historias de empresa —las de dependientes que hacen cosas extraordinarias por un cliente— circulan sin fuente comprobable y son exactamente el tipo de relato que el libro enseña a fabricar. Los autores no distinguen en ningún momento entre lo documentado y lo que se cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que pasó después dice algo bueno de él. Publicado en 2007, se metió en las escuelas de negocios y en las redacciones, y de las seis cualidades hay una que se ha independizado del todo: la maldición del conocimiento se cita hoy en manuales de docencia y de diseño de productos por gente que no ha leído el libro ni sabe de dónde salió.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de explicar algo importante, pregúntate qué da por hecho quien escucha. Ahí es donde empieza el trabajo, no en tu argumento.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "ideas-que-pegan": IDEAS_QUE_PEGAN,
   "arte-no-amargarse": ARTE_NO_AMARGARSE,
   "adulto-relaciones": ADULTO_RELACIONES,
   "bolsa-o-vida": BOLSA_O_VIDA,

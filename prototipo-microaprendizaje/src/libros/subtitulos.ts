@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "ideas-que-pegan": "Por qué algunas ideas sobreviven y otras mueren",
   "arte-no-amargarse": "Cambiando la forma de pensar",
   "adulto-relaciones": "Cómo mantener relaciones adultas y saludables",
   "bolsa-o-vida": "Los 9 pasos para transformar tu relación con el dinero",

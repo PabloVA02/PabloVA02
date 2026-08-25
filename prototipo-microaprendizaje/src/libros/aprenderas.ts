@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "ideas-que-pegan":
+    "En un experimento de 1990, quienes golpeaban en la mesa el ritmo de una canción conocida creían que la adivinaría la mitad de la gente. La adivinaron tres de ciento veinte. Los Heath explican por qué el que sabe algo lo cuenta mal.",
+
   "arte-no-amargarse":
     "Santandreu divulga el método que Albert Ellis puso en marcha en 1955: entre lo que ocurre y lo que sientes hay una frase que te dices, y esa frase se puede escribir, discutir y cambiar.",
 
