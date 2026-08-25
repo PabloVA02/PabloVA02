@@ -86317,7 +86317,277 @@ const PROCRASTINACION_STEEL: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Patria, en ocho paginas.
+
+   Breve. NARRATIVA -> titulo corto de imagen en el rotulo y afirmacion en la
+   primera frase (apartado 3 bis).
+
+   PERO LA CAJA VA EN TERCERA PERSONA. Apartado 4 bis: esto trata de asesinatos
+   reales con victimas reales, y una caja en segunda persona convertiria eso en
+   una leccion de vida para el lector. Ni una sola frase del tipo 'lo que
+   aprendes cuando matan a tu marido'.
+
+   Apartado 4 bis tambien: contar lo que casi nadie cuenta. Lo sabido es que va
+   de ETA. Lo que hace grande al libro es otra cosa: no van de bombas, van de
+   vecinos que dejan de saludar. El asunto del libro es el pueblo, no el
+   comando.
+
+   Fechas seguras: ETA anuncio el cese definitivo en octubre de 2011 y ahi
+   empieza la novela; publicada en 2016; Premio Nacional de Narrativa 2017;
+   serie de HBO en 2020; ciento veinticinco capitulos.
+
+   La conclusion tiene que decir lo que se le reprocho en el Pais Vasco: que a
+   los militantes apenas se les da interioridad, que la violencia del Estado y
+   el GAL casi no aparecen, y que el libro se convirtio en un objeto politico en
+   Madrid, que es mucho peso para una novela que cuenta un pueblo y un lado.
+   -------------------------------------------------------------------------- */
+
+const PATRIA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una viuda vuelve al pueblo" },
+      {
+        b: "texto",
+        texto:
+          "La novela más leída sobre el terrorismo de ETA no empieza con un atentado, sino con una mujer mayor cogiendo un autobús. En octubre de 2011, ETA anunció el cese definitivo de la actividad armada, y Bittori decide volver a la casa del pueblo del que se marchó después de que mataran a su marido. No va a vengarse. Va a que alguien le diga que lo siente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fernando Aramburu nació en San Sebastián en 1959, vive en Alemania desde hace décadas y publicó esto en 2016. Vendió más de un millón de ejemplares en España, ganó el Premio Nacional de Narrativa en 2017 y se convirtió en serie de televisión en 2020. Poca gente esperaba nada de eso de una novela de setecientas páginas sobre un pueblo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Son ciento veinticinco capítulos cortos que saltan en el tiempo sin orden, de los años ochenta al presente y al revés, con dos familias que se conocen de toda la vida. Bittori y el Txato por un lado; Miren y Joxian por el otro. Las dos madres eran íntimas. Los dos padres salían juntos en bicicleta los domingos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre las cartas que empezaron a llegar a una casa, el día en que el pueblo dejó de saludar, cómo se rompió una amistad de cuarenta años, de qué manera entra un chaval de veinte en una organización armada, qué hicieron los que se fueron, quién acaba obligando a todos a mirarse, y qué se le ha reprochado a este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Bittori no vuelve a pedir venganza ni justicia. Vuelve a que alguien le diga que lo siente, y en esa diferencia cabe toda la novela.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las cartas que llegaban a casa" },
+      {
+        b: "texto",
+        texto:
+          "El Txato tenía una empresa pequeña de transportes en el pueblo, camiones y unos cuantos empleados, y le iba bien. Un día llegó a su casa un sobre con una petición de dinero, firmada por la organización y con instrucciones. Era lo que en aquellos años se llamaba el impuesto revolucionario, y le llegó a muchísima gente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La novela cuenta con detalle lo que eso significa por dentro, que es la parte que no sale en las estadísticas. Pagó la primera vez, callándoselo. Pagó la segunda. Y cuando llegó la tercera carta con una cantidad mayor, dijo que no podía y no pagó. A partir de ahí empezaron las pintadas con su nombre en las paredes del pueblo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aramburu insiste en un dato que el Txato tarda en entender: quien escribía aquellas pintadas era gente que le conocía. No venía nadie de fuera. Los que pintaban su apellido en la pared del frontón habían jugado con sus hijos, y los que dejaban de mirarle en la calle habían comido en su casa alguna vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La novela también deja claro qué se le estaba pidiendo exactamente. No una opinión ni una adhesión: dinero, y a cambio la posibilidad de seguir viviendo donde vivía. Un empresario en aquella situación tenía tres salidas —pagar, irse o quedarse sin pagar— y las tres eran malas, y la tercera es la que eligió el Txato.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las pintadas con su apellido las escribía gente del pueblo. Nadie vino de fuera a señalarle: le señalaron los que le conocían.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El día que dejaron de saludar" },
+      {
+        b: "texto",
+        texto:
+          "Aquí está lo que hace grande a esta novela y lo que casi nadie cuenta al resumirla: no trata sobre pistolas, trata sobre vecinos. Lo que Aramburu describe página tras página es el mecanismo por el que un pueblo entero aparta a una familia sin que nadie dé ninguna orden y sin que nadie se considere responsable de nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El proceso es lento y está contado por sus pasos. Primero, un silencio raro cuando el Txato entra en el bar. Después, la partida de cartas que ya no le esperan. Después, los del club ciclista que dejan de avisarle. Después, los saludos que se acortan y luego desaparecen. Y al final, una mujer que cruza la acera para no coincidir con él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nadie amenaza a nadie en esas escenas. La gente que se aparta no lo hace por odio en la mayoría de los casos: lo hace por miedo a que la vean saludando, y ese miedo se contagia porque cada uno ve lo que hacen los demás. Aramburu enseña cómo un vecindario puede ejecutar un castigo sin que ni una sola persona decida ejecutarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y enseña el efecto sobre quien lo recibe. El Txato empieza a evitar sitios, a salir a horas raras, a inventarse motivos para no bajar al pueblo. Se va aislando él solo para ahorrarse el momento del saludo que no llega, con lo que la separación se completa sin que nadie tenga que empujarle. Después de eso, el disparo es casi un trámite.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un pueblo puede ejecutar un castigo sin que ninguna persona decida ejecutarlo. Basta con que cada uno mire lo que hacen los demás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos madres que eran amigas" },
+      {
+        b: "texto",
+        texto:
+          "La relación que sostiene el libro no es un matrimonio ni una familia: son dos mujeres. Bittori y Miren se conocían desde niñas, iban juntas a todas partes, se contaban todo, criaron a sus hijos a la vez y se prestaban la ropa. Aramburu dedica muchos capítulos a esa amistad antes de que se rompa, y por eso duele después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ruptura no es una discusión. Es una cosa que va ocurriendo mientras el hijo de Miren se va metiendo en la organización y el marido de Bittori empieza a aparecer en las paredes. Miren elige a su hijo, que es lo que hace casi cualquier madre, y para elegirlo tiene que ir aceptando poco a poco un relato donde el Txato es un explotador.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese proceso es lo mejor que hay en el libro. Aramburu no presenta a una mujer que un día cambia de bando: presenta a alguien que va necesitando cada vez más justificaciones para poder mirarse al espejo, y que las encuentra donde se las dan, en el bar, en la parroquia, en las conversaciones del pueblo. Cada paso es pequeño y ninguno se puede señalar como el paso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y deja constancia del coste. Después de todo aquello, las dos mujeres siguen viviendo en el mismo pueblo, comprando en las mismas tiendas y sin hablarse durante décadas, con la iglesia como único sitio donde coinciden. Aramburu escribe esas escenas de cruce sin diálogo, y son de las más incómodas de la novela.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie cambia de bando en un día. Va necesitando cada vez más justificaciones para poder mirarse al espejo, y las encuentra donde se las dan.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cómo entra un chaval en eso" },
+      {
+        b: "texto",
+        texto:
+          "Joxe Mari, el hijo de Miren, es el personaje que la novela usa para contestar a la pregunta de cómo alguien de veinte años acaba en un comando. Y la respuesta que da Aramburu es deliberadamente poco épica: por los amigos, por el ambiente, por la fuerza física, por no ser menos que los otros y por no saber qué hacer con su vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No hay en su recorrido ninguna lectura política, ninguna conversión ni ninguna decisión meditada. Hay un grupo de chavales que van juntos, unas actividades que empiezan siendo pintadas y peleas, un ambiente que celebra a los que van más lejos, y un momento en que uno cruza una línea y ya no puede volver sin quedar como un cobarde delante de todos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La novela lo sigue después a Francia, a los pisos, a la clandestinidad y a la cárcel, y le dedica bastantes páginas al aburrimiento y a la sordidez de todo aquello. Y cuenta lo que se hace en el pueblo mientras tanto: la foto en el bar, las pancartas, la fiesta cuando alguno vuelve. El chaval que se fue se convierte en un símbolo del que su familia no puede bajar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Todo el libro avanza hacia una pregunta que Bittori necesita responder y que Aramburu maneja con cuidado hasta el final: si fue Joxe Mari quien disparó. Y la manera en que se resuelve, sin escena de juicio ni de venganza, es la que decide qué clase de novela es esta y por qué se lee como se lee.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En este relato nadie entra en un comando por convicción. Se entra por los amigos, por el ambiente y por no poder retroceder delante de ellos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los que se fueron del pueblo" },
+      {
+        b: "texto",
+        texto:
+          "La otra mitad del libro cuenta a los hijos que salieron de allí, y es donde Aramburu mete lo que no cabe en la trama principal. Xabier, el hijo del Txato, se hace médico en San Sebastián y organiza su vida entera alrededor de no sentir nada; su hermana Nerea se va a estudiar fuera y elige no enterarse, que es otra manera de sobrevivir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gorka, el hermano pequeño de Joxe Mari, es el personaje más silencioso y el que más peso lleva. Se va a Bilbao, trabaja en una radio en euskera, escribe, y es homosexual en un sitio y un momento en que eso no se dice. Su historia es la de alguien que se salva escapándose, y la novela no lo presenta como un triunfo sino como una amputación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aramburu aprovecha estos personajes para enseñar algo que el resto del libro no puede: que el daño no se reparte por igual dentro de una misma casa. Dos hermanos con los mismos padres acaban en sitios opuestos, y ninguno de los dos puede explicarle al otro cómo llegó allí, porque los dos creen que hicieron lo único que podían hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y sirve para contar lo que le pasa a una familia después del asesinato. La viuda que se queda, el hijo que se hace cargo de todo, la hija que se aleja y luego vuelve con culpa, las conversaciones que no se tienen durante veinte años. La novela dedica a eso tantas páginas como al conflicto, y esa proporción es una decisión.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El daño no se reparte igual dentro de una misma casa. Dos hermanos pueden acabar en sitios opuestos y ninguno saber explicarle al otro cómo llegó.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La mujer que no podía hablar" },
+      {
+        b: "texto",
+        texto:
+          "El personaje que acaba moviendo el libro entero es el que menos puede hacerlo. Arantxa, la hija de Miren, sufre un ictus grave que la deja en una silla de ruedas y sin habla, y se comunica escribiendo con un dedo en una tableta. Desde ahí, y solo desde ahí, es la única persona de las dos familias que se atreve a decir lo que hay que decir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es ella quien escribe a Bittori, quien le planta cara a su madre, quien le manda cartas a su hermano a la cárcel y quien le exige que reconozca lo que hizo. Aramburu construye la escena una y otra vez de la misma manera: una mujer que tarda diez minutos en escribir una frase, y una habitación en la que nadie puede interrumpirla mientras la escribe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La decisión narrativa es transparente y funciona igual. En un mundo en el que todos hablan mucho —el bar, las consignas, los sermones, las conversaciones de la cuadrilla— la única que dice algo verdadero es la que ha perdido la voz y tiene que elegir cada palabra porque le cuesta un cuarto de hora ponerla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El final del libro es una escena breve entre las dos mujeres mayores, sin discursos y sin perdón declarado. No hay reconciliación en el sentido en que suele contarse: hay dos personas que dejan de mirar hacia otro lado. Aramburu se para justo ahí, y esa contención es lo que salva el desenlace de convertirse en una moraleja.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En un pueblo donde todo el mundo habla mucho, la única que dice algo verdadero es la que tarda un cuarto de hora en escribir una frase.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que esta novela hace mejor que ninguna otra sobre el asunto es contar el pueblo y no el comando. Enseña paso a paso cómo se aísla a una familia sin que nadie dé una orden, cómo se rompe una amistad de cuarenta años a base de justificaciones pequeñas, y cómo un chaval entra en un grupo armado sin haber tenido nunca una idea política propia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla, y así se le reprochó en el País Vasco, es en la interioridad de los militantes. Joxe Mari y su entorno tienen muy poco pensamiento y mucha atmósfera: se les explica por la cuadrilla, por la madre y por el ambiente, y casi nunca por una convicción que se pueda discutir. Y Miren queda cerca de la caricatura de la madre abertzale.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en lo que no cabe. La violencia del Estado, los años del GAL y las víctimas del otro lado apenas aparecen en un libro que se titula Patria y que se ha leído como el retrato del conflicto. Aramburu ha respondido que escribió sobre lo que conocía, que es una respuesta legítima, y el hueco sigue estando ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo que le pasó al libro y no es culpa suya. Vendió más de un millón de ejemplares, ganó el Premio Nacional en 2017 y se convirtió en serie en 2020, y por el camino pasó a usarse en el debate público como la novela sobre ETA. Es mucho peso para una obra que cuenta, a propósito y muy bien, un pueblo y un lado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que este libro enseña no es cómo se mata, sino cómo un vecindario deja de saludar. Eso no necesita ninguna organización detrás.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  patria: PATRIA,
   "procrastinacion-steel": PROCRASTINACION_STEEL,
   "amor-liquido": AMOR_LIQUIDO,
   "martes-con-mi-profesor": MARTES_CON_MI_PROFESOR,

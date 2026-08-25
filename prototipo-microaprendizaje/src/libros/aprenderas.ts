@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  patria:
+    "En octubre de 2011, ETA anunció el cese definitivo de la actividad armada, y una viuda coge un autobús de vuelta al pueblo del que se marchó. No va a vengarse: va a que alguien le diga que lo siente.",
+
   "procrastinacion-steel":
     "Steel publicó en 2007 un metaanálisis con cientos de estudios sobre por qué la gente aplaza las cosas, y este libro salió de ahí. Su primera corrección: quien aplaza un informe no está parado, está haciendo otras cosas con mucha energía.",
 

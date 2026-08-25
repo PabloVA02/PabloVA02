@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  patria: [
+    "cómo se aísla a una familia sin que nadie dé ninguna orden",
+    "qué le pasa a una amistad de cuarenta años cuando hay que elegir",
+    "cómo entra alguien de veinte años en un grupo armado",
+    "por qué el daño no se reparte igual dentro de una misma casa",
+    "qué falta en un libro que se ha leído como el retrato del conflicto",
+  ],
+
   "procrastinacion-steel": [
     "por qué el domingo decides empezar el lunes y lo dices en serio",
     "qué sube de verdad tu confianza en que puedes con algo",
