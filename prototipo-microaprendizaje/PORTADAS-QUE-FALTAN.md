@@ -14,7 +14,7 @@ Al 2026-08-25: **418 libros** en el catálogo, **216 con cubierta tuya**, **202 
 > perdió ninguna. Ninguna portada se retira sin que Pablo lo diga.
 
 
-# BLOQUE 1 — 74 libros que YA SE PUEDEN LEER y salen sin portada
+# BLOQUE 1 — 84 libros que YA SE PUEDEN LEER y salen sin portada
 
 Son los que más se notan: alguien los abre hoy y no ve nada tuyo.
 
@@ -28,12 +28,13 @@ Son los que más se notan: alguien los abre hoy y no ve nada tuyo.
 | `malcolm-x` | Autobiografía de Malcolm X | Malcolm X y Alex Haley | 1965 |
 | `21-lecciones` | 21 lecciones para el siglo XXI | Yuval Noah Harari | 2018 |
 
-## Ciencia — 2
+## Ciencia — 3
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
 | `por-que-amamos` | Por qué amamos | Helen Fisher | 2004 |
 | `el-cerebro` | El cerebro | David Eagleman | 2015 |
+| `primavera-silenciosa` | Primavera silenciosa | Rachel Carson | 1962 |
 
 ## Arte — 4
 
@@ -44,7 +45,7 @@ Son los que más se notan: alguien los abre hoy y no ve nada tuyo.
 | `will-smith` | Will | Will Smith y Mark Manson | 2021 |
 | `frida-herrera` | Frida | Hayden Herrera | 1983 |
 
-## Literatura — 8
+## Literatura — 9
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
@@ -53,16 +54,18 @@ Son los que más se notan: alguien los abre hoy y no ve nada tuyo.
 | `senor-anillos` | El señor de los anillos | J. R. R. Tolkien | 1954 |
 | `codigo-da-vinci` | El código Da Vinci | Dan Brown | 2003 |
 | `cumbres-borrascosas` | Cumbres borrascosas | Emily Brontë | 1847 |
+| `jane-eyre` | Jane Eyre | Charlotte Brontë | 1847 |
 | `siddhartha` | Siddhartha | Hermann Hesse | 1922 |
 | `come-reza-ama` | Come, reza, ama | Elizabeth Gilbert | 2006 |
 | `perfume` | El perfume | Patrick Süskind | 1985 |
 
-## Psicología — 40
+## Psicología — 43
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
 | `cosas-buenas` | Cómo hacer que te pasen cosas buenas | Marian Rojas Estapé | 2018 |
 | `inteligencia-erotica` | Inteligencia erótica | Esther Perel | 2006 |
+| `nueva-mirada-infidelidad` | Una nueva mirada a la infidelidad | Esther Perel | 2017 |
 | `gottman-pareja` | Siete reglas de oro para vivir en pareja | John Gottman | 1999 |
 | `arte-seduccion` | El arte de la seducción | Robert Greene | 2001 |
 | `48-leyes-poder` | Las 48 leyes del poder | Robert Greene | 1998 |
@@ -76,6 +79,7 @@ Son los que más se notan: alguien los abre hoy y no ve nada tuyo.
 | `poder-5-segundos` | El poder de los 5 segundos | Mel Robbins | 2017 |
 | `organizate-eficacia` | Organízate con eficacia | David Allen | 2001 |
 | `traguese-sapo` | Tráguese ese sapo | Brian Tracy | 2001 |
+| `cambia-el-chip` | Cambia el chip | Chip y Dan Heath | 2010 |
 | `ideas-que-pegan` | Ideas que pegan | Chip y Dan Heath | 2007 |
 | `magia-pensar-grande` | La magia de pensar en grande | David Schwartz | 1959 |
 | `despertando-gigante` | Despertando al gigante interior | Tony Robbins | 1991 |
@@ -89,6 +93,7 @@ Son los que más se notan: alguien los abre hoy y no ve nada tuyo.
 | `arte-no-amargarse` | El arte de no amargarse la vida | Rafael Santandreu | 2011 |
 | `nunca-comas-solo` | Nunca comas solo | Keith Ferrazzi | 2005 |
 | `poder-introvertidos` | El poder de los introvertidos | Susan Cain | 2012 |
+| `mente-justos` | La mente de los justos | Jonathan Haidt | 2012 |
 | `adulto-relaciones` | Cómo ser un adulto en las relaciones | David Richo | 2002 |
 | `dopamina-lieberman` | Dopamina | Daniel Z. Lieberman y Michael E. Long | 2018 |
 | `segundo-cerebro` | Crea tu segundo cerebro | Tiago Forte | 2022 |
@@ -102,7 +107,7 @@ Son los que más se notan: alguien los abre hoy y no ve nada tuyo.
 | `ego-es-el-enemigo` | El ego es el enemigo | Ryan Holiday | 2016 |
 | `cinco-arrepentimientos` | Los cinco arrepentimientos de los moribundos | Bronnie Ware | 2011 |
 
-## Economía — 8
+## Economía — 12
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
@@ -111,11 +116,15 @@ Son los que más se notan: alguien los abre hoy y no ve nada tuyo.
 | `empieza-porque` | Empieza con el porqué | Simon Sinek | 2009 |
 | `millonario-automatico` | El millonario automático | David Bach | 2004 |
 | `oceano-azul` | La estrategia del océano azul | Kim y Mauborgne | 2005 |
+| `empresas-sobresalen` | Empresas que sobresalen | Jim Collins | 2001 |
 | `bolsa-o-vida` | La bolsa o la vida | Robin y Dominguez | 1992 |
 | `ensenare-ser-rico` | Te enseñaré a ser rico | Ramit Sethi | 2009 |
+| `creatividad-sa` | Creatividad, S.A. | Ed Catmull y Amy Wallace | 2014 |
+| `camino-libertad-financiera` | El camino hacia la libertad financiera | Bodo Schäfer | 1998 |
+| `cinco-disfunciones` | Las cinco disfunciones de un equipo | Patrick Lencioni | 2002 |
 | `esencialismo` | Esencialismo | Greg McKeown | 2014 |
 
-## Salud — 5
+## Salud — 6
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
@@ -124,6 +133,7 @@ Son los que más se notan: alguien los abre hoy y no ve nada tuyo.
 | `magia-orden` | La magia del orden | Marie Kondo | 2011 |
 | `metodo-wim-hof` | El método Wim Hof | Wim Hof | 2020 |
 | `revolucion-glucosa` | La revolución de la glucosa | Jessie Inchauspé | 2022 |
+| `cerebro-hambriento` | El cerebro hambriento | Stephan Guyenet | 2017 |
 
 ## Deportes — 2
 
@@ -133,7 +143,7 @@ Son los que más se notan: alguien los abre hoy y no ve nada tuyo.
 | `correr-o-morir` | Correr o morir | Kilian Jornet | 2011 |
 
 
-# BLOQUE 2 — 128 libros del catálogo aún sin escribir
+# BLOQUE 2 — 118 libros del catálogo aún sin escribir
 
 Estos todavía no tienen resumen, así que no corren prisa.
 
@@ -167,7 +177,7 @@ Estos todavía no tienen resumen, así que no corren prisa.
 | `banquete` | El banquete | Platón | 385 a.C. |
 | `sobre-la-libertad` | Sobre la libertad | John Stuart Mill | 1859 |
 
-## Ciencia — 11
+## Ciencia — 10
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
@@ -179,7 +189,6 @@ Estos todavía no tienen resumen, así que no corren prisa.
 | `caos-gleick` | Caos | James Gleick | 1987 |
 | `informacion-gleick` | La información | James Gleick | 2011 |
 | `vida-3-0` | Vida 3.0 | Max Tegmark | 2017 |
-| `primavera-silenciosa` | Primavera silenciosa | Rachel Carson | 1962 |
 | `futuro-nuestra-mente` | El futuro de nuestra mente | Michio Kaku | 2014 |
 | `tecnologias-radicales` | Tecnologías radicales | Adam Greenfield | 2017 |
 
@@ -195,12 +204,11 @@ Estos todavía no tienen resumen, así que no corren prisa.
 | `el-guion` | El guion | Robert McKee | 1997 |
 | `viaje-del-escritor` | El viaje del escritor | Christopher Vogler | 1992 |
 
-## Literatura — 16
+## Literatura — 15
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
 | `juegos-hambre` | Los juegos del hambre | Suzanne Collins | 2008 |
-| `jane-eyre` | Jane Eyre | Charlotte Brontë | 1847 |
 | `el-proceso` | El proceso | Franz Kafka | 1925 |
 | `alicia-maravillas` | Alicia en el país de las maravillas | Lewis Carroll | 1865 |
 | `jekyll-hyde` | El extraño caso del doctor Jekyll y el señor Hyde | R. L. Stevenson | 1886 |
@@ -216,12 +224,10 @@ Estos todavía no tienen resumen, así que no corren prisa.
 | `mil-soles` | Mil soles espléndidos | Khaled Hosseini | 2007 |
 | `martes-con-mi-profesor` | Martes con mi viejo profesor | Mitch Albom | 1997 |
 
-## Psicología — 32
+## Psicología — 29
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
-| `nueva-mirada-infidelidad` | Una nueva mirada a la infidelidad | Esther Perel | 2017 |
-| `cambia-el-chip` | Cambia el chip | Chip y Dan Heath | 2010 |
 | `poder-sin-limites` | Poder sin límites | Tony Robbins | 1986 |
 | `actitud-mental-positiva` | La actitud mental positiva | Napoleon Hill y W. Clement Stone | 1959 |
 | `vendedor-mas-grande` | El vendedor más grande del mundo | Og Mandino | 1968 |
@@ -236,7 +242,6 @@ Estos todavía no tienen resumen, así que no corren prisa.
 | `haz-cosas-dificiles` | Haz cosas difíciles | Steve Magness | 2022 |
 | `procrastinacion-steel` | Procrastinación | Piers Steel | 2010 |
 | `no-lo-pienses-demasiado` | No lo pienses demasiado | Anne Bogel | 2020 |
-| `mente-justos` | La mente de los justos | Jonathan Haidt | 2012 |
 | `poder-magico-voluntad` | El poder mágico de la voluntad | Claude M. Bristol | 1948 |
 | `treinta-dias` | 30 días | Marc Reklau | 2014 |
 | `cientifico-espacial` | Piensa como un científico espacial | Ozan Varol | 2020 |
@@ -253,7 +258,7 @@ Estos todavía no tienen resumen, así que no corren prisa.
 | `ley-de-atraccion` | La ley de la atracción | Esther y Jerry Hicks | 2006 |
 | `hazte-rico-durmiendo` | Hazte rico mientras duermes | Ben Sweetland | 1962 |
 
-## Economía — 31
+## Economía — 27
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
@@ -264,7 +269,6 @@ Estos todavía no tienen resumen, así que no corren prisa.
 | `transformacion-dinero` | La transformación total de su dinero | Dave Ramsey | 2003 |
 | `vender-es-humano` | Vender es humano | Daniel H. Pink | 2012 |
 | `arte-de-empezar` | El arte de empezar | Guy Kawasaki | 2004 |
-| `empresas-sobresalen` | Empresas que sobresalen | Jim Collins | 2001 |
 | `efecto-compuesto` | El efecto compuesto | Darren Hardy | 2010 |
 | `psicologia-venta` | Psicología de ventas | Brian Tracy | 2004 |
 | `cuadrante-flujo` | El cuadrante del flujo de dinero | Robert Kiyosaki | 1998 |
@@ -278,18 +282,15 @@ Estos todavía no tienen resumen, así que no corren prisa.
 | `viaja-gratis` | Viaja gratis | Nomadic Matt | 2015 |
 | `recompra-tu-tiempo` | Recompra tu tiempo | Dan Martell | 2023 |
 | `sprint-knapp` | Sprint | Jake Knapp | 2016 |
-| `creatividad-sa` | Creatividad, S.A. | Ed Catmull y Amy Wallace | 2014 |
 | `thinkertoys` | Thinkertoys | Michael Michalko | 1991 |
 | `planifica-tu-futuro` | Planifica tu futuro | Michael Hyatt y Daniel Harkavy | 2016 |
 | `amor-trabajo-no-correspondido` | Tu amor al trabajo no es correspondido | Sarah Jaffe | 2021 |
-| `camino-libertad-financiera` | El camino hacia la libertad financiera | Bodo Schäfer | 1998 |
 | `retirate-joven-rico` | Retírate joven y rico | Robert Kiyosaki | 2001 |
 | `cuatro-pilares-inversion` | Los cuatro pilares de la inversión | William Bernstein | 2002 |
 | `primeros-90-dias` | Los primeros 90 días | Michael Watkins | 2003 |
-| `cinco-disfunciones` | Las cinco disfunciones de un equipo | Patrick Lencioni | 2002 |
 | `sin-esfuerzo` | Sin esfuerzo | Greg McKeown | 2021 |
 
-## Salud — 11
+## Salud — 10
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
@@ -302,5 +303,4 @@ Estos todavía no tienen resumen, así que no corren prisa.
 | `adelgaza-para-siempre` | Adelgaza para siempre | Ángela Quintas | 2016 |
 | `libro-del-sueno` | El libro del sueño | Guy Meadows | 2014 |
 | `pleno-compromiso` | El poder del pleno compromiso | Jim Loehr y Tony Schwartz | 2003 |
-| `cerebro-hambriento` | El cerebro hambriento | Stephan Guyenet | 2017 |
 | `mente-en-forma` | Tu mente en forma | Wendy Suzuki | 2015 |
