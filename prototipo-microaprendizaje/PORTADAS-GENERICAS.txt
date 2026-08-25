@@ -1,0 +1,281 @@
+PORTADAS QUE FALTAN — solo libros que ya se leen y salen con portada genérica
+61 de 277 escritos. Las otras 216 ya son tuyas.
+
+CÓMO: PNG 1024 × 1536. El nombre del fichero es el id, tal cual, con .png.
+      Ejemplo: 48-leyes-poder.png
+
+
+PSICOLOGÍA — 32
+────────────────────────────────────────────────────────────
+
+cosas-buenas.png
+   Cómo hacer que te pasen cosas buenas
+   Marian Rojas Estapé, 2018
+
+inteligencia-erotica.png
+   Inteligencia erótica
+   Esther Perel, 2006
+
+gottman-pareja.png
+   Siete reglas de oro para vivir en pareja
+   John Gottman, 1999
+
+arte-seduccion.png
+   El arte de la seducción
+   Robert Greene, 2001
+
+48-leyes-poder.png
+   Las 48 leyes del poder
+   Robert Greene, 1998
+
+secreto-byrne.png
+   El secreto
+   Rhonda Byrne, 2006
+
+tus-zonas-erroneas.png
+   Tus zonas erróneas
+   Wayne Dyer, 1976
+
+cuatro-mil-semanas.png
+   Cuatro mil semanas
+   Oliver Burkeman, 2021
+
+rompe-barrera-no.png
+   Rompe la barrera del no
+   Chris Voss, 2016
+
+obtenga-el-si.png
+   Obtenga el sí
+   Fisher y Ury, 1981
+
+determinacion.png
+   Determinación
+   Angela Duckworth, 2016
+
+poder-5-segundos.png
+   El poder de los 5 segundos
+   Mel Robbins, 2017
+
+magia-pensar-grande.png
+   La magia de pensar en grande
+   David Schwartz, 1959
+
+dar-y-recibir.png
+   Dar y recibir
+   Adam Grant, 2013
+
+originales.png
+   Originales
+   Adam Grant, 2016
+
+piensalo-otra-vez.png
+   Piénsalo otra vez
+   Adam Grant, 2021
+
+maestria-greene.png
+   Maestría
+   Robert Greene, 2012
+
+leyes-naturaleza-humana.png
+   Las leyes de la naturaleza humana
+   Robert Greene, 2018
+
+pre-suasion.png
+   Pre-suasión
+   Robert Cialdini, 2016
+
+lenguaje-del-cuerpo.png
+   El lenguaje del cuerpo
+   Allan y Barbara Pease, 2004
+
+nunca-comas-solo.png
+   Nunca comas solo
+   Keith Ferrazzi, 2005
+
+poder-introvertidos.png
+   El poder de los introvertidos
+   Susan Cain, 2012
+
+dopamina-lieberman.png
+   Dopamina
+   Daniel Z. Lieberman y Michael E. Long, 2018
+
+segundo-cerebro.png
+   Crea tu segundo cerebro
+   Tiago Forte, 2022
+
+hombres-marte-mujeres-venus.png
+   Los hombres son de Marte, las mujeres son de Venus
+   John Gray, 1992
+
+mujeres-aman-demasiado.png
+   Mujeres que aman demasiado
+   Robin Norwood, 1985
+
+amar-o-depender.png
+   Amar o depender
+   Walter Riso, 1999
+
+comunicacion-no-violenta.png
+   Comunicación no violenta
+   Marshall Rosenberg, 1999
+
+conversaciones-cruciales.png
+   Conversaciones cruciales
+   Patterson, Grenny, McMillan y Switzler, 2002
+
+poder-de-la-presencia.png
+   El poder de la presencia
+   Amy Cuddy, 2015
+
+obstaculo-es-camino.png
+   El obstáculo es el camino
+   Ryan Holiday, 2014
+
+cinco-arrepentimientos.png
+   Los cinco arrepentimientos de los moribundos
+   Bronnie Ware, 2011
+
+
+ECONOMÍA — 6
+────────────────────────────────────────────────────────────
+
+elon-musk.png
+   Elon Musk
+   Walter Isaacson, 2023
+
+quien-queso.png
+   ¿Quién se ha llevado mi queso?
+   Spencer Johnson, 1998
+
+empieza-porque.png
+   Empieza con el porqué
+   Simon Sinek, 2009
+
+millonario-automatico.png
+   El millonario automático
+   David Bach, 2004
+
+ensenare-ser-rico.png
+   Te enseñaré a ser rico
+   Ramit Sethi, 2009
+
+esencialismo.png
+   Esencialismo
+   Greg McKeown, 2014
+
+
+HISTORIA — 5
+────────────────────────────────────────────────────────────
+
+origenes-totalitarismo.png
+   Los orígenes del totalitarismo
+   Hannah Arendt, 1951
+
+eichmann-jerusalen.png
+   Eichmann en Jerusalén
+   Hannah Arendt, 1963
+
+becoming.png
+   Mi historia
+   Michelle Obama, 2018
+
+malcolm-x.png
+   Autobiografía de Malcolm X
+   Malcolm X y Alex Haley, 1965
+
+21-lecciones.png
+   21 lecciones para el siglo XXI
+   Yuval Noah Harari, 2018
+
+
+LITERATURA — 5
+────────────────────────────────────────────────────────────
+
+casa-espiritus.png
+   La casa de los espíritus
+   Isabel Allende, 1982
+
+harry-potter-1.png
+   Harry Potter y la piedra filosofal
+   J. K. Rowling, 1997
+
+senor-anillos.png
+   El señor de los anillos
+   J. R. R. Tolkien, 1954
+
+cumbres-borrascosas.png
+   Cumbres borrascosas
+   Emily Brontë, 1847
+
+siddhartha.png
+   Siddhartha
+   Hermann Hesse, 1922
+
+
+SALUD — 5
+────────────────────────────────────────────────────────────
+
+dilema-omnivoro.png
+   El dilema del omnívoro
+   Michael Pollan, 2006
+
+tal-como-eres.png
+   Tal como eres
+   Emily Nagoski, 2015
+
+magia-orden.png
+   La magia del orden
+   Marie Kondo, 2011
+
+metodo-wim-hof.png
+   El método Wim Hof
+   Wim Hof, 2020
+
+revolucion-glucosa.png
+   La revolución de la glucosa
+   Jessie Inchauspé, 2022
+
+
+ARTE — 4
+────────────────────────────────────────────────────────────
+
+arte-sin-hombres.png
+   Historia del arte sin hombres
+   Katy Hessel, 2022
+
+van-gogh-cartas.png
+   Cartas a Theo
+   Vincent van Gogh, 1914
+
+will-smith.png
+   Will
+   Will Smith y Mark Manson, 2021
+
+frida-herrera.png
+   Frida
+   Hayden Herrera, 1983
+
+
+CIENCIA — 2
+────────────────────────────────────────────────────────────
+
+por-que-amamos.png
+   Por qué amamos
+   Helen Fisher, 2004
+
+el-cerebro.png
+   El cerebro
+   David Eagleman, 2015
+
+
+DEPORTES — 2
+────────────────────────────────────────────────────────────
+
+relentless.png
+   Imparable
+   Tim Grover, 2013
+
+correr-o-morir.png
+   Correr o morir
+   Kilian Jornet, 2011

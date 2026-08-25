@@ -14,7 +14,7 @@ Al 2026-08-25: **418 libros** en el catálogo, **216 con cubierta tuya**, **202 
 > perdió ninguna. Ninguna portada se retira sin que Pablo lo diga.
 
 
-# BLOQUE 1 — 60 libros que YA SE PUEDEN LEER y salen sin portada
+# BLOQUE 1 — 61 libros que YA SE PUEDEN LEER y salen sin portada
 
 Son los que más se notan: alguien los abre hoy y no ve nada tuyo.
 
@@ -54,7 +54,7 @@ Son los que más se notan: alguien los abre hoy y no ve nada tuyo.
 | `cumbres-borrascosas` | Cumbres borrascosas | Emily Brontë | 1847 |
 | `siddhartha` | Siddhartha | Hermann Hesse | 1922 |
 
-## Psicología — 31
+## Psicología — 32
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
@@ -74,6 +74,7 @@ Son los que más se notan: alguien los abre hoy y no ve nada tuyo.
 | `dar-y-recibir` | Dar y recibir | Adam Grant | 2013 |
 | `originales` | Originales | Adam Grant | 2016 |
 | `piensalo-otra-vez` | Piénsalo otra vez | Adam Grant | 2021 |
+| `maestria-greene` | Maestría | Robert Greene | 2012 |
 | `leyes-naturaleza-humana` | Las leyes de la naturaleza humana | Robert Greene | 2018 |
 | `pre-suasion` | Pre-suasión | Robert Cialdini | 2016 |
 | `lenguaje-del-cuerpo` | El lenguaje del cuerpo | Allan y Barbara Pease | 2004 |
@@ -119,7 +120,7 @@ Son los que más se notan: alguien los abre hoy y no ve nada tuyo.
 | `correr-o-morir` | Correr o morir | Kilian Jornet | 2011 |
 
 
-# BLOQUE 2 — 142 libros del catálogo aún sin escribir
+# BLOQUE 2 — 141 libros del catálogo aún sin escribir
 
 Estos todavía no tienen resumen, así que no corren prisa.
 
@@ -205,7 +206,7 @@ Estos todavía no tienen resumen, así que no corren prisa.
 | `mil-soles` | Mil soles espléndidos | Khaled Hosseini | 2007 |
 | `martes-con-mi-profesor` | Martes con mi viejo profesor | Mitch Albom | 1997 |
 
-## Psicología — 41
+## Psicología — 40
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
@@ -220,7 +221,6 @@ Estos todavía no tienen resumen, así que no corren prisa.
 | `actitud-mental-positiva` | La actitud mental positiva | Napoleon Hill y W. Clement Stone | 1959 |
 | `vendedor-mas-grande` | El vendedor más grande del mundo | Og Mandino | 1968 |
 | `21-leyes-liderazgo` | Las 21 leyes irrefutables del liderazgo | John C. Maxwell | 1998 |
-| `maestria-greene` | Maestría | Robert Greene | 2012 |
 | `hombres-no-escuchan` | Por qué los hombres no escuchan y las mujeres no saben leer los mapas | Allan y Barbara Pease | 1998 |
 | `arte-no-amargarse` | El arte de no amargarse la vida | Rafael Santandreu | 2011 |
 | `cinco-heridas` | Las cinco heridas que impiden ser uno mismo | Lise Bourbeau | 2000 |
