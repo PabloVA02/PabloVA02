@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "cuadrante-flujo": "Guía del padre rico hacia la libertad financiera",
   "efecto-compuesto": "Multiplicar el éxito de forma sencilla",
   "vender-es-humano": "La sorprendente verdad sobre cómo convencer a los demás",
   gulag: "Historia de los campos de concentración soviéticos",

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cuadrante-flujo":
+    "Kiyosaki reparte el mundo en cuatro casillas según de dónde llega el dinero: empleado, autónomo, dueño de un negocio e inversor. Su afirmación es que casi todo el mundo discute cuánto cobra y casi nadie de cuál de las cuatro le viene.",
+
   "ciencia-hacerse-rico":
     "Un folleto de 1910 que sostiene que hacerse rico no es cuestión de suerte ni de entorno, sino una ciencia exacta con leyes como las del álgebra. Estuvo olvidado casi todo el siglo XX y hoy se vende en decenas de idiomas.",
 

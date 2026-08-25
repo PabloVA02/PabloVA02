@@ -88433,7 +88433,302 @@ const CIENCIA_HACERSE_RICO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El cuadrante del flujo de dinero, en ocho paginas.
+
+   Breve. ECONOMIA y libro practico de dinero -> afirmacion entera en el rotulo
+   y SEGUNDA PERSONA en la caja.
+
+   Seis argumentos: los dos cuadrantes que cambian tiempo por dinero, la
+   diferencia entre un negocio y un empleo propio, el sistema que funciona sin
+   uno, la inversion, el orden de cobrar y pagar impuestos, y la alfabetizacion
+   financiera.
+
+   La mejor pieza del libro y la que hay que contar bien: la diferencia entre S
+   y B. Un autonomo con clientes propios no tiene un negocio, tiene un empleo que
+   no puede vender y que se para si el se para.
+
+   La conclusion tiene que dar tres cosas: que nunca se ha identificado al padre
+   rico y que Kiyosaki ha dado respuestas distintas sobre si existio; que el
+   argumento fiscal es estadounidense y depende de estructuras que casi nadie
+   tiene; y que en 2012 una de sus sociedades, Rich Global, se declaro en
+   quiebra despues de perder un pleito millonario con la empresa que le
+   organizaba conferencias.
+   -------------------------------------------------------------------------- */
+
+const CUADRANTE_FLUJO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que decide tu situación no es cuánto ganas, sino de cuál de cuatro sitios te viene el dinero",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robert Kiyosaki publicó esto en 1998, como continuación de un libro anterior, y su aportación cabe en un dibujo. Un cuadrado partido en cuatro. Arriba a la izquierda, la E de empleado. Debajo, la S de autónomo o profesional por cuenta propia. Arriba a la derecha, la B de dueño de un negocio. Debajo, la I de inversor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación es que casi todo el mundo discute la cifra —cuánto cobro, cuánto quiero cobrar— y casi nadie discute la casilla, cuando la casilla decide muchísimo más. Dos personas que ingresan lo mismo desde cuadrantes distintos tienen vidas distintas: pagan impuestos distintos, corren riesgos distintos y dejan de cobrar por motivos distintos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La línea que le importa es la vertical. En la izquierda, el dinero llega a cambio del tiempo de una persona concreta: si esa persona deja de trabajar, el ingreso se para. En la derecha, el dinero llega de algo que funciona sin que su dueño esté delante: un sistema con gente dentro, o un capital colocado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre qué comparten el empleado y el autónomo aunque se crean opuestos, por qué tener clientes propios no es tener un negocio, qué hace falta para estar en el lado derecho, qué exige de verdad invertir, por qué el orden en que se cobra y se pagan impuestos lo cambia todo, y qué hay que saber de este libro antes de aplicarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todo el mundo discute cuánto cobra y casi nadie de dónde le viene. Lo segundo decide más que lo primero.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El empleado y el autónomo parecen opuestos y comparten lo esencial: los dos venden su tiempo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kiyosaki empieza juntando dos figuras que suelen contarse como contrarias. El empleado busca seguridad y prestaciones; el autónomo busca independencia y odia que le manden. Lo que comparten es que en los dos casos el ingreso depende de que una persona concreta se levante y trabaje, y se detiene cuando esa persona se detiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre el empleado hace una observación que se comprueba fácil. Su seguridad no depende de él: depende de decisiones que se toman en despachos donde no está, y que pueden cambiar en una tarde. Kiyosaki señala que un contrato indefinido no es una garantía sino una expectativa, y que la sensación de estabilidad es lo que hace que casi nadie prepare una alternativa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre el autónomo es más duro, y ahí está la parte útil. Dice que quien se va por su cuenta para no tener jefe suele acabar con veinte jefes, que son sus clientes, y trabajando más horas que antes. La independencia que consigue es sobre el horario y sobre las decisiones pequeñas, y casi nunca sobre la dependencia de su propio tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade el detalle que más duele de ese cuadrante. Un empleado tiene vacaciones pagadas y una baja; un autónomo que se pone enfermo dos meses deja de ingresar dos meses, y además pierde clientes que se van a otro sitio y no vuelven. Cuanto mejor le va, más difícil le resulta parar, porque todo depende de que esté.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El que se va por su cuenta para no tener jefe suele acabar con veinte jefes, que son sus clientes, y trabajando más horas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Tener clientes propios no es tener un negocio: es tener un empleo que no puedes vender",
+      },
+      {
+        b: "texto",
+        texto:
+          "La mejor pieza del libro es una prueba de una sola pregunta, y sirve para cualquier actividad. Si te vas un año, ¿el negocio sigue funcionando y sigue generando dinero? Si la respuesta es no, no tienes un negocio: tienes un puesto de trabajo del que resultas ser el dueño, y eso es otra cosa distinta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia se ve con más claridad al intentar venderlo. Un despacho que funciona porque el cliente confía en una persona concreta no vale casi nada sin esa persona, porque lo que se estaba comprando era ella. Un negocio con procesos, con equipo y con clientes que vienen por la marca se puede vender, y esa es exactamente la prueba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kiyosaki señala por qué mucha gente muy buena se queda ahí toda su vida. Quien hace algo mejor que nadie tiende a hacerlo él, porque delegarlo significa que salga peor durante meses y perder clientes por el camino. La excelencia personal, dice, es justo lo que impide construir un sistema, y por eso los mejores profesionales rara vez montan empresas grandes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da el consejo que se deduce de todo eso y que casi nadie sigue. Antes de crecer en volumen de trabajo, hay que escribir cómo se hace lo que se hace, para que otro pueda hacerlo. Es un trabajo aburrido que no da dinero el mes que se hace, y es lo único que separa un oficio propio de algo que pueda existir sin uno.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si te vas un año y aquello se para, no tienes un negocio: tienes un puesto de trabajo del que resultas ser el dueño.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un negocio de verdad es un sistema que funciona sin su dueño, y montarlo se parece poco a trabajar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kiyosaki define el cuadrante de la derecha superior con un criterio concreto: el dueño de un negocio no trabaja en el negocio, trabaja sobre el negocio. Lo que hace es diseñar el sistema, poner a la gente adecuada dentro y ocuparse de que funcione, y no es la persona que atiende a los clientes ni la que fabrica el producto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale una lista de lo que hace falta y que no coincide con lo que tiene un buen profesional. Saber elegir personas y aguantar cuando se elige mal. Saber describir un proceso para que lo ejecute alguien peor que uno mismo. Saber vender, porque nadie compra por casualidad. Y aguantar meses sin cobrar mientras el sistema se monta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kiyosaki insiste en que la mayor dificultad de ese salto no es técnica sino de carácter. Quien viene del cuadrante de los autónomos está acostumbrado a que las cosas salgan bien porque las hace él, y montar un sistema significa aceptar durante bastante tiempo que salgan peor. Mucha gente no soporta esa etapa y vuelve a hacerlo todo ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir aquí lo que el libro no dice con claridad. Ese salto exige capital para sostener los meses malos, tiempo sin ingresar y capacidad de aguantar un fracaso completo, y esas tres cosas no están repartidas por igual. Kiyosaki lo presenta como una decisión de mentalidad, y en buena medida es una decisión que depende del colchón que se tenga.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Montar un sistema significa aceptar durante meses que las cosas salgan peor que si las hicieras tú. Ahí se cae casi todo el mundo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Invertir no es comprar cosas que suban: es comprar cosas que paguen mientras se tienen",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuarto cuadrante es el del inversor, y Kiyosaki lo define de una manera que descarta buena parte de lo que la gente llama invertir. Le interesa lo que produce un ingreso periódico mientras se posee —un alquiler, un dividendo, un interés— y no lo que se compra esperando venderlo más caro, que él considera especulación y trata aparte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La distinción tiene una consecuencia práctica clara. Un piso que sube de precio no da de comer hasta que se vende, y solo se puede vender una vez; un piso alquilado paga todos los meses y se sigue teniendo. Lo primero es una apuesta sobre el futuro y lo segundo es un ingreso, y confundirlos es el error más común del cuadrante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kiyosaki reparte a los inversores en niveles según lo que saben, y esa parte del libro sí es sensata. Sostiene que la mayoría entrega su dinero a alguien para que decida por ella sin saber qué se está haciendo con él, y que eso no es invertir sino delegar, y que se paga por ello aunque no aparezca en ningún sitio como una comisión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da la advertencia que más se olvida de este libro, precisamente porque no encaja con su fama. Dice que el cuadrante de la derecha no es el sitio seguro sino el de más riesgo, y que quien llega ahí sin haber aprendido pierde el dinero deprisa. La velocidad para ganar y para perder es la misma, y depende de lo que se sepa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que sube de precio solo da dinero una vez, cuando lo vendes. Lo que paga mientras lo tienes es otra cosa distinta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El orden en que se cobra y se pagan impuestos cambia el resultado más que el tipo impositivo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento más concreto del libro es fiscal y funciona así. Un empleado cobra, le retienen los impuestos y con lo que queda paga sus gastos. Una sociedad cobra, paga sus gastos legítimos y tributa por lo que sobra. La cifra bruta puede ser la misma y el orden de las operaciones cambia el resultado final.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kiyosaki lo presenta como la ventaja estructural del lado derecho del cuadrante, y en su país lo es. Un negocio puede deducir el vehículo, el local, la formación, los viajes de trabajo y buena parte de lo que necesita para funcionar; un asalariado paga esas mismas cosas con dinero que ya ha tributado, y no puede descontarse casi nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay que decir dos cosas sobre eso. La primera es que el argumento es cierto y está bien visto, y explica una parte de las diferencias que la gente atribuye solo a los ingresos. La segunda es que es un argumento estadounidense y de 1998, y que las reglas concretas cambian mucho de país a país y de año a año.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un límite que el libro no marca y conviene marcar. Todo eso funciona cuando hay una actividad real con gastos reales; deducir cosas que no son de la actividad no es una estrategia fiscal sino un fraude, y esa frontera, que en el texto queda difusa, la define la ley de cada sitio y no la mentalidad de nadie.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un asalariado paga sus gastos con dinero que ya ha tributado. Una sociedad tributa por lo que le queda después de pagarlos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que Kiyosaki llama educación financiera son cuatro cosas que no se enseñan en ningún colegio",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro insiste en que el problema no es de dinero sino de conocimiento, y concreta cuál. La primera pieza es saber leer un balance y una cuenta de resultados, distinguir un activo de un pasivo y entender qué significa realmente cada línea. Sin eso, dice, cualquiera puede enseñarle a alguien un negocio y contarle lo que quiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es entender qué es un activo con su definición, que es la parte más citada de su obra. Un activo mete dinero en el bolsillo cada mes y un pasivo lo saca, independientemente de cómo lo llame el banco o de si aparece en el patrimonio. Con esa definición, la casa en la que uno vive con hipoteca no es un activo, y es una idea que sigue provocando discusiones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es conocer las reglas del sitio donde se juega: la ley fiscal, la de sociedades, la de arrendamientos. Kiyosaki señala que quienes van al cuadrante derecho sin saberlas dependen por completo de lo que les diga su asesor, y que un asesor sabe lo suyo y no sabe qué le conviene a esa persona en concreto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la cuarta es la que él considera decisiva y la que menos gusta oír: aprender a perder dinero sin dejar de jugar. Sostiene que en el lado derecho se pierde varias veces antes de acertar, que eso está dentro del precio de la entrada, y que quien no puede permitirse perder nada no debería cruzar esa línea todavía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un activo mete dinero en tu bolsillo cada mes y un pasivo lo saca. Con esa definición, muchas cosas cambian de lado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son tres cosas y son buenas. La prueba de si aquello sigue funcionando cuando uno se va un año, que distingue un negocio de un empleo propio. La distinción entre lo que sube de precio y lo que paga mientras se tiene. Y el argumento del orden de las operaciones fiscales, que explica diferencias que suelen atribuirse solo al sueldo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en su fuente. Todo el edificio se apoya en un mentor al que Kiyosaki llama su padre rico y que nunca se ha identificado; preguntado por ello a lo largo de los años ha dado respuestas distintas, incluida la de que se trata de una figura construida. Un libro entero de consejos económicos sostenido sobre la autoridad de alguien que quizá no existió es un problema de base.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en lo que promete y no explica. El cuadrante describe cuatro sitios con mucha claridad y no dice cómo se pasa de uno a otro, que es lo único que el lector necesita; y el argumento fiscal, que es su pieza más fuerte, está escrito para las reglas estadounidenses de 1998 y depende de estructuras que la mayoría de la gente no puede montar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un dato de después que conviene tener. En 2012, una de las sociedades de Kiyosaki, dedicada a la marca de sus libros, se declaró en quiebra tras perder un pleito millonario con la empresa que le organizaba las conferencias. Él explicó que era una de sus muchas sociedades y que su patrimonio personal no se veía afectado, que es exactamente la lección de estructura que enseña este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hazte la pregunta del año: si te fueras doce meses, ¿aquello seguiría dando dinero? La respuesta te dice en qué casilla estás.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cuadrante-flujo": CUADRANTE_FLUJO,
   "ciencia-hacerse-rico": CIENCIA_HACERSE_RICO,
   "efecto-compuesto": EFECTO_COMPUESTO,
   "miedo-libertad": MIEDO_LIBERTAD,
