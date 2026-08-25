@@ -1,131 +1,235 @@
-# Portadas que faltan — 78 de 223
+# Portadas que faltan
 
-Van **145 hechas**. Estas son las que quedan.
+Al 2026-08-25: 352 libros en el catálogo, 168 con cubierta, **184 sin ella**.
 
-**Formato: PNG, 1024 × 1536** (proporción 2:3 exacta), que es la que ya usas y
-la que usa Headway. El fichero tiene que llamarse **exactamente** como pone en
-la primera columna: ese nombre es el identificador del libro en el catálogo, y
-si no coincide la cubierta se rechaza en vez de colarse en el libro
-equivocado.
+El fichero de cada una se llama como el id, en PNG a 1024 × 1536.
 
-Puedes mandarlas en tandas, en un zip, y no hace falta que sigas ningún orden.
-Si vas a elegir, **Deportes es lo más urgente: no tiene ni una sola.**
+## Arte — 18
 
-
-## Literatura — 24
-
-| fichero | libro | autor | año |
+| id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
-| `cuentos-poe.png` | Cuentos de Edgar Allan Poe | Edgar Allan Poe | 1845 |
-| `mujercitas.png` | Mujercitas | Louisa May Alcott | 1868 |
-| `renglones-torcidos.png` | Los renglones torcidos de Dios | Torcuato Luca de Tena | 1979 |
-| `elegancia-erizo.png` | La elegancia del erizo | Muriel Barbery | 2006 |
-| `el-tunel.png` | El túnel | Ernesto Sabato | 1948 |
-| `guerra-y-paz.png` | Guerra y paz | León Tolstói | 1869 |
-| `casa-espiritus.png` | La casa de los espíritus | Isabel Allende | 1982 |
-| `rayuela.png` | Rayuela | Julio Cortázar | 1963 |
-| `bernarda-alba.png` | La casa de Bernarda Alba | Federico García Lorca | 1936 |
-| `ficciones.png` | Ficciones | Jorge Luis Borges | 1944 |
-| `madame-bovary.png` | Madame Bovary | Gustave Flaubert | 1856 |
-| `ana-karenina.png` | Ana Karenina | León Tolstói | 1877 |
-| `extranjero.png` | El extranjero | Albert Camus | 1942 |
-| `los-miserables.png` | Los miserables | Victor Hugo | 1862 |
-| `guardian-centeno.png` | El guardián entre el centeno | J. D. Salinger | 1951 |
-| `pedro-paramo.png` | Pedro Páramo | Juan Rulfo | 1955 |
-| `nombre-rosa.png` | El nombre de la rosa | Umberto Eco | 1980 |
-| `viejo-mar.png` | El viejo y el mar | Ernest Hemingway | 1952 |
-| `dracula.png` | Drácula | Bram Stoker | 1897 |
-| `dorian-gray.png` | El retrato de Dorian Gray | Oscar Wilde | 1890 |
-| `frankenstein.png` | Frankenstein | Mary Shelley | 1818 |
-| `senor-moscas.png` | El señor de las moscas | William Golding | 1954 |
-| `mundo-feliz.png` | Un mundo feliz | Aldous Huxley | 1932 |
-| `odisea.png` | La Odisea | Homero | 750 a.C. |
+| `van-gogh-cartas` | Cartas a Theo | Vincent van Gogh | 1914 |
+| `confesiones-chef` | Confesiones de un chef | Anthony Bourdain | 2000 |
+| `espiritual-arte` | De lo espiritual en el arte | Vasili Kandinsky | 1911 |
+| `el-elemento` | El elemento | Ken Robinson | 2009 |
+| `el-guion` | El guion | Robert McKee | 1997 |
+| `heroe-mil-caras` | El héroe de las mil caras | Joseph Campbell | 1949 |
+| `viaje-del-escritor` | El viaje del escritor | Christopher Vogler | 1992 |
+| `just-kids` | Éramos unos niños | Patti Smith | 2010 |
+| `frida-herrera` | Frida | Hayden Herrera | 1983 |
+| `arte-sin-hombres` | Historia del arte sin hombres | Katy Hessel | 2022 |
+| `bauhaus` | La Bauhaus | Magdalena Droste | 1990 |
+| `reproductibilidad` | La obra de arte en la época de su reproductibilidad técnica | Walter Benjamin | 1936 |
+| `vidas-vasari` | Las vidas de los más excelentes pintores, escultores y arquitectos | Giorgio Vasari | 1550 |
+| `leonardo` | Leonardo da Vinci | Walter Isaacson | 2017 |
+| `modos-ver` | Modos de ver | John Berger | 1972 |
+| `mujeres-arte` | Mujeres artistas | Flavia Frigeri | 2019 |
+| `teoria-color` | Teoría del color | Johannes Itten | 1961 |
+| `will-smith` | Will | Will Smith y Mark Manson | 2021 |
 
-## Deportes — 21
+## Ciencia — 11
 
-| fichero | libro | autor | año |
+| id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
-| `siete-pecados.png` | Siete pecados capitales | David Walsh | 2012 |
-| `nunca-te-pares.png` | Nunca te pares | Phil Knight | 2016 |
-| `legado-all-blacks.png` | Legado | James Kerr | 2013 |
-| `gen-deportivo.png` | El gen deportivo | David Epstein | 2013 |
-| `numero-uno.png` | Número uno | Anders Ericsson | 2016 |
-| `hablo-correr.png` | De qué hablo cuando hablo de correr | Haruki Murakami | 2007 |
-| `rey-del-mundo.png` | Rey del mundo | David Remnick | 1998 |
-| `remando-un-hombre.png` | Remando como un solo hombre | Daniel James Brown | 2013 |
-| `mamba-mentality.png` | Mamba Mentality | Kobe Bryant | 2018 |
-| `once-anillos.png` | Once anillos | Phil Jackson | 2013 |
-| `moneyball.png` | Moneyball | Michael Lewis | 2003 |
-| `rafa-mi-historia.png` | Rafa, mi historia | Rafael Nadal y John Carlin | 2011 |
-| `soy-zlatan.png` | Yo soy Zlatan Ibrahimović | David Lagercrantz | 2011 |
-| `cruyff-14.png` | 14. La autobiografía de Johan Cruyff | Johan Cruyff | 2016 |
-| `fiebre-gradas.png` | Fiebre en las gradas | Nick Hornby | 1992 |
-| `futbol-contra-enemigo.png` | Fútbol contra el enemigo | Simon Kuper | 1994 |
-| `futbol-sol-sombra.png` | El fútbol a sol y sombra | Eduardo Galeano | 1995 |
-| `piramide-invertida.png` | La pirámide invertida | Jonathan Wilson | 2008 |
-| `yo-soy-el-diego.png` | Yo soy el Diego | Diego Armando Maradona | 2000 |
-| `open-agassi.png` | Open | Andre Agassi | 2009 |
-| `messi-ronaldo.png` | Messi vs. Ronaldo | Clegg y Robinson | 2021 |
+| `alicia-cuantos` | Alicia en el país de los cuantos | Robert Gilmore | 1995 |
+| `caos-gleick` | Caos | James Gleick | 1987 |
+| `el-cerebro` | El cerebro | David Eagleman | 2015 |
+| `cerebro-adolescente` | El cerebro adolescente | Frances Jensen | 2015 |
+| `cerebro-femenino` | El cerebro femenino | Louann Brizendine | 2006 |
+| `incognito` | Incógnito | David Eagleman | 2011 |
+| `informacion-gleick` | La información | James Gleick | 2011 |
+| `henrietta-lacks` | La vida inmortal de Henrietta Lacks | Rebecca Skloot | 2010 |
+| `madame-curie` | Madame Curie | Ève Curie | 1937 |
+| `por-que-amamos` | Por qué amamos | Helen Fisher | 2004 |
+| `vida-3-0` | Vida 3.0 | Max Tegmark | 2017 |
 
-## Historia — 13
+## Deportes — 23
 
-| fichero | libro | autor | año |
+| id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
-| `imperiofobia.png` | Imperiofobia y leyenda negra | María Elvira Roca Barea | 2016 |
-| `homo-sovieticus.png` | El fin del Homo Sovieticus | Svetlana Aleksiévich | 2013 |
-| `guerra-civil-thomas.png` | La guerra civil española | Hugh Thomas | 1961 |
-| `auschwitz-rees.png` | Auschwitz: los nazis y la solución final | Laurence Rees | 2005 |
-| `tatuador.png` | El tatuador de Auschwitz | Heather Morris | 2018 |
-| `historia-espana.png` | Una historia de España | Arturo Pérez-Reverte | 2019 |
-| `pilares-tierra.png` | Los pilares de la Tierra | Ken Follett | 1989 |
-| `homenaje-cataluna.png` | Homenaje a Cataluña | George Orwell | 1938 |
-| `origenes-totalitarismo.png` | Los orígenes del totalitarismo | Hannah Arendt | 1951 |
-| `sobre-tirania.png` | Sobre la tiranía | Timothy Snyder | 2017 |
-| `eichmann-jerusalen.png` | Eichmann en Jerusalén | Hannah Arendt | 1963 |
-| `chico-pijama.png` | El niño con el pijama de rayas | John Boyne | 2006 |
-| `si-esto-hombre.png` | Si esto es un hombre | Primo Levi | 1947 |
+| `cruyff-14` | 14. La autobiografía de Johan Cruyff | Johan Cruyff | 2016 |
+| `correr-o-morir` | Correr o morir | Kilian Jornet | 2011 |
+| `hablo-correr` | De qué hablo cuando hablo de correr | Haruki Murakami | 2007 |
+| `futbol-sol-sombra` | El fútbol a sol y sombra | Eduardo Galeano | 1995 |
+| `gen-deportivo` | El gen deportivo | David Epstein | 2013 |
+| `fiebre-gradas` | Fiebre en las gradas | Nick Hornby | 1992 |
+| `futbol-contra-enemigo` | Fútbol contra el enemigo | Simon Kuper | 1994 |
+| `relentless` | Imparable | Tim Grover | 2013 |
+| `piramide-invertida` | La pirámide invertida | Jonathan Wilson | 2008 |
+| `legado-all-blacks` | Legado | James Kerr | 2013 |
+| `mamba-mentality` | Mamba Mentality | Kobe Bryant | 2018 |
+| `messi-ronaldo` | Messi vs. Ronaldo | Clegg y Robinson | 2021 |
+| `moneyball` | Moneyball | Michael Lewis | 2003 |
+| `numero-uno` | Número uno | Anders Ericsson | 2016 |
+| `nunca-te-pares` | Nunca te pares | Phil Knight | 2016 |
+| `once-anillos` | Once anillos | Phil Jackson | 2013 |
+| `open-agassi` | Open | Andre Agassi | 2009 |
+| `rafa-mi-historia` | Rafa, mi historia | Rafael Nadal y John Carlin | 2011 |
+| `remando-un-hombre` | Remando como un solo hombre | Daniel James Brown | 2013 |
+| `rey-del-mundo` | Rey del mundo | David Remnick | 1998 |
+| `siete-pecados` | Siete pecados capitales | David Walsh | 2012 |
+| `yo-soy-el-diego` | Yo soy el Diego | Diego Armando Maradona | 2000 |
+| `soy-zlatan` | Yo soy Zlatan Ibrahimović | David Lagercrantz | 2011 |
 
-## Arte — 9
+## Economía — 21
 
-| fichero | libro | autor | año |
+| id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
-| `el-elemento.png` | El elemento | Ken Robinson | 2009 |
-| `heroe-mil-caras.png` | El héroe de las mil caras | Joseph Campbell | 1949 |
-| `reproductibilidad.png` | La obra de arte en la época de su reproductibilidad técnica | Walter Benjamin | 1936 |
-| `espiritual-arte.png` | De lo espiritual en el arte | Vasili Kandinsky | 1911 |
-| `vidas-vasari.png` | Las vidas de los más excelentes pintores, escultores y arquitectos | Giorgio Vasari | 1550 |
-| `van-gogh-cartas.png` | Cartas a Theo | Vincent van Gogh | 1914 |
-| `arte-sin-hombres.png` | Historia del arte sin hombres | Katy Hessel | 2022 |
-| `leonardo.png` | Leonardo da Vinci | Walter Isaacson | 2017 |
-| `modos-ver.png` | Modos de ver | John Berger | 1972 |
+| `quien-queso` | ¿Quién se ha llevado mi queso? | Spencer Johnson | 1998 |
+| `arte-de-empezar` | El arte de empezar | Guy Kawasaki | 2004 |
+| `capital-siglo-xxi` | El capital en el siglo XXI | Thomas Piketty | 2013 |
+| `coach-silicon-valley` | El coach de Silicon Valley | Schmidt, Rosenberg y Eagle | 2019 |
+| `cuadrante-flujo` | El cuadrante del flujo de dinero | Robert Kiyosaki | 1998 |
+| `efecto-compuesto` | El efecto compuesto | Darren Hardy | 2010 |
+| `hombre-rico-babilonia` | El hombre más rico de Babilonia | George S. Clason | 1926 |
+| `millonario-automatico` | El millonario automático | David Bach | 2004 |
+| `elon-musk` | Elon Musk | Walter Isaacson | 2023 |
+| `empieza-porque` | Empieza con el porqué | Simon Sinek | 2009 |
+| `empresas-sobresalen` | Empresas que sobresalen | Jim Collins | 2001 |
+| `bolsa-o-vida` | La bolsa o la vida | Robin y Dominguez | 1992 |
+| `ciencia-hacerse-rico` | La ciencia de hacerse rico | Wallace D. Wattles | 1910 |
+| `oceano-azul` | La estrategia del océano azul | Kim y Mauborgne | 2005 |
+| `promesa-lapiz` | La promesa de un lápiz | Adam Braun | 2014 |
+| `transformacion-dinero` | La transformación total de su dinero | Dave Ramsey | 2003 |
+| `ford-vida-obra` | Mi vida y obra | Henry Ford | 1922 |
+| `por-que-fracasan` | Por qué fracasan los países | Acemoglu y Robinson | 2012 |
+| `psicologia-venta` | Psicología de ventas | Brian Tracy | 2004 |
+| `repensar-pobreza` | Repensar la pobreza | Banerjee y Duflo | 2011 |
+| `vender-es-humano` | Vender es humano | Daniel H. Pink | 2012 |
 
-## Economía — 4
+## Filosofía — 7
 
-| fichero | libro | autor | año |
+| id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
-| `repensar-pobreza.png` | Repensar la pobreza | Banerjee y Duflo | 2011 |
-| `por-que-fracasan.png` | Por qué fracasan los países | Acemoglu y Robinson | 2012 |
-| `capital-siglo-xxi.png` | El capital en el siglo XXI | Thomas Piketty | 2013 |
-| `hombre-rico-babilonia.png` | El hombre más rico de Babilonia | George S. Clason | 1926 |
+| `amor-liquido` | Amor líquido | Zygmunt Bauman | 2003 |
+| `banquete` | El banquete | Platón | 385 a. C. |
+| `caballero-armadura` | El caballero de la armadura oxidada | Robert Fisher | 1989 |
+| `miedo-libertad` | El miedo a la libertad | Erich Fromm | 1941 |
+| `mundo-como-voluntad` | El mundo como voluntad y representación | Arthur Schopenhauer | 1818 |
+| `sobre-la-libertad` | Sobre la libertad | John Stuart Mill | 1859 |
+| `tener-o-ser` | Tener o ser | Erich Fromm | 1976 |
 
-## Psicología — 3
+## Historia — 26
 
-| fichero | libro | autor | año |
+| id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
-| `intro-psicoanalisis.png` | Introducción al psicoanálisis | Sigmund Freud | 1917 |
-| `cosas-buenas.png` | Cómo hacer que te pasen cosas buenas | Marian Rojas Estapé | 2018 |
-| `cerebro-buda.png` | El cerebro de Buda | Rick Hanson y Richard Mendius | 2009 |
+| `verano-1913` | 1913: el verano del siglo | Florian Illies | 2012 |
+| `21-lecciones` | 21 lecciones para el siglo XXI | Yuval Noah Harari | 2018 |
+| `auschwitz-rees` | Auschwitz: los nazis y la solución final | Laurence Rees | 2005 |
+| `malcolm-x` | Autobiografía de Malcolm X | Malcolm X y Alex Haley | 1965 |
+| `eichmann-jerusalen` | Eichmann en Jerusalén | Hannah Arendt | 1963 |
+| `homo-sovieticus` | El fin del Homo Sovieticus | Svetlana Aleksiévich | 2013 |
+| `chico-pijama` | El niño con el pijama de rayas | John Boyne | 2006 |
+| `tatuador` | El tatuador de Auschwitz | Heather Morris | 2018 |
+| `verano-1927` | El verano de 1927 | Bill Bryson | 2013 |
+| `en-la-sombra` | En la sombra | Príncipe Harry | 2023 |
+| `equipo-rivales` | Equipo de rivales | Doris Kearns Goodwin | 2005 |
+| `espia-traidor` | Espía y traidor | Ben Macintyre | 2018 |
+| `gulag` | Gulag | Anne Applebaum | 2003 |
+| `homenaje-cataluna` | Homenaje a Cataluña | George Orwell | 1938 |
+| `imperiofobia` | Imperiofobia y leyenda negra | María Elvira Roca Barea | 2016 |
+| `hambruna-mao` | La gran hambruna en la China de Mao | Frank Dikötter | 2010 |
+| `guerra-civil-thomas` | La guerra civil española | Hugh Thomas | 1961 |
+| `historia-mundo-objetos` | La historia del mundo en cien objetos | Neil MacGregor | 2010 |
+| `primera-guerra-keegan` | La primera guerra mundial | John Keegan | 1998 |
+| `origenes-totalitarismo` | Los orígenes del totalitarismo | Hannah Arendt | 1951 |
+| `pilares-tierra` | Los pilares de la Tierra | Ken Follett | 1989 |
+| `becoming` | Mi historia | Michelle Obama | 2018 |
+| `nexus` | Nexus | Yuval Noah Harari | 2024 |
+| `si-esto-hombre` | Si esto es un hombre | Primo Levi | 1947 |
+| `sobre-tirania` | Sobre la tiranía | Timothy Snyder | 2017 |
+| `historia-espana` | Una historia de España | Arturo Pérez-Reverte | 2019 |
 
-## Salud — 3
+## Literatura — 23
 
-| fichero | libro | autor | año |
+| id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
-| `poder-metabolismo.png` | El poder del metabolismo | Frank Suárez | 2006 |
-| `dilema-omnivoro.png` | El dilema del omnívoro | Michael Pollan | 2006 |
-| `cuerpo-cuenta.png` | El cuerpo lleva la cuenta | Bessel van der Kolk | 2014 |
+| `alicia-maravillas` | Alicia en el país de las maravillas | Lewis Carroll | 1865 |
+| `come-reza-ama` | Come, reza, ama | Elizabeth Gilbert | 2006 |
+| `kite-runner` | Cometas en el cielo | Khaled Hosseini | 2003 |
+| `cronica-muerte-anunciada` | Crónica de una muerte anunciada | Gabriel García Márquez | 1981 |
+| `cumbres-borrascosas` | Cumbres borrascosas | Emily Brontë | 1847 |
+| `amor-tiempos-colera` | El amor en los tiempos del cólera | Gabriel García Márquez | 1985 |
+| `codigo-da-vinci` | El código Da Vinci | Dan Brown | 2003 |
+| `jekyll-hyde` | El extraño caso del doctor Jekyll y el señor Hyde | R. L. Stevenson | 1886 |
+| `perfume` | El perfume | Patrick Süskind | 1985 |
+| `el-proceso` | El proceso | Franz Kafka | 1925 |
+| `senor-anillos` | El señor de los anillos | J. R. R. Tolkien | 1954 |
+| `tiempo-entre-costuras` | El tiempo entre costuras | María Dueñas | 2009 |
+| `harry-potter-1` | Harry Potter y la piedra filosofal | J. K. Rowling | 1997 |
+| `jane-eyre` | Jane Eyre | Charlotte Brontë | 1847 |
+| `casa-espiritus` | La casa de los espíritus | Isabel Allende | 1982 |
+| `historia-interminable` | La historia interminable | Michael Ende | 1979 |
+| `ladrona-libros` | La ladrona de libros | Markus Zusak | 2005 |
+| `juegos-hambre` | Los juegos del hambre | Suzanne Collins | 2008 |
+| `mil-soles` | Mil soles espléndidos | Khaled Hosseini | 2007 |
+| `patria` | Patria | Fernando Aramburu | 2016 |
+| `siddhartha` | Siddhartha | Hermann Hesse | 1922 |
+| `veinte-poemas` | Veinte poemas de amor y una canción desesperada | Pablo Neruda | 1924 |
+| `vivir-para-contarla` | Vivir para contarla | Gabriel García Márquez | 2002 |
 
-## Ciencia — 1
+## Psicología — 41
 
-| fichero | libro | autor | año |
+| id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
-| `henrietta-lacks.png` | La vida inmortal de Henrietta Lacks | Rebecca Skloot | 2010 |
+| `cambia-el-chip` | Cambia el chip | Chip y Dan Heath | 2010 |
+| `cosas-buenas` | Cómo hacer que te pasen cosas buenas | Marian Rojas Estapé | 2018 |
+| `cuatro-mil-semanas` | Cuatro mil semanas | Oliver Burkeman | 2021 |
+| `dar-y-recibir` | Dar y recibir | Adam Grant | 2013 |
+| `despertando-gigante` | Despertando al gigante interior | Tony Robbins | 1991 |
+| `determinacion` | Determinación | Angela Duckworth | 2016 |
+| `arte-seduccion` | El arte de la seducción | Robert Greene | 2001 |
+| `arte-no-amargarse` | El arte de no amargarse la vida | Rafael Santandreu | 2011 |
+| `cerebro-buda` | El cerebro de Buda | Rick Hanson y Richard Mendius | 2009 |
+| `lenguaje-del-cuerpo` | El lenguaje del cuerpo | Allan y Barbara Pease | 2004 |
+| `poder-5-segundos` | El poder de los 5 segundos | Mel Robbins | 2017 |
+| `poder-introvertidos` | El poder de los introvertidos | Susan Cain | 2012 |
+| `secreto-byrne` | El secreto | Rhonda Byrne | 2006 |
+| `vendedor-mas-grande` | El vendedor más grande del mundo | Og Mandino | 1968 |
+| `ideas-que-pegan` | Ideas que pegan | Chip y Dan Heath | 2007 |
+| `inteligencia-erotica` | Inteligencia erótica | Esther Perel | 2006 |
+| `intro-psicoanalisis` | Introducción al psicoanálisis | Sigmund Freud | 1917 |
+| `actitud-mental-positiva` | La actitud mental positiva | Napoleon Hill y W. Clement Stone | 1959 |
+| `buena-suerte` | La buena suerte | Rovira y Trías de Bes | 2004 |
+| `magia-pensar-grande` | La magia de pensar en grande | David Schwartz | 1959 |
+| `21-leyes-liderazgo` | Las 21 leyes irrefutables del liderazgo | John C. Maxwell | 1998 |
+| `48-leyes-poder` | Las 48 leyes del poder | Robert Greene | 1998 |
+| `cinco-heridas` | Las cinco heridas que impiden ser uno mismo | Lise Bourbeau | 2000 |
+| `leyes-naturaleza-humana` | Las leyes de la naturaleza humana | Robert Greene | 2018 |
+| `maestria-greene` | Maestría | Robert Greene | 2012 |
+| `modelos-manson` | Modelos | Mark Manson | 2011 |
+| `mujeres-lobos` | Mujeres que corren con los lobos | Clarissa Pinkola Estés | 1992 |
+| `nunca-comas-solo` | Nunca comas solo | Keith Ferrazzi | 2005 |
+| `obtenga-el-si` | Obtenga el sí | Fisher y Ury | 1981 |
+| `organizate-eficacia` | Organízate con eficacia | David Allen | 2001 |
+| `originales` | Originales | Adam Grant | 2016 |
+| `piensalo-otra-vez` | Piénsalo otra vez | Adam Grant | 2021 |
+| `poder-sin-limites` | Poder sin límites | Tony Robbins | 1986 |
+| `hombres-no-escuchan` | Por qué los hombres no escuchan y las mujeres no saben leer los mapas | Allan y Barbara Pease | 1998 |
+| `pre-suasion` | Pre-suasión | Robert Cialdini | 2016 |
+| `rompe-barrera-no` | Rompe la barrera del no | Chris Voss | 2016 |
+| `gottman-pareja` | Siete reglas de oro para vivir en pareja | John Gottman | 1999 |
+| `traguese-sapo` | Tráguese ese sapo | Brian Tracy | 2001 |
+| `tus-zonas-erroneas` | Tus zonas erróneas | Wayne Dyer | 1976 |
+| `nueva-mirada-infidelidad` | Una nueva mirada a la infidelidad | Esther Perel | 2017 |
+| `usted-puede-sanar` | Usted puede sanar su vida | Louise Hay | 1984 |
+
+## Salud — 14
+
+| id (nombre del fichero) | Título | Autor | Año |
+|---|---|---|---|
+| `adelgaza-para-siempre` | Adelgaza para siempre | Ángela Quintas | 2016 |
+| `cuerpo-cuenta` | El cuerpo lleva la cuenta | Bessel van der Kolk | 2014 |
+| `cuerpo-4-horas` | El cuerpo perfecto en 4 horas | Tim Ferriss | 2010 |
+| `dilema-omnivoro` | El dilema del omnívoro | Michael Pollan | 2006 |
+| `intestino-feliz` | El intestino feliz | Justin y Erica Sonnenburg | 2015 |
+| `libro-del-sueno` | El libro del sueño | Guy Meadows | 2014 |
+| `metodo-wim-hof` | El método Wim Hof | Wim Hof | 2020 |
+| `poder-metabolismo` | El poder del metabolismo | Frank Suárez | 2006 |
+| `entre-dos-reinos` | Entre dos reinos | Suleika Jaouad | 2021 |
+| `biologia-creencia` | La biología de la creencia | Bruce Lipton | 2005 |
+| `magia-orden` | La magia del orden | Marie Kondo | 2011 |
+| `dieta-ya-no-cojea` | Mi dieta ya no cojea | Aitor Sánchez García | 2018 |
+| `tal-como-eres` | Tal como eres | Emily Nagoski | 2015 |
+| `cuerpo-para-vida` | Un cuerpo para toda la vida | Marcos Vázquez | 2019 |
+
