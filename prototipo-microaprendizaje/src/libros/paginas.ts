@@ -75958,7 +75958,288 @@ const AMAR_O_DEPENDER: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Conversaciones cruciales, en ocho páginas.
+
+   Breve. Libro práctico → afirmación entera en el rótulo y SEGUNDA PERSONA
+   en la caja (apartado 4.7).
+
+   Riesgo principal: los acrónimos. El libro tiene cuatro o cinco siglas
+   inglesas y un resumen que las liste no sirve de nada, porque bajo presión
+   nadie recuerda una sigla. Hay que dar las ideas sin ellas.
+
+   Lo que sostiene el resumen: la elección del tonto, el silencio y la
+   agresión como una sola señal, el camino hacia la acción con sus tres
+   historias, y la observación de que hablar con menos seguridad convence
+   más.
+
+   Y la conclusión dice de dónde salen sus datos: de la propia empresa que
+   vende la formación, sin publicar y sin réplica independiente.
+   -------------------------------------------------------------------------- */
+
+const CONVERSACIONES_CRUCIALES: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Unas pocas conversaciones deciden casi todo, y son justo las que se evitan",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los cuatro autores de este libro dirigían una consultora de formación y lo publicaron en 2002. Su definición de partida es estrecha y útil: una conversación crucial es aquella en la que hay algo importante en juego, las opiniones son distintas y las emociones están altas. Las tres cosas a la vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace distinto a este libro de otros sobre comunicación es que no trata de cómo hablar mejor en general, sino de qué hacer en el minuto exacto en que una conversación se tuerce. Su unidad de análisis es ese momento —el instante en que alguien se cierra o levanta la voz— y todas sus herramientas están pensadas para aplicarse ahí, con la otra persona delante y sin tiempo para pensar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace distinto a este libro de otros sobre comunicación es que no trata de cómo hablar en general, sino de qué hacer en el minuto exacto en que una conversación se tuerce. Su unidad de análisis es ese momento, y todas sus herramientas están pensadas para aplicarse ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre la falsa disyuntiva que casi todo el mundo acepta, la única señal que hay que vigilar mientras se habla, el paso invisible que hay entre ver algo y enfadarse, las tres historias con las que uno se justifica, por qué conviene hablar con menos seguridad de la que se tiene, y qué falta al final de casi todas las reuniones.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una conversación es crucial cuando hay algo en juego, las opiniones difieren y las emociones están altas: las tres a la vez.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro llama la elección del tonto a una creencia que casi todo el mundo tiene y muy poca gente ha examinado nunca: que hay que escoger entre ser sincero y llevarse bien con alguien. Quien la da por buena se pasa la vida oscilando entre callarse durante meses y explotar un día por una tontería, y las dos cosas le parecen las únicas opciones que existían.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro llama la elección del tonto a una creencia que casi todo el mundo tiene y muy poca gente examina: que hay que escoger entre ser sincero y llevarse bien. Quien la acepta se pasa la vida oscilando entre callarse durante meses y explotar un día, y las dos cosas le parecen las únicas opciones disponibles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El síntoma de que uno está dentro de esa disyuntiva es una frase con «o»: o se lo digo o mantenemos la paz, o soy honesto o soy amable, o defiendo mi postura o quedo como alguien difícil. En cuanto aparece esa construcción, el trabajo consiste en buscar la opción que las dos partes creían imposible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La pregunta que proponen para salir de ahí es concreta y sirve: cómo podría decir esto entero y además salir de esta conversación en mejor relación que como entré. No es una aspiración: es una restricción de diseño, y obliga a pensar en cómo se dice y no solo en qué se dice.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la primera instrucción del libro, que va antes que cualquier técnica: mirarse a uno mismo antes de empezar. En cuanto lo que uno quiere de verdad es ganar la discusión, castigar a alguien o quedarse tranquilo evitando el asunto, ya ha salido de la conversación y todo lo demás no va a funcionar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si te descubres pensando «o se lo digo o mantenemos la paz», busca la tercera opción: casi siempre existe.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El que se calla y el que grita están diciendo exactamente lo mismo" },
+      {
+        b: "texto",
+        texto:
+          "La herramienta más útil del libro es una manera de mirar. Mientras se habla, hay que vigilar una sola cosa: si la otra persona se ha empezado a sentir insegura. Y las señales de eso son dos, aparentemente opuestas, que en realidad son la misma cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es el silencio: dar rodeos, contestar con monosílabos, sonreír y no decir nada, cambiar de tema, marcharse. La segunda es la agresión: subir la voz, etiquetar al otro, exagerar, interrumpir, atacar. Las dos aparecen cuando alguien ha dejado de sentirse a salvo en la conversación y ha pasado a defenderse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo importante es lo que se hace al detectarlas, y es contrario a la costumbre. Cuando alguien se calla o grita, lo natural es seguir con el asunto y subir la intensidad; lo que hay que hacer es salirse del contenido, arreglar la seguridad y volver a entrar. El asunto puede esperar tres minutos; la conversación, no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La herramienta para eso es una frase de dos partes: decir lo que uno no pretende y después lo que sí. «No quiero que pienses que no valoro lo que has hecho, porque lo valoro; lo que quiero es hablar del plazo». La primera mitad desactiva la interpretación que había puesto al otro a la defensiva, y la segunda devuelve el asunto a la mesa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando el otro se calla o grita, deja el asunto tres minutos y arregla la conversación: el asunto puede esperar y ella no.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Entre lo que ves y lo que sientes hay una historia que has añadido tú",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea que más cambia el resultado es una descripción de cómo se produce una reacción, en cuatro pasos. Uno ve u oye algo. Se cuenta una historia sobre lo que significa. Esa historia produce un sentimiento. Y el sentimiento produce lo que hace a continuación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Casi todo el mundo se salta el segundo paso al recordarlo, y por eso dice cosas como «me ha hecho enfadar». Lo que hizo la otra persona fue el primer paso; el enfado viene del segundo, que es una interpretación añadida en menos de un segundo y que se experimenta como si fuera parte de lo que se ha visto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palanca está ahí porque el segundo paso es el único que depende de uno. No se puede cambiar lo que hizo la otra persona, y no se puede decidir no sentir lo que se siente; sí se puede revisar la historia que se ha colado en medio, y revisarla cambia todo lo que viene después. La pregunta que proponen es directa y se puede hacer en el momento: ¿qué otra explicación podría tener esto?",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palanca está ahí porque el segundo paso es el único que depende de uno. No se puede cambiar lo que hizo el otro ni se puede decidir no sentir; sí se puede revisar la historia, y revisarla cambia todo lo que viene después. La pregunta que proponen es directa: ¿qué otra explicación podría tener esto?",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie te hace enfadar directamente: enfada la historia que te cuentas sobre lo que ha hecho, y esa sí puedes revisarla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hay tres historias que uno se cuenta para no tener que hacer nada" },
+      {
+        b: "texto",
+        texto:
+          "El libro identifica tres relatos que aparecen una y otra vez y que tienen una función común: dejar a quien los cuenta sin ninguna responsabilidad y sin ninguna tarea. Se reconocen enseguida en la conversación de cualquiera, incluida la propia.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "La víctima", texto: "«yo no he hecho nada». Cuenta la parte del episodio en la que uno sufrió y omite la parte en la que hizo o dejó de hacer algo." },
+          { fuerte: "El villano", texto: "«la culpa es toda suya». Convierte una conducta concreta en un rasgo de carácter, y contra un rasgo no se puede negociar nada." },
+          { fuerte: "El impotente", texto: "«no se puede hacer nada más». Es la que cierra el asunto, porque justifica de antemano no intentar la única cosa que quedaba." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba para desmontarlas es la misma en los tres casos y es incómoda a propósito. Para la de víctima: qué estoy omitiendo de mi propia parte en esto. Para la de villano: qué tendría que estar pensando una persona razonable y decente para haber hecho lo que hizo. Y para la de impotente: qué haría si de verdad quisiera resolverlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pregúntate qué tendría que estar pensando una persona razonable y decente para haber hecho eso: casi siempre hay una respuesta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Empieza por los hechos y di lo tuyo con menos seguridad de la que tienes",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para el momento de decir lo que uno piensa, el libro propone un orden y el orden es lo que importa. Primero los hechos, después la propia interpretación presentada como interpretación, y al final una pregunta abierta sobre cómo lo ve el otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Empezar por los hechos parece débil y es lo contrario. Un hecho es lo menos discutible que existe y lo más difícil de rebatir: «has llegado después de la hora en las tres últimas reuniones» no admite mucha respuesta. Empezar por la conclusión —«no te tomas esto en serio»— pone al otro a discutir esa etiqueta y los hechos ya no llegan a mencionarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El equilibrio que piden es fino y merece la pena entenderlo bien: mucha seguridad en los hechos y poca en la interpretación. Rebajar también los hechos convierte la conversación en un intercambio de impresiones donde nadie tiene razón y no se puede avanzar; rebajar solo la interpretación es lo que permite que el otro la corrija sin que nadie tenga que retirarse de nada que haya dicho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El equilibrio que piden es fino: mucha seguridad en los hechos y poca en la interpretación. Rebajar los hechos convierte la conversación en un intercambio de impresiones donde nadie tiene razón; rebajar la interpretación es lo que permite que el otro la corrija sin que nadie tenga que retirarse de nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Firme en los hechos y tentativo en tu interpretación: una afirmación rotunda pone al otro a defenderse antes de examinarla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una conversación que termina sin quién, qué y cuándo no ha terminado",
+      },
+      {
+        b: "texto",
+        texto:
+          "El último capítulo trata de algo que arruina el trabajo de todo lo anterior. Una conversación difícil puede ir estupendamente, terminar con las dos partes de acuerdo y no producir ningún cambio, porque nadie ha dicho en voz alta quién hace qué y para cuándo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Antes de eso hay que decidir cómo se va a decidir, que es la parte que casi ninguna reunión hace explícita. Hay cuatro maneras —decide uno, decide uno después de consultar, se vota, se busca el acuerdo de todos— y la mayoría de los conflictos posteriores vienen de que cada participante creía que se estaba usando una distinta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su observación de fondo es que muchas organizaciones no tienen un problema de acuerdo, sino de cierre. La gente se entiende, discute bien, sale contenta de la sala, y dos semanas después está discutiendo exactamente lo mismo, porque aquello en lo que se pusieron de acuerdo no llegó a convertirse en ninguna acción con un dueño y una fecha escritos en alguna parte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su observación de fondo es que muchas organizaciones no tienen un problema de acuerdo sino de cierre. La gente se entiende, sale contenta de la sala y en dos semanas está discutiendo lo mismo, porque lo que se acordó no se convirtió en ninguna acción con dueño y con fecha.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Sin fecha la tarea no existe, y sin nombre la hará quien menos ocupado esté, que casi nunca es quien debía hacerla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cinco cosas y ninguna necesita aprenderse ninguna sigla. Buscar la tercera opción cuando aparece un «o esto o lo otro». Tratar el silencio y la agresión como la misma señal y parar a arreglarla. Revisar la historia que uno se ha contado. Empezar por los hechos y ser tentativo con la interpretación. Y cerrar con quién, qué y cuándo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en de dónde salen sus datos. El libro habla de veinticinco años de investigación y de decenas de miles de personas observadas, y esa investigación es de la propia consultora que vende la formación: no está publicada de manera que alguien pueda comprobarla y nadie independiente la ha replicado. Las herramientas pueden ser buenas y la prueba que ofrecen no lo es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también por su forma. Es una fábrica de acrónimos —cuatro o cinco, en inglés—, y una técnica que hay que recordar bajo presión y que consiste en unas siglas está mal diseñada para el único momento en que hace falta. Y varias de sus frases modelo, dichas en voz alta y traducidas, suenan a manual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una asimetría que el libro no reconoce. Todo su método supone dos personas que pueden hablar de igual a igual. Frente a un jefe que toma represalias, o dentro de una relación en la que hay maltrato, «crea seguridad» pone todo el trabajo en quien menos poder tiene, y sus ejemplos son casi siempre compañeros de una oficina discutiendo un proyecto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las cinco herramientas se sostienen solas; la investigación que dice respaldarlas es de quien vende el curso y no se puede comprobar.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "conversaciones-cruciales": CONVERSACIONES_CRUCIALES,
   "amar-o-depender": AMAR_O_DEPENDER,
   "obstaculo-es-camino": OBSTACULO_ES_CAMINO,
   "cinco-arrepentimientos": CINCO_ARREPENTIMIENTOS,

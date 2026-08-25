@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "conversaciones-cruciales":
+    "Una conversación es crucial cuando hay algo importante en juego, las opiniones difieren y las emociones están altas. El libro no trata de hablar mejor en general: trata del minuto exacto en que una conversación se tuerce.",
+
   "amar-o-depender":
     "La cultura amorosa premia lo que un clínico reconoce como dependencia: no poder vivir sin alguien, los celos, aguantar cualquier cosa. Riso separa querer de necesitar, y sus señales son conductas que se pueden contar.",
 

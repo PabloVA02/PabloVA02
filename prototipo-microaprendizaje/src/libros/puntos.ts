@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "conversaciones-cruciales": [
+    "cómo salir de la falsa disyuntiva entre ser sincero y llevarse bien",
+    "por qué callarse y gritar son exactamente la misma señal",
+    "qué paso invisible hay entre ver algo y enfadarte",
+    "las tres historias con las que uno se justifica no hacer nada",
+    "por qué hablar con menos seguridad convence más",
+  ],
+
   "amar-o-depender": [
     "por qué una relación intermitente engancha más que una buena",
     "qué señales se pueden contar con un calendario delante",

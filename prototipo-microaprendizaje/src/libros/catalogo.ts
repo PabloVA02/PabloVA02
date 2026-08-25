@@ -349,7 +349,7 @@ export const CATALOGO: Ficha[] = [
   { id: "amar-o-depender", titulo: "Amar o depender", autor: "Walter Riso", ano: 1999, categoria: "Psicología", estado: "escrito" },
   { id: "enamorate-de-ti", titulo: "Enamórate de ti", autor: "Walter Riso", ano: 2012, categoria: "Psicología", estado: "pendiente" },
   { id: "comunicacion-no-violenta", titulo: "Comunicación no violenta", autor: "Marshall Rosenberg", ano: 1999, categoria: "Psicología", estado: "escrito" },
-  { id: "conversaciones-cruciales", titulo: "Conversaciones cruciales", autor: "Patterson, Grenny, McMillan y Switzler", ano: 2002, categoria: "Psicología", estado: "pendiente" },
+  { id: "conversaciones-cruciales", titulo: "Conversaciones cruciales", autor: "Patterson, Grenny, McMillan y Switzler", ano: 2002, categoria: "Psicología", estado: "escrito" },
   { id: "ninos-escuchen", titulo: "Cómo hablar para que los niños escuchen", autor: "Adele Faber y Elaine Mazlish", ano: 1980, categoria: "Psicología", estado: "pendiente" },
   { id: "actua-dama-piensa-hombre", titulo: "Actúa como dama, piensa como hombre", autor: "Steve Harvey", ano: 2009, categoria: "Psicología", estado: "pendiente" },
   { id: "desenredadas", titulo: "Desenredadas", autor: "Lisa Damour", ano: 2016, categoria: "Psicología", estado: "pendiente" },

@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "conversaciones-cruciales": "Herramientas para hablar cuando hay mucho en juego",
   "amar-o-depender": "Cómo superar el apego afectivo y hacer del amor una experiencia plena",
   "obstaculo-es-camino": "El arte eterno de convertir las pruebas en triunfo",
   "cinco-arrepentimientos": "Lo que enseña la vida a los que van a morir",
