@@ -67328,7 +67328,268 @@ const TAL_COMO_ERES: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Harry Potter y la piedra filosofal, en ocho páginas.
+
+   Breve. NARRATIVA → apartado 3 bis: título corto de imagen en el rótulo, la
+   afirmación en la primera frase de la página, y la caja del rayo en segunda
+   persona sacando de la escena una lección para la vida. El modelo es
+   `referencia/odisea/`.
+
+   Riesgo principal, y es el mayor de todo el catálogo: contar la trama que
+   ya sabe todo el mundo. Del apartado 4 bis: hay que contar lo que casi
+   nadie cuenta. Aquí eso es el injerto del colegio inglés, el mecanismo del
+   espejo, la pregunta del sombrero y los diez puntos de Neville.
+
+   Nada de la historia editorial en el cuerpo, que es justo el relleno que
+   prohíbe la regla 1. Va en la conclusión, donde le toca.
+   -------------------------------------------------------------------------- */
+
+const HARRY_POTTER_1: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un armario debajo de la escalera" },
+      {
+        b: "texto",
+        texto:
+          "El libro tarda cinco capítulos en llegar al colegio de magia, y esa lentitud es deliberada. Antes de que aparezca un solo hechizo hay que creerse la casa de Privet Drive: un niño que duerme en la alacena de debajo de la escalera, unos tíos que fingen que no existe y un primo que estrena treinta y siete regalos delante de él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese arranque hace un trabajo que casi ningún cuento de magia se molesta en hacer. Establece exactamente qué se está perdiendo el protagonista, y por tanto qué significa la carta cuando llega. Sin los cinco capítulos de mezquindad doméstica, Hogwarts sería un parque de atracciones; con ellos, es una casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La otra cosa que hace es fijar el tono. La crueldad de los Dursley se cuenta en clave cómica, con el tío Vernon vendiendo taladros y la tía Petunia espiando por encima de la valla, y esa mezcla de humor y maltrato es la voz del libro entero. Nunca se pone solemne, ni siquiera cuando habla de muertos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue no es el argumento, que se sabe de memoria hasta quien no lo ha leído. Es lo otro: de qué género sale realmente esta novela, por qué su protagonista es famoso por algo que no hizo, la pregunta que le hace un sombrero, el espejo que es la mejor escena del libro, el truco con el que se protege la piedra y los diez puntos que deciden el curso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si vas a contar lo que alguien gana, dedica primero el tiempo necesario a lo que le falta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un internado inglés con dragones" },
+      {
+        b: "texto",
+        texto:
+          "La invención de este libro no es la magia: es el injerto. Rowling coge un género inglés muy viejo, la novela de internado, y le pone criaturas encima sin cambiarle ni una pieza. El género existe desde «Tom Brown en la escuela» de 1857 y llegó a los niños del siglo XX a través de los colegios de Enid Blyton.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo se ve mejor si se enumera lo que Hogwarts trae del internado y no de la magia: las casas rivales, los puntos que se ganan y se quitan, los prefectos, el deporte con su liga, los exámenes de final de curso, el profesor que te tiene manía, el chico rico y odioso, la amiga empollona y el adulto grandote y bondadoso que trabaja fuera del edificio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso explica por qué el libro engancha a lectores que no habían leído fantasía en su vida. Las emociones que mueve no son mágicas, son escolares: quedarse el último cuando eligen equipo, que te castiguen injustamente, hacer un amigo en el tren el primer día. La escoba voladora solo sube el volumen de una emoción que ya estaba ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y explica también su límite. Todo lo que en este primer libro funciona depende del calendario escolar: empieza en septiembre, termina en junio y las cosas importantes pasan en Halloween, en Navidad y en los exámenes. Es una estructura prestada, muy sólida, y la serie tardará varios libros en atreverse a salir de ella.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo nuevo casi nunca es un invento: suele ser una cosa vieja trasplantada a un sitio donde nadie la esperaba.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Famoso por no haberse muerto" },
+      {
+        b: "texto",
+        texto:
+          "Harry entra en el mundo mágico siendo célebre por algo que no recuerda y que no hizo. Tenía un año cuando ocurrió, no tomó ninguna decisión y su mérito consiste enteramente en haber sobrevivido. Todo el mundo conoce su nombre, y él es el único que no sabe por qué.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia dentro de la historia es que la celebridad le estorba constantemente en vez de ayudarle. En la primera clase de pociones, el profesor le pregunta tres cosas que no puede saber, y se las pregunta precisamente para demostrar delante de todos que el famoso no es nada especial. En el tren, un desconocido de su edad quiere ser su amigo antes de haber cambiado una sola frase con él, y luego se ofende cuando no le sale bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia dentro de la historia es que la celebridad le estorba constantemente. En clase de pociones, el profesor le pregunta cosas que no puede saber precisamente para demostrarle delante de todos que no es nada especial. En el tren, un desconocido quiere ser su amigo antes de haber cambiado una frase con él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la nota rara del libro es que Harry no disfruta nunca de eso. Cada vez que alguien le señala la cicatriz, la escena está escrita desde la incomodidad y no desde el orgullo. Una novela para niños de once años que enseña la fama como una molestia es menos frecuente de lo que parece.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que te conozcan no es lo mismo que haber hecho algo, y confundir las dos cosas sale caro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El sombrero pregunta" },
+      {
+        b: "texto",
+        texto:
+          "La escena del Sombrero Seleccionador esconde el momento en que este libro decide de qué va. El sombrero examina a Harry, dice en voz alta que en Slytherin llegaría lejos, y entonces ocurre lo importante: Harry piensa «en Slytherin no», el sombrero lo oye y le hace caso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es un detalle de dos líneas que cambia el género. Un objeto mágico que lee la mente y reparte destinos podría haber sido un oráculo; en cuanto admite una objeción, deja de ser un destino y se convierte en un consejo. Lo que decide la casa de Harry no es lo que hay dentro de él, sino lo que él pide no ser.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Puesto al lado de lo anterior, se entiende el diseño del personaje. Al protagonista se le concede una fama que no ha merecido y una naturaleza que no le gusta, y el libro consiste en verle hacer algo con esas dos cosas incómodas. Ninguna de las dos se le retira en ningún momento, porque retirárselas sería quitarle la novela: un chico sin fama que le pese y sin fondo que le inquiete no tiene nada que resolver.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Puesto al lado del párrafo anterior, se entiende el diseño. Al protagonista se le da una fama que no merece y una naturaleza que no le gusta, y el libro consiste en que haga algo con las dos cosas. Ninguna de las dos se le quita, porque quitárselas sería quitarle la novela.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que llevas dentro no decide en qué te conviertes: eso lo decide qué pides no ser.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El espejo que enseña lo que quieres" },
+      {
+        b: "texto",
+        texto:
+          "La inscripción está tallada al revés y, leída en un espejo, dice que no muestra tu cara sino el deseo de tu corazón. Ese es todo el mecanismo, y el libro lo demuestra con dos personajes seguidos para que no quepa duda. Ron, que tiene cinco hermanos mayores delante de los que nunca ha destacado en nada, se ve a sí mismo solo, con la copa en la mano y la insignia de capitán.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La inscripción está escrita al revés y, leída en un espejo, dice que no muestra tu cara sino el deseo de tu corazón. Ese es todo el mecanismo: el espejo enseña lo que uno más quiere y nada más. Ron, que tiene cinco hermanos delante de los que nunca destaca, se ve a sí mismo solo y premiado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Harry vuelve tres noches seguidas y Dumbledore lo encuentra allí. Lo que le dice es la frase que sostiene el libro: que ese espejo no da conocimiento ni verdad, que hombres enteros se han consumido delante de él sin saber si lo que veían era posible, y que no conviene perderse en sueños y olvidarse de vivir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un remate que casi nadie recuerda. Harry le pregunta qué ve él, y Dumbledore contesta que se ve sosteniendo unos calcetines gruesos de lana. Es una broma para cerrar la conversación, y la serie dejará claro mucho después que era mentira. El adulto que da la lección se guarda su propio deseo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un deseo mirado durante horas deja de empujarte y empieza a sustituirte la vida.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La piedra la encuentra quien no la quiere" },
+      {
+        b: "texto",
+        texto:
+          "El objeto que da título al libro tiene detrás una persona real. Nicolás Flamel fue un copista y vendedor de manuscritos que vivió en París y murió en 1418; la fama de alquimista se le colgó doscientos años después de muerto, en libros que le atribuyeron obras que no escribió. La novela lo convierte en un anciano de seiscientos sesenta y cinco años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es una cerradura moral en vez de una física, y funciona porque no se puede engañar fingiendo. No hay manera de querer algo a medias a propósito: o el deseo de usarla está o no está, y el espejo lee exactamente eso y nada más. Cualquier candado se acaba forzando con tiempo y herramientas; este solo lo abre quien no tenía ninguna intención de aprovecharse, y por tanto no lo abre casi nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es una cerradura moral en vez de una física, y funciona porque no se puede engañar fingiendo. No hay manera de querer algo a medias a propósito: o el deseo está o no está, y el espejo lee exactamente eso. Cualquier candado se fuerza; este solo lo abre quien no tenía intención de aprovecharse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El final del asunto es todavía más raro para un libro infantil. La piedra se destruye, y Flamel y su mujer, que llevaban siglos vivos gracias a ella, aceptan morir. Dumbledore lo comenta sin dramatismo: para una mente bien organizada, dice, la muerte no es más que la siguiente gran aventura.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay cosas que solo llegan a quien no las persigue, y no es una frase bonita: es que perseguirlas cambia lo que eres.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Diez puntos para Neville" },
+      {
+        b: "texto",
+        texto:
+          "El curso lo decide un niño que no participa en la aventura. En el banquete final, Dumbledore reparte puntos de última hora y termina concediendo diez a Neville Longbottom, el compañero torpe y asustadizo, por haber intentado impedir que sus propios amigos salieran de noche a hacer algo prohibido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que dice al concederlos es la moral del libro entera, y va colocada donde nadie la busca. Hace falta mucho valor, dice, para plantar cara a los enemigos, y hace falta el mismo valor para plantársela a los amigos. Con esos diez puntos, la casa de Gryffindor gana la copa por diez de diferencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí se ve qué clase de valentía le interesa a este libro. Las tres pruebas de la trampilla se superan por lealtad, por lógica y por sacrificio, y ninguna de las tres se gana con un hechizo mejor que el del contrario: Ron se deja comer en el ajedrez, Hermione resuelve un acertijo de botellas con papel y lápiz. Y la que se premia por encima de todas es la que consistió en enfrentarse a los suyos sin ninguna posibilidad de ganar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí se ve qué clase de valentía le interesa a este libro. Las tres pruebas de la trampilla las superan por lealtad, por lógica y por sacrificio, no por potencia mágica; ninguna se gana con un hechizo mejor. Y la que se premia por encima de todas es la que consistió en enfrentarse a los suyos sin ninguna posibilidad de ganar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuesta más plantarle cara a los tuyos que a un enemigo, y por eso vale más.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace este libro es un injerto: la novela de internado inglesa, con sus casas, sus puntos y sus exámenes, con criaturas encima. Sobre esa estructura prestada monta una idea propia que aparece tres veces —en el sombrero, en el espejo y en los diez puntos de Neville— y que se puede resumir así: lo que uno es importa menos que lo que uno elige no ser.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en el reparto y en la trama. El malo se descubre por eliminación y el sospechoso obvio resulta inocente, un truco que funciona una vez. Los Dursley no tienen una sola dimensión: son crueles en todas las páginas y sin motivo, lo que hace que las primeras cincuenta se lean con incomodidad. Y Hermione, que resuelve la prueba que ninguno de los otros dos podría resolver, aparece antes descrita como una pesada insufrible, un retrato que la propia autora ha lamentado después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mundo tampoco aguanta que se le hagan preguntas. Existe una poción para casi todo, un objeto que multiplica las horas del día y un banco imposible de asaltar, y la serie tendrá que ir cerrando esos agujeros durante seis libros más. Este primero se sostiene porque es corto y va deprisa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después es la historia editorial más citada del oficio. Doce editoriales lo rechazaron; Bloomsbury lo compró por dos mil quinientas libras después de que la hija de ocho años del presidente leyera el primer capítulo y pidiera el resto, con una tirada inicial de quinientos ejemplares y el consejo, al parecer, de que se buscara otro trabajo. Y firmó con iniciales porque en la editorial temían que los niños no leyeran un libro de mujer: la K la sacó del nombre de su abuela.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Debajo del castillo hay un colegio inglés de toda la vida, y esa es exactamente la razón por la que funciona.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "harry-potter-1": HARRY_POTTER_1,
   "tal-como-eres": TAL_COMO_ERES,
   "magia-pensar-grande": MAGIA_PENSAR_GRANDE,
   "elon-musk": ELON_MUSK,

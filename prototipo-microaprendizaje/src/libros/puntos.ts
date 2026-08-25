@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "harry-potter-1": [
+    "por qué lo nuevo suele ser algo viejo puesto en otro sitio",
+    "la diferencia entre ser conocido y haber hecho algo",
+    "por qué elegir lo que no quieres ser define más que tu carácter",
+    "el precio de mirar durante horas un deseo que no se cumple",
+    "por qué cuesta más enfrentarse a los amigos que a los rivales",
+  ],
+
   "tal-como-eres": [
     "por qué el cuerpo puede responder a algo que no apetece nada",
     "en qué se diferencia el deseo que llega antes del que llega después",

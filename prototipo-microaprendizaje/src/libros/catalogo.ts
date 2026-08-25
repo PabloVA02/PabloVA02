@@ -235,7 +235,7 @@ export const CATALOGO: Ficha[] = [
   { id: "el-tunel", titulo: "El túnel", autor: "Ernesto Sabato", ano: 1948, categoria: "Literatura", estado: "escrito" },
   { id: "renglones-torcidos", titulo: "Los renglones torcidos de Dios", autor: "Torcuato Luca de Tena", ano: 1979, categoria: "Literatura", estado: "escrito" },
 
-  { id: "harry-potter-1", titulo: "Harry Potter y la piedra filosofal", autor: "J. K. Rowling", ano: 1997, categoria: "Literatura", estado: "pendiente" },
+  { id: "harry-potter-1", titulo: "Harry Potter y la piedra filosofal", autor: "J. K. Rowling", ano: 1997, categoria: "Literatura", estado: "escrito" },
   { id: "senor-anillos", titulo: "El señor de los anillos", autor: "J. R. R. Tolkien", ano: 1954, categoria: "Literatura", estado: "pendiente" },
   { id: "codigo-da-vinci", titulo: "El código Da Vinci", autor: "Dan Brown", ano: 2003, categoria: "Literatura", estado: "pendiente" },
   { id: "juegos-hambre", titulo: "Los juegos del hambre", autor: "Suzanne Collins", ano: 2008, categoria: "Literatura", estado: "pendiente" },

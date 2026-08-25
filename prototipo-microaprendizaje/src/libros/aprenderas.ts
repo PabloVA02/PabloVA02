@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "harry-potter-1":
+    "Rowling injertó criaturas mágicas sobre un género inglés de 1857, la novela de internado, sin cambiarle ninguna pieza: casas rivales, puntos, prefectos y exámenes. Debajo hay una idea que aparece tres veces y decide el libro.",
+
   "tal-como-eres":
     "Un metaanálisis de 132 estudios encontró que en mujeres la respuesta del cuerpo y la excitación sentida coinciden en torno a un diez por ciento. Nagoski parte de ahí para explicar la respuesta sexual como dos sistemas y no uno.",
 
