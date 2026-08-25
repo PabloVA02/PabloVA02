@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  determinacion: [
+    "por qué el esfuerzo cuenta dos veces y el talento una",
+    "por qué llamar genio a alguien te deja tranquilo",
+    "en qué se diferencia repetir algo de entrenarlo",
+    "por qué el interés aparece después y no antes",
+    "cómo se ordenan veinticinco objetivos en uno solo",
+  ],
+
   "dar-y-recibir": [
     "por qué los generosos ocupan los dos extremos de la tabla",
     "por qué al que se aprovecha dejan de contar con él",

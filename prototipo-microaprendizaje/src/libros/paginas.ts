@@ -64108,7 +64108,282 @@ const DAR_Y_RECIBIR: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Determinación, en ocho páginas.
+
+   Breve. Ensayo de ciencia divulgado como práctico → afirmación entera en
+   el rótulo y segunda persona en la caja (apartados 3 bis y 4.7).
+
+   Riesgo principal: es un libro con una tesis muy vendida y una réplica
+   muy seria, y resumirlo sin la réplica sería hacer de altavoz. El
+   metaanálisis de 2017 va en la conclusión con su cifra.
+
+   Y la propia autora se ha desmarcado del uso escolar de su escala: eso
+   también va, porque es la regla 5 en su forma más limpia.
+   -------------------------------------------------------------------------- */
+
+const DETERMINACION: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En una academia militar durísima no abandona el que menos aguanta físicamente",
+      },
+      {
+        b: "texto",
+        texto:
+          "Angela Duckworth empezó a investigar esto en West Point, la academia militar estadounidense. Cada verano entran unos mil doscientos cadetes seleccionados entre los mejores expedientes del país y pasan siete semanas de instrucción brutal. Uno de cada veinte abandona, y la academia llevaba décadas sin poder predecir cuál.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su puntuación de admisión combinaba notas, pruebas físicas y liderazgo, y no servía para anticipar quién se iba. Duckworth pasó a los cadetes un cuestionario corto de doce preguntas sobre constancia e interés sostenido, y esa escala predijo los abandonos mejor que todo lo anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Repitió el experimento en otros sitios y salió parecido: qué niños llegaban al final de un concurso nacional de deletreo, qué vendedores seguían en la empresa al año siguiente, qué profesores novatos aguantaban en colegios difíciles. En todos, la constancia predecía mejor que la aptitud medida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la palabra que da título al libro y su definición, que tiene dos mitades que se suelen confundir. No es solo aguantar: es aguantar en la misma dirección. Perseverancia y pasión por un objetivo a largo plazo, con el acento puesto en que el objetivo no cambie cada temporada. Duckworth había dejado un puesto de consultora para dar clase de matemáticas en un instituto, y allí vio lo mismo: sus mejores alumnos no eran los que entendían antes la lección.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Aguantar no basta: hay que aguantar muchos años en la misma dirección.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El talento cuenta la mitad de veces de lo que la gente cree" },
+      {
+        b: "texto",
+        texto:
+          "Duckworth propone una fórmula deliberadamente simple para explicar por qué el talento engaña. El esfuerzo entra dos veces: el talento por el esfuerzo da la destreza, y la destreza por el esfuerzo da el resultado. Quien trabaja no solo mejora, sino que además aprovecha lo que ha mejorado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El corolario es que dos personas con el mismo talento y distinto esfuerzo no se separan de forma proporcional, sino mucho más deprisa. Y que alguien con la mitad de talento y el doble de constancia acaba llegando más lejos, que es exactamente lo que ella encuentra en sus muestras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dedica un capítulo a por qué preferimos creer en el talento, apoyado en un experimento revelador: se describía a dos músicos con la misma calidad, uno presentado como talento natural y otro como muy trabajador, y los expertos elegían al primero incluso diciendo que valoraban el esfuerzo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo llama el prejuicio contra el esfuerzo y tiene una explicación cómoda: si el otro es un genio, que a ti no te salga no dice nada de ti. Atribuir un logro al talento es la manera más rápida de no tener que explicarse el propio. Y remata con una comparación deportiva que se le quedó a mucha gente: el que corre igual de rápido pero entrena el doble no llega el doble de lejos, llega mucho más.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Llamar genio a alguien es la manera más cómoda de no preguntarte qué has hecho tú.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Repetir no es entrenar: hay que atacar a propósito lo que sale mal" },
+      {
+        b: "texto",
+        texto:
+          "El libro se apoya aquí en el trabajo de Anders Ericsson sobre práctica deliberada, y lo describe con un caso concreto: los niños del concurso nacional de deletreo. Los que llegaban más lejos no eran los que más horas dedicaban, sino los que dedicaban esas horas a lo que peor se les daba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los otros dos métodos —leer listas o que alguien te tome la lección— resultaban más agradables y menos eficaces. Estudiar solo las palabras difíciles, equivocarse y volver era lo que producía resultados, y los propios niños lo puntuaban como la actividad menos divertida de las tres.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Un objetivo pequeño", texto: "atacar una debilidad concreta, no practicar el conjunto otra vez." },
+          { fuerte: "Atención completa", texto: "si puedes hacerlo mientras piensas en otra cosa, no estás entrenando." },
+          { fuerte: "Corrección inmediata", texto: "saber qué ha fallado antes de la siguiente repetición, no al final del mes." },
+          { fuerte: "Repetir hasta automatizar", texto: "y entonces buscar la siguiente debilidad, que es lo que casi nadie hace." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "Duckworth añade el matiz que hace útil todo esto: la práctica deliberada se siente mal mientras se hace y bien al recordarla. Quien espera disfrutar mientras entrena lo difícil abandona; quien sabe de antemano que va a ser desagradable aguanta el rato incómodo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Entrenar lo que ya te sale es agradable e inútil: el rato que cuenta es el que se pasa mal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La pasión no se encuentra: se fabrica con años de trabajo" },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica un capítulo entero a desmontar el consejo de seguir tu pasión, y lo hace con las biografías de gente muy constante. Casi ninguna encontró lo suyo de golpe: probaron varias cosas, se les fue dando bien una y el interés apareció después del avance, no antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Distingue cuatro fases en ese proceso y avisa de que el consejo popular se salta las tres primeras. Hay un descubrimiento casual, un periodo de desarrollo con avances pequeños, un propósito que aparece cuando el trabajo empieza a servirle a alguien, y una esperanza que se construye después de superar caídas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la advertencia práctica: esperar a sentir una vocación clara antes de comprometerse suele significar no comprometerse nunca. El interés se prueba haciendo, y hacen falta meses de una actividad para saber si es la tuya, no una tarde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y una consecuencia incómoda para el lector joven: si lo que haces te aburre en las primeras semanas, no es prueba de nada. Casi todo aburre al principio, porque al principio se es malo y ser malo en algo no gusta a nadie. El libro cita a un cocinero de tres estrellas que empezó fregando platos y a un dibujante que tardó siete años en cobrar por un dibujo: ninguno de los dos sintió una vocación al principio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El interés aparece después de que algo empiece a salirte, no antes de empezar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los objetivos tienen que colgar todos del mismo clavo" },
+      {
+        b: "texto",
+        texto:
+          "La herramienta más útil del libro es un ejercicio de jerarquía. Se escriben veinticinco objetivos profesionales, se eligen los cinco más importantes y se subraya lo obvio: los otros veinte son la lista de lo que hay que evitar, no una segunda tanda para más adelante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Duckworth lo ordena en tres niveles. Arriba hay un objetivo de máximo nivel, uno solo, que no es un medio para nada; debajo, objetivos intermedios; y abajo, tareas concretas. Lo que distingue a la gente muy constante es que casi todas sus tareas cuelgan del mismo clavo de arriba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El error habitual no es tener poca voluntad: es tener cuatro clavos arriba. Alguien que quiere a la vez destacar en su oficio, montar un negocio propio, hacer una carrera artística y estar disponible siempre en casa no fracasa por falta de esfuerzo, sino porque el esfuerzo se reparte en direcciones que no se suman.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da la única regla de sustitución sensata: las tareas de abajo se cambian cuando no funcionan, y cuanto antes mejor. Lo que no se cambia cada temporada es el clavo de arriba, porque cambiarlo pone el contador de años a cero. Duckworth reconoce que el ejercicio es de Warren Buffett y que ella misma tardó años en aplicarlo a su propia carrera, que estuvo repartida entre cuatro oficios distintos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cambia de método todas las veces que haga falta; de destino, muy pocas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La constancia se contagia del sitio donde estás, no de la fuerza de voluntad",
+      },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro trata de cómo se cultiva esto desde fuera, y su conclusión es la que menos gusta a quien busca un método individual: la manera más fiable de volverse constante es meterse en un grupo donde eso sea lo normal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cita equipos deportivos, unidades militares y orquestas donde el nivel de exigencia se sostiene solo, porque nadie quiere ser el que afloja. Y sostiene que una cultura así hace más por la constancia de una persona que cualquier decisión que tome esa persona a solas un domingo por la noche.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para la crianza propone lo que llama la mano firme y cariñosa: exigencia alta y apoyo alto a la vez. Ni la exigencia sin apoyo, que produce miedo, ni el apoyo sin exigencia, que no produce nada. Y una regla doméstica concreta: cada miembro de la familia hace una actividad difícil, la elige él, y no se abandona a mitad de temporada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa regla —terminar lo empezado, pero elegirlo uno mismo y poder dejarlo al final del ciclo— es de las pocas recomendaciones del libro que se pueden aplicar tal cual, y resuelve el dilema entre obligar a un niño y dejarle abandonar a la primera dificultad. Y hay un dato de su propia investigación que lo apoya: los cadetes que aguantaban en West Point puntuaban parecido a sus compañeros de escuadra, no a los de la suya del año anterior.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si quieres volverte constante, cámbiate de sitio antes que intentar cambiarte a ti.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Se puede medir con doce preguntas, y ahí empiezan los problemas" },
+      {
+        b: "texto",
+        texto:
+          "La escala que hizo famoso el libro son doce afirmaciones que se puntúan del uno al cinco. La mitad miden perseverancia —«los reveses no me desaniman»— y la otra mitad, constancia de intereses: «me obsesiono con una idea y luego pierdo el interés».",
+      },
+      {
+        b: "texto",
+        texto:
+          "Duckworth avisa de tres cosas que casi nadie repite al citarla. Que es una autoevaluación, y la gente se puntúa según cómo quiere verse. Que la puntuación se mueve con la edad, y bastante. Y que no debe usarse nunca para seleccionar a nadie, ni en un colegio ni en una empresa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese aviso llegó tarde. Varios distritos escolares estadounidenses empezaron a medir la constancia de sus alumnos y a incluirla en evaluaciones, y la autora tuvo que salir públicamente a pedir que dejaran de hacerlo, reconociendo que se estaba usando su trabajo para culpar a los niños de sus circunstancias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El fondo de la objeción es serio: la constancia se reparte de forma muy desigual según lo estable que sea la vida de alguien. Medirla e ir a por el que puntúa bajo, sin mirar por qué puntúa bajo, convierte un hallazgo psicológico en una excusa. Ella misma cuenta que se puntúa alto en perseverancia y bajo en constancia de intereses, y que su escala la deja por debajo de mucha gente a la que ha estudiado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una medida que sirve para entender a alguien casi nunca sirve para seleccionarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Determinación sostiene que lo que separa a quien llega lejos no es el talento sino la combinación de perseverancia con un objetivo que no cambia. Lo apoya en abandonos de una academia militar, concursos de deletreo, ventas y docencia, y ofrece herramientas concretas: la jerarquía de objetivos, la práctica sobre lo que peor sale y la regla de no abandonar a mitad de temporada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es haber puesto un nombre y una medida a algo que se daba por inefable, y haber devuelto el esfuerzo a una conversación que llevaba veinte años hablando solo de talento. La distinción entre aguantar y aguantar en la misma dirección es suya y es útil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla en el tamaño del efecto. En 2017 se publicó un metaanálisis con casi ochenta estudios y más de sesenta mil personas que encontró que la constancia explica alrededor de un cuatro por ciento de las diferencias en rendimiento, mucho menos de lo que sugiere el libro. Y que una de sus dos mitades —la constancia de intereses— apenas predice nada por su cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mismo trabajo señaló algo más incómodo: la escala se solapa mucho con un rasgo de personalidad que ya se medía desde hacía décadas, la responsabilidad, hasta el punto de que varios psicólogos sostienen que el concepto nuevo no aporta información adicional. Duckworth ha respondido a esas críticas y ha aceptado parte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Publicado en 2016 después de una charla que superó los veinte millones de visitas, se convirtió en el libro de referencia sobre esfuerzo y en material de política educativa en varios países. Su autora recibió una beca MacArthur y pasa buena parte de sus apariciones públicas frenando el uso que se le está dando a su propia idea.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un hallazgo real puede vender mucho más de lo que mide, y el que lo firma es quien menos puede pararlo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  determinacion: DETERMINACION,
   "dar-y-recibir": DAR_Y_RECIBIR,
   "lenguaje-del-cuerpo": LENGUAJE_DEL_CUERPO,
   "rompe-barrera-no": ROMPE_BARRERA_NO,

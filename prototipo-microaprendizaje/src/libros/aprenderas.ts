@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  determinacion:
+    "Duckworth buscó qué predice quién abandona una academia militar durísima, y no fue la aptitud física ni las notas. De ahí sale una medida de la constancia, sus herramientas y su polémica.",
+
   "dar-y-recibir":
     "Grant ordenó a miles de profesionales por resultados y encontró a los generosos en los dos extremos: los últimos y los primeros. Lo que separa a unos de otros no es cuánto dan, sino cómo.",
 

@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  determinacion: "El poder de la pasión y la perseverancia",
   "dar-y-recibir": "Por qué ayudar a los demás conduce al éxito",
   "lenguaje-del-cuerpo": "Cómo leer la mente de los demás a través de sus gestos",
   "rompe-barrera-no": "Negocia como si te fuera la vida en ello",
