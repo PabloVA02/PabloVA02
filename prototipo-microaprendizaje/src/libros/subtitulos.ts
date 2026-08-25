@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  gulag: "Historia de los campos de concentración soviéticos",
   "procrastinacion-steel": "Por qué dejamos para mañana lo que podemos hacer hoy",
   "amor-liquido": "Acerca de la fragilidad de los vínculos humanos",
   "martes-con-mi-profesor": "Un anciano, un joven y la lección más importante de la vida",

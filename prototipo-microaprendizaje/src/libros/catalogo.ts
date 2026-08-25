@@ -91,7 +91,7 @@ export const CATALOGO: Ficha[] = [
   { id: "primera-guerra-keegan", titulo: "La primera guerra mundial", autor: "John Keegan", ano: 1998, categoria: "Historia", estado: "pendiente" },
   { id: "historia-mundo-objetos", titulo: "La historia del mundo en cien objetos", autor: "Neil MacGregor", ano: 2010, categoria: "Historia", estado: "pendiente" },
   { id: "verano-1927", titulo: "El verano de 1927", autor: "Bill Bryson", ano: 2013, categoria: "Historia", estado: "pendiente" },
-  { id: "gulag", titulo: "Gulag", autor: "Anne Applebaum", ano: 2003, categoria: "Historia", estado: "pendiente" },
+  { id: "gulag", titulo: "Gulag", autor: "Anne Applebaum", ano: 2003, categoria: "Historia", estado: "escrito" },
   { id: "prision-americana", titulo: "Prisión americana", autor: "Shane Bauer", ano: 2018, categoria: "Historia", estado: "pendiente" },
   { id: "como-llegamos-aqui", titulo: "Cómo llegamos aquí", autor: "Steven Johnson", ano: 2014, categoria: "Historia", estado: "pendiente" },
   { id: "ucrania-relatos", titulo: "Ucrania en varios relatos", autor: "Volodímir Yermolenko", ano: 2019, categoria: "Historia", estado: "pendiente" },

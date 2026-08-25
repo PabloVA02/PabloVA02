@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  gulag:
+    "Gulag no era un lugar: eran las iniciales rusas de Dirección General de Campos, un departamento con nóminas, circulares y objetivos de producción. Applebaum calcula que dieciocho millones de personas pasaron por ellos entre 1929 y 1953.",
+
   patria:
     "En octubre de 2011, ETA anunció el cese definitivo de la actividad armada, y una viuda coge un autobús de vuelta al pueblo del que se marchó. No va a vengarse: va a que alguien le diga que lo siente.",
 

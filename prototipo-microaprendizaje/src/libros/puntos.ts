@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  gulag: [
+    "en qué año se abrieron los primeros campos, que no fue con Stalin",
+    "por qué siguieron treinta años abiertos costando más de lo que producían",
+    "cómo una norma sobre la comida convirtió el hambre en algo automático",
+    "quién mandaba de verdad dentro de un barracón",
+    "qué se encontró al volver quien salió de allí",
+  ],
+
   patria: [
     "cómo se aísla a una familia sin que nadie dé ninguna orden",
     "qué le pasa a una amistad de cuarenta años cuando hay que elegir",

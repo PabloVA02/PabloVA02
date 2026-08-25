@@ -86586,7 +86586,430 @@ const PATRIA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Gulag, en DOCE paginas.
+
+   AMPLIO por el motivo bueno del apartado 2 ter: son diez argumentos
+   independientes y quitar cualquiera deja el libro cojo. Ademas la biblioteca
+   va corta de Amplios.
+
+   HISTORIA -> afirmacion entera en el rotulo y TERCERA PERSONA en la caja
+   (4.7). Y ademas 4 bis: esto es una historia de atrocidad con victimas reales,
+   asi que ni una sola caja en segunda persona. Nada de lecciones de vida
+   sacadas de un campo de trabajo.
+
+   Lo concreto, uno por pagina: los primeros campos de 1918, Solovki desde 1923,
+   el canal del mar Blanco entre 1931 y 1933, la racion atada a la produccion,
+   los criminales comunes mandando en el barracon, la rebelion de Kenguir de
+   1954, Ivan Denisovich en Novy Mir en 1962.
+
+   La conclusion tiene el mejor 'que paso despues' posible y hay que darlo
+   entero: Memorial, la organizacion cuyos archivos sostienen este libro, fue
+   liquidada por orden del Tribunal Supremo ruso en diciembre de 2021, y recibio
+   el Nobel de la Paz en 2022.
+   -------------------------------------------------------------------------- */
+
+const GULAG: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Gulag no es el nombre de un lugar: es la sigla de la oficina que administraba los campos",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palabra que en Occidente designa un sitio era en realidad un acrónimo burocrático. Gulag son las iniciales rusas de Dirección General de Campos, un departamento del Ministerio del Interior soviético con sus nóminas, sus circulares y sus informes de productividad. No era un lugar: era una administración con miles de campos repartidos por todo el país.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Anne Applebaum publicó esta historia en 2003, después de trabajar en los archivos que se abrieron tras la caída de la Unión Soviética y de cruzar esa documentación con centenares de memorias de supervivientes. Ganó el Pulitzer al año siguiente, y sigue siendo el relato general más completo que existe del sistema entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus cifras dan la escala. Calcula que unos dieciocho millones de personas pasaron por los campos entre 1929 y 1953, y que otros seis o siete millones fueron deportadas a asentamientos de destierro. Los muertos dentro de los campos los sitúa entre dos y tres millones, advirtiendo de que muchos eran liberados poco antes de morir y no constan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre cuándo empezó todo aquello, en qué monasterio se inventó el método, qué obra lo convirtió en un sistema económico, por qué nunca fue rentable y siguió abierto igual, cómo eran una detención y un viaje, de qué manera mataba una ración de comida, quién mandaba dentro de un barracón, qué pasó con las mujeres, cómo terminó y qué se le puede reprochar a este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No era un sitio, era una oficina. Los campos tenían circulares, nóminas, objetivos de producción e informes trimestrales de rendimiento.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los primeros campos son de 1918, o sea que no los inventó Stalin" },
+      {
+        b: "texto",
+        texto:
+          "Uno de los datos que más ordena el libro es una fecha. Los primeros campos de concentración soviéticos se crearon en 1918, en plena guerra civil, apenas un año después de la revolución y una década antes de que Stalin tuviera el poder. Lenin los mencionó por escrito y firmó órdenes para internar en ellos a quienes llamaba elementos dudosos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Applebaum insiste en ese origen porque desmonta una explicación cómoda. Durante décadas se sostuvo que los campos eran una desviación personal de Stalin, una perversión de un proyecto que en sí mismo era razonable. Los documentos muestran otra cosa: el instrumento existía desde el principio y formaba parte de la manera de gobernar desde el primer año.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí cambió con Stalin fue la escala y la función. En los años veinte los campos eran pequeños, mal organizados y estaban pensados sobre todo para aislar enemigos políticos. A partir de finales de esa década se convirtieron en un sistema económico nacional, con planes de producción y con un papel asignado en la industrialización del país.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro señala también una diferencia con el otro sistema de campos del siglo. Los campos soviéticos no estaban diseñados para matar, y por eso no tenían cámaras de gas. Estaban diseñados para extraer trabajo, y mataban por agotamiento, frío, hambre y accidentes. La distinción no consuela a nadie y explica por qué funcionaban como funcionaban.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los primeros campos se abrieron en 1918, diez años antes de que Stalin tuviera el poder. El instrumento estaba ahí desde el principio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El método se inventó en un monasterio del Ártico convertido en campo experimental",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1923, las autoridades soviéticas convirtieron el monasterio de Solovkí, en unas islas del mar Blanco cerca del círculo polar, en un campo de prisioneros. Era un sitio aislado, con edificios de piedra ya construidos y con el mar helado alrededor buena parte del año, y allí se probó durante una década lo que después se aplicó a todo el país.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Applebaum lo describe como un laboratorio. En Solovkí se ensayó la idea de que un campo debía pagarse a sí mismo con el trabajo de sus presos, se montaron talleres, aserraderos y pesquerías, y se probaron los castigos, las jerarquías internas y el papel de los criminales comunes como capataces de los presos políticos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo desconcertante de esos primeros años es la mezcla. Convivían el teatro, la orquesta, el periódico del campo y una biblioteca con la tortura y las ejecuciones sumarias; había presos que daban conferencias y presos a los que se dejaba morir de frío atados a un poste. El campo se enseñaba a visitantes extranjeros como ejemplo de reeducación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De Solovkí salió además el argumento que justificaría todo lo demás: la idea de que el trabajo forzado no era un castigo sino una forma de reforjar a las personas. Ese vocabulario —reeducación, reforja, corrección por el trabajo— acompañó al sistema hasta el final y aparecía en documentos internos que nadie de fuera iba a leer nunca.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En aquel monasterio convivían una orquesta y un periódico con las ejecuciones sumarias, y se enseñaba a visitantes extranjeros como ejemplo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un canal construido a mano en veinte meses convirtió los campos en un sistema económico",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entre 1931 y 1933 se excavó el canal que une el mar Blanco con el Báltico, más de doscientos kilómetros, en veinte meses y prácticamente sin maquinaria. Lo hicieron presos con picos, palas, carretillas de madera y explosivos escasos, trabajando en un terreno de granito y con inviernos de temperaturas extremas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las estimaciones sitúan alrededor de veinticinco mil los muertos durante la obra. El canal se terminó dentro del plazo político y con una profundidad muy inferior a la necesaria, de modo que los barcos grandes nunca pudieron usarlo. Fue una hazaña propagandística y una obra de utilidad económica escasa desde el primer día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte que Applebaum subraya es la campaña que vino después. Se organizó un viaje de escritores soviéticos al canal, dirigido por Máximo Gorki, del que salió un libro colectivo que celebraba la obra y la transformación moral de los presos. Fue la operación que instaló en el país la idea del campo como escuela.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el efecto práctico fue que aquello se tomó como demostración. Si con presos se podía construir un canal en veinte meses, se podía construir cualquier cosa: minas en el Ártico, carreteras en la taiga, ciudades enteras en el permafrost. A partir de ahí el Gulag dejó de ser un lugar de castigo y pasó a ser un proveedor de mano de obra para el plan.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El canal se terminó en plazo y quedó demasiado poco profundo para los barcos grandes. Sirvió como propaganda y como prueba de que se podía repetir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El sistema nunca fue rentable, y eso no bastó para cerrarlo" },
+      {
+        b: "texto",
+        texto:
+          "Uno de los hallazgos de los archivos es que la economía del Gulag no salía. Los propios informes internos lo decían: los campos costaban más de lo que producían. Había que alimentar a los presos, vigilarlos, transportarlos miles de kilómetros, construir barracones, pagar guardias y sostener una burocracia enorme para administrarlo todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el trabajo obtenido era malísimo. Un preso hambriento, enfermo y sin ningún interés en el resultado produce poco y produce mal, y en cuanto la tarea exige alguna cualificación el resultado es desastroso. Los directores de los campos se quejaban por escrito de que les mandaran ingenieros a talar árboles y campesinos a montar maquinaria, y de que la herramienta llegara rota o no llegara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Applebaum documenta además la práctica que se comía las cifras: falsear la producción. Los presos exageraban lo hecho, los capataces lo aceptaban porque también les convenía, y los partes subían por la cadena inflados en cada escalón. La contabilidad del sistema medía en buena parte trabajo que no se había hecho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La pregunta que queda es por qué duró treinta años una cosa que no salía a cuenta, y la respuesta que da el libro es incómoda. El sistema se sostenía por inercia burocrática, porque había una organización enorme cuyos cargos vivían de él, y por una razón ideológica: hacía falta que existieran enemigos, hacía falta que trabajaran y hacía falta que el país entero supiera que existían.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los propios informes internos decían que los campos costaban más de lo que producían. Duraron treinta años de todas formas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi nadie entraba por lo que había hecho, y casi todos acababan confesando",
+      },
+      {
+        b: "texto",
+        texto:
+          "La detención ocurría casi siempre de madrugada, en casa, delante de la familia. Applebaum reúne decenas de relatos que coinciden en los detalles: el registro, los libros abiertos y tirados al suelo, el permiso para coger algo de ropa y la certeza equivocada de que aquello era un error administrativo que se aclararía en dos o tres días.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La acusación más frecuente era el artículo cincuenta y ocho del código penal, actividad contrarrevolucionaria, redactado con tal amplitud que cabía cualquier cosa: un chiste, una carta, una conversación, un pariente en el extranjero, haber trabajado con alguien ya detenido, o nada en absoluto salvo que aquel mes hacía falta llenar un cupo de detenciones fijado desde arriba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El interrogatorio buscaba una confesión y casi siempre la conseguía, no por astucia sino por métodos elementales: privación de sueño durante días, luz continua, permanecer de pie, palizas y amenazas contra la familia. Applebaum señala que la confesión importaba mucho al sistema, que quería expedientes en orden aunque nadie fuera a revisarlos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La condena solía dictarla en minutos un tribunal administrativo de tres personas que no veía al acusado. Y había una fórmula que aparece muchísimo en los expedientes: diez años sin derecho a correspondencia. Las familias esperaban cartas durante décadas. Hoy se sabe que en muchos casos significaba que la persona había sido fusilada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "«Diez años sin derecho a correspondencia» aparece en miles de expedientes. Las familias esperaron cartas durante décadas de alguien ya fusilado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El viaje hasta el campo podía durar meses y mataba a una parte de los que empezaban",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entre la condena y el campo había un trayecto que en los relatos ocupa tanto espacio como los años posteriores. Se cruzaba el país en vagones de mercancías adaptados, con un agujero en el suelo por retrete, sin espacio para tumbarse todos a la vez y con raciones de pan salado y muy poca agua, que era la queja que más se repite.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los trenes paraban en cárceles de tránsito, donde los presos podían pasar semanas mezclados con quien tocara y donde se producía buena parte de los robos y las agresiones. Applebaum describe esas prisiones intermedias como el punto en que los recién llegados aprendían las reglas reales, que no se parecían a nada de lo que esperaban.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El último tramo era el peor y no iba en tren. Para llegar a los campos del extremo nororiental había que embarcar en un puerto del Pacífico y navegar varios días en bodegas cerradas, y de ahí seguir por pistas abiertas en el permafrost. Muchos de los que morían en el sistema morían antes de haber trabajado un solo día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Applebaum señala lo que ese trayecto significaba en la práctica administrativa. Un preso que moría en el camino no contaba en las estadísticas del campo de destino, con lo que las cifras oficiales de mortalidad de los campos, ya de por sí incompletas, dejaban fuera a una parte de los muertos del sistema.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una parte de los que murieron en aquel sistema murió antes de trabajar un solo día, y no consta en las estadísticas de ningún campo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Atar la comida a la producción es lo que convirtió el hambre en un mecanismo automático",
+      },
+      {
+        b: "texto",
+        texto:
+          "La pieza central del funcionamiento de los campos es una norma administrativa y no un acto de crueldad individual. La ración de pan de cada preso dependía del porcentaje de la tarea que hubiera cumplido ese día. Quien cumplía el cien por cien comía; quien se quedaba por debajo recibía menos, y quien no llegaba al mínimo recibía muy poco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto de esa regla es aritmético y no hace falta que nadie lo desee. Un preso debilitado produce menos, con lo que come menos, con lo que se debilita más, con lo que produce todavía menos. En pocas semanas la persona entra en una espiral de la que casi nadie salía, y el sistema la ejecutaba sin que ningún funcionario decidiera nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los supervivientes tenían una palabra para el último estado de esa caída, y aparece en casi todas las memorias. Designaba al preso que ya había dejado de tener hambre, que se movía muy despacio, que rebuscaba en la basura y al que los demás dejaban de hablar porque se sabía que le quedaban semanas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la regla de supervivencia que repiten todos los que salieron: había que salir del trabajo general como fuera. Conseguir un puesto en la cocina, en la enfermería, en la contabilidad o de barrendero multiplicaba las posibilidades de vivir, y por eso el sistema de privilegios internos era mucho más importante que la duración de la condena.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La ración dependía de la producción, así que el debilitado comía menos y se debilitaba más. El sistema mataba sin que nadie lo decidiera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dentro de los barracones no mandaban los guardias, mandaban los delincuentes comunes",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los hallazgos que más sorprende a quien llega a este libro con una idea previa es quién ejercía el poder dentro de un campo. No eran los guardias, que vigilaban el perímetro y contaban a los presos. Dentro de los barracones mandaba una casta de delincuentes profesionales con sus propias reglas, su jerga y sus tribunales internos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La administración lo consentía y en buena medida lo fomentaba. Aquellos presos eran considerados socialmente cercanos, gente recuperable, frente a los políticos, que eran los enemigos de verdad. Se les daban los puestos de capataz y de jefe de barracón, y con ellos el control de la comida, de la ropa de abrigo y del reparto diario del trabajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Applebaum recoge lo que eso significaba en la práctica cotidiana: robos sistemáticos a los recién llegados, palizas, partidas de cartas en las que se apostaba la ropa o la vida de otro preso, y una violencia constante que los políticos no podían denunciar a nadie porque el que mandaba era precisamente el agresor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle deja al descubierto la mentira central del sistema. Un campo que se presentaba como una institución de corrección por el trabajo estaba entregado por dentro a los presos menos interesados en trabajar, y los que lo sufrían eran en su mayoría gente detenida por una carta, por un chiste en una cocina o por llevar el apellido equivocado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La administración consideraba a los delincuentes comunes socialmente cercanos y a los políticos enemigos, y les entregó a los primeros el mando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las mujeres tenían un campo dentro del campo, y sus hijos entraban en el mismo expediente",
+      },
+      {
+        b: "texto",
+        texto:
+          "Applebaum dedica un capítulo a las presas y evita las dos tentaciones habituales, la de omitirlo y la de convertirlo en un relato aparte. Las mujeres hacían el mismo trabajo, comían con las mismas normas y morían por las mismas causas, y además sufrían un tipo de coacción que no aparece en las memorias masculinas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Describe lo que en las memorias se llama con eufemismo el matrimonio de campo: acuerdos de protección con un guardia o con un preso privilegiado a cambio de sexo, que en aquellas condiciones significaban comida, ropa de abrigo y un puesto que no fuera el trabajo general. Applebaum se niega a llamar consentimiento a un intercambio así, y dedica varias páginas a explicar por qué.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hubo además muchos embarazos, y con ellos guarderías dentro de los campos. La documentación describe barracones infantiles con mortalidad altísima, madres a las que se dejaba amamantar en horarios estrictos y separaciones a los dos años, cuando el niño pasaba a un orfanato del Estado y a menudo se le cambiaba el apellido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro recoge también la categoría administrativa que existió para las esposas: mujeres condenadas por ser familia de un detenido, sin ninguna acusación propia. Y el destino de sus hijos, repartidos en instituciones donde crecían sabiendo que eran hijos de enemigos del pueblo, que era una etiqueta administrativa y les acompañaba a la escuela, al trabajo y al carné.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hubo una categoría penal para las esposas de los detenidos, condenadas sin ninguna acusación propia, y sus hijos crecieron con esa etiqueta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El sistema empezó a caerse cuando murió Stalin, y los presos lo notaron antes que nadie",
+      },
+      {
+        b: "texto",
+        texto:
+          "Stalin murió en marzo de 1953, y lo que ocurrió en los meses siguientes lo cuenta el libro con precisión. Hubo una amnistía inmediata que dejó salir sobre todo a delincuentes comunes y no a los políticos, y en los campos se extendió una mezcla de esperanza y de rabia que desembocó en algo que no había ocurrido nunca a esa escala: huelgas y rebeliones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las más importantes fueron en Norilsk, en Vorkutá y en Kenguir, en el verano de 1954. En Kenguir los presos tomaron el control del campo y lo mantuvieron cuarenta días, con una organización interna, comisiones, servicio de orden y negociaciones con las autoridades. Terminó cuando entraron los tanques y el ejército.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El desmantelamiento fue rápido después. Entre 1953 y 1956 salieron millones de personas, y el discurso secreto de Jrushchov ante el partido en 1956 hizo posible hablar en voz alta de lo que había pasado. En 1962, con permiso del propio Jrushchov, una revista literaria publicó el relato de Solzhenitsyn sobre un día en la vida de un preso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y entonces apareció el problema del regreso, que Applebaum trata mejor que casi nadie. Los que volvían encontraban su casa ocupada, su familia deshecha y a veces al vecino que los había denunciado viviendo en el mismo rellano. No hubo juicios, ni depuraciones, ni nadie que perdiera su pensión por lo que había hecho.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los que volvieron encontraron a veces al vecino que los había denunciado viviendo en el mismo rellano. No hubo juicios contra nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que este libro deja establecido son cuatro cosas. Que los campos existían desde 1918 y no fueron una invención personal de Stalin. Que nunca fueron rentables y duraron treinta años igual. Que el mecanismo que más mataba era una norma administrativa que ataba la comida a la producción. Y que dentro de los barracones el poder lo tenían los delincuentes comunes por decisión de la administración.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en las cifras, y Applebaum lo reconoce en parte. Los cálculos de muertos varían muchísimo entre historiadores según qué se cuente —muertos en el campo, en el destierro, en el trayecto o poco después de salir—, y el libro presenta a veces con más firmeza de la que permiten los archivos unos números que siguen siendo objeto de discusión entre especialistas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en el encuadre, y hay una advertencia sobre las fuentes que ella misma hace. El libro cuenta magníficamente los campos y dedica mucho menos espacio al sistema que los llenaba: la colectivización forzosa, la hambruna de los años treinta y el Terror como proceso político. Y buena parte del relato humano viene de memorias, que son insustituibles y a la vez selectivas, porque escribieron los que sobrevivieron y sabían escribir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que ha pasado después con este libro es lo más duro de contar. Applebaum trabajó con los archivos reunidos por Memorial, la organización fundada en 1989 por antiguos disidentes para documentar la represión soviética y localizar a las víctimas. En diciembre de 2021, el Tribunal Supremo ruso ordenó su liquidación. Al año siguiente, Memorial recibió el Premio Nobel de la Paz, ya disuelta en su propio país.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La organización que reunió los archivos de este libro fue liquidada por orden judicial en 2021, y recibió el Nobel de la Paz al año siguiente.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  gulag: GULAG,
   patria: PATRIA,
   "procrastinacion-steel": PROCRASTINACION_STEEL,
   "amor-liquido": AMOR_LIQUIDO,
