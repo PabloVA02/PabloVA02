@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "tus-zonas-erroneas": [
+    "en qué se diferencia aprender de un error de sentirse culpable",
+    "por qué necesitar aprobación entrega decisiones a otros",
+    "qué le hace a una persona la frase «yo soy así»",
+    "cómo pelear una injusticia sin quedarse esperando por ella",
+    "qué anuncian verbos como «ojalá» y «a ver si»",
+  ],
+
   "leyes-naturaleza-humana": [
     "por qué sentir claridad especial suele significar lo contrario",
     "qué mirar para juzgar a alguien, que no es lo que dice",

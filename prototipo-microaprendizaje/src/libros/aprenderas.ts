@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "tus-zonas-erroneas":
+    "Dyer era profesor de psicología en Nueva York y publicó esto en 1976, cuando la idea de que los sentimientos se pueden examinar apenas había salido de las consultas. Su afirmación es que entre lo que ocurre y lo que se siente hay un paso intermedio.",
+
   "leyes-naturaleza-humana":
     "En sus dos libros anteriores el lector era el que operaba y los demás el material. Este empieza diciéndole al lector que es irracional y narcisista, y solo después enseña a leer a los otros. Son dieciocho leyes con un caso histórico cada una.",
 

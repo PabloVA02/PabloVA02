@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "tus-zonas-erroneas": "Guía para combatir las causas de la infelicidad",
   "millonario-automatico": "Un plan poderoso y sencillo para vivir y acabar rico",
   "por-que-amamos": "Naturaleza y química del amor romántico",
   "poder-5-segundos": "Atrévete a cambiar tu vida en cinco segundos",

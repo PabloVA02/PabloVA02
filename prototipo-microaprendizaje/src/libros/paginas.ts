@@ -72599,7 +72599,296 @@ const LEYES_NATURALEZA_HUMANA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Tus zonas erróneas, en ocho páginas.
+
+   Breve. Libro práctico → afirmación entera en el rótulo y SEGUNDA PERSONA
+   en la caja (apartado 4.7).
+
+   Es de 1976 y eso va en la primera página: la mitad de lo que dice se
+   entiende sabiendo que fue de los primeros en decirlo.
+
+   Riesgo principal: repetir «tú eliges cómo te sientes» sin la línea que el
+   libro no traza nunca. Eso es cierto para el malestar corriente y es falso
+   y cruel en una depresión, y hay que decirlo dentro del resumen y no solo
+   al final.
+
+   La página séptima cuenta de dónde salen de verdad estas ideas —Albert
+   Ellis, 1955—, que es lo que ningún resumen de este libro dice.
+
+   Y la conclusión sigue la trayectoria del autor hasta el final, que es el
+   mejor argumento contra la parte floja del libro.
+   -------------------------------------------------------------------------- */
+
+const TUS_ZONAS_ERRONEAS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro sostiene que nadie te hace sentir nada, y en 1976 eso era nuevo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Wayne Dyer era profesor de psicología del asesoramiento en una universidad de Nueva York cuando publicó esto en 1976. Su afirmación de partida es la que ordena el libro entero: los sentimientos no los provocan los acontecimientos ni las personas, sino lo que uno se dice a sí mismo sobre ellos, y eso último se puede cambiar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el título. Llama zonas erróneas a las áreas de la conducta donde alguien ha entregado a otros el control de cómo se siente: la aprobación que necesita, la culpa que arrastra, la etiqueta que se ha puesto encima, la justicia que exige antes de poder funcionar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir enseguida dónde está el límite, porque el libro no lo dice nunca. Esa afirmación es razonablemente cierta para el malestar corriente —un enfado, un desaire, una preocupación que da vueltas—, y es falsa para una depresión, un duelo reciente o las secuelas de algo grave, donde el estado no es una elección de nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre las dos emociones que Dyer considera completamente inútiles y por qué, la que a su juicio manda más en la vida de la gente, la frase que impide cualquier cambio, qué pasa cuando alguien exige justicia, de dónde salen en realidad estas ideas, y qué fue de su autor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Es cierto para un enfado y falso para una depresión, y el libro no traza esa línea en ninguna página.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La culpa y la preocupación consumen el presente y no cambian nada" },
+      {
+        b: "texto",
+        texto:
+          "Lo mejor del libro son dos definiciones, y son de las que se recuerdan años después. La culpa es quedarse paralizado en el presente por algo que ya ocurrió. La preocupación es quedarse paralizado en el presente por algo que quizá ocurra. Las dos gastan el único tiempo que existe en el único momento en el que no sirven de nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dyer insiste en una distinción que se pasa por alto. Aprender de un error es útil y no es culpa: es mirar qué se hizo mal y cambiar la conducta la próxima vez, y eso se hace en un rato. La culpa es lo que viene después, cuando ya no queda nada que aprender y se sigue volviendo al mismo sitio a sentir lo mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con la preocupación hace lo mismo. Prever un riesgo y prepararse es útil y termina en una acción concreta: se compra el seguro, se hace la revisión, se guarda el dinero. Preocuparse es la parte que sigue funcionando después de haber hecho todo lo que se podía hacer, y esa parte no reduce el riesgo ni un uno por ciento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la prueba que propone y que se puede aplicar en el momento: preguntarse si este sentimiento va a cambiar algo de lo que pasó o de lo que va a pasar. Si la respuesta es no y ya se ha hecho lo que se podía hacer, lo que queda no es responsabilidad ni prudencia: es tiempo presente gastado en nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pregúntate si eso que sientes va a cambiar algo: si ya hiciste lo que podías, lo que queda no es prudencia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Buscar aprobación es la costumbre que más decisiones ajenas mete en una vida",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dyer sostiene que la necesidad de aprobación no es un rasgo de carácter sino algo enseñado, y describe cómo: durante toda la infancia se premia con afecto la conducta que agrada a los adultos y se retira el afecto ante la que no. Al llegar a adulto, la persona sigue buscando esa señal y ya no hay nadie encargado de darla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema que señala no es querer gustar, que es normal y no tiene nada de malo, sino necesitarlo para decidir. Quien necesita aprobación para estar bien ha puesto el mando de su estado de ánimo en manos de gente que no tiene ni idea de que lo tiene, y que además cambia de opinión según su propio día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejercicio es de los pocos concretos del libro y consiste en practicar la desaprobación en cosas sin importancia. Pedir que cambien un plato que está mal. Decir que una película no te gustó cuando todos dicen lo contrario. Colgar una llamada comercial. Son cosas menores cuya única función es comprobar que no pasa nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hay detrás es un cálculo que Dyer no llega a formular y se deduce: la desaprobación se teme como si tuviera un coste grande y en la inmensa mayoría de los casos no tiene ninguno, porque la otra persona lo olvida en veinte minutos. La prueba en cosas pequeñas sirve precisamente para actualizar esa estimación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Querer gustar es normal; necesitarlo para decidir es haber puesto el mando en manos de alguien que ni sabe que lo tiene.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "«Yo soy así» es la frase que cierra una pregunta antes de que llegue a abrirse",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos más útiles trata de las etiquetas que cada uno se pone a sí mismo. Soy tímido, soy desordenado, soy malísimo con los números, tengo mal genio, no se me dan bien los idiomas. Dyer las llama la manera más eficiente que existe de no cambiar nada, y explica por qué.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una etiqueta convierte una conducta en una identidad. «No he ordenado esto» describe algo que ocurrió y admite hacerlo mañana; «soy desordenado» describe lo que uno es, y contra eso no hay nada que hacer, porque cambiar exigiría dejar de ser quien se es, que es una petición mucho mayor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Casi todas se apoyan además en un pasado que ya no se examina. Alguien decide a los quince años que es malo hablando en público después de dos experiencias malas, y a los cuarenta sigue repitiéndolo sin haberlo vuelto a probar en veinticinco años. La etiqueta ha impedido la prueba que podría desmentirla, que es exactamente su función.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su recomendación es de vocabulario y es de las que se pueden hacer hoy: sustituir los verbos de ser por verbos de hacer. En vez de soy impuntual, últimamente llego tarde. La segunda frase es igual de sincera, no vale de excusa para nada y deja abierta la pregunta de qué se hace al respecto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cambia «soy así» por «últimamente hago esto»: la primera cierra el asunto y la segunda lo deja abierto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Exigir que las cosas sean justas antes de poder funcionar te deja quieto",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre la justicia es el más incómodo y también el que más se malinterpreta. Dyer sostiene que la justicia es un concepto humano y que los acontecimientos no lo tienen en cuenta, así que exigir que la realidad sea justa como condición para actuar produce una espera indefinida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo es la comparación, que es donde esto aparece a diario. Alguien menos preparado asciende, un compañero que trabaja menos cobra igual, a otro le sale bien lo mismo que a uno le salió mal. La frase «no hay derecho» es exacta como descripción y no contiene ninguna instrucción sobre qué hacer a continuación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La distinción que hay que hacer, y que el libro hace mal, es entre reclamar y exigir. Reclamar es una acción: se protesta, se negocia, se denuncia, se organiza uno con otros, y todo eso cambia cosas. Exigir en el sentido de Dyer es el estado interno de no poder seguir hasta que alguien reconozca que fue injusto, y eso solo depende de otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Leído así, el capítulo es útil y no es conformista. Se puede pelear una injusticia con todas las fuerzas sin necesitar que el mundo sea justo para poder levantarse por la mañana. Leído como lo escribe Dyer, sin esa distinción, se parece demasiado a decirle a alguien que se aguante, y es la parte del libro que peor ha envejecido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Puedes pelear una injusticia sin necesitar que el mundo sea justo para poder seguir con tu día.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Aplazar algo no es pereza: es la manera de tener la intención sin el riesgo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dyer describe la postergación con una precisión que no tenían los libros de su época. Sostiene que quien aplaza no está eligiendo no hacer las cosas: está eligiendo la sensación de que va a hacerlas. Decir que se empieza el lunes produce alivio inmediato y conserva intacta la imagen de alguien que va a hacerlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y señala el precio, que es lo que hace útil el capítulo. Esa sensación se paga dos veces: primero con el malestar de fondo de tener algo pendiente, que dura todos los días hasta que se haga; y después con el hecho de que la tarea aplazada casi siempre se hace peor, con prisa y en el último momento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su técnica es la de los cinco minutos, que otros libros repetirían décadas después: comprometerse solo con un rato corto y muy concreto de la tarea, no con la tarea entera. Cinco minutos con el asunto delante es un compromiso que no da miedo, y una vez dentro, casi siempre se sigue.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade una observación sobre el vocabulario que es de las mejores del libro: quien dice «ojalá», «espero» o «a ver si» está anunciando de antemano que no va a hacerlo. Son verbos que describen un deseo y no contienen a nadie que actúe, y quien los usa mucho puede comprobar cuántas de esas frases se cumplieron.",
+      },
+      {
+        b: "idea",
+        texto:
+          "«Ojalá» y «a ver si» son verbos sin nadie dentro que actúe, y anuncian de antemano lo que va a pasar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi nada de esto es de Dyer: viene de una terapia formulada en 1955",
+      },
+      {
+        b: "texto",
+        texto:
+          "El armazón del libro no es original y conviene saber de dónde sale. El psicólogo Albert Ellis había formulado en 1955 la terapia racional emotiva, cuya idea central es exactamente la de este libro: entre lo que ocurre y lo que uno siente hay un paso intermedio, que es lo que uno se dice sobre lo ocurrido, y ese paso se puede examinar y cambiar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ellis lo ordenó en tres letras: un acontecimiento activador, una creencia sobre él y una consecuencia emocional. Casi todo el mundo cree que el primero produce el tercero directamente, y el trabajo terapéutico consiste en hacer visible el segundo, que es donde están las exigencias absolutas —debería, tendría que, no hay derecho— que producen el malestar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí salen prácticamente todos los capítulos de este libro, incluida su parte más brillante: la culpa, la preocupación, las etiquetas y la exigencia de justicia son las cuatro creencias irracionales que Ellis catalogó veinte años antes. Dyer las escribió sin jerga y para el gran público, que era lo que faltaba y no es poco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Decirlo no le quita mérito, se lo sitúa. La aportación de Dyer fue de traducción y de alcance: convirtió una terapia que se practicaba en consultas en un libro que leyó muchísima gente que no habría pisado una consulta nunca. Y de ahí, por el mismo camino, salieron después los manuales de terapia cognitiva de todo el mundo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Entre lo que te pasa y lo que sientes hay un paso intermedio —lo que te dices—, y ese paso se puede examinar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "De este libro se llevan tres cosas que aguantan cincuenta años después. Las dos definiciones, que son las mejores que existen: la culpa es quedarse quieto por lo que ya pasó y la preocupación por lo que quizá pase. La sustitución de «soy así» por «últimamente hago esto». Y la prueba de preguntarse si lo que se está sintiendo va a cambiar algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la línea que no traza. «Tú eliges cómo te sientes» funciona para un enfado y es falso para una depresión, un duelo o un trastorno de ansiedad, y el libro no distingue en ninguna página. Quien está deprimido y lee que su estado depende de una elección suya obtiene una prueba más de que está fallando en algo que a los demás les sale solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla por lo que deja fuera. En el mundo de este libro todos los obstáculos son internos: no aparecen la pobreza, la enfermedad, el cuidado de otros ni la discriminación, y por tanto todo problema acaba siendo una cuestión de actitud. Tampoco hay un solo estudio, un dato ni un seguimiento: son afirmaciones y casos de su propia consulta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después es la mejor prueba de dónde está el límite. Dyer dejó la universidad, se convirtió en uno de los primeros divulgadores de masas del género y publicó decenas de libros que fueron alejándose cada vez más de la psicología: acabó sosteniendo que la intención puede curar enfermedades y atribuyendo a un sanador brasileño —condenado años después por delitos sexuales y encarcelado— la remisión de su propia leucemia. Murió en 2015. El trayecto entero, de una terapia comprobable a una afirmación que no se puede comprobar, está en esa biografía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las dos definiciones valen para toda la vida, y la afirmación que da título al género tiene un límite que este libro nunca marca.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "tus-zonas-erroneas": TUS_ZONAS_ERRONEAS,
   "leyes-naturaleza-humana": LEYES_NATURALEZA_HUMANA,
   "21-lecciones": VEINTIUNA_LECCIONES,
   "millonario-automatico": MILLONARIO_AUTOMATICO,
