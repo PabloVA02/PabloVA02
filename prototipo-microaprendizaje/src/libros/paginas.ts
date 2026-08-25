@@ -70071,7 +70071,284 @@ const SEGUNDO_CEREBRO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Dopamina, en ocho páginas.
+
+   Breve. Divulgación científica → afirmación entera en el rótulo, TERCERA
+   persona y la caja como idea de la página (apartado 4.7). No es un manual
+   aunque el último capítulo dé consejos.
+
+   Riesgo principal: repetir la simplificación que este libro ha ayudado a
+   extender. Se evita con lo que sí está medido: el error de predicción de
+   recompensa de Schultz, la separación entre querer y gustar de Berridge, y
+   el estudio de 1978 de los premiados de lotería.
+
+   Y la conclusión tiene que decirlo con todas las letras: el capítulo
+   político no tiene pruebas, una sola molécula no explica el arte ni la
+   ideología, y el ayuno de dopamina que vino después no va de dopamina.
+   -------------------------------------------------------------------------- */
+
+const DOPAMINA_LIEBERMAN: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La dopamina no produce placer: produce ganas de lo que todavía no se tiene",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante décadas se llamó a la dopamina la molécula del placer, y esa etiqueta sigue circulando. Lo que la investigación de los últimos treinta años ha establecido es distinto y bastante más raro: la dopamina no se ocupa de disfrutar nada. Se ocupa de lo que todavía no ha pasado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia de ese reparto es que la dopamina pierde el interés en cuanto algo se consigue de verdad. Al obtener una cosa, esa cosa cambia de zona: pasa a estar al alcance de la mano, y la sustancia que llevaba meses persiguiéndola ya está mirando la siguiente. No es un fallo del sistema ni una avería personal de nadie: es exactamente la función para la que sirve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia de ese reparto es que la dopamina pierde interés en cuanto algo se consigue. Al obtener una cosa, esa cosa cambia de zona: pasa a estar al alcance, y la sustancia que la perseguía ya está mirando la siguiente. No es un fallo del sistema, es exactamente su función.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre el experimento con el que se descubrió cómo funciona de verdad, la diferencia medible entre querer algo y disfrutarlo, por qué el enamoramiento tiene una duración distinta del amor, por qué conseguir más no aumenta la satisfacción, y qué hace la otra mitad del cerebro cuando se le deja.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La sustancia que persigue las cosas deja de interesarse por ellas en el momento exacto en que se consiguen.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las neuronas de dopamina no se disparan con el premio: se disparan con la sorpresa",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hallazgo que cambió todo lo hizo Wolfram Schultz midiendo neuronas de macacos, en una serie de trabajos de los años noventa. El montaje era sencillo: se encendía una luz y, unos segundos después, llegaba un poco de zumo. Se registraba qué hacían las neuronas dopaminérgicas en cada momento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al principio, las neuronas se disparaban al llegar el zumo. Pero en cuanto el animal aprendió que la luz anunciaba el zumo, el disparo se trasladó: pasó a ocurrir al encenderse la luz, y ya no ocurría al recibir la recompensa. Lo que se había vuelto predecible dejó de producir señal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hubo un tercer caso, que es el importante. Cuando se encendía la luz y el zumo no llegaba, la actividad de esas neuronas caía por debajo de su nivel de reposo. Es decir: la señal no mide el premio, mide la diferencia entre lo que se esperaba y lo que ha ocurrido. Se llama error de predicción de recompensa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso explica cosas que de otro modo no encajan. Por qué el segundo coche nuevo emociona menos que el primero aunque sea mejor. Por qué una recompensa que llega siempre deja de motivar. Y por qué las máquinas tragaperras y las aplicaciones que refrescan contenido dan premios irregulares: lo irregular no se puede predecir, y por tanto no se apaga nunca.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El sistema no mide lo bueno que es algo: mide cuánto se aleja de lo que se esperaba, y lo esperado no produce señal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Querer una cosa y disfrutarla son dos sistemas distintos y se pueden separar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kent Berridge y Terry Robinson demostraron en una serie de experimentos que el deseo y el placer no son dos grados de lo mismo, sino dos circuitos que pueden funcionar por separado. A ratas a las que se les bloqueaba el sistema dopaminérgico se les quitaban las ganas de buscar comida, y sin embargo seguían mostrando todas las señales de disfrutarla cuando se la ponían en la boca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que sacaron es que la dopamina no reparte placer, reparte importancia: marca ciertas cosas como aquello hacia lo que hay que moverse. Y ese marcado puede quedarse encendido aunque el placer que producía la cosa haya desaparecido del todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está la explicación de una descripción que hacen casi todos los adictos y que suena a excusa cuando se oye de fuera: que hace tiempo que no lo disfrutan y que aun así no pueden parar. No es una manera de hablar. Es la descripción exacta de un sistema de deseo intacto sobre un sistema de placer agotado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mismo mecanismo, en versiones suaves, aparece en cosas que nadie llama adicción: mirar el móvil sin que produzca nada, comprar algo que se sabe que no se va a usar, revisar por décima vez un correo que ya se ha leído. Querer sin disfrutar no es una contradicción, es el estado por defecto de un sistema que persigue.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se puede querer algo intensamente sin disfrutarlo nada, porque el deseo y el placer no son el mismo circuito.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El enamoramiento tiene una química propia y una duración medible" },
+      {
+        b: "texto",
+        texto:
+          "El dato encaja con lo que describe cualquiera que haya pasado por ese estado: pensamiento intrusivo, atención secuestrada, incapacidad de dejar de pensar en una persona concreta durante semanas. No es una manera poética de contarlo ni una exageración de novela; se parece a un cuadro obsesivo en la conducta y se le parece también en lo que sale al medirlo en sangre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El dato encaja con lo que describe cualquiera en ese estado: pensamiento intrusivo, atención secuestrada, incapacidad de dejar de pensar en una persona concreta. No es una manera poética de contarlo; se parece a un cuadro obsesivo y se le parece también en la analítica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es la parte útil del capítulo y no la escribe casi nadie. Mucha gente interpreta el final de esa fase como la prueba de que la relación era la equivocada, y la deja para volver a empezar en otro sitio donde la intensidad esté otra vez al principio. Repetido cuatro o cinco veces, eso produce una vida entera hecha de primeros años, que es precisamente lo que la maquinaria prefiere.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es la parte útil del capítulo. Mucha gente interpreta el final de esa fase como la prueba de que la relación era equivocada, y la deja para volver a empezar en otro sitio. Repetido varias veces, eso produce una vida entera de primeros años, que es exactamente lo que la dopamina prefiere.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que se acabe la fase obsesiva no dice nada sobre si la relación es buena: dice que ha terminado la parte que estaba diseñada para terminarse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conseguir más no aumenta la satisfacción, y hay datos desde 1978" },
+      {
+        b: "texto",
+        texto:
+          "El estudio que ancla este capítulo es de Philip Brickman y dos colegas, publicado en 1978. Compararon a veintidós personas que habían ganado premios importantes de lotería con veintinueve que habían quedado parapléjicas o tetrapléjicas tras un accidente, y con un grupo de control.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado que se hizo célebre fue que los premiados no declaraban ser más felices en el día a día que el grupo de control, y que además encontraban menos placer en las actividades cotidianas. El de los accidentados fue más matizado de lo que después se contó: sí declaraban menos felicidad, pero mucha más de la que cualquiera habría pronosticado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo encaja con lo de las páginas anteriores. Lo nuevo produce señal mientras es nuevo; en cuanto pasa a formar parte de lo que se tiene, deja de producirla, y el punto de referencia se recoloca en el nivel nuevo. Lo que se busca la próxima vez no se compara con la vida de antes, se compara con la de ahora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la observación más incómoda del libro: un sistema orientado a conseguir más funciona perfectamente y no está diseñado para producir satisfacción en ningún momento. Sirvió para sobrevivir en un entorno escaso, y la queja de que nada llena no es un defecto personal ni un problema moral.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El punto de referencia se recoloca en cuanto se llega, así que la comparación siguiente se hace siempre contra lo que ya se tiene.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La otra mitad del cerebro solo funciona con lo que se puede tocar" },
+      {
+        b: "texto",
+        texto:
+          "Frente a la sustancia que persigue, el libro coloca un grupo de sustancias que se ocupan de lo que ya está aquí: las que intervienen en el contacto físico, la saciedad, la calma y el vínculo. Su territorio es lo que cabe al alcance de la mano y su función es lo contrario de perseguir, que es estar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo importante es que las dos cosas compiten. Alguien pendiente de lo que viene después no está saboreando lo que tiene delante, y esto se puede comprobar en una comida cualquiera: mirar el móvil mientras se come reduce lo que se recuerda de la comida y también lo que se disfruta de ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la recomendación práctica del libro, que va contra la costumbre de estos años. Las actividades que activan esa otra mitad tienen todas la misma forma: se hacen con el cuerpo, ocurren en un sitio, no se pueden acelerar y no producen nada. Cocinar, un oficio manual, tocar un instrumento, estar con alguien en la misma habitación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una condición que los autores subrayan: no valen si se hacen para conseguir algo. Un oficio manual practicado para publicar el resultado vuelve a ser territorio de la persecución. Lo que cambia el estado no es la actividad, es hacerla sin que haya nada después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las cosas que se disfrutan de verdad tienen todas la misma forma: se hacen con el cuerpo, no se pueden acelerar y no producen nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La misma maquinaria explica el progreso y explica que nunca sea suficiente",
+      },
+      {
+        b: "texto",
+        texto:
+          "Puesto así, la insatisfacción crónica no es un fallo que haya que arreglar, sino el precio de una capacidad muy concreta: la de tratar el futuro como si fuera real y actuar hoy en consecuencia. Un animal que solo vive en lo que tiene delante no sufre esa inquietud en ningún momento, y tampoco planta nada en otoño para poder comer en primavera, ni guarda, ni construye nada que le sobreviva.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Puesto así, la insatisfacción no es un fallo que haya que arreglar sino el precio de una capacidad concreta: la de tratar el futuro como algo real. Un animal que solo vive en lo que tiene delante no sufre esa inquietud y tampoco planta nada en otoño para comer en primavera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro lleva esa idea hasta la personalidad, y sostiene que las personas más orientadas al futuro tienden a ser más productivas y menos capaces de disfrutar del presente, y que ese reparto explicaría también parte de la relación entre creatividad y trastornos del ánimo. Es la parte más especulativa y la que menos se apoya en datos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí queda en pie es la consecuencia práctica: quien tiene esa maquinaria muy activa no va a conseguir apagarla, y la única salida que describe el libro es programar deliberadamente lo otro. No como recompensa por haber trabajado, sino como una actividad que ocupe su sitio en la semana, porque sola no aparece nunca.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La misma capacidad que permite planificar el futuro impide disfrutar del presente, y no se puede tener una sin la otra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que se sostiene de este libro es la mitad que viene del laboratorio. Que la señal se dispara con la sorpresa y no con el premio, y que lo predecible deja de motivar. Que querer y disfrutar son circuitos separables, lo que explica la adicción sin apelar a la debilidad de nadie. Y que el punto de referencia se recoloca en cuanto se llega, así que conseguir más no acerca a ninguna parte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la ambición. Una sola molécula acaba explicando el amor, el arte, la ciencia, la enfermedad mental y las tendencias de voto, y ese es el defecto clásico de la divulgación neurocientífica. La dopamina interviene además en el movimiento, en el aprendizaje y en la regulación hormonal, y el reparto limpio entre una zona del mundo y otra es una metáfora útil, no una descripción anatómica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un capítulo que se cae entero. El que sostiene que las inclinaciones políticas se explican por el equilibrio entre esas dos familias de sustancias no aporta prácticamente ninguna prueba y funciona como una caracterización de dos grupos de personas escrita con vocabulario de laboratorio. Es el ejemplo de manual de lo que pasa cuando se estira un mecanismo real más allá de lo que aguanta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ha pasado después empeoró la simplificación. A partir de 2019 se puso de moda el llamado ayuno de dopamina, con gente evitando pantallas, música y conversación para «reiniciar» sus niveles. El psicólogo que había acuñado el término tuvo que salir a explicar en público que su propuesta era una técnica de conducta y que no tenía nada que ver con bajar ninguna molécula, porque bajarla no es algo que se pueda hacer ni convenga.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que viene del laboratorio se aguanta entero; lo que se construye encima empieza a fallar en cuanto sale de él.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "dopamina-lieberman": DOPAMINA_LIEBERMAN,
   "segundo-cerebro": SEGUNDO_CEREBRO,
   "cuatro-mil-semanas": CUATRO_MIL_SEMANAS,
   "ensenare-ser-rico": ENSENARE_SER_RICO,

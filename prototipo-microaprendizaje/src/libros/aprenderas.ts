@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "dopamina-lieberman":
+    "Las neuronas de dopamina de un macaco dejan de dispararse con el zumo en cuanto una luz lo anuncia: miden la sorpresa, no el premio. De ahí sale casi todo lo que este libro explica sobre el deseo, la adicción y el enamoramiento.",
+
   "segundo-cerebro":
     "Forte empezó a llevar notas propias por una enfermedad que nadie le diagnosticaba, y descubrió que el orden cambiaba las consultas. Su método reparte todo en cuatro cajones según para qué sirve, y no según de qué trata.",
 

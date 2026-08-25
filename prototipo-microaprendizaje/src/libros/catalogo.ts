@@ -340,7 +340,7 @@ export const CATALOGO: Ficha[] = [
   { id: "alegria-perderse", titulo: "La alegría de perderse", autor: "Tanya Dalton", ano: 2021, categoria: "Psicología", estado: "pendiente" },
   { id: "todo-empieza-contigo", titulo: "Todo empieza contigo", autor: "Jillian Turecki", ano: 2025, categoria: "Psicología", estado: "pendiente" },
   { id: "adulto-relaciones", titulo: "Cómo ser un adulto en las relaciones", autor: "David Richo", ano: 2002, categoria: "Psicología", estado: "pendiente" },
-  { id: "dopamina-lieberman", titulo: "Dopamina", autor: "Daniel Z. Lieberman y Michael E. Long", ano: 2018, categoria: "Psicología", estado: "pendiente" },
+  { id: "dopamina-lieberman", titulo: "Dopamina", autor: "Daniel Z. Lieberman y Michael E. Long", ano: 2018, categoria: "Psicología", estado: "escrito" },
   { id: "segundo-cerebro", titulo: "Crea tu segundo cerebro", autor: "Tiago Forte", ano: 2022, categoria: "Psicología", estado: "escrito" },
   { id: "focus-goleman", titulo: "Focus", autor: "Daniel Goleman", ano: 2013, categoria: "Psicología", estado: "pendiente" },
   /* --- Economía --------------------------------------------------------- */

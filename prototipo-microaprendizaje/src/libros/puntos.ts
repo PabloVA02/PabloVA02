@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "dopamina-lieberman": [
+    "por qué lo predecible deja de motivar aunque siga siendo bueno",
+    "cómo se puede querer algo sin disfrutarlo en absoluto",
+    "qué cambia en el cuerpo cuando termina la fase obsesiva",
+    "por qué conseguir más no aumenta la satisfacción",
+    "qué forma tienen las actividades que sí se disfrutan",
+  ],
+
   "segundo-cerebro": [
     "qué merece guardarse de un libro entero, que son cinco cosas",
     "por qué ordenar por temas hace que no encuentres nada",

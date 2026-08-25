@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "dopamina-lieberman": "Cómo una molécula condiciona de quién nos enamoramos y qué nos depara el futuro",
   "segundo-cerebro": "Un método probado para organizar tu vida digital",
   "cuatro-mil-semanas": "Gestión del tiempo para mortales",
   "ensenare-ser-rico": "Sin sentimiento de culpabilidad, sin excusas, sin tonterías",
