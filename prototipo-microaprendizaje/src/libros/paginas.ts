@@ -68968,7 +68968,268 @@ const PIENSALO_OTRA_VEZ: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El señor de los anillos, en ocho páginas.
+
+   Breve. NARRATIVA → apartado 3 bis: título corto de imagen en el rótulo,
+   la afirmación en la primera frase, y la caja en segunda persona sacando
+   de la escena una lección. El modelo es `referencia/odisea/`.
+
+   Riesgo principal, y aquí es máximo: contar el viaje. Todo el mundo se lo
+   sabe por las películas. Lo que hay que contar es lo que las películas
+   quitaron o no pueden contar: que las lenguas fueron antes que la
+   historia, que Frodo FRACASA en el último momento, el Saneamiento de la
+   Comarca —cortado entero del cine— y la herida que no cierra.
+
+   Y la distinción entre alegoría y aplicabilidad, que es de Tolkien, del
+   prólogo de 1966, y sirve para leer cualquier cosa.
+   -------------------------------------------------------------------------- */
+
+const SENOR_ANILLOS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una línea en un poema del siglo IX" },
+      {
+        b: "texto",
+        texto:
+          "Esta novela no empezó con una historia, empezó con una palabra que su autor no lograba traducir del todo. Hacia 1913, estudiando en Oxford, John Ronald Reuel Tolkien leyó un poema anglosajón de Cynewulf y se detuvo en un verso que saluda a alguien llamado Earendel, «el más brillante de los ángeles».",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nadie sabía con certeza a qué se refería aquel nombre. Tolkien contó después que le produjo la sensación de que detrás de esa palabra había una historia entera que se había perdido, y que alguien tenía que devolverla. Earendel acabó convertido en Eärendil, la figura fundadora de toda su mitología, escrita décadas antes de que existiera ningún hobbit.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese origen explica el libro mejor que cualquier otra cosa. Tolkien era filólogo de profesión —catedrático de anglosajón en Oxford desde 1925—, se inventaba idiomas desde niño, y siempre sostuvo lo mismo: las historias las escribió para dar un mundo a las lenguas, y no las lenguas para adornar las historias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre qué consecuencias tiene ese orden en lo que se lee, cuál es el argumento moral que sostiene la novela entera y que casi nadie enuncia, lo que ocurre de verdad en el último momento del viaje, el capítulo que las películas cortaron entero, la distinción que Tolkien puso por escrito para que dejaran de buscarle segundas intenciones, y por qué el protagonista no puede quedarse en casa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "A veces lo que hay detrás de una obsesión rara no es un capricho: es la puerta de algo que llevabas años buscando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las lenguas fueron antes que el cuento" },
+      {
+        b: "texto",
+        texto:
+          "Eso se nota en un detalle que el lector percibe sin poder explicárselo: los nombres son coherentes entre sí. Un río, una montaña y una persona del mismo territorio suenan a la misma lengua, y esa lengua tiene reglas fonéticas que se cumplen siempre. Un nombre inventado a ojo desafina al oído aunque no se sepa por qué desafina, y en este libro no hay ninguno que lo haga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso se nota en un detalle que el lector percibe sin poder explicarlo: los nombres son coherentes entre sí. Un río, una montaña y una persona del mismo territorio suenan a la misma lengua, y esa lengua tiene reglas que se cumplen siempre. Un nombre inventado a ojo canta al oído aunque no se sepa por qué, y aquí no hay ninguno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale también el efecto que Tolkien buscaba y que llamó profundidad. El texto está lleno de referencias a cosas que no se explican: canciones sobre gente que no aparece, ruinas de reinos que no se visitan, fechas de guerras anteriores. No son adornos, están todas apoyadas en un material previo que existía escrito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Él lo teorizó en una conferencia de 1939 sobre los cuentos de hadas. Sostenía que un mundo inventado funciona no por ser maravilloso, sino por tener consistencia interna: dentro de él, las cosas tienen que seguir sus propias reglas sin excepciones. Lo que rompe el hechizo no es lo imposible, es lo incoherente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que hace creíble algo inventado no es que sea asombroso: es que cumpla sus propias reglas sin excepciones.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un arma que no se puede usar" },
+      {
+        b: "texto",
+        texto:
+          "El argumento moral del libro es más raro de lo que parece y se ve al enunciarlo: la misión no consiste en conseguir el arma antes que el enemigo, sino en destruirla pudiendo usarla. Eso es lo contrario de lo que hace prácticamente cualquier otra historia de aventuras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón está dicha varias veces por personajes distintos. El anillo no es una herramienta poderosa que dependa de quién la maneje: es una herramienta que maneja a quien la coge. Quien lo use para derrotar al enemigo terminará ocupando su sitio, y lo hará convencido de estar haciendo el bien, que es la parte importante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Puesto así, la novela sostiene una tesis política que no ha envejecido: hay instrumentos de poder cuyo problema no es en qué manos estén. No hay portador adecuado, no hay uso responsable y no hay excepción para la buena causa. Un lector que salga del libro pensando que el asunto consistía en encontrar a la persona correcta para llevar el anillo ha entendido exactamente lo contrario, y es la lectura más común de todas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Puesto así, la novela sostiene una tesis política que no envejece: hay instrumentos de poder cuyo problema no es quién los tenga. Un lector que salga del libro pensando que el asunto era encontrar al portador adecuado ha leído exactamente lo contrario de lo que dice, y es la lectura más común.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay herramientas cuyo problema no es quién las use: quien las coge acaba pareciéndose a aquello contra lo que las cogió.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Frodo fracasa" },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurre al final del viaje casi nunca se cuenta bien, y es lo más interesante del libro. Frodo llega al único sitio donde el anillo puede destruirse, después de recorrerlo todo y de perderlo todo, se queda de pie en el borde y no lo tira. Dice en voz alta que es suyo y se lo pone.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El anillo se destruye porque Gollum le arranca el dedo de un mordisco y cae con él al fuego, celebrando. Es decir: la misión se cumple por accidente y gracias a la codicia de otro. El protagonista, en el momento decisivo, hace exactamente lo contrario de lo que había ido a hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tolkien lo explicó por carta años después y su explicación es la clave del libro. Frodo no fracasa por debilidad de carácter: fracasa porque nadie podía hacer aquello, y lo que salva la situación es la piedad que él y Bilbo tuvieron antes con Gollum, cuando pudieron matarlo y no lo hicieron. La misericordia de hace meses es lo que resuelve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es una idea muy poco moderna y por eso llama la atención. En casi toda la ficción posterior, el héroe gana porque en el último instante saca fuerzas de donde no las tiene. Aquí no las saca, y el mundo se salva por unas decisiones pequeñas y compasivas tomadas mucho antes, cuando parecían no servir para nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que te salva casi nunca es el esfuerzo final: son decisiones pequeñas que tomaste antes y que parecían no servir de nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La casa no está intacta al volver" },
+      {
+        b: "texto",
+        texto:
+          "El libro no termina cuando se destruye el anillo: quedan cien páginas, y en ellas está el capítulo que las películas cortaron por completo. Los cuatro hobbits vuelven a casa y encuentran la Comarca ocupada, con los árboles talados, un molino nuevo que echa humo sucio y matones cobrando por todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tolkien aclaró que aquello no era una referencia a la Inglaterra de posguerra, pero sí dijo que estaba sacado de su propia experiencia: se crio en Sarehole, un pueblo cerca de Birmingham, y vio de niño cómo el campo que conocía desaparecía bajo la expansión industrial de la ciudad. El capítulo es la parte del libro que menos tiene que ver con la fantasía y la que más con lo que él había visto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tolkien aclaró que aquello no era una referencia a la Inglaterra de posguerra, pero sí dijo que estaba sacado de su experiencia: se crio en un pueblo cerca de Birmingham que vio desaparecer bajo la expansión industrial siendo niño. El capítulo es la parte del libro que menos tiene que ver con la fantasía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Que se cortara del cine cambia bastante la historia que hoy conoce todo el mundo. En la versión más difundida, el hogar sigue intacto y solo los viajeros han cambiado. En la escrita, lo que se defendió también se estropeó mientras nadie miraba, y arreglarlo es el último trabajo y el menos épico.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mientras estabas fuera arreglando lo importante, lo tuyo también cambió, y eso hay que volver a levantarlo sin que nadie lo mire.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Aplicable, que no es lo mismo que alegórico" },
+      {
+        b: "texto",
+        texto:
+          "En 1966, harto de que le preguntaran si el anillo era la bomba atómica y Mordor la Unión Soviética, Tolkien escribió un prólogo para dejarlo por escrito: detestaba la alegoría en todas sus formas y prefería la historia, verdadera o fingida, con su variada aplicabilidad a la experiencia de cada lector.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su biografía daba de sobra para la otra opción. Tolkien combatió en la batalla del Somme en 1916 como oficial de transmisiones de un batallón de fusileros, volvió a Inglaterra con fiebre de las trincheras, y cuando terminó la guerra casi todos los amigos con los que había fundado un club literario en el colegio estaban muertos. Escribió que hay que haber estado personalmente bajo la sombra de una guerra para saber lo que pesa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su biografía daba de sobra para la otra opción. Tolkien combatió en la batalla del Somme en 1916 como oficial de transmisiones, volvió con fiebre de las trincheras, y al acabar la guerra casi todos sus amigos del colegio estaban muertos. Escribió que hay que haber estado bajo la sombra de una guerra para entender lo que pesa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y sin embargo se negó a convertir eso en un mensaje. Lo que hizo fue lo contrario: escribir un relato donde la experiencia cabe sin quedar atada a ella, y por eso la novela le ha servido igual a un veterano de 1918, a un estudiante de 1968 y a alguien que la leyó el mes pasado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un relato al que se le puede poner tu vida encima dura más que uno que ya trae puesto su mensaje.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hay heridas que no cierran" },
+      {
+        b: "texto",
+        texto:
+          "El final del libro es más triste de lo que recuerda la gente. Frodo vuelve a casa, la Comarca se recupera, sus amigos se casan y siguen con su vida, y él no puede. Le duele la herida del hombro cada aniversario, le falta un dedo, y las cosas que le importaban antes ya no le importan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No es un final feliz disfrazado ni una tristeza decorativa. Es la constatación de que hay experiencias que no se integran, que quien vuelve de ciertos sitios no vuelve entero, y que eso no se arregla con el tiempo ni con el cariño de los suyos, que están todos ahí, alrededor, y no sirven para esto. Lo escribió alguien que volvió del Somme a los veinticuatro años y enterró a sus amigos aquel mismo verano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No es un final feliz disfrazado. Es la constatación de que hay experiencias que no se integran, que quien vuelve de ciertos sitios no vuelve entero, y que eso no se arregla con el tiempo ni con el cariño de los suyos, que están todos ahí y no sirven. Escrito por alguien que volvió del Somme a los veinticuatro años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al lado de eso, la otra mitad del final es Sam, que se casa, tiene trece hijos y es alcalde. Los dos son personajes principales y solo uno puede quedarse. El libro no dice cuál de los dos hizo mejor: dice que las dos cosas ocurrieron y que la segunda dependía de la primera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay cosas que alguien tiene que perder para que otros las conserven, y quien las pierde no siempre puede quedarse a verlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que sostiene este libro no es la aventura, que es larga y a ratos lenta. Es un argumento: que hay poderes que corrompen a cualquiera que los use, que el héroe falla en el último metro, que lo salva la piedad que tuvo antes, y que quien vuelve de eso no vuelve entero. Escrito además sobre un mundo que existía en cuadernos treinta años antes de que apareciera el primer hobbit.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla se ve enseguida y conviene decirlo. En mil doscientas páginas hay tres personajes femeninos con peso, y la historia de uno de ellos está casi entera en un apéndice. El bando enemigo es malvado por nacimiento, sin una sola excepción, y eso incluye a pueblos humanos descritos con rasgos que hoy resultan incómodos de leer; el propio Tolkien se preocupó por el problema de los orcos en sus cartas y nunca lo resolvió. La relación entre Frodo y Sam está calcada de la de un oficial y su asistente en el ejército, y se nota en cada «señor Frodo».",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un defecto de ritmo que no tiene defensa: las primeras cien páginas son un paseo por el campo con canciones, y muchísima gente abandona ahí. La prosa, además, sube a un registro arcaico en cuanto aparece alguien importante, y esa solemnidad envejece peor que todo lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después fue una carrera propia. En 1965, una editorial estadounidense lo publicó en bolsillo sin permiso, y la respuesta autorizada convirtió el libro en un fenómeno universitario con pegatinas de «Frodo vive» por los campus. Su hijo Christopher dedicó de 1977 a 2020 a publicar los borradores de su padre, empezando por «El Silmarillion». Y las películas de 2001 a 2003 fijaron en la cabeza de millones de personas una versión sin Saneamiento de la Comarca, donde la casa sigue intacta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La misión es tirar el arma, el héroe falla al final, y quien vuelve no puede quedarse: nada de eso se parece a lo que se recuerda.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "senor-anillos": SENOR_ANILLOS,
   "piensalo-otra-vez": PIENSALO_OTRA_VEZ,
   "empieza-porque": EMPIEZA_PORQUE,
   "correr-o-morir": CORRER_O_MORIR,

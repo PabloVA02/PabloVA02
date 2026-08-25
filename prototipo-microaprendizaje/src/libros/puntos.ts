@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "senor-anillos": [
+    "qué hace creíble un mundo inventado, que no es lo asombroso",
+    "por qué hay poderes que corrompen a cualquiera que los use",
+    "por qué la piedad de hace meses resuelve lo que el esfuerzo no",
+    "en qué se diferencia una alegoría de un relato aplicable",
+    "por qué quien vuelve de ciertos sitios no puede quedarse",
+  ],
+
   "piensalo-otra-vez": [
     "los cuatro papeles con los que se discute, y cuál sirve",
     "por qué definirse por una opinión encarece cada rectificación",

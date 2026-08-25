@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "senor-anillos":
+    "Tolkien era filólogo y llevaba treinta años construyendo dos idiomas élficos completos cuando escribió el primer capítulo. Siempre sostuvo que las historias las hizo para dar un mundo a las lenguas, y no al revés.",
+
   "piensalo-otra-vez":
     "En los exámenes tipo test, quien cambia una respuesta acierta más veces de las que falla, y casi todos los estudiantes creen lo contrario. Grant reúne lo que se sabe sobre revisar una conclusión ya tomada, que es lo que nadie entrena.",
 
