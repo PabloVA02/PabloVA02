@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "mujeres-lobos": [
+    "las señales concretas de que llevas tiempo sin hacerte caso",
+    "qué le pasa a la intuición de quien nunca la consulta",
+    "por qué separar lo que alimenta de lo podrido se hace grano a grano",
+    "qué se pierde al cambiar lo tuyo por una versión más razonable",
+    "cuánto dura de verdad recuperarse de algo grande",
+  ],
+
   "come-reza-ama": [
     "qué pasa cuando dejas de justificar cada hora con un rendimiento",
     "por qué descansar solo cuando te lo has ganado no es descansar",

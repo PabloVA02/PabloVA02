@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "mujeres-lobos": "La fuerza del arquetipo de la mujer salvaje",
   "come-reza-ama": "Una mujer a la búsqueda de todo a través de Italia, India e Indonesia",
   perfume: "Historia de un asesino",
   "oceano-azul": "Cómo crear un espacio de mercado sin competencia",

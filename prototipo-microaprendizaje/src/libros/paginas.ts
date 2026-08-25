@@ -81015,7 +81015,436 @@ const COME_REZA_AMA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Mujeres que corren con los lobos, en DOCE paginas.
+
+   AMPLIO, y por el motivo bueno del apartado 2 ter: son diez argumentos
+   independientes de verdad, uno por cuento, y quitar cualquiera deja el libro
+   cojo. Ademas la biblioteca va corta de Amplios: 259 Breve, 23 Amplio y 4
+   Extenso, cuando deberia haber uno o dos Amplios de cada diez.
+
+   Ensayo de psicologia -> afirmacion entera en el rotulo (apartado 3 bis).
+   Segunda persona en la caja, pero SIN GENERO: el libro habla a mujeres y la
+   app la lee todo el mundo, asi que las cajas dicen 'lo que dejas de hacer' y
+   no 'lo que dejas de hacer como mujer'.
+
+   Riesgo principal: que salga una lista de cuentos. Cada pagina tiene que
+   afirmar algo sobre el mundo y usar el cuento como prueba, no al reves.
+
+   La conclusion dice lo que casi ningun resumen dice: que Estes reescribe los
+   cuentos y no siempre avisa de donde, y que los folcloristas se lo han
+   reprochado.
+   -------------------------------------------------------------------------- */
+
+const MUJERES_LOBOS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que se ha domesticado en una persona no desaparece: se queda esperando enterrado",
+      },
+      {
+        b: "texto",
+        texto:
+          "Clarissa Pinkola Estés es analista junguiana y cuentacuentos, y tardó veinte años en escribir este libro. Lo publicó en 1992 y aguantó ciento cuarenta y cinco semanas en la lista de más vendidos del New York Times, que para un ensayo de psicología es una cifra rarísima. No lo compraba gente que fuera a terapia: lo compraba gente que se reconoció en él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación de partida es que dentro de cada persona hay una parte instintiva que sabe cuándo algo va mal, cuándo hay que irse y cuándo hay que crear, y que la educación la enseña a callar desde muy pronto. La llama «la mujer salvaje», y con salvaje no quiere decir descontrolada: quiere decir que conserva su naturaleza, como se dice de un río sin canalizar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El método del libro es raro y es lo que lo hace funcionar. En vez de argumentar, Estés cuenta cuentos populares —rusos, inuit, alemanes, húngaros, mexicanos— y después los desmonta pieza por pieza como si fueran mapas. Sostiene que los cuentos que han sobrevivido siglos lo han hecho porque describen procesos internos que la gente reconoce sin saber explicarlos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre diez de esos cuentos y lo que sostiene cada uno: cómo se recupera lo que se dio por perdido, en qué se nota que el instinto está herido, qué hacer con la parte de uno que destruye lo que uno quiere, de dónde sale la intuición, qué se paga por cambiar lo propio por lo cómodo, para qué sirve el exilio, cómo funciona el amor largo y cuánto dura de verdad una recuperación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que aprendiste a callar de pequeño no se ha borrado. Sigue ahí, y suele avisar antes que tu cabeza.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que se recupera de uno mismo se recupera hueso a hueso, y no de golpe",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro abre con un cuento del norte de México que Estés oyó de niña. Una anciana a la que llaman La Loba vive en una cueva del desierto y se dedica a una sola cosa: recorrer los barrancos recogiendo huesos de lobo. Cuando reúne un esqueleto entero, lo coloca en el suelo, se sienta al lado y decide qué canción va a cantarle.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Canta, y mientras canta el esqueleto se cubre de carne y de pelo, respira, se levanta y sale corriendo por el cañón. En algún punto de la carrera, cuando le da el sol o la luz de la luna, el lobo se convierte en una mujer que se aleja riéndose. El cuento termina ahí, sin moraleja y sin explicación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estés lo lee como el trabajo entero del libro. Recuperar una parte perdida de uno mismo no consiste en una decisión ni en una revelación: consiste en ir a buscar los restos, que están dispersos y en sitios incómodos, juntarlos con paciencia y después ponerles voz. Lo que devuelve la vida al esqueleto no es la reconstrucción, es el canto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí saca su afirmación más comprobable. Todo el mundo sabe qué huesos son los suyos: aquello que le hacía perder la noción del tiempo a los nueve años, lo que dejó de hacer por prudencia, lo que le da envidia cuando lo ve en otro. Esa lista es corta, cualquiera puede escribirla en un rato y casi nadie la escribe nunca.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribe qué hacías a los nueve años sin que nadie te obligara. Esa lista es corta y no la has hecho nunca.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El instinto herido no grita: deja de avisar, y esa mudez tiene señales concretas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estés dedica un tramo a describir cómo se reconoce que esa parte instintiva está dañada, y es de lo más útil del libro porque las señales son conductas y no sentimientos. La primera es aceptar cosas que uno sabe que no quiere aceptar, y darse cuenta después. La segunda es no saber contestar cuando alguien pregunta qué te apetece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sigue con otras que reconoce casi todo el mundo. Pedir permiso para cosas que no lo necesitan. Explicar y justificar decisiones que no había que justificar. Quedarse mucho tiempo en sitios que ya no dan nada. Y una que ella subraya: notar algo raro en una persona y convencerse de que se está exagerando, hasta que resulta que no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación de cómo se llega ahí no es un trauma único, y eso la hace más creíble. Es la suma de muchas correcciones pequeñas: no llores, no grites, no seas antipática, sonríe, no hagas ruido, eso no se dice. Cada una es razonable por separado y todas juntas enseñan a una persona a desconfiar de lo primero que siente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro no propone volver a un estado natural, que sería una tontería. Propone recuperar la información: distinguir lo que uno siente antes de decidir qué hace con ello. Estés insiste en que el instinto no manda, informa; y que una persona bien educada y sin instinto no es prudente, es alguien que se entera tarde de todo lo que le pasa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando notas algo raro en alguien y te convences de que exageras, apunta la fecha. Vuelve a leerlo dentro de seis meses.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dentro de cada uno hay una parte que sabotea lo que uno quiere, y hay que verle la cara",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuento de Barba Azul es el más duro del libro y Estés lo usa para algo que no es lo obvio. Un hombre rico y de barba extraña se casa con la menor de tres hermanas, se marcha de viaje y le deja las llaves de la casa con una sola prohibición: no abrir la puerta pequeña del sótano. Ella la abre y encuentra los cadáveres de las esposas anteriores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La llave se mancha de sangre y no hay manera de limpiarla. Es el detalle que a Estés le interesa: una vez que se sabe algo, no se puede volver a no saberlo, y todo el intento de frotar la llave es el tiempo que la gente pasa convenciéndose de que lo que ha visto no significa lo que significa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su lectura no es solo sobre maridos peligrosos, y ahí está lo interesante. Dice que Barba Azul es también una parte interna: la que promete seguridad a cambio de que no se mire, la que corta de raíz cualquier proyecto propio, la que dice que para qué. Es la voz que suena razonable y que siempre, siempre, aconseja no abrir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y señala la parte del cuento que casi nadie recuerda. La chica no se salva sola: se salva porque grita desde la ventana y sus hermanos llegan a tiempo. Estés lo subraya a propósito contra la idea de que cada uno debe arreglárselas por su cuenta. En su lectura, pedir ayuda a tiempo y en voz alta es la única maniobra que funciona.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que ya has visto no lo puedes dejar de saber. El tiempo que pasas frotando la llave es tiempo que le regalas a lo que viste.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La intuición es un órgano que funciona mal si no se usa, y se entrena preguntándole",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuento ruso de Vasalisa da la mejor imagen del libro. Antes de morir, la madre de Vasalisa le entrega a la niña una muñeca pequeña y le dice que la lleve siempre en el bolsillo, que le dé de comer y que le pregunte cuando no sepa qué hacer. La muñeca no habla; se calienta o se enfría, y con eso basta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estés lee la muñeca como la intuición, y el detalle que le importa es que hay que alimentarla. En el cuento, si Vasalisa deja de darle de comer, la muñeca deja de responder. Su traducción es directa: una persona que nunca consulta lo que siente antes de decidir acaba sin ninguna señal, y entonces cree que no tiene intuición cuando lo que tiene es una atrofiada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resto del cuento es un encargo imposible. Las hermanastras apagan el fuego de la casa a propósito y mandan a Vasalisa a buscarlo a la choza de Baba Yagá, la bruja que vive en el bosque en una casa con patas de gallina y una empalizada de calaveras. Es la escena que todo el mundo recuerda de este libro sin recordar de dónde venía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable es que el cuento describe la intuición como algo que da respuestas cortas y sin explicación. No dice por qué, dice sí o no. Estés avisa de que quien exige razones antes de hacer caso está pidiendo a un órgano lo que ese órgano no produce, y que las razones, cuando llegan, llegan siempre después y no antes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pregúntale a lo que sientes antes de decidir, aunque no te dé razones. Si nunca lo consultas, deja de contestarte.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Aprender a separar lo que sirve de lo que no es la tarea que más tiempo lleva",
+      },
+      {
+        b: "texto",
+        texto:
+          "Baba Yagá no se come a Vasalisa: le pone tareas. Barrer el patio, lavar la ropa, cocinar. Y sobre todo una que Estés considera el centro del libro: separar del maíz mohoso el maíz bueno, y de un montón de amapolas la tierra que hay mezclada. Grano a grano, durante toda la noche, sin ayuda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lectura que hace es que discriminar es un trabajo lento y manual, y no una virtud que se tenga o no se tenga. Separar lo que alimenta de lo que está podrido en un trabajo, en una relación o en una manera de vivir se hace pieza a pieza, y no hay ningún atajo ni ninguna regla general que lo resuelva de una vez para todas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Vasalisa hace las tareas porque la muñeca del bolsillo las hace con ella, que es el punto entero. La intuición no evita el trabajo: lo hace posible. Y Estés añade que Baba Yagá no es la enemiga sino la maestra, y que en los cuentos la figura que da miedo suele ser la que enseña lo que hace falta aprender.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al final la bruja le da a Vasalisa una calavera con fuego dentro para llevar a casa, y ese fuego quema a las hermanastras y a la madrastra. Estés lo lee sin suavizarlo: quien vuelve de un aprendizaje así trae consigo una luz que no se puede apagar, y esa luz hace insostenibles algunas relaciones que antes se aguantaban.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Separar lo que te alimenta de lo que te pudre se hace grano a grano. No hay una regla que lo resuelva de una vez.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cambiar lo que uno hace a mano por una versión cómoda cuesta más de lo que parece",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuento de los zapatos rojos es el más incómodo del libro y el que Estés relaciona con las adicciones. Una niña pobre se fabrica unos zapatos rojos con trapos, torcidos y feos, y son suyos. Una señora rica la adopta, se los quita, los quema y le da a cambio zapatos comprados, correctos y de cuero. La niña acepta el cambio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Años después ve en un escaparate unos zapatos rojos de verdad, y a partir de ahí el cuento se vuelve una pesadilla: se los pone, empieza a bailar y no puede parar. Baila por los campos y por el cementerio hasta que le pide a un verdugo que le corte los pies, y los pies siguen bailando por su cuenta con los zapatos puestos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estés lee el principio y no el final. La catástrofe no empieza con los zapatos del escaparate: empieza el día que la niña acepta cambiar lo suyo por algo mejor hecho y ajeno. Lo que se pierde entonces es la capacidad de fabricarse cosas propias, y lo que llega después es el hambre desesperada de lo que se parezca a aquello.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La traducción práctica es incómoda y por eso se recuerda. Quien renuncia a hacer lo suyo porque hay una opción más razonable no se queda neutral: se queda con un hueco, y ese hueco se llena con lo que haya a mano. Estés lo aplica al alcohol, a las compras y a las relaciones que se buscan para tapar, y el mecanismo es el mismo en los tres.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando dejas lo tuyo por algo más razonable no te quedas igual: te quedas con un hueco, y ese hueco se llena solo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El exilio no es un castigo, es la manera de averiguar de dónde se es",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estés hace del patito feo un cuento sobre encajar, y le da una vuelta que no es la habitual. La lectura corriente dice que el patito sufre y luego resulta ser un cisne, así que la moraleja sería tener paciencia. Ella dice que eso se queda corto: lo que cuenta el cuento es qué se hace durante los años que dura no pertenecer a ningún sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo primero que subraya es que la familia del cuento no es mala. Es una familia de patos que trata al patito como a un pato defectuoso, porque es lo único que sabe hacer. Estés sostiene que la mayor parte del daño de este tipo no lo hace la crueldad, lo hace la medida equivocada aplicada con buena intención durante mucho tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y sostiene que el exilio, siendo doloroso, hace un trabajo que no hace ninguna otra cosa. Quien no encaja tiene que averiguar quién es sin ayuda de un molde, y eso produce personas con criterio propio, aunque el precio sea alto. La alternativa —encajar del todo desde el principio— también tiene precio, y ese no se ve nunca porque no duele.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El final del cuento le interesa por una razón concreta: el patito no cambia. Sigue siendo exactamente el mismo animal desde la primera página. Lo que cambia es que encuentra a los suyos y entonces la misma forma que era un defecto pasa a ser normal. Estés lo dice sin adornos: casi nadie tiene un problema de identidad, mucha gente tiene un problema de compañía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si llevas años sintiéndote raro, mira si el problema es lo que eres o es dónde estás. No suele ser lo primero.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El amor largo funciona por ciclos de vida, muerte y vida, y quien no deja morir nada lo pierde",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuento inuit de la Mujer Esqueleto es el que Estés dedica al amor, y es el mejor del libro. Un pescador engancha algo pesado en el anzuelo y lo saca: es el esqueleto de una mujer que llevaba años en el fondo. Sale huyendo aterrorizado y el esqueleto, enredado en el sedal, va detrás de él dando tumbos por el hielo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Llega a su casa, enciende el fuego y entonces ve lo que ha traído: un montón de huesos enredados. Y en vez de tirarlos, se sienta y empieza a desenredarlos con paciencia, uno por uno, y a colocarlos en su sitio. Ese gesto es todo lo que hace falta para que la historia cambie de dirección.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mientras duerme, se le escapa una lágrima. El esqueleto, que tiene sed de siglos, se acerca a beber, le saca el corazón del pecho, lo toca como un tambor y con ese ritmo se va cubriendo de carne. Después devuelve el corazón, se acuesta al lado del hombre y los dos despiertan enredados y vivos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estés lo lee como el ciclo que todo vínculo largo repite. Aparece algo que da miedo, hay una huida, hay un trabajo lento de ordenar lo que se ha sacado, hay que ofrecer algo de lo propio y hay una parte que muere para que la siguiente empiece. Sostiene que quien exige que una relación no muera nunca en nada es quien se queda sin ninguna.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una relación larga se muere por partes y renace por partes. Si te niegas a dejar morir nada, lo que se muere es entera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una recuperación de verdad dura años, y los cuentos lo dicen con más honestidad que los manuales",
+      },
+      {
+        b: "texto",
+        texto:
+          "El último cuento largo es el de la doncella manca, de los hermanos Grimm, y Estés lo usa para corregir la promesa de casi todos los libros de su estante. Un molinero pobre acepta un trato con un desconocido: le entregará lo que hay detrás de su molino a cambio de riqueza. Cree que es un manzano y es su hija.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El diablo no puede llevársela porque está limpia y llora sobre sus manos, así que exige que el padre se las corte. El padre lo hace. Ella se marcha con los brazos vendados a la espalda y pasa siete años en el bosque, alimentándose de peras, antes de que empiece a pasarle nada bueno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esos siete años son la razón por la que Estés eligió este cuento. Dice que no conoce ningún relato tradicional en el que una herida grande se cure en una escena, y que los cuentos son mucho más realistas que la literatura de autoayuda en esto: hablan de años, de bosques, de comer poco y de andar a oscuras sin saber hacia dónde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al final del cuento las manos le vuelven a crecer, y Estés subraya que no son las de antes: son manos nuevas, de plata primero y de carne después, y llegan cuando ella ya sabe vivir sin ellas. Su lectura es que nadie vuelve al punto anterior a la herida, y que la recuperación consiste en llegar a otro sitio, no en volver.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ninguna herida grande se cura en una escena. Se cura en años, y no te deja donde estabas: te deja en otro sitio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un cuento entra donde no entra un argumento, y por eso el libro está escrito así",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estés explica en varios sitios por qué no escribió un ensayo normal, y su razón es de oficio. Se presenta como «cantadora», la palabra que se usaba en su familia para quien guarda las historias, y sostiene que un cuento se recuerda entero durante décadas mientras que un argumento se olvida en una semana, aunque el argumento sea mejor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación es que un cuento no pide que se esté de acuerdo. Quien escucha una historia no la discute mientras la escucha: la sigue, y solo después se da cuenta de qué le ha tocado. Por eso, dice, los cuentos llegan a partes de una persona que llevan años cerradas a cualquier consejo, incluso a los consejos que esa persona pide.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade una observación sobre cómo se usan, y es la parte más práctica del capítulo. Un cuento no se interpreta una vez: se vuelve a él en distintos momentos de la vida y dice cosas distintas, porque quien cambia es el que escucha. El mismo relato de Barba Azul significa una cosa a los veinte años y otra a los cincuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y avisa contra su propio método, que es lo más honesto que hace en todo el libro. Dice que sus interpretaciones son las suyas y que no son la lectura correcta de nada, porque estos relatos llevan siglos siendo leídos de maneras distintas. Es una advertencia que el resto de las páginas no siempre respeta, como se dirá enseguida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Vuelve dentro de diez años a la historia que más te marcó. Va a decirte otra cosa, porque el que ha cambiado eres tú.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cinco cosas y ninguna necesita creerse el marco entero. La lista de lo que uno hacía de niño sin que nadie le obligara. Las señales concretas de que se lleva tiempo sin hacer caso a lo que se siente. La costumbre de consultar antes de decidir, aunque no haya razones. La idea de que separar lo bueno de lo podrido se hace grano a grano. Y el plazo real de una recuperación, que se cuenta en años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en el respaldo. Todo el aparato es junguiano —arquetipos, inconsciente colectivo, símbolos con significado propio— y eso no es una descripción comprobada de cómo funciona la mente, sino un marco de interpretación del siglo pasado que la psicología experimental no ha podido confirmar. Estés escribe como si fuera anatomía, y no lo es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en algo más concreto que le han reprochado los folcloristas: las versiones de los cuentos son suyas. Los reescribe, los alarga, cambia detalles y a veces mezcla tradiciones, y no siempre avisa de dónde acaba el relato recogido y dónde empieza su composición. Para un libro que apoya toda su autoridad en que estas historias vienen de muy lejos, eso no es un detalle menor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Queda además un problema de fondo. La «mujer salvaje» se presenta como una naturaleza común a todas las mujeres de cualquier época y lugar, y esa idea, que en 1992 sonaba liberadora, hoy se lee como lo que es: una esencia única aplicada a media humanidad. El libro estuvo ciento cuarenta y cinco semanas en la lista, fundó el género de la espiritualidad femenina de los noventa, y su mejor material aguanta a pesar del marco y no gracias a él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quédate con el plazo: lo que se rompió en años no se arregla en un fin de semana, y saberlo evita abandonar en el mes tres.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "mujeres-lobos": MUJERES_LOBOS,
   "come-reza-ama": COME_REZA_AMA,
   perfume: PERFUME,
   "oceano-azul": OCEANO_AZUL,

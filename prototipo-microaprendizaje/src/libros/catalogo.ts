@@ -297,7 +297,7 @@ export const CATALOGO: Ficha[] = [
   { id: "48-leyes-poder", titulo: "Las 48 leyes del poder", autor: "Robert Greene", ano: 1998, categoria: "Psicología", estado: "escrito" },
   { id: "secreto-byrne", titulo: "El secreto", autor: "Rhonda Byrne", ano: 2006, categoria: "Psicología", estado: "escrito" },
   { id: "tus-zonas-erroneas", titulo: "Tus zonas erróneas", autor: "Wayne Dyer", ano: 1976, categoria: "Psicología", estado: "escrito" },
-  { id: "mujeres-lobos", titulo: "Mujeres que corren con los lobos", autor: "Clarissa Pinkola Estés", ano: 1992, categoria: "Psicología", estado: "pendiente" },
+  { id: "mujeres-lobos", titulo: "Mujeres que corren con los lobos", autor: "Clarissa Pinkola Estés", ano: 1992, categoria: "Psicología", estado: "escrito" },
   { id: "cuatro-mil-semanas", titulo: "Cuatro mil semanas", autor: "Oliver Burkeman", ano: 2021, categoria: "Psicología", estado: "escrito" },
   { id: "rompe-barrera-no", titulo: "Rompe la barrera del no", autor: "Chris Voss", ano: 2016, categoria: "Psicología", estado: "escrito" },
   { id: "obtenga-el-si", titulo: "Obtenga el sí", autor: "Fisher y Ury", ano: 1981, categoria: "Psicología", estado: "escrito" },

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "mujeres-lobos":
+    "Estés tardó veinte años en escribirlo y aguantó ciento cuarenta y cinco semanas en la lista del New York Times. No argumenta: cuenta cuentos populares y los desmonta pieza a pieza como si fueran mapas de procesos internos.",
+
   "come-reza-ama":
     "Gilbert tenía en 2002 el marido, la casa y la carrera que había querido, y estaba llorando en el suelo del baño a las tres de la mañana. El año de viaje que vino después lo pagó un anticipo editorial por este mismo libro.",
 
