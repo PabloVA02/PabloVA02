@@ -303,6 +303,24 @@ pierde entero.
 **Y cada quince o veinte libros: rehacer el simulador y publicarlo**, con las
 tres órdenes del apartado de arriba. Es lo único que Pablo ve.
 
+### LA MEDIDA DE LA PÁGINA, que se está quedando corta
+
+Pablo preguntó por la duración el 25 de agosto y al mirarlo salió esto:
+**47 de los 207 Breve están por debajo de 2.100 palabras**, que es el suelo de
+la horquilla del apartado 2 ter. Pasan el validador —el tope duro son 2.000—
+pero apoyados en el suelo, no dentro.
+
+La causa es de oficio y se corrige escribiendo, no con un script: escribiendo
+del tirón, los cuatro párrafos de cada página salen de unas 250 palabras en vez
+de las 270 que hacen falta. Cuatro párrafos **de 65-70 palabras cada uno**
+aterrizan la página en 275-285 y el Breve en 2.200-2.280.
+
+    node scripts/medir-paginas.mjs | grep Breve   sale la lista con sus cifras
+
+Los que están por debajo se repasan cuando termine la tanda, y se alargan
+**añadiendo un argumento a una página floja**, nunca engordando párrafos: eso
+es exactamente lo que prohíbe el apartado 2 ter.
+
 ### LO QUE NO HAY QUE PREGUNTAR
 
 Pablo dijo «trabaja durante toda la noche». No se para a pedir permiso para
