@@ -72887,7 +72887,279 @@ const TUS_ZONAS_ERRONEAS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El cerebro, en ocho páginas.
+
+   Breve. Divulgación científica → afirmación entera en el rótulo, TERCERA
+   persona y la caja como idea de la página (apartado 4.7).
+
+   CIENCIA: cada afirmación con su experimento, su año y su tamaño. Aquí eso
+   son la poda sináptica, la ventana de los fonemas entre los seis y los doce
+   meses, Libet en 1983, Soon y Haynes en 2008, Eisenberger en 2003 y el caso
+   Whitman de 1966.
+
+   Riesgo principal: el capítulo del libre albedrío. El libro se apoya en
+   Libet con mucha más seguridad de la que el campo admite, y desde 2012 hay
+   una objeción seria. Eso va DENTRO, en su página, y no solo al final.
+   -------------------------------------------------------------------------- */
+
+const EL_CEREBRO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi nada de lo que una persona experimenta llega directamente del mundo",
+      },
+      {
+        b: "texto",
+        texto:
+          "David Eagleman es neurocientífico y escribió este libro en 2015 para acompañar una serie de televisión, lo que explica su forma: seis preguntas grandes y ningún tecnicismo. La primera de todas es dónde está el yo, y la respuesta que da ordena el resto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su punto de partida es físico y conviene tomárselo en serio. El cerebro está encerrado en una caja de hueso, sin luz y sin sonido. No toca nada del mundo: lo único que le llega son impulsos eléctricos y químicos por unos cables. Todo lo demás —los colores, los sabores, el sonido de una voz— lo fabrica él con esos impulsos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la afirmación que recorre el libro: lo que llamamos realidad es un modelo construido, ajustado continuamente con la información que entra, y no una ventana. La diferencia no es filosófica, es medible, y se nota en cuanto se examina cómo funciona la vista o cómo se toma una decisión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre cómo se termina de construir un cerebro después de nacer, por qué el color no existe fuera de la cabeza, en qué consiste ver, cuánto se entera de sus propias decisiones la parte consciente, un caso judicial de 1966 que cambia la pregunta entera, y por dónde se le puede meter información a un cerebro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El cerebro no toca el mundo: recibe impulsos por unos cables y con eso fabrica todo lo que alguien experimenta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un cerebro humano se termina quitando conexiones, no poniéndolas" },
+      {
+        b: "texto",
+        texto:
+          "Un potro camina a las pocas horas de nacer y una cría de delfín nada desde el primer minuto. Un bebé humano no hace nada durante meses y tarda un año en andar, lo que desde el punto de vista de la supervivencia es una desventaja enorme. Eagleman explica por qué compensa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El dato es que un recién nacido tiene ya casi todas sus neuronas y muy pocas conexiones entre ellas. Esas conexiones se disparan durante los dos primeros años hasta llegar a una densidad que casi duplica la de un adulto, y a partir de ahí el proceso se invierte: alrededor de la mitad de las conexiones existentes a los dos años han desaparecido cuando esa persona es adulta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es decir, que un cerebro se hace por sustracción. Lo que se usa se refuerza y lo que no se usa se elimina, y el resultado es una máquina hecha a la medida exacta del entorno en que le tocó crecer: su idioma, su clima, su comida, su gente. Ninguna otra especie llega tan poco terminada ni se adapta tanto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que lo demuestra es el de los sonidos. Un bebé de seis meses distingue todos los fonemas de todos los idiomas del mundo, incluidos los que no existen en el suyo; hacia el año ya solo distingue los de su lengua. Un bebé japonés separa la erre y la ele a los seis meses y normalmente ha dejado de separarlas a los doce.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Al año de vida se han perdido capacidades que nunca vuelven, y esa pérdida es exactamente lo que produce a alguien de un sitio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El color no está en las cosas: es una etiqueta que pone el cerebro" },
+      {
+        b: "texto",
+        texto:
+          "Lo que existe fuera son ondas electromagnéticas de distintas longitudes, y en esas ondas no hay nada rojo ni nada azul. El rojo es lo que fabrica un cerebro humano cuando le llegan ondas de cierta longitud, y esa fabricación es tan convincente que resulta imposible imaginarse que sea una fabricación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mismo vale para todo lo demás. El sonido son variaciones de presión del aire, sin música dentro; el olor son moléculas con una forma determinada, sin ningún aroma. Todo eso ocurre dentro, y ocurre además solo en el trozo del espectro para el que hay sensores: nadie ve el infrarrojo ni oye lo que oye un murciélago.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para ese trozo hay una palabra que Eagleman toma prestada del biólogo Jakob von Uexküll: el <em>umwelt</em>, el mundo tal como lo experimenta una especie según los sensores que tiene. Una garrapata vive en un umwelt de tres señales —olor a ácido butírico, temperatura y tacto— y no le falta nada, porque no puede echar de menos lo que no puede percibir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia que saca es la que hace útil el capítulo. Cada especie está convencida de que lo que percibe es la realidad entera, y ninguna tiene manera de notar lo que le falta desde dentro. Los humanos perciben una franja estrechísima de lo que hay, y la sensación de que eso es todo forma parte del propio sistema.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie puede echar de menos lo que no tiene sensores para percibir, y por eso lo que se percibe parece siempre todo lo que hay.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ver consiste sobre todo en predecir, y la vista solo sirve para corregir",
+      },
+      {
+        b: "texto",
+        texto:
+          "El dato anatómico que cambia la manera de entender la percepción es el recuento de cables. Del ojo hacia el cerebro va mucha menos información de la que va en sentido contrario: las conexiones que bajan desde la corteza hacia la estación de relevo visual superan con mucho a las que suben. El sistema habla más de lo que escucha.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso encaja con el modelo que propone. El cerebro genera continuamente una predicción de lo que espera encontrar, y lo que llega por los ojos sirve sobre todo para señalar en qué se ha equivocado. Percibir no es recibir una imagen: es comprobar una hipótesis y corregir las diferencias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las pruebas de eso están a la vista y nadie las nota. Cada ojo tiene un punto ciego del tamaño de una moneda a la distancia del brazo, donde sale el nervio óptico, y nadie ve ningún agujero: el cerebro rellena. Los ojos se mueven a saltos varias veces por segundo y nadie percibe ningún temblor, porque durante esos saltos la información se descarta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la explicación de por qué funcionan las ilusiones ópticas, que no son fallos sino el sistema haciendo su trabajo. Y de ahí sale también algo más incómodo: dos personas mirando lo mismo con expectativas distintas no están recibiendo la misma imagen y luego interpretándola distinto, sino construyendo dos imágenes distintas desde el principio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los ojos no envían una imagen: envían correcciones a una predicción que el cerebro ya había fabricado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La parte consciente se entera tarde de casi todo lo que hace el resto",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eagleman describe la conciencia como un lector de periódico y no como un director. Se entera de lo importante, con retraso y en resumen, mientras la inmensa mayoría del trabajo —el equilibrio, el reconocimiento de una cara, la digestión de una frase, la elección de una palabra— se hace sin que llegue ninguna noticia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su apoyo experimental es una serie de trabajos famosos. Benjamin Libet publicó en 1983 que en la corteza aparece una señal eléctrica cientos de milisegundos antes de que la persona diga haber decidido mover un dedo. En 2008, un equipo dirigido por John-Dylan Haynes afinó eso con resonancia y encontró señales que permitían anticipar la elección hasta varios segundos antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí hay que poner la letra pequeña que el libro no pone. Aquel estudio de 2008 predecía con un acierto de alrededor del sesenta por ciento, muy poco por encima del azar, y sobre una elección trivial —pulsar con la mano izquierda o la derecha— sin ninguna consecuencia. Y desde 2012 hay una objeción seria a Libet: que esa señal previa podría no ser una decisión, sino una fluctuación espontánea que el método de promediar hace aparecer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí queda en pie sin discusión es lo más modesto y lo más útil: que la sensación de estar decidiendo llega después de que el trabajo esté hecho, y que introspeccionar sobre por qué uno ha hecho algo produce una explicación construida, que puede ser correcta y no tiene por qué serlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Preguntarle a alguien por qué hizo algo no devuelve el motivo: devuelve una explicación fabricada después de haberlo hecho.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un tumor en 1966 obliga a cambiar la pregunta que hace un tribunal" },
+      {
+        b: "texto",
+        texto:
+          "El 1 de agosto de 1966, un antiguo marine llamado Charles Whitman subió a la torre de la Universidad de Texas y disparó contra la gente durante hora y media, matando a más de una docena de personas después de haber matado en su casa a su mujer y a su madre. Dejó una nota escrita la noche anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En esa nota pedía que le hicieran la autopsia. Escribió que llevaba meses con dolores de cabeza y con pensamientos violentos que no reconocía como suyos, que había pedido ayuda médica y que sospechaba que algo le pasaba en la cabeza. La autopsia encontró un tumor cerebral que presionaba una zona relacionada con la regulación del miedo y la agresividad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La comisión que estudió el caso concluyó que el tumor podía haber contribuido, sin poder afirmar que lo causara, y esa prudencia hay que mantenerla. Lo que Eagleman saca de ahí no es que nadie sea responsable de nada, y lo dice expresamente: saca que la pregunta de cuánta culpa tiene alguien es imposible de contestar y no sirve para decidir nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su propuesta es sustituirla por dos preguntas que sí se pueden responder con datos: qué probabilidad hay de que esa persona vuelva a hacerlo, y qué se puede hacer para reducirla. Una mira al pasado y no tiene respuesta; las otras miran adelante y admiten medición, tratamiento y comprobación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuánta culpa tiene alguien no se puede contestar; qué va a hacer después y cómo evitarlo, sí.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "A un cerebro se le puede meter información por cualquier puerta" },
+      {
+        b: "texto",
+        texto:
+          "La parte más esperanzadora del libro sale de una observación sencilla: al cerebro le llegan impulsos eléctricos y no le importa por qué órgano hayan entrado. Los ojos, los oídos y la piel son periféricos distintos que envían el mismo tipo de señal, y la corteza aprende a interpretar lo que reciba con suficiente práctica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la sustitución sensorial. Se han construido aparatos que traducen una imagen de vídeo en pulsos eléctricos sobre la lengua de una persona ciega, y con entrenamiento esas personas empiezan a describir lo que hay delante en términos de localización y forma. La información entra por la boca y acaba usándose como si fuera vista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eagleman trabaja en esta línea y desarrolló un chaleco que convierte el sonido en patrones de vibración sobre el torso para personas sordas, del que salió después una pulsera comercial. La idea es la misma: no reparar el oído, sino meter la información por otra puerta y dejar que el cerebro haga el resto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene añadir la medida real. Estas técnicas funcionan, requieren entrenamientos largos y los resultados han sido más modestos que las demostraciones: nadie recupera la vista con una cámara en la lengua, se obtiene una capacidad nueva y limitada. Es un campo prometedor y todavía pequeño, no una solución disponible.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Al cerebro le da igual por qué órgano entre la señal: lo que necesita es que sea constante y que tenga tiempo para aprenderla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que este libro deja fijado son cuatro cosas. Que un cerebro humano se termina fuera del útero y se hace eliminando conexiones. Que el color, el sonido y el olor se fabrican dentro y no están en el mundo. Que percibir es predecir y corregir. Y que la culpa es una pregunta que no se puede contestar mientras que la reincidencia sí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en su condición de libro de televisión. Es amplio, muy bien contado y flojo en los mecanismos: casi nunca explica cómo se sabe lo que afirma, casi nunca aparece un desacuerdo entre científicos, y el lector sale con la impresión de que todo esto está resuelto. En un campo donde casi nada lo está, esa impresión es el principal defecto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso más claro es el capítulo del libre albedrío. Se apoya en los experimentos de Libet con mucha más seguridad de la que admiten hoy, sin mencionar que la interpretación de aquella señal lleva discutida desde 2012, y presenta el estudio de 2008 sin decir que su acierto rondaba el sesenta por ciento sobre una elección sin consecuencias. La conclusión general puede ser correcta; la prueba que ofrece no la sostiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ha pasado después ha ido en dos direcciones. La sustitución sensorial salió del laboratorio: Eagleman fundó una empresa que vende dispositivos para personas sordas, con resultados reales y modestos. Y su propuesta para los tribunales, de mirar hacia delante en vez de medir culpa, ha entrado en la discusión académica y no se ha adoptado en ningún sistema penal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuenta muy bien lo que se sabe y da por resuelto lo que se discute, y el capítulo de la voluntad es donde más se nota.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "el-cerebro": EL_CEREBRO,
   "tus-zonas-erroneas": TUS_ZONAS_ERRONEAS,
   "leyes-naturaleza-humana": LEYES_NATURALEZA_HUMANA,
   "21-lecciones": VEINTIUNA_LECCIONES,

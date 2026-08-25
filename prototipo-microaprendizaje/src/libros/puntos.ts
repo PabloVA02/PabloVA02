@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "el-cerebro": [
+    "por qué un cerebro se termina quitando conexiones y no poniéndolas",
+    "qué existe fuera de la cabeza cuando ves un color",
+    "por qué los ojos envían correcciones y no imágenes",
+    "qué devuelve alguien cuando le preguntas por qué hizo algo",
+    "qué pregunta sí puede contestar un tribunal con datos",
+  ],
+
   "tus-zonas-erroneas": [
     "en qué se diferencia aprender de un error de sentirse culpable",
     "por qué necesitar aprobación entrega decisiones a otros",

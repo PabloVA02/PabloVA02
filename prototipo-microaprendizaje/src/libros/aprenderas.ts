@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "el-cerebro":
+    "El cerebro está encerrado en una caja de hueso, sin luz y sin sonido, y solo le llegan impulsos eléctricos por unos cables. Todo lo demás lo fabrica él, y Eagleman recorre en seis preguntas qué se sabe de esa fabricación.",
+
   "tus-zonas-erroneas":
     "Dyer publicó esto en 1976, cuando la idea de que los sentimientos se pueden examinar apenas había salido de las consultas. Su afirmación es que entre lo que ocurre y lo que uno siente hay un paso intermedio: lo que se dice sobre ello.",
 
