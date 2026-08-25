@@ -79033,7 +79033,300 @@ const DESPERTANDO_GIGANTE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La bolsa o la vida, en ocho paginas.
+
+   Breve. Libro practico de dinero -> afirmacion entera en el rotulo y SEGUNDA
+   PERSONA en la caja.
+
+   Seis argumentos: el balance de toda una vida, el sueldo real por hora, la
+   curva del cumplimiento y la palabra suficiente, las tres preguntas mensuales,
+   el grafico de pared y el punto de cruce.
+
+   Apartado 4 bis, ECONOMIA: todo argumento necesita una persona con nombre.
+   Aqui la hay y es el mejor material del libro: Joe Dominguez, analista de Wall
+   Street que se retiro a los treinta y uno en 1969 con setenta mil dolares y no
+   volvio a cobrar por trabajar. Y dio el seminario gratis hasta que murio.
+
+   La conclusion tiene un dato duro que casi ningun resumen cuenta: el consejo
+   de inversion original era comprar bonos del Tesoro estadounidense a largo
+   plazo, que en 1992 pagaban alrededor del ocho por ciento. Eso se hundio, y la
+   edicion revisada de 2018 tuvo que reescribir ese capitulo.
+   -------------------------------------------------------------------------- */
+
+const BOLSA_O_VIDA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El dinero es la única cosa por la que cambias horas de tu vida que no vas a recuperar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Joe Dominguez era analista financiero en Wall Street y dejó de trabajar en 1969, a los treinta y un años, con unos setenta mil dólares ahorrados. No volvió a aceptar un sueldo hasta que murió en 1997. Durante casi treinta años dio gratis el seminario en el que se basa este libro, y lo que se recaudaba con él lo donaba entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con Vicki Robin publicó esto en 1992, y la afirmación de partida no va de inversiones. Dice que el dinero es una cosa por la que se cambia «energía vital»: horas concretas de una vida que tiene un número finito de ellas. Un sueldo no es una cifra al mes; es la parte de tu vida que has aceptado entregar a cambio de esa cifra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese cambio de unidad es todo el libro. Si un abrigo cuesta doscientos euros y tu hora real vale ocho, el abrigo cuesta veinticinco horas de vida. La pregunta deja de ser si te lo puedes permitir, que casi siempre sí, y pasa a ser si veinticinco horas de tu vida valen ese abrigo. La respuesta cambia bastante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre cómo se hace el balance de todo lo que has ganado, cómo se calcula lo que cobras de verdad por hora, por qué a partir de cierto punto tener más cosas empeora la vida, las tres preguntas que se hacen a fin de mes, para qué sirve un gráfico colgado en la pared y qué es exactamente el punto de cruce.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El precio de algo no son sus euros. Son las horas de tu vida que has tenido que entregar para conseguirlos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El primer paso es sumar todo lo que has ganado en tu vida y mirar qué tienes que enseñar",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con un ejercicio que casi nadie ha hecho nunca: calcular cuánto dinero ha pasado por tus manos desde el primer trabajo. Todo, incluidas las chapuzas de verano, las propinas y los regalos. Se saca de las nóminas, de la vida laboral y de la memoria, y siempre da una cifra mucho mayor de lo que la gente espera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al lado se pone la otra columna: el patrimonio de hoy. Lo que tienes menos lo que debes, contando el coche por lo que valdría venderlo y no por lo que costó. Robin cuenta que la mayoría de la gente que hace las dos cuentas descubre que ha ganado varios cientos de miles y no tiene casi nada, y que la diferencia no está en ningún desastre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los autores insisten en algo que el género suele saltarse: esto no se hace para sentirse mal. Repiten en todo el libro la fórmula «sin vergüenza y sin culpa», y sostienen que el juicio moral estropea el dato. Alguien avergonzado deja de mirar los números, y en cuanto deja de mirarlos vuelve a no saber dónde está, que es de donde venía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La utilidad del ejercicio es que rompe una creencia muy extendida, la de que el problema es que se gana poco. Con la cifra total delante, la explicación deja de encajar: por ahí pasó dinero de sobra. Lo que faltó fue saber en qué se iba, y ese es exactamente el trabajo que proponen los pasos siguientes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Suma todo lo que has ganado en tu vida y ponlo al lado de lo que tienes hoy. Esa resta explica más que cualquier consejo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi nadie cobra por hora lo que cree cobrar, y el cálculo real cambia todas las decisiones",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo paso es el más famoso del libro. Consiste en calcular el sueldo real por hora, y para eso hay que corregir las dos partes de la división. Al dinero se le restan los gastos que solo existen porque trabajas; a las horas se les suman las que el trabajo se lleva aunque no estés trabajando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lista de gastos es más larga de lo que parece: el transporte, la ropa que solo usas ahí, las comidas de fuera, el café, la guardería, y los que llaman de descompresión, que son las cosas que se compran solo porque el día ha sido malo. La lista de horas incluye el trayecto, la ropa, las cenas de empresa y el rato de la noche en que no se puede hacer nada más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los autores enseñan el cálculo con un caso: alguien que cobra veinticinco dólares la hora y trabaja cuarenta a la semana descubre, después de corregir las dos columnas, que su cifra real ronda los diez. No es un truco retórico. Los gastos son reales, las horas también, y quien no las cuenta está comparando precios con un número inventado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con la cifra corregida en la cabeza, la vida cotidiana se recalcula sola. Un fin de semana de trescientos euros son treinta horas. Un coche mejor son ochocientas. Los autores no dicen que haya que renunciar a nada: dicen que se decida sabiendo el precio en la moneda que de verdad se está pagando, que son horas y no euros.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Réstale al sueldo lo que gastas solo porque trabajas y súmale a la jornada lo que el trabajo te ocupa fuera. Ese número es el tuyo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Tener más cosas mejora la vida hasta un punto y a partir de ahí la empeora",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro dibuja una curva que llama «del cumplimiento», y es su mejor idea. El eje de abajo es cuánto gastas; el de al lado, cuánta satisfacción sacas. Al principio sube deprisa: comer, un techo, calefacción. Después sigue subiendo más despacio con las comodidades. Luego llega un máximo. Y a partir de ese máximo la curva baja.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Baja porque las cosas cuestan más que su precio. Hay que guardarlas, limpiarlas, asegurarlas, arreglarlas y decidir qué se hace con ellas. Una casa más grande no es solo más cara: es más horas dentro de ella haciendo tareas. Los autores llaman a ese punto máximo «suficiente», y sostienen que casi nadie sabe dónde está el suyo porque nunca lo ha buscado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palabra les importa mucho y la separan de otras dos. Suficiente no es escasez, que es estar por debajo y pasarlo mal. Y tampoco es austeridad como virtud: no hay ningún mérito moral en gastar poco. Es el punto exacto en que una cosa más deja de compensar, y ese punto es distinto para cada uno y solo se encuentra mirando el propio gasto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De la curva sale una consecuencia incómoda para las cuentas de mucha gente. Si estás pasado del máximo, ganar más dinero y comprar más cosas te empeora la vida y además te obliga a trabajar más horas para pagarlo. El libro llama a eso la trampa, y su tesis es que se sale de ella bajando el gasto y no subiendo el sueldo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay un punto donde una cosa más deja de compensarte. Se llama suficiente, y solo lo encuentras mirando lo que ya gastas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El método no consiste en un presupuesto, sino en tres preguntas que se hacen cada mes",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí el libro se separa de casi todos los de su estante. No manda hacer un presupuesto ni fijar límites por categoría, porque sostiene que los presupuestos se incumplen y dejan culpa. Manda otra cosa: apuntar todo el gasto del mes, hasta el céntimo, agruparlo en categorías propias y después someter cada categoría a tres preguntas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es si recibiste satisfacción en proporción a la energía vital que gastaste ahí. La segunda, si ese gasto encaja con lo que dices que te importa. La tercera es la mejor: cómo cambiaría esa cifra si no tuvieras que trabajar para ganarte la vida. Al lado de cada categoría se pone un signo más, un menos o un igual, y nada más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera pregunta funciona porque desmonta gastos que parecían necesarios y son consecuencia del propio trabajo. Las comidas fuera, la ropa, el coche de repuesto, las vacaciones caras para recuperarse del año. Muchas categorías se hunden solas al hacerla, y quien la responde honestamente descubre que trabaja bastantes horas para pagar los efectos de trabajar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado no es una lista de recortes impuesta desde fuera. Los signos menos señalan sitios donde tú mismo has dicho que no compensaba, y ahí el gasto baja sin esfuerzo de voluntad porque ha dejado de apetecer. Los autores lo repiten: esto no es apretarse el cinturón, es dejar de pagar por cosas que no te estaban dando nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pregúntate cuánto gastarías en esto si no tuvieras que trabajar para vivir. Media lista se cae sola con esa pregunta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un gráfico colgado en la pared hace más por el ahorro que cualquier propósito",
+      },
+      {
+        b: "texto",
+        texto:
+          "El quinto paso parece menor y los autores lo consideran imprescindible: dibujar en una hoja grande dos líneas, los ingresos y los gastos de cada mes, y colgarla donde se vea todos los días. No en una aplicación, no en un cajón. En la pared. La escala tiene que dar para años, porque lo que interesa no es el mes sino la tendencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su razón es de conducta y está bien vista. Un número en una hoja de cálculo se mira cuando uno se acuerda, que es cuando va bien. Una línea en la pared se ve sin querer, todos los días, y esa exposición constante hace el trabajo que no hace la fuerza de voluntad. Los autores dicen que la gráfica motiva sola en cuanto el hueco entre las dos líneas empieza a abrirse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese hueco es el ahorro del mes, y verlo dibujado cambia su naturaleza. Deja de ser una cantidad que sobró y se convierte en una distancia que crece o se encoge. Los autores cuentan que muchos seguidores del método guardan gráficos de diez y quince años, y que la línea de gastos casi siempre baja durante el primer año sin ningún recorte deliberado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un detalle que explica por qué funciona en pareja. La gráfica es un objeto común y no una acusación: no dice quién gastó qué, dice cómo va la casa. Las conversaciones sobre dinero entre dos personas suelen encallar en el reparto de culpas, y un dibujo en la pared las traslada a un terreno donde los dos miran hacia el mismo sitio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dibuja tus ingresos y tus gastos en una hoja y cuélgala donde la veas cada día. Verla es lo que hace el trabajo, no proponértelo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La independencia financiera es un punto de corte entre dos líneas, y se puede calcular hoy",
+      },
+      {
+        b: "texto",
+        texto:
+          "La última pieza es la que dio nombre a todo un movimiento treinta años después. A la gráfica se le añade una tercera línea: los ingresos que producen tus ahorros sin que trabajes, mes a mes. Al principio es casi plana y va por el suelo. Con los años sube, y en algún momento cruza la línea de los gastos. Los autores lo llaman «el punto de cruce».",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí, por definición, ya no hace falta un sueldo para vivir. No es riqueza, y el libro se cuida mucho de decirlo: es que lo que entra sin trabajar cubre lo que sale. Por eso el punto se puede alcanzar de dos maneras, y la segunda es la que casi nadie considera: subiendo la línea de arriba o bajando la de en medio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa simetría es lo que hace el libro distinto de los de inversión. Cada euro que dejas de gastar cada mes baja el listón para siempre, y además te deja un euro más para invertir. Trabaja dos veces. Por eso el método dedica cinco pasos al gasto y solo dos a lo que se hace con el dinero, al revés que todo el estante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los autores definen también lo que llaman independencia con minúscula, y es lo más aprovechable para quien no vea el cruce cerca. Cada mes de gastos que tienes cubierto es un mes en el que podrías decir que no. Cambiar de trabajo, aguantar un despido, negarte a algo. La libertad no llega entera el día del cruce: llega en trozos y se puede contar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El cruce llega antes bajando lo que gastas que subiendo lo que ganas: cada euro que no gastas baja el listón para siempre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro piezas y las cuatro funcionan sin cambiar de vida. Calcular el sueldo real por hora y usar esa cifra para mirar los precios. Preguntarse en cada categoría de gasto cuánto gastarías si no tuvieras que trabajar. Colgar el gráfico donde se vea. Y contar la libertad en meses cubiertos, que es una medida que se puede tener aunque el punto de cruce quede lejísimos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la inversión, y es un fallo grande. La receta original era poner todo el capital en bonos del Tesoro estadounidense a largo plazo, que en 1992 pagaban alrededor del ocho por ciento anual. Eso desapareció: en las dos décadas siguientes esos bonos bajaron muchísimo, y quien siguiera el plan al pie de la letra se quedaba corto. Fue Robin quien lo reconoció y reescribió el capítulo en la edición revisada de 2018.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en para quién sirve. Todo el método consiste en redirigir un dinero que sobra, y quien gasta lo que gana en vivir no tiene nada que redirigir. Además, la palabra «suficiente» se presenta como un descubrimiento personal, cuando la vivienda, la sanidad y el cuidado de los hijos los pone el mercado y no la elige nadie mirándose por dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después es curioso. El libro se vendió bien en los noventa y luego se apagó, y hacia 2010 lo desenterró en internet una generación entera de gente que buscaba jubilarse pronto. De ahí salió el movimiento que se conoce como independencia financiera y jubilación temprana, con blogs, foros y una edición nueva del libro que lleva prólogo de uno de esos blogueros. Dominguez llevaba trece años muerto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Aunque no llegues nunca al cruce, cuenta cuántos meses tienes cubiertos: cada uno es un mes en el que puedes decir que no.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "bolsa-o-vida": BOLSA_O_VIDA,
   "despertando-gigante": DESPERTANDO_GIGANTE,
   "ego-es-el-enemigo": EGO_ES_EL_ENEMIGO,
   "organizate-eficacia": ORGANIZATE_EFICACIA,

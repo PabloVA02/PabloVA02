@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "bolsa-o-vida": [
+    "por qué casi nadie cobra por hora lo que cree que cobra",
+    "en qué punto tener más cosas empieza a empeorarte la vida",
+    "la pregunta que hace caerse sola media lista de gastos",
+    "por qué un gráfico en la pared ahorra más que un propósito",
+    "cómo se cuenta la libertad cuando aún queda lejos",
+  ],
+
   "despertando-gigante": [
     "por qué sabes lo que te conviene y aun así no lo haces",
     "qué hace falta para que un cambio aguante cuando se acaban las ganas",

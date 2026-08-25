@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "bolsa-o-vida":
+    "Joe Dominguez dejó Wall Street en 1969, a los treinta y uno, con setenta mil dólares, y no volvió a cobrar por trabajar. Su método parte de una idea: el dinero es horas de vida que ya has entregado y no vas a recuperar.",
+
   "despertando-gigante":
     "Robbins sostiene que nadie cambia el día que se convence, sino el día que seguir igual le duele más que moverse. Su método consiste en cambiar de sitio lo que uno tiene asociado al dolor y al placer.",
 
