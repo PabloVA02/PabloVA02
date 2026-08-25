@@ -61291,7 +61291,7 @@ const REY_DEL_MUNDO: PaginaLibro[] = [
   },
   {
     bloques: [
-      { b: "rotulo", texto: "Malcolm" },
+      { b: "rotulo", texto: "El saludo negado en Ghana" },
       {
         b: "texto",
         texto:
