@@ -124,7 +124,7 @@ export const CATALOGO: Ficha[] = [
   { id: "amor-liquido", titulo: "Amor líquido", autor: "Zygmunt Bauman", ano: 2003, categoria: "Filosofía", estado: "escrito" },
   { id: "caballero-armadura", titulo: "El caballero de la armadura oxidada", autor: "Robert Fisher", ano: 1989, categoria: "Filosofía", estado: "pendiente" },
   { id: "mundo-como-voluntad", titulo: "El mundo como voluntad y representación", autor: "Arthur Schopenhauer", ano: 1818, categoria: "Filosofía", estado: "pendiente" },
-  { id: "miedo-libertad", titulo: "El miedo a la libertad", autor: "Erich Fromm", ano: 1941, categoria: "Filosofía", estado: "pendiente" },
+  { id: "miedo-libertad", titulo: "El miedo a la libertad", autor: "Erich Fromm", ano: 1941, categoria: "Filosofía", estado: "escrito" },
   { id: "tener-o-ser", titulo: "Tener o ser", autor: "Erich Fromm", ano: 1976, categoria: "Filosofía", estado: "pendiente" },
   { id: "banquete", titulo: "El banquete", autor: "Platón", ano: -385, categoria: "Filosofía", estado: "pendiente" },
   { id: "sobre-la-libertad", titulo: "Sobre la libertad", autor: "John Stuart Mill", ano: 1859, categoria: "Filosofía", estado: "pendiente" },

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "miedo-libertad":
+    "Fromm lo publicó en 1941, con la guerra en marcha, para contestar a una pregunta sin respuesta: por qué millones de personas de un país moderno y alfabetizado apoyaron con entusiasmo a un régimen que les quitaba derechos.",
+
   "kite-runner":
     "Un hombre de treinta y ocho años recibe una llamada desde Pakistán y dice que se hizo lo que es en un callejón de Kabul, en el invierno de 1975, cuando tenía doce años. Todo el libro está escrito para explicar esa frase.",
 

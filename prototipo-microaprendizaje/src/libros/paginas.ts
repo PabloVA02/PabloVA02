@@ -87562,7 +87562,295 @@ const KITE_RUNNER: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El miedo a la libertad, en ocho paginas.
+
+   Breve. FILOSOFIA, ensayo -> afirmacion entera en el rotulo y TERCERA PERSONA
+   en la caja (apartado 4.7).
+
+   Seis argumentos: libertad de algo contra libertad para algo, lo que se perdio
+   al perder el sitio fijo, la lectura psicologica de la Reforma, y las tres
+   huidas —someterse o dominar, destruir, y convertirse en lo que se espera—.
+
+   Dato que va en la primera pagina: se publico en 1941, con la guerra en marcha
+   y el nazismo en su momento mas alto. No es un analisis a posteriori.
+
+   La conclusion: el mecanismo psicoanalitico no se puede comprobar; la lectura
+   de Lutero y Calvino no la aceptan los historiadores de la Reforma; el peso lo
+   lleva la psicologia y no las condiciones materiales alemanas; y la tesis es
+   indesmentible, porque someterse, dominar y conformarse confirman las tres lo
+   mismo.
+   -------------------------------------------------------------------------- */
+
+const MIEDO_LIBERTAD: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Millones de personas de un país moderno y educado entregaron su libertad sin que nadie se la quitara",
+      },
+      {
+        b: "texto",
+        texto:
+          "Erich Fromm era psicoanalista, había nacido en Fráncfort en 1900 y salió de Alemania en 1934. Publicó este libro en 1941, con la guerra en marcha y el nazismo en su momento más alto, y no como un análisis hecho después: como un intento urgente de contestar a una pregunta que no tenía respuesta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La pregunta es esta. Alemania era uno de los países más alfabetizados, más industrializados y con más tradición filosófica y científica de Europa, y millones de sus ciudadanos apoyaron voluntariamente a un régimen que les quitaba derechos. No fue solo una conquista desde arriba: hubo entusiasmo, y ese entusiasmo es lo que Fromm quiere explicar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación es que la libertad moderna tiene una cara que nadie cuenta. Liberarse de las ataduras antiguas dejó al individuo sin ellas y también sin lo que le daban: un sitio, una identidad y un sentido que no había que buscarse. Y un ser humano solo y sin referencias, sostiene, no aguanta esa situación indefinidamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre la diferencia entre librarse de algo y ser libre para algo, qué se perdió cuando se perdió el sitio fijo en el mundo, cómo lee Fromm la Reforma protestante, y las tres maneras que describe de escapar de una libertad que pesa: someterse a un poder, destruir lo que hay alrededor, y volverse indistinguible de todos los demás.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No fue solo una imposición desde arriba: hubo entusiasmo, y ese entusiasmo es exactamente lo que ninguna explicación política resolvía.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Librarse de algo y ser libre para algo son dos cosas distintas, y la historia solo dio la primera",
+      },
+      {
+        b: "texto",
+        texto:
+          "La distinción que ordena todo el libro es sencilla de enunciar. Una cosa es la libertad de: no depender de un señor feudal, no estar sometido a una autoridad religiosa, no tener el oficio decidido al nacer. Otra distinta es la libertad para: la capacidad real de hacer algo con la propia vida, de desarrollarse y de elegir con criterio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fromm sostiene que los últimos cinco siglos entregaron la primera con enorme eficacia y la segunda no. Se rompieron las cadenas y no se construyó nada que ocupara su sitio, con lo que millones de personas se encontraron libres de todo y sin ninguna idea de para qué. Esa combinación es la que él considera peligrosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Compara ese proceso con el crecimiento de un niño, y la comparación funciona bien. Cortar el cordón hace al niño físicamente independiente y también solo; cada paso de autonomía es a la vez una ganancia de poder y una pérdida de refugio. Lo mismo, dice, le ha ocurrido a las sociedades enteras a lo largo de la modernidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su afirmación incómoda. Si la libertad se vive sobre todo como ausencia de sostén, entonces resulta insoportable, y una persona en ese estado no defiende su libertad: busca desprenderse de ella. Y desprenderse voluntariamente de la libertad no es un fallo de carácter, sino la salida disponible cuando la otra mitad de la libertad no ha llegado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se rompieron las cadenas y no se puso nada en su sitio. Quedó gente libre de todo y sin ninguna idea de para qué era libre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En el mundo medieval nadie era libre y tampoco estaba solo, y eso segundo se perdió con lo primero",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fromm dedica un tramo a describir la sociedad medieval sin ninguna nostalgia y con una observación precisa. Un campesino, un artesano o un noble tenían la vida decidida de antemano: el oficio, el lugar, el vecindario, la fe, la posición y hasta la ropa que podían llevar. No había movilidad ni elección individual en casi ningún terreno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y a la vez, dice, nadie dudaba de quién era. La identidad no era algo que hubiera que construir ni averiguar: venía dada, igual que el apellido. Con ella venían un sitio en un orden que se consideraba natural, unas obligaciones claras y una pertenencia que no había que ganarse todos los días.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que rompió aquello, en su relato, fue la combinación del Renacimiento, la Reforma y el capitalismo naciente, que sacaron al individuo del bloque en el que estaba encajado. Apareció una persona capaz de decidir su oficio, su fe y su destino, y a la vez responsable de todo ello y sin nadie que le garantizara nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fromm insiste en que no propone volver atrás, y hay que decirlo porque es lo que se le atribuye. Su afirmación es descriptiva: la libertad moderna trajo una soledad y una incertidumbre nuevas, esas dos cosas producen angustia, y esa angustia busca salida. Todo el resto del libro trata de las salidas que encuentra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En aquel mundo la identidad venía dada, como el apellido. Con la libertad llegó la obligación de construirse una, y esa es una carga nueva.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Fromm lee la Reforma como el primer síntoma de esa angustia, no como una discusión teológica",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más original del libro, y también el más discutible, es el que dedica a Lutero y a Calvino. Fromm no discute su teología: la lee como la expresión de un estado de ánimo social. Lo que le interesa es a quién le habló aquella doctrina y por qué la aceptó tanta gente en tan poco tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De Lutero destaca dos cosas que le parecen inseparables. Por un lado libera al creyente de la mediación de la Iglesia y lo pone solo frente a Dios, que es una emancipación enorme. Por otro insiste en que el hombre es corrupto, no vale nada por sí mismo y solo puede someterse por completo, que es una humillación igual de enorme.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De Calvino destaca la predestinación: la idea de que ya está decidido quién se salva y quién no, y que nada de lo que uno haga lo cambia. Fromm señala la paradoja psicológica de que esa doctrina, en vez de producir resignación, produjo un esfuerzo febril, porque el éxito en el trabajo se leyó como indicio de estar entre los elegidos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su conclusión es que ahí aparece por primera vez el mecanismo que le interesa: alguien que se ha quedado solo y que resuelve la soledad entregándose por completo a un poder que le supera. Fromm dice explícitamente que la estructura de esa entrega es la misma que verá cuatro siglos después, con otro contenido y otro objeto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Aquella doctrina liberaba al creyente de la Iglesia y a la vez le decía que no valía nada. Fromm mira lo segundo y no lo primero.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Someterse a un poder y dominar a otros son la misma huida, y suelen darse en la misma persona",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera salida que describe es la autoritaria, y su aportación es sostener que tiene dos caras que parecen opuestas y no lo son. Una es entregarse a algo más grande —un líder, un partido, una nación, una doctrina— y desaparecer dentro. La otra es someter a otros y convertirlos en parte de uno mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fromm afirma que las dos resuelven el mismo problema, que es no soportar estar solo, y que por eso conviven en la misma persona con una facilidad que sorprende. El caso que le sirve de ejemplo es el funcionario que obedece sin discutir a quien tiene encima y humilla sistemáticamente a quien tiene debajo, y que no ve ninguna contradicción.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Describe además el mecanismo de la lealtad al líder de una manera que explica bastante. Quien se entrega no lo vive como una pérdida sino como una ganancia: deja de ser un individuo pequeño e inseguro y pasa a formar parte de algo poderoso, con lo que la sumisión produce una sensación real de fuerza y no de humillación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y señala el precio, que es lo que hace del capítulo algo más que una descripción. Esa fuerza es prestada y desaparece si el poder al que uno se entregó desaparece; y como el yo que se disolvió no ha crecido durante ese tiempo, la persona queda después más incapaz que antes de sostenerse sola. La huida deja peor de lo que estaba a quien la usa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Obedecer sin discutir a quien está arriba y humillar a quien está abajo no son dos rasgos: son el mismo, y por eso van juntos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La destructividad es lo que hace la vida que no se ha podido vivir" },
+      {
+        b: "texto",
+        texto:
+          "La segunda salida la despacha en pocas páginas y con una frase que se ha citado mucho: la destructividad es el resultado de la vida no vivida. Su idea es que la energía que no encuentra salida en construir, crear o relacionarse no desaparece, y que se transforma en el impulso de destruir lo que hay alrededor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La distingue de la agresión defensiva, que le parece otra cosa. Nadie destruye por defenderse de un peligro concreto: se destruye para que el mundo deje de ser una amenaza permanente, y la manera más completa de dejar de sentirse aplastado por algo es que ese algo no exista. Es una solución radical al problema de sentirse pequeño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fromm apunta además que la destructividad casi nunca se presenta como tal. Va vestida de deber, de amor a la patria, de defensa de la moral, de conciencia o de deber religioso, y quien la ejerce se considera casi siempre alguien que está haciendo lo correcto y a menudo alguien que está sacrificándose por hacerlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da una pista para reconocerla que sigue siendo útil. Sostiene que la cantidad de destructividad de una persona o de una sociedad guarda relación con cuánto se le ha impedido desarrollarse, y que allí donde la vida está más bloqueada —sin trabajo, sin futuro, sin capacidad de decidir nada— es donde ese impulso encuentra más material.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La energía que no encuentra salida en construir no desaparece. Cambia de signo, y casi siempre se presenta vestida de deber.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La huida más extendida no es someterse ni destruir: es volverse indistinguible de todos los demás",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera salida es la que Fromm considera propia de las democracias y la que más le preocupa a largo plazo. Consiste en dejar de ser uno mismo y adoptar por completo la personalidad que la cultura ofrece: pensar lo que se piensa, querer lo que se quiere, opinar lo que se opina, sin conflicto y sin darse cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo llama conformidad automática, y lo que la hace peligrosa es que no se experimenta como sumisión. Quien la ejerce está convencido de que sus opiniones son suyas y de que sus deseos le pertenecen. La diferencia entre un pensamiento propio y uno adoptado no se nota por dentro, y ahí Fromm usa la comparación con la sugestión hipnótica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación es que desaparece la persona y queda un yo prestado, hecho de expectativas ajenas. Y como ese yo no es de nadie, quien lo lleva vive con una inseguridad de fondo que necesita confirmación constante: aprobación, reconocimiento, saber que se está haciendo lo que se espera. La libertad formal está intacta y no queda nadie que la use.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba práctica que propone es la más incómoda del libro y se puede hacer en cualquier momento. Consiste en preguntarse qué se quiere de verdad, y comprobar cuántas de las respuestas son cosas que uno querría igualmente si nadie fuera a enterarse. Fromm sostiene que a mucha gente esa pregunta le deja la cabeza en blanco.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La diferencia entre un deseo propio y uno adoptado no se nota por dentro. La prueba es qué querría uno si nadie fuera a enterarse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que este libro dejó dicho y sigue en pie son tres cosas. Que librarse de algo y ser libre para algo no son lo mismo, y que dar lo primero sin lo segundo deja a la gente a la intemperie. Que someterse y dominar salen de la misma incapacidad de estar solo. Y que la forma más extendida de renunciar a uno mismo es la que se vive como voluntad propia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en cómo lo demuestra. El mecanismo que usa es psicoanalítico, con un tipo de carácter que se somete y domina a la vez, y eso no es una descripción medida sino un marco de interpretación. Su lectura de Lutero y de Calvino, además, es una interpretación psicológica de dos teologías que los historiadores de la Reforma en general no comparten.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en el reparto de causas. Fromm explica el ascenso del nazismo sobre todo por una angustia de la clase media, y deja en segundo plano la hiperinflación, el desempleo masivo, la crisis de 1929 y los intereses concretos que colocaron a Hitler en el poder. Los menciona, y el peso del argumento lo lleva la psicología.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y su tesis tiene el defecto de no poder fallar: si alguien se somete está huyendo, si domina está huyendo y si se conforma también. Aun así, lo que describió se intentó medir después. Los estudios sobre la personalidad autoritaria de 1950 tuvieron problemas serios de método, y las escalas construidas desde los años ochenta, mucho mejores, sí han encontrado algo bastante parecido a lo que él describió.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una tesis que se confirma tanto si alguien obedece como si manda o se conforma explica mucho hacia atrás y no predice nada hacia delante.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "miedo-libertad": MIEDO_LIBERTAD,
   "kite-runner": KITE_RUNNER,
   "vender-es-humano": VENDER_ES_HUMANO,
   gulag: GULAG,

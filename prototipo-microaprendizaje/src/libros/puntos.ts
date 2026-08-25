@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "miedo-libertad": [
+    "en qué se distingue librarse de algo de ser libre para algo",
+    "qué se perdió al perder el sitio fijo en el mundo",
+    "por qué obedecer arriba y humillar abajo son el mismo rasgo",
+    "de dónde sale la energía que acaba dedicándose a destruir",
+    "cómo se distingue un deseo propio de uno adoptado",
+  ],
+
   "kite-runner": [
     "por qué aquella amistad no era entre iguales, y qué decide eso",
     "qué necesita un niño para justificarse cuando no ayuda",
