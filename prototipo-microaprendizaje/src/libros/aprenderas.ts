@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  originales:
+    "Un seguimiento de cinco mil emprendedores encontró que quienes conservaron su empleo mientras montaban el negocio fracasaron un tercio menos. Grant sostiene que los originales no arriesgan más que la media: reparten el riesgo.",
+
   "mujeres-aman-demasiado":
     "Norwood trabajaba en tratamiento de adicciones y aplicó ese modelo al amor. El patrón que describe existe y es reconocible; el nombre que le pone importa, porque decide qué se hace después, y hoy se describe bastante mejor.",
 

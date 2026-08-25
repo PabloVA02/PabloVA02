@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  originales: "Cómo los inconformistas mueven el mundo",
   "mujeres-aman-demasiado": "Cuando sigues deseando y esperando que él cambie",
   "revolucion-glucosa": "Mejora tu salud controlando el azúcar en sangre",
   "poder-de-la-presencia": "Autoestima, seguridad, poder personal",

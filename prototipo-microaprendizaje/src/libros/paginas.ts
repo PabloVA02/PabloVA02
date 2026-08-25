@@ -77054,7 +77054,282 @@ const MUJERES_AMAN_DEMASIADO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Originales, en ocho páginas.
+
+   Breve. Ensayo con vocación práctica → afirmación entera en el rótulo y
+   SEGUNDA PERSONA en la caja (apartado 4.7).
+
+   Es el tercer Adam Grant del catálogo, después de DAR_Y_RECIBIR y
+   PIENSALO_OTRA_VEZ, y el resumen tiene que decir en qué se parece a los
+   otros: casi nada del material es suyo, está elegido porque encaja, y
+   varios estudios son de una sola muestra.
+
+   Riesgo principal: la anécdota del navegador, que circula por todas partes
+   como si fuera un hallazgo. Es un análisis interno de una empresa, sin
+   revisar y correlacional, y eso se dice en su página.
+
+   Lo que se salva y hay que dar bien: la cartera de riesgo, con los cinco
+   mil emprendedores; y que la cantidad produce la calidad.
+   -------------------------------------------------------------------------- */
+
+const ORIGINALES: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi todo lo que se cree sobre la gente original está al revés" },
+      {
+        b: "texto",
+        texto:
+          "Adam Grant es profesor de psicología de las organizaciones en la Escuela Wharton y este libro, de 2016, va contra la imagen habitual del innovador: alguien que se juega todo, que abandona lo seguro y que confía ciegamente en su idea. Su afirmación es que las personas que de verdad cambian algo suelen hacer exactamente lo contrario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que los originales no son más valientes que la media, sino que reparten el riesgo. Dudan de sus ideas tanto como cualquiera, tardan más en decidirse, conservan lo que ya tienen mientras prueban, y aplazan más de lo que se supone que debería aplazar alguien con una buena idea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Grant abre el libro con una anécdota que ha dado la vuelta al mundo y que conviene mirar con cuidado, porque es el punto más flojo de todo el argumento y el que más se repite. Está en la página siguiente con su letra pequeña.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre esa anécdota y qué se puede concluir de ella, cómo reparten el riesgo los que salen adelante, por qué producir mucho es la única manera fiable de producir algo bueno, por qué nadie sabe juzgar lo suyo, qué hace aplazar un poco, quién se atreve a hablar dentro de una organización, y si conviene llegar el primero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La gente que cambia algo no arriesga más que la media: duda igual, tarda más y conserva lo que ya tiene mientras prueba.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La anécdota del navegador es la más citada del libro y la que peor se sostiene",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con un análisis que hizo el economista Michael Housman sobre datos de unos treinta mil empleados de atención telefónica. Buscaba predecir quién duraría más en el puesto, y encontró una relación que no esperaba: los que usaban Firefox o Chrome se quedaban alrededor de un quince por ciento más tiempo y rendían mejor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación que da Grant es elegante y por eso ha corrido tanto. No es el navegador: es que Firefox y Chrome hay que instalarlos, mientras que Internet Explorer y Safari vienen puestos de fábrica. Quien los usa hizo algo con su ordenador en vez de aceptar lo que venía, y esa misma disposición aparece después en su trabajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema es qué clase de dato es ese. Es un análisis interno de una empresa, que no ha pasado por revisión de nadie y que es correlacional: no se asignó a nadie un navegador al azar. No hay manera de separar la disposición a cambiar las cosas de otras diez variables que van con ella, empezando por la edad y por saber manejar un ordenador.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle que casi nadie menciona: entre 2010 y 2015, Internet Explorer y Safari eran también lo que venía en los ordenadores más viejos y en las oficinas peor equipadas. La historia es buena, la conclusión puede ser cierta, y esa cifra no la demuestra en absoluto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una historia elegante no es una prueba: pregúntate si a alguien se le asignó algo al azar o solo se observó lo que ya hacía.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Quien monta algo sin dejar su trabajo fracasa bastante menos" },
+      {
+        b: "texto",
+        texto:
+          "La parte mejor sostenida del libro es la que va contra el consejo más repetido del emprendimiento. Joseph Raffiee y Jie Feng analizaron los datos de un seguimiento de unos cinco mil emprendedores estadounidenses, y compararon a los que dejaron su empleo para montar su negocio con los que lo mantuvieron mientras arrancaban.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los que conservaron el trabajo tuvieron alrededor de un tercio menos de probabilidad de fracasar. Y el motivo no es el dinero solamente: quien no depende del negocio para comer este mes puede rechazar un mal cliente, negociar mejor, esperar a que el producto esté bien y aguantar los primeros meses malos sin tomar decisiones desesperadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Grant llama a esto una cartera de riesgo, y su idea es que quien asume un riesgo grande en un sitio compensa con una prudencia extrema en otro. Su ejemplo favorito es una empresa de gafas cuyos cuatro fundadores mantuvieron sus prácticas y sus ofertas de trabajo firmadas hasta después del lanzamiento; dos de ellos tenían contrato para empezar en otro sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade su propia derrota, que es lo más honrado del libro: le ofrecieron invertir en aquella empresa, la vio dudar y cubrirse, interpretó esa prudencia como falta de convicción y dijo que no. La empresa acabó valiendo miles de millones. Confundió repartir el riesgo con no creérselo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No dejes el trabajo para montar algo: quien no depende del negocio este mes puede rechazar un mal cliente y esperar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La única manera fiable de producir algo bueno es producir mucho" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre creatividad desmonta la imagen del genio que acierta poco y bien. Los números de los que más se recuerdan son enormes: Edison registró más de mil patentes, Bach compuso alrededor de mil obras, Picasso dejó cerca de mil ochocientos cuadros más miles de dibujos, grabados y esculturas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la mayoría de todo eso no lo conoce nadie. De las treinta y siete obras de teatro de Shakespeare, las que se representan constantemente son cinco o seis; el resto se estudia y no se ve. Lo mismo con Edison, cuyas patentes célebres son cuatro y las demás son mejoras de cosas que hoy no existen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que saca es de aritmética. Si la probabilidad de que una obra concreta sea excelente se mantiene más o menos constante, la única variable que se puede mover es cuántas se producen. Los que tienen más aciertos no aciertan en mayor proporción: producen mucho más, y por tanto también acumulan muchos más fracasos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la corrección práctica al perfeccionismo: pulir la misma idea durante dos años produce una obra pulida y ninguna información nueva. Empezar la siguiente produce otra oportunidad y además enseña algo que la primera no podía enseñar, porque la crítica de un trabajo terminado es distinta de la de uno que sigue en la mesa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien acierta más no acierta en mayor proporción: produce mucho más, y acumula muchos más fracasos que nadie ve.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Nadie sabe cuál de sus propias ideas es la buena, ni siquiera los grandes",
+      },
+      {
+        b: "texto",
+        texto:
+          "El complemento de lo anterior es incómodo: si hay que producir mucho, hará falta elegir después, y resulta que los creadores son malos jueces de su propia obra. Grant recoge un estudio sobre Beethoven que comparó sus opiniones escritas sobre sus propias composiciones con la valoración posterior de la crítica y del público.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se equivocaba en cerca de un tercio de los casos, en las dos direcciones: consideró menores obras que se convirtieron en centrales y defendió como logros piezas que no ha querido nadie. Y hablamos de alguien con toda la formación técnica posible juzgando su propio oficio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón que se propone es que quien hace algo no puede verlo como un desconocido. Sabe lo que quería hacer, sabe lo que le costó cada parte y sabe qué problema resolvió cada decisión, así que juzga el esfuerzo y la intención en lugar del resultado, que es lo único que ve el que llega después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la recomendación práctica y también su límite. Enseñar el trabajo pronto, a personas que hagan lo mismo, es mejor que decidir solo; los jefes y los públicos aciertan menos que los colegas, porque los primeros valoran encajar y los segundos no saben cuánto podría mejorar. Pero ni siquiera los colegas aciertan mucho: solo aciertan más.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Juzgas tu trabajo por lo que te costó y por lo que querías hacer, y quien lo mira solo ve lo que hay.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Aplazar un poco mejora una idea, y aplazar mucho la mata" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre la postergación va contra todos los libros de productividad y hay que leerlo con la letra pequeña puesta. Grant recoge una investigación de Jihae Shin en la que las personas que dejaban reposar una tarea un rato antes de terminarla producían soluciones calificadas como más creativas que quienes la hacían de un tirón nada más recibirla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación es de incubación: empezar y dejarlo permite que la primera idea, que casi siempre es la más evidente, deje de ocupar todo el sitio, y da tiempo a que aparezcan las siguientes. Quien termina inmediatamente se queda con la solución obvia porque no llegó a considerar ninguna otra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La condición está en la cantidad, y es donde el libro se malinterpreta constantemente. El efecto aparece con un aplazamiento moderado, en alguien que ya ha empezado la tarea y la tiene rondando; no aparece si no se ha empezado nada, y desaparece del todo cuando el plazo aprieta tanto que ya no queda margen para elegir entre ideas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo más conocido es un discurso de agosto de 1963. Martin Luther King seguía reescribiendo el texto la noche anterior, y la parte por la que se recuerda ese discurso no estaba en el papel: la improvisó al final, después de que Mahalia Jackson le gritara desde detrás que les hablara del sueño. Conviene añadir que llevaba años usando esa imagen en otros actos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Empieza pronto y termina tarde: la primera idea ocupa todo el sitio hasta que la dejas reposar un rato.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El que menos se atreve a discrepar no es el de abajo: es el de en medio",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los hallazgos más útiles del libro para cualquiera que trabaje en una organización tiene que ver con quién habla. Contra lo que parece, quien menos se atreve a discrepar no es la persona con menos poder, sino la que está en la mitad de la jerarquía. Se le llama conformidad de estatus medio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación es de cálculo. Quien está abajo del todo tiene poco que perder y a menudo poca visibilidad; quien está arriba tiene la posición asegurada y puede permitirse decir cosas raras. Quien está en medio acaba de llegar a un sitio que le costó, ve el siguiente escalón, y tiene mucho que perder y todavía nada garantizado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso explica una cosa que se observa en muchas empresas: las ideas incómodas las dicen los nuevos y los veteranos, y la capa intermedia —que suele ser la que más sabe del asunto— repite lo que se espera. No es cobardía personal: es una respuesta razonable a los incentivos que tiene delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia para quien dirige es concreta y no es motivacional. Pedir opiniones sinceras en una reunión no funciona, porque la capa intermedia está contestando a otra pregunta. Lo que cambia el resultado es cambiar el incentivo: separar la discrepancia de la evaluación, o pedir la objeción por escrito y antes de que nadie haya opinado en voz alta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En una reunión, la capa intermedia no te está contestando a ti: le está contestando a su próximo ascenso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro cosas. No dejar lo seguro para probar algo, porque quien no depende del resultado este mes decide mejor. Producir mucho, porque la proporción de aciertos no se puede subir y la cantidad sí. Enseñar el trabajo pronto a gente que haga lo mismo, porque uno juzga su obra por lo que le costó. Y saber que en una reunión la capa intermedia no dice lo que piensa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en cómo está construido. Es un libro hecho de estudios ajenos elegidos porque encajan con la tesis y contados como una narración, y varios son de una sola muestra, de un solo laboratorio o de la propia gente de su departamento. El de la postergación, por ejemplo, es de una doctoranda suya y no se ha replicado ampliamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y su anécdota de apertura, la del navegador, es la que peor se sostiene y la que más ha circulado: un análisis interno sin revisar, correlacional, del que no se puede concluir lo que se concluye. Que la idea de fondo pueda ser cierta no salva el dato, y este libro le debe buena parte de su fama.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después es que Grant se convirtió en uno de los divulgadores más leídos del mundo, publicó en 2021 «Piénsalo otra vez» —que está en este catálogo— y en 2023 otro sobre el potencial no visible. Y su propia anécdota más honrada sigue en pie: le ofrecieron invertir en la empresa que abre este libro, vio prudencia donde había estrategia, y dijo que no.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuatro ideas que se pueden usar el lunes, y una anécdota de apertura que no demuestra nada de lo que se le atribuye.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  originales: ORIGINALES,
   "mujeres-aman-demasiado": MUJERES_AMAN_DEMASIADO,
   "revolucion-glucosa": REVOLUCION_GLUCOSA,
   "poder-de-la-presencia": PODER_DE_LA_PRESENCIA,

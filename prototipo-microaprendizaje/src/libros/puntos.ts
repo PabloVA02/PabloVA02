@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  originales: [
+    "cómo distinguir una historia elegante de una prueba",
+    "por qué conviene no dejar lo seguro mientras pruebas algo",
+    "por qué producir mucho es la única forma de producir algo bueno",
+    "por qué juzgas tan mal tu propio trabajo",
+    "quién es el que menos se atreve a discrepar en una empresa",
+  ],
+
   "mujeres-aman-demasiado": [
     "qué significa que la gente estable te resulte aburrida",
     "por qué lo conocido se reconoce como amor aunque fuera caótico",

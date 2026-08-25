@@ -314,7 +314,7 @@ export const CATALOGO: Ficha[] = [
   { id: "vendedor-mas-grande", titulo: "El vendedor más grande del mundo", autor: "Og Mandino", ano: 1968, categoria: "Psicología", estado: "pendiente" },
   { id: "21-leyes-liderazgo", titulo: "Las 21 leyes irrefutables del liderazgo", autor: "John C. Maxwell", ano: 1998, categoria: "Psicología", estado: "pendiente" },
   { id: "dar-y-recibir", titulo: "Dar y recibir", autor: "Adam Grant", ano: 2013, categoria: "Psicología", estado: "escrito" },
-  { id: "originales", titulo: "Originales", autor: "Adam Grant", ano: 2016, categoria: "Psicología", estado: "pendiente" },
+  { id: "originales", titulo: "Originales", autor: "Adam Grant", ano: 2016, categoria: "Psicología", estado: "escrito" },
   { id: "piensalo-otra-vez", titulo: "Piénsalo otra vez", autor: "Adam Grant", ano: 2021, categoria: "Psicología", estado: "escrito" },
   { id: "maestria-greene", titulo: "Maestría", autor: "Robert Greene", ano: 2012, categoria: "Psicología", estado: "pendiente" },
   { id: "leyes-naturaleza-humana", titulo: "Las leyes de la naturaleza humana", autor: "Robert Greene", ano: 2018, categoria: "Psicología", estado: "escrito" },
