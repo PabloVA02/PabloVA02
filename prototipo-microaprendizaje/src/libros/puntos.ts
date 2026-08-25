@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  incognito: [
+    "por qué ver no consiste en recibir imágenes del mundo",
+    "cómo se puede saber hacer algo sin acceso a cómo se hace",
+    "qué explica la ambivalencia mejor que la falta de voluntad",
+    "de dónde salen las razones que damos de nuestros propios actos",
+    "qué cambia en alguien cuando le cambia un poco el tejido cerebral",
+  ],
+
   "primeros-90-dias": [
     "qué tienes que dejar de hacer justo cuando te ascienden por hacerlo",
     "en qué cinco situaciones puedes caer, y por qué piden cosas opuestas",

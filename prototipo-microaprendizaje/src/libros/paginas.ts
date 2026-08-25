@@ -85175,7 +85175,299 @@ const PRIMEROS_90_DIAS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Incognito, en ocho paginas.
+
+   Breve. ENSAYO DE CIENCIA -> afirmacion entera en el rotulo y TERCERA PERSONA
+   en la caja (apartado 4.7).
+
+   Seis argumentos: la vision se construye, saber sin saber, el equipo de
+   rivales, el interprete que inventa razones, el caso de Charles Whitman y la
+   propuesta juridica.
+
+   Lo concreto: los sexadores de pollos, la vision ciega, los pacientes de
+   cerebro dividido de Sperry y Gazzaniga, la autopsia que pidio Whitman en 1966
+   y el maestro con el tumor orbitofrontal del ano 2000.
+
+   La conclusion tiene que decir lo que el libro no podia saber en 2011: buena
+   parte de los estudios de influencia inconsciente en los que se apoya son
+   precisamente los que peor han salido de la crisis de replicacion de la decada
+   siguiente.
+   -------------------------------------------------------------------------- */
+
+const INCOGNITO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La parte de ti que se entera de las cosas es una fracción muy pequeña de lo que hace tu cerebro",
+      },
+      {
+        b: "texto",
+        texto:
+          "David Eagleman es neurocientífico y abre su libro de 2011 con una comparación que repite después varias veces: la conciencia es como un polizón en un transatlántico que cree que el viaje es cosa suya. El barco navega, la tripulación trabaja, las máquinas funcionan, y el polizón se atribuye el rumbo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación es que casi todo lo que hace el cerebro ocurre sin que la persona se entere, y no solo la respiración o el equilibrio. También reconocer una cara, entender una frase, decidir que alguien no te gusta, elegir una palabra al hablar o encontrar divertido un chiste. Todo eso llega ya resuelto a la conciencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba doméstica que da es que nadie sabe explicar cómo hace lo que mejor hace. Nadie puede describir cómo reconoce a su madre entre mil caras, ni cómo mantiene el equilibrio en bicicleta, ni de dónde le salen las palabras mientras habla. Y sin embargo lo hace, y lo hace en milésimas de segundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué ver no consiste en recibir imágenes, qué significa saber algo sin poder explicarlo, por qué el cerebro funciona como un grupo de sistemas que compiten, qué hace la parte que fabrica explicaciones, qué ocurre cuando un tumor cambia la conducta de alguien, qué propone Eagleman para los tribunales y qué le ha pasado a este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie sabe explicar cómo reconoce una cara ni de dónde le salen las palabras al hablar. Eso lo hace el cerebro sin consultar a nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ver no consiste en recibir imágenes del mundo, sino en fabricar una hipótesis y corregirla",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre la vista desmonta la idea intuitiva de que los ojos funcionan como una cámara. Los ojos mandan una señal pobre, borrosa fuera del centro, invertida, con un agujero donde sale el nervio óptico y sacudida constantemente por movimientos bruscos que ocurren varias veces por segundo. La escena estable y nítida que uno experimenta no llega por ahí: se construye.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El punto ciego es el ejemplo más claro. Cada ojo tiene una zona sin receptores, y en la experiencia cotidiana no hay ningún agujero: el cerebro rellena esa parte con lo que calcula que debería haber, y lo hace tan bien que descubrir el punto ciego requiere un truco de laboratorio hecho a propósito para pillarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eagleman lo generaliza en una afirmación más incómoda. El cerebro no espera la información para interpretarla: genera continuamente una expectativa de lo que va a haber y usa los sentidos sobre todo para corregirla cuando falla. Ver, en esa descripción, se parece menos a mirar por una ventana y más a comprobar una predicción que ya estaba hecha.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la consecuencia que atraviesa el libro. Si la experiencia consciente es una construcción hecha con expectativas, entonces no es un informe fiable de lo que hay fuera, y tampoco lo es de lo que ocurre dentro. La sensación de estar viendo el mundo directamente es exactamente la clase de sensación que un sistema así produciría.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El cerebro no espera la información para interpretarla: predice lo que va a haber y usa los sentidos para corregirse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Se puede saber algo con precisión y no tener ningún acceso a cómo se sabe",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que más se cita de este libro es el de los sexadores de pollos. En la industria avícola japonesa hay profesionales capaces de separar pollitos de un día por sexo con muchísima precisión y a gran velocidad, y no saben explicar en qué se fijan. La formación consiste en que un veterano les diga sí o no durante meses hasta que empiezan a acertar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eagleman cuenta que en la Segunda Guerra Mundial pasó lo mismo con los observadores que identificaban aviones enemigos en el horizonte: los mejores no podían enseñar su criterio, y el sistema que funcionó fue el mismo, poner al aprendiz a adivinar y corregirlo. Lo que aprendieron es real y no es verbal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso clínico que lleva la idea al extremo se llama visión ciega. Son pacientes con la corteza visual dañada que aseguran no ver nada en parte de su campo visual y que, obligados a adivinar dónde está un objeto, aciertan muy por encima del azar. Algunos esquivan obstáculos en un pasillo diciendo a la vez que no ven nada delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que saca Eagleman es que la conciencia no es la puerta por la que entra la información sino un resumen que llega tarde. El conocimiento puede estar completo y ser utilizable sin que exista ninguna experiencia consciente de él, y por eso pedirle a alguien que explique cómo hace algo suele producir una explicación inventada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que alguien no sepa explicar cómo lo hace no significa que no lo sepa hacer. Buena parte del conocimiento experto no es verbal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El cerebro no es una unidad que decide: son varios sistemas que quieren cosas distintas",
+      },
+      {
+        b: "texto",
+        texto:
+          "La imagen central del libro es la de un equipo de rivales. Eagleman sostiene que el cerebro está formado por circuitos que resuelven el mismo problema de maneras distintas y compiten por el control, y que la sensación de ser una sola persona con una sola opinión es el resultado de esa competencia, no su punto de partida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba cotidiana es la ambivalencia. Alguien puede querer y no querer la misma cosa a la vez, discutir consigo mismo, prometerse algo por la noche y romperlo por la mañana. En una máquina con un solo objetivo, eso no tendría sentido; en un sistema de partes que negocian, es lo esperable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la utilidad práctica del modelo, que Eagleman llama contratos de Ulises por el episodio de las sirenas. Consisten en que la parte que hoy manda tome decisiones que aten a la parte que mandará mañana: dejar el móvil en otra habitación, no tener en casa lo que no se quiere comer, domiciliar el ahorro. No se gana la discusión: se impide que ocurra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El modelo explica también por qué la fuerza de voluntad rinde tan poco. Sostener el control exige que un circuito gane repetidamente a otro, y eso es caro y se agota; en cambio, cambiar la situación descarta el enfrentamiento. Eagleman insiste en que llamar debilidad al resultado de esa pelea es no haber entendido de qué está hecha.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Querer y no querer la misma cosa a la vez no es una contradicción: es lo que se espera de un sistema hecho de partes que compiten.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay una parte del cerebro dedicada a inventar explicaciones de lo que el resto ya ha hecho",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los experimentos más impresionantes del libro son con pacientes de cerebro dividido, personas a las que se les cortó el haz de fibras que conecta los dos hemisferios para controlar epilepsias graves. Roger Sperry y Michael Gazzaniga estudiaron a esos pacientes durante décadas, y lo que encontraron cambió la manera de pensar sobre la unidad de la mente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con las técnicas adecuadas se puede dar una instrucción solo al hemisferio derecho, que no habla. Si se le indica que se levante y camine, el paciente se levanta. Y si entonces se le pregunta por qué lo ha hecho, el hemisferio izquierdo, que es el que habla y no tiene ni idea, contesta al instante y con total naturalidad que iba a por un refresco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gazzaniga llamó intérprete a ese mecanismo. Su trabajo es producir una explicación coherente de la propia conducta con la información de que dispone, y lo hace siempre, tenga o no la información correcta. No miente: se cree lo que dice, y lo dice con la misma seguridad que cuando acierta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eagleman extiende la idea a todo el mundo. Si en un cerebro entero también hay procesos que deciden sin acceso consciente, entonces las razones que cualquiera da de sus propias decisiones son producto del mismo intérprete y merecen la misma desconfianza. Es la afirmación más incómoda del libro y la más difícil de aplicarse a uno mismo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien explica por qué hizo algo, no está recordando el motivo: está fabricando una explicación que le encaje.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un cambio pequeño en el tejido cerebral puede cambiar por completo lo que una persona hace",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primero de agosto de 1966, Charles Whitman subió a la torre de la Universidad de Texas en Austin y disparó contra la gente durante más de una hora. Había matado antes a su mujer y a su madre. La noche anterior había escrito una nota en la que decía que no se reconocía a sí mismo, que llevaba meses con dolores de cabeza y pensamientos que le horrorizaban, y pedía que le hicieran la autopsia del cerebro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se la hicieron. Encontraron un tumor que presionaba una zona relacionada con la regulación del miedo y de la agresividad. Eagleman cuenta el caso sin sacar de él una excusa: lo usa para señalar que la conducta de una persona depende de un tejido físico, y que ese tejido puede cambiar sin que la persona lo elija ni lo sepa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade un caso mejor documentado y más limpio. En el año 2000, un hombre de cuarenta años sin ningún antecedente desarrolló de golpe un interés sexual por menores y perdió el control de sus impulsos. Le encontraron un tumor en la corteza orbitofrontal; se lo extirparon y la conducta desapareció. Meses después reapareció, y una nueva resonancia mostró que el tumor había vuelto a crecer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eagleman insiste en lo que estos casos no demuestran. No dicen que nadie sea responsable de nada, porque la mayoría de las conductas no tiene un tumor detrás. Dicen algo más modesto y más difícil de digerir: que la frontera entre un cerebro que se considera responsable y otro que no se considera responsable es de grado, y que no sabemos dónde ponerla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La conducta depende de un tejido físico, y ese tejido puede cambiar sin que la persona lo elija ni llegue a saberlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Eagleman propone que los tribunales dejen de preguntar por la culpa y pregunten qué hacer ahora",
+      },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro es la más discutida y la que él ha seguido defendiendo desde entonces. Sostiene que la pregunta que ocupa a los tribunales —hasta qué punto es culpable este acusado— es una pregunta que la neurociencia no puede contestar y que, además, no sirve para decidir nada útil sobre el futuro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su propuesta es sustituirla por otra: qué probabilidad hay de que esta persona vuelva a hacerlo y qué intervención reduce esa probabilidad. Eagleman insiste en que eso no significa dejar libre a nadie peligroso, sino elegir la respuesta —tratamiento, control, reclusión— por lo que produce y no por lo que merece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Da además un argumento sobre lo que llama la lotería biológica. Nadie elige sus genes, ni su desarrollo prenatal, ni los golpes que recibió de niño, ni el entorno que le tocó, y todo eso influye en la conducta. Una justicia basada en el mérito moral, dice, está repartiendo premios y castigos por resultados de una tirada de dados que nadie hizo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y reconoce el límite de su propia propuesta, que es lo mejor de este tramo. Predecir quién reincidirá es difícil, las herramientas que existen se equivocan mucho y aplicarlas mal produce injusticias graves. Eagleman defiende el planteamiento y admite que las herramientas para ejecutarlo no están, que es una posición más honesta que la que se le suele atribuir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Preguntar cuánta culpa tiene alguien y preguntar qué reduce la probabilidad de que se repita son dos preguntas distintas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que este libro deja bien contado son cuatro cosas. Que la percepción es una construcción y no una recepción. Que se puede saber hacer algo con precisión sin tener acceso a cómo se hace. Que el cerebro funciona como partes que compiten, lo que explica la ambivalencia mejor que cualquier idea de fuerza de voluntad. Y que las razones que damos de nuestros actos las fabrica un intérprete que no estaba delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en el material del que se apoya en varios capítulos. Eagleman escribió en 2011 y usó con confianza una literatura de influencias inconscientes y de efectos de sugestión que en la década siguiente fue justo la que peor salió de la crisis de replicación: muchos de esos experimentos no se han podido repetir, y algunos de los más citados se dan hoy por caídos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El núcleo del libro no depende de eso, y conviene decirlo. La visión ciega, los pacientes de cerebro dividido, los casos con lesión y la construcción de la percepción son hallazgos sólidos y antiguos. Lo que se ha erosionado es la capa de estudios llamativos que rodeaba a esos hallazgos, que era la que hacía el libro más entretenido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y su propuesta jurídica ha recibido palos de los dos lados. Los neurocientíficos señalan que una imagen cerebral casi nunca dice lo que haría falta saber en un juicio; los juristas, que los sistemas penales ya incorporan la peligrosidad futura y que retirar del todo la idea de responsabilidad tiene consecuencias que Eagleman no examina. Él fundó un centro dedicado a ese cruce y sigue en ello.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El núcleo de este libro se sostiene: lo que se ha caído en la última década es la capa de experimentos llamativos que lo rodeaba.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  incognito: INCOGNITO,
   "primeros-90-dias": PRIMEROS_90_DIAS,
   "nueva-mirada-infidelidad": NUEVA_MIRADA_INFIDELIDAD,
   "jane-eyre": JANE_EYRE,

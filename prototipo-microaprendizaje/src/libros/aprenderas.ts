@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  incognito:
+    "Nadie sabe explicar cómo reconoce una cara entre mil, cómo mantiene el equilibrio en bicicleta o de dónde le salen las palabras al hablar. Eagleman sostiene que casi todo lo que hace el cerebro llega ya resuelto a la conciencia.",
+
   "primeros-90-dias":
     "El momento más arriesgado de una carrera no es una crisis ni un despido: es un cambio de puesto, donde hay que dar resultados antes de conocer la casa, a la gente o el problema. Watkins lo trata como un proyecto con método.",
 

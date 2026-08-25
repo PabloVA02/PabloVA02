@@ -158,7 +158,7 @@ export const CATALOGO: Ficha[] = [
   { id: "por-que-amamos", titulo: "Por qué amamos", autor: "Helen Fisher", ano: 2004, categoria: "Ciencia", estado: "escrito" },
   { id: "cerebro-femenino", titulo: "El cerebro femenino", autor: "Louann Brizendine", ano: 2006, categoria: "Ciencia", estado: "pendiente" },
   { id: "cerebro-adolescente", titulo: "El cerebro adolescente", autor: "Frances Jensen", ano: 2015, categoria: "Ciencia", estado: "pendiente" },
-  { id: "incognito", titulo: "Incógnito", autor: "David Eagleman", ano: 2011, categoria: "Ciencia", estado: "pendiente" },
+  { id: "incognito", titulo: "Incógnito", autor: "David Eagleman", ano: 2011, categoria: "Ciencia", estado: "escrito" },
   { id: "el-cerebro", titulo: "El cerebro", autor: "David Eagleman", ano: 2015, categoria: "Ciencia", estado: "escrito" },
   { id: "alicia-cuantos", titulo: "Alicia en el país de los cuantos", autor: "Robert Gilmore", ano: 1995, categoria: "Ciencia", estado: "pendiente" },
   { id: "caos-gleick", titulo: "Caos", autor: "James Gleick", ano: 1987, categoria: "Ciencia", estado: "pendiente" },

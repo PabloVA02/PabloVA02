@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  incognito: "Las vidas secretas del cerebro",
   "primeros-90-dias": "Estrategias de éxito para nuevos líderes",
   "nueva-mirada-infidelidad": "Repensar la infidelidad",
   "jane-eyre": "Una autobiografía",
