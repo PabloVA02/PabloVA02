@@ -70628,7 +70628,297 @@ const QUIEN_QUESO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Obtenga el sí, en ocho páginas.
+
+   Breve. Libro práctico → afirmación entera en el rótulo y SEGUNDA PERSONA
+   en la caja (apartado 4.7).
+
+   Regla 3 de la gramática: el término técnico se traduce y se define la
+   primera vez. Aquí eso es la MAAN, que es la pieza que más se usa y la que
+   peor se explica en casi todos los resúmenes.
+
+   Lo concreto que lo sostiene: Camp David en septiembre de 1978 con sus
+   veintitrés borradores, la ventana de la biblioteca y la naranja.
+
+   Y la conclusión enlaza con «Rompe la barrera del no», que ya está escrito
+   en el catálogo y que es la refutación desde dentro del oficio: Voss
+   sostiene que en un secuestro no hay ni MAAN ni ganancia mutua.
+   -------------------------------------------------------------------------- */
+
+const OBTENGA_EL_SI: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Roger Fisher y William Ury dirigían el Proyecto de Negociación de Harvard cuando publicaron esto en 1981. Su punto de partida es una observación que se comprueba en cualquier compraventa: casi todo el mundo negocia de una sola manera, que consiste en que cada parte dice una cifra, las dos se van acercando a pasitos y el acuerdo acaba cayendo en algún punto intermedio. A eso lo llaman regateo posicional.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Roger Fisher y William Ury dirigían el Proyecto de Negociación de Harvard cuando publicaron esto en 1981. Su punto de partida es que casi todo el mundo negocia de una sola manera: cada parte dice una cifra, las dos se acercan poco a poco y el acuerdo cae en algún punto intermedio. Lo llaman regateo posicional.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación es que ese método produce sistemáticamente acuerdos peores de lo posible, y por tres motivos. Cuanto más defiende alguien su posición inicial, más comprometido queda con ella y más le cuesta moverse. El proceso es lento porque avanza a pasitos. Y como cada concesión se siente como una derrota, la relación sale dañada aunque se firme.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que proponen en su lugar tiene cuatro reglas y funciona con una idea detrás: separar lo que cada parte pide de aquello para lo que lo quiere. Una posición es una cifra; un interés es un motivo, y los motivos casi nunca chocan tanto como las cifras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre esas cuatro reglas —los intereses, las opciones, los criterios y las personas—, el concepto que da poder de verdad en una negociación y que casi nadie prepara, el procedimiento con el que se cerró Camp David, y qué le contestó treinta y cinco años después un negociador del FBI.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Deja de discutir cifras y pregunta para qué la quiere el otro: los motivos chocan mucho menos que los números.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Detrás de cada posición hay un interés, y a veces los intereses no chocan",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que ha hecho carrera es de una biblioteca. Dos hombres discuten: uno quiere la ventana abierta y el otro la quiere cerrada. Se pasan un rato regateando cuánto abrirla, medio palmo, un cuarto, y ninguna solución vale. Entonces la bibliotecaria les pregunta a cada uno por qué la quiere así.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno quiere aire fresco. El otro no quiere una corriente. La bibliotecaria va a la sala de al lado y abre una ventana entera: entra aire y no hay corriente. La solución no estaba en ningún punto entre las dos posiciones, estaba fuera de la línea que las unía, y solo aparece al preguntar el motivo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso de verdad que usan es Camp David, en septiembre de 1978. Las posiciones eran incompatibles: Israel quería conservar parte del Sinaí, ocupado desde 1967, y Egipto exigía hasta el último metro. Repartir el territorio no valía para ninguno de los dos y las conversaciones llevaban años bloqueadas ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los intereses eran otros y sí se podían satisfacer los dos. Israel quería seguridad: que no hubiera tanques egipcios pegados a su frontera. Egipto quería soberanía sobre una tierra que había sido suya desde los faraones. El acuerdo devolvió el Sinaí entero a Egipto y lo desmilitarizó en grandes franjas. Las dos partes obtuvieron lo que de verdad querían.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La solución casi nunca está entre las dos posiciones: está fuera de la línea que las une, y solo se ve preguntando por qué.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Tu fuerza en una negociación no es lo que dices: es lo que harás si no hay acuerdo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La aportación más útil del libro es un concepto con nombre propio: la mejor alternativa a un acuerdo negociado, que se abrevia MAAN. Es la respuesta a una pregunta muy concreta: si esta conversación se rompe hoy y no firmo nada, ¿qué hago exactamente mañana? Esa respuesta, y no la habilidad para argumentar, es lo que fija el poder de cada parte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se entiende con un caso corriente. Quien negocia un sueldo teniendo otra oferta escrita en el bolsillo está en una conversación distinta de quien negocia sin nada detrás, aunque los dos digan exactamente las mismas frases y tengan los mismos méritos. La diferencia no está en la mesa, está fuera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí salen las dos consecuencias prácticas del libro. La primera es que el trabajo importante se hace antes: mejorar la alternativa —conseguir esa otra oferta, buscar el segundo proveedor, tener el dinero para aguantar un mes— cambia más el resultado que cualquier técnica de conversación. La segunda es que hay que estimar también la del otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y trae la única regla de decisión que hace falta en una negociación: se acepta un acuerdo si es mejor que tu alternativa, y se rechaza si es peor. No mejor que lo que pedías al principio, ni mejor que lo que ha conseguido otra persona: mejor que lo que te queda si te levantas de la mesa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de negociar nada, contesta qué harás exactamente si no hay acuerdo: ahí está todo tu poder.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Inventar y decidir son dos operaciones distintas y hacerlas a la vez estropea las dos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fisher y Ury sostienen que la mayoría de las negociaciones producen una única propuesta sobre la mesa, y que eso es un fallo de método. La razón es que en cuanto alguien dice una idea, la otra parte la evalúa, y evaluar mata la producción de ideas antes de que existan tres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su propuesta es separar las dos operaciones también en el tiempo: una sesión donde solo se proponen posibilidades, sin comprometerse a ninguna y sin criticar ninguna, y otra distinta donde se eligen. Recomiendan decirlo en voz alta al empezar, porque nadie propone nada arriesgado si teme que se lo apunten como oferta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y proponen un procedimiento para los desacuerdos que no se resuelven de ninguna manera: acordar el método de reparto en vez del reparto en sí. El ejemplo clásico es el de partir una tarta entre dos personas, donde uno corta y el otro elige el trozo primero. Nadie tiene que fiarse de nadie, nadie tiene que ser generoso, y el resultado sale justo por construcción y sin que haga falta discutirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y proponen un truco para los desacuerdos que no se resuelven: acordar el procedimiento en vez del reparto. El ejemplo clásico es el de partir una tarta entre dos, donde uno corta y el otro elige trozo. Nadie tiene que confiar en nadie, y el resultado es justo por construcción.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Di en voz alta que estáis proponiendo y no decidiendo: nadie sugiere nada arriesgado si teme que se lo apunten.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Contra la testarudez no sirve tener razón: sirve un criterio que no sea de ninguno de los dos",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cuarta regla es la que salva las conversaciones que se atascan en un pulso de voluntades. Consiste en dejar de discutir quién tiene razón y buscar un criterio externo con el que cualquiera llegaría al mismo número: el precio de mercado, un peritaje, lo que se pagó en un caso parecido, una tarifa publicada, una ley.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cambio que produce es de gramática de la conversación. En vez de «yo quiero doce mil y tú ofreces ocho», se pasa a «qué criterio usamos y qué sale de aplicarlo». Ceder ante un argumento no humilla a nadie, mientras que ceder ante la insistencia del otro sí, y por eso lo primero se puede hacer y lo segundo se resiste durante horas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo doméstico es el del coche siniestrado y la aseguradora. Discutir la indemnización a base de cifras no lleva a ningún sitio; preguntar qué criterio ha usado el perito, y traer a la mesa el precio real de tres coches iguales anunciados esa semana, mueve la conversación entera de sitio en cinco minutos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y trae una condición que Fisher y Ury subrayan: el criterio se acuerda antes de aplicarlo, no después de ver el resultado. Quien propone un criterio y luego lo desecha porque le salió mal el número ha convertido el método en otra forma de regateo, y la otra parte lo nota inmediatamente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ceder ante un criterio no humilla a nadie; ceder ante la insistencia del otro, sí, y por eso nadie lo hace.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cuando el otro juega sucio, la contramedida es decir en voz alta lo que está haciendo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre tácticas turbias parte de una observación práctica: casi todas funcionan porque no se nombran. El policía bueno y el policía malo, la cifra inicial absurda para mover el punto medio, las exigencias que crecen cada vez que cediste algo, la sala incómoda, el ataque personal, la autoridad que aparece al final y hay que consultar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La contramedida que proponen es la misma para todas y no es agresiva: describir el procedimiento en voz alta y sin acusar. Decir que se ha notado que cada vez que se acepta algo aparece una condición nueva, y preguntar si van a seguir así, desactiva la táctica porque la táctica dependía de que nadie la mencionara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás hay una distinción útil: se puede ser duro con el problema y suave con la persona a la vez, y de hecho es la única combinación que funciona a largo plazo. Ser duro con las dos cosas rompe la relación; ser suave con las dos produce acuerdos malos que después se incumplen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Llaman a su técnica principal jiu-jitsu de la negociación, y consiste en no empujar de vuelta. Cuando el otro ataca una posición propia, en vez de defenderla se le pide que la critique más; cuando ataca a la persona, se recoge el golpe y se devuelve convertido en pregunta sobre el problema. No hay nada contra lo que empujar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todas las tácticas sucias dependen de que no las nombres: descríbela en voz alta y sin acusar, y se cae sola.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El procedimiento del texto único evita que nadie tenga que retirar una propuesta",
+      },
+      {
+        b: "texto",
+        texto:
+          "La técnica más ingeniosa del libro se usó de verdad en Camp David y casi nadie la conoce. En vez de que cada parte presente un borrador y lo defienda, alguien redacta un solo documento y no pide a nadie que lo acepte: pide únicamente críticas. Luego lo reescribe con lo que ha oído y vuelve a pasarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que resuelve ese procedimiento es un problema de imagen que bloquea muchísimos acuerdos y que casi nunca se nombra. Retirar una propuesta propia es perder en público, delante del otro y delante de los suyos; criticar el documento de un tercero no compromete a nada y no cuesta nada. Al no haber propuestas de ninguna de las dos partes, nadie tiene nada que retirar y nadie queda mal ante nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y funciona exactamente igual a escala pequeña. Un equipo que lleva tres semanas discutiendo sobre un plan avanza más en dos días si una sola persona escribe un documento y los demás solo pueden señalar lo que no funciona, porque desaparece de golpe la parte de la discusión que consistía en defender la autoría de cada idea en lugar de la idea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Funciona en cualquier escala. Un equipo que discute durante semanas sobre un plan avanza más si una persona escribe un documento y los demás solo pueden señalar fallos, porque desaparece la parte de la discusión que consistía en defender la autoría de cada idea.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que una sola persona redacte y los demás solo critiquen: criticar un texto ajeno no obliga a nadie a retirar nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Es de 1981 y sigue siendo el mejor sitio por donde empezar. Se lleva uno cuatro cosas: preguntar para qué quiere el otro lo que pide, preparar la alternativa antes que los argumentos, buscar un criterio externo cuando la cosa se atasca, y el procedimiento del texto único. La MAAN entró en el vocabulario del oficio y no ha salido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en de quién habla. El método supone dos partes que quieren un acuerdo, que razonan y que van a seguir tratándose. Contra alguien a quien le importa más que tú pierdas que ganar él, o que tiene tanto poder que no necesita cerrar nada, el libro tiene poco que decir. La edición de 1991 añadió un capítulo de preguntas que lo reconoce a medias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y tiene enfrente una refutación que viene de dentro del oficio. Chris Voss, negociador de secuestros del FBI, sostuvo en 2016 que en una negociación real no hay alternativa que preparar ni ganancia mutua que inventar, y que las personas no deciden razonando: el método de Harvard, según él, produce muchas veces un sí falso, dicho para acabar la conversación. Su alternativa es trabajar la emoción antes que el argumento, y está en este catálogo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después le dio la razón en tamaño: más de quince millones de ejemplares, y el método se convirtió en asignatura en las facultades de derecho y de empresa. Ury publicó en 1991 «Supere el no», dedicado precisamente a la parte que faltaba, la del interlocutor difícil. Roger Fisher murió en 2012, con el proyecto convertido en un programa universitario que sigue funcionando.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Da el mejor método que existe para quien quiere un acuerdo, y casi nada para quien tiene enfrente a alguien que no.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "obtenga-el-si": OBTENGA_EL_SI,
   "quien-queso": QUIEN_QUESO,
   "dopamina-lieberman": DOPAMINA_LIEBERMAN,
   "segundo-cerebro": SEGUNDO_CEREBRO,

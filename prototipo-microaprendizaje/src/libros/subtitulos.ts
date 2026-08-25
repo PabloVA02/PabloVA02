@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "obtenga-el-si": "Cómo negociar sin ceder",
   "quien-queso": "Cómo adaptarnos a un mundo en constante cambio",
   "dopamina-lieberman": "Cómo una molécula condiciona de quién nos enamoramos y qué nos depara el futuro",
   "segundo-cerebro": "Un método probado para organizar tu vida digital",

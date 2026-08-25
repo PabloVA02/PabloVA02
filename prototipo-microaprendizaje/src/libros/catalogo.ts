@@ -299,7 +299,7 @@ export const CATALOGO: Ficha[] = [
   { id: "mujeres-lobos", titulo: "Mujeres que corren con los lobos", autor: "Clarissa Pinkola Estés", ano: 1992, categoria: "Psicología", estado: "pendiente" },
   { id: "cuatro-mil-semanas", titulo: "Cuatro mil semanas", autor: "Oliver Burkeman", ano: 2021, categoria: "Psicología", estado: "escrito" },
   { id: "rompe-barrera-no", titulo: "Rompe la barrera del no", autor: "Chris Voss", ano: 2016, categoria: "Psicología", estado: "escrito" },
-  { id: "obtenga-el-si", titulo: "Obtenga el sí", autor: "Fisher y Ury", ano: 1981, categoria: "Psicología", estado: "pendiente" },
+  { id: "obtenga-el-si", titulo: "Obtenga el sí", autor: "Fisher y Ury", ano: 1981, categoria: "Psicología", estado: "escrito" },
   { id: "determinacion", titulo: "Determinación", autor: "Angela Duckworth", ano: 2016, categoria: "Psicología", estado: "escrito" },
   { id: "poder-5-segundos", titulo: "El poder de los 5 segundos", autor: "Mel Robbins", ano: 2017, categoria: "Psicología", estado: "pendiente" },
   { id: "organizate-eficacia", titulo: "Organízate con eficacia", autor: "David Allen", ano: 2001, categoria: "Psicología", estado: "pendiente" },

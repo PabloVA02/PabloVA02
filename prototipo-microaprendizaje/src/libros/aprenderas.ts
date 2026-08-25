@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "obtenga-el-si":
+    "En Camp David, en 1978, las posiciones eran incompatibles y los intereses no: Israel quería seguridad y Egipto soberanía. Fisher y Ury sacaron de casos así un método de cuatro reglas que se enseña desde entonces en medio mundo.",
+
   "quien-queso":
     "Noventa páginas con letra grande que han vendido más de treinta millones de ejemplares, buena parte comprados por empresas a granel para repartirlos entre sus plantillas. Cuenta una fábula con dos ratones y dos personitas en un laberinto.",
 

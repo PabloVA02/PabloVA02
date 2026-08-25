@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "obtenga-el-si": [
+    "por qué preguntar para qué lo quiere el otro desbloquea la conversación",
+    "dónde está tu poder real cuando negocias algo",
+    "por qué proponer y decidir a la vez estropea las dos cosas",
+    "qué hacer cuando la discusión se convierte en un pulso",
+    "cómo desactivar una táctica sucia sin acusar a nadie",
+  ],
+
   "quien-queso": [
     "por qué comprobar a menudo sale mucho más barato que enterarse tarde",
     "qué compara tu cabeza cuando calcula el miedo a moverte",
