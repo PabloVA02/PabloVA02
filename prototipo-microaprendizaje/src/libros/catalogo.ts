@@ -316,7 +316,7 @@ export const CATALOGO: Ficha[] = [
   { id: "dar-y-recibir", titulo: "Dar y recibir", autor: "Adam Grant", ano: 2013, categoria: "Psicología", estado: "escrito" },
   { id: "originales", titulo: "Originales", autor: "Adam Grant", ano: 2016, categoria: "Psicología", estado: "escrito" },
   { id: "piensalo-otra-vez", titulo: "Piénsalo otra vez", autor: "Adam Grant", ano: 2021, categoria: "Psicología", estado: "escrito" },
-  { id: "maestria-greene", titulo: "Maestría", autor: "Robert Greene", ano: 2012, categoria: "Psicología", estado: "pendiente" },
+  { id: "maestria-greene", titulo: "Maestría", autor: "Robert Greene", ano: 2012, categoria: "Psicología", estado: "escrito" },
   { id: "leyes-naturaleza-humana", titulo: "Las leyes de la naturaleza humana", autor: "Robert Greene", ano: 2018, categoria: "Psicología", estado: "escrito" },
   { id: "pre-suasion", titulo: "Pre-suasión", autor: "Robert Cialdini", ano: 2016, categoria: "Psicología", estado: "escrito" },
   { id: "lenguaje-del-cuerpo", titulo: "El lenguaje del cuerpo", autor: "Allan y Barbara Pease", ano: 2004, categoria: "Psicología", estado: "escrito" },

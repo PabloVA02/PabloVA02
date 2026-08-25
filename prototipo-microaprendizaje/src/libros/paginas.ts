@@ -77871,7 +77871,296 @@ const PRE_SUASION: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Maestría, en ocho páginas.
+
+   Breve. Libro práctico → afirmación entera en el rótulo y SEGUNDA PERSONA
+   en la caja (apartado 4.7).
+
+   Es el cuarto Greene del catálogo. Los otros tres —48 leyes, El arte de la
+   seducción y Las leyes de la naturaleza humana— van sobre tratar con los
+   demás; este va sobre un oficio, y el resumen tiene que decir esa
+   diferencia.
+
+   Riesgo principal: el retrato heroico. Greene demuestra con biografías
+   elegidas después de la tesis, y aquí eso pesa más que nunca porque todos
+   sus ejemplos son gente que llegó. Lo que salva el resumen son las cifras:
+   los cinco a diez años del aprendizaje, las diez mil horas y su corrección,
+   y lo que le pasó a Faraday con Davy.
+
+   Y la conclusión dice lo que el libro no mira: quién puede permitirse un
+   aprendizaje mal pagado de cinco años.
+   -------------------------------------------------------------------------- */
+
+const MAESTRIA_GREENE: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La maestría no es un don: es lo que queda después de un tramo largo y mal pagado",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robert Greene publicó esto en 2012 y es el más útil y el menos leído de sus libros. Los otros van sobre cómo tratar con la gente; este va sobre cómo se llega a ser muy bueno en algo, y su afirmación de partida es que ese proceso tiene una forma reconocible que se repite en oficios que no se parecen en nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La divide en tres etapas. Un aprendizaje largo en el que se obedece y se observa, una fase creativa en la que se empieza a hacer cosas propias, y una tercera en la que el oficio se ejecuta sin pensarlo. Su afirmación incómoda es que casi todo el mundo intenta saltarse la primera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da una duración: entre cinco y diez años de trabajo dedicado antes de que empiece lo interesante. No son diez años de estar en un sector, que eso lo tiene cualquiera; son años de estar aprendiendo a propósito, que es una cosa distinta y bastante más rara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre para qué sirve de verdad un primer trabajo, la corrección que hay que hacerle a la cifra famosa de las diez mil horas, qué es una inclinación y cómo se busca, qué le pasa a quien encuentra un buen maestro, por qué la fase creativa llega después y no antes, y para quién está escrito todo esto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Diez años en un sector los tiene cualquiera; diez años aprendiendo a propósito son una cosa distinta y bastante más rara.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El primer trabajo no se elige por el sueldo: se elige por lo que se aprende en él",
+      },
+      {
+        b: "texto",
+        texto:
+          "La recomendación más concreta del libro es sobre los primeros años de una carrera, y va contra lo que hace todo el mundo. Greene sostiene que en esa etapa el criterio para elegir un puesto no es lo que paga ni el nombre de la empresa, sino cuánto se aprende dentro y con quién se aprende.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su razonamiento es de contabilidad a largo plazo. La diferencia de sueldo entre dos primeros empleos se cuenta en unos cientos al mes durante unos años; la diferencia entre aprender un oficio de verdad y aprender a rellenar informes se cuenta en toda una carrera. Optimizar el primer número es el error caro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale una manera de mirar un puesto que se puede aplicar en una entrevista: preguntar quién va a corregir el trabajo de uno, cada cuánto, y qué hace esa persona. Un sitio donde nadie mira lo que haces paga igual y no enseña nada, y desde dentro cuesta años notarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade un aviso sobre el reconocimiento, que es la trampa de esos años. Quien busca destacar pronto acaba eligiendo las tareas en las que ya es bueno, porque son las que salen bien; quien busca aprender elige las que le salen mal, que es donde está el aprendizaje y donde no hay ningún aplauso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En una entrevista pregunta quién va a corregir tu trabajo y cada cuánto: un sitio donde nadie lo mira no enseña nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La cifra de las diez mil horas es cierta a medias y engaña en la mitad que importa",
+      },
+      {
+        b: "texto",
+        texto:
+          "Greene maneja la cifra que popularizó Malcolm Gladwell a partir del trabajo de Anders Ericsson: unas diez mil horas de práctica para llegar al nivel más alto en un campo competitivo. Conviene decir en qué se equivoca esa cifra, porque el error está en lo que la gente entiende de ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El propio Ericsson salió a corregirlo varias veces. Diez mil no era un umbral ni un requisito: era el promedio de los mejores violinistas de una academia concreta a los veinte años, con una variación enorme entre unos y otros. Y sobre todo, no era práctica a secas: era práctica deliberada, que es una cosa muy específica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Práctica deliberada significa trabajar justo en el punto donde uno falla, con un objetivo concreto para esa sesión, con corrección inmediata de alguien que sepa, y repitiendo lo que sale mal. Casi nada de lo que la gente llama practicar es eso: lo habitual es repetir lo que ya sale, que es agradable y no mejora nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es la que hay que retener: veinte años haciendo algo no producen maestría por sí solos, y hay muchísima gente con treinta años de oficio y el nivel del quinto. Lo que produce mejora no son las horas, son las horas incómodas, y esas hay que buscarlas a propósito porque nunca aparecen solas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que mejora no son las horas: son las horas incómodas, y esas no aparecen solas nunca, hay que ir a buscarlas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La inclinación se busca hacia atrás, en lo que uno hacía antes de que le importara nada",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con algo que suena a manual de autoayuda y que Greene aterriza mejor de lo que parece. Sostiene que casi todo el mundo tuvo de niño una atracción muy concreta por algo, anterior a cualquier cálculo sobre el futuro, y que esa atracción es la mejor pista disponible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo importante es cómo dice que se busca: hacia atrás y en lo concreto. No preguntándose qué le apasiona a uno, que es una pregunta que nadie sabe contestar, sino recordando qué hacía a los ocho o diez años cuando nadie le miraba y no había que rendir cuentas de nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y precisa que la pista no suele ser una profesión, sino una operación. No «me gustaban los animales», sino «me pasaba las tardes clasificando cosas». No «me gustaba leer», sino «me gustaba explicarle a alguien lo que había leído». La operación se puede reconocer en oficios que de niño no existían.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene poner el límite que el libro no pone. Esa pista existe en muchas personas y no en todas, y quien no la encuentre no está fallando en nada: hay gente que se enamora de un oficio a los treinta y cinco, por accidente, y llega igual de lejos. El libro presenta la inclinación temprana como una regla y es una frecuencia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No busques una profesión en tu infancia: busca una operación, algo que hacías con las manos o con la cabeza sin que nadie te viera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un buen maestro acorta años, y el mejor acaba estorbando" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre maestros tiene la historia mejor contada del libro. Michael Faraday era hijo de un herrero, trabajaba de aprendiz en una encuadernación de Londres y leía los libros que encuadernaba. Consiguió entradas para las conferencias del químico Humphry Davy, tomó apuntes, los pasó a limpio, los encuadernó él mismo y se los envió pidiendo trabajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Davy le contrató como ayudante de laboratorio, y aquello le dio a Faraday lo que ninguna otra vía le habría dado: acceso a un laboratorio, corrección diaria de alguien excelente y años de trabajo sobre problemas de verdad. Sin eso, un aprendiz de encuadernador no habría llegado a ninguna parte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y luego llegó la otra mitad. Cuando Faraday empezó a publicar descubrimientos propios y a hacerse conocido, Davy le acusó de plagio, le apartó de trabajos importantes y votó en contra de su ingreso en la Royal Society. El maestro que le hizo posible fue después el principal obstáculo de su carrera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Greene saca de ahí la regla que da al capítulo su valor: un maestro sirve para una etapa y no para toda una vida, y quien no se marcha a tiempo se queda haciendo una versión de la obra de otro. La relación termina siempre, y termina mejor si la termina el aprendiz.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un maestro sirve para una etapa: quien no se va a tiempo acaba haciendo una versión menor de la obra de otro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La fase creativa llega después de dominar las reglas, y no hay atajo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda etapa del esquema es la que todo el mundo quiere empezar por el principio. Greene sostiene que la originalidad no es un punto de partida sino un producto tardío: hasta que las operaciones del oficio no se ejecutan sin pensar, la cabeza está ocupada en no equivocarse y no le queda sitio para nada más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es de capacidad. Quien todavía tiene que pensar cada paso está gastando toda su atención en la ejecución, y las combinaciones nuevas solo aparecen cuando la ejecución se ha automatizado y sobra atención. Por eso los saltos suelen llegar a los diez o quince años y no a los dos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y describe una trampa concreta de esa etapa: el momento en que uno ya es competente y podría vivir de eso indefinidamente. Es cómodo, está bien pagado y no exige nada nuevo, y muchísima gente se queda ahí sin decidirlo, simplemente porque no hay ningún acontecimiento que obligue a salir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que propone contra eso es buscarse problemas a propósito: encargos por encima del propio nivel, campos vecinos que obliguen a aprender de cero, trabajos donde uno sea otra vez el que menos sabe. Es incómodo por definición, y ese malestar es la señal de que se ha vuelto a entrar en la fase que enseña.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo nuevo aparece cuando la ejecución ya no ocupa tu atención, y eso llega a los diez años y no a los dos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que Greene llama intuición es memoria acumulada, y por eso no se puede tener joven",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera etapa del libro es la más difícil de describir y Greene la resuelve mejor de lo esperable. Habla de personas que ven la solución de un problema antes de poder explicar por qué, y que aciertan más que quien razona el asunto entero con calma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación no tiene nada de místico: esa intuición es reconocimiento de patrones acumulados durante años. Quien ha visto diez mil partidas, diez mil pacientes o diez mil hojas de balance reconoce una configuración que ya ha visto, y el reconocimiento llega antes que la capacidad de explicarlo, que es más lenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale una consecuencia que ordena el libro entero: la intuición de un experto vale mucho y la de un principiante no vale nada, y las dos se sienten exactamente igual desde dentro. Fiarse del instinto propio es buena idea solo después de haber acumulado el material del que ese instinto está hecho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una condición que se sabe por otras investigaciones y que conviene añadir: esa intuición solo se forma bien en terrenos donde las reglas se repiten y la corrección llega pronto. Un ajedrecista la desarrolla; alguien que predice la bolsa o la política, no, por muchos años que lleve, porque nunca sabe con claridad en qué se equivocó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La intuición de un experto y la de un novato se sienten igual por dentro, y solo una de las dos vale algo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro cosas. Elegir los primeros trabajos por lo que enseñan y no por lo que pagan, preguntando quién va a corregir el trabajo. Buscar las horas incómodas, porque las cómodas no mejoran nada. Buscar la inclinación hacia atrás y en forma de operación concreta. Y saber que la intuición propia vale según el material acumulado, y que se siente igual esté vacía o llena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en cómo demuestra, que es el defecto de siempre de este autor. Argumenta con biografías —Faraday, Darwin, Leonardo, Coltrane, Temple Grandin— elegidas después de tener la tesis y contadas en la versión que encaja, y todas son de gente que llegó. No aparece nadie que hiciera exactamente esto durante quince años y se quedara a mitad, que es lo que le pasa a la mayoría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en lo que no mira, que aquí es lo más importante. Todo el libro descansa sobre un aprendizaje de cinco a diez años mal pagado o directamente no pagado, y no dedica una línea a quién puede permitírselo. Faraday necesitó que alguien le contratara; quien tiene que mantener a una familia a los veinticuatro años no puede aceptar el puesto que enseña y paga menos, y ese lector no existe en estas páginas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después es que Greene publicó en 2018 «Las leyes de la naturaleza humana», que está en este catálogo y que es el único de sus libros que empieza examinando al lector en vez de a los demás. Este siguió siendo el menos leído de los suyos, probablemente porque es el único que no promete un atajo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Es el único de sus libros que no promete ningún atajo, y probablemente por eso es el menos leído de todos.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "maestria-greene": MAESTRIA_GREENE,
   "pre-suasion": PRE_SUASION,
   siddhartha: SIDDHARTHA,
   originales: ORIGINALES,

@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "maestria-greene": [
+    "por qué el primer trabajo se elige por lo que enseña",
+    "qué corrigieron los propios investigadores de las diez mil horas",
+    "cómo se busca hacia atrás la inclinación que ya tenías de niño",
+    "en qué momento deja de convenir obedecer al maestro",
+    "a quién no le sirve este libro por mucho que quiera",
+  ],
+
   "pre-suasion": [
     "por qué tu explicación de una compra puede ser sincera y falsa",
     "cómo el orden de una conversación decide en qué términos se evalúa",

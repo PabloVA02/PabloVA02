@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "maestria-greene": "Las claves del éxito, el sentido de la excelencia",
   "pre-suasion": "Un método revolucionario para influir y persuadir",
   originales: "Cómo los inconformistas mueven el mundo",
   "mujeres-aman-demasiado": "Cuando sigues deseando y esperando que él cambie",

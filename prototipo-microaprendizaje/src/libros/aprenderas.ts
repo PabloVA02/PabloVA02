@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "maestria-greene":
+    "Faraday entró a los veintiuno de ayudante de laboratorio, fregando cristal para Humphry Davy. Greene sostiene que la maestría no es un don repartido al nacer, sino lo que queda después de años de aprendizaje mal pagado.",
+
   "pre-suasion":
     "En un supermercado británico, la música francesa o alemana del pasillo cambió qué vino se vendía, y los compradores ni recordaban que hubiera música. Cialdini sostiene que la receptividad se decide antes de que llegue el mensaje.",
 
