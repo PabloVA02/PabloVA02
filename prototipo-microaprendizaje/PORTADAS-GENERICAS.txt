@@ -1,11 +1,11 @@
 PORTADAS QUE FALTAN — solo libros que ya se leen y salen con portada genérica
-61 de 277 escritos. Las otras 216 ya son tuyas.
+74 de 290 escritos. Las otras 216 ya son tuyas.
 
 CÓMO: PNG 1024 × 1536. El nombre del fichero es el id, tal cual, con .png.
       Ejemplo: 48-leyes-poder.png
 
 
-PSICOLOGÍA — 32
+PSICOLOGÍA — 40
 ────────────────────────────────────────────────────────────
 
 cosas-buenas.png
@@ -36,6 +36,10 @@ tus-zonas-erroneas.png
    Tus zonas erróneas
    Wayne Dyer, 1976
 
+mujeres-lobos.png
+   Mujeres que corren con los lobos
+   Clarissa Pinkola Estés, 1992
+
 cuatro-mil-semanas.png
    Cuatro mil semanas
    Oliver Burkeman, 2021
@@ -56,9 +60,25 @@ poder-5-segundos.png
    El poder de los 5 segundos
    Mel Robbins, 2017
 
+organizate-eficacia.png
+   Organízate con eficacia
+   David Allen, 2001
+
+traguese-sapo.png
+   Tráguese ese sapo
+   Brian Tracy, 2001
+
+ideas-que-pegan.png
+   Ideas que pegan
+   Chip y Dan Heath, 2007
+
 magia-pensar-grande.png
    La magia de pensar en grande
    David Schwartz, 1959
+
+despertando-gigante.png
+   Despertando al gigante interior
+   Tony Robbins, 1991
 
 dar-y-recibir.png
    Dar y recibir
@@ -88,6 +108,10 @@ lenguaje-del-cuerpo.png
    El lenguaje del cuerpo
    Allan y Barbara Pease, 2004
 
+arte-no-amargarse.png
+   El arte de no amargarse la vida
+   Rafael Santandreu, 2011
+
 nunca-comas-solo.png
    Nunca comas solo
    Keith Ferrazzi, 2005
@@ -95,6 +119,10 @@ nunca-comas-solo.png
 poder-introvertidos.png
    El poder de los introvertidos
    Susan Cain, 2012
+
+adulto-relaciones.png
+   Cómo ser un adulto en las relaciones
+   David Richo, 2002
 
 dopamina-lieberman.png
    Dopamina
@@ -132,12 +160,16 @@ obstaculo-es-camino.png
    El obstáculo es el camino
    Ryan Holiday, 2014
 
+ego-es-el-enemigo.png
+   El ego es el enemigo
+   Ryan Holiday, 2016
+
 cinco-arrepentimientos.png
    Los cinco arrepentimientos de los moribundos
    Bronnie Ware, 2011
 
 
-ECONOMÍA — 6
+ECONOMÍA — 8
 ────────────────────────────────────────────────────────────
 
 elon-musk.png
@@ -155,6 +187,14 @@ empieza-porque.png
 millonario-automatico.png
    El millonario automático
    David Bach, 2004
+
+oceano-azul.png
+   La estrategia del océano azul
+   Kim y Mauborgne, 2005
+
+bolsa-o-vida.png
+   La bolsa o la vida
+   Robin y Dominguez, 1992
 
 ensenare-ser-rico.png
    Te enseñaré a ser rico
@@ -189,7 +229,7 @@ malcolm-x.png
    Yuval Noah Harari, 2018
 
 
-LITERATURA — 5
+LITERATURA — 8
 ────────────────────────────────────────────────────────────
 
 casa-espiritus.png
@@ -204,6 +244,10 @@ senor-anillos.png
    El señor de los anillos
    J. R. R. Tolkien, 1954
 
+codigo-da-vinci.png
+   El código Da Vinci
+   Dan Brown, 2003
+
 cumbres-borrascosas.png
    Cumbres borrascosas
    Emily Brontë, 1847
@@ -211,6 +255,14 @@ cumbres-borrascosas.png
 siddhartha.png
    Siddhartha
    Hermann Hesse, 1922
+
+come-reza-ama.png
+   Come, reza, ama
+   Elizabeth Gilbert, 2006
+
+perfume.png
+   El perfume
+   Patrick Süskind, 1985
 
 
 SALUD — 5
