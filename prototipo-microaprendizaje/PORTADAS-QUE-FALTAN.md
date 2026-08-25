@@ -1,16 +1,23 @@
-# Portadas que faltan
+# Portadas que faltan — TODAS
 
 Al 2026-08-25: **418 libros** en el catálogo, **135 con cubierta**, **283 sin ella**.
 
-El fichero de cada una se llama como el id, en PNG a 1024 × 1536.
+## Cómo tiene que ser
 
-**Y lleva mensaje.** Una portada con solo el título y el autor no vale: hace falta
-una frase corta debajo —de cuatro a nueve palabras— que prometa algo. Es lo del
-apartado 5 bis de `REDACCION.md`. El 25 de agosto se retiraron 81 portadas por
-no tenerla, y están en `cubiertas-originales/reemplazadas/` por si hicieran falta.
+- Fichero PNG a **1024 × 1536**, y el nombre del fichero es **el id exacto** de la tabla.
+- **Título, autor y MENSAJE.** Una portada con solo el título y el autor no vale.
+  El mensaje son cuatro a nueve palabras que prometan algo, como en Headway:
+  «Un mundo donde hasta los pensamientos son vigilados», «Cambios pequeños,
+  resultados extraordinarios», «Amar es una práctica, no un accidente».
+  Apartado 5 bis de `REDACCION.md`.
+
+El 25 de agosto se retiraron 81 portadas por no llevar mensaje. Están guardadas
+en `cubiertas-originales/reemplazadas/` y vuelven a aparecer en estas listas.
 
 
-# PRIMERO ESTAS: 135 libros que ya se pueden leer y salen sin portada
+# BLOQUE 1 — 138 libros que YA SE PUEDEN LEER y salen sin portada
+
+Son los que más se notan: alguien los abre hoy y no ve nada.
 
 ## Arte — 11
 
@@ -147,7 +154,7 @@ no tenerla, y están en `cubiertas-originales/reemplazadas/` por si hicieran fal
 | `rayuela` | Rayuela | Julio Cortázar | 1963 |
 | `mundo-feliz` | Un mundo feliz | Aldous Huxley | 1932 |
 
-## Psicología — 29
+## Psicología — 31
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
@@ -164,6 +171,7 @@ no tenerla, y están en `cubiertas-originales/reemplazadas/` por si hicieran fal
 | `cerebro-buda` | El cerebro de Buda | Rick Hanson y Richard Mendius | 2009 |
 | `lenguaje-del-cuerpo` | El lenguaje del cuerpo | Allan y Barbara Pease | 2004 |
 | `obstaculo-es-camino` | El obstáculo es el camino | Ryan Holiday | 2014 |
+| `poder-de-la-presencia` | El poder de la presencia | Amy Cuddy | 2015 |
 | `poder-5-segundos` | El poder de los 5 segundos | Mel Robbins | 2017 |
 | `poder-introvertidos` | El poder de los introvertidos | Susan Cain | 2012 |
 | `secreto-byrne` | El secreto | Rhonda Byrne | 2006 |
@@ -174,6 +182,7 @@ no tenerla, y están en `cubiertas-originales/reemplazadas/` por si hicieran fal
 | `leyes-naturaleza-humana` | Las leyes de la naturaleza humana | Robert Greene | 2018 |
 | `cinco-arrepentimientos` | Los cinco arrepentimientos de los moribundos | Bronnie Ware | 2011 |
 | `hombres-marte-mujeres-venus` | Los hombres son de Marte, las mujeres son de Venus | John Gray | 1992 |
+| `mujeres-aman-demasiado` | Mujeres que aman demasiado | Robin Norwood | 1985 |
 | `nunca-comas-solo` | Nunca comas solo | Keith Ferrazzi | 2005 |
 | `obtenga-el-si` | Obtenga el sí | Fisher y Ury | 1981 |
 | `piensalo-otra-vez` | Piénsalo otra vez | Adam Grant | 2021 |
@@ -181,7 +190,7 @@ no tenerla, y están en `cubiertas-originales/reemplazadas/` por si hicieran fal
 | `gottman-pareja` | Siete reglas de oro para vivir en pareja | John Gottman | 1999 |
 | `tus-zonas-erroneas` | Tus zonas erróneas | Wayne Dyer | 1976 |
 
-## Salud — 6
+## Salud — 7
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
@@ -190,10 +199,11 @@ no tenerla, y están en `cubiertas-originales/reemplazadas/` por si hicieran fal
 | `metodo-wim-hof` | El método Wim Hof | Wim Hof | 2020 |
 | `poder-metabolismo` | El poder del metabolismo | Frank Suárez | 2006 |
 | `magia-orden` | La magia del orden | Marie Kondo | 2011 |
+| `revolucion-glucosa` | La revolución de la glucosa | Jessie Inchauspé | 2022 |
 | `tal-como-eres` | Tal como eres | Emily Nagoski | 2015 |
 
 
-# DESPUÉS: 148 que todavía no tienen texto
+# BLOQUE 2 — 145 que todavía no tienen texto escrito
 
 ## Arte — 7
 
@@ -316,7 +326,7 @@ no tenerla, y están en `cubiertas-originales/reemplazadas/` por si hicieran fal
 | `veinte-poemas` | Veinte poemas de amor y una canción desesperada | Pablo Neruda | 1924 |
 | `vivir-para-contarla` | Vivir para contarla | Gabriel García Márquez | 2002 |
 
-## Psicología — 45
+## Psicología — 43
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
@@ -331,7 +341,6 @@ no tenerla, y están en `cubiertas-originales/reemplazadas/` por si hicieran fal
 | `arte-no-amargarse` | El arte de no amargarse la vida | Rafael Santandreu | 2011 |
 | `ego-es-el-enemigo` | El ego es el enemigo | Ryan Holiday | 2016 |
 | `placebo-eres-tu` | El placebo eres tú | Joe Dispenza | 2014 |
-| `poder-de-la-presencia` | El poder de la presencia | Amy Cuddy | 2015 |
 | `poder-magico-voluntad` | El poder mágico de la voluntad | Claude M. Bristol | 1948 |
 | `vendedor-mas-grande` | El vendedor más grande del mundo | Og Mandino | 1968 |
 | `enamorate-de-ti` | Enamórate de ti | Walter Riso | 2012 |
@@ -350,7 +359,6 @@ no tenerla, y están en `cubiertas-originales/reemplazadas/` por si hicieran fal
 | `cinco-heridas` | Las cinco heridas que impiden ser uno mismo | Lise Bourbeau | 2000 |
 | `maestria-greene` | Maestría | Robert Greene | 2012 |
 | `modelos-manson` | Modelos | Mark Manson | 2011 |
-| `mujeres-aman-demasiado` | Mujeres que aman demasiado | Robin Norwood | 1985 |
 | `mujeres-lobos` | Mujeres que corren con los lobos | Clarissa Pinkola Estés | 1992 |
 | `no-lo-pienses-demasiado` | No lo pienses demasiado | Anne Bogel | 2020 |
 | `organizate-eficacia` | Organízate con eficacia | David Allen | 2001 |
@@ -366,7 +374,7 @@ no tenerla, y están en `cubiertas-originales/reemplazadas/` por si hicieran fal
 | `nueva-mirada-infidelidad` | Una nueva mirada a la infidelidad | Esther Perel | 2017 |
 | `usted-puede-sanar` | Usted puede sanar su vida | Louise Hay | 1984 |
 
-## Salud — 12
+## Salud — 11
 
 | id (nombre del fichero) | Título | Autor | Año |
 |---|---|---|---|
@@ -378,7 +386,6 @@ no tenerla, y están en `cubiertas-originales/reemplazadas/` por si hicieran fal
 | `pleno-compromiso` | El poder del pleno compromiso | Jim Loehr y Tony Schwartz | 2003 |
 | `entre-dos-reinos` | Entre dos reinos | Suleika Jaouad | 2021 |
 | `biologia-creencia` | La biología de la creencia | Bruce Lipton | 2005 |
-| `revolucion-glucosa` | La revolución de la glucosa | Jessie Inchauspé | 2022 |
 | `dieta-ya-no-cojea` | Mi dieta ya no cojea | Aitor Sánchez García | 2018 |
 | `mente-en-forma` | Tu mente en forma | Wendy Suzuki | 2015 |
 | `cuerpo-para-vida` | Un cuerpo para toda la vida | Marcos Vázquez | 2019 |
