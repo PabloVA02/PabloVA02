@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "nueva-mirada-infidelidad":
+    "Perel parte de una contradicción a la vista: es difícil encontrar una conducta condenada con tanta unanimidad en todas las culturas y practicada con tanta frecuencia. Y sostiene que condenarla no la ha reducido en ninguna época.",
+
   "jane-eyre":
     "Charlotte Brontë la publicó en 1847 firmando como hombre. Su protagonista es pobre, pequeña y fea —el libro lo repite sin coquetería—, trabaja para vivir y exige de igual a igual a un hombre que le paga el sueldo.",
 

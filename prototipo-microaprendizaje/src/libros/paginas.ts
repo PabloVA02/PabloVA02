@@ -84598,7 +84598,294 @@ const JANE_EYRE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Una nueva mirada a la infidelidad, en ocho paginas.
+
+   Breve. TERCERA PERSONA en la caja, y aqui hay que justificarlo porque 4.7
+   diria segunda: este libro trata de algo que le esta pasando de verdad a
+   alguien mientras lo lee, y una caja en segunda persona o acusa o presupone.
+   Se habla de mecanismos, nunca del lector.
+
+   Seis argumentos: ocurre tambien en matrimonios felices, no se busca a otra
+   persona sino otra version de uno mismo, la crisis empieza con el
+   descubrimiento, las preguntas de detective, lo que le pedimos hoy a una sola
+   persona, y los tres finales de las parejas que se quedan.
+
+   La conclusion tiene que decir dos cosas sin rodeos: que todo el material es
+   su consulta privada de Nueva York, sin datos ni muestra ni manera de
+   comprobar nada; y que el libro apenas toca los casos de control y maltrato,
+   donde la postura de curiosidad que propone es la equivocada.
+   -------------------------------------------------------------------------- */
+
+const NUEVA_MIRADA_INFIDELIDAD: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La infidelidad es de las cosas más condenadas del mundo y de las más practicadas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esther Perel es psicoterapeuta de pareja, nació en Bélgica, ejerce en Nueva York y trabaja en nueve idiomas. Su libro de 2017 empieza señalando una contradicción que está a la vista y de la que casi nadie habla: es difícil encontrar una conducta que se condene con tanta unanimidad y se practique con tanta frecuencia en todas las culturas conocidas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su primera decisión es definir de qué habla, porque cada uno entiende una cosa distinta. Propone tres elementos: el secreto, una carga erótica —aunque no llegue a haber contacto— y algún grado de vínculo emocional. Con esa definición entran conversaciones que muchos no llamarían infidelidad, y esa ampliación es una de las discusiones que abre el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Perel deja claro desde el principio qué no está haciendo, y conviene repetirlo aquí. No justifica nada, no recomienda nada y trata el dolor de quien ha sido engañado como lo que es. Lo que se propone es entender por qué ocurre, porque sostiene que condenarlo no ha reducido su frecuencia en ninguna época ni en ningún sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué también ocurre en parejas que van bien, qué busca de verdad quien lo hace, por qué la crisis empieza el día del descubrimiento y no el del hecho, qué preguntas hacen daño y cuáles sirven, qué le pedimos hoy a una sola persona que antes repartía un pueblo entero, y cómo terminan las parejas que siguen juntas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ninguna sociedad ha reducido la infidelidad condenándola más. La condena es antigua y universal, y la conducta también.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "También ocurre en parejas que van bien, y esa es la afirmación que más molesta del libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación que se da siempre es que una infidelidad es el síntoma de una relación rota: faltaba algo, había frialdad, se habían distanciado. Perel dice que eso explica muchos casos y no todos, y que en su consulta ve con regularidad a personas que engañan a parejas a las que quieren, con las que se llevan bien y a las que no piensan dejar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sostiene que la explicación del síntoma es tan popular porque tranquiliza a todo el mundo. Si la infidelidad solo pasa donde algo falla, entonces quien tiene una buena relación está a salvo, y basta con cuidar la pareja para no correr riesgo. Es una idea reconfortante y, según ella, no se corresponde con lo que ve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Perel señala además el efecto secundario de esa creencia sobre quien ha sido engañado. Si toda infidelidad es un síntoma, entonces la persona traicionada también es responsable de haber creado las condiciones, y eso le añade culpa encima del daño. En su versión, hay casos en los que no había nada que arreglar, y saberlo alivia más de lo que asusta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El precio de la afirmación es que quita la ilusión de control, y por eso incomoda tanto. Si esto puede pasar sin ninguna señal previa, no hay nada que se pueda hacer para blindarse del todo. Perel no lo suaviza: dice que la fidelidad es una elección que se toma muchas veces, y no un estado que se alcanza y queda garantizado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Creer que solo pasa donde algo falla tranquiliza, y de paso le añade culpa a quien ha sido engañado por no haberlo evitado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi nadie busca a otra persona: busca otra versión de sí mismo" },
+      {
+        b: "texto",
+        texto:
+          "La afirmación central del libro es que en muchos casos el objeto del deseo no es el amante sino un yo distinto. Perel dice que sus pacientes describen menos a la otra persona que a cómo se sentían al estar con ella: despiertos, deseados, capaces, jóvenes, interesantes. Lo que echan de menos al terminar no es a alguien, es esa versión de sí mismos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca una observación sobre cuándo ocurre, y es de lo más comprobable que dice. Una parte considerable de los casos que ve empieza después de una muerte, un diagnóstico, un cumpleaños redondo o la marcha de los hijos de casa. Momentos en los que alguien mira hacia atrás y hacia delante a la vez, y le entra el vértigo de las vidas que no ha vivido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con esa lectura, la infidelidad deja de ser solo un asunto de deseo y pasa a ser también un asunto de identidad. Perel habla de ello como de una fuga hacia una versión no vivida de uno mismo, y señala que por eso tantas personas describen la aventura como algo que las hacía sentir vivas y a la vez como algo que no querían que sustituyera a su vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La utilidad práctica de esta idea es indirecta y ella la nombra. Si lo que se busca es una versión propia perdida, entonces la conversación importante en una pareja larga no es solo sobre lo que se hace en la cama, sino sobre qué partes de cada uno se han ido apagando desde que están juntos, que es una pregunta que casi nadie hace.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que muchos echan de menos al terminar una aventura no es a la otra persona: es la versión de sí mismos que aparecía delante de ella.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La crisis no empieza el día del hecho, empieza el día en que se descubre",
+      },
+      {
+        b: "texto",
+        texto:
+          "Perel separa dos acontecimientos que se cuentan como uno. Una cosa es la relación paralela, que puede durar meses o años sin que en la casa cambie nada visible, y otra distinta es su descubrimiento, que suele ser el momento en que estalla todo. Muchas parejas funcionaban razonablemente bien durante el periodo del secreto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El daño que describe en la persona engañada tiene una forma reconocible y no es solo dolor. Es una reescritura del pasado: aquel viaje, aquella cena, aquella semana en que él estaba raro. Todo lo vivido durante ese tiempo pasa a ser sospechoso, y la sensación no es solo de haber perdido a alguien sino de no saber ya qué fue verdad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso Perel insiste en que lo que hay que reconstruir no es solo la confianza sino el relato. La pregunta que atormenta no suele ser cuántas veces, sino si algo de lo que había era real. Y esa pregunta solo la puede contestar la persona que mintió, hablando mucho y durante mucho tiempo, que es exactamente lo que menos ganas tiene de hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade una observación sobre internet que ha envejecido bien. El rastro digital ha cambiado las dos mitades del asunto: ha hecho más fácil empezar algo y casi imposible que no quede huella, y ha puesto al alcance de cualquiera un archivo completo de mensajes que se puede releer mil veces. Antes se sospechaba; ahora se lee.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que más desorienta al descubrir un engaño no es el hecho, sino que el pasado entero pasa a ser dudoso y hay que reescribirlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay preguntas que se hacen para saber y preguntas que se hacen para hacerse daño",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte más práctica del libro trata de las semanas siguientes al descubrimiento, cuando la persona engañada entra en lo que Perel llama la fase de detective. Revisa el móvil, reconstruye fechas, pregunta por hoteles, horas y posturas, y busca todos los detalles físicos posibles con una insistencia que a ella misma le resulta incomprensible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Perel explica por qué ocurre sin ridiculizarlo. Delante de una traición, la cabeza intenta recuperar el control por la única vía que le queda, que es saberlo todo; y como la información nunca es completa, la búsqueda no se acaba nunca. El problema es que esos datos concretos producen imágenes, y las imágenes se quedan y se repiten durante años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su recomendación es cambiar el tipo de pregunta y la formula con claridad. En vez de dónde, cuántas veces y cómo, preguntar qué significaba para ti, cómo te sentías cuando estabas allí, qué tenías miedo de perder, qué te decías a ti mismo al volver a casa. Son preguntas más difíciles de contestar y son las únicas cuyas respuestas sirven para algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da una condición sin la cual nada de lo anterior funciona. Quien ha engañado tiene que estar dispuesto a hablar de ello muchas veces, durante meses, sin quejarse de que ya se ha hablado. Perel dice que la impaciencia por pasar página es la conducta que más veces impide la reconstrucción, y que la prisa siempre la tiene el que hizo el daño.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los detalles concretos de un engaño producen imágenes que se quedan años. Las preguntas que ayudan son las que van al significado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Le pedimos a una sola persona lo que antes repartía una comunidad entera",
+      },
+      {
+        b: "texto",
+        texto:
+          "Perel sitúa todo lo anterior en un cambio histórico que explica bastante. Durante siglos, el matrimonio fue un acuerdo económico y social entre familias, y lo que se esperaba de él era estabilidad, descendencia y reparto del trabajo. El amor romántico se consideraba una mala razón para casarse y en muchos sitios se buscaba fuera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hoy se le pide a una sola persona algo que antes proporcionaba un pueblo entero: que sea el mejor amigo, el amante apasionado, el confidente, el compañero intelectual, el socio económico, el copadre y el apoyo emocional, y que lo sea durante cincuenta años. Perel señala que nunca se había esperado tanto de una relación, y que se rompen más que nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A la vez, la exigencia de exclusividad se ha estrechado. La monogamia antes significaba una persona para toda la vida; ahora se entiende como fidelidad total en todos los planos, incluidos los mensajes, las miradas y la fantasía. Perel observa la paradoja: se pide más apertura y más sinceridad que nunca, y a la vez menos margen que nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su conclusión sobre las expectativas, que es la parte más aplicable a cualquiera aunque no haya pasado por esto. Una sola persona no puede ser todo lo que una vida necesita, y las parejas que aguantan suelen ser las que tienen alrededor amistades, trabajos y aficiones que no dependen del otro. La soledad compartida desgasta más que la distancia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nunca se le había pedido tanto a una sola relación. Las que aguantan suelen ser las que tienen vida propia alrededor.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "De las parejas que siguen juntas después, Perel distingue tres maneras muy distintas de seguir",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica su última parte a las parejas que deciden no separarse, que son más de las que se cree, y las divide en tres grupos según cómo viven los años siguientes. La distinción es lo más útil que ofrece a quien esté en esa situación, porque describe finales posibles en lugar de prometer uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los primeros son los que se quedan atrapados en el acontecimiento. Siguen juntos y siguen en aquel día: la conversación vuelve una y otra vez al mismo sitio, el episodio se usa en cada discusión y el resentimiento se instala como forma de convivencia. Perel dice que muchos aguantan así décadas y que la vida de los dos queda organizada alrededor de aquello.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los segundos reconstruyen. Deciden dejarlo atrás, no hablar más del asunto y rehacer una vida funcional, y en general lo consiguen. Perel es respetuosa con esta salida y señala su límite: suele exigir dejar cerrada también la conversación sobre lo que no funcionaba antes, con lo que la relación vuelve a ser lo que era, incluido lo que la llevó hasta ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los terceros usan la crisis para construir otra cosa. No perdonan más rápido ni sufren menos: cambian los términos, hablan de lo que nunca habían hablado y acaban en una relación distinta de la que tenían antes. Perel dice que son los menos y que son los que le han enseñado más, y no promete en ningún momento que sea alcanzable a voluntad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quedarse no es una sola cosa: se puede vivir atrapado en aquel día, reconstruir lo que había, o acabar en una relación distinta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que este libro aporta y no se lee en otros sitios son cuatro cosas. Que la infidelidad también ocurre donde no falla nada, y que creer lo contrario le añade culpa a quien fue engañado. Que lo que se busca suele ser una versión propia y no otra persona. Que la crisis empieza con el descubrimiento. Y que las preguntas de detective producen imágenes que duran años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en el material. Todo sale de la consulta privada de Perel en Nueva York, con parejas que pueden pagar terapia, en su mayoría heterosexuales y de clase acomodada. No hay muestra, ni cifras, ni forma de saber si lo que describe es general o es lo que llega a su despacho. Las conclusiones tienen el alcance de una experiencia clínica y el tono de una descripción del mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en lo que deja fuera, y es lo mismo que le falta a casi todos los libros de pareja. La postura de curiosidad que propone es valiosa entre dos personas en pie de igualdad, y es exactamente la equivocada donde hay control, humillación sostenida o miedo. Eso ocupa muy pocas líneas en un libro de trescientas páginas dedicado a mirar la traición sin juzgar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una crítica que se le ha hecho desde el principio y que conviene recoger. Al dedicar tanta atención a entender a quien engaña, el libro deja a ratos a la persona engañada en un segundo plano, esperando a que se termine de explicar la aventura del otro. Perel lo niega y trata ese dolor con cuidado; la sensación, sin embargo, la ha tenido bastante gente al leerlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta que este libro deja para cualquier pareja larga es esta: qué partes de cada uno se han ido apagando desde que están juntos.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "nueva-mirada-infidelidad": NUEVA_MIRADA_INFIDELIDAD,
   "jane-eyre": JANE_EYRE,
   "cerebro-hambriento": CEREBRO_HAMBRIENTO,
   "creatividad-sa": CREATIVIDAD_SA,

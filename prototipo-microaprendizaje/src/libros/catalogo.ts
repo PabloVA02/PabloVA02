@@ -291,7 +291,7 @@ export const CATALOGO: Ficha[] = [
   { id: "cerebro-buda", titulo: "El cerebro de Buda", autor: "Rick Hanson y Richard Mendius", ano: 2009, categoria: "Psicología", estado: "escrito" },
 
   { id: "inteligencia-erotica", titulo: "Inteligencia erótica", autor: "Esther Perel", ano: 2006, categoria: "Psicología", estado: "escrito" },
-  { id: "nueva-mirada-infidelidad", titulo: "Una nueva mirada a la infidelidad", autor: "Esther Perel", ano: 2017, categoria: "Psicología", estado: "pendiente" },
+  { id: "nueva-mirada-infidelidad", titulo: "Una nueva mirada a la infidelidad", autor: "Esther Perel", ano: 2017, categoria: "Psicología", estado: "escrito" },
   { id: "gottman-pareja", titulo: "Siete reglas de oro para vivir en pareja", autor: "John Gottman", ano: 1999, categoria: "Psicología", estado: "escrito" },
   { id: "arte-seduccion", titulo: "El arte de la seducción", autor: "Robert Greene", ano: 2001, categoria: "Psicología", estado: "escrito" },
   { id: "48-leyes-poder", titulo: "Las 48 leyes del poder", autor: "Robert Greene", ano: 1998, categoria: "Psicología", estado: "escrito" },

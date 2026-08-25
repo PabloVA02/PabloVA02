@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "nueva-mirada-infidelidad": [
+    "por qué creer que solo pasa donde algo falla resulta tan tranquilizador",
+    "qué se echa de menos al terminar una aventura, que no es una persona",
+    "por qué la crisis empieza el día en que se descubre",
+    "qué preguntas dejan imágenes que duran años",
+    "las tres maneras muy distintas de seguir juntos después",
+  ],
+
   "jane-eyre": [
     "qué parte del internado del libro no hubo que inventarse",
     "qué se puede admirar en alguien sin querer imitarlo",

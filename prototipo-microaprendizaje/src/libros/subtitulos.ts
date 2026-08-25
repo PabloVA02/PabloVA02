@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "nueva-mirada-infidelidad": "Repensar la infidelidad",
   "jane-eyre": "Una autobiografía",
   "cerebro-hambriento": "Los sorprendentes secretos que hay detrás del sobrepeso",
   "creatividad-sa": "Cómo llevar la inspiración hasta el infinito y más allá",
