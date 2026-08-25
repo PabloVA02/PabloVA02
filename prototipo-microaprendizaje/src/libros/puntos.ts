@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "arte-seduccion": [
+    "por qué la atención completa pesa más que el aspecto físico",
+    "cómo alguien se vuelve insustituible cuando ya no lo desean",
+    "por qué el deseo es imitativo y se contagia de terceros",
+    "en qué se parece un cortejo calculado al control coercitivo",
+    "qué conductas espantan a cualquiera por mucho que se esfuerce",
+  ],
+
   "poder-introvertidos": [
     "en qué se diferencia la timidez de la preferencia por el silencio",
     "por qué las reuniones creativas dan peores ideas que trabajar solo",

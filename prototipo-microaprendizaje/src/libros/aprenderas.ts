@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "arte-seduccion":
+    "Plutarco escribió que la belleza de Cleopatra no era incomparable y que lo irresistible era su conversación. Greene parte de ahí para tratar la seducción como una estrategia con fases, y el resumen dice dónde deja de ser cortejo.",
+
   "poder-introvertidos":
     "En 1963, veintitrés de veinticuatro grupos de lluvia de ideas produjeron menos que sus propios miembros por separado. Cain reúne lo que se sabe del temperamento y muestra qué pierde una organización montada para los que hablan.",
 

@@ -66183,7 +66183,291 @@ const PODER_INTROVERTIDOS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El arte de la seducción, en ocho páginas.
+
+   Breve. Manual práctico por su forma, pero se escribe en TERCERA PERSONA y
+   no en segunda, contra lo que dice el apartado 4.7 para los libros
+   prácticos. La razón es la del apartado 4 bis: este método consiste en
+   fabricar inseguridad y en aislar a alguien de los suyos, y escribirlo en
+   segunda persona sería darlo. Se describe, no se imparte.
+
+   Riesgo principal: quedarse en la lista de los nueve tipos, que es la parte
+   que circula por todas partes y que no dice nada comprobable. Lo que
+   sostiene el resumen son Ninon de l'Enclos, el testimonio de Plutarco sobre
+   Cleopatra, Pompadour después de 1750 y la lista del antiseductor.
+
+   Y la conclusión dice lo que el libro calla: que llama «víctima» al otro
+   durante trescientas páginas, que sus pruebas son memorias interesadas, y
+   que el propio Greene escribió en 2018 un libro que lo corrige.
+   -------------------------------------------------------------------------- */
+
+const ARTE_SEDUCCION: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La seducción se inventó donde no había ninguna otra forma de poder disponible",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ninon de l'Enclos murió en París en 1705, con ochenta y cinco años. No tenía título, ni tierras, ni derecho a heredar, ni voto, ni acceso a ningún cargo. Tenía un salón por el que pasaron Molière y el joven Voltaire, y una reputación tan sólida que los nobles de la corte le mandaban a sus hijos para que les enseñara a tratar con mujeres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robert Greene arranca de ahí, y esa es la única afirmación histórica seria del libro: la seducción no nació como un pasatiempo, sino como la técnica que desarrollaron quienes no podían mandar, heredar ni denunciar. En una corte donde una mujer no podía firmar un contrato, la influencia que se ejercía sobre quien sí podía era la única influencia que existía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su tesis y su provocación. Si la seducción es una forma de poder, entonces se puede estudiar como se estudia una campaña militar: tiene fases, tiene errores típicos, tiene contramedidas. Greene la divide en dos partes, el carácter del seductor y las veinticuatro fases del proceso, y la trata de principio a fin como estrategia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué la belleza importa mucho menos de lo que se cree, en qué consiste realmente el trabajo del seductor, cuál es el paso del método que casi nadie cuenta en voz alta, qué está mejor medido que todo lo anterior, y hasta dónde llega el libro cuando aplica lo mismo a la política.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La seducción se codificó en los sitios donde una persona no podía mandar, heredar ni denunciar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La mujer más seductora de la Antigüedad no era guapa según quienes la vieron",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el año 41 antes de Cristo, Cleopatra remontó el río Cidno hasta Tarso para presentarse ante Marco Antonio. Plutarco describe la escena: velas de púrpura, remos de plata, la reina vestida de Afrodita bajo un dosel dorado. No fue a pedir nada. Se quedó en el barco y le mandó recado de que bajara él a cenar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace que ese episodio valga como prueba está en otra frase del mismo Plutarco, que escribía siglo y medio después y desde el bando contrario: dijo que su belleza, en sí misma, no era incomparable ni dejaba asombrado a quien la veía. Lo irresistible, según él, era el trato, la voz y la conversación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Greene construye sobre eso el argumento que sostiene el libro entero. El físico es una carta de presentación y se agota en el primer minuto; lo que retiene a alguien es una cualidad mucho más barata de conseguir y mucho más rara de encontrar, que es la atención completa. Su lista de seductores célebres incluye a gente descrita por sus contemporáneos como poco agraciada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica invierte lo que hace casi todo el mundo. Quien intenta gustar habla de sí mismo para demostrar que vale la pena, y esa es exactamente la conducta que el libro clasifica como repelente. La operación de un seductor consiste en lo contrario: averiguar y devolver. La atención hace en unos minutos lo que la exhibición no consigue en toda una noche.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El físico se agota en el primer minuto; la atención completa es rarísima y no cuesta dinero.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El seductor no ofrece placer: se convierte en la pieza que al otro le falta",
+      },
+      {
+        b: "texto",
+        texto:
+          "Jeanne-Antoinette Poisson llegó a Versalles en 1745 como amante de Luis XV y recibió el título de marquesa de Pompadour. Era hija de un proveedor de víveres, sin una gota de sangre noble, lo que en aquella corte se consideraba un escándalo. La relación física con el rey duró unos cinco años. Su influencia duró veinte, hasta su muerte en 1764, y en ese tramo llegó a intervenir en nombramientos y en decisiones de política exterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hizo cuando el rey dejó de desearla es la lección del capítulo. En vez de disputar el puesto a las amantes nuevas, se reinventó como la única persona capaz de aliviarle el aburrimiento: montó un teatro en palacio, organizó las veladas, aprendió a leerle el humor. Se hizo insustituible en lo que nadie más estaba cubriendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Greene llama a ese personaje el «amante ideal», y su definición es incómoda por lo exacta. El amante ideal no es quien más ofrece, sino quien detecta qué le falta a esa persona en concreto —aventura, respeto, juventud, calma, alguien que la escuche— y se presenta con esa forma. Es un trabajo de observación antes que de encanto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí se ve por qué el libro divide a los seductores en nueve tipos: la sirena, el libertino, el amante ideal, el dandi, el natural, la coqueta, el encantador, el carismático y la estrella. Cada uno cubre un hueco distinto. El esquema es entretenido y tiene el defecto que se comenta al final: no hay conducta humana que no quepa en alguno.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie seduce ofreciendo lo que tiene; se seduce averiguando lo que al otro le falta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi nadie desea a quien no desea nadie más" },
+      {
+        b: "texto",
+        texto:
+          "En la primavera de 1796, Napoleón Bonaparte dirigía la campaña de Italia y escribía a Josefina hasta varias veces al día. Las cartas se conservan y son las de un hombre fuera de sí: le suplica noticias, la acusa de olvidarlo, calcula cuántos días lleva sin respuesta. Ella contestaba poco, tarde y con frialdad, y mientras tanto seguía en París con su vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Greene la clasifica como coqueta, y define ese carácter con precisión: no es quien niega, es quien alterna. Da lo justo para que el otro sepa que hay algo, y se retira antes de que se confirme. La atención constante, sostiene, mata el deseo porque elimina la incertidumbre, y sin incertidumbre no queda nada en lo que pensar entre un encuentro y el siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La misma técnica se puede ver a escala de Estado. Isabel I de Inglaterra convirtió la posibilidad de casarse en un instrumento diplomático durante casi treinta años: negoció con Felipe II, con el duque de Anjou y con media docena de príncipes más, mantuvo abiertas varias negociaciones a la vez y no se casó nunca. Cada pretendiente valía más porque había otros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Debajo hay una idea que Greene no inventó y que el crítico René Girard había formulado en 1961: el deseo es imitativo. No queremos las cosas por lo que son, sino porque vemos que otro las quiere, y por eso el interés ajeno funciona como prueba de valor. De ahí la fase del libro que consiste en no aparecer nunca como alguien disponible del todo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El deseo es imitativo, así que el interés de otros funciona como prueba de valor.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El método empieza fabricando una carencia que antes no estaba" },
+      {
+        b: "texto",
+        texto:
+          "La segunda mitad del libro es un procedimiento de veinticuatro fases en cuatro tramos, y conviene leer los títulos tal como están escritos. La primera fase se llama «elegir a la víctima adecuada». La quinta, «crear una necesidad: agitar la ansiedad y el descontento». La decimocuarta, «aislar a la víctima».",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo que describen esas fases es coherente y está bien observado. Alguien satisfecho no es seducible, porque no le falta nada; así que el primer trabajo no es ofrecer, es abrir un hueco. Se hace señalando lo que la otra persona no tiene, comparándola con quien sí lo tiene, o insinuando que su vida actual es más pequeña de lo que podría ser.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después viene la fase que Greene llama insinuación, y es la más difícil de detectar desde fuera. Consiste en no proponer nunca nada de frente: se deja caer una idea de lado, en una frase suelta o en un comentario sobre otra persona, y se abandona ahí. Si el otro la recoge días más tarde, la recoge como suya, y defenderá con energía algo que no se le ocurrió a él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Leído como descripción de lo que ocurre en muchos cortejos, es agudo y comprobable. Leído como instrucciones —que es como está escrito—, varias de esas fases coinciden punto por punto con lo que los clínicos describen como control coercitivo: crear inseguridad, alternar frío y calor, apartar a la persona de su gente. Greene no traza esa línea en ningún momento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie que esté satisfecho es seducible, así que el primer paso del método consiste en abrir el hueco.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que espanta está mucho mejor documentado que lo que atrae" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más útil del libro es el que va al revés, y es el que menos se cita. Greene lo llama «el antiseductor» y no es una teoría: es un catálogo de conductas que hacen retroceder a cualquiera, sacadas de observar qué falla cuando alguien se esfuerza mucho y no consigue nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Están agrupadas por tipos, y todas comparten una raíz: convierten al otro en público.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "El que ahoga", texto: "confunde intensidad con interés, y llega tan deprisa y tan entero que no deja espacio para que al otro le apetezca nada." },
+          { fuerte: "El que sermonea", texto: "aprovecha cualquier tema para corregir, y convierte una conversación en una evaluación." },
+          { fuerte: "El que no calla", texto: "trata la charla como una demostración de méritos y no pregunta nada en toda la noche." },
+          { fuerte: "El tacaño", texto: "y no solo con el dinero: mide lo que da, lo recuerda y lo cobra." },
+          { fuerte: "El que reacciona a todo", texto: "se ofende con facilidad, así que estar con él obliga a ir midiendo cada frase." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "La lista tiene una ventaja sobre el resto del libro: no hace falta creerse ninguna teoría del deseo para usarla, y no exige manipular a nadie. Es la parte que coincide con lo que encuentran los investigadores que miden parejas reales, empezando por John Gottman: lo que rompe una relación no son los grandes fallos, sino el desprecio repetido en cosas pequeñas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La lista tiene una ventaja sobre el resto del libro: no hace falta creerse ninguna teoría del deseo para usarla, y no exige manipular a nadie, porque solo dice qué dejar de hacer. Es además la parte que coincide con lo que encuentran los investigadores que miden parejas reales, empezando por John Gottman: lo que rompe una relación no son los grandes fallos, sino el desprecio repetido en cosas pequeñas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Greene aplica el mismo método a la política, y ahí el libro deja de ser gracioso",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los nueve tipos es el carismático, y la lista de ejemplos que reúne no es la que espera nadie que compró un libro sobre ligar: Juana de Arco, Rasputín, Charles de Gaulle, Martin Luther King, John Kennedy. Greene sostiene que el mecanismo es exactamente el mismo, cambiando lo que se promete.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su descripción del carisma es que consiste en parecer poseído por una certeza que los demás no tienen. Quien duda de todo se contagia de quien no duda de nada, y por eso el carisma aparece con más fuerza en las épocas de miedo, cuando la gente busca a alguien que sepa qué hay que hacer. Es una observación vieja y sigue siendo cierta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Poner en la misma página a Juana de Arco y a Rasputín tiene una intención declarada: mostrar que la técnica es neutral y el uso no. Y ahí el libro consigue lo mejor que tiene, que es funcionar como manual de defensa. Reconocer las fases mientras te las están aplicando es la única contramedida que existe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema es que el libro nunca dice cuándo hay que parar. Presenta la misma herramienta para conseguir una cita, para ganar una elección y para fundar una secta, con el mismo tono admirado, y deja al lector la decisión sobre el límite. Un manual que enumera fases llamadas «aislar a la víctima» no puede quedarse en neutral sin más.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El carisma es contagiar una certeza que los demás no tienen, y funciona igual de bien para lo bueno y para lo peor.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene tres cosas y dos se aguantan. Que la seducción es una técnica y no un don, que su materia prima es la atención y no el físico, y que funciona detectando lo que a la otra persona le falta. Añade un catálogo de nueve caracteres y un procedimiento de veinticuatro fases, y esa parte es donde se rompe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla, primero, es en la palabra. Greene llama «víctima» a la otra persona durante todo el libro, y no es una boutade de estilo: es coherente con un método cuyos pasos incluyen agitar la ansiedad y el descontento, alternar frío y calor, y aislar a alguien de su gente. Eso ya no describe un cortejo. Describe, paso por paso, lo que se llama control coercitivo, y el libro no marca la frontera en ninguna página.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en las pruebas. Greene demuestra por retrato histórico, y los retratos que usa son las versiones interesadas. Las memorias de Casanova son tres mil setecientas páginas escritas por él cuarenta años después, de bibliotecario en un castillo de Bohemia. Lo que se sabe de Cleopatra viene de romanos que escribieron un siglo o dos más tarde, y desde el bando que la venció. Los nueve tipos, además, no se pueden refutar: cualquier conducta encaja en alguno, y las que no, en el antiseductor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después es lo más interesante. El libro se convirtió, junto con «El método» de Neil Strauss de 2005, en uno de los textos fundacionales de la industria del ligue profesional, con la que Greene ha marcado distancias en entrevistas. Y en 2018 publicó «Las leyes de la naturaleza humana», un libro dedicado a reconocer en uno mismo la envidia, la grandiosidad y la necesidad de manipular. Leído después de este, parece una rectificación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Acierta en que se seduce con atención y falla en no decir nunca dónde acaba el cortejo y empieza otra cosa.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "arte-seduccion": ARTE_SEDUCCION,
   "poder-introvertidos": PODER_INTROVERTIDOS,
   "magia-orden": MAGIA_ORDEN,
   "secreto-byrne": SECRETO_BYRNE,
