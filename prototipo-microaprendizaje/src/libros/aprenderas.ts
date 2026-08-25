@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "oceano-azul":
+    "El Cirque du Soleil quitó los animales y las estrellas, que eran las dos partidas más caras de un circo, y con lo ahorrado puso argumento y música. Costaba menos que un circo, valía más y cobraba como un teatro.",
+
   "ideas-que-pegan":
     "En un experimento de 1990, quienes golpeaban en la mesa el ritmo de una canción conocida creían que la adivinaría la mitad de la gente. La adivinaron tres de ciento veinte. Los Heath explican por qué el que sabe algo lo cuenta mal.",
 

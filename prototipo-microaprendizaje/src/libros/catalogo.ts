@@ -398,7 +398,7 @@ export const CATALOGO: Ficha[] = [
   { id: "transformacion-dinero", titulo: "La transformación total de su dinero", autor: "Dave Ramsey", ano: 2003, categoria: "Economía", estado: "pendiente" },
   { id: "vender-es-humano", titulo: "Vender es humano", autor: "Daniel H. Pink", ano: 2012, categoria: "Economía", estado: "pendiente" },
   { id: "arte-de-empezar", titulo: "El arte de empezar", autor: "Guy Kawasaki", ano: 2004, categoria: "Economía", estado: "pendiente" },
-  { id: "oceano-azul", titulo: "La estrategia del océano azul", autor: "Kim y Mauborgne", ano: 2005, categoria: "Economía", estado: "pendiente" },
+  { id: "oceano-azul", titulo: "La estrategia del océano azul", autor: "Kim y Mauborgne", ano: 2005, categoria: "Economía", estado: "escrito" },
   { id: "empresas-sobresalen", titulo: "Empresas que sobresalen", autor: "Jim Collins", ano: 2001, categoria: "Economía", estado: "pendiente" },
   { id: "efecto-compuesto", titulo: "El efecto compuesto", autor: "Darren Hardy", ano: 2010, categoria: "Economía", estado: "pendiente" },
   { id: "psicologia-venta", titulo: "Psicología de ventas", autor: "Brian Tracy", ano: 2004, categoria: "Economía", estado: "pendiente" },

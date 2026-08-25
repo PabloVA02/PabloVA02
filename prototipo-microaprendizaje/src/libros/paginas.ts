@@ -80197,7 +80197,300 @@ const IDEAS_QUE_PEGAN: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La estrategia del oceano azul, en ocho paginas.
+
+   Breve. ECONOMIA -> apartado 4 bis: cada argumento con una persona o una
+   empresa con nombre, fecha y cifra. Nada de mecanismos sin nadie dentro.
+   Segunda persona en la caja, que es un libro de empresa.
+
+   Seis argumentos: rojo contra azul, la innovacion en valor contra la
+   disyuntiva clasica, el lienzo estrategico, las cuatro acciones, los no
+   clientes y la secuencia de ejecucion.
+
+   Empresas con nombre, una por pagina: Cirque du Soleil (Guy Laliberte, 1984),
+   Yellow Tail (Casella Wines, 2001), Southwest, Curves, Nintendo.
+
+   La conclusion tiene el dato que casi nadie cuenta: los autores publicaron en
+   2017 un segundo libro, La transicion al oceano azul, precisamente porque el
+   primero decia como reconocer un oceano azul y no como encontrarlo. Y el
+   Cirque du Soleil, su ejemplo estrella, se acogio a proteccion por quiebra en
+   junio de 2020.
+   -------------------------------------------------------------------------- */
+
+const OCEANO_AZUL: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las empresas que más crecen no ganan la competencia: se van a un sitio donde no la hay",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1984, un grupo de artistas callejeros de Quebec dirigido por Guy Laliberté montó un espectáculo que no era un circo ni era teatro. No tenía animales, no tenía estrellas contratadas y no tenía tres pistas simultáneas. Costaba mucho menos de producir que un circo tradicional y cobraba entradas de precio de teatro. Se llamó Cirque du Soleil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "W. Chan Kim y Renée Mauborgne, profesores del INSEAD, publicaron en 2005 un libro que parte de ese caso. Su afirmación es que el circo llevaba décadas en decadencia, con los costes de las estrellas y de los animales subiendo y el público bajando, y que nadie salió de esa espiral compitiendo mejor. Salió quien dejó de competir en las mismas variables.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Llaman «océano rojo» al mercado conocido, con las reglas ya escritas y los competidores peleando por una demanda que no crece; el rojo es por la sangre. Y «océano azul» al espacio que todavía no existe, donde la demanda se crea en vez de repartirse. Su tesis es que el crecimiento grande casi siempre viene del segundo y casi nunca del primero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre por qué el libro rechaza la disyuntiva clásica entre coste y diferenciación, cómo se dibuja una industria entera en un gráfico, las cuatro preguntas que producen una oferta nueva, dónde está la demanda que nadie mira, en qué orden hay que tomar las decisiones para que la cosa aguante, y qué le ha pasado a esta teoría desde entonces.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si tu sector lleva años peleando por las mismas variables, la salida no está en hacerlo mejor. Está en cambiar las variables.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La elección entre ser barato o ser bueno es falsa, y las mejores jugadas la rompen",
+      },
+      {
+        b: "texto",
+        texto:
+          "Desde los años ochenta, la enseñanza dominante de estrategia decía que una empresa tenía que elegir: o costes bajos, o diferenciación. Quedarse en medio era el error clásico. Kim y Mauborgne sostienen que las jugadas que abren mercados nuevos hacen exactamente lo que estaba prohibido, y bajan el coste mientras suben el valor a la vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El Cirque du Soleil es el ejemplo limpio. Quitó los animales, que son la partida más cara de un circo entre compra, transporte, veterinarios y seguros, y quitó las estrellas y las pistas múltiples. Con lo que ahorró, añadió argumento, música original, vestuario y una sala en condiciones. Costaba menos que un circo y valía más que un circo, y cobraba como un teatro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los autores llaman a esto «innovación en valor», y el nombre importa porque separa dos cosas que se confunden mucho. No es innovación tecnológica: el Cirque du Soleil no inventó nada. Es una recombinación de lo que ya existía, decidiendo qué se quita. La tecnología nueva no aparece en la mayoría de sus casos, y ellos lo subrayan una y otra vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la consecuencia práctica del libro entero. Si solo se puede añadir, cualquier mejora sube el coste y hay que subir el precio, con lo que se compite en el mismo sitio de siempre. Solo cuando se está dispuesto a quitar cosas que en el sector se consideran obligatorias aparece margen para poner otras que nadie tiene.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mientras solo puedas añadir, competirás en el mismo sitio. El margen aparece cuando te atreves a quitar algo que el sector da por obligatorio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dibujar la industria entera en un gráfico enseña que todos compiten en lo mismo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La herramienta central del libro es el «lienzo estratégico», y es un dibujo sencillo. En el eje de abajo se ponen los factores en los que compite un sector; en el vertical, cuánto invierte cada empresa en cada uno. Después se une con una línea el perfil de cada competidor. Lo que aparece casi siempre es un puñado de líneas paralelas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese paralelismo es el diagnóstico. Significa que todas las empresas de un sector han decidido competir en las mismas variables y solo discuten la intensidad, con lo que la única salida es hacer más de lo mismo por menos dinero. Los autores dicen que ver el gráfico dibujado convence a directivos que no habían aceptado el argumento en veinte reuniones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que usan es el vino australiano. En 2001, Casella Wines lanzó Yellow Tail en Estados Unidos, un mercado donde las bodegas competían en prestigio, añada, taninos y complejidad. Yellow Tail eliminó todo ese vocabulario: un vino dulce, fácil, con dos referencias y una etiqueta con un canguro. En dos años era el vino importado que más crecía del país.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que enseña su lienzo es que la línea no queda encima de las demás: queda en otro sitio. Baja a cero en los factores de prestigio y sube en unos que la industria ni medía, como la facilidad de elegir. Los autores insisten en que un perfil parecido al de los rivales, aunque sea mejor, es un perfil de océano rojo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dibuja en qué compite tu sector y con cuánta intensidad. Si tu línea es como la de los demás pero un poco más alta, no tienes estrategia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cuatro preguntas producen una oferta nueva, y dos de ellas consisten en quitar",
+      },
+      {
+        b: "texto",
+        texto:
+          "El método para mover la línea son cuatro preguntas que se hacen sobre los factores del sector. Qué se puede eliminar de lo que la industria da por supuesto. Qué se puede reducir muy por debajo de la norma. Qué se puede incrementar muy por encima. Y qué se puede crear que nadie ofrezca todavía. Las dos primeras pagan las dos últimas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los autores subrayan que casi todo el mundo salta directamente a la tercera y la cuarta, porque añadir es agradable y quitar da miedo. Y ahí está el fallo, porque sin las dos primeras la oferta nueva sale más cara y hay que venderla más cara, con lo que se queda en un producto premium más y no en un mercado nuevo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Southwest Airlines aparece otra vez como ejemplo por lo mismo. Eliminó las comidas, las clases, los asientos asignados y las conexiones entre aeropuertos grandes. Redujo el servicio a bordo. E incrementó una sola cosa que nadie estaba mirando: la frecuencia de vuelos. Con eso dejó de competir contra otras aerolíneas y empezó a competir contra el coche.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa última frase es la prueba de que una jugada es azul, según los autores. Cuando el competidor deja de ser la empresa de enfrente y pasa a ser otra cosa —el coche, quedarse en casa, no hacer nada—, la demanda ya no se está repartiendo: se está creando. Y ahí las cuotas de mercado del sector dejan de servir para medir nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de preguntarte qué añadir, pregúntate qué eliminas y qué reduces. Sin esas dos respuestas, lo nuevo te sale caro y no cambia nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La demanda grande está en la gente que hoy no te compra, y casi nadie la mira",
+      },
+      {
+        b: "texto",
+        texto:
+          "El quinto capítulo va contra el instinto comercial de segmentar cada vez más fino. Kim y Mauborgne dicen que afinar la segmentación es una estrategia de océano rojo, porque reparte mejor una demanda que sigue siendo la misma. Para crear demanda hay que mirar al revés: qué tienen en común los que no compran, que suelen ser muchísimos más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Distinguen tres capas de no clientes. Los que compran poco y a regañadientes porque no hay otra cosa. Los que han mirado la oferta y la han rechazado a propósito. Y los que ni se lo han planteado nunca, porque nadie ha pensado en ellos. La tercera capa es la mayor y es la que ninguna empresa estudia, precisamente porque no aparece en sus datos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo es Curves, la cadena de gimnasios para mujeres que se extendió por Estados Unidos desde los años noventa. Su cliente no venía de otros gimnasios: venía de no ir a ninguno. Quitó los espejos, las máquinas de musculación, las duchas y los hombres, montó un circuito de treinta minutos y locales pequeños en centros comerciales de barrio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que enseña el caso es que las razones para no comprar se parecen mucho entre sí, mientras que las razones para comprar son muy variadas. Por eso el estudio de los no clientes da ideas más grandes que el de los clientes: encuentra un obstáculo compartido por millones de personas en vez de una preferencia repartida entre unos cuantos miles.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pregunta a los que no te compran por qué no lo hacen. Sus motivos se parecen entre sí, y los de tus clientes no.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El precio se decide antes que el coste, y no al revés como se hace en todas partes",
+      },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro es la menos citada y la más práctica. Los autores proponen una secuencia de cuatro decisiones y avisan de que el orden no es negociable. Primero, si la oferta le resulta útil de verdad a alguien. Segundo, a qué precio la compraría mucha gente. Tercero, si se puede producir a ese precio. Y cuarto, qué obstáculos van a aparecer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo llamativo es la segunda posición del precio. La práctica habitual consiste en calcular el coste, añadir un margen y salir con el precio que resulte. Kim y Mauborgne lo invierten: se fija primero el precio al que la oferta llega a masas, y después se trabaja el coste hasta que quepa. Lo llaman fijación de precios estratégica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón tiene que ver con la naturaleza de un océano azul. Una oferta nueva no tiene competencia, así que puede empezar cara y ordeñar el mercado durante un tiempo; el problema es que casi nada de esto se puede patentar y las ideas se copian en meses. Salir barato desde el principio construye volumen y reputación antes de que llegue la copia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuarto punto, los obstáculos, es donde el libro se pone realista de golpe. Los autores hablan de la resistencia interna, de los distribuidores que pierden con el cambio y de los empleados que temen por su puesto, y dedican un capítulo entero a esa parte. Es la sección menos brillante del libro y la única que reconoce que las empresas están hechas de gente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Fija primero el precio al que esto llegaría a mucha gente, y después trabaja el coste hasta que quepa. No al revés.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un océano azul dura poco, y el libro dedica menos páginas a eso de las que debería",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los autores reconocen que ningún espacio nuevo se queda vacío. En cuanto una jugada funciona, aparecen los imitadores, y el océano se va tiñendo hasta volverse rojo otra vez. Su cálculo es que la ventaja dura entre diez y quince años en los casos que estudiaron, y que ese plazo se está acortando en los sectores donde copiar es barato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dan también las razones por las que a veces tarda más. Un modelo que exige cambiar la empresa entera es difícil de copiar a medias: una aerolínea tradicional no puede quitar las clases sin destruir su negocio actual, y por eso Southwest tuvo veinte años de margen. La barrera no es una patente, es que copiar obligaría al rival a renunciar a lo que ya gana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su consejo es vigilar el lienzo: cuando la línea propia empieza a parecerse otra vez a la de los demás, es que el océano se ha teñido y toca volver a empezar. Es un consejo razonable y bastante vago, y los autores no explican cómo se hace eso dentro de una empresa que lleva diez años ganando dinero con lo anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese hueco es el que se les reprochó desde el principio. El libro enseña muy bien a reconocer un océano azul cuando ya existe y describe con claridad lo que hicieron los que lo encontraron. Lo que no da es un procedimiento para encontrar uno desde dentro de una empresa normal, un lunes por la mañana, sin el caso resuelto delante.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Vigila cuándo tu línea vuelve a parecerse a la de los demás. Ese día tu ventaja ha caducado, y suele ser mientras aún ganas dinero.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son tres herramientas y las tres se pueden usar en una tarde. Dibujar el lienzo del sector y ver si tu línea es distinta o solo más alta. Pasar las cuatro preguntas, empezando por las dos de quitar. Y hablar con los que no compran, que son más y cuyos motivos se parecen entre sí. Vale para una empresa y vale para un proyecto de una persona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en cómo se construyó. Los autores dicen haber analizado ciento cincuenta jugadas estratégicas de treinta sectores a lo largo de un siglo, pero el estudio no se ha publicado nunca de forma que otro pueda repetirlo, y los casos que se cuentan son casos que salieron bien. Nadie ha mirado cuántas empresas hicieron exactamente esto mismo y desaparecieron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en lo que promete el título. Es un vocabulario excelente para describir lo que ya ocurrió y no un método para provocarlo. Los propios autores lo admitieron a su manera: en 2017 publicaron un segundo libro entero, La transición al océano azul, para responder a la pregunta que el primero había dejado abierta, que era cómo se hace esto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de 2005 el libro vendió más de cuatro millones de ejemplares y se tradujo a más de cuarenta idiomas, y varios de sus ejemplos han envejecido a la vista de todos. Curves llegó a tener miles de locales y se encogió muchísimo en la década siguiente. Y el Cirque du Soleil, el caso con el que abre, se acogió a la protección por quiebra en junio de 2020.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Coge tu sector, dibuja en qué compite todo el mundo y tacha dos cosas que se den por obligatorias. Ese ejercicio dura una tarde.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "oceano-azul": OCEANO_AZUL,
   "ideas-que-pegan": IDEAS_QUE_PEGAN,
   "arte-no-amargarse": ARTE_NO_AMARGARSE,
   "adulto-relaciones": ADULTO_RELACIONES,

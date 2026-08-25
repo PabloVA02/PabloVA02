@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "oceano-azul": "Cómo crear un espacio de mercado sin competencia",
   "ideas-que-pegan": "Por qué algunas ideas sobreviven y otras mueren",
   "arte-no-amargarse": "Cambiando la forma de pensar",
   "adulto-relaciones": "Cómo mantener relaciones adultas y saludables",

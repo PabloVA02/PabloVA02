@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "oceano-azul": [
+    "por qué elegir entre ser barato o ser bueno es una elección falsa",
+    "qué se ve al dibujar en qué compite todo tu sector a la vez",
+    "cuáles son las dos preguntas que casi nadie se hace, y pagan las otras",
+    "dónde está la demanda que no aparece en los datos de ninguna empresa",
+    "por qué conviene fijar el precio antes que el coste",
+  ],
+
   "ideas-que-pegan": [
     "por qué los expertos explican peor su tema que los principiantes",
     "qué trabajo hay detrás de un mensaje que parece simple",
