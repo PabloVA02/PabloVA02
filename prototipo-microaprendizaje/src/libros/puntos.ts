@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cuerpo-4-horas": [
+    "cómo encontrar la cantidad mínima que da casi el mismo resultado",
+    "por qué una dieta se sostiene cuando elimina decisiones",
+    "qué hace en realidad un día libre semanal en una dieta",
+    "por qué medir con cinta y fotos informa más que una báscula",
+    "qué puede y qué no puede demostrar un experimento con una sola persona",
+  ],
+
   "dieta-ya-no-cojea": [
     "por qué el entorno gana siempre a la fuerza de voluntad",
     "qué clasificación de alimentos sirve de verdad en un pasillo",

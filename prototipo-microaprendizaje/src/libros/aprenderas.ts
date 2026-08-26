@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cuerpo-4-horas":
+    "El agua no queda más hervida por calentarla hasta ciento veinte grados. Ferriss aplica esa idea al cuerpo: para cada resultado hay una dosis mínima, y casi todo el mundo trabaja muy por encima de ella.",
+
   "dieta-ya-no-cojea":
     "Un ensayo publicado en 2019 demostró que con la misma composición exacta, quien comía ultraprocesados ingería quinientas calorías más al día. Este libro español lo defendía un año antes, y explica qué hacer en un supermercado de aquí.",
 

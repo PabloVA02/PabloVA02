@@ -103853,7 +103853,293 @@ const DIETA_YA_NO_COJEA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El cuerpo perfecto en 4 horas, de Tim Ferriss (2010), en ocho páginas.
+
+   Salud, así que la prueba del sustituto del apartado 4 bis se aplica en
+   cada página: nada de consejos que valdrían para cualquier libro del
+   género. Registro de tú.
+
+   La sexta página separa lo que se ha sostenido de lo que no, y la séptima
+   dice el problema de fondo del método: un experimento con una sola
+   persona no es una prueba, por muy bien medido que esté.
+   -------------------------------------------------------------------------- */
+
+const CUERPO_4_HORAS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ferriss sostiene que casi todo el esfuerzo que dedica la gente a su cuerpo no cambia nada",
+      },
+      {
+        b: "texto",
+        texto:
+          "El agua hierve a cien grados. Calentarla hasta ciento veinte no la deja más hervida: solo gasta más energía. Tim Ferriss construye este libro entero sobre esa idea aplicada al cuerpo: para cada resultado hay una dosis mínima que lo produce, y todo lo que se hace por encima no aporta nada o hace daño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ferriss se había hecho conocido en 2007 con un libro sobre trabajar menos horas, y publicó este en 2010 después de años de experimentar consigo mismo: análisis de sangre periódicos, medición constante y prueba de decenas de protocolos. Son seiscientas páginas de intentos, con lo que funcionó y lo que no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su promesa es la que vende el título: resultados grandes con muy poco tiempo, siempre que se elija la palanca correcta. Y su método no es científico en el sentido habitual, sino el contrario: en lugar de estudiar a mil personas y sacar una media, estudia a una sola persona a fondo y mide todo lo que puede.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue separa las dos mitades del libro, porque no valen lo mismo. Qué es la dosis mínima eficaz, en qué consiste su dieta y por qué funciona, qué hace realmente el día libre semanal, qué se ha sostenido de todo esto quince años después, qué no, y cuál es el problema de fondo de experimentar con uno mismo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Para cada resultado hay una dosis mínima que lo produce. Todo lo que hagas por encima no aporta nada, y a veces resta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La dosis mínima eficaz es la mejor idea del libro y se puede aplicar a casi todo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El principio consiste en buscar la cantidad más pequeña de algo que produzca el efecto que se busca, y detenerse ahí. Ferriss lo aplica al entrenamiento, a la dieta y al descanso, y su argumento es que casi todo el mundo hace lo contrario: cuando algo funciona, lo aumenta, y suele empeorar el resultado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso más claro es el entrenamiento de fuerza. Para alguien que no compite, dos o tres sesiones semanales producen la mayor parte de la mejora que es posible obtener, y a partir de cierto volumen los rendimientos caen mucho: más series y más días añaden fatiga y cansancio acumulado sin añadir prácticamente adaptación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su versión extrema es un protocolo de dos ejercicios hechos una vez cada semana o diez días, con series muy lentas y hasta el fallo. Eso funciona para principiantes durante un tiempo y deja de funcionar después, cosa que el libro no advierte, pero la idea general —buscar el mínimo antes que el máximo— es correcta y ahorra muchísimo tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo aplicable de verdad es la pregunta que obliga a hacerse: ante cualquier cosa que uno esté haciendo por su cuerpo, cuál es la cantidad mínima que produciría casi el mismo resultado. Casi siempre resulta ser bastante menos de lo que se está haciendo, y ese excedente es la razón por la que la gente abandona.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando algo funciona, casi todo el mundo lo aumenta. La pregunta útil es cuál es la cantidad mínima que daría casi el mismo resultado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Su dieta funciona por una razón que él no subraya: elimina las decisiones",
+      },
+      {
+        b: "texto",
+        texto:
+          "El plan alimentario del libro tiene cinco reglas y ninguna requiere contar nada. No comer hidratos blancos —pan, arroz blanco, pasta, patata—; repetir siempre las mismas tres o cuatro comidas; no beber calorías; no comer fruta; y tener un día libre a la semana en el que se come lo que se quiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que queda después de aplicar las cuatro primeras es una dieta de proteína, legumbres y verduras, que es razonable y se parece bastante a lo que recomendaría cualquier profesional, con una excepción llamativa: la prohibición de la fruta no tiene ninguna justificación sólida y es de las cosas peor sostenidas del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla que de verdad hace el trabajo es la segunda, y él la trata como una más. Repetir las mismas comidas elimina la decisión: quien tiene resueltos el desayuno, la comida y la cena no negocia consigo mismo tres veces al día, y esa negociación repetida es donde se pierden casi todas las dietas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso encaja con lo que se sabe hoy, que es bastante más aburrido de lo que promete cualquier método. Un ensayo publicado en 2018 comparó durante un año dos dietas opuestas, baja en grasa y baja en hidratos, con más de seiscientas personas, y no encontró diferencia significativa entre ellas: lo que variaba enormemente era cuánto conseguía sostenerlas cada persona.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ninguna dieta gana a las demás por composición. Gana la que consigas sostener, y se sostiene la que no te obliga a decidir tres veces al día.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El día libre semanal no acelera el metabolismo: evita que abandones" },
+      {
+        b: "texto",
+        texto:
+          "La parte del libro que más se ha copiado es el día libre: una jornada a la semana en la que se come cualquier cosa sin ninguna restricción. Ferriss lo justifica con explicaciones metabólicas —que impide la adaptación del organismo, que sube determinadas hormonas— y esas explicaciones son la parte más floja del capítulo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La evidencia de que una comilona semanal produzca una ventaja metabólica relevante es muy escasa. Lo que sí produce, y está bastante mejor documentado, es adherencia: saber que el sábado no hay ninguna regla permite decir que no el martes sin sentir que uno está renunciando para siempre a algo que le gusta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa diferencia importa porque cambia cómo se usa. Si se cree que el día libre acelera algo, se busca comer lo máximo posible ese día, cosa que puede anular perfectamente el déficit de la semana. Si se entiende que sirve para no abandonar, basta con que sea suficiente para quitar la sensación de privación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un aviso que el libro no da y que conviene tener presente. Para una parte de la gente, alternar seis días de reglas estrictas con uno sin ninguna refuerza exactamente el patrón de restricción y atracón que hay detrás de bastantes problemas con la comida, y en ese caso este método es lo último que le conviene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ferriss añade una condición práctica que sí conviene retener: el día libre se fija de antemano, siempre el mismo día de la semana, y no se decide sobre la marcha. Un día libre que se traslada según cómo vaya la semana deja de ser una regla y se convierte en la ausencia de regla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El día libre no acelera nada. Sirve para que el martes puedas decir que no sin sentir que renuncias para siempre a algo que te gusta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Medirse con fotos y una cinta métrica dice más que subirse a la báscula",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los consejos más útiles y menos vistosos del libro es sobre qué se mide. Ferriss desaconseja fiarse del peso, y con razón: el peso corporal oscila entre uno y dos kilos de un día a otro por agua, sal, glucógeno y contenido intestinal, así que una báscula diaria informa sobre todo de ruido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que propone en su lugar es medir el contorno en cuatro puntos con una cinta métrica y sumarlos, y hacerse fotografías desde los mismos ángulos, con la misma luz, cada dos semanas. Las dos cosas cambian despacio y en la dirección que interesa, y no se ven afectadas por lo que uno haya cenado la víspera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La fotografía tiene además una función que ninguna cifra cumple. Cuando alguien lleva dos meses cambiando su alimentación, no percibe la diferencia porque se ve todos los días en el espejo; poner dos fotos separadas por ocho semanas al lado enseña algo que el propio interesado era incapaz de notar y que sostiene el esfuerzo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y conviene añadir el otro lado, que el libro no menciona. Medirse y fotografiarse cada dos semanas está bien; hacerlo cada día es el principio de una relación mala con el propio cuerpo, y este libro entero empuja en esa dirección al convertir el cuerpo en un proyecto de optimización permanente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da un detalle metodológico que cambia el resultado de las fotos: hay que hacerlas siempre en las mismas condiciones —misma hora, misma luz, mismos ángulos, sin contraer nada— porque la postura y la iluminación producen diferencias mayores que ocho semanas de trabajo, y comparar dos fotos incomparables no informa de nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La báscula diaria mide sobre todo agua y sal. Dos fotos separadas por ocho semanas enseñan lo que tú no puedes ver mirándote a diario.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Buena parte de sus protocolos no ha sobrevivido a la comprobación" },
+      {
+        b: "texto",
+        texto:
+          "Quince años después se puede separar el grano de la paja, y conviene hacerlo porque el libro presenta todo con la misma seguridad. Lo que se ha sostenido: la dosis mínima eficaz, la proteína en el desayuno como factor de saciedad, repetir comidas, medir con cinta y fotos, y la base de legumbres y verduras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que no se ha sostenido empieza por su combinación de suplementos, que recomienda tomar varias veces al día y cuyos componentes no han demostrado el efecto que se les atribuye; uno de ellos fracasó en ensayos independientes hechos fuera del país donde se había estudiado originalmente. Ferriss lo presenta como una pieza central y hoy no lo defendería nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La exposición al frío es el otro caso. La idea de que baños de hielo y duchas frías activan un tejido que quema grasa tiene una base real y un tamaño de efecto mucho menor de lo que sugiere el libro. Y hay algo que se descubrió después: aplicar frío justo después de entrenar reduce la ganancia de músculo a largo plazo, es decir, hace lo contrario de lo que se busca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un capítulo sobre perder peso muy deprisa antes de una competición, con prácticas de deshidratación tomadas del mundo del combate, que es directamente peligroso para un lector no supervisado. El libro incluye un aviso legal al principio, y después dedica seiscientas páginas a hablar con un tono que no se parece a un aviso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Meterse en agua helada justo después de entrenar reduce lo que ganas a largo plazo. Es de las pocas cosas del libro que hacen lo contrario de lo prometido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un experimento con una sola persona no es una prueba, por muy bien medido que esté",
+      },
+      {
+        b: "texto",
+        texto:
+          "El método del libro es probar cosas en uno mismo y medir el resultado, y merece la pena entender por qué eso informa poco. Cuando alguien cambia su dieta y adelgaza, hay al menos cinco explicaciones posibles además de la dieta: comió menos sin darse cuenta, se movió más, dejó de beber alcohol, durmió mejor o simplemente estaba prestando atención.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los ensayos con grupos existen precisamente para separar eso. Al comparar dos grupos grandes que solo se diferencian en una cosa, lo que quede de diferencia se puede atribuir a esa cosa. Con una sola persona no hay nada que comparar, así que cualquier resultado admite todas las explicaciones a la vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso se suma el problema de a quién se le ocurre escribir el libro. Ferriss probó decenas de protocolos y cuenta los que le funcionaron; las miles de personas que probaron lo mismo sin resultado no escriben nada. Ese filtro convierte cualquier colección de experiencias personales en una lista de casos afortunados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dicho lo cual, la experimentación con uno mismo sí sirve para algo concreto y el libro lo hace bien: para averiguar cómo responde uno a algo que ya está demostrado que funciona en general. Probar durante seis semanas si le sienta mejor entrenar por la mañana o por la tarde es razonable; deducir de ahí una recomendación para los demás, no.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Prueba en ti lo que ya se sabe que funciona en general, para ver cómo respondes tú. Deducir de tu caso una regla para los demás es otra cosa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que existe una dosis mínima que produce casi todo el resultado y que casi todo el mundo trabaja muy por encima de ella, que una dieta se sostiene cuando elimina decisiones y no cuando es óptima, y que medir con cinta y fotografías informa mucho mejor que subirse a una báscula. Esas tres cosas siguen valiendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente al resto de su estante es la actitud. Trata el cuerpo como un asunto sobre el que se pueden hacer pruebas en vez de como una cuestión de disciplina moral, y para mucha gente que había fracasado con métodos basados en la voluntad, ese cambio de encuadre fue lo que le permitió empezar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Busca la cantidad mínima, repite las mismas comidas y mídete con una cinta cada dos semanas. Eso es lo que sigue en pie de estas seiscientas páginas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Presenta con la misma seguridad lo que está demostrado y lo que probó él una vez, y una parte considerable de lo segundo no ha sobrevivido: la combinación de suplementos que recomienda no tiene respaldo, el efecto del frío sobre la grasa es mucho menor de lo que sugiere y aplicarlo después de entrenar resulta contraproducente. Su método —medir en una sola persona— no puede distinguir lo que funciona de lo que coincidió. Y el capítulo de pérdida rápida de peso describe prácticas peligrosas para quien las haga sin supervisión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una evolución del propio autor que conviene contar, porque es lo más honrado de esta historia. Ferriss dejó de escribir libros de optimización y ha hablado públicamente en los años siguientes de depresión, de haber estado a punto de quitarse la vida en su juventud y del coste de haber convertido su vida en un experimento permanente. El hombre que escribió seiscientas páginas sobre cómo mejorar cada variable del propio cuerpo terminó explicando que medirlo todo tiene un precio, y ese es un aviso que no aparece en ninguna página del libro.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cuerpo-4-horas": CUERPO_4_HORAS,
   "dieta-ya-no-cojea": DIETA_YA_NO_COJEA,
   "vivir-para-contarla": VIVIR_PARA_CONTARLA,
   "hazte-rico-durmiendo": HAZTE_RICO_DURMIENDO,
