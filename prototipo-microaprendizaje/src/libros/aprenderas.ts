@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "confesiones-chef":
+    "Bourdain era jefe de cocina de un bistró de Nueva York, tenía cuarenta y tres años y ninguna fama cuando escribió lo que de verdad pasa dentro de un restaurante. El libro le cambió la vida y él acabó cuestionándolo.",
+
+  "21-leyes-liderazgo":
+    "Dick y Maurice McDonald inventaron el sistema de cocina en cadena y no lograron franquiciarlo. Ray Kroc, un vendedor de batidoras de cincuenta y dos años, cogió aquello y montó una de las mayores empresas del mundo.",
+
   "usted-puede-sanar":
     "Uno de los libros de autoayuda más vendidos del siglo, con decenas de millones de ejemplares. Su autoridad se apoya en un cáncer que Hay decía haberse curado sin tratamiento convencional, y de ese diagnóstico no existe documentación médica.",
 

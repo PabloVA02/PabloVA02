@@ -192,7 +192,7 @@ export const CATALOGO: Ficha[] = [
 
   { id: "will-smith", titulo: "Will", autor: "Will Smith y Mark Manson", ano: 2021, categoria: "Arte", estado: "escrito" },
   { id: "just-kids", titulo: "Éramos unos niños", autor: "Patti Smith", ano: 2010, categoria: "Arte", estado: "pendiente" },
-  { id: "confesiones-chef", titulo: "Confesiones de un chef", autor: "Anthony Bourdain", ano: 2000, categoria: "Arte", estado: "pendiente" },
+  { id: "confesiones-chef", titulo: "Confesiones de un chef", autor: "Anthony Bourdain", ano: 2000, categoria: "Arte", estado: "escrito" },
   { id: "frida-herrera", titulo: "Frida", autor: "Hayden Herrera", ano: 1983, categoria: "Arte", estado: "escrito" },
   { id: "bauhaus", titulo: "La Bauhaus", autor: "Magdalena Droste", ano: 1990, categoria: "Arte", estado: "pendiente" },
   { id: "mujeres-arte", titulo: "Mujeres artistas", autor: "Flavia Frigeri", ano: 2019, categoria: "Arte", estado: "pendiente" },
@@ -312,7 +312,7 @@ export const CATALOGO: Ficha[] = [
   { id: "poder-sin-limites", titulo: "Poder sin límites", autor: "Tony Robbins", ano: 1986, categoria: "Psicología", estado: "pendiente" },
   { id: "actitud-mental-positiva", titulo: "La actitud mental positiva", autor: "Napoleon Hill y W. Clement Stone", ano: 1959, categoria: "Psicología", estado: "escrito" },
   { id: "vendedor-mas-grande", titulo: "El vendedor más grande del mundo", autor: "Og Mandino", ano: 1968, categoria: "Psicología", estado: "escrito" },
-  { id: "21-leyes-liderazgo", titulo: "Las 21 leyes irrefutables del liderazgo", autor: "John C. Maxwell", ano: 1998, categoria: "Psicología", estado: "pendiente" },
+  { id: "21-leyes-liderazgo", titulo: "Las 21 leyes irrefutables del liderazgo", autor: "John C. Maxwell", ano: 1998, categoria: "Psicología", estado: "escrito" },
   { id: "dar-y-recibir", titulo: "Dar y recibir", autor: "Adam Grant", ano: 2013, categoria: "Psicología", estado: "escrito" },
   { id: "originales", titulo: "Originales", autor: "Adam Grant", ano: 2016, categoria: "Psicología", estado: "escrito" },
   { id: "piensalo-otra-vez", titulo: "Piénsalo otra vez", autor: "Adam Grant", ano: 2021, categoria: "Psicología", estado: "escrito" },

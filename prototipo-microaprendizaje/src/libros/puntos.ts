@@ -79,6 +79,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "confesiones-chef": [
+    "qué hace bueno a alguien en un oficio duro, que no es el talento",
+    "por qué quien empieza el día desordenado ya ha perdido",
+    "quién sostiene de verdad el trabajo en casi cualquier sector",
+    "en qué hay que pensar antes de pedir en un restaurante",
+    "qué acabó diciendo el propio autor sobre su libro",
+  ],
+
+  "21-leyes-liderazgo": [
+    "qué te frena cuando algo tuyo lleva años estancado",
+    "cómo se mide la influencia que tienes de verdad",
+    "por qué el equipo acaba pareciéndose a quien lo dirige",
+    "por qué el mismo plan recibe dos respuestas según quién lo traiga",
+    "qué pasa cuando en tu equipo cercano nadie te lleva la contraria",
+  ],
+
   "usted-puede-sanar": [
     "cómo te hablas cuando algo sale mal, y de dónde viene esa frase",
     "qué información da que te incomode decirte algo bueno en voz alta",

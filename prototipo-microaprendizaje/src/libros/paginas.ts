@@ -91245,7 +91245,569 @@ const USTED_PUEDE_SANAR: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Las 21 leyes irrefutables del liderazgo, en ocho paginas.
+
+   Breve. Practico de empresa -> afirmacion entera en el rotulo y SEGUNDA
+   PERSONA en la caja.
+
+   NO se enumeran las veintiuna: seis se eligen y se cuentan bien. Las otras
+   quince se solapan entre si —influencia, respeto, magnetismo, conexion y apoyo
+   son versiones de lo mismo— y una lista de veintiuna es un indice, que es
+   exactamente lo que prohibe el apartado 2 bis.
+
+   Las seis: el tope, la influencia contra el cargo, el magnetismo, el apoyo
+   antes que la vision, el circulo intimo y las prioridades.
+
+   Lo concreto: los hermanos McDonald y Ray Kroc, que es el mejor caso del libro
+   y el que sostiene la primera ley.
+
+   La conclusion: veintiuna leyes llamadas irrefutables y sacadas de anecdotas
+   elegidas despues, sin un solo dato, y ninguna enunciada de forma que pudiera
+   fallar. El genero entero lo desmonto Phil Rosenzweig en 2007: sabiendo que
+   una empresa gano, le atribuimos buenas cualidades a su jefe, y las mismas
+   practicas se llaman visionarias o arrogantes segun el resultado.
+   -------------------------------------------------------------------------- */
+
+const LEYES_LIDERAZGO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dos hermanos inventaron McDonald's y no supieron hacerlo crecer, y ese caso explica todo el libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1948, Dick y Maurice McDonald tenían en San Bernardino un restaurante que funcionaba extraordinariamente bien. Habían inventado un sistema de cocina en cadena, con un menú de nueve productos, sin camareros y sin vajilla, que servía una hamburguesa en treinta segundos. Ganaban muchísimo dinero y eran magníficos operarios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Intentaron franquiciarlo y no fueron capaces. Vendieron unas pocas licencias, no lograron que nadie mantuviera el sistema y lo dejaron. En 1954 apareció Ray Kroc, un vendedor de batidoras de cincuenta y dos años con problemas de salud, que vio aquello y montó con ello una de las mayores empresas del mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "John Maxwell, pastor estadounidense convertido en autor de libros de dirección, abre con ese caso en 1998 para enunciar la primera de sus veintiuna leyes: la del tope. Dice que la capacidad de dirigir de una persona pone un techo a todo lo que puede conseguir, por muy buena que sea en lo suyo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre esa primera ley y otras cinco que merecen la pena: por qué un cargo no es lo mismo que mandar, por qué se atrae a quien uno es y no a quien quiere, por qué la gente compra antes al jefe que al plan, quién decide de verdad el techo de alguien, y qué se le puede reprochar a un libro con veintiuna leyes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los hermanos McDonald eran mejores cocinando que Kroc y ganaron mucho menos. Ser muy bueno en lo tuyo tiene un techo, y no es el tuyo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ser muy bueno en tu oficio te lleva hasta un punto, y ese punto lo pone otra capacidad distinta",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ley del tope dice que el resultado de alguien es el producto de dos cosas: lo bueno que es en su trabajo y lo bueno que es dirigiendo. Y que la segunda funciona como un multiplicador con techo: por muy alta que sea la primera, si la segunda es baja, el resultado se queda en un sitio del que no pasa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es la consecuencia práctica que saca. Alguien que ya es excelente en su oficio y que sigue dedicando todo su esfuerzo a mejorar en eso está trabajando en la variable equivocada: subir de un nueve a un diez en lo suyo cambia muy poco si el techo está puesto en otro sitio y no se ha tocado nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Maxwell separa además las dos habilidades, y esa distinción se sostiene sin ninguna teoría. Cocinar es hacer algo con las manos y se mejora practicando; conseguir que veinte personas cocinen igual sin estar tú delante es otra actividad completamente distinta, y ser magnífico en la primera no da ninguna ventaja en la segunda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la pregunta con la que se puede usar la ley esta misma semana. Ante un resultado que lleva tiempo estancado, hay que averiguar cuál de las dos cosas lo está frenando, porque casi todo el mundo da por hecho que es la primera y dedica años a mejorar en lo que ya hacía bien.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si algo tuyo lleva años estancado, mira si lo que falla es lo que sabes hacer o cómo consigues que lo hagan otros. No es lo mismo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un cargo no consigue que nadie te siga, solo consigue que te obedezcan mientras miras",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda ley que merece la pena es la de la influencia, y Maxwell la resume con una frase que se ha repetido mucho: dirigir es influir, ni más ni menos. Su afirmación es que el nombramiento y la autoridad real son cosas distintas, y que confundirlas es el error más caro de quien acaba de ascender.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba que propone es sencilla de hacer. Si alguien quiere saber cuánta influencia tiene de verdad, no tiene que mirar su tarjeta: tiene que fijarse en quién le pide opinión sin estar obligado, a quién llaman cuando hay un problema y qué pasa con lo que él propone cuando no está delante para insistir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca una observación que se comprueba en cualquier oficina. En casi todos los equipos hay alguien sin ningún cargo a quien la gente consulta antes de decidir, y a quien todo el mundo escucha en las reuniones aunque no le corresponda hablar. Esa persona dirige, y el organigrama no lo refleja en ningún sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Maxwell añade el corolario incómodo para quien manda con el cargo. La obediencia por autoridad funciona mientras hay vigilancia y desaparece en cuanto deja de haberla, y como nadie puede vigilar todo el rato, un jefe al que solo obedecen por el puesto está dirigiendo únicamente lo que alcanza a ver.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mira quién te pide opinión sin estar obligado. Eso mide tu influencia mucho mejor que lo que ponga en tu tarjeta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Atraes a la gente que eres, no a la gente que quieres, y por eso el equipo se parece al jefe",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ley del magnetismo es la más incómoda del libro y también la más aplicable. Dice que un equipo acaba pareciéndose a quien lo dirige en actitud, en energía, en nivel de exigencia y en valores, y que eso no se corrige con un proceso de selección mejor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón que da es de doble sentido. Quien contrata elige, sin darse cuenta, a gente con la que se entiende, y quien es contratado se queda o se va según cómo le siente el ambiente. Con esas dos criba al cabo de un par de años el equipo se ha homogeneizado alrededor del jefe, y nadie ha tomado esa decisión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es dura y es la que casi nadie quiere oír. Si a alguien no le llegan candidatos del nivel que busca, o si se le van los buenos, o si su gente es conformista, la explicación más probable no está en el mercado laboral ni en la generación que viene: está en él, porque lo que atrae es lo que uno es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Maxwell lo cierra con la única salida que ve, que es lenta y no gusta. Para cambiar el equipo hay que cambiar uno mismo primero: si se quiere gente que discuta, hay que empezar por soportar que le discutan; si se quiere gente exigente, hay que dejar de aceptar el trabajo mediocre propio antes que el ajeno.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si no te llega gente del nivel que buscas, mira antes en ti que en el mercado. Se atrae a quien uno es, no a quien uno quiere.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La gente compra primero a la persona y después el plan, y nunca al revés",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ley del apoyo explica una cosa que desconcierta a mucha gente: por qué la misma propuesta funciona en boca de una persona y fracasa en boca de otra. Maxwell sostiene que nadie juzga un plan en abstracto, y que lo primero que se decide, casi siempre sin decirlo, es si se confía en quien lo trae.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca las cuatro combinaciones posibles y son útiles para mirar cualquier equipo. Si a la gente le gusta el líder y le gusta el plan, va. Si le gusta el líder y no el plan, suele acompañar de todas formas. Si no le gusta el líder y sí el plan, busca otro sitio donde hacerlo. Y si no le gusta ninguno de los dos, no hay nada que hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que más le interesa es el tercero, porque es donde se pierden las buenas ideas. Un plan excelente presentado por alguien en quien no se confía no se rechaza de frente: se acepta en la reunión, se aplaza en la práctica y se muere de inanición sin que nadie tenga que discutirlo nunca en voz alta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia para quien llega nuevo a un sitio es la que da el consejo. Antes de proponer un cambio grande conviene haberse ganado algo de crédito con cosas pequeñas, porque el mismo plan presentado en el mes uno y en el mes seis recibe dos respuestas distintas, y la diferencia no está en el plan.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El mismo plan en el mes uno y en el mes seis recibe dos respuestas distintas. Lo que ha cambiado no es el plan.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Tu techo lo pone la gente que tienes más cerca, no la que tienes debajo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ley del círculo íntimo dice que el potencial de alguien lo determinan las pocas personas con las que trabaja más de cerca, y no el tamaño de su equipo ni su propio talento. Maxwell sostiene que nadie llega lejos rodeado de gente mediocre, por mucho que él valga, porque a partir de cierto punto todo lo importante pasa por ellos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación es de aritmética. Una persona sola tiene un límite de horas y de criterio; cinco personas buenas alrededor multiplican las dos cosas y además corrigen sus errores. Y al revés: cinco personas flojas convierten cualquier decisión buena en una ejecución mala, y el que decide ni se entera de por qué no salió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el consejo más incómodo del libro, que es el mismo que da Jim Collins con otras palabras. Hay que tratar las decisiones sobre quién está cerca como las decisiones más importantes que se toman, dedicarles tiempo de verdad, y actuar pronto cuando alguien no debería estar ahí, porque cada mes que pasa sale más caro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una prueba para saber si el círculo está bien montado. Si en ese grupo nadie le lleva nunca la contraria al que manda, no es un círculo íntimo: es un público. Un equipo cercano que solo confirma lo que ya se pensaba tiene exactamente el mismo valor que no tener a nadie, y cuesta bastante más caro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si en tu equipo cercano nadie te lleva nunca la contraria, no tienes un equipo: tienes público, y cuesta lo mismo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Estar ocupado y estar consiguiendo algo son cosas distintas, y se confunden todos los días",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ley de las prioridades se resume en una frase que Maxwell repite: actividad no es logro. Su observación es que quien dirige puede llenar la jornada entera de cosas razonables —correos, reuniones, revisiones, imprevistos— y terminar la semana agotado sin haber tocado ninguna de las tres cosas que de verdad decidían el trimestre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su herramienta son tres preguntas para cada tarea. Qué se exige de mí y no puedo delegar. Qué produce el mayor rendimiento, o sea dónde soy mucho mejor que cualquier sustituto. Y qué me da la mayor satisfacción, porque nadie sostiene durante años una agenda en la que no hay nada que le guste.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable es la segunda pregunta, que es la que casi nadie se hace. Casi todo lo que ocupa el día de un responsable lo podría hacer otra persona razonablemente bien, y hay una parte pequeña que solo puede hacer él; y como esa parte pequeña casi nunca es urgente, se cae del calendario todas las semanas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Maxwell añade que reordenar prioridades no es un ejercicio que se haga una vez. Cambia el proyecto, cambia el equipo, cambia el año, y lo que era decisivo en enero puede ser un trámite en septiembre. Su recomendación es revisarlo con calendario, como una tarea más, y no cuando ya se ha notado que algo va mal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todo lo que llena tu día lo podría hacer otro. Lo que solo puedes hacer tú casi nunca es urgente, y por eso se cae del calendario.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro cosas y funcionan en cualquier equipo. Distinguir si lo que te frena es tu oficio o tu manera de dirigir. Medir tu influencia por quién te consulta sin estar obligado. Mirar en ti antes que en el mercado cuando el equipo no da el nivel. Y comprobar que en tu círculo cercano hay alguien que te lleve la contraria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en la palabra del título. Llama irrefutables a veintiuna afirmaciones que no están enunciadas de manera que pudieran fallar: no hay ninguna predicción concreta, ningún caso en contra y ninguna manera de comprobar si alguna es falsa. Una ley que no puede desmentirse no es una ley, es una manera de ordenar la experiencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en el número. Varias de las veintiuna dicen lo mismo con otro nombre —la influencia, el respeto, el magnetismo, la conexión y el apoyo son versiones de que la gente sigue a personas y no a cargos—, y todas salen de anécdotas de directivos, generales y entrenadores elegidas después de saber que salieron bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese método lo desmontó Phil Rosenzweig en 2007 en un libro dedicado a este género. Su argumento es que cuando ya sabemos que una empresa ganó, le atribuimos a su jefe las virtudes que explican la victoria; y que las mismas prácticas se describen como visionarias o como arrogantes según cómo acabara la cosa. La mayoría de estas veintiuna leyes se han deducido así.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una ley que no puede desmentirse con ningún caso no es una ley. Sirve para ordenar lo que ya pasó, y no para prever nada.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   Confesiones de un chef, en ocho paginas.
+
+   Breve. MEMORIA -> titulo corto de imagen en el rotulo y afirmacion en la
+   primera frase (apartado 3 bis). Caja en segunda persona: no es un libro
+   escrito desde una desgracia, es una memoria profesional, y las lecciones de
+   oficio se trasladan bien.
+
+   Seis argumentos: la ostra que empezo todo, lo que de verdad hace bueno a un
+   cocinero, la brigada, quien sostiene los restaurantes de verdad, los consejos
+   para comer fuera y la adiccion contada sin adorno.
+
+   EL QUE PASO DESPUES ES EL MEJOR POSIBLE Y HAY QUE DARLO ENTERO: Bourdain se
+   volvio contra su propio libro. Dijo en publico, sobre todo desde 2017, que
+   habia contribuido a que la cultura de alcohol, drogas y machismo de las
+   cocinas pareciera atractiva, y que se le habia usado como excusa. Se critico
+   a si mismo con dureza. Murio en 2018.
+
+   De su muerte se dice el hecho y nada mas: ni causas, ni interpretacion, ni
+   lectura moral. No es asunto de un resumen de libro.
+   -------------------------------------------------------------------------- */
+
+const CONFESIONES_CHEF: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una ostra en un barco" },
+      {
+        b: "texto",
+        texto:
+          "Anthony Bourdain era jefe de cocina de un bistró francés de Nueva York, tenía cuarenta y tres años y ninguna fama, cuando en 1999 mandó a una revista un artículo contando lo que de verdad pasa en las cocinas de los restaurantes. Al año siguiente lo convirtió en este libro y su vida cambió por completo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Empieza contando el momento exacto en que decidió dedicarse a esto, y es una escena pequeña. De niño, en unas vacaciones familiares en Francia, en un barco de ostricultores, alguien le ofreció una ostra recién sacada del agua. Se la comió delante de todos, cruda, y le gustó. Sus padres y su hermano no quisieron probarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que cuenta de aquello no es el sabor sino el descubrimiento: había una cosa que él era capaz de hacer y los demás no, y que además le daba un placer que nadie de su familia entendía. Bourdain sitúa ahí el principio de todo, y la escena vale porque explica mejor que ningún discurso qué le enganchó de aquel oficio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre qué hace bueno a un cocinero y no es lo que se cree, cómo funciona una cocina profesional por dentro, quién sostiene realmente los restaurantes de un país, qué conviene y qué no conviene pedir cuando se come fuera, cómo cuenta sus años de adicción, y qué acabó pensando el propio Bourdain de este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todo el mundo puede señalar el momento en que descubrió que había algo que sabía disfrutar y los de alrededor no. Ahí suele empezar un oficio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Llegar todos los días" },
+      {
+        b: "texto",
+        texto:
+          "La afirmación profesional del libro, y la que más le importa a Bourdain, va contra lo que cualquiera esperaría. Dice que lo que hace bueno a un cocinero no es el talento, ni la creatividad, ni el paladar: es aparecer. Estar allí todos los días, a la hora, entero, preparado y sin excusas, durante años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo explica con la experiencia de haber contratado a mucha gente. Los cocineros brillantes que llegan tarde, que desaparecen un viernes o que no soportan una crítica hunden un servicio y arrastran a todo el equipo; el que no es genial y está siempre sostiene el restaurante. Y en una cocina, dice, no se puede improvisar quién hace lo que faltaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí viene la parte del libro que ha salido del gremio y se usa en todas partes: la preparación previa. En francés se llama con dos palabras que significan poner en su sitio, y consiste en tener todo cortado, medido y colocado antes de que empiece el servicio, porque en cuanto empieza no hay ni un segundo para buscar nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bourdain lo eleva a manera de vivir sin ponerse solemne. Sostiene que un cocinero se conoce por el estado de su puesto a las siete de la tarde, antes de que llegue nadie, y que quien empieza el servicio con su mesa desordenada ya ha perdido la noche aunque todavía no lo sepa. Es la mejor idea aprovechable del libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Deja todo preparado antes de empezar. Quien arranca con el sitio desordenado ya ha perdido, aunque tarde tres horas en enterarse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La brigada y sus reglas" },
+      {
+        b: "texto",
+        texto:
+          "El libro describe con detalle cómo está organizada una cocina profesional, que es un sistema militar diseñado en el siglo XIX y que sigue funcionando igual. Hay un jefe, un segundo, y una cadena de puestos con nombres franceses, cada uno responsable de una parte y de nadie más: salsas, pescados, entrantes fríos, guarniciones, postres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bourdain explica por qué esa rigidez no es una antigüedad. En un servicio de doscientos comensales entran comandas cada pocos segundos, todos los platos de una mesa tienen que salir a la vez y calientes, y no hay tiempo de negociar nada. La jerarquía y el vocabulario cerrado existen para que una orden se ejecute sin que nadie tenga que entenderla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También cuenta lo que eso hace con las personas, y es la parte más cruda. Turnos de catorce horas, quemaduras y cortes constantes, gritos, insultos, humillaciones públicas, y un ambiente de resistencia física en el que reconocer que uno no puede es lo único que no se perdona. Lo describe como lo vivió: sin quejarse y sin adornarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y explica por qué esa gente aguanta, que es lo que un lector de fuera no entiende. Hay una satisfacción muy concreta en salir de un servicio imposible habiendo aguantado, y una lealtad de trinchera con los que estaban al lado, y eso engancha. Bourdain dice que fuera de una cocina nunca volvió a encontrar ese tipo de compañía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En los sitios donde se aguanta mucho junto se crea un tipo de lealtad que no aparece en ninguna otra parte, y por eso cuesta tanto salir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los que están detrás" },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos más honestos del libro no va de chefs famosos: va de quién cocina de verdad. Bourdain afirma sin rodeos que buena parte de los restaurantes de Nueva York los sostienen cocineros ecuatorianos y mexicanos, muchos de ellos sin papeles, que aprenden el oficio dentro y a los que nadie entrevista nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuenta que en sus cocinas la gente más fiable, la que nunca faltaba y la que más rápido aprendía era casi siempre esa, y que la rotación estaba en el otro lado: en los graduados de escuelas de cocina caras que llegaban convencidos de que iban a crear y se marchaban al comprobar cuántas horas de plancha hay antes de eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El dato que le sirve para rematarlo es de sueldo y de reconocimiento. Los que aparecen en las revistas y firman los menús son otros; los que llevan quince años haciendo el mismo puesto seis noches por semana no salen en ningún sitio y cobran una parte pequeña. Bourdain lo dice como una injusticia y no como un dato de color.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es una de las razones por las que el libro sigue leyéndose. Podría haber sido una memoria de cocinero pintoresco y dedica capítulos enteros a explicar quién hace realmente el trabajo en un sector entero, con nombres, sueldos y horarios, en un tono que no busca compasión sino reconocimiento profesional.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En casi todos los oficios, los que aparecen en las revistas y los que sostienen el trabajo no son las mismas personas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "No pidas pescado un lunes" },
+      {
+        b: "texto",
+        texto:
+          "La parte que hizo famoso el artículo original son los consejos para comer fuera, y funcionan porque no son de gusto sino de logística. El más citado es el del pescado los lunes: los mercados no reparten en fin de semana, así que el pescado del lunes en un restaurante normal lleva desde el jueves o el viernes en la cámara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo es el brunch del domingo, que Bourdain describe como el sitio donde va a parar lo que sobró de la semana, cocinado por el personal más nuevo mientras los buenos descansan. Y el tercero es la salsa holandesa, que se hace con huevo y mantequilla, se mantiene templada durante horas y es un cultivo perfecto para lo que no conviene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay uno más que es una lección de comportamiento humano. Dice que quien pide un filete muy hecho se lleva la peor pieza de la casa, porque el cocinero sabe que a esa temperatura no se va a notar nada, y que la carne buena se reserva para quien la va a apreciar. No es una venganza: es aritmética de inventario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir que esa parte ha envejecido de forma desigual y que él mismo lo reconoció años después. Las cadenas de frío, el transporte y los controles han cambiado bastante desde 1999, y lo del pescado del lunes ya no es lo que era en casi ninguna ciudad. Lo que aguanta es el método: pensar en cómo funciona el sitio antes de pedir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de pedir, piensa en cómo funciona ese sitio: cuándo recibe, cuándo descansa la gente buena y qué lleva horas en espera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los años que no cuenta con nostalgia" },
+      {
+        b: "texto",
+        texto:
+          "El libro incluye un tramo largo sobre su propia adicción durante los años ochenta —heroína primero, cocaína después— y sobre los años en que fue un cocinero mediocre en restaurantes que cerraban. Es la parte que más le costó escribir y la que mejor sostiene el resto, porque quita al autor del sitio del narrador simpático.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo cuenta sin ninguna épica. Describe robar dinero, mentir a todo el mundo, perder trabajos, vender sus discos, y las mañanas de un adicto que tiene que estar en una cocina a las nueve. No hay ni una frase que sugiera que aquello tuviera algo de romántico, y ese tono es deliberado y contrasta con el resto del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y no cuenta cómo salió, que es la decisión más honesta que toma. No hay capítulo de redención, ni fondo del pozo con revelación, ni consejo para nadie. Bourdain dice básicamente que tuvo suerte de seguir vivo y que conoce a bastantes que no la tuvieron, y pasa al capítulo siguiente sin sacar ninguna moraleja.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa parte explica además por qué le creyó tanta gente. Un libro que cuenta las cosas buenas de un oficio y calla las malas se lee como publicidad; este cuenta las dos con el mismo detalle, incluidas las del propio autor, y eso es lo que hace que sus afirmaciones sobre lo demás resulten creíbles.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien cuenta también lo suyo malo con el mismo detalle se gana que le creas lo demás. Es la manera más cara de tener razón.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que acabó pensando de su propio libro" },
+      {
+        b: "texto",
+        texto:
+          "Lo más interesante que le ha pasado a este libro no está dentro. Con los años, Bourdain fue tomando distancia de él y acabó diciendo en público que le parecía un problema, y no por una frase suelta sino por lo que había contribuido a fabricar durante veinte años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su reproche era concreto. Sostuvo que había contado la cultura de alcohol, drogas, gritos y machismo de las cocinas de una manera que resultaba atractiva, y que mucha gente del sector la había leído no como una descripción sino como un permiso y como una identidad de la que presumir. Dijo que se le había usado de excusa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de 2017, cuando salieron a la luz casos de abuso en el mundo de la restauración, fue todavía más duro consigo mismo. Reconoció que había formado parte de aquel ambiente, que no había querido ver lo que pasaba a su alrededor y que su libro había ayudado a que aquello pareciera glamuroso en vez de lo que era.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bourdain murió en 2018, a los sesenta y un años. Lo que queda de su obra, además de los programas de televisión que hizo después, es un libro que su propio autor acabó cuestionando, y esa doble condición es exactamente lo que conviene saber al empezarlo: es una descripción excelente de un mundo, y no es un elogio de ese mundo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un autor que acaba discutiéndole a su propio libro veinte años después dice más de él que cualquier reseña.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro cosas y ninguna necesita cocinar. Que lo que hace bueno a alguien en un oficio duro no es el talento sino aparecer todos los días. Que hay que dejarlo todo preparado antes de empezar, porque quien arranca desordenado ya ha perdido. Que en casi cualquier sector los que salen en las revistas y los que sostienen el trabajo no coinciden. Y que contar también lo propio malo es lo que hace creíble lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en lo que su propio autor acabó señalando. El libro cuenta un ambiente de exceso, dureza y humillación con un entusiasmo que se lee como celebración, y durante veinte años una parte del sector lo usó exactamente así. Bourdain lo reconoció y se criticó con dureza por ello, y conviene leerlo sabiéndolo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también, de manera menor, en la parte práctica que lo hizo famoso. Los consejos sobre qué pedir estaban pensados para el Nueva York de 1999 y varios han envejecido con la cadena de frío y los controles; él mismo lo dijo después. Lo que sigue sirviendo no son los consejos sino el método de mirar cómo funciona un sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso a la vista, lo que queda es una de las mejores memorias de oficio que se han escrito. Vendió millones de ejemplares, sacó a la luz un mundo entero que nadie contaba y le cambió la vida a su autor, que pasó de jefe de cocina de un bistró a viajar veinte años enseñando cómo come la gente en el resto del planeta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que más aguanta de este libro no son los consejos para pedir en un restaurante: es que en cualquier oficio duro gana el que aparece.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "confesiones-chef": CONFESIONES_CHEF,
+  "21-leyes-liderazgo": LEYES_LIDERAZGO,
   "usted-puede-sanar": USTED_PUEDE_SANAR,
   "amor-tiempos-colera": AMOR_TIEMPOS_COLERA,
   "caballero-armadura": CABALLERO_ARMADURA,

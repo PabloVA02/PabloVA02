@@ -22,6 +22,8 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "confesiones-chef": "Aventuras en el trasfondo culinario",
+  "21-leyes-liderazgo": "Siga estas leyes y la gente lo seguirá a usted",
   "transformacion-dinero": "Un plan efectivo para alcanzar su bienestar económico",
   "cuadrante-flujo": "Guía del padre rico hacia la libertad financiera",
   "efecto-compuesto": "Multiplicar el éxito de forma sencilla",
