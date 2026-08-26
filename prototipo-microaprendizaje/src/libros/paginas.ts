@@ -94744,7 +94744,279 @@ const FOCUS_GOLEMAN: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El proceso, de Franz Kafka (1925), en ocho páginas.
+
+   Novela, así que el registro del apartado 3 bis: titulares cortos de
+   imagen, de tres a cinco palabras, y la afirmación en la primera frase de
+   cada página. La caja del rayo habla al lector en segunda persona y saca
+   de la escena algo para su vida, como en el modelo de La Odisea.
+
+   Y se cuenta lo que casi nadie cuenta: los tres finales de Titorelli, el
+   comerciante Block, y que el libro está inacabado y su orden es una
+   decisión editorial y no del autor.
+   -------------------------------------------------------------------------- */
+
+const EL_PROCESO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un arresto sin cárcel" },
+      {
+        b: "texto",
+        texto:
+          "La novela más famosa sobre la culpa empieza con un hombre que no está detenido. La mañana en que cumple treinta años, Josef K. espera el desayuno en su pensión y en su lugar entran dos hombres que le comunican que está arrestado. Se comen su desayuno, le miran la ropa interior y no le dicen de qué se le acusa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurre después es lo que convierte el libro en lo que es: no se lo llevan. K. se viste, va a su banco y trabaja toda la jornada. Sigue viviendo en su habitación, cobrando su sueldo y saliendo a cenar. Está arrestado y libre a la vez, y ese estado dura el año entero que dura la novela.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Franz Kafka la escribió entre 1914 y 1915 y no la terminó. Trabajaba como jurista en un instituto de seguros de accidentes laborales de Praga, donde pasaba el día leyendo expedientes de obreros mutilados y redactando resoluciones. La lengua administrativa que usa el libro no es una invención literaria: era su oficio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que casi nadie recuerda de esta novela: dónde se reúne el tribunal, cuáles son los tres finales posibles de un proceso, qué le ha pasado al comerciante que lleva cinco años en lo mismo, qué dice exactamente la parábola del guardián de la puerta y por qué el libro que se lee hoy es una decisión de otra persona.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que te paraliza casi nunca es una prohibición clara. Es una acusación que nadie formula y que por eso no puedes contestar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nadie dice el delito" },
+      {
+        b: "texto",
+        texto:
+          "El motor del libro es una omisión: en trescientas páginas nadie llega a decir de qué se acusa a Josef K. Él pregunta, y los guardias contestan que ellos no lo saben y que no están para eso. El inspector le explica que él tampoco puede informarle. El tribunal se dirige a él sin haberle imputado nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kafka construye ahí un mecanismo perfecto y lo hace sin decirlo en ningún momento. Frente a una acusación concreta cabe una defensa concreta: se demuestra dónde se estaba, se enseña un recibo, se llama a un testigo. Frente a una acusación que no se enuncia no hay nada que probar, y lo único que queda por defender es la vida entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso K. se pasa el libro justificándose de cosas por las que nadie le ha preguntado. Explica su trabajo, sus relaciones, su conducta con la señorita Bürstner, su carácter. Cuanto más se defiende, más parece que hay algo, y esa es la trampa: quien se justifica sin que le acusen está construyendo el expediente él solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un detalle que muchos lectores pasan por alto y que cambia el tono del libro. Kafka leyó el primer capítulo en voz alta a sus amigos y todos se rieron, él incluido. La novela está escrita con humor negro, y la solemnidad con que suele leerse hoy es una capa que le pusieron después sus lectores.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si te justificas de algo que nadie te ha reprochado, estás escribiendo tú el expediente. Antes de defenderte, pide que te digan la acusación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El tribunal está en el desván" },
+      {
+        b: "texto",
+        texto:
+          "El tribunal que juzga a Josef K. no está en un palacio de justicia: está en los desvanes de unos bloques de viviendas obreras, a los que se llega cruzando cocinas y patios con ropa tendida. La sala de vistas es un cuarto abarrotado, con la gente inclinada bajo el techo bajo, y las oficinas judiciales ocupan buhardillas de otros edificios iguales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese acierto de decorado hace un trabajo enorme. Un tribunal solemne se puede odiar, recurrir o denunciar; un tribunal instalado en el desván del vecino no ofrece a qué agarrarse. K. no se enfrenta a un poder que se presenta como tal, sino a algo que está por todas partes y no aparece en ningún organigrama.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El aire de esas oficinas está viciado y sienta mal a quien no está acostumbrado. K., que llega sano, se marea y tiene que salir sostenido por dos empleados, y a la puerta recupera el aliento de golpe. Los funcionarios, en cambio, no soportan el aire de la calle: llevan tanto tiempo ahí dentro que se han adaptado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kafka coloca además a los acusados en los pasillos, esperando sentados en bancos largos, encorvados, sin saber a qué esperan. Cuando K. les habla, se levantan por costumbre. Están todos igual que él, y ninguno se lo cuenta a nadie, porque estar acusado es lo que hay que ocultar antes que ninguna otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un detalle de vocabulario que en español se pierde. La palabra alemana del título, «Process», designa a la vez el procedimiento judicial y un proceso cualquiera, algo que avanza por sí solo sin que nadie lo empuje. Las dos acepciones funcionan a la vez durante toda la novela.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que te tiene atrapado rara vez tiene un edificio con nombre. Suele estar repartido entre despachos pequeños donde nadie se siente responsable.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los tres finales posibles" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo del pintor Titorelli contiene la explicación más clara y más desesperante del libro. Titorelli vive en otro desván, pinta retratos de jueces por encargo y conoce el funcionamiento del tribunal por dentro. Le explica a K. que un proceso solo puede terminar de tres maneras, y se las enumera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es la absolución auténtica, aquella en la que el acusado queda libre y el expediente desaparece. Titorelli reconoce que nunca ha visto ninguna. Sabe de ellas por relatos antiguos que se cuentan y que quizá sean leyendas, y admite con toda naturalidad que no puede probar que alguna haya ocurrido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es la absolución aparente: se consigue que los jueces de instancia inferior firmen y el acusado se va a casa, con la condición de que la acusación sigue existiendo y puede reactivarse en cualquier momento, incluso al día siguiente, sin que nadie tenga que explicar por qué. La tercera es el aplazamiento indefinido: mantener el proceso permanentemente en su primera fase, sin que avance nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que se desprende es la más dura de la novela. Se puede escapar del castigo, pero no del proceso: las dos salidas practicables consisten en convivir con él para siempre, una fingiendo que terminó y otra impidiendo que empiece. Nadie sale limpio, porque salir limpio es la opción de la que solo existen rumores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Titorelli añade una advertencia práctica que remata el cuadro. Para conseguir cualquiera de las dos salidas viables hay que dedicarles atención permanente, ir a ver a los jueces, mantener las relaciones. El proceso no exige inocencia: exige dedicación, y quien deja de dedicársela lo pierde.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay asuntos de los que no se sale absuelto: se sale aplazándolos o fingiendo que acabaron. Elegir cuál de los dos es a veces todo lo que puedes elegir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El comerciante que ya no discute" },
+      {
+        b: "texto",
+        texto:
+          "El personaje que mejor enseña adónde lleva todo esto es un secundario del que casi nadie se acuerda: Block, un comerciante que lleva más de cinco años con su proceso abierto y que es cliente del mismo abogado que K. Cuando aparece, ya no queda de él nada del hombre de negocios que fue.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Block ha liquidado prácticamente su negocio para dedicarse a su causa a tiempo completo. Ha contratado además a cinco abogados clandestinos por su cuenta, sin decírselo al primero, y se pasa el día esperando en una habitación de servicio por si el letrado quiere recibirlo. Vive dentro de la casa de su abogado como un criado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena en la que el abogado Huld lo humilla delante de K. es de las más incómodas del libro. Le habla como a un perro, lo hace arrodillarse junto a la cama y Block obedece agradecido, porque en aquella humillación ve una señal de que su asunto interesa. Ha aprendido que la sumisión es la única moneda que allí se acepta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kafka pone a ese hombre delante de K. como un espejo del futuro, y K. lo entiende y sale de allí decidido a despedir al abogado. Es una de las pocas decisiones lúcidas que toma en toda la novela, y llega demasiado tarde: para entonces el proceso ya se ha comido su trabajo, su casa y su manera de mirar a la gente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando algo te ocupa entero, empiezas a llamar buena señal a cualquier atención que recibas. Fíjate en quién ha llegado antes que tú a ese punto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La puerta era solo suya" },
+      {
+        b: "texto",
+        texto:
+          "En la catedral, un sacerdote le cuenta a K. una historia de cinco páginas que Kafka publicó por su cuenta en 1915 y que se lee sola: «Ante la ley». Un hombre del campo llega a una puerta que da acceso a la ley y un guardián le dice que ahora no puede pasar. El hombre pregunta si podrá más adelante, y el guardián contesta que es posible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hombre se sienta a esperar. Espera días, años, toda su vida. Intenta sobornar al guardián, que acepta los regalos diciéndole que lo hace solo para que él no crea que ha dejado algo por intentar. Envejece allí, se vuelve infantil, habla con las pulgas del cuello de piel del guardián para que le ayuden a convencerlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al final, ya moribundo, hace la pregunta que no había hecho en toda su vida: si todos aspiran a la ley, ¿cómo es que en tantos años nadie más ha pedido entrar? El guardián le grita al oído, porque ya casi no oye, que aquella puerta estaba destinada únicamente a él, y que ahora se va a cerrarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que viene después es tan importante como la parábola. El sacerdote y K. discuten durante páginas quién estaba engañado, si el guardián o el hombre, y el sacerdote va desmontando cada interpretación que K. propone, incluida la suya propia. No hay lectura correcta, y Kafka lo deja escrito dentro del propio libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie te va a decir que ya puedes pasar. Hay puertas que estaban abiertas para ti y solo para ti, y esperar permiso es la manera de perderlas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Como un perro" },
+      {
+        b: "texto",
+        texto:
+          "El final de la novela es de una brevedad brutal. La víspera de su trigésimo primer cumpleaños, exactamente un año después del arresto, dos hombres pálidos con levita y chistera se presentan en casa de K. Él los ve llegar, se ha puesto un traje negro y lo estaba esperando: ya no pregunta nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo llevan del brazo por la ciudad de noche, con una cortesía teatral, hasta una cantera abandonada a las afueras. Allí le quitan la chaqueta y la camisa, lo colocan contra una piedra y se pasan el cuchillo el uno al otro por encima de él, con una ceremonia absurda, como esperando que sea él quien lo coja.",
+      },
+      {
+        b: "texto",
+        texto:
+          "K. no lo coge. Mira hacia una casa cercana, donde alguien se asoma a una ventana iluminada del último piso y extiende los brazos, y en ese momento piensa quién era, si un amigo, si alguien bueno, si serían muchos. Entonces uno de los hombres le clava el cuchillo en el corazón y lo gira dos veces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las últimas palabras que pronuncia son dos: «¡Como un perro!». Y la última frase del libro dice que era como si la vergüenza hubiera de sobrevivirle. No hay sentencia, no hay juicio, no hay delito, y sin embargo lo que queda al final no es la injusticia: es la vergüenza, que es lo que sienten los acusados y no los condenados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kafka escribió ese final antes que casi todo lo demás, cuando llevaba unos meses de novela. Sabía cómo terminaba desde el principio y dejó sin escribir el medio, que es exactamente lo contrario de como se construye una intriga.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que deja una acusación no es el castigo, es la vergüenza. Y la vergüenza no necesita que nadie haya demostrado nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El proceso cuenta un año en la vida de un hombre acusado de algo que nadie enuncia, y su hallazgo es haber descubierto que un poder sin rostro no necesita encerrar a nadie. Basta con abrir un expediente y dejar que el acusado organice su vida alrededor de él, hasta que no le quede otra cosa dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a cualquier libro sobre la injusticia es que no acusa a nadie. No hay un tirano, ni una conspiración, ni un funcionario malvado: hay gente cansada trabajando en desvanes mal ventilados y un procedimiento que se sostiene solo. Por eso la palabra kafkiano acabó entrando en los diccionarios, porque describe algo para lo que no había nombre.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando algo se apodere de tu tiempo sin haberte dicho qué quiere de ti, mira a quién le lleva pasando cinco años. Ese es el final que te espera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y hay que decirlo porque casi nunca se dice: el libro está inacabado. Kafka murió en 1924, a los cuarenta años, dejando capítulos incompletos y un montón de cuadernos sin orden. Fue su amigo Max Brod quien decidió qué capítulos entraban y en qué secuencia, y los editores llevan un siglo discutiendo esa decisión. Además, todas las mujeres de la novela aparecen dispuestas a acostarse con el acusado, una detrás de otra, y esa mecánica repetida es lo más flojo del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después es una cadena de desobediencias afortunadas. Kafka dejó por escrito a Brod que quemara todo lo que no había publicado, y Brod no lo hizo: publicó esta novela en 1925 y las otras dos en los años siguientes. El manuscrito viajó con él a Palestina en 1939 huyendo de los nazis, se subastó en Londres en 1988 por cerca de un millón de libras y hoy está en el archivo literario alemán de Marbach. La lectura del libro como profecía de los totalitarismos llegó también después, y tiene un eco que estremece: las tres hermanas de Kafka murieron en campos de exterminio.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "el-proceso": EL_PROCESO,
   "focus-goleman": FOCUS_GOLEMAN,
   "guerra-chips": GUERRA_CHIPS,
   "placebo-eres-tu": PLACEBO_ERES_TU,

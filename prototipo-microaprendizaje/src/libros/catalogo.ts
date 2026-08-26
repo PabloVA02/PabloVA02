@@ -247,7 +247,7 @@ export const CATALOGO: Ficha[] = [
   { id: "juegos-hambre", titulo: "Los juegos del hambre", autor: "Suzanne Collins", ano: 2008, categoria: "Literatura", estado: "escrito" },
   { id: "cumbres-borrascosas", titulo: "Cumbres borrascosas", autor: "Emily Brontë", ano: 1847, categoria: "Literatura", estado: "escrito" },
   { id: "jane-eyre", titulo: "Jane Eyre", autor: "Charlotte Brontë", ano: 1847, categoria: "Literatura", estado: "escrito" },
-  { id: "el-proceso", titulo: "El proceso", autor: "Franz Kafka", ano: 1925, categoria: "Literatura", estado: "pendiente" },
+  { id: "el-proceso", titulo: "El proceso", autor: "Franz Kafka", ano: 1925, categoria: "Literatura", estado: "escrito" },
   { id: "siddhartha", titulo: "Siddhartha", autor: "Hermann Hesse", ano: 1922, categoria: "Literatura", estado: "escrito" },
   { id: "alicia-maravillas", titulo: "Alicia en el país de las maravillas", autor: "Lewis Carroll", ano: 1865, categoria: "Literatura", estado: "pendiente" },
   { id: "jekyll-hyde", titulo: "El extraño caso del doctor Jekyll y el señor Hyde", autor: "R. L. Stevenson", ano: 1886, categoria: "Literatura", estado: "pendiente" },

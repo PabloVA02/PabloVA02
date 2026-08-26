@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "el-proceso":
+    "La mañana en que cumple treinta años, Josef K. es arrestado en su pensión y nadie le dice de qué se le acusa. No lo encierran: sigue trabajando en su banco durante todo el año que dura el proceso.",
+
   "focus-goleman":
     "Un estudio de Harvard con más de dos mil personas encontró que la mente está en otra cosa el cuarenta y siete por ciento del tiempo. Goleman parte de ahí para separar tres formas de atención que no se acompañan entre sí.",
 

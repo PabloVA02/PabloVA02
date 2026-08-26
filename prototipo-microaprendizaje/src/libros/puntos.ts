@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "el-proceso": [
+    "por qué una acusación que nadie formula no se puede contestar",
+    "que justificarse sin que te acusen construye el expediente solo",
+    "cómo un poder repartido en despachos pequeños no deja a quién recurrir",
+    "los tres finales que puede tener un asunto que no se cierra nunca",
+    "qué queda de una acusación cuando no ha habido ni condena ni prueba",
+  ],
+
   "focus-goleman": [
     "por qué el ánimo empeora cuando la mente se va a otro sitio",
     "que la maestría depende de corregir el error y no de sumar horas",
