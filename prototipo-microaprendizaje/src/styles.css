@@ -7942,9 +7942,11 @@ button {
 .hoy-ceja {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 10px;
+  gap: 8px;
 }
+/* El rótulo empuja al reloj y al guardar contra el filo derecho, y es el
+   único de los tres que puede encogerse. */
+.hoy-rotulo { flex: 1 1 auto; min-width: 0; }
 .hoy-rotulo {
   font-size: 10.5px;
   font-weight: 700;
@@ -8001,28 +8003,36 @@ button {
 .hoy-marco > * { width: 100%; height: 100%; }
 
 /* Montada sobre el filo de abajo de la cubierta, igual que la suya. */
+/* El guardar estaba montado sobre el filo de abajo de la cubierta, como el de
+   Headway, y ahí tapaba dibujo: en «El mundo de ayer» se comía el nombre de
+   Zweig, que va impreso en la portada. Con 277 cubiertas distintas no hay un
+   sitio de la lámina que esté libre en todas, así que la solución no es
+   moverlo dentro del dibujo: es sacarlo del dibujo.
+
+   Sube a la ceja, redondo y sin palabra, y ahí no estorba a nada. De paso
+   arregla algo que estaba mal escrito: antes era un `span` con `role=button`
+   metido dentro del `button` de la portada —un botón dentro de otro, que ni
+   es HTML válido ni se tabula bien— y ahora es un botón hermano. Las 32
+   puntos del círculo son las mismas de alto que la pastilla del reloj que
+   tiene al lado, así que la fila de arriba queda a una sola altura. */
 .hoy-guardar {
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  height: 34px;
-  padding: 0 14px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
   border-radius: 999px;
-  background: rgba(16, 14, 20, 0.82);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  color: #f2ece1;
-  font-size: 13.5px;
-  font-weight: 640;
-  white-space: nowrap;
+  background: rgba(12, 10, 16, 0.42);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  color: rgba(242, 236, 225, 0.86);
   cursor: pointer;
 }
-.hoy-guardar[data-on="true"] { color: var(--acento, #cfa059); }
-.hoy-guardar svg { width: 15px; height: 15px; }
+.hoy-guardar[data-on="true"] {
+  color: #17151c;
+  background: color-mix(in srgb, var(--acento, #c2704f) 84%, #f2ece1);
+}
+.hoy-guardar svg { width: 16px; height: 16px; }
 
 .hoy-autor {
   margin: 13px 0 0;
@@ -8034,11 +8044,6 @@ button {
 /* La suya pone aquí dos temas separados por un punto. La nuestra pone el tema
    y los dos tiempos, que es lo que de verdad se pregunta antes de entrar. */
 .hoy-medida {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 7px;
   margin: 7px 0 0;
   font-size: 14px;
   font-weight: 640;
@@ -8046,7 +8051,6 @@ button {
   font-variant-numeric: tabular-nums;
   text-align: center;
 }
-.hoy-punto { opacity: 0.45; }
 
 /* --- Los dos botones ----------------------------------------------------- */
 .hoy-botones {

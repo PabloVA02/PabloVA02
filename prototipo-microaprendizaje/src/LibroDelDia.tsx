@@ -31,10 +31,10 @@ import { minutosDeLibro } from "./Biblioteca";
       en todos los libros; aquí el halo y el botón salen del color de la
       categoría, así que la tarjeta cambia de temperatura cada día.
 
-   3. DICE CUÁNTO DURA, LEYENDO Y OYENDO. Los dos números salen de contar las
-      palabras del resumen —200 por minuto leyendo, 140 diciéndolo— y no de
-      una estimación escrita a mano. Headway no da ninguno de los dos en esta
-      tarjeta y es la primera pregunta que hace cualquiera.
+   3. DICE CUÁNTO DURA. El número sale de contar las palabras del resumen y
+      no de una estimación escrita a mano. Headway no lo da en esta tarjeta y
+      es la primera pregunta que hace cualquiera. Es uno solo, y a 140
+      palabras por minuto: ver el comentario de `.hoy-medida` más abajo.
 
    4. TIENE CUENTA ATRÁS. Si el libro es de hoy, hay que decir cuánto queda de
       hoy. Es la única urgencia honesta que se puede poner en una pantalla:
@@ -135,8 +135,7 @@ export function LibroDelDia({
      tres veces se lee peor que esto. */
   const libre = !suscrito;
 
-  const minLeer = libro.minutos;
-  const minOir = minutosDeLibro(libro);
+  const minutos = minutosDeLibro(libro);
 
   return (
     <motion.section
@@ -174,6 +173,21 @@ export function LibroDelDia({
           <GlyphReloj />
           {queda}
         </span>
+        {onGuardar && (
+          <motion.button
+            className="hoy-guardar"
+            type="button"
+            data-on={guardado ? "true" : "false"}
+            whileTap={{ scale: 0.9 }}
+            onClick={() => {
+              onGuardar(libro);
+              if (!guardado) setAviso(true);
+            }}
+            aria-label={guardado ? "Quitar de tu biblioteca" : "Guardar en tu biblioteca"}
+          >
+            {guardado ? <GlyphVisto /> : <GlyphGuardar />}
+          </motion.button>
+        )}
       </header>
 
       {/* Centrado y en columna, como el suyo: la cubierta manda y todo lo
@@ -198,38 +212,31 @@ export function LibroDelDia({
               tamano={150}
             />
           </span>
-
-          {/* Montado sobre el filo de abajo de la cubierta, como el suyo. */}
-          {onGuardar && (
-            <motion.span
-              className="hoy-guardar"
-              role="button"
-              tabIndex={0}
-              data-on={guardado ? "true" : "false"}
-              whileTap={{ scale: 0.94 }}
-              onClick={(e) => {
-                e.stopPropagation();
-                onGuardar(libro);
-                if (!guardado) setAviso(true);
-              }}
-              aria-label={guardado ? "Quitar de tu biblioteca" : "Guardar en tu biblioteca"}
-            >
-              {guardado ? <GlyphVisto /> : <GlyphGuardar />}
-              {guardado ? "Guardado" : "Guardar"}
-            </motion.span>
-          )}
         </button>
 
         <p className="hoy-autor">{libro.autor}</p>
-        {/* Dos datos y no tres: la suya pone dos temas separados por un
-            punto y cabe en una línea. Con la categoría delante se iba a dos,
-            y una línea partida en medio de «15 min oyendo» estropea el
-            centrado de toda la tarjeta. */}
-        <p className="hoy-medida">
-          <span>{minLeer} min leyendo</span>
-          <span className="hoy-punto" aria-hidden>·</span>
-          <span>{minOir} min oyendo</span>
-        </p>
+        {/* UN dato y no dos, y hay un motivo que no es de gusto: los dos
+            números eran EL MISMO. Esta línea ponía «23 min leyendo · 23 min
+            oyendo» y no se notaba porque nadie compara dos cifras que están
+            juntas y dicen cosas distintas.
+
+            Venía de la corrección del 21 de agosto. Ese día se arregló que la
+            estantería dijera 13 minutos de un libro cuya ficha decía 18, y se
+            arregló bien: `puente.ts` pasó a sacar `minutos` de
+            `minutosDePaginas()`, o sea de contar las palabras a 140 por
+            minuto. Pero aquí seguía llamándose `minLeer`, y al lado se pedía
+            otra vez la misma función con el nombre `minOir`. Dos variables,
+            una cuenta.
+
+            Así que se queda una línea, y con la cuenta de 140. Ese número no
+            es una licencia: 140 palabras por minuto es la velocidad de quien
+            lee de verdad un ensayo denso en un móvil, parándose en la caja
+            del rayo y releyendo la frase que no entendió a la primera. Los
+            200 de la otra cuenta son los del que pasa páginas. Y como es el
+            mayor de los dos, quien lea termina antes de lo prometido, que es
+            la dirección correcta de la sorpresa: se sale con la sensación de
+            haber leído más libro del que ha leído. */}
+        <p className="hoy-medida">{minutos} min leyendo</p>
       </div>
 
       <div className="hoy-botones">
