@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "sin-esfuerzo": [
+    "por qué preguntarse si algo podría ser fácil abre alternativas",
+    "que una tarea sin final definido se come todo el tiempo disponible",
+    "cómo un ritmo sostenible rinde más que las rachas de trabajo",
+    "el motivo de ponerle también un techo al día y no solo un suelo",
+    "distinguir el trabajo que se cobra una vez del que se cobra siempre",
+  ],
+
   "principios-orden-mundial": [
     "por qué la moneda de reserva es lo último que pierde una potencia",
     "qué ocho indicadores dicen cómo le irá a un país dentro de treinta años",

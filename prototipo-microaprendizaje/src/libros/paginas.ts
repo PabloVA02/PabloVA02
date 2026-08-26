@@ -95876,7 +95876,298 @@ const PRINCIPIOS_ORDEN_MUNDIAL: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Sin esfuerzo, de Greg McKeown (2021), en ocho páginas.
+
+   Libro práctico, registro de tú: apartado 4.7. Economía, así que cada
+   página lleva su persona, su fecha y su cifra.
+
+   La carrera al Polo Sur es la anécdota famosa del libro y va contada con
+   lo que se sabe de ella, según el apartado 4 bis: Amundsen llevaba perros
+   y Scott ponis, y atribuir el desenlace al ritmo es escoger la mitad de
+   la explicación.
+   -------------------------------------------------------------------------- */
+
+const SIN_ESFUERZO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "McKeown sostiene que lo importante y lo agotador no tienen por qué ser lo mismo, y que casi todo el mundo los confunde",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una creencia tan extendida que ni se formula: que si algo merece la pena, tiene que costar. De ahí sale la costumbre de comprobar el esfuerzo en lugar del resultado, y de sospechar de cualquier tarea que salga fácil, como si haberla hecho sin sufrir le quitara valor a lo hecho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Greg McKeown publicó en 2014 un libro sobre esencialismo que consistía en elegir bien las pocas cosas que importan. Este, de 2021, es la continuación y responde a la objeción que le hicieron sus lectores: elegir bien no sirve de nada si lo elegido te deja igual de agotado. La pregunta cambia de qué a cómo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que la dificultad de una tarea no es una propiedad de la tarea. Depende de cómo esté planteada, de en qué estado la abordas y de cuántas veces tengas que volver a hacerla, y las tres cosas se pueden cambiar. Lo que propone no es trabajar menos, sino dejar de pagar el peaje que no hacía falta pagar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre sus herramientas y sus flojeras: la pregunta que da la vuelta al problema, por qué hay que escribir qué significa terminar, qué enseña de verdad la carrera al Polo Sur, por qué conviene ponerle también un techo al día, qué distingue un resultado que se cobra una vez de uno que se cobra siempre, y cuál es el instrumento más barato que existe.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Comprobar cuánto te ha costado algo no dice nada de lo que has conseguido. Son dos medidas distintas y llevas años mirando la equivocada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La pregunta que da la vuelta al problema es «¿y si esto pudiera ser fácil?»",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la herramienta central del libro y consiste en cambiar una pregunta por otra. Ante una tarea que se resiste, la reacción normal es preguntarse por qué es tan difícil, y esa pregunta solo produce explicaciones. McKeown propone preguntarse qué pasaría si fuera fácil, que es una pregunta que produce alternativas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo no es motivacional sino de atención. Al dar por supuesto que existe una versión sencilla, la cabeza se pone a buscarla, y muchas veces aparece: una llamada en lugar de tres correos, una plantilla en lugar de escribirlo cada vez, preguntarle a quien ya lo hizo en lugar de averiguarlo solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que mejor lo explica es el del informe mensual que nadie lee. Alguien puede dedicar dos días a hacerlo mejor cada mes, o puede preguntar quién lo usa y para qué. La respuesta habitual es que lo abren dos personas y solo miran una tabla, y entonces el problema deja de ser cómo hacerlo mejor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí conviene poner el límite que el libro no pone con suficiente claridad. Hay cosas que son difíciles y lo seguirán siendo: aprender un idioma, operar a alguien, criar a un hijo, terminar una carrera. Preguntarse si podrían ser fáciles ahí no abre ninguna puerta, y confundir ambos casos es el mayor riesgo de leer este libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "McKeown añade un objetivo intermedio que hace la pregunta más manejable: no buscar la manera fácil, sino la manera más fácil que siga siendo aceptable. Eso evita el bloqueo de quien exige una solución elegante y acepta la versión de tres pasos que resuelve el asunto hoy.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Preguntarte por qué algo es tan difícil solo produce explicaciones. Preguntarte cómo sería si fuera fácil produce alternativas, y a veces existe una.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Escribir qué significa terminar es lo que impide que una tarea se coma la semana",
+      },
+      {
+        b: "texto",
+        texto:
+          "McKeown sostiene que buena parte del agotamiento no viene de las tareas, sino de las tareas que no tienen final definido. Preparar una presentación, ordenar la contabilidad o estudiar un tema son cosas que pueden ocupar dos horas o dos semanas, porque nadie ha dicho en qué punto están hechas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La solución que propone se hace en un minuto y por escrito, antes de empezar: describir cómo se ve el trabajo terminado. No «preparar la presentación», sino «doce diapositivas, con los datos del trimestre y tres recomendaciones». Con esa frase delante, el trabajo tiene un borde, y al llegar a él se para.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo por el que funciona es que ataca dos cosas a la vez. Sin definición de terminado, el perfeccionista sigue puliendo indefinidamente y el que lo evita nunca sabe por dónde empezar, porque la tarea es un bulto sin forma. Escribir el borde resuelve los dos casos con la misma frase.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso le añade el primer paso obvio, que es la otra mitad. Una vez definido el final, hay que escribir la acción concreta que se puede hacer en dos minutos: abrir el documento, buscar el teléfono, sacar la carpeta. Casi todo lo que se aplaza se aplaza porque el primer movimiento no está identificado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una comprobación que descubre tareas sin borde en cinco minutos. Coge tu lista de pendientes y marca cuáles podrías dar por hechas esta tarde sin discusión posible. Las que no puedas marcar no son tareas: son temas, y por eso llevan meses ahí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribe en una frase cómo se ve terminado antes de empezar. Una tarea sin borde definido se come todo el tiempo que le dejes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El ritmo constante gana al esfuerzo heroico, aunque la historia que lo demuestra esté contada a medias",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que usa el libro es la carrera al Polo Sur de 1911. Dos expediciones salieron con semanas de diferencia: la del noruego Roald Amundsen y la del británico Robert Falcon Scott. Amundsen llegó el 14 de diciembre de 1911 y volvió con todos sus hombres. Scott llegó un mes después y murió en el regreso con sus cuatro acompañantes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia que subraya McKeown es de ritmo. Amundsen avanzaba una distancia parecida cada día, en torno a veinte kilómetros, hiciera buen tiempo o malo: si el día era espléndido, paraba igual; si era horrible, salía igual. Scott aprovechaba los días buenos hasta agotar a sus hombres y se quedaba parado en los malos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento es bueno y se aplica a cualquier trabajo largo. Un ritmo sostenible que no depende del ánimo produce más en seis meses que las jornadas heroicas seguidas de semanas en blanco, y además es previsible, que es lo que permite planificar cualquier cosa alrededor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahora, la anécdota está contada a medias y conviene saberlo. Amundsen llevaba perros de trineo y esquís, y sabía usarlos porque había convivido con inuits; Scott llevaba ponis y trineos de motor que fallaron, y acabó arrastrando la carga a mano. También eligió una ruta peor y le tocó un tiempo excepcionalmente malo. El ritmo fue una ventaja entre varias, y presentarlo como la causa es escoger la mitad de la explicación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un ritmo que no depende de cómo te levantes rinde más en seis meses que cualquier racha. Pero mira también con qué equipo salió el que ganó.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Al día hay que ponerle un techo, y no solo un suelo" },
+      {
+        b: "texto",
+        texto:
+          "De la idea del ritmo saca la regla más práctica del libro, y es doble. No se trata solo de fijar un mínimo diario, sino también un máximo: nunca menos de esto y nunca más de aquello. La primera mitad la aplica mucha gente; la segunda casi nadie, y es la que sostiene a la primera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón es que el exceso de un día se cobra en los siguientes. McKeown lo resume en una frase que funciona como criterio: no hagas hoy más de lo que puedas recuperar hoy. Si una jornada deja a alguien tan vacío que al día siguiente no rinde, esa jornada no ha adelantado trabajo, lo ha adelantado y lo ha devuelto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El descanso entra ahí como parte del método y no como recompensa. El propio estudio de Anders Ericsson sobre los mejores violinistas, el de las horas de práctica, encontró algo que casi nadie cita: los mejores dormían más que sus compañeros, echaban siestas y practicaban en bloques de alrededor de hora y media con descansos entre ellos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle que hace útil el techo aunque no se esté cansado. Parar mientras aún se tiene ganas deja el trabajo en un punto al que apetece volver, y eso hace que empezar al día siguiente sea barato. Terminar exhausto deja asociado ese trabajo al agotamiento, y entonces empezar cuesta cada vez más.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hagas hoy más de lo que puedas recuperar hoy. Y para mientras aún tengas ganas: eso es lo que hace barato volver mañana.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hay trabajo que se cobra una vez y trabajo que se cobra siempre" },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro distingue dos clases de resultado. El lineal es el que se obtiene una vez por cada vez que se hace el esfuerzo: contestar un correo, atender a un cliente, dar una clase. El residual es el que se sigue obteniendo después de haberlo hecho una sola vez: grabar esa clase, escribir el procedimiento, enseñar a alguien a hacerlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La distinción parece obvia y no lo es tanto en la práctica, porque casi todo el trabajo de una jornada normal es lineal y no deja rastro. Alguien puede pasar diez años resolviendo la misma incidencia cada semana sin que quede nada escrito, y al final de esos diez años sigue tardando exactamente lo mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "McKeown propone una regla de decisión sencilla ante cualquier tarea repetida: la primera vez se hace, la segunda se documenta y la tercera se automatiza o se delega con el documento delante. Escribir el procedimiento cuesta más que hacerlo una vez y menos que hacerlo veinte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo más ambicioso es enseñar. Enseñar a alguien produce un resultado residual; enseñarle además a enseñarlo a otros produce uno que se multiplica sin ti. Conviene añadir lo que el libro no dice: la mayoría de lo que se crea con intención de que rinda solo no rinde nada, y de esos casos aquí no hay ni un capítulo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La versión doméstica de esto es igual de rentable. Una lista de la compra fija, un menú semanal repetido o unas instrucciones pegadas dentro del armario ahorran una decisión cada vez, y las decisiones repetidas son justamente lo que agota sin producir nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La primera vez, hazlo. La segunda, escríbelo. La tercera, que lo haga el documento o que lo haga otro leyéndolo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La lista de comprobación es el instrumento más barato que existe y salva vidas",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo con el que McKeown cierra su argumento sobre automatizar es el de la lista de comprobación quirúrgica. Se trata de un papel con diecinueve puntos que el equipo repasa en voz alta antes de una operación: confirmar la identidad del paciente, la zona a intervenir, las alergias, los antibióticos, el recuento de material.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ensayo que la avaló se publicó en 2009 en el New England Journal of Medicine. Se aplicó en ocho hospitales de países muy distintos, con unos cuatro mil pacientes antes y otros tantos después. La mortalidad bajó del uno y medio por ciento al ocho por mil, y las complicaciones graves pasaron de alrededor del once por ciento al siete.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace memorable el caso es la desproporción entre el coste y el efecto. No hizo falta comprar aparatos, contratar personal ni formar a nadie durante meses: hizo falta un folio y la costumbre de leerlo en voz alta. Y aun así hubo resistencia, porque a un cirujano experimentado le resulta humillante repasar una lista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lección que traslada al trabajo corriente es que la memoria es el peor sitio para guardar un procedimiento. Cualquier proceso que se repita y en el que olvidar un paso tenga consecuencias —cerrar una tienda, publicar algo, enviar una factura— rinde más escrito en cinco líneas que confiado a la costumbre de quien lo hace.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un folio con los pasos escritos bajó la mortalidad de un quirófano. Lo que repites y no tienes escrito lo estás confiando a tu memoria de un mal día.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la dificultad de una tarea no es fija, que una tarea sin definición de terminado se come todo el tiempo disponible, que un ritmo sostenible rinde más que las rachas, y que conviene distinguir el trabajo que se cobra una vez del que se cobra siempre. Las cuatro cosas se pueden aplicar el lunes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a los manuales de productividad es que va en dirección contraria. Casi todos enseñan a meter más cosas en el día; este enseña a que cada cosa cueste menos, que es un problema distinto y muchas veces el verdadero. Poner un techo al día, y no solo un suelo, es una idea que casi nadie más escribe.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Define el borde antes de empezar, ponle techo al día, y escribe lo que vayas a repetir. Con esas tres cosas está casi todo el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es un libro de máximas con historias detrás, y muchas de esas historias están elegidas después de conocer el desenlace: la carrera al Polo se atribuye al ritmo y se omiten los perros, los esquís, la ruta y el tiempo. La premisa de que lo importante puede ser fácil es peligrosa aplicada a lo que sencillamente es difícil, y el libro no marca esa frontera. Y el capítulo de los resultados residuales solo enseña los que produjeron algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una ironía que conviene señalar. El libro se vende con la promesa de que el esfuerzo sobra, cuando lo que dice por dentro es algo bastante más modesto y más útil: que hay esfuerzo que no está comprando nada. La conversación pública sobre esto, además, se movió después en una dirección que el libro no anticipa: en 2022 el mayor ensayo de semana laboral de cuatro días, con sesenta y una empresas británicas y unos dos mil novecientos trabajadores durante seis meses, terminó con casi todas ellas manteniendo el cambio y la facturación estable. Resulta que la palanca no era solo individual.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "sin-esfuerzo": SIN_ESFUERZO,
   "principios-orden-mundial": PRINCIPIOS_ORDEN_MUNDIAL,
   "cronica-muerte-anunciada": CRONICA_MUERTE_ANUNCIADA,
   "madame-curie": MADAME_CURIE,

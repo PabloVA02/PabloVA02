@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "sin-esfuerzo":
+    "Amundsen recorría unos veinte kilómetros diarios hiciera el tiempo que hiciera y volvió con todos sus hombres; Scott forzaba los días buenos y murió. McKeown parte de ahí para separar el esfuerzo que compra algo del que no.",
+
   "principios-orden-mundial":
     "En 1999 el dólar era el setenta y uno por ciento de las reservas mundiales; dos décadas después, menos del sesenta. Dalio estudió quinientos años de imperios para saber qué significa exactamente esa clase de dato.",
 

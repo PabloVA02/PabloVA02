@@ -425,7 +425,7 @@ export const CATALOGO: Ficha[] = [
   { id: "primeros-90-dias", titulo: "Los primeros 90 días", autor: "Michael Watkins", ano: 2003, categoria: "Economía", estado: "escrito" },
   { id: "cinco-disfunciones", titulo: "Las cinco disfunciones de un equipo", autor: "Patrick Lencioni", ano: 2002, categoria: "Economía", estado: "escrito" },
   { id: "esencialismo", titulo: "Esencialismo", autor: "Greg McKeown", ano: 2014, categoria: "Economía", estado: "escrito" },
-  { id: "sin-esfuerzo", titulo: "Sin esfuerzo", autor: "Greg McKeown", ano: 2021, categoria: "Economía", estado: "pendiente" },
+  { id: "sin-esfuerzo", titulo: "Sin esfuerzo", autor: "Greg McKeown", ano: 2021, categoria: "Economía", estado: "escrito" },
   /* --- Salud ------------------------------------------------------------ */
   { id: "por-que-dormimos", titulo: "Por qué dormimos", autor: "Matthew Walker", ano: 2017, categoria: "Salud", estado: "escrito" },
   { id: "cuerpo-cuenta", titulo: "El cuerpo lleva la cuenta", autor: "Bessel van der Kolk", ano: 2014, categoria: "Salud", estado: "escrito" },
