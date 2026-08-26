@@ -467,6 +467,68 @@ equivocado. Lo borró Pablo por orden expresa el 21 de agosto. Si hace falta
 consultarlo por algo, está en el historial de git.
 - `FOTOS.md` — de dónde salen las imágenes y qué se puede afirmar de ellas.
 
+## LA PANTALLA DE INICIO Y EL PERFIL, DESPUÉS DEL 26 DE AGOSTO
+
+Ese día y el siguiente Pablo rehízo media app a base de capturas de Headway y
+de Blinkist. Lo que quedó, y por qué, para que no se deshaga por descuido:
+
+**Inicio.** Libro de hoy → filtros → Recomendados → **Colecciones** →
+**Gestiona las recomendaciones**. Se fueron «Retomar» y «Personalizado para
+ti».
+
+**La regla que gobierna las dos piezas nuevas, y es la importante:** ninguna
+promete una personalización que no existe. Blinkist llama a sus colecciones
+«elegidas para tus intereses» y Headway «creadas para ti», y las dos mienten el
+primer día, cuando el usuario no tiene intereses todavía. Curva no se lo puede
+permitir, porque lo que vendemos es que se nos crea —somos los que decimos
+dónde falla cada libro—. Así que:
+
+- Las once colecciones (`src/colecciones.ts`) son FIJAS y hechas a mano. Lo
+  único que se personaliza es el ORDEN, con los temas que marcó en la
+  introducción. El rótulo dice «Colecciones» y el subtítulo «Empezando por lo
+  que elegiste», no «para ti».
+- «Personalizado para ti» se fue justamente por eso: enseñaba tres libros
+  sacados de la lista de siempre bajo un rótulo que prometía un cálculo. En su
+  sitio va la tarjeta que enseña la palanca de verdad —los temas y el botón
+  para cambiarlos—, con su pantalla en `src/Temas.tsx`.
+
+Los 64 libros de las colecciones están escritos, y hay que comprobarlo al
+tocarlas: una colección que lleva a un resumen autogenerado es peor que no
+tenerla.
+
+**Perfil.** Suscripción → Cuenta → Racha → Meta → **Estadísticas** (crecimiento
++ temas en una parrilla estilo Apple) → Invitar → Anti-scroll → Soporte. Se
+fueron la prueba de nivel, la rejilla de miniaturas y «Mi contenido».
+
+**Los colores, que Pablo ha corregido tres veces y ya están donde los quiere:**
+
+    ideas clave      --cifra-a   amarillo flojo   (la línea sigue en #ffb13d)
+    minutos leídos   --cifra-b   naranja          (la línea sigue en #ff6a2a)
+    sube / baja      --verde / --rojo
+    libros y horas   blanco
+
+La cifra NO lleva el color exacto de su línea a propósito: a 30 de cuerpo dos
+naranjas parecidos uno al lado del otro se leen como un número partido en dos.
+
+**Y una trampa de la hoja de estilos que ya ha costado un rato dos veces:**
+dentro de `.inicio`, `.explorar` y `.detalle` los tokens están DADOS LA VUELTA
+—ahí `--paper` es el fondo y `--ink` el texto—. Un botón pintado con
+`var(--paper)` sale negro sobre gris oscuro. Las piezas nuevas usan el valor
+literal `#f2ece1`, que no depende de dónde acaben.
+
+**Los dibujos de Pablo.** Manda PNG y aquí se redibujan en SVG, no se pegan:
+el candado con la llave, las entradas, las tarjetas rotas de la suscripción y
+la mano del anti-scroll (`src/Mano.tsx`, que usan el perfil y la pantalla del
+modo). Los colores se muestrean del fichero, no se estiman: rojo (250, 91, 74)
+y oro (248, 187, 49). **Los nueve de los temas, en `src/Temas.tsx`, son
+PROVISIONALES**: Pablo dijo que manda los suyos.
+
+**La llama de la racha** lleva dos movimientos y hacen falta los dos: el
+balanceo lento va en el camino y el temblor del borde en un filtro de
+`feTurbulence` + `feDisplacementMap`. Con solo el primero, Pablo dijo que
+«quedaba muy de IA», y tenía razón: ningún fuego tiene el borde liso. Está todo
+explicado en la cabecera de `src/Racha.tsx`.
+
 ## COPIAS EN VARIOS SITIOS, NO SOLO GITHUB
 
 Pablo lo pidió el 20 de agosto: *«acuérdate de ir guardando todo en varios

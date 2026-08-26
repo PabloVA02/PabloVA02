@@ -35,17 +35,51 @@ import { spring, springPop, springSoft, springTight } from "./motion";
 
    LA ANIMACIÓN. Escalar el grupo mueve la base igual que la punta, y la base
    de una llama no se mueve: está pegada a lo que arde. Lo que se mueve es la
-   punta, y no de tamaño sino de FORMA. Así que aquí no se escala nada: se
-   interpola el camino entre tres siluetas —`CUERPO`, con la punta erguida,
-   caída a la izquierda y caída a la derecha— que tienen exactamente los
-   mismos comandos y solo cambian los puntos de control. El navegador
-   interpola número a número y sale una llama que ondea.
+   punta, y no de tamaño sino de FORMA. Así que aquí no se escala nada.
 
-   Tres detalles más, y los tres son de ritmo:
+   Un fuego se mueve de DOS maneras a la vez, y hasta el 26 de agosto esto
+   solo tenía la primera. Pablo, mirándolo: «el color, la forma y todo me
+   encanta, pero la animación queda muy de IA».
 
-     · El núcleo va a 1,45 s y el cuerpo a 2,3, dos duraciones que no son
-       múltiplos, así que no vuelven a coincidir hasta pasado un buen rato y
-       nunca se ve el bucle.
+     1. EL BALANCEO. Lento, de la llama entera, cuando la corriente la
+        empuja. Es el que ya estaba: se interpola el camino entre tres
+        siluetas —punta erguida, caída a la izquierda y caída a la derecha—
+        con exactamente los mismos comandos y distintos puntos de control,
+        así que el navegador interpola número a número.
+
+     2. LAS LENGUAS. Rápidas, pequeñas, del borde, y son las que faltaban.
+        Sin ellas la silueta se deforma como una goma y eso es justo lo que
+        se ve raro: ningún fuego tiene el borde liso.
+
+   Las lenguas se hacen con la receta que usa medio internet para esto y que
+   no es de nadie porque son dos primitivas del estándar de SVG:
+   `feTurbulence` genera ruido de Perlin y `feDisplacementMap` empuja cada
+   píxel de la llama según el color que le toca en ese ruido. Animando el
+   ruido, el borde de la llama hierve.
+
+   Los detalles que hacen que se parezca a fuego y no a agua:
+
+     · `fractalNoise` y no `turbulence`. El segundo hace nubes con grumos; el
+       primero hace vetas.
+     · La frecuencia es ANISÓTROPA —0,014 en x contra 0,05 en y—, o sea que
+       las vetas salen alargadas hacia arriba en vez de redondas. Esto es lo
+       que separa una llama de una veta de mármol.
+     · Dos animaciones dentro de cada ruido, la de la semilla y la de la
+       frecuencia, con duraciones primas entre sí (9,3 y 6,7 en el cuerpo,
+       6,1 y 4,3 en el núcleo). La combinación no se repite hasta pasado un
+       minuto largo, así que no se ve el bucle por mucho que se mire.
+     · El núcleo se retuerce más —13 de desplazamiento contra 9— y más
+       deprisa. Es la parte más caliente.
+     · Y el ZÓCALO: el fondo del cuerpo, dibujado otra vez sin filtro y
+       encima. El ruido empuja la silueta entera, también la base, y una
+       llama cuya base resbala parece una bandera. Con el zócalo, abajo está
+       clavada y lo que ondea es de la cintura para arriba.
+
+   El filtro cuesta, así que va acotado a la caja del dibujo —108 puntos— y
+   se apaga entero con `reducido`.
+
+   Dos detalles más, y los dos son de ritmo:
+
      · Las chispas SUBEN y se apagan, no flotan en su sitio. Una chispa que
        sube y desaparece dice que hay corriente de aire; una que sube y baja
        dice que está colgada de un hilo.
@@ -80,13 +114,18 @@ export function Llama({ tamano = 108, reducido }: { tamano?: number; reducido: b
     <svg width={tamano} height={(tamano * 152) / 120} viewBox="0 0 120 152" aria-hidden>
       <defs>
         {/* Los mismos tres tonos del fueguecito de la barra de arriba: el de
-            allí y el de aquí tienen que ser el mismo fuego a dos tamaños. */}
-        <linearGradient id="llama-cuerpo" x1="0" y1="1" x2="0" y2="0">
+            allí y el de aquí tienen que ser el mismo fuego a dos tamaños.
+
+            `userSpaceOnUse` y no la caja de cada camino: así el degradado es
+            UNO para toda la llama y no uno por pieza. Con la caja de cada
+            cual, el zócalo de abajo —que es una pieza pequeña— se llevaba la
+            rampa entera y salía con una raya de oro en su borde. */}
+        <linearGradient id="llama-cuerpo" gradientUnits="userSpaceOnUse" x1="0" y1="150" x2="0" y2="6">
           <stop offset="0" stopColor="#ffb13d" />
           <stop offset="0.42" stopColor="#ff7a18" />
           <stop offset="1" stopColor="#f0410e" />
         </linearGradient>
-        <linearGradient id="llama-nucleo" x1="0" y1="1" x2="0" y2="0">
+        <linearGradient id="llama-nucleo" gradientUnits="userSpaceOnUse" x1="0" y1="150" x2="0" y2="60">
           <stop offset="0" stopColor="#fff6c2" />
           <stop offset="0.8" stopColor="#ffc93c" />
           <stop offset="1" stopColor="#ffa616" />
@@ -95,6 +134,112 @@ export function Llama({ tamano = 108, reducido }: { tamano?: number; reducido: b
           <stop offset="0" stopColor="#ff7a18" stopOpacity="0.42" />
           <stop offset="1" stopColor="#ff7a18" stopOpacity="0" />
         </radialGradient>
+
+        {/* LAS LENGUAS. Ver el comentario de arriba: ruido de Perlin que se
+            revuelve solo y empuja los píxeles de la llama.
+
+            `fractalNoise` y no `turbulence`: el segundo hace nubes con
+            grumos y el primero hace vetas, que es lo que tiene el borde de
+            una llama. La frecuencia es distinta en x y en y —0,014 contra
+            0,05— y eso es lo que hace que las vetas salgan ALARGADAS HACIA
+            ARRIBA en vez de redondas: fuego y no mármol.
+
+            Y las dos animaciones de dentro son de duraciones primas entre sí
+            —9,3 y 6,7— para que la combinación no se repita hasta pasado
+            un minuto largo. */}
+        <filter
+          id="llama-lengua"
+          x="-30%"
+          y="-30%"
+          width="160%"
+          height="160%"
+          colorInterpolationFilters="sRGB"
+        >
+          <feTurbulence
+            type="fractalNoise"
+            baseFrequency="0.01 0.028"
+            numOctaves={2}
+            seed={4}
+            result="ruido"
+          >
+            <animate
+              attributeName="seed"
+              values="4;64"
+              dur="9.3s"
+              calcMode="linear"
+              repeatCount="indefinite"
+            />
+            <animate
+              attributeName="baseFrequency"
+              values="0.01 0.028;0.015 0.04;0.01 0.028"
+              dur="6.7s"
+              repeatCount="indefinite"
+            />
+          </feTurbulence>
+          <feDisplacementMap
+            in="SourceGraphic"
+            in2="ruido"
+            scale={6}
+            xChannelSelector="R"
+            yChannelSelector="G"
+          />
+        </filter>
+
+        {/* El núcleo se retuerce MÁS y más deprisa: es la parte más caliente
+            y en un fuego de verdad es la que más se mueve. Otra semilla y
+            otras duraciones, así que nunca ondean a la vez. */}
+        {/* EL PIE. Lo de arriba empuja la silueta ENTERA, también la base, y
+            una llama cuya base resbala de un lado a otro no parece fuego:
+            parece una bandera. Esta máscara apaga el temblor abajo y lo deja
+            entero de la cintura para arriba, con un fundido de cincuenta
+            puntos entre las dos cosas para que no se vea la juntura. Debajo
+            va la llama sin filtro, así que el pie sigue estando ahí y clavado
+            donde arde. */}
+        <linearGradient id="llama-fundido" gradientUnits="userSpaceOnUse" x1="0" y1="146" x2="0" y2="96">
+          <stop offset="0" stopColor="#000" />
+          <stop offset="1" stopColor="#fff" />
+        </linearGradient>
+        <mask id="llama-de-cintura">
+          <rect x="-20" y="-20" width="160" height="200" fill="url(#llama-fundido)" />
+        </mask>
+
+        <filter
+          id="llama-lengua-nucleo"
+          x="-40%"
+          y="-40%"
+          width="180%"
+          height="180%"
+          colorInterpolationFilters="sRGB"
+        >
+          <feTurbulence
+            type="fractalNoise"
+            baseFrequency="0.014 0.036"
+            numOctaves={2}
+            seed={19}
+            result="ruido"
+          >
+            <animate
+              attributeName="seed"
+              values="19;79"
+              dur="6.1s"
+              calcMode="linear"
+              repeatCount="indefinite"
+            />
+            <animate
+              attributeName="baseFrequency"
+              values="0.014 0.036;0.02 0.05;0.014 0.036"
+              dur="4.3s"
+              repeatCount="indefinite"
+            />
+          </feTurbulence>
+          <feDisplacementMap
+            in="SourceGraphic"
+            in2="ruido"
+            scale={8}
+            xChannelSelector="R"
+            yChannelSelector="G"
+          />
+        </filter>
       </defs>
 
       {/* El resplandor de detrás */}
@@ -127,18 +272,44 @@ export function Llama({ tamano = 108, reducido }: { tamano?: number; reducido: b
         />
       ))}
 
-      <motion.path
-        d={CUERPO[0]}
-        fill="url(#llama-cuerpo)"
-        animate={onda(CUERPO)}
-        transition={reducido ? {} : { duration: 2.3, repeat: Infinity, ease: "easeInOut" }}
-      />
-      <motion.path
-        d={NUCLEO[0]}
-        fill="url(#llama-nucleo)"
-        animate={onda(NUCLEO)}
-        transition={reducido ? {} : { duration: 1.45, repeat: Infinity, ease: "easeInOut" }}
-      />
+      {/* El cuerpo y el núcleo, cada uno con su ruido. El balanceo lento va en
+          el camino y el temblor fino en el filtro: son los dos movimientos que
+          tiene una llama y hasta ahora solo estaba el primero. */}
+      {/* La llama va DOS VECES: abajo, limpia y sin filtro, y encima la misma
+          con las lenguas, enmascarada para que solo asome de la cintura para
+          arriba. Los dos dibujos son el mismo camino y llevan el mismo
+          degradado, así que la juntura no se ve: lo único que cambia entre
+          uno y otro es que el de arriba hierve.
+
+          El balanceo lento va en el camino y el temblor fino en el filtro:
+          son los dos movimientos que tiene una llama, y hasta ahora esto
+          solo tenía el primero. */}
+      {[false, true].map((conFiltro) => {
+        if (conFiltro && reducido) return null;
+        return (
+          <g
+            key={String(conFiltro)}
+            mask={conFiltro ? "url(#llama-de-cintura)" : undefined}
+          >
+            <g filter={conFiltro ? "url(#llama-lengua)" : undefined}>
+              <motion.path
+                d={CUERPO[0]}
+                fill="url(#llama-cuerpo)"
+                animate={onda(CUERPO)}
+                transition={reducido ? {} : { duration: 3.1, repeat: Infinity, ease: "easeInOut" }}
+              />
+            </g>
+            <g filter={conFiltro ? "url(#llama-lengua-nucleo)" : undefined}>
+              <motion.path
+                d={NUCLEO[0]}
+                fill="url(#llama-nucleo)"
+                animate={onda(reducido ? NUCLEO : [NUCLEO[2], NUCLEO[0], NUCLEO[1]])}
+                transition={reducido ? {} : { duration: 2.15, repeat: Infinity, ease: "easeInOut" }}
+              />
+            </g>
+          </g>
+        );
+      })}
     </svg>
   );
 }
