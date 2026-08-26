@@ -97890,7 +97890,287 @@ const CIENTIFICO_ESPACIAL: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Los cuatro pilares de la inversión, de William Bernstein (2002), en ocho
+   páginas.
+
+   Libro práctico de dinero, registro de tú: apartado 4.7. Economía, así
+   que cada página lleva su persona, su fecha y su cifra.
+
+   La cita de Newton sobre la locura de la gente va marcada como dudosa,
+   según el apartado 4 bis. Y la conclusión pone el marcador de veinte
+   años, incluido el punto en el que sus propias previsiones fallaron.
+   -------------------------------------------------------------------------- */
+
+const CUATRO_PILARES_INVERSION: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Bernstein sostiene que invertir bien no exige talento, sino no cometer cuatro errores concretos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Casi toda la literatura sobre inversión promete encontrar lo que va a subir. Este libro parte de lo contrario: que elegir bien es prácticamente imposible y no hace falta, y que la diferencia entre un ahorrador que termina bien y otro que termina mal está casi entera en unos pocos errores evitables.",
+      },
+      {
+        b: "texto",
+        texto:
+          "William Bernstein era neurólogo en ejercicio cuando empezó a estudiar esto para gestionar sus propios ahorros, y acabó escribiendo sobre ello mejor que la mayoría de los profesionales. Publicó este libro en 2002, justo después del pinchazo de las empresas de internet, y organizó todo lo que un ahorrador necesita saber en cuatro bloques.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los cuatro son la teoría, que explica la relación entre riesgo y rendimiento; la historia, que enseña a reconocer una burbuja porque todas se parecen; la psicología, que describe los errores que comete uno mismo; y el negocio, que explica los intereses de quien te vende los productos. Sostiene que fallar en cualquiera de ellos basta para arruinar el resultado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo esencial de cada uno: por qué no existe el rendimiento alto sin riesgo, cómo se estima lo que va a rentar la bolsa, las cuatro cosas que aparecen en todas las burbujas, qué le pasa a quien opera mucho, por qué tu banco no necesita ser malo para perjudicarte y qué hacer cuando todo cae.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hace falta acertar con lo que va a subir. Casi toda la diferencia entre terminar bien y terminar mal está en unos pocos errores evitables.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El riesgo y el rendimiento van unidos, y quien te ofrezca separarlos te está vendiendo algo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer pilar cabe en una frase: no existe un rendimiento alto sin riesgo alto. No es una regla prudente ni una advertencia legal, es una consecuencia de cómo funciona un mercado. Si existiera algo que rentara mucho sin riesgo, todo el mundo lo compraría, su precio subiría y su rendimiento futuro bajaría hasta desaparecer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la única alarma que hace falta para no perder los ahorros. Cuando alguien ofrece rentabilidades muy por encima de lo normal y además asegura que no hay riesgo, no está ofreciendo un producto mejor: está mintiendo o no entiende lo que vende. Todas las estafas financieras de la historia han tenido exactamente ese perfil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bernstein le da la vuelta a la idea de riesgo de una manera que cambia cómo se decide. Para un ahorrador joven, que va a estar comprando durante treinta años, una caída prolongada de la bolsa no es una desgracia: es un periodo de rebajas. El riesgo de verdad, para él, es que suba todo mucho justo cuando está empezando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El riesgo también cambia con el plazo, y ese es el matiz práctico. Un dinero que se va a necesitar dentro de dos años no puede estar en bolsa por muy joven que sea quien lo tiene, porque el plazo no da margen para recuperarse. La pregunta correcta no es cuánto riesgo aguantas, es cuándo vas a necesitar ese dinero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si te ofrecen mucho rendimiento sin riesgo, o te están mintiendo o no lo entienden. No hay una tercera posibilidad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Se puede estimar lo que va a rentar la bolsa a largo plazo con una suma de dos términos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bernstein defiende que el rendimiento futuro de la bolsa no es un misterio insondable, y usa para estimarlo una fórmula sencilla: se suma lo que las empresas reparten en dividendos, medido como porcentaje de su precio, y lo que se espera que crezcan esos dividendos. Con esos dos números se obtiene una estimación a largo plazo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que no entra en esa suma es lo interesante. No entra la moda, ni el sentimiento, ni el ciclo de noticias, ni lo que hizo la bolsa el año pasado, que es exactamente el material del que se alimentan las decisiones de la mayoría de los inversores particulares. La fórmula solo mira lo que las empresas producen y reparten.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un tercer término que Bernstein trata aparte y con cuidado: lo caro o barato que esté el mercado en el momento de entrar. Comprar cuando los precios están muy por encima de los beneficios que respaldan reduce el rendimiento de las décadas siguientes, aunque no diga absolutamente nada sobre lo que va a pasar el año que viene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La utilidad práctica no es acertar, es calibrar expectativas. Alguien que planifica su jubilación suponiendo un diez por ciento anual y que en realidad va a obtener un cinco tiene un problema aritmético que ninguna estrategia arreglará después. Es mejor descubrir eso al hacer el plan que veinte años más tarde.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El rendimiento de una bolsa a treinta años sale de lo que las empresas reparten y de cuánto crece eso. Lo demás es ruido con titulares.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Todas las burbujas se parecen, y hacen falta cuatro cosas para que ocurra una",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo pilar es la historia, y su tesis es que las burbujas no son sorpresas: llevan siglos repitiendo el mismo guion. Bernstein identifica cuatro ingredientes que aparecen juntos en todas, desde la de las acciones de la Compañía de los Mares del Sur en 1720 hasta la de las empresas de internet en el año 2000.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primero es una novedad tecnológica o financiera que promete cambiarlo todo: el ferrocarril, la radio, internet. El segundo es crédito fácil y abundante, porque sin dinero prestado no hay burbuja posible. El tercero es que haya pasado una generación desde la anterior, el tiempo justo para que ya no quede casi nadie que recuerde cómo terminó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el cuarto es el que sirve de aviso: se abandonan los métodos de siempre para valorar lo que se compra. Cuando se empieza a decir que los beneficios ya no importan y que hay que mirar otra cosa, y que quien no lo entiende es que se ha quedado antiguo, el proceso está muy avanzado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bernstein añade dos señales de la fase final que se reconocen sin saber nada de finanzas: que gente sin ninguna formación financiera deje su trabajo para dedicarse a comprar y vender, y que expresar dudas en una conversación provoque desprecio en lugar de discusión. Ninguna de las dos dice cuándo caerá, y las dos dicen dónde estás.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando se dice que los beneficios ya no importan y que quien duda es un antiguo, no estás ante una nueva era: estás dentro de la parte final.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuanto más compras y vendes, peor te va, y está medido" },
+      {
+        b: "texto",
+        texto:
+          "El tercer pilar es la psicología, y aquí Bernstein se apoya en un estudio que debería enseñarse en las escuelas. Brad Barber y Terrance Odean analizaron las operaciones reales de más de sesenta y seis mil hogares estadounidenses en una agencia de valores a lo largo de los años noventa, y las compararon con el mercado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado fue nítido. Ordenando a los hogares por cuánto operaban, el quinto que más compraba y vendía obtuvo alrededor de un once por ciento anual, mientras que el mercado en ese mismo periodo rentó cerca de un dieciocho. Los que menos operaban se quedaron muy cerca del mercado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación tiene dos partes y las dos son evitables. Una es el coste: cada operación paga comisión y, según el país, impuestos sobre la plusvalía realizada, y eso repetido cien veces al año se come el resultado. La otra es peor: la gente vende lo que ha bajado y compra lo que ha subido, que es exactamente lo contrario de lo que habría que hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la recomendación más incómoda del libro, porque va contra la sensación de estar haciendo algo. Una vez decidido cómo se reparte el dinero, lo mejor que se puede hacer con una cartera es dejarla en paz y revisarla una vez al año. La actividad da sensación de control y en este terreno no compra nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Operar mucho da sensación de estar haciendo algo. Lo que hace, medido en dinero, es pagar comisiones y comprar caro para vender barato.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Tu banco no necesita portarse mal para perjudicarte: le basta con cobrar lo normal",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuarto pilar es el negocio, y el punto de partida de Bernstein es que no hace falta suponer mala fe. Quien te atiende en una oficina bancaria cobra según lo que coloca, y los productos que dejan más margen a la entidad son casi siempre los que dejan menos rendimiento al cliente. Ese conflicto es estructural y está a la vista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El coste importa mucho más de lo que parece porque se cobra todos los años sobre todo el capital. Una diferencia de dos puntos anuales entre dos productos parecidos, sostenida durante treinta años, se lleva una parte enorme del resultado final, y esa diferencia es exactamente la que separa a un fondo indexado barato de un fondo de gestión activa medio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bernstein extiende la advertencia a la prensa económica, y su argumento es sencillo. Un medio que vive de la publicidad de las entidades financieras y que necesita llenar espacio todos los días tiene que producir constantemente motivos para actuar, y actuar constantemente es precisamente lo que perjudica al ahorrador según su propio tercer pilar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que saca no es desconfiar de todo el mundo, sino cambiar la pregunta que se le hace a quien aconseja. En lugar de preguntar qué recomienda, hay que preguntar cómo cobra: si cobra un porcentaje de lo que coloca, si cobra por horas, o si vive de la comisión de los productos que vende. La respuesta explica casi todo lo que venga después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No preguntes qué te recomienda: pregunta cómo cobra. La respuesta explica la recomendación mejor que cualquier argumento.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El plan no se escribe para los años buenos, se escribe para el año en que todo cae",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte práctica del libro es más corta de lo que un lector espera, y eso es deliberado. Se decide un reparto fijo entre bolsa y renta fija según el plazo y el temperamento, se compran fondos indexados baratos que replican mercados amplios, se aporta con regularidad, y una vez al año se recupera el reparto original.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa revisión anual es la única acción del método y hace algo que ninguna intuición hace sola. Si la bolsa ha subido mucho, pesará más de lo previsto en la cartera, así que se vende una parte; si ha caído, pesará menos y se compra. El procedimiento obliga mecánicamente a vender lo caro y comprar lo barato sin opinar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bernstein insiste en que todo el plan existe para un momento concreto: el año en que los mercados caen un cuarenta por ciento, los periódicos hablan de colapso y todo el mundo alrededor está vendiendo. Un plan que no se ha decidido antes de ese momento no se decide durante, porque en ese momento nadie está en condiciones de decidir nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso recomienda escribirlo. Un folio con el reparto elegido, el motivo y la frase de qué se hará si cae la bolsa, firmado y guardado, es más útil que cualquier análisis, porque el enemigo de ese día no es la falta de información: es uno mismo con miedo y con el teléfono en la mano.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribe en un folio qué harás el día que todo caiga un cuarenta por ciento. Ese día no vas a estar en condiciones de decidirlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que el rendimiento y el riesgo son inseparables, que todas las burbujas comparten los mismos cuatro ingredientes, que operar mucho empeora el resultado de forma medible, y que quien vende productos financieros tiene incentivos que conviene conocer antes de escuchar sus consejos. Las cuatro cosas siguen en pie veinte años después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a los manuales de inversión es que trata al lector como adulto. No promete rendimientos, no esconde las matemáticas, dedica un tercio del libro a historia financiera y admite que su método es aburrido. Esa honradez es rara en el género y es la razón de que se siga recomendando.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Decide el reparto, compra barato, revísalo una vez al año y escribe qué harás cuando caiga. El resto del libro explica por qué eso basta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Está escrito para un ahorrador estadounidense, con sus productos, sus impuestos y sus cuentas de jubilación, y trasladar las recomendaciones concretas a otro país exige trabajo que el libro no puede hacer. Es además bastante más denso de lo que su apariencia sugiere, con estadística y series históricas que dejan por el camino a mucha gente. Y hay una cita famosa que repite y que conviene marcar: la frase de Newton diciendo que podía calcular el movimiento de los astros pero no la locura de la gente, tras perder una fortuna en 1720, no está documentada en ninguna fuente de su época.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el marcador de estos veinte años tiene dos caras. Sus previsiones de rendimiento para la bolsa estadounidense, hechas con aquella fórmula en 2002, se quedaron cortas: las dos décadas siguientes fueron mucho mejores, lo que confirma su propia advertencia de que esas cuentas sirven para calibrar y no para acertar. En lo demás acertó de pleno. La gestión indexada barata que defendía superó en 2019 a la activa en volumen de fondos de bolsa en Estados Unidos, y su descripción de las burbujas se cumplió punto por punto en 2021: comisiones a cero, crédito gratis y mucha gente sin formación financiera dejando su trabajo para operar desde el móvil.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cuatro-pilares-inversion": CUATRO_PILARES_INVERSION,
   "cientifico-espacial": CIENTIFICO_ESPACIAL,
   "caos-gleick": CAOS_GLEICK,
   "recompra-tu-tiempo": RECOMPRA_TU_TIEMPO,

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cuatro-pilares-inversion":
+    "Un estudio con sesenta y seis mil hogares encontró que el quinto que más operaba ganó un once por ciento anual frente al dieciocho del mercado. Bernstein organiza en cuatro bloques todo lo que un ahorrador necesita saber.",
+
   "cientifico-espacial":
     "El espejo del Hubble se pulió con una precisión perfecta hasta una forma equivocada, porque el aparato que lo comprobaba estaba mal montado. Varol reúne casos así para explicar cómo se decide sin estar seguro.",
 

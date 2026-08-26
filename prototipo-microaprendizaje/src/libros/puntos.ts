@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cuatro-pilares-inversion": [
+    "por qué no existe un rendimiento alto sin riesgo alto",
+    "cómo se estima lo que rentará una bolsa a treinta años",
+    "las cuatro cosas que aparecen juntas en cualquier burbuja",
+    "que operar mucho empeora el resultado de forma medible",
+    "qué preguntarle a quien te aconseja antes de escuchar su consejo",
+  ],
+
   "cientifico-espacial": [
     "cómo distinguir lo que es una ley de lo que es solo una costumbre",
     "por qué un objetivo modesto te deja seguir haciendo lo mismo",
