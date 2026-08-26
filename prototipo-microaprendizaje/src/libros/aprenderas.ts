@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "intestino-feliz":
+    "Un adulto occidental come unos quince gramos de fibra al día y los hadza de Tanzania entre cien y ciento cincuenta. Dos microbiólogos de Stanford explican qué se queda sin comer cuando falta esa fibra.",
+
   "mil-soles":
     "Dos mujeres afganas separadas por veinte años acaban casadas con el mismo hombre en el mismo Kabul. La novela cuenta treinta años de golpes de Estado, invasiones y regímenes desde dentro de una casa.",
 

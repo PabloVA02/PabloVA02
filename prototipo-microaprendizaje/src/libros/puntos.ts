@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "intestino-feliz": [
+    "por qué la pared del colon se alimenta de un residuo bacteriano",
+    "que hay pérdidas que no se corrigen volviendo a hacerlo bien",
+    "qué diferencia hay entre limpieza y falta de exposición temprana",
+    "qué preguntar antes de tomarse un antibiótico recetado",
+    "cómo saber si un capítulo de salud cuenta un libro o cuenta un género",
+  ],
+
   "mil-soles": [
     "cómo se arruina una vida con decisiones pequeñas y comprensibles",
     "que una guerra sigue mutilando treinta años después de terminar",

@@ -100940,7 +100940,317 @@ const MIL_SOLES: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El intestino feliz, de Justin y Erica Sonnenburg (2015), en ocho páginas.
+
+   Salud, así que la prueba del sustituto del apartado 4 bis se aplica en
+   cada página: si el texto funcionara cambiando «microbiota» por
+   «cortisol» o «mitocondrias», está contando el género y no el libro. Por
+   eso cada página lleva un experimento concreto con su año y su cifra.
+
+   Registro de tú, que es libro práctico. Y la conclusión cuenta la parte
+   más honrada del asunto: que el estudio de 2021 del propio laboratorio de
+   los autores complica lo que este libro recomendaba en 2015.
+   -------------------------------------------------------------------------- */
+
+const INTESTINO_FELIZ: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los Sonnenburg sostienen que hemos estado dañando un órgano sin saber que lo teníamos",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el intestino grueso de una persona viven billones de bacterias de cientos de especies distintas. No son parásitos ni invitados: fabrican vitaminas, entrenan al sistema inmunitario, digieren lo que tus enzimas no pueden y producen sustancias que alimentan a las células de tu propio colon.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Justin y Erica Sonnenburg dirigen un laboratorio de microbiología en la Universidad de Stanford dedicado precisamente a eso, y publicaron este libro en 2015. Esa diferencia importa: casi todos los libros de este estante los escribe alguien que interpreta la investigación de otros, y aquí los experimentos que se citan son en buena parte los suyos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación central es que la manera de comer y de vivir de los países ricos ha reducido la variedad de ese ecosistema en pocas generaciones, y que esa pérdida podría explicar parte del aumento de enfermedades que empezaron a subir en el siglo veinte sin que cambiaran los genes de nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que sostienen con datos y lo que no: qué le falta exactamente a la dieta occidental, qué pasó con cuatro generaciones de ratones, por qué han subido las alergias, qué precio cobran los antibióticos, y qué parte de todo esto se puede aplicar hoy sin engañarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ecosistema se forma en los primeros años y no viene de fábrica. Un bebé nacido por vía vaginal recibe la microbiota de su madre al pasar; uno nacido por cesárea recibe sobre todo bacterias de la piel y del quirófano, y tarda meses o años en parecerse al primero. En España, alrededor de la cuarta parte de los partos son cesáreas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las bacterias del intestino digieren lo que tus enzimas no pueden. Lo que comes no lo comes solo tú, y buena parte de la comida no era para ti.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que le falta a la dieta occidental no son vitaminas: es la comida que tú no digieres",
+      },
+      {
+        b: "texto",
+        texto:
+          "El concepto central del libro es una clase concreta de fibra: los hidratos de carbono que las enzimas humanas no pueden romper y que llegan intactos al colon, donde las bacterias los fermentan. Los autores insisten en que no es la fibra en general, sino esa fracción, la que alimenta al ecosistema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cifra que sostiene el libro es una comparación. Un adulto de un país rico consume alrededor de quince gramos de fibra al día, por debajo incluso de lo que recomiendan las guías, que suelen situarse entre veinticinco y treinta y ocho. Los hadza de Tanzania, que siguen viviendo de la caza y la recolección, consumen entre cien y ciento cincuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hacen las bacterias con esa fibra es lo que da sentido a todo. Al fermentarla producen ácidos grasos de cadena corta, y uno de ellos, el butirato, es el alimento principal de las células que recubren el colon. Es decir, la pared del intestino se nutre de un residuo bacteriano, y si no llega fibra, no se produce.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa cadena es lo que separa este libro de la divulgación habitual sobre alimentación. No dice que la fibra sea buena en general: describe un mecanismo con un intermediario, un producto y una célula que lo consume, y ese mecanismo se puede medir y refutar. Es la diferencia entre una recomendación y una explicación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pared de tu colon se alimenta de lo que fabrican tus bacterias al fermentar fibra. Sin fibra no hay fermentación y sin fermentación no hay alimento.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cuatro generaciones de ratones enseñaron que lo que se pierde no vuelve solo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El experimento más importante del libro es de los propios autores y se publicó en 2016, poco después. Cogieron ratones criados sin bacterias, les trasplantaron microbiota humana y los dividieron en dos grupos: uno con una dieta rica en esa fibra fermentable y otro con una dieta baja, parecida a la occidental.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El grupo con dieta pobre perdió variedad bacteriana en pocas semanas, cosa que ya se sabía. Lo nuevo llegó al devolverles la fibra: recuperaron una parte y no toda. Algunas especies habían caído a niveles tan bajos que no volvieron a crecer, aunque el alimento que necesitaban estuviera otra vez disponible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entonces criaron cuatro generaciones seguidas con la dieta pobre. La pérdida se acumuló: cada generación heredaba de su madre un ecosistema más pequeño que el de la anterior, y en la cuarta faltaba alrededor de dos tercios de la variedad original. Devolverles la fibra ya no servía prácticamente de nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo único que restauró aquellas poblaciones fue un trasplante de heces de ratones que todavía las tenían, junto con la dieta rica. La conclusión es incómoda y va más allá de la nutrición: hay pérdidas que no se corrigen volviendo a hacer lo correcto, porque lo que se necesitaba ya no está para recuperarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene marcar hasta dónde llega la conclusión, porque el propio trabajo lo marca. Son ratones, con microbiota humana trasplantada, en condiciones de laboratorio, y nadie ha hecho ni podría hacer ese experimento con cuatro generaciones de personas. Lo que demuestra es que el mecanismo existe, no que nos esté ocurriendo con esa intensidad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay cosas que no se arreglan volviendo a hacerlo bien, porque lo que hacía falta ya se ha extinguido. Y eso puede heredarse de una generación a otra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las alergias no han subido porque vivamos demasiado limpios, sino porque falta la suciedad correcta",
+      },
+      {
+        b: "texto",
+        texto:
+          "El asma, las alergias alimentarias y varias enfermedades autoinmunes llevan décadas aumentando en los países ricos, y lo hacen demasiado deprisa para que la explicación esté en los genes. La hipótesis que maneja el libro es que el sistema inmunitario se entrena en los primeros años con los microorganismos que encuentra, y que ya no encuentra los mismos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los autores insisten en corregir la versión popular de esa idea. No se trata de que la casa esté demasiado limpia ni de que haya que dejar de lavarse las manos: el lavado de manos previene infecciones y salva vidas. Se trata de la exposición temprana a la diversidad microbiana del ambiente, que es otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La mejor prueba llegó un año después del libro y es de las más elegantes que hay. Se compararon niños de dos comunidades agrícolas de Estados Unidos genéticamente muy parecidas y con estilos de vida similares, salvo en un punto: unos trabajan la tierra con métodos tradicionales y viven junto a los animales, y otros con agricultura industrial.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia en asma fue enorme: alrededor de un cinco por ciento de los niños en el primer grupo frente a más del veinte en el segundo. Y al analizar el polvo de las casas se encontró que el del primer grupo contenía mucha más carga microbiana, y que ese polvo protegía del asma a ratones de laboratorio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No es que estemos demasiado limpios: es que falta la exposición temprana correcta. Lavarse las manos sigue salvando vidas y no tiene nada que ver.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los antibióticos salvan vidas y cobran un precio que nadie apunta en ninguna parte",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro es cuidadoso en este capítulo y conviene serlo al resumirlo. Los antibióticos son una de las mayores conquistas de la medicina, han salvado cientos de millones de vidas y ninguna de las páginas siguientes sirve para dejar de tomarse uno que un médico ha recetado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dicho eso, un antibiótico de amplio espectro no distingue: elimina la bacteria que causa la infección y también una parte considerable de las que viven en el intestino. La comunidad se recupera en unas semanas, pero no siempre entera, y algunas especies pueden no volver, sobre todo si el tratamiento se repite.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La preocupación de los autores se centra en los primeros años de vida, cuando ese ecosistema se está formando. Los estudios de población encuentran asociación entre tratamientos repetidos en la primera infancia y más obesidad y más asma después, aunque los propios autores subrayan que asociación no es causa y que un niño con muchas infecciones ya es distinto de partida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la única recomendación sensata en este terreno, que no es negarse a nada: preguntar. Si un médico prescribe un antibiótico, la pregunta útil es si se sospecha una infección bacteriana o vírica, porque contra las víricas no hace nada, y esa conversación de treinta segundos es la que evita la mayor parte de los tratamientos innecesarios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un uso que este libro no menciona porque cae fuera de la consulta: la mayor parte de los antibióticos que se producen en el mundo no se administran a personas, sino a animales de granja, en muchos casos para engordarlos más deprisa. Es un problema distinto y de una escala bastante mayor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pregunta si lo que tienes se sospecha bacteriano o vírico. Contra lo vírico un antibiótico no hace nada y sí se lleva por delante lo demás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi todo lo que promete el subtítulo está mucho menos demostrado que lo que dice el libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí hay que aplicar la prueba que salva de leer mal cualquier libro de salud: tapar el título y cambiar la palabra clave. Si un capítulo funcionara igual sustituyendo microbiota por cortisol, por mitocondrias o por inflamación, ese capítulo no cuenta este libro, cuenta el género entero al que pertenece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los capítulos que pasan esa prueba son los que traen un mecanismo y un experimento: la fibra fermentable, el butirato, las cuatro generaciones de ratones, el polvo de las casas. Ahí hay una cadena causal descrita y comprobable, y ninguna otra molécula de moda encaja en esas frases.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los que no la pasan son los del estado de ánimo. Que existe comunicación entre el intestino y el cerebro está establecido, y de ahí a que cambiar la dieta modifique la depresión o la ansiedad de una persona concreta hay una distancia enorme que en 2015 no estaba recorrida y sigue sin estarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un asunto que el propio libro trata con reservas y que su público ignoró: los suplementos probióticos. La mayoría de las cepas que se venden no colonizan nada y desaparecen al dejar de tomarlas, y un estudio de 2018 encontró incluso que tomarlos después de un antibiótico retrasó la recuperación de la flora propia en lugar de acelerarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una manera de leer cualquier titular sobre este asunto sin equivocarse. Si la noticia dice que se ha encontrado una diferencia en la microbiota de personas con una enfermedad, la pregunta es si la diferencia causó la enfermedad o la enfermedad causó la diferencia. En la inmensa mayoría de los estudios publicados eso está sin resolver.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tapa el título y cambia la palabra clave. Si el capítulo funciona igual con otra molécula de moda, no te está contando ningún libro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que sí se puede hacer cabe en cuatro cosas y ninguna se compra en una farmacia",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte práctica del libro es corta y no promete resultados espectaculares, cosa poco frecuente en su estante. Lo primero es aumentar la cantidad y sobre todo la variedad de fibra: legumbres, verdura, fruta entera, cereales de grano completo y frutos secos, contando especies distintas y no solo gramos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo segundo son los alimentos fermentados vivos: yogur sin pasteurizar después de la fermentación, kéfir, chucrut, kimchi. Lo tercero es dejar de esterilizar el entorno de los niños pequeños más de lo necesario, y ahí entra algo tan poco médico como tener un perro o dejar que jueguen con tierra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo cuarto es cocinar, porque casi todo lo ultraprocesado ha perdido la fibra en el proceso de fabricación, no porque contenga nada especialmente malo. Los autores señalan que un alimento con fibra añadida de laboratorio no equivale a la matriz completa de una legumbre, aunque la etiqueta diga el mismo número de gramos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene añadir el aviso que el libro no da con suficiente claridad. Pasar de quince gramos de fibra a cuarenta de golpe produce hinchazón y gases durante un par de semanas, porque el ecosistema tarda en ajustarse, y mucha gente abandona en ese punto convencida de que le sienta mal. Se sube poco a poco o no se sube.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los autores añaden un detalle sobre los fermentados que suele perderse en la etiqueta. Muchos productos se pasteurizan después de fermentar, lo que los deja seguros y sin bacterias vivas, así que conviene mirar si el envase dice que contiene cultivos vivos. Un chucrut de bote esterilizado y uno de nevera no son el mismo alimento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuenta especies distintas de vegetales a la semana, no gramos de fibra. Y sube despacio, porque hacerlo de golpe produce dos semanas malas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la microbiota intestinal funciona como un órgano, que la dieta occidental la ha empobrecido por falta de fibra fermentable, que esa pérdida puede acumularse entre generaciones y que parte del aumento de enfermedades inmunitarias podría explicarse por ahí. Lo primero está establecido y lo demás es una hipótesis seria con datos detrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente al resto de su estante es la procedencia. Los autores son investigadores en activo, citan sus propios experimentos con sus limitaciones y en varios puntos dicen abiertamente que algo no se sabe, incluida su reserva sobre los suplementos que ese mismo mercado vende. Eso es raro y vale la pena.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuenta cuántas plantas distintas comes a la semana. Es la única medida de esto que puedes llevar tú y que significa algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Buena parte de la evidencia mecánica es de ratones, y el propio campo lleva una década discutiendo hasta dónde se puede extrapolar. El subtítulo promete peso, ánimo y salud a largo plazo, y de esas tres cosas la del ánimo estaba y sigue estando muy poco demostrada en personas. Y la comparación con los cazadores y recolectores, que aparece en todos los libros del género, se usa aquí para la fibra sin recordar que esa forma de vida trae también una mortalidad infantil y una carga de infecciones que nadie querría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después es lo más interesante, porque lo hizo el propio laboratorio de los autores y complica su libro. En 2021 publicaron un ensayo con adultos sanos durante diecisiete semanas comparando dos dietas: una alta en fibra y otra alta en alimentos fermentados. La de alimentos fermentados aumentó la variedad de la microbiota y redujo marcadores de inflamación; la de fibra sola no aumentó la diversidad, y solo mejoró en quienes ya partían de una flora más rica. Es decir, la recomendación estrella de 2015 resultó funcionar menos y de manera más desigual de lo esperado, y quienes lo descubrieron fueron ellos mismos.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "intestino-feliz": INTESTINO_FELIZ,
   "mil-soles": MIL_SOLES,
   "tener-o-ser": TENER_O_SER,
   "vida-3-0": VIDA_3_0,
