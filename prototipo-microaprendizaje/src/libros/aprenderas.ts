@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "ladrona-libros":
+    "La narra la Muerte, que está cansada y que anuncia los muertos con cien páginas de antelación. En el centro hay un ejemplar de Mein Kampf con las páginas pintadas de blanco, para escribir encima un cuento a una niña.",
+
   "confesiones-chef":
     "Bourdain era jefe de cocina de un bistró de Nueva York, tenía cuarenta y tres años y ninguna fama cuando escribió lo que de verdad pasa dentro de un restaurante. El libro le cambió la vida y él acabó cuestionándolo.",
 

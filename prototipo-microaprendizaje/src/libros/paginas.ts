@@ -91805,7 +91805,274 @@ const CONFESIONES_CHEF: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La ladrona de libros, en ocho paginas.
+
+   Breve. NARRATIVA -> titulo corto de imagen en el rotulo y afirmacion en la
+   primera frase.
+
+   CAJA EN TERCERA PERSONA. Apartado 4 bis: es una novela sobre el Holocausto,
+   con una nina y una calle entera de muertos. La segunda persona convertiria
+   eso en leccion de vida para el lector, que es lo que la regla prohibe.
+
+   Apartado 4 bis, contar lo que casi nadie cuenta. Lo sabido: la narra la
+   Muerte. Lo que hace grande al libro y no se dice: que la Muerte cuenta los
+   finales por adelantado, a proposito, para que el lector no lea por saber que
+   pasa sino por ver como se llega; y que el objeto central del libro es un
+   ejemplar de Mein Kampf pintado de blanco encima para escribir un cuento a una
+   nina.
+
+   La conclusion: es una novela sobre el Holocausto contada desde una familia
+   alemana buena, que es la posicion mas comoda posible; los alemanes del libro
+   son casi todos victimas del regimen y los que no lo son apenas aparecen; y
+   Max existe sobre todo para ser escondido y para dar libros a Liesel.
+   -------------------------------------------------------------------------- */
+
+const LADRONA_LIBROS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "La Muerte, que está cansada" },
+      {
+        b: "texto",
+        texto:
+          "Markus Zusak es australiano, hijo de un austríaco y una alemana, y creció escuchando en casa dos historias que sus padres contaban de niños: una ciudad ardiendo después de un bombardeo, y una columna de judíos cruzando su pueblo camino de un campo. De ahí salió esta novela, que publicó en 2005 y de la que se han vendido desde entonces más de dieciséis millones de ejemplares en todo el mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La decisión que la define es quién la cuenta. El narrador es la Muerte, y no es una figura tenebrosa: es un trabajador agotado que lleva milenios recogiendo almas, que se fija en los colores del cielo para distraerse y que dice de entrada que le persiguen los seres humanos, porque no acaba de entender de qué son capaces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hace algo que casi ninguna novela se atreve a hacer: cuenta los finales por adelantado. Anuncia quién va a morir capítulos antes de que ocurra, a veces cien páginas antes, y lo dice sin rodeos. No es un descuido: quita a propósito la tensión de saber qué pasa para dejar solo la de ver cómo se llega.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre cómo llega Liesel a esa casa, quién le enseña a leer y con qué libro, qué hay escondido en el sótano, de qué está hecho el libro más importante de la historia, qué roba de una hoguera, cómo termina la calle donde vive, y qué se le puede reprochar a una novela así.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El narrador anuncia los muertos con cien páginas de antelación. No se lee para saber qué pasa, se lee para ver cómo se llega.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un libro sobre la nieve" },
+      {
+        b: "texto",
+        texto:
+          "Liesel Meminger tiene nueve años y viaja en tren con su madre y su hermano pequeño hacia un pueblo a las afueras de Múnich, en 1939, donde van a entregarlos a una familia de acogida. El hermano se muere por el camino. Lo entierran en un cementerio helado, deprisa y sin apenas gente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al ayudante del enterrador se le cae un libro en la nieve y Liesel lo recoge y se lo lleva escondido. Es un manual de instrucciones para sepultureros, no tiene nada de literario y ella no sabe leer. Ese es el primero de los libros que roba a lo largo de la novela, y el título entero sale de una escena así de pequeña y así de fría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La acogen Hans y Rosa Hubermann en una calle que se llama, con una ironía que Zusak no comenta, la calle del Cielo. Hans es pintor de brocha gorda, toca el acordeón y no ha conseguido entrar en el partido, cosa que le cuesta encargos. Rosa lava ropa para familias ricas y habla insultando a todo el mundo, incluida ella misma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Liesel tiene pesadillas todas las noches con su hermano, y Hans, que no duerme mucho, se sienta con ella. Un día descubre el manual de sepultureros debajo del colchón y en vez de quitárselo le propone otra cosa: se lo va a leer. Como ninguno de los dos tiene papel, empiezan a escribir las palabras nuevas con pintura en la pared del sótano, que acaba cubierta de arriba abajo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un hombre encuentra un libro robado bajo el colchón de una niña y decide leérselo. De ahí sale todo lo demás en esta novela.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un judío en el sótano" },
+      {
+        b: "texto",
+        texto:
+          "La casa cambia una noche de 1940, cuando llega a la puerta un hombre de veintitantos años, medio muerto de hambre y con una llave y un ejemplar de un libro en la mano. Se llama Max Vandenburg, es judío, boxeaba de joven, ha estado escondido semanas en un almacén y viene porque Hans es la única persona del mundo que puede ayudarle.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón por la que Hans le esconde está veinte años atrás y es de las mejores cosas del libro. En la Primera Guerra Mundial, el padre de Max le salvó la vida a Hans en una trinchera francesa por pura casualidad, y le enseñó a tocar el acordeón. Cuando aquel hombre murió, Hans fue a ver a su viuda y le dio su palabra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Max vive en el sótano durante años, sin ver la luz, contando los días, haciendo flexiones para no volverse loco y peleando en su cabeza contra Hitler en un ring imaginario. La novela describe con precisión lo que esconder a alguien significa para una familia: la comida, el ruido, los vecinos, y el terror concreto de que llamen a la puerta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y describe la relación que se monta entre el hombre encerrado y la niña, que es la mejor de la novela. Se hacen amigos porque los dos tienen pesadillas a la misma hora, y ella baja a contarle cómo está el tiempo fuera, porque él lleva meses sin ver el cielo y quiere saber de qué color estaba esa mañana para poder imaginárselo desde abajo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una promesa dada veinte años antes en una trinchera decide quién sobrevive en esta novela. La lealtad tarda mucho en cobrarse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Páginas pintadas de blanco" },
+      {
+        b: "texto",
+        texto:
+          "El objeto central de la novela merece contarse entero porque casi ningún resumen lo menciona. Max llega a la casa con un ejemplar de Mein Kampf, el libro de Hitler, que le ha servido de salvoconducto: llevarlo en la mano por la calle era lo último que hacía sospechar de un judío en fuga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ya en el sótano, arranca las páginas, las pinta de blanco con la pintura de Hans y espera a que sequen. Y sobre esas páginas blanqueadas escribe y dibuja un cuento para Liesel, con letras de su propia mano encima del texto tapado. Le regala dos libros hechos así a lo largo de la novela, y ella los guarda como lo único suyo que tiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La imagen es la tesis del libro entero y no hace falta explicarla: el libro que ordenaba el exterminio, cubierto de pintura blanca y convertido en un regalo para una niña alemana escrito por un judío escondido. Zusak la coloca y no la comenta ni una vez, que es exactamente lo que hay que hacer con una imagen así.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la afirmación que atraviesa la novela y que la Muerte repite de distintas maneras. Las palabras son lo que puso todo aquello en marcha —los discursos, los carteles, los libros, la radio— y son también lo único que sostiene a la gente que está dentro. La misma herramienta hace las dos cosas, y el libro no elige.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las palabras pusieron aquello en marcha y son lo único que sostiene a los que están dentro. La misma herramienta sirve para las dos cosas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Robar de una hoguera" },
+      {
+        b: "texto",
+        texto:
+          "El día del cumpleaños de Hitler, el pueblo hace una hoguera en la plaza con los libros prohibidos, con banda de música, discursos, uniformes y las juventudes del partido formadas en la plaza. Liesel está en la plaza, obligada a asistir como todos los niños, y ve arder montones de libros durante horas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando la plaza se vacía, se acerca a las cenizas y saca un libro que todavía humea y se lo mete debajo de la chaqueta, quemándose. Alguien la ve: es Ilsa Hermann, la mujer del alcalde, para la que Rosa lava la ropa, una mujer callada y rota desde que su hijo murió en la guerra anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace Ilsa es lo que convierte el episodio en algo más que un robo. No la denuncia. Le abre la puerta de su biblioteca, una habitación llena de libros hasta el techo, y le dice que puede entrar a leer cuando quiera. Y cuando Rosa pierde ese trabajo, deja una ventana abierta para que la niña siga entrando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Zusak reparte por toda la novela gestos de ese tamaño y esa es su manera de contar aquel país. Nadie hace nada heroico: una mujer deja una ventana abierta, un hombre le da un trozo de pan a un prisionero que pasa por la calle y le dan una paliza por ello. La resistencia que retrata cabe entera en cosas pequeñas y peligrosas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En este libro nadie hace nada heroico. Alguien deja una ventana abierta, alguien da un trozo de pan, y por eso les pasa lo que les pasa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La calle del Cielo, de noche" },
+      {
+        b: "texto",
+        texto:
+          "La Muerte lleva media novela avisando de cómo termina y aun así llega. Una madrugada, sin sirena previa porque las alarmas fallan, los bombarderos aliados descargan sobre la calle donde vive Liesel, que no tenía ninguna importancia militar y a la que le tocó por error o por descarte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mueren todos. Hans, Rosa, Rudy —el niño rubio del que Liesel es amiga desde el primer día y que lleva toda la novela pidiéndole un beso—, y las familias enteras de las casas de al lado. La Muerte los va recogiendo uno por uno y describe cada casa según entra, sin ninguna prisa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Liesel sobrevive por una razón que ordena todo el libro: estaba en el sótano, escribiendo. Llevaba semanas escribiendo su propia historia en un cuaderno que le había regalado Ilsa Hermann, y esa noche se había quedado dormida abajo sobre las páginas. Lo que la salva de morir con toda su calle es, literalmente, haber estado escribiendo un libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena final es de la Muerte recogiendo el cuaderno de entre los escombros, leyéndolo y guardándoselo durante décadas. Y la última frase de la novela es lo que ese narrador lleva quinientas páginas intentando decir: que le persiguen los seres humanos, porque es incapaz de entender cómo pueden ser a la vez las dos cosas que son.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El narrador cierra diciendo que le persiguen los humanos. No dice que le horroricen: dice que no entiende cómo pueden ser las dos cosas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que se ve y lo que no se ve desde esa calle" },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir qué clase de novela sobre aquello es esta, porque decide cómo se lee. Está contada desde dentro de una familia alemana pobre y decente, y todo lo que ocurre se ve desde la ventana de esa casa: las columnas de prisioneros que cruzan el pueblo, los vecinos que denuncian, el hijo que se alista, el sótano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa posición tiene una ventaja real. Permite enseñar cómo funciona un régimen así en la vida diaria de gente corriente: qué se apunta uno para conservar el trabajo, qué se calla en una tienda, qué se enseña a decir a los niños, y cuánto miedo hace falta exactamente para que una familia entera cambie de conducta sin que nadie llegue a ordenarle nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y tiene un precio que hay que nombrar. Los alemanes de esta novela son casi todos buenos: Hans, Rosa, Rudy, el padre de Rudy, Ilsa. Los que no lo son aparecen de lejos y con poca cara. Es la posición más cómoda posible para una historia alemana sobre esos años, y es la que Zusak eligió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro precio está en Max, que es el único personaje judío del libro con vida propia. Zusak le da interioridad, sueños y voz, y aun así su función en la trama es ser escondido y darle libros a la niña. La novela no es suya: es de Liesel, y él es la ocasión de que ella se convierta en quien se convierte.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Contar aquello desde una familia alemana decente permite ver el miedo cotidiano, y deja fuera casi todo lo demás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que esta novela hace y no hace casi ninguna es doble. Elige a un narrador que anuncia los muertos por adelantado, con lo que obliga a leer por el camino y no por el desenlace. Y coloca en el centro un objeto que resume la época entera sin explicarlo: el libro de Hitler pintado de blanco para escribir encima un cuento a una niña.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en desde dónde mira. Es una novela sobre el Holocausto contada por completo desde una familia alemana buena, y sus alemanes son casi todos víctimas del régimen. Es una posición legítima y es también la más cómoda que había disponible, y deja fuera del encuadre a casi todos los que hicieron posible aquello.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en el reparto de papeles. Max es un personaje excelente y su función es estar escondido y regalar libros; la novela le da voz y no le da la historia. En un libro sobre el exterminio, el único judío con nombre propio existe sobre todo para que la protagonista alemana aprenda algo, y eso conviene decirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después fue enorme. Se han vendido más de dieciséis millones de ejemplares, se llevó al cine en 2013 y se ha convertido en lectura escolar en muchos países, con lo que para bastantes adolescentes esta es la primera vez que leen sobre aquello. Y para una primera vez tiene una virtud grande: no consuela al final.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro que anuncia sus muertes desde el principio quita el suspense y deja lo otro, que es lo que de verdad se recuerda.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "ladrona-libros": LADRONA_LIBROS,
   "confesiones-chef": CONFESIONES_CHEF,
   "21-leyes-liderazgo": LEYES_LIDERAZGO,
   "usted-puede-sanar": USTED_PUEDE_SANAR,
