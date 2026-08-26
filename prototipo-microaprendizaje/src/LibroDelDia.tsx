@@ -81,9 +81,16 @@ function diaDelAno(d: Date): number {
  *  categoría, y la tarjeta parecía atascada en Historia toda la semana. Con
  *  un paso primo respecto al total, la vuelta entera pasa por todos sin
  *  repetir y saltando de tema cada día. */
+/** Un desplazamiento fijo de la vuelta entera. No cambia nada de cómo
+ *  funciona el reparto —sigue tocando uno distinto cada día y sigue siendo el
+ *  mismo para todo el mundo—: solo mueve por dónde va la rueda hoy. Existe
+ *  porque a Pablo le tocaba el mismo libro tres días seguidos mirando la
+ *  misma pantalla y quería verla con otra cubierta. */
+const SALTO = 11;
+
 export function libroDeHoy(hoy = new Date()): Libro | undefined {
   if (!ELEGIBLES.length) return undefined;
-  return ELEGIBLES[(diaDelAno(hoy) * 7) % ELEGIBLES.length];
+  return ELEGIBLES[(diaDelAno(hoy) * 7 + SALTO) % ELEGIBLES.length];
 }
 
 /** Lo que queda de hoy, escrito como se dice. */
