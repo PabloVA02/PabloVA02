@@ -3390,7 +3390,23 @@ button {
   margin-bottom: 12px;
 }
 
+/* CUIDADO CON EL MARGEN DE FÁBRICA, que es la cuarta vez que cuesta una
+   sesión. Un `h2` trae 0,83 em de margen arriba y abajo y un `p` trae 1 em: a
+   17 de cuerpo son catorce puntos por lado, veintiocho de aire que nadie ha
+   escrito y que no aparecen en ninguna regla. Aquí la columna de la derecha
+   medía 106 contra los 78 de la llama, así que la fila de los días caía once
+   puntos por debajo del dibujo y la ficha quedaba descuadrada sin que se viera
+   por qué. Pablo: «los ticks de lunes, martes, toda esa fila debe estar más
+   arriba, alineada con el fuego».
+
+   Sin el margen la columna mide 78 justos —titular 25, hueco 12, días 41—, que
+   es exactamente el alto de la llama, así que las dos se centran solas.
+
+   Si una pieza sale más alta de lo que suman sus partes, esto es lo primero
+   que hay que mirar. De paso quedan a cero los cuatro que faltaban: el titular
+   y el pie de las filas de flecha, y la línea de la versión. */
 .perfil-racha-datos h2 {
+  margin: 0;
   font-size: 17px;
   font-weight: 720;
   letter-spacing: -0.015em;
@@ -3516,12 +3532,14 @@ button {
 .perfil-fila-texto { flex: 1; min-width: 0; }
 
 .perfil-fila-titulo {
+  margin: 0;
   font-size: 15px;
   font-weight: 700;
   letter-spacing: -0.012em;
 }
 
 .perfil-fila-pie {
+  margin-bottom: 0;
   margin-top: 2px;
   font-size: 12px;
   line-height: 1.35;
@@ -3622,6 +3640,7 @@ button {
 }
 
 .perfil-version {
+  margin-bottom: 0;
   margin-top: 26px;
   text-align: center;
   font-size: 11px;
@@ -5528,35 +5547,17 @@ button {
   color: rgba(242, 236, 225, 0.38);
 }
 
-/* La entrada al anti-scroll, dentro del perfil */
-.perfil-anti {
-  display: flex;
-  align-items: center;
-  gap: 13px;
-  width: 100%;
-  margin-top: var(--tarjeta-hueco);
-  padding: 14px 15px;
-  border-radius: var(--tarjeta-radio);
-  border: 1px solid var(--tarjeta-filo);
-  background: rgba(194, 112, 79, 0.13);
-  color: var(--paper);
-  text-align: left;
-}
-
-.perfil-anti-marca { flex: none; display: grid; place-items: center; }
-.perfil-anti-texto { flex: 1; min-width: 0; }
-
-.perfil-anti-titulo {
-  font-size: 15px;
-  font-weight: 720;
-  letter-spacing: -0.015em;
-}
-
-.perfil-anti-pie {
-  margin-top: 2px;
-  font-size: 12px;
-  line-height: 1.35;
-  color: rgba(255, 255, 255, 0.72);
+/* La entrada al anti-scroll, dentro del perfil. Va sobre `.perfil-fila`, que
+   es la tarjeta y la letra que usa el resto de la columna: aquí sólo queda el
+   hueco del dibujo. Tuvo relleno propio —un tinte de barro— y letra propia, y
+   las dos cosas se quitaron el 26 de agosto porque desentonaban con todo lo
+   que tiene encima. */
+.perfil-anti-marca {
+  flex: none;
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
 }
 
 /* Invitar amigos, dentro del perfil */
