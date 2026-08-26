@@ -25,12 +25,13 @@ import { Resena, tocaPedirResena } from "./Resena";
 import { spring, springPop, springSoft, springTight } from "./motion";
 import { GlyphBiblioteca, GlyphLibros, GlyphLupa, GlyphRayo } from "./glyphs";
 import { PantallaColeccion } from "./Colecciones";
+import { AjustarTemas } from "./Temas";
 import type { Coleccion } from "./colecciones";
 
 type Pantalla =
   | "intro" | "pago" | "inicio" | "detalle" | "lector" | "fin" | "racha" | "reto"
   | "shorts" | "perfil" | "ajustes" | "oferta" | "alta" | "biblioteca"
-  | "explorar" | "anti" | "coleccion";
+  | "explorar" | "anti" | "coleccion" | "temas";
 /** Las pantallas raíz: las únicas que enseñan la barra de abajo. */
 /* Los shorts la llevan ahora también. Antes no: la pantalla era la página
    entera y una barra flotando encima le comía sitio al texto. Pablo la quiere
@@ -162,6 +163,8 @@ export default function App() {
   const [coleccion, setColeccion] = useState<Coleccion | null>(null);
   /** A dónde vuelve la ficha de un libro al cerrarse. */
   const [volverDeDetalle, setVolverDeDetalle] = useState<Pantalla>("inicio");
+  /** Lo mismo para los temas: se entra desde el inicio y desde el perfil. */
+  const [volverDeTemas, setVolverDeTemas] = useState<Pantalla>("inicio");
   /* Las preferencias viven aquí arriba y no en la pantalla de ajustes: sus
      efectos —el tema y la escala de texto— tienen que seguir aplicados
      mientras se lee, que es cuando importan. */
@@ -388,6 +391,21 @@ export default function App() {
                 setColeccion(c);
                 setPantalla("coleccion");
               }}
+              onGestionarTemas={() => {
+                setVolverDeTemas("inicio");
+                setPantalla("temas");
+              }}
+            />
+          )}
+          {pantalla === "temas" && (
+            <AjustarTemas
+              key="temas"
+              intereses={intereses}
+              onCerrar={() => setPantalla(volverDeTemas)}
+              onGuardar={(t) => {
+                setIntereses(t);
+                setPantalla(volverDeTemas);
+              }}
             />
           )}
           {pantalla === "coleccion" && coleccion && (
@@ -460,6 +478,10 @@ export default function App() {
               onCerrar={() => setPantalla("inicio")}
               onAjustes={() => setPantalla("ajustes")}
               onAntiScroll={() => setPantalla("anti")}
+              onTemas={() => {
+                setVolverDeTemas("perfil");
+                setPantalla("temas");
+              }}
             />
           )}
           {pantalla === "anti" && (

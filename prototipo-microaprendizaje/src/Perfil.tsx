@@ -98,6 +98,8 @@ type Props = {
   onCerrar: () => void;
   onAjustes: () => void;
   onAntiScroll: () => void;
+  /** Abre la pantalla de temas. La misma que el inicio. */
+  onTemas?: () => void;
 };
 
 export function Perfil({
@@ -115,6 +117,7 @@ export function Perfil({
   onCerrar,
   onAjustes,
   onAntiScroll,
+  onTemas,
 }: Props) {
   const reducido = !!useReducedMotion();
   const dias = semana(racha);
@@ -281,7 +284,7 @@ export function Perfil({
 
             <div className="stats-caja stats-ancha">
               <p className="stats-rotulo">Tus temas</p>
-              <Temas temas={temas} retraso={orden(4)} reducido={reducido} />
+              <Temas temas={temas} retraso={orden(4)} reducido={reducido} onAjustar={onTemas} />
             </div>
           </div>
         </motion.section>
@@ -415,10 +418,12 @@ function Temas({
   temas,
   retraso,
   reducido,
+  onAjustar,
 }: {
   temas: { nombre: string; n: number; color: string }[];
   retraso: number;
   reducido: boolean;
+  onAjustar?: () => void;
 }) {
   const total = temas.reduce((t, x) => t + x.n, 0) || 1;
   const porcentaje = (n: number) => Math.round((n / total) * 100);
@@ -459,7 +464,7 @@ function Temas({
         ))}
       </ul>
 
-      <motion.button className="temas-ajustar" whileTap={{ scale: 0.97 }}>
+      <motion.button className="temas-ajustar" whileTap={{ scale: 0.97 }} onClick={onAjustar}>
         Ajustar mis temas
       </motion.button>
     </div>

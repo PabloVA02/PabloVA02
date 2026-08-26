@@ -19,6 +19,7 @@ import { desbloquea } from "./voz";
 import { SUBTITULOS } from "./libros/subtitulos";
 import { PortadaLibro } from "./PortadaLibro";
 import { TiraColecciones } from "./Colecciones";
+import { GestionaTemas } from "./Temas";
 import type { Coleccion } from "./colecciones";
 import { LibroDelDia, libroDeHoy } from "./LibroDelDia";
 import type { Foto } from "./shorts";
@@ -532,6 +533,7 @@ export function Inicio({
   guardados,
   onGuardar,
   onColeccion,
+  onGestionarTemas,
 }: {
   racha: number;
   /** Sin suscripción no hay libro del día. Ver `LibroDelDia.tsx`. */
@@ -549,6 +551,8 @@ export function Inicio({
   onGuardar?: (libro: Libro) => void;
   /** Abre una colección. Sin esto, la tira de colecciones no sale. */
   onColeccion?: (c: Coleccion) => void;
+  /** Abre la pantalla de temas. Sin esto, la tarjeta de gestión no sale. */
+  onGestionarTemas?: () => void;
 }) {
   const [filtro, setFiltro] = useState<string | null>(null);
 
@@ -580,19 +584,6 @@ export function Inicio({
     const peso = (l: Libro) => (intereses.includes(l.categoria) ? 0 : 1);
     return [...libres].sort((a, b) => peso(a) - peso(b));
   }, [filtro, intereses]);
-
-  /* Los de la sección ancha. Son tres y no treinta a propósito: la ficha
-     ancha ocupa media pantalla cada una, y una lista larga de fichas que se
-     explican deja de ser una recomendación para ser otro catálogo. Se cogen
-     de los temas que marcó, saltándose los que ya salen arriba. */
-  const personalizados = useMemo(() => {
-    const arriba = new Set(recomendados.slice(0, 6).map((l) => l.id));
-    const mios = LIBROS.filter(
-      (l) => l.progreso === 0 && !arriba.has(l.id)
-        && (!intereses.length || intereses.includes(l.categoria)),
-    );
-    return (mios.length ? mios : LIBROS.filter((l) => !arriba.has(l.id))).slice(0, 3);
-  }, [recomendados, intereses]);
 
   return (
     <motion.div
@@ -760,39 +751,23 @@ export function Inicio({
           <TiraColecciones intereses={intereses} onAbrir={onColeccion} />
         )}
 
-        {/* Personalizado: la ficha ancha, centrada y con la portada sobre un
-            arco de color. Es la que se para a explicar POR QUÉ te tocaría
-            leer ese libro, y por eso va de una en una y no en carrusel: aquí
-            se lee, no se ojea. */}
-        {!filtro && personalizados.length > 0 && (
-          <section className="bloque">
-            <h2>Personalizado para ti</h2>
-            <p className="bloque-sub">Por lo que te interesa</p>
-            <div className="pila">
-              {personalizados.map((l, i) => (
-                <motion.button
-                  key={l.id}
-                  className="ancha"
-                  onClick={() => onAbrir(l)}
-                  whileTap={{ scale: 0.985 }}
-                  initial={{ opacity: 0, y: 22 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, margin: "-40px" }}
-                  transition={{ ...springSoft, delay: Math.min(i, 3) * 0.06 }}
-                >
-                  <div className="ancha-arco" style={{ ["--arco" as string]: l.color }}>
-                    <Portada libro={l} tamano={132} />
-                  </div>
-                  <span className="chip-cat ancha-chip" style={{ background: l.color }}>
-                    {tema(l.categoria)}
-                  </span>
-                  <p className="ancha-titulo">{l.titulo}</p>
-                  <p className="ancha-autor">{l.autor}</p>
-                  <p className="ancha-texto">{primeraFrase(l.gancho)}</p>
-                </motion.button>
-              ))}
-            </div>
-          </section>
+        {/* Aquí estaba «Personalizado para ti»: una ficha ancha por libro,
+            con la portada sobre un arco de color y un párrafo debajo. Pablo
+            la quitó el 27 de agosto y en su sitio va la tarjeta de gestionar
+            los temas, que es la de las capturas de Headway.
+
+            Y el cambio arregla algo, no solo mueve una sección. Aquella
+            enseñaba un libro bajo el rótulo «por lo que te interesa», o sea
+            que prometía un cálculo donde solo había un libro sacado de la
+            lista de siempre; el de abajo lo enseñaba igual con los intereses
+            vacíos. La tarjeta nueva no promete nada: enseña los temas que
+            marcaste, con su nombre, y el botón para cambiarlos. Es lo mismo
+            que se hizo en la tira de colecciones —no inventar personalización
+            que no existe y enseñar la palanca que sí existe— y encima es lo
+            único de esta pantalla que deja cambiar lo que se ve sin salir de
+            ella. */}
+        {!filtro && onGestionarTemas && (
+          <GestionaTemas intereses={intereses} onGestionar={onGestionarTemas} />
         )}
 
       </div>
@@ -837,13 +812,17 @@ const TEMA: Record<string, string> = {
   Economía: "Dinero",
   Salud: "Salud y longevidad",
 };
-const tema = (c: string) => TEMA[c] ?? c;
+export const tema = (c: string) => TEMA[c] ?? c;
 
 /* La descripción de la ficha: la primera frase del gancho y nada más. Antes
    se recortaba con puntos suspensivos a media palabra, que en una parrilla de
    veinte fichas es un campo de minas de puntitos. Una frase entera, con su
-   punto, se lee y se acaba. */
-function primeraFrase(texto: string): string {
+   punto, se lee y se acaba.
+
+   La usaba «Personalizado para ti», que ya no está. Se queda porque la ficha
+   ancha es una pieza que va a volver —es la única forma que tenemos de
+   explicar UN libro— y rehacerla desde cero para eso es tirar el trabajo. */
+export function primeraFrase(texto: string): string {
   const punto = texto.search(/[.:?!]\s/);
   const frase = punto > 0 ? texto.slice(0, punto) : texto.replace(/[.\s]+$/, "");
   if (frase.length <= 88) return frase + ".";
