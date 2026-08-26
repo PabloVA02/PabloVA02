@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "caballero-armadura":
+    "Un caballero se pone la armadura para estar preparado y deja de quitársela para dormir, luego para comer, y al final nunca. El día que su mujer le dice que se va porque ya no recuerda su cara, descubre que el metal se ha oxidado y no abre.",
+
   "buena-suerte":
     "Dos ancianos se encuentran en un banco de Nueva York tras cincuenta años. Salieron del mismo barrio con las mismas oportunidades y uno ha prosperado y el otro está arruinado. El resto del libro es un cuento que intenta explicar esa diferencia.",
 

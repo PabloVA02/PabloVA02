@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "caballero-armadura": [
+    "cómo se acaba encerrado sin haberlo decidido ningún día",
+    "por qué dar más de lo que sabes dar no sustituye a lo que te piden",
+    "qué estás evitando cuando llenas todos los huecos del día",
+    "qué llega primero al quitarte lo que te tapaba, que no es alivio",
+    "qué te suelen estar pidiendo en casa, que es más barato y más difícil",
+  ],
+
   "buena-suerte": [
     "en qué se distingue lo que te pasa de lo que has preparado",
     "qué pregunta hace el que encuentra lo que los demás buscan",

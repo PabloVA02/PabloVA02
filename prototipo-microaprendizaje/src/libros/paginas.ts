@@ -90420,7 +90420,272 @@ const BUENA_SUERTE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El caballero de la armadura oxidada, en ocho paginas.
+
+   Breve. Aqui SI va el registro narrativo del apartado 3 bis —titulo corto de
+   imagen y afirmacion en la primera frase—, porque a diferencia de La buena
+   suerte esto se lee como un cuento y no como diez reglas con envoltorio. Caja
+   en segunda persona con leccion, modelo de La Odisea.
+
+   Seis argumentos: la armadura puesta por si acaso, lo que ve la familia, la
+   armadura que ya no se abre, el silencio, no ser lo que uno construyo, y el
+   dragon del tamano del miedo.
+
+   El texto no se copia: se cuenta lo que pasa y lo que sostiene.
+
+   La conclusion: cien paginas para una sola idea; no da ni una instruccion que
+   se pueda ejecutar el lunes —'ve al castillo del silencio' no es un metodo—;
+   y resuelve en tres capitulos algo que en la vida real lleva anos, cosa que la
+   propia imagen del oxido esta diciendo. Y el dato: funciono muchisimo mas en
+   espanol que en ingles.
+   -------------------------------------------------------------------------- */
+
+const CABALLERO_ARMADURA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un hombre que no se la quita" },
+      {
+        b: "texto",
+        texto:
+          "Robert Fisher era guionista de comedia en Estados Unidos y publicó en 1989 un cuento de poco más de cien páginas que ha vendido millones de ejemplares, sobre todo en español. Va de un caballero bueno: rescata damiselas, mata dragones, cumple con su rey y todo el mundo habla bien de él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su problema es la armadura. Se la pone para estar preparado, porque nunca se sabe cuándo va a hacer falta salir corriendo a salvar a alguien, y con los años deja de quitársela para dormir. Después deja de quitársela para comer. Y al final ya no se la quita nunca, y ni siquiera recuerda cuándo fue la última vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La afirmación del libro está ahí y es sencilla de enunciar y difícil de aplicar. Lo que uno se pone para protegerse acaba siendo lo que le separa de todo, y no hay un día en que eso se decida: hay una cantidad de días pequeños en los que resulta más cómodo no quitárselo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que ve su familia desde fuera, qué pasa el día en que intenta quitársela, adónde le manda el mago Merlín, qué encuentra en el primer castillo, qué descubre en el segundo sobre quién es él, con qué se enfrenta en el tercero, y qué se le puede reprochar a un libro escrito así.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie decide un día encerrarse. Se decide muchas veces que hoy tampoco hace falta quitárselo, y eso sí que se acaba notando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Su mujer ya no recuerda su cara" },
+      {
+        b: "texto",
+        texto:
+          "La escena que pone el libro en marcha no es un dragón: es una conversación en casa. Su mujer, Julieta, le dice que se va, y le explica por qué con una frase que no admite discusión: hace tanto tiempo que no le ve la cara que ya no está segura de recordarla, y su hijo Cristóbal directamente no la conoce.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Él contesta lo que contesta cualquiera en esa situación: que todo lo que hace lo hace por ellos. Sale a luchar por el reino, gana honores, trae dinero y prestigio a la casa. Y la respuesta de ella es la parte útil de la escena: nada de eso es lo que le está pidiendo, y llevan años sin coincidir en lo que hace falta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fisher describe ahí un desencuentro muy reconocible y que no va de mala voluntad. Él está entregando lo que sabe entregar y lo entrega en cantidad; ellos necesitan otra cosa distinta, que no se puede sustituir por más de lo primero. Diez veces más protección no equivale ni de lejos a un rato con la cara descubierta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entonces intenta quitársela por primera vez en años. Y no puede. Las junturas están agarrotadas, el metal se ha oxidado y el yelmo no cede. Llama a los herreros del reino y ninguno consigue abrirla sin partirle la cabeza. Ese es el momento en que descubre que ya no está dentro de la armadura porque quiere estarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dar mucho de lo que sabes dar no sustituye a lo que te están pidiendo. Diez veces más de lo mismo sigue sin ser otra cosa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El camino que empieza en el bosque" },
+      {
+        b: "texto",
+        texto:
+          "Sin herrero que pueda abrirla, el caballero se va al bosque a buscar al mago Merlín, que es quien le da la única indicación del libro. Le dice que la armadura no la va a abrir nadie desde fuera y que solo cae si él recorre un camino con tres castillos, y que ese camino se llama el sendero de la verdad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Le acompañan un ardilla y una paloma que hablan y que hacen de contrapunto: se ríen de él, le dicen lo que nadie de su reino se atrevía a decirle y le señalan cada vez que se pone digno. Es un recurso de comedia y le sienta bien al libro, porque impide que la historia se ponga solemne.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Merlín le da además una instrucción de dieta que suena a chiste y no lo es: a partir de ahora comerá lo que encuentre en el camino y no lo que le traigan. El caballero adelgaza, y esa es la primera razón por la que empiezan a moverse las piezas. La armadura solo cede cuando el cuerpo de dentro cambia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle importa porque marca el tono de todo lo que viene. Nada de lo que ocurre después es un truco ni una revelación: es una serie de cosas incómodas que le pasan por el camino y que van aflojando el metal poco a poco. El libro no promete que caiga de golpe en ningún momento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que llevas puesto no lo abre nadie desde fuera. Solo empieza a ceder cuando cambia lo que hay dentro, y eso va despacio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El castillo del silencio" },
+      {
+        b: "texto",
+        texto:
+          "El primer castillo está vacío y no hay nadie con quien hablar, y esa es toda la prueba. El caballero, que se ha pasado la vida rodeado de gente que le aplaudía, tiene que quedarse solo y callado hasta que ocurra algo. Lo primero que ocurre es que le entra un pánico considerable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fisher describe bien lo que pasa en ese rato, y es la parte del libro que más gente reconoce. En cuanto se acaban el ruido y las tareas, aparece todo lo que llevaba años sin mirar: que hacía buenas obras para que se lo agradecieran, que necesitaba que le necesitaran, y que no sabía estar en ningún sitio sin ser útil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y llora, que es la primera vez en toda su vida adulta. Las lágrimas corren por dentro del yelmo y empiezan a oxidar las junturas desde el otro lado, hasta que el yelmo se abre y se le cae. Es la imagen central del cuento: lo que le libera la cabeza es exactamente lo que llevaba años evitando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lectura práctica de ese castillo es más aplicable de lo que parece. Casi todo el mundo que vive lleno de obligaciones tiene una relación complicada con estar solo y en silencio, y llena hasta el último hueco del día. Y ahí no hay ninguna virtud: hay una manera bastante eficaz de no tener que mirar lo que aparecería.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si llenas todos los huecos del día, no estás siendo productivo: estás evitando el rato en que aparece lo que no quieres mirar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "No eres lo que te pusiste" },
+      {
+        b: "texto",
+        texto:
+          "El segundo castillo es el del conocimiento, y ahí llega la afirmación que sostiene el libro entero: el caballero no es su armadura. La armadura es el personaje que se construyó para que le admiraran, y llegó un momento en que dejó de distinguir entre ese personaje y él, hasta el punto de no poder quitárselo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que le enseñan en ese castillo es a mirar sus propias hazañas de otra manera. Rescató a mucha gente, y casi siempre por lo que aquello decía de él; fue generoso, y casi siempre esperando algo; se sacrificó por su familia, y en buena medida porque sacrificarse era el papel que sabía interpretar y con el que le trataban bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fisher tiene el acierto de no convertirlo en un villano. El caballero es un buen hombre, lo que ha hecho está bien hecho y a la gente a la que salvó le sirvió igual. Lo que descubre no es que fuera malo, sino que llevaba décadas sin saber por qué hacía las cosas, y que eso le ha costado justamente a los suyos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El precio de esa parte del camino es que se le caen más piezas, y con cada pieza se queda más desprotegido y más asustado. El libro insiste en que cada avance se paga: quitarse lo que te tapaba no da seguridad, da intemperie, y quien busque un método que no duela no va a encontrarlo aquí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Descubrir por qué haces lo que haces no da seguridad. Quita lo que te tapaba, y lo primero que llega es la intemperie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un dragón del tamaño de tu miedo" },
+      {
+        b: "texto",
+        texto:
+          "En el tercer castillo, el de la voluntad y la osadía, hay un dragón que echa fuego y le cierra el paso. El caballero se queda paralizado hasta que le explican cómo funciona: el dragón se llama Miedo y Duda, y crece o encoge según cuánto crea él en su existencia. Si avanza convencido, el animal se hace pequeño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la parte más discutible del libro y conviene decirlo aquí. Como imagen del miedo anticipado funciona muy bien, porque casi todo lo que da pavor antes de hacerlo resulta ser más pequeño una vez dentro. Como afirmación general es falsa: hay peligros reales que no se encogen porque uno decida avanzar con determinación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí se sostiene es lo que hace el caballero para pasar. No se convence a sí mismo con un discurso ni espera a dejar de tener miedo: avanza teniéndolo. El libro es explícito en que el dragón sigue estando y sigue quemando, y que la diferencia está en caminar hacia él en vez de quedarse quieto esperando a estar listo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se quema, y las quemaduras son lo que termina de soltar las últimas piezas. Otra vez la misma mecánica del cuento entero: lo que abre la armadura no son las victorias, son las cosas que le pasan cuando deja de protegerse. Ninguna de las tres pruebas se supera peleando, que es lo único que él sabía hacer.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No esperes a dejar de tener miedo para avanzar. Se avanza teniéndolo, y casi todo resulta más pequeño desde dentro que desde fuera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La cima donde no se posee nada" },
+      {
+        b: "texto",
+        texto:
+          "El final del sendero es una cumbre, y lo que hay grabado allí es la idea con la que Fisher cierra el libro: se puede tener el mundo entero y no poseer nada, porque nadie llega a conocer la verdad mientras siga aferrado a la imagen que tiene de sí mismo. Es la conclusión más religiosa del cuento y también la más vaga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurre en esa cima es lo que la salva. Cae la última pieza, el caballero se echa a llorar otra vez, y lo primero que siente después de años es el sol en la cara y el aire en la piel. Fisher se detiene en esas sensaciones físicas y no en ninguna revelación, y ese es el remate acertado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caballero descubre entonces algo sobre el amor que el libro lleva doscientas páginas preparando. Había creído que amar consistía en hacer cosas por los demás, en cantidad y de manera reconocible; y lo que ve al final es que aquello era otra cosa, y que lo que su mujer y su hijo llevaban años pidiéndole era simplemente que estuviera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuento termina ahí, sin contar qué pasa cuando vuelve a casa, y esa elipsis es lo mejor y lo peor del libro a la vez. Es elegante porque no promete un final feliz, y es cómoda porque la parte difícil de verdad —volver con la gente a la que llevas veinte años sin mirar— es justo la que no se cuenta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que te están pidiendo en casa casi nunca es que hagas más cosas por ellos. Suele ser mucho más barato y mucho más difícil: que estés.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que este cuento hace bien es una sola cosa y la hace muy bien. Pone una imagen a algo que mucha gente vive y no sabe nombrar: haberse construido un personaje útil, admirado y competente, y descubrir veinte años después que ya no puede quitárselo, y que la gente que le quiere lleva ese tiempo hablándole a un casco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en que no da ningún método. Cien páginas y ninguna instrucción que se pueda ejecutar un lunes: ir al castillo del silencio no es un procedimiento, y el libro no explica en ningún sitio cómo se hace eso en una vida con trabajo, hipoteca y niños. Se termina conmovido y sin nada que hacer al día siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en el plazo. Resuelve en tres capítulos algo que en la vida real lleva años, y la propia imagen del libro lo está diciendo: un óxido de veinte años no se quita en una semana de camino. Fisher elige la comodidad de un desenlace y se salta lo único que de verdad cuesta, que es volver a casa después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un dato curioso sobre lo que pasó con él. Lo escribió un guionista de comedia estadounidense, y en su propio idioma tuvo una vida discreta; en español se convirtió en un superventas permanente durante décadas, y su imagen —la armadura— se metió en el idioma corriente. Es un caso raro de libro que encontró a su público en otra lengua.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si te reconoces en el caballero, la parte difícil no es entenderlo: es que el libro se acaba justo antes de contar cómo se vuelve a casa.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "caballero-armadura": CABALLERO_ARMADURA,
   "buena-suerte": BUENA_SUERTE,
   "tiempo-entre-costuras": TIEMPO_ENTRE_COSTURAS,
   "juegos-hambre": JUEGOS_HAMBRE,
