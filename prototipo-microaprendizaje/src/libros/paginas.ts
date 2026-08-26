@@ -102394,7 +102394,312 @@ const HISTORIA_INTERMINABLE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El poder del pleno compromiso, de Jim Loehr y Tony Schwartz (2003), en
+   ocho páginas.
+
+   Libro práctico, registro de tú: apartado 4.7. Salud, así que la prueba
+   del sustituto del apartado 4 bis se aplica: cada página tiene que traer
+   algo que solo exista en ESTE libro, y por eso el hallazgo del tenis va
+   en la primera.
+
+   La séptima página dice para quién está escrito y quién no puede
+   aplicarlo, que es la mitad de la gente que trabaja.
+   -------------------------------------------------------------------------- */
+
+const PLENO_COMPROMISO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Loehr descubrió la diferencia entre los mejores tenistas del mundo y los demás mirando lo que hacían entre punto y punto",
+      },
+      {
+        b: "texto",
+        texto:
+          "Jim Loehr era psicólogo deportivo y llevaba años intentando averiguar qué separaba a los tenistas del primer nivel mundial de los que estaban un poco por debajo. Analizó horas de grabaciones buscando diferencias técnicas dentro de los puntos y no encontró ninguna que explicara nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entonces miró lo que ocurría entre los puntos, que son unos dieciséis o veinte segundos que nadie estudiaba. Y ahí sí había una diferencia enorme. Los mejores hacían siempre lo mismo, casi sin darse cuenta: se giraban, se pasaban la raqueta a la otra mano, mantenían la cabeza alta, miraban las cuerdas, respiraban de una manera concreta y caminaban con un ritmo determinado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al medirles la frecuencia cardíaca apareció el dato que sostiene el libro: en esos segundos, los mejores bajaban hasta veinte pulsaciones por minuto. Los otros no bajaban prácticamente nada. Jugaban el mismo tenis y llegaban al tercer set en un estado completamente distinto, y todo se decidía en el tiempo en que no pasaba nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Loehr y Tony Schwartz publicaron en 2003 este libro para llevar aquello fuera del deporte. Lo que sigue recorre su tesis y su límite: por qué la moneda es la energía y no el tiempo, por qué el problema nunca es el esfuerzo, qué cuatro depósitos hay, por qué los rituales vencen a la fuerza de voluntad y para quién no sirve nada de esto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que separaba a los mejores tenistas del mundo no era lo que hacían en el punto. Era lo que hacían en los veinte segundos en que no pasaba nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El tiempo está fijado y la energía no, así que administrar tiempo es administrar lo que no se puede cambiar",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tesis del libro cabe en una comparación. El día tiene veinticuatro horas para todo el mundo y no hay manera de conseguir más; en cambio, la cantidad de energía disponible dentro de esas horas varía enormemente de una persona a otra y de un día a otro, y esa sí se puede aumentar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su crítica a los métodos de organización personal. Una agenda perfectamente optimizada reparte mejor las horas, y no sirve de nada si las horas de la tarde se pasan en un estado en el que no se puede pensar. Dos horas con la cabeza despejada producen más que seis arrastrándose, y ninguna agenda mide eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La comprobación que proponen se puede hacer esta semana. En lugar de anotar en qué se va el tiempo, hay que anotar con qué nivel de energía se hizo cada cosa. Casi todo el mundo descubre que dedica sus mejores horas a asuntos administrativos y deja lo que de verdad importa para el tramo en que ya no rinde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la única regla de organización que el libro defiende: proteger las dos o tres mejores horas del día para lo más difícil, y colocar en el resto todo lo que se puede hacer cansado. Es un cambio de criterio y no de sistema, y por eso no requiere comprar ninguna herramienta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Apunta una semana no en qué se te va el tiempo, sino con qué energía haces cada cosa. Vas a ver que gastas tus mejores horas en lo que menos importa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El problema nunca es el esfuerzo: es que no hay recuperación entre esfuerzos",
+      },
+      {
+        b: "texto",
+        texto:
+          "El concepto central del libro procede del entrenamiento deportivo y es contrario a la intuición del trabajo de oficina. Un músculo no crece entrenando: crece con el estímulo del entrenamiento más el descanso posterior, y sin la segunda parte lo que se produce no es fuerza, es lesión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Loehr y Schwartz sostienen que eso vale igual para la capacidad de concentrarse, para la paciencia y para el ánimo. Somos seres oscilantes y no lineales: funcionamos alternando gasto y recuperación, y cualquier intento de vivir en línea recta —tensión continua sin pausas— produce el mismo resultado que entrenar todos los días sin descansar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la reformulación más útil del libro. El enemigo no es el estrés, que es necesario y es lo que hace crecer cualquier capacidad; el enemigo es la ausencia de recuperación. Alguien puede sostener una carga altísima si alterna bien, y hundirse con una carga moderada si no se desconecta nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y también la advertencia contraria, que suele olvidarse. El exceso de recuperación sin ningún estímulo produce atrofia igual de real: quien deja de exigirse pierde capacidad, y eso ocurre igual con la fuerza, con la memoria y con la tolerancia a la frustración. El objetivo no es descansar más, es alternar mejor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El error que señalan es el de las vacaciones como única recuperación. Once meses de tensión seguida no se compensan con tres semanas en agosto, igual que un mes de descanso no repara un año entrenando sin parar. La recuperación tiene que ocurrir en la misma escala en que ocurre el gasto: dentro del día, dentro de la semana y dentro del año.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El estrés no es el enemigo: la falta de recuperación lo es. Un músculo no crece entrenando, crece entrenando y descansando después.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay cuatro depósitos de energía y el de abajo sostiene a los otros tres",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro reparte la energía en cuatro niveles ordenados de abajo arriba. El físico es la base: sueño, comida, movimiento y respiración. Encima está el emocional, es decir, en qué estado se aborda algo. Después el mental, la capacidad de sostener la atención en una sola cosa. Y arriba lo que llaman espiritual, que es para qué se hace.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El orden importa porque los niveles no son independientes. Nadie sostiene la atención con cinco horas de sueño, y nadie mantiene un buen estado emocional con hambre y agotamiento. Intentar arreglar por arriba lo que falla por abajo es el error más común: se buscan técnicas de concentración cuando el problema es que no se duerme.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El nivel de arriba es el que más flojea en el libro y el que más falta hace. Su argumento es que un motivo propio y concreto sostiene el esfuerzo cuando las recompensas externas dejan de funcionar, cosa razonable; el problema es que los autores lo llenan de vocabulario elevado en lugar de explicar cómo se encuentra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte práctica que sí se sostiene es la comprobación por niveles. Ante cualquier bajón prolongado, conviene revisar de abajo arriba: cuántas horas se está durmiendo de verdad, qué se está comiendo, cuánto se mueve uno, con quién se pasa el día, y solo después preguntarse por el sentido de nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre el nivel emocional dan un dato aprovechable y concreto. Los estados de tensión, prisa o enfado consumen energía a un ritmo muy superior al de la calma o el interés, así que dos horas de trabajo hechas con irritación cuestan bastante más que las mismas dos horas hechas de otro modo, aunque el resultado sea idéntico.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de buscar técnicas de concentración, mira cuánto duermes. Los niveles de arriba no se pueden arreglar mientras falle el de abajo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un ritual concreto vence a la fuerza de voluntad, porque la fuerza de voluntad se acaba",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte más aplicable del libro es su rechazo de la disciplina como método. Los autores sostienen que decidir cada día si uno hace algo es agotador y falla, y que lo que funciona es convertir esa decisión en un procedimiento fijo que se ejecuta sin deliberar, igual que nadie decide cada mañana si se lava los dientes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y dan las condiciones para que un ritual funcione, que es donde está el valor. Tiene que ser muy concreto —no hacer más ejercicio, sino salir a correr a las siete y media, treinta minutos, martes y jueves—, tiene que estar atado a una hora y a un lugar, y tiene que ser el mismo siempre, porque la repetición es la que retira la decisión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda condición es de cantidad: uno o dos rituales nuevos como mucho, y no más hasta que los primeros funcionen solos, cosa que tarda entre uno y dos meses. Quien empieza cinco a la vez está usando exactamente la fuerza de voluntad que este método pretendía dejar de gastar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí hay que apuntar que el libro sostiene esto sobre una teoría concreta —la de que la voluntad es un depósito que se vacía— que años después no superó las comprobaciones. La recomendación sigue siendo buena por otro motivo más simple: un procedimiento automático no depende de cómo te levantes ese día, y una decisión sí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un ritual no es disciplina: es haber retirado la decisión. Si cada día tienes que decidir si lo haces, todavía no es un ritual.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El cuerpo avisa de que hay que parar bastante antes de que uno lo note",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que el organismo funciona en ciclos de entre noventa minutos y dos horas, y que al final de cada ciclo emite señales de que necesita una pausa: bostezos, hambre repentina, ganas de levantarse, dificultad para seguir una frase, releer el mismo párrafo tres veces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La observación práctica es que casi todo el mundo interpreta esas señales como falta de disciplina y las combate con café o insistencia. Al hacerlo se sigue trabajando, pero con un rendimiento cada vez peor, y el rato que se gana en la mesa se paga después con horas de embotamiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La recomendación es de una sencillez sospechosa y funciona: parar entre cinco y quince minutos cada hora y media, y parar de verdad, es decir, levantarse, moverse y dejar de mirar una pantalla. Cambiar de pantalla no es una pausa, porque el sistema que estaba cansado sigue exactamente igual de ocupado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir que la base fisiológica del ciclo de noventa minutos durante la vigilia está bastante menos establecida de lo que el libro sugiere. Lo que sí está demostrado es lo otro: que interrumpir brevemente una tarea larga mejora de forma medible la capacidad de sostener la atención durante el resto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una pausa concreta que el libro defiende y que en España tiene tradición: la siesta breve. Entre diez y veinte minutos mejora el estado de alerta durante horas; pasar de treinta produce el efecto contrario, porque se entra en una fase de sueño profundo de la que se despierta uno peor de lo que estaba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cambiar de pantalla no es una pausa. El sistema que estaba cansado sigue exactamente igual de ocupado, y encima crees que has descansado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Está escrito para quien controla su propia agenda, que es menos de la mitad de la gente que trabaja",
+      },
+      {
+        b: "texto",
+        texto:
+          "Todos los ejemplos del libro son de directivos, y eso condiciona lo que puede recomendar. Sus consejos —parar cada noventa minutos, proteger las mejores horas, montarse rituales matinales, desconectar los fines de semana— presuponen que quien lee decide cuándo trabaja y cuándo para.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para una cajera, un repartidor, alguien en una cadena de montaje, una enfermera de turno o quien atiende llamadas con un tiempo medido, casi nada de eso está disponible. No es que les falte método: es que las pausas están fijadas por otro y protegerse las mejores horas no es una decisión que puedan tomar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una manera de usar mal el libro que conviene señalar. Convertir el agotamiento en un problema de gestión personal de la energía traslada la responsabilidad a quien lo sufre, y sirve para no mirar lo que a menudo lo causa: plantillas cortas, turnos encadenados, dos empleos o un sueldo que obliga a aceptarlos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte del libro que sí funciona para cualquiera es la más pequeña. Los veinte segundos de los tenistas no eran un privilegio de nadie: eran un uso deliberado de un hueco que ya existía. Casi todo el mundo tiene huecos así en su jornada, y usarlos para recuperarse en lugar de para mirar el teléfono es una decisión disponible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y conviene añadir una cosa que el libro no dice y que sí está a mano de cualquiera: la parte del método que no depende de la agenda es negociar la pausa, no organizarla. En muchos trabajos con turnos rígidos, quien consigue algo lo consigue colectivamente y no con un ritual personal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si tu agotamiento viene de dos empleos o de una plantilla corta, no es un problema de gestión de tu energía. Ningún ritual arregla eso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la moneda del rendimiento es la energía y no el tiempo, que el enemigo no es el esfuerzo sino la falta de recuperación entre esfuerzos, que la energía tiene cuatro niveles y el físico sostiene a los demás, y que un procedimiento fijo rinde más que la disciplina porque retira la decisión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente al resto de su estante es el hallazgo del que parte. Los veinte segundos entre puntos de tenis son un dato concreto, medido y ajeno al mundo de la oficina, y de ahí sale una idea que ningún manual de productividad tenía: que el rendimiento se decide en los ratos en los que no pasa nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Protege tus dos mejores horas para lo difícil, para de verdad cada hora y media, y convierte en procedimiento lo que hoy decides cada día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. No hay prácticamente ninguna referencia en todo el libro: los mecanismos que describe se presentan como establecidos y varios no lo estaban, empezando por el ciclo de noventa minutos durante la vigilia y siguiendo por la idea de la voluntad como depósito que se agota, que años después no resistió las comprobaciones. El nivel que llaman espiritual está lleno de vocabulario elevado y vacío de procedimiento. Y está escrito para ejecutivos con agenda propia, sin decirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después le dio la razón en el fondo y se la quitó en el enfoque. La investigación posterior sobre desconexión psicológica del trabajo fuera del horario ha confirmado su tesis con datos: quienes consiguen desconectar de verdad rinden más al día siguiente y enferman menos. Pero la conclusión que se ha sacado de eso no ha sido individual sino normativa: Francia reconoció en 2017 el derecho a la desconexión digital y España lo incorporó a su ley de protección de datos en diciembre de 2018. Resulta que lo que este libro pedía a cada trabajador que se organizara solo acabó necesitando una ley.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "pleno-compromiso": PLENO_COMPROMISO,
   "historia-interminable": HISTORIA_INTERMINABLE,
   "equipo-rivales": EQUIPO_RIVALES,
   "el-guion": EL_GUION,

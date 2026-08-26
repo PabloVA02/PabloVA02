@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "pleno-compromiso": [
+    "por qué administrar el tiempo es administrar lo único que no cambia",
+    "que el enemigo no es el estrés sino la falta de recuperación",
+    "cómo los niveles de energía se sostienen unos a otros",
+    "qué condiciones hacen que un ritual funcione sin fuerza de voluntad",
+    "a quién no le sirve nada de esto y por qué motivo",
+  ],
+
   "historia-interminable": [
     "por qué lo que se deja de creer no deja un hueco limpio",
     "que sueles saber qué hacer bastante antes de atreverte",

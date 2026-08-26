@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "pleno-compromiso":
+    "Los mejores tenistas del mundo bajaban hasta veinte pulsaciones en los veinte segundos entre punto y punto, y los demás no bajaban nada. De ese hallazgo sale toda la tesis de este libro.",
+
   "historia-interminable":
     "Un niño roba un libro, se esconde en un desván a leerlo y descubre que la historia habla de él. La película de 1984 termina en la mitad exacta de la novela, justo antes de lo que Ende quería contar.",
 
