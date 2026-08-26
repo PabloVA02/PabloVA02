@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "madame-curie": [
+    "cuánto trabajo idéntico hay detrás de lo que se llama un descubrimiento",
+    "por qué renunciaron a patentar el método que valía una fortuna",
+    "que atacar la vida privada de alguien sirve para no discutir su trabajo",
+    "cómo se llevó la radiografía al frente cuando no existía el oficio",
+    "reconocer una biografía escrita para proteger a quien la protagoniza",
+  ],
+
   "el-proceso": [
     "por qué una acusación que nadie formula no se puede contestar",
     "que justificarse sin que te acusen construye el expediente solo",

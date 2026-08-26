@@ -95015,7 +95015,288 @@ const EL_PROCESO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Madame Curie, de Ève Curie (1937), en ocho páginas.
+
+   Biografía, así que el registro del apartado 3 bis: titulares cortos de
+   imagen y la afirmación en la primera frase de cada página.
+
+   Es una biografía escrita por una hija tres años después de la muerte de
+   su madre, y eso hay que decirlo: la conclusión cuenta qué dejó fuera y
+   quién lo contó después. Y no se omite lo que el libro romantiza: la
+   radiación que la mató y que sigue en sus cuadernos.
+   -------------------------------------------------------------------------- */
+
+const MADAME_CURIE: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un pacto entre hermanas" },
+      {
+        b: "texto",
+        texto:
+          "La mujer que más premios Nobel ha ganado empezó fregando y cuidando niños ajenos para pagarle la carrera a su hermana. Maria Skłodowska nació en Varsovia el 7 de noviembre de 1867, en una Polonia que no existía como país: estaba bajo dominio ruso y en las escuelas se vigilaba que no se enseñara en polaco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las universidades no admitían mujeres, así que estudió en la llamada Universidad Volante, una red clandestina de clases que cambiaba de casa cada pocos días para no ser descubierta. Su madre había muerto de tuberculosis cuando ella tenía diez años y una hermana mayor había muerto de tifus dos años antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El pacto que cambió su vida lo hizo con su hermana Bronisława. Como no había dinero para las dos, Maria trabajó de institutriz durante años en el campo polaco y le envió el sueldo a París para que Bronia estudiara medicina; cuando Bronia terminó, pagó ella. Maria llegó a París en 1891, con veinticuatro años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que casi nadie sabe de esa vida: en qué local trabajaba, cuántas toneladas removió a mano, qué decidieron no patentar, qué pasó en la calle Dauphine en 1906, por qué en 1911 hubo una turba delante de su casa, qué hizo en la guerra y qué dejó fuera este libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante aquellos años de institutriz en la aldea de Szczuki hizo además algo que podía costarle la cárcel: montó una escuela nocturna para enseñar a leer en polaco a los hijos de los campesinos. Enseñar en polaco estaba prohibido por la administración rusa, y ella lo hizo durante cuatro años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ella pagó primero la carrera de su hermana y esperó seis años. Los planes que dependen de que alguien cumpla su parte son los que más lejos llegan.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El cobertizo con goteras" },
+      {
+        b: "texto",
+        texto:
+          "El descubrimiento más importante de la física de su época se hizo en un cobertizo que llovía dentro. Cuando Marie y Pierre Curie necesitaron un local para tratar mineral, la Escuela de Física de París les cedió un antiguo depósito de disección abandonado en la calle Lhomond: suelo de asfalto, techo de cristal roto, sin extracción de gases y sin calefacción.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El químico alemán Wilhelm Ostwald, que años después ganaría el Nobel, pidió visitarlo cuando ya eran famosos. Al verlo escribió que aquello era un cruce entre un establo y un almacén de patatas, y que si no hubiera visto la mesa de trabajo con los aparatos habría pensado que le estaban gastando una broma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En invierno la temperatura interior bajaba a seis grados y Marie lo anotaba en su cuaderno junto a las mediciones. En verano el techo de cristal convertía el local en un horno. Los gases de los tratamientos químicos había que soltarlos en el patio, porque dentro no había campana de extracción, así que buena parte del trabajo se hacía a la intemperie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ève Curie cuenta que su madre recordaba aquellos años como los mejores de su vida, y ese detalle dice más sobre ella que cualquier elogio. No era resignación: era que por primera vez trabajaba en lo suyo, con alguien que entendía lo que hacía, sin pedir permiso a nadie y sin tener que enseñar a niños ajenos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las condiciones no deciden el resultado tanto como parece. Lo que hace falta antes que un buen sitio es tener permiso para dedicarte a lo tuyo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Toneladas para un decigramo" },
+      {
+        b: "texto",
+        texto:
+          "El descubrimiento no fue un momento de inspiración: fueron cuatro años removiendo calderos con una barra de hierro. Marie había observado que un mineral llamado pechblenda emitía más radiación de la que correspondía al uranio que contenía, y de ahí dedujo que dentro tenía que haber algo desconocido y mucho más activo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1898 anunciaron dos elementos nuevos. Al primero lo llamó polonio, por su país, que entonces no figuraba en ningún mapa político; al segundo, radio. Pero anunciarlos no bastaba: la comunidad científica exigía el elemento aislado y su peso atómico, y para eso había que separarlo de toneladas de mineral.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Consiguieron residuos de una mina de Bohemia, de los que ya se había extraído el uranio y que por tanto eran baratos, y los trataron en el cobertizo. Marie trabajaba con lotes de veinte kilos, hirviendo, filtrando y cristalizando, a veces removiendo durante horas seguidas una masa en ebullición casi tan alta como ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1902, después de procesar varias toneladas, obtuvo un decigramo de cloruro de radio puro y determinó su peso atómico. Un decigramo es la décima parte de un gramo. Todo aquel trabajo cabía en la punta de una cucharilla, y por la noche los frascos de la mesa brillaban solos en la oscuridad, cosa que a los dos les encantaba mirar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El radio que manejaban tenía además un efecto que complicaba las mediciones: ionizaba el aire del cobertizo, de modo que sus electrómetros no marcaban nunca cero y había que descontar ese fondo. El peso atómico que Marie determinó para el radio fue de poco más de doscientos veinticinco.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Entre saber que algo existe y poder demostrarlo hay a veces cuatro años de trabajo idéntico. Esa parte no la cuenta nadie y es donde se decide todo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La patente que no registraron" },
+      {
+        b: "texto",
+        texto:
+          "La decisión económica más consecuente de su vida la tomaron en una conversación de domingo por la mañana. Hacia 1902, cuando quedó claro que el radio servía para tratar tumores y que iba a haber una industria detrás, los Curie tuvieron que decidir si patentaban el procedimiento de aislamiento que habían desarrollado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pierre planteó las dos opciones sin adornos: describirlo todo públicamente, incluido el método, o reservarse los derechos y cobrar por cada gramo que se produjera en el mundo. Marie contestó que patentar sería contrario al espíritu científico, y que si el radio iba a servir para curar enfermos no podían ponerle un peaje.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El coste de aquella decisión se puede calcular. En los años siguientes se levantó una industria del radio en Estados Unidos y en Europa, y el gramo llegó a costar cien mil dólares de la época. Los Curie no cobraron nada por ninguno, y Marie pasó años sin poder comprar el radio que necesitaba para su propia investigación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El final de esa historia lo cuenta bien el libro. En 1921, una periodista estadounidense, Marie Meloney, organizó una suscripción popular entre mujeres de su país para regalarle un gramo de radio, y Marie viajó a Estados Unidos a recogerlo de manos del presidente. Tuvieron que comprarle lo que ella había regalado al mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y no lo hicieron por ignorancia. En 1901, Pierre se había atado a propósito una muestra de radio al antebrazo durante diez horas para ver qué ocurría, y describió después la llaga que le salió y los meses que tardó en cerrarse. Sabían perfectamente que aquello quemaba tejido vivo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Regalar lo que has descubierto es una decisión legítima y tiene precio. Conviene tomarla sabiendo cuál es, y no descubrirlo veinte años después.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La calle Dauphine" },
+      {
+        b: "texto",
+        texto:
+          "El 19 de abril de 1906, Pierre Curie salió de una reunión bajo la lluvia, cruzó la calle Dauphine detrás de un coche de caballos y resbaló. Una rueda del carro le pasó por encima de la cabeza. Tenía cuarenta y seis años y hacía tres que había recibido el premio Nobel junto a su mujer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ève Curie describe cómo se lo comunicaron a su madre esa tarde y qué contestó: preguntó si era cierto, si estaba muerto de verdad, y después no dijo nada más en mucho rato. En las semanas siguientes empezó un diario dirigido a él en el que le contaba lo que hacía cada día, y lo mantuvo durante casi un año.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurrió después no tenía precedente. La Sorbona le ofreció la cátedra de Pierre, y en noviembre de 1906 Marie Curie se convirtió en la primera mujer que daba clase en aquella universidad en sus seiscientos cincuenta años de historia. La sala estaba llena de curiosos esperando un discurso emocionado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Empezó la lección exactamente en la frase en la que su marido la había dejado el curso anterior. Sin preámbulo, sin mencionarlo, sin agradecer nada. Después salió del aula y se fue al laboratorio. Es la escena que mejor la retrata de todo el libro, y ninguna interpretación la mejora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Marie tenía treinta y ocho años y dos hijas: Irène, de ocho, y Ève, la autora de este libro, que aún no había cumplido dos. El Estado francés le ofreció una pensión de viudedad y ella la rechazó, alegando que tenía edad y capacidad para ganarse la vida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay pérdidas que no se sobrellevan hablando de ellas. Retomar el trabajo en el punto exacto donde se quedó también es una manera de responder.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos Nobel y una turba" },
+      {
+        b: "texto",
+        texto:
+          "El año en que ganó su segundo premio Nobel fue también el peor de su vida. En 1911 la Academia sueca le concedió el de Química, esta vez sola, por el descubrimiento del radio y el polonio y por haber aislado el metal. Era la primera persona de la historia con dos, y sigue siendo la única con dos en ciencias distintas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Semanas antes, la prensa francesa había publicado que mantenía una relación con el físico Paul Langevin, colega suyo, casado y separado de hecho. La familia de él filtró cartas privadas. Los periódicos la retrataron como extranjera, judía —no lo era— y destructora de un hogar francés, y hubo gente gritando delante de su casa mientras sus hijas estaban dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un miembro de la Academia sueca llegó a escribirle sugiriéndole que no fuera a recoger el premio hasta que el asunto se aclarara. Ella contestó que el premio se le concedía por un descubrimiento científico y que no admitía ninguna relación entre su trabajo y su vida privada. Fue a Estocolmo y dio su conferencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí es donde el libro se nota escrito por una hija. Ève despacha el episodio en muy pocas líneas y sin nombrar casi nada, y no es un olvido: escribía en 1937, con Langevin vivo y con su hermana Irène haciendo carrera científica en Francia. Lo que dejó fuera lo contaron otras biógrafas cincuenta años después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien te ataca por tu vida y no por tu trabajo, contestar sobre tu vida es aceptar el terreno. Ella se negó a mezclarlos y fue a recoger el premio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las pequeñas Curie" },
+      {
+        b: "texto",
+        texto:
+          "En agosto de 1914, con los alemanes acercándose a París, Marie Curie hizo dos cosas: llevó su radio en persona a una caja fuerte de Burdeos y se dio cuenta de que los rayos X podían salvar miembros y vidas si llegaban al frente en lugar de esperar a que los heridos llegaran a las ciudades.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Montó equipos de radiografía en furgonetas donadas, con una dinamo conectada al motor del vehículo para generar la corriente. Se les llamó las pequeñas Curie. Llegaron a ser unas veinte unidades móviles y unos doscientos puestos fijos, y por ellos pasaron más de un millón de heridos durante la guerra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Como no había personal formado, montó cursos y preparó a alrededor de ciento cincuenta mujeres como técnicas de radiología, un oficio que hasta entonces no existía para ellas. Aprendió a conducir, se sacó el permiso, y salía a los hospitales de campaña con su hija Irène, que tenía diecisiete años cuando empezó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ni ella ni Irène usaron protección, porque en 1914 no se sabía bien lo que hacía la exposición repetida, y las dos pasaron años recibiendo dosis diarias. La factura llegó después: Marie murió en 1934 de anemia aplásica, un fallo de la médula ósea, y su hija murió de leucemia en 1956. Las dos enfermedades son las de la radiación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Trabajó además en el uso del gas radiactivo que desprende el radio, encerrado en pequeños tubos de vidrio sellados que podían enviarse a los hospitales de campaña y aplicarse directamente sobre las heridas infectadas. Ella misma preparaba los tubos y organizaba su reparto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ella no esperó a que le pidieran ayuda ni a estar preparada: aprendió a conducir con cuarenta y siete años porque hacía falta llevar los aparatos al frente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta la vida de una mujer que llegó a París sin dinero y sin derecho a matricularse en su propio país, y que terminó siendo la única persona con premios Nobel en dos ciencias distintas. Lo hace además con una virtud rara en las biografías de científicos: cuenta el trabajo, no solo el resultado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la escala del esfuerzo. Las toneladas de mineral, el termómetro a seis grados anotado junto a las mediciones, los cuatro años hasta el decigramo. Después de leerlo, la palabra descubrimiento significa otra cosa, y esa es una manera de entender la ciencia que no se consigue con divulgación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todo lo que admiras de alguien ocurrió en años que no se cuentan, haciendo la misma tarea sin señales de que fuera a servir para algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es una hagiografía escrita por una hija tres años después de morir su madre, y se le nota en todo: no hay una sola contradicción, ni un mal carácter, ni un error de juicio, y el episodio Langevin queda reducido a unas líneas neblinosas. Tampoco entra en la química de verdad, así que quien quiera entender cómo se separa un elemento no lo encontrará aquí. Y romantiza el brillo de los frascos en la oscuridad cuando ya se sabía que aquello mataba: los daños de la radiación estaban documentados desde los años veinte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después completa lo que el libro no podía contar. Sus cuadernos de laboratorio siguen siendo radiactivos y se conservan en cajas forradas de plomo en la Biblioteca Nacional de Francia, donde hay que firmar un descargo de responsabilidad para consultarlos. Irène y su marido Frédéric Joliot ganaron su propio Nobel de Química en 1935, un año después de la muerte de Marie. Y en 1995 los restos de Marie y Pierre fueron trasladados al Panteón de París: ella fue la primera mujer enterrada allí por méritos propios. La propia Ève Curie, que escribió este libro, murió en 2007 con ciento dos años.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "madame-curie": MADAME_CURIE,
   "el-proceso": EL_PROCESO,
   "focus-goleman": FOCUS_GOLEMAN,
   "guerra-chips": GUERRA_CHIPS,

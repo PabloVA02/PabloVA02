@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "madame-curie":
+    "Para aislar un decigramo de radio, Marie Curie removió toneladas de mineral durante cuatro años en un cobertizo con goteras. Su hija Ève contó esa vida en 1937, tres años después de que la radiación la matara.",
+
   "el-proceso":
     "La mañana en que cumple treinta años, Josef K. es arrestado en su pensión y nadie le dice de qué se le acusa. No lo encierran: sigue trabajando en su banco durante todo el año que dura el proceso.",
 

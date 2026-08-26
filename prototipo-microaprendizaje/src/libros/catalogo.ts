@@ -154,7 +154,7 @@ export const CATALOGO: Ficha[] = [
   { id: "cuchara-menguante", titulo: "La cuchara menguante", autor: "Sam Kean", ano: 2010, categoria: "Ciencia", estado: "escrito" },
   { id: "sexta-extincion", titulo: "La sexta extinción", autor: "Elizabeth Kolbert", ano: 2014, categoria: "Ciencia", estado: "escrito" },
 
-  { id: "madame-curie", titulo: "Madame Curie", autor: "Ève Curie", ano: 1937, categoria: "Ciencia", estado: "pendiente" },
+  { id: "madame-curie", titulo: "Madame Curie", autor: "Ève Curie", ano: 1937, categoria: "Ciencia", estado: "escrito" },
   { id: "por-que-amamos", titulo: "Por qué amamos", autor: "Helen Fisher", ano: 2004, categoria: "Ciencia", estado: "escrito" },
   { id: "cerebro-femenino", titulo: "El cerebro femenino", autor: "Louann Brizendine", ano: 2006, categoria: "Ciencia", estado: "pendiente" },
   { id: "cerebro-adolescente", titulo: "El cerebro adolescente", autor: "Frances Jensen", ano: 2015, categoria: "Ciencia", estado: "pendiente" },
