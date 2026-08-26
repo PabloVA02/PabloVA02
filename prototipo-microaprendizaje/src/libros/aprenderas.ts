@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "en-la-sombra":
+    "En inglés el libro se llama «Spare», el repuesto: la fórmula con la que las casas reales llaman al segundo hijo. Harry sostiene que ese papel, asignado el día que nació, explica su vida entera.",
+
   "enamorate-de-ti":
     "Decirle a alguien que se quiera más no dice qué hacer, igual que decirle que se cuide no dice si le falta dormir o moverse. Riso reparte la autoestima en cuatro piezas que se estropean por separado.",
 

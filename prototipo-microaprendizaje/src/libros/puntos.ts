@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "en-la-sombra": [
+    "por qué un duelo que no se permite tarda veinte años en salir",
+    "cómo una familia acaba filtrando contra sí misma sin que nadie lo ordene",
+    "qué le pasa a alguien a quien protegen siempre de las consecuencias",
+    "por qué contar una verdad incómoda sobre ti puede volverse en tu contra",
+    "lo que cuesta salirse de una institución de la que también depende tu familia",
+  ],
+
   "enamorate-de-ti": [
     "cómo se comprueba una creencia que tienes sobre ti desde hace veinte años",
     "por qué la confianza aparece después de hacerlo y no antes",

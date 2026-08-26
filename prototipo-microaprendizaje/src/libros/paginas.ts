@@ -107684,7 +107684,258 @@ const ENAMORATE_DE_TI: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   En la sombra, del príncipe Harry (2023), en ocho páginas.
+
+   Memoria, así que registro narrativo: titulares cortos de imagen con la
+   afirmación en la primera frase, y la caja del rayo hablándole al lector.
+   Apartado 3 bis.
+
+   La conclusión lleva las tres objeciones que el libro no se hace a sí mismo:
+   la memoria, el dinero y la contradicción de denunciar la intromisión
+   contándolo todo.
+   -------------------------------------------------------------------------- */
+
+const EN_LA_SOMBRA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El repuesto" },
+      {
+        b: "texto",
+        texto:
+          "El título de este libro no es una metáfora: es un puesto de trabajo. En inglés se llama <em>spare</em>, el repuesto, y viene de una fórmula antigua de las casas reales: al primero se le llama el heredero y al segundo, el repuesto. Harry cuenta que su padre lo dijo en voz alta el día que nació, delante de su madre, en tono de broma. Ya tenemos un heredero y un repuesto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro son 416 páginas repartidas en tres partes: la infancia y la muerte de su madre, los diez años de ejército, y el encuentro con Meghan Markle y la marcha de Inglaterra. Lo escribió con J. R. Moehringer, el mismo que puso por escrito <em>Open</em>, de Andre Agassi, y se le nota: la prosa es de novela americana y no de memoria de palacio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Salió el 10 de enero de 2023 y vendió 1,43 millones de ejemplares el primer día en inglés, lo que le valió el récord Guinness al libro de no ficción de venta más rápida de la historia. Cinco días antes, una librería española lo había puesto a la venta por error, así que media prensa británica leyó la edición en castellano antes que la suya.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la tesis está en el título. Harry sostiene que su vida entera se explica por un papel que le asignaron sin preguntarle: existir por si al primero le pasa algo, y no estorbar mientras tanto. Lo que sigue es cómo se sostiene ese argumento, dónde se rompe y qué se sabe hoy de lo que cuenta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un papel que te asignan de niño y nadie vuelve a mencionar sigue mandando en tu vida hasta que le pones nombre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una muerte que no se creyó" },
+      {
+        b: "texto",
+        texto:
+          "Durante años, Harry no creyó que su madre estuviera muerta. Tenía doce años cuando le despertaron en Balmoral el 31 de agosto de 1997, y su explicación es que la noticia no llegó a ninguna parte: no vio el cuerpo, no fue al depósito, no hubo despedida. Lo que hubo fue un funeral por televisión y un niño andando detrás de un féretro delante de dos mil millones de personas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Así que se construyó otra versión. Su madre había desaparecido a propósito, se había escondido y volvería. Esa idea le duró, escribe, más de una década, y no como fantasía consciente sino como certeza de fondo. La consecuencia práctica fue que no lloró: la primera vez que llora por ella, según cuenta, es junto a su tumba a los veinte y tantos años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí salen dos escenas que el libro pone una detrás de otra. En 2007 pidió ver el expediente policial del accidente y las fotografías del túnel, y las miró. Y en un viaje a París pidió al conductor que atravesara el túnel del puente del Alma a la misma velocidad a la que iba el coche de su madre, para comprobar si el trazado explicaba algo. No explicaba nada. La curva era fácil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sostiene la primera parte del libro es que un duelo que no se permite no desaparece: cambia de forma. Harry lo cuenta como ataques de pánico que le duraron años, sudores antes de cualquier acto público y una incapacidad para hablar de ella dentro de casa, donde su nombre dejó de pronunciarse casi de un día para otro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El dolor que no se llora no se va: se queda debajo, esperando a salir por donde menos te conviene.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El contrato invisible" },
+      {
+        b: "texto",
+        texto:
+          "La acusación central del libro no es contra la prensa, sino contra su propia familia por lo que hace con ella. Harry lo llama «el contrato invisible»: un acuerdo tácito por el que la casa real da acceso —fotos, exclusivas, avisos de agenda— a cambio de un trato favorable, y cada oficina de prensa protege a su principal contando cosas de los demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo que describe es concreto y es lo más interesante del libro. Cada miembro de la familia tiene su propio equipo de comunicación, y cada equipo se mide por cómo sale su jefe en los periódicos. La manera más barata de que tu jefe salga bien es que otro salga mal. Así que las filtraciones no vienen de fuera: vienen de la casa de al lado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Harry pone fechas y coincidencias. Una portada negativa sobre él aparece el mismo día que su hermano hace un viaje que convenía tapar; una información sobre Meghan sale la semana en que otro tenía un problema. No aporta pruebas documentales de ninguna, y ese es el punto débil del capítulo, pero el patrón que describe coincide con lo que han contado periodistas de la corte durante décadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade el dato que más le duele: en 2020 la familia y las oficinas negociaron los términos de su salida mientras, según él, se filtraba a la prensa el contenido de esas mismas reuniones. El libro llama a eso la prueba del contrato. Quien acepta que la prensa arbitre sus asuntos de familia acaba dependiendo de ella para cualquier cosa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando dejas que alguien de fuera cuente tu versión, esa persona pasa a decidir cuál es tu versión.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El único sitio donde nadie sabía quién era" },
+      {
+        b: "texto",
+        texto:
+          "Harry dice que los diez años de ejército fueron el único tramo de su vida en que se le juzgó por lo que hacía. Entró en Sandhurst en 2005, sirvió dos veces en Afganistán —diez semanas en 2007 y veinte en 2012 y 2013— y en la segunda voló como copiloto artillero de un helicóptero Apache. Ahí, escribe, nadie le llamaba señor y nadie le pedía una foto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera vez lo sacaron del país antes de tiempo. Una revista australiana y después un blog estadounidense publicaron que estaba desplegado, y el mando decidió que su presencia ponía en peligro a su unidad. Es el argumento del libro en su forma más limpia: hasta el trabajo en el que era anónimo se lo quitó un periódico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y luego está el párrafo que hizo estallar el libro. Harry escribe que en aquellas misiones mató a veinticinco personas, y que no lo recuerda con orgullo ni con vergüenza porque le habían entrenado para verlos como piezas retiradas de un tablero. Su intención declarada era denunciar esa deshumanización. Lo que se leyó fue un príncipe contando cuántos había matado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La reacción vino de dentro. Oficiales británicos veteranos, entre ellos el coronel Richard Kemp, que mandó las tropas en Afganistán, dijeron públicamente que ese recuento no se publica nunca: por seguridad de los compañeros y porque convierte a quien lo escribe en objetivo. Los talibanes citaron la frase en un comunicado. Es el momento en que el libro deja de controlar su propio relato.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Contar una verdad incómoda sobre ti no basta: la forma en que la cuentas decide qué entiende quien la lee.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El uniforme" },
+      {
+        b: "texto",
+        texto:
+          "El episodio por el que más se le conoció durante quince años ocupa aquí unas pocas páginas, y su versión reparte la culpa. En enero de 2005, con veinte años, Harry acudió a una fiesta de disfraces con un uniforme del Afrika Korps con una esvástica en el brazo. La fotografía llegó a la portada de <em>The Sun</em> y le persiguió durante media vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que cuenta el libro es que llamó a su hermano y a Kate Middleton para preguntarles cuál de los dos disfraces disponibles se ponía, el de piloto o el nazi, y que le dijeron que el nazi y se rieron. Es su recuerdo, y no hay manera de comprobarlo. Ninguno de los dos ha respondido nunca en público, que es exactamente lo que el libro dice que hace esa familia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pero lo que Harry sostiene en esta parte no es que la culpa fuera de otros. Es algo más incómodo: que en aquella casa nadie le explicó nunca por qué aquello era grave. Escribe que después del escándalo un asesor le organizó un viaje a Berlín y una reunión con un superviviente del Holocausto, y que fue la primera vez que alguien se sentó con él a explicárselo. Tenía veinte años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el argumento de fondo de toda la segunda parte. Un chico al que se prepara para hacer de acompañante, y no para decidir nada, llega a adulto sin haber tenido que pensar por su cuenta casi nunca. La institución le protege de las consecuencias hasta que un día ya no puede, y entonces el error es suyo solo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que te protejan de las consecuencias no es un privilegio: es una manera lenta de dejarte sin criterio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La pelea en la cocina" },
+      {
+        b: "texto",
+        texto:
+          "La escena más comentada del libro dura media página y no es un chisme: es la tesis puesta en una cocina. Harry cuenta que en 2019, en Nottingham Cottage, su hermano fue a verle para hablar de Meghan, la conversación subió de tono, le agarró del cuello, le rompió el collar y le tiró al suelo sobre el comedero del perro, que se le clavó en la espalda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace que el episodio importe no es el golpe. Es lo que Harry dice inmediatamente después: que su hermano le pidió que no se lo contara a Meghan, y que él llamó a su terapeuta. Las dos frases juntas dibujan la casa entera. Lo que pasa dentro no sale, y el que lo cuenta rompe la única regla que hay.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está el argumento del libro sobre la relación entre los dos hermanos, que es más duro de lo que parece. Harry sostiene que la posición de repuesto no es solo un lugar más abajo: es una función. El segundo existe para que el primero tenga un lugar más alto, y por eso cualquier cosa que el segundo consiga —una boda que interesa más, una gira que sale mejor— se lee dentro de la casa como un problema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro no dice que su hermano sea mala persona. Dice algo peor de la institución: que el sistema recompensa exactamente eso, y que dos personas que se querían de niños acaban compitiendo por espacio en un periódico sin haberlo decidido ninguno de los dos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si un sistema premia que uno de vosotros pierda, no hace falta que nadie sea malo para que os hagáis daño.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La salida" },
+      {
+        b: "texto",
+        texto:
+          "La tercera parte cuenta una huida, y su detonante no es la prensa sino un número. En enero de 2020, después de anunciar que se retiraban de sus funciones oficiales, a Harry y a Meghan se les retiró la protección policial financiada por el Estado británico. Harry sostiene que ese fue el punto sin retorno: sin escolta, y con la dirección publicada, la comparación con su madre dejaba de ser retórica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro reconstruye las semanas siguientes con detalle: la casa prestada en Canadá, la salida a California cuando la frontera se cerró por la pandemia, el mes en la casa de Tyler Perry en Los Ángeles con seguridad pagada por él, y el dron sobre el jardín. La escena que más repite es una: mirar por la ventana a ver quién hay.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí el libro hace la única concesión que hace en 416 páginas. Harry admite que él y Meghan no querían irse del todo, que propusieron una fórmula a medias —parte del año trabajando para la Corona y parte fuera— y que la respuesta fue que eso no existía. La familia lo negó después. Es la parte del relato que menos se puede comprobar y la que más peso tiene en su versión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sostiene la parte final es que salir costó más de lo que parecía desde fuera. No perdió un título ni un sueldo: perdió el pasillo por el que se hablaba con su padre y con su hermano, que era ese mismo aparato del que se iba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando toda tu relación con alguien pasa por una institución, salirte de ella también es salirte de esa relación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "<em>En la sombra</em> sostiene que un papel asignado al nacer —existir por si acaso— explica una vida entera, y que el aparato que rodea a la monarquía británica no protege a los suyos de la prensa: negocia con ella y los usa como moneda. Lo cuenta desde dentro y con nombres, que es lo que ningún libro anterior sobre esa familia había hecho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es el mecanismo. La idea del contrato invisible —acceso a cambio de trato, y cada oficina de prensa filtrando contra la de al lado— es una explicación concreta y comprobable de algo que hasta ahora se contaba como cotilleo. Y la parte del duelo, la de un chico de doce años al que nadie deja llorar, está escrita sin autocompasión y es lo mejor del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. En tres sitios. La memoria: el libro pide que se crea a un narrador que reconoce recordar mal, y varios de sus recuerdos los han discutido otros de los presentes; cuando un relato depende de una sola versión, eso hay que decirlo, y no lo dice. El dinero: denuncia una industria que vive de su intimidad desde un contrato editorial millonario que vive de lo mismo, y esa contradicción no se examina en ninguna página. Y el pasaje de Afganistán, donde la intención —denunciar cómo se enseña a un soldado a no ver personas— quedó sepultada por la cifra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después. El récord de ventas no se tradujo en lo que se esperaba: el acuerdo editorial incluía más libros y ninguno ha aparecido. En 2024 y de nuevo en 2025 Harry perdió en los tribunales británicos su recurso para recuperar la protección policial automática, que es el asunto por el que dice haberse ido. Y en 2025 sí ganó su pleito contra el grupo editor de <em>The Sun</em>, que le pidió disculpas por escrito y le pagó una indemnización por intromisión ilegal. O sea que la acusación central del libro —que aquella prensa se metía donde no debía— se sostuvo en un juzgado, y el resto de la reconciliación que buscaba, no.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "en-la-sombra": EN_LA_SOMBRA,
   "enamorate-de-ti": ENAMORATE_DE_TI,
   "mente-en-forma": MENTE_EN_FORMA,
   "ninos-escuchen": NINOS_ESCUCHEN,
