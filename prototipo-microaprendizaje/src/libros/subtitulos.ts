@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "guerra-chips": "La gran lucha por el dominio mundial",
   "placebo-eres-tu": "Cómo ejercer el poder de la mente sobre el cuerpo",
   "disciplina-es-destino": "El poder del autocontrol",
   "side-hustle": "Crea un negocio propio sin dejar tu trabajo",

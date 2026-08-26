@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "guerra-chips": [
+    "por qué el circuito integrado no habría existido sin la carrera espacial",
+    "que la ley de Moore fue un calendario compartido y no un descubrimiento",
+    "cómo deslocalizar la parte barata de un proceso deslocaliza el aprendizaje",
+    "el motivo de que un proceso de fabricación no se pueda copiar",
+    "qué significa que una isla sea insustituible para la economía mundial",
+  ],
+
   "placebo-eres-tu": [
     "qué produce en realidad el efecto placebo y por qué no es sugestión",
     "cómo el anuncio de un efecto secundario basta para provocarlo",

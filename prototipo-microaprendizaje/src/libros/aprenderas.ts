@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "guerra-chips":
+    "Alrededor del noventa por ciento de los chips más avanzados del mundo sale de Taiwán, y las máquinas para fabricarlos las hace una sola empresa neerlandesa. Miller cuenta cómo se llegó a esa concentración desde 1958.",
+
   "placebo-eres-tu":
     "En 2002, ciento ochenta pacientes con artrosis de rodilla mejoraron igual con cirugía real que con una operación simulada. Dispenza parte de hallazgos como ese para sostener que la expectativa puede provocarse a voluntad.",
 

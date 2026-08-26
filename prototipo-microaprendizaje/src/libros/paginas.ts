@@ -94027,7 +94027,427 @@ const PLACEBO_ERES_TU: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La guerra de los chips, de Chris Miller (2022), en doce páginas.
+
+   Amplio, y por el motivo del apartado 2 ter: recorre mucho terreno —de 1958
+   a 2022— y sostiene diez argumentos independientes que no caben en seis.
+
+   Ensayo de historia económica, así que TERCERA PERSONA: apartado 4.7. Y
+   Economía, así que cada página lleva una persona con nombre, una fecha y
+   una cifra: apartado 4 bis. La conclusión pone el marcador de lo que ha
+   pasado desde octubre de 2022, que es mucho.
+   -------------------------------------------------------------------------- */
+
+const GUERRA_CHIPS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Miller sostiene que el poder de un país ya no se mide en petróleo ni en acero, sino en quién fabrica sus chips",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un automóvil corriente lleva alrededor de mil chips. Un caza moderno, varios miles. Una fábrica que se queda sin uno de ellos —uno de los baratos, de un euro— para la cadena entera, y eso ocurrió en todo el mundo entre 2020 y 2022, cuando varias marcas de coches dejaron de producir por falta de componentes que cuestan menos que los limpiaparabrisas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Chris Miller, historiador económico de la Universidad Tufts, publicó este libro en octubre de 2022 para explicar cómo se llegó ahí. Su tesis es que la fabricación de semiconductores se ha concentrado en tan pocas manos que se ha convertido en el asunto estratégico central del siglo, por delante de la energía y de cualquier materia prima.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las cifras que sostienen esa afirmación son extraordinarias. Alrededor del noventa por ciento de los chips lógicos más avanzados del mundo se fabrica en Taiwán, una isla de treinta y seis mil kilómetros cuadrados. Y las máquinas necesarias para fabricarlos las produce una sola empresa, en los Países Bajos, sin ningún competidor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido va de 1958 a hoy: cómo el circuito integrado nació como pieza militar, por qué la ley de Moore no es una ley, cómo se fabricó la geografía actual, por qué Japón estuvo a punto de ganar, qué inventó Morris Chang en 1987, por qué la litografía es el cuello de botella, por qué la Unión Soviética llegó siempre tarde y qué está intentando China ahora.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El objeto más difícil de fabricar de la historia se produce casi entero en una isla, con máquinas que hace una sola empresa. Toda la economía mundial descansa sobre eso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El circuito integrado no lo pidió el mercado: lo pagó el ejército y lo compró la carrera espacial",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 12 de septiembre de 1958, Jack Kilby, un ingeniero recién contratado por Texas Instruments que no tenía derecho a vacaciones y se quedó solo en el laboratorio en agosto, enseñó a sus jefes un trozo de germanio con varios componentes construidos encima. Meses después, Robert Noyce llegó a la misma idea en Fairchild por otro camino, y el suyo era fabricable en serie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema era que aquello no servía para nada que alguien quisiera comprar. Era mucho más caro que montar los mismos componentes por separado, y en 1959 no existía ningún producto de consumo que necesitara meter tanta electrónica en tan poco espacio. La invención estuvo a punto de quedarse en una curiosidad de laboratorio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La salvaron dos programas militares para los que el precio no importaba y el peso lo era todo: el misil Minuteman II y el ordenador de guía del programa Apolo, diseñado en el Instituto de Tecnología de Massachusetts. Un ordenador que tiene que caber en una cápsula y no fallar camino de la Luna es exactamente el cliente que el circuito integrado necesitaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La magnitud de esa dependencia inicial se ve en un dato: a mediados de los años sesenta, el programa Apolo llegó a absorber en torno al sesenta por ciento de todos los circuitos integrados producidos en Estados Unidos. El gobierno no financió la investigación: hizo algo más eficaz, que fue comprar la producción entera hasta que los costes bajaron solos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una tecnología cara no despega con subvenciones a la investigación: despega cuando alguien compra toda la producción a cualquier precio durante unos años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La ley de Moore nunca fue una ley: fue una promesa que una industria entera decidió cumplir",
+      },
+      {
+        b: "texto",
+        texto:
+          "En abril de 1965, la revista Electronics le pidió a Gordon Moore, entonces director de investigación de Fairchild, un artículo sobre el futuro de los componentes. Moore hizo lo que pudo con los pocos datos que tenía: contó cuántos elementos cabían en un chip en 1959, 1962 y 1965, vio que la cifra se doblaba cada año y dibujó la recta hacia adelante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No era una ley física ni pretendía serlo. Era una extrapolación sobre cuatro puntos, y Moore mismo la corrigió en 1975 a un doblado cada dos años. Lo extraordinario es lo que ocurrió después: durante medio siglo, la industria organizó sus inversiones, sus plantillas y sus calendarios para que aquella recta se cumpliera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Miller subraya por qué eso importa más que la predicción en sí. Al fijar el ritmo por adelantado, cada empresa sabía qué tenía que conseguir y cuándo, y podía comprometer miles de millones sabiendo que sus proveedores y sus clientes iban a llegar al mismo punto a la vez. La profecía no se cumplió: se coordinó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y tiene una consecuencia económica brutal que explica toda la concentración posterior. Cada generación exige una fábrica más cara que la anterior, y hoy una planta puntera cuesta del orden de veinte mil millones de dólares. Con esos importes, cada salto elimina competidores, y por eso los fabricantes capaces de hacer lo último han pasado de decenas a tres.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La ley de Moore se cumplió porque una industria entera decidió cumplirla. Fue un calendario compartido, no un descubrimiento sobre la naturaleza.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El mapa actual de la industria lo dibujó en 1963 la decisión de ahorrar en mano de obra",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fabricar un chip tiene dos mitades muy distintas. Una es grabar el circuito sobre la oblea de silicio, que exige salas limpias y máquinas carísimas. La otra es cortar, montar y encapsular, que en aquella época era trabajo manual, minucioso y muy intensivo en horas. Charlie Sporck, director de producción de Fairchild, se fijó en la segunda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1963, Fairchild abrió una planta de montaje en Hong Kong, donde los salarios eran una fracción de los de California. Funcionó, y a partir de ahí la industria entera se movió: Corea del Sur, Singapur, Malasia, Taiwán. Intel abrió en Penang en 1972. En una década, la parte manual del negocio se había ido de Estados Unidos y no volvió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Miller señala que aquella decisión, tomada por motivos exclusivamente contables, tuvo un efecto político que nadie calculó. Los países de la región no se limitaron a montar componentes ajenos: aprendieron el oficio, formaron ingenieros y construyeron su propia industria sobre esa base, con gobiernos que la financiaron a propósito durante décadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado es que la deslocalización de los años sesenta explica la geografía de 2022 mejor que ninguna decisión posterior. La cadena de suministro más estratégica del mundo se repartió por Asia oriental porque en 1963 el montaje salía más barato allí, y ninguna política industrial de los últimos veinte años ha conseguido deshacerlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Deslocalizar la parte barata de un proceso también deslocaliza el aprendizaje. Sesenta años después, ahí está la industria entera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Japón estuvo a punto de ganar, e Intel se salvó abandonando el producto que la había fundado",
+      },
+      {
+        b: "texto",
+        texto:
+          "A principios de los años ochenta, los fabricantes japoneses de memorias se comieron el mercado. Sus chips no eran más baratos solamente: eran mejores. Una prueba encargada por Hewlett-Packard en 1980 encontró que las memorias japonesas fallaban muchísimo menos que las estadounidenses, y aquello se leyó en Silicon Valley como una sentencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás había una política deliberada. El ministerio japonés de industria coordinó un programa conjunto de investigación entre 1976 y 1979 y financió inversiones que ninguna empresa habría hecho sola, con crédito barato y sin exigir beneficios inmediatos. Estados Unidos respondió con un acuerdo comercial en 1986 y con el consorcio Sematech en 1987.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena central de este capítulo ocurre en 1985 dentro de Intel. Andy Grove y Gordon Moore, viendo que perdían dinero en memorias, se preguntaron qué haría un director general recién llegado, y se contestaron que abandonar ese negocio. Lo hicieron, echaron a miles de personas y se concentraron en los microprocesadores, que entonces eran una línea secundaria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Miller extrae de ahí la lección que más se repite en el libro: la posición dominante en esta industria no se hereda, se pierde en un ciclo. Japón perdió después el liderazgo por concentrarse en un producto que se convirtió en mercancía barata, y sus rivales coreanos, con Samsung a la cabeza, hicieron con ellos lo mismo que ellos habían hecho con los estadounidenses.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Intel sobrevivió abandonando el producto que la había fundado. Sostener lo que te hizo grande es la manera más común de desaparecer en esta industria.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Morris Chang partió la industria en dos al fundar una fábrica que no diseña nada",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hasta 1987, quien diseñaba un chip tenía que fabricarlo, y por tanto tenía que poseer una fábrica de miles de millones. Eso significaba que una idea buena de tres ingenieros sin capital no llegaba a ninguna parte. Morris Chang rompió esa condición y con ella cambió quién puede participar en la industria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Chang había nacido en China en 1931, había estudiado en Estados Unidos y había pasado veinticinco años en Texas Instruments, donde llegó a dirigir el negocio de semiconductores y donde no lo nombraron director general. En 1985, el gobierno de Taiwán lo llamó para dirigir su instituto de investigación tecnológica. Tenía cincuenta y cuatro años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1987 fundó TSMC con una idea sencilla y radical: una fábrica que solo fabrica, que nunca diseña sus propios chips y que por tanto nunca compite con sus clientes. Ese compromiso era el producto. Un cliente podía entregarle sus diseños sabiendo que no acabarían en un competidor, porque la fábrica no tenía nada que competir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto fue inmediato y sigue operando. Aparecieron empresas que diseñan sin fabricar —Nvidia, Qualcomm, Broadcom, y más tarde los chips propios de Apple—, y su existencia depende por completo de que exista TSMC. Aquella decisión de 1987 es la razón de que hoy media industria mundial esté encargando su producción a la misma isla, y también de que un diseño nuevo pueda llegar al mercado sin que nadie construya una fábrica.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Chang no inventó una tecnología: inventó una promesa comercial. Una fábrica que jamás compite con sus clientes puede fabricar para todos a la vez.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El verdadero cuello de botella no está en Taiwán, sino en un pueblo del sur de los Países Bajos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para dibujar circuitos de unos pocos nanómetros hace falta luz de longitud de onda muy corta, y la que se usa hoy —luz ultravioleta extrema, de 13,5 nanómetros— no atraviesa el aire ni el cristal. Toda la máquina tiene que funcionar en vacío y con espejos, y esos espejos son los objetos más lisos que se han fabricado nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La empresa que lo consiguió es ASML, fundada en 1984 en Veldhoven como una sociedad conjunta entre Philips y otra compañía neerlandesa, y que durante años fue un actor menor. Desarrollar esta tecnología costó décadas y miles de millones, con dinero de Intel, Samsung y la propia TSMC metido en el proyecto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El funcionamiento de la máquina parece inventado. Un chorro de gotas de estaño cae en una cámara de vacío, y cada gota recibe dos impactos de un láser de dióxido de carbono: el primero la aplana y el segundo la convierte en plasma que emite la luz útil. Eso ocurre unas cincuenta mil veces por segundo, sin parar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cada equipo tiene decenas de miles de piezas, cuesta más de cien millones de euros y se transporta en varios aviones de carga. ASML es el único fabricante del mundo, y ese hecho convierte a un país de la Unión Europea en el punto de control más eficaz de toda la cadena, algo que los gobiernos tardaron en advertir y que después han usado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pieza insustituible de la industria más estratégica del planeta la fabrica una sola empresa europea, y no hay ninguna alternativa a la que recurrir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La Unión Soviética decidió copiar en lugar de inventar, y esa decisión la condenó a llegar siempre tarde",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los soviéticos entendieron pronto la importancia del asunto. En 1962 fundaron Zelenograd, una ciudad entera dedicada a la microelectrónica cerca de Moscú, y para dirigirla contaron con dos ingenieros estadounidenses que habían espiado para ellos y habían huido a la Unión Soviética, donde vivieron con nombres nuevos y carreras oficiales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La estrategia elegida fue copiar los chips occidentales: conseguir muestras, analizarlas y reproducirlas. Como plan tenía una lógica evidente y un fallo insalvable. Copiar un diseño lleva tiempo, y mientras se copia, el original ya va por la generación siguiente. La Unión Soviética se instaló así en un retraso permanente de varios años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Miller añade el problema que hacía imposible corregirlo. Copiar el chip no era lo difícil: lo difícil era el proceso de fabricación, que exige productos químicos ultrapuros, control estadístico y miles de ajustes que no están escritos en ninguna parte y que solo se aprenden fabricando mucho y vendiendo a clientes exigentes. Eso no se puede robar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado se vio en el campo de batalla. Las armas guiadas estadounidenses de los años ochenta funcionaban porque llevaban electrónica que la industria civil había abaratado, y la Unión Soviética, sin industria civil competitiva, no podía igualarlas por mucho que gastara en defensa. La ventaja militar salió del mercado de consumo, no del presupuesto militar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un chip se puede copiar; el proceso de fabricarlo no. Ese conocimiento no está escrito: vive en las manos de quien lleva veinte años produciendo en serie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Que Taiwán fabrique casi todos los chips avanzados es a la vez su mayor protección y el mayor riesgo del mundo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La concentración es difícil de exagerar. Los chips lógicos más avanzados que existen se fabrican casi exclusivamente en Taiwán, y una parte enorme sale de las instalaciones de TSMC en el parque científico de Hsinchu y en Tainan. No hay ninguna capacidad equivalente en ningún otro sitio, y construirla lleva años aunque haya dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el argumento que en Taiwán se conoce como escudo de silicio: nadie puede permitirse un conflicto que interrumpa esa producción, porque paralizaría a la vez la economía de sus enemigos y la suya propia. Es una forma de disuasión que no depende de las armas sino de la interdependencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Miller expone el argumento y lo discute, que es lo que un libro de historia debe hacer. Su objeción es que un escudo así protege mientras la relación sea rentable para todos, y que además convierte a la isla en un objetivo cuyo valor no deja de crecer. Un bien insustituible atrae tanto la protección como la codicia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una fragilidad más terrenal que las consideraciones militares. Fabricar chips consume cantidades enormes de agua y de electricidad, y Taiwán sufre sequías: en 2021 el gobierno tuvo que cortar el riego a decenas de miles de hectáreas de arroz para garantizar el suministro a las fábricas. No hace falta un conflicto para interrumpir la cadena.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ser insustituible protege y expone a la vez. La misma concentración que desalienta un conflicto es la que haría catastrófico cualquier accidente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "China lleva veinte años intentando saltarse el orden y está tropezando con lo mismo que los soviéticos",
+      },
+      {
+        b: "texto",
+        texto:
+          "China es, con diferencia, el mayor comprador de chips del mundo: importa más valor en semiconductores que en petróleo. Esa dependencia se considera desde hace años un problema de seguridad nacional, y el gobierno ha respondido con dinero público a una escala sin precedentes, incluido un fondo estatal creado en 2014 con unos veintiún mil millones de dólares iniciales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los resultados han sido desiguales. En diseño, empresas como HiSilicon, la filial de Huawei, alcanzaron el nivel mundial en pocos años, porque diseñar depende de ingenieros y de programas informáticos. En fabricación de vanguardia, en cambio, el avance ha sido mucho más lento, y por la misma razón que frenó a la Unión Soviética: el proceso no se compra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso se le sumó el bloqueo. Estados Unidos fue restringiendo desde 2019 el acceso de Huawei a chips fabricados con tecnología estadounidense, y ninguna fábrica del mundo puede prescindir de esa tecnología en algún punto de su cadena. Sin equipos de litografía avanzada, una fábrica no puede fabricar lo último por mucho dinero que tenga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Miller es cauto al valorar hacia dónde va esto, y con motivo. Un bloqueo tecnológico acelera el esfuerzo del bloqueado, y China tiene mercado interno, ingenieros y paciencia estatal, tres cosas que la Unión Soviética no tenía. Lo que está en discusión no es si acortará distancias, sino cuánto tiempo tardará y a qué coste para todos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Diseñar un chip depende de ingenieros y se aprende deprisa. Fabricarlo depende de un oficio acumulado durante décadas, y ese no se compra con dinero público.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las armas modernas no dependen de chips especiales, sino de los mismos que llevan los electrodomésticos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una de las conclusiones menos intuitivas del libro es que el armamento avanzado no usa componentes exóticos fabricados para el ejército. Usa mayoritariamente chips comerciales corrientes, porque la industria civil produce a una escala que ningún proveedor militar puede igualar y con una fiabilidad que se paga con volumen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso invierte la relación de los años sesenta, cuando el ejército compraba la producción entera y marcaba el rumbo. Hoy los pedidos militares son una fracción minúscula del mercado, y las capacidades militares de un país dependen de que tenga acceso a lo que fabrican empresas civiles que venden sobre todo teléfonos, coches y ordenadores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La invasión de Ucrania en 2022 lo puso a la vista mientras el libro se imprimía. Los análisis de misiles y drones rusos recuperados en el campo encontraron dentro componentes electrónicos comerciales fabricados en Occidente, comprados por vías indirectas, y en algunos casos piezas obtenidas de aparatos domésticos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la consecuencia estratégica que ordena todo el libro. Controlar el suministro de semiconductores equivale a controlar la capacidad militar de otros países sin desplegar un solo soldado, y eso convierte una decisión aduanera en un acto de política de defensa. También explica por qué los controles de exportación se han vuelto el instrumento preferido: son baratos, no cuestan vidas y actúan sobre una dependencia que tarda años en deshacerse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La capacidad militar de un país depende hoy de empresas que venden teléfonos. Quien controla ese suministro no necesita desplegar nada para condicionar una guerra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene cuatro cosas y las demuestra: que la industria más estratégica del mundo se concentró donde está por decisiones empresariales corrientes tomadas hace sesenta años, que el conocimiento de fabricación no se puede robar, que el liderazgo en este sector se pierde en un solo ciclo, y que quien controla los equipos controla a todos los demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su valor está en el nivel de detalle industrial. Miller entrevistó a ingenieros y directivos de varias generaciones y cuenta cómo se toma una decisión de fabricación, qué falla en una sala limpia y por qué un proceso tarda años en estabilizarse. Eso es lo que separa este libro de los ensayos geopolíticos escritos desde fuera de las fábricas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Toda la economía mundial descansa sobre una isla y una empresa neerlandesa. Esa frase parecía exagerada en 2020 y desde entonces ha ordenado la política de tres continentes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Está contado desde Washington: la industria europea y la coreana aparecen sobre todo cuando afectan a la posición estadounidense, y la japonesa se cuenta como rival y no por sí misma. La palabra guerra del título fuerza el marco, porque lo que describe es también una interdependencia que ha funcionado durante décadas. Y no hay una página sobre los trabajadores de las plantas de montaje ni sobre el coste ambiental de fabricar así.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después, en apenas tres años, ha sido más rápido que el libro. Estados Unidos aprobó en agosto de 2022 una ley de subvenciones de unos cincuenta y dos mil millones de dólares y la Unión Europea otra de unos cuarenta y tres mil, y el 7 de octubre de 2022 Washington impuso restricciones de exportación mucho más duras, a las que los Países Bajos sumaron las suyas sobre las máquinas de ASML. La respuesta llegó en agosto de 2023: Huawei presentó un teléfono con un chip fabricado en China con una tecnología que se suponía bloqueada. Y el libro apenas anticipa el mayor cambio de todos, el estallido de la demanda de chips para inteligencia artificial.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "guerra-chips": GUERRA_CHIPS,
   "placebo-eres-tu": PLACEBO_ERES_TU,
   "disciplina-es-destino": DISCIPLINA_ES_DESTINO,
   "side-hustle": SIDE_HUSTLE,
