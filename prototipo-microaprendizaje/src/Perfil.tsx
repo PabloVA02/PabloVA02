@@ -132,24 +132,24 @@ export function Perfil({
       </div>
 
       <div className="perfil-scroll">
-        {/* Aquí estaba el saludo: un círculo con una inicial y la palabra
-            «Hola», que es lo que sale cuando nadie ha dicho todavía cómo se
-            llama. Un avatar inventado y un saludo a nadie, ocupando lo mejor
-            de la pantalla.
-
-            En su sitio va la cuenta, que es la pieza que la referencia de
-            Pablo tiene tres bloques más abajo. Sube arriba del todo porque es
-            lo único de esta pantalla que se puede perder ENTERO, y porque
-            todo lo que viene debajo —la racha, la meta, la gráfica, los
-            temas— es exactamente lo que se perdería. Ver `Cuenta.tsx`. */}
-        <Cuenta />
-
-        {/* Aquí estaba «Desbloquea todo»: una tarjeta morada maciza con un
-            cohete, y salía siempre, se pagara o no. Eso último era el fallo
-            gordo —a quien ya paga le estábamos vendiendo lo que ya tiene—, y
-            una pantalla que le pide dinero a un cliente es una pantalla que
-            ese cliente aprende a no mirar. Ver `Suscripcion.tsx`. */}
+        {/* EL ORDEN DE ESTAS DOS, y no es indiferente. Iba primero la cuenta y
+            debajo el aviso de suscripción, porque registrarse es gratis y
+            hacerse de pago cuesta dinero: parecía de buena educación poner
+            delante lo que no cuesta. Pablo lo dio la vuelta y tiene razón por
+            un motivo que no es de educación sino de para qué existe la
+            pantalla. El perfil es donde alguien mira lo que lleva hecho, y
+            justo ahí es donde una oferta encuentra a la persona más dispuesta
+            a pagarla: acaba de ver su racha, sus semanas y sus temas. La
+            cuenta puede esperar dos dedos más abajo; no se pierde, y quien la
+            necesita la encuentra. */}
         {!suscrito && <Suscripcion estado={estadoPago} onSuscribirse={onSuscribirse} />}
+
+        {/* Y aquí estaba el saludo: un círculo con una inicial y la palabra
+            «Hola», que es lo que sale cuando nadie ha dicho todavía cómo se
+            llama. Un avatar inventado y un saludo a nadie. En su sitio va la
+            cuenta, que es la pieza que la referencia de Pablo tiene tres
+            bloques más abajo. Ver `Cuenta.tsx`. */}
+        <Cuenta />
 
         {/* La racha: lo primero que se mira y lo único que se pierde */}
         <motion.section
@@ -253,19 +253,34 @@ export function Perfil({
 
         {/* Invitar: va aquí y no en ajustes porque no es una preferencia, es
             algo que se hace. En una lista de ajustes se lee como un trámite;
-            aquí, al lado de la racha, se lee como una propuesta. */}
+            aquí, al lado de la racha, se lee como una propuesta.
+
+            La forma sale de la captura del 26 a las 19:26, medida encima: el
+            titular arriba a la izquierda a 21 del filo, el dibujo de 70 × 70
+            a su derecha y a la misma altura, el párrafo debajo del titular en
+            tres renglones y el botón azul a toda anchura entre sangrados de
+            16. El dibujo pasa de colgar de la esquina a alinearse con el
+            texto, que es lo que hace que el bloque se lea como una sola cosa.
+
+            El lema es distinto del suyo a propósito. La suya dice «Creciendo
+            juntos / comparte con tus amigos un pase de invitado gratuito de 7
+            días»; la nuestra dice lo mismo en nuestras palabras y con la
+            objeción contestada por delante, que en un regalo siempre es la
+            misma: qué me va a costar. */}
         <motion.section
           className="perfil-invitar"
           initial={{ opacity: 0, y: 20, scale: 0.97 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ ...springSoft, delay: orden(6) }}
         >
-          <div className="perfil-invitar-texto">
-            <h2>Creciendo juntos</h2>
-            <p>Regala a quien quieras una semana entera, sin que ponga tarjeta.</p>
+          <div className="perfil-invitar-alto">
+            <div className="perfil-invitar-texto">
+              <h2>No leas solo</h2>
+              <p>Regala siete días de todo a quien tú quieras. Sin tarjeta y sin compromiso.</p>
+            </div>
+            <Entradas reducido={reducido} />
           </div>
-          <Entradas reducido={reducido} />
-          <motion.button className="perfil-invitar-boton" whileTap={{ scale: 0.97 }}>
+          <motion.button className="perfil-invitar-boton" whileTap={{ scale: 0.98 }}>
             Invitar amigos
           </motion.button>
         </motion.section>
@@ -753,7 +768,7 @@ function GlyphNota() {
 function Entradas({ reducido }: { reducido: boolean }) {
   return (
     <span className="perfil-invitar-arte" aria-hidden>
-      <svg viewBox="0 0 96 78" width="90" height="73">
+      <svg viewBox="0 0 96 78">
         <motion.g
           style={{ originX: "40px", originY: "48px" }}
           animate={reducido ? {} : { rotate: [-16, -11, -16], y: [0, -2.4, 0] }}

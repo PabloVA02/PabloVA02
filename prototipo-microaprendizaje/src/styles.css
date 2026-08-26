@@ -5433,47 +5433,74 @@ button {
 }
 
 /* Invitar amigos, dentro del perfil */
+/* Medida sobre la captura del 26 a las 19:26, a 750 de ancho como las demás
+   —un píxel suyo por medio punto nuestro—:
+
+     tarjeta    y 643..1001   343 × 179, sangrado 16, filete y radio de las
+                              otras tarjetas de la columna
+     titular    tinta y 685   21 del filo de arriba, 19 de mayúscula → 20
+     párrafo    tinta y 741   49 del filo, tres renglones de 21
+     dibujo     x 540 y 686   70 × 70, arriba a la derecha y a la altura del
+                              titular
+     botón      y 873..969    48 de alto, a toda anchura, #0099ff
+
+   El dibujo estaba colgando de la esquina con un margen negativo, «para hacer
+   la tarjeta más viva». Alineado con el titular, como en la captura, el
+   bloque se lee como una sola cosa en vez de como un texto con una pegatina
+   encima. */
 .perfil-invitar {
   position: relative;
   margin-top: 12px;
-  padding: 17px 17px 16px;
-  border-radius: 20px;
+  padding: 16px;
+  border-radius: 12px;
   background: rgba(242, 236, 225, 0.07);
   overflow: hidden;
 }
 
-.perfil-invitar-texto { max-width: 21ch; }
+.perfil-invitar-alto {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.perfil-invitar-texto { flex: 1; min-width: 0; }
 
 .perfil-invitar h2 {
-  font-size: 19px;
+  margin: 0;
+  font-size: 20px;
   font-weight: 750;
   letter-spacing: -0.022em;
 }
 
 .perfil-invitar p {
-  margin-top: 5px;
-  font-size: 13px;
-  line-height: 1.42;
-  color: rgba(242, 236, 225, 0.6);
+  margin: 8px 0 0;
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 450;
+  color: rgba(242, 236, 225, 0.62);
 }
 
-/* Las entradas se salen por la esquina: hace la tarjeta más viva que
-   centrarlas, y deja el texto respirando a la izquierda */
 .perfil-invitar-arte {
-  position: absolute;
-  top: 12px;
-  right: -6px;
+  flex: none;
+  display: block;
+  width: 70px;
+  height: 70px;
 }
+.perfil-invitar-arte svg { display: block; width: 100%; height: 100%; }
 
+/* El azul es el mismo que el botón de la captura, el mismo del aviso de
+   suscripción y el mismo del «Escuchar» del libro del día: en esta pantalla
+   ya significa «esto es lo que se toca». */
 .perfil-invitar-boton {
   width: 100%;
-  height: 46px;
-  margin-top: 15px;
-  border-radius: 999px;
-  background: var(--paper);
-  color: var(--night);
+  height: 48px;
+  margin-top: 16px;
+  border-radius: 10px;
+  background: #0099ff;
+  color: #fff;
   font-size: 15px;
-  font-weight: 720;
+  font-weight: 640;
+  letter-spacing: -0.008em;
 }
 
 /* ==========================================================================
