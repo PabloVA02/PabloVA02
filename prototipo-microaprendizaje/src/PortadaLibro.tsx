@@ -43,8 +43,8 @@ function semilla(id: string): number {
 
    Se dibujan dentro de un cuadrado de 100 y en un solo color, el de la
    categoría, con trazo grueso y formas grandes: a 148 puntos en la parrilla
-   —y a 52 en la lista de «Retomar»— lo que no sea rotundo se convierte en
-   suciedad. Nada de detalles finos, nada de texto dentro del dibujo.
+   —y a 27 en la pastilla de «Seguir leyendo»— lo que no sea rotundo se
+   convierte en suciedad. Nada de detalles finos, nada de texto dentro del dibujo.
    -------------------------------------------------------------------------- */
 
 type Emblema = (s: number, c: string) => ReactSvg;
@@ -218,7 +218,7 @@ export function PortadaLibro({
   const s = semilla(id);
   const emblema = EMBLEMAS[categoria] ?? renglones;
 
-  /* Por debajo de noventa puntos —la lista de «Retomar», el destacado— no cabe
+  /* Por debajo de noventa puntos —la pastilla de «Seguir leyendo»— no cabe
      una palabra que se pueda leer. Ahí queda el emblema solo, que a ese tamaño
      es justo lo que hace falta para reconocer el libro que estabas leyendo. */
   const conTexto = tamano >= 90;

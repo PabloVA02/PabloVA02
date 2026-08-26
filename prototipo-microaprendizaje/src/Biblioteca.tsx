@@ -49,7 +49,7 @@ export type Libro = {
   vb: string;
   /** La obra que lleva la portada, cuando la tiene. Ver `libros/portadas.ts`. */
   portada?: Foto;
-  /** 0 a 1. Si es mayor que 0, el libro aparece en «Retomar». */
+  /** 0 a 1. Lo que lleva leído. Elige el libro de «Seguir leyendo». */
   progreso: number;
   coleccion?: string;
   /** Capítulos del libro. El primero es el único jugable en el prototipo. */
@@ -787,24 +787,6 @@ export function Inicio({
           </div>
         </section>
 
-        {enCurso.length > 0 && !filtro && (
-          <section className="bloque">
-            <h2>Retomar</h2>
-            <p className="bloque-sub">Sigue donde lo dejaste</p>
-            <div className="carrusel">
-              {enCurso.map((l, i) => (
-                <FichaLibro
-                  key={l.id}
-                  libro={l}
-                  i={i}
-                  onAbrir={() => onAbrir(l)}
-                  guardado={guardados?.has(l.id)}
-                  onGuardar={onGuardar && (() => onGuardar(l))}
-                />
-              ))}
-            </div>
-          </section>
-        )}
         {/* Personalizado: la ficha ancha, centrada y con la portada sobre un
             arco de color. Es la que se para a explicar POR QUÉ te tocaría
             leer ese libro, y por eso va de una en una y no en carrusel: aquí
