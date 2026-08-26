@@ -343,7 +343,7 @@ export const CATALOGO: Ficha[] = [
   { id: "adulto-relaciones", titulo: "Cómo ser un adulto en las relaciones", autor: "David Richo", ano: 2002, categoria: "Psicología", estado: "escrito" },
   { id: "dopamina-lieberman", titulo: "Dopamina", autor: "Daniel Z. Lieberman y Michael E. Long", ano: 2018, categoria: "Psicología", estado: "escrito" },
   { id: "segundo-cerebro", titulo: "Crea tu segundo cerebro", autor: "Tiago Forte", ano: 2022, categoria: "Psicología", estado: "escrito" },
-  { id: "focus-goleman", titulo: "Focus", autor: "Daniel Goleman", ano: 2013, categoria: "Psicología", estado: "pendiente" },
+  { id: "focus-goleman", titulo: "Focus", autor: "Daniel Goleman", ano: 2013, categoria: "Psicología", estado: "escrito" },
   { id: "hombres-marte-mujeres-venus", titulo: "Los hombres son de Marte, las mujeres son de Venus", autor: "John Gray", ano: 1992, categoria: "Psicología", estado: "escrito" },
   { id: "mujeres-aman-demasiado", titulo: "Mujeres que aman demasiado", autor: "Robin Norwood", ano: 1985, categoria: "Psicología", estado: "escrito" },
   { id: "amar-o-depender", titulo: "Amar o depender", autor: "Walter Riso", ano: 1999, categoria: "Psicología", estado: "escrito" },

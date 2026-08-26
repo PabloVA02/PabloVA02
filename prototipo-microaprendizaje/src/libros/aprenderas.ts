@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "focus-goleman":
+    "Un estudio de Harvard con más de dos mil personas encontró que la mente está en otra cosa el cuarenta y siete por ciento del tiempo. Goleman parte de ahí para separar tres formas de atención que no se acompañan entre sí.",
+
   "guerra-chips":
     "Alrededor del noventa por ciento de los chips más avanzados del mundo sale de Taiwán, y las máquinas para fabricarlos las hace una sola empresa neerlandesa. Miller cuenta cómo se llegó a esa concentración desde 1958.",
 

@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "focus-goleman": [
+    "por qué el ánimo empeora cuando la mente se va a otro sitio",
+    "que la maestría depende de corregir el error y no de sumar horas",
+    "cómo se diferencia entender a alguien de desearle bien",
+    "el motivo de que un sistema grande no se perciba sin datos delante",
+    "distinguir una mejora real de atención de una promesa comercial",
+  ],
+
   "guerra-chips": [
     "por qué el circuito integrado no habría existido sin la carrera espacial",
     "que la ley de Moore fue un calendario compartido y no un descubrimiento",

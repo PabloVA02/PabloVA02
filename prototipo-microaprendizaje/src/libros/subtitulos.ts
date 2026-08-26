@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "focus-goleman": "Desarrollar la atención para alcanzar la excelencia",
   "guerra-chips": "La gran lucha por el dominio mundial",
   "placebo-eres-tu": "Cómo ejercer el poder de la mente sobre el cuerpo",
   "disciplina-es-destino": "El poder del autocontrol",

@@ -94446,7 +94446,306 @@ const GUERRA_CHIPS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Focus, de Daniel Goleman (2013), en ocho páginas.
+
+   Ensayo de divulgación científica, así que TERCERA PERSONA: apartado 4.7.
+   La quinta página lleva el marcador de la metáfora central del libro —la
+   atención como músculo que se agota— porque la réplica de 2016 la tumbó.
+   Y la conclusión recoge lo que ha pasado con las tres investigaciones en
+   las que más se apoya: el test de la golosina, la práctica deliberada y
+   el entrenamiento cerebral.
+   -------------------------------------------------------------------------- */
+
+const FOCUS_GOLEMAN: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Goleman sostiene que la atención es una capacidad entrenable y que casi nadie sabe cuál de sus formas tiene averiada",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un directivo puede ser brillante analizando un mercado y no darse cuenta de que su mejor empleada lleva tres meses buscando otro trabajo. Un terapeuta puede leer a cualquiera y no ver que su propio matrimonio se está hundiendo. Goleman parte de que esos casos no son contradicciones: son tres capacidades distintas, y tener una no implica tener las otras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Daniel Goleman, psicólogo y periodista científico estadounidense, se hizo conocido en 1995 con un libro sobre inteligencia emocional que vendió millones de ejemplares. Este, publicado en 2013, sostiene que aquello se quedó corto y que debajo de todo hay algo más básico: cómo y hacia dónde se dirige la atención.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su reparto es de tres. La atención hacia dentro, que permite saber qué está sintiendo uno mientras lo siente. La atención hacia los demás, que es la base de la empatía. Y la atención hacia fuera, la que permite entender sistemas grandes —un mercado, un clima, una organización— que ningún sentido humano percibe directamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre las tres, y también lo que el libro da por bueno y no lo era. Cuánto tiempo se va la mente sola, por qué la regla de las diez mil horas está mal contada, por qué la metáfora del músculo que sostiene el libro entero no se sostiene, qué formas tiene la empatía y por qué los sistemas no se pueden percibir sin datos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Atender hacia dentro, hacia los demás y hacia el sistema son tres capacidades distintas. Tener una muy desarrollada no dice nada de las otras dos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La mente se marcha a otro sitio casi la mitad del tiempo, y eso se ha medido con precisión",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2010, Matthew Killingsworth y Daniel Gilbert, de la Universidad de Harvard, publicaron en la revista Science un estudio hecho con una aplicación de móvil. Preguntaban a los participantes en momentos aleatorios del día qué estaban haciendo, si estaban pensando en otra cosa y cómo se sentían. Reunieron cerca de un cuarto de millón de respuestas de más de dos mil personas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer resultado fue la magnitud: los participantes declararon estar pensando en algo distinto de lo que hacían el cuarenta y siete por ciento del tiempo. No en tareas aburridas concretamente, sino de media a lo largo del día, incluidas conversaciones, comidas y desplazamientos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo resultado fue más interesante. La gente decía sentirse peor cuando su mente estaba en otro sitio, y eso ocurría también cuando el pensamiento era agradable. Además, el análisis temporal indicaba que la distracción precedía al malestar y no al revés, lo que apunta a que irse mentalmente no consuela: empeora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Goleman usa ese hallazgo como cimiento del libro y saca una consecuencia razonable. Si casi la mitad de la vida transcurre sin estar donde se está, entonces cualquier mejora en la capacidad de volver al presente afecta a una porción enorme del tiempo total, mucho mayor que la que cualquier técnica de productividad puede tocar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El estudio dejó además un reparto por actividades que se recuerda bien. La ocupación durante la cual la mente se iba menos era el sexo; las que más distracción acumulaban eran el trabajo y los desplazamientos, es decir, aquello a lo que se dedican más horas de la vida adulta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La mente está en otro sitio casi la mitad del día, y el ánimo empeora cuando se va, incluso cuando se va a pensar en algo agradable.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las diez mil horas nunca fueron el hallazgo: lo era la corrección inmediata de un error",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cifra viene de un estudio de 1993 del psicólogo Anders Ericsson sobre violinistas de una academia de Berlín, donde los mejores acumulaban en torno a diez mil horas de práctica. Un libro divulgativo posterior convirtió aquello en una regla, y Ericsson pasó años protestando porque la regla decía algo que su estudio no decía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que su trabajo mostraba es que no cuenta cualquier práctica. Cuenta la que él llamó deliberada: trabajar justo por encima del nivel actual, en un aspecto concreto, con alguien que corrige el error en el momento en que se produce. Repetir durante horas algo que ya se hace bien no mejora nada, aunque sume horas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Goleman aporta el detalle que explica por qué esto importa tanto en la vida adulta. Sin corrección externa, el cerebro automatiza lo que hace, incluidos los errores, y a partir de ahí la ejecución se vuelve más cómoda y no mejor. Es la razón de que haya gente con veinte años de oficio y el nivel del quinto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene además poner la cifra en su sitio, cosa que el libro no hace. Un metaanálisis dirigido por Brooke Macnamara en 2014 encontró que la práctica deliberada explicaba en torno al doce por ciento de las diferencias de rendimiento entre personas, con mucha variación por ámbito. Importa, y no es lo único que importa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Sin alguien que corrija el error mientras se comete, la repetición automatiza el fallo. Veinte años de oficio pueden ser el primer año repetido veinte veces.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La metáfora que sostiene el libro entero es precisamente la que se ha caído",
+      },
+      {
+        b: "texto",
+        texto:
+          "Goleman describe la atención como un músculo: una reserva limitada que se gasta al usarla, se agota si se fuerza y se fortalece con entrenamiento. La imagen aparece una y otra vez y es la que justifica sus recomendaciones prácticas. Tiene un origen preciso, y es un problema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Viene de los experimentos de Roy Baumeister sobre el agotamiento del ego, iniciados en 1998, según los cuales resistir una tentación o concentrarse mucho consume un recurso común y deja menos disponible para lo siguiente. La idea encajaba con la experiencia de cualquiera y se difundió por miles de libros de divulgación, este incluido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2016, veintitrés laboratorios coordinados por Martin Hagger repitieron el experimento con más de dos mil participantes y un protocolo registrado de antemano. El efecto resultó ser prácticamente cero. No es que fuera pequeño: es que no apareció, y ese resultado se ha convertido en uno de los casos más citados de la crisis de replicación en psicología.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso no invalida el libro entero, pero obliga a leerlo distinto. Lo que sí sigue en pie es que la atención es selectiva: atender a una cosa implica no atender a otra, y ahí no hay debate. Lo que se cayó es la idea de la reserva que se vacía, y con ella la imagen de entrenar la concentración como quien levanta pesas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La atención es selectiva, no es un depósito que se vacía. Atender a algo cuesta dejar de atender a otra cosa, y eso es distinto de agotarse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hay tres formas de empatía y solo una de ellas mueve a hacer algo" },
+      {
+        b: "texto",
+        texto:
+          "La distinción que hace Goleman en esta parte es la más aprovechable del libro. La empatía cognitiva es entender qué piensa el otro; la emocional es sentir lo que siente; y la preocupación empática es la que impulsa a actuar en su favor. Son tres cosas distintas, y se pueden tener por separado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que lo aclara es incómodo. Un manipulador tiene mucha empatía cognitiva y ninguna preocupación empática: entiende perfectamente al otro y usa ese conocimiento en su contra. Entender a alguien y quererle bien no van juntos, y confundirlos es la razón de que se elogie la empatía como si siempre fuera una virtud.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La empatía emocional tiene su propio problema, y es de dosis. Quien siente demasiado el dolor ajeno acaba desbordado y termina evitándolo, que es lo contrario de ayudar. Es un fenómeno bien conocido entre profesionales sanitarios, y explica por qué la distancia profesional no es frialdad sino la condición para poder seguir estando ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la recomendación práctica que da el libro y que se aparta del tópico. No se trata de sentir más, sino de entrenar la parte que decide: atender a quién necesita algo, comprobar que se ha entendido bien y hacer algo concreto. La preocupación empática se parece más a una costumbre que a una emoción.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una diferencia que la neurociencia ha medido. Los equipos de Tania Singer compararon entrenar la empatía con entrenar la compasión y encontraron efectos distintos: la primera aumentaba el malestar de quien la practicaba, y la segunda aumentaba el ánimo positivo y la disposición a ayudar. No es una distinción de vocabulario.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Entender a alguien y desearle bien son capacidades separadas. El manipulador entiende perfectamente al otro: lo que le falta es la tercera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El ser humano no tiene ningún sentido para percibir un sistema, y por eso hay que fabricarlo con datos",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera atención del libro es la que Goleman considera peor repartida. Los sentidos humanos detectan lo que se mueve deprisa, lo que está cerca y lo que amenaza ahora; no detectan una tendencia lenta, una acumulación repartida entre millones de personas ni una consecuencia que ocurre a diez mil kilómetros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que usa es el consumo. Nadie percibe, al comprar un producto, el agua que costó fabricarlo, las condiciones de quien lo montó o la energía que consumió el transporte, porque no hay ningún órgano capaz de percibir eso. La información existe pero no llega a los sentidos, y lo que no llega no se tiene en cuenta al decidir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La propuesta es lógica: si no hay un sentido, hay que construirlo con datos y ponerlo donde se decide. Una etiqueta que muestre en el momento de comprar lo que normalmente permanece invisible actúa como un órgano artificial, y en las pruebas donde se ha hecho bien cambia efectivamente el comportamiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El propio Goleman reconoce el límite, y hace bien en no exagerarlo. Un dato en una etiqueta compite con el precio, con la prisa y con la costumbre, así que su efecto es real y modesto. Lo que hace es hacer posible una decisión que antes no lo era, no garantizar que se tome.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un caso europeo que lo demuestra desde 1995: la etiqueta energética de los electrodomésticos, con su escala de letras y colores. Puso delante del comprador un consumo que antes era invisible, y en dos décadas desplazó la oferta entera del mercado hacia las clases más eficientes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que ningún sentido percibe no entra en ninguna decisión. Un dato puesto donde se decide funciona como un órgano que no tenemos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi todo lo que se vende como entrenamiento de la atención no ha demostrado servir",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica sus últimas partes a cómo mejorar la atención, y ahí conviene separar lo que se ha sostenido de lo que no. La idea general de que la concentración se entrena era en 2013 una promesa comercial enorme, con una industria de programas informáticos que aseguraba mejorar la memoria y la agilidad mental de cualquiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En octubre de 2014, unos setenta científicos especializados en envejecimiento y cognición firmaron una declaración conjunta impulsada desde la Universidad de Stanford y el Instituto Max Planck en la que afirmaban que no había pruebas convincentes de que esos programas mejorasen la capacidad intelectual general ni frenasen el deterioro cognitivo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El desenlace comercial llegó en enero de 2016, cuando la Comisión Federal de Comercio estadounidense sancionó con dos millones de dólares a Lumos Labs, la empresa del programa Lumosity, por publicidad engañosa: había prometido rendimiento académico y laboral y protección frente a la demencia sin respaldo para nada de eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí ha resistido es más humilde. Los programas de atención plena tienen efectos moderados y bien medidos sobre el estrés, la ansiedad y el dolor crónico, aunque una revisión crítica publicada en 2018 advirtió de que buena parte de esa literatura arrastra problemas de método. Mejorar en la tarea que se entrena está demostrado; que eso se transfiera a otras, mucho menos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una revisión amplia dirigida por Daniel Simons en 2016 lo resumió con precisión: hay pruebas abundantes de mejora en la tarea que se practica, bastantes menos en tareas parecidas y casi ninguna en capacidades distintas o en el desempeño cotidiano.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Entrenar una tarea mejora esa tarea. Que la mejora se traslade a otras distintas es justamente lo que no se ha conseguido demostrar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la atención se reparte en tres direcciones que no se acompañan entre sí, que la mente pasa fuera casi la mitad del tiempo y eso empeora el ánimo, que la maestría depende de la corrección del error y no del número de horas, y que un sistema grande no se percibe sin datos deliberadamente puestos delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su aportación es de encuadre. Reunir bajo una misma pregunta la conciencia de uno mismo, la empatía y la comprensión de sistemas permite ver por qué una persona muy capaz en un plano puede ser inútil en otro, y eso explica bastantes fracasos profesionales que suelen atribuirse al carácter.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La distinción entre entender al otro y desearle bien vale por sí sola lo que cuesta el libro: son dos cosas separadas y se confunden todos los días.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y es un fallo de método más que de contenido. Goleman encadena estudios como ilustraciones, sin sopesar cuál está bien hecho, y varios de los que sostienen su argumento se han debilitado desde entonces. La metáfora del músculo que ordena el libro procede de una teoría que fracasó en 2016 en una réplica con veintitrés laboratorios, y el test de la golosina, que usa como prueba del autocontrol infantil, se repitió en 2018 con novecientos niños y el efecto resultó ser mucho menor y explicable en gran parte por el entorno familiar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un problema anterior que este libro hereda. La afirmación que hizo famoso a Goleman en 1995 —que la inteligencia emocional predice el éxito mejor que la capacidad intelectual— nunca tuvo respaldo con esa fuerza, y los instrumentos que la miden aportan bastante poco por encima de lo que ya explican la inteligencia y los rasgos de personalidad. Lo que queda en pie de este libro son sus distinciones, que son buenas, y no las cifras con las que las adorna.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "focus-goleman": FOCUS_GOLEMAN,
   "guerra-chips": GUERRA_CHIPS,
   "placebo-eres-tu": PLACEBO_ERES_TU,
   "disciplina-es-destino": DISCIPLINA_ES_DESTINO,
