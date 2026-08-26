@@ -4688,59 +4688,26 @@ button {
    La meta del día, en el perfil
    ========================================================================== */
 
-/* La tarjeta habla el idioma de la columna del perfil: fondo claro translúcido
-   sobre el oscuro y el mismo radio que la racha. En crema y con borde propio
-   se leía como un recorte pegado de otra pantalla. */
+/* ==========================================================================
+   LA META DEL DÍA
+
+   Una barra plana con el degradado del fuego. Ver la cabecera de `Meta.tsx`,
+   que lleva el porqué: era un arco de 108 puntos con halo y cabeza de trazo,
+   y repetía el reparto de la ficha de la racha que tiene justo encima.
+
+   EL DEGRADADO VA EN EL CARRIL, no en el relleno. Si se pinta sobre la parte
+   llena, al 10 % se ve la rampa entera de rojo a oro apretada en un dedo y el
+   color de un punto cambia según cuánto lleves leído. Aquí lo lleva el carril
+   entero y lo que se mueve es una tapa opaca que descubre por la izquierda:
+   cada minuto tiene siempre su color.
+   ========================================================================== */
 .meta {
   margin-top: var(--tarjeta-hueco);
-  padding: 15px 16px 16px;
+  padding: var(--tarjeta-pad);
   border-radius: var(--tarjeta-radio);
   background: var(--tarjeta);
   border: 1px solid var(--tarjeta-filo);
 }
-
-.meta-fila {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
-
-/* 108 px: la misma caja que ocupa la llama de la racha justo encima. El arco
-   se dibuja en un lienzo de 260 y se encoge entero —trazo, halo y cabeza—,
-   así que ninguna proporción se rompe al reducirlo. */
-.meta-arco {
-  position: relative;
-  flex: none;
-  width: 108px;
-}
-
-.meta-svg { display: block; width: 100%; overflow: visible; }
-
-/* La cifra vive DENTRO del arco, no debajo: el hueco del semicírculo existe
-   precisamente para eso, y dejarlo vacío desperdicia el dibujo entero */
-/* 15 px desde abajo, no 0: el lienzo del arco deja aire bajo la línea de los
-   extremos, y pegar ahí la cifra la deja COLGANDO del arco en vez de dentro
-   del hueco, que es justo lo que el semicírculo abierto viene a ofrecer. */
-.meta-centro {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 15px;
-  display: flex;
-  justify-content: center;
-  pointer-events: none;
-}
-
-.meta-numero {
-  font-size: 19px;
-  font-weight: 800;
-  line-height: 1;
-  letter-spacing: -0.035em;
-  font-variant-numeric: tabular-nums;
-  color: var(--paper);
-}
-
-.meta-datos { flex: 1; min-width: 0; }
 
 .meta-alto {
   display: flex;
@@ -4749,107 +4716,107 @@ button {
   gap: 10px;
 }
 
-/* Mismo tamaño y peso que el «Tu racha» de la tarjeta de arriba. Sin partir:
-   en dos líneas el título empuja al resto y la tarjeta deja de tener la altura
-   de fila de la racha, que es de donde sale la sintonía entre las dos. */
 .meta-alto h2 {
+  margin: 0;
   font-size: 17px;
   font-weight: 720;
   letter-spacing: -0.015em;
-  white-space: nowrap;
-}
-
-.meta-pie {
-  margin: 5px 0 0;
-  font-size: 12.5px;
-  line-height: 1.35;
-  color: rgba(242, 236, 225, 0.55);
-}
-.meta-pie strong { color: var(--paper); font-weight: 720; }
-
-.meta-brillo {
-  position: absolute;
-  left: 50%;
-  bottom: 4px;
-  width: 124px;
-  height: 124px;
-  margin-left: -62px;
-  border-radius: 50%;
-  pointer-events: none;
-  background: radial-gradient(circle, var(--ochre) 0%, transparent 62%);
+  color: var(--paper);
 }
 
 .meta-boton {
   flex: none;
-  padding: 6px 12px;
+  height: 30px;
+  padding: 0 13px;
   border-radius: 999px;
   background: rgba(242, 236, 225, 0.12);
+  color: rgba(255, 255, 255, 0.86);
   font-size: 12.5px;
-  font-weight: 640;
-  color: var(--paper);
+  font-weight: 660;
 }
+
+.meta-cifra {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  margin: 13px 0 9px;
+}
+
+.meta-numero {
+  font-size: 26px;
+  font-weight: 780;
+  letter-spacing: -0.03em;
+  color: var(--paper);
+  font-variant-numeric: tabular-nums;
+}
+
+.meta-de {
+  font-size: 13.5px;
+  font-weight: 560;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Doce de alto: lo justo para que el degradado se vea como un degradado y no
+   como una línea de color. Y el mismo rojo, naranja y oro de la llama, pero
+   tumbados. */
+.meta-barra {
+  position: relative;
+  height: 12px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #f0410e, #ff7a18 52%, #ffb13d);
+}
+
+/* La tapa tiene que ser OPACA, y esto costó una vuelta: en crema al 13 % el
+   degradado se veía por debajo y la barra parecía llena de lado a lado con
+   6:30 de 15. Un carril vacío no es un carril lleno más claro. */
+.meta-tapa {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #4a4a4a;
+}
+
+/* Cumplida, la barra entera enciende un punto: no hace falta más aviso que
+   verla llena de fuego de lado a lado. */
+.meta-barra[data-cumplida="true"] { box-shadow: 0 0 16px -2px rgba(255, 122, 24, 0.55); }
 
 .meta-opciones { width: 100%; overflow: hidden; }
 
 .meta-opciones-fila {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 6px;
-  padding-top: 12px;
+  display: flex;
+  gap: 7px;
+  padding-top: 13px;
 }
 
 .meta-opcion {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1px;
-  padding: 8px 0 6px;
-  border-radius: 12px;
-  background: rgba(242, 236, 225, 0.09);
-  font-size: 14.5px;
-  font-weight: 760;
-  color: var(--paper);
+  padding: 7px 0 6px;
+  border-radius: 10px;
+  background: rgba(242, 236, 225, 0.08);
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 14px;
+  font-weight: 700;
   font-variant-numeric: tabular-nums;
 }
 
 .meta-opcion span {
-  font-size: 9px;
+  font-size: 9.5px;
   font-weight: 620;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: rgba(242, 236, 225, 0.5);
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.45);
 }
 
 .meta-opcion[data-activa="true"] {
-  background: var(--paper);
-  color: var(--carbon);
+  background: var(--fuego);
+  color: #1d1006;
 }
-.meta-opcion[data-activa="true"] span { color: rgba(14, 14, 22, 0.55); }
-
-/* El total va en línea y sin caja: dentro de una tarjeta ya pequeña, una caja
-   metida en otra caja son dos bordes para un solo dato. */
-.meta-total {
-  display: flex;
-  align-items: baseline;
-  gap: 7px;
-  margin-top: 7px;
-}
-
-.meta-total-rotulo {
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-  color: rgba(242, 236, 225, 0.45);
-}
-
-.meta-total-cifra {
-  font-size: 15px;
-  font-weight: 780;
-  letter-spacing: -0.02em;
-  font-variant-numeric: tabular-nums;
-  color: var(--paper);
-}
+.meta-opcion[data-activa="true"] span { color: rgba(29, 16, 6, 0.62); }
 
 
 /* ==========================================================================

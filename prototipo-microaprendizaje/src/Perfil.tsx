@@ -84,7 +84,6 @@ type Props = {
   /** Minutos leídos hoy, su meta y el total de siempre. */
   minutosHoy: number;
   meta: number;
-  minutosTotales: number;
   onMeta: (m: number) => void;
   onCerrar: () => void;
   onAjustes: () => void;
@@ -101,7 +100,6 @@ export function Perfil({
   temas,
   minutosHoy,
   meta,
-  minutosTotales,
   onMeta,
   onCerrar,
   onAjustes,
@@ -209,13 +207,7 @@ export function Perfil({
           animate={{ opacity: 1, y: 0 }}
           transition={{ ...springSoft, delay: orden(3) }}
         >
-          <MetaDiaria
-            minutos={minutosHoy}
-            meta={meta}
-            total={minutosTotales}
-            reducido={reducido}
-            onMeta={onMeta}
-          />
+          <MetaDiaria minutos={minutosHoy} meta={meta} reducido={reducido} onMeta={onMeta} />
         </motion.div>
 
         {/* Crecimiento semanal: la única parte de la pantalla que contesta

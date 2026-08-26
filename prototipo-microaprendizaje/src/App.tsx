@@ -196,7 +196,12 @@ export default function App() {
   const suscrito = pago === "activo";
   const [minutosHoy, setMinutosHoy] = useState(6.5);
   const [meta, setMeta] = useState(15);
-  const [minutosTotales, setMinutosTotales] = useState(1847);
+  /* El total de siempre. Ya no lo enseña nadie: la meta del día pasó a ser una
+     barra plana y con ella se fue el «En total 30 h 47 min». Se sigue sumando
+     porque es el estado que tendrá que persistir el día que haya cuenta de
+     verdad, y porque tirarlo obligaría a rehacer los dos sitios que lo suben.
+     Ver `Meta.tsx`. */
+  const [, setMinutosTotales] = useState(1847);
   /* Los libros guardados. Vive aquí arriba y no dentro de la estantería
      porque el mismo libro se guarda desde dos sitios —la esquina de la
      cubierta y el botón redondo de su ficha— y los dos tienen que enseñar lo
@@ -428,7 +433,6 @@ export default function App() {
               temas={temasDe(terminados)}
               minutosHoy={minutosHoy}
               meta={meta}
-              minutosTotales={minutosTotales}
               onMeta={setMeta}
               onCerrar={() => setPantalla("inicio")}
               onAjustes={() => setPantalla("ajustes")}
