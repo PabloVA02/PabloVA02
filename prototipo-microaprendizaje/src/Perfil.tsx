@@ -100,7 +100,6 @@ export function Perfil({
 }: Props) {
   const reducido = !!useReducedMotion();
   const dias = semana(racha);
-  const librosLeidos = temas.reduce((t, x) => t + x.n, 0);
 
   return (
     <motion.div
@@ -133,12 +132,7 @@ export function Perfil({
             lo único de esta pantalla que se puede perder ENTERO, y porque
             todo lo que viene debajo —la racha, la meta, la gráfica, los
             temas— es exactamente lo que se perdería. Ver `Cuenta.tsx`. */}
-        <Cuenta
-          racha={racha}
-          libros={librosLeidos}
-          minutosTotales={minutosTotales}
-          reducido={reducido}
-        />
+        <Cuenta />
 
         {/* Desbloquear: el único bloque de color saturado de la pantalla */}
         <motion.button
