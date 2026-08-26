@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "alicia-maravillas": [
+    "por qué la pregunta de quién eres vuelve cada vez que algo cambia",
+    "cómo se reconoce una reunión en la que nadie quiere decidir",
+    "que decir lo que piensas y pensar lo que dices no es lo mismo",
+    "el mecanismo del disparate: reglas rigurosas en el sitio equivocado",
+    "qué se puede afirmar y qué no cuando la prueba fue destruida",
+  ],
+
   "ley-de-atraccion": [
     "de dónde viene realmente la doctrina de atraer lo que se piensa",
     "cómo se avanza de escalón en escalón cuando uno está hundido",

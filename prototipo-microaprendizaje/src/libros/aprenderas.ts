@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "alicia-maravillas":
+    "Un profesor de matemáticas improvisó esta historia en una barca en 1862 para entretener a tres niñas. Salió el primer libro infantil que no pretendía enseñar nada, y por eso pudo reírse de todo lo demás.",
+
   "ley-de-atraccion":
     "El libro afirma que nada entra en la vida de una persona sin que lo haya atraído con su pensamiento, y que eso incluye la enfermedad. Debajo de esa doctrina hay dos herramientas que funcionan por razones corrientes.",
 

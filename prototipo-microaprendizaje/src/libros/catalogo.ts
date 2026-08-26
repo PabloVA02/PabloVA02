@@ -249,7 +249,7 @@ export const CATALOGO: Ficha[] = [
   { id: "jane-eyre", titulo: "Jane Eyre", autor: "Charlotte Brontë", ano: 1847, categoria: "Literatura", estado: "escrito" },
   { id: "el-proceso", titulo: "El proceso", autor: "Franz Kafka", ano: 1925, categoria: "Literatura", estado: "escrito" },
   { id: "siddhartha", titulo: "Siddhartha", autor: "Hermann Hesse", ano: 1922, categoria: "Literatura", estado: "escrito" },
-  { id: "alicia-maravillas", titulo: "Alicia en el país de las maravillas", autor: "Lewis Carroll", ano: 1865, categoria: "Literatura", estado: "pendiente" },
+  { id: "alicia-maravillas", titulo: "Alicia en el país de las maravillas", autor: "Lewis Carroll", ano: 1865, categoria: "Literatura", estado: "escrito" },
   { id: "jekyll-hyde", titulo: "El extraño caso del doctor Jekyll y el señor Hyde", autor: "R. L. Stevenson", ano: 1886, categoria: "Literatura", estado: "pendiente" },
   { id: "historia-interminable", titulo: "La historia interminable", autor: "Michael Ende", ano: 1979, categoria: "Literatura", estado: "pendiente" },
   { id: "patria", titulo: "Patria", autor: "Fernando Aramburu", ano: 2016, categoria: "Literatura", estado: "escrito" },

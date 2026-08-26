@@ -96475,7 +96475,284 @@ const LEY_DE_ATRACCION: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Alicia en el país de las maravillas, de Lewis Carroll (1865), en ocho
+   páginas.
+
+   Novela, así que el registro del apartado 3 bis: titulares cortos de
+   imagen y la afirmación en la primera frase. Las cajas hablan al lector.
+
+   Las dos anécdotas famosas van dichas con lo que se sabe de ellas, según
+   el apartado 4 bis: la de la reina Victoria pidiendo su siguiente libro
+   —que el propio Carroll desmintió por escrito— y la lectura del libro
+   como alegoría de las drogas, que es un invento de los años sesenta.
+   -------------------------------------------------------------------------- */
+
+const ALICIA_MARAVILLAS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un río, una tarde de julio" },
+      {
+        b: "texto",
+        texto:
+          "El libro infantil más influyente que se ha escrito nació improvisado para que tres niñas no se aburrieran en una barca. El 4 de julio de 1862, Charles Dodgson, profesor de matemáticas en Oxford, remontó el Támesis con un amigo y con las tres hijas del deán de su colegio: Lorina, de trece años, Alice, de diez, y Edith, de ocho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para entretenerlas se inventó sobre la marcha una historia sin ningún plan, con una niña que se cae por la madriguera de un conejo. Alice Liddell le pidió que la escribiera. Tardó dos años en hacerlo y le regaló el manuscrito, ilustrado por él mismo, en la Navidad de 1864. Se publicó en 1865 con el seudónimo de Lewis Carroll.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que salió de ahí no se parecía a nada. La literatura infantil de la época existía para enseñar: los cuentos terminaban con una moraleja y los niños obedientes prosperaban. Este libro no enseña nada, no premia la buena conducta, no tiene argumento en el sentido corriente y se ríe abiertamente de los adultos que dan lecciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que casi nadie recuerda de él: por qué la pregunta que le hacen a Alicia una y otra vez es quién es, qué era una carrera en comité, de dónde sale lo de loco como un sombrerero, cómo funciona un juicio en el que primero se sentencia, qué se están riendo esos versos que ya nadie reconoce y qué se cortó del diario de su autor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro que cambió la literatura infantil no quería enseñar nada. Empezó como un rato de entretenimiento y por eso pudo permitirse no dar ninguna lección.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Quién eres tú" },
+      {
+        b: "texto",
+        texto:
+          "La pregunta que más se repite en el libro no es dónde está Alicia ni cómo va a salir: es quién es. Se la hace ella misma nada más caer, se la hace la Oruga desde su seta con una brusquedad que la deja sin respuesta, y se la vuelve a hacer cada vez que su cuerpo cambia de tamaño sin avisar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cambia todo el rato. A lo largo del relato Alicia crece y encoge una decena de veces: se queda a veinticinco centímetros del suelo, llena una habitación entera, saca el brazo por la ventana, se estira hasta que el cuello le sube por encima de los árboles y una paloma la confunde con una serpiente. Nunca decide ella cuándo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Carroll usa eso para plantear algo que un niño de diez años vive a diario. Alicia comprueba si sigue siendo ella recitando lecciones que sabía, y le salen mal: los versos cambian solos y la tabla de multiplicar no llega a veinte. Si lo que sabía ya no está, se pregunta, quién es exactamente la que queda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la experiencia de crecer contada sin una sola frase explicativa. Un cuerpo que cambia sin permiso, unas reglas que valían y dejan de valer, y adultos que se enfadan por motivos que nadie explica. Por eso el libro funciona igual a los ocho años y a los cuarenta, y significa cosas distintas en cada lectura.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando lo que sabías deja de servirte, la pregunta que aparece no es qué hago, sino quién soy ahora. Le pasa a los diez años y vuelve a pasar después.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La carrera en comité" },
+      {
+        b: "texto",
+        texto:
+          "El chiste más político del libro dura media página. Alicia y varios animales acaban empapados y hay que secarse, así que el Dodo propone una carrera en comité. Dibuja una pista más o menos circular, coloca a los participantes por ahí, sin ordenarlos, y no dice ya al empezar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cada uno empieza a correr cuando quiere y para cuando quiere. Al cabo de media hora, cuando todos están secos, el Dodo anuncia que la carrera ha terminado, y cuando le preguntan quién ha ganado contesta, tras pensarlo mucho, que han ganado todos y que todos deben recibir un premio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El remate es lo mejor. Como no hay premios, los saca Alicia de su propio bolsillo y los reparte el Dodo, de modo que la ganadora recibe como galardón su propio dedal, entregado con una ceremonia solemne. Todo el mundo se lo toma muy en serio y nadie señala lo evidente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquello se lee en 1865 y se lee hoy exactamente igual. Es la descripción exacta de cualquier proceso en el que nadie quiere decidir: se convoca, se corre en círculo, se declara un éxito colectivo y se reparte lo que ya había puesto uno de los presentes. Carroll no lo explica en ningún momento, y no hace falta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El episodio tiene además una segunda parte que casi nadie recuerda. Terminado el reparto, los animales se quedan mirando a Alicia en silencio hasta que ella se da cuenta de que también tiene que premiarse a sí misma, así que el Dodo le entrega con toda ceremonia el dedal que ella acababa de darle. Nadie se ríe.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Desconfía de las reuniones donde ganan todos. Si no hay quien pierda, tampoco había nada en juego, y el premio lo estabas pagando tú.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Loco como un sombrerero" },
+      {
+        b: "texto",
+        texto:
+          "El personaje más famoso del libro no lo inventó Carroll: era una expresión que ya existía. Loco como un sombrerero se decía en Inglaterra desde hacía décadas, y la explicación que se da habitualmente es industrial. Para tratar el fieltro de las chisteras se usaba una sal de mercurio, y los sombrereros la respiraban durante años en talleres cerrados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La intoxicación crónica por mercurio produce temblores, dificultad para hablar, irritabilidad y cambios de carácter, un cuadro que llegó a conocerse como el temblor del sombrerero. Lo mismo pasa con la Liebre de Marzo: se decía loco como una liebre de marzo por el comportamiento de esos animales en su época de celo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la merienda, sin embargo, la locura es rigurosamente lógica. Cuando Alicia dice que ella siempre dice lo que piensa, el Sombrerero le contesta que entonces también debería dar igual decir «veo lo que como» y «como lo que veo». Y no da igual: es la diferencia entre una afirmación y su recíproca, que es un asunto de lógica formal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el mecanismo de todo el libro y explica por qué lo escribió un matemático. El disparate de Carroll no consiste en romper las reglas, sino en aplicarlas con una precisión insoportable en el sitio equivocado. Por eso resulta a la vez divertido y ligeramente angustioso: nadie hace trampas, y aun así no hay manera de entenderse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena tiene su propio reloj estropeado y es otro chiste lógico. El Sombrerero discutió con el Tiempo y desde entonces el Tiempo no le hace caso: siempre son las seis de la tarde, la hora del té, y por eso están condenados a merendar sin parar y a ir cambiando de sitio en la mesa en vez de fregar las tazas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "«Digo lo que pienso» y «pienso lo que digo» no significan lo mismo. Media discusión se sostiene sobre no haber notado esa diferencia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Sentencia primero, veredicto después" },
+      {
+        b: "texto",
+        texto:
+          "El libro termina con un juicio, y ese juicio es la sátira más afilada que contiene. Se acusa a la Sota de Corazones de haber robado unas tartas. Las pruebas son un poema anónimo sin destinatario, los testigos declaran cosas irrelevantes y el jurado apunta en sus pizarras todo lo que oye, incluidos sus propios nombres, por si se les olvidan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La Reina de Corazones resuelve cada dificultad de la misma manera: que le corten la cabeza. Lo dice constantemente, ante cualquier contrariedad, y aquí conviene fijarse en un detalle que casi nadie recuerda: no ejecutan a nadie en todo el libro. El Rey va detrás perdonando en voz baja a todos los condenados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La frase que se ha quedado es la de la Reina cuando el procedimiento se complica: sentencia primero, veredicto después. Alicia protesta que eso es un disparate, y la Reina se pone roja y ordena que le corten la cabeza a ella también. La niña, que para entonces ya ha crecido de tamaño, contesta que no son más que una baraja de cartas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa réplica es el final del sueño y es también la única manera de terminar el libro. No hay solución, ni justicia, ni castigo: hay una niña que de pronto ve el tamaño real de lo que la asustaba. El desenlace no lo produce una hazaña, lo produce dejar de tomarse en serio a quien no lo merecía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien decide el resultado antes de escuchar, no estás en una discusión. Y lo que la termina no es tener razón: es dejar de participar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los versos que ya nadie reconoce" },
+      {
+        b: "texto",
+        texto:
+          "Hay una parte entera del libro que un lector de hoy no puede ver, y conviene saberlo. Casi todos los poemas que Alicia recita mal son parodias exactas de versos que los niños ingleses de 1865 se sabían de memoria, porque se los hacían aprender en la escuela y en la iglesia con fines morales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El más claro es el del cocodrilo. El original era un poema de Isaac Watts sobre una abejita laboriosa que aprovecha cada hora del día, y que servía para explicarle a un niño que la pereza es pecado. Carroll lo transforma en un cocodrilo que sonríe con delicadeza mientras recibe pececillos en sus mandíbulas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El chiste no está en el disparate sino en la sustitución. Donde había una criatura industriosa que merece imitarse, hay un depredador que se come a los demás con muy buenos modales, y cualquier niño que se supiera el original se daba cuenta de lo que acababa de pasar sin que nadie tuviera que explicárselo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso significa que buena parte de la comicidad original se ha perdido y ha sido sustituida por otra cosa: hoy leemos como disparate puro lo que era burla dirigida. No es un problema del libro, pero explica por qué a veces resulta más raro que gracioso, y por qué las ediciones anotadas son aquí más útiles que en casi cualquier otro clásico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mismo ocurre con la nana de la Duquesa, que zarandea al bebé mientras canta que hay que hablarle con dureza al niño y pegarle cuando estornuda. El original era un poema sentimental sobre tratar a los hijos con delicadeza, y Carroll se limitó a darle la vuelta palabra por palabra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un chiste deja de entenderse cuando desaparece aquello de lo que se reía. Lo que queda entonces parece disparate, y era puntería.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que falta en el diario" },
+      {
+        b: "texto",
+        texto:
+          "Sobre la relación entre Dodgson y la familia Liddell hay un hecho firme y mucha especulación, y merece separarse. El hecho es que en junio de 1863, menos de un año después de la excursión en barca, se produjo una ruptura: dejó de visitar la casa y el trato se enfrió durante años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo no se conoce, y no se conoce por una razón concreta: las páginas del diario correspondientes a esos días fueron arrancadas, casi con seguridad por algún familiar tras su muerte. Lo que se destruyó fue exactamente la parte que lo explicaría, y eso ha alimentado un siglo de conjeturas en todas las direcciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La sospecha moderna sobre él es sobre todo del siglo veinte, y una parte de ella procede de sus primeros biógrafos, que construyeron la imagen de un hombre solo obsesionado con las niñas. Investigaciones posteriores han mostrado que aquella imagen simplificaba mucho: Dodgson tuvo amistades con mujeres adultas que sus primeros biógrafos silenciaron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo honrado es decir que no se sabe, y que las dos certezas que circulan —la del monstruo y la del santo incomprendido— se apoyan igual de poco. De un documento destruido no se puede deducir su contenido. Lo que sí se puede afirmar es que el libro existe porque una niña de diez años le pidió que lo escribiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un dato que se cita poco y que conviene tener presente. Dodgson fotografiaba a niñas, cosa que hoy resulta inquietante y que en la Inglaterra victoriana era una práctica corriente y considerada respetable, con las familias presentes y las madres organizando las sesiones. Juzgar una costumbre de 1860 con los ojos de hoy no aclara nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando la prueba que resolvería un asunto fue destruida, lo honrado es decir que no se sabe. Las certezas que se construyen encima de un hueco son inventos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Alicia cuenta un sueño sin argumento en el que una niña atraviesa un mundo cuyas reglas se aplican con rigor y no llevan a ninguna parte. Su hallazgo fue demostrar que un libro para niños podía no enseñar nada, y que precisamente por eso podía decir cosas que ningún libro con moraleja podía decir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un procedimiento que después ha usado media literatura: el disparate no como caos, sino como lógica llevada al sitio equivocado. De ahí salen la merienda, la carrera en comité y el juicio, y de ahí sale también que un profesor de matemáticas fuera quien inventara todo esto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El disparate de este libro no rompe ninguna regla: las cumple todas en el sitio donde no tocaba. Da risa por eso y angustia por lo mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. No tiene argumento: Alicia entra en una escena, ocurre algo, la escena se acaba y empieza otra sin ninguna consecuencia, y eso a muchos lectores les resulta agotador antes de la mitad. Buena parte de sus chistes apuntaban a poemas escolares que hoy no conoce nadie. Y las dos lecturas más difundidas son inventos posteriores: la de las drogas es de los años sesenta y no tiene ninguna base, y la anécdota de la reina Victoria pidiendo su siguiente libro y recibiendo un tratado de determinantes la desmintió por escrito el propio Carroll.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después tiene un episodio que merece contarse. Alice Liddell conservó toda su vida el manuscrito que le regalaron en 1864, y en 1928, viuda y con impuestos de sucesión que pagar, tuvo que subastarlo. Alcanzó una cifra sin precedentes para un manuscrito y se fue a Estados Unidos. Veinte años después, un grupo de estadounidenses lo compró para devolverlo a Inglaterra como gesto de agradecimiento por su papel en la guerra, y hoy está en la Biblioteca Británica. El cuaderno que empezó en una barca volvió a casa por decisión de gente que no lo había leído de niña.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "alicia-maravillas": ALICIA_MARAVILLAS,
   "ley-de-atraccion": LEY_DE_ATRACCION,
   "sin-esfuerzo": SIN_ESFUERZO,
   "principios-orden-mundial": PRINCIPIOS_ORDEN_MUNDIAL,
