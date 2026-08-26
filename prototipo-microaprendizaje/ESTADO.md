@@ -10,7 +10,7 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 | shorts con sus cuatro fotos | 532 | 225 |
 | imágenes puestas | 2139, verificadas hasta 1854 | |
 | libros en el catálogo | 418 | |
-| libros con resumen escrito a mano | 370 | 48 |
+| libros con resumen escrito a mano | 378 | 40 |
 | cubiertas dibujadas por Pablo | 277 | 61 escritos sin dibujo |
 | resúmenes antiguos generados | 0 | 0 |
 | títulos que no caben en una línea | | 0 |
