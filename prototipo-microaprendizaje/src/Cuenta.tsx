@@ -85,6 +85,9 @@ export function Cuenta() {
         <motion.button className="cuenta-otro" type="button" whileTap={{ scale: 0.94 }} aria-label="Continuar con Google">
           <GlyphGoogle />
         </motion.button>
+        <motion.button className="cuenta-otro" type="button" whileTap={{ scale: 0.94 }} aria-label="Continuar con Facebook">
+          <GlyphFacebook />
+        </motion.button>
         <motion.button className="cuenta-otro" type="button" whileTap={{ scale: 0.94 }} aria-label="Continuar con tu correo">
           <GlyphSobre />
         </motion.button>
@@ -137,53 +140,76 @@ function CandadoYLlave() {
 }
 
 /* --------------------------------------------------------------------------
-   Los tres logotipos.
+   Los cuatro logotipos.
 
    Se dibujan como son porque están puestos donde deben: identificando el
    botón que lleva a ese servicio. El de Apple va en una sola tinta —la crema
    de la app sobre botón oscuro—, que es como su guía lo pide.
+
+   Los dos primeros estaban mal hechos y Pablo los devolvió el 26 de agosto:
+   «los símbolos hazlos mejores, los de Google y Apple, que están deformados».
+   Lo estaban, y por la misma razón los dos: se habían construido en vez de
+   dibujado.
+
+   La manzana eran dos caminos, cuerpo y hoja, y al cuerpo se le había puesto
+   encima un `transform` con traslación y escala para cuadrarlo. La hoja no lo
+   llevaba, así que se quedaba flotando fuera de sitio y el cuerpo salía chato.
+   Ahora es la silueta de verdad, un solo camino, sin transformaciones.
+
+   La G eran cuatro arcos de circunferencia con trazo grueso y un rectángulo
+   metido por la derecha. Un arco de trazo tiene los dos extremos cortados a
+   escuadra, y la G de Google no: sus cuatro tramos acaban en diagonales y en
+   escalones, y la barra sale del anillo con un pico. Con arcos eso no se puede
+   hacer, y lo que salía era una tarta partida. Ahora son los cuatro caminos
+   cerrados del logotipo, cada uno con su color.
+
+   El de Facebook entra ahora, que lo pidió también. Va en su disco azul y no
+   en una sola tinta como el sobre: sin el disco, una efe blanca suelta al lado
+   de la G de colores no se lee como una marca, se lee como una letra.
    -------------------------------------------------------------------------- */
 
 function GlyphApple() {
   return (
     <svg width="17" height="17" viewBox="0 0 24 24" aria-hidden>
       <path
-        d="M16.24 12.86c-.03-2.75 2.25-4.07 2.35-4.13-1.28-1.87-3.27-2.13-3.98-2.16-1.7-.17-3.31.99-4.17.99-.86 0-2.19-.97-3.6-.94-1.86.03-3.57 1.08-4.53 2.74-1.93 3.35-.49 8.31 1.39 11.03.92 1.33 2.02 2.82 3.47 2.77 1.39-.06 1.92-.9 3.6-.9 1.68 0 2.16.9 3.63.87 1.5-.03 2.45-1.36 3.36-2.69 1.06-1.55 1.5-3.05 1.52-3.12-.03-.02-2.91-1.12-2.94-4.44Z"
-        fill="currentColor"
-        transform="translate(0 -2.2) scale(0.96)"
-      />
-      <path
-        d="M13.72 4.92c.77-.93 1.29-2.22 1.15-3.5-1.11.04-2.45.73-3.24 1.65-.71.82-1.33 2.13-1.16 3.39 1.23.1 2.48-.62 3.25-1.54Z"
+        d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.53 4.08Zm-5.02-13.03c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"
         fill="currentColor"
       />
     </svg>
   );
 }
 
-/** Un arco del anillo de la G, de `a` a `b` grados. Se calcula en vez de
- *  escribirse a mano: cuatro caminos con las mismas comas puestas en sitios
- *  distintos es donde se cuelan los errores que solo se ven al mirarlo. */
-function arcoG(a: number, b: number) {
-  const r = 8.4;
-  const p = (g: number) => {
-    const rad = (g * Math.PI) / 180;
-    return `${(12 + r * Math.cos(rad)).toFixed(2)} ${(12 + r * Math.sin(rad)).toFixed(2)}`;
-  };
-  const grande = Math.abs(b - a) > 180 ? 1 : 0;
-  return `M ${p(a)} A ${r} ${r} 0 ${grande} 1 ${p(b)}`;
-}
-
 function GlyphGoogle() {
   return (
-    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden>
-      <g fill="none" strokeWidth="4.6">
-        <path d={arcoG(200, 310)} stroke="#ea4335" />
-        <path d={arcoG(310, 352)} stroke="#4285f4" />
-        <path d={arcoG(8, 100)} stroke="#34a853" />
-        <path d={arcoG(100, 200)} stroke="#fbbc05" />
-      </g>
-      {/* La barra: entra por el hueco de la derecha hasta el centro */}
-      <rect x="11.6" y="10.2" width="9.4" height="3.6" rx="0.6" fill="#4285f4" />
+    <svg width="17" height="17" viewBox="0 0 24 24" aria-hidden>
+      <path
+        d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.76h3.57c2.08-1.92 3.28-4.74 3.28-8.09Z"
+        fill="#4285f4"
+      />
+      <path
+        d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.56-2.76c-.99.66-2.25 1.06-3.72 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84A11 11 0 0 0 12 23Z"
+        fill="#34a853"
+      />
+      <path
+        d="M5.84 14.11a6.6 6.6 0 0 1 0-4.22V7.05H2.18a11 11 0 0 0 0 9.9l3.66-2.84Z"
+        fill="#fbbc05"
+      />
+      <path
+        d="M12 5.38c1.62 0 3.07.56 4.21 1.65l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.05l3.66 2.84C6.71 7.31 9.14 5.38 12 5.38Z"
+        fill="#ea4335"
+      />
+    </svg>
+  );
+}
+
+function GlyphFacebook() {
+  return (
+    <svg width="19" height="19" viewBox="0 0 24 24" aria-hidden>
+      <circle cx="12" cy="12" r="11" fill="#1877f2" />
+      <path
+        d="M13.6 23v-8.8h2.95l.44-3.42H13.6V8.6c0-.99.28-1.66 1.7-1.66h1.81V3.88c-.31-.04-1.39-.13-2.64-.13-2.61 0-4.4 1.6-4.4 4.53v2.5H7.11v3.42h2.96V23h3.53Z"
+        fill="#fff"
+      />
     </svg>
   );
 }
