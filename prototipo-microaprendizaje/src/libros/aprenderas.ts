@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "buena-suerte":
+    "Dos ancianos se encuentran en un banco de Nueva York tras cincuenta años. Salieron del mismo barrio con las mismas oportunidades y uno ha prosperado y el otro está arruinado. El resto del libro es un cuento que intenta explicar esa diferencia.",
+
   "tiempo-entre-costuras":
     "Una modista deja a su novio por un vendedor de máquinas de escribir y se va con él a Tánger en 1936. Él la abandona embarazada, sin dinero y con una deuda a su nombre. Lo único que conserva es que sabe coser.",
 

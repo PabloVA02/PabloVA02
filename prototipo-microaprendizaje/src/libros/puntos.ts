@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "buena-suerte": [
+    "en qué se distingue lo que te pasa de lo que has preparado",
+    "qué pregunta hace el que encuentra lo que los demás buscan",
+    "qué te falta cuando llevas mucho esforzándote y no sale",
+    "por qué un acuerdo donde ganan los dos no hay que vigilarlo",
+    "qué le contesta a este libro un estudio con datos de 2003",
+  ],
+
   "tiempo-entre-costuras": [
     "qué es lo único que no te pueden quitar cuando te quitan todo",
     "por qué nadie se calla delante de quien está trabajando",

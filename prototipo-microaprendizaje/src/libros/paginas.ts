@@ -90127,7 +90127,301 @@ const TIEMPO_ENTRE_COSTURAS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La buena suerte, en ocho paginas.
+
+   Breve. Es una fabula, pero su contenido es argumentativo y practico, asi que
+   va con AFIRMACION ENTERA en el rotulo y segunda persona en la caja. El titulo
+   corto de imagen del apartado 3 bis es para narrativa de verdad; aqui la
+   historia es el envoltorio de diez reglas.
+
+   Seis argumentos: la distincion entre suerte y buena suerte, preparar el
+   terreno, averiguar que falta, crear condiciones donde ganen otros, empezar
+   hoy, y la paciencia despues.
+
+   LAS DIEZ REGLAS NO SE COPIAN. Se cuenta lo que sostienen con palabras
+   propias; REDACCION dice que aqui no se copia el texto de nadie.
+
+   La conclusion tiene el contraste que hace util el resumen: un ano antes, en
+   2003, el psicologo Richard Wiseman publico un trabajo con datos sobre gente
+   que se describe como afortunada y gente que no, y encontro diferencias de
+   conducta medibles. Este libro afirma lo mismo sin ningun dato y ademas niega
+   que exista el azar, que es falso.
+   -------------------------------------------------------------------------- */
+
+const BUENA_SUERTE: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dos hombres que empezaron igual acaban en bancos distintos del mismo parque",
+      },
+      {
+        b: "texto",
+        texto:
+          "Álex Rovira y Fernando Trías de Bes son dos economistas españoles, y publicaron en 2004 un libro de poco más de cien páginas que ha vendido más de tres millones de ejemplares y se ha traducido a decenas de idiomas. No es un ensayo: es un cuento, y su forma explica buena parte de lo que le pasó después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Empieza con dos ancianos que se encuentran por casualidad en un banco de un parque de Nueva York después de más de cincuenta años sin verse. Fueron amigos de niños, en el mismo barrio y con las mismas oportunidades. Uno ha tenido una vida próspera y tranquila; el otro está arruinado, amargado y convencido de que no tuvo suerte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El que ha ido bien le cuenta al otro una historia que le contó su abuelo, y esa historia ocupa el resto del libro. Va de un mago que anuncia que en siete días crecerá en el bosque encantado un trébol de cuatro hojas mágico, y que quien lo encuentre tendrá suerte ilimitada para siempre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre la distinción que sostiene el libro entero, qué hacen los caballeros que salen a buscar el trébol y qué hace el que lo encuentra, por qué la mayoría se rinde antes del séptimo día, qué tiene que ver todo eso con los demás, y qué se le puede reprochar a un libro escrito así.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro empieza con dos personas que salieron del mismo sitio y acabaron en extremos opuestos. Todo lo demás intenta explicar esa diferencia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La suerte le pasa a uno y la buena suerte la fabrica uno, y son dos cosas distintas",
+      },
+      {
+        b: "texto",
+        texto:
+          "La distinción sobre la que se construye el libro entero es de vocabulario y es lo único que hay que llevarse claro. Los autores llaman suerte a lo que ocurre sin que nadie lo haya provocado: un premio, una casualidad, un golpe afortunado. Y llaman buena suerte a otra cosa, que es el resultado de haber preparado el terreno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia práctica que señalan es la duración. Lo que llega por azar se va por azar, y quien recibe un golpe de fortuna sin haber hecho nada para merecerlo suele encontrarse al cabo de un tiempo donde estaba. Lo que llega porque alguien preparó las condiciones tiende a repetirse, porque las condiciones siguen ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro insiste además en que esperar la primera es la forma más común de no conseguir la segunda. Quien está pendiente de que le toque algo no está trabajando en las circunstancias que harían posible lo que quiere, y como la espera puede durar años, la vida entera se le puede ir en ella sin que ocurra nada reprochable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene marcar aquí el límite, porque el libro no lo marca en ningún sitio. El azar existe y decide muchísimo: dónde nace uno, qué salud tiene, en qué momento sale al mercado laboral, quién se cruza en su camino. Los autores hablan como si eso fuera casi despreciable, y no lo es.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que llega por casualidad se va por casualidad. Lo que llega porque preparaste las condiciones tiende a repetirse, porque las condiciones siguen.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los caballeros que salen a buscar el trébol lo buscan, y el que lo encuentra hace otra cosa",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el cuento, decenas de caballeros salen al bosque encantado a buscar el trébol. Recorren el terreno palmo a palmo, se adelantan unos a otros, discuten por las zonas mejores y se pasan los días mirando el suelo. Ninguno encuentra nada, porque el trébol todavía no ha crecido: el mago dijo que crecería en siete días.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de ellos se detiene y hace una pregunta distinta. En vez de preguntarse dónde está el trébol, se pregunta qué hace falta para que un trébol de cuatro hojas pueda crecer en ese suelo. Y en lugar de seguir buscando, se dedica a averiguarlo preguntando a los que viven en el bosque.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que le contestan son condiciones concretas. El suelo del bosque encantado está lleno de piedras y ninguna semilla arraiga entre ellas, así que hay que despejarlo. Y ese suelo lleva mucho tiempo seco, mientras que el trébol necesita tierra húmeda, así que hay que llevar agua desde muy lejos y regarlo durante días.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caballero se pasa la semana quitando piedras y acarreando agua, que es un trabajo agotador, sin ningún resultado visible y del que los demás se ríen porque él es el único que no está buscando. La noche del séptimo día el trébol crece, y crece exactamente en el trozo de terreno que él había preparado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todo el mundo pregunta dónde está lo que quiere. La pregunta que cambia algo es qué tendría que pasar para que eso pudiera existir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cuando algo no llega, casi siempre falta una condición que nadie ha mirado",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte más aplicable del cuento es la del agua, y por una razón que los autores subrayan. El caballero empieza quitando piedras y da por hecho que con eso basta, porque quitar piedras es lo evidente. Y no basta: el suelo sigue seco. Si se hubiera quedado ahí, habría trabajado una semana entera para nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro convierte eso en una regla que se puede usar sin creerse nada más. Cuando alguien ha hecho todo lo que se le ocurre y el resultado no llega, la conclusión razonable no es que haya mala suerte ni que haya que insistir más fuerte: es que falta una condición que no se ha identificado todavía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da el método para encontrarla, que en el cuento es literal. El caballero no lo deduce solo: va a preguntar a quienes conocen ese bosque. Los autores insisten en que las condiciones que faltan casi siempre las sabe alguien que ya ha hecho eso antes, y que preguntar es más rápido y mucho más barato que descubrirlo por ensayo y error.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El corolario incómodo es el que casi nadie aplica. Si algo lleva mucho tiempo sin salir a pesar del esfuerzo, seguir haciendo lo mismo con más intensidad es la respuesta más común y la peor. Lo que hay que hacer es parar y averiguar qué falta, aunque parar se sienta como perder tiempo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si llevas mucho esforzándote y no sale, no te falta empeño: te falta una condición que todavía no has identificado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Crear condiciones en las que también ganen otros es lo que hace que las cosas se sostengan",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una de las diez reglas del libro se sale del tono de las demás y es la que los autores más defienden. Dice que preparar el terreno no consiste solo en montar lo que a uno le conviene, sino en montar situaciones donde también salgan ganando los demás, y que eso no es generosidad sino la manera de que aquello dure.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento que dan es práctico. Un arreglo en el que solo gana una parte necesita vigilancia constante, porque el otro está esperando la ocasión de salirse; y en cuanto la encuentra, se acabó. Un arreglo en el que ganan los dos se sostiene solo, porque a nadie le interesa romperlo, y ahí no hace falta vigilar a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo aplican también a la manera de tratar a la gente alrededor. Quien ayuda cuando puede acumula personas dispuestas a devolvérselo, y eso no funciona como un intercambio contado sino como un entorno: alguien con veinte relaciones así vive en un sitio donde pasan más cosas buenas, y las llamará suerte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la parte del libro que menos se cita y la que mejor se sostiene sin ninguna metafísica. No hace falta creer en ninguna ley de atracción para ver que la persona a la que todo el mundo debe un favor se entera antes de las oportunidades, y que la que no le importa a nadie se entera la última o no se entera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un acuerdo donde solo ganas tú hay que vigilarlo todo el rato. Uno donde ganan los dos se sostiene sin que nadie lo vigile.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El primer paso hay que darlo hoy, porque preparar el terreno lleva más tiempo del que parece",
+      },
+      {
+        b: "texto",
+        texto:
+          "Otra de las reglas se ocupa del aplazamiento, y en el cuento está bien construida. El caballero tiene siete días y el trabajo de despejar y regar el terreno le ocupa los siete completos. Si hubiera empezado el tercero, por muy bien que hubiera trabajado, el trébol habría crecido en un suelo sin preparar del todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los autores lo aplican a la manera en que la gente organiza sus planes. Casi todo lo que merece la pena exige un plazo de preparación que se descubre tarde: aprender un idioma, tener una red de contactos, montar algo, ponerse en forma. Cuando llega la ocasión que lo necesitaba, ya no hay tiempo de conseguirlo, porque el tiempo era antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la única urgencia que defiende el libro y que no es la de correr. No hay que hacer las cosas deprisa: hay que empezarlas pronto, porque lo que decide no es la velocidad sino cuántos días llevan puestos. Es exactamente el argumento del interés compuesto aplicado a la preparación, y aquí sí funciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la última regla es la contraria, que es la que equilibra el libro. Una vez preparadas todas las condiciones, hay que esperar sin abandonar, porque el resultado no llega el día en que uno termina el trabajo. Los otros caballeros del cuento se van del bosque el sexto día, convencidos de que allí no había nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hace falta correr: hace falta empezar pronto. Lo que decide no es la velocidad, es cuántos días lleva puesto aquello.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro avisa contra los vendedores de suerte, que es lo más honesto que hace",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una regla que merece la pena destacar porque va contra el propio negocio del género en el que este libro se vende. Dice que nadie puede venderle suerte a nadie, que la buena suerte no está a la venta, y que hay que desconfiar de quien la ofrezca a cambio de dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En su época eso apuntaba a las loterías, a los adivinos y a los amuletos, y hoy apunta a bastantes más sitios: cursos que prometen resultados, sistemas de inversión con rentabilidad garantizada y formaciones para hacerse rico impartidas por gente cuya riqueza consiste en impartir esas formaciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento que dan es sencillo y se sostiene. Si algo produjera de verdad el resultado que promete, a quien lo tiene le saldría más a cuenta usarlo que venderlo. Y quien gana más vendiendo el método que aplicándolo está diciendo, sin querer, cuánto vale el método.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay que reconocerle que la regla se aplica a sí misma con bastante coherencia. El libro no vende ningún sistema, no ofrece cursos dentro, no promete resultados en un plazo y no pide nada más que leerlo. Es un cuento de cien páginas con diez reglas, y no intenta ser el primer escalón de nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si un método diera de verdad lo que promete, a quien lo tiene le saldría más a cuenta usarlo que venderlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son cuatro cosas y ninguna necesita el cuento. Preguntarse qué tendría que pasar para que algo fuera posible, en vez de dónde está. Cuando el esfuerzo no da resultado, buscar la condición que falta en vez de insistir más fuerte, y preguntársela a quien ya lo ha hecho. Montar acuerdos donde también ganen los otros. Y empezar pronto lo que necesita plazo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en que las diez reglas son en el fondo una sola dicha diez veces, y en que no hay detrás ni un dato, ni un caso real, ni una comprobación. Son dos consultores contando una fábula, y la fábula está construida para que la conclusión salga: el caballero que preparó el terreno encontró el trébol porque los autores decidieron que lo encontrara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y falla en algo más serio, que es negar el azar. El libro sostiene que la suerte que no se fabrica no cuenta, y eso deja fuera dónde nació cada uno, con qué salud, con qué familia y en qué momento salió a buscar trabajo. Leído por alguien a quien le ha ido mal por motivos que no eligió, la conclusión que queda es que no preparó bien el terreno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y conviene saber que un año antes, en 2003, el psicólogo británico Richard Wiseman publicó un trabajo con datos sobre esto mismo: siguió durante años a personas que se describían como afortunadas y a otras que se consideraban gafadas, y encontró diferencias medibles de conducta —más apertura a lo nuevo, redes de conocidos más amplias, más atención relajada—. Dice casi lo mismo que esta fábula, y lo midió.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No preguntes dónde está lo que quieres. Pregunta qué tendría que ocurrir para que existiera, y ponte a fabricar esa condición.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "buena-suerte": BUENA_SUERTE,
   "tiempo-entre-costuras": TIEMPO_ENTRE_COSTURAS,
   "juegos-hambre": JUEGOS_HAMBRE,
   "vendedor-mas-grande": VENDEDOR_MAS_GRANDE,
