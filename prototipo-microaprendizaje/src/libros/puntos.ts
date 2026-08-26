@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cinco-heridas": [
+    "por qué una defensa que aprendiste de niño sigue activándose sin peligro",
+    "en qué se diferencia sentirse de más de sentirse dejado atrás",
+    "qué estás comprando cuando te encargas de todo sin que te lo pidan",
+    "cuáles son las dos defensas que el mundo premia y nadie te señala",
+    "cómo distinguir una descripción que puedes comprobar de una que te asignan",
+  ],
+
   "actua-dama-piensa-hombre": [
     "las tres señales que se ven desde fuera y dicen si alguien ha decidido",
     "por qué un periodo de espera te da datos que la intimidad tapa",

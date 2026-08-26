@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cinco-heridas":
+    "Un niño al que se ignora cuando llora aprende a no llorar. Bourbeau sostiene que cinco heridas de la infancia dejan cinco máscaras puestas, y que la máscara no es un defecto: es una solución que funcionó.",
+
   "actua-dama-piensa-hombre":
     "Steve Harvey no es psicólogo: es un cómico que pasó diez años contestando llamadas de oyentes en la radio. Su credencial es haber sido el tipo de hombre del que avisa, y de ahí saca un manual corto para decidir antes.",
 

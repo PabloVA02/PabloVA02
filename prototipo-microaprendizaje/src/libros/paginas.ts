@@ -108208,7 +108208,293 @@ const ACTUA_DAMA_PIENSA_HOMBRE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Las cinco heridas que impiden ser uno mismo, de Lise Bourbeau (2000),
+   en ocho páginas.
+
+   Libro práctico, registro de tú.
+
+   La sexta página es la parte del libro que no se sostiene —la que dice que
+   cada herida se le nota a uno en la forma del cuerpo— y va DENTRO y no
+   escondida en la conclusión, porque es justo la parte que más se repite por
+   ahí y la que más daño hace.
+   -------------------------------------------------------------------------- */
+
+const CINCO_HERIDAS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Bourbeau sostiene que casi todo lo que te molesta de tu vida sale de cinco heridas de la infancia",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tesis de este libro es que hay cinco heridas posibles y solo cinco: rechazo, abandono, humillación, traición e injusticia. Todas se abren antes de los siete años, todas dejan una máscara puesta, y esa máscara es la que explica por qué una persona se aparta, se agarra, se sacrifica, controla o exige perfección.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lise Bourbeau es canadiense, de Quebec, y no viene de la universidad. En 1982 fundó una escuela llamada Escucha tu cuerpo, y este libro, publicado en 2000, es el que la sacó de su país: se ha traducido a decenas de idiomas y en español es uno de los títulos de psicología divulgativa más vendidos de los últimos veinticinco años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que lo hizo popular es la promesa de orden. Cinco categorías, cinco máscaras, cinco maneras de hablar y de reaccionar, y un método para reconocerse en una de ellas en diez minutos. Es un sistema cerrado, y eso es a la vez su gran virtud y su gran problema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y conviene fijar el orden en que las pone, porque el libro lo repite mucho: rechazo primero, luego abandono, después humillación, y por último traición e injusticia. Bourbeau asigna a cada una una franja de edad exacta —la primera en el año de vida, la última hacia los seis— y ese detalle, la precisión, es lo primero que hay que mirar con cuidado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue son las cinco heridas, la idea buena que las sostiene, la parte del libro que no se aguanta de pie —la que dice que la herida se le nota a uno en la forma del cuerpo— y qué queda cuando se le quita esa parte.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una manera de defenderte que aprendiste de niño sigue funcionando hoy, aunque el peligro del que te defendía ya no exista.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La máscara no es un defecto: es una solución que funcionó una vez" },
+      {
+        b: "texto",
+        texto:
+          "La idea que sostiene el libro entero, y la mejor que tiene, es que ninguna de esas cinco maneras de comportarse es un fallo de carácter. Todas fueron, en su momento, la respuesta razonable de un niño a una situación que no podía cambiar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bourbeau lo dice con un ejemplo que se entiende sin explicar nada: un niño al que se ignora cuando llora aprende a no llorar. No es que sea frío. Es que probó a llorar, no funcionó, y dejó de gastar energía en algo que no daba resultado. Treinta años después sigue sin llorar, y ya no hay nadie ignorándole.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su definición de máscara: una estrategia que resolvió un problema real y se quedó puesta después de que el problema desapareciera. Por eso quitarla no consiste en decidirlo. La máscara sigue ahí porque tu cabeza la sigue considerando la opción segura, y solo la suelta cuando comprueba que ya no hace falta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la consecuencia práctica del libro, que es la única instrucción sensata que da: cuando una reacción tuya te parezca desproporcionada, la pregunta no es qué te pasa. Es a qué edad esa reacción era la respuesta correcta. Casi siempre hay una.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esta parte no es original de Bourbeau y ella no lo dice, pero conviene saberlo: coincide con lo que en psicología clínica se llama esquema, un patrón aprendido pronto que sigue activándose fuera de contexto. Es la idea del libro que tiene respaldo de verdad, y es también la única que sirve sin comprarse el resto del sistema.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que haces para protegerte no lo eliges hoy: lo elegiste hace treinta años y no has vuelto a revisarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las dos primeras heridas son opuestas y se confunden constantemente" },
+      {
+        b: "texto",
+        texto:
+          "El rechazo y el abandono se parecen y no son lo mismo, y el libro dedica su mejor capítulo a separarlos. La diferencia es de qué se sintió negado: en el rechazo, la existencia; en el abandono, la presencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El rechazo, según Bourbeau, es la más temprana: la sensación de no ser querido tal como se es, de sobrar. La máscara que produce es la del huidizo, y su estrategia es desaparecer antes de que le echen. Se va de las conversaciones, de los trabajos y de las relaciones en cuanto intuye que va a ser rechazado, así que se rechaza a sí mismo primero. Su frase típica no es un reproche: es «da igual, no importa».",
+      },
+      {
+        b: "texto",
+        texto:
+          "El abandono es lo contrario. Aquí no falta el sitio, falta la compañía: alguien estaba y dejó de estar. La máscara es la del dependiente, y su estrategia es asegurarse de que nadie se vaya, lo que en la práctica significa pedir constantemente confirmación, no soportar el silencio y aceptar mucho menos de lo que se quiere con tal de no quedarse solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle útil es que las dos producen el mismo resultado por caminos opuestos: el huidizo se va antes de que le dejen y el dependiente se queda más de la cuenta, y los dos acaban solos. Reconocer cuál de las dos cosas haces es más útil que ponerle nombre a la herida, porque la conducta se puede observar y la herida no.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Irte antes de que te dejen y quedarte más de la cuenta son la misma estrategia: no soportar la incertidumbre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La humillación es la única de las cinco que se dirige contra el cuerpo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera herida es la que Bourbeau describe con más detalle y la que peor se lleva la gente. Se abre, según ella, cuando un niño siente vergüenza por algo físico o por algo íntimo: comer, ensuciarse, el cuerpo, un gusto que en casa se comentó con burla o con asco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La máscara que produce la llama masoquista, y aquí conviene traducir el término, porque no significa lo que parece. No va de dolor: va de un patrón concreto en el que la persona se ocupa de todos, se hace imprescindible y se coloca sistemáticamente en el sitio donde le toca cargar. No pide nada porque pedir la avergüenza más de lo que le pesa cargar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bourbeau apunta un mecanismo que sí se reconoce fácilmente: quien lleva esta máscara se adelanta a la vergüenza haciéndose útil. Si soy imprescindible, nadie me mira mal. El coste es que su lista de obligaciones no la ha decidido nadie más que él, y que cuando por fin se queja, quienes le rodean no entienden de qué se queja: nunca les pidió nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bourbeau señala además un detalle de lenguaje fácil de comprobar en uno mismo: quien lleva esta máscara dice que sí antes de haber calculado si puede, y después organiza su semana entera alrededor de ese sí. El problema no está en el favor, está en los tres segundos anteriores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí el libro dice algo que sí conviene retener: la persona que carga con todo no está siendo generosa, está negociando. Cambia servicio por permiso para estar. Verlo así no es un reproche; es lo que permite empezar a pedir cosas, que es lo único que deshace el trato.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hacerte imprescindible no es generosidad: es pagar por adelantado el permiso para estar ahí.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las dos últimas heridas producen las máscaras que mejor funcionan por fuera",
+      },
+      {
+        b: "texto",
+        texto:
+          "La traición y la injusticia se abren más tarde —Bourbeau las sitúa entre los tres y los seis años, cuando el niño ya entiende lo que le prometen— y producen las dos máscaras que en el mundo adulto pasan por virtudes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La traición viene de una promesa incumplida por alguien de quien uno dependía, y su máscara es la del controlador. Su estrategia es no volver a quedar en manos de nadie, y se manifiesta en cosas que se aplauden: se organiza, se adelanta, comprueba, no delega. Por dentro es una persona que ha decidido que confiar sale caro, así que sustituye la confianza por vigilancia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La injusticia viene de haber crecido bajo una norma fría, exigente y sin explicaciones, y su máscara es la del rígido. Su estrategia es no darle a nadie motivo de queja: hace las cosas bien, cumple, se controla, y le cuesta enormemente reconocer un error o mostrarse cansado. Bourbeau observa que suele hablar en términos de correcto e incorrecto, no de lo que quiere.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace interesantes a estas dos es lo que tienen en común: las dos se recompensan. Un controlador y un rígido rinden, ascienden y son de fiar, así que nada en su entorno les avisa de que están pagando un precio. Es la razón por la que estas dos máscaras duran más años que las otras tres.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La defensa más difícil de soltar es la que te está saliendo bien: nadie te va a avisar de que la lleves puesta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La parte que dice que la herida se te nota en el cuerpo no se sostiene",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay que decirlo aquí y no al final, porque es la parte del libro que más circula y la que más daño hace. Bourbeau sostiene que cada máscara moldea el cuerpo de una manera reconocible: el huidizo delgado y como encogido, el dependiente de tono flácido y hombros caídos, el masoquista rellenito, el controlador de pecho ancho y mirada firme, el rígido de cuerpo recto y proporcionado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso tiene un nombre y tiene doscientos años: fisiognomía, la idea de que el carácter se lee en la forma de la cara y del cuerpo. La popularizó el pastor suizo Johann Kaspar Lavater a finales del siglo XVIII, se usó durante el siglo XIX para clasificar delincuentes y quedó descartada por la investigación del siglo XX, que no ha encontrado ninguna relación fiable entre morfología y personalidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema no es solo que sea falso. Es lo que hace cuando alguien se lo cree: convierte un cuerpo en un diagnóstico, y lo hace en la dirección de siempre —el cuerpo delgado significa una cosa y el grueso otra, y la otra es peor—. Un libro que empieza diciendo que la máscara no es un defecto acaba proponiendo que se le adivine a la gente por el aspecto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se puede leer el libro sin esta parte y no se pierde nada. Las descripciones de conducta son observables y discutibles, que es lo que hace útil una tipología; las de morfología no son ninguna de las dos cosas. Si te reconoces en el huidizo, es por lo que haces cuando alguien te critica, no por lo que pesas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una descripción que puedes comprobar en tu conducta sirve; una que te asignan mirándote, no.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que Bourbeau propone para curarlas es más flojo que su diagnóstico",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica su última parte al remedio, y ahí baja mucho el nivel. La propuesta tiene tres pasos: reconocer la herida, aceptarla sin pelearse con ella y perdonar a quien la abrió, que casi siempre es el padre o la madre del mismo sexo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los dos primeros pasos son razonables y coinciden con lo que hace la terapia cuando funciona: nombrar el patrón y dejar de tratarlo como un defecto moral. Bourbeau insiste, con razón, en que pelearse con la máscara la refuerza, porque la lucha misma es una forma de vigilancia y la vigilancia es la máscara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercero es donde el libro se queda corto. El perdón se presenta como un acto de voluntad que se decide y se hace, con una fórmula de conversación incluida, y eso no se corresponde con lo que se sabe: perdonar no es un interruptor, y en algunos casos —maltrato, abuso— proponerlo como tarea es pedirle a alguien que arregle sola algo que le hicieron. El libro no distingue esos casos de los demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falta además lo más importante en un libro que trata de patrones antiguos: la práctica. Reconocer un patrón no lo cambia; lo que lo cambia es comprobar, en situaciones pequeñas y repetidas, que la defensa ya no hace falta. Eso lleva meses y no cabe en una fórmula, y por eso los libros que lo prometen en tres pasos venden más.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Reconocer un patrón no lo cambia. Lo cambia comprobar, una vez tras otra, que ya no lo necesitas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que hay cinco heridas de infancia —rechazo, abandono, humillación, traición e injusticia—, que cada una produce una máscara reconocible, y que casi todo lo que le molesta a alguien de su vida adulta se explica por cuál lleva puesta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es vocabulario y una idea buena. La idea es que la máscara fue una solución que funcionó y se quedó puesta, lo que cambia la pregunta de «qué me pasa» a «de qué me estaba protegiendo esto», que es una pregunta mucho más manejable. Y las cinco descripciones de conducta están bien observadas: mucha gente se reconoce en una a los dos párrafos, y eso no es poco cuando el problema es no tener palabras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. En tres cosas. La tipología no está validada: no hay estudio, ni cuestionario, ni una sola medición detrás de las cinco categorías ni de las edades exactas que se les asignan. Es un sistema cerrado que describe a todo el mundo, y una descripción en la que nadie puede dejar de reconocerse no está describiendo a nadie; es el mismo efecto por el que funciona un horóscopo. Y la parte de la morfología es fisiognomía del siglo XVIII, descartada hace un siglo, que convierte el cuerpo de una persona en un diagnóstico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después. El libro no ha envejecido: ha crecido. Las cinco heridas son hoy uno de los materiales más repetidos en redes, con tests, vídeos y cursos que casi siempre se quedan justo con la parte peor, la de adivinar la herida por el aspecto. Bourbeau publicó continuaciones y su escuela sigue funcionando en varios países. Mientras tanto, la parte del libro que sí tiene respaldo —que un patrón aprendido pronto se sigue disparando fuera de contexto— se ha desarrollado en otro sitio: en la terapia de esquemas, que es donde ese mismo mecanismo tiene medida, instrumento y resultados.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cinco-heridas": CINCO_HERIDAS,
   "actua-dama-piensa-hombre": ACTUA_DAMA_PIENSA_HOMBRE,
   "en-la-sombra": EN_LA_SOMBRA,
   "enamorate-de-ti": ENAMORATE_DE_TI,

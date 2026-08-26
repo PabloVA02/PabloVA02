@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "cinco-heridas": "Rechazo, abandono, humillación, traición, injusticia",
   "actua-dama-piensa-hombre": "Lo que los hombres piensan de verdad sobre el amor, las relaciones, la intimidad y el compromiso",
   "en-la-sombra": "Memorias",
   "enamorate-de-ti": "El valor imprescindible de la autoestima",
