@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "el-guion": [
+    "por qué una escena en la que nadie termina distinto no es una escena",
+    "que el carácter se revela eligiendo bajo presión y no describiéndolo",
+    "cómo resumir una historia en una frase con un valor y una causa",
+    "que el interés de un protagonista lo decide lo que se le opone",
+    "convertir la información necesaria en munición para una discusión",
+  ],
+
   "cerebro-adolescente": [
     "por qué el sistema de recompensa está listo años antes que el freno",
     "que la misma facilidad para aprender vale para engancharse",

@@ -101537,7 +101537,305 @@ const CEREBRO_ADOLESCENTE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El guion, de Robert McKee (1997), en ocho páginas.
+
+   Manual práctico, registro de tú: apartado 4.7.
+
+   La séptima página lleva la crítica más aguda que ha recibido este libro,
+   que no la escribió un crítico sino un guionista: Adaptation, de 2002,
+   donde McKee aparece como personaje. Y la conclusión pone lo que el libro
+   no vio venir, que fue la serie de televisión.
+   -------------------------------------------------------------------------- */
+
+const EL_GUION: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "McKee sostiene que una historia no es lo que pasa, sino cómo cambia el valor de la vida de alguien",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se puede escribir un guion en el que ocurren mil cosas —persecuciones, revelaciones, muertes— y que no cuente ninguna historia. Y se puede contar una historia entera en una conversación de diez minutos en una cocina. McKee sostiene que la diferencia no está en lo que ocurre, sino en si algo cambia de signo para alguien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robert McKee lleva desde 1983 impartiendo un curso de guion de cuatro días que se ha dado en decenas de países y por el que han pasado miles de guionistas, novelistas y directores. Este libro, publicado en 1997, es la versión escrita de aquel seminario, y sigue siendo el manual más usado del oficio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación de partida es que la narración tiene principios, del mismo modo que la música los tiene, y que esos principios no son reglas ni fórmulas: describen cómo funciona la atención de un espectador. Quien los ignora no está siendo original, dice, está trabajando a ciegas y descubriendo por accidente lo que ya se sabía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que enseña y lo que se le reprocha: por qué una escena que no cambia nada no es una escena, qué revela de verdad a un personaje, cómo se resume una historia en una frase, por qué el villano decide el tamaño del héroe, qué hacer con la información necesaria y qué no vio venir el libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que ocurran muchas cosas no es una historia. La pregunta es si al terminar la escena algo ha cambiado de signo para alguien.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una escena en la que nadie termina distinto de como empezó no es una escena",
+      },
+      {
+        b: "texto",
+        texto:
+          "La definición más útil del libro es la de escena, y es exigente. Una escena es una acción, sostenida a través de un conflicto, que hace girar el valor de la situación de un personaje: lo que estaba bien pasa a estar mal, o al revés. Si al terminar todo sigue igual, eso no era una escena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El criterio se puede aplicar sobre cualquier texto propio y es despiadado. Se coge cada escena y se pregunta qué estaba en juego al empezar y en qué situación queda al acabar. Si la respuesta es la misma en las dos, esa escena no está contando: está informando, y la información se puede colocar en otro sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "McKee llama giro a ese cambio, y sostiene que se produce siempre por lo mismo: alguien actúa esperando una respuesta del mundo y el mundo responde de otra manera, casi siempre más fuerte de lo previsto. En ese hueco entre lo que el personaje esperaba y lo que recibe es donde vive la historia entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la consecuencia que más manuscritos arregla. Si una escena no funciona, el problema rara vez está en el diálogo: está en que nadie quiere nada con suficiente fuerza, o en que consigue exactamente lo que esperaba. Pulir las frases de una escena sin giro es maquillar algo que no tiene pulso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si una escena tuya no funciona, no toques el diálogo. Mira si alguien quiere algo de verdad y si obtiene algo distinto de lo que esperaba.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un personaje no es lo que se dice de él, sino lo que elige cuando le cuesta",
+      },
+      {
+        b: "texto",
+        texto:
+          "McKee separa dos cosas que la mayoría de los guiones confunden. Una es la caracterización: la edad, el oficio, la manera de vestir, el acento, las manías, todo lo observable. La otra es el carácter verdadero, que no se puede describir y que solo aparece cuando el personaje tiene que elegir bajo presión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su formulación es tajante: el carácter se revela en las decisiones que alguien toma bajo presión, y cuanto mayor es la presión, más profunda es la revelación. Un personaje que elige entre algo bueno y algo malo no revela nada, porque cualquiera elegiría igual; la elección que revela es la que se hace entre dos cosas irreconciliables que ambas importan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la mejor herramienta de todo el libro para construir a alguien. En lugar de escribir una ficha con su biografía, hay que diseñar la peor decisión posible para esa persona concreta: aquella en la que gane lo que gane pierde algo que le importa de verdad. Esa decisión define al personaje mejor que veinte páginas de historial.",
+      },
+      {
+        b: "texto",
+        texto:
+          "McKee añade que el interés dramático nace de la distancia entre las dos capas. Un personaje cuya conducta bajo presión coincide exactamente con lo que aparentaba resulta plano; uno que hace algo que nadie esperaba y que sin embargo, al verlo, resulta inevitable, es lo que los espectadores recuerdan durante años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Para saber quién es alguien, diseña la decisión en la que gane lo que gane pierda algo que le importa. Lo que elija ahí es el personaje.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Toda historia terminada se puede resumir en una frase con un valor y una causa",
+      },
+      {
+        b: "texto",
+        texto:
+          "McKee llama idea rectora a la afirmación que una historia demuestra, y exige que quepa en una sola frase con dos partes: qué valor queda al final y por culpa de qué. No es el tema ni el asunto, que son etiquetas; es una afirmación con causa, y por eso se puede discutir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia se ve con un ejemplo. Decir que una película trata de la justicia no dice nada, porque cientos de películas tratan de eso. Decir que la justicia triunfa porque el protagonista es más violento que los criminales sí dice algo, y además señala qué escenas hacen falta para demostrarlo y cuáles sobran.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El uso práctico es de descarte. Una vez escrita esa frase, cada escena tiene que aportar a la demostración o quitarle; las que no hacen ninguna de las dos cosas están ahí porque gustaron al escribirlas. Es un criterio para cortar que no depende del gusto de nadie y que funciona incluso con las escenas propias que más duelen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "McKee avisa además contra escribirla al principio. La idea rectora se descubre normalmente a mitad del trabajo, cuando ya se ve hacia dónde tira el material, y quien decide de antemano qué quiere demostrar acaba escribiendo un sermón con personajes de adorno, que es un problema distinto y peor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un beneficio de tener esa frase escrita que no es artístico sino práctico: es lo que se contesta cuando alguien pregunta de qué va. Un autor que necesita cinco minutos para explicar su propia historia no tiene un problema de resumen, tiene un problema de historia, y esa incapacidad es un diagnóstico bastante fiable.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribe en una frase qué demuestra tu historia y por culpa de qué. Después, cada escena que no aporte ni quite a esa frase está de más.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un protagonista no puede ser más interesante de lo que sea aquello que se le opone",
+      },
+      {
+        b: "texto",
+        texto:
+          "El principio que McKee llama del antagonismo es el que más manuscritos salva y el que más se incumple. Dice que un protagonista y su historia solo pueden ser tan absorbentes como lo sean las fuerzas que se le oponen, y que por tanto lo primero que hay que construir no es al héroe, sino el obstáculo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El razonamiento es de aritmética narrativa. Si lo que se opone al protagonista es débil, cualquier solución sirve, y entonces nada de lo que haga tiene mérito ni interés. Si lo que se opone es fuerte, coherente y tiene razones propias, cada avance cuesta y el espectador se queda a ver cómo se resuelve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "McKee insiste en que el antagonista no tiene por qué ser una persona, ni mucho menos un villano. Puede ser una institución, una enfermedad, una época, una carencia del propio protagonista o simplemente el tiempo. Lo que hace falta es que sea concreto, que actúe y que tenga capacidad real de ganar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade un criterio de comprobación que se aplica en cinco minutos: escribir el argumento desde el punto de vista del antagonista, como si fuera él quien protagoniza. Si esa versión resulta ridícula o no se sostiene, es que el obstáculo no está construido, y entonces la historia no puede funcionar por muy bueno que sea el protagonista.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribe tu historia contada por quien se opone al protagonista. Si esa versión no se sostiene, el problema no está en tu héroe.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La información que el espectador necesita no se cuenta: se convierte en munición",
+      },
+      {
+        b: "texto",
+        texto:
+          "Toda historia necesita que el espectador sepa cosas: quién es quién, qué pasó antes, cómo funciona ese mundo. El problema es que explicarlo detiene la acción, y la solución habitual —dos personajes contándose cosas que ya saben— es el defecto más reconocible de un guion de principiante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "McKee sostiene que la fórmula de mostrar en lugar de contar se queda corta, porque no dice qué hacer con lo que sí hay que contar. Su regla es más precisa: la información se dramatiza convirtiéndola en munición, es decir, poniéndola en boca de alguien que la usa contra otro en medio de un conflicto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia se ve enseguida. Que un personaje explique que su hermano lleva diez años sin hablarle es exposición muerta. Que se lo eche en cara a su madre en mitad de una discusión por otra cosa es la misma información entregada mientras algo está ocurriendo, y el espectador la recibe sin darse cuenta de que se la están dando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade además una regla de dosificación que se cumple poco: la información se entrega en el momento en que el espectador la necesita, y ni un minuto antes. Contar el pasado de alguien antes de que a nadie le importe ese personaje es la manera más eficaz de que no se retenga nada de lo contado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "McKee señala además el caso opuesto, que también es un fallo. Hay guiones que ocultan información al espectador solo para dar una sorpresa al final, y eso no crea tensión, crea confusión: la tensión nace de saber algo que el personaje no sabe, no de estar tan perdido como él durante hora y media.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que el espectador tiene que saber, dilo mientras alguien se lo echa en cara a otro. Contado en calma es información; contado en pelea es escena.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La crítica más aguda a este libro la escribió un guionista y la convirtió en película",
+      },
+      {
+        b: "texto",
+        texto:
+          "McKee repite que enseña principios y no fórmulas, y esa distinción es la que decide si el libro ayuda o estorba. El problema es que el peso entero del volumen está puesto en un solo modelo, el del cine clásico de tres actos, y que la industria lo ha usado durante décadas como una lista de comprobación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La respuesta más brillante llegó en 2002 y no fue un ensayo. El guionista Charlie Kaufman escribió una película sobre un guionista bloqueado, incapaz de escribir una historia convencional, que acaba asistiendo al seminario de McKee. El propio McKee aparece como personaje, interpretado por un actor, dando sus consejos a gritos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y entonces la película hace algo devastador: a partir de ese momento se convierte exactamente en lo que McKee recomienda. Aparecen persecuciones, drogas, una muerte y una revelación, todo encadenado según el manual, y el conjunto funciona a la perfección y resulta absurdo a la vez. Es una crítica y un homenaje en el mismo gesto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aquella broma señala es real y conviene tenerlo presente al leer el libro. Los principios que describe funcionan porque describen cómo se sostiene la atención, y precisamente por eso pueden fabricar historias impecables y completamente vacías. El manual explica cómo se construye una máquina; no puede decir si merecía la pena construirla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene añadir que el propio McKee acepta buena parte del reproche. Dedica un capítulo entero a explicar que existen otras formas de contar —las que dejan finales abiertos, las que renuncian a la causalidad, las que no tienen un protagonista— y que ninguna es peor. Lo que ocurre es que a esas les dedica un capítulo y a la clásica el libro entero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un método que garantiza que algo funcione puede producir cosas impecables y vacías. Saber cómo se construye no dice si valía la pena construirlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que una escena sin giro no es una escena, que el carácter se revela eligiendo bajo presión, que toda historia terminada cabe en una frase con valor y causa, y que un protagonista vale lo que valga lo que se le opone. Las cuatro cosas se pueden aplicar sobre un texto propio esta misma tarde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a los demás manuales es que sus herramientas son criterios y no plantillas. No dice en qué página tiene que pasar cada cosa: da preguntas que se le hacen a un texto y que devuelven una respuesta incómoda y accionable, que es exactamente lo que necesita alguien que tiene un borrador y no sabe por qué no funciona.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Coge tu texto y pregunta escena por escena qué cambia de signo. Las que no contesten esa pregunta son las que hay que quitar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Presenta como principios de la narración lo que es la forma del cine clásico de Hollywood, y sus ejemplos son casi todos películas estadounidenses de un periodo estrecho, con dos o tres títulos repetidos hasta la saciedad. Su defensa de que enseña principios y no reglas es sincera y no ha impedido que el libro funcione como un examen: durante treinta años, muchos guiones han sido rechazados por no cumplir lo que aquí se describe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después señala sus dos puntos ciegos. El primero fue la televisión: a partir de 1999 la serie de larga duración se convirtió en la forma dominante del relato audiovisual, y su estructura —arcos de temporada, protagonistas que no cambian, tramas que no se cierran— no es la que este libro describe, que apenas se ocupa de ella. El segundo fue el descenso hacia la fórmula: en 2005 apareció otro manual que asignaba a cada momento del guion un número de página exacto, y ese, y no este, es el que acabó rigiendo buena parte del cine comercial.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "el-guion": EL_GUION,
   "cerebro-adolescente": CEREBRO_ADOLESCENTE,
   "intestino-feliz": INTESTINO_FELIZ,
   "mil-soles": MIL_SOLES,

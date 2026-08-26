@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "el-guion":
+    "McKee lleva desde 1983 dando un seminario de guion por el que han pasado miles de escritores. Su tesis es que contar historias tiene principios comprobables, y que ignorarlos no es ser original sino trabajar a ciegas.",
+
   "cerebro-adolescente":
     "En la pubertad, la melatonina empieza a segregarse dos horas más tarde, y la zona del cerebro que frena impulsos es la última en terminarse. Una neuróloga explica qué está pasando dentro de esas cabezas.",
 
