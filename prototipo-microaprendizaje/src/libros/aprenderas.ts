@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "espia-traidor":
+    "En 1985, el oficial que iba a dirigir la KGB en Londres llevaba once años trabajando para el servicio secreto británico. Lo sacaron de la Unión Soviética con un plan que llevaba siete años ensayándose.",
+
   "jekyll-hyde":
     "Un abogado investiga por qué su amigo el doctor Jekyll ha dejado toda su herencia a un desconocido siniestro. La novela es una investigación cuya solución conoce hoy todo el mundo antes de abrirla.",
 

@@ -99477,7 +99477,307 @@ const JEKYLL_HYDE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Espía y traidor, de Ben Macintyre (2018), en ocho páginas.
+
+   Ensayo histórico: TERCERA PERSONA y titular que afirma, apartado 3 bis.
+
+   La séptima página cuenta lo que el libro trata de pasada y hay que
+   decir: que su mujer y sus hijas se quedaron seis años en la Unión
+   Soviética sin saber nada, y que las fuentes de este relato son
+   básicamente una.
+   -------------------------------------------------------------------------- */
+
+const ESPIA_TRAIDOR: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El mejor agente que tuvo Occidente en la KGB llegó a dirigir la KGB en Londres",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1985, el hombre que iba a hacerse cargo de la delegación de la KGB en Londres llevaba once años trabajando para el servicio secreto británico. No era un informador ocasional ni un funcionario resentido: era un coronel de carrera al que su propio servicio estaba a punto de ascender al puesto más alto que la KGB tenía en el Reino Unido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se llamaba Oleg Gordievski, había nacido en Moscú en 1938 y era hijo de un oficial de la policía política de Stalin. Su hermano mayor también sirvió en la KGB. Creció dentro del aparato, se formó en él y entró en el servicio exterior por el camino previsto para los hijos de la casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ben Macintyre, periodista británico especializado en historias de inteligencia, contó todo esto en 2018 con acceso directo al propio Gordievski, que llevaba desde 1985 viviendo en Inglaterra bajo protección. El libro reconstruye once años de trabajo doble y las veinte horas de la fuga que lo sacó de la Unión Soviética.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que de verdad importa de aquel caso: qué le hizo cambiar de bando, cómo se prepara un plan de fuga que se ensaya durante siete años sin usarse, qué información entregó y por qué cambió la política de dos gobiernos, quién lo delató, cómo salió y qué costó todo aquello.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El servicio secreto británico no infiltró a nadie en la KGB. Consiguió algo más difícil: que un oficial de la KGB los eligiera a ellos y luego ascendiera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No lo compraron ni lo chantajearon: se ofreció él, y por un motivo que se puede fechar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los servicios de inteligencia clasifican los motivos por los que alguien traiciona a su país en cuatro: dinero, ideología, coacción y ego. En este caso el motivo fue el segundo, y tiene fecha exacta. En agosto de 1968, los tanques del Pacto de Varsovia entraron en Praga para acabar con las reformas del gobierno checoslovaco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gordievski estaba destinado en Copenhague, donde llevaba dos años viviendo en un país que funcionaba sin miedo. Al enterarse de la invasión llamó por teléfono a su mujer y le dijo lo que pensaba de aquello, sabiendo perfectamente que la línea estaba intervenida por su propio servicio. Fue una manera deliberada de dejar constancia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Antes de eso había estado en Berlín en 1961 y había visto levantar el muro, y aquello lo había marcado por un motivo que él explica bien: un sistema que necesita encerrar a su propia población para que no se marche ha perdido cualquier discusión sobre si es mejor que el otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El servicio de inteligencia danés detectó aquel malestar y lo puso en conocimiento de los británicos, que tardaron años en acercarse. El reclutamiento fue lento y muy prudente, porque un oficial de la KGB descontento es también el cebo perfecto de una trampa, y nadie podía descartar que lo fuera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Macintyre subraya además un detalle que explica por qué aguantó once años. Gordievski no cobró nunca cantidades importantes: aceptó unos honorarios modestos que se le ingresaban en una cuenta en Londres, y rechazó cualquier propuesta que pudiera cambiarle el nivel de vida, precisamente porque un gasto inexplicable es lo que delata a un agente doble.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un sistema que tiene que encerrar a su población para que no se vaya ya ha perdido la discusión sobre si es mejor que el otro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El plan para sacarlo del país se ensayó durante siete años sin usarlo nunca",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo más asombroso del caso no es la fuga, sino que existiera un plan para ella preparado con siete años de antelación. Se diseñó a finales de los años setenta, cuando Gordievski volvió a Moscú y quedó fuera del alcance de sus enlaces, y se mantuvo activo durante todo ese tiempo sin que nadie lo activara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El sistema de aviso era doméstico y por eso funcionaba. Si necesitaba salir, Gordievski debía plantarse a las siete y media de la tarde de un martes en la acera de una panadería concreta de una avenida de Moscú, llevando una bolsa de plástico de un supermercado británico y con la ropa de un color acordado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La respuesta era todavía más pequeña. Un empleado de la embajada británica pasaría por delante a esa hora comiéndose una chocolatina de una marca determinada. Sin mirarle, sin decir nada, sin detenerse. Ese gesto significaba que el aviso se había recibido y que el operativo estaba en marcha.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante siete años, el personal de la embajada tuvo que pasar por aquella acera a esa hora, semana tras semana, por si acaso. Y hubo que ensayar la ruta, comprar los coches adecuados y mantener a gente entrenada para una operación que probablemente no ocurriría nunca. Casi todo el trabajo de inteligencia consiste en eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Había además una segunda señal, para el caso contrario. Si el operativo detectaba que su tapadera se había roto y tenía que avisarle a él, se recurría a otro objeto colocado en un lugar acordado. Todo el sistema estaba diseñado para funcionar sin que las dos partes se vieran, se hablaran ni dejaran nada por escrito.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un plan que se ensaya siete años sin usarse parece una pérdida de tiempo hasta el día que hace falta. Ese día no da tiempo a improvisarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo más valioso que entregó no fueron secretos, sino lo que el otro bando creía que iba a pasar",
+      },
+      {
+        b: "texto",
+        texto:
+          "La información que hizo históricamente importante a Gordievski no era una lista de agentes ni un plano de un arma. Era algo más raro: la certeza documentada de que la dirección soviética creía sinceramente que Estados Unidos preparaba un ataque nuclear por sorpresa, y actuaba en consecuencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A comienzos de los años ochenta, la KGB tenía en marcha una operación mundial para detectar los indicios de ese ataque, y las residencias en el extranjero recibían instrucciones de vigilar señales tan absurdas como que se encendieran de noche las luces de ciertos edificios oficiales o que aumentaran las compras de sangre en los hospitales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En noviembre de 1983, la OTAN realizó un ejercicio de mando que simulaba una escalada hasta el uso de armas nucleares, con procedimientos de comunicación nuevos y realistas. Los servicios soviéticos lo interpretaron como posible tapadera de un ataque real, y unidades soviéticas en Europa del Este entraron en alerta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gordievski avisó de aquello, y sus informes llegaron a la primera ministra británica y de ahí a la Casa Blanca. El efecto es de los pocos casos en que se puede rastrear una decisión política hasta una fuente concreta: el presidente estadounidense, al que aquello sorprendió sinceramente, moderó su discurso a partir de 1984 y buscó canales de contacto directo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un detalle de aquella operación de vigilancia que resume su absurdo. Entre los indicadores que las residencias debían contar figuraba el número de luces encendidas por la noche en los ministerios británicos, y algunos oficiales de la KGB llegaron a inventarse las cifras porque el informe había que enviarlo igual y nadie iba a comprobarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Saber lo que el otro cree que estás haciendo puede ser más importante que saber lo que hace. En 1983, esa diferencia estuvo cerca de costar mucho.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo delató un funcionario de la CIA que vendía nombres por dinero" },
+      {
+        b: "texto",
+        texto:
+          "En abril de 1985, un oficial de la agencia de inteligencia estadounidense llamado Aldrich Ames entró en la embajada soviética en Washington y ofreció información a cambio de dinero. Tenía deudas, un divorcio caro y una segunda mujer con gustos costosos, y empezó entregando nombres de personas que trabajaban para Occidente dentro del bloque soviético.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquella lista costó la vida a varias de esas personas. Ames siguió cobrando durante nueve años, llegó a recibir más de dos millones de dólares y no fue detenido hasta 1994, cuando por fin se investigó por qué un funcionario con su sueldo conducía un coche de lujo y había pagado una casa al contado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gordievski estaba en aquella lista. En mayo de 1985 lo llamaron a Moscú con una excusa de trámite, y fue sabiendo que podía ser una trampa. En una casa de campo de la KGB le sirvieron una bebida con una sustancia que reduce la resistencia al interrogatorio y lo interrogaron durante horas dos oficiales que le acusaban directamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No confesó. Y ahí está la parte del caso que resulta difícil de creer: no lo detuvieron. Lo dejaron en libertad, apartado del servicio, vigilado y con el pasaporte retenido, probablemente porque sin confesión y sin prueba documental no querían detener a un coronel con contactos. Esa indecisión burocrática le dio dos meses.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso de Ames dejó además una lección de contraespionaje que se sigue enseñando. Durante años se buscó la fuga en fallos técnicos y en códigos comprometidos, y la respuesta estaba en algo que cualquier vecino habría notado: un funcionario de sueldo medio con una casa pagada al contado y un coche que no podía permitirse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie descubrió su trabajo por un error suyo. Lo vendió un funcionario de otro país que necesitaba pagarse una casa y un coche.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La fuga duró veinte horas y dependió de un pañal sucio" },
+      {
+        b: "texto",
+        texto:
+          "En julio de 1985, Gordievski consiguió despistar a sus vigilantes y dio la señal en la panadería. La chocolatina apareció. Dos días después salió de Moscú en tren hacia el norte, hasta un punto cercano a la frontera finlandesa, y esperó en el bosque junto a un mojón de la carretera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Allí lo recogieron dos coches con matrícula diplomática ocupados por personal de la embajada británica, entre ellos un matrimonio con un bebé de pocos meses, que iban precisamente para que aquello pareciera una excursión familiar. Lo metieron en el maletero, sobre una manta térmica destinada a impedir que lo detectara una cámara de calor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el paso fronterizo, los guardias soviéticos llevaron perros. Uno de ellos empezó a interesarse por la parte trasera del coche donde iba escondido. La mujer del funcionario sacó entonces a su hija del asiento, le cambió el pañal allí mismo, junto al maletero, y dejó el pañal sucio cerca del vehículo. El perro perdió el interés.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando cruzaron a Finlandia, uno de los ocupantes puso en el radiocasete una pieza del compositor finlandés Jean Sibelius, que era la señal convenida para avisar al hombre del maletero de que ya estaba fuera. Aquella pieza, escrita en 1899 contra la censura rusa, es prácticamente el segundo himno de Finlandia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una parte de aquella espera que suele contarse poco. Antes de llegar al bosque, Gordievski tuvo que despistar a la vigilancia dentro de Moscú, coger un tren nocturno con un billete comprado a nombre falso y caminar los últimos kilómetros. Iba sin equipaje, con documentación que no le servía de nada si lo paraban.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El plan tenía siete años de preparación y se resolvió con un pañal. Lo que salva una operación casi nunca es la parte que estaba en el plan.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El precio lo pagaron sobre todo su mujer y sus hijas, y el libro pasa deprisa por ahí",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gordievski no le dijo nada a su familia. Su mujer, Leila, y sus dos hijas pequeñas estaban de vacaciones cuando él desapareció, y se enteraron de todo por la KGB. Durante los seis años siguientes se les prohibió salir del país: fueron interrogadas, vigiladas y utilizadas como forma de presión sobre un hombre que ya estaba fuera de alcance.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Salieron en 1991, cuando la Unión Soviética se deshacía, después de una negociación en la que intervinieron los gobiernos británico y soviético. Para entonces habían pasado seis años sin verse y con versiones opuestas de lo ocurrido, y el matrimonio no sobrevivió a la reunión. Ella nunca aceptó que no la hubiera avisado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica a eso un capítulo y sigue adelante, y ahí está su límite principal. Está construido casi entero sobre el testimonio del propio Gordievski, que fue quien concedió el acceso, y los servicios implicados no confirman operaciones, de modo que el lector tiene una versión detallada y no tiene otra con la que contrastarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mismo ocurre con el otro coste, que el libro menciona sin detenerse. Un agente doble entrega personas, y las personas entregadas terminan detenidas, encarceladas o muertas. Ese balance no se hace en ningún capítulo, y en cualquier historia de espionaje contada como una hazaña es justamente la cuenta que falta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En toda historia de espionaje contada como hazaña falta la misma cuenta: a quién le pasó qué por culpa de la información que se entregó.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta once años en los que un coronel de la KGB trabajó para el servicio británico, y su hallazgo es que lo más valioso que entregó no fueron datos militares sino un estado mental: la certeza de que el otro bando creía estar a punto de ser atacado y podía actuar en consecuencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su virtud es la construcción. Macintyre alterna la vida doble en Londres con el plan de fuga guardado en un cajón durante siete años, de modo que el lector sabe desde el principio que ese plan existe y va acercándose al día en que se usa. Se lee como una novela y no lo es.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que decide una crisis no siempre es lo que está pasando: es lo que cada lado cree que está pasando en el otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Está escrito casi enteramente sobre el testimonio de su protagonista, con acceso concedido por él, y los servicios secretos implicados no confirman nada, así que no hay manera de contrastar los detalles operativos. El precio humano —las agentes y agentes detenidos por la información entregada, y seis años de su mujer y sus hijas retenidas— aparece y no se contabiliza. Y la importancia estratégica que atribuye a los avisos de 1983 se afirma más de lo que se demuestra: los historiadores siguen discutiendo cuán cerca se estuvo realmente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después es comprobable en documentos. Un informe interno elaborado en 1990 para la presidencia estadounidense sobre aquel ejercicio de 1983 se desclasificó en 2015, y concluía que el riesgo había sido real y mayor de lo que se había reconocido públicamente, lo que respalda la parte central del libro. Aldrich Ames, el hombre que lo vendió, fue detenido en 1994 y cumple cadena perpetua. Gordievski siguió condenado a muerte en ausencia, sentencia que nunca fue anulada, y vivió cuarenta años en una casa protegida del sur de Inglaterra, donde murió en marzo de 2025 a los ochenta y seis años.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "espia-traidor": ESPIA_TRAIDOR,
   "jekyll-hyde": JEKYLL_HYDE,
   "sobre-la-libertad": SOBRE_LA_LIBERTAD,
   nexus: NEXUS,

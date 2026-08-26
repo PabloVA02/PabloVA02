@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "espia-traidor": [
+    "por qué alguien cambia de bando sin dinero ni chantaje de por medio",
+    "que un plan sin usar no se improvisa el día que hace falta",
+    "cómo lo que el otro cree pesa más que lo que ocurre",
+    "qué detalle cotidiano acaba delatando a quien cobra por traicionar",
+    "qué cuenta falta siempre en una historia de espionaje contada como hazaña",
+  ],
+
   "jekyll-hyde": [
     "por qué la parte de alguien que menos se ejercita es la menos desarrollada",
     "que lo que se buscaba no era el mal, sino no pagar las consecuencias",
