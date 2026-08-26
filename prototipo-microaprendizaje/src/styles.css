@@ -5450,15 +5450,18 @@ button {
   filter: drop-shadow(0 18px 30px rgba(0, 0, 0, 0.45));
 }
 
-/* La mano monta sobre el móvil por la izquierda, como en la referencia: es
-   un sello encima de la pantalla, no un icono al lado */
+/* La mano cae sobre el móvil por la esquina de abajo a la derecha: es un
+   sello encima de la pantalla, no un icono al lado. Va donde va para no pisar
+   ninguna ficha —el hueco entre Facebook y TikTok— y para dejar a la vista lo
+   que sí tiene que verse de la pantalla, que es la parte llena de la barra de
+   avance. Sin disco detrás: el disco la convertía en un botón. */
 .anti-mano {
   position: absolute;
   z-index: 3;
   left: 50%;
   top: 50%;
-  margin: 18px 0 0 -96px;
-  filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.45));
+  margin: 30px 0 0 -30px;
+  filter: drop-shadow(0 12px 20px rgba(0, 0, 0, 0.55));
 }
 
 .anti-ficha {
@@ -5480,7 +5483,11 @@ button {
   height: 56px;
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.42);
+  /* El filete de dentro es lo que salva a las dos fichas negras —X y TikTok—:
+     sobre un fondo casi negro se quedaban sin contorno y parecían agujeros. */
+  box-shadow:
+    0 12px 22px rgba(0, 0, 0, 0.42),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.14);
 }
 
 .anti-candado {
@@ -5516,9 +5523,16 @@ button {
   transition: border-color 0.22s ease, background-color 0.22s ease;
 }
 
+/* Encendido, la tarjeta y el interruptor se van al naranja del fuego y no al
+   verde de fábrica ni al barro: en esta app el naranja es «esto está en
+   marcha» —la racha, la meta, el avance— y el verde no significa nada. */
 .anti-interruptor[data-on="true"] {
-  border-color: var(--clay);
-  background: rgba(194, 112, 79, 0.16);
+  border-color: var(--fuego);
+  background: rgba(255, 122, 24, 0.14);
+}
+
+.anti-interruptor .interruptor[data-on="true"] {
+  background: linear-gradient(90deg, #f0410e, #ff7a18 62%, #ffb13d);
 }
 
 .anti-interruptor-texto {

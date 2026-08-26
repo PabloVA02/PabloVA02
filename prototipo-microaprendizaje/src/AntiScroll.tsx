@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { GlyphClose } from "./glyphs";
 import { spring, springPop, springSoft, springTight } from "./motion";
+import { ManoPiezas } from "./Mano";
 
 /* ==========================================================================
    Modo anti-scroll.
@@ -27,13 +28,15 @@ import { spring, springPop, springSoft, springTight } from "./motion";
 
 type Marca = "instagram" | "tiktok" | "youtube" | "x" | "facebook";
 
-/** Colocadas alrededor del móvil, ninguna simétrica con otra. */
+/** Colocadas alrededor del móvil, ninguna simétrica con otra. Las coordenadas
+    salen del centro de la escena, y están puestas para dejarle sitio a la
+    mano, que cae abajo a la derecha y no debe pisar ninguna ficha. */
 const APPS: { marca: Marca; x: number; y: number; giro: number }[] = [
-  { marca: "youtube", x: -96, y: -142, giro: -8 },
-  { marca: "instagram", x: 104, y: -96, giro: 7 },
-  { marca: "x", x: -128, y: -18, giro: -5 },
-  { marca: "tiktok", x: -84, y: 116, giro: 6 },
-  { marca: "facebook", x: 116, y: 74, giro: 9 },
+  { marca: "youtube", x: -102, y: -148, giro: -8 },
+  { marca: "instagram", x: 100, y: -112, giro: 7 },
+  { marca: "x", x: -126, y: -46, giro: -5 },
+  { marca: "facebook", x: 118, y: 22, giro: 9 },
+  { marca: "tiktok", x: -104, y: 104, giro: 6 },
 ];
 
 export function AntiScroll({
@@ -80,54 +83,36 @@ export function AntiScroll({
         </motion.p>
 
         <div className="anti-escena">
-          {/* El móvil: claro y ligeramente girado, para que las fichas oscuras
-              de alrededor se recorten contra él */}
           <motion.div
             className="anti-movil"
-            initial={{ opacity: 0, scale: 0.82, rotate: -16 }}
-            animate={{ opacity: 1, scale: 1, rotate: -11 }}
+            initial={{ opacity: 0, scale: 0.82, rotate: -14 }}
+            animate={{ opacity: 1, scale: 1, rotate: -9 }}
             transition={{ ...springPop, delay: 0.18 }}
           >
-            <svg viewBox="0 0 130 226" width="128" height="222" aria-hidden>
-              <rect x="4" y="4" width="122" height="218" rx="24" fill="#e8e4dc" />
-              <rect x="10" y="10" width="110" height="206" rx="19" fill="#f7f5f1" />
-              <rect x="50" y="16" width="30" height="5" rx="2.5" fill="#cfc9be" />
-              {[42, 66, 90, 114, 138, 162, 186].map((y, i) => (
-                <rect
-                  key={y}
-                  x="24"
-                  y={y}
-                  width={i % 3 === 1 ? 52 : i % 3 === 2 ? 66 : 82}
-                  height="10"
-                  rx="5"
-                  fill="#d8d2c7"
-                />
-              ))}
-            </svg>
+            <Movil />
           </motion.div>
 
-          {/* La mano: el sello de «alto». Aterriza de golpe y rebota */}
+          {/* La mano: el sello de «alto». Aterriza de golpe, rebota y luego se
+              queda con el mismo vaivén lento que tiene en el perfil. Antes era
+              otro dibujo metido en un disco rojo; ahora es la mano de Pablo, y
+              sin disco: el disco la convertía en un botón, y esto no se pulsa. */}
           <motion.div
             className="anti-mano"
             initial={{ opacity: 0, scale: 0.15, rotate: -34 }}
-            animate={{ opacity: 1, scale: 1, rotate: -7 }}
+            animate={{ opacity: 1, scale: 1, rotate: -9 }}
             transition={{ type: "spring", stiffness: 250, damping: 11, delay: 0.5 }}
           >
-            <svg viewBox="0 0 92 92" width="88" height="88" aria-hidden>
-              <circle cx="46" cy="46" r="42" fill="#e0483c" />
-              <circle cx="46" cy="46" r="42" fill="none" stroke="#fff" strokeWidth="4" />
-              <path
-                d="M31 52V33.5a4.2 4.2 0 0 1 8.4 0V27a4.2 4.2 0 0 1 8.4 0v4a4.2 4.2 0 0 1 8.4 0v5.5a4.2 4.2 0 0 1 7 3v11c0 8.6-6 14.5-16 14.5s-16.2-6-16.2-13Z"
-                fill="#fff"
-              />
-              <path
-                d="M39.4 41v9M47.8 38.5v11M56.2 40.5v9"
-                stroke="#e0483c"
-                strokeWidth="1.6"
-                strokeLinecap="round"
-                opacity="0.45"
-              />
-            </svg>
+            <motion.svg
+              viewBox="0 0 200 200"
+              width="88"
+              height="88"
+              aria-hidden
+              style={{ originY: 0.85 }}
+              animate={reducido ? {} : { rotate: [-5, 5, -5] }}
+              transition={{ duration: 4.6, repeat: Infinity, ease: "easeInOut", delay: 1.2 }}
+            >
+              <ManoPiezas />
+            </motion.svg>
           </motion.div>
 
           {APPS.map((a, i) => (
@@ -256,11 +241,107 @@ function Ficha({
   );
 }
 
+
+/* --------------------------------------------------------------------------
+   El móvil de la escena
+
+   El de antes era una losa de color crema con siete barras grises: se leía
+   como una servilleta, no como un teléfono, y era lo más feo de la pantalla.
+   Éste es un aparato de verdad —canto de metal claro, marco negro, pantalla
+   de papel— y en la pantalla no hay barras sueltas: hay un libro abierto en
+   Curva, con su cubierta, su titular y su barra de avance en el degradado del
+   fuego. Así la escena cuenta entera lo que promete el modo: éste es tu móvil
+   con lo tuyo abierto, y todo lo demás alrededor está cerrado.
+
+   El canto sigue siendo claro a propósito. Es lo que recorta las fichas
+   oscuras que flotan alrededor: sobre un fondo casi negro, un móvil negro las
+   dejaría sin contorno.
+   -------------------------------------------------------------------------- */
+
+function Movil() {
+  return (
+    <svg viewBox="0 0 136 250" width="138" height="254" aria-hidden>
+      <defs>
+        <linearGradient id="anti-canto" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stopColor="#efeae0" />
+          <stop offset="46%" stopColor="#cfc9bd" />
+          <stop offset="100%" stopColor="#a9a396" />
+        </linearGradient>
+        <linearGradient id="anti-avance" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stopColor="#f0410e" />
+          <stop offset="52%" stopColor="#ff7a18" />
+          <stop offset="100%" stopColor="#ffb13d" />
+        </linearGradient>
+      </defs>
+
+      <rect width="136" height="250" rx="30" fill="url(#anti-canto)" />
+      <rect x="3.5" y="3.5" width="129" height="243" rx="26.5" fill="#1a1a1c" />
+      <rect x="6.5" y="6.5" width="123" height="237" rx="24" fill="#f7f5f1" />
+
+      {/* La isla */}
+      <rect x="51" y="13" width="34" height="9.5" rx="4.75" fill="#17171a" />
+
+      {/* La cubierta, el titular y lo que llevas leído. El avance va aquí
+          arriba, pegado al libro, y no al pie de la pantalla: abajo cae la
+          mano, y una barra medio tapada por la mano parecía una raya suelta. */}
+      <rect x="20" y="38" width="31" height="42" rx="4" fill="#c2704f" />
+      <rect x="23.6" y="38" width="2.6" height="42" fill="rgba(0,0,0,0.16)" />
+      <rect x="58" y="42" width="50" height="8" rx="4" fill="#2f2b24" />
+      <rect x="58" y="55" width="34" height="7" rx="3.5" fill="#bab4a8" />
+      <rect x="58" y="72" width="50" height="6" rx="3" fill="#e3ded3" />
+      <rect x="58" y="72" width="31" height="6" rx="3" fill="url(#anti-avance)" />
+
+      {/* El texto */}
+      {[96, 110, 124, 138, 152, 166].map((y, i) => (
+        <rect
+          key={y}
+          x="20"
+          y={y}
+          width={[96, 88, 96, 74, 92, 62][i]}
+          height="7"
+          rx="3.5"
+          fill="#d5cfc3"
+        />
+      ))}
+
+      <rect x="20" y="180" width="82" height="7" rx="3.5" fill="#d5cfc3" />
+
+      <rect x="48" y="231" width="40" height="4" rx="2" fill="#cfc9be" />
+    </svg>
+  );
+}
+
+/* --------------------------------------------------------------------------
+   Los iconos de las apps
+
+   No son capturas ni ficheros de marca: son las formas mínimas que hacen que
+   cada app se reconozca de un vistazo, que es todo lo que esta pantalla
+   necesita de ellas.
+
+   Lo que se arregló el 26 de agosto —Pablo: «los logos de las redes sociales
+   se ven algo mal»— no fue el dibujo de cada uno, sino que estaban a tamaños
+   distintos dentro de su ficha: la nota de TikTok ocupaba media ficha y la f
+   de Facebook la ficha entera, así que en fila parecían mal recortados. Ahora
+   cada dibujo se centra y se escala dentro del mismo hueco de 36 sobre 56
+   —`marco()`—, medido sobre su propia caja. Con eso pesan lo mismo en el ojo
+   aunque tengan formas muy distintas.
+   -------------------------------------------------------------------------- */
+
 /**
- * Los iconos, dibujados a mano. No son capturas ni ficheros de marca: son las
- * formas mínimas que hacen que cada app se reconozca de un vistazo, que es
- * todo lo que esta pantalla necesita de ellas.
+ * Centra un dibujo dentro de la ficha y lo lleva al mismo tamaño óptico que
+ * los demás. `caja` es lo que ocupa de verdad el dibujo en su propio sistema
+ * de coordenadas; `hueco` es lo que tiene que medir dentro de los 56.
  */
+function marco(caja: [number, number, number, number], hueco = 36) {
+  const [x, y, an, al] = caja;
+  const k = hueco / Math.max(an, al);
+  return `translate(28 28) scale(${k.toFixed(4)}) translate(${(-(x + an / 2)).toFixed(2)} ${(-(y + al / 2)).toFixed(2)})`;
+}
+
+const NOTA_TIKTOK =
+  "M33 12h-6.4v24.6a5.2 5.2 0 1 1-4.2-5.1V25a11.4 11.4 0 1 0 10.6 11.4V23.9" +
+  "a13 13 0 0 0 8 2.7v-6.3A7.6 7.6 0 0 1 33 12Z";
+
 function Logo({ marca }: { marca: Marca }) {
   if (marca === "instagram")
     return (
@@ -275,9 +356,11 @@ function Logo({ marca }: { marca: Marca }) {
           </radialGradient>
         </defs>
         <rect width="56" height="56" rx="16" fill="url(#ig)" />
-        <rect x="14" y="14" width="28" height="28" rx="9" fill="none" stroke="#fff" strokeWidth="3.2" />
-        <circle cx="28" cy="28" r="7" fill="none" stroke="#fff" strokeWidth="3.2" />
-        <circle cx="37.4" cy="18.6" r="2.1" fill="#fff" />
+        <g fill="none" stroke="#fff" strokeWidth="3.4">
+          <rect x="11.7" y="11.7" width="32.6" height="32.6" rx="10.4" />
+          <circle cx="28" cy="28" r="8.3" />
+        </g>
+        <circle cx="38.4" cy="17.6" r="2.3" fill="#fff" />
       </svg>
     );
 
@@ -286,18 +369,23 @@ function Logo({ marca }: { marca: Marca }) {
       <svg viewBox="0 0 56 56" width="56" height="56" aria-label="TikTok">
         <rect width="56" height="56" rx="16" fill="#0b0b0f" />
         {/* Las dos copias desplazadas en cian y rosa, y la blanca encima */}
-        <path d="M33 12h-6.4v24.6a5.2 5.2 0 1 1-4.2-5.1V25a11.4 11.4 0 1 0 10.6 11.4V23.9a13 13 0 0 0 8 2.7v-6.3A7.6 7.6 0 0 1 33 12Z" fill="#25f4ee" transform="translate(-2.4 -1.6)" />
-        <path d="M33 12h-6.4v24.6a5.2 5.2 0 1 1-4.2-5.1V25a11.4 11.4 0 1 0 10.6 11.4V23.9a13 13 0 0 0 8 2.7v-6.3A7.6 7.6 0 0 1 33 12Z" fill="#fe2c55" transform="translate(2.4 1.6)" />
-        <path d="M33 12h-6.4v24.6a5.2 5.2 0 1 1-4.2-5.1V25a11.4 11.4 0 1 0 10.6 11.4V23.9a13 13 0 0 0 8 2.7v-6.3A7.6 7.6 0 0 1 33 12Z" fill="#fff" />
+        <g transform={marco([10.6, 12, 30.4, 36], 34)}>
+          <path d={NOTA_TIKTOK} fill="#25f4ee" transform="translate(-2 -1.4)" />
+          <path d={NOTA_TIKTOK} fill="#fe2c55" transform="translate(2 1.4)" />
+          <path d={NOTA_TIKTOK} fill="#fff" />
+        </g>
       </svg>
     );
 
   if (marca === "youtube")
     return (
       <svg viewBox="0 0 56 56" width="56" height="56" aria-label="YouTube">
-        <rect width="56" height="56" rx="16" fill="#fff" />
-        <rect x="6" y="15" width="44" height="26" rx="8.5" fill="#ff0033" />
-        <path d="M24.6 22.4 34.8 28l-10.2 5.6Z" fill="#fff" />
+        <rect width="56" height="56" rx="16" fill="#fbfbfa" />
+        <rect x="6" y="14" width="44" height="28" rx="9.4" fill="#ff0033" />
+        <path
+          d="M24.6 21.9c0-.9 1-1.5 1.8-1l9.2 5.3a1.2 1.2 0 0 1 0 2l-9.2 5.4c-.8.5-1.8-.1-1.8-1V21.9Z"
+          fill="#fff"
+        />
       </svg>
     );
 
@@ -305,20 +393,24 @@ function Logo({ marca }: { marca: Marca }) {
     return (
       <svg viewBox="0 0 56 56" width="56" height="56" aria-label="X">
         <rect width="56" height="56" rx="16" fill="#0b0b0f" />
-        <path
-          d="M16 15h7.6l8 10.6L40.2 15H45L33.6 28.3 45.6 44H38l-8.5-11.3L19.6 44H15l12-14.1L16 15Z"
-          fill="#fff"
-        />
+        <g transform={marco([15, 15, 30.6, 29], 31)}>
+          <path
+            d="M16 15h7.6l8 10.6L40.2 15H45L33.6 28.3 45.6 44H38l-8.5-11.3L19.6 44H15l12-14.1L16 15Z"
+            fill="#fff"
+          />
+        </g>
       </svg>
     );
 
   return (
     <svg viewBox="0 0 56 56" width="56" height="56" aria-label="Facebook">
       <rect width="56" height="56" rx="16" fill="#1877f2" />
-      <path
-        d="M32.6 56V34.6h6.6l1-8.4h-7.6v-5.3c0-2.4.7-4 4.1-4h4.3v-7.5c-.8-.1-3.3-.3-6.3-.3-6.3 0-10.6 3.9-10.6 11v6.1h-6.7v8.4h6.7V56Z"
-        fill="#fff"
-      />
+      <g transform={marco([18.4, 10.5, 24.2, 45.5], 38)}>
+        <path
+          d="M32.6 56V34.6h6.6l1-8.4h-7.6v-5.3c0-2.4.7-4 4.1-4h4.3v-7.5c-.8-.1-3.3-.3-6.3-.3-6.3 0-10.6 3.9-10.6 11v6.1h-6.7v8.4h6.7V56Z"
+          fill="#fff"
+        />
+      </g>
     </svg>
   );
 }
