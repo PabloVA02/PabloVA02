@@ -105635,7 +105635,298 @@ const HAZ_COSAS_DIFICILES: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La dieta financiera, de Chelsea Fagan y Lauren Ver Hage (2018), en ocho
+   páginas.
+
+   Economía y libro práctico: registro de tú y cada página con su cifra.
+
+   La séptima dice lo que el libro da por supuesto y aquí no aplica —está
+   escrito para Estados Unidos, con sus planes de jubilación, su
+   puntuación crediticia y sus préstamos universitarios—, y la conclusión
+   trae los datos españoles de educación financiera.
+   -------------------------------------------------------------------------- */
+
+const DIETA_FINANCIERA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Fagan sostiene que el primer problema con el dinero no es de estrategia, sino de vergüenza",
+      },
+      {
+        b: "texto",
+        texto:
+          "En España, la encuesta de competencias financieras que hacen el Banco de España y la comisión del mercado de valores encontró que alrededor de la mitad de los adultos no responde correctamente a preguntas básicas sobre inflación, interés compuesto o diversificación. No son conceptos avanzados: son los tres que hacen falta para no perder dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Chelsea Fagan montó una web y un canal sobre finanzas personales dirigido a gente joven, y sobre todo a mujeres, que había llegado a los treinta años sin que nadie le explicara nada de esto. Publicó este libro en 2018 con una diseñadora, Lauren Ver Hage, y su punto de partida no es técnico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sostiene que lo que impide a la mayoría empezar no es la falta de información, que está toda en internet, sino la vergüenza: sentirse estúpido por no saber algo que se supone que todo el mundo sabe, y por tanto no preguntar, no mirar la cuenta y no abrir las cartas del banco. Ese bloqueo es el asunto del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que enseña y lo que no sirve aquí: por qué hay que medir antes de decidir nada, por qué el colchón va antes que todo lo demás, cuál es el mejor método para pagar deudas y cuál funciona mejor, qué decide de verdad la situación de alguien, y qué da por supuesto un libro escrito para otro país.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que impide a la mayoría empezar no es no saber: es la vergüenza de no saber algo que parece que todo el mundo sabe. Nadie lo sabe.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No se puede presupuestar lo que no se ha medido, y casi nadie ha medido nada",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera instrucción del libro es no cambiar nada durante un mes y limitarse a apuntar. Todo: el alquiler y el café, la suscripción que se olvidó cancelar y el regalo de cumpleaños. Sin juzgarlo, sin proponerse nada y sin dejar fuera lo que dé vergüenza, que es justamente lo que más informa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón es que casi nadie sabe en qué se le va el dinero, y no por descuido. Los gastos grandes se recuerdan porque son pocos, y los pequeños se olvidan porque son muchos, así que cualquiera puede enumerar sus cinco facturas fijas y ninguno puede decir cuánto gastó el mes pasado en comer fuera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al cabo del mes aparecen tres categorías que el libro separa a propósito. Los gastos fijos, que no se pueden tocar sin cambiar algo grande; los variables que se eligen; y una tercera que es la interesante: lo que se compra por cansancio, por prisa o por no haber planificado, que suele ser mayor de lo que nadie sospecha.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa tercera categoría es donde el libro trabaja, y no por moralismo. Es el único gasto que se puede reducir sin renunciar a nada que importe, porque no compra nada que se estuviera buscando: compra haber llegado a casa a las nueve sin nada en la nevera, o haber pedido algo a las once de la noche por no querer decidir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Apunta un mes sin cambiar nada. Nadie sabe en qué se le va el dinero, porque lo grande se recuerda y lo pequeño se olvida por ser mucho.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El colchón va antes que invertir y antes que pagar la deuda cara" },
+      {
+        b: "texto",
+        texto:
+          "El primer objetivo que fija el libro no es el más rentable sobre el papel, y ahí acierta. Antes de invertir nada y antes de amortizar deudas con interés alto, hay que reunir un fondo de emergencia: una cantidad accesible que cubra un imprevisto sin obligar a pedir prestado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Matemáticamente eso es subóptimo, porque ese dinero podría estar reduciendo una deuda que cuesta un veinte por ciento anual. Lo que justifica el orden es lo que pasa sin colchón: cualquier imprevisto —una avería, una muela, un mes sin trabajo— se financia con tarjeta o con un préstamo rápido, y eso multiplica el problema que se estaba intentando resolver.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La magnitud del asunto se ve en las encuestas de los países ricos. En Estados Unidos, la Reserva Federal pregunta cada año si el encuestado podría afrontar un gasto imprevisto de cuatrocientos dólares en efectivo, y durante años alrededor de cuatro de cada diez adultos contestaron que no. No es un problema de gente sin ingresos: llega bastante arriba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La recomendación práctica es empezar por una cantidad pequeña y alcanzable —el equivalente a un mes de gastos fijos— y no por la cifra ideal de seis meses, que desanima a cualquiera que empiece de cero. Un colchón de mil euros ya cambia el resultado de la mayoría de los imprevistos domésticos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde se guarda importa menos de lo que la gente teme y más de lo que cree. Tiene que estar disponible en veinticuatro horas y separado de la cuenta corriente, para que no se gaste sin darse cuenta. Una cuenta distinta en otro banco cumple las dos condiciones y no requiere entender ningún producto financiero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Sin colchón, cualquier avería se paga con tarjeta y multiplica el problema. Por eso va antes que invertir, aunque sobre el papel salga peor.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Para pagar deudas hay un método óptimo y otro que funciona mejor, y no son el mismo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando hay varias deudas a la vez existen dos maneras de ordenarlas. La primera consiste en atacar la de interés más alto mientras se paga el mínimo de las demás, y es la que menos dinero cuesta en total. La segunda consiste en atacar la más pequeña, aunque su interés sea bajo, hasta hacerla desaparecer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es peor sobre el papel y el libro lo dice en lugar de disimularlo. Su ventaja es de otro tipo: eliminar una deuda entera produce una sensación de avance que las tres cifras bajando a la vez no producen, y eso decide si alguien sigue con el plan al cuarto mes o lo abandona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y no es una intuición de coach. Un análisis publicado en 2012 sobre datos reales de personas endeudadas encontró que cerrar cuentas completas predecía mejor la eliminación total de la deuda que atacar primero los intereses altos, precisamente por el efecto sobre la constancia. El método peor en aritmética resultó ser mejor en resultados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión práctica es que conviene elegir según cómo sea uno. Quien tiene facilidad para sostener planes largos sin recompensas debe atacar el interés alto y ahorrarse el dinero; quien ha abandonado tres planes anteriores hará bien en eliminar primero la deuda pequeña, aunque pague algo más, porque la alternativa es no terminar ninguno.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El método que menos dinero cuesta no es el que más gente termina. Si has abandonado tres planes, elige el que te dé una victoria pronto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que decide una situación económica no es el café diario, es cuánto se ingresa",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica un capítulo a algo que buena parte de su propio género se salta, y es la corrección más importante que contiene. Toda la literatura de finanzas personales está construida sobre recortar gastos pequeños, y para mucha gente esa aritmética sencillamente no sale.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cálculo es fácil de hacer. Dejar el café de la máquina ahorra unos treinta euros al mes; conseguir un aumento de doscientos euros mensuales equivale a casi siete cafés diarios, se cobra todos los meses sin esfuerzo adicional y además sube la base de todos los aumentos futuros y de la cotización.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y sin embargo casi nadie negocia. Los trabajos sobre negociación salarial encuentran que una parte muy grande de la gente acepta la primera cifra que le ofrecen sin plantear nada, que esa proporción es aún mayor entre las mujeres, y que la diferencia se acumula durante toda una carrera porque cada subida posterior se calcula sobre la cifra inicial.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la recomendación que cambia más el resultado y que menos se sigue: dedicar al menos tanto esfuerzo a aumentar los ingresos como a recortar los gastos. Averiguar lo que se paga por ese puesto, preparar lo aportado con cifras y pedirlo, o cambiar de empleo, que es donde se producen los saltos grandes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una asimetría que conviene tener presente al hacer las cuentas. El recorte de gastos tiene un suelo —por debajo de cierto punto no hay nada más que quitar sin dejar de comer o de tener casa— y la subida de ingresos no lo tiene. Dos palancas que parecen equivalentes en una hoja de cálculo no lo son en absoluto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dejar el café ahorra treinta euros al mes. Un aumento de doscientos vale siete cafés diarios, se cobra siempre y sube todo lo que venga después.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La mayor parte del gasto que descuadra a alguien viene de no saber decir que no a un plan",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos más útiles y menos habituales trata del dinero como asunto social. La mayoría de los gastos que descuadran un presupuesto no son compras solitarias: son cenas, viajes, despedidas, regalos y bodas, es decir, situaciones en las que decir que no cuesta algo más que dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro propone algo tan sencillo como decirlo. No inventar excusas ni desaparecer, sino explicar que ese plan no entra este mes y proponer una alternativa barata. Su argumento es que la gente que merece la pena lo entiende inmediatamente, y que quien no lo entiende ha dado una información valiosa sobre sí mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y señala un efecto que se comprueba en cuanto alguien lo hace: casi siempre hay alguien más en el grupo en la misma situación que tampoco se atrevía a decirlo. El silencio sobre el dinero funciona en las dos direcciones, y basta con que uno lo rompa para que aparezcan los demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo se extiende a las parejas, donde el asunto es más serio. Su recomendación es hablar de cifras concretas antes de convivir —cuánto gana cada uno, cuánto debe, cómo se reparten los gastos comunes y qué pasa si uno gana bastante más—, porque esa conversación pospuesta acaba teniéndose igual, solo que en mitad de una discusión sobre otra cosa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Di que un plan no entra este mes en vez de inventar una excusa. Casi siempre hay alguien más en el grupo que tampoco se atrevía a decirlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Media parte técnica del libro no sirve fuera de Estados Unidos" },
+      {
+        b: "texto",
+        texto:
+          "Conviene saberlo antes de comprarlo. Los capítulos de ahorro para la jubilación, de puntuación crediticia y de préstamos estudiantiles están construidos sobre instituciones estadounidenses que no existen aquí o funcionan de otra manera, y aplicarlos literalmente no lleva a ningún sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La puntuación crediticia es el caso más claro. En Estados Unidos existe un número personal que determina si a alguien le alquilan un piso o le dan un préstamo, y buena parte del consejo consiste en cuidarlo. En España no existe ese número: hay ficheros de impagados, que funcionan al revés, señalando a quien ha fallado en lugar de puntuar a todos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con la jubilación pasa algo parecido. Allí una parte importante depende de planes de empresa con ventajas fiscales concretas, y aquí el grueso viene del sistema público de reparto, con productos privados que tienen otras reglas y otra fiscalidad. Las cifras y los vehículos del libro no se pueden trasladar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí se traslada entero es todo lo demás, que además es la mayor parte: medir antes de decidir, el colchón, el orden de las deudas, la aritmética de ingresos frente a gastos, la conversación con la pareja y la manera de decir que no a un plan. Esas partes no dependen de ningún país.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una diferencia de contexto que afecta a todo el libro. Está escrito en un país donde no existe sanidad pública universal y donde un problema médico es una causa habitual de ruina personal, así que su insistencia en el colchón responde en parte a un riesgo que aquí es mucho menor. Eso no lo hace menos necesario, pero cambia el tamaño que necesita.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de aplicar un libro de dinero, mira para qué país está escrito. La mitad técnica no se traslada y la mitad de conducta sí, entera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que no se puede organizar lo que no se ha medido, que el colchón va antes que cualquier cosa aunque salga peor en aritmética, que el método de pago de deudas que funciona no es el óptimo sino el que se termina, y que subir los ingresos pesa mucho más que recortar gastos pequeños.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente al resto del estante es a quién se dirige y cómo. Está escrito para gente que llega a los treinta sin saber nada de esto y que se avergüenza de no saberlo, y por eso empieza donde ningún otro empieza: explicando que no saber es lo normal, porque no se enseña en ningún sitio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Apunta un mes sin cambiar nada, reúne un colchón de un mes de gastos fijos y dedícale a subir tus ingresos tanto esfuerzo como a recortar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es un libro para principiantes y se queda muy pronto: quien lo aplique necesitará otro en un par de años. Una parte considerable de su contenido técnico está atado a instituciones estadounidenses y no vale aquí. Y, como casi todo el género, trata un ingreso bajo como una condición de partida que hay que optimizar, aunque lo reconozca con más honradez que la mayoría de sus competidores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una cosa que este libro señala y que en España sigue exactamente igual. La educación financiera no está en el currículo obligatorio de manera efectiva: existe desde 2008 un plan conjunto del Banco de España y de la comisión del mercado de valores, con material gratuito y programas para colegios, pero la participación es voluntaria y llega a una parte pequeña de los centros. La encuesta oficial de competencias financieras sigue encontrando que en torno a la mitad de los adultos falla en las tres preguntas básicas del asunto, y esa cifra apenas se ha movido entre sus dos ediciones.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "dieta-financiera": DIETA_FINANCIERA,
   "haz-cosas-dificiles": HAZ_COSAS_DIFICILES,
   "alegria-perderse": ALEGRIA_PERDERSE,
   "hambruna-mao": HAMBRUNA_MAO,

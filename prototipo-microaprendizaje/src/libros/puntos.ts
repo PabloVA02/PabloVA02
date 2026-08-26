@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "dieta-financiera": [
+    "por qué hay que medir un mes antes de cambiar nada",
+    "que el colchón va antes que invertir aunque salga peor en aritmética",
+    "cuál es el método de pagar deudas que más gente termina",
+    "por qué subir ingresos pesa más que recortar gastos pequeños",
+    "cómo decir que un plan no entra este mes sin inventar excusas",
+  ],
+
   "haz-cosas-dificiles": [
     "por qué paras antes de que el músculo llegue a su límite",
     "qué distingue una confianza que aguanta de una que se derrumba",

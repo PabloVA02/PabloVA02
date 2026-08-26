@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "dieta-financiera":
+    "Alrededor de la mitad de los adultos españoles falla en las tres preguntas básicas sobre inflación, interés compuesto y diversificación. Este libro empieza antes de todo eso: en la vergüenza de no saber.",
+
   "haz-cosas-dificiles":
     "Hasta los años sesenta se prohibía beber agua a los deportistas porque pedirla era señal de debilidad, y murió gente por ello. Magness usa ese ejemplo para desmontar lo que hoy se sigue enseñando como dureza.",
 

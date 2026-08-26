@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "dieta-financiera": "Guía para principiantes sobre cómo llevarse bien con el dinero",
   "haz-cosas-dificiles": "La ciencia sorprendente de la fortaleza real",
   "alegria-perderse": "Vive más haciendo menos",
   "hambruna-mao": "Historia de la catástrofe más devastadora de China",
