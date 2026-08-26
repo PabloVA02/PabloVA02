@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "hambruna-mao":
+    "Entre 1958 y 1962 murieron en China decenas de millones de personas, y el episodio se explicó durante décadas como tres años de desastres naturales. Dikötter reconstruyó lo ocurrido con los informes internos del propio partido.",
+
   "modelos-manson":
     "Manson venía de la industria que vendía técnicas de ligue y publicó este libro en 2011 para desmontarla desde dentro. Su tesis es que todo lo que se hace para evitar un rechazo es justo lo que resulta poco atractivo.",
 

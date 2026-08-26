@@ -104722,7 +104722,317 @@ const MODELOS_MANSON: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La gran hambruna en la China de Mao, de Frank Dikötter (2010), en ocho
+   páginas.
+
+   Ensayo histórico: TERCERA PERSONA y titular que afirma. No admite
+   segunda persona en ninguna caja: es un libro escrito desde una
+   catástrofe real con decenas de millones de muertos, apartado 4 bis.
+
+   La segunda página explica por qué la cifra se discute, y la séptima el
+   problema metodológico que el libro tiene y que no se puede resolver: los
+   archivos que usó volvieron a cerrarse.
+   -------------------------------------------------------------------------- */
+
+const HAMBRUNA_MAO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dikötter sostiene que la mayor hambruna de la historia no la causó el clima, sino un sistema que no podía admitir un error",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entre 1958 y 1962 murieron en China decenas de millones de personas por hambre, agotamiento y violencia. Durante décadas, el episodio se explicó dentro del país como tres años de desastres naturales, y esa denominación sigue siendo la habitual en los manuales escolares chinos, que apenas dedican al asunto unas líneas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Frank Dikötter, historiador neerlandés que trabajaba en la Universidad de Hong Kong, publicó este libro en 2010 basándose en algo que ningún historiador extranjero había tenido antes: acceso a cientos de archivos del partido comunista en provincias y condados, que se abrieron parcialmente durante unos pocos años en la década de los dos mil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que encontró allí no fueron denuncias de disidentes, sino informes internos: investigaciones del propio partido sobre lo que estaba ocurriendo en sus comarcas, con recuentos de muertos, descripciones de palizas y actas de reuniones. Es decir, el aparato que causó aquello lo documentó mientras ocurría, para uso interno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre cómo se produjo: por qué se discute la cifra de muertos, cómo unos informes inflados provocaron requisas imposibles, qué pasó con las herramientas de los campesinos, qué ocurrió en julio de 1959 y por qué se siguió exportando grano mientras la gente se moría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro es el primero de una serie de tres sobre las tres décadas siguientes a 1949, y ganó en 2011 uno de los principales premios británicos de ensayo. Su autor lo escribió sabiendo que aquella ventana documental podía cerrarse, y por eso reunió material de una docena de provincias en lugar de estudiar una sola a fondo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El aparato que provocó aquello lo fue documentando por escrito mientras ocurría. Los informes existían; lo que no había era manera de que subieran.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La cifra que da el libro es la más alta publicada, y su método es discutido",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dikötter cifra en al menos cuarenta y cinco millones las muertes en exceso de aquellos cuatro años. Es la estimación más alta de las que se manejan y por eso conviene situarla entre las demás, porque la magnitud del episodio no depende de cuál se acepte: todas describen la mayor hambruna documentada de la historia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los cálculos demográficos anteriores, hechos comparando censos y tasas de natalidad, situaban la cifra en torno a los treinta millones. Un periodista chino, Yang Jisheng, publicó en 2008 un trabajo monumental basado en archivos y entrevistas dentro del país y llegó a unos treinta y seis millones. Las cifras oficiales chinas han sido siempre muy inferiores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia de Dikötter procede de dos decisiones. Extrapola a escala nacional a partir de los recuentos que encontró en los archivos provinciales, y contabiliza como muertes de la hambruna las causadas por violencia, agotamiento en obras públicas y enfermedad derivada, y no solo las de inanición.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los demógrafos que han discutido su método señalan que los documentos que encontró no son una muestra representativa: son los informes de las zonas donde alguien decidió investigar, que tienden a ser las peores. Esa objeción es seria y no cambia la conclusión de fondo, sino el margen: entre treinta y cuarenta y cinco millones, según cómo se cuente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene además saber por qué es tan difícil de calcular. Una hambruna no deja un registro de defunciones: mata sobre todo por enfermedades asociadas a la desnutrición, hace caer en picado los nacimientos y provoca desplazamientos masivos, así que la cifra se obtiene comparando la población que había con la que debería haber habido, y ese cálculo depende de supuestos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los documentos de una catástrofe suelen proceder de donde alguien decidió investigar, que son las peores zonas. Extrapolar desde ahí infla el total.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los funcionarios inflaron las cosechas y el Estado requisó sobre cifras que no existían",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo que produjo el hambre está descrito con precisión y no requiere ninguna maldad individual. En 1958 se lanzó una campaña para multiplicar la producción agrícola e industrial, con objetivos fijados desde arriba y con premios y castigos para los responsables locales según los resultados que declararan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ahí, declarar una cosecha baja era peligroso y declarar una alta era rentable, así que las cifras empezaron a subir en cada escalón de la jerarquía. Un secretario de condado que informaba del doble de lo real ascendía; el vecino que informaba de la verdad quedaba señalado como derrotista, y esa palabra en aquel contexto tenía consecuencias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema llegó al aplicar la norma siguiente: el Estado se quedaba un porcentaje de la cosecha declarada. Con cifras infladas, ese porcentaje superaba a menudo la cosecha real completa, de modo que los equipos de requisa se llevaban todo el grano, incluida la semilla del año siguiente, y en muchos sitios se llevaron también lo que la gente había escondido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está la parte que convierte esto en algo más que una historia china. No hubo una decisión de matar de hambre a nadie: hubo un sistema en el que informar de una mala noticia costaba la carrera o la libertad, y esa regla bastó para que la información que subía fuera falsa y para que las decisiones se tomaran sobre ella.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando informar de una mala noticia arruina al mensajero, lo que llega arriba es falso. Y las decisiones se toman igualmente sobre esos datos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Se fundieron las herramientas del campo para fabricar acero que no servía para nada",
+      },
+      {
+        b: "texto",
+        texto:
+          "El objetivo industrial de aquella campaña era alcanzar la producción de acero del Reino Unido en quince años, y la manera de conseguirlo fue distribuir la producción entre la población. Se levantaron pequeños hornos en patios, escuelas y comunas, y en el momento de mayor movilización participaban en aquello decenas de millones de personas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Como no había mineral de hierro suficiente, se fundió lo que había. Los campesinos entregaron azadas, arados, cuchillos, ollas, sartenes, bisagras y clavos. En muchos lugares se desmontaron ventanas y se arrancaron raíles. Y como tampoco había carbón bastante, se talaron bosques enteros para alimentar los hornos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El acero que salía de aquellos hornos era en su mayor parte hierro quebradizo e inservible para cualquier uso industrial, y buena parte quedó amontonado sin emplearse. Es decir, se destruyeron los instrumentos con los que se trabajaba la tierra para producir un material que no se pudo utilizar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso se le sumó que la campaña coincidió con la cosecha. Millones de trabajadores agrícolas estaban atendiendo hornos, construyendo embalses o participando en campañas de exterminio de gorriones —a los que se consideraba plaga por comer grano— en lugar de recoger lo que había en los campos, y una parte de la cosecha de aquel año se pudrió sin recolectar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A la campaña industrial se le sumó una agronomía importada de la Unión Soviética que estaba equivocada: se ordenó sembrar mucho más denso de lo razonable, con la idea de que las plantas de la misma especie no compiten entre sí, y arar mucho más profundo de lo que conviene. Las dos instrucciones redujeron la cosecha en lugar de aumentarla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se fundieron los aperos de labranza para fabricar un hierro que no servía, mientras la cosecha se pudría porque no quedaba nadie para recogerla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En julio de 1959 alguien lo dijo por escrito, y su destino hizo imposible cualquier otra objeción",
+      },
+      {
+        b: "texto",
+        texto:
+          "El punto en el que aquello se podía haber detenido tiene fecha. En julio de 1959, durante una reunión de la dirección del partido, el ministro de Defensa, Peng Dehuai, entregó a Mao una carta privada en la que exponía con moderación los problemas que había visto en el campo, del que acababa de volver.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La carta no atacaba la política ni a su autor: señalaba excesos, cifras poco creíbles y consecuencias visibles. Mao hizo copiarla y repartirla entre los asistentes, la presentó como un ataque contra él y convirtió la reunión en un juicio. Peng fue destituido, señalado como cabecilla de un grupo antipartido y apartado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto de aquello fue inmediato y es lo que explica los tres años siguientes. Si un ministro de Defensa, héroe de la guerra, podía caer por escribir una carta privada con reservas moderadas, ningún cuadro provincial iba a informar de nada. La campaña no solo continuó: se intensificó, para demostrar que las críticas eran infundadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los peores años de mortalidad fueron precisamente 1960 y 1961, después de aquella reunión. Es decir, la mayor parte de las muertes ocurrió cuando el problema ya se conocía arriba y se había decidido que no se podía nombrar, y esa secuencia es la que convierte el episodio en algo distinto de un desastre.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando el que avisa cae, deja de haber avisos. Los peores años vinieron después de que arriba ya se supiera y se decidiera que no se podía nombrar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Mientras moría la gente, el país exportaba grano y rechazaba la ayuda extranjera",
+      },
+      {
+        b: "texto",
+        texto:
+          "El dato que más cuesta asimilar del libro es que durante los años de mayor mortalidad China siguió exportando alimentos. Se enviaron millones de toneladas de grano al extranjero, principalmente a la Unión Soviética y a países del bloque, para obtener divisas y para pagar la deuda contraída por el equipamiento industrial importado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lógica de aquello no era el desconocimiento. El Estado disponía del grano porque lo había requisado, la exportación estaba planificada y las cifras se conocían. Interrumpirla habría equivalido a reconocer ante el exterior, y sobre todo ante Moscú, que la campaña había fracasado, y esa admisión era políticamente inaceptable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por el mismo motivo se rechazó la ayuda internacional. Aceptar alimentos de fuera habría hecho público el desastre, así que el país mantuvo la versión oficial de que atravesaba dificultades pasajeras causadas por el clima, y la mantuvo mientras se vaciaban aldeas enteras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El final llegó en 1962, cuando en una gran reunión de cuadros el número dos del régimen afirmó ante Mao que la catástrofe había sido en tres partes por causas naturales y en siete por causas humanas. La campaña se desmontó. Años después, aquel dirigente fue depurado durante la revolución cultural y murió detenido en 1969.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Otra decisión agravó el encierro. Las comunas suprimieron las cocinas familiares y confiscaron las ollas para instalar comedores colectivos, de modo que una familia a la que el comedor le negaba la ración no tenía ya manera de cocinar nada por su cuenta, aunque consiguiera algo de comida. El control sobre la comida pasó a ser total.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se siguió exportando alimentos porque parar habría equivalido a reconocer el fracaso. La versión oficial costó más vidas que la mala cosecha.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los archivos que sostienen este libro volvieron a cerrarse, y eso es un problema que no tiene arreglo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El valor de este libro está en sus fuentes, y ahí aparece una dificultad incómoda. Los archivos provinciales y de condado que Dikötter consultó se abrieron parcialmente durante unos años y a partir de la década siguiente fueron restringiéndose de nuevo, hasta quedar en la práctica cerrados para investigadores extranjeros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso significa que sus conclusiones no se pueden comprobar de la manera habitual, que es que otro historiador vaya a las mismas fuentes y las lea. Las notas del libro remiten a documentos que hoy no se pueden consultar, así que el lector tiene que confiar en la lectura del autor sin posibilidad de contrastarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No es un reproche a Dikötter, que hizo su trabajo cuando se podía hacer, sino una limitación del conocimiento disponible sobre este episodio. Y explica por qué la discusión sobre la cifra sigue abierta y probablemente lo seguirá durante mucho tiempo: no hay manera de dirimirla volviendo al material.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una crítica de fondo que se le hace y que conviene tener presente al leerlo. Su libro acumula atrocidad tras atrocidad con un tono de acusación, y dedica menos espacio a explicar cómo un sistema político produjo aquello. La descripción es abrumadora y el análisis se queda por debajo del material reunido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una asimetría entre lo que se puede investigar dentro y fuera. Los historiadores chinos que han trabajado sobre esto lo han hecho con enormes dificultades y a menudo publicando fuera del país, y los extranjeros dependieron de una apertura temporal. El resultado es que la historiografía de la mayor hambruna documentada es mucho más pobre de lo que debería.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando las fuentes de un libro dejan de ser consultables, sus conclusiones no se pueden refutar ni confirmar. Y eso no es culpa de quien las leyó.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la hambruna de 1958 a 1962 no fue un desastre natural, que su mecanismo fue un sistema de información en el que decir la verdad arruinaba al mensajero, que la requisa se calculó sobre cosechas inventadas, y que la mayor parte de las muertes ocurrió después de que el problema fuera conocido arriba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a los trabajos anteriores son los documentos internos. Una cosa es reconstruir una hambruna con censos y testimonios, y otra leer los informes que los propios responsables escribieron mientras ocurría, con sus recuentos, sus actas y sus investigaciones. Esa diferencia es la que hace que este libro exista.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ningún sistema que castigue al que trae la mala noticia se entera de nada. Aquí esa regla mató a decenas de millones de personas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Su cifra de cuarenta y cinco millones es la más alta publicada y se apoya en una extrapolación a partir de documentos que no son una muestra representativa, cosa que otros demógrafos le han objetado con argumentos serios; el rango razonable va de treinta a cuarenta y cinco, y el libro presenta el extremo alto como si estuviera establecido. El tono es de acusación más que de explicación, y atribuye casi todo a la responsabilidad personal de una figura, dejando en segundo plano cómo funcionaba el sistema entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después afecta a la posibilidad misma de saber más. Los archivos que hicieron posible este libro se han vuelto a cerrar, de modo que sus fuentes ya no se pueden consultar; el trabajo equivalente hecho por un periodista chino sigue prohibido en el país donde ocurrió todo, y a su autor se le impidió viajar en 2016 a recoger un premio en Estados Unidos. En los manuales escolares chinos, aquellos cuatro años continúan apareciendo como tres años de dificultades causadas por el clima.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "hambruna-mao": HAMBRUNA_MAO,
   "modelos-manson": MODELOS_MANSON,
   "sprint-knapp": SPRINT_KNAPP,
   "cuerpo-4-horas": CUERPO_4_HORAS,

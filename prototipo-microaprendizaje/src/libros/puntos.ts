@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "hambruna-mao": [
+    "por qué es tan difícil calcular las muertes de una hambruna",
+    "qué pasa cuando informar de una mala noticia arruina al mensajero",
+    "cómo una requisa se calcula sobre una cosecha que no existió",
+    "que las peores muertes llegaron después de que arriba ya se supiera",
+    "qué le ocurre a un libro cuyas fuentes dejan de ser consultables",
+  ],
+
   "modelos-manson": [
     "por qué la necesidad se percibe y ninguna técnica la disimula",
     "cómo saber si algo que vas a decir arriesga de verdad",
