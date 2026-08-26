@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "biologia-creencia": "La liberación del poder de la conciencia, la materia y los milagros",
   "futuro-nuestra-mente": "El desafío científico para entender, mejorar y fortalecer nuestra mente",
   "hombres-no-escuchan": "Cómo detectar las diferencias entre la forma de pensar del hombre y de la mujer",
   "cinco-heridas": "Rechazo, abandono, humillación, traición, injusticia",

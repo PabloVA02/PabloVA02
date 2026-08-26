@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "biologia-creencia": [
+    "por qué un gen no hace nada hasta que algo se lo pide",
+    "dónde toma de verdad sus decisiones una célula",
+    "con qué pruebas se demostró la epigenética, y con cuáles no",
+    "cómo reconocer una cifra que lleva veinte años circulando sin fuente",
+    "hasta dónde llega una expectativa y dónde deja de llegar",
+  ],
+
   "futuro-nuestra-mente": [
     "por qué un libro de predicciones se lee distinto sabiendo el año",
     "qué separa descodificar una intención de leer un pensamiento",

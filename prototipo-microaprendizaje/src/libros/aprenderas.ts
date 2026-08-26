@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "biologia-creencia":
+    "Una célula sin núcleo sigue viva días; sin membrana muere al instante. De ahí saca Lipton que quien manda no es el gen, y de ahí pasa, en unos pocos capítulos, a que tus creencias gobiernan tu biología.",
+
   "futuro-nuestra-mente":
     "Kaku publicó en 2014 un catálogo de pronósticos sobre el cerebro: leer el pensamiento, grabar recuerdos, subir una mente a un ordenador. Once años después hay marcador de sobra para puntuarlos uno a uno.",
 

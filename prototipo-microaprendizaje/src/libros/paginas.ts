@@ -109042,7 +109042,284 @@ const FUTURO_NUESTRA_MENTE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La biología de la creencia, de Bruce Lipton (2005), en ocho páginas.
+
+   Hace afirmaciones científicas, así que tercera persona. Y es de Salud, así
+   que manda la prueba del sustituto: cada página tiene que contar ESTE libro y
+   no el género entero de «tu mente cura tu cuerpo».
+
+   La cuarta página es la epigenética de verdad, con sus dos estudios y sus
+   fechas, y va DENTRO. Es lo único que separa este resumen de repetir el
+   folleto: el libro usa una palabra real para decir algo que esa palabra no
+   dice.
+   -------------------------------------------------------------------------- */
+
+const BIOLOGIA_CREENCIA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lipton sostiene que los genes no mandan en una célula, y ahí tiene parte de razón",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bruce Lipton es biólogo celular. Enseñó anatomía en la Universidad de Wisconsin y después en una facultad de medicina del Caribe, y trabajó durante los años setenta y ochenta cultivando células madre en placas de laboratorio. Publicó este libro en 2005, ya fuera de la investigación activa, y ha vendido millones de ejemplares en decenas de idiomas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis se entiende en una frase: el gen no es el que decide. Lo que decide qué hace una célula es la señal que le llega de fuera, y el gen se limita a proporcionar la pieza que se le pide. Lipton lo compara con un plano de arquitecto: un plano no construye nada por su cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso, dicho así, es correcto y era necesario decirlo. El libro se escribe justo después del Proyecto Genoma Humano, en pleno entusiasmo por la idea de que la secuencia de alguien contenía su destino, y contra esa idea el argumento de Lipton está bien apuntado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema es adónde lo lleva. De «el entorno regula los genes» pasa, en unos pocos capítulos, a «lo que crees regula tus genes», y de ahí a que las enfermedades vienen de creencias y se curan cambiándolas. Lo que sigue es dónde se produce exactamente ese salto y qué hay debajo de cada tramo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un plano no construye una casa. Un gen tampoco construye nada por su cuenta: hace falta que alguien lo pida.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El experimento del que sale todo el libro es correcto y no demuestra lo que él dice",
+      },
+      {
+        b: "texto",
+        texto:
+          "Toda la argumentación arranca de una observación que Lipton hizo en su laboratorio y que cuenta varias veces. Cultivaba células madre genéticamente idénticas, repartidas en varias placas, y cambiaba el medio de cultivo de cada una: el líquido con nutrientes y señales químicas en el que viven.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Según qué medio les pusiera, las mismas células acababan convirtiéndose en cosas distintas: en unas placas formaban hueso, en otras músculo, en otras grasa. Mismo genoma, distinto destino. Y cuando una placa iba mal, dice, el fallo estaba en el medio y no en las células.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es una observación real y es la base de la biología del desarrollo. Que las células idénticas se especialicen según las señales que reciben es lo que explica que un embrión con un solo genoma llegue a tener neuronas, huesos y glóbulos rojos. No es un hallazgo que contradiga a la genética: es lo que la genética explica desde hace décadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace Lipton con ese dato es lo discutible. Lo presenta como un descubrimiento suyo que derriba el dogma, y después lo usa como puente para todo lo demás: si el entorno de una célula decide lo que le pasa, y el cerebro interpreta el entorno de una persona, entonces la interpretación decide lo que le pasa a esa persona. Los dos «entornos» de esa frase no son la misma cosa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El medio en el que vive una célula y la idea que alguien se hace de su vida no son el mismo entorno, aunque se llamen igual.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Su idea de que la membrana es el cerebro de la célula es la mejor imagen del libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lipton propone mover el mando de sitio. Si el gen no decide, ¿quién decide? Su respuesta es la membrana, la piel de la célula, y la defiende con un argumento que se sostiene: una célula a la que se le quita el núcleo sigue viva y funcionando durante días, mientras que una célula a la que se le rompe la membrana muere inmediatamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Explica la membrana como un panel de mandos. Está llena de proteínas receptoras, que reconocen una señal concreta —una hormona, un nutriente, una molécula de otra célula— y de proteínas efectoras, que ponen algo en marcha dentro cuando su receptor se activa. Ese par, receptor y efector, es la unidad de decisión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca su frase más repetida: la membrana es el cerebro de la célula, no el núcleo. Como imagen didáctica funciona muy bien y es la mejor cosa del libro: coloca la atención donde ocurren de verdad las decisiones celulares, que es en la superficie y en las señales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hay que matizar es el «no el núcleo». No es que uno mande y el otro obedezca: la señal de la membrana llega al núcleo, cambia qué genes se leen, y las proteínas que salen de ahí vuelven a cambiar la membrana. Es un bucle, no una jerarquía. Lipton necesita la jerarquía invertida para su argumento, y por eso la escribe más tajante de lo que es.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las decisiones de una célula no se toman en el centro, sino en la superficie, donde llegan las señales.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La epigenética existe, tiene estudios con nombre y no dice lo que este libro le hace decir",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí hay que parar, porque es la palabra sobre la que se apoya el libro entero y la que más se ha estirado desde que salió. La epigenética es el conjunto de marcas químicas que se colocan sobre el ADN o sobre las proteínas que lo empaquetan, y que hacen que un gen se lea más o se lea menos sin cambiar ni una letra de la secuencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Que eso responde al entorno está demostrado, y hay dos casos de manual. El primero es el de unos ratones de laboratorio con una variante del gen <em>agouti</em>: en 2003, Randy Jirtle y Robert Waterland demostraron que suplementar la dieta de las madres cambiaba el color del pelaje y el riesgo de obesidad de las crías, genéticamente idénticas, por metilación de ese gen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo es humano. Durante el invierno de 1944 y 1945, el bloqueo alemán provocó una hambruna en Holanda que está documentada con precisión de calorías y de fechas. En 2008, un equipo dirigido por Bastiaan Heijmans encontró que las personas concebidas en aquellos meses tenían, sesenta años después, una marca de metilación distinta en un gen del crecimiento, y más problemas metabólicos que sus propios hermanos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nótese qué son esas dos pruebas: comida y hambre. Sustancias que entran en un cuerpo. Ninguna de las dos habla de creencias, de pensamientos ni de actitudes, y no existe ningún estudio equivalente que muestre que una idea sostenida cambia la metilación de un gen y con ella una enfermedad. Lipton usa el prestigio de una palabra real para respaldar una afirmación que esa palabra no respalda.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que el entorno cambie la lectura de un gen está demostrado con comida y con hambre, no con pensamientos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La cifra del noventa y cinco por ciento no viene de ningún sitio" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo que más se cita del libro afirma que la mente consciente gobierna alrededor del cinco por ciento del día y el subconsciente el noventa y cinco restante, y que por eso el pensamiento positivo casi nunca funciona: se aplica al cinco por ciento y deja intacto el resto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa cifra no tiene fuente. No aparece en el libro atribuida a ningún estudio, ni a ninguna medida, ni a ningún autor, y no existe manera conocida de medir qué proporción de la conducta de una persona es consciente. Circula desde entonces por conferencias y vídeos, casi siempre citando a Lipton, que no cita a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Debajo hay, sin embargo, una observación que sí tiene respaldo y conviene separarla: buena parte de lo que hace una persona a lo largo del día son secuencias automáticas que no se deciden en el momento. Eso está bien estudiado y se llama hábito, tiene mecanismo conocido y se mide. Lo que no está estudiado es la proporción, ni el reparto en dos mentes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro añade que esos automatismos se graban antes de los siete años, cuando el cerebro infantil está en un estado de ondas theta parecido a la hipnosis, y que por eso hace falta reprogramarlos con técnicas especiales. La primera parte —que la infancia deja patrones duraderos— es razonable; la de las ondas theta como estado hipnótico programable es una interpretación suya de un dato de electroencefalografía, no un hallazgo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando una cifra redonda circula durante veinte años sin que nadie diga de dónde salió, casi siempre es porque no salió de ningún sitio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El capítulo del placebo es el más sólido y es el que menos usa" },
+      {
+        b: "texto",
+        texto:
+          "Hay una parte del libro donde su tesis sí tiene pruebas de verdad, y es donde habla del efecto placebo. Ahí no hace falta estirar nada: que una expectativa produzca cambios medibles en un cuerpo está documentado con ensayos controlados desde hace décadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso más demoledor es de cirugía. En 2002, el cirujano Bruce Moseley publicó en el <em>New England Journal of Medicine</em> un ensayo con ciento ochenta pacientes con artrosis de rodilla: a un tercio se le hizo la operación completa por artroscopia, a otro tercio solo el lavado y al último únicamente las incisiones en la piel, sin tocar la articulación. A los dos años, los tres grupos habían mejorado igual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo más raro todavía, que Lipton no llega a contar. En 2010, un equipo dirigido por Ted Kaptchuk dio a pacientes con síndrome de intestino irritable unas pastillas diciéndoles explícitamente que eran placebo, que no llevaban principio activo y que aun así podían funcionar. Mejoraron más que el grupo sin tratamiento. El efecto no necesita el engaño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El reverso también está medido y se llama nocebo. En un estudio publicado en 2003, a pacientes que empezaban un tratamiento para el corazón se les informó o no de un posible efecto secundario sexual: entre los informados apareció en alrededor de un tercio, y entre los no informados en menos de uno de cada veinte. Es el mismo fármaco y la misma dosis.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una expectativa puede producir un cambio medible en un cuerpo. Lo que no puede es sustituir a lo que cambia el curso de una enfermedad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Decir que la creencia enferma implica decir que el enfermo se lo hizo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia del libro que menos se discute es la más grave, y no es una interpretación torcida: sale directamente de su tesis. Si las creencias controlan la biología, entonces una enfermedad es, en alguna medida, el resultado de las creencias de quien la tiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lipton no lo formula con esa crudeza, pero la deja en pie. Habla de creencias que enferman, de programas heredados que producen dolencias y de que cambiar la percepción del entorno cambia el estado del cuerpo. En manos de un lector con un diagnóstico serio, eso se convierte en una pregunta concreta y cruel: qué hice yo para atraer esto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es un problema conocido y anterior a este libro. En 1978, Susan Sontag lo describió en <em>La enfermedad y sus metáforas</em>: escribió aquel ensayo mientras se trataba de un cáncer, harta de que a los enfermos se les explicara su tumor por su carácter reprimido o por su tristeza. La idea de que uno enferma por dentro tiene siglos, y siempre acaba en lo mismo: culpa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La manera honesta de decir lo que el libro quiere decir existe y es más aburrida: el estado de ánimo, el estrés sostenido y el apoyo social influyen en cómo se lleva una enfermedad y en si alguien cumple un tratamiento. Eso está medido y no culpa a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un coste práctico además del moral. Una persona convencida de que su mente puede revertir su enfermedad retrasa tratamientos, y el retraso en algunas enfermedades cambia el pronóstico. Un libro que sugiere eso tiene la obligación de decir dónde termina su alcance, y éste no la cumple en ninguna página.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Toda explicación que hace responsable al enfermo de su enfermedad acaba en el mismo sitio, y ese sitio es la culpa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que los genes no controlan a las células, que quien lo hace es la membrana leyendo señales del entorno, y que como el cerebro interpreta el entorno de una persona, sus creencias acaban gobernando su biología. De ahí concluye que se puede enfermar y sanar cambiando lo que uno cree.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta son dos cosas. La primera es un correctivo que hacía falta en 2005: contra la idea de que la secuencia de alguien es su destino, la respuesta correcta es que un gen no hace nada hasta que algo se lo pide. La segunda es la imagen de la membrana como panel de mandos, que es la mejor explicación divulgativa de cómo decide una célula que se puede encontrar en un libro de este estante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. En el salto, que ocupa una frase y sostiene el resto del libro: pasar del entorno químico de una célula al entorno mental de una persona como si fueran lo mismo. La epigenética, que es la palabra con la que se avala ese salto, tiene sus pruebas en comida y en hambre —los ratones <em>agouti</em> en 2003, los concebidos en la hambruna holandesa medidos en 2008—, no en pensamientos. La cifra del noventa y cinco por ciento del subconsciente, la más citada del libro, no tiene ninguna fuente. Y el problema mayor es el que nunca aborda: si creer enferma, el enfermo tiene la culpa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después. La palabra epigenética se ha convertido en la etiqueta que respalda casi cualquier cosa en el estante de bienestar, y este libro es una de las razones; los investigadores del campo piden desde hace años que se distinga lo que demuestra de lo que se le atribuye. Lipton no ha vuelto a publicar investigación revisada por pares. Mientras tanto, la parte de su libro que sí tenía pruebas —el placebo— se ha desarrollado en serio por su cuenta: hoy hay ensayos con placebos declarados, en los que se le dice al paciente lo que toma y funcionan igual, que es un resultado más raro y más interesante que todo lo que este libro promete.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "biologia-creencia": BIOLOGIA_CREENCIA,
   "futuro-nuestra-mente": FUTURO_NUESTRA_MENTE,
   "hombres-no-escuchan": HOMBRES_NO_ESCUCHAN,
   "cinco-heridas": CINCO_HERIDAS,
