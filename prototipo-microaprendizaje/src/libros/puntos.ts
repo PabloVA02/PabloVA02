@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "amor-tiempos-colera": [
+    "por qué se cae en dos minutos algo que llevaba dos años creciendo",
+    "qué sostiene de verdad un matrimonio de cincuenta años",
+    "para quién acaba siendo una espera muy larga",
+    "qué hay debajo de la historia de amor con la que termina el libro",
+    "en qué hay que fijarse cuando alguien te dice que te ha esperado",
+  ],
+
   "caballero-armadura": [
     "cómo se acaba encerrado sin haberlo decidido ningún día",
     "por qué dar más de lo mismo no sustituye a lo que te piden",

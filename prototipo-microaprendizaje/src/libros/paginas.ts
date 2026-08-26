@@ -90684,7 +90684,272 @@ const CABALLERO_ARMADURA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El amor en los tiempos del colera, en ocho paginas.
+
+   Breve. NARRATIVA -> titulo corto de imagen en el rotulo y afirmacion en la
+   primera frase (apartado 3 bis). Caja en segunda persona con leccion.
+
+   Apartado 4 bis, contar lo que casi nadie cuenta. Lo sabido: es LA novela
+   romantica, el hombre que espera cincuenta y un anos. Lo que la novela dice y
+   casi ningun resumen recoge: que durante esa espera Florentino lleva la cuenta
+   de seiscientas veintidos mujeres en unos cuadernos, y que al final del libro
+   hay una nina de catorce anos, su pupila, que se mata cuando el la deja.
+   Garcia Marquez pone las pruebas contra su propio heroe y deja que el lector
+   haga la cuenta.
+
+   No se moraliza ni se convierte el resumen en una denuncia: se cuenta lo que
+   esta en el libro, que es mucho mas incomodo que su fama.
+
+   La conclusion: la muerte de America Vicuna ocupa unas paginas y no tiene
+   ninguna consecuencia en la trama, y la ironia del narrador no basta ahi.
+   -------------------------------------------------------------------------- */
+
+const AMOR_TIEMPOS_COLERA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un hombre que cuenta los días" },
+      {
+        b: "texto",
+        texto:
+          "Gabriel García Márquez publicó esta novela en 1985, tres años después del Nobel, y su dato más famoso es una cifra: cincuenta y un años, nueve meses y cuatro días. Es lo que Florentino Ariza espera a Fermina Daza desde que ella le dice que no hasta que se lo vuelve a decir todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ocurre en una ciudad portuaria del Caribe que no se nombra y que se parece mucho a Cartagena de Indias, entre finales del siglo XIX y los años treinta. El cólera aparece en el título por dos motivos: hubo epidemias reales, y en el libro los síntomas del enamoramiento y los de la enfermedad se confunden a propósito más de una vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Todo el mundo la conoce como la gran novela romántica en español, y esa fama es exacta a medias. La historia de la espera está ahí y está escrita con una belleza que no admite discusión. Lo que casi ningún resumen cuenta es qué hace ese hombre durante los cincuenta y un años, y el libro lo cuenta con detalle.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre cómo empieza aquello, por qué ella lo deja en dos minutos, con quién se casa y qué clase de matrimonio es, en qué consiste de verdad la espera de él, qué pasa el día en que muere el marido, cómo termina la novela y por qué conviene leerla con más cuidado del que se le suele dar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La cifra que hizo famosa la novela son cincuenta y un años de espera. Lo que casi nadie cuenta es qué hizo ese hombre durante ellos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cartas que nadie leyó en voz alta" },
+      {
+        b: "texto",
+        texto:
+          "Florentino Ariza tiene dieciocho años, trabaja de telegrafista, es hijo natural y no tiene nada. Ve a Fermina Daza una tarde, mientras le lleva un telegrama a su padre, y la ve leyendo con su tía en el patio. A partir de ese momento se sienta en el parque a mirarla todos los días durante meses.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que viene después es una relación hecha entera de papel. Le escribe cartas larguísimas, ella le contesta, se pasan mensajes a escondidas, se comprometen por escrito y planean una vida sin haber estado nunca a solas ni haber hablado más de unas frases. La novela lo dice sin subrayarlo: se están enamorando de lo que escriben.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El padre de ella, Lorenzo Daza, un arriero enriquecido con negocios turbios que quiere para su hija otra cosa, se la lleva de viaje durante meses para que se le pase. No funciona: Fermina sigue escribiéndole desde cada pueblo, y vuelve tan decidida como se fue. La separación no rompe nada, y ahí está el detalle.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que lo rompe es verse. En el mercado, entre la gente, Fermina se da la vuelta y se lo encuentra delante, y lo que siente no es lo que llevaba dos años sintiendo por carta. Le dice que no, que por favor lo olvide, y se va. La novela describe ese instante como el desmoronamiento de una ilusión, y dura un párrafo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se puede querer durante años a alguien a quien no se ha tratado, y descubrir en dos minutos que lo que se quería era otra cosa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un matrimonio que funciona" },
+      {
+        b: "texto",
+        texto:
+          "Fermina se casa con Juvenal Urbino, médico formado en París, hijo de una familia antigua y el hombre más respetable de la ciudad. Ha combatido las epidemias de cólera, ha modernizado el alcantarillado y el mercado, y su apellido abre todas las puertas. No es un villano ni un impostor: es exactamente lo que aparenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí está uno de los aciertos que menos se comentan del libro. García Márquez podría haber escrito un marido odioso para que el lector deseara la vuelta de Florentino, y hace lo contrario: escribe un matrimonio largo, real y bastante bueno, con cincuenta años de conversación, costumbres, hijos, viajes y peleas de casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo dedicado a ese matrimonio es de lo mejor que escribió sobre la convivencia. Discuten por el jabón del baño durante meses. Ella descubre una infidelidad de él y se va una temporada a casa de una prima. Se reconcilian sin discursos. Envejecen ayudándose a vestirse y sabiendo cada uno lo que el otro va a decir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La novela deja ahí una afirmación que va contra su propia fama. El amor de la juventud, el que se escribe en cartas y no se prueba nunca, no es el que sostiene una vida; y lo que sostiene una vida se parece bastante poco al arrebato y bastante más a llevar cincuenta años haciéndose sitio en el mismo cuarto de baño.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que sostiene una vida no se parece al arrebato: se parece a llevar cincuenta años haciéndose sitio en el mismo cuarto de baño.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los cuadernos con las cuentas" },
+      {
+        b: "texto",
+        texto:
+          "Aquí está lo que la fama del libro se salta. Florentino Ariza espera cincuenta y un años, y durante ese tiempo lleva por escrito, en unos cuadernos, la relación de las mujeres con las que se acuesta. Al final del libro suman seiscientas veintidós, sin contar las que no llegó a anotar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle no es un adorno ni un chiste del narrador: está puesto ahí para que se vea. Florentino sostiene durante toda su vida que se conserva virgen para Fermina, y lo sostiene contando por escrito seiscientas relaciones, algunas con mujeres a las que hace daño, otras con viudas, otras con criadas y una con una mujer casada a la que asesinan por su causa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "García Márquez no comenta esa contradicción en ningún momento: la coloca y sigue. Y esa decisión es lo que convierte el libro en algo bastante más interesante que una novela de amor. El lector recibe las pruebas contra el protagonista con el mismo tono lírico con el que recibe su devoción, y tiene que hacer la cuenta él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También está lo que Florentino hace con su vida mientras tanto, que es prosperar. Entra en la compañía fluvial de su tío, asciende durante décadas y acaba siendo el presidente, y en buena medida porque no tiene familia ni distracciones. La espera no le paraliza: le organiza la vida entera alrededor de un objetivo y le hace rico.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una espera muy larga deja de ser por alguien en algún momento y pasa a ser por uno mismo, y quien espera casi nunca lo nota.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un loro en un árbol de mango" },
+      {
+        b: "texto",
+        texto:
+          "El doctor Urbino muere a los ochenta y un años de la manera más absurda posible, y García Márquez lo escribe así a propósito. Se sube a una escalera en el patio de su casa para bajar del árbol de mango a un loro que se le ha escapado, se cae y se muere unas horas después, con su mujer al lado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa misma noche, con la casa llena de gente y el cadáver todavía en el salón, Florentino Ariza se acerca a Fermina, le da el pésame y le dice que lleva medio siglo esperando esa ocasión para repetirle su juramento de amor eterno. Ella lo echa de su casa y le pide que no vuelva en el resto de su vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena es magistral porque es a la vez conmovedora y monstruosa, y la novela la escribe sin decidir cuál de las dos cosas es. Un hombre que ha esperado cincuenta y un años no es capaz de esperar una semana más; y esa incapacidad, después de medio siglo de paciencia, dice bastante de qué clase de espera fue aquella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que viene después es lo mejor del último tercio. Florentino empieza a escribirle otra vez, y esta vez no escribe cartas de enamorado de dieciocho años: escribe reflexiones sobre la vejez, sobre la muerte y sobre lo que queda. Fermina, que tiene setenta y dos años y acaba de enviudar, empieza a esperarlas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Después de cincuenta y un años de paciencia no fue capaz de esperar una semana. Eso dice bastante de para quién era la espera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La niña que nadie recuerda" },
+      {
+        b: "texto",
+        texto:
+          "Hay una parte del libro que casi ningún resumen menciona y que hay que contar, porque está en el centro del final. Florentino, ya con setenta y tantos años, es el tutor de América Vicuña, una parienta lejana de catorce años a la que la familia le confía para que estudie en la ciudad, y mantiene una relación sexual con ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La novela lo cuenta sin escándalo y con el mismo tono con el que cuenta lo demás, que es precisamente lo que lo hace difícil de leer. Y cuando Fermina enviuda y Florentino se vuelca en ella, deja de ver a la niña sin explicarle nada. América Vicuña se envenena, y su muerte ocupa unas pocas páginas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hay que decir sobre eso es sencillo. La historia de amor con la que termina el libro, la que ha convertido esta novela en un clásico romántico, está construida encima de una muerta de catorce años, y la novela lo sabe: coloca esa muerte justo antes del viaje final, donde no se puede ignorar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "García Márquez no absuelve a su personaje ni lo condena: pone el dato y sigue adelante con el idilio de los ancianos como si nada. Es la decisión más discutible del libro, y también la que explica por qué esta novela no es lo que la mayoría de la gente cree recordar de ella.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La historia de amor con la que termina este libro está construida encima de una muerta de catorce años, y la novela lo pone a la vista.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La bandera amarilla del cólera" },
+      {
+        b: "texto",
+        texto:
+          "El final es una de las mejores imágenes que escribió. Los dos ancianos suben a un barco de vapor de la compañía de Florentino para hacer un viaje por el río Magdalena, y él, para que no suba nadie más y para que no los obliguen a atracar, ordena izar la bandera amarilla del cólera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La jugada es exacta y por eso funciona: la señal que anuncia una epidemia sirve para conseguir estar a solas. El barco navega arriba y abajo sin poder detenerse en ningún puerto, con dos pasajeros de más de setenta años, y el capitán acaba preguntando cuánto tiempo piensan seguir así. La respuesta es la última frase del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y en ese viaje hay algo que suele pasarse por alto y que García Márquez pone deliberadamente: el río está muerto. Han talado los bosques de las orillas para alimentar las calderas de los barcos, ya no hay manatíes, ni caimanes, ni casi leña, y la compañía que Florentino dirige es una de las que lo han arrasado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El idilio final navega por un paisaje destruido y por el negocio del propio protagonista. Es una novela que, mientras cuenta el amor eterno, va poniendo al lado y sin comentarlo la factura de todo: el río, la niña, las seiscientas veintidós mujeres y medio siglo de una vida organizada alrededor de una idea.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La señal que anuncia una epidemia les sirve para estar solos. Casi todo lo bonito de este libro se paga con algo que está al lado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que esta novela hace y casi nadie le reconoce es contar tres clases de amor a la vez y no decidir cuál gana. El de la juventud, que se escribe en cartas y se cae al ver a la persona. El del matrimonio, que dura cincuenta años y se parece a la convivencia. Y el de la vejez, que llega cuando ya no queda tiempo para inventarse a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en América Vicuña. Su muerte ocupa unas páginas, no tiene ninguna consecuencia en la trama, ningún personaje vuelve a nombrarla y el libro sigue hacia su final feliz. La distancia irónica del narrador funciona con casi todo lo demás de Florentino, y ahí no es suficiente: es un hueco, y de los grandes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también, aunque sea otro tipo de fallo, en cómo se ha leído. Cuarenta años de portadas, adaptaciones y frases de calendario han dejado en la cabeza de mucha gente una historia de fidelidad absoluta, cuando el libro pone por escrito lo contrario y lleva la cuenta. La novela es mejor de lo que su fama sugiere, y bastante más incómoda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y conviene leerla sabiendo lo que está haciendo. García Márquez no escribió un elogio de la constancia: escribió a un hombre capaz de contar sus días y sus mujeres en los mismos cuadernos, y dejó las dos cuentas a la vista. Lo que la convierte en una gran novela no es que su protagonista tenga razón, sino que el autor no le protege.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Fíjate en lo que hace alguien durante la espera y no en cuánto espera. Lo primero dice de él todo lo que lo segundo esconde.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "amor-tiempos-colera": AMOR_TIEMPOS_COLERA,
   "caballero-armadura": CABALLERO_ARMADURA,
   "buena-suerte": BUENA_SUERTE,
   "tiempo-entre-costuras": TIEMPO_ENTRE_COSTURAS,

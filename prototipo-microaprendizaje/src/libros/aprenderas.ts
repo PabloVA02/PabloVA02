@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "amor-tiempos-colera":
+    "Florentino Ariza espera a Fermina Daza cincuenta y un años, nueve meses y cuatro días. Lo que casi ningún resumen cuenta es qué hace durante esa espera, y la novela lo anota con detalle en unos cuadernos.",
+
   "caballero-armadura":
     "Un caballero se pone la armadura para estar preparado y deja de quitársela para dormir, luego para comer, y al final nunca. El día que su mujer le dice que se va porque ya no recuerda su cara, descubre que el metal se ha oxidado y no abre.",
 
