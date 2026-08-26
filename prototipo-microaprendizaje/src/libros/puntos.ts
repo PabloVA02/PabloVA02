@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "enamorate-de-ti": [
+    "cómo se comprueba una creencia que tienes sobre ti desde hace veinte años",
+    "por qué la confianza aparece después de hacerlo y no antes",
+    "qué te dices después de un error y cómo suena dicho a otro",
+    "qué derechos niega casi cualquier relación en la que te sientes atrapado",
+    "en qué dirección va de verdad la flecha entre la autoestima y los resultados",
+  ],
+
   "mente-en-forma": [
     "cuánto dura la ventana de atención que deja una sesión de ejercicio",
     "por qué un mecanismo plausible no demuestra que sea el que actúa",

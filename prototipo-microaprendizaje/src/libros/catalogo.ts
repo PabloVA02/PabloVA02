@@ -347,7 +347,7 @@ export const CATALOGO: Ficha[] = [
   { id: "hombres-marte-mujeres-venus", titulo: "Los hombres son de Marte, las mujeres son de Venus", autor: "John Gray", ano: 1992, categoria: "Psicología", estado: "escrito" },
   { id: "mujeres-aman-demasiado", titulo: "Mujeres que aman demasiado", autor: "Robin Norwood", ano: 1985, categoria: "Psicología", estado: "escrito" },
   { id: "amar-o-depender", titulo: "Amar o depender", autor: "Walter Riso", ano: 1999, categoria: "Psicología", estado: "escrito" },
-  { id: "enamorate-de-ti", titulo: "Enamórate de ti", autor: "Walter Riso", ano: 2012, categoria: "Psicología", estado: "pendiente" },
+  { id: "enamorate-de-ti", titulo: "Enamórate de ti", autor: "Walter Riso", ano: 2012, categoria: "Psicología", estado: "escrito" },
   { id: "comunicacion-no-violenta", titulo: "Comunicación no violenta", autor: "Marshall Rosenberg", ano: 1999, categoria: "Psicología", estado: "escrito" },
   { id: "conversaciones-cruciales", titulo: "Conversaciones cruciales", autor: "Patterson, Grenny, McMillan y Switzler", ano: 2002, categoria: "Psicología", estado: "escrito" },
   { id: "ninos-escuchen", titulo: "Cómo hablar para que los niños escuchen", autor: "Adele Faber y Elaine Mazlish", ano: 1980, categoria: "Psicología", estado: "escrito" },

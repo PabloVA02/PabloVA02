@@ -107397,7 +107397,295 @@ const MENTE_EN_FORMA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Enamórate de ti, de Walter Riso (2012), en ocho páginas.
+
+   Libro práctico, registro de tú: apartado 4.7.
+
+   La sexta página trae la revisión de 2003 que dio la vuelta a este campo
+   nueve años antes de publicarse el libro, y la séptima la alternativa que
+   ha resultado funcionar mejor. Las dos van dentro y no escondidas en la
+   conclusión, porque cambian lo que hay que hacer con el libro.
+   -------------------------------------------------------------------------- */
+
+const ENAMORATE_DE_TI: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Riso sostiene que la autoestima no es un sentimiento, sino cuatro cosas distintas que se estropean por separado",
+      },
+      {
+        b: "texto",
+        texto:
+          "El consejo habitual sobre autoestima es inútil por un motivo concreto: trata como una sola cosa lo que son varias. Decirle a alguien que se quiera más no dice qué hacer, del mismo modo que decirle a alguien que esté más sano no dice si le falta dormir, moverse o dejar de fumar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Walter Riso es psicólogo clínico de orientación cognitivo-conductual, nacido en Italia, criado en Argentina y establecido durante décadas en Colombia, y es uno de los autores de psicología divulgativa más vendidos en español. Publicó este libro en 2012 y su aportación principal es un reparto en cuatro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los cuatro son: lo que uno piensa que es, lo que uno ve al mirarse, cómo se trata a sí mismo y hasta qué punto se cree capaz de hacer cosas. Y su tesis práctica es que son independientes, así que alguien puede tener tres en buen estado y uno destrozado, y trabajar en los tres que ya funcionan no cambia nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre los cuatro, lo que sirve de cada uno, y también lo que este libro no recoge: una revisión que en 2003 puso en duda buena parte de lo que se creía sobre la autoestima, y una alternativa desarrollada desde entonces que ha resultado funcionar mejor y que aquí no aparece.",
+      },
+      {
+        b: "idea",
+        texto:
+          "«Quiérete más» no dice qué hacer, igual que «cuídate más» no dice si te falta dormir o moverte. Primero hay que saber cuál de las cuatro falla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que uno cree que es no se cambia repitiéndose lo contrario, sino buscando dónde no se cumple",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera pieza es el conjunto de creencias que alguien tiene sobre sí mismo: soy desordenado, no se me dan bien los números, no valgo para hablar en público. Riso señala que casi todas se formaron pronto, a menudo a partir de un comentario suelto de alguien, y que desde entonces no se han vuelto a comprobar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El método que propone viene directamente de la terapia cognitiva y no consiste en negarlas. Consiste en tratarlas como lo que son, hipótesis, y buscar los casos en que no se cumplieron: las veces que sí se habló en público, las veces que sí se organizó algo, los momentos en que ocurrió lo contrario de la creencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esos casos casi siempre existen y casi nunca cuentan, y eso es lo interesante. Quien está convencido de que no vale para algo descarta las excepciones como suerte, como casualidad o como que aquella vez era distinto, y esa manera de tratar los datos es lo que mantiene intacta la creencia durante veinte años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Riso insiste además en una distinción que evita el error del género. Cambiar una creencia no es sustituirla por otra más favorable, porque una creencia sin pruebas no se sostiene aunque sea agradable. Es hacerla más precisa: no valgo para hablar en público se convierte en me pongo nervioso los primeros cinco minutos, que es cierto y además manejable.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando estás seguro de que no vales para algo, busca las veces que sí salió. Existen, y las estás descartando como suerte o como casualidad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Creerse capaz de una cosa concreta no es lo mismo que tener buena opinión de uno mismo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La pieza mejor fundamentada de las cuatro es la última y no es de Riso: viene del psicólogo Albert Bandura, que la formuló en los años setenta. Es la confianza en poder hacer una tarea determinada, y su rasgo esencial es que es específica: alguien puede tener mucha confianza conduciendo y ninguna negociando un sueldo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa especificidad la separa de la autoestima general y la vuelve mucho más útil, porque se puede construir. La confianza en algo concreto se genera sobre todo haciendo esa cosa concreta y consiguiéndola, empezando por versiones fáciles y subiendo, y en segundo lugar viendo a alguien parecido a uno conseguirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que casi no funciona es exactamente lo que más se hace: que alguien te diga que puedes. El ánimo ajeno tiene un efecto pequeño y pasajero comparado con el de haberlo hecho una vez, aunque sea en una versión reducida, y por eso los planes que empiezan por un objetivo grande fallan tanto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es de tamaño. Ante algo que a alguien le da miedo intentar, la pregunta útil no es cómo tener más confianza, sino cuál es la versión más pequeña de eso que se puede hacer esta semana. Después de hacerla, la confianza aparece sola, y no antes, que es lo que casi todo el mundo espera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa distinción resuelve además una confusión frecuente. Alguien puede tener una opinión general muy pobre de sí mismo y ser extraordinariamente competente en su oficio, y las dos cosas conviven sin contradicción porque miden cosas distintas. Confundirlas lleva a intentar arreglar con motivación lo que era una falta de práctica, y al revés.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La confianza no aparece antes de intentarlo: aparece después de haberlo hecho una vez, aunque sea en una versión ridículamente pequeña.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Tratarse bien a uno mismo es una conducta observable y casi nadie la practica",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera pieza es la que Riso llama autorrefuerzo y la que menos aparece en otros libros. No se trata de pensar bien de uno mismo, sino de algo comprobable desde fuera: si alguien se concede descansos, se felicita cuando algo sale bien, se permite cosas que le gustan y se trata con la misma consideración con la que trataría a otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La observación clínica que aporta es que mucha gente con problemas de autoestima se comporta consigo misma de una manera que consideraría intolerable con cualquier otra persona: se habla con desprecio, se castiga por errores pequeños, se niega descansos que sí concedería a un compañero y no celebra nunca nada porque siempre falta algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba que propone es sencilla y desagradable: escribir lo que uno se dice a sí mismo después de cometer un error, y leerlo imaginando que se lo está diciendo a un amigo. Casi nadie soportaría oír eso dirigido a otra persona, y casi todo el mundo se lo dice a sí mismo varias veces por semana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que propone a cambio no es hablarse con dulzura, que suena falso y no se sostiene. Es hablarse como uno le hablaría a alguien que le importa y que ha cometido ese mismo error: reconociendo el fallo, señalando lo que hay que corregir y sin añadir el juicio global sobre la persona, que es la parte que no sirve para nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribe lo que te dices después de un error y léelo como si se lo dijeras a un amigo. Casi nadie soportaría oír eso dirigido a otro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La lista de derechos asertivos es la herramienta más antigua del libro y la que más se usa",
+      },
+      {
+        b: "texto",
+        texto:
+          "Buena parte del trabajo de Riso trata de relaciones de dependencia, y su instrumento principal en ese terreno es una lista de derechos que no inventó él: procede de la tradición del entrenamiento asertivo de los años setenta, y consiste en enunciados que parecen obvios hasta que uno intenta aplicarlos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los principales son cinco. Tienes derecho a decir que no sin dar explicaciones. A cambiar de opinión. A cometer errores y hacerte responsable de ellos. A decir que no lo sabes o que no lo entiendes. Y a que no te gusten cosas que a los demás sí les gustan, sin tener que justificarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su utilidad no es teórica sino de discusión concreta. Casi todas las relaciones en las que alguien se siente atrapado funcionan negando alguno de esos puntos: hay que explicar cada negativa, no se puede cambiar de idea sin que sea una traición, un error se convierte en un juicio sobre la persona. Tener la lista permite nombrar qué está pasando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Riso añade el matiz que impide usarla mal, y hace falta. Un derecho no es una excusa: se puede decir que no sin dar explicaciones y aun así se tienen obligaciones con la gente, y la diferencia entre ser asertivo y ser desconsiderado está en si lo que se defiende es el propio criterio o simplemente la propia comodidad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tienes derecho a decir que no sin explicarte y a cambiar de opinión. Casi toda relación asfixiante funciona negando alguno de esos dos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Nueve años antes de este libro, una revisión puso en duda casi todo lo que se prometía de la autoestima",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un episodio en la historia de este asunto que el libro no menciona y que cambia cómo hay que leerlo. Durante los años ochenta y noventa se extendió la idea de que la autoestima alta era la clave de casi todo, y se montaron programas escolares enteros para elevarla, sobre todo en Estados Unidos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2003, un equipo dirigido por Roy Baumeister revisó por encargo toda la evidencia disponible sobre las consecuencias de la autoestima alta. Su conclusión fue demoledora para aquellos programas: no mejoraba el rendimiento escolar, no reducía el consumo de alcohol ni de tabaco, y no prevenía las conductas de riesgo que se decía que prevenía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Encontraron dos beneficios reales y modestos: la gente con autoestima alta declara sentirse más feliz y tiende a tomar más iniciativa. Y encontraron algo incómodo: la relación con el rendimiento escolar iba mayoritariamente en la dirección contraria. Sacar buenas notas subía la autoestima, y no al revés.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso no invalida trabajar sobre uno mismo, y sí cambia el orden. Si la autoestima es en buena parte un resultado de lo que a uno le va saliendo, entonces la vía principal para mejorarla no es trabajar sobre la opinión que uno tiene de sí mismo, sino conseguir cosas concretas, que es exactamente la pieza de la capacidad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Sacar buenas notas sube la autoestima; la autoestima alta no sube las notas. La flecha va casi siempre en la dirección que menos se cuenta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que ha resultado funcionar mejor no es quererse más, sino tratarse como se trataría a otro",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ese callejón sin salida surgió otra manera de plantearlo que el libro no recoge y que hoy está mucho mejor estudiada. La desarrolló la psicóloga Kristin Neff desde 2003 y se llama autocompasión, aunque el nombre en español despista, porque no tiene nada que ver con compadecerse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su diferencia con la autoestima es de fondo. La autoestima es comparativa y condicional: para sentirse valioso hay que estar por encima de alguien o haber conseguido algo, así que sube y baja con los resultados y se defiende con agresividad cuando alguien la amenaza. La autocompasión no compara y no depende de resultados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tiene tres partes concretas. Tratarse con la misma amabilidad con la que uno trataría a un amigo en la misma situación; reconocer que fallar y pasarlo mal es lo que le pasa a todo el mundo y no una anomalía personal; y mirar lo que se siente sin exagerarlo ni negarlo. Las tres son entrenables y se han probado en ensayos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los resultados acumulados desde entonces apuntan en la misma dirección: quienes puntúan alto en esto tienen menos ansiedad y menos depresión, se recuperan mejor de un fracaso y, sobre todo, siguen intentando cosas difíciles después de fallar, que es justo lo que la autoestima alta y frágil no consigue. Curiosamente, la tercera pieza de Riso, la de tratarse bien, apunta ahí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La autoestima sube y baja con los resultados. Tratarse como se trataría a un amigo no depende de ellos, y es lo que permite volver a intentarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la autoestima no es una cosa sino cuatro que se estropean por separado, que las creencias sobre uno mismo son hipótesis que casi nunca se han vuelto a comprobar, que la confianza en algo concreto se construye haciéndolo y no oyendo ánimos, y que mucha gente se trata a sí misma de una manera que no toleraría en otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a los libros de autoayuda del mismo estante es que su autor es clínico y se nota. No propone afirmaciones ni visualizaciones: propone identificar creencias, buscar los casos que las contradicen y cambiar conductas concretas, que es el procedimiento de una terapia con respaldo y no el de un método inventado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Averigua cuál de las cuatro está rota antes de trabajar en nada. Trabajar en las tres que ya funcionaban es lo que hace que esto no sirva.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. No hay prácticamente ninguna referencia en todo el libro: la evidencia son casos de consulta. El reparto en cuatro componentes es suyo y resulta útil, pero no es una estructura validada en la investigación, y conviene saberlo antes de tomárselo como un diagnóstico. Y su autor publica a un ritmo muy alto, con bastante material repetido entre títulos, así que quien lea dos libros suyos leerá lo mismo dos veces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un hueco que importa más que todo lo anterior. La revisión de 2003 sobre las consecuencias de la autoestima —que encontró que casi ninguno de los beneficios prometidos existía y que la relación con el rendimiento va en la dirección contraria a la que se creía— se publicó nueve años antes que este libro, y no aparece. Tampoco aparece la línea de trabajo que surgió de ese callejón, la de tratarse como se trataría a un amigo, que desde entonces ha acumulado bastante más respaldo que el concepto que da título al libro.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "enamorate-de-ti": ENAMORATE_DE_TI,
   "mente-en-forma": MENTE_EN_FORMA,
   "ninos-escuchen": NINOS_ESCUCHEN,
   "arte-de-empezar": ARTE_DE_EMPEZAR,

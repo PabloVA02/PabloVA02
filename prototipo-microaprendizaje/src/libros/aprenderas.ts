@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "enamorate-de-ti":
+    "Decirle a alguien que se quiera más no dice qué hacer, igual que decirle que se cuide no dice si le falta dormir o moverse. Riso reparte la autoestima en cuatro piezas que se estropean por separado.",
+
   "mente-en-forma":
     "Una sola sesión de ejercicio moderado mejora de forma medible la atención durante un par de horas. Suzuki, neurocientífica, cambió la línea de su laboratorio al notarlo en sí misma.",
 
