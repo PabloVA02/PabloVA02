@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "sobre-la-libertad": [
+    "por qué el bien de alguien no basta para obligarle a nada",
+    "que la desaprobación de los que te rodean asfixia más que una ley",
+    "cómo una verdad que nadie discute se convierte en un prejuicio",
+    "dónde deja de estar protegida una opinión y por qué motivo",
+    "qué le pasa a un principio cuando admite excepciones para algunos",
+  ],
+
   nexus: [
     "por qué en una red sin filtros gana lo que mejor se propaga",
     "que un archivo divide el mundo en cajones inventados y acaba fabricándolo",

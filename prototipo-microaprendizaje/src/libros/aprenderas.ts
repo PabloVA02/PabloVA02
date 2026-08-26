@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "sobre-la-libertad":
+    "Mill sostiene en 1859 que el único motivo legítimo para obligar a alguien es impedir un daño a otro, y que su propio bien nunca basta. De ahí salió el criterio con el que hoy se discute casi cualquier prohibición.",
+
   nexus:
     "La imprenta difundió mucho mejor un manual para cazar brujas de 1487 que la astronomía de Copérnico. Harari usa casos así para sostener que más información nunca ha producido más verdad.",
 

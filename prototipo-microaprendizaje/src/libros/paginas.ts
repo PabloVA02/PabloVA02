@@ -98899,7 +98899,302 @@ const NEXUS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Sobre la libertad, de John Stuart Mill (1859), en ocho páginas.
+
+   Ensayo filosófico, así que el registro del apartado 3 bis para ensayo:
+   titular que afirma algo discutible, y TERCERA PERSONA.
+
+   La séptima página está dedicada entera a la excepción colonial que Mill
+   escribió en el capítulo primero y que casi ninguna edición divulgativa
+   cita. No es una nota al margen: es una frase del propio texto y su autor
+   trabajó treinta y cinco años para la Compañía de las Indias.
+   -------------------------------------------------------------------------- */
+
+const SOBRE_LA_LIBERTAD: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Mill sostiene que el único motivo legítimo para obligar a alguien es impedir que dañe a otro",
+      },
+      {
+        b: "texto",
+        texto:
+          "La frase que ordena el libro entero está en el primer capítulo y cabe en dos líneas: el único fin por el que está justificado ejercer poder sobre un miembro de una comunidad civilizada, contra su voluntad, es evitar un daño a otros. Su propio bien, físico o moral, no es justificación suficiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Puesto así parece obvio, y no lo era en 1859 ni lo es hoy. La afirmación excluye de un plumazo casi todos los motivos por los que las sociedades han prohibido cosas a lo largo de la historia: que sea inmoral, que degrade a quien lo hace, que ofenda a la mayoría, que vaya contra la costumbre o que perjudique a quien lo elige.",
+      },
+      {
+        b: "texto",
+        texto:
+          "John Stuart Mill fue economista, funcionario colonial y después diputado, y escribió este ensayo con su mujer, Harriet Taylor, que murió el año antes de publicarse. Él sostuvo siempre que las ideas eran de los dos y que la parte que a él le correspondía era sobre todo la redacción.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre sus argumentos y sus grietas: por qué considera que la mayoría tiraniza más que un gobierno, por qué silenciar una opinión falsa perjudica a quien tiene razón, cómo una verdad se convierte en prejuicio, por qué la línea que separa lo propio de lo ajeno no aguanta, y qué excepción escribió que casi nadie cita.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que algo perjudique a quien lo elige no basta para prohibirlo. Esa frase excluye la mayor parte de los motivos por los que se ha prohibido algo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La opinión de la mayoría oprime más que un gobierno, porque de ella no se puede uno mudar",
+      },
+      {
+        b: "texto",
+        texto:
+          "El aviso más original del libro no va dirigido contra los reyes. Mill sostiene que en su época el peligro había cambiado de sitio: en un país con elecciones y con prensa, la amenaza para quien piensa distinto ya no era el poder político, sino la presión de la opinión mayoritaria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento sobre por qué esa presión es peor está en el alcance. Un gobierno puede prohibir conductas y castigarlas, pero opera con leyes escritas, tribunales y límites, y de un país se puede emigrar. La costumbre social, en cambio, entra en la casa, en el trato entre vecinos, en el trabajo y en la familia, y no admite recurso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A ese fenómeno lo llama la tiranía de la mayoría, y describe su efecto sobre las personas: quien vive rodeado de una desaprobación constante acaba no ya ocultando lo que piensa, sino dejando de pensarlo, porque mantener una posición sin ningún apoyo alrededor exige una energía que casi nadie tiene durante años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese diagnóstico explica por qué buena parte del libro no pide cambios legales sino de costumbres. Mill sostiene que una sociedad puede tener todas las libertades escritas en su constitución y ser asfixiante, si en la práctica desviarse del modo de vida corriente cuesta el trabajo, las amistades y el trato de la propia familia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "De una ley se puede recurrir y de un país se puede emigrar. De la desaprobación de los que te rodean todos los días no hay a dónde irse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Silenciar una opinión perjudica sobre todo a quienes tienen razón" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo segundo, sobre la libertad de expresión, es la mejor parte del libro y su argumento es más fino que el habitual. Mill no defiende que cada uno tenga derecho a decir lo suyo: defiende que impedir que se diga daña a la sociedad entera, y que el daño es mayor cuando la opinión silenciada era falsa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El razonamiento tiene cuatro pasos. Primero: la opinión que se quiere callar podría ser verdadera, y suponer lo contrario es dar por hecha la propia infalibilidad. Segundo: aunque sea mayoritariamente falsa, suele contener una parte de verdad que solo aparece en el choque, porque la opinión dominante rara vez es la verdad completa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tercero, y es el paso original: aunque la opinión recibida sea enteramente cierta, si no se la obliga a defenderse deja de sostenerse por razones y pasa a sostenerse por costumbre. Quien nunca ha oído la objeción no sabe contestarla, así que su verdad se ha convertido en una fórmula que repite sin entender.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuarto paso completa el anterior: sin contestación, hasta el significado de la doctrina se debilita, y acaba siendo una frase que se pronuncia en ciertas ocasiones sin que produzca ningún efecto sobre la conducta. De ahí sale la frase más citada del libro: quien solo conoce su lado del asunto sabe poco de él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mill añade un ejemplo histórico incómodo para sus lectores victorianos. Las persecuciones religiosas del pasado las llevaron a cabo personas sinceramente convencidas de tener razón, y muchas de ellas la tenían en parte. Suponer que uno está libre de ese error por vivir en una época más avanzada es exactamente el error que describe.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien solo conoce su lado del asunto sabe poco de él. No conocer las objeciones no es tener razón: es no saber por qué se tiene.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una verdad que nadie discute se convierte en un prejuicio con buena reputación",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica del capítulo anterior es la que más incomoda, porque no se dirige contra los censores sino contra quienes tienen razón. Mill afirma que una creencia verdadera que ha dejado de discutirse se convierte en dogma muerto: sigue siendo cierta y ha dejado de ser conocimiento para quien la sostiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba que propone se puede hacer en cualquier conversación. Si alguien defiende una posición y no es capaz de exponer el mejor argumento del otro lado con la fuerza suficiente para que un partidario de ese lado la reconociera como suya, entonces no ha entendido el asunto: ha aprendido una conclusión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su recomendación sobre la enseñanza, que va contra la manera habitual de enseñar cualquier materia. No basta con explicar la posición correcta y mencionar de pasada que hubo quien pensaba otra cosa; hay que exponer la posición contraria en su mejor versión, hecha por alguien que se la crea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mill señala además un efecto secundario que se comprueba a diario. Cuando una posición mayoritaria lleva mucho tiempo sin ser contestada, sus defensores pierden la práctica de argumentar, y ante una objeción reaccionan con indignación en lugar de con razones, porque nunca han necesitado tenerlas a mano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y propone un ejercicio para quien no tenga a nadie enfrente. Si en un asunto ya no queda quien defienda la posición contraria, hay que buscar a los mejores autores que la defendieron cuando aún se discutía, y leerlos a ellos y no a sus resúmenes. Sin eso, dice, la creencia se conserva pero no se posee.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si no puedes exponer el mejor argumento contrario tan bien que su defensor lo reconozca, no has entendido el asunto: has memorizado una conclusión.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La libertad tiene un límite claro, y está en la instigación y no en el contenido",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mill no defiende que todo pueda decirse en cualquier circunstancia, y su manera de trazar el límite sigue siendo la más utilizada. El ejemplo que pone es de su época y funciona igual hoy: sostener por escrito que los comerciantes de grano matan de hambre a los pobres es una opinión y debe poder publicarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Decir exactamente lo mismo a gritos, ante una multitud excitada y reunida delante de la casa de un comerciante de grano, ya no es una opinión: es una instigación a un acto concreto e inminente, y ahí la protección desaparece. Lo que cambia no es el contenido de la frase, sino la situación en la que se pronuncia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La distinción importa porque separa dos cosas que suelen confundirse. Una idea puede ser detestable y seguir siendo discutible; lo que deja de estar protegido es la llamada a una acción determinada contra personas determinadas en un momento en que esa acción puede ocurrir de inmediato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese criterio ha resistido bien porque no depende de que un juez decida qué ideas son aceptables, que es exactamente lo que Mill quería evitar. Depende de circunstancias comprobables: quién estaba delante, qué se pidió que hicieran y si podían hacerlo en ese momento. Es un límite que se puede verificar sin entrar a valorar la idea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El criterio tiene además una consecuencia que suele olvidarse: protege también a quien opina lo que a casi nadie le gusta. Una libertad que solo ampara las ideas que la mayoría tolera no está amparando nada, porque esas ideas nunca han corrido ningún peligro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que deja de estar protegido no es la idea, es la llamada a hacer algo concreto contra alguien concreto que puede ocurrir ahora mismo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La línea entre lo que solo te afecta a ti y lo que afecta a otros no aguanta el examen",
+      },
+      {
+        b: "texto",
+        texto:
+          "Todo el edificio de Mill descansa en una distinción: los actos que solo conciernen a quien los hace y los que afectan a terceros. Los primeros son intocables y los segundos pueden regularse. El problema es que casi ningún acto pertenece limpiamente al primer grupo, y sus críticos lo señalaron enseguida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El jurista James Fitzjames Stephen publicó en 1873 la objeción de referencia: quien se arruina, se destruye la salud o abandona sus obligaciones no lo hace en el vacío, sino dentro de una familia y de una comunidad que soportan las consecuencias, así que el acto puramente privado casi nunca existe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El propio Mill anticipó parte de esa objeción y contestó con un matiz que sigue siendo útil. Distinguió entre el daño directo y el mero disgusto o la carga difusa: que a alguien le ofenda cómo vive su vecino no es un daño, y que una conducta tenga costes sociales indirectos no basta, porque con ese criterio se puede regular absolutamente todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La discusión no está cerrada y se reproduce cada vez que se debate el consumo de drogas, el casco, el cinturón o el suicidio asistido. Lo que sigue en pie del planteamiento de Mill no es la línea, que es porosa, sino la carga de la prueba: quien quiere prohibir algo tiene que demostrar el daño concreto a un tercero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La línea entre lo propio y lo ajeno es porosa. Lo que sí se sostiene es quién tiene que demostrar qué: el daño lo prueba quien quiere prohibir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El propio Mill escribió una excepción que anula su principio para la mayor parte del mundo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un párrafo del primer capítulo que rara vez se cita en las ediciones divulgativas y que conviene leer entero. Después de enunciar su principio, Mill aclara que está pensado para comunidades civilizadas y que no se aplica a los pueblos que considera atrasados, para los que el despotismo es una forma legítima de gobierno si sirve para mejorarlos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No es un desliz retórico. Mill trabajó treinta y cinco años para la Compañía de las Indias Orientales, la empresa que administró la India británica, y llegó a ocupar en ella un puesto de alta responsabilidad. La excepción no era una nota teórica: describía el sistema en el que él mismo trabajaba y que le pagaba el sueldo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace ese párrafo no es afear la biografía del autor, sino señalar una debilidad del argumento. Si el principio depende de que una sociedad esté suficientemente desarrollada, entonces alguien tiene que decidir cuándo lo está, y quien decide es siempre el que ya tiene el poder. Esa excepción se puede invocar contra cualquiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decirlo sin convertirlo en la única lectura posible. El mismo hombre que escribió aquello propuso siendo diputado el primer voto parlamentario para el sufragio femenino en Inglaterra y publicó diez años después un libro defendiendo la igualdad de las mujeres en el matrimonio. Las dos cosas están en la misma persona y no se anulan entre sí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un principio con una excepción para quienes no están «suficientemente preparados» deja la decisión en manos de quien ya manda. Ahí falla, y no en el ejemplo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El ensayo sostiene que la única razón legítima para obligar a alguien es impedir un daño a un tercero, que la presión social es más asfixiante que la ley, y que silenciar una opinión perjudica sobre todo a quienes tienen razón, porque una verdad que nadie discute deja de sostenerse por razones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su aportación duradera no es una lista de libertades sino un criterio de decisión. Ante cualquier prohibición, obliga a preguntar a quién concretamente daña la conducta, y esa pregunta se puede hacer en cualquier época sin actualizar el libro, que es la razón de que siga en las facultades de derecho.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ante cualquier prohibición, la pregunta es a quién daña esto y con qué prueba. La incomodidad de la mayoría no es una respuesta a esa pregunta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La distinción entre lo que afecta a uno y lo que afecta a otros no resiste, como le objetaron en vida y sigue objetándose, porque casi ninguna conducta ocurre sin consecuencias sobre alguien. La excepción colonial del primer capítulo abre un agujero en el propio principio. Y su idea de que la amenaza principal es la mayoría se queda corta hoy, cuando quien decide qué conversación existe no es una mayoría sino un puñado de empresas privadas, sobre las que este libro no tiene nada que decir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después es una de las trayectorias más comprobables que tiene un libro de filosofía. Su criterio pasó de la teoría al derecho: un informe oficial británico de 1957 lo aplicó para recomendar que las relaciones homosexuales entre adultos dejaran de ser delito, lo que ocurrió diez años más tarde, y aquella recomendación abrió una discusión entre juristas —sobre si una sociedad puede imponer su moral por ley— que se libró a comienzos de los sesenta y que sigue siendo la referencia del asunto. El propio Mill llegó al Parlamento en 1865 y presentó allí la primera enmienda para dar el voto a las mujeres, que fue rechazada por ciento noventa y seis votos contra setenta y tres.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "sobre-la-libertad": SOBRE_LA_LIBERTAD,
   nexus: NEXUS,
   "just-kids": JUST_KIDS,
   "cuatro-pilares-inversion": CUATRO_PILARES_INVERSION,

@@ -127,7 +127,7 @@ export const CATALOGO: Ficha[] = [
   { id: "miedo-libertad", titulo: "El miedo a la libertad", autor: "Erich Fromm", ano: 1941, categoria: "Filosofía", estado: "escrito" },
   { id: "tener-o-ser", titulo: "Tener o ser", autor: "Erich Fromm", ano: 1976, categoria: "Filosofía", estado: "pendiente" },
   { id: "banquete", titulo: "El banquete", autor: "Platón", ano: -385, categoria: "Filosofía", estado: "escrito" },
-  { id: "sobre-la-libertad", titulo: "Sobre la libertad", autor: "John Stuart Mill", ano: 1859, categoria: "Filosofía", estado: "pendiente" },
+  { id: "sobre-la-libertad", titulo: "Sobre la libertad", autor: "John Stuart Mill", ano: 1859, categoria: "Filosofía", estado: "escrito" },
   /* --- Ciencia ---------------------------------------------------------- */
   { id: "breve-historia-tiempo", titulo: "Breve historia del tiempo", autor: "Stephen Hawking", ano: 1988, categoria: "Ciencia", estado: "escrito" },
   { id: "cosmos", titulo: "Cosmos", autor: "Carl Sagan", ano: 1980, categoria: "Ciencia", estado: "escrito" },
