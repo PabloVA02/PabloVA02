@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "historia-interminable":
+    "Un niño roba un libro, se esconde en un desván a leerlo y descubre que la historia habla de él. La película de 1984 termina en la mitad exacta de la novela, justo antes de lo que Ende quería contar.",
+
   "equipo-rivales":
     "Lincoln formó gobierno en 1861 con los tres hombres que habían competido contra él y que lo consideraban un provinciano sin méritos. Goodwin reconstruye por qué lo hizo y qué costó que funcionara.",
 

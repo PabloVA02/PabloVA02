@@ -102124,7 +102124,278 @@ const EQUIPO_RIVALES: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La historia interminable, de Michael Ende (1979), en ocho páginas.
+
+   Novela, así que el registro del apartado 3 bis: titulares cortos de
+   imagen y la afirmación en la primera frase. Las cajas hablan al lector.
+
+   Y lo importante: la cuarta página marca dónde termina la película de
+   1984, porque la mitad del libro que casi nadie ha leído es justamente la
+   que contiene su tesis. Ende repudió aquella adaptación y pleiteó contra
+   ella; eso va en la conclusión.
+   -------------------------------------------------------------------------- */
+
+const HISTORIA_INTERMINABLE: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un libro robado y un desván" },
+      {
+        b: "texto",
+        texto:
+          "La novela empieza con un niño huyendo. Bastián Baltasar Bux es gordo, torpe, ha perdido a su madre hace poco y tres compañeros lo persiguen por la calle. Se mete en una librería de viejo para escapar de ellos, y allí ve sobre una mesa un libro encuadernado en seda color cobre con dos serpientes que se muerden la cola.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El librero le dice que ese no es para él, que es peligroso. Bastián lo roba, falta a clase y se esconde en el desván de su escuela con una manta y unas manzanas. Y empieza a leerlo, sin saber que va a pasar allí un día entero y que ese libro va a hablar de él antes de que termine.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Michael Ende publicó esto en 1979 en Alemania. Su padre había sido un pintor surrealista cuya obra los nazis prohibieron como arte degenerado, y él mismo, con dieciséis años, desertó de las milicias en las que lo habían encuadrado en 1945. Nada de eso aparece en el libro y explica bastante de lo que hay dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que el libro cuenta y lo que casi nadie sabe de él: qué es exactamente la Nada, por qué hace falta un niño humano, en qué página termina la película que todo el mundo ha visto, qué significa de verdad la inscripción del medallón y qué cuesta cada deseo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro que te está esperando suele ser el que alguien te dice que no es para ti. Bastián lo robó porque se lo prohibieron.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La Nada no es oscuridad" },
+      {
+        b: "texto",
+        texto:
+          "Lo que está destruyendo aquel mundo no es un ejército ni un monstruo, y ese acierto es lo que hace grande el libro. Es la Nada: no una oscuridad, ni un vacío negro, sino la ausencia de cualquier cosa, incluida la ausencia. Quien la mira de frente no ve nada, y siente unas ganas irresistibles de arrojarse dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los personajes que se encuentran con ella no pueden describirla. Un enano lo intenta y acaba diciendo que es como quedarse ciego, y que no es eso. Ende escribe una destrucción que no se puede combatir porque no está hecha de nada contra lo que se pueda luchar, y esa idea es mucho más difícil de contar de lo que parece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una explicación en la novela, y llega en boca de un lobo moribundo. Las criaturas de aquel mundo que caen en la Nada no desaparecen: llegan al mundo humano convertidas en mentiras. Un dragón que se pierde allí reaparece aquí como una consigna publicitaria, como una superstición o como un pretexto político.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso Ende cierra el circuito de todo el libro. La imaginación no es un adorno de la infancia: si se abandona, no queda un adulto sensato y libre de fantasías, queda un adulto lleno de mentiras que no ha elegido y que no sabe reconocer, porque las mentiras están hechas exactamente de aquello que dejó de creer.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que se pierde no deja un hueco limpio. Deja mentiras, y las mentiras están hechas del mismo material que aquello que dejaste de creer.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El nombre lo tiene que poner un lector" },
+      {
+        b: "texto",
+        texto:
+          "El diagnóstico de la enfermedad es lo más raro del libro. La Emperatriz Infantil, que sostiene aquel mundo entero, se está muriendo y ningún remedio funciona. Lo que necesita no es una medicina ni un héroe: necesita un nombre nuevo, y solo puede dárselo un niño humano que esté leyendo su historia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante media novela, Bastián lee las aventuras de Atreyu, el guerrero enviado a buscar la cura, y va notando cosas imposibles: en el libro aparecen detalles de su propia vida, alguien parece mirarlo desde dentro de la página, y la Emperatriz acaba diciendo en voz alta que hay un chico leyendo en un desván que puede salvarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bastián se resiste durante páginas. Sabe lo que tiene que hacer, tiene el nombre pensado desde hace rato, y no se atreve: le da vergüenza gritar en un desván vacío, le parece ridículo, se dice que aquello no es real. Ese retraso es la mejor parte del libro y describe algo que le pasa a cualquiera con lo que sabe que tiene que hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al final grita el nombre por la ventana, en mitad de una tormenta: Hija de la Luna. Y con eso el mundo se salva y él entra dentro. Es el momento que todo el mundo recuerda, y es también, exactamente, la mitad del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una condición que Ende repite y que explica por qué el remedio es un nombre. Aquel mundo no puede ordenarse a sí mismo ni ponerse límites: todo lo que allí se imagina existe, y por eso necesita a alguien de fuera que lo mire y lo llame de alguna manera. Una fantasía sin nadie que la reciba no se sostiene sola.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi siempre sabes lo que tienes que hacer bastante antes de atreverte. Lo que te frena no es la duda: es que te da vergüenza.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Aquí termina la película" },
+      {
+        b: "texto",
+        texto:
+          "Conviene decirlo con claridad porque cambia lo que la mayoría de la gente cree que es este libro: la película de 1984 termina justo ahí. Bastián grita el nombre, salva aquel mundo, monta en el dragón y persigue a los tres abusones por la calle. Fin. Y esa es la historia que tienen en la cabeza millones de personas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La novela, en ese punto, va por la mitad. Todo lo que viene después —que es la parte donde está su tesis y donde el libro se vuelve incómodo— no aparece en la película, y no por falta de metraje: es que la segunda mitad cuenta lo contrario de lo que una película de aventuras infantil quiere contar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Porque la primera mitad es una fantasía de compensación perfectamente reconocible. Un niño humillado descubre que es el elegido, que solo él puede salvar un mundo, y que allí dentro será fuerte, guapo y valiente. Cualquier lector de doce años sabe exactamente lo que se siente al leer eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la segunda mitad consiste en concederle todo eso y enseñar en qué se convierte. Ende no escribió un libro sobre el poder de la imaginación: escribió un libro sobre lo que le pasa a alguien a quien se le cumplen los deseos, y esa es la parte que la industria del entretenimiento le quitó al adaptarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir también que la película no es mala por lo que hace, sino por dónde para. Los noventa minutos que rueda están bien contados y son fieles al material; el problema es que ese material es el planteamiento y no la historia, así que lo que se estrenó fue la primera mitad presentada como si fuera una obra completa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La primera mitad te da lo que querías. La segunda te enseña en qué te conviertes cuando lo tienes, y es la que casi nadie ha leído.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Haz lo que quieras" },
+      {
+        b: "texto",
+        texto:
+          "Al entrar en aquel mundo, Bastián recibe el medallón de las dos serpientes, que le concede el poder de crear cualquier cosa con solo desearla. En el reverso lleva grabada una inscripción de cuatro palabras que él lee como un permiso: haz lo que quieras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y se pone a ello. Crea desiertos, bosques, criaturas, una ciudad entera; se hace fuerte, guapo, admirado. Cada cosa que imagina existe en el momento de imaginarla, y durante un buen tramo del libro el lector disfruta con él, porque está viendo cumplirse una fantasía que ha tenido cualquiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mucho más adelante, cuando ya ha destrozado bastantes cosas, alguien le explica que ha leído mal la inscripción. No significa haz lo que te apetezca: significa averigua qué es lo que de verdad quieres y hazlo. Y añade lo esencial: no hay nada más difícil, y es lo único que hay que hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia entre las dos lecturas es el libro entero. Hacer lo que a uno le apetece en cada momento es fácil, inmediato y no requiere saber nada de uno mismo. Averiguar qué se quiere de verdad exige atravesar todos los deseos falsos, uno por uno, y descubrir que casi ninguno era el bueno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El medallón tiene además una regla que Bastián no entiende hasta muy tarde: quien lo lleva no puede ser obligado a nada y, precisamente por eso, tampoco tiene a nadie que lo detenga. La protección que le regalaron consiste en que nadie va a decirle que no, y esa protección es exactamente lo que lo hunde. Cuanto más poder acumula, menos gente queda dispuesta a contradecirle, y los únicos que lo intentan acaban siendo tratados como enemigos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Haz lo que quieras no significa lo que te apetezca. Significa averiguar qué quieres de verdad, y no hay nada más difícil que eso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cada deseo cuesta un recuerdo" },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo que convierte esto en una novela seria es un precio que Bastián tarda mucho en advertir. Cada vez que desea algo y se cumple, pierde un recuerdo de su vida anterior. No se da cuenta porque lo que se pierde deja de estar y no queda ni la sensación de que faltaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Va perdiendo, en este orden, lo que menos le dolía perder: primero recuerda que era gordo y torpe y deja de recordarlo; después su colegio; después a su padre, del que estaba distanciado; después a su madre muerta; y llega un momento en que ya no sabe por qué quería volver a casa, ni si tenía casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al mismo tiempo se va convirtiendo en alguien insoportable. Se rodea de aduladores, desconfía de Atreyu, que es el único que le dice la verdad, y acaba hiriéndolo y persiguiéndolo con un ejército. La secuencia está contada despacio y sin ningún villano exterior: lo hace todo él, paso a paso, con buenas razones cada vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está la idea que Ende quería contar y que no cabe en una película de aventuras. El poder de que se cumplan los deseos no destruye a nadie de golpe: le va quitando aquello desde lo que deseaba, hasta que ya no queda nadie que pueda querer nada, y para entonces la persona ya no está en condiciones de notarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que se pierde primero es lo que menos duele perder. Por eso nadie se da cuenta hasta que ya no queda desde dónde echarlo de menos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La ciudad de los antiguos emperadores" },
+      {
+        b: "texto",
+        texto:
+          "El punto más oscuro del libro es una visita. Bastián llega a una ciudad habitada por gente que hace exactamente lo que quiere en cada momento: se ríen, juegan, se ponen sombreros, se dan golpes, y ninguno consigue terminar una frase, porque han perdido todos sus recuerdos y con ellos el lenguaje.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Le explican quiénes son: todos fueron humanos que entraron allí, desearon sin medida, gastaron su último recuerdo y ya no pudieron volver, porque para volver hay que querer algo y ellos ya no pueden querer nada. Se pasan la eternidad revolviendo letras en un tablero de dados, y de vez en cuando sale una frase por azar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es una imagen que se queda pegada mucho después de cerrar el libro, y no es una fantasía: describe con bastante exactitud lo que le pasa a alguien que ha sustituido todo lo que quería por lo que le apetecía en cada momento, hasta quedarse sin ninguna preferencia propia que sostener.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El desenlace es la salida de ahí. Bastián solo puede regresar si consigue formular un deseo verdadero, y el único que le queda cuando ya lo ha perdido todo es querer a alguien de verdad. Y lo último: el agua que necesita para volver solo puede sacarla de allí para dárselo a otro, no para sí mismo. Se lo lleva a su padre.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El que hace en cada momento lo que le apetece acaba sin ninguna preferencia propia. Y para salir de ahí hay que querer algo, que es justo lo que ya no puede.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La novela cuenta cómo un niño maltratado entra en el libro que está leyendo, salva un mundo y a continuación lo destruye porque puede cumplir todos sus deseos. Su hallazgo no es la fantasía: es haber escrito para niños un libro sobre lo que le pasa a alguien cuando obtiene exactamente lo que quería.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su construcción es además una obra de artesanía que casi nadie advierte. Tiene veintiséis capítulos y cada uno empieza por una letra distinta, de la A a la Z, en orden. Y en la edición alemana original el texto va impreso en dos tintas: una para lo que ocurre en el desván y otra para lo que ocurre dentro del libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que se cumplan tus deseos no te destruye de golpe. Te va quitando aquello desde lo que deseabas, y cuando lo notas ya no queda quien lo note.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La segunda mitad avanza mucho más despacio que la primera, con episodios que se repiten, y bastantes lectores la abandonan justo antes de llegar a lo que el libro quería decir. La lección está además dicha en voz alta más de una vez, con personajes que se detienen a explicar el sentido de lo que acaba de ocurrir. Y los personajes femeninos son símbolos: la Emperatriz no tiene carácter, y la única mujer con voluntad propia es una hechicera que existe para tentar al protagonista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después es el caso más claro que existe de un libro traicionado por su adaptación. Ende participó al principio en la película de 1984, leyó el guion, pidió que se retirara su nombre y que se cambiara el título, y al negarse los productores llevó el asunto a los tribunales y perdió. Describió el resultado como un melodrama gigantesco de peluche y plástico. La película fue un éxito mundial, tuvo dos continuaciones con las que él no tuvo nada que ver, y desde entonces millones de personas creen que esta historia termina en el momento exacto en que el libro se pone a decir lo que tenía que decir.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "historia-interminable": HISTORIA_INTERMINABLE,
   "equipo-rivales": EQUIPO_RIVALES,
   "el-guion": EL_GUION,
   "cerebro-adolescente": CEREBRO_ADOLESCENTE,

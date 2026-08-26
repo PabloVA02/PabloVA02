@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "historia-interminable": [
+    "por qué lo que se deja de creer no deja un hueco limpio",
+    "que sueles saber qué hacer bastante antes de atreverte",
+    "qué significa de verdad la frase «haz lo que quieras»",
+    "cómo se pierde primero lo que menos duele perder",
+    "en qué acaba quien hace en cada momento lo que le apetece",
+  ],
+
   "equipo-rivales": [
     "por qué en una elección con varias rondas gana quien no despierta rechazo",
     "que corregir en privado conserva a la persona y resuelve el problema",
