@@ -82,7 +82,7 @@ export const CATALOGO: Ficha[] = [
   { id: "becoming", titulo: "Mi historia", autor: "Michelle Obama", ano: 2018, categoria: "Historia", estado: "escrito" },
   { id: "malcolm-x", titulo: "Autobiografía de Malcolm X", autor: "Malcolm X y Alex Haley", ano: 1965, categoria: "Historia", estado: "escrito" },
   { id: "espia-traidor", titulo: "Espía y traidor", autor: "Ben Macintyre", ano: 2018, categoria: "Historia", estado: "escrito" },
-  { id: "equipo-rivales", titulo: "Equipo de rivales", autor: "Doris Kearns Goodwin", ano: 2005, categoria: "Historia", estado: "pendiente" },
+  { id: "equipo-rivales", titulo: "Equipo de rivales", autor: "Doris Kearns Goodwin", ano: 2005, categoria: "Historia", estado: "escrito" },
   { id: "en-la-sombra", titulo: "En la sombra", autor: "Príncipe Harry", ano: 2023, categoria: "Historia", estado: "pendiente" },
   { id: "21-lecciones", titulo: "21 lecciones para el siglo XXI", autor: "Yuval Noah Harari", ano: 2018, categoria: "Historia", estado: "escrito" },
   { id: "nexus", titulo: "Nexus", autor: "Yuval Noah Harari", ano: 2024, categoria: "Historia", estado: "escrito" },

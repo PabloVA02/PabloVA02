@@ -101834,7 +101834,298 @@ const EL_GUION: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Equipo de rivales, de Doris Kearns Goodwin (2005), en ocho páginas.
+
+   Ensayo histórico: TERCERA PERSONA y titular que afirma.
+
+   La séptima página dice lo que el libro suaviza, que es bastante: las
+   declaraciones de Lincoln de 1858, la suspensión del hábeas corpus y la
+   mayor ejecución colectiva de la historia de Estados Unidos, que autorizó
+   él. Y también el episodio de la propia autora en 2002, porque es un dato
+   sobre el libro y no un ataque personal.
+   -------------------------------------------------------------------------- */
+
+const EQUIPO_RIVALES: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Goodwin sostiene que la mayor habilidad de Lincoln fue trabajar con gente que lo despreciaba",
+      },
+      {
+        b: "texto",
+        texto:
+          "En marzo de 1861, el nuevo presidente de Estados Unidos formó gobierno con los tres hombres que habían competido contra él por la candidatura y que se consideraban todos mejor preparados que él. Ninguno lo había apoyado, ninguno lo respetaba y los tres pensaban que aquel abogado de provincias había llegado allí por accidente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al frente de Exteriores puso a William Seward, el favorito absoluto para la nominación. En Hacienda, a Salmon Chase, que se pasó los tres años siguientes conspirando para sustituirlo. Y como ministro de Justicia, a Edward Bates. Poco después incorporó a Guerra a Edwin Stanton, que años antes lo había humillado en público llamándolo simio de brazos largos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Doris Kearns Goodwin, historiadora estadounidense, dedicó diez años a reconstruir esa decisión y sus consecuencias, y publicó el libro en 2005. Su tesis es que ahí, y no en la oratoria ni en la estrategia militar, está el talento político de Lincoln: en su capacidad para trabajar con quien no lo quería.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre cómo funcionó eso: por qué ganó la candidatura sin ser el mejor situado, por qué nombró precisamente a esos, qué hacía con la rabia, qué le pasó al que más lo saboteó, por qué esperó meses para firmar lo que ya tenía escrito y qué partes de esta historia el libro cuenta muy de pasada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Rodearse de gente que te admira es cómodo y no informa. La habilidad rara es trabajar con quien está convencido de que él lo haría mejor.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ganó la candidatura por no haber ofendido a nadie, no por ser el mejor situado",
+      },
+      {
+        b: "texto",
+        texto:
+          "En mayo de 1860, la convención del partido republicano se reunió en Chicago para elegir candidato. Seward llegaba como favorito indiscutible: era senador, exgobernador de Nueva York, la figura más conocida del partido y el que tenía la mejor organización. Lincoln había perdido su última elección al Senado y solo había sido diputado un mandato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Goodwin reconstruye por qué ganó el segundo, y la respuesta es poco heroica y muy útil. Seward llevaba veinte años en política nacional y en veinte años se acumulan agravios: había ofendido a facciones enteras y varios delegados tenían motivos personales para no votarle. Lincoln, con menos trayectoria, no había ofendido prácticamente a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso se sumaron dos cosas concretas. La convención se celebraba en su estado, así que la sala estaba llena de partidarios suyos, y sus enviados trabajaron con una instrucción clara: no pedir el primer voto de nadie, sino el segundo. Ser la alternativa aceptable de todos era una posición mucho mejor que ser el preferido de muchos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ganó en la tercera votación. La lección que el libro extrae es que en cualquier elección con varias rondas o con varios decisores, la persona que no despierta rechazo derrota a la que despierta entusiasmo y enemistades a partes iguales, y eso vale igual para una convención, un consejo de administración o un tribunal de oposición.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En cualquier decisión con varias rondas, gana quien no despierta rechazo. Ser la segunda opción de todos vale más que ser la primera de muchos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nombró a sus rivales por un motivo práctico y no por generosidad" },
+      {
+        b: "texto",
+        texto:
+          "La decisión de formar gobierno con sus adversarios suele contarse como un gesto de grandeza, y Goodwin muestra que fue sobre todo un cálculo. Aquellos hombres eran los políticos más capaces y más conocidos del partido, el país estaba a punto de romperse, y dejarlos fuera significaba tenerlos criticando desde la prensa en el peor momento posible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lincoln lo dijo con toda claridad cuando le preguntaron: eran los hombres más fuertes del país, y el país los necesitaba. Añadió que no tenía derecho a privar a la nación de sus servicios porque a él le resultaran incómodos, y esa frase resume una manera de decidir que hoy sigue siendo poco frecuente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El coste fue real y el libro no lo oculta. Seward intentó desde el primer momento gobernar en su lugar, y el 1 de abril de 1861 llegó a enviarle un memorando proponiendo que él asumiera la dirección efectiva del gobierno. Lincoln le contestó por escrito, con firmeza y en privado, y no volvió a mencionar el asunto jamás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese detalle es el que explica que aquello funcionara. La respuesta no circuló, no hubo humillación pública ni represalia, y Seward comprendió con quién estaba tratando. Un año después era su colaborador más leal, y siguió siéndolo hasta el final, incluido el día en que a él también intentaron asesinarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Corregir a alguien por escrito, con firmeza y sin que se entere nadie más, conserva a la persona y resuelve el problema. Hacerlo en público hace lo contrario.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Escribía las cartas furiosas y después no las enviaba" },
+      {
+        b: "texto",
+        texto:
+          "Entre los papeles de Lincoln aparecieron varias cartas duras que nunca llegaron a su destinatario. La más conocida está dirigida al general que mandaba el ejército del Potomac en julio de 1863, después de que dejara escapar al ejército enemigo tras la batalla decisiva de aquel verano, cuando podía haber terminado la guerra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En ella le reprocha con dureza la oportunidad perdida y le dice cuánto le ha dolido. La carta está completa, escrita del tirón, y lleva una anotación posterior de su puño: nunca enviada, nunca firmada. La escribió, esperó y decidió que enviarla no arreglaría la batalla y sí perdería a un general en mitad de una guerra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Goodwin documenta que esa costumbre era habitual en él, y que forma parte de un rasgo más amplio: una capacidad poco común para separar lo que sentía de lo que hacía. No es que no se enfadara; escribía la carta entera precisamente porque se enfadaba mucho, y ese acto le permitía decidir después en frío.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Del mismo rasgo salen otras dos costumbres suyas que el libro documenta. Asumía en público las culpas de sus subordinados, incluso cuando la decisión no había sido suya, y repartía los méritos hacia abajo con nombres y apellidos. Las dos cosas le costaban algo a corto plazo y le compraban lealtad durante años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso más difícil de creer es el de su ministro de Guerra. Stanton lo había tratado con desprecio años antes, cuando coincidieron como abogados en un pleito y se negó a trabajar con aquel provinciano. Lincoln lo nombró igualmente, y fue Stanton quien pronunció la frase que se recuerda junto a su lecho de muerte, llorando, en abril de 1865.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribe entera la respuesta furiosa y no la envíes hasta el día siguiente. Casi ninguna sobrevive a esa espera, y la que sobrevive sale mejor.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Al ministro que pasó tres años conspirando contra él acabó nombrándolo presidente del Tribunal Supremo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso de Salmon Chase es el más extremo del libro. Como ministro de Hacienda hizo un trabajo notable financiando la guerra, y a la vez dedicó tres años a organizar su propia candidatura para sustituir a Lincoln, escribiendo cartas contra él y alentando movimientos dentro del partido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cada vez que algo no salía como quería, presentaba su dimisión como forma de presión, sabiendo que era difícil de reemplazar. Lincoln se la rechazó tres veces. A la cuarta, en el verano de 1864, con la campaña ya en marcha, se la aceptó sin discutirla, y Chase se quedó fuera del gobierno de un día para otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurrió después es lo que hace memorable el episodio. Al morir el presidente del Tribunal Supremo aquel mismo año, Lincoln nombró para el cargo a Chase, el hombre que llevaba tres años intentando arrebatarle el puesto. Lo explicó sin rodeos: era el mejor jurista disponible y el que garantizaría lo que él quería garantizar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Goodwin subraya que aquello no fue perdón ni grandeza de alma, sino una manera de decidir. Lincoln separaba lo que alguien le había hecho a él de lo que ese alguien podía hacer por el país, y trataba lo primero como un asunto suyo y privado que no tenía por qué contaminar una decisión pública.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Goodwin documenta además cómo se enteraba Lincoln de las maniobras de su ministro: se las contaban constantemente. Su respuesta habitual era no darse por enterado, y explicó por qué con una comparación agrícola: mientras el tábano pique al caballo, el caballo ara más deprisa. Prefería un ministro ambicioso y eficaz a uno cómodo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Separa lo que alguien te ha hecho a ti de lo que puede hacer bien. Lo primero es asunto tuyo; mezclarlo con lo segundo lo paga otro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Tuvo la proclamación de emancipación escrita meses antes de firmarla, y esperó a ganar una batalla",
+      },
+      {
+        b: "texto",
+        texto:
+          "En julio de 1862, Lincoln leyó a su gobierno un borrador que declaraba libres a los esclavos de los estados en rebelión. La reacción de la mayoría fue de sorpresa. La objeción decisiva la puso Seward, y no era sobre el fondo: le advirtió de que publicarla en aquel momento, con el ejército perdiendo batalla tras batalla, se leería como un gesto desesperado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lincoln aceptó el argumento y guardó el documento. Esperó dos meses hasta que el ejército detuvo una invasión en Maryland, en septiembre, y aprovechó esa victoria —que no fue brillante, pero fue una victoria— para anunciarla. La proclamación definitiva entró en vigor el 1 de enero de 1863.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El episodio enseña algo sobre las decisiones importantes que rara vez se cuenta. El contenido de la medida no cambió ni una palabra en esos dos meses; lo que cambió fue el momento, y el momento decidió cómo se leyó, quién la apoyó y qué gobiernos europeos dejaron de plantearse reconocer al bando contrario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y enseña también para qué sirve tener alrededor a alguien que no está de acuerdo. La objeción de Seward era exactamente el tipo de aviso que un presidente rodeado de admiradores no habría recibido, porque venía de alguien con criterio propio y con suficiente posición como para plantearla sin miedo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un detalle jurídico que suele perderse y que conviene decir. Aquella proclamación no liberaba a los esclavos de los estados que seguían dentro de la Unión, porque se dictaba como medida de guerra y su autoridad no llegaba más allá. La abolición completa exigió una enmienda constitucional que no se aprobó hasta 1865.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una decisión correcta anunciada en mal momento se lee como debilidad. El contenido no cambia; lo que cambia es quién puede apoyarla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro admira tanto a su protagonista que pasa muy deprisa por lo peor",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir con qué se cuenta esta historia. Goodwin escribe una biografía admirativa de novecientas páginas, y cuando aparece algo que no encaja con el retrato, lo menciona y sigue. Hay tres asuntos donde eso se nota especialmente y que cualquier lector debería conocer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primero es lo que Lincoln decía antes de ser presidente. En un debate de 1858 afirmó explícitamente que no era partidario de la igualdad social ni política entre blancos y negros, y durante años defendió la idea de trasladar a los esclavos liberados a colonias fuera del país. Cambió de posición, y ese cambio es interesante precisamente si se cuenta de dónde venía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo es lo que hizo durante la guerra. Suspendió el hábeas corpus, hubo miles de detenciones sin juicio y se cerraron periódicos. Y el tercero, el más grave y el que menos se cita: en diciembre de 1862 autorizó el ahorcamiento de treinta y ocho hombres dakota tras una rebelión indígena, después de conmutar la pena a doscientos sesenta y cinco. Sigue siendo la mayor ejecución colectiva de la historia del país.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un dato sobre la autora que forma parte de cómo se lee un libro de historia. En 2002 se supo que una obra suya de 1987 contenía pasajes tomados de otro autor sin atribución suficiente, asunto que ella había resuelto años antes mediante un acuerdo privado. Lo reconoció, se apartó temporalmente de sus apariciones públicas y revisó sus métodos de trabajo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que alguien cambiara de posición es lo interesante de su biografía. Contarla sin decir de dónde venía convierte una evolución en una virtud innata.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la mayor capacidad política de Lincoln fue trabajar con quienes lo despreciaban, que separaba sistemáticamente las ofensas personales de las decisiones públicas, y que su costumbre de asumir culpas y repartir méritos le compró una lealtad que ninguna autoridad formal le habría dado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a otras biografías es el material doméstico. Goodwin trabajó con la correspondencia y los diarios de los rivales y de sus familias, así que buena parte de lo que cuenta está visto desde fuera, por gente que empezó despreciándolo, y esa perspectiva vale más que cualquier elogio directo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribe la respuesta furiosa y guárdala. Corrige en privado, reparte el mérito con nombres y asume la culpa en público. Eso es casi todo el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es una hagiografía de novecientas páginas: los episodios que contradicen el retrato aparecen y se despachan en un párrafo, y buena parte del volumen es detalle doméstico que no sostiene ninguna tesis. Y la tesis misma ha sido discutida por otros historiadores, que señalan que aquel gobierno se formó también por el reparto habitual entre facciones y territorios, que es política corriente y no genialidad, y que además funcionó bastante mal durante tres años, con un ministro conspirando a jornada completa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después convirtió el libro en un manual involuntario. Barack Obama lo citó repetidamente durante la campaña de 2008 y presentó como aplicación directa de esta idea el nombramiento de su rival en las primarias como secretaria de Estado, en diciembre de aquel año. Desde entonces, la expresión equipo de rivales se usa en cualquier organización para justificar un nombramiento incómodo, casi siempre sin la parte que hacía funcionar aquello: corregir en privado, no humillar nunca y aceptar que uno de los tuyos pase tres años intentando sustituirte.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "equipo-rivales": EQUIPO_RIVALES,
   "el-guion": EL_GUION,
   "cerebro-adolescente": CEREBRO_ADOLESCENTE,
   "intestino-feliz": INTESTINO_FELIZ,

@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "equipo-rivales": "El genio político de Abraham Lincoln",
   "el-guion": "Sustancia, estructura, estilo y principios de la escritura de guiones",
   "cerebro-adolescente": "Guía para entender a tus hijos",
   "intestino-feliz": "Controla tu peso, tu ánimo y tu salud a largo plazo",

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "equipo-rivales":
+    "Lincoln formó gobierno en 1861 con los tres hombres que habían competido contra él y que lo consideraban un provinciano sin méritos. Goodwin reconstruye por qué lo hizo y qué costó que funcionara.",
+
   "el-guion":
     "McKee lleva desde 1983 dando un seminario de guion por el que han pasado miles de escritores. Su tesis es que contar historias tiene principios comprobables, y que ignorarlos no es ser original sino trabajar a ciegas.",
 

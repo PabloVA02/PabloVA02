@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "equipo-rivales": [
+    "por qué en una elección con varias rondas gana quien no despierta rechazo",
+    "que corregir en privado conserva a la persona y resuelve el problema",
+    "qué hacer con una respuesta furiosa antes de enviarla",
+    "cómo separar lo que alguien te hizo de lo que puede hacer bien",
+    "por qué una decisión correcta anunciada a destiempo se lee como debilidad",
+  ],
+
   "el-guion": [
     "por qué una escena en la que nadie termina distinto no es una escena",
     "que el carácter se revela eligiendo bajo presión y no describiéndolo",
