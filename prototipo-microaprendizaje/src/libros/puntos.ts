@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "mente-en-forma": [
+    "cuánto dura la ventana de atención que deja una sesión de ejercicio",
+    "por qué un mecanismo plausible no demuestra que sea el que actúa",
+    "qué afirmación de este campo quedó en discusión y por qué",
+    "qué rinde el ejercicio frente a la terapia en una depresión moderada",
+    "cómo detectar cuándo un libro de salud empieza a reducirlo todo a una causa",
+  ],
+
   "ninos-escuchen": [
     "qué pasa cuando se le niega a alguien lo que está sintiendo",
     "por qué describir una situación produce menos resistencia que mandar",

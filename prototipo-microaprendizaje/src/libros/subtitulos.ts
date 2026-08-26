@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "mente-en-forma": "Un programa para activar tu cerebro",
   "ninos-escuchen": "Cómo escuchar para que los niños hablen",
   "arte-de-empezar": "Guía probada para todo el que empiece cualquier cosa",
   "libro-del-sueno": "Cómo dormir bien todas las noches",

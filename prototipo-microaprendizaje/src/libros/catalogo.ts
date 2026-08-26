@@ -463,7 +463,7 @@ export const CATALOGO: Ficha[] = [
   { id: "pleno-compromiso", titulo: "El poder del pleno compromiso", autor: "Jim Loehr y Tony Schwartz", ano: 2003, categoria: "Salud", estado: "escrito" },
   { id: "revolucion-glucosa", titulo: "La revolución de la glucosa", autor: "Jessie Inchauspé", ano: 2022, categoria: "Salud", estado: "escrito" },
   { id: "cerebro-hambriento", titulo: "El cerebro hambriento", autor: "Stephan Guyenet", ano: 2017, categoria: "Salud", estado: "escrito" },
-  { id: "mente-en-forma", titulo: "Tu mente en forma", autor: "Wendy Suzuki", ano: 2015, categoria: "Salud", estado: "pendiente" },
+  { id: "mente-en-forma", titulo: "Tu mente en forma", autor: "Wendy Suzuki", ano: 2015, categoria: "Salud", estado: "escrito" },
   /* --- Deportes ---------------------------------------------------------
      La novena, pedida por Pablo el 21 de agosto: «añade sección de deportes
      también, que puede ser interesante con libros famosos y títulos que

@@ -107094,7 +107094,311 @@ const NINOS_ESCUCHEN: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Tu mente en forma, de Wendy Suzuki (2015), en ocho páginas.
+
+   Salud, así que la prueba del sustituto del apartado 4 bis se aplica en
+   cada página, y en la séptima se aplica en voz alta: este es justo el tipo
+   de libro que puede reducirlo todo a una sola causa.
+
+   Registro de tú. La cuarta página cuenta lo que se cayó tres años después
+   de publicarse, y la quinta lo que se demostró nueve años después y es
+   bastante mejor de lo que la autora podía afirmar.
+   -------------------------------------------------------------------------- */
+
+const MENTE_EN_FORMA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Suzuki sostiene que el ejercicio no mejora el cerebro a largo plazo: lo cambia el mismo día",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea corriente sobre el ejercicio y la cabeza es de inversión a largo plazo: si haces deporte durante años, envejecerás mejor. Suzuki sostiene que eso también es cierto y que se está perdiendo lo interesante, porque el efecto más grande y más comprobable ocurre en las dos horas siguientes a una sola sesión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Wendy Suzuki es neurocientífica en la Universidad de Nueva York y llevaba años estudiando la memoria en el laboratorio cuando lo descubrió por su cuenta y de la peor manera. Trabajaba doce horas diarias, no tenía vida fuera del trabajo, había engordado y se encontraba mal, y empezó a hacer ejercicio por motivos que no tenían nada que ver con su investigación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que notó fue tan claro que cambió la línea de trabajo de su laboratorio: los días que entrenaba se concentraba mejor, escribía más y estaba de mejor humor, y no al cabo de meses sino esa misma tarde. Este libro, de 2015, es a la vez la historia de ese cambio y una revisión de lo que se sabía entonces del asunto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue separa lo comprobado de lo prometido: qué hace una sola sesión y durante cuánto tiempo, qué ocurre dentro del cerebro y hasta dónde se sabe, qué afirmación del libro se cayó tres años después, qué se demostró nueve años después y es mejor de lo que ella podía decir, y cuánto hace falta de verdad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El efecto más grande del ejercicio sobre la cabeza no llega dentro de diez años. Llega esta tarde, y dura alrededor de dos horas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una sola sesión mejora la atención durante un par de horas, y eso está bien medido",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hallazgo mejor establecido de todo este campo es el más inmediato. Después de una sesión de ejercicio aeróbico de intensidad moderada —caminar rápido, correr suave, bicicleta— las medidas de atención, de control de impulsos y de flexibilidad mental mejoran de forma medible, y esa mejora dura aproximadamente un par de horas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No es un resultado aislado. Un metaanálisis publicado en 2012 reunió alrededor de ochenta estudios sobre el efecto de una sesión única y encontró un efecto pequeño pero consistente en varias funciones, con la particularidad de que aparece incluso en gente que no está en forma y con sesiones bastante cortas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es de horario y es lo más aprovechable del libro. Si alguien tiene una tarea que exige concentración —estudiar, escribir, preparar algo difícil—, colocarla justo después de un rato de ejercicio aprovecha una ventana que existe de todas formas, y que la mayoría de la gente gasta duchándose y comiendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene además marcar el tamaño del efecto, porque el libro tiende a agrandarlo. No es que alguien pase de no concentrarse a concentrarse: es una mejora modesta sobre lo que esa persona rendiría de todos modos. Modesta y gratuita, que es una combinación difícil de encontrar en cualquier otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una aplicación de esto que Suzuki propone para el estudio y que tiene sentido por dos vías distintas. Moverse antes de estudiar aprovecha la ventana de atención; moverse después de estudiar puede favorecer que lo aprendido se consolide. No hace falta elegir: cualquiera de las dos cosas es mejor que estar seis horas seguidas sentado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pon lo que exija concentración justo después de moverte. Esa ventana existe de todos modos y casi todo el mundo la gasta duchándose.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que ocurre dentro se conoce en parte, y la parte conocida no es la que se cita",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando alguien hace ejercicio aeróbico pasan varias cosas a la vez, y no todas están igual de establecidas. La más segura y la menos vistosa es que aumenta el riego sanguíneo cerebral, lo que significa más oxígeno y más glucosa disponibles, y eso basta para explicar buena parte del efecto inmediato sobre la atención.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es una proteína que el propio cerebro fabrica y que interviene en el crecimiento y la supervivencia de las neuronas y en la formación de conexiones nuevas. Sus niveles suben con el ejercicio aeróbico, cosa medida en personas, y se ha propuesto como el intermediario entre moverse y aprender mejor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es el sistema de neurotransmisores relacionados con el estado de ánimo y la alerta. El ejercicio moviliza varios de ellos de manera inmediata, y ahí está la explicación más directa de por qué alguien sale de una sesión con mejor humor sin que haya cambiado ninguna de sus circunstancias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Suzuki explica todo esto con claridad y conviene añadir una advertencia general sobre este tipo de explicaciones. Que se conozca un mecanismo plausible no demuestra que sea el que produce el efecto observado, y en divulgación se confunden constantemente las dos cosas: el efecto está medido, y la historia de por qué ocurre es una hipótesis razonable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Suzuki añade un efecto que se nota antes que ninguno y que rara vez se menciona: el ejercicio moderado mejora la calidad del sueño de esa noche, y un sueño mejor produce por sí solo casi todos los beneficios que se atribuyen a lo demás. Buena parte del efecto sobre el ánimo del día siguiente pasa por ahí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que exista un mecanismo plausible no demuestra que sea el que produce el efecto. El efecto se mide; la explicación de por qué es otra cosa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La afirmación más repetida del libro se puso en duda tres años después de publicarse",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea que más se cita de este campo es que el cerebro adulto fabrica neuronas nuevas en el hipocampo, la zona de la memoria, y que el ejercicio aumenta ese proceso. Suzuki la expone como un hecho establecido, porque en 2015 esa era la posición mayoritaria en su disciplina.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2018 el asunto se abrió en canal. Un equipo publicó en marzo un trabajo que analizaba tejido cerebral humano de distintas edades y no encontraba señales de formación de neuronas nuevas más allá de la infancia. Un mes después, otro equipo publicó un estudio con métodos distintos que llegaba a la conclusión contraria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La discusión sigue abierta y depende de detalles técnicos: cómo se conserva el tejido, qué marcadores se usan y qué se considera una neurona nueva. Lo que quedó claro es que aquello no era un hecho establecido, sino una afirmación que en animales está muy bien demostrada y en personas mucho menos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso no derriba el libro, y es importante entender por qué. El efecto del ejercicio sobre el ánimo y la atención está medido directamente en personas, así que no depende de que la explicación sea esa. Lo que se cayó no fue el resultado, fue la historia que se contaba para explicarlo, y eso pasa constantemente en divulgación científica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El episodio deja además una lección sobre cómo leer divulgación científica. Un libro escrito en un momento determinado congela el consenso de ese momento y lo presenta como si fuera permanente, y no hay manera de que su autor haga otra cosa. La fecha de publicación es, en este terreno, parte del contenido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que se cayó no fue el efecto, fue la explicación que se le daba. Conviene saber cuál de las dos cosas está midiendo un estudio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Para la depresión y la ansiedad, lo que se ha demostrado después es mejor de lo que ella podía afirmar",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2015, decir que el ejercicio ayuda con la depresión era una recomendación razonable con evidencia desigual: muchos estudios pequeños, resultados variables y la sospecha habitual de que los ensayos negativos no se publicaban. Suzuki lo defiende en el libro con prudencia y sin poder apoyarse en gran cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nueve años después, en 2024, se publicó en el British Medical Journal una revisión que reunió más de doscientos ensayos aleatorizados con unas catorce mil personas y los comparó entre sí. El resultado fue más favorable de lo esperado: el ejercicio produjo mejoras en la depresión comparables a las de la terapia psicológica y a las de los fármacos en casos leves y moderados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El trabajo encontró además dos cosas útiles para decidir. Que la intensidad importa —caminar deprisa, correr, bailar o entrenar fuerza dieron mejores resultados que actividades muy suaves— y que hacerlo en grupo o con supervisión funcionó mejor que hacerlo solo, lo que apunta a que una parte del efecto no es fisiológica sino de compañía y de compromiso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir también lo que esto no significa. No significa que alguien con una depresión deba dejar su tratamiento y salir a correr, ni que quien no consigue levantarse de la cama tenga a mano esa opción, que es precisamente lo que la enfermedad impide. Significa que es una herramienta con respaldo que conviene añadir, normalmente junto con lo demás.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Para la depresión leve y moderada, el ejercicio rinde parecido a la terapia y a los fármacos. Y funciona mejor acompañado que en solitario.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hace falta bastante menos de lo que la gente supone, y el obstáculo casi nunca es la cantidad",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las recomendaciones internacionales para un adulto son de entre ciento cincuenta y trescientos minutos semanales de actividad moderada, o la mitad si es intensa, más un par de sesiones de fuerza. Eso son unos veinte o treinta minutos diarios de caminar deprisa, que es bastante menos de lo que la mayoría imagina al oír la palabra ejercicio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y para el efecto sobre la atención que interesa aquí hace falta todavía menos: los estudios sobre sesión única funcionan con diez o veinte minutos de intensidad moderada. Es decir, la dosis que produce el beneficio inmediato está al alcance de casi cualquiera en casi cualquier día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Suzuki insiste, y ahí acierta, en que el obstáculo real no es la cantidad sino la identidad: la mayoría de la gente que no hace ejercicio no ha decidido que sea demasiado, ha decidido que eso es cosa de otra clase de personas. Y esa idea no se cambia con información sobre minutos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su recomendación concreta es empezar por algo que se pueda sostener sin motivación, que suele significar muy poco y siempre a la misma hora, y buscar algo que no dependa de un lugar ni de un equipamiento, porque cada requisito añadido multiplica las probabilidades de abandonarlo. Caminar deprisa cumple las dos condiciones y no cuesta nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El que no hace ejercicio casi nunca ha decidido que sea demasiado. Ha decidido que eso es cosa de otra clase de gente, y eso no se corrige con datos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Este es exactamente el tipo de libro que puede acabar reduciéndolo todo a una sola causa",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene aplicar aquí la comprobación que sirve para cualquier libro de salud: tapar el título y sustituir la palabra clave. Si un capítulo funciona igual cambiando ejercicio por sueño, por microbiota, por meditación o por cortisol, ese capítulo no está contando este libro, está contando el género entero al que pertenece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los capítulos que pasan esa prueba son los que traen una medición propia del efecto inmediato, la ventana de dos horas, el metaanálisis de sesión única y la discusión sobre neuronas nuevas. Ahí hay algo que solo se puede decir del ejercicio y que no encaja con ninguna otra palabra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los que no la pasan son los del final, donde el libro empieza a atribuirle al ejercicio efectos sobre la creatividad, sobre las relaciones y sobre la vida en general, y donde el subtítulo promete hacerlo todo mejor. Ese tramo se podría escribir idéntico sobre cualquier otro hábito saludable, y de hecho está escrito así en decenas de libros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un detalle de conflicto que conviene conocer. La autora creó una clase de ejercicio propia que combina movimiento con frases dichas en voz alta, la imparte y la promociona, y el libro habla de ella con entusiasmo. No la invalida, y es información que un lector debería tener antes de leer ese capítulo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una manera de usar bien un libro así aunque tenga esa deriva. Sus tres primeros capítulos traen mediciones concretas y son utilizables; el último tercio se puede leer como lo que es, entusiasmo de alguien a quien esto le cambió la vida, que no es un dato pero tampoco es una mentira.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tapa el título y cambia la palabra clave. Los capítulos que siguen funcionando con otra palabra no te están contando ningún libro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que el ejercicio aeróbico produce un efecto inmediato y medible sobre la atención y el ánimo que dura un par de horas, que ese efecto no exige estar en forma ni sesiones largas, y que conviene organizar el día alrededor de esa ventana en lugar de tratar el ejercicio como una inversión a treinta años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a los libros de salud del mismo estante es el cambio de plazo. Casi toda la recomendación sobre ejercicio apela a beneficios que se cobran dentro de décadas, y eso motiva a muy poca gente; señalar un beneficio que se nota la misma tarde es un argumento de otra naturaleza y funciona con quien nunca ha entrenado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Camina deprisa veinte minutos y pon justo después lo que exija cabeza. Es el consejo entero, y el efecto se nota el mismo día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La mitad del libro es memoria personal y las transiciones entre su historia y la ciencia son irregulares. Presenta como establecido lo que en 2015 era mayoritario y en 2018 quedó en discusión, que es la formación de neuronas nuevas en el cerebro adulto humano. Su subtítulo promete hacerlo todo mejor, y el último tercio se desliza hacia el tipo de capítulo que valdría igual para cualquier otro hábito. Y la clase de ejercicio que recomienda es suya.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el marcador de estos años reparte de manera interesante. Su explicación estrella perdió terreno en 2018, y en cambio la aplicación que ella defendía con más prudencia ganó mucho: la revisión publicada en 2024 con más de doscientos ensayos y unas catorce mil personas situó al ejercicio, para depresión leve y moderada, al nivel de la terapia y de la medicación. Es decir, el mecanismo que se contaba se debilitó y el efecto que se prometía se confirmó, que es lo contrario de lo que suele pasar en este estante.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "mente-en-forma": MENTE_EN_FORMA,
   "ninos-escuchen": NINOS_ESCUCHEN,
   "arte-de-empezar": ARTE_DE_EMPEZAR,
   "libro-del-sueno": LIBRO_DEL_SUENO,

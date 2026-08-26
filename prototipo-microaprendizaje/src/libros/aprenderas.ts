@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "mente-en-forma":
+    "Una sola sesión de ejercicio moderado mejora de forma medible la atención durante un par de horas. Suzuki, neurocientífica, cambió la línea de su laboratorio al notarlo en sí misma.",
+
   "ninos-escuchen":
     "Las cinco respuestas normales a un niño disgustado —no es para tanto, la vida es así, deberías, algo habrás hecho— terminan la conversación. Este cuaderno de 1980 da la frase exacta que funciona en su lugar.",
 
