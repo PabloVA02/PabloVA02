@@ -1,0 +1,2414 @@
+# Créditos de las imágenes
+
+Curva usa **2274 imágenes de Wikimedia Commons**, más las cubiertas de
+libro dibujadas para el proyecto, que no están aquí porque son obra propia.
+
+Cada imagen se pide a Commons en el momento de mostrarla: la aplicación no las
+almacena ni las redistribuye. Aun así, las licencias Creative Commons obligan a
+citar autor y licencia, y este fichero es esa cita. Cada entrada lleva el nombre
+exacto del archivo en Commons, que es su identificador: se encuentra en
+`https://commons.wikimedia.org/wiki/File:<nombre>`.
+
+Los datos salen del propio código —cada imagen guarda su autor, su licencia y su
+enlace— y este fichero se regenera con `node scripts/creditos.mjs`.
+
+## Resumen por licencia
+
+| licencia | imágenes |
+|---|---|
+| CC BY-SA 4.0 | 741 |
+| CC0 | 283 |
+| Public domain | 263 |
+| CC BY 2.0 | 212 |
+| CC BY-SA 3.0 | 198 |
+| CC BY 4.0 | 181 |
+| CC BY-SA 2.0 | 164 |
+| Dominio público | 145 |
+| CC BY 3.0 | 22 |
+| CC BY-SA 3.0 fr | 11 |
+| CC BY-SA 2.5 | 9 |
+| No restrictions | 9 |
+| CC BY-SA 3.0 at | 4 |
+| CC BY 2.5 | 4 |
+| Attribution | 3 |
+| CC BY-SA 2.0 fr | 3 |
+| CC BY-SA 3.0 de | 3 |
+| Sin restricciones conocidas | 3 |
+| CC BY 3.0 us | 3 |
+| OGL v1.0 | 2 |
+| CC BY-SA 3.0 igo | 2 |
+| OGL-ON | 1 |
+| FAL | 1 |
+| CC BY-SA 2.0 uk | 1 |
+| PDM-owner | 1 |
+| CC BY-SA 3.0 us | 1 |
+| CC BY-SA 2.0 de | 1 |
+| CC BY-SA 3.0 es | 1 |
+| Public Domain | 1 |
+| OGL 3 | 1 |
+
+Los textos completos de las licencias están en <https://creativecommons.org/licenses/>.
+
+## CC BY-SA 4.0 — 741 imágenes
+
+- **-2022-04-01 Remoat view of Saint Giles parish church, Bradfield, Norfolk.JPG** — La torre de una iglesia parroquial de Norfolk asomando sobre los setos: allí se guardaban los registros. Fotografía de Kolforn.
+- **“La casa azul”.jpg** — La Casa Azul de Coyoacán, donde vivió Frida Kahlo. Fotografía de Isabel Pinzón, 2019.
+- **(Bemberg Foundation) - 18th Century Venetian 'Mirror' Gilded wood and glass.jpg** — Espejo veneciano del siglo XVIII, de madera dorada y cristal. Fundación Bemberg, Toulouse. Fotografía de Didier Descouens.
+- **(Venice) - Santa Maria della Salute - Le due cupole e i due campanili.jpg** — Santa María de la Salud, la iglesia bajo la que se clavó más de un millón de pilotes.
+- **00 8333 Hochrad.jpg** — Un biciclo de rueda alta, de los que aparecieron a partir de 1870. Fotografía de W. Bulach.
+- **001 Chateau de Chillon and Dents du Midi Photo by Giles Laurent.jpg** — El castillo de Chillón, en el lago Lemán, con los Dents du Midi al fondo. Fotografía de Giles Laurent, 2020.
+- **013 Alpha male chimpanzee at Kibale forest National Park Photo by Giles Laurent.jpg** — Otro retrato del mismo macho dominante en el bosque de Kibale.
+- **02025 0230 Early medieval potter at work.jpg** — Un alfarero trabajando sobre un torno de disco, en una recreación de oficios antiguos.
+- **039 Northern lights over Mývatn (Iceland) Photo by Giles Laurent.jpg** — Auroras boreales sobre el lago Mývatn, en Islandia. Fotografía de Giles Laurent.
+- **077 Alpha male chimpanzee checking his arm at Kibale forest National Park Photo by Giles Laurent.jpg** — Chimpancé macho mirándose el brazo en el parque nacional de Kibale, en Uganda.
+- **09-06-2017 Harvested cork, Foz do Ribeiro, São Bartolomeu de Messines (1).JPG** — Planchas de corcho recién sacadas y apiladas en el Algarve portugués, junio de 2017. Fotografía de Kolforn.
+- **09-06-2017 Harvested cork, Foz do Ribeiro, São Bartolomeu de Messines (2).JPG** — Planchas de corcho apiladas en el Algarve, Portugal, 2017.
+- **1 yangshuo mountain retreat 2011.jpg** — Montañas kársticas reflejadas en el río, en Yangshuo, China. Fotografía de chensiyuan.
+- **10 Milliard Pengo 1946 front.jpg** — Billete húngaro de diez mil millones de pengő, emitido en Budapest el 10 de junio de 1946.
+- **1000 Three domes of Oia in Santorini Photo by Giles Laurent.jpg** — Casas encaladas de Oía, en Santorini. Fotografía de Giles Laurent, 2025.
+- **17ЛО2И.jpg** — Un tubo de rayos catódicos abierto, con el cañón de electrones en el cuello. Fotografía de Mister rf.
+- **1950s kitchen at the Ohio History Center June 2022.jpg** — Una cocina americana de los años cincuenta reconstruida en el Ohio History Center. Fotografía de DogsRNice.
+- **1986 year. 5¼-inch floppy disks.jpg** — Disquetes de cinco pulgadas y cuarto, de 1986. Fotografía de Dmitry Makeev.
+- **19881005080NR Quedlinburg Lange Gasse 32.jpg** — Una esquina del casco antiguo de Quedlinburg, en 1988. Fotografía de Jörg Blobelt.
+- **2015 04 08 009 Analogfilme.jpg** — Tiras de negativo y diapositivas sobre una mesa de luz. Fotografía de Friedrich Haag.
+- **2016 Kolumna głośnikowa Altus 110.jpg** — Columna de altavoces Altus 110, 2016.
+- **2017-05-25 Lviv-Kyiv night train compartment.jpg** — Compartimento del tren nocturno de Leópolis a Kiev, 2017.
+- **2019 한강불꽃축제-1.jpg** — Festival de fuegos artificiales del río Han, Seúl, 2019. Fotografía de Kwon Jung-sik.
+- **2019--09-14 01 Short-sea shipping EEMS DELFIA - IMO 8411633.jpg** — Buque de carga de cabotaje, del tipo que se usaba para llevar laboratorios improvisados a bordo. Fotografía de Gordon Leggett.
+- **2019-09-01 ISTAF 2019 Javelin throw (Martin Rulsch) 037.jpg** — Un lanzamiento de jabalina en una competición de atletismo. Fotografía de Martin Rulsch.
+- **20191218 Nadivalaya Yantra, Jantar Mantar, Jaipur, 0926 9023.jpg** — El Nadivalaya Yantra del observatorio Jantar Mantar de Jaipur, construido en el siglo XVIII. Fotografía de Jakub Hałun.
+- **2021 PapiermuehleInnen.jpg** — El almacén de trapos de un molino papelero, con la ropa clasificada en cestos. Fotografía de Stefan Oemisch.
+- **2022-03-26 pine tree trunk.JPG** — El corte de un pino recién talado, con la grieta abierta desde el centro.
+- **2022-08-27 05 View of L'Anse aux Meadows, NFL CAN.jpg** — El yacimiento de L'Anse aux Meadows junto a la costa de Terranova. Fotografía de Gordon Leggett.
+- **2023 Kleje.jpg** — Cuatro tubos de pegamento de distinto tipo. Fotografía de Jacek Halicki.
+- **2023 Opaski rzepowe.jpg** — Bridas de velcro, uno de los mil sitios donde acabó el invento. Fotografía de Jacek Halicki.
+- **2023 Stetoskop.jpg** — Un estetoscopio moderno de dos auriculares. Fotografía de Jacek Halicki.
+- **2023 Strzykawka szklana (1).jpg** — Jeringa de cristal de las que se esterilizaban y se volvían a usar, antes de las de plástico.
+- **2024-11-19-Central Park-0669.jpg** — Central Park en noviembre, con los rascacielos asomando por encima de los árboles.
+- **2025-09-13 16 31 58 Live Oak draped with Spanish moss near the north shore of Elm Lake within Brazos Bend State Park in Fort Bend County, Texas.jpg** — Roble americano cubierto de barba de viejo en Brazos Bend, Texas. Fotografía de 2025.
+- **2026 Barcelona Marathon wheelchair race at passeig de gracia by JJxFile.jpg** — La carrera en silla de ruedas del maratón de Barcelona, en el paseo de Gracia. Fotografía de Jorge Jaramillo.
+- **2026-03-21 Z5-2200 Achim-Lammerts Fomes-fomentarius.jpg** — El hongo yesquero (<em>Fomes fomentarius</em>) en un tronco. Fotografía de Achim Lammerts.
+- **202606 Euproctis nigricauda be heavy with the raindrops 01.jpg** — Polilla atrapada por las gotas de lluvia sobre una superficie mojada.
+- **A banana sprout in Western Kenya.jpg** — Brote de platanera en el oeste de Kenia: de un hijuelo así sale cada planta nueva, idéntica a la anterior.
+- **A collection of generic medicine pills on a white background.jpg** — Comprimidos y cápsulas de medicamentos genéricos. Fotografía de Subhrajyoti Parida.
+- **A masterpiece of blacksmith craftsmanship - Damascus knife in a very modern Bowie knife design forged from cannon steel from the Leopard I main battle tank. Length of the knife blade 26 centimeters. Picture one.jpg** — Un cuchillo forjado en acero de damasco moderno. Fotografía de Lupus in Saxonia.
+- **A portion of the ceiling in the tomb of Ramesses IV.jpg** — Techo de la tumba de Ramsés IV, Valle de los Reyes, 2023.
+- **A sample of aluminium foil on a piece of paper.jpg** — Tres bolas de papel de aluminio estrujado, con la cara pulida y la mate mezcladas en cada pliegue.
+- **A Ship in the Suez Canal.tif** — Barco cruzando el canal de Suez, 1955.
+- **Above Moroccan Dunes.jpg** — Dunas marroquíes vistas desde lo alto. Fotografía de Patricia Ilizaliturri.
+- **Above the Clouds - A Glimpse of Heaven.jpg** — El ala de un avión sobre el mar de nubes al atardecer, fotografiada desde la ventanilla.
+- **Acacia mellifera on a farm in Namibia.jpg** — Una acacia mellifera en una finca del centro de Namibia. Fotografía de Tim Brunauer para la GIZ.
+- **Acueducto, Segovia, España, 2024-06-14, DD 12.jpg** — Detalle de los bloques de granito del acueducto de Segovia, colocados sin argamasa. Fotografía de Diego Delso, 2024.
+- **Acueducto, Segovia, España, 2024-06-14, DD 18.jpg** — El acueducto de Segovia atravesando la ciudad, 2024. Fotografía de Diego Delso.
+- **Adler Typewriter Keyboard Close-up.jpg** — Teclado de una máquina de escribir Adler, con los símbolos repartidos por las teclas de números.
+- **Aerial view of Signal Hill, St. John's, Newfoundland at sunset by photographer Erik Mclean of Introspective Design.jpg** — Signal Hill, en Terranova, el promontorio desde el que se escuchó la señal. Fotografía de Erikallen920.
+- **Agbogbloshie, Ghana - September 2019.jpg** — Quema de cables para recuperar el cobre en el desguace de Agbogbloshie, Ghana, en 2019. Fotografía de Muntaka Chasant.
+- **Aiguille os 246.1 Global.jpg** — Aguja de hueso del Magdaleniense, hallada en la cueva de Gourdan, Francia. Mide 59 milímetros. Fotografía de Didier Descouens.
+- **Airliner wing and clouds over South Pacific.jpg** — El ala de un avión de línea sobre el Pacífico sur, vista desde la ventanilla. Fotografía de Daniel Case.
+- **Albert Dock & Pumphouse from Strand Street.jpg** — Los muelles de Liverpool desde Strand Street, con la casa de bombas que movía las compuertas. Fotografía de Rodhullandemu, 2018.
+- **Alcatraz Kitchen (2023)-L1003585.jpg** — La cocina de la prisión de Alcatraz, conservada como estaba. Fotografía de Frank Schulenburg.
+- **Alcornoque centenario en el alcornocal de Valdelosa, Salamanca.jpg** — Alcornoque centenario recién descorchado en Valdelosa, Salamanca.
+- **Alkaline AA batteries.jpg** — Pilas alcalinas corrientes, las que no llevan litio dentro. Fotografía de Maksym Kozlenko.
+- **Alpenglow Over the Pulag Grasslands.jpg** — Fila de excursionistas subiendo por los pastizales del monte Pulag, en Filipinas. Fotografía de 2026.
+- **Aluminum foil.jpg** — Papel de aluminio arrugado: cada arruga es un borde donde la carga se puede concentrar.
+- **Amboy (California, USA), Hist. Route 66 -- 2012 -- 1.jpg** — La antigua Ruta 66 a su paso por Amboy, California, 2012. Fotografía de Dietmar Rabich.
+- **Ammonite fossil imprint.jpg** — Fósil de amonites sobre la grava. Fotografía de Harshit SR, 2025.
+- **Ancla, Anchor Bay, Malta, Malta, 2021-08-24, DD 12.jpg** — Un ancla en el fondo de la bahía de Anchor Bay, en Malta, ya cubierta de vida marina. Fotografía de Diego Delso, 2021.
+- **Anfiteatro, Valle de la Luna, San Pedro de Atacama, Chile, 2016-02-01, DD 149.JPG** — El anfiteatro del Valle de la Luna, cerca de San Pedro de Atacama, 2016. Fotografía de Diego Delso.
+- **Angled view of a fashion wristwatch with purple dial and leather strap 01.jpg** — Un reloj de pulsera, el objeto que más entra y sale de estos mostradores.
+- **Animal hunting scene. Gobekli Tepe.jpg** — Escena de caza tallada en la piedra de Göbekli Tepe, hacia el año 9000 antes de Cristo.
+- **Annapurna Massif-5133.jpg** — El macizo del Annapurna, en Nepal. Fotografía de Bijay Chaurasia.
+- **Antikythera mechanism clockface, 1st-2nd century BC, Greece (model).jpg** — Reconstrucción del mecanismo de Anticitera, calculadora astronómica griega del siglo II a. C.
+- **Antique cash register in a cafe, Darjeeling.jpg** — Registradora antigua en la barra de un café de Darjeeling, en la India.
+- **Aphid Farm (55206291839).jpg** — Hormigas cuidando una colonia de pulgones en un tallo. Fotografía de Willie Luker, 2026.
+- **Appian Way.jpg** — La Vía Apia a las afueras de Roma, empedrada hace más de dos mil años. Fotografía de Livioandronico2013.
+- **Arsenale di Venezia towers.jpg** — Las torres que guardan la entrada de agua del Arsenal de Venecia.
+- **ASC Leiden - Rietveld Collection - Nigeria 1970 - 1973 - 01 - 087 Pan African Games Lagos January 7-18, 1973. A high jumper hits the bar in the stadium - Lagos.jpg** — Salto de altura en los Juegos Panafricanos de Lagos, enero de 1973.
+- **Askania-Nova Steppe 24 Przewalski's Horses (YDS 1683).jpg** — Caballos salvajes en la estepa de Askania-Nova, en Ucrania. Fotografía de Nataliya Shestakova.
+- **Assam-hajua.jpg** — Hojas de té negro de Assam sin moler, vistas de cerca.
+- **Assam-mangalam.jpg** — Otro té de Assam, con la hoja más grande y dorada.
+- **Asturias, panorámicas (2006) 04.jpg** — Interior de un hayedo en Caso, Asturias.
+- **At Basildon Park 2024 06.jpg** — La fachada de una casa señorial inglesa del siglo XVIII: dos de sus ventanas son de piedra maciza, cegadas, y están al lado de las de verdad. Basildon Park, Berkshire. Fotografía de Mike Peel, 2024.
+- **Athens - 454-404 BC - silver tetradrachm - head of Athena - owl - München SMS.jpg** — Tetradracma de plata de Atenas con la cabeza de Atenea, acuñado entre el 454 y el 404 antes de Cristo. Colección de Múnich. Fotografía de ArchaiOptix.
+- **Athens - 510-500 BC - silver tetradrachm - head of Athena - owl - München SMS.jpg** — Un tetradracma ateniense algo anterior, de hacia el año 500 antes de Cristo. Fotografía de ArchaiOptix.
+- **Atomic Bomb Dome, Hiroshima, South view 20190417 1.jpg** — La Cúpula de la Bomba Atómica, dejada en pie tal como quedó. Hiroshima, 2019.
+- **Auditório Radamés Gnattali.jpg** — Un auditorio de conciertos con el escenario preparado. Fotografía de Casa do Choro.
+- **Augustus of Prima Porta (inv. 2290).jpg** — Augusto de Prima Porta, estatua de mármol del siglo I hallada cerca de Roma. Museos Vaticanos. Fotografía de Joel Bellviure.
+- **Aurora Australis Over the Tasman Sea from SouthWest National Park.jpg** — Aurora austral sobre el mar de Tasmania. Fotografía de Jamen Percy.
+- **Aurora Borealis activity on top of the Kirkjufell mountain in September 2018.jpg** — Aurora boreal sobre el monte Kirkjufell, en Islandia. Fotografía de 2018.
+- **Autumn leaves in Linn Park, Glasgow.jpg** — Sendero cubierto de hojas en el parque de Linn, en Glasgow. Fotografía de 2019.
+- **B-17G cockpit.jpg** — La cabina de un B-17, con los dos volantes y la palanca de gases al centro. Fotografía de Thornfield Hall.
+- **Bahar ic-Caghaq Saltpans.jpg** — Salinas excavadas en la roca de la costa maltesa. Fotografía de Marika Caruana.
+- **Baking yeast cells under 40x microscope objective.jpg** — Levadura de panadería vista con objetivo de 40 aumentos, 2023.
+- **Baliwagenyo welder with green hard hat working atop a petrol station metal structure 01.jpg** — Un soldador con casco trabajando en lo alto de una estructura metálica.
+- **Baliwagenyo welder with green hard hat working atop a petrol station metal structure 03.jpg** — El mismo soldador, visto desde otro ángulo, sobre la estructura.
+- **Ballpoint Macro.jpg** — La punta de un bolígrafo ampliada, con la bola de acero encajada en el casquillo de latón. Fotografía de Prosthetic Head.
+- **Bananas on black background 02.jpg** — Plátanos maduros fotografiados sobre fondo negro.
+- **Bank of England Building, City of London (Southwest View - 01).jpg** — El edificio del Banco de Inglaterra, en la City de Londres. Fotografía de 2022.
+- **Bar-magnets-attracting-iron-filings max.jpg** — Limaduras de hierro espolvoreadas entre dos imanes: dibujan solas las líneas del campo. Fotografía de MikeRun y Vera Wurmsdobler.
+- **Barbados Port Inc Container Park Bridgetown 0254.jpg** — La campa de contenedores del puerto de Bridgetown, Barbados. Fotografía de Paul Harrison, 2018.
+- **Barcas - Estanque del Retiro - Madrid 01.jpg** — El estanque del Retiro de Madrid al atardecer. Fotografía de Javier Pérez Montes.
+- **Bauhaus building at Dizingoff str.jpg** — Uno de aquellos edificios de la calle Dizengoff, todavía en pie.
+- **Beard tax token badge.jpg** — Reproducción de la ficha rusa del impuesto sobre la barba.
+- **Beijing printing museum.bronze movable types.jpg** — Tipos móviles de bronce del mismo museo. Fotografía de Popolon.
+- **Beijing printing museum.wooden movable types.jpg** — Tipos móviles chinos colocados en su bandeja, en el Museo de la Imprenta de Pekín. Fotografía de Popolon.
+- **Bell ringing at Crosthwaite, Keswick.jpg** — Un equipo de campaneros tocando a cuerda en una iglesia inglesa, 2017. Fotografía de Doug Sim.
+- **Belsize Park Station. Platform Tile Design.jpg** — El friso de azulejos del andén de Belsize Park: cada estación de la línea tenía su propio dibujo. Fotografía de Andrew Riley.
+- **Berlin Archaeopteryx.jpg** — El ejemplar de Berlín de Archaeopteryx, de hace unos 150 millones de años, con las plumas marcadas en la piedra. Fotografía de Emily Willoughby.
+- **Bicycle Helmet 0085.jpg** — Un casco de bicicleta corriente, con la espuma gris asomando por las rejillas. Fotografía de Ashley Pomeroy.
+- **Billiard balls red yellow white.jpg** — Un juego de bolas de billar de carambola, roja, blanca y amarilla. Fotografía de Oknazevad.
+- **Binnacle from SMS Emden.jpg** — La bitácora de un barco, con la brújula montada dentro. Fotografía de SuperJew.
+- **Bismuth Cristal artificiel GLAM MHNL Minéralogie FL 2016 A 11.JPG** — Cristal artificial de bismuto, Museo de Historia Natural de Lille. Fotografía de Lamiot, 2016.
+- **Black Diamond Historical Museum - flashlights 01.jpg** — Linternas antiguas alineadas en una vitrina de museo. Fotografía de Joe Mabel.
+- **Black Diamond Historical Museum - telephone switchboard 01.jpg** — Cuadro de conexiones manual conservado en el museo de Black Diamond, Washington. Fotografía de Joe Mabel.
+- **Black high-heeled shoes under a red floor-length dress (20240927193035).jpg** — Zapatos de tacón bajo un vestido largo rojo, 2024.
+- **Black Pepper.jpg** — Granos de pimienta negra sobre una tabla de madera, en macro.
+- **Blacksmith (1).jpg** — Herrero levantando el martillo sobre una pieza al rojo, 2013. Fotografía de Sasener.
+- **Blue evening view at old town of Heidelberg and Neckar river.jpg** — Heidelberg al anochecer, la ciudad donde se presentó el hallazgo en el congreso de oftalmología de 1884.
+- **Blue hour fog over Preemraff oil refinery by Brofjorden.jpg** — Una refinería reflejada en el agua a la hora azul. Fotografía de W. Carter, Suecia, 2021.
+- **Blue whale skeleton Hope Hintze Hall Natural History Museum London 2025 dllu.jpg** — Esqueleto de ballena azul colgado en el vestíbulo del Museo de Historia Natural de Londres. Fotografía de Daniel Lu.
+- **Bohemia apples in basket 2.jpg** — Manzanas recién cogidas en un cesto de mimbre. Fotografía de T. Kebert.
+- **Bolivian rose salt.jpg** — Cristales de sal gruesa, de hasta cinco milímetros. Fotografía de Ivar Leidus.
+- **Bonn, Post-Tower -- 2017 -- 2131.jpg** — La fachada acristalada de una torre de oficinas en Bonn. Fotografía de Dietmar Rabich.
+- **Brackenheim - Altstadt - Fachwerkhaus Obertorstraße 12 - Ostfassade.jpg** — Casa gremial de entramado en Brackenheim. Fotografía de Roman Eisele.
+- **Bran-Castle-Transylvania-0101.jpg** — El castillo de Bran, en los Cárpatos, Transilvania.
+- **Brandenburg Gate 2017 002.jpg** — La Puerta de Brandeburgo hoy, sin muro delante. Fotografía de Mike Peel.
+- **Bras robotisés.jpg** — Brazos robóticos industriales en vitrinas iluminadas. Fotografía de Gzen92.
+- **Brass P trap.jpg** — Un sifón de latón, el tubo doblado que va debajo de cada desagüe. Fotografía de Raquel Baranow, 2022.
+- **Bremerhaven, Atlantic Hotel Sail City, Seilkonstruktion -- 2024 -- 2287.jpg** — Estructura de cables de acero en el mirador del Sail City de Bremerhaven.
+- **British Museum 2010-08-01 interior 02.jpg** — Interior del Museo Británico. Fotografía de Szilas.
+- **Brooklyn Bridge at sunset from Brooklyn Bridge Park, New York City.jpg** — El puente de Brooklyn al atardecer, desde el parque de la orilla. Fotografía de SebastianBlumeArt.
+- **Brooklyn Diner, New York City (2024)-L1006207.jpg** — Otro restaurante neoyorquino iluminado al caer la tarde. Fotografía de Frank Schulenburg.
+- **Bushmen of Kalahari.jpg** — Cazadores san en el Kalahari, 2016. Es el pueblo del que los antropólogos documentaron esta forma de cazar. Fotografía de Amhogas.
+- **Busto Clara Campoamor, León.JPG** — Busto de Clara Campoamor en León.
+- **C-58 a Torreblanca - P1080339.jpg** — La carretera C-58 a su paso por Torreblanca. Fotografía de Pere López Brosa.
+- **Cadrans horloge astronomique Besancon.jpg** — Esferas del reloj astronómico de la catedral de Besanzón. Fotografía de PCouton.
+- **Calcium oxide powder.JPG** — Óxido de calcio, la cal viva que sale del horno. Fotografía de Leiem.
+- **Calle Inca Roca - Cusco - Peru - dry stone wall.jpg** — Muro incaico de la calle Hatun Rumiyoc, en Cuzco. Fotografía de AgainErick, 2009.
+- **Camino Primitivo, marcador Asturias-Galicia.jpg** — Mojón del Camino Primitivo en la raya entre Asturias y Galicia, 2019. Fotografía de Simon Burchell.
+- **Canal de Castilla, esclusa 41 01.jpg** — Esclusa 41 del mismo canal, unos metros más arriba.
+- **Canal de Castilla, esclusa 42.jpg** — Esclusa 42 del Canal de Castilla, en Valladolid, con el agua colándose por las puertas del fondo.
+- **Canale San Giovanni (Murano).jpg** — La isla de Murano, en la laguna de Venecia, vista desde el agua.
+- **Canari en cage, janvier 2022, DSC 1791.jpg** — Un canario doméstico en su jaula. Fotografía de Habib M'henni, 2022.
+- **Canary resuscitator apedale.JPG** — Una jaula reanimadora de canarios, con la portezuela de cristal y la botella de oxígeno encima. Apedale Heritage Centre. Fotografía de Geni, 2025.
+- **Candle in Paris.jpg** — Una vela encendida en un candelero de iglesia, en París. Fotografía de Barbara-Ingeborg.
+- **Candle light projected through a glass orb.jpg** — La luz de una vela atravesando una esfera de vidrio y proyectándose al otro lado.
+- **Cape Town (ZA), Table Mountain -- 2024 -- 2762+64+66+68+70+72.jpg** — Ciudad del Cabo desde la Montaña de la Mesa. Fotografía de Dietmar Rabich.
+- **Cape Town (ZA), Table Mountain -- 2024 -- 2794+96+98+2800+01.jpg** — La bahía de Ciudad del Cabo vista desde la Montaña de la Mesa. Fotografía de Dietmar Rabich.
+- **Car headlight beams through the rain 01.jpg** — Los haces de unos faros abriéndose paso bajo la lluvia. Fotografía de Bright Kwame Ayisi.
+- **Car headlight beams through the rain 2.jpg** — Otro coche con las luces encendidas en una noche de lluvia. Fotografía de Bright Kwame Ayisi.
+- **Car scrapyard along the Fishermen's Trail near Monte dos Cairos, Portugal julesvernex2.jpg** — Desguace junto a la Ruta Vicentina, Monte dos Cairos, Portugal, 2016.
+- **Caratteri mobili del Museo della stampa Lodovico Pavoni.jpg** — Tipos móviles de plomo en su caja. Museo de la Imprenta Lodovico Pavoni.
+- **Carottes et poireaux de la ferme Grandjard au marché de la place Albert Thomas.jpg** — Zanahorias y puerros de una granja en el mercado de la plaza Albert Thomas, en Saint-Étienne.
+- **Carriage, Lynton and Lynmouth Cliff Railway, North Devon.jpg** — Coche del funicular de Lynton y Lynmouth, en Devon, que se mueve con agua desde 1890.
+- **Casa Mila, Barcelona (P1170595).jpg** — La Casa Milà de Antoni Gaudí, levantada sobre uno de los chaflanes del paseo de Gracia. Fotografía de Matti Blume.
+- **Castello di Levizzano Rangone abc7 acetaia.jpg** — Acetaia instalada bajo el tejado del castillo de Levizzano Rangone, en Italia.
+- **Castro Theatre, San Francisco.jpg** — El rótulo vertical del cine Castro, en San Francisco. Fotografía de Daniel Lu.
+- **Catedral de Santiago de Compostela, Panorama del Portico de la Gloria.jpg** — La fachada del Obradoiro de la catedral de Santiago de Compostela, el destino que el libro describe con sus medidas y sus puertas. Fotografía de D. Rovchak, 2013.
+- **Cavalier de chameaux au passage dans une dune de sable au Maroc.jpg** — Camellos cruzando una duna en el Sáhara marroquí.
+- **Celluloid dresser vanity set-01.jpg** — Juego de tocador de celuloide: espejo, peine y recogedor de pelo, imitando el marfil. Minnesota Historical Society. Fotografía de Bob Herskovitz.
+- **Cementerio de Laño.jpg** — El cementerio de Laño, a las afueras del pueblo. Fotografía de Mentxuwiki.
+- **Central Park New York October 2016 004.jpg** — Un rincón de Central Park en otoño. Fotografía de King of Hearts.
+- **CERN LHC ATLAS Detector.jpg** — El detector ATLAS del Gran Colisionador de Hadrones, en el CERN. Fotografía de 2019.
+- **Cerro Rico over Potosí, Bolivia.jpg** — El Cerro Rico sobre Potosí, en Bolivia: de ahí salió la plata. Fotografía de Jbmurray.
+- **Ceylon-amba.jpg** — Té negro de Ceilán en hoja suelta.
+- **CH.ZG.Zug Museum-Burg-Zug shoemaker's-machines-around-1930.jpg** — Máquinas del mismo taller de zapatería, tal y como estaban hacia 1930.
+- **CH.ZG.Zug Museum-Burg-Zug shoemaker's-workbench-around-1930.jpg** — Banco de trabajo de un zapatero suizo hacia 1930, con las herramientas colocadas. Museo Burg de Zug.
+- **Chambersburg and Bedford Turnpike Road Company Tollhouse Number 2.jpg** — Casilla de peaje número 2 de la compañía de la carretera de Chambersburg a Bedford, 2018.
+- **Chartres Cathedral South Aisle View into Nave 2007 08 31.jpg** — Bóvedas de la catedral de Chartres. Fotografía de Andreas F. Borchert, 2007.
+- **Chinese typewriter 03.jpg** — Una máquina de escribir china de los años ochenta, con su bandeja de miles de caracteres. Fotografía de MatejK42.
+- **Chrysler Building At Night.jpg** — La corona del edificio Chrysler de Nueva York de noche. Fotografía de Russ Allison Loar, 2011.
+- **Church of St Mary, Tilty Essex England - chancel ledger memorial.jpg** — Losa sepulcral en el suelo del presbiterio de la iglesia de Tilty, Essex. Fotografía de Acabashi.
+- **Cianocrilato.JPG** — Bloque de cianoacrilato ya curado: el plástico duro y quebradizo en que se convierte el líquido del tubo.
+- **Clavier de carillon - Taninges.jpg** — Teclado de palancas de madera del carillón de Taninges, Alta Saboya, 2016. Fotografía de Lcs74.
+- **Close-up of wire rope assembly, Jardim da Fundação Calouste Gulbenkian, Lisbon, Portugal julesvernex2.jpg** — Anclaje y terminal de un cable de acero, en Lisboa.
+- **Closeup image of a cotton field in Raichur Karnataka.jpg** — Un campo de algodón. El cultivo que se llevó el agua de los ríos que alimentaban el Aral.
+- **Clouds in the drakensberge 01.jpg** — Nubes subiendo por las montañas Drakensberg, en Sudáfrica. Fotografía de Thomas Fuhrmann, 2023.
+- **Cluny - Mero - Trône de Dagobert.jpg** — El llamado trono de Dagoberto, en bronce dorado. Museo de Cluny, París. Fotografía de Cangadoba.
+- **Coal miners working at Baikaimskaya mine 2.jpg** — Galería de la mina de Baikaimskaya, en Kuzbass, con los mineros trabajando al fondo.
+- **Cobbler repairing shoes in old workshop (Bazaar in Bitola, Macedonia, 2025).jpg** — Un zapatero remendón en su taller del bazar de Bitola, en Macedonia del Norte. Fotografía de Petar Milošević.
+- **Coffee beans2.jpg** — Granos de café verde y tostado. Fotografía de Popo le Chien.
+- **Coil plastic and metal zippers.jpg** — Cremalleras de espiral, de plástico y de metal, una al lado de la otra.
+- **Coin Hoard (FindID 514220).jpg** — Un tesorillo de monedas romanas de plata y bronce, tal como se encontró. Museo Británico.
+- **Colonie batteriche o vita marina?.jpg** — Colonias de bacterias creciendo en una placa de cultivo. Fotografía de Chiara Marraccini.
+- **Colorful toothbrush.jpg** — Tres cepillos usados en un vaso. Fotografía de Gausanchennai.
+- **Common Spices in Bali, Indonesia.jpg** — Especias corrientes en Bali: clavo, canela, nuez moscada, jengibre y otras.
+- **Commuters passing Old Xi'erqi Station (20170904083909).jpg** — Gente saliendo de una estación a primera hora de la mañana. Fotografía de N509FZ.
+- **Condado de Dublín - Long Room-Trinity College - 20170826095451.jpg** — Estanterías de la biblioteca del Trinity College de Dublín, con los volúmenes ordenados por tamaño.
+- **Console, IBM System 360 Model 65.jpg** — Consola del IBM System/360 Modelo 65, de 1965, con sus filas de luces e interruptores.
+- **Container cranes at the Port of Oakland.jpg** — Grúas del puerto de Oakland, California, 2025.
+- **Container Ship MSC Tianping in Fremantle Harbour, November 2024 01.jpg** — Un portacontenedores atracado bajo las grúas del puerto de Fremantle, en Australia. Fotografía de Calistemon.
+- **Cork oak forest with ferns Montresta and Bosa 1996.jpg** — Alcornocal con helechos entre Montresta y Bosa, Cerdeña, 1996.
+- **Corning Museum of Glass - 20220312 - 03 - Hot Glass Show.jpg** — Una bola de vidrio fundido recalentándose en el horno, a más de mil grados. Museo del Vidrio de Corning. Fotografía de Andre Carrotflower.
+- **Corrective soft contact lenses, with high oxigen permeability.jpg** — Lentillas blandas de hoy, que dejan pasar el oxígeno que aquellas cáscaras de vidrio cortaban.
+- **Corte cerebro pez cebra visto con microscopio confocal.jpg** — Corte de un cerebro de pez cebra visto al microscopio confocal. Imagen de Brandon Segura y Priscilla Vieto, 2024.
+- **Coscinodiscus oculus-iridis (Ehrenberg) Ehrenberg 1840 diatom shell. Colored SEM image.jpg** — Caparazón de una diatomea visto al microscopio electrónico y coloreado. Fotografía de Pável Sómov.
+- **Cotton plant, Ware County, GA, US.jpg** — Una mata de algodón con las cápsulas abiertas, en el condado de Ware, Georgia. Fotografía de Jud McCranie.
+- **COVID-19 vaccination center, fair grounds Cologne-6600.jpg** — Centro de vacunación montado en el recinto ferial de Colonia, diciembre de 2020.
+- **Cracked bicycle helmet.jpg** — Un casco partido después de un accidente: la espuma se ha aplastado y agrietado. Fotografía de Andrew Kvalheim.
+- **Cremallera.001 - Primer plano.jpg** — Cremallera de espiral de una mochila fotografiada muy de cerca.
+- **Crowd looking at the Mona Lisa at the Louvre.jpg** — La cola diaria delante del cuadro. Fotografía de Victor Grigas, 2014.
+- **Cucharas de madera 01.jpg** — Cucharas de madera mexicanas, 2025.
+- **Cuenco y cuchara de madera procedentes de la Cueva de los Murciélagos, Albuñol. Museo Arqueológico Nacional de España.jpg** — Cuenco y cuchara de madera neolíticos de la Cueva de los Murciélagos, Albuñol. Museo Arqueológico Nacional, Madrid.
+- **Cuernos del Paine at Torres del Paine.jpg** — Los Cuernos del Paine, en la Patagonia chilena. Fotografía de 2024.
+- **Cultural History (historisk) Museum Oslo. VIKINGR Norwegian Viking-Age Exhibition 08 Iron helmet from Gjermundbu (Gjermundbuhjelmen). Best-preserved viking helmet, grave find, destroyed in funeral. Equestrian warrior 950-1000. 4665.jpg** — El casco de Gjermundbu, el único casco vikingo completo que se conserva. Museo de Historia Cultural de Oslo.
+- **Cyperus papyrus kz07.jpg** — Papiro (Cyperus papyrus), la planta con la que se hicieron los primeros libros. Fotografía de Krzysztof Ziarnek, 2022.
+- **Danish-Norwegian foot artillery uniform ca 1810. Shako, plume, crossbelt, cartridge pouch, tunic coat. Norw. horse-drawn gun carriage 1809. Dragoner 1808 by A. Bloch. Forvarsmuseet Oslo 2020-02-24 2746.jpg** — Uniforme de artillero danés-noruego de hacia 1810, con casaca roja y azul, chacó y penacho. Museo de las Fuerzas Armadas, Oslo. Fotografía de Wolfmann.
+- **Dearborn Telescope with open dome.jpg** — Un telescopio refractor bajo la cúpula abierta, iluminado de rojo para no estropear la vista. Fotografía de Jackricono.
+- **Deir al Medineh near Luxor.jpg** — Las ruinas del poblado de obreros de Deir el-Medina, cerca de Luxor. Fotografía de Gildas Guionnet.
+- **Deir el-Medina-08-Grab 1-Sennedjem-18.-20.Dyn-1982-gje.jpg** — Pared pintada de la tumba de Sennedjem, en Deir el-Medina: uno de los trabajos de aquellos obreros. Fotografía de Gerd Eichmann.
+- **Deir el-Medina-12-Grab 1-Sennedjem-Feldbau-1982-gje.jpg** — Pintura de la tumba de Sennedjem, en el poblado de obreros de Deir el-Medina. Fotografía de Gerd Eichmann.
+- **Deserted Village at Slievemore (Juli 2018).jpg** — El poblado abandonado de Slievemore, en la isla de Achill, Irlanda. Fotografía de Veenpluis.
+- **Dettaglio dell'occhio di un polpo.jpg** — El ojo de un pulpo de cerca. Fotografía de Federico Stefanelli.
+- **DFC 4172 A handheld magnifying glass resting on a scattered pile of coins and medallions highlighting intricate details.jpg** — Una lupa de mano sobre un montón de monedas y medallas en un puesto de mercado.
+- **DFC 4184 Bunches of ripe bananas neatly arranged at a bustling market stall ready for shoppers.jpg** — Puesto de mercado con los racimos de plátanos colocados tal y como crecieron.
+- **DFC 4508 A narrow pathway winds through a cluttered scrapyard piled high with discarded metal plastic pipes and other tangled debris.jpg** — Un pasillo estrecho entre montones de chatarra en un desguace. Fotografía de PattayaPatrol.
+- **Dishbrushes (Jordan oppvaskbørster), Coop Extra supermarket, shop shelves, Bergen, Norway 2017-10-25.jpg** — Artículos colgados en fila en el expositor de una tienda.
+- **DolosseGreenPoint.jpg** — Dolos, otra familia de bloques de abrigo, en Green Point, Ciudad del Cabo, 2018. Fotografía de The Interior.
+- **Dome of Pantheon (Rome).jpg** — La cúpula del Panteón de Roma, de hormigón sin armar y con casi dos mil años. Fotografía de Livioandronico2013.
+- **Domino -- 2021 -- 6759.jpg** — Fichas de dominó sobre una mesa. Fotografía de Dietmar Rabich, 2021.
+- **Downtown Boise photographed from Camel's Back Park.jpg** — Boise, en Idaho, la ciudad donde se repartieron las primeras muestras gratis.
+- **Dr Norman Bethune Statue.jpg** — Estatua de Norman Bethune, el cirujano que montó un servicio móvil de transfusión en la Guerra Civil española.
+- **Drake Oil Well.jpg** — La réplica del pozo Drake, en Titusville, Pensilvania. Fotografía de PLBthetoonist, 2018.
+- **Drying nutmeg.jpg** — Nuez moscada puesta a secar en Indonesia. Fotografía de Arie Basuki.
+- **DSCF1047 Empty highway at night with streaking taillights and illuminated roadside signs stretching into the distance.jpg** — Carretera de noche con las luces traseras convertidas en estelas, 2025. Fotografía de PattayaPatrol.
+- **DSCF1058 Nighttime long-exposure captures streaking headlights as cars speed through an empty urban interchange beneath glowing streetlights.jpg** — Enlace de carreteras de noche, en exposición larga. Fotografía de PattayaPatrol, 2025.
+- **Dubai Marina Skyline 93.jpg** — La marina de Dubái, 2019.
+- **Duisburg, Landschaftspark Duisburg-Nord, Hochofen 2 -- 2016 -- 1115.jpg** — Alto horno 2 del parque de Duisburgo-Norte, 2016.
+- **Duisburg, Landschaftspark Duisburg-Nord, Hochofen 5 -- 2024 -- 4177.jpg** — Alto horno 5 del parque de Duisburgo-Norte, 2024.
+- **Duisburg, Landschaftspark Duisburg-Nord, Hochofen 5, Blick zum Hochofen 2 -- 2026 -- 1477.jpg** — Estructura oxidada de los altos hornos de Duisburgo, Alemania, 2026.
+- **Duisburg, Landschaftspark Duisburg-Nord, Hochofen 5, Halle -- 2024 -- 4164 (kreativ 4).jpg** — Nave del alto horno 5, Duisburgo, 2024.
+- **Dülmen, Börnste, Waldweg -- 2024 -- 6257.jpg** — Camino de bosque en otoño, Dülmen (Alemania), 2024. Fotografía de Dietmar Rabich.
+- **Dülmen, Brachliegendes Feld mit Wildblumen -- 2021 -- 9764.jpg** — Amapolas en un campo en barbecho. Fotografía de Dietmar Rabich, 2021.
+- **Dülmen, Dernekamp, Allee -- 2026 -- 1265.jpg** — Una carretera de árboles al amanecer en Westfalia. Fotografía de Dietmar Rabich, 2026.
+- **Dülmen, Hausdülmen, Kettbach -- 2015 -- 8499-503.jpg** — El arroyo Kettbach reflejando el cielo, Dülmen, Alemania, 2015.
+- **Dülmen, Hausdülmen, Zaun einer Wiese -- 2021 -- 4988.jpg** — Alambre de espino cubierto de escarcha al amanecer. Fotografía de Dietmar Rabich, 2021.
+- **Dülmen, Kirchspiel, Börnste, BMW Mini -- 2019 -- 7207-13.jpg** — Un coche con las luces de cruce encendidas en una carretera de Renania del Norte-Westfalia, donde se circula por la derecha y el haz alumbra más lejos por ese lado. Fotografía de Dietmar Rabich, 2019.
+- **Dülmen, Kirchspiel, Börnste, Felder und Bäume -- 2017 -- 3160-6.jpg** — Amanecer con niebla sobre los campos de Dülmen. Fotografía de Dietmar Rabich, 2017.
+- **Dülmen, Kirchspiel, Welte, Morgentau auf Grashalmen -- 2021 -- 7569.jpg** — Rocío de la mañana sobre las briznas de hierba. Fotografía de Dietmar Rabich, 2021.
+- **Dülmen, Merfeld, Feldweg am Mühlenbach -- 2021 -- 4347-51.jpg** — Camino junto al Mühlenbach, Merfeld, Alemania, 2021.
+- **Dülmen, Merfeld, Volvo PV 544 B18 -- 2021 -- 0120-4.jpg** — El coche completo al anochecer. Fotografía de Dietmar Rabich, 2021.
+- **Dülmen, Merfeld, Volvo PV 544 B18 -- 2021 -- 0138.jpg** — Volvo PV 544, el modelo que en 1959 estrenó el cinturón de tres puntos de serie. Fotografía de Dietmar Rabich, 2021.
+- **Dülmen, Merfeld, Volvo PV 544 B18 -- 2021 -- 9896.jpg** — Otro detalle del Volvo PV 544 restaurado. Fotografía de Dietmar Rabich, 2021.
+- **Dülmen, Merfeld, Volvo PV 544 B18 -- 2021 -- 9946.jpg** — Salpicadero del mismo Volvo, con los mandos rotulados en sueco. Fotografía de Dietmar Rabich, 2021.
+- **Dülmen, Rorup, NSG Roruper Holz -- 2021 -- 8187-91.jpg** — Robledal maduro en la reserva de Roruper Holz, Alemania. Fotografía de Dietmar Rabich.
+- **DZ6 0461 Cozy neatly made hotel room with a king bed soft pillows bedside lamps and calming neutral decor.jpg** — Cama hecha con almohadas y ropa blanca en una habitación de hotel, 2025. Fotografía de PattayaPatrol.
+- **DZ6 0640 A fleet of small boats dots a calm sea under a dramatic cloud-filled sky as rays of light break through toward the horizon.jpg** — Una bahía en calma al atardecer, con las barcas fondeadas. Fotografía de PattayaPatrol.
+- **DZ6 1813 A vendor smiles as she weighs and prepares ripe yellow mangoes at a bustling indoor market stall with stacks of packaged goods and fellow sellers visible in the background.jpg** — Una vendedora pesa mangos en el puesto de un mercado cubierto.
+- **DZ6 2617 Empty Shell station at night - bright lights and clean pumps ready for early-morning customers. (55017570203).jpg** — Una estación de servicio vacía de madrugada. Fotografía de PattayaPatrol.
+- **Early British television sets at the Early Television Museum June 2022 1.jpg** — Dos televisores británicos de los años treinta, uno con espejo abatible sobre el tubo. Early Television Museum, Ohio. Fotografía de DogsRNice.
+- **Early fix of Comet C 2023 A3 (Tsuchinshan–ATLAS).jpg** — El cielo de antes del amanecer del 27 de septiembre de 2024, con el cometa Tsuchinshan-ATLAS asomando. Fotografía de Astrobond.
+- **Early Metal Blocks, Cheongju Early Printing Museum.jpg** — Tipos metálicos antiguos en el Museo de la Imprenta Antigua de Cheongju, Corea del Sur.
+- **Einhausung Lövenich - A1-1645.jpg** — Entrada al tramo cubierto de la autopista A1 al oeste de Colonia. Fotografía de Raimond Spekking.
+- **Eisblumen an einem alten Fenster.jpg** — Escarcha en el cristal de una ventana vieja. Fotografía de Soluvo.
+- **El Ejido aerial.jpg** — El Ejido, en Almería, rodeado de invernaderos hasta donde alcanza la vista.
+- **El Puente de Barcas, Sevilla (Vista de la ciudad de Sevilla).jpg** — El puente de barcas de Sevilla, detalle de una vista de la ciudad pintada en el siglo XVI.
+- **Electric fans in the Philippines 06.jpg** — Ventiladores en una casa de Filipinas, 2023.
+- **Electronic waste 2.jpg** — Un contenedor de aparatos electrónicos en un punto limpio. Fotografía de Tiia Monto.
+- **Enclosure with T Shaped Pillars, Karahantepe (Karahan Tepe), Turkey (2).jpg** — Recinto con pilares en forma de T en Karahan Tepe, en el sureste de Turquía.
+- **Ephesus Library of Celsus Detail inside facade in 2011 3640.jpg** — La cornisa labrada de la biblioteca de Celso, agrietada por dentro. Fotografía de Dosseman.
+- **Ephesus Library of Celsus Detail of facade in 2011 3634.jpg** — El frontón partido de la fachada, visto desde abajo. Fotografía de Dosseman.
+- **Erg Chebbi sunset.jpg** — El erg Chebbi, en el Sáhara marroquí, al caer el sol. Fotografía de Thomas Fuhrmann.
+- **Erythroxylum coca Krasnodrzew pospolity 2024-02-29 Graz 03.jpg** — Una mata de coca, Erythroxylum coca, en el jardín botánico de Graz. Fotografía de Agnieszka Kwiecień.
+- **Escalera del Archivo General de Indias.jpg** — La escalera de mármol del Archivo General de Indias, reformada entre 1784 y 1790. Fotografía de Jl FilpoC.
+- **Escritoio de un naturalista.jpg** — El escritorio de un naturalista, con cráneos, conchas, amonites y un libro abierto. Fotografía de Brandon Antonio Segura Torres y Priscilla Vieto Bonilla.
+- **Espoo candle clock.JPG** — Un reloj de vela: la cera baja a un ritmo conocido y las rayas marcadas al lado dicen la hora. Museo del Reloj de Espoo, Finlandia. Fotografía de Catlemur, 2015.
+- **Essaouira - fishing port 1989 05.jpg** — Puerto pesquero de Esauira, en Marruecos, con las barcas azules amarradas.
+- **Essen (DE), Zeche Zollverein -- 2022 -- 0020.jpg** — El recinto de Zollverein, cerrado como mina en 1986 y hoy visitable. Fotografía de Anil Öztas, 2022.
+- **Essen (DE), Zeche Zollverein, Schacht XII -- 2022 -- 0026.jpg** — Instalaciones del pozo XII de Zollverein, hoy patrimonio industrial. Fotografía de Anil Öztas, 2022.
+- **Etruscan mirror, engraved Dioskouroi, bronze, 300 BC, Prague, NM-H10 5943, 151177.jpg** — Espejo etrusco de bronce con los Dioscuros grabados en el reverso, hacia el año 300 antes de Cristo. Museo Nacional de Praga. Fotografía de Zde.
+- **Evening at Cap de Creus 01 ms.jpg** — Atardecer en el cabo de Creus, en el Ampurdán. Fotografía de Manfred Schulenburg, 2017.
+- **Fachada Este - Palacio Real - Madrid 03.jpg** — Detalle de la fachada del Palacio Real de Madrid, 2024. Fotografía de Javier Pérez Montes.
+- **Fansipan cable car misty mountain valley Sa Pa Vietnam.png** — Dos cabinas cruzando el valle de Sa Pa, en el norte de Vietnam, por encima de los arrozales en bancales.
+- **Farmacia di santa maria novella, sala dell'antica spezieria, 01.jpg** — La antigua botica de Santa Maria Novella, en Florencia. Fotografía de Francesco Bini.
+- **Fatberg at Museum of London.jpg** — Trozo seco del bloque de Whitechapel, expuesto en el Museo de Londres en 2018. Fotografía de Lord Belbury.
+- **Fayum mummy portrait in the Pushkin Museum in Moscow (05).jpg** — Retrato funerario de El Fayum, pintado a la encáustica entre los siglos I y IV. Museo Pushkin, Moscú.
+- **Fayum mummy portrait in the Pushkin Museum in Moscow (13).jpg** — Otro retrato de El Fayum conservado en el Museo Pushkin de Moscú.
+- **Feldbach-Nostalgiewelt Posch-washing machines-04ASD.jpg** — Colección de lavadoras antiguas en el museo Nostalgiewelt de Feldbach, Austria, 2020. Fotografía de Asurnipal.
+- **Fieberthermometer clinical thermometer 01.jpg** — Termómetro clínico de mercurio con su escala y su estuche. Fotografía de Iswoar, 2022.
+- **FieberthermometerFadenAbrissZone.jpg** — Detalle del estrechamiento del tubo, la zona por donde se corta la columna al enfriarse. Fotografía de Ralf Pfeifer, 2020.
+- **Filament bulb.jpg** — El filamento encendido de una bombilla incandescente. Fotografía de Subasis Mahat.
+- **First order Fresnel lens at Point Reyes lighthouse.jpg** — Lente de Fresnel de primer orden del faro de Point Reyes, California, vista desde abajo. Fotografía de Frank Schulenburg, 2019.
+- **Fish market in Nouakchott - Mauritania.jpg** — Vendedoras de pescado delante del mercado de Nuakchot, en Mauritania.
+- **Flame from the burner of a gas stove.jpg** — La llama de un quemador de gas: la nevera de Einstein y Szilárd se movía con calor, no con un motor.
+- **Flying Buttresses Notre Dame Paris 04 2024 8737.jpg** — Los arbotantes de Notre Dame de París, que llevan el peso de la bóveda hasta el suelo.
+- **FMP - Schlafzimmer 1.jpg** — Dormitorio de una casa campesina austriaca, en el museo al aire libre de Mittermayrhof. Fotografía de Wolfgang Sauber.
+- **Folklore Furnace.jpg** — Vidriero sacando del horno una masa de vidrio al rojo en la punta de la caña.
+- **Fontainebleau (77) Château Chambre de l'Impératrice Lit 400.jpg** — La cama con dosel del dormitorio de la emperatriz, en el castillo de Fontainebleau. Fotografía de GFreihalter.
+- **Ford Fiesta 2008 Crashed.jpg** — Los dos airbags delanteros de un coche accidentado, ya desinflados. Lo que amortigua no es el gas quieto: es el gas escapándose mientras el cuerpo aplasta la bolsa. Fotografía de StomboyCarGeek.
+- **Former Granada Theatre, Buffalo, New York - 20201231.jpg** — El antiguo cine Granada de Buffalo, de 1928. Fotografía de Andre Carrotflower.
+- **Fountain pen writing (literacy).jpg** — El plumín de una estilográfica sobre un texto manuscrito. Fotografía de Petar Milošević.
+- **Fourmi en osier.JPG** — Una figura trenzada en mimbre, en el pueblo cestero de Villaines-les-Rochers, Francia. Fotografía de Als33120.
+- **FR-631136102 GRA 6025 Portrait de Blaise Pascal par Edelinck.jpg** — Retrato de Blaise Pascal grabado a buril por Gérard Edelinck hacia 1691.
+- **Fracarro 30 Line mechanical television at the Early Television Museum June 2022.jpg** — Televisor mecánico Fracarro de treinta líneas, de principios de los años treinta.
+- **Frankfurt, Geldmuseum, Rai stone.jpg** — Piedra rai de Yap expuesta en el Museo del Dinero de Fráncfort.
+- **Frankfurt, puerta.jpg** — Detalle de una puerta con su herraje, en Fráncfort.
+- **Frigiliana calles.jpg** — Calle escalonada de Frigiliana, en la Axarquía malagueña, con las fachadas encaladas y los tiestos de barro.
+- **Frodsham chronometer mechanism.jpg** — El mecanismo de un cronómetro de marina de Frodsham, con sus ruedas a la vista.
+- **Frog`s red blood cells under a microscope.jpg** — Glóbulos rojos de rana, que a diferencia de los humanos conservan su núcleo. Fotografía de Yana Balakhonova.
+- **Front and back of blades of hair-cutting shears made from Damascus steel.jpg** — Las vetas del acero de damasco en las hojas de unas tijeras. Fotografía de Pittigrilli.
+- **Full moon over Gullmarn fjord at Holma Marina 1.jpg** — Luna llena entre las nubes sobre el fiordo de Gullmarn, en Suecia. Fotografía de W. carter.
+- **Galería meridional, planta alta del Archivo de Indias (Sevilla).jpg** — La galería alta del Archivo General de Indias, con los legajos en estanterías de caoba. Fotografía de Emilio J. Rodríguez Posada.
+- **Gallium crystals 1.JPG** — Cristales de galio, el elemento que la tabla predijo antes de que nadie lo encontrara. Fotografía de Maxim Bilovitskiy.
+- **Gante, catedral 01.jpg** — La catedral de Gante con los andamios de restauración montados en la fachada. Fotografía de LBM1948.
+- **Gaspar - Three Magi mosaic - Sant'Apollinare Nuovo - Ravenna 2016.jpg** — Detalle de uno de los Magos en el mosaico de Rávena. Fotografía de José Luiz.
+- **German Shepherd Dog, Puppy, 5 months, Portrait.jpg** — Un cachorro de pastor alemán de cinco meses. Fotografía de Kristjan S.
+- **Gewuerze 004 2024 08 10.jpg** — Anís estrellado, canela en rama y clavos de olor, fotografiados de cerca.
+- **Glacier face Antarctic Peninsula.png** — Frente de un glaciar en la península Antártica.
+- **Glaskugeln -- 2021 -- 9208.jpg** — Bolas de vidrio macizo. Fotografía de Dietmar Rabich, 2021.
+- **Glass Roof of the Edgerton Greenhouse Interior.JPG** — El interior de un invernadero visto contra la cubierta de cristal. Fotografía de Karl Thomas Moore.
+- **Glass-making Electric Furnace 1.jpg** — Horno eléctrico de vidrio abierto durante una demostración pública.
+- **Glen Davis old Mining town.jpg** — Restos del pueblo minero de Glen Davis, Australia, 2014.
+- **Glorieta La Minerva 05.jpg** — La glorieta de la Minerva, en Guadalajara (México), fotografiada con dron.
+- **Golden orb-weavers (Nephila pilipes) female and male Double Haven.jpg** — Hembra y macho de araña de seda dorada (Nephila pilipes) en su tela, Hong Kong, 2024. Fotografía de Charles J. Sharp.
+- **Gorak Shep to Everest Base Camp-50-Khumbu-Gletscher-Eisspitzen-2007-gje.jpg** — Las agujas de hielo del glaciar del Khumbu, en la ruta al campo base del Everest. Fotografía de Uwe Gille.
+- **Grafika przedstawiająca lot balonu Montgolfiera ze zwierzętami z 19 września 1783 roku.jpg** — Grabado del vuelo del globo de los hermanos Montgolfier del 19 de septiembre de 1783, con la oveja, el pato y el gallo. Museo Nacional de Cracovia.
+- **Granada - Alhambra - Palacios nazaríes - Patio de los Leones - 5.jpg** — Columnas del Patio de los Leones, en la Alhambra de Granada. Fotografía de Benjamin Smith, 2024.
+- **Granulated White Sugar with Large Crystals, Bright Side Light.jpg** — Azúcar de mesa fotografiado de cerca con luz lateral, con los cristales grandes bien separados.
+- **Grave of Hugh Duncan Baillie in the Lebanon Circle in Highgate Cemetery.jpg** — Puerta de hierro de una cripta en el Círculo del Líbano, cementerio de Highgate, Londres.
+- **Greater Flamingos on the lake.jpg** — Bando de flamencos comunes alimentándose en un lago, 2024. Fotografía de Timothy Akolamazima.
+- **Green frog (Rana esculenta complex) Danube delta 2.jpg** — Rana verde (complejo Pelophylax esculentus) en el delta del Danubio. Fotografía de Charles J. Sharp, 2022.
+- **Green paper pulp made from beaten rag fibers.jpg** — Pulpa de papel obtenida machacando fibras de trapo. Fotografía de Michelle Cornelison.
+- **Greenhouses in qom 07.jpg** — Invernaderos de cultivo en Qom, Irán. Fotografía de Mostafa Meraji.
+- **Greenhouses in qom 13.jpg** — Otro invernadero del mismo grupo, con las plantas ya crecidas. Fotografía de Mostafa Meraji.
+- **Greenhouses in qom 15.jpg** — Cultivo bajo cubierta en Qom. Fotografía de Mostafa Meraji.
+- **Greenhouses near El Ejido.jpg** — Invernaderos junto a El Ejido, con las estructuras y los plásticos a media vista.
+- **Groove and needle in close embrace from beginning to end.jpg** — Dos agujas apoyadas sobre el surco de un disco. Fotografía de Franz van Duns.
+- **Growth Rings tree rings 03.jpg** — Anillos de crecimiento en el corte de un tronco. Fotografía de Vijayanrajapuram.
+- **Gwalior Fort -Gwalior -Madhya Pradesh -DSC 0001.jpg** — El fuerte de Gwalior, en Madhya Pradesh, encaramado en su meseta.
+- **H. L. Hunley in sodium hydroxide bath (3).jpg** — Otra vista del casco del Hunley en el laboratorio de conservación, 2017. Fotografía de Pi3.124.
+- **H. L. Hunley in sodium hydroxide bath.jpg** — El casco del Hunley en su baño de conservación, Charleston, 2017. Fotografía de Pi3.124.
+- **Hallennes palettes rue paul colette.jpg** — Palés de madera apilados junto a una carretera, en el norte de Francia. Fotografía de Velvet.
+- **Halles Fanjeaux.jpg** — El interior de la lonja medieval de Fanjeaux, en el sur de Francia, con sus pilares de roble sobre basas de piedra. Fotografía de Mich-nguyen.
+- **Haltern am See, Westruper Heide, Pfütze -- 2024 -- 5602-6.jpg** — Charco en el brezal de Westrup, Haltern am See, Alemania, 2024.
+- **Hand holding smartphone with blank white screen.jpg** — Mano sosteniendo un teléfono con la pantalla en blanco. Fotografía de Santeri Viinamäki, 2016.
+- **Hapag-Lloyd Container Ship Tokyo Express in Colon Panama 2016 6070.jpg** — Un portacontenedores en la terminal de Colón, a la entrada del canal de Panamá. Fotografía de Paul Harrison, 2015.
+- **Harjanne Oy black Scania dumper with trailer.jpg** — Un camión de áridos: la carretera moderna sigue siendo, sobre todo, piedra machacada.
+- **Hauppauge Palace Diner.jpg** — Un diner de Long Island, en el estado de Nueva York, al anochecer. Fotografía de Kenneth C. Zirkel.
+- **Headframe in former mine La Découverte 04.jpg** — El castillete de una mina: la torre de la que colgaban las jaulas del pozo. Fotografía de Krzysztof Golik.
+- **Helsinki-Vantaa airport escalators 4.jpg** — Escaleras mecánicas del aeropuerto de Helsinki, 2022. Fotografía de kallerna.
+- **Het betonvlechten voor de bouw. F57618.jpeg** — Ferrallistas atando la armadura de acero antes de hormigonar.
+- **Hidrofobicidad y tensión superficial.jpg** — Gotas de agua sobre una hoja hidrófoba, 2023.
+- **Historic Berlin Reichstag Building( Ank Kumar, Infosys) 01.jpg** — El edificio del Reichstag en Berlín, donde se aprobó aquella ley. Fotografía de Ank Kumar, 2015.
+- **HK pet dog walking 老虎狗 English Bulldog November 2022 Px3 01.jpg** — Bulldog inglés, una de las razas de hocico aplastado con problemas respiratorios documentados. Fotografía de MOSCKAI Yinam, 2022.
+- **Hoar frost ice crystals on snow in Tuntorp 8.jpg** — Cristales de escarcha sobre la nieve. Fotografía de W. Carter, Suecia, 2021.
+- **Holmdel Horn Antenna view of inside of horn.jpg** — Interior de la bocina de la antena de Holmdel, 2023.
+- **Holmdel Horn Antenna with American Physical Society marker.jpg** — La antena de Holmdel en su emplazamiento actual, 2023.
+- **Home made sour dough bread.jpg** — Panes de masa madre recién sacados del horno. Fotografía de Tomás Castelazo.
+- **Homestake Mine Ross Shaft Headframe.jpg** — El castillete del pozo Ross, en la mina Homestake.
+- **Hong Kong Harbour Night 2019-06-11.jpg** — El puerto de Hong Kong de noche, 2019.
+- **Horse December 2014-1.jpg** — Retrato de un caballo lusitano. Fotografía de Alvesgaspar, Portugal, 2014.
+- **Horseshoe magnet metal shavings.jpg** — Un imán de herradura cubierto de limaduras, apelotonadas en los dos extremos y no en el medio. Fotografía de Maciej J. Mrowinski.
+- **Hot air balloon at sunrise over Cappadocia, Turkey.JPG** — Un globo sobre Capadocia al amanecer. Fotografía de 2015.
+- **Hot air balloon IMGP0344a.jpg** — Globo aerostático en vuelo. Fotografía de Alexey V. Kurochkin.
+- **Hot-air balloon in Tambov - 03.jpg** — Globo aerostático elevándose al atardecer. Fotografía de Alexander Novikov.
+- **Hungarian 100M Pengo - Back.jpg** — El reverso del mismo billete. Fotografía de RMF2.
+- **Hungarian 100M Pengo - Front.jpg** — Otro billete húngaro del mismo año, esta vez de cien millones de pengő. Fotografía de RMF2.
+- **Hunza Valley view from Duikar with apple blossoms.jpg** — El valle de Hunza, en el norte de Pakistán, con los manzanos en flor. Fotografía de 2017.
+- **Husqvarna Cupol microwave oven.jpg** — Microondas Cupol, diseñado por Husqvarna en 1960, de los primeros pensados para una cocina de casa.
+- **Hyper-radiant Fresnel Lens.jpg** — Lente de Fresnel hiperradiante, el mayor tamaño que llegó a fabricarse. Fotografía de Lighthouselover143, 2024.
+- **Ice Crystals on Window Pane.jpg** — Cristales de hielo creciendo sobre el vidrio de una ventana. Fotografía de Jojoo64.
+- **Ice cubes from the mold.jpg** — Cubitos recién sacados de la cubitera, todavía escarchados.
+- **In harmony & Unison.jpg** — Flamencos moviéndose juntos por la laguna, 2020. Fotografía de Wildtalesimages.
+- **InGaN-based green LED.jpg** — Diodo verde de nitruro de galio e indio encendido, de la misma familia de materiales que resolvió el azul.
+- **Interieur brouwzaal, koperen ketel - Breda - 20349157 - RCE.jpg** — Caldera de cobre de la sala de cocción de una fábrica de cerveza de Breda, 2004.
+- **Interieur toren, uurwerk, detail - Winkel - 20324195 - RCE.jpg** — El mecanismo de un reloj de torre: ruedas dentadas movidas por pesas, que a la hora sueltan un martillo sobre la campana. Iglesia de Winkel, Países Bajos. Fotografía de Gerard Dukker, 1999.
+- **Interieur, overzicht brouwzaal vanaf boven gezien - Breda - 20349160 - RCE.jpg** — Sala de cocción vista desde arriba, Breda, Países Bajos, 2004.
+- **Interior of Hagia Sophia (2) - Istanbul (2022).jpg** — Interior de Santa Sofía de Constantinopla, la iglesia más rica de la cristiandad en 1204.
+- **Interior of Hagia Sophia (3) - Istanbul (2022).jpg** — Arcos y galerías del interior de Santa Sofía, en Estambul.
+- **Interior of Hagia Sophia (6) - Istanbul (2022).jpg** — La nave central de Santa Sofía vista hacia la cúpula.
+- **Interior of Royal Exchange, London 2025-09-20 (1).jpg** — Patio cubierto de la Royal Exchange de Londres, el sitio donde se reunían los comerciantes de la City.
+- **Interior of Rupert Street parking garage - DSC 8051.jpg** — Otra planta del mismo aparcamiento de Bristol, 2026.
+- **Interior of Rupert Street parking garage - DSC 8057.jpg** — Interior del aparcamiento de Rupert Street, Bristol, 2026.
+- **Interior of Rupert Street parking garage - PXL 20260518 152153849.jpg** — Rampa interior del aparcamiento de Rupert Street, 2026.
+- **Interior of Samsung Wooble.jpg** — El tambor de una lavadora visto desde la puerta. Fotografía de Krishna Chaitanya Velaga, 2016.
+- **Invernaderos Abajo 01.jpg** — Invernaderos en la zona de Rambla Morales, entre Almería y Níjar.
+- **Iris of human male.jpg** — Iris humano fotografiado con objetivo macro. Fotografía de Osmo Lundell.
+- **Iron Age coins, Hoard of Catuvellauni Staters (FindID 550072).jpg** — Monedas de oro de la Edad del Hierro, enterradas dos mil años y sin una mancha. Birmingham Museums Trust.
+- **Iron meteorite. Hammersley Range, Australia-8911.jpg** — Meteorito de hierro de la sierra de Hammersley, cortado y atacado con ácido. Fotografía de Raimond Spekking.
+- **Islas Brandur, Álsey y Surtsey, Islas Vestman, Suðurland, Islandia, 2014-08-17, DD 046.JPG** — Las islas Brandur, Álsey y Surtsey, archipiélago Vestman, Islandia, 2014.
+- **Izmir Archaeology museum Greek coins 5810.jpg** — Monedas griegas expuestas en el Museo Arqueológico de Esmirna, en la misma región donde se acuñaron las primeras. Fotografía de Dosseman.
+- **Iztueta Garakoa.jpg** — El caserío Iztueta Garakoa, en Lazkao, Guipúzcoa. Fotografía de Txapisotegi.
+- **J23 527 U-Boot Ictíneo.jpg** — Réplica del Ictíneo I de Narcís Monturiol, botado en 1859, ante el Museu Marítim de Barcelona. Fotografía de Falk2, 2015.
+- **J29 559 Talgo 6, Maschinenendwagen.jpg** — Un Talgo, el tren que se inventó en España para poder cambiar de ancho sin parar. Fotografía de Falk2.
+- **Jabalí típico Alta Garrotxa.jpg** — Jabalí en la Alta Garrotxa, Gerona, 2016.
+- **Jupiter and galilean moons.jpg** — Júpiter con sus cuatro lunas mayores, las que vio Galileo. Fotografía de Freak-Line-Community.
+- **Kapesní hodinky a malachitová osobní krabička Ludvíka II. Bavorského.jpg** — Reloj de bolsillo de oro con su caja de malaquita. Casa de la Historia de Baviera, Ratisbona.
+- **Kapesní hodinky Ludvíka II. Bavorského.jpg** — El mismo reloj de bolsillo, con la tapa grabada abierta.
+- **Karaman Museum 2072.jpg** — Cañón de bronce del siglo XV, con el tubo reventado por un costado. Museo de Karaman, Turquía. Fotografía de Dosseman.
+- **Karl Fabergé Russian silver place setting.jpg** — Un cubierto completo de plata en su estuche, de la casa Fabergé.
+- **Kattai dog alias kattakal dog nagapattinam indian dog breed.jpg** — Perro kattai de Nagapattinam, un tipo local definido por su oficio y no por ningún libro genealógico.
+- **Kavachi Eruption.jpg** — Erupción del volcán submarino Kavachi, islas Salomón, 2016. Fotografía de Alex DeCiccio.
+- **Kencot grazing horse West Oxfordshire England 01.jpg** — Caballo pastando en un prado de Oxfordshire. Fotografía de Acabashi.
+- **Keyboard with German Dvorak layout 2010.jpg** — Un teclado con la distribución Dvorak, la alternativa que nunca se impuso. Fotografía de Karl432.
+- **Keyslugs on Vintage Typewriter.jpg** — Las barras portatipos de una máquina de escribir antigua, con la letra grabada en la punta. Fotografía de Mathieu Landretti.
+- **King's Cross Central development tower cranes, London, England 01.jpg** — Grúas torre en las obras de King's Cross, Londres, 2019. Fotografía de Acabashi.
+- **Klosterruine, S, 2024 Dömös.jpg** — Las ruinas del monasterio de Dömös, en Hungría. Fotografía de Globetrotter19.
+- **Korfu (GR), Korfu, Britischer Friedhof -- 2018 -- 1198.jpg** — El cementerio británico de Corfú. Fotografía de Dietmar Rabich, 2018.
+- **Krabyskogbjørkefelt.jpg** — Bosque de abedules en invierno, en Noruega. Fotografía de Øyvind Holmstad, 2025.
+- **Krāsotāju iela, Красильная улица, Färber Straße, Krahsohtaju eela.jpg** — Placa de una calle de Riga con el nombre actual y, debajo, el mismo nombre en las tres lenguas oficiales que tuvo la ciudad. Fotografía de Turaids.
+- **Kudu enjoying shade.jpg** — Un kudú parado a la sombra. Un antílope corre el doble de rápido que un hombre, pero tiene que detenerse a soltar el calor y nosotros no. Fotografía de Sikolethu, 2019.
+- **Kunstkammer Schausammlung Wahre Schätze.jpg** — La cámara de arte y maravillas ducal, hoy ordenada en vitrinas. Museo Estatal de Historia de Turingia.
+- **Küschall wheelchair R33.jpg** — Una silla de ruedas manual moderna: el aro fino azul va montado por fuera del neumático. Fotografía de Tim99.
+- **L06 933 Via Appia antica, Originalstraßenbelag.jpg** — El firme original de la Vía Apia visto de cerca. Fotografía de Falk2.
+- **Lampe Lux.jpg** — Lámpara de seguridad de minero con su cilindro de tela metálica alrededor de la llama. Fotografía de CéCédille, 2018.
+- **Landscape with stormy clouds and a pirogue on the Mekong at golden hour in Si Phan Don.jpg** — Una cortina de lluvia sobre el Mekong, en Si Phan Don, Laos. Fotografía de Basile Morin.
+- **Landslide near Dover Harbour.jpg** — Desprendimiento en los acantilados junto al puerto de Dover, 2012. Fotografía de Nilfanion.
+- **Lathe Center Drilling.jpg** — Torno en marcha: junto a una máquina que gira, los guantes son justo lo que no hay que llevar.
+- **Le Palais de la Porte Dorée 12.jpg** — El mismo edificio, hoy sede del museo de la historia de la inmigración. Fotografía de NicolasPamart2610, 2019.
+- **Leather production process drying on the factory rooftop Dharavi India 22Aug2006.jpg** — Pieles puestas a secar en la azotea de un taller de Dharavi, Bombay, 2006. Fotografía de Everhard van Eimeren.
+- **Leather tanning in Fez, Morocco.jpg** — Curtidores trabajando entre las tinas de tinte al aire libre en Fez, 2017. Fotografía de Wowan1978.
+- **LED 5mm RGB.jpg** — Led de cinco milímetros visto muy de cerca: dentro de la resina se ven los tres diodos, rojo, verde y azul.
+- **LED string lights.jpg** — Guirnalda de leds encendida vista de cerca, con los puntos de luz desenfocados al fondo.
+- **Lenno - Villa del Balbianello 0414.JPG** — La bandera de Nepal, con sus dos picos, el sol y la luna. Fotografía de Phyrexian.
+- **Library of Celsus 6242.jpg** — Biblioteca de Celso, Éfeso, 2014.
+- **Life-sized and smaller scale Dress forms.jpg** — Maniquíes de costura a tamaño real y a escala reducida, de los que se usan para probar patrones.
+- **Lille reservoir de l'arbonnoise.jpg** — El depósito de l'Arbonnoise, en Lille. Fotografía de Velvet.
+- **Lime residue thermal water Katlanovo spa 1.jpg** — Costra de cal arrancada de las tuberías de un balneario termal, en Macedonia del Norte. Fotografía de kallerna.
+- **LimestoneKilnsTalybont.jpg** — Hornos de cal en Talybont, en Gales, donde la piedra caliza se quemaba para obtener cal viva. Fotografía de Martinvl.
+- **Linotype 2503-0230.jpg** — Linotipia en funcionamiento en el Museo de la Industria de Gante, Bélgica.
+- **Liquid helium dewars.jpg** — Depósitos de helio líquido montados sobre ruedas en un laboratorio. Fotografía de Adville.
+- **Lloyd's Building - Adam Room chandelier.jpg** — La Adam Room del edificio del Lloyd's de Londres, un comedor del siglo XVIII trasladado pieza a pieza. Fotografía de Colin.
+- **Lloyd's Building - Atrium roof.jpg** — Cubierta del atrio del edificio de Lloyd\'s en Londres, terminado en 1986.
+- **Lloyd's Building - Exterior Staircase.jpg** — Escalera exterior del edificio del Lloyd's de Londres, el mercado de seguros marítimos. Fotografía de Colin.
+- **London - Kew Gardens - Glasshouse Walkway - View SSE on Palm House 1848 by Decimus Burton & Richard Turner.jpg** — La Palm House de Kew vista desde el paseo lateral. Fotografía de Txllxt TxllxT.
+- **London MMB »031 Waterloo Millennium Pier, Palace of Westminster and Thames Embankment.jpg** — El palacio de Westminster desde el otro lado del Támesis. Fotografía de mattbuck.
+- **London, Tower of London -- 2016 -- 4689.jpg** — La Torre de Londres, que tuvo su propia colección de fieras durante seiscientos años.
+- **Long Room Interior, Trinity College Dublin, Ireland - Diliff.jpg** — La Long Room de la biblioteca del Trinity College de Dublín. Fotografía de David Iliff.
+- **Los Reyes Magos en un mosaico bizantino de Ravenna (Italia).jpg** — El mismo mosaico bizantino de Rávena, visto de frente. Fotografía de Manuel Ramírez Sánchez.
+- **Mackerel in tomato sauce, etc., product aisle-shop shelves in Meny Supermarket, Bergen Storsenter Shopping Mall, Bergen, Norway, 2017-10-23.jpg** — Otro pasillo de supermercado, con el producto ordenado por códigos que no se ven.
+- **Macro close up look of roasted coffee beans.jpg** — Granos de café tostado en una cuchara medidora, vistos muy de cerca.
+- **Macro Led.jpg** — Led blanco fotografiado de cerca: el cuadrado amarillo es el polvo que convierte parte del azul.
+- **Maduración del tomate (Solanum lycopersicum).jpg** — Las fases de maduración de un tomate, de verde a rojo. Fotografía de Juan Carlos Fonseca Mata.
+- **MAERSK HANOI Container Ship (Port Koper SIKOP, 2023).jpg** — El portacontenedores Maersk Hanoi, 353 metros de eslora, atracado en el puerto de Koper. Fotografía de Petar Milošević, 2024.
+- **MAGFest2025-Arcade-HighAngle.jpg** — Sala de máquinas recreativas vista desde arriba, con las pantallas encendidas en la penumbra.
+- **Major Oak (9504).jpg** — El Major Oak de Sherwood, apuntalado con puntales de hierro y madera, 2014. Fotografía de Nilfanion.
+- **Making silk from cocoon at Korean Folk Village.jpg** — Sacando el hilo de los capullos en agua caliente, como se ha hecho siempre. Aldea Folclórica de Corea. Fotografía de Misok Kim, 2015.
+- **Man with umbrella crossing road in the rain.jpg** — Hombre cruzando la calle con paraguas bajo la lluvia, en Mánchester.
+- **Manhattan skyline south by Don Ramey Logan.jpg** — El sur de Manhattan, la isla que los ingleses recibieron a cambio. Fotografía de Don Ramey Logan.
+- **Máquina de escribir Underwood Standard.jpg** — Máquina de escribir Underwood Standard, el modelo que se llevó las oficinas del mundo.
+- **Markgröningen - Altstadt - Finstere Gasse 9 - Ansicht von WNW (1).jpg** — Casa de entramado del casco antiguo de Markgröningen. Fotografía de Roman Eisele.
+- **Marquette canal de roubaix ecluse.jpg** — Esclusa de Marquette, en el canal de Roubaix, con las puertas cerradas en pico.
+- **Mattress in Coventry July 29 2021.jpg** — Un colchón abandonado en la acera, en Coventry, 2021. Dentro lleva acero, espuma y tela pegados, y separarlos cuesta más de lo que valen. Fotografía de Rubbish computer.
+- **Mechanical television camera at the Early Television Museum June 2022.jpg** — Cámara de televisión mecánica conservada en el Early Television Museum de Ohio.
+- **Medusa Monterey 14.JPG** — Medusa en el acuario de Monterey, California, 2015.
+- **Medusa Monterey 16.JPG** — Medusa vista de cerca en el acuario de Monterey, 2015.
+- **Medusa Monterey 27.JPG** — Otra medusa del acuario de Monterey, 2015.
+- **Meridiana con quadrante concavo, II sec. d.C. -FG.jpg** — Reloj de sol cóncavo del siglo II, hallado en Ostia, junto a la Puerta Romana. Museos Vaticanos. Fotografía de Fabrizio Garrisi.
+- **Mesa-de-ruleta-casino-ciudad-de-mexico25-04-2023.jpg** — El tapete de una mesa de ruleta, donde se colocan las apuestas al rojo y al negro.
+- **Middelalder (medieval) ridder ringbrynje (chain mail haubrek) med hette, okse på tappert (tabard), hjelm (spangen helmet) med neseskinne (Mannequin) etc Bergenhus festningsmuseum Military Museum Bergen, Norway 2021 6490.jpg** — Reproducción del equipo de un guerrero del siglo XI: cota de malla, capucha y yelmo con nasal. Museo de la fortaleza de Bergenhus. Fotografía de Wolfmann.
+- **Mijnterril Beringen 19-07-2023 17-58-50.jpg** — Escombrera de la mina de Beringen, Bélgica, 2023.
+- **Mikado 141.R.1244 Bad Zurzach.jpg** — Locomotora de vapor 141.R.1244 conservada en marcha, Bad Zurzach (Suiza), 2022. Fotografía de Chme82.
+- **Milwaukee January 2023 10 (E. Wisconsin Avenue).jpg** — Una avenida del centro de Milwaukee en invierno. Fotografía de Michael Barera.
+- **Milwaukee November 2022 12 (Milwaukee River from Milwaukee Skywalk).jpg** — El río Milwaukee a su paso por el centro de la ciudad. Fotografía de Michael Barera.
+- **Miner's helmet with carbide lamp.jpg** — Casco de minero con lámpara de carburo, hacia 1940: otro de los oficios que compraron linternas en cuanto pudieron. Fotografía de Jim Heaphy.
+- **Miracle Flowers.jpg** — Colonias de hongos creciendo en una placa de cultivo. Fotografía de Tetyana Petruk.
+- **Moai at Rano Raraku (Easter Island).jpg** — Una estatua de las que nunca llegaron a su plataforma, en la ladera de la cantera de Rano Raraku. Está de pie y enterrada hasta los hombros. Fotografía de Mc vc, 2019.
+- **Möbius Band of paper.jpg** — Banda de Möbius hecha con una tira de papel: una superficie con una sola cara y un solo borde.
+- **Model of original Smalls Lighthouse.JPG** — Maqueta del faro de madera original de las Smalls.
+- **Moinho dos Mosqueira (Internal) Albufeira 9 September 2015 (2).JPG** — Interior de un molino harinero del Algarve, con las muelas y el engranaje de madera. Fotografía de Kolforn.
+- **Montserrat Mountains 08-Dec-2018-7.jpg** — Las agujas de Montserrat, en Cataluña. Fotografía de Alexey Komarov, 2018.
+- **Monumento a Clara Campoamor - Madrid.jpg** — Busto de Clara Campoamor en Madrid, colocado en 2006.
+- **Mosaic of Justinian I - San Vitale - Ravenna 2016.jpg** — Justiniano con la clámide de púrpura, mosaico del siglo VI. Basílica de San Vitale, Rávena.
+- **Mosaic of Theodora - San Vitale - Ravenna 2016.jpg** — La emperatriz Teodora y su séquito, mosaico del siglo VI. Basílica de San Vitale, Rávena.
+- **Mosaic Underground roundel, Maida Vale.jpg** — El emblema del metro de Londres hecho en mosaico en la estación de Maida Vale, inaugurada en 1915.
+- **Moscow Hammond Slides 63.jpg** — La plaza Roja de Moscú nevada, en 1964. Fotografía de Thomas T. Hammond.
+- **Moscow State University 6.JPG** — Torre central de la Universidad Estatal de Moscú. Fotografía de Fred Schaerli, 2013.
+- **Moslin 1.jpg** — Un sari de muselina entero pasado por un anillo de dedo, en un taller de Bengala Occidental.
+- **Moslin 5.jpg** — Rueca especial con la que se hila el hilo finísimo de la muselina.
+- **Moslin 8.jpg** — Sari de muselina a medio tejer en el telar, con los dibujos entrando hilo a hilo.
+- **Mountains and sea from Solunto.jpg** — El mar frente a la costa norte de Sicilia, visto desde Solunto, 2023. Fotografía de Oxidising.
+- **Multicrystalline silicon wafer with thin film iridescence.jpg** — Oblea de silicio multicristalino con una película de nitruro que la irisa, 2018.
+- **Multiple early portable television sets at the Early Television Museum June 2022.jpg** — Varios televisores portátiles de los primeros años. Early Television Museum, Ohio. Fotografía de DogsRNice.
+- **Münster, Montgolfiade (an den Aaseewiesen) -- 2019 -- 9764.jpg** — Varios globos en el aire durante una concentración en Münster. Fotografía de Dietmar Rabich.
+- **Münster, Park Sentmaring -- 2021 -- 9120.jpg** — Un parque público en otoño. Fotografía de Dietmar Rabich, Münster, 2021.
+- **Münster, Stadthaus 3, Straßenbahn -- 2018 -- 0960-2.jpg** — Cabina de un tranvía de Münster de 1901, con el limpiaparabrisas de manivela.
+- **Münster, Torminbrücke -- 2018 -- 3592.jpg** — El lago Aa desde el puente Tormin, Münster, Alemania, 2018.
+- **Musée de l'imprimerie de Nantes - 020 - Linotype, Intertype.jpg** — Máquina de componer Intertype conservada en el Museo de la Imprenta de Nantes.
+- **Musée de l'imprimerie de Nantes - 022 - Linotype, assembleur de la linotype.jpg** — El ensamblador de una linotipia: la parte donde las matrices caen en fila para formar la línea.
+- **Musée de l'imprimerie de Nantes - 075 - Presse à bras en bois, commandé par Gutenberg.jpg** — Una prensa de brazo de madera como las del primer taller. Museo de la Imprenta de Nantes.
+- **Museum der Stadt Steyr - Himmelbett 1.jpg** — Cama con dosel de 1691, con ropa de cama estampada. Museo de la ciudad de Steyr. Fotografía de Christoph Waghubinger.
+- **Mystical galaxy.jpg** — Colonias con su halo alrededor: donde crece el hongo, la bacteria no crece. Fotografía de Tetyana Petruk.
+- **Nao Victoria 500.jpg** — La nao Victoria en el quinto centenario de la vuelta al mundo, 2020.
+- **Natural History Museum Hintze Hall.jpg** — El vestíbulo Hintze del Museo de Historia Natural de Londres.
+- **Neon sign atop the Majestic Diner in Atlanta's Poncey-Highland neighborhood.jpg** — Rótulo de neón sobre el Majestic Diner, en Atlanta. Fotografía de Marc Merlin.
+- **Nepal-dhankuta.jpg** — Té en hoja procedente de Dhankuta, en Nepal.
+- **Nephila plumipes Eastern Golden Orb-weaver removing leaf from its web Beor St Creek 7th Brigade Park Chermside P1030895.jpg** — Araña de seda dorada oriental (Nephila plumipes) limpiando su tela, Chermside, Australia, 2014. Fotografía de John Robert McPherson.
+- **Nes (NL), Windmühle "Phenix" -- 2026 -- 1900.jpg** — El molino Phenix, en la isla de Ameland, Países Bajos. Fotografía de Dietmar Rabich.
+- **Nevsehir Balloons.jpg** — Globos aerostáticos al amanecer sobre Capadocia. Fotografía de Deved3218.
+- **Nicotiana tabacum sl24.jpg** — Hojas anchas de la planta del tabaco. Fotografía de Stefan Lefnaer.
+- **Night Riviera Sleeper - cabin.jpg** — Cabina del tren nocturno Night Riviera, Reino Unido, 2025.
+- **Nobel prize medal for medicine, Sweden, 1945, to Sir Alexander Fleming (1881-1955) who discovered Penicillin. On display at the National Museum of Scotland.jpg** — Una medalla Nobel de oro macizo, la concedida a Alexander Fleming en 1945. Museo Nacional de Escocia.
+- **Nokia 3310 grey front.jpg** — Nokia 3310, el teléfono que la empresa vendió por decenas de millones a partir de 2000.
+- **Nokian rubber boots 20180828.jpg** — Botas de agua Nokian, el producto por el que la empresa era conocida en Finlandia antes de los teléfonos.
+- **Notre Dame Cathedral Renovation Feb 29,2020.jpg** — Notre-Dame de París rodeada de andamios durante los trabajos posteriores al incendio, en 2020.
+- **Nottuln, Gladbeck, Gerstefeld -- 2024 -- 4344.jpg** — Campo de cebada a primera hora, en Renania del Norte-Westfalia.
+- **NS Savannah microwave oven MD8.jpg** — Horno de microondas instalado en la cocina del carguero nuclear NS Savannah, botado en 1959.
+- **Nutmeg fruit with mace.jpg** — El fruto de la nuez moscada abierto en el árbol, con el macis rojo envolviendo la semilla. Fotografía de Schlawensko.
+- **Octopus arm showing suckers 0451.jpg** — Un brazo de pulpo con sus dos filas de ventosas. Fotografía de Betty Wills.
+- **Octopus vulgaris.004 - Aquarium Finisterrae.jpg** — Las ventosas de un pulpo común vistas desde debajo del cristal. Fotografía de Fernando Losada Rodríguez.
+- **Oficinas salitreras de Humberstone y Santa Laura, Chile, 2016-02-11, DD 89.jpg** — Oficinas salitreras de Humberstone y Santa Laura, abandonadas en el desierto chileno, 2016. Fotografía de Diego Delso.
+- **Open refrigerator with food at night.jpg** — Un frigorífico abierto de noche, con la comida iluminada por dentro. Fotografía de W. carter.
+- **Open top-loading washing machine.jpg** — Una lavadora de carga superior con la tapa abierta. Fotografía de W. Carter, 2016.
+- **Open-air exposition Animals of Africa in Moscow Zoo.jpg** — Recinto abierto de la exposición de animales de África en el zoo de Moscú. Fotografía de Dmitri Ivánov, 2023.
+- **P21653A loudspeaker - back side view.jpg** — El mismo altavoz por detrás, con el imán redondo a la vista.
+- **P21653A loudspeaker - front view.jpg** — Altavoz antiguo visto de frente, con el cono de papel y la suspensión.
+- **P21653A loudspeaker side view.jpg** — El altavoz de perfil.
+- **Paczkow 01.jpg** — Paczków, en Silesia, una de las pocas ciudades europeas que conserva casi entera su muralla medieval. Fotografía de Scotch Mist.
+- **Padlock in Solna.jpg** — Candado cerrado sobre una cadena, en Solna, Suecia.
+- **Palacio Real de Madrid, fachada este.jpg** — Fachada este del Palacio Real de Madrid al atardecer, 2016. Fotografía de Malopez 21.
+- **Palacio Real, Aranjuez, Madrid.jpg** — Palacio Real de Aranjuez, otra de las residencias donde sonaba la marcha en los actos con el rey delante.
+- **Palais des Nations Unies Genève.jpg** — El Palacio de las Naciones visto desde el parque, en Ginebra.
+- **Palais du sans-soucis.JPG** — Las ruinas del palacio de Sans-Souci, en Milot. Fotografía de Iconem, 2014.
+- **Palais Porte Doree Facade.jpg** — Fachada del Palacio de la Puerta Dorada de París, levantado para la exposición colonial de 1931. Fotografía de AlSepPhoenix, 2019.
+- **Palazzo Cavalli Franchetti (Venice).jpg** — El palacio Cavalli Franchetti al borde del Gran Canal, con el agua lamiendo la base.
+- **Panorama of Himalayas from Ranikhet, Uttarakhand, India.jpg** — La cadena del Himalaya desde Ranikhet, en la India. Fotografía de Harshit SR.
+- **Parc des Buttes-Chaumont, November 2019.jpg** — Un paseo del mismo parque en noviembre. Fotografía de Jami430.
+- **Parícutin 1.jpg** — El cono del volcán Parícutin, nacido en un maizal en 1943. Fotografía de LBM1948, 2013.
+- **Parícutin 3.jpg** — Colada de lava solidificada del Parícutin, con la vegetación ganando terreno. Fotografía de LBM1948, 2013.
+- **Parking garage at level K2 of Redi in August 2024.jpg** — Aparcamiento subterráneo de Redi, Helsinki, 2024.
+- **Paternoster im Neuen Rathaus Leipzig.jpg** — Cabinas de un ascensor paternoster en el ayuntamiento nuevo de Leipzig. Fotografía de August Geyler.
+- **Páternoster v budově Městského soudu v Praze, budova ve Slezské ulici – označení kabiny č. 7.jpg** — Detalle de una de las cabinas del paternoster del tribunal municipal de Praga.
+- **Páternoster v budově Městského soudu v Praze, budova ve Slezské ulici 1.jpg** — Paternoster del edificio del tribunal municipal de Praga.
+- **Paternosterlift Oslo.jpg** — Ascensor paternoster en funcionamiento en un edificio de Oslo.
+- **Penicillium sp. Bytom.jpg** — Moho del género <em>Penicillium</em> creciendo sobre una fruta. Fotografía de Gower.
+- **Perfume glass bottle.jpg** — Frasco de perfume de cristal tallado a contraluz.
+- **Petite France during golden hour.jpg** — El barrio de los curtidores de Estrasburgo, con las casas de entramado asomadas al canal.
+- **Pfauenfeder Detail-20230511-RM-163536.jpg** — Una pluma de pavo real de cerca. Fotografía de Ermell.
+- **PHILAE TEMPLE COLUMNS.jpg** — Capiteles del templo de File, en Asuán, Egipto. Fotografía de Hesham Farouk Ragab.
+- **PHILAE TEMPLE WALS.jpg** — Relieves y jeroglíficos tallados en los muros del templo de File.
+- **PHILAE TEMPLE.jpg** — El templo de File, de donde salió el obelisco que ayudó a leer los primeros nombres. Fotografía de Hesham Farouk Ragab.
+- **Photo Plow pulled by oxs 1940 - Touring Club Italiano 1.2732.jpg** — Arado tirado por bueyes, fotografiado en Italia en 1940. Archivo del Touring Club Italiano.
+- **Pickles de chauchas, pepinos y morrones rojos.jpg** — Encurtidos de judías verdes, pepino y pimiento rojo. Fotografía de Horacio Cambeiro.
+- **Pile of Handmade White Soap Bars at a Market 02.jpg** — El mismo puesto de jabón artesanal, visto desde otro ángulo.
+- **Pile of Handmade White Soap Bars at a Market.jpg** — Pastillas de jabón artesanal apiladas en un puesto de mercado.
+- **Pineapple Plantation IMG 20190303 150740.jpg** — Plantación de piñas, 2019.
+- **Pino vencido por el viento en los Enebrales de Punta Umbría 024a.jpg** — Pino doblado por el viento en los Enebrales de Punta Umbría, en la costa de Huelva donde apareció el cuerpo.
+- **Planta de la Coca (Erythroxylum coca).jpg** — Planta de coca (Erythroxylum coca) en el jardín botánico del centro Takiwasi, Perú, 2007.
+- **Podoscope par The Pedoscope Compagny 01.jpg** — Un pedoscopio de rayos X, de los que había en las zapaterías para ver el pie dentro del zapato.
+- **Podoscope par The Pedoscope Compagny 02.jpg** — Placa del fabricante en el mueble de un fluoroscopio de zapatería: The Pedoscope Company, Holborn, Londres.
+- **Podoscope par The Pedoscope Compagny 03.jpg** — El mismo aparato por dentro, con el tubo emisor debajo de la plataforma.
+- **Ponderosa Pine - Western Larch forest, Dixie Mountain, Sumpter Valley, Oregon 5978.jpg** — Bosque de alerces y pinos en Dixie Mountain, Oregón. Fotografía de Chris Light.
+- **Pont du Gard Arch Underside.jpg** — Los arcos del Pont du Gard vistos desde abajo, con los bloques colocados sin argamasa. Fotografía de Elihbeckman, 2014.
+- **Pony Express, The Changing of Mounts at a Relay Station, erected at This is the Place Park in Salt Lake Lake City, UT.jpg** — Monumento de Avard Fairbanks en Salt Lake City: el cambio de montura en una estación de relevo.
+- **Port of Varna, December, 2018-1.jpg** — Dique y dársena del puerto de Varna, Bulgaria, diciembre de 2018. Fotografía de Alexey Komarov.
+- **Porto Clothes Line.JPG** — Ropa tendida en una fachada de Oporto, 2025. Fotografía de TeWeBs.
+- **Portrait of a red fox in Rautas fjällurskog.jpg** — Un zorro rojo en la nieve, en Laponia. Fotografía de ClaudiaTen.
+- **Post Medieval trade weight of Charles I or II (FindID 461853).jpg** — Una pesa de comercio del siglo XVII, de las que el sistema métrico dejó fuera de uso.
+- **Pozu Tres Amigos 06.jpg** — Instalaciones abandonadas del pozo Tres Amigos, Asturias. Fotografía de SoyXer.
+- **Pozu Tres Amigos 12.jpg** — Sala de máquinas de extracción del pozo Tres Amigos, cuenca minera asturiana. Fotografía de SoyXer.
+- **Prague Old Town 2021 10.jpg** — La plaza de la Ciudad Vieja de Praga de noche, con la iglesia de Týn.
+- **Primer cajero automatico, Museo del Ahorro.jpg** — Cajero NCR 5070 abierto por delante, con los casetes de billetes a la vista. Museo del Ahorro, Santiago de Chile.
+- **Pripyat Basketball Court.jpg** — El gimnasio de una escuela de Prípiat, cuarenta años después. Fotografía de Ingmar Runge.
+- **Proof coin hall, Royal Australian Mint.jpg** — Sala de acuñación de la Casa de la Moneda australiana, en Canberra.
+- **Prospect Park New York November 2016 001.jpg** — Prospect Park, en Brooklyn, obra de los mismos paisajistas. Fotografía de King of Hearts.
+- **Prototype RCA color television at the Early Television Museum June 2022.jpg** — Un prototipo de televisor en color de RCA. Early Television Museum, Ohio. Fotografía de DogsRNice.
+- **Pulpo común (Octopus vulgaris), Parque natural de la Arrábida, Portugal, 2020-07-21, DD 46.jpg** — Un pulpo común camuflado entre las algas, en Portugal. Fotografía de Diego Delso.
+- **Purple bicycle leaning against a stone wall.jpg** — Una bicicleta apoyada en un muro de piedra.
+- **Quarry Bank Mill Styal.jpg** — La fábrica textil de Quarry Bank, en Cheshire, una de las que hilaron algodón a máquina desde 1784.
+- **Quercus suber dehesa.jpg** — Alcornocal adehesado cerca de Arcos de la Frontera, Cádiz. Fotografía de Cillas.
+- **Rainy Windshield Wipers.jpg** — Un parabrisas bajo la lluvia con las escobillas en marcha, 2016. La goma es la misma pieza que dibujó aquella patente. Fotografía de NWSPhoenix.
+- **Rainy Windshield.jpg** — Un parabrisas cubierto de llovizna. Fotografía del Servicio Meteorológico Nacional de Phoenix.
+- **Raven portrait (89395).jpg** — Cuervo común (Corvus corax).
+- **Red Blood Cells.jpg** — Glóbulos rojos humanos vistos al microscopio. Fotografía de Vijayanrajapuram.
+- **Red Hook Container Terminal New York September 2016 002.jpg** — Terminal de contenedores de Red Hook, Nueva York, 2016.
+- **Regresando. Sendero del Río Piedras. JGL 9634.jpg** — Sendero junto al río Piedras, en la misma costa onubense.
+- **Renault Talisman Grandtour (5) - Undeployed airbag.jpg** — El airbag del acompañante sin disparar, con el salpicadero quitado: la caja blanca lleva dentro la bolsa doblada y el bote que la llena. Fotografía de Cjp24, 2018.
+- **RENFE 334 020 Calasparra.jpg** — Un tren de Renfe cruzando el paisaje de Calasparra, en Murcia. Fotografía de David Gubler.
+- **Revo Wild Country outdoor with rope.jpg** — Una cuerda de escalada pasada por un aparato de seguro: también se estira a propósito para alargar la frenada. Fotografía de Polarbear24.
+- **Robledo del Mazo 06.jpg** — Alcornoque recién descorchado en Robledo del Mazo, Toledo, 2022. Fotografía de LBM1948.
+- **Roggensauerteig — Rye Sourdough (Macro photo).jpg** — Masa madre de centeno vista de cerca, con las burbujas de gas de la fermentación. Fotografía de Maximilian Schönherr, 2023.
+- **Rolhas de Cortiça Natural - Cork stopper for a wine bottle.jpg** — Tapones de corcho natural usados, marcados a fuego por las bodegas. Fotografía de Hudson C. S. de Souza, 2018.
+- **Roller skaters on the move.jpg** — Patinadores entrenando en un aparcamiento de Nakuru, en Kenia.
+- **Rothornbahn Tal Lenzerheide.jpg** — El cable del Rothorn sobre el valle de Lenzerheide, en Suiza. Fotografía de Andres Passwirth.
+- **Roubaix reservoir du fontenoy.jpg** — El depósito de agua del Fontenoy, en Roubaix, Francia. Fotografía de Velvet.
+- **Roundabout interchange.jpg** — Un enlace en rotonda sobre una autovía, visto desde arriba. Fotografía de Petar Milošević.
+- **Roundabout September 2014 12.jpg** — Una rotonda pequeña de barrio, con dos coches dentro. Fotografía de Arild Vågen.
+- **Rousanou Monastery 02.jpg** — El monasterio de Rusano, en Meteora (Grecia), sobre su peña. Fotografía de Patryk Morawiec, 2018.
+- **Royal Canal Lock 17 (Fern's Lock).jpg** — Esclusa 17 del Royal Canal irlandés, con el desnivel bien visible.
+- **RS 42471-12 PCB details 01.jpg** — Detalle de una placa de circuito impreso de los años setenta. Fotografía de Mister rf.
+- **Rubber tree and latex cup.jpg** — Un árbol del caucho sangrado, con el látex cayendo al cuenco: la materia prima de los primeros guantes. Fotografía de Wee Hong.
+- **Rubber tree tapping.jpg** — Árbol del caucho sangrado en una plantación asiática. Fotografía de Vis M.
+- **Ruhland, Grenzstr. 3, Eisblumen, 04.jpg** — Flores de hielo en una ventana de Ruhland, Alemania. Fotografía de Wilhelm Zimmerling.
+- **Rupit Castle Ruin and Village.jpg** — El pueblo de Rupit, en la comarca de Osona, con las ruinas de su castillo medieval. Fotografía de 2025.
+- **Rusty rebar nets.jpg** — Mallas de acero corrugado apiladas en una obra, esperando a que las cubra el hormigón.
+- **Safety matches Independence.jpg** — Una caja de cerillas de seguridad americana, abierta. Fotografía de Agnat.
+- **Sakrisøy village and mountains Lofoten Norway.jpg** — El pueblo de Sakrisøy, en las islas Lofoten noruegas. Fotografía de Smtunli.
+- **Salisbury Cathedral Spire - Wiltshire.jpg** — La aguja de la catedral de Salisbury, ciento veintitrés metros. Fotografía de Sumit Surai.
+- **Salt pans at Żonqor Point 06.jpg** — Salinas excavadas en la roca en Żonqor Point, Malta. Fotografía de Kritzolina.
+- **Salt Pans of Tuticorin 1.jpg** — Salinas de Tuticorin, en el sur de la India, con los montones de sal recogida. Fotografía de Rangan Datta.
+- **Salt transport by a camel train on Lake Assale (Karum) in Ethiopia.jpg** — Caravana de camellos cargados con losas de sal cruzando el lago Assale, en Etiopía. Fotografía de LeFnake.
+- **San Francisco (CA, USA), Alcatraz -- 2022 -- 3017.jpg** — La isla de Alcatraz vista desde la bahía de San Francisco. Fotografía de Dietmar Rabich.
+- **San Francisco (CA, USA), Alcatraz -- 2022 -- 3133.jpg** — Los edificios de la prisión de Alcatraz vistos de cerca. Fotografía de Dietmar Rabich.
+- **San Francisco (CA, USA), Alcatraz, Zaun -- 2022 -- 3107.jpg** — Alambradas y vallas del recinto de Alcatraz. Fotografía de Dietmar Rabich.
+- **San Juan Parangaricutiro, iglesia 03.jpg** — La torre de la iglesia de San Juan Parangaricutiro asomando sobre la colada del Parícutin, Michoacán. Fotografía de LBM1948, 2013.
+- **San Juan Parangaricutiro, vistas 5.jpg** — Las ruinas de San Juan Parangaricutiro entre la roca, hoy visitadas a diario. Fotografía de LBM1948, 2013.
+- **Sand clock Enschede.jpg** — Reloj de arena, el cronómetro con el que se contaban los nudos. Fotografía de Gianluca Miscione.
+- **Santa Cruz giant tortoise 03.jpg** — Tortuga gigante de la isla Santa Cruz, en Galápagos. Fotografía de Bernard Gagnon, 2014.
+- **São Jorge (Madeira, Portugal), Ilhéu da Rocha das Vinhas -- 2025 -- 1436.jpg** — Un islote solitario frente a la costa de São Jorge, en Madeira. Fotografía de Dietmar Rabich.
+- **São Martinho (Madeira, Portugal), Miradouro do Lido -- 2025 -- 1951.jpg** — El Atlántico visto desde el mirador do Lido, en Madeira. Fotografía de Dietmar Rabich.
+- **Scenic Tea Plantation.jpg** — Laderas de té al amanecer, entre la niebla. Fotografía de Hayleys Plantations.
+- **Scherpen van de maalstenen, vermoedelijk geposeerd, molen werd in juni 1964 gesloopt en herbouwd in Holland, Michigan ( U.S.A.), als een achtkante stellingmolen. - Vinkel - 20369762 - RCE.jpg** — Picando los surcos de una muela de molino en los Países Bajos, en 1964. Servicio de Patrimonio Cultural neerlandés.
+- **Security Lodge 3 Moreland Cottages Bow Quarter 60 Fairfield Road Bow London E3 2QN.jpg** — Entrada de la antigua fábrica Bryant & May, hoy viviendas. Fotografía de Spudgun67.
+- **Sedan, Église Saint-Charles-Borromée de Sedan -- 2017 -- 4893.jpg** — Los campanarios de una iglesia francesa sobre los tejados. Fotografía de Dietmar Rabich, 2017.
+- **Senden, Venner Moor -- 2016 -- 5866.jpg** — Un tocón afilado asomando en el lago helado de una antigua turbera, en Westfalia. Fotografía de Dietmar Rabich.
+- **Senden, Venner Moor -- 2016 -- 5886.jpg** — La vegetación de una turbera: debajo, el suelo encharcado que conserva la madera durante milenios. Fotografía de Dietmar Rabich.
+- **Sevilla - Archivo General de Indias K01.jpg** — Fachada del Archivo General de Indias, en Sevilla.
+- **Sevilla - Archivo General de Indias K02.jpg** — Escalera y galerías interiores del Archivo General de Indias.
+- **Sevilla - Archivo General de Indias K03.jpg** — Salas del Archivo General de Indias, con las estanterías de caoba llenas de legajos.
+- **Sevilla - Torre del Oro and river Guadalquivir - 1.jpg** — La Torre del Oro y el Guadalquivir, Sevilla, 2024.
+- **Sevilla - Torre del Oro and river Guadalquivir at night.jpg** — La Torre del Oro y el Guadalquivir de noche, en Sevilla. Fotografía de Benjamin Smith, 2024.
+- **Shearing 08.JPG** — Esquilando una oveja a máquina. Fotografía de Julie Blake.
+- **Shepherd watching his flock grazing at Xaghra.jpg** — Pastor con su rebaño en Xagħra, en la isla de Gozo, a última hora de la tarde.
+- **Shibam Hadramaut.jpg** — Las casas torre de adobe de Shibam, en Yemen, con sus azoteas planas. Fotografía de Ala Askool.
+- **Shoes in a spanish shoe store.jpg** — El escaparate de una zapatería española. Fotografía de Tomás Castelazo.
+- **Sholes and Glidden Schreibmaschine 04.jpg** — La misma máquina vista de frente, con su teclado de cuatro filas. Fotografía de Eremeev.
+- **Sholes and Glidden Schreibmaschine 06.jpg** — El frente lacado y decorado a mano de una Sholes and Glidden, la primera máquina de escribir comercial. Fotografía de Eremeev.
+- **Sigmund Freud Museum Vienna, Freud pocket watch Vacheron Constantin.jpg** — Reloj de bolsillo conservado en el Museo Sigmund Freud de Viena.
+- **Silk cocoon, Sopura Silk Mills Ltd (04).jpg** — Capullos de gusano de seda recogidos en una hilandería de Bangladés. Cada uno es un solo hilo de casi un kilómetro. Fotografía de Moheen Reeyad, 2017.
+- **Silla episcopal del coro de la Catedral de Coria (Cáceres).jpg** — Silla episcopal del coro de la catedral de Coria, más alta que las de al lado y bajo dosel. Fotografía de José Luis Filpo Cabana.
+- **Silsersee from above Sils-Segl Maria.jpg** — El lago de Sils, en la Engadina suiza, donde Nietzsche pasaba los veranos. Fotografía de 2017.
+- **Sissable10.JPG** — Las salinas de Guérande, en la Bretaña francesa, con la salicornia enrojecida y un montón de sal cubierto al fondo. Fotografía de Jibi44.
+- **Skansen w Maurzycach, Łowicki Park Etnograficzny w Maurzycach, 2025, SOULinPIX, KsP 207.jpg** — Escuela reconstruida en el museo etnográfico de Maurzyce, Polonia, 2025.
+- **Skansen w Maurzycach, Łowicki Park Etnograficzny w Maurzycach, 2025, SOULinPIX, KsP 213.jpg** — Interior de una casa del parque etnográfico de Maurzyce, en Polonia.
+- **Skansen w Maurzycach, Łowicki Park Etnograficzny w Maurzycach, 2025, SOULinPIX, KsP 245.jpg** — Granero de tablas y techo de paja en el museo etnográfico de Maurzyce, Polonia.
+- **Small candle flame.jpg** — Llama de una vela pequeña fotografiada a oscuras, con el cono azul en la base bien visible.
+- **Small petals and water droplets on car windshield, Ponte de Sor, Portugal (approx. GPS location) julesvernex2.jpg** — Gotas de agua y pétalos pequeños sobre un parabrisas, en Ponte de Sor, Portugal. Fotografía de Jules Verne Times Two.
+- **Smalls LIghthouse - 10th June 2018.jpg** — El faro de las Smalls, frente a la costa de Gales, 2018.
+- **Smeatons tower - Plymouth Hoe.jpg** — La torre de Smeaton, el tercer faro de Eddystone, desmontada piedra a piedra y rearmada en el Hoe de Plymouth. Fotografía de Herbythyme, 2010.
+- **Snow.plow.7760.jpg** — Quitanieves en Einsiedeln, Suiza, 2017.
+- **Solanum Lycopersicum tomkin 1.jpg** — Una tomatera con el fruto todavía en la mata. Fotografía de Orengi Harvey.
+- **Sour dough bread 001.jpg** — Pan de masa madre cortado, con la miga alveolada que deja la fermentación larga. Fotografía de Jeuwre, 2021.
+- **Sourdough starter at day 7.jpg** — Bote de masa madre al séptimo día, en plena actividad. Fotografía de Guitarbogus, 2020.
+- **SPAR kolonial mat varehandel hyller (Supermarket interior GROCERY store aisle shelves) Frokostblandinger gryn grøt kjeks müsli Axa (cereals oatmeal biscuits, muesli) etc Tjøme NORWAY 2023-08-31 IMG 1092.jpg** — Baldas de una tienda con el género colocado por huecos, no por familias.
+- **SPAR kolonial mat varehandel hyller (Supermarket interior GROCERY store aisle shelves) Frokostblandinger gryn müsli Axa frukt energi 4-korn blåbær (cereals muesli) etc Tjøme NORWAY 2023-08-31 IMG 1095.jpg** — Estanterías de un supermercado noruego: cada envase lleva su código impreso.
+- **SPBU Pertamina 2022.jpg** — Surtidores de una estación de servicio. Fotografía de Henri Aja.
+- **Sperm whale (Physeter macrocephalus) diving, São Miguel Island, Azores, Portugal (PPL1-Corrected)-2.jpg** — Cachalote sumergiéndose frente a la isla de São Miguel, en las Azores.
+- **Spices on Spice Bazaar in Istanbul 02.jpg** — Montones de especias en el Bazar de las Especias de Estambul. Fotografía de Miomir Magdevski, 2019.
+- **Spices.jpg** — Pimientas enteras y molidas, tomillo seco y romero sobre una tabla de cocina.
+- **SpiralStairs CaernarfonCastle.jpg** — Escalera de caracol del castillo de Caernarfon, en Gales. Fotografía de Martinvl, 2016.
+- **Stack of blood agar plates.jpg** — Pilas de placas de agar sangre preparadas en un laboratorio de microbiología.
+- **Stift Altenburg Krypta 02.JPG** — La cripta de la abadía de Altenburg, en Austria. Fotografía de Uoaei1.
+- **Storage vault.jpg** — Sala de depósito con estanterías y cajas de archivo.
+- **Streptomyces gardneri strain ChNPU F3.jpg** — Una cepa de <em>Streptomyces</em> sembrada en placa, el género del que salió la estreptomicina.
+- **Structure AB, Pillars Shrine with Porthole Window to AD and Carved Head, Karahantepe (Karahan Tepe), Turkey (2).jpg** — Estructura con pilares y una cabeza tallada en Karahan Tepe, Turquía.
+- **Suchý zip na spacáku.jpg** — Las dos caras del velcro: los ganchos y el bucle. Fotografía de Topi Pigula.
+- **Suitcase BW 2025-08-17 14-54-11.jpg** — Maleta de viaje antigua de cuero con su neceser completo. Fotografía de Berthold Werner.
+- **Sundial cannon clock 1.JPG** — Cañón solar conservado en un museo, con la lupa sobre el brazo giratorio.
+- **Sunset at the Pyramids.jpg** — Las pirámides de Guiza al atardecer. Fotografía de Spottedviper.
+- **Sunset view of Everest.jpg** — El Everest al atardecer, con la última luz solo en la cima. Fotografía de Mahatma4711.
+- **Superilla del barri de Sant Antoni, Barcelona 2.jpg** — Un cruce del barrio de Sant Antoni convertido en plaza dentro de una supermanzana. Fotografía de Cataleirxs.
+- **Sydney (AU), Coastal Cliff Walk, Dunbar Anchor -- 2019 -- 2328.jpg** — El ancla del velero Dunbar, naufragado en 1857 y rescatada un siglo después. Se le ven las dos uñas, las palas que se clavan en el fondo. Sídney, Australia. Fotografía de Dietmar Rabich, 2019.
+- **Tablette a ecrire et stylet - Narbo Via.jpg** — Tablilla de escribir romana y su punzón de hueso. Museo Narbo Via, Narbona.
+- **Taean Friendship Glass Factory - 03.jpg** — Nave de una fábrica de vidrio, con la línea de producción en marcha.
+- **Taj Mahal reflection 1.jpg** — El Taj Mahal reflejado en el estanque de sus jardines, en Agra. Fotografía de 2024.
+- **Temple Church is a late 12th-century church.jpg** — La iglesia del Temple de Londres, de planta redonda, construida para los templarios a finales del siglo XII.
+- **Templo funerario de Hatshepsut, Luxor, Egipto, 2022-04-03, DD 13.jpg** — El mismo templo al amanecer, con las rampas que suben entre terrazas. Fotografía de Diego Delso, 2022.
+- **Templo funerario de Hatshepsut, Valle de las Reyes, Luxor, Egipto, 2022-04-03, DD 118.jpg** — Templo funerario de Hatshepsut en Deir el-Bahari, Luxor, 2022. Fotografía de Diego Delso.
+- **Teotihuacan, the Pyramid of the Sun 2019-10-04.jpg** — La pirámide del Sol de Teotihuacán, en México. Fotografía de Alexey Komarov, 2019.
+- **Tetrapoden als Wellenbrecher - Monaco - wundervoll.media.jpg** — Tetrápodos protegiendo el dique del puerto de Mónaco, 2018. Fotografía de Wundervollmedia.
+- **The Princep Ghat.jpg** — El ghat de Prinsep, a orillas del Hugli en Calcuta, donde atracaban los barcos. Fotografía de Punit Agarwal.
+- **The Samurai Collection September 2018 1 (dōmaru tōsei gusoku and warabe tōsei gusoku armor).jpg** — Armaduras de samurái expuestas sobre tatami. Colección Ann y Gabriel Barbier-Mueller, Dallas.
+- **The Samurai Collection September 2018 6 (mogamidō gusoku armor with bagai horse armor and bagu horse tack).jpg** — Armadura de samurái con su arreo de caballo. Colección Ann y Gabriel Barbier-Mueller, Dallas.
+- **The Tanzoumaitak cave painting in Tassili n'ajjer.jpg** — Pinturas rupestres de Tanzoumaitak, en el Tassili n'Ajjer argelino, hoy en pleno desierto. Fotografía de Issam Barhoumi.
+- **The Union Bridge, Scotland to England. The road deck. Cables and chains.jpg** — Calzada del Union Bridge, entre Escocia e Inglaterra, colgada de sus cables y cadenas. Fotografía de Rosser1954, 2020.
+- **The Victorian bandstand in sefton park, Liverpool, England.jpg** — El quiosco de música de Sefton Park, en Liverpool. Fotografía de Fatih Renkligil.
+- **The Western Wall in the old city of Jerusalem, Israel.jpg** — El Muro de las Lamentaciones, en la ciudad vieja de Jerusalén.
+- **Thériaque - musée HCL - pot canon - pharmacie à l'Hôtel-Dieu.jpg** — Bote de triaca de la farmacia del Hôtel-Dieu de Lyon. Fotografía de Aurélie Troccon y Manon Mauquin.
+- **Three Magi mosaic - Sant'Apollinare Nuovo - Ravenna 2016.jpg** — Mosaico de los Magos con sus nombres escritos encima, siglo VI. Basílica de San Apolinar Nuevo, Rávena.
+- **Three Mills Lane view across the water.jpg** — El río Lea a su paso por Three Mills, en el este de Londres. Fotografía de Sallyanne4.
+- **Tillamook Rock Lighthouse in April, 2010.jpg** — El faro de Tillamook Rock con la mar en calma, 2010.
+- **Tillamook Rock Lighthouse in November, 2009.jpg** — El faro de Tillamook Rock, Oregón, batido por una ola, 2009.
+- **Tintenfraß.jpg** — Un expediente con el papel comido justo por donde pasaba la escritura. Archivo Regional de Hesse, Alemania, 2010.
+- **Tomb slab of Nihebsedpepy.jpg** — Estela funeraria egipcia de Nihebsedpepy, hacia 2100 a. C., con la policromía original conservada.
+- **Tombstone of Flavia Augustina YORYM 1998 18.jpg** — Lápida de Flavia Augustina, con su marido y sus dos hijos, hallada en York.
+- **Top hat - Hardy Brothers (1).jpg** — Una chistera de felpa de seda sobre fieltro. Fotografía de Toxophilus.
+- **Torso from archaic temple of Apollo, Parian marble, 510-500 BC, AM Delphi, 201376.jpg** — Torso arcaico en mármol de Paros del templo de Apolo, hacia 510 a. C. Museo Arqueológico de Delfos.
+- **Towards Pyramid of Khafre.jpg** — Los bloques de la pirámide de Kefrén vistos de cerca. Fotografía de Bilal Detailz.
+- **Tower crane rising at hollywoodHUB construction site, Portland, Oregon.jpg** — Grúa torre levantada en una obra de Portland, Oregón. Fotografía de PortlandAppraisalBlog.
+- **Traditional handicraft, leather industry.jpg** — Un curtidor sacando una piel encalada de la tina, en Marruecos. Fotografía de Amine Boussiar, 2024.
+- **Traditional wooden Tympanum, door n lock.jpg** — Puerta newarí de madera tallada con su cerrojo, en el valle de Katmandú.
+- **Traffic signal at FL20 and FL71.jpg** — Un semáforo eléctrico de tres luces colgado sobre un cruce.
+- **Travelators at Sydney Airport Terminal 3.jpg** — Cintas transportadoras de la terminal 3 del aeropuerto de Sídney, 2017.
+- **Trenčín Castle 45.jpg** — Murallas y torres del castillo de Trenčín, en Eslovaquia. Fotografía de Scotch Mist.
+- **Trinamic TMC2209 stepper motor controller board.jpg** — Detalle de una placa de circuito impreso con su chip. Fotografía de Phiarc, 2023.
+- **TSD Computer -,Schreib und Bürotechnik DEC ASCII Computer-Terminal digital VT 100.jpg** — Un terminal DEC VT100, de los que se usaban para escribir en los tablones de aquellos años. Fotografía de NoRud.
+- **Tsidi bou said.jpg** — Sidi Bou Saïd, en Túnez, otro pueblo que resuelve el calor con cal blanca y carpintería azul.
+- **Tsukiji Fish Market, Tokyo.jpg** — El mercado de Tsukiji, en Tokio, en plena mañana de trabajo.
+- **Tumba de Ramsés V y de Ramsés VI, Valle de las Reyes, Luxor, Egipto, 2022-04-03, DD 48.jpg** — Techo pintado de la tumba de Ramsés V y Ramsés VI, Valle de los Reyes, Egipto.
+- **Tumba de Tutankamón, Valle de los Reyes, Luxor, Egipto, 2022-04-03, DD 73.jpg** — Interior de la tumba de Tutankamón, Valle de los Reyes, Egipto.
+- **Two sperm whales (Physeter macrocephalus), São Miguel Island, Azores, Portugal (PPL1-Corrected).jpg** — Dos cachalotes nadando juntos en aguas de las Azores.
+- **Typewriter-12 hg.jpg** — El interior de una máquina de escribir mecánica. Fotografía de Hannes Grobe.
+- **UC Berkeley September 2024 001.jpg** — Berkeley, California, con el campus y las calles donde empezó todo. Fotografía de King of Hearts.
+- **UC Berkeley September 2024 002.jpg** — Otra vista de Berkeley desde el aire. Fotografía de King of Hearts.
+- **Umbrella in Wellington.jpg** — Lluvia y paraguas en una esquina de Wellington, en Nueva Zelanda.
+- **Union Bridge, Scotland to England. Car on the road deck.jpg** — Un coche cruzando el mismo puente colgante. Fotografía de Rosser1954, 2020.
+- **University National Bank building - door to safe deposit room 02.jpg** — La puerta acorazada de la cámara de un banco de Seattle. Fotografía de Joe Mabel.
+- **University of California, Berkeley.jpg** — Panorámica del campus de Berkeley. Fotografía de Daniel Koenig.
+- **Urraca (Pica pica), Almuradiel, Ciudad Real, España, 2021-12-19, DD 19.jpg** — Urraca común (Pica pica) en Almuradiel, Ciudad Real: una de las pocas especies que pasa la prueba.
+- **Use of a touchless hand washing tap and solid bar soap dispenser.jpg** — Grifo sin contacto y dispensador de jabón, herederos directos de aquella idea.
+- **Vachellia drepanolobium.jpg** — La acacia silbadora, Vachellia drepanolobium, de las sabanas de África oriental. Fotografía de Jozef020.
+- **Venice, Canal Grande, gondolas across Pta. d. Dogana.jpg** — Góndolas amarradas en el Gran Canal de Venecia. Fotografía de Armin Kleiner, 2019.
+- **Verkehrsmuseum Dresden Replika Benz-Patent-Motorwagen von 1886 Detail Motor VIII.jpg** — El motor del Benz de cerca: cilindro, volante y cadena. Fotografía de NoRud, Museo del Transporte de Dresde.
+- **Vibrio cholerae growth on TCBS agar of Rice water stool culture of Cholera patient.jpg** — Cultivo de la bacteria del cólera, la que Snow nunca llegó a ver: murió cinco años antes de que se identificara. Fotografía de Ajay Kumar Chaurasiya.
+- **Vihorlat Museum in Humenné - Ethnographic open-air museum - Farmhouse from Kalná Roztoka, interior, main room ('chiža'), summer (August 2006) 01.jpg** — Sala principal de una casa campesina eslovaca, con la cama en un rincón. Museo etnográfico de Humenné.
+- **Vihorlat Museum in Humenné - Ethnographic open-air museum - Farmhouse from Oľšinkov, interior, main room ('chiža'), summer (August 2006) 01.jpg** — Otra sala principal de casa campesina en el museo etnográfico de Humenné, Eslovaquia.
+- **Vintage desk fan at the Age of Steam Roundhouse April 2022.jpg** — Ventilador de sobremesa antiguo en un taller ferroviario de Ohio, 2022.
+- **Vivekananda House , a Heritage building in Chennai, India earlier known as Ice House.jpg** — La antigua Casa del Hielo de Madrás, hoy Vivekananda House, construida para almacenar el hielo llegado de Boston. Fotografía de N. Vivekananthamoorthy.
+- **W49 - Rotary dial telephone in black - case opened - upper part - rotary dial mechanics-9177.jpg** — El interior de un teléfono de disco: bajo la carcasa de baquelita, todo el mecanismo a la vista.
+- **Wall painting - idyllic landscape with sarcophagus of Osiris - Pompeii (VIII 7 28 - sanctuary of Isis - ekklesiasterion) - Napoli MAN 8570 - 01.jpg** — Pintura mural de Pompeya, hecha sobre el revoco de cal todavía fresco. Fotografía de ArchaiOptix.
+- **Wertheim - Kloster Bronnbach - Kreuzgang - Ansicht von NW.jpg** — El claustro del monasterio cisterciense de Bronnbach, en Alemania. Fotografía de Roman Eisele.
+- **Western honey bee on a honeycomb.jpg** — Abeja sobre un panal. Las celdillas del corcho le recordaron a Hooke a un panal como este. Fotografía de Matthew T. Rader.
+- **Whanganui, New Zealand (002).JPG** — Paseo de madera junto al río, en la ciudad de Whanganui.
+- **Whanganui, New Zealand, Durie Hill Memorial Tower - view (1).JPG** — La ciudad de Whanganui y su río vistos desde la torre de Durie Hill.
+- **Wheel VeracruzCulture.jpg** — Figura de cerámica con ruedas de la cultura de Veracruz, en México.
+- **White wedding.jpg** — Las alianzas en la bandeja, durante una ceremonia.
+- **Wilde zwijnen (Sus scrofa) zoel. Locatie, Kroondomein 01.jpg** — Bañadero de jabalíes en el Kroondomein Het Loo, Países Bajos, 2015.
+- **William Jolly Bridge from Gallery of Modern Art South Brisbane P1300590.jpg** — El puente William Jolly, en Brisbane, con sus arcos de hormigón armado de 1932.
+- **Wind Turbines, Baltic Sea.jpg** — Aerogeneradores en el mar Báltico. Fotografía de John Samuel.
+- **Windshield wiper motor.JPG** — Motor eléctrico de limpiaparabrisas desmontado.
+- **Winter view of typical norwegian hytte (cabin) coverd in snow in Rekdalsetra area - Rekdal, Vestnes, Norway 2017-12-29.jpg** — Una cabaña noruega con el tejado cargado de nieve y una fila de carámbanos en el alero. Fotografía de Mænsard vokser.
+- **Wisconsin Bell Telephone Company Switchboard.jpg** — Un operador en la centralita de la compañía telefónica de Wisconsin.
+- **Wolin 2018 07.jpg** — Muro de escudos en el festival de Wolin, Polonia. Fotografía de Jakub T. Jankiewicz, 2018.
+- **Wood letterpress type.jpg** — Tipos de imprenta de madera. Fotografía de 2010.
+- **Wooden Cooking Spoon.jpg** — Cuchara de madera de cocina, 2018.
+- **Wooden National Cash Register.jpg** — Caja registradora National de madera, de hacia 1910, conservada en el museo de Shoshone, California.
+- **Wooden spoons-black and white.jpg** — Cucharas de madera talladas a mano, 2013.
+- **Wool on legs.jpg** — El vellón de una oveja, la materia prima de todo el negocio. Fotografía de Sudzie.
+- **World's tallest mounted dinosaur skeleton Brachiosaurus brancai.jpg** — Esqueleto de Giraffatitan en el Museo de Historia Natural de Berlín, 2019.
+- **Wrangler 13MWZ jeans back detail (2026-01-27) 2.jpg** — El bolsillo trasero de un pantalón vaquero, con los remaches metálicos en las dos esquinas de arriba. Fotografía de Olgierd Rudak.
+- **Wroclaw National Museum 2022 Iron World Exhibition P11 chest lock with three keys.jpg** — Cerradura de arca de 1551 con sus tres llaves, en el Museo Nacional de Breslavia.
+- **Wue RoentgenGedSt Geraet1912.JPG** — Aparato de rayos X de 1912 conservado en el museo Röntgen de Wurzburgo. Fotografía de Kai Borgeest.
+- **Würfel, gemischt -- 2021 -- 5577.jpg** — Dados de colores sobre una superficie negra. Fotografía de Dietmar Rabich, 2021.
+- **Yacht with red spinnaker at full sail on blue ocean with clouds.jpg** — Velero navegando con spinaker desplegado en mar abierto. El mismo principio del ancla flotante, con aire en vez de agua.
+- **Yesa - Embalse - Sequía 01.jpg** — Fondo agrietado del embalse de Yesa durante la sequía, Navarra, 2016.
+- **Yesa - Embalse - Sequía 03.jpg** — Orilla retirada del embalse de Yesa, Navarra, 2016.
+- **Yesa - Embalse - Sequía 04.jpg** — Detalle del lecho seco del embalse de Yesa, 2016.
+- **Zigong Dinosaur Museum Omeisaurus tianfuensis below.jpg** — El mismo esqueleto visto desde abajo, Zigong, China, 2014.
+- **Zigong Dinosaur Museum Omeisaurus tianfuensis.jpg** — Esqueleto de Omeisaurus en el Museo de Dinosaurios de Zigong, China, 2014.
+- **ΚΑΛΛΙΜΑΡΜΑΡΟ ΣΤΑΔΙΟ 4.jpg** — El estadio Panathinaikó de Atenas, todo de mármol, donde se corrió el maratón de 1896.
+- **Мшинская, развязка на объездной серху зимой (1).jpg** — Enlace de carretera fotografiado con dron en invierno, con los lazos dibujados sobre la nieve.
+- **Разнообразие почвенной микрофлоры в чашке Петри.jpg** — Microflora de un puñado de tierra, cultivada en una placa de Petri. Fotografía de Oksana Lastochkina.
+- **Санкт-Петербург, площадь Пролетарской Диктатуры сверху.jpg** — La plaza de la Dictadura del Proletariado, en San Petersburgo, vista desde arriba con el tráfico girando.
+- **ടെട്രാപോഡ് 06.jpg** — Tetrápodos de hormigón encajados unos en otros, Kerala (India), 2025. Fotografía de Anish Nellickal.
+- **退潮后的潮间带长出河川般的潮沟.jpg** — Surcos dejados por el agua en la arena de una playa de Xiamen al bajar la marea.
+
+## CC0 — 283 imágenes
+
+- **-Girl with Portrait of George Washington- MET DT324289.jpg** — Retrato al daguerrotipo de una niña, por Southworth y Hawes, hacia 1850. Metropolitan Museum of Art.
+- **0121521 Sasbahu (Sahasrabahu) Temples, Gwalior Fort, Madhya Pradesh 011.jpg** — Detalle del labrado de los templos Sasbahu, en el mismo recinto de Gwalior.
+- **0121521 Sasbahu (Sahasrabahu) Temples, Gwalior Fort, Madhya Pradesh.jpg** — Templos Sasbahu, del siglo XI, en el fuerte de Gwalior, donde está grabada la inscripción del cero más antigua que se conserva fechada.
+- **02023 Resurrection egg, Cedynia, 11th-13th centuries.jpg** — Sonajero de cerámica esmaltada hallado en Cedynia, Polonia, de entre los siglos XI y XIII.
+- **1882 Horse-drawn Shand, Mason & Co. steam fire engine pic2.JPG** — Bomba de vapor de incendios tirada por caballos, de 1882. Fotografía de Alf van Beem.
+- **1913 Ford T pic1.JPG** — Un Ford T de 1913, de los coches que había que llenar a mano con latas y un embudo. Fotografía de Alf van Beem.
+- **2016-366-321 The Bell Tolls for Sunset (31010064416).jpg** — Una campanilla colgada de una cadena, al atardecer. Fotografía de Alan Levine.
+- **20190705 Kanazawa fish market-1.jpg** — Puesto del mercado de pescado de Kanazawa, en Japón, con el género colocado por lotes.
+- **20230227 142451 February 2023 in Tel Aviv.jpg** — Calle de Tel Aviv en 2023, con la lengua ya en boca de todo el mundo.
+- **2024-12-20 15-29-16 CZ PRG Tutankhamun exhib JHe N9.jpg** — La daga de hierro de Tutankamón junto a su vaina de oro. Fotografía de Juhele, exposición de Praga, 2024.
+- **247 Home Rescue back of sink plumbing.jpg** — El bajo de un fregadero: llaves, tubos y el sifón, que se desenrosca a mano. Ahí es donde aparecen los anillos que se caen por el desagüe. Fotografía de 247 Home Rescue, 2014.
+- **81 rue Mouffetard, motif de la porte, 5ème arrondissement, Paris. PH24440.jpg** — La puerta del número 81 de la rue Mouffetard de París, fotografiada por Charles Lansiaux en 1917.
+- **A colorful knot on a boat.jpg** — Un nudo hecho con cabo trenzado de colores, amarrado en una embarcación. Fotografía de Goose Green Photography.
+- **A Firework Bouquet (Unsplash).jpg** — Ramillete de fuegos artificiales sobre cielo negro. Fotografía de Vernon Raineil Cenzon, 2017.
+- **A knot on a winter boot.jpg** — El nudo de un cordón de bota. Fotografía de Goose Green Photography.
+- **A notebook with paint brushes.jpg** — Cuaderno en blanco con pinceles y acuarelas. Fotografía de Tim Arterbury, 2016.
+- **A Rat Seen in Profile. MET DP809442.jpg** — Rata de perfil, dibujo de Giorgio Duranti, siglo XVIII. Metropolitan Museum of Art.
+- **Abandoned building facade (Unsplash).jpg** — Fachada de un edificio abandonado. Fotografía de Igor Ovsyannykov, 2016.
+- **Acteur als boogschutter, RP-P-2017-6127.jpg** — Un actor en el papel de arquero, estampa de 1847. Rijksmuseum, Ámsterdam.
+- **After fifty years (Unsplash).jpg** — Una pareja mayor riéndose muy juntos. Fotografía de Lotte Meijer, 2016.
+- **Alexander Graham Bell 1895 NPG 77 363.jpg** — Alexander Graham Bell retratado en 1895. National Portrait Gallery.
+- **Ambergris, found after a storm on Gisborne beach - Picton Heritage & Whaling Museum - Picton, NZ - DSC00296.jpg** — Trozo de ámbar gris recogido en una playa de Gisborne tras un temporal. Museo de Picton, Nueva Zelanda.
+- **Ancient Yapese stone money - 8843919185.jpg** — Piedras rai alineadas en un <em>malal</em> del municipio de Rull, en las islas Yap.
+- **Andrew Ruiz 2017-05-28 (Unsplash).jpg** — Explosión de artificio vista de cerca. Fotografía de Andrew Ruiz, 2017.
+- **Anonymous Fork and knife with amber figurines of a married couple.jpg** — Tenedor y cuchillo con mangos de ámbar tallado, década de 1670, justo después del decreto. Pomerania o Lübeck.
+- **Anonymously left playing cards (Unsplash).jpg** — Cartas lanzadas al aire entre los árboles. Fotografía de Farhan Siddicq, 2017.
+- **Antique sewing machine (Unsplash).jpg** — Máquina de coser de manivela de principios del siglo XX. Fotografía de Annie Spratt.
+- **Apothecary Jar MET DP245577.jpg** — Tarro de botica de cerámica mexicana, hacia 1800. Metropolitan Museum of Art, Nueva York.
+- **Apprentice linotype operator at Queensland Times, Ipswich, 1975 (34583024235).jpg** — Un aprendiz de linotipista componiendo texto en el Queensland Times, en 1975. Archivos del Estado de Queensland.
+- **Arashiyama Bamboo Grove (Unsplash).jpg** — El bosque de bambú de Arashiyama, en Kioto. Fotografía de Erol Ahmed, 2016.
+- **Arbeiders achter mengvaten in een papierfabriek, Bestanddeelnr 190-0425.jpg** — Operarios junto a las tinas de mezcla de una fábrica de papel. Fotografía de Willem van de Poll.
+- **Aristotle with a Bust of Homer MET DP319026.jpg** — Aristóteles ante un busto de Homero, óleo de Rembrandt, 1653. Metropolitan Museum of Art, Nueva York.
+- **ARTHUR B. HOMER Windlass & Anchor Chain.jpg** — El molinete de un carguero de los Grandes Lagos, la máquina que recoge la cadena, con los eslabones enfilados hacia el pozo. Puerto de Duluth, 1978. Fotografía de Gary Todd.
+- **Avocado and Egg Toast (Unsplash).jpg** — Tostada con aguacate y huevo cocido. Fotografía de Joseph Gonzalez, 2016.
+- **Barrel of Traditional Balsamic Vinegar of Modena.jpg** — Barril de vinagre balsámico tradicional de Módena, con la tapa de piedra encima.
+- **Beautiful World (Unsplash).jpg** — Bosque a contraluz al atardecer. Fotografía de Dan Musat, 2017.
+- **Berthe Morisot, Young Girl with an Apron, 1891, NGA 131028.jpg** — Muchacha con delantal, óleo de Berthe Morisot, 1891. National Gallery of Art, Washington.
+- **Bike on rainy street (Unsplash).jpg** — Una bicicleta aparcada en una calle mojada. Fotografía de Ornella Binni.
+- **Bird perching on a branch in the snow (Unsplash).jpg** — Un pájaro posado en una rama nevada. Fotografía de Alice Donovan Rouse, 2016.
+- **Black worn leather jacket detail 1.jpg** — Detalle de una cazadora de cuero muy usada, con la cremallera del bolsillo.
+- **Blade and Mounting for a Sword (Katana) MET DT217427.jpg** — Hoja y montura de una katana, siglo XVI. Metropolitan Museum of Art.
+- **Blue stream with a waterfall (Unsplash).jpg** — Cascada y arroyo en un bosque de helechos. Fotografía de Steve Bittinger, 2016.
+- **Blue Whale Skeleton in Great Hall (36495359945).jpg** — El esqueleto de ballena azul colgado en la sala principal del Museo de Historia Natural de Londres. Fotografía de Gary Todd.
+- **Box kite in flight.tif** — Una cometa de caja en vuelo, del tipo que se usaba para subir antenas y aparatos de medida. Fotografía de SteveStrummer.
+- **Brass kerosene lamp.jpg** — Lámpara de queroseno de latón con tubo de vidrio. Fotografía de W. Carter, 2019.
+- **British-made Antique Rotary Telephone.jpg** — Teléfono de columna de latón con disco de marcar, fabricado en Inglaterra.
+- **Brooklyn Bridge Sunrise Fog (Unsplash).jpg** — El puente de Brooklyn entre la niebla del amanecer. Fotografía de Emanuel Hahn, 2017.
+- **Brussels marathon runners (Unsplash).jpg** — Corredores de la maratón de Bruselas. Fotografía de Martins Zemlickis, 2016.
+- **Bust of Germanicus, front - Getty Museum (2021.66).jpg** — Busto romano en mármol de Germánico, siglo I. J. Paul Getty Museum, Los Ángeles.
+- **Caisson for the Construction of a Pier(GN04899).jpg** — Un cajón de cimentación como los que se hundieron bajo el río para levantar las torres.
+- **Cardinal Fernando Niño de Guevara (1541–1609) MET DT854.jpg** — El cardenal Fernando Niño de Guevara con sus gafas de aros, óleo de El Greco hacia 1600. Metropolitan Museum, Nueva York.
+- **Cast victim eruptions Pompeii.jpg** — Vaciado en yeso de una víctima de la erupción del año 79, hecho rellenando con escayola el hueco que dejó el cuerpo en la ceniza. Fotografía de Jebulon.
+- **Caudipteryx zoui, feathered dinosaur plate, Early Cretaceous, Yixian Formation, Liaoning, China - Houston Museum of Natural Science - DSC01866.JPG** — Caudipteryx, otro emplumado del mismo yacimiento: tenía plumas de abanico en la cola y no volaba. Fotografía de Daderot.
+- **Center Ring, Gifford Beal, 1922 - Phillips Collection - DSC04889.JPG** — «La pista central», óleo de Gifford Beal, 1922. Ciento cincuenta años después de Londres, y en otro continente, la pista sigue midiendo lo mismo. Phillips Collection, Washington.
+- **Central Park Mall during Stella Snowstorm (Unsplash).jpg** — El paseo de los olmos de Central Park bajo la nevada. Fotografía de Emanuel Hahn, 2017.
+- **Chair No. 14, Thonet, design 1859, manufactured c. 1920, bentwood beech, walnut stain, woven cane seat - Germanisches Nationalmuseum - Nuremberg, Germany - DSC03037.jpg** — La silla número 14 de Thonet, diseñada en 1859: seis piezas de haya curvada al vapor, dos tuercas y diez tornillos. Fotografía de Daderot.
+- **Cheering concertgoers (Unsplash).jpg** — Público con los brazos en alto en un concierto. Fotografía de Ezra Jeffrey, 2016.
+- **Chess game Staunton No. 6.jpg** — Juego de ajedrez de madera con el patrón Staunton, el que se usa hoy en los torneos.
+- **Chia jars with bleuberries (Unsplash).jpg** — Vasos de yogur con chía, kiwi y arándanos. Fotografía de Brenda Godinez, 2017.
+- **Chilean flamingo (Phoenicopterus chilensis) (24351280217).jpg** — Flamenco chileno (Phoenicopterus chilensis). Fotografía de Bernard Spragg, 2017.
+- **Christy's Fur Devon Bowler - adjustable hunting pad.JPG** — Interior de un bombín de fieltro endurecido, con la almohadilla acolchada dentro de la copa.
+- **Classic literature bookcase (Unsplash).jpg** — Estanterías con libros de literatura clásica. Fotografía de Dakota Corbin, 2017.
+- **Clear Umbrella Rain Liverpool (Unsplash).jpg** — Paraguas transparente bajo la lluvia en Liverpool, con las varillas a la vista.
+- **Clouds in a tall glass facade (Unsplash).jpg** — Nubes reflejadas en la fachada acristalada de un edificio de Londres.
+- **Clouds mirrored in a mountain lake (Unsplash).jpg** — Nubes reflejadas en un lago de montaña. Fotografía de Ales Krivec, 2015.
+- **Coal mine interior in Ashland, PA - May 2024.jpg** — Una galería de mina de carbón por dentro, entibada con madera. Fotografía de LostplanetKD73.
+- **Coffee steaming in a mug.jpg** — Taza de café humeante: ese vapor es calor escapándose hacia la habitación.
+- **Collection of piano rolls in their original boxes in Collections of the Deutsches Museum.jpg** — Rollos de pianola guardados en sus cajas originales, en los depósitos del Museo Alemán de Múnich.
+- **Colorful hot air balloon in flight (Unsplash).jpg** — Globo aerostático visto desde abajo en pleno vuelo. Fotografía de Aaron Burden.
+- **Container cranes in Tokyo Bay.jpg** — Grúas de contenedores en la bahía de Tokio, 2023.
+- **Contrasting Landscapes (Unsplash).jpg** — Dunas de arena delante de una pradera verde. Fotografía de Benny Jackson, 2016.
+- **Copenhagen Zoo, Frederiksberg, Denmark (Unsplash u3xyNcPIntQ).jpg** — Leones tumbados entre rocas en el zoo de Copenhague. Fotografía de Nick Karvounis, 2016.
+- **Cordage chantier de l'Hermione Rochefort sur Mer.jpg** — Cabos ordenados en el astillero donde se reconstruyó la fragata Hermione, en Rochefort. Fotografía de Jebulon.
+- **Countryside Railway (Unsplash).jpg** — Vía de tren perdiéndose entre el campo. Fotografía de Thong Vo, 2014.
+- **Cross-section histology of small intestinal villi of the terminal ileum.jpg** — Corte de las vellosidades del intestino delgado visto al microscopio. Imagen de Mikael Häggström.
+- **Cute piggy bank (Unsplash).jpg** — Una hucha de cerdito. Fotografía de Fabian Blank, 2016.
+- **Daguerreotype camera, replica of Voigtlander's first metal camera from 1841, TM32508 - Tekniska museet - Stockholm, Sweden - DSC01429.JPG** — Réplica de una cámara de daguerrotipo metálica de 1841. Museo Técnico de Estocolmo. Fotografía de Daderot.
+- **Dark horse eye (Unsplash).jpg** — El ojo de un caballo de cerca. Fotografía de Jez Timms, Menorca, 2016.
+- **DEC VT100 (15272092560).jpg** — Un terminal DEC VT100, de 1978: la pantalla con la que se manejaban aquellos ordenadores, solo texto verde sobre negro. Fotografía de Wolfgang Stief.
+- **Del Monte Pineapple field at Camp Philips, Bukidnon, Philippines 02.jpg** — Piñar en Camp Philips, Bukidnon, Filipinas, 2018.
+- **Del Monte Pineapple field at Camp Philips, Bukidnon, Philippines 03.jpg** — Otra vista del piñar de Bukidnon, Filipinas, 2018.
+- **Delightful houses on a slope (Unsplash).jpg** — Casas repartidas por una ladera boscosa, con niebla arriba. Fotografía de Tom Skarbek-Wazynski, 2016.
+- **Demonstratie van een waterbed, Bestanddeelnr 924-5940.jpg** — Demostración de una cama de agua en una tienda de Ámsterdam, 28 de mayo de 1971. Fotografía de Hans Peters, Anefo.
+- **Demonstratie van een waterbed, Bestanddeelnr 924-5942.jpg** — La misma demostración de cama de agua en Ámsterdam, mayo de 1971. Fotografía de Hans Peters, Anefo.
+- **Diederik van Hemert (1729-53), heer van Babiloniënbroek op zesjarige leeftijd, SK-A-3868.jpg** — Diederik van Hemert, señor de Babiloniënbroek, retratado a los seis años. Óleo de Harmen Serin, 1735. Rijksmuseum.
+- **Dinosaur Skeleton (36324464642).jpg** — Esqueleto de dinosaurio montado en un museo, 2017.
+- **Drone view of roundabout (Unsplash).jpg** — Una rotonda vista desde arriba, con los coches trazando la curva. Fotografía de Enrapture Media.
+- **Dubai skyline unsplash.jpg** — Dubái de noche desde el agua, 2016.
+- **Ears of wheat at dusk (Unsplash).jpg** — Espigas a contraluz al anochecer. Fotografía de Cezanne Ali, 2015.
+- **East ramp of Alewife parking garage, December 2018.jpg** — Rampa del aparcamiento de la estación de Alewife, Cambridge (Massachusetts), 2018. Fotografía de Daderot.
+- **Een postkoets rijdt op de snelweg N206 richting Katwijk aan den Rijn, begeleid door een fietser, Bestanddeelnr 926-8011.jpg** — Una diligencia y un ciclista por la autopista N206 vacía durante un domingo sin coches, Países Bajos, 4 de noviembre de 1973. Fotografía de Anefo.
+- **Elector Frederick V, dethroned King of Bohemia, on a frozen canal at The Hague.jpg** — El canal Paviljoensgracht de La Haya helado en 1621, en un grabado de Cornelis Ploos van Amstel de 1766.
+- **Emperor Justinian Receiving the First Imported Silkworm Eggs from Nestorian Monks, Plate 2 from "The Introduction of the Silkworm" -Vermis Sericus- MET DP841101.jpg** — El emperador recibiendo los primeros huevos de gusano traídos de Asia por dos monjes. Estampa de hacia 1595, de la serie «Vermis Sericus». Museo Metropolitano de Arte, Nueva York.
+- **EmptyHwy407.jpg** — Autopista vacía. Fotografía de Raysonho, 2020.
+- **Eventail chinois asymétrique Alcazar Seville Spain.jpg** — Abanico plegable del siglo XVIII, con el varillaje de carey grabado y el país de seda pintado con una escena china. Real Alcázar de Sevilla. Fotografía de Jebulon.
+- **Eventail plié Château St Ange, 1998.100.1.jpg** — Abanico plegable italiano de piel, nácar y hueso dorado, entre 1805 y 1815. Château de Saint-Ange.
+- **Exposition universelle de 1889 un minaret, Paris, PH76561.jpg** — Alminar levantado como decorado en la Exposición Universal de París de 1889. Fotografía de Hippolyte Blancard.
+- **Fayum egyptian funerary portrait 1627 NAMAthens.jpg** — Retrato funerario de El Fayum pintado con cera caliente sobre madera. Museo Arqueológico Nacional de Atenas.
+- **Film cans downstairs in The Electric cinema, Birmingham, England, UK, on 25 September 2022 (01).jpg** — Estanterías de latas de película en los sótanos de un cine de Birmingham. Fotografía de MatthewHoobin.
+- **Fine day in London, RP-F-F25501-S.jpg** — Un coche de caballos en una calle de Londres, fotografía de Hector Colard de hacia 1891. Rijksmuseum.
+- **Fingers on the piano keys (Unsplash).jpg** — Manos sobre el teclado de un piano. Fotografía de Gabriel Barletta, 2014.
+- **Flowers and Whitewashed Buildings in Mykonos, 2024.jpg** — Casas encaladas en Mykonos. Fotografía de Julian Lupyan.
+- **Foggy countryside (Unsplash).jpg** — Niebla encendida por el sol sobre unos campos. Fotografía de Anton Repponen, 2016.
+- **Francisco de Goya - Caprichos- The Sleep of Reason Produces Monsters - 1922.638 - Cleveland Museum of Art.tif** — Aguafuerte de Francisco de Goya, 1799: <em>El sueño de la razón produce monstruos</em>, de los Caprichos.
+- **Fresh Salad (Unsplash).jpg** — Ensalada de hojas verdes con una botella de aceite al lado. Fotografía de 2016.
+- **Fresh Veggies (Unsplash).jpg** — Zanahorias y puerros en un puesto de mercado. Fotografía de Peter Wendt, 2016.
+- **Freshly Picked Apples (Unsplash).jpg** — Manzanas recién cogidas. Fotografía de Sydney Zentz, 2016.
+- **Fruits of Roxburgh fig.jpg** — Higos creciendo directamente del tronco de una higuera. Fotografía de Santhiya Kavitha.
+- **Funicular in Dubuque, Iowa.png** — El funicular de Dubuque, en Iowa, que sube apenas noventa metros de cuesta. Fotografía de Funknendai.
+- **Furnitures in the sunlight (Unsplash).jpg** — Muebles vacíos al sol junto a una ventana. Fotografía de Harry Tang, 2014.
+- **Gare Montparnasse marchande de lampes électriques, PH43271.jpg** — Un puesto de lámparas y pilas eléctricas de bolsillo en la estación de Montparnasse, París, entre 1915 y 1918.
+- **General Electric drawn (ductile) tungsten filament incandescent bulb, c. 1911 (NMAH EM.318637).jpg** — Una bombilla incandescente de filamento de hacia 1911. National Museum of American History.
+- **George III Marquetry Commode, attributed to Pierre Langlois, c. 1760, kingwood and various inlaid woods jwith ormolu mounts - Chazen Museum of Art - DSC02100.JPG** — Cómoda de marquetería atribuida a Pierre Langlois, hacia 1760. Chazen Museum of Art. Fotografía de Daderot.
+- **Giza, Sphynx and funerary temple of Khafre, 19th century pictures, 1865-1870, photo 3 of 9 - Archivio fotografico Museo Egizio, Turin INV02 008.jpg** — La Esfinge de Guiza medio enterrada en la arena, fotografiada entre 1865 y 1870. Museo Egizio, Turín.
+- **Golden retriever alert (30190754125).jpg** — Golden retriever tumbado en la hierba, 2016. Fotografía de David Whelan.
+- **Gothic cloisters of Sé do Porto Portugal (17120324410).png** — El claustro gótico de la catedral de Oporto. Fotografía de Terry Kearney.
+- **Grey Heron in the water.jpg** — Garza real (Ardea cinerea) en el agua. Las aves son los únicos dinosaurios que quedaron después del impacto.
+- **Haeinsa Temple 03.jpg** — Patio y edificios del templo de Haeinsa. Fotografía de Bernard Gagnon.
+- **Haeinsa Temple 04.jpg** — Pabellón del templo de Haeinsa, en Corea del Sur, donde se guarda la mayor colección de tacos de imprenta budistas. Fotografía de Bernard Gagnon.
+- **Haeinsa Temple 12.jpg** — Otro rincón del recinto del templo de Haeinsa. Fotografía de Bernard Gagnon.
+- **Halogenlamph4mayak.JPG** — Una bombilla H4, la de dos filamentos: uno alumbra lejos y el otro, tapado por debajo por una cazoleta metálica, alumbra corto y bajo. Fotografía de Racer009, 2014.
+- **Hatshepsut statue base MET DP116043.jpg** — Base de una estatua de Hatshepsut con los jeroglíficos de su nombre. Metropolitan Museum of Art.
+- **Headrest MET DP300243.jpg** — Reposacabezas egipcio de madera, con su pie y la media luna donde se apoyaba la nuca. Museo Metropolitano de Arte, Nueva York.
+- **Henri Rousseau, The Equatorial Jungle, 1909, NGA 46688.jpg** — La selva ecuatorial, óleo de Henri Rousseau, 1909. National Gallery of Art, Washington.
+- **Hieratic ostracon with 'Necropolis Journal' entries, limestone - Museo Egizio, Turin S 5642 p01.jpg** — Lasca de caliza con anotaciones del diario de la necrópolis, escritas hacia 1180 antes de Cristo. Museo Egizio, Turín.
+- **Human cannonball preparing to enter his gun.jpg** — El hombre bala antes de meterse en el cañón, 2024.
+- **In flight above scattered clouds (Unsplash).jpg** — Ala de un avión sobre un mar de nubes, 2017.
+- **Inkognito. - Flickr - simon berger.jpg** — Un cerdo dormido, con la cerda del lomo y del cuello a la vista. Fotografía de Simon Berger.
+- **Into the Light (Unsplash).jpg** — Una figura caminando hacia la boca de un túnel. Fotografía de Chris B, 2017.
+- **JCSAT-14 Launch (26751237322).jpg** — Trayectoria de un lanzamiento nocturno, en larga exposición. SpaceX, 2016.
+- **Jin Porcelain Pillow 34.jpg** — Almohada de porcelana china de la dinastía Jin, entre los siglos XII y XIII. Dura, alta y fresca: levantaba la cabeza del suelo y no deshacía el peinado. Fotografía de Gary Todd.
+- **Josh Newton 2015 (Unsplash).jpg** — Dos parquímetros de moneda con la ventanilla en «tiempo agotado». Fotografía de Josh Newton, 2015.
+- **JP 日本 Japan tourism 京都 Kyoto 嵐山竹林 Arashiyama Bamboo Grove n Sagano Bamboo PathSagaogurayama Tabuchiyamacho Ukyo Ward Kyoto City June 2026 R12S 01.jpg** — El bosque de bambú de Arashiyama, en Kioto. Fotografía de JuenKoom Yee HowP.
+- **JRW 500 series Shinkansen at Okayama Station 2012-11-28.jpg** — Tren Shinkansen de la serie 500, el del morro rediseñado, en la estación de Okayama, 2012. Fotografía de Kazokuda.
+- **Kahala Beach Park Island (Unsplash).jpg** — Islote con dos palmeras en la costa de Oahu. Fotografía de Brandon Kawamura, 2017.
+- **Key in lockbox.jpg** — Una llave dentro de una caja de seguridad.
+- **Kholmogory School (Russian) - Portrait of Peter the Great - 1988.123 - Cleveland Museum of Art.jpg** — Retrato de Pedro el Grande, escuela de Kholmogory, 1770. Museo de Arte de Cleveland.
+- **Kids in woods in monochrome (Unsplash).jpg** — Dos niños caminando por el bosque. Fotografía de Annie Spratt, 2015.
+- **Kino Atlas Interier J.jpg** — La sala pequeña del cine Atlas de Praga, vacía. Fotografía de Mojmir Churavy.
+- **Klokkengieten voor het Nationaal Legermonument Grebbeberg door de firma Eijsbou…, Bestanddeelnr 905-6639.jpg** — Fundición de campanas en el taller de Eijsbouts, Asten (Países Bajos), abril de 1953. Fotografía de Harry Pot, Anefo.
+- **KV2 Tomb of Rameses IV (9794973743).jpg** — Corredor de la tumba de Ramsés IV, Valle de los Reyes.
+- **Landschap met een bevroren gracht, schaatsers en een ijsschuit, SK-A-2510.jpg** — Diversión sobre el hielo en un canal helado, pintura de Adam van Breen, 1611. Rijksmuseum.
+- **Large Kneeling Statue of Hatshepsut MET DP117949.jpg** — Gran estatua arrodillada de Hatshepsut, recompuesta a partir de los fragmentos en que la rompieron. Metropolitan Museum of Art.
+- **Laser Ranging Retro-Reflector, Apollo (NASM2020-00369).jpg** — Reflector láser de las misiones Apolo. Museo Nacional del Aire y el Espacio.
+- **Laundry in Venice (Unsplash).jpg** — Ropa tendida entre las casas de un canal de Venecia. Fotografía de Pietro Rampazzo, 2017.
+- **Leaning together in Cianorte (Unsplash).jpg** — Una pareja apoyada contra un muro de hiedra. Fotografía de João Silas, 2016.
+- **Leather armchair MET 85D ACF134R6.jpg** — Sillón de cuero, 1725-1745. Museo Metropolitano de Arte, Nueva York.
+- **Leather Craftsman (46403248732).jpg** — Un guarnicionero cosiendo a máquina en su taller. Fotografía de Dennis Sylvester Hurd, 2018.
+- **Leigh-on-Sea beach sunset (Unsplash).jpg** — El sol tocando el mar en Leigh-on-Sea. Fotografía de Joshua Fuller, 2017.
+- **LIGHTHOUSE between Milkyway (Unsplash).jpg** — Un faro encendido bajo la Vía Láctea. Fotografía de Robert Wiedemann, 2016.
+- **Lioness on logs (Unsplash).jpg** — Leona joven apoyada en unos troncos, en un recinto de zoológico. Fotografía de Nick Karvounis, 2016.
+- **Lock MET cdi32-75-55v2.jpg** — Cerradura francesa de hierro forjado del siglo XV, con su llave. Metropolitan Museum of Art.
+- **Long Exposure (Unsplash).jpg** — Estelas de faros en una carretera de noche, en larga exposición. Fotografía de Namra Desai, 2016.
+- **Lower Antelope Canyon (Unsplash).jpg** — El interior del Lower Antelope Canyon, en Arizona. Fotografía de Dmitry Fisenko, 2017.
+- **Lynton (2020-09-17) 11.jpg** — Lynton, en Devon, en lo alto del acantilado al que sube el funicular.
+- **Macro of the vintage car headlight in Cancale (Unsplash).jpg** — El faro redondo de un coche antiguo, con su aro cromado. Fotografía de Erwan Hesry.
+- **Magnetite (GeoDIL number - 1390).jpg** — Otra muestra de magnetita, el mineral de hierro que atrae al hierro. Fotografía de Darla Sondrol.
+- **Maigua Ojeda 250km Atacama Crossing.jpg** — Una corredora en la travesía de 250 kilómetros del desierto de Atacama, 2025. En carreras muy largas y con calor es donde el cuerpo humano compite de verdad. Fotografía de Carmen Vallejo López.
+- **Malpighi Vinegar Museum.jpg** — Sala del museo del vinagre Malpighi, en Módena.
+- **Man on a wooden staircase (Unsplash).jpg** — Un hombre subiendo por una escalera vista desde arriba. Fotografía de Raphael Koh, 2016.
+- **Man with wrinkles and cap (Unsplash).jpg** — Retrato de un hombre mayor con sombrero. Fotografía de Kahar Saidyhalam, 2016.
+- **Manchester Airport Skylink (37111751642).jpg** — Pasarela Skylink del aeropuerto de Mánchester, 2017.
+- **Mannequin oxford st window (Unsplash).jpg** — Un maniquí en un escaparate de Oxford Street, Londres. Fotografía de Clem Onojeghuo.
+- **Marble portrait bust of a man MET DP123861.jpg** — Busto romano de un hombre, en mármol. Metropolitan Museum of Art, Nueva York.
+- **Marble torso of a youth MET DP107604.jpg** — Torso de mármol de un joven, copia romana de un original griego. Metropolitan Museum of Art, Nueva York.
+- **Matchstick in the Dark (Unsplash).jpg** — Una fila de cerillas ardiendo a la vez. Fotografía de Jamie Street.
+- **MET DP121467.jpg** — Guerrero a caballo con el arco y la aljaba, estampa de Utagawa Hiroshige, hacia 1835. Metropolitan Museum of Art.
+- **MieleKraftmaschineH1a.jpg** — Lavadora Miele de bombo de madera con motor eléctrico acoplado, uno de los primeros modelos. Fotografía de Christoph Rieder, 2022.
+- **MieleKraftmaschineH3a.jpg** — Detalle del mecanismo: piñones, correa y motor, todo a la intemperie. Fotografía de Christoph Rieder, 2022.
+- **MieleKraftmaschineH6a.jpg** — La misma máquina vista por el otro costado, con el bombo y el bastidor de fundición. Fotografía de Christoph Rieder, 2022.
+- **Ming Porcelain Vases.jpg** — Porcelana china de la dinastía Ming. Fotografía de Gary Todd.
+- **Ming Porcelain, Yongle Reign 18.jpg** — Pieza de porcelana del reinado Yongle, dinastía Ming. Fotografía de Gary Todd.
+- **Mix of paints (Unsplash).jpg** — Paleta con pintura recién puesta. Fotografía de Mike Petrucci, 2016.
+- **Moon on an inky cludy sky (Unsplash).jpg** — La luna llena entre nubes, de noche. Fotografía de Gabriel Santiago, 2014.
+- **Mulberry leaves and silkworms.jpg** — Gusanos de seda alimentándose de hojas de morera. Es la vía por la que hoy se intenta producir seda de araña.
+- **Museu Maritim (23846721075).jpg** — El Ictíneo I visto de frente: dos cascos, uno interior esférico para la presión y otro exterior con la forma. Museu Marítim de Barcelona. Fotografía de z0rc, 2015.
+- **Neoclassical furnishing fabric detail, Les quatres parties du monde, Lyon France, c. 1785, silk lampas - Patricia Harris Gallery of Textiles & Costume, Royal Ontario Museum - DSC09411.JPG** — Otro detalle de la misma seda de Lyon, hacia 1785.
+- **Neoclassical furnishing fabric detail, Les quatres parties du monde, Lyon France, c. 1785, silk lampas - Patricia Harris Gallery of Textiles & Costume, Royal Ontario Museum - DSC09412.JPG** — Seda de Lyon, hacia 1785. Museo Real de Ontario, Toronto.
+- **Nuts and Fruit (Unsplash).jpg** — Cuenco de almendras con higos abiertos, sobre fondo oscuro. Fotografía de Roberta Sorge, 2016.
+- **Ocean waves rippling (Unsplash).jpg** — Rizos de agua en la superficie del mar al atardecer. Fotografía de Tim Marshall, 2017.
+- **Old cash register in Serbia.jpg** — Registradora antigua todavía en uso en un comercio de Serbia.
+- **Old mooring steel wire rope.jpg** — Cable de acero de amarre de seis centímetros de grueso, con los cordones bien visibles.
+- **Old pocket watch (Unsplash UIUgYu9bENU).jpg** — Un reloj de bolsillo antiguo colgando de su cadena. Fotografía de Rodion Kutsaev, 2016.
+- **Orpiment with arsenic (GeoDIL number - 1232).jpg** — Oropimente con arsénico nativo. Colección GeoDIL. Fotografía de Nessa Eull.
+- **Oudere man schilt de schors van een kurkeik, Bestanddeelnr 254-0672.jpg** — Un descorchador abriendo la corteza a golpes de hacha en Llagostera, Gerona. Fotografía de Willem van de Poll, Nationaal Archief.
+- **Out to Dry (Unsplash).jpg** — Pinzas de madera en la cuerda de tender. Fotografía de Caspar Rubin, 2015.
+- **Palace of Nations - flags.JPG** — La avenida de banderas del Palacio de las Naciones, en Ginebra. Fotografía de Benoît Prieur.
+- **Palace of Nations Geneva 20102014 02.jpg** — Palacio de las Naciones de Ginebra, sede de la organización internacional que emitió el documento.
+- **Parchment Document and Seal of Philip of Alsace, Count of Flanders (1168–91) and of Vermondois (1155–91) MET 54698.jpg** — El sello de cera colgado de un documento de 1176 del conde de Flandes. Metropolitan Museum of Art.
+- **Path into the snowy forest (Unsplash).jpg** — Camino nevado entrando en un bosque. Fotografía de Artem Kulikov, 2017.
+- **Patrick Hendry - Yoga Fog (Unsplash).jpg** — Silueta de una persona en postura de yoga entre la niebla. Fotografía de Patrick Hendry, 2015.
+- **Perfume Organ.jpg** — El órgano de un perfumista: cada frasco, una materia prima. Fotografía de Mx. Granger, 2024.
+- **Personal cutlery set emperor Francis II (I) Silberkammer catalog 6 Hofburg Vienna.jpg** — Cubiertos personales del emperador Francisco II, Silberkammer del Hofburg, Viena. Fotografía de Jebulon, 2012.
+- **Personnal Cutlery Maria Theresia Vienna 1.jpg** — Cubiertos personales de viaje de María Teresa de Austria, en su estuche. Silberkammer del Hofburg, Viena.
+- **Picked lock.jpg** — Cerradura de bombillo abierta con ganzúa, con el cilindro girado sin llave.
+- **Planted Nano Aquarium.JPG** — Un acuario pequeño recién plantado, con la grava a la vista. Fotografía de Tdwittt.
+- **Plants in beakers (Unsplash).jpg** — Plantas creciendo en matraces de un laboratorio. Fotografía de chuttersnap, 2016.
+- **POP House Meditaiton Center Thailand, Khlong Luang , Thailand (Unsplash).jpg** — Meditación sentada junto a un estanque, en Khlong Luang (Tailandia). Fotografía de 2017.
+- **Portrait of a Young Woman with a Fan MET DP121328.jpg** — «Retrato de una joven con abanico», óleo de Rembrandt, 1633. Metropolitan Museum of Art, Nueva York.
+- **Portrait of Benjamin Franklin MET DP862840.jpg** — Grabado de Benjamin Franklin a partir del retrato de Duplessis. Museo Metropolitano de Arte.
+- **Portrait of elderly woman (Unsplash).jpg** — Retrato de una mujer mayor en el umbral de su casa. Fotografía de Christian Gertenbach, 2016.
+- **Preparing and slicing carrots.jpg** — Zanahorias peladas pasando por una picadora de manivela.
+- **Purple lavender field (Unsplash).jpg** — Campo de lavanda en flor. Fotografía de Francis Cheung.
+- **Queensland Rail Station Key 1940s.jpg** — Llave de estación de los ferrocarriles de Queensland, de los años cuarenta. Fotografía de John Robert McPherson.
+- **Radiant sunflowers (Unsplash).jpg** — Girasoles abiertos al sol. Fotografía de Ryan Waxberg, 2016.
+- **Raindrops on windshield in Kent, Washington.jpg** — Gotas de lluvia sobre el parabrisas de un coche parado, en Kent, Washington. Fotografía de Roc0ast3r.
+- **Reading room of the Bibliothèque Sainte-Geneviève in 2016.jpg** — Sala de lectura de la Biblioteca Sainte-Geneviève, en París. Fotografía de John Towner, 2016.
+- **Recycled thread made from old jeans, on display in Hikarie.jpg** — Hilo reciclado hecho con vaqueros viejos, en una exposición en Tokio. Fotografía de Syced.
+- **Reinforced concrete rusted rebars german bunkers Pointe du Hoc.jpg** — Búnker de la Punta del Hoc, en Normandía, con el acero interior oxidado y el hormigón reventado.
+- **Remington No. 1 typewriter, made by Remington & Songs, Ilion, NY, 1873-1878, the first Sholes & Glidden model typewriter made by Remington - Wisconsin Historical Museum - DSC02806.JPG** — Una Remington número 1, fabricada entre 1873 y 1878. Wisconsin Historical Museum. Fotografía de Daderot.
+- **Retro lightbulb (Unsplash).jpg** — Bombilla de filamento encendida. Fotografía de Armando Ascorve Morales, 2016.
+- **Rock Climbing in Winter (Unsplash).jpg** — Escaladores en una pared de granito con nieve. Fotografía de Mathieu Daix, 2015.
+- **Roof slates Eiktunet.jpg** — Tejado de lajas de pizarra solapadas, fotografiado de cerca con la luz baja de la tarde.
+- **Rusty fender car junkyard (Unsplash).jpg** — Aleta oxidada de un coche en un desguace, 2016.
+- **Sailboats On The Horizon (Unsplash).jpg** — Veleros en el horizonte de un lago. Fotografía de Mykola Hlibovych, 2016.
+- **Salad Bowl (Unsplash).jpg** — Plato de ensalada servido en una mesa. Fotografía de Henrique Félix, 2016.
+- **Schiaparelli's excavations - Theban region, Deir el-Medina, Excavations at the village, temple and chapels, 1906-1909, photo 8 of 38 - Archivio fotografico Museo Egizio, Turin C02039.jpg** — Las excavaciones del poblado de Deir el-Medina, donde vivían los obreros. Archivo fotográfico del Museo Egipcio de Turín.
+- **Schönheide im Erzgebirge Martin-Luther-Kirche Glocke von 1774.jpg** — Campana de 1774 colgada en el campanario de madera de la iglesia de Schönheide, Sajonia. Fotografía de Klaaschwotzer.
+- **Scientist with a Petri dish (Unsplash).jpg** — Manos enguantadas abriendo una placa de Petri en el laboratorio. Fotografía de Drew Hays, 2017.
+- **Seashore on a winter's day (Unsplash).jpg** — Orilla helada en un día de invierno. Fotografía de Jon Flobrant, 2015.
+- **Shooting a man out of a cannon.jpg** — Número del hombre bala bajo la carpa, 2024.
+- **Sign here (Unsplash).jpg** — Un bolígrafo apoyado sobre unos papeles pendientes de firma.
+- **Silky red petals in close-up (Unsplash).jpg** — Pétalos de una rosa roja vistos de cerca. Fotografía de chuttersnap, 2016.
+- **Silver denarius of Octavian MET sf0817088r.jpg** — Denario de plata de Octaviano. Metropolitan Museum of Art, Nueva York.
+- **Sinosauropteryx prima, feathered dinosaur plate, Early Cretaceous, Yixian Formation, Liaoning, China - Houston Museum of Natural Science - DSC01872.JPG** — Sinosauropteryx, del yacimiento de Liaoning, en China: el primer dinosaurio que se encontró con plumas. Fotografía de Daderot.
+- **Snow goggles MET DP-15396-001.jpg** — Gafas de nieve talladas en marfil entre los años 800 y 1200, con dos ranuras estrechas en vez de cristales. Museo Metropolitano de Arte, Nueva York.
+- **Snow goggles, Alaska Eskimo, 1883 - Ethnological Museum, Berlin - DSC01065.JPG** — Tres pares de gafas de nieve de Alaska, recogidos en 1883: cada pueblo les daba su forma y las hacía del material que tenía. Museo Etnológico de Berlín. Fotografía de Daderot, 2014.
+- **Snow on the turf roof (Unsplash).jpg** — Nieve sobre el tejado de hierba de una casa islandesa tradicional.
+- **Spacing of rails in South Australian Railways triple gauge track (L-R 1067, 1435 and 1600 mm).jpg** — Tres anchos de vía compartiendo traviesa, en Australia del Sur. Fotografía de SCHolar44.
+- **Spiral staircase (Unsplash).jpg** — Escalera de caracol vista desde arriba. Fotografía de chuttersnap, 2016.
+- **Splattered paint on wall (Unsplash).jpg** — Pared de un taller manchada por años de pintura. Fotografía de Patrick Tomasso, 2017.
+- **Spray cans 2.jpg** — Botes de aerosol, de los que llevaban los gases que abrieron el agujero.
+- **Steel frame building under construction in Taiwan.jpg** — Estructura de acero de un edificio en obras, Taiwán, 2024.
+- **Steel wire rope on a drum.jpg** — Cable de acero enrollado en el tambor de un cabrestante de remolcador.
+- **Study of a Dog MET DT9830.jpg** — Estudio de un perro, dibujo de Edwin Landseer. Metropolitan Museum of Art.
+- **Subway Train Arrives At Metro Station in Motion (Unsplash).jpg** — Un tren entrando en la estación, en larga exposición. Fotografía de JESHOOTS.COM, 2017.
+- **Sunset over the Seine River in 2016.jpg** — El Sena a la altura de la Conciergerie, en París, al atardecer. Fotografía de Bruno Abatti, 2016.
+- **Super Associated East Harlem 1968 2nd Av 101 St jeh.jpg** — Pasillo de verduras de un supermercado de East Harlem, Nueva York. Fotografía de Jim Henderson.
+- **Surfer under a wave (Unsplash).jpg** — Un surfista dentro del tubo de una ola. Fotografía de Jeremy Bishop, 2016.
+- **Suzuki Swift 2011 - Multilanguage Airbag Label.jpg** — La etiqueta que llevan hoy todos los coches, en seis idiomas: nunca una silla infantil de espaldas delante de un airbag activo. Fotografía de StomboyCarGeek, 2021.
+- **Swim (Unsplash).jpg** — Medusas nadando en el acuario S.E.A. de Singapur. Fotografía de Han-Hsing Tu, 2017.
+- **Switzerland winter forest road (Unsplash).jpg** — Carretera despejada entre la escarcha, Estavayer-le-Lac, Suiza, 2017.
+- **Sword and Scabbard MET DT107.jpg** — Espada con su vaina, Metropolitan Museum of Art, Nueva York. Se llevaba al costado izquierdo para desenvainar con la derecha.
+- **Sydney Town Hall clock tower. (21090328131).jpg** — El reloj del ayuntamiento de Sídney, instalado en 1884, entre los rascacielos que llegaron después. Fotografía de Bernard Spragg, 2015.
+- **Taipei, architecture - Taipei1015097.jpg** — Fachada de un edificio alto de Taipéi, 2025.
+- **Tea Leaves. Also known as "Camellia Sinensis".jpg** — Hojas de Camellia sinensis, el arbusto del que salen todos los tés. Fotografía de Vicky Omondi.
+- **Technics SL-1200MK5 Direct Drive Turntable System with Ortofon cartridge (2017-01-21 22.33.27 piqsels.com en).jpg** — Un plato Technics SL-1200 con la cápsula apoyada en el disco.
+- **Terracotta clay tile (Unsplash).jpg** — Tejado de teja árabe visto de cerca. Fotografía de Dan Gold, 2016.
+- **Theban region, Valley of the Kings, 19th century pictures, F. Bonfils, photo 1 of 8 - Archivio fotografico Museo Egizio, Turin INV05 003.jpg** — El camino que lleva al Valle de los Reyes, fotografiado por Félix Bonfils en el siglo XIX. Museo Egizio, Turín.
+- **Thermos flask, Model 3750, designed by Raymond Loewy, American Thermos Bottle Corporation, 1937, chrome-plated brass, aluminum, bakelite - Museum für Angewandte Kunst Köln - Cologne, Germany - DSC09512.jpg** — Termo modelo 3750 diseñado por Raymond Loewy en 1937, en latón cromado y baquelita. Museo de Artes Aplicadas de Colonia.
+- **Thonet MAK Vienna 2020 05.jpg** — Sala del Museo de Artes Aplicadas de Viena dedicada a la silla de serie. Fotografía de Gryffindor.
+- **Three friends by train tracks (Unsplash).jpg** — Tres amigas riéndose junto a unas vías. Fotografía de Priscilla Du Preez, 2017.
+- **Three Persons Viewing the Gladiator by Candlelight Met DP-18854-001.jpg** — Tres personas contemplando una estatua a la luz de una vela, grabado de William Pether, 1769. Metropolitan Museum of Art.
+- **Tollhouse US30 Frankco.JPG** — Casa de peaje de piedra junto a la antigua carretera, Pensilvania.
+- **Tomatoes.jpg** — Tomates maduros amontonados en un puesto. Fotografía de Wilfredor.
+- **Twisting path in an autumn forest (Unsplash).jpg** — Un sendero que serpentea por un bosque en otoño. Fotografía de Josephine Wentholt, 2015.
+- **Uncut Strip of 50 Euro Banknotes.jpg** — Tira de billetes de cincuenta euros sin cortar, 2022.
+- **Unfathomed Beauty (Unsplash).jpg** — Un paisaje visto —del revés— a través de una esfera de cristal. Fotografía de Elijah Hiett, 2017.
+- **USSR Sputnik I, 1957, 1st Man-made Satellite (Replica) (10437199454).jpg** — Réplica del Sputnik 1, el satélite lanzado un mes antes. Fotografía de Gary Todd.
+- **Vandenberg Air Force Base, United States (Unsplash qjgdslbEn-I).jpg** — Despegue de un cohete en la base de Vandenberg, California. Fotografía de Tim Mossholder, 2017.
+- **Värmebölja i Gävle 1947 - XLM.CL014444-3.jpg** — Un niño se refresca en una fuente pública durante una ola de calor, Gävle, 1947. Länsmuseet Gävleborg.
+- **Vattenfall Wind Power.jpg** — Aerogenerador marino instalado en el parque de Ormonde, mar de Irlanda, 2011. Fotografía de Davagh.
+- **Velo Ovelha Serra da Estrela.jpg** — Vellón entero de una oveja recién esquilada, en la Serra da Estrela.
+- **Vintage camera (Unsplash).jpg** — Cámara de cine de bobinas sobre un estante. Fotografía de Ethan Robertson, 2016.
+- **Vintage camera 1 (Unsplash).jpg** — Cámara de fotos antigua sobre una mesa de madera. Fotografía de Pacto Visual, 2016.
+- **Vintage chess pieces (Unsplash).jpg** — Piezas de ajedrez de metal sobre el tablero. Fotografía de Lou Levit, 2014.
+- **Vintage Gas Pump (Unsplash).jpg** — Surtidores de gasolina antiguos. Fotografía de Evan Kirby, 2017.
+- **Vintage typewriter (Unsplash).jpg** — Máquina de escribir con una hoja puesta. Fotografía de Florian Klauer, 2014.
+- **Violet daisy in close-up (Unsplash).jpg** — Margarita violeta en primer plano. Fotografía de Boris Smokrovic.
+- **Violet pollen (Unsplash).jpg** — Flor violeta vista muy de cerca. Fotografía de Jan Tielens.
+- **Violin strings in close-up (Unsplash).jpg** — Cuerdas y efe de un violín vistas de cerca. Fotografía de Providence Doucet, 2016.
+- **Wachtende rijtuigen bij de Waterloo Bridge in Londen, RP-P-OB-25.711.jpg** — Coches de alquiler esperando junto al puente de Waterloo, en Londres. Aguafuerte de Willem Witsen, 1890. Rijksmuseum.
+- **Well-earned cash (Unsplash).jpg** — Manos contando billetes en un mercado. Fotografía de Niels Steeman, 2017.
+- **Wet road surface (Unsplash).jpg** — Asfalto mojado. El agua que se ve encima es justo la que no debe quedarse dentro.
+- **Wheelchairs for visitors at the entrance - NÄL hospital 3.jpg** — Sillas de transporte encajadas unas en otras en la entrada de un hospital sueco. Fotografía de W. Carter.
+- **Where? follow me- (Unsplash).jpg** — Una figura sola cruzando las dunas. Fotografía de Rubén Bagüés, 2017.
+- **Woman looking out bus window (Unsplash).jpg** — Una mujer mirando por la ventanilla de un autobús, con su reflejo al lado. Fotografía de 2017.
+- **WoolSheetsSouthMolton.jpg** — Sacas de vellones recién esquilados en un almacén de lana de Devon, en Inglaterra.
+- **Yap stone money 1.jpg** — Piedra rai tumbada en el suelo, en las islas Yap.
+- **Yellow road marker. (16098269242).jpg** — Captafaro amarillo clavado en el asfalto, Nueva Zelanda, 2014. Fotografía de Bernard Spragg.
+- **Yoga by the sea (Unsplash).jpg** — Postura de yoga en la orilla al amanecer. Fotografía de Kristopher Allison, 2016.
+- **Yueshan Daozong - Calligraphy in Semi-Cursive Style (xing-caoshu) - 2003.353 - Cleveland Museum of Art.tif** — Caligrafía en estilo semicursivo del monje Yueshan Daozong, siglo XVII. Cleveland Museum of Art.
+- **冨嶽三十六景 神奈川沖浪裏-Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei) MET DP141063.jpg** — La gran ola de Kanagawa, estampa de Katsushika Hokusai, hacia 1830. Metropolitan Museum of Art, Nueva York.
+
+## Public domain — 263 imágenes
+
+- **(Barcelona) Before the Ball - Francesc Masriera - Museu Nacional d'Art de Catalunya.jpg** — «Antes del baile», óleo de Francesc Masriera, 1886. Museu Nacional d'Art de Catalunya, Barcelona.
+- **(Barcelona) Santa Maria della Salute and the Dogana, Venice, at Sunset, across the Bacino - 1840 - William Turner Tate Britain.jpg** — Óleo de William Turner, 1840: la Salute y la Aduana al atardecer, vistas desde el otro lado del Bacino. Tate Britain.
+- **(Bemberg Foundation) - 'Portrait of a Young Woman in a White Hat' by Mary Cassatt (1879) Oil on canvas.jpg** — Retrato de una joven con sombrero blanco, óleo de Mary Cassatt, 1879. Fundación Bemberg, Toulouse.
+- **230515-N-NQ285-1422 - USS Porter Participates in Formidable Shield 2023.jpg** — Banderas de señales izadas en la driza de un destructor en el Atlántico Norte, 2023. Armada de Estados Unidos.
+- **A Dutch Merchantman Attacked by an English Privateer, off La Rochelle RMG BHC0723.tiff** — Óleo de Cornelis Claesz van Wieringen, 1616: un mercante holandés atacado por un corsario inglés frente a La Rochelle.
+- **A scene in a steel mill, Republic Steel, Youngstown, Ohio. Molten iron is blown in an Eastern Bessemer converter to change it to steel for war essentials LCCN2017878216.tif** — Otra toma del mismo convertidor en plena colada, 1941. Fotografía de Alfred T. Palmer, Biblioteca del Congreso.
+- **A scene in a steel mill, Republic Steel, Youngstown, Ohio.jpg** — Convertidor Bessemer soplando en la acería de Republic Steel, Youngstown (Ohio), noviembre de 1941. Fotografía de Alfred T. Palmer.
+- **A wing tip of an airplane (40118125441).jpg** — Punta del ala de un avión en vuelo. Departamento de Agricultura de Estados Unidos.
+- **Adriaen van Utrecht - Vanitas Still-Life with a Bouquet, a Skull and Precious Objects.jpg** — Óleo de Adriaen van Utrecht, 1643.
+- **Agar plates.jpg** — Siembra de bacterias en una placa de agar. Fotografía de Bill Branson, Institutos Nacionales de Salud.
+- **Aladdin Shrine Circus performance - DPLA - 2500be2a09410f23453d5893da59061e.jpg** — Función del Aladdin Shrine Circus en el coliseo de la feria de Ohio, 1979. Fotografía de David E. Lucas.
+- **Albert Bierstadt - A Storm in the Rocky Mountains, Mt. Rosalie - Google Art Project.jpg** — Óleo de Albert Bierstadt, 1866: tormenta sobre las Montañas Rocosas, el terreno que había que cruzar. Brooklyn Museum.
+- **Albert Bierstadt - The Rocky Mountains, Lander's Peak.jpg** — Óleo de Albert Bierstadt, 1863: el pico Lander, en las Rocosas, con un campamento al pie.
+- **Alfred Nobel (Bain).png** — Otro retrato de Alfred Nobel por Gösta Florman.
+- **AlfredNobel adjusted.jpg** — Retrato de Alfred Nobel. Fotografía de Gösta Florman, antes de 1896.
+- **Altamira, bison, museum 02.JPG** — Otro bisonte de la reproducción del techo de Altamira, museo Anthropos de Brno.
+- **Altamira, bison, museum 03.JPG** — Detalle de la reproducción del techo de Altamira en el museo Anthropos de Brno.
+- **Altamira, bison, museum.JPG** — Bisonte del facsímil del techo de Altamira, en el museo Anthropos de Brno.
+- **Amundsen-Scott marsstation ray h edit.jpg** — Estación Amundsen-Scott, en el polo sur, donde se hicieron las primeras medidas del agujero.
+- **Andries van Eertvelt - The Return to Amsterdam of the Second Expedition to the East Indies on 19th July 1599.jpg** — «El regreso a Ámsterdam de la segunda expedición a las Indias Orientales», óleo de Andries van Eertvelt, siglo XVII.
+- **Apollo 10 earthrise.jpg** — Salida de la Tierra vista desde el Apolo 10, en mayo de 1969. NASA.
+- **Apollo 11 Saturn V builds thrust prior to liftoff (48293732417).jpg** — El Saturno V del Apolo 11 tomando empuje antes de despegar, 1969.
+- **Apollo 15 descends to splashdown.jpg** — La cápsula del Apolo 15 bajando al Pacífico bajo sus paracaídas, 7 de agosto de 1971. Fotografía de la NASA.
+- **Apollo 16 Saturn V launch.jpg** — Lanzamiento del Apolo 16, 1972.
+- **Armor and hand warmer display - The Ann and Gabriel Barbier-Mueller Museum - DSC05626.jpg** — Armadura y calientamanos expuestos en el museo Barbier-Mueller de Dallas. Fotografía de Daderot.
+- **AS11-40-5877 - Apollo 11 - Apollo 11 Mission image - Astronaut bootprint on the lunar surface - NARA - 16685058.jpg** — La huella de una bota en el polvo de la Luna, fotografiada durante la misión Apolo 11 en julio de 1969. NASA.
+- **Atlantic City Convention Hall, On Boardwalk, West of Mississippi Avenue, Atlantic City (Atlantic County, New Jersey).jpg** — El paseo marítimo de Atlantic City, cuyas calles dieron nombre a las casillas del juego. Fotografía de Jack Boucher, 1992.
+- **Atlantic City Convention Hall, On Boardwalk, West of Mississippi Avenue, Atlantic City, Atlantic County, NJ HABS NJ,1-ATCI,18-11.tif** — Otra vista del mismo edificio en el paseo de Atlantic City. Historic American Buildings Survey.
+- **Automated teller machine.JPG** — Cajero automático en una calle de Dezful, en el suroeste de Irán.
+- **BAGGAGE AT ALBUQUERQUE, NEW MEXICO, WAITING TO BE LOADED ON THE SOUTHWEST LIMITED ENROUTE FROM LOS ANGELES... - NARA - 555989.jpg** — Equipaje esperando a ser cargado en Albuquerque, Nuevo México, en 1974. Archivos Nacionales de Estados Unidos.
+- **Bathyscaphe Trieste with USS Lewis (DE-535) over the Marianas Trench on 23 January 1960 (USN 710619).jpg** — El Trieste junto al USS Lewis sobre la fosa de las Marianas, enero de 1960.
+- **Bathyscaphe Trieste with USS Lewis (DE-535) over the Marianas Trench, 23 January 1960 (NH 96797).jpg** — Otra vista del Trieste antes de la inmersión del 23 de enero de 1960.
+- **Bathyscaphe Trieste.jpg** — El batiscafo Trieste izado antes de una inmersión.
+- **Benjamin Franklin by Joseph Duplessis 1778.jpg** — Óleo de Joseph-Siffred Duplessis con Benjamin Franklin, hacia 1785.
+- **Blood transfusion Wellcome L0024143.jpg** — Material de transfusión de sangre del ejército británico, entre 1939 y 1945. Wellcome Collection.
+- **Bolt - Metropolitan Railway 1863 - Restored 1983.jpg** — Detalle de la estación de Baker Street, Londres.
+- **Bridge of the Americas (El Paso–Ciudad Juárez), June 2016.jpg** — El puente de las Américas, entre El Paso y Ciudad Juárez, en 2016.
+- **Building a Skyscraper, Placing Steel Beams, Metropolitan Tower, New York City (NYPL b11708059-G91F204 026F).tiff** — Colocación de vigas de acero en la Metropolitan Tower de Nueva York, principios del siglo XX. New York Public Library.
+- **Bust of Peter the Great by Marie-Anne Collot 1770.JPG** — Busto de Pedro el Grande por Marie-Anne Collot, hacia 1770.
+- **Buzz Aldrin by Neil Armstrong.jpg** — Buzz Aldrin fotografiado por Neil Armstrong en el mar de la Tranquilidad, julio de 1969. NASA.
+- **Camouflage - Experiments - Dazzle painting or camouflage for ships. Room full of models of camouflaged in different colors to make them hard to see by the Uboats. From these models the big ships were painted - NARA - 20808956.jpg** — Sala llena de maquetas con distintos esquemas de camuflaje, de donde salían los que se pintaban en los barcos de verdad.
+- **Camouflage - Ships - Dazzle Painting or Flag for Ships. Models of two ships on same line of direction one plan and the other dazzled. This method of camouflage was used on battleships and transports to deceive U-(...) - NARA - 20809062.jpg** — Dos maquetas puestas en la misma dirección, una lisa y otra con el camuflaje pintado, para comparar a simple vista.
+- **Candlelight Master Young Boy Singing.jpg** — «Joven cantando», del llamado Maestro de la Vela, hacia 1650.
+- **Card puncher - NARA - 513295.jpg** — Perforadora de tarjetas del sistema de tabulación de la oficina del censo, hacia 1940. Archivos Nacionales de Estados Unidos.
+- **Carl Hagenbeck's Tierpark, Stellingen-Hamburg, Nordland-Panorama.jpg** — Panorama del Nordland en el parque de Carl Hagenbeck, Stellingen (Hamburgo). Postal coloreada a mano anterior a 1910.
+- **Carl Holsøe - Interiør med læsende kvinde ved vinduet.png** — Interior con mujer leyendo junto a la ventana, óleo de Carl Holsøe.
+- **Carpathia - Titanic lifeboats.jpg** — Botes salvavidas del Titanic recogidos junto al Carpathia, 18 de abril de 1912.
+- **Carpathia Deck.jpg** — Cubierta del Carpathia con los supervivientes recogidos del Titanic, abril de 1912.
+- **Carrots of many colors.jpg** — Zanahorias de distintos colores obtenidas por selección en un centro de investigación agraria.
+- **Charles III of Spain high resolution.jpg** — Retrato de Carlos III, que en 1770 declaró aquella marcha militar «marcha de honor».
+- **City Lights of Asia and Middle East 2016.png** — Las luces de las ciudades de Asia vistas de noche desde satélite. NASA Earth Observatory, 2016.
+- **Closing of the Jerome Relocation Center, Denson, Arkansas. View in the projection booth of the cent . . . - NARA - 539790.jpg** — Cabina de proyección de un cine, con los proyectores de bobina. Archivos Nacionales de Estados Unidos.
+- **Community house of Yorlap (Yap Islands) with stone money made in Palau NOAA.jpg** — Casa comunal de Yorlap, en Yap, con las piedras traídas en canoa desde Palaos, en 1971.
+- **Constructing the Metropolitan Railway.jpg** — Grabado de Percy William Justyne con las obras del Metropolitan Railway junto a King's Cross, 1861.
+- **Coosa Valley, Alabama. Warehousing cotton (Talladega) - NARA - 522571.jpg** — Almacén de balas de algodón en Talladega, Alabama, en mayo de 1941. Fotografía de Irving Rusinow.
+- **Cornelis Norbertus Gijsbrechts - Vanitas still life with a skull, sheet music, violin, globe, candle, hourglass and playing cards, all on a draped table.jpg** — Óleo de Cornelis Norbertus Gijsbrechts, 1662.
+- **Cotton gin EWM 2007.jpg** — Una desmotadora de algodón conservada en el museo Eli Whitney, con el cilindro de ganchos, el cepillo y la fibra ya separada. Fotografía de Tom Murphy VII.
+- **Cotton harvester at sunset with dark orange sky in Batesville, Texas cotton field.jpg** — Una cosechadora de algodón al atardecer en un campo de Batesville, Texas.
+- **Dama z gronostajem.jpg** — La dama del armiño, óleo de Leonardo da Vinci, hacia 1490. Museo Nacional de Cracovia.
+- **Das Eismeer (Caspar David Friedrich)-WUS03283.jpg** — «El mar de hielo», óleo de Caspar David Friedrich, 1823-1824.
+- **David - The Death of Socrates.jpg** — La muerte de Sócrates, óleo de Jacques-Louis David, 1787. Metropolitan Museum of Art, Nueva York.
+- **Dazzle-ships in Drydock at Liverpool.jpg** — Óleo de Edward Wadsworth, 1919: barcos con camuflaje deslumbrante en el dique seco de Liverpool.
+- **Dennis 2005-07-07 1550Z.jpg** — El huracán Dennis visto por satélite, 2005.
+- **Dewey spider webs early morning scenery.jpg** — Telarañas cargadas de rocío al amanecer: el agua está en todas partes, aunque no se vea.
+- **Directors of Global Smallpox Eradication Program.jpg** — Tres directores sucesivos del programa mundial de erradicación leyendo la noticia de que la viruela había sido eliminada, 1980. Fotografía de los CDC.
+- **Dizengoff St looking north 1930s.jpg** — La calle Dizengoff de Tel Aviv en los años treinta, con los rótulos ya en hebreo.
+- **DNA Helix CPK.jpg** — Modelo atómico de la doble hélice del ADN.
+- **Don Quijote Illustration by Gustave Dore VII.jpg** — Grabado de Gustave Doré y Héliodore Pisan para el Quijote, 1863.
+- **Donner model 3400 Analog Computer.jpg** — Ordenador analógico Donner 3400, de los que resolvían ecuaciones con resistencias y condensadores.
+- **Draper-Ulysses and Sirens.jpg** — «Ulises y las sirenas», óleo de Herbert James Draper, 1909.
+- **DUMP TRUCKS, EARTHMOVERS AND SEAGULLS AT THE CROTON LANDFILL OPERATION - NARA - 549953.jpg** — Camiones y máquinas trabajando en el vertedero de Croton, en agosto de 1973. Fotografía de Wil Blanche.
+- **Dust storm approaching Stratford, Texas.jpg** — Tormenta de polvo acercándose a Stratford, en Texas, en 1935.
+- **Dust Storm, "Dust Storm Approaching Spearman, Texas." - NARA - 196033.tif** — Tormenta de polvo acercándose a Spearman, Texas, abril de 1935.
+- **Dust Storms, "Dust Storm Near Beaver, Oklahoma" - NARA - 195354.tif** — Tormenta de polvo cerca de Beaver, Oklahoma, julio de 1935.
+- **Dutch Ships loading Timber in a Northern Port RMG BHC0750.tiff** — «Barcos cargando en un puerto del norte», óleo de Andries van Eertvelt, 1610. Royal Museums Greenwich.
+- **Earth, Moon and Lunar Module, AS11-44-6643.jpg** — La Tierra, la Luna y el módulo lunar en la misma imagen, Apolo 11. NASA.
+- **Earthrise from Apollo 11 (48329893437).jpg** — La Tierra asomando sobre el horizonte lunar, fotografiada desde el Apolo 11 en 1969. NASA.
+- **Edouard Manet - Woman with a Fan - Google Art Project.jpg** — «Mujer con abanico», óleo de Édouard Manet, 1862.
+- **Edward Burne-Jones - The Adoration of the Magi - Google Art Project.jpg** — «La adoración de los Magos», tapiz diseñado por Edward Burne-Jones, 1904.
+- **Edward Burne-Jones - The fight- St George kills the dragon VI - Google Art Project.jpg** — San Jorge mata al dragón, óleo de Edward Burne-Jones, 1866.
+- **Een schip in volle zee bij vliegende storm, bekend als ‘De windstoot’ Rijksmuseum SK-A-1848.jpeg** — «La ráfaga», óleo de Willem van de Velde el Joven, hacia 1680. Rijksmuseum, Ámsterdam.
+- **Egypt. Suez Canal. Ship passing thro(ough) Canal LOC matpc.22381.jpg** — Barco pasando por el canal de Suez, entre 1934 y 1939.
+- **Egypt’s Mediterranean Coast (154431).jpg** — La costa mediterránea de Egipto, con Alejandría, fotografiada desde la Estación Espacial en 2023. NASA.
+- **Engineers inspecting the Hubble Space Telescope's Primary Mirror 8109563.jpg** — Ingenieros revisando el espejo principal del telescopio espacial Hubble antes del pulido. Fotografía de la NASA.
+- **Equi's Store, Holyoke, Massachusetts circa 1910.jpg** — Mostrador de refrescos de una tienda de Holyoke, Massachusetts, hacia 1910, con la barra de mármol italiano.
+- **Eugène Delacroix - Le 28 Juillet. La Liberté guidant le peuple.jpg** — «La Libertad guiando al pueblo», óleo de Eugène Delacroix, 1830. Museo del Louvre, París.
+- **February -conservationlands15 Social Media Takeover- Top 15 Places on National Conservation Lands for Night Sky Viewing (16358792937).jpg** — La Vía Láctea sobre las copas de los pinos. Bureau of Land Management.
+- **Ferdinand Georg Waldmüller 006.jpg** — Óleo de Ferdinand Georg Waldmüller, 1835: la familia del notario Josef August Eltz al completo, delante de su pueblo.
+- **First Computer Bug, 1947.jpg** — La página del cuaderno del Mark II con la polilla pegada con cinta, 9 de septiembre de 1947. Naval Surface Warfare Center.
+- **Five men cut large blocks of ice from frozen lake - NARA - 285481.jpg** — Cinco hombres cortando bloques de hielo en un lago helado, hacia 1935. Archivos Nacionales de Estados Unidos.
+- **Flea Scanning Electron Micrograph False Color.jpg** — Pulga al microscopio electrónico, coloreada para distinguir las estructuras. Fotografía de Janice Haney Carr para los CDC.
+- **Franz von Lenbach - Bildnis Otto Eduard Leopold von Bismarck (Indianapolis).jpg** — Retrato de Otto von Bismarck, óleo de Franz von Lenbach. Indianapolis Museum of Art.
+- **Franz von Lenbach - Bildnis Otto von Bismarck (1870).jpg** — Bismarck retratado por Lenbach hacia 1870, casi veinte años antes de la ley del seguro de vejez.
+- **Geiger counter usage.jpg** — Medición de radiación con un contador Geiger-Müller en un laboratorio estadounidense, 1963.
+- **George Stubbs 004.jpg** — Caballos pintados por George Stubbs, 1770.
+- **Georges de La Tour 035.jpg** — «Los jugadores de dados», óleo de Georges de La Tour, 1650-1651.
+- **Georges de La Tour L'Argent verse Musée des beaux-arts de Lviv.jpg** — «El pago del dinero», óleo de Georges de La Tour, entre 1630 y 1635. Museo de Bellas Artes de Leópolis.
+- **GER-116-Reichsbanknote-10 Billion Mark (1923).jpg** — Billete alemán de diez mil millones de marcos, emitido en Berlín en septiembre de 1923.
+- **Gerhard Munthe - Pigs in Moonlight - NG.M.01304 - National Museum of Art, Architecture and Design.jpg** — Cerdos a la luz de la luna, óleo de Gerhard Munthe, 1880.
+- **Grace Hopper.tiff** — Retrato oficial de la comodoro Grace M. Hopper, 1984, que trabajaba en aquel equipo del Mark II.
+- **Grand entree LCCN2003655655.jpg** — «Grand entree», litografía en color de Gibson & Co. Biblioteca del Congreso, Washington.
+- **Guercino - A vanitas still life with a skull atop a book, an hourglass and two glass vases of flowers.jpg** — Óleo de Guercino, hacia 1619.
+- **Harvey One-Room School.jpg** — Escuela rural de un aula construida en 1876 en el condado de Crawford, Ohio.
+- **HMS ESKIMO patrolling the landing area during the Allied invasion of Sicily, July 1943. A18092.jpg** — El destructor HMS Eskimo patrullando la zona de desembarco en Sicilia, julio de 1943.
+- **Horse-drawn wagons hauling grain to depot, ca.1920 (CHS-1419).jpg** — Carros de grano tirados por varias parejas de caballos, hacia 1920. Fotografía de C. C. Pierce.
+- **Hubble First Servicing EVA - GPN-2000-001085.jpg** — Primer paseo espacial de la misión de reparación del Hubble, 9 de diciembre de 1993. Fotografía de la NASA.
+- **Hubble mirror polishing.jpg** — Pulido del espejo principal del Hubble, 1979. NASA Marshall Space Flight Center.
+- **Hunley 001.jpg** — Arqueólogos trabajando dentro del casco recuperado del Hunley, Charleston, 2005.
+- **Hurricane Isabel eye from ISS (edit 1).jpg** — El ojo del huracán Isabel desde la Estación Espacial, 2003.
+- **I. E. C. Rasmussen - Seascape with warship in high seas.jpg** — «Marina con buque de guerra en mar gruesa», óleo de Carl Rasmussen, siglo XIX.
+- **Iceberg A22A, South Atlantic Ocean.jpg** — Iceberg fotografiado desde la Estación Espacial Internacional, 2007. NASA, Johnson Space Center.
+- **Industries of War - Lumber - LOGGING CAMPS IN THE OREGON FOREST. A company street in the woods. The cloudy effect in picture is not due to clouds nor smoke, but to the almost everlasting "Oregon mist" or in plain(...) - NARA - 31490027.jpg** — Bosque del noroeste de Estados Unidos entre la niebla, la zona donde se perdió el rastro. Archivos Nacionales.
+- **Initial P- Saint Paul; Initial P- A Bishop Giving a Letter to a Messenger - Google Art Project.jpg** — Inicial iluminada de un manuscrito, hacia 1280.
+- **Iron Strongbox.jpg** — Caja fuerte de hierro con cerradura, de las que guardaban el dinero en efectivo hacia 1900.
+- **ISS-43 Earth sunrise, aurora and sparling cities in northern Europe.jpg** — Amanecer orbital sobre el norte de Europa, con una aurora y las luces de las ciudades. Fotografía de la NASA.
+- **ISS-43 Sunrise from orbit.jpg** — Amanecer visto desde la órbita: el reflejo del sol en las nubes altas fue lo que engañó a los satélites. Fotografía de la NASA.
+- **ISS-52 Aurora australis above Antarctica.jpg** — Aurora austral sobre la Antártida, fotografiada desde la Estación Espacial Internacional. NASA.
+- **ISS-59 Sun's first rays peek above Earth's limb.jpg** — Los primeros rayos de sol asomando por el borde de la atmósfera, vistos desde la órbita. NASA.
+- **ISS031-E-56860 - View of Pacific Ocean.jpg** — El Pacífico visto desde la Estación Espacial Internacional. NASA.
+- **ISS041-E-90107 - View of Spain.jpg** — El sureste español fotografiado desde la Estación Espacial Internacional en 2014. NASA.
+- **ISS067-E-174541 El Paso and Juárez.jpg** — El Paso y Ciudad Juárez fotografiadas desde la Estación Espacial Internacional en 2022. NASA.
+- **Italian POWs march to waiting landing craft during the Allied invasion of Sicily, July 1943. A17913.jpg** — Prisioneros italianos caminando por la playa hacia las lanchas, en el desembarco de Sicilia.
+- **Ivan Aivazovsky Segelschiff auf hoher See bei Mondschein 1840er.jpg** — «Velero en alta mar a la luz de la luna», óleo de Iván Aivazovski, década de 1840.
+- **Jacob van Hulsdonck - Still life of lemons and pomegranate.jpg** — «Bodegón de limones y granada», óleo de Jacob van Hulsdonck, entre 1620 y 1630.
+- **Johann Heinrich Füssli - The Nightmare 55.5.A-d1-2019-04-15.jpg** — Óleo de Henry Fuseli, 1781: <em>La pesadilla</em>, la imagen con la que Occidente lleva dos siglos dibujando esto. Detroit Institute of Arts.
+- **Johannes Vermeer - Girl with a Pearl Earring - 670 - Mauritshuis.jpg** — La joven de la perla, óleo de Johannes Vermeer, hacia 1665. Mauritshuis, La Haya.
+- **John Ward of Hull - Warships on a calm sea.jpg** — «Barcos de guerra en mar en calma», óleo de John Ward de Hull, primera mitad del siglo XIX.
+- **Joseph Siffrein Duplessis - Benjamin Franklin - Google Art Project.jpg** — Otra versión del retrato de Franklin por Duplessis, hacia 1785.
+- **Julaftonen av Carl Larsson 1904.jpg** — Nochebuena, acuarela de Carl Larsson, 1904.
+- **Kramskoy Portrait of a Woman.jpg** — «Retrato de una desconocida», óleo de Iván Kramskói, 1883. Galería Tretiakov, Moscú.
+- **Kungsgatan 1967.jpg** — La calle Kungsgatan de Estocolmo la mañana del 3 de septiembre de 1967, cuando Suecia cambió de lado de la carretera.
+- **Kungsgatan 3 september 1967 Dagen H.jpg** — Otra vista del mismo día del cambio en Estocolmo, 1967. Fotografía de Jacob Forsell.
+- **Kuppel Kleine Hagia Sophia.jpg** — Cúpula de la iglesia bizantina conocida como la pequeña Santa Sofía, en Estambul.
+- **L. A. W., bicycle race, safety, the finish (NYPL b11707602-G90F395 373ZF).tiff** — Llegada de una carrera de bicicletas de seguridad, hacia 1890. Biblioteca Pública de Nueva York.
+- **La Bohémienne endormie.jpg** — La gitana dormida, óleo de Henri Rousseau, 1897. MoMA, Nueva York.
+- **Lake Creek in snow, Oregon - Flickr - Bonnie Moreland (free images).jpg** — Un arroyo helado entre pinos nevados, en Oregón. Fotografía de Bonnie Moreland, 2023.
+- **Landlords Game 1906 image courtesy of T Forsyth owner of the registered trademark 20151119.jpg** — El tablero de The Landlord's Game de 1906, con la patente de Lizzie J. Magie impresa en el centro. Imagen cedida por Thomas Forsyth.
+- **Launch of the Saturn V with Apollo 11 (48300001196).jpg** — Despegue del Saturno V del Apolo 11, 1969.
+- **Les Parapluies de Viborg.jpg** — Paraguas de colores colgados sobre una calle de Viborg, en Dinamarca, un día de lluvia.
+- **Let the sparks fly (13313009905).jpg** — Soldador trabajando con manoplas largas de cuero mientras saltan las chispas.
+- **Lewis Hine, A little spinner in the Mollahan Mills, Newberry, S.C. (LOC nclc.01451).jpg** — Niña hilandera en los Mollahan Mills de Newberry, Carolina del Sur. Fotografía de Lewis Hine para el comité contra el trabajo infantil, 1908.
+- **Lewis Hine, Knitter, Loudon, Tennessee, 1910.jpg** — Chica trabajando en una máquina de género de punto en Loudon, Tennessee. Fotografía de Lewis Hine, 1910.
+- **Lewis Hine, Spinner in Globe Cotton Mill, Augusta, Georgia, 1909.jpg** — Hilandera en la Globe Cotton Mill de Augusta, Georgia. Fotografía de Lewis Hine, 1909.
+- **Louis XIV of France in armour (by Hyacinthe Rigaud).jpg** — Retrato de Luis XIV por Hyacinthe Rigaud, 1701.
+- **Maître à la Chandelle - Le Jeune Chanteur (1650).jpg** — «El joven cantor», del Maestro de la Vela, 1650.
+- **Man Writing a Letter by Gabriël Metsu.jpg** — Óleo de Gabriel Metsu, hacia 1665: un hombre escribiendo junto a la ventana. National Gallery of Ireland, Dublín.
+- **Marcus Aurelius Capitoline Hill September 2015-1.jpg** — Estatua ecuestre de Marco Aurelio, siglo II. Plaza del Capitolio, Roma.
+- **Marie Curie in her laboratory.jpg** — Marie Curie trabajando con sus instrumentos en el laboratorio, hacia 1900.
+- **Marie et Pierre Curie.jpg** — Marie y Pierre Curie fotografiados en 1900.
+- **Martin Van Buren by George PA Healy, 1858.jpg** — Retrato de Martin Van Buren pintado por George P. A. Healy en 1858, casi veinte años después del OK Club.
+- **Meat counter in the grocery department of company owned store. Koppers Coal Division, Kopperston Mines, Kopperston... - NARA - 540928.jpg** — Mostrador de una tienda de comestibles estadounidense en los años cuarenta.
+- **Merino sheep. (52908265984).jpg** — Ovejas merinas en el campo al atardecer. Fotografía de Bernard Spragg.
+- **Messier83 - Heic1403a.jpg** — La galaxia espiral Messier 83, fotografiada por el telescopio Hubble en 2014.
+- **Metropolitan Railway parcels office.jpg** — Antigua oficina de paquetería del Metropolitan Railway en Farringdon.
+- **Mill workers in Cherryville North Carolina by Lewis Hine, 1908.jpg** — Plantilla de una fábrica de Cherryville, Carolina del Norte, posando a la puerta. Fotografía de Lewis Hine, 1908.
+- **Monnaie - Trésor de la Jeanne-Elisabeth (1755), pile de 13 pièces de 8 réaux - btv1b11358628q (1 of 2).jpg** — Pila de monedas de plata de ocho reales, rescatadas de un naufragio de 1755. Biblioteca Nacional de Francia.
+- **Nachtkwartier te Molodetschno, 3-4 december 1812; episode uit de terugtocht van keizer Napoleon uit Rusland Rijksmuseum SK-A-1043.jpeg** — Vivaque en la retirada de Napoleón de Rusia, diciembre de 1812. Óleo de Johannes Hari. Rijksmuseum, Ámsterdam.
+- **Narcissus-Caravaggio (1594-96).jpg** — Narciso, óleo de Caravaggio, hacia 1599. Galleria Nazionale d'Arte Antica, Roma.
+- **NASA Black Hole Visualization Takes Viewers Beyond the Brink (SVS14576 - FlyBy Rectilinear 01787).jpg** — Simulación de un agujero negro y su disco de acreción. NASA Scientific Visualization Studio, 2024.
+- **New York - New York City - NARA - 68146037.jpg** — Manhattan desde el aire hacia 1920, con los edificios altos de la época. Archivos Nacionales de Estados Unidos.
+- **Nicolaes van Verendael - Vanitas still life with flowers, a skull, hourglass, conch shell and silver jug on a partially draped table.jpg** — Óleo atribuido a Nicolaes van Verendael, 1680.
+- **No-nb bldsa 3c189.jpg** — Velada musical a bordo del Fram: Fridtjof Nansen al órgano durante los años atrapados en el hielo.
+- **No-nb bldsa q3c040.jpg** — Dos tripulantes leen los barómetros a bordo del Fram durante la expedición ártica de Nansen, 1893-1896.
+- **Orion Nebula- Peering into the Orion Nebula (2007-orion - orion 4k).jpg** — La nebulosa de Orión, fotografiada por los telescopios Hubble y Chandra. NASA/ESA, 2007.
+- **P S Krøyer 1899 - Sommeraften ved Skagens strand. Kunstneren og hans hustru.jpg** — Tarde de verano en la playa de Skagen, óleo de Peder Severin Krøyer, 1899.
+- **PACOM Armed Services Blood Bank Center opens new facility 150318-M-TA471-137.jpg** — Un técnico retira la aguja a un donante en un banco de sangre militar en Okinawa, 2015.
+- **Paterson, New Jersey - Textiles. Madison Silk Co. Setting new warp onto loom. - NARA - 518611.jpg** — Fábrica de seda en Paterson, Nueva Jersey. Foto de Lewis Hine, 1937.
+- **Paterson, New Jersey - Textiles. Wishnack Silk Company. Back view of the same loom showing the double beam. A single... - NARA - 518760.jpg** — Telar de una fábrica de seda de Paterson. Foto de Lewis Hine, 1937.
+- **Patient room with hospital bed.jpg** — Habitación con una cama de hospital vacía, Centro de Investigación Clínica de los NIH, Bethesda, 2004. Fotografía de Diane A. Reid.
+- **Patineurs sur un canal gelé (Louvre, INV 1837).jpg** — Patinadores sobre un canal helado, cuadro conservado en el Museo del Louvre.
+- **Pierre and Marie Curie.jpg** — Pierre y Marie Curie en su laboratorio, hacia 1904.
+- **Pierre Dieulefils postcard 1662 back side with postmark.jpg** — Reverso de una postal de Pierre Dieulefils con matasellos, ya con el reverso dividido.
+- **Pieter van der Werff - Portrait of Peter the Great - WGA25542.jpg** — Óleo de Pieter van der Werff con el zar Pedro I de Rusia.
+- **Pompeii Ruins (48440539286).jpg** — La basílica de Pompeya, con sus columnas y los muñones de ladrillo. Fotografía de Gary Todd.
+- **Pompeii Ruins (48440776966).jpg** — Otro rincón de las ruinas de Pompeya. Fotografía de Gary Todd.
+- **Pompeii Ruins (48440953446).jpg** — Calles y patios de la ciudad enterrada por el Vesubio. Fotografía de Gary Todd.
+- **Pompeii Ruins & Mt. Vesuvius (48442337717).jpg** — Ruinas de Pompeya al pie del Vesubio, 2019.
+- **Pompeii Ruins Forum (City Business Center) & Mt. Vesuvius (48440863097).jpg** — El foro de Pompeya con el Vesubio al fondo, 2019.
+- **Pompeii Ruins Villa (48442954067).jpg** — El interior de una casa pompeyana, con los muros aún pintados. Fotografía de Gary Todd.
+- **Portrait of Alfred Bernhard Nobel (1833-1896), Chemist (2551039289).jpg** — Alfred Nobel, químico e industrial sueco.
+- **Portrait of Louis XIV of France in Coronation Robes (by Hyacinthe Rigaud) - Louvre Museum.jpg** — Óleo de Hyacinthe Rigaud, 1701. Museo del Louvre, París.
+- **Portrait of man in derby hat (I0013520).tif** — Retrato de estudio de un hombre con bombín, entre 1898 y 1920. Archivos de Ontario.
+- **Portrait of Niccolò Machiavelli (1469–1527), by Follower of Santi di Tito.jpg** — Retrato de Nicolás Maquiavelo, seguidor de Santi di Tito, siglo XVI.
+- **Racknitz - The Turk 1.jpg** — Lámina de Joseph Racknitz, 1789, con su reconstrucción de cómo cabía una persona dentro del mueble.
+- **Racknitz - The Turk 4.jpg** — Otra de las láminas de Racknitz, con el mecanismo del interior desmontado.
+- **Radio announcer Ebba Jakobson-Lilius in a continuity unit, 1930s..jpg** — Otra locutora en la cabina de continuidad de una emisora, en los años treinta.
+- **Radio announcer Kaisu Puuska (later Kaisu Puuska-Joki) in a continuity unit, 1930s..jpg** — Una locutora de radio ante el micrófono en su cabina, en los años treinta.
+- **Radio reporter Alexis af Enehjelm interviewing a man fixing a car, 1930s.jpg** — Un reportero entrevistando a pie de calle con un micrófono de la época.
+- **Radio reporter Alexis af Enehjelm, 1930s.jpg** — Un reportero de radio con su equipo de emisión, en los años treinta.
+- **Rain Steam and Speed the Great Western Railway.jpg** — «Lluvia, vapor y velocidad. El gran ferrocarril del Oeste», óleo de J. M. W. Turner, 1844. National Gallery, Londres.
+- **RedRiverMeandersArkansas1.jpg** — Los meandros del río Rojo en Arkansas vistos desde el aire, con los cauces abandonados marcados en la tierra. USDA.
+- **Research chemist in the Aeromaterials laboratory at the Naval Air Engineering Center - DPLA - b07eb975168811d2772a5827fe577855.jpg** — Químico trabajando con un aparato de destilación en un laboratorio de materiales, hacia 1965.
+- **Ride a Stearns and be content, bicycle advertising poster, 1896.jpg** — Cartel publicitario de bicicletas Stearns, dibujado por Edward Penfield en 1896.
+- **Robots in Robot Dream Exhibition Hong Kong.JPG** — Robots expuestos en una muestra en Hong Kong.
+- **Rochester Castle (4).jpg** — El torreón del castillo de Rochester, en Inglaterra. Fotografía de John K. Thorne, 2015.
+- **Rolf & Co 071614 Gruss aus Teistungen, Adressseite, um 1900.jpg** — Cara de la dirección de una postal alemana de hacia 1900, todavía sin raya: solo cabe el destinatario.
+- **Samuel Scott - A first-rate shortening sail.jpg** — «Navío de primera clase acortando vela», óleo de Samuel Scott, hacia 1736.
+- **Saturn during Equinox.jpg** — Saturno durante su equinoccio, cuando el Sol ilumina los anillos de canto. NASA/JPL/Space Science Institute, 2008.
+- **Saturn from Cassini Orbiter (2004-10-06).jpg** — Saturno fotografiado por la sonda Cassini el 6 de octubre de 2004. NASA/JPL/Space Science Institute.
+- **Saturn global view from Cassini, rings open.jpg** — Vista global de Saturno con los anillos abiertos, compuesta a partir de imágenes de Cassini de 2012. NASA/JPL-Caltech/SSI.
+- **Schepen in de storm Rijksmuseum SK-C-448.jpeg** — «Barcos en la tormenta», óleo anónimo holandés de la primera mitad del siglo XVII. Rijksmuseum, Ámsterdam.
+- **SEAGULLS FEED OFF GARBAGE AT THE DUMP IN HACKENSACK MEADOWS. IN TIME THIS LANDFILL WILL PROVIDE RECREATION FOR THE... - NARA - 549737.jpg** — Gaviotas alimentándose en el vertedero de Hackensack Meadows, Nueva Jersey, en marzo de 1973. Fotografía de Gary Miller.
+- **Semmelweis Ignác 1864.jpg** — Última fotografía conocida de Ignaz Semmelweis, tomada en 1864 por Ludwig Angerer.
+- **Ships on the River IJ in front of the Tollhouse near Amsterdam RMG F8704-001.tiff** — Óleo de Abraham Storck, hacia 1690: barcos en el río IJ, delante de la aduana de Ámsterdam. Royal Museums Greenwich.
+- **Smallpox vaccine injection.jpg** — Demostración de la técnica de los quince pinchazos con aguja bifurcada. Fotografía de James Gathany para los CDC, 2002.
+- **Smallpox vaccine.jpg** — Vial de vacuna liofilizada contra la viruela y la aguja bifurcada con la que se administraba. Fotografía de James Gathany para los CDC, 2002.
+- **Spaso House Dining Room.JPG** — El comedor de la residencia. Fotografía de Valeriy Yevseyev para la embajada.
+- **Spaso House Exterior.JPG** — Spaso House, la residencia del embajador de Estados Unidos en Moscú, donde estuvo colgado el escudo. Fotografía de Valeriy Yevseyev para la embajada.
+- **Spaso House Library.JPG** — La biblioteca de Spaso House. Fotografía de Valeriy Yevseyev para la embajada.
+- **Spinning and weaving at the Ohio State Fair - DPLA - 0048aafc0571218ae75ab0a9f02a8044.jpg** — Hilando lana recién esquilada en la feria del estado de Ohio, 1981. Fotografía de David E. Lucas.
+- **Staring Down Hurricane Florence.jpg** — El huracán Florence fotografiado desde la Estación Espacial, 2018.
+- **Stephan's Quintet Hubble 2009.full.jpg** — El Quinteto de Stephan fotografiado por el Hubble en 2009, ya corregido. NASA, ESA y el equipo Hubble SM4 ERO.
+- **Strong Solar Flare Erupts from Sun, May 27, 2024 and Another May 29th (SVS14597 - SDO May 29 2024 1434UT 131-171).jpg** — El Sol fotografiado en ultravioleta por el observatorio solar SDO durante una fulguración, mayo de 2024. NASA.
+- **Suez Canal, Port Said - ISS.jpg** — Port Said y la entrada del canal desde la Estación Espacial, 2006.
+- **Sunglasses Carried by Charles A. Lindbergh on His New York to Paris Flight - DPLA - b1febcdb411187b4982ec18b75ff7f64 (page 1).jpg** — Gafas de sol de cristales verdes y montura de alambre, con su estuche de ante. Missouri Historical Society.
+- **Sunglasses Carried by Charles A. Lindbergh on His New York to Paris Flight - DPLA - b1febcdb411187b4982ec18b75ff7f64 (page 12).jpg** — Otro ángulo del mismo par y su funda. Missouri Historical Society.
+- **Sunglasses Carried by Charles A. Lindbergh on His New York to Paris Flight - DPLA - b1febcdb411187b4982ec18b75ff7f64 (page 7).jpg** — Las mismas gafas de cerca, con el cristal a contraluz. Missouri Historical Society.
+- **Sunniland Oil Field preserved pumpjack.jpg** — Balancín de extracción conservado en el campo petrolífero de Sunniland, Florida, 2021. Fotografía de Declan M. Martin.
+- **SWEN. STENOGRAPHER TO THE PRESIDENT LOC hec.06843.tif** — Taquígrafo de la presidencia estadounidense fotografiado entre 1911 y 1917.
+- **The Barnum & Bailey greatest show on earth, the world's grandest, largest, best, amusement institution. The Flying Dillons in a series of most marvelous mid-air feats and startling LCCN92504593.jpg** — Cartel del circo Barnum & Bailey con los trapecistas Flying Dillons, 1895.
+- **The Blue Marble 4463x4163.jpg** — La Tierra vista desde el Apolo 17, el 7 de diciembre de 1972. NASA.
+- **The Blue Marble, AS17-148-22727.jpg** — «La canica azul», fotografiada desde el Apolo 17 el 7 de diciembre de 1972. NASA.
+- **The Greater Tokyo Area in Japan pictured from the International Space Station (iss074e0170877).jpg** — El área metropolitana de Tokio de noche, fotografiada desde la Estación Espacial Internacional. NASA.
+- **The human canon ball LCCN2014635898.jpg** — Cartel de circo del hombre bala, 1879.
+- **The School of Athens by Raffaello Sanzio da Urbino.jpg** — La escuela de Atenas, fresco de Rafael, 1509-1511. Estancias del Vaticano.
+- **The station pictured from the SpaceX Crew Dragon 5 (cropped).jpg** — La Estación Espacial Internacional fotografiada desde una nave que se alejaba, con la Tierra al fondo. NASA.
+- **The sunlit North Sea from the harbour entrance with a number of trawlers under sail on the horizon. RMG P27512.tiff** — Barcos de pesca a vela saliendo hacia los caladeros del mar del Norte, en 1906. Royal Museums Greenwich.
+- **Top view of the rings of Saturn by Cassini - October 10, 2013.jpg** — Los anillos vistos desde arriba por Cassini, octubre de 2013. NASA/JPL-Caltech/SSI/Cornell.
+- **Tracy Caldwell Dyson in Cupola ISS.jpg** — La astronauta Tracy Caldwell Dyson mirando la Tierra desde la cúpula de la Estación Espacial Internacional, 2010. NASA.
+- **TUGBOAT HERDS TWO LADEN GARBAGE SCOWS DOWN THE EAST RIVER FROM TRANSFER POINT AT 91ST STREET. DESTINATION IS THE... - NARA - 549799.jpg** — Un remolcador conduciendo dos gabarras cargadas de basura por el East River de Nueva York, en 1973. Archivos Nacionales de Estados Unidos.
+- **Underwood Typewriter Assembly 1962.jpg** — Cadena de montaje de máquinas de escribir en la fábrica de Underwood en Hartford, Connecticut, 1962.
+- **UNDERWOOD TYPEWRITER CO. LCCN2016861738.jpg** — Local de la Underwood Typewriter Co., fotografiado hacia 1905.
+- **US Navy 020813-N-3235P-532 A Navy family unloads their shopping cart while purchasing groceries at the Navy Commissary located just outside Naval Air Station Oceana.jpg** — Una caja de supermercado con el lector y la pantalla que canta el producto y su precio, en 2002. Armada de Estados Unidos.
+- **US Navy 030305-N-3235P-513 A Hospital Corpsman dips a bifurcated vaccinating needle into an open vial of Small Pox Vaccine.jpg** — Un sanitario moja la aguja bifurcada en el vial: entre las dos puntas queda retenida una gota exacta. Fotografía de la Armada de Estados Unidos, 2003.
+- **Usine de Neunkirchen 1922 Aciérie Thomas.png** — Acería Thomas de Neunkirchen, 1922. El revestimiento básico del convertidor fue lo que resolvió el problema del fósforo.
+- **USN 1044872 Bathyscaphe Trieste.tif** — El batiscafo Trieste de la Marina de Estados Unidos.
+- **Van Dyck, Sir Anthony - Sunset Landscape with a Shepherd and his Flock - Google Art Project.jpg** — Paisaje al atardecer con un pastor y su rebaño, óleo atribuido a Anton van Dyck, hacia 1620.
+- **Van Gogh - Starry Night - Google Art Project.jpg** — «La noche estrellada», óleo de Vincent van Gogh, 1889.
+- **Van Gogh - Terrace of a Café at Night (Place du Forum) 1888.jpg** — Terraza de café por la noche, óleo de Vincent van Gogh, 1888. Museo Kröller-Müller, Otterlo.
+- **Vasily Perov - Портрет Ф.М.Достоевского - Google Art Project.jpg** — Retrato de Dostoievski, óleo de Vasili Perov, 1872. Galería Tretiakov, Moscú.
+- **Vassily Kandinsky, 1936 - Composition 9.jpg** — Composición IX, óleo de Vasili Kandinski, 1936. Centro Pompidou, París.
+- **Venus - Computer Simulated Global View (7302574832).jpg** — Venus reconstruido con los datos de radar de la sonda Magallanes. NASA.
+- **Vernet, Claude Joseph - The Shipwreck - 1772.jpg** — Óleo de Joseph Vernet, 1772: un naufragio contra la costa en plena tormenta. National Gallery of Art, Washington.
+- **Victim of Pompeii - DPLA - 0d849679448c6a4f4926cf7318478c5e.jpg** — Fotografía de un vaciado de Pompeya, 1913.
+- **Vincent van Gogh - The Bedroom - Google Art Project.jpg** — Óleo de Vincent van Gogh, 1889: su dormitorio de Arlés. Art Institute of Chicago.
+- **Voyager spacecraft.jpg** — Ilustración de la sonda Voyager en vuelo, con la antena y los brazos desplegados. NASA/JPL.
+- **Voyager-golden-record-etching-7-28-77 30812854306 o.jpg** — Grabado del disco en el taller del laboratorio, julio de 1977. NASA/JPL.
+- **Voyager-golden-record-gold-plating-8-23-77 30217603524 o.jpg** — Un técnico saca el disco de oro de la cuba de baño electrolítico, agosto de 1977. NASA/JPL.
+- **Voyager-golden-record-lamination-bonding-8-31-1977 30812615156 o.jpg** — Montaje y sellado del disco en su funda protectora, agosto de 1977. NASA/JPL.
+- **Washing hands (cropped).jpg** — Manos lavándose bajo el grifo, el gesto que costó veinte años de discusión.
+- **Webb's First Deep Field.jpg** — El primer campo profundo del telescopio espacial James Webb, 2022. Cada mancha alargada es una galaxia entera. NASA, ESA, CSA y STScI.
+- **Whistlejacket by George Stubbs edit.jpg** — «Whistlejacket», óleo de George Stubbs, hacia 1762. National Gallery, Londres. Un purasangre de la primera generación de la raza.
+- **Willem Claesz. Heda - Still Life with Oysters, a Rummer, a Lemon and a Silver Bowl - Google Art Project.jpg** — Óleo de Willem Claesz. Heda, 1634: ostras, una copa, un limón pelado y un cuenco de plata. Rijksmuseum, Ámsterdam.
+- **William Heysman Overend (British-American, 1851-1898) Harpooning the Whale.jpg** — Óleo de William Heysman Overend, hacia 1868.
+- **Wilson Cloud Chamber at AEC's Brookhaven National Laboratory.jpg** — Cámara de niebla de Wilson en el Laboratorio Nacional de Brookhaven, el mismo sitio donde se montó aquel tenis.
+- **Winslow Homer - The Gulf Stream - Metropolitan Museum of Art.jpg** — La corriente del Golfo, óleo de Winslow Homer, 1899. Metropolitan Museum of Art, Nueva York.
+- **WO124 Umbrella Thorn Acacia Tree - DPLA - fe73ffcc3b695806850aae36a566f331.jpg** — Una acacia de copa plana, la llamada espino paraguas, sola en la sabana africana.
+- **Women war workers in the doping room of a gas-mask factory during the First World War. Q28587.jpg** — Trabajadoras en una fábrica de máscaras antigás británica, 1918. Fotografía de George P. Lewis.
+- **Women's Reserve Camouflage Corps painting pretend ship in NYC.jpg** — Mujeres del Cuerpo de Camuflaje de la Reserva pintando un barco simulado en Nueva York.
+- **X-ray of the bones of a hand with a ring on one finger Wellcome V0029523.jpg** — Radiografía de una mano con un anillo, hecha por Wilhelm Röntgen en 1895. Wellcome Collection.
+- **Yaquina Head Lighthouse Fresnel lens (14862581912).jpg** — Lente de Fresnel del faro de Yaquina Head, en Oregón, hecha de anillos de vidrio tallado.
+- **Yaquina Head lighthouse, winter storm, Oregon (25807306508).jpg** — El faro de Yaquina Head durante un temporal de invierno, en Oregón. Fotografía de Bonnie Moreland, 2018.
+- **Лайка (собака-космонавт)1.jpg** — Laika en el arnés de la cápsula, fotografiada antes del lanzamiento de noviembre de 1957.
+
+## CC BY 2.0 — 212 imágenes
+
+- **06 Julius Caesar, Aemilia Denarius. Caesar CAESAR DICT PERPETVO, Fasces Caduceus axe globe hands L.AEMILIVS BVCA. Winckless collection.jpg** — Denario de plata acuñado en Roma el año 44 a. C. La leyenda dice CAESAR DICT PERPETVO: César, dictador perpetuo. Fotografía de Andrew McCabe.
+- **0910 6290m Blacksmith bellows, Fang, Gabon (5618236012).jpg** — Fragua alimentada a fuelle en un taller fang, Gabón, 2011. Fotografía de Ann Porteus.
+- **1973 Citroen DS23 Pallas (29447980784).jpg** — Citroën DS23 Pallas de 1973, con los faros bajo cristal.
+- **2009-365-291 We All Live in a Wooden Submarine (4027741542).jpg** — Réplica del Ictíneo II, el segundo modelo, el del motor que fabricaba su propio aire. Puerto de Barcelona. Fotografía de cogdogblog, 2009.
+- **2010-365-315 Not Tied (5168145497).jpg** — Una cuerda anudada alrededor del tronco de un árbol. Fotografía de Alan Levine.
+- **2014-365-42 Dust My Broom (12475384764).jpg** — Una escoba plana gastada por el uso. Fotografía de Alan Levine.
+- **2016 366 334 Still Life With Elevator Parts (30519760263).jpg** — Piezas desmontadas del motor de un ascensor, apiladas en un taller. Fotografía de Edna Winti.
+- **2017-10-04 Chained Library, Hereford.jpg** — Detalle de las cadenas remachadas al canto de las tapas y colgadas de la barra del estante.
+- **5C2A5953R - 49913961083 – Silicon Wafer 20200519.jpg** — Oblea de silicio con degradados de color, 2020.
+- **Abandoned car interior showing a deployed airbag and a worn steering wheel in a forgotten location.jpg** — Un airbag ya disparado, colgando del volante. Se llena y se vacía en menos de dos décimas de segundo, y así es como se queda. Fotografía de Shixart1985.
+- **Abandoned grand piano - Abandoned Ballroom (6).jpg** — Un piano de cola abandonado en un salón de baile en ruinas. Fotografía de Jan Bommes.
+- **Abbey Mills Pumping Station (51551458944).jpg** — La estación de bombeo de Abbey Mills, terminada en 1868. Fotografía de Simon, Londres.
+- **Aerial view of Victorious Festival 1.jpg** — Un festival visto desde el aire, en 2022. De uno solo de esos puntos no se puede predecir nada; de todos a la vez, bastante. Fotografía de Tim Sheerman-Chase.
+- **Aït Benhaddou Qsar (588071761).jpg** — Puerta tradicional de madera en el ksar de Ait Ben Hadu, en Marruecos.
+- **Albion Soeborg Medieval Sword 13 (8499204550).jpg** — Empuñadura y cruz de una espada medieval, en una reproducción moderna. Fotografía de Søren Niedziella.
+- **Aluminum foil 1.jpg** — Una hoja de papel de aluminio doméstico, arrugada y extendida.
+- **Amber (resinite) 2.jpg** — Un nódulo de ámbar, resina de árbol endurecida: el pegamento más antiguo que existe. Fotografía de James St. John.
+- **Amethyst crystals with hematite inclusions 5.jpg** — Cristales de amatista con inclusiones de hematites. Fotografía de James St. John, 2024.
+- **Amethyst geode (Serra Geral Formation, Lower Cretaceous; southeastern Brazil) 3 (32905093352).jpg** — Geoda de amatista abierta, del sureste de Brasil. Fotografía de James St. John.
+- **Antique Amber H K Mulford Chemist Embossed Bottle (30500508927).jpg** — Frasco de botica de vidrio ámbar con el nombre del fabricante en relieve. Fotografía de Cindy Shebley.
+- **Antique Amber Medicine Bottle (42378014251).jpg** — Frasco de medicina de vidrio ámbar de principios del siglo XX. Fotografía de Cindy Shebley.
+- **Antique Schlotter Beck & Foss Company Embossed Glass Bottle (42377995471).jpg** — Botella de vidrio antigua con la marca del laboratorio grabada en el cristal. Fotografía de Cindy Shebley.
+- **Baird television, 1929.jpg** — Televisor mecánico de Baird de 1929, con la ventanilla por la que se miraba la imagen.
+- **Bakelite Telephone (20967111954).jpg** — Teléfono de sobremesa con carcasa de baquelita, de los años treinta.
+- **Balance, letter (51360856670).jpg** — Una balanza de cartas de latón sobre base de madera, con su juego de pesas. Auckland Museum.
+- **Banana bunch growing in a banana tree plantation on Tenerife, Spain (48225283136).jpg** — Racimo de plátanos verdes colgando en una plantación de Tenerife.
+- **Banded iron formation Dales Gorge.jpg** — Formación de hierro bandeado en la garganta de Dales, Australia. Fotografía de Graeme Churchard, 2013.
+- **Beatles microphones, EMI RM-1B & HB-1E, Abbey Road Studios, 80th Anniversary, March 9, 2012.jpg** — Micrófonos de cinta de los años treinta, de los usados en las sesiones de doblaje. Estudios Abbey Road. Fotografía de MrJamesAckerley.
+- **Blue Pallets (36692286725).jpg** — Palés azules de los que circulan en régimen de intercambio, apilados en un depósito. Fotografía de oatsy40.
+- **Blue plastic on a fan coral, turkey beach, wakatobi, 2018 (45088490204).jpg** — Un trozo de plástico azul enganchado en una gorgonia, en aguas de Wakatobi (Indonesia).
+- **Bodie ghost town (Explored) - Flickr - M McBey.jpg** — El pueblo minero abandonado de Bodie, California, 2013.
+- **Bond Street Winter Fashion 2016 (30907796334).jpg** — Escaparate de moda en Bond Street, Londres, en diciembre de 2016.
+- **Boulton & Watt steam engine, Sydney Powerhouse Museum, 2014 (15240699214).jpg** — Una máquina de vapor de Boulton y Watt, en el Powerhouse Museum de Sídney.
+- **Bowler hats by Sonia Rykiel in Paris 2008-09-06 0957.jpg** — Bombines expuestos en un escaparate de París.
+- **Box Full of Buttons For Sewing (42958527870).jpg** — Una caja de botones de costura. Los primeros que se conocen, de hace cinco mil años, eran así de pequeños y no abrochaban nada. Fotografía de Dejan Krsmanovic, 2018.
+- **Burgos in the rain - Flickr - conall...jpg** — Una calle porticada de Burgos bajo la lluvia. Fotografía de Conall.
+- **C.1900 Hollerith Census Tabulator (2585332983).jpg** — Tabuladora de Hollerith de hacia 1900, con la prensa lectora de tarjetas y el muro de contadores. Fotografía de Erik Pitti.
+- **Camino de Santiago - Camino Portugués (2845757021).jpg** — Camino Portugués a Santiago, 2008.
+- **Camino de Santiago (5364961214).jpg** — Un peregrino en la meseta entre Burgos y León, noviembre de 2010. Fotografía de Rocco Rossi.
+- **Candle Flames (5261895585).jpg** — Velas de cumpleaños encendidas sobre una tarta. Fotografía de Rafael Castillo.
+- **Car parts and scrap metal piled inside a vehicle.jpg** — Piezas y chatarra amontonadas dentro de un vehículo desguazado. Fotografía de Shixart1985.
+- **Castle, Silves (20518366418).jpg** — Tejas curvas de barro en el castillo de Silves, Portugal. Fotografía de Paul Wilkinson.
+- **Chanel - Flickr - Kevin Rheese.jpg** — El frasco rectangular de tapón octogonal, iluminado de cerca. Fotografía de Kevin Rheese, 2015.
+- **Chatsworth House 2014 12 08 3 Chatsworth (83) edit.jpg** — Fachada de Chatsworth House, en Derbyshire. Fotografía de Julie Clarke, 2014.
+- **Chicago (ILL) AIC, Lakeshore East " AON tower " (center) 346 mtrs 1973 (4825813645).jpg** — La torre Aon de Chicago, terminada en 1973.
+- **Chinon (Indre-et-Loire) (22415606670).jpg** — Una torre del castillo de Chinon, en el valle del Loira. Fotografía de Daniel Jolivet, 2015.
+- **Chrysler Building 1 (4684845155).jpg** — La corona art déco del edificio Chrysler, Nueva York, terminado en 1930.
+- **Citius, Altius, Fortius.jpg** — El mismo estadio ateniense hoy, con el Discóbolo de Konstantinos Dimitriadis a la entrada. Fotografía de Rob Oo.
+- **Cleopatra VII, 40-30 BCE; Altes Museum, Berlin (1) (28399854659).jpg** — Busto de mármol de Cleopatra VII, tallado entre los años 40 y 30 antes de Cristo. Altes Museum, Berlín. Fotografía de Richard Mortel.
+- **Close up of the Hollerith machine in operation (Reeve 014276), National Museum of Health and Medicine (3547327090).jpg** — La máquina de Hollerith en funcionamiento. Museo Nacional de Salud y Medicina, Estados Unidos.
+- **Cochineal (6505719409).jpg** — Cochinilla sobre una pala de chumbera: el insecto del que sale el carmín, el rojo más barato y estable que hubo. Fotografía de Leslie Seaton.
+- **Códice Calixtino (Catedral de Santiago de Compostela).jpg** — El Códice Calixtino, manuscrito iluminado del siglo XII. Archivo de la catedral de Santiago de Compostela. Fotografía de Manuel, 2008.
+- **COIN (FindID 932830).jpg** — Media corona de plata de Jorge II, de 1746, acuñada con plata capturada a España, con el canto estriado.
+- **Colorful Semi-Trucks.jpg** — Cabezas tractoras aparcadas en fila, con sus remolques detrás.
+- **Composants électroniques décalottés (51258423255).jpg** — Relés electromecánicos en miniatura abiertos, con los contactos a la vista.
+- **Container Ship 'Ever Given' stuck in the Suez Canal, Egypt - March 24th, 2021 cropped.jpg** — El portacontenedores Ever Given atravesado en el canal, 2021.
+- **Cotton boll nearly ready for harvest.jpg** — Una cápsula de algodón a punto de recogerse. Fotografía de Michael Bass-Deschênes.
+- **Crematorium @ Père Lachaise Cemetery @ Paris (31328990591).jpg** — El crematorio del Père-Lachaise, construido a finales del siglo XIX. Fotografía de Guilhem Vellut.
+- **Crocus ligusticus Mariotti - 52500869122.png** — Crocus ligusticus en flor, en Liguria.
+- **Cullinan Diamond (replica) (Premier Kimberlite Pipe, Precambrian; Premier Mine, South Africa) 1 (17872546950).jpg** — Réplica del diamante en bruto más grande encontrado nunca, extraído en Sudáfrica. Fotografía de James St. John.
+- **D e w - Flickr - jonhyblaze.jpg** — Rocío sobre la hierba a primera hora. Fotografía de afk.
+- **Diamond princess cut.jpg** — Un diamante de talla princesa montado en su anillo. Fotografía de Stephen Durham.
+- **Downpour in Chinatown.jpg** — Un aguacero en el barrio chino de Toronto.
+- **Dramatic Atlantic Ocean sunrise under a cloudy sky near Sagres, Faro, Algarve, Portugal, February 2025 (54452275690).jpg** — Amanecer sobre el Atlántico frente a Sagres, en el Algarve portugués. Fotografía de Sergei Gussev.
+- **Driving on a rainy day through a blurred windshield on a country road in early morning hours.jpg** — La carretera vista a través de un parabrisas mojado, en una mañana de lluvia. Fotografía de Shixart1985.
+- **Eagletail Mountains Wilderness - Milky Way.jpg** — La Vía Láctea sobre las montañas Eagletail, en Arizona. Fotografía de Jim Vajda, 2020.
+- **Early wheelchair (39723826015).jpg** — Un carruaje para enfermos del castillo de Frederiksborg, en Dinamarca. Fotografía de Thomas Quine.
+- **Easter Island, Rano Raraku, moais (6686043521).jpg** — La cantera de Rano Raraku entera, con las estatuas repartidas por la falda y ni un árbol en la isla. Fotografía de Arian Zwegers, 2011.
+- **EMI RM-1B microphone (1930s), Abbey Road Studios.jpg** — Micrófono de cinta EMI de los años treinta. Fotografía de Josephenus P. Riley.
+- **Emoji bales (36765488293).jpg** — Balas de forraje envueltas y pintadas como emoticonos. Fotografía de Tony Hisgett, 2017.
+- **Escalators at the deepest metro station of the world Arsenalna (105.5m) (8601894844).jpg** — Las escaleras mecánicas de Arsenalna, en Kiev, la estación de metro más profunda del mundo.
+- **Etapa 25. Ribadeo - Lourenzá (3900896038).jpg** — Peregrinos entre Ribadeo y Lourenzá, Galicia, 2009.
+- **EUR 5 holographic band.jpg** — Banda holográfica de un billete de cinco euros, 2008.
+- **Female doctor listens to the patient using a stethoscope closeup.jpg** — Un reconocimiento médico con estetoscopio. Fotografía de Shixart1985.
+- **Fez Chouara Tannery (54238811661).jpg** — Las tinas de la curtiduría de Chouara vistas desde una terraza, Fez, 2024. Fotografía de Jorge Franganillo.
+- **Fez Chouara Tannery (54239949701).jpg** — La curtiduría de Chouara, en Fez, con las pieles secándose en las terrazas y las tinas abajo. Fotografía de Jorge Franganillo, 2024.
+- **Fluorite (Crystal Victory Mine, near Cave-in-Rock, Illinois, USA) 1 (34519726136).jpg** — Fluorita de Illinois, el mineral del que sale el flúor, con cristales cúbicos morados y amarillos.
+- **Fossiliferous amber (Dominican Republic) 1.jpg** — Ámbar de la República Dominicana con un insecto atrapado dentro. Fotografía de James St. John.
+- **Galerie des Glaces (23934705229).jpg** — La galería de los Espejos de Versalles, levantada con espejos franceses después de que Francia se llevara a los maestros venecianos. Fotografía de Jorge Láscar.
+- **Geissler tubes (switched on).jpg** — Tubos de Geissler encendidos, con gases enrarecidos dando cada uno su color. Fotografía de Paul Downey.
+- **Georgetown, Malaysia (4570232019).jpg** — Parquímetro doble en George Town, Penang. Fotografía de yeowatzup, 2010.
+- **Giant panda eating bamboo.jpg** — Un panda gigante comiendo bambú. Fotografía de Kevin Dooley, 2009.
+- **Glacier @ Montenvers Mer de Glace @ Chamonix (15235867328).jpg** — Otra vista del Mar de Hielo desde Montenvers, con la lengua del glaciar y sus grietas. Fotografía de Guilhem Vellut, 2014.
+- **Glacier @ Montenvers Mer de Glace @ Chamonix (15399407166).jpg** — El glaciar del Mar de Hielo bajando desde el macizo del Mont Blanc, visto desde Montenvers, Chamonix. Fotografía de Guilhem Vellut, 2014.
+- **Glacier @ Montenvers Mer de Glace @ Chamonix (15422104502).jpg** — El valle de Chamonix y el glaciar desde el mirador de Montenvers, hoy accesible en tren. Fotografía de Guilhem Vellut, 2014.
+- **Glasshouse (5942701272).jpg** — La Palm House de los Reales Jardines Botánicos de Kew, en Londres, terminada en 1848.
+- **Gluten strands in bread dough.jpg** — Los hilos de gluten de una masa ya fermentada, estirados al separarla. Fotografía de General Views, 2015.
+- **Gold fluvial pebbles (placer gold) (Washington State, USA) 3 (16846570129).jpg** — Pepitas de oro de aluvión recogidas en un río, como las que arrastraban los ríos de Lidia. Fotografía de James St. John.
+- **Gold fluvial pebbles (placer gold) (Washington State, USA) 4 (16846562679).jpg** — Granos de oro de aluvión recogidos en un río del estado de Washington. Fotografía de James St. John.
+- **Gold nugget (Australia) 1 (16847082298).jpg** — Otra pepita de oro australiana, vista de cerca. Fotografía de James St. John.
+- **Gold nugget (Australia) 4 (16848647509).jpg** — Pepita de oro australiana. Fotografía de James St. John.
+- **Gold nugget (placer gold) (Pennsylvania Mountain, Alma Mining District, Park County, Colorado, USA) 2 (17062525062).jpg** — Una pepita de oro de aluvión de Colorado. Museo de Naturaleza y Ciencia de Denver. Fotografía de James St. John.
+- **Gros-Horloge (30599909950).jpg** — El arco del Gros-Horloge de Ruan iluminado de noche. Fotografía de Jorge Láscar.
+- **Guarding the rainbow strands - Flickr - conall...jpg** — Hilos de tela de araña descomponiendo la luz del sol, Irlanda del Norte, 2015. Fotografía de Conall, Downpatrick.
+- **Hotel Ca Sagredo - Grand Canal - Rialto - Venice Italy Venezia - Creative Commons by gnuckx (4795639882).jpg** — Palacio del siglo XV en el Gran Canal, con los postes de madera clavados delante de la puerta de agua.
+- **Hotel Pillow and Bedding (39935420303).jpg** — Una almohada blanda de hoy. Lo que decide si sirve no es lo mullida que sea, sino si rellena el hueco que queda entre la oreja y el hombro. Fotografía de Tony Webster, 2019.
+- **Inside the Fresnel Lens of the Tybee Island Lighthouse (33766615286).jpg** — Interior de la lente del faro de Tybee Island, Georgia, 2017. Fotografía de Tom Driggers.
+- **Interior of the Sukiennice in Main Square (9156926049).jpg** — El interior de la Lonja de los Paños de Cracovia, centro del comercio internacional de la ciudad desde el siglo XIV. Fotografía de Jorge Láscar.
+- **Iris Macro, Eye close-up (11622304153).jpg** — Ojo humano en primer plano. Fotografía de Matt Ming.
+- **Ishtar Gate, Babylon, ca. 575 BCE, built by Nebuchadnezzar II; Pergamon Museum, Berlin (5) (40208356302).jpg** — La puerta de Ishtar de Babilonia, hacia 575 a. C. Museo de Pérgamo, Berlín.
+- **Jellyfish (22132978982).jpg** — Medusas luna flotando en un tanque iluminado de azul.
+- **Jellyfish In Water With Blue Light (45343727755).jpg** — Medusas iluminadas con luz azul dentro de un tanque.
+- **Krak des Chevaliers landscape (cropped).jpg** — El Krak de los Caballeros, en Siria, la mayor fortaleza que levantaron los cruzados.
+- **Krak des Chevaliers, NW Syria - 3.jpg** — El Krak de los Caballeros, en el noroeste de Siria. Fotografía de James Gordon, 2008.
+- **Lapis lazuli (lazuritic metamorphite) (Sar-e-Sang Deposit, Sakhi Formation, Precambrian, 2.4-2.7 Ga (?); Sar-e-Sang Mining District, Hindu-Kush Mountains, Afghanistan) 16.jpg** — Lapislázuli de Afganistán, la piedra de la que salía el azul de los manuscritos, más cara que la plata.
+- **Lascar Brandenburg Gate (4471389757).jpg** — La cuadriga de la Puerta de Brandeburgo de cerca. Fotografía de Jorge Láscar.
+- **Lascar Short section of the Berlin Wall - Potsdamer Platz (4472165454).jpg** — Un trozo del muro conservado en la Potsdamer Platz de Berlín. Fotografía de Jorge Láscar.
+- **Lavender field at the foot of the Alps, Provence, France (51695209778).jpg** — Campo de lavanda al pie de los Alpes, en Provenza. Fotografía de dronepicr, 2021.
+- **Lead alloy Medieval Pilgrim badge (FindID 768597).jpg** — Insignia de peregrino de aleación de plomo, siglos XIV a XVI, hallada en Inglaterra. Portable Antiquities Scheme.
+- **Leaking PVC Pipe Under Sink - P Trap (52842956605).jpg** — Un sifón de plástico bajo un fregadero, con una gota colgando. En la curva se queda siempre un dedo de agua, y ese es todo el invento. Fotografía de Tony Webster, 2023.
+- **Leather work gloves composite P1010224 copy.jpg** — Dos pares de guantes de cuero de trabajo, gastados de distinta manera.
+- **Light fantastic (854006082).jpg** — El faro de un coche visto de cerca: cada luz sale por una lente redonda, y la pantalla que le corta la mitad de arriba al haz va justo detrás. Fotografía de Andrew Fogg, 2007.
+- **Llyn Padarn sunrise.jpg** — Amanecer en el lago Padarn, en Gales. Fotografía de Richard Outram, 2009.
+- **Lodestone (Magnet Cove Complex, mid-Cretaceous, 96-102 Ma; Magnet Cove, Arkansas, USA) 2.jpg** — Un trozo de magnetita imantada, la piedra con la que se tallaban las cucharas. Fotografía de James St. John.
+- **London Millennium Bridge Tate Modern Museum Saint Paul's Cathedral Tamise River Night Explore Image Picture Long pose (16484823825).jpg** — Peatones cruzando el Millennium Bridge de Londres, en exposición larga, 2015. Fotografía de Benjamin Gillet.
+- **LP Record Groove Close-Up (5248017534).jpg** — Detalle del surco de un elepé bajo la luz.
+- **Lynmouth & Lynton Cliff Railway (14036604700).jpg** — El mismo funicular visto desde abajo, subiendo el acantilado entre las dos poblaciones.
+- **Mafra's Convent - Palace - Bibliothéque -Overview- (50177262438).jpg** — Biblioteca del palacio-convento de Mafra, Portugal. Fotografía de Pedro Ribeiro Simões, 2020.
+- **Manchester Airport sky walk.jpg** — Pasarela entre la estación de tren y la terminal 1 de Mánchester, 2005.
+- **Mares and foals with an unfigured background (England,1762) - George Stubbs (1724 - 1806) (24880487840).jpg** — «Yeguas y potros», óleo de George Stubbs, 1762. Fotografía de Pedro Ribeiro Simões.
+- **Masai Giraffe (giraffa camelopardalis tippelskirchi).jpg** — Una jirafa masái ramoneando. Fotografía de Gregory Moine.
+- **Medieval Austrian bed with straw mattress (26797624432).jpg** — Una cama antigua austríaca con su jergón, el saco de tela que se rellenaba de paja. Fotografía de Thomas Quine, 2014.
+- **Medieval Cross, Stow-On-The Wold.jpg** — La cruz de mercado medieval de Stow-on-the-Wold, en Inglaterra. Fotografía de Jim Linwood.
+- **Medieval seal matrix (FindID 974315).jpg** — Sello personal medieval, entre 1150 y 1275, con el nombre de su dueño grabado alrededor. Portable Antiquities Scheme.
+- **Minke Field 2007.jpg** — Instalación petrolífera del campo Minke, mar del Norte, 2007.
+- **Modern Calendar (FindID 737052).jpg** — Disco interior de un calendario giratorio de 1908, con los meses, los días y las fechas grabados. North Lincolnshire Museum.
+- **Morning, Cotswolds, Gloucestershire - Flickr - Kumweni.jpg** — Mañana de octubre en los Cotswolds, Gloucestershire. Fotografía de Kumweni, 2015.
+- **Moscow metro Park Pobedy station (12239412166).jpg** — Estación de Park Pobedy, en el metro de Moscú. Fotografía de Artem Svetlov, 2014.
+- **Moscow, night view of the cathedral of Christ the Savior (30694801600).jpg** — Moscú de noche, con la catedral de Cristo Salvador junto al río.
+- **Muscovite mica 2.jpg** — Moscovita, la mica que se separa en láminas traslúcidas y se usó para cerrar ventanas. Fotografía de James St. John.
+- **Natural History Museum, London (46263138575).jpg** — Escalinata y galerías del Museo de Historia Natural de Londres. Fotografía de Martin Pettitt.
+- **Neon Night 1 (22755978604).jpg** — Un rótulo de neón encendido en Nueva York. Fotografía de Billie Grace Ward.
+- **Nepal shining - Flickr - Momentchensammler.jpg** — Banderines de oración tendidos desde una estupa de Katmandú. Fotografía de Alexander Mueller.
+- **Nostaligic Pricing (52395904850).jpg** — Parquímetro conservado con la tarifa de 1960: doce minutos por un centavo. Fotografía de Ron Reiring, 2022.
+- **Novokuznetskaya Metro (19938273056).jpg** — La estación de Novokuznétskaya, en Moscú, terminada en plena guerra, en 1943.
+- **Old alarm clock on the bookshelf - 50233824038.jpg** — Un despertador de cuerda con campanas, sobre una estantería de libros. Fotografía de Nenad Stojkovic.
+- **Old wooden wheels (53620865911).jpg** — Ruedas de carro de madera apoyadas en un pajar. Fotografía de Winniepix, 2024.
+- **Optical fiber in protective coating that transports a Laser beam - Laser Physics Lab - NTNU-NT.jpg** — Una fibra óptica transportando un haz láser, en un laboratorio de física. NTNU.
+- **Orpiment crystals (Twin Creeks Mine, Humboldt County, Nevada, USA) (18720354540).jpg** — Cristales de oropimente, el otro mineral de arsénico, de un amarillo muy vivo. Fotografía de James St. John.
+- **Oseberg A - Waves II.jpg** — Una ola rompiendo sobre la plataforma Oseberg A, en el mar del Norte. Fotografía de Richard Child.
+- **Oseberg A - Waves IV.jpg** — La misma plataforma minutos después, con el mar reventando entre las patas de hormigón. Fotografía de Richard Child.
+- **Oseberg Ship - Viking Ship Museum (Oslo).jpg** — El barco de Oseberg, enterrado hacia el año 834 y desenterrado en 1904. Museo de Barcos Vikingos, Oslo.
+- **Pages of an old book fluttering in the breeze near a sunlit window during the afternoon.jpg** — Las páginas de un libro viejo moviéndose con el aire junto a una ventana. Fotografía de Shixart1985.
+- **Palmyra, Syria - 2.jpg** — Las ruinas de Palmira, en Siria, al atardecer. Fotografía de James Gordon, 2008.
+- **Papyrus in Greek regarding tax issues (3rd ca. BC.) (3210586934).jpg** — Papiro griego del siglo III antes de Cristo, de la misma época que la biblioteca. Fotografía de Tilemahos Efthimiadis.
+- **Paris 75004 Allée Célestin-Hennion 20170527 kiosque de journaux.jpg** — Quiosco de prensa en París, con las postales colgadas en el expositor de la calle.
+- **PCB HDR Macro Fisheye (3596077174).jpg** — Macro de una placa base de ordenador, 2009.
+- **Père Lachaise Cemetery @ Paris (30636899203).jpg** — Una de las avenidas del cementerio del Père-Lachaise, en París. Fotografía de Guilhem Vellut.
+- **Père Lachaise Cemetery @ Paris (31408231786).jpg** — Panteones y arbolado del Père-Lachaise en invierno. Fotografía de Guilhem Vellut.
+- **Père Lachaise Cemetery @ Paris (31444718565).jpg** — Monumentos y sepulturas del Père-Lachaise. Fotografía de Guilhem Vellut.
+- **Planted Tank 03 - Flickr - The Wandering Angel.jpg** — Un acuario plantado con peces neón entre la vegetación. Fotografía de The Wandering Angel.
+- **Port and lighthouse overnight storm with lightning in Port-la-Nouvelle.jpg** — Tormenta nocturna sobre el puerto de Port-la-Nouvelle, Francia, 2014.
+- **Portable Inkwell Initialled "D.M.W. (48708729353).jpg** — Otro tintero de viaje, con las iniciales de su dueño grabadas. Auckland Museum.
+- **Post-Medieval Coin, Colonial Spanish silver 1-real 'cob' piece of Philip III or Philip IV (FindID 898989).jpg** — Un real recortado a martillo, de los que se acuñaban en América.
+- **Post-medieval stone shot (FindID 974247).jpg** — Balas de piedra talladas para cañón, de los primeros tiempos de la artillería.
+- **Primeval (3) (8114884314).jpg** — Árboles jóvenes creciendo entre los viejos en un bosque maduro de Pensilvania, en octubre.
+- **Puolauskone Finlaysonilla vuonna 1956. Kuva Vapriikin kuva-arkisto. (16248845287).jpg** — Una máquina de bobinar en la hilatura de algodón de Finlayson, 1956. Archivo del museo Vapriikki.
+- **Quantum dot circuit (24964113547).jpg** — Imagen de microscopio electrónico: así se mira hoy lo que hay dentro de un metal.
+- **Raikoke Volcano Erupts (48132762546).jpg** — Una columna de ceniza saliendo del volcán Raikoke, fotografiada desde la Estación Espacial en 2019. NASA.
+- **Realgar & pararealgar & calcite on marble (Middle Eocene mineralization, 39 Ma; Getchell Mine, northern Osgood Mountains, northern Nevada, USA) 2 (18909791261).jpg** — Cristales de rejalgar, un sulfuro de arsénico, sobre calcita blanca. Mina de Getchell, Nevada. Fotografía de James St. John.
+- **Red Sun and Waves (37665695081).jpg** — Sol enrojecido por el humo de un incendio sobre el mar, 2017. Fotografía de simonrumi.
+- **Removal of screened solid material (6898385444).jpg** — Retirada de los sólidos retenidos en las rejas de una depuradora, Ruai (Kenia), 2011. Fotografía de SuSanA Secretariat.
+- **Rio Arga en Puente la Reina.jpg** — El río Arga a su paso por Puente la Reina, Navarra, uno de los ríos que el libro clasifica. Fotografía de aherrero, 2009.
+- **Ripples (15108827028).jpg** — La arena de una playa vista a ras de suelo. Fotografía de oatsy40.
+- **Rosetta Stone - British Museum (2931856207).jpg** — La piedra de Rosetta en el Museo Británico de Londres. Fotografía de Cristian Bortes.
+- **Rouen (30269029424).jpg** — Otra calle de Ruan, de las que se llamaban por lo que se hacía en ellas.
+- **Rouen (30784933502).jpg** — Calle del casco antiguo de Ruan, en Normandía, con las fachadas de entramado.
+- **Rural electricity - Flickr - kevin dooley.jpg** — Postes y cables cruzando el campo: la línea que dejó sin trabajo a los jinetes.
+- **Salle des gens d'armes de la Conciergerie (45904398255).jpg** — La sala de los hombres de armas de la Conciergerie, en el antiguo palacio de justicia de París. Fotografía de Xin Sy.
+- **Samurai Museum Tokyo 2017 2.jpg** — Armaduras en el Museo del Samurái de Tokio. Fotografía de Monica Wong.
+- **SDO's Ultra-high Definition View of 2012 Venus Transit (171 Angstrom Full Disc).jpg** — Venus cruzando por delante del Sol en 2012, visto en ultravioleta por el observatorio SDO. NASA.
+- **Sea Anchor (36776431450).jpg** — Ancla flotante naranja largada desde una embarcación frente a Port Fairy, Victoria (Australia), 2017. Fotografía de Ed Dunens.
+- **Semaphore signals at Droitwich Spa (16729278074).jpg** — Señales de brazo de ferrocarril, el aparato del que salió el semáforo. Fotografía de Jeremy Segrott.
+- **Shadows on Lotus Leaf.jpg** — Hoja de loto a contraluz, 2017.
+- **Shinkansen 500 (8086233447).jpg** — La serie 500 circulando por vía abierta. Fotografía de Takeshi Kuboki, 2010.
+- **Signal flags on a warship of ROCN 20201218.jpg** — Banderas de señales izadas en un buque de guerra durante una ceremonia, 2020.
+- **Slices of sourdough bread.jpg** — Rebanadas de pan de masa madre, con la miga llena de agujeros de tamaños distintos. Fotografía de Angel Ganev, 2015.
+- **Snuffer and wick trimmer (51360098113).jpg** — Despabiladeras y apagavelas de latón: las tijeras cortan la mecha y la caja recoge el trozo. Auckland Museum.
+- **Solar Eclipse April 8, 2024.jpg** — La corona solar durante el eclipse total del 8 de abril de 2024.
+- **St. Andrews Church - Flickr - rustyruth1959.jpg** — El interior de una iglesia parroquial inglesa. Fotografía de rustyruth1959.
+- **Steam Under the Stars (5850822958).jpg** — Locomotora de vapor C&O 614 maniobrando de noche en Clifton Forge, Virginia, 2011. Fotografía de jpmueller99.
+- **Still smoking (2329760820).jpg** — Cigarrillo encendido consumiéndose solo en un cenicero.
+- **Studer B67 reel-to-reel audio tape recorder, ca. 1978 (cropped and edited, larger 10 inch tapes).jpg** — Magnetófono de bobina abierta de finales de los setenta. Fotografía de Robert Taylor.
+- **Sunset Sailing on the Tall Ship Inland Seas (48312103756).jpg** — Un velero navegando al atardecer. Fotografía de Erik Drost.
+- **Surtsey by Brian Gratwicke in 2014.jpg** — Panorámica de Surtsey, 2014.
+- **Surtsey by Brian Gratwicke.jpg** — La isla de Surtsey, Islandia, 2014.
+- **T Lymphocyte, also known as a T cell (yellow color).jpg** — Un linfocito T visto al microscopio electrónico y coloreado. Fotografía del NIAID.
+- **Taganskaya metro station (19940876236).jpg** — La estación de Tagánskaya, en el metro de Moscú, abierta en 1950.
+- **Taylor’s Port Wine Cellar, Vila Nova de Gaia, Oporto (48730636822).jpg** — Barricas apiladas en una bodega de vino de Oporto, en Vila Nova de Gaia. Fotografía de Ray in Manila.
+- **The Citadelle Laferrière, Haiti (7761638618).jpg** — La Citadelle Laferrière, levantada en Haití tras la independencia. Fotografía de Alex Proimos, 2012.
+- **The Great wall - by Hao Wei.jpg** — La Gran Muralla china serpenteando por las montañas al amanecer. Fotografía de Hao Wei, 2005.
+- **The guppy (51713178218).jpg** — Un guppy, uno de los peces de acuario más extendidos del mundo. Fotografía de Carlos Eduardo Joos.
+- **The Mall Central Park New York City October 30 2022 - Flickr - Anthony Quintano.jpg** — El paseo del Mall, en Central Park, una mañana de otoño. Fotografía de Anthony Quintano.
+- **The top of Lisbon Santa Justa Lift (26463851550).jpg** — La parte alta del elevador de Santa Justa, en Lisboa, inaugurado en 1902. Fotografía de Pedro Ribeiro Simões.
+- **The Turk.jpg** — Reconstrucción del Turco, el autómata ajedrecista de Kempelen, en el Heinz Nixdorf MuseumsForum de Paderborn.
+- **Tour du Gros-Horloge (30268931094).jpg** — El Gros-Horloge de Ruan, con su esfera dorada sobre el arco de la calle. Fotografía de Jorge Láscar.
+- **Tusker in the African savannah (28976037938).jpg** — Un elefante africano con los colmillos crecidos, en la sabana de Kenia.
+- **Twilight Trails, Indian River Inlet's Evening Glow - Flickr - aparlette.jpg** — Estelas de tráfico al anochecer sobre el puente de Indian River Inlet, Delaware, 2023. Fotografía de Andrew Parlette.
+- **Type furniture.jpg** — Cajas de madera con las piezas que sujetan los tipos dentro de la rama de imprenta. Museo del Escritor, Edimburgo.
+- **Used Drill Head of a TBM (Tunnelbohrmaschine) VII.jpg** — Cabeza de corte usada de una tuneladora, retirada tras la excavación. Fotografía de Marcel Grieder, 2010.
+- **VAX 11 780 Computer ー Computer History Museum (30861740596).jpg** — Un VAX-11/780, el otro objetivo del gusano y el ordenador corriente en las universidades de entonces: ocupaba un armario entero. Museo de Historia de la Informática, California. Fotografía de Ik T, 2016.
+- **Vejer de la Frontera (40424083591).jpg** — Vejer de la Frontera, en la provincia de Cádiz, encaramado en su cerro.
+- **Victorian Penfold in snow.jpg** — Un buzón victoriano del modelo Penfold, cubierto de nieve. Fotografía de kitmasterbloke.
+- **Vintage edison light bulb.jpg** — Una bombilla de filamento a la vista, como las que había que alimentar.
+- **Vulpes Vulpes in snow.jpg** — Otro zorro rojo. Fotografía de peggycadigan.
+- **Wells Cathedral Clock (28080771737).jpg** — Esfera del reloj astronómico de la catedral de Wells, en Inglaterra, del siglo XIV.
+- **Western Wall and Dome of the Rock Jerusalem -10 (33400391921).jpg** — El muro y la Cúpula de la Roca vistos desde la explanada, en Jerusalén.
+- **Whanganui River - New Zealand.jpg** — El río Whanganui, en la isla norte de Nueva Zelanda, entre colinas de pasto y bosque.
+- **Winnipeg (6387054355).jpg** — Edificios del centro de Winnipeg, Canadá, 2011.
+- **Wooden escalator at Greenford 4.jpg** — Peldaños de madera de una escalera mecánica del metro de Londres, en la estación de Greenford. Fotografía de R/DV/RS, 2008.
+- **Worker at Boundary Dam, 1967 (50669284287).jpg** — Un operario con casco trabajando dentro de la turbina de la presa de Boundary, en 1967. Archivos Municipales de Seattle.
+- **Wuerfel - Flickr - wilhei55.jpg** — Un par de dados. Fotografía de Willi Heidelbach.
+
+## CC BY-SA 3.0 — 198 imágenes
+
+- **13-02-27-spielbank-wiesbaden-by-RalfR-093.jpg** — Ruleta del casino de Wiesbaden con la bola ya parada en su casilla.
+- **13-02-27-spielbank-wiesbaden-by-RalfR-094.jpg** — Otra vista de la misma ruleta, con el cilindro y las casillas.
+- **1831 coining press (M.A.N. 1873-22-19) 01.jpg** — La misma prensa vista entera, con el volante y los contrapesos.
+- **1831 coining press (M.A.N. 1873-22-19) 02.jpg** — Prensa de acuñar de 1831, del tipo que sustituyó al martillo. Museo Arqueológico Nacional, Madrid.
+- **1974 Citroen D-Special headlight.jpg** — Faro de un Citroën D-Special de 1974.
+- **2006-01-28 drop-impact backjet.jpg** — Chorro de retorno de una gota al caer sobre una superficie de agua. Fotografía de Roger McLassus, 2006.
+- **2010-Catedral de Santiago de Compostela-Galicia (Spain) 3.jpg** — Las torres de la catedral de Santiago de Compostela, 2010. Fotografía de Luis Miguel Bugallo Sánchez.
+- **2013 Watergate complex 01.JPG** — El complejo Watergate, junto al Potomac en Washington, 2013. Fotografía de Farragutful.
+- **2013 Watergate complex 02.JPG** — Otra vista del mismo complejo, con las oficinas donde entraron aquella noche. Fotografía de Farragutful, 2013.
+- **20140205-Brandenburger-Tor-night.jpg** — La Puerta de Brandeburgo de Berlín iluminada de noche. Fotografía de Sebaso, 2014.
+- **33rpm Record Grooves.JPG** — Los surcos de un disco de vinilo de 33 revoluciones, vistos muy de cerca.
+- **Acetaia Modena.JPG** — Una vinagrería de Módena: barricas pequeñas tapadas solo con un paño para que entre el aire. Fotografía de Chapeau.judicael.
+- **Airplane wing sky and clouds.jpg** — Ala de un avión entre nubes, 2016.
+- **Arsenale ingresso Venezia notte.jpg** — La puerta del Arsenal de noche. Fotografía de Wolfgang Moroder.
+- **Attlebury Schoolhouse, Stanford, NY.jpg** — Escuela de Attlebury, en Stanford, Nueva York, de las que cerraban según la faena del campo.
+- **Audi TT 8S Matrix-LED-Scheinwerfer Abblendlicht LED-Tagfahrlicht.jpg** — Un faro de diodos encendido en la luz de cruce, de 2014. La luz sale de puntos muy pequeños y muy blancos, y eso es lo que hace que moleste más aunque cumpla la norma. Fotografía de Mario von Berg.
+- **Aurora borealis above Storfjorden and the Lyngen Alps in moonlight, 2012 March.jpg** — Aurora boreal sobre el Storfjorden y los Alpes de Lyngen, en Noruega. Fotografía de Simo Räsänen.
+- **Austria - Admont Abbey Library - 1326.jpg** — Biblioteca de la abadía de Admont, Austria.
+- **Baltimore Aquarium - Fish+ Reflection 1.jpg** — Peces vistos a través del panel de un acuario público de Baltimore. Fotografía de Jarek Tuszyński.
+- **Baltimore Aquarium - Fish+ Reflection 2.jpg** — Otro panel del acuario de Baltimore, con los peces al otro lado. Fotografía de Jarek Tuszyński.
+- **Bamboo scaffolding on a building in Hong Kong - detail.JPG** — Las uniones de un andamio de bambú: cañas cruzadas y atadas con cinta de nailon. Fotografía de Clément Bucco-Lechat.
+- **Bamboo scaffolding on a building in Hong Kong (1).JPG** — Una torre entera envuelta en andamio de bambú, en Hong Kong. Fotografía de Clément Bucco-Lechat.
+- **Bamboo scaffolding on a building in Hong Kong (2).JPG** — Un edificio en obras entre los rascacielos de Hong Kong. Fotografía de Clément Bucco-Lechat.
+- **Beveled tip of a hypodermic needle 20090714 003.JPG** — Punta biselada de una aguja hipodérmica fotografiada muy de cerca.
+- **Bibliothèque monastère Strahov.jpg** — La sala filosófica de la biblioteca del monasterio de Strahov, en Praga. Fotografía de Yelkrokoyade.
+- **Bingham Canyon Open Pit Copper Mine 2012-09-17 21-25-59.jpg** — Mina de cobre a cielo abierto de Bingham Canyon, Utah, 2012. Fotografía de Jet6581. Las tierras raras salen de explotaciones parecidas.
+- **Boat on Pontcysyllte Aqueduct.jpg** — El mismo acueducto visto desde el camino lateral. Fotografía de Grahamec.
+- **Boeing 727-228-Adv, Ariana Afghan Airlines AN1450645.jpg** — Un Boeing 727 en pista, el modelo con la escalerilla trasera que se abre en vuelo.
+- **Bolinus brandaris 01.jpg** — Concha de <em>Bolinus brandaris</em>, el caracol del que se sacaba el tinte. Fotografía de H. Zell.
+- **Bronze Age Helmets, Nationalmuseet Copenhagen.jpg** — Cascos con cuernos de la Edad del Bronce, mil años anteriores a los vikingos. Museo Nacional de Dinamarca.
+- **Brunton.JPG** — Brújula de geólogo con espejo y limbo graduado, abierta sobre la mano.
+- **Bur Macro BlackBg.jpg** — Una cabezuela de cardo vista de cerca: cada punta acaba en un gancho. Fotografía de Zephyris.
+- **Cadran solaire Louvre Ma 5074 n1.jpg** — Reloj de sol romano de mármol, con el cuenco tallado de líneas rectas y curvas. Museo del Louvre, París. Fotografía de Coyau.
+- **Campos de molinos de viento en Consuegra.JPG** — Los molinos de Consuegra sobre el cerro Calderico, en Toledo.
+- **Cannonball (194504063).jpeg** — Murallas de Dubrovnik, 2017.
+- **Car scrapyard at Cleveland Street, Birkenhead (2).JPG** — Desguace en Cleveland Street, Birkenhead, Inglaterra, 2012.
+- **Carcassonne walls tower.jpg** — Murallas y torres de la ciudad fortificada de Carcasona, en Francia.
+- **Card alignment station.agr.JPG** — Mesa para alinear a mano un mazo de tarjetas antes de meterlo en la máquina. Computer History Museum. Fotografía de Arnold Reinhold.
+- **Casco viejo de Dubrovnik, Croacia, 2014-04-14, DD 04.JPG** — El puerto amurallado de Dubrovnik, la antigua Ragusa, Croacia, 2014.
+- **Caumasee with funicular 20210614.jpg** — El pequeño funicular que baja al lago de Cauma, en los Grisones suizos. Fotografía de Daniel Kraft.
+- **Centro de Transfusión de la Comunidad de Madrid.jpg** — El Centro de Transfusión de la Comunidad de Madrid. Fotografía de Tiia Monto.
+- **Cern datacenter.jpg** — Sala de servidores del CERN. Fotografía de Hugo van Meijeren.
+- **Cervus elaphus Luc Viatour 3.jpg** — Ciervo común (Cervus elaphus) en el bosque de Freyr, cerca de Han-sur-Lesse, Bélgica. Fotografía de Luc Viatour, 2011.
+- **Chimborazo 01.jpg** — El volcán Chimborazo desde el páramo, Ecuador, 2013.
+- **Chimborazo 04.jpg** — El Chimborazo desde el altiplano ecuatoriano, 2014.
+- **Chimborazo 05.jpg** — Ladera del Chimborazo, Ecuador, 2014.
+- **Christopher Brown, Liverpool.jpg** — Otra casa de empeños de Liverpool con el rótulo de las tres bolas. Fotografía de Rodhullandemu.
+- **Circus Conelli - Bauschänzli - Münsterbrücke IMG 4326.JPG** — La carpa del Circus Conelli iluminada sobre el Limmat, Zúrich, diciembre de 2009. Fotografía de Roland zh.
+- **Citroen DS 19 1957.JPG** — Citroën DS 19 de 1957, cuando el frontal aún llevaba dos faros.
+- **Cliffs at Cape Pine Newfoundland.jpg** — Acantilados de Cape Pine, en el sur de Terranova.
+- **Clinical thermometer 38.7.JPG** — Termómetro marcando 38,7 grados. Fotografía de Menchi, 2005.
+- **Coffee Beans Photographed in Macro.jpg** — Granos de café fotografiados en macro. Fotografía de Robert Knapp.
+- **Collapsible top hat IMGP9692.jpg** — Una chistera plegable, del tipo que se llevaba doblada bajo el brazo. Fotografía de Nikodem Nijaki.
+- **Coral Reef Under the Ocean.jpg** — Arrecife visto desde arriba, con el agua turquesa. Fotografía de 2025.
+- **Crane against blue sky.jpg** — Grúa torre recortada contra el cielo, con el contrapeso en la parte trasera del brazo. Fotografía de ProjectManhattan, 2014.
+- **Cup with picollo coffee in Třebíč, Třebíč District.jpg** — Una taza pequeña de café servida en un local. Fotografía de Frettie.
+- **Deux artisans électriciens avec leurs apprentis sur un chantier (1969).jpg** — Electricistas y aprendices en una obra, en 1969.
+- **Dewargefäß Deutsches Museum.jpg** — Un vaso Dewar de vidrio plateado por dentro. Deutsches Museum. Fotografía de LepoRello.
+- **Dinan 21 Cartes postales 2007.jpg** — Postales a la venta delante de una tienda en Dinan, en la Bretaña francesa. Fotografía de JLPC.
+- **Double Figure-Eight Loop.jpg** — Un nudo de ocho doble, de los que se usan en escalada. Fotografía de Arbitrarily0.
+- **Dress form IMGP0821.jpg** — Maniquí de sastre de la primera mitad del siglo XX, forrado de lino y rematado con un pomo de madera.
+- **EAN-13 barcode on a gummy candy package.jpg** — Un código de barras EAN-13 impreso en el envase de unas gominolas, visto muy de cerca.
+- **East dry moat of Nagoya Castle.jpg** — Foso seco en el lado este del castillo de Nagoya, en Japón.
+- **Eisblumen am Fenster des Warteraums, Bahnhof Wolfsbergkogel; 29.11.2018.jpg** — Flores de hielo en la ventana de la sala de espera de una estación austriaca.
+- **Eix Transversal C-25 04.jpg** — La C-25 atravesando las sierras del interior de Cataluña. Fotografía de Jordi Capdevila Solà.
+- **Eix Transversal C-25 05.jpg** — Otro tramo de la misma carretera catalana entre montañas.
+- **Electric fan early GE.JPG** — Ventilador eléctrico primitivo de General Electric.
+- **Electric fan Emerson Junior.JPG** — Ventilador eléctrico Emerson Junior.
+- **Elephant in Sauvti (close up) - Botswana - panoramio.jpg** — Elefante africano fotografiado de cerca en Savuti, Botsuana.
+- **Ephesus Celsus Library Façade.jpg** — La fachada de la biblioteca de Celso, en Éfeso, siglo II: de la biblioteca solo queda esto. Fotografía de Benh Lieu Song.
+- **Fanjeaux-Charpente des Halles-01.jpg** — La armadura de madera de la misma lonja de Fanjeaux vista desde abajo. Fotografía de Daniel Villafruela.
+- **Fenetre bleue Jurilovca Musee Village Bucarest.jpg** — La ventana de una casa de 1898 con los postigos entreabiertos. Museo del Pueblo, Bucarest. Fotografía de Myrabella.
+- **Flügel und Windrose Tjücher-Mühle.JPG** — La rueda de orientación en la parte de atrás del tejado de un molino de Frisia Oriental. Fotografía de 4028mdk09.
+- **Folded kusuri armor.JPG** — Malla de anillas de una armadura japonesa: el mismo principio de los guantes de cota metálica.
+- **FtLauderdaleAntiqueCarMusuemAug08GasPumpsPackardParts.jpg** — Dos surtidores antiguos con el cilindro de cristal graduado a la vista. Museo del Automóvil de Fort Lauderdale. Fotografía de Infrogmation.
+- **Fushimi Inari-taisha senbon-torii, August 2019.jpg** — El túnel de pórticos torii de Fushimi Inari, en Kioto. Fotografía de Jason Zhang, 2019.
+- **FvfCoralnaBatoSRc0731 03.JPG** — Torres de alta tensión: la corriente alterna ganó porque se puede subir de voltaje y llevar lejos.
+- **Galerie Lafayette Haussmann Dome.jpg** — La cúpula de vidrio de los almacenes Galeries Lafayette, en París. Fotografía de Benh Lieu Song.
+- **Galloping Gertie fragment 01.jpg** — Fragmento conservado del puente de 1940, apodado «Galloping Gertie». Fotografía de Joe Mabel, 2012.
+- **Gare Du Nord Interior, Paris, France - Diliff.jpg** — La Gare du Nord de París bajo su bóveda de hierro. Fotografía de David Iliff.
+- **General Electric "Monitor-Top" refrigerator at Chaim Weizmann mansion.jpg** — Un frigorífico Monitor Top de finales de los años veinte, con el compresor redondo a la vista encima del armario. Fotografía de Mr. Shoval.
+- **GeorgianSilverForks.jpg** — Tenedores ingleses de plata del siglo XVIII, ya con cuatro púas.
+- **Glasabstapeln durch Roboter.jpg** — Un robot apilando planchas de vidrio a la salida de la cinta transportadora. Fotografía del grupo Grenzebach.
+- **Groote Schuur Hospital, Observatory, Cape Town, Western Cape. 02.JPG** — Hospital Groote Schuur de Ciudad del Cabo, donde se hizo la operación en 1967.
+- **Grue medievale.jpg** — Reconstrucción de una grúa medieval de rueda, con su tambor y su pescante de madera.
+- **HK Yau Ma Tei 廟衙 夜市 Temple Street night building facades pawn shop sign Apr-2013.JPG** — El letrero de una casa de empeños en Temple Street, Hong Kong. Fotografía de Marim68821.
+- **Holmdel Horn Antenna Full View.jpg** — La antena de bocina de Holmdel, Nueva Jersey, 2012.
+- **Holmdel Horn Antenna.jpg** — La misma antena vista de frente, 2012.
+- **Hordeum vulgare ripe, Gerst oogstrijp.jpg** — Espigas de cebada maduras en el campo, listas para la siega. Fotografía de Rasbak.
+- **Hungary Fortepan 94719.jpg** — Un surtidor de gasolina en Hungría, 1968. Fortepan.
+- **Iglesia de Guadalupe en Real de Catorce -024 5 6.jpg** — Camino a la iglesia de Guadalupe, en Real de Catorce, San Luis Potosí. Fotografía de Jaime Flores, 2012.
+- **Interior of Helsinki Airport Vantaa.jpg** — Interior de la terminal del aeropuerto de Helsinki-Vantaa.
+- **Jabalí - Madrid Río.JPG** — Jabalí en Madrid Río, 2012.
+- **Jeans Jeans Jeans.jpg** — Un montón de pantalones vaqueros doblados.
+- **Jerzu, Ogliastra, Sardinia, Italy - panoramio (5).jpg** — El pueblo de Jerzu, en la Ogliastra sarda, una de las comarcas llamadas zonas azules. Fotografía de 2012.
+- **Juignac 16 Labours-octobre 2011.jpg** — Campos recién arados en las lomas de la Charente, en octubre. Fotografía de JLPC.
+- **Just Another Postcard From Dubrovnik (242435497).jpeg** — Tejados y murallas de Dubrovnik, 2015.
+- **Korkeiche (Quercus suber) im Naturpark Los Alcornocales 8 - Detaillansicht.JPG** — Corteza de alcornoque (Quercus suber) en el parque natural de Los Alcornocales, Cádiz. Fotografía de Tschips, 2013.
+- **L'Anse aux Meadows, entrance to long house.jpg** — Entrada de una casa larga reconstruida en L'Anse aux Meadows, Terranova. Fotografía de D. Gordon E. Robertson.
+- **La Sagrada Familia - interior 5 - Barcelona - panoramio.jpg** — Bóveda y columnas de la Sagrada Familia, en Barcelona. Fotografía de 2013.
+- **Laki lava (1).jpg** — Colada de lava del Laki cubierta de musgo, 2009.
+- **Laki, Iceland 2012-07 E.JPG** — Los cráteres del Laki, Islandia, 2012.
+- **Laparoscopic operating theatre.jpg** — Quirófano moderno, donde hoy se cierran cortes pequeños con pegamentos quirúrgicos en vez de puntos.
+- **Laser DSC09088.JPG** — Demostración de un láser de helio-neón en el laboratorio Kastler-Brossel de París. Fotografía de David Monniaux.
+- **Leather tanning, Fes.jpg** — Las tinas de curtido y de tinte de Fez, cada una con una concentración distinta. Fotografía de Bernard Gagnon, 2005.
+- **Leeds Industrial Museum Hattersley standard loom batten 7048.JPG** — Telar mecánico en el Museo Industrial de Leeds, instalado en la que fue la mayor fábrica de paño del mundo.
+- **Lithium Energy Japan LEV50 Rechargeable Li-ion battery cell in Tokyo Motor Show 2011.jpg** — Celda recargable de iones de litio expuesta en el Salón del Automóvil de Tokio, 2011.
+- **Lithium-Ion Battery for BMW i3 - SB-LiMotive Cells.JPG** — Celdas de una batería de iones de litio para coche eléctrico. Fotografía de Rudolf Simon.
+- **Macro YKK Zipper.jpg** — Cremallera metálica cosida a una tela vaquera, vista en macro.
+- **Madrid - Hemiciclo del Congreso - 141203 100648.jpg** — Bóveda y tribunas del hemiciclo del Congreso de los Diputados, Madrid.
+- **Madrid - Hemiciclo del Congreso - 141203 100858.jpg** — Escaños del hemiciclo del Congreso de los Diputados, Madrid.
+- **Magic Roundabout, Swindon.jpg** — La llamada rotonda mágica de Swindon: cinco minirrotondas alrededor de una sexta. Fotografía de SP13.
+- **Mahane Yehuda Market sales 2.JPG** — Puesto de especias en el mercado de Mahane Yehuda, en Jerusalén, con los rótulos en hebreo.
+- **Mandeville Telephone parts.JPG** — Piezas de teléfonos viejos amontonadas en una tienda de antigüedades de Luisiana.
+- **Mate de coca Stevage.jpg** — Un mate de coca servido en Villazón, Bolivia: la hoja infusionada, como se toma allí desde siempre. Fotografía de Stevage.
+- **Mechanical-calculator-Brunsviga-15-01a.jpg** — Una calculadora mecánica Brunsviga, fabricada entre 1934 y 1947. Con una máquina de manivela como esta se echaban estas cuentas antes del ordenador. Fotografía de Uwe Aranas, 2015.
+- **Musee des Egouts de Paris FRA 002.JPG** — Galería del alcantarillado de París, visitable como museo. Fotografía de ignis, 2006.
+- **Narodni Divadlo, Estates Theater, Prague - 8638.jpg** — Las butacas del Teatro de los Estados de Praga, vistas desde arriba. Fotografía de Jorge Royan.
+- **Narodni Divadlo, National Theater, Prague - 8779.jpg** — Los palcos del Teatro Nacional de Praga. Fotografía de Jorge Royan.
+- **Nautical Signal Flags.JPG** — Banderas de señales listas para usar a bordo del buque SS Jeremiah O'Brien.
+- **Neodymium magnet balls 1370962 Nevit.jpg** — Bolas de imán de neodimio niqueladas, de unos cinco milímetros. Fotografía de Nevit Dilmen, 2013.
+- **Nipkows apparat Tekniska museet.jpg** — Aparato de televisión mecánica con disco de Nipkow, en el Museo Técnico de Estocolmo.
+- **Nokia headquarters in Espoo.jpg** — Sede de Nokia en Espoo, a las afueras de Helsinki.
+- **Nutmeg on Tree.jpg** — Frutos de nuez moscada todavía cerrados en la mata. Fotografía de Joe Ravi.
+- **Old suitcases.JPG** — Baúles y maletas históricos expuestos junto a un vagón en el Museo del Transporte de Múnich.
+- **Otto Pilzecker H. Otto Gruss aus Hannover 1898 Auesseres Stadtgebiet. Letzter Kosaken-Sitz an der Weide No. 1 Bildseite.jpg** — Postal litografiada «Gruss aus Hannover», de 1898, con el mensaje escrito a mano sobre la propia ilustración.
+- **Panorama from Guinardó Park, Barcelona ESP.jpg** — Barcelona vista desde el parque del Guinardó, con la cuadrícula del Eixample bajando hasta el mar. Fotografía de Benlet26.
+- **Panthera tigris corbetti (Tierpark Berlin) 841-723-(118).jpg** — Tigres de Indochina sobre las rocas de su recinto, en el Tierpark de Berlín. Fotografía de 2012.
+- **Pastel Sunset At Dubrovnik (228481967).jpeg** — Atardecer sobre Dubrovnik, 2015.
+- **Pawnbroker's sign, Queen Street Edinburgh.jpg** — Las tres bolas doradas, el rótulo tradicional de las casas de empeño, en Edimburgo. Fotografía de Kim Traynor.
+- **Peacock Feather Close Up (201385355).jpeg** — Pluma de pavo real vista de cerca, 2017.
+- **Père-Lachaise - Division 4 - Dantan 04.jpg** — Medallón de mármol en una tumba del cementerio de Père-Lachaise, París. Fotografía de Coyau.
+- **Pont du Gard 2017.jpg** — El acueducto romano del Pont du Gard, en el sur de Francia. Fotografía de Wolfgang Moroder.
+- **Pont du Gard aqueduct at sunset (sat10mar2012-18.24h).jpg** — El Pont du Gard, en el sur de Francia, al atardecer. Fotografía de Rik Schuiling, 2012.
+- **Popcorn - Studio - 2011.jpg** — Granos de maíz para palomitas, sin reventar.
+- **Popcorn 6.jpg** — Palomitas reventadas junto a los granos que no llegaron a abrirse. Fotografía de Deavmi.
+- **Puerta del Sol - Reloj.jpg** — La esfera del reloj de la Puerta del Sol de cerca. Fotografía de Tamorlan.
+- **Punched card program deck.agr.jpg** — Un mazo de tarjetas perforadas: un programa entero, una instrucción por tarjeta. Fotografía de Arnold Reinhold.
+- **Rapa Nui, Rano Raraku.JPG** — Otra de la misma ladera, vista desde abajo. Las dos personas del fondo dan la medida: las mayores pasan de las setenta toneladas. Fotografía de Javier Ramos Pinochet, 2012.
+- **Red blood cells (2).jpg** — Glóbulos rojos al microscopio electrónico de barrido.
+- **Renault Laguna 01 airbag by-dpc.jpg** — Los airbags disparados de un turismo tras un accidente. Fotografía de David Pérez.
+- **Revox B77 MK II reel-to-reel audio tape recorder, ca. 1982 (cropped and edited).jpg** — Un magnetófono de bobina abierta de los años ochenta. Fotografía de Norbert Schnitzler.
+- **Rodgers Theatre, 204-224 N. Broadway Street, Poplar Bluff, Mo, USA.jpg** — El cine Rodgers, abierto en 1949, con su torre luminosa. Fotografía de Michael Gäbler.
+- **Rusty keys Schlüssel Keys on key rings Schlüsselbund 01.JPG** — Decenas de llaves antiguas de hierro, enganchadas en sus aros sobre una mesa de madera. Fotografía de Iswoar.
+- **Salisbury Cathedral, tower interior, treadmill crane.jpg** — Grúa de rueda medieval conservada en lo alto de la torre de la catedral de Salisbury.
+- **Sand Clock.jpg** — Otro reloj de arena con la arena a medio caer.
+- **Sand dune with animal track.JPG** — El rastro de un animal cruzando una duna. Cuando la presa desaparece de la vista, esto es lo único que queda. Fotografía de Brocken Inaglory, 2007.
+- **Savons d'Alep traditionnels.jpg** — Jabones de Alepo tradicionales, hechos con aceite de oliva y de laurel.
+- **Schloss Schönbrunn von der Gloriette aus..jpg** — El palacio de Schönbrunn, del que el zoo era el jardín de fieras. Fotografía de Erlingerl1.
+- **Secadero natural de la empresa Jamón Or de Guijuelo, Salamanca.jpg** — Un secadero natural de jamones en Guijuelo, Salamanca. Cada pieza pierde ahí casi un tercio de su peso. Fotografía de Guanbirra, 2011.
+- **Semmelweis-Ulloi26.JPG** — Facultad de medicina de la Universidad Semmelweis, en Budapest, que lleva su nombre.
+- **Sewing needle eye with thread.jpg** — El ojo de una aguja moderna con el hilo pasado, visto de muy cerca. Fotografía de Dmeranda.
+- **Shelf Cloud 4 8 2013 (146961335).jpeg** — Una nube de estante avanzando por delante de una tormenta. Fotografía de Sumie Dh.
+- **Show window, mannequin, Fortuna department store, Fontana department store Fortepan 76444.jpg** — Escaparate de unos grandes almacenes con maniquíes de caballero, 1990. Fortepan.
+- **Singapore Recycling-bins-01.jpg** — Contenedores de reciclaje en unos jardines de Singapur.
+- **Sorghum bicolor (Moench).JPG** — Detalle de la panoja de sorgo, el racimo que remata el tallo.
+- **Sorghum bicolor.JPG** — Panojas de sorgo (Sorghum bicolor) maduras en el campo.
+- **Sorghum Harvest.jpg** — Una cosechadora recogiendo sorgo en Oklahoma, 2014.
+- **South coast of Greenland 03.jpg** — La costa sur de Groenlandia desde el aire. Fotografía de Hans Bernhard.
+- **Space Shuttle external tank foam block.JPG** — Bloque de espuma aislante del depósito externo del transbordador espacial.
+- **Sputnik1MoFS.JPG** — Otra réplica del Sputnik 1, en el Museum of Flight de Seattle. Fotografía de Ciar.
+- **Staatsarchiv Zürich.JPG** — Un libro de archivo deshecho por el mismo motivo: las hojas se han roto por donde había letra. Archivo del Cantón de Zúrich. Fotografía de Juerg Hug, 2011.
+- **Steam locomotive Sofia - Bankya.jpg** — Locomotora de vapor en la línea de Sofía a Bankya, Bulgaria, 2011. Fotografía de Спасимир.
+- **Strahov Library, Prague - 7501.jpg** — La sala filosófica de la biblioteca de Strahov, en Praga. Fotografía de Jorge Royan.
+- **Stubnerkogel11.JPG** — La estación alta del mismo teleférico, a más de dos mil metros. Fotografía de Wald1siedel.
+- **Stubnerkogelbahn1.JPG** — El teleférico del Stubnerkogel, en Austria, en invierno. Fotografía de Wald1siedel.
+- **Syringe with needle (2).JPG** — Jeringas de distintos tamaños con sus agujas puestas.
+- **The British Museum Interior 001.jpg** — Otra vista del interior del Museo Británico.
+- **The British Museum Interior 005.jpg** — La cubierta acristalada del Gran Atrio del Museo Británico, en Londres.
+- **The Giza Pyramids.jpg** — Las pirámides de Guiza, ya viejísimas cuando Cleopatra nació. Fotografía de Morhaf Kamal Aljanee.
+- **The one-room classroom inside the Octagonal Schoolhouse in Essex, NY.JPG** — Aula única de la escuela octogonal de Essex, en el estado de Nueva York, conservada como estaba.
+- **Tobacco plants in rows; Clover, VA; 2013-07-14.JPG** — Plantación de tabaco en hileras cerca de Clover, en Virginia.
+- **TOPIO 3 3.JPG** — TOPIO, un robot humanoide diseñado para jugar al pimpón, en una feria de Tokio en 2009.
+- **TOPIO 3.jpg** — El mismo robot humanoide, de cuerpo entero, en la feria IREX de Tokio.
+- **Tourists taking pictures at Prime Meridian monument, Greenwich Observatory, London.jpg** — La línea del meridiano de Greenwich, desde donde se cuentan los husos horarios. Fotografía de Daniel Case.
+- **Triforium of the Temple Church, London.jpg** — El triforio circular de la misma iglesia por dentro. Fotografía de Shortenfs.
+- **Two JRC RC4580 dual op amps on a sound card PCB (144128909).jpg** — Componentes soldados en una placa de circuito impreso, vistos de cerca. Fotografía de Samtoucan.
+- **Ummerstadt, 2013-10-30, 011.jpg** — Casas antiguas de la pequeña ciudad de Ummerstadt, en Turingia. Fotografía de Tilman2007.
+- **Un jabalí .2.JPG** — Jabalí entre la maleza, 2013.
+- **US-market Citroën DS headlamps (1971 DS21).jpg** — Faros de un Citroën DS21 de 1971 en su versión para Estados Unidos.
+- **Vevey–Chardonne–Mont Pèlerin funicular railway 01.jpg** — La vía del funicular de Vevey a Mont Pèlerin bajando hacia el lago Lemán, en Suiza. Fotografía de Llez.
+- **Vevey–Chardonne–Mont Pèlerin funicular railway 04.jpg** — Uno de los dos coches del mismo funicular, con el piso escalonado para ir siempre horizontal. Fotografía de Llez.
+- **Vicuña - Chimborazo, Ecuador.jpg** — Vicuña en la reserva del Chimborazo, Ecuador, 2011.
+- **Vintage smith's workshop - 0158.jpg** — Taller de herrero conservado con sus herramientas, en Alemania.
+- **Vintage smith's workshop - 0169.jpg** — Un herrero forjando sobre el yunque: de este oficio salen Herrero, Smith, Ferrari y Schmidt. Fotografía de Jorge Royan.
+- **Vintage smith's workshop - 0172.jpg** — Herrero forjando una barra al rojo sobre el yunque, en un taller tradicional alemán.
+- **Vista del Puerto de Victoria desde Sky100, Hong Kong, 2013-08-09, DD 10.JPG** — El puerto de Victoria desde el mirador Sky100, Hong Kong, 2013.
+- **Vue aérienne du domaine de Versailles par ToucanWings - Creative Commons By Sa 3.0 - 003.jpg** — Los parterres de Versalles vistos desde el aire. Fotografía de ToucanWings.
+- **W.J Edwards, Old Swan.jpg** — Joyería y casa de empeños con las tres bolas en la esquina, en Liverpool. Fotografía de Rodhullandemu.
+- **Water droplets in a lotus leaf1.JPG** — Gotas sobre una hoja de loto, 2014.
+- **Waterfall in the Grotte, Parc des Buttes-Chaumont, Paris 19e 140427 1.jpg** — La gruta artificial del parque de Buttes-Chaumont, en París, levantada sobre una antigua cantera de yeso.
+- **White Cliffs of Dover 02.JPG** — Los acantilados blancos de Dover vistos desde el mar, 2012. Fotografía de Immanuel Giel.
+- **White House 05.jpg** — La Casa Blanca vista desde el norte, 2007. Fotografía de Ad Meskens.
+- **Windscreen wiper pilatus.jpg** — Limpiaparabrisas de un coche antiguo del cremallera del Pilatus, Suiza.
+- **Women Repairing Bicycle, c. 1895.jpg** — Cuatro mujeres arreglando una bicicleta, hacia 1895. Universidad Estatal de Montana.
+- **Wool fleece 69.jpg** — Vellón entero recién esquilado, extendido en un cobertizo de esquileo.
+- **Woolsack (Irish House of Lords).jpg** — El saco de lana de la antigua Cámara de los Lores irlandesa. Fotografía de Kaihsu Tai.
+- **Xian 12.JPG** — Los guerreros de terracota de Xi'an, en las fosas del mausoleo. Fotografía de ReeveJ, 2012.
+
+## CC BY 4.0 — 181 imágenes
+
+- **'One of the wards in the hospital at Scutari'. Wellcome M0007724 - restoration, cropped.jpg** — Litografía de William Simpson, 1856: una de las salas del hospital de Escútari. Colección Wellcome, Londres.
+- **2023 Afriican Games High jump 6705 17.jpg** — Salto de altura en los Juegos Africanos de Accra, 2023.
+- **2024 Total Solar Eclipse Corona.jpg** — Corona solar durante el eclipse total de abril de 2024.
+- **2024-02-20 Blood donation in Stadthalle Tauberbischofsheim 30.jpg** — Jornada de donación de sangre en el pabellón municipal de Tauberbischofsheim, en Alemania.
+- **2024-09-22 Casino de Monte Carlo.jpg** — El casino de Montecarlo, donde ocurrió aquella racha en agosto de 1913.
+- **2025-11-02 Black swan in Parque Dom Carlos I.jpg** — Cisne negro en un estanque del Parque Dom Carlos I, en Portugal. Fotografía de 2025.
+- **6 portable stethoscopes. Wellcome M0014330.jpg** — Seis estetoscopios portátiles de distintos modelos. Wellcome Collection.
+- **A bishop wearing spectacles and a monk reading a book. Repro Wellcome V0015821.jpg** — Un obispo con gafas y un monje leyendo, según una pintura de Pisanello. Wellcome Collection.
+- **A full Moon rises behind the ELT (potw2512a).tiff** — Luna llena saliendo detrás del Telescopio Extremadamente Grande, Chile, 2025.
+- **A selection of glass eyes from an opticians glas eye case. Wellcome L0036579.jpg** — Ojos de cristal soplados a mano, del estuche de un óptico. Colección Wellcome, Londres.
+- **A Vintage Lightning Storm at Kitt Peak.jpg** — Tormenta sobre el observatorio de Kitt Peak, Arizona, 2021.
+- **A Vision of the Repeal of the Window Tax. Wellcome M0012506.jpg** — Caricatura del año en que se derogó el impuesto: el sol vuelve a entrar en la casa y los niños lo saludan. «Hola, viejo amigo, cuánto nos alegra verte por aquí.» Colección Wellcome, Londres.
+- **Abandoned mining town in Bolivia.jpg** — Pueblo minero abandonado en Bolivia, 2017.
+- **Albarello drug jar used for cinchona bark, Spain, 1731-1770 Wellcome L0057419.jpg** — Bote de botica español del siglo XVIII para corteza de quina, rotulado «Cort. Calisay». Wellcome Collection.
+- **Albarello drug jar, Italy, 1720-1790 Wellcome L0057166.jpg** — Albarelo de botica italiano del siglo XVIII, pintado con un elefante. Wellcome Collection.
+- **Albarello pharmacy jar for mercury ointment, Italy, 1520-156 Wellcome L0057161.jpg** — Albarelo del siglo XVI destinado a un ungüento de mercurio. Wellcome Collection.
+- **Albarello pharmacy jar, Deruta, Italy, 1701-1900 Wellcome L0058722.jpg** — Albarelo de farmacia hecho en Deruta, Italia. Wellcome Collection.
+- **Albarello vase used to store smallage seeds, Italy, 1550 Wellcome L0057176.jpg** — Albarelo italiano de 1550 usado para guardar semillas de apio. Wellcome Collection.
+- **Alfred Nobel SPA.jpg** — Retrato de Alfred Nobel.
+- **ALMAs OSF An Oasis in the Desert.jpg** — Instalaciones del observatorio ALMA en el desierto de Atacama. Fotografía de J. Velásquez para el ESO, 2015.
+- **Amputation set, comprising saw, three large knives, one fing Wellcome L0057731.jpg** — Estuche de instrumental quirúrgico del siglo XIX, con sierra y cuchillos. Wellcome Collection.
+- **Amputation set, Europe, 1891-1910 Wellcome L0057842.jpg** — Instrumental quirúrgico europeo, entre 1891 y 1910, con su caja de esterilizar. Wellcome Collection.
+- **Ancient Egyptian bronze mirror, Egypt, 800-100 BCE Wellcome L0065470.jpg** — Espejo egipcio de bronce pulido, de entre los años 800 y 100 antes de Cristo. Wellcome Collection.
+- **Andaman Islands, Full moon night, Forest by the sea at night.jpg** — Noche de luna llena en la costa del mar de Andamán. Fotografía de Vyacheslav Argenberg.
+- **Año nuevo la paz 2024.jpg** — Fuegos de fin de año sobre La Paz, 2023. Fotografía de Jail Ibáñez.
+- **Apothecary's balance with steel beam and brass pans in woode Wellcome L0058880.jpg** — Balanza de boticario con platillos de latón y su caja de pesas diminutas. Colección Wellcome, Londres.
+- **Apothecary's balance, Europe, 1901-1930 Wellcome L0057866.jpg** — Otra balanza de botica europea, de principios del siglo XX.
+- **Aral Sea.jpg** — Barcos varados en la arena donde estaba el mar de Aral. Fotografía de Ecpirolli.
+- **Arctium lappa BW 2026 G1.jpg** — La bardana, la planta de esos cardos, en el campo. Fotografía de George Chernilevsky.
+- **Aurora and perseids.jpg** — Perseidas cruzando el cielo bajo una aurora. Fotografía de Stephan Sprinz, agosto de 2024.
+- **Automated License Plate Reader (ALPR) Disguised as Construction Barrel on Interstate 8, Big Horn, Arizona, March 2025.jpg** — Lector automático de matrículas camuflado dentro de un bidón de obras, interestatal 8, Arizona, 2025. Fotografía de Dugan Meyer.
+- **Badajoz. Campanario de la torre de la catedral. España. Spain.jpg** — El campanario de la catedral de Badajoz, del siglo XVI. Desde ahí se oía la hora en todo el pueblo a la vez. Fotografía de Carlos Teixidor Cadenas, 2025.
+- **Bankomat with folding lid.jpg** — Cajero sueco con la tapa abatible que se abre al meter la tarjeta.
+- **Bard-lès-Pesmes (Haute-Saône) Bâtiments et constructions hdsr S5 16.jpg** — Un postigo de tablas cerrado sobre el hueco de una ventana, en un pueblo del este de Francia. Fotografía de Hyppolyte de Saint-Rambert.
+- **Beit-Ha’Ir-Museum-Tel-Aviv.jpg** — La plaza Bialik de Tel Aviv, con el antiguo ayuntamiento convertido en museo.
+- **Billiard Table at Cooch Behar Palace 03.jpg** — La mesa de billar del palacio de Cooch Behar, en la India. Fotografía de Kingshuk Mondal.
+- **Black hole - Messier 87.jpg** — Primera imagen de un agujero negro, el de la galaxia M87. Event Horizon Telescope, 2019.
+- **Blue ridged glass bottle for arsenic, Europe, 1701-1935 Wellcome L0057809.jpg** — Frasco azul acanalado para arsénico: el relieve avisaba al tacto de que aquello no se bebía.
+- **Boeing B-17G Flying Fortress 124485 DF-A and Supermarine Spitfire Mk LFXVIe WZ-RR Duxford Flying Evening 2024 01.jpg** — Un B-17 y un Spitfire volando en formación. Fotografía de Julian Herzog, Duxford, 2024.
+- **Boeing B-17G Flying Fortress 124485 DF-A Duxford Flying Evening 2024 03.jpg** — Un B-17, el bombardero que salió de aquel avión de pruebas. Fotografía de Julian Herzog, Duxford, 2024.
+- **Boots (AM 762134-1).jpg** — Par de botas militares de la Primera Guerra Mundial. Auckland War Memorial Museum.
+- **Bronze mortar and pestle, European, 18th century Wellcome L0057078.jpg** — Mortero y mano de bronce europeos del siglo XVIII. Wellcome Collection.
+- **Broom maker in his workshop with a young attendant PK-T-33, PK-T-AW-2367.tiff** — Un escobero atando una escoba en su taller, dibujo de Gijsbertus van den Berg, 1799.
+- **Cadmium red pale oil paint 1.jpg** — Tubo de óleo con la pintura recién apretada sobre la paleta. Fotografía de W.carter.
+- **Cajero Automático frente a la Plaza de La Pintana 25-05-2025 (1).jpg** — Cajero automático en una plaza de La Pintana, en Santiago de Chile.
+- **Carrots at Ljubljana Central Market.JPG** — Manojos de zanahorias en el mercado central de Liubliana.
+- **Château d'If en Méditerranée (Ifremer 00542-65405 - 10791).jpg** — El castillo de If, frente a Marsella, donde encierran a Edmundo Dantés.
+- **Chemical apparatus. mid 19th C Wellcome M0018217.jpg** — Aparatos de química de mediados del siglo XIX: dos retortas y una campana de vidrio. Wellcome Collection.
+- **Child sarcophagus Louvre Ma329 n01.jpg** — Sarcófago de un niño romano. Museo del Louvre. Fotografía de Marie-Lan Nguyen.
+- **Clinical thermometer, Europe, 1851-1900 Wellcome L0058018.jpg** — Termómetro clínico europeo de la segunda mitad del siglo XIX, con su estuche. Wellcome Collection.
+- **Close-up of a Fire.jpg** — Llamas y brasas de cerca. Fotografía de Thomas Kirchel.
+- **Close-up view on Pecten maximus (Ifremer 00618-73027 - 28923).jpg** — Vieira viva (Pecten maximus), la concha de Santiago, en el fondo marino. Fotografía de Matthias Huber, Ifremer.
+- **Cobblers tripartite last early 20th century Sweden.jpg** — Horma de zapatero de tres piezas, de la primera mitad del siglo XX, en Suecia.
+- **Common Kingfisher 2025 09 28 03.jpg** — Martín pescador común (Alcedo atthis). Fotografía de Alexis Lours, 2025.
+- **Container cranes at the MPET- MSC PSA European Terminal in Port of Antwerp (Kieldrecht, Belgium) during the sunset civil twilight (DSCF3919).jpg** — Grúas de pórtico del puerto de Amberes al anochecer, Bélgica, 2018.
+- **Copy of the Squire-type ether inhaler first used in 1846 Wellcome L0057829.jpg** — Copia del inhalador de éter tipo Squire, el primero que se usó en un quirófano en 1846. Wellcome Collection.
+- **Crevasse at Breiðamerkurjökull, Iceland, 20240719 1437 2641.jpg** — Pared de una grieta del glaciar Breiðamerkurjökull, en Islandia, con las capas y la ceniza atrapadas.
+- **Crimean War; Florence Nightingale at Scutari Hospital. Tinte Wellcome V0015436.jpg** — Estampa coloreada del hospital de Escútari durante la guerra de Crimea. Colección Wellcome, Londres.
+- **Crimean War; Florence Nightingale going around the wards at Wellcome M0003645.jpg** — Grabado de <em>The Illustrated London News</em>, febrero de 1855: la ronda nocturna por las salas de Escútari.
+- **Da Lat - Silkworms eating mulberry leaves.jpg** — Orugas de seda comiendo hoja de morera, que es lo único que comen. Da Lat, Vietnam, 2015. Fotografía de P. Hughes.
+- **Deep-sea research vessel Pourquoi Pas? (Ifremer 00655-76753).jpg** — El buque oceanográfico Pourquoi Pas?, dedicado a levantar mapas del fondo del mar. Ifremer.
+- **Delaware Seashore Evening Storm - Flickr - aparlette.jpg** — Tormenta al atardecer sobre la costa de Delaware. Fotografía de Andrew Parlette.
+- **Desk (AM 1976.47).jpg** — Escritorio coreano de la dinastía Joseon, finales del siglo XVII.
+- **Doberman Pinscher dogs in the " Judging Ring" at Bombay Presidency Kennel Club Dog Show.jpg** — Dóberman presentados en el ring de un concurso canino, Bombay. Fotografía de Rudolph A. Furtado.
+- **Donating platelets at Swedish blood donation center April 2025.jpg** — Donación en un centro de transfusión sueco, con los tubos de muestra en la bandeja.
+- **Dried and salted cod.jpg** — Una pila de bacalao seco tapada con listones y piedras. Fotografía de Anders Beer Wilse.
+- **DSC09611a Search and Rescue Dog, Austrian Red Cross Perchtoldsdorf, 2024-10.jpg** — Un perro de rescate en un ejercicio de la Cruz Roja austriaca. Fotografía de Aciarium.
+- **East spiral ramp at Alewife station parking garage March 2025.jpg** — La misma rampa helicoidal de Alewife vista desde abajo, 2025. Fotografía de 4300streetcar.
+- **Eimskip container terminal at Port of Reykjavík.jpg** — La terminal de contenedores del puerto de Reikiavik, nevada. Fotografía de Quintin Soloviev.
+- **Ernst Gradischnig Werkstätte, Lithographiepresse, Kärnten, Österreich.jpg** — Prensa litográfica de mano, del tipo con el que se imprimían las postales, una piedra y un color cada vez. Taller de Moosburg, Carintia.
+- **Ex-Asia Pacific Airlines Boeing 727-212 Adv F (N319NE).jpg** — Un Boeing 727 retirado en un cementerio de aviones del desierto. Fotografía de Quintin Soloviev.
+- **Example of two glass eyes, white glass, with blood vessels Wellcome L0036422.jpg** — Dos ojos de cristal blanco con las venas pintadas en rojo, hechos por W. Halford, de Londres.
+- **Fan, folding (AM 3122-1).jpg** — Abanico inglés de madera y papel del siglo XVIII, con varias de sus varillas sueltas al lado. Auckland War Memorial Museum.
+- **First World War German gas mask with containe Wellcome L0035523.jpg** — La misma máscara antigás vista desde otro ángulo. Wellcome Collection.
+- **First World War German gas mask with containe Wellcome L0035524.jpg** — Máscara antigás alemana de la Primera Guerra Mundial con su bote metálico. Wellcome Collection.
+- **Fork (AM 1932.233-4).jpg** — Un tenedor antiguo de dos púas, de los de pinchar y llevar a la boca. Museo de Auckland.
+- **Frigiliana 20230910.jpg** — Fachadas de Frigiliana a media tarde, con la cal devolviendo la luz del sol.
+- **Funerary relief of Publius Gessius and family (Boston MFA 37.100) 01.jpg** — Relieve funerario de una familia romana, del siglo I antes de Cristo. Museo de Bellas Artes de Boston. Fotografía de Mark Landon.
+- **Funicular dos Guindais (55247069635).jpg** — Vía del funicular dos Guindais, en Oporto, bajando hacia el Duero.
+- **Fury of the sky.jpg** — Tormenta eléctrica, 2017.
+- **Getty Villa - Outer Peristyle Garden - Pacific Palisades1.jpg** — Setos de boj recortados alrededor de un estanque alargado. Fotografía de Dale Cruse.
+- **Gold ingot and bar of Banque de France.jpg** — Dos lingotes de oro fundido. Fotografía de Ibex73.
+- **Handheld game consoles at The Village Barber.jpg** — Consolas portátiles amontonadas en el estante de una barbería. Fotografía de Tessa Bury.
+- **Hat, top (AM 1965.13-3).jpg** — Sombrero de copa de la década de 1880, fabricado por Cooper Box & Co. Auckland War Memorial Museum.
+- **Heart valve replacement operations.jpg** — Cirugía cardíaca en el instituto Amosov de Kiev, 2019. Fotografía de Lena Gulenko.
+- **Impressora Marinoni e máquina de linotipo na oficina gráfica de O Taquaryense.jpg** — Una prensa tipográfica Marinoni de 1910, todavía en uso en el taller de un periódico brasileño. Fotografía de João V Souza P.
+- **Inkwell, portable (AM 72195-5).jpg** — Tintero portátil del siglo XIX. Auckland War Memorial Museum.
+- **Inouye Solar Telescope Releases First Image of a Sunspot (NSO-DKIST-first-suspot).tiff** — Una mancha solar vista por el telescopio Inouye, en Hawái. Observatorio Solar Nacional de Estados Unidos.
+- **Is07049-Kratery wzdłuż szczeliny.jpg** — Cráteres a lo largo de la fisura del Laki, 2006.
+- **Koh Chang, Thailand, Rubber tapping, Latex.jpg** — Sangrado de un árbol del caucho en Koh Chang, Tailandia. Fotografía de Vyacheslav Argenberg.
+- **Krak des Chevaliers Castle, Inner and outer walls, Syria.jpg** — Las murallas interior y exterior del Krak de los Caballeros. Fotografía de Vyacheslav Argenberg.
+- **Laennec stethoscope, English version Wellcome M0016403.jpg** — Un estetoscopio de Laennec en su versión inglesa, desmontado en sus piezas. Wellcome Collection.
+- **Laennec-type monaural stethoscope, France, 1851-1900 Wellcome L0057235.jpg** — Estetoscopio monoaural del tipo de Laennec, torneado en madera, Francia, entre 1851 y 1900. Wellcome Collection.
+- **Leather covered perfume case, Netherlands, 1671-1700 Wellcome L0058618.jpg** — Estuche de perfume forrado de piel con frascos de plata, Países Bajos, finales del siglo XVII. Wellcome Collection.
+- **Lemon Fruit in a Basket.jpg** — Limones recién recogidos en un cesto. Fotografía de Iwai-Dialax, 2025.
+- **Li-ion battery explosion.jpg** — Un ensayo de seguridad: una celda de litio golpeada con un mazo revienta en una lluvia de chispas. Fotografía de Tavo Romann.
+- **Lichtenberg figures in gases generated by a sliding spark discharge.jpg** — Descarga eléctrica deslizándose por la pared de un recipiente de vidrio, fotografiada en un laboratorio.
+- **Lightning over ESO Headquarters.jpg** — Rayos sobre la sede del Observatorio Europeo Austral, Alemania, 2020.
+- **Lightning over the Atlantic - Flickr - aparlette.jpg** — Relámpagos sobre el Atlántico esa misma noche. Fotografía de Andrew Parlette.
+- **Lister-type carbolic steam spray, England, 1869-1890 Wellcome L0058935.jpg** — Pulverizador de vapor de ácido fénico, Inglaterra, 1869-1890: el desinfectante que destrozaba las manos. Wellcome Collection.
+- **Machermo, Key, Lock, Nepal.jpg** — Una llave puesta en su cerradura, en Machermo, Nepal. Fotografía de Vyacheslav Argenberg.
+- **Macro view of water droplets on transparent surface.jpg** — Gotas de agua sobre un cristal, hechas esferas por la tensión superficial.
+- **Macy’s Herald Square Wooden Escalator Built in 1902.jpg** — Escalera mecánica de peldaños de madera en unos grandes almacenes de Nueva York, todavía en servicio. Fotografía de Don Ramey Logan, 2022.
+- **Malapascua Island, Ethereal sunset over Visayan Sea, Philippines.jpg** — Atardecer rojo sobre el mar de Visayas, Filipinas, 2009. Fotografía de Vyacheslav Argenberg.
+- **Manhattan skyline from Upper New York Bay, 20231001 1043 0903.jpg** — El sur de Manhattan visto desde la bahía. Fotografía de Jakub Hałun.
+- **Map showing deaths from Cholera in Broad Street... Wellcome L0063431.jpg** — Detalle del mismo mapa alrededor de la bomba de Broad Street, donde las rayitas se apelotonan. Colección Wellcome, Londres.
+- **Mercury escaped.jpg** — Mercurio derramado de un tubo roto. Fotografía de Tavo Romann, 2017.
+- **Metal carbolic steam spray, cased, Europe, 1872-1900 Wellcome L0057240.jpg** — Otro pulverizador de ácido fénico, guardado en su caja de viaje. Wellcome Collection.
+- **Microscope à fluorescence (Ifremer 00642-75447 - 30190).jpg** — Microscopio de fluorescencia en un laboratorio del Ifremer. Fotografía de Olivier Dugornay.
+- **Mixed-culture biofilm.jpg** — Biopelícula de varias especies de bacterias vista con microscopio electrónico de barrido.
+- **Model ambulance, of McPherson, known as the Madras waggon, w Wellcome L0058527.jpg** — Maqueta de un carro-ambulancia militar del siglo XIX, del Royal Army Medical College. Wellcome Collection.
+- **Model ambulance, of McPherson, known as the Madras waggon, w Wellcome L0058528.jpg** — El mismo carro visto de perfil, con las camillas encajadas dentro. Wellcome Collection.
+- **Modernisation de la Thalassa - travaux dans la passerelle (Ifremer 00400-51182 - 35307).jpg** — Trabajos en el puente de mando del Thalassa durante su modernización. Ifremer.
+- **Modernisation de la Thalassa - vues extérieures du navire (Ifremer 00400-51188 - 35310).jpg** — Otra vista del casco del Thalassa durante las obras en el astillero. Ifremer.
+- **Modernisation de la Thalassa - vues extérieures du navire (Ifremer 00400-51188 - 35313).jpg** — El buque Thalassa en dique seco, con el casco abierto para alargarlo. Fotografía de Stéphane Lesbats, Ifremer.
+- **Modernisation de la Thalassa (Ifremer 00400-51186 - 35322).jpg** — Obras de transformación del buque Thalassa en el astillero. Ifremer.
+- **Mold on Canned Sauce prob Penicillium 8120.jpg** — Colonias de moho, probablemente <em>Penicillium</em>, sobre una conserva abierta.
+- **Moscow - Red Square and Kremlin towers - 2024.jpg** — La Plaza Roja y las torres del Kremlin, en Moscú.
+- **Narwhal tusk, 1701-1930 Wellcome L0059030.jpg** — Un colmillo de narval, el que se vendía como cuerno de unicornio. Wellcome Collection.
+- **Natural autumn background (54020649215).jpg** — Hojas de haya iluminadas a contraluz sobre el fondo oscuro de un bosque de los Cárpatos.
+- **New York Stock Exchange - Wall Street, New York, NY, USA - August 19, 2015 01.jpg** — Wall Street vista desde abajo, en Nueva York. Fotografía de Giorgio Galeotti, 2015.
+- **Night sky at Paranal (img 2524-cc).jpg** — Trazos de estrellas sobre el observatorio de Paranal, en el desierto de Atacama.
+- **Nitrous oxide cylinder, Europe, 1840-1868 Wellcome L0058164.jpg** — Recipiente de óxido nitroso europeo, entre 1840 y 1868. Wellcome Collection.
+- **Old oscilloscope with round screen without visible knobs or switches.jpg** — Osciloscopio antiguo de pantalla redonda, con la traza verde dibujada por el haz sobre la rejilla.
+- **Olympia Simplex.jpg** — Una Olympia Simplex, ya de golpe frontal: la línea recién escrita queda a la vista.
+- **Orion & Oriola switchboard Elisa Telephone Museum.jpg** — Centralita manual expuesta en el museo del teléfono de Elisa, en Finlandia. Fotografía de Antti Leppänen.
+- **Palazzo del Monte di Pieta in Padua (1).jpg** — El palacio del Monte de Piedad de Padua, en el Véneto. Fotografía de Tournasol7.
+- **Parking garage spiral Flagstaff AZ 2026-04-07 08-49-48.jpg** — Rampa en espiral de un aparcamiento en Flagstaff, Arizona, 2026. Fotografía de G. Edward Johnson.
+- **Polearm (AM 1934.316-1).jpg** — Una lanza japonesa, el arma que sustituyó al arco en los ejércitos grandes. Auckland Museum.
+- **Portrait of Florence Nightingale Wellcome L0010475.jpg** — Retrato de Florence Nightingale. Colección Wellcome, Londres.
+- **Portrait of Marie Curie (1867 - 1934), Polish chemist Wellcome M0004624.jpg** — Retrato de Marie Curie. Wellcome Collection.
+- **Portrait of Paracelsus. Wellcome L0014988.jpg** — Retrato de Paracelso, el médico suizo que dejó escrito que la dosis lo decide todo.
+- **Postkarte (1900 - 1918), Kärnten, Österreich 01.jpg** — Reverso de una postal austriaca de principios del siglo XX, con la raya en el centro, el sello y el mensaje a un lado.
+- **Quad roller skates with leather protections (DSC07433).jpg** — Patines de cuatro ruedas con protecciones de cuero, de los que se usan en roller derby.
+- **Quarterly Bill of Mortality for the City of London. Wellcome M0013809.jpg** — Un boletín trimestral de mortalidad impreso para la ciudad de Dublín: las parroquias en filas, y en columnas los nacidos, los casados y los muertos por edad y por enfermedad. Colección Wellcome, Londres.
+- **Raindrops on car window in evening sun.jpg** — Gotas de lluvia en la ventanilla de un coche con el sol de la tarde.
+- **Ramsay Grove Museum of Victorian Life Interior Drawing Room 2.jpg** — Un salón victoriano reconstruido, con la repisa de la chimenea cargada de adornos. Fotografía de Zairon, 2022.
+- **Rapa Nui Moai (Easter Island).jpg** — Una fila de estatuas sobre su plataforma en Rapa Nui, la isla de Pascua, con el moño de piedra roja puesto. Fotografía de Docrgd, 2010.
+- **Recycling-bins-Benidorm.jpg** — Contenedores de reciclaje en una calle de Benidorm, en 2023.
+- **Recycling-bins-Zaragoza.jpg** — Contenedores de recogida selectiva en la calle de los Predicadores, en Zaragoza.
+- **Red Bead Abacus Display.jpg** — Ábaco de cuentas, la herramienta con la que se contaba antes de que el cero fuera un número.
+- **Réplica de la Nao Victoria (2).jpg** — La réplica de la nao Victoria amarrada en el Guadalquivir, Sevilla, 2025.
+- **Réplica de la Nao Victoria (3).jpg** — Cubierta y jarcia de la réplica de la nao Victoria, 2025.
+- **Resuscitation bellows, Wellcome Collections objects Wellcome L0070206.jpg** — Fuelle de reanimación con su tubo flexible. Wellcome Collection.
+- **Resuscitation set, Europe, 1801-1850 Wellcome L0057782.jpg** — Equipo europeo de reanimación de la primera mitad del siglo XIX, con su fuelle, sus cánulas y su caja forrada. Wellcome Collection.
+- **Ri 2014 - Thermos flask - James Dewar (27).jpg** — Uno de los frascos de doble pared originales de James Dewar, en la Royal Institution de Londres. Fotografía de Vera de Kok.
+- **Robotic Arm Polishing Guitars at Martin Guitar Factory.jpg** — Un brazo robótico sujeta una caja de guitarra contra la pulidora en la fábrica de Martin. Fotografía de Henrysz.
+- **Roller skates 1928 (JOKAOT3UR8-1).tif** — Patinadora con patines de ruedas en línea para entrenar en verano, fotografiada en 1928.
+- **Salt Crystals1.jpg** — Cristales de sal gorda vistos de cerca. Es lo que saca el agua de la carne y de las bacterias que hay en ella. Fotografía de Donald Olszewski.
+- **Set of 17th century nested brass weights. Wellcome L0057063.jpg** — Juego de pesas encajables de latón, Europa, siglo XVII. Wellcome Collection.
+- **Shooting Star over La Silla.jpg** — Cielo del hemisferio sur sobre el observatorio de La Silla, en Chile, con una estrella fugaz cruzándolo.
+- **Silver mirror on a bronze stand, Roman, 200 BCE-200 CE Wellcome L0057607.jpg** — Espejo romano de plata sobre un pie de bronce con la figura de un joven de pie sobre una tortuga. Wellcome Collection.
+- **Silver toothbrush set, Birmingham, England, 1793 Wellcome L0058115.jpg** — Cepillo de dientes de plata con cerdas naturales y su estuche de piel, Birmingham, 1793. Wellcome Collection.
+- **Smoke Signal Broadcasting floppies.jpg** — Disquetes de cinco pulgadas y cuarto en sus fundas de papel, con las etiquetas escritas a máquina. Fotografía de DigitalIceAge.
+- **Solomon Souza in Mahane Yehuda Market 01.jpg** — Retratos pintados por Solomon Souza en los cierres del mercado de Mahane Yehuda.
+- **Star trails (starstax).jpg** — Estelas de estrellas sobre un observatorio, en una exposición larga. Fotografía de A. Duro, ESO.
+- **Sunset trough the arches of the Colosseum, Rome.jpg** — El sol poniéndose entre los arcos del Coliseo, levantado sobre cimientos y bóvedas de hormigón. Fotografía de Quentin Lowagie.
+- **Table-set of knife, fork, spoon and toothpick, silver. Wellcome M0013414.jpg** — Juego personal de cuchillo puntiagudo, tenedor de dos dientes, palillo y cuchara, en plata. Wellcome Collection.
+- **Teatro Éden, Lisbon (54871548264).jpg** — Fachada del Teatro Éden de Lisboa, un cine art déco de los años treinta. Fotografía de Dale Cruse.
+- **The 1952 Summer Olympics in Helsinki High jump (JOKAVIU4N-10).tif** — Jueces midiendo la altura del listón en los Juegos de Helsinki de 1952, con el foso de arena delante.
+- **The bones of a foot, viewed through x-ray. Photoprint from r Wellcome V0029529.jpg** — Otra radiografía de un pie, copiada de una placa de Arthur Schuster de 1896.
+- **The bones of a pantomime artist's foot, viewed through x-ray Wellcome V0029528.jpg** — Radiografía de un pie hecha en los primeros años de los rayos X. Colección Wellcome, Londres.
+- **The construction of the great sewage tunnels, near old Ford, Wellcome V0020257.jpg** — Los grandes colectores de Londres en obras, cerca de Old Ford. Grabado publicado hacia 1860. Wellcome Collection.
+- **The Depths of Orvieto - Flickr - aparlette.jpg** — El pozo de San Patricio de Orvieto visto desde el fondo, 2025. Fotografía de Andrew Parlette.
+- **The Nightmare Wellcome L0034549.jpg** — Grabado del siglo XIX basado en la pesadilla de Fuseli. Colección Wellcome, Londres.
+- **The rotary press of newspaper Hufvudstadsbladet 1927 (Numeroimaton; JOKAHBL3A A01-19).tif** — La rotativa del diario Hufvudstadsbladet en 1927. Museovirasto, Finlandia.
+- **The Test-Bed Telescope 2 dome at night (eso2107h).jpg** — Cúpula de un telescopio bajo un cielo estrellado, en el observatorio de La Silla (Chile), 2021.
+- **Traditional Wooden Door of a Himalayan Village House.jpg** — Puerta de una casa de montaña de casi un siglo en Bodhna, en el Himalaya indio.
+- **Two nitrous oxide cylinders, England, 1915-1940 Wellcome L0058165.jpg** — Dos bombonas de óxido nitroso inglesas, entre 1915 y 1940. Wellcome Collection.
+- **UC Berkeley campus and surroundings from Berkeley Hills January 2026.jpg** — Berkeley y su bahía vistos desde las colinas.
+- **Walden Pond in winter, Concord MA.jpg** — El estanque de Walden, en Concord, Massachusetts, helado en invierno: de aquí salió parte de aquel hielo. Fotografía de John Phelan.
+- **Walker's Excelsior III Patent Log Huolintatalo.jpg** — Corredera de patente en su caja de madera, con el cordel y el contador. Museo de la Fundación John Nurminen, Helsinki.
+- **Watch, pocket (AM 1942.92-2).jpg** — Un reloj de bolsillo de hacia 1818, de los objetos que más entraban por la puerta. Auckland Museum.
+- **Weathered wood grain texture macro closeup detail.jpg** — La veta de un tronco a la intemperie, vista de cerca.
+- **Whanganui River boat and swimmers.jpg** — Bañistas y una barca cerca de la desembocadura del Whanganui.
+- **Wien-Schönbrunn, Tiergarten, der Kaiserpavillon.JPG** — El pabellón imperial del zoo de Schönbrunn, en Viena, de 1752: el zoológico más antiguo del mundo que sigue abierto. Fotografía de Dguendel.
+- **Women gathering leaves of the coca plant (Erythroxylum coca) Wellcome V0043210.jpg** — Recolección de hoja de coca en Bolivia, grabado sobre madera de hacia 1867. Wellcome Collection.
+- **X-ray tube, England, 1896-1900 Wellcome L0057810.jpg** — Tubo de rayos X inglés de finales del siglo XIX, de los primeros que se fabricaron. Colección Wellcome.
+- **Yokohama 20250516 085413.jpg** — Un barco entrando en el puerto de Yokohama con las banderas que anuncian su destino dentro del puerto.
+- **Τηλεσκόπια Γαλιλαίου 0623.jpg** — Los dos telescopios que conserva el Museo Galileo de Florencia, construidos por él mismo hacia 1610. Fotografía de C messier.
+- **Модель собаки Лайки.jpg** — Reproducción de Laika expuesta en un museo. Fotografía de Florist.
+
+## CC BY-SA 2.0 — 164 imágenes
+
+- **"Farting lane" gaslight London. (39839843585).jpg** — Una farola de gas todavía encendida en una calle de Londres. Fotografía de Loco Steve.
+- **"Old Faithful" bakelite cooker.jpg** — «Old Faithful», la olla de acero a presión con la que Leo Baekeland fabricó la primera baquelita. Science History Institute, Filadelfia.
+- **2009 01 03 - Barnegat Light - Barnegat Lighthouse (3166825081).jpg** — El faro de Barnegat, Nueva Jersey, 2009. Fotografía de thisisbossi.
+- **20151122 Morocco 2777 Erg Chigaga sRGB.jpg** — El erg de Chigaga, en el sur de Marruecos. Fotografía de Dan Lundberg.
+- **2019-08-20 Hereford Cathedral Library 01.jpg** — La biblioteca encadenada de la catedral de Hereford, en Inglaterra, con sus barras y sus cadenas originales.
+- **2019-08-20 Hereford Cathedral Library 04.jpg** — Otra vista de la sala de Hereford, hoy convertida en museo con sus pupitres de lectura.
+- **A historic submarine in Barcelona port (5078945393).jpg** — El Ictíneo II entero, siete metros de casco de madera de olivo. Puerto de Barcelona. Fotografía de Alexey Klyukin, 2010.
+- **Abandoned House and Mountains - Iceland.jpg** — Casa abandonada al pie de las montañas, en el campo islandés.
+- **Albert Dock - geograph.org.uk - 6220207.jpg** — El Albert Dock de Liverpool, una dársena cerrada donde el nivel del agua no depende de la marea. Fotografía de Chris Heaton, 2019.
+- **Altamira bisons.jpg** — Reproducción del techo de bisontes de Altamira en el Museo del Mamut de Barcelona. Fotografía de Thomas Quine.
+- **An ancient oak tree in Sherwood Forest - geograph.org.uk - 6356877.jpg** — Otro roble viejo de Sherwood, con las ramas bajas muy abiertas. Fotografía de Phil Champion.
+- **Ancient oak trees in Sherwood Forest - geograph.org.uk - 6356602.jpg** — Robles centenarios en el bosque de Sherwood, en Inglaterra. Fotografía de Phil Champion.
+- **Antarctica WAIS Divide Field Camp 10.jpg** — Campamento de sondeo de la División WAIS, en la Antártida.
+- **Antique wall telephone (43917500625).jpg** — Un teléfono de pared de manivela, de los primeros que se instalaron en las casas. Fotografía de Ben P L.
+- **Arraba - Flickr - Mr. Theklan.jpg** — Los pastos de Arraba, en el macizo del Gorbea, entre Álava y Vizcaya. Fotografía de Mr. Theklan.
+- **Arsenal Underground Station, 6 April 2023 platforms.jpg** — Andén de la estación de Arsenal, en la línea Piccadilly del metro de Londres. Fotografía de Hugh Llewelyn.
+- **Azerbaijan Airlines Boeing 727-235; 4K-AZ2@FRA, July 1996 (5695398251).jpg** — Otro Boeing 727 en un aeropuerto europeo, en 1996.
+- **Baker Street Underground Station - Hammersmith & City, Circle and Metropolitan lines - Metropolitan Railway 1863 - Restored 1983.jpg** — Andén de la estación de Baker Street, abierta en 1863 y restaurada en 1983.
+- **Baking Bread Communal Oven, 2011.jpg** — Un panadero metiendo el pan en el horno comunal de leña, en Marruecos. Fotografía de travelwayoflife, 2011.
+- **Beaulieu Motor Museum, Benz Patent Motorwagen (1886) - geograph.org.uk - 8064654.jpg** — El triciclo de motor de 1886, el coche del viaje. Fotografía de Michael Garlick, Museo de Beaulieu.
+- **Belgium-6004 - Gruuthuse Museum (13902297314).jpg** — Museo Gruuthuse, Brujas, Bélgica, 2013.
+- **Big Belly Oak, Savernake Forest - geograph.org.uk - 6395730.jpg** — El Big Belly Oak, en el bosque de Savernake, con más de mil años. Fotografía de Noisar.
+- **Birthday cake (8973445388) (cropped).jpg** — Una tarta de cumpleaños con las velas puestas. Fotografía de James Petts.
+- **Birthday cake (8973445388).jpg** — La misma tarta vista entera. Fotografía de James Petts.
+- **Blacksmith working.jpg** — Herrero trabajando una pieza caliente sobre el yunque. Fotografía de Jeff Kubina, 2008.
+- **Boats on the mud at Wells-Next-The-Sea - geograph.org.uk - 4933475.jpg** — Barcas varadas sobre el fango en la bajamar de Wells-next-the-Sea, Norfolk. Fotografía de Richard Humphrey.
+- **Bound buttonhole.jpg** — Un ojal rematado a mano en un paño de lana. Es la pieza que faltaba: un corte con los bordes cosidos para que no se deshilache. Fotografía de Kelly Hogaboom, 2012.
+- **Boundary post and boundary stone - geograph.org.uk - 7751016.jpg** — Un poste y un mojón marcando un límite en pleno campo. Fotografía de Christine Johnstone.
+- **Caerphilly Castle, The moat - geograph.org.uk - 6893360.jpg** — El foso inundado de Caerphilly, en Gales, uno de los pocos que sí llevaba agua. Fotografía de Michael Garlick.
+- **Car scrapyard near Etterby - geograph.org.uk - 5476927.jpg** — Desguace cerca de Etterby, Inglaterra, 2017.
+- **Cenote Zaci, Valladolid de Yucatan, Julio 2012 04.jpg** — Cenote Zací, en Valladolid de Yucatán, 2012. Los cenotes dibujan en superficie el borde del cráter. Fotografía de Kirt Edblom.
+- **Chain Home Radar Mast - geograph.org.uk - 3221459.jpg** — Torre de radar de la red Chain Home, en Inglaterra: la tecnología de la que salió el magnetrón. Fotografía de J. Hannan-Briggs.
+- **Chief Post Office mail room, Wellington 1920.jpg** — La sala de correo de una oficina postal en 1920. Archives New Zealand.
+- **Circle - Flickr - Neillwphoto.jpg** — Una de las muchas rotondas de la circunvalación de Dundee, en Escocia, al anochecer.
+- **Clermont-Ferrand Cathedral.jpg** — La catedral de Clermont-Ferrand, en la ciudad donde se convocó la asamblea de 1095. Fotografía de Ernesto.
+- **Containerhafen Niehl.jpg** — Contenedores apilados en el puerto de Niehl, Colonia. Fotografía de glasseyes view, 2014.
+- **Controller board (14837601847).jpg** — Placa controladora de un disco duro abierto, 2014.
+- **Copper Kettle, New Glarus Brewery (2844738562).jpg** — Caldera de cobre en una fábrica de cerveza de Wisconsin, 2008.
+- **Corbridge Roman Town Museum, Gaming board and counters, bone dice and shaker - geograph.org.uk - 7849634.jpg** — Tablero de juego romano con sus fichas, dados de hueso y cubilete. Museo de Corbridge, Inglaterra. Fotografía de Michael Garlick.
+- **Crane at dusk (5066600657).jpg** — Grúa torre al anochecer. Fotografía de Quinn Dombrowski, 2010.
+- **Detail of the Alexander Mosaic depicting the Battle of Issus between Alexander the Great & Darius III of Persia, from the House of the Faun in Pompeii, Naples Archaeological Museum (14859255718).jpg** — Otro detalle del mismo mosaico, con el bosque de lanzas del ejército persa.
+- **Detail of the Alexander Mosaic depicting the Battle of Issus between Alexander the Great & Darius III of Persia, from the House of the Faun in Pompeii, Naples Archaeological Museum (14859382057).jpg** — Detalle del mosaico de Alejandro, de la Casa del Fauno de Pompeya. Museo Arqueológico de Nápoles.
+- **DGJ 1701 - Rub my head.. (3504631463).jpg** — La fila de tortugas de piedra que sostienen las estelas, en el mismo templo de Hanói. Fotografía de Dennis G. Jarvis.
+- **Domed salt barn, Birkenhead.jpg** — Almacén abovedado de sal para las carreteras en Birkenhead, Inglaterra.
+- **El nido de la espadaña - Ermita del pueblo (Sotopalacio - Burgos) (18246823181).jpg** — La espadaña de una ermita de Burgos, con sus dos campanas y un nido encima. Fotografía de jacilluch, 2013.
+- **Elgin Schoolhouse State Historic Site.jpg** — Escuela de Elgin, en Nevada, que funcionó de 1922 a 1967 y hoy es sitio histórico.
+- **Ephesus Arcadian Street, Ephesus Archaeological Site, Selcuk, Turkiye (53525196707).jpg** — La vía Arcadiana de Éfeso, que iba del teatro al puerto, Turquía, 2023.
+- **Ephesus Arcadian Street, Ephesus Archaeological Site, Selcuk, Turkiye (53527946128).jpg** — Otra vista de la vía Arcadiana de Éfeso, 2023.
+- **Estela (7603924798).jpg** — Una de esas estelas de cerca, con el disco labrado y la piedra comida por los líquenes. Fotografía de jacilluch.
+- **Estelas (7603923198).jpg** — Estelas funerarias discoidales, un tipo de monumento característico del país. Fotografía de jacilluch.
+- **Ferris wheel in Pripyat (02710145).jpg** — La noria de Prípiat, en el parque que iba a inaugurarse cinco días después del accidente. Banco de imágenes del Organismo Internacional de Energía Atómica.
+- **Fire Escape, Commercial Building, N 1st Avenue and 3rd Street, Warehouse District, Minneapolis, MN - 51762652118.jpg** — Escalera de incendios exterior de hierro en un edificio industrial de Minneapolis.
+- **Fishing boat "NEVER CAN TELL - A" moored in Wells-Next-The-Sea harbour - geograph.org.uk - 6256711.jpg** — Un pesquero amarrado en el puerto de Wells-next-the-Sea, Norfolk. Fotografía de Richard Humphrey.
+- **Fishing boats moored in Wells-next-the-Sea - geograph.org.uk - 6957171.jpg** — Barcos de pesca amarrados en el puerto de Wells-next-the-Sea. Fotografía de Richard Humphrey.
+- **Gall from Oak Gall Wasp (Cynips quercusfolii).jpg** — La agalla que forma un roble alrededor del huevo de una avispa. Machacada y puesta a remojo, suelta lo que hace negra a la tinta. Fotografía de wackybadger, 2013.
+- **General Post Office mail sorting room, Wellington c.1900s.jpg** — Sala de clasificación de correo a principios del siglo XX. Archives New Zealand.
+- **Globe Island, Rugeley - Memorial to the Miners (33779224193).jpg** — Monumento a los mineros en Rugeley, Staffordshire, 2017. Fotografía de Elliott Brown.
+- **Goods from Across the Mediterranean - Pompeii Antiquarium.jpg** — Vasijas y ánforas mediterráneas halladas en Pompeya, del tipo en que viajaban las salsas de pescado. Fotografía de MumblerJamie.
+- **Habana (18568982609).jpg** — Coches aparcados en La Habana, con la rueda de repuesto y la placa en la trasera. Fotografía de Antonio Schubert, 2015.
+- **Habana Vieja (35981862770).jpg** — Un coche parado en una calle de La Habana Vieja. Fotografía de Antonio Schubert, 2015.
+- **Hand Rubbing the Doctor's Stelae.jpg** — Una mano frotando la cabeza de una de las tortugas, costumbre que se hace por suerte. Fotografía de Caitlin Childs.
+- **Hedgerow on Ufford Road, Bredfield - geograph.org.uk - 5969351.jpg** — Seto junto a la carretera de Ufford, Bredfield, Inglaterra, 2018.
+- **Heimaey to Surtsey 02a HDR (1412618388).jpg** — Surtsey vista desde Heimaey, Islandia, 2007.
+- **Historic blast furnaces, Blaenavon Ironworks - geograph.org.uk - 5099239.jpg** — Altos hornos históricos de la ferrería de Blaenavon, Gales, 2016. Fotografía de M J Roscoe.
+- **Holloway Road Underground Station (Piccadilly Line) - 52814102299.jpg** — La estación de Holloway Road, en la misma línea. Fotografía de Hugh Llewelyn.
+- **Holloway Road Underground Station (Piccadilly Line) - Flickr - hugh llewelyn.jpg** — La estación de Holloway Road, en Londres, con la fachada de azulejo granate de Leslie Green, de 1906.
+- **House dust mite (Dermatophagoides pteronyssinus).jpg** — Ácaro del polvo doméstico (Dermatophagoides pteronyssinus) sobre fibras de tejido, al microscopio. Fotografía de Gilles San Martin, 2010.
+- **House dust mites (5247996458).jpg** — Varios ácaros del polvo entre fibras y restos de piel. Fotografía de Gilles San Martin, 2010. Miden tres décimas de milímetro.
+- **Huelga general del 14 de noviembre de 2012 en Madrid (2).jpg** — Manifestación de la huelga general del 14 de noviembre de 2012, en el paseo de las Delicias de Madrid.
+- **IAEA 02790015 (5613115146) (cropped).jpg** — El reactor 4 de Chernóbil destruido, fotografiado desde el aire en 1986. Banco de imágenes del Organismo Internacional de Energía Atómica.
+- **IBM Card punch (51333058324).jpg** — Una perforadora de tarjetas IBM 029, la máquina con la que se escribía para un ordenador en los años sesenta. Fotografía de Steve Elliott.
+- **Iceberg and glacier in the Lemaire Channel, Antarctica (6054764966).jpg** — Iceberg y glaciar en el canal Lemaire, en la Antártida. Fotografía de Liam Quinn, 2011.
+- **Iceberg in Pléneau Bay, Antarctica (6058728043).jpg** — Iceberg en la bahía de Pléneau, en la Antártida: de un bloque así salió el sonido que llamaron Bloop.
+- **IFC Countdown Spectacular 2009.jpg** — Fuegos artificiales sobre los rascacielos de Hong Kong. Fotografía de ncburton.
+- **Interior of British Museum, London, England, KW (15539227299).jpg** — El Gran Atrio del Museo Británico con los visitantes debajo de la cúpula.
+- **Iron-filings-around-magnet.jpg** — Limaduras de hierro ordenadas por el campo de un imán, el experimento clásico de laboratorio.
+- **John Snow, Soho, W1 (3696013128).jpg** — La esquina del Soho donde estaba la bomba de Broad Street. El pub de la planta baja lleva el nombre de Snow. Fotografía de Ewan Munro.
+- **John W. Bubbles bowler hat (32869849220).jpg** — Bombín de fieltro gris conservado en un museo.
+- **La Habana (43423554120).jpg** — La parte de atrás de un Hillman en una calle de La Habana, con la matrícula puesta donde se lee. Fotografía de Antonio Schubert, 2017.
+- **La Habana Vieja (29621843287).jpg** — Un coche de los años cincuenta en La Habana Vieja. Fotografía de Antonio Schubert, 2016.
+- **La proa del buque. Tenía el ancla echada. La marea estaba muy alta (16626733765).jpg** — La proa de un patrullero de la Armada española con el ancla echada, en los muelles de Marín, Pontevedra. Fotografía de Contando Estrelas, 2015.
+- **Laika ac Mitami Matsuri (7574258620).jpg** — Un abanico rígido metido en el fajín, en un festival de verano japonés, julio de 2012. Fotografía de Laika ac.
+- **Lancaster Canal from White Horse Bridge - geograph.org.uk - 8106522.jpg** — El canal de Lancaster con su camino de sirga a un lado y una barcaza amarrada. Fotografía de Chris Heaton.
+- **Large glacial erratic boulder - geograph.org.uk - 2991864.jpg** — Bloque errático glaciar en una ladera de Escocia. Fotografía de 2012.
+- **Las vieiras guían el Camino de Santiago (20069770068).jpg** — Señal de concha en el Camino de Santiago, 2015.
+- **Light no longer required - geograph.org.uk - 6069320.jpg** — Un hueco de ventana cegado con ladrillo nuevo, con su marco de piedra todavía puesto. Fotografía de Bob Harvey, 2019.
+- **Lightning In The Blue Hour.jpg** — Un rayo ramificado cayendo sobre la sierra a última hora de la tarde. Fotografía de A Guy Named Nyal.
+- **Linotype typesetting machine (45618071855).jpg** — El mecanismo que devuelve cada matriz de letra a su cajetín en una linotipia de 1892. Fotografía de Richard Ash.
+- **Loaded Drying Racks for Stockfish at Reine, Lofoten, Norway.jpg** — Secaderos de bacalao cargados en Reine, en las islas Lofoten. Fotografía de Christoph Strässler.
+- **Lock gate - geograph.org.uk - 1780529.jpg** — Las puertas de madera de una esclusa, con el agua entrando por las compuertas. Fotografía de Nic Franklin-Woolley.
+- **Madrid. Puerta del Sol square. Clock. Spain (2746517432).jpg** — El reloj de la Casa de Correos, en la Puerta del Sol de Madrid. Fotografía de Tomás Fano.
+- **Manchester airport - Roussos.jpg** — Pasillo hacia la terminal 2 del aeropuerto de Mánchester, 2011.
+- **Marine Chronometer- Arnold & Dent, No. 1131.jpg** — Un cronómetro de marina de Arnold y Dent, montado en su caja sobre cardanes. Fotografía de Will Fisher.
+- **Medieval coin hoard, Pennies of Henry II to Henry III (FindID 576061).jpg** — Tesorillo de peniques de plata ingleses acuñados entre 1180 y 1247, hallado en Staffordshire. Portable Antiquities Scheme.
+- **Medusa Jellyfish, Monterey Aquarium, California (44590422735).jpg** — Medusas en el acuario de Monterey, California, 2018.
+- **Mother and baby sperm whale.jpg** — Cachalote con su cría frente a la isla de Mauricio. De la cabeza de este animal salía el espermaceti.
+- **Mount Rainier at the Tacoma Narrows Bridge (18402622459).jpg** — El puente actual del estrecho de Tacoma, con el monte Rainier al fondo, 2015. Fotografía de Jonathan Miske.
+- **Mountains Reflected in Pond - Iceland.jpg** — Montaña islandesa reflejada en una charca al atardecer, en la costa oeste del país.
+- **Narrow boat on Pont Cysyllte Aqueduct - geograph.org.uk - 4897036.jpg** — Una barcaza cruzando el acueducto de Pontcysyllte, en Gales, a treinta y ocho metros sobre el valle. Fotografía de Gareth James.
+- **Narrow Lane through the Hedgerow - geograph.org.uk - 8248468.jpg** — Camino estrecho entre setos, Inglaterra, 2025.
+- **New high heel red shoes (39403679792).jpg** — Zapatos rojos de tacón, 2017.
+- **Oaks Amusement Park - Roller Rink (6278719115).jpg** — Pista cubierta de patinaje del parque Oaks, en Portland.
+- **Oil Rig Graveyard Near Inverness.jpg** — Plataformas petrolíferas fondeadas en el fiordo de Cromarty, Escocia, 2018.
+- **Old books - old textures.jpg** — Libros antiguos con los lomos gastados. Fotografía de Tom Woodward.
+- **Old slate quarry (51041749762).jpg** — La antigua cantera de Dinorwic, en Gales, con las montañas de Snowdonia al fondo.
+- **Original brickwork.jpg** — El ladrillo original del túnel, montado detrás del escudo hace ciento noventa años. Fotografía de Lars Plougmann, 2010.
+- **Orpheum Theatre, Adams Street and 2nd Avenue, Phoenix, AZ - 54442983944.jpg** — El patio de butacas de un teatro, vacío. Fotografía de W. Lemay.
+- **Paisley Abbey (St. Mirin, St. St. Milburga, St. Mary, St. James) (19073762563).jpg** — La abadía de Paisley, en Escocia. Fotografía de Hugh Llewelyn.
+- **Ploughing in Wood Walton Fen - geograph.org.uk - 1707063.jpg** — Un arado de seis vertederas volteando tierra de turba en los fens de Cambridgeshire. Fotografía de Michael Trolove.
+- **Post Medieval seal matrix (oblique) (FindID 590595).jpg** — Matriz de sello de plata del siglo XVII, hallada en Shropshire. Birmingham Museums Trust.
+- **Post-medieval spectacles, Silver spectacles frame (FindID 468635).jpg** — Gafas plegables de plata del siglo XVII con su estuche, halladas en Oxfordshire. Portable Antiquities Scheme.
+- **Prior Park Landscape Garden.jpg** — El jardín paisajista de Prior Park, en Bath. Fotografía de Spencer Means.
+- **Relief of Soldiers of the Praetorian Guard 01 (51220287737).jpg** — Relieve de soldados de la guardia pretoriana, siglo II. Museo del Louvre. Fotografía de Jamie Heath.
+- **Relief of Soldiers of the Praetorian Guard 04 (51220287572).jpg** — Detalle del mismo relieve: las caras de los pretorianos, una a una. Fotografía de Jamie Heath.
+- **RF Preamplifier for MC3362 NFM receiver (52072009241).jpg** — Placa de circuito impreso vista de cerca, con sus pistas y componentes.
+- **Roman coin, Denarius of Augustus (FindID 804163).jpg** — Un denario romano de plata de época de Augusto, por las dos caras. Portable Antiquities Scheme.
+- **Roman, Incomplete steelyard and suspension weight (FindID 565530-430297).jpg** — Detalle de los ganchos y las anillas de la romana romana conservada en Birmingham.
+- **Roman, Incomplete steelyard and suspension weight (FindID 565530-430299).jpg** — Romana de bronce romana, del siglo I o II, con su contrapeso de piedra. Birmingham Museums Trust.
+- **Roman, Incomplete steelyard and suspension weight (FindID 565530).jpg** — El brazo graduado de la misma romana romana, con las muescas talladas.
+- **Royal Mail Sorting Office, Kirkleatham Business Park - geograph.org.uk - 6073477.jpg** — Un centro de clasificación postal moderno. Fotografía de JThomas.
+- **Ruins on Palatine Hill, Rome, Italy.jpg** — Las ruinas del palacio imperial en el monte Palatino, en Roma. Fotografía de Christoph Strässler.
+- **Russell Square Underground Station - To the trains tiles 2024-07-23.jpg** — Un cartel de azulejos indicando el camino a los trenes en la estación de Russell Square. Fotografía de amandabhslater.
+- **Salt cod shop (7008016739).jpg** — Un puesto de bacalao salado, con las piezas abiertas en cajas y el precio de cada corte. Fotografía de Michael Clarke, 2012.
+- **Seal matrix wax impression (FindID 480917).jpg** — Matriz de sello medieval con su impresión en cera, el modo de autenticar un documento. Portable Antiquities Scheme.
+- **Shadow on noon (an Interactive Sundial) (28695825562).jpg** — Un reloj de sol: la hora que marca la sombra es la del lugar, no la del país. Fotografía de Leonora Enking.
+- **Shinkansen 500 at Hiroshima Station 2025-03-27.jpg** — La serie 500 en la estación de Hiroshima, todavía en servicio en 2025. Fotografía de Eric Salard.
+- **Sintra, Palácio Nacional da Pena, relógio de sol.jpg** — El reloj de sol con cañón del Palacio da Pena, en Sintra, todavía en su terraza.
+- **Slate mills, Dinorwic Quarry - geograph.org.uk - 4169340.jpg** — Los talleres de la cantera de Dinorwic, donde se rajaban y recortaban las láminas.
+- **Slate roofs in Llanberis.jpg** — Los tejados del pueblo de Llanberis, cubiertos con la pizarra de la cantera de al lado.
+- **Sleeping Flamingos.jpg** — Flamencos durmiendo a la pata coja, con la cabeza metida bajo el ala. Fotografía de Christopher Woods, 2008.
+- **South Gate of Taipei City at night (51601392336).jpg** — Un cruce iluminado de noche en Taipéi. Fotografía de 大頭家族.
+- **Spanish Eight Reales (FindID 492568).jpg** — Un real de a ocho español, la moneda de plata que circuló por medio mundo.
+- **Spiral Parking Garage Ramp, John Hancock Center, Michigan Avenue, Streeterville, Chicago, IL.jpg** — Rampa helicoidal del aparcamiento del John Hancock Center, Chicago, 2024. Fotografía de w_lemay.
+- **St Andrew's west tower and graveyard - geograph.org.uk - 8257857.jpg** — La torre de una iglesia parroquial con su camposanto alrededor. Fotografía de Neil Owen.
+- **Staring down a hurricane Florence eye semi-zoom.jpg** — El ojo del huracán Florence desde la Estación Espacial, 2018.
+- **Sticky Note colors.jpg** — Tacos de notas adhesivas de colores apilados unos sobre otros.
+- **Sticky Notes in different colors.jpg** — Notas adhesivas sueltas de varios colores.
+- **Stock Tower Windmill Essex 1965.jpg** — Un molino de torre inglés, con el cuerpo de ladrillo fijo y solo el tejado giratorio. Fotografía de Sludge G, 1965.
+- **Sun Studio's Ampex Reel to Reel.jpg** — Un magnetófono Ampex de bobina abierta, del tipo con el que se guardaban y montaban los efectos de sonido. Fotografía de H. Michael Miley.
+- **Surrey County Ploughing Match 2009 (5) - geograph.org.uk - 1513372.jpg** — Concurso de arada en el condado de Surrey, con los surcos recién abiertos.
+- **Svalbard Global Seed Vault February 2025.jpg** — La entrada del banco mundial de semillas de Svalbard, en el Ártico noruego. Fotografía de Michael Major para Crop Trust.
+- **Switzerland-02296 - No Clouds....ya (23005297135).jpg** — El Cervino al amanecer, Alpes suizos.
+- **Thames Tunnel walk.jpg** — El mismo túnel hoy, con la vía de tren dentro. Fotografía de Lars Plougmann, 2010.
+- **The Alexander Mosaic depicting the Battle of Issus between Alexander the Great & Darius III of Persia, from the House of the Faun in Pompeii, Naples Archaeological Museum (15045481312).jpg** — Mosaico de la Casa del Fauno de Pompeya, copia de una pintura griega perdida. Museo Arqueológico de Nápoles. Fotografía de Carole Raddato.
+- **The Alexander Mosaic depicting the Battle of Issus between Alexander the Great & Darius III of Persia, from the House of the Faun in Pompeii, Naples Archaeological Museum (15045954695).jpg** — El mosaico de Alejandro completo, con la batalla de Issos de lado a lado.
+- **The top floor of a small apartment building in the Eixample, Barcelona (49731113776).jpg** — El remate de la Casa Marià Pau, en el Eixample, construida entre 1905 y 1907. Fotografía de Spencer Means.
+- **Tick Tock Diner at night, exterior view, NYC February 2023.jpg** — La fachada del Tick Tock Diner, en la Octava Avenida de Nueva York, de noche. Fotografía de Mobilus In Mobili.
+- **Turtle stelae (26431873708).jpg** — Una de las ochenta y dos estelas del Templo de la Literatura de Hanói, con los nombres de quienes aprobaron el examen. Fotografía de Mig Gilbert.
+- **Underground sign outside Temple Station London - geograph.org.uk - 2799647.jpg** — El emblema del metro en la calle, a la puerta de la estación de Temple, en Londres. Fotografía de Paul Farmer.
+- **Venetian Arsenal (50443441693).jpg** — Puerta de tierra del Arsenal de Venecia, el astillero público de la República. Fotografía de Kent Wang.
+- **View of Canary Wharf and the Bow Quarter Estate (former Bryant ^ May match factory) from the Greenway - geograph.org.uk - 2756182.jpg** — La antigua fábrica de cerillas y, al fondo, las torres de Canary Wharf.
+- **View of the former Bryant ^ May match factory (Bow Quarter Estate) from the River Lea - geograph.org.uk - 4983705.jpg** — La antigua fábrica de cerillas Bryant & May, en Bow, vista desde el río Lea. Fotografía de Robert Lamb.
+- **Vintage AFCO Senior 75 Reel-To-Reel Tape Recorder, Battery And AC Power, Made In Japan (14146604475).jpg** — Magnetófono portátil de bobinas de los años sesenta, del tipo que se llevaba al campo para grabar hablantes. Fotografía de Joe Haupt.
+- **Vintage Mayfair Reel-To-Reel Portable Tape Recorder, Model Number Unknown, Made In Japan, Circa 1960s (37790408304).jpg** — Otro magnetófono portátil de la misma época, con la cinta enhebrada. Fotografía de Joe Haupt.
+- **Vintage Roberts Portable Transistor Radio, Model R500, Multi-Band - MW-LW-SW, 7 Transistors, Made In Great Britain, Circa 1963 (13223505614).jpg** — Una radio de transistores portátil de hacia 1963, de las que funcionan con pilas. Fotografía de Joe Haupt.
+- **Watford Railway Tunnel - geograph.org.uk - 1761031.jpg** — Boca del túnel ferroviario de Watford, Inglaterra, 2010. Fotografía de jonny davy.
+- **Whitechapel Fatberg commemorative manhole cover.jpg** — Tapa de alcantarilla conmemorativa colocada en Whitechapel, Londres, donde se deshizo el bloque en 2017. Fotografía de Amanda Slater.
+- **Windsor Castle geograph-4089712-by-Ben-Brooksbank.jpg** — Los jardines del castillo de Windsor vistos desde el propio castillo. Fotografía de Ben Brooksbank.
+- **Winter forest after snow storm (40384754601).jpg** — Bosque después de una nevada, 2018.
+- **Wooden escalator (part) - Flickr - James E. Petts.jpg** — El arranque de una escalera de madera: ahí los peldaños se aplanan y sus ranuras encajan en el peine metálico del suelo. Depósito de Acton del Museo del Transporte de Londres. Fotografía de James Petts, 2012.
+- **Wooden escalator part - ex-London Underground (7818895628).jpg** — El embarque de una escalera mecánica de listones de madera del metro de Londres. Fotografía de James Petts.
+- **World through her eye - Flickr - shioshvili.jpg** — Un ojo visto muy de cerca, con el iris y la pupila. Fotografía de Vladimer Shioshvili.
+- **Во тьму Into darkness (36689677804).jpg** — Un pasillo de escuela en Prípiat, con los cuadernos por el suelo desde el día de la evacuación. Fotografía de spoilt.exile.
+- **Халатырский пляж на Камчатке.jpg** — Playa de arena volcánica negra batida por el oleaje, Jalaktyrski, Kamchatka. Fotografía de tanysolovey, 2021.
+
+## Dominio público — 145 imágenes
+
+- **'Still-life (Ontbijtstuk with Berkemeyer)' by Pieter Claesz., Cincinnati.jpg** — Bodegón de desayuno con una copa de vino, óleo de Pieter Claesz, 1641.
+- **"Penny Black" postage stamps MET DP328201.jpg** — Bloque de cuatro Penny Black sin usar, emitidos el 6 de mayo de 1840. Grabado del retrato de William Wyon. Metropolitan Museum, Nueva York.
+- **"The friend of the people" & his petty-new tax-gatherer paying John Bull a visit - DPLA - 5e6fb84b4b62160604886cf52faa9c27.jpg** — Estampa de James Gillray, 28 de mayo de 1806: el recaudador se planta en la puerta de John Bull, el inglés de a pie, gritándole «¡impuestos!».
+- **02640jfBells Rarity Santa Rita Cascia Church belfry bells tower interior Pampangafvf 03.jpg** — Una de las cuatro campanas del campanario de una iglesia de Pampanga, en Filipinas, fundidas en 1876. Fotografía de Judgefloro, 2016.
+- **4 women at tel. (i.e., telephone) switchboard LOC matpc.08799.jpg** — Cuatro telefonistas conectando llamadas a mano. Colección Matson.
+- **5 Prohibition Disposal(9) (cropped).jpg** — Agentes vaciando barriles de licor incautado por una alcantarilla de Nueva York durante la ley seca.
+- **787-flight-deck.jpg** — La cabina de un avión de línea moderno, con las pantallas encendidas.
+- **A page from an album of hand-colored woodblock prints depicting ancient sages - Vanderbilt Fine Arts Gallery - 1995.017c.tif** — Página de un álbum de xilografías coloreadas a mano con sabios antiguos. Vanderbilt Fine Arts Gallery.
+- **A woman doing laundry at a sink with a washboard - DPLA - 15aa1922feffe3b0747ff2f07dbb13ef.jpg** — Una mujer lavando a mano sobre la tabla de restregar, en los años treinta. Fotografía de John Sanromá.
+- **A woman doing laundry at a sink with a washboard - DPLA - 2579d506de283563dca22c303a9b5e69.jpg** — La misma colada, un momento después. Fotografía de John Sanromá.
+- **A woman reading under a punkah, 1863 - BL WD 2904.jpg** — Una mujer leyendo bajo la panca, el abanico de techo que movía a mano un criado tirando de una cuerda. Acuarela de 1863, Berhampur, India. British Library.
+- **Adolphe Franconi standing on the back of a horse, facing right, legs spread, with right foot on the rump of the horse, right hand extended to the left, holding a hat in his left hand, during LCCN2017650407.jpg** — Dibujo de Martha Sarah Rolls, entre 1820 y 1827: un jinete de circo de pie sobre el lomo de un caballo al galope. Biblioteca del Congreso, Estados Unidos.
+- **Africa from low orbiting satellite Suomi NPP.jpg** — África vista desde el satélite Suomi NPP, sin proyección de por medio. NASA y NOAA.
+- **Albert Anker - Stilleben, Kaffee und Kartoffeln.jpg** — Bodegón con café y patatas, óleo de Albert Anker, 1897.
+- **Alexandre Brun - View of the Salon Carré at the Louvre.jpg** — El Salón Cuadrado del Louvre, óleo de Alexandre Brun, hacia 1880.
+- **An Advanced Post, Day Art.IWMART1157.jpg** — «Un puesto avanzado, de día», óleo de John Nash, 1918. Imperial War Museum.
+- **Anderson Window Cleaning Device 1903.png** — El dibujo de la patente de 1903: un brazo con una tira de goma por fuera del cristal, movido con una palanca desde el asiento. Oficina de Patentes de Estados Unidos.
+- **Anton Melbye, Eddystone fyrtårn, 1846, KMS851, Statens Museum for Kunst.jpg** — El faro de Eddystone con mar gruesa. Óleo de Anton Melbye, 1846. Statens Museum for Kunst, Copenhague.
+- **Arc welding (13151937313).jpg** — Un soldador trabajando tras el cristal de su careta. Mira el arco por una ventana pequeña y muy filtrada, por el mismo motivo que las gafas de hueso. Base aérea de Little Rock, Estados Unidos, 2014.
+- **AS11-40-5890 (21473295409).jpg** — El suelo del Mar de la Tranquilidad fotografiado desde el punto de aterrizaje, 20 de julio de 1969. NASA.
+- **Ash Plume over Australia (MODIS 2022-01-19).jpg** — La ceniza de una erupción extendiéndose por la atmósfera durante días, vista por el satélite Aqua. NASA.
+- **Astley's Royal Amphitheatre (London, England), May 24, 1852 - DPLA - c731c6f54e3ca533a15d878cd0ef5f91.jpg** — Cartel del anfiteatro de Astley, en Londres, del 24 de mayo de 1852. Es la casa donde nació el circo, ochenta y cuatro años después de la primera función. Universidad Estatal de Illinois.
+- **Astronaut Edwin Aldrin descends the Lunar Module ladder, AS11-40-5868 (21037483754).jpg** — Aldrin bajando la escalerilla del módulo lunar, 20 de julio de 1969. Fotografía de Neil Armstrong. NASA.
+- **Atomic cloud over Hiroshima.jpg** — La columna de humo sobre Hiroshima, fotografiada desde uno de los aviones el 6 de agosto de 1945.
+- **Axel Lindahl - 150446499e (2).jpg** — La iglesia de madera de Heddal, en Noruega, fotografiada por Axel Lindahl en el siglo XIX.
+- **Backhuysen, Ludolf, I - Christ in the Storm on the Sea of Galilee - Google Art Project.jpg** — Barco en la tormenta, óleo de Ludolf Bakhuizen, 1695.
+- **BD Weighing of the Heart.jpg** — El pesaje del corazón, del Libro de los Muertos de Ani, hacia 1300 a. C. British Museum.
+- **Beilinson Hospital ward 1950.jpg** — Una sala de hospital en 1950. Fotografía de Fritz Cohen.
+- **Berthabenzportrait.jpg** — Bertha Benz retratada en el estudio de Bühler, Mannheim, hacia 1871.
+- **Boulevard du Temple by Daguerre.jpg** — El bulevar del Temple de París, daguerrotipo de Louis Daguerre, 1838. Abajo a la izquierda, un limpiabotas y su cliente: los únicos que se estuvieron quietos.
+- **BrandenburgerTorDezember1989.jpg** — La Puerta de Brandeburgo en diciembre de 1989, con gente encaramada al muro por los dos lados. Fotografía de F. Lee Corkran.
+- **Broomcorn field in Ain.jpg** — Un campo de sorgo escobero, con las panojas ya formadas. Fotografía de Tangopaso.
+- **Buttons (France), 18th century (CH 18690625).jpg** — Un botón francés del siglo XVIII, de metal labrado con dos anillos de puntas facetadas. Museo Cooper Hewitt, Nueva York.
+- **Byzantine - Pair of Shoes - Walters 73140, 73141.jpg** — Par de zapatos bizantinos de cuero repujado y dorado. Walters Art Museum, Baltimore.
+- **Cars parked diagonally, Omaha, Nebraska ppmsca.10438u.jpg** — Coches aparcados en batería junto a los parquímetros. Omaha, Nebraska, noviembre de 1938. Fotografía de John Vachon.
+- **Casting the Suffrage "Liberty Bell" at Troy LCCN2014698748.jpg** — La colada de una campana en una fundición de Troy, Estados Unidos, en 1915: el metal fundido entra por arriba en el molde enterrado. Biblioteca del Congreso.
+- **CDC scientist transfers H7N9.png** — Trabajo de laboratorio en una cabina de seguridad biológica. Fotografía de los CDC.
+- **Charles Edward Dixon Duguay Trouin 1789 HMS Implacable Battle of Cape Ortegal Trafalgar (cropped).jpg** — Un navío de línea francés a toda vela, acuarela de Charles Edward Dixon.
+- **Chemistry Laboratory (acf62eb944754c95935e60828c18452a).jpg** — Un laboratorio de química de principios del siglo XX, con los frascos alineados al fondo.
+- **Chinese - Brush Pot with a Man - Walters 491988 - View B.jpg** — Bote para pinceles chino de entre 1723 y 1730, con un hombre que sueña que llega a letrado. Walters Art Museum.
+- **Circle of Jacob Savery (I) - Paradise with the fall of man (Aschaffenburg).jpg** — El paraíso con la caída, óleo del círculo de Jacob Savery. Museo de Aschaffenburg.
+- **Conservation Help Continues After Winter Storm Atlas (11948327154).jpg** — Nieve sobre el pasto fuera de temporada. Departamento de Agricultura de Estados Unidos.
+- **Currier and Ives Brooklyn Bridge2.jpg** — El puente recién terminado en una litografía de Currier and Ives, 1883.
+- **David Teniers - Card Players L08033-21-lr-1.jpg** — Jugadores de cartas en una taberna, óleo de David Teniers el Joven, siglo XVII.
+- **Deployed experiments and Lunar Module, AS11-40-5950.jpg** — Los instrumentos dejados en la Luna, con el módulo al fondo. El panel plano de la derecha es el espejo con el que todavía se mide la distancia. NASA.
+- **Detail view of underside of deck showing connection between diagonal cable and superstructure. Jet Lowe, photographer, 1982. - Brooklyn Bridge, Spanning East River between Park HAER NY,31-NEYO,90-55.tif** — El amarre de los tirantes al tablero del puente. Fotografía de Jet Lowe, 1982.
+- **Diego Rodriguez de Silva y Velázquez - Infanta Margarita Teresa in a Blue Dress - Google Art Project.jpg** — La infanta Margarita Teresa a los ocho años, óleo de Diego Velázquez, 1659. Kunsthistorisches Museum, Viena.
+- **Draisine or Laufmaschine, c. 1820 - Kurpfälzisches Museum der Stadt Heidelberg - Heidelberg, Germany - DSC01526.jpg** — Una draisiana de hacia 1820, el antepasado de la bicicleta. Museo del Palatinado, Heidelberg. Fotografía de Daderot.
+- **Drankverboden Drooglegging (Prohibition) Verenigde Staten van Amerika Grote groep agenten op, SFA022008269.jpg** — Policías sacando barriles incautados a la calle ante una multitud, Estados Unidos, 1920.
+- **Drankverboden, prohibitie, drooglegging, SFA002010416.jpg** — Agentes desmontando una destilería clandestina en los pantanos cercanos a Washington, 1924.
+- **Drankverboden, prohibitie, drooglegging, SFA002010424.jpg** — Una antigua taberna convertida en zapatería durante la ley seca: la barra sigue ahí, y la botella también. Estados Unidos, 1920.
+- **E. coli Bacteria (7316101966).jpg** — Escherichia coli al microscopio electrónico. Fotografía del NIAID.
+- **Earthrise over Compton crater -LRO full res.jpg** — La Tierra saliendo por el horizonte de la Luna, vista por la sonda LRO. NASA.
+- **Eddystone Lighthouse RMG BHC1796.tiff** — El faro de madera que Rudyerd levantó en Eddystone en 1708, el que sustituyó al que se llevó la tormenta. Pintura de Isaac Sailmaker, hacia 1708.
+- **Edvard Munch - At the Roulette Table in Monte Carlo - Google Art Project.jpg** — En la mesa de ruleta de Montecarlo, óleo de Edvard Munch, 1892.
+- **Elisha OTIS 1854.jpg** — La demostración de Elisha Otis en el Crystal Palace de Nueva York, en 1854, según una ilustración posterior.
+- **Empress Maria-Theresia De Visch.jpg** — La emperatriz María Teresa de Austria, óleo de Matthias de Visch, 1749, según Martin van Meytens.
+- **Enola Gay 81-9471.jpg** — El bombardero que llevó la bomba, en la pista de las islas Marianas.
+- **Eugène-Jacques Feyen-Les Paludières.jpg** — Las salineras, óleo de Eugène-Jacques Feyen hacia 1872. Museo de las Salinas de Batz-sur-Mer.
+- **Eyck, Jan van - Madonna with Canon van der Paele.jpeg** — La Virgen del canónigo Van der Paele, de Jan van Eyck, 1436: el canónigo sostiene sus gafas junto al libro. Musea Brugge.
+- **February 23rd 1908 Boys Selling Newspapers on Brooklyn Bridge.jpg** — Vendedores de periódicos en Nueva York. Fotografía de Lewis Hine, 1908.
+- **First medical X-ray by Wilhelm Röntgen of his wife Anna Bertha Ludwig's hand - 18951222.jpg** — La primera radiografía médica de la historia: la mano de Anna Bertha Ludwig, hecha por Wilhelm Röntgen el 22 de diciembre de 1895.
+- **Flocking Back to the Hills of Cronan Ranch (28238246698).jpg** — Un rebaño de ovejas subiendo por la ladera. Fotografía del Bureau of Land Management.
+- **Flocking Back to the Hills of Cronan Ranch (40304104730).jpg** — Un rebaño de ovejas cruzando una loma. Fotografía del Bureau of Land Management.
+- **Flushing the Sewers.jpg** — «Limpiando las alcantarillas», grabado de London Labour and the London Poor, de Henry Mayhew, 1851.
+- **Full disc of moon photographed by Apollo 17 crewmen during transearth coast (as17-152-23311).jpg** — La Luna fotografiada desde el Apolo 17 en el viaje de vuelta, 1972. NASA.
+- **Georges de La Tour 006.jpg** — La Magdalena penitente, óleo de Georges de La Tour, hacia 1638: una habitación entera alumbrada por una sola llama.
+- **Georges Pierre Seurat - Port-en-Bessin, The Outer Harbor (Low Tide) - 4-1934 - Saint Louis Art Museum.jpg** — Port-en-Bessin, el antepuerto con marea baja. Óleo de Georges Seurat, 1888. Saint Louis Art Museum.
+- **German Sick, Captured at Messines, in a Canadian Hospital Art.IWMART3043.jpg** — Prisioneros alemanes enfermos atendidos en un hospital de campaña canadiense, óleo de William Orpen, 1917. Imperial War Museum.
+- **Glassy sea ice with iceberg (7873357450).jpg** — El sol saliendo sobre el hielo marino en la costa este de Groenlandia, en abril de 2012. Fotografía de Jefferson Beck, NASA.
+- **Global Navigation Satellite System (GNSS) Satellite Fleet (SVS5627 - gnss 02 usa 00001).jpg** — La constelación de satélites de navegación alrededor de la Tierra. NASA.
+- **Grande Galerie Louvre by Thomas Allom.jpg** — La Gran Galería del Louvre con los copistas trabajando, grabado de Thomas Allom, hacia 1844.
+- **Grande Montgolfière de Versailles enlevant un mouton, un coq et un canard.png** — El globo de Versalles despegando ante la multitud, grabado publicado por Jules Turgan.
+- **Great Fire London.jpg** — El incendio de 1666 pintado por un artista anónimo hacia 1675. Museum of London.
+- **Gruss aus Rawitsch.jpg** — Litografía de Rawicz, en Polonia, impresa en 1894 por Louis Fiedler para papel de carta y postales.
+- **Guam women washing laundry in stream, June 1945.tif** — Colada en un arroyo, Guam, 1945. Archivos Nacionales de Estados Unidos.
+- **Hans 1910.jpg** — El caballo del que hablaba media Europa, fotografiado por Karl Krall en 1910.
+- **Hans zeigt Zahlen an.jpg** — El animal señalando con el hocico una de las cifras puestas en el suelo. Fotografía de Karl Krall.
+- **Jacques-Louis David - The Emperor Napoleon in His Study at the Tuileries - Google Art Project.jpg** — Jacques-Louis David
+- **Jan Verkolje - Antonie van Leeuwenhoek.jpg** — Antonie van Leeuwenhoek retratado por Jan Verkolje hacia 1685, con uno de sus aparatos sobre la mesa.
+- **Jan Vermeer van Delft - The Glass of Wine - Google Art Project.jpg** — La copa de vino, óleo de Johannes Vermeer, hacia 1660. A la izquierda, la ventana emplomada con su vidriera de escudo.
+- **Jean-Léon Gérôme - The Death of Caesar - Walters 37884.jpg** — Óleo de Jean-Léon Gérôme, 1867. Walters Art Museum, Baltimore.
+- **Joan of Arc miniature graded.jpg** — Miniatura del siglo XV, Archivos Nacionales de Francia
+- **June 1962 INTERIOR OF ELDERS' ROOM, SHOWING SHAKER FURNITURE AND STOVE - Shaker Church Family Main Dwelling House, U.S. Route 20, Hancock, Berkshire County, MA HABS MASS,2-HANC,4-32.tif** — El cuarto de los ancianos en una casa shaker de Hancock, Massachusetts. Fotografía de Jack Boucher, 1962.
+- **Kapataq BM Am2001 15 1.jpg** — Chaqueta de invierno con capucha, de piel de zorro, hecha en Qaanaaq, en el norte de Groenlandia. British Museum.
+- **Katsushika Hokusai - Thirty-Six Views of Mount Fuji- The Great Wave Off the Coast of Kanagawa - Google Art Project.jpg** — La gran ola de Kanagawa, estampa de Katsushika Hokusai, hacia 1831.
+- **KITLV - 110104 - Landscape in China - circa 1871.tif** — Las montañas de Wuyi, en Fujian, de donde salía el mejor té negro. Fotografía de hacia 1871.
+- **Late in September 1918, while gathering material for 'Gassed' near Peronne, Sargent was struck down with influenza and taken to a hospital near Roisel. Here, he spent a week in a hospital bed next to the war-wo Art.IWMART1611.jpg** — Interior de una tienda-hospital en el frente, acuarela de John Singer Sargent, 1918. Imperial War Museum.
+- **LRO Tycho Central Peak.jpg** — El pico central del cráter Tycho, en la Luna, fotografiado por la sonda Lunar Reconnaissance Orbiter. NASA.
+- **Lucas Cranach the Elder - Adam and Eve - Google Art Project.jpg** — Adán y Eva, óleo de Lucas Cranach el Viejo, 1526. Courtauld Gallery, Londres.
+- **Lunar animals and other objects Discovered by Sir John Herschel in his observatory at the Cape of Good Hope and copied from sketches in the Edinburgh Journal of Science. LCCN2003665049.jpg** — «Animales lunares y otros objetos», litografía publicada por Benjamin Day en 1835 para acompañar la serie.
+- **Magnetic tape library at USDA.jpg** — Un almacén de cintas magnéticas de copia de seguridad, Departamento de Agricultura de Estados Unidos, 1966.
+- **Marconi operator aboard ship "Deutschland", at his instruments LCCN2014683102.jpg** — El telegrafista de un transatlántico alemán en su cabina, hacia 1914, con el equipo de radio de la época.
+- **Mercator 1569 world map composite.jpg** — El mapamundi que Gerardus Mercator publicó en Duisburgo en 1569, con sus dieciocho hojas montadas.
+- **Meyers Universum Band 06 35.jpg** — El túnel del Támesis abierto al público, grabado de Meyer's Universum, 1839.
+- **Mona Lisa, by Leonardo da Vinci, from C2RMF retouched.jpg** — El retrato de Leonardo da Vinci, pintado entre 1503 y 1506. Museo del Louvre.
+- **Mount Tambora Volcano, Sumbawa Island, Indonesia.jpg** — El cráter del Tambora, en la isla de Sumbawa, fotografiado desde la Estación Espacial. NASA.
+- **Nanotube Soot (6648549965).jpg** — Hollín de nanotubos de carbono al microscopio. Es la clase de estructura que se encontró dentro del acero antiguo.
+- **Negativo de vidrio al colodión, de J. Laurent y Cª, en diciembre de 1874, puente de Vilches nº 39, Jaén, Fototeca del IPCE, España.jpg** — El puente de Vilches, en Jaén, fotografiado por J. Laurent en diciembre de 1874. Fototeca del Instituto del Patrimonio Cultural de España.
+- **Neodymium magnet - 19-11-2010.JPG** — Un imán de neodimio sacado del brazo de un disco duro. De este tamaño tira más que cualquier herradura de las de antes.
+- **Niagara Falls, mill district on American shore, ca. 1900.jpg** — Las fábricas al pie del Niágara hacia 1900, donde se decidió la pelea. Detroit Publishing Co.
+- **Niépce Heliograph 1827 Le Gras.jpg** — La heliografía sobre placa de peltre tomada por Nicéphore Niépce en Le Gras: la imagen fotográfica más antigua que se conserva.
+- **Nikola Tesla, with his equipment EDIT.jpg** — Tesla sentado en su laboratorio de Colorado Springs mientras su bobina descarga, 1899. Fotografía de Dickenson V. Alley.
+- **Nintendo-Game-Boy-Advance-Rose-Colored-Gaming-Original-Game-Boy.jpg** — Una consola portátil de Nintendo, del tipo por cuyos derechos se peleó medio sector. Fotografía de Evan-Amos.
+- **North Col of Mount Everest.JPG** — El collado norte del Everest fotografiado desde la Estación Espacial. NASA.
+- **Old Limehouse RMG PW0712.tiff** — El Támesis a la altura de Limehouse, aguafuerte de William Lionel Wyllie, hacia 1920.
+- **Page from the 'Garden of knowledge (Viridarium)', a medieval encyclopaedia (CBL W 080, f.13r).jpg** — Página de una enciclopedia manuscrita entre 1386 y 1425, escrita con esta misma tinta. Biblioteca Chester Beatty, Dublín.
+- **Pieter Bruegel the Elder - Children’s Games - Google Art Project.jpg** — Juegos de niños, óleo de Pieter Brueghel el Viejo, 1560: más de ochenta juegos distintos en una sola plaza.
+- **Platinum-Iridium meter bar.jpg** — El metro patrón de platino e iridio, con su perfil en forma de equis.
+- **Portrait de Toussaint Louverture, à cheval1.jpg** — Toussaint Louverture a caballo, grabado publicado en París hacia 1802.
+- **Poston, Arizona. Filling straw ticks for mattresses at Colorado River Relocation center for evacuee . . . - NARA - 536109.jpg** — Rellenando de paja las fundas de los colchones en el campo de internamiento de Poston, Arizona, en mayo de 1942. Fotografía de Fred Clark. Archivos Nacionales de Estados Unidos.
+- **Rembrandt - De Staalmeesters- het college van staalmeesters (waardijns) van het Amsterdamse lakenbereidersgilde - Google Art Project.jpg** — Los síndicos del gremio de pañeros de Ámsterdam, óleo de Rembrandt, 1662.
+- **RMS Titanic 3.jpg** — El Titanic saliendo de Southampton, 10 de abril de 1912. Fotografía de Francis Godolphin Osbourne Stuart.
+- **Robert Howlett (Isambard Kingdom Brunel Standing Before the Launching Chains of the Great Eastern), The Metropolitan Museum of Art - restoration1.jpg** — El ingeniero Isambard Kingdom Brunel ante las cadenas de botadura del Great Eastern, fotografiado por Robert Howlett en 1857. Metropolitan Museum, Nueva York.
+- **Rothman's Pawn Shop, 149 Eighth Avenue, Manhattan (NYPL b13668355-482720).jpg** — La casa de empeños Rothman's, en la Octava Avenida de Manhattan, con sus tres bolas en la fachada. Fotografía de Berenice Abbott, 1938.
+- **Sebastiaan Vrancx - Winter landscape with skaters on a frozen canal.jpg** — Paisaje de invierno con patinadores en un canal helado, de Sebastiaen Vrancx, primera mitad del siglo XVII.
+- **Serta 'Perfect Sleeper', 1948.jpg** — Anuncio de un colchón de muelles en una revista estadounidense, 1948: cuarenta y nueve dólares con cincuenta. El muelle llevaba ya casi ochenta años patentado y todavía se vendía como novedad.
+- **Shadow of a ladder on the gasholder at Minami-machi, Hiroshima City - 15 October 1945 - Kikuchi Shunkichi.png** — La sombra de una escalera marcada por el calor en el gasómetro de Minami-machi. Fotografía de Shunkichi Kikuchi, octubre de 1945.
+- **Snow-cholera-map-1.jpg** — El mapa que dibujó John Snow en 1854: cada rayita negra es un muerto y los círculos marcan las bombas de agua del barrio.
+- **Software Engineering Institute - IMG 1196.JPG** — El Instituto de Ingeniería del Software de la Universidad Carnegie Mellon, en Pittsburgh. Allí se montó, a las pocas semanas del gusano, el primer equipo de respuesta a emergencias informáticas. Fotografía de Daderot, 2010.
+- **Sow and five piglets.jpg** — Una cerda tumbada con sus lechones.
+- **Spruce trees in the snow (52828594353).jpg** — Abetos en la tundra nevada del refugio de Selawik, Alaska. Fotografía de Lisa Hupp para el USFWS.
+- **Stamp GB Penny Black plate reconstruction.jpg** — Reconstrucción de una plancha entera de Penny Black: doscientas cuarenta posiciones, cada una con sus letras de control.
+- **Stamp GB-Penny Black first day cover.jpg** — Carta doblada con un Penny Black matasellado el 6 de mayo de 1840, el primer día en que el sello tuvo validez.
+- **Sun - SDO - 2014-06-10 304.jpg** — El Sol en ultravioleta, visto por el observatorio SDO. NASA.
+- **Sun3 60.jpg** — Una estación de trabajo Sun-3, de mediados de los ochenta. Es uno de los dos tipos de máquina que el gusano sabía infectar. Fotografía de Emiliano Russo, 2006.
+- **Tempête de mer avec épaves de navires.JPG** — Tempestad con restos de naufragio. Óleo de Joseph Vernet, 1770.
+- **The Feast in the House of Levi by Paolo Veronese (edited 2).jpg** — «La cena en casa de Leví», de Veronese, 1573. Galería de la Academia, Venecia.
+- **Thomas Flyer participating in New York-to-Paris automobile race in front of a streetcar during the winter LCCN2017648794.jpg** — Un automóvil de la carrera Nueva York-París, en 1908, sobre una carretera nevada; detrás asoma un tranvía. Fotografía de Spooner & Wells. Biblioteca del Congreso, Estados Unidos.
+- **Two old fire insurance plaques. 11 Princelet Street.jpg** — Dos placas de compañías de seguros contra incendios en una fachada de Londres. Fotografía de Maggie Jones.
+- **Van Gogh - Stillleben mit Kartoffeln in gelber Schüssel.jpeg** — Bodegón con patatas en un cuenco amarillo, óleo de Vincent van Gogh, 1888.
+- **Van Gogh - Stillleben mit Makrelen, Zitronen und Tomaten.jpeg** — Bodegón con caballas, limones y tomates, óleo de Vincent van Gogh, 1886.
+- **Venus globe.jpg** — Venus reconstruido con el radar de la sonda Magallanes: bajo sus nubes no se ve nada con luz normal. NASA y JPL.
+- **Venus Over Dunes (39916414910).jpg** — Venus sobre las dunas al anochecer: es el lucero del atardecer. Parque Nacional Great Sand Dunes.
+- **Versailles King's bedchamber - DPLA - acc841684f4bc5fa6430aadefea596ff.jpg** — El dormitorio del rey en Versalles, con la cama tras una barandilla para que se viera sin poder acercarse. Fotografía de 1913.
+- **Verschuier-fire.jpg** — El gran incendio de Londres visto desde el río, óleo de Lieve Verschuier, 1666.
+- **Vibrio parahaemolyticus 01.jpg** — Bacterias del género Vibrio, el mismo al que pertenece la del cólera, al microscopio electrónico. CDC.
+- **View of Earth showing the Arctic, Europe, and Asia.jpg** — La Tierra desde el satélite Suomi NPP, para comparar: aquí el día dura veinticuatro horas. NASA y NOAA.
+- **View of Mission Control Center (MCC) - Lunar Surface - Apollo XI - Extravehicular Activity (EVA) - MSC (S69-39817).jpg** — La sala de control de Houston durante la misión, 20 de julio de 1969. NASA.
+- **Vincent van Gogh - De slaapkamer - Google Art Project.jpg** — El dormitorio, óleo de Vincent van Gogh, 1888.
+- **Wilhelmina von Hallwyls bröllopsklänning. Detalj. Bröstet vänster sida - Hallwylska museet - 87238.tif** — El pecho de un vestido de novia sueco del siglo XIX, con los botones forrados de la misma tela en fila. Museo Hallwyl, Estocolmo.
+- **William Tombleson Guttenberg's Monument at Mayence 1832.jpg** — El monumento a Gutenberg en Maguncia, grabado de William Tombleson, 1832.
+- **Windsor Castle, from the North East (BM 1895,0408.39.1).jpg** — El castillo de Windsor desde el nordeste, litografía de William Westall de 1831. British Museum.
+- **Women washing laundry in a river, NINO F Scholten Jourdain Mer Morte 1 090.tiff** — Lavando en el río, que es como se hizo la colada durante milenios. Fotografía de Frank Scholten.
+- **YuanEmperorAlbumGenghisPortrait.jpg** — Álbum imperial Yuan, Museo del Palacio Nacional
+
+## CC BY 3.0 — 22 imágenes
+
+- **44 Made bed with richly decorated pillows and ornate bedspread.jpg** — Una cama hecha con seis almohadas, casi todas decorativas. Fotografía de Marek Ślusarczyk, 2010.
+- **A Toothbrush.JPG** — Un cepillo moderno de mango translúcido y filamentos de nailon. Fotografía de Dwight Burdette.
+- **A typical Tobacco-barn in the Dordogne region, where the leaves from the tobacco plants can dry in the open air. That they can still live from such harvest^^ - panoramio.jpg** — Secadero de tabaco en la Dordoña francesa, con las paredes abiertas para que corra el aire.
+- **Antonio canova, beatrice.jpg** — «Beatriz», mármol de Antonio Canova, ejemplo del blanco liso que el neoclasicismo tomó por antiguo. Fotografía de Sailko.
+- **Archivo de Indias 002.jpg** — La antigua lonja de comerciantes de Sevilla, el edificio que guarda los ocho kilómetros de legajos. Fotografía de Anual.
+- **Cheneliege.jpg** — Alcornoque andaluz con la línea del descorche a media altura: encima la corteza de corcho, debajo el tronco pelado. Fotografía de Marc Chazelle, 2010.
+- **City View of Reykjavik from Hallgrímskirkja - 2013.08 - panoramio.jpg** — Reikiavik vista desde la torre de la iglesia de Hallgrímur, con los tejados de colores.
+- **Coal Miner 1958.JPG** — Minero de carbón de Bachra, India. Fotografía de Biswarup Ganguly, 2009.
+- **Coal Miners 2001.JPG** — Mineros del carbón saliendo del tajo. Fotografía de Biswarup Ganguly.
+- **Dew on nasturtium leaf.JPG** — Rocío sobre una hoja de capuchina.
+- **Fireworks, Changsha, Hunan, China, 30 June 2021B.jpg** — Fuegos artificiales en Changsha, en la provincia china de Hunan. Fotografía de Huangdan2060.
+- **Fuento de Cantos Tile signs 22 09 2012.JPG** — Rótulo antiguo de azulejo en Fuente de Cantos, en Badajoz.
+- **Meridiana con le teste di elio, atena e dioniso, da atene, I sec dc ca. 03.JPG** — Reloj de sol ateniense del siglo I, decorado con las cabezas de Helios, Atenea y Dioniso. Antikensammlung, Berlín. Fotografía de Sailko.
+- **Modern techniques for drying tobacco plants in the Dordogne region - panoramio.jpg** — Secado moderno de tabaco en la misma región francesa.
+- **Mont Blanc Panorama (133793295).jpeg** — Panorámica del macizo del Mont Blanc. Fotografía de Alan Coles, 2010.
+- **MV ART CARLSON - OFFSHORE - panoramio.jpg** — Buque de apoyo junto a una plataforma en alta mar, 2012.
+- **Oil Rig - panoramio (3).jpg** — Plataforma petrolífera en alta mar, 2014.
+- **Potosí - hora Cerro Rico - 4.824 m.n.m. - panoramio.jpg** — El Cerro Rico desde otro ángulo, a casi cinco mil metros. Fotografía de Pavel Špindler.
+- **Quercus alba fallen-leaves acorns.jpg** — Bellotas y hojas caídas de roble blanco. Fotografía de Dcrjsr.
+- **Row of Craters on Laki Fissure in Iceland.jpg** — Hilera de cráteres a lo largo de la fisura del Laki, Islandia, 2015.
+- **St Margaret's at Cliffe-cliffs 0387.JPG** — Acantilados de creta en St Margaret's at Cliffe, Kent, 2012. Fotografía de Clem Rutter.
+- **Vista Arsenale di Venezia - panoramio.jpg** — El Arsenal de Venecia visto desde arriba, con sus naves de ladrillo alineadas junto al canal. Fotografía de Marco Usan.
+
+## CC BY-SA 3.0 fr — 11 imágenes
+
+- **Chronometer-MnM 13 NA 1-IMG 6378.JPG** — Cronómetro de marina en su caja de madera: el reloj que guardaba la hora del puerto de salida. Musée national de la Marine. Fotografía de Rama.
+- **Copy of Gallileo Firenze thermometer-MHS 1882-P5200181-white.jpg** — Copia de un termómetro florentino de vidrio soplado del siglo XVII. Fotografía de Rama, Museo de Historia de la Ciencia.
+- **Cross-staff-MnM 11 NA 5-IMG 5989-black.jpg** — Ballestilla europea del Museo Nacional de la Marina de París: una vara graduada con una cruz que se desliza.
+- **Morse key-CNAM 14674-2-IMG 5195-black.jpg** — Manipulador de telégrafo morse conservado en el Musée des arts et métiers de París. Fotografía de Rama.
+- **Noon cannon-IMG 2162-black.jpg** — Otro cañón solar, fotografiado sobre fondo negro para que se vea el mecanismo entero.
+- **Noon cannon-OA 10762-IMG 4322.JPG** — Cañón de mediodía de latón sobre base de mármol, con su lente montada en el arco.
+- **Sextant-MnM 11 NA 20-IMG 5964-black.jpg** — Otro sextante del mismo museo, con los dos espejos y el juego de filtros de colores abatibles. Fotografía de Rama.
+- **Sextant-MnM 11 NA 59-IMG 5971.JPG** — Un sextante de latón, el instrumento para el que servían aquellos mapas. Fotografía de Rama, Museo Nacional de la Marina.
+- **Volta battery-MHS 373-IMG 3840-black.jpg** — Pila de Volta original conservada en el Musée d'histoire des sciences de Ginebra. Fotografía de Rama, 2018.
+- **Volta battery-MHS 373-IMG 3840-white.jpg** — La pila de Volta recortada sobre fondo claro. Fotografía de Rama, Musée d'histoire des sciences de Ginebra.
+- **Volta battery-MHS 373-IMG 3842.JPG** — Detalle de la misma pila: discos de cobre y de cinc separados por cartones empapados en salmuera. Fotografía de Rama, 2018.
+
+## CC BY-SA 2.5 — 9 imágenes
+
+- **CMOC Treasures of Ancient China exhibit - bronze mirror.jpg** — Espejo chino de bronce del periodo de los Reinos Combatientes, con el reverso decorado y un asa para colgarlo.
+- **Colosseum in Rome, Italy - April 2007.jpg** — El Coliseo de Roma iluminado al anochecer. Fotografía de David Iliff, 2007.
+- **Geirangerfjord .jpg** — El fiordo de Geiranger, en Noruega. Fotografía de Andreas Trepte, 2010.
+- **IBM D11 (early Tabulation Machine).jpg** — Tabuladora temprana de IBM, heredera directa de aquellas máquinas. Museo Alemán de Múnich.
+- **Ice-core drill hg.jpg** — Sonda de perforación de hielo, del tipo con el que se sacan los cilindros de las capas profundas.
+- **Libya 5391 Ubari Lakes Luca Galuzzi 2007.jpg** — Uno de los lagos de Ubari, en el desierto de Libia: agua y palmeras entre las dunas. Fotografía de Luca Galuzzi.
+- **Lienz SG8.JPG** — Niebla de amanecer en el valle del Rin: el vapor de agua que el aire deja de sostener al enfriarse. Fotografía de böhringer friedrich.
+- **Miscanti Lagoon near San Pedro de Atacama Chile Luca Galuzzi 2006.jpg** — Laguna Miscanti, en el altiplano sobre el desierto de Atacama, 2006. Fotografía de Luca Galuzzi.
+- **Piles of Salt Salar de Uyuni Bolivia Luca Galuzzi 2006 a.jpg** — Conos de sal amontonada para secarse en el salar de Uyuni, en Bolivia. Fotografía de Luca Galuzzi.
+
+## No restrictions — 9 imágenes
+
+- **Brass Microscope Used in the St. Louis City Chemist's Office - DPLA - 305b66e4df3e7be219ea8ca173cf3d37 (page 5).jpg** — Microscopio de latón de laboratorio, fabricado por Bausch & Lomb. Colección de la Biblioteca Pública de San Luis.
+- **Chinese Rosewood and Inlay Desk Chair Displayed at the 1904 World's Fair - DPLA - 713985f10aa9df1993795ebe86e7cba9 (page 2).jpg** — Otra vista de la misma silla giratoria de 1904.
+- **Chinese Rosewood and Inlay Desk Chair Displayed at the 1904 World's Fair - DPLA - 713985f10aa9df1993795ebe86e7cba9 (page 34).jpg** — Silla giratoria de palisandro con incrustaciones, expuesta en la Feria Mundial de 1904.
+- **Crowd in Willis Street, Wellington, awaiting the results of the 1931 general election, 1931 (3327041430).jpg** — Una multitud esperando resultados electorales en Wellington, 1931. National Library of New Zealand.
+- **Dress forms of type made by members of Extension classes in clothing under the - (3855498503).jpg** — Maniquíes hechos a mano en unas clases de costura de hacia 1914. Biblioteca de la Universidad de Cornell.
+- **Dust Storm in Rolla, Kansas 05-06-35 (4546091662).jpg** — Tormenta de polvo en Rolla, Kansas, mayo de 1935.
+- **Hall of Mirrors, Versailles (4304198440).jpg** — La galería de los Espejos de Versalles, vacía, en una fotografía de archivo.
+- **Smokestacks of the Crown-Zellerbach Papermill in Camas, on the Columbia River 04-1973 (4271663303).jpg** — Chimeneas de una fábrica de papel junto a un río, fotografiadas en 1973.
+- **Timber stacked in sawmill yard (21313837969).jpg** — Tablones apilados para secar al aire en el patio de un aserradero.
+
+## CC BY-SA 3.0 at — 4 imágenes
+
+- **20150726 1251 DM Leichtathletik Frauen Hochsprung 0290.jpg** — Salto de espaldas en el campeonato alemán de atletismo de 2015: hoy nadie salta de otra manera.
+- **Ansfelden Berg Kirche Zehetner S.jpg** — Cable de pararrayos bajando por el muro de una iglesia en Ansfelden, Austria.
+- **Národní park Podyjí Dyje Nationalpark Thayatal 2013 10 a.jpg** — Hayas enrojecidas reflejadas en el río Dyje, en el parque nacional de Podyjí, en Chequia.
+- **Staatsoper Wien DSC 5273w.jpg** — La Ópera Estatal de Viena. Fotografía de Peter Haas, 2014.
+
+## CC BY 2.5 — 4 imágenes
+
+- **142872 jerusalem - the old city PikiWiki Israel.jpg** — Callejón de la Ciudad Vieja de Jerusalén. Fotografía de Shlomo Roded.
+- **Lion zoo Addis Ababa 4.jpg** — Un león en un zoológico. Fotografía de Jean-François Paumier.
+- **Long Melford Holy Trinity Church 01.jpg** — La iglesia de la Santísima Trinidad de Long Melford, en Suffolk, levantada con dinero de la lana. Fotografía de Oxyman.
+- **Pasová kontrola, Letiště Burgas.jpg** — Cola de control de pasaportes en el aeropuerto de Burgas. Fotografía de Ondřej Žváček, 2019.
+
+## Attribution — 3 imágenes
+
+- **Earth from Space- The shrinking Aral Sea ESA507898.jpg** — El mar de Aral desde el satélite, con la marca de la orilla antigua a la vista. Agencia Espacial Europea.
+- **Sau reservoir Spain.jpg** — El pantano de Sau al diez por ciento de su capacidad, visto por el satélite Sentinel-2, 2023.
+- **Woman's Red Wool Bicycling Jacket.jpg** — Chaqueta de lana roja para montar en bicicleta, hacia 1890.
+
+## CC BY-SA 2.0 fr — 3 imágenes
+
+- **Petrol pump mp3h0354.jpg** — Pistola de surtidor metida en la boca del depósito de un coche. Fotografía de Rama.
+- **Petrol pump mp3h0355.jpg** — La misma pistola de surtidor, desde otro ángulo. Fotografía de Rama.
+- **Telephone modele U43-MGR Lyon-IMG 9923.jpg** — Teléfono de baquelita modelo U43, de 1961, de la administración francesa de correos y teléfonos. Fotografía de Rama.
+
+## CC BY-SA 3.0 de — 3 imágenes
+
+- **140531 Forellen auf dem Grill.jpg** — Cuatro truchas envueltas en papel de aluminio sobre la parrilla. Fotografía de Ansgar Koreng.
+- **Garnisonkirche Dresden, drei Glocken.jpg** — Las tres campanas de la antigua iglesia de la guarnición de Dresde, 2012. Fotografía de TMg.
+- **Zeche Zollverein abends.jpg** — Castillete del pozo XII de la mina Zollverein, Essen (Alemania), al anochecer. Fotografía de Thomas Wolf, 2013.
+
+## Sin restricciones conocidas — 3 imágenes
+
+- **Modern plumbing illustrated - a comprehensive and thoroughly practical work on the modern and most approved methods of plumbing construction (1907) (14597192450).jpg** — Lámina de un manual de fontanería de 1907, de R. M. Starbuck: el desagüe de una casa entera, con la bajante subiendo de la bodega al tejado y un sifón en cada aparato.
+- **Peoples Railway Company of Dayton, Ohio, car -135 - DPLA - 7aa8eaafcb0ab45d26a33fa2389b90cb (page 1).jpg** — Un tranvía cerrado de la compañía de Dayton, Ohio, hacia 1900, con su conductor al lado. El cristal de delante es el que había que abrir para ver la vía. Fotografía de William J. B. Gwinn.
+- **Theatrical and circus life; (1893) (14765938152).jpg** — Grabado de un libro sobre la vida del circo, 1893: los números a caballo, que fueron el circo entero durante un siglo.
+
+## CC BY 3.0 us — 3 imágenes
+
+- **Starr-130913-1162-Nicotiana tabacum-flowers-NW Lake-Laysan (24597087323).jpg** — Flores de Nicotiana tabacum, la planta del tabaco. Fotografía de Forest y Kim Starr.
+- **Starr-180326-2976-Sorghum sp-recently harvested in old cane field new crop aerial view-Kahului-Maui (41243017371).jpg** — Campos de sorgo recién cosechados vistos desde el aire, en Maui. Fotografía de Forest y Kim Starr.
+- **Starr-180421-0316-Indigofera suffruticosa-flowers leaves-Honolua Lipoa Point-Maui (43459116091).jpg** — La planta del índigo, Indigofera suffruticosa, de cuyas hojas salía el azul antes de que se fabricara en laboratorio. Fotografía de Forest y Kim Starr.
+
+## OGL v1.0 — 2 imágenes
+
+- **HRH The Price of Wales 71st Birthday Gun Salute MOD 45165445.jpg** — Salva de cañones en la Torre de Londres: la nube blanca que dejaba cada descarga de pólvora negra. Fotografía del sargento Randall.
+- **Royal Navy Ship in Rough Weather MOD 45154618.jpg** — El destructor HMS Dauntless partiendo mar gruesa en el Atlántico Sur, 2012. Fotografía de LA(Phot) Wilson, Ministerio de Defensa británico.
+
+## CC BY-SA 3.0 igo — 2 imágenes
+
+- **Office workers, Paris - UNESCO - PHOTO0000002920 0000.tiff** — Trabajo de oficina en los archivos de la Unesco, París, 1987. Fotografía de Dominique Roger.
+- **Total solar eclipse ESA425433.jpg** — Eclipse total de Sol del 2 de julio de 2019.
+
+## OGL-ON — 1 imágenes
+
+- **Aeration tanks at the Scarborough Sewage Disposal Plant (I0004239).jpg** — Tanques de aireación de una depuradora de aguas residuales, hacia 1925. Archivos de Ontario.
+
+## FAL — 1 imágenes
+
+- **Bga und via IMGP4531 wp.jpg** — Detalle de una placa electrónica con sus vías y contactos. Fotografía de Smial.
+
+## CC BY-SA 2.0 uk — 1 imágenes
+
+- **BLW Stained Glass Panel - Labours of the Months (October).jpg** — Los trabajos de octubre, deshacer terrones y sembrar el trigo. Vidriera inglesa de entre 1450 y 1475, procedente de Cassiobury Park. Fotografía de David Jackson.
+
+## PDM-owner — 1 imágenes
+
+- **Venice- The entrance to the Arsenal (SM stf144).png** — La entrada del Arsenal de Venecia, fotografía de Carlo Naya, 1875.
+
+## CC BY-SA 3.0 us — 1 imágenes
+
+- **Milwaukee pano west night.jpg** — Milwaukee, Wisconsin, al anochecer. Fotografía de Dori.
+
+## CC BY-SA 2.0 de — 1 imágenes
+
+- **Cunningham Special, Bj. 1924, Scheinwerfer.JPG** — Los faros de un Cunningham Special de 1924. Fotografía de Lothar Spurzem.
+
+## CC BY-SA 3.0 es — 1 imágenes
+
+- **La mancha por los siglos de los siglos.jpg** — Los molinos de viento de Consuegra, en La Mancha, a la hora azul. Fotografía de Antonio Aliaga.
+
+## Public Domain — 1 imágenes
+
+- **Gfp-texas-big-bend-national-park-overview-of-the-rio-grande-at-dusk.jpg** — El río Bravo al anochecer, a su paso por el parque de Big Bend, en Texas.
+
+## OGL 3 — 1 imágenes
+
+- **Trooping the Colour (Hurley) 2025-06-14-11-42-A.jpg** — Formación de la guardia británica durante el desfile del Trooping the Colour, en Londres. Fotografía de Lauren Hurley.
