@@ -4844,7 +4844,7 @@ button {
 }
 .suscri-cerrar svg { width: 13px; height: 13px; }
 
-.suscri-cuerpo { padding: 14px 16px 16px; }
+.suscri-cuerpo { padding: 13px 16px 15px; }
 
 .suscri-texto {
   font-size: 13.5px;
@@ -4862,7 +4862,7 @@ button {
 .suscri-boton {
   width: 100%;
   height: 52px;
-  margin-top: 15px;
+  margin-top: 13px;
   border-radius: 15px;
   background: linear-gradient(180deg, #e6bb74, #d5a25a);
   color: #1d1710;

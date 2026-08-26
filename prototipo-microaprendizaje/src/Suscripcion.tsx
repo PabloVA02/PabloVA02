@@ -19,14 +19,24 @@ import { GlyphClose } from "./glyphs";
    AVISO y no otra sección de la columna, y es la única pieza del perfil que
    se lee así. Se cierra con la equis, igual que la suya.
 
-   PERO EL ARGUMENTO ES NUESTRO, Y ES VERDAD. La suya dice «sigue hoy con tu
-   crecimiento personal y evita obstáculos en tus metas», que no significa
-   nada y podría estar en cualquier app de cualquier cosa. La nuestra dice lo
-   que de verdad separa las dos versiones de Curva, y es una frase que el
-   usuario puede comprobar dos pantallas más atrás: gratis se lee UN libro al
-   día —el de la tarjeta «Gratis hoy» de la portada— y pagando se abren los
-   378 sin esperar a mañana. Un motivo concreto para pagar convence más que
-   una promesa de crecimiento personal.
+   LO QUE DICE, Y LO QUE NO. La suya dice «sigue hoy con tu crecimiento
+   personal y evita obstáculos en tus metas», que no significa nada y podría
+   estar en cualquier app de cualquier cosa. La primera nuestra tampoco valía,
+   por lo contrario: contaba el modelo de negocio —«gratis lees un libro al
+   día», «378 resúmenes y 761 historias»— y una tarjeta que vende no explica
+   tarifas, promete.
+
+   Y no dice «resúmenes». Lo quitó Pablo, y tiene razón: quien va a pagar no
+   compra resúmenes, que suena a versión recortada de algo mejor; compra los
+   libros. Los shorts tampoco son «historias ilustradas» aquí: son
+   CURIOSIDADES, que es lo que son cuando alguien decide si le compensa pagar.
+
+   Cuatro renglones y ni uno más:
+
+     Libros ilimitados            lo que se compra
+     y curiosidades cada día      lo que viene de regalo
+     Sin anuncios y sin esperas   las dos molestias que se quitan
+     Probar 7 días gratis         y lo que hay que tocar
 
    TODO DEL MISMO COLOR, como la tarjeta de la cuenta que tiene justo encima:
    la banda, el titular de abajo y el botón son el mismo ocre. La suya usa
@@ -34,14 +44,7 @@ import { GlyphClose } from "./glyphs";
    para una sola idea.
    ========================================================================== */
 
-export function Suscripcion({
-  /** Cuántos resúmenes hay escritos. Sale del catálogo, no de una promesa. */
-  libros,
-  onSuscribirse,
-}: {
-  libros: number;
-  onSuscribirse?: () => void;
-}) {
+export function Suscripcion({ onSuscribirse }: { onSuscribirse?: () => void }) {
   const [visible, setVisible] = useState(true);
 
   return (
@@ -71,8 +74,8 @@ export function Suscripcion({
               📚
             </motion.span>
             <h2 className="suscri-titulo">
-              Gratis lees un libro al día
-              <b>Ábrelos todos</b>
+              Libros ilimitados
+              <b>y curiosidades cada día</b>
             </h2>
 
             {/* La equis, como la suya. Se cierra por esta sesión y ya: quien
@@ -88,9 +91,7 @@ export function Suscripcion({
           </div>
 
           <div className="suscri-cuerpo">
-            <p className="suscri-texto">
-              {libros} resúmenes y 761 historias, sin esperar a mañana y sin un solo anuncio.
-            </p>
+            <p className="suscri-texto">Sin anuncios y sin esperas.</p>
             <motion.button
               className="suscri-boton"
               type="button"

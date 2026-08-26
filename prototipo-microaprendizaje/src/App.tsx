@@ -400,10 +400,6 @@ export default function App() {
               key="perfil"
               racha={RACHA}
               suscrito={suscrito}
-              /* Los resúmenes escritos a mano, contados del fichero de
-                 páginas. Es la cifra de verdad y sube sola según se escriben:
-                 una promesa de la tarjeta de pase no puede estar a mano. */
-              libros={Object.keys(PAGINAS).length}
               /* A la caja, que es donde se paga de verdad. La pantalla de
                  «oferta» es el regalo con descuento y no da de alta. */
               onSuscribirse={() => setPantalla("pago")}
