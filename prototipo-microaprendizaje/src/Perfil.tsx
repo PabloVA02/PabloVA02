@@ -37,6 +37,13 @@ import { spring, springPop, springSoft } from "./motion";
 
 const PASO = 0.055;
 
+/** Horas y minutos, y para un cuadro pequeño solo las horas: «30 h» cabe y
+ *  «30 h 47 min» no, y el minuto suelto no cambia nada de lo que se lee. */
+function horas(minutos: number): string {
+  const h = Math.floor(Math.round(minutos) / 60);
+  return h === 0 ? `${Math.round(minutos)} min` : `${h} h`;
+}
+
 /** Retrasos encadenados: cada bloque sabe cuántos van antes que él. */
 function orden(i: number) {
   return 0.08 + i * PASO;
@@ -71,6 +78,8 @@ type Props = {
   racha: number;
   /** Sin esto no hay tarjeta de pase. Ver arriba. */
   suscrito: boolean;
+  /** Minutos leídos desde siempre. Va en el cuadro de estadísticas. */
+  minutosTotales: number;
   /** Y con esto la tarjeta sabe a quién le habla. Ver `Suscripcion.tsx`. */
   estadoPago?: EstadoPago;
   /** A dónde lleva el botón del aviso de suscripción: a la caja. */
@@ -93,6 +102,7 @@ type Props = {
 export function Perfil({
   racha,
   suscrito,
+  minutosTotales,
   estadoPago,
   onSuscribirse,
   record,
@@ -107,6 +117,7 @@ export function Perfil({
 }: Props) {
   const reducido = !!useReducedMotion();
   const dias = semana(racha);
+  const librosLeidos = temas.reduce((t, x) => t + x.n, 0);
 
   return (
     <motion.div
@@ -210,36 +221,64 @@ export function Perfil({
           <MetaDiaria minutos={minutosHoy} meta={meta} reducido={reducido} onMeta={onMeta} />
         </motion.div>
 
-        {/* Crecimiento semanal: la única parte de la pantalla que contesta
-            «¿voy a más o a menos?». Va detrás de la meta porque agranda la
-            escala —la meta cuenta hoy, esto cuenta seis semanas— y delante de
-            todo lo que se toca, porque es dato y no acción. Ver
-            `Crecimiento.tsx`, que lleva las decisiones del dibujo. */}
+        {/* ESTADÍSTICAS, en una sola caja con cuatro cuadros dentro.
+
+            Iban en dos bloques seguidos y sueltos —«Crecimiento semanal» y
+            «Tus temas»—, cada uno con su título y su ficha. Pablo pidió el 26
+            de agosto que se englobaran en un recuadro que diga Estadísticas y
+            que los cuadros de dentro tengan tamaños distintos, estilo Apple.
+
+            Y hay un motivo por debajo del gusto: las dos fichas contestaban
+            preguntas de la misma familia —qué llevo leído— y estaban al mismo
+            nivel que la racha, la meta o el aviso de suscripción, que son
+            otra cosa. Agrupadas, el perfil pasa de ser una lista de nueve
+            fichas a ser cuatro asuntos: quién eres, tu racha de hoy, tus
+            estadísticas y lo que puedes hacer.
+
+            Los cuatro cuadros y por qué cada tamaño:
+
+              crecimiento   ancho y alto, porque lleva una gráfica y una
+                            gráfica estrecha no se lee
+              libros        pequeño: es una cifra
+              horas         pequeño: es otra cifra, y las dos juntas se
+                            comparan sin querer, que es lo que hace que una
+                            parrilla se lea de un vistazo
+              temas         ancho, porque es una barra partida en cinco y
+                            necesita el ancho entero para que los tramos de
+                            los últimos sigan siendo tramos
+
+            El total de horas vuelve aquí. Estaba en la tarjeta de la meta del
+            día —«En total 30 h 47 min»— y se cayó al pasar el arco a barra;
+            este es su sitio de verdad, porque es una estadística y no una
+            meta. */}
         <motion.section
           className="perfil-bloque"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ ...springSoft, delay: orden(4) }}
         >
-          <h2 className="perfil-titulo-bloque">Crecimiento semanal</h2>
-          <Crecimiento semanas={historial} reducido={reducido} />
-        </motion.section>
+          <h2 className="perfil-titulo-bloque">Estadísticas</h2>
+          <div className="stats">
+            <div className="stats-caja stats-ancha">
+              <p className="stats-rotulo">Crecimiento semanal</p>
+              <Crecimiento semanas={historial} reducido={reducido} />
+            </div>
 
-        {/* Tus temas: lo leído repartido por categoría, en una sola barra.
-            Existe por un motivo que no es de vanidad: es lo que explica las
-            recomendaciones. La referencia pone aquí un «gestiona las
-            recomendaciones» con tres objetivos escritos por el usuario en el
-            alta y nada más; enseñar lo que de verdad ha leído dice mucho más,
-            y además se puede discutir —«leo demasiada historia»— que es
-            justo lo que hace que alguien toque «Ajustar». */}
-        <motion.section
-          className="perfil-bloque"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ ...springSoft, delay: orden(5) }}
-        >
-          <h2 className="perfil-titulo-bloque">Tus temas</h2>
-          <Temas temas={temas} retraso={orden(5)} reducido={reducido} />
+            <div className="stats-caja stats-cifra">
+              <span className="stats-n">{librosLeidos}</span>
+              <span className="stats-pie">{librosLeidos === 1 ? "libro leído" : "libros leídos"}</span>
+            </div>
+
+            <div className="stats-caja stats-cifra">
+              <span className="stats-n">{horas(minutosTotales)}</span>
+              <span className="stats-pie">leyendo</span>
+            </div>
+
+            <div className="stats-caja stats-ancha">
+              <p className="stats-rotulo">Tus temas</p>
+              <Temas temas={temas} retraso={orden(4)} reducido={reducido} />
+            </div>
+          </div>
         </motion.section>
 
         {/* Invitar: va aquí y no en ajustes porque no es una preferencia, es

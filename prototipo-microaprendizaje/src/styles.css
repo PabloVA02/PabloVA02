@@ -5073,6 +5073,76 @@ button {
 }
 
 /* ==========================================================================
+   ESTADÍSTICAS — la parrilla de cuadros
+
+   Una caja con cuatro cuadros dentro, de tres tamaños. Es el reparto que usa
+   Apple en sus paneles y funciona por un motivo concreto: una parrilla de
+   piezas iguales se lee de arriba abajo, como una lista, mientras que una de
+   piezas desiguales se lee de un vistazo, porque el tamaño ya dice qué es
+   importante antes de leer nada.
+
+   Los cuadros llevan crema al 6 % sobre el relleno de la ficha, no un color
+   propio: dentro de una caja no hacen falta filetes, basta con que se separen
+   del fondo. Poner un filete a cada uno convertiría la parrilla en una reja.
+
+   El porqué de cada tamaño está en `Perfil.tsx`, junto al reparto.
+   ========================================================================== */
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 12px;
+  border-radius: var(--tarjeta-radio);
+  background: var(--tarjeta);
+  border: 1px solid var(--tarjeta-filo);
+}
+
+.stats-caja {
+  min-width: 0;
+  padding: 13px 13px 14px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.stats-ancha { grid-column: 1 / -1; }
+
+/* El cuadro de una sola cifra: el número abajo y el rótulo debajo, apoyados
+   en el filo de abajo. Centrarlos deja la cifra flotando en medio de nada. */
+.stats-cifra {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 2px;
+  min-height: 88px;
+}
+
+.stats-n {
+  font-size: 28px;
+  font-weight: 780;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--paper);
+  font-variant-numeric: tabular-nums;
+}
+
+.stats-pie {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+/* El rótulo de los cuadros anchos, en versalita: dentro de una caja que ya
+   tiene su título, un segundo titular del mismo cuerpo compite con él. */
+.stats-rotulo {
+  margin: 0 0 11px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.52);
+}
+
+/* ==========================================================================
    CRECIMIENTO SEMANAL
 
    Misma tarjeta que la racha y la meta —mismo fondo translúcido, mismo radio,
@@ -5097,13 +5167,8 @@ button {
      debajo. Iba a mano en #2b2a2e, que era el color que daba la tarjeta
      translúcida sobre el fondo viejo; ahora las fichas tienen relleno propio
      y esto apunta al mismo sitio, así que no se puede volver a desincronizar. */
-  --crece-fondo: var(--tarjeta);
+  --crece-fondo: #3f3f3f;
 
-  margin-top: 0;
-  padding: 16px 14px 13px;
-  border-radius: var(--tarjeta-radio);
-  background: var(--tarjeta);
-  border: 1px solid var(--tarjeta-filo);
 }
 
 /* --- Las dos cifras ------------------------------------------------------ */
@@ -5204,11 +5269,6 @@ button {
    TUS TEMAS
    ========================================================================== */
 .temas {
-  margin-top: 0;
-  padding: 15px 16px 14px;
-  border-radius: var(--tarjeta-radio);
-  background: var(--tarjeta);
-  border: 1px solid var(--tarjeta-filo);
 }
 
 /* La barra crece desde la izquierda de una pieza: son partes de un mismo
