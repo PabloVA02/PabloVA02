@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "quietud-es-la-clave":
+    "Dejados solos quince minutos sin nada que hacer, dos de cada tres hombres prefirieron darse una descarga eléctrica antes que quedarse pensando. Holiday parte de ahí para defender que casi nada mejora por decidirse deprisa.",
+
   "pleno-compromiso":
     "Los mejores tenistas del mundo bajaban hasta veinte pulsaciones en los veinte segundos entre punto y punto, y los demás no bajaban nada. De ese hallazgo sale toda la tesis de este libro.",
 

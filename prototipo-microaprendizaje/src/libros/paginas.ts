@@ -102698,7 +102698,305 @@ const PLENO_COMPROMISO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La quietud es la clave, de Ryan Holiday (2019), en ocho páginas.
+
+   Libro práctico, registro de tú: apartado 4.7.
+
+   La anécdota de Napoleón y las cartas va marcada como atribuida, según el
+   apartado 4 bis. La séptima página dice lo que el libro junta y no
+   encaja, y la conclusión señala la contradicción del propio autor, que
+   vende quietud a ritmo industrial.
+   -------------------------------------------------------------------------- */
+
+const QUIETUD_ES_LA_CLAVE: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Holiday sostiene que la capacidad de estar quieto es lo que separa una buena decisión de una catástrofe",
+      },
+      {
+        b: "texto",
+        texto:
+          "En octubre de 1962, durante trece días, un puñado de personas en Washington tuvo que decidir si atacaba Cuba sabiendo que aquello podía desencadenar una guerra nuclear. Casi todos sus asesores militares recomendaban bombardear de inmediato, y la presión para actuar deprisa era enorme y venía de todas partes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El presidente había leído poco antes un libro sobre cómo empezó la Primera Guerra Mundial, en el que se explicaba que ninguno de los gobiernos implicados quería aquella guerra y que se metieron en ella por inercia, por calendarios de movilización y por no atreverse a parar. Salió de esa lectura decidido a no dejar que le ocurriera lo mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ryan Holiday, divulgador estadounidense del pensamiento estoico, publicó este libro en 2019 como tercera parte de una serie. Su tesis es que casi todos los desastres personales y públicos ocurren por no ser capaz de estar quieto: por contestar antes de tiempo, por actuar bajo presión y por no soportar el silencio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que sostiene y lo que le falla: por qué la gente prefiere un dolor a quedarse a solas pensando, qué hacía Napoleón con su correspondencia, por qué estar en todas partes es no estar en ninguna, para qué sirve una afición sin ambición, y qué junta este libro que no encaja bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La decisión que resolvió aquella crisis fue además de una sutileza notable. Llegaron dos mensajes de Moscú, uno conciliador y otro mucho más duro, y en lugar de responder al segundo, que era el que exigía respuesta, se decidió contestar al primero como si el otro no existiera. Aquello permitió al otro lado retirarse sin humillarse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi ninguna decisión mejora por tomarse deprisa. La mayoría de los desastres se explican por haber contestado antes de poder pensar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Mucha gente prefiere una descarga eléctrica antes que quedarse quince minutos a solas con sus pensamientos",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1670, el filósofo Blaise Pascal escribió que toda la desgracia de los hombres viene de una sola cosa: no saber quedarse quietos en una habitación. Es una de esas frases que suenan bien y que parecen imposibles de comprobar, y resulta que se comprobó, con un experimento que casi nadie se cree la primera vez que lo oye.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2014, un equipo dirigido por Timothy Wilson publicó en la revista Science una serie de estudios en los que dejaban a los participantes solos en una habitación vacía, sin móvil, sin nada que leer y sin nada que hacer, durante un rato de entre seis y quince minutos. La instrucción era simplemente pensar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En una de las variantes había en la sala un dispositivo que administraba una descarga eléctrica desagradable. Antes de empezar, todos los participantes habían dicho que pagarían dinero por no volver a sentirla. Dejados solos con sus pensamientos, dos de cada tres hombres y una de cada cuatro mujeres se la administraron voluntariamente al menos una vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de ellos se la dio ciento noventa veces en quince minutos. El resultado no dice que la gente sea rara: dice que estar a solas con la propia cabeza sin ninguna distracción resulta tan incómodo que un dolor conocido parece preferible, y que por eso cualquier pantalla gana siempre esa competición sin esfuerzo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dos de cada tres hombres prefirieron una descarga eléctrica a quince minutos a solas pensando. Por eso el móvil gana siempre sin esforzarse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La mayoría de los asuntos urgentes se resuelven solos si se les da tiempo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se cuenta de Napoleón que tenía una costumbre con la correspondencia: dejaba las cartas sin abrir durante tres semanas y solo entonces las leía. Al hacerlo descubría que la mayor parte de los asuntos que parecían urgentes se habían resuelto solos, y que le quedaba muy poco por contestar. La anécdota circula mucho y no está bien documentada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Documentada o no, la observación que ilustra sí se puede comprobar en cualquier bandeja de entrada. Una parte considerable de lo que llega marcado como urgente deja de serlo en unos días: el proyecto se cancela, la persona lo resuelve por su cuenta, la decisión la toma otro o el problema resulta no serlo. Contestarlo todo de inmediato es trabajar en asuntos que iban a desaparecer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Holiday saca de ahí una regla que se puede aplicar sin ser emperador: separar la respuesta de la reacción. Ante cualquier cosa que provoque una respuesta inmediata —un correo, un mensaje, un comentario—, imponerse un plazo mínimo antes de contestar, aunque sea de una hora, cambia el contenido de casi todas las respuestas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade el matiz que evita convertir esto en una excusa. No se trata de aplazar por sistema, que es otra forma de no decidir: se trata de distinguir lo que exige una respuesta rápida, que existe, de lo que solo produce una sensación de urgencia. Casi todo lo segundo llega en forma de notificación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ponle una hora de espera a cualquier cosa que te dé ganas de contestar ya. Casi ninguna respuesta empeora con esa hora, y muchas dejan de hacer falta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Quien está en todas partes no está en ninguna, y eso lo escribió alguien hace dos mil años",
+      },
+      {
+        b: "texto",
+        texto:
+          "Séneca dejó escrita una frase que describe con incómoda precisión la vida contemporánea: en ninguna parte está quien está en todas partes. La escribió en una carta sobre la costumbre de sus contemporáneos de empezar muchas lecturas y no terminar ninguna, y de viajar sin parar buscando un sitio donde estar bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El diagnóstico que hace Holiday a partir de ahí es sobre la información. Sostiene que la cantidad de datos, noticias y opiniones que una persona recibe hoy no la hace estar mejor informada, sino que le impide pensar, porque pensar requiere sostener una cosa en la cabeza el tiempo suficiente y la corriente de entrada no lo permite.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La comprobación es sencilla y bastante desagradable: intentar recordar tres noticias concretas de hace un mes que hayan cambiado alguna decisión propia. Casi nadie lo consigue. Eso significa que buena parte del tiempo dedicado a informarse no produjo información utilizable, sino una sensación de estar al día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La recomendación es de dieta y no de abstinencia. No dejar de informarse, sino elegir menos fuentes y más lentas, dejar de consultar lo mismo varias veces al día y aceptar el coste evidente: enterarse de algunas cosas con dos días de retraso, que es exactamente lo que le pasaba a todo el mundo hasta hace veinte años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Intenta recordar tres noticias de hace un mes que cambiaran algo que hiciste. Lo que no consigas recordar no era información: era sensación de estar al día.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hace falta hacer algo que no sirva para nada y en lo que no se pretenda destacar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos más útiles trata de las aficiones, y su argumento no es el habitual. Holiday sostiene que hace falta una actividad que se practique sin ninguna ambición: que no se vaya a monetizar, que no se vaya a publicar, en la que no se aspire a mejorar y que a nadie le interese más que a uno mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que usa es el de Churchill, que empezó a pintar a los cuarenta años, después de un fracaso político que casi le cuesta la carrera. Nunca pretendió ser bueno, pintó más de quinientos cuadros a lo largo de su vida y escribió que aquello le salvó, porque era lo único que ocupaba su cabeza por completo sin dejar sitio a lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo por el que esto funciona no es místico. Una actividad con exigencia técnica y sin consecuencias obliga a atender por completo y no permite rumiar, y a la vez, al no haber nada en juego, no genera la tensión que produce cualquier otra cosa que se hace bien. Es el único descanso que no consiste en no hacer nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y viene con la advertencia que casi todo el mundo incumple. En cuanto una afición empieza a tener público, cuentas de seguidores o expectativa de sacar dinero, deja de cumplir esta función y pasa a ser un trabajo más, con su exigencia y su comparación. Eso puede estar bien, y entonces hay que buscarse otra afición.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Necesitas algo que hagas mal, sin público y sin intención de mejorar. En cuanto tiene seguidores o ingresos, ya es otro trabajo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La quietud de la cabeza depende bastante de lo que se haga con el cuerpo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro insiste en algo que suele quedar fuera de los libros de este género: no se puede tener la cabeza en orden con el cuerpo desordenado. Holiday dedica capítulos al sueño, al ejercicio y a caminar, y los trata como condiciones previas y no como recomendaciones de salud.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caminar tiene su propio capítulo y una tradición larga detrás: Nietzsche, Kierkegaard, Beethoven y Dickens caminaban horas todos los días, y todos ellos dejaron escrito que las ideas les llegaban andando y no en la mesa. Es una observación que se repite tantas veces en tantas biografías que merece tomarse en serio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación razonable no requiere ninguna teoría elevada. Caminar ocupa lo justo para impedir la rumiación y deja libre lo suficiente para asociar, y además no admite interrupciones si se hace sin auriculares y sin teléfono. Es una forma de estar solo con un pensamiento que no exige la disciplina de sentarse a estarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre el sueño, el libro es tajante y tiene razón: nadie decide bien, ni tiene paciencia, ni soporta una contrariedad con cinco horas de sueño acumuladas durante semanas. Y señala la trampa cultural que lo sostiene, que es presumir de dormir poco como si fuera una señal de compromiso en lugar de una manera de rendir peor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre el ejercicio, Holiday señala una función que suele pasarse por alto. No se trata solo de salud: un cuerpo agotado por un esfuerzo físico deliberado descarga una tensión que de otro modo se queda dentro y busca salida en discusiones, en insomnio o en decisiones tomadas con mal cuerpo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Sal a andar sin auriculares y sin teléfono. Es la única manera de estar a solas con un pensamiento sin tener que sentarte a proponértelo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro junta tradiciones que no dicen lo mismo y hace como si coincidieran",
+      },
+      {
+        b: "texto",
+        texto:
+          "El método de Holiday consiste en reunir citas y episodios de tradiciones muy distintas —estoicos romanos, budismo zen, epicureísmo, cristianismo, confucianismo— y presentarlos como versiones de una misma idea. Eso funciona como recurso de escritura y no resiste un examen mínimo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los estoicos sostenían que hay que cumplir con los deberes públicos y participar en la vida de la ciudad; los epicúreos recomendaban justamente lo contrario, retirarse de la política y cultivar un círculo pequeño. Presentar a unos y a otros como aliados en la búsqueda de la serenidad borra una discusión que ellos consideraban importante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mismo pasa con los ejemplos históricos, que es el problema de toda la serie. Se eligen personajes conocidos, se localiza en su biografía un momento que ilustra la tesis y se cuenta. Con ese método se puede demostrar cualquier cosa, porque en la vida de cualquiera hay episodios para sostener una idea y la contraria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso del propio Kennedy lo enseña. El libro lo presenta como modelo de quietud por la crisis de 1962, y no menciona que año y medio antes, el mismo presidente, con los mismos asesores, había autorizado un desembarco en Cuba que fracasó estrepitosamente por haber decidido deprisa y sin cuestionar lo que le contaban. La misma persona sirve para las dos moralejas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una omisión que conviene señalar, porque cambia lo que el libro puede pedirle a un lector. Buena parte de las personas de las que habla tenían tiempo, dinero y control sobre su propia jornada; la quietud, en ese sentido, también es una circunstancia material y no solo una decisión, y el libro la trata siempre como lo segundo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Con episodios elegidos de biografías famosas se puede demostrar cualquier cosa. En la vida de cualquiera hay material para una idea y la contraria.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que casi ninguna decisión mejora por tomarse deprisa, que la incapacidad de estar a solas con los propios pensamientos explica buena parte del consumo de distracción, que hace falta una actividad sin ambición ni público, y que la claridad mental depende de dormir, moverse y caminar. Todo eso es cierto y aplicable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a los libros de meditación y de atención plena es que no pide creer en nada ni sentarse a hacer nada especial. Sus recomendaciones son de conducta: retrasar una respuesta, reducir fuentes, salir a andar, tener una afición inútil. Se pueden probar en una semana y comprobar si cambian algo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Retrasa una hora lo que te dé ganas de contestar ya, sal a andar sin teléfono y ten algo que hagas mal a propósito. Eso es el libro entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Junta tradiciones filosóficas que discrepaban entre sí como si dijeran lo mismo, y sostiene cada capítulo con episodios de personajes famosos elegidos después de conocer el desenlace, un método con el que se puede demostrar cualquier cosa. La parte propositiva es además mucho más pobre que el diagnóstico: describe muy bien el problema y para resolverlo ofrece poco más que la recomendación de estar quieto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una contradicción de fondo que el libro apenas menciona. Quien recomienda reducir el consumo de información y hacer menos cosas publica un libro al año, un correo diario, un programa semanal y una tienda de productos asociados, y esa maquinaria compite por la atención del lector exactamente igual que aquello contra lo que advierte. El mismo año de este libro apareció otro con un argumento parecido y una propuesta más concreta, centrada en reducir el uso del teléfono, y esa es hoy la parte del asunto que más se ha estudiado y sobre la que más discusión hay.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "quietud-es-la-clave": QUIETUD_ES_LA_CLAVE,
   "pleno-compromiso": PLENO_COMPROMISO,
   "historia-interminable": HISTORIA_INTERMINABLE,
   "equipo-rivales": EQUIPO_RIVALES,

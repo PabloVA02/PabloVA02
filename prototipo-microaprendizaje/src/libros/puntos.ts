@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "quietud-es-la-clave": [
+    "por qué contestar deprisa empeora casi cualquier respuesta",
+    "que buena parte de lo urgente deja de serlo si se le da tiempo",
+    "cómo distinguir informarse de tener sensación de estar al día",
+    "para qué sirve una afición sin público y sin ambición",
+    "por qué con biografías famosas se puede demostrar cualquier cosa",
+  ],
+
   "pleno-compromiso": [
     "por qué administrar el tiempo es administrar lo único que no cambia",
     "que el enemigo no es el estrés sino la falta de recuperación",
