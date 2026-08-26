@@ -265,16 +265,16 @@ export function Perfil({
               <Crecimiento semanas={historial} reducido={reducido} />
             </div>
 
-            {/* Las dos cifras llevan el color de lo que cuentan, y son los
-                mismos dos de la gráfica de arriba: el oro es lo aprendido y el
-                naranja es el tiempo. Así los cuatro cuadros se leen como un
-                sistema y no como cuatro números sueltos. */}
-            <div className="stats-caja stats-cifra" style={{ ["--serie" as string]: "var(--serie-a)" }}>
+            {/* Las dos cifras iban en el oro y el naranja de sus series, para
+                atarlas a la gráfica de arriba. Se quedan en blanco: con las de
+                la gráfica hacían cuatro números grandes en cuatro naranjas
+                parecidos, y la caja entera se leía como un borrón. */}
+            <div className="stats-caja stats-cifra">
               <span className="stats-n">{librosLeidos}</span>
               <span className="stats-pie">{librosLeidos === 1 ? "libro leído" : "libros leídos"}</span>
             </div>
 
-            <div className="stats-caja stats-cifra" style={{ ["--serie" as string]: "var(--serie-b)" }}>
+            <div className="stats-caja stats-cifra">
               <span className="stats-n">{horas(minutosTotales)}</span>
               <span className="stats-pie">leyendo</span>
             </div>

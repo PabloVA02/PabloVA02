@@ -74,11 +74,13 @@ const HUECO = 12;
 /** El suelo de la franja n: es la línea del cero de esa serie. */
 const suelo = (n: number) => MARGEN.arriba + n * (CARRIL + HUECO) + CARRIL;
 
-/** Las dos series, con su nombre y su color. El orden manda en todo: cifras,
+/** Las dos series, con su nombre y sus dos colores: `color` es el del trazo y
+    el del punto de la leyenda, y `cifra` es el del número grande, que desde el
+    26 de agosto ya no es el mismo. El orden manda en todo: cifras,
  *  trazos y leyenda se recorren desde aquí y no puede descuadrarse ninguno. */
 const SERIES = [
-  { clave: "ideas" as const, rotulo: "ideas clave", color: "var(--serie-a)" },
-  { clave: "minutos" as const, rotulo: "minutos leídos", color: "var(--serie-b)" },
+  { clave: "ideas" as const, rotulo: "ideas clave", color: "var(--serie-a)", cifra: "var(--verde)" },
+  { clave: "minutos" as const, rotulo: "minutos leídos", color: "var(--serie-b)", cifra: "var(--paper)" },
 ];
 
 /** El lunes de la semana a la que pertenece una fecha. */
@@ -164,7 +166,11 @@ export function Crecimiento({
           referencia deja en tres números pelados. */}
       <div className="crece-cifras">
         {SERIES.map((s) => (
-          <div className="crece-cifra" key={s.clave} style={{ ["--serie" as string]: s.color }}>
+          <div
+            className="crece-cifra"
+            key={s.clave}
+            style={{ ["--serie" as string]: s.color, ["--cifra" as string]: s.cifra }}
+          >
             <Contador valor={actual[s.clave]} reducido={reducido} />
             <span className="crece-cifra-rotulo">{s.rotulo}</span>
             <Diferencia

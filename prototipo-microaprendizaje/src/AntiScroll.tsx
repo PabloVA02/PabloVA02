@@ -248,10 +248,10 @@ function Ficha({
    El de antes era una losa de color crema con siete barras grises: se leía
    como una servilleta, no como un teléfono, y era lo más feo de la pantalla.
    Éste es un aparato de verdad —canto de metal claro, marco negro, pantalla
-   de papel— y en la pantalla no hay barras sueltas: hay un libro abierto en
-   Curva, con su cubierta, su titular y su barra de avance en el degradado del
-   fuego. Así la escena cuenta entera lo que promete el modo: éste es tu móvil
-   con lo tuyo abierto, y todo lo demás alrededor está cerrado.
+   de papel— con renglones y nada más. Llegó a llevar dentro un libro abierto
+   en Curva y se quitó a la primera: este móvil no es el nuestro, es el de
+   Pablo, y meterle nuestra app dentro convertía la promesa de la pantalla en
+   un anuncio.
 
    El canto sigue siendo claro a propósito. Es lo que recorta las fichas
    oscuras que flotan alrededor: sobre un fondo casi negro, un móvil negro las
@@ -267,11 +267,6 @@ function Movil() {
           <stop offset="46%" stopColor="#cfc9bd" />
           <stop offset="100%" stopColor="#a9a396" />
         </linearGradient>
-        <linearGradient id="anti-avance" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0%" stopColor="#f0410e" />
-          <stop offset="52%" stopColor="#ff7a18" />
-          <stop offset="100%" stopColor="#ffb13d" />
-        </linearGradient>
       </defs>
 
       <rect width="136" height="250" rx="30" fill="url(#anti-canto)" />
@@ -281,30 +276,24 @@ function Movil() {
       {/* La isla */}
       <rect x="51" y="13" width="34" height="9.5" rx="4.75" fill="#17171a" />
 
-      {/* La cubierta, el titular y lo que llevas leído. El avance va aquí
-          arriba, pegado al libro, y no al pie de la pantalla: abajo cae la
-          mano, y una barra medio tapada por la mano parecía una raya suelta. */}
-      <rect x="20" y="38" width="31" height="42" rx="4" fill="#c2704f" />
-      <rect x="23.6" y="38" width="2.6" height="42" fill="rgba(0,0,0,0.16)" />
-      <rect x="58" y="42" width="50" height="8" rx="4" fill="#2f2b24" />
-      <rect x="58" y="55" width="34" height="7" rx="3.5" fill="#bab4a8" />
-      <rect x="58" y="72" width="50" height="6" rx="3" fill="#e3ded3" />
-      <rect x="58" y="72" width="31" height="6" rx="3" fill="url(#anti-avance)" />
-
-      {/* El texto */}
-      {[96, 110, 124, 138, 152, 166].map((y, i) => (
+      {/* Nada más que renglones. Llegó a haber aquí una cubierta, un titular y
+          una barra de avance, o sea Curva abierta dentro del móvil, y Pablo lo
+          quitó: «no pongas los libros como si fuera mi aplicación, pon esas
+          líneas y ya». Y tiene razón, porque este móvil no es el nuestro. Es
+          EL SUYO, el que tiene en la mano, y lo que promete la pantalla es
+          que las cinco apps de alrededor se quedan cerradas. Poner nuestra
+          app dentro convertía la promesa en un anuncio. */}
+      {[42, 56, 70, 84, 98, 112, 126, 140, 154, 168].map((y, i) => (
         <rect
           key={y}
           x="20"
           y={y}
-          width={[96, 88, 96, 74, 92, 62][i]}
+          width={[96, 84, 96, 72, 90, 96, 66, 92, 80, 96][i]}
           height="7"
           rx="3.5"
           fill="#d5cfc3"
         />
       ))}
-
-      <rect x="20" y="180" width="82" height="7" rx="3.5" fill="#d5cfc3" />
 
       <rect x="48" y="231" width="40" height="4" rx="2" fill="#cfc9be" />
     </svg>

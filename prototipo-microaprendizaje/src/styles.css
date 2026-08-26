@@ -80,6 +80,15 @@
      ahora el fuego de la app es uno solo a todos los tamaños. */
   --carbon: #0e0e16;
   --fuego: #ff7a18;
+  /* El verde del crecimiento. No es decoración y no compite con el fuego: el
+     fuego dice «esto está en marcha» —la racha, la meta, el modo encendido— y
+     el verde dice «esto ha subido». Se usa en la cifra de ideas clave, en la
+     flecha de subida y en el interruptor del anti-scroll.
+
+     No es el `--sage` de siempre (#7f8f6f), que es un verde oliva apagado de
+     los que Pablo ya mandó quitar de un botón: sobre el fondo casi negro se
+     leía como gris sucio. */
+  --verde: #4fd18b;
   --fuego-trazo: #14141f;
 
   /* Tintes derivados, para relleno amplio sin ensuciar la paleta */
@@ -5158,15 +5167,15 @@ button {
   min-height: 88px;
 }
 
-/* Cada cifra en el color de lo que cuenta: los libros en el oro del saber y
-   las horas en el naranja del tiempo, que son los mismos dos de la gráfica de
-   arriba. El color va por `--serie` para que no haya dos sitios que tocar. */
+/* En blanco las dos, por lo mismo que las de la gráfica: llevaban el oro y el
+   naranja de sus series y cuatro números grandes en cuatro naranjas parecidos
+   dejaban la caja hecha un borrón. Aquí manda la cifra, no el color. */
 .stats-n {
   font-size: 28px;
   font-weight: 780;
   line-height: 1;
   letter-spacing: -0.03em;
-  color: var(--serie, var(--paper));
+  color: var(--paper);
   font-variant-numeric: tabular-nums;
 }
 
@@ -5224,12 +5233,21 @@ button {
   gap: 1px;
 }
 
+/* LAS CIFRAS NO LLEVAN EL COLOR DE SU LÍNEA, y es a propósito desde el 26 de
+   agosto. Lo llevaban —oro y naranja, los mismos dos trazos de abajo— y Pablo:
+   «las líneas déjalas así, pero a los números ponles otro color». Tenía razón
+   por una cosa que no se ve hasta que están juntos: dos números grandes en dos
+   naranjas parecidos, uno al lado del otro, se leen como un número partido en
+   dos. Ahora la que sube va en el verde del crecimiento y la otra en blanco,
+   que es el color de todas las demás cifras de la pantalla. El vínculo con la
+   gráfica no se pierde: lo sostienen el rótulo y el punto de la leyenda, que
+   sí llevan el color de la serie. */
 .crece-cifra-n {
   font-size: 30px;
   font-weight: 780;
   line-height: 1.05;
   letter-spacing: -0.03em;
-  color: var(--serie);
+  color: var(--cifra, var(--paper));
   font-variant-numeric: tabular-nums;
 }
 
@@ -5240,7 +5258,7 @@ button {
 }
 
 /* La diferencia. La flecha dice la dirección, así que el color no tiene que
-   repetirla: una subida se enciende en el oro del fuego y una bajada
+   repetirla: una subida se enciende en el verde del crecimiento y una bajada
    sencillamente no se enciende. Bajar una semana no es un error, y pintarlo de
    rojo —que es lo que había— lo convertía en uno. */
 .crece-delta {
@@ -5252,7 +5270,7 @@ button {
   font-weight: 640;
   font-variant-numeric: tabular-nums;
 }
-.crece-delta[data-signo="sube"] { color: #ffb13d; }
+.crece-delta[data-signo="sube"] { color: var(--verde); }
 .crece-delta[data-signo="baja"] { color: rgba(255, 255, 255, 0.46); }
 .crece-delta[data-signo="cero"] { color: rgba(255, 255, 255, 0.36); }
 
@@ -5523,16 +5541,16 @@ button {
   transition: border-color 0.22s ease, background-color 0.22s ease;
 }
 
-/* Encendido, la tarjeta y el interruptor se van al naranja del fuego y no al
-   verde de fábrica ni al barro: en esta app el naranja es «esto está en
-   marcha» —la racha, la meta, el avance— y el verde no significa nada. */
+/* Encendido se va al verde, que es lo que pidió Pablo y es lo que espera
+   cualquiera de un interruptor: verde es «puesto». El verde es el mismo del
+   crecimiento, no el oliva de fábrica. */
 .anti-interruptor[data-on="true"] {
-  border-color: var(--fuego);
-  background: rgba(255, 122, 24, 0.14);
+  border-color: var(--verde);
+  background: rgba(79, 209, 139, 0.12);
 }
 
 .anti-interruptor .interruptor[data-on="true"] {
-  background: linear-gradient(90deg, #f0410e, #ff7a18 62%, #ffb13d);
+  background: var(--verde);
 }
 
 .anti-interruptor-texto {
