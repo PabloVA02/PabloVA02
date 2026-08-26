@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "usted-puede-sanar":
+    "Uno de los libros de autoayuda más vendidos del siglo, con decenas de millones de ejemplares. Su autoridad se apoya en un cáncer que Hay decía haberse curado sin tratamiento convencional, y de ese diagnóstico no existe documentación médica.",
+
   "amor-tiempos-colera":
     "Florentino Ariza espera a Fermina Daza cincuenta y un años, nueve meses y cuatro días. Lo que casi ningún resumen cuenta es qué hace durante esa espera, y la novela lo anota con detalle en unos cuadernos.",
 

@@ -90948,7 +90948,305 @@ const AMOR_TIEMPOS_COLERA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Usted puede sanar su vida, en ocho paginas.
+
+   Breve. Practico -> afirmacion entera en el rotulo y segunda persona en la
+   caja, PERO con una regla que no se salta: NINGUNA caja puede llevar la
+   afirmacion daninna del libro. Las cajas solo cargan lo defendible.
+
+   Este libro sostiene que los pensamientos causan las enfermedades y trae al
+   final una lista que empareja dolencias con causas mentales. Eso es falso. No
+   se reproduce nunca como consejo: va siempre como 'Hay sostiene', y la
+   conclusion lo dice sin rodeos, porque el dano es concreto —le anade culpa a
+   quien esta enfermo y a quien no se cura—.
+
+   DATO QUE VA EN LA PRIMERA PAGINA: su autoridad se apoya en un cancer de
+   cuello de utero que dice haberse curado en seis meses sin tratamiento
+   convencional, y de ese diagnostico no existe ninguna documentacion medica.
+
+   Y el caso del grupo del sida hay que contarlo entero y con las dos manos: en
+   el Los Angeles de los ochenta, aquella sala era el unico sitio que acogia a
+   hombres a los que habian abandonado sus familias, y a la vez les decia que su
+   enfermedad tenia que ver con sus pensamientos. Las dos cosas son verdad.
+
+   Lo que si aguanta: que la frase que uno se repite es aprendida y se puede
+   cambiar. Eso es de Ellis y de Beck y tiene respaldo, y ella lo divulgo.
+   -------------------------------------------------------------------------- */
+
+const USTED_PUEDE_SANAR: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Es uno de los libros más vendidos del siglo y su autoridad se apoya en un caso que nadie ha podido comprobar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Louise Hay publicó esto en 1984 y ha vendido decenas de millones de ejemplares en más de treinta idiomas. Con lo que ganó fundó una editorial, Hay House, que llegó a ser la mayor casa de autoayuda del mundo. Ella murió en 2017, a los noventa años, y su libro sigue vendiéndose en todas partes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación central es que los pensamientos crean la realidad, y que el resentimiento, la culpa, el miedo y la crítica hacia uno mismo están detrás de la mayor parte de los problemas de una vida, incluidas las enfermedades del cuerpo. Todo lo demás del libro cuelga de ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la autoridad para decir eso viene de una historia personal que conviene poner delante. Hay contaba que le diagnosticaron un cáncer de cuello de útero y que lo curó en seis meses sin tratamiento convencional, a base de perdón, terapia, cambios de dieta y afirmaciones. De ese diagnóstico no existe ninguna documentación médica: solo su relato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre la parte del libro que sí se sostiene y que es la que lo hizo útil para mucha gente, en qué consisten el espejo y las afirmaciones, qué creencia dice ella que hay debajo de casi todo, qué hace con el perdón, qué es la lista del final y por qué ahí el libro se rompe, y qué pasó con el grupo del sida que dirigió.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando un libro apoya toda su autoridad en un caso personal, lo primero que conviene preguntar es si ese caso se puede comprobar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi nadie se habla a sí mismo como le hablaría a otra persona, y eso es una costumbre aprendida",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte del libro que ha ayudado de verdad a mucha gente es la primera y no tiene nada de esotérico. Hay observa que las personas se dicen a sí mismas, todos los días y sin darse cuenta, frases que jamás le dirían a un amigo: que son un desastre, que no valen, que siempre lo estropean todo, que a nadie le importan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su segunda observación es la que hace útil la primera: esas frases no son un diagnóstico ni un rasgo de carácter, son una costumbre. Se aprendieron en algún sitio, casi siempre en casa y de niño, se repitieron miles de veces y ahora aparecen solas. Y lo que se aprendió repitiendo se puede cambiar repitiendo otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir de dónde viene eso, porque el libro no lo dice. Es la idea central de la terapia cognitiva, que Albert Ellis puso en marcha en 1955 y Aaron Beck desarrolló en los años sesenta, y tiene respaldo empírico considerable. Hay no la descubrió: la divulgó, en un lenguaje que llegó a millones de personas que nunca habrían abierto un manual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba que propone es de las que se pueden hacer hoy. Apuntar durante unos días las frases que uno se dice cuando algo sale mal, tal cual, sin suavizarlas; y después leerlas imaginando que se las está diciendo a alguien a quien se quiere. Casi nadie aguanta esa lectura, y ese es exactamente el dato.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Apunta lo que te dices cuando algo sale mal y léelo imaginando que se lo dices a alguien a quien quieres. Casi nadie aguanta esa lectura.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El ejercicio del espejo es raro de hacer y su incomodidad es la información que da",
+      },
+      {
+        b: "texto",
+        texto:
+          "La técnica más conocida del libro consiste en ponerse delante de un espejo, mirarse a los ojos y decirse en voz alta una frase amable, del tipo me acepto tal como soy. Hay pedía hacerlo cada mañana, y contaba que en sus talleres la mayoría de la gente no era capaz de sostener la mirada ni de terminar la frase.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante no es el ejercicio sino esa reacción. Decirse en voz alta algo bueno delante del propio reflejo produce en mucha gente vergüenza, risa nerviosa o ganas de irse, y esa incomodidad es un dato que no aparece de ninguna otra forma. Nadie se pone nervioso repitiendo algo que ya se cree.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre si funciona conviene ser exacto. No hay pruebas de que repetir afirmaciones cambie la vida de nadie, y hay trabajos que apuntan a que repetirse frases que uno no se cree puede empeorar el ánimo de las personas con la autoestima más baja, que son justamente a las que va dirigido el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí tiene respaldo es algo cercano y más modesto. Desde 2003, la psicóloga Kristin Neff ha estudiado lo que llama autocompasión —tratarse a uno mismo en un mal momento como se trataría a un amigo— y ha encontrado efectos medibles sobre la ansiedad y el ánimo. Es la versión comprobada de lo que Hay proponía delante del espejo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie se pone nervioso repitiendo algo que ya se cree. Si decirte algo bueno en voz alta te incomoda, la incomodidad es el dato.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay sostiene que debajo de casi todos los problemas hay la misma frase: no soy suficiente",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica sus mejores capítulos a rastrear de dónde vienen esas frases, y su respuesta es que casi todas se reducen a una. Hay sostiene que debajo de la vergüenza, de la necesidad de aprobación, de los celos y del miedo a fallar suele haber la misma creencia repetida desde muy pronto: que uno no es suficiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y describe cómo se instala, que es la parte más fina del libro. No hace falta que nadie se lo diga a un niño con esas palabras. Basta con que le comparen con un hermano, que le celebren solo cuando trae notas, que le corrijan más de lo que le miran, o que crezca en una casa donde el cariño llegaba cuando se portaba bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca una consecuencia práctica que se comprueba sola. Quien lleva esa creencia dentro persigue pruebas de valer durante toda su vida —títulos, dinero, aprobación, gente— y ninguna le sirve más de unas semanas, porque las pruebas no discuten con la creencia: la creencia se las come y pide otra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay tiene además una observación sobre los padres que conviene recoger porque evita el reproche fácil. Dice que quien crió así lo hizo casi siempre repitiendo lo que le hicieron a él, sin saber otra cosa; y que entenderlo no cambia lo que pasó, pero quita de en medio la idea de que hubo alguien decidiendo hacer daño.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien cree que no vale persigue pruebas toda su vida, y ninguna le dura, porque la creencia no discute con las pruebas: se las come.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Su idea del perdón es más útil de lo que suena, porque no obliga a reconciliarse con nadie",
+      },
+      {
+        b: "texto",
+        texto:
+          "Buena parte del libro está dedicada al perdón, y Hay lo plantea de una manera que se puede usar sin ninguna creencia detrás. Insiste en que perdonar no significa decir que lo que pasó estuvo bien, ni volver a tratar a nadie, ni siquiera comunicárselo a la otra persona. Es una operación que ocurre entera dentro de quien la hace.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es de coste. Sostener rencor exige repetir el agravio muchas veces, y cada repetición vuelve a poner al cuerpo en el estado en que estuvo aquel día, mientras que la otra persona no se entera ni participa. La cuenta que hace es sencilla: el que odia paga la factura entera y el otro no paga nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade la parte que más gente pasa por alto, que es perdonarse a uno mismo. Hay señala que mucha gente carga con culpas de cosas que hizo a los veinte años y que se sigue castigando por ellas décadas después, con una dureza que no aplicaría a nadie más, y que ese castigo no repara nada ni ayuda a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene marcar el límite que el libro no marca, y es el mismo de todos los libros de este tipo. Esto vale para agravios entre iguales y no vale igual donde ha habido maltrato, abuso o control; ahí exigirse perdonar puede ser una carga añadida, y el libro habla de perdonar sin distinguir nunca de qué se está hablando.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Sostener rencor obliga a repetir el agravio muchas veces, y el otro ni se entera. Perdonar no es absolver: es dejar de pagar la factura.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro trae al final una lista que empareja enfermedades con causas mentales, y ahí se rompe entero",
+      },
+      {
+        b: "texto",
+        texto:
+          "En las últimas páginas hay una tabla larga que es lo que ha hecho famoso el libro y también lo que lo hunde. Empareja dolencias concretas con supuestas causas emocionales y con una frase correctora: problemas de rodilla con el orgullo y la rigidez, dolores de espalda con falta de apoyo, cáncer con un resentimiento antiguo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay que decirlo sin rodeos: eso es falso y no se apoya en nada. No existe ninguna prueba de que el resentimiento cause cáncer, ni de que la rigidez de carácter produzca artrosis, ni de que un virus, una mutación o una enfermedad congénita tengan que ver con lo que alguien piensa. La lista no sale de ninguna investigación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El daño que produce es concreto y no es una discusión académica. Una persona enferma que lee esa tabla recibe dos mensajes a la vez: que su enfermedad la ha causado ella y que si no mejora es porque no ha perdonado lo suficiente. A un cuerpo enfermo se le añade una culpa, y esa culpa no cura absolutamente nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un efecto todavía peor cuando alguien decide qué hacer. Un libro que sostiene que las enfermedades se curan cambiando de pensamiento le da argumentos a quien está dudando entre un tratamiento y otra cosa. La propia autora contaba su caso como una curación sin medicina convencional, y ese relato es el que se recuerda.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ninguna enfermedad la causa un pensamiento. A quien está enfermo, esa idea solo le añade una culpa que no cura nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En el Los Ángeles de los ochenta montó el sitio que acogía a los enfermos de sida, y les decía eso mismo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una parte de su historia que hay que contar entera porque no se deja resumir en una línea. A mediados de los años ochenta, Louise Hay empezó a reunir en Los Ángeles a hombres jóvenes con sida, primero unos pocos y después cientos, en unas sesiones semanales que se conocieron por el nombre de aquellos encuentros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay que recordar qué era aquello entonces. No había tratamiento, la mortalidad era altísima, muchos enfermos habían sido echados de sus casas por sus familias, algunos hospitales los trataban con miedo y buena parte de la sociedad los consideraba culpables. Aquella sala era, para bastantes de ellos, el único sitio donde alguien los abrazaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y a la vez, en esa misma sala se les explicaba que su enfermedad tenía que ver con sus pensamientos, con el rencor y con la falta de amor propio. Las dos cosas ocurrían al mismo tiempo y las dos son verdad, y por eso el episodio es incómodo de juzgar: consuelo real repartido junto con una explicación falsa de por qué se estaban muriendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo justo es decir las dos. Hay ofreció compañía, dignidad y tacto físico a gente a la que se lo negaban en todas partes, y eso importó de verdad y hay testimonios de sobra. Y les dio un marco que, aplicado a una infección vírica, es sencillamente falso y ponía sobre ellos la responsabilidad de no mejorar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se puede dar consuelo verdadero y una explicación falsa a la vez, y las dos cosas cuentan. Ninguna de las dos anula a la otra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo aprovechable son tres cosas y ninguna es de ella. Que la frase que uno se repite es una costumbre aprendida y se puede cambiar, que es la base de la terapia cognitiva. Que debajo de mucho malestar hay la creencia de no ser suficiente, y que ninguna prueba externa la calla. Y que el rencor lo paga entero quien lo sostiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde falla es en su afirmación central, y no es un matiz: los pensamientos no causan las enfermedades. La lista del final del libro, que empareja dolencias con culpas emocionales, no procede de ninguna investigación, y su efecto sobre una persona enferma es añadirle la responsabilidad de su enfermedad y de no estar curándose.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Falla también en la base de su autoridad. Todo el libro descansa en que ella se curó un cáncer sin tratamiento convencional, y de ese diagnóstico no hay ningún registro médico conocido: se sostiene solo sobre su palabra. Es exactamente la clase de afirmación que habría que poder comprobar antes de construir encima cincuenta millones de ejemplares.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después es enorme. Con este libro fundó Hay House, que se convirtió en la mayor editorial de autoayuda del mundo y publicó durante décadas a decenas de autores con planteamientos parecidos. Su capítulo sobre cómo se habla uno a sí mismo sigue mereciendo la pena; la tabla del final hay que leerla sabiendo que no es cierta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quédate con lo que dice sobre cómo te hablas. Lo que dice sobre por qué enferma la gente no es verdad, y a un enfermo le hace daño.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "usted-puede-sanar": USTED_PUEDE_SANAR,
   "amor-tiempos-colera": AMOR_TIEMPOS_COLERA,
   "caballero-armadura": CABALLERO_ARMADURA,
   "buena-suerte": BUENA_SUERTE,

@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "usted-puede-sanar": [
+    "cómo te hablas cuando algo sale mal, y de dónde viene esa frase",
+    "qué información da que te incomode decirte algo bueno en voz alta",
+    "por qué ninguna prueba externa calla la creencia de no valer",
+    "qué es perdonar si no es absolver ni volver a tratar a nadie",
+    "qué parte de este libro es falsa y a quién le hace daño",
+  ],
+
   "amor-tiempos-colera": [
     "por qué se cae en dos minutos algo que llevaba dos años creciendo",
     "qué sostiene de verdad un matrimonio de cincuenta años",
