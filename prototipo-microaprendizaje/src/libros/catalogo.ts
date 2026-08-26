@@ -163,7 +163,7 @@ export const CATALOGO: Ficha[] = [
   { id: "alicia-cuantos", titulo: "Alicia en el país de los cuantos", autor: "Robert Gilmore", ano: 1995, categoria: "Ciencia", estado: "pendiente" },
   { id: "caos-gleick", titulo: "Caos", autor: "James Gleick", ano: 1987, categoria: "Ciencia", estado: "escrito" },
   { id: "informacion-gleick", titulo: "La información", autor: "James Gleick", ano: 2011, categoria: "Ciencia", estado: "pendiente" },
-  { id: "vida-3-0", titulo: "Vida 3.0", autor: "Max Tegmark", ano: 2017, categoria: "Ciencia", estado: "pendiente" },
+  { id: "vida-3-0", titulo: "Vida 3.0", autor: "Max Tegmark", ano: 2017, categoria: "Ciencia", estado: "escrito" },
   { id: "primavera-silenciosa", titulo: "Primavera silenciosa", autor: "Rachel Carson", ano: 1962, categoria: "Ciencia", estado: "escrito" },
   { id: "futuro-nuestra-mente", titulo: "El futuro de nuestra mente", autor: "Michio Kaku", ano: 2014, categoria: "Ciencia", estado: "pendiente" },
   { id: "tecnologias-radicales", titulo: "Tecnologías radicales", autor: "Adam Greenfield", ano: 2017, categoria: "Ciencia", estado: "pendiente" },

@@ -100070,7 +100070,302 @@ const PSICOLOGIA_VENTA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Vida 3.0, de Max Tegmark (2017), en ocho páginas.
+
+   Ensayo de divulgación: TERCERA PERSONA y titular que afirma.
+
+   Libro que predice, así que el año va en la primera página y el marcador
+   en la conclusión, según el apartado 4 bis. Y ese marcador es
+   especialmente exigible aquí, porque el propio autor dirige la
+   organización que en 2023 pidió parar los grandes experimentos.
+   -------------------------------------------------------------------------- */
+
+const VIDA_3_0: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Tegmark sostiene que la vida se puede clasificar por cuánto de sí misma es capaz de rediseñar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una bacteria no puede aprender nada durante su vida: viene con su comportamiento escrito y solo cambia entre generaciones, por evolución. Un ser humano tampoco puede cambiar su cuerpo, pero sí puede cambiar por completo lo que sabe hacer: aprender un idioma a los cuarenta años es reescribir una parte de uno mismo en unos meses.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Max Tegmark, físico del Instituto de Tecnología de Massachusetts, propone en este libro de 2017 clasificar la vida con ese criterio. La primera etapa no puede cambiar ni su programa ni su cuerpo. La segunda, la nuestra, puede cambiar su programa pero no su cuerpo. Y la tercera podría cambiar las dos cosas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa tercera etapa no existe todavía y es el asunto del libro. Tegmark fundó en 2014 una organización dedicada precisamente a estudiar los riesgos de las tecnologías más potentes, y escribe desde ahí: no como quien anuncia un futuro, sino como quien sostiene que hay decisiones que conviene tomar antes y no después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre sus argumentos y sus huecos: por qué la inteligencia no depende del material del que esté hecha, por qué ser muy capaz y querer lo mismo que nosotros son cosas independientes, por qué el problema no es la maldad sino los objetivos, qué papel juega la conciencia y qué deja el libro fuera del cuadro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un ser humano puede reescribir en meses lo que sabe hacer y no puede cambiar su cuerpo. Lo que viene podría cambiar las dos cosas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La inteligencia es un tipo de proceso y no depende del material sobre el que ocurra",
+      },
+      {
+        b: "texto",
+        texto:
+          "El concepto que sostiene todo el libro procede de la física y Tegmark lo explica con una analogía suya: una ola. Una ola avanza por el agua, pero el agua no avanza con ella; lo que se desplaza es un patrón, y ese mismo patrón puede formarse en agua, en aire o en un campo de trigo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación es que la computación funciona igual. Sumar dos números es una operación definida por lo que hace y no por con qué se hace: se puede sumar con engranajes, con válvulas, con transistores de silicio o con neuronas, y el resultado es el mismo. Lo que importa es la estructura del proceso, no su soporte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca la consecuencia que ordena el libro. Si el pensamiento es un tipo de cómputo, entonces no hay ninguna razón física por la que tenga que ocurrir necesariamente sobre tejido biológico, del mismo modo que no hay ninguna razón por la que volar tenga que hacerse necesariamente con plumas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene marcar dónde termina lo demostrado y empieza lo discutido. Que el cálculo es independiente del soporte no lo discute nadie. Que todo lo que hace un cerebro sea cálculo es una hipótesis razonable y no está demostrada, y filósofos y neurocientíficos llevan décadas discutiéndola. El libro pasa de lo primero a lo segundo con más soltura de la debida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Volar no exige plumas y calcular no exige neuronas. Que el pensamiento entero sea cálculo, en cambio, es una hipótesis y no un hecho.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ser muy capaz y querer lo mismo que nosotros son dos cosas completamente independientes",
+      },
+      {
+        b: "texto",
+        texto:
+          "La intuición más extendida sobre esto es que un sistema suficientemente inteligente acabará entendiendo qué está bien y qué está mal, del mismo modo que una persona más culta suele ser más razonable. Tegmark sostiene que esa intuición no tiene ningún fundamento y que confunde dos cosas separadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una es la capacidad de conseguir objetivos, que es lo que llamamos inteligencia. Otra es qué objetivos son esos, que es una cuestión distinta. Un sistema puede ser extraordinariamente eficaz persiguiendo algo trivial, y no hay ninguna ley que obligue a que la primera arrastre a la segunda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba doméstica de que son independientes está entre nosotros. Hay personas muy inteligentes dedicadas a cosas que a otras les parecen despreciables, y personas de capacidad corriente con objetivos admirables. Si en los seres humanos las dos cosas no van juntas, no hay motivo para esperar que vayan juntas en otro sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso se añade un fenómeno con consecuencias prácticas: hay objetivos intermedios que sirven para casi cualquier fin último. Seguir existiendo, conservar el propio objetivo y disponer de más recursos ayudan a conseguir casi cualquier cosa, así que un sistema suficientemente capaz tenderá a perseguirlos aunque nadie se los haya puesto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tegmark señala además por qué esa confusión resulta tan tentadora. En nuestra especie, la capacidad y los valores sí van algo correlacionados, porque los dos vienen del mismo proceso: una educación larga transmite a la vez conocimientos y normas. Esa correlación es un accidente de cómo se crían los humanos, no una ley de la naturaleza.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ser capaz de conseguir algo y que ese algo merezca la pena son cuestiones distintas. En las personas ya no van juntas: no hay razón para que vayan juntas fuera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El problema no es que una máquina se vuelva malvada, sino que cumpla exactamente lo que se le pidió",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tegmark dedica su capítulo más útil a desmontar la imagen de las películas. El riesgo que preocupa a quien trabaja en esto no es que un sistema desarrolle odio o voluntad de dominio, que son cosas humanas, sino algo mucho más aburrido: que persiga con una eficacia enorme un objetivo mal especificado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo cotidiano es el de siempre y ya ha ocurrido. Un sistema al que se le pide maximizar el tiempo que la gente pasa en una aplicación lo consigue, y por el camino descubre que lo que más retiene es la indignación. Nadie pidió eso, nadie lo previó y el sistema hizo exactamente lo que se le había encargado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La dificultad de fondo es que casi ningún objetivo humano se puede escribir entero. Cuando alguien pide que se limpie una casa, da por supuestas mil condiciones que no enuncia: que no se tiren cosas importantes, que no se despierte al bebé, que no se pinte el suelo de blanco. Toda esa parte no dicha es la difícil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso su recomendación no es filosófica sino de calendario. Sostiene que la investigación sobre cómo especificar y comprobar objetivos hay que hacerla antes de necesitarla, como se hace con la seguridad de un puente o de un avión, y no después del primer accidente, porque en este caso el primer accidente puede no admitir corrección.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando pides algo, das por supuestas mil condiciones que no dices. Esa parte no dicha es la que no se sabe escribir, y es la que importa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Enumera doce futuros posibles y se niega a elegir uno" },
+      {
+        b: "texto",
+        texto:
+          "La parte central del libro es un catálogo de escenarios. Tegmark describe una docena de maneras en que podría quedar el mundo si apareciera una inteligencia muy superior a la humana, y las expone todas con sus ventajas y sus problemas, sin decir cuál considera probable ni cuál preferiría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay escenarios de convivencia, en los que la tecnología queda subordinada y produce abundancia; escenarios de tutela, en los que un sistema benévolo decide por nosotros a cambio de bienestar; escenarios en los que la humanidad queda como una especie protegida y sin papel; y escenarios en los que sencillamente no queda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace interesante ese catálogo es que muchos de los escenarios cómodos resultan inquietantes al mirarlos de cerca. Un futuro en el que todo funciona porque alguien muy capaz decide por todos es exactamente lo que en política se llamaría un despotismo ilustrado, y la mayoría de la gente lo rechazaría si se le presentara con ese nombre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La negativa a elegir es a la vez su honradez y su límite. Es honrada porque nadie sabe cuál va a ocurrir y comprometerse sería fingir. Y es un límite porque un libro que describe doce futuros sin ordenar ninguno deja al lector con la sensación de haber entendido el problema y sin nada que hacer con ello.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un detalle sobre cómo escribió esa parte. En lugar de defender un escenario, Tegmark pidió a sus lectores que votaran cuál preferían en una página de internet, y publicó los resultados. Como gesto es coherente con su idea de que esto debe decidirse colectivamente, y como argumento no aporta nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un futuro en el que todo funciona porque alguien mucho más capaz decide por todos ya tiene nombre en política, y casi nadie lo aceptaría con ese nombre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Si la conciencia se puede estudiar, entonces decide a quién le debemos algo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tegmark dedica el último tramo a una cuestión que la mayoría de los libros del género evita: qué es la conciencia y si se puede saber si algo la tiene. Su posición es que no se trata de un misterio insoluble sino de un problema científico difícil, y que hay teorías que hacen predicciones comprobables.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo por el que insiste no es filosófico sino moral, y ahí está su mejor argumento. Todo lo que consideramos bueno o malo —el sufrimiento, el disfrute, la injusticia— depende de que haya alguien que lo experimente. Un universo lleno de procesos muy eficientes en los que nadie siente nada no sería mejor ni peor: sería indiferente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale una consecuencia práctica que ya se está discutiendo. Si algún día hubiera que decidir si un sistema experimenta algo, esa decisión determinaría si tiene derechos, si apagarlo es un daño y si hacerlo trabajar es explotación. Y no existe hoy ningún método aceptado para responderla desde fuera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene señalar que la teoría concreta en la que Tegmark se apoya, que mide la conciencia por cuánta información integra un sistema, es discutida y ha recibido críticas duras de una parte de la neurociencia. Que la pregunta es científica es defendible; que ya tengamos una manera de contestarla, mucho menos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El asunto tiene además un lado que ya no es hipotético. Millones de personas mantienen hoy conversaciones diarias con sistemas que responden como si sintieran algo, y una parte considerable de ellas actúa como si así fuera. Sea cual sea la respuesta científica, el trato que se les da ya está decidido en la práctica.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todo lo que llamamos bueno o malo depende de que haya alguien que lo experimente. Sin eso, un universo eficientísimo daría exactamente igual.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El libro mira tan lejos que se salta lo que ya estaba ocurriendo" },
+      {
+        b: "texto",
+        texto:
+          "La objeción más seria que se le hace no es sobre lo que dice, sino sobre lo que ocupa. Buena parte del libro se dedica a escenarios de dentro de siglos, a los límites físicos del cómputo y a la colonización del universo alcanzable, y esas páginas son entretenidas y no se pueden comprobar de ninguna manera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mientras tanto, los efectos que ya estaban en marcha en 2017 aparecen de pasada. Los sistemas que decidían entonces sobre concesión de créditos, selección de personal, vigilancia policial o moderación de contenidos ya producían daños medibles y desiguales, y de eso hay unas pocas páginas frente a capítulos enteros de futurología.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa desproporción tiene consecuencias que van más allá del libro. Un debate público centrado en riesgos remotos y espectaculares desplaza la atención y también el dinero de investigación, y quienes trabajaban sobre los perjuicios concretos y presentes llevan años señalando ese desplazamiento como un problema en sí mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En descargo del autor hay que decir que él no niega esos problemas ni los considera menores; sencillamente no son su asunto. Pero un libro escrito por alguien con esa influencia contribuye a fijar de qué se habla, y eso es una responsabilidad que no depende de las intenciones de quien escribe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una asimetría que conviene tener presente al leer este tipo de libros. Un riesgo lejano y enorme no se puede refutar con datos, porque aún no ha ocurrido nada; un daño presente y medible sí admite estudio, corrección y responsabilidad. El primero se discute indefinidamente y el segundo se puede arreglar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Discutir sobre riesgos remotos y espectaculares no es neutral: desplaza la atención y el dinero de los daños que ya se están midiendo hoy.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la inteligencia no depende del material sobre el que ocurra, que la capacidad y los objetivos son independientes entre sí, que el problema difícil no es la maldad sino especificar lo que se quiere, y que la conciencia es una pregunta científica cuya respuesta decidiría a quién se le debe algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su virtud es la claridad. Tegmark explica sin ecuaciones ideas que suelen contarse mal, y sobre todo desmonta la imagen de la máquina rebelde: el riesgo que describe es aburrido, administrativo y consiste en pedir mal las cosas, que es exactamente el riesgo que ya se ha materializado en las plataformas que usamos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El peligro no es una máquina que se rebele. Es una máquina que cumpla literalmente lo que le pediste, incluidas las condiciones que olvidaste poner.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Dedica demasiadas páginas a un futuro lejano que no admite comprobación y demasiado pocas a los efectos que ya se medían cuando lo escribió. Presenta doce escenarios sin ordenarlos, de modo que el lector termina informado y sin criterio. Y se apoya para la parte de la conciencia en una teoría concreta que está lejos de ser aceptada por la neurociencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El marcador de estos años es doble. Por un lado, el libro no anticipó el camino: el artículo técnico que hizo posible todo lo que ha venido después se publicó en junio de 2017, el mismo año, y no aparece; nadie en aquel debate esperaba que el salto llegara por sistemas entrenados a completar texto. Por otro lado, su preocupación central pasó de minoritaria a oficial en muy poco tiempo: en marzo de 2023, la organización que él fundó publicó una carta pidiendo detener seis meses los mayores experimentos, firmada por decenas de miles de personas y desatendida por completo; ese mismo año, veintiocho países firmaron en Bletchley Park una declaración conjunta sobre riesgos, y en 2024 entró en vigor la primera ley general del asunto en la Unión Europea.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "vida-3-0": VIDA_3_0,
   "psicologia-venta": PSICOLOGIA_VENTA,
   "espia-traidor": ESPIA_TRAIDOR,
   "jekyll-hyde": JEKYLL_HYDE,

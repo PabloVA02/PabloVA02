@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "vida-3-0":
+    "Una bacteria no puede aprender nada; un humano puede reescribir lo que sabe pero no su cuerpo. Tegmark llama vida 3.0 a lo que podría cambiar las dos cosas, y explica qué decisiones convendría tomar antes.",
+
   "psicologia-venta":
     "Los comerciales con mejores resultados hablan alrededor del cuarenta por ciento del tiempo; los peores, el setenta. Tracy defendía eso en los años ochenta sin poder demostrarlo, y hoy se ha medido en cientos de miles de llamadas.",
 

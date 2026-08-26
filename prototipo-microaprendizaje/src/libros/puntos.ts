@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "vida-3-0": [
+    "por qué calcular no exige neuronas igual que volar no exige plumas",
+    "que ser muy capaz y perseguir algo que merezca la pena van por separado",
+    "cómo un objetivo mal formulado produce daño sin ninguna mala intención",
+    "qué convierte un futuro cómodo en un despotismo con otro nombre",
+    "por qué un riesgo lejano desplaza la atención de los daños medibles",
+  ],
+
   "psicologia-venta": [
     "por qué una ventaja pequeña produce una diferencia de ingresos enorme",
     "que quien no pone ninguna pega suele ser quien no va a comprar",
