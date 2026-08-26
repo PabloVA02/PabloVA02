@@ -6,12 +6,12 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 
 | | hecho | queda |
 |---|---|---|
-| shorts escritos | 757 | 243 para llegar a 1000 |
+| shorts escritos | 761 | 239 para llegar a 1000 |
 | shorts con sus cuatro fotos | 532 | 225 |
 | imágenes puestas | 2139, verificadas hasta 1854 | |
 | libros en el catálogo | 418 | |
-| libros con resumen escrito a mano | 315 | 103 |
-| cubiertas dibujadas por Pablo | 265 | 50 escritos sin dibujo |
+| libros con resumen escrito a mano | 338 | 80 |
+| cubiertas dibujadas por Pablo | 277 | 61 escritos sin dibujo |
 | resúmenes antiguos generados | 0 | 0 |
 | títulos que no caben en una línea | | 0 |
 | entradas que dejan hueco abajo | 228 alargadas | 0 |
@@ -96,7 +96,8 @@ sin las cubiertas, sin Deportes y sin Vidas—. El script no avisa: coge el
 npx vite build --config vite.uno.config.mjs          # ← esta es la que falta
 node scripts/orden-fotos.mjs 760 > /tmp/orden-fotos.json
 node scripts/movil.mjs --dist dist-uno --lista /tmp/orden-fotos.json \
-     --ancho 240 --calidad 0.55 --tope 1.6
+     --ancho 210 --calidad 0.48 --tope 0.42 \
+     --cubiertas-ancho 360 --cubiertas-calidad 0.70
 ```
 
 Dos maneras de comprobar que no ha pasado otra vez, antes de publicar:
