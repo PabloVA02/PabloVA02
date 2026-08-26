@@ -38,6 +38,11 @@ import { GlyphClose } from "./glyphs";
    libros. Los shorts tampoco son «historias ilustradas» aquí: son
    CURIOSIDADES, que es lo que son cuando alguien decide si le compensa pagar.
 
+   LAS MEDIDAS SON LAS DE LA CAPTURA, píxel a píxel, y están apuntadas en la
+   hoja de estilos junto a `.suscri`. Se llegó ahí después de tres versiones
+   que se le parecían cada vez menos; a la cuarta Pablo dijo «hazlo
+   exactamente igual, mismo tamaño de letras y todo».
+
    Y el lema del cuerpo es lo que Pablo pidió al ver la captura otra vez: una
    frase que venda, no una lista de lo que incluye la tarifa. La suya —«sigue
    hoy con tu crecimiento personal y evita obstáculos en tus metas»— vende sin
@@ -69,9 +74,15 @@ const TEXTOS: Record<EstadoPago, {
        PASE, y es además lo que pone la captura de referencia en ese mismo
        hueco. */
     sello: "🎟️",
+    /* Las dos líneas siguen el reparto de la captura: arriba en blanco LA
+       COSA, abajo en naranja EL DATO con fecha. La suya dice «Tu acceso
+       Premium / expira el agosto 28»; la nuestra pone en el renglón naranja
+       lo que Pablo quería destacar, los siete días. Y caben: a 25 de cuerpo
+       en negrita, «7 días gratis» ocupa 169 puntos de los 314 que hay en un
+       móvil estrecho, mientras que «y curiosidades cada día» se pasaba. */
     alto: "Libros ilimitados",
-    bajo: "y curiosidades cada día",
-    lema: "Un libro entero al día,|en veinte minutos.",
+    bajo: "7 días gratis",
+    lema: "Y curiosidades cada día. Sin anuncios|y sin esperar a mañana.",
     boton: "Empezar prueba gratuita",
   },
   cancelado: {

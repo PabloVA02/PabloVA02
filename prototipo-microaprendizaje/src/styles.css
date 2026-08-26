@@ -4759,127 +4759,120 @@ button {
 
 
 /* ==========================================================================
-   LA SUSCRIPCIÓN — el aviso, solo para quien no paga, solo para quien no paga
+   LA SUSCRIPCIÓN — el aviso, solo para quien no paga
 
-   Partida en dos, como la de la captura: banda de color arriba con el símbolo
-   y el titular, y debajo, sobre el fondo normal de tarjeta, la explicación y
-   el botón. Ese corte es lo único de la pantalla que se lee como un AVISO y
-   no como otra sección de la columna, y por eso no lo lleva ninguna otra.
+   MEDIDO SOBRE LA CAPTURA, no aproximado. Ha pasado por ocre, por verde y por
+   crema, y cada vuelta se parecía menos a lo que Pablo pedía; a la cuarta dijo
+   «hazlo exactamente igual que la captura, mismo tamaño de letras y todo», y
+   eso es lo que hay aquí. La captura va a 750 × 1624 —la pantalla a doble
+   densidad—, así que un píxel suyo es medio punto nuestro. Todo lo de abajo
+   sale de leerle los píxeles:
 
-   Y todo del mismo ocre: la banda, la segunda línea del titular y el botón.
-   La suya usa marrón en la banda, naranja en el titular y azul en el botón,
-   tres colores para una sola idea. Ver `Suscripcion.tsx`.
+     tarjeta      x 32..719, y 250..818   → 343 × 284, radio 12, filete #4e4e4e
+     banda        y 250..543              → 146 de alto, #4e3624
+     cuerpo       y 543..818              → #383838
+     aires        66 - 32 = 34 px         → 17 de sangrado; el botón, 16
+     icono        x 66 y 292, 92 × 76     → 46 × 38, a 21 del filo de arriba
+     titular      tinta y 404..441        → 18,5 de altura de mayúscula, o sea
+                                            25 de cuerpo en negrita
+     interlínea   404 → 463               → 29,5, o sea 1,18
+     naranja      (255, 136, 51)          → #ff8833
+     cuerpo       y 582..613 y 622..647   → 15,5 de cuerpo, 20 de interlínea
+     botón        y 689..785, 622 ancho   → 48 de alto, radio 10, #0099ff
+     su texto     tinta 27 px de alto     → 15 de cuerpo
 
-   Las clases llevan `suscri-` y no `pase-`, que era lo natural: `.pase` ya
-   existe y es del pase de invitado.
+   EL AZUL ES EL SUYO Y ES DELIBERADO. No está en nuestra paleta, y el motivo
+   por el que se queda es que en las tres versiones anteriores el botón se
+   pintó con colores nuestros —ocre, verde, crema— y ninguno hacía lo que hace
+   este: separarse de la banda lo bastante como para que no haya duda de dónde
+   se toca. Si algún día la app tiene un color de marca propio, este es el
+   primer sitio que hay que cambiar.
    ========================================================================== */
 .suscri {
   position: relative;
-  border-radius: 20px;
+  border-radius: 12px;
   overflow: hidden;
-  background: rgba(242, 236, 225, 0.07);
+  background: #383838;
+  border: 1px solid #4e4e4e;
 }
 
-/* MARRÓN PLANO. Dos cosas se han caído aquí, y las dos las devolvió Pablo.
-
-   EL AMARILLO primero: el ocre de la paleta funciona sobre crema, pero sobre
-   un fondo oscuro no da dorado, da mostaza. Ahora es el marrón de la captura,
-   un (72, 52, 46) medido sobre ella.
-
-   Y LOS DEGRADADOS después —«ese naranja así difuminado, feo»—. Tenía razón:
-   la banda llevaba un foco radial MÁS un degradado vertical, y dos degradados
-   encima de un color cálido no dan volumen, dan una mancha. La de la captura
-   es un rectángulo de un solo color, y a esta escala eso es lo que se ve
-   limpio. Un color y ya.
-
-   Tampoco lleva filete abajo. Con la banda en marrón macizo y el cuerpo en el
-   gris de la tarjeta, el corte lo hace el propio cambio de color; la raya
-   encima solo era una raya de más. */
 .suscri-banda {
   position: relative;
-  padding: 13px 14px 13px;
-  background: #48342e;
+  padding: 21px 17px 16px;
+  background: #4e3624;
 }
 
+/* Sin plato detrás: el icono de la captura está suelto sobre la banda, y a
+   este tamaño el plato solo servía para disimular que el emoji era pequeño. */
+/* Caja de 38 de alto, que es la del icono de la captura, y el emoji centrado
+   dentro. Sin la altura puesta a mano no vale: la caja de línea de un emoji es
+   bastante más alta que su cuerpo —cada fuente de emoji trae su propio aire—,
+   y la banda salía 34 puntos más larga que la suya sin que se viera por qué. */
 .suscri-sello {
-  display: grid;
-  place-items: center;
-  width: 44px;
-  height: 44px;
-  margin-bottom: 9px;
-  border-radius: 999px;
-  background: rgba(18, 12, 9, 0.3);
-  font-size: 23px;
+  display: flex;
+  align-items: center;
+  height: 38px;
+  font-size: 34px;
   line-height: 1;
+  margin-bottom: 13px;
 }
 
+/* El `margin: 0` no es higiene, es el arreglo de un fallo que se veía y no se
+   explicaba: la banda salía 29 puntos más larga que la de la captura. Es un
+   `h2`, y el margen que trae el navegador por defecto son 0,83 em —a 25 de
+   cuerpo, casi 21 puntos— arriba y abajo. Lo mismo con el párrafo del cuerpo,
+   que se llevaba 31 entre sus dos márgenes. Entre los dos, 52 puntos de aire
+   que nadie había escrito. */
 .suscri-titulo {
-  font-size: 17.5px;
-  font-weight: 620;
-  line-height: 1.24;
-  letter-spacing: -0.02em;
-  color: rgba(242, 236, 225, 0.88);
-  /* Sitio para la equis: sin esto, un titular de dos líneas largas se le mete
-     debajo. */
-  padding-right: 32px;
+  margin: 0;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: -0.018em;
+  color: #fff;
+  /* Sitio para la equis. */
+  padding-right: 40px;
 }
-/* La segunda línea, que es la que manda, en ocre y con más peso. Es el mismo
-   recurso de la captura —dos líneas, la de abajo en color— y funciona porque
-   la primera cuenta el problema y la segunda ofrece la salida. */
-/* La segunda línea en naranja, como la captura. Sobre el marrón macizo da 5,5
-   de contraste y se lee limpia: el problema no era este color, era que estaba
-   puesto encima de dos degradados. */
 .suscri-titulo b {
   display: block;
-  color: #f0a06a;
-  font-weight: 780;
+  color: #ff8833;
+  font-weight: 700;
 }
 
+/* Una equis pelada, como la suya: ni círculo ni relleno. */
 .suscri-cerrar {
   position: absolute;
-  top: 11px;
-  right: 11px;
+  top: 19px;
+  right: 15px;
   display: grid;
   place-items: center;
-  width: 26px;
-  height: 26px;
-  border-radius: 999px;
-  background: rgba(20, 17, 14, 0.28);
-  color: rgba(242, 236, 225, 0.72);
+  width: 30px;
+  height: 30px;
+  color: #8f8f8f;
 }
-.suscri-cerrar svg { width: 13px; height: 13px; }
+.suscri-cerrar svg { width: 17px; height: 17px; }
 
-.suscri-cuerpo { padding: 12px 14px 13px; }
+.suscri-cuerpo { padding: 17px 17px 16px; }
 
 .suscri-texto {
-  font-size: 12.8px;
-  line-height: 1.4;
-  font-weight: 560;
-  color: rgba(242, 236, 225, 0.62);
+  margin: 0;
+  font-size: 15.5px;
+  line-height: 20px;
+  font-weight: 450;
+  color: rgba(255, 255, 255, 0.92);
 }
 .suscri-texto span { display: inline-block; white-space: nowrap; }
 
-/* VERDE, y por el mismo motivo que la captura pone el suyo en azul: sobre una
-   banda marrón hace falta un color que no sea de la familia, o el botón se
-   funde con el aviso y deja de parecer una cosa que se toca. El azul es SU
-   color de marca; el nuestro es este verde, el mismo de la pastilla de «Tu
-   regalo», y en esta app significa desde el principio que algo está
-   disponible y no cuesta nada. Debajo de «Empezar prueba gratuita» no hay
-   color más adecuado.
-
-   El degradado es de un punto de luz, lo justo para que la pieza tenga cara;
-   y la sombra va en verde y no en negro, que es lo que hace que el botón
-   parezca encendido en vez de recortado. */
 .suscri-boton {
   width: 100%;
-  height: 46px;
-  margin-top: 12px;
-  border-radius: 13px;
-  background: var(--paper);
-  color: #241d18;
-  font-size: 14.8px;
-  font-weight: 720;
-  letter-spacing: -0.012em;
+  height: 48px;
+  margin-top: 16px;
+  border-radius: 10px;
+  background: #0099ff;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 640;
+  letter-spacing: -0.008em;
 }
 
 /* ==========================================================================
