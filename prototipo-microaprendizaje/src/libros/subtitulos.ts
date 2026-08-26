@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "chingona-dinero": "Domina la mentalidad de la riqueza",
   "poder-sin-limites": "La nueva ciencia del desarrollo personal",
   "retirate-joven-rico": "Cómo hacerse rico rápidamente y para siempre",
   "maestro-dinero": "7 pasos simples para la libertad financiera",

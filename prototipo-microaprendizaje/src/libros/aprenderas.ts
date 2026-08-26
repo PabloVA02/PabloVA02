@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "chingona-dinero":
+    "Sincero pasó de los cuarenta viviendo en un garaje reconvertido y cobrando poco por escribir. Sostiene que lo primero que cambió no fueron sus clientes, sino lo que ella creía sobre el dinero desde niña.",
+
   "poder-sin-limites":
     "En 1986, Robbins convirtió la programación neurolingüística en un manual de instrucciones. Enseña a desmontar en pasos observables lo que hace bien otra persona, y a cambiar de estado por el cuerpo antes que por el pensamiento.",
 

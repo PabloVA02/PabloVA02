@@ -92916,7 +92916,285 @@ const PODER_SIN_LIMITES: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Eres un chingón haciendo dinero, de Jen Sincero (2017), en ocho páginas.
+
+   Economía y libro práctico: registro de tú y cada página con una persona,
+   una fecha y una cifra. El libro se apoya en la ley de la atracción, así
+   que el marcador va en la página que le toca —Oettingen y Mayer, 2002— y
+   no solo en la conclusión. Se separa con cuidado lo que sí cambió su
+   situación (pedir más dinero) de la explicación que ella le pone encima.
+   -------------------------------------------------------------------------- */
+
+const CHINGONA_DINERO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Sincero sostiene que casi nadie gana poco por falta de oportunidades, sino por lo que aprendió de niño sobre el dinero",
+      },
+      {
+        b: "texto",
+        texto:
+          "Jen Sincero pasó de los cuarenta viviendo en un garaje reconvertido, trabajando como escritora por encargo y sin ahorros. No le faltaba talento ni le faltaban clientes: cobraba poco, no subía sus tarifas y daba por hecho que aquello era lo que había. Unos años después publicaba libros que vendían millones de ejemplares.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Este libro salió en 2017, cuatro años después del que la hizo conocida, y su tesis es que lo que cambió primero no fueron sus circunstancias sino lo que ella creía sobre el dinero. Sostiene que casi todo el mundo arrastra ideas heredadas —que el dinero es sucio, que pedir más es feo, que a ella no se le dan los números— y que jamás las ha puesto por escrito para mirarlas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre esa observación construye un método y una explicación. El método consiste en identificar esas creencias, fijar una cifra concreta y actuar antes de sentirse preparada. La explicación es la ley de la atracción: que el universo responde a la frecuencia en la que uno vibra. Las dos cosas van juntas en el libro y hay que separarlas para leerlo bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre las dos por separado: qué creencias sobre el dinero se heredan, por qué una cifra con fecha funciona distinto que un deseo, qué hizo ella en concreto para ganar más, qué dice la investigación sobre imaginarse el éxito, y por qué su consejo más repetido —gastar en ti dinero que no tienes— es también el más peligroso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribe lo primero que se te venga a la cabeza al terminar la frase «el dinero es…». Eso que has escrito lo decidiste antes de los diez años y lleva ahí desde entonces.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Nadie decide de adulto qué piensa del dinero: lo aprendió mirando cómo discutían en su casa",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte más sólida del libro es la que menos suena a autoayuda. Sincero sostiene que las creencias sobre el dinero se instalan de pequeño, por observación y no por enseñanza, y que por eso son invisibles: un niño que oyó veinte veces que los ricos son unos ladrones no aprendió una opinión, aprendió cómo es el mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El listado que hace es reconocible y ahí está su fuerza. El dinero no crece en los árboles. La gente decente no habla de dinero. Los ricos son avariciosos. A mí no se me dan los números. Hay que trabajar durísimo para ganarlo. Cada una de esas frases es una instrucción de comportamiento disfrazada de descripción.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es la que interesa. Quien cree que los ricos son avariciosos no va a ganar mucho dinero, porque hacerlo lo convertiría en aquello que desprecia. No es un bloqueo místico: es una contradicción normal y corriente entre lo que alguien quiere y lo que considera decente, y funciona en silencio saboteando decisiones concretas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejercicio que propone se hace en un folio y no requiere creer en nada. Se completan frases —el dinero es, la gente con dinero es, si yo ganara mucho—, se lee lo que ha salido y se comprueba una por una si es verdad. La mayoría no lo son, y verlas escritas con la letra de uno es más incómodo que oírlas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una creencia sobre el dinero no se discute mientras esté en la cabeza. Escrita en un papel, se le puede preguntar si es verdad, y casi nunca lo es.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Querer ganar más no produce nada; decidir cuánto y para cuándo, sí" },
+      {
+        b: "texto",
+        texto:
+          "Sincero insiste en que hay una diferencia enorme entre querer y decidir, y la marca con un detalle práctico: la cifra. «Quiero ganar más» no obliga a nada porque cualquier resultado la cumple. «Voy a facturar cuarenta mil euros antes del 31 de diciembre» obliga a mirar cuántos clientes hacen falta, a qué precio y desde cuándo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí el libro coincide sin saberlo con una línea de investigación bien asentada. El psicólogo Peter Gollwitzer publicó en 1999 en American Psychologist un trabajo sobre lo que llamó intenciones de implementación: los propósitos formulados como «cuando ocurra X, haré Y» se cumplen mucho más que los propósitos generales, y la diferencia se ha medido en decenas de estudios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que añade Sincero es la parte incómoda de elegir la cifra. Dice que casi todo el mundo escribe un número que ya sabe alcanzar, porque así no se arriesga a fallar, y que ese número no cambia ningún comportamiento. La cifra útil es la que obliga a hacer algo distinto de lo que se estaba haciendo, y por eso da miedo escribirla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y viene con una condición que el propio libro repite y que conviene subrayar, porque es lo que separa esto del pensamiento mágico: la cifra no sirve para visualizarla, sirve para desmontarla. Una vez puesta, el trabajo consiste en dividirla entre doce meses, entre clientes y entre precios, hasta que quede una lista de acciones para el lunes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pon una cifra y una fecha, y después divídela hasta que quepa en una semana. Si no cabe en una semana, no era un objetivo: era un deseo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que de verdad cambió su situación fue cobrar más por lo mismo que ya hacía",
+      },
+      {
+        b: "texto",
+        texto:
+          "Contada sin el envoltorio, la historia de Sincero es sencilla y muy reproducible. Hacía un trabajo por el que cobraba poco, empezó a pedir bastante más por el mismo trabajo, perdió a algunos clientes y ganó otros que pagaban esas tarifas. Su ingreso subió sin trabajar más horas, porque lo que cambió fue el precio y no la cantidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo por el que esto funciona tan a menudo es de aritmética. Subir un veinte por ciento el precio y perder por ello a uno de cada cinco clientes deja el mismo ingreso con un veinte por ciento menos de trabajo. Y en la práctica casi nunca se pierde a uno de cada cinco: la mayoría de los clientes acepta o negocia, porque cambiar de proveedor también les cuesta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que impide hacerlo casi nunca es el mercado, y aquí el libro acierta de pleno. Quien no sube sus tarifas suele estar evitando una conversación de treinta segundos, no evaluando un riesgo. Sincero lo dice de una manera que se recuerda: el precio que cobras es una cifra que decides tú y que la mayoría de la gente vive como si se la hubieran asignado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La misma lógica vale para pedir un aumento por cuenta ajena, con una diferencia importante: ahí no basta con decidirlo, hay que llevar preparado qué has aportado y con qué cifras. Sincero se salta esa parte, y es la que separa una petición que sale bien de una que deja una conversación incómoda y nada más.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Sube el precio antes de buscar más clientes. Es la única palanca que aumenta lo que ingresas sin aumentar lo que trabajas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Imaginarse el éxito con detalle no acerca a conseguirlo: se ha medido y hace lo contrario",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motor teórico del libro es la ley de la atracción, la idea popularizada por El secreto de Rhonda Byrne en 2006: si te concentras en lo que quieres y lo sientes como si ya lo tuvieras, el universo te lo acerca. Sincero la asume entera y le dedica capítulos a vibrar en la frecuencia adecuada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso sí se puede comprobar, y se ha comprobado. Gabriele Oettingen, psicóloga de la Universidad de Nueva York, publicó con Doris Mayer en 2002 en el Journal of Personality and Social Psychology una serie de estudios sobre lo que ocurre cuando alguien fantasea con un futuro deseado. El resultado fue el contrario del esperado y se ha repetido desde entonces en varios contextos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los estudiantes que más fantaseaban con conseguir un buen trabajo enviaron menos candidaturas y recibieron menos ofertas. Los pacientes que más se imaginaban recuperados de una operación se recuperaron peor. La explicación que propone Oettingen es que la fantasía detallada produce parte de la satisfacción del logro y baja la energía disponible para perseguirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí funciona, según su propio trabajo posterior, es imaginar el objetivo y a continuación el obstáculo concreto que se va a interponer, y decidir de antemano qué se hará cuando aparezca. Es casi lo contrario de vibrar en la frecuencia de la abundancia, y es gratis. La técnica de Sincero funciona cuando termina en acciones, y estorba cuando se queda en la escena imaginada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Después de imaginarte lo que quieres, imagina qué te lo va a impedir y qué harás ese día. Sin esa segunda parte, la primera te quita fuerzas en vez de dártelas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La gratitud y el dar tienen efecto, pero no por el motivo que da el libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sincero dedica varias páginas a agradecer lo que ya se tiene y a dar dinero aunque sobre poco, y lo explica como una manera de emitir abundancia para que el universo la devuelva. La práctica está bien y la explicación sobra, porque hay razones más sencillas y comprobables para que las dos cosas cambien algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el caso de la gratitud, el mecanismo es de atención. Quien vive pendiente de lo que le falta toma decisiones desde la escasez, y desde la escasez se negocia peor, se acepta el primer precio que ofrecen y se rechaza cualquier riesgo. Fijarse deliberadamente en lo que ya funciona no atrae nada: cambia el estado desde el que se decide.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el caso de dar, el efecto es todavía más terrenal. Dar dinero contradice de forma inmediata la creencia de que no hay suficiente, y contradecir una creencia con un hecho es la única manera conocida de debilitarla. Quien da cincuenta euros sabiendo que va justo demuestra en la práctica que no estaba tan al límite como creía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene marcar el límite, porque el libro no lo marca. Esto vale para quien tiene un ingreso irregular y una relación miedosa con el dinero, no para quien no llega a fin de mes. A quien le faltan doscientos euros para el alquiler, la escasez no es una creencia: es una cifra, y ningún cambio de perspectiva la mueve.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Fijarte en lo que ya tienes no atrae nada, pero cambia desde dónde negocias. Desde el miedo se acepta el primer precio que te ofrecen.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Su consejo más repetido —gasta en ti dinero que no tienes— es el que más daño ha hecho",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sincero cuenta que contrató a un asesor por una cantidad que no tenía y que aquello fue el punto de inflexión. De ahí saca una regla general: invertir en uno mismo dinero que no se tiene obliga a producirlo, y esa presión es lo que desbloquea. Es la parte del libro que más se cita y la que más conviene leer dos veces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El razonamiento tiene un problema evidente de selección. La gente para la que aquello salió bien escribe libros; la que se endeudó ocho mil euros en un programa de formación y siguió facturando lo mismo no aparece en ningún sitio. De un solo caso con final feliz no se puede sacar una regla, y este libro está construido casi entero sobre uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un dato que conviene tener delante, porque describe el sector al que pertenece el consejo. En 2018 la Comisión Federal de Comercio estadounidense actuó contra MOBE, una empresa de formación en negocios por internet, alegando que había captado más de ciento veinticinco millones de dólares de personas a las que prometía ingresos que casi nadie obtenía. Ese mismo año actuó contra otra parecida, Digital Altitude.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La versión defendible del consejo existe y es mucho más aburrida. Pagar por una formación concreta, con un resultado identificable, con dinero que no compromete el alquiler, y midiendo si ha servido, es una decisión razonable. Endeudarse por un programa cuya promesa es un cambio de mentalidad no lo es, y la diferencia entre las dos cosas no está en la fe.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de pagar por algo que promete cambiarte la vida, escribe qué resultado concreto esperas y en cuánto tiempo. Si no puedes escribirlo, no compres.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que las creencias sobre el dinero se heredan sin examinarse, que un deseo sin cifra ni fecha no cambia ninguna conducta, y que muchísima gente cobra por debajo de su valor por evitar una conversación. Las tres cosas son ciertas, se pueden comprobar esta semana y no exigen creer en nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su virtud es el tono. Está escrito en un lenguaje directo y con humor, dirigido explícitamente a mujeres que nunca han hablado de dinero sin sentirse culpables, y a ese público le llegó de una manera que ningún manual de finanzas personales había conseguido. Vender eso a millones de personas tiene mérito propio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Sube tu precio, ponle una cifra y una fecha a lo que quieres ganar, y quédate con lo demás solo si te ayuda a hacer esas dos cosas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. No hay en todo el libro un dato, un estudio ni una fuente: la prueba de cada afirmación es una anécdota, casi siempre suya. Y el motor que le pone encima —la ley de la atracción— no solo carece de respaldo, sino que la parte comprobable apunta en contra: los trabajos de Oettingen desde 2002 muestran que fantasear con el resultado deseado reduce el esfuerzo y empeora lo que se consigue.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después es el propio tamaño del fenómeno. El libro anterior de Sincero, publicado en 2013, permaneció años en las listas de más vendidos y abrió un género entero de mentalidad del dinero, con miles de programas de acompañamiento vendidos con esa misma promesa. La Comisión Federal de Comercio estadounidense ha ido cerrando desde 2018 a varias de las mayores, entre ellas MOBE y Digital Altitude, por prometer ingresos que sus clientes no obtenían. El consejo de invertir en uno mismo dinero que no se tiene sigue impreso en el libro sin ninguna advertencia al lado.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "chingona-dinero": CHINGONA_DINERO,
   "poder-sin-limites": PODER_SIN_LIMITES,
   "retirate-joven-rico": RETIRATE_JOVEN_RICO,
   "maestro-dinero": MAESTRO_DINERO,

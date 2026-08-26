@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "chingona-dinero": [
+    "qué creencias sobre el dinero se heredan sin llegar a examinarse nunca",
+    "por qué un deseo sin cifra ni fecha no cambia ninguna conducta",
+    "que subir el precio sube lo que ingresas sin subir lo que trabajas",
+    "el efecto medido de fantasear con el resultado que se desea",
+    "distinguir una formación que sirve de una promesa de cambio de mentalidad",
+  ],
+
   "poder-sin-limites": [
     "cómo se desmonta en pasos lo que otra persona hace bien",
     "por qué la postura cambia el ánimo antes que el razonamiento",
