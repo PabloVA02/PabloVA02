@@ -19,27 +19,24 @@ import { springSoft } from "./motion";
    hay ahora, que es lo que hace la referencia y lo que hacen todas: una
    frase, un símbolo y los botones.
 
-   TRES BOTONES Y DEL MISMO COLOR. Allí hay uno blanco a toda anchura y debajo
-   tres cuadrados grises con un logotipo suelto dentro, sin nombre. Eso son
-   dos cosas mal: un cuadrado gris no dice a dónde lleva, y el blanco de
-   arriba convierte en segunda opción a Google, que es por donde entra la
-   mitad de la gente. Aquí los tres son el mismo botón, con la misma altura y
-   el mismo color, y cada uno con su palabra escrita. Lo único que tiene color
-   propio es el logotipo, que es lo que hay que reconocer de un vistazo.
+   LA FORMA ES LA DE LA SEGUNDA CAPTURA, la del 26 de agosto por la tarde:
+   símbolo a la izquierda, titular a su derecha con la primera palabra en
+   color, el párrafo colgando del titular, un botón de Apple a toda anchura y
+   debajo dos cuadrados con el logotipo suelto.
 
-   EL ORDEN NO ES CASUAL: Apple primero porque su guía pide que, si se ofrece
-   registro con otros servicios, el suyo no quede por debajo; Google después
-   porque es el que más se usa; Facebook el tercero porque es el que menos y
-   el que más recelo da.
+   Estuvo con tres botones iguales apilados, cada uno con su frase. Se leían
+   mejor, pero costaban 42 puntos más para decir lo mismo, y Pablo devolvió la
+   tarjeta por alta. El reparto de la captura resuelve las dos cosas a la vez:
+   Apple es obligatorio en su tienda y va entero; los otros dos son
+   alternativas y no necesitan una fila cada uno.
+
+   FACEBOOK SE CAE, y no por sitio. Con dos huecos hay que elegir, y entre
+   Google y Facebook no hay debate: por Google entra la mitad de la gente y
+   Facebook es además el que más recelo da al registrarse. Quedan los tres que
+   cubren a todo el mundo: Apple, Google y el correo.
    ========================================================================== */
 
 export function Cuenta() {
-  const entradas = [
-    { nombre: "Apple", Logo: GlyphApple },
-    { nombre: "Google", Logo: GlyphGoogle },
-    { nombre: "Facebook", Logo: GlyphFacebook },
-  ];
-
   return (
     <motion.section
       className="cuenta"
@@ -48,17 +45,12 @@ export function Cuenta() {
       transition={{ ...springSoft, delay: 0.08 }}
       aria-label="Guarda tu progreso"
     >
+      {/* Símbolo a la izquierda y el texto a su derecha, como la captura del
+          26 de agosto. El párrafo cuelga del titular y no del filo de la
+          tarjeta: los dos empiezan en la misma vertical, pasada la anchura del
+          símbolo, y eso es lo que hace que el bloque se lea como una sola
+          cosa y no como un icono con dos textos sueltos debajo. */}
       <div className="cuenta-alto">
-        {/* Tres renglones eran uno de más: la tarjeta pide una cosa que se
-            hace en un toque y no necesita una frase con subordinada. «Inicia
-            sesión» además sobraba —lo dicen los tres botones de debajo—, así
-            que queda solo lo que se gana. */}
-        <p className="cuenta-texto">Guarda tu racha y todo lo que llevas leído</p>
-        {/* El candado con llave. La referencia dibuja las dos cosas por
-            separado con imágenes prediseñadas; este glifo las trae en uno solo
-            y ya viene con el color puesto. Va grande —46 puntos— y con un halo
-            ocre detrás, que es lo único que hace falta para que un emoji deje
-            de parecer un emoji y parezca una ilustración. */}
         <motion.span
           className="cuenta-sello"
           aria-hidden
@@ -66,25 +58,36 @@ export function Cuenta() {
           animate={{ scale: 1, opacity: 1, rotate: 0 }}
           transition={{ ...springSoft, delay: 0.26 }}
         >
-          🔐
+          🛡️
         </motion.span>
+        <div className="cuenta-col">
+          {/* La primera palabra en color, como la suya. Y el color es el del
+              fuego de la racha, que es lo que se está protegiendo. */}
+          <h2 className="cuenta-titulo">
+            <b>Guarda</b> tu racha y tu biblioteca
+          </h2>
+          <p className="cuenta-texto">
+            Estás entrando como invitado. Regístrate y no pierdas nada.
+          </p>
+        </div>
       </div>
 
-      <div className="cuenta-entradas">
-        {entradas.map((e, k) => (
-          <motion.button
-            className="cuenta-entrada"
-            key={e.nombre}
-            type="button"
-            whileTap={{ scale: 0.975 }}
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ ...springSoft, delay: 0.3 + k * 0.06 }}
-          >
-            <e.Logo />
-            Continuar con {e.nombre}
-          </motion.button>
-        ))}
+      {/* Apple arriba y a toda anchura, y los otros dos en cuadrado y debajo:
+          es el reparto de la captura, y funciona porque Apple es obligatorio
+          en su tienda y los demás son alternativas. Antes eran tres botones
+          iguales apilados, que ocupaban 42 puntos más para decir lo mismo. */}
+      <motion.button className="cuenta-apple" type="button" whileTap={{ scale: 0.98 }}>
+        <GlyphApple />
+        Continuar con Apple
+      </motion.button>
+
+      <div className="cuenta-otros">
+        <motion.button className="cuenta-otro" type="button" whileTap={{ scale: 0.94 }} aria-label="Continuar con Google">
+          <GlyphGoogle />
+        </motion.button>
+        <motion.button className="cuenta-otro" type="button" whileTap={{ scale: 0.94 }} aria-label="Continuar con tu correo">
+          <GlyphSobre />
+        </motion.button>
       </div>
     </motion.section>
   );
@@ -142,13 +145,13 @@ function GlyphGoogle() {
   );
 }
 
-function GlyphFacebook() {
+function GlyphSobre() {
   return (
-    <svg width="17" height="17" viewBox="0 0 24 24" aria-hidden>
-      <circle cx="12" cy="12" r="10.6" fill="#1877f2" />
+    <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden>
+      <rect x="2.6" y="5.2" width="18.8" height="13.6" rx="3.2" fill="none" stroke="currentColor" strokeWidth="1.9" />
       <path
-        d="M14.9 12.6h-2v6.9h-2.9v-6.9H8.5v-2.5h1.5V8.7c0-2 .84-3.2 3.2-3.2h2v2.5h-1.24c-.92 0-.98.34-.98.98v1.1h2.23l-.31 2.5Z"
-        fill="#fff"
+        d="M4.4 8.2 11.1 13a1.6 1.6 0 0 0 1.8 0l6.7-4.8"
+        fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round"
       />
     </svg>
   );

@@ -91,7 +91,7 @@ const TEXTOS: Record<EstadoPago, {
        estando, pero detrás del motivo y no delante. */
     alto: "Alcanza tus metas",
     bajo: "7 días gratis",
-    lema: "Empieza hoy tu crecimiento personal y no lo dejes a medias.",
+    lema: "Contenido ilimitado para que no dejes tus metas a medias.",
     boton: "Empezar prueba gratuita",
   },
   cancelado: {

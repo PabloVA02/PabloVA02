@@ -4781,6 +4781,12 @@ button {
      botón        y 689..785, 622 ancho   → 48 de alto, radio 10, #0099ff
      su texto     tinta 27 px de alto     → 15 de cuerpo
 
+   Y LOS AIRES VAN MÁS APRETADOS QUE LOS SUYOS. Pablo devolvió las dos
+   tarjetas de arriba por altas, así que del alto de la captura —284— se han
+   descontado veinte puntos repartidos entre los cinco aires verticales, sin
+   tocar ni un cuerpo de letra: lo que hacía la tarjeta grande era el aire, no
+   el tamaño del texto.
+
    EL AZUL ES EL SUYO Y ES DELIBERADO. No está en nuestra paleta, y el motivo
    por el que se queda es que en las tres versiones anteriores el botón se
    pintó con colores nuestros —ocre, verde, crema— y ninguno hacía lo que hace
@@ -4798,7 +4804,7 @@ button {
 
 .suscri-banda {
   position: relative;
-  padding: 21px 16px 16px;
+  padding: 16px 16px 15px;
   background: #4e3624;
 }
 
@@ -4811,10 +4817,10 @@ button {
 .suscri-sello {
   display: flex;
   align-items: center;
-  height: 38px;
-  font-size: 34px;
+  height: 34px;
+  font-size: 31px;
   line-height: 1;
-  margin-bottom: 13px;
+  margin-bottom: 10px;
 }
 
 /* El `margin: 0` no es higiene, es el arreglo de un fallo que se veía y no se
@@ -4846,8 +4852,8 @@ button {
 /* Una equis pelada, como la suya: ni círculo ni relleno. */
 .suscri-cerrar {
   position: absolute;
-  top: 19px;
-  right: 15px;
+  top: 14px;
+  right: 13px;
   display: grid;
   place-items: center;
   width: 30px;
@@ -4856,7 +4862,7 @@ button {
 }
 .suscri-cerrar svg { width: 17px; height: 17px; }
 
-.suscri-cuerpo { padding: 17px 16px 16px; }
+.suscri-cuerpo { padding: 14px 16px 14px; }
 
 .suscri-texto {
   margin: 0;
@@ -4869,8 +4875,8 @@ button {
 
 .suscri-boton {
   width: 100%;
-  height: 48px;
-  margin-top: 16px;
+  height: 46px;
+  margin-top: 14px;
   border-radius: 10px;
   background: #0099ff;
   color: #fff;
@@ -4882,83 +4888,114 @@ button {
 /* ==========================================================================
    LA CUENTA — la tarjeta de arriba del perfil
 
-   Misma tarjeta que las demás de la columna: mismo fondo translúcido, mismo
-   radio, mismos aires. Tuvo fondo propio, filo de luz y halo, y se le quitó
-   todo: en una tarjeta cuyo único trabajo es que alguien toque un botón, cada
-   adorno es una cosa más que mirar antes de tocarlo. El único color de la
-   pieza está en los tres logotipos y en el candado. Ver `Cuenta.tsx`.
+   Medida sobre la segunda captura del 26 de agosto, la de la pantalla de
+   ajustes. Va a 750 de ancho como la otra, o sea un píxel suyo por medio
+   punto nuestro:
+
+     tarjeta        x 32..718, y 660..1299   → 343 de ancho, sangrado 24
+     símbolo        x 40 y 355, 55 × 43      → 24 del filo, 25 de arriba
+     titular        empieza en x 94          → 78 del filo, o sea pasado el
+                                                símbolo: el párrafo cuelga
+                                                del titular, no del filo
+     botón Apple    x 40..335, 56 de alto    → a toda anchura entre sangrados
+     cuadrados      56 × 56, separados 16    → centrados bajo el botón
+
+   Lo que cambia es el color, porque la suya es una tarjeta blanca sobre fondo
+   claro y esta es oscura: donde ella pone negro —el botón de Apple— aquí va
+   el crema, que es el mismo contraste dado la vuelta.
+
+   Y los aires verticales van más apretados que los suyos. Pablo devolvió las
+   dos tarjetas de arriba por altas, y la suya mide 319 puntos; con el mismo
+   reparto y las mismas piezas, aquí caben en 236.
    ========================================================================== */
-/* Más pequeña de lo que era. Ocupaba media pantalla para pedir algo que se
-   hace en un toque, y entre esta y el aviso de suscripción empujaban la racha
-   por debajo del pliegue: quien entra al perfil viene a ver su racha, no a
-   registrarse. Baja el aire, baja el símbolo y bajan los tres botones. */
 .cuenta {
   margin: 6px 0 0;
-  padding: 14px 14px 14px;
-  border-radius: 20px;
+  padding: 18px 20px 18px;
+  border-radius: 12px;
   background: rgba(242, 236, 225, 0.07);
 }
 
 .cuenta-alto {
   display: flex;
-  align-items: center;
-  gap: 12px;
+  align-items: flex-start;
+  gap: 10px;
 }
 
-.cuenta-texto {
-  flex: 1;
-  min-width: 0;
-  font-size: 14px;
-  line-height: 1.34;
-  font-weight: 620;
-  letter-spacing: -0.012em;
-  color: rgba(242, 236, 225, 0.92);
-  text-wrap: balance;
-}
-
-/* El candado con llave, a 46 puntos y con un halo ocre detrás. El halo es lo
-   único que hace falta para que un emoji deje de parecer un emoji pegado y
-   parezca una ilustración: le da un plano propio, igual que el arco de color
-   que llevan las fichas anchas de la estantería. */
+/* Caja de alto fijo por el mismo motivo que en el aviso de suscripción: la
+   caja de línea de un emoji trae el aire de su fuente y descuadra la fila. */
 .cuenta-sello {
   flex: none;
-  display: grid;
-  place-items: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 999px;
-  background: radial-gradient(circle at 50% 50%, rgba(207, 160, 89, 0.2), transparent 68%);
-  font-size: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 42px;
+  font-size: 34px;
   line-height: 1;
 }
 
-/* --- Las tres entradas ---------------------------------------------------- */
-/* Tres botones iguales: misma altura, mismo fondo, mismo filete y la misma
-   frase con el nombre cambiado. Ninguno es «el bueno», y es a propósito: en
-   cuanto uno se pinta de blanco a toda anchura, los otros dos pasan a ser el
-   plan B, y por Google entra la mitad de la gente. */
-.cuenta-entradas {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin-top: 13px;
+.cuenta-col { flex: 1; min-width: 0; }
+
+/* La primera palabra en color, como la suya. Y el color es el del fuego de la
+   racha: es lo que la tarjeta está protegiendo, y así el titular señala a la
+   pieza de la pantalla de la que habla. */
+.cuenta-titulo {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.28;
+  letter-spacing: -0.018em;
+  color: var(--paper);
+}
+.cuenta-titulo b { color: var(--fuego); font-weight: 700; }
+
+.cuenta-texto {
+  margin: 7px 0 0;
+  font-size: 13.5px;
+  line-height: 1.36;
+  font-weight: 500;
+  color: rgba(242, 236, 225, 0.58);
+  text-wrap: pretty;
 }
 
-.cuenta-entrada {
+/* Donde la captura pone negro sobre blanco, aquí va crema sobre oscuro: es el
+   mismo contraste dado la vuelta, y el crema es el papel de toda la app. */
+.cuenta-apple {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 9px;
+  width: 100%;
+  height: 48px;
+  margin-top: 16px;
+  border-radius: 12px;
+  background: var(--paper);
+  color: #17151c;
+  font-size: 15px;
+  font-weight: 680;
+  letter-spacing: -0.012em;
+}
+
+/* Dos cuadrados centrados, como los suyos. Sin palabra: aquí sí se puede
+   prescindir de ella, porque el botón de arriba ya ha enseñado de qué va la
+   fila y estos dos son la alternativa, no la puerta principal. */
+.cuenta-otros {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.cuenta-otro {
+  display: grid;
+  place-items: center;
+  width: 52px;
   height: 44px;
   border-radius: 12px;
   background: rgba(242, 236, 225, 0.1);
   border: 1px solid rgba(242, 236, 225, 0.14);
-  color: var(--paper);
-  font-size: 13.8px;
-  font-weight: 650;
-  letter-spacing: -0.012em;
+  color: rgba(242, 236, 225, 0.86);
 }
-.cuenta-entrada svg { flex: none; }
 
 /* ==========================================================================
    CRECIMIENTO SEMANAL
