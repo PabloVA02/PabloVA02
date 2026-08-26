@@ -74,8 +74,8 @@ type Props = {
   suscrito: boolean;
   /** Cuántos resúmenes hay escritos, para la tarjeta de pase. */
   libros: number;
-  /** A dónde lleva el botón del pase. */
-  onOferta?: () => void;
+  /** A dónde lleva el botón del aviso de suscripción: a la caja. */
+  onSuscribirse?: () => void;
   /** La racha más larga que ha tenido. Ver la tarjeta de racha. */
   record: number;
   /** Seis semanas, de la más vieja a la de ahora. Ver `Crecimiento.tsx`. */
@@ -96,7 +96,7 @@ export function Perfil({
   racha,
   suscrito,
   libros,
-  onOferta,
+  onSuscribirse,
   record,
   historial,
   temas,
@@ -149,7 +149,7 @@ export function Perfil({
             gordo —a quien ya paga le estábamos vendiendo lo que ya tiene—, y
             una pantalla que le pide dinero a un cliente es una pantalla que
             ese cliente aprende a no mirar. Ver `Suscripcion.tsx`. */}
-        {!suscrito && <Suscripcion libros={libros} onOferta={onOferta} />}
+        {!suscrito && <Suscripcion libros={libros} onSuscribirse={onSuscribirse} />}
 
         {/* La racha: lo primero que se mira y lo único que se pierde */}
         <motion.section

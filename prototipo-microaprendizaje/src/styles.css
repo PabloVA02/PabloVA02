@@ -4780,23 +4780,39 @@ button {
   background: rgba(242, 236, 225, 0.07);
 }
 
+/* La luz de la banda sale de donde está el símbolo, arriba a la izquierda, y
+   se apaga hacia abajo y hacia la derecha. Un degradado recto de arriba abajo
+   —que es lo que había— pinta una franja plana con un corte visible al llegar
+   al cuerpo; con el foco puesto en un sitio concreto, la banda tiene volumen y
+   muere sola. */
 .suscri-banda {
   position: relative;
-  padding: 14px 16px 15px;
-  /* De más a menos hacia abajo, para que la banda muera en el cuerpo en vez
-     de cortarse con una línea. */
-  background: linear-gradient(180deg, rgba(207, 160, 89, 0.24), rgba(207, 160, 89, 0.1));
+  padding: 15px 16px 16px;
+  background:
+    radial-gradient(115% 105% at 12% 0%, rgba(207, 160, 89, 0.32), transparent 74%),
+    linear-gradient(180deg, rgba(207, 160, 89, 0.13), transparent);
+  /* Y el corte con el cuerpo en un filete de un píxel, no en un escalón de
+     color. El escalón —la banda muriendo en 0,04 sobre un fondo en 0— deja
+     una raya sucia que no se sabe si es una raya o una mancha. Un filete
+     limpio es lo que hace que la tarjeta se lea como un aviso partido en dos
+     y no como un degradado que ha salido mal. */
+  border-bottom: 1px solid rgba(242, 236, 225, 0.07);
 }
 
 .suscri-sello {
-  display: block;
-  font-size: 30px;
+  display: grid;
+  place-items: center;
+  width: 54px;
+  height: 54px;
+  margin-bottom: 11px;
+  border-radius: 999px;
+  background: rgba(20, 16, 10, 0.26);
+  font-size: 29px;
   line-height: 1;
-  margin-bottom: 9px;
 }
 
 .suscri-titulo {
-  font-size: 18.5px;
+  font-size: 19.5px;
   font-weight: 620;
   line-height: 1.24;
   letter-spacing: -0.02em;
@@ -4838,16 +4854,22 @@ button {
   text-wrap: balance;
 }
 
+/* Un solo botón en toda la tarjeta, así que puede permitirse ser el único
+   relleno macizo del perfil. El degradado es de un punto y medio de luz —de
+   #e6bb74 a #d5a25a—, lo justo para que la pieza tenga cara y no parezca un
+   rectángulo de color; y la sombra va en ocre y no en negro, que es lo que
+   hace que el botón parezca encendido en vez de recortado. */
 .suscri-boton {
   width: 100%;
-  height: 50px;
-  margin-top: 14px;
-  border-radius: 14px;
-  background: #e0b268;
+  height: 52px;
+  margin-top: 15px;
+  border-radius: 15px;
+  background: linear-gradient(180deg, #e6bb74, #d5a25a);
   color: #1d1710;
   font-size: 15.5px;
-  font-weight: 700;
+  font-weight: 720;
   letter-spacing: -0.012em;
+  box-shadow: 0 10px 24px -12px rgba(207, 160, 89, 0.75);
 }
 
 /* ==========================================================================

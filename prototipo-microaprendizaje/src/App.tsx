@@ -82,16 +82,26 @@ function colorDeTema(categoria: string): string {
   return LIBROS.find((l) => l.categoria === categoria)?.color ?? "var(--sage)";
 }
 /* Si el usuario está suscrito. En el prototipo se llega al inicio después del
-   alta, así que es cierto por defecto; existe como constante, y no como un
-   literal suelto en cada llamada, para que el día que haya suscripción de
-   verdad haya un solo sitio que tocar.
-   Con `?gratis` se mira la app como la ve quien todavía no paga, que es el
-   otro estado del libro del día. Es el mismo apaño que `?p=` y por el mismo
-   motivo: para revisar la pantalla sin desandar el alta. */
-const SUSCRITO =
-  typeof window === "undefined"
-    ? true
-    : !new URLSearchParams(window.location.search).has("gratis");
+   alta, así que era cierto por defecto y estaba escrito como una constante.
+
+   YA NO. Es estado, y arranca en FALSO. El motivo es el simulador: `movil.js`
+   abre la app directamente en «inicio», saltándose el alta entera, así que
+   con la constante en cierto no había manera de ver ni el aviso de
+   suscripción del perfil ni el libro gratis del día —las dos únicas piezas
+   que existen precisamente para quien no paga—. Pablo lo dijo el 26 de
+   agosto: «no lo veo, ponlo en el simulador».
+
+   Y arreglado así, no arreglado enseñándolo siempre: al pasar por la caja
+   —`Checkout`, que sí está en el prototipo— se pone en cierto y el aviso
+   desaparece, el libro del día deja de decir «gratis» y la pantalla de
+   perfil se queda sin la tarjeta. O sea que el simulador enseña las dos
+   versiones de la app y se pasa de una a otra pagando, que es lo que hace
+   la app de verdad.
+
+   Con `?suscrito` se entra ya pagando, para revisar esa mitad sin tener que
+   recorrer la caja. Es el mismo apaño que `?p=` y por el mismo motivo. */
+const SUSCRITO_INICIAL =
+  typeof window !== "undefined" && new URLSearchParams(window.location.search).has("suscrito");
 
 /* Atajo para mirar una pantalla suelta sin pasar por el onboarding entero:
    ?p=shorts abre directamente el muro. Sirve para revisar el diseño en el
@@ -176,6 +186,8 @@ export default function App() {
       Los dos arrancan con historial de ejemplo, como la racha: un perfil a
       cero no enseña ni el arco lleno a medias ni el contador subiendo, que es
       justo lo que hay que ver. Al leer suben de verdad. */
+  /** Si ha pasado por la caja. Ver `SUSCRITO_INICIAL`. */
+  const [suscrito, setSuscrito] = useState(SUSCRITO_INICIAL);
   const [minutosHoy, setMinutosHoy] = useState(6.5);
   const [meta, setMeta] = useState(15);
   const [minutosTotales, setMinutosTotales] = useState(1847);
@@ -291,7 +303,7 @@ export default function App() {
      tiempo» tiene que significar algo o se convierte en cada semana. */
   useEffect(() => {
     if (pantalla !== "inicio" || valoracionVista || leidas < 6 || avisoRegalo) return;
-    if (!tocaPedirResena({ suscrito: SUSCRITO, terminados: leidas })) return;
+    if (!tocaPedirResena({ suscrito, terminados: leidas })) return;
     const id = window.setTimeout(() => {
       setValoracion(true);
       setValoracionVista(true);
@@ -330,14 +342,19 @@ export default function App() {
               key="alta"
               reducido={!!reducido}
               onVolver={() => setPantalla("pago")}
-              onListo={() => setPantalla("inicio")}
+              /* Aquí se paga, y aquí se enciende la suscripción. Es el único
+                 sitio de la app donde se hace, igual que en la de verdad. */
+              onListo={() => {
+                setSuscrito(true);
+                setPantalla("inicio");
+              }}
             />
           )}
           {pantalla === "inicio" && (
             <Inicio
               key="inicio"
               racha={RACHA}
-              suscrito={SUSCRITO}
+              suscrito={suscrito}
               intereses={intereses}
               onAbrir={(l) => {
                 setLibro(l);
@@ -382,12 +399,14 @@ export default function App() {
             <Perfil
               key="perfil"
               racha={RACHA}
-              suscrito={SUSCRITO}
+              suscrito={suscrito}
               /* Los resúmenes escritos a mano, contados del fichero de
                  páginas. Es la cifra de verdad y sube sola según se escriben:
                  una promesa de la tarjeta de pase no puede estar a mano. */
               libros={Object.keys(PAGINAS).length}
-              onOferta={() => setPantalla("oferta")}
+              /* A la caja, que es donde se paga de verdad. La pantalla de
+                 «oferta» es el regalo con descuento y no da de alta. */
+              onSuscribirse={() => setPantalla("pago")}
               record={RECORD}
               /* La semana en curso lleva pegado lo de esta sesión, que sí es
                  de verdad: los minutos de hoy y las ideas de los resúmenes

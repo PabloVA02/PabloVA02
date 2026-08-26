@@ -37,10 +37,10 @@ import { GlyphClose } from "./glyphs";
 export function Suscripcion({
   /** Cuántos resúmenes hay escritos. Sale del catálogo, no de una promesa. */
   libros,
-  onOferta,
+  onSuscribirse,
 }: {
   libros: number;
-  onOferta?: () => void;
+  onSuscribirse?: () => void;
 }) {
   const [visible, setVisible] = useState(true);
 
@@ -56,6 +56,11 @@ export function Suscripcion({
           aria-label="Hazte de pago"
         >
           <div className="suscri-banda">
+            {/* El símbolo sobre un plato redondo, como el candado de la
+                tarjeta de la cuenta que tiene justo encima. Es lo que hace que
+                un emoji deje de parecer pegado: le da un plano propio y ata
+                las dos tarjetas, que son las dos únicas de la pantalla que
+                llevan uno. */}
             <motion.span
               className="suscri-sello"
               aria-hidden
@@ -89,7 +94,7 @@ export function Suscripcion({
             <motion.button
               className="suscri-boton"
               type="button"
-              onClick={onOferta}
+              onClick={onSuscribirse}
               whileTap={{ scale: 0.975 }}
             >
               Probar 7 días gratis
