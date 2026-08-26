@@ -3384,10 +3384,10 @@ button {
 
 .perfil-racha-alto {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   gap: 10px;
-  margin-bottom: 11px;
+  margin-bottom: 12px;
 }
 
 .perfil-racha-datos h2 {
@@ -3396,18 +3396,39 @@ button {
   letter-spacing: -0.015em;
 }
 
-/* El récord en pequeño y en gris, y el número en el naranja del fuego: es la
-   misma marca que la llama de al lado, así que se entiende sin leer que las
-   dos cifras cuentan lo mismo. */
+/* EL RÉCORD, EN PASTILLA. Estuvo en texto suelto —«Récord» en gris pequeño y
+   el número en naranja— alineado con la línea base del titular y pegado al
+   filo derecho. Pablo lo devolvió por comentario en el artefacto: «está un
+   poco mal colocado, ponlo en otro sitio o cámbiale la letra, pero que quede
+   mucho mejor todo».
+
+   Tenía razón, y el fallo era que ahí había TRES tamaños de letra en un mismo
+   renglón —titular de 17, palabra de 11,5, número de 13— y ninguna caja que
+   los recogiera. Un texto pequeño flotando en la esquina de una ficha no se
+   lee como un dato: se lee como algo que se ha quedado ahí.
+
+   En pastilla se lee como lo que es: un dato al lado de su titular. Y la
+   pastilla no es un invento —es la forma que usa la referencia para el
+   «quedan 4 h» de su misión diaria—, con el naranja del fuego al 14 % por
+   detrás, que la ata a la llama que tiene a la izquierda sin repetir el
+   dibujo. Un solo cuerpo de letra dentro, en versalita, y las dos cifras del
+   fuego —la de hoy y la del récord— quedan a la misma altura. */
 .perfil-record {
   flex: none;
-  font-size: 11.5px;
-  font-weight: 620;
-  letter-spacing: 0.01em;
-  color: rgba(242, 236, 225, 0.5);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: rgba(255, 122, 24, 0.14);
+  color: #ffa257;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
   font-variant-numeric: tabular-nums;
 }
-.perfil-record strong { color: var(--fuego); font-weight: 780; font-size: 13px; }
+.perfil-record strong { color: #ffc08a; font-weight: 800; }
 
 .perfil-dias {
   display: flex;
