@@ -105031,7 +105031,305 @@ const HAMBRUNA_MAO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La alegría de perderse, de Tanya Dalton (2021), en ocho páginas.
+
+   Libro práctico, registro de tú: apartado 4.7. Es uno de los títulos de
+   promesa de las capturas de estantes —su subtítulo real es «vive más
+   haciendo menos»—, así que va en el apartado 5 bis.
+
+   La séptima página dice el límite del libro y de todo su género: un
+   sistema personal organiza una carga y no la reparte. Y ahí entra la
+   investigación sobre carga mental, que es lo que el libro toca sin
+   nombrar.
+   -------------------------------------------------------------------------- */
+
+const ALEGRIA_PERDERSE: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dalton sostiene que el problema no es que falte tiempo, sino que casi nadie ha decidido en qué gastarlo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una expresión que se ha hecho corriente para el miedo a perderse algo: la sensación de que en otro sitio está pasando algo mejor y de que quedarse fuera es una pérdida. Se ha estudiado con cuestionarios desde 2013, y quienes puntúan alto declaran peor estado de ánimo, menos satisfacción con su vida y más uso de redes sociales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tanya Dalton, consultora estadounidense de productividad, propone en este libro lo contrario y le pone nombre: la alegría de perderse cosas. No como resignación, sino como consecuencia de haber decidido a qué se dice que sí, porque quien ha elegido tres cosas se pierde el resto por definición y no lo vive como una pérdida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su diagnóstico de partida es que casi todos los métodos de organización personal atacan el problema equivocado. Enseñan a meter más cosas en el día, a hacerlas más deprisa y a no olvidar ninguna, y no preguntan en ningún momento si esas cosas tenían que estar ahí. El resultado es una jornada muy eficiente dedicada a lo que decidió otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que propone y dónde se queda corta: por qué tu calendario ya dice cuáles son tus prioridades, qué diferencia hay entre una lista de tareas y un plan, qué es la carga mental y quién la lleva, cuánto cuesta cambiar de tarea y qué no puede resolver ningún sistema personal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todos los métodos enseñan a hacer más cosas y ninguno pregunta si esas cosas tenían que estar ahí. La jornada eficiente puede ser la de otro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Tu calendario ya refleja tus prioridades, las hayas elegido tú o no" },
+      {
+        b: "texto",
+        texto:
+          "La frase más útil del libro funciona como una comprobación y no como un consejo. Cualquiera puede abrir su agenda de las últimas dos semanas y mirar en qué se le fue el tiempo, y eso responde a la pregunta de qué es prioritario para él, independientemente de lo que conteste si se lo preguntan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejercicio suele resultar desagradable. Sale que una parte grande del tiempo se dedicó a asuntos que llegaron por correo, a reuniones convocadas por otros y a urgencias que ya no se recuerdan, y que las cosas que uno diría que le importan —la salud, alguien concreto, un proyecto propio— no aparecen o aparecen al final del día y sin tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dalton insiste en que esa diferencia no se corrige con intenciones. Mientras lo importante no ocupe un hueco en el calendario con hora y duración, competirá cada día contra lo urgente, y lo urgente gana siempre porque tiene a alguien detrás pidiéndolo y lo importante no tiene a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su recomendación básica, que es colocar primero lo propio y después lo demás alrededor. Suena a truco y produce un efecto real: un hueco reservado se defiende mucho mejor que una intención, porque cuando alguien pide ese rato la respuesta no es que no apetece, sino que a esa hora ya hay algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dalton propone además revisar ese calendario buscando dos cosas distintas: qué aparece muchas veces y no debería, y qué no aparece nunca y debería. La primera lista suele estar llena de reuniones que se aceptaron una vez y se repiten desde entonces sin que nadie haya vuelto a preguntarse si hacen falta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mira tu agenda de las dos últimas semanas. Eso es lo que de verdad priorizas, contestes lo que contestes si te lo preguntan.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una lista de tareas no es un plan: es un sitio donde dejar cosas" },
+      {
+        b: "texto",
+        texto:
+          "Dalton sostiene que la lista de tareas, tal como la usa casi todo el mundo, funciona como un almacén: se va apuntando lo que aparece, la lista crece, y al final del día quedan tachadas las cosas pequeñas y sin tachar las importantes, porque las pequeñas se hacen en cinco minutos y producen la sensación de avanzar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su alternativa es una lista corta y cerrada. Tres tareas principales al día, elegidas por la mañana o la noche anterior, y todo lo demás en otra parte. Si esas tres se hacen, el día ha ido bien aunque quede sin tocar el resto; si no se hacen, no ha ido bien aunque se hayan resuelto veinte cosas menores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El número tres es arbitrario y funciona por un motivo que no lo es. Una lista corta obliga a elegir, y elegir es exactamente lo que una lista larga permite evitar: mientras haya veinte cosas apuntadas, siempre hay alguna que apetece y siempre se puede posponer la difícil sin sensación de estar posponiendo nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso añade una costumbre que resuelve el arranque del día: dejar decidido la noche anterior cuáles son esas tres cosas. Quien lo decide por la mañana empieza la jornada eligiendo, y elegir con el correo ya abierto significa elegir entre lo que otros han puesto delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una manera concreta de elegir las tres. Una tiene que ser la que más incomoda, otra la que más acerca a algo que importa a largo plazo, y la tercera puede ser cualquier cosa que descargue. Sin esa primera categoría, las tres acaban siendo siempre lo cómodo con distinta apariencia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Elige tres cosas la noche anterior. Decidirlo por la mañana con el correo abierto es elegir entre lo que otros te han puesto delante.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay un trabajo que no aparece en ninguna lista y que hace casi siempre la misma persona",
+      },
+      {
+        b: "texto",
+        texto:
+          "La mejor aportación del libro es señalar un tipo de trabajo que ningún método de productividad contabiliza. No es hacer la compra: es saber que falta detergente. No es llevar al niño al médico: es recordar que toca revisión, buscar hueco, pedir la cita y avisar en el trabajo. Ese trabajo consiste en llevar la cuenta de todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se llama carga mental y tiene tres partes: anticipar lo que va a hacer falta, decidir cómo se resuelve y comprobar después que se ha hecho. No ocupa tiempo medible, no se puede apuntar en una agenda y no se acaba nunca, porque funciona en segundo plano durante todo el día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un estudio publicado en 2019 por la socióloga Allison Daminger entrevistó a decenas de parejas para ver cómo se reparte esa parte concreta, separada de las tareas visibles. El resultado es que se reparte de forma bastante desigual, y que las dos fases que menos se ven —anticipar y comprobar— recaen mayoritariamente en las mujeres, incluso en parejas que dividen las tareas físicas a medias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dalton escribe para ese público y lo nombra, cosa que casi ningún libro de productividad hace. Su recomendación práctica es sacarlo de la cabeza y ponerlo por escrito en un sitio compartido, para que deje de ser invisible, y eso sirve: lo que no está escrito no se puede repartir, porque el otro ni siquiera sabe que existe.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Anticipar lo que hará falta, decidir cómo y comprobar después es un trabajo que no ocupa tiempo medible y no se acaba nunca.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cambiar de tarea cuesta bastante más de lo que parece, y por eso conviene agrupar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una de las recomendaciones más concretas es agrupar lo parecido: contestar todos los correos en dos momentos del día, hacer todas las llamadas seguidas, resolver los recados en una sola salida. La justificación no es de comodidad, es que cambiar de tipo de tarea tiene un coste que se paga cada vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese coste está medido. Los estudios sobre alternancia de tareas encuentran que cada cambio obliga a reconfigurar lo que se está haciendo, y que el tiempo perdido en esa reconfiguración puede llegar a una parte considerable de la jornada cuando los cambios son constantes, aunque cada uno por separado parezca durar unos segundos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace falta entender es que el coste no está en el minuto que dura la interrupción, sino en volver al punto donde se estaba. Por eso una jornada con veinte interrupciones breves rinde mucho menos que una con dos horas seguidas, aunque el tiempo total interrumpido sea el mismo en las dos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale también la recomendación sobre las notificaciones, que en este libro no es una cruzada moral sino aritmética. Cada aviso que aparece en una pantalla es un cambio de tarea, y por tanto un coste; quitarlos no es cuestión de disciplina, es dejar de pagar algo que no compra nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Agrupar tiene además un efecto que no es de tiempo sino de calidad. Contestar quince correos seguidos con la cabeza puesta en eso produce mejores respuestas que contestar quince correos repartidos entre otras tareas, porque en el segundo caso cada uno se contesta a medias y con prisa por volver a lo que se estaba haciendo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El coste de una interrupción no es el minuto que dura: es volver al punto donde estabas. Veinte interrupciones cortas cuestan más que dos largas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Decir que no funciona cuando ya está decidido a qué se dice que sí" },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica un buen tramo a rechazar cosas, y su enfoque evita el problema habitual de esos capítulos. No propone fórmulas para negarse con elegancia, sino tener decidido de antemano a qué se dice que sí, porque un no solo es sostenible cuando protege algo concreto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia se nota en la práctica. Rechazar un plan porque no apetece obliga a justificarse y cede a la primera insistencia; rechazarlo porque a esa hora se hace otra cosa que ya estaba decidida no requiere justificación y no admite negociación, y además es verdad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dalton añade una categoría intermedia que resuelve bastantes casos: la lista de ahora no. Son cosas que interesan de verdad y que no caben este trimestre, y ponerlas por escrito en un sitio visible permite decir que no sin la sensación de estar renunciando, que es lo que hace tan difíciles esas conversaciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un aviso que conviene retener sobre el efecto acumulado de los síes. Cada compromiso aceptado no ocupa solo su duración: ocupa la preparación, el desplazamiento, el rato de después y el espacio mental que ocupa mientras se acerca. Contado así, un favor de una hora suele costar media jornada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y propone un criterio para decidir en el momento, cuando no hay tiempo de pensarlo. Si la respuesta no es un sí evidente, es un no: la duda prolongada ante una petición casi siempre significa que no se quiere y que se está buscando la manera de justificarlo, y esa búsqueda cuesta más que la negativa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un no solo se sostiene si protege algo concreto que ya estaba decidido. Rechazar algo porque no apetece cede a la primera insistencia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un sistema personal organiza una carga, y ese es exactamente su límite",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí está el problema de fondo del libro y del género entero al que pertenece. Todas sus herramientas sirven para gestionar mejor una carga: ordenarla, priorizarla, agruparla, hacerla visible. Ninguna sirve para que esa carga sea menor ni para que la lleve otra persona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso importa especialmente porque el libro se dirige sobre todo a mujeres con hijos y con empleo, es decir, al grupo que según la investigación disponible soporta la parte más desigual de ese trabajo invisible. Ofrecerle a alguien un método para organizar mejor una carga desproporcionada es útil y también es una manera de dejar la desproporción intacta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La propia autora se acerca a esa conclusión y no la formula. Recomienda pedir ayuda y delegar, y trata el reparto como una decisión doméstica que cada una tiene que negociar por su cuenta, sin decir en ningún momento que el problema tiene la misma forma en millones de casas y que por tanto no es un problema de organización.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo razonable es usar el libro sabiendo qué puede darte. Sus herramientas —tres tareas, bloques en el calendario, agrupar, poner por escrito lo invisible— funcionan y merecen la pena. Lo que no hay que esperar de ellas es que arreglen una jornada que es imposible para cualquiera, porque para eso no existe ningún método personal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una consecuencia práctica de aceptar ese límite y no es rendirse. Cuando alguien comprueba que su jornada no cabe por mucho que la organice, deja de buscar un método mejor y empieza a plantear la conversación que hacía falta: en casa, con quien le asigna el trabajo o con quien decide los horarios. Ese es el paso siguiente y no está en ningún libro de productividad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un método te ayuda a llevar mejor una carga. Si la carga es imposible para cualquiera, no hay sistema personal que lo arregle.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que el calendario propio ya revela las prioridades reales de cada uno, que una lista corta obliga a elegir donde una larga permite escaquearse, que existe un trabajo de anticipar y comprobar que no aparece en ninguna lista, y que un no solo se sostiene si protege algo que ya estaba decidido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a los manuales del ramo es a quién se dirige. Casi toda la literatura de productividad está escrita para alguien con una jornada de trabajo y poco más, y esta parte de que buena parte de sus lectoras llevan además una casa entera en la cabeza, cosa que ningún método reconocía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Elige tres cosas la noche anterior, ponlas en el calendario y escribe lo invisible en un sitio compartido. Eso es lo aprovechable del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. No hay prácticamente ninguna referencia: casi todo procede de la experiencia de la autora y de su trabajo con clientas. La idea de definir un propósito personal que sirva de filtro para todo ocupa muchas páginas y es de las cosas más difíciles de hacer que existen, y el libro la despacha con ejercicios de rellenar. Y presupone, como casi todo el género, que quien lee controla su propia agenda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una discusión que este libro toca de refilón y que se ha movido bastante desde entonces. El trabajo invisible del hogar dejó de ser un asunto privado para convertirse en un tema público a partir de un cómic francés que circuló en 2017, y la investigación posterior le ha dado forma medible: lo que se reparte mal no son solo las tareas, sino el hecho de tener que acordarse de ellas. Esa conversación va hacia el reparto y no hacia la organización, que es justo el paso que este libro no llega a dar.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "alegria-perderse": ALEGRIA_PERDERSE,
   "hambruna-mao": HAMBRUNA_MAO,
   "modelos-manson": MODELOS_MANSON,
   "sprint-knapp": SPRINT_KNAPP,

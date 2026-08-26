@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "alegria-perderse":
+    "Frente al miedo a perderse algo, Dalton propone lo contrario: elegir tres cosas y perderse el resto sin que duela. El libro se dirige a quien además lleva una casa entera en la cabeza.",
+
   "hambruna-mao":
     "Entre 1958 y 1962 murieron en China decenas de millones de personas, y el episodio se explicó durante décadas como tres años de desastres naturales. Dikötter reconstruyó lo ocurrido con los informes internos del propio partido.",
 

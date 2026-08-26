@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "alegria-perderse": [
+    "por qué tu calendario dice tus prioridades reales aunque no las eligieras",
+    "que una lista larga permite escaquearse y una corta obliga a elegir",
+    "qué es la carga mental y por qué no aparece en ninguna lista",
+    "cuánto cuesta de verdad cada cambio de tarea",
+    "qué puede resolver un sistema personal y qué no puede resolver",
+  ],
+
   "hambruna-mao": [
     "por qué es tan difícil calcular las muertes de una hambruna",
     "qué pasa cuando informar de una mala noticia arruina al mensajero",

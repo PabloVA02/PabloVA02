@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "alegria-perderse": "Vive más haciendo menos",
   "hambruna-mao": "Historia de la catástrofe más devastadora de China",
   "modelos-manson": "Atrae a las mujeres a través de la honestidad",
   "sprint-knapp": "El método para resolver problemas y testar nuevas ideas en solo cinco días",

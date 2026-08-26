@@ -338,7 +338,7 @@ export const CATALOGO: Ficha[] = [
   { id: "treinta-dias", titulo: "30 días", autor: "Marc Reklau", ano: 2014, categoria: "Psicología", estado: "pendiente" },
   { id: "cientifico-espacial", titulo: "Piensa como un científico espacial", autor: "Ozan Varol", ano: 2020, categoria: "Psicología", estado: "escrito" },
   { id: "filosofo-griego", titulo: "Piensa como un filósofo griego", autor: "Donald Robertson", ano: 2019, categoria: "Psicología", estado: "pendiente" },
-  { id: "alegria-perderse", titulo: "La alegría de perderse", autor: "Tanya Dalton", ano: 2021, categoria: "Psicología", estado: "pendiente" },
+  { id: "alegria-perderse", titulo: "La alegría de perderse", autor: "Tanya Dalton", ano: 2021, categoria: "Psicología", estado: "escrito" },
   { id: "todo-empieza-contigo", titulo: "Todo empieza contigo", autor: "Jillian Turecki", ano: 2025, categoria: "Psicología", estado: "pendiente" },
   { id: "adulto-relaciones", titulo: "Cómo ser un adulto en las relaciones", autor: "David Richo", ano: 2002, categoria: "Psicología", estado: "escrito" },
   { id: "dopamina-lieberman", titulo: "Dopamina", autor: "Daniel Z. Lieberman y Michael E. Long", ano: 2018, categoria: "Psicología", estado: "escrito" },
