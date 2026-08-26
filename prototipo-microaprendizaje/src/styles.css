@@ -6541,7 +6541,6 @@ button {
   border-bottom: 1px solid #4e4e4e;
 }
 /* De la raya al filo de arriba de la franja azul hay 21 px: 10,5 puntos. */
-.inicio .franja-gratis { margin-top: 14px; }
 
 /* La pastilla de la cabecera: fuego y racha a un lado, la cara al otro, y un
    filete de un punto separándolos, como en la captura. Es una sola pieza a la
@@ -6946,77 +6945,7 @@ button {
   color: rgba(242, 236, 225, 0.62);
 }
 
-/* --- La franja de lectura gratuita y el botón de guardar --------------- */
-
-/* Medido sobre la captura, barriendo filas y columnas:
-     franja   x 32..717, y 234..593  → 343 × 180 puntos, 16 de margen
-     radio    el arco toca el filo recto 22 px más abajo → 11 puntos
-     azul     #4397f7, muestreado en el centro plano
-   Los tres rótulos, por la altura de mayúscula y las líneas base:
-     «Lectura»        L de 41 px  → 28 de cuerpo
-     líneas base      337, 407, 477 → 70 px de paso → 35, o sea 1,25
-     «Obtener ahora»  O de 25 px  → 17 de cuerpo
-   Y los aires: 61 px del filo de arriba a la primera mayúscula y 57 de la
-   última línea base al filo de abajo. */
-.franja-gratis {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: calc(100% - var(--shell-pad) * 2);
-  /* Pablo la quiere más pequeña. De 180 a 152, que es lo que hace falta para
-     que el rótulo siga cayendo en tres líneas y la cubierta siga entrando
-     entera: por debajo de eso el libro se recorta por arriba y por abajo. */
-  height: 152px;
-  margin: 16px var(--shell-pad) 0;
-  padding: 0 0 0 18px;
-  border-radius: 11px;
-  /* Verde y no azul, que es lo que pidió Pablo. Elegido midiendo y no a ojo:
-     4,1 de contraste contra el blanco del rótulo —de sobra para un titular y
-     casi para el texto corrido—, 3,9 contra el #222 del fondo, así que la
-     franja se separa de la página, y 2,4 contra el verde claro del regalo,
-     que es lo que hace que los dos verdes se lean como dos cosas y no como
-     un fallo de impresión. */
-  background: #0f8f63;
-  overflow: hidden;
-  text-align: left;
-}
-.gratis-texto { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1px; }
-.gratis-titulo {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 1.24;
-  letter-spacing: -0.02em;
-  color: #fff;
-  /* 165 dejaba «gratuita» compartiendo renglón; con 150 caen las tres
-     palabras en tres líneas, que es como está en la captura. */
-  max-width: 150px;
-}
-.gratis-llamada {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  font-size: 15px;
-  /* Sobre verde, la línea pequeña necesita algo más de cuerpo que sobre azul
-     para leerse igual de bien. */
-  font-weight: 600;
-  color: #fff;
-}
-/* La cubierta ES la caja: 101 × 152 es el 2:3 del fichero original a la
-   altura que tiene en la captura, así que no hay ni recorte ni deformación.
-   El giro son 6°, sacados de la pendiente del filo izquierdo del libro —32
-   píxeles de desvío en 302 de caída— y no de la primera impresión. */
-.gratis-libro {
-  flex: none;
-  display: block;
-  width: 86px;
-  height: 129px;
-  /* Iba pegada al filo y salía cortada por la derecha. Con 22 de margen el
-     libro queda dentro de la franja y con aire a los dos lados. */
-  margin-right: 22px;
-  border-radius: 5px;
-  transform: rotate(6deg);
-  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.3);
-}
+/* --- El botón de guardar de la ficha ------------------------------------ */
 
 /* El botón de guardar: 60 × 58 px en la captura → 30 × 29 puntos, con el
    filo derecho 11 px por fuera de la cubierta y el de arriba 12 por encima.
@@ -8038,6 +7967,12 @@ button {
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
+/* Sin suscripción el rótulo va en verde, y en el verde exacto de «Tu
+   regalo»: en esta app ese color significa una sola cosa, que algo está ahí
+   y no cuesta nada. Sobre la cubierta desenfocada y oscurecida da 9,4 de
+   contraste, o sea que aguanta cualquier portada que toque. */
+.hoy[data-libre="true"] .hoy-rotulo { color: #6ddc89; }
+
 .hoy-reloj svg { width: 12px; height: 12px; }
 
 /* --- El cuerpo: cubierta centrada, como la suya -------------------------- */
@@ -8145,8 +8080,31 @@ button {
   background: color-mix(in srgb, var(--acento, #c2704f) 84%, #f2ece1);
   color: #17151c;
 }
+/* «Leer gratis» son siete caracteres más que «Leer» y en el 36 % se salía.
+   El 47 % le da sitio y deja al de escuchar 155 puntos, que siguen sobrando
+   para su palabra. Los dos botones son los mismos: lo único que cambia es
+   dónde se parte el ancho. */
+.hoy[data-libre="true"] .hoy-leer { flex: 0 0 47%; }
+
 .hoy-leer svg,
 .hoy-escuchar svg { width: 17px; height: 17px; }
+
+/* --- El pie: la condición de lo gratis ----------------------------------- */
+/* Centrado bajo los botones y en el crema rebajado de la tarjeta, no en el
+   verde: el verde ya lo dijo arriba, y repetirlo aquí convertiría una
+   condición en un segundo anuncio. */
+.hoy-pie {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 12.5px;
+  line-height: 1.35;
+  font-weight: 560;
+  letter-spacing: -0.005em;
+  color: rgba(242, 236, 225, 0.66);
+}
+/* Cada frase, entera o en su propia línea. Ver el comentario del pie en
+   `LibroDelDia.tsx`. */
+.hoy-pie span { display: inline-block; white-space: nowrap; }
 
 /* --- El aviso de guardado ------------------------------------------------ */
 .hoy-aviso {

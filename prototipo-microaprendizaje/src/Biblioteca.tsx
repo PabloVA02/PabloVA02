@@ -6,7 +6,6 @@ import {
   PensarArte, PensarArteVB,
 } from "./undraw";
 import { enterVariants, spring, springPop, springSoft, springTight } from "./motion";
-import { urlFoto } from "./shorts";
 import {
   GlyphAuriculares, GlyphAvatar, GlyphClose, GlyphDescargar, GlyphGuardar,
   GlyphLeer, GlyphLlama, GlyphLupa, GlyphPaginas, GlyphPuntos, GlyphRegalo,
@@ -557,12 +556,6 @@ export function Inicio({
   /* `progreso` viene a cero en el catálogo de muestra, y una barra al cero no
      enseña nada de lo que hace la pastilla. */
   const avance = destacado.progreso > 0 ? destacado.progreso : 0.15;
-  /* El libro de la franja azul: el que Pablo pidió, y si no está, el primero
-     que tenga cubierta. Sin cubierta la franja se queda solo con el texto, que
-     es mejor que un hueco con el icono de imagen rota. */
-  const libroDeLaFranja =
-    LIBROS.find((l) => l.id === "sapiens") ?? LIBROS.find((l) => l.portada);
-
   /* Las categorías que existen de verdad, con las elegidas en la introducción
      delante. Filtrar por algo que da cero resultados es una vía muerta, así
      que solo se ofrece lo que tiene libros detrás. */
@@ -679,11 +672,15 @@ export function Inicio({
           </span>
         </motion.button>
 
-        {/* El libro de hoy, justo debajo de la pastilla de «seguir leyendo»
-            y antes que todo lo demás. Es lo único de la pantalla que cambia
-            cada día, así que es lo que da un motivo para abrir la app un
-            martes cualquiera. La pastilla de arriba va antes porque es de una
-            línea y porque quien tiene algo a medias viene a eso. Ver
+        {/* El libro de hoy, justo debajo de la pastilla de «seguir leyendo».
+            Es lo único de la pantalla que cambia cada día, así que es lo que
+            da un motivo para abrir la app un martes cualquiera. La pastilla de
+            arriba va antes porque es de una línea y porque quien tiene algo a
+            medias viene a eso.
+
+            Aquí estaba la franja verde de «Lectura diaria gratuita», y se ha
+            quitado: anunciaba en un cartel aparte justo lo que esta tarjeta ES
+            para quien no paga. Ahora lo dice la tarjeta misma. Ver
             `LibroDelDia.tsx`. */}
         <LibroDelDia
           suscrito={suscrito}
@@ -692,45 +689,6 @@ export function Inicio({
           onLeer={onAbrir}
           onEscuchar={onEscuchar}
         />
-
-        {/* La lectura diaria gratuita, lo primero de la pantalla. Medido
-            sobre la captura de Pablo, que va a 750 × 1624 —o sea la pantalla
-            a doble densidad, un píxel de la captura por medio punto—:
-              franja        x 32..718, y 234..594  → 343 × 180, radio 11
-              azul          #4397f7
-              rótulo        altura de mayúscula 41 px → 28 de cuerpo
-              interlínea    70 px → 35, o sea 1,25
-              llamada       25 px de mayúscula → 17 de cuerpo
-              cubierta      101 × 152 girada 6°, pegada al filo derecho */}
-        {onOferta && (
-          <motion.button
-            className="franja-gratis"
-            onClick={onOferta}
-            whileTap={{ scale: 0.985 }}
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ ...spring, delay: 0.06 }}
-          >
-            <span className="gratis-texto">
-              <span className="gratis-titulo">Lectura diaria gratuita</span>
-              <span className="gratis-llamada">
-                Obtener ahora <span aria-hidden>→</span>
-              </span>
-            </span>
-            {/* La cubierta va como imagen suelta y no por `Portada`, que
-                fuerza una caja cuadrada y deformaba el dibujo. Aquí la caja ES
-                el libro: 101 × 152, el 2:3 exacto del fichero que trajo Pablo
-                —1024 × 1536— a la altura que tiene en la referencia. */}
-            {libroDeLaFranja?.portada && (
-              <img
-                className="gratis-libro"
-                src={urlFoto(libroDeLaFranja.portada, 420)}
-                alt=""
-                aria-hidden
-              />
-            )}
-          </motion.button>
-        )}
 
         {/* Los filtros son las mismas ocho de la introducción, en su orden */}
         <motion.div

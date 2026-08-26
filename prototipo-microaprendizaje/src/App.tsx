@@ -39,11 +39,16 @@ const CON_BARRA: Pantalla[] = ["inicio", "perfil", "biblioteca", "shorts", "expl
 /** Racha de ejemplo del prototipo. */
 const RACHA = 3;
 /* Si el usuario está suscrito. En el prototipo se llega al inicio después del
-   alta, así que es siempre cierto; existe como constante, y no como un literal
-   suelto en cada llamada, para que el día que haya suscripción de verdad haya
-   un solo sitio que tocar. Lo pidió Pablo el 21 de agosto, para el libro del
-   día: «solo aparece una vez estás suscrito». */
-const SUSCRITO = true;
+   alta, así que es cierto por defecto; existe como constante, y no como un
+   literal suelto en cada llamada, para que el día que haya suscripción de
+   verdad haya un solo sitio que tocar.
+   Con `?gratis` se mira la app como la ve quien todavía no paga, que es el
+   otro estado del libro del día. Es el mismo apaño que `?p=` y por el mismo
+   motivo: para revisar la pantalla sin desandar el alta. */
+const SUSCRITO =
+  typeof window === "undefined"
+    ? true
+    : !new URLSearchParams(window.location.search).has("gratis");
 
 /* Atajo para mirar una pantalla suelta sin pasar por el onboarding entero:
    ?p=shorts abre directamente el muro. Sirve para revisar el diseño en el

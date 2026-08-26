@@ -43,9 +43,19 @@ import { minutosDeLibro } from "./Biblioteca";
    El aviso de guardado también cambia: el suyo se queda puesto hasta que lo
    cierras y tapa el título; este entra, se lee y se va solo a los 2,4 s.
 
-   Y SOLO SE VE ESTANDO SUSCRITO, que es como lo tienen ellos y como lo pidió
-   Pablo. A quien está probando la app no se le enseña el libro que le tocaría
-   cada día: se le enseña la oferta.
+   5. SE VE PAGUES O NO, Y DICE DOS COSAS DISTINTAS. Antes desaparecía sin
+      suscripción y en su lugar salía una franja verde que anunciaba «Lectura
+      diaria gratuita». Eran dos piezas para una sola idea, y la mala era la
+      que veía justo quien todavía no ha pagado: un cartel en vez del libro.
+      Ahora la tarjeta es la misma para los dos y cambia de rótulo:
+
+        sin suscripción   GRATIS HOY  — en verde, y debajo de los botones la
+                          única condición que hay: se acaba a medianoche.
+        con suscripción   RECOMENDADO HOY
+
+      El verde es el mismo `#6ddc89` de «Tu regalo», que es el color con el
+      que esta app dice que algo no cuesta nada. Y la oferta no se ha perdido:
+      sigue en la pastilla flotante, que es su sitio.
    ========================================================================== */
 
 /** Los que pueden salir: escritos a mano y con cubierta dibujada.
@@ -93,7 +103,7 @@ export function LibroDelDia({
   onLeer,
   onEscuchar,
 }: {
-  /** Sin suscripción no hay libro del día. Ver la cabecera. */
+  /** Cambia el rótulo y el pie, no si la tarjeta sale. Ver la cabecera. */
   suscrito?: boolean;
   guardado?: boolean;
   onGuardar?: (libro: Libro) => void;
@@ -118,7 +128,12 @@ export function LibroDelDia({
     return () => clearTimeout(t);
   }, [aviso]);
 
-  if (!libro || !suscrito) return null;
+  if (!libro) return null;
+
+  /* El único interruptor de la tarjeta. Se guarda en una variable con nombre
+     porque lo consultan el rótulo, el botón y el pie, y `!suscrito` repetido
+     tres veces se lee peor que esto. */
+  const libre = !suscrito;
 
   const minLeer = libro.minutos;
   const minOir = minutosDeLibro(libro);
@@ -126,11 +141,12 @@ export function LibroDelDia({
   return (
     <motion.section
       className="hoy"
+      data-libre={libre ? "true" : "false"}
       style={{ ["--acento" as string]: libro.color }}
       initial={{ opacity: 0, y: 18 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ ...spring, delay: 0.08 }}
-      aria-label="El libro de hoy"
+      aria-label={libre ? "El libro gratis de hoy" : "El libro recomendado de hoy"}
     >
       {/* EL FONDO ES LA CUBIERTA, DESENFOCADA. Medido sobre la captura de
           Pablo y no supuesto: muestreando la tarjeta de Headway por su borde
@@ -147,8 +163,13 @@ export function LibroDelDia({
       )}
       <span className="hoy-velo" aria-hidden />
 
+      {/* Dos palabras y no cuatro. La ceja comparte renglón con el reloj, y
+          en un móvil de 360 el hueco que le queda da para unos quince
+          caracteres en versalita espaciada: «El libro recomendado de hoy» se
+          salía por la derecha. Lo que sobraba era «el libro de», que ya lo
+          dice la cubierta que hay debajo. */}
       <header className="hoy-ceja">
-        <span className="hoy-rotulo">El libro de hoy</span>
+        <span className="hoy-rotulo">{libre ? "Gratis hoy" : "Recomendado hoy"}</span>
         <span className="hoy-reloj">
           <GlyphReloj />
           {queda}
@@ -214,7 +235,7 @@ export function LibroDelDia({
       <div className="hoy-botones">
         <motion.button className="hoy-leer" type="button" whileTap={{ scale: 0.97 }} onClick={() => onLeer(libro)}>
           <GlyphLeer />
-          Leer
+          {libre ? "Leer gratis" : "Leer"}
         </motion.button>
         {onEscuchar && (
           <motion.button
@@ -228,6 +249,25 @@ export function LibroDelDia({
           </motion.button>
         )}
       </div>
+
+      {/* Y la condición, debajo de los botones y solo para quien no paga.
+          Aquí sí cabe una frase entera, que es lo que le faltaba a la ceja.
+          Dice las dos cosas que hay que saber y ninguna más: que es el libro
+          entero y no una muestra —que es lo primero que sospecha cualquiera
+          al leer «gratis»—, y que se acaba hoy. Nada de «oferta limitada»: el
+          plazo es la medianoche y el reloj de arriba la está contando.
+
+          Cabe en un renglón de 390 en adelante. En un móvil de 360 no, y por
+          eso las dos frases van en dos piezas que no se parten por dentro: si
+          hay que bajar a dos líneas, se baja por el punto y no por «un /
+          adelanto». Con la frase suelta se rompía por la preposición, y una
+          línea rota así en el pie de una tarjeta centrada se ve antes que se
+          lee. */}
+      {libre && (
+        <p className="hoy-pie">
+          <span>Entero, no un adelanto.</span> <span>Mañana toca otro.</span>
+        </p>
+      )}
 
       {/* El aviso entra desde arriba, dentro de la tarjeta, y se va solo. */}
       <AnimatePresence>
