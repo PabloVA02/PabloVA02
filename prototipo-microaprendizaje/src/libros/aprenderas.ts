@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "side-hustle":
+    "Guillebeau recopiló más de mil quinientos negocios montados casi sin capital, con una inversión mediana de unos seiscientos dólares. Aquí convierte aquello en un plan de veintisiete días para alguien que tiene un empleo.",
+
   "chingona-dinero":
     "Sincero pasó de los cuarenta viviendo en un garaje reconvertido y cobrando poco por escribir. Sostiene que lo primero que cambió no fueron sus clientes, sino lo que ella creía sobre el dinero desde niña.",
 

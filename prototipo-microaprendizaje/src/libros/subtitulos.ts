@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "side-hustle": "Crea un negocio propio sin dejar tu trabajo",
   "chingona-dinero": "Domina la mentalidad de la riqueza",
   "poder-sin-limites": "La nueva ciencia del desarrollo personal",
   "retirate-joven-rico": "Cómo hacerse rico rápidamente y para siempre",

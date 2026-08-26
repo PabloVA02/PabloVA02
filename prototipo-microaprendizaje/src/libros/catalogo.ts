@@ -405,7 +405,7 @@ export const CATALOGO: Ficha[] = [
   { id: "cuadrante-flujo", titulo: "El cuadrante del flujo de dinero", autor: "Robert Kiyosaki", ano: 1998, categoria: "Economía", estado: "escrito" },
   { id: "bolsa-o-vida", titulo: "La bolsa o la vida", autor: "Robin y Dominguez", ano: 1992, categoria: "Economía", estado: "escrito" },
   { id: "ensenare-ser-rico", titulo: "Te enseñaré a ser rico", autor: "Ramit Sethi", ano: 2009, categoria: "Economía", estado: "escrito" },
-  { id: "side-hustle", titulo: "Side Hustle", autor: "Chris Guillebeau", ano: 2017, categoria: "Economía", estado: "pendiente" },
+  { id: "side-hustle", titulo: "Side Hustle", autor: "Chris Guillebeau", ano: 2017, categoria: "Economía", estado: "escrito" },
   { id: "maestro-dinero", titulo: "Maestro del dinero: el juego", autor: "Tony Robbins", ano: 2014, categoria: "Economía", estado: "escrito" },
   { id: "chingona-dinero", titulo: "Eres un chingón haciendo dinero", autor: "Jen Sincero", ano: 2017, categoria: "Economía", estado: "escrito" },
   { id: "vacas-sagradas", titulo: "Matar a las vacas sagradas", autor: "Garrett B. Gunderson", ano: 2008, categoria: "Economía", estado: "pendiente" },

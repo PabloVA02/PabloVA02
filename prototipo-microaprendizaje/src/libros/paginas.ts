@@ -93193,7 +93193,286 @@ const CHINGONA_DINERO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Side Hustle, de Chris Guillebeau (2017), en ocho páginas.
+
+   Economía y libro práctico: registro de tú, y en cada página una persona,
+   una fecha y una cifra. Su subtítulo es de los que promete —«crea un
+   negocio propio sin dejar tu trabajo»—, y por eso la conclusión tiene que
+   poner lo que el libro da por hecho y en España no lo es: el alta de
+   autónomo, la cuota por ingresos reales desde enero de 2023 y las
+   cláusulas del contrato de trabajo.
+   -------------------------------------------------------------------------- */
+
+const SIDE_HUSTLE: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Guillebeau sostiene que un ingreso propio no exige dejar el empleo ni pedir dinero a nadie",
+      },
+      {
+        b: "texto",
+        texto:
+          "Casi todo el que quiere ganar algo por su cuenta cree que hay dos opciones: aguantar el empleo o dejarlo y montar una empresa. Guillebeau parte de que hay una tercera que casi nadie considera en serio, y es construir algo pequeño que produzca dinero mientras se sigue cobrando la nómina, sin inversores, sin local y sin dejar de dormir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo dice con alguna autoridad. En su libro anterior, publicado en 2012, había recopilado más de mil quinientos casos de negocios montados casi sin capital, y la inversión inicial mediana de aquella muestra fue de unos seiscientos dólares. No eran startups tecnológicas: eran gente vendiendo cosas concretas a gente concreta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Este libro salió en 2017 y es el manual de instrucciones de aquello. Está montado como un plan de veintisiete días repartidos en cinco semanas: una para reunir ideas, otra para elegir la mejor, otra para preparar el lanzamiento, otra para lanzar y la última para medir qué ha pasado y decidir si se sigue.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que viene recorre lo que de verdad decide el resultado: en qué se diferencia esto de un segundo empleo, cómo se comparan varias ideas en lugar de enamorarse de una, a quién hay que venderle, por qué se cobra desde el primer día, por qué se lanza antes de estar listo, y qué da por hecho el libro que aquí no se puede dar por hecho.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un ingreso propio no empieza cuando dejas el trabajo. Empieza el día que alguien que no te conoce te paga por algo, aunque sean cuarenta euros.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un segundo empleo y un negocio paralelo se parecen mucho hasta que dejas de dedicarles horas",
+      },
+      {
+        b: "texto",
+        texto:
+          "La distinción con la que abre el libro es la que más cambia las decisiones posteriores. Un segundo empleo cambia más horas por más dinero: repartir comida los sábados, dar clases particulares por la tarde. Un negocio paralelo construye algo que puede seguir vendiéndose sin que estés delante, aunque al principio dé menos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba para distinguirlos es de una sola pregunta: si te pones enfermo dos semanas, ¿sigue entrando dinero? En un segundo empleo, no. En un curso grabado, una plantilla que se descarga, un producto en una tienda con envío automatizado o una suscripción, sí, aunque sea poco. Esa diferencia no se nota el primer mes y lo decide todo al segundo año.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Guillebeau tampoco lo confunde con montar una empresa, y esa segunda distinción es igual de útil. Una empresa emergente busca inversores, crecer rápido y venderse; un negocio paralelo busca ingresos desde el principio y no necesita convencer a nadie más que a sus clientes. Muchísima gente descarta la tercera opción porque solo conoce las otras dos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la advertencia sobre el error más común al empezar, que es elegir lo que se le da bien a uno en lugar de lo que se puede vender. Saber tocar la guitarra no es un negocio; enseñar a tocarla a padres que quieren regalarle clases a su hijo antes de Navidad, sí. Lo primero es una capacidad y lo segundo es una transacción.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si te pones enfermo dos semanas y deja de entrar dinero, no tienes un negocio: tienes un segundo empleo con peor horario.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una idea no vale nada sola: solo vale comparada con otras tres" },
+      {
+        b: "texto",
+        texto:
+          "La primera semana del plan consiste en reunir muchas ideas sin juzgarlas, y la segunda en compararlas con criterios. Guillebeau insiste en que el problema de casi todo el mundo no es que no tenga ideas, es que tiene una sola y se ha enamorado de ella, así que no puede evaluarla porque no tiene con qué compararla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los tres criterios que propone son sencillos y se puntúan del uno al cinco. El primero es si es factible: si puedes tenerlo listo en semanas y no en años. El segundo es si da dinero: cuánto queda después de restar lo que cuesta hacerlo. Y el tercero, el que más gente se salta, es si puedes convencer a alguien de comprarlo rápido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese tercero es el que descarta la mayoría de las ideas buenas. Un producto puede ser factible y rentable y aun así requerir explicarle al comprador que tiene un problema, y eso cuesta años y dinero. Las ideas que funcionan en paralelo son las que se entienden en una frase por alguien que ya sabe que le pasa eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle práctico que ahorra meses: puntuar tres o cuatro ideas a la vez en una tabla y quedarse con la de más puntos, aunque no sea la que más ilusión hacía. Guillebeau lo dice sin rodeos: la idea que emociona y la idea que se vende coinciden pocas veces, y hay que elegir la segunda para poder financiar la primera algún día.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Puntúa tres ideas en la misma tabla antes de empezar ninguna. Con una sola idea sobre la mesa no estás decidiendo: estás justificando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Se le vende a quien ya está gastando dinero en ese problema, no a quien debería gastarlo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El consejo que más repite el libro es que no hay que crear un mercado. Convencer a gente de que necesita algo que no sabía que necesitaba es carísimo y lento, y es exactamente lo que hacen las empresas con dinero para quemar. Un negocio paralelo no tiene ese dinero ni ese tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí funciona es buscar dónde ya se está pagando y ofrecer algo mejor, más rápido o más barato en ese mismo sitio. Si hay gente comprando cursos de repostería, plantillas de contabilidad o collares de perro personalizados, la pregunta ya está contestada: existe el problema, existe el presupuesto y existe la costumbre de pagar por resolverlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la comprobación previa que recomienda hacer antes de fabricar nada, y que se hace en una tarde. Buscar el producto que quieres vender, ver quién lo vende ya, mirar cuántas valoraciones tiene y de qué se quejan esas valoraciones. Las quejas repetidas son la descripción de tu producto, escrita por tus futuros clientes y gratis.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro añade una regla que evita el error contrario, el de copiar sin más. Hay que ofrecer una diferencia que el comprador pueda ver en la ficha del producto, no una que haya que explicar: un plazo de entrega, un tamaño que no existe, un idioma, una garantía. Una mejora invisible no es una mejora, porque nadie la comparará.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de fabricar nada, lee las quejas de los que ya venden eso. Ahí está escrito tu producto, con las palabras del que va a comprarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Se cobra desde el primer cliente, y casi siempre por debajo de lo que se debería",
+      },
+      {
+        b: "texto",
+        texto:
+          "Guillebeau se opone a la costumbre de empezar regalando el trabajo para hacerse un nombre. Su argumento no es moral, es informativo: mientras nadie pague, no se sabe nada. Cien personas que se descargan algo gratis no dicen si el producto vale; una sola que paga veinte euros lo dice con más claridad que cualquier encuesta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre el precio, su regla es que si dudas entre dos cifras, elijas la más alta. La razón es doble. La primera es aritmética: cobrar treinta en vez de veinte sube el ingreso un cincuenta por ciento sin trabajar más. La segunda es que un precio bajo atrae al cliente que más discute, más pide y más tarde paga, y eso también cuesta dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro avisa además contra el descuento de lanzamiento, que parece inofensivo. Quien compra por un cincuenta por ciento de descuento espera el siguiente descuento, y el precio real queda fijado en la cabeza del comprador en la cifra rebajada. Es mucho más fácil empezar caro y hacer una oferta puntual que empezar barato y subir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una prueba concreta que propone para el primer mes: intentar cobrar antes de tener el producto terminado. Vender cinco plazas de un curso que empieza dentro de tres semanas obliga a hacerlo y confirma que existe demanda. Si no se venden las cinco, se ha ahorrado el trabajo de grabarlo, que era la parte cara.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un cliente que paga veinte euros te da más información que cien que se lo descargan gratis. Regalarlo no es una prueba: es aplazar la prueba.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Se lanza sin estar listo, porque lo que falta por saber solo lo enseña un comprador",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cuarta semana del plan es lanzar, y el libro es tajante en que se lanza con lo que haya. La razón que da no es de motivación: es que la mayor parte de lo que hay que arreglar en un producto no se puede adivinar antes de venderlo, porque tiene que ver con lo que la gente entiende mal, no con lo que está mal hecho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Guillebeau lo resume con una frase que repite: el dinero prefiere la velocidad. Y le pone una condición razonable, que es limitar el daño de equivocarse. Un lanzamiento pequeño, a pocas personas, con una inversión de cien o doscientos euros, permite fallar sin consecuencias y aprender lo mismo que un lanzamiento grande.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El obstáculo real no es técnico y el libro lo nombra bien: es que lanzar significa que alguien conocido puede verlo y no comprarlo. Casi toda la preparación interminable —otro retoque a la web, otra versión del logotipo— es una manera educada de aplazar ese momento, y es el motivo por el que la mayoría de los proyectos no llegan a existir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La quinta semana es la que casi nadie hace y la que más vale. Consiste en mirar los números del primer mes con frialdad: cuánta gente vio la oferta, cuánta compró, cuánto quedó después de gastos y cuántas horas costó. Con esas cuatro cifras se decide si se insiste, si se cambia el precio o si se abandona sin drama.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que le falta a tu producto no lo sabes tú: lo sabe el primero que intente comprarlo y no entienda algo. Hasta entonces estás adivinando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro da por hecho un entorno legal y fiscal que no es el de un lector español",
+      },
+      {
+        b: "texto",
+        texto:
+          "Todos los casos del libro son estadounidenses, y allí empezar a facturar poco dinero por tu cuenta es administrativamente ligero: se declara al final del año y no hay una cuota fija por existir. Sobre esa base se sostiene su promesa de probar una idea sin riesgo, y esa base aquí no está.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En España, una actividad económica habitual obliga a darse de alta como autónomo, y eso tiene un coste mensual aunque el negocio no venda nada. Desde el 1 de enero de 2023 la cuota se calcula por tramos según los rendimientos netos, con una tarifa reducida el primer año, lo que abarató el arranque pero no lo hizo gratuito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una cuestión que el libro no menciona y que a un asalariado le puede costar el empleo: lo que ponga en su contrato. Las cláusulas de exclusividad, de no competencia y de propiedad de lo creado durante la relación laboral existen y se aplican, y un negocio paralelo en el mismo sector que el trabajo principal es el caso donde más problemas dan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nada de esto invalida el método, pero cambia el orden de los pasos. Antes de la primera semana de ideas hay una semana cero: leer el contrato propio, mirar qué implica facturar y calcular a partir de qué ingreso mensual compensa el alta. Es aburrido y evita descubrirlo cuando ya hay clientes esperando factura.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lee tu contrato de trabajo antes que este libro. La cláusula que decide si puedes hacerlo cabe en dos líneas y llevas años sin mirarla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene tres cosas que se aguantan: que un ingreso propio se distingue de un segundo empleo por si sigue entrando cuando paras, que una idea sola no se puede evaluar y hay que puntuar varias a la vez, y que se le vende a quien ya está gastando dinero en ese problema y no a quien debería gastarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su aportación es el tamaño. Frente a los manuales que hablan de fundar empresas, este está escrito para alguien con un empleo, dos horas libres al día y trescientos euros, y no le pide que arriesgue nada más que eso. Ese encuadre es honrado y explica que funcionara con lectores que jamás se habrían leído un libro de emprendimiento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Puntúa tres ideas, elige la que más se pueda vender, cóbrala desde el primer cliente y mira los números del primer mes. Ese es el libro entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Está construido enteramente sobre casos que salieron bien, y de los que no salieron no hay ni un capítulo, así que no se puede saber qué proporción de la gente que sigue el plan consigue algo. Los veintisiete días son un envoltorio de venta: varios de los negocios que describe tardaron años en dar dinero. Y da por hecho un entorno legal y fiscal que no es el de aquí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después le dio la razón en la dirección y se la quitó en el tono. El trabajo por cuenta propia a tiempo parcial dejó de ser una rareza y se volvió masivo, sobre todo a través de plataformas, y con él llegaron los problemas que el libro no anticipa. En España, el Real Decreto-ley 9/2021, conocido como ley rider, presumió la relación laboral de los repartidores de plataformas digitales, y la reforma que entró en vigor el 1 de enero de 2023 cambió la cuota de autónomos a un sistema por ingresos reales. Lo que en 2017 se contaba como una aventura personal es hoy un asunto regulado, y eso es una buena noticia para quien lo intente.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "side-hustle": SIDE_HUSTLE,
   "chingona-dinero": CHINGONA_DINERO,
   "poder-sin-limites": PODER_SIN_LIMITES,
   "retirate-joven-rico": RETIRATE_JOVEN_RICO,

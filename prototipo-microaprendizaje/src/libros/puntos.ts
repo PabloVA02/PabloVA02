@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "side-hustle": [
+    "qué distingue un negocio propio de un segundo empleo peor pagado",
+    "cómo se comparan varias ideas en vez de enamorarse de una",
+    "por qué se le vende a quien ya gasta dinero en ese problema",
+    "que un cliente que paga informa más que cien que se lo descargan",
+    "lo que hay que mirar en tu contrato antes de empezar a facturar",
+  ],
+
   "chingona-dinero": [
     "qué creencias sobre el dinero se heredan sin llegar a examinarse nunca",
     "por qué un deseo sin cifra ni fecha no cambia ninguna conducta",
