@@ -191,7 +191,7 @@ export const CATALOGO: Ficha[] = [
   { id: "el-elemento", titulo: "El elemento", autor: "Ken Robinson", ano: 2009, categoria: "Arte", estado: "escrito" },
 
   { id: "will-smith", titulo: "Will", autor: "Will Smith y Mark Manson", ano: 2021, categoria: "Arte", estado: "escrito" },
-  { id: "just-kids", titulo: "Éramos unos niños", autor: "Patti Smith", ano: 2010, categoria: "Arte", estado: "pendiente" },
+  { id: "just-kids", titulo: "Éramos unos niños", autor: "Patti Smith", ano: 2010, categoria: "Arte", estado: "escrito" },
   { id: "confesiones-chef", titulo: "Confesiones de un chef", autor: "Anthony Bourdain", ano: 2000, categoria: "Arte", estado: "escrito" },
   { id: "frida-herrera", titulo: "Frida", autor: "Hayden Herrera", ano: 1983, categoria: "Arte", estado: "escrito" },
   { id: "bauhaus", titulo: "La Bauhaus", autor: "Magdalena Droste", ano: 1990, categoria: "Arte", estado: "pendiente" },

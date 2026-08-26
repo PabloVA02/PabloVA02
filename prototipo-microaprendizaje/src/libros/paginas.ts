@@ -98169,7 +98169,284 @@ const CUATRO_PILARES_INVERSION: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Éramos unos niños, de Patti Smith (2010), en ocho páginas.
+
+   Memoria personal, así que el registro narrativo del apartado 3 bis:
+   titulares cortos de imagen y la afirmación en la primera frase. Las
+   cajas hablan al lector.
+
+   La séptima página dice lo que el libro romantiza —una ciudad que era
+   barata porque estaba arruinada y era peligrosa— y la conclusión pone lo
+   que vino después de la muerte de Mapplethorpe, que fue un juicio por
+   obscenidad y una guerra cultural.
+   -------------------------------------------------------------------------- */
+
+const JUST_KIDS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El chico que la rescató" },
+      {
+        b: "texto",
+        texto:
+          "El libro que mejor cuenta cómo se hace un artista empieza con una cena incómoda. En el verano de 1967, Patti Smith, recién llegada a Nueva York con veinte años y sin dinero, había aceptado cenar con un desconocido para que le pagara la comida, y estaba deseando marcharse. Un chico que trabajaba allí se acercó y fingió ser su novio para sacarla de allí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquel chico era Robert Mapplethorpe, tenía la misma edad que ella y estaba igual de arruinado. A partir de ese día vivieron juntos varios años, primero como pareja y después como algo más difícil de nombrar, y sostuvieron el uno la carrera del otro hasta que él murió de sida en 1989, con cuarenta y dos años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ella le prometió en el hospital que escribiría su historia. Tardó veintiún años en hacerlo, y el resultado se publicó en 2010. El título viene de una escena en la plaza de Washington: una señora mayor quiso fotografiarlos porque parecían artistas, y su marido le dijo que los dejara, que no eran más que unos críos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que casi nadie cuenta de aquella época: cómo se repartían un bocadillo, qué era el hotel Chelsea, qué le dijo Jimi Hendrix en una escalera, cómo un chico que hacía collares acabó siendo fotógrafo, qué pasó el 10 de febrero de 1971 y por qué aquella ciudad barata no volverá a existir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie se sostiene solo al principio. Busca a la persona con la que puedas ser malo durante tres años sin que deje de creer en lo que haces.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un bocadillo para dos" },
+      {
+        b: "texto",
+        texto:
+          "La parte del libro que más se recuerda es la del hambre, y está contada sin dramatismo. Durante meses vivieron con lo que ella ganaba en una librería, comían una vez al día y calculaban si les llegaba para dos billetes de metro o para un bocadillo. Cuando solo alcanzaba para uno, se lo repartían.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Había un pacto entre ellos que ordenaba todo lo demás: uno de los dos trabajaba y el otro producía. Se turnaban según hiciera falta, sin discutirlo cada vez, y quien traía el dinero no adquiría por ello ningún derecho sobre lo que hacía el otro. Ese acuerdo, más que el talento, es lo que les permitió aguantar los años en que no pasaba nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una escena que resume el tono del libro entero. En una cafetería automática le faltaban diez centavos para un bocadillo y un desconocido barbudo se los puso. Charlaron un rato hasta que él se dio cuenta de que ella era una chica y le dijo que se había equivocado, que la había tomado por un muchacho muy guapo. Era Allen Ginsberg.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ella le preguntó si eso significaba que tenía que devolverle el bocadillo. Años después él le contaría a un amigo que así fue como conoció a Patti Smith, alimentándola por error. El libro está lleno de encuentros como ese y ninguno se presenta como una señal del destino: son cosas que pasan cuando se vive en el sitio donde está pasando todo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El acuerdo de que uno trabaja y el otro produce, y de que eso no da derechos, sostiene más carreras que cualquier talento. Y hay que hablarlo antes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El hotel Chelsea" },
+      {
+        b: "texto",
+        texto:
+          "En 1969 consiguieron entrar en el hotel Chelsea, en la calle Veintitrés, y aquello cambió lo que les podía pasar. El hotel llevaba décadas alojando a escritores y músicos sin dinero, y su gerente aceptaba obra como pago o dejaba correr la deuda si le parecía que el inquilino iba a llegar a algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su primera habitación, la 1017, era la más pequeña del edificio y apenas cabía una cama. Lo que importaba estaba fuera: en el vestíbulo, en el ascensor y en el bar de al lado había en cualquier momento poetas, cineastas, músicos y coleccionistas, y todos ellos veían entrar y salir a dos chicos de veintitrés años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Patti Smith describe eso sin llamarlo de ninguna manera técnica, pero lo que describe es un mecanismo concreto: la proximidad física con gente que ya está dentro de un oficio hace que ese oficio deje de parecer inaccesible. No aprendió a escribir en el Chelsea; aprendió que la gente que escribía era gente, y eso es una información distinta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hotel funcionaba además como un sistema de crédito informal en un sector donde nadie tiene aval. Alguien te presentaba a alguien, ese alguien te dejaba un instrumento o te compraba un dibujo, y así se cruzaba el tramo en el que un artista no vale todavía nada. Sin ese tramo cubierto, casi ninguna carrera empieza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hotel tenía además una regla no escrita que ella subraya: allí nadie preguntaba qué habías hecho, sino en qué estabas trabajando. Presentarse por el proyecto en curso y no por el currículo cambia quién puede participar en una conversación, y esa diferencia le permitió a una dependienta de librería sentarse con cualquiera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Estar cerca de quien ya hace lo que quieres hacer no te enseña a hacerlo. Te enseña que se puede, que es lo que casi siempre falta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La escalera de Hendrix" },
+      {
+        b: "texto",
+        texto:
+          "En agosto de 1970 la invitaron a la fiesta de inauguración de un estudio de grabación en el Village. No se atrevió a entrar y se quedó sentada en la escalera de la entrada. Al rato se sentó a su lado el hombre que pagaba la fiesta, que también estaba incómodo: era Jimi Hendrix, y también prefería no entrar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estuvieron hablando un rato y él le contó lo que quería hacer a continuación. Su idea era reunir músicos de todo el mundo en aquel estudio y dejarlos tocar hasta que se entendieran, para construir con eso una especie de lengua común hecha de música. No llegó a intentarlo: murió unas semanas después, en septiembre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace el libro con esos encuentros es lo contrario de lo que haría cualquier autobiografía corriente. No los usa para acreditarse: los cuenta como escenas menores, en las que ella es una chica tímida sentada en un escalón, y por eso resultan creíbles cuando en otro libro serían insoportables.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquel verano y el siguiente vio de cerca a Janis Joplin llorando por un chico en el bar del Chelsea, a William Burroughs en su mesa de siempre y a la gente de Warhol en la trastienda de un local de la calle Diecisiete. Casi todos ellos eran famosos y estaban solos, y esa combinación es una de las cosas que ella dice haber aprendido allí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ella misma señala la lección que sacó de aquella conversación en la escalera. Hendrix no le habló de lo que había hecho ni de lo que era: le contó lo siguiente que quería intentar, como si nada estuviera terminado. Semanas después estaba muerto, y el proyecto se quedó donde estaba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La gente que admiras está más disponible de lo que crees, y suele estar en la escalera porque tampoco quiere entrar en la fiesta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cuando él cogió la cámara" },
+      {
+        b: "texto",
+        texto:
+          "Robert Mapplethorpe no empezó siendo fotógrafo. Durante años hizo collares, dibujos y collages con recortes de revistas, y usaba fotografías ajenas porque no podía permitirse una cámara. La compra de una cámara instantánea a principios de los setenta cambió eso, y con ella empezó a fotografiar lo que tenía delante, que era casi siempre ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El paso decisivo no fue técnico sino económico, y el libro lo cuenta sin adornarlo. En 1972 conoció a Sam Wagstaff, un comisario de museo y coleccionista veinticinco años mayor que él, que se convirtió en su pareja y en su mecenas: le compró una cámara profesional y un estudio, y le abrió las puertas del mundo del arte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es uno de los momentos más honrados del libro, porque Patti Smith no finge que el talento bastara. Cuenta que aquello los separó, que ella se quedó fuera de ese mundo durante un tiempo, y que la relación entre los dos tuvo que reconstruirse sobre otra base cuando él dejó de necesitarla para sobrevivir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que quedó de aquellos años es también material: las fotografías que él le hizo. La portada del primer disco de ella, publicado en 1975, es una de ellas, y se ha convertido en una de las imágenes más reconocibles de la música del siglo veinte. La hicieron en el apartamento de una amiga, con luz natural y sin presupuesto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El talento explica menos de lo que parece. En casi todas las carreras hay alguien que puso el dinero, y contarlo no le quita mérito a nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Diez de febrero de 1971" },
+      {
+        b: "texto",
+        texto:
+          "Ella no quería ser cantante: quería ser poeta, y llevaba años escribiendo sin enseñárselo a casi nadie. El 10 de febrero de 1971 leyó sus poemas en público por primera vez, en una iglesia del East Village que organizaba recitales, y decidió hacer algo que en un recital de poesía no se hacía: llevarse a un guitarrista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El guitarrista era Lenny Kaye, al que había conocido en una tienda de discos, y estuvo tocando detrás de ella mientras leía. Aquella mezcla, que nació de querer que la escucharan y no de ninguna teoría, es el origen de lo que hizo después, y Kaye siguió tocando con ella durante los cincuenta años siguientes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante para cualquiera que quiera hacer algo es cómo llegó ahí. No hubo un plan de carrera ni un cambio de vocación: hubo una manera de leer poemas que a la gente le pareció otra cosa, y ella siguió tirando de eso. La transición de poeta a música duró cuatro años y ninguno de los pasos estaba previsto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robert estuvo en aquella lectura y se ocupó de que fuera gente. El libro insiste en ese papel suyo, que no era artístico: durante años se encargó de que las cosas de ella ocurrieran, avisaba a quien había que avisar y la empujaba a enseñar lo que hacía cuando ella prefería guardarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una decisión práctica que explica bastante de lo que vino después. Ella no esperó a tener un repertorio, ni un grupo, ni un disco: aceptó leer en una iglesia una noche de febrero con lo que tenía escrito, delante de cuarenta personas. La forma se le ocurrió preparando esa noche concreta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie llega donde quería por el camino que había planeado. Se llega tirando de la cosa rara que a alguien le llamó la atención.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La ciudad que ya no existe" },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir una cosa que el libro no dice, porque cambia lo que se puede sacar de él. La Nueva York en la que dos chicos sin oficio podían vivir con lo que ganaba uno en una librería era barata por un motivo concreto: la ciudad estaba arruinada, medio vacía y era peligrosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En aquellos años la ciudad perdía población, los edificios se abandonaban, la delincuencia estaba en máximos históricos y en 1975 el ayuntamiento estuvo al borde de la quiebra. Los alquileres del bajo Manhattan eran ridículos porque nadie quería vivir allí, y por eso los ocuparon artistas sin dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta el hambre y el frío con una belleza que corre el riesgo de convertir la miseria en una estética, y ese es el reproche más frecuente que se le hace. Leído hoy, un lector joven puede sacar la idea de que la pobreza forma parte del oficio, cuando lo que ocurría es que había un alquiler asumible dentro de esa pobreza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y esa condición desapareció. En las ciudades donde hoy pasa algo, el alquiler se lleva la mayor parte de un sueldo, así que el tramo en el que un artista no vale todavía nada hay que financiarlo de otra manera. Eso no invalida el libro; obliga a leerlo como un testimonio de unas condiciones concretas y no como un manual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una manera de leerlo que sí sirve, y es fijarse en lo que no dependía del alquiler: el pacto entre los dos, la costumbre de enseñar el trabajo antes de considerarlo terminado y la disciplina de producir todos los días sin que nadie lo pidiera. Eso se puede reproducir en cualquier ciudad y en cualquier año.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Aquella pobreza venía con un alquiler asumible. Copiar la pobreza sin esa condición no reproduce nada: solo produce pobreza.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta veintidós años de una relación entre dos personas que se hicieron artistas sosteniéndose mutuamente, y su hallazgo es contar la parte que nunca se cuenta: los años largos en los que no pasa nada, en los que no hay obra ni reconocimiento y en los que lo único que hay es alguien que sigue creyendo que aquello va a alguna parte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a cualquier biografía de artista es la ausencia de épica. No hay revelación, ni genio precoz, ni momento en que todo cambia: hay una librería, una habitación de hotel diminuta, un bocadillo a medias y una promesa hecha en un hospital que tardó veintiún años en cumplirse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que sostiene una carrera durante los años en que no pasa nada no es la disciplina. Suele ser una persona concreta que sigue mirando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es una elegía escrita dos décadas después y protege a su protagonista: las fotografías más duras de Mapplethorpe, las drogas y los años en que se prostituyó aparecen mencionados y a distancia, y quien busque al Robert difícil tiene que ir a la biografía que le escribió Patricia Morrisroe en 1995. Y el sida, que se lleva a Robert en la última parte, aparece como una desgracia personal y casi no como lo que fue: una epidemia que mató a una generación entera de su oficio mientras las autoridades miraban a otro lado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después de su muerte fue una batalla que él no llegó a ver. Meses después de morir, en 1989, una galería de Washington canceló su exposición retrospectiva por presión política, y en 1990 el director de un centro de arte de Cincinnati fue procesado por obscenidad por exhibir sus fotografías. Lo absolvieron, y aquel juicio se convirtió en el episodio central de la guerra cultural estadounidense sobre la financiación pública del arte. Este libro, que es un relato de amor y de hambre, ganó en 2010 el National Book Award.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "just-kids": JUST_KIDS,
   "cuatro-pilares-inversion": CUATRO_PILARES_INVERSION,
   "cientifico-espacial": CIENTIFICO_ESPACIAL,
   "caos-gleick": CAOS_GLEICK,

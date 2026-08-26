@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "just-kids":
+    "Patti Smith le prometió a Robert Mapplethorpe en su lecho de muerte que contaría su historia, y tardó veintiún años. Es el relato de los años largos en los que dos artistas no eran todavía nadie.",
+
   "cuatro-pilares-inversion":
     "Un estudio con sesenta y seis mil hogares encontró que el quinto que más operaba ganó un once por ciento anual frente al dieciocho del mercado. Bernstein organiza en cuatro bloques todo lo que un ahorrador necesita saber.",
 

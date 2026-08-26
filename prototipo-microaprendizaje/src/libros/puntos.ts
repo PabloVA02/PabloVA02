@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "just-kids": [
+    "qué acuerdo permite que dos personas se sostengan durante años sin obra",
+    "por qué estar cerca de quien ya lo hace enseña que se puede",
+    "que en casi todas las carreras hay alguien que puso el dinero",
+    "cómo se llega a un oficio tirando de algo que no estaba planeado",
+    "qué condición hacía posible aquella pobreza y hoy no existe",
+  ],
+
   "cuatro-pilares-inversion": [
     "por qué no existe un rendimiento alto sin riesgo alto",
     "cómo se estima lo que rentará una bolsa a treinta años",
