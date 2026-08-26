@@ -82,7 +82,7 @@ export const PUNTOS: Record<string, string[]> = {
   "ladrona-libros": [
     "qué se lee cuando el narrador ya te ha dicho quién va a morir",
     "cuánto tarda en cobrarse una promesa dada en una trinchera",
-    "qué hacen las palabras en este libro, que es lo mismo en los dos sentidos",
+    "por qué las palabras hacen aquí las dos cosas a la vez",
     "en qué consiste resistir cuando nadie puede hacer nada heroico",
     "qué se ve y qué queda fuera contándolo desde una casa alemana",
   ],
