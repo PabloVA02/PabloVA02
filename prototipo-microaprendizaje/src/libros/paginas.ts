@@ -97597,7 +97597,301 @@ const CAOS_GLEICK: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Piensa como un científico espacial, de Ozan Varol (2020), en ocho
+   páginas.
+
+   Libro práctico, registro de tú: apartado 4.7.
+
+   La sexta página desmonta la anécdota famosa del libro —«el fracaso no es
+   una opción», que es una frase de guionista y no de la sala de control—,
+   según el apartado 4 bis. Y la conclusión pone el marcador: qué ha hecho
+   desde 2020 la industria que el libro pone de ejemplo.
+   -------------------------------------------------------------------------- */
+
+const CIENTIFICO_ESPACIAL: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Varol sostiene que lo que hace especiales a los ingenieros espaciales es cómo deciden sin estar seguros",
+      },
+      {
+        b: "texto",
+        texto:
+          "Enviar un aparato a Marte obliga a resolver un problema que casi ningún oficio tiene: hay que decidirlo todo con años de antelación, sin poder probar en el sitio real, y sin posibilidad de arreglar nada después. La señal tarda minutos en llegar, así que ni siquiera se puede pilotar en directo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ozan Varol trabajó siendo estudiante en el equipo de operaciones de los vehículos que la NASA envió a Marte en 2003, los llamados Spirit y Opportunity, y después dejó la ingeniería para hacerse profesor de derecho. Este libro, de 2020, intenta extraer de aquel oficio los procedimientos que sirven fuera de él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que el rasgo distintivo de ese trabajo no es la inteligencia ni las matemáticas, sino una manera de tratar la incertidumbre: se parte de que no se sabe, se buscan a propósito las maneras en que el plan puede fallar, y se prueba en las condiciones reales antes de comprometerse con nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo aprovechable y lo que no: qué es razonar desde los principios, por qué a veces es más fácil mejorar diez veces que un diez por ciento, qué pasó con el espejo del Hubble, cómo una anomalía se vuelve normal hasta que mata a alguien, de dónde sale la frase más citada del programa espacial y qué hacer antes de empezar algo importante.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El oficio no consiste en estar seguro, consiste en decidir bien sabiendo que no lo estás. Son dos habilidades distintas y solo una se enseña.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Razonar desde los principios es empezar por lo que sabes que es verdad, no por lo que se hace normalmente",
+      },
+      {
+        b: "texto",
+        texto:
+          "La mayoría de las decisiones se toman por analogía: se hace lo que se hizo la vez anterior, o lo que hace la competencia, con pequeñas variaciones. Es rápido y funciona mientras las circunstancias no cambien, y falla justo cuando han cambiado, que es cuando importa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El método alternativo consiste en descomponer el problema hasta llegar a lo que se sabe que es cierto y reconstruir desde ahí. El ejemplo que usa el libro es el de una empresa que, en lugar de aceptar el precio de mercado de un cohete, calculó cuánto costaban los materiales que lo componen y descubrió que eran una fracción minúscula del precio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese cálculo no dice cómo fabricar el cohete, pero cambia la pregunta: si el material cuesta el dos por ciento, el otro noventa y ocho es proceso, y el proceso se puede rediseñar. La analogía habría dicho que un cohete cuesta lo que cuesta un cohete, y esa respuesta cierra la conversación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aplicado a lo corriente, el método consiste en preguntarse qué parte de un problema es una ley y qué parte es una costumbre. Casi todo lo que parece imposible en una organización resulta ser lo segundo, y separar una cosa de otra es un ejercicio de una tarde que casi nadie hace porque nadie lo pide.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Separa lo que es una ley de lo que es una costumbre. Casi todo lo que te dicen que no se puede hacer está en el segundo grupo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Proponerse mejorar diez veces obliga a cambiar de método, y proponerse mejorar un diez por ciento no",
+      },
+      {
+        b: "texto",
+        texto:
+          "Varol defiende una idea contraintuitiva: los objetivos desmesurados pueden ser más fáciles que los razonables. Un objetivo de mejorar un diez por ciento se persigue apretando lo que ya se hace —trabajar más horas, recortar un poco, exigir un poco más—, y ese camino está lleno de gente y de rendimientos decrecientes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un objetivo de multiplicar por diez cierra esa vía desde el principio. Nadie mejora diez veces apretando, así que la única salida es cambiar el planteamiento entero, y ese cambio es el que a veces produce saltos grandes. Lo que hace difícil el objetivo pequeño es que permite seguir haciendo lo de siempre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo del libro está en cómo se posaron los primeros vehículos en Marte. Frenar un aparato con motores hasta dejarlo suave en el suelo era carísimo, así que se planteó otra cosa: envolverlo en globos hinchables, dejarlo caer, permitir que rebotara varias veces por la superficie y esperar a que se detuviera solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene ponerle el límite que el libro no pone. Esta idea funciona en problemas de ingeniería con un objetivo definido y recursos para intentarlo, y funciona muy mal aplicada a la vida de una persona, donde proponerse multiplicar por diez sin medios es la manera más eficaz de no empezar nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquella solución de los globos, además, era mucho más tolerante con los errores que la alternativa cara. Un aterrizaje con motores exige que todo funcione con precisión en una atmósfera que se conoce mal; un aparato que rebota puede caer torcido, dar veinte botes y aun así quedar en buen estado. Lo barato resultó ser también lo robusto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un objetivo modesto te deja seguir haciendo lo mismo un poco mejor. Uno desmesurado cierra esa puerta y obliga a cambiar el planteamiento.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El aparato con el que compruebas también puede estar mal, y entonces todas tus pruebas confirman el error",
+      },
+      {
+        b: "texto",
+        texto:
+          "El telescopio Hubble se puso en órbita en abril de 1990 y sus primeras imágenes salieron borrosas. Su espejo principal, de dos metros y medio, había sido pulido con una precisión extraordinaria hasta una forma que no era la correcta: el borde estaba unas dos micras más plano de lo debido, una diferencia menor que la centésima parte de un cabello.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La causa fue que el instrumento usado para verificar la forma del espejo estaba mal montado, con una pieza colocada un milímetro fuera de sitio. El espejo se pulió una y otra vez hasta coincidir exactamente con lo que aquel instrumento decía, y el instrumento decía algo equivocado con una precisión perfecta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo peor no fue el error, sino lo que ocurrió después. Otras dos comprobaciones más sencillas indicaron que algo no cuadraba, y se descartaron porque el instrumento principal era el bueno y aquellas eran secundarias. La discrepancia estaba delante y se explicó en lugar de investigarse. La reparación exigió una misión tripulada en diciembre de 1993.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la regla que el libro repite: hay que probar en las condiciones reales y hay que sospechar del propio sistema de comprobación cuando dos medidas no coinciden. Nueve años después, otra sonda de la NASA se perdió al llegar a Marte porque dos equipos habían usado unidades distintas, una en libras y otra en newtons, y aquello costó unos ciento veinticinco millones de dólares.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando dos comprobaciones no coinciden, la buena noticia está en la que descartas. Explicar una discrepancia en vez de investigarla es el error caro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una anomalía que no ha causado un accidente todavía acaba considerándose normal",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 28 de enero de 1986 el transbordador Challenger se desintegró setenta y tres segundos después del despegue y murieron sus siete tripulantes. La causa técnica fue el fallo de unas juntas de goma que sellaban las uniones del cohete acelerador, que perdieron elasticidad con el frío de aquella mañana, la más fría de todos los lanzamientos hasta entonces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace de este caso el mejor capítulo del libro no es la causa técnica, sino la organizativa. Aquellas juntas venían mostrando erosión en vuelos anteriores. Cada vez que ocurría y la misión terminaba bien, el daño se registraba, se aceptaba y se ampliaba el margen de lo tolerable. El éxito iba convirtiendo la anomalía en rutina.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La socióloga Diane Vaughan estudió aquel proceso y le puso un nombre que ha hecho fortuna: la normalización de la desviación. No hubo nadie que decidiera correr un riesgo; hubo muchas decisiones pequeñas, cada una razonable a la vista de la anterior, que fueron desplazando la frontera de lo aceptable sin que nadie la moviera a propósito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba de que la lección era organizativa llegó diecisiete años después. El 1 de febrero de 2003, el transbordador Columbia se destruyó al reentrar en la atmósfera, y el informe oficial concluyó que las causas de fondo eran las mismas: desprendimientos de espuma que llevaban años ocurriendo, que se habían registrado y que se habían aceptado porque nunca habían pasado a mayores.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando algo sale mal y no pasa nada, la próxima vez se tolera un poco más. Nadie decide asumir el riesgo: la frontera se mueve sola.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La frase más citada del programa espacial no la dijo nadie del programa espacial",
+      },
+      {
+        b: "texto",
+        texto:
+          "«El fracaso no es una opción» se cita constantemente como el lema de la sala de control de la NASA durante la crisis del Apolo 13 en 1970. Se usa en presentaciones de empresa, en carteles de oficina y en discursos de liderazgo, y suele presentarse como prueba de la actitud que salva misiones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nadie la dijo. La escribieron los guionistas de la película de 1995 sobre aquella misión, a partir de un comentario que les hizo uno de los controladores de vuelo al que entrevistaron, que contó que en aquella sala simplemente no se contemplaba perder a la tripulación. El director de vuelo la adoptó después como título de sus memorias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el problema no es que sea apócrifa, sino que como norma de trabajo es exactamente lo contrario de lo que hacía aquella organización. La NASA fracasó una y otra vez de forma deliberada y barata: los cohetes de prueba explotaban, los prototipos se destruían y los ensayos se diseñaban para encontrar el fallo antes de que hubiera alguien dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Varol propone distinguir dos clases de fallo, y la distinción es lo aprovechable del capítulo. Hay fallos que aportan información y son baratos, y hay que provocarlos cuanto antes; y hay fallos que no aportan nada porque el error ya era conocido, y esos son los únicos inaceptables. Un lema que los mete en el mismo saco impide los primeros.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay fallos que compran información y fallos que solo repiten un error ya conocido. Prohibirlos todos por igual elimina justamente los que servían.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Antes de empezar algo importante, da por hecho que ha salido mal y escribe por qué",
+      },
+      {
+        b: "texto",
+        texto:
+          "La herramienta más aplicable del libro se hace en veinte minutos y no cuesta nada. Consiste en reunirse antes de empezar un proyecto y plantear el asunto en pasado: ha pasado un año, el proyecto ha fracasado por completo, y cada uno escribe individualmente qué salió mal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cambio de tiempo verbal parece un detalle y no lo es. Preguntar qué riesgos hay produce una lista genérica y educada; afirmar que ya ha fracasado obliga a la cabeza a buscar una explicación concreta, y las explicaciones concretas son las que sirven. Es la diferencia entre imaginar un peligro y explicar un hecho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Que se escriba antes de hablar es igual de importante, y por un motivo comprobado en cualquier reunión: en cuanto alguien expone su opinión en voz alta, las demás se acomodan a ella. Escribiendo primero y leyendo después, salen las objeciones que en una conversación normal no habría dicho nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Varol añade la versión colectiva, que consiste en encargarle a un grupo la tarea explícita de destruir el plan, con permiso para ser desagradable. Cuando criticar es el trabajo asignado a alguien, deja de ser una deslealtad, y eso resuelve el motivo real por el que casi nadie plantea objeciones en una reunión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una versión individual que funciona igual de bien y que se puede hacer en una libreta. Antes de aceptar un trabajo, firmar un contrato o meterse en un proyecto largo, escribe en pasado por qué salió mal, con dos o tres motivos concretos. Después mira cuáles de ellos podrías comprobar hoy en media hora.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribe por qué ha fracasado antes de empezar, y escríbelo antes de que nadie hable. En cuanto alguien opina en voz alta, los demás se acomodan.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que se decide mejor razonando desde lo que se sabe cierto que copiando lo que se hace, que hay que probar en condiciones reales y desconfiar del propio sistema de comprobación, que una anomalía tolerada se vuelve normal, y que conviene distinguir el fracaso que compra información del que no compra nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es el material. Los casos del Hubble, del Challenger y del Columbia son de los mejores ejemplos que existen de cómo una organización competente se equivoca, están documentados en informes públicos y no se parecen a las anécdotas de empresa con las que suele ilustrarse este tipo de consejo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribe antes de empezar por qué habrá fracasado, y sospecha de la medida que descartaste. Con esas dos costumbres está la mitad del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es un libro del género de pensar como alguien, y ese género tiene un problema de origen: los ejemplos son espaciales y los consejos son generales, de modo que buena parte de lo que dice se encuentra igual en cualquier manual de gestión de proyectos, solo que sin cohetes. Ofrece además más de treinta herramientas sin ninguna jerarquía entre ellas, y quien termina el libro no sabe por cuál empezar. Y la experiencia del autor en aquel equipo fue de estudiante, cosa que la promoción del libro no subraya.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El marcador de estos años, en cambio, le da la razón en lo esencial. El pequeño helicóptero que la NASA llevó a Marte estaba diseñado para hacer cinco vuelos de demostración en un mes, y acabó volando setenta y dos veces a lo largo de casi tres años, hasta que se dañó una pala en enero de 2024. Y la empresa que el libro pone de ejemplo ha desarrollado su cohete más grande haciendo explotar prototipos a propósito, uno tras otro, hasta conseguir en octubre de 2024 que la propia torre de lanzamiento atrapara al vuelo la primera etapa. Es su tesis funcionando en directo: fallar barato, pronto y a la vista de todos.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cientifico-espacial": CIENTIFICO_ESPACIAL,
   "caos-gleick": CAOS_GLEICK,
   "recompra-tu-tiempo": RECOMPRA_TU_TIEMPO,
   banquete: BANQUETE,

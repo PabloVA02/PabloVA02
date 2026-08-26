@@ -336,7 +336,7 @@ export const CATALOGO: Ficha[] = [
   { id: "mente-justos", titulo: "La mente de los justos", autor: "Jonathan Haidt", ano: 2012, categoria: "Psicología", estado: "escrito" },
   { id: "poder-magico-voluntad", titulo: "El poder mágico de la voluntad", autor: "Claude M. Bristol", ano: 1948, categoria: "Psicología", estado: "pendiente" },
   { id: "treinta-dias", titulo: "30 días", autor: "Marc Reklau", ano: 2014, categoria: "Psicología", estado: "pendiente" },
-  { id: "cientifico-espacial", titulo: "Piensa como un científico espacial", autor: "Ozan Varol", ano: 2020, categoria: "Psicología", estado: "pendiente" },
+  { id: "cientifico-espacial", titulo: "Piensa como un científico espacial", autor: "Ozan Varol", ano: 2020, categoria: "Psicología", estado: "escrito" },
   { id: "filosofo-griego", titulo: "Piensa como un filósofo griego", autor: "Donald Robertson", ano: 2019, categoria: "Psicología", estado: "pendiente" },
   { id: "alegria-perderse", titulo: "La alegría de perderse", autor: "Tanya Dalton", ano: 2021, categoria: "Psicología", estado: "pendiente" },
   { id: "todo-empieza-contigo", titulo: "Todo empieza contigo", autor: "Jillian Turecki", ano: 2025, categoria: "Psicología", estado: "pendiente" },

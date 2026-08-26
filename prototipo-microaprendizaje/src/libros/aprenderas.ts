@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cientifico-espacial":
+    "El espejo del Hubble se pulió con una precisión perfecta hasta una forma equivocada, porque el aparato que lo comprobaba estaba mal montado. Varol reúne casos así para explicar cómo se decide sin estar seguro.",
+
   "caos-gleick":
     "En 1961, Edward Lorenz tecleó 0,506 en lugar de 0,506127 y su simulación del tiempo se volvió irreconocible. De aquel error de redondeo salió la idea de que hay sistemas que nunca se podrán predecir.",
 

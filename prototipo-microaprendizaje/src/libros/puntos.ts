@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cientifico-espacial": [
+    "cómo distinguir lo que es una ley de lo que es solo una costumbre",
+    "por qué un objetivo modesto te deja seguir haciendo lo mismo",
+    "que la comprobación descartada suele ser la que traía la noticia",
+    "cómo una anomalía tolerada se convierte poco a poco en normal",
+    "escribir por qué fracasó algo antes siquiera de empezarlo",
+  ],
+
   "caos-gleick": [
     "por qué un sistema totalmente determinado puede ser impredecible",
     "que el límite del pronóstico del tiempo no depende de los ordenadores",
