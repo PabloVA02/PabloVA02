@@ -93471,7 +93471,281 @@ const SIDE_HUSTLE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La disciplina es el destino, de Ryan Holiday (2022), en ocho páginas.
+
+   Libro práctico, así que registro de tú: apartado 4.7. La quinta página
+   lleva el marcador de lo que la investigación sabe sobre el autocontrol y
+   el libro no recoge: el fracaso de la réplica del agotamiento del ego
+   (Hagger y otros, 2016) y los trabajos de Hofmann (2012) y de Galla y
+   Duckworth (2015). No es un reproche externo: cambia el consejo.
+   -------------------------------------------------------------------------- */
+
+const DISCIPLINA_ES_DESTINO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Holiday sostiene que la única libertad que no depende de nadie es la de mandar sobre uno mismo",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el pensamiento estoico hay cuatro virtudes, y la segunda es la templanza: la capacidad de gobernar los propios impulsos. Ryan Holiday le dedicó este libro entero en 2022, dentro de una serie de cuatro que empezó en 2021 con el valor. Su afirmación de partida es que quien no se manda a sí mismo acaba mandado por algo o por alguien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento no es moral, es práctico. Casi todo lo que una persona quiere en la vida depende de terceros —de que la contraten, de que la quieran, de que el mercado acompañe—, salvo una cosa: a qué hora se levanta, qué come, cuánto trabaja y qué contesta cuando le provocan. Esa es la única parte que responde siempre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro está organizado en tres partes de dentro hacia fuera: el cuerpo, el temperamento y lo que él llama el alma, que es la disciplina aplicada a lo que uno hace con el poder y el éxito. Y se apoya en biografías: Marco Aurelio, Lou Gehrig, Toni Morrison, Eisenhower, la reina Isabel II, y Churchill como contraejemplo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que sostiene y lo que le falta: por qué la disciplina empieza en lo físico, por qué aparecer todos los días vence a cualquier día brillante, por qué el perfeccionismo es lo contrario de lo que parece, qué sabe la investigación sobre el autocontrol que este libro no recoge, y en qué momento la disciplina se convierte en el vicio que combatía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todo lo que quieres depende de alguien más. La hora a la que te levantas y lo que contestas cuando te provocan, no. Empieza por ahí porque es lo único que contesta siempre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La disciplina empieza en el cuerpo, y eso no es una metáfora" },
+      {
+        b: "texto",
+        texto:
+          "La primera parte del libro trata del cuerpo, y Holiday defiende ese orden con un argumento sencillo: nadie toma buenas decisiones con cinco horas de sueño y sin comer. Antes de hablar de propósito o de carácter hay una capa física que decide cuánta capacidad de decisión queda disponible, y esa capa es la más fácil de arreglar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que usa es Marco Aurelio, emperador romano entre los años 161 y 180, que escribió sus anotaciones personales durante campañas militares y con mala salud. Lo que Holiday subraya no es la filosofía sino el detalle doméstico: levantarse cuando no apetece, comer poco, dormir en el suelo, cosas todas ellas medibles y sin ninguna épica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca una regla que aplica al resto del libro. La disciplina no se demuestra en el momento heroico, se demuestra en decisiones pequeñas y repetidas que nadie ve: la hora de acostarse un martes, la segunda copa, el móvil en la mesilla. Esas decisiones son las que fijan cuánta energía habrá disponible cuando llegue algo importante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade el matiz que evita convertir esto en una religión del rendimiento. El cuerpo no se cuida para exprimirlo más, se cuida porque un cuerpo agotado convierte cualquier contrariedad en una crisis. La misma discusión con un jefe se aguanta bien después de dormir ocho horas y se desborda después de dormir cinco, y no ha cambiado el jefe.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de trabajar tu carácter, mira cuánto duermes. Casi todas las reacciones de las que te arrepientes ocurrieron con sueño atrasado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Aparecer todos los días vale más que cualquier día extraordinario" },
+      {
+        b: "texto",
+        texto:
+          "El caso con el que Holiday sostiene esto es el de Lou Gehrig, jugador de béisbol de los Yankees de Nueva York, que disputó 2.130 partidos consecutivos entre 1925 y 1939. Jugó con la espalda destrozada, con dedos rotos y con fiebre. La cifra estuvo cincuenta y seis años sin batirse y todavía hoy es la segunda de la historia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que interesa del caso es la comparación que hace con su compañero de equipo. Babe Ruth era un jugador más brillante, más famoso y mucho menos disciplinado, y su carrera tuvo cumbres más altas y hundimientos que Gehrig no tuvo nunca. Holiday no dice que la constancia gane siempre: dice que produce un resultado que se puede planificar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro ejemplo es Toni Morrison, que escribió sus primeras novelas trabajando a jornada completa como editora y criando sola a dos hijos. Escribía antes del amanecer, porque era la única franja del día que nadie le reclamaba. No esperaba a tener tiempo ni inspiración: cogía la hora que había y la usaba todos los días.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la parte útil, que es una manera de medir el compromiso propio. No se mide por la intensidad de un buen día, sino por lo que se hace en el peor: el día que se durmió mal, que no apetece y que nadie va a comprobar. Lo que se hace ese día es el nivel real, y todo lo demás es la media que sale de él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tu constancia no es lo que haces el día que estás inspirado. Es lo que haces el día que no te apetece y nadie lo va a comprobar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El perfeccionismo no es un exceso de disciplina, es aplazar con buena letra",
+      },
+      {
+        b: "texto",
+        texto:
+          "Holiday dedica un capítulo a desmontar la idea de que el perfeccionista es alguien demasiado exigente. Su tesis es que casi siempre es lo contrario: alguien que usa el nivel de exigencia como coartada para no terminar, porque mientras algo no está terminado no puede ser juzgado por nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba que propone es de comportamiento y es fácil de aplicar. El perfeccionista suele tener muchas cosas empezadas y muy pocas acabadas, revisa lo que ya funcionaba y detiene el trabajo en el punto exacto en el que habría que enseñárselo a alguien. Eso no es exigencia: es el mismo miedo de siempre con un vocabulario más presentable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Frente a eso, defiende una idea que suena contraria a todo el libro y no lo es: la disciplina consiste tanto en insistir como en parar a tiempo. Saber cuándo algo está suficientemente bien y entregarlo requiere más autocontrol que seguir puliéndolo, porque entregarlo expone y pulir protege. El general George Patton lo dejó dicho en una frase que Holiday recoge: un buen plan ejecutado ahora vale más que un plan perfecto ejecutado la semana que viene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El criterio práctico que da es fijar de antemano cuándo se acaba, no cómo de bien tiene que quedar. Un plazo se cumple o no se cumple; un nivel de calidad siempre puede subirse un poco más, y por eso quien trabaja contra un nivel y no contra una fecha no termina nunca del todo. Y hay una consecuencia que conviene aceptar: entregar a tiempo significa entregar cosas mejorables, y esa incomodidad es el precio de tener obra en vez de borradores.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si tienes muchas cosas empezadas y pocas acabadas, no eres exigente. Ponle fecha de entrega a lo que estás puliendo y verás si era eso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La gente con más autocontrol no resiste más tentaciones: se encuentra con menos",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro habla del autocontrol como si fuera un músculo que se entrena y se agota, que es la manera en que casi todo el mundo lo entiende. Esa imagen tiene un origen concreto: los experimentos de Roy Baumeister a partir de 1998 sobre lo que llamó agotamiento del ego, según los cuales resistir una tentación deja menos capacidad para resistir la siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema es que esa teoría no ha resistido la comprobación. En 2016, veintitrés laboratorios coordinados por Martin Hagger repitieron el experimento con más de dos mil participantes siguiendo un protocolo acordado de antemano, y el efecto que buscaban resultó ser prácticamente cero. Es uno de los casos más citados de la crisis de replicación en psicología.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que sí se ha encontrado apunta en otra dirección. Un estudio de Wilhelm Hofmann publicado en 2012 siguió durante una semana a más de doscientos adultos preguntándoles a horas aleatorias qué estaban deseando en ese momento. Las personas con más autocontrol declararon menos deseos, no más deseos vencidos: sencillamente se topaban con menos tentaciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Angela Duckworth y Brian Galla llegaron en 2015 a la misma conclusión por otro camino: lo que explica los buenos resultados de la gente disciplinada son sus hábitos y su entorno, no su fuerza de voluntad en el momento crítico. Eso cambia el consejo por completo. No hay que entrenarse para decir que no; hay que organizar la vida para no tener que decirlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Deja de entrenar la fuerza de voluntad y cambia lo que tienes a mano. El autocontrol de la gente disciplinada está en su cocina y en su agenda, no en su cabeza.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Decir que no es la forma de autocontrol que menos esfuerzo cuesta y la que menos se usa",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una de las partes más aplicables del libro es la que trata de los límites. Holiday sostiene que la mayoría de la gente que se queja de no tener tiempo no tiene un problema de organización, sino de haber aceptado cosas que no quería hacer, una por una, cada vez por una razón razonable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que usa es Dwight Eisenhower, que como comandante aliado y después como presidente tuvo que decidir constantemente a qué no dedicaba su atención. Su método consistía en separar lo urgente de lo importante y aceptar que una parte de lo urgente simplemente no se iba a atender, porque atenderlo todo significaba no hacer bien lo único que solo él podía hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que añade Holiday es el coste oculto de cada sí. Aceptar algo no gasta el rato que dura: gasta la preparación, el desplazamiento, la espera y el rato posterior en el que ya no se está para nada. Contado así, un café de media hora que se acepta por compromiso cuesta media tarde, y quien dice que sí no está calculando eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y avisa del malentendido habitual, que es confundir esto con estar disponible para nadie. Decir que no a lo que no importa es exactamente lo que permite decir que sí a lo que importa, y la prueba de que alguien lo hace bien no es que rechace mucho: es que cuando aparece algo que le importa, tiene sitio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cada sí no cuesta lo que dura: cuesta el viaje, la espera y el rato de después. Cuenta eso antes de aceptar y verás cuántos noes te faltan.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Llevada al extremo, la disciplina se convierte exactamente en el vicio que combatía",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más honrado del libro es el que avisa contra sí mismo. Holiday sostiene que la templanza es la virtud del término medio, y que por tanto se puede fallar por exceso igual que por defecto: quien no se permite ni un día libre, ni un error, ni un placer, no está siendo virtuoso, está siendo rígido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que elige es Catón el Joven, el senador romano que se convirtió en símbolo de la integridad estoica y que llevó su intransigencia hasta el suicidio en el año 46 antes de Cristo. Holiday reconoce que aquella rigidez, admirada durante siglos, contribuyó a hacer imposible cualquier acuerdo político y a acelerar justo lo que Catón quería evitar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca la distinción que más falta hace en este género: la disciplina se dirige hacia uno mismo y la exigencia hacia los demás es otra cosa. Quien se levanta a las cinco y desprecia a quien no lo hace no ha aprendido templanza, ha encontrado una manera nueva de sentirse superior, que es un vicio bastante más antiguo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade un criterio para detectar cuándo se ha cruzado la línea, que es el más útil de todo el capítulo. Si la rutina propia ya no sirve al objetivo por el que se montó, sino que se defiende por sí misma —y saltársela un día produce culpa en vez de un cálculo—, entonces ha dejado de ser una herramienta y se ha convertido en el dueño.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si saltarte tu rutina un día te produce culpa en lugar de un cálculo, la rutina ha dejado de trabajar para ti.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la única parcela que no depende de terceros es el gobierno de uno mismo, que la constancia produce un resultado planificable donde el talento produce uno irregular, y que el perfeccionismo y la rigidez son fallos de disciplina y no excesos de ella. Las tres cosas se sostienen y las tres se pueden aplicar sin comprar nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente al resto del estante es la advertencia contra sí mismo. Casi ningún libro de autoexigencia dedica un capítulo entero a explicar en qué momento su propio consejo se vuelve dañino, y este lo hace con un ejemplo romano incómodo en lugar de con una frase de compromiso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Empieza por dormir, ponle fecha a lo que estás puliendo y quita de tu vista lo que no quieres tener que rechazar. Eso es casi todo el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Está construido con biografías elegidas después de conocer el final, y eso permite demostrar cualquier cosa: el propio Churchill, que aparece como contraejemplo de indisciplina, ganó la guerra. Y sobre todo, un libro publicado en 2022 sobre el autocontrol no menciona en ningún momento que la teoría del autocontrol como músculo que se agota había fracasado seis años antes en una réplica con veintitrés laboratorios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese silencio importa porque cambia el consejo. Si lo que distingue a la gente disciplinada no es su fuerza de voluntad sino sus hábitos y su entorno, entonces el capítulo más útil del libro sería uno sobre cómo organizar la casa y la agenda, y ese capítulo no está. Después de este, Holiday publicó los dos volúmenes que faltaban de la serie, en 2024 y 2025, uno por virtud y uno por año, que es también un dato sobre cómo se fabrica hoy este género.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "disciplina-es-destino": DISCIPLINA_ES_DESTINO,
   "side-hustle": SIDE_HUSTLE,
   "chingona-dinero": CHINGONA_DINERO,
   "poder-sin-limites": PODER_SIN_LIMITES,

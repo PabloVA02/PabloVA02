@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "disciplina-es-destino": [
+    "por qué las decisiones que lamentas suelen venir de dormir poco",
+    "que la constancia da un resultado planificable y el talento no",
+    "cómo distinguir el perfeccionismo de una exigencia de verdad",
+    "el peso del entorno y los hábitos frente a la fuerza de voluntad",
+    "reconocer el momento en que una rutina deja de trabajar para ti",
+  ],
+
   "side-hustle": [
     "qué distingue un negocio propio de un segundo empleo peor pagado",
     "cómo se comparan varias ideas en vez de enamorarse de una",

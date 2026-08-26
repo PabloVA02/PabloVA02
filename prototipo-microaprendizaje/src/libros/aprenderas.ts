@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "disciplina-es-destino":
+    "Lou Gehrig jugó 2.130 partidos seguidos entre 1925 y 1939, con dedos rotos y con fiebre. Holiday usa ese tipo de casos para defender la templanza estoica y para avisar de cuándo se vuelve rigidez.",
+
   "side-hustle":
     "Guillebeau recopiló más de mil quinientos negocios montados casi sin capital, con una inversión mediana de unos seiscientos dólares. Aquí convierte aquello en un plan de veintisiete días para alguien que tiene un empleo.",
 
