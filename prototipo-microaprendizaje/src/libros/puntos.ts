@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "veinte-poemas": [
+    "por qué una imagen concreta se gasta menos que un adjetivo",
+    "qué cambia cuando a alguien se le describe con paisaje y no con nombre",
+    "por qué el poema más recitado no trata del amor sino de escribirlo",
+    "qué dice de una versión lo que su autor deja fuera de ella",
+    "cómo cambia un libro cuando sabes qué contó su autor de sí mismo",
+  ],
+
   "biologia-creencia": [
     "por qué un gen no hace nada hasta que algo se lo pide",
     "dónde toma de verdad sus decisiones una célula",

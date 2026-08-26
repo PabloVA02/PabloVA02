@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "veinte-poemas":
+    "Neruda tenía diecinueve años y publicaba con seudónimo para que su padre, ferroviario, no supiera que escribía versos. Sacó el poema de amor castellano del decorado modernista y le metió dentro muelles, redes y lluvia.",
+
   "biologia-creencia":
     "Una célula sin núcleo sigue viva días; sin membrana muere al instante. De ahí saca Lipton que quien manda no es el gen, y de ahí pasa, en unos pocos capítulos, a que tus creencias gobiernan tu biología.",
 

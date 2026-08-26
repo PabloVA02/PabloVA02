@@ -109318,7 +109318,289 @@ const BIOLOGIA_CREENCIA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Veinte poemas de amor y una canción desesperada, de Pablo Neruda (1924),
+   en ocho páginas.
+
+   Poesía, así que registro narrativo del apartado 3 bis: titulares cortos de
+   imagen, la afirmación en la primera frase y la caja del rayo hablándole al
+   lector.
+
+   La séptima página es la relectura de hoy —la mujer que no habla y lo que
+   Neruda contó de sí mismo en sus memorias— y va DENTRO, porque es la parte
+   que cambia cómo se lee todo lo anterior.
+   -------------------------------------------------------------------------- */
+
+const VEINTE_POEMAS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un libro escrito a los diecinueve años" },
+      {
+        b: "texto",
+        texto:
+          "El libro de poemas de amor más vendido en lengua española lo escribió un chico que aún no tenía veinte años. Neftalí Reyes Basoalto había nacido en 1904 en Parral, se había criado en Temuco, en la lluvia del sur de Chile, y publicaba con seudónimo desde los dieciséis para que su padre, ferroviario, no se enterara de que escribía versos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Salió en 1924, en Santiago, en la editorial Nascimento, y son veintiún poemas: veinte numerados en romanos y uno aparte al final, que es el que da la segunda mitad del título. Se ha traducido a decenas de idiomas y ha superado los veinte millones de ejemplares, una cifra que casi ningún libro de poesía alcanza en ninguna lengua.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que lo hizo distinto no fue el asunto. En 1924 se escribían poemas de amor por toneladas, en un castellano recargado de cisnes, princesas y crepúsculos heredado del modernismo. Lo que hizo Neruda fue meter ahí dentro un cuerpo concreto, un paisaje concreto —el suyo, con lluvia, muelles y pinos— y palabras que se usaban para hablar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene además saber cómo se recibió, porque no fue como se recuerda. Neruda tenía que pagarse la edición y la crítica chilena de entonces lo trató con reservas: le reprocharon el descaro erótico y la mezcla de registros. El libro se fue imponiendo por abajo, de lector en lector, y tardó años en ser lo que hoy es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue es de qué está hecho el libro, de dónde salieron los poemas, por qué uno de los veintiuno se conoce mucho más que los otros veinte, y qué se lee hoy de otra manera, que no es poco.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribir de lo mismo que todo el mundo no es el problema. El problema es escribirlo con las palabras de todo el mundo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La mujer es un territorio" },
+      {
+        b: "texto",
+        texto:
+          "El primer poema del libro empieza con dos palabras que fijan todo lo que viene después: «Cuerpo de mujer». No un nombre, no una persona: un cuerpo, y en seguida un mapa. Colinas, muslos blancos, y un hombre que se compara con un labrador que cava.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el procedimiento del libro entero y conviene verlo antes que nada, porque explica su fuerza y su problema a la vez. La mujer amada se dice siempre con paisaje: es tierra, es noche, es niebla, es un pino, es una barca, es la orilla. Neruda no describe a nadie; describe una geografía y la habita.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Como recurso poético funciona, y funciona por un motivo técnico. Un adjetivo —hermosa, dulce, lejana— se gasta a la segunda vez; una imagen concreta no. «Eres como la noche, callada y constelada» dice más que diez adjetivos y no se puede repetir sin que se note, así que obliga a inventar la siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El propio Neruda escribió mucho después, en el prólogo de una edición conmemorativa, que aquellos poemas le habían dolido y le habían acompañado, y que los había escrito «para todos». Nunca dijo nada sobre la mujer que hay dentro de ellos, y esa omisión también es parte del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y trae consigo lo que trae. Un territorio no habla, no contesta y no se va: está ahí para ser recorrido. La estructura de deseo del libro es esa, y no es un descuido de un chico de diecinueve años: es coherente de la primera página a la última.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien te describe con paisaje y no con nombre, fíjate en quién de los dos se está moviendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El poema que más se recita es el más incómodo" },
+      {
+        b: "texto",
+        texto:
+          "«Me gustas cuando callas porque estás como ausente.» Con ese verso empieza el poema quince, que durante décadas se leyó en bodas y se copió en cartas, y que hoy es el que más discusión levanta del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El poema entero desarrolla esa idea sin desviarse. Ella le gusta callada, distante, como si no estuviera; su voz llega desde lejos, sus ojos parecen habérsele volado, está ausente como si hubiera muerto. Y termina con una palabra que basta para deshacer el hechizo del silencio, porque una sola palabra ya la devuelve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una lectura generosa y hay que ponerla: el poema habla de la distancia que se siente al lado de alguien que está pensando en otra cosa, y esa sensación existe. Neruda además reconoce en el último verso que el silencio es una construcción suya, no de ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Merece la pena contar el número, porque es lo que hace la lectura incontestable: veintiún poemas, ni una sola línea de diálogo, ni un solo verso puesto en boca de ella. Todo lo que sabemos de esa mujer nos llega descrito por quien la mira.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una lectura literal que no se puede desactivar: lo que le gusta es que no hable. Puesto junto al resto del libro —donde ella nunca dice nada, ni una vez, en veintiún poemas—, esa lectura deja de ser una interpretación torcida y pasa a ser lo que el libro hace. En todo el volumen no hay una sola línea entre comillas dicha por otra voz.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una relación que se cuenta entera desde un solo lado no es una relación contada: es un retrato de quien la cuenta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El más famoso no va de ella" },
+      {
+        b: "texto",
+        texto:
+          "«Puedo escribir los versos más tristes esta noche.» El poema veinte es el que casi todo el mundo puede empezar de memoria, y lo que casi nadie nota es que no trata del amor perdido: trata del acto de escribir sobre él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El verso lo dice literalmente. No dice «esta noche estoy triste», dice «puedo escribir». Y a partir de ahí el poema va comprobando qué le sale: escribir por ejemplo la noche estrellada, escribir que la quiso, escribir que ya no la quiere, y darse cuenta de que puede escribir las dos cosas seguidas y que las dos suenan verdaderas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El poema termina con dos versos que son los más citados del libro y que dicen exactamente eso: que el amor es corto y el olvido es largo, y que estos son los últimos versos que le escribe. Es un poema que se está mirando a sí mismo mientras se hace.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El poema está además construido sobre una contradicción que no resuelve: dice que ya no la quiere y a la vez que su alma no se contenta con haberla perdido. Los dos versos van casi seguidos. No es un descuido, es el asunto: quien escribe está comprobando qué se le puede hacer decir a una frase.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está, además, la razón técnica de que se recuerde. Los otros veinte poemas describen a ella; éste describe al que escribe, y el que escribe es el único de los dos que tiene voz en el libro. Es el poema más honesto del volumen precisamente porque admite que la protagonista es la escritura.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando algo se cuenta muy bien, conviene preguntarse si lo importante es lo que se cuenta o el hecho de contarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Marisol y Marisombra" },
+      {
+        b: "texto",
+        texto:
+          "Neruda contó, cincuenta años después, que detrás de los veinte poemas hay dos mujeres reales y las llamó con dos apodos que ya no se le han caído: Marisol y Marisombra. La primera es la del sur, la del campo y la lluvia de Temuco; la segunda es la de Santiago, la de la boina gris y los ojos oscuros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus nombres se conocen. Marisol era Teresa León Bettiens, a la que conoció en las fiestas de primavera de Temuco. Marisombra era Albertina Rosa Azócar, estudiante de francés y hermana de un amigo suyo, con la que mantuvo una relación intermitente durante años y a la que llegó a pedir en matrimonio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De esa segunda historia queda un rastro que el libro no tiene: las cartas. Se conservan más de un centenar de cartas de Neruda a Albertina, publicadas mucho después, y en ellas aparece algo que en los poemas no está en ninguna parte: un hombre pidiendo, reclamando, reprochando el silencio de ella y esperando respuesta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle que se le suele escapar a quien lo lee: Albertina llevaba una boina gris, y esa boina entra en el poema seis tal cual, sin transformarse en nada. Es un objeto de una tarde concreta metido en un poema que se ha traducido a cuarenta idiomas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El contraste es el dato más interesante que se puede saber de este libro. En las cartas hay dos personas y una negociación; en los poemas hay un paisaje y un hombre mirándolo. La mujer que en el libro no habla es, en la vida real, una mujer que contestaba poco a un hombre que escribía mucho.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que alguien deja fuera de su versión dice tanto como lo que pone dentro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que inventó un chico de diecinueve años" },
+      {
+        b: "texto",
+        texto:
+          "Que un libro de poesía de 1924 se siga leyendo sin notas al pie es raro, y tiene explicación técnica. Neruda hizo tres cosas a la vez que en castellano casi nadie estaba haciendo juntas, y las tres se pueden señalar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es meter el objeto ordinario dentro del registro elevado. En estos poemas hay muelles, barcas, redes de pescar, un pozo, una boina gris, hormigas. El modernismo del que venía tenía cisnes y palacios; poner una red de pescar en un poema de amor era romper el decoro, y es lo que hace que suene actual cien años después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es el verso largo y respirado, que sigue el aliento de una frase hablada en vez de un molde métrico fijo. Se puede leer en voz alta sin que se note el andamiaje, que es la razón de que se memorice tan fácil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una cuarta que casi nunca se señala: el libro tiene forma de libro. No son veintiún poemas puestos uno detrás de otro, sino un recorrido que va del cuerpo a la ausencia y de la ausencia al olvido, con el poema veinte casi al final haciendo de balance. Por eso se lee entero de un tirón, que es rarísimo en poesía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la tercera es la repetición usada como estructura. «Me gustas cuando callas» abre y cierra su poema; «Puedo escribir» vuelve una y otra vez dentro del veinte. Es un procedimiento de canción, no de poema culto, y es exactamente por eso que estos versos han acabado en tantas canciones.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que hace que algo escrito hace cien años suene de hoy no es el asunto: son las palabras corrientes que se atrevió a meter dentro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que hoy se lee de otra manera" },
+      {
+        b: "texto",
+        texto:
+          "Este libro no se lee igual que hace treinta años, y no por moda: por dos cosas concretas, una del libro y otra del autor. La del libro ya está dicha: la mujer no habla nunca, es territorio, y el deseo se cuenta como recorrido y como posesión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La del autor es más grave y sale de su propia mano. En <em>Confieso que he vivido</em>, sus memorias, publicadas en 1974 poco después de su muerte, Neruda cuenta un episodio de hacia 1929, cuando era cónsul en Ceilán: describe cómo forzó a una mujer tamil que se ocupaba de vaciar las letrinas de su casa, y añade que ella se comportó todo el tiempo como si estuviera ausente. Lo cuenta él, y lo que describe es una violación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso ha tenido consecuencias públicas. En 2018, cuando el Congreso chileno tramitaba ponerle su nombre al aeropuerto de Santiago, más de un centenar de escritoras y organizaciones se opusieron citando ese pasaje, y la iniciativa se paró. Hay también otro asunto biográfico que se le reprocha: su hija Malva Marina, nacida en 1934 con hidrocefalia, a la que dejó con su madre en Europa y que murió a los ocho años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Qué hacer con eso no lo resuelve un resumen, y quien diga que es fácil miente. Pero hay una diferencia útil: el pasaje de las memorias no cambia si un verso es bueno, y en cambio sí ilumina qué clase de mirada organiza un libro donde la amada está callada y ausente. Las dos cosas se sostienen a la vez, y leerlo sabiéndolo es distinto de leerlo sin saberlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Saber quién escribió algo no cambia si está bien escrito. Cambia qué estás leyendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Veintiún poemas escritos por un chico de diecinueve años en 1924, en los que el amor se dice siempre con paisaje: la mujer es tierra, noche, orilla y niebla, y el que habla la recorre. Sacó el poema de amor castellano del decorado modernista y le metió dentro muelles, redes y lluvia del sur de Chile.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, cien años después, es una lección de oficio que se puede robar entera: la imagen concreta gasta menos que el adjetivo, el objeto ordinario dentro del registro alto es lo que hace que un texto no envejezca, y la repetición organiza mejor que la métrica. Es de los pocos libros de poesía que se pueden leer sin saber nada de poesía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. En que solo hay una persona dentro. En veintiún poemas la mujer amada no dice ni una palabra: es un paisaje que se contempla y se recorre, y el poema quince —el más recitado— dice sin rodeos que le gusta callada. Puede leerse como un retrato de la soledad del que mira, y en parte lo es; pero conviene saber que las cartas reales de Neruda a Albertina Azócar, más de cien, sí tienen dos personas discutiendo, así que la ausencia de ella en el libro fue una decisión de escritura y no un límite del joven que era.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después. Neruda recibió el Nobel en 1971 y murió en 1973, doce días después del golpe de Estado; en 2023, un panel forense internacional confirmó la presencia de toxina botulínica en sus restos, aunque no pudo determinar que fuera la causa de la muerte. Su figura se relee desde entonces por otro sitio: en 2018 se frenó ponerle su nombre al aeropuerto de Santiago después de que más de cien escritoras citaran un pasaje de sus propias memorias en el que describe haber forzado a una mujer en Ceilán. El libro se sigue vendiendo como el primer día, y hoy se lee con las dos cosas delante.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "veinte-poemas": VEINTE_POEMAS,
   "biologia-creencia": BIOLOGIA_CREENCIA,
   "futuro-nuestra-mente": FUTURO_NUESTRA_MENTE,
   "hombres-no-escuchan": HOMBRES_NO_ESCUCHAN,
