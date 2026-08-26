@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "mil-soles":
+    "Dos mujeres afganas separadas por veinte años acaban casadas con el mismo hombre en el mismo Kabul. La novela cuenta treinta años de golpes de Estado, invasiones y regímenes desde dentro de una casa.",
+
   "tener-o-ser":
     "Ya no se dice que alguien no puede dormir, sino que tiene insomnio. Fromm parte de ese desplazamiento del idioma para sostener que hay dos maneras de existir y que la civilización industrial eligió la peor.",
 

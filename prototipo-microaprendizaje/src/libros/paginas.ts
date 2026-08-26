@@ -100655,7 +100655,293 @@ const TENER_O_SER: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Mil soles espléndidos, de Khaled Hosseini (2007), en ocho páginas.
+
+   Novela, así que el registro del apartado 3 bis: titulares cortos de
+   imagen y la afirmación en la primera frase. Las cajas hablan al lector.
+
+   La séptima página recoge la crítica que se le hace al autor y que hay
+   que decir: escribe en inglés, desde California, para un lector
+   occidental. Y la conclusión pone lo que vino después de 2021, que es que
+   el mundo de la novela volvió.
+   -------------------------------------------------------------------------- */
+
+const MIL_SOLES: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "La casa al otro lado del río" },
+      {
+        b: "texto",
+        texto:
+          "La novela empieza enseñando cómo se fabrica la vergüenza de una niña. Mariam nace en 1959 en las afueras de Herat, en una choza de barro construida a propósito lejos de la ciudad, porque es hija de una criada y del hombre rico que la empleaba. Su madre le repite desde pequeña una palabra que significa hija ilegítima.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su padre la visita los jueves, le trae regalos y le cuenta cosas de la ciudad donde tiene tres esposas, nueve hijos legítimos y un cine. Mariam lo adora. Su madre le advierte una y otra vez que aquel afecto de una tarde a la semana no significa nada, y Mariam cree que es amargura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Khaled Hosseini, médico afgano establecido en Estados Unidos desde 1980, publicó este libro en 2007, cuatro años después de la novela que lo hizo famoso. Es el relato de dos mujeres separadas por una generación cuyas vidas acaban cruzándose, y de treinta años de historia afgana vistos desde dentro de una casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que el libro sostiene y lo que se le reprocha: qué le pasó a Mariam cuando fue a buscar a su padre, quién es la segunda mujer y por qué nació en 1978, qué destruyó realmente Kabul, cómo dos rivales acaban siendo lo único que le queda a cada una, y qué cuenta la última página.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El título viene de un poema del siglo diecisiete sobre Kabul, en el que un poeta persa dice que no se podrían contar las lunas que brillan en sus tejados ni los mil soles espléndidos que se esconden tras sus muros. Es un elogio de la ciudad escrito trescientos años antes de que la destruyeran.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El afecto que solo aparece los jueves y nunca en público no es afecto: es una manera cómoda de tenerte contenta sin que existas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La noche que esperó en la puerta" },
+      {
+        b: "texto",
+        texto:
+          "Todo lo que va a ser la vida de Mariam se decide una noche a los quince años. Decide ir a la ciudad a ver a su padre sin avisar, para pedirle que la lleve al cine que él posee. Llega a la casa, dice quién es y le contestan que no está. Se sienta en la acera y espera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Espera toda la noche. Al amanecer levanta la vista hacia una ventana del piso de arriba y ve un instante la silueta de su padre, que se aparta enseguida. Entonces entiende de golpe lo que su madre llevaba quince años intentando explicarle: que la quería lo suficiente para visitarla y no lo suficiente para reconocerla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando la devuelven a la choza, encuentra a su madre ahorcada. Se había matado creyendo que su hija la había abandonado. Y a partir de ahí, las esposas de su padre resuelven el problema en dos semanas: casan a Mariam con un zapatero viudo de Kabul, treinta años mayor que ella, y la ponen en un autobús.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hosseini construye esa secuencia sin subrayar nada, y ahí está lo mejor de su oficio. Nadie comete un crimen: un padre evita una escena incómoda, unas esposas resuelven una situación embarazosa y un hombre acepta una novia joven. Cada decisión es pequeña y comprensible, y juntas destruyen una vida en catorce días.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un detalle final que remata el episodio. Años después, su padre le escribe una carta pidiéndole perdón y contándole que aquella noche fue el peor error de su vida. Mariam la recibe cuando ya no le sirve de nada, y el libro no la convierte en un momento de reconciliación: la carta llega tarde y punto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi ninguna vida se arruina por una maldad. Se arruina por varias decisiones pequeñas y comprensibles tomadas por gente que evitaba una incomodidad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La niña que nació la noche del golpe" },
+      {
+        b: "texto",
+        texto:
+          "La segunda mujer de la novela nace en Kabul en abril de 1978, la misma noche en que un golpe de Estado instaura un gobierno comunista. Esa coincidencia no es un adorno: Laila crece en el único periodo de la historia afgana reciente en que una niña de ciudad podía ir al instituto y pensar en la universidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su padre, maestro, se lo repite constantemente: que estudie, que una sociedad no puede prosperar si sus mujeres están sin educar, que él espera de ella mucho más que un matrimonio. Es un personaje que Hosseini coloca a propósito, para que el lector occidental no confunda un régimen con un país.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese contraste sostiene el libro entero. Mariam nació en el campo veinte años antes y creció sin escuela, sin ciudad y sin nombre legal; Laila nace en la capital, va a clase con niños y niñas, tiene amigos y planes. Las dos acabarán en la misma casa, casadas con el mismo hombre, y el libro explica exactamente por qué.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El amigo de Laila, Tariq, perdió una pierna de niño al pisar una mina, y ese detalle también está puesto con intención. Afganistán quedó sembrado de minas durante la ocupación soviética y siguió mutilando a niños durante décadas después de que se fuera el último soldado, que es la manera en que una guerra continúa cuando ya ha terminado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los dos hermanos mayores de Laila se van a combatir contra los soviéticos y mueren, y su madre se derrumba y deja de ocuparse de ella. Es otra de las cosas que el libro cuenta sin explicar: una guerra no solo mata a los que van al frente, también deja a los que se quedan sin la persona que eran antes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una guerra no acaba cuando se van los soldados. Sigue mutilando durante treinta años a niños que ni siquiera habían nacido cuando empezó.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Kabul no la destruyeron los soviéticos" },
+      {
+        b: "texto",
+        texto:
+          "El libro corrige un error que casi todo lector extranjero trae puesto. El ejército soviético se retiró de Afganistán en 1989 y la ciudad de Kabul quedó en pie. Lo que la destruyó vino después, entre 1992 y 1996, cuando las facciones que habían combatido juntas contra los soviéticos se enfrentaron entre sí por el control de la capital.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquella guerra fue de artillería y cohetes disparados de barrio a barrio, y arrasó zonas enteras de la ciudad con su población dentro. Hosseini lo cuenta desde una casa: primero los cristales, después el agua, después la escuela cerrada, después los vecinos que se van, después el cohete que cae en el patio de al lado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En esa fase mueren los padres de Laila, alcanzados por un proyectil el día en que por fin habían decidido marcharse del país. Ella queda enterrada entre los escombros, herida, y la rescata el zapatero del que la novela ya nos ha contado todo: el marido de Mariam, que vive enfrente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurre a continuación es lo que hace incómodo el libro. Laila tiene catorce años, está sola, está embarazada de Tariq y le han hecho creer que Tariq ha muerto. Cuando Rasheed le propone matrimonio, ella acepta, y acepta por un cálculo perfectamente lúcido: es la única manera de que su hija nazca dentro de un techo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle que Hosseini repite en esta parte es el sonido. La gente de Kabul aprendió a distinguir por el ruido qué tipo de proyectil venía y hacia dónde, y a calcular si tenían que bajar al sótano o podían seguir cocinando. Es la clase de conocimiento que nadie quiere tener y que se adquiere en unas semanas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien acepta algo que no querría, casi siempre hay detrás un cálculo lúcido. Conviene averiguar cuál era antes de juzgar la decisión.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las dos mujeres del mismo hombre" },
+      {
+        b: "texto",
+        texto:
+          "La parte central del libro es la relación entre las dos, y empieza siendo de odio. Mariam lleva dieciocho años casada con Rasheed, ha perdido siete embarazos y ha soportado su desprecio; ahora llega a la casa una chica de catorce años que le va a dar un hijo. Que se odien es lo que el sistema espera de ellas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está la tesis del libro, escrita sin decirla: la rivalidad entre las dos es funcional. Mientras compitan por el favor del mismo hombre, ninguna de las dos podrá plantearse el problema real, y el hombre lo sabe y lo administra premiando a una y humillando a la otra según le conviene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que rompe el sistema no es un razonamiento: es una niña. Cuando nace la hija de Laila, Mariam empieza a ocuparse de ella, y a partir de ahí las dos mujeres tienen algo que proteger que está fuera del hombre. Desde ese momento se hablan, se avisan, esconden dinero juntas y planean escaparse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El intento de fuga fracasa: en aquel Kabul una mujer no podía viajar sin un pariente varón, las denuncian en la estación de autobuses y la policía las devuelve a casa. Ese es el detalle que Hosseini quiere que quede: no las atrapa su marido, las devuelve el Estado, que había convertido su casa en una cárcel legal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La casa además va cerrándose por etapas, y esa progresión es lo que hace creíble el encierro. Primero se prohíbe salir sin un pariente varón, después trabajar, después estudiar, después reírse en voz alta en la calle. Ninguna de esas normas por separado parece el final de nada, y juntas no dejan una rendija.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mientras dos personas compitan por el favor del mismo poder, ninguna puede plantearse el problema de fondo. Esa competencia no es casual: se administra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una cesárea sin anestesia" },
+      {
+        b: "texto",
+        texto:
+          "La escena que todo el mundo recuerda de este libro dura tres páginas y no tiene ningún villano dentro. Laila se pone de parto, el bebé viene mal y hay que operar. Recorren varios hospitales y en todos les dicen lo mismo: desde que gobiernan los talibanes, a las mujeres solo las atienden en un hospital, y ese hospital no tiene casi nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No hay anestesia, no hay oxígeno, no hay suficiente agua limpia ni electricidad estable. La cirujana, una mujer que trabaja con el rostro cubierto por orden del gobierno, le explica la situación con toda claridad y le pregunta si quiere que la opere igualmente, porque la alternativa es que mueran los dos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La operan despierta. Hosseini describe la escena sin adjetivos, contando lo que hacen las manos de la médica y lo que Mariam hace con las de Laila, y esa contención es lo que hace que funcione. No hay ningún personaje malvado en la habitación: hay un sistema que ha decidido que la mitad de su población no necesita medicamentos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena resume además el argumento entero del libro sobre cómo funcionan estas cosas. Las normas no se aplicaron con violencia en cada caso: se aplicaron cerrando escuelas, prohibiendo trabajar a las médicas, concentrando a las pacientes en un edificio y no enviándole suministros. La crueldad se administró, y en cada eslabón alguien se limitó a cumplir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La peor crueldad casi nunca la ejecuta alguien: se administra con una norma, un presupuesto y un edificio, y cada eslabón se limita a cumplir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Quién cuenta esta historia" },
+      {
+        b: "texto",
+        texto:
+          "Antes de la última parte conviene decir quién escribe y desde dónde, porque es la crítica que este libro recibe y merece respuesta. Hosseini nació en Kabul en 1965, salió del país a los once años y escribió esta novela en inglés, desde California, casi treinta años después, para un público mayoritariamente occidental.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese origen se le nota. La novela explica cosas que un lector afgano no necesitaría que le explicaran, y su estructura acumula desgracias con una eficacia que a algunos críticos les parece calculada para conmover a quien está lejos. La acusación es que empaqueta el sufrimiento de un país para consumo ajeno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La respuesta razonable no es negarlo sino ponerlo en la balanza. Es cierto que es una novela hecha para conmover, con coincidencias grandes y con un villano casi sin matices; y también es cierto que millones de personas supieron por este libro que a Kabul la destruyeron los mismos que habían expulsado a los soviéticos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene además no confundir dos reproches distintos. Que un libro simplifique es un problema literario y se puede discutir. Que un autor no tenga derecho a contar el país del que salió de niño es otra cosa, y esa segunda objeción se aplica muy pocas veces a los escritores que se marcharon de países ricos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una diferencia que suele pasarse por alto entre sus dos novelas más conocidas. La primera está contada por un hombre que se reprocha algo, y esta la protagonizan dos mujeres cuyo problema no es la culpa sino el encierro. Que un autor cambie así de punto de vista entre un libro y el siguiente no es habitual.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que un relato esté hecho para conmoverte no lo hace falso. Merece la pena saber cómo está construido y decidir después, no antes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La novela cuenta treinta años de historia afgana desde dentro de una casa, y su hallazgo es haber elegido ese punto de vista. Los golpes de Estado, las invasiones y los cambios de régimen aparecen como aparecen de verdad para la mayoría de la gente: en forma de escuela cerrada, de precio del pan y de norma nueva sobre quién puede salir a la calle.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a cualquier crónica es la explicación de la rivalidad. Que dos mujeres encerradas con el mismo hombre se odien primero y se salven después es la mejor manera que ha encontrado nadie de explicar cómo funciona un sistema así por dentro, y por qué se sostiene sin que nadie tenga que vigilarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un régimen no necesita vigilar a todo el mundo si consigue que los que están abajo compitan entre sí. Eso lo hace todo el trabajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El marido es un monstruo casi sin interior, y eso debilita justamente lo que el libro quiere demostrar: si el culpable es un hombre horrible, deja de verse el sistema que lo permitía. La trama se sostiene sobre coincidencias muy grandes, y el sufrimiento se acumula de una manera que a partir de cierto punto anestesia en lugar de conmover. Y hay tramos en que un personaje explica la historia reciente del país en voz alta para que el lector se entere.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después convirtió esta novela en otra cosa. Cuando se publicó en 2007, sus capítulos sobre el gobierno de los talibanes se leían como un pasado reciente y superado. En agosto de 2021 aquel gobierno volvió a Kabul, y desde entonces se ha prohibido a las niñas la enseñanza secundaria, a las mujeres la universidad, la mayor parte del empleo y el trabajo en organizaciones de ayuda. Un libro escrito para recordar lo que había pasado describe hoy lo que está pasando, y su autor, que desde 2006 trabaja con la agencia de refugiados de Naciones Unidas, lleva desde entonces repitiéndolo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "mil-soles": MIL_SOLES,
   "tener-o-ser": TENER_O_SER,
   "vida-3-0": VIDA_3_0,
   "psicologia-venta": PSICOLOGIA_VENTA,

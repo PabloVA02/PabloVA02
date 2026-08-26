@@ -262,7 +262,7 @@ export const CATALOGO: Ficha[] = [
   { id: "perfume", titulo: "El perfume", autor: "Patrick Süskind", ano: 1985, categoria: "Literatura", estado: "escrito" },
   { id: "ladrona-libros", titulo: "La ladrona de libros", autor: "Markus Zusak", ano: 2005, categoria: "Literatura", estado: "escrito" },
   { id: "kite-runner", titulo: "Cometas en el cielo", autor: "Khaled Hosseini", ano: 2003, categoria: "Literatura", estado: "escrito" },
-  { id: "mil-soles", titulo: "Mil soles espléndidos", autor: "Khaled Hosseini", ano: 2007, categoria: "Literatura", estado: "pendiente" },
+  { id: "mil-soles", titulo: "Mil soles espléndidos", autor: "Khaled Hosseini", ano: 2007, categoria: "Literatura", estado: "escrito" },
   { id: "martes-con-mi-profesor", titulo: "Martes con mi viejo profesor", autor: "Mitch Albom", ano: 1997, categoria: "Literatura", estado: "escrito" },
   /* --- Psicología ------------------------------------------------------- */
   { id: "pensar-rapido", titulo: "Pensar rápido, pensar despacio", autor: "Daniel Kahneman", ano: 2011, categoria: "Psicología", estado: "escrito" },

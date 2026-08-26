@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "mil-soles": [
+    "cómo se arruina una vida con decisiones pequeñas y comprensibles",
+    "que una guerra sigue mutilando treinta años después de terminar",
+    "quién destruyó Kabul en realidad, y cuándo",
+    "por qué a un régimen le conviene que los de abajo compitan entre sí",
+    "cómo se administra una crueldad con normas, presupuestos y edificios",
+  ],
+
   "tener-o-ser": [
     "por qué convertir un estado en una posesión cambia lo que puedes pensar",
     "qué diferencia hay entre guardar un conocimiento y ser cambiado por él",
