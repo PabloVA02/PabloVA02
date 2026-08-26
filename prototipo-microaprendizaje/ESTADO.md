@@ -110,6 +110,16 @@ Dos maneras de comprobar que no ha pasado otra vez, antes de publicar:
   compilado.
 - `grep -c "<algo escrito hoy>" movil.html`. Si sale cero, el paquete es viejo.
 
+**Y una tercera, que es la que hay que darle a Pablo: el sello.** El pie del
+perfil dice «Prototipo · compilado el 26/8, 18:00». La fecha la inyectan los
+cuatro ficheros de Vite con un `define`, así que sale sola en cada compilación.
+Existe porque Pablo dijo dos veces «no me sale el cambio» y las dos veces el
+fichero publicado LO LLEVABA: era la caché de su navegador. Al publicar hay que
+decirle qué hora tiene que ver; si ve otra, es caché y se arregla cerrando la
+pestaña, no recompilando.
+
+    grep -o "compilado el [^\"<]\{0,18\}" movil.html | head -1
+
 Y ojo con el segundo paso: `orden-fotos.mjs` escribe una línea de estado por
 la salida de error. Si se le pone `2>&1` acaba dentro del JSON y `movil.mjs`
 se rompe con un error de sintaxis. Sin `2>&1`.
