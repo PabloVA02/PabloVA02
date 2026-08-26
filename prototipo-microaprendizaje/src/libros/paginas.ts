@@ -109302,7 +109302,7 @@ const BIOLOGIA_CREENCIA: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Lo que aporta son dos cosas. La primera es un correctivo que hacía falta en 2005: contra la idea de que la secuencia de alguien es su destino, la respuesta correcta es que un gen no hace nada hasta que algo se lo pide. La segunda es la imagen de la membrana como panel de mandos, que es la mejor explicación divulgativa de cómo decide una célula que se puede encontrar en un libro de este estante.",
+          "Lo que aporta son dos cosas. Un correctivo que hacía falta en 2005: contra la idea de que la secuencia de alguien es su destino, la respuesta es que un gen no hace nada hasta que algo se lo pide. Y la imagen de la membrana como panel de mandos, la mejor explicación divulgativa de cómo decide una célula que hay en este estante.",
       },
       {
         b: "texto",
