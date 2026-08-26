@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "arte-de-empezar": [
+    "por qué conviene decidir qué se quiere cambiar antes que cómo cobrar",
+    "qué diferencia hay entre un lema que sirve para decidir y una declaración",
+    "cómo revisar si tus suposiciones se cumplen y no solo tus tareas",
+    "la regla de diez diapositivas, veinte minutos y letra de treinta",
+    "qué predice mejor que un currículo cómo va a trabajar alguien",
+  ],
+
   "libro-del-sueno": [
     "por qué estar pendiente de dormirte es incompatible con dormirte",
     "qué hacer con una noche en blanco que no sea pelear contra ella",

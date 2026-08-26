@@ -397,7 +397,7 @@ export const CATALOGO: Ficha[] = [
   { id: "ciencia-hacerse-rico", titulo: "La ciencia de hacerse rico", autor: "Wallace D. Wattles", ano: 1910, categoria: "Economía", estado: "escrito" },
   { id: "transformacion-dinero", titulo: "La transformación total de su dinero", autor: "Dave Ramsey", ano: 2003, categoria: "Economía", estado: "escrito" },
   { id: "vender-es-humano", titulo: "Vender es humano", autor: "Daniel H. Pink", ano: 2012, categoria: "Economía", estado: "escrito" },
-  { id: "arte-de-empezar", titulo: "El arte de empezar", autor: "Guy Kawasaki", ano: 2004, categoria: "Economía", estado: "pendiente" },
+  { id: "arte-de-empezar", titulo: "El arte de empezar", autor: "Guy Kawasaki", ano: 2004, categoria: "Economía", estado: "escrito" },
   { id: "oceano-azul", titulo: "La estrategia del océano azul", autor: "Kim y Mauborgne", ano: 2005, categoria: "Economía", estado: "escrito" },
   { id: "empresas-sobresalen", titulo: "Empresas que sobresalen", autor: "Jim Collins", ano: 2001, categoria: "Economía", estado: "escrito" },
   { id: "efecto-compuesto", titulo: "El efecto compuesto", autor: "Darren Hardy", ano: 2010, categoria: "Economía", estado: "escrito" },

@@ -106506,7 +106506,307 @@ const LIBRO_DEL_SUENO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El arte de empezar, de Guy Kawasaki (2004), en ocho páginas.
+
+   Libro práctico de empresa, registro de tú: apartado 4.7. Economía, así
+   que cada página lleva su cifra.
+
+   La séptima página sitúa el libro en su época, que es lo que hay que
+   hacer con un manual de 2004: se escribió antes de que existieran la nube
+   barata, las tiendas de aplicaciones y el método que vino a llenar
+   precisamente su hueco. La conclusión pone ese marcador.
+   -------------------------------------------------------------------------- */
+
+const ARTE_DE_EMPEZAR: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Kawasaki sostiene que lo primero que hay que decidir no es cómo ganar dinero, sino qué se quiere cambiar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Casi todo el que monta algo empieza por el modelo de negocio: qué se vende, a cuánto y con qué margen. Kawasaki sostiene que ese es el segundo paso y que el primero es otro, y su argumento no es de motivación: las organizaciones que se fundan para ganar dinero suelen ganar poco, y las que se fundan para cambiar algo lo ganan como consecuencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Guy Kawasaki fue durante los años ochenta el encargado de convencer a los programadores de que escribieran software para el primer Macintosh, un puesto que en aquella empresa se llamaba evangelizador, y después pasó al capital riesgo. Publicó este libro en 2004 y lo actualizó una década más tarde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis sobre por qué el orden importa es práctica. Una idea que solo existe para producir ingresos se abandona en cuanto aparecen dos años malos, porque no hay ningún motivo para aguantarlos; una que existe para resolver algo concreto sobrevive a esos dos años, y casi cualquier cosa que merezca la pena tiene dos años malos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre sus herramientas y su fecha: por qué un lema de tres palabras vale más que una declaración de principios, por qué hay que lanzar antes de estar listo y hasta dónde, cómo se comprueba si un plan se sostiene, qué regla dio para las presentaciones y qué le falta a este libro que llegó siete años después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una idea que solo existe para dar dinero se abandona en cuanto llegan dos años malos. Y casi todo lo que merece la pena tiene dos años malos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un lema de tres palabras que todos recuerdan vale más que una declaración de principios que nadie ha leído",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kawasaki dedica un capítulo a desmontar las declaraciones de misión, que describe con precisión: cincuenta palabras escritas por un comité, llenas de términos como excelencia, sinergia y compromiso, colgadas en una pared y que ningún empleado sabe recitar. Sostiene que no sirven para nada porque no sirven para decidir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que propone en su lugar cabe en dos, tres o cuatro palabras y tiene que poder recordarlo cualquiera de la casa. No es un eslogan publicitario, porque no está pensado para el cliente sino para dentro: es la frase con la que un empleado resuelve una duda sin preguntar a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los ejemplos que usa lo aclaran. Una empresa de mensajería cuyo lema interno sea tranquilidad decide distinto que una cuya prioridad sea rapidez, aunque las dos entreguen paquetes. Una cadena de comida cuyo lema sea comida rápida y sana toma decisiones de compra distintas de una que solo busque el precio más bajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba que propone es de campo y sirve para cualquier organización: preguntar por separado a cinco personas de la casa qué es lo importante allí. Si salen cinco respuestas distintas, no hay lema aunque haya una declaración enmarcada, y eso significa que cada uno está decidiendo según su propio criterio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kawasaki añade una condición sobre quién lo escribe. Un lema no se encarga a una agencia ni se aprueba en una reunión de dirección, porque lo que sale de ahí vuelve a ser una declaración; tiene que salir de la gente que hace el trabajo, y se reconoce porque cuando se dice en voz alta nadie tiene que explicarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pregúntale por separado a cinco personas de tu equipo qué es lo importante. Si salen cinco respuestas, cada uno está decidiendo por su cuenta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay que lanzar antes de estar listo, y el libro no explicó bien dónde está el límite",
+      },
+      {
+        b: "texto",
+        texto:
+          "La frase más citada de Kawasaki es una recomendación deliberadamente basta: no te preocupes, lánzalo aunque sea malo. Su argumento es que una primera versión imperfecta que existe enseña más que una versión perfecta que sigue en un despacho, y que la mayor parte de lo que hay que arreglar solo aparece cuando alguien lo usa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El razonamiento es correcto y su formulación resultó peligrosa. Kawasaki matiza en el propio libro que no vale cualquier cosa y que hay una diferencia entre incompleto y defectuoso, pero la frase se difundió sola, y durante unos años sirvió de coartada para lanzar productos que no funcionaban y llamar a eso rapidez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El criterio que faltaba lo aportaron los años siguientes y hoy es el estándar: una primera versión no se lanza para vender, se lanza para comprobar una suposición concreta. Antes de construir hay que escribir qué se está dando por hecho —que hay gente con este problema, que pagaría, que lo encontraría— y diseñar la versión mínima que compruebe una de esas cosas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con ese matiz, la recomendación se vuelve utilizable. Lo que hay que lanzar deprisa no es un producto a medias, es una prueba; y una prueba puede ser una página web sin nada detrás, una hoja de cálculo o una persona haciendo a mano lo que después haría un programa. Eso no es ser chapucero: es no construir lo que no hace falta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No lances una versión mala: lanza una prueba. Escribe antes qué estás dando por hecho y construye lo mínimo que lo compruebe.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Debajo de cada hito hay una suposición, y conviene tenerlas escritas por separado",
+      },
+      {
+        b: "texto",
+        texto:
+          "La herramienta más aprovechable del libro es una tabla de tres columnas. En la primera van los hitos: los cinco o seis acontecimientos que de verdad marcan que algo avanza, del tipo primer cliente que paga, primera venta repetida, punto en que los ingresos cubren los gastos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la segunda van las suposiciones que hay debajo de cada hito, y ahí está el trabajo. Un plan siempre da por hecho unas cuantas cosas —cuánto costará conseguir un cliente, cuántos repetirán, cuánto tarda un cobro, cuánta gente hace falta— y esas cifras suelen estar puestas de memoria y no comprobadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y en la tercera van las tareas, es decir, lo concreto que hay que hacer. La utilidad de tenerlo separado es que permite hacer lo que casi nadie hace: revisar cada mes si las suposiciones se están cumpliendo, en lugar de revisar solo si las tareas se han completado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia entre las dos revisiones es enorme. Un equipo puede completar todas sus tareas durante un año mientras la suposición principal —que existe gente dispuesta a pagar eso— resulta ser falsa desde el primer mes, y nadie se entera porque todo el mundo está mirando las tareas, que sí avanzan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una suposición que casi todos los planes traen puesta y casi ninguno tiene escrita: cuánto cuesta conseguir un cliente y cuánto deja ese cliente a lo largo del tiempo que se queda. Si la primera cifra es mayor que la segunda, no hay negocio por mucho que crezcan las ventas, y eso se puede comprobar con los primeros veinte clientes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Revisa cada mes si tus suposiciones se cumplen y no solo si las tareas están hechas. Se pueden completar todas las tareas de un plan equivocado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La regla de diez, veinte y treinta es lo que mejor ha aguantado de todo el libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kawasaki dedicó buena parte de su vida profesional a escuchar presentaciones de gente pidiendo dinero, y de ahí sacó una regla que se ha convertido en la aportación más duradera del libro. Consiste en tres cifras: diez diapositivas, veinte minutos y ninguna letra por debajo del tamaño treinta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cada cifra resuelve un problema distinto. Diez diapositivas es el número de conceptos que una persona normal retiene de una reunión, así que poner treinta garantiza que no se recuerde ninguno. Veinte minutos deja tiempo para preguntas dentro de una reunión de una hora y contempla que el proyector tarde en funcionar, que siempre tarda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es la más útil y la que más se incumple. Obligarse a un tamaño de letra grande impide meter párrafos, y al no caber los párrafos hay que decidir qué es lo importante de cada diapositiva, que es exactamente el trabajo que la mayoría de la gente evita haciendo transparencias llenas de texto que después lee en voz alta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su observación de fondo va más allá de las presentaciones. Quien necesita treinta diapositivas para explicar su proyecto no tiene un problema de formato: no ha decidido todavía qué está haciendo, y la extensión sirve para tapar esa indecisión. Un proyecto claro se explica en diez porque no hay más que decir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla tiene además una versión para conversaciones, que Kawasaki no formula así y se deduce igual. Quien no puede contar en dos minutos qué hace y para quién no está en condiciones de pedirle nada a nadie, y ese ejercicio de dos minutos es también el que obliga a decidir qué es lo importante.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Diez diapositivas, veinte minutos y ninguna letra por debajo de treinta. Si necesitas treinta diapositivas, el problema no es el formato.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Contrata mirando lo que la persona sabe hacer, no dónde estudió" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo de contratación tiene dos ideas que han envejecido bien. La primera es contratar a gente mejor que uno en lo suyo, con la observación de que quien contrata a alguien peor lo hace por miedo y acaba rodeado de un equipo que decae en cada nivel de la jerarquía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es descartar lo irrelevante, y es más concreta. Kawasaki recomienda ignorar en qué universidad estudió alguien y en qué empresas conocidas ha trabajado, y fijarse únicamente en si sabe hacer lo que hay que hacer. Su argumento es que un currículo brillante mide sobre todo de dónde venía esa persona antes de empezar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí coincide con lo que la investigación sobre selección de personal viene encontrando desde hace décadas. Los métodos que mejor predicen el rendimiento posterior son las pruebas de trabajo real —pedirle a alguien que haga una muestra de lo que tendría que hacer— y las entrevistas estructuradas con las mismas preguntas para todos; el currículo y la entrevista informal predicen bastante poco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade un criterio propio, poco científico y sorprendentemente utilizable, para decidir cuando dos candidatos empatan: imaginar que uno se los cruza en un centro comercial, y preguntarse si iría a saludarles, si se escondería detrás de una columna o si se cambiaría directamente de centro comercial.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da un aviso sobre a quién no contratar que se cumple con una regularidad deprimente: quien en la entrevista habla sobre todo de títulos, de organigramas y de a quién reportaría suele estar buscando una posición y no un trabajo, y en una organización pequeña esa diferencia se nota a las tres semanas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pídele a un candidato que haga una muestra del trabajo real. Predice bastante mejor que su currículo y que una conversación agradable.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Es un manual de 2004, y el mundo que describe dejó de existir a los tres años",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene fechar este libro porque su contexto cambió por completo enseguida. En 2004, montar algo digital exigía comprar servidores, alquilar espacio en un centro de datos y contratar administradores, de modo que empezar costaba centenares de miles de euros y por eso hacía falta convencer a un inversor antes de tener nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dos años después apareció la primera oferta seria de servidores alquilados por horas, y en 2008 la primera tienda de aplicaciones para móviles. Entre las dos cosas, el coste de lanzar algo y llegar a un público cayó varios órdenes de magnitud, y con él cambió todo lo que este libro da por supuesto sobre financiación y sobre secuencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y le falta lo que llegó después. Entre 2005 y 2011 se desarrolló un método para comprobar si alguien quiere lo que vas a construir antes de construirlo: hablar con clientes potenciales, formular hipótesis y diseñar experimentos baratos. Ese es exactamente el hueco de este libro, que dice lanza pronto sin explicar cómo se comprueba nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que no ha caducado es todo lo que no depende de la tecnología: empezar por qué se quiere cambiar, el lema de tres palabras, separar hitos de suposiciones, la regla de las presentaciones y contratar por lo que alguien sabe hacer. Esa mitad del libro se puede aplicar hoy sin ajustar una coma.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando leas un manual de negocio, mira su año y qué costaba entonces empezar. La mitad de sus consejos dependen de ese precio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que hay que decidir qué se quiere cambiar antes que cómo se gana dinero, que un lema breve sirve para decidir y una declaración de principios no, que debajo de cada hito hay suposiciones que conviene revisar por separado, y que un proyecto claro se explica en diez diapositivas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a los manuales de su época es el tono. Está escrito por alguien que había estado en los dos lados —montando y financiando— y que escribe sin solemnidad, con listas cortas y sin la épica del emprendedor visionario que llenaría el género en la década siguiente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribe tu lema en tres palabras, separa hitos de suposiciones y explícalo en diez diapositivas. Eso es lo que sigue valiendo del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es aforístico: da criterios y no procedimientos, y su consejo más famoso —lanzar aunque salga mal— circuló sin el matiz que llevaba al lado y justificó bastantes productos defectuosos. No hay en todo el libro un método para averiguar si alguien quiere aquello antes de construirlo, que resultó ser la parte que faltaba. Y está escrito desde el capital riesgo, así que describe el mundo de las empresas que consiguieron financiación, que son una minoría diminuta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el marcador de estos veinte años se mueve en las dos direcciones. Lo que el libro no tenía llegó entre 2005 y 2011 en forma de método para comprobar hipótesis antes de construir, y hoy es lo primero que se enseña. Lo que el libro sí tenía —empezar sin dinero de nadie, vigilar la caja, crecer con lo que entra— pasó de sonar anticuado a volver al centro: cuando la financiación mundial de empresas nuevas cayó a menos de la mitad entre 2021 y 2023, la palabra que volvió a todas partes fue precisamente la que Kawasaki usaba, que es sostenerse con lo propio.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "arte-de-empezar": ARTE_DE_EMPEZAR,
   "libro-del-sueno": LIBRO_DEL_SUENO,
   "ford-vida-obra": FORD_VIDA_OBRA,
   "dieta-financiera": DIETA_FINANCIERA,

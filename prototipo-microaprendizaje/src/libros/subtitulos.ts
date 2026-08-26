@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "arte-de-empezar": "Guía probada para todo el que empiece cualquier cosa",
   "libro-del-sueno": "Cómo dormir bien todas las noches",
   "dieta-financiera": "Guía para principiantes sobre cómo llevarse bien con el dinero",
   "haz-cosas-dificiles": "La ciencia sorprendente de la fortaleza real",

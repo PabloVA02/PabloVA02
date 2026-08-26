@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "arte-de-empezar":
+    "Kawasaki convenció en los ochenta a los programadores de que escribieran para el primer Macintosh, y después pasó a financiar empresas nuevas. Este manual de 2004 reúne lo que vio desde los dos lados.",
+
   "libro-del-sueno":
     "El sueño es lo único que empeora cuanto más se intenta, porque esforzarse mantiene encendido el sistema que tendría que apagarse. Meadows sostiene que el insomnio crónico lo sostiene la lucha y no la falta de sueño.",
 
