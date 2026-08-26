@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "caos-gleick": "La creación de una ciencia",
   "recompra-tu-tiempo": "Recupera tu libertad y construye tu imperio",
   "ley-de-atraccion": "Conceptos básicos de las enseñanzas de Abraham",
   "sin-esfuerzo": "Consigue resultados importantes sin dejarte la piel",

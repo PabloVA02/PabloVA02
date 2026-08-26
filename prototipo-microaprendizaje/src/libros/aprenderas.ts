@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "caos-gleick":
+    "En 1961, Edward Lorenz tecleó 0,506 en lugar de 0,506127 y su simulación del tiempo se volvió irreconocible. De aquel error de redondeo salió la idea de que hay sistemas que nunca se podrán predecir.",
+
   "recompra-tu-tiempo":
     "Casi todo el que se pone por su cuenta acaba haciendo el trabajo que nadie más quería. Martell sostiene que el error está en contratar para producir más en vez de contratar para recuperar horas propias.",
 

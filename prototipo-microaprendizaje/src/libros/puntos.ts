@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "caos-gleick": [
+    "por qué un sistema totalmente determinado puede ser impredecible",
+    "que el límite del pronóstico del tiempo no depende de los ordenadores",
+    "cómo la longitud de una costa cambia según con qué se mida",
+    "que lo complicado no necesita tener causas complicadas",
+    "qué dice de verdad el efecto mariposa y qué no dice",
+  ],
+
   "recompra-tu-tiempo": [
     "por qué contratar para crecer deja al fundador igual de enterrado",
     "cómo se calcula qué tareas no compensa que hagas tú",

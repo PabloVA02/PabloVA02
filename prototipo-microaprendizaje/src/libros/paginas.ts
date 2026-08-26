@@ -97312,7 +97312,293 @@ const RECOMPRA_TU_TIEMPO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Caos, de James Gleick (1987), en ocho páginas.
+
+   Ensayo de divulgación científica: TERCERA PERSONA, apartado 4.7. Cada
+   página lleva su nombre propio, su año y su cifra.
+
+   La séptima página está dedicada entera a lo que el efecto mariposa NO
+   significa, porque es el malentendido más extendido que ha salido de un
+   libro de divulgación. Y la conclusión pone el marcador: qué prometía
+   esto en 1987 y en qué quedó.
+   -------------------------------------------------------------------------- */
+
+const CAOS_GLEICK: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un error de redondeo en 1961 demostró que hay cosas que no se podrán predecir nunca",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un día del invierno de 1961, Edward Lorenz, meteorólogo del Instituto de Tecnología de Massachusetts, quiso repetir una simulación del tiempo atmosférico en su ordenador. Para ahorrarse la primera parte del cálculo, tecleó como punto de partida un valor que había impreso la máquina: 0,506, en lugar del 0,506127 que la máquina usaba internamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se fue a por un café. Al volver, la nueva simulación no se parecía en nada a la anterior: al principio coincidían y después divergían hasta quedar completamente distintas. Su primera reacción fue pensar que se había estropeado una válvula, porque la diferencia entre los dos números de partida era de menos de una milésima.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No estaba estropeada. Lo que Lorenz había encontrado, y publicó en 1963 en una revista de meteorología que casi nadie fuera de su campo leía, es que en ciertos sistemas una diferencia mínima en las condiciones iniciales no produce una diferencia mínima en el resultado, sino una diferencia que crece hasta hacerlo irreconocible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "James Gleick contó esa historia y las que salieron de ella en este libro de 1987. Lo que sigue recorre lo que de verdad se descubrió: por qué determinista no significa previsible, por qué la costa de Gran Bretaña no tiene una longitud, cómo una ecuación de una línea se vuelve impredecible, qué número apareció en sistemas sin relación entre sí, y qué no significa el efecto mariposa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En ciertos sistemas, un error minúsculo en el punto de partida no produce un error minúsculo al final: produce un resultado completamente distinto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Que un sistema esté completamente determinado no significa que se pueda predecir",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante tres siglos, la física funcionó con una idea implícita que nadie discutía: si se conocen las leyes y el estado actual de un sistema, se puede calcular su futuro, y si el cálculo no sale es porque faltan datos o potencia. Sobre esa confianza se construyó la ciencia entera desde Newton.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que muestran las ecuaciones de Lorenz es que las dos cosas se separan. Su sistema es completamente determinista: no contiene azar, ni aproximaciones, ni ruido, y si se introdujeran los datos exactos daría siempre el mismo resultado. Y aun así no se puede predecir a partir de cierto plazo, porque los datos exactos no existen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón es que cualquier medición tiene un error, por pequeño que sea, y en estos sistemas el error se multiplica en lugar de mantenerse. Si un error se duplica cada cierto tiempo, entonces mejorar la medición mil veces solo compra unos pocos ciclos más de predicción, y mejorarla un millón de veces compra unos pocos más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la consecuencia práctica que más se cita y que suele malinterpretarse. El tiempo atmosférico tiene un horizonte de predicción de alrededor de dos semanas, y ese límite no depende de los ordenadores: no se supera con más potencia, ni con más satélites, ni con mejores modelos. Es una propiedad del sistema, no de nuestros medios.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El límite de dos semanas del pronóstico del tiempo no se supera con más ordenadores. Es una propiedad de la atmósfera, no de la tecnología.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La costa de Gran Bretaña no tiene una longitud, y eso no es un juego de palabras",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1967, el matemático Benoît Mandelbrot publicó en la revista Science un artículo con una pregunta de aspecto infantil: cuánto mide la costa de Gran Bretaña. La respuesta que dio es que depende de con qué se mida, y no en el sentido trivial de la precisión, sino en un sentido que no tiene solución.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El punto de partida se lo dio una observación de Lewis Fry Richardson. Al recopilar datos de fronteras, Richardson encontró que España declaraba unos novecientos ochenta y siete kilómetros de frontera con Portugal y Portugal declaraba unos mil doscientos catorce. Nadie mentía: habían medido con reglas de distinta longitud.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con una regla de cien kilómetros, la costa británica mide una cifra; con una de cincuenta, aparecen entrantes que antes se saltaban y la cifra crece; con una de un metro se rodean las rocas y crece más; y con una regla del tamaño de un grano de arena crece otra vez. La longitud no converge a ningún valor: aumenta indefinidamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sacó Mandelbrot su idea central. Una costa no es una línea de dimensión uno ni una superficie de dimensión dos: se comporta como algo intermedio, y ese número intermedio se puede calcular y describe cuán rugosa es. Llamó fractales a esos objetos, y resultó que los árboles, los pulmones, los ríos y las nubes son todos así.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La longitud de una costa crece cuanto más fina sea la regla y no converge a ninguna cifra. La pregunta estaba mal hecha, no la medición.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una ecuación que cabe en una línea puede volverse impredecible" },
+      {
+        b: "texto",
+        texto:
+          "El biólogo australiano Robert May publicó en 1976 en la revista Nature un artículo que cambió lo que los científicos creían saber sobre la complejidad. Trabajaba con una ecuación elemental que describe cómo crece una población de un año al siguiente, teniendo en cuenta que si hay demasiados individuos escasea el alimento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ecuación tiene un solo parámetro, que representa la tasa de reproducción. Con valores bajos, la población se estabiliza en una cifra fija. Al subir el parámetro, deja de estabilizarse y empieza a alternar entre dos valores, un año muchos y un año pocos. Al subir más, alterna entre cuatro. Después entre ocho, entre dieciséis.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y en un punto concreto, esa duplicación se acelera hasta que la población deja de repetirse: salta año tras año sin ningún ciclo, y dos poblaciones que empezaron casi iguales acaban totalmente distintas. Todo eso lo produce una fórmula que cabe en una línea y no contiene ningún elemento aleatorio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El artículo de May terminaba con una recomendación pedagógica que sigue siendo válida y que casi nadie siguió: que se enseñara esta ecuación en las escuelas, porque la intuición de que lo complicado tiene causas complicadas y lo simple produce resultados simples es falsa, y arrastrarla lleva a interpretar mal casi cualquier dato que fluctúe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hallazgo tenía además una consecuencia inmediata para los biólogos que estudiaban poblaciones de animales. Hasta entonces, una serie de censos que subía y bajaba sin patrón se atribuía a factores externos —el clima, los depredadores, la caza— y se buscaba fuera. Aquella ecuación mostró que la propia dinámica de la población puede producir esas oscilaciones sin que ocurra nada por fuera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La intuición de que lo complicado tiene causas complicadas es falsa. Una fórmula de una línea, sin nada aleatorio dentro, produce series impredecibles.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Apareció un número que sale igual en sistemas que no tienen nada que ver entre sí",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1975, un físico de Los Álamos llamado Mitchell Feigenbaum estaba estudiando con una calculadora de bolsillo los puntos en los que aquellas duplicaciones ocurrían. Se dio cuenta de que los intervalos entre una duplicación y la siguiente se acortaban, y de que se acortaban siempre en la misma proporción.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La proporción resultó ser un número concreto, aproximadamente 4,669. Hasta ahí era una curiosidad sobre una ecuación. Lo asombroso llegó al probar con otras ecuaciones completamente distintas, que no se parecían en nada a la primera: el número volvía a salir, exactamente el mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso significaba que no era una propiedad de una fórmula, sino de una manera de comportarse. Cualquier sistema que llegue al desorden por ese camino de duplicaciones sucesivas —da igual si es una población, un circuito eléctrico o un fluido— lo hace con esa misma proporción, igual que el número pi aparece en cualquier círculo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La confirmación experimental llegó a finales de aquella década, cuando el físico Albert Libchaber consiguió observar la secuencia de duplicaciones en un experimento con helio líquido dentro de una celda diminuta, y midió unos números compatibles con los de Feigenbaum. Una regularidad encontrada con una calculadora apareció en un laboratorio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Feigenbaum trabajaba entonces con una calculadora programable de bolsillo, lo que le obligaba a esperar minutos entre cálculo y cálculo, y ha contado que fue precisamente esa lentitud la que le hizo empezar a adivinar los resultados antes de que salieran. Al intentar predecirlos vio la proporción; con un ordenador rápido probablemente se le habría pasado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un mismo número gobierna cómo se desordenan sistemas que no tienen nada en común. El desorden, cuando llega, llega con reglas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El caos no es azar: tiene forma, y esa forma se puede dibujar" },
+      {
+        b: "texto",
+        texto:
+          "La palabra caos despista, porque en el uso corriente significa desorden sin ninguna estructura. Lo que describe este libro es otra cosa: un comportamiento que no se repite nunca y que sin embargo está confinado, no se dispara hacia el infinito y traza siempre la misma figura en el espacio de sus posibilidades.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa figura tiene nombre y es lo que hizo famoso a Lorenz. Al dibujar la evolución de su sistema de ecuaciones, la trayectoria describía dos lóbulos que recuerdan a las alas de una mariposa, y saltaba de uno a otro sin ninguna pauta previsible, sin pasar dos veces exactamente por el mismo punto y sin salirse nunca de esa forma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la diferencia entre no saber qué va a pasar y no saber nada. Nadie puede decir en qué ala estará el sistema dentro de una hora, y todo el mundo puede decir que estará en una de las dos y no en cualquier otro sitio. Esa combinación —impredecible en el detalle, acotado en el conjunto— es lo que se llama caos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la utilidad práctica de todo esto, que no es predecir sino distinguir. Ante una serie de datos que fluctúa, saber si detrás hay ruido aleatorio o un sistema determinista con pocas variables cambia por completo lo que se puede hacer con ella, y hay métodos para averiguarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Impredecible en el detalle y acotado en el conjunto. No se puede decir dónde estará mañana y sí se puede decir dónde no estará nunca.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El efecto mariposa no significa lo que todo el mundo cree que significa",
+      },
+      {
+        b: "texto",
+        texto:
+          "La expresión salió de un título. En 1972, Lorenz dio una conferencia titulada con una pregunta —si el aleteo de una mariposa en Brasil puede desencadenar un tornado en Texas— que no había elegido él, sino un colega que tenía que enviar el programa y no había recibido el título a tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el uso popular, la frase ha pasado a significar que las causas pequeñas tienen efectos grandes, y de ahí a la idea de que un gesto mínimo puede cambiar el mundo entero, que es la moraleja de decenas de películas. Esa lectura invierte exactamente lo que la frase decía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Lorenz afirmaba no es que la mariposa cause el tornado. Es que como no podemos conocer el estado de todas las mariposas del planeta, y como diferencias de ese tamaño acaban importando, existe un plazo más allá del cual no hay predicción posible. No es una afirmación sobre el poder de lo pequeño: es una afirmación sobre los límites del conocimiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia tiene consecuencias. La versión popular sugiere que se podría dirigir un resultado grande con una intervención mínima, y eso es justo lo que la teoría niega: para saber qué aleteo produciría qué tornado habría que poder predecir el sistema, que es precisamente lo que no se puede hacer. Ni el aleteo se puede elegir ni el tornado se puede encargar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La mariposa no demuestra que un gesto pequeño cambie el mundo. Demuestra que no se puede saber qué gesto pequeño cambiaría qué cosa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta cómo un grupo de científicos de campos que no se hablaban entre sí descubrieron por separado lo mismo: que hay sistemas completamente deterministas cuya evolución no se puede predecir, que la complejidad no necesita causas complejas, y que el desorden tiene formas y regularidades propias que se pueden medir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su virtud es de escritura. Gleick consigue explicar en qué consiste una bifurcación y qué es un atractor sin escribir una sola ecuación, contándolo a través de las personas que lo encontraron, y por eso lleva cuarenta años siendo el libro por el que la mayoría de la gente entra en este asunto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un sistema puede estar completamente determinado y ser imposible de predecir. Esas dos cosas se habían confundido durante trescientos años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es una historia de personas y no de ideas: el lector termina el libro sabiendo quién descubrió qué y en qué cafetería, y sin poder hacer nada con ello, porque las matemáticas están completamente ausentes. Y está escrito con el entusiasmo de 1987, cuando esto parecía a punto de rehacer la economía, la medicina y la biología entera, cosa que no ocurrió: el campo se integró en el estudio de sistemas no lineales y dejó de ser una revolución.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí vino después fue mucho más útil que la revolución prometida, y es una respuesta directa al problema de Lorenz. Como no se puede conocer el estado inicial exacto, los servicios meteorológicos dejaron de calcular un único pronóstico y pasaron a calcular decenas, cada uno partiendo de datos ligeramente distintos, y a mirar en qué coinciden. El centro europeo lo puso en funcionamiento en 1992, y de ahí viene que hoy un parte diga setenta por ciento de probabilidad de lluvia en lugar de afirmar que lloverá. Ese cambio ha ido ganando alrededor de un día de anticipación por década, sin tocar el límite de las dos semanas.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "caos-gleick": CAOS_GLEICK,
   "recompra-tu-tiempo": RECOMPRA_TU_TIEMPO,
   banquete: BANQUETE,
   "alicia-maravillas": ALICIA_MARAVILLAS,

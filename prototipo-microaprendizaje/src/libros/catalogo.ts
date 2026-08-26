@@ -161,7 +161,7 @@ export const CATALOGO: Ficha[] = [
   { id: "incognito", titulo: "Incógnito", autor: "David Eagleman", ano: 2011, categoria: "Ciencia", estado: "escrito" },
   { id: "el-cerebro", titulo: "El cerebro", autor: "David Eagleman", ano: 2015, categoria: "Ciencia", estado: "escrito" },
   { id: "alicia-cuantos", titulo: "Alicia en el país de los cuantos", autor: "Robert Gilmore", ano: 1995, categoria: "Ciencia", estado: "pendiente" },
-  { id: "caos-gleick", titulo: "Caos", autor: "James Gleick", ano: 1987, categoria: "Ciencia", estado: "pendiente" },
+  { id: "caos-gleick", titulo: "Caos", autor: "James Gleick", ano: 1987, categoria: "Ciencia", estado: "escrito" },
   { id: "informacion-gleick", titulo: "La información", autor: "James Gleick", ano: 2011, categoria: "Ciencia", estado: "pendiente" },
   { id: "vida-3-0", titulo: "Vida 3.0", autor: "Max Tegmark", ano: 2017, categoria: "Ciencia", estado: "pendiente" },
   { id: "primavera-silenciosa", titulo: "Primavera silenciosa", autor: "Rachel Carson", ano: 1962, categoria: "Ciencia", estado: "escrito" },
