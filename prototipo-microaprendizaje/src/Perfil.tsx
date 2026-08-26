@@ -402,7 +402,7 @@ export function Perfil({
           animate={{ opacity: 1 }}
           transition={{ ...springSoft, delay: orden(13) }}
         >
-          Prototipo · versión de muestra
+          Prototipo · compilado el {__SELLO__}
         </motion.p>
       </div>
     </motion.div>
