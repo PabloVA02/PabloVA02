@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  banquete: [
+    "por qué el deseo señala una carencia y no se agota nunca",
+    "que la idea de la media naranja se refuta dentro del propio libro",
+    "cómo se refuta a alguien haciéndole preguntas en vez de contradecirle",
+    "el problema de amar a una persona por sus cualidades",
+    "qué le pasa a una expresión cuando pierde el texto del que salió",
+  ],
+
   "alicia-maravillas": [
     "por qué la pregunta de quién eres vuelve cada vez que algo cambia",
     "cómo se reconoce una reunión en la que nadie quiere decidir",

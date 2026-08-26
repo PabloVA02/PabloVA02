@@ -96751,7 +96751,288 @@ const ALICIA_MARAVILLAS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El banquete, de Platón (hacia 385 a. C.), en ocho páginas.
+
+   Clásico, así que el registro del apartado 3 bis: titulares cortos de
+   imagen y la afirmación en la primera frase.
+
+   Y se dice sin rodeos lo que casi todas las ediciones divulgativas callan:
+   que el amor del que habla el libro es el de un hombre adulto con un
+   adolescente, que la única mujer que habla es probablemente inventada, y
+   que «amor platónico» significa hoy lo contrario de lo que dice el texto.
+   -------------------------------------------------------------------------- */
+
+const BANQUETE: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una fiesta con resaca" },
+      {
+        b: "texto",
+        texto:
+          "El diálogo más citado sobre el amor empieza con un grupo de hombres decidiendo no beber porque la noche anterior se pasaron. Están en casa del poeta Agatón, en Atenas, celebrando que acaba de ganar un premio de teatro en el año 416 antes de Cristo, y llevan un día entero de festejos encima.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Como no van a beber, deciden entretenerse de otra manera: despiden a la flautista y acuerdan que cada uno pronuncie por turno un discurso en alabanza de Eros, el dios del deseo. Son siete: un aficionado a la retórica, un abogado de la costumbre, un médico, un autor de comedias, el anfitrión, Sócrates y un invitado que llega tarde y borracho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Platón lo escribió unos treinta años después de aquella fecha y lo puso a mucha distancia: el relato llega al lector de tercera mano, contado por alguien que se lo oyó a otro que estuvo allí. Esa cadena está puesta a propósito, y avisa desde la primera página de que lo que se va a leer no es un acta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que de verdad dice el libro: el mito de los seres partidos y por qué Platón lo pone ahí, el argumento con el que Sócrates desmonta al anfitrión, quién era Diotima, qué es la escalera del amor y a quién deja atrás, qué contó Alcibíades cuando irrumpió borracho y por qué «amor platónico» significa hoy lo contrario.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de citar una idea, mira en boca de quién la puso su autor. Aquí varias de las más famosas están puestas para ser refutadas después.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los seres partidos" },
+      {
+        b: "texto",
+        texto:
+          "La parte más conocida del libro no la dice Platón: la dice un personaje, y ese personaje es un autor de comedias. Aristófanes cuenta que al principio los seres humanos eran redondos, con cuatro brazos, cuatro piernas, dos caras en una cabeza y una fuerza tremenda, y que había tres clases: masculinos, femeninos y mixtos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquellos seres se volvieron soberbios e intentaron asaltar el cielo, así que Zeus decidió debilitarlos partiéndolos por la mitad, y le encargó a Apolo que les girara la cara hacia el corte y les cosiera la piel, dejando el ombligo como cicatriz del remiendo. Desde entonces cada mitad busca la suya.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palabra que usa Aristófanes para cada mitad es «símbolon», que en griego designaba un objeto partido en dos: cada parte se la quedaba una persona, y al juntarlas se reconocían. De ahí viene nuestra palabra símbolo, y de ahí viene también, veinticuatro siglos después, la media naranja.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo importante es dónde está colocado ese discurso. Va en el quinto lugar de siete, y después llegan Sócrates y Diotima a sostener algo bastante distinto. Platón no está proponiendo el mito de las mitades: lo está poniendo encima de la mesa para superarlo, y aun así es lo único que casi todo el mundo recuerda del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El discurso incluye además un detalle que la versión popular ha borrado. De aquellos tres tipos originales salían tres clases de búsqueda, y las mitades de los seres enteramente masculinos buscaban varones, y las de los femeninos, mujeres. La media naranja de Aristófanes no es heterosexual por defecto: lo dice el propio texto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La idea de la media naranja tiene veinticuatro siglos y en su propio libro la refutan cincuenta páginas después. Buscarla es lo que allí se discute.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Se desea lo que falta" },
+      {
+        b: "texto",
+        texto:
+          "Cuando le llega el turno, Sócrates no pronuncia un discurso: interroga al anfitrión, que acaba de decir que Eros es bellísimo, joven y perfecto. Le pregunta si el amor es amor de algo, y Agatón concede que sí. Le pregunta si se desea aquello que se tiene o aquello de lo que se carece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Agatón responde lo evidente, que se desea lo que no se tiene, y con eso queda desmontado en tres frases. Si Eros desea la belleza, es porque no la posee; y si no la posee, no puede ser bello. Todo el elogio anterior se viene abajo sin que nadie haya subido la voz.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El matiz que añade después salva el argumento de una objeción obvia. Quien tiene salud puede querer seguir teniéndola, así que también se desea conservar lo que se tiene; y eso también es carencia, porque nadie posee el futuro. Se desea, en los dos casos, algo que no está.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale una idea que se puede comprobar en cualquier vida. El deseo señala siempre un hueco, y por eso desaparece cuando el hueco se llena: quien consigue exactamente lo que quería descubre que lo quería mientras no lo tenía. El libro no lo dice para desanimar a nadie, lo dice para explicar por qué el deseo no se agota nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí conviene notar cómo discute Sócrates, porque es lo que más se copia de él. No contradice a Agatón ni le opone otra tesis: le hace dos preguntas cuya respuesta es evidente y deja que la conclusión la saque el otro. Quien queda refutado ha ido dando el sí en cada paso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que deseas señala lo que te falta, no lo que te conviene. Y por eso conseguirlo apaga el deseo en lugar de satisfacerlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La mujer que le enseñó" },
+      {
+        b: "texto",
+        texto:
+          "Sócrates hace entonces algo que no hace en ningún otro diálogo: en lugar de exponer su propia doctrina, dice que él aprendió esto de otra persona, y la nombra. Se llama Diotima, es sacerdotisa de Mantinea, y es la única maestra que Sócrates reconoce tener en toda la obra de Platón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Casi con seguridad no existió: los especialistas la consideran un personaje construido por Platón. Y sin embargo la decisión de inventarla es significativa, porque en aquel banquete no hay ni una mujer —la única que aparecía, la flautista, ha sido despedida— y la doctrina central del libro se pone en boca de una.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo primero que le enseña Diotima es que Eros no es un dios. Es un intermediario, algo entre lo mortal y lo divino, y le cuenta su nacimiento: fue engendrado en una fiesta por el Recurso y la Pobreza, así que heredó de su madre la carencia permanente y de su padre el ingenio para conseguir lo que le falta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa genealogía es una definición disfrazada de cuento, y explica bastante bien cómo se comporta el deseo. Nunca está satisfecho y nunca está quieto: quien desea algo se vuelve extraordinariamente ingenioso para conseguirlo, y en cuanto lo consigue vuelve a estar pobre. Eros va descalzo y duerme al raso, y no deja de tramar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El nombre está elegido y significa algo: Diotima quiere decir, más o menos, honrada por Zeus, y Mantinea era una ciudad cuyo nombre suena en griego a adivinación. Platón está avisando de que el personaje es una construcción, igual que avisa al poner el relato en tercera mano.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El deseo hereda dos cosas: la carencia, que no se acaba nunca, y el ingenio, que aparece justo cuando hace falta. Van siempre juntas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La escalera" },
+      {
+        b: "texto",
+        texto:
+          "La doctrina central del libro es un ascenso por peldaños. Se empieza deseando un cuerpo hermoso concreto, y quien mira con atención acaba advirtiendo que la belleza de ese cuerpo es la misma que la de otros, y pasa a amar la belleza de los cuerpos en general, que es el segundo escalón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después descubre que la belleza de un carácter vale más que la de un cuerpo, y ama las almas; desde ahí llega a apreciar la belleza de las leyes y de las costumbres que forman a esas almas; de ahí pasa a la de los conocimientos; y en lo alto se encuentra con la belleza misma, que no está en ninguna cosa concreta y no cambia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento es coherente y tiene un problema serio que se ha discutido durante siglos. En esa escalera, la persona amada es el primer peldaño, y se la deja atrás: no se la ama por ser quien es, sino por la belleza que en ella se manifiesta. Cualquier otro portador de esa belleza serviría igual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El filósofo Gregory Vlastos lo formuló con dureza en un ensayo de 1973 que sigue siendo la objeción de referencia: lo que Platón describe no es amor a las personas, sino amor a las cualidades que las personas tienen, y ahí no cabe querer a alguien concreto con sus defectos, que es lo que casi todo el mundo entiende por amar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si quieres a alguien por sus cualidades, estás queriendo las cualidades. La prueba es si otra persona que las tuviera te serviría igual.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La estatua del sátiro" },
+      {
+        b: "texto",
+        texto:
+          "Cuando el argumento ya está cerrado, se oye jaleo en la puerta y entra Alcibíades, borracho, coronado de violetas y sostenido por una flautista. Era el hombre más brillante y más peligroso de Atenas, y lo que hace a continuación desmonta el tono solemne de la velada: se niega a elogiar a Eros y elogia a Sócrates.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo compara con una de esas figuras de sátiro que se vendían en los talleres, feas y burdas por fuera, que se abrían por la mitad y tenían dentro figuras de dioses. Sócrates era feo, iba descalzo y hablaba de arrieros y de zapateros, y quien se molestaba en abrir aquello encontraba otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después cuenta, delante de todos, que intentó seducirlo. Que lo invitó a cenar, que consiguió que se quedara a dormir, que se metió bajo su manto, y que Sócrates lo trató exactamente igual que si hubiera dormido con su padre o con su hermano mayor. Lo cuenta humillado y admirado a partes iguales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade escenas de campaña que ningún biógrafo habría conseguido. En el sitio de Potidea, Sócrates caminaba descalzo sobre el hielo mientras los demás iban envueltos en pieles, y una mañana se quedó quieto pensando en un problema, sin moverse, y siguió allí toda la noche hasta que salió el sol y se marchó tras rezar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El final de la escena tiene una crueldad que solo se ve sabiendo lo que vino después. Alcibíades acabaría traicionando a Atenas y pasándose a Esparta, y su amistad con Sócrates se usó contra el filósofo en el juicio que lo condenó en el año 399. Platón escribe esta escena décadas más tarde, sabiéndolo todo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El elogio que vale no lo hace un discurso preparado: lo hace alguien que ha sido rechazado por ti y aun así cuenta lo que vio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El amor platónico no es esto" },
+      {
+        b: "texto",
+        texto:
+          "La expresión que ha llegado hasta hoy significa lo contrario de lo que dice el libro. Amor platónico se usa para un cariño sin deseo físico, y este es un texto sobre el deseo erótico explícito, discutido por hombres que hablan de cuerpos, de seducción y de a quién han conseguido llevarse a la cama.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La expresión la acuñó Marsilio Ficino, humanista florentino que tradujo a Platón al latín en el siglo quince y escribió un comentario a este mismo diálogo. Ficino trabajaba en una Europa cristiana, y lo que hizo con la escalera fue convertirla en un ascenso del alma hacia Dios, dejando el primer peldaño fuera de la vista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además algo que las ediciones divulgativas suelen callar y que conviene decir en claro. La relación de la que habla todo el libro es la institución ateniense por la que un hombre adulto se hacía cargo de un adolescente varón, con una parte educativa y otra sexual. Quien lee esto como un tratado universal sobre el amor está leyendo otro libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Decirlo no obliga a descartar el texto. Los argumentos de Diotima sobre el deseo y la carencia funcionan al margen de con quién se practique, igual que la geometría griega funciona aunque se hiciera con esclavos alrededor. Lo que no vale es citar el libro como si describiera lo que hoy entendemos por una pareja.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El desplazamiento tuvo además una utilidad práctica en su época. Presentar así el diálogo permitió que un texto sobre deseo entre varones circulara por conventos y universidades cristianas durante siglos, leído como un tratado de espiritualidad. Se salvó de la censura a cambio de dejar de decir lo que decía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una expresión puede acabar significando lo contrario de su origen. «Amor platónico» viene de un libro que habla de deseo físico en cada página.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El banquete sostiene que el deseo es señal de carencia, que por eso no se agota nunca, y que puede educarse para dirigirse a objetos cada vez menos perecederos. Y lo hace en la forma más rara posible: siete discursos en una fiesta, con un borracho irrumpiendo al final para hablar de otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su hallazgo de forma es tan importante como el de fondo. En lugar de exponer una tesis, Platón pone seis versiones equivocadas o incompletas antes de la suya, y deja que el lector vea cómo se corrigen unas a otras. Es el motivo de que el diálogo se siga leyendo cuando el tratado de al lado no lo lee nadie.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que deseas dice qué te falta. Educar el deseo no es dejar de desear: es ir queriendo cosas que no se te puedan quitar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La escalera deja atrás a las personas concretas, que es la objeción que Gregory Vlastos formuló en 1973 y que nadie ha contestado del todo: se ama la belleza que alguien porta, no a alguien. En el banquete no hay ninguna mujer salvo una a la que despiden y otra que probablemente no existió. Y el amor del que se habla es una institución concreta de la Atenas del siglo cuarto que las lecturas modernas suelen borrar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después es una cadena de malentendidos productivos. Ficino convirtió en el siglo quince la escalera en un ascenso hacia Dios y de ahí salió el amor platónico que hoy significa lo contrario del texto. El mito de las mitades, que Platón pone en boca de un comediógrafo para superarlo, se convirtió en la idea de la media naranja y se quedó. Y esa idea tiene marcador: los trabajos sobre creencias en la pareja, desde el estudio de Raymond Knee de 1998, encuentran que quien cree tener una única persona destinada abandona antes cuando aparecen las dificultades, porque las interpreta como prueba de haberse equivocado de mitad.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  banquete: BANQUETE,
   "alicia-maravillas": ALICIA_MARAVILLAS,
   "ley-de-atraccion": LEY_DE_ATRACCION,
   "sin-esfuerzo": SIN_ESFUERZO,

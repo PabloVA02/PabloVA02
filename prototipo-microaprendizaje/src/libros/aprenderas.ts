@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  banquete:
+    "Siete hombres con resaca deciden no beber y pronunciar por turno un discurso sobre el deseo. De esa fiesta del año 416 antes de Cristo salieron la media naranja y la expresión amor platónico, y las dos están mal entendidas.",
+
   "alicia-maravillas":
     "Un profesor de matemáticas improvisó esta historia en una barca en 1862 para entretener a tres niñas. Salió el primer libro infantil que no pretendía enseñar nada, y por eso pudo reírse de todo lo demás.",
 
