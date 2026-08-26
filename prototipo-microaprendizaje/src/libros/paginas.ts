@@ -105925,7 +105925,301 @@ const DIETA_FINANCIERA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Mi vida y obra, de Henry Ford (1922), en ocho páginas.
+
+   Ensayo de historia empresarial: TERCERA PERSONA y titular que afirma.
+   Economía, así que cada página lleva su persona, su fecha y su cifra.
+
+   La sexta página cuenta lo que el libro no cuenta de su autor, y no es
+   una nota al margen: mientras se publicaba este volumen, Ford financiaba
+   una campaña antisemita que se distribuyó por todo el mundo. Va dicho con
+   fechas y con lo que ocurrió después, incluida su retractación de 1927.
+   -------------------------------------------------------------------------- */
+
+const FORD_VIDA_OBRA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ford sostiene que el trabajo de una empresa es bajar el precio hasta que el producto lo pueda comprar quien lo fabrica",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1908, un automóvil era un objeto de lujo fabricado a mano. El modelo con el que Ford entró en el mercado costaba ochocientos cincuenta dólares y, diecisiete años después, el mismo coche costaba alrededor de doscientos sesenta. Se fabricaron más de quince millones de unidades, y durante años más de la mitad de los coches del mundo eran ese.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Henry Ford escribió este libro en 1922, con la ayuda de un periodista, en plena cumbre de su prestigio. Es a la vez una autobiografía, un manual de gestión y un manifiesto, y durante décadas fue lectura obligada para cualquiera que quisiera entender cómo se fabrica algo en serie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que un negocio no existe para repartir beneficios sino para servir, y que la manera de servir es bajar el precio constantemente hasta que el producto esté al alcance de todo el mundo, incluidos los que lo montan. Todo lo demás —los métodos, los salarios, la organización— se deduce de ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que hizo, lo que cuenta de por qué lo hizo y lo que se sabe hoy: cómo pasó el montaje de doce horas a hora y media, cuál fue el motivo real de los cinco dólares al día, qué condición llevaba aquel salario, cómo fijaba los precios, qué calla este libro sobre su autor y qué le pasó después a la empresa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un producto que no puede comprar quien lo fabrica tiene un mercado pequeño. Esa observación de 1922 cambió más cosas que cualquier tecnología.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El montaje pasó de doce horas a hora y media al dejar de mover a las personas",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cambio que hizo famosa a la fábrica ocurrió en 1913 y consistió en invertir una relación. Hasta entonces, un grupo de obreros rodeaba un chasis parado y le iba montando las piezas, moviéndose alrededor y yendo a buscar lo que hacía falta. La idea nueva fue dejar quietos a los operarios y mover el chasis delante de ellos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto fue de otra escala. El montaje de un chasis pasó de unas doce horas y media a algo más de hora y media, y ese factor se repitió en cada subconjunto de la fábrica. La rebaja de precio de los años siguientes no vino de comprar más barato ni de pagar menos: vino de ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro explica los tres principios que lo hacían funcionar y siguen valiendo. Que el material llegue al operario y no al revés, porque caminar no monta nada. Que cada persona haga una sola operación, para que no tenga que cambiar de herramienta ni de posición. Y que todo esté colocado a la altura y a la distancia exactas en que se usa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que el libro no cuenta es el precio que pagaba quien estaba en la línea. Aquel trabajo consistía en repetir un movimiento cada cuarenta segundos durante nueve horas, sin poder hablar, sin poder parar y sin ver nunca el resultado completo, y esa monotonía tuvo consecuencias que la propia empresa descubrió muy pronto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El chasis pasó de doce horas a hora y media al dejar quietos a los operarios y mover el trabajo. Caminar a buscar piezas no monta nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los cinco dólares al día no fueron una idea generosa: fueron una respuesta a una crisis de personal",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 5 de enero de 1914, la empresa anunció que pagaría cinco dólares por jornada, más del doble de lo que se pagaba entonces en el sector. La noticia dio la vuelta al mundo y miles de personas se presentaron a las puertas de la fábrica. En este libro, Ford explica la decisión como una manera de que sus obreros pudieran comprar coches.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los datos de la propia empresa cuentan otra cosa. En 1913, el año anterior al anuncio, la rotación de personal alcanzó alrededor del trescientos setenta por ciento: para mantener una plantilla de unos catorce mil trabajadores hubo que contratar a más de cincuenta mil personas en doce meses, porque la gente se marchaba a las pocas semanas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo de que se marcharan era el trabajo. La cadena había multiplicado la producción y había convertido el oficio en una repetición insoportable, y ninguna cantidad de reclutamiento podía compensar eso. Formar continuamente a gente nueva costaba una fortuna y estropeaba la calidad, y ese era el problema que había que resolver.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El salario alto lo resolvió. La rotación se desplomó, la fábrica pudo elegir a quién contrataba y los costes de formación cayeron, y a partir de ahí la medida resultó rentable. La explicación que da el libro —que se trataba de crear consumidores— es una racionalización posterior, elegante y falsa, que se sigue repitiendo en las escuelas de negocios.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El salario alto no salió de una idea sobre el consumo: salió de que en un año se marcharon cincuenta mil personas de una plantilla de catorce mil.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Aquel salario no era un salario: había que ganárselo pasando una inspección en casa",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una parte de aquella medida que este libro no menciona y que cambia por completo cómo se lee. Los cinco dólares no eran el sueldo: el sueldo seguía siendo aproximadamente la mitad, y el resto era un reparto de beneficios al que solo tenían derecho los trabajadores que la empresa considerara aptos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para determinar quién era apto, la compañía creó un departamento sociológico con alrededor de doscientos investigadores. Su trabajo consistía en visitar los domicilios de los obreros, sin avisar, y comprobar cómo vivían: si bebían, si la casa estaba limpia, si ahorraban, si tenían realquilados, si la mujer trabajaba fuera y cómo se llevaban en el matrimonio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Quien no pasaba la inspección cobraba la mitad y tenía un plazo para corregir su conducta; si no lo hacía, podía ser despedido. A los trabajadores inmigrantes, que eran una parte enorme de la plantilla, se les exigía además asistir a clases de inglés y de costumbres americanas organizadas por la propia empresa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquello se presentó entonces como una obra social y hoy tiene un nombre más exacto: una condición de vigilancia doméstica atada al salario. Es la parte de la historia de los cinco dólares que casi nunca se cuenta, y explica bastante mejor que ninguna teoría cómo entendía aquella empresa la relación con su gente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene además situar aquello en su época para no juzgarlo con anacronismo, y el resultado es el mismo. Aquel departamento se cerró a comienzos de los años veinte, no por escrúpulos sino porque dejó de hacer falta: una vez estabilizada la plantilla, la vigilancia salía cara y la empresa la sustituyó por un servicio de seguridad interno de otra naturaleza.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La mitad de aquel salario dependía de que un inspector visitara tu casa sin avisar y aprobara cómo vivías. Eso no se cuenta con la cifra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Fijaba el precio primero y después obligaba a la empresa a encontrar la manera",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea de gestión más aprovechable del libro es también la más contraria al procedimiento habitual. Lo normal es calcular lo que cuesta fabricar algo, añadir un margen y obtener el precio. Ford lo hacía al revés: decidía a qué precio quería vender el año siguiente y desde ahí trabajaba hacia atrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es que un coste calculado desde dentro se acepta como un hecho de la naturaleza, y que en cuanto se fija un precio imposible deja de aceptarse. Escribe que en su empresa nunca se consideró ningún coste como fijo, y que la primera reacción de cualquier departamento ante una rebaja imposible es explicar por qué no se puede, y la segunda es encontrar cómo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La otra pieza es la integración vertical. Ford llegó a poseer minas de hierro, bosques, un ferrocarril, barcos y una acería, y en su gran fábrica entraba mineral por un extremo y salían coches por el otro. Su motivo no era el control por el control: era que cada intermediario añadía un margen que acababa en el precio final.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una parte que envejeció mal y que conviene señalar. Ford despreciaba abiertamente a los contables, a los expertos y a las reuniones, y presumía de no tener organigrama, ni títulos, ni estadísticas de gestión. Eso funcionó mientras la empresa fabricaba un solo producto, y fue exactamente lo que la hundió cuando dejó de bastar con uno.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Decide primero el precio al que quieres vender y trabaja hacia atrás. Un coste calculado desde dentro se acepta como si fuera una ley natural.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Mientras escribía este libro, su autor financiaba una campaña antisemita que se difundió por todo el mundo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esto no es una nota al margen y no se puede omitir al resumir el libro. Ford compró en 1919 un periódico local, el Dearborn Independent, y a partir de mayo de 1920 publicó en él una serie de artículos que atribuían a los judíos una conspiración para dominar el mundo. Se publicaron durante años y se recopilaron en volúmenes que se tradujeron y distribuyeron internacionalmente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El periódico se repartía a través de la red de concesionarios de la marca, que tenían asignadas cuotas de suscripción, y llegó a tirar cientos de miles de ejemplares. Este libro, publicado en 1922, coincide exactamente con esa campaña y no la menciona en ninguna página.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su circulación en Europa tuvo consecuencias documentadas. Hitler lo citó con elogio, mantuvo un retrato de Ford en su despacho de Múnich y en 1938 el gobierno alemán le concedió su máxima condecoración para extranjeros, que Ford aceptó. Es el único empresario estadounidense que aparece nombrado favorablemente en el libro que Hitler escribió en 1925.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1927, tras una demanda judicial y una campaña de boicot, Ford firmó una retractación pública en la que decía haber ignorado el contenido de aquellas publicaciones, pedía perdón y ordenaba retirar los volúmenes de circulación. El periódico cerró aquel mismo año. Nunca quedó claro cuánto sabía, y los ejemplares siguieron circulando por Europa durante décadas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro puede ser útil y su autor haber hecho algo que no se puede omitir al resumirlo. Contar solo la cadena de montaje es contarlo a medias.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La empresa estuvo a punto de desaparecer por hacer exactamente lo que este libro recomienda",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro se publicó en el momento de máximo dominio, y lo que vino después es la mejor comprobación de sus tesis. Ford insistió durante años en fabricar un solo modelo, siempre igual y cada vez más barato, convencido de que eso era servir al cliente y de que cualquier cambio era un capricho de vendedores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su competidora principal hizo lo contrario: varios modelos para distintos bolsillos, cambios de diseño cada año, colores, financiación a plazos y coches usados aceptados como parte del pago. Los compradores, que ya tenían coche, no querían uno más barato: querían uno distinto, y esa diferencia decidió la década.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1927 hubo que rendirse. Se dejó de fabricar aquel modelo después de diecinueve años, y la reconversión de las fábricas obligó a parar la producción durante seis meses, con decenas de miles de trabajadores sin actividad. La empresa perdió el liderazgo del mercado estadounidense y tardó décadas en recuperarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mismo exceso de confianza produjo otro fracaso menos conocido. En 1928 Ford compró en la Amazonia brasileña una extensión enorme de selva para plantar caucho y controlar también esa materia prima, y montó allí una ciudad con las costumbres de Michigan. El proyecto no llegó a producir caucho para la empresa y se vendió al Estado brasileño en 1945 por una fracción de lo invertido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La otra frase famosa del libro conviene también matizarla. Ford escribe que el cliente puede elegir cualquier color mientras sea el negro, y es cierto que durante una decena de años solo se pintó de negro, porque era el esmalte que secaba más deprisa y la línea no podía esperar. Antes de 1914 hubo varios colores, y después de 1926 volvieron.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los clientes que ya tenían coche no querían uno más barato: querían uno distinto. Servir al cliente no es siempre bajar el precio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que un negocio existe para servir y no para repartir beneficios, que el precio se decide primero y el coste se resuelve después, que ningún coste es fijo, y que un producto que no puede comprar quien lo fabrica tiene un mercado pequeño. Las cuatro ideas cambiaron la industria del siglo veinte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su aportación real fue de escala. La cadena de montaje no la inventó Ford —el despiece del trabajo venía de mucho antes y el transporte continuo se usaba en los mataderos de Chicago—, pero fue quien lo llevó a un producto complejo y quien demostró que el resultado no era abaratar un poco, sino cambiar quién puede comprar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Fija el precio al que quieres vender y trabaja hacia atrás. Es la idea del libro que sigue funcionando y no necesita nada del resto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es un autorretrato escrito con ayuda de un periodista en la cumbre del éxito, y explica sus decisiones con motivos más nobles que los reales: el salario alto se presenta como una idea sobre el consumo cuando fue la respuesta a una rotación del trescientos setenta por ciento, y no dice ni una palabra de que la mitad de aquel dinero dependía de una inspección domiciliaria. Su desprecio por los contables, los expertos y las reuniones funcionó con un solo producto y fue lo que hundió a la empresa cuando dejó de bastar con uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después reparte las cuentas. Su método de producción fue estudiado, copiado y finalmente corregido: los ingenieros japoneses que rediseñaron la fabricación de automóviles a partir de los años cincuenta partieron de leer a Ford y le dieron la vuelta, sustituyendo las series enormes por lotes pequeños y por la posibilidad de que cualquier operario detuviera la línea. Su empresa, mientras tanto, tardó hasta 1941 en reconocer al sindicato, cuatro años después de que sus vigilantes apalearan a los organizadores sindicales delante de los fotógrafos en un episodio que se conoce por el nombre de la pasarela donde ocurrió.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "ford-vida-obra": FORD_VIDA_OBRA,
   "dieta-financiera": DIETA_FINANCIERA,
   "haz-cosas-dificiles": HAZ_COSAS_DIFICILES,
   "alegria-perderse": ALEGRIA_PERDERSE,

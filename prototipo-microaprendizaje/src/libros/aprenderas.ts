@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "ford-vida-obra":
+    "El coche con el que Ford entró en el mercado en 1908 costaba ochocientos cincuenta dólares y diecisiete años después costaba doscientos sesenta. Este libro de 1922 explica cómo se hizo, y también qué prefirió no contar.",
+
   "dieta-financiera":
     "Alrededor de la mitad de los adultos españoles falla en las tres preguntas básicas sobre inflación, interés compuesto y diversificación. Este libro empieza antes de todo eso: en la vergüenza de no saber.",
 

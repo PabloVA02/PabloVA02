@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "ford-vida-obra": [
+    "cómo el montaje pasó de doce horas a hora y media",
+    "qué problema resuelve de verdad pagar muy por encima del mercado",
+    "qué condición llevaba aquel dinero y no aparece en el libro",
+    "por qué conviene fijar el precio antes de calcular el coste",
+    "que servir al cliente no consiste siempre en bajar el precio",
+  ],
+
   "dieta-financiera": [
     "por qué hay que medir un mes antes de cambiar nada",
     "que el colchón va antes que invertir aunque salga peor en aritmética",

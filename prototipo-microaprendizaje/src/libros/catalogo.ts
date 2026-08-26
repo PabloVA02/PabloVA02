@@ -388,7 +388,7 @@ export const CATALOGO: Ficha[] = [
   { id: "dinero-domina-juego", titulo: "Dinero: domina el juego", autor: "Tony Robbins", ano: 2014, categoria: "Economía", estado: "escrito" },
 
   { id: "elon-musk", titulo: "Elon Musk", autor: "Walter Isaacson", ano: 2023, categoria: "Economía", estado: "escrito" },
-  { id: "ford-vida-obra", titulo: "Mi vida y obra", autor: "Henry Ford", ano: 1922, categoria: "Economía", estado: "pendiente" },
+  { id: "ford-vida-obra", titulo: "Mi vida y obra", autor: "Henry Ford", ano: 1922, categoria: "Economía", estado: "escrito" },
   { id: "coach-silicon-valley", titulo: "El coach de Silicon Valley", autor: "Schmidt, Rosenberg y Eagle", ano: 2019, categoria: "Economía", estado: "pendiente" },
   { id: "promesa-lapiz", titulo: "La promesa de un lápiz", autor: "Adam Braun", ano: 2014, categoria: "Economía", estado: "pendiente" },
   { id: "quien-queso", titulo: "¿Quién se ha llevado mi queso?", autor: "Spencer Johnson", ano: 1998, categoria: "Economía", estado: "escrito" },
