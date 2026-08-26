@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "ley-de-atraccion": [
+    "de dónde viene realmente la doctrina de atraer lo que se piensa",
+    "cómo se avanza de escalón en escalón cuando uno está hundido",
+    "por qué una cifra exacta sin medición detrás es una técnica de venta",
+    "que repetirse frases positivas empeora a quien tiene baja la autoestima",
+    "el precio que paga quien cree haber atraído su propia desgracia",
+  ],
+
   "sin-esfuerzo": [
     "por qué preguntarse si algo podría ser fácil abre alternativas",
     "que una tarea sin final definido se come todo el tiempo disponible",

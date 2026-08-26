@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "ley-de-atraccion":
+    "El libro afirma que nada entra en la vida de una persona sin que lo haya atraído con su pensamiento, y que eso incluye la enfermedad. Debajo de esa doctrina hay dos herramientas que funcionan por razones corrientes.",
+
   "sin-esfuerzo":
     "Amundsen recorría unos veinte kilómetros diarios hiciera el tiempo que hiciera y volvió con todos sus hombres; Scott forzaba los días buenos y murió. McKeown parte de ahí para separar el esfuerzo que compra algo del que no.",
 

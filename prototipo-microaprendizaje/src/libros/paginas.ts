@@ -96166,7 +96166,317 @@ const SIN_ESFUERZO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La ley de la atracción, de Esther y Jerry Hicks (2006), en ocho páginas.
+
+   TERCERA PERSONA. Es un libro que afirma que la enfermedad y la desgracia
+   las atrae quien las sufre, y en un texto así el tú del apartado 4.7 dice
+   algo cruel: apartado 4 bis. Solo entra en la caja de la página de la
+   escala emocional, que es la parte que sí sirve.
+
+   El marcador va repartido: Wood (2009) en su página, Ehrenreich y la
+   revisión de Coyne (2007) en la que toca, y la muerte de Jerry Hicks en
+   2011 en la conclusión, dicha como dato y sin ensañamiento.
+   -------------------------------------------------------------------------- */
+
+const LEY_DE_ATRACCION: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro sostiene que todo lo que le ocurre a una persona lo ha atraído ella con sus pensamientos",
+      },
+      {
+        b: "texto",
+        texto:
+          "La afirmación central de este libro es más grande de lo que suele recordarse. No dice que el optimismo ayude, ni que una actitud abierta facilite las oportunidades: dice que nada entra en la vida de nadie sin que esa persona lo haya invitado con su pensamiento, y que eso vale también para lo que nadie querría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esther Hicks presenta el material como dictado por un conjunto de entidades no físicas al que llama Abraham. Su marido, Jerry Hicks, había sido distribuidor de venta directa y lector de Napoleón Hill, y fue quien organizó los seminarios y las publicaciones. Este libro, de 2006, es el resumen de esas enseñanzas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese mismo año se estrenó la película El secreto, de Rhonda Byrne, en la que Esther Hicks aparecía en la primera versión y de la que fue retirada en las siguientes tras un desacuerdo contractual. Entre las dos cosas convirtieron la ley de la atracción en un fenómeno de masas que sigue en pie veinte años después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue separa lo aprovechable de lo que no lo es: de dónde viene realmente esta doctrina, cuál es la única herramienta del libro que funciona, qué es la intención por tramos, qué enseña la cifra de los diecisiete segundos, qué ocurre cuando alguien repite afirmaciones positivas y quién acaba pagando el precio de creerse todo esto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La afirmación del libro no es que el optimismo ayude. Es que nada le ocurre a nadie sin que lo haya atraído, y eso incluye lo que nadie querría.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La doctrina no es nueva ni tiene nada de oriental: nació en Estados Unidos hace ciento cincuenta años",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene situar de dónde viene esto, porque el libro se presenta como una revelación sin genealogía. Pertenece a una corriente llamada Nuevo Pensamiento, surgida en Estados Unidos a finales del siglo diecinueve, que sostenía que la mente configura la realidad material y que la enfermedad se cura pensando correctamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El eslabón más claro es un librito de 1910 titulado La ciencia de hacerse rico, de Wallace Wattles, que ya contiene la idea entera: pensar de determinada manera atrae la riqueza. Rhonda Byrne ha contado que ese fue el libro que le dio la idea de rodar El secreto casi un siglo después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale también Napoleón Hill, cuyo Piense y hágase rico se publicó en 1937 y vendió decenas de millones de ejemplares, y de Hill sale directamente la formación de Jerry Hicks. La cadena es continua y es estadounidense de principio a fin, aunque el vocabulario del libro suene a espiritualidad de otro sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Saber esto cambia cómo se lee. No se está ante una tradición milenaria puesta al día, sino ante la enésima versión de un producto editorial que lleva vendiéndose ciento cincuenta años, cada vez con un envoltorio nuevo, y cuya promesa central no ha necesitado nunca aportar una sola prueba para seguir vendiéndose.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un rasgo comercial que se repite en toda la cadena. Cada versión llega acompañada de seminarios, cursos y material adicional, y quien difunde la enseñanza vive de difundirla. Eso no la hace falsa por sí solo, pero explica por qué el producto se renueva cada generación sin cambiar de contenido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Esta doctrina lleva vendiéndose desde 1900 con un envoltorio nuevo cada generación, y en ciento cincuenta años no ha aportado ninguna prueba.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La escala emocional es la única herramienta del libro que se sostiene sola",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro propone una lista ordenada de veintidós estados emocionales, desde la alegría y la gratitud en lo más alto hasta el miedo, la desesperación y la impotencia en lo más bajo, pasando por la frustración, la ira, la culpa y el aburrimiento. Es una escala, y la instrucción que la acompaña es la parte valiosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa instrucción dice que no se debe intentar saltar de abajo del todo hasta arriba del todo. Alguien hundido en la impotencia no puede sentir gratitud por decisión propia, y exigírselo solo añade el fracaso de no conseguirlo. Lo que hay que buscar es el escalón inmediatamente superior, aunque siga siendo una emoción desagradable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia es contraintuitiva y clínicamente sensata: para alguien que está en la desesperación, enfadarse es una mejora. La ira tiene energía y dirección, y la desesperación no tiene ninguna de las dos. Pasar de no poder levantarse a estar furioso es avanzar, aunque desde fuera parezca lo contrario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esta idea coincide con lo que hacen las terapias que funcionan, y no necesita ninguna metafísica detrás. En terapia cognitiva no se le pide a nadie que se sienta bien: se trabaja con el pensamiento inmediatamente más realista que el actual. La escala de los Hicks es una versión doméstica y utilizable de ese mismo principio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El propio libro pone ejemplos de escalones intermedios que valen para cualquiera. De la impotencia se sube a la culpa, de la culpa al miedo, del miedo a la ira, de la ira a la frustración y de la frustración al aburrimiento, que ya es un estado neutro desde el que se puede hacer algo. Nadie sube seis peldaños de golpe.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si estás hundido, no busques sentirte bien: busca el escalón siguiente. Pasar de la desesperación al enfado es avanzar, aunque no lo parezca.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Decidir de antemano qué se quiere de cada tramo del día es una costumbre útil por razones corrientes",
+      },
+      {
+        b: "texto",
+        texto:
+          "Otra herramienta del libro es lo que llama intención por tramos. Consiste en dividir el día en segmentos —el trayecto, la reunión, la comida, la vuelta a casa— y decidir antes de entrar en cada uno qué se quiere que ocurra ahí, en una frase, en lugar de entrar por inercia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro lo explica como una manera de emitir la vibración correcta. Hay una explicación mucho más simple y comprobable: quien entra en una reunión habiendo decidido que quiere salir con una fecha concreta se comporta de otro modo que quien entra a ver qué pasa, y en efecto sale más veces con la fecha.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso le suma el cuaderno de aspectos positivos, que consiste en escribir cosas que funcionan de una situación o de una persona con la que hay conflicto. Tampoco hace falta ninguna teoría vibratoria: lo que hace es obligar a mirar datos que el enfado había apartado de la vista, y eso cambia lo que se decide después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el patrón de todo el libro y conviene reconocerlo. Hay prácticas razonables, casi todas de sentido común organizado, envueltas en una explicación que no las necesita. Se pueden coger las prácticas y dejar la explicación, y lo que se pierde por el camino no es nada que se pudiera comprobar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La versión más útil del ejercicio consiste en escribir una sola frase antes de cada tramo, no una lista. Una frase obliga a elegir qué es lo importante de ese rato, y esa elección es la que produce el cambio de comportamiento; una lista de seis objetivos devuelve exactamente a la inercia que se quería evitar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Entrar en una reunión habiendo decidido qué se quiere sacar cambia el comportamiento de quien entra. Para eso no hace falta ninguna vibración.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La cifra de los diecisiete segundos enseña cómo está construido todo el libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entre las enseñanzas más repetidas de este material hay una que da una cifra exacta: sostener un pensamiento durante diecisiete segundos basta para que empiece a atraer lo que se piensa, y sostenerlo sesenta y ocho segundos —cuatro veces diecisiete— equivale a unas dos mil horas de acción.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa frase merece detenerse, porque es el mejor resumen de cómo está hecho el libro. Contiene una cifra precisa, una operación aritmética y una equivalencia cuantificada, y ninguna de las tres procede de ninguna medición: nadie ha contado nunca segundos ni ha comparado nada con dos mil horas de trabajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La precisión numérica es aquí una técnica de persuasión, no un dato. Un número exacto se recuerda mejor que una afirmación vaga, resulta más creíble porque parece medido, y se puede repetir en un seminario. Cambiar diecisiete por dieciséis o por veinte no alteraría absolutamente nada de la doctrina.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es además una afirmación construida para no poder fallar. Si alguien pasa sus sesenta y ocho segundos pensando en algo y no ocurre, la explicación disponible es que había dudas mezcladas, que la vibración no era pura o que aún no era el momento. Ninguna experiencia puede contradecirla, y eso es exactamente lo que la deja fuera de lo comprobable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene contrastarlo con cómo se comportan las afirmaciones que sí resisten. Un dato real viene con su procedimiento —cuántas personas, en qué año, medido cómo— y admite que otro lo repita y obtenga algo distinto. Aquí no hay procedimiento que repetir, y por tanto tampoco hay manera de equivocarse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una cifra exacta sin medición detrás es una técnica de venta. Y una afirmación que ningún resultado puede contradecir no está afirmando nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Repetir afirmaciones positivas empeora precisamente a quien peor está",
+      },
+      {
+        b: "texto",
+        texto:
+          "La práctica más difundida de este género consiste en repetirse frases favorables sobre uno mismo. Es lo que hacen millones de personas ante el espejo por la mañana, y a diferencia de la doctrina que la sustenta, esa práctica concreta sí se puede llevar a un laboratorio y comprobar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se hizo, y el resultado es incómodo. Joanne Wood y sus colaboradores publicaron en 2009 en la revista Psychological Science un estudio en el que pidieron a los participantes que repitieran una frase del tipo «soy una persona digna de ser querida». Quienes tenían la autoestima alta mejoraron ligeramente su estado de ánimo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Quienes tenían la autoestima baja —es decir, aquellos a los que va dirigido este tipo de ejercicio— se sintieron peor que el grupo que no repitió nada. La explicación que proponen los autores es que la frase choca frontalmente con lo que la persona cree de sí misma, y ese choque activa todos los argumentos contrarios a la vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí funcionó en ese mismo trabajo fue permitir que la gente pensara en la frase sin obligarse a creerla, admitiendo también lo que la contradecía. Es otra vez el principio de la escala emocional del propio libro: se avanza desde donde se está, y no desde donde a uno le gustaría estar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado encaja además con algo que la psicología sabe desde hace tiempo sobre la persuasión: los argumentos que uno mismo genera pesan mucho más que los que recibe. Si la frase obliga al oyente a fabricar los contraargumentos, es su propia cabeza la que se convence de lo contrario.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una frase que choca de frente con lo que alguien cree de sí mismo activa todos los argumentos en contra. Por eso empeora a quien peor está.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El precio de esta doctrina lo paga quien enferma, quien pierde el trabajo y quien sufre un daño",
+      },
+      {
+        b: "texto",
+        texto:
+          "Toda la responsabilidad que promete este libro tiene una contrapartida que sus lectores rara vez calculan. Si nada entra en la vida de nadie sin que lo haya atraído, entonces quien recibe un diagnóstico grave, quien pierde su casa o quien sufre una agresión ha atraído eso mismo. La doctrina no admite excepciones porque su fuerza está justamente en no admitirlas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el fondo que denunció Barbara Ehrenreich en el libro que publicó en 2009 tras pasar por un cáncer de mama. Contó cómo, en foros y grupos de apoyo, se le exigía una actitud positiva permanente, cómo expresar rabia se recibía como un fallo suyo, y cómo aquella obligación de sonreír añadía culpa a una enfermedad que ya bastaba por sí sola.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La afirmación médica implicada también se ha estudiado. Una revisión publicada en 2007 en Psychological Bulletin por James Coyne y sus colaboradores examinó la literatura sobre estado psicológico y supervivencia en cáncer y no encontró pruebas fiables de que la actitud alargue la vida de un enfermo oncológico. Lo que sí mejora es cómo se sobrelleva el tratamiento, que no es poco y es otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un efecto que se ve poco y hace daño en silencio. Cuando alguien cree que atrae lo que le pasa, deja de mirar las causas que no controla —un mercado laboral, un barrio, una enfermedad hereditaria, una decisión ajena— y se queda buscando el pensamiento equivocado que lo provocó. Esa búsqueda no acaba nunca porque no hay nada que encontrar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una doctrina que atribuye todo a la persona convierte cada desgracia en una culpa. Y la culpa no se puede refutar, porque no hay nada que buscar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro deja dos cosas utilizables. Una es la escala emocional y su instrucción de avanzar de escalón en escalón en lugar de exigirse un salto, que coincide con lo que hacen las terapias eficaces. La otra es decidir de antemano qué se quiere de cada tramo del día, que cambia el comportamiento por razones perfectamente terrenales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay algo que explica su éxito y que no conviene despachar. A mucha gente que se sentía a merced de las circunstancias, este material le devolvió la sensación de tener alguna influencia sobre su vida, y esa sensación, aunque venga por un camino falso, mueve a hacer cosas que antes no se hacían.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo aprovechable del libro son dos costumbres corrientes. La explicación que llevan encima no aporta nada que se pueda comprobar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y falla en lo esencial. No hay en todo el libro una sola prueba, ni un experimento, ni una fuente, y sus afirmaciones están construidas de manera que ningún resultado pueda contradecirlas. Las cifras exactas que da —los diecisiete segundos, las dos mil horas— no proceden de ninguna medición. Y su tesis convierte cualquier desgracia en responsabilidad de quien la sufre, lo que es falso y además hace daño a quien peor está.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después conviene contarlo sin ensañarse, porque afecta a personas reales. La ley de la atracción se convirtió tras El secreto en un mercado enorme de seminarios y programas de acompañamiento, y el propio Jerry Hicks, coautor de este libro, murió de leucemia en noviembre de 2011, después de recibir tratamiento médico. Un material que sostiene que la enfermedad se atrae y se cura pensando tiene que responder a ese hecho, y sus lectores llevan desde entonces discutiendo cómo encajarlo. La escala emocional, mientras tanto, sigue siendo buena.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "ley-de-atraccion": LEY_DE_ATRACCION,
   "sin-esfuerzo": SIN_ESFUERZO,
   "principios-orden-mundial": PRINCIPIOS_ORDEN_MUNDIAL,
   "cronica-muerte-anunciada": CRONICA_MUERTE_ANUNCIADA,
