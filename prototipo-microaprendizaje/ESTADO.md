@@ -10,7 +10,7 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 | shorts con sus cuatro fotos | 532 | 225 |
 | imágenes puestas | 2139, verificadas hasta 1854 | |
 | libros en el catálogo | 418 | |
-| libros con resumen escrito a mano | 354 | 64 |
+| libros con resumen escrito a mano | 370 | 48 |
 | cubiertas dibujadas por Pablo | 277 | 61 escritos sin dibujo |
 | resúmenes antiguos generados | 0 | 0 |
 | títulos que no caben en una línea | | 0 |
@@ -96,8 +96,12 @@ sin las cubiertas, sin Deportes y sin Vidas—. El script no avisa: coge el
 npx vite build --config vite.uno.config.mjs          # ← esta es la que falta
 node scripts/orden-fotos.mjs 760 > /tmp/orden-fotos.json
 node scripts/movil.mjs --dist dist-uno --lista /tmp/orden-fotos.json \
-     --ancho 210 --calidad 0.48 --tope 0.30 \
-     --cubiertas-ancho 350 --cubiertas-calidad 0.68
+     --ancho 200 --calidad 0.45 --tope 0.16 \
+     --cubiertas-ancho 340 --cubiertas-calidad 0.66
+
+**Y esto ya no da más de sí.** Con 370 libros y 277 cubiertas quedan
+0,2 MB para fotografías: entran 35 de las 760. A 400 no cabe. La salida
+es `docs/` y GitHub Pages, que no tiene tope, y es un clic de Pablo.
 ```
 
 Dos maneras de comprobar que no ha pasado otra vez, antes de publicar:
