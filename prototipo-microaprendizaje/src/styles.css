@@ -1181,6 +1181,175 @@ button {
    suelo, y 14 de aire para que la ficha no la toque. */
 .inicio-scroll { padding-bottom: 78px; }
 
+/* ==========================================================================
+   COLECCIONES — el azulejo de la tira de inicio
+
+   Sale de las capturas de Headway del 27 de agosto. Su azulejo es un cuadrado
+   de color con el título dentro, grande, y la promesa debajo; el nuestro mide
+   248 × 186, o sea que en un móvil de 390 entra uno entero y asoma el
+   siguiente, que es lo que hace que se entienda que la tira sigue.
+
+   Lo que cambia respecto al suyo es lo de la esquina. Headway pone una
+   ilustración de archivo por colección —un dedo de espuma, un cerdito, una
+   diana— que no dice nada de lo que hay dentro. Aquí van las tres primeras
+   cubiertas de verdad, en abanico, y contestan la única pregunta que se hace
+   cualquiera antes de tocar: qué hay aquí.
+   ========================================================================== */
+.colec {
+  position: relative;
+  flex: none;
+  width: 248px;
+  height: 186px;
+  padding: 15px 16px;
+  border-radius: 16px;
+  overflow: hidden;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: left;
+  color: #fff;
+  /* Los tonos son oscuros y saturados, así que el filete blanco de dentro es
+     lo único que separa un azulejo del de al lado cuando los dos caen en la
+     misma familia de color. */
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.13);
+}
+
+.colec-titulo {
+  font-size: 20px;
+  font-weight: 760;
+  line-height: 1.14;
+  letter-spacing: -0.028em;
+  /* Sitio para el abanico de cubiertas, que empieza en la mitad derecha. */
+  max-width: 88%;
+}
+
+.colec-promesa {
+  font-size: 12.5px;
+  line-height: 1.32;
+  font-weight: 480;
+  color: rgba(255, 255, 255, 0.82);
+  /* El abanico empieza a 124 de los 186 de alto, así que por encima de esa
+     línea la promesa puede usar el azulejo entero. A 62 % se partía en tres
+     renglones para no pisar unas cubiertas que están veinte puntos más
+     abajo. */
+  max-width: 86%;
+}
+
+/* El abanico. Se dibuja del revés y se le da la vuelta aquí para que la
+   primera cubierta quede encima de las otras dos. */
+.colec-pila {
+  position: absolute;
+  right: -12px;
+  bottom: -16px;
+  display: flex;
+  flex-direction: row-reverse;
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.4));
+}
+
+/* `.carrusel .portada` fija las cubiertas a 148 × 222 con `!important` —es la
+   medida de las fichas de la tira— y el abanico vive dentro de un carrusel,
+   así que hay que ganarle con la misma arma. Y con un selector más, además:
+   con `!important` en los dos y la misma especificidad gana el que va después
+   en el fichero, y ése está tres mil líneas más abajo. 52 × 78 mantiene la
+   proporción 2:3 de una cubierta. */
+.colec .colec-pila .portada {
+  width: 52px !important;
+  height: 78px !important;
+  border-radius: 5px;
+}
+
+.colec-pila-una { display: block; }
+.colec-pila-una + .colec-pila-una { margin-right: -28px; }
+.colec-pila-una:nth-child(1) { transform: rotate(9deg); }
+.colec-pila-una:nth-child(2) { transform: rotate(2deg); }
+.colec-pila-una:nth-child(3) { transform: rotate(-6deg); }
+
+.colec-cuenta {
+  margin-top: auto;
+  align-self: flex-start;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.26);
+  font-size: 11.5px;
+  font-weight: 640;
+  letter-spacing: 0.01em;
+}
+
+/* --- La pantalla de dentro ----------------------------------------------- */
+
+.colecp {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--fondo);
+  color: var(--paper);
+}
+
+.colecp-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding-bottom: 26px;
+}
+
+.colecp-cabecera {
+  position: relative;
+  padding: 20px var(--shell-pad) 20px;
+  color: #fff;
+}
+
+.colecp-cerrar {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 34px;
+  height: 34px;
+  background: rgba(0, 0, 0, 0.28);
+  color: #fff;
+}
+
+.colecp-titulo {
+  margin: 26px 0 0;
+  padding-right: 42px;
+  font-size: 27px;
+  font-weight: 770;
+  line-height: 1.14;
+  letter-spacing: -0.032em;
+  text-wrap: balance;
+}
+
+.colecp-promesa {
+  margin: 7px 0 0;
+  font-size: 14.5px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.colecp-datos {
+  margin: 12px 0 0;
+  font-size: 12px;
+  font-weight: 640;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.62);
+}
+
+/* El párrafo que dice qué los junta. Va sobre el fondo de la app y no dentro
+   de la cabecera de color: es lo que hay que leer despacio, y encima de un
+   color saturado nadie lee despacio. */
+.colecp-razon {
+  margin: 18px 0 0;
+  padding: 0 var(--shell-pad);
+  font-size: 15px;
+  line-height: 1.52;
+  color: rgba(242, 236, 225, 0.78);
+  text-wrap: pretty;
+}
+
+.colecp-parrilla { margin-top: 22px; }
+
 .parrilla {
   display: grid;
   /* `minmax(0, 1fr)` y no `1fr`: el mínimo de una pista `1fr` es `auto`, así

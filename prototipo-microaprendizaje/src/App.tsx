@@ -24,11 +24,13 @@ import { AvisoRegalo, Oferta } from "./Regalo";
 import { Resena, tocaPedirResena } from "./Resena";
 import { spring, springPop, springSoft, springTight } from "./motion";
 import { GlyphBiblioteca, GlyphLibros, GlyphLupa, GlyphRayo } from "./glyphs";
+import { PantallaColeccion } from "./Colecciones";
+import type { Coleccion } from "./colecciones";
 
 type Pantalla =
   | "intro" | "pago" | "inicio" | "detalle" | "lector" | "fin" | "racha" | "reto"
   | "shorts" | "perfil" | "ajustes" | "oferta" | "alta" | "biblioteca"
-  | "explorar" | "anti";
+  | "explorar" | "anti" | "coleccion";
 /** Las pantallas raíz: las únicas que enseñan la barra de abajo. */
 /* Los shorts la llevan ahora también. Antes no: la pantalla era la página
    entera y una barra flotando encima le comía sitio al texto. Pablo la quiere
@@ -155,6 +157,11 @@ function pantallaInicial(): Pantalla {
 
 export default function App() {
   const [pantalla, setPantalla] = useState<Pantalla>(pantallaInicial);
+  /* La colección abierta. Vive aquí y no dentro de la pantalla porque la
+     pantalla se desmonta al ir a un libro y hay que poder volver a ella. */
+  const [coleccion, setColeccion] = useState<Coleccion | null>(null);
+  /** A dónde vuelve la ficha de un libro al cerrarse. */
+  const [volverDeDetalle, setVolverDeDetalle] = useState<Pantalla>("inicio");
   /* Las preferencias viven aquí arriba y no en la pantalla de ajustes: sus
      efectos —el tema y la escala de texto— tienen que seguir aplicados
      mientras se lee, que es cuando importan. */
@@ -365,6 +372,7 @@ export default function App() {
               intereses={intereses}
               onAbrir={(l) => {
                 setLibro(l);
+                setVolverDeDetalle("inicio");
                 setPantalla("detalle");
               }}
               onPerfil={() => setPantalla("perfil")}
@@ -374,6 +382,24 @@ export default function App() {
                 abrirLector(true, l);
               }}
               onOferta={() => setPantalla("oferta")}
+              guardados={guardados}
+              onGuardar={alternarGuardado}
+              onColeccion={(c) => {
+                setColeccion(c);
+                setPantalla("coleccion");
+              }}
+            />
+          )}
+          {pantalla === "coleccion" && coleccion && (
+            <PantallaColeccion
+              key="coleccion"
+              coleccion={coleccion}
+              onCerrar={() => setPantalla("inicio")}
+              onAbrir={(l) => {
+                setLibro(l);
+                setVolverDeDetalle("coleccion");
+                setPantalla("detalle");
+              }}
               guardados={guardados}
               onGuardar={alternarGuardado}
             />
@@ -487,7 +513,12 @@ export default function App() {
             <DetalleLibro
               key="detalle"
               libro={libro}
-              onCerrar={() => setPantalla("inicio")}
+              /* Vuelve a la colección si vino de una. Sin esto, entrar en una
+                 colección, abrir un libro y cerrarlo te dejaba en el inicio,
+                 y para volver a los otros cinco había que buscar la tira otra
+                 vez. `volverDeDetalle` lo pone la pantalla que abrió el libro
+                 y se limpia al salir. */
+              onCerrar={() => setPantalla(volverDeDetalle)}
               onAbrir={(l) => setLibro(l)}
               guardados={guardados}
               onGuardar={alternarGuardado}

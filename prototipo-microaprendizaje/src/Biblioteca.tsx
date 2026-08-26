@@ -18,6 +18,8 @@ import { PUNTOS } from "./libros/puntos";
 import { desbloquea } from "./voz";
 import { SUBTITULOS } from "./libros/subtitulos";
 import { PortadaLibro } from "./PortadaLibro";
+import { TiraColecciones } from "./Colecciones";
+import type { Coleccion } from "./colecciones";
 import { LibroDelDia, libroDeHoy } from "./LibroDelDia";
 import type { Foto } from "./shorts";
 
@@ -529,6 +531,7 @@ export function Inicio({
   intereses = [],
   guardados,
   onGuardar,
+  onColeccion,
 }: {
   racha: number;
   /** Sin suscripción no hay libro del día. Ver `LibroDelDia.tsx`. */
@@ -544,6 +547,8 @@ export function Inicio({
   /** Los que ya están en su biblioteca, por id. Viven en `App`. */
   guardados?: ReadonlySet<string>;
   onGuardar?: (libro: Libro) => void;
+  /** Abre una colección. Sin esto, la tira de colecciones no sale. */
+  onColeccion?: (c: Coleccion) => void;
 }) {
   const [filtro, setFiltro] = useState<string | null>(null);
 
@@ -744,6 +749,16 @@ export function Inicio({
             </AnimatePresence>
           </div>
         </section>
+
+        {/* Las colecciones van justo debajo de lo que recomendamos, que es
+            donde las ponen Headway y Blinkist. El sitio no es capricho suyo:
+            la tira de arriba es «un libro para hoy» y ésta es «un plan para
+            varias semanas», así que la segunda solo tiene sentido después de
+            que la primera no haya bastado. Con el filtro puesto no salen: el
+            filtro es una categoría y una colección no lo es. */}
+        {!filtro && onColeccion && (
+          <TiraColecciones intereses={intereses} onAbrir={onColeccion} />
+        )}
 
         {/* Personalizado: la ficha ancha, centrada y con la portada sobre un
             arco de color. Es la que se para a explicar POR QUÉ te tocaría
