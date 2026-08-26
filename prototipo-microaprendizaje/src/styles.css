@@ -3302,39 +3302,6 @@ button {
 
 .perfil-scroll::-webkit-scrollbar { display: none; }
 
-.perfil-quien {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  padding: 6px 0 20px;
-}
-
-.perfil-avatar {
-  display: grid;
-  place-items: center;
-  width: 54px;
-  height: 54px;
-  border-radius: 999px;
-  background: var(--clay);
-  color: var(--paper);
-  font-size: 23px;
-  font-weight: 760;
-}
-
-.perfil-quien h1 {
-  font-size: 26px;
-  font-weight: 760;
-  letter-spacing: -0.028em;
-  line-height: 1.1;
-}
-
-.perfil-quien p {
-  margin-top: 3px;
-  font-size: 13px;
-  color: rgba(242, 236, 225, 0.52);
-}
-
-/* El único bloque de color saturado: hay uno, y se ve */
 .perfil-desbloquea {
   position: relative;
   display: flex;
@@ -4824,6 +4791,172 @@ button {
   color: var(--paper);
 }
 
+
+/* ==========================================================================
+   LA CUENTA — la tarjeta de arriba del perfil
+
+   Es la única de la columna que no lleva el fondo translúcido de las demás.
+   Va sobre un fondo propio, un poco más cálido y con un filo de luz en el
+   borde de arriba, porque tiene que leerse como un objeto encima de la
+   pantalla y no como otra sección de la pantalla. Un punto de crema al 28 %
+   en un solo píxel del borde superior es todo lo que hace falta.
+
+   El color lo pone el dibujo y nadie más. La tarjeta de «Desbloquea todo»
+   está justo debajo en morado macizo y es la que vende; si esta gritara
+   también, la de arriba —que es gratis y le conviene a cualquiera— perdería
+   contra la que cuesta dinero. Ver la cabecera de `Cuenta.tsx`.
+   ========================================================================== */
+.cuenta {
+  position: relative;
+  margin: 6px 0 0;
+  padding: 18px 18px 15px;
+  border-radius: 22px;
+  /* El halo ocre viene de arriba a la derecha, que es donde está el candado:
+     la luz de la tarjeta sale del dibujo y no de ningún sitio inventado. */
+  background:
+    radial-gradient(115% 85% at 82% 2%, rgba(207, 160, 89, 0.11), transparent 60%),
+    linear-gradient(180deg, #2f2936 0%, #262029 100%);
+  border: 1px solid rgba(242, 236, 225, 0.07);
+  overflow: hidden;
+  isolation: isolate;
+  box-shadow: 0 20px 42px -26px rgba(0, 0, 0, 0.9);
+}
+
+.cuenta-filo {
+  position: absolute;
+  inset: 0 0 auto;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(242, 236, 225, 0.3) 30%,
+    rgba(242, 236, 225, 0.3) 70%,
+    transparent
+  );
+}
+
+.cuenta-alto {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cuenta-texto { flex: 1; min-width: 0; }
+
+/* La serifa de los titulares, y es lo ÚNICO del perfil que la lleva. En esta
+   app la serifa es la letra de leer —las páginas, las portadas—, así que aquí
+   hace que la tarjeta parezca una frase escrita y no un formulario. */
+.cuenta-texto h1 {
+  font-family: var(--titular);
+  font-size: 21.5px;
+  font-weight: 600;
+  line-height: 1.16;
+  letter-spacing: -0.005em;
+  color: var(--paper);
+  text-wrap: balance;
+}
+
+.cuenta-texto p {
+  margin-top: 7px;
+  font-size: 12.5px;
+  line-height: 1.38;
+  font-weight: 550;
+  color: rgba(242, 236, 225, 0.58);
+}
+
+.cuenta-arte { flex: none; width: 112px; }
+.cuenta-arte svg { display: block; width: 100%; height: auto; }
+
+/* --- Lo que hay en juego -------------------------------------------------- */
+/* Tres columnas y dos filetes, sin caja propia: son la prueba de lo que dice
+   el titular, no una tarjeta aparte. */
+.cuenta-juego {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 15px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(242, 236, 225, 0.09);
+}
+
+.cuenta-dato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 0 4px;
+}
+.cuenta-dato + .cuenta-dato { border-left: 1px solid rgba(242, 236, 225, 0.09); }
+
+.cuenta-dato-n {
+  font-size: 19px;
+  font-weight: 780;
+  letter-spacing: -0.025em;
+  color: var(--paper);
+  font-variant-numeric: tabular-nums;
+}
+.cuenta-dato-pie {
+  font-size: 10.5px;
+  font-weight: 620;
+  line-height: 1.25;
+  text-align: center;
+  color: rgba(242, 236, 225, 0.48);
+}
+
+/* --- Los botones ---------------------------------------------------------- */
+/* El de Apple va en el crema de la app y no en blanco puro: su guía pide una
+   sola tinta clara con el logotipo en oscuro, y el crema lo cumple sin meter
+   un blanco que en esta paleta no existe en ninguna otra parte. */
+.cuenta-apple {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  width: 100%;
+  height: 50px;
+  margin-top: 17px;
+  border-radius: 14px;
+  background: var(--paper);
+  color: #17151c;
+  font-size: 15.5px;
+  font-weight: 680;
+  letter-spacing: -0.012em;
+}
+
+.cuenta-otros {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Con su palabra escrita, no un cuadrado con un logotipo suelto: en una
+   pantalla donde todo lo demás lleva etiqueta, un icono sin nombre canta. */
+.cuenta-otro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 46px;
+  border-radius: 13px;
+  border: 1px solid rgba(242, 236, 225, 0.16);
+  background: rgba(242, 236, 225, 0.03);
+  color: rgba(242, 236, 225, 0.88);
+  font-size: 14.5px;
+  font-weight: 640;
+}
+
+.cuenta-letra {
+  position: relative;
+  margin-top: 13px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 560;
+  color: rgba(242, 236, 225, 0.38);
+}
 
 /* ==========================================================================
    CRECIMIENTO SEMANAL

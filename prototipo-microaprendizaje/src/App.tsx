@@ -156,7 +156,9 @@ export default function App() {
   const [vuelta, setVuelta] = useState<Pantalla>("detalle");
   /** Objetivo de lectura de lo que se acaba de terminar, para comparar. */
   const [objetivo, setObjetivo] = useState(MINUTOS_OBJETIVO);
-  /** El nombre se pide en la introducción y se usa en el perfil y el saludo. */
+  /** El nombre se pide en la introducción y lo usan los ajustes. El perfil ya
+   *  no: ahí saludaba con «Hola» a quien no lo había dicho, y en su sitio va
+   *  ahora la tarjeta de cuenta. Ver `Cuenta.tsx`. */
   const [nombre, setNombre] = useState("Hola");
   /** Los temas que marcó en la introducción. Ordenan la estantería. */
   const [intereses, setIntereses] = useState<string[]>([]);
@@ -379,7 +381,6 @@ export default function App() {
           {pantalla === "perfil" && (
             <Perfil
               key="perfil"
-              nombre={nombre}
               racha={RACHA}
               record={RECORD}
               /* La semana en curso lleva pegado lo de esta sesión, que sí es

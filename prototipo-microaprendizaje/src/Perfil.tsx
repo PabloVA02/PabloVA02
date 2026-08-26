@@ -3,6 +3,7 @@ import { motion, useReducedMotion } from "framer-motion";
 import { Llama } from "./Racha";
 import { MetaDiaria } from "./Meta";
 import { Crecimiento, type Semana } from "./Crecimiento";
+import { Cuenta } from "./Cuenta";
 import { GlyphClose, GlyphGuardar, GlyphHeart, GlyphTick } from "./glyphs";
 import { spring, springPop, springSoft } from "./motion";
 
@@ -67,7 +68,6 @@ function semana(racha: number) {
 }
 
 type Props = {
-  nombre: string;
   racha: number;
   /** La racha más larga que ha tenido. Ver la tarjeta de racha. */
   record: number;
@@ -86,7 +86,6 @@ type Props = {
 };
 
 export function Perfil({
-  nombre,
   racha,
   record,
   historial,
@@ -102,7 +101,6 @@ export function Perfil({
   const reducido = !!useReducedMotion();
   const dias = semana(racha);
   const librosLeidos = temas.reduce((t, x) => t + x.n, 0);
-  const inicial = (nombre.trim()[0] ?? "T").toUpperCase();
 
   return (
     <motion.div
@@ -125,34 +123,22 @@ export function Perfil({
       </div>
 
       <div className="perfil-scroll">
-        {/* Nombre y avatar: el nombre se pidió en la introducción */}
-        <motion.div
-          className="perfil-quien"
-          initial={{ opacity: 0, y: 18 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ ...springSoft, delay: orden(0) }}
-        >
-          <motion.span
-            className="perfil-avatar"
-            initial={{ scale: 0.5, rotate: -14 }}
-            animate={{ scale: 1, rotate: 0 }}
-            transition={{ ...springPop, delay: orden(0) + 0.06 }}
-          >
-            {inicial}
-          </motion.span>
-          <div>
-            <h1>{nombre}</h1>
-            {/* Decía «0 tarjetas leídas», y estaban mal las dos mitades: las
-                tarjetas son el formato viejo que se abandonó al reescribir los
-                resúmenes por páginas, y un cero debajo del nombre es lo
-                primero que ve alguien que acaba de entrar. Los libros leídos
-                salen de la misma cuenta que la barra de temas, así que las dos
-                cifras no pueden discrepar. */}
-            <p>
-              {librosLeidos} {librosLeidos === 1 ? "libro leído" : "libros leídos"}
-            </p>
-          </div>
-        </motion.div>
+        {/* Aquí estaba el saludo: un círculo con una inicial y la palabra
+            «Hola», que es lo que sale cuando nadie ha dicho todavía cómo se
+            llama. Un avatar inventado y un saludo a nadie, ocupando lo mejor
+            de la pantalla.
+
+            En su sitio va la cuenta, que es la pieza que la referencia de
+            Pablo tiene tres bloques más abajo. Sube arriba del todo porque es
+            lo único de esta pantalla que se puede perder ENTERO, y porque
+            todo lo que viene debajo —la racha, la meta, la gráfica, los
+            temas— es exactamente lo que se perdería. Ver `Cuenta.tsx`. */}
+        <Cuenta
+          racha={racha}
+          libros={librosLeidos}
+          minutosTotales={minutosTotales}
+          reducido={reducido}
+        />
 
         {/* Desbloquear: el único bloque de color saturado de la pantalla */}
         <motion.button
