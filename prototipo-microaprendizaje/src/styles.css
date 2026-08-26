@@ -4858,7 +4858,8 @@ button {
    sale de leerle los píxeles:
 
      tarjeta      x 32..719, y 250..818   → 343 × 284, radio 12, filete #4e4e4e
-     banda        y 250..543              → 146 de alto, #4e3624
+     banda        y 250..543              → 146 de alto, #4e3624  (ver abajo:
+                                            el color se quitó el 26 de agosto)
      cuerpo       y 543..818              → #383838
      aires        66 - 32 = 34 px         → 17 de sangrado; el botón, 16
      icono        x 66 y 292, 92 × 76     → 46 × 38, a 21 del filo de arriba
@@ -4891,21 +4892,26 @@ button {
   border: 1px solid var(--tarjeta-filo);
 }
 
-/* UN degradado, vertical y corto. La banda llevó dos —un foco radial encima
-   de un degradado vertical— y Pablo los devolvió: «ese naranja así difuminado,
-   feo». Tenía razón, y el fallo era que fueran dos: dos direcciones de luz
-   sobre un color cálido no dan volumen, dan una mancha. Pero quitarlos los dos
-   dejó la banda en un rectángulo plano, y eso también lo devolvió —«el
-   degradado ahora está mal, antes estaba mejor hecho»—.
+/* SIN BANDA. Aquí hubo un rectángulo de color —el marrón anaranjado de la
+   captura de Headway, primero con dos degradados, luego con ninguno y al final
+   con uno vertical y corto— y ya no hay nada: la tarjeta es de un solo color,
+   el de todas las demás. Pablo, desde el artefacto: «quita este color naranja
+   del fondo, pon el del resto del recuadro».
 
-   Así que queda uno: de (87, 60, 43) arriba a (74, 50, 34) abajo. Trece puntos
-   de recorrido, lo justo para que la banda tenga cara sin que se vea dónde
-   empieza y dónde acaba. El (78, 54, 36) medido en la captura queda en medio,
-   que es donde tiene que estar. */
+   Y con un mes de columna montada encima, tiene sentido: cuando esta tarjeta
+   se copió, la captura era lo único que había. Ahora tiene por encima y por
+   debajo ocho tarjetas de #383838 con filete de #545454, y un bloque marrón en
+   medio ya no se leía como jerarquía, se leía como una tarjeta de otra app
+   pegada dentro de la nuestra. Lo que sostiene la mitad de arriba no es el
+   fondo: es el dibujo, el cuerpo de 25 del titular y el naranja de la segunda
+   línea.
+
+   El relleno de abajo baja de 15 a 12 y el cuerpo pierde el suyo de arriba.
+   Sin color que las separe, los dos aires seguidos —29 puntos— se leían como
+   un hueco olvidado justo donde antes acababa la banda. */
 .suscri-banda {
   position: relative;
-  padding: 16px 16px 15px;
-  background: linear-gradient(180deg, #573c2b, #4a3222);
+  padding: 16px 16px 12px;
 }
 
 /* Sin plato detrás: el icono de la captura está suelto sobre la banda, y a
@@ -4964,7 +4970,7 @@ button {
 }
 .suscri-cerrar svg { width: 17px; height: 17px; }
 
-.suscri-cuerpo { padding: 14px 16px 14px; }
+.suscri-cuerpo { padding: 0 16px 14px; }
 
 .suscri-texto {
   margin: 0;
