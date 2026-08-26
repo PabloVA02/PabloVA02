@@ -401,7 +401,7 @@ export const CATALOGO: Ficha[] = [
   { id: "oceano-azul", titulo: "La estrategia del océano azul", autor: "Kim y Mauborgne", ano: 2005, categoria: "Economía", estado: "escrito" },
   { id: "empresas-sobresalen", titulo: "Empresas que sobresalen", autor: "Jim Collins", ano: 2001, categoria: "Economía", estado: "escrito" },
   { id: "efecto-compuesto", titulo: "El efecto compuesto", autor: "Darren Hardy", ano: 2010, categoria: "Economía", estado: "escrito" },
-  { id: "psicologia-venta", titulo: "Psicología de ventas", autor: "Brian Tracy", ano: 2004, categoria: "Economía", estado: "pendiente" },
+  { id: "psicologia-venta", titulo: "Psicología de ventas", autor: "Brian Tracy", ano: 2004, categoria: "Economía", estado: "escrito" },
   { id: "cuadrante-flujo", titulo: "El cuadrante del flujo de dinero", autor: "Robert Kiyosaki", ano: 1998, categoria: "Economía", estado: "escrito" },
   { id: "bolsa-o-vida", titulo: "La bolsa o la vida", autor: "Robin y Dominguez", ano: 1992, categoria: "Economía", estado: "escrito" },
   { id: "ensenare-ser-rico", titulo: "Te enseñaré a ser rico", autor: "Ramit Sethi", ano: 2009, categoria: "Economía", estado: "escrito" },

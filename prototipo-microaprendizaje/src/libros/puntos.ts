@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "psicologia-venta": [
+    "por qué una ventaja pequeña produce una diferencia de ingresos enorme",
+    "que quien no pone ninguna pega suele ser quien no va a comprar",
+    "cómo una conversación termina de verdad si no queda una fecha",
+    "qué esconde casi siempre la objeción de que algo es caro",
+    "distinguir una técnica que ayuda a decidir de otra que impide negarse",
+  ],
+
   "espia-traidor": [
     "por qué alguien cambia de bando sin dinero ni chantaje de por medio",
     "que un plan sin usar no se improvisa el día que hace falta",

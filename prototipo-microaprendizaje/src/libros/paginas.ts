@@ -99776,7 +99776,302 @@ const ESPIA_TRAIDOR: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Psicología de ventas, de Brian Tracy (2004), en ocho páginas.
+
+   Libro práctico, registro de tú: apartado 4.7. Economía, así que cada
+   página lleva su cifra.
+
+   La tercera página dice que la parte de la mentalidad no tiene respaldo,
+   y la séptima que los cierres a presión son de una época en la que el
+   vendedor sabía más que el cliente. La conclusión pone el marcador con
+   datos posteriores: los análisis de llamadas grabadas confirman su
+   consejo más viejo y desmienten sus técnicas más famosas.
+   -------------------------------------------------------------------------- */
+
+const PSICOLOGIA_VENTA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Tracy sostiene que la diferencia entre el vendedor que gana mucho y el que no gana nada es pequeña y se puede copiar",
+      },
+      {
+        b: "texto",
+        texto:
+          "En casi cualquier equipo comercial, un puñado de personas se lleva la mayor parte de las comisiones y el resto se reparte lo que queda. La explicación habitual es que los primeros tienen un don, y Brian Tracy parte de lo contrario: que la diferencia entre unos y otros es mucho más pequeña de lo que parece y consiste en cosas concretas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Habla con conocimiento de causa porque estuvo en el lado malo de esa estadística. Empezó vendiendo puerta a puerta, solo a comisión, y no vendía nada. Un día le preguntó al mejor vendedor de su empresa qué hacía exactamente, copió su manera de trabajar y en un año pasó a ser el que más facturaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Este libro es la versión escrita de un programa de formación en audio que Tracy vendió durante los años ochenta y noventa a cientos de miles de comerciales. Eso explica su tono, su estructura de lista y también sus límites: está pensado para una época en la que quien vendía sabía mucho más que quien compraba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue separa lo que sigue funcionando de lo que ha caducado: por qué la diferencia entre el primero y el décimo es tan pequeña, qué parte del libro no tiene ningún respaldo, por qué vender consiste en preguntar, cuánta gente no llega nunca a pedir la venta, qué son en realidad las objeciones y qué pasa hoy con los cierres a presión.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de buscar un método, pregúntale al que más vende de tu empresa qué hace exactamente. Casi nadie lo hace y casi todos contestarían.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La diferencia de habilidad entre el primero y el décimo es mínima, y la de ingresos es enorme",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tracy usa una imagen que se recuerda: en una carrera de caballos, el que gana por una cabeza se lleva un premio muchas veces mayor que el segundo, y la diferencia física entre los dos animales es de unos centímetros. Sostiene que en las ventas ocurre lo mismo y llama a eso el margen ganador.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo es sencillo cuando se ve. Si un cliente elige un proveedor entre varios parecidos y solo hay una venta en juego, quien queda segundo no cobra la mitad: no cobra nada. Con esa regla repetida cien veces al año, una ventaja pequeña y constante produce una diferencia de ingresos que parece de talento y no lo es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica que saca es la parte útil del capítulo. Como la diferencia es pequeña, no hace falta transformarse: basta con mejorar un poco en las tres o cuatro cosas que deciden una venta, y esas cosas son identificables preguntándole a quien ya las hace bien en lugar de leyendo un libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene añadir el matiz que Tracy no pone. Esa aritmética funciona en mercados donde solo gana uno, y no en todos: en un negocio de suscripción, de reparto de cuota o con varios proveedores a la vez, quedar segundo también da dinero, y ahí la ventaja de estar un poco por delante deja de multiplicarse así.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando solo gana uno, quedar segundo no paga la mitad: no paga nada. Por eso una ventaja pequeña produce una diferencia de ingresos enorme.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La parte más repetida del libro, la del termostato mental, no tiene ningún respaldo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una porción considerable del libro está dedicada a lo que Tracy llama la imagen que uno tiene de sí mismo. Sostiene que cada persona lleva dentro una cifra de ingresos que considera adecuada para ella, y que funciona como un termostato: si gana mucho menos, se esfuerza; si gana más, se relaja o se sabotea hasta volver al margen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La descripción del fenómeno reconoce algo que mucha gente ha visto: hay comerciales que tienen un mes extraordinario y al siguiente se hunden, y hay quien rechaza una promoción sin saber explicar por qué. Que eso ocurre no lo discute nadie, y hay explicaciones sensatas: agotamiento, aversión al riesgo, miedo a no poder repetirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que no tiene respaldo es el mecanismo que propone y lo que receta a partir de él. No existe ninguna investigación que demuestre la existencia de ese termostato interno, ni que repetirse afirmaciones sobre los ingresos que uno merece cambie los resultados, y todo ese material procede de una tradición de autoayuda estadounidense de principios del siglo veinte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una consecuencia práctica de creérselo. Si los resultados dependen de la imagen que uno tiene de sí mismo, entonces un mal trimestre es culpa de la mentalidad, y no de que el producto sea caro, la cartera de clientes esté agotada o la competencia haya bajado precios. Esa explicación impide mirar donde hay que mirar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si atribuyes un mal trimestre a tu mentalidad, dejas de mirar el precio, la cartera y la competencia. Y ahí es donde suele estar el problema.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Vender no consiste en contar, consiste en preguntar, y eso se ha podido medir después",
+      },
+      {
+        b: "texto",
+        texto:
+          "El consejo más antiguo del libro es también el que mejor ha resistido: quien vende debe hablar mucho menos de lo que habla. Tracy propone una proporción aproximada de setenta a treinta, con el cliente hablando la mayor parte del tiempo, y sostiene que la función del vendedor es hacer preguntas y escuchar la respuesta entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es que nadie puede recomendar algo sin saber qué problema tiene delante, y que la mayoría de los comerciales empieza a describir su producto antes de haber averiguado si le sirve de algo a esa persona. Cuando eso pasa, el cliente escucha una lista de características que no le hablan a él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquello era una intuición y hoy se puede medir, porque las llamadas comerciales se graban y se analizan por miles. Los estudios hechos sobre cientos de miles de conversaciones encuentran exactamente lo que Tracy decía: los comerciales con mejores resultados hablan alrededor del cuarenta por ciento del tiempo y los peores rondan el setenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esos mismos análisis han encontrado además una cifra concreta de preguntas. En una primera conversación de exploración, los mejores resultados aparecen alrededor de las once o catorce preguntas: por debajo no se averigua lo suficiente, y por encima la conversación empieza a parecer un interrogatorio y el cliente se cierra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un tipo de pregunta que Tracy destaca y que sigue siendo la más rentable: la que se hace después de la respuesta. Cuando alguien explica su problema y el vendedor se calla dos segundos en vez de contestar, el cliente suele añadir la parte que de verdad importa, que no había pensado decir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los que más venden hablan alrededor del cuarenta por ciento del tiempo. Los que menos venden hablan el setenta, y creen que están explicando bien.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La mayoría de las conversaciones de venta terminan sin que nadie haya pedido la venta",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tracy insiste en un fallo tan simple que parece imposible y que cualquiera que haya trabajado en esto reconoce: muchísimas conversaciones comerciales terminan sin que el vendedor llegue a proponer explícitamente comprar. Se explica el producto, se contestan preguntas, se queda en enviar información y ahí se acaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo que da es el miedo al rechazo, y su observación es que ese miedo aparece justo en el último minuto, cuando la conversación ha ido bien. Mientras nadie pida nada, no puede haber una negativa, así que quedarse en enviar información conserva la sensación de que aquello sigue vivo, aunque no lo esté.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su recomendación es preparar de antemano la frase exacta con la que se va a pedir, para no tener que improvisarla en el momento incómodo. Y sugiere la versión más suave posible, que consiste simplemente en invitar: por qué no lo prueba, se lo preparo para el lunes, le mando el contrato esta tarde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una variante que ha envejecido mejor que sus técnicas más agresivas y que conviene rescatar: acordar el siguiente paso concreto antes de colgar. No enviar información, sino fijar día y hora para la siguiente conversación. Una gestión que termina sin fecha en la agenda de los dos ha terminado, aunque las dos partes digan lo contrario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tracy insiste además en un dato incómodo sobre el uso del tiempo. La mayor parte de la jornada de un comercial se va en desplazamientos, preparación, informes internos y espera, y el rato que pasa efectivamente delante de un cliente es una fracción pequeña. Las mediciones posteriores del sector han confirmado esa proporción una y otra vez.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una conversación que acaba en «te mando información» ha acabado. Si no queda una fecha en las dos agendas, no queda nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una objeción no es el final de la conversación: es la señal de que hay conversación",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre objeciones contiene el cambio de perspectiva más aprovechable del libro. Tracy sostiene que quien pone pegas está participando: se ha molestado en pensar en qué le encaja mal, y eso significa que ha considerado seriamente la posibilidad de comprar. El cliente que no discute nada suele ser el que no piensa comprar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca una consecuencia contraintuitiva para quien empieza: una venta con cero objeciones es una mala señal, y una con tres o cuatro es lo normal. Quien vive las pegas como un ataque personal tiende a defenderse, y defenderse es lo único que garantiza que la conversación termine.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El procedimiento que recomienda es de una simplicidad útil. Antes de responder, hay que preguntar qué quiere decir exactamente la objeción, porque casi siempre esconde otra cosa: «es caro» puede significar que no ve el valor, que no tiene presupuesto ahora, que no decide él o que ya tiene otra oferta, y cada caso pide una respuesta distinta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade además un ejercicio de preparación que casi nadie hace y que se hace una sola vez. Consiste en escribir las seis o siete objeciones que aparecen siempre en ese negocio y preparar por escrito la mejor respuesta a cada una. No es un guion: es tener pensado de antemano lo que si no habría que improvisar bajo presión.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El cliente que no pone ni una pega no es el más convencido: suele ser el que ya ha decidido que no y no quiere discutirlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los cierres a presión funcionaban cuando el vendedor sabía más que el cliente, y eso se acabó",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte más famosa del libro es su catálogo de cierres: fórmulas para conducir al cliente hasta el sí. El cierre por alternativa, que ofrece elegir entre dos opciones sin plantear la de no comprar; el cierre por suposición, que actúa como si ya estuviera decidido; o el que convierte cualquier petición del cliente en un compromiso inmediato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Todas comparten un diseño: dificultar la negativa. Y todas se idearon para un mundo concreto, el de los años setenta y ochenta, en el que el cliente no podía comparar precios, no tenía acceso a las opiniones de otros compradores y dependía del vendedor para saber qué opciones existían siquiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese mundo ha desaparecido. Hoy quien compra ha buscado antes, ha leído valoraciones, conoce a la competencia y a menudo llega sabiendo más del producto que quien se lo vende. En esa situación, una técnica cuyo objetivo es que resulte difícil decir que no se identifica en dos segundos y produce el efecto contrario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ha ocupado su lugar apunta en otra dirección. Un estudio publicado en 2011 sobre miles de comerciales encontró que el perfil con peores resultados no era el agresivo, sino el que se centraba en caer bien, y que el que mejor funcionaba era el que aportaba al cliente una manera distinta de ver su propio problema, aunque eso implicara contradecirle.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una técnica diseñada para que cueste decir que no se nota enseguida cuando el otro tiene un móvil en la mano y puede comprobarlo todo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la diferencia entre el que vende mucho y el que no vende es pequeña y copiable, que hay que hablar mucho menos y preguntar mucho más, que casi nadie llega a pedir la venta y que las objeciones son señal de interés y no de rechazo. Las cuatro cosas siguen siendo ciertas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su virtud es que trata las ventas como un oficio con procedimientos y no como un rasgo de carácter. Para alguien que empieza y cree que no vale para esto porque no es simpático ni extrovertido, ese encuadre solo ya vale lo que cuesta el libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pregunta más, habla menos, pide la venta y no te vayas sin una fecha. Ese es el libro entero, y lo demás es de otra época.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. No hay en todo el libro una fuente, un estudio ni un dato verificable: las cifras que da están afirmadas y ya está. Una parte considerable está dedicada a la mentalidad y a repetirse afirmaciones sobre los ingresos que uno merece, que no tiene ningún respaldo y que además desvía la atención de las causas reales de un mal resultado. Y su catálogo de cierres está diseñado explícitamente para que cueste decir que no, sin que en ninguna página se plantee si eso es aceptable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El marcador de estos años reparte razones de manera muy clara. Su consejo más viejo y menos vistoso —hablar poco y preguntar mucho— ha quedado confirmado por el análisis de cientos de miles de llamadas grabadas, con cifras que coinciden casi exactamente con lo que él decía sin poder demostrarlo. Sus técnicas de cierre, en cambio, no han sobrevivido al comprador que llega informado. Y el canal para el que estaba escrito, la llamada a puerta fría, ha ido quedándose sin sitio: en España, la ley de telecomunicaciones de 2022 prohibió desde junio de 2023 las llamadas comerciales a quien no las haya consentido.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "psicologia-venta": PSICOLOGIA_VENTA,
   "espia-traidor": ESPIA_TRAIDOR,
   "jekyll-hyde": JEKYLL_HYDE,
   "sobre-la-libertad": SOBRE_LA_LIBERTAD,

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "psicologia-venta":
+    "Los comerciales con mejores resultados hablan alrededor del cuarenta por ciento del tiempo; los peores, el setenta. Tracy defendía eso en los años ochenta sin poder demostrarlo, y hoy se ha medido en cientos de miles de llamadas.",
+
   "espia-traidor":
     "En 1985, el oficial que iba a dirigir la KGB en Londres llevaba once años trabajando para el servicio secreto británico. Lo sacaron de la Unión Soviética con un plan que llevaba siete años ensayándose.",
 
