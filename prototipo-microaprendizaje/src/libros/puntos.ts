@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "sprint-knapp": [
+    "por qué hay que elegir un solo punto antes de buscar soluciones",
+    "que la gente reunida produce menos ideas y peores que separada",
+    "para qué sirve pegar las propuestas en la pared sin nombres",
+    "qué es un prototipo y por qué tiene que poder tirarse",
+    "cuántas personas hacen falta para encontrar casi todos los problemas",
+  ],
+
   "cuerpo-4-horas": [
     "cómo encontrar la cantidad mínima que da casi el mismo resultado",
     "por qué una dieta se sostiene cuando elimina decisiones",

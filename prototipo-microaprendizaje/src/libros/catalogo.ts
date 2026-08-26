@@ -414,7 +414,7 @@ export const CATALOGO: Ficha[] = [
   { id: "guerra-chips", titulo: "La guerra de los chips", autor: "Chris Miller", ano: 2022, categoria: "Economía", estado: "escrito" },
   { id: "viaja-gratis", titulo: "Viaja gratis", autor: "Nomadic Matt", ano: 2015, categoria: "Economía", estado: "pendiente" },
   { id: "recompra-tu-tiempo", titulo: "Recompra tu tiempo", autor: "Dan Martell", ano: 2023, categoria: "Economía", estado: "escrito" },
-  { id: "sprint-knapp", titulo: "Sprint", autor: "Jake Knapp", ano: 2016, categoria: "Economía", estado: "pendiente" },
+  { id: "sprint-knapp", titulo: "Sprint", autor: "Jake Knapp", ano: 2016, categoria: "Economía", estado: "escrito" },
   { id: "creatividad-sa", titulo: "Creatividad, S.A.", autor: "Ed Catmull y Amy Wallace", ano: 2014, categoria: "Economía", estado: "escrito" },
   { id: "thinkertoys", titulo: "Thinkertoys", autor: "Michael Michalko", ano: 1991, categoria: "Economía", estado: "pendiente" },
   { id: "planifica-tu-futuro", titulo: "Planifica tu futuro", autor: "Michael Hyatt y Daniel Harkavy", ano: 2016, categoria: "Economía", estado: "pendiente" },

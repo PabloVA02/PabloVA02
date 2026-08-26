@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "sprint-knapp":
+    "Knapp diseñó este formato en Google y lo aplicó unas ciento cincuenta veces: cinco días, un equipo y un problema, para llegar el viernes con algo que cinco personas ajenas han probado.",
+
   "cuerpo-4-horas":
     "El agua no queda más hervida por calentarla hasta ciento veinte grados. Ferriss aplica esa idea al cuerpo: para cada resultado hay una dosis mínima, y casi todo el mundo trabaja muy por encima de ella.",
 

@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "sprint-knapp": "El método para resolver problemas y testar nuevas ideas en solo cinco días",
   "cuerpo-4-horas": "Un método insólito para perder grasa y estar en forma",
   "dieta-ya-no-cojea": "Aprende a comer sano sin volverte loco",
   "quietud-es-la-clave": "Una guía antigua para la vida moderna",

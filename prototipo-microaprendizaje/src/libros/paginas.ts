@@ -104138,7 +104138,288 @@ const CUERPO_4_HORAS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Sprint, de Jake Knapp (2016), en ocho páginas.
+
+   Libro práctico de empresa, registro de tú: apartado 4.7. Economía, así
+   que cada página lleva su cifra.
+
+   La séptima dice para quién funciona esto y para quién no, que es la
+   pregunta que el libro no se hace: cinco días de siete personas son
+   treinta y cinco jornadas de trabajo, y eso no es barato aunque sea más
+   barato que equivocarse.
+   -------------------------------------------------------------------------- */
+
+const SPRINT_KNAPP: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Knapp sostiene que casi cualquier decisión importante se puede resolver en cinco días si se ordena el proceso",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una decisión importante en una organización suele tardar meses: reuniones que terminan sin conclusión, documentos que nadie lee, opiniones que aparecen tarde y una versión final que resulta ser el promedio de todas las posturas. Al cabo de ese tiempo se construye algo, y a veces se descubre que nadie lo quería.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Jake Knapp diseñó este formato trabajando en Google y después lo aplicó alrededor de ciento cincuenta veces con empresas jóvenes en el fondo de inversión de la compañía. El libro, publicado en 2016, describe un procedimiento de cinco días con horario cerrado, de lunes a viernes, para resolver un problema y comprobar la solución con clientes reales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea que sostiene el formato es que el problema no es la falta de ideas, sino la falta de un procedimiento que las convierta en una decisión y en algo comprobable. Lo que propone no es un método creativo: es una manera de llegar al viernes con una respuesta que se ha puesto delante de cinco personas ajenas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre sus piezas y su límite: por qué se decide antes de empezar, por qué la gente produce peores ideas reunida que separada, por qué manda una sola persona, qué es exactamente un prototipo, por qué bastan cinco personas para probarlo y para quién no sirve nada de esto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El problema de casi ninguna organización es la falta de ideas. Es no tener un procedimiento que convierta una idea en una decisión con fecha.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El lunes se decide qué se va a resolver, y esa decisión ocupa el día entero",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer día no se busca ninguna solución, y esa es la parte que más se salta la gente que copia el formato. Se dedica entero a definir: qué objetivo a largo plazo se persigue, qué preguntas habría que responder para saber si se va a conseguir y qué podría hacer que fracasara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después se dibuja en una pizarra el recorrido completo del cliente, desde que aparece hasta que consigue lo que buscaba, en pasos concretos. Ese mapa suele ocupar entre cinco y quince cajas, y su utilidad no es informativa sino de acuerdo: obliga a que todos los presentes vean el mismo recorrido, cosa que casi nunca ocurre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por la tarde se entrevista durante media hora a personas de la propia organización que saben algo distinto —quien atiende a los clientes, quien vende, quien conoce los números—, y de cada conversación se sacan preguntas del tipo cómo podríamos, escritas cada una en una nota. Casi todo lo que hacía falta saber estaba dentro de la empresa y repartido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el día termina eligiendo un solo punto del mapa: el momento concreto del recorrido en el que se va a trabajar toda la semana. Esa elección la toma una persona, no el grupo, y es la que hace posible todo lo demás, porque un equipo que no ha elegido dónde mira acaba resolviendo cinco problemas a medias.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de buscar soluciones, dibuja el recorrido completo y elige un solo punto. Un equipo que no ha elegido dónde mira resuelve cinco cosas a medias.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La gente reunida produce menos ideas y peores que la misma gente trabajando por separado",
+      },
+      {
+        b: "texto",
+        texto:
+          "El martes se dedica a proponer soluciones, y el libro prohíbe expresamente la reunión creativa en la que todo el mundo dice ideas en voz alta y alguien las apunta. Cada persona trabaja sola, en silencio, en la misma sala, y dibuja su propuesta en un papel. Knapp lo llama trabajar solos, juntos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón no es de gusto personal: la reunión creativa se estudió y salió mal. Desde finales de los años cincuenta se viene comprobando que un grupo que discute produce menos ideas y de menor calidad que el mismo número de personas trabajando por separado y juntando después lo que cada uno tiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los motivos son tres y se reconocen enseguida. Mientras uno habla los demás no pueden pensar en lo suyo, porque están escuchando; nadie propone lo que le parece que puede quedar mal delante del jefe; y en cuanto alguien dice una idea, las siguientes tienden a parecerse a esa, porque el grupo se ancla en lo primero que oye.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El procedimiento concreto que usa incluye un ejercicio de ocho minutos: doblar un folio en ocho partes y hacer ocho variaciones de una misma idea, un minuto cada una. La restricción de tiempo obliga a pasar de la primera solución, que suele ser la obvia, y las buenas suelen aparecer entre la quinta y la octava.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La reunión creativa produce menos ideas y peores que las mismas personas trabajando solas. Está medido desde los años cincuenta y se sigue haciendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Decide una sola persona, y quién es se escribe antes de empezar" },
+      {
+        b: "texto",
+        texto:
+          "El miércoles se elige qué idea se va a construir, y el libro es tajante en cómo: no se vota para decidir, decide una persona designada de antemano. Knapp la llama la decisora, y suele ser quien tendrá que responder del resultado, es decir, quien dirige o quien financia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo es una observación que cualquiera reconoce. Una decisión tomada por consenso tiende a ser la que menos rechazo produce, y la que menos rechazo produce suele ser la más convencional. Además, si la decisión es de todos no es de nadie, y cuando algo sale mal no hay quien la revise ni quien la corrija.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso no significa que el grupo no participe, y aquí está lo bien resuelto del formato. Antes de la decisión se pegan todas las propuestas en la pared sin nombres, cada uno marca con pegatinas lo que le parece interesante, se comentan en voz alta una por una con tiempo tasado y se hace una votación orientativa. La decisora decide después, con toda esa información delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El anonimato de las propuestas es la pieza clave y es la que más se olvida al copiar el método. Sin nombres, una idea del becario compite en igualdad con una del director, y eso cambia el resultado de manera medible; con nombres, la pared se convierte en una encuesta sobre quién cae mejor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pega las propuestas sin nombre. Con nombre, lo que estás midiendo no son las ideas: es quién tiene más peso en la sala.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un prototipo no es una versión pequeña del producto: es una fachada" },
+      {
+        b: "texto",
+        texto:
+          "El jueves se construye algo en un solo día, y para que eso sea posible hay que entender qué se está construyendo. No es una versión reducida ni un primer intento del producto: es una apariencia, algo que parece real por delante y no tiene nada por detrás, hecho para que alguien pueda usarlo durante veinte minutos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Knapp lo compara con un decorado de cine: una calle entera puede ser una fachada de madera, y funciona porque la cámara no entra en las casas. Con la misma lógica se puede simular una aplicación con pantallas enlazadas entre sí, una tienda con una página que no vende nada todavía o un servicio con una persona haciendo a mano lo que después haría un programa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La condición es que sea desechable. Un prototipo que costó tres semanas ya no se puede tirar, y eso contamina la prueba del día siguiente: quien ha invertido tres semanas escucha las críticas buscando la manera de defender lo hecho. Un prototipo de un día se tira sin discutir, y por eso permite enterarse de verdad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El reparto del trabajo ese día está tasado y evita el atasco habitual. Una o dos personas construyen, otra reúne los materiales que hagan falta, otra escribe todos los textos —que es donde se pierde más tiempo del previsto—, otra une las piezas y comprueba que todo encaja, y otra prepara las preguntas del viernes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si el prototipo te costó tres semanas, ya no puedes tirarlo, y entonces escucharás las críticas buscando cómo defenderlo. Que cueste un día.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Con cinco personas se encuentran casi todos los problemas, y eso está medido",
+      },
+      {
+        b: "texto",
+        texto:
+          "El viernes se enseña el prototipo a cinco personas ajenas a la organización, de una en una, en entrevistas de aproximadamente una hora. Cinco parecen muy pocas y hay un motivo concreto para esa cifra, que no es de presupuesto ni de agenda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El investigador Jakob Nielsen publicó a partir de los años noventa un análisis del rendimiento de estas pruebas y encontró una curva muy pronunciada: la primera persona descubre alrededor de un tercio de los problemas, con cinco se llega a cerca del ochenta y cinco por ciento, y a partir de ahí cada persona adicional aporta muy poco porque encuentra lo mismo que los anteriores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es que es mucho mejor hacer tres rondas de cinco personas, arreglando entre una y otra, que una ronda de quince. La segunda opción produce una lista larguísima de problemas encontrados a la vez y ninguna comprobación de si las correcciones funcionan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El formato de la entrevista importa tanto como el número. Se hace de uno en uno y no en grupo, se pide a la persona que use el prototipo en voz alta contando lo que va pensando, y quien entrevista no explica nada ni ayuda: en cuanto explica, deja de estar comprobando si se entiende y pasa a comprobar si se entiende con ayuda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una condición sobre a quién se entrevista que decide el valor de todo el día: tienen que ser personas que encajen con el cliente al que va dirigido aquello, y no amigos, familiares ni compañeros de otra área. Cinco personas bien elegidas informan; cinco personas amables no informan de nada, porque van a decir que les gusta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cinco personas encuentran el ochenta y cinco por ciento de los problemas. Vale más hacer tres rondas de cinco, corrigiendo, que una de quince.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cinco días de siete personas son treinta y cinco jornadas, y el libro no hace esa cuenta",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene mirar el coste, porque el libro lo presenta como barato y no lo dice en jornadas. Cinco días completos de siete personas son treinta y cinco jornadas de trabajo, más la preparación, más las cinco personas a las que hay que reclutar y compensar. Eso es más caro que la mayoría de los proyectos pequeños de una empresa mediana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento es que sigue siendo más barato que construir durante seis meses algo que nadie quiere, y tiene razón. Pero de ahí no se sigue que sea barato: se sigue que hay que reservarlo para decisiones cuyo error costaría bastante más de treinta y cinco jornadas, y ese filtro el libro no lo propone en ningún sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una limitación de materia. El formato está pensado para productos digitales, donde una fachada se puede construir en un día; con un producto físico, con un servicio sujeto a regulación o con un proceso interno de una administración, ni el prototipo ni la prueba del viernes funcionan igual, y el libro apenas lo menciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una confusión que conviene evitar. Lo que se comprueba el viernes es si la gente entiende lo que ve y si le resulta útil; no se comprueba si pagaría por ello, ni si el negocio funciona, ni si se puede construir de verdad. Confundir esas cosas es la manera más rápida de salir del proceso con una confianza que no se ha ganado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El viernes compruebas si se entiende y si sirve. No compruebas si alguien pagaría, y son preguntas distintas con respuestas distintas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que las reuniones creativas producen peores resultados que trabajar por separado, que una decisión tomada por consenso tiende a ser la más convencional y conviene que decida una persona designada, que un prototipo es una fachada desechable, y que cinco personas bastan para encontrar casi todos los problemas de algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a otros libros de método es que no es una filosofía sino un horario. Dice qué se hace el martes por la mañana, cuánto dura, quién habla, en qué papel se escribe y qué se hace con lo escrito. Un equipo puede aplicarlo sin haberlo entendido del todo, y esa es una virtud poco frecuente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que cada uno escriba solo antes de hablar, que las propuestas vayan sin nombre y que decida una persona. Con esas tres cosas cambia cualquier reunión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Presenta como barato un procedimiento que cuesta treinta y cinco jornadas de trabajo, y no propone ningún criterio para decidir cuándo compensa. Está diseñado para productos digitales y no dice que fuera de ahí buena parte del formato no se sostiene. Y desliza la idea de que el viernes se ha validado algo, cuando lo que se ha comprobado es que se entiende y resulta útil, que es una parte pequeña de lo que hace falta saber.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después le pasa a cualquier método que funciona: se convirtió en rito. En muchas organizaciones, la semana de cinco días se hace porque toca, con un problema elegido de antemano por quien manda, con las conclusiones más o menos previstas y sin las cinco entrevistas del viernes, que son la única parte que aporta información de fuera. El propio Knapp ha respaldado versiones abreviadas de cuatro días, y en 2020 él y sus colaboradores publicaron adaptaciones para hacerlo a distancia, que resultó funcionar mejor de lo esperado en la parte de trabajar solos y peor en la de decidir.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "sprint-knapp": SPRINT_KNAPP,
   "cuerpo-4-horas": CUERPO_4_HORAS,
   "dieta-ya-no-cojea": DIETA_YA_NO_COJEA,
   "vivir-para-contarla": VIVIR_PARA_CONTARLA,
