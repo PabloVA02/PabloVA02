@@ -5088,6 +5088,29 @@ button {
    El porqué de cada tamaño está en `Perfil.tsx`, junto al reparto.
    ========================================================================== */
 .stats {
+  /* LOS DOS COLORES SON LOS DEL FUEGO, y no por decoración: el oro y el
+     naranja son los dos extremos de la misma llama —la punta y la base—, así
+     que la caja de estadísticas queda del color de la racha que tiene tres
+     dedos más arriba.
+
+     Y encima significan algo, que es lo que los salva de ser un capricho:
+
+       oro      #ffb13d   lo que has aprendido   ideas clave · libros leídos
+       naranja  #ff6a2a   el tiempo que echaste  minutos · horas leyendo
+
+     O sea que las dos cifras pequeñas de la parrilla son las versiones de
+     siempre de las dos series de la gráfica, y llevan su mismo color. Se lee
+     como un sistema en vez de como cuatro números.
+
+     Que sean parecidos no molesta porque las dos series van en carriles
+     separados y no se cruzan nunca; para eso están los carriles. Contra el
+     fondo del cuadro dan 8,1 y 5,6 de contraste. */
+  --serie-a: #ffb13d;
+  --serie-b: #ff6a2a;
+
+  /* Viven aquí y no dentro de la gráfica: los dos cuadros de cifras son
+     hermanos suyos, no hijos, así que allí no llegaban. */
+
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
@@ -5116,12 +5139,15 @@ button {
   min-height: 88px;
 }
 
+/* Cada cifra en el color de lo que cuenta: los libros en el oro del saber y
+   las horas en el naranja del tiempo, que son los mismos dos de la gráfica de
+   arriba. El color va por `--serie` para que no haya dos sitios que tocar. */
 .stats-n {
   font-size: 28px;
   font-weight: 780;
   line-height: 1;
   letter-spacing: -0.03em;
-  color: var(--paper);
+  color: var(--serie, var(--paper));
   font-variant-numeric: tabular-nums;
 }
 
@@ -5154,13 +5180,6 @@ button {
    Las decisiones del dibujo están en `Crecimiento.tsx`.
    ========================================================================== */
 .crece {
-  /* Los dos colores de las series. Son el ocre y el verde azulado de la
-     paleta subidos de luz: un trazo de 2,4 puntos sobre fondo oscuro necesita
-     más croma que un relleno grande, igual que el botón de escuchar del libro
-     del día aclara su acento en vez de usarlo tal cual. Contra el fondo de la
-     tarjeta dan 7,4 y 6,4 de contraste. */
-  --serie-a: #e0b268;
-  --serie-b: #6fbfa4;
   /* El fondo de la tarjeta, en una variable, porque los puntos de la gráfica
      lo llevan de contorno para que el trazo pase por detrás y no los cruce.
      Es opaco a propósito: con un contorno translúcido se vería la línea por
@@ -5201,8 +5220,10 @@ button {
   color: rgba(255, 255, 255, 0.62);
 }
 
-/* La diferencia. Verde arriba, barro abajo y gris en el empate: son los tres
-   estados posibles y ninguno necesita leerse para saber cuál es. */
+/* La diferencia. La flecha dice la dirección, así que el color no tiene que
+   repetirla: una subida se enciende en el oro del fuego y una bajada
+   sencillamente no se enciende. Bajar una semana no es un error, y pintarlo de
+   rojo —que es lo que había— lo convertía en uno. */
 .crece-delta {
   display: flex;
   align-items: center;
@@ -5212,9 +5233,9 @@ button {
   font-weight: 640;
   font-variant-numeric: tabular-nums;
 }
-.crece-delta[data-signo="sube"] { color: #6fbfa4; }
-.crece-delta[data-signo="baja"] { color: #d08a6c; }
-.crece-delta[data-signo="cero"] { color: rgba(242, 236, 225, 0.4); }
+.crece-delta[data-signo="sube"] { color: #ffb13d; }
+.crece-delta[data-signo="baja"] { color: rgba(255, 255, 255, 0.46); }
+.crece-delta[data-signo="cero"] { color: rgba(255, 255, 255, 0.36); }
 
 /* --- El lienzo ----------------------------------------------------------- */
 .crece-lienzo { margin-top: 2px; }
