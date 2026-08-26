@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "maestro-dinero":
+    "Un fondo de inversión medio cuesta alrededor del tres por ciento anual, el triple de lo que anuncia. Robbins entrevistó a cincuenta grandes inversores para averiguar qué hacer con esa cifra y con el dinero que queda.",
+
   "ladrona-libros":
     "La narra la Muerte, que está cansada y que anuncia los muertos con cien páginas de antelación. En el centro hay un ejemplar de Mein Kampf con las páginas pintadas de blanco, para escribir encima un cuento a una niña.",
 

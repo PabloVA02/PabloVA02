@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "maestro-dinero": [
+    "cuánto se lleva de verdad un fondo cuando se suman todos sus costes",
+    "por qué el rendimiento anunciado no es el que se lleva el partícipe",
+    "convertir un deseo de libertad en una cifra que se pueda calcular",
+    "el reparto entre tipos de activo que Ray Dalio recomienda a un particular",
+    "que la promesa de ganar sin perder siempre la paga alguien",
+  ],
+
   "ladrona-libros": [
     "qué se lee cuando el narrador ya te ha dicho quién va a morir",
     "cuánto tarda en cobrarse una promesa dada en una trinchera",

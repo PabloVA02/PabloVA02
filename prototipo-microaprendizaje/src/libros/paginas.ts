@@ -92071,7 +92071,289 @@ const LADRONA_LIBROS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Maestro del dinero: el juego, de Tony Robbins (2014), en ocho páginas.
+
+   Economía, así que cada argumento lleva una persona con nombre, una fecha y
+   una cifra: apartado 4 bis. Registro de tú, que es libro práctico de dinero:
+   apartado 4.7. La conclusión lleva el marcador puesto —2022 fue el peor año
+   de la cartera que el libro recomienda— y los conflictos de interés, que es
+   lo que no cuenta ninguna contraportada.
+   -------------------------------------------------------------------------- */
+
+const MAESTRO_DINERO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi nadie sabe cuánto le cobran por gestionarle el dinero, y esa cifra decide más que la bolsa",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dos personas ahorran lo mismo durante treinta años y sus fondos ganan exactamente lo mismo. Una paga un uno por ciento anual en comisiones y la otra un tres. Al cabo de esos treinta años, la segunda se ha quedado por el camino con más de la mitad de lo que habría tenido. No es un caso extremo ni una trampa contable: es aritmética, y casi ningún ahorrador la ha hecho nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tony Robbins, conferenciante estadounidense conocido por sus seminarios de motivación, publicó este libro en 2014 después de cuatro años entrevistando a cincuenta de los mayores inversores del mundo. Entre ellos, Ray Dalio, fundador del mayor fondo de cobertura del planeta; Jack Bogle, que inventó el fondo indexado; Carl Icahn; David Swensen, que gestionaba el patrimonio de la Universidad de Yale; y Warren Buffett.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A todos les hizo la misma pregunta: si no pudieras dejarles dinero a tus hijos, solo una manera de invertirlo, ¿cuál sería? Con las respuestas montó siete pasos y un subtítulo que promete libertad financiera. El libro pasa de las seiscientas páginas y esa desproporción es parte de lo que hay que contar sobre él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que viene ahora recorre lo que de verdad se sostiene: cuánto cuesta un fondo cuando se suma todo, por qué el rendimiento que anuncian no es el que te llevas, cómo se convierte un deseo en una cifra, qué decisión manda de verdad al invertir, la cartera que le sacó a Dalio, y qué se le puede reprochar al libro entero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de elegir en qué inviertes, averigua cuánto te cobran por hacerlo. Es el único número de todo esto que puedes conocer con certeza de antemano.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un fondo de inversión no cuesta lo que pone en el folleto, cuesta alrededor del triple",
+      },
+      {
+        b: "texto",
+        texto:
+          "La comisión de gestión que aparece anunciada es solo una de las partidas que paga el partícipe. Robbins reúne las demás, que están todas documentadas y ninguna sale en el extracto: los costes de comprar y vender que genera el propio gestor al rotar la cartera, el dinero que el fondo mantiene parado en efectivo y que no renta, y los impuestos que se adelantan cada vez que se realiza una plusvalía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cifra que maneja viene de un análisis publicado en Forbes en 2011 por el asesor Ty Bernicke, que sumó todas esas partidas en los fondos de renta variable estadounidenses. El resultado fue un coste real medio del 3,17 por ciento anual en una cuenta con impuestos y del 2,27 en una cuenta de jubilación. El folleto de esos mismos fondos anunciaba en torno al uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón de que esa diferencia importe tanto es que se cobra todos los años sobre todo el capital, gane o pierda el fondo. El interés compuesto trabaja igual de bien para quien cobra la comisión que para quien invierte, solo que en direcciones opuestas, y con horizontes de treinta o cuarenta años el porcentaje pequeño se convierte en la mayor parte del resultado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la única acción del libro que no cuesta dinero ni requiere criterio: pedir por escrito el coste total de lo que ya tienes contratado, sumado, en euros y no en porcentaje. Casi nadie lo ha hecho nunca, y quien lo hace suele descubrir que paga por una gestión activa que no está recibiendo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El porcentaje que te cobran cada año no se resta de tus ganancias: se resta de tu capital, todos los años, ganes o pierdas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El rendimiento que anuncia un fondo casi nunca es el que se llevaron sus partícipes",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un fondo publica su rentabilidad media anual suponiendo que alguien puso el dinero el primer día y no lo tocó jamás. Casi nadie invierte así. La gente entra cuando el fondo ya ha subido y sale cuando ha caído, de modo que el dinero está dentro en los años malos y fuera en los buenos, y el resultado de cada persona no se parece al del folleto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La firma DALBAR mide esa diferencia desde 1994 en sus informes anuales sobre el comportamiento del inversor estadounidense, y el hueco es enorme: durante décadas, el partícipe medio de fondos de bolsa se quedó varios puntos porcentuales por debajo del índice que su propio fondo intentaba batir. No lo perdió el mercado; lo perdió entrando y saliendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso Robbins le suma el dato de Jack Bogle, que fundó Vanguard en 1975 y creó el primer fondo indexado accesible al público. Bogle sostenía que alrededor del noventa y seis por ciento de los fondos de gestión activa no consigue superar a su índice de referencia en periodos suficientemente largos, una vez descontadas las comisiones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que saca de las dos cosas juntas es incómoda para toda una industria. Si la mayoría de los gestores no bate al mercado y el inversor medio tampoco se lleva lo que su fondo ganó, entonces la parte más cara del sistema es exactamente la que menos aporta, y quitarla es la mejora más segura que existe.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El dinero no se pierde casi nunca eligiendo mal el fondo. Se pierde entrando tarde, saliendo pronto y pagando por las dos cosas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un objetivo económico que no está escrito en euros no es un objetivo, es un estado de ánimo",
+      },
+      {
+        b: "texto",
+        texto:
+          "«Quiero ser libre» no se puede planificar porque no se puede medir. El tercer paso del libro consiste en convertir esa frase en una cifra, y lo hace partiendo la libertad en cinco escalones que se alcanzan por orden, cada uno con su cuenta hecha a mano sobre los gastos reales de quien la hace.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primero es la seguridad: que las rentas de tu patrimonio cubran la hipoteca, la comida, la luz, el agua y el seguro básico. Solo eso. Robbins insiste en que la mayoría calcula ese número por primera vez al hacer el ejercicio y descubre que está mucho más cerca de lo que suponía, porque llevaba años estimando la cifra de la última meta y no la de la primera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los siguientes suben desde ahí: la vitalidad añade la mitad de lo que gastas en ropa y en ocio; la independencia iguala tus ingresos actuales sin trabajar; la libertad los supera; y la libertad absoluta es el escalón donde ya no hay ninguna cifra que consultar. Lo útil no son los nombres, es que cada uno tiene un número distinto y solo el primero es urgente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El reparto del dinero sigue la misma lógica de escalones. Robbins usa tres depósitos separados: uno de seguridad, que no se toca y no se arriesga; otro de crecimiento, donde vive lo que puedes permitirte perder; y un tercero para gastar en algo que quieras de verdad, porque un plan que no deja nada por el camino se abandona a los dos años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Calcula qué renta anual cubre solo tus gastos fijos. Ese número es tu primera meta, es mucho más bajo de lo que crees y es el único que importa hasta que lo alcances.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que más decide tu resultado no es qué compras, sino cuánto pones en cada cosa",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuarto paso es el que Robbins llama la decisión más importante, y no es suya: viene de la gestión de patrimonios institucionales. La idea es que la mayor parte de la variación de un resultado a largo plazo la explica el reparto entre tipos de activo —bolsa, bonos, materias primas, inmuebles— y no la elección de qué acción concreta se compra dentro de cada uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Quien mejor lo sostiene en el libro es David Swensen, que dirigió el patrimonio de la Universidad de Yale desde 1985 hasta su muerte en 2021 y lo convirtió en el fondo universitario más imitado del mundo. Swensen repartía entre seis clases de activo poco relacionadas entre sí y le dijo a Robbins que un particular no puede copiar su cartera, porque no tiene acceso a los mismos gestores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla que sí le dio para un particular es de una sola frase: diversificar entre activos que no se muevan a la vez, mantener bajos los costes y no intentar acertar el momento. Lo interesante es que ese consejo va en contra del negocio de casi todo el que lo repite, y por eso vale la pena escucharlo cuando viene de quien no vende nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la advertencia sobre el error más común. Tener diez fondos distintos no es diversificar si los diez llevan las mismas grandes empresas cotizadas: cuando esas caigan, caerán los diez a la vez. La diversificación se mide por cómo se comportan las piezas juntas en un año malo, no por cuántas líneas hay en el extracto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Diversificar no es tener muchas cosas. Es tener cosas que no se hunden el mismo día.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dalio le dio a Robbins una cartera pensada para no depender de que acierte nadie",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ray Dalio fundó Bridgewater Associates en 1975 en un piso de Nueva York y llegó a gestionar el mayor fondo de cobertura del mundo. Su idea de partida es que hay cuatro escenarios posibles y solo cuatro: que la economía crezca más de lo esperado o menos, y que los precios suban más de lo esperado o menos. Nadie sabe cuál viene, así que la cartera lleva algo que gana en cada uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El reparto que le dictó para un particular es este: treinta por ciento en bolsa, cuarenta en bonos del Estado a largo plazo, quince en bonos a medio plazo, siete y medio en oro y siete y medio en materias primas, reequilibrando una vez al año. La cifra que más sorprende es la de bolsa: solo treinta, porque la bolsa es mucho más volátil que el resto y con treinta ya aporta casi todo el riesgo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los resultados que publica el libro son de una simulación sobre los treinta años que van de 1984 a 2013: un 9,7 por ciento anual de media, con solo cuatro años en pérdidas y la peor de ellas del 3,93 por ciento. Ese año fue 2008, cuando el índice S&P 500 cayó un treinta y siete. La comparación es la que vende la cartera entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí conviene apuntar algo que el libro no dice y que decide si la simulación significa lo que parece. Entre 1984 y 2013 los tipos de interés bajaron casi sin interrupción, y cuando los tipos bajan, los bonos a largo plazo suben. Una cartera con un cincuenta y cinco por ciento en bonos probada justo en el mejor medio siglo de la historia de los bonos tiene el viento a favor incorporado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una cartera probada solo en el periodo que le convenía no está probada. Antes de creerte un resultado histórico, mira qué estaba pasando esos años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La promesa de ganar cuando sube y no perder cuando baja siempre es un producto, y el producto se cobra",
+      },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro presenta instrumentos que ofrecen participar en la subida de un índice sin sufrir sus caídas: rentas vitalicias ligadas a un índice y notas estructuradas emitidas por bancos. Robbins los describe como la pieza que faltaba, y es donde el libro cambia de tono y empieza a parecerse a un catálogo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene entender qué son antes de decidir. Una nota estructurada es un préstamo que le haces a un banco, y el banco te devuelve el capital más una parte de lo que suba un índice. Que no pierdas depende de que el banco pueda pagar: en 2008, quien tenía notas emitidas por Lehman Brothers descubrió que la garantía valía lo que valía el emisor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La renta vitalicia indexada funciona parecido con una aseguradora en medio, y su coste no está en una comisión visible sino en el trozo de subida que no te dan. Suele haber un tope anual, los dividendos del índice no cuentan, y salir antes de tiempo tiene penalización durante varios años. Nada de eso es ilegal ni oculto; está en el contrato y casi nadie lo lee.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un dato que el propio libro menciona de pasada y que cambia cómo se leen estas páginas: Robbins tenía intereses económicos en varias de las empresas que recomienda, entre ellas la firma de asesoramiento Creative Planning, de Peter Mallouk, y una gestora de planes de empresa. Lo declara, pero en letra pequeña y después de haberlas elogiado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien te ofrece la subida sin la bajada, busca de dónde sale el dinero. Sale de la parte de la subida que no te dan, o de que el que promete siga vivo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene tres cosas que se aguantan solas: que los costes de gestión deciden más que la habilidad, que un objetivo sin cifra no es un objetivo, y que el reparto entre tipos de activo importa más que la elección de valores. Las tres están dichas por gente que gestiona miles de millones y ninguna de las tres necesita creer en Robbins para funcionar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a cualquier manual de inversión es el acceso. Dalio no explica su cartera en ningún otro sitio con este detalle, Bogle y Swensen contestaron a preguntas concretas, y todo eso está escrito para alguien que no sabe qué es un bono. Como puerta de entrada al asunto, cumple.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quédate con dos números: lo que pagas cada año en comisiones y la renta que cubriría tus gastos fijos. Con esos dos ya puedes decidir; sin ellos, no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y falla en tres sitios. Es tres veces más largo de lo que su contenido pide, y la repetición no es un defecto de estilo: cansa hasta el punto de que mucha gente abandona antes de los capítulos útiles. Los conflictos de interés existen y están declarados en letra pequeña. Y la simulación de la cartera se apoya en treinta años de tipos a la baja sin advertirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el marcador de lo que vino después es concluyente en el punto más vendible. En 2022 subieron los tipos de golpe y cayeron a la vez la bolsa y los bonos, que es exactamente el escenario en el que una cartera con más de la mitad en bonos no protege: el fondo de Dalio construido con esa filosofía perdió alrededor de un veintidós por ciento, su peor año. La norma que obligaba a los asesores estadounidenses a actuar en interés del cliente, que Robbins defiende en el libro, fue anulada por un tribunal federal en 2018. Y él publicó dos libros más, en 2017 y en 2024, este último promocionando inversiones privadas en las que también tiene participación.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "maestro-dinero": MAESTRO_DINERO,
   "ladrona-libros": LADRONA_LIBROS,
   "confesiones-chef": CONFESIONES_CHEF,
   "21-leyes-liderazgo": LEYES_LIDERAZGO,
