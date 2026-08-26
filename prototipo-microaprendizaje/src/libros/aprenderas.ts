@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "actua-dama-piensa-hombre":
+    "Steve Harvey no es psicólogo: es un cómico que pasó diez años contestando llamadas de oyentes en la radio. Su credencial es haber sido el tipo de hombre del que avisa, y de ahí saca un manual corto para decidir antes.",
+
   "en-la-sombra":
     "En inglés el libro se llama «Spare», el repuesto: la fórmula con la que las casas reales llaman al segundo hijo. Harry sostiene que ese papel, asignado el día que nació, explica su vida entera.",
 

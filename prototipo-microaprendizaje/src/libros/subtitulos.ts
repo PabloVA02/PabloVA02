@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "actua-dama-piensa-hombre": "Lo que los hombres piensan de verdad sobre el amor, las relaciones, la intimidad y el compromiso",
   "en-la-sombra": "Memorias",
   "enamorate-de-ti": "El valor imprescindible de la autoestima",
   "mente-en-forma": "Un programa para activar tu cerebro",

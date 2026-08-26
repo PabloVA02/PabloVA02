@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "actua-dama-piensa-hombre": [
+    "las tres señales que se ven desde fuera y dicen si alguien ha decidido",
+    "por qué un periodo de espera te da datos que la intimidad tapa",
+    "qué te mueve de la casilla de un rato a la de quedarse",
+    "cinco preguntas que ahorran dos años si se hacen en la tercera cita",
+    "cuándo contar tus logros informa y cuándo es una coraza",
+  ],
+
   "en-la-sombra": [
     "por qué un duelo que no se permite tarda veinte años en salir",
     "cómo una familia acaba filtrando contra sí misma sin que nadie lo ordene",

@@ -351,7 +351,7 @@ export const CATALOGO: Ficha[] = [
   { id: "comunicacion-no-violenta", titulo: "Comunicación no violenta", autor: "Marshall Rosenberg", ano: 1999, categoria: "Psicología", estado: "escrito" },
   { id: "conversaciones-cruciales", titulo: "Conversaciones cruciales", autor: "Patterson, Grenny, McMillan y Switzler", ano: 2002, categoria: "Psicología", estado: "escrito" },
   { id: "ninos-escuchen", titulo: "Cómo hablar para que los niños escuchen", autor: "Adele Faber y Elaine Mazlish", ano: 1980, categoria: "Psicología", estado: "escrito" },
-  { id: "actua-dama-piensa-hombre", titulo: "Actúa como dama, piensa como hombre", autor: "Steve Harvey", ano: 2009, categoria: "Psicología", estado: "pendiente" },
+  { id: "actua-dama-piensa-hombre", titulo: "Actúa como dama, piensa como hombre", autor: "Steve Harvey", ano: 2009, categoria: "Psicología", estado: "escrito" },
   { id: "desenredadas", titulo: "Desenredadas", autor: "Lisa Damour", ano: 2016, categoria: "Psicología", estado: "pendiente" },
   { id: "poder-de-la-presencia", titulo: "El poder de la presencia", autor: "Amy Cuddy", ano: 2015, categoria: "Psicología", estado: "escrito" },
   { id: "obstaculo-es-camino", titulo: "El obstáculo es el camino", autor: "Ryan Holiday", ano: 2014, categoria: "Psicología", estado: "escrito" },

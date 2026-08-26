@@ -107934,7 +107934,282 @@ const EN_LA_SOMBRA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Actúa como dama, piensa como hombre, de Steve Harvey (2009), en ocho páginas.
+
+   Libro práctico, registro de tú: apartado 4.7.
+
+   Es un libro sin una sola prueba y con una influencia enorme, así que la
+   conclusión no puede limitarse a decir que no tiene base: tiene que explicar
+   POR QUÉ funcionó igualmente y qué parte de lo que dice sigue en pie.
+   -------------------------------------------------------------------------- */
+
+const ACTUA_DAMA_PIENSA_HOMBRE: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "La autoridad de este libro no es la experiencia, es la confesión" },
+      {
+        b: "texto",
+        texto:
+          "Steve Harvey no es psicólogo, ni terapeuta de pareja, ni investigador. Es un cómico de Cleveland que llevaba veinte años haciendo monólogos y presentando programas de radio y televisión cuando publicó esto en 2009. Y el libro no lo esconde: lo pone en la primera página. Su credencial es que ha sido exactamente el tipo de hombre del que avisa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El subtítulo dice lo que promete: lo que los hombres piensan de verdad sobre el amor, las relaciones, la intimidad y el compromiso. La tesis es que las mujeres llevan décadas recibiendo consejos escritos por y para mujeres, y que eso deja fuera la única información que hace falta: cómo funciona por dentro la cabeza del otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Vendió millones de ejemplares, estuvo más de un año en la lista de <em>The New York Times</em> y en 2012 se convirtió en una película, <em>Think Like a Man</em>, que recaudó más de noventa millones de dólares y tuvo secuela en 2014. Pocos libros de autoayuda han pasado tan deprisa a la conversación corriente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene saber de dónde sale el material, porque el libro no cita ninguna otra fuente. Harvey llevaba años recibiendo llamadas de oyentes en su programa matinal de radio, casi todas de mujeres y casi todas con la misma pregunta hecha de maneras distintas: por qué hace esto, qué significa que diga aquello. El libro es la respuesta que fue dando durante una década, ordenada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue son las seis ideas que sostienen el libro —lo que los hombres quieren, cómo se reconoce a uno que va en serio, la regla de los noventa días, la clasificación que hacen, las cinco preguntas y el capítulo sobre la mujer independiente— y, al final, lo que aguanta y lo que no.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un consejo escrito solo por gente como tú te deja sin la mitad de la información que necesitas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Harvey sostiene que un hombre no te presenta a nadie hasta que ha decidido algo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera idea del libro es que el amor de un hombre no se declara: se demuestra en tres cosas, y las tres se ven desde fuera. Harvey las llama las tres pes, por sus nombres en inglés, y son profesar, proveer y proteger.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Profesar es decir tu nombre en voz alta delante de otras personas. No un mensaje ni una frase en privado: presentarte a su madre, a sus amigos, a la gente del trabajo, con la etiqueta que corresponda. Harvey sostiene que un hombre que ha decidido va contándolo, porque para él eso es marcar territorio, y que el que no lo hace no es tímido: está dejando la puerta abierta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Proveer es aportar algo material, y aquí el libro se cuida de una confusión: no significa mantenerte. Significa que un hombre que se toma en serio a alguien empieza a resolver cosas —arreglar, pagar, traer, ocuparse— porque es la manera en que se le enseñó a demostrar que sirve. Y proteger es ponerse delante de un problema, incluido cuando el problema es su propia familia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La utilidad de la lista no está en las tres por separado, sino en que son observables. Deja de preguntarle qué siente y mira si te presenta, si resuelve y si te defiende. Si hace las tres, ha decidido; si hace una, todavía está mirando. Es una prueba que no depende de lo que nadie diga.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Deja de escuchar lo que dice y cuenta lo que hace delante de otras personas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los hombres piden tres cosas y ninguna es la que se supone" },
+      {
+        b: "texto",
+        texto:
+          "La segunda idea es la que más molestó y la que Harvey defiende con más ganas: que lo que un hombre necesita de una relación se reduce a tres cosas, y ninguna es la conversación, ni los planes, ni la vida social compartida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es apoyo. Harvey sostiene que un hombre se define por lo que hace y por cuánto avanza, así que la persona que le pregunta por su trabajo y se lo cree ocupa un lugar que no ocupa nadie más. La segunda es lealtad, que él define de una manera concreta y no romántica: no criticarle delante de terceros y no darle a nadie de fuera la información con la que se le puede hacer daño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la tercera es el sexo, que el libro llama con un eufemismo repetido hasta el chiste. Lo que sostiene no es que sea lo más importante, sino que es la única de las tres que el hombre no puede fingir que no necesita, y que por eso las conversaciones sobre ese tema se cargan de todo lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El valor de la lista, otra vez, es que es corta. Harvey no dice que los hombres sean simples: dice que el catálogo de cosas que piden explícitamente es corto, y que el desgaste de muchas parejas viene de gastar energía en cosas que el otro nunca pidió. La prueba está en preguntarlo en voz alta, que es lo que casi nadie hace.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Buena parte del esfuerzo que pones en una relación puede estar dirigido a algo que la otra persona nunca ha pedido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La regla de los noventa días no va del sexo: va de tener datos antes de decidir",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la idea por la que se conoce el libro y casi siempre se cuenta mal. Harvey propone esperar noventa días antes de acostarse con alguien, y la analogía de la que sale explica para qué sirve: en muchas empresas de Estados Unidos, un empleado nuevo no tiene derecho a seguro médico ni a vacaciones hasta que cumple noventa días. Es un periodo de prueba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que el libro sostiene no es que el sexo estropee nada. Es que noventa días es el tiempo aproximado en que alguien deja de comportarse como cree que debe y empieza a comportarse como es: aparecen las cancelaciones, la manera de tratar a un camarero, cómo reacciona a un problema pequeño. Y que ese periodo es más difícil de observar cuando ya hay intimidad de por medio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla tiene además una función que Harvey no disimula: es un filtro. Un hombre que no está dispuesto a esperar tres meses ha contestado a la pregunta sin que haya que hacérsela. No es un juicio moral, es un dato barato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí está el punto flojo, que conviene decir en la misma página. Noventa días es un número redondo elegido por una analogía laboral, no por ninguna medida de nada. Nadie ha comprobado que a los ochenta y nueve se sepa menos y a los noventa y uno más. Lo que sirve es la idea —esperar a tener datos—; la cifra es un truco para que se recuerde.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que sirve de la regla no es el número: es negarse a decidir sobre alguien mientras todavía te está enseñando su mejor versión.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Harvey sostiene que un hombre te ha clasificado mucho antes de la primera cita",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cuarta idea es la más incómoda del libro y la que lo hace útil. Harvey afirma que los hombres, con la información que tienen desde el primer momento, colocan a la persona que tienen delante en una de dos casillas: la que da para un rato y la que da para quedarse. Usa una comparación de pesca deportiva, entre el pez que se devuelve al agua y el que se lleva a casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que le interesa no es la clasificación sino el criterio. Según el libro, lo que mueve a alguien de una casilla a la otra no es el atractivo ni la simpatía: son los límites. Una persona que dice desde el principio qué acepta y qué no, y que se comporta en consecuencia cuando le sale caro, cambia de casilla; una que ajusta sus normas para que la relación siga, se queda donde estaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Harvey lo lleva a un consejo concreto y algo brutal: los estándares se enuncian pronto y sin adornos, y después se sostienen aunque cueste una noche o una relación. Un límite que solo existe mientras no molesta no es un límite, es una preferencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro tiene aquí un punto ciego evidente y no lo menciona: describe esa clasificación como un hecho de la naturaleza y no como una conducta que se podría discutir. Es la diferencia entre explicar cómo funciona un mercado y decir que está bien que funcione así, y Harvey nunca separa las dos cosas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un límite que solo existe mientras no te cuesta nada no es un límite: es una preferencia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cinco preguntas hechas pronto ahorran dos años" },
+      {
+        b: "texto",
+        texto:
+          "La parte más práctica del libro es una lista de cinco preguntas que Harvey recomienda hacer en las primeras semanas, y su argumento es de ahorro de tiempo: casi todo lo que se descubre a los dos años se podía haber sabido en la tercera cita si alguien se hubiera atrevido a preguntar.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Cuáles son tus objetivos a corto plazo.", texto: "Qué quiere conseguir en el próximo año, dicho con cosas concretas y no con adjetivos." },
+          { fuerte: "Cuáles a largo plazo.", texto: "Dónde se ve en cinco o diez años. Si no ha pensado nunca en eso, ya es una respuesta." },
+          { fuerte: "Qué opinas de las relaciones.", texto: "Qué espera de una, qué le parece el compromiso y qué ha aprendido de las anteriores." },
+          { fuerte: "Qué piensas de mí.", texto: "Obliga a decir en voz alta cómo te ve, que casi nunca coincide con lo que se supone." },
+          { fuerte: "Qué sientes por mí.", texto: "Es la que casi nadie hace, y la que separa a quien no lo tiene claro de quien lo tiene claro y no lo dice." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "El orden importa y Harvey lo justifica: las tres primeras van de él y las dos últimas van de vosotros, así que si las tres primeras ya han contestado, las dos últimas sobran. Y ninguna se hace en una conversación seria preparada. Se hacen de pasada, en un coche o cenando, donde no hay tiempo de montar una respuesta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Harvey insiste en que las cinco se hacen mirando y callando después. La información no está solo en la respuesta: está en si contesta deprisa, si se ríe para escapar, si devuelve la pregunta. Y advierte de lo obvio: quien se ofende por que le pregunten dónde se ve en cinco años ya ha contestado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todo lo que descubrirás en dos años se podía preguntar en la tercera cita.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El capítulo sobre la mujer independiente es el peor del libro y el más discutido",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un capítulo en el que Harvey se dirige a la mujer que enumera lo que ha conseguido —su casa, su coche, su sueldo, que no necesita a nadie— y le dice que esa lista, repetida delante de un hombre, funciona como un muro. Su argumento es que un hombre necesita sentir que aporta algo, y que a quien se le anuncia que no hace falta para nada, se va.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la parte que más críticas le costó, y con razón. Puesto así, el consejo es que una mujer suavice sus logros para no incomodar, o sea que cargue con la inseguridad del otro. Varias autoras lo señalaron al publicarse, y es el punto en que el libro deja de describir a los hombres y empieza a pedirle cosas a ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Debajo hay, aun así, una observación que sí se sostiene, y conviene separarla del consejo. Harvey no está hablando de tener éxito: está hablando de usar el éxito como escudo. Contar tus logros como aviso —esto es lo que tengo, así que ni se te ocurra— no es información, es una defensa, y la persona de enfrente la nota aunque no sepa nombrarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia entre las dos lecturas es quién tiene que cambiar. Si el problema es que él no soporta que ella gane más, el que tiene un problema es él. Si el problema es que ella lleva la coraza puesta desde el minuto uno con todo el mundo, eso sí es suyo. El libro mezcla los dos casos en uno y ahí se equivoca.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Contar tus logros como aviso no informa a nadie: avisa de que llevas puesta una coraza.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que las mujeres reciben consejos amorosos escritos por y para mujeres, y que les falta el dato más útil: cómo decide un hombre. Y ofrece a cambio un manual corto —tres señales de que va en serio, tres cosas que pide, un periodo de prueba de noventa días, cinco preguntas— pensado para tomar decisiones antes y con menos daño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es el cambio de método. Casi toda la autoayuda amorosa te pide que interpretes lo que sientes; Harvey te pide que cuentes lo que el otro hace, y las tres pes son observables por cualquiera desde fuera. Y la idea de que la información se pide en voz alta, en la tercera cita y sin disculparse, es de las pocas de este estante que ha aguantado quince años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. No hay una sola prueba en todo el libro: ni un estudio, ni una encuesta, ni una fecha. Todo lo que afirma sobre «los hombres» sale de su propia vida y de las llamadas a su programa de radio, y lo que llama la manera de pensar de los hombres es la de un hombre estadounidense heterosexual de su generación y de su clase. Trata como naturaleza lo que es costumbre, y cuando el consejo se dirige a ella —lo del capítulo de la mujer independiente— acaba pidiéndole que se encoja. Y hay una ironía que el libro no menciona: cuando lo publicó, Harvey iba por su tercer matrimonio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después. La regla de los noventa días salió del libro y se instaló en la conversación corriente, repetida en programas y discutida en cada sobremesa, que es lo que casi ningún libro de este estante consigue. La película de 2012 recaudó más de noventa millones y tuvo secuela. Pero el terreno que describe se le movió debajo: escribió antes de que las aplicaciones cambiaran cómo se conoce la gente, y un manual construido sobre lo que se observa en las primeras semanas cara a cara tiene mucho menos que decir cuando esas semanas ocurren en un teléfono.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "actua-dama-piensa-hombre": ACTUA_DAMA_PIENSA_HOMBRE,
   "en-la-sombra": EN_LA_SOMBRA,
   "enamorate-de-ti": ENAMORATE_DE_TI,
   "mente-en-forma": MENTE_EN_FORMA,
