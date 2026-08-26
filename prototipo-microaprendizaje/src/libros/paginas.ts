@@ -109599,7 +109599,304 @@ const VEINTE_POEMAS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El viaje del escritor, de Christopher Vogler (1992), en ocho páginas.
+
+   Libro práctico, registro de tú.
+
+   La séptima página es el problema del molde —la crítica al monomito de
+   Campbell, la del héroe siempre varón y la de la homogeneidad de Hollywood—
+   y va DENTRO, porque quien vaya a usar la estructura tiene que saber qué
+   deja fuera antes de usarla, no después.
+   -------------------------------------------------------------------------- */
+
+const VIAJE_DEL_ESCRITOR: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Este libro empezó siendo un memorándum de siete páginas que circuló fotocopiado por Hollywood",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1985, un lector de guiones de los estudios Disney llamado Christopher Vogler escribió un documento interno de siete páginas para sus jefes. Se titulaba «Guía práctica de <em>El héroe de las mil caras</em>», y era un resumen de un libro de mitología comparada de 1949 traducido al idioma en que se decide si una película se hace o no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El memorándum se fotocopió, se pasó de mano en mano y acabó fuera de la empresa. Durante unos años fue material de contrabando entre guionistas y ejecutivos de Los Ángeles. Vogler lo convirtió en libro en 1992, lo amplió en 1998 y otra vez en 2007, y desde entonces es el manual de estructura más usado del cine comercial estadounidense.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que promete es concreto: que casi todas las historias que funcionan siguen el mismo esqueleto, que ese esqueleto tiene doce etapas y ocho papeles, y que conocerlo permite ver dónde está roto un guion en vez de saber solo que algo falla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y conviene fijar qué clase de libro es, porque se confunde a menudo con un manual de escritura. No enseña a escribir diálogo, ni a construir una escena, ni a corregir. Es un libro de arquitectura: dice qué piezas suele tener una historia que funciona y en qué orden aparecen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue son de dónde salió la idea, las doce etapas agrupadas para que se recuerden, la mejor aportación del libro —que los personajes no son tipos sino funciones—, y lo que este molde deja fuera, que es lo que más conviene saber antes de usarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Saber dónde está roto algo es una habilidad distinta de notar que algo está roto, y es la que se puede aprender.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Vogler no inventó el patrón: lo tradujo del lenguaje de la mitología al de la sala de guionistas",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea original es de Joseph Campbell, profesor de literatura comparada, que en 1949 publicó <em>El héroe de las mil caras</em>. Su tesis era que los mitos de culturas que nunca se habían tocado cuentan por debajo la misma historia, y la llamó el monomito: alguien sale de su mundo, entra en otro donde las reglas cambian, se enfrenta a una prueba definitiva y vuelve con algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Campbell escribía para gente que sabía quiénes eran Osiris y Prometeo, en un vocabulario de psicoanálisis junguiano que a un guionista no le sirve de nada. Su libro tiene además una estructura que no se puede usar como plano: los ejemplos se acumulan por asociación y no en orden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hizo Vogler fue traducirlo. Cambió los nombres —«el vientre de la ballena» pasó a ser «el acercamiento a la caverna más profunda»—, ordenó las etapas en una secuencia que se puede leer de arriba abajo y las repartió en los tres actos con los que Hollywood ya trabajaba. Un trabajo de edición, no de descubrimiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está el mérito real del libro, que conviene reconocer para poder criticarlo después: hay ideas que no llegan a quien podría usarlas porque están escritas en el idioma equivocado, y traducirlas es un trabajo. George Lucas había leído a Campbell antes de escribir <em>La guerra de las galaxias</em>; el resto de la industria lo leyó a través de estas siete páginas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una idea buena escrita en el idioma equivocado no llega a quien podría usarla. Traducirla es un trabajo, no una copia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las doce etapas se recuerdan mejor en tres bloques que en una lista" },
+      {
+        b: "texto",
+        texto:
+          "Vogler numera doce etapas, y doce cosas no las retiene nadie. Se recuerdan bien agrupadas en tres bloques, que además son los tres actos, y cada bloque contesta una pregunta distinta sobre la historia.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Salir.", texto: "El mundo ordinario, la llamada a la aventura, el rechazo de la llamada, el encuentro con el mentor y el cruce del primer umbral. Contesta: qué le falta a esta persona y qué la obliga a moverse." },
+          { fuerte: "Bajar.", texto: "Pruebas, aliados y enemigos; el acercamiento a la caverna; la ordalía; la recompensa. Contesta: qué aprende, quién le acompaña y qué precio paga." },
+          { fuerte: "Volver.", texto: "El camino de vuelta, la resurrección y el regreso con el elixir. Contesta: en qué ha cambiado, y qué trae que sirva a los que se quedaron." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "Puestas así se ve lo que la lista de doce esconde: el esqueleto no es una secuencia de acontecimientos, son tres preguntas. Y una historia que falla casi siempre falla porque una de las tres no está contestada, no porque le falte una etapa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palabra que Vogler repite para esto es umbral, y no es adorno: cada bloque empieza cuando alguien cruza una línea que no se puede deshacer. Si en tu historia el protagonista puede volverse atrás en cualquier momento sin coste, todavía no ha cruzado ninguna.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Vogler insiste en algo que casi todos sus imitadores se saltan: las etapas se pueden reordenar, repetir, comprimir en un plano o quitar. No es una receta con doce ingredientes obligatorios; es un mapa de terreno que dice qué suele haber, no por dónde hay que pasar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando una historia no funciona, casi nunca le falta una escena: le falta contestar qué ha cambiado y a costa de qué.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La mejor idea del libro es que un personaje no es un tipo, es una función que alguien está cumpliendo ahora",
+      },
+      {
+        b: "texto",
+        texto:
+          "Vogler describe ocho arquetipos —héroe, mentor, guardián del umbral, heraldo, figura cambiante, sombra, aliado y embaucador— y luego hace la afirmación que sostiene toda su parte útil: no son etiquetas de personaje, son máscaras que un mismo personaje se pone y se quita según lo que la historia necesite en esa escena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que él usa es el del mentor. La función de mentor es entregar algo que hace falta para seguir: una información, un objeto, un permiso. Puede cumplirla un maestro anciano, pero también un desconocido en un bar, un enemigo o una carta encontrada. Lo que importa no es quién es: es qué hace en ese momento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El guardián del umbral es el mejor de los ocho para entender la diferencia. No es un villano, es cualquiera que pone una dificultad en la puerta: un funcionario, un padre, un examen, el propio miedo. Su papel no es impedir el paso, es medir si el que pasa está listo, y por eso muchas veces se convierte en aliado después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es la que hace útil el capítulo. Cuando un personaje secundario no funciona, la pregunta no es cómo hacerlo más interesante: es qué función está cumpliendo, y si la respuesta es ninguna, sobra. Y si dos personajes cumplen la misma, se fusionan en uno, que es el arreglo más frecuente de un guion inflado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si dos personajes hacen lo mismo en la historia, no tienes dos personajes: tienes uno escrito dos veces.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El héroe tiene que morir dos veces, y la segunda es la que casi todo el mundo se salta",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el centro del esquema hay dos etapas que se parecen y no son la misma, y confundirlas es el error de estructura más común. Vogler las llama la ordalía y la resurrección.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ordalía va en la mitad de la historia y es una muerte simbólica: el momento en que el protagonista se enfrenta a lo que más teme y algo suyo se acaba ahí. No es la pelea final. Es la escena después de la cual ya no puede volver a ser quien era, y su función es que el personaje pague por lo que va a aprender.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La resurrección va casi al final y es la prueba de que el cambio es real. El protagonista se enfrenta otra vez a algo parecido y lo resuelve de otra manera, y esa diferencia es la que demuestra al espectador que lo de la mitad sirvió para algo. Sin ella, el cambio del personaje es una declaración y no un hecho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una manera rápida de comprobar si tu historia tiene las dos. Escribe en una línea qué le pasa al protagonista en el minuto cincuenta y qué le pasa en el noventa. Si las dos frases se parecen demasiado, sobra una; si no se parecen en nada, falta el hilo entre ellas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí está la regla que más se aprovecha de todo el libro: una transformación no se cuenta, se comprueba. Si un personaje era cobarde y ahora es valiente, hace falta ponerlo delante de la misma situación que le hizo huir al principio. Las historias que dejan indiferente casi siempre tienen la primera escena y no la segunda.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Para demostrar que alguien ha cambiado hay que ponerlo otra vez delante de lo que le venció la primera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Debajo del viaje que se ve corre otro que no se ve, y es el que hace que importe",
+      },
+      {
+        b: "texto",
+        texto:
+          "La aportación propia de Vogler, la que no está en Campbell, es que cada etapa exterior tiene su equivalente interior, y que la historia se sostiene cuando las dos avanzan a la vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo cuenta con una distinción sencilla: el protagonista tiene un deseo y tiene una necesidad, y casi nunca coinciden. El deseo es lo que persigue y lo que mueve la trama: llegar a un sitio, ganar algo, salvar a alguien. La necesidad es lo que le falta para ser una persona entera, y suele ser lo contrario de lo que cree que quiere.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el momento que Vogler considera la prueba de si una historia está bien construida: aquel en que conseguir el deseo y atender la necesidad se vuelven incompatibles y hay que elegir. Si esa escena no existe, la trama y el personaje son dos cosas pegadas y no una sola.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Vogler propone una prueba de una sola pregunta para saber si están bien separados: si el protagonista consiguiera hoy mismo lo que persigue, ¿estaría bien? Si la respuesta es sí, no hay necesidad debajo, y la historia se acaba en cuanto lo consiga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y explica una cosa que se nota mucho como espectador y cuesta nombrar: por qué a veces una película con persecuciones, explosiones y un final feliz deja frío. Es que el viaje de fuera se ha completado y el de dentro no ha empezado nunca.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que alguien persigue y lo que necesita casi nunca son lo mismo, y la historia está en el momento en que hay que elegir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El molde deja fuera más de lo que parece, y conviene saberlo antes de usarlo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema empieza en el origen. La tesis de Campbell —que todos los mitos del mundo cuentan por debajo la misma historia— lleva décadas discutida por los folkloristas. Alan Dundes, uno de los más citados de esa disciplina, le reprochó que seleccionaba los relatos que encajaban y forzaba los demás, y que el patrón parece universal porque está formulado de un modo tan general que casi todo cabe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo problema es de quién es el héroe. En Campbell el protagonista es varón, y las figuras femeninas aparecen como categorías a su servicio: la diosa, la tentadora, la madre. Maureen Murdock, que había estudiado con él, le planteó la cuestión y él contestó que las mujeres no necesitan hacer el viaje porque son el lugar al que todos intentan llegar. Murdock escribió a partir de ahí <em>El viaje de la heroína</em>, en 1990, con otro esquema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el tercero es lo que pasó con el libro en la práctica. Un mapa que decía «esto suele haber» se convirtió en una lista de comprobación que se aplica a los guiones antes de comprarlos, y esa es una de las causas que se señalan cuando se dice que el cine comercial de las últimas décadas se parece demasiado a sí mismo. El propio Vogler lo advirtió en las ediciones posteriores: escribió que el esquema es una brújula y no un raíl.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se saca de las tres cosas juntas no es tirar el libro. Es saber qué clase de historia describe: una en la que alguien sale, se enfrenta y vuelve cambiado. Hay historias buenísimas que no hacen nada de eso —las que no tienen a nadie que cambie, las corales, las que terminan donde empiezan— y para ésas el mapa no sirve, y no porque estén mal hechas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una plantilla te dice qué suele haber. Nunca te dice qué falta que nadie ha hecho todavía.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro traduce el monomito de Joseph Campbell al lenguaje de quien escribe guiones: doce etapas repartidas en tres actos, ocho papeles que los personajes se turnan, y un viaje interior que corre debajo del exterior. Empezó como un memorándum de siete páginas escrito en Disney en 1985 y acabó siendo el manual de estructura más usado del cine comercial.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta son tres herramientas que sirven aunque se tire el esquema entero. Que los arquetipos son funciones y no tipos, lo que permite arreglar un reparto inflado preguntando qué hace cada uno. Que una transformación se comprueba poniendo al personaje otra vez delante de lo que le venció. Y que el deseo y la necesidad de un protagonista tienen que chocar en algún momento, o la trama y el personaje van por separado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El cimiento está discutido: folkloristas como Alan Dundes llevan décadas señalando que Campbell elegía los mitos que encajaban y que su patrón es tan general que casi todo cabe dentro. El héroe es varón por diseño, y las figuras femeninas aparecen como funciones a su servicio; cuando Maureen Murdock se lo planteó a Campbell, la respuesta que recibió fue que las mujeres son el sitio al que los demás quieren llegar. Y hay un fallo de uso que el libro no comete pero provoca: es un mapa, y se ha usado como lista de comprobación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después. Vogler amplió el libro dos veces, en 1998 y en 2007, y en esas ediciones añadió precisamente lo que le faltaba: reconoce la crítica de Murdock, incorpora la vuelta a la historia contada desde otros papeles y avisa de que su esquema es una brújula y no un raíl. También trabajó como asesor de guion en películas de Disney en los años noventa, entre ellas <em>El rey león</em>, que es a la vez la mejor demostración de que el molde funciona y el mejor ejemplo de por qué muchas películas de esa época se parecen tanto.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "viaje-del-escritor": VIAJE_DEL_ESCRITOR,
   "veinte-poemas": VEINTE_POEMAS,
   "biologia-creencia": BIOLOGIA_CREENCIA,
   "futuro-nuestra-mente": FUTURO_NUESTRA_MENTE,

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "viaje-del-escritor":
+    "Empezó en 1985 como un memorándum interno de siete páginas escrito por un lector de guiones de Disney. Se fotocopió, salió del estudio y acabó siendo el manual de estructura más usado del cine comercial.",
+
   "veinte-poemas":
     "Neruda tenía diecinueve años y publicaba con seudónimo para que su padre, ferroviario, no supiera que escribía versos. Sacó el poema de amor castellano del decorado modernista y le metió dentro muelles, redes y lluvia.",
 

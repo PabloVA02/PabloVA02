@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "viaje-del-escritor": "Las estructuras míticas para escritores",
   "biologia-creencia": "La liberación del poder de la conciencia, la materia y los milagros",
   "futuro-nuestra-mente": "El desafío científico para entender, mejorar y fortalecer nuestra mente",
   "hombres-no-escuchan": "Cómo detectar las diferencias entre la forma de pensar del hombre y de la mujer",

@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "viaje-del-escritor": [
+    "las tres preguntas que contesta toda historia que funciona",
+    "por qué un personaje no es un tipo sino una función que cumple",
+    "cómo se demuestra que alguien ha cambiado en vez de decirlo",
+    "qué distingue lo que un protagonista persigue de lo que necesita",
+    "qué clase de historias deja fuera esta plantilla y por qué",
+  ],
+
   "veinte-poemas": [
     "por qué una imagen concreta se gasta menos que un adjetivo",
     "qué cambia cuando a alguien se le describe con paisaje y no con nombre",
