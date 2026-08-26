@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "jekyll-hyde": [
+    "por qué la parte de alguien que menos se ejercita es la menos desarrollada",
+    "que lo que se buscaba no era el mal, sino no pagar las consecuencias",
+    "cómo la discreción y la buena educación permiten que algo siga ocurriendo",
+    "qué pasa cuando lo que te funciona depende de algo que no has medido",
+    "leer una novela cuyo final ya sabías fijándote en quien no lo sabe",
+  ],
+
   "sobre-la-libertad": [
     "por qué el bien de alguien no basta para obligarle a nada",
     "que la desaprobación de los que te rodean asfixia más que una ley",

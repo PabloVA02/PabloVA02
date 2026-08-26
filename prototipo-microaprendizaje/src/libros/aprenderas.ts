@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "jekyll-hyde":
+    "Un abogado investiga por qué su amigo el doctor Jekyll ha dejado toda su herencia a un desconocido siniestro. La novela es una investigación cuya solución conoce hoy todo el mundo antes de abrirla.",
+
   "sobre-la-libertad":
     "Mill sostiene en 1859 que el único motivo legítimo para obligar a alguien es impedir un daño a otro, y que su propio bien nunca basta. De ahí salió el criterio con el que hoy se discute casi cualquier prohibición.",
 

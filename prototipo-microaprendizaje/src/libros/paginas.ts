@@ -99193,7 +99193,292 @@ const SOBRE_LA_LIBERTAD: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El extraño caso del doctor Jekyll y el señor Hyde, de Robert Louis
+   Stevenson (1886), en ocho páginas.
+
+   Novela, así que el registro del apartado 3 bis: titulares cortos de
+   imagen y la afirmación en la primera frase. Las cajas hablan al lector.
+
+   La anécdota famosa —el manuscrito quemado y reescrito en tres días— va
+   dicha con lo que se sabe de ella, según el apartado 4 bis: las versiones
+   de la familia no coinciden y no hay prueba.
+
+   Y se cuenta lo que casi nadie cuenta: que la novela es un misterio
+   detectivesco cuya solución todo el mundo conoce antes de abrirlo, y que
+   Jekyll no fue víctima de nada.
+   -------------------------------------------------------------------------- */
+
+const JEKYLL_HYDE: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una puerta en una calle mala" },
+      {
+        b: "texto",
+        texto:
+          "El relato empieza con un edificio y no con una persona. Dos hombres pasean un domingo por Londres y uno señala una puerta ciega, sin timbre ni aldaba, en la parte trasera de una casa por lo demás respetable. La fachada da a una calle próspera y esa puerta da a un callejón, y nadie que las vea desde fuera diría que pertenecen al mismo edificio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A propósito de esa puerta cuenta lo que vio allí una madrugada. Un hombre bajito venía por la calle a las tres de la mañana, se cruzó con una niña que corría, la atropelló y siguió andando por encima de ella sin detenerse. Cuando lo retuvieron, pagó cien libras a la familia con un cheque firmado por otra persona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robert Louis Stevenson publicó esto en enero de 1886 y vendió decenas de miles de ejemplares en pocos meses. En Inglaterra se predicó sobre ello desde los púlpitos y en pocos años los dos apellidos se habían convertido en una expresión corriente del idioma para designar a alguien con dos caras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que casi nadie recuerda: quién cuenta realmente esta historia, qué ocurrió con un bastón en octubre, por qué Hyde es más bajo y más joven, qué dice exactamente la confesión final, por qué el experimento deja de funcionar y qué se ha perdido para un lector de hoy.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una casa con una fachada respetable y una puerta trasera a un callejón. La novela entera está en esa descripción y ocurre en la primera página.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo cuenta un abogado" },
+      {
+        b: "texto",
+        texto:
+          "El protagonista de esta novela no es ninguno de los dos hombres del título: es Gabriel Utterson, un abogado. Ocho de los diez capítulos están contados desde fuera, siguiéndole a él mientras investiga por qué su viejo amigo el doctor Jekyll ha redactado un testamento a favor de un desconocido siniestro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Utterson es un personaje deliberadamente gris. Se le describe como seco, poco expresivo y sin ningún atractivo, y con una costumbre reveladora: cuando bebe solo toma ginebra barata, para mortificar su gusto por el buen vino. Es un hombre que se vigila a sí mismo, y por eso reconoce lo que ve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa decisión de contarlo desde fuera es lo que convierte el libro en lo que es. Durante ocho capítulos el lector no sabe qué relación hay entre los dos hombres y va reuniendo indicios con el abogado: un cheque, una carta, una letra manuscrita, un criado asustado. Es una novela de investigación, no una fábula moral.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los dos últimos capítulos no son narración, son documentos: primero la carta que deja un médico amigo, y después la confesión escrita de Jekyll. Toda la explicación llega de golpe y por escrito, cuando ya han muerto los dos, y ese cambio de forma es también lo que hace que el final funcione.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un tercer testigo cuyo papel se olvida siempre: el doctor Lanyon, antiguo compañero de facultad que había roto con Jekyll por considerar sus investigaciones un disparate. Es él quien ve la transformación con sus propios ojos, y lo que ve lo mata: enferma en cuestión de semanas y muere sin haber podido contarlo en voz alta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No es una fábula moral: es una investigación. El que la conduce es un abogado que se vigila a sí mismo y por eso sabe lo que está viendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El bastón y la criada" },
+      {
+        b: "texto",
+        texto:
+          "El crimen que cambia el rumbo del libro lo presencia una testigo desde una ventana. Una criada que no podía dormir estaba sentada mirando la calle, iluminada por la luna, cuando vio a un caballero mayor y de aspecto amable preguntar algo cortésmente a un hombre pequeño que venía en dirección contraria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El pequeño estalló sin motivo aparente, lo derribó y lo golpeó con un bastón hasta matarlo, con una violencia que la testigo describe como propia de un simio. El bastón se partió por la mitad. La víctima era un diputado, y llevaba encima una carta dirigida al abogado Utterson, que es como el asunto llega a él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un detalle en esa escena que Stevenson coloca sin subrayarlo. El bastón con el que Hyde mata era un regalo que Utterson le había hecho años atrás a Jekyll, y estaba en su casa. El arma del crimen procede del círculo de amistades respetables del asesino, y ninguno de ellos lo advierte hasta el final.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Otro detalle es la reacción de la testigo: se desmayó y no avisó hasta las dos de la madrugada. La novela está llena de gente que ve algo y tarda en contarlo, o que decide no preguntar por respeto a la intimidad de un caballero. Esa discreción, que en aquella sociedad era una virtud, es lo que permite que todo ocurra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En este libro nadie miente. Lo que hace posible el desastre es la costumbre de no preguntar por respeto y de tardar en contar lo que se ha visto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Más pequeño y más joven" },
+      {
+        b: "texto",
+        texto:
+          "Todo el que ha visto una película sobre esto espera que Hyde sea un monstruo enorme, y el libro dice lo contrario. Hyde es notablemente más bajo que Jekyll, más joven y más ligero, hasta el punto de que la ropa del doctor le queda ridículamente grande y tiene que arremangársela.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación está en la confesión final y es de las mejores ideas del libro. Jekyll había pasado la vida ejercitando su parte respetable y reprimiendo la otra, así que cuando esa otra parte se separó, salió con la estatura de lo que había vivido: poco desarrollada, joven, sin experiencia. Era la parte que menos había usado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro rasgo de Hyde es que nadie sabe explicar qué le pasa. Todos los que lo ven coinciden en que produce un rechazo físico inmediato y ninguno consigue describir en qué consiste: no es feo exactamente, ni deforme, ni desagradable de un modo que se pueda nombrar. Stevenson se guarda deliberadamente cualquier descripción concreta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mismo hace con sus crímenes. Salvo el asesinato y el atropello de la niña, la novela no dice nunca qué hacía Hyde por las noches: habla de placeres indignos y no da un solo detalle. Ese silencio se ha leído como pudor victoriano y funciona como lo contrario, porque cada lector rellena el hueco con lo que le parece peor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Stevenson insiste además en un rasgo que se pierde en todas las versiones filmadas: Hyde no es un bruto. Habla con corrección, escribe con buena letra, tiene una casa alquilada en el Soho con cuadros y una vajilla decente, y sabe manejar un cheque. Lo que produce espanto en él no es la tosquedad, es otra cosa que nadie logra nombrar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La parte de ti que menos has ejercitado es la que menos ha crecido. Cuando aparece, aparece con la edad que tenía cuando dejaste de mirarla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo tomó porque le gustaba" },
+      {
+        b: "texto",
+        texto:
+          "La confesión final desmonta la lectura habitual del libro, y es lo que casi nadie recuerda. Jekyll no fue víctima de un accidente de laboratorio: sabía perfectamente lo que hacía, y lo repitió muchas veces porque aquello le gustaba y porque le resolvía un problema que llevaba años teniéndolo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema, escrito por él mismo, es que era un hombre con una reputación exigente y con apetitos que no encajaban en ella. La transformación no le ofrecía maldad: le ofrecía impunidad. Podía hacer lo que quisiera y despertarse a la mañana siguiente siendo un médico respetado al que nadie podía reprochar nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Él mismo aclara además que la sustancia no tenía nada de diabólica ni de divina, y que no creaba a nadie: solo abría una puerta que ya estaba dentro. Hyde no es un demonio que entra en el cuerpo de Jekyll, es Jekyll sin ninguna consecuencia que pagar, y eso es una idea bastante más incómoda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una frase suya que suele citarse mal. Jekyll no dice que el hombre esté dividido en dos, sino que en su época él solo había llegado hasta ahí, y que sospecha que acabará descubriéndose que somos muchos y no dos. La imagen popular de las dos mitades es una simplificación que el propio texto rechaza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una fase intermedia que el libro describe con precisión y que suele saltarse. Durante un tiempo Jekyll consiguió lo que buscaba: se transformaba cuando quería, volvía cuando quería y hacía obras de caridad como compensación. El problema no apareció por hacerlo mal, apareció por hacerlo mucho tiempo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que buscaba no era ser malo: era hacer lo que quería sin pagarlo. Casi nadie desea el mal; mucha gente desea que no haya consecuencias.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La sal estaba contaminada" },
+      {
+        b: "texto",
+        texto:
+          "El desenlace no llega por un castigo moral ni por un arrepentimiento: llega por un problema de suministro. La fórmula deja de funcionar, Jekyll manda comprar más producto a todas las droguerías de Londres y ninguno sirve, y solo entonces entiende lo que había pasado desde el principio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer lote de sal que había usado contenía una impureza desconocida, y era esa impureza y no la fórmula lo que hacía efecto. El experimento que había ordenado su vida durante años se apoyaba en un defecto de fabricación que ninguna droguería podía reproducir y que él ni siquiera había advertido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es un final asombrosamente moderno y bastante poco moral. La ciencia del libro no falla por soberbia ni por castigo divino: falla por contingencia, porque un proveedor cambió de partida. Stevenson pudo haber escrito un desenlace edificante y escribió uno administrativo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A partir de ahí lo que ocurre es una pérdida de control progresiva. Las transformaciones empiezan a producirse solas, sin tomar nada, y cada vez cuesta más volver; Jekyll se encierra en su gabinete y solo sale de noche disfrazado de sí mismo. Cuando echan la puerta abajo, el que está dentro ya es el otro, y se ha envenenado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El proceso tiene además un detalle que hoy se lee de otra manera. Al final necesitaba dosis cada vez mayores para obtener el mismo efecto y para durar cada vez menos, y la transformación empezaba a producirse sola en cualquier momento del día. Está descrito en 1886 y describe con exactitud una dependencia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que sostenía todo aquello era una impureza que nadie había medido. Conviene saber de qué depende de verdad lo que te está funcionando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El giro que ya no existe" },
+      {
+        b: "texto",
+        texto:
+          "Hay algo que un lector de 1886 tenía y un lector de hoy ha perdido, y conviene saberlo antes de abrir el libro: la novela está construida como un misterio cuya solución nadie conocía. Que Jekyll y Hyde son la misma persona era el secreto que se revelaba en la página doscientas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hoy esa información viene en el título de la edición, en la contraportada y en la cabeza de cualquiera que no lo haya leído. La expresión pasó a la lengua corriente en pocos años, y desde entonces el lector va por delante del abogado que investiga, de modo que ocho capítulos de indicios se convierten en una espera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso obliga a leerlo de otra manera para que funcione, y hay una que funciona bien. En lugar de esperar la revelación, conviene fijarse en cómo se comportan los demás: en lo que cada uno decide no preguntar, en las cartas que se guardan sin abrir, y en la cantidad de gente que sospecha algo y calla por educación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Leído así, el libro deja de ser sobre un experimento y pasa a ser sobre un grupo de caballeros que protege a uno de los suyos hasta que hay un cadáver. Nabokov, que lo daba en sus clases, insistía en que lo importante no era la moraleja sino la arquitectura, empezando por aquella casa con dos puertas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene además leerlo sabiendo cómo se pronunciaba. Stevenson corregía a quien decía el apellido a la manera francesa: para él era Yíquil, con la primera sílaba larga. Y el otro apellido no es casual en inglés: <em>hide</em> significa esconder, y también la piel de un animal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando ya sabes el final, mira lo que hace la gente que no lo sabe. Casi siempre están decidiendo, uno por uno, no hacer la pregunta evidente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La novela cuenta cómo un hombre respetable encuentra la manera de hacer lo que le apetece sin pagar por ello, y cómo esa manera acaba consumiéndolo. Su hallazgo no es la idea de la doble personalidad, sino algo más incómodo: que Hyde no es un intruso, sino su propio dueño sin consecuencias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta como pieza literaria es la construcción. Ciento y pocas páginas, contadas desde fuera por un testigo que no entiende lo que ve, con la explicación entregada al final en dos documentos, y con una casa de dos puertas puesta en la primera página como resumen de todo. Nada sobra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie quiere ser malo. Mucha gente quiere que lo que hace no tenga consecuencias, y ese deseo es el que necesita vigilarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Su arquitectura entera depende de un secreto que hoy conoce todo el mundo antes de empezar, así que el lector actual va ocho capítulos por delante del protagonista. En el libro apenas hay mujeres: una criada que ve el crimen, una casera y una niña atropellada, y ninguna dice una palabra que importe. Y la anécdota que siempre acompaña al libro —que Stevenson lo soñó, escribió un primer manuscrito en tres días, lo quemó tras las críticas de su mujer y lo reescribió en otros tres— procede de recuerdos familiares que no coinciden entre sí y de la que no existe ninguna prueba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después empezó pronto y de una manera siniestra. En 1888 se estrenó en Londres una adaptación teatral con el actor Richard Mansfield transformándose en escena, y coincidió con los asesinatos de Whitechapel: el público relacionó una cosa con otra, hubo quien llegó a sospechar del propio actor y la obra tuvo que retirarse. Desde entonces se han hecho más de cien versiones cinematográficas, casi todas convirtiendo a Hyde en un monstruo grande y deforme, que es exactamente lo contrario de lo que dice el texto.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "jekyll-hyde": JEKYLL_HYDE,
   "sobre-la-libertad": SOBRE_LA_LIBERTAD,
   nexus: NEXUS,
   "just-kids": JUST_KIDS,
