@@ -15,58 +15,130 @@ import { spring, springPop, springSoft, springTight } from "./motion";
    La llama
    ------------------------------------------------------------------------- */
 
+/* ==========================================================================
+   LA LLAMA
+
+   Pablo la devolvió entera: «está fatal hecha, la animación muy mal y ese
+   color tampoco me gusta». Las tres cosas eran verdad y las tres tenían la
+   misma causa: estaba dibujada como una pegatina —una silueta plana de un
+   solo color con un contorno negro de nueve puntos— y animada como una
+   pegatina —escalando el grupo entero, que es lo que hace que parezca que
+   respira en vez de que arde—.
+
+   EL COLOR. Iba en `--fuego`, que era un salmón (244, 128, 94): el color de
+   una brasa apagada, no el de una llama. Ahora son los tres tonos que ya
+   llevaba el fueguecito de la barra de arriba, y son los de un fuego de
+   verdad: rojo abajo del todo, naranja en el cuerpo y oro en la punta,
+   porque una llama se enfría según sube y ese degradado es lo que el ojo
+   reconoce como fuego. El contorno negro se ha ido: existía para recortar la
+   silueta contra el fondo, y con el degradado ya se recorta sola.
+
+   LA ANIMACIÓN. Escalar el grupo mueve la base igual que la punta, y la base
+   de una llama no se mueve: está pegada a lo que arde. Lo que se mueve es la
+   punta, y no de tamaño sino de FORMA. Así que aquí no se escala nada: se
+   interpola el camino entre tres siluetas —`CUERPO`, con la punta erguida,
+   caída a la izquierda y caída a la derecha— que tienen exactamente los
+   mismos comandos y solo cambian los puntos de control. El navegador
+   interpola número a número y sale una llama que ondea.
+
+   Tres detalles más, y los tres son de ritmo:
+
+     · El núcleo va a 1,45 s y el cuerpo a 2,3, dos duraciones que no son
+       múltiplos, así que no vuelven a coincidir hasta pasado un buen rato y
+       nunca se ve el bucle.
+     · Las chispas SUBEN y se apagan, no flotan en su sitio. Una chispa que
+       sube y desaparece dice que hay corriente de aire; una que sube y baja
+       dice que está colgada de un hilo.
+     · Y detrás hay un resplandor que late muy despacio, a 3,7 s. No se ve
+       —está al 22 %— pero es lo que hace que la llama parezca que ilumina
+       algo en vez de estar recortada encima.
+   ========================================================================== */
+
+/** Las tres siluetas del cuerpo. Mismos comandos, distintos puntos: es lo que
+ *  permite que el navegador interpole de una a otra. */
+const CUERPO = [
+  "M66 8 C82 36 108 52 106 84 C104 120 86 146 58 146 C30 146 12 124 14 94 C16 68 34 58 42 34 C44 56 52 66 58 70 C52 46 56 24 66 8 Z",
+  "M58 6 C78 34 106 54 104 86 C102 122 86 146 58 146 C30 146 12 122 14 92 C16 66 30 60 38 36 C42 58 50 68 56 72 C48 46 50 22 58 6 Z",
+  "M72 10 C86 38 110 50 108 82 C106 118 88 146 58 146 C30 146 14 126 16 96 C18 70 38 56 46 32 C46 54 54 64 60 68 C56 44 62 26 72 10 Z",
+];
+
+/** Y las tres del núcleo, con la punta más viva porque es la parte más
+ *  caliente y la que más se mueve en una llama de verdad. */
+const NUCLEO = [
+  "M64 66 C74 84 88 96 86 116 C84 136 72 146 58 146 C44 146 32 134 34 116 C36 100 48 94 52 78 C54 94 58 100 62 104 C58 88 60 76 64 66 Z",
+  "M58 62 C70 82 88 98 86 118 C84 138 72 146 58 146 C44 146 32 132 34 114 C36 98 44 96 48 80 C52 96 56 102 60 106 C54 88 54 74 58 62 Z",
+  "M70 70 C80 88 90 96 88 114 C86 134 72 146 58 146 C44 146 34 136 36 118 C38 102 52 92 56 76 C56 92 60 98 64 102 C60 86 64 78 70 70 Z",
+];
+
 export function Llama({ tamano = 108, reducido }: { tamano?: number; reducido: boolean }) {
+  const onda = (caminos: string[]) => (reducido ? {} : { d: [...caminos, caminos[0]] });
+
   return (
-    <svg width={tamano} height={tamano * 1.12} viewBox="0 0 200 224" aria-hidden>
-      {/* Chispas sueltas: entran las últimas y flotan a ritmos distintos */}
+    /* El alto sale de la caja del dibujo —152 sobre 120— y no de un 1,12
+       escrito a ojo, que era lo que había y dejaba la llama encogida dentro
+       de su hueco con aire a los lados. */
+    <svg width={tamano} height={(tamano * 152) / 120} viewBox="0 0 120 152" aria-hidden>
+      <defs>
+        {/* Los mismos tres tonos del fueguecito de la barra de arriba: el de
+            allí y el de aquí tienen que ser el mismo fuego a dos tamaños. */}
+        <linearGradient id="llama-cuerpo" x1="0" y1="1" x2="0" y2="0">
+          <stop offset="0" stopColor="#ffb13d" />
+          <stop offset="0.42" stopColor="#ff7a18" />
+          <stop offset="1" stopColor="#f0410e" />
+        </linearGradient>
+        <linearGradient id="llama-nucleo" x1="0" y1="1" x2="0" y2="0">
+          <stop offset="0" stopColor="#fff6c2" />
+          <stop offset="0.8" stopColor="#ffc93c" />
+          <stop offset="1" stopColor="#ffa616" />
+        </linearGradient>
+        <radialGradient id="llama-halo">
+          <stop offset="0" stopColor="#ff7a18" stopOpacity="0.42" />
+          <stop offset="1" stopColor="#ff7a18" stopOpacity="0" />
+        </radialGradient>
+      </defs>
+
+      {/* El resplandor de detrás */}
+      <motion.ellipse
+        cx="60" cy="104" rx="58" ry="52"
+        fill="url(#llama-halo)"
+        animate={reducido ? {} : { opacity: [0.72, 1, 0.72], scale: [0.96, 1.04, 0.96] }}
+        transition={reducido ? {} : { duration: 3.7, repeat: Infinity, ease: "easeInOut" }}
+        style={{ originX: "60px", originY: "116px" }}
+      />
+
+      {/* Chispas: suben y se apagan. Cada una a su ritmo y con su retraso, que
+          tres chispas subiendo a la vez son un ascensor, no un fuego. */}
       {[
-        { cx: 92, cy: 18, r: 7, d: 0 },
-        { cx: 148, cy: 46, r: 5.5, d: 0.7 },
-        { cx: 56, cy: 62, r: 6, d: 1.4 },
+        { cx: 30, r: 3.2, dur: 2.9, d: 0 },
+        { cx: 92, r: 2.4, dur: 3.6, d: 1.1 },
+        { cx: 74, r: 2.8, dur: 3.2, d: 2.2 },
       ].map((c) => (
         <motion.circle
           key={c.cx}
           cx={c.cx}
-          cy={c.cy}
+          cy={74}
           r={c.r}
-          fill="var(--fuego)"
-          animate={reducido ? {} : { y: [0, -7, 0], opacity: [0.75, 1, 0.75] }}
+          fill="#ffb13d"
+          initial={{ opacity: 0 }}
+          animate={reducido ? { opacity: 0.5 } : { y: [0, -62], opacity: [0, 0.9, 0] }}
           transition={
-            reducido ? {} : { duration: 2.4 + c.d, delay: c.d, repeat: Infinity, ease: "easeInOut" }
+            reducido ? {} : { duration: c.dur, delay: c.d, repeat: Infinity, ease: "easeOut" }
           }
         />
       ))}
 
-      {/* Llama exterior: silueta rellena con contorno grueso, como en la
-          referencia. El contorno es lo que le da carácter de pegatina. */}
-      <motion.g
-        style={{ originX: "100px", originY: "214px" }}
-        animate={reducido ? {} : { scaleY: [1, 1.045, 0.985, 1], scaleX: [1, 0.975, 1.02, 1] }}
-        transition={reducido ? {} : { duration: 2.6, repeat: Infinity, ease: "easeInOut" }}
-      >
-        <path
-          d="M 104 30 C 128 62, 168 88, 168 138 C 168 182, 138 212, 100 212 C 62 212, 32 182, 32 138 C 32 104, 54 88, 66 60 C 70 84, 82 92, 88 96 C 88 72, 94 48, 104 30 Z"
-          fill="var(--fuego)"
-          stroke="var(--fuego-trazo)"
-          strokeWidth="9"
-          strokeLinejoin="round"
-        />
-      </motion.g>
-
-      {/* Llama interior, a otro ritmo para que no vayan sincronizadas */}
-      <motion.g
-        style={{ originX: "100px", originY: "208px" }}
-        animate={reducido ? {} : { scaleY: [1, 1.09, 0.96, 1] }}
-        transition={reducido ? {} : { duration: 1.7, delay: 0.4, repeat: Infinity, ease: "easeInOut" }}
-      >
-        <path
-          d="M 106 104 C 118 126, 134 138, 134 160 C 134 184, 118 200, 100 200 C 82 200, 66 184, 66 160 C 66 142, 80 134, 86 118 C 88 132, 94 138, 98 142 C 96 128, 100 114, 106 104 Z"
-          fill="none"
-          stroke="var(--fuego-trazo)"
-          strokeWidth="9"
-          strokeLinejoin="round"
-        />
-      </motion.g>
+      <motion.path
+        d={CUERPO[0]}
+        fill="url(#llama-cuerpo)"
+        animate={onda(CUERPO)}
+        transition={reducido ? {} : { duration: 2.3, repeat: Infinity, ease: "easeInOut" }}
+      />
+      <motion.path
+        d={NUCLEO[0]}
+        fill="url(#llama-nucleo)"
+        animate={onda(NUCLEO)}
+        transition={reducido ? {} : { duration: 1.45, repeat: Infinity, ease: "easeInOut" }}
+      />
     </svg>
   );
 }

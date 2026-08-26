@@ -71,9 +71,15 @@
      hay escalón, y encima el escalón es MAYOR que el que había con 34. */
   --fondo: #151515;
 
-  /* Pantalla de racha: casi negro y el naranja del fuego */
+  /* Pantalla de racha: casi negro y el naranja del fuego.
+
+     El naranja era (244, 128, 94), un salmón: el color de una brasa apagada,
+     no el de una llama. Pablo lo devolvió el 26 de agosto —«ese color tampoco
+     me gusta»— y tenía razón. Este (255, 122, 24) es el tono medio del
+     degradado que ya llevaba el fueguecito de la barra de arriba, así que
+     ahora el fuego de la app es uno solo a todos los tamaños. */
   --carbon: #0e0e16;
-  --fuego: #f4805e;
+  --fuego: #ff7a18;
   --fuego-trazo: #14141f;
 
   /* Tintes derivados, para relleno amplio sin ensuciar la paleta */
@@ -4989,16 +4995,15 @@ button {
 
 /* Caja de alto fijo por el mismo motivo que en el aviso de suscripción: la
    caja de línea de un emoji trae el aire de su fuente y descuadra la fila. */
+/* La caja del dibujo. Ya no domina el aire de una fuente de emoji: dentro va
+   un SVG con su propia proporción, la del fichero que mandó Pablo. */
 .cuenta-sello {
   flex: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 42px;
-  font-size: 34px;
-  line-height: 1;
+  display: block;
+  width: 46px;
+  margin-top: 2px;
 }
+.cuenta-sello svg { display: block; width: 100%; height: auto; }
 
 .cuenta-col { flex: 1; min-width: 0; }
 
@@ -5521,10 +5526,10 @@ button {
 .perfil-invitar-arte {
   flex: none;
   display: block;
-  width: 70px;
-  height: 70px;
+  width: 76px;
+  margin-top: 4px;
 }
-.perfil-invitar-arte svg { display: block; width: 100%; height: 100%; }
+.perfil-invitar-arte svg { display: block; width: 100%; height: auto; }
 
 /* El azul es el mismo que el botón de la captura, el mismo del aviso de
    suscripción y el mismo del «Escuchar» del libro del día: en esta pantalla

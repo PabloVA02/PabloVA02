@@ -58,7 +58,7 @@ export function Cuenta() {
           animate={{ scale: 1, opacity: 1, rotate: 0 }}
           transition={{ ...springSoft, delay: 0.26 }}
         >
-          🛡️
+          <CandadoYLlave />
         </motion.span>
         <div className="cuenta-col">
           {/* La primera palabra en color, como la suya. Y el color es el del
@@ -90,6 +90,49 @@ export function Cuenta() {
         </motion.button>
       </div>
     </motion.section>
+  );
+}
+
+/* --------------------------------------------------------------------------
+   EL CANDADO Y LA LLAVE
+
+   Lo mandó Pablo en PNG y aquí va redibujado en SVG, por lo mismo que las dos
+   tarjetas del aviso de suscripción: son figuras planas —un rectángulo
+   redondeado, un arco grueso, un círculo y una barra dentada—, así que en SVG
+   pesan trescientos bytes en vez de treinta y tres kilos y no se ven borrosas
+   a ningún tamaño. Los colores son los suyos, muestreados del fichero: rojo
+   (255, 101, 90) y oro (244, 185, 66), los mismos de las tarjetas rojas.
+
+   Las medidas salen de medirle los píxeles al PNG y normalizarlas a una caja
+   de 96 × 58, que es la proporción del original (881 × 526).
+   -------------------------------------------------------------------------- */
+
+const ROJO = "#ff655a";
+const ORO = "#f4b942";
+
+function CandadoYLlave() {
+  return (
+    <svg viewBox="0 0 96 58" aria-hidden>
+      {/* El arco del candado, dibujado como trazo grueso y no como contorno
+          cerrado: son dos rectas y un semicírculo, y con un trazo de 7,1 sale
+          exactamente el grosor del original sin tener que calcular las dos
+          caras del arco. */}
+      <path
+        d="M11.8 27 V15.8 a12.2 12.2 0 0 1 24.4 0 V27"
+        fill="none"
+        stroke={ROJO}
+        strokeWidth="7.1"
+      />
+      <rect x="0" y="25.4" width="48" height="31.9" rx="5.5" fill={ROJO} />
+      {/* La cerradura: círculo y cuña, como en el fichero */}
+      <circle cx="23.9" cy="37.4" r="2.6" fill={ORO} />
+      <path d="M22.3 39.6 h3.2 l1 5.6 h-5.2 Z" fill={ORO} />
+
+      {/* La llave: cabeza con su ojo y la barra dentada */}
+      <circle cx="57.2" cy="28.6" r="11.4" fill={ORO} />
+      <circle cx="57.2" cy="28.6" r="4.9" fill={ROJO} />
+      <path d="M62 25.6 H96 V38.6 H90 V31.6 H85 V36.6 H79 V31.6 H62 Z" fill={ORO} />
+    </svg>
   );
 }
 

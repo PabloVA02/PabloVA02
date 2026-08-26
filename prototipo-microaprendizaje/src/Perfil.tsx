@@ -759,40 +759,61 @@ function GlyphNota() {
   );
 }
 
-/**
- * Dos entradas troqueladas, una detrás de otra. Se balancean a ritmos
- * distintos y con orígenes distintos: si giraran a la vez parecerían una sola
- * pieza de cartón, y lo que tiene que leerse es que son DOS —la tuya y la de
- * quien invites—.
- */
+/* --------------------------------------------------------------------------
+   EL BILLETE CON LA CARITA
+
+   Lo mandó Pablo en PNG y aquí va redibujado en SVG, como el candado de la
+   tarjeta de cuenta y como las dos tarjetas del aviso de suscripción: es un
+   rectángulo redondeado con dos muescas y una carita dentro, o sea trescientos
+   bytes de camino contra veintiséis kilos de imagen, y sin borrones a ningún
+   tamaño. Los colores son los suyos, muestreados del fichero: rojo
+   (255, 101, 90) y oro (244, 185, 66).
+
+   Las medidas salen de medirle los píxeles y normalizarlas a 96 × 54, la
+   proporción del original (735 × 411): radio 11, muescas de 6,8 centradas en
+   la mitad de la altura y carita de 13,7 de radio en el centro.
+
+   Antes había dos entradas dibujadas a mano que se balanceaban a ritmos
+   distintos. Se quedan sin balanceo: en la captura de referencia el dibujo
+   está quieto, y en una tarjeta que ya tiene un botón azul llamando, un
+   dibujo moviéndose al lado es una segunda cosa pidiendo atención.
+   -------------------------------------------------------------------------- */
 function Entradas({ reducido }: { reducido: boolean }) {
+  const R = "#ff655a";
+  const O = "#f4b942";
   return (
     <span className="perfil-invitar-arte" aria-hidden>
-      <svg viewBox="0 0 96 78">
-        <motion.g
-          style={{ originX: "40px", originY: "48px" }}
-          animate={reducido ? {} : { rotate: [-16, -11, -16], y: [0, -2.4, 0] }}
-          transition={{ duration: 5.3, repeat: Infinity, ease: "easeInOut" }}
-        >
-          <rect x="8" y="26" width="56" height="36" rx="7" fill="var(--plum)" />
-          <circle cx="36" cy="26" r="5" fill="var(--night)" />
-          <circle cx="36" cy="62" r="5" fill="var(--night)" />
-        </motion.g>
-        <motion.g
-          style={{ originX: "58px", originY: "42px" }}
-          animate={reducido ? {} : { rotate: [11, 16, 11], y: [0, -3.4, 0] }}
-          transition={{ duration: 3.9, repeat: Infinity, ease: "easeInOut" }}
-        >
-          <rect x="30" y="16" width="58" height="38" rx="7" fill="var(--ochre)" />
-          <circle cx="59" cy="16" r="5" fill="var(--night)" />
-          <circle cx="59" cy="54" r="5" fill="var(--night)" />
-          <path
-            d="M59 27.4 61.6 32.6 67.4 33.4 63.2 37.4 64.2 43.2 59 40.4 53.8 43.2 54.8 37.4 50.6 33.4 56.4 32.6Z"
-            fill="var(--night)"
-            opacity="0.72"
-          />
-        </motion.g>
-      </svg>
+      <motion.svg
+        viewBox="0 0 96 54"
+        initial={reducido ? false : { scale: 0.72, opacity: 0, rotate: -8 }}
+        animate={{ scale: 1, opacity: 1, rotate: 0 }}
+        transition={reducido ? { duration: 0.01 } : { ...springPop, delay: 0.3 }}
+      >
+        <defs>
+          {/* Las dos muescas se quitan con una máscara y no se dibujan como
+              parte del contorno: así el billete sigue siendo un rectángulo
+              redondeado normal y las muescas son dos círculos, que es como
+              está hecho el fichero. */}
+          <mask id="curva-billete">
+            <rect x="0" y="0" width="96" height="54" fill="#fff" />
+            <circle cx="0" cy="27" r="6.8" fill="#000" />
+            <circle cx="96" cy="27" r="6.8" fill="#000" />
+          </mask>
+        </defs>
+        <g mask="url(#curva-billete)">
+          <rect x="0" y="0" width="96" height="54" rx="11" fill={R} />
+        </g>
+        <circle cx="47.9" cy="26.9" r="13.7" fill={O} />
+        <circle cx="42.7" cy="21.7" r="1.9" fill={R} />
+        <circle cx="53.2" cy="21.7" r="1.9" fill={R} />
+        <path
+          d="M41.4 29.6 a7 7 0 0 0 13 0"
+          fill="none"
+          stroke={R}
+          strokeWidth="2.2"
+          strokeLinecap="round"
+        />
+      </motion.svg>
     </span>
   );
 }
