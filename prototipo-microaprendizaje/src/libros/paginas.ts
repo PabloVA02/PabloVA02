@@ -106218,7 +106218,296 @@ const FORD_VIDA_OBRA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El libro del sueño, de Guy Meadows (2014), en ocho páginas.
+
+   Salud, así que la prueba del sustituto del apartado 4 bis: el mecanismo
+   que describe es específico —el esfuerzo por dormir impide dormir— y no
+   funciona cambiándolo por ninguna otra cosa. Registro de tú.
+
+   La séptima página dice lo que hay que descartar antes de aplicar nada,
+   porque un insomnio puede ser síntoma de otra cosa, y la conclusión sitúa
+   este método frente al que las guías clínicas recomiendan.
+   -------------------------------------------------------------------------- */
+
+const LIBRO_DEL_SUENO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Meadows sostiene que quien no duerme no tiene un problema de sueño, sino de lucha contra el insomnio",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una cosa que el cuerpo humano no puede hacer por orden. Se puede decidir comer, correr o estarse quieto, y no se puede decidir dormir: el sueño llega cuando el sistema de alerta se apaga, y esforzarse en algo es exactamente la manera de mantenerlo encendido. Intentar dormir es, literalmente, hacer lo contrario de dormir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Guy Meadows es fisiólogo del sueño y dirige una clínica en Londres. Publicó este libro en 2014 después de años tratando insomnio crónico y de comprobar que las técnicas habituales —cambiar los hábitos, la temperatura, las pantallas, las infusiones— funcionaban poco en quienes llevaban años sin dormir bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su diagnóstico es que en esos casos el problema ha dejado de ser el sueño. Casi cualquiera pasa alguna mala racha por un motivo concreto —un disgusto, un trabajo nuevo, un bebé—, y el insomnio crónico aparece después, cuando esa persona empieza a pelear contra el hecho de no dormir y esa pelea se convierte en el problema principal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre su método y sus límites: por qué el esfuerzo impide dormir, en qué consiste el interruptor de la lucha, por qué despertarse de noche es normal, qué daño hace la cifra de las ocho horas, cómo se miran los pensamientos sin discutirlos, y qué hay que descartar antes de aplicar nada de esto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El sueño es lo único que no se puede conseguir esforzándose. Intentar dormir es mantener encendido justo el sistema que tiene que apagarse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cuanto más se intenta dormir, más despierto se está, y eso tiene un mecanismo descrito",
+      },
+      {
+        b: "texto",
+        texto:
+          "El fenómeno tiene nombre en la investigación sobre insomnio y se describió a mediados de los dos mil: se le llama el camino de la atención, la intención y el esfuerzo. Describe una secuencia en tres pasos que convierte una mala racha pasajera en un problema de años, y cada paso parece razonable por separado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Primero aparece la atención selectiva: alguien que ha dormido mal empieza a fijarse en todas las señales relacionadas con el sueño, mira la hora, calcula cuánto le queda, nota si tiene o no tiene sueño. Estar pendiente de si uno se está durmiendo es incompatible con dormirse, igual que vigilar la propia respiración la vuelve consciente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después llega la intención explícita: se convierte en un propósito, esta noche voy a dormir. Y de la intención sale el esfuerzo: técnicas, rituales, respiraciones contadas, acostarse antes. Cada una de esas cosas es un intento activo, y el sueño no responde a intentos activos porque su condición es precisamente que uno deje de intentar algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está la trampa que hace tan difícil salir. Cuanto peor se duerme, más se intenta; cuanto más se intenta, peor se duerme; y cada noche mala aumenta el miedo a la siguiente, que es una forma más de vigilancia. El insomnio crónico no es la falta de sueño: es ese bucle funcionando todas las noches.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una comprobación doméstica que enseña el mecanismo entero en un minuto. Cualquiera puede intentar dormirse ahora mismo, a propósito y con todas sus ganas, y comprobar que no ocurre; y casi todo el mundo se ha dormido alguna vez viendo una película que quería terminar. La diferencia entre las dos situaciones es exactamente el esfuerzo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Estar pendiente de si te estás durmiendo es incompatible con dormirte, igual que vigilar tu respiración la vuelve consciente y difícil.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ante una noche en blanco solo hay dos respuestas, y una de ellas alarga el problema",
+      },
+      {
+        b: "texto",
+        texto:
+          "Meadows resume su método en una imagen que llama el interruptor de la lucha. Cuando alguien está despierto a las tres de la madrugada, el malestar de estar despierto es inevitable; lo que sí se decide es qué se hace con él, y solo hay dos opciones, aunque una de las dos se disfrace de muchas maneras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es pelear: intentar dormirse, cambiar de postura veinte veces, calcular las horas que quedan, levantarse a hacer algo, enfadarse, tomar algo, prometerse que mañana se acuesta antes. Todas esas conductas tienen en común que son intentos de que el estado presente deje de ocurrir, y todas suben el nivel de alerta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es permitirlo: quedarse tumbado y dejar que la noche sea así, sin intentar arreglarla. No es resignación ni una técnica encubierta para dormirse, y el libro insiste mucho en eso, porque hacerlo para dormirse es volver a intentar dormirse. Se hace sabiendo que puede que no se duerma, y aceptando esa posibilidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo por el que eso funciona no es místico. Al dejar de pelear desaparece la activación que produce la pelea, y sin esa activación el sistema tiende a apagarse solo, que es lo que sabe hacer. Y aunque esa noche no se duerma, la noche siguiente llega sin el miedo acumulado, que es la mitad del problema.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Permitir que la noche sea mala solo funciona si no lo haces para dormirte. Hacerlo para dormirte es volver a intentar dormirte.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Despertarse varias veces por la noche es normal, y lo anormal es lo que se hace después",
+      },
+      {
+        b: "texto",
+        texto:
+          "Buena parte del sufrimiento del insomnio viene de creer que una noche normal consiste en dormir de un tirón, y eso no es lo que hace nadie. El sueño avanza en ciclos de aproximadamente hora y media, y entre un ciclo y el siguiente hay un momento de despertar breve, que se repite cuatro o cinco veces cada noche.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La mayoría de la gente no recuerda esos despertares porque dura segundos y vuelve a dormirse sin registrarlo. Quien tiene insomnio los recuerda todos, y no porque despierte más veces, sino porque en cuanto se despierta se activa: mira la hora, comprueba si podrá volver a dormirse y calcula lo que queda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la recomendación más concreta y más fácil de aplicar del libro: quitar el reloj de la vista. Saber que son las cuatro y diez no aporta ninguna información útil y produce inmediatamente un cálculo —quedan tres horas— que activa a cualquiera. Sin reloj, un despertar nocturno es simplemente estar despierto un rato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mismo vale para la cuenta de la mañana siguiente. Calcular cuántas horas se ha dormido y decidir a partir de ahí cómo va a ser el día es un pronóstico que se cumple solo: quien se levanta convencido de que va a rendir mal ya está peor antes de empezar, y esa expectativa influye más de lo que la gente supone.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Despertarte cuatro veces por noche es normal. Lo que te desvela no es despertarte: es mirar la hora y ponerte a calcular lo que queda.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La cifra de las ocho horas es una media, y tomársela como norma produce insomnio por sí sola",
+      },
+      {
+        b: "texto",
+        texto:
+          "La creencia de que hay que dormir ocho horas es una de las causas del problema que pretende evitar. Las recomendaciones de las sociedades del sueño para un adulto no dan una cifra sino un intervalo, de siete a nueve horas, y advierten de que la necesidad individual varía y de que hay gente que funciona bien fuera de ese margen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Convertir una media poblacional en una norma personal tiene un efecto directo. Quien duerme habitualmente seis horas y media y está perfectamente descansado empieza a considerarse enfermo, se acuesta antes de tener sueño, pasa una hora despierto en la cama y con eso inaugura exactamente el bucle que no tenía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Acostarse antes de tener sueño es, de hecho, uno de los errores más comunes y más contraproducentes. La cama acaba asociándose a estar despierto y dando vueltas en lugar de a dormir, y esa asociación se refuerza cada noche que se repite, hasta que meterse en la cama produce activación por sí solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La medida que propone el libro es distinta de la cantidad: cómo se está al día siguiente. Si alguien funciona bien, se concentra y no se duerme durante el día, está durmiendo lo que necesita, aunque la cifra no cuadre con lo que dicen los titulares. El insomnio se define por sus consecuencias diurnas y no por un número.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si funcionas bien de día, estás durmiendo lo que necesitas. La cifra es una media de población y no es una norma para tu cuerpo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los pensamientos de las tres de la madrugada no se discuten: se miran",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cualquiera que haya pasado una noche en blanco conoce el tipo de pensamiento que aparece: mañana no voy a poder, esto me está destrozando la salud, llevo así meses. Meadows sostiene que discutirlos —convencerse de que no son ciertos— es otra forma de pelear, y que también activa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que propone en su lugar viene de la terapia de aceptación y consiste en un cambio de formulación mínimo. En lugar de mañana no voy a poder, decirse estoy teniendo el pensamiento de que mañana no voy a poder. Suena a truco de manual y produce un efecto comprobable: separa al que piensa del contenido de lo pensado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo por el que funciona es que un pensamiento tratado como un hecho exige una respuesta, y un pensamiento tratado como un pensamiento no exige nada. Nadie discute con la radio de fondo. La frase sigue apareciendo, con las mismas palabras, y deja de obligar a hacer algo con ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso le suma una recomendación de atención que también es de aceptación y no de relajación. Cuando la cabeza se dispara, en lugar de intentar vaciarla —que no se puede— conviene llevar la atención a algo físico y presente: el peso del cuerpo en el colchón, el aire entrando, la temperatura de las manos. No para dormirse, sino para dejar de estar en el bucle.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cambia «mañana no voy a poder» por «estoy teniendo el pensamiento de que mañana no voy a poder». Un pensamiento tratado como hecho exige respuesta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Antes de aplicar nada de esto hay que descartar que el insomnio sea síntoma de otra cosa",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro menciona esto y lo trata con menos espacio del que merece, así que conviene ponerlo en primer plano. No todo el que duerme mal tiene un insomnio de los que este método aborda: dormir mal es también un síntoma, y hay varias causas frecuentes que necesitan un tratamiento completamente distinto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es la apnea del sueño, que consiste en pausas respiratorias repetidas durante la noche. Quien la padece ronca fuerte, se despierta con sensación de ahogo o con dolor de cabeza y tiene mucho sueño durante el día, y está infradiagnosticada en todas partes. Ninguna técnica de aceptación la resuelve, y no tratarla tiene consecuencias cardiovasculares.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es el síndrome de piernas inquietas, una necesidad imperiosa de mover las piernas que aparece al estar quieto y por la noche. La tercera es la depresión, en la que el despertar muy temprano es un síntoma habitual. Y la cuarta son los medicamentos y sustancias: hay fármacos corrientes que alteran el sueño y el alcohol lo fragmenta aunque ayude a dormirse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla práctica es sencilla. Si alguien lleva meses durmiendo mal, lo primero es una consulta médica que descarte esas causas, y solo después tiene sentido trabajar sobre la relación con el insomnio. Aplicar un método psicológico a una apnea es perder años y arriesgar bastante más que el descanso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dormir mal también es un síntoma. Antes de trabajar sobre cómo te lo tomas, hay que descartar que sea apnea, depresión o un medicamento.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que el sueño es lo único que empeora al intentarlo, que el insomnio crónico se sostiene por la lucha contra el insomnio y no por la falta de sueño, que despertarse varias veces por la noche es normal, y que la cifra de las ocho horas es una media que como norma personal hace daño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a los libros de higiene del sueño es que va a la causa del caso crónico. Las listas de recomendaciones —cenar pronto, apagar pantallas, ventilar la habitación— son razonables y para quien lleva años sin dormir se convierten en una obligación más que cumplir, es decir, en otro motivo de vigilancia y de fracaso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quita el reloj de la vista, deja de calcular horas y permite que la noche sea mala. No para dormirte: hacerlo para dormirte no cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Está escrito por un único clínico a partir de su propia práctica, y cuando se publicó la evidencia de este enfoque era mucho menor que la del tratamiento que las guías recomiendan, que es la terapia cognitivo-conductual para el insomnio. El libro trata de pasada uno de los componentes más eficaces de esa terapia, la restricción del tiempo en cama, que es incómodo y funciona. Y dedica muy poco espacio a descartar otras causas médicas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después le ha dado la razón en parte. Las guías clínicas europeas y estadounidenses recomiendan desde mediados de la década pasada esa terapia psicológica como primera opción frente a los somníferos, y su versión por internet se ha probado en ensayos de miles de personas con buenos resultados, incluida una mejora de otros síntomas psicológicos. Los enfoques basados en la aceptación, que en 2014 eran minoritarios, han acumulado desde entonces ensayos propios con resultados comparables, así que lo que este libro proponía cuando apenas tenía respaldo hoy se considera una alternativa razonable.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "libro-del-sueno": LIBRO_DEL_SUENO,
   "ford-vida-obra": FORD_VIDA_OBRA,
   "dieta-financiera": DIETA_FINANCIERA,
   "haz-cosas-dificiles": HAZ_COSAS_DIFICILES,

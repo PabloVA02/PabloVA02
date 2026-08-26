@@ -459,7 +459,7 @@ export const CATALOGO: Ficha[] = [
   { id: "dieta-ya-no-cojea", titulo: "Mi dieta ya no cojea", autor: "Aitor Sánchez García", ano: 2018, categoria: "Salud", estado: "escrito" },
   { id: "biologia-creencia", titulo: "La biología de la creencia", autor: "Bruce Lipton", ano: 2005, categoria: "Salud", estado: "pendiente" },
   { id: "adelgaza-para-siempre", titulo: "Adelgaza para siempre", autor: "Ángela Quintas", ano: 2016, categoria: "Salud", estado: "pendiente" },
-  { id: "libro-del-sueno", titulo: "El libro del sueño", autor: "Guy Meadows", ano: 2014, categoria: "Salud", estado: "pendiente" },
+  { id: "libro-del-sueno", titulo: "El libro del sueño", autor: "Guy Meadows", ano: 2014, categoria: "Salud", estado: "escrito" },
   { id: "pleno-compromiso", titulo: "El poder del pleno compromiso", autor: "Jim Loehr y Tony Schwartz", ano: 2003, categoria: "Salud", estado: "escrito" },
   { id: "revolucion-glucosa", titulo: "La revolución de la glucosa", autor: "Jessie Inchauspé", ano: 2022, categoria: "Salud", estado: "escrito" },
   { id: "cerebro-hambriento", titulo: "El cerebro hambriento", autor: "Stephan Guyenet", ano: 2017, categoria: "Salud", estado: "escrito" },

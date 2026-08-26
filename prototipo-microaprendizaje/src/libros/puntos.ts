@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "libro-del-sueno": [
+    "por qué estar pendiente de dormirte es incompatible con dormirte",
+    "qué hacer con una noche en blanco que no sea pelear contra ella",
+    "que despertarse varias veces por la noche es lo normal",
+    "por qué la cifra de las ocho horas hace daño como norma personal",
+    "qué hay que descartar antes de tratar un insomnio como psicológico",
+  ],
+
   "ford-vida-obra": [
     "cómo el montaje pasó de doce horas a hora y media",
     "qué problema resuelve de verdad pagar muy por encima del mercado",
