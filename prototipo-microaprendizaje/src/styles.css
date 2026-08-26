@@ -3584,6 +3584,22 @@ button {
   color: rgba(242, 236, 225, 0.55);
 }
 
+/* El botón de soporte, con la forma de la captura: título de sección fuera
+   de la caja, y debajo un botón azul a toda anchura y de 56 de alto. Es más
+   alto que los que van dentro de una ficha —48— porque este no vive dentro de
+   nada: es su propio bloque, y a 48 sobre el fondo pelado parecía una ficha
+   que se había quedado sin contenido. */
+.perfil-soporte {
+  width: 100%;
+  height: 56px;
+  border-radius: var(--tarjeta-radio);
+  background: #0099ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 660;
+  letter-spacing: -0.01em;
+}
+
 .perfil-version {
   margin-top: 26px;
   text-align: center;

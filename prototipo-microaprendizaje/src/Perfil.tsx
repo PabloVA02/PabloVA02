@@ -1,11 +1,10 @@
-import type { ReactElement } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import { Llama } from "./Racha";
 import { MetaDiaria } from "./Meta";
 import { Crecimiento, type Semana } from "./Crecimiento";
 import { Cuenta } from "./Cuenta";
 import { Suscripcion, type EstadoPago } from "./Suscripcion";
-import { GlyphClose, GlyphGuardar, GlyphHeart, GlyphTick } from "./glyphs";
+import { GlyphClose, GlyphTick } from "./glyphs";
 import { spring, springPop, springSoft } from "./motion";
 
 /* ==========================================================================
@@ -326,96 +325,45 @@ export function Perfil({
             de verdad y no un número. Tres ceros seguidos justo debajo de una
             gráfica que sí dice algo hacían parecer rota la pantalla entera. */}
 
-        {/* Nivel: la fila que invita a hacer algo, no solo a mirar */}
-        <motion.button
-          className="perfil-fila"
-          whileTap={{ scale: 0.985 }}
-          initial={{ opacity: 0, y: 18 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ ...springSoft, delay: orden(8) }}
-        >
-          <span className="perfil-fila-ilu">
-            <IluBirrete reducido={reducido} />
-          </span>
-          <div className="perfil-fila-texto">
-            <p className="perfil-fila-titulo">Haz una prueba de nivel</p>
-            <p className="perfil-fila-pie">Cinco minutos para saber por dónde empezar</p>
-          </div>
-          <span className="perfil-fila-flecha">›</span>
-        </motion.button>
+        {/* Aquí acaba el perfil, y acaba antes que antes. Se han ido cuatro
+            bloques que Pablo mandó quitar el 26 de agosto, y los cuatro
+            sobraban por el mismo motivo: no eran progreso.
 
-        <Rejilla
-          titulo="Personaliza la app"
-          retraso={orden(9)}
-          reducido={reducido}
-          casillas={[
-            { nombre: "Temas que sigues", Ilu: IluTemas },
-            { nombre: "Objetivo diario", Ilu: IluObjetivo },
-            { nombre: "Recordatorios", Ilu: IluCampana },
-            { nombre: "Tamaño del texto", Ilu: IluTexto },
-            { nombre: "Apariencia", Ilu: IluApariencia },
-            { nombre: "Sin conexión", Ilu: IluDescarga },
-          ]}
-        />
+              prueba de nivel     una promesa de algo que no existe
+              personaliza la app  seis casillas que llevan a lo mismo que el
+                                  engranaje de la cabecera, dos dedos más
+                                  arriba y en una pantalla hecha para eso
+              mi contenido        cuatro listas que ya tienen su pestaña
+                                  abajo, en Biblioteca
+              la fila de ayuda    se queda, pero como lo que es
 
+            Esta pantalla se llama «Tu progreso» y todo lo que quedaba abajo
+            era un menú. Un menú al final de una pantalla de datos no lo mira
+            nadie: se baja hasta el último número y se sube.
+
+            Y LA AYUDA SE QUEDA, con la forma de la captura: título de sección
+            fuera y un botón azul a toda anchura, de 56 de alto. Era una fila
+            de flecha discreta, y el argumento entonces era que un soporte no
+            debe pesar más que la racha. Sigue siendo cierto arriba; aquí
+            abajo, siendo lo último que queda, discreto solo significa
+            invisible. */}
         <motion.section
           className="perfil-bloque"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ ...springSoft, delay: orden(11) }}
+          transition={{ ...springSoft, delay: orden(8) }}
         >
-          <h2 className="perfil-titulo-bloque">Mi contenido</h2>
-          <div className="perfil-contenido">
-            {[
-              { nombre: "Favoritas", Icono: () => <GlyphHeart on={false} /> },
-              { nombre: "Guardadas", Icono: GlyphGuardar },
-              { nombre: "Historial", Icono: GlyphReloj },
-              { nombre: "Mis apuntes", Icono: GlyphNota },
-            ].map((c, k) => (
-              <motion.button
-                key={c.nombre}
-                className="perfil-contenido-casilla"
-                whileTap={{ scale: 0.97 }}
-                initial={{ opacity: 0, y: 14 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ ...springSoft, delay: orden(11) + 0.05 + k * 0.05 }}
-              >
-                {c.nombre}
-                <span className="perfil-contenido-icono">
-                  <c.Icono />
-                </span>
-              </motion.button>
-            ))}
-          </div>
+          <h2 className="perfil-titulo-bloque">¿Necesitas ayuda?</h2>
+          <motion.button className="perfil-soporte" type="button" whileTap={{ scale: 0.98 }}>
+            Contactar con soporte
+          </motion.button>
         </motion.section>
-
-        {/* Ayuda. La referencia le dedica un titular y un botón azul de
-            pared a pared, y con eso lo convierte en lo más llamativo de media
-            pantalla: un contacto de soporte no debería pesar más que la
-            racha. Aquí es una fila más, igual que la prueba de nivel. Está
-            cuando hace falta y no grita cuando no. */}
-        <motion.button
-          className="perfil-fila"
-          whileTap={{ scale: 0.985 }}
-          initial={{ opacity: 0, y: 18 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ ...springSoft, delay: orden(12) }}
-        >
-          <span className="perfil-fila-ilu">
-            <IluAyuda reducido={reducido} />
-          </span>
-          <div className="perfil-fila-texto">
-            <p className="perfil-fila-titulo">¿Necesitas ayuda?</p>
-            <p className="perfil-fila-pie">Escríbenos y te contesta una persona</p>
-          </div>
-          <span className="perfil-fila-flecha">›</span>
-        </motion.button>
 
         <motion.p
           className="perfil-version"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ ...springSoft, delay: orden(13) }}
+          transition={{ ...springSoft, delay: orden(9) }}
         >
           Prototipo · compilado el {__SELLO__}
         </motion.p>
@@ -496,222 +444,8 @@ function Temas({
    La rejilla de ajustes
    -------------------------------------------------------------------------- */
 
-type Casilla = { nombre: string; Ilu: (p: { reducido: boolean }) => ReactElement };
-
-function Rejilla({
-  titulo,
-  casillas,
-  retraso,
-  reducido,
-}: {
-  titulo: string;
-  casillas: Casilla[];
-  retraso: number;
-  reducido: boolean;
-}) {
-  return (
-    <motion.section
-      className="perfil-bloque"
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ ...springSoft, delay: retraso }}
-    >
-      <h2 className="perfil-titulo-bloque">{titulo}</h2>
-      <div className="perfil-rejilla">
-        {casillas.map((c, k) => (
-          <motion.button
-            key={c.nombre}
-            className="perfil-casilla"
-            whileTap={{ scale: 0.965 }}
-            initial={{ opacity: 0, y: 20, scale: 0.95 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            transition={{ ...springPop, delay: retraso + 0.06 + k * 0.05 }}
-          >
-            <span className="perfil-casilla-ilu">
-              <c.Ilu reducido={reducido} />
-            </span>
-            <span className="perfil-casilla-nombre">{c.nombre}</span>
-          </motion.button>
-        ))}
-      </div>
-    </motion.section>
-  );
-}
-
-/* --------------------------------------------------------------------------
-   Las miniaturas.
-
-   Cada una es una escena diminuta, no un pictograma: tiene un fondo de color,
-   una pieza al frente y un detalle que se mueve solo. A 96 px hace falta muy
-   poco para que se lea como un dibujo en vez de como un icono.
-   -------------------------------------------------------------------------- */
-
-const flota = (reducido: boolean, amplitud = 2.4, duracion = 4.3, desfase = 0) =>
-  reducido
-    ? {}
-    : {
-        animate: { y: [0, -amplitud, 0] },
-        transition: { duration: duracion, repeat: Infinity, ease: "easeInOut" as const, delay: desfase },
-      };
-
-function IluTemas({ reducido }: { reducido: boolean }) {
-  return (
-    <svg viewBox="0 0 72 60" aria-hidden>
-      <rect x="8" y="10" width="38" height="42" rx="6" fill="var(--plum)" opacity="0.5" transform="rotate(-8 27 31)" />
-      <motion.g {...flota(reducido, 2.6, 4.1)}>
-        <rect x="20" y="8" width="38" height="42" rx="6" fill="var(--paper)" />
-        <circle cx="39" cy="24" r="8" fill="var(--ochre)" />
-        <rect x="27" y="37" width="24" height="3.4" rx="1.7" fill="var(--ink)" opacity="0.24" />
-        <rect x="27" y="43" width="15" height="3.4" rx="1.7" fill="var(--ink)" opacity="0.16" />
-      </motion.g>
-      <motion.circle
-        cx="55" cy="45" r="8" fill="var(--sage)"
-        {...flota(reducido, 2, 3.3, 0.5)}
-      />
-      <path d="M51.6 45 L54 47.4 L58.4 42.6" fill="none" stroke="var(--paper)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  );
-}
-
-function IluObjetivo({ reducido }: { reducido: boolean }) {
-  return (
-    <svg viewBox="0 0 72 60" aria-hidden>
-      <circle cx="36" cy="30" r="22" fill="var(--clay)" opacity="0.24" />
-      <circle cx="36" cy="30" r="14" fill="var(--clay)" opacity="0.4" />
-      <circle cx="36" cy="30" r="6.5" fill="var(--clay)" />
-      {/* La aguja se clava: el objetivo se cumple */}
-      <motion.g
-        initial={reducido ? false : { x: 16, y: -16, rotate: 16 }}
-        animate={{ x: 0, y: 0, rotate: 0 }}
-        transition={reducido ? { duration: 0.01 } : { ...springPop, delay: 0.5 }}
-      >
-        <path d="M36 30 L57 12" stroke="var(--ink)" strokeWidth="2.6" strokeLinecap="round" />
-        <path d="M52 10 L58 11 L57 17 Z" fill="var(--ochre)" />
-      </motion.g>
-    </svg>
-  );
-}
-
-function IluCampana({ reducido }: { reducido: boolean }) {
-  return (
-    <svg viewBox="0 0 72 60" aria-hidden>
-      <circle cx="36" cy="31" r="21" fill="var(--ochre)" opacity="0.26" />
-      <motion.g
-        style={{ originX: "36px", originY: "13px" }}
-        animate={reducido ? {} : { rotate: [0, -11, 9, -5, 0] }}
-        transition={{ duration: 1.1, repeat: Infinity, repeatDelay: 3.1, ease: "easeOut" }}
-      >
-        <path
-          d="M36 13 A11 11 0 0 1 47 24 V33 L50 38 H22 L25 33 V24 A11 11 0 0 1 36 13 Z"
-          fill="var(--ochre)"
-        />
-        <path d="M31.5 38 A4.5 4.5 0 0 0 40.5 38" fill="var(--ink)" opacity="0.6" />
-        <circle cx="36" cy="12" r="2.6" fill="var(--ink)" opacity="0.6" />
-      </motion.g>
-    </svg>
-  );
-}
-
-function IluTexto({ reducido }: { reducido: boolean }) {
-  return (
-    <svg viewBox="0 0 72 60" aria-hidden>
-      <rect x="14" y="9" width="44" height="42" rx="7" fill="var(--slate)" opacity="0.28" />
-      <text x="24" y="40" fontSize="26" fontWeight="750" fill="var(--slate)" fontFamily="inherit">A</text>
-      <motion.text
-        x="41" y="40" fontSize="15" fontWeight="750" fill="var(--slate)" fontFamily="inherit"
-        animate={reducido ? {} : { fontSize: [15, 21, 15] }}
-        transition={{ duration: 3.6, repeat: Infinity, ease: "easeInOut" }}
-      >
-        A
-      </motion.text>
-    </svg>
-  );
-}
-
-function IluApariencia({ reducido }: { reducido: boolean }) {
-  return (
-    <svg viewBox="0 0 72 60" aria-hidden>
-      <circle cx="36" cy="30" r="19" fill="var(--ochre)" />
-      {/* La luna barre el disco: claro y oscuro en una sola figura */}
-      <motion.circle
-        cx="48" cy="24" r="17" fill="var(--night)"
-        animate={reducido ? {} : { cx: [48, 44, 48], cy: [24, 21, 24] }}
-        transition={{ duration: 5.2, repeat: Infinity, ease: "easeInOut" }}
-      />
-      <circle cx="36" cy="30" r="19" fill="none" stroke="var(--ochre)" strokeWidth="2.4" opacity="0.5" />
-    </svg>
-  );
-}
-
-function IluDescarga({ reducido }: { reducido: boolean }) {
-  return (
-    <svg viewBox="0 0 72 60" aria-hidden>
-      <rect x="16" y="34" width="40" height="16" rx="6" fill="var(--sage)" opacity="0.34" />
-      <motion.g
-        animate={reducido ? {} : { y: [0, 6, 0] }}
-        transition={{ duration: 2.4, repeat: Infinity, ease: "easeInOut" }}
-      >
-        <path d="M36 10 V30" stroke="var(--sage)" strokeWidth="4" strokeLinecap="round" />
-        <path d="M28 24 L36 32 L44 24" fill="none" stroke="var(--sage)" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
-      </motion.g>
-      <rect x="26" y="42" width="20" height="3" rx="1.5" fill="var(--sage)" />
-    </svg>
-  );
-}
-
-
-/** Un bocadillo con una interrogación, y un segundo bocadillo pequeño detrás
- *  que sube y baja: la respuesta que viene de camino. Sin el segundo el dibujo
- *  dice «pregunta»; con él dice «conversación», que es lo que se ofrece. */
-function IluAyuda({ reducido }: { reducido: boolean }) {
-  return (
-    <svg viewBox="0 0 48 40" aria-hidden>
-      <motion.g
-        animate={reducido ? {} : { y: [0, -2.6, 0] }}
-        transition={{ duration: 3.4, repeat: Infinity, ease: "easeInOut", delay: 0.4 }}
-      >
-        <rect x="24" y="4" width="20" height="15" rx="6" fill="var(--slate)" opacity="0.55" />
-      </motion.g>
-      <motion.g {...flota(reducido, 2.1, 4.2)}>
-        <path
-          d="M10 8 H34 A6 6 0 0 1 40 14 V24 A6 6 0 0 1 34 30 H20 L13 36 V30 H10 A6 6 0 0 1 4 24 V14 A6 6 0 0 1 10 8 Z"
-          fill="var(--slate)"
-        />
-        <path
-          d="M18.6 16.4 A4 4 0 0 1 26.4 17.6 C26.4 20.4 22.4 20.6 22.4 23"
-          fill="none"
-          stroke="var(--paper)"
-          strokeWidth="2.6"
-          strokeLinecap="round"
-        />
-        <circle cx="22.4" cy="26.4" r="1.7" fill="var(--paper)" />
-      </motion.g>
-    </svg>
-  );
-}
-
-function IluBirrete({ reducido }: { reducido: boolean }) {
-  return (
-    <svg viewBox="0 0 48 40" aria-hidden>
-      <motion.g {...flota(reducido, 2, 3.9)}>
-        <path d="M24 9 L42 17 L24 25 L6 17 Z" fill="var(--sage)" />
-        <path d="M13 20 V28 C13 31 34 31 34 28 V20" fill="none" stroke="var(--sage)" strokeWidth="3" strokeLinecap="round" />
-        <path d="M42 17 V27" stroke="var(--sage)" strokeWidth="2.4" strokeLinecap="round" />
-        <circle cx="42" cy="29" r="2.6" fill="var(--ochre)" />
-      </motion.g>
-    </svg>
-  );
-}
 
 /* --- Iconos sueltos --- */
-
-const trazoFino = {
-  fill: "none",
-  stroke: "currentColor",
-  strokeWidth: 1.7,
-  strokeLinecap: "round" as const,
-  strokeLinejoin: "round" as const,
-};
 
 /**
  * La rueda se construye repitiendo un diente cada 45°, en vez de escribir un
@@ -740,24 +474,6 @@ function GlyphRueda() {
   );
 }
 
-
-function GlyphReloj() {
-  return (
-    <svg width="17" height="17" viewBox="0 0 17 17" aria-hidden>
-      <circle cx="8.5" cy="8.5" r="6.4" {...trazoFino} />
-      <path d="M8.5 4.9 V8.7 L11 10.4" {...trazoFino} />
-    </svg>
-  );
-}
-
-function GlyphNota() {
-  return (
-    <svg width="17" height="17" viewBox="0 0 17 17" aria-hidden>
-      <path d="M3.4 3.6 H10 L13.6 7.2 V13.4 H3.4 Z" {...trazoFino} />
-      <path d="M9.8 3.6 V7.4 H13.6" {...trazoFino} />
-    </svg>
-  );
-}
 
 /* --------------------------------------------------------------------------
    EL BILLETE CON LA CARITA
