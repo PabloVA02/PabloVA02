@@ -62,7 +62,13 @@ const TEXTOS: Record<EstadoPago, {
   boton: string;
 }> = {
   nuevo: {
-    sello: "📚",
+    /* Una entrada, no una pila de libros. La pila la devolvió Pablo —«esos
+       libros son muy feos, pon algo que no parezca tan genérico de IA»— y
+       tenía razón: un montón de libros en una app de libros no dice nada, es
+       el dibujo por defecto. La entrada dice lo que se compra, que es el
+       PASE, y es además lo que pone la captura de referencia en ese mismo
+       hueco. */
+    sello: "🎟️",
     alto: "Libros ilimitados",
     bajo: "y curiosidades cada día",
     lema: "Un libro entero cada día,|en veinte minutos.",

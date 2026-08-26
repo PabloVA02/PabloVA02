@@ -4780,17 +4780,22 @@ button {
   background: rgba(242, 236, 225, 0.07);
 }
 
-/* La luz de la banda sale de donde está el símbolo, arriba a la izquierda, y
-   se apaga hacia abajo y hacia la derecha. Un degradado recto de arriba abajo
-   —que es lo que había— pinta una franja plana con un corte visible al llegar
-   al cuerpo; con el foco puesto en un sitio concreto, la banda tiene volumen y
-   muere sola. */
+/* MARRÓN, NO AMARILLO. La banda iba en ocre y Pablo la devolvió: «no pongas
+   ese tono amarillo, te dije que fuera como el recuadro de la captura». La
+   suya es un marrón cálido y apagado, y con el ocre encima de un fondo oscuro
+   lo que salía era mostaza. El marrón sale de `--clay-deep` al 30 %: sobre la
+   tarjeta da un (78, 54, 50) que es prácticamente el de la captura.
+
+   La luz sale de donde está el símbolo, arriba a la izquierda, y se apaga
+   hacia abajo y hacia la derecha. Un degradado recto de arriba abajo pinta una
+   franja plana con un corte visible al llegar al cuerpo; con el foco puesto en
+   un sitio concreto, la banda tiene volumen y muere sola. */
 .suscri-banda {
   position: relative;
   padding: 15px 16px 16px;
   background:
-    radial-gradient(115% 105% at 12% 0%, rgba(207, 160, 89, 0.32), transparent 74%),
-    linear-gradient(180deg, rgba(207, 160, 89, 0.13), transparent);
+    radial-gradient(115% 105% at 12% 0%, rgba(194, 112, 79, 0.3), transparent 74%),
+    linear-gradient(180deg, rgba(158, 86, 55, 0.3), rgba(158, 86, 55, 0.08));
   /* Y el corte con el cuerpo en un filete de un píxel, no en un escalón de
      color. El escalón —la banda muriendo en 0,04 sobre un fondo en 0— deja
      una raya sucia que no se sabe si es una raya o una mancha. Un filete
@@ -4824,9 +4829,13 @@ button {
 /* La segunda línea, que es la que manda, en ocre y con más peso. Es el mismo
    recurso de la captura —dos líneas, la de abajo en color— y funciona porque
    la primera cuenta el problema y la segunda ofrece la salida. */
+/* La segunda línea en el naranja de barro. En la captura es naranja también,
+   y este es el `--clay` de la paleta subido de luz: sobre el marrón de la
+   banda da 4,9 de contraste, o sea que se lee como un titular y no como un
+   adorno. */
 .suscri-titulo b {
   display: block;
-  color: #e0b268;
+  color: #e08d63;
   font-weight: 780;
 }
 
@@ -4854,22 +4863,28 @@ button {
 }
 .suscri-texto span { display: inline-block; white-space: nowrap; }
 
-/* Un solo botón en toda la tarjeta, así que puede permitirse ser el único
-   relleno macizo del perfil. El degradado es de un punto y medio de luz —de
-   #e6bb74 a #d5a25a—, lo justo para que la pieza tenga cara y no parezca un
-   rectángulo de color; y la sombra va en ocre y no en negro, que es lo que
-   hace que el botón parezca encendido en vez de recortado. */
+/* VERDE, y por el mismo motivo que la captura pone el suyo en azul: sobre una
+   banda marrón hace falta un color que no sea de la familia, o el botón se
+   funde con el aviso y deja de parecer una cosa que se toca. El azul es SU
+   color de marca; el nuestro es este verde, el mismo de la pastilla de «Tu
+   regalo», y en esta app significa desde el principio que algo está
+   disponible y no cuesta nada. Debajo de «Empezar prueba gratuita» no hay
+   color más adecuado.
+
+   El degradado es de un punto de luz, lo justo para que la pieza tenga cara;
+   y la sombra va en verde y no en negro, que es lo que hace que el botón
+   parezca encendido en vez de recortado. */
 .suscri-boton {
   width: 100%;
   height: 52px;
   margin-top: 13px;
   border-radius: 15px;
-  background: linear-gradient(180deg, #e6bb74, #d5a25a);
-  color: #1d1710;
+  background: linear-gradient(180deg, #78e394, #5fce7e);
+  color: #10301d;
   font-size: 15.5px;
   font-weight: 720;
   letter-spacing: -0.012em;
-  box-shadow: 0 10px 24px -12px rgba(207, 160, 89, 0.75);
+  box-shadow: 0 10px 24px -12px rgba(109, 220, 137, 0.6);
 }
 
 /* ==========================================================================
