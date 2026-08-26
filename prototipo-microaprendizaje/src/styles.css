@@ -3269,6 +3269,17 @@ button {
   padding: 4px var(--shell-pad) 8px;
 }
 
+/* El título va centrado de verdad —los dos botones ocupan lo mismo y la
+   cabecera es un flex de tres— y no con un margen a ojo. */
+.perfil-head-titulo {
+  flex: 1;
+  text-align: center;
+  font-size: 16.5px;
+  font-weight: 720;
+  letter-spacing: -0.015em;
+  color: var(--paper);
+}
+
 .perfil-head .icon-btn {
   width: 38px;
   height: 38px;
@@ -3281,6 +3292,10 @@ button {
   flex: 1;
   min-height: 0;
   overflow-y: auto;
+  /* El SVG de la gráfica lleva `overflow: visible` para que los puntos de los
+     extremos no se corten por la mitad, y eso le saca un punto por el lado.
+     Sin esto, la columna entera se puede arrastrar un punto hacia el lado. */
+  overflow-x: hidden;
   padding: 0 var(--shell-pad) 82px;
   scrollbar-width: none;
 }
@@ -3381,12 +3396,32 @@ button {
 
 .perfil-racha-datos { flex: 1; min-width: 0; }
 
+.perfil-racha-alto {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 11px;
+}
+
 .perfil-racha-datos h2 {
   font-size: 17px;
   font-weight: 720;
   letter-spacing: -0.015em;
-  margin-bottom: 11px;
 }
+
+/* El récord en pequeño y en gris, y el número en el naranja del fuego: es la
+   misma marca que la llama de al lado, así que se entiende sin leer que las
+   dos cifras cuentan lo mismo. */
+.perfil-record {
+  flex: none;
+  font-size: 11.5px;
+  font-weight: 620;
+  letter-spacing: 0.01em;
+  color: rgba(242, 236, 225, 0.5);
+  font-variant-numeric: tabular-nums;
+}
+.perfil-record strong { color: var(--fuego); font-weight: 780; font-size: 13px; }
 
 .perfil-dias {
   display: flex;
@@ -4787,6 +4822,210 @@ button {
   letter-spacing: -0.02em;
   font-variant-numeric: tabular-nums;
   color: var(--paper);
+}
+
+
+/* ==========================================================================
+   CRECIMIENTO SEMANAL
+
+   Misma tarjeta que la racha y la meta —mismo fondo translúcido, mismo radio,
+   mismos aires— porque los tres bloques cuentan lo mismo con escalas
+   distintas y tienen que leerse como una serie, no como tres piezas de tres
+   sitios. Lo que cambia dentro: aquí manda el dibujo, así que las cifras van
+   arriba y pequeñas y la gráfica se queda con el espacio.
+
+   Las decisiones del dibujo están en `Crecimiento.tsx`.
+   ========================================================================== */
+.crece {
+  /* Los dos colores de las series. Son el ocre y el verde azulado de la
+     paleta subidos de luz: un trazo de 2,4 puntos sobre fondo oscuro necesita
+     más croma que un relleno grande, igual que el botón de escuchar del libro
+     del día aclara su acento en vez de usarlo tal cual. Contra el fondo de la
+     tarjeta dan 7,4 y 6,4 de contraste. */
+  --serie-a: #e0b268;
+  --serie-b: #6fbfa4;
+  /* El fondo de la tarjeta, en una variable, porque los puntos de la gráfica
+     lo llevan de contorno para que el trazo pase por detrás y no los cruce.
+     Es opaco a propósito: con el translúcido de la tarjeta, el contorno del
+     punto dejaría ver la línea por debajo. */
+  --crece-fondo: #2b2a2e;
+
+  margin-top: 12px;
+  padding: 16px 14px 13px;
+  border-radius: 20px;
+  background: rgba(242, 236, 225, 0.07);
+}
+
+/* --- Las dos cifras ------------------------------------------------------ */
+.crece-cifras {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 0 2px 4px;
+}
+
+.crece-cifra {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+}
+
+.crece-cifra-n {
+  font-size: 30px;
+  font-weight: 780;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  color: var(--serie);
+  font-variant-numeric: tabular-nums;
+}
+
+.crece-cifra-rotulo {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: rgba(242, 236, 225, 0.56);
+}
+
+/* La diferencia. Verde arriba, barro abajo y gris en el empate: son los tres
+   estados posibles y ninguno necesita leerse para saber cuál es. */
+.crece-delta {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 4px;
+  font-size: 11.5px;
+  font-weight: 640;
+  font-variant-numeric: tabular-nums;
+}
+.crece-delta[data-signo="sube"] { color: #6fbfa4; }
+.crece-delta[data-signo="baja"] { color: #d08a6c; }
+.crece-delta[data-signo="cero"] { color: rgba(242, 236, 225, 0.4); }
+
+/* --- El lienzo ----------------------------------------------------------- */
+.crece-lienzo { margin-top: 2px; }
+.crece-svg { display: block; width: 100%; height: auto; overflow: visible; }
+
+/* Muy poco: la banda dice CUÁL está elegida, no compite con los trazos. A
+   0,06 sobre la tarjeta translúcida salía un rectángulo gris que parecía una
+   barra de desplazamiento. */
+.crece-banda { fill: rgba(242, 236, 225, 0.045); }
+
+.crece-eje {
+  font-size: 10px;
+  font-weight: 620;
+  fill: rgba(242, 236, 225, 0.42);
+  font-variant-numeric: tabular-nums;
+}
+.crece-eje[data-activa="true"] { fill: var(--paper); }
+
+/* Las zonas de toque van encima de todo y no se ven. `pointer-events` en
+   `all` a pesar de no tener relleno: sin eso un rectángulo transparente no
+   recibe el dedo. */
+.crece-toque {
+  fill: transparent;
+  pointer-events: all;
+  cursor: pointer;
+  outline: none;
+}
+.crece-toque:focus-visible { fill: rgba(242, 236, 225, 0.07); }
+
+/* --- La leyenda ---------------------------------------------------------- */
+.crece-leyenda {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 8px;
+}
+.crece-clave {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: rgba(242, 236, 225, 0.56);
+}
+.crece-clave i {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+}
+
+/* ==========================================================================
+   TUS TEMAS
+   ========================================================================== */
+.temas {
+  margin-top: 12px;
+  padding: 15px 16px 14px;
+  border-radius: 20px;
+  background: rgba(242, 236, 225, 0.07);
+}
+
+/* La barra crece desde la izquierda de una pieza: son partes de un mismo
+   total y tienen que llegar juntas. */
+.temas-barra {
+  display: flex;
+  height: 13px;
+  border-radius: 999px;
+  overflow: hidden;
+  transform-origin: left center;
+}
+.temas-tramo { height: 100%; }
+/* Un filete del color de la tarjeta entre tramo y tramo: dos categorías de
+   tono parecido —el ocre y el barro— se pegaban en una sola mancha. */
+.temas-tramo + .temas-tramo { box-shadow: -2px 0 0 0 rgba(20, 18, 24, 0.55); }
+
+.temas-lista {
+  list-style: none;
+  margin: 13px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.temas-lista li {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 13.5px;
+}
+.temas-lista i {
+  flex: none;
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+}
+.temas-nombre {
+  flex: 1;
+  min-width: 0;
+  font-weight: 620;
+  color: rgba(242, 236, 225, 0.9);
+}
+.temas-pct {
+  font-weight: 720;
+  color: var(--paper);
+  font-variant-numeric: tabular-nums;
+}
+.temas-n {
+  width: 24px;
+  text-align: right;
+  font-weight: 600;
+  color: rgba(242, 236, 225, 0.42);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Sin relleno de color: es un enlace a los ajustes, no una llamada. La
+   referencia pone aquí un botón gris de pared a pared con la palabra
+   «Gestionar»; esto dice qué se gestiona y ocupa lo que vale. */
+.temas-ajustar {
+  width: 100%;
+  margin-top: 13px;
+  height: 40px;
+  border-radius: 12px;
+  border: 1px solid rgba(242, 236, 225, 0.16);
+  background: transparent;
+  color: rgba(242, 236, 225, 0.82);
+  font-size: 13.5px;
+  font-weight: 640;
 }
 
 /* ==========================================================================

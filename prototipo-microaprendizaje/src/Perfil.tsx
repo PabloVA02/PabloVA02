@@ -2,6 +2,7 @@ import type { ReactElement } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import { Llama } from "./Racha";
 import { MetaDiaria } from "./Meta";
+import { Crecimiento, type Semana } from "./Crecimiento";
 import { GlyphClose, GlyphGuardar, GlyphHeart, GlyphTick } from "./glyphs";
 import { spring, springPop, springSoft } from "./motion";
 
@@ -12,6 +13,21 @@ import { spring, springPop, springSoft } from "./motion";
    lo que la gente viene a mirar, que no es lo mismo que lo que la app quiere
    enseñar. Primero la racha, que es lo único que se pierde si dejas de
    entrar. Después las cifras. Los ajustes, al final.
+
+   EL ORDEN DE AGOSTO, con las capturas que trajo Pablo delante. Los cuatro
+   bloques de datos van seguidos y en escalas que se agrandan, que es como se
+   lee una vida de lector: la racha cuenta DÍAS, la meta cuenta el DÍA DE HOY
+   en minutos, el crecimiento cuenta SEMANAS y los temas cuentan TODO lo
+   leído. Después vienen las cosas que se hacen —anti-scroll, invitar, prueba
+   de nivel— y al final lo que se configura.
+
+   Lo que se ha copiado de la referencia es la anatomía: tarjetas oscuras
+   apiladas en una columna, título de bloque fuera de la tarjeta, cifras de
+   colores en fila. Lo que NO: su bloque de misión diaria, que Pablo descartó
+   —y hace bien: la meta de hoy ya cuenta el día, y dos contadores del mismo
+   día compitiendo es lo que hace que la gente deje de mirar los dos—, sus
+   botones azules a toda anchura, sus emojis por icono, y su crecimiento
+   semanal de tres números sin comparación ninguna. Ver `Crecimiento.tsx`.
 
    Cada bloque entra escalonado con muelle, y el retraso se acumula recorriendo
    la pantalla de arriba abajo, así que el orden de entrada es el orden de
@@ -53,14 +69,17 @@ function semana(racha: number) {
 type Props = {
   nombre: string;
   racha: number;
-  leidas: number;
+  /** La racha más larga que ha tenido. Ver la tarjeta de racha. */
+  record: number;
+  /** Seis semanas, de la más vieja a la de ahora. Ver `Crecimiento.tsx`. */
+  historial: Semana[];
+  /** Lo leído por categoría, de más a menos. Ver la tarjeta de temas. */
+  temas: { nombre: string; n: number; color: string }[];
   /** Minutos leídos hoy, su meta y el total de siempre. */
   minutosHoy: number;
   meta: number;
   minutosTotales: number;
   onMeta: (m: number) => void;
-  favoritas: number;
-  guardadas: number;
   onCerrar: () => void;
   onAjustes: () => void;
   onAntiScroll: () => void;
@@ -69,19 +88,20 @@ type Props = {
 export function Perfil({
   nombre,
   racha,
-  leidas,
+  record,
+  historial,
+  temas,
   minutosHoy,
   meta,
   minutosTotales,
   onMeta,
-  favoritas,
-  guardadas,
   onCerrar,
   onAjustes,
   onAntiScroll,
 }: Props) {
   const reducido = !!useReducedMotion();
   const dias = semana(racha);
+  const librosLeidos = temas.reduce((t, x) => t + x.n, 0);
   const inicial = (nombre.trim()[0] ?? "T").toUpperCase();
 
   return (
@@ -91,10 +111,14 @@ export function Perfil({
       animate={{ opacity: 1, y: 0, transition: spring }}
       exit={{ opacity: 0, y: 18, transition: { duration: 0.2 } }}
     >
+      {/* La cabecera lleva título. Iba con dos botones y un hueco enorme en
+          medio, y un hueco en medio de una barra no es aire: es una barra a
+          la que le falta algo. */}
       <div className="perfil-head">
         <button className="icon-btn" onClick={onCerrar} aria-label="Cerrar perfil">
           <GlyphClose />
         </button>
+        <h2 className="perfil-head-titulo">Tu progreso</h2>
         <button className="icon-btn" onClick={onAjustes} aria-label="Ajustes">
           <GlyphRueda />
         </button>
@@ -118,7 +142,15 @@ export function Perfil({
           </motion.span>
           <div>
             <h1>{nombre}</h1>
-            <p>{leidas} tarjetas leídas</p>
+            {/* Decía «0 tarjetas leídas», y estaban mal las dos mitades: las
+                tarjetas son el formato viejo que se abandonó al reescribir los
+                resúmenes por páginas, y un cero debajo del nombre es lo
+                primero que ve alguien que acaba de entrar. Los libros leídos
+                salen de la misma cuenta que la barra de temas, así que las dos
+                cifras no pueden discrepar. */}
+            <p>
+              {librosLeidos} {librosLeidos === 1 ? "libro leído" : "libros leídos"}
+            </p>
           </div>
         </motion.div>
 
@@ -157,7 +189,16 @@ export function Perfil({
           </div>
 
           <div className="perfil-racha-datos">
-            <h2>Tu racha</h2>
+            {/* El récord al lado del título, y no como cuarta cifra suelta en
+                otra tarjeta: solo significa algo pegado al número de hoy. Es
+                lo que convierte una racha corta en una meta —«llegaste a 12,
+                vas por 3»— en vez de en un reproche. */}
+            <div className="perfil-racha-alto">
+              <h2>Tu racha</h2>
+              <span className="perfil-record">
+                Récord <strong>{record}</strong>
+              </span>
+            </div>
             <div className="perfil-dias">
               {dias.map((d, k) => (
                 <div key={d.clave} className="perfil-dia">
@@ -196,6 +237,38 @@ export function Perfil({
           />
         </motion.div>
 
+        {/* Crecimiento semanal: la única parte de la pantalla que contesta
+            «¿voy a más o a menos?». Va detrás de la meta porque agranda la
+            escala —la meta cuenta hoy, esto cuenta seis semanas— y delante de
+            todo lo que se toca, porque es dato y no acción. Ver
+            `Crecimiento.tsx`, que lleva las decisiones del dibujo. */}
+        <motion.section
+          className="perfil-bloque"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ ...springSoft, delay: orden(4) }}
+        >
+          <h2 className="perfil-titulo-bloque">Crecimiento semanal</h2>
+          <Crecimiento semanas={historial} reducido={reducido} />
+        </motion.section>
+
+        {/* Tus temas: lo leído repartido por categoría, en una sola barra.
+            Existe por un motivo que no es de vanidad: es lo que explica las
+            recomendaciones. La referencia pone aquí un «gestiona las
+            recomendaciones» con tres objetivos escritos por el usuario en el
+            alta y nada más; enseñar lo que de verdad ha leído dice mucho más,
+            y además se puede discutir —«leo demasiada historia»— que es
+            justo lo que hace que alguien toque «Ajustar». */}
+        <motion.section
+          className="perfil-bloque"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ ...springSoft, delay: orden(5) }}
+        >
+          <h2 className="perfil-titulo-bloque">Tus temas</h2>
+          <Temas temas={temas} retraso={orden(5)} reducido={reducido} />
+        </motion.section>
+
         {/* Invitar: va aquí y no en ajustes porque no es una preferencia, es
             algo que se hace. En una lista de ajustes se lee como un trámite;
             aquí, al lado de la racha, se lee como una propuesta. */}
@@ -203,7 +276,7 @@ export function Perfil({
           className="perfil-invitar"
           initial={{ opacity: 0, y: 20, scale: 0.97 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
-          transition={{ ...springSoft, delay: orden(3) }}
+          transition={{ ...springSoft, delay: orden(6) }}
         >
           <div className="perfil-invitar-texto">
             <h2>Creciendo juntos</h2>
@@ -223,7 +296,7 @@ export function Perfil({
           whileTap={{ scale: 0.98 }}
           initial={{ opacity: 0, y: 20, scale: 0.97 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
-          transition={{ ...springSoft, delay: orden(3) }}
+          transition={{ ...springSoft, delay: orden(6) }}
         >
           <span className="perfil-anti-marca">
             <motion.svg
@@ -248,30 +321,13 @@ export function Perfil({
           <span className="perfil-fila-flecha">›</span>
         </motion.button>
 
-        {/* Las tres cifras */}
-        <div className="perfil-cifras">
-          {[
-            { n: leidas, rotulo: "Leídas", Icono: GlyphLineas },
-            { n: favoritas, rotulo: "Favoritas", Icono: () => <GlyphHeart on /> },
-            { n: guardadas, rotulo: "Guardadas", Icono: GlyphGuardar },
-          ].map((c, k) => (
-            <motion.div
-              key={c.rotulo}
-              className="perfil-cifra"
-              initial={{ opacity: 0, y: 18, scale: 0.94 }}
-              animate={{ opacity: 1, y: 0, scale: 1 }}
-              transition={{ ...springPop, delay: orden(4) + k * 0.06 }}
-            >
-              <div className="perfil-cifra-alto">
-                <span className="perfil-cifra-n">{c.n}</span>
-                <span className="perfil-cifra-icono">
-                  <c.Icono />
-                </span>
-              </div>
-              <span className="perfil-cifra-rotulo">{c.rotulo}</span>
-            </motion.div>
-          ))}
-        </div>
+        {/* Aquí iba una fila de tres cifras —leídas, favoritas, guardadas— y
+            se ha quitado. Las tres estaban clavadas a cero porque ninguna se
+            llegó a enchufar nunca, y encima las tres ya tenían su sitio: lo
+            leído está en el subtítulo del nombre y en la barra de temas, y a
+            favoritas y guardadas se entra por «Mi contenido», que es una lista
+            de verdad y no un número. Tres ceros seguidos justo debajo de una
+            gráfica que sí dice algo hacían parecer rota la pantalla entera. */}
 
         {/* Nivel: la fila que invita a hacer algo, no solo a mirar */}
         <motion.button
@@ -279,7 +335,7 @@ export function Perfil({
           whileTap={{ scale: 0.985 }}
           initial={{ opacity: 0, y: 18 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ ...springSoft, delay: orden(5) }}
+          transition={{ ...springSoft, delay: orden(8) }}
         >
           <span className="perfil-fila-ilu">
             <IluBirrete reducido={reducido} />
@@ -293,7 +349,7 @@ export function Perfil({
 
         <Rejilla
           titulo="Personaliza la app"
-          retraso={orden(6)}
+          retraso={orden(9)}
           reducido={reducido}
           casillas={[
             { nombre: "Temas que sigues", Ilu: IluTemas },
@@ -309,7 +365,7 @@ export function Perfil({
           className="perfil-bloque"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ ...springSoft, delay: orden(9) }}
+          transition={{ ...springSoft, delay: orden(11) }}
         >
           <h2 className="perfil-titulo-bloque">Mi contenido</h2>
           <div className="perfil-contenido">
@@ -325,7 +381,7 @@ export function Perfil({
                 whileTap={{ scale: 0.97 }}
                 initial={{ opacity: 0, y: 14 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ ...springSoft, delay: orden(9) + 0.05 + k * 0.05 }}
+                transition={{ ...springSoft, delay: orden(11) + 0.05 + k * 0.05 }}
               >
                 {c.nombre}
                 <span className="perfil-contenido-icono">
@@ -336,16 +392,106 @@ export function Perfil({
           </div>
         </motion.section>
 
+        {/* Ayuda. La referencia le dedica un titular y un botón azul de
+            pared a pared, y con eso lo convierte en lo más llamativo de media
+            pantalla: un contacto de soporte no debería pesar más que la
+            racha. Aquí es una fila más, igual que la prueba de nivel. Está
+            cuando hace falta y no grita cuando no. */}
+        <motion.button
+          className="perfil-fila"
+          whileTap={{ scale: 0.985 }}
+          initial={{ opacity: 0, y: 18 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ ...springSoft, delay: orden(12) }}
+        >
+          <span className="perfil-fila-ilu">
+            <IluAyuda reducido={reducido} />
+          </span>
+          <div className="perfil-fila-texto">
+            <p className="perfil-fila-titulo">¿Necesitas ayuda?</p>
+            <p className="perfil-fila-pie">Escríbenos y te contesta una persona</p>
+          </div>
+          <span className="perfil-fila-flecha">›</span>
+        </motion.button>
+
         <motion.p
           className="perfil-version"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ ...springSoft, delay: orden(11) }}
+          transition={{ ...springSoft, delay: orden(13) }}
         >
           Prototipo · versión de muestra
         </motion.p>
       </div>
     </motion.div>
+  );
+}
+
+/* --------------------------------------------------------------------------
+   TUS TEMAS
+
+   Una sola barra partida en tramos y su lista debajo. No es una tarta: una
+   tarta de cinco trozos obliga a comparar ángulos, que es lo que peor hace el
+   ojo, y encima ocupa un cuadrado en una pantalla que es una columna. Una
+   barra de una sola línea compara longitudes —lo que mejor hace el ojo— y
+   cabe en catorce puntos de alto.
+
+   La barra entra creciendo desde la izquierda, de una pieza y no tramo a
+   tramo: son partes de un mismo total, así que tienen que llegar juntas.
+   -------------------------------------------------------------------------- */
+
+function Temas({
+  temas,
+  retraso,
+  reducido,
+}: {
+  temas: { nombre: string; n: number; color: string }[];
+  retraso: number;
+  reducido: boolean;
+}) {
+  const total = temas.reduce((t, x) => t + x.n, 0) || 1;
+  const porcentaje = (n: number) => Math.round((n / total) * 100);
+
+  return (
+    <div className="temas">
+      <motion.div
+        className="temas-barra"
+        initial={reducido ? false : { scaleX: 0 }}
+        animate={{ scaleX: 1 }}
+        transition={reducido ? { duration: 0.01 } : { duration: 0.9, delay: retraso + 0.1, ease: [0.16, 1, 0.3, 1] }}
+      >
+        {temas.map((t) => (
+          <span
+            key={t.nombre}
+            className="temas-tramo"
+            style={{ width: `${(t.n / total) * 100}%`, background: t.color }}
+          />
+        ))}
+      </motion.div>
+
+      <ul className="temas-lista">
+        {temas.map((t, k) => (
+          <motion.li
+            key={t.nombre}
+            initial={reducido ? false : { opacity: 0, x: -8 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={reducido ? { duration: 0.01 } : { ...springSoft, delay: retraso + 0.22 + k * 0.05 }}
+          >
+            <i style={{ background: t.color }} aria-hidden />
+            <span className="temas-nombre">{t.nombre}</span>
+            {/* El porcentaje delante del recuento: es lo que se compara con
+                el tramo de la barra que tiene justo encima. El número crudo
+                va detrás y en gris, para quien quiera el dato exacto. */}
+            <span className="temas-pct">{porcentaje(t.n)} %</span>
+            <span className="temas-n">{t.n}</span>
+          </motion.li>
+        ))}
+      </ul>
+
+      <motion.button className="temas-ajustar" whileTap={{ scale: 0.97 }}>
+        Ajustar mis temas
+      </motion.button>
+    </div>
   );
 }
 
@@ -540,6 +686,36 @@ function IluCohete({ reducido }: { reducido: boolean }) {
   );
 }
 
+/** Un bocadillo con una interrogación, y un segundo bocadillo pequeño detrás
+ *  que sube y baja: la respuesta que viene de camino. Sin el segundo el dibujo
+ *  dice «pregunta»; con él dice «conversación», que es lo que se ofrece. */
+function IluAyuda({ reducido }: { reducido: boolean }) {
+  return (
+    <svg viewBox="0 0 48 40" aria-hidden>
+      <motion.g
+        animate={reducido ? {} : { y: [0, -2.6, 0] }}
+        transition={{ duration: 3.4, repeat: Infinity, ease: "easeInOut", delay: 0.4 }}
+      >
+        <rect x="24" y="4" width="20" height="15" rx="6" fill="var(--slate)" opacity="0.55" />
+      </motion.g>
+      <motion.g {...flota(reducido, 2.1, 4.2)}>
+        <path
+          d="M10 8 H34 A6 6 0 0 1 40 14 V24 A6 6 0 0 1 34 30 H20 L13 36 V30 H10 A6 6 0 0 1 4 24 V14 A6 6 0 0 1 10 8 Z"
+          fill="var(--slate)"
+        />
+        <path
+          d="M18.6 16.4 A4 4 0 0 1 26.4 17.6 C26.4 20.4 22.4 20.6 22.4 23"
+          fill="none"
+          stroke="var(--paper)"
+          strokeWidth="2.6"
+          strokeLinecap="round"
+        />
+        <circle cx="22.4" cy="26.4" r="1.7" fill="var(--paper)" />
+      </motion.g>
+    </svg>
+  );
+}
+
 function IluBirrete({ reducido }: { reducido: boolean }) {
   return (
     <svg viewBox="0 0 48 40" aria-hidden>
@@ -590,15 +766,6 @@ function GlyphRueda() {
   );
 }
 
-function GlyphLineas() {
-  return (
-    <svg width="17" height="17" viewBox="0 0 17 17" aria-hidden>
-      <rect x="2.6" y="3.4" width="11.8" height="2.6" rx="1.3" fill="currentColor" />
-      <rect x="2.6" y="7.4" width="11.8" height="2.6" rx="1.3" fill="currentColor" opacity="0.7" />
-      <rect x="2.6" y="11.4" width="7.6" height="2.6" rx="1.3" fill="currentColor" opacity="0.45" />
-    </svg>
-  );
-}
 
 function GlyphReloj() {
   return (

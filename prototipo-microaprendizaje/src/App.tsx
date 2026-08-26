@@ -13,6 +13,7 @@ import { desbloquea } from "./voz";
 import { Pago } from "./Pago";
 import { Checkout } from "./Checkout";
 import { Perfil } from "./Perfil";
+import type { Semana } from "./Crecimiento";
 import { Ajustes } from "./Ajustes";
 import { usePreferencias } from "./preferencias";
 import { AntiScroll } from "./AntiScroll";
@@ -38,6 +39,48 @@ const CON_BARRA: Pantalla[] = ["inicio", "perfil", "biblioteca", "shorts", "expl
 
 /** Racha de ejemplo del prototipo. */
 const RACHA = 3;
+/** Y la más larga que ha tenido. Va al lado de la de arriba en el perfil: una
+ *  racha corta con su récord delante es una meta; sola, es un reproche. */
+const RECORD = 12;
+
+/* Seis semanas de ejemplo para la gráfica del perfil, de la más vieja a la de
+   ahora. Es el mismo apaño que `minutosTotales`, y por la misma razón: un
+   perfil recién abierto no tiene historial, y una gráfica de seis ceros no
+   enseña nada de lo que hace la gráfica.
+
+   Los números no son al azar. Las ideas van más o menos a un tercio de los
+   minutos —una página son ocho ideas y unos veintitrés minutos de resumen—,
+   pero NO exactamente, y ahí está la gracia: la tercera semana leyó despacio
+   —muchos minutos, pocas ideas, un libro largo— y la cuarta al revés, a
+   ratos sueltos y con libros breves. Si las dos series fueran proporcionales
+   dibujarían la misma línea dos veces y el segundo trazo sobraría. */
+const HISTORIAL: Semana[] = [
+  { ideas: 12, minutos: 41 },
+  { ideas: 21, minutos: 68 },
+  { ideas: 16, minutos: 62 },
+  { ideas: 29, minutos: 79 },
+  { ideas: 33, minutos: 108 },
+  { ideas: 41, minutos: 124 },
+];
+
+/* Lo leído por temas, también de ejemplo, y también se le suma lo de verdad
+   según se van terminando resúmenes. Cinco y no nueve: por debajo del quinto
+   los tramos de la barra son de dos puntos de ancho y dejan de leerse. */
+const TEMAS_MUESTRA: { nombre: string; n: number }[] = [
+  { nombre: "Historia", n: 14 },
+  { nombre: "Psicología", n: 11 },
+  { nombre: "Economía", n: 8 },
+  { nombre: "Ciencia", n: 6 },
+  { nombre: "Filosofía", n: 4 },
+];
+
+/** El color de una categoría, sacado de la estantería. No hace falta una
+ *  tabla nueva aquí: cada libro ya trae el suyo, y cogerlo de ahí hace
+ *  imposible que el perfil pinte «Historia» de un color y la portada de
+ *  otro. */
+function colorDeTema(categoria: string): string {
+  return LIBROS.find((l) => l.categoria === categoria)?.color ?? "var(--sage)";
+}
 /* Si el usuario está suscrito. En el prototipo se llega al inicio después del
    alta, así que es cierto por defecto; existe como constante, y no como un
    literal suelto en cada llamada, para que el día que haya suscripción de
@@ -69,6 +112,20 @@ function ideasDe(id: string): number {
     (total, pagina) => total + pagina.bloques.filter((b) => b.b === "idea").length,
     0,
   );
+}
+
+/** Los temas del perfil: la muestra, más lo que se haya terminado de verdad
+ *  en esta sesión. Los cinco primeros, de más leído a menos. */
+function temasDe(terminados: ReadonlySet<string>) {
+  const cuenta = new Map(TEMAS_MUESTRA.map((t) => [t.nombre, t.n]));
+  for (const id of terminados) {
+    const l = LIBROS.find((x) => x.id === id);
+    if (l) cuenta.set(l.categoria, (cuenta.get(l.categoria) ?? 0) + 1);
+  }
+  return [...cuenta.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 5)
+    .map(([nombre, n]) => ({ nombre, n, color: colorDeTema(nombre) }));
 }
 
 function pantallaInicial(): Pantalla {
@@ -324,13 +381,24 @@ export default function App() {
               key="perfil"
               nombre={nombre}
               racha={RACHA}
-              leidas={leidas}
+              record={RECORD}
+              /* La semana en curso lleva pegado lo de esta sesión, que sí es
+                 de verdad: los minutos de hoy y las ideas de los resúmenes
+                 que se hayan terminado. Así la última columna de la gráfica
+                 se mueve al leer, que es lo único que la hace creíble. */
+              historial={HISTORIAL.map((sem, i) =>
+                i < HISTORIAL.length - 1
+                  ? sem
+                  : {
+                      ideas: sem.ideas + [...terminados].reduce((t, id) => t + ideasDe(id), 0),
+                      minutos: sem.minutos + Math.round(minutosHoy),
+                    },
+              )}
+              temas={temasDe(terminados)}
               minutosHoy={minutosHoy}
               meta={meta}
               minutosTotales={minutosTotales}
               onMeta={setMeta}
-              favoritas={0}
-              guardadas={0}
               onCerrar={() => setPantalla("inicio")}
               onAjustes={() => setPantalla("ajustes")}
               onAntiScroll={() => setPantalla("anti")}
