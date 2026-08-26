@@ -84,7 +84,7 @@ export const PUNTOS: Record<string, string[]> = {
     "qué pregunta hace el que encuentra lo que los demás buscan",
     "qué te falta cuando llevas mucho esforzándote y no sale",
     "por qué un acuerdo donde ganan los dos no hay que vigilarlo",
-    "qué le contesta a este libro un estudio con datos de 2003",
+    "en qué se diferencian de verdad los que se creen afortunados",
   ],
 
   "tiempo-entre-costuras": [
