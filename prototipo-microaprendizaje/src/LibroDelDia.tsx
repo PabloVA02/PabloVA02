@@ -216,7 +216,7 @@ export function LibroDelDia({
               categoria={libro.categoria}
               color={libro.color}
               foto={libro.portada}
-              tamano={150}
+              tamano={176}
             />
           </span>
         </button>

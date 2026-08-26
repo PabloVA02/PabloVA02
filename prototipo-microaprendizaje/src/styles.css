@@ -8444,10 +8444,13 @@ button {
   border: 0;
   background: none;
 }
+/* 176 de ancho, que es lo que mide la cubierta en la captura de Headway
+   dentro de una tarjeta de 343: la nuestra iba a 168 y la tarjeta es la
+   misma, así que eran ocho puntos de menos sin ningún motivo. */
 .hoy-marco {
   display: block;
-  width: 168px;
-  height: 252px;
+  width: 176px;
+  height: 264px;
   border-radius: 10px;
   overflow: hidden;
   background: rgba(12, 10, 16, 0.35);
@@ -8530,12 +8533,21 @@ button {
   backdrop-filter: blur(8px);
   color: #f2ece1;
 }
-/* El acento sobre oscuro va aclarado, no rebajado: los cinco de la paleta
-   están pensados para leerse sobre crema y aquí el fondo es negro. */
+/* AZUL, EL SUYO. Estuvo tiñéndose con el color de la categoría del libro, con
+   el argumento de que así la tarjeta cambiaba de temperatura cada día. Suena
+   bien y falla por una razón que se ve en cuanto se comparan las dos tarjetas
+   al lado: el fondo desenfocado YA es del color del libro, así que el botón
+   salía del mismo tono que la mancha que tiene detrás y dejaba de recortarse.
+   Con la cubierta granate de Zweig, el botón era salmón sobre halo salmón.
+
+   El azul es el mismo #0099ff que la captura pone en «Escuchar» y el mismo
+   que ya usa el aviso de suscripción del perfil: es el único color de la app
+   que no puede coincidir con ninguna cubierta, y esa es exactamente la
+   propiedad que necesita un botón que vive encima de una. */
 .hoy-escuchar {
   flex: 1;
-  background: color-mix(in srgb, var(--acento, #c2704f) 84%, #f2ece1);
-  color: #17151c;
+  background: #0099ff;
+  color: #fff;
 }
 /* «Leer gratis» son siete caracteres más que «Leer» y en el 36 % se salía.
    El 47 % le da sitio y deja al de escuchar 155 puntos, que siguen sobrando
