@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "retirate-joven-rico": [
+    "por qué la misma deuda enriquece a uno y hunde a otro",
+    "que un patrimonio se mide por lo que ingresas sin trabajar",
+    "cómo se recupera el capital invertido sin vender lo comprado",
+    "para quién está pensado el consejo de ahorrar y diversificar",
+    "el papel que juega el momento del ciclo en cualquier fortuna inmobiliaria",
+  ],
+
   "maestro-dinero": [
     "cuánto se lleva de verdad un fondo cuando se suman todos sus costes",
     "por qué el rendimiento anunciado no es el que se lleva el partícipe",

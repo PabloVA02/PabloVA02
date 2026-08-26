@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "retirate-joven-rico":
+    "Kiyosaki y su mujer dejaron de trabajar en 1994, a los cuarenta y siete y treinta y siete años, con rentas de pisos alquilados. El libro explica con qué palanca lo hicieron y qué le falta a esa explicación.",
+
   "maestro-dinero":
     "Un fondo de inversión medio cuesta alrededor del tres por ciento anual, el triple de lo que anuncia. Robbins entrevistó a cincuenta grandes inversores para averiguar qué hacer con esa cifra y con el dinero que queda.",
 

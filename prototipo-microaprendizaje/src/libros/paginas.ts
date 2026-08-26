@@ -92352,7 +92352,290 @@ const MAESTRO_DINERO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Retírate joven y rico, de Robert Kiyosaki (2001), en ocho páginas.
+
+   Una sola idea repetida —el apalancamiento—, así que Breve: apartado 2 ter.
+   Economía y libro práctico: registro de tú, y cada página con una persona,
+   una fecha y una cifra. Las dos anécdotas famosas del libro se cuentan
+   diciendo lo que se sabe de ellas, según el apartado 4 bis, y la conclusión
+   lleva lo que pasó después: la quiebra de Rich Global en 2012 y los años en
+   que su consejo se puso a prueba de verdad.
+   -------------------------------------------------------------------------- */
+
+const RETIRATE_JOVEN_RICO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Kiyosaki sostiene que retirarse pronto no depende de cuánto ganas, sino de con qué multiplicas lo que haces",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1994, Robert Kiyosaki tenía cuarenta y siete años y su mujer, Kim, treinta y siete. Según cuenta, dejaron de trabajar ese año con unos diez mil dólares mensuales de rentas procedentes de pisos alquilados, frente a unos tres mil de gastos. Habían empezado cinco años antes, en 1989, comprando inmuebles pequeños con muy poco dinero propio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro salió en 2001 y su pregunta es qué hicieron distinto, porque no ganaban sueldos altos. La respuesta que da cabe en una palabra que repite en todas las páginas: apalancamiento. Es decir, conseguir un resultado grande con un esfuerzo pequeño, igual que una palanca levanta una piedra que no se podría mover con las manos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que el mundo se divide entre quien vende su tiempo por dinero y quien monta algo que sigue produciendo sin él. El primero puede ganar mucho y no se retira nunca, porque el día que para se le acaban los ingresos. El segundo puede ganar poco al principio y retirarse pronto, porque lo que construyó no depende de que esté delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que viene recorre las piezas de ese argumento: qué separa la deuda que te enriquece de la que te hunde, qué es la velocidad del dinero, por qué llama lento al consejo financiero de toda la vida, qué saca del año 1971, qué hicieron ellos dos en Phoenix, y qué le ha pasado a este libro en los veinticinco años que lleva vendiéndose.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mira cuánto seguirías ingresando el mes que viene si mañana dejaras de trabajar. Ese número, y no tu sueldo, es el que decide cuándo puedes parar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El apalancamiento es hacer más con menos, y el primero que hay que mover no es el dinero",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kiyosaki define apalancamiento como la capacidad de hacer más con menos, y sostiene que todo el mundo usa alguno sin darse cuenta. Un albañil apalanca con una grúa lo que no podría levantar con los brazos. Un empresario apalanca con veinte empleados las horas que él solo no tiene. La diferencia entre unos y otros no es si lo usan, es de qué tamaño es la palanca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca la clasificación que ordena el libro. La palanca del dinero es la deuda: con cincuenta mil euros propios se compra un piso de doscientos mil. La palanca del tiempo son las personas que trabajan en algo tuyo. Y la tercera, que él considera la que manda sobre las otras dos, es la de la cabeza: lo que crees que es posible decide qué palancas buscas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento sobre esa tercera es más sólido de lo que suena en un libro de autoayuda financiera, porque es comprobable. Quien está convencido de que invertir es cosa de ricos no lee sobre inversión, no pregunta y no ve las oportunidades cuando pasan por delante: no es que fracase, es que no llega a intentarlo. La creencia funciona como un filtro antes de cualquier decisión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y viene con la advertencia que casi nadie recuerda del libro, porque no es la parte que se cita. La palanca multiplica en las dos direcciones: si el negocio va bien, multiplica las ganancias, y si va mal, multiplica las pérdidas exactamente igual. Kiyosaki lo escribe, aunque después dedique trescientas páginas a lo primero y muy pocas a lo segundo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una palanca no te hace más listo: hace más grandes tus resultados, los buenos y los malos. Elegir mal con apalancamiento cuesta mucho más que elegir mal sin él.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La deuda buena y la deuda mala no se distinguen por el interés, sino por quién la paga",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la distinción más útil del libro y se resume en una frase. La deuda mala la pagas tú de tu bolsillo: el préstamo del coche, la tarjeta aplazada, la reforma del salón. La deuda buena la paga otro: el préstamo del piso que has alquilado, si el inquilino cubre la cuota, los gastos y algo más. En los dos casos el banco cobra; lo que cambia es de quién sale el dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es que la pregunta habitual —¿cuánta deuda es demasiada?— está mal planteada. Un ahorrador sin ninguna deuda que se compra un coche a plazos acaba de asumir una carga; un inversor con seis hipotecas cuyas rentas cubren las seis cuotas no tiene ninguna. El número de préstamos no dice nada; el flujo mensual lo dice todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una comprobación sencilla que Kiyosaki propone y que se puede hacer en diez minutos con los extractos del banco. Coge cada deuda que tengas, mira si el dinero para pagarla sale de tu nómina o de algo que genera ingresos por su cuenta, y clasifícala. Esa lista suele ser más reveladora que cualquier presupuesto anual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde el argumento se vuelve peligroso es en lo que no matiza. Que el inquilino pague la hipoteca depende de que haya inquilino, de que pague, de que el piso no esté vacío tres meses y de que los tipos no suban. La distinción es correcta como concepto y se convierte en una trampa cuando se aplica dando por hecho el mejor escenario, que es como la aplica el libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Coge tus deudas una a una y pregunta de qué cuenta sale el pago. Si sale de tu nómina, es una carga; si sale de algo que produce solo, es una herramienta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un buen inversor recupera su dinero y se queda con el activo que compró",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kiyosaki lo llama velocidad del dinero y es lo que separa su forma de invertir de la que enseña un banco. El modelo convencional consiste en meter dinero en algo y dejarlo quieto veinte años. El suyo consiste en meterlo, sacarlo en cuanto se pueda, y volverlo a meter en otra cosa sin haber vendido la primera. El mismo capital compra dos activos en vez de uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo con inmuebles es concreto. Compras un piso deteriorado por debajo de su valor, lo arreglas, sube su tasación, refinancias por la nueva cifra y sacas tu entrada de vuelta. El piso sigue siendo tuyo, lo alquilas, y el dinero que recuperaste está disponible para la siguiente operación. Repetido varias veces, es exactamente lo que él dice haber hecho.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El propio libro reconoce que esto requiere hacer bien tres cosas seguidas: comprar barato, valorar bien la reforma y encontrar financiación. Fallar en cualquiera de las tres deja una operación en la que ya no queda margen. Kiyosaki insiste en que la parte difícil no es el dinero, es saber calcular antes de comprar, y ahí tiene razón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que no dice, y conviene saberlo antes de intentarlo, es que la refinanciación solo funciona si los precios suben y si el banco quiere prestar. Entre 2008 y 2013 no se cumplió ninguna de las dos cosas en casi ningún país, y quien había encadenado seis operaciones de este tipo se encontró con seis hipotecas y ninguna salida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Recuperar lo invertido y conservar lo comprado es una manera de multiplicar. Solo funciona mientras alguien te preste, y eso no depende de ti.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Kiyosaki llama lento al consejo financiero corriente y explica para quién está pensado",
+      },
+      {
+        b: "texto",
+        texto:
+          "El consejo que da cualquier banco cabe en una frase: ahorra, sal de deudas, invierte a largo plazo en un fondo diversificado. Kiyosaki dedica varios capítulos a atacarlo, y su argumento no es que sea falso, sino que está calculado para tardar cuarenta años. Quien lo sigue no se arruina, pero tampoco se retira antes de los sesenta y cinco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su razonamiento sobre quién lo difunde merece atención aunque no se comparta la conclusión. Ese consejo lo dan mayoritariamente entidades que cobran una comisión anual sobre el dinero que gestionan, así que su interés está en que el cliente aporte durante décadas y no toque nada. No es una conspiración: es que el consejo prudente y el negocio coinciden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde se pasa de frenada es en lo que propone a cambio. Frente a un método lento con resultado casi seguro, ofrece uno rápido con resultado muy desigual, y presenta la diferencia como si fuera solo cuestión de valentía. No lo es: es cuestión de dispersión. Mucha gente que hace exactamente lo que él describe no consigue lo que él consiguió, y de esos el libro no habla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lectura útil es intermedia y el propio libro la deja apuntada sin desarrollarla. El consejo convencional es un suelo, no un techo: sirve para no acabar mal, no para llegar lejos. Quien quiera más tiene que asumir riesgo, y la decisión sensata es cuánto patrimonio se pone en cada lado, no cuál de los dos tiene razón.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El consejo prudente no está pensado para hacerte rico: está pensado para que no acabes mal. Son dos objetivos distintos y conviene saber cuál estás persiguiendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Del fin de la convertibilidad del dólar en oro saca un argumento que va más lejos de lo que el hecho permite",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 15 de agosto de 1971, el presidente Richard Nixon anunció que Estados Unidos dejaba de cambiar dólares por oro a los bancos centrales extranjeros. El acuerdo de Bretton Woods, firmado en 1944, quedó roto, y desde entonces el valor del dólar no está respaldado por ningún metal, sino por la confianza en quien lo emite. El hecho es real y la fecha es exacta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kiyosaki construye sobre él su ataque al ahorro. Si el dinero puede imprimirse sin límite físico, guardarlo es garantizar que pierde valor, y por eso el ahorrador diligente acaba peor que quien se endeuda para comprar cosas que suben de precio. La inflación castiga a uno y beneficia al otro, y ese reparto no es una opinión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte que no se sostiene es el salto. De que el ahorro pierda poder adquisitivo no se deduce que endeudarse sea seguro, ni que los activos suban siempre, ni que el dólar esté a punto de derrumbarse, que es lo que él lleva anunciando desde entonces. Un hecho monetario cierto se usa como aval de una predicción que no lo es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una manera limpia de comprobarlo, porque han pasado veinticinco años desde el libro. Quien en 2001 hubiera metido su dinero en un fondo que replica el índice bursátil estadounidense y no lo hubiera tocado —justo la estrategia lenta que el libro desprecia— habría multiplicado su capital varias veces, con inflación incluida. El ahorro en cuenta corriente sí perdió; invertir sin apalancamiento, no.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que guardar el dinero parado te empobrezca no significa que endeudarte te enriquezca. Entre las dos cosas hay una tercera, que es invertir sin pedir prestado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que hicieron en Phoenix es reproducible, pero no en cualquier año ni en cualquier ciudad",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte más concreta del libro es la que cuenta sus propias operaciones. Empezaron en 1989 comprando viviendas pequeñas, muchas de ellas de segunda mano y en mal estado, en la zona de Phoenix, Arizona. Ponían poco dinero propio, financiaban el resto y alquilaban. Al principio los márgenes eran de veinticinco o cincuenta dólares al mes por casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle importa porque desmonta la imagen que vende la portada. No se retiraron con una operación brillante, sino sumando márgenes minúsculos durante cinco años y repitiendo el proceso decenas de veces. Kiyosaki lo dice, y es de las cosas más honradas del libro: al principio la cifra mensual era ridícula y lo que la hizo crecer fue la repetición.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahora, el contexto. Arizona en 1989 salía de una crisis inmobiliaria seria, con mucha vivienda embargada y barata, y a partir de ahí encadenó quince años de subidas. Comprar barato en el suelo de un ciclo y vender o refinanciar durante la subida funciona; el mismo método aplicado en 2006 en la misma ciudad arruinó a mucha gente dos años después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso deja la lección de verdad, que no es la que el libro subraya. El método no genera el resultado por sí solo: lo genera aplicado en el momento del ciclo en que los activos están baratos y hay financiación. Saber en qué punto del ciclo estás es la parte difícil, y sobre eso el libro no da ninguna herramienta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de copiar el método de alguien, mira en qué año lo aplicó y qué estaba haciendo el mercado entonces. Media fortuna se explica por el calendario.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro deja tres ideas que sirven aunque no se siga nada de lo demás: que la deuda se juzga por quién la paga y no por su tamaño, que un patrimonio se mide por lo que ingresarías sin trabajar y no por lo que ganas, y que el consejo financiero prudente está diseñado para durar cuarenta años y hay que saberlo antes de aceptarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su virtud es que cambia la pregunta. Casi todo el mundo se pregunta cómo ganar más, y Kiyosaki obliga a preguntarse cómo dejar de depender del sueldo, que es otro problema y tiene otras soluciones. Ese giro es lo que hace que millones de personas recuerden haberlo leído.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un sueldo alto y un patrimonio son cosas distintas. Se puede tener lo primero toda la vida sin construir nunca lo segundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El libro repite el concepto durante trescientas páginas sin dar una sola cifra que permita evaluar una operación: no hay una tabla, un cálculo de rentabilidad ni un ejemplo con números completos. Y el «padre rico» que da nombre a toda la serie nunca ha sido identificado; cuando le preguntaron en 2003 quién era, Kiyosaki respondió preguntando si Harry Potter es real y pidiendo que se aceptara como un relato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después es el mejor comentario sobre el libro. En 2012, Rich Global LLC, una de sus sociedades, se acogió a la ley de quiebras estadounidense tras perder un pleito con la empresa de seminarios Learning Annex que la condenaba a pagar unos veintitrés millones de dólares. Kiyosaki, protegido por la estructura societaria, no se vio afectado personalmente, que es exactamente el uso del apalancamiento que enseña. Y en 2023 anunció públicamente que debía más de mil millones de dólares, presentándolo como estrategia y no como problema. El lector tiene que decidir si eso confirma el método o lo retrata.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "retirate-joven-rico": RETIRATE_JOVEN_RICO,
   "maestro-dinero": MAESTRO_DINERO,
   "ladrona-libros": LADRONA_LIBROS,
   "confesiones-chef": CONFESIONES_CHEF,

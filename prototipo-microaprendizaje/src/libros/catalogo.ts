@@ -420,7 +420,7 @@ export const CATALOGO: Ficha[] = [
   { id: "planifica-tu-futuro", titulo: "Planifica tu futuro", autor: "Michael Hyatt y Daniel Harkavy", ano: 2016, categoria: "Economía", estado: "pendiente" },
   { id: "amor-trabajo-no-correspondido", titulo: "Tu amor al trabajo no es correspondido", autor: "Sarah Jaffe", ano: 2021, categoria: "Economía", estado: "pendiente" },
   { id: "camino-libertad-financiera", titulo: "El camino hacia la libertad financiera", autor: "Bodo Schäfer", ano: 1998, categoria: "Economía", estado: "escrito" },
-  { id: "retirate-joven-rico", titulo: "Retírate joven y rico", autor: "Robert Kiyosaki", ano: 2001, categoria: "Economía", estado: "pendiente" },
+  { id: "retirate-joven-rico", titulo: "Retírate joven y rico", autor: "Robert Kiyosaki", ano: 2001, categoria: "Economía", estado: "escrito" },
   { id: "cuatro-pilares-inversion", titulo: "Los cuatro pilares de la inversión", autor: "William Bernstein", ano: 2002, categoria: "Economía", estado: "pendiente" },
   { id: "primeros-90-dias", titulo: "Los primeros 90 días", autor: "Michael Watkins", ano: 2003, categoria: "Economía", estado: "escrito" },
   { id: "cinco-disfunciones", titulo: "Las cinco disfunciones de un equipo", autor: "Patrick Lencioni", ano: 2002, categoria: "Economía", estado: "escrito" },
