@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "tener-o-ser":
+    "Ya no se dice que alguien no puede dormir, sino que tiene insomnio. Fromm parte de ese desplazamiento del idioma para sostener que hay dos maneras de existir y que la civilización industrial eligió la peor.",
+
   "vida-3-0":
     "Una bacteria no puede aprender nada; un humano puede reescribir lo que sabe pero no su cuerpo. Tegmark llama vida 3.0 a lo que podría cambiar las dos cosas, y explica qué decisiones convendría tomar antes.",
 

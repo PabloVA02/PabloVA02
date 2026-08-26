@@ -100364,7 +100364,299 @@ const VIDA_3_0: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Tener o ser, de Erich Fromm (1976), en ocho páginas.
+
+   Ensayo filosófico: TERCERA PERSONA y titular que afirma.
+
+   La séptima página dice lo que el libro no contesta —qué le dice todo
+   esto a quien no tiene—, porque es el hueco más serio y Fromm lo despacha
+   en una línea. Y la conclusión trae lo que Fromm no pudo tener: los
+   estudios que midieron después lo que él sostuvo sin datos.
+   -------------------------------------------------------------------------- */
+
+const TENER_O_SER: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Fromm sostiene que hay dos maneras de existir y que casi todo el mundo ha elegido una sin saberlo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una diferencia entre decir «tengo un problema» y decir «estoy preocupado», y no es de estilo. La primera fórmula convierte un estado en un objeto que se posee, como se posee un coche; la segunda describe algo que le pasa a alguien. Erich Fromm construyó un libro entero sobre esa diferencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fromm era psicoanalista y filósofo social, nacido en Fráncfort en 1900 y emigrado a Estados Unidos al llegar los nazis al poder. Publicó este libro en 1976, con setenta y seis años, y es el más ambicioso de los suyos: sostiene que existen dos modos de vivir y que la civilización industrial ha elegido el peor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al primero lo llama el modo de tener. Consiste en fundar la identidad en lo que se posee: bienes, títulos, conocimientos, opiniones, personas, prestigio. Al segundo lo llama el modo de ser, y consiste en fundarla en lo que se hace y en lo que se experimenta, que no se puede acumular ni perder de la misma manera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre sus argumentos y sus grietas: cómo el idioma delata el cambio, qué diferencia a dos alumnos del mismo seminario, por qué tener un amor no es la misma actividad que querer a alguien, por qué consumir alivia sin satisfacer, qué promesa incumplió el progreso y qué le dice todo esto a quien no tiene nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Decir «tengo un problema» convierte un estado en un objeto. Fíjate cuántas cosas que te pasan las cuentas como cosas que posees.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El idioma delata el cambio: lo que antes se hacía ahora se tiene" },
+      {
+        b: "texto",
+        texto:
+          "El argumento con el que Fromm abre es lingüístico y se puede comprobar en cualquier conversación. Sostiene que en las lenguas occidentales se ha producido un desplazamiento constante de los verbos hacia los sustantivos: expresiones que describían actividades se han convertido en expresiones que describen posesiones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los ejemplos que da son de una claridad incómoda. Ya no se dice que alguien no puede dormir, sino que tiene insomnio. No se dice que dos personas se quieren, sino que tienen un buen matrimonio. No se dice que alguien está desanimado, sino que tiene una depresión, como quien tiene un objeto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fromm sostiene que ese giro no es inocente y que cambia lo que se puede pensar. Una actividad tiene grados, tiene momentos y depende de lo que uno haga; una posesión se tiene o no se tiene, no admite matices y sitúa el problema fuera del sujeto, como si le hubiera caído encima.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene poner aquí el límite del argumento, porque el propio Fromm lo estira demasiado. Que el idioma influya en cómo se piensa es plausible y está estudiado; que lo determine no se sostiene, y la versión fuerte de esa idea lleva décadas siendo descartada. La observación funciona como aviso y no como demostración.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mismo desplazamiento se nota en cómo se habla del trabajo. Antes alguien era carpintero o maestra, y hoy se tiene un puesto, se tiene un contrato y se tiene experiencia. La actividad que ocupa la mitad de la vida despierta se ha convertido en una lista de cosas que figuran en un documento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una actividad tiene grados y depende de lo que hagas. Una posesión se tiene o no se tiene, y coloca el asunto fuera de ti.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos alumnos salen del mismo seminario y solo uno ha aprendido algo" },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que mejor explica la distinción es escolar. En una clase, un alumno toma apuntes cuidadosos, los archiva y podrá reproducir el contenido en un examen. Ha adquirido algo y lo guarda, del mismo modo que se guarda cualquier otra cosa, y si pierde el cuaderno pierde la clase.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro alumno escucha y algo dentro de él se mueve: relaciona lo que oye con lo que ya pensaba, discrepa de una parte, se le ocurre una pregunta que no estaba en el programa. Sale de esa clase siendo ligeramente distinto de como entró, y probablemente no podría repetir el contenido literalmente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fromm sostiene que solo el segundo ha aprendido, y no lo dice como elogio de la desorganización. Su afirmación es que un conocimiento poseído queda intacto y separado de quien lo posee, mientras que un conocimiento que ha cambiado a alguien ya no se puede separar de él y por eso no se olvida igual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba se puede hacer con la propia biblioteca. Casi todo el mundo recuerda muy poco de la mayoría de los libros que ha leído, y en cambio recuerda perfectamente los tres o cuatro que le cambiaron una idea. Los primeros los tuvo; los segundos lo modificaron, y esa diferencia no depende de la calidad del libro sino de cómo se leyó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fromm añade una consecuencia sobre la memoria que se comprueba fácilmente. Lo memorizado para un examen se pierde en semanas porque se guardó aparte, como un objeto; lo que se entendió de verdad se sostiene en cómo alguien piensa el resto de las cosas, y no hay de dónde sacarlo para tirarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "De casi todos los libros que has leído no recuerdas nada, y de tres te acuerdas entero. Esos no los guardaste: te cambiaron algo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Tener un amor y querer a alguien no son la misma actividad" },
+      {
+        b: "texto",
+        texto:
+          "Aplicado al afecto, el argumento se vuelve incómodo. En el modo de tener, el amor es un objeto que se consigue, se conserva y se puede perder: se habla de tener pareja, de conservar a alguien, de perder a una persona, y todo el vocabulario procede del de la propiedad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí salen, según Fromm, los celos y el control, que no son excesos del amor sino consecuencias lógicas de tratarlo como una posesión. Quien posee algo valioso teme que se lo quiten y vigila, y ese comportamiento resulta perfectamente coherente una vez aceptada la premisa; lo que falla es la premisa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el modo de ser, querer a alguien es una actividad que se ejerce y que produce lo que necesita: se quiere prestando atención, haciendo cosas, sosteniendo a alguien. No es un estado que se alcanza y se conserva, sino algo que existe mientras se está haciendo, como tocar un instrumento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica que saca es la que salva el capítulo de ser una declaración bonita. Una pareja que se pregunta si sigue habiendo amor está haciendo un inventario, y esa pregunta no tiene respuesta útil; la pregunta con respuesta es qué han hecho el uno por el otro esta semana, que es comprobable y además se puede cambiar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un detalle del vocabulario que confirma su punto. En español se dice perder a alguien tanto cuando muere como cuando se marcha, y esa palabra es la misma que se usa para las llaves y para la cartera. Nadie eligió esa coincidencia y describe bastante bien lo que se supone que era esa persona.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Preguntar si todavía hay amor es hacer un inventario. La pregunta que se puede contestar es qué habéis hecho el uno por el otro esta semana.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Consumir alivia y no satisface, porque lo consumido deja de estar" },
+      {
+        b: "texto",
+        texto:
+          "Fromm describe el consumo como la forma moderna de tener, y su análisis no va por el lado moral. Sostiene que comprar produce un alivio real y verificable: durante un rato, quien compra siente que es alguien, porque en una sociedad donde se es lo que se tiene, adquirir algo aumenta literalmente la identidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema es que ese alivio caduca por su propio mecanismo. Lo consumido desaparece o se vuelve corriente, así que la sensación tiene que renovarse con otra compra, y cada renovación requiere un poco más. La estructura es idéntica a la de cualquier consumo que produce tolerancia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso añade una observación sobre la publicidad que ha envejecido bien. La mayoría de los anuncios no venden un objeto, venden lo que ese objeto convertirá al comprador en ser: alguien admirado, tranquilo, libre o querido. Es decir, prometen un modo de ser y entregan un modo de tener, y esa sustitución es el negocio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La alternativa que propone no es la austeridad como sacrificio, y ese matiz importa. Su argumento es que las actividades que producen satisfacción duradera —hacer algo con las manos, aprender, cuidar de alguien, la conversación larga— son en su mayoría gratuitas o baratas, y compiten en desventaja porque nadie las anuncia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una comprobación doméstica que cierra el argumento. Casi cualquiera puede recordar en tres segundos cuál fue la última cosa que compró y cuánta ilusión le hizo, y le costará bastante más recordar cuánto le duró esa ilusión. Esa asimetría es exactamente la que sostiene el mecanismo entero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un anuncio no vende un objeto: vende en quién te convertirá tenerlo. Promete un modo de ser y entrega un modo de tener, y en eso está el negocio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La gran promesa del progreso se cumplió en casi todo menos en el único punto que la justificaba",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fromm abre el libro con lo que llama la gran promesa del progreso ilimitado, formulada desde la revolución industrial: dominar la naturaleza, producir abundancia material, ampliar la libertad personal y, como consecuencia de las tres, conseguir una felicidad mayor para el mayor número de personas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su balance en 1976 es que las tres primeras se cumplieron en buena parte del mundo desarrollado y la cuarta no. Se producía más que nunca, se vivía más años y se podía elegir más, y sin embargo el malestar psicológico no había bajado, y los indicadores de depresión, soledad y consumo de fármacos apuntaban en dirección contraria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca la pregunta que ordena el resto del libro: si el aumento de bienes no produce el aumento de satisfacción, entonces la relación entre las dos cosas no era la que se suponía, y conviene averiguar cuál es antes de seguir organizando una civilización entera alrededor de esa suposición.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su respuesta —que la satisfacción viene del modo de ser y no del de tener— era en 1976 una afirmación de filósofo sin datos que la respaldaran. Fromm murió en 1980, cuatro años después de publicarlo, sin llegar a ver que ese asunto se convertiría en una línea de investigación empírica con resultados bastante precisos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fromm anota además una paradoja de aquellos años que hoy se ha agudizado. Los países donde la promesa se cumplió mejor —los más ricos, los más seguros y los más libres— son también donde más se consumen medicamentos para dormir y para la ansiedad, y esa coincidencia exige una explicación que la propia promesa no da.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La abundancia se consiguió y la satisfacción no vino detrás. Eso significa que la relación entre las dos no era la que se daba por supuesta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro no tiene nada que decirle a quien no tiene, y ese hueco es el más serio",
+      },
+      {
+        b: "texto",
+        texto:
+          "Toda la argumentación de Fromm presupone un lector que posee cosas y que podría dejar de darles importancia. Para quien no llega a fin de mes, tener no es una postura existencial ni una elección de identidad: es la diferencia entre cenar y no cenar, y ninguna reflexión sobre el modo de ser cambia esa aritmética.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fromm lo reconoce en una línea y sigue adelante, y ese es el hueco más serio del libro. Un análisis que atribuye el malestar contemporáneo a una orientación equivocada del carácter, sin distinguir a quién le sobra y a quién le falta, corre el riesgo de convertirse en un consejo dirigido a los que ya están cómodos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un peligro añadido en cómo puede usarse. La distinción entre tener y ser se presta a juzgar las decisiones de los demás: quien aspira a una casa, a un coche o a un sueldo mejor puede ser descrito como alguien atrapado en el modo equivocado, y esa descripción la suele hacer quien ya tiene resueltas esas tres cosas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El propio Fromm intenta cubrirse en el último tramo proponiendo medidas materiales: reparto del trabajo, límites a la publicidad, participación de los trabajadores en las decisiones de las empresas y una renta garantizada para todos. Son las páginas más flojas del libro, escritas sin ninguna cuenta detrás, y él mismo las presenta como un esbozo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Para quien no llega a fin de mes, tener no es una postura ante la vida: es cenar. Cualquier análisis que no distinga eso habla solo a los cómodos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que existen dos maneras de fundar la identidad —en lo que se posee o en lo que se hace—, que el idioma ha ido desplazándose hacia la primera, que el consumo alivia sin satisfacer porque lo consumido desaparece, y que la promesa de que la abundancia traería felicidad no se ha cumplido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una distinción utilizable, y ese es su mérito frente a otros libros del mismo estante. No pide renunciar a nada: pide mirar cada cosa importante de la propia vida y preguntarse si se está tratando como una posesión que se conserva o como una actividad que se ejerce. La pregunta se puede hacer hoy.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Coge lo que más te importe —una relación, un oficio, una amistad— y pregúntate si lo estás conservando o si lo estás haciendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es un libro que moraliza: reparte el mundo en dos categorías demasiado limpias y las usa para juzgar formas de vida, cuando casi nadie está enteramente en una de las dos. Su lectura de los místicos medievales y del budismo es personal y los especialistas la discuten. El argumento del idioma se apoya en una teoría fuerte sobre lenguaje y pensamiento que no ha resistido. Y su parte propositiva es un catálogo de deseos sin una sola cifra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después le dio la razón justamente en lo que no podía demostrar. La psicología empezó a medir esto pocos años más tarde y encontró lo mismo por su cuenta: quienes sitúan sus metas principales en el dinero, la imagen y el reconocimiento declaran menos bienestar y más ansiedad, un resultado que Tim Kasser reunió en 2002 tras dos décadas de estudios. Y un trabajo publicado en 2003 con un título casi idéntico al de este libro comparó gastar en cosas con gastar en experiencias, y encontró que lo segundo produce una satisfacción bastante más duradera. Fromm lo sostuvo en 1976 sin un solo dato, y murió en 1980 sin verlo medido.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "tener-o-ser": TENER_O_SER,
   "vida-3-0": VIDA_3_0,
   "psicologia-venta": PSICOLOGIA_VENTA,
   "espia-traidor": ESPIA_TRAIDOR,

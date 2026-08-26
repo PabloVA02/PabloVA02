@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "tener-o-ser": [
+    "por qué convertir un estado en una posesión cambia lo que puedes pensar",
+    "qué diferencia hay entre guardar un conocimiento y ser cambiado por él",
+    "que los celos son la consecuencia lógica de tratar el afecto como propiedad",
+    "cómo un anuncio promete un modo de ser y entrega un modo de tener",
+    "a quién deja fuera un análisis que no distingue quién tiene",
+  ],
+
   "vida-3-0": [
     "por qué calcular no exige neuronas igual que volar no exige plumas",
     "que ser muy capaz y perseguir algo que merezca la pena van por separado",
