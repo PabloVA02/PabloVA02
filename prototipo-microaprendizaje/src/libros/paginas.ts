@@ -93744,7 +93744,291 @@ const DISCIPLINA_ES_DESTINO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El placebo eres tú, de Joe Dispenza (2014), en ocho páginas.
+
+   Libro delicado: se dirige a personas enfermas, así que TERCERA PERSONA en
+   todo el resumen y en las cajas, según el apartado 4 bis. Una frase de tú
+   aquí dice algo cruel y falso: que quien no mejora no puso de su parte.
+
+   La cuarta página da al libro su mejor prueba —Moseley, 2002— y la quinta
+   pone el límite exacto donde el efecto se detiene: el ensayo de asma de
+   2011, publicado tres años antes del libro y no mencionado en él.
+   -------------------------------------------------------------------------- */
+
+const PLACEBO_ERES_TU: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dispenza sostiene que lo que una persona espera de un tratamiento modifica lo que ese tratamiento hace",
+      },
+      {
+        b: "texto",
+        texto:
+          "En los ensayos clínicos hay siempre un grupo que recibe una pastilla sin principio activo, y ese grupo mejora. No solo dice que mejora: en el caso del dolor se le puede medir liberación de opioides propios, y si se le administra naloxona, un fármaco que bloquea esos opioides, la mejoría desaparece. El efecto tiene mecanismo conocido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Joe Dispenza, quiropráctico estadounidense, publicó este libro en 2014 partiendo de ahí. Su historia personal está en el origen: en 1986, con veintitrés años, un todoterreno lo arrolló durante un triatlón en California y le fracturó seis vértebras. Rechazó la operación que le recomendaban y sostiene que se recuperó concentrándose mentalmente en la reconstrucción de su columna.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ese caso saca la tesis del libro: si una expectativa puede producir cambios fisiológicos medibles, entonces se puede provocar a propósito sin necesidad de la pastilla falsa. El título lo resume: el placebo no es el comprimido, es la persona. Lo que propone es un método de meditación para cambiar creencias arraigadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue separa las dos mitades del libro, porque no valen lo mismo. Qué se sabe del efecto placebo y del nocebo, cuál es el experimento que mejor sostiene su argumento, dónde se detiene el efecto según un ensayo publicado tres años antes del libro, qué propone exactamente, y qué le ocurre a un lector enfermo cuando el método no funciona.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El placebo no es «imaginárselo». Es una respuesta fisiológica medible a una expectativa, y tiene un mecanismo conocido y un límite conocido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El efecto placebo no lo produce la pastilla falsa, sino todo lo que ocurre alrededor de ella",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palabra placebo hace pensar en un comprimido de azúcar, y esa imagen despista. Lo que produce el efecto es el conjunto del ritual: que alguien con bata escuche, examine, nombre lo que pasa y entregue algo con instrucciones. La pastilla es el último eslabón de una secuencia que empezó en la sala de espera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso explica hallazgos que de otro modo serían absurdos. Las cápsulas funcionan mejor que las pastillas, dos pastillas mejor que una, las inyecciones mejor que las cápsulas y una intervención con quirófano mejor que una inyección. Cuanto más elaborado es el rito, mayor es la respuesta, y eso no tiene nada que ver con lo que contiene el envase.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El fisiólogo italiano Fabrizio Benedetti lleva desde los años noventa desmontando el mecanismo pieza a pieza en la Universidad de Turín. Ha demostrado que la analgesia por placebo se puede anular con naloxona, lo que implica que el cuerpo liberó sus propios opioides, y que un analgésico administrado sin que el paciente lo sepa funciona bastante peor que el mismo analgésico anunciado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un dato todavía más raro y bien documentado. Ted Kaptchuk, de la Universidad de Harvard, publicó en 2010 un ensayo con ochenta pacientes de colon irritable a los que se les dio placebo diciéndoles explícitamente que era placebo, sin engaño de ningún tipo. Mejoraron igualmente más que el grupo sin tratamiento. La expectativa no necesita la mentira para operar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El efecto no está en la pastilla: está en el rito completo. Por eso una inyección funciona mejor que una cápsula aunque lleven lo mismo dentro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La expectativa también funciona hacia abajo, y ese lado se estudia mucho menos",
+      },
+      {
+        b: "texto",
+        texto:
+          "El reverso del placebo se llama nocebo y consiste en que anunciar un efecto adverso lo provoca. Está medido en ensayos clínicos: una parte considerable de los pacientes que abandona un tratamiento por efectos secundarios está en el grupo que recibe la pastilla sin principio activo, y sufre exactamente los efectos que figuraban en el prospecto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso mejor documentado en cardiología son las estatinas. En ensayos donde ni el paciente ni el médico saben qué se está tomando, los dolores musculares aparecen con una frecuencia parecida en quienes toman el fármaco y en quienes toman placebo, mientras que en la práctica clínica, sabiéndolo, aparecen mucho más. El síntoma es real; su causa, en buena parte, no es química.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dispenza aprovecha bien esta simetría para sostener la parte de su argumento que se aguanta. Si una expectativa negativa puede producir un síntoma físico verificable, entonces la creencia no es un adorno mental: es un factor con efectos corporales, y merece que se le preste atención clínica en lugar de despacharla como sugestión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde el libro empieza a estirar el argumento es al usar el nocebo para explicar enfermedades enteras. Que una expectativa produzca náuseas o dolor muscular está demostrado; que produzca un tumor o una infección no lo está en absoluto, y son afirmaciones de tamaño completamente distinto que el texto va deslizando de una a otra sin marcar el salto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Anunciar un efecto secundario basta para provocarlo en una parte de los pacientes. El síntoma es auténtico aunque la causa no esté en el frasco.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El mejor argumento del libro es una operación de rodilla que resultó ser innecesaria",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2002, la revista New England Journal of Medicine publicó un ensayo dirigido por el cirujano Bruce Moseley en un hospital de veteranos de Houston. Ciento ochenta pacientes con artrosis de rodilla fueron repartidos en tres grupos: dos recibieron artroscopia real, con limpieza o lavado de la articulación, y el tercero recibió una operación simulada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La simulación se hizo en serio. A esos pacientes se les llevó al quirófano, se les sedó, se les practicaron las incisiones en la piel y se mantuvo el tiempo y el ruido de una intervención real, pero no se tocó la articulación. Ninguno de los pacientes sabía en qué grupo estaba, y el seguimiento duró dos años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado fue que los tres grupos mejoraron por igual, en dolor y en función, en todos los momentos medidos. Aquella operación se practicaba entonces a cientos de miles de personas al año en Estados Unidos, y el ensayo mostró que la parte quirúrgica no aportaba nada por encima del hecho de haber pasado por el quirófano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Este es el mejor apoyo que tiene el libro y conviene reconocerlo entero. No se trata de un síntoma vago ni de una encuesta de satisfacción: se trata de una intervención quirúrgica cara, extendida y respaldada por la costumbre, cuyo efecto resultó proceder del ritual. Estudios posteriores confirmaron la conclusión y las recomendaciones clínicas cambiaron.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una operación que se practicaba a cientos de miles de personas funcionaba igual sin operar. El quirófano curaba; lo que se hacía dentro, no.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay un experimento que marca exactamente dónde se detiene el efecto, y el libro no lo cita",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2011, la misma revista publicó un ensayo dirigido por Michael Wechsler con pacientes asmáticos que probaron cuatro condiciones distintas: un broncodilatador real, un inhalador de placebo, una acupuntura simulada y ningún tratamiento. Se midieron dos cosas a la vez, y ahí está la clave del estudio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo primero que se midió fue lo que los pacientes decían sentir. Por ese lado, el inhalador de placebo y la acupuntura falsa funcionaron casi tan bien como el fármaco: alrededor de la mitad de mejoría subjetiva en los tres casos, frente a mucho menos en el grupo sin tratamiento. El efecto placebo aparece con toda claridad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo segundo que se midió fue la función pulmonar con un espirómetro, que no depende de la opinión de nadie. Por ese lado solo mejoró el grupo del broncodilatador, con una diferencia amplia; los otros tres se quedaron prácticamente donde estaban. Los pacientes con placebo se sentían bien y seguían teniendo los bronquios cerrados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa es la frontera, y está trazada con precisión: el placebo actúa sobre cómo se percibe un síntoma y no sobre el proceso físico que lo causa. En el asma esa diferencia puede ser mortal, porque un paciente que se siente mejor y no lo está deja de pedir ayuda. El ensayo se publicó en 2011 y el libro, de 2014, no lo menciona.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El placebo cambia lo que un enfermo siente, no lo que un aparato mide. En algunas enfermedades esa distinción decide si alguien pide ayuda a tiempo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Su método consiste en repetir un estado emocional hasta que el cuerpo deje de esperar la amenaza",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda mitad del libro es práctica. Dispenza propone sesiones de meditación largas, hechas siempre a la misma hora, en las que la persona identifica primero cuál es la emoción que sostiene su estado —el miedo, el resentimiento, la culpa— y después ensaya durante un rato prolongado un estado distinto, con la mayor viveza sensorial posible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte de esto que tiene respaldo es la de siempre y no es pequeña. La meditación regular reduce marcadores de estrés y mejora el sueño y el dolor crónico en varios metaanálisis, y el estrés sostenido sí tiene efectos fisiológicos documentados sobre la presión arterial, la inflamación y la cicatrización. Nada de eso requiere aceptar la explicación que da el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte sin respaldo es la explicación. Dispenza sostiene que este ejercicio reescribe la expresión de los genes y puede revertir enfermedades graves, y ahí la epigenética se usa como palabra de prestigio: que la actividad genética responda al entorno es cierto y muy estudiado, pero de ahí no se sigue que una meditación cure un cáncer, y nadie lo ha demostrado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las pruebas que aporta son testimonios recogidos en sus propios talleres, sin grupo de comparación, sin seguimiento independiente y sin contar los casos que no mejoraron. Con ese diseño no se puede distinguir una recuperación causada por el método de una remisión espontánea, del efecto del tratamiento médico que el paciente seguía en paralelo o del simple azar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que la meditación tenga efectos medibles sobre el estrés está demostrado. Que reescriba genes y revierta enfermedades graves no lo ha demostrado nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un libro que atribuye la curación a la creencia le deja la culpa al que no se cura",
+      },
+      {
+        b: "texto",
+        texto:
+          "Este es el coste que el libro no contabiliza y el motivo por el que merece leerse con cuidado. Si mejorar depende de la intensidad con la que alguien cree, entonces no mejorar significa que no creyó lo suficiente. La conclusión no está escrita en ninguna página y se deduce sola de todas ellas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para alguien con una enfermedad grave esa deducción se suma a lo que ya está pasando. A la enfermedad, al tratamiento y al miedo se le añade la sospecha de haber fallado en algo que dependía de uno, y esa sospecha la sostienen también, con la mejor intención, quienes lo rodean y le repiten que tiene que ser positivo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un riesgo material y está documentado en la literatura médica. Los pacientes oncológicos que sustituyen el tratamiento convencional por terapias alternativas tienen una supervivencia claramente menor, y el retraso en empezar es en sí mismo un factor. Un libro que promete curación por otra vía interviene en esa decisión aunque diga que no la aconseja.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nada de esto obliga a descartar la parte útil. Reducir el estrés, dormir mejor y llegar a la consulta con expectativas realistas mejora la evolución de muchas dolencias y no cuesta nada. Lo que hay que separar es eso de la promesa de curación, porque lo primero acompaña al tratamiento y lo segundo compite con él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando la curación se atribuye a la fe, el enfermo que no mejora carga además con la sospecha de no haber creído bastante. Eso no es cierto y hace daño.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la expectativa de un paciente tiene efectos fisiológicos medibles, que ese efecto opera también en sentido contrario a través del nocebo, y que el ritual de la atención médica es una parte activa del tratamiento y no un decorado. Las tres cosas son ciertas y están bien establecidas en la investigación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su aportación es haber llevado a un público muy amplio unos hallazgos que estaban encerrados en revistas médicas. El ensayo de la rodilla de 2002 o los trabajos de Benedetti sobre la naloxona son extraordinarios y casi nadie fuera de la medicina los conoce, y este libro los puso delante de millones de lectores.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El rito de ser atendido forma parte del tratamiento. Eso justifica pedir tiempo y explicaciones en la consulta, y no justifica sustituir el tratamiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y es un fallo de tamaño. El libro cruza sin avisar la única frontera que importa: la que separa lo que el paciente siente de lo que el aparato mide. El ensayo de asma de 2011 la traza con precisión y no aparece citado, igual que faltan las revisiones de Hróbjartsson y Gøtzsche, que desde 2001 vienen concluyendo que el placebo tiene efectos sobre el dolor y otros síntomas declarados y muy pocos sobre resultados objetivos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una anécdota que el libro repite y que conviene mirar de cerca. El caso del señor Wright, cuyos tumores se habrían reducido en 1957 al recibir un fármaco en el que confiaba y habrían vuelto al leer que no servía, procede de un único artículo del psicólogo Bruno Klopfer, sin historia clínica publicada ni verificación posterior. Circula desde entonces por todos los libros del género como si fuera un experimento. Es un caso aislado contado una vez, y con eso no se sostiene ninguna afirmación médica.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "placebo-eres-tu": PLACEBO_ERES_TU,
   "disciplina-es-destino": DISCIPLINA_ES_DESTINO,
   "side-hustle": SIDE_HUSTLE,
   "chingona-dinero": CHINGONA_DINERO,

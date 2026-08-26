@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "placebo-eres-tu":
+    "En 2002, ciento ochenta pacientes con artrosis de rodilla mejoraron igual con cirugía real que con una operación simulada. Dispenza parte de hallazgos como ese para sostener que la expectativa puede provocarse a voluntad.",
+
   "disciplina-es-destino":
     "Lou Gehrig jugó 2.130 partidos seguidos entre 1925 y 1939, con dedos rotos y con fiebre. Holiday usa ese tipo de casos para defender la templanza estoica y para avisar de cuándo se vuelve rigidez.",
 

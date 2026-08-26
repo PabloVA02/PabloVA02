@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "placebo-eres-tu": [
+    "qué produce en realidad el efecto placebo y por qué no es sugestión",
+    "cómo el anuncio de un efecto secundario basta para provocarlo",
+    "que el placebo cambia lo percibido y no siempre lo medido",
+    "el límite exacto entre acompañar un tratamiento y sustituirlo",
+    "reconocer un testimonio de taller cuando se presenta como prueba",
+  ],
+
   "disciplina-es-destino": [
     "por qué las decisiones que lamentas suelen venir de dormir poco",
     "que la constancia da un resultado planificable y el talento no",
