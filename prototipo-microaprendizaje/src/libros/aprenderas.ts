@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "poder-sin-limites":
+    "En 1986, Robbins convirtió la programación neurolingüística en un manual de instrucciones. Enseña a desmontar en pasos observables lo que hace bien otra persona, y a cambiar de estado por el cuerpo antes que por el pensamiento.",
+
   "retirate-joven-rico":
     "Kiyosaki y su mujer dejaron de trabajar en 1994, a los cuarenta y siete y treinta y siete años, con rentas de pisos alquilados. El libro explica con qué palanca lo hicieron y qué le falta a esa explicación.",
 

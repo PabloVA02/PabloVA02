@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "poder-sin-limites": [
+    "cómo se desmonta en pasos lo que otra persona hace bien",
+    "por qué la postura cambia el ánimo antes que el razonamiento",
+    "que imitar sin querer los gestos ajenos es señal de acuerdo",
+    "el motivo de que insistir sin medir se confunda con la constancia",
+    "distinguir una técnica que funciona de la teoría que la explica",
+  ],
+
   "retirate-joven-rico": [
     "por qué la misma deuda enriquece a uno y hunde a otro",
     "que un patrimonio se mide por lo que ingresas sin trabajar",

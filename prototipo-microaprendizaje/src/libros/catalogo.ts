@@ -309,7 +309,7 @@ export const CATALOGO: Ficha[] = [
   { id: "ideas-que-pegan", titulo: "Ideas que pegan", autor: "Chip y Dan Heath", ano: 2007, categoria: "Psicología", estado: "escrito" },
   { id: "magia-pensar-grande", titulo: "La magia de pensar en grande", autor: "David Schwartz", ano: 1959, categoria: "Psicología", estado: "escrito" },
   { id: "despertando-gigante", titulo: "Despertando al gigante interior", autor: "Tony Robbins", ano: 1991, categoria: "Psicología", estado: "escrito" },
-  { id: "poder-sin-limites", titulo: "Poder sin límites", autor: "Tony Robbins", ano: 1986, categoria: "Psicología", estado: "pendiente" },
+  { id: "poder-sin-limites", titulo: "Poder sin límites", autor: "Tony Robbins", ano: 1986, categoria: "Psicología", estado: "escrito" },
   { id: "actitud-mental-positiva", titulo: "La actitud mental positiva", autor: "Napoleon Hill y W. Clement Stone", ano: 1959, categoria: "Psicología", estado: "escrito" },
   { id: "vendedor-mas-grande", titulo: "El vendedor más grande del mundo", autor: "Og Mandino", ano: 1968, categoria: "Psicología", estado: "escrito" },
   { id: "21-leyes-liderazgo", titulo: "Las 21 leyes irrefutables del liderazgo", autor: "John C. Maxwell", ano: 1998, categoria: "Psicología", estado: "escrito" },

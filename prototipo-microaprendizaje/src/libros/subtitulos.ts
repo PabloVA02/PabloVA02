@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "poder-sin-limites": "La nueva ciencia del desarrollo personal",
   "retirate-joven-rico": "Cómo hacerse rico rápidamente y para siempre",
   "maestro-dinero": "7 pasos simples para la libertad financiera",
   "confesiones-chef": "Aventuras en el trasfondo culinario",

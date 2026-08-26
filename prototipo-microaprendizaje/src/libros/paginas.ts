@@ -92634,7 +92634,290 @@ const RETIRATE_JOVEN_RICO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Poder sin límites, de Tony Robbins (1986), en ocho páginas.
+
+   Libro práctico, así que registro de tú: apartado 4.7. El libro se apoya
+   entero en la programación neurolingüística, y eso obliga a poner el
+   marcador: las revisiones de Sharpley en 1984 y 1987 y el informe del
+   Consejo Nacional de Investigación de 1988, encargado precisamente por el
+   Ejército con el que Robbins dice haber trabajado. Va dicho en la página
+   que toca y rematado en la conclusión, no escondido.
+   -------------------------------------------------------------------------- */
+
+const PODER_SIN_LIMITES: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Robbins sostiene que la excelencia se puede copiar, porque es un procedimiento y no un talento",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dos personas reciben la misma noticia mala. Una se hunde tres semanas y la otra reacciona el mismo día. Robbins parte de que esa diferencia no es de carácter ni de suerte, sino de una secuencia interna que ocurre en décimas de segundo y que se puede describir con la suficiente precisión como para enseñársela a otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro salió en 1986, cuando Robbins tenía veintiséis años, y fue el primero que escribió. Casi todo su contenido procede de la programación neurolingüística, un método creado en los años setenta por Richard Bandler y John Grinder en la Universidad de California en Santa Cruz, que consistía en observar a terapeutas muy eficaces y desmontar qué hacían exactamente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la palabra que ordena el libro entero: modelar. Si alguien consigue de forma sistemática un resultado que tú no consigues, hay una manera de averiguar qué hace —qué se dice, qué imagina, cómo respira, en qué orden— y reproducirla. La promesa del título es que ese procedimiento no tiene tope.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre las piezas que propone y las separa según hayan resistido o no. Cómo se copia a alguien sin copiar su biografía, por qué la postura cambia el ánimo antes que el pensamiento, qué es un ancla, qué pasa al cambiar el tamaño de un recuerdo, qué sostiene la investigación sobre la sintonía y qué se le puede reprochar al método completo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien hace bien algo que tú haces mal, la pregunta útil no es qué tiene, es qué hace, y en qué orden lo hace.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Copiar a alguien que admiras solo funciona si copias lo que hace y no lo que cuenta",
+      },
+      {
+        b: "texto",
+        texto:
+          "El modelaje es la técnica central y tiene un procedimiento concreto. Robbins lo divide en tres capas: qué cree la persona sobre lo que está haciendo, en qué orden ocurren sus operaciones mentales, y qué hace con el cuerpo mientras las hace. Las tres se observan; ninguna se pregunta directamente, porque casi nadie sabe describir lo que hace bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa última advertencia es la parte más aprovechable. Un buen vendedor preguntado por su método contesta cosas como «escuchar al cliente», que no le sirven de nada a quien lo escucha. Lo que hay que observar es a qué hora llama, cuánto habla antes de la primera pregunta, cuándo se calla y qué hace cuando le dicen que no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro insiste en algo que va contra la idea corriente de tener un ídolo: no se modela a una persona, se modela una habilidad concreta de una persona. La misma persona puede ser un modelo excelente negociando y pésimo administrando su dinero, y confundir las dos cosas es la manera más rápida de copiar lo que no había que copiar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una limitación que Robbins no menciona y que conviene tener delante. Se modela siempre a quien ganó, y quien perdió hacía a menudo exactamente lo mismo: madrugaba igual, insistía igual y creía igual en sí mismo. Sin mirar también a esos, un método de modelaje solo describe a los supervivientes de un proceso que no controlamos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No copies a una persona: copia una habilidad suya. Nadie es un buen modelo de todo, y la parte admirable casi nunca es la que ellos cuentan.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cambiar la postura cambia el ánimo antes de que el pensamiento tenga tiempo de intervenir",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robbins llama estado a la mezcla de emoción, atención y tensión corporal en la que se está en un momento dado, y sostiene que casi todo el rendimiento depende de él. Alguien que sabe hacer algo lo hace mal en un estado y bien en otro, así que la habilidad estaba ahí y lo que fallaba era el resto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación fuerte es que el camino más rápido para cambiar de estado no pasa por la cabeza, sino por el cuerpo: respirar más hondo y más despacio, enderezar la espalda, levantar la mirada, mover los hombros. No porque eso genere optimismo por sí solo, sino porque la postura del abatimiento es una parte del abatimiento, y deshacerla lo deja incompleto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La versión sensata de esto tiene apoyo. Se sabe que la respiración lenta activa la rama parasimpática del sistema nervioso y baja la frecuencia cardíaca, y ese efecto es medible en minutos. Se sabe también que el ejercicio físico tiene efecto sobre el estado de ánimo. Ninguna de las dos cosas es magia y las dos están disponibles en cualquier momento del día.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La versión exagerada no tiene apoyo, y conviene distinguirlas. Que dos minutos en una postura determinada cambien la hormona del estrés o el resultado de una entrevista de trabajo es una afirmación mucho más grande, y los intentos de reproducirla en laboratorio no la han sostenido. Cambiar la postura ayuda a salir de un bajón; no reprograma a nadie.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de intentar convencerte de que estás mejor, respira más despacio y endereza la espalda. Es la parte del ánimo sobre la que se puede actuar directamente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un ancla es un atajo que ya tienes puesto, y casi todos los que llevas encima los puso otro",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un ancla, en el vocabulario del libro, es un estímulo que dispara un estado sin pasar por el razonamiento: una canción que devuelve un verano entero, un olor que devuelve una casa, el tono con el que alguien decía tu nombre completo cuando había bronca. Lo que Robbins propone es dejar de recibirlos y empezar a ponerlos a propósito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo es viejo y está bien documentado: es condicionamiento clásico, lo que Iván Pávlov describió con perros y una campana en los primeros años del siglo veinte. Un estímulo neutro repetido junto a una respuesta acaba provocándola solo. Que funciona no lo discute nadie; lo discutible es cuánto se puede dirigir a voluntad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La receta que da es concreta: se elige un gesto que no se haga por casualidad, se repite justo en el momento de mayor intensidad de un estado que te interesa, y se repite varias veces. Después, ese gesto tiende a traer algo de aquel estado. Funciona mejor con estados intensos y recientes, y se apaga si se usa a todas horas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo más útil del capítulo no es poner anclas nuevas, sino darse cuenta de las que ya operan. Mucha gente tiene asociado el ordenador del trabajo con la ansiedad, o el móvil de la mesilla con la alerta, y las lleva encima sin haberlas elegido. Identificar una y romperla cambiando el contexto suele valer más que fabricar tres.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Busca qué objeto, sonido o lugar te pone en tensión sin motivo. Ese es un ancla que no elegiste, y deshacerla vale más que colocar otras nuevas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La parte del método que suena más científica es justamente la que no ha resistido el examen",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica varios capítulos a los llamados sistemas representativos: la idea de que cada persona piensa preferentemente en imágenes, en sonidos o en sensaciones, que eso se nota en las palabras que usa y hasta en hacia dónde mueve los ojos al recordar, y que sintonizar con el canal del otro mejora la comunicación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es una idea atractiva y comprobable, y se comprobó. El psicólogo australiano Christopher Sharpley revisó los estudios disponibles en dos trabajos publicados en el Journal of Counseling Psychology, en 1984 y en 1987, y no encontró apoyo para el sistema representativo preferido ni para las pistas oculares. Otras revisiones posteriores llegaron a lo mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El golpe más serio llegó de donde menos convenía. En 1988, el Consejo Nacional de Investigación de Estados Unidos publicó un informe encargado por el propio Ejército estadounidense para evaluar técnicas de mejora del rendimiento, y examinó la programación neurolingüística entre ellas. La conclusión fue que no había pruebas que respaldaran sus afirmaciones. Robbins presume en el libro de su trabajo con ese mismo Ejército.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Queda una parte que sí funciona, y es la de siempre. Cambiar cómo se recuerda algo desagradable —verlo más pequeño, más lejos, en blanco y negro, como una escena ajena— reduce su carga emocional, y eso se parece bastante a técnicas de distanciamiento que la terapia cognitiva usa con respaldo. La técnica sirve; la teoría con la que se explica, no.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que una técnica te funcione no valida la explicación que le ponen encima. Son dos afirmaciones distintas y se comprueban por separado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Imitar sin querer los gestos del otro es lo que hace que una conversación caiga bien",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robbins dedica un capítulo largo a la sintonía y a cómo conseguirla copiando discretamente la postura, el ritmo y el tono de la persona con la que se habla. Es la parte del libro que más se ha imitado en cursos de ventas, y también la que más se ha caricaturizado, porque hecha con torpeza se nota y produce el efecto contrario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí la investigación sí acompaña. En 1999, Tanya Chartrand y John Bargh publicaron en el Journal of Personality and Social Psychology un experimento en el que un colaborador imitaba discretamente los gestos de la persona con la que hablaba. Quienes fueron imitados calificaron la conversación como más fluida y dijeron que su interlocutor les había caído mejor, sin darse cuenta de nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante del hallazgo es la dirección. La imitación ocurre sola entre personas que se llevan bien: es una consecuencia de la sintonía, no solo una causa. Por eso forzarla funciona poco y observarla funciona mucho: si en una reunión nadie está copiando a nadie, ahí no hay acuerdo, por muchas sonrisas que haya.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el efecto es real pero moderado, que es justo lo que un libro con este título no puede decir. Copiar la postura de alguien no vende un producto malo ni salva una negociación perdida. Hace que la conversación sea algo más cómoda, y eso a veces es la diferencia entre que te escuchen y que no.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mira si en una conversación os estáis copiando la postura sin querer. Es el mejor indicador de si hay acuerdo, y no depende de lo que os digáis.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro convierte una fórmula de cuatro pasos en su única receta, y la fórmula es más vieja que él",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robbins la llama fórmula definitiva del éxito y tiene cuatro pasos: decide qué quieres exactamente, actúa, fíjate en el resultado que estás obteniendo y cambia lo que haces hasta conseguirlo. Puesto así parece obvio, y su valor está en el tercer paso, que es el que casi todo el mundo se salta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento sobre ese tercer paso es bueno. La mayoría de la gente no falla por falta de esfuerzo, sino porque repite durante años una acción sin comprobar qué está produciendo: manda el mismo currículum, hace la misma pregunta en la reunión, discute igual en casa. La insistencia sin medición se confunde muy fácilmente con la constancia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro pilar del libro son las creencias, que describe como el filtro que decide qué intentas siquiera. La observación se sostiene: quien está convencido de que no se le dan los números no se apunta al curso, y por tanto nunca obtiene la prueba en contra. La creencia se protege sola impidiendo el experimento que la refutaría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donde se pasa es al afirmar que basta con cambiar la creencia. Hay techos que no son mentales: el dinero disponible, la edad, la salud, el país en el que naciste y a quién conoces. Un libro que atribuye todos los resultados al estado interno acaba diciéndole a quien no lo consigue que el fallo fue suyo, y eso no es cierto ni es útil.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si llevas años insistiendo en algo sin resultado, el problema casi nunca es que insistas poco: es que no has mirado qué produce exactamente lo que haces.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que el rendimiento depende del estado en que se hace algo, que el estado se puede cambiar por el cuerpo antes que por el pensamiento, y que las habilidades ajenas se pueden desmontar en pasos observables en vez de admirarse. Las tres ideas son útiles y se pueden probar esta semana sin creerse nada más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su aportación real fue de formato. En 1986 no existía este género: los libros de superación hablaban de actitud y este hablaba de procedimientos, con instrucciones numeradas. Casi todo el mercado posterior de desarrollo personal, incluidos sus competidores, está construido sobre la plantilla que fijó aquí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quédate con dos cosas: cambia el cuerpo antes que la idea, y mira qué produce de verdad lo que llevas años repitiendo. Lo demás es opcional.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La teoría sobre la que se apoya no ha sobrevivido: las revisiones de Sharpley en 1984 y 1987 y el informe del Consejo Nacional de Investigación de 1988 no encontraron pruebas de los sistemas representativos ni de las pistas oculares, que ocupan capítulos enteros. Y el título promete algo que ningún método puede dar, con el problema añadido de que un libro que lo atribuye todo al estado interno deja a quien fracasa sin más explicación que su propia falta de fe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después separa lo que enseña de cómo se vende. La caminata sobre brasas con la que Robbins abre sus seminarios se explica por la física —el carbón conduce muy mal el calor y el contacto dura décimas de segundo—, no por el estado mental, y en sus propios actos ha habido quemados: unas veintiuna personas atendidas en San José en 2012 y varias decenas más en Dallas en 2016. La técnica del distanciamiento emocional, en cambio, siguió camino por su cuenta y hoy se usa en terapia cognitiva con respaldo. Del libro sobrevivió lo que se podía medir.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "poder-sin-limites": PODER_SIN_LIMITES,
   "retirate-joven-rico": RETIRATE_JOVEN_RICO,
   "maestro-dinero": MAESTRO_DINERO,
   "ladrona-libros": LADRONA_LIBROS,
