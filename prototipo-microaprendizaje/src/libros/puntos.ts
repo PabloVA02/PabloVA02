@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "recompra-tu-tiempo": [
+    "por qué contratar para crecer deja al fundador igual de enterrado",
+    "cómo se calcula qué tareas no compensa que hagas tú",
+    "que nadie sabe qué le agota hasta que lo apunta dos semanas",
+    "pedir opciones en vez de recibir problemas para decidir",
+    "la condición que este método da por supuesta y casi nadie cumple",
+  ],
+
   banquete: [
     "por qué el deseo señala una carencia y no se agota nunca",
     "que la idea de la media naranja se refuta dentro del propio libro",

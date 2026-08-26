@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "recompra-tu-tiempo":
+    "Casi todo el que se pone por su cuenta acaba haciendo el trabajo que nadie más quería. Martell sostiene que el error está en contratar para producir más en vez de contratar para recuperar horas propias.",
+
   banquete:
     "Siete hombres con resaca deciden no beber y pronunciar por turno un discurso sobre el deseo. De esa fiesta del año 416 antes de Cristo salieron la media naranja y la expresión amor platónico, y las dos están mal entendidas.",
 

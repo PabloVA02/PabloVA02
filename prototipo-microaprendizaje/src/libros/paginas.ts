@@ -97031,7 +97031,289 @@ const BANQUETE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Recompra tu tiempo, de Dan Martell (2023), en ocho páginas.
+
+   Libro práctico de empresa, registro de tú: apartado 4.7. Economía, así
+   que cada página lleva su persona, su fecha y su cifra.
+
+   La séptima página dice para quién NO está escrito, que es la mayoría de
+   quien lo compra, y la conclusión pone el marcador: salió en enero de
+   2023, justo antes del año en que las herramientas automáticas empezaron
+   a hacer gratis buena parte de lo que el libro manda delegar.
+   -------------------------------------------------------------------------- */
+
+const RECOMPRA_TU_TIEMPO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Martell sostiene que quien monta algo por su cuenta acaba con el peor trabajo de su propia empresa",
+      },
+      {
+        b: "texto",
+        texto:
+          "Casi todo el que se pone por su cuenta lo hace para dejar de hacer lo que no le gusta, y a los tres años se encuentra facturando, persiguiendo pagos, contestando correos y resolviendo incidencias, es decir, haciendo exactamente el trabajo que nadie más quería hacer. Y lo hace además sin horario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dan Martell, empresario canadiense que fundó y vendió varias empresas de programas informáticos y que hoy vive de asesorar a otras, publicó este libro en 2023 para explicar por qué ocurre eso. Su respuesta es que el error está en el motivo por el que se contrata, y que es un error casi universal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La gente contrata para crecer: hace falta más producción, así que se busca a alguien que produzca más. Martell sostiene que hay que contratar para lo contrario, para recuperar horas propias, y que quien lo hace así crece igual pero sin acabar sepultado, porque la primera persona que entra libera al que ya estaba al límite.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre sus herramientas, que son concretas: la cuenta que decide qué merece la pena delegar, la auditoría de dos semanas que enseña en qué se va el tiempo, la regla que impide ser el cuello de botella de todo, la manera más barata de enseñar una tarea, y para quién no está escrito este libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si contratas para producir más, tú sigues igual de enterrado. Contrata para quitarte horas de encima y la producción sube después sola.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay un punto en el que crecer duele, y casi todo el mundo reacciona mal",
+      },
+      {
+        b: "texto",
+        texto:
+          "Martell describe un momento por el que pasa casi cualquier negocio que funciona y al que llama la línea del dolor. Es el punto en el que crecer un poco más exige contratar, coordinar, delegar y renunciar al control, y en el que por primera vez el trabajo deja de ser hacer y empieza a ser dirigir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ante ese punto observa dos reacciones equivocadas y las dos son muy comunes. La primera es venderlo o abandonarlo: el fundador se aburre, decide que aquello ya no le llena y busca algo nuevo, que suele ser exactamente el mismo negocio otra vez desde cero. La segunda es frenar a propósito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Frenar es la más frecuente y la que no se reconoce nunca en voz alta. Consiste en dejar de contestar a algunos clientes, no promocionar, no coger encargos grandes y decirse que uno prefiere estar tranquilo. Puede ser una decisión legítima, pero casi nunca se toma como decisión: se toma como huida y se justifica después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera salida es la que propone el libro, y es la incómoda: contratar antes de estar cómodo. Martell insiste en que la incomodidad no es señal de que algo vaya mal, sino de que el negocio ha llegado a un tamaño que exige una manera distinta de trabajar, y que quien confunde las dos cosas se queda donde está.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando algo tuyo crece y de repente deja de apetecerte, mira si de verdad te aburre o si lo que pasa es que hay que cambiar de forma de trabajar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La tarifa de recompra decide qué delegar sin que haga falta discutirlo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La herramienta central del libro es una cuenta de dos divisiones. Se coge lo que uno gana al año, se divide entre dos mil horas de trabajo anuales y se obtiene lo que vale una hora propia. Después se divide entre cuatro, y eso da lo que Martell llama la tarifa de recompra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con números redondos: alguien que gana cincuenta mil euros al año vale veinticinco euros la hora, y su tarifa de recompra son algo más de seis. Todo aquello por lo que se pueda pagar a otro menos de seis euros la hora debería salir de su agenda, y todo lo que cueste más se queda por ahora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La división entre cuatro es la parte importante y la que casi nadie aplica. Está ahí porque la hora liberada no se convierte automáticamente en ingresos: hay que enseñar, supervisar, corregir y asumir que al principio se hace peor. Ese margen de cuatro a uno es lo que hace que la operación siga saliendo a cuenta con todo eso incluido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo útil de tener una cifra es que convierte una discusión interminable en una comprobación. Ante cualquier tarea —el diseño de una factura, el montaje de un vídeo, la búsqueda de un billete—, la pregunta deja de ser si uno sabe hacerlo, que casi siempre sí, y pasa a ser cuánto costaría que lo hiciera otro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Calcula lo que vale tu hora y divídelo entre cuatro. Todo lo que puedas pagar por debajo de esa cifra no deberías estar haciéndolo tú.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La auditoría de dos semanas enseña algo que nadie sabe de sí mismo" },
+      {
+        b: "texto",
+        texto:
+          "Antes de delegar nada, Martell manda hacer un registro. Durante dos semanas se anota todo lo que se hace en bloques de quince minutos, sin corregir nada ni intentar portarse mejor, y después se marca cada línea con dos etiquetas: si esa tarea daba energía o la quitaba, y si producía dinero o no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado del cruce son cuatro grupos. Lo que quita energía y no produce dinero se delega primero y sin pensarlo. Lo que quita energía pero produce dinero se sustituye después, contratando a alguien que lo haga mejor. Lo que da energía y no produce dinero se recorta. Y lo que da energía y produce dinero es lo único que debe quedarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte que sorprende a casi todo el mundo es la primera columna. Casi nadie sabe qué tareas le dejan agotado, porque el cansancio se atribuye al total del día, y al ver el registro aparecen actividades que ocupan una hora y estropean las cinco siguientes, y otras que ocupan tres y no pesan nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Martell insiste además en no saltarse el registro y calcularlo de memoria, y tiene razón por un motivo comprobado: la memoria recuerda las tareas señaladas y olvida las fugas pequeñas y repetidas, que son justamente donde se va el tiempo. El registro no sirve para juzgarse, sirve para ver lo que no se recuerda.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Apunta dos semanas qué haces y marca cada cosa según te dé o te quite energía. Vas a descubrir tareas de una hora que te estropean el día entero.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La regla del uno, tres y uno impide que todas las decisiones pasen por ti",
+      },
+      {
+        b: "texto",
+        texto:
+          "La herramienta más aprovechable del libro se puede implantar mañana y no cuesta dinero. Consiste en establecer que quien traiga un problema tiene que traer además tres soluciones posibles y una recomendación sobre cuál elegir. Un problema, tres opciones, una recomendación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto inmediato es sobre el tiempo de quien decide, que pasa de tener que analizar el asunto entero a validar o corregir una propuesta. Pero el efecto interesante es el otro: la mayoría de los problemas que llegaban a la mesa dejan de llegar, porque al buscar las tres opciones la persona resuelve el asunto sola.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Martell añade el complemento, que es igual de práctico: el diez, ochenta, diez. En cualquier encargo, quien dirige aporta el primer diez por ciento —qué se busca, cómo tiene que quedar, dónde está el ejemplo— y el último diez por ciento, que es el repaso final. El ochenta de en medio lo hace otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y avisa del error clásico al delegar, que consiste en entregar solo el título de la tarea y esperar que salga como uno lo imaginaba. Ese primer diez por ciento no es burocracia: es la diferencia entre recibir algo aprovechable y recibir algo que hay que rehacer, y quien se lo salta acaba concluyendo que delegar no funciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Martell propone además un orden fijo para ir soltando funciones, que evita la duda de por dónde empezar: primero la administración, después la entrega del trabajo, después la captación, después la venta y en último lugar la dirección. Contratar en otro orden es lo que produce equipos con jefes y sin nadie que haga facturas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pide un problema, tres opciones y una recomendación. La mitad de los problemas dejan de llegarte porque se resuelven al buscar las opciones.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Grabarse haciendo la tarea vale más que escribir el procedimiento" },
+      {
+        b: "texto",
+        texto:
+          "Para enseñar una tarea, Martell descarta el manual escrito y propone algo mucho más barato: grabar la pantalla y la voz mientras se hace esa tarea una vez, explicando en voz alta lo que se está haciendo, y entregar esa grabación a quien va a hacerla a partir de ahora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ventaja no es solo de tiempo. Un procedimiento escrito omite siempre lo que quien lo escribe da por sabido —dónde está ese archivo, qué se hace cuando el sistema no responde, a quién se avisa si falta un dato—, y esas omisiones son exactamente lo que hace que la tarea salga mal la primera vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La grabación, en cambio, contiene todo lo que ocurrió, incluidos los tropiezos, y quien la ve puede pararla y repetirla las veces que necesite sin volver a preguntar. Martell recomienda además que sea la persona que aprende quien escriba después el procedimiento a partir del vídeo, lo que comprueba de paso si lo ha entendido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la misma lógica del trabajo que se cobra una vez frente al que se cobra siempre. Explicar algo de viva voz cuesta diez minutos y sirve una vez; grabarlo cuesta los mismos diez minutos y sirve para todas las personas que pasen por ese puesto durante años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da una regla para saber cuándo grabar: cualquier tarea que se vaya a explicar por segunda vez. La primera se explica y ya está; a la segunda, la explicación se convierte en un gasto que se va a repetir indefinidamente, y ese es el momento exacto en que compensa dejarla registrada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Graba la pantalla mientras haces la tarea una sola vez. Un manual escrito se salta justo lo que tú dabas por sabido, que es lo que hace falta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Este libro no está escrito para la mayoría de quienes lo compran" },
+      {
+        b: "texto",
+        texto:
+          "Conviene decirlo pronto porque el título no lo dice: todo el libro presupone que quien lee tiene un negocio con ingresos suficientes para pagar a alguien todos los meses. Sin esa condición, las herramientas dejan de ser aplicables, por buenas que sean, porque todas terminan en contratar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para un asalariado no hay nada que delegar: su tiempo ya lo compró otro, y la tarifa de recompra no le sirve porque las horas que se ahorre no se convierten en ingresos suyos. Para alguien que trabaja solo y factura poco, pagar a un ayudante es un gasto fijo que aparece antes que el ingreso extra que debería cubrirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un coste que el libro trata muy por encima y que decide muchos casos: contratar crea trabajo nuevo. Hay que seleccionar, enseñar, revisar, corregir y a veces despedir, y durante los primeros meses casi todo el mundo trabaja más que antes, no menos. Quien no aguanta ese tramo concluye que delegar no sirve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y está el asunto del que no dice nada. La recomendación práctica es contratar asistencia remota en países donde la hora cuesta una fracción, y eso mueve un sector enorme —solo en Filipinas, la industria de servicios externalizados emplea a más de un millón y medio de personas—. El libro lo presenta como una cifra en una hoja de cálculo y no dedica una línea a qué significa al otro lado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de aplicar un método, mira si cumples la condición que da por supuesta. Aquí es tener con qué pagar a alguien todos los meses.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que se contrata para recuperar horas y no para producir más, que hace falta una cifra que decida qué delegar sin discutirlo cada vez, que nadie sabe en qué se le va el tiempo hasta que lo apunta, y que quien decide debe recibir opciones y no problemas. Las cuatro cosas funcionan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a otros manuales del ramo es que sus herramientas caben en una hoja. La tarifa de recompra, la auditoría de dos semanas, la regla del uno tres uno y el diez ochenta diez se explican en una tarde y se aplican en otra, y ninguna requiere reorganizar nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Apunta dos semanas, calcula tu tarifa, pide opciones en vez de problemas y graba lo que enseñes. Con eso está la parte útil del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Está escrito para empresarios con caja y no lo advierte, así que buena parte de sus lectores no puede aplicar nada. Trata de pasada el coste de dirigir a quien contratas, que es lo que hunde a la mayoría en los primeros meses. Y es también un escaparate del programa de asesoramiento de su autor, que cuesta bastante más que el libro, cosa que el libro no oculta pero tampoco subraya.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un marcador que se movió a los pocos meses de publicarse. El libro salió a principios de 2023 y su lista de tareas delegables —transcribir, redactar borradores, resumir, ordenar datos, hacer una primera versión de casi cualquier cosa— es exactamente la que a lo largo de ese mismo año pasaron a hacer las herramientas automáticas por unos pocos euros al mes. La cuenta de la tarifa de recompra sigue valiendo, pero el precio de la hora que hay que comparar ha cambiado tanto que muchas de sus recomendaciones concretas ya son de otra época.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "recompra-tu-tiempo": RECOMPRA_TU_TIEMPO,
   banquete: BANQUETE,
   "alicia-maravillas": ALICIA_MARAVILLAS,
   "ley-de-atraccion": LEY_DE_ATRACCION,
