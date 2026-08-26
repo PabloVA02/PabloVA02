@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cerebro-adolescente":
+    "En la pubertad, la melatonina empieza a segregarse dos horas más tarde, y la zona del cerebro que frena impulsos es la última en terminarse. Una neuróloga explica qué está pasando dentro de esas cabezas.",
+
   "intestino-feliz":
     "Un adulto occidental come unos quince gramos de fibra al día y los hadza de Tanzania entre cien y ciento cincuenta. Dos microbiólogos de Stanford explican qué se queda sin comer cuando falta esa fibra.",
 

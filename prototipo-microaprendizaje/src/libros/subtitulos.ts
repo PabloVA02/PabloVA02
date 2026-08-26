@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "cerebro-adolescente": "Guía para entender a tus hijos",
   "intestino-feliz": "Controla tu peso, tu ánimo y tu salud a largo plazo",
   "vida-3-0": "Qué significa ser humano en la era de la inteligencia artificial",
   "psicologia-venta": "Cómo vender más, más fácil y más rápido de lo que nunca creyó posible",

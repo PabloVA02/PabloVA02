@@ -101249,7 +101249,296 @@ const INTESTINO_FELIZ: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El cerebro adolescente, de Frances Jensen (2015), en ocho páginas.
+
+   Ciencia contada para padres: tercera persona en la explicación y segunda
+   solo donde el texto se vuelve consejo, que es lo que dice el apartado
+   4.7.7. Las cajas del rayo, por eso, hablan al lector.
+
+   La sexta página lleva el marcador del dato más citado del libro —la
+   caída de cociente intelectual por cannabis— porque un estudio con
+   gemelos de 2016 lo puso en duda. Va dicho ahí y no escondido.
+   -------------------------------------------------------------------------- */
+
+const CEREBRO_ADOLESCENTE: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Jensen sostiene que el cerebro de un adolescente no es un cerebro adulto defectuoso, sino una obra a medio terminar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un chico de dieciséis años puede explicar perfectamente por qué es peligroso conducir deprisa, y hacerlo esa misma noche. La explicación habitual es que no piensa, o que se cree inmortal, y ninguna de las dos es correcta: piensa, y sabe lo que puede pasar. Lo que ocurre es que las piezas que deciden no están todas puestas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Frances Jensen es neuróloga y dirigió el departamento de neurología de la Universidad de Pensilvania. Escribió este libro en 2015 después de criar sola a dos hijos adolescentes, y cuenta que se dio cuenta de que ni ella, siendo especialista en cerebro, sabía lo que estaba pasando dentro de las cabezas de su propia casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea que ordena el libro es de calendario. El cerebro no madura de golpe ni por igual: lo hace por zonas y en un orden concreto, de atrás hacia delante, y la última región en terminar es precisamente la que se ocupa de prever consecuencias, frenar impulsos y planificar. Esa zona sigue en obras hasta pasados los veinte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre las consecuencias de ese desfase: por qué el acelerador está listo antes que el freno, por qué aprenden más deprisa y se enganchan más deprisa, por qué duermen mal, qué pasa exactamente cuando hay amigos delante, qué se ha discutido después sobre el cannabis y qué puede hacer un adulto mientras tanto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No es que no vea el peligro. Lo ve, lo explica y aun así lo hace, porque la parte del cerebro que convierte esa información en freno llega la última.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El acelerador está terminado años antes que el freno, y esa es toda la explicación",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cerebro madura de atrás hacia delante. Las zonas que gestionan los sentidos y el movimiento quedan listas pronto; la corteza prefrontal, justo detrás de la frente, es la última en completar su desarrollo, y es la que se ocupa de valorar consecuencias, contener impulsos y organizar una decisión con varios pasos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mientras tanto, el sistema que produce la sensación de recompensa está funcionando a pleno rendimiento desde bastante antes, y en la adolescencia responde con más intensidad que en cualquier otro momento de la vida. Es decir, durante unos años el premio se siente más fuerte que nunca y el mecanismo que lo modera aún no está montado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese desajuste explica lo que ninguna teoría del carácter explica bien: por qué la misma persona puede ser brillante en clase e incapaz de decidir a qué hora volver a casa. No son dos rasgos contradictorios de una personalidad; son dos circuitos distintos con calendarios distintos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene apuntar aquí un abuso que ha hecho fortuna a partir de libros como este. Decir que el cerebro no termina hasta los veinticinco sugiere una fecha y un interruptor, y no hay ni lo uno ni lo otro: es un proceso gradual, muy variable de una persona a otra, y no autoriza a tratar a alguien de veintitrés años como a un niño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un detalle anatómico que ayuda a entender por qué tarda tanto. Las fibras que conectan unas zonas con otras se van recubriendo de una vaina que multiplica la velocidad de la señal, y ese recubrimiento avanza también de atrás hacia delante. La conexión existe mucho antes de ser rápida, y una decisión que llega tarde es como no llegar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que alguien sea brillante en clase y desastroso decidiendo no es una contradicción de carácter: son dos circuitos con calendarios distintos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Aprenden más deprisa que un adulto, y por el mismo motivo se enganchan más deprisa",
+      },
+      {
+        b: "texto",
+        texto:
+          "La adolescencia es el mejor momento de la vida para aprender casi cualquier cosa, y eso tiene una base física. Las conexiones entre neuronas se forman y se refuerzan con mucha más facilidad que en un cerebro adulto, de modo que una lengua, un instrumento o un deporte se instalan a una velocidad que después ya no se repite.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa misma facilidad tiene un reverso que el libro subraya una y otra vez. Cualquier sustancia o conducta que produzca recompensa se graba con la misma eficacia con la que se graba el vocabulario de un idioma, y por eso una adicción iniciada a los quince años se instala antes, más profundamente y con más recaídas que la misma empezada a los treinta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso se suma un proceso llamado poda. El cerebro llega a la adolescencia con muchísimas más conexiones de las que va a conservar, y durante esos años elimina las que no se usan y refuerza las que sí. Lo que se practica se queda y lo que no se practica desaparece, y esa selección ocurre precisamente entonces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale una consecuencia práctica que vale la pena decirle a un adolescente sin sermón: lo que dedique esos años a hacer no es una fase que después se corrija, es la configuración con la que va a salir. No porque nada se pueda aprender después, sino porque después cuesta bastante más.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que se practica en esos años se queda y lo que no, se poda. Nada de eso es irreversible después, pero después cuesta mucho más.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No trasnochan por rebeldía: su reloj interno se ha desplazado dos horas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos más útiles del libro trata de algo que en casi todas las casas se interpreta como un conflicto de disciplina. Al llegar la pubertad, el reloj biológico se retrasa: la melatonina, la hormona que induce el sueño, empieza a segregarse aproximadamente dos horas más tarde que en un niño o en un adulto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso significa que un adolescente al que se manda a la cama a las once no está desobedeciendo cuando sigue despierto: fisiológicamente todavía no tiene sueño, igual que un adulto no lo tiene a las nueve de la noche. Y su necesidad de sueño no ha bajado; sigue estando en torno a nueve horas, más que la de sus padres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema aparece con el despertador. Si el cuerpo pide dormir de medianoche a nueve y el instituto empieza a las ocho, el resultado es una privación crónica de sueño de dos o tres horas diarias durante años, y esa privación se manifiesta como irritabilidad, malas notas, impulsividad y bajo estado de ánimo, que es exactamente el cuadro que se atribuye a la edad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La recomendación que Jensen defiende no es individual sino de organización: retrasar la hora de entrada. La academia estadounidense de pediatría recomendó en 2014 que la enseñanza secundaria no empezara antes de las ocho y media, y donde se ha aplicado se han medido mejoras en asistencia, en notas y en accidentes de tráfico juveniles.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si le cuesta dormirse a las once y levantarse a las siete, no está desobedeciendo: su reloj se ha movido dos horas y el despertador no.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Evalúan el riesgo igual que un adulto, y cambian de conducta solo cuando hay amigos mirando",
+      },
+      {
+        b: "texto",
+        texto:
+          "La creencia extendida es que los adolescentes se meten en líos porque no calculan bien el peligro. Cuando se les pregunta en frío, resulta falso: estiman las probabilidades de que algo salga mal de manera parecida a los adultos, y a veces las exageran. El problema no está en el cálculo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El experimento que mejor lo demuestra es un simulador de conducción. Se pidió a adolescentes y a adultos que condujeran solos y después con amigos observando desde la misma sala. Los adultos condujeron igual en las dos condiciones. Los adolescentes, con público, aceleraron más, se saltaron más semáforos en ámbar y asumieron bastantes más riesgos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación que da Jensen es que en esa etapa la aprobación del grupo activa el sistema de recompensa con una intensidad enorme, así que el cálculo no cambia pero el valor del premio sí. Ganar admiración delante de tres amigos pesa en ese momento más que la probabilidad de estrellarse, y esa comparación es la que decide.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale un consejo concreto y más útil que cualquier charla. Advertirle de los peligros sirve poco, porque ya los conoce; lo que sí cambia el resultado es intervenir sobre la situación: cuántos van en el coche, a qué hora se vuelve, quién conduce. La conducta depende del contexto mucho más que de la información.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Explicarle el peligro sirve poco porque ya lo sabe. Lo que cambia el resultado es cambiar la situación: cuántos van, a qué hora y quién conduce.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que el libro dice del cannabis es serio, y su dato más citado se puso en duda al año siguiente",
+      },
+      {
+        b: "texto",
+        texto:
+          "Jensen dedica un capítulo firme al cannabis, y su argumento no depende de ninguna moral. Sostiene que un cerebro en construcción, con receptores implicados en la formación de conexiones, es más vulnerable a una sustancia que actúa precisamente sobre ese sistema, y que empezar pronto y consumir mucho no equivale a hacerlo de adulto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El dato que usa procede de un estudio neozelandés que siguió durante décadas a más de mil personas nacidas en la misma ciudad. Publicado en 2012, encontró que quienes habían empezado a consumir de forma habitual en la adolescencia y habían seguido durante años mostraban a los treinta y ocho una caída media de unos ocho puntos de cociente intelectual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese resultado se difundió por todas partes, y al año siguiente de publicarse este libro apareció una réplica seria. Un estudio con casi tres mil gemelos comparó a hermanos que consumían con hermanos que no, lo que permite descontar el efecto de la familia y del entorno, y no encontró una caída atribuible al consumo una vez controlado eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión honrada hoy es intermedia y conviene decirla así. La asociación entre consumo adolescente intenso y peores resultados existe y está bien documentada; cuánto de esa asociación es causa directa de la sustancia y cuánto proviene de las circunstancias que llevan a consumir a esa edad sigue sin estar resuelto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que dos cosas aparezcan juntas en los datos no dice cuál causa cuál. Los estudios con gemelos existen precisamente para separar eso, y aquí lo separaron.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Mientras el lóbulo frontal termina de llegar, alguien tiene que hacer de lóbulo frontal",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte práctica del libro parte de una imagen que Jensen repite: durante unos años, un adulto cercano tiene que prestarle al adolescente la función que a este todavía le falta. No decidir por él en todo, sino aportar la parte que su cerebro aún no fabrica sola: prever el paso siguiente y frenar a tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la primera recomendación, que es sobre el momento. Las consecuencias tienen que ser inmediatas y previsibles para que funcionen, porque un castigo dentro de tres semanas no conecta con la conducta en un cerebro que valora lo inmediato por encima de todo. Un límite claro aplicado hoy vale más que una sanción grande aplicada tarde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es sobre la forma. Jensen insiste en explicar el motivo de cada norma, aunque parezca que no escuchan, porque el razonamiento sí se registra y aparece después. Y en no discutir en caliente: cuando la respuesta emocional está disparada, la corteza que tendría que moderarla es justamente la que aún no está terminada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la tercera es sobre las prioridades. Si hubiera que elegir una sola cosa sobre la que insistir, dice, sería el sueño, porque afecta al ánimo, a las notas, al control de impulsos y al riesgo de accidentes a la vez. Antes de discutir el rendimiento escolar conviene mirar a qué hora se está durmiendo de verdad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si solo puedes insistir en una cosa, insiste en el sueño. Afecta al ánimo, a las notas, a los impulsos y a los accidentes a la vez.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que el cerebro madura por zonas y en un orden concreto, que la zona del freno es la última en llegar mientras la de la recompensa ya funciona a pleno rendimiento, que esa misma plasticidad hace que aprendan y se enganchen más deprisa, y que su reloj biológico se desplaza dos horas en la pubertad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un cambio de interpretación con consecuencias domésticas inmediatas. Buena parte de lo que en una casa se vive como desafío, vagancia o falta de respeto tiene una explicación fisiológica, y saberlo no elimina las normas: cambia el tono con el que se aplican y a qué merece la pena dedicar la energía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todo lo que interpretas como desafío tiene una explicación de calendario. Eso no quita las normas: cambia dónde gastas la energía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. En algunos capítulos, sobre todo los de pantallas y multitarea, pasa de la asociación a la causa con más agilidad de la que permiten los datos. Está escrito para un lector estadounidense y parte de sus recomendaciones —horarios escolares, edad de conducir— no se trasladan. Y su tesis más difundida, la de que el cerebro no está terminado hasta los veinticinco, se ha convertido en un tópico que sugiere una fecha y un interruptor donde solo hay un proceso gradual y muy desigual entre personas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después reparte razones. Su dato estrella sobre el cannabis quedó en discusión al año siguiente por el estudio con gemelos, y ahí sigue. En cambio, su recomendación sobre los horarios escolares pasó de consejo a ley: California aprobó en 2019 la primera norma estatal que prohíbe empezar la secundaria antes de las ocho y media, en vigor desde 2022. Y la idea de fondo del libro lleva años teniendo consecuencias fuera de la pediatría: los tribunales estadounidenses la han citado para excluir a los menores de la pena de muerte y de la cadena perpetua obligatoria.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cerebro-adolescente": CEREBRO_ADOLESCENTE,
   "intestino-feliz": INTESTINO_FELIZ,
   "mil-soles": MIL_SOLES,
   "tener-o-ser": TENER_O_SER,

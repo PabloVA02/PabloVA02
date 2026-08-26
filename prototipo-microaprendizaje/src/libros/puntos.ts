@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cerebro-adolescente": [
+    "por qué el sistema de recompensa está listo años antes que el freno",
+    "que la misma facilidad para aprender vale para engancharse",
+    "qué le pasa al reloj biológico de un adolescente en la pubertad",
+    "que evalúan el riesgo bien y cambian de conducta con público delante",
+    "por qué cambiar la situación funciona mejor que explicar el peligro",
+  ],
+
   "intestino-feliz": [
     "por qué la pared del colon se alimenta de un residuo bacteriano",
     "que hay pérdidas que no se corrigen volviendo a hacerlo bien",
