@@ -4851,8 +4851,8 @@ button {
   line-height: 1.42;
   font-weight: 560;
   color: rgba(242, 236, 225, 0.62);
-  text-wrap: balance;
 }
+.suscri-texto span { display: inline-block; white-space: nowrap; }
 
 /* Un solo botón en toda la tarjeta, así que puede permitirse ser el único
    relleno macizo del perfil. El degradado es de un punto y medio de luz —de

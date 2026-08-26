@@ -186,8 +186,14 @@ export default function App() {
       Los dos arrancan con historial de ejemplo, como la racha: un perfil a
       cero no enseña ni el arco lleno a medias ni el contador subiendo, que es
       justo lo que hay que ver. Al leer suben de verdad. */
-  /** Si ha pasado por la caja. Ver `SUSCRITO_INICIAL`. */
-  const [suscrito, setSuscrito] = useState(SUSCRITO_INICIAL);
+  /* En qué punto está con el pago. Son tres y no dos porque el aviso del
+     perfil le habla distinto a cada uno: al que nunca ha pagado hay que
+     decirle qué se lleva, y al que canceló —que ya lo sabe— que su sitio
+     sigue guardado. Ver `Suscripcion.tsx`. */
+  const [pago, setPago] = useState<"nuevo" | "cancelado" | "activo">(
+    SUSCRITO_INICIAL ? "activo" : "nuevo",
+  );
+  const suscrito = pago === "activo";
   const [minutosHoy, setMinutosHoy] = useState(6.5);
   const [meta, setMeta] = useState(15);
   const [minutosTotales, setMinutosTotales] = useState(1847);
@@ -345,7 +351,7 @@ export default function App() {
               /* Aquí se paga, y aquí se enciende la suscripción. Es el único
                  sitio de la app donde se hace, igual que en la de verdad. */
               onListo={() => {
-                setSuscrito(true);
+                setPago("activo");
                 setPantalla("inicio");
               }}
             />
@@ -400,6 +406,9 @@ export default function App() {
               key="perfil"
               racha={RACHA}
               suscrito={suscrito}
+              /* A quien canceló se le habla distinto: ya sabe lo que había.
+                 Ver `Suscripcion.tsx`. */
+              estadoPago={pago === "cancelado" ? "cancelado" : "nuevo"}
               /* A la caja, que es donde se paga de verdad. La pantalla de
                  «oferta» es el regalo con descuento y no da de alta. */
               onSuscribirse={() => setPantalla("pago")}
@@ -440,6 +449,15 @@ export default function App() {
               nombre={nombre}
               racha={RACHA}
               prefs={preferencias}
+              suscrito={suscrito}
+              /* La hoja de «Gestionar suscripción» ya tenía un botón de
+                 cancelar que solo enseñaba un aviso. Ahora cancela de verdad,
+                 y así el aviso del perfil se puede ver en sus dos versiones
+                 sin tocar el código: pagas, cancelas, y cambia. */
+              onCancelar={() => {
+                setPago("cancelado");
+                setPantalla("perfil");
+              }}
               /* El nombre y el objetivo viven aquí arriba: los ajustes los
                  editan y el perfil y la pantalla de inicio los reflejan sin
                  tener que recargar. */

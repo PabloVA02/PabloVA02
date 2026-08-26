@@ -19,6 +19,13 @@ import { GlyphClose } from "./glyphs";
    AVISO y no otra sección de la columna, y es la única pieza del perfil que
    se lee así. Se cierra con la equis, igual que la suya.
 
+   DOS VARIANTES, PORQUE SON DOS PERSONAS DISTINTAS. Al que nunca ha pagado
+   hay que decirle qué se lleva; al que canceló, ya lo sabe —lo ha tenido— y
+   lo que hay que decirle es que su sitio sigue guardado. Prometerle «libros
+   ilimitados» a quien acaba de dejar de pagarlos es no haberse enterado de
+   nada. Cambian el símbolo, las dos líneas del titular, el lema y el botón;
+   la caja es la misma.
+
    LO QUE DICE, Y LO QUE NO. La suya dice «sigue hoy con tu crecimiento
    personal y evita obstáculos en tus metas», que no significa nada y podría
    estar en cualquier app de cualquier cosa. La primera nuestra tampoco valía,
@@ -31,12 +38,12 @@ import { GlyphClose } from "./glyphs";
    libros. Los shorts tampoco son «historias ilustradas» aquí: son
    CURIOSIDADES, que es lo que son cuando alguien decide si le compensa pagar.
 
-   Cuatro renglones y ni uno más:
-
-     Libros ilimitados            lo que se compra
-     y curiosidades cada día      lo que viene de regalo
-     Sin anuncios y sin esperas   las dos molestias que se quitan
-     Probar 7 días gratis         y lo que hay que tocar
+   Y el lema del cuerpo es lo que Pablo pidió al ver la captura otra vez: una
+   frase que venda, no una lista de lo que incluye la tarifa. La suya —«sigue
+   hoy con tu crecimiento personal y evita obstáculos en tus metas»— vende sin
+   decir nada. La nuestra vende diciendo algo que se puede comprobar: veinte
+   minutos es lo que dura un resumen a la velocidad de la voz, contado en
+   `minutosDePaginas()`.
 
    TODO DEL MISMO COLOR, como la tarjeta de la cuenta que tiene justo encima:
    la banda, el titular de abajo y el botón son el mismo ocre. La suya usa
@@ -44,14 +51,50 @@ import { GlyphClose } from "./glyphs";
    para una sola idea.
    ========================================================================== */
 
-export function Suscripcion({ onSuscribirse }: { onSuscribirse?: () => void }) {
+/** Quién está mirando la tarjeta. Sale del estado de la app. */
+export type EstadoPago = "nuevo" | "cancelado";
+
+const TEXTOS: Record<EstadoPago, {
+  sello: string;
+  alto: string;
+  bajo: string;
+  lema: string;
+  boton: string;
+}> = {
+  nuevo: {
+    sello: "📚",
+    alto: "Libros ilimitados",
+    bajo: "y curiosidades cada día",
+    lema: "Un libro entero cada día,|en veinte minutos.",
+    boton: "Empezar prueba gratuita",
+  },
+  cancelado: {
+    /* Un marcapáginas y no un candado: al que canceló no se le cierra nada,
+       se le guarda el sitio. El dibujo tiene que decir eso mismo. */
+    sello: "🔖",
+    alto: "Tu suscripción",
+    bajo: "está cancelada",
+    lema: "Te guardamos la racha, los apuntes|y todo lo que dejaste a medias.",
+    boton: "Recuperar mi suscripción",
+  },
+};
+
+export function Suscripcion({
+  estado = "nuevo",
+  onSuscribirse,
+}: {
+  estado?: EstadoPago;
+  onSuscribirse?: () => void;
+}) {
   const [visible, setVisible] = useState(true);
+  const t = TEXTOS[estado];
 
   return (
     <AnimatePresence initial={false}>
       {visible && (
         <motion.section
           className="suscri"
+          key={estado}
           initial={{ opacity: 0, y: 18 }}
           animate={{ opacity: 1, y: 0, height: "auto", marginTop: 14 }}
           exit={{ opacity: 0, height: 0, marginTop: 0, transition: { duration: 0.28 } }}
@@ -71,11 +114,11 @@ export function Suscripcion({ onSuscribirse }: { onSuscribirse?: () => void }) {
               animate={{ scale: 1, opacity: 1, rotate: 0 }}
               transition={{ ...spring, delay: 0.3 }}
             >
-              📚
+              {t.sello}
             </motion.span>
             <h2 className="suscri-titulo">
-              Libros ilimitados
-              <b>y curiosidades cada día</b>
+              {t.alto}
+              <b>{t.bajo}</b>
             </h2>
 
             {/* La equis, como la suya. Se cierra por esta sesión y ya: quien
@@ -91,14 +134,21 @@ export function Suscripcion({ onSuscribirse }: { onSuscribirse?: () => void }) {
           </div>
 
           <div className="suscri-cuerpo">
-            <p className="suscri-texto">Sin anuncios y sin esperas.</p>
+            {/* El lema va partido por la barra en piezas que no se rompen por
+                dentro: si no cabe en un renglón, baja por donde tiene sentido
+                y no por «cada / día». */}
+            <p className="suscri-texto">
+              {t.lema.split("|").map((trozo, i) => (
+                <span key={i}>{trozo}{i === 0 ? " " : ""}</span>
+              ))}
+            </p>
             <motion.button
               className="suscri-boton"
               type="button"
               onClick={onSuscribirse}
               whileTap={{ scale: 0.975 }}
             >
-              Probar 7 días gratis
+              {t.boton}
             </motion.button>
           </div>
         </motion.section>

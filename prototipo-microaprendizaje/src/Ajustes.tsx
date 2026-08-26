@@ -69,12 +69,18 @@ export function Ajustes({
   nombre,
   racha = 3,
   prefs: almacen,
+  suscrito = true,
+  onCancelar,
   onNombre,
   onObjetivo,
   onVolver,
 }: {
   nombre: string;
   racha?: number;
+  /** Si está pagando ahora mismo. Manda en la hoja de la suscripción. */
+  suscrito?: boolean;
+  /** Cancela de verdad. Ver la hoja de «Gestionar suscripción». */
+  onCancelar?: () => void;
   /* El almacén lo crea la app y no esta pantalla. Es lo que hace que el tema
      y la escala de texto sigan aplicados al salir de aquí: si el hook viviera
      dentro de Ajustes, sus efectos se desmontarían con la pantalla y la app
@@ -103,7 +109,12 @@ export function Ajustes({
     {
       rotulo: "Suscripción",
       filas: [
-        { id: "suscripcion", nombre: "Gestionar suscripción", Icono: IcoCohete, valor: "Prueba, 7 días" },
+        {
+          id: "suscripcion",
+          nombre: "Gestionar suscripción",
+          Icono: IcoCohete,
+          valor: suscrito ? "Prueba, 7 días" : "Sin suscripción",
+        },
       ],
     },
     {
@@ -287,7 +298,7 @@ export function Ajustes({
       {/* --- Las hojas. Una por fila, con el control real dentro. --- */}
 
       <Hoja abierta={panel === "suscripcion"} titulo="Tu suscripción" onCerrar={() => setPanel(null)}>
-        <Suscripcion onAviso={avisar} />
+        <Suscripcion suscrito={suscrito} onAviso={avisar} onCancelar={onCancelar} />
       </Hoja>
 
       <Hoja
@@ -753,28 +764,50 @@ function CampoTexto({
   );
 }
 
-function Suscripcion({ onAviso }: { onAviso: (t: string) => void }) {
+/* La hoja del plan. El botón de cancelar enseñaba un aviso y no hacía nada;
+   ahora cancela de verdad, que es lo que hace que el aviso del perfil se pueda
+   ver en sus dos versiones sin tocar el código.
+
+   La lista decía «Los 173 resúmenes», que era el catálogo de hace medio año.
+   No se ha actualizado el número: se ha quitado. Aquí y en el aviso del perfil
+   se vende lo mismo y con las mismas palabras —libros, no resúmenes—, y una
+   cifra escrita a mano en una pantalla de ventas es una cifra que algún día
+   miente. */
+function Suscripcion({
+  suscrito,
+  onAviso,
+  onCancelar,
+}: {
+  suscrito: boolean;
+  onAviso: (t: string) => void;
+  onCancelar?: () => void;
+}) {
   return (
     <>
-      <div className="hoja-plan">
-        <span className="hoja-plan-sello">Activa</span>
-        <p className="hoja-plan-titulo">Prueba gratuita</p>
-        <p className="hoja-plan-pie">Quedan 7 días. Después, 4,99 € al mes.</p>
+      <div className="hoja-plan" data-activa={suscrito}>
+        <span className="hoja-plan-sello">{suscrito ? "Activa" : "Cancelada"}</span>
+        <p className="hoja-plan-titulo">{suscrito ? "Prueba gratuita" : "Sin suscripción"}</p>
+        <p className="hoja-plan-pie">
+          {suscrito
+            ? "Quedan 7 días. Después, 4,99 € al mes."
+            : "Un libro al día, y el resto bajo llave."}
+        </p>
         <div className="hoja-plan-barra">
           <motion.span
             initial={{ scaleX: 0 }}
-            animate={{ scaleX: 0.3 }}
+            animate={{ scaleX: suscrito ? 0.3 : 0 }}
             transition={{ ...springSoft, delay: 0.1 }}
           />
         </div>
       </div>
       <div className="hoja-lista">
         {[
-          ["Los 173 resúmenes", "Sin límite de lecturas"],
+          ["Libros ilimitados", "Sin esperar a mañana"],
+          ["Curiosidades cada día", "Las 761, ilustradas"],
           ["Leer sin conexión", "Descarga completa"],
           ["Sin anuncios", "Nunca los hubo"],
         ].map(([n, p]) => (
-          <div key={n} className="hoja-opcion" data-activa="true">
+          <div key={n} className="hoja-opcion" data-activa={suscrito ? "true" : "false"}>
             <span className="hoja-opcion-texto">
               <span className="hoja-opcion-nombre">{n}</span>
               <span className="hoja-opcion-pie">{p}</span>
@@ -782,9 +815,17 @@ function Suscripcion({ onAviso }: { onAviso: (t: string) => void }) {
           </div>
         ))}
       </div>
-      <button className="hoja-secundario" onClick={() => onAviso("En el prototipo no hay cobro real")}>
-        Cancelar suscripción
-      </button>
+      {suscrito && (
+        <button
+          className="hoja-secundario"
+          onClick={() => {
+            if (onCancelar) onCancelar();
+            else onAviso("En el prototipo no hay cobro real");
+          }}
+        >
+          Cancelar suscripción
+        </button>
+      )}
     </>
   );
 }

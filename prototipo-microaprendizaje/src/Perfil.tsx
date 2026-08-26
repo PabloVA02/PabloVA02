@@ -4,7 +4,7 @@ import { Llama } from "./Racha";
 import { MetaDiaria } from "./Meta";
 import { Crecimiento, type Semana } from "./Crecimiento";
 import { Cuenta } from "./Cuenta";
-import { Suscripcion } from "./Suscripcion";
+import { Suscripcion, type EstadoPago } from "./Suscripcion";
 import { GlyphClose, GlyphGuardar, GlyphHeart, GlyphTick } from "./glyphs";
 import { spring, springPop, springSoft } from "./motion";
 
@@ -72,6 +72,8 @@ type Props = {
   racha: number;
   /** Sin esto no hay tarjeta de pase. Ver arriba. */
   suscrito: boolean;
+  /** Y con esto la tarjeta sabe a quién le habla. Ver `Suscripcion.tsx`. */
+  estadoPago?: EstadoPago;
   /** A dónde lleva el botón del aviso de suscripción: a la caja. */
   onSuscribirse?: () => void;
   /** La racha más larga que ha tenido. Ver la tarjeta de racha. */
@@ -93,6 +95,7 @@ type Props = {
 export function Perfil({
   racha,
   suscrito,
+  estadoPago,
   onSuscribirse,
   record,
   historial,
@@ -146,7 +149,7 @@ export function Perfil({
             gordo —a quien ya paga le estábamos vendiendo lo que ya tiene—, y
             una pantalla que le pide dinero a un cliente es una pantalla que
             ese cliente aprende a no mirar. Ver `Suscripcion.tsx`. */}
-        {!suscrito && <Suscripcion onSuscribirse={onSuscribirse} />}
+        {!suscrito && <Suscripcion estado={estadoPago} onSuscribirse={onSuscribirse} />}
 
         {/* La racha: lo primero que se mira y lo único que se pierde */}
         <motion.section
