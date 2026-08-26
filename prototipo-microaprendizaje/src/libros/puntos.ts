@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "informacion-gleick": [
+    "por qué en un canal malo se habla más largo y no más claro",
+    "qué hace que un mensaje informe y otro no diga nada",
+    "por qué comprimir y proteger un mensaje son la misma operación al revés",
+    "cuánto cuesta olvidar un dato, medido en energía",
+    "qué pregunta dejó fuera a propósito la teoría que lo hizo todo posible",
+  ],
+
   "viaje-del-escritor": [
     "las tres preguntas que contesta toda historia que funciona",
     "por qué un personaje no es un tipo sino una función que cumple",

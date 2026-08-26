@@ -109895,7 +109895,301 @@ const VIAJE_DEL_ESCRITOR: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La información, de James Gleick (2011), en ocho páginas.
+
+   Ciencia, así que tercera persona.
+
+   El libro tiene un centro clarísimo —Shannon, 1948— y dos extremos mucho más
+   flojos. La conclusión lo dice: el último tercio es el que peor ha aguantado, y
+   en cambio el capítulo del demonio de Maxwell se confirmó en un laboratorio un
+   año después de publicarse.
+   -------------------------------------------------------------------------- */
+
+const INFORMACION_GLEICK: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Gleick sostiene que la información no era un concepto hasta 1948, y que desde entonces lo explica casi todo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Este libro cuenta cómo una palabra corriente se convirtió en una magnitud física. Antes de 1948, información significaba lo que significa en una conversación: noticias, datos, algo que alguien te cuenta. Después de 1948 pasó a ser una cantidad que se mide, se transmite, se degrada y cuesta energía borrar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "James Gleick es periodista científico y ya había hecho algo parecido con la teoría del caos en 1987. Publicó éste en 2011 con un subtítulo que anuncia sus tres partes: una historia, una teoría y una inundación. La historia va de los tambores africanos al telégrafo; la teoría es Claude Shannon; la inundación es el presente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tesis es que la información no es una metáfora prestada a otras disciplinas: es el material del que están hechos los genes, los mensajes, la termodinámica y la memoria, y por eso la misma matemática sirve para un cable telefónico, para una molécula de ADN y para un frigorífico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un dato que sitúa la escala del cambio mejor que cualquier adjetivo: la palabra bit, que hoy está en la etiqueta de cualquier aparato, se imprimió por primera vez en aquel artículo de 1948. La unidad con la que se mide medio mundo tiene menos de ochenta años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue son los tambores del Congo, la idea de 1948 que lo cambió todo, la medida que salió de ella, la máquina que no llegó a construirse en el siglo XIX, el experimento mental que ata la información a la física y el problema de tener demasiada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una palabra corriente puede convertirse en una magnitud física, y cuando ocurre cambia de sitio media docena de ciencias.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los tambores del Congo resolvieron un problema de ingeniería sin saber que era de ingeniería",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con los tambores parlantes del África central, y no como adorno exótico: es el mejor ejemplo del asunto entero. Los misioneros europeos que llegaron al Congo en el siglo XIX se encontraron con que un mensaje podía recorrer cien kilómetros en un rato saltando de aldea en aldea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante décadas se creyó que era un código, algo así como el morse. No lo era. El misionero John Carrington, que vivió allí y publicó un estudio en 1949, explicó cómo funciona: las lenguas de la zona son tonales, cada sílaba lleva un tono alto o bajo, y el tambor reproduce esos tonos. El tambor no traduce el idioma: lo habla, quitándole todo menos la melodía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí aparece el problema. Al quitar las consonantes y las vocales, muchísimas palabras distintas quedan con el mismo patrón de tonos. La solución que encontraron es la que interesa: no dicen la palabra suelta, dicen una fórmula larga alrededor de ella. Para decir luna, el tambor dice algo que significa «la luna mira hacia la tierra».",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso tiene nombre en teoría de la información y es exactamente lo que Shannon formalizaría un siglo después: redundancia. Cuando un canal es malo, se manda más de lo necesario para que el receptor pueda reconstruir lo que falta. Aquellos tambores llevaban generaciones aplicando el principio central de una teoría que aún no existía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando el canal es malo no se habla más claro: se habla más largo, para que el que escucha pueda reconstruir lo que se pierda.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Shannon resolvió el problema quitándole al mensaje lo único que a todo el mundo le importaba",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1948, un ingeniero de los laboratorios Bell llamado Claude Shannon publicó un artículo titulado <em>Una teoría matemática de la comunicación</em>. Tenía treinta y dos años y llevaba una década pensando en cómo mandar señales por un cable sin que se degraden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su primer movimiento es el que hace posible todo lo demás, y es contraintuitivo: declara que el significado del mensaje es irrelevante para el problema. Escribe que los aspectos semánticos de la comunicación no tienen nada que ver con el problema de ingeniería, y a partir de ahí no vuelve a mencionarlos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Parece una renuncia y es lo contrario. Mientras la información fuera «lo que alguien quiere decir», no había manera de medirla: dos frases con el mismo número de letras pueden importar muchísimo o nada. Al separar la señal del sentido, Shannon se queda con algo que sí se puede contar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene notar además dónde estaba trabajando. Los laboratorios Bell eran el departamento de investigación de la compañía telefónica de Estados Unidos, y el problema que le pagaban por resolver era de negocio: cuántas conversaciones caben en un cable y cómo evitar que lleguen sucias. La teoría más abstracta del siglo salió de una pregunta de costes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que se cuenta es la sorpresa. Un mensaje lleva tanta información como incertidumbre elimina en quien lo recibe. Si alguien pregunta si mañana saldrá el sol y se le contesta que sí, la respuesta no lleva casi nada, porque ya se sabía. Si la respuesta es que no, lleva muchísima. Lo esperable pesa poco; lo improbable, mucho.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un mensaje informa en la medida en que podría haber sido otro. Lo que no podía ser de otra manera no informa nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El bit es la unidad más pequeña que existe: la diferencia entre dos posibilidades",
+      },
+      {
+        b: "texto",
+        texto:
+          "De esa definición sale la unidad. Si un mensaje reduce la incertidumbre a la mitad —de dos posibilidades a una—, lleva un bit. La palabra la propuso el estadístico John Tukey, colega de Shannon en los Bell, como contracción de dígito binario, y aparece impresa por primera vez en aquel artículo de 1948.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con esa unidad se pueden medir cosas que antes no se podían comparar. Una letra del alfabeto español lleva algo menos de cinco bits si todas fueran igual de probables, pero no lo son: la e es muchísimo más frecuente que la equis, y una q casi siempre va seguida de una u. Contando esas regularidades, Shannon calculó que el inglés escrito es redundante en más de la mitad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa cifra explica dos cosas de golpe. Que se puedan comprimir los ficheros, porque comprimir es quitar redundancia. Y que se pueda leer un texto con la mitad de las letras borradas, porque esa misma redundancia es la que protege el mensaje contra el ruido. Comprimir y proteger son operaciones opuestas, y hay que elegir cuánto de cada una.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Shannon además demostró algo que en su momento pareció increíble: que todo canal tiene una capacidad máxima, y que por debajo de ella se puede transmitir con un margen de error tan pequeño como se quiera, por muy ruidoso que sea el canal. No dijo cómo hacerlo, solo que se podía. Los ingenieros tardaron cuarenta años en acercarse a ese límite.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Comprimir y proteger son la misma operación al revés: una quita lo repetido y la otra lo añade a propósito.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ada Lovelace vio para qué servía una máquina que nunca llegó a existir",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte histórica del libro tiene su mejor capítulo un siglo antes de Shannon, en Londres. Charles Babbage llevaba décadas intentando construir máquinas de calcular, y hacia 1837 diseñó una a la que llamó máquina analítica: engranajes, tarjetas perforadas, una unidad de cálculo y una memoria separadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No se construyó nunca. Babbage se quedó sin financiación, cambiaba de diseño constantemente y la mecánica de precisión de su época no daba para tanto. Lo que sobrevivió fueron los planos y unas notas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esas notas son de Ada Lovelace, hija de Byron y matemática, que en 1843 tradujo al inglés un artículo italiano sobre la máquina y le añadió comentarios propios que ocupaban más que el original. En el último, conocido como Nota G, escribió el procedimiento paso a paso para que la máquina calculara una serie de números, con sus bucles y su reutilización de variables.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene precisar el mérito, porque se discute mucho. Lovelace no diseñó la máquina ni inventó las tarjetas perforadas, que venían de los telares. Lo que hizo fue entender, sobre un aparato que solo existía en un plano, que la diferencia entre calcular y computar es que lo segundo no depende de que los símbolos signifiquen números.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y escribió también la frase que a Gleick le interesa de verdad: que la máquina podría manipular cualquier cosa cuyas relaciones fundamentales pudieran expresarse en símbolos, y no solo números; que podría, por ejemplo, componer música. Es la primera vez que alguien dice en voz alta que una máquina de cálculo es en realidad una máquina de símbolos, y lo dijo sobre un aparato que no existía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo difícil no es construir la máquina: es darse cuenta de qué clase de cosa es antes de que exista.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Borrar un dato cuesta energía, y eso convierte la información en algo físico",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más raro del libro empieza con un acertijo de 1867. James Clerk Maxwell imaginó un demonio diminuto vigilando una puertecita entre dos cámaras de gas: deja pasar las moléculas rápidas hacia un lado y las lentas hacia el otro, y sin gastar trabajo consigue que un lado se caliente y el otro se enfríe, violando la segunda ley de la termodinámica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El acertijo aguantó sesenta años. En 1929, el físico húngaro Leó Szilárd dio el primer paso: el demonio tiene que MEDIR qué molécula viene, y esa medición no es gratis. La física empezaba a sospechar que saber algo tiene un coste.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La respuesta completa llegó en 1961, y la dio Rolf Landauer, físico de IBM. Demostró que medir puede ser barato, pero que BORRAR no lo es: cada vez que un sistema olvida un bit para hacer sitio, tiene que disipar una cantidad mínima de calor, calculable. El demonio tiene memoria finita, así que antes o después borra, y ahí paga lo que había ganado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso es lo que ata la información a la física. No es una analogía: la entropía de Shannon y la entropía de la termodinámica son la misma magnitud, con la misma fórmula, y por eso un ordenador se calienta. Y hay un dato posterior al libro que le da la razón: en 2012, un año después de publicarse, un equipo dirigido por Antoine Bérut midió en el laboratorio ese calor mínimo al borrar un bit, y salió lo que Landauer había calculado cincuenta y un años antes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Recordar es barato. Lo que cuesta energía, y es un coste físico medido, es olvidar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Resuelto el problema de transmitir, aparece el de elegir" },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro cambia de asunto. Durante dos siglos el problema fue que la información era escasa y cara de mover; una vez resuelto eso, aparece el contrario, y Gleick lo llama la inundación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su observación de fondo es buena y es de teoría, no de queja generacional: la fórmula de Shannon mide cuánta información hay, no cuánta vale. Al haber declarado el significado fuera del problema, la teoría no tiene nada que decir sobre qué merece leerse, y esa pregunta, que antes resolvía la escasez, ahora hay que contestarla de otra manera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gleick recuerda además que la sensación de exceso no es nueva. Ya en el siglo XVII hubo quien se quejó de que se imprimían demasiados libros para poder leerlos, y la respuesta de entonces fueron los índices, los catálogos y las enciclopedias: herramientas para no leerlo todo. Lo que cambia hoy es la escala, no la naturaleza del apuro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y da una vuelta más que resulta útil: en un entorno de abundancia, la habilidad valiosa deja de ser conseguir información y pasa a ser descartarla. Los índices y los catálogos del siglo XVII no servían para leer más, servían para leer menos con criterio, que es exactamente el problema de hoy con otro nombre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es también la parte más floja del libro y conviene decirlo aquí. Los capítulos finales —el de los memes, el del olvido, el de la computación cuántica— van sueltos, se apoyan menos en documentos y más en ensayo, y el libro termina sin cerrar la tesis con la que había empezado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La teoría que hizo posible mandarlo todo dejó fuera, a propósito, la única pregunta que importa cuando ya está todo mandado: qué vale la pena.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta cómo la información dejó de ser una palabra corriente y se convirtió en una magnitud física, y sostiene que esa magnitud es el material común de los mensajes, los genes y la termodinámica. Su centro es el artículo de Claude Shannon de 1948, y a su alrededor van los tambores parlantes del Congo, el telégrafo, Babbage y Lovelace, el demonio de Maxwell y el exceso de hoy.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es haber puesto juntas cosas que se estudian por separado y que resulta que son la misma. Que la redundancia de los tambores y la de la ortografía española son el mismo mecanismo. Que la entropía de un mensaje y la de un gas se calculan con la misma fórmula. Y que la decisión de Shannon de expulsar el significado del problema, que parece una amputación, es exactamente lo que permitió medirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. En que la tercera parte no está a la altura de la segunda. El capítulo de los memes se apoya en un concepto que la biología acabó abandonando —la revista dedicada a ese campo cerró en 2005 por falta de resultados—, el de la computación cuántica es una introducción de manual, y el del exceso de información es ensayo de opinión al lado de capítulos anteriores llenos de documentos. El libro no cierra la tesis con la que abre: llega al presente y se detiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después. Al capítulo más especulativo del libro, el del demonio de Maxwell, le dio la razón un laboratorio un año más tarde: en 2012, el equipo de Antoine Bérut midió por primera vez el calor mínimo que cuesta borrar un bit y coincidió con lo que Rolf Landauer había calculado en 1961. Es el capítulo por el que este libro merece leerse hoy, porque es la parte que se ha vuelto más cierta, no menos.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "informacion-gleick": INFORMACION_GLEICK,
   "viaje-del-escritor": VIAJE_DEL_ESCRITOR,
   "veinte-poemas": VEINTE_POEMAS,
   "biologia-creencia": BIOLOGIA_CREENCIA,

@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "informacion-gleick": "Historia y teoría",
   "viaje-del-escritor": "Las estructuras míticas para escritores",
   "biologia-creencia": "La liberación del poder de la conciencia, la materia y los milagros",
   "futuro-nuestra-mente": "El desafío científico para entender, mejorar y fortalecer nuestra mente",

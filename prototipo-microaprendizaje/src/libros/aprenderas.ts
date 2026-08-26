@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "informacion-gleick":
+    "La palabra «bit» se imprimió por primera vez en un artículo de 1948. Antes de esa fecha, información significaba lo que significa en una conversación; después pasó a ser una cantidad que se mide, se degrada y cuesta energía borrar.",
+
   "viaje-del-escritor":
     "Empezó en 1985 como un memorándum interno de siete páginas escrito por un lector de guiones de Disney. Se fotocopió, salió del estudio y acabó siendo el manual de estructura más usado del cine comercial.",
 
