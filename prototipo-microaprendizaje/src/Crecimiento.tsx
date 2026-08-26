@@ -75,12 +75,13 @@ const HUECO = 12;
 const suelo = (n: number) => MARGEN.arriba + n * (CARRIL + HUECO) + CARRIL;
 
 /** Las dos series, con su nombre y sus dos colores: `color` es el del trazo y
-    el del punto de la leyenda, y `cifra` es el del número grande, que desde el
-    26 de agosto ya no es el mismo. El orden manda en todo: cifras,
+    el del punto de la leyenda, y `cifra` es el del número grande, que es el
+    mismo tono pero más separado del otro —ver la hoja de estilos—. El orden
+    manda en todo: cifras,
  *  trazos y leyenda se recorren desde aquí y no puede descuadrarse ninguno. */
 const SERIES = [
-  { clave: "ideas" as const, rotulo: "ideas clave", color: "var(--serie-a)", cifra: "var(--verde)" },
-  { clave: "minutos" as const, rotulo: "minutos leídos", color: "var(--serie-b)", cifra: "var(--paper)" },
+  { clave: "ideas" as const, rotulo: "ideas clave", color: "var(--serie-a)", cifra: "var(--cifra-a)" },
+  { clave: "minutos" as const, rotulo: "minutos leídos", color: "var(--serie-b)", cifra: "var(--cifra-b)" },
 ];
 
 /** El lunes de la semana a la que pertenece una fecha. */

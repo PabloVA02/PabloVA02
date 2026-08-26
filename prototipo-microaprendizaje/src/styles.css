@@ -89,6 +89,18 @@
      los que Pablo ya mandó quitar de un botón: sobre el fondo casi negro se
      leía como gris sucio. */
   --verde: #4fd18b;
+  /* Y su contrario, para la semana que baja. Es el rojo de los dibujos que
+     mandó Pablo —el candado, las entradas, la mano del anti-scroll—, así que
+     ya estaba en la app antes de tener nombre. */
+  --rojo: #fa5b4a;
+
+  /* Los dos colores de las cifras del crecimiento. No son exactamente los de
+     sus líneas: el amarillo es más flojo que el oro del trazo —«un amarillo
+     más flojo», dijo Pablo— y el naranja, un punto más claro que el suyo. A
+     30 de cuerpo y en negrita, el color del trazo se ve mucho más cargado que
+     en una línea de 2,4, y las dos cifras juntas quedaban pesadas. */
+  --cifra-a: #ffd76b;
+  --cifra-b: #ff8a3d;
   --fuego-trazo: #14141f;
 
   /* Tintes derivados, para relleno amplio sin ensuciar la paleta */
@@ -5239,15 +5251,18 @@ button {
   gap: 1px;
 }
 
-/* LAS CIFRAS NO LLEVAN EL COLOR DE SU LÍNEA, y es a propósito desde el 26 de
-   agosto. Lo llevaban —oro y naranja, los mismos dos trazos de abajo— y Pablo:
-   «las líneas déjalas así, pero a los números ponles otro color». Tenía razón
-   por una cosa que no se ve hasta que están juntos: dos números grandes en dos
-   naranjas parecidos, uno al lado del otro, se leen como un número partido en
-   dos. Ahora la que sube va en el verde del crecimiento y la otra en blanco,
-   que es el color de todas las demás cifras de la pantalla. El vínculo con la
-   gráfica no se pierde: lo sostienen el rótulo y el punto de la leyenda, que
-   sí llevan el color de la serie. */
+/* CADA CIFRA EN EL COLOR DE SU SERIE, pero no exactamente en el suyo.
+
+   La primera vez llevaban el color del trazo tal cual —oro y naranja— y eso
+   estaba mal: a 30 de cuerpo y en negrita, dos colores tan cercanos, uno al
+   lado del otro, se leen como un número partido en dos. Luego pasaron a verde
+   y blanco, y eso estaba peor de otra manera: se soltaban de sus líneas.
+
+   Lo que pidió Pablo es lo que faltaba: los colores de las series, pero
+   separados de verdad. Amarillo flojo para las ideas y naranja para los
+   minutos —`--cifra-a` y `--cifra-b`—, que están al lado de sus trazos en el
+   tono pero lo bastante lejos entre sí como para que las dos cifras se lean
+   por separado. */
 .crece-cifra-n {
   font-size: 30px;
   font-weight: 780;
@@ -5263,10 +5278,12 @@ button {
   color: rgba(255, 255, 255, 0.62);
 }
 
-/* La diferencia. La flecha dice la dirección, así que el color no tiene que
-   repetirla: una subida se enciende en el verde del crecimiento y una bajada
-   sencillamente no se enciende. Bajar una semana no es un error, y pintarlo de
-   rojo —que es lo que había— lo convertía en uno. */
+/* La diferencia. Verde si sube y rojo si baja, que es lo que pidió Pablo y lo
+   que cualquiera espera de una flecha con un número al lado. Aquí llegó a
+   estar en oro para arriba y en gris para abajo, con la idea de que bajar una
+   semana no es un error y pintarlo de rojo lo convertía en uno; pero lo que
+   conseguía el gris era que una bajada no se viera, y una gráfica que sólo
+   avisa cuando las cosas van bien no sirve para mirarla. */
 .crece-delta {
   display: flex;
   align-items: center;
@@ -5277,7 +5294,7 @@ button {
   font-variant-numeric: tabular-nums;
 }
 .crece-delta[data-signo="sube"] { color: var(--verde); }
-.crece-delta[data-signo="baja"] { color: rgba(255, 255, 255, 0.46); }
+.crece-delta[data-signo="baja"] { color: var(--rojo); }
 .crece-delta[data-signo="cero"] { color: rgba(255, 255, 255, 0.36); }
 
 /* --- El lienzo ----------------------------------------------------------- */
