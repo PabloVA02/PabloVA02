@@ -104418,7 +104418,312 @@ const SPRINT_KNAPP: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Modelos, de Mark Manson (2011), en ocho páginas.
+
+   Libro práctico, registro de tú: apartado 4.7.
+
+   La sexta página trae el estudio de 2018 que midió lo que este libro
+   afirmaba en 2011 sin poder demostrarlo. Y la séptima dice quién lo
+   escribe y qué no ve: está escrito por un hombre para hombres, y sigue
+   hablando de las mujeres como categoría, que es exactamente lo que
+   reprocha al mundo del que salió.
+   -------------------------------------------------------------------------- */
+
+const MODELOS_MANSON: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Manson sostiene que gustar no es un problema de técnica, sino de estar dispuesto a que te rechacen",
+      },
+      {
+        b: "texto",
+        texto:
+          "A finales de los dos mil existía en internet una industria entera dedicada a enseñar a hombres a ligar mediante rutinas: frases memorizadas, secuencias de comportamiento, trucos para generar interés. Un libro de 2005 sobre ese mundo se convirtió en un éxito internacional y llenó los foros de gente practicando guiones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mark Manson salió de ahí. Había pasado años dentro de aquella comunidad y publicó este libro en 2011 para desmontarla desde dentro, cinco años antes del libro que lo hizo famoso. Su tesis es que aquellas técnicas funcionan a corto plazo, dejan de funcionar enseguida y producen exactamente el problema que decían resolver.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que propone en su lugar cabe en una frase incómoda: no existe manera de resultar atractivo sin arriesgarse a que te rechacen, y todo lo que se hace para evitar ese riesgo es precisamente lo que resulta poco atractivo. Cualquier técnica cuyo objetivo sea no exponerse está saboteándose a sí misma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que sostiene y lo que no ve: por qué la necesidad se nota siempre, qué significa exponerse en la práctica, por qué el rechazo es un filtro y conviene acelerarlo, por qué caer bien a todo el mundo equivale a ser invisible, qué encontró la investigación siete años después y quién escribe todo esto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su reparto de lo que se puede trabajar es de tres piezas y sirve para situarse. Una es lo que uno ha construido —trabajo, aficiones, gente alrededor—; otra es el aspecto, que se mejora bastante con higiene, ropa que siente bien y algo de ejercicio; y la tercera es cómo se comporta uno delante de alguien. Las dos primeras tardan años y la tercera se puede cambiar esta semana.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todo lo que hagas para no arriesgarte a un rechazo es lo que te vuelve menos interesante. No hay ninguna técnica que evite esa cuenta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La necesidad se nota siempre, y ninguna técnica consigue esconderla" },
+      {
+        b: "texto",
+        texto:
+          "El concepto central del libro es lo que llama necesidad, y no significa querer a alguien: significa haber puesto el propio estado de ánimo en manos de la respuesta de otro. Alguien necesitado es quien va a pasarlo mal si le dicen que no, y quien por tanto va a comportarse durante toda la conversación para evitar ese no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema es que eso se percibe. Se nota en que se está de acuerdo con todo, en que no se dice lo que se piensa, en que se sostiene una conversación que ya no interesa, en que se contesta demasiado rápido y en que se aceptan condiciones que no se aceptarían con nadie más. Nada de eso se puede disimular durante mucho rato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está el motivo por el que las técnicas no funcionan. Una rutina memorizada existe para no arriesgarse a mostrarse tal como uno es, así que su propia existencia es una prueba de la necesidad que pretendía ocultar. Lo que se transmite no es lo que se dice, sino el hecho de haber preparado algo para no exponerse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La solución que propone no es fingir desapego, que es otra técnica. Es la aburrida: tener una vida que a uno le importe de verdad —trabajo, amistades, aficiones, planes—, porque entonces un rechazo cuesta poco y esa despreocupación no hay que actuarla. Es lento y no cabe en un fin de semana, y es lo único que sostiene.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Fingir que algo no te importa es otra técnica y se nota igual. Lo único que funciona es que de verdad te importe poco porque tienes otras cosas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Exponerse significa hacer algo que pueda salir mal, y eso se puede definir con precisión",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palabra vulnerabilidad se usa tanto que ha dejado de significar nada, y el mérito del libro es darle una definición operativa. Una acción es vulnerable si puede terminar en rechazo. Si no puede, no lo es, por muy sincera que suene, y esa prueba se aplica en un segundo a cualquier conducta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los ejemplos aclaran la diferencia. Acercarse a alguien y decirle que te ha parecido interesante es vulnerable, porque puede contestar que no le interesa. Acercarse con una pregunta ingeniosa preparada de antemano no lo es, porque si sale mal siempre queda la salida de que era una broma y no iba en serio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mismo vale dentro de una relación ya empezada. Decir lo que uno quiere, pedir algo concreto, reconocer que algo ha dolido o proponer un plan a futuro son acciones vulnerables; insinuarlo, esperar a que lo adivine el otro o decirlo en tono de broma para poder retirarlo son maneras de decir lo mismo sin arriesgar nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento de Manson es que esa segunda forma no protege de nada. Quien evita el rechazo directo acaba obteniendo el mismo rechazo en diferido, después de semanas de ambigüedad, y sin la información que habría obtenido preguntando. Se ahorra un mal rato y paga con meses de incertidumbre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una comprobación rápida para saber si algo que se va a decir es vulnerable: preguntarse qué pasaría si la otra persona contestara que no. Si la respuesta es que quedaría claro que uno se ha equivocado, es vulnerable. Si la respuesta es que no pasaría nada porque siempre se puede decir que era una broma, no lo es.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una acción es vulnerable si puede acabar en rechazo. Si tienes preparada una salida por si sale mal, no estás arriesgando nada y se nota.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El rechazo no es un fracaso: es información, y conviene conseguirla cuanto antes",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cambio de perspectiva más útil del libro es sobre qué significa un no. En el marco habitual, un rechazo es una derrota que hay que minimizar; en el que propone Manson, es el resultado normal de un filtro, y el objetivo no es evitarlo sino obtenerlo pronto y con poco coste.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El razonamiento es aritmético. Dos personas que no encajan van a descubrirlo de todos modos; la única variable es cuándo. Descubrirlo en la primera conversación cuesta un rato incómodo; descubrirlo después de cuatro meses de tanteos cuesta cuatro meses, y en ese tiempo no se ha conocido a nadie más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la recomendación que más incomoda: hay que buscar activamente el momento en el que la otra persona pueda decir que no. Proponer algo concreto, decir lo que se busca, plantear una expectativa. No para provocar el rechazo, sino porque hasta que eso no ocurre no se sabe nada de lo que está pasando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y con eso desmonta la ambigüedad prolongada, que es el estado en el que mucha gente pasa años. Mantener una situación indefinida se siente como conservar una posibilidad, y lo que conserva en realidad es la incertidumbre: nadie ha dicho que sí y nadie ha dicho que no, así que no se puede avanzar ni retirarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Manson añade un matiz que evita convertir esto en presión. Buscar una respuesta clara no es insistir hasta obtener la que se quiere: es preguntar una vez, con claridad, y aceptar lo que venga. Quien vuelve a preguntar tres veces no está buscando información, está intentando cambiar una respuesta que ya tiene.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si no encajáis, lo vais a descubrir igual. Lo único que decides es si te cuesta una conversación incómoda o cuatro meses.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Quien intenta caer bien a todo el mundo acaba resultando indiferente a todo el mundo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro concepto que aporta el libro es el de polarizar. Sostiene que resulta preferible ser alguien que gusta mucho a unos pocos y no gusta nada a otros, antes que alguien que a todos parece correcto, y que la segunda posición no es neutral sino la peor de las tres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo es que caer bien a todo el mundo exige no tener opiniones incómodas, no rechazar planes, no discrepar y no mostrar preferencias fuertes. Después de quitar todo eso queda una persona sin bordes de la que no se puede decir nada, y de la que por tanto tampoco se puede decir que interese.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La aplicación práctica no consiste en ser desagradable, que es como suele malinterpretarse. Consiste en decir lo que se piensa cuando se piensa algo distinto, en reconocer los gustos propios aunque sean raros y en no fingir interés por lo que no interesa. Todo eso resta gente y concentra a la que queda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una consecuencia sobre las relaciones que empiezan a partir de ahí. Quien consigue gustar ocultando lo que es tiene que seguir ocultándolo indefinidamente, y esa es una manera muy eficaz de acabar en una relación con alguien que no lo conoce. El filtro se paga antes o se paga después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un detalle práctico que hace utilizable la idea. Polarizar no consiste en decir lo que a uno le parece polémico, sino en dejar de esconder lo que ya es: la afición rara, la música que no toca, la opinión que uno tiene sobre algo sin importancia. Casi todo el mundo tiene material de sobra sin necesidad de buscar conflicto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si gustas escondiendo lo que eres, tendrás que seguir escondiéndolo. El filtro se paga al principio o se paga durante años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Siete años después se midió lo que el libro afirmaba, y salió exactamente eso",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2011 todo esto era una opinión bien argumentada sin ningún respaldo. En 2018, un equipo dirigido por Anna Bruk publicó una serie de estudios que midieron algo muy cercano, y el resultado tiene incluso un nombre gracioso: lo llamaron el efecto del bello desastre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El hallazgo es una asimetría entre cómo juzgamos lo propio y lo ajeno. Cuando los participantes imaginaban mostrarse vulnerables —reconocer un error, pedir ayuda, declarar sus sentimientos a alguien—, lo evaluaban como debilidad y como algo que daría mala impresión. Cuando imaginaban a otra persona haciendo exactamente lo mismo, lo evaluaban como valentía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es decir: casi todo el mundo se equivoca en la misma dirección al calcular el coste de exponerse. La gente sobreestima lo mal que va a quedar y subestima lo bien que le sienta a quien lo recibe, y ese error sistemático es exactamente el que produce la ambigüedad, las insinuaciones y las conversaciones que nunca se tienen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay otro trabajo, bastante anterior, que apunta en la misma dirección. En 1997, un experimento hizo que parejas de desconocidos se hicieran una serie de treinta y seis preguntas cada vez más personales, y produjo en cuarenta y cinco minutos una sensación de cercanía mayor que la de relaciones de meses. Lo que la generaba era ir revelando cosas por turnos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquel experimento tenía además una segunda parte que suele olvidarse: después de las preguntas, las dos personas se miraban a los ojos en silencio durante cuatro minutos. Los autores no lo diseñaron para producir enamoramientos, sino para estudiar cómo se genera la cercanía, y lo que encontraron es que se genera por turnos y no por casualidad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando te imaginas exponiéndote, lo ves como debilidad; cuando ves a otro hacerlo, te parece valentía. Todo el mundo se equivoca en la misma dirección.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Está escrito por un hombre para hombres, y arrastra el defecto del mundo que critica",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir con qué se cuenta. Es un libro de un autor de veintisiete años, escrito para hombres heterosexuales, sin una sola referencia bibliográfica, y cuyas afirmaciones sobre lo que resulta atractivo proceden enteramente de su experiencia y de la de la comunidad de la que salió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y arrastra un problema que él mismo reprocha a esa comunidad. Aunque desmonta la idea de manipular, sigue hablando de las mujeres como una categoría con reacciones previsibles: lo que las mujeres valoran, cómo responden, qué las atrae. Cambia el método y conserva el marco, y ese marco es la mitad de lo que había que desmontar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un uso torcido de su idea principal que el libro casi no aborda. La sinceridad se puede usar como permiso para decir cualquier cosa desagradable escudándose en que uno es así, y eso no es exponerse: es hacerle pagar a otro el coste de la propia falta de tacto. Una línea sobre esto no habría sobrado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una ausencia que en 2011 era corriente y hoy se nota mucho: apenas hay nada sobre cómo se comprueba que la otra persona quiere lo mismo, más allá de leer señales. Un libro que trata de acercarse a desconocidos y que no dedica un capítulo entero a eso tiene un hueco donde hace falta lo contrario de un hueco.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Decir algo desagradable no es exponerse: es hacerle pagar a otro tu falta de tacto. Exponerse es arriesgar algo tuyo, no soltar algo suyo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la necesidad se percibe y no se puede disimular, que resultar atractivo exige arriesgarse a ser rechazado, que un rechazo es información y conviene obtenerla pronto, y que intentar caer bien a todo el mundo produce a alguien de quien no se puede decir nada. Las cuatro cosas se sostienen sin ninguna teoría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su aportación real fue de contexto. Salió en el momento en que una industria entera vendía guiones a hombres solos, escrito por alguien que había estado dentro, y les dijo que aquello no funcionaba y por qué. Eso, dicho desde fuera, no habría convencido a ninguno de sus lectores.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pregunta lo que quieres saber y propón lo que quieres hacer. Te ahorra meses, y el no que te dé era el mismo que ibas a recibir de todos modos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. No hay una sola fuente en todo el libro, y sus afirmaciones sobre qué resulta atractivo son la experiencia de una persona generalizada a todo el mundo. Habla de las mujeres como categoría previsible, que es la mitad del problema del que decía salir. Y su idea central, la sinceridad, se presta a un abuso evidente que apenas se menciona en ninguna página.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después le dio la razón por dos caminos distintos. El mundo que criticaba se desmoronó: el autor del libro que lo había popularizado en 2005 publicó diez años después otro desdiciéndose, y varias de sus figuras acabaron señaladas públicamente por su comportamiento. Y la parte que en 2011 era una intuición se midió en 2018 y resultó cierta: la gente juzga su propia vulnerabilidad como debilidad y la ajena como valentía, y ese error de cálculo es exactamente el que este libro pedía corregir.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "modelos-manson": MODELOS_MANSON,
   "sprint-knapp": SPRINT_KNAPP,
   "cuerpo-4-horas": CUERPO_4_HORAS,
   "dieta-ya-no-cojea": DIETA_YA_NO_COJEA,

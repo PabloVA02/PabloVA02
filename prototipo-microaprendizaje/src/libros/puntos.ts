@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "modelos-manson": [
+    "por qué la necesidad se percibe y ninguna técnica la disimula",
+    "cómo saber si algo que vas a decir arriesga de verdad",
+    "que un rechazo temprano cuesta una conversación y uno tardío cuesta meses",
+    "por qué caer bien a todo el mundo deja a alguien sin bordes",
+    "que la gente juzga su propia vulnerabilidad y la ajena al revés",
+  ],
+
   "sprint-knapp": [
     "por qué hay que elegir un solo punto antes de buscar soluciones",
     "que la gente reunida produce menos ideas y peores que separada",

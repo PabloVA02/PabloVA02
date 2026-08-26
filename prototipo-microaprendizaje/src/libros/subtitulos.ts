@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "modelos-manson": "Atrae a las mujeres a través de la honestidad",
   "sprint-knapp": "El método para resolver problemas y testar nuevas ideas en solo cinco días",
   "cuerpo-4-horas": "Un método insólito para perder grasa y estar en forma",
   "dieta-ya-no-cojea": "Aprende a comer sano sin volverte loco",

@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "modelos-manson":
+    "Manson venía de la industria que vendía técnicas de ligue y publicó este libro en 2011 para desmontarla desde dentro. Su tesis es que todo lo que se hace para evitar un rechazo es justo lo que resulta poco atractivo.",
+
   "sprint-knapp":
     "Knapp diseñó este formato en Google y lo aplicó unas ciento cincuenta veces: cinco días, un equipo y un problema, para llegar el viernes con algo que cinco personas ajenas han probado.",
 
