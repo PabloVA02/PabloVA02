@@ -3302,40 +3302,6 @@ button {
 
 .perfil-scroll::-webkit-scrollbar { display: none; }
 
-.perfil-desbloquea {
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  width: 100%;
-  padding: 18px 16px;
-  border-radius: 20px;
-  background: var(--plum);
-  color: var(--paper);
-  text-align: left;
-  overflow: hidden;
-}
-
-.perfil-desbloquea h2 {
-  font-size: 19px;
-  font-weight: 750;
-  letter-spacing: -0.02em;
-}
-
-.perfil-desbloquea p {
-  margin-top: 5px;
-  font-size: 12.5px;
-  line-height: 1.4;
-  color: rgba(242, 236, 225, 0.82);
-}
-
-.perfil-cohete {
-  flex: none;
-  width: 82px;
-  height: 82px;
-  margin: -8px -4px -8px 0;
-}
-
 .perfil-racha {
   display: flex;
   align-items: center;
@@ -4791,6 +4757,98 @@ button {
   color: var(--paper);
 }
 
+
+/* ==========================================================================
+   LA SUSCRIPCIÓN — el aviso, solo para quien no paga, solo para quien no paga
+
+   Partida en dos, como la de la captura: banda de color arriba con el símbolo
+   y el titular, y debajo, sobre el fondo normal de tarjeta, la explicación y
+   el botón. Ese corte es lo único de la pantalla que se lee como un AVISO y
+   no como otra sección de la columna, y por eso no lo lleva ninguna otra.
+
+   Y todo del mismo ocre: la banda, la segunda línea del titular y el botón.
+   La suya usa marrón en la banda, naranja en el titular y azul en el botón,
+   tres colores para una sola idea. Ver `Suscripcion.tsx`.
+
+   Las clases llevan `suscri-` y no `pase-`, que era lo natural: `.pase` ya
+   existe y es del pase de invitado.
+   ========================================================================== */
+.suscri {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  background: rgba(242, 236, 225, 0.07);
+}
+
+.suscri-banda {
+  position: relative;
+  padding: 14px 16px 15px;
+  /* De más a menos hacia abajo, para que la banda muera en el cuerpo en vez
+     de cortarse con una línea. */
+  background: linear-gradient(180deg, rgba(207, 160, 89, 0.24), rgba(207, 160, 89, 0.1));
+}
+
+.suscri-sello {
+  display: block;
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 9px;
+}
+
+.suscri-titulo {
+  font-size: 18.5px;
+  font-weight: 620;
+  line-height: 1.24;
+  letter-spacing: -0.02em;
+  color: rgba(242, 236, 225, 0.88);
+  /* Sitio para la equis: sin esto, un titular de dos líneas largas se le mete
+     debajo. */
+  padding-right: 34px;
+}
+/* La segunda línea, que es la que manda, en ocre y con más peso. Es el mismo
+   recurso de la captura —dos líneas, la de abajo en color— y funciona porque
+   la primera cuenta el problema y la segunda ofrece la salida. */
+.suscri-titulo b {
+  display: block;
+  color: #e0b268;
+  font-weight: 780;
+}
+
+.suscri-cerrar {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: rgba(20, 17, 14, 0.28);
+  color: rgba(242, 236, 225, 0.72);
+}
+.suscri-cerrar svg { width: 13px; height: 13px; }
+
+.suscri-cuerpo { padding: 14px 16px 16px; }
+
+.suscri-texto {
+  font-size: 13.5px;
+  line-height: 1.42;
+  font-weight: 560;
+  color: rgba(242, 236, 225, 0.62);
+  text-wrap: balance;
+}
+
+.suscri-boton {
+  width: 100%;
+  height: 50px;
+  margin-top: 14px;
+  border-radius: 14px;
+  background: #e0b268;
+  color: #1d1710;
+  font-size: 15.5px;
+  font-weight: 700;
+  letter-spacing: -0.012em;
+}
 
 /* ==========================================================================
    LA CUENTA — la tarjeta de arriba del perfil

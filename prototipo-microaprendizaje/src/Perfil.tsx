@@ -4,6 +4,7 @@ import { Llama } from "./Racha";
 import { MetaDiaria } from "./Meta";
 import { Crecimiento, type Semana } from "./Crecimiento";
 import { Cuenta } from "./Cuenta";
+import { Suscripcion } from "./Suscripcion";
 import { GlyphClose, GlyphGuardar, GlyphHeart, GlyphTick } from "./glyphs";
 import { spring, springPop, springSoft } from "./motion";
 
@@ -69,6 +70,12 @@ function semana(racha: number) {
 
 type Props = {
   racha: number;
+  /** Sin esto no hay tarjeta de pase. Ver arriba. */
+  suscrito: boolean;
+  /** Cuántos resúmenes hay escritos, para la tarjeta de pase. */
+  libros: number;
+  /** A dónde lleva el botón del pase. */
+  onOferta?: () => void;
   /** La racha más larga que ha tenido. Ver la tarjeta de racha. */
   record: number;
   /** Seis semanas, de la más vieja a la de ahora. Ver `Crecimiento.tsx`. */
@@ -87,6 +94,9 @@ type Props = {
 
 export function Perfil({
   racha,
+  suscrito,
+  libros,
+  onOferta,
   record,
   historial,
   temas,
@@ -134,20 +144,12 @@ export function Perfil({
             temas— es exactamente lo que se perdería. Ver `Cuenta.tsx`. */}
         <Cuenta />
 
-        {/* Desbloquear: el único bloque de color saturado de la pantalla */}
-        <motion.button
-          className="perfil-desbloquea"
-          whileTap={{ scale: 0.98 }}
-          initial={{ opacity: 0, y: 20, scale: 0.97 }}
-          animate={{ opacity: 1, y: 0, scale: 1 }}
-          transition={{ ...springSoft, delay: orden(1) }}
-        >
-          <div>
-            <h2>Desbloquea todo</h2>
-            <p>Todos los libros, todos los shorts y sin anuncios.</p>
-          </div>
-          <IluCohete reducido={reducido} />
-        </motion.button>
+        {/* Aquí estaba «Desbloquea todo»: una tarjeta morada maciza con un
+            cohete, y salía siempre, se pagara o no. Eso último era el fallo
+            gordo —a quien ya paga le estábamos vendiendo lo que ya tiene—, y
+            una pantalla que le pide dinero a un cliente es una pantalla que
+            ese cliente aprende a no mirar. Ver `Suscripcion.tsx`. */}
+        {!suscrito && <Suscripcion libros={libros} onOferta={onOferta} />}
 
         {/* La racha: lo primero que se mira y lo único que se pierde */}
         <motion.section
@@ -642,29 +644,6 @@ function IluDescarga({ reducido }: { reducido: boolean }) {
   );
 }
 
-function IluCohete({ reducido }: { reducido: boolean }) {
-  return (
-    <svg viewBox="0 0 96 96" className="perfil-cohete" aria-hidden>
-      <motion.g
-        animate={reducido ? {} : { y: [0, -5, 0], rotate: [-4, 2, -4] }}
-        transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-        style={{ originX: "48px", originY: "48px" }}
-      >
-        <path d="M48 16 C60 28 62 44 58 58 H38 C34 44 36 28 48 16 Z" fill="var(--paper)" />
-        <circle cx="48" cy="36" r="7" fill="var(--plum-deep, var(--plum))" />
-        <path d="M38 50 L28 62 L38 60 Z" fill="var(--paper)" opacity="0.78" />
-        <path d="M58 50 L68 62 L58 60 Z" fill="var(--paper)" opacity="0.78" />
-        <motion.path
-          d="M42 58 L48 76 L54 58 Z"
-          fill="var(--ochre)"
-          animate={reducido ? {} : { scaleY: [1, 0.64, 1], opacity: [1, 0.72, 1] }}
-          transition={{ duration: 0.62, repeat: Infinity, ease: "easeInOut" }}
-          style={{ originX: "48px", originY: "58px" }}
-        />
-      </motion.g>
-    </svg>
-  );
-}
 
 /** Un bocadillo con una interrogación, y un segundo bocadillo pequeño detrás
  *  que sube y baja: la respuesta que viene de camino. Sin el segundo el dibujo

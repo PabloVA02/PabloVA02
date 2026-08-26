@@ -382,6 +382,12 @@ export default function App() {
             <Perfil
               key="perfil"
               racha={RACHA}
+              suscrito={SUSCRITO}
+              /* Los resúmenes escritos a mano, contados del fichero de
+                 páginas. Es la cifra de verdad y sube sola según se escriben:
+                 una promesa de la tarjeta de pase no puede estar a mano. */
+              libros={Object.keys(PAGINAS).length}
+              onOferta={() => setPantalla("oferta")}
               record={RECORD}
               /* La semana en curso lleva pegado lo de esta sesión, que sí es
                  de verdad: los minutos de hoy y las ideas de los resúmenes
