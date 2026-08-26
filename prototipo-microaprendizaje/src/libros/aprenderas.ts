@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "hazte-rico-durmiendo":
+    "Sweetland sostiene en 1962 que una parte de la mente trabaja de noche en lo que se le encargue antes de dormir. El cerebro dormido sí trabaja, y lo hace de una manera bastante más interesante que esa.",
+
   "quietud-es-la-clave":
     "Dejados solos quince minutos sin nada que hacer, dos de cada tres hombres prefirieron darse una descarga eléctrica antes que quedarse pensando. Holiday parte de ahí para defender que casi nada mejora por decidirse deprisa.",
 

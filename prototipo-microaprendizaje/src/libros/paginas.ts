@@ -102995,7 +102995,301 @@ const QUIETUD_ES_LA_CLAVE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Hazte rico mientras duermes, de Ben Sweetland (1962), en ocho páginas.
+
+   Libro práctico, registro de tú: apartado 4.7.
+
+   El marcador no espera a la conclusión: las páginas tercera, cuarta y
+   quinta traen lo que sí se sabe hoy sobre el cerebro dormido —Simon y
+   Emmons en 1956, Wagner en 2004, Rasch en 2007—, que resulta ser más
+   interesante que lo que el libro promete y bastante más útil.
+   -------------------------------------------------------------------------- */
+
+const HAZTE_RICO_DURMIENDO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Sweetland sostiene que el trabajo de hacerse rico lo hace una parte de la mente mientras uno duerme",
+      },
+      {
+        b: "texto",
+        texto:
+          "El título promete lo que promete y el libro lo defiende literalmente. Sweetland sostiene que existe una parte de la mente que no descansa nunca, que acepta instrucciones sin discutirlas y que, si se le entrega el encargo correcto justo antes de dormir, trabaja en él durante toda la noche y va reorganizando la conducta de quien duerme.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ben Sweetland era un consejero de éxito estadounidense y publicó esto en 1962, en pleno auge de un género que ya llevaba medio siglo funcionando. Pertenece a una línea muy identificable: un libro de 1910 sobre la ciencia de hacerse rico, otro de 1937 sobre pensar y hacerse rico, otro de 1952 sobre el poder del pensamiento positivo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación de base es que la riqueza es un estado mental, y que el orden causal va de dentro afuera: primero se cambia lo que uno cree sobre sí mismo y sobre el dinero, y después las circunstancias se acomodan a esa creencia. La técnica de la noche es el instrumento para hacer ese cambio sin esfuerzo consciente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue hace algo que el libro no puede hacer: contar qué se sabe hoy sobre lo que hace el cerebro mientras duerme. Porque resulta que sí trabaja, que sí resuelve problemas y que sí consolida aprendizajes, y que todo eso está medido y es bastante más útil que la promesa del título.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El cerebro dormido sí trabaja, y no en lo que tú le encargues esa noche. Trabaja en lo que le hayas dado durante el día.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La técnica es siempre la misma y lleva ciento cincuenta años vendiéndose",
+      },
+      {
+        b: "texto",
+        texto:
+          "El procedimiento que describe Sweetland ocupa poco. Antes de dormir, ya en la cama y relajado, hay que formar una imagen mental muy concreta de la situación que se desea, verla en presente y como si ya hubiera ocurrido, y acompañarla de la emoción correspondiente. Después se duerme uno, y el trabajo lo hace otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento sobre por qué ese momento y no otro es lo único ingenioso del libro. Sostiene que la parte crítica de la mente actúa como un portero que rechaza lo que no encaja con lo que uno ya cree, y que ese portero se adormece antes que el resto, así que en la frontera del sueño una idea nueva puede colarse sin ser examinada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es una imagen atractiva y no describe nada de lo que ocurre en un cerebro. No existe ese portero, no existe esa parte que ejecuta encargos, y ninguna de las dos afirmaciones se ha comprobado nunca porque están formuladas de manera que no se puede comprobarlas: si funciona, funcionó el método; si no, había dudas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene además reconocer la genealogía, porque explica el libro entero. Todo esto viene de una corriente estadounidense de finales del siglo diecinueve según la cual el pensamiento configura la realidad material, y se ha reeditado cada quince o veinte años con un envoltorio nuevo hasta llegar a los libros de mentalidad que se venden hoy.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una afirmación que se cumple si funciona y se explica si falla no está afirmando nada. Ese es el diseño de casi todo este género.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El cerebro dormido no ejecuta encargos: ordena lo que ya se le entregó despierto",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí hace el cerebro mientras se duerme está bastante bien descrito y no se parece a lo que promete el libro. Durante el sueño se reactivan los circuitos que se han usado durante el día, se traslada información desde el almacén temporal a la memoria de largo plazo y se refuerzan unas conexiones mientras se debilitan otras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese proceso se llama consolidación y tiene una consecuencia práctica enorme: lo que se estudia o se practica antes de dormir se retiene bastante mejor que lo mismo estudiado por la mañana con la misma dedicación. No porque el sueño añada nada nuevo, sino porque ordena lo que ya está y lo deja disponible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia con lo que dice Sweetland es de dirección. Su método consiste en entregar un deseo antes de dormir y esperar que la noche lo convierta en algo; lo que ocurre en realidad es que la noche trabaja sobre el material que se le haya dado durante el día, y si ese día no se ha hecho nada, no hay nada que consolidar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso convierte una promesa mágica en un consejo utilizable. Repasar lo importante justo antes de acostarse funciona, y funciona por un motivo comprobado; desear intensamente un resultado antes de acostarse no funciona, y no hay ningún motivo por el que debiera. Es la misma media hora empleada de dos maneras muy distintas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Repasar lo importante justo antes de dormir funciona de verdad. Desear un resultado antes de dormir no, y ocupa la misma media hora.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay un experimento que demuestra que dormir resuelve problemas, y no funciona como el libro cree",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 2004, un equipo alemán dirigido por Ullrich Wagner publicó en la revista Nature un estudio que es la mejor respuesta posible a este libro. Diseñaron una tarea numérica aburrida, con una serie de reglas que había que aplicar paso a paso, y que escondía un atajo: existía una regla oculta que permitía obtener el resultado de inmediato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nadie se lo dijo a los participantes. Todos entrenaron con la tarea, y después unos durmieron ocho horas y otros pasaron el mismo tiempo despiertos. Al volver a hacerla, se contó cuántos descubrían el atajo por su cuenta, que era la manera de medir si el sueño produce ideas nuevas o solo conserva las viejas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El grupo que había dormido descubrió la regla oculta a un ritmo más del doble que los que no. Casi seis de cada diez frente a poco más de dos de cada diez. El sueño no les dio información que no tuvieran: reorganizó la que ya tenían hasta hacer visible una estructura que estaba delante y que despiertos no habían visto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La condición, y es la que lo cambia todo, es que hay que haber trabajado antes en el problema. Los participantes habían practicado la tarea durante un buen rato; sin ese entrenamiento previo no había nada que reorganizar. Dormir sobre un problema funciona, y solo funciona si el problema se ha cargado despierto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Consultarlo con la almohada funciona y está medido. La condición es haber trabajado antes en el problema: si no, la almohada no tiene con qué.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Aprender dormido se probó en serio y no funcionó; reactivar lo aprendido, sí",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea de aprender durante el sueño no la inventó Sweetland: fue una moda internacional a mediados del siglo veinte, con discos y grabadoras que se dejaban sonando toda la noche para aprender idiomas o memorizar temarios sin esfuerzo. Se vendieron muchísimos aparatos con esa promesa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1956 se hizo la comprobación que acabó con el asunto. Al registrar la actividad eléctrica del cerebro de los durmientes mientras se les reproducía material, se descubrió que solo retenían aquello que había sonado en los momentos en que el registro mostraba que estaban despiertos o medio despiertos. Dormidos de verdad, no aprendían nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí funciona se descubrió mucho después y es más sutil. En 2007, un equipo hizo que unos participantes aprendieran una tarea en una habitación con olor a rosas, y esa misma noche les hicieron llegar el olor mientras dormían en fase profunda. Al día siguiente recordaban significativamente mejor lo aprendido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia entre las dos cosas es exactamente la de este resumen. No se puede meter información nueva en un cerebro dormido; sí se puede señalar un material ya aprendido para que la noche lo trabaje con preferencia. La noche no es un obrero al que se le encarga algo: es un archivero que ordena lo que hay en la mesa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquel fracaso dejó además una lección sobre cómo se comprueban estas cosas. Hasta que no hubo manera de registrar la actividad eléctrica del cerebro, nadie podía distinguir a alguien dormido de alguien medio despierto, y todos los testimonios de éxito procedían de esa confusión. El aparato no descubrió un fallo del método: descubrió que no se estaba midiendo lo que se creía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La noche no es un obrero al que encargarle un trabajo. Es un archivero que ordena lo que le dejaste encima de la mesa durante el día.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo aprovechable del libro no es su técnica, es que obliga a poner una cifra",
+      },
+      {
+        b: "texto",
+        texto:
+          "Debajo del envoltorio hay dos o tres cosas que funcionan por motivos corrientes, y la principal es la exigencia de concretar. Sweetland insiste en que la imagen mental tiene que ser exacta: cuánto dinero, para cuándo, cómo sería un día cualquiera con eso conseguido. Nada vago sirve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa exigencia produce un efecto real, y no es místico. Poner una cifra y una fecha obliga a comprobar si el plan actual puede llegar ahí, y casi siempre la respuesta es que no; a partir de ese momento la conversación deja de ser sobre deseos y pasa a ser sobre qué habría que cambiar, que es donde empieza cualquier cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda cosa aprovechable es de atención. Quien lleva semanas pensando en un asunto concreto empieza a notar oportunidades relacionadas que antes le pasaban desapercibidas, no porque el universo se las envíe, sino porque su cabeza ha marcado ese tema como relevante y el filtro deja pasar lo que antes descartaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la tercera es la más antigua del género y sigue en pie: gran parte de lo que impide intentar algo son creencias sobre uno mismo que nunca se han puesto por escrito ni se han comprobado. Sacarlas al papel y mirarlas de frente es útil, y no requiere ninguna teoría sobre lo que pasa mientras se duerme.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una cuarta que el libro roza sin desarrollar. Escribir el objetivo antes de dormir y volver a leerlo por la mañana crea una continuidad entre los días que la mayoría de la gente no tiene: sin eso, cada mañana se empieza a decidir de cero, y decidir de cero todos los días es la manera más eficaz de no avanzar en nada largo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pon una cifra y una fecha. No porque las atraiga nadie, sino porque obliga a comprobar si lo que estás haciendo puede llegar ahí.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La causa va justo al revés de como la cuenta el libro" },
+      {
+        b: "texto",
+        texto:
+          "La tesis central es que un estado mental produce la riqueza. Merece la pena mirar esa flecha en la otra dirección, porque hay bastante más evidencia del recorrido contrario: tener dinero produce buena parte del estado mental que el libro recomienda cultivar antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Quien tiene un colchón puede rechazar un mal trabajo, negociar sin miedo, esperar a la buena oportunidad, permitirse un error caro y dormir tranquilo. Esa serenidad no es la causa de su posición: es una consecuencia de ella, y confundirlas convierte un privilegio material en un mérito de carácter.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El error tiene además un coste para quien lee. Si el estado mental fuera la causa, entonces quien sigue sin dinero después de intentarlo no cultivó bien su mentalidad, y esa conclusión es falsa y hace daño. La mayoría de las diferencias de patrimonio entre personas se explican por dónde nacieron, qué heredaron y qué oportunidades tuvieron.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nada de esto obliga a descartar el trabajo sobre las propias creencias, que sirve. Lo que hay que descartar es la afirmación de que ese trabajo basta, porque es la que convierte un libro inofensivo en uno que explica el fracaso ajeno con la falta de fe del que fracasó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene además distinguir dos afirmaciones que este género mezcla siempre. Que la actitud influye en el resultado es cierto y modesto: quien insiste, pregunta y se presenta obtiene más oportunidades que quien no. Que la actitud determina el resultado es falso y enorme, y es la que se vende en la portada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La calma con la que se negocia bien suele venir de tener un colchón, no al revés. Confundirlo convierte una ventaja material en un mérito personal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la riqueza es un estado mental y que ese estado se instala entregando instrucciones a la mente justo antes de dormir. De todo eso, lo único que se sostiene es lo que no tiene nada que ver con el sueño: que conviene poner una cifra y una fecha, y que las creencias sobre uno mismo condicionan lo que se intenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es que la realidad resultó ser mejor que la promesa. El cerebro dormido sí trabaja, sí resuelve problemas y sí encuentra estructuras que despierto no se veían, y todo eso está medido con experimentos que se pueden repetir. Solo que trabaja sobre lo que se le ha entregado durante el día, y no sobre lo que se le pide por la noche.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Trabaja el problema durante el día y déjalo cargado antes de dormir. Eso es lo único que hay de cierto en el título de este libro, y es bastante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. No hay en todo el libro una fuente, un experimento ni un dato: la prueba de cada afirmación es una anécdota o una confianza. El mecanismo que propone no existe, y estaba ya descartado en su época, porque las pruebas sobre aprendizaje durante el sueño se habían hecho seis años antes de que se publicara y habían salido negativas. Y su tesis invierte la dirección causal, con la consecuencia de siempre: quien no lo consigue tiene que concluir que no creyó lo suficiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después es la misma cadena de siempre. El año siguiente apareció otro libro sobre el poder de la mente subconsciente que vendió todavía más, y la fórmula ha seguido reeditándose hasta los libros de mentalidad de dinero que se venden hoy, con el mismo contenido y sin una prueba nueva. Mientras tanto, la ciencia del sueño se ha convertido en un campo enorme y sus hallazgos son mucho más raros y más interesantes que la promesa del título, aunque ninguno de ellos permita hacerse rico durmiendo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "hazte-rico-durmiendo": HAZTE_RICO_DURMIENDO,
   "quietud-es-la-clave": QUIETUD_ES_LA_CLAVE,
   "pleno-compromiso": PLENO_COMPROMISO,
   "historia-interminable": HISTORIA_INTERMINABLE,

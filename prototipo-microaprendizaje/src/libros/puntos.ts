@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "hazte-rico-durmiendo": [
+    "qué hace en realidad el cerebro mientras alguien duerme",
+    "por qué consultarlo con la almohada funciona y con qué condición",
+    "que aprender dormido se probó en serio y no funcionó",
+    "para qué sirve ponerle una cifra y una fecha a lo que quieres",
+    "por qué la calma para negociar suele venir de tener un colchón",
+  ],
+
   "quietud-es-la-clave": [
     "por qué contestar deprisa empeora casi cualquier respuesta",
     "que buena parte de lo urgente deja de serlo si se le da tiempo",
