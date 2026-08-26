@@ -48,7 +48,16 @@
 
      Se toca AQUÍ y cambia la app entera. Las tres pantallas de momento
      —la racha, el cartel y el candado— se quedan en el casi negro de
-     `--carbon`: ahí el fondo no es fondo, es la mitad del dibujo. */
+     `--carbon`: ahí el fondo no es fondo, es la mitad del dibujo.
+
+     ESO SE DIJO EN AGOSTO Y NO ERA VERDAD DEL TODO. Seis pantallas seguían
+     con el morado `--night` de los planos de noche: el perfil, los ajustes,
+     el anti-scroll, el cierre, el camino y la reseña. Se veía y no se sabía
+     por qué: el morado tiene 0,023 de luminancia contra los 0,0185 de este
+     gris, así que esas seis parecían un punto más claras y un punto más
+     lavadas que el resto de la app. Pablo lo dijo el 26: «el fondo en todos
+     los sitios debe ser más oscuro, como el de Headway». Y el suyo es
+     exactamente este #222222, muestreado de sus capturas. Corregido. */
   --fondo: #222222;
 
   /* Pantalla de racha: casi negro y el naranja del fuego */
@@ -737,7 +746,7 @@ button {
   justify-content: center;
   text-align: center;
   padding: 0 30px 26px;
-  background: var(--night);
+  background: var(--fondo);
   color: var(--paper);
   margin: -46px 0 0;
   padding-top: 46px;
@@ -1372,7 +1381,7 @@ button {
   min-height: 0;
   display: flex;
   flex-direction: column;
-  background: var(--night);
+  background: var(--fondo);
   color: var(--paper);
   margin-top: -46px;
   padding-top: 46px;
@@ -3257,7 +3266,7 @@ button {
   padding-top: 46px;
   display: flex;
   flex-direction: column;
-  background: var(--night);
+  background: var(--fondo);
   color: var(--paper);
 }
 
@@ -3841,7 +3850,7 @@ button {
   flex-direction: column;
   margin-top: -46px;
   padding-top: 46px;
-  background: var(--night);
+  background: var(--fondo);
   color: var(--paper);
 }
 
@@ -4814,14 +4823,16 @@ button {
    dentro. Sin la altura puesta a mano no vale: la caja de línea de un emoji es
    bastante más alta que su cuerpo —cada fuente de emoji trae su propio aire—,
    y la banda salía 34 puntos más larga que la suya sin que se viera por qué. */
+/* La caja del dibujo. Antes tenía la altura puesta a mano para domar el aire
+   que trae la caja de línea de un emoji; ahora el dibujo es un SVG y la caja
+   es la del dibujo y ya está. 52 × 34 es la proporción de los ficheros que
+   mandó Pablo, 865 × 564, a la altura que tenía el icono de la captura. */
 .suscri-sello {
-  display: flex;
-  align-items: center;
-  height: 34px;
-  font-size: 31px;
-  line-height: 1;
+  display: block;
+  width: 52px;
   margin-bottom: 10px;
 }
+.suscri-sello svg { display: block; width: 100%; height: auto; }
 
 /* El `margin: 0` no es higiene, es el arreglo de un fallo que se veía y no se
    explicaba: la banda salía 29 puntos más larga que la de la captura. Es un
@@ -5209,7 +5220,7 @@ button {
   min-height: 0;
   display: flex;
   flex-direction: column;
-  background: var(--night);
+  background: var(--fondo);
   color: var(--paper);
 }
 
@@ -8564,7 +8575,7 @@ button {
   width: min(330px, calc(100% - 40px));
   padding: 8px 20px 20px;
   border-radius: 26px;
-  background: var(--night);
+  background: var(--fondo);
   color: var(--ink);
   text-align: center;
   box-shadow: 0 26px 60px -18px rgba(0, 0, 0, 0.75);

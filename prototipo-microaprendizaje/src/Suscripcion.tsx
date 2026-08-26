@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, type ReactElement } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { spring, springSoft } from "./motion";
 import { GlyphClose } from "./glyphs";
@@ -56,24 +56,92 @@ import { GlyphClose } from "./glyphs";
    para una sola idea.
    ========================================================================== */
 
+/* --------------------------------------------------------------------------
+   LOS DOS DIBUJOS: la tarjeta entera y la tarjeta rota.
+
+   Los mandó Pablo en PNG y aquí van redibujados en SVG. No es capricho: son
+   cuatro figuras planas —un rectángulo redondeado, un círculo y dos barras—,
+   así que en SVG pesan cuatrocientos bytes en vez de sesenta kilos, no se ven
+   borrosos a ningún tamaño y el color se puede tocar desde la hoja de estilos
+   el día que haga falta. Sus colores sí son los suyos, muestreados del PNG:
+   rojo (255, 101, 90) y crema (255, 247, 232).
+
+   Las medidas salen de medirle los píxeles al fichero, normalizadas a una
+   caja de 96 × 63 —la proporción del original, 865 × 564—:
+
+     tarjeta   radio 8,3 de 63 de alto
+     círculo   centro (80,3 · 15), radio 6,2
+     barra 1   x 11,7  y 39,4   27,9 × 4,7
+     barra 2   x 11,7  y 47,8   17,2 × 4,7
+
+   Y LAS DOS SON LA MISMA FIGURA. En los PNG la rota es un poco más ancha; se
+   ha igualado a propósito, porque las dos tarjetas del perfil enseñan LA
+   MISMA cosa en dos estados —el pase entero y el pase roto—, y si cambian de
+   tamaño al cambiar de estado parecen dos objetos distintos.
+
+   La rasgadura se hace con una máscara y no con dos mitades dibujadas a mano:
+   el hueco tiene que ser transparente para que se vea la banda marrón por
+   detrás, y una máscara con un zigzag de 5,5 de grosor lo resuelve sin tener
+   que calcular los dos contornos. El zigzag sale de rastrear el hueco del PNG
+   fila a fila: va de x≈48 a x≈54 y vuelve, cada diez de alto.
+   -------------------------------------------------------------------------- */
+
+const ROJO = "#ff655a";
+const CREMA = "#fff7e8";
+
+/** Lo que va impreso en el pase: el chip y las dos líneas. */
+function CaraDeTarjeta() {
+  return (
+    <>
+      <rect x="0" y="0" width="96" height="63" rx="8.5" fill={ROJO} />
+      <circle cx="80.3" cy="15" r="6.2" fill={CREMA} />
+      <rect x="11.7" y="39.4" width="27.9" height="4.7" rx="2.35" fill={CREMA} />
+      <rect x="11.7" y="47.8" width="17.2" height="4.7" rx="2.35" fill={CREMA} />
+    </>
+  );
+}
+
+function TarjetaEntera() {
+  return (
+    <svg viewBox="0 0 96 63" aria-hidden>
+      <CaraDeTarjeta />
+    </svg>
+  );
+}
+
+function TarjetaRota() {
+  return (
+    <svg viewBox="0 0 96 63" aria-hidden>
+      <defs>
+        <mask id="curva-rasga">
+          <rect x="-2" y="-2" width="100" height="67" fill="#fff" />
+          <path
+            d="M48 -3 L53.5 8 L48.5 18 L54 26 L49 33.5 L54.5 43 L50 53.5 L52.5 66"
+            fill="none"
+            stroke="#000"
+            strokeWidth="5.5"
+          />
+        </mask>
+      </defs>
+      <g mask="url(#curva-rasga)">
+        <CaraDeTarjeta />
+      </g>
+    </svg>
+  );
+}
+
 /** Quién está mirando la tarjeta. Sale del estado de la app. */
 export type EstadoPago = "nuevo" | "cancelado";
 
 const TEXTOS: Record<EstadoPago, {
-  sello: string;
+  Sello: () => ReactElement;
   alto: string;
   bajo: string;
   lema: string;
   boton: string;
 }> = {
   nuevo: {
-    /* Una entrada, no una pila de libros. La pila la devolvió Pablo —«esos
-       libros son muy feos, pon algo que no parezca tan genérico de IA»— y
-       tenía razón: un montón de libros en una app de libros no dice nada, es
-       el dibujo por defecto. La entrada dice lo que se compra, que es el
-       PASE, y es además lo que pone la captura de referencia en ese mismo
-       hueco. */
-    sello: "🎟️",
+    Sello: TarjetaEntera,
     /* Las dos líneas siguen el reparto de la captura: arriba en blanco LA
        COSA, abajo en naranja EL DATO con fecha. La suya dice «Tu acceso
        Premium / expira el agosto 28»; la nuestra pone en el renglón naranja
@@ -95,9 +163,7 @@ const TEXTOS: Record<EstadoPago, {
     boton: "Empezar prueba gratuita",
   },
   cancelado: {
-    /* Un marcapáginas y no un candado: al que canceló no se le cierra nada,
-       se le guarda el sitio. El dibujo tiene que decir eso mismo. */
-    sello: "🔖",
+    Sello: TarjetaRota,
     alto: "Sigue creciendo",
     bajo: "Vuelve hoy",
     lema: "Te guardamos la racha y lo que llevabas. Sigue donde lo dejaste.",
@@ -140,7 +206,7 @@ export function Suscripcion({
               animate={{ scale: 1, opacity: 1, rotate: 0 }}
               transition={{ ...spring, delay: 0.3 }}
             >
-              {t.sello}
+              <t.Sello />
             </motion.span>
             <h2 className="suscri-titulo">
               {t.alto}
