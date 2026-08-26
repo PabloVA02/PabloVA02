@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "dieta-ya-no-cojea": "Aprende a comer sano sin volverte loco",
   "quietud-es-la-clave": "Una guía antigua para la vida moderna",
   "pleno-compromiso": "Gestionar la energía y no el tiempo",
   "equipo-rivales": "El genio político de Abraham Lincoln",

@@ -103569,7 +103569,292 @@ const VIVIR_PARA_CONTARLA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Mi dieta ya no cojea, de Aitor Sánchez García (2018), en ocho páginas.
+
+   Salud, así que la prueba del sustituto del apartado 4 bis: cada página
+   tiene que traer algo que solo exista en ESTE libro. Aquí es fácil porque
+   es un libro español y concreto —la pirámide de 2015, las etiquetas de
+   supermercado de aquí—, pero se comprueba igual.
+
+   Registro de tú. Y la quinta página trae el ensayo de 2019 que demostró,
+   un año después de publicarse el libro, lo que el libro afirmaba sin
+   poder demostrarlo del todo.
+   -------------------------------------------------------------------------- */
+
+const DIETA_YA_NO_COJEA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Sánchez sostiene que casi nadie come mal por falta de información ni de voluntad",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cualquier persona sabe que la fruta es mejor que la bollería. Esa información lleva décadas repetida en escuelas, campañas y consultas, y sin embargo el consumo de productos ultraprocesados no ha dejado de subir. Si el problema fuera de información, treinta años de campañas habrían servido para algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aitor Sánchez es dietista-nutricionista y tecnólogo de los alimentos, y lleva desde 2013 escribiendo sobre esto en España. Publicó este libro en 2018 como continuación de otro anterior: si el primero explicaba qué está mal en la alimentación corriente, este explica qué hacer en un supermercado, en una cocina y en un restaurante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis de partida es que la alimentación no es una decisión individual tomada en el vacío. Lo que se come depende de lo que hay a mano, de lo que cuesta, de lo que se anuncia, de lo que sirven en el trabajo y de lo que cabe en el tiempo que uno tiene, y todo eso está diseñado por alguien que no es el que come.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que propone y lo que se le puede discutir: por qué el entorno gana siempre a la voluntad, cuál es la clasificación de alimentos que de verdad importa, cómo engañan las etiquetas sin mentir, qué demostró un estudio publicado un año después del libro y qué llevaba dentro la pirámide alimentaria española.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Treinta años de campañas informativas no han cambiado lo que come la gente. Si la información bastara, esto estaría resuelto desde hace décadas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El entorno gana siempre a la fuerza de voluntad, porque está diseñado para ganar",
+      },
+      {
+        b: "texto",
+        texto:
+          "El concepto que ordena el libro es el de entorno obesogénico, y describe algo comprobable saliendo a la calle. En una gasolinera, en una estación, en un cine, en la máquina de la oficina y en la caja del supermercado, lo que está disponible, barato e inmediato es casi siempre lo mismo, y no es fruta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso se le suma el diseño de la tienda, que no es casual. Los productos infantiles se colocan a la altura de los ojos de un niño, los dulces están en la cola de caja donde hay que esperar, y las ofertas del tipo tres por dos se aplican mucho más a productos con azúcar que a verdura fresca, porque la verdura fresca no aguanta el almacenamiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es que resistir a eso todos los días exige un esfuerzo constante, y el esfuerzo constante falla. Sánchez propone dejar de plantearlo como una lucha diaria y plantearlo como una decisión que se toma pocas veces: en la lista de la compra, en lo que entra en casa y en lo que se cocina el domingo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su regla es que lo que no está en casa no se come a las once de la noche. Decidir una vez a la semana en el supermercado es una decisión; decidir cada vez que se abre un armario son cuarenta decisiones diarias, y esa diferencia explica más resultados que cualquier conocimiento sobre nutrientes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que no está en casa no te lo comes a las once de la noche. Decide una vez en el supermercado en vez de cuarenta veces al día.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La clasificación que importa no separa por nutrientes, sino por cuánto se ha manipulado el alimento",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante décadas, la manera de hablar de comida fue por nutrientes: grasas, hidratos, proteínas, calorías. Ese enfoque produjo campañas contra la grasa que llenaron el mercado de productos desnatados con azúcar añadido, y después campañas contra el azúcar que llenaron el mercado de productos con edulcorantes y el mismo perfil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La clasificación que Sánchez defiende es otra y viene de un equipo brasileño dirigido por Carlos Monteiro. Ordena los alimentos por grado de procesamiento: los frescos o mínimamente procesados; los ingredientes culinarios como el aceite o la sal; los procesados sencillos como el pan, el queso o las conservas; y los ultraprocesados, que son formulaciones industriales de cinco o más ingredientes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que define a los últimos no es tener muchas calorías, sino haber sido diseñados: llevan aditivos que no existen en una cocina, están construidos para durar meses, para no saciar y para resultar difíciles de dejar a la mitad. La bollería industrial, los refrescos, los cereales de desayuno azucarados y los platos preparados están ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La utilidad de esta clasificación es que se puede aplicar sin saber nada de nutrición. No hace falta calcular nada ni leer una tabla: basta con mirar la lista de ingredientes y preguntarse si eso se podría hacer en una cocina. Es una regla que funciona en el pasillo del supermercado y en dos segundos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mira la lista de ingredientes y pregúntate si eso se podría hacer en una cocina. No hace falta saber nada más para decidir en un pasillo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las etiquetas engañan sin mentir, porque lo que destacan es legal y lo que ocultan también",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los capítulos sobre supermercado son los más aprovechables del libro y no requieren ninguna teoría. La primera regla es que la parte delantera del envase es publicidad y la trasera es información: todo lo que aparece en letras grandes ha sido elegido por el fabricante para que se mire, y lo que interesa está en la lista de ingredientes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los ejemplos que da son de aquí y se reconocen enseguida. Un yogur que anuncia cero por ciento de materia grasa puede llevar azúcar añadido en cantidad; unas galletas que anuncian fibra pueden ser mayoritariamente harina refinada y grasa; un producto sin azúcares añadidos puede tener exactamente el mismo azúcar total, porque el que ya traía la fruta no cuenta como añadido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla que enseña a leer la lista es sencilla y está en la normativa: los ingredientes van ordenados de mayor a menor cantidad. Si el azúcar aparece en segundo o tercer lugar, ese producto es en buena parte azúcar, diga lo que diga la parte delantera del envase y por muchos dibujos de cereales que lleve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una categoría a la que dedica especial atención, la de los productos dirigidos a niños. Su tesis es que no existe la comida infantil: existe comida, y una parte de ella se anuncia con colores y personajes porque los niños deciden más de lo que parece y porque los padres compran con menos resistencia lo que lleva un envase que promete crecimiento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La parte delantera del envase es publicidad. Si el azúcar está en los tres primeros ingredientes, ese producto es azúcar con otra forma.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un año después del libro se publicó el experimento que faltaba, y le dio la razón",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando este libro salió, la idea de que el procesamiento en sí mismo importa —y no solo el azúcar, la sal o la grasa que contiene— era una hipótesis razonable con datos indirectos. Los estudios disponibles eran observacionales, es decir, comparaban a personas que comían distinto, y ahí siempre cabe la duda de qué más las diferencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En mayo de 2019, un equipo dirigido por Kevin Hall en los institutos nacionales de salud de Estados Unidos publicó el ensayo que faltaba. Veinte adultos vivieron ingresados en un centro durante cuatro semanas, dos con una dieta ultraprocesada y dos con una dieta de alimentos sin procesar, y podían comer todo lo que quisieran.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las dos dietas estaban igualadas a propósito en calorías disponibles, azúcar, grasa, sal, fibra y proteínas, de modo que la única diferencia era el grado de procesamiento. El resultado fue claro: con la dieta ultraprocesada comieron alrededor de quinientas calorías más al día y ganaron cerca de un kilo; con la otra perdieron cerca de un kilo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese es el tipo de prueba que convierte una recomendación en un hecho. No se trataba de que aquellos productos tuvieran peor composición, porque estaba igualada: se trataba de que se comen más deprisa y sacian menos, y eso hace que se coma más sin decidirlo. El libro lo afirmaba en 2018 y la demostración llegó al año siguiente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Con la misma composición exacta, la gente comió quinientas calorías más al día. No era lo que llevaban dentro: era cómo estaban hechos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La pirámide alimentaria española llevaba vino y bollería, y eso no fue un descuido",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos más incómodos trata de las recomendaciones oficiales. La pirámide alimentaria que se difundió en España en 2015, elaborada por una sociedad científica del ramo, incluía en su cúspide dulces y aperitivos salados, y añadía una mención al consumo opcional y moderado de bebidas fermentadas, es decir, vino y cerveza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sánchez sostiene que eso no se explica por un error científico, porque ninguna autoridad sanitaria sostiene que exista un consumo de alcohol recomendable, y menos en un documento dirigido a la población general. Lo que señala es la financiación: buena parte de las sociedades científicas de nutrición recibe fondos de la industria alimentaria y de bebidas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es que las recomendaciones oficiales de un país no son necesariamente el mejor consejo disponible, y que conviene saber quién paga el documento que se está leyendo. No implica que todo lo que dicen esté mal: implica que hay que mirar quién lo firma y quién lo financia, igual que con cualquier otro informe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Frente a eso propone un modelo más simple, elaborado por la escuela de salud pública de Harvard: un plato dividido en cuatro, con la mitad ocupada por verduras y fruta, un cuarto por cereales integrales y otro cuarto por alimentos proteicos, con agua como bebida. Cabe en una imagen, no admite matices publicitarios y no lo paga nadie.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de seguir una recomendación oficial, mira quién financia al que la firma. No la invalida, pero explica bastantes de sus matices.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que hay que hacer en la práctica cabe en tres decisiones semanales",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte práctica del libro es la que justifica su existencia frente al anterior, y se resume en poco. La primera decisión es la lista de la compra, escrita antes de entrar y organizada por secciones, porque comprar sin lista es exponerse durante cuarenta minutos a un espacio diseñado para que se compre otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es cocinar en tanda: dedicar un rato del fin de semana a dejar hecha la base de varias comidas —legumbres cocidas, verduras asadas, cereales hervidos, alguna proteína— para que la opción rápida del martes por la noche sea abrir la nevera y no abrir una caja. El enemigo de la comida sana no es el sabor, es el tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la tercera es el orden del plato: primero se decide la verdura, después la proteína y en último lugar el resto, que es exactamente al revés de como se construye una comida normalmente. Empezar por la guarnición garantiza que la verdura aparezca cuando ya no queda hueco ni ganas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre comer fuera, su consejo es realista y no consiste en dejar de hacerlo. Un menú del día se puede pedir eligiendo el primero entre las opciones de verdura o legumbre, y comer fuera dos veces por semana no decide nada si el resto está resuelto. Lo que decide es lo que se hace los otros dieciocho tiempos de comida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El enemigo de comer bien no es el sabor, es el tiempo. Deja hecha el domingo la base de la semana y el martes ya no hay que decidir nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que el problema de la alimentación no es de información sino de entorno, que la clasificación útil es por grado de procesamiento y no por nutrientes, que las etiquetas informan de lo que quieren y ocultan legalmente lo demás, y que lo que decide una dieta son tres decisiones semanales y no cuarenta diarias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a los libros de dieta traducidos es que está escrito para aquí. Los productos que analiza son los de un supermercado español, la pirámide que critica es la que se enseñó en las escuelas de este país y los menús que comenta son los del bar de al lado. Eso lo hace utilizable en un grado que ningún manual importado alcanza.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escribe la lista antes de entrar, deja hecha la base el domingo y decide primero la verdura. Con eso está casi todo el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El tono es combativo, porque su autor es a la vez profesional y activista, y hay tramos en los que la denuncia ocupa el sitio de la explicación. La clasificación por procesamiento en la que se apoya es útil y también imprecisa: mete en la misma categoría un refresco y una conserva de legumbre, que no tienen el mismo efecto sobre nadie, y esa crítica se le ha hecho al modelo desde dentro del propio campo. Y no dedica una línea a lo que ocurre cuando alguien se toma esto demasiado en serio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después le dio la razón en lo científico y se la quitó en lo político. El ensayo de 2019 confirmó que el procesamiento importa por sí mismo, y desde entonces la idea ha pasado a las recomendaciones oficiales de varios países. En España, en cambio, el etiquetado de colores que se anunció en 2018 sigue siendo voluntario años después, el plan acordado con la industria para reducir azúcar y sal terminó con resultados muy modestos, y el decreto que iba a limitar la publicidad de alimentos poco saludables dirigida a niños se anunció y no llegó a aprobarse.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "dieta-ya-no-cojea": DIETA_YA_NO_COJEA,
   "vivir-para-contarla": VIVIR_PARA_CONTARLA,
   "hazte-rico-durmiendo": HAZTE_RICO_DURMIENDO,
   "quietud-es-la-clave": QUIETUD_ES_LA_CLAVE,

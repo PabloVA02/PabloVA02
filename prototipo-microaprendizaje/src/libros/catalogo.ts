@@ -456,7 +456,7 @@ export const CATALOGO: Ficha[] = [
   { id: "intestino-feliz", titulo: "El intestino feliz", autor: "Justin y Erica Sonnenburg", ano: 2015, categoria: "Salud", estado: "escrito" },
   { id: "metodo-wim-hof", titulo: "El método Wim Hof", autor: "Wim Hof", ano: 2020, categoria: "Salud", estado: "escrito" },
   { id: "cuerpo-para-vida", titulo: "Un cuerpo para toda la vida", autor: "Marcos Vázquez", ano: 2019, categoria: "Salud", estado: "pendiente" },
-  { id: "dieta-ya-no-cojea", titulo: "Mi dieta ya no cojea", autor: "Aitor Sánchez García", ano: 2018, categoria: "Salud", estado: "pendiente" },
+  { id: "dieta-ya-no-cojea", titulo: "Mi dieta ya no cojea", autor: "Aitor Sánchez García", ano: 2018, categoria: "Salud", estado: "escrito" },
   { id: "biologia-creencia", titulo: "La biología de la creencia", autor: "Bruce Lipton", ano: 2005, categoria: "Salud", estado: "pendiente" },
   { id: "adelgaza-para-siempre", titulo: "Adelgaza para siempre", autor: "Ángela Quintas", ano: 2016, categoria: "Salud", estado: "pendiente" },
   { id: "libro-del-sueno", titulo: "El libro del sueño", autor: "Guy Meadows", ano: 2014, categoria: "Salud", estado: "pendiente" },

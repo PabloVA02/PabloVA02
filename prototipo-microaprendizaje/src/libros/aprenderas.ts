@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "dieta-ya-no-cojea":
+    "Un ensayo publicado en 2019 demostró que con la misma composición exacta, quien comía ultraprocesados ingería quinientas calorías más al día. Este libro español lo defendía un año antes, y explica qué hacer en un supermercado de aquí.",
+
   "vivir-para-contarla":
     "A los veintidós años, su madre le pidió que la acompañara a vender la casa del pueblo donde se había criado. De aquel viaje de un día salió, veinte años después, su novela más conocida.",
 

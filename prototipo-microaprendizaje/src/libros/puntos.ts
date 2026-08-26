@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "dieta-ya-no-cojea": [
+    "por qué el entorno gana siempre a la fuerza de voluntad",
+    "qué clasificación de alimentos sirve de verdad en un pasillo",
+    "cómo una etiqueta engaña sin llegar a mentir en nada",
+    "que la composición idéntica no produce el mismo efecto",
+    "qué mirar antes de seguir una recomendación oficial",
+  ],
+
   "vivir-para-contarla": [
     "de dónde sale una manera de escribir que parece inventada",
     "que casi nadie inventa su método: lo reconoce al verlo en otro sitio",
