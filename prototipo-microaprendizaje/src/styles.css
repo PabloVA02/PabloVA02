@@ -8598,21 +8598,24 @@ button {
   backdrop-filter: blur(8px);
   color: #f2ece1;
 }
-/* AZUL, EL SUYO. Estuvo tiñéndose con el color de la categoría del libro, con
-   el argumento de que así la tarjeta cambiaba de temperatura cada día. Suena
-   bien y falla por una razón que se ve en cuanto se comparan las dos tarjetas
-   al lado: el fondo desenfocado YA es del color del libro, así que el botón
-   salía del mismo tono que la mancha que tiene detrás y dejaba de recortarse.
-   Con la cubierta granate de Zweig, el botón era salmón sobre halo salmón.
+/* EL COLOR DE LA CATEGORÍA, y aclarado: los nueve acentos de la paleta están
+   pensados para leerse sobre crema y aquí el fondo es negro.
 
-   El azul es el mismo #0099ff que la captura pone en «Escuchar» y el mismo
-   que ya usa el aviso de suscripción del perfil: es el único color de la app
-   que no puede coincidir con ninguna cubierta, y esa es exactamente la
-   propiedad que necesita un botón que vive encima de una. */
+   Estuvo un rato en el azul #0099ff de la captura de Headway, con el argumento
+   de que el fondo desenfocado ya es del color del libro y el botón se fundía
+   con él —con la cubierta granate de Zweig salía salmón sobre halo salmón—.
+   Pablo lo devolvió: «déjalo como estaba, que iba cambiando de color y estaba
+   guay». Y es su app: ese cambio de temperatura diario es de las pocas cosas
+   de la pantalla que no se pueden copiar de nadie, porque dependen de tener
+   nueve categorías con su color, y eso vale más que el punto de contraste que
+   se gana pintándolo todo del mismo azul.
+
+   El azul se queda donde no compite con ninguna cubierta: el aviso de
+   suscripción del perfil, el de invitar y el de soporte. */
 .hoy-escuchar {
   flex: 1;
-  background: #0099ff;
-  color: #fff;
+  background: color-mix(in srgb, var(--acento, #c2704f) 84%, #f2ece1);
+  color: #17151c;
 }
 /* «Leer gratis» son siete caracteres más que «Leer» y en el 36 % se salía.
    El 47 % le da sitio y deja al de escuchar 155 puntos, que siguen sobrando
