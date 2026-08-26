@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "principios-orden-mundial":
+    "En 1999 el dólar era el setenta y uno por ciento de las reservas mundiales; dos décadas después, menos del sesenta. Dalio estudió quinientos años de imperios para saber qué significa exactamente esa clase de dato.",
+
   "cronica-muerte-anunciada":
     "Dos hermanos anunciaron a más de veinte vecinos que iban a matar a Santiago Nasar, y lo mataron. García Márquez reconstruye aquella mañana hora a hora para averiguar cómo pudo ocurrir delante de todos.",
 

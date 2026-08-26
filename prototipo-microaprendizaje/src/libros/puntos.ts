@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "principios-orden-mundial": [
+    "por qué la moneda de reserva es lo último que pierde una potencia",
+    "qué ocho indicadores dicen cómo le irá a un país dentro de treinta años",
+    "que ante una deuda impagable siempre se elige la salida sin culpable",
+    "cómo la desigualdad interna precede al conflicto con el exterior",
+    "reconocer un patrón histórico que se ha observado muy pocas veces",
+  ],
+
   "cronica-muerte-anunciada": [
     "por qué nadie avisa cuando el aviso lo puede dar cualquiera",
     "que el silencio de un grupo no siempre significa distracción",

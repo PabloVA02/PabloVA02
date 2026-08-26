@@ -410,7 +410,7 @@ export const CATALOGO: Ficha[] = [
   { id: "chingona-dinero", titulo: "Eres un chingón haciendo dinero", autor: "Jen Sincero", ano: 2017, categoria: "Economía", estado: "escrito" },
   { id: "vacas-sagradas", titulo: "Matar a las vacas sagradas", autor: "Garrett B. Gunderson", ano: 2008, categoria: "Economía", estado: "pendiente" },
   { id: "dieta-financiera", titulo: "La dieta financiera", autor: "Chelsea Fagan y Lauren Ver Hage", ano: 2018, categoria: "Economía", estado: "pendiente" },
-  { id: "principios-orden-mundial", titulo: "Principios para enfrentarse al nuevo orden mundial", autor: "Ray Dalio", ano: 2021, categoria: "Economía", estado: "pendiente" },
+  { id: "principios-orden-mundial", titulo: "Principios para enfrentarse al nuevo orden mundial", autor: "Ray Dalio", ano: 2021, categoria: "Economía", estado: "escrito" },
   { id: "guerra-chips", titulo: "La guerra de los chips", autor: "Chris Miller", ano: 2022, categoria: "Economía", estado: "escrito" },
   { id: "viaja-gratis", titulo: "Viaja gratis", autor: "Nomadic Matt", ano: 2015, categoria: "Economía", estado: "pendiente" },
   { id: "recompra-tu-tiempo", titulo: "Recompra tu tiempo", autor: "Dan Martell", ano: 2023, categoria: "Economía", estado: "pendiente" },

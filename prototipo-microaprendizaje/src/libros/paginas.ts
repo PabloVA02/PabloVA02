@@ -95581,7 +95581,303 @@ const CRONICA_MUERTE_ANUNCIADA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Principios para enfrentarse al nuevo orden mundial, de Ray Dalio (2021),
+   en ocho páginas.
+
+   Un solo marco repetido con muchos ejemplos, así que Breve: apartado 2 ter.
+   Ensayo de historia económica, tercera persona. Economía, así que cada
+   página lleva su persona, su fecha y su cifra.
+
+   La séptima página es la objeción al método, y va antes de la conclusión
+   porque no es un reproche menor: con tres imperios no hay muestra. Y la
+   conclusión lleva el marcador, que en un libro de predicciones es
+   obligatorio: apartado 4 bis.
+   -------------------------------------------------------------------------- */
+
+const PRINCIPIOS_ORDEN_MUNDIAL: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dalio sostiene que las potencias caen siempre por la misma secuencia y que se puede reconocer en qué punto está cada una",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1999, el dólar representaba alrededor del setenta y uno por ciento de las reservas de divisas del mundo. Dos décadas después esa proporción había bajado a menos del sesenta. No es un derrumbe, pero es una tendencia sostenida, y Dalio sostiene que ese indicador concreto es el último que se mueve antes de que un orden mundial cambie de dueño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ray Dalio fundó en 1975 el fondo de inversión Bridgewater, que llegó a ser el mayor del mundo, y publicó este libro en 2021. Su punto de partida es profesional y no académico: en 2008 no vio venir la crisis mirando datos recientes, y decidió estudiar los últimos quinientos años para no volver a quedarse sin referencias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado es un modelo que llama el gran ciclo y que dura alrededor de doscientos cincuenta años. Lo aplica a tres imperios sucesivos —el holandés, el británico y el estadounidense— y a la historia china, y sostiene que las fases se repiten con una regularidad que permite situar a cada país en su punto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre las piezas del modelo y su objeción principal: cómo es esa secuencia, qué ocho cosas mide para saber quién manda, por qué siempre se acaba imprimiendo dinero, por qué la desigualdad interna hace más daño que cualquier enemigo, qué pasa cuando alguien alcanza al que manda, y por qué tres imperios no son una muestra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La moneda de reserva es lo último que se pierde. Cuando cae, el declive lleva décadas en marcha y todo el mundo lo ha estado negando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El ciclo empieza siempre después de una guerra y termina siempre con demasiada deuda",
+      },
+      {
+        b: "texto",
+        texto:
+          "La secuencia que describe Dalio tiene tres tramos. Un orden nuevo nace después de un conflicto que deja claro quién manda: el holandés tras la independencia de España, el británico tras las guerras napoleónicas, el estadounidense tras 1945. Los vencedores escriben las reglas, y por un tiempo esas reglas funcionan porque nadie las discute.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo tramo es la cumbre, y es donde empieza el problema. El país dominante se enriquece, sus salarios suben, deja de ser competitivo en lo que le hizo rico, y compensa esa pérdida endeudándose y aprovechando que su moneda es aceptada en todas partes. Su prosperidad pasa de estar fabricada a estar financiada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercer tramo es el declive, y Dalio insiste en su orden. Primero llega el exceso de deuda; después, la impresión de dinero para sostenerla; después, el conflicto interno por el reparto de lo que queda; y por último, el conflicto externo con quien viene subiendo. No es una lista de males simultáneos, es un orden que se repite.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso holandés es el más limpio porque ya está cerrado. La Compañía de las Indias Orientales, fundada en 1602, llegó a mover una parte enorme del comercio mundial, y Ámsterdam creó en 1609 el primer banco moderno. Un siglo y medio después, tras la guerra contra Inglaterra de 1780, el florín dejó de servir y aquello se acabó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dalio insiste además en una asimetría de percepción. Los ciudadanos de una potencia en declive juzgan su país comparándolo con su propio pasado reciente, que sigue siendo cómodo, mientras que los del país ascendente lo comparan con el suyo de hace treinta años. Los dos ven mejoría, y solo uno la tiene.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una potencia deja de fabricar su prosperidad y empieza a financiarla. Ese cambio ocurre en la cumbre y no en la caída, y por eso pasa desapercibido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Mide el poder con ocho indicadores, y no todos se mueven al mismo tiempo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte más aprovechable del libro es su cuadro de mando. Dalio mide el poder de un país con ocho cosas: educación, innovación, competitividad, fuerza militar, cuota de comercio mundial, producción económica, importancia de su centro financiero y peso de su moneda como reserva internacional.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es el desfase entre ellas. La educación y la innovación se mueven primero, décadas antes que lo demás. La producción y el comercio les siguen. La fuerza militar responde a la economía con retraso. Y la moneda de reserva es la última, porque descansa sobre la costumbre y la costumbre tarda mucho en romperse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese desfase explica por qué las decadencias sorprenden a sus contemporáneos. Un país puede llevar cuarenta años perdiendo terreno en educación y en fabricación mientras su moneda sigue siendo la de todo el mundo y sus portaaviones siguen siendo los mejores, de manera que los indicadores visibles dicen que todo va bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso británico lo ilustra con fechas. El Reino Unido salió de la Segunda Guerra Mundial victorioso y arruinado, y aunque en 1944 los acuerdos de Bretton Woods ya consagraron al dólar, la libra tardó décadas en retirarse: se devaluó en 1949 y otra vez en 1967, y siguió siendo moneda de reserva mientras el país ya no lo era.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dalio añade una razón concreta de por qué la costumbre monetaria dura tanto. Una moneda de reserva se usa porque la usan los demás: el petróleo se factura en ella, las deudas internacionales están emitidas en ella y los bancos centrales la guardan porque sus vecinos la guardan. Romper esa inercia exige que alguien se mueva primero y pierda dinero por hacerlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La educación y la innovación avisan cuarenta años antes que la moneda y el ejército. Cuando fallan los indicadores visibles, la partida ya está decidida.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay tres salidas para una deuda impagable, y siempre se elige la tercera",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando un país debe más de lo que puede devolver, Dalio sostiene que solo existen tres caminos y que ninguno es indoloro. El primero es la austeridad: gastar menos y pagar. El segundo es el impago o la reestructuración: no devolver todo. El tercero es imprimir dinero para pagar con moneda que vale menos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los dos primeros tienen un culpable visible y una fecha concreta. La austeridad produce recortes que se ven, protestas y gobiernos que caen; el impago arruina a acreedores identificables que protestan por su nombre. El tercero, en cambio, reparte el coste entre todos los que tienen ahorros, sin decreto, sin titular y sin nadie a quien reclamar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso, sostiene, la historia elige casi siempre el tercero. Ocurrió cuando Estados Unidos prohibió la tenencia privada de oro en 1933 y devaluó el dólar; ocurrió cuando Nixon suspendió su convertibilidad el 15 de agosto de 1971; y ocurrió en los programas de compra de deuda de los bancos centrales desde 2008 y otra vez desde 2020.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica que saca es la única recomendación clara del libro. En un periodo así, mantener el patrimonio en depósitos y en deuda de un Estado que se está financiando de ese modo es exactamente lo que la política del banco central está diseñada para castigar, aunque el saldo de la cuenta no baje nunca.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El impago con nombre y apellidos tiene culpables. Imprimir dinero reparte la factura entre todos los ahorradores y no la firma nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La desigualdad interna ha derribado a más potencias que ningún enemigo exterior",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo gran ciclo del libro es el del orden interno, y Dalio lo considera más peligroso que el externo. Su mecanismo es sencillo: la prosperidad de la cumbre no se reparte igual, la brecha entre arriba y abajo se ensancha, y llega un momento en que una parte del país deja de aceptar las reglas porque ha dejado de beneficiarse de ellas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cifra que usa para Estados Unidos es la que mejor resume su preocupación: el uno por mil más rico posee aproximadamente tanto patrimonio como el noventa por ciento inferior de la población. Es un reparto parecido al que existía en los años veinte, justo antes de la década que reordenó la política de medio mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Dalio subraya no es la injusticia sino la mecánica. Cuando la economía crece, un reparto desigual se tolera porque casi todos mejoran algo; cuando deja de crecer, el reparto se convierte en un juego de suma cero y la política se endurece, porque lo que gana un grupo tiene que salir de otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca las señales que considera decisivas y que se pueden observar: que los dos bandos dejen de aceptar los resultados de las elecciones, que empiece a haber violencia política tolerada por una parte de la población, y que las élites financieras empiecen a sacar el dinero del país. Las tres son medibles y las tres preceden a lo peor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un reparto desigual se tolera mientras casi todos mejoran algo. Cuando la economía deja de crecer, ese mismo reparto se vuelve el único asunto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cuando el segundo alcanza al primero, la guerra se libra durante años sin declararse",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercer ciclo es el del orden externo, y su regla es que una potencia establecida y otra ascendente entran en conflicto cuando sus capacidades se acercan. Dalio revisa casos históricos y sostiene que la mayoría terminó en guerra, aunque no siempre, y que las excepciones dependieron de que hubiera alguien capaz de negociar el relevo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su descripción de las fases previas es la parte útil. Antes de cualquier disparo hay una guerra comercial, una guerra tecnológica, una guerra de capitales y una guerra geopolítica, y todas ellas se libran con aranceles, controles de exportación, sanciones y alianzas. Sostiene que esas fases ya estaban en marcha cuando escribía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre China, su argumento es que asciende en la mayoría de los ocho indicadores y desde muy abajo. Recuerda que el país considera el periodo que va de 1839 a 1949 como un siglo de humillación, y que desde las reformas iniciadas en 1978 ha recuperado en cuatro décadas la posición que tuvo durante la mayor parte de la historia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí es donde el lector debe saber quién escribe. Bridgewater tiene un negocio importante en China y Dalio ha mantenido durante años una relación estrecha con sus autoridades, y sus declaraciones públicas comparando la gobernanza china con la de un padre estricto le costaron críticas duras. El análisis puede ser correcto y el interés existe igualmente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de la guerra militar hay una comercial, una tecnológica y una de capitales. Se libran con aranceles y con controles de exportación, y llevan años en marcha.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Con tres imperios no hay muestra suficiente para afirmar que algo se repite",
+      },
+      {
+        b: "texto",
+        texto:
+          "La objeción de fondo al libro no es política, es estadística. Dalio afirma haber encontrado un patrón de doscientos cincuenta años estudiando quinientos, lo que significa que el patrón completo se ha podido observar como mucho dos veces. Con dos casos cerrados y uno en curso no se puede distinguir una regularidad de una coincidencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo problema es que los ocho indicadores no son datos independientes. Los construye Bridgewater eligiendo qué series entran, cómo se normalizan y qué peso lleva cada una, y después se comprueba que las curvas resultantes encajan con la teoría. Ese procedimiento no puede refutar el modelo, porque el modelo intervino en la construcción de la medida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una objeción histórica que muchos especialistas han señalado. Comparar la República de las Provincias Unidas del siglo diecisiete, el Imperio británico del diecinueve y Estados Unidos del veinte exige aplanar diferencias enormes de tecnología, de población, de instituciones y de escala, y lo que queda después de aplanarlas se parece más a un molde que a un hallazgo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nada de esto obliga a tirar el libro, pero sí a leerlo de otra manera. Como lista de indicadores que conviene vigilar y como recordatorio de que ningún orden monetario ha durado para siempre, es valioso. Como calendario que dice en qué fase está cada país y qué viene después, promete una precisión que sus datos no permiten.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un patrón que solo ha podido observarse dos veces enteras no es un patrón: es una manera de contar dos historias con las mismas palabras.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que ningún orden monetario ha sido eterno, que la moneda de reserva es el último indicador en caer y por eso engaña, que ante una deuda impagable se acaba imprimiendo dinero porque es la salida sin culpable, y que la desigualdad interna precede al conflicto externo. Las cuatro cosas se pueden sostener sin aceptar el modelo entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una lista de indicadores que casi nadie mira junta. La educación y la innovación se mueven décadas antes que la economía y el ejército, y quien quiera saber cómo le va a un país dentro de treinta años tiene ahí mejores datos que en cualquier titular.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ningún orden monetario ha durado para siempre. Eso no dice cuándo acaba el actual, y saberlo cambia dónde se guarda el dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El patrón se apoya en dos ciclos completos y uno en curso, los indicadores que lo demuestran los construye la propia casa que defiende la teoría, y el libro repite sus tesis una y otra vez hasta un punto que su autor reconoce en el prólogo. Además, el interés económico de Bridgewater en China está en el mismo terreno sobre el que el libro pronostica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el marcador de estos años obliga a rebajar sus previsiones. Desde 2021, la parte del dólar en las reservas mundiales ha seguido bajando muy despacio y no ha aparecido ningún sustituto; en 2022 el dólar se fortaleció con fuerza, justo al revés de lo que el libro daba por probable, y la cartera diversificada que Dalio defiende tuvo su peor año, con caídas en torno al veinte por ciento, porque bolsa y bonos cayeron a la vez. China entró en una crisis inmobiliaria seria tras el impago de su mayor promotora en diciembre de 2021, lo que complica la trayectoria ascendente del libro. Y el propio Dalio dejó el control de Bridgewater en octubre de 2022.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "principios-orden-mundial": PRINCIPIOS_ORDEN_MUNDIAL,
   "cronica-muerte-anunciada": CRONICA_MUERTE_ANUNCIADA,
   "madame-curie": MADAME_CURIE,
   "el-proceso": EL_PROCESO,
