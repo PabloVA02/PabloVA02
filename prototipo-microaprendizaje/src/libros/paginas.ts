@@ -103288,7 +103288,289 @@ const HAZTE_RICO_DURMIENDO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Vivir para contarla, de Gabriel García Márquez (2002), en ocho páginas.
+
+   Memoria personal, así que el registro del apartado 3 bis: titulares
+   cortos de imagen y la afirmación en la primera frase. Las cajas hablan
+   al lector.
+
+   La séptima página dice lo que el libro no cuenta y por qué: se detiene
+   en 1955, los volúmenes siguientes no llegaron nunca y por tanto toda la
+   parte discutida de su vida queda fuera. Y la conclusión trae lo que pasó
+   con sus últimos papeles, que se parece bastante al caso de Kafka.
+   -------------------------------------------------------------------------- */
+
+const VIVIR_PARA_CONTARLA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un viaje a vender la casa" },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con una frase que su autor consideraba la mejor que había escrito nunca: su madre le pidió que la acompañara a vender la casa. Él tenía veintidós años, había abandonado la carrera de derecho, escribía en un periódico de provincias por un sueldo mínimo y vivía en una habitación alquilada por encima de un burdel.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La casa estaba en Aracataca, el pueblo del que se había ido de niño, y aquel viaje de un día en tren duró lo que dura una vida. Encontró un lugar polvoriento, medio abandonado, con las mismas calles y sin nadie dentro, y salió de allí con la certeza de que aquello era lo que tenía que escribir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "García Márquez publicó estas memorias en 2002, a los setenta y cinco años, y llegan solo hasta 1955, cuando el periódico lo mandó a Europa. Iban a ser tres volúmenes y los otros dos no llegaron nunca, así que este libro es lo único que dejó contado por él mismo sobre su propia vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que casi nadie sabe de esa historia: qué libro leyó a los diecinueve años que le enseñó a escribir, qué abuela le enseñó el tono, por qué escribió tres mil muertos donde no los hubo, qué le pasó en Bogotá el 9 de abril de 1948 y qué reportaje lo obligó a salir del país.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El material que buscas suele estar en el sitio del que te fuiste. Él tardó veintidós años en volver, y volvió a vender la casa, no a mirarla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Así hablaba mi abuela" },
+      {
+        b: "texto",
+        texto:
+          "El momento en que aprendió a escribir está fechado y ocurrió en una pensión de estudiantes de Bogotá. Un amigo le prestó un libro delgado que empezaba diciendo que una mañana, al despertar de un sueño intranquilo, un hombre se encontró convertido en un insecto monstruoso. Era Kafka, y él tenía diecinueve años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su reacción, que ha contado muchas veces, fue de indignación: si se podía escribir así, entonces él llevaba años perdiendo el tiempo. Y lo formuló con la frase que lo explica todo: aquello era exactamente como hablaba su abuela. Contar lo imposible con la cara más seria del mundo, como quien informa del tiempo que hace.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Porque su abuela, Tranquilina, contaba en casa que las ánimas andaban por los cuartos, que a tal difunto se le había visto, que en tal sitio no había que entrar de noche, y lo contaba con el mismo tono con que anunciaba que iba a llover. Nunca subía la voz ni avisaba de que aquello era extraordinario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está el origen de todo lo que hizo después, y él lo dice sin rodeos: no inventó una manera de contar, reconoció una que ya conocía cuando la vio impresa. Su trabajo consistió en escribir como se hablaba en la casa de sus abuelos, y le costó veinte años atreverse a hacerlo del todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquellos años de pensión le dieron además el otro material que necesitaba: una biblioteca prestada. Un grupo de amigos de Barranquilla —dos periodistas, un escritor y un librero catalán que había huido de la guerra española— le prestaban libros y discutían con él hasta el amanecer. Ese librero acabaría apareciendo como personaje en su novela más conocida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que buscas fuera puede que lo aprendieras en tu casa de niño. Él tardó veinte años en atreverse a escribir como hablaba su abuela.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La casa de Aracataca" },
+      {
+        b: "texto",
+        texto:
+          "Se crió con sus abuelos hasta los ocho años, y ese detalle biográfico explica bastante de su obra. Sus padres se habían ido a otra ciudad a trabajar y lo dejaron en aquella casa grande, llena de mujeres, de historias y de habitaciones donde no se podía entrar por motivos que nadie explicaba del todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su abuelo, el coronel Nicolás Márquez, había peleado en la guerra civil que asoló el país a principios de siglo y arrastraba desde entonces algo que no se le pasó nunca: había matado a un hombre en un duelo, y volvía sobre aquello cada cierto tiempo. Le repetía al nieto que no sabía lo que pesaba un muerto encima.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El reparto de aquella casa es el de sus libros. El abuelo aportaba la memoria histórica, las guerras, la política y la culpa; la abuela y las tías aportaban los presagios, los difuntos que visitaban y el trato natural con lo que no podía ser. Él pasó ocho años oyendo las dos versiones del mundo a la vez, sin que ninguna se impusiera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando el abuelo murió, en 1937, lo mandaron a vivir con sus padres, a los que apenas conocía, y ha contado que aquello fue el final de algo. Todo lo que escribió después ocurre, de una manera o de otra, en aquella casa, y la mitad de su obra consiste en intentar volver a un sitio del que lo sacaron a los diez años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todo el mundo escribe, dibuja o construye a partir de un sitio del que lo sacaron. Vale la pena averiguar cuál es el tuyo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Tres mil muertos que no fueron tres mil" },
+      {
+        b: "texto",
+        texto:
+          "El pasaje más honrado del libro es el que explica cómo funciona la ficción, y trata de un episodio real. En diciembre de 1928, el ejército colombiano disparó contra una manifestación de trabajadores de las plantaciones de banano concentrados en la estación de Ciénaga, cerca de Aracataca, durante una huelga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El número de muertos nunca se estableció. Las cifras oficiales de la época hablaban de unas pocas decenas; los testimonios y la memoria popular hablaban de cientos o de miles, y el asunto quedó envuelto en versiones contradictorias que siguen discutiéndose hoy entre historiadores colombianos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando escribió su novela más famosa, García Márquez puso tres mil muertos y un tren de doscientos vagones para llevárselos. Y aquí explica por qué: no era una estimación histórica, era una decisión de escritura. Necesitaba una cifra que produjera en el lector la desproporción del hecho, y eligió la que servía para eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado es una lección incómoda que él mismo cuenta con cierta preocupación. Aquella cifra inventada acabó incorporándose a la memoria colectiva del país y todavía hoy mucha gente la da por buena. Un novelista escribió un número para que su libro funcionara y ese número se convirtió en historia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La historia de la huelga se la contaba su abuelo, que vivía a pocos kilómetros de la estación cuando ocurrió. Es decir, la escena que millones de lectores conocen por una novela llegó a su autor de viva voz, de alguien que estuvo allí, y pasó por la memoria de un niño de seis años antes de llegar al papel treinta y siete años después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una cifra escrita para que un relato funcione puede acabar siendo lo que un país recuerda. Conviene saber de dónde salen los números que repites.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El nueve de abril" },
+      {
+        b: "texto",
+        texto:
+          "El 9 de abril de 1948, un hombre disparó en el centro de Bogotá contra Jorge Eliécer Gaitán, el político más popular del país y candidato seguro a la presidencia. Murió en el acto, la multitud linchó al agresor y la ciudad ardió durante días en lo que Colombia recuerda simplemente por la fecha.",
+      },
+      {
+        b: "texto",
+        texto:
+          "García Márquez estaba a unas manzanas, almorzando en una pensión, y salió a la calle a ver. Cuenta el saqueo, los tranvías volcados, la gente cargando pianos por la avenida y los tiradores en los tejados. Su pensión ardió aquella noche con todo lo que tenía dentro, incluidos los originales de lo que llevaba escrito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que cambió aquel día no fue solo su ropa. La universidad cerró indefinidamente, él dejó definitivamente el derecho y se marchó a la costa, donde empezó a trabajar en periódicos. Sin aquel incendio probablemente habría acabado de abogado, y él lo cuenta exactamente así.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y describe algo más difícil de contar: cómo aquel día partió la historia del país en dos. De ahí salió una década de violencia entre partidos que dejó cientos de miles de muertos y que está detrás de casi todo lo que ha pasado en Colombia desde entonces. Él tenía veintiún años y estaba mirando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un detalle de aquella jornada que él cuenta con humor amargo. Mientras la ciudad ardía, su hermano y él se dedicaron a intentar salvar de la pensión lo único que les importaba, que eran unos pocos libros y las hojas escritas, y perdieron las dos cosas. De lo que llevaba redactado hasta entonces no quedó nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "A veces el día que te lo quita todo es el que te saca de un camino en el que estabas por inercia. Solo se ve mucho después.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El náufrago que destapó un contrabando" },
+      {
+        b: "texto",
+        texto:
+          "El libro termina con un reportaje. En 1955, un marinero colombiano apareció vivo después de pasar diez días a la deriva en el Caribe tras caer al mar desde un destructor de la marina. El gobierno lo convirtió en héroe nacional, le organizó actos y lo paseó por el país como ejemplo de valor patrio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando la historia ya estaba agotada, el periódico donde trabajaba le encargó entrevistarlo. Estuvo con él veinte días, sesión tras sesión, y al reconstruir la travesía hora por hora apareció lo que nadie había preguntado: el barco no había naufragado por una tormenta, porque aquel día no la hubo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los marineros habían caído al agua porque la cubierta iba cargada de mercancía comprada en Estados Unidos —neveras, televisores, lavadoras— mal amarrada, que se soltó con el balanceo. Un buque de guerra transportando contrabando, y ocho hombres muertos por eso. El reportaje se publicó en catorce entregas y el periódico duplicó su tirada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las consecuencias llegaron enseguida. El gobierno militar reaccionó, el periódico quedó señalado y a él lo enviaron a Europa como corresponsal, en parte para quitarlo de en medio. Meses después clausuraron el diario. Ahí acaba el libro: con un joven de veintiocho años subiendo a un avión sin saber que no iba a volver en muchos años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El método que empleó para el reportaje es lo que conviene retener. No buscó documentos ni fuentes oficiales: reconstruyó con el propio superviviente lo que había hecho cada hora de los diez días, y las contradicciones aparecieron solas al cuadrar los relatos entre sí. La noticia no estaba escondida en ningún sitio: estaba en las horas que nadie se había molestado en repasar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La historia que nadie ha contado suele estar en el testigo del que ya han hablado todos. Nadie le había preguntado la hora a hora.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que este libro no cuenta" },
+      {
+        b: "texto",
+        texto:
+          "Conviene saber dónde se detiene, porque lo que falta es tanto como lo que hay. El libro termina en 1955, antes de que escribiera ninguno de los libros por los que se le conoce, antes del premio Nobel y antes de convertirse en una figura pública. Iba a haber dos volúmenes más y no se escribieron nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso significa que la parte más discutida de su vida queda fuera por completo. Su amistad de décadas con Fidel Castro, su papel de intermediario en conflictos latinoamericanos, sus posiciones políticas y las críticas durísimas que recibió por todo ello no aparecen ni de lejos, porque el relato se corta veinte años antes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un aviso que puso el propio autor en la primera página, y es la clave para leerlo. Dice que la vida no es la que uno vivió, sino la que recuerda y cómo la recuerda para contarla. Es un hombre de setenta y cinco años que se ha pasado la vida inventando avisando de que va a contar su versión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus biógrafos han comprobado después que varios episodios están reordenados, comprimidos o mejorados. Eso no lo invalida: lo convierte en otra cosa. No es un documento histórico, es la historia que él decidió contar de sí mismo, que en un escritor de esta clase es un material distinto y también valioso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una consecuencia práctica de que los otros dos volúmenes no llegaran. Lo que hoy se sabe de su vida adulta procede de biógrafos, entrevistas y de gente que lo trató, es decir, de fuentes que él no controló, mientras que estos primeros veintiocho años están contados enteramente por él. Los dos tramos no se pueden leer con el mismo criterio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien te cuenta su vida, te está contando la versión que recuerda. Eso no la hace falsa: la convierte en otra cosa que también informa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta veintiocho años de una vida y sobre todo cuenta de dónde salió una manera de escribir. La respuesta no es literaria: salió de una casa con abuelos, de una guerra contada por un coronel, de una abuela que hablaba de aparecidos sin cambiar el tono y de un pueblo al que volvió a los veintidós años a vender la casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a cualquier biografía es que enseña el taller. Se ve de dónde sale cada material, cómo un episodio real se convierte en otra cosa al escribirlo, y por qué un escritor puede pasar veinte años sabiendo lo que tiene que contar sin atreverse a contarlo como sabía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi nadie inventa su manera de hacer las cosas. La reconoce cuando la ve en otro sitio, y entonces se atreve a usar la que ya tenía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es un libro difícil de leer para quien no conozca la geografía y la política colombianas: desfilan cientos de nombres, familias y pueblos sin más presentación que la memoria del autor. Las mujeres aparecen casi siempre como madres, tías o novias vistas desde fuera, y su propio matrimonio, que duró más de cincuenta años, apenas asoma. Y varios episodios están mejorados, cosa que él avisa en la primera página y que sus biógrafos comprobaron después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después dejó una historia que se parece bastante a otra. García Márquez perdió la memoria en sus últimos años, no escribió los dos volúmenes que faltaban y murió en 2014. Entre sus papeles quedó una novela corta que él había ordenado destruir porque la consideraba fallida. Diez años después, sus hijos decidieron que se había equivocado y la publicaron, y explicaron en el prólogo que preferían traicionarlo a que se perdiera. Es exactamente lo que hizo el amigo de Kafka en 1924, y esta vez el que lo pedía había escrito un libro entero sobre cómo se cuentan las vidas.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "vivir-para-contarla": VIVIR_PARA_CONTARLA,
   "hazte-rico-durmiendo": HAZTE_RICO_DURMIENDO,
   "quietud-es-la-clave": QUIETUD_ES_LA_CLAVE,
   "pleno-compromiso": PLENO_COMPROMISO,

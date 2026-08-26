@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "vivir-para-contarla": [
+    "de dónde sale una manera de escribir que parece inventada",
+    "que casi nadie inventa su método: lo reconoce al verlo en otro sitio",
+    "cómo una cifra escrita para una novela acaba siendo memoria de un país",
+    "dónde suele estar la noticia que nadie ha contado todavía",
+    "qué criterio hace falta para leer las memorias de alguien",
+  ],
+
   "hazte-rico-durmiendo": [
     "qué hace en realidad el cerebro mientras alguien duerme",
     "por qué consultarlo con la almohada funciona y con qué condición",

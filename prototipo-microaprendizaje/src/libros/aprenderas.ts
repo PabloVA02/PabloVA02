@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "vivir-para-contarla":
+    "A los veintidós años, su madre le pidió que la acompañara a vender la casa del pueblo donde se había criado. De aquel viaje de un día salió, veinte años después, su novela más conocida.",
+
   "hazte-rico-durmiendo":
     "Sweetland sostiene en 1962 que una parte de la mente trabaja de noche en lo que se le encargue antes de dormir. El cerebro dormido sí trabaja, y lo hace de una manera bastante más interesante que esa.",
 
