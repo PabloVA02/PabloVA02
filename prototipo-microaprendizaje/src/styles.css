@@ -100,6 +100,32 @@
   --titular: "Hoefler Text", Baskerville, "Palatino Linotype", Palatino,
     "Iowan Old Style", Georgia, "Noto Serif", serif;
 
+/* LAS FICHAS DE INFORMACIÓN, medidas sobre las capturas de Headway del 26 de
+     agosto a las 19:34. Pablo: «fíjate exactamente cómo son, los espacios
+     entre cada cuadrado, los colores, los bordes que tienen como un relieve,
+     las letras, todo».
+
+       relleno      #383838
+       filete       1 punto; en la captura el píxel de fuera sale #4e4e4e y
+                    el de dentro #606060, o sea un filete de medio punto muy
+                    claro suavizado contra los dos lados. Un punto de #545454
+                    da lo mismo a la vista y no depende de la densidad de
+                    pantalla.
+       radio        14, medido en la esquina de arriba a la izquierda
+       sangrado     17
+       hueco        31 entre fichas, sin título en medio
+       título       20 en negrita, y 14 hasta la ficha que va debajo
+
+     EL FILETE ES LA MITAD DEL ASUNTO. Nuestras fichas eran crema al 7 % sobre
+     el fondo y nada más: sin filo, una ficha sobre un fondo oscuro no es una
+     ficha, es una mancha un poco más clara. Con el filete el borde existe y la
+     ficha se levanta —eso es el relieve del que habla Pablo—. */
+  --tarjeta: #383838;
+  --tarjeta-filo: #545454;
+  --tarjeta-radio: 14px;
+  --tarjeta-pad: 17px;
+  --tarjeta-hueco: 31px;
+
   --radius-card: 26px;
   --shell-pad: 22px;
 
@@ -3326,10 +3352,11 @@ button {
   display: flex;
   align-items: center;
   gap: 14px;
-  margin-top: 14px;
+  margin-top: var(--tarjeta-hueco);
   padding: 16px 16px 18px;
-  border-radius: 20px;
-  background: rgba(242, 236, 225, 0.07);
+  border-radius: var(--tarjeta-radio);
+  background: var(--tarjeta);
+  border: 1px solid var(--tarjeta-filo);
 }
 
 .perfil-racha-llama {
@@ -3448,12 +3475,13 @@ button {
   align-items: center;
   gap: 13px;
   width: 100%;
-  margin-top: 12px;
+  margin-top: var(--tarjeta-hueco);
   padding: 13px 15px;
-  border-radius: 18px;
-  background: rgba(242, 236, 225, 0.07);
+  border-radius: var(--tarjeta-radio);
+  background: var(--tarjeta);
   text-align: left;
   color: var(--paper);
+  border: 1px solid var(--tarjeta-filo);
 }
 
 .perfil-fila-ilu { flex: none; width: 46px; height: 38px; }
@@ -3470,7 +3498,7 @@ button {
   margin-top: 2px;
   font-size: 12px;
   line-height: 1.35;
-  color: rgba(242, 236, 225, 0.52);
+  color: rgba(255, 255, 255, 0.66);
 }
 
 .perfil-fila-flecha {
@@ -3479,13 +3507,13 @@ button {
   color: rgba(242, 236, 225, 0.38);
 }
 
-.perfil-bloque { margin-top: 26px; }
+.perfil-bloque { margin-top: var(--tarjeta-hueco); }
 
 .perfil-titulo-bloque {
   font-size: 20px;
   font-weight: 750;
   letter-spacing: -0.022em;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 
 .perfil-rejilla {
@@ -3500,10 +3528,11 @@ button {
   align-items: flex-start;
   gap: 8px;
   padding: 13px 13px 14px;
-  border-radius: 18px;
-  background: rgba(242, 236, 225, 0.07);
+  border-radius: var(--tarjeta-radio);
+  background: var(--tarjeta);
   text-align: left;
   color: var(--paper);
+  border: 1px solid var(--tarjeta-filo);
 }
 
 .perfil-casilla-ilu {
@@ -3533,12 +3562,13 @@ button {
   justify-content: space-between;
   gap: 8px;
   padding: 16px 15px;
-  border-radius: 16px;
-  background: rgba(242, 236, 225, 0.07);
+  border-radius: var(--tarjeta-radio);
+  background: var(--tarjeta);
   color: var(--paper);
   font-size: 14px;
   font-weight: 640;
   text-align: left;
+  border: 1px solid var(--tarjeta-filo);
 }
 
 .perfil-contenido-icono {
@@ -4619,10 +4649,11 @@ button {
    sobre el oscuro y el mismo radio que la racha. En crema y con borde propio
    se leía como un recorte pegado de otra pantalla. */
 .meta {
-  margin-top: 12px;
+  margin-top: var(--tarjeta-hueco);
   padding: 15px 16px 16px;
-  border-radius: 20px;
-  background: rgba(242, 236, 225, 0.07);
+  border-radius: var(--tarjeta-radio);
+  background: var(--tarjeta);
+  border: 1px solid var(--tarjeta-filo);
 }
 
 .meta-fila {
@@ -4816,10 +4847,10 @@ button {
    ========================================================================== */
 .suscri {
   position: relative;
-  border-radius: 12px;
+  border-radius: var(--tarjeta-radio);
   overflow: hidden;
-  background: #383838;
-  border: 1px solid #4e4e4e;
+  background: var(--tarjeta);
+  border: 1px solid var(--tarjeta-filo);
 }
 
 /* UN degradado, vertical y corto. La banda llevó dos —un foco radial encima
@@ -4943,9 +4974,11 @@ button {
    ========================================================================== */
 .cuenta {
   margin: 6px 0 0;
-  padding: 18px 20px 18px;
-  border-radius: 12px;
-  background: rgba(242, 236, 225, 0.07);
+  padding: var(--tarjeta-pad);
+  border-radius: var(--tarjeta-radio);
+  background: var(--tarjeta);
+  border: 1px solid var(--tarjeta-filo);
+  margin-top: var(--tarjeta-hueco);
 }
 
 .cuenta-alto {
@@ -4987,7 +5020,7 @@ button {
   font-size: 13.5px;
   line-height: 1.36;
   font-weight: 500;
-  color: rgba(242, 236, 225, 0.58);
+  color: rgba(255, 255, 255, 0.86);
   text-wrap: pretty;
 }
 
@@ -5051,14 +5084,17 @@ button {
   --serie-b: #6fbfa4;
   /* El fondo de la tarjeta, en una variable, porque los puntos de la gráfica
      lo llevan de contorno para que el trazo pase por detrás y no los cruce.
-     Es opaco a propósito: con el translúcido de la tarjeta, el contorno del
-     punto dejaría ver la línea por debajo. */
-  --crece-fondo: #2b2a2e;
+     Es opaco a propósito: con un contorno translúcido se vería la línea por
+     debajo. Iba a mano en #2b2a2e, que era el color que daba la tarjeta
+     translúcida sobre el fondo viejo; ahora las fichas tienen relleno propio
+     y esto apunta al mismo sitio, así que no se puede volver a desincronizar. */
+  --crece-fondo: var(--tarjeta);
 
-  margin-top: 12px;
+  margin-top: 0;
   padding: 16px 14px 13px;
-  border-radius: 20px;
-  background: rgba(242, 236, 225, 0.07);
+  border-radius: var(--tarjeta-radio);
+  background: var(--tarjeta);
+  border: 1px solid var(--tarjeta-filo);
 }
 
 /* --- Las dos cifras ------------------------------------------------------ */
@@ -5088,7 +5124,7 @@ button {
 .crece-cifra-rotulo {
   font-size: 12.5px;
   font-weight: 600;
-  color: rgba(242, 236, 225, 0.56);
+  color: rgba(255, 255, 255, 0.62);
 }
 
 /* La diferencia. Verde arriba, barro abajo y gris en el empate: son los tres
@@ -5159,10 +5195,11 @@ button {
    TUS TEMAS
    ========================================================================== */
 .temas {
-  margin-top: 12px;
+  margin-top: 0;
   padding: 15px 16px 14px;
-  border-radius: 20px;
-  background: rgba(242, 236, 225, 0.07);
+  border-radius: var(--tarjeta-radio);
+  background: var(--tarjeta);
+  border: 1px solid var(--tarjeta-filo);
 }
 
 /* La barra crece desde la izquierda de una pieza: son partes de un mismo
@@ -5203,7 +5240,7 @@ button {
   flex: 1;
   min-width: 0;
   font-weight: 620;
-  color: rgba(242, 236, 225, 0.9);
+  color: rgba(255, 255, 255, 0.92);
 }
 .temas-pct {
   font-weight: 720;
@@ -5407,10 +5444,10 @@ button {
   align-items: center;
   gap: 13px;
   width: 100%;
-  margin-top: 12px;
+  margin-top: var(--tarjeta-hueco);
   padding: 14px 15px;
-  border-radius: 18px;
-  border: 1.5px solid rgba(194, 112, 79, 0.34);
+  border-radius: var(--tarjeta-radio);
+  border: 1px solid var(--tarjeta-filo);
   background: rgba(194, 112, 79, 0.13);
   color: var(--paper);
   text-align: left;
@@ -5429,7 +5466,7 @@ button {
   margin-top: 2px;
   font-size: 12px;
   line-height: 1.35;
-  color: rgba(242, 236, 225, 0.6);
+  color: rgba(255, 255, 255, 0.72);
 }
 
 /* Invitar amigos, dentro del perfil */
@@ -5450,11 +5487,12 @@ button {
    encima. */
 .perfil-invitar {
   position: relative;
-  margin-top: 12px;
-  padding: 16px;
-  border-radius: 12px;
-  background: rgba(242, 236, 225, 0.07);
+  margin-top: var(--tarjeta-hueco);
+  padding: var(--tarjeta-pad);
+  border-radius: var(--tarjeta-radio);
+  background: var(--tarjeta);
   overflow: hidden;
+  border: 1px solid var(--tarjeta-filo);
 }
 
 .perfil-invitar-alto {
@@ -5477,7 +5515,7 @@ button {
   font-size: 15px;
   line-height: 21px;
   font-weight: 450;
-  color: rgba(242, 236, 225, 0.62);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .perfil-invitar-arte {
