@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "ninos-escuchen":
+    "Las cinco respuestas normales a un niño disgustado —no es para tanto, la vida es así, deberías, algo habrás hecho— terminan la conversación. Este cuaderno de 1980 da la frase exacta que funciona en su lugar.",
+
   "arte-de-empezar":
     "Kawasaki convenció en los ochenta a los programadores de que escribieran para el primer Macintosh, y después pasó a financiar empresas nuevas. Este manual de 2004 reúne lo que vio desde los dos lados.",
 

@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "ninos-escuchen": [
+    "qué pasa cuando se le niega a alguien lo que está sintiendo",
+    "por qué describir una situación produce menos resistencia que mandar",
+    "qué hay entre castigar a un niño y no hacer absolutamente nada",
+    "por qué decirle que es listo funciona peor que describirle lo que hizo",
+    "cómo una familia reparte papeles sin que nadie lo decida",
+  ],
+
   "arte-de-empezar": [
     "por qué conviene decidir qué se quiere cambiar antes que cómo cobrar",
     "qué diferencia hay entre un lema que sirve para decidir y una declaración",

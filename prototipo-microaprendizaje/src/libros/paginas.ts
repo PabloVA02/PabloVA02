@@ -106805,7 +106805,297 @@ const ARTE_DE_EMPEZAR: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Cómo hablar para que los niños escuchen, de Adele Faber y Elaine
+   Mazlish (1980), en ocho páginas.
+
+   Libro práctico, registro de tú: apartado 4.7.
+
+   La séptima página dice lo que el libro no cubre —niños con dificultades
+   de atención o del desarrollo, sobre los que no dice nada— y la
+   conclusión trae lo que se midió después: el trabajo de Gottman sobre
+   nombrar emociones y el de Dweck sobre el elogio, que confirman lo que
+   aquí se afirmaba sin datos.
+   -------------------------------------------------------------------------- */
+
+const NINOS_ESCUCHEN: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Faber y Mazlish sostienen que casi todo lo que un adulto contesta a un niño disgustado le hace dejar de hablar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un niño llega diciendo que le han quitado el sitio en el autobús. Un adulto normal contesta una de estas cinco cosas: que no es para tanto, que la vida es así, que la próxima vez se siente antes, que algo habrá hecho, o que anda, tampoco es tan grave. Las cinco son razonables y las cinco terminan la conversación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Adele Faber y Elaine Mazlish se formaron con un psicólogo infantil llamado Haim Ginott y llevaban años dando talleres para padres cuando publicaron este libro en 1980. No es un tratado: es un cuaderno de trabajo con diálogos reales, viñetas y ejercicios, sacado de lo que contaban en esos talleres cientos de familias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que el problema no está en lo que los adultos quieren conseguir, que suele ser razonable, sino en la frase concreta que usan para conseguirlo. Y que existen alternativas exactas, que se pueden escribir y practicar, y que producen resultados distintos con los mismos niños y en las mismas situaciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre las suyas: qué hacer con un disgusto en lugar de resolverlo, cómo se consigue colaboración sin mandar ni repetir, qué hay entre castigar y no hacer nada, por qué elogiar bien no es decir que algo está muy bien, y qué no cubre este libro en absoluto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las cinco respuestas normales a un niño disgustado —no es para tanto, la vida es así, deberías, algo habrás hecho— terminan la conversación.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un sentimiento negado no desaparece: se queda y además deja de contarse",
+      },
+      {
+        b: "texto",
+        texto:
+          "La observación de partida es que los adultos intentan quitarle al niño el sentimiento incómodo, y que eso no funciona en ninguna dirección. Decirle a alguien que no está cansado no le quita el cansancio; le enseña que lo que siente no cuenta y que quien tiene delante no es el sitio donde contarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto acumulado es el que importa. Un niño al que se le corrige sistemáticamente lo que siente aprende dos cosas: que sus sensaciones son poco fiables y que hay que discutir para que le crean. De ahí salen tanto los niños que dejan de contar nada como los que insisten cada vez más fuerte, que son las dos caras del mismo aprendizaje.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que proponen en su lugar tiene cuatro pasos y ninguno consiste en dar la razón. Escuchar dejando lo que se esté haciendo; responder con un sonido en lugar de con una frase; ponerle nombre a lo que parece que pasa; y, cuando no hay solución, conceder el deseo con palabras: ojalá pudiera hacer que ese plátano estuviera maduro ahora mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuarto paso parece absurdo y es el que más sorprende al probarlo. Un niño que quiere algo imposible no necesita que se le explique que es imposible, que ya lo sabe: necesita que alguien reconozca lo mucho que lo quería. Reconocerlo suele calmar más deprisa que cualquier explicación, y la explicación se puede dar después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un sentimiento negado no desaparece: lo que desaparece es que te lo cuenten. Y las dos cosas se aprenden bastante deprisa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Para que alguien colabore, describir lo que ves funciona mejor que decirle lo que tiene que hacer",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda parte del libro es la más práctica y trata de conseguir que algo se haga. Su punto de partida es que las tres formas habituales —mandar, acusar y comparar— producen resistencia inmediata en cualquier persona de cualquier edad, y que existen alternativas que no la producen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es describir sin más lo que se ve, sin añadir nada: hay una toalla mojada encima de la cama. La segunda es dar la información que falta: las toallas mojadas dejan húmedas las sábanas. Las dos dejan al otro sacar la conclusión, y sacar una conclusión propia produce mucha menos resistencia que recibir una orden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es todavía más económica y consiste en decirlo con una palabra: la toalla. La cuarta es hablar del propio sentimiento sin acusar a nadie: no me gusta dormir en una cama húmeda. Y la quinta, que funciona sorprendentemente bien con niños que ya leen, es dejar una nota escrita en el sitio del problema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que tienen en común las cinco es lo que quitan: ninguna incluye un juicio sobre la persona. La diferencia entre hay una toalla mojada y eres un desastre no es de tono, es de contenido: la primera describe una situación reparable y la segunda describe un rasgo permanente, y contra un rasgo permanente nadie puede hacer nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "«Hay una toalla mojada en la cama» y «eres un desastre» no se diferencian en el tono. Lo segundo describe algo que no se puede arreglar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Entre castigar y no hacer nada hay siete cosas, y una de ellas resuelve la mayoría de los casos",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro es contrario al castigo y su argumento no es sentimental. Sostiene que castigar desvía la atención del niño desde lo que hizo hacia lo que le están haciendo, de modo que en lugar de pensar en cómo reparar aquello se dedica a sentirse tratado injustamente y a calcular cómo evitar que le pillen la próxima vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que propone son alternativas concretas y no la ausencia de consecuencias, que es la caricatura habitual. Señalar cómo puede ayudar a arreglarlo; expresar desaprobación fuerte sobre la conducta sin decir nada sobre la persona; decir en voz alta qué se espera; enseñarle a reparar el daño; ofrecer una elección; y actuar uno mismo cuando hace falta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La séptima es la que más se usa y la que más se confunde con un castigo: dejar que ocurran las consecuencias naturales de lo que hizo. La diferencia es que una consecuencia natural la produce la situación y no el adulto, así que no hay nadie a quien reprocharle nada y el aprendizaje se queda donde tiene que quedarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y para los conflictos que se repiten proponen un procedimiento de cinco pasos que funciona a partir de cierta edad: hablar de lo que siente el niño, hablar de lo que siente el adulto, buscar ideas juntos apuntándolo todo sin descartar nada por absurdo que sea, tachar después lo que no valga y quedarse con lo que acepten los dos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un castigo desplaza la atención de lo que hizo hacia lo que le estás haciendo. A partir de ahí ya no piensa en reparar nada, piensa en ti.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Decirle a un niño que es listo funciona peor que describirle lo que ha hecho",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre elogios es el más contrario a la intuición y el que mejor ha resistido. Su tesis es que los elogios que juzgan —qué listo eres, eres un artista, muy bien— producen menos efecto del que se supone, y que en algunos casos producen el contrario del buscado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo es que un juicio, aunque sea favorable, coloca al adulto en el papel de quien evalúa, y eso convierte cada tarea siguiente en un examen. Un niño al que se le repite que es listo tiene algo que perder cada vez que se enfrenta a algo difícil, y la manera más segura de no perderlo es no intentar cosas difíciles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que proponen en su lugar es describir. En lugar de qué bonito te ha quedado, decir lo que se ve: has usado tres azules distintos, y aquí has hecho la línea sin levantar el lápiz. Y añadir el efecto que produce: al mirarlo me da la sensación de estar viendo el mar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto de esa diferencia es concreto. Un juicio se recibe y se olvida; una descripción le enseña al niño exactamente qué ha hecho bien, que es lo que le permite repetirlo, y además le deja a él el papel de valorarlo. Los autores señalan que los niños se elogian solos después de una descripción, y eso es lo que se buscaba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Describe lo que ha hecho en vez de juzgarlo. Un juicio se olvida; una descripción le dice qué hizo bien, que es lo que le permite repetirlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las familias reparten papeles sin darse cuenta, y el niño acaba interpretando el suyo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El último capítulo trata de algo que ocurre en casi todas las casas con más de un hijo. Sin que nadie lo decida, cada niño acaba teniendo un papel asignado: el estudioso, el torpe, el sensible, el gracioso, el que da problemas. Los papeles se instalan por repetición y en cuanto están puestos empiezan a funcionar solos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo es de dos direcciones. El adulto interpreta cada conducta a través del papel —si el torpe rompe algo, confirma; si lo rompe el estudioso, ha sido un accidente— y el niño aprende qué se espera de él y lo cumple, porque tener un sitio asignado, aunque sea malo, es mejor que no tener ninguno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que proponen para deshacerlo son cinco cosas concretas y ninguna consiste en decirle que ya no es así. Enseñarle una imagen distinta de sí mismo; ponerlo en una situación en la que pueda verse de otra manera; dejar que oiga cómo hablas bien de él a otra persona; ser el ejemplo de la conducta que quieres; y recordarle sus buenos momentos cuando recaiga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y avisan de lo más difícil, que es lo que hace el adulto cuando el niño se sale del papel. Un niño etiquetado como conflictivo que un día ayuda sin que se lo pidan suele recibir un comentario de sorpresa, y esa sorpresa le confirma cuál es su papel. Lo que hay que hacer entonces es exactamente nada: agradecerlo como si fuera normal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando un niño se sale del papel que le habéis asignado, no lo celebres con sorpresa. La sorpresa le confirma cuál era su papel.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Es un libro de 1980 y no dice nada de los niños para los que esto no basta",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene saber qué queda fuera. El libro está construido sobre talleres con padres de niños sin dificultades específicas, y no menciona en ningún momento el trastorno por déficit de atención, el autismo, los trastornos del lenguaje ni ninguna otra condición del desarrollo, que afectan a una proporción considerable de la población infantil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso importa porque varias de sus técnicas presuponen capacidades concretas: entender una descripción indirecta, tolerar la frustración mientras se busca una solución conjunta, leer una nota, sostener una conversación sobre sentimientos. Un niño con una dificultad de atención o de comunicación puede necesitar apoyos distintos y más estructura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica no es descartar el libro, porque sus principios siguen valiendo. Es no concluir que uno lo está haciendo mal cuando las técnicas no funcionan, que es exactamente lo que le pasa a mucha familia con un hijo que no responde como los del libro, y que retrasa la consulta que hacía falta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un desajuste de época en los ejemplos. Los diálogos están escritos en una época en que se daba por supuesto que la madre estaba en casa y el padre trabajaba fuera, y aunque el contenido no depende de eso, el decorado sí, y la edición actualizada de hace algunos años corrigió parte de ese desfase.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre el castigo físico, en cambio, el libro se adelantó bastante a la ley. En España la posibilidad de corregir a los hijos de forma razonable y moderada estuvo escrita en el Código Civil hasta 2007, cuando se suprimió, y el peso de la investigación desde entonces ha ido en una sola dirección.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si estas técnicas no funcionan con tu hijo, la conclusión no es que lo estés haciendo mal. Puede ser que haga falta otra cosa, y merece consultarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que negar lo que siente un niño no le quita el sentimiento y sí le quita las ganas de contarlo, que describir una situación produce menos resistencia que dar una orden, que castigar desplaza la atención del daño hacia el castigador, y que describir lo que alguien ha hecho enseña más que juzgarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a otros libros de crianza es que es utilizable. No explica teorías del desarrollo: da la frase exacta, con la versión mala al lado, y pide que se practique. Cuarenta y cinco años después sigue siendo el manual que más recomiendan quienes trabajan con familias, y ese es un dato en sí mismo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ponle nombre a lo que le pasa antes de resolverlo, describe en vez de mandar y describe en vez de juzgar. Con eso está casi todo el libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es material clínico y de taller, no de investigación: las afirmaciones se apoyan en la experiencia de sus autoras y en cientos de casos contados por padres, no en estudios. No dice absolutamente nada de los niños con dificultades del desarrollo. Y exige del adulto justo lo que es más difícil cuando llega el conflicto, que es haberse regulado uno mismo primero, cosa que el libro reconoce muy poco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después midió lo que ellas afirmaban sin datos. La investigación de John Gottman durante los años noventa encontró que los padres que reconocen y nombran las emociones de sus hijos —lo que él llamó preparación emocional— tienen hijos que se regulan mejor, se recuperan antes de un disgusto y funcionan mejor en la escuela. Y en 1998, Carol Dweck comparó elogiar la inteligencia con elogiar el esfuerzo y encontró que los niños elogiados por listos elegían después tareas más fáciles y rendían peor tras un fracaso, que es exactamente lo que este libro advertía dieciocho años antes.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "ninos-escuchen": NINOS_ESCUCHEN,
   "arte-de-empezar": ARTE_DE_EMPEZAR,
   "libro-del-sueno": LIBRO_DEL_SUENO,
   "ford-vida-obra": FORD_VIDA_OBRA,
