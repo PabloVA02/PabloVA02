@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cronica-muerte-anunciada": [
+    "por qué nadie avisa cuando el aviso lo puede dar cualquiera",
+    "que el silencio de un grupo no siempre significa distracción",
+    "cómo el honor se cobra en la persona a la que dice proteger",
+    "el peso que puede tener un nombre dicho sin ninguna prueba",
+    "lo que hace un relato real con las personas que aún viven en él",
+  ],
+
   "madame-curie": [
     "cuánto trabajo idéntico hay detrás de lo que se llama un descubrimiento",
     "por qué renunciaron a patentar el método que valía una fortuna",

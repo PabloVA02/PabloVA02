@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cronica-muerte-anunciada":
+    "Dos hermanos anunciaron a más de veinte vecinos que iban a matar a Santiago Nasar, y lo mataron. García Márquez reconstruye aquella mañana hora a hora para averiguar cómo pudo ocurrir delante de todos.",
+
   "madame-curie":
     "Para aislar un decigramo de radio, Marie Curie removió toneladas de mineral durante cuatro años en un cobertizo con goteras. Su hija Ève contó esa vida en 1937, tres años después de que la radiación la matara.",
 

@@ -95295,7 +95295,294 @@ const MADAME_CURIE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Crónica de una muerte anunciada, de Gabriel García Márquez (1981), en
+   ocho páginas.
+
+   Novela, así que el registro del apartado 3 bis: titulares cortos de
+   imagen y la afirmación en la primera frase. Las cajas hablan al lector.
+
+   Y se cuenta lo que casi nadie cuenta: que está tomado de un crimen real
+   de 1951, que el narrador es cómplice por omisión, y que la mujer de
+   carne y hueso en la que se basa Ángela Vicario vivió hasta 2003 y dijo
+   que el libro le arruinó la vida por segunda vez.
+   -------------------------------------------------------------------------- */
+
+const CRONICA_MUERTE_ANUNCIADA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo iban a matar" },
+      {
+        b: "texto",
+        texto:
+          "Es la única novela policíaca en la que el lector sabe desde la primera línea quién muere, quién lo mata y por qué. «El día en que lo iban a matar, Santiago Nasar se levantó a las 5.30 de la mañana para esperar el buque en que llegaba el obispo.» En una frase están el muerto, la hora y el suceso que llenó el pueblo de gente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al eliminar la intriga, García Márquez cambia la pregunta del libro. No es quién lo hizo, sino cómo pudo ocurrir delante de un pueblo entero que lo sabía. Un narrador que fue amigo del muerto vuelve veintisiete años después a reconstruir aquella mañana hora a hora, entrevistando a los que estaban.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro se publicó en 1981 y está tomado de un crimen real. El 22 de enero de 1951, en el pueblo colombiano de Sucre, dos hermanos mataron a machetazos a un joven llamado Cayetano Gentile por la misma razón que en la novela. García Márquez lo conocía, su familia estuvo en aquella boda y esperó treinta años a escribirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que casi nadie recuerda de esta novela: por qué devolvieron a la novia, a cuánta gente avisaron los asesinos, qué pasó con la carta que alguien deslizó bajo la puerta, quién cerró la puerta que lo dejó fuera, por qué los absolvieron y qué ocurrió diecisiete años después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando algo malo lo sabe todo el mundo, cada uno da por hecho que ya habrá avisado otro. Esa suposición compartida es lo que lo hace posible.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Devuelta a las dos horas" },
+      {
+        b: "texto",
+        texto:
+          "Todo empieza con una devolución. Bayardo San Román llega al pueblo, ve a Ángela Vicario, decide casarse con ella y organiza una boda descomunal que dura toda la noche. Esa misma madrugada la lleva de vuelta a casa de su madre, la deja en la puerta y se va, porque ha descubierto que no era virgen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escena que sigue está contada en cuatro líneas y es la más brutal del libro. Su madre, Pura Vicario, la golpea en silencio en el dormitorio para no despertar al padre, que está ciego. Después llegan sus hermanos gemelos, Pedro y Pablo, y le preguntan quién fue. Ella dice un nombre: Santiago Nasar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "García Márquez deja ahí un hueco que no rellena nunca. El narrador investiga durante años y no encuentra una sola prueba de que Santiago Nasar y Ángela Vicario se conocieran siquiera. Ella no se retracta jamás y tampoco explica nada, y muchos años después admite que lo buscó en su memoria como quien busca una mariposa y lo eligió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese vacío es lo que convierte el libro en algo más que una tragedia rural. Un hombre muere por un nombre pronunciado sin explicación, y nadie —ni el juez, ni el pueblo, ni el lector— llega a saber si era verdad. La novela se niega a resolverlo, y esa negativa es una decisión y no un descuido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Del novio se sabe poco y todo es desmesurado. Para casarse compró la mejor casa del pueblo, la de un viudo que no quería venderla porque en ella había vivido con su mujer, y lo convenció poniéndole los billetes encima de la mesa en fajos. El viudo aceptó, y murió a los dos meses.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un nombre dicho en el momento justo puede pesar más que cualquier prueba. Nadie pidió una y nadie la echó de menos hasta que ya había un muerto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo avisaron a medio pueblo" },
+      {
+        b: "texto",
+        texto:
+          "Los gemelos Vicario hicieron todo lo posible por que alguien los detuviera. Se lo contaron a más de veinte personas antes de matarlo. Fueron a la carnicería a afilar los cuchillos delante del carnicero y le dijeron para qué. Se sentaron a esperar en la tienda de Clotilde Armenta, frente a la casa de Santiago Nasar, y se lo dijeron también a ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El alcalde los encontró, les quitó los cuchillos y se fue a desayunar convencido de que ya estaba resuelto. Ellos volvieron a su casa, cogieron otros dos, los afilaron y regresaron. El párroco lo supo y no hizo nada porque estaba pendiente de la llegada del obispo. Nadie tomó en serio a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El narrador reconstruye el motivo de esa parálisis y es el hallazgo del libro. Casi todos pensaron que era bravuconería de borrachos. Los que lo creyeron pensaron que ya lo habrían avisado otros. Y unos cuantos creyeron que Santiago Nasar se lo merecía, aunque después nadie lo dijera así ante el juez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una razón más incómoda, que la novela sugiere sin subrayar: la muerte convenía al orden del pueblo. Con Santiago Nasar vivo, la deshonra de los Vicario seguía en pie a la vista de todos. Buena parte de aquella pasividad no era distracción, sino conformidad con un desenlace que arreglaba las cosas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tendera Clotilde Armenta, que los tuvo delante toda la madrugada, le dio al juez la explicación más aguda de todas: le pareció que los gemelos no estaban tan empeñados en cumplir la sentencia como en encontrar a alguien que les hiciera el favor de impedírselo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que nadie diga nada no significa que nadie esté de acuerdo. A veces significa exactamente lo contrario, y por eso no hace falta que nadie lo organice.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La carta bajo la puerta" },
+      {
+        b: "texto",
+        texto:
+          "Alguien sí intentó avisarlo, y ese detalle es el que convierte la novela en una máquina de precisión. Una persona escribió un papel con el nombre de quien iba a matarlo, el lugar, el motivo y las circunstancias exactas, y lo metió por debajo de la puerta de su casa aquella madrugada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El papel se quedó en el suelo del recibidor. Santiago Nasar salió de casa aquella mañana y pasó por encima de él sin verlo, con la ropa blanca que se había puesto para recibir al obispo. Lo encontraron después, cuando ya estaba muerto, y nunca se supo quién lo había escrito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "García Márquez coloca ese detalle sin ninguna música, en una frase de paso, y ahí está la lección de estilo del libro entero. Un narrador menos seguro habría subrayado la ironía; este la deja caer y sigue con el horario de la mañana, y por eso el lector se queda con ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La novela acumula esos desencuentros hasta que resultan insoportables. La que iba a avisarlo se distrajo, el que iba a llamarlo se durmió, el mensaje que llegó a su madre llegó tarde, el hombre que lo vio venir pensó que ya se habría enterado. No hay ninguna casualidad imposible: hay veinte casualidades corrientes seguidas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno sí lo intentó de verdad. Cristo Bedoya, amigo suyo, recorrió el pueblo buscándolo, entró en su casa, sacó de un cajón el revólver que Santiago Nasar guardaba descargado y salió otra vez a la calle con él en la mano. Lo buscó por todas partes menos donde estaba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El aviso que salva a alguien casi nunca falla por falta de aviso. Falla porque llegó en un papel que nadie miró y en un momento en que todos tenían prisa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La puerta la cerró su madre" },
+      {
+        b: "texto",
+        texto:
+          "El golpe final del libro es que quien lo mata, sin saberlo, es su madre. Plácida Linero oye los gritos, ve a los gemelos venir con los cuchillos y corre a atrancar la puerta principal, convencida de que su hijo ya ha entrado en casa. Santiago Nasar estaba fuera, corriendo hacia esa misma puerta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Llegó cuando ya estaba cerrada. Lo alcanzaron contra la madera, delante del pueblo entero que había salido a mirar, y se emplearon con una torpeza terrible: los cuchillos no le atravesaban el cuerpo y tenían que sacarlos y volver a clavarlos. La autopsia contó siete heridas mortales entre muchas otras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurre después tiene una crueldad de detalle que es marca de la casa. Santiago Nasar se levantó, se sujetó las vísceras con las manos, dio la vuelta a la casa entera por fuera y entró por la puerta de atrás, atravesó la cocina, saludó y se derrumbó en su propia casa, boca abajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Plácida Linero tenía fama de intérprete certera de los sueños ajenos y aquella misma mañana había oído el de su hijo —árboles y pájaros— sin ver en él ningún presagio. Es la única premonición fallada de su vida, y la novela lo dice sin ensañarse, que es la única manera en que se podía decir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La autopsia la hizo el párroco, porque el único médico del pueblo se había ido a un congreso. La practicó con ayuda del boticario y con instrumental de enfermería, y él mismo dijo después que había sido como volver a matarlo cuando ya estaba muerto. Devolvieron el cuerpo vacío y mal cosido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las peores decisiones se toman corriendo y creyendo que se protege a alguien. Ella cerró la puerta para salvarlo y por eso no pudo entrar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Absueltos por honor" },
+      {
+        b: "texto",
+        texto:
+          "A los gemelos Vicario los absolvieron. Se entregaron ellos mismos en la iglesia, con los cuchillos todavía sucios, y declararon ante el juez que eran inocentes delante de Dios y delante de los hombres. Pasaron tres años en la cárcel a la espera de juicio y salieron libres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La defensa fue el homicidio en legítima defensa del honor, una figura que los tribunales de la época admitían y aplicaban. No fue una anomalía ni un error judicial: fue la ley funcionando como estaba escrita, y ese es el dato que sostiene todo el libro. El pueblo no protegió a unos asesinos, aplicó su propio código.",
+      },
+      {
+        b: "texto",
+        texto:
+          "García Márquez lo cuenta a través de un juez instructor joven, recién llegado de la ciudad, que no entiende nada de lo que ve y que anota al margen del sumario frases de desconcierto. Ese personaje es el lector de hoy metido dentro de la novela, y su perplejidad es la que el autor quiere provocar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una simetría cruel que la novela deja a la vista. Los que mataron quedaron libres, y la que fue devuelta quedó marcada de por vida: la familia se mudó de pueblo esa misma semana para que nadie la viera. El honor se restauró matando a un hombre y se cobró después en la mujer a la que decía proteger.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El juez instructor que llevó el sumario dejó escrita en el margen la frase que resume el libro entero: dadme un prejuicio y moveré el mundo. Era un hombre joven, recién salido de la facultad, y el expediente que redactó se lo tragó después una inundación del juzgado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un código de honor no protege a la persona en cuyo nombre se invoca. Los que mataron salieron libres y ella tuvo que mudarse de pueblo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos mil cartas sin abrir" },
+      {
+        b: "texto",
+        texto:
+          "El final de la novela no es el crimen: es una historia de amor tardía y muy rara. Ángela Vicario, desterrada con su familia a otro pueblo, empieza a escribirle cartas al hombre que la devolvió. Le escribe una por semana durante años, sin recibir nunca una respuesta ni saber si llegan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sigue escribiendo diecisiete años. Cartas de novia, de amante, de amiga, de esposa; unas suplicantes y otras furiosas. Es la única persona del libro que hace algo con constancia y por decisión propia, y lo hace precisamente ella, que había sido tratada durante toda la primera mitad como un objeto que se entrega y se devuelve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un mediodía, Bayardo San Román aparece en su casa, más viejo y con dos maletas. En una lleva ropa para quedarse. En la otra lleva casi dos mil cartas, ordenadas por fecha, atadas en paquetes con cintas de colores, y todas sin abrir. Le dice simplemente: bueno, ya estoy aquí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Que no las abriera es lo que hace grande la escena. No volvió porque leyera algo que lo convenciera: volvió por la insistencia misma, por veinte años de cartas cuyo contenido le daba igual. La novela más famosa sobre la fatalidad termina con lo único que en ella no era inevitable, y lo hizo una persona sola.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cambio de ella no fue místico ni repentino. Aprendió a bordar a máquina y vivió de eso, y su madre contaba que en aquellos años se volvió lúcida y dueña de su voluntad como no lo había sido nunca. Empezó a escribir después de verlo una sola vez, de lejos, en el vestíbulo de un hotel.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ella fue la única del libro que decidió algo y lo sostuvo veinte años. Todo lo demás ocurrió porque nadie decidió nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La novela cuenta un asesinato que todo el mundo sabía y nadie impidió, y su hallazgo no es el crimen sino el mecanismo: cómo una comunidad entera, sin que nadie se lo proponga, deja que ocurra algo que todos podían parar. Cada uno de esos pasos es corriente; solo su suma es monstruosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su forma es lo que la sostiene. Está escrita como un reportaje, con horarios, testimonios contradictorios —unos recuerdan un tiempo radiante y otros lluvia— y datos de sumario, y esa apariencia de investigación periodística obliga al lector a hacer de juez. Ciento veinte páginas, y ninguna sobra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pregúntate qué estás dando por hecho que ya habrá hecho otro. En este libro esa suposición la tenía el pueblo entero y mató a un hombre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y no suele decirse. A Ángela Vicario se le da el gesto final pero nunca la palabra: no explica por qué dijo aquel nombre, y su interioridad queda cerrada durante todo el libro, de modo que la novela reproduce en parte el silencio que denuncia. Y hay algo que el texto menciona sin examinar nunca: Santiago Nasar acosaba habitualmente a la criada adolescente de su casa, y el propio narrador confiesa de pasada haber hecho algo semejante. Eso está puesto y no se juzga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después es lo más incómodo de todo. El libro salió en 1981 con un primer tiraje de un millón de ejemplares, algo sin precedentes en español, y al año siguiente su autor recibió el premio Nobel. Pero las personas reales seguían vivas: la mujer en la que se basa Ángela Vicario, Margarita Chica, fue reconocida de inmediato en su pueblo, consideró demandar y repitió hasta su muerte, en 2003, que aquel libro le había arruinado la vida por segunda vez. Un relato sobre la responsabilidad colectiva tuvo, al publicarse, su propia víctima.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cronica-muerte-anunciada": CRONICA_MUERTE_ANUNCIADA,
   "madame-curie": MADAME_CURIE,
   "el-proceso": EL_PROCESO,
   "focus-goleman": FOCUS_GOLEMAN,
