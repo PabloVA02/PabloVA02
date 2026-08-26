@@ -8366,7 +8366,12 @@ button {
   height: 100%;
   object-fit: cover;
   transform: scale(1.6);
-  filter: blur(38px) saturate(1.25) brightness(0.6);
+  /* El brillo baja de 0,6 a 0,44 y el velo se cierra: los dos números estaban
+     ajustados contra una página de #222222, y la página ha bajado a #151515.
+     Un tercio menos de luminancia detrás y la misma mancha delante convierten
+     la tarjeta en una lámpara: el fondo desenfocado dejaba de leerse como el
+     plano de atrás y pasaba a ser lo más claro de la pantalla. */
+  filter: blur(38px) saturate(1.2) brightness(0.44);
   pointer-events: none;
 }
 /* Y encima, un velo que oscurece arriba y abajo. Sin él, una cubierta clara
@@ -8377,8 +8382,8 @@ button {
   inset: 0;
   pointer-events: none;
   background:
-    linear-gradient(to bottom, rgba(12, 10, 16, 0.55) 0%, rgba(12, 10, 16, 0.1) 26%,
-      rgba(12, 10, 16, 0.18) 62%, rgba(12, 10, 16, 0.72) 100%);
+    linear-gradient(to bottom, rgba(12, 10, 16, 0.62) 0%, rgba(12, 10, 16, 0.3) 28%,
+      rgba(12, 10, 16, 0.38) 64%, rgba(12, 10, 16, 0.82) 100%);
 }
 .hoy > *:not(.hoy-fondo):not(.hoy-velo):not(.hoy-aviso) { position: relative; z-index: 2; }
 
