@@ -108493,7 +108493,283 @@ const CINCO_HERIDAS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Por qué los hombres no escuchan y las mujeres no saben leer los mapas,
+   de Allan y Barbara Pease (1998), en ocho páginas.
+
+   Libro práctico, registro de tú.
+
+   El libro apoya todo en neurociencia, y esa neurociencia está mal. Así que la
+   sexta página es la comprobación —qué se ha replicado de verdad y con qué
+   tamaño— y va DENTRO, no en la conclusión: sin ella, las cinco anteriores se
+   leen como si fueran ciencia.
+   -------------------------------------------------------------------------- */
+
+const HOMBRES_NO_ESCUCHAN: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los Pease sostienen que la mayoría de las peleas de pareja no son de carácter, sino de instrucciones",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tesis de este libro es que un hombre y una mujer discutiendo por una tontería no están enfadados el uno con el otro: están usando dos manuales distintos sin saberlo. Y que casi todos esos manuales vienen de un reparto de tareas de hace decenas de miles de años, cuando uno salía a cazar y la otra se quedaba a defender el sitio donde se dormía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Allan Pease es australiano y viene de la venta: se hizo conocido dando cursos de lenguaje corporal a comerciales, y su libro anterior sobre gestos ya había vendido millones. Éste, escrito con Barbara Pease y publicado en 1998, es el que le hizo famoso fuera de ese circuito: más de diez millones de ejemplares y traducciones a más de cincuenta idiomas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La fecha importa y conviene tenerla presente desde aquí. El libro apoya cada capítulo en cerebros, hormonas y evolución, y la neurociencia en la que se apoya es la de los años ochenta y principios de los noventa. Casi todo lo que se ha investigado sobre este asunto desde entonces ha ido en su contra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue es su tesis, los tres ejemplos con los que la sostiene, la comprobación de si eso es cierto y una cosa que casi nadie dice de este libro: que buena parte de sus consejos funciona, aunque el motivo que da sea falso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una explicación puede ser falsa y el consejo que saca de ella funcionar igual. Conviene saber por cuál de las dos cosas lo estás usando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Todo el libro cuelga de una historia sobre cazadores y recolectoras" },
+      {
+        b: "texto",
+        texto:
+          "El armazón es siempre el mismo y conviene verlo entero antes que los ejemplos, porque después cada capítulo es una aplicación de esto. Durante cientos de miles de años, dicen los Pease, los hombres salían a cazar y las mujeres se quedaban en el campamento cuidando y recolectando. Cada tarea exige unas capacidades distintas, y la selección natural las fue afinando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De cazar sale, según el libro, una atención estrecha y muy sostenida: mirar un punto lejano durante horas, calcular distancias, no hablar. De recolectar y cuidar sale lo contrario: vigilar a la vez varias cosas cercanas, leer caras, distinguir tonos de voz y hablar mucho, porque el grupo era la protección.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sacan la lista de consecuencias que da título al libro. Un hombre no escucha cuando está haciendo otra cosa porque su atención no reparte; una mujer no lee bien un mapa porque su vista está entrenada para lo cercano y lo detallado. Todo lo demás del libro sale de esas dos frases.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema del armazón se ve mejor que en ninguna otra parte del libro: no hay manera de comprobarlo. Nadie ha observado cómo repartían las tareas los grupos humanos del Pleistoceno, y los estudios de sociedades cazadoras y recolectoras actuales encuentran repartos muy distintos entre sí, incluidas mujeres que cazan. Es una historia coherente, y una historia coherente no es una prueba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una explicación que encaja con todo lo que ves no es una buena explicación: es una que no se puede comprobar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El ejemplo del mapa es el mejor del libro y el que peor se ha entendido",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo del mapa es donde el libro se juega el título, y merece la pena separarlo en dos partes: lo que describe y lo que explica. Lo que describe es real y cualquiera lo ha visto: dos personas delante de un plano de una ciudad y una de ellas girándolo para que el camino apunte hacia arriba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los Pease lo cuentan como una diferencia de manera de orientarse. Una persona puede orientarse por rotación mental —imaginar el mapa girado y compararlo con lo que ve— o por referencias sucesivas: la farmacia, luego la plaza, luego el edificio rojo. La primera es rápida cuando funciona; la segunda es más lenta y más difícil de perder.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hasta aquí es una observación útil, y su consejo práctico se sostiene: si dos personas se orientan de manera distinta y las dos intentan guiar a la vez, se pelean por el mapa. Decidir quién lleva la ruta antes de salir es una tontería que ahorra media discusión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que no se sostiene es el salto siguiente, el de convertir eso en dos cerebros distintos. Las pruebas de rotación mental son de los pocos sitios donde sí aparece una diferencia media entre hombres y mujeres, pero es una diferencia media con un solapamiento enorme: en cualquier grupo hay muchísimas mujeres por encima de la media de los hombres. El libro escribe «las mujeres» donde los datos dicen «la media de las mujeres», y esas dos frases no significan lo mismo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando alguien te diga «las mujeres» o «los hombres», pregunta si quiere decir todos o quiere decir la media. Casi siempre es la media.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La multitarea femenina es la afirmación más famosa del libro y no tiene detrás lo que dice",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más citado sostiene que las mujeres pueden hacer varias cosas a la vez y los hombres no, y le pone una causa concreta: el cuerpo calloso, el haz de fibras que conecta los dos hemisferios, sería más grueso en ellas, así que sus dos mitades del cerebro hablarían más entre sí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa afirmación tiene un origen localizable. Sale de un estudio publicado en 1982 en la revista <em>Science</em> por Christine de Lacoste-Utamsing y Ralph Holloway, hecho sobre catorce cerebros. Catorce. Y lo que vino después es lo que importa: en 1997, Bishop y Wahlsten revisaron cuarenta y nueve estudios posteriores y no encontraron diferencia una vez ajustada al tamaño del cerebro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "O sea que cuando este libro se publica, en 1998, el dato en el que apoya su capítulo más conocido llevaba un año desmentido en una revisión sistemática. No es que la ciencia le adelantara después: ya estaba discutido cuando lo escribió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la propia idea de la multitarea se ha caído por otro lado. Lo que se mide en laboratorio no es hacer dos cosas a la vez, sino alternar entre ellas, y alternar sale caro a todo el mundo: cada cambio cuesta tiempo y errores. En los estudios que han comparado hombres y mujeres en esa tarea, los resultados van en distintas direcciones y las diferencias son pequeñas. Lo que sí está bien medido es que quien alterna rinde peor que quien no, sea quien sea.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie hace dos cosas a la vez. Se alterna entre ellas, y alternar cuesta tiempo y errores a todo el mundo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hablar para resolver y hablar para acompañar son dos usos distintos de la misma conversación",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más útil del libro no va de cerebros: va de para qué se está usando una conversación. Los Pease lo cuentan con una escena que se reconoce enseguida. Alguien llega a casa y cuenta un problema del trabajo. La otra persona escucha treinta segundos y empieza a proponer soluciones. Y la conversación se rompe ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sostienen es que hay dos usos de contar un problema y que casi nadie avisa de cuál está usando. Uno es pedir ayuda para resolverlo. El otro es rebajarlo contándolo, que es una cosa distinta y también sirve: al ponerlo en palabras deja de ser una masa y pasa a tener partes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El fallo no está en proponer soluciones. Está en que quien las propone cree estar ayudando y quien escucha las recibe como una manera de cortar. Y al revés: quien solo quería contarlo cree que le están quitando importancia, y quien propone cree que no le hacen caso. Dos personas de buena fe, y las dos ofendidas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El arreglo que proponen cabe en una frase y es de las cosas de este libro que sí funcionan: decirlo antes. «Te lo cuento para desahogarme» o «te lo cuento porque no sé qué hacer». Cinco palabras que le ahorran a la otra persona tener que adivinar. Y no tiene nada que ver con ser hombre o mujer: funciona igual entre dos amigos, entre padre e hijo o en una oficina.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Di para qué cuentas un problema antes de contarlo. La otra persona no está adivinando bien.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que sí está medido es mucho menos de lo que el libro dice, y mucho más pequeño",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene poner aquí el marcador, porque sin él las páginas anteriores se leen como si fueran ciencia. La pregunta no es si hay diferencias medias entre hombres y mujeres en pruebas cognitivas: hay algunas. La pregunta es cuántas y de qué tamaño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La revisión más citada la firmó la psicóloga Janet Hyde en 2005: repasó cuarenta y seis metaanálisis, que a su vez resumían miles de estudios, y encontró que en la gran mayoría de los rasgos medidos —capacidad verbal, matemática, razonamiento, casi toda la personalidad— la diferencia entre sexos es pequeña o prácticamente cero. Solo unas pocas medidas se apartan de eso, y la rotación mental es una de ellas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre los cerebros, el trabajo que más cambió la conversación es el de Daphna Joel y su equipo, publicado en 2015: analizaron las resonancias de más de mil cuatrocientas personas y encontraron que casi nadie tiene un cerebro coherentemente masculino o femenino. Lo que hay son mosaicos: rasgos más frecuentes en un sexo mezclados con rasgos más frecuentes en el otro, en la misma cabeza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un nombre para el género entero al que pertenece este libro. La psicóloga Cordelia Fine lo llamó neurosexismo en 2010, en <em>Cuestión de sexos</em>, y la neurocientífica Gina Rippon lo desarrolló en 2019: la costumbre de coger una diferencia media pequeña, contarla como si fuera una diferencia de tipo, y explicarla con una historia evolutiva que nadie puede comprobar. Es exactamente el procedimiento de estas páginas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una diferencia media pequeña y una diferencia de tipo no son lo mismo, y casi todo lo que se cuenta sobre hombres y mujeres confunde las dos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los consejos del libro funcionan, pero no por el motivo que da" },
+      {
+        b: "texto",
+        texto:
+          "Aquí está lo que casi nadie dice de este libro, y es lo que explica que haya vendido diez millones de ejemplares sin tener razón. Sus consejos prácticos, casi todos, funcionan. Lo que no funciona es la explicación que les pone debajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mira la lista: di para qué cuentas un problema antes de contarlo; pide las cosas explícitamente en vez de insinuarlas; no empieces una conversación importante mientras el otro está conduciendo o pendiente de otra cosa; decidid quién lleva el mapa antes de salir; da un problema cada vez. Todos son buenos consejos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y todos son la misma cosa dicha de cinco maneras: hacer explícito lo que estabas dando por supuesto. Ninguno necesita cerebros, ni hormonas, ni cazadores. Funcionan porque la mayor parte de los desencuentros entre dos personas vienen de suponer que la otra sabe lo que tú quieres, y funcionan igual entre dos hombres, entre dos mujeres o entre un jefe y un empleado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una prueba fácil de hacer en casa. Coge cualquiera de sus consejos y aplícalo con alguien de tu mismo sexo, en el trabajo o con un amigo. Si sigue funcionando, la explicación del libro sobraba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está el peaje de este libro, que no es pequeño. Al colgar unos consejos razonables de una diferencia biológica, convierte algo que se puede aprender en algo que se tiene o no se tiene. Si tu pareja no escucha porque su cerebro no reparte la atención, no hay nada que hacer. Si no escucha porque nadie le ha dicho nunca que avise, eso se arregla en una tarde.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si un problema se explica por biología, no hay nada que hacer. Si se explica por costumbre, hay bastante.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que hombres y mujeres tienen cerebros distintos por un reparto de tareas del Pleistoceno, y que casi todos los desencuentros de pareja se explican por ahí: la atención estrecha del que cazaba, la vista repartida y la palabra de la que se quedaba en el grupo. De esa tesis saca un manual de convivencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta son las escenas y los consejos. Las escenas están muy bien observadas —el mapa girándose sobre la mesa, el problema contado que recibe soluciones a los treinta segundos— y los consejos son buenos: hacer explícito lo que se daba por supuesto, avisar de para qué se cuenta algo, no abrir una conversación importante cuando el otro está en otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. En la parte que el libro presenta como su fundamento. Su dato más famoso, el del cuerpo calloso más grueso en las mujeres, sale de un estudio de 1982 hecho sobre catorce cerebros, y una revisión de 1997 —anterior a este libro— no encontró la diferencia. La historia del cazador y la recolectora no se puede comprobar y las sociedades cazadoras y recolectoras que sí se han observado no la respaldan. Y todo el libro escribe «los hombres» y «las mujeres» donde los datos dicen «la media», que es la confusión de la que vive el género entero: diferencias medias pequeñas contadas como si fueran dos especies.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después. El libro sigue vendiéndose y su vocabulario se ha quedado en la conversación corriente, que es la mejor prueba de lo bien que estaba escrito. La ciencia fue en la otra dirección: la revisión de Janet Hyde en 2005 encontró diferencias pequeñas o nulas en la mayoría de los rasgos medidos; el trabajo de Daphna Joel de 2015, sobre más de mil cuatrocientas resonancias, describió los cerebros como mosaicos y no como dos tipos; y Cordelia Fine y Gina Rippon dedicaron sendos libros a desmontar el procedimiento. Hoy este título se estudia en los cursos de divulgación científica, pero como ejemplo de cómo viaja una idea falsa cuando está bien contada.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "hombres-no-escuchan": HOMBRES_NO_ESCUCHAN,
   "cinco-heridas": CINCO_HERIDAS,
   "actua-dama-piensa-hombre": ACTUA_DAMA_PIENSA_HOMBRE,
   "en-la-sombra": EN_LA_SOMBRA,

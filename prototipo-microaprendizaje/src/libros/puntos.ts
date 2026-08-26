@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "hombres-no-escuchan": [
+    "por qué una explicación que encaja con todo no explica nada",
+    "la diferencia entre decir «las mujeres» y decir «la media de las mujeres»",
+    "qué pasa de verdad cuando crees que estás haciendo dos cosas a la vez",
+    "cómo evitar que contar un problema acabe en discusión",
+    "por qué explicar algo por biología cierra la puerta a arreglarlo",
+  ],
+
   "cinco-heridas": [
     "por qué una defensa que aprendiste de niño sigue activándose sin peligro",
     "en qué se diferencia sentirse de más de sentirse dejado atrás",

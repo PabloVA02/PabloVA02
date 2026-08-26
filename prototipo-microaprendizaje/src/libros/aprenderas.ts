@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "hombres-no-escuchan":
+    "Su dato más famoso —que las mujeres tienen el cuerpo calloso más grueso— sale de un estudio de 1982 hecho sobre catorce cerebros, y una revisión de 1997 no encontró la diferencia. Aun así, casi todos sus consejos funcionan.",
+
   "cinco-heridas":
     "Un niño al que se ignora cuando llora aprende a no llorar. Bourbeau sostiene que cinco heridas de la infancia dejan cinco máscaras puestas, y que la máscara no es un defecto: es una solución que funcionó.",
 
