@@ -98445,7 +98445,462 @@ const JUST_KIDS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Nexus, de Yuval Noah Harari (2024), en doce páginas.
+
+   Amplio, por el motivo del apartado 2 ter: va de la escritura cuneiforme
+   a los algoritmos y sostiene diez argumentos independientes.
+
+   Ensayo de historia: TERCERA PERSONA. Y libro que predice, así que el año
+   va en la primera página y el marcador en la conclusión, según el
+   apartado 4 bis.
+   -------------------------------------------------------------------------- */
+
+const NEXUS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Harari sostiene que más información nunca ha producido más verdad, y que dar eso por hecho es el error de nuestra época",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nunca ha habido tanta información disponible como ahora, y no parece que haya más acuerdo sobre los hechos básicos. Esa contradicción es el punto de partida del libro: si la información condujera a la verdad, la sociedad mejor informada de la historia debería ser también la que menos se equivoca, y no lo es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Yuval Noah Harari, historiador israelí conocido por sus libros anteriores sobre la especie humana, publicó este en septiembre de 2024. Su objeto no son las personas sino las redes: cómo se conectan los seres humanos entre sí para hacer cosas a gran escala, desde una aldea mesopotámica hasta una plataforma con tres mil millones de usuarios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación central es que la función principal de la información no es representar la realidad, sino conectar. Un mito compartido conecta a millones de personas y no describe nada; un expediente burocrático conecta a un ciudadano con un Estado y describe muy poco. Las dos cosas funcionan sin ser verdad, y por eso abundan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre esa historia y su conclusión: por qué la imprenta difundió mejor el manual de cazar brujas que a Copérnico, por qué una institución que no admite errores no puede corregirlos, qué pasó en Myanmar en 2017, qué tiene de nuevo la inteligencia artificial y por qué la parte propositiva del libro es la más floja.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La función principal de la información no es informar: es conectar. Un mito conecta a millones de personas sin describir nada real.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La visión ingenua de la información da por hecho que la verdad flota y la mentira se hunde",
+      },
+      {
+        b: "texto",
+        texto:
+          "Harari llama visión ingenua a la creencia, muy extendida entre ingenieros y entre defensores de la libertad de expresión, de que basta con dejar circular la información para que la verdad se imponga: si hay suficientes datos y suficiente debate, lo falso acabará descartándose por sí solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema es que esa idea supone que lo verdadero tiene una ventaja competitiva en la difusión, y no la tiene. La verdad suele ser complicada, incómoda y costosa de comprobar; la ficción se puede diseñar para que sea sencilla, halagadora y fácil de recordar, y por tanto compite mejor en cualquier mercado de atención.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale una conclusión que ordena todo el libro. Una red de información con muchísimo caudal y sin filtros no tiende a la verdad, tiende a la información que mejor se propaga, que es otra cosa. Y lo que mejor se propaga suele ser aquello que provoca indignación o que confirma lo que el receptor ya creía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Harari no propone a cambio la posición contraria, que sería que hace falta una autoridad que decida qué es verdad. Sostiene que esa segunda opción produce daños todavía mayores, y que el problema real es cómo construir redes capaces de detectar y corregir sus propios errores sin que nadie tenga la última palabra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En una red sin filtros no gana lo verdadero: gana lo que mejor se propaga. Y lo que mejor se propaga suele ser lo que indigna o lo que halaga.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Toda red humana grande se sostiene sobre dos pilares, y ninguno de los dos es la verdad",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para explicar cómo se organizan millones de desconocidos, Harari identifica dos invenciones que aparecen siempre juntas. La primera es la mitología: relatos compartidos que dan a mucha gente un motivo común para cooperar, sean dioses, naciones, dinero o derechos humanos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es la burocracia: listas, registros, archivos y procedimientos que permiten manejar información sobre miles de personas y cosas sin que nadie tenga que conocerlas. La escritura no se inventó para la poesía, sino para contar sacos de cebada, y las primeras tablillas de arcilla mesopotámicas son inventarios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Harari subraya de la burocracia es que impone su propio orden sobre la realidad, y no al revés. Para poder archivar, hay que dividir el mundo en cajones, y esos cajones son inventados: la frontera recta entre dos países africanos, la categoría fiscal en la que encaja un trabajo, el diagnóstico que da derecho a una prestación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale su observación más útil sobre cualquier organización moderna. Con el tiempo, los cajones dejan de describir el mundo y empiezan a fabricarlo: la gente organiza su vida para caber en la categoría que le conviene, y el mapa acaba modificando el territorio en lugar de representarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palabra misma lo delata. Burocracia viene del francés <em>bureau</em>, que designaba primero el paño que cubría una mesa de trabajo y después la mesa con cajones donde se guardaban los papeles. El gobierno de los cajones: eso es literalmente lo que significa el término.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un archivo no describe el mundo: lo divide en cajones inventados. Con los años, la gente organiza su vida para caber en el cajón que le conviene.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La imprenta difundió muchísimo mejor el manual para cazar brujas que la astronomía de Copérnico",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso con el que Harari desmonta la idea de que la tecnología de la información favorece al conocimiento es europeo y está bien documentado. La imprenta de tipos móviles se difundió por Europa a partir de mediados del siglo quince, y suele contarse como el motor de la revolución científica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los primeros grandes éxitos de venta de aquella tecnología fue un tratado publicado en 1487 por un inquisidor alemán, dedicado a demostrar la existencia de las brujas y a explicar cómo identificarlas, interrogarlas bajo tortura y ejecutarlas. Se reeditó decenas de veces y circuló por todo el continente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro de Copérnico que colocaba al Sol en el centro se publicó en 1543 y vendió muy poco: era técnico, difícil y no interesaba a casi nadie fuera de un puñado de astrónomos. La comparación entre ambos es la prueba de la tesis: la máquina no distinguía, y lo que se propagó fue lo que la gente quería leer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado en vidas es conocido. Entre los siglos quince y diecisiete se ejecutó en Europa a decenas de miles de personas acusadas de brujería, la mayoría mujeres, y aquella oleada no fue un residuo medieval: creció justamente cuando la información empezó a circular más deprisa y con más alcance que nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El autor de aquel tratado fue un inquisidor llamado Heinrich Kramer, y su libro no habría llegado a ninguna parte un siglo antes. Las estimaciones actuales sitúan entre cuarenta mil y sesenta mil las personas ejecutadas por brujería en Europa, y la inmensa mayoría fueron mujeres pobres de zonas rurales.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La imprenta no eligió qué difundir. Difundió mejor un manual para torturar mujeres que la astronomía, porque tenía más lectores.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que distingue a una institución sana no es acertar, es poder reconocer que se equivocó",
+      },
+      {
+        b: "texto",
+        texto:
+          "El criterio con el que Harari juzga cualquier red de información no es su exactitud, sino algo mucho más comprobable: si tiene mecanismos para detectar sus propios errores y corregirlos. Sostiene que ninguna institución acierta siempre, y que la diferencia relevante está en lo que pasa después de equivocarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ciencia le sirve de ejemplo positivo, y lo interesante es por qué. No porque los científicos sean más honrados, sino porque el sistema está montado para que a otro científico le compense demostrar que el primero se equivocó: el error ajeno es una carrera profesional, y esa competencia hace el trabajo que la buena voluntad no haría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Frente a eso están las instituciones que se declaran infalibles. Una organización que afirma no poder equivocarse en sus dogmas se queda sin procedimiento para rectificar, así que cuando aparece un error solo puede negarlo, reinterpretarlo o castigar a quien lo señala, y las tres salidas conservan el error dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese criterio se puede aplicar a cualquier empresa, partido o administración sin necesidad de teoría. Basta con preguntar qué le ocurrió a la última persona que dijo dentro que algo estaba mal, y si alguna vez se ha revertido una decisión importante. Las respuestas dicen más que cualquier declaración de valores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo concreto de la ciencia es además comprobable y aburrido: revisión por otros investigadores antes de publicar, obligación de describir el método para que otro lo repita, y retractación pública del artículo cuando se demuestra que estaba mal. Ninguna de las tres cosas depende de la virtud de nadie.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Pregunta qué le pasó a la última persona que dijo dentro que algo estaba mal. Eso mide una organización mejor que su declaración de valores.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La Iglesia no salió de la Biblia: fue la Iglesia la que decidió qué era la Biblia",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos que más discusión ha provocado usa el canon bíblico como ejemplo de cómo se fabrica una red de información. El relato habitual es que existió un libro sagrado y que a partir de él se organizó una comunidad de creyentes, y Harari sostiene que el orden fue el inverso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En los primeros siglos circulaban muchos más textos de los que hoy figuran en el libro: evangelios, cartas y apocalipsis diversos. Alguien tuvo que decidir cuáles entraban y cuáles no, y esa decisión la tomaron instituciones humanas a lo largo de generaciones, con criterios que en su momento fueron discutidos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento que saca de ahí es general y no requiere posición religiosa. Cualquier texto que se declare fuente de autoridad ha sido seleccionado, ordenado, traducido e interpretado por instituciones, y esa cadena de decisiones humanas queda oculta detrás del resultado, que se presenta como si hubiera aparecido entero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí conviene apuntar una objeción que le hacen los especialistas y que vale para todo el libro. La formación del canon fue un proceso largo, desordenado y muy estudiado, y comprimirlo en un capítulo obliga a dar por resueltas cuestiones que llevan siglos discutiéndose. La tesis se sostiene; el detalle histórico va más apretado de lo que un especialista aceptaría.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una fecha concreta que ilustra el proceso. La primera lista conocida que contiene exactamente los veintisiete libros del Nuevo Testamento, y solo esos, aparece en una carta pastoral escrita en el año 367 por el obispo Atanasio de Alejandría, más de tres siglos después de los hechos que esos libros narran.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Detrás de cualquier texto que se presenta como fuente de autoridad hay una cadena de decisiones humanas: qué entró, qué no y quién lo tradujo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un régimen totalitario no es una red con mucha información: es una red sin manera de corregirse",
+      },
+      {
+        b: "texto",
+        texto:
+          "Harari dedica una parte del libro a los regímenes totalitarios del siglo veinte, y su análisis no va por donde suele ir. Su rasgo definitorio no es la vigilancia ni la propaganda, que también existen en otros sistemas, sino la eliminación de todos los circuitos capaces de devolver una mala noticia hacia arriba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo es de una lógica implacable. Si contradecir la versión oficial se castiga, entonces todo el mundo informa hacia arriba de lo que sabe que se espera oír, y esa información falsa asciende por la jerarquía hasta llegar a quien decide, que acaba tomando decisiones con datos que su propio sistema ha fabricado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los ejemplos históricos son terribles y todos comparten esa forma. Las cifras infladas de cosecha durante las hambrunas soviéticas y chinas se enviaban desde abajo porque enviar las reales era peligroso, y sobre esas cifras se calcularon después las requisas de grano, con las consecuencias que se conocen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la observación que hace este capítulo útil fuera de la historia. Un sistema que castiga al mensajero no se queda sin información: se llena de información falsa que nadie ha inventado a propósito, porque cada eslabón está simplemente diciendo lo que le conviene decir a quien tiene encima.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso más claro tiene nombre propio. El agrónomo Trofim Lysenko sostenía teorías biológicas falsas que encajaban con la ideología oficial soviética, y con el respaldo de Stalin consiguió que en 1948 se prohibiera enseñar genética. Sus críticos fueron apartados o encarcelados, y el mayor botánico del país murió de hambre en prisión en 1943.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un sistema que castiga al mensajero no se queda a oscuras: se llena de datos falsos que nadie ha inventado a propósito y todos han redondeado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "En Myanmar, en 2017, un algoritmo tuvo parte en una limpieza étnica" },
+      {
+        b: "texto",
+        texto:
+          "El caso que Harari usa como bisagra del libro ocurrió en el sudeste asiático. En Myanmar, la principal plataforma social se había convertido para muchos usuarios en internet entero, ya que venía preinstalada y su uso no consumía datos, de modo que la información del país circulaba casi toda por ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante años, los contenidos de odio contra la minoría musulmana rohinyá circularon con enorme alcance en esa red. En agosto de 2017 el ejército birmano lanzó una campaña contra esa población, con matanzas y aldeas incendiadas, y alrededor de setecientas mil personas huyeron a Bangladés en pocas semanas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace que el caso sea relevante aquí no es que hubiera propaganda, que la ha habido siempre. Es que la difusión la organizó un sistema automático que nadie había programado para eso: el algoritmo estaba optimizado para maximizar el tiempo que la gente pasaba en la aplicación, y descubrió por su cuenta que la indignación es lo que mejor retiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Una misión de investigación de Naciones Unidas concluyó en 2018 que la plataforma había desempeñado un papel determinante, y un informe encargado por la propia empresa ese mismo año reconoció que su servicio se había usado para incitar a la violencia. Nadie tomó la decisión de amplificar aquello: la tomó un sistema que perseguía otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El asunto tuvo continuación jurídica. En 2021, refugiados rohinyás presentaron demandas millonarias contra la empresa en Estados Unidos y en el Reino Unido, y en 2022 una investigación de Amnistía Internacional concluyó que los sistemas de recomendación de la plataforma habían contribuido de forma sustancial a la violencia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie programó aquel sistema para difundir odio. Lo programaron para retener atención, y descubrió solo que la indignación retiene mejor que nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo verdaderamente nuevo de la inteligencia artificial no es que informe, sino que decide",
+      },
+      {
+        b: "texto",
+        texto:
+          "Harari sostiene que la tecnología actual no es una etapa más de la misma serie que la escritura, la imprenta o la radio, y su argumento se apoya en una distinción concreta. Todas aquellas eran conductos pasivos: transmitían lo que un ser humano había decidido transmitir, y no añadían nada por su cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un sistema que decide qué se le enseña a cada persona, que redacta textos, que concede o deniega un crédito, que ordena una lista de candidatos o que sugiere un objetivo militar no es un conducto. Es un participante que toma decisiones a una escala y a una velocidad que ningún equipo humano puede revisar una por una.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia que le preocupa no es la de las películas. No es que un sistema desarrolle voluntad propia y se rebele, sino algo más aburrido y ya visible: que persiga con eficiencia enorme un objetivo mal formulado por sus dueños, como ocurrió con la maximización del tiempo de uso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una segunda diferencia, que afecta a la cultura. Estos sistemas no solo distribuyen ideas: generan textos, imágenes y argumentos, de modo que por primera vez una parte creciente de lo que circula por una red humana no ha sido escrita por ningún humano. Harari sostiene que eso no había ocurrido nunca y que sus efectos no se conocen.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El peligro no es que un sistema quiera algo distinto de lo que le pidieron. Es que persiga con eficiencia enorme exactamente lo que le pidieron mal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las democracias y las dictaduras no son igual de vulnerables, y no en la dirección que se supone",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte comparativa del libro es de las más originales. Suele darse por hecho que la vigilancia automatizada favorece a los regímenes autoritarios, porque les permite controlar a su población con un coste que antes era imposible, y Harari acepta que eso es cierto a corto plazo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su matiz es que la misma tecnología introduce en esos sistemas una vulnerabilidad que las democracias no tienen. Un régimen personalista concentra todas las decisiones en un punto, y si ese punto empieza a apoyarse en los análisis de un sistema automático, quien controle ese sistema controla el país sin necesidad de ningún golpe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las democracias, sostiene, están peor preparadas para resistir la manipulación de la conversación pública, porque su funcionamiento depende de un debate abierto que es precisamente lo que se puede inundar. Pero conservan lo que las salva: elecciones, tribunales, prensa y una tradición de corregir decisiones sin necesidad de derribar el sistema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La conclusión que saca es que la pregunta relevante no es qué régimen usará mejor la tecnología, sino cuál conserva la capacidad de rectificar cuando descubra que la usó mal. Y esa capacidad no depende de la potencia de cálculo, sino de instituciones lentas y aburridas que llevan siglos existiendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle que suele pasarse por alto al comparar sistemas. La ventaja decisiva de una democracia no es que acierte más, sino que permite sustituir a quien manda sin que nadie muera, y esa operación es exactamente la que un sistema personalista no sabe hacer y por la que suele acabar en violencia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta no es quién usará mejor la tecnología, sino quién podrá rectificar cuando descubra que la usó mal. Eso no lo da la potencia de cálculo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Diagnostica muy bien y receta muy poco, y esa desproporción es el defecto del libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de quinientas páginas describiendo el problema con precisión, la parte propositiva ocupa poco y es genérica. Harari pide que se construyan mecanismos de autocorrección, que se regule con instituciones capaces de auditar los sistemas y que no se ceda la conversación pública a entidades no humanas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nada de eso es discutible y casi nada es accionable. No dice qué organismo debería auditar qué, con qué competencias, ni cómo se obliga a cumplir una norma a empresas que operan en todos los países a la vez, que es exactamente la dificultad que hace difícil el asunto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un vacío técnico que los especialistas le señalan. El libro habla de estos sistemas durante capítulos enteros sin explicar en ningún momento cómo funcionan, qué se puede auditar de ellos y qué no, y esa ausencia debilita justamente la parte en la que habría que decidir qué se regula.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir también lo que sí hace bien, porque es lo raro. El libro no promete ni un desastre inevitable ni una solución tecnológica, y se mantiene en la posición incómoda de sostener que esto depende de decisiones políticas que todavía están por tomar. Esa negativa a dar un final es menos vendible y es más honrada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sí hay una propuesta concreta en el libro y merece citarse, porque es de las pocas aplicables mañana: prohibir los humanos falsos. Es decir, obligar por ley a que cualquier sistema automático que participe en una conversación pública se identifique como tal, del mismo modo que se prohíbe falsificar moneda.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un diagnóstico excelente sin receta sigue valiendo, siempre que no se confunda con un plan. Saber qué falla no es lo mismo que saber qué hacer.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la información sirve sobre todo para conectar y no para describir, que más caudal no produce más verdad, que lo que distingue a una red sana es su capacidad de detectar y corregir errores, y que la novedad actual es que hay sistemas que deciden en lugar de limitarse a transmitir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es el encuadre histórico. Colocar los algoritmos de recomendación en la misma serie que las tablillas de arcilla, el canon bíblico y la imprenta permite ver que el problema no es nuevo en su forma, y que las respuestas que funcionaron antes fueron siempre institucionales y nunca técnicas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ninguna tecnología de la información ha favorecido por sí sola a la verdad. Lo que ha marcado la diferencia han sido las instituciones que corregían errores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es un libro de síntesis escrito por alguien que no es especialista en casi nada de lo que trata, y los especialistas de cada campo encuentran su parcela aplanada: el canon bíblico, la caza de brujas y el estalinismo se resuelven en un capítulo cada uno. Su tesis central —que la información conecta más que describe— tiene una larga tradición en la teoría de la comunicación que el libro apenas reconoce. Y la parte propositiva es demasiado breve para lo que promete el diagnóstico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El marcador de estos meses es corto pero dice algo. El libro salió en septiembre de 2024, semanas después de que entrara en vigor en la Unión Europea la primera ley general sobre inteligencia artificial, que es exactamente el tipo de mecanismo institucional que Harari reclama y que el libro apenas menciona. Y 2024 fue además el mayor año electoral de la historia, con más de setenta países votando: la catástrofe informativa que muchos anunciaban no se produjo en la forma prevista, lo que no refuta la tesis del libro pero sí recuerda que en este terreno los pronósticos concretos han fallado tanto como los optimistas a los que critica.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  nexus: NEXUS,
   "just-kids": JUST_KIDS,
   "cuatro-pilares-inversion": CUATRO_PILARES_INVERSION,
   "cientifico-espacial": CIENTIFICO_ESPACIAL,

@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  nexus: [
+    "por qué en una red sin filtros gana lo que mejor se propaga",
+    "que un archivo divide el mundo en cajones inventados y acaba fabricándolo",
+    "cómo se mide si una institución puede reconocer sus propios errores",
+    "que un sistema que castiga al mensajero se llena de datos falsos",
+    "qué cambia cuando una máquina decide en lugar de transmitir",
+  ],
+
   "just-kids": [
     "qué acuerdo permite que dos personas se sostengan durante años sin obra",
     "por qué estar cerca de quien ya lo hace enseña que se puede",

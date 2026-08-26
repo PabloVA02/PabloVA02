@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  nexus: "Una breve historia de las redes de información",
   "cuatro-pilares-inversion": "Lecciones para construir una cartera ganadora",
   "cientifico-espacial": "Estrategias sencillas para dar saltos de gigante",
   "caos-gleick": "La creación de una ciencia",

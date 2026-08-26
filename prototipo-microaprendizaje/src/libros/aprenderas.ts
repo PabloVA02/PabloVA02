@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  nexus:
+    "La imprenta difundió mucho mejor un manual para cazar brujas de 1487 que la astronomía de Copérnico. Harari usa casos así para sostener que más información nunca ha producido más verdad.",
+
   "just-kids":
     "Patti Smith le prometió a Robert Mapplethorpe en su lecho de muerte que contaría su historia, y tardó veintiún años. Es el relato de los años largos en los que dos artistas no eran todavía nadie.",
 
