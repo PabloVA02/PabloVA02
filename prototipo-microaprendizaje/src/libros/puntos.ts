@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "futuro-nuestra-mente": [
+    "por qué un libro de predicciones se lee distinto sabiendo el año",
+    "qué separa descodificar una intención de leer un pensamiento",
+    "hasta dónde ha llegado de verdad una prótesis de memoria",
+    "qué pasa cuando un experimento se anuncia con un escaparate demasiado grande",
+    "por qué copiar una mente no es un problema de potencia de cálculo",
+  ],
+
   "hombres-no-escuchan": [
     "por qué una explicación que encaja con todo no explica nada",
     "la diferencia entre decir «las mujeres» y decir «la media de las mujeres»",

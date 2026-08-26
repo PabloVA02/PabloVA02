@@ -165,7 +165,7 @@ export const CATALOGO: Ficha[] = [
   { id: "informacion-gleick", titulo: "La información", autor: "James Gleick", ano: 2011, categoria: "Ciencia", estado: "pendiente" },
   { id: "vida-3-0", titulo: "Vida 3.0", autor: "Max Tegmark", ano: 2017, categoria: "Ciencia", estado: "escrito" },
   { id: "primavera-silenciosa", titulo: "Primavera silenciosa", autor: "Rachel Carson", ano: 1962, categoria: "Ciencia", estado: "escrito" },
-  { id: "futuro-nuestra-mente", titulo: "El futuro de nuestra mente", autor: "Michio Kaku", ano: 2014, categoria: "Ciencia", estado: "pendiente" },
+  { id: "futuro-nuestra-mente", titulo: "El futuro de nuestra mente", autor: "Michio Kaku", ano: 2014, categoria: "Ciencia", estado: "escrito" },
   { id: "tecnologias-radicales", titulo: "Tecnologías radicales", autor: "Adam Greenfield", ano: 2017, categoria: "Ciencia", estado: "pendiente" },
   /* --- Arte ------------------------------------------------------------- */
   { id: "historia-arte", titulo: "La historia del arte", autor: "E. H. Gombrich", ano: 1950, categoria: "Arte", estado: "escrito" },

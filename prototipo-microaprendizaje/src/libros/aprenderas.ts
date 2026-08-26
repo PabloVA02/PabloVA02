@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "futuro-nuestra-mente":
+    "Kaku publicó en 2014 un catálogo de pronósticos sobre el cerebro: leer el pensamiento, grabar recuerdos, subir una mente a un ordenador. Once años después hay marcador de sobra para puntuarlos uno a uno.",
+
   "hombres-no-escuchan":
     "Su dato más famoso —que las mujeres tienen el cuerpo calloso más grueso— sale de un estudio de 1982 hecho sobre catorce cerebros, y una revisión de 1997 no encontró la diferencia. Aun así, casi todos sus consejos funcionan.",
 

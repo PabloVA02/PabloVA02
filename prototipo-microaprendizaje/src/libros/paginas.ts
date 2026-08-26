@@ -108768,7 +108768,282 @@ const HOMBRES_NO_ESCUCHAN: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El futuro de nuestra mente, de Michio Kaku (2014), en ocho páginas.
+
+   Ciencia, así que tercera persona.
+
+   Es un libro que PREDICE, y REDACCION.md tiene un apartado entero sobre este
+   título: el año va en la primera página, el futuro del libro se escribe en
+   pasado —«Kaku predijo en 2014 que…»— y la conclusión pone el marcador. Once
+   años después hay marcador de sobra, así que se pone dentro y también al
+   final.
+   -------------------------------------------------------------------------- */
+
+const FUTURO_NUESTRA_MENTE: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Kaku publicó en 2014 un catálogo de pronósticos, y once años después se pueden puntuar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Michio Kaku es físico teórico, cofundador de una versión de la teoría de cuerdas y uno de los divulgadores científicos más vendidos del mundo. Este libro, publicado en 2014, no trata de física: trata de lo que iba a poder hacerse con el cerebro humano en las décadas siguientes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La fecha no es un dato bibliográfico, es la mitad del sentido de cada página. El libro se escribió en el momento de máximo optimismo del campo: en 2013, Estados Unidos y la Unión Europea habían lanzado dos programas gigantescos para descifrar el cerebro, y la sensación general era que faltaba poco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que promete es concreto y por eso se puede comprobar: telepatía por máquina, escribir con el pensamiento, fotografiar los sueños, grabar un recuerdo y volver a meterlo, mover objetos, y al final subir una mente entera a un ordenador. Kaku no lo presenta como ciencia ficción: lo presenta como ingeniería a plazo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue es su definición de conciencia —que es suya y conviene saberlo—, los cuatro pronósticos que hizo y en qué punto está hoy cada uno, y el proyecto de mil millones de euros que iba a simular un cerebro entero y en qué acabó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro que predice no se lee igual el año en que sale que diez años después. Sin la fecha delante, el lector supone que es de ahora.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La definición de conciencia que usa el libro es invención suya y no la comparte su campo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Antes de predecir nada, Kaku necesita decir qué es la conciencia, y hace algo que conviene saber desde el principio: se la inventa. La llama teoría espaciotemporal de la conciencia y la define como el proceso de crear un modelo del mundo usando múltiples bucles de retroalimentación en distintos parámetros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca tres niveles. El primero es el de un reptil, con bucles sobre todo de posición en el espacio: dónde estoy, dónde está lo que me quiere comer. El segundo es el de los animales sociales, que añaden bucles sobre otros individuos: quién manda, quién es de los míos. El tercero es el humano, que añade uno más y decisivo: simular el futuro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa tercera capa es la parte más aprovechable del libro. La idea es que lo que separa a un humano no es pensar, sino ensayar: correr por dentro escenas que no han ocurrido, con sus consecuencias, y elegir entre ellas antes de moverse. Kaku recuerda que la zona que más se ha agrandado en nuestra evolución, la corteza prefrontal, es justo la que se activa cuando alguien imagina qué pasará.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hay que decir, y el libro no dice, es que esa teoría es suya y no ha sido adoptada por la neurociencia ni por la filosofía de la mente. No es una síntesis del estado de la cuestión: es la propuesta personal de un físico, presentada con el tono con que se cuenta lo que ya está establecido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que distingue a un humano no es pensar: es poder ensayar por dentro una escena que todavía no ha ocurrido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El pronóstico de leer el pensamiento es el que mejor ha salido" },
+      {
+        b: "texto",
+        texto:
+          "Kaku predijo en 2014 que las máquinas podrían leer intenciones y traducirlas en órdenes, y que eso saldría del laboratorio. Partía de lo que ya existía: el proyecto BrainGate llevaba desde los años dos mil implantando rejillas de electrodos en la corteza motora de personas con parálisis, que movían un cursor pensando en mover la mano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Contaba también un experimento del laboratorio de Yukiyasu Kamitani, en Kioto, publicado en 2013: registraron la actividad cerebral de voluntarios dormidos, les despertaron para preguntarles qué estaban soñando y entrenaron un modelo capaz de acertar por encima del azar qué categoría de cosas aparecía en el sueño. Kaku lo llamó fotografiar los sueños, que es bastante más de lo que era.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El marcador, hoy: es su acierto más claro. En 2023 se publicaron en <em>Nature</em> dos sistemas que decodifican habla directamente del cerebro de personas que habían perdido el lenguaje, a razón de sesenta y dos y setenta y ocho palabras por minuto, con vocabularios de decenas de miles de palabras. En 2024, la primera persona con un implante de Neuralink manejaba un cursor y jugaba al ajedrez con el pensamiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la reconstrucción de imágenes mentales, que en 2013 daba categorías borrosas, da hoy imágenes reconocibles: los modelos de difusión que se usan para generar dibujos se han aplicado a la actividad cerebral y devuelven escenas parecidas a las que la persona estaba viendo. Kaku se quedó corto en velocidad y largo en la palabra: nada de esto es leer un pensamiento, es descodificar una intención de moverse o de hablar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Descodificar la intención de decir una palabra y leer un pensamiento no son lo mismo, y solo lo primero se ha conseguido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La prótesis de memoria existe, funciona un poco y no se parece a lo que prometía",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo pronóstico era grabar recuerdos y volver a introducirlos. Kaku se apoyaba en el trabajo de Theodore Berger, ingeniero biomédico de la Universidad del Sur de California, que llevaba años construyendo un chip capaz de imitar lo que hace el hipocampo cuando convierte una experiencia en un recuerdo duradero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea de Berger es más modesta y más elegante de lo que suena. El hipocampo transforma una señal de entrada en una de salida; si se registra esa transformación en muchos casos, se puede construir un modelo matemático que la imite, y entonces un chip puede hacer ese paso en lugar de un hipocampo dañado. Lo había demostrado en ratas y en monos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El marcador: se probó en personas y funcionó, pero poco. En 2018, el equipo publicó resultados en pacientes con epilepsia que ya llevaban electrodos implantados por motivos clínicos; con el chip encendido, su memoria a corto plazo mejoró alrededor de un tercio en las pruebas. Es un resultado real y es muy pequeño, sobre un puñado de pacientes, en una tarea de laboratorio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que no ha pasado es lo que el libro sugería: nadie ha grabado un recuerdo concreto ni lo ha implantado en otra cabeza. La distancia entre reparar el paso que fija un recuerdo y guardar el contenido de una tarde es enorme, y Kaku la trata como una cuestión de tiempo. Once años después no hay ni un indicio de que sea eso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Reparar el mecanismo que fija un recuerdo y guardar lo que se recuerda son dos problemas distintos, y solo el primero está en marcha.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El exoesqueleto del Mundial de 2014 es el mejor ejemplo de la distancia entre el titular y la cosa",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercer pronóstico era mover objetos con la mente, y su protagonista es Miguel Nicolelis, neurocientífico brasileño de la Universidad Duke. En 2013 había publicado un experimento en el que la actividad cerebral de una rata que había aprendido una tarea se transmitía a otra rata, en otro laboratorio, que acertaba por encima del azar sin haber aprendido nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su proyecto grande era otro: un exoesqueleto controlado por el pensamiento para personas con paraplejia. Y tuvo el escaparate más grande que ha tenido un experimento científico, porque el saque de honor de la inauguración del Mundial de fútbol de Brasil, en junio de 2014, lo dio un joven con paraplejia llevando ese exoesqueleto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurrió aquel día explica el libro entero. El golpe fue un movimiento pequeño de un pie, duró unos segundos y la retransmisión internacional apenas lo enseñó. Nicolelis había prometido a la prensa una escena histórica y lo que se vio fue un aparato pesado dando un toque a un balón. La ciencia era buena; el titular no cabía dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El marcador de hoy es intermedio. Los exoesqueletos controlados por interfaz cerebral siguen siendo material de laboratorio, caros, lentos y con muchos electrodos; en cambio, los brazos robóticos manejados por implante han avanzado mucho, y hay pacientes que comen solos con uno. Se mueven cosas con el pensamiento, sí, pero de una en una y con un equipo detrás.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando un experimento se anuncia con un escaparate demasiado grande, lo que se rompe no es la ciencia: es la confianza en la siguiente.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El proyecto que iba a simular un cerebro entero terminó sin simularlo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro se apoya una y otra vez en dos programas lanzados en 2013: la Iniciativa BRAIN estadounidense y el Proyecto Cerebro Humano europeo, financiado con mil millones de euros a diez años. El segundo prometía algo que el libro repite: una simulación funcional de un cerebro humano dentro de un ordenador.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después no aparece en ninguna edición del libro y es lo más instructivo de esta historia. En julio de 2014, el mismo año de la publicación, cientos de neurocientíficos europeos —alrededor de ochocientos firmantes— publicaron una carta abierta contra el proyecto: decían que el objetivo de simular un cerebro entero no era alcanzable, que se había estrechado el programa alrededor de una sola apuesta y que se estaba dejando fuera a media disciplina.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El proyecto se sometió a una mediación, se reestructuró en 2015 y cambió de objetivos. Terminó en 2023, tras los diez años previstos, sin la simulación prometida. Dejó cosas de valor —una infraestructura informática compartida, atlas de tejido cerebral, herramientas de modelado— y ninguna de ellas es lo que se anunció.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lección que deja no es que la neurociencia fracasara: es que el problema estaba peor planteado de lo que parecía desde fuera. Simular un cerebro exige saber antes qué hay que simular y con qué grado de detalle, y esa pregunta seguía abierta cuando se firmó el presupuesto. Un libro escrito en 2014 no podía saber el final, pero sí podía haber recogido la discusión, que ya existía mientras se imprimía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de simular algo hay que saber qué partes hay que simular, y esa pregunta suele seguir abierta cuando ya se ha firmado el presupuesto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El último tercio del libro deja de ser ciencia y no avisa de que ha dejado de serlo",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte final va de subir una mente a un ordenador, de enviarla por el espacio en forma de haz de datos y de conciencias sin cuerpo. Kaku la escribe con el mismo tono que las anteriores, y ese es el problema de forma más serio del libro: no hay ninguna señal que avise al lector de que ha cambiado de terreno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El obstáculo no es de potencia de cálculo, que es como lo plantea. Es que nadie sabe qué habría que copiar. Se conoce el mapa completo de conexiones de un gusano, el <em>Caenorhabditis elegans</em>, con sus trescientas dos neuronas, desde 1986, y ni siquiera con ese mapa se puede predecir su conducta: hacen falta también los estados químicos, la historia del organismo y cosas que cambian minuto a minuto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El marcador de esta parte es el más fácil de todos: no ha ocurrido nada. Ni un avance, ni un experimento parcial, ni un candidato. Es el único de los pronósticos del libro que está exactamente donde estaba en 2014, y por un motivo que no depende de la tecnología sino de que la pregunta previa sigue sin contestar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene además señalar un desequilibrio del libro entero: dedica bastante espacio a estas especulaciones y muy poco a lo que ya entonces era el problema práctico de las interfaces cerebrales, que es que los electrodos implantados se degradan y el tejido reacciona alrededor. Ese asunto, aburrido y decisivo, es el que ha marcado la última década del campo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El obstáculo para copiar una mente no es la potencia de cálculo: es que nadie sabe qué habría que copiar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la conciencia es un sistema que construye modelos del mundo con bucles de retroalimentación, que lo propio del humano es simular el futuro, y que a partir de ahí la ingeniería iba a permitir leer intenciones, grabar recuerdos, mover objetos y, con el tiempo, copiar una mente. Es un catálogo de pronósticos hecho en 2014.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es el inventario. Kaku reúne en un solo sitio experimentos dispersos que casi nadie había visto juntos, los explica bien y sin fórmulas, y su capa de la simulación del futuro es una manera útil de pensar qué hace distinto a un cerebro humano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El marcador, once años después. Leer intenciones: acertó, y más rápido de lo que decía —dos sistemas de descodificación de habla en 2023, a sesenta y dos y setenta y ocho palabras por minuto, y el primer implante de Neuralink en una persona en 2024—. Prótesis de memoria: acertó a medias; se probó en pacientes en 2018 con una mejora de en torno a un tercio en pruebas de laboratorio, y nadie ha grabado nunca un recuerdo. Mover objetos: acertó a medias; brazos robóticos sí, exoesqueletos no. Subir una mente: ni un paso. Y el programa europeo que iba a simular un cerebro terminó en 2023 sin simularlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. En dos cosas, y las dos son de manera de escribir más que de contenido. La primera es que presenta como estado de la cuestión una teoría de la conciencia que es suya y que su campo no ha adoptado. La segunda es que no separa nunca los tres terrenos que mezcla —lo que ya se hacía en un laboratorio, lo que era plausible a diez años y lo que es especulación pura—, así que un lector sin formación no puede saber cuándo está leyendo un experimento y cuándo un deseo. Y hay un aviso de fondo que el libro ni menciona: en julio de 2014, mientras se imprimía, ochocientos neurocientíficos europeos firmaban una carta diciendo que el proyecto en el que se apoyaba no iba a llegar. Tenían razón.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "futuro-nuestra-mente": FUTURO_NUESTRA_MENTE,
   "hombres-no-escuchan": HOMBRES_NO_ESCUCHAN,
   "cinco-heridas": CINCO_HERIDAS,
   "actua-dama-piensa-hombre": ACTUA_DAMA_PIENSA_HOMBRE,
