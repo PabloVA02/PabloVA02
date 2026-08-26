@@ -49,9 +49,11 @@ export function Cuenta() {
       aria-label="Guarda tu progreso"
     >
       <div className="cuenta-alto">
-        <p className="cuenta-texto">
-          Inicia sesión para que tu racha y todo lo que has leído no se pierdan
-        </p>
+        {/* Tres renglones eran uno de más: la tarjeta pide una cosa que se
+            hace en un toque y no necesita una frase con subordinada. «Inicia
+            sesión» además sobraba —lo dicen los tres botones de debajo—, así
+            que queda solo lo que se gana. */}
+        <p className="cuenta-texto">Guarda tu racha y todo lo que llevas leído</p>
         {/* El candado con llave. La referencia dibuja las dos cosas por
             separado con imágenes prediseñadas; este glifo las trae en uno solo
             y ya viene con el color puesto. Va grande —46 puntos— y con un halo
@@ -98,7 +100,7 @@ export function Cuenta() {
 
 function GlyphApple() {
   return (
-    <svg width="19" height="19" viewBox="0 0 24 24" aria-hidden>
+    <svg width="17" height="17" viewBox="0 0 24 24" aria-hidden>
       <path
         d="M16.24 12.86c-.03-2.75 2.25-4.07 2.35-4.13-1.28-1.87-3.27-2.13-3.98-2.16-1.7-.17-3.31.99-4.17.99-.86 0-2.19-.97-3.6-.94-1.86.03-3.57 1.08-4.53 2.74-1.93 3.35-.49 8.31 1.39 11.03.92 1.33 2.02 2.82 3.47 2.77 1.39-.06 1.92-.9 3.6-.9 1.68 0 2.16.9 3.63.87 1.5-.03 2.45-1.36 3.36-2.69 1.06-1.55 1.5-3.05 1.52-3.12-.03-.02-2.91-1.12-2.94-4.44Z"
         fill="currentColor"
@@ -127,7 +129,7 @@ function arcoG(a: number, b: number) {
 
 function GlyphGoogle() {
   return (
-    <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden>
+    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden>
       <g fill="none" strokeWidth="4.6">
         <path d={arcoG(200, 310)} stroke="#ea4335" />
         <path d={arcoG(310, 352)} stroke="#4285f4" />
@@ -142,7 +144,7 @@ function GlyphGoogle() {
 
 function GlyphFacebook() {
   return (
-    <svg width="19" height="19" viewBox="0 0 24 24" aria-hidden>
+    <svg width="17" height="17" viewBox="0 0 24 24" aria-hidden>
       <circle cx="12" cy="12" r="10.6" fill="#1877f2" />
       <path
         d="M14.9 12.6h-2v6.9h-2.9v-6.9H8.5v-2.5h1.5V8.7c0-2 .84-3.2 3.2-3.2h2v2.5h-1.24c-.92 0-.98.34-.98.98v1.1h2.23l-.31 2.5Z"

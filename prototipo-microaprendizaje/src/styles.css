@@ -4780,84 +4780,80 @@ button {
   background: rgba(242, 236, 225, 0.07);
 }
 
-/* MARRÓN, NO AMARILLO. La banda iba en ocre y Pablo la devolvió: «no pongas
-   ese tono amarillo, te dije que fuera como el recuadro de la captura». La
-   suya es un marrón cálido y apagado, y con el ocre encima de un fondo oscuro
-   lo que salía era mostaza. El marrón sale de `--clay-deep` al 30 %: sobre la
-   tarjeta da un (78, 54, 50) que es prácticamente el de la captura.
+/* MARRÓN PLANO. Dos cosas se han caído aquí, y las dos las devolvió Pablo.
 
-   La luz sale de donde está el símbolo, arriba a la izquierda, y se apaga
-   hacia abajo y hacia la derecha. Un degradado recto de arriba abajo pinta una
-   franja plana con un corte visible al llegar al cuerpo; con el foco puesto en
-   un sitio concreto, la banda tiene volumen y muere sola. */
+   EL AMARILLO primero: el ocre de la paleta funciona sobre crema, pero sobre
+   un fondo oscuro no da dorado, da mostaza. Ahora es el marrón de la captura,
+   un (72, 52, 46) medido sobre ella.
+
+   Y LOS DEGRADADOS después —«ese naranja así difuminado, feo»—. Tenía razón:
+   la banda llevaba un foco radial MÁS un degradado vertical, y dos degradados
+   encima de un color cálido no dan volumen, dan una mancha. La de la captura
+   es un rectángulo de un solo color, y a esta escala eso es lo que se ve
+   limpio. Un color y ya.
+
+   Tampoco lleva filete abajo. Con la banda en marrón macizo y el cuerpo en el
+   gris de la tarjeta, el corte lo hace el propio cambio de color; la raya
+   encima solo era una raya de más. */
 .suscri-banda {
   position: relative;
-  padding: 15px 16px 16px;
-  background:
-    radial-gradient(115% 105% at 12% 0%, rgba(194, 112, 79, 0.3), transparent 74%),
-    linear-gradient(180deg, rgba(158, 86, 55, 0.3), rgba(158, 86, 55, 0.08));
-  /* Y el corte con el cuerpo en un filete de un píxel, no en un escalón de
-     color. El escalón —la banda muriendo en 0,04 sobre un fondo en 0— deja
-     una raya sucia que no se sabe si es una raya o una mancha. Un filete
-     limpio es lo que hace que la tarjeta se lea como un aviso partido en dos
-     y no como un degradado que ha salido mal. */
-  border-bottom: 1px solid rgba(242, 236, 225, 0.07);
+  padding: 13px 14px 13px;
+  background: #48342e;
 }
 
 .suscri-sello {
   display: grid;
   place-items: center;
-  width: 54px;
-  height: 54px;
-  margin-bottom: 11px;
+  width: 44px;
+  height: 44px;
+  margin-bottom: 9px;
   border-radius: 999px;
-  background: rgba(20, 16, 10, 0.26);
-  font-size: 29px;
+  background: rgba(18, 12, 9, 0.3);
+  font-size: 23px;
   line-height: 1;
 }
 
 .suscri-titulo {
-  font-size: 19.5px;
+  font-size: 17.5px;
   font-weight: 620;
   line-height: 1.24;
   letter-spacing: -0.02em;
   color: rgba(242, 236, 225, 0.88);
   /* Sitio para la equis: sin esto, un titular de dos líneas largas se le mete
      debajo. */
-  padding-right: 34px;
+  padding-right: 32px;
 }
 /* La segunda línea, que es la que manda, en ocre y con más peso. Es el mismo
    recurso de la captura —dos líneas, la de abajo en color— y funciona porque
    la primera cuenta el problema y la segunda ofrece la salida. */
-/* La segunda línea en el naranja de barro. En la captura es naranja también,
-   y este es el `--clay` de la paleta subido de luz: sobre el marrón de la
-   banda da 4,9 de contraste, o sea que se lee como un titular y no como un
-   adorno. */
+/* La segunda línea en naranja, como la captura. Sobre el marrón macizo da 5,5
+   de contraste y se lee limpia: el problema no era este color, era que estaba
+   puesto encima de dos degradados. */
 .suscri-titulo b {
   display: block;
-  color: #e08d63;
+  color: #f0a06a;
   font-weight: 780;
 }
 
 .suscri-cerrar {
   position: absolute;
-  top: 12px;
-  right: 12px;
+  top: 11px;
+  right: 11px;
   display: grid;
   place-items: center;
-  width: 28px;
-  height: 28px;
+  width: 26px;
+  height: 26px;
   border-radius: 999px;
   background: rgba(20, 17, 14, 0.28);
   color: rgba(242, 236, 225, 0.72);
 }
 .suscri-cerrar svg { width: 13px; height: 13px; }
 
-.suscri-cuerpo { padding: 13px 16px 15px; }
+.suscri-cuerpo { padding: 12px 14px 13px; }
 
 .suscri-texto {
-  font-size: 13.5px;
-  line-height: 1.42;
+  font-size: 12.8px;
+  line-height: 1.4;
   font-weight: 560;
   color: rgba(242, 236, 225, 0.62);
 }
@@ -4876,15 +4872,14 @@ button {
    parezca encendido en vez de recortado. */
 .suscri-boton {
   width: 100%;
-  height: 52px;
-  margin-top: 13px;
-  border-radius: 15px;
-  background: linear-gradient(180deg, #78e394, #5fce7e);
-  color: #10301d;
-  font-size: 15.5px;
+  height: 46px;
+  margin-top: 12px;
+  border-radius: 13px;
+  background: var(--paper);
+  color: #241d18;
+  font-size: 14.8px;
   font-weight: 720;
   letter-spacing: -0.012em;
-  box-shadow: 0 10px 24px -12px rgba(109, 220, 137, 0.6);
 }
 
 /* ==========================================================================
@@ -4896,9 +4891,13 @@ button {
    adorno es una cosa más que mirar antes de tocarlo. El único color de la
    pieza está en los tres logotipos y en el candado. Ver `Cuenta.tsx`.
    ========================================================================== */
+/* Más pequeña de lo que era. Ocupaba media pantalla para pedir algo que se
+   hace en un toque, y entre esta y el aviso de suscripción empujaban la racha
+   por debajo del pliegue: quien entra al perfil viene a ver su racha, no a
+   registrarse. Baja el aire, baja el símbolo y bajan los tres botones. */
 .cuenta {
   margin: 6px 0 0;
-  padding: 17px 16px 16px;
+  padding: 14px 14px 14px;
   border-radius: 20px;
   background: rgba(242, 236, 225, 0.07);
 }
@@ -4912,8 +4911,8 @@ button {
 .cuenta-texto {
   flex: 1;
   min-width: 0;
-  font-size: 15px;
-  line-height: 1.36;
+  font-size: 14px;
+  line-height: 1.34;
   font-weight: 620;
   letter-spacing: -0.012em;
   color: rgba(242, 236, 225, 0.92);
@@ -4928,11 +4927,11 @@ button {
   flex: none;
   display: grid;
   place-items: center;
-  width: 74px;
-  height: 74px;
+  width: 50px;
+  height: 50px;
   border-radius: 999px;
   background: radial-gradient(circle at 50% 50%, rgba(207, 160, 89, 0.2), transparent 68%);
-  font-size: 46px;
+  font-size: 31px;
   line-height: 1;
 }
 
@@ -4944,21 +4943,21 @@ button {
 .cuenta-entradas {
   display: flex;
   flex-direction: column;
-  gap: 9px;
-  margin-top: 16px;
+  gap: 8px;
+  margin-top: 13px;
 }
 
 .cuenta-entrada {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  height: 48px;
-  border-radius: 13px;
+  gap: 9px;
+  height: 44px;
+  border-radius: 12px;
   background: rgba(242, 236, 225, 0.1);
   border: 1px solid rgba(242, 236, 225, 0.14);
   color: var(--paper);
-  font-size: 14.5px;
+  font-size: 13.8px;
   font-weight: 650;
   letter-spacing: -0.012em;
 }

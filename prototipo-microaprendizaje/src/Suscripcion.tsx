@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { spring, springSoft } from "./motion";
 import { GlyphClose } from "./glyphs";
@@ -71,7 +71,7 @@ const TEXTOS: Record<EstadoPago, {
     sello: "🎟️",
     alto: "Libros ilimitados",
     bajo: "y curiosidades cada día",
-    lema: "Un libro entero cada día,|en veinte minutos.",
+    lema: "Un libro entero al día,|en veinte minutos.",
     boton: "Empezar prueba gratuita",
   },
   cancelado: {
@@ -142,10 +142,19 @@ export function Suscripcion({
           <div className="suscri-cuerpo">
             {/* El lema va partido por la barra en piezas que no se rompen por
                 dentro: si no cabe en un renglón, baja por donde tiene sentido
-                y no por «cada / día». */}
+                y no por «cada / día».
+
+                El espacio va FUERA de las piezas y como `{" "}`. Dentro se
+                pierde: los trozos son `inline-block` y un blanco al final de
+                una caja en línea lo recoge el navegador. Y en JSX el salto de
+                línea entre dos elementos tampoco cuenta como espacio, así que
+                hay que escribirlo. Se veía «cada día,en veinte minutos». */}
             <p className="suscri-texto">
               {t.lema.split("|").map((trozo, i) => (
-                <span key={i}>{trozo}{i === 0 ? " " : ""}</span>
+                <Fragment key={i}>
+                  {i > 0 ? " " : null}
+                  <span>{trozo}</span>
+                </Fragment>
               ))}
             </p>
             <motion.button
