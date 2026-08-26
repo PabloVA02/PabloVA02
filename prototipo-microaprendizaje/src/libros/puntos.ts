@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "haz-cosas-dificiles": [
+    "por qué paras antes de que el músculo llegue a su límite",
+    "qué distingue una confianza que aguanta de una que se derrumba",
+    "para qué sirve ponerle nombre exacto a lo que sientes",
+    "cómo cambia hablarte a ti mismo usando tu propio nombre",
+    "por qué se falla bajo presión justo lo que se sabe hacer bien",
+  ],
+
   "alegria-perderse": [
     "por qué tu calendario dice tus prioridades reales aunque no las eligieras",
     "que una lista larga permite escaquearse y una corta obliga a elegir",

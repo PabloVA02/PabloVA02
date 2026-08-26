@@ -105328,7 +105328,315 @@ const ALEGRIA_PERDERSE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Haz cosas difíciles, de Steve Magness (2022), en ocho páginas.
+
+   Libro práctico, registro de tú: apartado 4.7.
+
+   Cada página trae un experimento con su año, porque el asunto —la
+   dureza— está lleno de afirmaciones sin comprobar. Y la séptima cuenta
+   quién escribe: Magness fue el entrenador que denunció en 2015 al
+   programa de élite en el que trabajaba, y eso condiciona el libro entero.
+   -------------------------------------------------------------------------- */
+
+const HAZ_COSAS_DIFICILES: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Magness sostiene que casi todo lo que se enseña como dureza produce peores resultados",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hasta bien entrados los años sesenta, los entrenadores de fútbol americano prohibían beber agua durante los entrenamientos. No era un descuido: se creía que aguantar la sed formaba el carácter y que pedir agua era señal de debilidad. En su lugar se daban pastillas de sal. Murieron jugadores por golpe de calor, y aun así la costumbre tardó décadas en desaparecer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Steve Magness es entrenador de atletismo y fisiólogo del ejercicio, y usa ese ejemplo para abrir el libro por un motivo: nadie hoy defendería aquello, y en su momento lo defendía todo el mundo con el argumento de la dureza. Su pregunta es cuántas cosas que hoy se hacen por el mismo motivo van a parecer igual de absurdas dentro de treinta años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que lo que se enseña como dureza —aguantar sin quejarse, ignorar las señales del cuerpo, obedecer a quien grita, no mostrar emoción— es en realidad una representación de dureza, y que produce peores resultados que lo contrario. Y sostiene que existe una dureza real, que se parece muy poco a esa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue recorre lo que la investigación dice sobre esto: por qué el cansancio no está donde se cree, qué hace la falsa seguridad bajo presión, por qué hablarse a uno mismo en segunda persona funciona mejor, qué pasa cuando se intenta controlar lo automático, y quién escribe este libro y desde dónde.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Prohibir el agua a los deportistas se defendía con el argumento de la dureza y mató gente. La pregunta es qué se está haciendo hoy por ese mismo motivo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El agotamiento no es un límite del músculo: es una decisión que toma el cerebro antes",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea corriente sobre el cansancio es mecánica: uno se detiene cuando el músculo ya no puede más, cuando se acaba el combustible o cuando se acumula ácido. Esa explicación es intuitiva y está bastante mal sostenida, porque en casi todas las situaciones reales queda margen fisiológico cuando alguien para.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un experimento de 2009 lo enseñó con una limpieza notable. Un equipo dirigido por Samuele Marcora hizo pedalear hasta el agotamiento a un grupo de personas en dos ocasiones: una precedida de noventa minutos de una tarea mental exigente, y otra precedida de noventa minutos viendo documentales. Todo lo demás era idéntico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El grupo mentalmente cansado aguantó significativamente menos. Y lo importante es lo que no cambió: el consumo de oxígeno, la frecuencia cardíaca y los marcadores metabólicos fueron los mismos en las dos condiciones. El músculo estaba igual. Lo único que cambió fue lo duro que les pareció el esfuerzo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la reformulación que ordena el libro. Lo que limita a alguien no es su cuerpo sino su percepción del esfuerzo, y esa percepción se puede modificar. No prohibiéndose sentirla, que es lo que enseña la dureza tradicional, sino entendiendo qué la sube: el cansancio mental previo, la falta de control, la sensación de que aquello no acaba nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un factor que sube esa percepción más que ningún otro y que se puede manejar: no saber cuánto falta. La misma cantidad de esfuerzo se soporta bastante peor si el final es incierto que si está marcado, y por eso partir una tarea larga en tramos con final visible no es un truco motivacional, sino una intervención sobre lo que de verdad limita.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Paras cuando el esfuerzo te parece insoportable, no cuando el músculo no puede. Y lo que hiciste antes con la cabeza cambia esa percepción.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La seguridad fingida se derrumba bajo presión, y la evaluación honesta aguanta",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer pilar del libro es el más contrario a lo que se enseña: hay que dejar de aparentar. Magness sostiene que la confianza inflada —convencerse de que uno está mejor de lo que está, negar las dudas, presentarse imbatible— funciona hasta que aparece la primera dificultad seria, y entonces se cae de golpe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón es que una seguridad basada en no mirar los datos no tiene dónde apoyarse cuando los datos aparecen. Quien se ha dicho que está preparado sin estarlo interpreta la primera señal contraria como una catástrofe, porque su seguridad dependía de que no hubiera ninguna señal contraria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Frente a eso propone una evaluación exacta de dónde está uno, incluidas las partes malas. Alguien que sabe que su punto débil es el último tramo, que lleva tres semanas durmiendo mal y que su rival es mejor en cierta cosa, no se hunde cuando eso ocurre: lo estaba esperando y tenía previsto qué hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La misma lógica se aplica fuera del deporte y es la parte más aprovechable del capítulo. Presentarse a algo importante habiéndose dicho la verdad sobre la propia preparación produce menos ansiedad que presentarse con un discurso motivacional, porque la ansiedad viene sobre todo de la distancia entre lo que uno dice de sí mismo y lo que sabe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Magness añade una prueba para distinguir las dos formas de confianza. La falsa no admite preguntas: quien la tiene se molesta si se le señala una debilidad. La verdadera sí, porque está hecha justamente de haberlas mirado, y por eso quien la tiene puede hablar de sus puntos flojos sin que se le mueva nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La ansiedad viene de la distancia entre lo que dices de ti y lo que sabes. Decirte la verdad antes reduce esa distancia a cero.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El dolor y el miedo son información, y taparlos deja a alguien sin datos",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo pilar consiste en escuchar las señales en lugar de anularlas. Magness distingue entre molestia y daño, que es la distinción que la dureza tradicional borra: aguantar la incomodidad de un esfuerzo duro es entrenamiento, y aguantar el dolor de una lesión es una manera eficaz de no volver a competir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mismo vale para las emociones. Enseñar a alguien a no sentir miedo antes de una prueba no consigue que no lo sienta: consigue que no lo diga, y por tanto que nadie pueda ayudarle y que él mismo no pueda usar esa información para prepararse. La emoción sigue ahí, funcionando, y ahora además es secreta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La herramienta que propone tiene respaldo y es sorprendentemente sencilla: ponerle nombre exacto a lo que se siente. No estoy mal, sino estoy nervioso porque no he dormido y porque me importa quedar bien delante de esta gente. Las personas capaces de distinguir con precisión entre estados parecidos se regulan mejor, y eso está medido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo es que un estado sin nombre no se puede manejar. Un malestar difuso solo admite dos respuestas, aguantarlo o huir de él; un malestar identificado admite una tercera, que es hacer algo concreto sobre su causa. Nombrarlo no es un ejercicio terapéutico: es lo que convierte una sensación en un problema con solución.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una diferencia práctica entre las dos señales que conviene tener clara. La molestia del esfuerzo es difusa, aparece durante y desaparece al parar; el daño suele ser localizado, punzante, cambia la manera de moverse y sigue después. No es una regla infalible y descarta la mayoría de los casos dudosos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un malestar sin nombre solo se puede aguantar o evitar. Uno identificado con precisión se puede resolver, y por eso conviene nombrarlo bien.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hablarse a uno mismo de tú funciona mejor que hablarse de yo, y hay experimentos que lo miden",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercer pilar trata de crear espacio entre lo que se siente y lo que se hace, y ahí el libro trae uno de los hallazgos más raros y más aplicables de la psicología reciente. Tiene que ver con la persona gramatical que uno usa cuando habla consigo mismo, y la diferencia es medible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un equipo dirigido por Ethan Kross hizo que unos participantes se prepararan para una situación estresante —hablar en público ante un tribunal— usando distintas formas de discurso interno. Unos se decían cosas en primera persona, del tipo por qué estoy tan nervioso; otros se hablaban en segunda persona o usando su propio nombre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los segundos rindieron mejor, se angustiaron menos antes, dieron discursos mejor valorados por observadores y le dieron menos vueltas al asunto después. El efecto se ha reproducido en varias situaciones distintas y no requiere ninguna práctica previa: funciona la primera vez que se hace.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación es de distancia. Hablarse en primera persona mantiene a alguien dentro de su propia experiencia, donde todo es urgente; usar el nombre propio produce la misma distancia con la que se aconseja a un amigo, y casi todo el mundo aconseja mejor a los demás que a sí mismo. Es un truco de dos palabras y funciona por eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mismo funciona para lo que ocurre después. Darle vueltas a algo que salió mal en primera persona alarga el malestar; repasarlo como si le hubiera pasado a otro permite sacar lo que hay que corregir sin volver a sentirlo entero cada vez. La diferencia entre aprender de algo y revivirlo está en la persona gramatical.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Háblate usando tu propio nombre cuando estés a punto de algo difícil. Aconsejas mucho mejor a los demás que a ti, y eso te pone en ese sitio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Bajo presión, lo que arruina a un experto es ponerse a vigilar lo que hacía solo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica un tramo a por qué la gente falla precisamente cuando más se juega, y la explicación es contraintuitiva. No falla por nervios ni por falta de concentración: falla por exceso de atención puesta en el sitio equivocado, es decir, sobre un movimiento que llevaba años haciéndose solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La investigación de Sian Beilock lo describió con precisión. Un experto ejecuta de forma automática, sin pensar en los pasos; bajo presión empieza a controlar conscientemente cada uno de ellos, y esa supervisión rompe la secuencia. Es la razón de que un jugador que lanza mil tiros libres a la semana falle el que decide un partido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo revelador es que un principiante no sufre ese efecto, porque no tiene nada automatizado que interrumpir. El fallo bajo presión es, por tanto, un problema exclusivo de quien ya sabe hacer algo bien, y el consejo de concentrarse mucho —que es lo que suele darse— empeora exactamente ese caso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí funciona va en dirección contraria: ocupar la atención consciente en algo externo y sencillo mientras el cuerpo hace lo suyo. Una palabra, un punto donde mirar, un ritmo de respiración. No es distracción: es dejar de vigilar lo que ya sabía hacerse solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto explica también por qué la gente rinde peor cuando la observan alguien importante. No es la presencia en sí: es que la presencia dirige la atención hacia uno mismo, y hacia uno mismo es exactamente donde no conviene mirar cuando se ejecuta algo automatizado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Fallas lo que sabes hacer cuando te pones a vigilarlo. Ocupa la cabeza en algo externo y deja que el cuerpo haga lo que lleva años haciendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Quien escribe este libro denunció en 2015 el programa de élite en el que trabajaba",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene saber de dónde viene esto, porque explica el tono y también sus límites. Magness era entrenador ayudante de uno de los proyectos de atletismo de fondo más prestigiosos del mundo, financiado por una gran marca deportiva, y en 2015 hizo públicas prácticas que había visto dentro y que consideraba inaceptables.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquello le costó su puesto y años de conflicto. La investigación posterior de la agencia antidopaje estadounidense terminó en 2019 con una sanción de cuatro años al entrenador principal por manipulación de procedimientos, el programa se cerró aquel mismo año, y en 2021 otra institución le impuso una inhabilitación de por vida por conducta con las deportistas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso da autoridad al libro y también lo condiciona. Está escrito por alguien que vio de cerca lo peor de la cultura del aguante y que tiene un motivo personal para desmontarla, y eso hace que el reparto entre la dureza vieja y la nueva salga demasiado limpio: todo lo antiguo es dañino y todo lo nuevo funciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La realidad es algo más incómoda. Los métodos basados en el miedo persistieron durante un siglo porque producen obediencia inmediata y a veces resultados a corto plazo, y esa es la razón de que se sigan usando. Lo que no producen es rendimiento sostenido ni gente que quiera seguir haciendo aquello dentro de cinco años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los métodos basados en el miedo funcionan a corto plazo, y por eso duran. Lo que no producen es a nadie que siga ahí dentro de cinco años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que el agotamiento es una percepción y no un límite del músculo, que la seguridad fingida se derrumba y la evaluación honesta aguanta, que el dolor y el miedo son información que conviene nombrar con precisión, y que hablarse a uno mismo en segunda persona regula mejor que hacerlo en primera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente al resto del estante es que trae experimentos en lugar de anécdotas. La mayoría de los libros sobre resistencia mental se apoyan en historias de deportistas contadas después; este va citando trabajos concretos con sus años, y cuando algo no está demostrado tiende a decirlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dite la verdad antes de empezar, ponle nombre exacto a lo que sientes y háblate usando tu nombre. Con eso está la parte útil del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Casi todo el material procede del deporte de alto nivel, y la extensión al trabajo, al estudio o a la crianza se afirma más que se demuestra: no es evidente que lo que sirve para un corredor de fondo sirva igual para alguien con tres turnos y dos hijos. El reparto entre la dureza antigua y la nueva sale demasiado limpio, y el libro no explica bien por qué la primera duró un siglo si no funcionaba nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un aviso que este libro no da y que conviene añadir, porque es el ejemplo perfecto de que las correcciones también se pasan de frenada. La costumbre de prohibir el agua se corrigió, y en las décadas siguientes se pasó a insistir en beber constantemente durante el esfuerzo. Un estudio publicado en 2005 sobre corredores de maratón encontró que alrededor de uno de cada ocho llegaba a meta con el sodio en sangre por debajo de lo normal por haber bebido demasiado, y esa alteración también ha matado a gente. El péndulo se movió del extremo malo al otro extremo malo, y esa es la forma habitual de corregir un mito.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "haz-cosas-dificiles": HAZ_COSAS_DIFICILES,
   "alegria-perderse": ALEGRIA_PERDERSE,
   "hambruna-mao": HAMBRUNA_MAO,
   "modelos-manson": MODELOS_MANSON,

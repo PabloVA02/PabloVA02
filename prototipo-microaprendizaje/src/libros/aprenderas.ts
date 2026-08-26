@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "haz-cosas-dificiles":
+    "Hasta los años sesenta se prohibía beber agua a los deportistas porque pedirla era señal de debilidad, y murió gente por ello. Magness usa ese ejemplo para desmontar lo que hoy se sigue enseñando como dureza.",
+
   "alegria-perderse":
     "Frente al miedo a perderse algo, Dalton propone lo contrario: elegir tres cosas y perderse el resto sin que duela. El libro se dirige a quien además lleva una casa entera en la cabeza.",
 

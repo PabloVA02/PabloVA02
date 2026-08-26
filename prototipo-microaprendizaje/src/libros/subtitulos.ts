@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "haz-cosas-dificiles": "La ciencia sorprendente de la fortaleza real",
   "alegria-perderse": "Vive más haciendo menos",
   "hambruna-mao": "Historia de la catástrofe más devastadora de China",
   "modelos-manson": "Atrae a las mujeres a través de la honestidad",
