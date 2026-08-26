@@ -12,6 +12,16 @@ exacto del archivo en Commons, que es su identificador: se encuentra en
 Los datos salen del propio código —cada imagen guarda su autor, su licencia y su
 enlace— y este fichero se regenera con `node scripts/creditos.mjs`.
 
+## Lo que no es una imagen de Commons
+
+**La llama de la racha** es la animación del emoji de fuego de **Noto Animated
+Emoji**, de Google (`fuego-noto.json`, del emoji U+1F525). Va bajo **CC BY
+4.0**, que permite el uso comercial y obliga a citar la autoría: esta línea es
+esa cita, y va también en la pantalla de ajustes de la aplicación. Si algún día
+se quitara la atribución habría que quitar también el fichero.
+
+    https://googlefonts.github.io/noto-emoji-animation/
+
 ## Resumen por licencia
 
 | licencia | imágenes |

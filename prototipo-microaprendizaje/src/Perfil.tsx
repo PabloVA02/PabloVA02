@@ -1,5 +1,5 @@
 import { motion, useReducedMotion } from "framer-motion";
-import { Llama } from "./Racha";
+import { Llama } from "./Llama";
 import { MetaDiaria } from "./Meta";
 import { Crecimiento, type Semana } from "./Crecimiento";
 import { Cuenta } from "./Cuenta";

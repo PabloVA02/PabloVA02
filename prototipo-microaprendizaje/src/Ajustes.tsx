@@ -51,7 +51,7 @@ type Panel =
   | "seguidos" | "silenciados" | "objetivo" | "recordatorio" | "apariencia" | "escala"
   | "racha" | "descargar" | "sincronizar"
   | "compartir" | "valorar" | "proponer"
-  | "faq" | "reportar" | "privacidad" | "terminos";
+  | "faq" | "reportar" | "privacidad" | "terminos" | "creditos";
 
 type Fila = {
   id?: Panel;
@@ -207,6 +207,12 @@ export function Ajustes({
       filas: [
         { id: "privacidad", nombre: "Política de privacidad", Icono: IcoEscudo },
         { id: "terminos", nombre: "Términos y condiciones", Icono: IcoDocumento },
+        /* Los créditos NO son decoración legal opcional. Las fotografías de
+           Commons y la llama de la racha van con licencias Creative Commons
+           que obligan a citar la autoría, y ésta es la cita que viaja dentro
+           del producto. Si se quita esta fila hay que quitar también las
+           imágenes y la animación. */
+        { id: "creditos", nombre: "Créditos e imágenes", Icono: IcoDocumento },
         {
           nombre: "Analítica y marketing",
           Icono: IcoGrafico,
@@ -662,6 +668,22 @@ export function Ajustes({
             setPanel(null);
             avisar("Aviso enviado. Lo revisamos.");
           }}
+        />
+      </Hoja>
+
+      {/* CRÉDITOS. No es una hoja de relleno: las fotografías de Commons y la
+          llama de la racha van con licencias Creative Commons que obligan a
+          citar la autoría, y ésta es la cita que viaja dentro del producto.
+          La lista completa, imagen a imagen, está en `CREDITOS-IMAGENES.md`,
+          que se regenera con `scripts/creditos.mjs`. */}
+      <Hoja abierta={panel === "creditos"} titulo="Créditos e imágenes" onCerrar={() => setPanel(null)}>
+        <Legal
+          parrafos={[
+            "Las fotografías de las historias son 2274 imágenes de Wikimedia Commons. Cada una se pide a Commons en el momento de mostrarla: la aplicación no las almacena ni las redistribuye. Su autor y su licencia van guardados junto a cada imagen.",
+            "La llama de la racha es la animación del emoji de fuego de Noto Animated Emoji, de Google, bajo licencia Creative Commons Reconocimiento 4.0 (CC BY 4.0). googlefonts.github.io/noto-emoji-animation",
+            "Las cubiertas de los libros están dibujadas para Curva y no proceden de ninguna colección externa.",
+            "La lista completa, imagen a imagen y con su licencia, está publicada en el repositorio del proyecto.",
+          ]}
         />
       </Hoja>
 
