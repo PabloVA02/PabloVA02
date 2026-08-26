@@ -56,9 +56,20 @@
      por qué: el morado tiene 0,023 de luminancia contra los 0,0185 de este
      gris, así que esas seis parecían un punto más claras y un punto más
      lavadas que el resto de la app. Pablo lo dijo el 26: «el fondo en todos
-     los sitios debe ser más oscuro, como el de Headway». Y el suyo es
-     exactamente este #222222, muestreado de sus capturas. Corregido. */
-  --fondo: #222222;
+     los sitios debe ser más oscuro, como el de Headway». Corregido.
+
+     Y EL VALOR TAMBIÉN BAJA, de #222222 a #151515. Muestreando sus capturas,
+     el fondo de Headway sale exactamente en 34, 34, 34: o sea que el que ya
+     teníamos era ese. Pero Pablo lo mira en un móvil y ahí no le cuadra —«no
+     es tan gris, es más negro»—, y tiene sentido: en una pantalla OLED el
+     negro del panel está apagado del todo y un 34 al lado se ve gris de
+     verdad, mientras que en una captura vista en un monitor ese mismo 34 pasa
+     por negro. Manda lo que se ve en el móvil, que es donde se usa la app.
+
+     21 y no 0: con el fondo en negro puro, las tarjetas —que son crema al
+     7 % por encima— pierden el filo y se quedan flotando sin apoyo. Con 21
+     hay escalón, y encima el escalón es MAYOR que el que había con 34. */
+  --fondo: #151515;
 
   /* Pantalla de racha: casi negro y el naranja del fuego */
   --carbon: #0e0e16;
@@ -4811,10 +4822,21 @@ button {
   border: 1px solid #4e4e4e;
 }
 
+/* UN degradado, vertical y corto. La banda llevó dos —un foco radial encima
+   de un degradado vertical— y Pablo los devolvió: «ese naranja así difuminado,
+   feo». Tenía razón, y el fallo era que fueran dos: dos direcciones de luz
+   sobre un color cálido no dan volumen, dan una mancha. Pero quitarlos los dos
+   dejó la banda en un rectángulo plano, y eso también lo devolvió —«el
+   degradado ahora está mal, antes estaba mejor hecho»—.
+
+   Así que queda uno: de (87, 60, 43) arriba a (74, 50, 34) abajo. Trece puntos
+   de recorrido, lo justo para que la banda tenga cara sin que se vea dónde
+   empieza y dónde acaba. El (78, 54, 36) medido en la captura queda en medio,
+   que es donde tiene que estar. */
 .suscri-banda {
   position: relative;
   padding: 16px 16px 15px;
-  background: #4e3624;
+  background: linear-gradient(180deg, #573c2b, #4a3222);
 }
 
 /* Sin plato detrás: el icono de la captura está suelto sobre la banda, y a
