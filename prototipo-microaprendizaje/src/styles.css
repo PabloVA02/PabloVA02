@@ -4798,7 +4798,7 @@ button {
 
 .suscri-banda {
   position: relative;
-  padding: 21px 17px 16px;
+  padding: 21px 16px 16px;
   background: #4e3624;
 }
 
@@ -4830,8 +4830,12 @@ button {
   line-height: 1.18;
   letter-spacing: -0.018em;
   color: #fff;
-  /* Sitio para la equis. */
-  padding-right: 40px;
+  /* Sitio para la equis, y ni un punto más. La equis ocupa de W-45 a W-15
+     contando desde el filo de la tarjeta, así que dentro del titular empieza
+     a 29 del final: con 40 se le robaban once puntos al renglón, y en un
+     móvil de 360 eso era la diferencia entre que «Alcanza tus metas» cupiera
+     en una línea o se partiera en dos. */
+  padding-right: 30px;
 }
 .suscri-titulo b {
   display: block;
@@ -4852,7 +4856,7 @@ button {
 }
 .suscri-cerrar svg { width: 17px; height: 17px; }
 
-.suscri-cuerpo { padding: 17px 17px 16px; }
+.suscri-cuerpo { padding: 17px 16px 16px; }
 
 .suscri-texto {
   margin: 0;
@@ -4860,8 +4864,8 @@ button {
   line-height: 20px;
   font-weight: 450;
   color: rgba(255, 255, 255, 0.92);
+  text-wrap: pretty;
 }
-.suscri-texto span { display: inline-block; white-space: nowrap; }
 
 .suscri-boton {
   width: 100%;

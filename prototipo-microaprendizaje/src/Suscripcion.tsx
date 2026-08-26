@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { spring, springSoft } from "./motion";
 import { GlyphClose } from "./glyphs";
@@ -79,19 +79,28 @@ const TEXTOS: Record<EstadoPago, {
        Premium / expira el agosto 28»; la nuestra pone en el renglón naranja
        lo que Pablo quería destacar, los siete días. Y caben: a 25 de cuerpo
        en negrita, «7 días gratis» ocupa 169 puntos de los 314 que hay en un
-       móvil estrecho, mientras que «y curiosidades cada día» se pasaba. */
-    alto: "Libros ilimitados",
+       móvil estrecho, mientras que «y curiosidades cada día» se pasaba.
+
+       EL TONO ES EL SUYO, no el de una tarifa. Pablo lo pidió mirando la
+       captura: «alcanza tus metas y logra…, algo así, mucho más motivador».
+       Y es lo que hacen todas: la suya no promete funciones, promete que vas
+       a llegar a donde querías —«sigue hoy con tu crecimiento personal y
+       evita obstáculos en tus metas»—. Los renglones de aquí decían «libros
+       ilimitados», «sin anuncios», «sin esperar a mañana»: eso es la letra
+       pequeña del plan, no un motivo para pagar. Lo que se compra sigue
+       estando, pero detrás del motivo y no delante. */
+    alto: "Alcanza tus metas",
     bajo: "7 días gratis",
-    lema: "Y curiosidades cada día. Sin anuncios|y sin esperar a mañana.",
+    lema: "Empieza hoy tu crecimiento personal y no lo dejes a medias.",
     boton: "Empezar prueba gratuita",
   },
   cancelado: {
     /* Un marcapáginas y no un candado: al que canceló no se le cierra nada,
        se le guarda el sitio. El dibujo tiene que decir eso mismo. */
     sello: "🔖",
-    alto: "Tu suscripción",
-    bajo: "está cancelada",
-    lema: "Te guardamos la racha, los apuntes|y todo lo que dejaste a medias.",
+    alto: "Sigue creciendo",
+    bajo: "Vuelve hoy",
+    lema: "Te guardamos la racha y lo que llevabas. Sigue donde lo dejaste.",
     boton: "Recuperar mi suscripción",
   },
 };
@@ -151,23 +160,12 @@ export function Suscripcion({
           </div>
 
           <div className="suscri-cuerpo">
-            {/* El lema va partido por la barra en piezas que no se rompen por
-                dentro: si no cabe en un renglón, baja por donde tiene sentido
-                y no por «cada / día».
-
-                El espacio va FUERA de las piezas y como `{" "}`. Dentro se
-                pierde: los trozos son `inline-block` y un blanco al final de
-                una caja en línea lo recoge el navegador. Y en JSX el salto de
-                línea entre dos elementos tampoco cuenta como espacio, así que
-                hay que escribirlo. Se veía «cada día,en veinte minutos». */}
-            <p className="suscri-texto">
-              {t.lema.split("|").map((trozo, i) => (
-                <Fragment key={i}>
-                  {i > 0 ? " " : null}
-                  <span>{trozo}</span>
-                </Fragment>
-              ))}
-            </p>
+            {/* Texto corriente, que parte por donde quiera. Estuvo troceado en
+                piezas que no se rompían por dentro, para que un lema de dos
+                frases cortas no bajara por la preposición; con una frase larga
+                y seguida eso ya no hace falta, y además era peligroso: un
+                trozo que no cupiera se salía de la tarjeta en vez de bajar. */}
+            <p className="suscri-texto">{t.lema}</p>
             <motion.button
               className="suscri-boton"
               type="button"
