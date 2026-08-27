@@ -26,6 +26,7 @@ import { spring, springPop, springSoft, springTight } from "./motion";
 import { GlyphBiblioteca, GlyphLibros, GlyphLupa, GlyphRayo } from "./glyphs";
 import { PantallaColeccion } from "./Colecciones";
 import { AjustarTemas, categoriasDe } from "./Temas";
+import { Tragaperras } from "./Dado";
 import type { Coleccion } from "./colecciones";
 
 type Pantalla =
@@ -161,6 +162,9 @@ export default function App() {
   /* La colección abierta. Vive aquí y no dentro de la pantalla porque la
      pantalla se desmonta al ir a un libro y hay que poder volver a ella. */
   const [coleccion, setColeccion] = useState<Coleccion | null>(null);
+  /** La tragaperras del dado. Es una capa encima del inicio y no una pantalla:
+   *  al cerrarla hay que quedarse exactamente donde se estaba. */
+  const [dado, setDado] = useState(false);
   /** A dónde vuelve la ficha de un libro al cerrarse. */
   const [volverDeDetalle, setVolverDeDetalle] = useState<Pantalla>("inicio");
   /** Lo mismo para los temas: se entra desde el inicio y desde el perfil. */
@@ -386,7 +390,6 @@ export default function App() {
           {pantalla === "inicio" && (
             <Inicio
               key="inicio"
-              racha={RACHA}
               suscrito={suscrito}
               intereses={intereses}
               onAbrir={(l) => {
@@ -408,6 +411,7 @@ export default function App() {
                 setPantalla("coleccion");
               }}
               metas={metas}
+              onDado={() => setDado(true)}
               onGestionarTemas={() => {
                 setVolverDeTemas("inicio");
                 setPantalla("temas");
@@ -670,6 +674,23 @@ export default function App() {
             >
               {avisoGuardado}
             </motion.p>
+          )}
+        </AnimatePresence>
+
+        {/* La tragaperras va aquí, fuera del cambio de pantallas y por encima
+            de la barra de abajo: mientras gira no hay nada más que hacer. */}
+        <AnimatePresence>
+          {dado && (
+            <Tragaperras
+              libros={LIBROS}
+              onCerrar={() => setDado(false)}
+              onLeer={(l) => {
+                setLibro(l);
+                setVolverDeDetalle("inicio");
+                setDado(false);
+                setPantalla("detalle");
+              }}
+            />
           )}
         </AnimatePresence>
 

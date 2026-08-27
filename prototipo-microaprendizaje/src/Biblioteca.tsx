@@ -8,7 +8,7 @@ import {
 import { enterVariants, spring, springPop, springSoft, springTight } from "./motion";
 import {
   GlyphAuriculares, GlyphAvatar, GlyphClose, GlyphDescargar, GlyphGuardar,
-  GlyphLeer, GlyphLlama, GlyphLupa, GlyphPaginas, GlyphPuntos, GlyphRegalo,
+  GlyphLeer, GlyphLupa, GlyphPaginas, GlyphPuntos, GlyphRegalo,
   GlyphReloj, GlyphShare, GlyphVisto,
 } from "./glyphs";
 import { LIBROS_RESUMEN } from "./libros/puente";
@@ -22,6 +22,7 @@ import { TiraColecciones } from "./Colecciones";
 import { GestionaTemas } from "./Temas";
 import type { Coleccion } from "./colecciones";
 import { LibroDelDia, libroDeHoy } from "./LibroDelDia";
+import { GlyphDado } from "./Dado";
 import type { Foto } from "./shorts";
 
 /* ==========================================================================
@@ -523,7 +524,7 @@ export function tiempo(min: number) {
 }
 
 export function Inicio({
-  racha,
+  onDado,
   suscrito = true,
   onAbrir,
   onPerfil,
@@ -536,7 +537,8 @@ export function Inicio({
   onColeccion,
   onGestionarTemas,
 }: {
-  racha: number;
+  /** Abre la tragaperras: un libro al azar. */
+  onDado: () => void;
   /** Sin suscripción no hay libro del día. Ver `LibroDelDia.tsx`. */
   suscrito?: boolean;
   onAbrir: (libro: Libro) => void;
@@ -601,11 +603,22 @@ export function Inicio({
           <motion.h1 custom={0} variants={enterVariants} initial="hidden" animate="shown">
             {saludo()}
           </motion.h1>
-          {/* La racha y el perfil, en una sola pastilla partida por un filete,
-              como en la captura. Son dos botones y no uno: el fuego lleva a la
-              racha y la cara al perfil, que es lo que espera quien toca cada
-              cosa. La llama respira despacio —dos segundos y medio— porque un
-              fuego quieto en la cabecera parece un icono apagado. */}
+          {/* Dos botones en una sola pastilla partida por un filete, como en la
+              captura de Headway. Ellos ponen ahí el fuego de la racha; el 27
+              de agosto Pablo lo cambió por un DADO, que abre la tragaperras y
+              saca un libro al azar. Es mejor sitio: la racha ya se ve entera
+              en el perfil y en su pantalla, mientras que «no sé qué leer» es
+              el problema que se tiene justo al abrir la app, que es cuando se
+              mira aquí arriba.
+
+              Y va sin la cifra al lado. El «3» era de la racha; junto a un
+              dado no querría decir nada, y un número que no significa nada en
+              la esquina de una pantalla se lee igual: se intenta entender.
+
+              El dado se mueve solo cada cinco segundos, con dos golpes de
+              muñeca. Sin eso es un icono más de una fila de iconos y nadie lo
+              toca; con eso pide que lo pulses, que es exactamente lo que hay
+              que hacer con él. */}
           <motion.div
             className="cabecera-pastilla"
             initial={{ opacity: 0, scale: 0.86 }}
@@ -613,19 +626,23 @@ export function Inicio({
             transition={{ ...springPop, delay: 0.16 }}
           >
             <motion.button
-              className="pastilla-racha"
-              onClick={onPerfil}
-              whileTap={{ scale: 0.92 }}
-              aria-label={`Tu racha: ${racha} ${racha === 1 ? "día" : "días"}`}
+              className="pastilla-dado"
+              onClick={onDado}
+              whileTap={{ scale: 0.88, rotate: -16 }}
+              aria-label="Sacar un libro al azar"
             >
               <motion.span
-                className="racha-fuego"
-                animate={{ scale: [1, 1.09, 0.98, 1], rotate: [0, -2.5, 2, 0] }}
-                transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut" }}
+                animate={{ rotate: [0, 0, -13, 11, -5, 0], scale: [1, 1, 1.08, 1.05, 1, 1] }}
+                transition={{
+                  duration: 5.2,
+                  repeat: Infinity,
+                  times: [0, 0.68, 0.76, 0.84, 0.92, 1],
+                  ease: "easeInOut",
+                }}
+                style={{ display: "grid" }}
               >
-                <GlyphLlama tamano={21} />
+                <GlyphDado tamano={24} />
               </motion.span>
-              <span className="racha-dias">{racha}</span>
             </motion.button>
             <span className="cabecera-filete" aria-hidden />
             <motion.button

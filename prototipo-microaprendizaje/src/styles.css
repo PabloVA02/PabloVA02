@@ -9718,3 +9718,219 @@ button {
   .cierre { --tapa: 112px; }
   .cierre { padding-bottom: 32px; }
 }
+
+/* ==========================================================================
+   EL DADO Y LA TRAGAPERRAS
+
+   Pablo, el 27 de agosto: quitar el fuego de la cabecera, poner un dado, y que
+   al pulsarlo pasen las cubiertas a toda velocidad y pare despacio en una.
+   El porqué de cada medida está en `Dado.tsx`; aquí solo la pintura.
+   ========================================================================== */
+
+.pastilla-dado {
+  display: grid;
+  place-items: center;
+  padding: 0 13px 0 15px;
+  height: 100%;
+}
+
+.trag {
+  position: absolute;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  /* Casi opaco y con desenfoque detrás: la máquina tiene que ser lo único que
+     se mira, y a la vez tiene que verse que el inicio sigue ahí debajo. */
+  background: rgba(9, 8, 13, 0.965);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.trag-cerrar {
+  position: absolute;
+  top: 12px;
+  right: 18px;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+.trag-caja {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 var(--shell-pad);
+}
+
+.trag-encima {
+  margin: 0 0 16px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.42);
+}
+
+/* La ventana. El degradado de la máscara es lo que hace que las cubiertas
+   aparezcan y desaparezcan en vez de cortarse contra un borde recto: sin él
+   parece una lista con overflow oculto, que es justo lo que es. */
+.trag-ventana {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  overflow: hidden;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.045);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.09);
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0,
+    #000 17%,
+    #000 83%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0,
+    #000 17%,
+    #000 83%,
+    transparent 100%
+  );
+}
+
+.trag-borron { will-change: filter; }
+
+.trag-tira {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  will-change: transform;
+}
+
+.trag-hueco {
+  display: grid;
+  place-items: center;
+  flex: none;
+}
+
+/* Cada cubierta con su sombra propia: son piezas que pasan por delante de un
+   hueco, no una imagen larga. */
+.trag-hueco .portada { box-shadow: 0 10px 22px rgba(0, 0, 0, 0.45); }
+
+/* El marco de la casilla premiada. Antes de parar es un filete que dice dónde
+   hay que mirar; al parar se enciende en oro. */
+/* OJO CON EL CENTRADO: aquí no se puede usar `transform: translate(-50%,-50%)`,
+   que es lo que uno escribe sin pensar. Este marco lo anima Framer para dar el
+   golpe al parar, y Framer escribe `transform` en el atributo de estilo, así
+   que se lleva por delante el centrado y el marco se va a una esquina. Con
+   márgenes negativos el centrado no vive en `transform` y no hay conflicto. */
+.trag-visor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 138px;
+  margin-left: -69px;
+  margin-top: -62px;
+  border-radius: 18px;
+  box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.16);
+  transition: box-shadow 0.35s ease;
+  pointer-events: none;
+}
+
+.trag-visor[data-on="true"] {
+  box-shadow:
+    0 0 0 2px #f8bb31,
+    0 0 26px rgba(248, 187, 49, 0.5);
+}
+
+/* Una veladura en los dos extremos: oscurece lo que entra y lo que sale, y es
+   lo que da sensación de tambor y no de tira plana. */
+.trag-sombra {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    rgba(10, 9, 14, 0.72) 0,
+    rgba(10, 9, 14, 0) 26%,
+    rgba(10, 9, 14, 0) 74%,
+    rgba(10, 9, 14, 0.72) 100%
+  );
+}
+
+.trag-pie {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  min-height: 168px;
+  padding-top: 22px;
+}
+
+.trag-girando {
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.trag-premio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.trag-titulo {
+  margin: 0;
+  max-width: 20ch;
+  text-align: center;
+  text-wrap: balance;
+  font-size: 21px;
+  font-weight: 740;
+  line-height: 1.16;
+  letter-spacing: -0.024em;
+  color: #ffffff;
+}
+
+.trag-autor {
+  margin: 6px 0 0;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.56);
+}
+
+.trag-botones {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+.trag-leer,
+.trag-otra {
+  flex: 1;
+  height: 48px;
+  border-radius: 12px;
+  font-size: 15.5px;
+  font-weight: 700;
+  letter-spacing: -0.008em;
+}
+
+/* Crema literal y no `var(--paper)`: dentro de `.inicio` los dos tokens están
+   dados la vuelta y este botón saldría negro sobre negro. Es la misma trampa
+   del botón de «Gestionar». */
+.trag-leer {
+  background: #f2ece1;
+  color: #17151c;
+}
+
+.trag-otra {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
