@@ -113640,7 +113640,290 @@ const FILOSOFO_GRIEGO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Thinkertoys, de Michael Michalko (1991, revisado en 2006), en ocho páginas.
+
+   Categoría Economía: cada argumento lleva una persona con nombre, según el
+   apartado 4 bis. Aquí sobran nombres —Osborn, Eberle, Silver, Fry, Simonton,
+   Duell, Weisberg— y hay que usarlos.
+
+   DOS páginas van DENTRO y no en la conclusión: la sexta, porque la
+   investigación sobre la lluvia de ideas en grupo contradice medio libro y eso
+   se sabía desde 1958; y la séptima, porque la mitad de los ejemplos célebres
+   que usa son folklore empresarial que no ocurrió. Las técnicas sí se sostienen.
+
+   OJO con la regla de no dar deberes: las técnicas se describen en tercera
+   persona y con un ejemplo hecho, nunca en imperativo.
+   -------------------------------------------------------------------------- */
+
+const THINKERTOYS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las ideas no se esperan: se fabrican con procedimientos que se aprenden en una tarde",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea que sostiene el libro entero cabe en una frase y va contra lo que casi todo el mundo cree: tener ideas no es un rasgo del carácter, es un oficio con herramientas. Quien no se le ocurre nada no es que carezca de algo, es que está mirando el problema de la única manera en que sabe mirarlo, y hay procedimientos concretos para obligarse a mirarlo de otras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Michael Michalko fue oficial del ejército de Estados Unidos y le encargaron algo poco corriente: montar en Fráncfort un equipo con especialistas de inteligencia de la OTAN y académicos de varios países para reunir, ordenar y clasificar todos los métodos de resolución de problemas que existieran, y aplicarlos a asuntos militares y económicos de la alianza. Al dejar el ejército, la CIA le contrató para dirigir sesiones con el mismo material.",
+      },
+      {
+        b: "texto",
+        texto:
+          "«Thinkertoys» salió de ahí en 1991, y se revisó en 2006. Son unas treinta técnicas, cada una con nombre propio y con instrucciones de una página, divididas en dos grupos: las lineales, que trocean y recombinan un problema de forma sistemática, y las intuitivas, que buscan lo contrario, sacar al que piensa de la línea recta. Al final hay un apartado sobre trabajo en grupo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue son la regla que las justifica todas, tres de las técnicas contadas con un ejemplo hecho, la parte del libro que la investigación ha desmentido, y el problema de los ejemplos con los que Michalko las ilustra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "A quien no se le ocurre nada no le falta un don: está mirando el problema de la única manera en que sabe mirarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Quien tiene más ideas buenas es, sin excepción, quien tiene más ideas malas",
+      },
+      {
+        b: "texto",
+        texto:
+          "La regla que justifica las treinta técnicas es de cantidad, no de calidad, y suena mal la primera vez. Michalko la apoya en biografías: Thomas Edison registró mil noventa y tres patentes en Estados Unidos y se impuso una cuota, un invento pequeño cada diez días y uno grande cada seis meses. Johann Sebastian Bach escribió una cantata por semana durante años en Leipzig. Pablo Picasso dejó unas veintiséis mil obras catalogadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Contado así es una lista de fenómenos y no demuestra nada, porque son los casos elegidos después de saber quién ganó. Pero la regla tiene detrás una investigación seria que el libro no cita y que conviene poner: Dean Keith Simonton, psicólogo de la Universidad de California en Davis, lleva desde los años ochenta midiendo la producción de científicos y compositores, y lo que encuentra se llama regla de las probabilidades iguales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dice esto: la proporción de aciertos sobre el total de intentos es aproximadamente la misma para todo el mundo dentro de un campo. Los científicos con más artículos citados son también los que más artículos publicaron que no citó nadie. No aciertan más a menudo; producen más veces. La diferencia entre el reconocido y el olvidado no está en la puntería, está en el número de disparos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la única instrucción que atraviesa el libro entero: en la fase de producir ideas está prohibido juzgarlas, porque juzgar y producir son dos operaciones que no pueden funcionar a la vez. Quien evalúa cada ocurrencia según le llega deja de tener ocurrencias a los cinco minutos, y las que se le quedan son las que ya sabía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La diferencia entre el científico reconocido y el olvidado no está en la puntería: está en el número de disparos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cuatro columnas con cinco opciones cada una dan seiscientas veinticinco combinaciones",
+      },
+      {
+        b: "texto",
+        texto:
+          "La técnica más útil del libro se llama la caja de ideas, y no la inventó Michalko: es el análisis morfológico que el astrónomo suizo Fritz Zwicky usó en los años cuarenta para clasificar sistemáticamente los tipos posibles de motor de reacción. Lo que hace «Thinkertoys» es traducirla a un procedimiento de media hora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Funciona así. Se escribe el problema en una frase, se identifican los parámetros de los que depende —no los objetos, los ejes por los que puede variar—, y cada parámetro es una columna. Debajo de cada columna se listan variantes, cuantas más mejor. La cuadrícula terminada contiene todas las combinaciones posibles, y son muchísimas: con cuatro columnas y cinco variantes en cada una salen seiscientas veinticinco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un ejemplo hecho: una cafetería que pierde clientes. Los parámetros no son «café», «local» y «precio», que son cosas; son cuándo se cobra, qué se lleva el cliente, quién prepara y dónde se consume. Debajo de «cuándo se cobra» caben: al pedir, al salir, por adelantado un mes entero, por suscripción anual, nunca porque paga otro. Cuatro columnas de esas producen combinaciones que nadie pondría sobre la mesa en una reunión, y entre las absurdas está la de la suscripción mensual, que es hoy el modelo de media cadena europea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El valor está en el paso que parece administrativo: elegir los parámetros. Ahí es donde se decide si la caja produce variaciones triviales del mismo negocio o alternativas de verdad, y por eso Michalko insiste en que sean ejes de variación y no partes del producto. Las combinaciones las genera la cuadrícula sola; el criterio se gasta entero en escribir los encabezados.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los parámetros no son las partes del producto: son los ejes por los que puede variar. Ahí se gasta todo el criterio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un pegamento que no pegaba tardó doce años en encontrar para qué servía",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo grupo de técnicas trabaja sobre los supuestos. La que da nombre al método, las caras falsas, consiste en escribir los supuestos del problema como afirmaciones y darles la vuelta una por una, aunque la inversión resulte estúpida: un restaurante tiene carta, luego un restaurante sin carta; el cliente elige, luego elige el cocinero. La mitad de las inversiones no dan nada y la otra mitad describe negocios que ya existen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La otra es una lista de verbos —sustituir, combinar, adaptar, modificar, darle otro uso, eliminar, reordenar— que se aplica en serie a lo que sea. Tampoco es de Michalko: la armó Bob Eberle en los años setenta a partir de las preguntas de Alex Osborn, el publicista que en 1953 escribió el libro del que sale todo esto. El mérito del verbo es que obliga a operar sobre el objeto en vez de contemplarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que mejor ilustra el sexto verbo, «darle otro uso», es real y está bien documentado. En 1968, Spencer Silver, químico de la empresa 3M, intentaba fabricar un adhesivo muy fuerte y le salió lo contrario: uno que pegaba poco y se despegaba sin dejar rastro. Durante años lo enseñó dentro de la compañía sin que nadie encontrara para qué valía un pegamento malo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1974, un compañero suyo, Art Fry, cantaba en un coro y se le caían los papelitos que marcaban las páginas del libro de himnos. Se acordó del adhesivo de Silver. La nota adhesiva se lanzó en 1980, doce años después del hallazgo. Lo que enseña el caso no es la casualidad: el invento estaba terminado desde el principio y lo que faltaba era la pregunta, que aquí fue para qué sirve algo que se despega.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El adhesivo estaba terminado en 1968. Lo que faltaba doce años era la pregunta: para qué sirve una cosa que se despega.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Meter una palabra sin ninguna relación en el problema es lo que más ideas produce por minuto",
+      },
+      {
+        b: "texto",
+        texto:
+          "La técnica que Michalko llama el pensamiento bruto es la más rara y la que mejor funciona cuando el asunto está agotado. Consiste en sacar una palabra al azar —de un diccionario, de un periódico, la que sea, siempre que sea un sustantivo concreto—, escribir todo lo que se sabe de ella, y forzar después una conexión entre cada propiedad y el problema, aunque sea ridícula.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un ejemplo hecho. El problema es cómo reducir las colas de un ambulatorio, y la palabra que sale es «paraguas». Propiedades: se abre solo cuando hace falta, se guarda plegado, se comparte, se olvida en todas partes, hay uno de sobra en el paragüero de cualquier bar. La última se cruza con el problema y da una idea que ninguna reunión habría producido: turnos de reserva compartidos que solo se abren si alguien falla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No hay nada mágico en ello, y la razón es aburrida y sólida. Quien piensa sobre su propio problema parte siempre de los mismos conceptos vecinos, porque la memoria trabaja por asociación y las asociaciones cercanas ya están recorridas. Una palabra sin relación no aporta la idea: aporta un punto de partida lejano, y desde ahí el camino hasta el problema pasa por sitios que no estaban en el mapa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la misma familia están las tres bes, por cama, baño y autobús: los tres sitios donde a la gente se le ocurren cosas. Un problema dejado a medias sigue activo, y en cuanto la atención se ocupa en algo que no exige nada, las asociaciones lejanas dejan de estar bloqueadas por las cercanas. Por eso la interrupción deliberada es parte del método y no una pausa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La palabra al azar no aporta la idea: aporta un punto de partida lejano, y el camino de vuelta pasa por sitios que no estaban en el mapa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una reunión de lluvia de ideas produce menos ideas que las mismas personas trabajando por separado",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir esto dentro y no al final, porque afecta a una parte entera del libro. Michalko dedica su último bloque al trabajo en grupo, con la sesión de lluvia de ideas como escenario natural de casi todas las técnicas. Y ese escenario es el punto donde la investigación lleva más de sesenta años diciendo lo contrario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El método lo popularizó Alex Osborn, socio de una agencia de publicidad de Nueva York, en un libro de 1953, con la promesa de que un grupo reunido produce muchas más ideas que sus miembros por separado. En 1958, tres investigadores de la Universidad de Yale —Donald Taylor, Paul Berry y Clifford Block— lo pusieron a prueba comparando grupos reales con grupos nominales, es decir, el mismo número de personas trabajando cada una por su cuenta y sumando después sus listas sin repetir. Los grupos nominales produjeron más ideas, y también más variadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado se ha repetido decenas de veces desde entonces y las causas están identificadas. Una es de turnos: en un grupo habla uno cada vez, y mientras uno habla los demás no solo callan, sino que pierden el hilo de lo suyo. La otra es social: aunque la regla diga que no se juzga, nadie propone delante de su jefe algo que le haga parecer tonto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esto no invalida las técnicas, las reordena. La caja de ideas, las caras falsas, la lista de verbos y la palabra al azar son procedimientos individuales, y su rendimiento en solitario es exactamente lo que Taylor midió. Lo que la investigación desmonta es el envoltorio: el grupo sirve para escoger entre lo producido y para combinarlo, que es un trabajo distinto y posterior.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mientras uno habla, los demás no solo callan: pierden el hilo de lo suyo. Ésa es la mitad de lo que se pierde en una reunión.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Varios de los ejemplos célebres con los que el libro se defiende no ocurrieron",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro problema está en el material de apoyo, y es el vicio de casi toda la literatura de empresa de aquellos años: las anécdotas circulan de un libro a otro sin que nadie vaya a la fuente. Conviene saber cuáles son, porque son justo las que más se recuerdan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es la del comisario de patentes que en 1899 quiso cerrar la oficina porque «ya se ha inventado todo lo que se podía inventar». Se atribuye a Charles Duell, que existió y ocupó el cargo, y no hay un solo documento donde aparezca; en 1940, un funcionario de la propia oficina, Eber Jeffery, buscó el origen y no encontró nada. La segunda es el memorando de la Western Union rechazando el teléfono, cuyo original nunca ha aparecido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es más grave porque es un ejercicio y no un adorno. El acertijo de los nueve puntos —unirlos con cuatro rectas sin levantar el lápiz— se usa para demostrar que la gente se impone un cuadrado que no está dibujado, y de ahí sale la expresión «pensar fuera de la caja». En 1981, dos psicólogos, Robert Weisberg y Joseph Alba, avisaron a los participantes de que podían salirse. Apenas mejoró el número de aciertos: la dificultad no estaba donde el libro dice.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se cae con esto no son las técnicas, que se comprueban solas en una tarde y no dependen de ninguna anécdota: se cae la manera de argumentar. Un manual que enseña a desconfiar de los supuestos ajenos y no comprueba los propios está enseñando la mitad del oficio, y es la mitad fácil.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro que enseña a desconfiar de los supuestos ajenos y no comprueba los suyos enseña la mitad del oficio, y es la mitad fácil.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "«Thinkertoys» reúne unas treinta técnicas para producir ideas a propósito, cada una con nombre y con instrucciones de una página, y las apoya en una regla de cantidad: se acierta más porque se intenta más veces, no porque se apunte mejor. Michalko las recogió trabajando para la OTAN y después para la CIA, y el libro es lo más parecido que hay a un catálogo ordenado de ese material.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se lleva quien lo lee son procedimientos que funcionan sin creerse nada: la caja de ideas, que es el análisis morfológico de Fritz Zwicky reducido a media hora y que con cuatro columnas de cinco variantes produce seiscientas veinticinco combinaciones; la inversión de supuestos escritos uno a uno; la lista de verbos de Bob Eberle; y la palabra al azar, que no da la idea sino un punto de partida lejano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El bloque dedicado al grupo descansa en la lluvia de ideas de Osborn, y desde 1958 se sabe que las mismas personas trabajando por separado producen más ideas y más variadas; el libro no lo menciona. Varias de sus anécdotas centrales no resisten una comprobación, y el acertijo de los nueve puntos se puso a prueba en 1981 y no demostró lo que se le atribuye. Y hay un defecto que se nota al usarlo: treinta técnicas sin jerarquía ni criterio para elegir entre ellas dejan al lector con el armario lleno y sin saber qué herramienta coger.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de 1991, Michalko siguió con «Los secretos de los genios de la creatividad» en 2001 y una baraja de tarjetas con la lista de verbos. Su influencia mayor no ha sido reconocida: la expresión «pensar fuera de la caja», que salió del acertijo que él popularizó, se convirtió en el tópico más gastado de las reuniones de empresa, y acabó significando lo contrario de lo que el libro enseña, que era trabajar con un procedimiento en la mano en vez de esperar a que llegue la inspiración.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  thinkertoys: THINKERTOYS,
   "filosofo-griego": FILOSOFO_GRIEGO,
   "mujeres-arte": MUJERES_ARTISTAS,
   "como-llegamos-aqui": COMO_LLEGAMOS_AQUI,

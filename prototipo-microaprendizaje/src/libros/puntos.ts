@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  thinkertoys: [
+    "por qué quien tiene más ideas buenas tiene también más malas",
+    "cómo cuatro columnas producen seiscientas veinticinco versiones de un negocio",
+    "qué hace una palabra sacada al azar dentro de un problema",
+    "por qué una reunión de lluvia de ideas rinde menos que sus asistentes",
+    "cuáles de sus anécdotas célebres no resisten una comprobación",
+  ],
+
   "filosofo-griego": [
     "cómo se pasó de un esclavo griego a la psicoterapia con más pruebas",
     "describir lo que te pasa sin una sola palabra que valore",

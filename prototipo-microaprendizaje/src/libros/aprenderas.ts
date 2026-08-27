@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  thinkertoys:
+    "Un oficial del ejército montó en Fráncfort un equipo de la OTAN con el encargo de reunir y clasificar todos los métodos conocidos para resolver problemas. Después la CIA le contrató. De ahí salieron estas treinta técnicas.",
+
   "filosofo-griego":
     "Junio Rústico le prestó a Marco Aurelio su ejemplar de los apuntes de Epicteto. Diecinueve siglos después, Albert Ellis fundó la terapia cognitiva citando la misma frase de aquel cuaderno. Un psicoterapeuta cuenta el tramo entero.",
 
