@@ -6,6 +6,8 @@
      node scripts/foto.mjs tema "escalator"               → por dónde empezar
      node scripts/foto.mjs buscar "faro de eddystone"     → hasta 12 candidatas
      node scripts/foto.mjs ficha "File:Nombre.jpg"        → el objeto Foto
+     node scripts/foto.mjs ficha "https://commons.wikimedia.org/wiki/File:…"
+     node scripts/foto.mjs ficha Nombre.jpg               (las cuatro valen)
      node scripts/foto.mjs ver "File:Nombre.jpg" out.jpg  → se la descarga
 
    Y para elegir sin bajarlas de una en una, la hoja de contacto:
@@ -80,11 +82,57 @@ async function buscar(texto, cuantas = 12) {
   console.log("\n✓ = ancho de sobra para la banda. Luego: node scripts/foto.mjs ficha \"File:…\"");
 }
 
-async function ficha(titulo) {
+/* LO QUE SE LE PUEDE ECHAR A `ficha`, y admite las cuatro formas a propósito.
+ *
+ * Pablo, el 27 de agosto: «le doy a copy, me sale copiado al portapapeles,
+ * pero ahora no me deja pegarlo en el chat». Pasa en el móvil y no tiene
+ * arreglo por nuestra parte, así que el arreglo es que dé igual lo que llegue:
+ *
+ *   File:Nombre.jpg                                  el nombre de Commons
+ *   Nombre.jpg                                       sin el «File:»
+ *   https://commons.wikimedia.org/wiki/File:Nom.jpg  la dirección de la página
+ *   https://…/Special:FilePath/Nombre.jpg?width=…    la de la imagen
+ *
+ * De una dirección se saca el nombre DESCODIFICADO, que además arregla solo el
+ * problema del apóstrofo: en «Solar Orbiter’s…» el apóstrofo es tipográfico
+ * (’) y no el del teclado ('), así que escrito a mano no lo encuentra. En una
+ * URL viene como %E2%80%99 y sale bien sin que nadie se fije. */
+function comoNombre(entrada) {
+  let t = (entrada ?? "").trim();
+  if (/^https?:\/\//i.test(t)) {
+    try {
+      const u = new URL(t);
+      /* De /wiki/File:X y de /wiki/Special:FilePath/X sale igual: lo último
+         del camino, sin el prefijo y sin los parámetros. */
+      t = decodeURIComponent(u.pathname.split("/").pop() ?? "");
+    } catch {
+      /* Si no es una URL válida, se prueba tal cual. */
+    }
+  }
+  t = t.replace(/^(File|Archivo|Fichero):/i, "").replace(/_/g, " ").trim();
+  return "File:" + t;
+}
+
+async function ficha(entrada) {
+  const titulo = comoNombre(entrada);
   const d = await pide({ action: "query", titles: titulo, prop: "imageinfo",
                          iiprop: "url|size|extmetadata|mediatype" });
-  const p = Object.values(d.query?.pages ?? {})[0];
-  if (!p || p.missing !== undefined) return console.log("no existe ese fichero");
+  let p = Object.values(d.query?.pages ?? {})[0];
+  /* Y si aun así no está, se busca por texto antes de rendirse. Es lo que
+     salva un nombre tecleado a mano con el apóstrofo cambiado, o con una
+     palabra de menos. */
+  if (!p || p.missing !== undefined) {
+    const q = titulo.replace(/^File:/, "").replace(/\.[a-z0-9]+$/i, "");
+    const b = await pide({ action: "query", list: "search", srnamespace: 6,
+                           srsearch: q, srlimit: 1 });
+    const hallado = b.query?.search?.[0]?.title;
+    if (!hallado) return console.log("no existe ese fichero");
+    console.log(`  (no estaba tal cual; lo he buscado y sale: ${hallado})`);
+    const d2 = await pide({ action: "query", titles: hallado, prop: "imageinfo",
+                            iiprop: "url|size|extmetadata|mediatype" });
+    p = Object.values(d2.query?.pages ?? {})[0];
+    if (!p || p.missing !== undefined) return console.log("no existe ese fichero");
+  }
   const i = p.imageinfo[0], e = i.extmetadata ?? {};
   const autor = limpia(e.Artist?.value) || limpia(e.Credit?.value) || "(sin autor en la ficha)";
   const lic = limpia(e.LicenseShortName?.value) || "(sin licencia en la ficha)";
@@ -173,12 +221,12 @@ async function tema(texto) {
 
 const [orden, ...resto] = process.argv.slice(2);
 const acciones = { buscar: () => buscar(resto.join(" ")),
-                   todo: () => buscar(resto.join(" "), false), ficha: () => ficha(resto[0]),
+                   todo: () => buscar(resto.join(" "), false), ficha: () => ficha(resto.join(" ")),
                    ver: () => ver(resto[0], resto[1]), categoria: () => categoria(resto.join(" ")),
                    categorias: () => categorias(resto.join(" ")),
                    tema: () => tema(resto.join(" ")) };
 if (!acciones[orden]) {
-  console.log("uso: node scripts/foto.mjs tema «asunto» | buscar «texto» | categoria «nombre» | ficha «File:…» | ver «File:…» [salida.jpg]");
+  console.log("uso: node scripts/foto.mjs tema «asunto» | buscar «texto» | categoria «nombre» | ficha «File:… o la dirección» | ver «File:…» [salida.jpg]");
   process.exit(1);
 }
 await acciones[orden]();

@@ -38,6 +38,28 @@ Lo demás lo hace `foto.mjs ficha`: saca autor, fecha, licencia y descripción d
 la propia ficha de Commons, que es lo que hace falta para el pie y para los
 créditos.
 
+### Y si el «Copy» no se pega, da igual: valen cuatro formas
+
+Pablo, el 27 de agosto: «le doy a copy, me sale copiado al portapapeles, pero
+ahora no me deja pegarlo en el chat». Pasa en el móvil y no tiene arreglo por
+nuestra parte, así que el arreglo es que dé igual lo que llegue. `foto.mjs
+ficha` admite las cuatro:
+
+    File:Nombre.jpg                                   el nombre de Commons
+    Nombre.jpg                                        sin el «File:»
+    https://commons.wikimedia.org/wiki/File:Nom.jpg   la dirección de la página
+    https://…/Special:FilePath/Nombre.jpg?width=…     la de la imagen
+
+**La más cómoda en el móvil es la dirección**: compartir → copiar enlace, o la
+barra del navegador. Y tiene una ventaja escondida: de una dirección el nombre
+sale DESCODIFICADO, lo que arregla solo el problema del apóstrofo. En «Solar
+Orbiter’s…» el apóstrofo es tipográfico (’) y no el del teclado ('), así que
+escrito a mano no lo encuentra; en la URL viene como `%E2%80%99` y sale bien.
+
+Y si no llega nada de eso, **con decir de qué es basta**: si el nombre no está
+tal cual, `ficha` lo busca por texto antes de rendirse. «La del Sol del Solar
+Orbiter» lo encuentra.
+
 ### Dónde están las buenas
 
 Las dos categorías de calidad de Commons, que son las que mira `buscar`:
