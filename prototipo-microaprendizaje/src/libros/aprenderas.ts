@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "filosofo-griego":
+    "Junio Rústico le prestó a Marco Aurelio su ejemplar de los apuntes de Epicteto. Diecinueve siglos después, Albert Ellis fundó la terapia cognitiva citando la misma frase de aquel cuaderno. Un psicoterapeuta cuenta el tramo entero.",
+
   "mujeres-arte":
     "Sofonisba Anguissola no podía cobrar encargos ni dibujar del natural, así que pintó a sus hermanas jugando al ajedrez y le salió, en 1555, la primera escena doméstica en movimiento. Cincuenta artistas, cincuenta obras y por qué esa.",
 

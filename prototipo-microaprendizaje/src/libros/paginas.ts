@@ -113363,7 +113363,285 @@ const MUJERES_ARTISTAS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Piensa como un filósofo griego, de Donald Robertson (2019), en ocho páginas.
+
+   Es el libro que en inglés se titula «How to Think Like a Roman Emperor»: el
+   emperador es Marco Aurelio y la filosofía es griega, así que los dos títulos
+   dicen la verdad a medias. La primera página lo aclara y no se vuelve sobre ello.
+
+   Lo que separa este libro de los otros veinte de estoicismo es que Robertson es
+   psicoterapeuta cognitivo-conductual y la cadena Epicteto → Ellis → Beck está
+   documentada. Eso es la página 2 y es lo que hay que contar.
+
+   La séptima página es el problema del método —la biografía novelada y la
+   coartada clínica— y va DENTRO.
+   -------------------------------------------------------------------------- */
+
+const FILOSOFO_GRIEGO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro de autoayuda más vendido de la historia no está escrito para nadie",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las «Meditaciones» de Marco Aurelio son un cuaderno privado. No tienen prólogo, ni dedicatoria, ni destinatario, ni un orden que se pueda seguir. Están escritas en griego, que no era la lengua en que gobernaba, y su título original no es «Meditaciones» sino «Ta eis heautón», que significa «cosas para sí mismo». Nadie sabe cómo sobrevivieron ni por qué no las quemó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso cambia cómo hay que leerlas, y es lo primero que hace bien este libro. Un hombre que se repite treinta veces la misma advertencia no está enseñando: está fallando en lo mismo una y otra vez. Las «Meditaciones» son el registro de alguien que no consigue hacer lo que ya sabe que hay que hacer, y ahí está su valor y también el problema de convertirlas en un manual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Donald Robertson es un psicoterapeuta escocés, especializado en terapia cognitivo-conductual, que lleva veinte años trabajando con estoicismo y fundó los encuentros de estoicismo moderno. Publicó este libro en 2019, con un título que en inglés nombra al protagonista: cómo pensar como un emperador romano. El emperador es Marco Aurelio, que reinó del 161 al 180; la filosofía es griega, el estoicismo que fundó Zenón de Citio en Atenas hacia el año 300 antes de Cristo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro alterna dos cosas: capítulos que cuentan la vida de Marco como una novela y capítulos que traducen cada idea estoica a la técnica clínica que hoy le corresponde. Eso segundo es lo que no hace ningún otro libro de estoicismo, y es de lo que merece la pena hablar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien se repite treinta veces la misma advertencia no está enseñando: está fallando en lo mismo una y otra vez.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La frase con la que arranca la terapia cognitiva la escribió un antiguo esclavo hacia el año 100",
+      },
+      {
+        b: "texto",
+        texto:
+          "Epicteto nació esclavo en Frigia, fue liberado y acabó dando clase en Nicópolis. No escribió nada: lo que hay son los apuntes que tomó un alumno suyo, Arriano. En el quinto párrafo del «Enquiridión» está la frase entera de la que sale todo lo demás: a las personas no las perturban las cosas, sino las opiniones que tienen sobre las cosas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Marco Aurelio no llegó a conocerlo, y hay un detalle que él mismo apunta en el primer libro de las «Meditaciones»: su maestro Junio Rústico le prestó su ejemplar de los apuntes de Epicteto. La cadena, por tanto, no es una metáfora. Es un préstamo de un cuaderno entre dos personas concretas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y sigue hasta hoy. En 1955, el psicólogo estadounidense Albert Ellis montó la terapia racional emotiva sobre esa misma frase, y la citó: el paciente no sufre por lo que le pasa, sufre por lo que se dice sobre lo que le pasa. Aaron Beck, que fundó la terapia cognitiva poco después y es la base de casi toda la psicoterapia que hoy se practica con pruebas detrás, reconoció por escrito que el origen filosófico de su método era estoico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ésa es la aportación real de Robertson y lo que le da derecho a escribir otro libro sobre esto: no está diciendo que el estoicismo se parezca a la terapia, sino que una está documentalmente dentro de la otra. Todo lo que viene después son técnicas leídas dos veces, con dos vocabularios separados por diecinueve siglos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No es que el estoicismo se parezca a la terapia cognitiva: es que la terapia cognitiva cita al estoicismo en su acta de nacimiento.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Quitarle los adjetivos a lo que te pasa es una técnica, no una manera de hablar",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera herramienta que Robertson desmonta se llama en griego descripción objetiva, y consiste en contar lo que ocurre sin ninguna palabra que valore. No «me ha humillado delante de todos», sino «ha dicho unas frases y varias personas las han oído». La diferencia no es de educación: la primera versión ya contiene el veredicto, y contra un veredicto no se puede pensar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Marco lo practica en su cuaderno de una manera que resulta casi cómica, y es el pasaje que mejor se recuerda de las «Meditaciones». La púrpura imperial, escribe, es lana de oveja teñida con la sangre de un molusco. El vino de Falerno es zumo de uvas. El asado es el cadáver de un pez. Y el acto sexual es la fricción de una membrana y una descarga de mucosidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No lo escribe por desprecio ni por amargura: lo escribe porque era el hombre más poderoso del mundo y necesitaba una herramienta que le quitara valor a lo que todos le ofrecían. La técnica está diseñada contra el deseo, y funciona igual contra el miedo, que es como se usa hoy en consulta: se le pide al paciente que describa la situación temida en términos de hechos comprobables, sin una sola palabra de juicio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su hermana clínica se llama distanciamiento cognitivo y es aún más simple: consiste en anteponer a lo que uno piensa la frase «estoy teniendo el pensamiento de que». No es un truco de redacción. Cambia el estatuto de la frase: deja de ser el mundo y pasa a ser un contenido mental, que es algo con lo que sí se puede discutir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "«Me ha humillado» ya contiene el veredicto, y contra un veredicto no se puede pensar. «Ha dicho unas frases» sí se puede examinar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ensayar por adelantado lo que temes es lo mismo que la exposición de la terapia",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los estoicos practicaban la premeditación de los males: dedicar un rato cada mañana a imaginar con detalle lo que puede salir mal ese día, incluido lo peor. Suena a masoquismo y a Robertson le sirve para explicar por qué no lo es, porque tiene un equivalente clínico exacto y muy estudiado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese equivalente es la exposición en imaginación. Cuando alguien evita pensar en lo que teme, el miedo se mantiene intacto porque nunca se pone a prueba; cuando se enfrenta al mismo contenido repetidamente, en un entorno seguro y durante el tiempo suficiente, la respuesta baja sola. Es uno de los hallazgos mejor sostenidos de la psicología clínica, y explica que un ejercicio que parece deprimente acabe calmando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con una condición que Robertson subraya y que separa la técnica de la rumiación: hay que imaginarlo hasta el final y con frialdad, no dar vueltas a la primera imagen. Quien rumia se queda en el instante del golpe; quien practica el ejercicio llega hasta el día siguiente al golpe, que es donde está el descubrimiento de que la vida continúa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda pieza es la cláusula de reserva: comprometerse con el intento y no con el resultado. Un estoico no decide llegar a puerto, decide navegar lo mejor que sabe; el mar no depende de él. Traducido a consulta, es la diferencia entre fijarse como objetivo caer bien en una entrevista —que depende de otro— y fijarse como objetivo contestar con calma, que depende de uno. La primera meta produce ansiedad por definición, porque está fuera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien rumia se queda en el instante del golpe. El ejercicio consiste en llegar hasta el día siguiente, que es donde está lo que hay que ver.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El estoicismo no consiste en aguantarse, y ése es el error que más ha vendido",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palabra estoico significa hoy, en la lengua corriente, alguien que no se queja y no llora. Es exactamente lo contrario de la doctrina, y Robertson dedica un capítulo entero a deshacerlo porque de ese malentendido vive la mitad de los libros de la estantería.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los estoicos distinguían dos cosas que en castellano llamamos igual. Las primeras reacciones —palidecer, que se te acelere el pulso, echarte a llorar cuando te dan una noticia— son involuntarias y no dependen del juicio: les pusieron nombre propio y las dieron por inevitables incluso en el sabio. La pasión propiamente dicha es lo que viene después, cuando uno asiente a esa reacción y construye encima un relato. Sobre lo primero no hay nada que hacer; lo segundo sí es discutible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso reprimir es, en términos estoicos, un error técnico: no se puede asentir ni dejar de asentir a algo que uno se niega a mirar. Y por eso Marco Aurelio no sale de este libro como un hombre de piedra. Perdió varios hijos —de los al menos trece que tuvo, muy pocos llegaron a adultos— y lo que escribe sobre eso no es una consigna, es alguien tratando de aguantar de pie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La psicología moderna llegó a lo mismo por otro camino y con datos: la supresión de emociones aumenta a corto plazo la activación fisiológica y no reduce el malestar, y las terapias que funcionan piden lo contrario, mirar aquello de lo que uno huye. Un estoicismo entendido como armadura emocional no es una versión simplificada de la doctrina: es su contrario, y además es lo que no funciona.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No se puede dejar de asentir a algo que uno se niega a mirar: por eso reprimir no es estoico, es un error técnico.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una filosofía solo se comprueba mirando qué hizo su practicante cuando le fue mal",
+      },
+      {
+        b: "texto",
+        texto:
+          "A Marco Aurelio le tocaron los dieciocho años más malos que se puede imaginar un emperador, y eso convierte su reinado en la única prueba disponible. No hay que creerse el cuaderno: hay que mirar el expediente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el 165 las tropas que volvían de Oriente trajeron una epidemia que arrasó el imperio durante quince años. Se la conoce como peste antonina, la describió el médico Galeno, que salió de Roma mientras duraba, y las estimaciones de muertos van de cinco a diez millones. Marco pasó la mayor parte del resto de su vida en el frente del Danubio, con el ejército diezmado y sin dinero: llegó a subastar los muebles y las joyas del palacio en el foro para pagar la campaña en lugar de subir los impuestos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el 175, Avidio Casio, gobernador de Siria y su hombre de confianza en Oriente, se proclamó emperador al correrse el rumor de que Marco había muerto. La rebelión duró tres meses y la terminó un centurión, que le llevó la cabeza. Marco se negó a verla, mandó enterrarla, perdonó a la familia y a los senadores implicados, y —esto es lo que cuentan las fuentes antiguas— quemó sin leerla la correspondencia de los conspiradores para no saber quiénes eran.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ninguno de esos gestos aparece en las «Meditaciones»: el cuaderno no cuenta nada de lo que hizo. Y ésa es la razón por la que el libro de Robertson necesita las dos mitades. Sin la vida, las notas son consignas; con la vida al lado, se ve que las escribía alguien que estaba usándolas para algo concreto y difícil.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El cuaderno no cuenta nada de lo que hizo. Sin la vida al lado, las «Meditaciones» son consignas bien escritas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Que Beck citara a Epicteto no demuestra que el estoicismo funcione" },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir esto antes del final, porque es lo que separa usar bien el libro de comprarlo entero. Robertson apoya el estoicismo en el prestigio de la terapia cognitiva, que tiene detrás miles de ensayos clínicos. Pero lo que esos ensayos han probado son protocolos concretos, de ocho a veinte sesiones, con un terapeuta, para trastornos definidos. No han probado que vivir según una doctrina antigua mejore la vida de nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cadena histórica es real y la conclusión que se le cuelga no lo es. Que Ellis y Beck se inspiraran en Epicteto dice de dónde sacaron la idea, no que la idea fuera correcta antes de comprobarla; y lo que se comprobó fue una versión recortada, medida y muy distinta del original. Del estoicismo como forma de vida completa —la providencia, la naturaleza racional del cosmos, la indiferencia ante la muerte— no se ha medido nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro problema es la mitad novelada. Las fuentes sobre Marco Aurelio son escasas y desiguales: Dión Casio escribió décadas después, la «Historia Augusta» es una colección tardía en la que hay episodios inventados, y el cuaderno no lleva fechas. Robertson reconstruye escenas, conversaciones y estados de ánimo con un material que no da para tanto, y no siempre marca la costura entre lo documentado y lo verosímil.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí queda en pie, y no necesita ninguna de las dos coartadas, son las técnicas: describir sin adjetivos, separar el pensamiento de quien lo tiene, ensayar lo temido hasta el final, comprometerse con la acción y no con el resultado. Se pueden probar por separado, en una semana, y cada una se sostiene sola.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los ensayos clínicos probaron protocolos de veinte sesiones, no una manera de vivir. Prestarle ese prestigio a la doctrina entera es un truco.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro cuenta la vida de Marco Aurelio en paralelo a las técnicas del estoicismo, y su ventaja sobre los otros veinte del género es que quien lo escribe es psicoterapeuta y puede enseñar la cadena documentada: Epicteto dictó a Arriano hacia el año 100, Junio Rústico le prestó ese cuaderno a Marco, y en 1955 Albert Ellis fundó la terapia racional emotiva citando la misma frase.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se lleva quien lo lee son cuatro herramientas comprobables por su cuenta: describir lo que pasa sin ninguna palabra que valore, anteponer «estoy teniendo el pensamiento de que», ensayar lo temido hasta el día siguiente al golpe, y comprometerse con el intento en vez de con el resultado. Y una corrección: el estoicismo no es aguantarse, porque no se puede dejar de asentir a algo que uno se niega a mirar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Presta a una doctrina de dos mil años el prestigio de unos ensayos clínicos que probaron otra cosa mucho más pequeña, y reconstruye escenas y estados de ánimo con fuentes flojas sin marcar dónde acaba lo documentado. Y protege demasiado a su protagonista: el reinado que presenta como demostración incluye la persecución de los cristianos de Lyon en el 177 y, sobre todo, la decisión de dejarle el imperio a su hijo Cómodo, rompiendo la adopción que había dado los cuatro emperadores anteriores. Cómodo resultó un desastre y a su muerte se abrió un siglo de guerras civiles. Un filósofo del control se equivocó en la única elección grande que dependía enteramente de él, y el libro lo despacha en un párrafo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después de 2019 el libro vendió muchísimo y se subió a una ola que ya venía: el estoicismo se ha convertido en producto de consumo masivo, con calendarios, aplicaciones y vídeos de tres minutos sobre no sentir nada. El propio Robertson lleva desde entonces escribiendo contra esa versión, que es la que más se difunde y la que su capítulo quinto desmiente. Y conviene saber que hay un atajo más corto: las «Meditaciones» ocupan ciento cincuenta páginas, están libres de derechos y no cuestan nada.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "filosofo-griego": FILOSOFO_GRIEGO,
   "mujeres-arte": MUJERES_ARTISTAS,
   "como-llegamos-aqui": COMO_LLEGAMOS_AQUI,
   "verano-1927": VERANO_1927,

@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "filosofo-griego": [
+    "cómo se pasó de un esclavo griego a la psicoterapia con más pruebas",
+    "describir lo que te pasa sin una sola palabra que valore",
+    "por qué imaginar lo peor calma y rumiar sobre ello no",
+    "que ser estoico no consiste en aguantarse, sino casi al revés",
+    "la diferencia entre comprometerse con el intento y con el resultado",
+  ],
+
   "mujeres-arte": [
     "por qué una limitación puede acabar inventando un género",
     "cómo se lee un autorretrato de pintor como lo que es, un anuncio",
