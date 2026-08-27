@@ -428,6 +428,22 @@ puede deshacer sin romperlo:
 - Y el marco NO se centra con `transform: translate(-50%,-50%)`: Framer lo
   anima y escribe `transform` encima. Va con márgenes negativos.
 
+**Cerrar la máquina: tres cosas que estaban mal y una trampa que apuntar.** La
+cruz de arriba se veía y NO se podía pulsar: `.trag-caja` va detrás en el
+marcado, también está posicionada y no llevaba capa, así que se pintaba encima
+y se quedaba con todos los toques. Un botón que se ve y no responde es peor que
+no tenerlo. Ahora la cruz lleva `z-index`, mide 44 —el mínimo para acertar con
+el pulgar—, la caja no coge toques y el fondo cierra al tocarlo, con el rodillo
+y el panel parándole el toque para que no cierre sin querer.
+
+Y **el tambor no llega de borde a borde**, a propósito: ancho del todo no
+quedaba fondo que tocar para cerrar.
+
+**Y el fondo es OPACO del todo.** Estaba al 96,5 % y ese 3,5 % bastaba para que
+se colara la banda del reloj —que va sobre papel claro— como una raya más clara
+pegada al borde de arriba: «en la parte superior no se cierra completamente por
+arriba y se ve otra cosa que no es la pantalla».
+
 La cabecera perdió la cifra de la racha: junto a un dado no querría decir nada.
 La racha sigue entera en el perfil y en su pantalla.
 

@@ -101,6 +101,12 @@ import { GlyphClose } from "./glyphs";
 const FORMA = 2 / 3;
 /** El aire entre una casilla y la siguiente. */
 const HUECO = 16;
+/** Lo que el tambor sobresale del libro por cada lado, sumado.
+ *
+ *  Que el tambor NO llegue de borde a borde es lo que deja fondo alrededor
+ *  para poder cerrar tocando fuera; ancho del todo, no había dónde tocar. Y de
+ *  paso se parece más a una máquina: un tambor tiene lados. */
+const MARCO = 34;
 /** CUÁNTAS CASILLAS SE VEN A LA VEZ, y tiene que ser IMPAR.
  *
  *  Impar es lo que hace que no se corte ninguno: con un número impar de
@@ -382,6 +388,10 @@ function Ronda({
   return (
     <motion.div
       className="trag"
+      /* Tocar el fondo cierra, que es lo que espera cualquiera de una hoja que
+         se ha levantado encima. La cruz de arriba sigue estando: las dos, no
+         una. */
+      onClick={onCerrar}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transition: { duration: 0.18 } }}
@@ -412,12 +422,18 @@ function Ronda({
         {medida && (
           <div
             className="trag-ventana"
+            /* Que un toque en el rodillo no llegue al fondo: cerrar la máquina
+               por tocar los libros que estás mirando es de las cosas que más
+               molestan. */
+            onClick={(e) => e.stopPropagation()}
             /* El alto y el medio alto salen de la misma medida: centrar a mano
                con un número escrito en el CSS es de donde salió el marco
                descuadrado. */
             style={{
               height: medida.ventana,
               marginTop: -medida.ventana / 2 + DESPLAZA,
+              width: medida.ancho + MARCO,
+              marginLeft: -(medida.ancho + MARCO) / 2,
             }}
           >
             {/* El filtro vive aquí dentro y no en una hoja aparte: es de esta
@@ -500,7 +516,7 @@ function Ronda({
             libro de la casilla de abajo. Reservarle sitio le quitaba doscientos
             puntos de alto al rodillo durante todo el giro, para enseñar un
             renglón que dice «Girando…». */}
-        <div className="trag-pie" data-on={parado}>
+        <div className="trag-pie" data-on={parado} onClick={(e) => e.stopPropagation()}>
           <AnimatePresence mode="wait">
             {parado ? (
               <motion.div

@@ -9742,21 +9742,35 @@ button {
   place-items: center;
   /* Casi opaco y con desenfoque detrás: la máquina tiene que ser lo único que
      se mira, y a la vez tiene que verse que el inicio sigue ahí debajo. */
-  background: rgba(9, 8, 13, 0.965);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  /* OPACO DEL TODO, y no al 96,5 % como estaba. Ese 3,5 % que dejaba pasar
+     era suficiente para que se viera la banda del reloj —que va sobre el papel
+     claro— como una raya más clara pegada al borde de arriba. Pablo: «en la
+     parte superior no se cierra completamente por arriba y se ve otra cosa que
+     no es la pantalla». Una pantalla que se pone encima de todo se pone encima
+     de todo. */
+  background: #09080d;
 }
 
+/* LA CRUZ DE CERRAR, Y EL `z-index` NO ES OPCIONAL. Estaba ahí, se veía, y NO
+   SE PODÍA PULSAR: `.trag-caja` va detrás en el marcado, también está
+   posicionada y no llevaba capa, así que se pintaba por encima y se quedaba
+   con todos los toques. Un botón que se ve y no responde es peor que no tener
+   botón, que es exactamente lo que dijo Pablo: «tiene que haber un botón para
+   cerrar esa página que no lo hay».
+
+   Y es un poco más grande de lo que parece: 44 puntos es el mínimo que se
+   acierta con el pulgar sin mirar. */
 .trag-cerrar {
   position: absolute;
-  top: 12px;
-  right: 18px;
+  top: 10px;
+  right: 14px;
+  z-index: 10;
   display: grid;
   place-items: center;
-  width: 38px;
-  height: 38px;
+  width: 44px;
+  height: 44px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.13);
   color: #ffffff;
 }
 
@@ -9767,7 +9781,15 @@ button {
   position: absolute;
   inset: 0;
   overflow: hidden;
+  /* La caja no coge toques: los deja pasar al fondo, que cierra. Lo que sí los
+     coge es lo que hay dentro y tiene que cogerlos —el rodillo y el panel—,
+     cada uno con su `pointer-events: auto`. Así tocar fuera cierra, como en
+     cualquier hoja que se levanta, y tocar el rodillo no. */
+  pointer-events: none;
 }
+
+.trag-ventana,
+.trag-pie { pointer-events: auto; }
 
 .trag-encima {
   position: absolute;
@@ -9801,9 +9823,13 @@ button {
 .trag-ventana {
   position: absolute;
   top: 50%;
-  left: 0;
-  right: 0;
+  left: 50%;
   overflow: hidden;
+  border-radius: 20px;
+  /* Y no de borde a borde. Ancha del todo, el rodillo se comía la pantalla
+     entera y no quedaba fondo que tocar para cerrar; ahora es un tambor con
+     sus lados, que además es lo que parece una máquina. El ancho y el medio
+     ancho los escribe `Dado.tsx`. */
 }
 
 /* La caja que se filtra. Mide lo que la ventana —no lo que la tira— y recorta:
