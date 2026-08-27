@@ -112,4 +112,74 @@ export const CURIOSIDADES: Short[] = [
       },
     ],
   },
+
+  {
+    id: "por-que-llueve",
+    titulo: "Por qué llueve",
+    gancho:
+      "Dentro de cada gota de lluvia hay una mota de polvo. Sin ella no llovería nunca.",
+    categoria: "Ciencia",
+    color: "var(--slate)",
+    encargo: "Una nube de tormenta descargando, con las cortinas de lluvia colgando debajo.",
+    fotos: [
+      {
+        archivo: "Cumulonimbus cloud over the Sundarbans, West Bengal, India 01.jpg",
+        autor:
+          "Nube de tormenta sobre los Sundarbans, India. Las cortinas que cuelgan son lluvia que se evapora antes de llegar. Kingshuk Mondal, 2025.",
+        licencia: "CC BY 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Cumulonimbus_cloud_over_the_Sundarbans,_West_Bengal,_India_01.jpg",
+        foco: "50% 40%",
+        alt: "Una nube de tormenta enorme sobre un río ancho, con franjas grises de lluvia colgando de su base.",
+      },
+      {
+        archivo: "Wave breaking into spray on rocky Robben Island shore.jpg",
+        autor:
+          "Una ola reventando contra las rocas de Robben Island, en Sudáfrica. Cada gota que salta deja sal en el aire. Daniel Case, 2018.",
+        licencia: "CC BY-SA 3.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Wave_breaking_into_spray_on_rocky_Robben_Island_shore.jpg",
+        foco: "50% 45%",
+        alt: "Una ola blanca estallando contra rocas oscuras y levantando una nube de espuma y salpicaduras.",
+      },
+      {
+        archivo: "Cute summer cloud over Tuntorp, Brastad.jpg",
+        autor:
+          "Un cúmulo de verano sobre Tuntorp, en la costa oeste de Suecia. Dentro hay medio millón de kilos de agua. W. Carter, 2026.",
+        licencia: "CC BY 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Cute_summer_cloud_over_Tuntorp,_Brastad.jpg",
+        foco: "50% 58%",
+        alt: "Una sola nube blanca y redonda flotando en un cielo azul intenso, con hilos de cirros por encima.",
+      },
+      {
+        archivo: "Snowflake macro photography 1.jpg",
+        autor:
+          "Un copo de nieve de cuatro milímetros, fotografiado con lente de aumento en Moscú. Alexey Kljatov, 2014.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Snowflake_macro_photography_1.jpg",
+        foco: "50% 50%",
+        alt: "Un copo de nieve visto muy de cerca, con sus seis brazos ramificados y simétricos, sobre fondo azul.",
+      },
+    ],
+    entrada:
+      "En 1880 el físico escocés John Aitken llenó una campana de cristal con aire limpio, lo enfrió y esperó. No se formó ni una gota. Metió después una pizca de polvo y la niebla apareció enseguida. Acababa de descubrir que el agua del aire, por su cuenta, no sabe convertirse en lluvia.",
+    paginas: [
+      {
+        rotulo: "Lo que hay dentro",
+        texto:
+          "El aire nunca está limpio. Lleva polvo del desierto, sal que el mar suelta al romper las olas, polen, ceniza de los incendios y hollín de los motores. Esas motas se llaman núcleos de condensación, y son el suelo que el vapor de agua necesita para agarrarse. Cuando el aire sube y se enfría, el vapor se pega a ellas y se vuelve líquido. Cada mota queda envuelta en una gotita de dos centésimas de milímetro, cincuenta veces más pequeña que la punta de un bolígrafo. Una nube es exactamente eso: millones de motas de suciedad, cada una con su abrigo de agua.",
+      },
+      {
+        rotulo: "Por qué no cae",
+        texto:
+          "Una nube blanca de las de un día de verano lleva dentro medio millón de kilos de agua, lo que pesa un avión grande a plena carga. Y se queda arriba. El motivo es el tamaño: una gotita tan pequeña baja despacísimo, un centímetro por segundo, y el aire que sube por debajo va más deprisa que eso. Para que caiga hay que engordarla, y por condensación tardaría días. Lo que ocurre es más bruto: las gotitas chocan entre ellas y se van pegando. La que más ha crecido baja más rápido, alcanza a las de abajo y se las va comiendo.",
+      },
+      {
+        rotulo: "Empieza nevando",
+        texto:
+          "Y hay un tercer empujón. Arriba del todo hace tanto frío que el agua sigue líquida por debajo de cero, esperando una excusa para helarse. Basta un cristal de hielo para que empiece a robarles el vapor a las gotas de alrededor: crece, pesa y cae. A media bajada se encuentra aire templado y se derrite. Casi toda la lluvia que has visto en tu vida empezó siendo nieve. El agua no cae sola: necesita una mota, un choque y una helada.",
+      },
+    ],
+  },
 ];

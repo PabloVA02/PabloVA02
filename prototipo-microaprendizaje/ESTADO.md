@@ -6,7 +6,7 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 
 | | hecho | queda |
 |---|---|---|
-| shorts escritos | **1** | el muro se ha empezado de cero, ver abajo |
+| shorts escritos | **2** | el muro se ha empezado de cero, ver abajo |
 | libros en el catálogo | 418 | |
 | libros con resumen escrito a mano | **400** | 18 para el catálogo entero |
 | cubiertas dibujadas por Pablo | **309** | 109 para el catálogo entero |
@@ -35,7 +35,12 @@ Y tiene razón por debajo de lo que dice: los 761 estaban ordenados por
 que nunca se ha parado a resolver; ahí el título no hay que inventarlo, ya
 está escrito en su cabeza.
 
-**No se escriben más hasta que la pantalla esté cerrada.** Es la segunda mitad
+**La pantalla ya está cerrada** (27 de agosto por la tarde): Pablo comparó seis
+maquetas y se quedó con la de siempre, la banda arriba, con las tres fotos de
+dentro del mismo tamaño y la portada un poco mayor. A partir de ahí se escribe.
+Van dos: «¿Cuánto le queda al sol?» y «Por qué llueve».
+
+Lo que decía antes de cerrarla, y que sigue valiendo para la próxima vez: Es la segunda mitad
 de lo que pidió: «primero vamos a hacer el diseño de los short para que queden
 bonitos […] pon un ejemplo de short solo, el del sol con su foto que te pasé,
 y vamos ajustando el diseño». Escribir cien y descubrir después que la portada

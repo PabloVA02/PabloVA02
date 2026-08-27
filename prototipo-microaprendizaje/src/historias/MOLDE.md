@@ -132,7 +132,15 @@ años atrás y volver.
 - **entrada** — sitúa y engancha
 - **página 1** — por qué pasó lo que pasó (el contexto que hace falta)
 - **página 2** — pasó esto (la escena)
-- **página 3** — «Lo que quedó»: cómo acaba y qué salió de ahí
+- **página 3** — cómo acaba y qué salió de ahí
+
+**«Lo que quedó» es el rótulo por defecto de la última página, no una
+obligación.** En una historia —una batalla, un invento, un naufragio— es
+exacto: la última página cuenta lo que quedó después. En una explicación no
+queda nada: «Por qué llueve» termina en el último eslabón del mecanismo, y
+titular esa página «Lo que quedó» sería prometerle al lector algo que no hay.
+Ahí el rótulo dice de qué va la página, como los otros dos. Lo que no cambia es
+que la última **cierre**, que es la regla 5.
 
 Si sobra material que no cabe en ese hilo, **no se mete**: se convierte en
 otro short. Del César salieron fuera el Rubicón y la reforma del calendario,

@@ -174,10 +174,26 @@ for (const ruta of ficheros) {
       if (n < suelo || n > 132) aviso(id, `página ${i + 1} de ${n} palabras (${suelo}-132)`);
       if (palabras(rotulo) > 4) aviso(id, `rótulo «${rotulo}» de más de 4 palabras`);
     });
-    /* El cierre es el de la ÚLTIMA página, sea la segunda o la quinta. */
+    /* EL RÓTULO DE LA ÚLTIMA PÁGINA YA NO TIENE QUE SER «Lo que quedó».
+     *
+     * Era obligatorio, y con los 761 shorts viejos tenía sentido: contaban un
+     * acontecimiento —una batalla, un invento, un naufragio— y la última
+     * página era literalmente lo que quedó después. En «¿Cuánto le queda al
+     * sol?» sigue siendo el rótulo bueno, porque lo que queda es una enana
+     * blanca.
+     *
+     * En una explicación no. «Por qué llueve» no deja nada detrás: termina en
+     * el último eslabón del mecanismo, y llamar a esa página «Lo que quedó»
+     * sería mentirle al lector sobre lo que va a encontrar. Pablo lo dijo el
+     * 27 de agosto —«no tiene por qué ser cien por cien igual que en los
+     * libros, lo adaptas»— y esto es de lo que hay que adaptar.
+     *
+     * Lo que sí se comprueba es que la última página CIERRE, y eso no lo puede
+     * ver un guion: lo mira la regla 5 del molde a mano. Aquí solo queda el
+     * aviso leve, para que un rótulo perezoso —«Final», «Conclusión»— cante. */
     const ultima = paginas[paginas.length - 1];
-    if (paginas.length >= 2 && !/^Lo que qued[óa]$/.test(ultima[1]))
-      aviso(id, `la última página se titula «${ultima[1]}» y debería ser «Lo que quedó»`);
+    if (paginas.length >= 2 && /^(final|conclusi[óo]n|el final|resumen)$/i.test(ultima[1]))
+      flojo(id, `la última página se titula «${ultima[1]}»: eso no es un rótulo, es una etiqueta`);
 
     /* Regla 15: el dato es una cifra y la frase corta que la explica. El tope
        eran seis palabras y lo subo a nueve, que es lo que mide el más largo de
