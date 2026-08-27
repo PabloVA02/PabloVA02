@@ -866,9 +866,18 @@ Los cuatro sitios, y qué va en cada uno:
    fichero exacto. `ESTADO.md` cabe; `REDACCION.md`, de 54 kB, no sale a
    cuenta. Para ese, la copia buena es GitHub y el fichero exacto mandado por
    el chat. Lo que hay en Drive de `REDACCION.md` es del 22 de agosto. Ahí van los
-   documentos que no se pueden reconstruir —`REDACCION.md` y `ESTADO.md`— con
-   el conector de Drive. Se suben con `mcp__Google_Drive__create_file` pasando
-   el texto entero; para binarios grandes no sirve.
+   documentos que no se pueden reconstruir —`REDACCION.md`, `ESTADO.md` y,
+   desde el 27 de agosto, `MOLDE.md`— con el conector de Drive. Se suben con
+   `mcp__Google_Drive__create_file` pasando el texto entero; para binarios
+   grandes no sirve.
+
+   **Y hay que comprobar el tamaño después de subir.** El `ESTADO.md` que hay
+   allí del 27 por la mañana pesa 8,5 kB y el de verdad pesa 50: se subió un
+   resumen, no el documento, y por fuera no se distingue —tiene el mismo
+   nombre y la misma fecha—. Una copia parcial que parece completa es peor que
+   no tener copia. La manera de saberlo es un `wc -c` del fichero local y
+   mirar el `fileSize` que devuelve la llamada: el `MOLDE.md` subido ese día
+   da 24.012 en los dos sitios, y por eso se sabe que está entero.
 3. **El chat con Pablo.** Un `tar.gz` de la fuente enviado por el chat es la
    copia que sobrevive a todo, porque queda en su dispositivo. **La lista de
    exclusiones ha crecido y hay que respetarla entera**, porque cada una de
