@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "como-llegamos-aqui": [
+    "por qué quien inventa algo casi nunca controla para qué sirve",
+    "cómo la imprenta creó sin querer la industria de las lentes",
+    "qué inventó Edison de verdad, que no fue la bombilla",
+    "por qué un reloj exacto servía sobre todo para no perderse",
+    "dónde falla explicar el pasado como una cadena de causas",
+  ],
+
   "verano-1927": [
     "por qué lo que se recuerda de una época no la explica",
     "cómo se gana una carrera técnica quitando cosas en vez de añadirlas",

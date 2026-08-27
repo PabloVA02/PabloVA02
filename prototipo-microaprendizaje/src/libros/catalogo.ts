@@ -93,7 +93,7 @@ export const CATALOGO: Ficha[] = [
   { id: "verano-1927", titulo: "El verano de 1927", autor: "Bill Bryson", ano: 2013, categoria: "Historia", estado: "escrito" },
   { id: "gulag", titulo: "Gulag", autor: "Anne Applebaum", ano: 2003, categoria: "Historia", estado: "escrito" },
   { id: "prision-americana", titulo: "Prisión americana", autor: "Shane Bauer", ano: 2018, categoria: "Historia", estado: "pendiente" },
-  { id: "como-llegamos-aqui", titulo: "Cómo llegamos aquí", autor: "Steven Johnson", ano: 2014, categoria: "Historia", estado: "pendiente" },
+  { id: "como-llegamos-aqui", titulo: "Cómo llegamos aquí", autor: "Steven Johnson", ano: 2014, categoria: "Historia", estado: "escrito" },
   { id: "ucrania-relatos", titulo: "Ucrania en varios relatos", autor: "Volodímir Yermolenko", ano: 2019, categoria: "Historia", estado: "pendiente" },
   /* --- Filosofía -------------------------------------------------------- */
   { id: "meditaciones", titulo: "Meditaciones", autor: "Marco Aurelio", ano: 180, categoria: "Filosofía", estado: "escrito" },

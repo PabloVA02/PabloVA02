@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "como-llegamos-aqui":
+    "Un ayuntamiento veneciano mandó a los vidrieros a una isla para no arder, y dos siglos y medio después alguien vio una célula por primera vez. Johnson sigue seis cadenas así y ninguna llega donde se esperaba.",
+
   "verano-1927":
     "En unos pocos meses de 1927, un desconocido cruzó el Atlántico solo, el Misisipi echó de casa a setecientas mil personas y el Tribunal Supremo autorizó esterilizar por la fuerza. Todo salió en los mismos periódicos.",
 

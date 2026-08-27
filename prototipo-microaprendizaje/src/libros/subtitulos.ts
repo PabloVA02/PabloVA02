@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "como-llegamos-aqui": "Historia de la técnica",
   "verano-1927": "Estados Unidos",
   "coach-silicon-valley": "El manual de liderazgo de Silicon Valley",
   bauhaus: "1919-1933: reforma y vanguardia",

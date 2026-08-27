@@ -112821,7 +112821,272 @@ const VERANO_1927: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Cómo llegamos aquí, de Steven Johnson (2014), en ocho páginas.
+
+   Historia de la técnica, tercera persona.
+
+   La séptima página es el problema del método —que la cadena de consecuencias
+   siempre sale si se dibuja hacia atrás— y va DENTRO, porque es lo que hay que
+   saber para usar bien el libro y no para desecharlo.
+   -------------------------------------------------------------------------- */
+
+const COMO_LLEGAMOS_AQUI: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Johnson sostiene que casi ninguna invención produce las consecuencias para las que se hizo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro parte de una idea con nombre propio y una imagen que se recuerda sola. Johnson la llama el efecto colibrí, y viene de la evolución: cuando las plantas empezaron a producir néctar para atraer insectos, aquello no tenía nada que ver con los pájaros; pero un pájaro acabó desarrollando una manera de volar que ningún otro tiene, quedándose quieto en el aire, para poder llegar a ese néctar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aplicado a la técnica, el efecto dice que una invención cambia cosas en campos que no tienen relación con ella, y que esos cambios no los previó ni los quiso nadie. Steven Johnson es un divulgador estadounidense que lleva veinte años escribiendo sobre cómo aparecen las ideas, y este libro salió en 2014 acompañado de una serie de televisión que él mismo presentaba, lo que explica su forma: seis historias cerradas, cada una con su sorpresa al final.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Escoge seis cosas y sigue la cadena de cada una: el vidrio, el frío, el sonido, lo limpio, el tiempo y la luz. Ninguna es un invento concreto con fecha; son seis capacidades que la humanidad fue adquiriendo poco a poco, a lo largo de siglos y por manos de gente que no se conocía entre sí, y que arrastraron detrás cosas que nadie relacionaría con ellas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue son cuatro de esas cadenas, la que mejor demuestra cómo se inventa de verdad, y una advertencia sobre el método del libro que conviene tener antes de creérselo entero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi ninguna invención produce las consecuencias para las que se hizo, y las que produce no las quiso nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un incendio en Venecia acabó llevando al microscopio, y en medio hubo unas gafas",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cadena del vidrio es la mejor del libro porque cada eslabón está documentado y ninguno era previsible. Empieza en 1291, cuando Venecia obligó a todos sus vidrieros a mudarse a la isla de Murano: sus hornos ardían día y noche y la ciudad estaba construida en madera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Concentrados en una isla, compitiendo entre ellos y sin poder marcharse —las penas por irse a trabajar fuera eran severas—, los vidrieros de Murano perfeccionaron el oficio durante siglo y medio, y a mediados del siglo XV uno de ellos, Angelo Barovier, consiguió un vidrio transparente de verdad, sin el tinte verdoso que dejan las impurezas del mineral. Lo llamaron cristallo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El eslabón siguiente es el que nadie habría anticipado. Cuando la imprenta de Gutenberg extendió la lectura por Europa, decenas de miles de personas descubrieron a la vez algo que hasta entonces no importaba: que no veían de cerca. Nunca habían tenido que enfocar letras pequeñas durante horas. La demanda de lentes se disparó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de tallar lentes durante un siglo salió gente que sabía combinarlas, que es un oficio distinto. En pocos años, en los Países Bajos, aparecieron el telescopio y el microscopio. Es decir: un ayuntamiento preocupado por los incendios acabó, por una cadena de pasos que nadie dirigió, en Galileo mirando las lunas de Júpiter y en el descubrimiento de que existen las células.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La imprenta no solo trajo libros: descubrió a media Europa que no veía de cerca, y eso creó una industria.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El aire acondicionado redibujó el mapa de un país" },
+      {
+        b: "texto",
+        texto:
+          "La cadena del frío empieza con un comerciante arruinado. En 1806, un joven de Boston llamado Frederic Tudor cargó un barco con hielo cortado en los lagos helados de Nueva Inglaterra y lo mandó al Caribe para venderlo. Nadie lo quiso, casi todo se derritió y perdió su dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Insistió durante veinte años, y lo que hizo en ellos importa más que el primer viaje. Aprendió a aislar las bodegas con serrín, montó neveras en los puertos de destino y enseñó a los taberneros a servir las bebidas frías regalándoles el hielo el primer año: creó la costumbre antes que el mercado. Acabó haciéndose rico exportando hielo natural de Nueva Inglaterra hasta la India.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El salto siguiente fue fabricarlo en vez de recogerlo, y la cadena da su giro más raro en 1902, en Brooklyn. Un ingeniero de veinticinco años, Willis Carrier, recibió un encargo de una imprenta cuyo problema no era el calor sino la humedad: el papel se hinchaba con los días húmedos y los colores dejaban de cuadrar entre pasada y pasada. Su máquina servía para secar el aire, y enfriarlo era un efecto secundario del procedimiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la consecuencia que Johnson persigue. Con aire acondicionado, ciudades del sur de Estados Unidos donde vivir en verano era penoso —Phoenix, Houston, Miami— se volvieron habitables y crecieron muchísimo a partir de los años cincuenta. Al crecer, ganaron escaños y votos electorales, que salieron del norte industrial. Una máquina para que no se hinchara el papel de una imprenta acabó moviendo el centro de gravedad político de un país.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La máquina se inventó para secar el aire de una imprenta. Enfriarlo era el efecto secundario.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un médico echó cloro en el agua de una ciudad sin pedir permiso y le llevaron a juicio",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo sobre el agua limpia contiene la mejor historia del libro, y es de las que no aparecen en ningún manual de historia de la medicina, quizá porque su protagonista hizo lo contrario de lo que se supone que hace un médico prudente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1908, la ciudad de Jersey City, en Nueva Jersey, estaba en pleito con la empresa que le suministraba el agua porque no era «pura y sana», como decía el contrato. La empresa tenía tres meses para arreglarlo y ninguna obra podía hacerse en ese plazo. Su asesor médico, John Leal, tomó una decisión por su cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Leal sabía por la literatura médica que el cloro mata las bacterias, y sabía también que en dosis mínimas no daña a quien lo bebe. Sin consultar a nadie, sin avisar a la población, sin ninguna autorización y sin un solo ensayo previo a esa escala, dosificó cloro en el suministro de doscientas mil personas. Era la primera vez que se hacía en una ciudad entera en el mundo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Le llevaron a juicio y el juez, tras oír los datos, falló a su favor: las muertes por fiebre tifoidea habían caído. En pocos años la cloración se extendió por Estados Unidos y después por todas partes, y hay estimaciones que le atribuyen una parte enorme del descenso de la mortalidad infantil urbana del siglo XX. Johnson señala además que Leal no patentó nada ni ganó dinero con ello.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay decisiones que salvan a cientos de miles de personas y que, tomadas en su momento, parecían una temeridad de alguien sin permiso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Edison no fue un genio solitario, y eso es lo interesante de Edison" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo de la luz sirve a Johnson para desmontar la manera en que se cuentan casi todos los inventos —un hombre, una idea, una fecha— y para hacerlo usa el caso más famoso de todos, el que cualquiera daría por sabido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo primero que aporta es que la bombilla no la inventó Edison en el sentido en que se dice. Antes que él hubo más de veinte personas trabajando en lámparas incandescentes, con patentes y prototipos que funcionaban a ratos, y algunas llevaban décadas en ello. El problema no era encender un filamento: era que durara horas en vez de minutos y que resultara barato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Edison montó fue otra cosa, y es su verdadera invención: un laboratorio con decenas de personas —químicos, sopladores de vidrio, matemáticos, mecánicos— dedicado a buscar sistemáticamente. Probaron miles de materiales para el filamento, uno detrás de otro, apuntándolo todo. Eso no es inspiración, es una organización, y es el antepasado de cualquier departamento de investigación actual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo segundo que Johnson subraya es que Edison no vendía bombillas: vendía un sistema. Sabía que una lámpara sin generadores, sin cables, sin contadores y sin una compañía que cobrara la factura no valía nada, y montó las seis cosas a la vez. Las invenciones que cambian algo casi nunca son un objeto; suelen ser un objeto más todo lo que hace falta para que ese objeto sirva.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un objeto nuevo casi nunca cambia nada solo. Lo que cambia las cosas es el objeto más todo lo que hace falta para usarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Medir el tiempo con precisión es lo que permite saber dónde estás" },
+      {
+        b: "texto",
+        texto:
+          "La cadena del tiempo contesta una pregunta que casi nadie se hace: por qué la humanidad se obsesionó durante siglos con construir relojes cada vez más exactos, si para la vida diaria basta con saber si es por la mañana o por la tarde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La respuesta es la navegación. En alta mar, la latitud —lo al norte o al sur que estás— se saca mirando el sol o las estrellas. La longitud, en cambio, es un problema de tiempo: la Tierra gira, así que si sabes qué hora es en el puerto de partida y qué hora es donde estás, la diferencia te dice cuánto has avanzado hacia el este o hacia el oeste. Hacía falta un reloj que aguantara meses de barco sin desviarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese problema movió durante siglo y medio el dinero y el ingenio de los imperios marítimos —hubo premios públicos cuantiosos para quien lo resolviera—, y de él salió la relojería de precisión. La cadena sigue con los relojes de cuarzo, que sustituyen el péndulo por un cristal que vibra, y llega a los atómicos, que se desvían menos de un segundo en millones de años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y termina donde nadie lo esperaba. Un teléfono sabe dónde está porque recibe señales de satélites con relojes atómicos a bordo y compara los tiempos de llegada. Un error de una millonésima de segundo son trescientos metros. La cadena es exacta: un problema de navegación del siglo XVIII se convirtió en el mapa que llevas en el bolsillo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un reloj sirve para saber dónde estás, y ése fue durante siglos su uso más valioso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El problema del método es que la cadena siempre sale si se dibuja hacia atrás",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir esto antes de terminar, porque es lo que separa usar bien el libro de creérselo entero. El efecto colibrí es una manera de mirar, no una ley, y tiene una debilidad conocida: hacia atrás, cualquier cadena se puede trazar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Johnson elige seis casos en los que la cadena es limpia y espectacular, y no cuenta ninguno en el que no funcione. No hay en el libro un solo capítulo dedicado a una invención cuyas consecuencias fueran las previstas, ni a una cadena que se rompiera. Eso no es un descuido: es la manera en que está construido el argumento, y significa que no se puede comprobar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los eslabones tampoco pesan igual. Que el vidrio transparente llevara a las lentes y de ahí al microscopio es una cadena corta, documentada y con nombres. Que el aire acondicionado moviera el mapa electoral de Estados Unidos es una cadena larga en la que se han saltado muchas cosas —economía, políticas de vivienda, migraciones internas— y que se presenta con la misma seguridad que la anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí se sostiene, y es la parte que se puede llevar cualquiera, es la conclusión modesta: quien inventa algo no controla para qué se acaba usando, y las consecuencias importantes suelen aparecer en campos que el inventor no conocía. Eso es una advertencia útil sobre cualquier tecnología nueva, y no necesita ninguna de las seis cadenas para sostenerse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una explicación que siempre funciona hacia atrás no es una ley: es una manera de ordenar lo que ya ocurrió.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sigue seis capacidades técnicas —el vidrio, el frío, el sonido, el agua limpia, la medida del tiempo y la luz artificial— y muestra que cada una arrastró consecuencias en campos que no tenían nada que ver con ella. A eso lo llama el efecto colibrí, y su tesis es que quien inventa algo casi nunca controla para qué acaba sirviendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta son las cadenas concretas, que están bien documentadas y no se olvidan: los vidrieros encerrados en una isla por miedo al fuego; la imprenta descubriéndole a media Europa que no veía de cerca; una máquina para secar el papel de una imprenta que acabó llenando el sur de Estados Unidos; y un médico que echó cloro en el agua de doscientas mil personas sin permiso y ganó el juicio con los datos de mortalidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aporta una corrección al modo de contar los inventos que vale para cualquier campo. Edison no encontró la bombilla: montó una organización que buscaba en serie y, sobre todo, vendió un sistema completo —lámparas, generadores, cables, contadores y una compañía que pasaba la factura— porque sabía que un objeto suelto no sirve para nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El método no se puede comprobar: las cadenas se trazan hacia atrás desde un resultado conocido y siempre encajan, y el libro no incluye ni un solo caso en que no funcionen. Los eslabones se presentan además con la misma seguridad cuando son sólidos y cuando son largos y discutibles, y el reparto de ejemplos es marcadamente anglosajón. Y se nota que nació a la vez que una serie de televisión: son seis episodios independientes, cada uno con su historia y su remate, sin ninguna tesis que crezca de uno a otro. Al terminar no se ha entendido nada nuevo sobre cómo aparecen las ideas; se han aprendido seis historias muy buenas.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "como-llegamos-aqui": COMO_LLEGAMOS_AQUI,
   "verano-1927": VERANO_1927,
   "coach-silicon-valley": COACH_SILICON_VALLEY,
   bauhaus: BAUHAUS,
