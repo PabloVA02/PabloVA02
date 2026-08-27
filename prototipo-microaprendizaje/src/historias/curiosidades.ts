@@ -182,4 +182,75 @@ export const CURIOSIDADES: Short[] = [
       },
     ],
   },
+
+  {
+    id: "por-que-vuelan-los-aviones",
+    titulo: "Por qué vuelan los aviones",
+    gancho:
+      "La explicación del colegio está mal, y lo demuestran los que vuelan boca abajo.",
+    categoria: "Ciencia",
+    color: "var(--clay)",
+    encargo: "El ala de un avión de línea desde la ventanilla, sobre un mar de nubes.",
+    fotos: [
+      {
+        archivo: "A wing tip of an airplane (40118125441).jpg",
+        autor:
+          "El ala de un avión vista desde la ventanilla, sobre un banco de nubes al atardecer. Departamento de Agricultura de EE. UU., 2018.",
+        licencia: "Public domain",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:A_wing_tip_of_an_airplane_(40118125441).jpg",
+        foco: "50% 50%",
+        alt: "El ala blanca de un avión saliendo de la ventanilla, con nubes altas iluminadas por el sol bajo.",
+      },
+      {
+        archivo: "Airplane vortex.jpg",
+        autor:
+          "El aire que deja atrás un ala, teñido con humo de colores para poder verlo. Ensayo de la NASA en Wallops Island, 1990.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Airplane_vortex.jpg",
+        foco: "45% 55%",
+        alt: "Una avioneta cruzando una cortina de humo rojo y azul, que se enrosca detrás de su ala en un remolino enorme.",
+      },
+      {
+        archivo:
+          "The Red Arrows roll upside down in tight formation during display training MOD 45147906.jpg",
+        autor:
+          "La patrulla acrobática de la Real Fuerza Aérea británica, volando boca abajo en formación cerrada. Cabo Andy Benson, 2008.",
+        licencia: "OGL v1.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:The_Red_Arrows_roll_upside_down_in_tight_formation_during_display_training_MOD_45147906.jpg",
+        foco: "45% 50%",
+        alt: "Siete aviones rojos volando invertidos muy juntos sobre un cielo azul, dejando estelas blancas.",
+      },
+      {
+        archivo: "N910DU taking off at Tampa International Airport.jpg",
+        autor:
+          "Un Boeing 737 levantando el morro para despegar en Tampa: cuanto más inclinada va el ala, más aire desvía. Andrew Heneen, 2023.",
+        licencia: "CC BY 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:N910DU_taking_off_at_Tampa_International_Airport.jpg",
+        foco: "55% 45%",
+        alt: "Un avión de pasajeros con el morro levantado justo al despegar, con el tren de aterrizaje todavía en el suelo.",
+      },
+    ],
+    entrada:
+      "Casi todo el mundo aprendió lo mismo en el colegio: el ala es más curva por arriba, el aire de arriba corre más deprisa y por eso el avión sube. Suena redondo y tiene un fallo. Nadie ha cronometrado nunca esas dos corrientes, y medidas no llegan juntas ni de lejos. La explicación buena es más vieja y más simple.",
+    paginas: [
+      {
+        rotulo: "Lo que lo sostiene",
+        texto:
+          "Un ala vuela porque tira del aire hacia abajo, y ya está. Es una ley que escribió Newton en 1687: si empujas una masa de aire hacia abajo, esa masa te empuja a ti hacia arriba con la misma fuerza. El ala va siempre un poco inclinada respecto al viento que le llega, y su curva sirve para que el aire se le quede pegado y salga por detrás apuntando al suelo. Un avión de línea en pleno vuelo está desviando hacia abajo cientos de toneladas de aire cada segundo.",
+      },
+      {
+        rotulo: "La forma no manda",
+        texto:
+          "La joroba de arriba sí sirve para algo, aunque no sea lo que nos contaron: sirve para que el aire no se despegue. Una corriente que roza una superficie curva tiende a seguirla en vez de irse recta, y una buena curva consigue que aguante pegada hasta el final del ala y salga limpia hacia abajo. Ayuda muchísimo, pero no es la causa. La prueba son los aviones acrobáticos: muchos llevan alas simétricas, sin joroba ninguna, y vuelan igual de bien boca arriba que boca abajo. Un ala plana también vuela, solo que peor y gastando más.",
+      },
+      {
+        rotulo: "Cuando deja de agarrar",
+        texto:
+          "Todo depende de cuánto se puede inclinar el ala. Cuanto más inclinada, más aire desvía y más tira hacia arriba. Pero pasados unos quince grados el aire deja de seguir la curva, se desprende en remolinos y el ala pierde casi toda su fuerza de golpe. Eso es entrar en pérdida, y no depende de la velocidad: pasa yendo rapidísimo. Por eso lo primero que enseña un instructor es lo que menos apetece: bajar el morro. Volar es convencer al aire de que baje, y nada más.",
+      },
+    ],
+  },
 ];

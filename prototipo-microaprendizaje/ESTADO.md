@@ -6,7 +6,7 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 
 | | hecho | queda |
 |---|---|---|
-| shorts escritos | **2** | el muro se ha empezado de cero, ver abajo |
+| shorts escritos | **3** | el muro se ha empezado de cero, ver abajo |
 | libros en el catálogo | 418 | |
 | libros con resumen escrito a mano | **400** | 18 para el catálogo entero |
 | cubiertas dibujadas por Pablo | **309** | 109 para el catálogo entero |
@@ -38,7 +38,8 @@ está escrito en su cabeza.
 **La pantalla ya está cerrada** (27 de agosto por la tarde): Pablo comparó seis
 maquetas y se quedó con la de siempre, la banda arriba, con las tres fotos de
 dentro del mismo tamaño y la portada un poco mayor. A partir de ahí se escribe.
-Van dos: «¿Cuánto le queda al sol?» y «Por qué llueve».
+Van tres: «¿Cuánto le queda al sol?», «Por qué llueve» y «Por qué vuelan
+los aviones».
 
 Lo que decía antes de cerrarla, y que sigue valiendo para la próxima vez: Es la segunda mitad
 de lo que pidió: «primero vamos a hacer el diseño de los short para que queden
