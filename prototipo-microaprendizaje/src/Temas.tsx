@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { GlyphClose } from "./glyphs";
 import { spring, springSoft } from "./motion";
@@ -165,6 +165,35 @@ export function GestionaTemas({
      marcar algo—, así que en vez de esconderla se cambia lo que dice. */
   const hay = intereses.length > 0;
 
+  /* EL TITULAR VA EN UNA LÍNEA, y esto es lo que lo garantiza.
+   *
+   * En la captura de Headway «Gestiona las recomendaciones» ocupa 299 de los
+   * 309 píxeles que hay dentro del recuadro, con la mayúscula midiendo 15,5.
+   * Ellos escriben en Roboto. Nuestra pila —Avenir Next primero, y lo que
+   * haya cuando no está— es más ancha: a esa misma altura de mayúscula la
+   * frase pide entre 320 y 355, así que se parte en dos y el recuadro entero
+   * cambia de forma.
+   *
+   * No hay manera en CSS de decir «tan grande como quepa en una línea», y
+   * clavar un tamaño no vale porque cada aparato resuelve la pila con una
+   * tipografía distinta. Así que se mide: se empieza por el tamaño que sale
+   * de la captura y se baja de tres en tres décimas hasta que deja de
+   * desbordar. En un iPhone, con Avenir Next, apenas baja; con una fuente
+   * ancha baja hasta que cabe. En los dos casos el titular ocupa UNA línea,
+   * que es lo que hace que el recuadro se parezca al suyo. */
+  const titular = useRef<HTMLHeadingElement>(null);
+  useLayoutEffect(() => {
+    const h = titular.current;
+    if (!h) return;
+    const TOPE = 21.3;
+    let t = TOPE;
+    h.style.fontSize = `${TOPE}px`;
+    while (t > 15 && h.scrollWidth > h.clientWidth + 0.5) {
+      t -= 0.3;
+      h.style.fontSize = `${t.toFixed(1)}px`;
+    }
+  }, [hay]);
+
   return (
     <motion.section
       className="bloque"
@@ -173,11 +202,17 @@ export function GestionaTemas({
       transition={springSoft}
     >
       <div className="gestiona">
-        <h2 className="gestiona-titulo">Gestiona las recomendaciones</h2>
+        <h2 className="gestiona-titulo" ref={titular}>
+          Gestiona las recomendaciones
+        </h2>
+        {/* La frase es la suya, palabra por palabra, con un cambio: donde
+            ellos dicen «objetivos» aquí dice «temas», que es como se llama
+            esto en nuestra app y en la pantalla de ajuste. Cae en dos líneas
+            igual que en la captura, que es parte de la forma del recuadro. */}
         <p className="gestiona-sub">
           {hay
-            ? "Lo que ves arriba sale de estos temas. Cambia los que quieras."
-            : "Elige tus temas y la estantería se ordena por ellos."}
+            ? "Para conseguir nuevas recomendaciones, tienes que ajustar tus temas"
+            : "Elige tus temas y la estantería se ordena por ellos"}
         </p>
 
         {hay && (

@@ -1358,71 +1358,125 @@ button {
    decía «por lo que te interesa», o sea que prometía un cálculo donde solo
    había un libro sacado de la lista. Ésta no promete nada, enseña la palanca.
    ========================================================================== */
+/* Medido pixel a pixel sobre la captura de Pablo del 27 de agosto a las 12:42
+   (750x1624, o sea 2x sobre 375 de ancho), porque pidió el recuadro «al 100%
+   igual». Lo que salió de medirlo, en píxeles CSS:
+
+     tarjeta      fondo #383838 · filo 1px #606060 · radio 12 · relleno 21/16/20
+     titular      22px, 700, BLANCO, interlínea 26
+     subtítulo    15px, 400, BLANCO, interlínea 20,5 · pegado al titular
+     lista        20 de aire encima · filas de 32 sin hueco entre ellas
+                  icono de 24 y 8 de separación hasta la letra
+     botón        20 de aire encima · alto 48 · radio 8 · fondo #4C4C4C
+                  sin filo · 16px, 700, BLANCO
+
+   DOS COSAS NO SE COPIAN, y es a propósito:
+
+   - El margen lateral. El suyo es de 16 y el nuestro es `--shell-pad`, 22.
+     Copiarlo dejaría esta tarjeta doce píxeles más ancha que todas las demás
+     de la pantalla, o sea rota. La caja es igual; el sitio donde se apoya es
+     el nuestro.
+   - Los iconos. Los suyos son emojis del sistema; los nuestros son los
+     dibujos de `Temas.tsx`, que Pablo va a sustituir por los suyos.
+
+   Y el blanco es blanco de verdad, #ffffff, no la crema `--paper`: en su
+   tarjeta el subtítulo NO está atenuado, va del mismo color que el titular.
+   ========================================================================== */
 .gestiona {
   margin: 0 var(--shell-pad);
-  padding: 16px 16px 15px;
-  border-radius: var(--tarjeta-radio);
-  background: var(--tarjeta);
-  border: 1px solid var(--tarjeta-filo);
+  padding: 21px 16px 20px;
+  border-radius: 12px;
+  background: #383838;
+  border: 1px solid #606060;
+  color: #ffffff;
 }
 
-.gestiona-titulo {
+/* Dos clases y no una: `.bloque h2` vale 0-0-1-1 y le ganaría a
+   `.gestiona-titulo`, que vale 0-0-1-0. Ese rótulo trae 20 de cuerpo y, lo que
+   es peor aquí, `padding: 0 var(--shell-pad)`, que metería el titular dieciséis
+   píxeles hacia dentro DEL RECUADRO, no de la pantalla. */
+.gestiona .gestiona-titulo {
   /* `margin: 0` y no es higiene: un `h2` trae 0,83 em de fábrica arriba y
-     abajo, y a 18 de cuerpo eso son treinta puntos de aire que nadie ha
-     escrito. Ver el aviso grande de la ficha de la racha. */
+     abajo, y a 21 de cuerpo eso son treinta y cinco puntos de aire que nadie
+     ha escrito. Ver el aviso grande de la ficha de la racha. */
   margin: 0;
   padding: 0;
-  font-size: 18px;
-  font-weight: 740;
-  letter-spacing: -0.022em;
-  line-height: 1.2;
+  /* 21,3 y no 22: la G del titular mide 15,5 en la captura, y en esta
+     tipografía la mayúscula es el 0,727 del cuerpo. 15,5 / 0,727 = 21,3. Es la
+     misma cuenta con la que se midieron los rótulos de bloque. */
+  font-size: 21.3px;
+  font-weight: 700;
+  letter-spacing: -0.012em;
+  /* 25 y no 26: con 25 el subtítulo cae justo donde cae en la captura, a 48,3
+     del borde de arriba del recuadro. */
+  line-height: 25px;
+  color: #ffffff;
+  /* Sin esto el ajuste de `Temas.tsx` no puede saber si cabe: `scrollWidth`
+     solo se sale de `clientWidth` cuando el texto no puede partirse. */
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .gestiona-sub {
-  margin: 5px 0 0;
+  /* Uno de separación y no más: en la captura el subtítulo arranca justo
+     debajo de la caja del titular, y el aire lo pone la interlínea. */
+  margin: 1px 0 0;
   padding: 0;
-  font-size: 13.5px;
-  line-height: 1.4;
-  color: rgba(242, 236, 225, 0.6);
+  /* 14,4: la P del subtítulo mide 10,5 de alto. 10,5 / 0,727 = 14,4. */
+  font-size: 14.4px;
+  font-weight: 400;
+  line-height: 20.5px;
+  color: #ffffff;
 }
 
 .gestiona-lista {
-  margin: 14px 0 0;
+  margin: 20px 0 0;
   padding: 0;
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
 
 .gestiona-lista li {
   display: flex;
   align-items: center;
-  gap: 11px;
-  font-size: 14.5px;
-  font-weight: 560;
+  gap: 8px;
+  /* La fila mide 32 y no hay hueco entre filas: medido, las tres líneas base
+     van exactamente de 32 en 32. */
+  height: 32px;
+  /* La L de «Llegar» mide 10,5, igual que el subtítulo. */
+  font-size: 14.4px;
+  font-weight: 400;
+  line-height: 1;
+  color: #ffffff;
 }
 
-.gestiona-lista svg { flex: none; }
+/* 24 y no los 26 que traen puestos los dibujos: la medida es de la captura, y
+   el atributo del SVG lo pisa esta regla sin tocar el componente, que también
+   se usa en la pantalla de ajustar temas. */
+.gestiona-lista svg {
+  flex: none;
+  width: 24px;
+  height: 24px;
+}
 
 /* Gris y no azul, como el suyo. El azul de esta app quiere decir «esto es lo
    que hay que tocar» —suscribirse, invitar, soporte— y gestionar los temas no
    es lo que se viene a hacer al inicio: está para el que lo busca. */
 .gestiona-boton {
   width: 100%;
-  height: 44px;
-  margin-top: 16px;
-  border-radius: 11px;
-  background: rgba(242, 236, 225, 0.09);
-  border: 1px solid rgba(242, 236, 225, 0.12);
-  /* La crema a pelo y no `var(--paper)`. Dentro de `.inicio` los dos tokens
+  height: 48px;
+  margin-top: 20px;
+  border-radius: 8px;
+  background: #4c4c4c;
+  border: 0;
+  /* Blanco literal y no `var(--paper)`. Dentro de `.inicio` los dos tokens
      están dados la vuelta —ahí `--paper` es el FONDO y `--ink` es el texto—,
      así que un botón que se pinta con `--paper` sale negro sobre gris oscuro.
      Con un valor literal da igual en qué pantalla acabe la tarjeta. */
-  color: #f2ece1;
-  font-size: 15px;
-  font-weight: 640;
-  letter-spacing: -0.008em;
+  color: #ffffff;
+  /* La G de «Gestionar» mide 11. 11 / 0,727 = 15,1. */
+  font-size: 15.1px;
+  font-weight: 700;
+  letter-spacing: -0.006em;
 }
 
 /* --- La pantalla ---------------------------------------------------------- */

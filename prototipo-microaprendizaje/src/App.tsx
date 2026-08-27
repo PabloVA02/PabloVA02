@@ -181,7 +181,16 @@ export default function App() {
    *  ahora la tarjeta de cuenta. Ver `Cuenta.tsx`. */
   const [nombre, setNombre] = useState("Hola");
   /** Los temas que marcó en la introducción. Ordenan la estantería. */
-  const [intereses, setIntereses] = useState<string[]>([]);
+  /* `?temas=Historia,Salud` deja el inicio con esos temas ya marcados, sin
+     pasar por la introducción. Es el mismo apaño que `?p=` y `?suscrito` y por
+     el mismo motivo: la tarjeta de «Gestiona las recomendaciones» cambia de
+     forma según haya temas o no, y sin esto no hay manera de compararla contra
+     la captura de referencia. Sin el parámetro arranca vacío, como siempre. */
+  const [intereses, setIntereses] = useState<string[]>(() => {
+    if (typeof window === "undefined") return [];
+    const t = new URLSearchParams(window.location.search).get("temas");
+    return t ? t.split(",").filter(Boolean) : [];
+  });
   /** Tarjetas leídas. Sube al terminar un capítulo o un short. */
   /* Cuántos resúmenes lleva terminados. Arranca en cero salvo que la página
      diga otra cosa: `?leidas=6` es lo que permite mirar el aviso de reseña sin
