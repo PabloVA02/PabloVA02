@@ -253,4 +253,64 @@ export const CURIOSIDADES: Short[] = [
       },
     ],
   },
+
+  /* EL PRIMERO DE DOS PÁGINAS, y por eso está aquí y no en tres.
+     El tema tiene dos ideas independientes —de dónde sale la sal y por qué no
+     sube— y ninguna tercera que no fuera relleno. Regla 4 del molde: las
+     pantallas las decide el tema. Dura unos setenta y cinco segundos. */
+  {
+    id: "por-que-el-mar-es-salado",
+    titulo: "Por qué el mar es salado",
+    gancho:
+      "La sal viene de la tierra, no del mar. Y el mar no se está volviendo más salado.",
+    categoria: "Ciencia",
+    color: "var(--sage)",
+    encargo: "Una costa abierta al océano, con el oleaje rompiendo contra la roca.",
+    fotos: [
+      {
+        archivo:
+          "Princetown (AU), Port Campbell National Park, Twelve Apostles -- 2019 -- 0969.jpg",
+        autor:
+          "Los Doce Apóstoles, en la costa sur de Australia. La caliza de esos farallones es roca hecha de conchas. Dietmar Rabich, 2019.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Princetown_(AU),_Port_Campbell_National_Park,_Twelve_Apostles_--_2019_--_0969.jpg",
+        foco: "50% 52%",
+        alt: "Farallones de piedra caliza saliendo del mar junto a un acantilado, con el oleaje rompiendo alrededor.",
+      },
+      {
+        archivo: "Yukon Delta.jpg",
+        autor:
+          "El delta del Yukón desde el satélite, soltando en el mar de Bering todo lo que el río ha arrancado por el camino. ESA, 2017.",
+        licencia: "CC BY-SA 3.0 igo",
+        fuente: "https://commons.wikimedia.org/wiki/File:Yukon_Delta.jpg",
+        foco: "45% 45%",
+        alt: "Un delta visto desde el espacio: canales verdes que se ramifican y una gran mancha rosada de sedimento entrando en un mar turquesa.",
+      },
+      {
+        archivo: "Tunisia-3916 - Salt Crystals (7849884490).jpg",
+        autor:
+          "Costra de sal en el Chott el Yerid, en el Sáhara: el agua se evapora y deja atrás lo que llevaba disuelto. Dennis G. Jarvis, 2012.",
+        licencia: "CC BY-SA 2.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Tunisia-3916_-_Salt_Crystals_(7849884490).jpg",
+        foco: "50% 50%",
+        alt: "Cristales de sal blancos y rosados formando una costra rugosa sobre el barro de un salar.",
+      },
+    ],
+    entrada:
+      "En 1715 el astrónomo Edmond Halley propuso una idea preciosa: si los ríos llevan sal al mar y allí se queda, midiendo cuánta hay se podría calcular la edad de la Tierra. La cuenta salió mal por un motivo que él no podía saber, y ese motivo es la mitad de esta historia.",
+    paginas: [
+      {
+        rotulo: "De dónde sale",
+        texto:
+          "La sal no está en el mar: viene de la tierra. La lluvia es un poco ácida, porque arrastra dióxido de carbono del aire, y al caer sobre la piedra la va deshaciendo despacísimo. Los ríos se llevan disuelto lo que sueltan esas rocas —sodio, cloro, calcio— y lo dejan donde acaban. Un río de agua dulce también lleva sal, solo que tan poca que no se nota. Y el mar no tiene salida: el agua se marcha evaporándose y la sal se queda. Cada año le llegan unos cuatro mil millones de toneladas.",
+      },
+      {
+        rotulo: "Y no sube",
+        texto:
+          "Aquí es donde Halley se equivocó: si solo entrara sal, el mar llevaría subiendo desde siempre y sería una salmuera. No lo es, porque también pierde. Se le va con la espuma que levanta el viento, y se queda pegada al fondo cuando un brazo de mar se seca y deja una costra. Otra parte vuelve a la roca en el fondo del océano. Lleva más o menos igual de salado desde hace cientos de millones de años: entra tanta sal como sale. El mar no se está salando, está empatado.",
+      },
+    ],
+  },
 ];

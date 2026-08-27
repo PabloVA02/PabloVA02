@@ -124,15 +124,65 @@ entra y se explica.
 
 Ninguna palabra técnica sin su traducción al lado, en la misma frase.
 
-## 4. Un solo hilo, en orden
+## 4. Un solo hilo, en orden — y las pantallas que pida el tema
 
-Cuatro pantallas, **una sola historia**, cronológica. Nada de saltar cinco
-años atrás y volver.
+**Una sola historia**, cronológica. Nada de saltar cinco años atrás y volver.
+
+### Cuántas pantallas: las que tenga el tema. Y dos páginas es normal
+
+Añadido el 27 de agosto de 2026, después de que Pablo preguntara si dividir el
+short como se dividen los libros es buena estrategia. Lo es —partir una
+explicación en trozos que el lector avanza a su ritmo se entiende mejor que un
+bloque seguido, y además ver el final cerca tira de él—, pero había un fallo, y
+era **la única regla de los libros que no habíamos copiado y era la buena**:
+
+> En `REDACCION.md`: ocho, doce o dieciséis páginas **según cuántos argumentos
+> independientes tenga el libro**. Nunca se engordan las páginas para alargar.
+
+Aquí estaban clavadas en tres. Eso es al revés: el día que un tema se agote en
+dos ideas, tres obliga a estirar, **y estirar es exactamente lo que cansa**. No
+cansa la longitud; cansa la página que no aporta.
+
+| ideas independientes | pantallas | dura |
+|---|---|---|
+| dos | portada + 2 páginas | unos 75 segundos |
+| tres | portada + 3 páginas | unos 105 segundos |
+| cuatro | portada + 4 páginas | unos 140 segundos, y ya es el tope |
+
+**Dos páginas no es un short a medias, es un short corto**, y que los haya es
+bueno: el lector no puede predecir cuánto dura el siguiente, y encontrarse uno
+breve se agradece. La barra de tramos de arriba lo dice sola —dos rayas en vez
+de tres— sin que haya que escribir ningún «1 min» en ninguna parte.
+
+### El examen de la foto, que es el que decide si una página existe
+
+**La foto de la portada tiene otro oficio que las de dentro.** La de la portada
+no explica: frena el dedo. Las de dentro tienen que **enseñar algo que el texto
+no puede**.
+
+De ahí sale el filtro, y es el más útil que tenemos:
+
+> Si una foto de dentro se pudiera cambiar por la de la portada y nadie lo
+> notaría, esa página no tiene nada que enseñar. **Lo que sobra no es la foto:
+> es la página.**
+
+No es manía de diseñador. Una imagen bonita que no aporta a la idea de su
+página no se queda neutra, distrae —es lo que en el estudio del aprendizaje se
+llama un «detalle seductor»—, y se paga en comprensión. Con esto la exigencia
+de las cuatro fotografías deja de ser una carga y pasa a ser el examen de si la
+página se ha ganado el sitio.
+
+`revisa-shorts.mjs` lo comprueba por lo mecánico: avisa si una página de dentro
+repite el fichero de la portada o si faltan fotos y alguna hereda la suya.
+
+Con tres páginas, el reparto de siempre:
 
 - **entrada** — sitúa y engancha
 - **página 1** — por qué pasó lo que pasó (el contexto que hace falta)
 - **página 2** — pasó esto (la escena)
 - **página 3** — cómo acaba y qué salió de ahí
+
+Con dos, se juntan la 1 y la 2: **por qué pasa** y **en qué acaba**.
 
 **«Lo que quedó» es el rótulo por defecto de la última página, no una
 obligación.** En una historia —una batalla, un invento, un naufragio— es

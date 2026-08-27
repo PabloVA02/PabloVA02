@@ -154,10 +154,40 @@ for (const ruta of ficheros) {
     if (!situa.test(entrada) && !(paginas[0] && situa.test(paginas[0][2])))
       aviso(id, "no sitúa en el tiempo (ni en la entrada ni en la página 1)");
 
-    /* La horquilla la decide el tema. Menos de dos no es un short y más de
-       cinco ya no se lee de una sentada. */
+    /* CUÁNTAS PÁGINAS: LAS QUE TENGA EL TEMA, Y DOS ES NORMAL.
+     *
+     * Es la regla que los libros ya tenían y que los shorts no habían copiado:
+     * allí son ocho, doce o dieciséis páginas según cuántos argumentos
+     * independientes tenga el libro, y nunca se engordan para alargar. Aquí
+     * estaban clavadas en tres, que es al revés: el día que un tema se agota
+     * en dos, tres obliga a estirar, y estirar es exactamente lo que cansa.
+     *
+     * Menos de dos no es un short y más de cinco no se lee de una sentada. */
     if (paginas.length < 2 || paginas.length > 5)
       aviso(id, `${paginas.length} páginas (deben ser entre 2 y 5)`);
+
+    /* EL EXAMEN DE LA FOTO, y es el filtro de calidad de verdad.
+     *
+     * La foto de la PORTADA tiene otro oficio: no explica, frena el dedo. Las
+     * de DENTRO tienen que enseñar algo que el texto no puede. Así que si una
+     * página de dentro repite la fotografía de la portada, o no tiene ninguna
+     * y hereda la suya, es que no hay nada que enseñar en esa página — y
+     * entonces lo que sobra no es la foto, es la página.
+     *
+     * Es el principio de coherencia dicho a la manera de aquí: una imagen que
+     * no aporta a la idea de su página no es neutra, distrae. Y sale gratis
+     * comprobarlo, porque es el mismo nombre de fichero repetido. */
+    const archivos = [...b.matchAll(/archivo:\n?\s*"((?:[^"\\]|\\.)*)"/g)].map((m) => m[1]);
+    if (archivos.length > 1)
+      archivos.slice(1).forEach((f, i) => {
+        if (f === archivos[0])
+          flojo(id, `la página ${i + 1} repite la fotografía de la portada: o enseña otra cosa o sobra`);
+      });
+    if (archivos.length && archivos.length < paginas.length + 1)
+      flojo(
+        id,
+        `${archivos.length} fotografías para ${paginas.length + 1} pantallas: las que falten heredan la de la portada`,
+      );
     paginas.forEach(([, rotulo, texto], i) => {
       /* Regla 15 y la charla con Pablo: la medida buena no es un numero exacto
          sino el tiempo, unos dos o tres minutos el short entero. Lo que se
@@ -165,13 +195,20 @@ for (const ruta of ficheros) {
          hueco muerto al final de la pagina, ni tan largo que no quepa. El
          techo sube a 132 para la medida nueva; el suelo se queda en 90 hasta
          que los 757 shorts viejos esten alargados. */
-      /* La página 3 va más corta a propósito y con permiso de la maqueta: es
-         la única que además lleva los dos botones y el aviso de que la
+      /* La ÚLTIMA página va más corta a propósito y con permiso de la maqueta:
+         es la única que además lleva los dos botones y el aviso de que la
          siguiente historia va hacia abajo, así que si le pidiéramos las mismas
-         palabras que a las otras dos no cabría nada de eso. La suya, 87. */
-      const suelo = i === 2 ? 75 : 90;
+         palabras que a las otras no cabría nada de eso. La suya, 85.
+
+         Se mira por la posición desde el final y no por `i === 2`, que era lo
+         que había: con un short de dos páginas la última es la 1, y con el
+         suelo de 90 saltaba un aviso que no era verdad. */
+      const esUltima = i === paginas.length - 1;
+      const suelo = esUltima ? 75 : 90;
+      const techo = esUltima ? 100 : 132;
       const n = palabras(texto);
-      if (n < suelo || n > 132) aviso(id, `página ${i + 1} de ${n} palabras (${suelo}-132)`);
+      if (n < suelo || n > techo)
+        aviso(id, `página ${i + 1} de ${n} palabras (${suelo}-${techo})`);
       if (palabras(rotulo) > 4) aviso(id, `rótulo «${rotulo}» de más de 4 palabras`);
     });
     /* EL RÓTULO DE LA ÚLTIMA PÁGINA YA NO TIENE QUE SER «Lo que quedó».

@@ -203,8 +203,32 @@ export type Short = {
     | [Pagina, Pagina, Pagina, Pagina] | [Pagina, Pagina, Pagina, Pagina, Pagina];
 };
 
-/** Minutos de lectura previstos. Iguales en todos, porque la forma es fija. */
-export const MINUTOS = 2;
+/**
+ * Minutos de lectura de UNA historia.
+ *
+ * Era una constante, `MINUTOS = 2`, y decía la verdad mientras todos los
+ * shorts tenían tres páginas. Desde el 27 de agosto las páginas son las que
+ * pida el tema —dos, tres o cuatro—, así que un número fijo pasa a ser mentira
+ * justo para el caso en que más importa: el short corto, que es el que hay que
+ * poder anunciar como corto.
+ *
+ * 200 palabras por minuto es la velocidad de lectura silenciosa de un adulto
+ * en castellano y en un móvil. Se redondea hacia arriba y nunca baja de uno.
+ *
+ * Ahora mismo NO SE PINTA EN NINGUNA PARTE, y es a propósito: la barra de
+ * tramos de arriba ya dice lo larga que es la historia —dos rayas o tres— sin
+ * gastar una línea de la portada, que va justa. Esto está aquí para cuando
+ * haga falta en una lista o en un buscador, y para que el día que se pinte
+ * diga la verdad.
+ */
+export function minutosDe(short: Short): number {
+  const cuenta = (t: string) => t.replace(/<[^>]+>/g, "").split(/\s+/).filter(Boolean).length;
+  const palabras =
+    cuenta(short.entrada) +
+    cuenta(short.gancho) +
+    short.paginas.reduce((t, p) => t + cuenta(p.texto), 0);
+  return Math.max(1, Math.round(palabras / 200));
+}
 
 /* EL MURO, DE MOMENTO, ES UNA SOLA HISTORIA.
 

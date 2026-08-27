@@ -6,7 +6,7 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 
 | | hecho | queda |
 |---|---|---|
-| shorts escritos | **3** | el muro se ha empezado de cero, ver abajo |
+| shorts escritos | **4** | el muro se ha empezado de cero, ver abajo |
 | libros en el catálogo | 418 | |
 | libros con resumen escrito a mano | **400** | 18 para el catálogo entero |
 | cubiertas dibujadas por Pablo | **309** | 109 para el catálogo entero |
@@ -38,8 +38,9 @@ está escrito en su cabeza.
 **La pantalla ya está cerrada** (27 de agosto por la tarde): Pablo comparó seis
 maquetas y se quedó con la de siempre, la banda arriba, con las tres fotos de
 dentro del mismo tamaño y la portada un poco mayor. A partir de ahí se escribe.
-Van tres: «¿Cuánto le queda al sol?», «Por qué llueve» y «Por qué vuelan
-los aviones».
+Van cuatro: «¿Cuánto le queda al sol?», «Por qué llueve», «Por qué vuelan los
+aviones» y «Por qué el mar es salado», que es **el primero de dos páginas**:
+el tema tiene dos ideas y no se estira a tres. Ver la regla 4 de `MOLDE.md`.
 
 Lo que decía antes de cerrarla, y que sigue valiendo para la próxima vez: Es la segunda mitad
 de lo que pidió: «primero vamos a hacer el diseño de los short para que queden
@@ -134,8 +135,8 @@ simulador se queda.
     npx vite build --config vite.artefacto.config.mjs
     node scripts/muro-demo.mjs 24 > /tmp/muro.json
     node scripts/movil.mjs --dist dist-artefacto --muro /tmp/muro.json \
-         --ancho 900 --calidad 0.82 --tope 8 \
-         --cubiertas-ancho 336 --cubiertas-calidad 0.76
+         --ancho 800 --calidad 0.8 --tope 8 \
+         --cubiertas-ancho 296 --cubiertas-calidad 0.74
 
     # 2. EL MIRADOR DEL MURO — se publica en el artefacto 4b5ac353-…
     npx vite build --config vite.shorts.config.mjs
@@ -152,9 +153,23 @@ fotos ya dentro— y el mirador se quedó congelado en el muro de aquel día sin
 que nada avisara. `shorts.html` y `dist-shorts/` están ya en el `.gitignore`,
 como `movil.html`.
 
-**El ancho de las cubiertas es el que hace o deshace el tope.** A 400 puntos
-las 321 pesan 7,2 MB y el fichero se va a 16,3, que ya no se puede publicar; a
-336 pesan 5,7 y sale por 14,7. Se toca ese número, no la calidad de las fotos.
+**El ancho de las cubiertas es el que hace o deshace el tope**, y hay que
+bajarlo cada vez que entra un short nuevo. Medido el 27 de agosto:
+
+| cubiertas | pesan | con 4 shorts sale por |
+|---|---|---|
+| 400 | 7,2 MB | 16,3 MB — no se puede publicar |
+| 336 | 5,7 MB | 16,0 MB — al filo |
+| 296 | 4,9 MB | 14,7 MB |
+
+Se toca ese número, no la calidad de las fotografías: las cubiertas se pintan a
+172 puntos como mucho y a 296 sobra ancho hasta en una pantalla de tres.
+
+**Y esto se va a acabar.** Cada short suma unos 0,4 MB de fotografías, así que
+con quince o veinte historias no habrá ancho de cubierta que lo salve. La
+salida no es seguir apretando: es **GitHub Pages sobre `/docs`**, que no tiene
+tope ninguno y solo lo puede activar Pablo. Está en la lista de las tres cosas
+que dependen de él.
 
 ### SOLO HAY DOS ARTEFACTOS PUBLICADOS, Y NO SE CREAN MÁS
 

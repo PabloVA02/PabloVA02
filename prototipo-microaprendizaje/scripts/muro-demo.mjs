@@ -25,9 +25,10 @@
    dos cosas: qué historias van delante y qué fotos lleva dentro. Las dos
    listas salen de la misma pasada, así que no pueden desincronizarse.
 
-   Se eligen las que tienen sus CUATRO fotografías. Una historia a medias, con
-   dos fotos y dos carteles, no sirve para juzgar cómo queda una foto en el
-   muro, que es para lo único que existe este mirador.
+   Se eligen las que tienen UNA FOTOGRAFÍA POR PANTALLA. Eran «las que tienen
+   sus cuatro», y dejó de valer el 27 de agosto: desde que las páginas las
+   decide el tema, un short de dos páginas está completo con tres fotos y el
+   filtro viejo lo dejaba fuera sin decir por qué.
    ========================================================================== */
 
 import { readFileSync, readdirSync } from "node:fs";
@@ -51,7 +52,11 @@ function historiasDe(fichero) {
     const fotos = [...t.matchAll(/archivo:\s*"((?:[^"\\]|\\.)*)"/g)].map((m) =>
       m[1].replace(/\\"/g, '"'),
     );
-    if (id) fuera.push({ id, fotos });
+    /* Cuántas páginas tiene, para saber cuántas fotografías le tocan. Desde el
+       27 de agosto las páginas las decide el tema —dos, tres o cuatro—, así
+       que «completa» ya no son cuatro fotos: es una por pantalla. */
+    const paginas = [...t.matchAll(/rotulo:\s*"/g)].length;
+    if (id) fuera.push({ id, fotos, paginas });
   }
   return fuera;
 }
@@ -75,7 +80,10 @@ for (let i = 0; ; i++) {
   if (!alguna) break;
 }
 
-const completas = muro.filter((h) => h.fotos.length >= 4).slice(0, CUANTAS);
+/* Una por pantalla: la portada y cada página. Una historia a medias, con dos
+   fotos y dos carteles, no sirve para juzgar cómo queda una foto en el muro,
+   que es para lo único que existe este mirador. */
+const completas = muro.filter((h) => h.fotos.length >= h.paginas + 1).slice(0, CUANTAS);
 const fotos = [];
 for (const h of completas) {
   for (const f of h.fotos) if (!fotos.includes(f)) fotos.push(f);
@@ -85,5 +93,5 @@ process.stdout.write(
   JSON.stringify({ shorts: completas.map((h) => h.id), fotos }, null, 1),
 );
 process.stderr.write(
-  `${completas.length} historias con sus cuatro fotos · ${fotos.length} fotografías\n`,
+  `${completas.length} historias con una foto por pantalla · ${fotos.length} fotografías\n`,
 );
