@@ -641,7 +641,7 @@ export function Inicio({
               whileTap={{ scale: 0.9 }}
               aria-label="Sacar un libro al azar"
             >
-              <GlyphDado tamano={26} tirada={tiradas} />
+              <GlyphDado tamano={32} tirada={tiradas} />
             </motion.button>
             <span className="cabecera-filete" aria-hidden />
             <motion.button
