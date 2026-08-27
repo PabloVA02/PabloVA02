@@ -110461,7 +110461,7 @@ const MUNDO_COMO_VOLUNTAD: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Lo que aporta, y es enorme, es haber puesto el deseo debajo de la razón ochenta años antes del psicoanálisis: la idea de que el intelecto no manda sino que justifica lo que el querer ya decidió. Y su capítulo sobre la música es la mejor explicación filosófica que se ha escrito de por qué unos sonidos sin significado emocionan.",
+          "Lo que aporta es haber puesto el deseo debajo de la razón ochenta años antes del psicoanálisis: el intelecto no manda, justifica lo que el querer ya decidió. Y su capítulo sobre la música sigue siendo la mejor explicación filosófica de por qué unos sonidos sin significado emocionan.",
       },
       {
         b: "texto",
@@ -110476,7 +110476,7 @@ const MUNDO_COMO_VOLUNTAD: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Después, el libro fue creciendo solo. Nietzsche lo encontró por casualidad en una librería de viejo de Leipzig en 1865 y dijo que le cambió la vida; Wagner se declaró su discípulo; Tolstói, Freud, Wittgenstein y Borges lo leyeron con atención.",
+          "Después, el libro creció solo. Nietzsche lo encontró por casualidad en una librería de viejo de Leipzig en 1865 y dijo que le cambió la vida; Wagner se declaró discípulo suyo; Tolstói, Freud, Wittgenstein y Borges lo leyeron con atención.",
       },
     ],
   },
