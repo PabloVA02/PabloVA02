@@ -80,7 +80,7 @@
 
 export const PUNTOS: Record<string, string[]> = {
   "verano-1927": [
-    "por qué lo que se recuerda de una época no es lo que la cambia",
+    "por qué lo que se recuerda de una época no la explica",
     "cómo se gana una carrera técnica quitando cosas en vez de añadirlas",
     "qué le pasa a quien se hace famoso por saber una sola cosa",
     "cómo una catástrofe natural reparte sus consecuencias",
