@@ -73,18 +73,32 @@ import { GlyphClose } from "./glyphs";
    ========================================================================== */
 
 /** El ancho de cada libro dentro del rodillo. */
-const ANCHO = 126;
+const ANCHO = 170;
 /** Y su alto. La proporción es de libro de bolsillo, no de azulejo. */
-const ALTO = 170;
+const ALTO = 230;
 /** De un libro al siguiente: el alto más el hueco. */
-const PASO = 188;
-/** El alto del hueco por el que se mira. Enseña el de en medio entero y un
- *  dedo del de arriba y del de abajo, que es lo que dice que hay más. */
-const VENTANA = 292;
+const PASO = 246;
+/** CUÁNTAS CASILLAS SE VEN A LA VEZ, y tiene que ser IMPAR.
+ *
+ *  Es la medida que arregló lo que Pablo pidió el 27 de agosto por la tarde:
+ *  «que el recorrido de los libros se vea más… los libros siguen cortados,
+ *  deben mantener su forma… agrándalos, quiero que la animación ocupe más
+ *  pantalla». Antes la ventana medía 292 y la casilla 188, o sea una casilla y
+ *  media: se veía un libro entero y dos medio cortados por el filo.
+ *
+ *  Impar, y esto es lo que hace que no se corte ninguno: con un número impar
+ *  de casillas el centro de la ventana cae en el centro de una casilla, así
+ *  que el libro premiado queda centrado Y los filos de la ventana caen justo
+ *  en las juntas entre casillas. Con un número par el centro caería en una
+ *  junta y habría que partir el libro premiado por la mitad. */
+const CASILLAS = 3;
+/** El alto del hueco por el que se mira: tres casillas exactas, ni un punto
+ *  más. Si esto deja de ser un múltiplo de PASO, vuelven los libros cortados. */
+const VENTANA = PASO * CASILLAS;
 /** Cuántas cubiertas pasan antes de la buena. */
-const VUELTA = 26;
+const VUELTA = 30;
 /** Cuántas de esas pasan a velocidad constante, antes de empezar a frenar. */
-const LANZADA = 13;
+const LANZADA = 15;
 /** Lo que se pasa de largo antes de volver a su sitio. */
 const REBOTE = 16;
 
@@ -199,7 +213,7 @@ function Ronda({
     /* Puntos por segundo → altura de la estela. El tope de catorce no es por
        gusto: por encima de ahí el libro deja de reconocerse y lo que pasa por
        la ventana es una tira de color. */
-    const alto = Math.min(14, Math.abs(v) / 195);
+    const alto = Math.min(14, Math.abs(v) / 240);
     estela.current?.setAttribute("stdDeviation", `0 ${alto.toFixed(2)}`);
   });
 
@@ -221,27 +235,31 @@ function Ronda({
          correr. Sin él, los tres primeros fotogramas salen en blanco. */
       await controles.start({
         y: parada(LANZADA),
-        transition: { duration: 0.95, delay: 0.16, ease: "linear" },
+        transition: { duration: 1.15, delay: 0.16, ease: "linear" },
       });
       if (!vivo) return;
 
       /* SEGUNDO TIEMPO: la frenada. Y la curva no está elegida a ojo, está
          CALCULADA para que no haya un tirón en la junta.
 
-         La velocidad con la que llega el primer tiempo son 2573 puntos por
-         segundo. Este tramo recorre 2460 puntos en dos segundos, o sea 1230
-         de media. Para empalmar sin salto, la curva tiene que arrancar a
-         2573/1230 = 2,09 veces su media, y en una bézier la pendiente de
-         salida es y1/x1: de ahí el 0,6 sobre 0,29. Con la curva de antes
-         —0,62 sobre 0,09, o sea siete veces la media— el rodillo pegaba un
-         acelerón justo al empezar a frenar.
+         La velocidad con la que llega el primer tiempo son 3209 puntos por
+         segundo (quince casillas de 246 en 1,15). Este tramo recorre 3706
+         puntos en 2,15 segundos, o sea 1724 de media. Para empalmar sin
+         salto, la curva tiene que arrancar a 3209/1724 = 1,86 veces su
+         media, y en una bézier la pendiente de salida es y1/x1: de ahí el
+         0,6 sobre 0,32. Con la curva del principio —0,62 sobre 0,09, o sea
+         siete veces la media— el rodillo pegaba un acelerón justo al empezar
+         a frenar.
 
-         Y el 0,6 del segundo punto es lo que reparte el final: la curva se
-         va tumbando durante el último 40 %, que es donde pasan los tres o
-         cuatro últimos libros de uno en uno y se pueden leer. */
+         Y el 0,62 del segundo punto es lo que reparte el final: la curva se
+         va tumbando durante el último 38 %, que es donde pasan los tres o
+         cuatro últimos libros de uno en uno y se pueden leer.
+
+         SI SE CAMBIA UN NÚMERO DE ARRIBA HAY QUE REHACER ESTA CUENTA. Es la
+         diferencia entre una máquina y una lista que se para. */
       await controles.start({
         y: parada(VUELTA) - REBOTE,
-        transition: { duration: 2, ease: [0.29, 0.6, 0.6, 1] },
+        transition: { duration: 2.15, ease: [0.32, 0.6, 0.62, 1] },
       });
       if (!vivo) return;
 
@@ -275,15 +293,27 @@ function Ronda({
         <GlyphClose />
       </motion.button>
 
+      {/* EL RODILLO OCUPA LA PANTALLA. Antes era una columna centrada de
+          trescientos de ancho con la ventana en medio y el resultado debajo,
+          en su sitio reservado; el resultado es que el rodillo se quedaba con
+          menos de un tercio del alto. Ahora la ventana va estirada de arriba
+          abajo y lo demás flota encima: el rótulo arriba y el resultado en un
+          panel que sube desde abajo cuando para. */}
       <motion.div
         className="trag-caja"
-        initial={{ opacity: 0, y: 22, scale: 0.94 }}
-        animate={{ opacity: 1, y: 0, scale: 1 }}
+        initial={{ opacity: 0, scale: 0.96 }}
+        animate={{ opacity: 1, scale: 1 }}
         transition={{ ...springPop, delay: 0.04 }}
       >
         <p className="trag-encima">Un libro a suertes</p>
 
-        <div className="trag-ventana" style={{ height: VENTANA }}>
+        <div
+          className="trag-ventana"
+          /* El alto y el medio alto salen de la misma constante: centrar a mano
+             con un número escrito en el CSS es de donde salió el marco
+             descuadrado de esta mañana. */
+          style={{ height: VENTANA, marginTop: -VENTANA / 2 }}
+        >
           {/* El filtro vive aquí dentro y no en una hoja aparte: es de esta
               máquina y de nadie más. `stdDeviation="0 0"` de salida; lo que
               lo mueve es la velocidad del rodillo, ahí arriba. */}
@@ -348,13 +378,18 @@ function Ronda({
           <span className="trag-sombra" aria-hidden />
         </div>
 
-        <div className="trag-pie">
+        {/* El resultado no tiene sitio reservado: aparece encima del rodillo
+            cuando para, subiendo desde abajo y sobre un degradado que apaga el
+            libro de la casilla de abajo. Reservarle sitio le quitaba doscientos
+            puntos de alto al rodillo durante todo el giro, para enseñar un
+            renglón que dice «Girando…». */}
+        <div className="trag-pie" data-on={parado}>
           <AnimatePresence mode="wait">
             {parado ? (
               <motion.div
                 key="premio"
                 className="trag-premio"
-                initial={{ opacity: 0, y: 12 }}
+                initial={{ opacity: 0, y: 26 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={spring}
               >

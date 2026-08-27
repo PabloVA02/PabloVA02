@@ -387,8 +387,22 @@ puede deshacer sin romperlo:
 - **Doce cubiertas distintas repetidas**, no una por casilla. Con veintinueve,
   el navegador tiene que descomprimir veintinueve imágenes en el primer
   fotograma y el rodillo arranca con las casillas en blanco.
-- **Las casillas tienen forma de LIBRO**, no de azulejo: 126 por 170, con el
+- **Las casillas tienen forma de LIBRO**, no de azulejo: 170 por 230, con el
   lomo a la izquierda y el canto de las hojas a la derecha.
+- **La ventana mide TRES CASILLAS EXACTAS y el número tiene que ser IMPAR.**
+  Es lo que hace que no se corte ningún libro: con un número impar el centro de
+  la ventana cae en el centro de una casilla, así que el premiado queda
+  centrado Y los filos de la ventana caen en las juntas entre casillas. Con un
+  número par el centro caería en una junta y habría que partir el premiado por
+  la mitad. Si `VENTANA` deja de ser múltiplo de `PASO`, vuelven los libros
+  cortados.
+- **Y no lleva máscara de degradado**, que era lo que cortaba: empezaba a
+  apagar al 17 % del alto, o sea media cabeza del libro de arriba. Lo que apaga
+  los extremos es una veladura POR ENCIMA, no un recorte.
+- **El rodillo ocupa la pantalla y el resultado flota.** Antes era una columna
+  centrada con el resultado debajo en su sitio reservado, y esos doscientos
+  puntos de alto se los quitaba al rodillo durante todo el giro para enseñar un
+  renglón que dice «Girando…».
 - **El marco de oro se centra sobre la CASILLA, no sobre el libro.** La casilla
   mide `PASO` y el libro va centrado dentro de ella; restando el alto del libro
   el rodillo entero queda nueve puntos por debajo del marco, y eso es lo que
