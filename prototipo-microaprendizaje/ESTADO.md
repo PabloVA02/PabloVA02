@@ -39,8 +39,27 @@ está escrito en su cabeza.
 maquetas y se quedó con la de siempre, la banda arriba, con las tres fotos de
 dentro del mismo tamaño y la portada un poco mayor. A partir de ahí se escribe.
 Van cuatro: «¿Cuánto le queda al sol?», «Por qué llueve», «Por qué vuelan los
-aviones» y «Por qué el mar es salado», que es **el primero de dos páginas**:
-el tema tiene dos ideas y no se estira a tres. Ver la regla 4 de `MOLDE.md`.
+aviones» y «Por qué el mar es salado» (este, de dos páginas).
+
+**Los cuatro están reescritos del 27 por la noche, y la lección es de Pablo.**
+Leyó la primera versión de la lluvia y la tumbó: «el usuario solo quiere saber
+por qué llueve y le explicas cosas raras, va como a trompicones». Tenía razón:
+abría con un físico de 1880 en vez de con la respuesta. De ahí salen dos
+reglas nuevas de `MOLDE.md` que mandan sobre todo lo que se escriba:
+
+· **La respuesta primero.** El título pregunta; la entrada contesta en dos o
+  tres frases que entendería cualquiera. Las sorpresas cuelgan de la
+  respuesta; el científico entra cuando su historia empuja, nunca de puerta.
+· **Se escribe seguido y se corta donde algo quede colgando.** Nada de contar
+  ideas antes de escribir; el número de páginas es un resultado.
+
+Y para que se pueda escribir así, **la banda de imagen es elástica**: la
+fotografía se queda con lo que el texto no usa (suelos: portada 40 %, páginas
+26 %). Al montarla aparecieron dos averías que llevaban tiempo escondidas: el
+medidor de texto contaba el desplazamiento de la animación de entrada como si
+fuera texto —de ahí los ajustes fantasma de 0,96—, y el observador no se
+enteraba cuando los guiones del navegador liberaban una línea. Las dos están
+contadas en `useAjusteDeTexto` y en `desborda()` de `Shorts.tsx`.
 
 Lo que decía antes de cerrarla, y que sigue valiendo para la próxima vez: Es la segunda mitad
 de lo que pidió: «primero vamos a hacer el diseño de los short para que queden

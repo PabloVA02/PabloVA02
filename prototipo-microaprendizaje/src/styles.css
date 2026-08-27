@@ -10295,57 +10295,60 @@ button {
    el titular espaciado— y eso no se toca.
    ========================================================================== */
 
-/* ---- 1. La banda de imagen ----------------------------------------------
-   Tres alturas y las tres salen de la misma cuenta, no del ojo: se le da al
-   texto EXACTAMENTE el sitio que necesita y la fotografía se queda con el
-   resto. Con eso las cuatro pantallas de una historia se leen con la misma
-   medida de letra —que es la regla de Pablo— sin que ninguna deje un hueco.
+/* ---- 1. La banda de imagen: ELÁSTICA -----------------------------------
+   La fotografía se queda con lo que el texto no usa. No hay alturas fijas:
+   la hoja de texto mide lo que mida su contenido y la banda absorbe el
+   resto, así que una página corta es una foto grande y una larga, una foto
+   más pequeña. Nunca hay hueco muerto y el que escribe no cuenta palabras.
 
-     portada   42 %   sesenta palabras, el titular y el gancho
-     las tres  36 %   ciento diez palabras y su rótulo; la última, 85, porque
-                      lleva además los dos botones y el «siguiente short»
+   Es la tercera versión de esta banda en un día, y la definitiva porque las
+   dos anteriores morían por lo mismo. La fija al 28 % dejaba suelo vacío
+   bajo las páginas cortas; las tres alturas medidas (42/36/22 y luego
+   42/36/36) cuadraban exactamente con páginas de 110 palabras, o sea que
+   OBLIGABAN a escribir páginas de 110 palabras. Y Pablo pidió lo contrario:
+   «contarlo todo de una con una buena narración» y cortar donde el texto
+   pida. Un texto libre necesita una maqueta que ceda, no una plantilla que
+   exija.
 
-   Medido en un móvil de 430 × 860 con `--ajuste` a 1 en las cuatro. En otros
-   tamaños la proporción cambia sola: las alturas van en tanto por ciento y lo
-   que sobre o falte lo recoge `useAjusteDeTexto`. */
-.muro-foto { height: 36%; }
-.muro-foto[data-portada="true"] { height: 42%; }
+   Los suelos son lo único que queda de las medidas: la portada no baja del
+   40 % —es el cartel, lo pidió Pablo: «la portada un poco más grande que las
+   demás»— y las páginas no bajan del 26 %, que es donde una foto deja de
+   contar nada. Si un texto no cabe ni con la foto en su suelo, la banda ya
+   no cede más: cede la letra (`useAjusteDeTexto`), y eso es la señal de
+   acortar el texto.
 
-/* Dentro sube del 28 % al 36 %. Al 28 % la página se quedaba con doscientos
-   treinta y seis puntos de suelo vacío, y no porque faltara texto: sobraba
-   sitio. Al 36 % una página de las largas —ciento nueve palabras— deja el
-   aire justo y nada más.
+   CÓMO FUNCIONA, porque el reparto es delicado:
 
-   Y no sube al 42 % como la portada, aunque la fotografía luciría más: la
-   portada lleva cincuenta y seis palabras y una página lleva ciento diez.
-   Entre una imagen más grande y el texto a su tamaño, manda el texto. */
+   · la foto encoge ANTES que el texto: `flex-shrink` 999 contra 1. Sin esa
+     desproporción, flex reparte el déficit entre las dos y la letra encogía
+     un poco aunque la foto tuviera margen de sobra.
+   · la hoja pasa de `flex: 1` a tamaño de contenido. Con `flex: 1` la hoja
+     se quedaba el sitio sobrante y el texto flotaba en él; ahora el sobrante
+     es de la fotografía.
+   · `useAjusteDeTexto` no se toca: con la hoja a tamaño de contenido, su
+     caja solo queda corta cuando la foto ya está en el suelo, que es
+     exactamente cuando tiene que actuar. */
+.muro-foto,
+.muro-foto[data-portada="true"] {
+  flex: 1 999 auto;
+  height: auto;
+  min-height: 26%;
+}
+.muro-foto[data-portada="true"] { min-height: 40%; }
 
-/* LA ÚLTIMA PANTALLA LLEVA LA MISMA BANDA QUE LAS OTRAS DOS, y eso costó una
-   decisión que conviene entender antes de tocarla.
+.muro-hoja,
+.muro-hoja[data-forma="portada"],
+.muro-hoja[data-forma="pagina"] {
+  flex: 0 1 auto;
+  min-height: 0;
+}
 
-   Estuvo al 22 %. El motivo era bueno: esa pantalla lleva encima los dos
-   botones y el «siguiente short», ciento diecinueve puntos que las otras no
-   gastan, así que al 36 % el texto no cabía y encogía al 86 % mientras el de
-   la segunda iba al 100 %. Bajando la banda, las cuatro se leían con la misma
-   letra.
-
-   Pablo lo vio y decidió al revés, mirando la nebulosa de la Hélice reducida a
-   una rendija: «la última foto debe ser más grande, como la de la Tierra al
-   menos; la portada un poco más grande que las demás y las otras tres del
-   mismo tamaño». Y tiene razón: de las dos cosas que se pueden igualar —el
-   alto de la letra o el tamaño de la fotografía—, la que se ve al deslizar es
-   la fotografía. Un cuerpo de letra un 14 % menor no se nota pasando; una foto
-   que ocupa la mitad que la anterior, sí.
-
-   Así que lo que cede es el TEXTO de la última página: unas 85 palabras en vez
-   de 110. No es un recorte forzado, es lo que ya decía `MOLDE.md` —«la última
-   página puede quedarse corta y no pasa nada: ahí se acaba la historia»—, y
-   ahora además está medido. */
-
-/* En las pantallas bajas las dos ceden, y en el mismo orden de siempre. */
+/* En las pantallas bajas ceden los suelos, y en el mismo orden de siempre:
+   la fotografía antes que el texto. */
 @media (max-height: 700px) {
-  .muro-foto { height: 26%; }
-  .muro-foto[data-portada="true"] { height: 40%; }
+  .muro-foto,
+  .muro-foto[data-portada="true"] { min-height: 18%; }
+  .muro-foto[data-portada="true"] { min-height: 34%; }
 }
 
 /* ---- 2 y 3. El pie de foto, y el borde que se disuelve -------------------

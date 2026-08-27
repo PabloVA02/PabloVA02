@@ -203,9 +203,13 @@ for (const ruta of ficheros) {
          Se mira por la posición desde el final y no por `i === 2`, que era lo
          que había: con un short de dos páginas la última es la 1, y con el
          suelo de 90 saltaba un aviso que no era verdad. */
+      /* Con la banda elástica la horquilla solo caza los extremos: por
+         debajo de 55 la página casi nunca se ha ganado el sitio, y por
+         encima de 135 no cabe ni con la fotografía en su suelo. La última
+         va más corta porque lleva encima los dos botones. */
       const esUltima = i === paginas.length - 1;
-      const suelo = esUltima ? 75 : 90;
-      const techo = esUltima ? 100 : 132;
+      const suelo = esUltima ? 50 : 55;
+      const techo = esUltima ? 110 : 135;
       const n = palabras(texto);
       if (n < suelo || n > techo)
         aviso(id, `página ${i + 1} de ${n} palabras (${suelo}-${techo})`);

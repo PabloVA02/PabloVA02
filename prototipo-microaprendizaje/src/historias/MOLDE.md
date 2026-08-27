@@ -73,6 +73,36 @@ hacía lo que hacía— se reparte entre el gancho y la página 1.
 física, ni de quién era Marie Curie. No es escribir fácil: es no dar por
 sabido. El vocabulario puede ser rico; los requisitos previos, ninguno.
 
+## La respuesta primero
+
+La regla más cara de esta lista: costó que Pablo tumbara un short entero.
+La primera versión de «Por qué llueve» abría con un físico de 1880 metiendo
+aire en una campana de cristal, y su veredicto fue exacto: *«el usuario solo
+quiere saber por qué llueve y le explicas cosas raras; va como a trompicones,
+lo cuentas muy raro»*.
+
+El fallo tiene nombre. **El título hace una pregunta, y quien abre el short
+viene a que se la contesten.** Abrir con una anécdota, un científico o un
+dato lateral —por bueno que sea— es hacerle esperar la respuesta a alguien
+que ya la ha pedido. Eso es lo que se siente como «trompicones»: no son las
+frases, es que el texto no va adonde el lector va.
+
+Así que:
+
+1. **La entrada CONTESTA la pregunta del título**, en dos o tres frases que
+   entendería cualquiera. Sin nombres, sin años, sin aparatos. La del agua:
+   el sol la sube, arriba se enfría, cae. Ya está contestado.
+2. **Las sorpresas cuelgan de la respuesta, no la sustituyen.** Una vez el
+   lector tiene el mapa, cada página le enseña que un paso del mapa esconde
+   algo mejor de lo que parecía.
+3. **El científico entra cuando su historia empuja, nunca de puerta.** Aitken
+   y su campana valen como PRUEBA de lo de las motas, en mitad de la página;
+   de apertura eran un desvío.
+
+La comprobación es leer solo la entrada y preguntarse: ¿alguien que solo
+quería saber por qué llueve ya lo sabe? Si la respuesta es no, está mal
+abierta, da igual lo bonita que sea.
+
 ## 1. Situar antes de contar
 
 La entrada tiene que dejar claro **cuándo, dónde y quién** antes de que la
@@ -128,31 +158,39 @@ Ninguna palabra técnica sin su traducción al lado, en la misma frase.
 
 **Una sola historia**, cronológica. Nada de saltar cinco años atrás y volver.
 
-### Cuántas pantallas: las que tenga el tema. Y dos páginas es normal
+### Cuántas pantallas: se escribe seguido y se corta donde algo quede colgando
 
-Añadido el 27 de agosto de 2026, después de que Pablo preguntara si dividir el
-short como se dividen los libros es buena estrategia. Lo es —partir una
-explicación en trozos que el lector avanza a su ritmo se entiende mejor que un
-bloque seguido, y además ver el final cerca tira de él—, pero había un fallo, y
-era **la única regla de los libros que no habíamos copiado y era la buena**:
+Reescrito dos veces el 27 de agosto, y la segunda contra la primera. La
+primera versión mandaba **contar las ideas antes de escribir** y hacer una
+página por idea. Pablo la tumbó —«algunos temas no tendrán muchas ideas; ¿no
+sería mejor contarlo todo de una, con una buena narración?»— y tenía razón
+por partida doble: contar ideas es una regla de ensayo, heredada del molde de
+los libros que él pidió no calcar, y este mismo documento ya decía lo
+contrario más abajo: «primero se cuenta la historia lo mejor posible, y
+después se ajusta. Nunca al revés». Contar ideas antes de escribir es ajustar
+antes de contar.
 
-> En `REDACCION.md`: ocho, doce o dieciséis páginas **según cuántos argumentos
-> independientes tenga el libro**. Nunca se engordan las páginas para alargar.
+La regla buena tiene tres pasos:
 
-Aquí estaban clavadas en tres. Eso es al revés: el día que un tema se agote en
-dos ideas, tres obliga a estirar, **y estirar es exactamente lo que cansa**. No
-cansa la longitud; cansa la página que no aporta.
-
-| ideas independientes | pantallas | dura |
-|---|---|---|
-| dos | portada + 2 páginas | unos 75 segundos |
-| tres | portada + 3 páginas | unos 105 segundos |
-| cuatro | portada + 4 páginas | unos 140 segundos, y ya es el tope |
+1. **Se escribe la historia entera y seguida**, como se contaría en voz alta,
+   con la mejor prosa de la que se sea capaz. Sin pensar en pantallas.
+2. **Después se busca dónde corta sola.** El corte bueno no es «donde acaba
+   una idea»: es donde el texto deja algo colgando —una pregunta, una
+   promesa, un «y no lo es»—. Es la regla 13 leída al revés: si una frase
+   pide pasar página, ahí hay un corte.
+3. **El número de páginas es lo que salga**: dos, tres o cuatro. Un
+   resultado, no una decisión previa. Menos de dos no es un short; más de
+   cinco no se lee de una sentada.
 
 **Dos páginas no es un short a medias, es un short corto**, y que los haya es
-bueno: el lector no puede predecir cuánto dura el siguiente, y encontrarse uno
-breve se agradece. La barra de tramos de arriba lo dice sola —dos rayas en vez
-de tres— sin que haya que escribir ningún «1 min» en ninguna parte.
+bueno: el lector no puede predecir cuánto dura el siguiente, y encontrarse
+uno breve se agradece. La barra de tramos lo dice sola, dos rayas en vez de
+tres.
+
+Y lo que hace posible escribir así es la maqueta: **la banda de imagen es
+elástica** —la fotografía se queda con lo que el texto no usa—, así que una
+página corta no deja un hueco muerto, deja una foto grande. El que escribe no
+cuenta palabras; el validador solo guarda los extremos.
 
 ### El examen de la foto, que es el que decide si una página existe
 
@@ -416,27 +454,20 @@ una fotografía cuadrada entraba por una rendija —del disco solar entero se ve
 dos tercios— y a la vez sobraba sitio abajo. Ahora cada pantalla le da al texto
 el sitio que necesita y la fotografía se queda con el resto:
 
-| pantalla | banda | texto |
-|---|---|---|
-| portada | 42 % | 56 palabras, con el titular y el gancho |
-| páginas 1 y 2 | 36 % | 110 palabras y su rótulo |
-| la última | 36 % | **85 palabras**, porque lleva además los dos botones |
+**La banda es elástica desde el 27 por la noche**: la fotografía se queda con
+lo que el texto no usa, así que no hay alturas que memorizar, hay dos suelos.
+La portada nunca baja del 40 % —es el cartel; Pablo: «la portada un poco más
+grande que las demás»— y las páginas nunca bajan del 26 %, que es donde una
+foto deja de contar nada. Por encima de eso, página corta es foto grande.
 
-**La última lleva la misma banda que las otras dos y menos texto**, y no al
-revés. Estuvo al 22 % para que le cupieran las 110 palabras, y Pablo lo cambió
-mirando la nebulosa de la Hélice reducida a una rendija: «la última foto debe
-ser más grande, como la de la Tierra al menos; la portada un poco más grande
-que las demás y las otras tres del mismo tamaño».
+Antes hubo alturas fijas (28 %, luego 42/36/22, luego 42/36/36) y todas
+morían igual: cuadraban exactamente con páginas de 110 palabras, o sea que
+obligaban a escribir páginas de 110 palabras. Una maqueta que le dicta la
+longitud al texto está mandando sobre quien escribe, y aquí manda el texto.
 
-Y es lo correcto: de las dos cosas que se pueden igualar —el alto de la letra o
-el tamaño de la fotografía—, la que se ve al deslizar es la fotografía. Un
-cuerpo de letra un 14 % menor no se nota pasando; una foto que ocupa la mitad
-que la anterior, sí.
-
-Con esas alturas las cuatro pantallas se leen con la **misma medida de letra**
-y ninguna deja un hueco. Si aun así el texto no cabe, la letra encoge sola
-hasta un 86 % —`useAjusteDeTexto`—; que una historia llegue a ese suelo
-significa que hay que acortarle el texto, no cambiar la maqueta.
+La medida de letra sigue siendo una sola. Si un texto no cabe ni con la foto
+en su suelo, la letra encoge hasta un 86 % —`useAjusteDeTexto`— y eso es la
+señal de acortar el texto, no de tocar la maqueta.
 
 **El crédito de la imagen va SOBRE la imagen**, no debajo. Debajo era lo segundo
 que se leía de la pantalla: cuatro renglones de gris entre lo que engancha y lo
@@ -445,8 +476,8 @@ la página, sigue estando entero —la licencia lo exige— y deja de interrumpi
 
 **Dos renglones como mucho, o sea 140 letras.** El degradado da para dos; con
 tres, el pie se sube por encima de la mitad de la banda y se queda flotando en
-mitad de la fotografía, y en la última página —que solo tiene el 22 %— la tapa
-casi entera. Lo comprueba `revisa-shorts.mjs`.
+mitad de la fotografía; con la banda cerca de su suelo, la tapa casi entera.
+Lo comprueba `revisa-shorts.mjs`.
 
 **Márgenes idénticos en las cuatro**, arriba, abajo y a los lados. La última
 pantalla se ve más suelta porque lleva menos texto, no porque cambie nada.
@@ -500,7 +531,7 @@ una prueba en vez de en un adorno.
 | `titulo` | 3–6 palabras y **27 letras como mucho**: tiene que caber en una línea |
 | `gancho` | una frase y **90 letras como mucho**: va en la portada y cabe en dos líneas |
 | `entrada` | **unas 56 palabras** (48–66) |
-| `texto` de cada página | unas 110 palabras · **la última, 85** |
+| `texto` de cada página | las que pida el corte: 55–135 · la última 50–110, que lleva los botones |
 | `rotulo` | 2–4 palabras; se pinta encima de su párrafo |
 | `autor` (el pie de foto) | **140 letras como mucho**: va sobre la imagen y cabe en dos renglones |
 | `destacado` | cifra y hasta 6 palabras, con información que no esté en el texto |
@@ -514,16 +545,12 @@ se le da.
 El orden de trabajo es ese: **primero se cuenta la historia lo mejor posible, y
 después se ajusta** para que caiga bien en las pantallas. Nunca al revés.
 
-Lo único que sí se respeta es que **el texto llegue hasta el margen de abajo**
-en vez de dejar un hueco muerto, y eso es lo que da las cifras de arriba: con
-la letra a 17 puntos y la banda al 36 %, una página se llena con unas 110
-palabras.
-
-**La última página se queda corta a propósito**: unas 85 palabras, no 110. Ahí
-se acaba la historia, y además esa pantalla lleva encima los dos botones y el
-«siguiente short», que le comen ciento diecinueve puntos. Lo que no cambia es
-nada más — mismo fondo, misma letra, misma banda de imagen y mismos márgenes
-que las otras tres.
+Con la banda elástica ya no hay «página llena»: el texto mide lo que pida el
+corte y la fotografía recoge el resto. La horquilla del validador solo caza
+los extremos — una página de menos de 55 palabras casi nunca se ha ganado el
+sitio, y una de más de 135 no cabe ni con la foto en su suelo. La última va
+más corta (50–110) porque lleva encima los dos botones y el «siguiente
+short».
 
 `curioso: true` cuando la historia es un dato curioso y no un
 acontecimiento: se pinta la insignia «Dato curioso» en la portada.

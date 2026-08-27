@@ -777,6 +777,29 @@ function useUnaLinea(texto: string) {
  */
 const SUELO_TEXTO = 0.86;
 
+/** ¿Se sale el contenido de su caja? Medido SOBRE LA MAQUETA, no sobre
+ *  `scrollHeight`, y la diferencia costó una noche entera.
+ *
+ *  `scrollHeight` cuenta también el desplazamiento de las transformaciones, y
+ *  los párrafos entran en pantalla con la animación de siempre: catorce
+ *  puntos más abajo de su sitio, subiendo. Medir durante esa animación —y la
+ *  medición corre justo entonces, en el primer fotograma— da siempre catorce
+ *  puntos «de más» que ninguna letra puede encoger, así que el texto se iba
+ *  al suelo del 86 % en pantallas donde cabía sobrado. Con la banda fija el
+ *  fallo quedaba disimulado —el hueco muerto bajo el texto absorbía los
+ *  catorce puntos casi siempre—, y los ajustes fantasma de 0,96 y 0,98 que
+ *  salían a veces eran exactamente esto.
+ *
+ *  `offsetTop` y `offsetHeight` son de la maqueta: ignoran las
+ *  transformaciones. Se mide dónde ACABARÁN los párrafos, no dónde están
+ *  ahora mismo de paso. */
+function desborda(e: HTMLElement): boolean {
+  let fondo = 0;
+  for (const hijo of Array.from(e.children) as HTMLElement[])
+    fondo = Math.max(fondo, hijo.offsetTop + hijo.offsetHeight);
+  return fondo - e.offsetTop > e.clientHeight + 1;
+}
+
 function useAjusteDeTexto() {
   const nodo = useRef<HTMLDivElement | null>(null);
   const vigia = useRef<ResizeObserver | null>(null);
@@ -791,7 +814,7 @@ function useAjusteDeTexto() {
        regla de tres: el alto del texto no es proporcional al cuerpo de letra
        —cambia el número de líneas, que es un salto— y una regla de tres se
        pasa de largo o se queda corta. Son ocho vueltas como mucho. */
-    for (let f = 1; f > SUELO_TEXTO && e.scrollHeight > e.clientHeight + 1; ) {
+    for (let f = 1; f > SUELO_TEXTO && desborda(e); ) {
       f -= 0.02;
       e.style.setProperty("--ajuste", f.toFixed(2));
     }
@@ -823,6 +846,19 @@ function useAjusteDeTexto() {
       document.fonts?.ready.then(mide);
       vigia.current = new ResizeObserver(mide);
       vigia.current.observe(e);
+      /* Y SE OBSERVA TAMBIÉN LA FOTOGRAFÍA, no solo el texto. Con la banda
+         elástica esto dejó de ser opcional, y costó una tarde verlo: en el
+         primer medio segundo el texto mide una línea MÁS que un momento
+         después —los guiones de `hyphens: auto` llegan cuando el navegador
+         carga su diccionario, y recuperan esa línea—. La medición corre en
+         ese medio segundo, ve que no cabe ni encogiendo y deja la letra en
+         el suelo. Cuando la línea sobrante desaparece ya nadie vuelve a
+         mirar: la caja del texto no ha cambiado de tamaño exterior, así que
+         el observador no salta. La que sí cambia es la fotografía, que
+         absorbe el hueco que el texto suelta. Observándola a ella, el
+         reajuste llega solo y la letra vuelve a su tamaño. */
+      const foto = e.closest(".muro-pagina")?.querySelector(".muro-foto");
+      if (foto) vigia.current.observe(foto);
     },
     [mide],
   );
