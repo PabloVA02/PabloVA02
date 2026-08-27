@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "entre-dos-reinos": "Una memoria de la vida interrumpida",
   "teoria-color": "Estudio y utilización del color",
   "informacion-gleick": "Historia y teoría",
   "viaje-del-escritor": "Las estructuras míticas para escritores",

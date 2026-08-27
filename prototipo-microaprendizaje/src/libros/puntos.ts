@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "entre-dos-reinos": [
+    "por qué el idioma de la batalla acaba juzgando al enfermo",
+    "qué le pasa a quien cuida, que no aparece en ninguna estadística",
+    "por qué el día del alta puede ser el principio del problema",
+    "qué frases sirven para tranquilizar al que las dice y no al otro",
+    "de dónde sale la idea de que una desgracia mejora a la gente",
+  ],
+
   "teoria-color": [
     "por qué los primarios que te enseñaron en el colegio no son primarios",
     "cómo saber si a una imagen le falta color o le falta luz",

@@ -111362,7 +111362,282 @@ const TEORIA_COLOR: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Entre dos reinos, de Suleika Jaouad (2021), en ocho páginas.
+
+   Memoria escrita desde una desgracia real, así que se aplica el apartado 4 bis:
+   TERCERA PERSONA siempre y ningún «tú puedes». Titulares cortos de imagen —es
+   narrativa— con la afirmación en la primera frase.
+
+   Y con cuidado en la conclusión: hay frases que, leídas como fórmula de éxito,
+   dicen algo cruel y falso.
+   -------------------------------------------------------------------------- */
+
+const ENTRE_DOS_REINOS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Doble ciudadanía" },
+      {
+        b: "texto",
+        texto:
+          "El título del libro sale de una frase de Susan Sontag que Jaouad cita en la primera página: todo el que nace tiene doble ciudadanía, en el reino de los sanos y en el de los enfermos, y aunque preferimos usar solo el buen pasaporte, antes o después a cada uno le toca identificarse como natural de ese otro sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A ella le tocó a los veintidós años. Acababa de terminar la universidad, se había mudado a París a trabajar y llevaba meses agotada, con picores y con moratones que no se explicaba. En 2011 le diagnosticaron una leucemia mieloide aguda. Le dijeron que sus probabilidades de seguir viva a los cinco años eran de alrededor de un treinta y cinco por ciento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tratamiento duró casi cuatro años: quimioterapia, ensayos clínicos y un trasplante de médula ósea de su hermano menor. Durante ese tiempo escribió una columna semanal en <em>The New York Times</em> llamada <em>Vida interrumpida</em>, con la que ganó un Emmy por la serie de vídeos que la acompañaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y conviene saber a qué edad le pasó, porque el libro entero depende de eso. Veintidós años es el momento en que se decide todo: dónde vivir, qué trabajo, con quién. Jaouad pasó esos años en una habitación, y sus amigos los pasaron fuera. Cuando salió, ellos llevaban cuatro años de ventaja en una vida que ella no había empezado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pero el libro no va de eso. La enfermedad ocupa la primera mitad, y el asunto es la segunda: qué pasa el día que te dicen que estás curado y descubres que nadie te ha preparado para eso. Lo que sigue son las dos mitades y por qué la segunda es la que casi nunca se cuenta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todo el mundo tiene el pasaporte del otro reino en el cajón. La cuestión no es si te tocará usarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Escribir mientras ocurre" },
+      {
+        b: "texto",
+        texto:
+          "La primera decisión importante de este libro se tomó cuatro años antes de escribirlo: contar la enfermedad mientras pasaba, sin saber cómo iba a terminar. Jaouad empezó la columna desde la habitación del hospital, publicando cada semana sin conocer el desenlace.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso hace que el material sea distinto de casi todas las memorias de enfermedad, que se escriben desde el final y ordenan hacia atrás. Aquí hay entradas de días en que no sabía si habría columna siguiente, y se nota en lo que se atreve a contar: la vergüenza del cuerpo, la envidia de la gente sana en la calle, el aburrimiento —que es lo que nadie menciona— y el alivio secreto de estar exenta de decidir nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tramo más duro es el del trasplante. Su hermano Adam, tres años menor, resultó compatible; para que la médula nueva prenda hay que destruir antes la propia con quimioterapia y radiación, lo que deja al paciente sin defensas durante semanas en aislamiento. Jaouad describe el día del trasplante con precisión doméstica: una bolsa colgada de un gotero, veinte minutos, ningún acontecimiento visible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cuenta lo que ese regalo hace con una relación entre hermanos. Adam le salvó la vida a los diecinueve años, y a partir de ahí quedó entre los dos una deuda que no se puede pagar ni mencionar. El libro es honesto con eso: la gratitud sin límite también pesa, y se le puede coger manía a quien te ha salvado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una deuda que no se puede devolver no une siempre. A veces lo que hace es que no se pueda hablar de ella.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El vocabulario de la guerra" },
+      {
+        b: "texto",
+        texto:
+          "Jaouad dedica varias páginas a rechazar el idioma con el que se habla de esta enfermedad, y su argumento no es de sensibilidad: es de consecuencias. Batalla, lucha, valiente, guerrera, perdió su batalla contra el cáncer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema de esa metáfora está en la parte de atrás. Si sobrevivir es ganar una batalla, morirse es perderla, y perder una batalla es algo que hace quien no luchó lo suficiente. Ese idioma, aplicado a una enfermedad que depende del tipo de célula, del momento del diagnóstico y de la suerte con un donante, convierte un resultado biológico en un juicio sobre el carácter del enfermo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un efecto práctico que ella describe desde dentro. Al paciente que está en tratamiento se le pide que sea valiente, positivo y agradecido, y ese papel deja fuera todo lo demás: el miedo, la rabia, la envidia, las ganas de que se callen. Cumplir el papel cuesta energía y el enfermo la gasta tranquilizando a los que vienen a verle.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además una consecuencia sobre quien no está enfermo y no sabe qué decir. Jaouad señala que casi todas las frases del repertorio —eres muy fuerte, seguro que sales de ésta, todo pasa por algo— sirven para que quien las dice se quede tranquilo, no para que el otro esté mejor. La que agradece es la más sencilla: no sé qué decirte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No es una queja nueva y ella no lo presenta como tal: Susan Sontag escribió sobre esto en 1978, mientras se trataba un cáncer de mama, y lo que Jaouad añade es la versión de alguien de veintidós años cuarenta años después, cuando el vocabulario no solo no ha desaparecido sino que se ha extendido a las redes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si sobrevivir es ganar una batalla, morirse es perderla, y eso convierte una biología en una nota de conducta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El que cuida no aparece en ninguna estadística" },
+      {
+        b: "texto",
+        texto:
+          "Una de las partes más incómodas del libro es la que trata de su novio, Will, que dejó su vida para cuidarla durante los años del tratamiento y con quien la relación terminó después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Jaouad describe es una asimetría que se instala sin que nadie la elija. En una relación donde uno está enfermo, todas las conversaciones giran alrededor de un solo cuerpo; el enfermo tiene permiso para estar mal y el cuidador no, porque su malestar parece indecente al lado del otro. Así que el cuidador se calla, y al callarse deja de estar presente como pareja y pasa a ser personal sanitario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ella lo cuenta sin repartir culpas y sin adornarlo. Reconoce que se acostumbró a que la cuidaran, que se volvió exigente, y que cuando dejó de estar enferma no supo cómo dejar de serlo dentro de esa pareja. La relación no se rompió por la enfermedad: se rompió por la forma que la enfermedad le había dado y que ya no servía para dos personas sanas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle que lo resume: durante cuatro años, todas las visitas preguntaron por ella. Nadie, ni una sola vez, le preguntó a él cómo estaba. Jaouad lo escribe sin excusarse y sin cargarlo sobre nadie en concreto; simplemente no está previsto que el acompañante sea alguien a quien también le está pasando algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es un asunto que casi ninguna memoria de enfermedad toca, porque el que escribe es siempre el enfermo y el cuidador queda como personaje secundario y agradecido. Aquí no. Jaouad escribe que él perdió cuatro años de su vida y que nadie le preguntó nunca cómo estaba, y que eso también le pasó factura a ella.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En una casa donde alguien está enfermo, el que cuida pierde el derecho a estar mal, y ese permiso hay que devolvérselo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El día del alta" },
+      {
+        b: "texto",
+        texto:
+          "El centro del libro es el momento que todas las historias de enfermedad usan como final feliz: el día en que le dicen que ya no hay células enfermas. Jaouad lo cuenta como el principio del problema.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Describe lo que había esperado —alivio, celebración, la vida recuperada— y lo que hubo: pánico. Cuatro años de instrucciones diarias, de un calendario que otros llevaban, de una identidad clarísima y de una comunidad de gente en su misma situación, y de golpe nada de eso. Sin tratamiento no hay rutina, sin hospital no hay red, y sin enfermedad no hay explicación para no estar bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que descubre es que la cultura tiene un guion detallado para estar enfermo —cómo comportarse, qué decir, qué se espera de ti— y ninguno para después. Al que sale le dicen que ha vuelto, y la palabra volver es la equivocada: no hay a dónde volver, porque los cuatro años pasaron y la persona que era antes ya no existe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un momento del libro que lo condensa. Al terminar el tratamiento le regalan una campana para tocarla, que es la costumbre de muchos hospitales, y describe el instante después: todo el mundo aplaude, ella sale a la calle y no sabe qué hacer con la tarde. El rito estaba pensado para los que se quedan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade un dato que ordena el asunto: los tratamientos han mejorado mucho, así que cada año hay más gente que sobrevive a lo que antes mataba, y todas esas personas se quedan en el mismo sitio que ella. Es una situación nueva y masiva para la que no hay costumbre social ninguna, y el libro es de los primeros que la nombra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay guion para estar enfermo y no lo hay para después. Al que sale se le dice que ha vuelto, y no hay a dónde.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Cien días en un coche" },
+      {
+        b: "texto",
+        texto:
+          "La segunda mitad del libro es un viaje, y la decisión de hacerlo es lo que salva al libro de ser un ensayo sobre el desconcierto. Jaouad metió a su perro en un coche viejo y recorrió Estados Unidos durante cien días y unos veinticuatro mil kilómetros, sola.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No era un viaje de turismo ni una huida. Durante la enfermedad había recibido cientos de cartas de desconocidos que leían su columna, y muchas las había guardado sin contestar. El plan consistía en ir a ver a algunos de ellos, uno por uno, en sus casas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que encuentra no es lo que buscaba, y esa es la parte buena. Esperaba consejo de gente que había pasado por lo mismo, y lo que se lleva son escenas concretas: una profesora de Ohio que había perdido a su hija, un hombre que le escribía desde el corredor de la muerte en Texas y con el que había mantenido correspondencia durante años, una mujer que la recibe en una casa en la que no ha entrado nadie en meses.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El viaje funciona como argumento porque invierte la posición. Durante cuatro años ella había sido la que recibía visitas, la que se dejaba cuidar y la que era el asunto de todas las conversaciones. En el coche es la que llama a la puerta y la que escucha, y el libro sugiere, sin decirlo, que ahí está el paso que faltaba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Después de años siendo el asunto de todas las conversaciones, lo que devuelve al mundo es ser el que escucha.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "No hay vuelta, hay travesía" },
+      {
+        b: "texto",
+        texto:
+          "La conclusión a la que llega el libro es modesta y es su mejor aportación: la recuperación no es un regreso, es un trayecto hacia otro sitio, y confundir las dos cosas es lo que hace que tantas personas se sientan fracasadas al terminar un tratamiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento tiene una consecuencia práctica sobre lo que se le dice a alguien que sale de algo grave. La frase «ya está, ya ha pasado» pone al otro en una posición imposible: si ha pasado y sigue mal, el problema es suyo. Jaouad propone lo contrario, que se cuente con que la parte difícil puede empezar entonces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y es explícita en algo que conviene retener porque va contra el género entero al que pertenece el libro: no hay lección. Ella no salió mejor persona, ni más agradecida, ni más sabia. Escribe que la enfermedad no le enseñó nada que no hubiera preferido no aprender, y que la idea de que el sufrimiento mejora a la gente la inventaron los que miran desde fuera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una precisión importante que el libro hace y casi ningún otro: no dice que no se pueda estar bien después. Dice que estar bien después no consiste en recuperar lo de antes, y que llamarlo recuperación monta la expectativa equivocada desde la primera palabra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí describe es más pequeño y más creíble: que se puede vivir con la doble ciudadanía sin fingir que se ha devuelto el otro pasaporte, y que la manera de hacerlo no fue una revelación sino cien días conduciendo y llamando a puertas de gente a la que no conocía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que alguien salga mejor persona de una desgracia es una idea de los que la miran desde fuera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Una leucemia diagnosticada a los veintidós años, casi cuatro años de tratamiento, un trasplante de médula del hermano menor, y luego lo que casi nadie cuenta: el desconcierto de haber sobrevivido. La segunda mitad es un viaje de cien días por Estados Unidos visitando a desconocidos que le habían escrito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es el asunto entero. Hay muchas memorias de enfermedad y casi todas terminan el día del alta; ésta empieza ahí, y nombra una situación nueva y cada vez más frecuente: los tratamientos han mejorado, así que hay mucha gente viva a la que se ha dicho que ya ha vuelto, sin que exista ningún sitio al que volver. Y desmonta con argumentos el idioma de la batalla, que convierte un resultado biológico en una nota de conducta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La estructura no aguanta igual las dos mitades: la del hospital está escrita casi día a día y tiene una urgencia que el viaje no alcanza, y en el segundo tramo hay encuentros que se resuelven en dos páginas y se quedan en apunte. Y el libro no puede evitar del todo lo que critica: los cien días en carretera funcionan como una estructura de redención —la travesía que ordena el desorden— muy parecida a la que rechaza en el vocabulario de la guerra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después, que le da al libro una lectura que su autora no eligió. Poco después de publicarse, en 2021, la leucemia volvió y hubo un segundo trasplante. Ese proceso quedó filmado en el documental <em>American Symphony</em>, de 2023, que sigue a la vez su tratamiento y el año de premios de su marido, el músico Jon Batiste. Así que el libro que sostiene que la recuperación no es una vuelta atrás resultó tener razón de una manera mucho más literal de lo que pretendía.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "entre-dos-reinos": ENTRE_DOS_REINOS,
   "teoria-color": TEORIA_COLOR,
   "historia-mundo-objetos": HISTORIA_MUNDO_OBJETOS,
   "primera-guerra-keegan": PRIMERA_GUERRA_KEEGAN,

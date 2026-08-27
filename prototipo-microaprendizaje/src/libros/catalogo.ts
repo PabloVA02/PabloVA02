@@ -449,7 +449,7 @@ export const CATALOGO: Ficha[] = [
   { id: "deja-de-ser-tu", titulo: "Deja de ser tú", autor: "Joe Dispenza", ano: 2012, categoria: "Salud", estado: "escrito" },
   { id: "poder-metabolismo", titulo: "El poder del metabolismo", autor: "Frank Suárez", ano: 2006, categoria: "Salud", estado: "escrito" },
 
-  { id: "entre-dos-reinos", titulo: "Entre dos reinos", autor: "Suleika Jaouad", ano: 2021, categoria: "Salud", estado: "pendiente" },
+  { id: "entre-dos-reinos", titulo: "Entre dos reinos", autor: "Suleika Jaouad", ano: 2021, categoria: "Salud", estado: "escrito" },
   { id: "tal-como-eres", titulo: "Tal como eres", autor: "Emily Nagoski", ano: 2015, categoria: "Salud", estado: "escrito" },
   { id: "magia-orden", titulo: "La magia del orden", autor: "Marie Kondo", ano: 2011, categoria: "Salud", estado: "escrito" },
   { id: "cuerpo-4-horas", titulo: "El cuerpo perfecto en 4 horas", autor: "Tim Ferriss", ano: 2010, categoria: "Salud", estado: "escrito" },

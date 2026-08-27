@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "entre-dos-reinos":
+    "Le diagnosticaron leucemia a los veintidós años, recién salida de la universidad. El libro no va de eso: va del día en que le dijeron que estaba curada y descubrió que nadie la había preparado para después.",
+
   "teoria-color":
     "Recorta dos cuadraditos del mismo gris y pon uno sobre naranja y otro sobre azul: se ven distintos, y seguirán viéndose distintos aunque sepas que son idénticos. De ahí sale todo lo demás.",
 
