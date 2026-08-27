@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "historia-mundo-objetos":
+    "Salió de cien programas de radio de quince minutos, sin imagen: había que describir cada cosa hasta que el oyente la viera. Van de un canto tallado de hace dos millones de años a una lámpara solar de 2010.",
+
   "primera-guerra-keegan":
     "Keegan abre diciendo que fue una guerra trágica e innecesaria, y termina reconociendo que su origen sigue siendo un misterio. Entre medias explica cómo un continente próspero y conectado se rompió en cinco semanas.",
 

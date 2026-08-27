@@ -110780,7 +110780,301 @@ const PRIMERA_GUERRA_KEEGAN: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La historia del mundo en cien objetos, de Neil MacGregor (2010),
+   en ocho páginas.
+
+   Historia, tercera persona, y cada página con su afirmación: la trampa de la
+   categoría es la crónica.
+
+   La séptima página es la que el libro rodea —por qué están todos esos objetos
+   en Londres— y va DENTRO. Y la conclusión lleva el marcador de 2023, que es
+   el dato que más ha cambiado esta conversación desde que el libro salió.
+   -------------------------------------------------------------------------- */
+
+const HISTORIA_MUNDO_OBJETOS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "MacGregor sostiene que una historia contada con objetos es más justa que una contada con documentos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Neil MacGregor dirigió el Museo Británico entre 2002 y 2015. En 2010 hizo con la BBC una serie de cien programas de radio de quince minutos, uno por objeto, todos sacados de las salas y los almacenes de su museo, y de ahí salió este libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido va en orden cronológico y abarca dos millones de años. Empieza con un canto de piedra tallado encontrado en la garganta de Olduvai, en Tanzania, y termina con una lámpara solar con cargador fabricada en China en 2010. En medio, cien cosas: una momia, una piedra escrita, unas fichas de ajedrez, un cuenco, una tarjeta de crédito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tesis está en el prólogo y es lo que distingue este libro de un catálogo. Una historia escrita con documentos solo puede contar a las sociedades que escribieron y cuyos escritos se conservaron, que son una minoría diminuta; los objetos, en cambio, los dejaron todos. Contar el pasado con cosas, dice, reparte mejor la palabra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene saber cómo se hizo, porque la restricción explica el resultado. Eran quince minutos de radio por objeto, sin imagen: había que describir una cosa con palabras hasta que el oyente la viera. Esa limitación obligó a mirar cada pieza con un detalle que un catálogo ilustrado nunca exige, y es lo que hace que el libro se lea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue es cómo funciona ese método, qué se le puede sacar a una piedra sin inscripciones, qué demuestran los objetos que viajaron, por qué la piedra de Rosetta es tres veces política, y la pregunta que el libro rodea sin contestar: por qué están casi todos en Londres.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Solo unas pocas sociedades escribieron y menos aún conservaron lo escrito. Objetos dejaron todas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un objeto se interroga dos veces: por quien lo hizo y por dónde estuvo",
+      },
+      {
+        b: "texto",
+        texto:
+          "El método del libro es constante y se puede robar entero. Cada objeto se somete a dos preguntas distintas, y la segunda es la que casi nadie hace.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es qué dice de quien lo fabricó: con qué materiales contaba, qué técnicas dominaba, cuánto tiempo de trabajo invirtió y para qué lo quería. Un objeto que exigió mil horas de un artesano especializado demuestra que había alguien capaz de mantener a ese artesano mientras trabajaba, y eso ya dice cómo estaba organizada aquella sociedad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es por dónde ha pasado. Un objeto no se queda quieto: se compra, se hereda, se roba, se reutiliza, se rompe y se repara, y cada uno de esos pasos deja marcas. MacGregor insiste en que la vida posterior de una cosa suele contar más que su fabricación, porque revela conexiones entre sitios que ningún texto menciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "MacGregor añade una tercera pregunta que aparece menos y da los mejores capítulos: qué le falta al objeto. Una estatua sin manos, una vasija reparada con grapas, una moneda recortada por los bordes. Lo que se perdió, se arregló o se robó de una cosa cuenta la parte de su historia que su fabricante no controlaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la ventaja del método frente a los documentos: un objeto no puede mentir sobre sí mismo del modo en que miente una crónica. Una inscripción real puede exagerar una victoria; el análisis del bronce con que está hecha dirá de qué mina salió el estaño, y esa información no la controlaba nadie.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una crónica puede exagerar una victoria. El metal con que está hecha la estatua dice de qué mina salió, y eso no lo controlaba nadie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El primer objeto del libro demuestra que la técnica es más vieja que nuestra especie",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro abre con un canto de piedra de unos dos millones de años, encontrado en la garganta de Olduvai, en Tanzania. Es un guijarro al que se le han arrancado varias lascas por un lado hasta dejar un filo. No parece nada, y MacGregor lo elige por eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que demuestra es una serie de cosas encadenadas. Que alguien vio dentro de una piedra un objeto que todavía no existía. Que supo qué ángulo y qué fuerza hacían saltar la lasca en la dirección buscada, lo que exige haberlo aprendido de otro. Y que lo hizo antes de que existiera nuestra especie, porque quien lo talló no era un <em>Homo sapiens</em>.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica de aquel filo es lo que le interesa al libro: con él se podía abrir la piel de un animal muerto y romper huesos para llegar al tuétano, que es la comida más rica en calorías y grasa de la sabana y a la que ningún carnívoro sin herramientas llega. Cambia la dieta, y una dieta con más energía sostiene un cerebro mayor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle que MacGregor subraya y es el que convierte el objeto en argumento: en Olduvai aparecen miles de estas piezas hechas de la misma manera durante cientos de miles de años. No es una idea que se le ocurrió a alguien, es una técnica que se transmitió intacta durante un tiempo inimaginable. Antes de la palabra escrita, y antes de nosotros, ya había enseñanza.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que la misma técnica se repita durante cientos de miles de años no demuestra inteligencia: demuestra que alguien la estaba enseñando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los objetos aparecidos fuera de sitio dibujan un mapa que los textos no dan",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte más convincente del libro es la que trata de cosas encontradas donde no deberían estar, porque son la prueba física de que el mundo estuvo conectado mucho antes de lo que suele suponerse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El primer caso es un pimentero de plata con forma de dama romana, parte de un tesoro enterrado en Hoxne, en el este de Inglaterra, en el siglo IV, y encontrado en 1992. El objeto es romano; lo que contenía, no. La pimienta solo crecía en la costa suroeste de la India, así que aquel salero demuestra una cadena comercial regular entre el subcontinente indio y una casa de la Britania romana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo es todavía más claro. En la playa de Kilwa, en la costa de Tanzania, se recogen a puñados fragmentos de cerámica: hay loza islámica del golfo Pérsico y hay porcelana china. No llegaron por casualidad ni de uno en uno; llegaron durante siglos, con los monzones, en un tráfico regular por el océano Índico del que en Europa no se sabía nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "MacGregor saca de ahí una corrección al mapa mental que casi todo el mundo tiene. La idea de que el mundo se conectó cuando los europeos empezaron a navegar es un efecto óptico de quién escribió la historia: el Índico llevaba mil años funcionando como una autopista, y esos trozos de cerámica en una playa lo prueban sin necesidad de ningún documento.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que algo estuviera desconectado de Europa no significa que estuviera desconectado del mundo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La piedra de Rosetta es política tres veces, y solo una tiene que ver con Egipto",
+      },
+      {
+        b: "texto",
+        texto:
+          "El objeto más visitado del Museo Británico es un trozo de granito oscuro con un texto repetido en tres escrituras, y MacGregor lo usa para enseñar que un objeto acumula capas de poder.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera capa es lo que dice. Es un decreto del año 196 antes de Cristo por el que los sacerdotes de Menfis confirman el culto al joven Ptolomeo V. O sea, propaganda: una dinastía griega que gobernaba Egipto necesitaba la bendición del clero local y la hizo grabar en piedra, en griego, en demótico y en jeroglíficos, para que ninguna de las tres poblaciones pudiera alegar que no se había enterado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es cómo llegó a Londres. La encontraron soldados franceses en 1799, durante la campaña de Napoleón en Egipto; cuando los británicos derrotaron a los franceses, el tratado de 1801 les entregó las antigüedades recogidas, y en la propia piedra hay dos inscripciones pintadas que lo dicen: capturada en Egipto por el ejército británico, regalo del rey Jorge III.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la tercera es lo que se hizo con ella. Como el griego se leía, sirvió para descifrar los jeroglíficos, que llevaban catorce siglos mudos; lo consiguió Jean-François Champollion en 1822 apoyándose en trabajos de Thomas Young. Un decreto menor de una dinastía en decadencia devolvió la voz a tres mil años de historia egipcia. Los objetos, dice MacGregor, no controlan para qué se les acaba usando.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ningún objeto controla para qué acabará sirviendo, y muchas veces eso es lo más importante que le pasa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El objeto más reciente del libro es un trono hecho con fusiles desactivados",
+      },
+      {
+        b: "texto",
+        texto:
+          "El último tramo del libro incluye objetos de nuestro tiempo, y el mejor argumento a favor de esa decisión es una silla. La hizo en 2001 un artista mozambiqueño, Cristóvão Canhavato, con piezas de armas de fuego desactivadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás hay un programa concreto. Después de la guerra civil de Mozambique, terminada en 1992, quedaron millones de armas repartidas por el país, y un proyecto ofrecía cambiarlas por herramientas, máquinas de coser o bicicletas. Las armas entregadas se cortaban en pedazos y una parte se daba a artistas para que hicieran algo con ellas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El respaldo y el asiento están hechos con culatas y cañones de fusiles de asalto, y se reconocen sin esfuerzo. MacGregor señala que el trono es en sí mismo un objeto de poder desde hace milenios, y que aquí está construido con lo que lo sostenía por la fuerza. La forma dice lo mismo que el material.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el objeto tiene una historia posterior que confirma el método del propio libro: el trono se ha expuesto por toda Gran Bretaña, incluidos hospitales y prisiones, y su autor viajó con él. Un objeto que sigue moviéndose y recogiendo significados es exactamente lo que MacGregor describe en el prólogo, sucediendo delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón de que esté en el libro es metodológica y cierra el argumento del principio. Si un objeto vale como documento histórico, entonces los de ahora también lo son, y dentro de doscientos años una silla hecha con fusiles contará de aquella guerra y de aquella paz más que la mayoría de los tratados que se firmaron.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un objeto hecho hoy ya es un documento. La diferencia con los del museo es solo cuánto tiempo lleva ahí.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro rodea la única pregunta que se le hace siempre: por qué están todos en Londres",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un hecho que atraviesa las cien entradas y que el libro menciona sin detenerse: casi todos esos objetos están en un museo de Londres porque Gran Bretaña los sacó de donde estaban, y en varios casos por la fuerza.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los ejemplos están dentro del propio libro. Las placas de bronce de Benín, hoy en Nigeria, se llevaron en 1897 durante una expedición de castigo británica que arrasó la ciudad. La estatua Hoa Hakananai'a salió de la isla de Pascua en 1868 en un buque de la marina británica. Las esculturas del Partenón llevan doscientos años reclamadas por Grecia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La posición de MacGregor es la del museo universal, y la argumenta: en un solo edificio se pueden poner las cosas unas al lado de otras y contar una historia común, cosa que no se puede hacer si cada objeto está en su país. Firmó en 2002 una declaración internacional de grandes museos en ese sentido, muy criticada porque llegó justo cuando arreciaban las reclamaciones y se leyó como una defensa preventiva.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hace floja esa parte no es la postura, es el desajuste con la tesis del libro. Si el argumento es que los objetos reparten la palabra entre quienes no escribieron, cuesta sostenerlo desde una colección formada precisamente por la potencia que escribía. El libro lo nota y no lo resuelve: es la conversación que estos años ha cambiado de sitio, no la que él tenía delante.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quién guarda un objeto forma parte de la historia de ese objeto, y suele ser el capítulo que no se cuenta en la vitrina.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Cien objetos del Museo Británico en orden cronológico, de un canto tallado de hace dos millones de años a una lámpara solar de 2010, con una tesis detrás: que las sociedades que no escribieron o cuyos escritos se perdieron solo pueden hablar por sus cosas, y que por eso una historia contada con objetos reparte mejor la palabra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un método que se puede usar en cualquier museo y en cualquier casa: preguntarle a un objeto qué exigió fabricarlo y por dónde ha pasado después. Y unas cuantas correcciones al mapa mental corriente, la mejor de ellas la del océano Índico: los trozos de porcelana china en una playa de Tanzania demuestran una red comercial de siglos sobre la que en Europa no se escribió una línea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La selección no es del mundo, es del Museo Británico: son cien objetos que ese museo tiene, y hay continentes y periodos que salen delgados no por su importancia sino por lo que hay en el almacén. Y el libro rodea su propia contradicción: defiende repartir la palabra desde una colección reunida por la potencia que la monopolizaba, y despacha en unos párrafos la cuestión de las devoluciones amparándose en la idea del museo universal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después, que es mucho y va justo por ahí. En 2018, el informe encargado por el gobierno francés a Felwine Sarr y Bénédicte Savoy recomendó devolver las piezas africanas tomadas por la fuerza; en 2022, Alemania traspasó a Nigeria la propiedad de más de mil bronces de Benín y un museo londinense devolvió los suyos. El Museo Británico no ha devuelto ni los de Benín ni las esculturas del Partenón, y su argumento principal para conservarlos ha sido siempre la custodia. En 2023 se supo que de sus propios almacenes habían desaparecido, por robo continuado durante años, alrededor de mil quinientas piezas; su director dimitió en agosto. Nada de eso está en el libro, y es hoy la primera cosa que se piensa al leerlo.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "historia-mundo-objetos": HISTORIA_MUNDO_OBJETOS,
   "primera-guerra-keegan": PRIMERA_GUERRA_KEEGAN,
   "mundo-como-voluntad": MUNDO_COMO_VOLUNTAD,
   "informacion-gleick": INFORMACION_GLEICK,

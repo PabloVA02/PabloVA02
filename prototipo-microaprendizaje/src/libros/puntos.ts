@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "historia-mundo-objetos": [
+    "las tres preguntas que se le hacen a un objeto para que hable",
+    "por qué el metal de una estatua miente menos que la crónica de su rey",
+    "qué demuestra que una técnica se repita durante cientos de miles de años",
+    "cómo unos trozos de cerámica en una playa deshacen un mapa mental",
+    "por qué quién guarda un objeto forma parte de su historia",
+  ],
+
   "primera-guerra-keegan": [
     "por qué un plan que solo funciona yendo primero convierte una crisis en carrera",
     "qué pasa cuando las máquinas van más deprisa que las decisiones",

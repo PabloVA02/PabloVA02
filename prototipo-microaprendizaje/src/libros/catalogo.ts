@@ -89,7 +89,7 @@ export const CATALOGO: Ficha[] = [
   { id: "verano-1913", titulo: "1913: el verano del siglo", autor: "Florian Illies", ano: 2012, categoria: "Historia", estado: "pendiente" },
   { id: "hambruna-mao", titulo: "La gran hambruna en la China de Mao", autor: "Frank Dikötter", ano: 2010, categoria: "Historia", estado: "escrito" },
   { id: "primera-guerra-keegan", titulo: "La primera guerra mundial", autor: "John Keegan", ano: 1998, categoria: "Historia", estado: "escrito" },
-  { id: "historia-mundo-objetos", titulo: "La historia del mundo en cien objetos", autor: "Neil MacGregor", ano: 2010, categoria: "Historia", estado: "pendiente" },
+  { id: "historia-mundo-objetos", titulo: "La historia del mundo en cien objetos", autor: "Neil MacGregor", ano: 2010, categoria: "Historia", estado: "escrito" },
   { id: "verano-1927", titulo: "El verano de 1927", autor: "Bill Bryson", ano: 2013, categoria: "Historia", estado: "pendiente" },
   { id: "gulag", titulo: "Gulag", autor: "Anne Applebaum", ano: 2003, categoria: "Historia", estado: "escrito" },
   { id: "prision-americana", titulo: "Prisión americana", autor: "Shane Bauer", ano: 2018, categoria: "Historia", estado: "pendiente" },
