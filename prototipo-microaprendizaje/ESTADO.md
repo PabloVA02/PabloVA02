@@ -315,14 +315,19 @@ Tres sitios enseñan lo mismo y no pueden separarse:
 - La tarjeta del inicio, que lista las marcadas.
 - La pantalla de «Gestionar», que es donde se cambian.
 
-**Los nombres no son los de Headway y es a propósito.** Pablo lo pidió así:
-«alguna más si se te ocurre, y llamadas de diferentes formas algunas, para que
-no sea un plagio total». De sus doce, tres se quedan igual porque son frases
-corrientes en castellano —«Confiar más en ti mismo», «Tener relaciones sanas»,
-«Mejorar tu vida sexual»—, las demás están dichas de otra manera, y hay cuatro
-que no existen en su lista: «Buscar un sentido», «Entender el mundo de hoy»,
-«Leer lo que nunca leíste» y «Saber mirar un cuadro», que son los estantes que
-nosotros tenemos y ellos no.
+**Los nombres son los de Headway, y esto YA SE HIZO AL REVÉS UNA VEZ.** Pablo
+pidió primero que estuvieran «llamadas de diferentes formas algunas, para que
+no sea un plagio total», se rebautizaron nueve, y al verlas dijo: «na, pon el
+nombre que tienen puesto ellos, que me gusta más la verdad, deja eso». Manda lo
+segundo y está decidido: si a alguien le vuelve a parecer que habría que
+reescribirlos, ya se probó y se volvió atrás.
+
+Dos matices que sí siguen en pie. En su app en español una pone «Grow in
+faith», en inglés, que es un descuido suyo: aquí va traducida, «Crecer en tu
+fe». Y las cuatro últimas no están en su lista y son nuestras, porque nuestro
+catálogo tiene estantes que el suyo no tiene: «Rendir en el deporte»,
+«Entender el mundo de hoy», «Leer lo que nunca leíste» y «Saber mirar un
+cuadro».
 
 Los dieciséis dibujos de `Temas.tsx` **siguen siendo provisionales**: planos, a
 dos tintas —rojo #fa5b4a y oro #f8bb31—, en la familia de los que ya mandó

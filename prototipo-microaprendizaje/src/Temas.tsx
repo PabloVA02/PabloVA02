@@ -46,19 +46,25 @@ import { spring, springSoft } from "./motion";
    marca a lo que el resto de la app entiende. Una meta puede tirar de tres
    estantes, así que marcar cinco metas ordena mejor que marcar cinco temas.
 
-   Y LOS NOMBRES NO SON LOS SUYOS, a propósito. Pablo lo pidió así: «alguna
-   más si se te ocurre, y llamadas de diferentes formas algunas, para que no
-   sea un plagio total». De las doce suyas, cinco se quedan con el nombre que
-   tienen porque son frases corrientes en castellano que no ha inventado nadie
-   —«Confiar más en ti mismo», «Tener relaciones sanas», «Mejorar tu vida
-   sexual»—; las otras están dichas de otra manera. Y hay cuatro que no
-   existen en su lista y aquí sí, porque nuestro catálogo tiene estantes que
-   el suyo no tiene: la literatura, el arte, la historia y el deporte.
+   LOS NOMBRES SON LOS SUYOS, y esto ya se hizo al revés una vez. El 27 de
+   agosto Pablo pidió primero que estuvieran «llamadas de diferentes formas
+   algunas, para que no sea un plagio total», se rebautizaron nueve, y al
+   verlas dijo: «na, pon el nombre que tienen puesto ellos, que me gusta más
+   la verdad, deja eso». Manda lo segundo. **Si a alguien le vuelve a parecer
+   que esto habría que reescribirlo, ya está decidido y está decidido así.**
 
-   Una de las suyas se cae y conviene decir por qué: «Grow in faith» está sin
-   traducir en su propia app en español. Lo que hay debajo —religión y
-   sentido— se recoge en «Buscar un sentido», con Filosofía y Literatura
-   detrás, que es de lo que tenemos libros.
+   Y son nombres de tres palabras que describen una intención corriente
+   —«Equilibrar tu vida», «Alcanzar la felicidad»—, no textos con autor: lo
+   que sí es de Headway, y no se copia, es el resumen de cada libro.
+
+   Las CUATRO ÚLTIMAS no están en su lista y son nuestras, porque nuestro
+   catálogo tiene estantes que el suyo no tiene: el deporte, la literatura,
+   la historia y el arte.
+
+   Y una de las suyas va traducida, no copiada: en su app en español pone
+   «Grow in faith», en inglés, que es un descuido suyo. Aquí es «Crecer en tu
+   fe», que es lo que quiere decir, con Filosofía y Literatura detrás, que es
+   de lo que tenemos libros.
    -------------------------------------------------------------------------- */
 
 export type Meta = {
@@ -68,19 +74,19 @@ export type Meta = {
 };
 
 export const METAS: readonly Meta[] = [
-  { nombre: "Rendir más cada día", categorias: ["Psicología", "Economía"] },
-  { nombre: "Crecer en el trabajo", categorias: ["Economía", "Psicología"] },
-  { nombre: "Hacer crecer tu dinero", categorias: ["Economía"] },
-  { nombre: "Pensar con más claridad", categorias: ["Filosofía", "Ciencia", "Psicología"] },
+  { nombre: "Aumentar tu productividad", categorias: ["Psicología", "Economía"] },
+  { nombre: "Triunfar en tu vida profesional", categorias: ["Economía", "Psicología"] },
+  { nombre: "Llegar a ser rico", categorias: ["Economía"] },
+  { nombre: "Potenciar tu inteligencia", categorias: ["Filosofía", "Ciencia", "Psicología"] },
   { nombre: "Confiar más en ti mismo", categorias: ["Psicología"] },
-  { nombre: "Poner orden en tu vida", categorias: ["Psicología", "Salud"] },
-  { nombre: "Vivir con más calma", categorias: ["Filosofía", "Psicología", "Salud"] },
+  { nombre: "Equilibrar tu vida", categorias: ["Psicología", "Salud"] },
+  { nombre: "Alcanzar la felicidad", categorias: ["Filosofía", "Psicología", "Salud"] },
   { nombre: "Tener relaciones sanas", categorias: ["Psicología"] },
   { nombre: "Mejorar tu vida sexual", categorias: ["Psicología", "Salud"] },
-  { nombre: "Criar mejor a tus hijos", categorias: ["Psicología", "Salud"] },
-  { nombre: "Cuidar el cuerpo", categorias: ["Salud", "Deportes"] },
+  { nombre: "Cómo ser mejores padres", categorias: ["Psicología", "Salud"] },
+  { nombre: "Disfrutar de una vida sana", categorias: ["Salud", "Deportes"] },
   { nombre: "Rendir en el deporte", categorias: ["Deportes", "Salud"] },
-  { nombre: "Buscar un sentido", categorias: ["Filosofía", "Literatura"] },
+  { nombre: "Crecer en tu fe", categorias: ["Filosofía", "Literatura"] },
   { nombre: "Entender el mundo de hoy", categorias: ["Historia", "Economía", "Ciencia"] },
   { nombre: "Leer lo que nunca leíste", categorias: ["Literatura"] },
   { nombre: "Saber mirar un cuadro", categorias: ["Arte", "Historia"] },
@@ -130,7 +136,7 @@ function Marco({ children }: { children: React.ReactNode }) {
 
 const DIBUJOS: Record<string, () => React.ReactElement> = {
   /* Un cronómetro: la esfera y las agujas. */
-  "Rendir más cada día": () => (
+  "Aumentar tu productividad": () => (
     <Marco>
       <circle cx="24" cy="28" r="16" fill={O} />
       <rect x="19" y="2" width="10" height="5" rx="2.5" fill={R} />
@@ -139,7 +145,7 @@ const DIBUJOS: Record<string, () => React.ReactElement> = {
     </Marco>
   ),
   /* Un maletín. */
-  "Crecer en el trabajo": () => (
+  "Triunfar en tu vida profesional": () => (
     <Marco>
       <rect x="5" y="15" width="38" height="25" rx="4" fill={R} />
       <path d="M18 15v-3.6A3.4 3.4 0 0 1 21.4 8h5.2A3.4 3.4 0 0 1 30 11.4V15" fill="none" stroke={O} strokeWidth="3.4" />
@@ -148,7 +154,7 @@ const DIBUJOS: Record<string, () => React.ReactElement> = {
     </Marco>
   ),
   /* Un billete con su moneda. */
-  "Hacer crecer tu dinero": () => (
+  "Llegar a ser rico": () => (
     <Marco>
       <rect x="4" y="13" width="33" height="20" rx="3" fill={R} />
       <circle cx="20.5" cy="23" r="5.6" fill={O} />
@@ -157,7 +163,7 @@ const DIBUJOS: Record<string, () => React.ReactElement> = {
     </Marco>
   ),
   /* Una bombilla. */
-  "Pensar con más claridad": () => (
+  "Potenciar tu inteligencia": () => (
     <Marco>
       <path d="M24 4c8 0 14 6 14 13.6 0 5-2.6 7.8-4.8 10.4-1.6 2-2.2 3-2.2 5.4H17c0-2.4-.6-3.4-2.2-5.4C12.6 25.4 10 22.6 10 17.6 10 10 16 4 24 4Z" fill={O} />
       <rect x="16.6" y="36" width="14.8" height="4.2" rx="2.1" fill={R} />
@@ -172,7 +178,7 @@ const DIBUJOS: Record<string, () => React.ReactElement> = {
     </Marco>
   ),
   /* Una balanza. */
-  "Poner orden en tu vida": () => (
+  "Equilibrar tu vida": () => (
     <Marco>
       <rect x="22" y="7" width="4" height="32" rx="2" fill={R} />
       <rect x="13" y="38" width="22" height="5" rx="2.5" fill={R} />
@@ -182,7 +188,7 @@ const DIBUJOS: Record<string, () => React.ReactElement> = {
     </Marco>
   ),
   /* Una taza con su vapor. */
-  "Vivir con más calma": () => (
+  "Alcanzar la felicidad": () => (
     <Marco>
       <rect x="7" y="19" width="25" height="19" rx="4" fill={R} />
       <path d="M32 23h3.6a5.2 5.2 0 0 1 0 10.4H32" fill="none" stroke={O} strokeWidth="4" />
@@ -205,7 +211,7 @@ const DIBUJOS: Record<string, () => React.ReactElement> = {
     </Marco>
   ),
   /* Un adulto y un niño. */
-  "Criar mejor a tus hijos": () => (
+  "Cómo ser mejores padres": () => (
     <Marco>
       <circle cx="16" cy="13" r="7" fill={R} />
       <path d="M4 43c0-7.4 5.4-12.6 12-12.6S28 35.6 28 43Z" fill={R} />
@@ -214,7 +220,7 @@ const DIBUJOS: Record<string, () => React.ReactElement> = {
     </Marco>
   ),
   /* Una manzana. */
-  "Cuidar el cuerpo": () => (
+  "Disfrutar de una vida sana": () => (
     <Marco>
       <path d="M24 15c4-3.2 10.4-3 13.4 1.2 3.4 4.8 1.8 13.4-2.2 20-2.6 4.4-5.6 7.6-8 7.6-1.6 0-2-.8-3.2-.8s-1.6.8-3.2.8c-2.4 0-5.4-3.2-8-7.6-4-6.6-5.6-15.2-2.2-20C13.6 12 20 11.8 24 15Z" fill={R} />
       <path d="M24 14V7" fill="none" stroke={O} strokeWidth="3.2" strokeLinecap="round" />
@@ -231,7 +237,7 @@ const DIBUJOS: Record<string, () => React.ReactElement> = {
     </Marco>
   ),
   /* Una brújula. */
-  "Buscar un sentido": () => (
+  "Crecer en tu fe": () => (
     <Marco>
       <circle cx="24" cy="24" r="18" fill={R} />
       <path d="M35 13 27.5 27.5 13 35l7.5-14.5Z" fill={O} />
