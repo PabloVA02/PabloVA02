@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { spring, springPop } from "./motion";
 import { GlyphAuriculares, GlyphGuardar, GlyphLeer, GlyphReloj, GlyphVisto } from "./glyphs";
 import { LIBROS_RESUMEN as LIBROS } from "./libros/puente";
+import { TONO_CUBIERTA } from "./libros/tonos";
 import type { Libro } from "./Biblioteca";
 import { PAGINAS } from "./libros/paginas";
 import { PORTADAS_LIBRO } from "./libros/portadas";
@@ -148,7 +149,17 @@ export function LibroDelDia({
     <motion.section
       className="hoy"
       data-libre={libre ? "true" : "false"}
-      style={{ ["--acento" as string]: libro.color }}
+      /* Dos colores y no uno. `--acento` es el de la CATEGORÍA y sigue
+         mandando en la ceja y en los detalles; `--tono` es el de la CUBIERTA
+         de este libro, sacado del dibujo, y es el del botón de escuchar. La
+         diferencia importa porque detrás del botón está esa misma cubierta
+         ampliada y borrosa: con el color de la categoría, un libro de Historia
+         con portada azul marino sacaba un botón salmón sobre un halo azul.
+         Ver `scripts/tonos-cubiertas.mjs`. */
+      style={{
+        ["--acento" as string]: libro.color,
+        ["--tono" as string]: TONO_CUBIERTA[libro.id] ?? libro.color,
+      }}
       initial={{ opacity: 0, y: 18 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ ...spring, delay: 0.08 }}

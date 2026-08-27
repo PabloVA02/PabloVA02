@@ -9130,10 +9130,23 @@ button {
    se gana pintándolo todo del mismo azul.
 
    El azul se queda donde no compite con ninguna cubierta: el aviso de
-   suscripción del perfil, el de invitar y el de soporte. */
+   suscripción del perfil, el de invitar y el de soporte.
+
+   Y DESDE EL 27 DE AGOSTO, EL COLOR ES EL DE LA CUBIERTA Y NO EL DE LA
+   CATEGORÍA. Eran nueve colores para cuatrocientos libros, así que todos los
+   de Historia salían en barro; y como detrás del botón está esa misma cubierta
+   ampliada y desenfocada, «Sobre la tiranía» —que es azul marino— sacaba un
+   botón salmón sobre un halo azul. Pablo: «iba cambiando según el libro y
+   estaba súper bonito; ahora sería pues azul».
+
+   `--tono` sale de mirarle los píxeles a cada cubierta, con el tono del dibujo
+   y la saturación y la luminosidad fijadas para que el texto casi negro se lea
+   venga de donde venga. Está en `scripts/tonos-cubiertas.mjs`, y el color de la
+   categoría se queda de respaldo para las cubiertas en blanco y negro y para
+   los libros que aún no tienen dibujo. */
 .hoy-escuchar {
   flex: 1;
-  background: color-mix(in srgb, var(--acento, #c2704f) 84%, #f2ece1);
+  background: var(--tono, color-mix(in srgb, var(--acento, #c2704f) 84%, #f2ece1));
   color: #17151c;
 }
 /* «Leer gratis» son siete caracteres más que «Leer» y en el 36 % se salía.
