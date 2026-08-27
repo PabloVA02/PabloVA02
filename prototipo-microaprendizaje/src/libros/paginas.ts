@@ -112254,7 +112254,297 @@ const BAUHAUS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El coach de Silicon Valley, de Schmidt, Rosenberg y Eagle (2019),
+   en ocho páginas.
+
+   Libro práctico, registro de tú. Y es de Economía, así que manda el apartado
+   4 bis: ningún argumento sin una persona con nombre dentro. Aquí es fácil,
+   porque el libro entero son personas.
+
+   La séptima página es lo que no se puede copiar de esto, y va DENTRO: casi
+   todas sus prácticas dependen de una autoridad que el lector no tiene.
+   -------------------------------------------------------------------------- */
+
+const COACH_SILICON_VALLEY: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El hombre que asesoró a Steve Jobs y a los fundadores de Google venía de perder partidos de fútbol americano",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bill Campbell fue entrenador de fútbol americano en la Universidad de Columbia, donde él mismo había jugado. Estuvo seis temporadas al frente del equipo y ganó doce partidos. Lo dejó a los treinta y nueve años, sin haber trabajado nunca en una empresa, y se metió en publicidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que vino después es difícil de creer si no se conocen los nombres. De la publicidad pasó a Kodak, de ahí a Apple como vicepresidente de marketing, luego a dirigir dos empresas —una de ellas, GO Corporation, fracasó— y por último a ser director general de Intuit, la compañía de programas de contabilidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y desde mediados de los noventa se dedicó a otra cosa: asesorar en persona, semana a semana, a los que dirigían las empresas de su alrededor. Steve Jobs cuando volvió a Apple. Larry Page y Sergey Brin. Eric Schmidt. Sheryl Sandberg. Los de Twitter, los de eBay, los de Amazon. No cobraba, y en Google se negó a aceptar acciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El título original habla de un billón de dólares, que es la suma del valor de las empresas a las que asesoró. Conviene tomarlo como lo que es —una manera de titular— y no como una medida: nadie puede separar cuánto de Apple o de Google se debe a un asesor. Lo que sí se puede comprobar es qué hacía y cómo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro lo escribieron en 2019 tres personas a las que asesoró, tres años después de su muerte, a partir de más de ochenta entrevistas. Lo que sigue son sus cinco reglas de trabajo, y después lo que de todo eso se puede usar sin ser Bill Campbell.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que alguien haya perdido en su primer oficio no dice nada de lo que sabe hacer. Puede ser justo lo que le enseñó a mirar el equipo y no el marcador.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Su primera regla es que cuando hay un problema no se trabaja el problema, se trabaja el equipo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la instrucción que más repetía y la que más desconcierta al oírla. Cuando alguien llegaba con un asunto —una decisión técnica atascada, un producto que no salía, un cliente que se iba—, Campbell no preguntaba por el asunto. Preguntaba quién estaba trabajando en él y cómo se llevaban entre ellos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento era de eficiencia y no de buenismo. Un problema concreto lo resuelve la gente que sabe de eso, y tú, que diriges, probablemente sabes menos que ellos. Meterte a resolverlo tú añade una opinión mediocre a un asunto que ya tenía dueño, y de paso les quitas la responsabilidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En cambio, hay un problema que solo puede resolver quien dirige: que las personas adecuadas estén en la sala, que se hablen, y que la que sabe más de un asunto no sea la que menos habla. Eso no lo arregla nadie desde abajo, y si está roto, todos los problemas concretos vuelven una y otra vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eric Schmidt cuenta la versión práctica: llegaba a las reuniones con Campbell llevando una lista de decisiones y salía con una lista de conversaciones que tenía que tener. La pregunta que le devolvía casi siempre era la misma: ¿has hablado ya con la persona que discrepa? Y la trampa que señalaba es que casi nadie contesta que no; se contesta que sí, que se comentó en una reunión, que está en un correo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El problema concreto tiene dueño. El de que las personas adecuadas se hablen solo lo puedes resolver tú.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Empezar las reuniones por lo que no es trabajo no es cortesía: es recoger información",
+      },
+      {
+        b: "texto",
+        texto:
+          "Campbell abría todas sus reuniones, incluidas las de consejo, preguntando por el fin de semana, por el viaje, por la familia. Lo hacía siempre, con todo el mundo, y el libro insiste en que no era una costumbre simpática sino un procedimiento con dos funciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es que una persona que acaba de contar algo suyo entra en la conversación siguiente de otra manera: ya ha hablado, ya la han escuchado y ya no es solo un cargo. La segunda es que en esos cinco minutos se entera uno de las cosas que explican la mitad de lo que va a pasar después: quién no ha dormido, quién tiene a alguien enfermo, quién acaba de mudarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su versión más citada es la pregunta con la que empezaba: cómo está la familia. Y lo que la hacía funcionar es que se acordaba de la respuesta anterior. Preguntaba por el nombre del hijo, por el resultado de la operación, por el examen. En una organización grande, eso es lo que distingue una fórmula de una relación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una versión suya para cuando no hay tiempo, que es la que más se usa: la reunión no empieza por el orden del día, empieza por una vuelta rápida en la que cada uno dice algo que no es de trabajo. Dos minutos en total, y cambia quién habla después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El coste de la práctica es exactamente cinco minutos por reunión y su rendimiento es que la gente te cuenta los problemas antes de que sean graves. Campbell sostenía que las malas noticias que llegan tarde son casi siempre un problema de relación y casi nunca de proceso.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una mala noticia que te llega tarde casi nunca es un fallo de proceso: es que alguien no se atrevió a contártela antes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Ni consenso ni decisión a solas: el trabajo es sacar la mejor idea a la superficie",
+      },
+      {
+        b: "texto",
+        texto:
+          "Campbell rechazaba las dos maneras habituales de decidir en un equipo. El consenso, porque produce la opción con la que nadie está en contra, que casi nunca es la mejor y suele ser la más tibia. Y la decisión solitaria, porque el que manda tiene menos información de la que cree.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su método tenía dos tiempos separados y no se podían mezclar. Primero, asegurarse de que todas las ideas están sobre la mesa, incluidas las incómodas, lo que significa ir a buscar a quien no ha hablado y preguntarle directamente. Después, decidir, y decidir alguien, con nombre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La parte difícil es la primera y ahí es donde intervenía. Si en una discusión había una persona callada que sabía del asunto, Campbell la nombraba en voz alta y le pedía su opinión antes de que nadie cerrara nada. Su frase era que el trabajo del que dirige no es tener la mejor idea: es conseguir que la mejor idea aparezca, sea de quien sea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Jonathan Rosenberg cuenta la aplicación más concreta: cuando dos equipos de Google se peleaban por un asunto técnico, Campbell no opinaba del asunto. Preguntaba quién iba a decidir, y si la respuesta era «lo estamos hablando», ése era el problema y no el técnico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ponía una condición al final que es la que hace que el método funcione la segunda vez: una vez decidido, todos salen de la sala defendiendo la decisión, incluidos los que perdieron. Sin eso, la discusión abierta se convierte en un permiso para seguir discutiendo por los pasillos, que es peor que no haber preguntado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tu trabajo no es tener la mejor idea. Es conseguir que la mejor idea aparezca, y que después nadie siga la discusión por los pasillos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Al genio difícil se le aguanta, y hay una línea exacta donde se deja de aguantar",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica un capítulo a lo que llama el genio aberrante: la persona con un talento fuera de lo común y un trato imposible. Campbell tenía una posición clara y poco cómoda: se le aguanta, porque el rendimiento de alguien así puede ser varias veces el de otro, y porque las organizaciones que solo admiten gente fácil se quedan sin nadie extraordinario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pero puso un límite, y no es el que suele ponerse. No es que sea desagradable, ni que grite, ni que se salte las formas. La línea está en si daña la integridad del equipo: si miente, si se queda el mérito de otros, si trata a alguien de manera que el resto empieza a callarse, o si su presencia hace que la gente buena se vaya.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón de poner ahí la línea y no antes es aritmética. El talento excepcional produce mucho, pero un equipo en el que nadie se atreve a hablar produce cero durante años, y ese coste no aparece en ninguna evaluación individual. Cuando el genio empieza a costar silencio, ya no compensa por muy bueno que sea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que atraviesa el libro sin decirlo del todo es el de Steve Jobs, a quien Campbell asesoró hasta su muerte y con quien paseaba los domingos. El libro no lo trata como un santo ni como un monstruo: lo usa como el ejemplo de que hay gente a la que hay que sostener, y de que sostener a alguien no es lo mismo que darle la razón.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La línea no está en que alguien sea difícil. Está en el momento en que su presencia hace que los demás dejen de hablar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Su trabajo real no aparecía en ningún organigrama: consistía en rellenar los huecos entre personas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que Campbell hacía de verdad, y que el libro describe mejor que ninguna de sus reglas, era una labor sin nombre: hablar por separado con dos personas que no se entendían y conseguir que se hablaran entre ellas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El procedimiento era siempre el mismo. Escuchaba a uno, escuchaba al otro, y no llevaba recados: no le contaba a cada uno lo que había dicho el contrario. Lo que hacía era devolverle a cada uno la parte del otro que no había considerado, y después empujarlos a una conversación directa que ya empezaba con menos ruido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una condición que hacía posible el papel: no tenía nada que ganar. No cobraba, no tenía acciones de Google, no aspiraba a ningún puesto y no era jefe de ninguno de ellos. Por eso podían contarle cosas que no se contaban entre sí, y por eso lo que devolvía no se leía como una maniobra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro señala que ese hueco existe en cualquier organización y casi nunca tiene dueño. Los desacuerdos entre dos responsables que no se hablan no aparecen en ningún cuadro de mando, no los detecta ninguna encuesta y frenan proyectos enteros durante meses sin que nadie sepa nombrar el motivo. Lo que se ve desde fuera es otra cosa: que un proyecto va lento, que hay que revisar el proceso, que falta gente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Dos personas que no se hablan frenan un proyecto durante meses, y eso no sale en ningún informe.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi todo lo que hacía dependía de una autoridad que tú no tienes" },
+      {
+        b: "texto",
+        texto:
+          "Conviene decirlo antes de intentar aplicar nada, porque el libro no lo dice y es lo que separa una lectura útil de una frustrante: las prácticas de Campbell funcionaban porque las hacía Campbell, y su posición era única.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No cobraba, así que nadie podía sospechar de sus motivos. No dependía de nadie ni nadie dependía de él, así que sus consejos no eran órdenes disfrazadas. Tenía sesenta años y un historial que incluía haber dirigido empresas y haber fracasado en una, así que no había que demostrarle nada. Y tenía acceso directo a los que mandaban, sin pedir cita.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Quien lee el libro casi nunca está en esa posición. Preguntar a un jefe por su familia no produce el mismo efecto que si lo pregunta alguien de quien no dependes; llamar a dos compañeros para que se hablen, desde un puesto intermedio, se lee como meterse donde no te llaman. Las mismas palabras dichas desde otro sitio significan otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí se puede llevar cualquiera son las tres cosas del libro que no dependen del cargo: empezar preguntando algo que no sea trabajo y acordarse de la respuesta; ante un problema, mirar primero quién lo está tratando y cómo se llevan; y en una discusión, ir a buscar activamente al que no ha hablado. Eso funciona desde cualquier silla, y las tres se notan a la semana.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las mismas palabras, dichas desde otro sitio del organigrama, significan otra cosa. Conviene saber desde dónde estás hablando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro recoge cómo trabajaba Bill Campbell, un entrenador de fútbol americano reconvertido que asesoró durante dos décadas a los que dirigían Apple, Google, Intuit y media docena de empresas más, sin cobrar. Sus reglas: ante un problema, trabajar el equipo; abrir por lo que no es trabajo; sacar la mejor idea a la superficie y luego decidir; aguantar al genio difícil hasta que empieza a costar silencio; y rellenar los huecos entre personas que no se hablan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un cambio de objeto. Casi toda la literatura de dirección trata de decisiones, estrategias y procesos; ésta trata de las relaciones entre las personas que los ejecutan, y sostiene con ejemplos concretos que ahí es donde se pierde más tiempo. La idea de que una mala noticia que llega tarde es un problema de relación y no de proceso es de las que se pueden comprobar en cualquier trabajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y es un fallo grande. Lo escriben tres personas a las que él asesoró, sobre un amigo muerto, a partir de entrevistas a otros amigos, y no aparece una sola voz crítica: ni alguien a quien le cayera mal, ni un consejo suyo que saliera mal, ni una empresa que se hundiera con él dentro. Existe al menos una, GO Corporation, que dirigió y fracasó, y el libro la menciona de pasada. En un libro sobre alguien cuyo valor se anuncia en un billón de dólares, esa ausencia también es información.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay dos cosas más que no examina. La primera es la cuenta: atribuirle a un asesor el valor creado por Apple y Google es imposible de comprobar y deja fuera todo lo que asesoró y no salió; es el mismo sesgo de supervivencia que cualquier historia de éxito. La segunda es que su estilo —el abrazo, el vestuario, el lenguaje de entrenador de los años sesenta— no le sienta igual a todo el mundo, y en un libro publicado en 2019, con esa discusión en plena calle, la pregunta no se hace ni una vez.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "coach-silicon-valley": COACH_SILICON_VALLEY,
   bauhaus: BAUHAUS,
   "cerebro-femenino": CEREBRO_FEMENINO,
   "entre-dos-reinos": ENTRE_DOS_REINOS,

@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "coach-silicon-valley": "El manual de liderazgo de Silicon Valley",
   bauhaus: "1919-1933: reforma y vanguardia",
   "entre-dos-reinos": "Una memoria de la vida interrumpida",
   "teoria-color": "Estudio y utilización del color",

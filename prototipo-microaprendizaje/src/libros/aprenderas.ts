@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "coach-silicon-valley":
+    "Fue entrenador de fútbol americano en Columbia seis temporadas y ganó doce partidos. Lo dejó a los treinta y nueve sin haber trabajado nunca en una empresa, y acabó asesorando a los que dirigían Apple y Google sin cobrar.",
+
   bauhaus:
     "Catorce años, tres ciudades, tres directores y unos mil doscientos estudiantes en total. Menos gente de la que cabe en un instituto, y de ahí salió casi todo lo que hoy se entiende por diseño.",
 

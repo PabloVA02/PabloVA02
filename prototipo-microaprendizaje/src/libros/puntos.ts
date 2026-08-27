@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "coach-silicon-valley": [
+    "por qué ante un problema conviene mirar al equipo antes que al problema",
+    "qué información recoges en los cinco minutos anteriores a una reunión",
+    "cómo se decide sin consenso y sin decidir a solas",
+    "dónde está la línea exacta para dejar de aguantar a alguien brillante",
+    "qué parte de todo esto puedes hacer sin tener su autoridad",
+  ],
+
   bauhaus: [
     "por qué la palabra significa hoy lo contrario de lo que significó al principio",
     "qué pasa en una institución cuando le empiezan a contar el dinero",
