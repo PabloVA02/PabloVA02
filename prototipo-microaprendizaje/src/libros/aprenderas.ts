@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cerebro-femenino":
+    "Su cifra más famosa —veinte mil palabras al día frente a siete mil— no salía de ningún estudio. Un lingüista la rastreó hasta un libro sin fuente, y una medición con grabadoras encontró dieciséis mil para los dos sexos.",
+
   "entre-dos-reinos":
     "Le diagnosticaron leucemia a los veintidós años, recién salida de la universidad. El libro no va de eso: va del día en que le dijeron que estaba curada y descubrió que nadie la había preparado para después.",
 

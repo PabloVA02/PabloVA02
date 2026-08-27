@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cerebro-femenino": [
+    "por qué no existe un estado normal del que los demás sean desviaciones",
+    "cómo un dato sin origen adquiere el prestigio del libro que lo imprime",
+    "qué se encuentra cuando alguien va a comprobar una bibliografía larga",
+    "qué efectos hormonales sí están medidos y cuáles no",
+    "por qué un marco que lo explica todo deja a alguien sin argumentos",
+  ],
+
   "entre-dos-reinos": [
     "por qué el idioma de la batalla acaba juzgando al enfermo",
     "qué le pasa a quien cuida, que no aparece en ninguna estadística",

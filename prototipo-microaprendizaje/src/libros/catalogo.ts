@@ -156,7 +156,7 @@ export const CATALOGO: Ficha[] = [
 
   { id: "madame-curie", titulo: "Madame Curie", autor: "Ève Curie", ano: 1937, categoria: "Ciencia", estado: "escrito" },
   { id: "por-que-amamos", titulo: "Por qué amamos", autor: "Helen Fisher", ano: 2004, categoria: "Ciencia", estado: "escrito" },
-  { id: "cerebro-femenino", titulo: "El cerebro femenino", autor: "Louann Brizendine", ano: 2006, categoria: "Ciencia", estado: "pendiente" },
+  { id: "cerebro-femenino", titulo: "El cerebro femenino", autor: "Louann Brizendine", ano: 2006, categoria: "Ciencia", estado: "escrito" },
   { id: "cerebro-adolescente", titulo: "El cerebro adolescente", autor: "Frances Jensen", ano: 2015, categoria: "Ciencia", estado: "escrito" },
   { id: "incognito", titulo: "Incógnito", autor: "David Eagleman", ano: 2011, categoria: "Ciencia", estado: "escrito" },
   { id: "el-cerebro", titulo: "El cerebro", autor: "David Eagleman", ano: 2015, categoria: "Ciencia", estado: "escrito" },

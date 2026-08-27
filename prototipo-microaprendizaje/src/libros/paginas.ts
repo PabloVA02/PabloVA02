@@ -111636,7 +111636,315 @@ const ENTRE_DOS_REINOS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El cerebro femenino, de Louann Brizendine (2006), en ocho páginas.
+
+   Ciencia, tercera persona.
+
+   Es el libro que mejor enseña cómo se cuela un dato falso en un libro con
+   bibliografía: la cifra de las veinte mil palabras. Va en la tercera página,
+   con su origen, su desmentido y su medición posterior, porque sin ella el
+   resto se lee como si estuviera respaldado.
+   -------------------------------------------------------------------------- */
+
+const CEREBRO_FEMENINO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Brizendine sostiene que la biografía de una mujer es la biografía de sus hormonas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Louann Brizendine es psiquiatra, se formó en Yale y en Harvard y fundó en la Universidad de California en San Francisco una clínica dedicada al estado de ánimo y las hormonas en mujeres. Publicó este libro en 2006 y vendió más de un millón de ejemplares en decenas de idiomas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que existe un cerebro femenino con una estructura y un funcionamiento propios, y que lo que lo gobierna no es una constante sino una secuencia: las oleadas hormonales que atraviesan una vida. El libro está organizado como un calendario, con un capítulo por etapa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo por el que se escribió es real y está bien planteado en el prólogo. Durante casi toda la historia de la medicina, los ensayos clínicos se hicieron con hombres; en Estados Unidos no fue obligatorio incluir mujeres en la investigación financiada con dinero público hasta 1993. Brizendine escribe desde esa carencia y con razón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y conviene saber de dónde viene el material, porque explica lo mejor y lo peor del libro. Brizendine escribe desde la consulta: casi todos los capítulos abren con una paciente, su edad, su motivo de consulta y lo que le pasaba. Esa manera de contar es la que hace el libro legible, y es también la que convierte un caso en una regla sin que se note el paso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El título no es inocente y el propio libro lo asume. Hablar de «el cerebro femenino», en singular, ya es una tesis: da por supuesto que existe uno, distinto de otro, y que se puede describir. Casi toda la discusión posterior gira alrededor de esa primera palabra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue es cómo está construido, qué pasó con su dato más citado, cómo se comprobó su bibliografía, qué parte de lo que dice se sostiene y cuál es el capítulo por el que este libro todavía merece existir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que una pregunta esté mal investigada no significa que cualquier respuesta valga. Suele significar lo contrario.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro está organizado como un calendario y esa decisión es su mejor idea",
+      },
+      {
+        b: "texto",
+        texto:
+          "La estructura no es por temas —memoria, emoción, lenguaje— sino por etapas de la vida: el cerebro del feto, el de la niña, el de la adolescente, el del enamoramiento, el del embarazo, el de la lactancia, el de la madre, el de la perimenopausia y el de la menopausia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Puesto así, aparece algo que un libro organizado por temas no deja ver: que no hay un estado normal del que las demás fases sean desviaciones. Cada etapa tiene su equilibrio hormonal propio y ninguna es la de referencia, ni siquiera la fase folicular de una mujer de treinta años, que es la que casi todos los estudios usan como estándar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia clínica que Brizendine saca es útil y es lo mejor del planteamiento: muchos síntomas que se diagnostican como problemas de carácter o como depresión aparecen en momentos concretos de esa secuencia, y preguntar en qué punto está una paciente es una información diagnóstica que a menudo no se pide.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una consecuencia práctica que Brizendine repite y que sí se sostiene: los ensayos clínicos que se hacen con mujeres suelen reclutarlas en la fase folicular del ciclo, por comodidad estadística, así que lo que se sabe de muchos fármacos se sabe de un momento concreto del mes y se aplica a los demás sin comprobarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema es lo que la estructura arrastra sin decirlo. Al organizar la vida entera de alguien alrededor de sus hormonas, todo lo que le pasa acaba explicándose por ahí, y quedan fuera la biografía, el trabajo, el dinero y con quién vive. Un calendario hormonal describe bien una variable y muy mal una vida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No existe un estado normal del que los demás sean desviaciones. Existe una secuencia, y cada tramo tiene el suyo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La cifra más citada del libro nunca existió, y su historia enseña más que el libro entero",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la primera edición hay una frase que dio la vuelta al mundo: que una mujer pronuncia unas veinte mil palabras al día y un hombre unas siete mil. Se repitió en portadas de periódico, en programas de televisión y en conversaciones de sobremesa durante años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El lingüista Mark Liberman, de la Universidad de Pensilvania, se puso a buscar el estudio del que salía. No lo encontró. Rastreando la cita hacia atrás llegó a un libro de autoayuda anterior que no daba fuente, y de ahí a nada. No había ningún trabajo detrás: era una cifra que circulaba de libro en libro cambiando ligeramente de valor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Brizendine reconoció el error y la frase se retiró de las ediciones siguientes. Pero en 2007, un año después, un equipo dirigido por Matthias Mehl publicó en <em>Science</em> la medición que nadie había hecho: pusieron grabadoras a trescientas noventa y seis personas durante días y contaron. Salieron unas dieciséis mil palabras diarias, prácticamente las mismas para hombres y para mujeres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que enseña este episodio va mucho más allá del dato. Una cifra sin origen, puesta en un libro con bibliografía y firmado por una psiquiatra de una universidad de prestigio, adquiere el respaldo del envase; y una vez impresa, se cita el libro y ya no hace falta buscar más atrás. El desmentido, que se publicó en la revista científica más leída del mundo, no ha llegado ni a la décima parte de la gente que oyó la cifra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un dato falso dentro de un libro serio adquiere el prestigio del envase, y el desmentido nunca llega tan lejos como llegó el dato.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cuando dos investigadores fueron a comprobar sus citas, encontraron otra cosa",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro trae ciento veinte páginas de notas y referencias, y esa es la parte que lo hace parecer sólido. En 2006, la revista <em>Nature</em> encargó una reseña a dos investigadores, Rebecca Young y Evan Balaban, que hicieron algo que casi nadie hace: leer los trabajos citados y comprobar si dicen lo que el texto afirma.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su conclusión fue dura y está publicada. Describieron el libro como plagado de errores científicos y señalaron un patrón concreto: afirmaciones tajantes en el texto respaldadas por estudios que decían algo bastante más pequeño, más dudoso o directamente distinto, y hallazgos preliminares presentados como establecidos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo que describen es el que conviene aprender, porque no es exclusivo de este libro. Un estudio encuentra una diferencia media pequeña en una tarea concreta, con una muestra reducida y sin replicar; el libro lo convierte en una característica del cerebro femenino, en presente y sin matices; y la nota al pie, que casi nadie va a leer, remite a un trabajo real. Todo parece en su sitio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y conviene decir qué NO se les reprochó. No pusieron en duda que las hormonas influyan en el ánimo, ni que haya diferencias medias entre sexos en algunas medidas. Lo que señalaron fue el salto: convertir hallazgos pequeños, provisionales y discutidos en rasgos de un cerebro, escritos en presente y sin condicionales.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La reseña dio nombre al procedimiento en su título, jugando con la palabra psiconeuroendocrinología: lo llamaron adoctrinamiento. Y es la parte de esta historia que sirve para leer cualquier otro libro: una bibliografía larga no es una garantía, es una promesa que casi nadie comprueba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una bibliografía larga no garantiza nada: es una promesa que casi ningún lector va a comprobar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Que las hormonas afectan al estado de ánimo sí está medido, y el libro lo cuenta bien",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene separar lo que este libro exagera de lo que sí tiene respaldo, porque la reacción contraria —negar que las hormonas influyan en nada— sería otro error, y perjudica sobre todo a quien lo padece.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay efectos bien documentados. El trastorno disfórico premenstrual está reconocido como diagnóstico y afecta a un porcentaje pequeño de mujeres con síntomas graves, distintos en intensidad del malestar premenstrual corriente. La depresión posparto tiene una incidencia establecida y un componente hormonal claro. Y el insomnio y los sofocos de la transición a la menopausia son medibles y tienen tratamientos con eficacia probada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Brizendine escribe esos capítulos desde la consulta y ahí el libro es útil: describe con precisión cuadros que muchas pacientes reconocen y que llevan años recibiendo la respuesta de que son cosa de nervios. Poner nombre a algo que existe y estaba sin nombrar es un servicio real.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un dato de contexto que da la razón al planteamiento general del libro aunque no a sus afirmaciones concretas. El dolor de las mujeres se estudia menos y se trata peor: hay literatura consistente sobre que en urgencias reciben analgésicos con más retraso y en menor dosis por el mismo cuadro. Ésa es la desigualdad de la que el libro parte, y es real.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia entre esa parte y el resto está en el alcance de lo que afirma. Que una fluctuación hormonal concreta produzca un síntoma concreto en un momento concreto es una afirmación acotada y comprobable. Que el conjunto de esas fluctuaciones dibuje un cerebro distinto, con una manera propia de pensar, es otra cosa, y no está demostrada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que una hormona produzca un síntoma es comprobable. Que produzca una manera de pensar, no.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El capítulo por el que este libro sigue mereciendo existir es el que menos se cita",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una parte del libro que casi nunca aparece en los resúmenes y que es la mejor: la dedicada a la perimenopausia, los años de transición anteriores a la menopausia, que pueden durar de cuatro a diez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que describe es una situación que muchas mujeres reconocen y que estaba mal atendida: alteraciones del sueño, cambios de ánimo, dificultades de concentración y síntomas físicos que empiezan años antes de que se interrumpa la regla, cuando todavía hay ciclos y por tanto nadie piensa en la menopausia. Muchas llegan a la consulta y salen con un diagnóstico de ansiedad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El vacío de investigación que denuncia es real y tiene una causa histórica documentada. Un estudio grande y muy influyente publicado en 2002 encontró riesgos en cierta terapia hormonal, y el resultado se comunicó de manera tan alarmista que el uso cayó en picado en todo el mundo; los reanálisis posteriores matizaron bastante aquellas conclusiones, sobre todo según la edad de inicio, pero la desconfianza ya estaba instalada y la investigación se frenó durante años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí la queja del libro está bien dirigida: una etapa que atraviesa la mitad de la población, que dura casi una década y que afecta al trabajo, al sueño y a las relaciones, tiene mucha menos investigación de la que le corresponde. Ese argumento no depende de ninguna de las afirmaciones discutibles del resto del libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una etapa que dura diez años y atraviesa a media población no puede seguir explicándose como cosa de nervios.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El coste de escribirlo así lo pagan las mismas mujeres a las que quiere ayudar",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema de fondo de este libro no es que se equivoque en un dato: es lo que hace su marco. Al describir una manera femenina de pensar producida por hormonas, cualquier conducta concreta de una mujer concreta puede explicarse por esa vía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es conocida y anterior al libro. Si una mujer discute con firmeza, hay un ciclo al que atribuirlo; si duda, hay otro; si está cansada, hay un tercero. Un marco que explica cualquier cosa deja a quien lo padece sin manera de que le tomen en serio, porque el argumento siempre puede reubicarse en el calendario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un coste añadido en el trabajo. Las afirmaciones sobre capacidades distintas —mejor lectura de emociones, peor tolerancia al conflicto, prioridad por el vínculo— se han usado en literatura de gestión y en cursos de empresa para explicar por qué unas tareas encajan mejor con unas personas, con lo que una diferencia media discutible acaba operando como una asignación de puesto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un efecto sobre la propia paciente que es el más difícil de deshacer. Si aprende a atribuir a su ciclo lo que siente, dejará de buscar otras causas: un trabajo insoportable, una relación que la agota, un duelo sin resolver. Una explicación disponible siempre gana a una que hay que ir a buscar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nada de eso está en la intención de la autora, que escribe explícitamente en defensa de sus pacientes. Pero es lo que ocurre cuando se convierte una variable —la hormonal, que existe y actúa— en la explicación de una persona entera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un marco que puede explicar cualquier cosa que hagas es un marco del que no puedes salir discutiendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que existe un cerebro femenino con estructura propia y que su funcionamiento lo dirige una secuencia de oleadas hormonales, y organiza la vida de una mujer en capítulos por etapas, del feto a la menopausia. Vendió más de un millón de ejemplares y fijó buena parte del vocabulario con el que hoy se habla de esto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la denuncia de un hueco real. La investigación médica se hizo durante décadas sobre cuerpos masculinos —en Estados Unidos no fue obligatorio incluir mujeres en los ensayos con fondos públicos hasta 1993— y hay etapas enteras, como la perimenopausia, que duran años, afectan a media población y siguen mal estudiadas y peor atendidas. Ese argumento se sostiene solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Su cifra más famosa —veinte mil palabras al día frente a siete mil— no salía de ningún estudio; el lingüista Mark Liberman rastreó la cita hasta un libro de autoayuda sin fuente, la autora la retiró de las ediciones siguientes, y en 2007 una medición con grabadoras publicada en <em>Science</em> encontró unas dieciséis mil para los dos sexos, sin diferencia. Y no fue un desliz aislado: cuando dos investigadores comprobaron para <em>Nature</em> los trabajos citados, describieron el libro como plagado de errores y señalaron un patrón —resultados preliminares y pequeños presentados como establecidos— que afecta a su argumento central.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después. Brizendine escribió <em>El cerebro masculino</em> en 2010 y volvió en 2022 con un libro sobre la menopausia, que es donde su trabajo clínico está mejor asentado. Mientras tanto, este título se convirtió en el ejemplo favorito de la crítica al llamado neurosexismo: Cordelia Fine lo analizó en 2010 y Gina Rippon en 2019, y el trabajo de Daphna Joel de 2015, sobre más de mil cuatrocientas resonancias, describió los cerebros como mosaicos y no como dos tipos. Hoy el libro se cita más como caso de estudio de cómo viaja un dato sin fuente que como fuente de nada.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cerebro-femenino": CEREBRO_FEMENINO,
   "entre-dos-reinos": ENTRE_DOS_REINOS,
   "teoria-color": TEORIA_COLOR,
   "historia-mundo-objetos": HISTORIA_MUNDO_OBJETOS,
