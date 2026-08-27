@@ -4,6 +4,38 @@ Aprobado sobre el de Julio César. Todo short nuevo se escribe contra esta
 lista y se corrige contra ella. Si un short falla una sola de estas reglas,
 no está terminado.
 
+## ESTO NO ES `REDACCION.md`, Y NO TIENE QUE SERLO
+
+Pablo, el 27 de agosto: «no tendrá que ser exactamente como hacemos en los
+libros; lo tendrás que adaptar a la longitud de los shorts, no tiene por qué
+ser cien por cien igual: lo adaptas, pero parecido».
+
+`REDACCION.md` manda sobre los resúmenes de libros, que son de ocho a
+dieciséis páginas. Un short son cuatro pantallas y cuatrocientas palabras. Lo
+que se hereda de allí es **la manera de escribir** —frases de quince a
+veinticinco palabras, lo concreto antes que el adjetivo, definir el término en
+la misma frase en que aparece, español llano, conectores llanos y pocos— y lo
+que NO se hereda es todo lo que solo tiene sentido con un libro delante:
+
+| regla de los libros | en un short |
+|---|---|
+| el titular AFIRMA algo discutible | no: aquí el título **pregunta o nombra la cosa**, regla 17 |
+| una idea por página, con su caja del rayo | no hay caja: el golpe es el rótulo y la frase que cierra |
+| la conclusión dice **dónde falla el libro** | no aplica: aquí no se juzga a ningún autor |
+| ocho, doce o dieciséis páginas | dos, tres o cuatro pantallas, las que pida el tema |
+| nada de «Prueba esto» ni listas de deberes | igual: **esto sí se hereda entero** |
+
+Y una regla que es solo de aquí, porque el problema es solo de aquí:
+
+**Tres cifras por pantalla como mucho.** En un resumen de libro las cifras se
+reparten entre doce páginas y no pesan; en cien palabras, cuatro cifras
+convierten la lectura en aritmética. Medido en el short del sol: dieciséis
+cifras en trescientas noventa palabras, casi una por frase —cuatro mil
+seiscientos millones, cinco mil, cuarenta y tantos, cien mil años, treinta por
+ciento, un uno por ciento, cien millones…—. Ninguna sobra por sí sola y juntas
+cansan. Las que se puedan se dicen con palabras: «se secarán los océanos»
+antes que «se evaporará el ochenta por ciento».
+
 ## La estructura, elegida entre seis
 
 Se le enseñaron a Pablo seis maneras distintas de contar el mismo short
