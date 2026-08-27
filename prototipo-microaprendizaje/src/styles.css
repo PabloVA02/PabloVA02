@@ -9730,8 +9730,22 @@ button {
 .pastilla-dado {
   display: grid;
   place-items: center;
-  padding: 0 13px 0 15px;
+  padding: 0 12px 0 14px;
   height: 100%;
+}
+
+/* El dibujo de Noto trae su propio aire alrededor —es un emoji, y los emojis
+   se dibujan con margen para que en una línea de texto no se toquen—, así que
+   a 26 puntos se ve más pequeño que el resto de los iconos de la fila. Se le
+   quita ese margen agrandándolo y recortando lo que sobra. */
+.dado-noto {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.dado-noto svg {
+  width: 128% !important;
+  height: 128% !important;
 }
 
 .trag {

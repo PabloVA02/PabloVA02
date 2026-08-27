@@ -11,6 +11,8 @@ import {
 import { Portada, type Libro } from "./Biblioteca";
 import { spring, springPop } from "./motion";
 import { GlyphClose } from "./glyphs";
+import lottie, { type AnimationItem } from "lottie-web/build/player/lottie_light";
+import datosDado from "./dado-noto.json";
 
 /* ==========================================================================
    EL DADO Y LA TRAGAPERRAS
@@ -201,20 +203,100 @@ function tirada(libros: Libro[], ganador: Libro): Libro[] {
 }
 
 /* --------------------------------------------------------------------------
-   El dado de la cabecera
+   EL DADO DE LA CABECERA
+
+   No está dibujado aquí: es la animación del emoji 🎲 de Noto Animated Emoji,
+   de Google, hecha por sus animadores.
+
+   POR QUÉ. El primero era nuestro: un cuadrado redondeado de oro con cinco
+   puntos, que se meneaba cada cinco segundos. Pablo lo devolvió —«pon otro
+   mucho más bonito con animación que encuentres por ahí, que sea más
+   profesional»— y tenía razón: un icono plano al que se le mueve el ángulo no
+   es un dado rodando, es un icono al que se le mueve el ángulo. El de Noto
+   rueda de verdad: el cubo gira sobre sus tres ejes, cae, rebota, se asienta y
+   los puntos aparecen al final, con la sombra siguiéndolo por debajo. Eso lo
+   hace un animador con curvas a mano, fotograma a fotograma.
+
+   Y AQUÍ SÍ SE PODÍA. Con el rodillo no se podía —una animación cerrada no
+   admite nuestras cubiertas dentro—, pero un dado es un dibujo que no
+   necesita saber nada de nosotros. Es la misma decisión, y la misma fuente,
+   que la llama de la racha: ver `Llama.tsx`.
+
+   LA LICENCIA. Noto Animated Emoji va con CC BY 4.0: se puede usar en un
+   producto comercial y hay que citar la autoría. Está en
+   `CREDITOS-IMAGENES.md` y en la pantalla de ajustes. Si algún día se quita la
+   atribución, hay que quitar también el fichero: no es opcional.
+
+     dado-noto.json    fonts.gstatic.com/s/e/notoemoji/latest/1f3b2/lottie.json
+                       122 fotogramas a 60/s, 178 kB, sin dependencias de fuera
+
+   CÓMO SE COMPORTA, que es lo que lo separa de un GIF pegado ahí:
+
+   · NO va en bucle. Un dado rodando sin parar en la esquina de la pantalla
+     es un anuncio, y además cansa. Rueda al abrir la app, rueda cada nueve
+     segundos, y rueda EN CUANTO SE TOCA, que es lo que hace que el gesto se
+     sienta contestado antes incluso de que se abra la máquina.
+   · Entre tirada y tirada se queda parado en su último fotograma, o sea con
+     su cara quieta, como un dado de verdad encima de la mesa.
+   · Con `prefers-reduced-motion` no rueda nunca: se queda en la cara final
+     desde el principio.
    -------------------------------------------------------------------------- */
 
-/** Un cinco, que es la cara que más se reconoce de lejos. */
-export function GlyphDado({ tamano = 22 }: { tamano?: number }) {
+export function GlyphDado({
+  tamano = 24,
+  /** Sube uno cada vez que se toca: cada cambio lanza una tirada. */
+  tirada: pulsos = 0,
+}: {
+  tamano?: number;
+  tirada?: number;
+}) {
+  const reducido = !!useReducedMotion();
+  const caja = useRef<HTMLDivElement>(null);
+  const anim = useRef<AnimationItem | null>(null);
+
+  useEffect(() => {
+    if (!caja.current) return;
+    const a = lottie.loadAnimation({
+      container: caja.current,
+      renderer: "svg",
+      loop: false,
+      autoplay: !reducido,
+      animationData: datosDado as unknown as Record<string, unknown>,
+    });
+    /* Un pelo más lento que a la suya: a velocidad original la tirada dura
+       dos segundos justos y el rebote del final pasa demasiado deprisa para
+       verse a veinticuatro puntos de tamaño. */
+    a.setSpeed(0.92);
+    if (reducido) a.goToAndStop(a.totalFrames - 1, true);
+    anim.current = a;
+    return () => {
+      a.destroy();
+      anim.current = null;
+    };
+  }, [reducido]);
+
+  /* La tirada de cada nueve segundos. No es adorno: sin ella el dado es un
+     icono más de una fila de iconos y nadie lo toca; con ella pide que lo
+     pulses, que es exactamente lo que hay que hacer con él. */
+  useEffect(() => {
+    if (reducido) return;
+    const t = setInterval(() => anim.current?.goToAndPlay(0, true), 9000);
+    return () => clearInterval(t);
+  }, [reducido]);
+
+  /* Y la tirada al tocarlo. */
+  useEffect(() => {
+    if (reducido || !pulsos) return;
+    anim.current?.goToAndPlay(0, true);
+  }, [pulsos, reducido]);
+
   return (
-    <svg viewBox="0 0 48 48" width={tamano} height={tamano} aria-hidden>
-      <rect x="4.5" y="4.5" width="39" height="39" rx="10.5" fill="#f8bb31" />
-      <circle cx="15" cy="15" r="4.1" fill="#c2410c" />
-      <circle cx="33" cy="15" r="4.1" fill="#c2410c" />
-      <circle cx="24" cy="24" r="4.1" fill="#c2410c" />
-      <circle cx="15" cy="33" r="4.1" fill="#c2410c" />
-      <circle cx="33" cy="33" r="4.1" fill="#c2410c" />
-    </svg>
+    <div
+      ref={caja}
+      className="dado-noto"
+      style={{ width: tamano, height: tamano }}
+      aria-hidden
+    />
   );
 }
 

@@ -363,6 +363,15 @@ tarjeta llena contra la captura. Mismo apaño que `?p=` y `?suscrito`.
 
 ## EL DADO DE LA CABECERA Y LA TRAGAPERRAS
 
+El dado es la animación del emoji 🎲 de **Noto Animated Emoji**, de Google, la
+misma fuente que la llama de la racha: `src/dado-noto.json`, 122 fotogramas,
+178 kB, **CC BY 4.0 con atribución obligatoria** en `CREDITOS-IMAGENES.md` y en
+la pantalla de ajustes. El primero era nuestro, plano, y Pablo lo devolvió:
+«pon otro mucho más bonito con animación que encuentres por ahí». Aquí sí se
+podía bajar hecha —un dado es un dibujo que no necesita saber nada de
+nosotros—, al revés que el rodillo, que tiene que llevar nuestras cubiertas
+dentro. No va en bucle: rueda al abrir, cada nueve segundos, y al tocarlo.
+
 Donde Headway pone el fuego de la racha, aquí hay un **dado**: lo pidió Pablo
 el 27 de agosto. Al pulsarlo se abre un rodillo con nuestras cubiertas que gira
 a toda velocidad y para en un libro al azar de los 400 escritos. Está en

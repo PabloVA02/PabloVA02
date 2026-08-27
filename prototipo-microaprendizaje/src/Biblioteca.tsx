@@ -571,6 +571,10 @@ export function Inicio({
   /* `progreso` viene a cero en el catálogo de muestra, y una barra al cero no
      enseña nada de lo que hace la pastilla. */
   const avance = destacado.progreso > 0 ? destacado.progreso : 0.15;
+  /* Cada toque en el dado sube este número, y cada cambio lanza una tirada en
+     el dibujo de la cabecera. Un contador y no un booleano: dos toques
+     seguidos tienen que dar dos tiradas. */
+  const [tiradas, tirar] = useState(0);
   /* Las categorías que existen de verdad, con las elegidas en la introducción
      delante. Filtrar por algo que da cero resultados es una vía muerta, así
      que solo se ofrece lo que tiene libros detrás. */
@@ -627,22 +631,17 @@ export function Inicio({
           >
             <motion.button
               className="pastilla-dado"
-              onClick={onDado}
-              whileTap={{ scale: 0.88, rotate: -16 }}
+              onClick={() => {
+                /* La tirada se lanza ANTES de abrir la máquina, no después:
+                   el dado tiene que contestar al dedo en el mismo fotograma
+                   en que se toca. */
+                tirar((n) => n + 1);
+                onDado();
+              }}
+              whileTap={{ scale: 0.9 }}
               aria-label="Sacar un libro al azar"
             >
-              <motion.span
-                animate={{ rotate: [0, 0, -13, 11, -5, 0], scale: [1, 1, 1.08, 1.05, 1, 1] }}
-                transition={{
-                  duration: 5.2,
-                  repeat: Infinity,
-                  times: [0, 0.68, 0.76, 0.84, 0.92, 1],
-                  ease: "easeInOut",
-                }}
-                style={{ display: "grid" }}
-              >
-                <GlyphDado tamano={24} />
-              </motion.span>
+              <GlyphDado tamano={26} tirada={tiradas} />
             </motion.button>
             <span className="cabecera-filete" aria-hidden />
             <motion.button
