@@ -10473,3 +10473,136 @@ button {
   line-height: 1.6;
   color: color-mix(in srgb, var(--ink) 46%, transparent);
 }
+
+/* ==========================================================================
+   LA PORTADA, CARTEL — 27 de agosto de 2026, por la noche
+
+   Pablo: «pon la imagen y el título solo, de momento, y las demás páginas con
+   el texto […] que quede súper bonito y precioso, hazlo ideal».
+
+   La portada deja de ser «una banda de foto y un bloque de texto» y pasa a ser
+   un cartel: la fotografía ocupa la pantalla entera y encima van dos cosas, el
+   tema y el título. Las páginas de dentro no cambian: allí manda el texto y la
+   banda sigue siendo elástica.
+
+   POR QUÉ AHORA SÍ CABE A SANGRE, cuando por la mañana no cabía. Entonces la
+   portada llevaba titular, gancho Y párrafo de entrada, y sostener eso obliga
+   a subir el velo hasta media pantalla: la fotografía se veía por la mitad
+   justo en la única pantalla cuyo trabajo es que la mires. Con dos líneas de
+   texto, el velo arranca abajo del todo y la imagen se ve entera. Es la misma
+   maqueta que se probó y se descartó por la mañana; lo que ha cambiado no es
+   la maqueta, es lo que hay que sostener.
+   ========================================================================== */
+
+/* ---- la fotografía, de borde a borde ---- */
+.muro-foto[data-portada="true"] {
+  position: absolute;
+  inset: 0;
+  height: auto;
+  min-height: 0;
+  flex: none;
+}
+
+/* ---- la hoja: apoyada abajo, sin fondo propio ----
+   El velo es el suyo y sube desde el color de la página. Los topes son los que
+   hacen que funcione sobre CUALQUIER fotografía: opaco del todo donde va el
+   texto, y suelto a partir de ahí para que la imagen respire. Un velo plano al
+   50 % dejaría el título ilegible sobre la corona del Sol, que es blanca. */
+.muro-hoja[data-forma="portada"] {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: auto;
+  flex: none;
+  padding-top: 34cqw;
+  background: linear-gradient(
+    to top,
+    var(--paper) 0%,
+    color-mix(in srgb, var(--paper) 96%, transparent) 30%,
+    color-mix(in srgb, var(--paper) 72%, transparent) 58%,
+    color-mix(in srgb, var(--paper) 28%, transparent) 80%,
+    transparent 100%
+  );
+}
+.muro-hoja[data-forma="portada"] .muro-hoja-cuerpo {
+  flex: none;
+  overflow: visible;
+  gap: 2.6cqw;
+}
+
+/* ---- el tema, encima del título ----
+   Una línea corta en el color de la historia. No es decoración: dice de qué
+   habla el short antes de que el ojo llegue al título, y le da al titular un
+   sitio del que colgar en vez de flotar sobre la foto. */
+.port-tema {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 2.85cqw;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--acento, var(--ochre));
+}
+
+/* ---- el titular ----
+   Con remates y en caja baja, no en versales de palo seco como en las páginas
+   de dentro. Un cartel pide una voz, no una etiqueta.
+
+   Y se pinta LO MÁS GRANDE QUE QUEPA en una línea: se parte de 11cqw y
+   `useUnaLinea` lo encoge hasta que entra, con suelo en el 42 %. Así «Por qué
+   llueve» sale enorme y «Por qué vuelan los aviones» aterriza más pequeño,
+   que es como se compone un cartel de verdad: manda el ancho de la página, no
+   una medida fija.
+
+   La sombra es de seguro, no de efecto: sobre la corona solar el velo llega
+   al 96 % y no hace falta, pero una fotografía clara que entre mañana lo
+   agradecerá. Es un punto de desenfoque y no se ve. */
+.muro-hoja[data-forma="portada"] h2 {
+  font-family: var(--titular);
+  font-size: calc(11cqw * var(--encoge, 1));
+  font-weight: 500;
+  line-height: 1.04;
+  letter-spacing: -0.018em;
+  text-transform: none;
+  color: var(--ink);
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.35);
+}
+
+/* ---- el pie de foto, arriba y de puntillas ----
+   Abajo ya no hay sitio: es del cartel. Arriba tiene que despejar la muesca
+   del móvil y la barra de tramos, de ahí los 13cqw.
+
+   Y va MUY suave a propósito. La primera versión llevaba un velo al 72 %, y
+   sobre la corona del Sol se leía como una banda negra atravesada en lo alto
+   de la fotografía: legible, sí, y fea. Un crédito no se lee, se consulta, así
+   que se le baja el cuerpo y el tono hasta que desaparece de la mirada y
+   aparece solo cuando lo buscas. El velo que queda es el justo para que
+   funcione también sobre una imagen clara, y de paso le da fondo a la barra de
+   tramos, que antes flotaba sobre la foto desnuda. */
+.muro-foto[data-portada="true"] .muro-credito {
+  top: 0;
+  bottom: auto;
+  padding: 12.5cqw 5.8cqw 10cqw;
+  font-size: 2.45cqw;
+  color: color-mix(in srgb, #f2ece1 56%, transparent);
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
+  background: linear-gradient(
+    to bottom,
+    rgba(6, 6, 8, 0.5) 0%,
+    rgba(6, 6, 8, 0.24) 40%,
+    transparent 78%
+  );
+}
+
+/* ---- el «Seguir» ----
+   Separado del título por aire de verdad. En las páginas de dentro va pegado
+   al texto porque allí es un pie; aquí es lo único que se puede tocar y tiene
+   que leerse como una invitación, no como una nota. */
+.muro-hoja[data-forma="portada"] .muro-tirar {
+  margin-top: 6.5cqw;
+  font-size: 3.05cqw;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--ink) 72%, transparent);
+}

@@ -411,33 +411,35 @@ De tres a seis palabras.
 Si el short va de Venus, en el título va Venus. Si va de Julio César, va Julio
 César. Y al lado, lo que se va a contar, en cuatro palabras.
 
-## La portada: título, gancho y entrada — 27 de agosto de 2026
+## La portada es un CARTEL: la fotografía y el título — 27 de agosto, noche
 
-**El gancho vuelve a la portada**, y esto cambia la medida de la entrada, así
-que se lee entero antes de escribir nada.
+Pablo: *«pon la imagen y el título solo, de momento, y las demás páginas con
+el texto […] que quede súper bonito y precioso, hazlo ideal»*.
 
-Estuvo fuera con un argumento razonable: «un subtítulo entre el título y la
-entrada repite lo que la entrada va a decir mejor dos líneas después». Lo que
-pasa es que no lo repite, y con el muro vacío y una sola historia delante se
-vio de golpe. El titular dice DE QUÉ va —«¿Cuánto le queda al sol?»— y la
-entrada empieza a CONTAR. Entre las dos falta lo único que hace que alguien no
-suba el dedo: qué tiene esto de raro. Eso es el gancho —«no se apagará como una
-bombilla: se hinchará hasta tragarse la órbita de la Tierra»—, y sin él la
-portada pregunta y no promete.
-
-Así que la portada tiene cuatro cosas, de menos a más volumen:
+La portada tiene **dos cosas encima de la fotografía** y nada más:
 
 | | qué dice | cómo se ve |
 |---|---|---|
-| la imagen | de qué se está hablando | el 42 % de la pantalla, con su crédito encima |
-| el titular | de qué va | palo seco, versales, una línea |
-| el gancho | qué tiene de raro | serifa en negrita, crema vivo, **dos líneas** |
-| la entrada | empieza a contarlo | serifa normal, gris, con capitular |
+| la imagen | de qué se está hablando | **la pantalla entera**, con su crédito arriba, pequeño |
+| el tema | en qué cajón cae | palo seco, versales muy espaciadas, en el color de la historia |
+| el titular | de qué va | **con remates y en caja baja**, lo más grande que quepa en una línea |
 
-Y **la entrada baja de 100 palabras a 56**. No es una decisión de estilo: es que
-ahora hay tres bloques donde había dos y la fotografía ocupa más. Con 100 el
-texto se salía de la caja y se pintaba encima del «Seguir». Las medidas nuevas
-están abajo, en la tabla, y las comprueba `scripts/revisa-shorts.mjs`.
+**Por qué a sangre ahora, si por la mañana no cabía.** Entonces la portada
+llevaba titular, gancho Y párrafo de entrada, y sostener tres bloques obliga a
+subir el velo hasta media pantalla: la fotografía se veía por la mitad justo
+en la única pantalla cuyo trabajo es que la mires. Con dos líneas, el velo
+arranca abajo del todo y la imagen se ve entera. No cambió la maqueta: cambió
+lo que hay que sostener.
+
+**El titular se pinta lo más grande que quepa**, no a una medida fija: parte
+de 11cqw y `useUnaLinea` lo encoge hasta que entra en una línea, con suelo en
+el 42 %. «Por qué llueve» sale enorme y «Por qué vuelan los aviones» aterriza
+más pequeño. Es como se compone un cartel: manda el ancho de la página. La
+regla de Pablo se mantiene, **una línea y nunca dos**.
+
+**El `gancho` y la `entrada` se siguen escribiendo y ya no se pintan aquí.**
+Hacen falta para las listas y el buscador. El texto de la historia va en las
+páginas, que es donde se lee.
 
 ## 15. Lo que se ve en pantalla
 

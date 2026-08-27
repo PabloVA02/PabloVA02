@@ -761,8 +761,13 @@ function useUnaLinea(texto: string) {
       e.style.setProperty("--encoge", "1");
       const cabe = e.clientWidth;
       const mide = e.scrollWidth;
+      /* El suelo baja del 0,78 al 0,42 porque el titular ya no parte de 4,4cqw
+         sino de 11: en la portada-cartel el título se pinta lo más grande que
+         quepa en una línea, así que un título corto sale enorme y uno largo
+         aterriza más o menos donde estaba antes. Con el suelo viejo, un título
+         de treinta letras se salía del marco. */
       if (mide > cabe && cabe > 0)
-        e.style.setProperty("--encoge", String(Math.max(0.78, cabe / mide)));
+        e.style.setProperty("--encoge", String(Math.max(0.42, cabe / mide)));
     };
     ajusta();
     const ro = new ResizeObserver(ajusta);
@@ -886,54 +891,35 @@ function useAjusteDeTexto() {
 
 function Portada({ short }: { short: Short }) {
   const titulo = useUnaLinea(short.titulo);
+  /* LA PORTADA ES UN CARTEL: la fotografía a pantalla completa y el título
+     encima. Nada más.
+     
+     Pablo, el 27 por la noche: «pon la imagen y el título solo, de momento, y
+     las demás páginas con el texto […] que quede súper bonito y precioso».
+     
+     Antes llevaba además el gancho y el párrafo de entrada, y los tres juntos
+     obligaban a subir el velo hasta media pantalla para que se leyeran: o sea
+     que la fotografía se veía por la mitad justo en la única pantalla cuyo
+     trabajo es que la mires. Ahora el velo solo tiene que sostener dos líneas
+     y arranca abajo del todo, así que la imagen se ve entera.
+     
+     El `gancho` y la `entrada` siguen escritos en cada historia —hacen falta
+     para las listas y para el buscador— y aquí no se pintan. El texto de la
+     historia va en las páginas, que es donde se lee. */
   return (
     <>
-      <motion.h2 ref={titulo} custom={1} variants={enterVariants} initial="hidden" animate="shown">
-        {short.titulo}
-      </motion.h2>
-
-      {/* EL GANCHO, QUE HASTA HOY SE ESCRIBÍA Y NO SE PINTABA.
-
-          Estaba en el tipo, está escrito en todas las historias y `MOLDE.md`
-          lo define —«la frase que remata el título en la portada, una sola, en
-          voz alta»—, pero la portada saltaba del titular al primer párrafo. Y
-          esa frase es exactamente la que decide si alguien se queda: el
-          titular dice DE QUÉ va —«¿Cuánto le queda al sol?»— y el gancho dice
-          QUÉ TIENE DE RARO —«no se apagará como una bombilla: se hinchará
-          hasta tragarse la órbita de la Tierra»—. Sin él, la portada pregunta
-          y no promete nada.
-
-          Va en el crema vivo y el párrafo de debajo en el gris: son tres
-          voces de menos a más volumen —titular, promesa, relato— y se
-          distinguen por el peso y el color, no por el tamaño, que en media
-          pantalla no da para tres escalones. */}
       <motion.p
-        className="muro-gancho"
-        custom={2}
+        className="port-tema"
+        custom={0.6}
         variants={enterVariants}
         initial="hidden"
         animate="shown"
       >
-        {short.gancho}
+        {short.categoria}
       </motion.p>
-
-      <motion.p
-        className="muro-entrada"
-        /* La capitular necesita empezar por letra. Hay entradas que abren con
-           una pregunta —«¿Por qué…»— y ahí la letra grande saldría con la
-           apertura de interrogación pegada, que queda mal. En esos casos no se
-           pone: es preferible una portada sin capitular que una con un signo
-           de tres centímetros. */
-        data-capitular={/^\s*[a-záéíóúüñ]/i.test(short.entrada) ? "si" : "no"}
-        custom={3.4}
-        variants={enterVariants}
-        initial="hidden"
-        animate="shown"
-        /* Con guiones blandos: el texto va justificado y en una columna tan
-           estrecha, sin poder partir palabras, la justificación estira los
-           espacios hasta que se nota. Ver `silabas.ts`. */
-        dangerouslySetInnerHTML={{ __html: conGuiones(short.entrada) }}
-      />
+      <motion.h2 ref={titulo} custom={1} variants={enterVariants} initial="hidden" animate="shown">
+        {short.titulo}
+      </motion.h2>
     </>
   );
 }
