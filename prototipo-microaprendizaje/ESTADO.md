@@ -870,10 +870,22 @@ Los cuatro sitios, y qué va en cada uno:
    el conector de Drive. Se suben con `mcp__Google_Drive__create_file` pasando
    el texto entero; para binarios grandes no sirve.
 3. **El chat con Pablo.** Un `tar.gz` de la fuente enviado por el chat es la
-   copia que sobrevive a todo, porque queda en su dispositivo. Excluyendo
-   `node_modules`, `.git`, `dist*`, `fotos-cache`, `movil.html`, el vídeo,
-   `referencia/` y `cubiertas-originales/` salen unos 8,6 MB; con `referencia`
-   dentro se va a 41 MB y ya no es cómodo de mandar.
+   copia que sobrevive a todo, porque queda en su dispositivo. **La lista de
+   exclusiones ha crecido y hay que respetarla entera**, porque cada una de
+   las tres carpetas gordas es reconstruible y sin ellas no sale a cuenta
+   mandar nada:
+
+       tar --exclude=node_modules --exclude=.git --exclude='dist*' \
+           --exclude=fotos-cache --exclude=movil.html --exclude=shorts.html \
+           --exclude='prototipo-microaprendizaje/referencia' \
+           --exclude='prototipo-microaprendizaje/cubiertas-originales' \
+           --exclude='prototipo-microaprendizaje/docs' --exclude='*.mp4' \
+           -czf <ruta>/curva-<fecha>.tar.gz prototipo-microaprendizaje CLAUDE.md
+
+   El 27 de agosto salían 19 MB. Sin excluir `cubiertas-originales` (44 MB de
+   PNG archivados) son 35, y sin excluir además `docs/` son 80. Los 19 que
+   quedan son casi todos `src/libros/cubiertas.ts`: 17,6 MB de base64, que
+   comprime poco y que **es** el producto, así que ahí no se puede recortar.
 4. **El artefacto publicado**, que es una copia de la app compilada.
 
 Y el bundle de git sigue siendo la salida de emergencia si el push falla:

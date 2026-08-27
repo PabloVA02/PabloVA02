@@ -237,9 +237,13 @@ primer segundo entendiendo la página en vez de leyéndola, y ese segundo es
 justo el que decide si sigue.
 
 Consecuencia para el molde: **la página 3 también lleva destacado**, y lleva
-frase, no cifra. Antes iba sin él para que la última línea rematara sola, pero
-eso dejaba un hueco donde las otras dos tienen chapa y rompía la regla. La
-frase destacada de la página 3 es el remate del short.
+frase, no cifra.
+
+**Aviso: el `destacado` no se pinta desde el 26 de agosto.** Lo quitó Pablo
+cuando la barra de pestañas se comió sesenta puntos del pie y la pantalla dejó
+de dar para el texto Y el golpe. El campo se sigue escribiendo —ordena al que
+escribe y está en el tipo—, pero el lector no lo ve, así que **no se cuenta
+para llenar la pantalla**.
 
 ## 13. Cada página termina abriendo la siguiente
 
@@ -406,16 +410,13 @@ después se ajusta** para que caiga bien en las pantallas. Nunca al revés.
 
 Lo único que sí se respeta es que **el texto llegue hasta el margen de abajo**
 en vez de dejar un hueco muerto, y eso es lo que da las cifras de arriba: con
-la letra a 17 puntos y la banda al 28 %, una página se llena con unas 125
-palabras, o 105 si lleva dato.
+la letra a 17 puntos y la banda al 36 %, una página se llena con unas 110
+palabras.
 
 **La última página puede quedarse corta y no pasa nada**: ahí se acaba la
 historia, y que sobre aire abajo es lo que tiene que pasar cuando algo termina.
 Lo que no cambia es nada más — mismo fondo, misma letra, mismos márgenes que
 las otras tres.
-
-**El validador mantiene de momento el rango viejo de 90–116**, porque con el
-nuevo saltarían los 757 shorts a la vez y no se vería nada.
 
 `curioso: true` cuando la historia es un dato curioso y no un
 acontecimiento: se pinta la insignia «Dato curioso» en la portada.
@@ -432,41 +433,6 @@ acontecimiento: se pinta la insignia «Dato curioso» en la portada.
 8. ¿Hay algún aparato o término usado antes de explicarlo?
 9. ¿Hay alguna frase de más de 35 palabras?
 10. ¿Están todas las medidas dentro de rango?
-
-## 16. La entrada llega abajo
-
-La entrada de la portada tiene que llegar hasta abajo dejando **una línea de
-margen**, el mismo que hay arriba. No es capricho: Pablo lo vio de un vistazo
-—«no ajustas bien el margen de abajo»— y medido en pantalla la diferencia era
-de seis líneas de aire.
-
-**Las cifras de aquí abajo son de antes del 27 de agosto**, cuando la portada
-no llevaba gancho y la banda de imagen ocupaba el 28 %. La regla sigue siendo
-la misma; el número, no: hoy son **unas 56 palabras**. Se dejan escritas para
-que se entienda de dónde sale la regla.
-
-| título | palabras | margen que queda |
-|---|---|---|
-| de dos líneas | unas 100 | 37 pt |
-| de una línea | unas 120 | 37 pt |
-
-Así que la regla es **«que el texto llegue abajo dejando una línea»**, y las
-cifras de arriba son la ayuda para acertar a la primera. La horquilla del
-validador, 100-125, solo caza los que se pasan o se quedan muy cortos.
-
-**No hace falta que todas midan igual.** Pablo: «puede haber en algunas dos
-líneas más o dos líneas menos, no pasa nada». Lo que sí es obligatorio es que
-el texto **no llegue nunca a tapar el "Seguir"**. La banda buena va de una a
-tres líneas de hueco; por debajo de una es peligroso y por encima de cuatro se
-ve el agujero.
-
-Y hay que mirarlo en un móvil bajo, no solo en uno normal: en un iPhone SE
-—667 de alto— cabe menos, y ahí es donde el texto pisa el «Seguir» primero.
-`choque.mjs` en el scratchpad lo comprueba en cuatro tamaños de golpe.
-
-Los 756 shorts escritos con la medida vieja —mediana de 62 palabras— llevan
-seis líneas de hueco. Se van alargando por tandas, y
-`node scripts/revisa-shorts.mjs --flojos` los lista.
 
 ## 17. El título, en una línea
 
@@ -500,3 +466,38 @@ Y ojo al orden de trabajo: **el título y la entrada del mismo short se hacen a
 la vez**. El título decide si ocupa una línea o dos, y eso cambia cuántas
 palabras caben debajo. Alargar la entrada antes de acortar el título obliga a
 rehacerla entera.
+
+## 18. La entrada llega abajo
+
+La entrada de la portada tiene que llegar hasta abajo dejando **una línea de
+margen**, el mismo que hay arriba. No es capricho: Pablo lo vio de un vistazo
+—«no ajustas bien el margen de abajo»— y medido en pantalla la diferencia era
+de seis líneas de aire.
+
+**Las cifras de aquí abajo son de antes del 27 de agosto**, cuando la portada
+no llevaba gancho y la banda de imagen ocupaba el 28 %. La regla sigue siendo
+la misma; el número, no: hoy son **unas 56 palabras**. Se dejan escritas para
+que se entienda de dónde sale la regla.
+
+| título | palabras | margen que queda |
+|---|---|---|
+| de dos líneas | unas 100 | 37 pt |
+| de una línea | unas 120 | 37 pt |
+
+Así que la regla es **«que el texto llegue abajo dejando una línea»**, y la
+cifra es la ayuda para acertar a la primera. La horquilla del validador, 48-66,
+solo caza los que se pasan o se quedan muy cortos.
+
+**No hace falta que todas midan igual.** Pablo: «puede haber en algunas dos
+líneas más o dos líneas menos, no pasa nada». Lo que sí es obligatorio es que
+el texto **no llegue nunca a tapar el "Seguir"**. La banda buena va de una a
+tres líneas de hueco; por debajo de una es peligroso y por encima de cuatro se
+ve el agujero.
+
+Y hay que mirarlo en un móvil bajo, no solo en uno normal: en un iPhone SE
+—667 de alto— cabe menos, y ahí es donde el texto pisa el «Seguir» primero.
+`choque.mjs` en el scratchpad lo comprueba en cuatro tamaños de golpe.
+
+Y desde el 27 de agosto no hace falta vigilarlo a mano en el caso peor:
+`useAjusteDeTexto` mide el texto ya pintado y encoge la letra si se sale. Que
+una historia llegue al suelo del 86 % es la señal de que hay que acortarla.
