@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "verano-1927":
+    "En unos pocos meses de 1927, un desconocido cruzó el Atlántico solo, el Misisipi echó de casa a setecientas mil personas y el Tribunal Supremo autorizó esterilizar por la fuerza. Todo salió en los mismos periódicos.",
+
   "coach-silicon-valley":
     "Fue entrenador de fútbol americano en Columbia seis temporadas y ganó doce partidos. Lo dejó a los treinta y nueve sin haber trabajado nunca en una empresa, y acabó asesorando a los que dirigían Apple y Google sin cobrar.",
 

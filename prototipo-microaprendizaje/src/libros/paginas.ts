@@ -112543,7 +112543,286 @@ const COACH_SILICON_VALLEY: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El verano de 1927, de Bill Bryson (2013), en ocho páginas.
+
+   Historia, tercera persona, y con el aviso del apartado 4 bis muy presente: es
+   un libro narrativo sobre un verano, o sea la tentación de crónica en estado
+   puro. Ninguna página puede ser «y entonces pasó tal cosa».
+
+   La selección es deliberada: al lado de lo que todo el mundo recuerda de ese
+   verano van dos cosas de las que casi nadie se acuerda y que pesaron más.
+   -------------------------------------------------------------------------- */
+
+const VERANO_1927: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Bryson sostiene que en unos pocos meses de 1927 Estados Unidos dejó de mirar hacia Europa",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro parte de una observación que se puede comprobar en un calendario: entre la primavera y el otoño de 1927 pasaron en Estados Unidos una cantidad desproporcionada de cosas que todavía duran, y la mayoría no tienen nada que ver entre sí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En esos meses un piloto desconocido cruzó el Atlántico solo, un jugador de béisbol batió un récord que aguantó treinta y cuatro años, se ejecutó a dos anarquistas italianos con medio mundo protestando, el río Misisipi se desbordó y echó de sus casas a setecientas mil personas, un chico de veintiún años transmitió la primera imagen de televisión electrónica y empezó a tallarse Monte Rushmore.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bill Bryson es un escritor de viajes y de divulgación estadounidense afincado durante décadas en Inglaterra, y su especialidad es reunir material disperso y contarlo de manera que no se pueda soltar. Publicó éste en 2013.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene saber qué clase de libro es para no pedirle lo que no da. No es una tesis defendida con pruebas: es un montaje. Bryson pone en paralelo asuntos que ocurrieron a la vez y deja que el lector vea lo que se ve al ponerlos juntos, que es bastante más de lo que se ve por separado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis, que sostiene con más entusiasmo que argumentos, es que ese verano marca el punto en que Estados Unidos deja de considerarse una versión provinciana de Europa. Lo que sigue son cinco de aquellos acontecimientos, empezando por el más famoso y terminando por dos que casi nadie recuerda y que cambiaron más cosas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que se recuerda de una época y lo que la cambió casi nunca son la misma lista.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El vuelo de Lindbergh no fue el primero, y por eso importó tanto" },
+      {
+        b: "texto",
+        texto:
+          "El 20 de mayo de 1927, un chico de veinticinco años que repartía correo en avión despegó de un campo de Nueva York en una avioneta de un solo motor y aterrizó treinta y tres horas y media después en París. Se llamaba Charles Lindbergh y casi nadie sabía quién era.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene deshacer el equívoco que arrastra: no fue el primero en cruzar el Atlántico en avión. Dos británicos lo habían hecho ocho años antes, en 1919. Lo que estaba en juego era un premio de veinticinco mil dólares por unir Nueva York y París sin escalas, y lo nuevo era la distancia, la ruta y sobre todo hacerlo solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquella primavera lo intentaron varios equipos y murieron seis hombres en el empeño. Todos llevaban tripulación, motores múltiples y aviones grandes. Lindbergh calculó al revés: un solo motor, un solo hombre, sin radio, sin paracaídas y sin ventana delantera, porque el sitio lo ocupaba un depósito de gasolina. Miraba por una ventanilla lateral o por un periscopio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está lo que Bryson explica bien: el vuelo no demostró que se pudiera cruzar el Atlántico, sino que se podía calcular con precisión cuánto pesa todo y cuánto consume un motor. Fue un problema de aritmética resuelto quitando cosas, y por eso la aviación comercial que vino después se construyó sobre ese modo de pensar y no sobre los hidroaviones enormes que parecían el futuro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quitar es una decisión de ingeniería tan válida como añadir, y casi siempre la más difícil de defender.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La segunda parte de la vida de Lindbergh es la que explica el peligro de la fama de aquel verano",
+      },
+      {
+        b: "texto",
+        texto:
+          "Uno de los aciertos del libro es no dejar a Lindbergh en el desfile de Nueva York. Bryson cuenta lo que vino después, y es la parte que casi ninguna versión popular incluye.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1932 le secuestraron y mataron a su primer hijo, de veinte meses, en un caso que se convirtió en el mayor espectáculo mediático de la época y que acabó con una ejecución discutida. La familia se marchó a Europa huyendo de la prensa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y a finales de los treinta, Lindbergh visitó varias veces la Alemania nazi invitado a inspeccionar su fuerza aérea, aceptó en 1938 una condecoración del régimen, y al volver se convirtió en la cara del movimiento que se oponía a que Estados Unidos entrara en guerra. En un discurso de septiembre de 1941 en Des Moines señaló a los judíos como uno de los grupos que empujaban al país hacia el conflicto. Su reputación se hundió en una tarde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bryson saca de ahí un argumento y no una moraleja: aquella fue la primera fama moderna, construida en días por la radio y los periódicos sobre alguien de quien nadie sabía nada, y a un hombre de veinticinco años con criterio de piloto se le pidió a partir de entonces opinión sobre todo. La maquinaria que lo fabricó en mayo de 1927 es la misma que lo demolió catorce años después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "A quien se hace famoso por saber una cosa se le empieza a preguntar por todas, y casi nadie avisa de la diferencia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La inundación del Misisipi hizo un presidente y cambió el voto de millones de personas",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la primavera de 1927, tras meses de lluvias, el Misisipi rompió los diques en decenas de puntos e inundó una superficie del tamaño de Portugal. Setecientas mil personas perdieron su casa. Es la mayor inundación fluvial de la historia de Estados Unidos y es lo que menos se recuerda de aquel año.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El gobierno federal encargó la respuesta a un ingeniero que era entonces secretario de Comercio: Herbert Hoover. Montó campamentos, organizó suministros, coordinó al ejército y a la Cruz Roja, y salió de aquello convertido en el hombre más admirado del país. Un año después ganó las elecciones presidenciales, y el crac llegó ocho meses más tarde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que no se contó entonces ocurría dentro de aquellos campamentos. La población negra del delta fue retenida en ellos bajo vigilancia armada, obligada a trabajar en los diques y en muchos casos impedida de marcharse, porque los propietarios de las plantaciones no querían perder su mano de obra. La Cruz Roja recibió denuncias y el asunto se silenció en la campaña de Hoover.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está la consecuencia política que Bryson señala y que dura hasta hoy: aquello aceleró la marcha de cientos de miles de personas negras del sur rural hacia las ciudades del norte, y empezó a romper la lealtad que el voto negro mantenía desde la guerra civil con el partido de Lincoln. Una crecida de río movió a un electorado entero.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una catástrofe natural no reparte sus consecuencias por igual, y lo que decide el reparto es quién manda cuando ocurre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Sacco y Vanzetti convirtieron un juicio local en un asunto internacional",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 23 de agosto de 1927 fueron ejecutados en Massachusetts dos inmigrantes italianos, Nicola Sacco y Bartolomeo Vanzetti, condenados siete años antes por un atraco con dos muertos. Eran anarquistas declarados y ese fue el asunto real del proceso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hizo del caso algo distinto no fue la sentencia sino los siete años. Durante ese tiempo se acumularon recursos, testimonios contradictorios, una confesión ajena que los exculpaba y declaraciones del propio juez fuera de la sala que mostraban su hostilidad hacia los acusados. El caso dejó de ser sobre un atraco y pasó a ser sobre si un extranjero con ideas políticas podía tener un juicio justo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y se convirtió en el primer asunto judicial estadounidense seguido a diario en Europa y en América Latina. Hubo manifestaciones en París, Londres, Buenos Aires y Ciudad de México, atentados contra intereses estadounidenses y una campaña internacional de intelectuales. Aquella semana, Estados Unidos descubrió que sus asuntos internos ya no eran internos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bryson no entra a decidir si eran culpables, y hace bien, porque el material sigue siendo discutido. Lo que sí deja claro es lo que ya no se discute: el proceso estuvo mal hecho. En 1977, cincuenta años después, el gobernador de Massachusetts firmó una proclamación reconociendo que el juicio se había desarrollado en un ambiente de prejuicio y que cualquier estigma debía retirarse de sus nombres.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que alguien fuera culpable o inocente es una pregunta. Si el juicio estuvo bien hecho es otra, y se puede contestar por separado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En mayo de 1927 el Tribunal Supremo autorizó esterilizar a la gente, y casi nadie lo recuerda",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 2 de mayo de aquel año, tres semanas antes del vuelo de Lindbergh, el Tribunal Supremo de Estados Unidos resolvió por ocho votos contra uno que un estado podía esterilizar por la fuerza a una persona considerada deficiente. El caso llevaba el nombre de una joven de Virginia, Carrie Buck.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La sentencia la redactó Oliver Wendell Holmes, uno de los juristas más respetados del país, y contiene la frase más citada y más difícil de justificar de la historia de aquel tribunal: que tres generaciones de imbéciles son suficientes. Carrie Buck no era deficiente; había quedado embarazada tras una violación y su familia había sido clasificada por conveniencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El efecto fue inmediato y masivo. La sentencia dio cobertura legal a los programas de esterilización de más de treinta estados, y a lo largo del siglo se esterilizó por la fuerza a decenas de miles de personas, sobre todo pobres, internas de instituciones y mujeres negras. Las leyes basadas en aquel fallo siguieron aplicándose hasta los años setenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bryson lo incluye por el contraste, y ése es el mejor argumento del libro. En el mismo país, en las mismas semanas y en los mismos periódicos, un piloto era recibido como un héroe nacional mientras el tribunal más alto autorizaba lo que doce años después citarían los juristas del régimen alemán en su defensa. La sentencia nunca ha sido anulada expresamente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que una época celebra y lo que una época permite pasan por el mismo periódico el mismo día.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Aquel verano se tomó también la decisión de dinero que infló la burbuja de 1929",
+      },
+      {
+        b: "texto",
+        texto:
+          "En julio de 1927, en una casa de Long Island, se reunieron cuatro banqueros centrales: el estadounidense Benjamin Strong, el británico Montagu Norman, el alemán Hjalmar Schacht y un delegado francés. Fue una reunión discreta y sin actas públicas, y de ella salió una decisión técnica que acabó importando más que casi todo lo demás de ese año.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema era británico. Inglaterra había vuelto al patrón oro en 1925 con la libra sobrevalorada, y el oro se le escapaba hacia Estados Unidos. La solución que se acordó fue que la Reserva Federal bajara sus tipos de interés, de modo que el dinero resultara menos atractivo en Nueva York y volviera a Londres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Funcionó para lo que se pretendía y produjo lo que no se pretendía. El dinero barato en Estados Unidos, en un momento de optimismo y con la compra de acciones a crédito muy extendida, alimentó la subida de la bolsa durante los dos años siguientes. El crac llegó en octubre de 1929, y desde entonces esa reunión aparece en casi todas las explicaciones de lo que pasó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No es que aquellos cuatro provocaran la Gran Depresión, y Bryson no lo dice: hicieron falta muchas más cosas. Lo que ilustra el episodio es algo de aquel verano que no sale en las fotos: mientras el país celebraba a un piloto, cuatro personas sin cargo electo tomaban en una casa particular una decisión que afectaría a la vida de millones.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las decisiones que más cambian la vida de la gente casi nunca se anuncian, y suelen parecer técnicas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro reúne lo que ocurrió en Estados Unidos entre la primavera y el otoño de 1927 —el vuelo de Lindbergh, los sesenta home runs de Babe Ruth, la ejecución de Sacco y Vanzetti, la inundación del Misisipi, la primera imagen de televisión, el comienzo de Monte Rushmore— y sostiene que en esos meses el país dejó de mirar hacia Europa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es el montaje. Puestos uno al lado de otro, esos episodios enseñan cosas que por separado no se ven: que el vuelo fue un problema de aritmética resuelto quitando peso, que una crecida de río movió el voto de un electorado entero durante generaciones, y que la sentencia de esterilización forzosa y el desfile del héroe nacional salieron en los mismos periódicos. Ese contraste es el mejor argumento del libro y Bryson lo construye sin subrayarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La tesis no se sostiene, y es que apenas se intenta: el libro afirma en la introducción que ese verano cambió el papel del país en el mundo y después no vuelve a demostrarlo, así que lo que hay es una colección espléndida de historias unidas por el calendario y por la palabra «mientras tanto». Bryson es además un narrador que va donde está la escena, y eso desequilibra el reparto: el secuestro, los gánsteres y los aviadores muertos ocupan mucho más espacio que las consecuencias de la inundación sobre la población negra del delta, que es probablemente lo que más duró de todo el año.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después, en el caso que Bryson deja abierto. La reputación de Lindbergh se hundió con su discurso de 1941, se rehízo a medias tras la guerra y volvió a moverse en 2003, cuando se confirmó por pruebas de ADN que había mantenido durante años tres familias paralelas en Alemania, con siete hijos de los que su familia estadounidense no sabía nada. La sentencia de esterilización, en cambio, sigue sin anularse formalmente: Virginia pidió perdón en 2002 y varios estados han indemnizado a supervivientes, pero el fallo de 1927 continúa técnicamente en pie.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "verano-1927": VERANO_1927,
   "coach-silicon-valley": COACH_SILICON_VALLEY,
   bauhaus: BAUHAUS,
   "cerebro-femenino": CEREBRO_FEMENINO,

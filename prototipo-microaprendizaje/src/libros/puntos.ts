@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "verano-1927": [
+    "por qué lo que se recuerda de una época no es lo que la cambia",
+    "cómo se gana una carrera técnica quitando cosas en vez de añadirlas",
+    "qué le pasa a quien se hace famoso por saber una sola cosa",
+    "cómo una catástrofe natural reparte sus consecuencias",
+    "por qué las decisiones que más pesan suelen parecer técnicas",
+  ],
+
   "coach-silicon-valley": [
     "por qué ante un problema conviene mirar al equipo antes que al problema",
     "qué información recoges en los cinco minutos anteriores a una reunión",
