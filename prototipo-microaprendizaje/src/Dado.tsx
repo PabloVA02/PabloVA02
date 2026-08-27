@@ -11,8 +11,6 @@ import {
 import { Portada, type Libro } from "./Biblioteca";
 import { spring, springPop } from "./motion";
 import { GlyphClose } from "./glyphs";
-import lottie, { type AnimationItem } from "lottie-web/build/player/lottie_light";
-import datosDado from "./dado-noto.json";
 
 /* ==========================================================================
    EL DADO Y LA TRAGAPERRAS
@@ -205,45 +203,49 @@ function tirada(libros: Libro[], ganador: Libro): Libro[] {
 /* --------------------------------------------------------------------------
    EL DADO DE LA CABECERA
 
-   No está dibujado aquí: es la animación del emoji 🎲 de Noto Animated Emoji,
-   de Google, hecha por sus animadores.
+   Simple, plano y de frente. Aquí han pasado dos por delante y los dos los
+   devolvió Pablo:
 
-   POR QUÉ. El primero era nuestro: un cuadrado redondeado de oro con cinco
-   puntos, que se meneaba cada cinco segundos. Pablo lo devolvió —«pon otro
-   mucho más bonito con animación que encuentres por ahí, que sea más
-   profesional»— y tenía razón: un icono plano al que se le mueve el ángulo no
-   es un dado rodando, es un icono al que se le mueve el ángulo. El de Noto
-   rueda de verdad: el cubo gira sobre sus tres ejes, cae, rebota, se asienta y
-   los puntos aparecen al final, con la sombra siguiéndolo por debajo. Eso lo
-   hace un animador con curvas a mano, fotograma a fotograma.
+   · El primero era mío: un cuadrado de oro con cinco puntos rojos, que se
+     meneaba cada cinco segundos. «Pon otro mucho más bonito con animación que
+     encuentres por ahí, que sea más profesional.» Tenía razón en el
+     movimiento —un icono al que se le mueve el ángulo no es un dado rodando—
+     y de paso el oro con el rojo encima daba poquísimo contraste.
+   · El segundo fue la animación del emoji 🎲 de Noto, de Google: un cubo en
+     tres dimensiones girando sobre sus ejes, cayendo y rebotando. «Nada, muy
+     feo… haz un dado más simple, que se vea bien que es un dado.» Y también
+     tenía razón, aunque cueste: a veintiséis puntos, un cubo en perspectiva
+     enseña TRES caras a la vez, con sus sombras y sus brillos, y lo que llega
+     al ojo es una mancha gris con puntos. Un dibujo precioso a 200 puntos no
+     es un buen icono a 26. Fuera, y con él sus 178 kB de JSON.
 
-   Y AQUÍ SÍ SE PODÍA. Con el rodillo no se podía —una animación cerrada no
-   admite nuestras cubiertas dentro—, pero un dado es un dibujo que no
-   necesita saber nada de nosotros. Es la misma decisión, y la misma fuente,
-   que la llama de la racha: ver `Llama.tsx`.
+   LO QUE HAY AHORA es lo que hace cualquier icono que se lee a la primera:
+   una cara, de frente, sin perspectiva. Un cuadrado redondeado de color crema
+   —el papel de la app— con los puntos en tinta. Dos colores, dos formas, y a
+   cualquier tamaño se ve que es un dado.
 
-   LA LICENCIA. Noto Animated Emoji va con CC BY 4.0: se puede usar en un
-   producto comercial y hay que citar la autoría. Está en
-   `CREDITOS-IMAGENES.md` y en la pantalla de ajustes. Si algún día se quita la
-   atribución, hay que quitar también el fichero: no es opcional.
-
-     dado-noto.json    fonts.gstatic.com/s/e/notoemoji/latest/1f3b2/lottie.json
-                       122 fotogramas a 60/s, 178 kB, sin dependencias de fuera
-
-   CÓMO SE COMPORTA, que es lo que lo separa de un GIF pegado ahí:
-
-   · NO va en bucle. Un dado rodando sin parar en la esquina de la pantalla
-     es un anuncio, y además cansa. Rueda al abrir la app, rueda cada nueve
-     segundos, y rueda EN CUANTO SE TOCA, que es lo que hace que el gesto se
-     sienta contestado antes incluso de que se abra la máquina.
-   · Entre tirada y tirada se queda parado en su último fotograma, o sea con
-     su cara quieta, como un dado de verdad encima de la mesa.
-   · Con `prefers-reduced-motion` no rueda nunca: se queda en la cara final
-     desde el principio.
+   Y RUEDA DE VERDAD, que es lo que le faltaba al primero: al tocarlo da una
+   vuelta entera y CAMBIA DE CARA a mitad de giro, cuando está de canto y no
+   se le ve. Eso es lo que hace que se lea como una tirada y no como un icono
+   girando: lo que convence no es el giro, es que el número sea otro al
+   pararse.
    -------------------------------------------------------------------------- */
 
+/** Dónde va cada punto, en la cuadrícula de tres por tres de la cara. */
+const IZQ = 15;
+const MED = 24;
+const DER = 33;
+const CARAS: Record<number, [number, number][]> = {
+  1: [[MED, MED]],
+  2: [[IZQ, IZQ], [DER, DER]],
+  3: [[IZQ, IZQ], [MED, MED], [DER, DER]],
+  4: [[IZQ, IZQ], [DER, IZQ], [IZQ, DER], [DER, DER]],
+  5: [[IZQ, IZQ], [DER, IZQ], [MED, MED], [IZQ, DER], [DER, DER]],
+  6: [[IZQ, IZQ], [IZQ, MED], [IZQ, DER], [DER, IZQ], [DER, MED], [DER, DER]],
+};
+
 export function GlyphDado({
-  tamano = 24,
+  tamano = 30,
   /** Sube uno cada vez que se toca: cada cambio lanza una tirada. */
   tirada: pulsos = 0,
 }: {
@@ -251,52 +253,63 @@ export function GlyphDado({
   tirada?: number;
 }) {
   const reducido = !!useReducedMotion();
-  const caja = useRef<HTMLDivElement>(null);
-  const anim = useRef<AnimationItem | null>(null);
+  const [cara, setCara] = useState(5);
+  const controles = useAnimationControls();
+  const primera = useRef(true);
 
+  const rodar = useMemo(
+    () => () => {
+      if (reducido) return;
+      /* La cara nueva se pone a mitad de giro, con el dado de canto: cambiarla
+         al empezar o al acabar se ve, y entonces parece un icono al que le
+         cambian el dibujo en vez de un dado que ha rodado. */
+      window.setTimeout(() => setCara((c) => {
+        let n = c;
+        while (n === c) n = 1 + Math.floor(Math.random() * 6);
+        return n;
+      }), 210);
+      controles.start({
+        rotate: [0, 360],
+        scale: [1, 0.88, 1.06, 1],
+        transition: { duration: 0.62, times: [0, 0.4, 0.75, 1], ease: [0.2, 0.75, 0.3, 1] },
+      });
+    },
+    [controles, reducido],
+  );
+
+  /* Al tocarlo. La primera pasada se salta: `pulsos` arranca en cero y el
+     efecto se dispara una vez al montar, y un dado que rueda solo nada más
+     abrir la app parece un fallo. */
   useEffect(() => {
-    if (!caja.current) return;
-    const a = lottie.loadAnimation({
-      container: caja.current,
-      renderer: "svg",
-      loop: false,
-      autoplay: !reducido,
-      animationData: datosDado as unknown as Record<string, unknown>,
-    });
-    /* Un pelo más lento que a la suya: a velocidad original la tirada dura
-       dos segundos justos y el rebote del final pasa demasiado deprisa para
-       verse a veinticuatro puntos de tamaño. */
-    a.setSpeed(0.92);
-    if (reducido) a.goToAndStop(a.totalFrames - 1, true);
-    anim.current = a;
-    return () => {
-      a.destroy();
-      anim.current = null;
-    };
-  }, [reducido]);
+    if (primera.current) {
+      primera.current = false;
+      return;
+    }
+    rodar();
+  }, [pulsos, rodar]);
 
-  /* La tirada de cada nueve segundos. No es adorno: sin ella el dado es un
-     icono más de una fila de iconos y nadie lo toca; con ella pide que lo
-     pulses, que es exactamente lo que hay que hacer con él. */
+  /* Y cada nueve segundos, para que se vea que se puede tocar. Sin esto es un
+     icono más de una fila de iconos y nadie lo pulsa. */
   useEffect(() => {
     if (reducido) return;
-    const t = setInterval(() => anim.current?.goToAndPlay(0, true), 9000);
-    return () => clearInterval(t);
-  }, [reducido]);
-
-  /* Y la tirada al tocarlo. */
-  useEffect(() => {
-    if (reducido || !pulsos) return;
-    anim.current?.goToAndPlay(0, true);
-  }, [pulsos, reducido]);
+    const t = window.setInterval(rodar, 9000);
+    return () => window.clearInterval(t);
+  }, [rodar, reducido]);
 
   return (
-    <div
-      ref={caja}
-      className="dado-noto"
-      style={{ width: tamano, height: tamano }}
+    <motion.svg
+      viewBox="0 0 48 48"
+      width={tamano}
+      height={tamano}
+      animate={controles}
+      style={{ display: "block" }}
       aria-hidden
-    />
+    >
+      <rect x="5" y="5" width="38" height="38" rx="9.5" fill="#f2ece1" />
+      {CARAS[cara].map(([x, yy], i) => (
+        <circle key={i} cx={x} cy={yy} r="3.7" fill="#17151c" />
+      ))}
+    </motion.svg>
   );
 }
 

@@ -14,12 +14,11 @@ enlace— y este fichero se regenera con `node scripts/creditos.mjs`.
 
 ## Lo que no es una imagen de Commons
 
-**La llama de la racha y el dado de la cabecera** son dos animaciones de **Noto
-Animated Emoji**, de Google: el emoji de fuego U+1F525 (`fuego-noto.json`) y
-el del dado U+1F3B2 (`dado-noto.json`). Van bajo **CC BY 4.0**, que permite el
-uso comercial y obliga a citar la autoría: esta línea es esa cita, y va también
-en la pantalla de ajustes de la aplicación. Si algún día se quitara la
-atribución habría que quitar también los ficheros.
+**La llama de la racha** es la animación del emoji de fuego de **Noto Animated
+Emoji**, de Google (`fuego-noto.json`, del emoji U+1F525). Va bajo **CC BY
+4.0**, que permite el uso comercial y obliga a citar la autoría: esta línea es
+esa cita, y va también en la pantalla de ajustes de la aplicación. Si algún día
+se quitara la atribución habría que quitar también el fichero.
 
     https://googlefonts.github.io/noto-emoji-animation/
 

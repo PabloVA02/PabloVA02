@@ -9730,24 +9730,8 @@ button {
 .pastilla-dado {
   display: grid;
   place-items: center;
-  padding: 0 9px 0 11px;
+  padding: 0 11px 0 13px;
   height: 100%;
-}
-
-/* SIN RECORTAR, y esto costó un «muy feo» de Pablo. El dibujo de Noto trae su
-   propio aire alrededor —es un emoji, y los emojis se dibujan con margen para
-   que en una línea de texto no se toquen—, así que a 26 puntos se ve más
-   pequeño que el resto de los iconos de la fila. Se intentó arreglar
-   agrandándolo al 128 % y recortando lo que sobraba, y lo que se recortaba no
-   era el aire: eran las esquinas del cubo. El dado salía descabezado.
-
-   La manera correcta es la aburrida: se le da más sitio a la caja y el dibujo
-   entra entero, con su aire y su sombra, que además es lo que le da el
-   volumen. */
-.dado-noto {
-  display: grid;
-  place-items: center;
-  overflow: visible;
 }
 
 .trag {

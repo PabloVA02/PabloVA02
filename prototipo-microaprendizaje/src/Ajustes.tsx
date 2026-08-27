@@ -680,7 +680,7 @@ export function Ajustes({
         <Legal
           parrafos={[
             "Las fotografías de las historias son 2274 imágenes de Wikimedia Commons. Cada una se pide a Commons en el momento de mostrarla: la aplicación no las almacena ni las redistribuye. Su autor y su licencia van guardados junto a cada imagen.",
-            "La llama de la racha y el dado de la cabecera son animaciones de Noto Animated Emoji, de Google —los emojis de fuego y de dado—, bajo licencia Creative Commons Reconocimiento 4.0 (CC BY 4.0). googlefonts.github.io/noto-emoji-animation",
+            "La llama de la racha es la animación del emoji de fuego de Noto Animated Emoji, de Google, bajo licencia Creative Commons Reconocimiento 4.0 (CC BY 4.0). googlefonts.github.io/noto-emoji-animation",
             "Las cubiertas de los libros están dibujadas para Curva y no proceden de ninguna colección externa.",
             "La lista completa, imagen a imagen y con su licencia, está publicada en el repositorio del proyecto.",
           ]}
