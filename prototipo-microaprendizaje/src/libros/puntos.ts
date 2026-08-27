@@ -81,7 +81,7 @@
 export const PUNTOS: Record<string, string[]> = {
   "historia-mundo-objetos": [
     "las tres preguntas que se le hacen a un objeto para que hable",
-    "por qué el metal de una estatua miente menos que la crónica de su rey",
+    "por qué el metal de una estatua miente menos que su inscripción",
     "qué demuestra que una técnica se repita durante cientos de miles de años",
     "cómo unos trozos de cerámica en una playa deshacen un mapa mental",
     "por qué quién guarda un objeto forma parte de su historia",
