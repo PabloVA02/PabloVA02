@@ -9864,6 +9864,18 @@ button {
   box-shadow:
     0 16px 30px rgba(0, 0, 0, 0.55),
     0 2px 8px rgba(0, 0, 0, 0.4);
+  transition:
+    transform 0.42s cubic-bezier(0.22, 1.1, 0.36, 1),
+    opacity 0.42s ease;
+}
+
+/* Al parar, el premiado da un paso adelante y los dos vecinos se retiran. No
+   es adorno: en una fila de tres libros iguales el ojo no sabe cuál ha tocado
+   hasta que lee el título, y para eso está el marco de oro Y esto. */
+.trag-libro[data-premio="si"] { transform: scale(1.045); }
+.trag-libro[data-premio="no"] {
+  transform: scale(0.94);
+  opacity: 0.5;
 }
 
 /* `!important` y no es dejadez: `Portada` escribe su lado en el atributo
@@ -9959,6 +9971,25 @@ button {
 /* El panel del resultado. Flota sobre el rodillo, no le quita alto. El
    degradado sube bastante más arriba que el texto: es lo que hace que el libro
    de la casilla de abajo se apague en vez de cortarse contra un canto. */
+/* El reflejo del cristal por el que se mira el rodillo. Una banda de luz que
+   cruza en diagonal, muy baja de tinta: al 6 % se nota que hay algo delante y
+   no lava las cubiertas. Es lo que separa «una lista que se mueve» de «una
+   máquina». */
+.trag-cristal {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  pointer-events: none;
+  background: linear-gradient(
+    104deg,
+    rgba(255, 255, 255, 0) 26%,
+    rgba(255, 255, 255, 0.055) 40%,
+    rgba(255, 255, 255, 0.075) 47%,
+    rgba(255, 255, 255, 0.02) 54%,
+    rgba(255, 255, 255, 0) 68%
+  );
+}
+
 .trag-pie {
   position: absolute;
   left: 0;

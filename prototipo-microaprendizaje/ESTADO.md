@@ -379,16 +379,33 @@ puede deshacer sin romperlo:
 - **El filtro va sobre la caja de la VENTANA, no sobre la tira.** La ventana
   mide 292 de alto y la tira casi cinco mil: puesto sobre la tira, el navegador
   filtraría cinco mil puntos en cada fotograma para enseñar 292.
-- **La frenada es a dos tiempos**, como una máquina de verdad: trece libros a
-  velocidad constante y luego la curva de freno, con la bézier CALCULADA para
-  empalmar sin tirón (la pendiente de salida es `y1/x1` y tiene que valer lo
-  que valga la velocidad que trae partido por su media). Frenar desde el
-  primer fotograma quita el único momento de «esto va a toda pastilla».
+- **La frenada es a CINCO tiempos**, como una máquina de verdad: el tirón
+  hacia atrás de la palanca, coger velocidad, el crucero en línea recta, la
+  frenada y el tope con muelle. Las curvas están CALCULADAS para empalmar sin
+  tirón —la pendiente de entrada de una bézier es `y1/x1` y tiene que valer la
+  velocidad que trae partida por su media—, y las duraciones salen de una
+  velocidad contada EN CASILLAS por segundo, así que no dependen del tamaño y
+  el rodillo va igual de rápido en cualquier pantalla. Si se cambia una de
+  esas constantes hay que rehacer la cuenta; está escrita al lado.
 - **Doce cubiertas distintas repetidas**, no una por casilla. Con veintinueve,
   el navegador tiene que descomprimir veintinueve imágenes en el primer
   fotograma y el rodillo arranca con las casillas en blanco.
-- **Las casillas tienen forma de LIBRO**, no de azulejo: 170 por 230, con el
-  lomo a la izquierda y el canto de las hojas a la derecha.
+- **LA CASILLA ES 2:3 Y NO SE TOCA.** Es la proporción exacta en la que Pablo
+  dibuja las cubiertas —1024 × 1536, lo dice la cabecera de `cubiertas.ts`—, y
+  con esa misma proporción el `object-fit: cover` de la imagen no recorta
+  nada. De aquí venía «los libros siguen sin verse enteros, hay partes
+  cortadas»: la casilla era 0,74 y una cubierta de 0,667 metida ahí se corta
+  por arriba y por abajo. No era la ventana cortando los libros, era la
+  casilla cortando el dibujo. Si algún día cambia la proporción de las
+  cubiertas, cambia `FORMA` en `Dado.tsx`.
+- **El tamaño lo decide la pantalla, no una cifra a mano.** La ventana medía
+  738 fijos y en cuanto la pantalla es más baja —y el visor del artefacto lo
+  es— los libros de los extremos se cortan contra el filo. Ahora se mide el
+  hueco con un `ResizeObserver` y se reparte en tres casillas exactas:
+  comprobado a 812, 700 y 640 de alto, siempre tres libros y siempre enteros.
+  Y se reservan 46 arriba para el rótulo y 12 abajo: un libro que toca el
+  borde de la pantalla se LEE como cortado aunque esté entero.
+- Con el lomo a la izquierda y el canto de las hojas a la derecha.
 - **La ventana mide TRES CASILLAS EXACTAS y el número tiene que ser IMPAR.**
   Es lo que hace que no se corte ningún libro: con un número impar el centro de
   la ventana cae en el centro de una casilla, así que el premiado queda
