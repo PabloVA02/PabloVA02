@@ -108,7 +108,7 @@ export const CURIOSIDADES: Short[] = [
       {
         rotulo: "Lo que quedó",
         texto:
-          "Cuando al núcleo se le acabe el hidrógeno, el Sol hará algo que parece contradictorio: el centro se contraerá y las capas de fuera se hincharán muchísimo. Se convertirá en una gigante roja, más fría en la superficie y enorme, y se comerá a Mercurio y a Venus. Con la Tierra el cálculo está justo: habrá perdido masa y nuestra órbita se habrá ensanchado, así que puede que se salve por poco o puede que no. Después expulsará sus capas exteriores y quedará el núcleo desnudo: una enana blanca del tamaño de la Tierra, enfriándose durante billones de años. Para entonces hará cuatro mil millones que aquí no queda nadie a quien alumbrar.",
+          "Cuando al núcleo se le acabe el hidrógeno, el Sol hará algo que parece contradictorio: el centro se contraerá y las capas de fuera se hincharán muchísimo. Se convertirá en una gigante roja y se tragará Mercurio y Venus. Con la Tierra el cálculo está justo: puede que se salve por poco y puede que no. Después soltará sus capas y quedará el núcleo desnudo, una enana blanca del tamaño de la Tierra. Para entonces hará mucho que aquí no queda nadie a quien alumbrar.",
       },
     ],
   },

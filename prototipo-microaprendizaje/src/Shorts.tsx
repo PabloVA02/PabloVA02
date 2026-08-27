@@ -584,7 +584,7 @@ function PaginaShort({
             página. Todo eso recortaba el cuadro por su cuenta, y Pablo pidió
             que la foto se vea como la pasa. Aquí es lo que es: recortada al
             alto de la banda y centrada donde diga su foco. */}
-        <div className="muro-foto" data-portada={portada} data-ultima={ultima}>
+        <div className="muro-foto" data-portada={portada}>
           <Fotografia
             foto={fotoDe(short, paso)}
             Respaldo={respaldoDe(short)}

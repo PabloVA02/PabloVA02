@@ -10302,8 +10302,8 @@ button {
    medida de letra —que es la regla de Pablo— sin que ninguna deje un hueco.
 
      portada   42 %   sesenta palabras, el titular y el gancho
-     dentro    36 %   ciento diez palabras y su rótulo
-     la última 22 %   lo mismo, más los dos botones y el «siguiente short»
+     las tres  36 %   ciento diez palabras y su rótulo; la última, 85, porque
+                      lleva además los dos botones y el «siguiente short»
 
    Medido en un móvil de 430 × 860 con `--ajuste` a 1 en las cuatro. En otros
    tamaños la proporción cambia sola: las alturas van en tanto por ciento y lo
@@ -10320,19 +10320,32 @@ button {
    portada lleva cincuenta y seis palabras y una página lleva ciento diez.
    Entre una imagen más grande y el texto a su tamaño, manda el texto. */
 
-/* Y la última página lleva encima los dos botones y el «siguiente short»:
-   ciento diecinueve puntos que las otras no gastan. Sin descontarlos de algún
-   sitio, el texto de la última se encogía al 86 % mientras el de la segunda
-   iba al 100 %, y la regla de Pablo es que las cuatro pantallas de una
-   historia se lean con la MISMA medida. Se descuentan de la banda, que es el
-   orden de siempre: la fotografía cede antes que el texto. */
-.muro-foto[data-ultima="true"] { height: 22%; }
+/* LA ÚLTIMA PANTALLA LLEVA LA MISMA BANDA QUE LAS OTRAS DOS, y eso costó una
+   decisión que conviene entender antes de tocarla.
 
-/* En las pantallas bajas las tres ceden, y en el mismo orden. */
+   Estuvo al 22 %. El motivo era bueno: esa pantalla lleva encima los dos
+   botones y el «siguiente short», ciento diecinueve puntos que las otras no
+   gastan, así que al 36 % el texto no cabía y encogía al 86 % mientras el de
+   la segunda iba al 100 %. Bajando la banda, las cuatro se leían con la misma
+   letra.
+
+   Pablo lo vio y decidió al revés, mirando la nebulosa de la Hélice reducida a
+   una rendija: «la última foto debe ser más grande, como la de la Tierra al
+   menos; la portada un poco más grande que las demás y las otras tres del
+   mismo tamaño». Y tiene razón: de las dos cosas que se pueden igualar —el
+   alto de la letra o el tamaño de la fotografía—, la que se ve al deslizar es
+   la fotografía. Un cuerpo de letra un 14 % menor no se nota pasando; una foto
+   que ocupa la mitad que la anterior, sí.
+
+   Así que lo que cede es el TEXTO de la última página: unas 85 palabras en vez
+   de 110. No es un recorte forzado, es lo que ya decía `MOLDE.md` —«la última
+   página puede quedarse corta y no pasa nada: ahí se acaba la historia»—, y
+   ahora además está medido. */
+
+/* En las pantallas bajas las dos ceden, y en el mismo orden de siempre. */
 @media (max-height: 700px) {
   .muro-foto { height: 26%; }
   .muro-foto[data-portada="true"] { height: 40%; }
-  .muro-foto[data-ultima="true"] { height: 16%; }
 }
 
 /* ---- 2 y 3. El pie de foto, y el borde que se disuelve -------------------

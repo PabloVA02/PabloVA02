@@ -358,16 +358,27 @@ una fotografía cuadrada entraba por una rendija —del disco solar entero se ve
 dos tercios— y a la vez sobraba sitio abajo. Ahora cada pantalla le da al texto
 el sitio que necesita y la fotografía se queda con el resto:
 
-| pantalla | banda | por qué |
+| pantalla | banda | texto |
 |---|---|---|
-| portada | 42 % | 56 palabras, el titular y el gancho |
+| portada | 42 % | 56 palabras, con el titular y el gancho |
 | páginas 1 y 2 | 36 % | 110 palabras y su rótulo |
-| la última | 22 % | lo mismo, más los dos botones y el «siguiente short» |
+| la última | 36 % | **85 palabras**, porque lleva además los dos botones |
 
-Con esas tres alturas las cuatro pantallas se leen con la **misma medida de
-letra**, que es la regla, y ninguna deja un hueco. Si aun así el texto no cabe,
-la letra encoge sola hasta un 86 % —`useAjusteDeTexto`—; que una historia llegue
-a ese suelo significa que hay que acortarle el texto, no cambiar la maqueta.
+**La última lleva la misma banda que las otras dos y menos texto**, y no al
+revés. Estuvo al 22 % para que le cupieran las 110 palabras, y Pablo lo cambió
+mirando la nebulosa de la Hélice reducida a una rendija: «la última foto debe
+ser más grande, como la de la Tierra al menos; la portada un poco más grande
+que las demás y las otras tres del mismo tamaño».
+
+Y es lo correcto: de las dos cosas que se pueden igualar —el alto de la letra o
+el tamaño de la fotografía—, la que se ve al deslizar es la fotografía. Un
+cuerpo de letra un 14 % menor no se nota pasando; una foto que ocupa la mitad
+que la anterior, sí.
+
+Con esas alturas las cuatro pantallas se leen con la **misma medida de letra**
+y ninguna deja un hueco. Si aun así el texto no cabe, la letra encoge sola
+hasta un 86 % —`useAjusteDeTexto`—; que una historia llegue a ese suelo
+significa que hay que acortarle el texto, no cambiar la maqueta.
 
 **El crédito de la imagen va SOBRE la imagen**, no debajo. Debajo era lo segundo
 que se leía de la pantalla: cuatro renglones de gris entre lo que engancha y lo
@@ -431,7 +442,7 @@ una prueba en vez de en un adorno.
 | `titulo` | 3–6 palabras y **27 letras como mucho**: tiene que caber en una línea |
 | `gancho` | una frase y **90 letras como mucho**: va en la portada y cabe en dos líneas |
 | `entrada` | **unas 56 palabras** (48–66) |
-| `texto` de cada página | unas 110 palabras |
+| `texto` de cada página | unas 110 palabras · **la última, 85** |
 | `rotulo` | 2–4 palabras; se pinta encima de su párrafo |
 | `autor` (el pie de foto) | **140 letras como mucho**: va sobre la imagen y cabe en dos renglones |
 | `destacado` | cifra y hasta 6 palabras, con información que no esté en el texto |
@@ -450,10 +461,11 @@ en vez de dejar un hueco muerto, y eso es lo que da las cifras de arriba: con
 la letra a 17 puntos y la banda al 36 %, una página se llena con unas 110
 palabras.
 
-**La última página puede quedarse corta y no pasa nada**: ahí se acaba la
-historia, y que sobre aire abajo es lo que tiene que pasar cuando algo termina.
-Lo que no cambia es nada más — mismo fondo, misma letra, mismos márgenes que
-las otras tres.
+**La última página se queda corta a propósito**: unas 85 palabras, no 110. Ahí
+se acaba la historia, y además esa pantalla lleva encima los dos botones y el
+«siguiente short», que le comen ciento diecinueve puntos. Lo que no cambia es
+nada más — mismo fondo, misma letra, misma banda de imagen y mismos márgenes
+que las otras tres.
 
 `curioso: true` cuando la historia es un dato curioso y no un
 acontecimiento: se pinta la insignia «Dato curioso» en la portada.
