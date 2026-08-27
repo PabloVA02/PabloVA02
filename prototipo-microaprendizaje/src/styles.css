@@ -10250,3 +10250,213 @@ button {
   color: rgba(255, 255, 255, 0.52);
 }
 .stap-nota strong { color: #f2ece1; font-weight: 700; }
+
+/* ==========================================================================
+   EL SHORT, AJUSTADO — 27 de agosto de 2026
+
+   Pablo borró los 761 shorts para empezar por curiosidades y preguntas
+   cotidianas, y antes de escribir ninguna quiso cerrar la forma: «primero
+   vamos a hacer el diseño de los short para que queden bonitos […] pon un
+   ejemplo de short solo, el del sol con su foto que te pasé, y vamos
+   ajustando el diseño».
+
+   Con una sola historia delante y una fotografía de verdad se vieron cinco
+   cosas que con setecientas no se veían. Ninguna es de gusto; las cinco son
+   fallos de maqueta que llevaban meses ahí.
+
+     1  La banda de imagen se comía la fotografía. Al 28 % de alto, una foto
+        cuadrada entra por una rendija: del disco solar entero —que ocupa el
+        60 % del cuadro— se veían dos tercios, cortado por arriba y por abajo.
+        En la portada sube al 42 %, y dentro del 28 % al 36 %: ahí una imagen
+        cuadrada ya cabe casi entera, que era lo que faltaba.
+
+     2  El pie de foto se leía antes que el titular. Cuatro renglones de gris
+        entre la fotografía y el título, o sea entre lo que engancha y lo que
+        promete. Se va encima de la imagen, apoyado en el degradado.
+
+     3  La banda cortaba en seco. Una línea recta entre la foto y la página,
+        y encima con dos colores que no se parecen. El mismo degradado del pie
+        disuelve el borde: la fotografía se acaba en la página en vez de
+        chocar con ella.
+
+     4  El gancho y el rótulo se escribían y no se pintaban. Estaban en el
+        tipo, en `MOLDE.md` y en las setecientas historias. La portada saltaba
+        del titular al primer párrafo, y las tres páginas de dentro eran la
+        misma mancha de texto sin nada que dijera al ojo dónde está.
+
+     5  Y el texto se salía de su caja. Ver `useAjusteDeTexto`.
+
+   Va después del bloque de la maqueta porque lo afina: allí está la retícula
+   aprobada —una medida de lectura, los mismos márgenes por los cuatro lados,
+   el titular espaciado— y eso no se toca.
+   ========================================================================== */
+
+/* ---- 1. La banda de imagen ----------------------------------------------
+   Tres alturas y las tres salen de la misma cuenta, no del ojo: se le da al
+   texto EXACTAMENTE el sitio que necesita y la fotografía se queda con el
+   resto. Con eso las cuatro pantallas de una historia se leen con la misma
+   medida de letra —que es la regla de Pablo— sin que ninguna deje un hueco.
+
+     portada   42 %   sesenta palabras, el titular y el gancho
+     dentro    36 %   ciento diez palabras y su rótulo
+     la última 22 %   lo mismo, más los dos botones y el «siguiente short»
+
+   Medido en un móvil de 430 × 860 con `--ajuste` a 1 en las cuatro. En otros
+   tamaños la proporción cambia sola: las alturas van en tanto por ciento y lo
+   que sobre o falte lo recoge `useAjusteDeTexto`. */
+.muro-foto { height: 36%; }
+.muro-foto[data-portada="true"] { height: 42%; }
+
+/* Dentro sube del 28 % al 36 %. Al 28 % la página se quedaba con doscientos
+   treinta y seis puntos de suelo vacío, y no porque faltara texto: sobraba
+   sitio. Al 36 % una página de las largas —ciento nueve palabras— deja el
+   aire justo y nada más.
+
+   Y no sube al 42 % como la portada, aunque la fotografía luciría más: la
+   portada lleva cincuenta y seis palabras y una página lleva ciento diez.
+   Entre una imagen más grande y el texto a su tamaño, manda el texto. */
+
+/* Y la última página lleva encima los dos botones y el «siguiente short»:
+   ciento diecinueve puntos que las otras no gastan. Sin descontarlos de algún
+   sitio, el texto de la última se encogía al 86 % mientras el de la segunda
+   iba al 100 %, y la regla de Pablo es que las cuatro pantallas de una
+   historia se lean con la MISMA medida. Se descuentan de la banda, que es el
+   orden de siempre: la fotografía cede antes que el texto. */
+.muro-foto[data-ultima="true"] { height: 22%; }
+
+/* En las pantallas bajas las tres ceden, y en el mismo orden. */
+@media (max-height: 700px) {
+  .muro-foto { height: 26%; }
+  .muro-foto[data-portada="true"] { height: 40%; }
+  .muro-foto[data-ultima="true"] { height: 16%; }
+}
+
+/* ---- 2 y 3. El pie de foto, y el borde que se disuelve -------------------
+   Una sola pieza hace las dos cosas. El degradado sube desde el color de la
+   página hasta nada, así que por abajo la fotografía ES la página —no hay
+   línea— y a media altura ya hay fondo suficiente para que un pie de dos
+   renglones se lea sobre cualquier imagen, clara u oscura.
+
+   Es el color de la página y no un negro cualquiera: con un negro, sobre el
+   fondo gris de la app, quedaría una banda más oscura flotando bajo la foto,
+   que es justo el borde que se venía a quitar. */
+.muro-credito {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 11cqw 5.8cqw 3cqw;
+  font-size: 2.65cqw;
+  line-height: 1.4;
+  letter-spacing: 0;
+  font-style: italic;
+  color: color-mix(in srgb, var(--ink) 62%, transparent);
+  opacity: 1;
+  background: linear-gradient(
+    to top,
+    var(--paper) 0%,
+    color-mix(in srgb, var(--paper) 88%, transparent) 34%,
+    color-mix(in srgb, var(--paper) 40%, transparent) 68%,
+    transparent 100%
+  );
+}
+
+/* ---- 4a. El gancho ------------------------------------------------------
+   La promesa. Va en el crema vivo, con más peso que el párrafo y el mismo
+   cuerpo: tres voces —titular, promesa, relato— separadas por color y peso y
+   no por tamaño, que en media pantalla no da para tres escalones. */
+.muro-gancho {
+  font-family: var(--serifa);
+  margin: 0;
+  font-size: calc(var(--medida, 4.55cqw) * var(--ajuste, 1));
+  line-height: 1.42;
+  font-weight: 600;
+  letter-spacing: -0.006em;
+  color: var(--ink);
+}
+
+/* ---- 4b. El rótulo de cada página ---------------------------------------
+   Dos o tres palabras en el color de la historia. Es lo único de la pantalla
+   que lleva el acento, así que no hace falta que sea grande para que se vea:
+   sobre el gris del texto, el color ya es el subrayado. */
+.short-rotulo {
+  font-family: var(--sans);
+  margin: 0 0 2.4cqw;
+  font-size: 2.95cqw;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--acento, var(--ochre));
+}
+
+/* El rótulo y su párrafo son una pieza, y la pieza empieza ARRIBA, pegada al
+   pie de foto.
+
+   Antes el texto colgaba del pie de la pantalla. Aquello arreglaba un
+   problema de entonces —sin foto grande y con el dato de abajo quitado, un
+   bloque corto se quedaba a media pantalla— y con la banda al 36 % crea uno
+   peor: el sobrante se junta todo ARRIBA, entre la fotografía y el texto, y
+   entonces la imagen se despega de lo que cuenta. Doscientos puntos de nada
+   en mitad de la pantalla se leen como una avería.
+
+   Colgado de arriba, el sobrante cae al pie, encima de la barra de pestañas,
+   donde se lee como lo que es: el margen de abajo. Y hay una segunda razón,
+   que para leer cuatro pantallas seguidas pesa más: así el texto empieza
+   SIEMPRE a la misma altura. El ojo aprende dónde está la primera línea una
+   vez y ya no la busca en las tres siguientes. */
+.short-bloque {
+  display: flex;
+  flex-direction: column;
+}
+.short-cuerpo { margin-top: 0; }
+
+/* ---- 5. El texto, ajustado a su caja ------------------------------------
+   `--ajuste` lo calcula `useAjusteDeTexto` midiendo el texto ya pintado. Aquí
+   solo hay que dejar que llegue a todo lo que ocupa alto: el párrafo, el
+   gancho y la capitular. La capitular va en `em` para que siga al párrafo
+   sola, sin repetir la cuenta.
+
+   `--medida` existe para lo mismo: la medida de lectura la fijaban tres
+   reglas sueltas —4,55 normal, 4,4 en pantallas bajas, 4,25 en las muy
+   bajas— y multiplicar en tres sitios es olvidarse en uno. Ahora la medida
+   es una variable de la pantalla y el ajuste la multiplica una sola vez. */
+.muro-pagina { --medida: 4.55cqw; }
+@media (max-height: 780px) { .muro-pagina { --medida: 4.4cqw; } }
+@media (max-height: 700px) { .muro-pagina { --medida: 4.25cqw; } }
+
+.muro-entrada,
+.short-cuerpo { font-size: calc(var(--medida, 4.55cqw) * var(--ajuste, 1)); }
+
+.muro-entrada::first-letter { font-size: 2.97em; }
+
+/* Y el cinturón: si una historia toca el suelo del 86 % y aun así se sale,
+   se corta por abajo antes que pintarse encima del «Seguir». Lo primero es
+   feo y se ve; lo segundo es ilegible y no se nota hasta que alguien lo lee.
+   No debería pasar nunca —`scripts/cabe.mjs` lo canta antes de publicar—,
+   pero el texto lo escribe una persona y esto no depende de que se acuerde. */
+.muro-hoja-cuerpo { overflow: hidden; }
+
+/* ---- El sitio de la barra de pestañas ----
+   La hoja se reserva 64 puntos abajo para la barra de la app. Se escribe como
+   variable porque estaba sumado a mano en dos sitios —el `padding` normal y
+   el de las pantallas bajas— y en el segundo se olvidaba con facilidad.
+
+   El mirador de shorts NO la pone a cero, y es a propósito. Pablo lo pidió
+   «para hacerme una idea exacta de cómo lo vería el usuario»: si allí el
+   texto dispone de 64 puntos que en la app no existen, lo que apruebe mirando
+   el mirador no es lo que va a ver. El mirador dibuja la barra —quieta, sin
+   pulsar— en `main-shorts.tsx`, y así la pantalla es la misma. */
+.muro-hoja,
+.muro-hoja[data-forma="portada"],
+.muro-hoja[data-forma="pagina"] {
+  padding-bottom: calc(6.4cqw + var(--barra, 64px));
+}
+@media (max-height: 780px) {
+  .muro-hoja,
+  .muro-hoja[data-forma="portada"],
+  .muro-hoja[data-forma="pagina"] {
+    padding-bottom: calc(5.4cqw + var(--barra, 64px));
+  }
+}

@@ -23,3 +23,18 @@ dist-artefacto/
 # Doscientos megas que solo sirven para no volver a pedírselos a Commons.
 fotos-cache/
 hoja-cubiertas.html
+
+# EL MIRADOR DE LOS SHORTS: el muro solo, con las fotografías a calidad de
+# verdad. Igual que `movil.html`, es un fichero generado que se publica; se
+# rehace con
+#   npx vite build --config vite.shorts.config.mjs
+#   node scripts/muro-demo.mjs 24 > /tmp/muro.json
+#   node scripts/movil.mjs --dist dist-shorts --muro /tmp/muro.json \
+#        --ancho 1000 --calidad 0.82 --tope 14 --pantalla shorts \
+#        --salida shorts.html
+#
+# La ENTRADA de vite es `mirador.html`, que sí va al repositorio: son diez
+# líneas de fuente. Se llamaban las dos igual y `movil.mjs` escribía encima de
+# la entrada, así que la compilación siguiente empaquetaba su propio resultado.
+shorts.html
+dist-shorts/

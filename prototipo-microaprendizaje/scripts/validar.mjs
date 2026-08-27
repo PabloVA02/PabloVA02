@@ -172,7 +172,13 @@ for (const s of SHORTS) temas.set(s.categoria, (temas.get(s.categoria) ?? 0) + 1
 
 console.log(`\n${SHORTS.length} historias · ${media} palabras de media · ${(media / PPM).toFixed(1)} min de lectura`);
 console.log([...temas].map(([t, n]) => `  ${t}: ${n}`).join("\n"));
-console.log(`  con fotografía: ${SHORTS.filter((s) => s.foto).length}/${SHORTS.length}`);
+/* Cuenta las que tienen alguna imagen, no solo las que la tienen en `foto`.
+   Las historias se escriben con `fotos: [...]` —una por pantalla— desde hace
+   meses, y este contador seguía mirando el campo viejo: decía «0 de 1» de un
+   short ilustrado con cuatro fotografías. */
+const conFoto = SHORTS.filter((s) => s.foto || s.fotos?.some(Boolean)).length;
+const conLasCuatro = SHORTS.filter((s) => s.fotos?.filter(Boolean).length >= 4).length;
+console.log(`  con fotografía: ${conFoto}/${SHORTS.length} · con las cuatro: ${conLasCuatro}`);
 
 if (avisos.length) console.log(`\nAvisos (${avisos.length})\n` + avisos.map((a) => `  · ${a}`).join("\n"));
 if (errores.length) console.log(`\nErrores (${errores.length})\n` + errores.map((e) => `  ✗ ${e}`).join("\n"));

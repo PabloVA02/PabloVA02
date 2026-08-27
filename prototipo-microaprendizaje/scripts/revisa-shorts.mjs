@@ -113,24 +113,23 @@ for (const ruta of ficheros) {
 
     const entrada = /entrada:\n\s+"((?:[^"\\]|\\.)*)"/.exec(b)?.[1] ?? "";
     const ne = palabras(entrada);
-    /* La entrada mide unas 100 palabras, y esto no es una cifra de gusto: es
-       lo que hace falta para que el texto llegue abajo con el mismo margen
-       que arriba. Medido en pantalla, con 100 palabras sobran 37 puntos bajo
-       el texto —el margen— y con 62 sobran 199, que son seis líneas de aire.
-       Pablo lo vio de un vistazo: «no ajustas bien el margen de abajo».
+    /* La entrada mide unas 56 palabras, y esto no es una cifra de gusto: es lo
+       que cabe en la portada de hoy. Medía 100 hasta el 27 de agosto y era
+       cierto entonces, con una banda de imagen del 28 % y sin el gancho
+       pintado. La portada de ahora lleva tres cosas donde llevaba dos —el
+       titular, el gancho y el párrafo— y la fotografía ocupa el 42 %: medido
+       en un móvil de 430 × 860, al párrafo le quedan seis líneas y media.
 
-       El número exacto no es el mismo para todos, y esto importa: depende de
-       si el título cabe en una línea o parte en dos, y de lo largas que sean
-       las palabras. Medido, el margen bueno sale con 100 palabras cuando el
-       título ocupa dos líneas y con 120 cuando ocupa una. Así que la regla de
-       verdad es «que el texto llegue abajo dejando una línea», y la horquilla
-       de aquí solo caza los que se pasan de largo o se quedan muy cortos.
+       Con 100 palabras el texto se salía de la caja y se pintaba ENCIMA del
+       «Seguir». Con 56 llega abajo dejando el margen justo y `--ajuste` se
+       queda en 1, que es la señal de que la letra no ha tenido que encoger.
+       Ver el bloque «EL SHORT, AJUSTADO» de `src/styles.css`.
 
-       El suelo se deja en 53 para que los 756 shorts escritos con la medida
-       vieja no revienten el validador de golpe. Se van subiendo por tandas, y
-       cuando no quede ninguno corto el suelo sube a 92. */
-    if (ne < 53 || ne > 128) aviso(id, `entrada de ${ne} palabras (100-125)`);
-    if (ne >= 53 && ne < 92) flojo(id, `entrada de ${ne} palabras: deja hueco abajo (unas 100)`);
+       La horquilla es 48-66. Por debajo de 48 la portada deja hueco; por
+       encima de 66 la letra empieza a encoger, y entonces esa historia se lee
+       más pequeña que la de al lado. */
+    if (ne < 44 || ne > 72) aviso(id, `entrada de ${ne} palabras (48-66)`);
+    if (ne >= 44 && ne < 48) flojo(id, `entrada de ${ne} palabras: deja hueco abajo (unas 56)`);
 
     const paginas = [...b.matchAll(/rotulo: "([^"]*)",\n\s+texto:\n\s+"((?:[^"\\]|\\.)*)"/g)];
 
@@ -209,6 +208,12 @@ for (const ruta of ficheros) {
        el título es un golpe de tres palabras y quien nombra al protagonista es
        el gancho, así que hay que mirar los dos. */
     const gancho = /gancho: "((?:[^"\\]|\\.)*)"/.exec(b)?.[1] ?? "";
+    /* Y de paso, su medida. El gancho tiene que caber en DOS líneas: va
+       debajo del titular y en negrita, y a tres se come justo lo que necesita
+       el párrafo de la portada. Medidas las dos líneas en una pantalla de
+       430, son 90 caracteres. */
+    if (gancho.length > 90)
+      flojo(id, `gancho de ${gancho.length} letras: se va a tres líneas (tope 90)`);
     const delTitulo = new Set(`${titulo} ${gancho}`.match(/[A-ZÁÉÍÓÚÑ][a-zá-úüñ]{2,}/g) ?? []);
     /* Un nombre de varias palabras —Juan Sebastián Elcano— es UN frenazo, no
        tres, así que primero se juntan las mayúsculas seguidas. */

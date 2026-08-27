@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useRef, useState, type ReactElement } from "react";
+import { useCallback, useEffect, useLayoutEffect, useRef, useState, type ReactElement } from "react";
 import {
   AnimatePresence,
   animate,
@@ -270,59 +270,25 @@ function Fotografia({
    recibe el suyo el día que se escribe y nadie tiene que acordarse de nada.
    -------------------------------------------------------------------------- */
 
-const ACENTOS = ["--clay", "--ochre", "--sage", "--plum", "--slate"] as const;
+/* --------------------------------------------------------------------------
+   EL COLOR DE UNA HISTORIA LO DECLARA LA HISTORIA.
 
-/* Los temas grandes llevan el color puesto a mano, porque el color dice de qué
-   se habla y eso no se deja al azar: lo que pasa hace mucho es naranja de
-   barro, lo que pasa en un laboratorio es azul pizarra, lo que crece es verde.
-   Los demás lo reciben por reparto, que para un tema de tres historias vale. */
-const COLOR_DEL_TEMA: Record<string, (typeof ACENTOS)[number]> = {
-  // De barro: el tiempo pasado
-  Historia: "--clay",
-  Figuras: "--clay",
-  España: "--clay",
-  Prehistoria: "--clay",
-  Faraones: "--clay",
-  Cruzadas: "--clay",
-  Vikingos: "--clay",
-  Arte: "--clay",
-  // Ocre: lo que se come, se bebe y se cuenta en dinero
-  Comida: "--ochre",
-  Cocina: "--ochre",
-  Dinero: "--ochre",
-  Empresas: "--ochre",
-  Especias: "--ochre",
-  // Verde: lo vivo
-  Plantas: "--sage",
-  Bichos: "--sage",
-  Cuerpo: "--sage",
-  Medicina: "--sage",
-  Bosques: "--sage",
-  Perros: "--sage",
-  // Ciruela: lo raro y lo que da miedo
-  Misterios: "--plum",
-  Crimen: "--plum",
-  Catástrofes: "--plum",
-  Creencias: "--plum",
-  Muerte: "--plum",
-  Venenos: "--plum",
-  // Pizarra: lo que se mide y lo que se fabrica
-  Ciencia: "--slate",
-  Tecnología: "--slate",
-  Objetos: "--slate",
-  Espacio: "--slate",
-  Cosmos: "--slate",
-  Matemáticas: "--slate",
-};
+   Aquí había una tabla que repartía cinco acentos por CATEGORÍA: todos los
+   shorts de Cocina de un color, todos los de Figuras de otro. Tenía sentido
+   con doscientos treinta y seis temas: el color decía de qué se hablaba antes
+   de leer una palabra.
 
-function acentoDe(short: Short) {
-  const t = short.categoria ?? "";
-  const puesto = COLOR_DEL_TEMA[t];
-  if (puesto) return `var(${puesto})`;
-  let n = 0;
-  for (let i = 0; i < t.length; i++) n = (n * 31 + t.charCodeAt(i)) >>> 0;
-  return `var(${ACENTOS[n % ACENTOS.length]})`;
-}
+   Con el muro de curiosidades ese reparto se vuelve del revés. Casi todo lo
+   que Pablo quiere contar —cuánto le queda al sol, por qué llueve, cómo
+   funciona un móvil— cae en Ciencia, así que la tabla pintaría el muro entero
+   de azul pizarra y el color dejaría de distinguir nada.
+
+   Y hacía algo peor: la capitular del Sol salía azul acero sobre una
+   fotografía de la corona en oro. El acento se ve SIEMPRE contra la imagen, y
+   quien elige la imagen es quien escribe la historia. Así que el color va en
+   el short, que es donde ya estaba escrito —`color: "var(--ochre)"`— y donde
+   llevaba desde el principio sin que nadie lo mirara.
+   -------------------------------------------------------------------------- */
 
 /**
  * Qué fotografía le toca a cada pantalla. `fotos` manda y `foto` es el
@@ -330,7 +296,14 @@ function acentoDe(short: Short) {
  * funcionando exactamente igual que antes.
  */
 function fotoDe(short: Short, paso: number) {
-  return short.fotos?.[paso] ?? short.foto;
+  /* Y si esa pantalla no tiene la suya, la de la portada. El tipo ya lo
+     prometía —«una historia con una sola imagen sigue funcionando: se queda
+     la misma las cuatro pantallas»— pero solo se cumplía cuando la única
+     imagen estaba escrita en `foto`. Escrita en `fotos: [una]`, que es como
+     se escriben todas, las tres pantallas de dentro se quedaban con el cartel
+     generado: un círculo plano detrás de una fotografía de la corona solar.
+     Repetir la buena es peor que tener cuatro, y mucho mejor que eso. */
+  return short.fotos?.[paso] ?? short.foto ?? short.fotos?.[0];
 }
 
 function respaldoDe(short: Short) {
@@ -495,6 +468,9 @@ function PaginaShort({
   const x = useMotionValue(0);
   const xHoja = useTransform(x, (v) => v * 0.92);
 
+  /* Mide el texto ya pintado y lo encoge si se sale. Ver `useAjusteDeTexto`. */
+  const ajusta = useAjusteDeTexto();
+
   // El cronómetro arranca cuando la historia se pone delante, no cuando se
   // monta: se montan todas a la vez al entrar en la sección.
   useEffect(() => {
@@ -569,7 +545,7 @@ function PaginaShort({
     <section
       className="muro-pagina"
       data-indice={indice}
-      style={{ ["--acento" as string]: acentoDe(short) }}
+      style={{ ["--acento" as string]: short.color }}
     >
       {/* El gesto vive en la página entera: se desliza desde cualquier punto,
           no hay que ir a buscar el texto de abajo. `touch-action: pan-y` deja
@@ -608,22 +584,32 @@ function PaginaShort({
             página. Todo eso recortaba el cuadro por su cuenta, y Pablo pidió
             que la foto se vea como la pasa. Aquí es lo que es: recortada al
             alto de la banda y centrada donde diga su foco. */}
-        <div className="muro-foto">
+        <div className="muro-foto" data-portada={portada} data-ultima={ultima}>
           <Fotografia
             foto={fotoDe(short, paso)}
             Respaldo={respaldoDe(short)}
             reducido={reducido}
             plana
           />
+          {/* El pie de la imagen, en las cuatro pantallas. No es una firma:
+              dice qué es lo que se está viendo, de qué año y de dónde salió.
+
+              VA DENTRO DE LA IMAGEN Y NO DEBAJO, y no es un capricho de
+              maqueta. Debajo, en su propio renglón, el pie era lo SEGUNDO que
+              se leía de la pantalla: cuatro líneas de gris entre la fotografía
+              y el titular, o sea entre lo que engancha y lo que promete. Un
+              crédito no se lee, se consulta. Encima de la imagen, apoyado en
+              el degradado con el que la banda se disuelve en la página, sigue
+              estando entero —la licencia CC BY-SA obliga y aquí se cumple— y
+              deja de interrumpir. */}
+          <p className="muro-credito">{fotoDe(short, paso)?.autor ?? short.encargo}</p>
         </div>
-        {/* El pie de la imagen, en las cuatro pantallas. No es una firma: dice
-            qué es lo que se está viendo, de qué año y de dónde salió. */}
-        <p className="muro-credito">{fotoDe(short, paso)?.autor ?? short.encargo}</p>
 
         <motion.div className="muro-hoja" data-forma={portada ? "portada" : "pagina"} style={{ x: xHoja }}>
           <AnimatePresence mode="wait" custom={sentido}>
             <motion.div
               key={paso}
+              ref={ajusta}
               className="muro-hoja-cuerpo"
               custom={sentido}
               // Se avanza tirando hacia la derecha, así que la pantalla que se
@@ -766,6 +752,82 @@ function useUnaLinea(texto: string) {
   return ref;
 }
 
+/**
+ * QUE EL TEXTO NO SE SALGA NUNCA DE SU CAJA.
+ *
+ * El 27 de agosto, con el muro reducido a una historia, se vio a la primera:
+ * la entrada del Sol rebosaba la hoja y las dos últimas líneas se pintaban
+ * ENCIMA del «Seguir». No era un fallo de esa historia. La hoja tiene el alto
+ * que tiene —lo que sobra de la pantalla después de la banda de imagen— y el
+ * texto se escribe a mano en un fichero, así que antes o después alguna
+ * entrada iba a pasarse. Con setecientas historias pasó y nadie lo vio, que
+ * es lo que hace peligroso a este fallo: no rompe nada, solo deja una
+ * pantalla ilegible cada tantas.
+ *
+ * Se mide con el texto YA PINTADO y se encoge lo justo, igual que el titular
+ * en `useUnaLinea`, porque lo que decide si cabe no es cuántas palabras hay
+ * sino cuánto miden en ESTE móvil: la misma entrada entra en un iPhone de 932
+ * de alto y se sale en un SE de 667.
+ *
+ * El suelo está en el 86 %. Por debajo se notaría que una historia se lee más
+ * pequeña que la de al lado, y eso es peor que el hueco: la regla de Pablo es
+ * que la portada y las tres páginas midan lo mismo entre ellas. Si una
+ * historia toca el suelo, lo que hay que arreglar es el texto —`scripts/
+ * cabe.mjs` lo dice antes de publicar—, no la maqueta.
+ */
+const SUELO_TEXTO = 0.86;
+
+function useAjusteDeTexto() {
+  const nodo = useRef<HTMLDivElement | null>(null);
+  const vigia = useRef<ResizeObserver | null>(null);
+  const midiendo = useRef(false);
+
+  const mide = useCallback(() => {
+    const e = nodo.current;
+    if (!e || midiendo.current) return;
+    midiendo.current = true;
+    e.style.setProperty("--ajuste", "1");
+    /* Se baja de dos en dos centésimas y no se calcula de una vez con una
+       regla de tres: el alto del texto no es proporcional al cuerpo de letra
+       —cambia el número de líneas, que es un salto— y una regla de tres se
+       pasa de largo o se queda corta. Son ocho vueltas como mucho. */
+    for (let f = 1; f > SUELO_TEXTO && e.scrollHeight > e.clientHeight + 1; ) {
+      f -= 0.02;
+      e.style.setProperty("--ajuste", f.toFixed(2));
+    }
+    midiendo.current = false;
+  }, []);
+
+  /* Ref de función y no de objeto: la hoja se desmonta y se vuelve a montar en
+     cada página —`key={paso}` dentro de AnimatePresence—, y con `mode="wait"`
+     la nueva no existe todavía cuando cambia `paso`. La función avisa justo
+     cuando el nodo entra en el árbol, que es cuando se puede medir.
+
+     PERO NO SE MIDE AHÍ MISMO, y eso costó una tarde. La ref se llama durante
+     el commit de React, con el nodo ya colgado del árbol pero sin que el
+     navegador haya rehecho el reparto de la columna: la caja todavía no tiene
+     su alto definitivo, así que `clientHeight` sale corto, el bucle cree que
+     el texto rebosa y lo encoge hasta el suelo del 86 %. Se veía clarísimo en
+     la pantalla ya hecha: texto reducido y ciento sesenta puntos de sitio de
+     sobra debajo.
+
+     Se mide en el fotograma siguiente, con el reparto hecho, y otra vez
+     cuando terminan de cargar las letras: una serifa del sistema puede
+     resolverse a mitad de la primera pintada y cambia el número de líneas. */
+  return useCallback(
+    (e: HTMLDivElement | null) => {
+      vigia.current?.disconnect();
+      nodo.current = e;
+      if (!e) return;
+      requestAnimationFrame(mide);
+      document.fonts?.ready.then(mide);
+      vigia.current = new ResizeObserver(mide);
+      vigia.current.observe(e);
+    },
+    [mide],
+  );
+}
+
 function Portada({ short }: { short: Short }) {
   const titulo = useUnaLinea(short.titulo);
   return (
@@ -773,6 +835,32 @@ function Portada({ short }: { short: Short }) {
       <motion.h2 ref={titulo} custom={1} variants={enterVariants} initial="hidden" animate="shown">
         {short.titulo}
       </motion.h2>
+
+      {/* EL GANCHO, QUE HASTA HOY SE ESCRIBÍA Y NO SE PINTABA.
+
+          Estaba en el tipo, está escrito en todas las historias y `MOLDE.md`
+          lo define —«la frase que remata el título en la portada, una sola, en
+          voz alta»—, pero la portada saltaba del titular al primer párrafo. Y
+          esa frase es exactamente la que decide si alguien se queda: el
+          titular dice DE QUÉ va —«¿Cuánto le queda al sol?»— y el gancho dice
+          QUÉ TIENE DE RARO —«no se apagará como una bombilla: se hinchará
+          hasta tragarse la órbita de la Tierra»—. Sin él, la portada pregunta
+          y no promete nada.
+
+          Va en el crema vivo y el párrafo de debajo en el gris: son tres
+          voces de menos a más volumen —titular, promesa, relato— y se
+          distinguen por el peso y el color, no por el tamaño, que en media
+          pantalla no da para tres escalones. */}
+      <motion.p
+        className="muro-gancho"
+        custom={2}
+        variants={enterVariants}
+        initial="hidden"
+        animate="shown"
+      >
+        {short.gancho}
+      </motion.p>
+
       <motion.p
         className="muro-entrada"
         /* La capitular necesita empezar por letra. Hay entradas que abren con
@@ -781,7 +869,7 @@ function Portada({ short }: { short: Short }) {
            pone: es preferible una portada sin capitular que una con un signo
            de tres centímetros. */
         data-capitular={/^\s*[a-záéíóúüñ]/i.test(short.entrada) ? "si" : "no"}
-        custom={3}
+        custom={3.4}
         variants={enterVariants}
         initial="hidden"
         animate="shown"
@@ -805,14 +893,37 @@ function Portada({ short }: { short: Short }) {
 function CuerpoPagina({ pagina }: { pagina: Pagina }) {
   return (
     <div className="short-pagina">
-      <motion.p
-        className="short-cuerpo"
-        custom={2}
-        variants={enterVariants}
-        initial="hidden"
-        animate="shown"
-        dangerouslySetInnerHTML={{ __html: conGuiones(pagina.texto) }}
-      />
+      {/* EL RÓTULO, QUE TAMPOCO SE PINTABA.
+
+          Las tres páginas de dentro eran un bloque de texto y nada más: la
+          misma mancha gris tres veces seguidas, sin nada que dijera al ojo
+          dónde está. El rótulo lleva escrito en todas las historias desde el
+          principio y `MOLDE.md` explica para qué —«dos o tres palabras: le da
+          al ojo dónde agarrarse»—; se estaba tirando.
+
+          Va pegado al texto y no arriba del hueco: el bloque cuelga del pie
+          —ver `.short-cuerpo`— y el rótulo tiene que colgar con él, porque un
+          rótulo separado de su párrafo por medio dedo de aire ya no titula
+          nada, solo flota. */}
+      <div className="short-bloque">
+        <motion.p
+          className="short-rotulo"
+          custom={1.6}
+          variants={enterVariants}
+          initial="hidden"
+          animate="shown"
+        >
+          {pagina.rotulo}
+        </motion.p>
+        <motion.p
+          className="short-cuerpo"
+          custom={2}
+          variants={enterVariants}
+          initial="hidden"
+          animate="shown"
+          dangerouslySetInnerHTML={{ __html: conGuiones(pagina.texto) }}
+        />
+      </div>
 
       {/* Aquí iba el dato de abajo —la cifra grande o la frase con el rayo— y
           Pablo lo ha quitado. Con la barra de pestañas ocupando ahora sesenta

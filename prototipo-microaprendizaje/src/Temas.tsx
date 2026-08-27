@@ -1,5 +1,6 @@
 import { useLayoutEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
+import { EMOTICONOS_METAS } from "./emoticonos-metas";
 import { GlyphClose } from "./glyphs";
 import { spring, springSoft } from "./motion";
 
@@ -269,8 +270,18 @@ const DIBUJOS: Record<string, () => React.ReactElement> = {
   ),
 };
 
-/** El dibujo de una meta, por su nombre. */
+/** El dibujo de una meta, por su nombre.
+ *
+ *  Manda el emoticono de Pablo cuando lo hay, y si no, el dibujo provisional
+ *  de aquí arriba. El 27 de agosto llegaron once de dieciséis, así que las dos
+ *  cosas conviven en la misma lista y tienen que verse iguales: por eso el
+ *  emoticono sale a 26 puntos clavados, que es lo que mide el `<svg>`, y por
+ *  eso los dibujos se hicieron desde el principio en su familia —planos, a
+ *  dos tintas, rojo y oro—. Cuando lleguen las cinco que faltan, esta función
+ *  se queda en una línea y `DIBUJOS` se borra entero. */
 export function DibujoTema({ tema }: { tema: string }) {
+  const suyo = EMOTICONOS_METAS[tema];
+  if (suyo) return <img src={suyo} width={26} height={26} alt="" aria-hidden />;
   const D = DIBUJOS[tema];
   return D ? <D /> : null;
 }

@@ -26,17 +26,14 @@ Y dejó tres condiciones, por este orden de importancia:
 
 Decidido viendo maquetas. Una portada con un titular enorme y nada más obliga
 al lector a apostar a ciegas, y el que duda no pasa de pantalla. **Si ya está
-leyendo, seguir es lo cómodo.** Por eso la portada enseña el título y **la
-entrada entera**, sin categoría y sin gancho: ver la regla 14.
+leyendo, seguir es lo cómodo.** Por eso la portada enseña el título, el gancho
+y la entrada: ver «La portada: título, gancho y entrada».
 
-De ahí sale la medida nueva de la entrada: **95–110 palabras**, no 53–72. Con
-la medida vieja la portada pesaba la mitad que las otras tres pantallas y se
-notaba al pasar. Con la nueva cabe el marco completo —qué se jugaba y por qué
-alguien hacía lo que hacía— en vez de meterlo a empujones en la página 1.
-
-Los shorts escritos antes de este cambio tienen entradas de 53–72 y se van
-subiendo en la pasada de revisión; el validador mantiene el mínimo viejo para
-no marcarlos todos de golpe.
+**La entrada mide unas 56 palabras** (48–66). Llegó a estar en 95–110, cuando
+la portada no llevaba gancho y la fotografía ocupaba menos; con el gancho
+puesto y la banda al 42 %, con cien palabras el texto se sale de la caja. Lo
+que se contaba de más no se pierde: el marco —qué se jugaba y por qué alguien
+hacía lo que hacía— se reparte entre el gancho y la página 1.
 
 ## La regla madre
 
@@ -282,19 +279,33 @@ De tres a seis palabras.
 Si el short va de Venus, en el título va Venus. Si va de Julio César, va Julio
 César. Y al lado, lo que se va a contar, en cuatro palabras.
 
-## La portada: título y entrada. Nada más
+## La portada: título, gancho y entrada — 27 de agosto de 2026
 
-Sin categoría y **sin gancho**. Una etiqueta encima del título le roba el
-primer golpe de vista, y un subtítulo entre el título y la entrada repite lo
-que la entrada va a decir mejor dos líneas después.
+**El gancho vuelve a la portada**, y esto cambia la medida de la entrada, así
+que se lee entero antes de escribir nada.
 
-En la portada quedan tres cosas: la banda de imagen con su crédito, el título
-y la entrada entera. Quien sitúa es la entrada, que para eso empieza por el
-año y el sitio.
+Estuvo fuera con un argumento razonable: «un subtítulo entre el título y la
+entrada repite lo que la entrada va a decir mejor dos líneas después». Lo que
+pasa es que no lo repite, y con el muro vacío y una sola historia delante se
+vio de golpe. El titular dice DE QUÉ va —«¿Cuánto le queda al sol?»— y la
+entrada empieza a CONTAR. Entre las dos falta lo único que hace que alguien no
+suba el dedo: qué tiene esto de raro. Eso es el gancho —«no se apagará como una
+bombilla: se hinchará hasta tragarse la órbita de la Tierra»—, y sin él la
+portada pregunta y no promete.
 
-El campo `gancho` **se sigue escribiendo** aunque no se pinte en la portada:
-sirve para las pantallas de lista y de búsqueda, donde hace falta una línea
-que explique el short sin abrirlo.
+Así que la portada tiene cuatro cosas, de menos a más volumen:
+
+| | qué dice | cómo se ve |
+|---|---|---|
+| la imagen | de qué se está hablando | el 42 % de la pantalla, con su crédito encima |
+| el titular | de qué va | palo seco, versales, una línea |
+| el gancho | qué tiene de raro | serifa en negrita, crema vivo, **dos líneas** |
+| la entrada | empieza a contarlo | serifa normal, gris, con capitular |
+
+Y **la entrada baja de 100 palabras a 56**. No es una decisión de estilo: es que
+ahora hay tres bloques donde había dos y la fotografía ocupa más. Con 100 el
+texto se salía de la caja y se pintaba encima del «Seguir». Las medidas nuevas
+están abajo, en la tabla, y las comprueba `scripts/revisa-shorts.mjs`.
 
 ## 15. Lo que se ve en pantalla
 
@@ -306,16 +317,36 @@ páginas se pintan exactamente igual: 17 puntos en un móvil normal, que es el
 tamaño con el que viene configurado de fábrica para leer párrafos. No hay un
 texto principal y otro secundario.
 
-**La banda de imagen ocupa el 28 % de alto, igual en las cuatro pantallas.**
-Debajo va el crédito de la imagen en cursiva pequeña: autor y sitio.
+**La banda de imagen ya no mide igual en las cuatro** (27 de agosto). Al 28 %
+una fotografía cuadrada entraba por una rendija —del disco solar entero se veían
+dos tercios— y a la vez sobraba sitio abajo. Ahora cada pantalla le da al texto
+el sitio que necesita y la fotografía se queda con el resto:
+
+| pantalla | banda | por qué |
+|---|---|---|
+| portada | 42 % | 56 palabras, el titular y el gancho |
+| páginas 1 y 2 | 36 % | 110 palabras y su rótulo |
+| la última | 22 % | lo mismo, más los dos botones y el «siguiente short» |
+
+Con esas tres alturas las cuatro pantallas se leen con la **misma medida de
+letra**, que es la regla, y ninguna deja un hueco. Si aun así el texto no cabe,
+la letra encoge sola hasta un 86 % —`useAjusteDeTexto`—; que una historia llegue
+a ese suelo significa que hay que acortarle el texto, no cambiar la maqueta.
+
+**El crédito de la imagen va SOBRE la imagen**, no debajo. Debajo era lo segundo
+que se leía de la pantalla: cuatro renglones de gris entre lo que engancha y lo
+que promete. Encima, apoyado en el degradado con el que la banda se disuelve en
+la página, sigue estando entero —la licencia lo exige— y deja de interrumpir.
+Dos renglones como mucho.
 
 **Márgenes idénticos en las cuatro**, arriba, abajo y a los lados. La última
 pantalla se ve más suelta porque lleva menos texto, no porque cambie nada.
 
-**Fuera los rótulos.** «El casi rey», «La emboscada» y «Lo que quedó» ya no se
-pintan: ocupaban un renglón para no decir nada que el texto no dijera dos
-palabras después. Se siguen escribiendo en el fichero porque ordenan al que
-escribe, pero el lector no los ve.
+**Los rótulos vuelven** (27 de agosto), y por lo mismo que el gancho. Estuvieron
+fuera porque «ocupaban un renglón para no decir nada»; con las tres páginas
+delante se ve lo que costaba: tres pantallas seguidas de la misma mancha gris,
+sin nada que le diga al ojo dónde está. Dos o tres palabras en el color de la
+historia, pegadas a su párrafo, y la página tiene principio.
 
 **El dato es una cifra y cuatro palabras**, no un párrafo. Va al pie, separado
 por una línea fina, con el número en el color del acento. No lleva etiqueta que
@@ -357,11 +388,11 @@ una prueba en vez de en un adorno.
 
 | Campo | Medida |
 | --- | --- |
-| `titulo` | 3–6 palabras: la cosa nombrada más el gancho |
-| `gancho` | una o dos frases; no se pinta en la portada, sirve para listas |
-| `entrada` | unas 100 palabras |
-| `texto` de cada página | lo que llene la pantalla: unas 125, o 105 con dato |
-| `rotulo` | 2–4 palabras; ya no se pinta, pero ordena al que escribe |
+| `titulo` | 3–6 palabras y **27 letras como mucho**: tiene que caber en una línea |
+| `gancho` | una frase y **90 letras como mucho**: va en la portada y cabe en dos líneas |
+| `entrada` | **unas 56 palabras** (48–66) |
+| `texto` de cada página | unas 110 palabras |
+| `rotulo` | 2–4 palabras; se pinta encima de su párrafo |
 | `destacado` | cifra y hasta 6 palabras, con información que no esté en el texto |
 
 **Estas cifras son orientativas, no una jaula.** Lo dijo Pablo y tiene razón:
@@ -409,8 +440,10 @@ margen**, el mismo que hay arriba. No es capricho: Pablo lo vio de un vistazo
 —«no ajustas bien el margen de abajo»— y medido en pantalla la diferencia era
 de seis líneas de aire.
 
-**El número de palabras no es el mismo para todos.** Depende de si el título
-cabe en una línea o parte en dos, y de lo largas que sean las palabras. Medido:
+**Las cifras de aquí abajo son de antes del 27 de agosto**, cuando la portada
+no llevaba gancho y la banda de imagen ocupaba el 28 %. La regla sigue siendo
+la misma; el número, no: hoy son **unas 56 palabras**. Se dejan escritas para
+que se entienda de dónde sale la regla.
 
 | título | palabras | margen que queda |
 |---|---|---|
