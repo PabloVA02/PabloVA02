@@ -361,6 +361,45 @@ Y `?temas=Confiar más en ti mismo,Cuidar el cuerpo` deja el inicio con esas
 metas marcadas sin pasar por la introducción, que es lo que permite comparar la
 tarjeta llena contra la captura. Mismo apaño que `?p=` y `?suscrito`.
 
+## EL DADO DE LA CABECERA Y LA TRAGAPERRAS
+
+Donde Headway pone el fuego de la racha, aquí hay un **dado**: lo pidió Pablo
+el 27 de agosto. Al pulsarlo se abre un rodillo con nuestras cubiertas que gira
+a toda velocidad y para en un libro al azar de los 400 escritos. Está en
+`src/Dado.tsx` y el porqué de cada decisión está escrito ahí; lo que no se
+puede deshacer sin romperlo:
+
+- **La estela sale de la VELOCIDAD REAL, no de un reloj.** La primera versión
+  llevaba un `filter: blur()` de CSS por tiempo y Pablo lo cató a la primera:
+  «quita el desenfoque ese, lo suyo es que de girar tan rápido se vea
+  difuminado». El `blur()` de CSS es redondo —o sea desenfoque, no
+  movimiento—; lo que hay ahora es un filtro SVG con `stdDeviation="0 N"`, que
+  solo difumina en vertical, y la `N` la escribe `useVelocity` fotograma a
+  fotograma. Cuando para, es cero sin que nadie lo apague.
+- **El filtro va sobre la caja de la VENTANA, no sobre la tira.** La ventana
+  mide 292 de alto y la tira casi cinco mil: puesto sobre la tira, el navegador
+  filtraría cinco mil puntos en cada fotograma para enseñar 292.
+- **La frenada es a dos tiempos**, como una máquina de verdad: trece libros a
+  velocidad constante y luego la curva de freno, con la bézier CALCULADA para
+  empalmar sin tirón (la pendiente de salida es `y1/x1` y tiene que valer lo
+  que valga la velocidad que trae partido por su media). Frenar desde el
+  primer fotograma quita el único momento de «esto va a toda pastilla».
+- **Doce cubiertas distintas repetidas**, no una por casilla. Con veintinueve,
+  el navegador tiene que descomprimir veintinueve imágenes en el primer
+  fotograma y el rodillo arranca con las casillas en blanco.
+- **Las casillas tienen forma de LIBRO**, no de azulejo: 126 por 170, con el
+  lomo a la izquierda y el canto de las hojas a la derecha.
+- **El marco de oro se centra sobre la CASILLA, no sobre el libro.** La casilla
+  mide `PASO` y el libro va centrado dentro de ella; restando el alto del libro
+  el rodillo entero queda nueve puntos por debajo del marco, y eso es lo que
+  Pablo vio como «mal cuadrado». Sus medidas salen de las mismas constantes
+  que el libro, para que no pueda volver a descuadrarse.
+- Y el marco NO se centra con `transform: translate(-50%,-50%)`: Framer lo
+  anima y escribe `transform` encima. Va con márgenes negativos.
+
+La cabecera perdió la cifra de la racha: junto a un dado no querría decir nada.
+La racha sigue entera en el perfil y en su pantalla.
+
 ## UNA COSA QUE HAY QUE PREGUNTARLE A PABLO ANTES DE ESCRIBIRLA
 
 `cuerpo-para-vida` — «Un cuerpo para toda la vida», Marcos Vázquez, 2019 —

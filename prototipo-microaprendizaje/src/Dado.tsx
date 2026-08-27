@@ -1,5 +1,13 @@
-import { useEffect, useMemo, useState } from "react";
-import { AnimatePresence, motion, useAnimationControls, useReducedMotion } from "framer-motion";
+import { useEffect, useMemo, useRef, useState } from "react";
+import {
+  AnimatePresence,
+  motion,
+  useAnimationControls,
+  useMotionValue,
+  useMotionValueEvent,
+  useReducedMotion,
+  useVelocity,
+} from "framer-motion";
 import { Portada, type Libro } from "./Biblioteca";
 import { spring, springPop } from "./motion";
 import { GlyphClose } from "./glyphs";
@@ -19,7 +27,7 @@ import { GlyphClose } from "./glyphs";
    cubiertas. Y lo que hace que esto valga la pena es justamente que pasen
    nuestros cuatrocientos libros, con la cubierta que dibujó él. Así que el
    rodillo está hecho aquí, con la TÉCNICA de las buenas, que es lo que sí se
-   puede copiar y son tres cosas:
+   puede copiar y son cuatro cosas:
 
    1. **Una sola curva de frenada, no dos animaciones pegadas.** El rodillo
       arranca a tope y se va parando con una bézier muy tumbada al final
@@ -30,24 +38,53 @@ import { GlyphClose } from "./glyphs";
       un muelle. Es lo que hace una máquina de verdad —el rodillo tiene
       inercia y el tope lo devuelve— y es la diferencia entre parecer una
       máquina y parecer una lista con scroll.
-   3. **El borrón de velocidad.** Mientras va rápido, la tira va desenfocada,
-      y el desenfoque baja con la velocidad. Sin esto se ven las cubiertas
-      saltando de una a otra, como fotogramas sueltos; con esto se ve movimiento.
+   3. **LA ESTELA SALE DE LA VELOCIDAD DE VERDAD, y esto es la corrección del
+      27 de agosto.** La primera versión llevaba un `filter: blur()` de CSS
+      encendido por reloj, y Pablo lo cató a la primera: «quita el desenfoque
+      ese, lo suyo es que de girar tan rápido se vea difuminado». Tenía toda
+      la razón y son dos errores en uno:
+
+        · El `blur()` de CSS es REDONDO: difumina igual a lo ancho que a lo
+          alto, o sea que no parece movimiento, parece que la cámara está
+          desenfocada. Lo que borra una cosa que pasa deprisa es una estela
+          en la dirección en que pasa, y eso en la web solo lo hace un filtro
+          SVG con `stdDeviation="0 N"`: cero en horizontal, N en vertical.
+        · E iba por tiempo, no por velocidad, así que seguía borroso cuando
+          ya casi estaba parado.
+
+      Ahora la `N` la escribe la velocidad real del rodillo, fotograma a
+      fotograma, con `useVelocity`. Cuando va a cinco mil puntos por segundo
+      la estela mide catorce; cuando frena, se apaga sola; cuando para, es
+      cero sin que nadie tenga que apagarla. Es lo que hace de verdad una
+      cámara, y es la diferencia entre «va rápido» y «está mal enfocado».
+
+      Y el filtro va sobre la CAJA DE LA VENTANA, que mide trescientos por
+      doscientos noventa, no sobre la tira, que mide cuatro mil de alto.
+      Puesto sobre la tira, el navegador tiene que filtrar cuatro mil puntos
+      de alto en cada fotograma para enseñar doscientos noventa.
+   4. **Las casillas tienen forma de libro**, no de cuadrado: alto por ancho
+      de tres a dos y pico, con el lomo a la izquierda y el canto de las hojas
+      a la derecha. Un cuadrado con un dibujo dentro es un azulejo; lo que
+      tiene que pasar por delante de la ventana son libros.
 
    Y el que no quiera animaciones no la ve: con `prefers-reduced-motion` el
    rodillo aparece parado en el libro que le ha tocado, que es la información
    que había que dar.
    ========================================================================== */
 
-/** El lado de cada cubierta dentro del rodillo. */
-const LADO = 124;
-/** De una cubierta a la siguiente: el lado más el hueco. */
-const PASO = 136;
-/** El alto del hueco por el que se mira. Enseña la de en medio entera y un
- *  dedo de la de arriba y de la de abajo, que es lo que dice que hay más. */
-const VENTANA = 236;
+/** El ancho de cada libro dentro del rodillo. */
+const ANCHO = 126;
+/** Y su alto. La proporción es de libro de bolsillo, no de azulejo. */
+const ALTO = 170;
+/** De un libro al siguiente: el alto más el hueco. */
+const PASO = 188;
+/** El alto del hueco por el que se mira. Enseña el de en medio entero y un
+ *  dedo del de arriba y del de abajo, que es lo que dice que hay más. */
+const VENTANA = 292;
 /** Cuántas cubiertas pasan antes de la buena. */
 const VUELTA = 26;
+/** Cuántas de esas pasan a velocidad constante, antes de empezar a frenar. */
+const LANZADA = 13;
 /** Lo que se pasa de largo antes de volver a su sitio. */
 const REBOTE = 16;
 
@@ -150,6 +187,22 @@ function Ronda({
   const controles = useAnimationControls();
   const [parado, setParado] = useState(reducido);
 
+  /* La posición del rodillo, como valor vivo, para poder preguntarle a qué
+     velocidad va. Framer anima ESTE valor —el que va en `style`— cuando los
+     controles tocan `y`, así que la animación y la medida son la misma cosa y
+     no pueden desincronizarse. */
+  const y = useMotionValue(0);
+  const velocidad = useVelocity(y);
+  const estela = useRef<SVGFEGaussianBlurElement>(null);
+
+  useMotionValueEvent(velocidad, "change", (v) => {
+    /* Puntos por segundo → altura de la estela. El tope de catorce no es por
+       gusto: por encima de ahí el libro deja de reconocerse y lo que pasa por
+       la ventana es una tira de color. */
+    const alto = Math.min(14, Math.abs(v) / 195);
+    estela.current?.setAttribute("stdDeviation", `0 ${alto.toFixed(2)}`);
+  });
+
   useEffect(() => {
     if (reducido) {
       controles.set({ y: parada(VUELTA) });
@@ -157,14 +210,42 @@ function Ronda({
     }
     let vivo = true;
     (async () => {
+      /* PRIMER TIEMPO: a velocidad constante. Trece libros en un segundo, o
+         sea unos dos mil quinientos puntos por segundo, y en línea recta.
+         Este tramo faltaba y es el que echaba a perder el resto: si se frena
+         desde el primer fotograma, nunca hay un momento de «esto va a toda
+         pastilla», que es de lo que va una tragaperras.
+
+         El retraso de la salida no es de estilo: es el respiro que necesita
+         el navegador para pintar las doce cubiertas antes de que empiecen a
+         correr. Sin él, los tres primeros fotogramas salen en blanco. */
       await controles.start({
-        y: parada(VUELTA) - REBOTE,
-        /* El retraso no es de estilo: es el respiro que necesita el
-           navegador para pintar las doce cubiertas antes de que empiecen a
-           correr. Sin él, los tres primeros fotogramas salen en blanco. */
-        transition: { duration: 3.1, delay: 0.16, ease: [0.09, 0.62, 0.14, 1] },
+        y: parada(LANZADA),
+        transition: { duration: 0.95, delay: 0.16, ease: "linear" },
       });
       if (!vivo) return;
+
+      /* SEGUNDO TIEMPO: la frenada. Y la curva no está elegida a ojo, está
+         CALCULADA para que no haya un tirón en la junta.
+
+         La velocidad con la que llega el primer tiempo son 2573 puntos por
+         segundo. Este tramo recorre 2460 puntos en dos segundos, o sea 1230
+         de media. Para empalmar sin salto, la curva tiene que arrancar a
+         2573/1230 = 2,09 veces su media, y en una bézier la pendiente de
+         salida es y1/x1: de ahí el 0,6 sobre 0,29. Con la curva de antes
+         —0,62 sobre 0,09, o sea siete veces la media— el rodillo pegaba un
+         acelerón justo al empezar a frenar.
+
+         Y el 0,6 del segundo punto es lo que reparte el final: la curva se
+         va tumbando durante el último 40 %, que es donde pasan los tres o
+         cuatro últimos libros de uno en uno y se pueden leer. */
+      await controles.start({
+        y: parada(VUELTA) - REBOTE,
+        transition: { duration: 2, ease: [0.29, 0.6, 0.6, 1] },
+      });
+      if (!vivo) return;
+
+      /* TERCER TIEMPO: el tope. */
       await controles.start({
         y: parada(VUELTA),
         transition: { type: "spring", stiffness: 170, damping: 13, mass: 0.9 },
@@ -203,43 +284,64 @@ function Ronda({
         <p className="trag-encima">Un libro a suertes</p>
 
         <div className="trag-ventana" style={{ height: VENTANA }}>
-          {/* El desenfoque va en su propia capa y no en la que se mueve: una
-              caja que cambia de filtro Y de posición a la vez se repinta
-              entera en cada fotograma. */}
-          <motion.div
-            className="trag-borron"
-            initial={{ filter: "blur(0px)" }}
-            animate={
-              reducido
-                ? { filter: "blur(0px)" }
-                : { filter: ["blur(0px)", "blur(0px)", "blur(5px)", "blur(2px)", "blur(0px)"] }
-            }
-            transition={{
-              duration: 3.4,
-              times: [0, 0.05, 0.22, 0.72, 0.95],
-              ease: "linear",
-            }}
-          >
+          {/* El filtro vive aquí dentro y no en una hoja aparte: es de esta
+              máquina y de nadie más. `stdDeviation="0 0"` de salida; lo que
+              lo mueve es la velocidad del rodillo, ahí arriba. */}
+          <svg className="trag-defs" aria-hidden focusable="false">
+            <defs>
+              <filter
+                id="trag-estela"
+                x="-12%"
+                y="-25%"
+                width="124%"
+                height="150%"
+                colorInterpolationFilters="sRGB"
+              >
+                <feGaussianBlur ref={estela} in="SourceGraphic" stdDeviation="0 0" />
+              </filter>
+            </defs>
+          </svg>
+
+          {/* La caja que se filtra mide lo que la ventana y recorta lo que
+              sobra. Ver el punto 3 de arriba: puesta sobre la tira, el filtro
+              tendría que trabajar sobre cuatro mil puntos de alto. */}
+          <div className="trag-borron" data-gira={!parado && !reducido}>
             <motion.div
               className="trag-tira"
-              style={{ paddingTop: (VENTANA - LADO) / 2 }}
+              /* (VENTANA - PASO) y no (VENTANA - ALTO), y de aquí venía el
+                 marco «mal cuadrado». Lo que hay que centrar en la ventana no
+                 es el LIBRO, es su CASILLA: la casilla mide PASO y el libro va
+                 centrado dentro de ella, así que restar el alto del libro deja
+                 todo el rodillo nueve puntos por debajo de donde está el
+                 marco. Con la casilla, los dos centros son el mismo punto por
+                 construcción y no puede volver a descuadrarse. */
+              style={{ y, paddingTop: (VENTANA - PASO) / 2 }}
               animate={controles}
             >
               {lista.map((l, i) => (
                 <div className="trag-hueco" key={`${l.id}-${i}`} style={{ height: PASO }}>
-                  <Portada libro={l} tamano={LADO} />
+                  <div className="trag-libro" style={{ width: ANCHO, height: ALTO }}>
+                    <Portada libro={l} tamano={ANCHO} />
+                  </div>
                 </div>
               ))}
             </motion.div>
-          </motion.div>
+          </div>
 
-          {/* El marco de la casilla premiada, encima de todo. Se enciende al
-              parar: antes es un filete y después es de oro. */}
+          {/* El marco de la casilla premiada, encima de todo. Mide EXACTAMENTE
+              lo que el libro más tres puntos por lado, y las medidas salen de
+              las mismas constantes que el libro: escritas a mano se descuadran
+              en cuanto alguien toca el tamaño, que es lo que pasó. */}
           <motion.span
             className="trag-visor"
             data-on={parado}
-            style={{ height: LADO }}
-            animate={parado ? { scale: [1, 1.06, 1] } : { scale: 1 }}
+            style={{
+              width: ANCHO + 6,
+              height: ALTO + 6,
+              marginLeft: -(ANCHO + 6) / 2,
+              marginTop: -(ALTO + 6) / 2,
+            }}
+            animate={parado ? { scale: [1, 1.05, 1] } : { scale: 1 }}
             transition={{ duration: 0.5, ease: "easeOut" }}
             aria-hidden
           />

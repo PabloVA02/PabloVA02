@@ -9785,7 +9785,7 @@ button {
   width: 100%;
   max-width: 300px;
   overflow: hidden;
-  border-radius: 22px;
+  border-radius: 24px;
   background: rgba(255, 255, 255, 0.045);
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.09);
   -webkit-mask-image: linear-gradient(
@@ -9804,7 +9804,33 @@ button {
   );
 }
 
-.trag-borron { will-change: filter; }
+/* La caja que se filtra. Mide lo que la ventana —no lo que la tira— y recorta:
+   el filtro solo tiene que trabajar sobre lo que se ve. Ver el punto 3 del
+   comentario de `Dado.tsx`. */
+.trag-borron {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+/* La estela, y solo mientras gira. Es un filtro SVG y no un `blur()` de CSS
+   porque el de CSS difumina igual a lo ancho que a lo alto —o sea, desenfoque,
+   no movimiento— y este solo difumina en vertical, que es por donde pasan los
+   libros. La altura de la estela la escribe la velocidad real del rodillo,
+   fotograma a fotograma, desde `Dado.tsx`. */
+.trag-borron[data-gira="true"] {
+  filter: url(#trag-estela);
+  will-change: filter;
+}
+
+/* El `svg` que solo lleva la definición del filtro: no pinta nada y no puede
+   ocupar sitio ni comerse los toques. */
+.trag-defs {
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
 
 .trag-tira {
   display: flex;
@@ -9819,48 +9845,110 @@ button {
   flex: none;
 }
 
-/* Cada cubierta con su sombra propia: son piezas que pasan por delante de un
-   hueco, no una imagen larga. */
-.trag-hueco .portada { box-shadow: 0 10px 22px rgba(0, 0, 0, 0.45); }
+/* CADA CASILLA ES UN LIBRO, no un azulejo con un dibujo dentro. Tres piezas:
 
-/* El marco de la casilla premiada. Antes de parar es un filete que dice dónde
-   hay que mirar; al parar se enciende en oro. */
-/* OJO CON EL CENTRADO: aquí no se puede usar `transform: translate(-50%,-50%)`,
-   que es lo que uno escribe sin pensar. Este marco lo anima Framer para dar el
+   · La proporción, que es de libro y no cuadrada.
+   · El lomo, a la izquierda, con su sombra y su brillo: es lo que hace que se
+     lea como un objeto con canto y no como una lámina.
+   · El canto de las hojas, a la derecha, en rayas de un punto.
+
+   Y las esquinas: casi rectas del lado del lomo, redondeadas del lado de las
+   hojas, que es como se ve un libro de frente. */
+.trag-libro {
+  position: relative;
+  flex: none;
+  border-radius: 4px 13px 13px 4px;
+  overflow: hidden;
+  box-shadow:
+    0 16px 30px rgba(0, 0, 0, 0.55),
+    0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* `!important` y no es dejadez: `Portada` escribe su lado en el atributo
+   `style`, y un estilo en línea gana a cualquier clase. Es la única manera de
+   que la cubierta llene una casilla que no es cuadrada sin tocar un componente
+   que usan otras seis pantallas. */
+.trag-libro .portada {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 0;
+}
+
+.trag-libro::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 10px;
+  pointer-events: none;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.5) 0,
+    rgba(0, 0, 0, 0.2) 42%,
+    rgba(255, 255, 255, 0.16) 72%,
+    rgba(0, 0, 0, 0.14) 100%
+  );
+}
+
+.trag-libro::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 0;
+  bottom: 4px;
+  width: 4px;
+  border-radius: 0 3px 3px 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.55) 0 1px,
+    rgba(120, 110, 96, 0.35) 1px 2px
+  );
+}
+
+/* El marco de la casilla premiada. El tamaño y los márgenes los escribe
+   `Dado.tsx` a partir de las mismas constantes que el libro: aquí estaban a
+   mano y se descuadraron en cuanto cambió el tamaño de la casilla, que es
+   exactamente lo que vio Pablo.
+
+   Y OJO: aquí no se puede centrar con `transform: translate(-50%,-50%)`, que
+   es lo que uno escribe sin pensar. Este marco lo anima Framer para dar el
    golpe al parar, y Framer escribe `transform` en el atributo de estilo, así
-   que se lleva por delante el centrado y el marco se va a una esquina. Con
-   márgenes negativos el centrado no vive en `transform` y no hay conflicto. */
+   que se lleva por delante el centrado. Con márgenes negativos no hay
+   conflicto. */
 .trag-visor {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 138px;
-  margin-left: -69px;
-  margin-top: -62px;
-  border-radius: 18px;
-  box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.16);
-  transition: box-shadow 0.35s ease;
+  z-index: 3;
+  /* Del lado del lomo casi recto y del de las hojas redondeado, igual que el
+     libro: un marco con las cuatro esquinas iguales sobre un libro que no las
+     tiene iguales se ve descuadrado aunque esté centrado al punto. */
+  border-radius: 6px 16px 16px 6px;
+  box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.14);
+  transition: box-shadow 0.4s ease;
   pointer-events: none;
 }
 
 .trag-visor[data-on="true"] {
   box-shadow:
-    0 0 0 2px #f8bb31,
-    0 0 26px rgba(248, 187, 49, 0.5);
+    0 0 0 2.5px #f8bb31,
+    0 0 36px rgba(248, 187, 49, 0.55),
+    0 0 90px rgba(248, 187, 49, 0.18);
 }
 
 /* Una veladura en los dos extremos: oscurece lo que entra y lo que sale, y es
-   lo que da sensación de tambor y no de tira plana. */
+   lo que da sensación de tambor y no de tira plana. Va DEBAJO del marco. */
 .trag-sombra {
   position: absolute;
   inset: 0;
+  z-index: 2;
   pointer-events: none;
   background: linear-gradient(
     to bottom,
-    rgba(10, 9, 14, 0.72) 0,
-    rgba(10, 9, 14, 0) 26%,
-    rgba(10, 9, 14, 0) 74%,
-    rgba(10, 9, 14, 0.72) 100%
+    rgba(9, 8, 13, 0.8) 0,
+    rgba(9, 8, 13, 0) 24%,
+    rgba(9, 8, 13, 0) 76%,
+    rgba(9, 8, 13, 0.8) 100%
   );
 }
 
