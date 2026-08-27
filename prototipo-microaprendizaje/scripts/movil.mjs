@@ -22,7 +22,7 @@
    fotos pasan por Chromium, que las reescribe en WebP: es la mitad de peso
    que el JPEG de Commons a la misma vista, y es lo que hace que quepan.
 
-       node scripts/movil.mjs [--ancho 400] [--calidad 0.74]
+       node scripts/movil.mjs [--ancho 400] [--calidad 0.74] [--salida movil.html]
 
    Deja `movil.html` en la raíz. Se publica tal cual.
    ========================================================================== */
@@ -67,6 +67,35 @@ const CUB_CALIDAD = Number(arg("--cubiertas-calidad", 0.82));
    dentro; `dist-artefacto` los deja como trozos aparte y libera siete megas
    para fotografías. Se coge el trozo de entrada, no el primero por orden. */
 const DIST_DIR = arg("--dist", "dist-uno");
+/* DÓNDE SE ESCRIBE. Por defecto `movil.html`, que es el simulador de siempre
+   —la app entera— y el que está publicado en el artefacto de Pablo.
+
+   Existe la opción porque el 27 de agosto pidió un SEGUNDO simulador, solo del
+   muro de shorts y con las fotografías a calidad de verdad, «para hacerme una
+   idea exacta de cómo lo vería el usuario», sin tocar el de siempre. Los dos
+   salen del mismo script con parámetros distintos, y por eso el nombre del
+   fichero tiene que poder cambiarse: si no, uno pisaría al otro. */
+const SALIDA = arg("--salida", "movil.html");
+/* QUÉ HISTORIAS VAN DELANTE, y por qué hace falta decirlo.
+ *
+ * `shorts.ts` tiene un gancho, `__ORDEN`, para que la página pueda poner
+ * ciertas historias al principio del muro. Se hizo para grabar el anuncio y
+ * aquí sirve para lo mismo por otro motivo: las fotografías se cortan por peso
+ * y no caben todas, así que las que SÍ caben tienen que ser justamente las de
+ * las primeras historias. Con `--muro fichero.json` —el que escribe
+ * `scripts/muro-demo.mjs`— las dos listas salen de la misma pasada y no pueden
+ * desincronizarse; sin él, no se toca nada y el muro va en su orden. */
+const MURO = arg("--muro", "");
+const muroDemo = MURO ? JSON.parse(readFileSync(MURO, "utf8")) : null;
+/* En qué pantalla abre. El simulador de siempre abre en la biblioteca; el
+   mirador de shorts, en el muro. */
+const PANTALLA = arg("--pantalla", "inicio");
+/* El rótulo de la página. Los dos simuladores salen de este mismo script y no
+   pueden decir lo mismo: uno es la app entera y el otro es solo el muro con
+   las fotografías a calidad de verdad. Un mirador que se presenta como «la app
+   entera» y no tiene ni barra de abajo se lee como una app rota. */
+const TITULO = arg("--titulo", "La app entera, en un móvil");
+const INTRO = arg("--intro", "");
 /* La lista, en el orden del muro, de las fotografías que hay que meter. Sin
    ella entran todas, que es lo que se hacía cuando cabían. Con dos mil ya no
    caben, así que se llenan los megas disponibles empezando por el principio
@@ -315,15 +344,18 @@ for (const f of readdirSync(HISTORIAS).filter((x) => x.endsWith(".ts"))) {
     if (bloque && (bloque[1].match(/\n      \{/g) ?? []).length === 4) conFotos++;
   }
 }
-const cuenta =
-  `${shorts} historias escritas · ${conFotos} con sus cuatro fotografías. ` +
-  `Las demás salen con su cartel, que es el diseño previsto mientras no hay imagen.`;
+const cuenta = muroDemo
+  ? `${muroDemo.shorts.length} historias con sus cuatro fotografías, a 900 puntos de ancho. ` +
+    `En la app no van dentro: se las pide a Wikimedia y llegan del tamaño que ` +
+    `necesite la pantalla, así que allí se ven aún mejor que aquí.`
+  : `${shorts} historias escritas · ${conFotos} con sus cuatro fotografías. ` +
+    `Las demás salen con su cartel, que es el diseño previsto mientras no hay imagen.`;
 
 /* El marco es el de `demo.html`: 375 × 812, la medida para la que está hecha
    la app. Lo que cambia es que dentro no hay un iframe sino la app misma, así
    que después de la hoja de la app van las cuatro reglas que le imponen el
    tamaño del teléfono en lugar del de la ventana. */
-const pagina = `<title>Curva · la app entera, en un móvil</title>
+const pagina = `<title>Curva · ${TITULO.charAt(0).toLowerCase() + TITULO.slice(1)}</title>
 
 <style>
 ${css}
@@ -458,10 +490,10 @@ body.simulador {
 
 <div class="sim-rotulo">
   <div class="sim-ceja">Curva · prototipo</div>
-  <h1>La app entera, en un móvil</h1>
-  <p>Se sube para cambiar de historia y se desliza a la derecha para avanzar
+  <h1>${TITULO}</h1>
+  <p>${INTRO || `Se sube para cambiar de historia y se desliza a la derecha para avanzar
      dentro de ella. Las fotografías van dentro de esta página, así que se ven
-     sin salir a la red.</p>
+     sin salir a la red.`}</p>
 </div>
 
 <div class="sim-area">
@@ -493,7 +525,11 @@ document.documentElement.lang = "es";
    bien quitada—, así que abriendo en el muro no se podía salir de él y esta
    página se quedaba en un mirador de shorts. Desde la biblioteca se llega al
    muro con una pestaña, y del muro se vuelve como en la app. */
-window.__PANTALLA = "inicio";
+window.__PANTALLA = ${JSON.stringify(PANTALLA)};
+${muroDemo ? `
+/* Las historias que van delante, las mismas de las que se han empotrado las
+   fotografías. Ver \`scripts/muro-demo.mjs\`. */
+window.__ORDEN = ${JSON.stringify(muroDemo.shorts)};` : ""}
 
 /* Las fotografías, empotradas. urlFoto() mira aquí antes de ir a Commons. */
 window.__FOTOS = ${JSON.stringify(Object.fromEntries(tabla))};
@@ -524,10 +560,10 @@ window.__FOTOS = ${JSON.stringify(Object.fromEntries(tabla))};
 ${js}
 </script>`;
 
-const salida = join(RAIZ, "movil.html");
+const salida = join(RAIZ, SALIDA);
 writeFileSync(salida, pagina);
 console.log(
-  `movil.html listo · ${mb(pagina.length)} ` +
+  `${SALIDA} listo · ${mb(pagina.length)} ` +
   `(js ${mb(js.length)} · css ${kb(css.length)} · fotos ${mb(peso)})`,
 );
 if (pagina.length > 15.5 * 1024 * 1024)

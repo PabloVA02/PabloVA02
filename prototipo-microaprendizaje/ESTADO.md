@@ -76,6 +76,44 @@ primer short de cada fichero, en el orden en que están listados.
 eso existe `fotos-al-vuelo.mjs`, que las baja con curl y se las entrega. Sin
 él, las capturas salen con el cartel de respaldo en vez de la foto.
 
+## HAY DOS SIMULADORES, Y NO SE PISAN
+
+Desde el 27 de agosto por la tarde. Pablo lo pidió así: «hazme un simulador
+nuevo de móvil para ver cómo saldría exactamente… conserva el simulador que
+tenemos ahora, la app entera en un móvil, que es para el resto de cosas. Y
+añade la imagen en la parte de los shorts para ver cómo queda».
+
+| | qué es | dónde |
+|---|---|---|
+| `movil.html` | la app entera. **Es el de siempre y el que se actualiza en cada cambio** | artefacto `b8c9ffd9-…` |
+| `shorts.html` | solo el muro, con las fotos a calidad de verdad | artefacto `4b5ac353-…` |
+
+**Por qué hacen falta los dos.** El de siempre lleva dentro los 400 resúmenes,
+las 295 cubiertas y los 757 shorts, y con eso a las fotografías les quedan 0,08
+MB: caben 24 de 760, encogidas a 200 puntos con la calidad al 45 %. O sea que
+enseña bien todo menos justamente las fotos. El nuevo no lleva los libros —ni
+resúmenes, ni cubiertas, ni estantería— y esos catorce megas se convierten en
+88 fotografías a 900 puntos.
+
+    npx vite build --config vite.shorts.config.mjs
+    node scripts/muro-demo.mjs 22 > /tmp/muro-demo.json
+    # y de ahí sale la lista de fotos para --lista
+    node scripts/movil.mjs --dist dist-shorts --lista … --muro /tmp/muro-demo.json \
+         --pantalla shorts --ancho 900 --calidad 0.80 --tope 11 \
+         --salida shorts.html --titulo "…" --intro "…"
+
+**Y una avería que salió al montarlo y que afectaba también al de siempre.**
+`orden-fotos.mjs` reconstruye el orden del muro parseando `shorts.ts`, y NO
+coincide con el que arma la app: el muro se abría en «¿Cuánto le queda al sol?»
+y las fotos empotradas eran las del denario de César. Con 24 fotos casi no se
+nota; en un mirador que es solo el muro, se nota en la primera pantalla.
+
+La solución no fue afinar la reconstrucción sino no depender de ella:
+`muro-demo.mjs` elige las historias PRIMERO y saca sus fotos de la misma
+pasada, y `movil.mjs --muro` escribe las dos listas en la página —`__ORDEN`
+para las historias y `__FOTOS` para las fotos—, así que no pueden
+desincronizarse.
+
 ## AL TERMINAR CUALQUIER CAMBIO: rehacer el simulador Y PUBLICARLO
 
 Pablo lo pidió así de claro: «actualízamelo en el artefacto que estamos usando
