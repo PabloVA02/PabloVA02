@@ -10,7 +10,7 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 | shorts con sus cuatro fotos | 532 | 225 |
 | imágenes puestas | 2139, verificadas hasta 1854 | |
 | libros en el catálogo | 418 | |
-| libros con resumen escrito a mano | 378 | 40 |
+| libros con resumen escrito a mano | **400** | 18 para el catálogo entero |
 | cubiertas dibujadas por Pablo | 277 | 61 escritos sin dibujo |
 | resúmenes antiguos generados | 0 | 0 |
 | títulos que no caben en una línea | | 0 |
@@ -99,9 +99,14 @@ node scripts/movil.mjs --dist dist-uno --lista /tmp/orden-fotos.json \
      --ancho 200 --calidad 0.45 --tope 0.16 \
      --cubiertas-ancho 340 --cubiertas-calidad 0.66
 
-**Y esto ya no da más de sí.** Con 370 libros y 277 cubiertas quedan
-0,2 MB para fotografías: entran 35 de las 760. A 400 no cabe. La salida
-es `docs/` y GitHub Pages, que no tiene tope, y es un clic de Pablo.
+**Y ya no da más de sí: a 400 dejó de caber, como estaba avisado.** El 27
+de agosto, con los 400 resúmenes dentro, `--cubiertas-ancho 340` y
+`--cubiertas-calidad 0.66` produjeron un fichero de 16,47 MB, por encima
+del tope. Los parámetros que sí caben hoy son **`--ancho 200 --calidad
+0.45 --tope 0.10 --cubiertas-ancho 300 --cubiertas-calidad 0.58`**, y con
+ellos salen 15,6 MB y entran 30 fotografías de las 760. El siguiente
+libro vuelve a pasarse. La salida es `docs/` y GitHub Pages, que no tiene
+tope, y es un clic de Pablo.
 ```
 
 Dos maneras de comprobar que no ha pasado otra vez, antes de publicar:
@@ -279,12 +284,28 @@ Pablo, el 24 de agosto de madrugada:
 
 O sea, dos cosas y en este orden:
 
-1. **Llegar a 400 escritos.** El catálogo ya tiene 418; el 25 de agosto por
-   la noche Pablo subió el objetivo de 350 a 400 y pidió priorizar autoayuda
-   con promesas de dinero y de éxito. Comercial: personalidades muy conocidas,
-   amor y sexo, autoayuda con título de promesa, superventas. Un poco de todas
-   las categorías.
+1. **LOS 400 ESTÁN. Se llegó el 27 de agosto por la mañana** con
+   «Thinkertoys», de Michael Michalko. El catálogo tiene 418, así que quedan
+   dieciocho para tenerlo entero; el objetivo lo subió Pablo de 350 a 400 el
+   25 de agosto por la noche, y pidió priorizar autoayuda con promesas de
+   dinero y de éxito, personalidades muy conocidas, amor y sexo y superventas.
+   Los dieciocho que faltan están en `npx tsx scripts/estado.mjs`.
 2. **Escribirlos todos**, con las normas de `REDACCION.md`, sin parar.
+
+### UNA COSA QUE HAY QUE PREGUNTARLE A PABLO ANTES DE ESCRIBIRLA
+
+`cuerpo-para-vida` — «Un cuerpo para toda la vida», Marcos Vázquez, 2019 —
+está en el catálogo como pendiente y **se dejó sin escribir a propósito el 27
+de agosto**. Ese título con ese autor y ese año no se ha podido confirmar:
+de Marcos Vázquez sí está confirmado «Invicto» (2021), que ya está escrito,
+y «Un cuerpo para toda la vida» es además el título en español con el que se
+publicó «Body for Life», de Bill Phillips (1999). Puede ser una confusión de
+la captura de la que salió el catálogo.
+
+No se escribe hasta que Pablo diga cuál de los dos libros quiere. Escribir un
+resumen sobre un libro que no existe tal cual es peor que no tenerlo, y en
+Salud, con la prueba del sustituto del apartado 4 bis de REDACCION, se nota
+enseguida. En su lugar se escribió «Thinkertoys», que hizo el número 400.
 
 **Cuántos van y cuántos faltan NO se cuenta de memoria.** Lo dicen estas dos
 órdenes, y se ejecutan al empezar cada sesión:
