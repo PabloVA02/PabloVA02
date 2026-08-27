@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "mundo-como-voluntad":
+    "Lo publicó a los treinta años y no lo compró casi nadie: buena parte de la primera edición acabó destruida. Sostiene que el mundo se conoce por fuera como representación y por dentro, en un solo sitio, como voluntad.",
+
   "informacion-gleick":
     "La palabra «bit» se imprimió por primera vez en un artículo de 1948. Antes de esa fecha, información significaba lo que significa en una conversación; después pasó a ser una cantidad que se mide, se degrada y cuesta energía borrar.",
 

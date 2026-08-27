@@ -110188,7 +110188,302 @@ const INFORMACION_GLEICK: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El mundo como voluntad y representación, de Arthur Schopenhauer (1818),
+   en ocho páginas.
+
+   Filosofía, así que tercera persona y titulares que afirman.
+
+   La conclusión lleva las tres objeciones de verdad —el salto metafísico, el
+   pesimismo que no se puede refutar y la distancia entre lo que predicó y lo
+   que hizo—, con el episodio de Caroline Marquet, que está documentado en un
+   pleito y en su propio cuaderno de cuentas.
+   -------------------------------------------------------------------------- */
+
+const MUNDO_COMO_VOLUNTAD: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Schopenhauer publicó a los treinta años un libro que no vendió nada durante tres décadas",
+      },
+      {
+        b: "texto",
+        texto:
+          "Arthur Schopenhauer terminó este libro en 1818, con treinta años, y lo publicó en Leipzig convencido de haber resuelto el problema central de la filosofía. Escribió en el prólogo que si el lector no lo entendía era culpa suya, y que le convenía leerlo dos veces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No lo compró casi nadie. La mayor parte de la primera edición acabó destruida por el editor años después, y Schopenhauer se pasó tres décadas dando clases con las aulas vacías, en Berlín, mientras Hegel llenaba la suya en el mismo horario. La fama le llegó a los sesenta y tres años, con un libro de ensayos sueltos publicado en 1851.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro está dividido en cuatro partes que recorren dos veces el mismo mundo: primero como representación, después como voluntad, luego otra vez como representación —esta vez el arte— y por último otra vez como voluntad, esta vez para preguntarse qué hacer con ella. Ese ir y venir es intencionado: la tesis es que la misma cosa se ve de dos maneras según desde dónde se mire.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene saber además de dónde salía el dinero, porque explica el tono. Su padre era un comerciante rico de Danzig y le dejó una herencia que le permitió no trabajar nunca. Schopenhauer escribió toda su obra sin depender de una universidad ni de un mecenas, y se le nota: no tiene que quedar bien con nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue es su punto de partida, el movimiento que hace posible todo lo demás, qué entiende por voluntad, por qué de ahí sale que la vida es sufrimiento, qué papel juegan el arte y la música, y en qué consiste su ética.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un libro puede tardar treinta años en encontrar lectores sin haber cambiado una coma. Lo que cambia no siempre es el libro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Su primera frase dice que el mundo que conoces es una construcción de tu cabeza",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro empieza con cinco palabras: «El mundo es mi representación». No es una boutade, es la posición de Kant dicha en una línea, y Schopenhauer construye el resto sobre ella.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento de Kant, publicado en 1781, es que nunca se percibe el mundo directamente. Lo que llega son datos que el entendimiento organiza en espacio, en tiempo y en relaciones de causa y efecto, y esas tres cosas no están fuera: son la forma en que un sujeto ordena lo que recibe. De lo que haya detrás, la cosa en sí, no se puede saber nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Schopenhauer acepta eso entero y lo aprieta más. Reduce las doce categorías de Kant a una sola, la causalidad, y sostiene que un objeto solo existe para un sujeto: no hay objeto sin alguien delante, igual que no hay sujeto sin nada que percibir. Los dos aparecen y desaparecen juntos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una consecuencia que a él le divertía sacar. Preguntar qué había antes de que existiera cualquier ojo que mirara es una pregunta mal hecha, porque el antes es tiempo, y el tiempo es una forma del que mira. No dice que el mundo no exista: dice que existir como objeto es ya existir para alguien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí saca la consecuencia que da nombre a la mitad del título. Todo lo que se puede investigar —la física, la biología, la historia— ocurre dentro de la representación, o sea dentro de esa construcción. La ciencia describe cómo se relacionan las cosas entre sí, y ninguna cantidad de ciencia atraviesa esa pared.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El espacio, el tiempo y la causa no están ahí fuera: son la manera en que una cabeza ordena lo que le llega.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay un sitio donde el mundo se conoce por dentro, y es el propio cuerpo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí está el movimiento que hace este libro y no otro, y merece la pena entenderlo despacio, porque todo lo demás cuelga de él. Kant había cerrado la puerta: la cosa en sí es incognoscible. Schopenhauer dice que hay una rendija, y que está en el único objeto del mundo que además se es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento es éste. El cuerpo propio se conoce de dos maneras a la vez. Por fuera es un objeto como cualquier otro: tiene peso, ocupa sitio, se mueve. Por dentro se conoce de otra forma, sin intermediarios: uno no deduce que quiere levantar el brazo, lo quiere. Y el acto de voluntad y el movimiento del brazo no son dos hechos encadenados, son el mismo hecho visto desde dos sitios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí Schopenhauer generaliza. Si en el único caso en que se puede mirar por dentro lo que aparece por fuera como cuerpo aparece por dentro como voluntad, entonces eso que aparece por fuera como mundo será por dentro voluntad también. La cosa en sí de Kant tiene nombre, y el nombre es voluntad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir ya que ese paso es una analogía, no una demostración, y que es la grieta por donde se ataca el libro entero. Schopenhauer lo sabe: escribe que se trata de una extensión del único conocimiento inmediato que se tiene, y aun así lo usa después como si estuviera probado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Del cuerpo propio se sabe algo que no se sabe de ninguna otra cosa del mundo: cómo es por dentro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Su voluntad no es la que decide: es un empuje ciego que no quiere nada en concreto",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palabra engaña y ha causado más malentendidos que ninguna otra del libro. Voluntad no significa aquí lo que se llama fuerza de voluntad, ni decisión, ni propósito. No es consciente, no tiene planes y no persigue ningún fin.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Schopenhauer la describe como un empuje sin objeto: un querer que quiere sin querer nada. Y sostiene que es la misma cosa en todos los niveles de la naturaleza, cambiando de aspecto: en la piedra que cae es gravedad, en el imán es atracción, en la planta es crecer hacia la luz, en el animal es instinto y en el hombre es deseo. Un solo empuje objetivándose en grados.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia sobre las personas es la que dio de comer a toda la psicología posterior. Si el fondo es un querer ciego, entonces el intelecto no manda: sirve. Uno no decide primero y desea después; desea, y el entendimiento se dedica a buscar razones para lo que ya estaba decidido. Escribe que el hombre puede hacer lo que quiere, pero no puede querer lo que quiere.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La frase tiene además un lugar exacto donde comprobarla, y es cotidiano. Alguien decide algo importante y después construye los motivos; si le preguntas, te da tres razones ordenadas. Pero si una de esas razones se cae, la decisión no cambia: se busca otra. Eso es lo que Schopenhauer está describiendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ahí está el motivo de que Freud le reconociera la anticipación y de que Nietzsche saliera de él para llevarle la contraria. La idea de que la parte consciente de una persona es pequeña, llega tarde y trabaja al servicio de algo que no controla estaba escrita ochenta años antes del psicoanálisis.",
+      },
+      { b: "idea", texto: "Puedes hacer lo que quieres. Lo que no puedes es elegir qué quieres." },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Si el fondo de todo es un deseo sin fin, la vida oscila entre el dolor y el aburrimiento",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ese punto de partida sale la parte más conocida del libro, y sale por deducción y no por temperamento, aunque el temperamento ayudara. El argumento tiene tres pasos y es breve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Primero: desear es carecer. No se desea lo que se tiene, así que todo deseo es la constatación de que falta algo, y eso ya es una forma de dolor. Segundo: conseguirlo no resuelve nada, porque la satisfacción es negativa —consiste en que cesa una carencia, no en que llegue algo—, y dura poco. Tercero: en cuanto cesa, o aparece otro deseo o no aparece ninguno, y si no aparece ninguno, aparece el aburrimiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí la imagen que se le cita siempre: la vida oscila como un péndulo entre el dolor y el hastío. Y una observación que es más incómoda que la frase: el aburrimiento demuestra su tesis mejor que el sufrimiento, porque prueba que la existencia no se sostiene sola. Si vivir fuera bueno en sí, no haría falta llenar el tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Schopenhauer añade una asimetría que sí se puede comprobar: el placer y el dolor no pesan igual. Nadie nota los órganos que funcionan bien y sí el diente que duele; una hora de dolor de muelas se impone sobre un día entero de bienestar. Su conclusión es que el bienestar es la ausencia de algo, y por eso no se percibe.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie siente los dientes que no le duelen. El bienestar es la ausencia de algo, y por eso no se nota.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El arte apaga el deseo un rato, y la música hace algo distinto de todas las demás artes",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera parte del libro es la salida provisional y es la más leída por gente que no lee filosofía. Contemplar una obra de arte, dice Schopenhauer, es el único estado en que se mira algo sin quererlo para nada, y mientras dura, el que mira deja de ser un individuo con intereses.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo que propone es concreto. En la vida corriente todo se percibe en relación con uno: un árbol es sombra, madera o estorbo. En la contemplación estética se ve el árbol como árbol y no como algo para algo. Al desaparecer el interés, desaparece un rato el querer, y con él el dolor de carecer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y luego está el capítulo por el que este libro entró en la historia de la música. Schopenhauer sostiene que todas las artes representan cosas del mundo, pero que la música no representa nada: no imita un objeto ni cuenta una historia. Su tesis es que es una copia directa de la voluntad misma, sin pasar por la representación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso explicaría lo que a cualquiera le resulta raro cuando se para a pensarlo: por qué una sucesión de sonidos sin significado puede producir tristeza o alegría exactas, y por qué la música de una película dice cosas que la imagen no dice. Wagner leyó este capítulo en 1854, se declaró discípulo suyo y le mandó un ejemplar de su tetralogía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Mirar algo sin quererlo para nada es lo más parecido al descanso que hay, y dura exactamente lo que dura.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Su ética no se apoya en el deber ni en el cálculo, sino en un error de percepción que se corrige",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cuarta parte contesta qué hacer, y su respuesta se separa de todo lo que se enseñaba en su época. Contra Kant, que fundaba la moral en el deber, y contra los utilitaristas, que la fundaban en el cálculo de consecuencias, Schopenhauer la funda en un sentimiento: la compasión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su razonamiento no es sentimental, es metafísico. Si el fondo de todo es una sola voluntad, entonces la separación entre individuos pertenece a la representación —al espacio y al tiempo, que son formas de la cabeza—, y no a lo que hay debajo. Estar separado es cómo se ven las cosas, no cómo son.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La compasión sería entonces el momento en que esa separación se transparenta: al ver sufrir a otro, algo reconoce que ese otro es lo mismo. Schopenhauer lo apoya en una fórmula del hinduismo que leyó en una traducción latina de los Upanishads: <em>tat tvam asi</em>, eso eres tú. Tenía un busto de Kant y una figura de Buda en su cuarto, y fue de los primeros filósofos europeos en tomarse en serio los textos indios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El último paso del libro es más radical y es el que casi nadie sigue: si la voluntad es la causa del sufrimiento, la salida completa no es aliviarlo sino dejar de querer. Ahí sitúa a los ascetas y a los santos de todas las religiones, que a su juicio hacen todos lo mismo con nombres distintos. Es el final del libro y él mismo reconoce que no puede describirlo desde dentro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La compasión no es un sentimiento noble: es darse cuenta de que la separación entre tú y el otro es una manera de ver, no un hecho.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que el mundo se ve de dos maneras: como representación, que es lo que estudian las ciencias, y como voluntad, que es lo que hay debajo y se conoce por una sola rendija, el cuerpo propio. Esa voluntad es un empuje ciego sin fin: por eso desear es carecer y la vida oscila entre el dolor y el aburrimiento. Sus dos salidas son el arte, que suspende el querer un rato, y la compasión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta, y es enorme, es haber puesto el deseo debajo de la razón ochenta años antes del psicoanálisis: la idea de que el intelecto no manda sino que justifica lo que el querer ya decidió. Y su capítulo sobre la música es la mejor explicación filosófica que se ha escrito de por qué unos sonidos sin significado emocionan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. En el paso central, y él lo sabía: de «mi cuerpo se conoce por dentro como voluntad» a «todo el universo es voluntad» hay una analogía presentada como deducción, y sin ese salto no queda libro. Su pesimismo está además construido de manera que no se puede refutar: cualquier alegría se reinterpreta como cese momentáneo de una carencia, y una tesis que absorbe todos los contraejemplos ha dejado de decir algo comprobable. Y no se puede separar de la obra su ensayo <em>Sobre las mujeres</em>, de 1851, una sarta de desprecios sin argumento que no vale explicar por la época: contemporáneos suyos escribieron lo contrario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un episodio documentado que conviene tener delante al leer sus páginas sobre la compasión. En 1821 empujó por las escaleras a una costurera, Caroline Marquet, que hablaba en el rellano; ella quedó con secuelas, le puso un pleito, él lo perdió y le pasó una pensión de por vida. Cuando ella murió, veinte años después, él anotó en su cuaderno de cuentas un juego de palabras en latín: muere la vieja, se va la carga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después, el libro fue creciendo solo. Nietzsche lo encontró por casualidad en una librería de viejo de Leipzig en 1865 y dijo que le cambió la vida; Wagner se declaró su discípulo; Tolstói, Freud, Wittgenstein y Borges lo leyeron con atención.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "mundo-como-voluntad": MUNDO_COMO_VOLUNTAD,
   "informacion-gleick": INFORMACION_GLEICK,
   "viaje-del-escritor": VIAJE_DEL_ESCRITOR,
   "veinte-poemas": VEINTE_POEMAS,

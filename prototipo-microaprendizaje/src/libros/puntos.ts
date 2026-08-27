@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "mundo-como-voluntad": [
+    "por qué el espacio y el tiempo no están fuera sino en quien mira",
+    "qué se sabe del propio cuerpo que no se sabe de nada más",
+    "por qué se puede hacer lo que se quiere pero no elegir qué querer",
+    "qué demuestra el aburrimiento que no demuestra el sufrimiento",
+    "en qué se distingue la música de todas las demás artes",
+  ],
+
   "informacion-gleick": [
     "por qué en un canal malo se habla más largo y no más claro",
     "qué hace que un mensaje informe y otro no diga nada",
