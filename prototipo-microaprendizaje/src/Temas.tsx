@@ -30,24 +30,86 @@ import { spring, springSoft } from "./motion";
    para no decir nada.
    ========================================================================== */
 
-/** Las mismas nueve de la introducción, en su orden. */
-export const TEMAS = [
-  "Historia",
-  "Filosofía",
-  "Ciencia",
-  "Arte",
-  "Literatura",
-  "Psicología",
-  "Economía",
-  "Salud",
-  "Deportes",
-] as const;
+/* --------------------------------------------------------------------------
+   LAS METAS
+
+   Hasta el 27 de agosto esto eran nuestras nueve categorías —Historia,
+   Filosofía, Ciencia…—, que es una manera de preguntar DE QUÉ quieres leer.
+   Pablo mandó las dos capturas de las 12:45 y pidió que estuvieran «todas
+   estas secciones», que preguntan otra cosa: QUÉ QUIERES CONSEGUIR. No es un
+   matiz. «Psicología» es un estante; «Confiar más en ti mismo» es un motivo
+   para abrir la app, y a quien no sabe qué leer le dice mucho más.
+
+   CÓMO SIGUE FUNCIONANDO EL ORDEN. La estantería, los filtros y las
+   colecciones ordenan por CATEGORÍA, no por meta, y eso no ha cambiado: cada
+   meta lleva de qué estantes tira, y `categoriasDe()` traduce lo que el lector
+   marca a lo que el resto de la app entiende. Una meta puede tirar de tres
+   estantes, así que marcar cinco metas ordena mejor que marcar cinco temas.
+
+   Y LOS NOMBRES NO SON LOS SUYOS, a propósito. Pablo lo pidió así: «alguna
+   más si se te ocurre, y llamadas de diferentes formas algunas, para que no
+   sea un plagio total». De las doce suyas, cinco se quedan con el nombre que
+   tienen porque son frases corrientes en castellano que no ha inventado nadie
+   —«Confiar más en ti mismo», «Tener relaciones sanas», «Mejorar tu vida
+   sexual»—; las otras están dichas de otra manera. Y hay cuatro que no
+   existen en su lista y aquí sí, porque nuestro catálogo tiene estantes que
+   el suyo no tiene: la literatura, el arte, la historia y el deporte.
+
+   Una de las suyas se cae y conviene decir por qué: «Grow in faith» está sin
+   traducir en su propia app en español. Lo que hay debajo —religión y
+   sentido— se recoge en «Buscar un sentido», con Filosofía y Literatura
+   detrás, que es de lo que tenemos libros.
+   -------------------------------------------------------------------------- */
+
+export type Meta = {
+  nombre: string;
+  /** De qué estantes tira. Es lo que el resto de la app sabe leer. */
+  categorias: readonly string[];
+};
+
+export const METAS: readonly Meta[] = [
+  { nombre: "Rendir más cada día", categorias: ["Psicología", "Economía"] },
+  { nombre: "Crecer en el trabajo", categorias: ["Economía", "Psicología"] },
+  { nombre: "Hacer crecer tu dinero", categorias: ["Economía"] },
+  { nombre: "Pensar con más claridad", categorias: ["Filosofía", "Ciencia", "Psicología"] },
+  { nombre: "Confiar más en ti mismo", categorias: ["Psicología"] },
+  { nombre: "Poner orden en tu vida", categorias: ["Psicología", "Salud"] },
+  { nombre: "Vivir con más calma", categorias: ["Filosofía", "Psicología", "Salud"] },
+  { nombre: "Tener relaciones sanas", categorias: ["Psicología"] },
+  { nombre: "Mejorar tu vida sexual", categorias: ["Psicología", "Salud"] },
+  { nombre: "Criar mejor a tus hijos", categorias: ["Psicología", "Salud"] },
+  { nombre: "Cuidar el cuerpo", categorias: ["Salud", "Deportes"] },
+  { nombre: "Rendir en el deporte", categorias: ["Deportes", "Salud"] },
+  { nombre: "Buscar un sentido", categorias: ["Filosofía", "Literatura"] },
+  { nombre: "Entender el mundo de hoy", categorias: ["Historia", "Economía", "Ciencia"] },
+  { nombre: "Leer lo que nunca leíste", categorias: ["Literatura"] },
+  { nombre: "Saber mirar un cuadro", categorias: ["Arte", "Historia"] },
+];
 
 /** Lo mismo que la introducción: hasta cinco. */
 export const TOPE_TEMAS = 5;
 
+/** Los nombres, para la introducción y para las comprobaciones. */
+export const NOMBRES_META = METAS.map((m) => m.nombre);
+
+/** Las categorías de las que tiran las metas marcadas, sin repetir y en orden.
+ *
+ *  Es la traducción entre lo que elige el lector y lo que el resto de la app
+ *  entiende. El orden importa: `ordenar()` de las colecciones da más peso a
+ *  lo que va delante, así que la primera categoría de la primera meta manda.
+ */
+export function categoriasDe(metas: readonly string[]): string[] {
+  const fuera: string[] = [];
+  for (const nombre of metas) {
+    const m = METAS.find((x) => x.nombre === nombre);
+    if (!m) continue;
+    for (const c of m.categorias) if (!fuera.includes(c)) fuera.push(c);
+  }
+  return fuera;
+}
+
 /* --------------------------------------------------------------------------
-   Los nueve dibujos
+   Los dieciséis dibujos
 
    PROVISIONALES: Pablo dijo que manda los suyos. Están hechos en la familia
    de los que ya mandó —el candado, las entradas, la mano—: planos, sin filete
@@ -67,75 +129,100 @@ function Marco({ children }: { children: React.ReactNode }) {
 }
 
 const DIBUJOS: Record<string, () => React.ReactElement> = {
-  /* Una columna clásica: fuste de oro, basa y ábaco en rojo. */
-  Historia: () => (
+  /* Un cronómetro: la esfera y las agujas. */
+  "Rendir más cada día": () => (
     <Marco>
-      <rect x="8" y="8" width="32" height="6" rx="2" fill={R} />
-      <rect x="10" y="34" width="28" height="6" rx="2" fill={R} />
-      <rect x="15" y="14" width="5" height="20" fill={O} />
-      <rect x="22" y="14" width="5" height="20" fill={O} />
-      <rect x="29" y="14" width="5" height="20" fill={O} />
+      <circle cx="24" cy="28" r="16" fill={O} />
+      <rect x="19" y="2" width="10" height="5" rx="2.5" fill={R} />
+      <rect x="21.6" y="6" width="4.8" height="6.5" fill={R} />
+      <path d="M24 28V18M24 28h7.5" fill="none" stroke={R} strokeWidth="3.6" strokeLinecap="round" />
     </Marco>
   ),
-  /* Una cabeza de perfil con una chispa dentro. */
-  Filosofía: () => (
+  /* Un maletín. */
+  "Crecer en el trabajo": () => (
     <Marco>
-      <path d="M24 6c9 0 15 6.6 15 15 0 5-2.4 7.6-2.4 11.4V40a2 2 0 0 1-2 2H18a2 2 0 0 1-2-2v-3.6C13 34 9 30 9 22 9 12.8 15 6 24 6Z" fill={R} />
-      <path d="M24 14l2.6 5.6L32 22l-5.4 2.4L24 30l-2.6-5.6L16 22l5.4-2.4Z" fill={O} />
+      <rect x="5" y="15" width="38" height="25" rx="4" fill={R} />
+      <path d="M18 15v-3.6A3.4 3.4 0 0 1 21.4 8h5.2A3.4 3.4 0 0 1 30 11.4V15" fill="none" stroke={O} strokeWidth="3.4" />
+      <rect x="5" y="23" width="38" height="4" fill={O} />
+      <rect x="20.5" y="21" width="7" height="8" rx="2.4" fill={O} />
     </Marco>
   ),
-  /* Un matraz con burbujas. */
-  Ciencia: () => (
+  /* Un billete con su moneda. */
+  "Hacer crecer tu dinero": () => (
     <Marco>
-      <path d="M20 6h8v12.6l9.2 15.9A4.6 4.6 0 0 1 33.2 42H14.8a4.6 4.6 0 0 1-4-6.9L20 18.6Z" fill={R} />
-      <circle cx="21" cy="33" r="3.4" fill={O} />
-      <circle cx="28.5" cy="37" r="2.2" fill={O} />
-      <rect x="18" y="5" width="12" height="4" rx="2" fill={O} />
+      <rect x="4" y="13" width="33" height="20" rx="3" fill={R} />
+      <circle cx="20.5" cy="23" r="5.6" fill={O} />
+      <circle cx="34" cy="33" r="10" fill={O} />
+      <rect x="32" y="27" width="4" height="12" rx="2" fill={R} />
     </Marco>
   ),
-  /* Una paleta con dos manchas. */
-  Arte: () => (
+  /* Una bombilla. */
+  "Pensar con más claridad": () => (
     <Marco>
-      <path d="M24 6c10.5 0 18 6.9 18 15.6 0 5.4-3.9 8.4-8.1 8.4h-3.3c-2.4 0-4.2 1.8-4.2 4 0 1.2.6 2 .6 3.2 0 2.4-1.8 4.8-5 4.8C12.6 42 6 34.5 6 24 6 13.5 13.5 6 24 6Z" fill={R} />
-      <circle cx="17" cy="17" r="3.4" fill={O} />
-      <circle cx="28" cy="14" r="3.4" fill={O} />
-      <circle cx="13" cy="27" r="3.4" fill={O} />
+      <path d="M24 4c8 0 14 6 14 13.6 0 5-2.6 7.8-4.8 10.4-1.6 2-2.2 3-2.2 5.4H17c0-2.4-.6-3.4-2.2-5.4C12.6 25.4 10 22.6 10 17.6 10 10 16 4 24 4Z" fill={O} />
+      <rect x="16.6" y="36" width="14.8" height="4.2" rx="2.1" fill={R} />
+      <rect x="19" y="41.4" width="10" height="4.2" rx="2.1" fill={R} />
     </Marco>
   ),
-  /* Un libro abierto. */
-  Literatura: () => (
+  /* Un escudo con una chispa. */
+  "Confiar más en ti mismo": () => (
     <Marco>
-      <path d="M6 11c5.6-2 11.2-2 16.8 0v27c-5.6-2-11.2-2-16.8 0Z" fill={R} />
-      <path d="M42 11c-5.6-2-11.2-2-16.8 0v27c5.6-2 11.2-2 16.8 0Z" fill={O} />
-      <rect x="22.6" y="10" width="2.8" height="29" rx="1.4" fill={R} />
+      <path d="M24 4l16 5.8v12C40 32 33 40 24 44 15 40 8 32 8 21.8v-12Z" fill={R} />
+      <path d="M24 14l3 6.6 6.6 3-6.6 3-3 6.6-3-6.6-6.6-3 6.6-3Z" fill={O} />
     </Marco>
   ),
-  /* Una cabeza con un corazón dentro. */
-  Psicología: () => (
+  /* Una balanza. */
+  "Poner orden en tu vida": () => (
     <Marco>
-      <circle cx="24" cy="22" r="16" fill={R} />
-      <rect x="19" y="36" width="10" height="7" rx="2.5" fill={R} />
-      <path d="M24 30c-6-4.4-8-6.8-8-9.8a4.6 4.6 0 0 1 8-3 4.6 4.6 0 0 1 8 3c0 3-2 5.4-8 9.8Z" fill={O} />
+      <rect x="22" y="7" width="4" height="32" rx="2" fill={R} />
+      <rect x="13" y="38" width="22" height="5" rx="2.5" fill={R} />
+      <rect x="8" y="13" width="32" height="4" rx="2" fill={O} />
+      <path d="M12 17 6 28h12Z" fill={O} />
+      <path d="M36 17 30 28h12Z" fill={O} />
     </Marco>
   ),
-  /* Monedas apiladas. */
-  Economía: () => (
+  /* Una taza con su vapor. */
+  "Vivir con más calma": () => (
     <Marco>
-      <ellipse cx="24" cy="35" rx="16" ry="6" fill={R} />
-      <ellipse cx="24" cy="27" rx="16" ry="6" fill={O} />
-      <ellipse cx="24" cy="19" rx="16" ry="6" fill={R} />
-      <ellipse cx="24" cy="11" rx="16" ry="6" fill={O} />
+      <rect x="7" y="19" width="25" height="19" rx="4" fill={R} />
+      <path d="M32 23h3.6a5.2 5.2 0 0 1 0 10.4H32" fill="none" stroke={O} strokeWidth="4" />
+      <rect x="5" y="38" width="30" height="4.4" rx="2.2" fill={O} />
+      <path d="M15 14V8M22 14V5" fill="none" stroke={O} strokeWidth="3.2" strokeLinecap="round" />
     </Marco>
   ),
-  /* Un corazón con su línea de pulso. */
-  Salud: () => (
+  /* Dos aros enlazados. */
+  "Tener relaciones sanas": () => (
     <Marco>
-      <path d="M24 42C10 32.5 5 27 5 19.6A10.6 10.6 0 0 1 24 13a10.6 10.6 0 0 1 19 6.6C43 27 38 32.5 24 42Z" fill={R} />
-      <path d="M11 24h6l3-6 4 12 3.4-7 2.6 3H37" fill="none" stroke={O} strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round" />
+      <circle cx="18" cy="24" r="11" fill="none" stroke={R} strokeWidth="5" />
+      <circle cx="30" cy="24" r="11" fill="none" stroke={O} strokeWidth="5" />
+    </Marco>
+  ),
+  /* Dos corazones. */
+  "Mejorar tu vida sexual": () => (
+    <Marco>
+      <path d="M17 43C7 35.4 3 31.2 3 24.8A8.6 8.6 0 0 1 17 19a8.6 8.6 0 0 1 14 5.8C31 31.2 27 35.4 17 43Z" fill={R} />
+      <path d="M35 28.5c-6.8-5.1-9.2-7.7-9.2-11.6a5.2 5.2 0 0 1 9.2-3.4 5.2 5.2 0 0 1 9.2 3.4c0 3.9-2.4 6.5-9.2 11.6Z" fill={O} />
+    </Marco>
+  ),
+  /* Un adulto y un niño. */
+  "Criar mejor a tus hijos": () => (
+    <Marco>
+      <circle cx="16" cy="13" r="7" fill={R} />
+      <path d="M4 43c0-7.4 5.4-12.6 12-12.6S28 35.6 28 43Z" fill={R} />
+      <circle cx="35" cy="21" r="5.6" fill={O} />
+      <path d="M25.6 43c0-5.4 4.2-9.2 9.4-9.2s9.4 3.8 9.4 9.2Z" fill={O} />
+    </Marco>
+  ),
+  /* Una manzana. */
+  "Cuidar el cuerpo": () => (
+    <Marco>
+      <path d="M24 15c4-3.2 10.4-3 13.4 1.2 3.4 4.8 1.8 13.4-2.2 20-2.6 4.4-5.6 7.6-8 7.6-1.6 0-2-.8-3.2-.8s-1.6.8-3.2.8c-2.4 0-5.4-3.2-8-7.6-4-6.6-5.6-15.2-2.2-20C13.6 12 20 11.8 24 15Z" fill={R} />
+      <path d="M24 14V7" fill="none" stroke={O} strokeWidth="3.2" strokeLinecap="round" />
+      <path d="M24.5 10c2.4-5 8.5-5.4 8.5-5.4s.4 6-4.6 7.4c-2.6.7-3.9-2-3.9-2Z" fill={O} />
     </Marco>
   ),
   /* Una copa. */
-  Deportes: () => (
+  "Rendir en el deporte": () => (
     <Marco>
       <path d="M14 6h20v11c0 6-4.5 10.6-10 10.6S14 23 14 17Z" fill={O} />
       <path d="M14 9H9v3.4c0 4 2.4 6.6 5.6 7.2M34 9h5v3.4c0 4-2.4 6.6-5.6 7.2" fill="none" stroke={R} strokeWidth="3" strokeLinecap="round" />
@@ -143,8 +230,40 @@ const DIBUJOS: Record<string, () => React.ReactElement> = {
       <rect x="13" y="34" width="22" height="6" rx="2.4" fill={R} />
     </Marco>
   ),
+  /* Una brújula. */
+  "Buscar un sentido": () => (
+    <Marco>
+      <circle cx="24" cy="24" r="18" fill={R} />
+      <path d="M35 13 27.5 27.5 13 35l7.5-14.5Z" fill={O} />
+    </Marco>
+  ),
+  /* Un globo terráqueo. */
+  "Entender el mundo de hoy": () => (
+    <Marco>
+      <circle cx="24" cy="24" r="18" fill={R} />
+      <path d="M24 6c4.8 5 4.8 31 0 36M6 24h36M9.4 14h29.2M9.4 34h29.2" fill="none" stroke={O} strokeWidth="2.6" />
+    </Marco>
+  ),
+  /* Un libro abierto. */
+  "Leer lo que nunca leíste": () => (
+    <Marco>
+      <path d="M6 11c5.6-2 11.2-2 16.8 0v27c-5.6-2-11.2-2-16.8 0Z" fill={R} />
+      <path d="M42 11c-5.6-2-11.2-2-16.8 0v27c5.6-2 11.2-2 16.8 0Z" fill={O} />
+      <rect x="22.6" y="10" width="2.8" height="29" rx="1.4" fill={R} />
+    </Marco>
+  ),
+  /* Un cuadro con su marco. */
+  "Saber mirar un cuadro": () => (
+    <Marco>
+      <rect x="5" y="7" width="38" height="34" rx="3.4" fill={O} />
+      <rect x="10.5" y="12.5" width="27" height="23" rx="2" fill={R} />
+      <circle cx="17.5" cy="19" r="3" fill={O} />
+      <path d="M10.5 35.5V33l8-8 5 5 6-6 8 8v3.5Z" fill={O} />
+    </Marco>
+  ),
 };
 
+/** El dibujo de una meta, por su nombre. */
 export function DibujoTema({ tema }: { tema: string }) {
   const D = DIBUJOS[tema];
   return D ? <D /> : null;
@@ -155,15 +274,15 @@ export function DibujoTema({ tema }: { tema: string }) {
    -------------------------------------------------------------------------- */
 
 export function GestionaTemas({
-  intereses,
+  metas,
   onGestionar,
 }: {
-  intereses: string[];
+  metas: string[];
   onGestionar: () => void;
 }) {
   /* Sin nada marcado la tarjeta seguiría teniendo sentido —es la manera de
      marcar algo—, así que en vez de esconderla se cambia lo que dice. */
-  const hay = intereses.length > 0;
+  const hay = metas.length > 0;
 
   /* EL TITULAR VA EN UNA LÍNEA, y esto es lo que lo garantiza.
    *
@@ -205,19 +324,17 @@ export function GestionaTemas({
         <h2 className="gestiona-titulo" ref={titular}>
           Gestiona las recomendaciones
         </h2>
-        {/* La frase es la suya, palabra por palabra, con un cambio: donde
-            ellos dicen «objetivos» aquí dice «temas», que es como se llama
-            esto en nuestra app y en la pantalla de ajuste. Cae en dos líneas
-            igual que en la captura, que es parte de la forma del recuadro. */}
+        {/* La frase es la suya, palabra por palabra. Cae en dos líneas igual
+            que en la captura, que es parte de la forma del recuadro. */}
         <p className="gestiona-sub">
           {hay
-            ? "Para conseguir nuevas recomendaciones, tienes que ajustar tus temas"
-            : "Elige tus temas y la estantería se ordena por ellos"}
+            ? "Para conseguir nuevas recomendaciones, tienes que ajustar tus objetivos"
+            : "Elige lo que quieres conseguir y la estantería se ordena por ello"}
         </p>
 
         {hay && (
           <ul className="gestiona-lista">
-            {intereses.map((t) => (
+            {metas.map((t) => (
               <li key={t}>
                 <DibujoTema tema={t} />
                 {t}
@@ -232,7 +349,7 @@ export function GestionaTemas({
           onClick={onGestionar}
           whileTap={{ scale: 0.98 }}
         >
-          {hay ? "Gestionar" : "Elegir temas"}
+          {hay ? "Gestionar" : "Elegir objetivos"}
         </motion.button>
       </div>
     </motion.section>
@@ -244,15 +361,15 @@ export function GestionaTemas({
    -------------------------------------------------------------------------- */
 
 export function AjustarTemas({
-  intereses,
+  metas,
   onCerrar,
   onGuardar,
 }: {
-  intereses: string[];
+  metas: string[];
   onCerrar: () => void;
-  onGuardar: (temas: string[]) => void;
+  onGuardar: (metas: string[]) => void;
 }) {
-  const [elegidos, setElegidos] = useState<string[]>(intereses);
+  const [elegidos, setElegidos] = useState<string[]>(metas);
 
   const alternar = (t: string) =>
     setElegidos((v) =>
@@ -277,7 +394,7 @@ export function AjustarTemas({
       <div className="ajtemas-scroll">
         <h1 className="ajtemas-titulo">¿Cambiamos lo que te proponemos?</h1>
         <p className="ajtemas-sub">
-          La estantería se ordena por los temas que dejes marcados.
+          La estantería se ordena por lo que dejes marcado aquí.
         </p>
         {/* El tope se enseña, no se aplica en silencio. Al llegar a cinco, la
             casilla de los que no están elegidos deja de responder, y sin este
@@ -287,7 +404,7 @@ export function AjustarTemas({
         </p>
 
         <ul className="ajtemas-lista">
-          {TEMAS.map((t) => {
+          {METAS.map(({ nombre: t }) => {
             const on = elegidos.includes(t);
             return (
               <li key={t}>

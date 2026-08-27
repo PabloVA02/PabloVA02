@@ -292,7 +292,71 @@ O sea, dos cosas y en este orden:
    Los dieciocho que faltan están en `npx tsx scripts/estado.mjs`.
 2. **Escribirlos todos**, con las normas de `REDACCION.md`, sin parar.
 
-### UNA COSA QUE HAY QUE PREGUNTARLE A PABLO ANTES DE ESCRIBIRLA
+### LO QUE ELIGE EL LECTOR SON METAS, NO CATEGORÍAS
+
+Cambió el 27 de agosto, con las capturas de las 12:45 que mandó Pablo. Hasta
+entonces la introducción preguntaba «¿Qué temas te interesan?» y salían
+nuestras nueve categorías. Ahora pregunta **«¿Qué quieres conseguir?»** y salen
+**dieciséis metas**: «Confiar más en ti mismo», «Hacer crecer tu dinero»,
+«Cuidar el cuerpo»… Es otra pregunta: una categoría es un estante, una meta es
+un motivo para abrir la app.
+
+**Y por debajo NO ha cambiado nada.** La estantería, los filtros y las
+colecciones siguen ordenando por CATEGORÍA. Cada meta lleva escrito de qué
+estantes tira y `categoriasDe()`, en `src/Temas.tsx`, hace la traducción. En
+`App.tsx` viven las metas y de ellas sale `intereses`, que es lo único que baja
+a las pantallas. Una meta puede tirar de tres estantes, así que marcar cinco
+metas ordena mejor que marcar cinco temas.
+
+Tres sitios enseñan lo mismo y no pueden separarse:
+
+- La introducción, paso «¿Qué quieres conseguir?». Sus opciones salen de
+  `NOMBRES_META`, no están copiadas en `Onboarding.tsx`.
+- La tarjeta del inicio, que lista las marcadas.
+- La pantalla de «Gestionar», que es donde se cambian.
+
+**Los nombres no son los de Headway y es a propósito.** Pablo lo pidió así:
+«alguna más si se te ocurre, y llamadas de diferentes formas algunas, para que
+no sea un plagio total». De sus doce, tres se quedan igual porque son frases
+corrientes en castellano —«Confiar más en ti mismo», «Tener relaciones sanas»,
+«Mejorar tu vida sexual»—, las demás están dichas de otra manera, y hay cuatro
+que no existen en su lista: «Buscar un sentido», «Entender el mundo de hoy»,
+«Leer lo que nunca leíste» y «Saber mirar un cuadro», que son los estantes que
+nosotros tenemos y ellos no.
+
+Los dieciséis dibujos de `Temas.tsx` **siguen siendo provisionales**: planos, a
+dos tintas —rojo #fa5b4a y oro #f8bb31—, en la familia de los que ya mandó
+Pablo. Cambiar uno es cambiar su función y nada más.
+
+## EL RECUADRO Y LA LISTA, MEDIDOS SOBRE LAS CAPTURAS
+
+Pablo pidió el recuadro de «Gestiona las recomendaciones» «exactamente igual,
+al 100%», así que está medido píxel a píxel sobre su captura de las 12:42
+—750x1624, o sea 2x sobre 375 de ancho— y lo mismo la lista de la pantalla de
+dentro sobre las de las 12:45. Las cifras están escritas en `styles.css` junto
+a cada regla; lo que hay que saber para no deshacerlo:
+
+- Fondo `#383838`, filete de 1 px `#606060` y radio 12, tanto en la tarjeta
+  como en cada fila de la lista. **El texto es BLANCO puro**, no la crema
+  `--paper`: en su tarjeta el subtítulo no está atenuado.
+- Los cuerpos se sacan de la ALTURA DE MAYÚSCULA de la captura, no a ojo: en
+  esta tipografía la mayúscula es el 0,727 del cuerpo, así que una G de 15,5
+  son 21,3 de cuerpo. Es la misma cuenta de los rótulos de bloque.
+- **El titular va en UNA línea y eso lo garantiza un ajuste en `Temas.tsx`.**
+  Su frase ocupa 299 de los 309 de ancho interior escrita en Roboto; nuestra
+  pila es más ancha y se partía en dos, cambiando la forma del recuadro
+  entero. No hay manera de decir «tan grande como quepa» en CSS y clavar un
+  tamaño no vale porque cada aparato resuelve la pila con otra tipografía, así
+  que se mide al montar y se baja hasta que cabe.
+- Ojo con `.bloque h2`: vale más que `.gestiona-titulo` y le metía 20 de cuerpo
+  y dieciséis píxeles de sangrado DENTRO del recuadro. Por eso el titular se
+  escribe con dos clases, `.gestiona .gestiona-titulo`.
+
+Y `?temas=Confiar más en ti mismo,Cuidar el cuerpo` deja el inicio con esas
+metas marcadas sin pasar por la introducción, que es lo que permite comparar la
+tarjeta llena contra la captura. Mismo apaño que `?p=` y `?suscrito`.
+
+## UNA COSA QUE HAY QUE PREGUNTARLE A PABLO ANTES DE ESCRIBIRLA
 
 `cuerpo-para-vida` — «Un cuerpo para toda la vida», Marcos Vázquez, 2019 —
 está en el catálogo como pendiente y **se dejó sin escribir a propósito el 27

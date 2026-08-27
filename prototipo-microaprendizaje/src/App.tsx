@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type ReactElement } from "react";
+import { useEffect, useMemo, useRef, useState, type ReactElement } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { MINUTOS_OBJETIVO } from "./lesson";
 import { cargarResumen, resumenCargado } from "./libros/indice";
@@ -25,7 +25,7 @@ import { Resena, tocaPedirResena } from "./Resena";
 import { spring, springPop, springSoft, springTight } from "./motion";
 import { GlyphBiblioteca, GlyphLibros, GlyphLupa, GlyphRayo } from "./glyphs";
 import { PantallaColeccion } from "./Colecciones";
-import { AjustarTemas } from "./Temas";
+import { AjustarTemas, categoriasDe } from "./Temas";
 import type { Coleccion } from "./colecciones";
 
 type Pantalla =
@@ -181,16 +181,23 @@ export default function App() {
    *  ahora la tarjeta de cuenta. Ver `Cuenta.tsx`. */
   const [nombre, setNombre] = useState("Hola");
   /** Los temas que marcó en la introducción. Ordenan la estantería. */
-  /* `?temas=Historia,Salud` deja el inicio con esos temas ya marcados, sin
-     pasar por la introducción. Es el mismo apaño que `?p=` y `?suscrito` y por
-     el mismo motivo: la tarjeta de «Gestiona las recomendaciones» cambia de
-     forma según haya temas o no, y sin esto no hay manera de compararla contra
-     la captura de referencia. Sin el parámetro arranca vacío, como siempre. */
-  const [intereses, setIntereses] = useState<string[]>(() => {
+  /* LO QUE ELIGE EL LECTOR SON METAS —«Confiar más en ti mismo»—, y lo que el
+     resto de la app sabe ordenar son CATEGORÍAS —«Psicología»—. Aquí viven las
+     primeras y de ellas salen las segundas, que es lo único que baja a la
+     estantería, a los filtros y a las colecciones. La traducción está en
+     `Temas.tsx`, junto a la lista.
+
+     `?temas=Confiar más en ti mismo,Cuidar el cuerpo` deja el inicio con esas
+     metas ya marcadas, sin pasar por la introducción. Es el mismo apaño que
+     `?p=` y `?suscrito` y por el mismo motivo: la tarjeta de «Gestiona las
+     recomendaciones» cambia de forma según haya metas o no, y sin esto no hay
+     manera de compararla contra la captura. Sin el parámetro arranca vacío. */
+  const [metas, setMetas] = useState<string[]>(() => {
     if (typeof window === "undefined") return [];
     const t = new URLSearchParams(window.location.search).get("temas");
     return t ? t.split(",").filter(Boolean) : [];
   });
+  const intereses = useMemo(() => categoriasDe(metas), [metas]);
   /** Tarjetas leídas. Sube al terminar un capítulo o un short. */
   /* Cuántos resúmenes lleva terminados. Arranca en cero salvo que la página
      diga otra cosa: `?leidas=6` es lo que permite mirar el aviso de reseña sin
@@ -349,7 +356,7 @@ export default function App() {
               key="intro"
               onTerminar={(alta) => {
                 setNombre(alta.nombre);
-                setIntereses(alta.intereses);
+                setMetas(alta.intereses);
                 /* Lo que se ha contestado en la introducción se guarda en las
                    preferencias, que es lo único que sobrevive a un recargado.
                    Ahí lo lee la pantalla de ajustes y ahí lo leería el envío a
@@ -400,6 +407,7 @@ export default function App() {
                 setColeccion(c);
                 setPantalla("coleccion");
               }}
+              metas={metas}
               onGestionarTemas={() => {
                 setVolverDeTemas("inicio");
                 setPantalla("temas");
@@ -409,10 +417,10 @@ export default function App() {
           {pantalla === "temas" && (
             <AjustarTemas
               key="temas"
-              intereses={intereses}
+              metas={metas}
               onCerrar={() => setPantalla(volverDeTemas)}
-              onGuardar={(t) => {
-                setIntereses(t);
+              onGuardar={(m) => {
+                setMetas(m);
                 setPantalla(volverDeTemas);
               }}
             />

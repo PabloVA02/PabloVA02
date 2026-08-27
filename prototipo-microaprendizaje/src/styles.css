@@ -1541,25 +1541,30 @@ button {
 }
 .ajtemas-cuenta[data-lleno="true"] { color: var(--fuego); }
 
+/* Las medidas salen de las dos capturas de las 12:45, con la misma cuenta que
+   el recuadro: fila de 71 de alto, 9 de hueco entre filas, dibujo de 38 que
+   empieza a 16 del borde y la letra a 69, con la mayúscula midiendo 10,5. Y el
+   relleno y el filete son los mismos de la tarjeta, #383838 y #606060. */
 .ajtemas-lista {
   margin: 14px 0 0;
   padding: 0;
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 9px;
 }
 
 .ajtemas-fila {
   display: flex;
   align-items: center;
-  gap: 13px;
+  gap: 15px;
   width: 100%;
-  padding: 13px 14px;
-  border-radius: 13px;
-  background: var(--tarjeta);
-  border: 1.5px solid var(--tarjeta-filo);
-  color: #f2ece1;
+  min-height: 71px;
+  padding: 8px 20px 8px 16px;
+  border-radius: 12px;
+  background: #383838;
+  border: 1px solid #606060;
+  color: #ffffff;
   text-align: left;
   transition: border-color 0.18s ease, background-color 0.18s ease;
 }
@@ -1575,7 +1580,19 @@ button {
 .ajtemas-fila[data-bloqueada="true"] { opacity: 0.42; }
 
 .ajtemas-marca { flex: none; display: grid; place-items: center; }
-.ajtemas-nombre { flex: 1; min-width: 0; font-size: 15.5px; font-weight: 600; }
+/* 38 y no los 26 que traen puestos los dibujos: en su fila el icono ocupa 39
+   y es lo que da a la lista su aire. El atributo del SVG lo pisa esta regla. */
+.ajtemas-marca svg { width: 38px; height: 38px; }
+.ajtemas-nombre {
+  flex: 1;
+  min-width: 0;
+  /* 14,4: la T de «Triunfar» mide 10,5 en la captura y en esta tipografía la
+     mayúscula es el 0,727 del cuerpo. Es el mismo cuerpo que la lista de la
+     tarjeta, y con el mismo peso: en su fila el nombre NO va en negrita. */
+  font-size: 14.4px;
+  font-weight: 400;
+  line-height: 1.25;
+}
 
 .ajtemas-casilla {
   flex: none;

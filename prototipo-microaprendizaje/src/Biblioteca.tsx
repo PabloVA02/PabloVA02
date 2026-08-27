@@ -530,6 +530,7 @@ export function Inicio({
   onEscuchar,
   onOferta,
   intereses = [],
+  metas = [],
   guardados,
   onGuardar,
   onColeccion,
@@ -546,6 +547,9 @@ export function Inicio({
   onOferta?: () => void;
   /** Lo que marcó en la introducción. Ordena la estantería, no la recorta. */
   intereses?: string[];
+  /** Lo que el lector eligió: sus metas. `intereses` son las categorías que
+   *  salen de ellas, y es lo que ordena la estantería. */
+  metas?: string[];
   /** Los que ya están en su biblioteca, por id. Viven en `App`. */
   guardados?: ReadonlySet<string>;
   onGuardar?: (libro: Libro) => void;
@@ -767,7 +771,7 @@ export function Inicio({
             único de esta pantalla que deja cambiar lo que se ve sin salir de
             ella. */}
         {!filtro && onGestionarTemas && (
-          <GestionaTemas intereses={intereses} onGestionar={onGestionarTemas} />
+          <GestionaTemas metas={metas} onGestionar={onGestionarTemas} />
         )}
 
       </div>

@@ -6,6 +6,7 @@ import { PaseInvitado } from "./PaseInvitado";
 import { CargaBiblioteca, DURACION } from "./Cargando";
 import { CurvaVelocidad, PantallaCalculo, RadarRasgos, VECES_MAS_RAPIDO } from "./GraficasIntro";
 import { spring, springPop, springSoft, springTight } from "./motion";
+import { NOMBRES_META } from "./Temas";
 
 /* ==========================================================================
    Introducción.
@@ -283,22 +284,24 @@ const PASOS: Paso[] = [
       { titulo: "Retenerlo a largo plazo", color: "var(--sage)" },
     ],
   },
+  /* Aquí se preguntaba «¿Qué temas te interesan?» y salían las nueve
+     categorías. Desde el 27 de agosto se pregunta por METAS, que es lo mismo
+     que edita después la pantalla de «Gestionar»: si la introducción recogiera
+     una cosa y esa pantalla enseñara otra, el lector vería ahí dentro algo que
+     él no ha marcado nunca. La lista sale de `Temas.tsx` y no se copia aquí,
+     para que no puedan separarse. */
   {
     tipo: "eleccion",
-    titulo: "¿Qué temas te interesan?",
-    pie: "Elige hasta 5 para empezar. Podrás añadir más luego.",
+    titulo: "¿Qué quieres conseguir?",
+    pie: "Elige hasta 5. Podrás cambiarlos cuando quieras.",
     multiple: true,
     max: 5,
-    opciones: [
-      { texto: "Historia" }, { texto: "Filosofía" }, { texto: "Ciencia" },
-      { texto: "Arte" }, { texto: "Literatura" }, { texto: "Psicología" },
-      { texto: "Economía" }, { texto: "Salud" }, { texto: "Deportes" },
-    ],
+    opciones: NOMBRES_META.map((texto) => ({ texto })),
   },
   {
     tipo: "confirmacion",
     titulo: "Buena elección.",
-    texto: "Con estos temas el formato rinde especialmente bien: capítulos cortos, una idea por tarjeta y repaso al final.",
+    texto: "Para lo que has marcado, el formato rinde especialmente bien: capítulos cortos, una idea por página y repaso al final.",
   },
   {
     tipo: "eleccion",
@@ -418,7 +421,7 @@ export function Onboarding({ onTerminar }: { onTerminar: (alta: Alta) => void })
   // Si no escribe nada, no se le da la lata: la app le llama de tú.
   /* El paso de temas se localiza por su título y no por un índice a mano:
      insertar una pregunta antes rompería el índice sin avisar. */
-  const pasoTemas = PASOS.findIndex((p) => "titulo" in p && p.titulo === "¿Qué temas te interesan?");
+  const pasoTemas = PASOS.findIndex((p) => "titulo" in p && p.titulo === "¿Qué quieres conseguir?");
 
   /* Cada respuesta se localiza por su clave y no por su posición, para que
      mover o insertar un paso no cambie en silencio lo que se guarda. */
@@ -615,7 +618,12 @@ export function Onboarding({ onTerminar }: { onTerminar: (alta: Alta) => void })
                       data-activa={activa}
                       onClick={() => marcar(o.texto)}
                       whileTap={{ scale: 0.98 }}
-                      {...parte(2 + k, reducido)}
+                      /* El escalonado se corta en la séptima. Con nueve
+                         opciones daba igual; con dieciséis, la última entraba
+                         a segundo y medio y además lo hacía fuera de la
+                         pantalla, así que el lector veía una lista que no
+                         terminaba de aparecer. */
+                      {...parte(2 + Math.min(k, 6), reducido)}
                     >
                       <span className="opcion-texto">
                         {o.texto}
