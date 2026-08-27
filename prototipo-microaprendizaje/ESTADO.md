@@ -6,71 +6,58 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 
 | | hecho | queda |
 |---|---|---|
-| shorts escritos | **4** | el muro se ha empezado de cero, ver abajo |
+| shorts escritos | **0** | el muro espera el texto de Pablo, ver abajo |
 | libros en el catálogo | 418 | |
 | libros con resumen escrito a mano | **400** | 18 para el catálogo entero |
 | cubiertas dibujadas por Pablo | **309** | 109 para el catálogo entero |
 | emoticonos de las metas | 11 de 16 | Pablo manda los cinco que faltan |
 | resúmenes antiguos generados | 0 | 0 |
 
-## EL MURO DE SHORTS SE HA BORRADO ENTERO — 27 de agosto de 2026
+## EL MURO ESPERA EL TEXTO DE PABLO — 27 de agosto de 2026, por la noche
 
-Había 761 shorts con 2.139 fotografías puestas. Ya no hay ninguno: queda una
-sola historia, «¿Cuánto le queda al sol?», en
-`src/historias/curiosidades.ts`. **Está todo en el historial de git** —el
-commit anterior es `1eed9d9`— y de ahí sale lo que valga la pena rescatar, si
-sale.
+**No hay ninguna historia escrita, y es a propósito.** `curiosidades.ts` está
+vacío esperando. Pablo cambió la manera de trabajar al final del día:
 
-Lo pidió Pablo y el diagnóstico es suyo:
+> «Vamos a hacer una cosa mejor: primero te preparo yo el texto y te lo paso;
+> por lo tanto quita las imágenes y, en base al texto, ponemos las imágenes.»
 
-> «muchos shorts no dicen nada. "La cura estaba en la tierra", "De la feria al
-> quirófano" son títulos que nadie ve atractivos, y menos las imágenes. Creo
-> que deberíamos empezar por cosas de intereses, como cuánto de vida le queda
-> al sol, o por qué llueve, cómo funciona un móvil, cosas así, curiosidades y
-> preguntas cotidianas y de interés general.»
+Y es mejor, no solo distinto. Escribiendo yo primero y buscando fotos después,
+cuando una foto buena no aparecía la tentación era torcer el texto hacia la
+foto que sí existía. Con el texto cerrado antes de abrir Commons, manda el
+texto.
 
-Y tiene razón por debajo de lo que dice: los 761 estaban ordenados por
-**objeto** —la escoba, el ancla, el corcho— y un objeto no es una pregunta.
-«Escoba» no le pica a nadie. Lo que pica es una duda que el lector ya tenía y
-que nunca se ha parado a resolver; ahí el título no hay que inventarlo, ya
-está escrito en su cabeza.
+**Qué hacer cuando llegue su texto**: está escrito en la cabecera de
+`src/historias/curiosidades.ts`, paso por paso. En resumen: cortarlo en
+pantallas por donde deje algo colgando, pasarlo por `MOLDE.md` sin
+corregirle nada por la espalda, y buscar una fotografía por pantalla con el
+texto ya delante.
 
-**La pantalla ya está cerrada** (27 de agosto por la tarde): Pablo comparó seis
-maquetas y se quedó con la de siempre, la banda arriba, con las tres fotos de
-dentro del mismo tamaño y la portada un poco mayor. A partir de ahí se escribe.
-Van cuatro: «¿Cuánto le queda al sol?», «Por qué llueve», «Por qué vuelan los
-aviones» y «Por qué el mar es salado» (este, de dos páginas).
+**Lo que había, por si hay que rescatarlo.** Durante el día se escribieron y
+reescribieron cuatro shorts —el sol, la lluvia, los aviones y el mar— con
+quince fotografías de Commons ya fichadas, y se afinó la maqueta hasta
+dejarla como está. Todo eso vive en el commit `931c152`:
 
-**Los cuatro están reescritos del 27 por la noche, y la lección es de Pablo.**
-Leyó la primera versión de la lluvia y la tumbó: «el usuario solo quiere saber
-por qué llueve y le explicas cosas raras, va como a trompicones». Tenía razón:
-abría con un físico de 1880 en vez de con la respuesta. De ahí salen dos
-reglas nuevas de `MOLDE.md` que mandan sobre todo lo que se escriba:
+    git show 931c152:prototipo-microaprendizaje/src/historias/curiosidades.ts
+
+Las fotografías siguen siendo buenas aunque el texto cambie, así que si Pablo
+manda un texto del sol o de la lluvia, lo primero es mirar allí.
+
+**La maqueta NO se ha tocado y está lista**: banda de imagen elástica, sin
+rótulos, una sola medida de letra, el pie de foto sobre la imagen. Todo lo
+que se decidió hoy sigue en pie; lo único que falta es texto.
+
+### Lo que se aprendió escribiendo los cuatro, y que manda sobre los próximos
 
 · **La respuesta primero.** El título pregunta; la entrada contesta en dos o
-  tres frases que entendería cualquiera. Las sorpresas cuelgan de la
-  respuesta; el científico entra cuando su historia empuja, nunca de puerta.
-· **Sin rótulos en las pantallas.** Los quitó esa misma noche: «estamos
-  siempre limitados al texto que poner». Gastaban un renglón y obligaban a
-  trocear la explicación en apartados titulables. Ahora abre la primera frase
-  de cada página, que nombra de qué va y recoge lo que quedó colgando.
-· **Se escribe seguido y se corta donde algo quede colgando.** Nada de contar
-  ideas antes de escribir; el número de páginas es un resultado.
-
-Y para que se pueda escribir así, **la banda de imagen es elástica**: la
-fotografía se queda con lo que el texto no usa (suelos: portada 40 %, páginas
-26 %). Al montarla aparecieron dos averías que llevaban tiempo escondidas: el
-medidor de texto contaba el desplazamiento de la animación de entrada como si
-fuera texto —de ahí los ajustes fantasma de 0,96—, y el observador no se
-enteraba cuando los guiones del navegador liberaban una línea. Las dos están
-contadas en `useAjusteDeTexto` y en `desborda()` de `Shorts.tsx`.
-
-Lo que decía antes de cerrarla, y que sigue valiendo para la próxima vez: Es la segunda mitad
-de lo que pidió: «primero vamos a hacer el diseño de los short para que queden
-bonitos […] pon un ejemplo de short solo, el del sol con su foto que te pasé,
-y vamos ajustando el diseño». Escribir cien y descubrir después que la portada
-pedía otra cosa es rehacer cien. Lo que ya se ajustó está en `MOLDE.md` y en
-el bloque «EL SHORT, AJUSTADO» de `src/styles.css`.
+  tres frases que entendería cualquiera. Pablo tumbó una versión entera por
+  esto: «el usuario solo quiere saber por qué llueve y le explicas cosas
+  raras». El científico entra cuando su historia empuja, nunca de puerta.
+· **Sin rótulos.** Obligaban a trocear la explicación en apartados
+  titulables. Abre la primera frase de cada página.
+· **Se escribe seguido y se corta después.** Nada de contar ideas antes de
+  escribir: el número de páginas es un resultado.
+· **Ninguna frase de más de 35 palabras**, media entre 15 y 20. Lo comprueba
+  `revisa-shorts.mjs`, y en la última tanda cazó seis.
 
 ## LO PRIMERO: la foto tiene que ser bonita
 

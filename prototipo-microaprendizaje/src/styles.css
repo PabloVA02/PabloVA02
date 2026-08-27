@@ -10453,3 +10453,23 @@ button {
     padding-bottom: calc(5.4cqw + var(--barra, 64px));
   }
 }
+
+/* El muro cuando no hay ninguna historia escrita. Existe desde el 27 de
+   agosto por la noche, cuando Pablo pasó a escribir él los textos: entre que
+   se vacía el cajón y llega el primero, la sección tiene que decir que está
+   esperando y no parecer que se ha roto. */
+.muro-vacio {
+  position: absolute;
+  z-index: 4;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  padding: 0 var(--shell-pad);
+  text-align: center;
+  font-family: var(--serifa);
+  font-size: 4.2cqw;
+  line-height: 1.6;
+  color: color-mix(in srgb, var(--ink) 46%, transparent);
+}

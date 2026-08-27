@@ -166,11 +166,20 @@ for (const s of SHORTS) {
 const totales = SHORTS.map(
   (s) => palabras(s.entrada) + s.paginas.reduce((n, p) => n + palabras(p.texto), 0),
 );
-const media = Math.round(totales.reduce((a, b) => a + b, 0) / totales.length);
+/* Con el muro vacío no hay media que sacar, y dividir entre cero imprime
+   «NaN palabras de media · NaN min», que parece una avería del validador
+   justo el día que el cajón está esperando texto a propósito. */
+const media = totales.length
+  ? Math.round(totales.reduce((a, b) => a + b, 0) / totales.length)
+  : 0;
 const temas = new Map();
 for (const s of SHORTS) temas.set(s.categoria, (temas.get(s.categoria) ?? 0) + 1);
 
-console.log(`\n${SHORTS.length} historias · ${media} palabras de media · ${(media / PPM).toFixed(1)} min de lectura`);
+console.log(
+  totales.length
+    ? `\n${SHORTS.length} historias · ${media} palabras de media · ${(media / PPM).toFixed(1)} min de lectura`
+    : "\nNinguna historia escrita todavía: el muro espera el texto de Pablo.",
+);
 console.log([...temas].map(([t, n]) => `  ${t}: ${n}`).join("\n"));
 /* Cuenta las que tienen alguna imagen, no solo las que la tienen en `foto`.
    Las historias se escriben con `fotos: [...]` —una por pantalla— desde hace

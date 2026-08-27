@@ -386,7 +386,9 @@ export function MuroShorts({ onLeido }: { onLeido: (s: Short, minutos: number) =
       </motion.header>
 
       {/* Por cuál del montón vas. Con cien historias, un punto por historia ni
-          cabe ni informa: la cuenta sí. */}
+          cabe ni informa: la cuenta sí. Con el muro vacío no se pinta: «1/0»
+          se lee como una avería, no como que aún no hay nada. */}
+      {SHORTS.length > 0 && (
       <motion.div
         className="muro-cuenta"
         aria-hidden
@@ -399,6 +401,7 @@ export function MuroShorts({ onLeido }: { onLeido: (s: Short, minutos: number) =
           <span className="muro-cuenta-total">/{SHORTS.length}</span>
         </span>
       </motion.div>
+      )}
 
       {/* Cada historia tiene su ranura, y la ranura no se desmonta nunca: es
           lo que hace que el desplazamiento tenga siempre la altura de las 757
@@ -409,6 +412,23 @@ export function MuroShorts({ onLeido }: { onLeido: (s: Short, minutos: number) =
           de animaciones y 757 filtros de ruido—, y el desplazamiento iba a
           tirones. Con dos por cada lado hay una pantalla entera de margen
           para que la foto de la siguiente llegue antes de que se vea. */}
+      {/* EL MURO VACÍO. Desde el 27 de agosto por la noche puede estarlo: Pablo
+          escribe los textos y las historias se montan cuando llegan. Un muro
+          sin nada dentro sería una pantalla negra, y una pantalla negra se lee
+          como una aplicación rota, no como un cajón que espera. */}
+      {SHORTS.length === 0 && (
+        <motion.p
+          className="muro-vacio"
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ ...springSoft, delay: 0.2 }}
+        >
+          Aquí van las curiosidades.
+          <br />
+          Todavía no hay ninguna escrita.
+        </motion.p>
+      )}
+
       <div className="muro-pase" ref={scroll}>
         {SHORTS.map((s, i) => (
           <div key={s.id} className="muro-ranura" data-indice={i}>
