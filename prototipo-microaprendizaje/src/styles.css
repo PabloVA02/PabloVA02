@@ -9756,8 +9756,15 @@ button {
 .pastilla-dado {
   display: grid;
   place-items: center;
-  padding: 0 11px 0 13px;
+  padding: 0 10px 0 12px;
   height: 100%;
+}
+
+/* El dibujo trae su sombra pintada dentro, así que no lleva ninguna aquí: dos
+   sombras, una del dibujo y otra de CSS, se cruzan y se ve. */
+.dado-3d {
+  display: block;
+  transform-origin: 50% 62%;
 }
 
 .trag {

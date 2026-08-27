@@ -14,6 +14,12 @@ enlace— y este fichero se regenera con `node scripts/creditos.mjs`.
 
 ## Lo que no es una imagen de Commons
 
+**El dado de la cabecera** es el emoji de dado en tres dimensiones de **Fluent
+Emoji**, de Microsoft (`dado-3d.ts`), con **licencia MIT**: permite el uso
+comercial y obliga a conservar el aviso de copyright, que es esta línea.
+
+    https://github.com/microsoft/fluentui-emoji
+
 **La llama de la racha** es la animación del emoji de fuego de **Noto Animated
 Emoji**, de Google (`fuego-noto.json`, del emoji U+1F525). Va bajo **CC BY
 4.0**, que permite el uso comercial y obliga a citar la autoría: esta línea es

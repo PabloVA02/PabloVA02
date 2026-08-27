@@ -11,6 +11,7 @@ import {
 import { Portada, type Libro } from "./Biblioteca";
 import { spring, springPop } from "./motion";
 import { GlyphClose } from "./glyphs";
+import { DADO_3D } from "./dado-3d";
 
 /* ==========================================================================
    EL DADO Y LA TRAGAPERRAS
@@ -203,46 +204,38 @@ function tirada(libros: Libro[], ganador: Libro): Libro[] {
 /* --------------------------------------------------------------------------
    EL DADO DE LA CABECERA
 
-   Simple, plano y de frente. Aquí han pasado dos por delante y los dos los
-   devolvió Pablo:
+   El dibujo no es nuestro: es el emoji de dado en tres dimensiones de FLUENT
+   EMOJI, de Microsoft, con licencia MIT. Ver `dado-3d.ts`, que lleva el origen
+   y la licencia.
 
-   · El primero era mío: un cuadrado de oro con cinco puntos rojos, que se
-     meneaba cada cinco segundos. «Pon otro mucho más bonito con animación que
-     encuentres por ahí, que sea más profesional.» Tenía razón en el
-     movimiento —un icono al que se le mueve el ángulo no es un dado rodando—
-     y de paso el oro con el rojo encima daba poquísimo contraste.
-   · El segundo fue la animación del emoji 🎲 de Noto, de Google: un cubo en
-     tres dimensiones girando sobre sus ejes, cayendo y rebotando. «Nada, muy
-     feo… haz un dado más simple, que se vea bien que es un dado.» Y también
-     tenía razón, aunque cueste: a veintiséis puntos, un cubo en perspectiva
-     enseña TRES caras a la vez, con sus sombras y sus brillos, y lo que llega
-     al ojo es una mancha gris con puntos. Un dibujo precioso a 200 puntos no
-     es un buen icono a 26. Fuera, y con él sus 178 kB de JSON.
+   AQUÍ HAN PASADO CUATRO, y conviene que estén los cuatro apuntados para que
+   nadie vuelva a probar uno que ya se descartó:
 
-   LO QUE HAY AHORA es lo que hace cualquier icono que se lee a la primera:
-   una cara, de frente, sin perspectiva. Un cuadrado redondeado de color crema
-   —el papel de la app— con los puntos en tinta. Dos colores, dos formas, y a
-   cualquier tamaño se ve que es un dado.
+   1. Un cuadrado de oro con cinco puntos rojos, dibujado por mí, meneándose
+      cada cinco segundos. «Pon otro mucho más bonito con animación que
+      encuentres por ahí, que sea más profesional.»
+   2. El Lottie del emoji 🎲 de Noto, de Google, girando sobre sus tres ejes.
+      «Nada, muy feo.» Y con razón: el cubo de Noto es plano, gris y de tres
+      caras casi iguales; a treinta puntos es una mancha con puntos.
+   3. Un dado plano de frente, en crema con los puntos en tinta, dibujado por
+      mí. Se leía perfectamente y era lo que había pedido —«haz un dado más
+      simple que se vea bien que es un dado»—, pero: «el dado no me gusta,
+      quiero que sea en 3D».
+   4. Éste. Es 3D de verdad y está bajado de fuera, que son las dos cosas que
+      pedía: tiene luz —la cara de arriba clara, la izquierda en penumbra, la
+      derecha a media luz—, esquinas redondeadas y los puntos morados con uno
+      rojo arriba. A treinta puntos sigue leyéndose como un cubo.
 
-   Y RUEDA DE VERDAD, que es lo que le faltaba al primero: al tocarlo da una
-   vuelta entera y CAMBIA DE CARA a mitad de giro, cuando está de canto y no
-   se le ve. Eso es lo que hace que se lea como una tirada y no como un icono
-   girando: lo que convence no es el giro, es que el número sea otro al
-   pararse.
+   CÓMO SE MUEVE, y por qué así y no girando. Es una imagen de un cubo visto
+   en isométrica, no un cubo de verdad: girarlo sobre sus ejes lo delataría
+   —las caras no cambian—. Lo que sí es honesto con un dibujo así es una
+   TIRADA: se levanta, da una vuelta en el aire, cae y aplasta un poco al
+   tocar la mesa. Eso es lo que hace un dado lanzado, y es lo que se lee.
+
+     · Al tocarlo, siempre.
+     · Y solo, cada nueve segundos, para que se vea que se puede tocar.
+     · Con `prefers-reduced-motion`, nunca.
    -------------------------------------------------------------------------- */
-
-/** Dónde va cada punto, en la cuadrícula de tres por tres de la cara. */
-const IZQ = 15;
-const MED = 24;
-const DER = 33;
-const CARAS: Record<number, [number, number][]> = {
-  1: [[MED, MED]],
-  2: [[IZQ, IZQ], [DER, DER]],
-  3: [[IZQ, IZQ], [MED, MED], [DER, DER]],
-  4: [[IZQ, IZQ], [DER, IZQ], [IZQ, DER], [DER, DER]],
-  5: [[IZQ, IZQ], [DER, IZQ], [MED, MED], [IZQ, DER], [DER, DER]],
-  6: [[IZQ, IZQ], [IZQ, MED], [IZQ, DER], [DER, IZQ], [DER, MED], [DER, DER]],
-};
 
 export function GlyphDado({
   tamano = 30,
@@ -253,25 +246,25 @@ export function GlyphDado({
   tirada?: number;
 }) {
   const reducido = !!useReducedMotion();
-  const [cara, setCara] = useState(5);
   const controles = useAnimationControls();
   const primera = useRef(true);
 
   const rodar = useMemo(
     () => () => {
       if (reducido) return;
-      /* La cara nueva se pone a mitad de giro, con el dado de canto: cambiarla
-         al empezar o al acabar se ve, y entonces parece un icono al que le
-         cambian el dibujo en vez de un dado que ha rodado. */
-      window.setTimeout(() => setCara((c) => {
-        let n = c;
-        while (n === c) n = 1 + Math.floor(Math.random() * 6);
-        return n;
-      }), 210);
       controles.start({
-        rotate: [0, 360],
-        scale: [1, 0.88, 1.06, 1],
-        transition: { duration: 0.62, times: [0, 0.4, 0.75, 1], ease: [0.2, 0.75, 0.3, 1] },
+        /* Sube, gira y cae. El aplastado del final —0,9 de alto por 1,08 de
+           ancho— es un fotograma y es el que hace que se note que ha tocado
+           mesa; sin él el dado aterriza como una pluma. */
+        rotate: [0, 200, 360, 360],
+        y: [0, -7, 1, 0],
+        scaleY: [1, 1, 0.9, 1],
+        scaleX: [1, 1, 1.08, 1],
+        transition: {
+          duration: 0.72,
+          times: [0, 0.45, 0.78, 1],
+          ease: [0.25, 0.7, 0.35, 1],
+        },
       });
     },
     [controles, reducido],
@@ -288,8 +281,6 @@ export function GlyphDado({
     rodar();
   }, [pulsos, rodar]);
 
-  /* Y cada nueve segundos, para que se vea que se puede tocar. Sin esto es un
-     icono más de una fila de iconos y nadie lo pulsa. */
   useEffect(() => {
     if (reducido) return;
     const t = window.setInterval(rodar, 9000);
@@ -297,19 +288,16 @@ export function GlyphDado({
   }, [rodar, reducido]);
 
   return (
-    <motion.svg
-      viewBox="0 0 48 48"
+    <motion.img
+      className="dado-3d"
+      src={DADO_3D}
       width={tamano}
       height={tamano}
       animate={controles}
-      style={{ display: "block" }}
+      alt=""
       aria-hidden
-    >
-      <rect x="5" y="5" width="38" height="38" rx="9.5" fill="#f2ece1" />
-      {CARAS[cara].map(([x, yy], i) => (
-        <circle key={i} cx={x} cy={yy} r="3.7" fill="#17151c" />
-      ))}
-    </motion.svg>
+      draggable={false}
+    />
   );
 }
 
