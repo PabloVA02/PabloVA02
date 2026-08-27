@@ -344,11 +344,17 @@ for (const f of readdirSync(HISTORIAS).filter((x) => x.endsWith(".ts"))) {
     if (bloque && (bloque[1].match(/\n      \{/g) ?? []).length === 4) conFotos++;
   }
 }
+/* Singular y plural. Con setecientas historias la línea decía siempre lo
+   mismo y nadie miró; con una en el muro, el 27 de agosto, ponía «1 historias
+   con sus cuatro fotografías» debajo del simulador que Pablo estaba mirando. */
+const n = muroDemo?.shorts.length ?? 0;
 const cuenta = muroDemo
-  ? `${muroDemo.shorts.length} historias con sus cuatro fotografías, a 900 puntos de ancho. ` +
+  ? `${n} ${n === 1 ? "historia" : "historias"} con sus cuatro fotografías, ` +
+    `a ${ANCHO} puntos de ancho. ` +
     `En la app no van dentro: se las pide a Wikimedia y llegan del tamaño que ` +
     `necesite la pantalla, así que allí se ven aún mejor que aquí.`
-  : `${shorts} historias escritas · ${conFotos} con sus cuatro fotografías. ` +
+  : `${shorts} ${shorts === 1 ? "historia escrita" : "historias escritas"} · ` +
+    `${conFotos} con sus cuatro fotografías. ` +
     `Las demás salen con su cartel, que es el diseño previsto mientras no hay imagen.`;
 
 /* El marco es el de `demo.html`: 375 × 812, la medida para la que está hecha

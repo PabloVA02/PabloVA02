@@ -6,19 +6,41 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 
 | | hecho | queda |
 |---|---|---|
-| shorts escritos | 761 | 239 para llegar a 1000 |
-| shorts con sus cuatro fotos | 532 | 225 |
-| imágenes puestas | 2139, verificadas hasta 1854 | |
+| shorts escritos | **1** | el muro se ha empezado de cero, ver abajo |
 | libros en el catálogo | 418 | |
 | libros con resumen escrito a mano | **400** | 18 para el catálogo entero |
-| cubiertas dibujadas por Pablo | 295 | 123 para el catálogo entero |
+| cubiertas dibujadas por Pablo | **309** | 109 para el catálogo entero |
+| emoticonos de las metas | 11 de 16 | Pablo manda los cinco que faltan |
 | resúmenes antiguos generados | 0 | 0 |
-| títulos que no caben en una línea | | 0 |
-| entradas que dejan hueco abajo | 228 alargadas | 0 |
 
-`revisa-shorts.mjs --flojos` marca todavía un título largo, «El sitio más
-lejos de tierra», porque cuenta letras y pasa de 27. La regla de verdad es
-`scripts/cabe.mjs`, que lo mide en 361 puntos sobre un tope de 363: cabe.
+## EL MURO DE SHORTS SE HA BORRADO ENTERO — 27 de agosto de 2026
+
+Había 761 shorts con 2.139 fotografías puestas. Ya no hay ninguno: queda una
+sola historia, «¿Cuánto le queda al sol?», en
+`src/historias/curiosidades.ts`. **Está todo en el historial de git** —el
+commit anterior es `1eed9d9`— y de ahí sale lo que valga la pena rescatar, si
+sale.
+
+Lo pidió Pablo y el diagnóstico es suyo:
+
+> «muchos shorts no dicen nada. "La cura estaba en la tierra", "De la feria al
+> quirófano" son títulos que nadie ve atractivos, y menos las imágenes. Creo
+> que deberíamos empezar por cosas de intereses, como cuánto de vida le queda
+> al sol, o por qué llueve, cómo funciona un móvil, cosas así, curiosidades y
+> preguntas cotidianas y de interés general.»
+
+Y tiene razón por debajo de lo que dice: los 761 estaban ordenados por
+**objeto** —la escoba, el ancla, el corcho— y un objeto no es una pregunta.
+«Escoba» no le pica a nadie. Lo que pica es una duda que el lector ya tenía y
+que nunca se ha parado a resolver; ahí el título no hay que inventarlo, ya
+está escrito en su cabeza.
+
+**No se escriben más hasta que la pantalla esté cerrada.** Es la segunda mitad
+de lo que pidió: «primero vamos a hacer el diseño de los short para que queden
+bonitos […] pon un ejemplo de short solo, el del sol con su foto que te pasé,
+y vamos ajustando el diseño». Escribir cien y descubrir después que la portada
+pedía otra cosa es rehacer cien. Lo que ya se ajustó está en `MOLDE.md` y en
+el bloque «EL SHORT, AJUSTADO» de `src/styles.css`.
 
 ## LO PRIMERO: la foto tiene que ser bonita
 
@@ -85,22 +107,48 @@ añade la imagen en la parte de los shorts para ver cómo queda».
 
 | | qué es | dónde |
 |---|---|---|
-| `movil.html` | la app entera. **Es el de siempre y el que se actualiza en cada cambio** | artefacto `b8c9ffd9-…` |
-| `shorts.html` | solo el muro, con las fotos a calidad de verdad | artefacto `4b5ac353-…` |
+| `movil.html` | la app entera. **Es el de siempre y el que se actualiza en cada cambio** | `claude.ai/code/artifact/b8c9ffd9-e1f0-4e9e-a89f-0c69e0027ae2` |
+| `shorts.html` | solo el muro, con las fotos a calidad de verdad | `claude.ai/code/artifact/4b5ac353-0efd-4eca-8db3-0bb3c888eb8a` |
+
+Los dos identificadores van **enteros**, no abreviados. Estuvieron con puntos
+suspensivos y el 27 de agosto costó una llamada fallida: `4b5ac353-3d02-…`,
+inventado para completar el hueco, devuelve «artifact not found». Se recupera
+con `Artifact action:"list"`, pero es un rodeo que no hace falta.
 
 **Por qué hacen falta los dos.** El de siempre lleva dentro los 400 resúmenes,
-las 295 cubiertas y los 757 shorts, y con eso a las fotografías les quedan 0,08
-MB: caben 24 de 760, encogidas a 200 puntos con la calidad al 45 %. O sea que
-enseña bien todo menos justamente las fotos. El nuevo no lleva los libros —ni
-resúmenes, ni cubiertas, ni estantería— y esos catorce megas se convierten en
-88 fotografías a 900 puntos.
+las 309 cubiertas y todos los shorts, y mientras hubo 761 shorts a las
+fotografías les quedaban 0,08 MB: entraban 24 de 760, encogidas a 200 puntos
+con la calidad al 45 %. O sea que enseñaba bien todo menos justamente las
+fotos. Con el muro empezado de cero eso ha dejado de apretar —hoy las cuatro
+fotografías del Sol entran a 900 puntos y el fichero sale por 14,7 MB— y
+volverá a apretar en cuanto haya cincuenta historias, así que el segundo
+simulador se queda.
 
+    # 1. LA APP ENTERA — se publica en el artefacto b8c9ffd9-…
+    npx vite build --config vite.artefacto.config.mjs
+    node scripts/muro-demo.mjs 24 > /tmp/muro.json
+    node scripts/movil.mjs --dist dist-artefacto --muro /tmp/muro.json \
+         --ancho 900 --calidad 0.82 --tope 8 \
+         --cubiertas-ancho 336 --cubiertas-calidad 0.76
+
+    # 2. EL MIRADOR DEL MURO — se publica en el artefacto 4b5ac353-…
     npx vite build --config vite.shorts.config.mjs
-    node scripts/muro-demo.mjs 22 > /tmp/muro-demo.json
-    # y de ahí sale la lista de fotos para --lista
-    node scripts/movil.mjs --dist dist-shorts --lista … --muro /tmp/muro-demo.json \
-         --pantalla shorts --ancho 900 --calidad 0.80 --tope 11 \
-         --salida shorts.html --titulo "…" --intro "…"
+    node scripts/movil.mjs --dist dist-shorts --muro /tmp/muro.json \
+         --pantalla shorts --ancho 1000 --calidad 0.84 --tope 14 \
+         --salida shorts.html --titulo "El muro de shorts, con las fotos de verdad" \
+         --intro "…"
+
+**Ojo con los nombres: la entrada de vite del mirador es `mirador.html` y la
+salida es `shorts.html`.** Se llamaban las dos igual hasta el 27 de agosto y
+`movil.mjs --salida shorts.html` escribía encima de la entrada: la compilación
+siguiente empaquetaba su propio resultado —una página de catorce megas con las
+fotos ya dentro— y el mirador se quedó congelado en el muro de aquel día sin
+que nada avisara. `shorts.html` y `dist-shorts/` están ya en el `.gitignore`,
+como `movil.html`.
+
+**El ancho de las cubiertas es el que hace o deshace el tope.** A 400 puntos
+las 321 pesan 7,2 MB y el fichero se va a 16,3, que ya no se puede publicar; a
+336 pesan 5,7 y sale por 14,7. Se toca ese número, no la calidad de las fotos.
 
 **Y una avería que salió al montarlo y que afectaba también al de siempre.**
 `orden-fotos.mjs` reconstruye el orden del muro parseando `shorts.ts`, y NO
