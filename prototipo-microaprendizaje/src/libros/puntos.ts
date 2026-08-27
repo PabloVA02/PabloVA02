@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "mujeres-arte": [
+    "por qué una limitación puede acabar inventando un género",
+    "cómo se lee un autorretrato de pintor como lo que es, un anuncio",
+    "que Rosa Bonheur necesitaba un permiso de policía para trabajar",
+    "elegir una técnica por cómo se reparte y no por cómo queda",
+    "qué esconde un panorama que da a todos el mismo espacio",
+  ],
+
   "como-llegamos-aqui": [
     "por qué quien inventa algo casi nunca controla para qué sirve",
     "cómo la imprenta creó sin querer la industria de las lentes",

@@ -113085,7 +113085,286 @@ const COMO_LLEGAMOS_AQUI: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Mujeres artistas, de Flavia Frigeri (2019), en ocho páginas.
+
+   Panorama de arte, tercera persona. OJO: el catálogo ya tiene «El arte sin
+   hombres», de Katy Hessel, y ése se lleva el mecanismo de la exclusión —el
+   aula del natural, el juicio de Artemisia, las firmas cambiadas, af Klint, el
+   recuento de las Guerrilla Girls, el descuento del mercado—. Éste va por otro
+   sitio a propósito: son las obras, una por página, y qué resuelve cada una.
+
+   La séptima página es el problema del formato y va DENTRO.
+   -------------------------------------------------------------------------- */
+
+const MUJERES_ARTISTAS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En un panorama de cincuenta artistas, el argumento no está en el texto: está en la selección",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay dos maneras de escribir sobre las mujeres en el arte. Una es discutir por qué faltaban, y es la que siguen los libros que se han hecho famosos con el asunto. La otra es más modesta y bastante más rara: poner las obras delante, una detrás de otra, con su fecha y su museo, y dejar que quien lee vea qué hay. Éste es de los segundos, y conviene saberlo antes de abrirlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Flavia Frigeri es una historiadora del arte italiana que fue comisaria en la Tate Modern de Londres. «Mujeres artistas» salió en 2019 dentro de Art Essentials, una colección de manuales de bolsillo de Thames & Hudson —en español los publica Blume— hechos para quien no sabe nada del tema: unas ciento setenta y cinco páginas, medio centenar de artistas repartidas entre el siglo XVI y hoy, una cronología al final y un glosario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El formato manda sobre el contenido. Cada artista tiene más o menos el mismo espacio, una imagen grande y un texto corto, así que no hay sitio para desarrollar una tesis y Frigeri no lo intenta. Donde sí está su criterio es en la elección: para cada una escoge la obra por la que merece la pena entrar, y esa decisión vale más que cualquier párrafo de valoración.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue son cinco de esas puertas —una pintora de corte del siglo XVI, una holandesa del Siglo de Oro, una francesa que pintaba caballos, una alemana que eligió el grabado y dos que se hicieron famosas pasados los setenta— y después, lo que un libro con esta forma no puede hacer.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un panorama no discute: enseña. Su tesis está en a quién mete, con qué obra y en qué orden.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El primer retrato de grupo en el que alguien se está riendo se pintó en 1555",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sofonisba Anguissola tenía poco más de veinte años cuando pintó «La partida de ajedrez»: tres de sus hermanas jugando, con una criada mirando por encima del hombro. Lucia acaba de mover y sostiene la mirada de quien mira el cuadro; Minerva levanta la mano protestando; Europa, la pequeña, se ríe con la boca abierta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo raro es la fecha. En 1555, un retrato de grupo era gente colocada, quieta y de frente. Aquí nadie posa: la escena tiene un antes y un después, las manos están a mitad de gesto y las cuatro caras se miran entre sí en vez de mirar al pintor. La pintura de género holandesa hará eso con normalidad medio siglo más tarde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y salió de una limitación. Anguissola no era hija de pintor sino de un noble de Cremona que hizo educar a sus seis hijas, y una mujer de su clase no podía cobrar encargos ni dibujar del natural. Pintó lo único que tenía a mano —sus hermanas, su padre, ella misma— una y otra vez, y de ahí sacó un asunto que nadie estaba tratando. Vasari vio el cuadro en Cremona y la incluyó en la segunda edición de sus «Vidas», en 1568.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Felipe II la llamó a Madrid en 1559 como dama de compañía de Isabel de Valois, que era la manera de tenerla de pintora de corte sin llamarla artesana ni pagarle como tal. Se quedó unos catorce años, y buena parte de lo que pintó allí estuvo siglos catalogado a nombre de otros. En 1624, en Palermo, un Van Dyck joven fue a verla, la dibujó y apuntó los consejos que le dio sobre dónde poner la luz.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No podía pintar desnudos ni aceptar encargos, así que pintó lo único que tenía cerca: su familia. De aquella limitación salió un asunto nuevo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El autorretrato de una pintora holandesa es, mirado de cerca, un anuncio",
+      },
+      {
+        b: "texto",
+        texto:
+          "Judith Leyster nació en Haarlem en 1609 y entró en 1633 en el gremio de San Lucas de la ciudad, siendo una de las poquísimas mujeres admitidas. Eso no era un honor: era una licencia de trabajo. Le permitía firmar, vender y tener aprendices, y tuvo tres. Cuando uno de ellos se marchó al taller de Frans Hals, Leyster pleiteó, y el gremio multó a Hals.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su autorretrato, de hacia 1630, la muestra vuelta hacia quien mira como si acabaran de interrumpirla, con la boca entreabierta, un pincel en la derecha y once más en la izquierda. Detrás hay un caballete con un cuadro empezado: un violinista riéndose, una escena de taberna. Va bien vestida, con cuello de encaje, no con ropa de trabajo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cada elemento es un argumento de venta. La ropa dice que no es una artesana. El cuadro del caballete dice qué género vende. Los once pinceles dicen que sabe hacer detalle. Y la postura de interrumpida dice que pinta deprisa, que en Haarlem, donde Hals había convertido la pincelada rápida en una virtud, era exactamente el mérito técnico del momento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después vino lo que le pasó a casi todas. Durante dos siglos sus cuadros se vendieron como Frans Hals, que se pagaban mucho mejor. En 1893, una tabla comprada por el Louvre como un Hals resultó llevar debajo de la firma falsa el monograma de Leyster, una jota y una ele cruzadas por una estrella. Hubo pleito, y a partir de ahí se le fue devolviendo la obra cuadro a cuadro: hoy se le reconocen poco más de veinte.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Once pinceles en una mano y un cuadro empezado detrás: un autorretrato de oficio dice lo que el pintor sabe hacer y por cuánto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Para pintar caballos de verdad hubo que pedirle permiso a la policía de París",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rosa Bonheur, nacida en 1822, fue en vida una de las pintoras más famosas de Europa y la artista mejor pagada del siglo. Su asunto eran los animales, y los animales estaban donde una mujer con falda no podía plantarse a trabajar: mataderos, ferias de ganado, cuadras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Así que pidió a la prefectura de policía un permiso de travestismo, un documento que la autorizaba a vestir de hombre, renovable cada seis meses. Lo renovó durante décadas. No era una declaración de nada: era una herramienta. París prohibía a las mujeres llevar pantalones, y ella necesitaba pasarse las horas de pie en un mercado de caballos sin ser el espectáculo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí salió «El mercado de caballos», de 1853: dos metros y medio de alto por cinco de ancho, pintado después de año y medio yendo dos veces por semana al mercado de París. La composición es un friso de animales cruzando el lienzo en diagonal, con polvo, grupas y un mozo al que arrastran. Fue el éxito del Salón, giró por Gran Bretaña y Estados Unidos, y acabó comprado por Cornelius Vanderbilt, que lo regaló al Metropolitan en 1887.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es de qué estaba hecha su fama. El marchante Ernest Gambart le compró los derechos de reproducción y vendió grabados del cuadro por millares en Gran Bretaña, que es donde se hizo célebre de verdad. En 1865 la emperatriz Eugenia fue a su taller a entregarle la cruz de la Legión de Honor: era la primera artista mujer en recibirla. Y murió rica, famosa y a punto de desaparecer: su pintura académica pasó de moda, y su obra estuvo un siglo fuera de las salas principales.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El permiso no era un gesto: era material de trabajo, porque el ganado no estaba donde podía estar una mujer con falda.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Eligió el grabado en lugar de la pintura porque un grabado se reparte",
+      },
+      {
+        b: "texto",
+        texto:
+          "Käthe Kollwitz trabajó casi toda su vida en grabado y dibujo, y apenas pintó. La razón no es de gusto y es lo mejor de su entrada en el libro: una plancha se imprime cientos de veces, sale barata y llega a gente que no pisa una galería. Escogió la técnica por cómo se distribuye, no por cómo queda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su primer ciclo, «La revuelta de los tejedores», son seis estampas hechas entre 1893 y 1897 sobre el levantamiento de los tejedores de Silesia de 1844: el hambre, la marcha hacia la casa del patrón, los muertos de vuelta. Se expusieron en Berlín en 1898 y el jurado propuso darle la gran medalla de oro. Guillermo II se negó a concederla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En octubre de 1914, su hijo Peter, de dieciocho años, murió en Flandes en las primeras semanas de la guerra; se había alistado con el permiso de ella. Tardó dieciocho años en terminar el monumento. «Los padres afligidos» son dos figuras de granito arrodilladas, sin héroe, sin bandera y sin más inscripción que los nombres. Se colocaron en 1932 en el cementerio alemán donde está enterrado, y siguen allí, en Vladslo, mirando hacia las tumbas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1919 había sido la primera mujer elegida miembro de la Academia Prusiana de las Artes; en 1933 los nazis la obligaron a salir y le prohibieron exponer. Su caso enseña la otra mitad del problema: la barrera no es solo la puerta de la escuela, es también quién decide qué asuntos son dignos. El hambre y el duelo no eran temas grandes, y en parte lo son porque ella los dibujó durante cuarenta años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Escogió una técnica que se imprime cientos de veces porque quería que el trabajo llegara a quien no entra en una galería.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Las dos artistas más conocidas del mundo se hicieron famosas pasados los setenta",
+      },
+      {
+        b: "texto",
+        texto:
+          "Louise Bourgeois trabajó en Nueva York durante cuatro décadas casi sin que nadie le hiciera caso. Su primera retrospectiva en el MoMA fue en 1982, la primera que el museo dedicaba a una mujer, y tenía setenta años. Vivió hasta los noventa y ocho, y prácticamente todo lo que hoy se conoce de ella pertenece a esos últimos treinta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "«Maman», la araña de nueve metros de 1999, es el ejemplo. Bourgeois dejó escrito qué es: un retrato de su madre, que restauraba tapices en Choisy-le-Roi. Una tejedora, paciente, útil, y que se come lo que molesta. Que la lectura venga de la artista y no del crítico cambia su estatuto: no es una interpretación, es un dato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Yayoi Kusama llegó a Nueva York en 1958 y pasó allí diez años pintando sus redes infinitas y montando las primeras salas de espejos, y se volvió a Japón en 1973 sin casi nada. Desde 1977 vive por decisión propia en un hospital psiquiátrico de Tokio, con un taller en la acera de enfrente donde trabaja todos los días. El reconocimiento le llegó a partir de 1993, cuando Japón la mandó a la Bienal de Venecia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que le ha pasado a su obra al llegarle el público de golpe es un problema de verdad. Las salas de espejos se visitan hoy por turnos de un minuto, con cola, y casi todo lo que se produce dentro es una fotografía del visitante. Una pieza pensada para disolver a quien entra se ha convertido en el mejor fondo del museo para demostrar que estuviste allí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una sala hecha para disolver a quien entra es hoy el mejor fondo del museo para demostrar que estuviste allí.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dar a cada artista el mismo espacio es una decisión, y esconde la única pregunta que importa",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir esto antes de terminar, porque separa usar bien el libro de confundirlo con una historia del arte. La colección reparte a todas el mismo sitio: dos páginas, una imagen, un texto. Ese reparto afirma sin decirlo algo que no se cree ni la autora: que Artemisia Gentileschi y una artista con quince años de carrera pesan igual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un panorama sin jerarquía es una lista. Sirve para descubrir nombres, que es para lo que está hecho, y no sirve para lo otro: no dice qué obras cambiaron la manera de pintar de quienes vinieron después, ni cuáles se han recuperado porque son buenas y cuáles porque hacían falta. Esa distinción es incómoda y es justo la que da valor a las primeras.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La etiqueta trae el mismo problema por partida doble. Reunir a cincuenta artistas por su sexo saca a la luz lo que un manual general dejaba fuera y a la vez las mantiene en un estante aparte, comparándose entre ellas en vez de con todo el mundo. Varias de las que están dentro rechazaron esa casilla en vida: Georgia O'Keeffe se pasó cincuenta años negándose a que la llamaran pintora mujer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un tercer efecto, más difícil de ver. Cuando el criterio para entrar es la biografía, el texto se va detrás de la biografía, y en las artistas cuya vida da para novela —Kahlo, Gentileschi, la propia Kusama— es donde más ocurre. Eso es exactamente lo que la exclusión llevaba siglos haciendo: archivar a una pintora como un caso personal en vez de como un problema de pintura resuelto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando el criterio de selección es la biografía, el texto se va detrás de la biografía, y eso es lo que llevaba siglos pasando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "«Mujeres artistas» es un manual de bolsillo de 2019, dentro de una colección de introducciones, que recorre medio milenio con medio centenar de artistas y dos páginas para cada una. No argumenta: enseña. Su criterio está entero en la elección de la obra con la que presenta a cada una, y ahí Frigeri acierta casi siempre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que deja son puertas concretas, con fecha y museo: la partida de ajedrez de Anguissola, medio siglo antes de que alguien pintara una escena doméstica en movimiento; el autorretrato de Leyster, que es un anuncio de sus servicios; el mercado de caballos de Bonheur y el permiso de policía que lo hizo posible; los seis grabados de Kollwitz y una técnica escogida porque se reparte; y dos carreras, la de Bourgeois y la de Kusama, que enseñan que una obra puede pasarse cuarenta años sin público y no perder nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El reparto igualitario del espacio impide cualquier jerarquía, y sin jerarquía un panorama es un listado de nombres. El recorrido apenas sale de Europa y Norteamérica hasta las últimas páginas. Las entradas de las artistas con vida novelesca cuentan más vida que obra, que es el vicio contra el que debería estar avisando. Y no toca lo que hoy decide de verdad qué se ve: el presupuesto de adquisiciones de un museo y lo que paga el mercado, que es el mecanismo actual, no la academia del siglo XVIII.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después le ha dado la vuelta a su lugar. En 2019 este libro iba por delante; en 2020 el Prado montó «Invitadas», muy discutida precisamente por mirar más al pintor que a las pintoras; en 2022 apareció «El arte sin hombres», de Katy Hessel, que hace lo mismo con seiscientas páginas y un argumento. Frigeri pasó mientras tanto a llevar la colección del National Portrait Gallery de Londres, doscientos cincuenta mil retratos donde la proporción es la que es. El trabajo de un panorama es quedarse anticuado, y a éste le ha pasado en tres años, que es lo mejor que podía pasarle.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "mujeres-arte": MUJERES_ARTISTAS,
   "como-llegamos-aqui": COMO_LLEGAMOS_AQUI,
   "verano-1927": VERANO_1927,
   "coach-silicon-valley": COACH_SILICON_VALLEY,

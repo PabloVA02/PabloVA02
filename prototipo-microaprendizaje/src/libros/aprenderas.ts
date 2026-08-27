@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "mujeres-arte":
+    "Sofonisba Anguissola no podía cobrar encargos ni dibujar del natural, así que pintó a sus hermanas jugando al ajedrez y le salió, en 1555, la primera escena doméstica en movimiento. Cincuenta artistas, cincuenta obras y por qué esa.",
+
   "como-llegamos-aqui":
     "Un ayuntamiento veneciano mandó a los vidrieros a una isla para no arder, y dos siglos y medio después alguien vio una célula por primera vez. Johnson sigue seis cadenas así y ninguna llega donde se esperaba.",
 
