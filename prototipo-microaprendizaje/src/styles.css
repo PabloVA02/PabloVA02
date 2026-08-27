@@ -10397,40 +10397,13 @@ button {
   color: var(--ink);
 }
 
-/* ---- 4b. El rótulo de cada página ---------------------------------------
-   Dos o tres palabras en el color de la historia. Es lo único de la pantalla
-   que lleva el acento, así que no hace falta que sea grande para que se vea:
-   sobre el gris del texto, el color ya es el subrayado. */
-.short-rotulo {
-  font-family: var(--sans);
-  margin: 0 0 2.4cqw;
-  font-size: 2.95cqw;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--acento, var(--ochre));
-}
-
-/* El rótulo y su párrafo son una pieza, y la pieza empieza ARRIBA, pegada al
-   pie de foto.
-
-   Antes el texto colgaba del pie de la pantalla. Aquello arreglaba un
-   problema de entonces —sin foto grande y con el dato de abajo quitado, un
-   bloque corto se quedaba a media pantalla— y con la banda al 36 % crea uno
-   peor: el sobrante se junta todo ARRIBA, entre la fotografía y el texto, y
-   entonces la imagen se despega de lo que cuenta. Doscientos puntos de nada
-   en mitad de la pantalla se leen como una avería.
-
-   Colgado de arriba, el sobrante cae al pie, encima de la barra de pestañas,
-   donde se lee como lo que es: el margen de abajo. Y hay una segunda razón,
-   que para leer cuatro pantallas seguidas pesa más: así el texto empieza
-   SIEMPRE a la misma altura. El ojo aprende dónde está la primera línea una
-   vez y ya no la busca en las tres siguientes. */
-.short-bloque {
-  display: flex;
-  flex-direction: column;
-}
-.short-cuerpo { margin-top: 0; }
+/* ---- 4b. El rótulo: quitado -----------------------------------------------
+   Estuvo dos horas en pantalla. Lo quitó Pablo —«estamos siempre limitados al
+   texto que poner»— y llevaba razón: gastaba un renglón y su margen, y además
+   obligaba a que cada página fuese un apartado con título en vez de un tramo
+   de una explicación seguida. Ahora abre la primera frase, que es más barato
+   y se lee mejor. El bloque que lo envolvía también sobra: el párrafo va
+   suelto y el `margin-top: 0` que lo acompañaba deja de hacer falta. */
 
 /* ---- 5. El texto, ajustado a su caja ------------------------------------
    `--ajuste` lo calcula `useAjusteDeTexto` midiendo el texto ya pintado. Aquí

@@ -50,6 +50,10 @@ reglas nuevas de `MOLDE.md` que mandan sobre todo lo que se escriba:
 · **La respuesta primero.** El título pregunta; la entrada contesta en dos o
   tres frases que entendería cualquiera. Las sorpresas cuelgan de la
   respuesta; el científico entra cuando su historia empuja, nunca de puerta.
+· **Sin rótulos en las pantallas.** Los quitó esa misma noche: «estamos
+  siempre limitados al texto que poner». Gastaban un renglón y obligaban a
+  trocear la explicación en apartados titulables. Ahora abre la primera frase
+  de cada página, que nombra de qué va y recoge lo que quedó colgando.
 · **Se escribe seguido y se corta donde algo quede colgando.** Nada de contar
   ideas antes de escribir; el número de páginas es un resultado.
 

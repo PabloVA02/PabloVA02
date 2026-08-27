@@ -213,7 +213,15 @@ for (const ruta of ficheros) {
       const n = palabras(texto);
       if (n < suelo || n > techo)
         aviso(id, `página ${i + 1} de ${n} palabras (${suelo}-${techo})`);
-      if (palabras(rotulo) > 4) aviso(id, `rótulo «${rotulo}» de más de 4 palabras`);
+      /* El rótulo ya no se pinta desde el 27 de agosto por la noche —lo quitó
+         Pablo: «estamos siempre limitados al texto que poner»—, así que su
+         medida dejó de importar: es el esqueleto del que escribe y nadie más
+         lo ve. Lo que SÍ importa ahora es la primera frase, que hace su
+         trabajo: si arranca con un conector en seco —«Y», «Pero», «Además»—
+         la página empieza a media zancada y el lector no sabe de qué va. */
+      const arranque = texto.replace(/<[^>]+>/g, "").trim().split(/[\s,]/)[0];
+      if (i > 0 && /^(Además|Asimismo|También|Entonces)$/i.test(arranque))
+        flojo(id, `la página ${i + 1} abre con «${arranque}»: dilo nombrando de qué va`);
     });
     /* EL RÓTULO DE LA ÚLTIMA PÁGINA YA NO TIENE QUE SER «Lo que quedó».
      *
@@ -232,9 +240,10 @@ for (const ruta of ficheros) {
      * Lo que sí se comprueba es que la última página CIERRE, y eso no lo puede
      * ver un guion: lo mira la regla 5 del molde a mano. Aquí solo queda el
      * aviso leve, para que un rótulo perezoso —«Final», «Conclusión»— cante. */
-    const ultima = paginas[paginas.length - 1];
-    if (paginas.length >= 2 && /^(final|conclusi[óo]n|el final|resumen)$/i.test(ultima[1]))
-      flojo(id, `la última página se titula «${ultima[1]}»: eso no es un rótulo, es una etiqueta`);
+    /* Antes se comprobaba aquí que la última página no se titulara «Final» ni
+       «Conclusión». Con los rótulos fuera de la pantalla eso ya no le llega a
+       nadie, así que la comprobación se va con ellos. Que la última CIERRE lo
+       sigue mirando la regla 5 del molde, a mano, que es como se puede. */
 
     /* Regla 15: el dato es una cifra y la frase corta que la explica. El tope
        eran seis palabras y lo subo a nueve, que es lo que mide el más largo de

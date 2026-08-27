@@ -25,6 +25,14 @@ import type { Short } from "../shorts";
    colgadas de esa respuesta; el científico entra cuando su historia empuja,
    nunca como puerta. La regla está en `MOLDE.md`, «La respuesta primero».
 
+   Y DESDE ESA MISMA NOCHE, SIN RÓTULOS. Pablo los quitó de la pantalla:
+   «estamos siempre limitados al texto que poner». Ocupaban un renglón y
+   obligaban a que cada página fuese un apartado titulable, o sea a trocear la
+   explicación cuando lo que se busca es leerla de corrido. El campo `rotulo`
+   se sigue escribiendo como esqueleto del que redacta, pero no se pinta: lo
+   que antes hacía el título lo hace ahora LA PRIMERA FRASE de cada página,
+   que nombra de qué va y engancha con la anterior.
+
    Lo demás, como siempre: la frase que cierra recoge la que abre, cada
    página acaba dejando una puerta que la siguiente cruza, los términos se
    explican en la frase en que aparecen y las cifras se racionan.
@@ -88,17 +96,17 @@ export const CURIOSIDADES: Short[] = [
       {
         rotulo: "Un fuego que engorda",
         texto:
-          "El Sol no arde como una hoguera: se aprieta. En su centro hay tanta presión que el hidrógeno se funde y se convierte en helio. Cada fusión suelta un golpe de energía que tarda cien mil años en abrirse paso hasta la superficie. Lo importante es la ceniza: el helio pesa más, se va hundiendo en el núcleo y lo aprieta todavía más, así que el horno quema cada vez más fuerte. El Sol de hoy alumbra un tercio más que el que vio nacer la Tierra, y sigue subiendo. Ese engorde tan lento parece inofensivo, y es una cuenta atrás.",
+          "Para saber cuánto le queda hay que saber qué quema, y no es fuego. En el centro del Sol la presión es tan bestia que los núcleos de hidrógeno se aplastan unos contra otros hasta fundirse en helio. Cada fusión suelta un golpe de energía que tarda cien mil años en abrirse camino hasta la superficie. Lo que importa es la ceniza: el helio pesa más que el hidrógeno, se va acumulando en el centro y lo aprieta todavía más, así que el horno quema cada vez más fuerte. El Sol de hoy alumbra un tercio más que el que vio nacer a la Tierra. Y sigue subiendo. Ese engorde tan lento parece inofensivo, pero es una cuenta atrás.",
       },
       {
         rotulo: "Nos toca antes",
         texto:
-          "La cuenta no acaba donde pensamos. Al Sol le quedan cinco mil millones de años, pero a la Tierra le queda la quinta parte. Dentro de unos mil millones de años, el brillo de más bastará para que los océanos empiecen a evaporarse en serio. Y el vapor de agua atrapa calor, así que cuanta más agua suba al cielo, más se calentará todo y más agua subirá. El planeta no va a arder: se va a secar, girando tan tranquilo alrededor de un sol amable. De la vida que ha tenido la Tierra, cuatro quintas partes ya han pasado. Lo que venga después ya no será problema nuestro: será un espectáculo.",
+          "Y la cuenta atrás no acaba donde uno pensaría. Al Sol le quedan cinco mil millones de años, pero a nosotros nos queda la quinta parte. Dentro de unos mil millones, ese brillo de más bastará para que los océanos empiecen a evaporarse en serio. Y aquí viene la parte fea: el vapor de agua atrapa calor. Cuanta más agua suba al cielo, más se calentará todo, y cuanto más se caliente, más agua subirá. La Tierra no va a arder. Se va a secar, girando tan tranquila alrededor de un sol que desde fuera seguirá pareciendo amable. De todo el tiempo que este planeta tenía para la vida, cuatro quintas partes ya han pasado.",
       },
       {
         rotulo: "El último acto",
         texto:
-          "El espectáculo empieza cuando el núcleo agote el hidrógeno. Entonces el Sol hará algo que parece contradictorio: el centro se encogerá y las capas de fuera se hincharán muchísimo, hasta convertirlo en una gigante roja que se tragará Mercurio y Venus. Con la Tierra la cuenta está justa: puede que se salve por poco y puede que no. Después soltará sus capas al espacio y quedará el núcleo desnudo —los astrónomos lo llaman una enana blanca—, una brasa del tamaño de la Tierra enfriándose durante billones de años. Para entonces hará mucho que aquí no queda nadie a quien alumbrar.",
+          "Lo que viene después ya no es problema nuestro: es un espectáculo. Cuando el núcleo agote el hidrógeno, el Sol hará algo que suena contradictorio: el centro se encogerá y las capas de fuera se hincharán muchísimo. Se convertirá en una gigante roja que se tragará a Mercurio y a Venus. Con la Tierra la cosa está tan justa que puede acabar de las dos maneras. Al final soltará sus capas al espacio y quedará el corazón desnudo, una brasa del tamaño de nuestro planeta que se irá enfriando durante billones de años. Para entonces hará muchísimo que aquí abajo no queda nadie a quien alumbrar.",
       },
     ],
   },
@@ -158,17 +166,17 @@ export const CURIOSIDADES: Short[] = [
       {
         rotulo: "El viaje hacia arriba",
         texto:
-          "La primera sorpresa está en el aire. El vapor que sube es un gas invisible, y para volver a ser agua necesita algo sólido donde agarrarse: no sabe hacer una gota de la nada. Lo que le da el cielo son motas diminutas que flotan por todas partes, polvo del desierto, polen, sal que el mar suelta al romper las olas. Sobre cada mota se forma una gotita, y millones de gotitas juntas son una nube. Se sabe desde 1880, cuando el físico John Aitken enfrió aire limpio en una campana de cristal y no logró sacarle ni niebla: sin polvo no hay nubes, y sin nubes no llueve. La segunda sorpresa es lo que pesa una nube.",
+          "La primera sorpresa está en el aire, y es que no puede estar limpio. El vapor que sube del mar es un gas invisible, y para volver a ser agua necesita algo sólido a lo que agarrarse: por su cuenta no sabe formar una gota. Lo que le ofrece el cielo son motas diminutas que flotan por todas partes: polvo del desierto, polen, ceniza de incendios lejanos y sal que el mar suelta al romper cada ola. Sobre cada mota se forma una gotita, y millones de gotitas juntas son una nube. En 1880 el físico escocés John Aitken enfrió aire filtrado en una campana de cristal y no consiguió sacarle ni niebla: sin polvo no hay nubes.",
       },
       {
         rotulo: "Una nube pesa mucho",
         texto:
-          "Una nube blanca de buen tiempo lleva dentro medio millón de kilos de agua, más o menos lo que pesa un avión de pasajeros lleno. Y aun así flota. El motivo es que ese peso está repartido en gotitas cincuenta veces más finas que la punta de un bolígrafo. Algo tan pequeño cae tan despacio que el aire que sube desde el suelo lo mantiene arriba sin esfuerzo. Para llover, las gotitas tienen que engordar: chocan entre ellas, se funden, y la que más crece cae más deprisa y barre a las de debajo. Aun así, a la mayoría de las nubes les hace falta un último empujón, y es de hielo.",
+          "Ya tenemos la nube, y ahora hay que explicar por qué no se nos cae encima. Una nube blanca de las de buen tiempo lleva dentro medio millón de kilos de agua, más o menos lo que pesa un avión de pasajeros lleno, y ahí sigue, flotando tan tranquila. El truco es que ese peso está repartido en gotitas cincuenta veces más finas que la punta de un bolígrafo. Algo tan pequeño cae tan despacio que el aire que sube desde el suelo lo sostiene sin despeinarse. Para llover tienen que engordar, y engordan a lo bruto: chocan unas con otras, se funden, y la que más crece empieza a caer más rápido y va barriendo a las de abajo.",
       },
       {
         rotulo: "Empieza nevando",
         texto:
-          "En lo alto de la nube hace mucho frío, tanto que el agua sigue líquida por debajo de cero, esperando cualquier excusa para helarse. Cuando aparece un cristal de hielo, el vapor de alrededor se le pega, crece deprisa, pesa y cae. Por el camino atraviesa aire más templado y se derrite, y llega abajo hecho gota: casi toda la lluvia que te ha mojado en tu vida empezó siendo nieve. Después el agua corre al río, el río al mar, y el sol vuelve a levantarla. Por eso llueve: porque el agua nunca termina el viaje. Solo cambia de forma para seguir dando vueltas.",
+          "A la mayoría de las nubes les falta todavía un empujón, y viene del frío. Arriba hace tanto que el agua sigue líquida por debajo de cero, esperando una excusa para helarse. La excusa es un cristal de hielo: en cuanto aparece uno, el vapor de alrededor se le pega, crece deprisa, pesa y se despeña. Por el camino atraviesa aire templado y se derrite, así que lo que golpea tu paraguas es casi siempre un copo de nieve que no llegó entero. Después el agua corre al río, el río al mar, y el sol vuelve a levantarla. Por eso llueve: porque el agua nunca termina el viaje.",
       },
     ],
   },
@@ -224,22 +232,22 @@ export const CURIOSIDADES: Short[] = [
       },
     ],
     entrada:
-      "Casi todos aprendimos lo mismo en el colegio: el ala es más curva por arriba, el aire de arriba corre más deprisa y por eso el avión sube. Suena redondo y tiene un fallo serio. Nadie ha cronometrado nunca esas dos corrientes de aire, y medidas no llegan juntas ni de lejos. La explicación buena es más vieja, más simple y más bonita.",
+      "Un avión vuela porque su ala empuja aire hacia abajo, y el aire, al ser empujado, lo empuja a él hacia arriba. Eso es todo. En el colegio seguramente te contaron otra cosa: que el ala es más curva por arriba y que el aire de ese lado corre más deprisa. Esa explicación tan repetida tiene un problema. No es la que hace volar a los aviones.",
     paginas: [
       {
         rotulo: "Lo que lo sostiene",
         texto:
-          "Un ala vuela porque tira del aire hacia abajo, y no hay más misterio. La ley la escribió Newton en 1687: si empujas una masa de aire hacia abajo, esa masa te empuja a ti hacia arriba con la misma fuerza. El ala viaja siempre un poco inclinada respecto al viento que le llega, y su curva sirve para que el aire se le quede pegado y salga por detrás apuntando al suelo. Las cifras marean: un avión de línea en pleno vuelo desvía hacia abajo cientos de toneladas de aire cada segundo. Queda una pregunta incómoda: si el truco es la inclinación, ¿para qué está la joroba?",
+          "La ley la escribió Newton en 1687 y no ha envejecido nada: si empujas una masa de aire hacia abajo, esa masa te empuja a ti hacia arriba con la misma fuerza. Un ala viaja siempre un poco inclinada respecto al viento que le llega, y esa inclinación es la que desvía el aire hacia el suelo. La curva de arriba ayuda a que el aire se quede pegado en vez de despegarse, y para eso está. Las cifras marean: un avión de línea en pleno vuelo lanza hacia abajo cientos de toneladas de aire cada segundo. Todo ese aire empujado es lo que lo sostiene.",
       },
       {
         rotulo: "La forma no manda",
         texto:
-          "La joroba está para que el aire no se despegue. Una corriente que roza una superficie curva tiende a seguirla en vez de irse recta, y una buena curva la mantiene pegada hasta el final del ala, de donde sale limpia y hacia abajo. Ayuda muchísimo, pero no es la causa. La prueba vuela en las fiestas de los pueblos: los aviones acrobáticos llevan alas simétricas, sin joroba ninguna, y vuelan igual de bien boca arriba que boca abajo. Un ala plana también vuela, solo que peor y gastando más. Lo único que un ala no perdona es pasarse con la inclinación.",
+          "Si la joroba fuera la causa, un avión no podría volar boca abajo. Y vuela. Los aviones acrobáticos llevan alas simétricas, planas por los dos lados, y se pasan la exhibición entera dando vueltas sin caerse. Les basta con inclinar el ala hacia el otro lado para que siga empujando el aire hacia el suelo. Un ala completamente plana también vuela: lo hace peor y gasta más combustible, pero vuela. La curva no es el motivo por el que un avión se sostiene, es un detalle que le ahorra esfuerzo. Lo único que un ala no perdona es pasarse de inclinación.",
       },
       {
         rotulo: "Cuando deja de agarrar",
         texto:
-          "Cuanto más inclinada va el ala, más aire desvía y más sostiene, hasta que deja de hacerlo del todo. Pasados unos quince grados, el aire ya no puede seguir la curva: se desprende en remolinos y el ala pierde casi toda su fuerza de golpe. Eso es entrar en pérdida, y no va de velocidad: pasa yendo rapidísimo. Por eso lo primero que un instructor enseña es lo que menos apetece con el suelo acercándose: bajar el morro para recuperar el aire. Volar es convencer al aire de que baje. Nada más, y nada menos.",
+          "Porque cuanto más se inclina el ala, más aire desvía y más sostiene, hasta que de golpe deja de hacerlo. Pasados unos quince grados, el aire ya no consigue seguir la curva: se despega en remolinos y el ala pierde casi toda su fuerza de una vez. Eso es entrar en pérdida, y no tiene que ver con ir despacio: puede pasar a toda velocidad. Por eso lo primero que enseña un instructor es lo que menos apetece con el suelo acercándose: bajar el morro para que el ala vuelva a encontrar aire. Volar es convencer al aire de que baje.",
       },
     ],
   },
@@ -290,12 +298,12 @@ export const CURIOSIDADES: Short[] = [
       {
         rotulo: "De dónde sale",
         texto:
-          "El peaje funciona así: la lluvia es un poco ácida, porque arrastra dióxido de carbono del aire, y al caer sobre la roca la va deshaciendo grano a grano. Los ríos recogen lo que la piedra suelta y lo llevan mar abajo, tan diluido que el agua nos sabe dulce. El mar es el final del trayecto y no tiene desagüe: el sol se lleva el agua y deja la sal, un año tras otro desde antes de que hubiera peces. Halley pensó lo que pensaría cualquiera: si la sal solo entra, contarla es fechar el mar. La cuenta, cuando por fin se hizo, dio una edad ridícula de puro corta. El error no estaba en los números: estaba en el mar.",
+          "El peaje funciona así. La lluvia es ligeramente ácida, porque arrastra dióxido de carbono del aire, y al caer sobre la roca la va deshaciendo grano a grano. Los ríos recogen lo que la piedra suelta y lo arrastran cuesta abajo, tan diluido que el agua nos sigue sabiendo dulce. El mar es el final del trayecto y no tiene desagüe: el sol se lleva el agua evaporada y deja la sal donde estaba. Un año detrás de otro, desde antes de que existieran los peces. Halley pensó lo que pensaría cualquiera: si la sal solo entra, contarla es fechar el mar. La cuenta, cuando por fin se hizo, salió ridículamente corta.",
       },
       {
         rotulo: "Y no sube",
         texto:
-          "El mar también pierde sal, solo que sin hacer ruido. Se le va en la espuma que el viento arranca de las olas. Se queda enterrada cuando un brazo de mar se seca y deja una costra, y otra parte vuelve a la roca en el fondo. Entradas y salidas llevan empatadas cientos de millones de años, así que el mar de los dinosaurios sabía más o menos como el de tus vacaciones. Por eso no sirve de reloj, y por eso la pregunta tiene truco: el mar no se está salando. Cobra su peaje y lo gasta. Está en paz.",
+          "El error no estaba en los números, estaba en el mar: también pierde sal, solo que sin hacer ruido. Una parte se va en la espuma que el viento arranca de las olas. Otra queda enterrada cuando un brazo de mar se seca y deja una costra blanca. Y otra vuelve a la roca por las grietas del fondo. Entradas y salidas llevan empatadas cientos de millones de años, así que el mar de los dinosaurios sabía más o menos como el de tus vacaciones. Por eso no sirve de reloj: el mar no se está volviendo más salado. Cobra su peaje y lo gasta.",
       },
     ],
   },

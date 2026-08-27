@@ -927,48 +927,28 @@ function Portada({ short }: { short: Short }) {
    -------------------------------------------------------------------------- */
 
 function CuerpoPagina({ pagina }: { pagina: Pagina }) {
+  /* SIN RÓTULO. Lo quitó Pablo el 27 de agosto por la noche, y con un motivo
+     que no era de gusto: «estamos siempre limitados al texto que poner».
+     Tenía razón dos veces. Ocupaba un renglón y su margen —unos cuarenta
+     puntos de los que tiene la pantalla— y, peor, obligaba a que cada página
+     fuera una cosa titulable, o sea a trocear la explicación en apartados
+     cuando lo que él quiere es que se lea de corrido.
+
+     Lo que hacía el rótulo lo hace ahora la primera frase, que es donde
+     debería haber estado siempre: cada página abre nombrando de qué va —regla
+     11 del molde— y de paso enlaza con la anterior. El campo `rotulo` se
+     sigue escribiendo porque le sirve de esqueleto al que redacta, pero el
+     lector no lo ve. */
   return (
     <div className="short-pagina">
-      {/* EL RÓTULO, QUE TAMPOCO SE PINTABA.
-
-          Las tres páginas de dentro eran un bloque de texto y nada más: la
-          misma mancha gris tres veces seguidas, sin nada que dijera al ojo
-          dónde está. El rótulo lleva escrito en todas las historias desde el
-          principio y `MOLDE.md` explica para qué —«dos o tres palabras: le da
-          al ojo dónde agarrarse»—; se estaba tirando.
-
-          Va pegado al texto y no arriba del hueco: el bloque cuelga del pie
-          —ver `.short-cuerpo`— y el rótulo tiene que colgar con él, porque un
-          rótulo separado de su párrafo por medio dedo de aire ya no titula
-          nada, solo flota. */}
-      <div className="short-bloque">
-        <motion.p
-          className="short-rotulo"
-          custom={1.6}
-          variants={enterVariants}
-          initial="hidden"
-          animate="shown"
-        >
-          {pagina.rotulo}
-        </motion.p>
-        <motion.p
-          className="short-cuerpo"
-          custom={2}
-          variants={enterVariants}
-          initial="hidden"
-          animate="shown"
-          dangerouslySetInnerHTML={{ __html: conGuiones(pagina.texto) }}
-        />
-      </div>
-
-      {/* Aquí iba el dato de abajo —la cifra grande o la frase con el rayo— y
-          Pablo lo ha quitado. Con la barra de pestañas ocupando ahora sesenta
-          puntos del pie, la pantalla no da para el texto Y el golpe, y de los
-          dos el que cuenta la historia es el texto.
-
-          El campo `destacado` sigue escrito en los shorts y sigue en el tipo:
-          son setecientos cincuenta y siete ficheros de texto escrito a mano y
-          borrarlo de golpe no se deshace. Aquí ya no se pinta. */}
+      <motion.p
+        className="short-cuerpo"
+        custom={2}
+        variants={enterVariants}
+        initial="hidden"
+        animate="shown"
+        dangerouslySetInnerHTML={{ __html: conGuiones(pagina.texto) }}
+      />
     </div>
   );
 }

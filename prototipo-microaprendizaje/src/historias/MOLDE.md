@@ -482,11 +482,18 @@ Lo comprueba `revisa-shorts.mjs`.
 **Márgenes idénticos en las cuatro**, arriba, abajo y a los lados. La última
 pantalla se ve más suelta porque lleva menos texto, no porque cambie nada.
 
-**Los rótulos vuelven** (27 de agosto), y por lo mismo que el gancho. Estuvieron
-fuera porque «ocupaban un renglón para no decir nada»; con las tres páginas
-delante se ve lo que costaba: tres pantallas seguidas de la misma mancha gris,
-sin nada que le diga al ojo dónde está. Dos o tres palabras en el color de la
-historia, pegadas a su párrafo, y la página tiene principio.
+**Los rótulos se van definitivamente** (27 de agosto, por la noche). Volvieron
+por la mañana y Pablo los quitó por la noche con un argumento mejor que el mío:
+*«estamos siempre limitados al texto que poner»*. Gastaban un renglón y su
+margen, y hacían algo peor que ocupar sitio: obligaban a que cada página fuera
+un apartado titulable, o sea a trocear la explicación en capítulos cuando lo
+que se busca es que se lea de corrido.
+
+**Lo que hacía el rótulo lo hace ahora la primera frase de cada página**, que
+es donde debería haber estado siempre: nombra de qué va la pantalla y a la vez
+recoge lo que dejó colgando la anterior. Es la regla 11 aplicada donde cuenta.
+El campo `rotulo` se sigue escribiendo —le da esqueleto al que redacta— pero
+el lector no lo ve.
 
 **El dato es una cifra y cuatro palabras**, no un párrafo. Va al pie, separado
 por una línea fina, con el número en el color del acento. No lleva etiqueta que
@@ -532,7 +539,7 @@ una prueba en vez de en un adorno.
 | `gancho` | una frase y **90 letras como mucho**: va en la portada y cabe en dos líneas |
 | `entrada` | **unas 56 palabras** (48–66) |
 | `texto` de cada página | las que pida el corte: 55–135 · la última 50–110, que lleva los botones |
-| `rotulo` | 2–4 palabras; se pinta encima de su párrafo |
+| `rotulo` | 2–4 palabras; **no se pinta**: es el esqueleto del que escribe |
 | `autor` (el pie de foto) | **140 letras como mucho**: va sobre la imagen y cabe en dos renglones |
 | `destacado` | cifra y hasta 6 palabras, con información que no esté en el texto |
 
