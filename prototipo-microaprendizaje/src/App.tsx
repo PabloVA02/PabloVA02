@@ -12,7 +12,8 @@ import { Explorar } from "./Explorar";
 import { desbloquea } from "./voz";
 import { Pago } from "./Pago";
 import { Checkout } from "./Checkout";
-import { Perfil } from "./Perfil";
+import { Perfil, Temas as TemasBarra } from "./Perfil";
+import { Estadisticas } from "./Estadisticas";
 import type { Semana } from "./Crecimiento";
 import { Ajustes } from "./Ajustes";
 import { usePreferencias } from "./preferencias";
@@ -32,7 +33,7 @@ import type { Coleccion } from "./colecciones";
 type Pantalla =
   | "intro" | "pago" | "inicio" | "detalle" | "lector" | "fin" | "racha" | "reto"
   | "shorts" | "perfil" | "ajustes" | "oferta" | "alta" | "biblioteca"
-  | "explorar" | "anti" | "coleccion" | "temas";
+  | "explorar" | "anti" | "coleccion" | "temas" | "estadisticas";
 /** Las pantallas raíz: las únicas que enseñan la barra de abajo. */
 /* Los shorts la llevan ahora también. Antes no: la pantalla era la página
    entera y una barra flotando encima le comía sitio al texto. Pablo la quiere
@@ -240,6 +241,25 @@ export default function App() {
      terminados y sin esto estaría siempre vacía: se apunta al pulsar
      «Finalizar resumen», que es el único sitio donde consta que se acabó. */
   const [terminados, setTerminados] = useState<ReadonlySet<string>>(() => new Set());
+
+  /* La semana en curso lleva pegado lo de esta sesión, que sí es de verdad:
+     los minutos de hoy y las ideas de los resúmenes que se hayan terminado.
+     Así la última columna de la gráfica se mueve al leer, que es lo único que
+     la hace creíble. Vive aquí arriba desde que las estadísticas tienen
+     pantalla propia: antes se calculaba en la llamada a `Perfil`. */
+  const historial = useMemo(
+    () =>
+      HISTORIAL.map((sem, i) =>
+        i < HISTORIAL.length - 1
+          ? sem
+          : {
+              ideas: sem.ideas + [...terminados].reduce((t, id) => t + ideasDe(id), 0),
+              minutos: sem.minutos + Math.round(minutosHoy),
+            },
+      ),
+    [terminados, minutosHoy],
+  );
+
   /* El «ya estaba» se mira fuera del actualizador. Dentro no vale: el
      actualizador de `useState` tiene que ser puro y React lo llama dos veces
      en StrictMode, así que un efecto secundario ahí —poner el aviso— se
@@ -480,18 +500,6 @@ export default function App() {
                  «oferta» es el regalo con descuento y no da de alta. */
               onSuscribirse={() => setPantalla("pago")}
               record={RECORD}
-              /* La semana en curso lleva pegado lo de esta sesión, que sí es
-                 de verdad: los minutos de hoy y las ideas de los resúmenes
-                 que se hayan terminado. Así la última columna de la gráfica
-                 se mueve al leer, que es lo único que la hace creíble. */
-              historial={HISTORIAL.map((sem, i) =>
-                i < HISTORIAL.length - 1
-                  ? sem
-                  : {
-                      ideas: sem.ideas + [...terminados].reduce((t, id) => t + ideasDe(id), 0),
-                      minutos: sem.minutos + Math.round(minutosHoy),
-                    },
-              )}
               temas={temasDe(terminados)}
               minutosHoy={minutosHoy}
               meta={meta}
@@ -499,10 +507,25 @@ export default function App() {
               onCerrar={() => setPantalla("inicio")}
               onAjustes={() => setPantalla("ajustes")}
               onAntiScroll={() => setPantalla("anti")}
+              onEstadisticas={() => setPantalla("estadisticas")}
+            />
+          )}
+          {pantalla === "estadisticas" && (
+            <Estadisticas
+              key="estadisticas"
+              historial={historial}
+              temas={temasDe(terminados)}
+              librosLeidos={temasDe(terminados).reduce((t, x) => t + x.n, 0)}
+              minutosTotales={minutosTotales}
+              racha={RACHA}
+              record={RECORD}
+              reducido={!!reducido}
+              onCerrar={() => setPantalla("perfil")}
               onTemas={() => {
-                setVolverDeTemas("perfil");
+                setVolverDeTemas("estadisticas");
                 setPantalla("temas");
               }}
+              Temas={TemasBarra}
             />
           )}
           {pantalla === "anti" && (

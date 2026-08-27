@@ -11,7 +11,7 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 | imágenes puestas | 2139, verificadas hasta 1854 | |
 | libros en el catálogo | 418 | |
 | libros con resumen escrito a mano | **400** | 18 para el catálogo entero |
-| cubiertas dibujadas por Pablo | 277 | 61 escritos sin dibujo |
+| cubiertas dibujadas por Pablo | 295 | 123 para el catálogo entero |
 | resúmenes antiguos generados | 0 | 0 |
 | títulos que no caben en una línea | | 0 |
 | entradas que dejan hueco abajo | 228 alargadas | 0 |
@@ -96,17 +96,20 @@ sin las cubiertas, sin Deportes y sin Vidas—. El script no avisa: coge el
 npx vite build --config vite.uno.config.mjs          # ← esta es la que falta
 node scripts/orden-fotos.mjs 760 > /tmp/orden-fotos.json
 node scripts/movil.mjs --dist dist-uno --lista /tmp/orden-fotos.json \
-     --ancho 200 --calidad 0.45 --tope 0.16 \
-     --cubiertas-ancho 340 --cubiertas-calidad 0.66
+     --ancho 200 --calidad 0.45 --tope 0.08 \
+     --cubiertas-ancho 272 --cubiertas-calidad 0.55
 
-**Y ya no da más de sí: a 400 dejó de caber, como estaba avisado.** El 27
-de agosto, con los 400 resúmenes dentro, `--cubiertas-ancho 340` y
-`--cubiertas-calidad 0.66` produjeron un fichero de 16,47 MB, por encima
-del tope. Los parámetros que sí caben hoy son **`--ancho 200 --calidad
-0.45 --tope 0.10 --cubiertas-ancho 300 --cubiertas-calidad 0.58`**, y con
-ellos salen 15,6 MB y entran 30 fotografías de las 760. El siguiente
-libro vuelve a pasarse. La salida es `docs/` y GitHub Pages, que no tiene
-tope, y es un clic de Pablo.
+**Y YA NO DA MÁS DE SÍ. Cada tanda de cubiertas obliga a bajar el ancho
+otra vez, y esto no tiene arreglo.** El histórico, para que se vea la
+pendiente: con 277 cubiertas y `--cubiertas-ancho 340` el paquete daba
+16,47 MB y no cabía; bajando a 300 dio 15,6 y cupo; con las 295 del 27 de
+agosto por la tarde, a 300 volvía a dar 15,9, a un pelo del tope, y hubo
+que bajar a 272. Los parámetros de arriba son los que caben HOY: 15,4 MB
+y 24 fotografías de las 760.
+
+La siguiente tanda vuelve a pasarse, y bajar más ya se nota en la
+cubierta. La salida es `docs/` y GitHub Pages, que no tiene tope, y es un
+clic de Pablo.
 ```
 
 Dos maneras de comprobar que no ha pasado otra vez, antes de publicar:

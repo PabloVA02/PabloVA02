@@ -1,7 +1,7 @@
 import { motion, useReducedMotion } from "framer-motion";
 import { Llama } from "./Llama";
 import { MetaDiaria } from "./Meta";
-import { Crecimiento, type Semana } from "./Crecimiento";
+import { GlyphEstadisticas } from "./Estadisticas";
 import { Cuenta } from "./Cuenta";
 import { Suscripcion, type EstadoPago } from "./Suscripcion";
 import { GlyphClose, GlyphTick } from "./glyphs";
@@ -87,8 +87,6 @@ type Props = {
   onSuscribirse?: () => void;
   /** La racha más larga que ha tenido. Ver la tarjeta de racha. */
   record: number;
-  /** Seis semanas, de la más vieja a la de ahora. Ver `Crecimiento.tsx`. */
-  historial: Semana[];
   /** Lo leído por categoría, de más a menos. Ver la tarjeta de temas. */
   temas: { nombre: string; n: number; color: string }[];
   /** Minutos leídos hoy, su meta y el total de siempre. */
@@ -98,8 +96,8 @@ type Props = {
   onCerrar: () => void;
   onAjustes: () => void;
   onAntiScroll: () => void;
-  /** Abre la pantalla de temas. La misma que el inicio. */
-  onTemas?: () => void;
+  /** Abre la pantalla de estadísticas. */
+  onEstadisticas: () => void;
 };
 
 export function Perfil({
@@ -109,7 +107,6 @@ export function Perfil({
   estadoPago,
   onSuscribirse,
   record,
-  historial,
   temas,
   minutosHoy,
   meta,
@@ -117,7 +114,7 @@ export function Perfil({
   onCerrar,
   onAjustes,
   onAntiScroll,
-  onTemas,
+  onEstadisticas,
 }: Props) {
   const reducido = !!useReducedMotion();
   const dias = semana(racha);
@@ -225,69 +222,42 @@ export function Perfil({
           <MetaDiaria minutos={minutosHoy} meta={meta} reducido={reducido} onMeta={onMeta} />
         </motion.div>
 
-        {/* ESTADÍSTICAS, en una sola caja con cuatro cuadros dentro.
+        {/* ESTADÍSTICAS, en una fila que abre su propia pantalla.
 
-            Iban en dos bloques seguidos y sueltos —«Crecimiento semanal» y
-            «Tus temas»—, cada uno con su título y su ficha. Pablo pidió el 26
-            de agosto que se englobaran en un recuadro que diga Estadísticas y
-            que los cuadros de dentro tengan tamaños distintos, estilo Apple.
+            Aquí había una caja con cuatro cuadros dentro —la gráfica, dos
+            cifras y la barra de temas—. Cabían, pero cabían apretados: la
+            gráfica tenía 150 puntos de alto para seis semanas y dos series, y
+            la barra de temas repartía cinco tramos en 280 de ancho menos dos
+            rellenos. Todo se leía, nada se miraba.
 
-            Y hay un motivo por debajo del gusto: las dos fichas contestaban
-            preguntas de la misma familia —qué llevo leído— y estaban al mismo
-            nivel que la racha, la meta o el aviso de suscripción, que son
-            otra cosa. Agrupadas, el perfil pasa de ser una lista de nueve
-            fichas a ser cuatro asuntos: quién eres, tu racha de hoy, tus
-            estadísticas y lo que puedes hacer.
+            Pablo lo pidió el 27 de agosto —«debe ser un recuadro como los que
+            tenemos que ponga Estadísticas, y una vez lo abres te aparece todo
+            lo que tenemos, pero no en un mismo recuadro, sino mejor colocado»—
+            y arregla dos cosas de una vez: el perfil vuelve a ser una lista
+            corta de asuntos, y cada estadística tiene dentro el sitio que
+            pide. Ver `Estadisticas.tsx`.
 
-            Los cuatro cuadros y por qué cada tamaño:
-
-              crecimiento   ancho y alto, porque lleva una gráfica y una
-                            gráfica estrecha no se lee
-              libros        pequeño: es una cifra
-              horas         pequeño: es otra cifra, y las dos juntas se
-                            comparan sin querer, que es lo que hace que una
-                            parrilla se lea de un vistazo
-              temas         ancho, porque es una barra partida en cinco y
-                            necesita el ancho entero para que los tramos de
-                            los últimos sigan siendo tramos
-
-            El total de horas vuelve aquí. Estaba en la tarjeta de la meta del
-            día —«En total 30 h 47 min»— y se cayó al pasar el arco a barra;
-            este es su sitio de verdad, porque es una estadística y no una
-            meta. */}
-        <motion.section
-          className="perfil-bloque"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
+            El dibujo es provisional, como los de los temas: Pablo dijo que
+            manda el suyo. */}
+        <motion.button
+          className="perfil-fila"
+          onClick={onEstadisticas}
+          whileTap={{ scale: 0.98 }}
+          initial={{ opacity: 0, y: 20, scale: 0.97 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ ...springSoft, delay: orden(4) }}
         >
-          <h2 className="perfil-titulo-bloque">Estadísticas</h2>
-          <div className="stats">
-            <div className="stats-caja stats-ancha">
-              <p className="stats-rotulo">Crecimiento semanal</p>
-              <Crecimiento semanas={historial} reducido={reducido} />
-            </div>
-
-            {/* Las dos cifras iban en el oro y el naranja de sus series, para
-                atarlas a la gráfica de arriba. Se quedan en blanco: con las de
-                la gráfica hacían cuatro números grandes en cuatro naranjas
-                parecidos, y la caja entera se leía como un borrón. */}
-            <div className="stats-caja stats-cifra">
-              <span className="stats-n">{librosLeidos}</span>
-              <span className="stats-pie">{librosLeidos === 1 ? "libro leído" : "libros leídos"}</span>
-            </div>
-
-            <div className="stats-caja stats-cifra">
-              <span className="stats-n">{horas(minutosTotales)}</span>
-              <span className="stats-pie">leyendo</span>
-            </div>
-
-            <div className="stats-caja stats-ancha">
-              <p className="stats-rotulo">Tus temas</p>
-              <Temas temas={temas} retraso={orden(4)} reducido={reducido} onAjustar={onTemas} />
-            </div>
+          <span className="perfil-anti-marca">
+            <GlyphEstadisticas tamano={26} />
+          </span>
+          <div className="perfil-fila-texto">
+            <p className="perfil-fila-titulo">Estadísticas</p>
+            <p className="perfil-fila-pie">
+              {librosLeidos} {librosLeidos === 1 ? "libro" : "libros"} · {horas(minutosTotales)} leyendo
+            </p>
           </div>
-        </motion.section>
+          <span className="perfil-fila-flecha">›</span>
+        </motion.button>
 
         {/* Invitar: va aquí y no en ajustes porque no es una preferencia, es
             algo que se hace. En una lista de ajustes se lee como un trámite;
@@ -414,7 +384,7 @@ export function Perfil({
    tramo: son partes de un mismo total, así que tienen que llegar juntas.
    -------------------------------------------------------------------------- */
 
-function Temas({
+export function Temas({
   temas,
   retraso,
   reducido,

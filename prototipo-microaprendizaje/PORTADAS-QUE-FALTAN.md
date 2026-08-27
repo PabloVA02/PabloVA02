@@ -1,12 +1,12 @@
 # Portadas que faltan
 
-Al 2026-08-26: **418 libros** en el catálogo, **277 con cubierta tuya**, **141 sin ella**.
+Al 2026-08-27: **418 libros** en el catálogo, **295 con cubierta tuya**, **123 sin ella**.
 
 ## Cómo tiene que ser
 
 - PNG a **1024 × 1536** (2:3 exacto), y el nombre del fichero es **el id** de la
   primera columna. Con eso entra sola con `scripts/mete-cubiertas.mjs`.
-- Como las 277 que ya hay: **título, autor y un dibujo** que cuente el libro.
+- Como las 295 que ya hay: **título, autor y un dibujo** que cuente el libro.
   El dibujo es lo que la distingue de una portada genérica.
 - Si además cabe una frase corta que prometa algo, mejor; pero no hace falta.
 
@@ -16,53 +16,47 @@ Al 2026-08-26: **418 libros** en el catálogo, **277 con cubierta tuya**, **141 
 
 ---
 
-# BLOQUE 1 — 104 que YA SE PUEDEN LEER y salen sin portada tuya
+# BLOQUE 1 — 105 que YA SE PUEDEN LEER y salen sin portada tuya
 
 Son los que más se notan: alguien los abre hoy, lee el resumen entero y no ve
 nada tuyo en la cubierta. Si hay que empezar por algún sitio, es por aquí.
 
-## Historia — 6
+## Historia — 5
 
 | fichero | Título | Autor | Año |
 |---|---|---|---|
-| `en-la-sombra.png` | En la sombra | Príncipe Harry | 2023 |
-| `equipo-rivales.png` | Equipo de rivales | Doris Kearns Goodwin | 2005 |
-| `espia-traidor.png` | Espía y traidor | Ben Macintyre | 2018 |
-| `gulag.png` | Gulag | Anne Applebaum | 2003 |
+| `como-llegamos-aqui.png` | Cómo llegamos aquí | Steven Johnson | 2014 |
+| `verano-1927.png` | El verano de 1927 | Bill Bryson | 2013 |
 | `hambruna-mao.png` | La gran hambruna en la China de Mao | Frank Dikötter | 2010 |
-| `nexus.png` | Nexus | Yuval Noah Harari | 2024 |
+| `historia-mundo-objetos.png` | La historia del mundo en cien objetos | Neil MacGregor | 2010 |
+| `primera-guerra-keegan.png` | La primera guerra mundial | John Keegan | 1998 |
 
-## Filosofía — 6
-
-| fichero | Título | Autor | Año |
-|---|---|---|---|
-| `amor-liquido.png` | Amor líquido | Zygmunt Bauman | 2003 |
-| `banquete.png` | El banquete | Platón | 385 a. C. |
-| `caballero-armadura.png` | El caballero de la armadura oxidada | Robert Fisher | 1989 |
-| `miedo-libertad.png` | El miedo a la libertad | Erich Fromm | 1941 |
-| `sobre-la-libertad.png` | Sobre la libertad | John Stuart Mill | 1859 |
-| `tener-o-ser.png` | Tener o ser | Erich Fromm | 1976 |
-
-## Ciencia — 6
+## Filosofía — 1
 
 | fichero | Título | Autor | Año |
 |---|---|---|---|
-| `caos-gleick.png` | Caos | James Gleick | 1987 |
-| `cerebro-adolescente.png` | El cerebro adolescente | Frances Jensen | 2015 |
-| `incognito.png` | Incógnito | David Eagleman | 2011 |
-| `madame-curie.png` | Madame Curie | Ève Curie | 1937 |
-| `primavera-silenciosa.png` | Primavera silenciosa | Rachel Carson | 1962 |
-| `vida-3-0.png` | Vida 3.0 | Max Tegmark | 2017 |
+| `mundo-como-voluntad.png` | El mundo como voluntad y representación | Arthur Schopenhauer | 1818 |
 
-## Arte — 3
+## Ciencia — 3
+
+| fichero | Título | Autor | Año |
+|---|---|---|---|
+| `cerebro-femenino.png` | El cerebro femenino | Louann Brizendine | 2006 |
+| `futuro-nuestra-mente.png` | El futuro de nuestra mente | Michio Kaku | 2014 |
+| `informacion-gleick.png` | La información | James Gleick | 2011 |
+
+## Arte — 6
 
 | fichero | Título | Autor | Año |
 |---|---|---|---|
 | `confesiones-chef.png` | Confesiones de un chef | Anthony Bourdain | 2000 |
 | `el-guion.png` | El guion | Robert McKee | 1997 |
-| `just-kids.png` | Éramos unos niños | Patti Smith | 2010 |
+| `viaje-del-escritor.png` | El viaje del escritor | Christopher Vogler | 1992 |
+| `bauhaus.png` | La Bauhaus | Magdalena Droste | 1990 |
+| `mujeres-arte.png` | Mujeres artistas | Flavia Frigeri | 2019 |
+| `teoria-color.png` | Teoría del color | Johannes Itten | 1961 |
 
-## Literatura — 18
+## Literatura — 19
 
 | fichero | Título | Autor | Año |
 |---|---|---|---|
@@ -83,9 +77,10 @@ nada tuyo en la cubierta. Si hay que empezar por algún sitio, es por aquí.
 | `martes-con-mi-profesor.png` | Martes con mi viejo profesor | Mitch Albom | 1997 |
 | `mil-soles.png` | Mil soles espléndidos | Khaled Hosseini | 2007 |
 | `patria.png` | Patria | Fernando Aramburu | 2016 |
+| `veinte-poemas.png` | Veinte poemas de amor y una canción desesperada | Pablo Neruda | 1924 |
 | `vivir-para-contarla.png` | Vivir para contarla | Gabriel García Márquez | 2002 |
 
-## Psicología — 32
+## Psicología — 34
 
 | fichero | Título | Autor | Año |
 |---|---|---|---|
@@ -116,19 +111,22 @@ nada tuyo en la cubierta. Si hay que empezar por algún sitio, es por aquí.
 | `mujeres-lobos.png` | Mujeres que corren con los lobos | Clarissa Pinkola Estés | 1992 |
 | `organizate-eficacia.png` | Organízate con eficacia | David Allen | 2001 |
 | `cientifico-espacial.png` | Piensa como un científico espacial | Ozan Varol | 2020 |
+| `filosofo-griego.png` | Piensa como un filósofo griego | Donald Robertson | 2019 |
 | `poder-sin-limites.png` | Poder sin límites | Tony Robbins | 1986 |
+| `hombres-no-escuchan.png` | Por qué los hombres no escuchan y las mujeres no saben leer los mapas | Allan y Barbara Pease | 1998 |
 | `procrastinacion-steel.png` | Procrastinación | Piers Steel | 2010 |
 | `traguese-sapo.png` | Tráguese ese sapo | Brian Tracy | 2001 |
 | `nueva-mirada-infidelidad.png` | Una nueva mirada a la infidelidad | Esther Perel | 2017 |
 | `usted-puede-sanar.png` | Usted puede sanar su vida | Louise Hay | 1984 |
 
-## Economía — 26
+## Economía — 28
 
 | fichero | Título | Autor | Año |
 |---|---|---|---|
 | `creatividad-sa.png` | Creatividad, S.A. | Ed Catmull y Amy Wallace | 2014 |
 | `arte-de-empezar.png` | El arte de empezar | Guy Kawasaki | 2004 |
 | `camino-libertad-financiera.png` | El camino hacia la libertad financiera | Bodo Schäfer | 1998 |
+| `coach-silicon-valley.png` | El coach de Silicon Valley | Schmidt, Rosenberg y Eagle | 2019 |
 | `cuadrante-flujo.png` | El cuadrante del flujo de dinero | Robert Kiyosaki | 1998 |
 | `efecto-compuesto.png` | El efecto compuesto | Darren Hardy | 2010 |
 | `empresas-sobresalen.png` | Empresas que sobresalen | Jim Collins | 2001 |
@@ -151,9 +149,10 @@ nada tuyo en la cubierta. Si hay que empezar por algún sitio, es por aquí.
 | `side-hustle.png` | Side Hustle | Chris Guillebeau | 2017 |
 | `sin-esfuerzo.png` | Sin esfuerzo | Greg McKeown | 2021 |
 | `sprint-knapp.png` | Sprint | Jake Knapp | 2016 |
+| `thinkertoys.png` | Thinkertoys | Michael Michalko | 1991 |
 | `vender-es-humano.png` | Vender es humano | Daniel H. Pink | 2012 |
 
-## Salud — 7
+## Salud — 9
 
 | fichero | Título | Autor | Año |
 |---|---|---|---|
@@ -162,60 +161,34 @@ nada tuyo en la cubierta. Si hay que empezar por algún sitio, es por aquí.
 | `intestino-feliz.png` | El intestino feliz | Justin y Erica Sonnenburg | 2015 |
 | `libro-del-sueno.png` | El libro del sueño | Guy Meadows | 2014 |
 | `pleno-compromiso.png` | El poder del pleno compromiso | Jim Loehr y Tony Schwartz | 2003 |
+| `entre-dos-reinos.png` | Entre dos reinos | Suleika Jaouad | 2021 |
+| `biologia-creencia.png` | La biología de la creencia | Bruce Lipton | 2005 |
 | `dieta-ya-no-cojea.png` | Mi dieta ya no cojea | Aitor Sánchez García | 2018 |
 | `mente-en-forma.png` | Tu mente en forma | Wendy Suzuki | 2015 |
 
 ---
 
-# BLOQUE 2 — 37 que todavía no tienen resumen escrito
+# BLOQUE 2 — 18 que todavía no tienen resumen escrito
 
 Estos aún no se pueden leer, así que no corren tanta prisa. Van aquí para que
 la lista esté completa y no haya que volver a preguntarla.
 
-## Historia — 7
+## Historia — 3
 
 | fichero | Título | Autor | Año |
 |---|---|---|---|
 | `verano-1913.png` | 1913: el verano del siglo | Florian Illies | 2012 |
-| `como-llegamos-aqui.png` | Cómo llegamos aquí | Steven Johnson | 2014 |
-| `verano-1927.png` | El verano de 1927 | Bill Bryson | 2013 |
-| `historia-mundo-objetos.png` | La historia del mundo en cien objetos | Neil MacGregor | 2010 |
-| `primera-guerra-keegan.png` | La primera guerra mundial | John Keegan | 1998 |
 | `prision-americana.png` | Prisión americana | Shane Bauer | 2018 |
 | `ucrania-relatos.png` | Ucrania en varios relatos | Volodímir Yermolenko | 2019 |
 
-## Filosofía — 1
-
-| fichero | Título | Autor | Año |
-|---|---|---|---|
-| `mundo-como-voluntad.png` | El mundo como voluntad y representación | Arthur Schopenhauer | 1818 |
-
-## Ciencia — 5
+## Ciencia — 2
 
 | fichero | Título | Autor | Año |
 |---|---|---|---|
 | `alicia-cuantos.png` | Alicia en el país de los cuantos | Robert Gilmore | 1995 |
-| `cerebro-femenino.png` | El cerebro femenino | Louann Brizendine | 2006 |
-| `futuro-nuestra-mente.png` | El futuro de nuestra mente | Michio Kaku | 2014 |
-| `informacion-gleick.png` | La información | James Gleick | 2011 |
 | `tecnologias-radicales.png` | Tecnologías radicales | Adam Greenfield | 2017 |
 
-## Arte — 4
-
-| fichero | Título | Autor | Año |
-|---|---|---|---|
-| `viaje-del-escritor.png` | El viaje del escritor | Christopher Vogler | 1992 |
-| `bauhaus.png` | La Bauhaus | Magdalena Droste | 1990 |
-| `mujeres-arte.png` | Mujeres artistas | Flavia Frigeri | 2019 |
-| `teoria-color.png` | Teoría del color | Johannes Itten | 1961 |
-
-## Literatura — 1
-
-| fichero | Título | Autor | Año |
-|---|---|---|---|
-| `veinte-poemas.png` | Veinte poemas de amor y una canción desesperada | Pablo Neruda | 1924 |
-
-## Psicología — 8
+## Psicología — 6
 
 | fichero | Título | Autor | Año |
 |---|---|---|---|
@@ -224,27 +197,21 @@ la lista esté completa y no haya que volver a preguntarla.
 | `desenredadas.png` | Desenredadas | Lisa Damour | 2016 |
 | `poder-magico-voluntad.png` | El poder mágico de la voluntad | Claude M. Bristol | 1948 |
 | `no-lo-pienses-demasiado.png` | No lo pienses demasiado | Anne Bogel | 2020 |
-| `filosofo-griego.png` | Piensa como un filósofo griego | Donald Robertson | 2019 |
-| `hombres-no-escuchan.png` | Por qué los hombres no escuchan y las mujeres no saben leer los mapas | Allan y Barbara Pease | 1998 |
 | `todo-empieza-contigo.png` | Todo empieza contigo | Jillian Turecki | 2025 |
 
-## Economía — 7
+## Economía — 5
 
 | fichero | Título | Autor | Año |
 |---|---|---|---|
-| `coach-silicon-valley.png` | El coach de Silicon Valley | Schmidt, Rosenberg y Eagle | 2019 |
 | `promesa-lapiz.png` | La promesa de un lápiz | Adam Braun | 2014 |
 | `vacas-sagradas.png` | Matar a las vacas sagradas | Garrett B. Gunderson | 2008 |
 | `planifica-tu-futuro.png` | Planifica tu futuro | Michael Hyatt y Daniel Harkavy | 2016 |
-| `thinkertoys.png` | Thinkertoys | Michael Michalko | 1991 |
 | `amor-trabajo-no-correspondido.png` | Tu amor al trabajo no es correspondido | Sarah Jaffe | 2021 |
 | `viaja-gratis.png` | Viaja gratis | Nomadic Matt | 2015 |
 
-## Salud — 4
+## Salud — 2
 
 | fichero | Título | Autor | Año |
 |---|---|---|---|
 | `adelgaza-para-siempre.png` | Adelgaza para siempre | Ángela Quintas | 2016 |
-| `entre-dos-reinos.png` | Entre dos reinos | Suleika Jaouad | 2021 |
-| `biologia-creencia.png` | La biología de la creencia | Bruce Lipton | 2005 |
 | `cuerpo-para-vida.png` | Un cuerpo para toda la vida | Marcos Vázquez | 2019 |

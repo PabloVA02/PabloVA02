@@ -5595,6 +5595,8 @@ button {
      Que sean parecidos no molesta porque las dos series van en carriles
      separados y no se cruzan nunca; para eso están los carriles. Contra el
      fondo del cuadro dan 8,1 y 5,6 de contraste. */
+  /* Los mismos que declara `.crece`. Aquí se quedan para las dos cifras de la
+     parrilla vieja; la gráfica ya no depende de esta caja. */
   --serie-a: #ffb13d;
   --serie-b: #ff6a2a;
 
@@ -5678,6 +5680,30 @@ button {
      y esto apunta al mismo sitio, así que no se puede volver a desincronizar. */
   --crece-fondo: #3f3f3f;
 
+  /* Y LOS COLORES DE LAS DOS SERIES, que hasta el 27 de agosto vivían en
+     `.stats`, la caja de estadísticas del perfil. Al sacar las estadísticas a
+     su propia pantalla, la gráfica se quedó fuera de esa caja, `var(--serie-a)`
+     no resolvía a nada y las dos líneas se pintaban con un color inválido: se
+     veían los puntos y NO se veían las líneas.
+
+     Aquí es donde tienen que estar, por el mismo motivo por el que `.port` se
+     declara su propia paleta: un componente que puede colgarse en tres sitios
+     distintos no puede depender de que alguien de fuera le dé sus colores.
+
+     Y significan algo, que es lo que los salva de ser un capricho: son los dos
+     extremos de la misma llama —la punta y la base—, así que la gráfica queda
+     del color de la racha.
+
+       oro      #ffb13d   lo que has aprendido   ideas clave
+       naranja  #ff6a2a   el tiempo que echaste  minutos leídos
+
+     Que sean parecidos no molesta porque las dos series van en carriles
+     separados y no se cruzan nunca. Contra el fondo del cuadro dan 8,1 y 5,6
+     de contraste. */
+  --serie-a: #ffb13d;
+  --serie-b: #ff6a2a;
+  --cifra-a: #ffd76b;
+  --cifra-b: #ff8a3d;
 }
 
 /* --- Las dos cifras ------------------------------------------------------ */
@@ -10105,3 +10131,115 @@ button {
   background: rgba(255, 255, 255, 0.1);
   color: #ffffff;
 }
+
+/* ==========================================================================
+   ESTADÍSTICAS, EN SU PROPIA PANTALLA
+
+   Pablo, el 27 de agosto: «debe ser un recuadro como los que tenemos que ponga
+   Estadísticas, y una vez lo abres te aparece todo lo que tenemos, pero no en
+   un mismo recuadro, sino mejor colocado todo». El porqué está en
+   `Estadisticas.tsx`; aquí solo la pintura.
+
+   Y LO QUE NO SE HACE: meter las cuatro cosas en una caja grande. Son bloques
+   separados, cada uno con su rótulo FUERA y su tarjeta debajo. Un recuadro con
+   cuatro cosas dentro obliga a mirarlas como si fueran comparables, y una
+   gráfica de seis semanas y el número de libros leídos no se leen igual.
+   ========================================================================== */
+
+.stap {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--fondo);
+  color: #f2ece1;
+}
+
+.stap-head {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px var(--shell-pad) 0;
+}
+
+.stap-head-titulo {
+  margin: 0;
+  font-size: 21px;
+  font-weight: 760;
+  letter-spacing: -0.028em;
+}
+
+.stap-head .icon-btn {
+  width: 38px;
+  height: 38px;
+  background: rgba(242, 236, 225, 0.1);
+  color: #f2ece1;
+}
+
+.stap-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 18px var(--shell-pad) 40px;
+}
+
+/* Las cuatro cifras, en dos por dos y SIN caja. Una caja alrededor de cuatro
+   números los convierte en un formulario; sueltos, con el número grande y el
+   rótulo debajo, se leen de un vistazo, que es para lo que están. */
+.stap-cifras {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 14px;
+  padding-bottom: 6px;
+}
+
+.stap-cifra {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.stap-n {
+  font-size: 30px;
+  font-weight: 780;
+  line-height: 1.05;
+  letter-spacing: -0.032em;
+  color: #f2ece1;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.stap-n[data-largo="true"] { font-size: 23px; }
+
+.stap-pie {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.52);
+}
+
+.stap-bloque { margin-top: 26px; }
+
+/* El rótulo va FUERA de la tarjeta, que es lo que hace que se lean como
+   bloques distintos y no como cuatro cajones del mismo mueble. */
+.stap-rotulo {
+  margin: 0 0 10px;
+  font-size: 16.5px;
+  font-weight: 720;
+  letter-spacing: -0.02em;
+}
+
+.stap-caja {
+  padding: 16px 15px 15px;
+  border-radius: var(--tarjeta-radio);
+  background: var(--tarjeta);
+  border: 1px solid var(--tarjeta-filo);
+}
+
+.stap-nota {
+  margin: 26px 0 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.52);
+}
+.stap-nota strong { color: #f2ece1; font-weight: 700; }
