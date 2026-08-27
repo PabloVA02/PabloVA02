@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "primera-guerra-keegan":
+    "Keegan abre diciendo que fue una guerra trágica e innecesaria, y termina reconociendo que su origen sigue siendo un misterio. Entre medias explica cómo un continente próspero y conectado se rompió en cinco semanas.",
+
   "mundo-como-voluntad":
     "Lo publicó a los treinta años y no lo compró casi nadie: buena parte de la primera edición acabó destruida. Sostiene que el mundo se conoce por fuera como representación y por dentro, en un solo sitio, como voluntad.",
 

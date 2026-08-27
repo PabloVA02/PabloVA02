@@ -110482,7 +110482,306 @@ const MUNDO_COMO_VOLUNTAD: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La primera guerra mundial, de John Keegan (1998), en ocho páginas.
+
+   Historia, así que tercera persona. Y aquí manda el aviso del apartado 4 bis:
+   en esta categoría la trampa es la crónica. Ninguna página puede ser una línea
+   del tiempo; cada una tiene que afirmar algo discutible.
+
+   La conclusión lleva el marcador de lo que ha pasado con su tesis desde 1998,
+   que es mucho: el centenario dio la vuelta a la explicación de julio de 1914.
+   -------------------------------------------------------------------------- */
+
+const PRIMERA_GUERRA_KEEGAN: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Keegan abre su libro diciendo que aquella guerra fue trágica e innecesaria, y dedica el resto a no poder explicarla",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera frase del libro es una tesis y una condena: la primera guerra mundial fue un conflicto trágico e innecesario. Innecesario porque, sostiene Keegan, la cadena de decisiones que llevó a ella podía haberse roto en una docena de puntos, y porque ninguno de los objetivos que se declararon justifica lo que costó.",
+      },
+      {
+        b: "texto",
+        texto:
+          "John Keegan fue durante veintiséis años profesor de historia militar en la academia de Sandhurst, donde se forman los oficiales británicos, y después editor de defensa del <em>Daily Telegraph</em>. Su libro anterior, <em>El rostro de la batalla</em>, de 1976, cambió la disciplina al preguntar algo que casi nadie preguntaba: qué le pasa a un hombre concreto dentro de una batalla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí se enfrenta a un problema mayor. Diez millones de militares muertos, cuatro imperios deshechos, y una pregunta que él mismo declara sin contestar al final: por qué. No es una figura retórica; el libro termina reconociendo que el origen de la guerra sigue siendo un misterio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene fijar el tamaño de lo que se cuenta, porque las cifras se repiten tanto que dejan de significar algo. En cuatro años y tres meses murieron unos diez millones de militares y una cifra parecida de civiles; Francia perdió a uno de cada cinco hombres en edad militar. No hubo un solo pueblo francés sin monumento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue es cómo era Europa antes, qué convirtió una crisis diplomática en una guerra continental en cinco semanas, por qué se atascó durante cuatro años, cómo fue el peor día del ejército británico y qué parte de esta guerra sigue sin contarse.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un historiador que termina diciendo que no lo entiende es más fiable que uno que termina con una explicación redonda.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Europa estaba mejor que nunca en 1914, y ése es exactamente el problema que hay que explicar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Keegan dedica el arranque a algo que parece contexto y es el planteamiento entero del libro: describir hasta qué punto la Europa de 1914 no parecía una Europa a punto de destruirse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los datos que pone son de prosperidad. Un continente enriquecido por cuarenta años sin guerras entre grandes potencias, con el comercio entre ellas en máximos, con ferrocarril y telégrafo enlazando capitales, con una clase culta que leía los mismos libros y viajaba sin pasaporte por casi toda Europa occidental. La libra, el marco y el franco eran convertibles en oro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y las cabezas de tres de los imperios implicados eran parientes: el káiser Guillermo II, el zar Nicolás II y el rey Jorge V eran primos, nietos o sobrinos-nietos de la reina Victoria, y se escribían en inglés. En julio de 1914, Guillermo y Nicolás se mandaron telegramas personales llamándose por sus apodos mientras sus ejércitos se movilizaban.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un dato de la época que hoy sorprende más que ningún otro: en 1913 se publicó en Inglaterra un ensayo muy leído, <em>La gran ilusión</em>, de Norman Angell, que sostenía que una guerra entre potencias industriales era imposible porque arruinaría al vencedor tanto como al vencido. El argumento económico era correcto. La guerra empezó de todas formas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El argumento de Keegan es que esa prosperidad no era un decorado que ocultara tensiones inevitables, como suele contarse. Era real, y por eso la explicación de la guerra no puede ser que Europa estuviera podrida por dentro: hay que explicar cómo un continente que funcionaba se rompió en cinco semanas por un asesinato en una ciudad de provincias.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que algo funcionara bien hasta el día antes no es un consuelo: es lo que hay que explicar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los planes de movilización quitaron a los gobiernos la posibilidad de esperar",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación más sólida del libro no está en los motivos de nadie, sino en unos documentos técnicos: los planes de guerra que los estados mayores llevaban veinte años perfeccionando. Keegan sostiene que esos planes convirtieron una crisis, que podía haber durado meses, en una cuenta atrás de días.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El más conocido es el alemán, heredado del conde Von Schlieffen. Su premisa era que Alemania no podía sostener una guerra en dos frentes a la vez, así que había que derrotar a Francia en seis semanas y girar después contra Rusia, que tardaría más en movilizarse. Y eso solo funcionaba si empezaba antes que nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo decisivo es que esos planes eran horarios de tren. Movilizar significaba mover millones de hombres, caballos y toneladas de suministro por una red ferroviaria con vías y andenes asignados minuto a minuto, y una vez arrancado no había manera de pararlo sin dejar a los ejércitos desordenados en medio del país. Alemania calculaba unos once mil trenes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y no era solo alemán. Francia tenía su Plan XVII, que preveía atacar hacia el este en cuanto empezara; Rusia tenía el suyo, y su ventaja era el número, así que su respuesta a cualquier crisis era movilizar pronto porque tardaba más. Los tres planes daban la misma instrucción: no llegues tarde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la consecuencia política que a Keegan le interesa: movilizar dejó de ser una advertencia y pasó a ser el primer acto de la guerra. En el sistema anterior, un gobierno podía movilizar para presionar y luego negociar; con estos horarios, movilizar obligaba al vecino a movilizar, y esperar cuarenta y ocho horas equivalía a perder la guerra antes de empezarla. Nadie podía permitirse ser el segundo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un plan que solo funciona si eres el primero en ejecutarlo convierte cualquier crisis en una carrera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En julio de 1914 los que decidían no podían hablarse, y eso cambió el resultado",
+      },
+      {
+        b: "texto",
+        texto:
+          "Keegan insiste en un factor que casi ninguna historia de la guerra pone en primer plano: la velocidad a la que viajaban las decisiones frente a la velocidad a la que viajaban los ejércitos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los ferrocarriles movían un cuerpo de ejército en un día. Las decisiones, en cambio, iban por telegrama cifrado: se redactaba, se cifraba, se transmitía, se descifraba, se traducía y se llevaba a mano al despacho de un ministro. Un intercambio entre dos capitales podía llevar medio día, y las respuestas se cruzaban con preguntas nuevas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado en aquellas cinco semanas fue que nadie tuvo nunca delante la situación completa al mismo tiempo que los demás. Cada gobierno actuaba sobre una foto de hacía horas, y respondía a un movimiento que el otro ya había corregido. No existía ninguna manera de convocar a los implicados en una sala, ni un teléfono entre jefes de Estado, ni un organismo con autoridad para pedir una pausa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que Keegan usa es el zar. Nicolás II ordenó una movilización parcial, dirigida solo contra Austria, y sus generales le explicaron que no existía: los horarios ferroviarios estaban hechos para una movilización general y no se podían dividir sin dejar el despliegue inservible. Retiró la orden y firmó la general.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y esa es la parte de la tesis del libro que se sostiene mejor. Keegan no dice que la guerra fuera un accidente ni que nadie la quisiera: dice que un sistema con ejércitos que se mueven en horas y decisiones que se mueven en días no tiene ningún mecanismo para detenerse, y que en un sistema así los pocos que querían la guerra bastan.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando las máquinas van más deprisa que las decisiones, no hace falta que nadie decida un desastre para que ocurra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La guerra se atascó porque las armas adelantaron al mando, no porque los generales fueran idiotas",
+      },
+      {
+        b: "texto",
+        texto:
+          "A finales de 1914, después de que el avance alemán se detuviera en el Marne y los dos bandos intentaran rodearse por el norte hasta llegar al mar, había una línea continua de trincheras de unos setecientos kilómetros desde el canal de la Mancha hasta Suiza. No se movió apenas en tres años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación popular es que los generales eran obtusos. Keegan sostiene otra cosa y es la aportación técnica del libro: el problema no era la inteligencia del mando, era que el mando dejaba de existir en el momento del ataque. Una vez que la infantería salía de la trinchera, ningún general podía saber dónde estaba ni darle una orden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo es concreto y es de material. La radio portátil aún no existía; los teléfonos de campaña funcionaban con cables tendidos por el suelo que la artillería cortaba en los primeros minutos. Quedaban los mensajeros a pie por terreno batido, las palomas y las banderas. Un general recibía noticias de su propio ataque con horas de retraso y ya no significaban nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y enfrente, tres inventos que favorecían enormemente a quien estaba quieto: la ametralladora, el alambre de espino y la artillería de tiro rápido. Atacar exigía coordinar el fuego con el avance minuto a minuto, y eso era justo lo único que no se podía hacer. La guerra de trincheras no fue una decisión: fue lo que queda cuando se puede matar a distancia y no se puede hablar a distancia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Se podía matar a diez kilómetros y no se podía hablar a quinientos metros. En esa diferencia cabe una guerra de cuatro años.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El 1 de julio de 1916 demuestra la tesis mejor que ningún argumento" },
+      {
+        b: "texto",
+        texto:
+          "Keegan dedica su mejor capítulo al primer día de la batalla del Somme, y no por el número de muertos: porque es donde se ve funcionando todo lo anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El plan era razonable sobre el papel. Siete días de bombardeo continuo —más de un millón y medio de proyectiles— destruirían el alambre y las posiciones alemanas, y la infantería solo tendría que caminar hasta ellas y ocuparlas. Se ordenó avanzar andando y en línea, precisamente porque se daba por supuesto que no habría nadie enfrente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Fallaron dos cosas que nadie pudo comprobar a tiempo. Buena parte de los proyectiles eran de metralla, inútil contra el alambre, y muchos no llegaron a estallar. Y los alemanes tenían refugios excavados a diez metros de profundidad, donde esperaron una semana. Cuando el bombardeo paró, salieron y montaron las ametralladoras antes de que la primera línea británica cruzara la tierra de nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle de organización que multiplicó el desastre. Muchas unidades británicas eran batallones de amigos, reclutados en una misma ciudad o en una misma fábrica bajo la promesa de servir juntos. Sirvieron juntos y cayeron juntos, así que en algunos pueblos del norte de Inglaterra la lista de bajas de aquella mañana se llevó a los hombres de una generación entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado de ese día fueron unas cincuenta y siete mil bajas británicas, de las que más de diecinueve mil murieron: el peor día de la historia del ejército británico. Y lo que hace insoportable el episodio es lo que Keegan subraya: el mando siguió mandando oleadas durante horas porque no tenía manera de saber lo que estaba pasando. Los partes que llegaban decían que el avance progresaba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo peor de aquel día no fue la orden de atacar: fue que durante horas nadie pudo enterarse de que había que pararla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La guerra que se recuerda es una parte pequeña de la guerra que hubo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Keegan dedica un esfuerzo deliberado a corregir el mapa mental de sus lectores, y es de las cosas más útiles del libro. En el imaginario británico y francés, esta guerra es un tramo de trincheras en el norte de Francia. En realidad, ni la mayor parte del territorio ni la mayor parte de los movimientos estuvieron ahí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El frente oriental era cuatro veces más largo y nunca se estabilizó: allí hubo avances de cientos de kilómetros, cercos, y una guerra de movimiento parecida a la que todos esperaban en 1914. Rusia perdió más hombres que ninguna otra potencia y salió de la guerra por una revolución, lo que la convierte en el frente con más consecuencias históricas y el menos contado en Occidente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y estaba el resto del mundo. Se combatió en los Alpes italianos a tres mil metros, en Mesopotamia, en Palestina, en el Cáucaso, en las colonias alemanas de África —donde una campaña siguió activa hasta después del armisticio— y en el mar. Tropas indias, senegalesas, canadienses, australianas y neozelandesas combatieron en Europa; el desembarco de Galípoli fracasó con enormes pérdidas de australianos y neozelandeses.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia que saca Keegan es la que da sentido al adjetivo del título. Se llamó mundial no por hipérbole: la decisión de un puñado de gobiernos europeos mató a campesinos anatolios, a soldados indios y a porteadores africanos, y rehízo las fronteras de Oriente Próximo, que siguen donde las dejó.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las fronteras que hoy dan problemas en Oriente Próximo se dibujaron en despachos europeos mientras aquella guerra terminaba.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Keegan cuenta la primera guerra mundial como un caso de sistema, no de villanos. Un continente próspero y conectado, unos planes de movilización que funcionaban como horarios de tren y que obligaban a ir primero, unas comunicaciones diplomáticas más lentas que los ejércitos, y una tecnología que permitía matar a distancia sin permitir mandar a distancia. Cuatro años de atasco y diez millones de militares muertos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la explicación del estancamiento, y es la mejor que se ha escrito para un lector no especialista: la brecha entre lo que podían hacer las armas y lo que podía hacer el mando. Con ella se entiende el primer día del Somme sin recurrir a la estupidez de nadie, que es la explicación cómoda y la que no explica nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Keegan es un historiador de la batalla y su libro se nota mucho más débil cuando sale de ella: los capítulos diplomáticos y económicos son delgados, apenas discute la tesis de Fritz Fischer —que desde 1961 sostiene que Alemania buscó deliberadamente la guerra por objetivos de expansión— y despacha en pocas páginas asuntos que otros historiadores consideran centrales. Y hay una ironía interna: reprocha que se olvide el frente oriental, y en su propio libro ocupa una fracción de lo que ocupa el occidental.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después, que en este caso es mucho. El centenario, entre 2014 y 2018, trajo una revisión que va justo contra su tesis principal. En <em>Los sonámbulos</em>, de 2012, Christopher Clark reconstruyó la crisis de julio y la explicó no como un accidente de sistema sino como una serie de decisiones tomadas por gente concreta que sabía lo que arriesgaba; Margaret MacMillan y Hew Strachan trabajaron en esa misma dirección. Hoy la palabra que Keegan pone en su primera frase —innecesaria— sigue siendo defendible, pero la de accidental ya no se sostiene: no fue que nadie la quisiera, fue que quienes la querían encontraron un sistema que no sabía frenar.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "primera-guerra-keegan": PRIMERA_GUERRA_KEEGAN,
   "mundo-como-voluntad": MUNDO_COMO_VOLUNTAD,
   "informacion-gleick": INFORMACION_GLEICK,
   "viaje-del-escritor": VIAJE_DEL_ESCRITOR,

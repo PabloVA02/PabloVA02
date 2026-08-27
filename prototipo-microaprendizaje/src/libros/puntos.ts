@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "primera-guerra-keegan": [
+    "por qué un plan que solo funciona yendo primero convierte una crisis en carrera",
+    "qué pasa cuando las máquinas van más deprisa que las decisiones",
+    "por qué se atascó una guerra sin que nadie fuera idiota",
+    "qué separaba lo que se podía matar de lo que se podía mandar",
+    "qué parte de aquella guerra sigue sin contarse en Occidente",
+  ],
+
   "mundo-como-voluntad": [
     "por qué el espacio y el tiempo no están fuera sino en quien mira",
     "qué se sabe del propio cuerpo que no se sabe de nada más",
