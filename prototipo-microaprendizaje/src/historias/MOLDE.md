@@ -341,7 +341,11 @@ a ese suelo significa que hay que acortarle el texto, no cambiar la maqueta.
 que se leía de la pantalla: cuatro renglones de gris entre lo que engancha y lo
 que promete. Encima, apoyado en el degradado con el que la banda se disuelve en
 la página, sigue estando entero —la licencia lo exige— y deja de interrumpir.
-Dos renglones como mucho.
+
+**Dos renglones como mucho, o sea 140 letras.** El degradado da para dos; con
+tres, el pie se sube por encima de la mitad de la banda y se queda flotando en
+mitad de la fotografía, y en la última página —que solo tiene el 22 %— la tapa
+casi entera. Lo comprueba `revisa-shorts.mjs`.
 
 **Márgenes idénticos en las cuatro**, arriba, abajo y a los lados. La última
 pantalla se ve más suelta porque lleva menos texto, no porque cambie nada.
@@ -397,6 +401,7 @@ una prueba en vez de en un adorno.
 | `entrada` | **unas 56 palabras** (48–66) |
 | `texto` de cada página | unas 110 palabras |
 | `rotulo` | 2–4 palabras; se pinta encima de su párrafo |
+| `autor` (el pie de foto) | **140 letras como mucho**: va sobre la imagen y cabe en dos renglones |
 | `destacado` | cifra y hasta 6 palabras, con información que no esté en el texto |
 
 **Estas cifras son orientativas, no una jaula.** Lo dijo Pablo y tiene razón:

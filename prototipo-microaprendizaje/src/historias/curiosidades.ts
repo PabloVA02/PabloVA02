@@ -58,7 +58,7 @@ export const CURIOSIDADES: Short[] = [
       {
         archivo: "NSF’s Inouye Solar Telescope First Light (NSO-DKIST-firstlight-full).jpg",
         autor:
-          "La superficie del Sol a la mayor resolución conseguida nunca: cada celda de gas hirviendo es del tamaño de un país. Telescopio Solar Inouye, 2020. NSO/NSF/AURA.",
+          "Cada celda de gas hirviendo del Sol mide como un país. Telescopio Solar Inouye, 2020. NSO/NSF/AURA.",
         licencia: "CC BY 4.0",
         fuente:
           "https://commons.wikimedia.org/wiki/File:NSF%E2%80%99s_Inouye_Solar_Telescope_First_Light_(NSO-DKIST-firstlight-full).jpg",
@@ -77,7 +77,7 @@ export const CURIOSIDADES: Short[] = [
       {
         archivo: "NGC7293 (2004).jpg",
         autor:
-          "La nebulosa de la Hélice: las capas que soltó una estrella parecida al Sol al morir, con su enana blanca en el centro. Telescopio Hubble, 2004. NASA, ESA y C. R. O’Dell.",
+          "La nebulosa de la Hélice: lo que dejó al morir una estrella como el Sol. Hubble, 2004. NASA y ESA.",
         licencia: "Public domain",
         fuente: "https://commons.wikimedia.org/wiki/File:NGC7293_(2004).jpg",
         foco: "50% 50%",

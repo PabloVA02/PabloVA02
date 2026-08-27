@@ -131,6 +131,17 @@ for (const ruta of ficheros) {
     if (ne < 44 || ne > 72) aviso(id, `entrada de ${ne} palabras (48-66)`);
     if (ne >= 44 && ne < 48) flojo(id, `entrada de ${ne} palabras: deja hueco abajo (unas 56)`);
 
+    /* Y los pies de foto, que también tienen medida. Van SOBRE la imagen desde
+       el 27 de agosto, apoyados en el degradado con el que la banda se
+       disuelve en la página, y ese degradado da para dos renglones. Un pie de
+       tres se sube por encima de la mitad de la banda y se queda flotando en
+       mitad de la fotografía; en la última página, que solo tiene el 22 %, la
+       tapa casi entera. Medidos los dos renglones en una pantalla de 430, son
+       120 caracteres. */
+    for (const [i, pie] of [...b.matchAll(/autor:\n?\s+"((?:[^"\\]|\\.)*)"/g)].entries())
+      if (pie[1].length > 140)
+        flojo(id, `pie de foto ${i + 1} de ${pie[1].length} letras: tres renglones (tope 140)`);
+
     const paginas = [...b.matchAll(/rotulo: "([^"]*)",\n\s+texto:\n\s+"((?:[^"\\]|\\.)*)"/g)];
 
     /* Regla 1 del molde: situar. No obliga a abrir con el año —una entrada
@@ -263,7 +274,7 @@ for (const ruta of ficheros) {
 }
 
 console.log(`\n${total} shorts revisados · ${fallos} avisos`
-  + (flojos ? ` · ${flojos} entradas cortas` : "")
+  + (flojos ? ` · ${flojos} ${flojos === 1 ? "aviso leve" : "avisos leves"}` : "")
   + (titulosLargos ? ` · ${titulosLargos} títulos que no caben en una línea` : "")
   + (fotosDudosas ? ` · ${fotosDudosas} fotos con la licencia sin justificar` : ""));
 process.exit(fallos ? 1 : 0);
