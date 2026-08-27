@@ -194,7 +194,7 @@ export const CATALOGO: Ficha[] = [
   { id: "just-kids", titulo: "Éramos unos niños", autor: "Patti Smith", ano: 2010, categoria: "Arte", estado: "escrito" },
   { id: "confesiones-chef", titulo: "Confesiones de un chef", autor: "Anthony Bourdain", ano: 2000, categoria: "Arte", estado: "escrito" },
   { id: "frida-herrera", titulo: "Frida", autor: "Hayden Herrera", ano: 1983, categoria: "Arte", estado: "escrito" },
-  { id: "bauhaus", titulo: "La Bauhaus", autor: "Magdalena Droste", ano: 1990, categoria: "Arte", estado: "pendiente" },
+  { id: "bauhaus", titulo: "La Bauhaus", autor: "Magdalena Droste", ano: 1990, categoria: "Arte", estado: "escrito" },
   { id: "mujeres-arte", titulo: "Mujeres artistas", autor: "Flavia Frigeri", ano: 2019, categoria: "Arte", estado: "pendiente" },
   { id: "teoria-color", titulo: "Teoría del color", autor: "Johannes Itten", ano: 1961, categoria: "Arte", estado: "escrito" },
   { id: "el-guion", titulo: "El guion", autor: "Robert McKee", ano: 1997, categoria: "Arte", estado: "escrito" },

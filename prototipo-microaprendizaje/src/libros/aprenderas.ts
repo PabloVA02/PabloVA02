@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  bauhaus:
+    "Catorce años, tres ciudades, tres directores y unos mil doscientos estudiantes en total. Menos gente de la que cabe en un instituto, y de ahí salió casi todo lo que hoy se entiende por diseño.",
+
   "cerebro-femenino":
     "Su cifra más famosa —veinte mil palabras al día frente a siete mil— no salía de ningún estudio. Un lingüista la rastreó hasta un libro sin fuente, y una medición con grabadoras encontró dieciséis mil para los dos sexos.",
 

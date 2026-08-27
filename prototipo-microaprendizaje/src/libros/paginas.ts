@@ -111943,7 +111943,319 @@ const CEREBRO_FEMENINO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La Bauhaus, de Magdalena Droste (1990), en ocho páginas.
+
+   Historia de una institución, así que tercera persona y ninguna página que sea
+   una línea del tiempo: cada una afirma algo discutible sobre la escuela.
+
+   El asunto del resumen es el desajuste entre la Bauhaus que se recuerda y la
+   que hubo, que es justo lo que el libro documenta y casi nadie cuenta.
+   -------------------------------------------------------------------------- */
+
+const BAUHAUS: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La escuela que inventó el diseño moderno duró catorce años y nunca fue rentable",
+      },
+      {
+        b: "texto",
+        texto:
+          "La Bauhaus existió desde abril de 1919 hasta julio de 1933: catorce años, tres ciudades —Weimar, Dessau y Berlín—, tres directores y unos mil doscientos estudiantes en total. Es menos gente de la que cabe en un instituto y menos tiempo del que dura una carrera larga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Magdalena Droste es historiadora del arte y trabajó como conservadora en el archivo de la Bauhaus en Berlín, que es donde están los papeles, las actas, las cartas y los presupuestos. Su libro, publicado en 1990, es la historia de referencia de la escuela y está escrito desde esos documentos y no desde la leyenda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y esa es la razón de leerlo. La Bauhaus se recuerda como una fábrica de objetos blancos y tubos de acero, funcional y sin adornos, y esa imagen es de su última mitad. Lo que Droste documenta es una escuela que cambió de idea tres veces, que dependía de subvenciones que le retiraban, y en la que casi todas las decisiones que hoy parecen estéticas se tomaron por dinero o por política.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene fijar además una idea que la palabra esconde: la Bauhaus no fue un estilo, fue un centro de enseñanza con matrícula, exámenes, presupuesto y actas de reunión. Casi todo lo que se le atribuye salió de discusiones sobre plan de estudios y sobre facturas, y ahí es donde este libro mira.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue son sus tres etapas, cómo estaban montados los talleres, qué pasó con la promesa de igualdad que hizo el primer día, qué se vendió de verdad y por qué la cerraron.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi todas las decisiones que hoy parecen estéticas se tomaron por dinero, por política o por las dos cosas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La Bauhaus empezó siendo lo contrario de lo que hoy significa la palabra",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los primeros cuatro años no tienen nada que ver con la imagen que ha quedado. El manifiesto fundacional de 1919 llevaba en la portada un grabado de Lyonel Feininger que representa una catedral gótica con tres estrellas, y el texto dice que el objetivo final de toda actividad plástica es el edificio, y que artistas y artesanos deben volver al oficio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El modelo no era la fábrica: era el taller medieval. Los estudiantes no se llamaban alumnos sino aprendices, los profesores eran maestros, y se organizaban por gremios. Gropius escribió que no existe diferencia esencial entre el artista y el artesano, y que hay que crear un nuevo gremio sin la arrogancia que separa a los dos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ambiente iba a juego. Johannes Itten, que dirigía el curso preliminar, practicaba el mazdaznan —una secta con ayunos, ejercicios respiratorios y vegetarianismo— y lo llevaba al aula: dieta, respiración, cabezas rapadas. Se hacían fiestas, se pintaban máscaras y había una huerta. Aquello era expresionismo y misticismo, no industria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y el nombre lo dice, aunque casi nadie lo traduce. Bauhaus significa literalmente casa de la construcción, y remite a las «Bauhütten», las cabañas de obra donde se organizaban los canteros y los carpinteros que levantaban una catedral. Gropius eligió una palabra medieval a propósito, no una moderna.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene retenerlo porque explica lo demás: la Bauhaus que dio nombre a un estilo internacional fue un giro deliberado y tardío, tomado en 1923 contra lo que la escuela había sido hasta entonces, y no la continuación natural de nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que hoy significa una palabra puede ser justo lo contrario de lo que significaba cuando la inventaron.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El giro hacia la industria no fue una idea artística: fue una respuesta a un recorte",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1923, Gropius anunció un lema nuevo: arte y técnica, una nueva unidad. Es la frase que fundó el diseño industrial tal como se entiende hoy, y Droste documenta lo que había detrás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La escuela vivía de una subvención del estado de Turingia, y el parlamento regional, con mayoría cada vez más hostil, discutía cada año si seguir pagando una escuela de arte que no producía nada vendible y a la que se acusaba de extranjerizante y de izquierdas. La presión era concreta: justificar el dinero o cerrar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Gropius eligió justificar. Impuso a la escuela una exposición pública en 1923 para enseñar resultados, incluida una casa entera amueblada por los talleres, y reorientó el trabajo hacia prototipos que pudieran licenciarse a fabricantes. Itten se opuso a esa orientación y se marchó ese mismo año; en su lugar entró László Moholy-Nagy, que venía de la fotografía y del metal y no tenía ninguna reserva con las máquinas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El precio de aquella decisión también está documentado. Weimar acabó retirando la subvención de todas formas, y en 1925 la escuela tuvo que mudarse entera a Dessau, una ciudad industrial que ofreció dinero y un edificio nuevo. El giro hacia la industria no salvó a la escuela donde estaba: le buscó un sitio donde encajara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante del episodio es cómo se cuenta después. Aquel giro se recuerda como una maduración estética —del misticismo a la razón—, y lo que muestran los documentos es una escuela buscando ingresos con el plazo encima. No lo hace menos valioso: hace que se entienda.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando a una institución le cuentan el dinero, sus ideas cambian antes que su discurso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Cada taller tenía dos jefes porque no existía nadie que supiera las dos cosas",
+      },
+      {
+        b: "texto",
+        texto:
+          "La organización interna es la parte del libro que más se puede aprovechar, porque resuelve un problema que sigue existiendo: cómo enseñar a la vez a concebir y a fabricar cuando nadie domina ambas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La solución de la Bauhaus fue tener dos maestros en cada taller. Un maestro de la forma, que era un artista —Klee, Kandinsky, Schlemmer, Moholy-Nagy—, y un maestro de oficio, que era un artesano con su título de gremio: un ebanista, un tejedor, un encuadernador, un ceramista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El montaje era caro y produjo choques constantes, y Droste los documenta: artistas que proponían cosas irrealizables y artesanos que se negaban a intentarlo. Pero resolvía lo esencial, que un estudiante saliera sabiendo que una idea que no se puede fabricar todavía no es un diseño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle de organización que Droste subraya y que hoy sonaría raro: los talleres tenían que vender. No eran aulas con ejercicios, eran talleres con encargos, cuentas y plazos, y una parte de lo que ganaban se repartía entre quienes lo habían hecho. Un alumno cobraba por lo que se vendía de lo suyo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso cambia lo que significa un ejercicio. Un mueble que se pagaba tenía que aguantar el peso de alguien; una tela que se licenciaba tenía que poder tejerse en un telar industrial. Casi ninguna escuela de arte funciona hoy así, y es probablemente la razón de que aquellos objetos duren.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y tenía fecha de caducidad prevista. La idea era que la primera generación de estudiantes acabara siendo lo que no había: gente formada en las dos mitades. Ocurrió, y deprisa: Josef Albers, Marcel Breuer, Herbert Bayer, Gunta Stölzl y Marianne Brandt entraron como alumnos y acabaron dirigiendo talleres antes de cumplir treinta años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una idea que no se puede fabricar todavía no es un diseño: es un dibujo con buenas intenciones.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La escuela prometió igualdad el primer día y desvió a las mujeres al taller de tejido",
+      },
+      {
+        b: "texto",
+        texto:
+          "La convocatoria de 1919 declaraba que se admitía a cualquier persona de reputación intacta sin distinción de sexo, algo insólito en una escuela de arte alemana del momento, y el efecto fue inmediato: en el primer curso se matricularon más mujeres que hombres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La reacción interna llegó enseguida. Droste documenta las actas del consejo de maestros en las que se acuerda limitar la entrada de mujeres y orientarlas hacia lo que llamaban trabajos apropiados, en la práctica el taller de tejido. La arquitectura, el metal y la carpintería quedaron para ellos. Gunta Stölzl, nombrada en 1927, fue la única mujer que llegó a dirigir un taller en los catorce años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí está el dato que le da la vuelta al episodio. El taller al que las mandaron para quitárselas de en medio fue el que mejor funcionó de toda la escuela: los tejidos de la Bauhaus se licenciaron a fabricantes, se vendieron en cantidad y durante años aportaron una parte importante de los ingresos propios, más que el metal y más que los muebles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se saca de eso no es una anécdota irónica. Es que la escuela midió mal a su propia gente durante catorce años, y que si el criterio de reparto hubiera sido el que la escuela decía usar —lo que cada cual sabía hacer— su balance habría sido otro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando se reparte el trabajo por quién es cada uno en vez de por lo que sabe hacer, la cuenta la paga la institución entera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo que de verdad vendió la Bauhaus no fueron las sillas: fue el papel pintado",
+      },
+      {
+        b: "texto",
+        texto:
+          "La imagen popular de la escuela es la de un catálogo de objetos famosos: la silla de tubo de acero de Marcel Breuer, la tetera de Marianne Brandt, la lámpara de mesa de Wilhelm Wagenfeld. Todos existen y todos están en los museos. Casi ninguno se fabricó en serie mientras la escuela existió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los números que da Droste lo dejan claro. Los prototipos eran caros de producir, los fabricantes desconfiaban, y los objetos acababan vendiéndose en cantidades pequeñas a un público adinerado. La silla de acero que iba a ser el mueble del trabajador salía por un precio que ningún trabajador podía pagar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El éxito comercial verdadero llegó en 1929 y no está en ninguna postal: un papel pintado. La escuela licenció a un fabricante una colección de papeles lisos, de textura discreta y colores neutros, pensados para pisos pequeños. Se vendieron millones de rollos y se convirtieron en la fuente de ingresos más estable que tuvo la Bauhaus.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una cifra que ordena el asunto entero: cuando la escuela cerró en 1933, el número de sus diseños que se estaban fabricando de verdad, en serie y con licencia, se contaba con los dedos de las manos. La influencia enorme que tuvo llegó después, con sus profesores enseñando en otros países.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle es perfecto y Droste lo aprovecha: el producto que cumplió el programa de la escuela —bueno, barato, para todo el mundo y hecho en serie— fue el más humilde de todos, el que no se firma, el que nadie fotografía y el único que estuvo de verdad en casas corrientes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El objeto que cumple un programa casi nunca es el que sale en las fotos del programa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Al único director que la hizo rentable lo echaron por sus ideas políticas",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1928 Gropius dimitió, agotado por nueve años de defender la escuela ante políticos, y propuso como sucesor al arquitecto suizo Hannes Meyer, que dirigía el taller de arquitectura. Su etapa duró dos años y es la que peor se cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Meyer llevó el programa al extremo con un lema propio: satisfacer las necesidades del pueblo y no las del lujo. Reorganizó la enseñanza alrededor de encargos reales, metió sociología y economía en el plan de estudios, y orientó los talleres a productos baratos de verdad. Los ingresos por licencias se multiplicaron y la escuela se acercó por primera vez a sostenerse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo despidieron en 1930. El motivo no fue su gestión sino su militancia comunista y la actividad política de los estudiantes, en una ciudad donde la extrema derecha crecía y el ayuntamiento pagaba la factura. Le sustituyó Mies van der Rohe, que prohibió la política dentro de la escuela y volvió a centrarla en la arquitectura.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Merece la pena detenerse en lo que Meyer hizo con los talleres, porque es lo que sigue discutiéndose. Su encargo más conocido son unas viviendas sindicales cerca de Berlín, proyectadas por los estudiantes con datos de asoleamiento, de coste y de recorridos. Diseñar a partir de una necesidad medida, y no de una idea de forma, es lo que hoy se llama diseño centrado en el uso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No sirvió de nada. En 1932, con el partido nazi en el ayuntamiento de Dessau, se cerró la escuela; Mies la reabrió en Berlín como instituto privado en una fábrica de teléfonos abandonada, y en julio de 1933, tras un registro policial y con las condiciones que le imponían, el propio claustro votó disolverla.",
+      },
+      {
+        b: "idea",
+        texto:
+          "A veces lo que hunde a una institución no es que le vaya mal, sino que le empiece a ir bien de la manera equivocada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Catorce años, tres ciudades y tres directores. Una escuela que empezó siendo un gremio medieval con misticismo y huerta, giró hacia la industria en 1923 por presión presupuestaria, montó sus talleres con dos maestros porque no existía quien supiera las dos mitades, y la cerró la política antes de que ninguna de sus ideas llegara a madurar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta el libro es el desmontaje de la leyenda con documentos. Que el funcionalismo fue un giro y no un origen. Que la producción en serie casi nunca ocurrió y que el producto que sí cumplió el programa fue un papel pintado. Que el taller al que desviaron a las mujeres para apartarlas fue el que más dinero trajo. Y que al director que acercó la escuela a la rentabilidad lo echaron por comunista.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Es una historia institucional encargada por el archivo de la propia escuela, y se le nota en dos cosas: va cronológicamente y en varios tramos se convierte en una sucesión de nombramientos y traslados sin nada que discutir, y las discusiones incómodas quedan cortas. La más evidente es qué fue de los suyos después de 1933: la parte de la emigración —Gropius y Breuer a Harvard, Mies a Chicago, Albers a Black Mountain— está contada, y la de quienes se quedaron y siguieron trabajando en Alemania, mucho menos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después. El centenario de 2019 llenó Alemania de exposiciones y trajo justo esa discusión: hasta qué punto la escuela fue el proyecto emancipador que dice su relato, con las actas sobre las mujeres encima de la mesa, y qué hicieron sus miembros bajo el régimen que la cerró. Su influencia práctica, en cambio, no se discute: el curso de fundamentos que Itten inventó en 1919 es hoy el primer año de casi todas las escuelas de arte y diseño del mundo, y de eso no se acuerda casi nadie cuando dice que algo es muy Bauhaus.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  bauhaus: BAUHAUS,
   "cerebro-femenino": CEREBRO_FEMENINO,
   "entre-dos-reinos": ENTRE_DOS_REINOS,
   "teoria-color": TEORIA_COLOR,

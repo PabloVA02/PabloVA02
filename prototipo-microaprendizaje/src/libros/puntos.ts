@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  bauhaus: [
+    "por qué la palabra significa hoy lo contrario de lo que significó al principio",
+    "qué pasa en una institución cuando le empiezan a contar el dinero",
+    "por qué una idea que no se puede fabricar todavía no es un diseño",
+    "qué le cuesta a una organización repartir el trabajo por quién es cada uno",
+    "cuál fue el único producto que cumplió de verdad su programa",
+  ],
+
   "cerebro-femenino": [
     "por qué no existe un estado normal del que los demás sean desviaciones",
     "cómo un dato sin origen adquiere el prestigio del libro que lo imprime",

@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  bauhaus: "1919-1933: reforma y vanguardia",
   "entre-dos-reinos": "Una memoria de la vida interrumpida",
   "teoria-color": "Estudio y utilización del color",
   "informacion-gleick": "Historia y teoría",
