@@ -91,7 +91,7 @@ export const CURIOSIDADES: Short[] = [
        nueva sale de medir la portada con el gancho ya pintado: ver `MOLDE.md`
        y el bloque «EL SHORT, AJUSTADO» de la hoja de estilos. */
     entrada:
-      "En 1938 Hans Bethe explicó por fin de qué vive el Sol, y con esa cuenta se pudo saber lo que le queda. Lleva ardiendo cuatro mil seiscientos millones de años y le quedan otros cinco mil: en una vida humana, cuarenta y tantos. Lo raro no es cuándo se apaga, sino cuándo deja de servirnos.",
+      "En 1938 el físico Hans Bethe explicó por fin de qué vive el Sol, y con esa cuenta se pudo saber lo que le queda. Lleva ardiendo cuatro mil seiscientos millones de años y le quedan otros cinco mil: en una vida humana, cuarenta y tantos. Lo raro no es cuándo se apaga, sino cuándo deja de servirnos.",
     paginas: [
       {
         rotulo: "Qué está quemando",
@@ -108,7 +108,7 @@ export const CURIOSIDADES: Short[] = [
       {
         rotulo: "Lo que quedó",
         texto:
-          "Cuando al núcleo se le acabe el hidrógeno, el Sol hará algo que parece contradictorio: el centro se contraerá y las capas de fuera se hincharán muchísimo. Se convertirá en una gigante roja, más fría en la superficie y enorme, y se comerá a Mercurio y a Venus. Con la Tierra el cálculo está justo, porque para entonces el Sol habrá perdido masa y nuestra órbita se habrá ensanchado; puede que se salve por poco y puede que no. Después expulsará sus capas exteriores y quedará el núcleo desnudo, una enana blanca del tamaño de la Tierra que se irá enfriando durante billones de años.",
+          "Cuando al núcleo se le acabe el hidrógeno, el Sol hará algo que parece contradictorio: el centro se contraerá y las capas de fuera se hincharán muchísimo. Se convertirá en una gigante roja, más fría en la superficie y enorme, y se comerá a Mercurio y a Venus. Con la Tierra el cálculo está justo: habrá perdido masa y nuestra órbita se habrá ensanchado, así que puede que se salve por poco o puede que no. Después expulsará sus capas exteriores y quedará el núcleo desnudo: una enana blanca del tamaño de la Tierra, enfriándose durante billones de años. Para entonces hará cuatro mil millones que aquí no queda nadie a quien alumbrar.",
       },
     ],
   },
