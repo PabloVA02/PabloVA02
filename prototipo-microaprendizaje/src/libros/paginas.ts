@@ -111351,7 +111351,7 @@ const TEORIA_COLOR: PaginaLibro[] = [
       {
         b: "texto",
         texto:
-          "Dónde falla. Su círculo parte de tres primarios que no lo son en ningún sistema real —ni de luz ni de tinta—, así que abarca menos colores que cualquier impresora, y las recetas de armonía que salen de trazar triángulos sobre esa rueda dependen de un círculo que es una convención. El capítulo del timbre subjetivo, que promete leer el carácter en la paleta de alguien, no tiene ni un estudio detrás y viene de la época mística de Itten, la que le costó el puesto. Y presenta como universales unas asociaciones entre color y emoción que son de su cultura y de su siglo.",
+          "Dónde falla. Su círculo parte de tres primarios que no lo son en ningún sistema real, ni de luz ni de tinta, así que abarca menos colores que cualquier impresora; y las recetas de armonía que salen de trazar triángulos sobre esa rueda dependen de un círculo que es una convención. El capítulo del timbre subjetivo, que promete leer el carácter en la paleta de alguien, no tiene ni un estudio detrás y viene de su época mística, la que le costó el puesto. Y da por universales unas asociaciones entre color y emoción que son de su cultura.",
       },
       {
         b: "texto",
