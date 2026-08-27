@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "teoria-color":
+    "Recorta dos cuadraditos del mismo gris y pon uno sobre naranja y otro sobre azul: se ven distintos, y seguirán viéndose distintos aunque sepas que son idénticos. De ahí sale todo lo demás.",
+
   "historia-mundo-objetos":
     "Salió de cien programas de radio de quince minutos, sin imagen: había que describir cada cosa hasta que el oyente la viera. Van de un canto tallado de hace dos millones de años a una lámpara solar de 2010.",
 

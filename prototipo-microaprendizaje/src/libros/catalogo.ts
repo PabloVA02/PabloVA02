@@ -196,7 +196,7 @@ export const CATALOGO: Ficha[] = [
   { id: "frida-herrera", titulo: "Frida", autor: "Hayden Herrera", ano: 1983, categoria: "Arte", estado: "escrito" },
   { id: "bauhaus", titulo: "La Bauhaus", autor: "Magdalena Droste", ano: 1990, categoria: "Arte", estado: "pendiente" },
   { id: "mujeres-arte", titulo: "Mujeres artistas", autor: "Flavia Frigeri", ano: 2019, categoria: "Arte", estado: "pendiente" },
-  { id: "teoria-color", titulo: "Teoría del color", autor: "Johannes Itten", ano: 1961, categoria: "Arte", estado: "pendiente" },
+  { id: "teoria-color", titulo: "Teoría del color", autor: "Johannes Itten", ano: 1961, categoria: "Arte", estado: "escrito" },
   { id: "el-guion", titulo: "El guion", autor: "Robert McKee", ano: 1997, categoria: "Arte", estado: "escrito" },
   { id: "viaje-del-escritor", titulo: "El viaje del escritor", autor: "Christopher Vogler", ano: 1992, categoria: "Arte", estado: "escrito" },
   /* --- Literatura ------------------------------------------------------- */

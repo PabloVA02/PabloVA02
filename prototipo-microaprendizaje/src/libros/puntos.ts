@@ -79,6 +79,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "teoria-color": [
+    "por qué los primarios que te enseñaron en el colegio no son primarios",
+    "cómo saber si a una imagen le falta color o le falta luz",
+    "por qué un color nunca se elige solo sino en relación",
+    "qué proporción de superficie le toca a cada color, con su número",
+    "cómo construir profundidad en un plano sin dibujar una línea",
+  ],
+
   "historia-mundo-objetos": [
     "las tres preguntas que se le hacen a un objeto para que hable",
     "por qué el metal de una estatua miente menos que su inscripción",

@@ -111073,7 +111073,297 @@ const HISTORIA_MUNDO_OBJETOS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Teoría del color, de Johannes Itten (1961), en ocho páginas.
+
+   Manual práctico, registro de tú.
+
+   Dos avisos van DENTRO y no en la conclusión, porque quien vaya a usar el
+   libro los necesita antes: que sus tres primarios son una convención de
+   pintor y no física —segunda página—, y que el capítulo del timbre subjetivo
+   no tiene nada debajo —séptima—.
+   -------------------------------------------------------------------------- */
+
+const TEORIA_COLOR: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Itten escribió el manual de color más usado del mundo a partir de un curso que daba a los dieciocho años de nadie",
+      },
+      {
+        b: "texto",
+        texto:
+          "Johannes Itten era un pintor suizo que en 1919 entró en la Bauhaus, la escuela de diseño recién fundada en Weimar, y se inventó allí algo que no existía: un curso preliminar obligatorio para todos los alumnos, antes de cualquier especialidad. Escultores, tejedores y arquitectos pasaban primero por el mismo año aprendiendo materiales, formas y color.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese curso preliminar es la aportación de la Bauhaus que más se ha copiado: casi todas las escuelas de arte y diseño del mundo tienen hoy un primer año de fundamentos que viene de ahí. Itten lo dirigió cuatro años y se fue en 1923, tras chocar con Walter Gropius, que quería orientar la escuela hacia la industria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuarenta años después, en 1961, publicó este libro con lo que enseñaba en aquel curso. Está organizado alrededor de dos cosas: un círculo cromático de doce colores y una lista de siete maneras distintas en que dos colores pueden contrastar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y conviene decir qué clase de libro es, porque se compra a menudo esperando otra cosa. No es una historia del color ni un tratado de óptica: es el cuaderno de un profesor, con ejercicios, láminas y reglas prácticas, escrito para alguien que va a tener que decidir de qué color pinta algo esta tarde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sigue son esos siete contrastes, empezando por los tres que más se usan y terminando por el capítulo del libro que no se sostiene. Y antes de nada, una advertencia sobre el círculo, porque todo lo demás cuelga de él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un curso de fundamentos antes de cualquier especialidad no es un trámite: es la idea de una escuela entera, y sale de aquí.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Sus tres colores primarios son una convención de pintor, y conviene saberlo antes de usar el libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "El círculo de Itten parte de tres colores que llama primarios: amarillo, rojo y azul. Mezclándolos de dos en dos salen tres secundarios —naranja, verde y violeta— y mezclando cada primario con el secundario vecino salen seis terciarios. Doce en total, ordenados en rueda.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Como herramienta de enseñanza funciona muy bien, y es lo que casi todo el mundo aprendió en el colegio. Pero esos tres no son primarios en ningún sentido físico. Los primarios de la luz son rojo, verde y azul, que es como funciona cualquier pantalla; los de la tinta son cian, magenta y amarillo, que es como funciona cualquier imprenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia no es académica y se nota en cuanto pintas. Con amarillo, rojo y azul no se puede obtener un magenta ni un cian limpios, así que los violetas y los turquesas salen siempre apagados. Con cian, magenta y amarillo sí se obtienen rojos y azules vivos. El sistema de Itten cubre menos colores que el que usa cualquier impresora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Así que la manera de usar este libro es sabiendo qué parte de él depende del círculo y qué parte no. Los contrastes que vienen a continuación son observaciones sobre cómo se comporta el ojo, y esas valen igual con cualquier sistema de colores; las recetas de armonía basadas en trazar triángulos sobre la rueda dependen de un círculo que no es el único posible.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El amarillo, el rojo y el azul que te enseñaron en el colegio no son los primarios de nada: son los de una caja de acuarelas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Dos colores no contrastan de una manera, contrastan de siete, y confundirlas es el error habitual",
+      },
+      {
+        b: "texto",
+        texto:
+          "La aportación de verdad del libro es esta lista, y su utilidad está en que separa cosas que normalmente se juntan bajo la palabra contraste. Cuando algo no funciona, la pregunta deja de ser «qué color pongo» y pasa a ser «cuál de los siete me falta».",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "De color en sí.", texto: "Colores puros distintos, uno junto a otro. Es el más simple y el que usan las banderas y el arte popular." },
+          { fuerte: "De claro y oscuro.", texto: "La diferencia de luminosidad, independiente del tono. Es el único contraste que sobrevive a una fotocopia en blanco y negro." },
+          { fuerte: "De frío y cálido.", texto: "Entre la zona del azul y la del naranja. Es el que produce sensación de distancia." },
+          { fuerte: "De complementarios y simultáneo.", texto: "Los colores opuestos del círculo, y lo que el ojo hace por su cuenta cuando ve uno solo." },
+          { fuerte: "De calidad y de cantidad.", texto: "Saturado contra apagado, y qué proporción de superficie ocupa cada color respecto a los demás." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "El diagnóstico más frecuente que permite esta lista es el de una imagen con muchos colores que sigue pareciendo plana: casi siempre tiene contraste de color en sí y ninguno de claro y oscuro, o sea que todos sus tonos tienen la misma luminosidad y el ojo no puede separar planos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la comprobación es de un minuto: pasa la imagen a blanco y negro. Si se convierte en una mancha gris uniforme, no le falta color, le falta valor. Ese truco, que hoy hace cualquier teléfono, es la aplicación práctica más útil que se saca de todo el libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si tu imagen en blanco y negro es una mancha gris, no le falta color: le falta diferencia de luz.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un color no existe solo: lo que ves depende de lo que tiene al lado" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo del contraste simultáneo es el que cambia la manera de mirar, y se demuestra con un experimento que se puede hacer en casa en dos minutos. Recorta dos cuadraditos del mismo gris y pon uno sobre fondo naranja y otro sobre fondo azul. El primero se ve azulado y el segundo anaranjado. Son idénticos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que ocurre es que el ojo, ante un color, genera automáticamente su complementario y lo proyecta sobre lo que hay alrededor. Ante el naranja produce azul, y ese azul se le suma al gris de al lado. No es una ilusión que se pueda desactivar sabiéndola: sigue pasando aunque sepas que los dos grises son el mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El fenómeno lo había descrito en 1839 el químico francés Michel-Eugène Chevreul, y no como teórico: dirigía la tintorería de los Gobelinos y recibía quejas de que ciertos hilos negros salían apagados. Descubrió que el problema no estaba en el tinte sino en los colores que rodeaban a esos hilos en el tapiz.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Chevreul publicó su ley con un nombre exacto —contraste simultáneo de los colores— y desde entonces la usan los pintores. Los impresionistas la leyeron: poner naranja al lado del azul en vez de mezclar los dos en la paleta es aplicarla, y por eso sus cuadros vibran de cerca y se ordenan a tres metros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es la regla más importante que se puede sacar de este libro: no se elige un color, se elige una relación. Cualquier decisión sobre un color tomada mirándolo aislado —en una carta de colores, en un bote, en un selector de pantalla— es una decisión tomada con la información equivocada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No elijas un color mirándolo solo. En cuanto lo pongas al lado de otro será distinto, y ese otro es el que manda.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La proporción entre dos colores no se decide por gusto: tiene un número",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más concreto del libro es el del contraste de cantidad, y responde a una pregunta que casi nadie se hace en voz alta: si vas a usar dos colores, cuánta superficie le corresponde a cada uno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Itten parte de unos valores de luminosidad que Goethe había asignado a los colores puros en su tratado de 1810: el amarillo brilla mucho más que el violeta, el naranja más que el azul. Su regla es que las superficies deben ser inversamente proporcionales a esa fuerza, de modo que ningún color se coma al otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los números que salen son fáciles de recordar. Amarillo y violeta, uno a tres: el violeta necesita triple superficie. Naranja y azul, uno a dos. Rojo y verde, uno a uno, porque pesan lo mismo. Es decir, un rojo y un verde se reparten la mitad cada uno, y un amarillo bien puesto ocupa una cuarta parte de lo que ocupa su violeta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo interesante es qué hacer cuando se rompe la regla a propósito. Si al amarillo se le da más superficie de la que le toca, deja de armonizar y empieza a gritar, y eso es exactamente lo que se busca en una señal de peligro o en un botón que hay que pulsar. La proporción de Goethe sirve para calmar una imagen y, dada la vuelta, para que un punto no se pueda ignorar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un color chilla cuando ocupa más superficie de la que le corresponde por su fuerza. A veces eso es justo lo que quieres.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El frío y el cálido crean profundidad sin dibujar una sola línea" },
+      {
+        b: "texto",
+        texto:
+          "El contraste que Itten consideraba el más expresivo es el de temperatura, y no por su carga emocional sino por lo que hace con el espacio de una imagen.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La observación de partida es física y cualquiera la ha visto en un paisaje: las montañas lejanas se ven azuladas y pálidas, y las cercanas conservan su color. Ocurre porque el aire que hay en medio dispersa la luz, y a más distancia, más azul. El ojo aprendió esa correlación antes de que nadie la explicara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la regla que usan los pintores desde el Renacimiento y que Itten formula sin adornos: lo cálido se adelanta y lo frío se aleja. Puedes construir profundidad en una superficie plana sin perspectiva, sin líneas de fuga y sin sombras, solo enfriando lo que quieres al fondo y calentando lo que quieres delante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una consecuencia para cualquiera que trabaje con pantallas: un fondo frío hace que el texto cálido se despegue, y al revés hunde el texto en el fondo. Los avisos y los botones que hay que ver funcionan casi siempre con esa regla puesta, aunque quien los diseñó no supiera nombrarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene además saber que frío y cálido no son propiedades absolutas de cada color, sino relativas. Hay rojos fríos —los que tiran a violeta— y azules cálidos —los que tiran a verde—, y un rojo puede funcionar como el color frío de una imagen si el resto está más caliente que él. Como todo en este libro, es una relación y no una etiqueta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo cálido se te acerca y lo frío se aleja. Con eso solo ya puedes construir profundidad en una superficie plana.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El capítulo que dice que tu paleta revela tu carácter no tiene nada debajo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay una parte del libro que se cita mucho y que hay que separar del resto. Itten sostiene que cada persona tiene un conjunto de colores propio —lo llama timbre subjetivo— y que ese conjunto revela su carácter, su temperamento y hasta el trabajo que le conviene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo describe como un hallazgo de su aula: pedía a los alumnos que pintaran con libertad, observaba que cada uno repetía una gama, y de ahí concluía que la elección de color es un rasgo de personalidad tan estable como la letra. Con esa lectura, dice, orientaba a los estudiantes hacia una u otra especialidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No hay ninguna prueba de eso, ni él la ofrece. No cita un solo estudio, ninguna medida, ninguna comprobación; son sus impresiones de profesor sobre sus propios alumnos, que además sabían lo que él esperaba ver. Es exactamente el mismo procedimiento que la fisiognomía del siglo XIX: leer el interior de alguien en un rasgo visible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y tiene un origen que el libro no explica. Itten practicaba en aquellos años el mazdaznan, una secta que combinaba ayunos, ejercicios respiratorios y vegetarianismo, y que imponía a sus alumnos: llegó a rapar la cabeza a algunos y a controlarles la dieta. Ese fue el motivo del choque con Gropius y de su salida en 1923, y ese capítulo del libro viene de ahí, no del taller.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando un método te diagnostica sin poder equivocarse, no es que acierte siempre: es que no está diciendo nada comprobable.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro recoge lo que Itten enseñaba en el curso preliminar de la Bauhaus: un círculo de doce colores y siete maneras distintas en que dos colores pueden contrastar —de tono, de claro y oscuro, de frío y cálido, de complementarios, simultáneo, de saturación y de cantidad—. Separar esas siete es lo que convierte una intuición en un diagnóstico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta son tres herramientas que se usan a diario. Que un color no se elige solo, porque el ojo genera el complementario del vecino y altera lo que ve. Que la proporción entre dos colores tiene un número, y romperlo a propósito es lo que hace que algo no se pueda ignorar. Y que lo cálido se adelanta y lo frío se aleja, con lo que se construye profundidad sin dibujar nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Su círculo parte de tres primarios que no lo son en ningún sistema real —ni de luz ni de tinta—, así que abarca menos colores que cualquier impresora, y las recetas de armonía que salen de trazar triángulos sobre esa rueda dependen de un círculo que es una convención. El capítulo del timbre subjetivo, que promete leer el carácter en la paleta de alguien, no tiene ni un estudio detrás y viene de la época mística de Itten, la que le costó el puesto. Y presenta como universales unas asociaciones entre color y emoción que son de su cultura y de su siglo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo que vino después, que es la mejor recomendación posible. En 1963, dos años más tarde, Josef Albers —alumno y luego profesor de la Bauhaus, que siguió enseñando en Estados Unidos— publicó <em>La interacción del color</em>, que trata lo mismo y hace lo contrario: quita los círculos, las reglas de armonía y toda la metafísica, y lleva hasta el final una sola idea, la de que ningún color es lo que parece fuera de su contexto. Es el libro que hay que leer después de éste. Los siete contrastes de Itten, en cambio, se siguen enseñando en todas partes: como vocabulario para nombrar lo que le pasa a una imagen no ha aparecido nada mejor.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "teoria-color": TEORIA_COLOR,
   "historia-mundo-objetos": HISTORIA_MUNDO_OBJETOS,
   "primera-guerra-keegan": PRIMERA_GUERRA_KEEGAN,
   "mundo-como-voluntad": MUNDO_COMO_VOLUNTAD,
