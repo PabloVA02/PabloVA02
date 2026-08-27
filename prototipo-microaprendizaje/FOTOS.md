@@ -19,6 +19,59 @@ algún día vuelve el 403, es que se cerró el acceso a la red del entorno
 (claude.ai/code → el botón con el nombre del entorno → engranaje → **Acceso a
 la red** → Personalizado).
 
+## SI LAS BUSCAS TÚ, PABLO: mándame el ENLACE, no la foto
+
+Lo preguntó el 27 de agosto: «las fotos de los shorts te las voy a ir pasando
+yo, ¿en qué sitio las busco para que haya espacio suficiente?». La respuesta
+corta es que **no hay problema de espacio si mandas el enlace**, y sí lo hay si
+mandas el fichero. El motivo está en `shorts.ts`, en `urlFoto()`:
+
+- Una foto de Commons **no va dentro de la app**. Lo que se guarda es su
+  nombre, y el móvil se la pide a Commons según va bajando por el muro. Las
+  2.139 que ya hay puestas pesan CERO en el paquete.
+- Una foto que llega como fichero hay que incrustarla, como las cubiertas
+  dibujadas, y entonces sí pesa. Y el simulador tiene el tope de 16 MB.
+
+Así que lo que hay que mandar es **la dirección de la página de Commons**, del
+tipo `https://commons.wikimedia.org/wiki/File:Loquesea.jpg`, y de qué short es.
+Lo demás lo hace `foto.mjs ficha`: saca autor, fecha, licencia y descripción de
+la propia ficha de Commons, que es lo que hace falta para el pie y para los
+créditos.
+
+### Dónde están las buenas
+
+Las dos categorías de calidad de Commons, que son las que mira `buscar`:
+
+    Imágenes destacadas   commons.wikimedia.org/wiki/Commons:Featured_pictures
+    Imágenes de calidad   commons.wikimedia.org/wiki/Commons:Quality_images
+
+Las dos están **ordenadas por tema** y las mantiene gente a mano exigiendo
+nitidez, luz y composición. Las destacadas son unos pocos miles y son lo mejor
+que hay; las de calidad son muchísimas más.
+
+Lo que hay que mirar en la página de la foto, antes de mandarla:
+
+1. **El tamaño**, que sale debajo de la imagen. Mínimo 1600 de ancho y dos
+   megapíxeles. Menos de eso se ve borroso en un móvil moderno.
+2. **Que se entienda de un vistazo.** La banda ocupa el ancho de la pantalla y
+   se ve un segundo y medio: un plano general con veinte cosas dentro no dice
+   nada. Fuera documentos, tablas, planos y grises apagados.
+3. **Que sea bonita.** Es la regla de Pablo y manda sobre las demás.
+
+### Y si la foto es de otro sitio
+
+Unsplash y Pexels dejan usarlas en una app, pero traen dos problemas y
+conviene saberlos antes:
+
+- **Pesan**, porque hay que incrustarlas: no hay servidor al que pedírselas.
+- **No tienen ficha.** Nuestro pie dice QUÉ se está viendo —«Óleo de
+  Jean-Léon Gérôme, 1867. Walters Art Museum»—, y eso sale de los datos de
+  Commons. Una foto de banco de imágenes no trae ni año, ni obra, ni sitio, así
+  que el pie se queda en nada o hay que inventárselo, que es lo que no se hace.
+
+O sea: Commons primero. Si aparece una en otro sitio que valga muchísimo la
+pena, se mete, pero sabiendo lo que cuesta.
+
 ## Buscar solo entre las buenas
 
 `buscar` **solo mira dentro de los sellos de calidad de Commons** —«Quality
