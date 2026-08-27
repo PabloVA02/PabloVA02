@@ -3,10 +3,16 @@
 Esto es el diseño aprobado de la pantalla donde se lee un short. Está cerrado.
 Si algo del código no coincide con lo que dice aquí, manda esto.
 
-El origen es la maqueta que aprobó Pablo:
-`claude.ai/code/artifact/bef12080-8576-4a6d-87cc-f52569559a5c`. Su `<style>` se
-copió regla a regla al final de `src/styles.css`, bajo el rótulo
-«EL MODELO BEIGE, CALCADO DE LA MAQUETA APROBADA».
+El origen es la maqueta que aprobó Pablo, y está guardada en el repositorio:
+`referencia/maqueta-aprobada/maqueta-cesar.html`. Su `<style>` se copió regla
+a regla al final de `src/styles.css`, bajo el rótulo «EL MODELO BEIGE, CALCADO
+DE LA MAQUETA APROBADA».
+
+Estuvo solo publicada como artefacto —`bef12080-…`— y ese enlace ya no existe:
+el 27 de agosto Pablo dejó publicados únicamente el simulador de la app y el
+mirador de shorts. Antes de borrarlo se trajo el fichero aquí, porque era la
+única de las veintitrés páginas publicadas con algo que no estuviera ya en el
+repositorio. El porqué, en el `README.md` de esa carpeta.
 
 ## Por qué las medidas van en cqw y no en puntos
 

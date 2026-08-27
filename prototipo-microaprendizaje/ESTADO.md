@@ -150,6 +150,31 @@ como `movil.html`.
 las 321 pesan 7,2 MB y el fichero se va a 16,3, que ya no se puede publicar; a
 336 pesan 5,7 y sale por 14,7. Se toca ese número, no la calidad de las fotos.
 
+### SOLO HAY DOS ARTEFACTOS PUBLICADOS, Y NO SE CREAN MÁS
+
+Pablo, el 27 de agosto: «queda estos dos artefactos solo, los demás no sirven
+para nada, bórralos, pero ten cuidado que no se pierda nada». Había
+veinticinco. Los otros veintitrés eran maquetas de prueba, exploraciones de
+diseño y versiones viejas del simulador, de julio y principios de agosto.
+
+**Al publicar, se pasa siempre la `url` de uno de los dos.** Publicar sin
+`url` crea un artefacto nuevo en vez de actualizar el de Pablo, y así es como
+se llegó a veinticinco. Si hace falta enseñarle algo suelto —una hoja de
+contacto, una comparación— se manda como fichero por el chat, no se publica.
+
+**Antes de borrar ninguno se comprueba que el repositorio no dependa de él.**
+Se hizo con un `grep` de los veintitrés identificadores por todo el árbol, y
+saltó uno: `bef12080-…`, «Un short entero — Las 23 puñaladas de César», que
+`DISENO.md` nombraba como el origen del modelo beige y del que se copió regla
+a regla el `<style>` a `src/styles.css`. O sea, una fuente de la verdad que
+vivía fuera del repositorio. Está guardada en
+`referencia/maqueta-aprobada/maqueta-cesar.html`, se abre sola y lleva sus
+cuatro fotografías dentro; `DISENO.md` y `styles.css` ya apuntan ahí.
+
+**Borrar un artefacto no lo puede hacer esta sesión**: la herramienta publica,
+lee y actualiza, y no tiene borrado. Lo hace Pablo desde
+`claude.ai/code/artifacts`, o con `/artifacts` en la terminal.
+
 **Y una avería que salió al montarlo y que afectaba también al de siempre.**
 `orden-fotos.mjs` reconstruye el orden del muro parseando `shorts.ts`, y NO
 coincide con el que arma la app: el muro se abría en «¿Cuánto le queda al sol?»
