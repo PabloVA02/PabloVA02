@@ -394,28 +394,13 @@ function trozo(el: HTMLElement, entero: string, k: number): [string, string] | n
   return [cabeza, resto];
 }
 
-/**
- * EL CORTE MÁS LARGO QUE NO DESBORDA, PROBADO DE VERDAD.
- *
- * No cuenta renglones ni multiplica por la altura de línea: pone un trozo,
- * pregunta a la caja si desborda, y se queda con el más largo que no lo hace.
- * `desborda` es la medida real —`scrollHeight > clientHeight`—, así que da
- * igual lo que valgan los márgenes, el área segura o la barra de pestañas.
- *
- * Va por bisección y no de uno en uno porque el resultado es idéntico —cuanto
- * más texto, más alto: la propiedad es monótona— y un párrafo de doscientas
- * palabras se resuelve en ocho pruebas en vez de en doscientas. Cortar por el
- * último hueco que cabe es, por definición, llenar hasta el último renglón que
- * cabe: debajo queda menos de un renglón, que es el listón de Pablo.
- */
 /* NI VIUDAS NI HUÉRFANAS: dos renglones a cada lado como mínimo.
 
    Pablo, el 28 de agosto, con «posible.» solo al principio de una pantalla
-   delante: «cuando un párrafo se parta entre dos páginas, tienen que quedar al
-   menos 2 líneas en la página anterior y al menos 2 en la siguiente. Si el
-   corte natural dejaría 1 sola línea en cualquiera de los dos lados, sube el
-   punto de corte una línea. Si aun así no se cumple, no partas ese párrafo:
-   pásalo entero a la página siguiente».
+   delante: «lo único que no quiero es que haya palabras sueltas por cambiar de
+   página». Así que cuando un párrafo se parte, al menos dos renglones arriba y
+   al menos dos abajo; si el corte natural deja uno solo, se sube el corte un
+   renglón, y si aun así no se cumple, el párrafo entero baja a la siguiente.
 
    En imprenta esa línea suelta al pie se llama viuda y la del principio,
    huérfana, y llevan cinco siglos evitándose por lo mismo que se ve aquí: una
@@ -434,7 +419,7 @@ function renglonesDe(el: HTMLElement): number {
 }
 
 /**
- * EL CORTE MÁS LARGO QUE NO DESBORDA, PROBADO DE VERDAD Y SIN DEJAR LÍNEAS
+ * EL CORTE MÁS LARGO QUE NO DESBORDA, PROBADO DE VERDAD Y SIN DEJAR PALABRAS
  * SUELTAS.
  *
  * No cuenta renglones para decidir dónde cortar ni multiplica por la altura de
@@ -447,10 +432,10 @@ function renglonesDe(el: HTMLElement): number {
  * más texto, más alto: la propiedad es monótona— y un párrafo de doscientas
  * palabras se resuelve en ocho pruebas en vez de en doscientas.
  *
- * DESPUÉS se comprueban los renglones de cada mitad, que es lo que pidió
- * Pablo, y si la de abajo se queda en uno se busca otra vez con el listón un
- * renglón más bajo: eso empuja una línea de arriba abajo y deja las dos. Si
- * con eso la de arriba se queda en una, no se parte y el párrafo entero baja.
+ * DESPUÉS se comprueban los renglones de cada mitad, que es lo único que pidió
+ * Pablo del lector: si la de abajo se queda en uno, se busca otra vez con el
+ * listón un renglón más bajo, y eso empuja una línea de arriba abajo y deja
+ * las dos. Si con eso la de arriba se queda en una, no se parte.
  */
 function cortaHastaLlenar(
   el: HTMLElement,
@@ -494,9 +479,9 @@ function cortaHastaLlenar(
   const arriba = renglonesDeTrozo(mejor[0]);
   if (arriba < RENGLONES_MINIMOS) return null;
 
-  /* Y si abajo se queda una línea suelta, se sube el corte un renglón: se
-     vuelve a buscar el trozo más largo que ocupe uno menos, con lo que esa
-     línea pasa a la pantalla siguiente y allí ya son dos. */
+  /* Y si abajo se queda una línea suelta —la palabra sola que no quiere—, se
+     sube el corte un renglón: se vuelve a buscar el trozo más largo que ocupe
+     uno menos, con lo que esa línea pasa a la siguiente y allí ya son dos. */
   if (renglonesDeTrozo(mejor[1]) < RENGLONES_MINIMOS) {
     const masCorto = busca(() => renglonesDe(el) <= arriba - 1);
     if (!masCorto) return null;
@@ -542,9 +527,9 @@ function cortaHastaLlenar(
 function reparte(
   caja: HTMLElement,
   bloques: Bloque[],
-  ops: { avisa?: (b: Bloque) => void; pie?: HTMLElement | null; franja?: HTMLElement | null } = {},
+  ops: { avisa?: (b: Bloque) => void; pie?: HTMLElement | null } = {},
 ): Bloque[][] {
-  const { avisa, pie = null, franja = null } = ops;
+  const { avisa, pie = null } = ops;
   /* El diario del reparto, apagado. Se enciende con `window.__PAGDEBUG = true`
      en la consola y dice, pantalla por pantalla, cuánto se ha llenado y qué
      bloque fue el que no cupo. */
@@ -605,25 +590,14 @@ function reparte(
      terminaba con la última llenada como si no llevara pie. */
   const esLaUltima = (): boolean => {
     if (!pie) return false;
-    /* Se pregunta con la FRANJA puesta, que es lo que llevaría esta pantalla
-       si no fuera la última: si todo lo que queda cabe así, al llenarla se
-       acaba el texto y entonces los botones tienen que ir dentro. */
     pie.style.display = "none";
-    if (franja) franja.style.display = "";
     caja.innerHTML = htmlDeBloques(cola);
     const cabe = caja.scrollHeight <= caja.clientHeight;
     caja.innerHTML = "";
     return cabe;
   };
-  /* LA FRANJA O EL PIE, NUNCA LOS DOS. Todas las pantallas llevan la franja de
-     56 puntos con el «3 / 7» y la flecha; la última la cambia por los botones,
-     que ocupan más. Poniendo la copia que toque antes de empezar cada
-     pantalla, la caja —que es `flex: 1`— encoge sola y el reparto mide con el
-     hueco que de verdad va a haber. Ni una resta. */
   const ajustaPie = () => {
-    const ultima = esLaUltima();
-    if (pie) pie.style.display = ultima ? "" : "none";
-    if (franja) franja.style.display = ultima ? "none" : "";
+    if (pie) pie.style.display = esLaUltima() ? "" : "none";
   };
 
   const cierra = (porque = "") => {
@@ -700,18 +674,7 @@ function reparte(
       devueltos.unshift(actual.pop()!);
       caja.removeChild(caja.lastElementChild!);
     }
-    /* EL TOPE DEL 25 % NO VALE PARA EL RÓTULO. Pablo lo dijo sin matices: «un
-       `##` nunca puede quedarse solo al final de una página sin al menos 2
-       líneas de su párrafo debajo». Nunca es nunca, así que si lo que se
-       devuelve es un subtítulo, se devuelve cueste lo que cueste el hueco. El
-       tope sigue en pie para lo demás —el rayo que se queda solo—, donde la
-       regla es de estilo y no una orden.
-
-       Las dos líneas de su párrafo salen solas de `RENGLONES_MINIMOS`: si
-       debajo del subtítulo no cabían dos renglones, el párrafo no se partió,
-       así que el subtítulo quedó el último y entra por aquí. */
-    const devuelveRotulo = devueltos.some((d) => d.b === "rotulo");
-    if (devueltos.length && !devuelveRotulo && hueco() > caja.clientHeight * 0.25) {
+    if (devueltos.length && hueco() > caja.clientHeight * 0.25) {
       for (const d of devueltos) { actual.push(d); pinta(d); }
       devueltos.length = 0;
     }
@@ -724,7 +687,6 @@ function reparte(
   }
   cierra();
   if (pie) pie.style.display = "none";
-  if (franja) franja.style.display = "none";
   return paginas;
 }
 
@@ -814,7 +776,6 @@ function parteBloque(b: Bloque, el: HTMLElement, desborda: () => boolean): [Bloq
 function usePaginas(short: Short) {
   const medidor = useRef<HTMLDivElement>(null);
   const piePrueba = useRef<HTMLDivElement>(null);
-  const franjaPrueba = useRef<HTMLDivElement>(null);
   const [paginas, setPaginas] = useState<Bloque[][]>(() =>
     short.bloques.length ? [short.bloques] : [],
   );
@@ -849,11 +810,7 @@ function usePaginas(short: Short) {
       /* Y EL REPARTO, DE UNA SOLA PASADA. La copia inerte del pie va con él:
          `reparte` decide en cada pantalla si es la última y lo enseña o lo
          esconde, y la caja encoge sola. Ver `esLaUltima`. */
-      const nuevas = reparte(cuerpo, short.bloques, {
-        avisa: avisar,
-        pie: piePrueba.current,
-        franja: franjaPrueba.current,
-      });
+      const nuevas = reparte(cuerpo, short.bloques, { avisa: avisar, pie: piePrueba.current });
 
       cuerpo.innerHTML = "";
       midiendo = false;
@@ -885,7 +842,7 @@ function usePaginas(short: Short) {
     };
   }, [short]);
 
-  return { paginas, medidor, piePrueba, franjaPrueba };
+  return { paginas, medidor, piePrueba };
 }
 
 /* --------------------------------------------------------------------------
@@ -1055,7 +1012,7 @@ function PaginaShort({
 
   /* Las pantallas de esta historia, calculadas midiendo. Ver `usePaginas` y
      `.claude/skills/paginado-shorts/SKILL.md`. */
-  const { paginas, medidor, piePrueba, franjaPrueba } = usePaginas(short);
+  const { paginas, medidor, piePrueba } = usePaginas(short);
   const total = paginas.length + 1;
 
   // Un solo valor de gesto para toda la historia: el texto va pegado al dedo.
@@ -1267,45 +1224,6 @@ function PaginaShort({
             </span>
           )}
 
-          {/* LA FRANJA DE ABAJO: el aire reservado entre el texto y la barra de
-              pestañas, y la única pista de que hay más páginas.
-
-              La pidió Pablo el 28 de agosto: «reserva 56 pt entre el final del
-              texto y la barra; esa franja se descuenta de la altura disponible
-              para paginar, el texto nunca entra ahí. Dentro, a la izquierda el
-              indicador de página y a la derecha un chevron que también avanza.
-              Sobria y fina, no una barra de botones».
-
-              Y RESUELVE ALGO QUE ESTABA PENDIENTE: el gesto horizontal no se
-              descubría. Un short se abría y no había nada que dijera que a la
-              derecha hay siete pantallas más; el que no arrastraba por probar,
-              no las veía. Con el «3 / 7» y la flecha puestos desde la primera,
-              se ve.
-
-              Cómo le quita sitio al texto: no se resta nada. La franja es un
-              hermano de `.short-cuerpo` dentro de la misma columna flex, y el
-              cuerpo es `flex: 1`, así que el layout le descuenta los 56 él
-              solo. En la hoja de medir hay una copia inerte —ver `esLaUltima`—
-              para que el reparto mida con ella puesta. Es la regla 1 de la
-              hoja de paginado: se mide, no se calcula. */}
-          {!portada && !ultima && paginas.length > 0 && (
-            <div className="muro-franja">
-              <span className="muro-franja-n">
-                {paso} / {paginas.length}
-              </span>
-              <button
-                className="muro-franja-mas"
-                aria-label="Página siguiente"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  avanzar(1);
-                }}
-              >
-                →
-              </button>
-            </div>
-          )}
-
           {ultima && (
             <>
               <div className="muro-acciones">
@@ -1392,15 +1310,6 @@ function PaginaShort({
               <span className="muro-accion">Compartir</span>
             </div>
             <span className="muro-tirar">Siguiente short</span>
-          </div>
-          {/* Y LA COPIA DE LA FRANJA, que es la que está puesta casi siempre:
-              va en todas las pantallas menos en la última, así que sus 56
-              puntos salen del alto útil de todas ellas. `reparte` enseña una u
-              otra según le toque. Inerte, como el pie: un `span` en vez del
-              botón, para que mida lo mismo sin poder pulsarse. */}
-          <div className="muro-franja muro-franja-medida" ref={franjaPrueba}>
-            <span className="muro-franja-n">0 / 0</span>
-            <span className="muro-franja-mas">→</span>
           </div>
         </div>
       )}

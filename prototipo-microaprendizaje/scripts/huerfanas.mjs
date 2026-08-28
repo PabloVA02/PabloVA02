@@ -1,22 +1,20 @@
 /* ==========================================================================
-   NI LÍNEAS SUELTAS NI TEXTO PEGADO A LA BARRA
+   NI UNA PALABRA SUELTA AL CAMBIAR DE PANTALLA
 
        npx vite build && npx vite preview --port 4173 &
        node scripts/huerfanas.mjs [cuántos temas]
 
-   Es el criterio de aceptación que puso Pablo el 28 de agosto:
-
-       «Recorre los cuatro shorts del Sol y comprueba que ninguna página
-       empieza o termina con una línea suelta, y que ninguna llega a tocar la
-       barra de pestañas.»
-
-   QUÉ MIRA, PANTALLA POR PANTALLA
+   Es lo único que pidió Pablo del lector el 28 de agosto: «lo que no quiero es
+   que haya palabras sueltas por cambiar de página». Así que se comprueba
+   pantalla por pantalla:
 
      · Que el primer bloque, si es la cola de un párrafo partido, no traiga un
        solo renglón. Y lo mismo con el último, si es la cabeza de uno.
-     · Que ningún subtítulo se quede el último de la pantalla.
-     · Que entre el final del texto y la barra de pestañas queden los 56 puntos
-       de la franja, o los del pie en la última.
+
+   El aire que queda hasta la barra se imprime como dato, para saber cómo va el
+   llenado, pero NO es un fallo: hubo un rato una franja reservada de 56 puntos
+   ahí abajo y Pablo la quitó —«déjalo como estaba antes, que estaba mucho
+   mejor»—. Si alguien vuelve a proponerla, que sea sabiendo eso.
 
    CÓMO SE SABE SI UN BLOQUE VIENE PARTIDO. No hace falta adivinarlo: un
    párrafo partido deja la cabeza SIN punto final y la cola empezando en
@@ -88,7 +86,6 @@ for (let h = 0; h < Number(process.argv[2] ?? 4); h++) {
         return {
           entra: dePar(pri) && esCola(pri) ? renglones(pri) : null,
           sale: dePar(ult) && esCabeza(ult) ? renglones(ult) : null,
-          rotuloAlPie: ult.tagName === "H3",
           aire: Math.round(
             barra.getBoundingClientRect().top - ult.getBoundingClientRect().bottom,
           ),
@@ -102,8 +99,6 @@ for (let h = 0; h < Number(process.argv[2] ?? 4); h++) {
     if (!f) return;
     if (f.entra !== null && f.entra < 2) malas.push(`p${i + 1} empieza con ${f.entra} renglón: «${f.primeras}…»`);
     if (f.sale !== null && f.sale < 2) malas.push(`p${i + 1} acaba con ${f.sale} renglón`);
-    if (f.rotuloAlPie) malas.push(`p${i + 1} acaba en un subtítulo suelto`);
-    if (f.aire < 50) malas.push(`p${i + 1} deja solo ${f.aire} pt hasta la barra`);
   });
   fallos += malas.length;
   console.log(
@@ -112,5 +107,5 @@ for (let h = 0; h < Number(process.argv[2] ?? 4); h++) {
   );
 }
 await nav.close();
-console.log(fallos ? `\n${fallos} fallos` : "\nNi una línea suelta y ninguna pantalla toca la barra.");
+console.log(fallos ? `\n${fallos} palabras sueltas al cambiar de pantalla` : "\nNi una palabra suelta al cambiar de pantalla.");
 process.exit(fallos ? 1 : 0);

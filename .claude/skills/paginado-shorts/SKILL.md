@@ -44,10 +44,10 @@ parezca razonable, manda esto.
 5 ter. **NI VIUDAS NI HUÉRFANAS: dos renglones a cada lado.** Cuando un párrafo
    se parta, al menos 2 líneas arriba y al menos 2 abajo. Si el corte natural
    dejaría una sola línea en cualquiera de los dos lados, se sube el corte un
-   renglón; si aun así no se cumple, no se parte y el párrafo entero baja. Lo
-   mismo para el subtítulo: un `##` **nunca** se queda el último de una
-   pantalla, y ese «nunca» no pasa por el tope del 25 % —lo dijo sin matices—.
-   Las dos líneas de su párrafo debajo salen solas de la regla del párrafo.
+   renglón; si aun así no se cumple, no se parte y el párrafo entero baja.
+   Pablo: «lo que no quiero es que haya palabras sueltas por cambiar de
+   página». Es lo ÚNICO que pidió de aquella tanda; lo demás se probó y lo
+   quitó, ver abajo.
 5 bis. **EL ⚡ NO SE PARTE NUNCA.** Orden de Pablo, 28 de agosto: «nunca cortes
    los textos que tienen un rayito azul». Cuando un rayo no quepa, baja entero
    a la pantalla siguiente y el hueco se queda. Estuvo partiéndose y se quitó a
@@ -105,39 +105,32 @@ penúltima se llena a 590 y se ve a 679, así que se queda con 89 puntos de huec
 No hay manera de evitarlo mientras los botones vayan dentro del flujo de la
 última pantalla; la única salida sería sacarlos de ahí.
 
-## La franja de abajo: 56 puntos que no son del texto
+## La franja de abajo se probó y NO se queda
 
-Los pidió Pablo el 28 de agosto: «reserva 56 pt entre el final del texto y la
-barra de pestañas; esa franja se descuenta de la altura disponible para
-paginar, el texto nunca entra ahí. Dentro, a la izquierda el indicador de
-página y a la derecha un chevron que también avanza. Sobria y fina, no una
-barra de botones». En la última pantalla la franja se cambia por los botones de
-siempre.
+El 28 de agosto se pidió una franja de 56 puntos entre el texto y la barra de
+pestañas, con el «3 / 7» a un lado y una flecha al otro, para dar aire y para
+que el gesto horizontal se descubriera. Se hizo, se midió y Pablo la quitó al
+verla: **«déjalo como estaba antes, que estaba mucho mejor; lo que no quiero es
+que haya palabras sueltas por cambiar de página, es lo único que no quiero»**.
 
-**Y resuelve algo que estaba pendiente**: el gesto horizontal no se descubría.
-Con el «3 / 7» y la flecha puestos desde la primera pantalla, se ve que hay
-más.
-
-Cómo le quita sitio al texto: **no se resta nada**. La franja es un hermano de
-`.short-cuerpo` dentro de la misma columna flex, con `flex: none` y alto fijo,
-y el cuerpo es `flex: 1`. En la hoja de medir hay una copia inerte de la franja
-y otra del pie, y `reparte` enseña la que toque antes de empezar cada pantalla
-—ver `ajustaPie`—, así que la caja encoge sola y se mide con el hueco que de
-verdad va a haber. Regla 1.
+Queda escrito por dos motivos. Uno, que la idea era razonable y va a volver a
+ocurrírsele a alguien: no se vuelve a montar sin preguntar. Y dos, que de esa
+tanda solo sobrevive la regla 5 ter, así que el problema del gesto horizontal
+que no se descubre **sigue abierto** y habrá que resolverlo de otra manera.
 
 ## Lo que cuesta no partir el ⚡, con el número delante
 
 Las reglas 5 bis y 5 ter tienen precio y hay que saberlo antes de proponer
 «llenar más». Medido sobre quince temas, en orden:
 
-    sin ninguna de las dos          3 pantallas de 80 con hueco de 2+ renglones
-    sin partir el ⚡                15 de 80
-    + viudas, huérfanas y franja    24 de 91
+    sin ninguna de las dos     3 pantallas de 80 con hueco de 2+ renglones
+    sin partir el ⚡           15 de 80
+    + viudas y huérfanas       ver `scripts/llenado.mjs`
 
 El diario dice por qué, con esas palabras: «no cabía un rayo de 128 en los 63
-que quedaban, y no se parte». De los cortes que se cierran sin llenar, catorce
-son un rayo que no cabe, siete un subtítulo que se baja entero y el resto,
-párrafos que no se parten por no dejar una línea suelta.
+que quedaban, y no se parte». Los que se cierran sin llenar son, casi todos, un
+rayo que no cabe; el resto, párrafos que no se parten por no dejar una línea
+suelta.
 
 Ese hueco **no lo puede llenar nada**. El texto es lineal: si el párrafo de
 arriba cede renglones, esos renglones bajan con el rayo y el hueco crece, no
@@ -145,11 +138,7 @@ mengua. Así que no hay que buscarle solución — está aceptado a cambio de no
 cortar nunca una conclusión por la mitad.
 
     node scripts/rayos.mjs      cuenta rayos partidos; tiene que dar 0
-    node scripts/huerfanas.mjs  líneas sueltas y aire hasta la barra; 0 fallos
-
-El segundo es el criterio de aceptación que puso Pablo: «recorre los cuatro
-shorts del Sol y comprueba que ninguna página empieza o termina con una línea
-suelta, y que ninguna llega a tocar la barra de pestañas».
+    node scripts/huerfanas.mjs  palabras sueltas al cambiar de pantalla; 0
 
 ## El listón, y cómo se comprueba
 
