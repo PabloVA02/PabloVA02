@@ -62,9 +62,34 @@ debajo del 80 %, no se arregla.
 
     node scripts/llenado.mjs
 
-dice el llenado de cada pantalla y falla por debajo del 80 %. Hoy, de las diez
-historias: **todas las pantallas entre el 81 % y el 100 %** salvo la última de
-cada tema, que es donde el texto se acaba.
+dice el llenado de cada pantalla. De las diez historias, **setenta pantallas
+entre el 91 % y el 100 %** y ocho entre el 79 y el 89, todas por la misma
+causa: un subtítulo que no cabía y no se puede partir. Las últimas de cada tema
+no cuentan: ahí ya no quedan bloques.
+
+### Y el alto de la pantalla se MIDE
+
+Fue la última corrección, y la más cara: tres rondas. Dos errores encima del
+mismo número.
+
+**Uno: la barra de pestañas contada dos veces.** Va con `position: absolute;
+bottom: 0`, así que su alto ya cubre el área segura del móvil, y la hoja
+reservaba `64 + env(safe-area-inset-bottom)`. En el iPhone de Pablo son treinta
+y cuatro puntos restados dos veces; en el navegador de pruebas, con el área
+segura a cero, no se veía. Ahora el alto de la barra se declara **una sola
+vez**, en `--barra`, y de ahí lo leen la barra y el relleno.
+
+**Dos: dos reglas de `padding-bottom` con la misma especificidad**, una detrás
+de otra. Ganaba la de abajo y el número de arriba no hacía nada.
+
+Y lo que evita que vuelva a pasar: **el alto ya no se calcula**. La caja del
+texto lleva `flex: 1`, el layout resuelve el hueco y se lee su altura ya
+renderizada. Cero aritmética.
+
+**El pie de la última pantalla también ocupa.** Lleva los dos botones y el
+«siguiente short», unos cien puntos. Paginada con el alto de las demás, el
+texto se metía debajo y aparecía scroll. La hoja de medir lleva una copia
+inerte del pie y se leen las dos alturas.
 
 **El que reparte es `usePaginas`, en `src/Shorts.tsx`.** Dentro de cada
 pantalla se monta una **hoja gemela invisible** —misma clase, mismos rellenos,

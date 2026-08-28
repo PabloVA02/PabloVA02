@@ -2725,10 +2725,20 @@ button {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 64px;
+  /* EL ALTO DE LA BARRA SE DECLARA UNA SOLA VEZ, en `--barra`, y de ahí lo lee
+     también el relleno de la hoja de texto. Escrito dos veces era el fallo que
+     encontró Pablo el 28 de agosto: la barra va pegada abajo, así que su alto
+     YA CUBRE el área segura del móvil, y la hoja reservaba `64 + área segura`.
+     En su iPhone eso son treinta y cuatro puntos restados dos veces, y por eso
+     veía «un tercio de pantalla vacío» donde aquí, con el área segura a cero,
+     solo se veía un hueco pequeño.
+
+     Ahora la barra CRECE con el área segura —para que sus iconos no queden
+     debajo de la rayita de inicio— y la hoja reserva exactamente ese alto. */
+  height: var(--barra);
   display: flex;
   align-items: stretch;
-  padding: 5px 10px 15px;
+  padding: 5px 10px calc(15px + env(safe-area-inset-bottom, 0px));
   /* Opaca de verdad: color entero, sin `rgba` y sin `backdrop-filter`. El
      desenfoque no solo sobra —debajo ya no se ve nada—, es que obligaba a
      repintar la franja entera en cada cuadro del muro. */
@@ -7191,6 +7201,10 @@ button {
   height: 100dvh;
   min-height: 0;
 }
+/* El alto de la barra de pestañas, en un solo sitio. Lo usan la barra y el
+   relleno de abajo de la hoja de texto, y por eso no puede estar escrito dos
+   veces: la última vez que lo estuvo, el área segura se restó dos veces. */
+:root { --barra: calc(64px + env(safe-area-inset-bottom, 0px)); }
 @media (min-width: 520px) {
   .shell {
     width: min(100vw, 430px);
@@ -10513,13 +10527,26 @@ button {
      franja de la rayita en los que no tienen botón—. Sin sumarla, en un
      iPhone la última línea queda debajo del gesto de inicio. */
   --medidor-lado: 16px;
-  padding: 13cqw 16px calc(14px + var(--barra, 64px) + env(safe-area-inset-bottom, 0px));
+  /* Abajo: la barra —que ya lleva dentro el área segura— y EL RESPIRO, que es
+     un número puesto a mano y no el residuo de una cuenta. Veinte puntos: lo
+     justo para que la última línea no toque la barra. */
+  padding: 13cqw 16px calc(20px + var(--barra));
   /* Regla 2: dentro de un tema no hay scroll. El gesto vertical cambia de
      short y el horizontal pasa de página; una barra de scroll aquí sería la
      señal de que el reparto se ha equivocado. */
   overflow: hidden;
 }
-.muro-hoja[data-sinfoto="true"] .short-cuerpo { margin-top: 0; }
+/* Y EL CUERPO OCUPA EL HUECO QUE QUEDE, para que su altura se pueda MEDIR en
+   vez de calcularla. Pablo: «deja de calcular la altura y mídela; haz que el
+   contenedor ocupe el espacio restante con flex, deja que el layout lo
+   resuelva, y lee su altura ya renderizada. Cero aritmética con números
+   mágicos». Sin esto la caja se ajustaba al texto y su altura no decía cuánto
+   sitio había, sino cuánto se estaba usando. */
+.muro-hoja[data-sinfoto="true"] .short-cuerpo {
+  margin-top: 0;
+  flex: 1;
+  min-height: 0;
+}
 
 /* LA HOJA DE MEDIR: la pantalla de texto otra vez, invisible, con la historia
    entera dentro. Ver el comentario de `Shorts.tsx`.
@@ -10783,6 +10810,17 @@ button {
     padding-bottom: calc(5.4cqw + var(--barra, 64px));
   }
 }
+/* SALVO LA HOJA DE TEXTO, que tiene su propio respiro y lo tiene puesto a
+   mano. Esta línea existe porque la regla de arriba tiene la misma
+   especificidad que la de la hoja de texto y va después: ganaba ella, y el
+   relleno de abajo seguía siendo 6,4cqw + barra —ochenta y ocho puntos— por
+   mucho que allí pusiera veinte. Se tardó una medición en verlo y es
+   exactamente la clase de choque que Pablo describió: «un padding inferior
+   sumado encima de lo que ya lo incluía». */
+.muro-hoja[data-forma="pagina"][data-sinfoto="true"]:not(.muro-medidor),
+.muro-hoja[data-forma="pagina"][data-sinfoto="true"].muro-medidor {
+  padding-bottom: calc(20px + var(--barra));
+}
 
 /* El muro cuando no hay ninguna historia escrita. Existe desde el 27 de
    agosto por la noche, cuando Pablo pasó a escribir él los textos: entre que
@@ -10947,3 +10985,16 @@ button {
   text-transform: uppercase;
   color: color-mix(in srgb, var(--ink) 72%, transparent);
 }
+
+
+/* La copia del pie dentro de la hoja de medir: sirve para leer cuánto sitio le
+   quita a la última pantalla y no se ve nunca —la hoja entera es invisible—.
+   Los botones van como `span` inertes, con la misma clase, para que midan lo
+   mismo sin poder pulsarse. */
+.muro-pie-medida { flex: none; }
+.muro-pie-medida .muro-accion { pointer-events: none; }
+
+/* La continuación de un rayo partido entre dos pantallas: la misma caja y la
+   misma sangría, sin el icono. Se esconde con `visibility` y no quitándolo,
+   para que el texto siga alineado con el de la pantalla anterior. */
+.short-cuerpo blockquote.rayo[data-sigue="true"]::before { visibility: hidden; }

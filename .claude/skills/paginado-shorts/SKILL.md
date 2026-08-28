@@ -11,10 +11,11 @@ parezca razonable, manda esto.
 
 ## Las ocho reglas
 
-1. **Cada página ocupa exactamente el alto visible**: `100dvh` menos la barra
-   de pestañas menos `env(safe-area-inset-bottom)`. **Nunca `100vh`** —en un
-   móvil `vh` cuenta la barra de direcciones que a veces no está, y la última
-   línea se va debajo del borde—.
+1. **El alto de la página NO SE CALCULA: SE MIDE.** El contenedor del texto
+   lleva `flex: 1`, el layout resuelve el hueco, y se lee
+   `getBoundingClientRect().height` ya renderizado. **Cero aritmética con
+   números mágicos**: cada resta a mano es un sitio donde restar algo dos
+   veces. La pantalla va a `100dvh`, nunca `100vh`.
 2. **`overflow: hidden` en la página. El scroll vertical NO existe dentro de un
    tema.** El gesto vertical cambia de short y el horizontal pasa de página.
    Si aparece una barra de scroll, la maqueta está rota.
@@ -35,6 +36,31 @@ parezca razonable, manda esto.
 7. **Se recalcula al cambiar la orientación o el tamaño de letra del sistema.**
 8. **Si un bloque no cabe ni él solo y tampoco se puede partir**, se avisa por
    consola con el nombre del tema para que Pablo lo arregle en el texto.
+
+## El doble descuento, que es el error clásico
+
+Pasó el 28 de agosto y costó tres rondas: la barra de pestañas va con
+`position: absolute; bottom: 0`, así que **su alto ya cubre el área segura del
+móvil**. La hoja de texto reservaba `64 + env(safe-area-inset-bottom)`: en un
+iPhone son treinta y cuatro puntos restados dos veces, y por eso Pablo veía
+«un tercio de pantalla vacío» donde en el navegador de pruebas —área segura a
+cero— solo se veía un hueco pequeño.
+
+**El alto de la barra se declara UNA sola vez**, en `--barra`, y de ahí lo leen
+la barra y el relleno de la hoja. Si alguna vez vuelve a aparecer un `env()`
+sumado al lado de `var(--barra)`, es este mismo error otra vez.
+
+Y el otro que costó una medición: dos reglas con la misma especificidad, una
+detrás de otra, `padding-bottom` en las dos. Ganaba la de abajo y el número
+puesto arriba no hacía nada.
+
+## El pie de la última pantalla también ocupa
+
+La última lleva «Guardar / Compartir / Siguiente short», que le quita unos cien
+puntos. Paginada con el alto de las demás, el texto se metía debajo de los
+botones y aparecía scroll. La hoja de medir lleva una **copia inerte del pie**,
+y `mide()` la enseña y la esconde para leer las dos alturas: la normal y la de
+la última. Después se rehace la última con su alto, que puede partirla en dos.
 
 ## El listón, y cómo se comprueba
 

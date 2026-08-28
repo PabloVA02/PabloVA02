@@ -156,8 +156,11 @@ export type Bloque =
   | { b: "parrafo"; texto: string }
   /** Una lista de viñetas. Se parte entre puntos, nunca dentro de uno. */
   | { b: "lista"; puntos: string[] }
-  /** La caja del rayo: la conclusión de la sección. Nunca abre página. */
-  | { b: "rayo"; texto: string };
+  /** La caja del rayo: la conclusión de la sección. Nunca abre página.
+   *  `sigue` marca la CONTINUACIÓN de un rayo que no cabía entero y se partió
+   *  entre dos pantallas: pinta la caja sin el icono, porque el rayo ya salió
+   *  en la pantalla anterior y repetirlo se leería como dos destacados. */
+  | { b: "rayo"; texto: string; sigue?: true };
 
 export type Short = {
   id: string;

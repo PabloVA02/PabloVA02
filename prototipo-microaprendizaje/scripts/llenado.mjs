@@ -51,14 +51,14 @@ for (let h = 0; h < Number(process.argv[2] ?? 10); h++) {
     }));
   }
   const buenas = pcts.slice(0, -1).filter(Boolean);
-  const flojas = buenas.filter((f) => f.pct < 80).length;
+  const flojas = buenas.filter((f) => f.pct < 90).length;
   mal += flojas;
   console.log(
     `${cab.titulo}  ${cab.n} pantallas · ${pcts.map((f) => (f ? f.pct + "%" : "—")).join(" ")}` +
       (pcts.some((f) => f?.scroll) ? "  ← HAY SCROLL" : "") +
-      (flojas ? `  ← ${flojas} por debajo del 80 %` : "  ✓"),
+      (flojas ? `  ← ${flojas} por debajo del 90 %` : "  ✓"),
   );
 }
 await nav.close();
-console.log(mal ? `\n${mal} pantallas por debajo del 80 % con bloques todavía por colocar` : "\nNinguna pantalla por debajo del 80 % salvo la última de cada tema.");
+console.log(mal ? `\n${mal} pantallas por debajo del 90 % con bloques todavía por colocar` : "\nNinguna pantalla por debajo del 90 % salvo la última de cada tema.");
 process.exit(mal ? 1 : 0);

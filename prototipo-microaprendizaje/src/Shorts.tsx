@@ -370,7 +370,10 @@ function margenDe(e: HTMLElement): number {
  * ocho medidas.
  */
 function parteParrafo(el: HTMLElement, renglones: number): [string, string] | null {
-  if (renglones < 2) return null;
+  /* Con sitio para un renglón ya se parte. Estuvo en dos —para no dejar una
+     línea suelta— y era lo que dejaba pantallas al 87 %: cabía una línea más y
+     no se ponía. Manda el listón de Pablo, «que llegue cerca del borde». */
+  if (renglones < 1) return null;
 
   /* Todas las posiciones donde se puede cortar: los espacios. */
   const cortes: { nodo: Text; off: number }[] = [];
@@ -380,7 +383,7 @@ function parteParrafo(el: HTMLElement, renglones: number): [string, string] | nu
     const t = n.textContent ?? "";
     for (let k = 0; k < t.length; k++) if (t[k] === " ") cortes.push({ nodo: n as Text, off: k });
   }
-  if (cortes.length < 4) return null;
+  if (cortes.length < 2) return null;
 
   const r = document.createRange();
   const cuantos = (i: number) => {
@@ -395,9 +398,13 @@ function parteParrafo(el: HTMLElement, renglones: number): [string, string] | nu
      suelto, no se partía ninguno. */
   r.selectNodeContents(el);
   const total = r.getClientRects().length;
-  if (total < 4) return null;
-  const corte = Math.min(renglones, total - 2);
-  if (corte < 2) return null;
+  if (total < 2) return null;
+  /* Se intenta dejar dos renglones a cada lado —una línea suelta es fea— pero
+     no a costa de dejar la pantalla a medias: si con dos no se puede, se corta
+     dejando uno. El listón lo puso Pablo: «en cualquier página intermedia el
+     texto debe llegar cerca del borde; si sobra más de un 10 %, sigue mal». */
+    const corte = Math.min(renglones, Math.max(1, total - 2)) || 1;
+  if (corte < 1 || corte >= total) return null;
 
   /* Bisección: el último corte que sigue cabiendo en `renglones`. */
   let bien = -1;
@@ -515,8 +522,53 @@ function reparte(caja: HTMLElement, bloques: Bloque[], alto: number, avisa?: (i:
       }
     }
 
-    if (b.b === "parrafo" && caben >= 2) {
-      const trozos = parteParrafo(el, caben);
+    /* EL RAYO TAMBIÉN SE PARTE, y con más cuidado: dos renglones por lado como
+       mínimo. Era la última causa de pantallas a medias —«no cabía un rayo de
+       135 y quedaban 58»— y no había manera de arreglarla desde fuera, porque
+       lo que sobra en esa pantalla no lo puede llenar nada más. La
+       continuación se pinta sin el icono: el rayo ya salió antes. */
+    if (b.b === "rayo" && caben >= 2) {
+      const dentro = el.querySelector("p");
+      const entero = dentro?.innerHTML ?? "";
+      if (dentro) {
+        let trozos: [string, string] | null = null;
+        for (let intento = caben; intento >= 2 && !trozos; intento--) {
+          const prueba = parteParrafo(dentro, intento);
+          if (!prueba) continue;
+          dentro.innerHTML = prueba[0];
+          const cabe = el.getBoundingClientRect().height <= hueco + 0.5;
+          dentro.innerHTML = entero;
+          if (cabe) trozos = prueba;
+        }
+        if (trozos && trozos[1].length < b.texto.length) {
+          actual.push(b.sigue ? { b: "rayo", texto: trozos[0], sigue: true } : { b: "rayo", texto: trozos[0] });
+          llevo = alto;
+          cierra("el rayo se partió por renglones");
+          const cola: Bloque = { b: "rayo", texto: trozos[1], sigue: true };
+          bloques = [...bloques.slice(0, i), cola, ...bloques.slice(i + 1)];
+          dentro.innerHTML = trozos[1];
+          el.setAttribute("data-sigue", "true");
+          i--;
+          continue;
+        }
+      }
+    }
+
+    if (b.b === "parrafo" && caben >= 1) {
+      /* SE COMPRUEBA EL CORTE ANTES DE DARLO POR BUENO. Los renglones se
+         cuentan con un `Range` sobre el párrafo entero, y la cabeza, pintada
+         sola, puede envolver de otra manera y salir un renglón más alta: eso
+         desbordaba la pantalla, que es lo único que no puede pasar. Así que se
+         pinta la cabeza, se mide, y si se pasa se prueba con un renglón menos. */
+      let trozos: [string, string] | null = null;
+      for (let intento = caben; intento >= 1 && !trozos; intento--) {
+        const prueba = parteParrafo(el, intento);
+        if (!prueba) continue;
+        el.innerHTML = prueba[0];
+        const cabe = el.getBoundingClientRect().height <= hueco + 0.5;
+        el.innerHTML = typeof b.texto === "string" ? b.texto : "";
+        if (cabe) trozos = prueba;
+      }
       /* Y la cola tiene que ser más corta que el original: si no, partir no
          avanza y el reparto entraría en bucle. No debería pasar nunca —el
          corte cae siempre antes del final— y esta línea es el cinturón. */
@@ -562,7 +614,7 @@ function reparte(caja: HTMLElement, bloques: Bloque[], alto: number, avisa?: (i:
     }
     cierra(
       `no cabía un ${b.b} de ${h.toFixed(0)} y quedaban ${hueco.toFixed(0)}` +
-        (b.b === "parrafo" ? ` (solo ${caben} renglones, hacen falta 2)` : " (no se parte)") +
+        (b.b === "parrafo" ? ` (solo ${caben} renglones)` : " (no se parte)") +
         (devueltos.length ? ` · devueltos ${devueltos.length} al empezar la siguiente` : ""),
     );
     for (const d of devueltos) {
@@ -589,6 +641,7 @@ function reparte(caja: HTMLElement, bloques: Bloque[], alto: number, avisa?: (i:
  */
 function usePaginas(short: Short) {
   const medidor = useRef<HTMLDivElement>(null);
+  const piePrueba = useRef<HTMLDivElement>(null);
   const [paginas, setPaginas] = useState<Bloque[][]>(() =>
     short.bloques.length ? [short.bloques] : [],
   );
@@ -607,19 +660,30 @@ function usePaginas(short: Short) {
     const mide = () => {
       if (!vivo || !medidor.current) return;
       const cuerpo = medidor.current;
-      const hoja = cuerpo.parentElement;
-      if (!hoja) return;
-      /* El alto útil se lee del elemento: la hoja menos sus rellenos, y el de
-         abajo ya lleva dentro la barra de pestañas y el área segura. */
-      const s = getComputedStyle(hoja);
-      const alto =
-        hoja.getBoundingClientRect().height -
-        (parseFloat(s.paddingTop) || 0) -
-        (parseFloat(s.paddingBottom) || 0);
+      /* EL ALTO SE MIDE, NO SE CALCULA. Pablo, el 28 de agosto: «deja de
+         calcular la altura y mídela; no uses una fórmula del tipo alto de
+         pantalla menos barra menos área segura menos relleno, ahí es donde se
+         te está restando algo dos veces». Y tenía razón: el área segura estaba
+         contada en la barra y otra vez en el relleno.
+
+         La caja lleva `flex: 1`, así que ocupa el hueco que quede y su altura
+         ya renderizada ES el sitio disponible. Cero aritmética. */
+      /* Dos alturas, las dos MEDIDAS: la de una pantalla normal y la de la
+         última, que además lleva los botones del pie. Se leen escondiendo y
+         enseñando la copia del pie, y como la caja es `flex: 1`, el layout
+         resuelve la resta solo. */
+      const pie = piePrueba.current;
+      if (pie) pie.style.display = "none";
+      const alto = cuerpo.getBoundingClientRect().height;
+      let altoUltima = alto;
+      if (pie) {
+        pie.style.display = "";
+        altoUltima = cuerpo.getBoundingClientRect().height;
+        pie.style.display = "none";
+      }
       if (alto <= 0) return;
 
-      cuerpo.innerHTML = html;
-      const nuevas = reparte(cuerpo, short.bloques, alto, (i) => {
+      const avisar = (i: number) => {
         const b = short.bloques[i];
         console.warn(
           `[Curva] «${short.titulo}»: este bloque no cabe en una pantalla y no se ha ` +
@@ -627,7 +691,25 @@ function usePaginas(short: Short) {
             (b.b === "lista" ? b.puntos.join(" · ") : b.texto).replace(/<[^>]+>/g, "").slice(0, 120) +
             "…",
         );
-      });
+      };
+
+      cuerpo.innerHTML = html;
+      let nuevas = reparte(cuerpo, short.bloques, alto, avisar);
+
+      /* Y LA ÚLTIMA SE REHACE con su alto, que es menor. Puede salir partida en
+         dos, y entonces la nueva última vuelve a tener pie: se repite hasta que
+         deje de partirse. Tres vueltas bastan de sobra; el tope está por si
+         algún día un bloque no cupiera de ninguna manera. */
+      if (altoUltima < alto) {
+        for (let vuelta = 0; vuelta < 3; vuelta++) {
+          const ultima = nuevas[nuevas.length - 1];
+          if (!ultima?.length) break;
+          cuerpo.innerHTML = htmlDeBloques(ultima);
+          const trozos = reparte(cuerpo, ultima, altoUltima);
+          if (trozos.length <= 1) break;
+          nuevas = [...nuevas.slice(0, -1), ...trozos];
+        }
+      }
       const firma = JSON.stringify(nuevas);
       if (firma === ultimo) return;
       ultimo = firma;
@@ -656,7 +738,7 @@ function usePaginas(short: Short) {
     };
   }, [short]);
 
-  return { paginas, medidor };
+  return { paginas, medidor, piePrueba };
 }
 
 /* --------------------------------------------------------------------------
@@ -826,7 +908,7 @@ function PaginaShort({
 
   /* Las pantallas de esta historia, calculadas midiendo. Ver `usePaginas` y
      `.claude/skills/paginado-shorts/SKILL.md`. */
-  const { paginas, medidor } = usePaginas(short);
+  const { paginas, medidor, piePrueba } = usePaginas(short);
   const total = paginas.length + 1;
 
   // Un solo valor de gesto para toda la historia: el texto va pegado al dedo.
@@ -1111,6 +1193,20 @@ function PaginaShort({
             ref={medidor}
             dangerouslySetInnerHTML={{ __html: htmlDeBloques(short.bloques) }}
           />
+          {/* Y EL PIE, que solo sale en la ÚLTIMA pantalla y le quita sitio al
+              texto. Sin medirlo, la última se paginaba con el alto de las
+              demás y el texto se metía debajo de los botones: en «Por qué
+              vuelan los aviones» la última pantalla tenía 675 puntos de texto
+              en 575 de hueco, y aparecía una barra de scroll donde no puede
+              haberla. Aquí va una copia inerte, y `mide()` la enseña y la
+              esconde para leer las DOS alturas: la normal y la de la última. */}
+          <div className="muro-pie-medida" ref={piePrueba}>
+            <div className="muro-acciones">
+              <span className="muro-accion">Guardar</span>
+              <span className="muro-accion">Compartir</span>
+            </div>
+            <span className="muro-tirar">Siguiente short</span>
+          </div>
         </div>
       )}
 
@@ -1376,7 +1472,7 @@ export function htmlDeBloques(bloques: Bloque[]): string {
       if (b.b === "parrafo") return `<p>${conGuiones(b.texto)}</p>`;
       if (b.b === "lista")
         return `<ul>${b.puntos.map((t) => `<li>${conGuiones(t)}</li>`).join("")}</ul>`;
-      return `<blockquote class="rayo"><p>${conGuiones(b.texto)}</p></blockquote>`;
+      return `<blockquote class="rayo"${b.sigue ? ' data-sigue="true"' : ""}><p>${conGuiones(b.texto)}</p></blockquote>`;
     })
     .join("");
 }
@@ -1398,7 +1494,7 @@ function PintaBloque({ b }: { b: Bloque }) {
       );
     case "rayo":
       return (
-        <blockquote className="rayo">
+        <blockquote className="rayo" data-sigue={b.sigue ? "true" : undefined}>
           <p dangerouslySetInnerHTML={{ __html: conGuiones(b.texto) }} />
         </blockquote>
       );
