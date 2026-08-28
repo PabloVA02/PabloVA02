@@ -97,7 +97,9 @@ for (let h = 0; h < Number(process.argv[2] ?? 4); h++) {
           entra: dePar(pri) && esCola(pri) ? renglones(pri) : null,
           sale: dePar(ult) && esCabeza(ult) ? renglones(ult) : null,
           rotuloAlPie: ult.tagName === "H3",
-          scroll: cuerpo.scrollHeight > cuerpo.clientHeight + 1,
+          /* Un renglón de más es la tolerancia que pidió Pablo, no scroll:
+             la caja no recorta y esa línea cae dentro del margen de pie. */
+          scroll: cuerpo.scrollHeight - cuerpo.clientHeight > (parseFloat(getComputedStyle(cuerpo).lineHeight) || 26) + 1,
           /* El margen: del suelo de la caja de texto al borde de la hoja. */
           /* Sin redondear: la maqueta resuelve en fracciones de punto y dos
              pantallas idénticas pueden dar 156,56 y 156,76. Redondeando salía

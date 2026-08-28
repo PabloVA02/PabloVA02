@@ -20,6 +20,7 @@ import portadaLeche from "../../portadas/por-que-se-corta-la-leche.avif";
 import portadaPicante from "../../portadas/por-que-pica-el-picante.avif";
 import portadaCicatrices from "../../portadas/como-cicatrizan-las-heridas.avif";
 import portadaLluvia from "../../portadas/por-que-llueve.avif";
+import portadaDedos from "../../portadas/por-que-se-arrugan-los-dedos.avif";
 
 /* ==========================================================================
    CURIOSIDADES — el texto lo escribe Pablo, aquí se maqueta
@@ -29,13 +30,23 @@ import portadaLluvia from "../../portadas/por-que-llueve.avif";
    `scripts/temas.mjs` leyéndolos: un `diff` contra ellos dice en un segundo si
    aquí falta o sobra algo.
 
-   «CUÁNTO LE QUEDA AL SOL» YA NO EXISTE: son cuatro. Era el tema más largo de
-   todos —diez pantallas— y Pablo lo partió esa misma noche en los cuatro que
-   llevan `sol-` delante. Es su propia regla: un short cuenta UNA sorpresa, y
-   aquel contaba cuatro. Repartido así, cada una compite en el muro con su
-   gancho y se termina en tres deslizamientos en vez de en nueve. La fotografía
-   de la corona solar se queda con el primero, que es el que abre el asunto;
-   los otros tres van con su `encargo` hasta que tengan la suya.
+   «CUÁNTO LE QUEDA AL SOL» SE PARTIÓ EN CUATRO Y AQUÍ HAY UNO. Era el tema más
+   largo de todos —diez pantallas— y Pablo lo partió el 28 de agosto por la
+   noche en cuatro, que es su propia regla: un short cuenta UNA sorpresa y aquel
+   contaba cuatro. De los cuatro solo está el primero, porque es el único que
+   tiene portada: «ELIMINA EL RESTO DE SHORTS QUE TIENEN LA PORTADA GENÉRICA».
+   El cartel de color generado servía de marcador mientras se buscaba la foto, y
+   dejó de valer en cuanto once temas de quince tuvieron la suya: uno con cartel
+   al lado de once con fotografía no parece que falte una imagen, parece que la
+   app está rota.
+
+   LOS TRES QUE FALTAN NO SE HAN PERDIDO. Sus textos siguen enteros en
+   `referencia/textos-de-pablo/sol/`, con su cabecera y el nombre de la portada
+   que Pablo les puso —`el-final-no-llegara-por-fuego.avif`,
+   `cuando-el-sol-se-hinche.avif`, `todavia-no-se-ha-apagado-ninguna.avif`—.
+   Llegan esas tres imágenes, se pasan por `scripts/portadas.mjs` y los tres
+   temas vuelven aquí tal cual estaban. Están también en el historial, en el
+   commit anterior a este.
 
    NO HAY PÁGINAS AQUÍ, y es lo importante. La historia viene en una tirada de
    bloques seguidos y quien la reparte en pantallas es la app, midiendo el
@@ -187,294 +198,6 @@ export const CURIOSIDADES: Short[] = [
         texto:
           "El Sol no necesita morir para acabar con la vida en la Tierra. Le basta con seguir " +
           "haciendo exactamente lo que lleva haciendo desde el principio.",
-      },
-    ],
-  },
-  {
-    id: "el-final-no-llegara-por-fuego",
-    titulo: "El final de la vida en la Tierra no llegará por fuego, sino por asfixia",
-    categoria: "Ciencia",
-    color: "var(--sage)",
-    /* Serie «cuanto-le-queda-al-sol», número 2 de cuatro. Se entiende suelto. */
-    encargo: "Un bosque a contraluz con la hoja seca en primer plano: lo que se apaga primero son las plantas, no la piedra.",
-    soloPortada: true,
-    textoDePablo: true,
-    bloques: [
-      {
-        b: "rotulo",
-        texto:
-          "Las primeras en caer serán las plantas",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Cuando pensamos en el final de la vida en la Tierra, casi todos imaginamos lo mismo: " +
-          "un planeta reseco, los océanos hirviendo y todo achicharrado bajo un sol implacable.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Es una imagen poderosa, pero llega mucho más tarde de lo que creemos. Lo primero que " +
-          "ocurre es bastante más silencioso.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "El mecanismo es indirecto, y por eso resulta tan difícil de anticipar. A medida que el " +
-          "Sol calienta —y lleva calentándose desde que se encendió— la roca de los continentes " +
-          "se erosiona más deprisa. Y esa erosión consume dióxido de carbono del aire.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Se trata de una reacción química que lleva miles de millones de años funcionando como " +
-          "el termostato del planeta: cuanto más calor hace, más rápido trabaja, y más CO₂ retira " +
-          "de la atmósfera. Es, en buena medida, lo que nos ha mantenido templados todo este " +
-          "tiempo.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "El problema es que las plantas necesitan ese mismo CO₂ para hacer la " +
-          "<strong>fotosíntesis</strong>. Es, literalmente, su comida.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Llega un punto en que el termostato ha limpiado el aire de carbono hasta un nivel en " +
-          "el que ya no pueden seguir alimentándose. Y con ellas se cae todo lo que depende de " +
-          "ellas, que en tierra firme es prácticamente todo.",
-      },
-      {
-        b: "rayo",
-        texto:
-          "El mismo termostato que ha mantenido templada a la Tierra durante miles de millones de " +
-          "años es lo que acabará dejando a las plantas sin nada que respirar.",
-      },
-      {
-        b: "rotulo",
-        texto:
-          "Cuándo ocurre, y por qué la fecha se ha movido",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "El cálculo clásico sitúa ese momento dentro de unos mil millones de años.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Sin embargo, trabajos recientes lo alargan hasta cerca de mil ochocientos millones y, " +
-          "de paso, cambian la causa de la muerte. Según esos modelos, las plantas no llegarían a " +
-          "quedarse sin comida: se detendrían de puro calor, por encima de los sesenta y cinco " +
-          "grados.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Los océanos hierven bastante más tarde, aunque para entonces ya no quedará nadie para " +
-          "verlo.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Merece la pena quedarse con el orden, que es lo contrario de lo que sugiere la " +
-          "intuición. Primero se apaga la fotosíntesis. Después desaparece la vida en tierra. Y " +
-          "solo mucho después llega el fuego que todos imaginábamos primero.",
-      },
-      {
-        b: "rayo",
-        texto:
-          "El planeta no arderá con vida dentro. Para cuando lleguen los océanos hirviendo, hará " +
-          "cientos de millones de años que no queda nadie.",
-      },
-    ],
-  },
-  {
-    id: "cuando-el-sol-se-hinche",
-    titulo: "Cuando el Sol se hinche, la Tierra estará a punto de escapar",
-    categoria: "Ciencia",
-    color: "var(--clay)",
-    /* Serie «cuanto-le-queda-al-sol», número 3 de cuatro. Se entiende suelto. */
-    encargo: "Un sol enorme y rojo ocupando media pantalla, con el filo de un planeta pequeño recortado contra él.",
-    soloPortada: true,
-    textoDePablo: true,
-    /* La imagen que pide su texto para DENTRO del tema, todavía sin hacer:
-       IMAGEN — comparación de tamaño a escala: el Sol de hoy, minúsculo, dentro de la silueta del Sol convertido en gigante roja, con la órbita actual de la Tierra marcada como una circunferencia que queda por dentro. La cifra de 256 veces no se siente leída; dibujada, sí. Diagrama propio en SVG. */
-    bloques: [
-      {
-        b: "rotulo",
-        texto:
-          "Primero se convertirá en una gigante roja",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Cuando el Sol agote por fin el hidrógeno de su núcleo, hará justo lo contrario de " +
-          "apagarse: se hinchará.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Se convertirá en una <strong>gigante roja</strong> de unas doscientas cincuenta y seis " +
-          "veces su tamaño actual, lo que significa que su superficie llegará más lejos de donde " +
-          "ahora mismo orbita la Tierra.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Mercurio será el primero en desaparecer. Venus le seguirá unos dos millones y medio de " +
-          "años después. Y un millón de años más tarde le tocará el turno a nuestra órbita, " +
-          "dentro de siete mil quinientos noventa millones de años.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Lo que no está tan claro es qué se va a encontrar ahí cuando llegue.",
-      },
-      {
-        b: "rayo",
-        texto:
-          "El Sol no se irá apagando poco a poco. Antes de eso crecerá hasta ser más grande que " +
-          "la órbita en la que hoy gira la Tierra.",
-      },
-      {
-        b: "rotulo",
-        texto:
-          "Y aquí ocurre algo que parece escrito por un guionista",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Para poder hincharse tanto, el Sol tiene que soltar lastre. Perderá alrededor de un " +
-          "tercio de su masa, expulsada al espacio en forma de un viento lento y continuo durante " +
-          "millones de años.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Y menos masa significa menos gravedad: su agarre sobre los planetas se irá aflojando " +
-          "poco a poco.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Así que las órbitas se abren. La Tierra empezará a alejarse, empujada hacia fuera por " +
-          "la propia decadencia de la estrella que viene a devorarla. Y aquí está lo interesante: " +
-          "<strong>ese efecto, por sí solo, bastaría para salvarla.</strong> La órbita crecería " +
-          "lo justo para quedar por fuera del Sol hinchado.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Sin embargo, hay una segunda fuerza tirando en sentido contrario. La gigante roja " +
-          "levantará mareas sobre la Tierra, igual que la Luna las levanta hoy sobre nuestros " +
-          "océanos, y esas mareas frenarán al planeta y lo irán arrastrando hacia dentro.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Además, para entonces la atmósfera exterior del Sol llegará tan lejos que la Tierra " +
-          "tendrá que atravesarla, rozando y perdiendo velocidad.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Dos fuerzas opuestas, y el desenlace depende de cuál de las dos gane por muy poco.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "El cálculo más citado, publicado en 2008, concluye que ganan las mareas: la Tierra " +
-          "sería engullida medio millón de años antes de que el Sol alcance su tamaño máximo. " +
-          "Medio millón de años, después de haber aguantado siete mil quinientos millones. Por " +
-          "muy poco.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Pero modelos más recientes calculan que ese tirón hacia dentro es más débil de lo que " +
-          "se creía, y devuelven a la Tierra a la lista de supervivientes.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "La cuestión no está resuelta. La incertidumbre simplemente se ha mudado de sitio: " +
-          "ahora depende de cuánta masa pierda exactamente el Sol, que es justo lo que todavía no " +
-          "sabemos medir bien en estrellas como la nuestra.",
-      },
-      {
-        b: "rayo",
-        texto:
-          "Sabemos con precisión la fecha de la cita entre el Sol y la Tierra. Todavía no sabemos " +
-          "cómo termina.",
-      },
-    ],
-  },
-  {
-    id: "todavia-no-se-ha-apagado-ninguna",
-    titulo: "Todavía no se ha apagado del todo ninguna estrella",
-    categoria: "Ciencia",
-    color: "var(--slate)",
-    /* Serie «cuanto-le-queda-al-sol», número 4 de cuatro. Se entiende suelto. */
-    encargo: "Una brasa casi apagada en la oscuridad, con el punto de luz todavía dentro. Macro, sin fondo.",
-    soloPortada: true,
-    textoDePablo: true,
-    bloques: [
-      {
-        b: "rotulo",
-        texto:
-          "Lo que quedará del Sol seguirá enfriándose sin terminar nunca",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Cuando el Sol acabe de deshacerse, dejará atrás su propio corazón: una bola de materia " +
-          "comprimida, más o menos del tamaño de la Tierra, con la masa de media estrella metida " +
-          "dentro.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Es lo que los astrónomos llaman una <strong>enana blanca</strong>.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Ahí ya no se fusiona nada. No hay motor, no hay combustible, no queda absolutamente " +
-          "nada por quemar. Lo único que hará durante el resto del tiempo es enfriarse, muy " +
-          "despacio.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "¿Y cuánto tarda en enfriarse del todo una enana blanca? <strong>Es simple: más de lo " +
-          "que lleva existiendo el universo.</strong>",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "En todo el universo observable no existe ni una sola enana blanca apagada por " +
-          "completo. No es que sean raras: es que no ha pasado tiempo suficiente desde el " +
-          "principio de todo para que a ninguna le haya dado tiempo a terminar.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Las estrellas más antiguas que se formaron, hace miles de millones de años, siguen ahí " +
-          "fuera enfriándose todavía. Todas.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "El Sol acabará siendo una brasa. Una brasa que seguirá ahí, cada vez más tenue, mucho " +
-          "después de que se hayan apagado todas las cosas que hoy sabemos nombrar.",
-      },
-      {
-        b: "rayo",
-        texto:
-          "En todo el universo observable no hay una sola enana blanca apagada del todo. El " +
-          "universo no lleva existiendo el tiempo suficiente.",
       },
     ],
   },
@@ -1564,6 +1287,15 @@ export const CURIOSIDADES: Short[] = [
     categoria: "Cuerpo humano",
     color: "var(--teal)",
     encargo: "Las yemas de unos dedos arrugadas después del baño, a foco muy corto.",
+    fotos: [
+      {
+        local: portadaDedos,
+        autor: "Fotografía de eddxxe, en Pexels.",
+        licencia: "Pexels License",
+        fuente: "https://www.pexels.com/photo/27810386/",
+        alt: "Dos manos ahuecadas sumergidas en agua oscura, con la luz reflejándose en la superficie alrededor de las muñecas.",
+      },
+    ],
     soloPortada: true,
     textoDePablo: true,
     /* La imagen que pide su texto para DENTRO del tema, todavía sin hacer:

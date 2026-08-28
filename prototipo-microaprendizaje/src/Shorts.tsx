@@ -440,7 +440,8 @@ function renglonesDe(el: HTMLElement): number {
 function cortaHastaLlenar(
   el: HTMLElement,
   desborda: () => boolean,
-): [string, string] | null {
+  desbordaPor: () => number,
+): [string, string] | "cabe-justo" | null {
   const entero = el.innerHTML;
   const cuantos = espacios(el).length;
   if (cuantos < 2) return null;
@@ -471,6 +472,21 @@ function cortaHastaLlenar(
     return n;
   };
 
+  /* LA TOLERANCIA DE UN RENGLÓN. Pablo, el 28 de agosto: «si a un párrafo le
+     falta 1 línea para terminar y no cabe, métela aunque pase de H. Una línea
+     como máximo, nunca dos, y nunca invadiendo el indicador ni el safe-area».
+
+     Antes de buscar dónde cortar se mira si el párrafo entero se pasa por un
+     solo renglón: si es así no se parte, se mete entero y ya. Es lo que evita
+     la pantalla que corta a mitad de frase para dejar la última línea sola
+     arriba en la siguiente. El margen de pie está dimensionado para que esa
+     línea de más quepa sin llegar al indicador: ver el CSS de `--margen-abajo`.
+
+     `desbordaPor` mide cuánto se sale, y se compara con el renglón del bloque
+     y no con una constante: en un rayo o en una cita el interlineado es otro. */
+  const renglon = parseFloat(getComputedStyle(el).lineHeight) || 0;
+  if (renglon > 0 && desbordaPor() > 0 && desbordaPor() <= renglon + 0.5) return "cabe-justo";
+
   let mejor = busca(() => !desborda());
   if (!mejor) return null;
 
@@ -496,6 +512,27 @@ function cortaHastaLlenar(
   if (mejor[1].length >= entero.trim().length) return null;
   return mejor;
 }
+
+/**
+ * Lo que se sabe de una pantalla al cerrarla: el sitio que había, el que se
+ * usó, el hueco que quedó y —si pasa de tres renglones— cuál de las
+ * excepciones de Pablo lo justifica.
+ *
+ * No es para la consola: es para poder COMPROBARLO desde fuera. El diario que
+ * había antes se imprimía cuando el short se paginaba, y un short se pagina una
+ * vez al montarlo, así que al recorrerlos con el navegador de pruebas casi
+ * ninguno volvía a decir nada y el comprobador se quedaba sin las excepciones.
+ * Aquí queda colgado de `window.__PAGINFO`, con el id del short por llave, y se
+ * lee cuando haga falta. Ver `scripts/huecos.mjs`.
+ */
+export type Informe = {
+  H: number;
+  usada: number;
+  hueco: number;
+  renglones: number;
+  excepcion: string;
+  porque: string;
+};
 
 /**
  * REPARTE LA HISTORIA EN PANTALLAS PROBANDO EL DESBORDE DE VERDAD.
@@ -527,9 +564,9 @@ function cortaHastaLlenar(
 function reparte(
   caja: HTMLElement,
   bloques: Bloque[],
-  ops: { avisa?: (b: Bloque) => void } = {},
+  ops: { avisa?: (b: Bloque) => void; informe?: Informe[] } = {},
 ): Bloque[][] {
-  const { avisa } = ops;
+  const { avisa, informe } = ops;
   /* El diario del reparto, apagado. Se enciende con `window.__PAGDEBUG = true`
      en la consola y dice, pantalla por pantalla, cuánto se ha llenado y qué
      bloque fue el que no cupo. */
@@ -539,6 +576,8 @@ function reparte(
 
   /* LA ÚNICA MEDIDA DE TODO EL ARCHIVO. */
   const desborda = () => caja.scrollHeight > caja.clientHeight;
+  /** Y CUÁNTO se sale, que hace falta para la tolerancia de un renglón. */
+  const desbordaPor = () => caja.scrollHeight - caja.clientHeight;
 
   /** El hueco que queda debajo de lo último puesto.
    *
@@ -581,12 +620,37 @@ function reparte(
      páginas, con los botones dentro del margen de abajo— la caja de texto
      mide lo mismo en todas. No hay caso especial que resolver. */
 
-  const cierra = (porque = "") => {
+  /* EL INFORME QUE PIDIÓ PABLO, una línea por pantalla: «número, H, altura real
+     usada y hueco = H − usada, en líneas. Ninguna puede tener hueco > 3 líneas
+     sin declarar cuál de las tres excepciones aplica».
+
+     Se enciende con `window.__PAGDEBUG = true` en la consola, o de una vez
+     sobre los quince temas con `node scripts/huecos.mjs`. La excepción se
+     apunta al cerrar, que es cuando se sabe por qué se cerró: no se deduce
+     después mirando el resultado. */
+  const cierra = (porque = "", excepcion = "") => {
     if (actual.length) {
+      const h = hueco();
+      const renglon = parseFloat(getComputedStyle(caja).lineHeight) || 26;
+      const enRenglones = h / renglon;
       diario(
-        `pantalla ${paginas.length + 1}: ${actual.length} bloques · sobran ${hueco()} de ` +
-          `${caja.clientHeight} puntos` + (porque ? ` · cerrada porque ${porque}` : ""),
+        `p${String(paginas.length + 1).padStart(2)}  H=${caja.clientHeight}` +
+          `  usada=${caja.clientHeight - h}  hueco=${h} = ${enRenglones.toFixed(1)} renglones` +
+          (enRenglones > 3
+            ? excepcion
+              ? `  · EXCEPCIÓN: ${excepcion}`
+              : "  · ✗ SIN EXCEPCIÓN"
+            : "") +
+          (porque ? `  (${porque})` : ""),
       );
+      informe?.push({
+        H: caja.clientHeight,
+        usada: caja.clientHeight - h,
+        hueco: h,
+        renglones: +enRenglones.toFixed(1),
+        excepcion,
+        porque,
+      });
       paginas.push(actual);
       actual = [];
     }
@@ -604,7 +668,14 @@ function reparte(
     if (!desborda()) { actual.push(b); continue; }
 
     /* Se ha salido. Primero se intenta partirlo por donde llegue. */
-    const partido = parteBloque(b, el, desborda);
+    const partido = parteBloque(b, el, desborda, desbordaPor);
+    /* «Cabe justo»: se pasa de H por un solo renglón y se deja entero, que es
+       la tolerancia que pidió Pablo. La pantalla se cierra ahí. */
+    if (partido === "cabe-justo") {
+      actual.push(b);
+      cierra("el párrafo se pasaba por un renglón y se ha dejado entero");
+      continue;
+    }
     if (partido) {
       actual.push(partido[0]);
       cola.unshift(partido[1]);
@@ -669,10 +740,20 @@ function reparte(
       devueltos.length = 0;
     }
     cola.unshift(...devueltos, b);
+    /* Cuál de las tres excepciones de Pablo es. La 1 —«es la última página»— no
+       se declara aquí: si se cierra por esto, es que quedaba algo detrás. */
+    const excepcion = devueltos.some((d) => d.b === "rotulo")
+      ? "se empujó un ## entero a la página siguiente"
+      : b.b === "rotulo"
+        ? "se empujó un ## entero a la página siguiente"
+        : b.b === "parrafo" || b.b === "cita"
+          ? "se empujó un párrafo nuevo porque no cabían 2 de sus líneas"
+          : `un ${b.b} no se parte y no cabía entero`;
     cierra(
       `no cabía un ${b.b} de ${altoDelQueNoCupo} en los ${huecoQueQuedaba} ` +
         `que quedaban, y no se parte «${textoDeBloque(b).replace(/<[^>]+>/g, "").slice(0, 40)}…»` +
         (devueltos.length ? ` · ${devueltos.length} devueltos` : ""),
+      excepcion,
     );
   }
   cierra();
@@ -686,7 +767,12 @@ function reparte(
  * entonces el bloque entero pasa a la pantalla siguiente. `el` es el bloque ya
  * pintado al final de la caja, y sale de aquí con su HTML entero repuesto.
  */
-function parteBloque(b: Bloque, el: HTMLElement, desborda: () => boolean): [Bloque, Bloque] | null {
+function parteBloque(
+  b: Bloque,
+  el: HTMLElement,
+  desborda: () => boolean,
+  desbordaPor: () => number,
+): [Bloque, Bloque] | "cabe-justo" | null {
   /* UNA LISTA SE PARTE ENTRE PUNTOS, nunca dentro de uno: se van quitando
      puntos del final hasta que la caja deja de desbordar. */
   if (b.b === "lista") {
@@ -705,8 +791,8 @@ function parteBloque(b: Bloque, el: HTMLElement, desborda: () => boolean): [Bloq
     if (n < 1) {
       el.innerHTML = `<li>${conGuiones(b.puntos[0])}</li>`;
       const uno = el.firstElementChild as HTMLElement | null;
-      const trozos = uno ? cortaHastaLlenar(uno, desborda) : null;
-      if (trozos) {
+      const trozos = uno ? cortaHastaLlenar(uno, desborda, desbordaPor) : null;
+      if (trozos && trozos !== "cabe-justo") {
         uno!.innerHTML = trozos[0];
         return [
           b.sigue ? { b: "lista", puntos: [trozos[0]], sigue: true } : { b: "lista", puntos: [trozos[0]] },
@@ -742,10 +828,16 @@ function parteBloque(b: Bloque, el: HTMLElement, desborda: () => boolean): [Bloq
      puede medir quince renglones, que no caben en ninguna pantalla empezada. Y
      LA FIRMA SE VA CON LA COLA: firmar el trozo de arriba diría que la cita
      acaba ahí, y firmar los dos, que son dos citas. */
-  const dentro =
-    b.b === "cita" ? el.querySelector("p") : b.b === "parrafo" || b.b === "dato" ? el : null;
+  /* NI EL ⚡ NI EL 💡 SE PARTEN. Lo del rayo venía de antes; lo del dato lo
+     añadió Pablo el 28 de agosto: «> ⚡ y > 💡 nunca se parten; si no caben
+     enteros, van enteros a la página siguiente». Los dos son una nota cerrada
+     que se lee de un golpe, y media nota al pie de una pantalla no dice nada.
+     La cita SÍ se parte: puede medir quince renglones y no cabría en ninguna
+     pantalla empezada. */
+  const dentro = b.b === "cita" ? el.querySelector("p") : b.b === "parrafo" ? el : null;
   if (!dentro) return null;
-  const trozos = cortaHastaLlenar(dentro as HTMLElement, desborda);
+  const trozos = cortaHastaLlenar(dentro as HTMLElement, desborda, desbordaPor);
+  if (trozos === "cabe-justo") return "cabe-justo";
   if (!trozos) return null;
   /* Igual que con la lista: la caja se queda con la cabeza puesta. */
   (dentro as HTMLElement).innerHTML = trozos[0];
@@ -753,11 +845,6 @@ function parteBloque(b: Bloque, el: HTMLElement, desborda: () => boolean): [Bloq
     return [
       b.sigue ? { b: "cita", texto: trozos[0], sigue: true } : { b: "cita", texto: trozos[0] },
       { b: "cita", texto: trozos[1], autor: b.autor, sigue: true },
-    ];
-  if (b.b === "dato")
-    return [
-      b.sigue ? { b: "dato", texto: trozos[0], sigue: true } : { b: "dato", texto: trozos[0] },
-      { b: "dato", texto: trozos[1], sigue: true },
     ];
   return [{ b: "parrafo", texto: trozos[0] }, { b: "parrafo", texto: trozos[1] }];
 }
@@ -804,7 +891,14 @@ function usePaginas(short: Short) {
       /* Y EL REPARTO, DE UNA SOLA PASADA Y SIN CASOS ESPECIALES: desde que los
          márgenes son de libro, todas las pantallas tienen el mismo alto de
          texto y no hay una última que medir aparte. */
-      const nuevas = reparte(cuerpo, short.bloques, { avisa: avisar });
+      const informe: Informe[] = [];
+      const nuevas = reparte(cuerpo, short.bloques, { avisa: avisar, informe });
+      /* El informe, colgado por id para que se pueda comprobar desde fuera.
+         Solo con el diario encendido: en producción no hace falta. */
+      if ((globalThis as Record<string, unknown>).__PAGDEBUG) {
+        const g = globalThis as Record<string, unknown>;
+        g.__PAGINFO = { ...((g.__PAGINFO as object) ?? {}), [short.id]: informe };
+      }
 
       cuerpo.innerHTML = "";
       midiendo = false;
@@ -1255,16 +1349,6 @@ function PaginaShort({
                   Compartir
                 </motion.button>
               </div>
-              <span className="muro-siguiente">
-                Siguiente short
-                <motion.span
-                  className="muro-flecha"
-                  animate={reducido ? {} : { y: [0, 6, 0] }}
-                  transition={{ duration: 1.9, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-                >
-                  ↓
-                </motion.span>
-              </span>
             </div>
           )}
         </motion.div>

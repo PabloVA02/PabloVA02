@@ -10695,27 +10695,28 @@ button {
      margen de abajo, como el indicador, así que la caja de texto mide lo mismo
      en la primera y en la última y todo aquello sobra.
 
-     EL DE ABAJO SALE DE LOS BOTONES, y la cifra está medida, no elegida. El
-     bloque de «Guardar / Compartir / Siguiente short» mide 87 puntos y se apoya
-     8 por encima de la barra, así que su borde de arriba queda a 159 del suelo
-     de la hoja. La caja de texto acaba a `margen + barra`. Para que los botones
-     no toquen el texto ni en una última pantalla llena:
+     EL DE PIE LO DIMENSIONA EL INDICADOR, NO LOS BOTONES. Estuvo en 116 unas
+     horas, que es lo que medían los botones de la última pantalla, y Pablo lo
+     leyó como lo que era: «la paginación deja huecos grandes al final de las
+     páginas; hay que arreglar el cálculo, no taparlo con márgenes». Tenía razón
+     en el diagnóstico aunque no en la causa: el hueco de reparto era de 2,3
+     renglones, dentro de lo tolerable, y lo que veía como seis líneas en blanco
+     eran ese hueco MÁS los 116 de margen. Un margen de pie de más de dos veces
+     el de cabeza no es un margen, es un colchón.
 
-         margen + 64 ≥ 159 + respiro     →     margen ≥ 95 + respiro
+     Así que ahora lo fija el indicador de página, que es lo que él dijo que
+     tenía que caber ahí: 72 puntos, uno y medio el de cabeza, que en un libro
+     es la proporción de siempre. Y los botones de la última se han compactado
+     para caber en ellos: ver `.muro-pie-final`.
 
-     Con 116 quedan veinte puntos de aire. Con los cien de la primera versión
-     los botones pisaban el texto por dos puntos y medio: no se veía porque
-     aquella última pantalla iba medio vacía, y se habría visto el día que una
-     llegara llena.
+     LOS 72 NO SON REDONDOS, SON LOS QUE PIDE LA TOLERANCIA DE UN RENGLÓN. El
+     reparto puede pasarse de H en una línea para no dejar la última suelta —lo
+     pidió Pablo—, y esa línea crece hacia abajo, hacia el margen. El indicador
+     ocupa de 22 a 39 sobre la barra, así que el suelo del texto tiene que
+     quedar como poco a 39 + 25,7 = 65 para que la línea de más no lo pise. Con
+     72 quedan siete puntos de aire.
 
-     Sale un margen de pie que es 2,2 veces el de cabeza. En un libro eso es
-     normal —el de pie siempre es el mayor— y aquí además es obligado: es el
-     precio de que los botones vivan dentro del margen en vez de empujar al
-     texto. Si alguna vez se quiere más estrecho, lo que hay que encoger son los
-     botones, no el margen.
-
-     El `max` es para los móviles estrechos: a 31cqw un iPhone SE daría 99 y los
-     botones no cabrían.
+     El `max` es para los móviles estrechos: a 19cqw un iPhone SE daría 61.
 
      Y EL ÁREA SEGURA SE SUMA UNA VEZ, NO DOS. Está dentro de `--barra`
      —`calc(64px + env(safe-area-inset-bottom))`— y de ahí sale sumada al
@@ -10725,7 +10726,7 @@ button {
      pantalla vacío». Está contado en la hoja de paginado. */
   --margen-lado: 16px;
   --margen-arriba: 13cqw;
-  --margen-abajo: max(31cqw, 116px);
+  --margen-abajo: max(19cqw, 72px);
   padding: var(--margen-arriba) var(--margen-lado) calc(var(--margen-abajo) + var(--barra));
   /* Para que el indicador y los botones se coloquen contra el borde de la hoja
      sin salirse de ella. */
@@ -11225,19 +11226,39 @@ button {
 }
 
 /* Y LOS BOTONES DE LA ÚLTIMA, en ese mismo margen y por el mismo motivo.
-   Estuvieron en el flujo hasta hoy, empujando al texto hacia arriba, y eso
-   hacía que la última pantalla tuviera menos sitio que las demás. Aquí abajo
-   no empujan nada, y la caja de texto mide lo mismo en la primera y en la
-   última, que es lo que Pablo puso como comprobación. */
+   Estuvieron en el flujo, empujando al texto hacia arriba, y eso hacía que la
+   última pantalla tuviera menos sitio que las demás. Aquí abajo no empujan
+   nada, y la caja de texto mide lo mismo en la primera y en la última.
+
+   COMPACTOS, para caber en los 72 del margen. Antes eran dos botones altos con
+   el aviso de «Siguiente short» debajo: 87 puntos, y por eso el margen tuvo que
+   subir a 116. Ahora es una fila de 44, que sigue estando por encima del mínimo
+   de 44 que pide iOS para algo que se toca con el dedo. El aviso de la
+   siguiente historia se ha caído: el gesto vertical ya lo cuenta el muro, y no
+   valía cuarenta puntos de margen en TODAS las pantallas.
+
+   `pointer-events` en la caja a `none` y en los botones a `auto`: la caja
+   ocupa todo el ancho del margen y si se comiera los toques, el gesto de pasar
+   de página dejaría de funcionar en esa franja. */
 .muro-hoja[data-sinfoto="true"] .muro-pie-final {
   position: absolute;
   left: var(--margen-lado);
   right: var(--margen-lado);
-  bottom: calc(var(--barra) + 8px);
+  bottom: calc(var(--barra) + 10px);
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 2.6cqw;
+  pointer-events: none;
+}
+.muro-hoja[data-sinfoto="true"] .muro-pie-final .muro-acciones {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.muro-hoja[data-sinfoto="true"] .muro-pie-final .muro-accion {
+  padding: 0;
+  height: 44px;
+  pointer-events: auto;
 }
 
 /* La copia del pie dentro de la hoja de medir: sirve para leer cuánto sitio le
