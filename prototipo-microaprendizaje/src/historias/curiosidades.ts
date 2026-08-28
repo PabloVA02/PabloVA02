@@ -1,4 +1,14 @@
 import type { Short } from "../shorts";
+/* La portada de la gravedad la mandó Pablo el 28 de agosto y no viene de
+   Commons, así que va como fichero del proyecto: `import` y que Vite la
+   resuelva. En los dos simuladores —que llevan `assetsInlineLimit` al máximo—
+   entra empotrada en el HTML, que es la única forma de que se vea ahí: la
+   política de seguridad del artefacto bloquea cualquier imagen de fuera.
+
+   El fichero es el que sale de `scripts/portadas.mjs`: 1440 × 2560, AVIF 65,
+   recortado a 9:16 desde un original cuadrado de 5000. Al lado queda su
+   respaldo en WebP, que es el que irá a R2 para los navegadores sin AVIF. */
+import portadaGravedad from "../../portadas/como-funciona-la-gravedad.avif";
 
 /* ==========================================================================
    CURIOSIDADES — el texto lo escribe Pablo, aquí se maqueta
@@ -2098,6 +2108,24 @@ export const CURIOSIDADES: Short[] = [
     categoria: "Ciencia",
     color: "var(--plum)",
     encargo: "Una espiral de líneas cayendo hacia un centro oscuro: el espacio-tiempo hundido, sin fondo estrellado.",
+    fotos: [
+      {
+        local: portadaGravedad,
+        /* Esta línea se pinta ENCIMA de la portada, así que no puede describir
+           lo que ya se ve: contar la imagen en palabras es cerrar la pregunta
+           que la portada abre, y eso está prohibido en la hoja de estilo. En
+           las de Commons ahí va el pie con su crédito; aquí, hasta que Pablo
+           diga de dónde salió, va lo mínimo cierto. La descripción de verdad
+           está en `alt`, que es su sitio: la lee quien no ve la imagen.
+
+           La procedencia sigue sin confirmar —el nombre del archivo parece de
+           un banco de imágenes— y está anotada como PENDIENTE en
+           `assets/portadas.csv`, que es donde vive esa prueba. */
+        autor: "Imagen del proyecto.",
+        licencia: "Pendiente de confirmar con Pablo",
+        alt: "Decenas de líneas finas en rojo, magenta y violeta sobre negro, girando en espiral hacia un punto oscuro abajo a la derecha, con una curva azul clara cruzando por delante.",
+      },
+    ],
     soloPortada: true,
     textoDePablo: true,
     /* La imagen que pide su texto para DENTRO del tema, todavía sin hacer:
