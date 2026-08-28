@@ -192,17 +192,8 @@ async function aire(html) {
        falsearía la medida: se mide siempre a tamaño natural. */
     vis.style.setProperty("--ajuste", "1");
     cuerpo.innerHTML = h;
-    /* Y SIN LA JUSTIFICACIÓN VERTICAL. La pantalla reparte lo que sobra entre
-       los párrafos —`justify-content: space-between`—, así que el último
-       bloque cae SIEMPRE en el margen de abajo y preguntarle dónde acaba
-       devolvería cero siempre. Lo que hay que medir es el alto natural del
-       texto, apilado desde arriba, que es lo que decide cuánto cabe. Se apaga
-       mientras se mide y se vuelve a poner. */
-    const antes = cuerpo.style.justifyContent;
-    cuerpo.style.justifyContent = "flex-start";
     const ultimo = cuerpo.lastElementChild;
     const fondo = ultimo ? ultimo.getBoundingClientRect().bottom : cuerpo.getBoundingClientRect().top;
-    cuerpo.style.justifyContent = antes;
     const tope = hoja.getBoundingClientRect().bottom - parseFloat(getComputedStyle(hoja).paddingBottom);
     const linea = parseFloat(getComputedStyle(cuerpo).lineHeight) || 24;
     return (tope - fondo) / linea;

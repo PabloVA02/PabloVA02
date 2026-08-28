@@ -82,16 +82,10 @@ for (const n of cuales) {
          un bloque más —igual que en el lector de los resúmenes—, así que ya
          no hay que medirlo aparte.
 
-         Y la pantalla JUSTIFICA EN VERTICAL: reparte lo que sobra entre los
-         párrafos, así que el último bloque cae siempre en el margen de abajo
-         y preguntarle dónde acaba daría cero siempre. Lo que se mide aquí es
-         el alto natural, apilado desde arriba, que es lo que dice si el texto
-         cabe. Se apaga el reparto mientras se mide y se vuelve a poner. */
-      const antes = texto.style.justifyContent;
-      texto.style.justifyContent = "flex-start";
+         El texto se apila desde arriba y lo que sobra se queda abajo: es el
+         hueco que se mide aquí. */
       const hijo = texto.lastElementChild;
       const ultimo = hijo ? hijo.getBoundingClientRect().bottom : texto.getBoundingClientRect().bottom;
-      texto.style.justifyContent = antes;
       const tope = hoja.getBoundingClientRect().bottom - parseFloat(getComputedStyle(hoja).paddingBottom);
       const linea = parseFloat(getComputedStyle(texto).lineHeight) || 24;
       return {

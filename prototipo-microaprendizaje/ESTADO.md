@@ -25,7 +25,7 @@ comprobar dentro de un mes que lo que hay en el código dice lo que él escribi�
 | | secciones suyas | palabras | pantallas |
 |---|---|---|---|
 | Cuánto le queda al Sol | 5 | 1.156 | 10 |
-| Por qué bostezamos | 4 | 861 | 8 |
+| Por qué bostezamos | 4 | 861 | 9 |
 
 **De su texto no se ha tocado nada.** Ni una palabra cambiada, quitada ni
 añadida. Lo único que se decide al maquetar es POR DÓNDE SE PARTE, que es
@@ -94,28 +94,42 @@ noche había pedido «elimina los títulos esos de cada pantalla». Aquello era
 sobre unos rótulos míos de dos palabras que solo etiquetaban; los suyos son
 afirmaciones completas y son parte del texto.)
 
-### La letra, la del libro. En puntos y no en `cqw`
+### La letra: 20 sobre 27, y un renglón entero entre párrafos
 
-Pablo, el 28 por la tarde, con veintitantas capturas de su lector: *«el tamaño
-del texto y de todo eso te he dicho que sea igual que como hacemos nosotros en
-los libros; tienes que hacerlo exactamente así»*.
+**Es la medida de sus capturas, sacada en píxeles.** Estuvo en 19 unas horas
+—copiada del lector, que a su vez venía de una captura vieja— y Pablo lo dijo
+tres veces hasta que dejé de mirar números de CSS y me puse a medir las
+imágenes:
 
-Tenía razón y el motivo era `cqw`. La medida del short escalaba con el ancho
-del móvil —4,55cqw— y la del libro es fija: en el suyo, de 375, el short medía
-17 y el libro 19. Ahora las páginas de texto llevan las medidas del lector
-copiadas en puntos:
-
-| | libro | short |
+| | en sus capturas | en la app |
 |---|---|---|
-| párrafo | 19 / 27, margen 22 | igual |
-| subtítulo | 21 / 1,3, peso 700, #fff | igual |
-| lista | 19, sangría 17, hueco 12 | igual |
-| rayo | 19, sangría 8, margen 26 y 30 | igual |
-| margen lateral | 16 | igual |
+| mancha de una línea | 20 px a doble densidad | cuerpo **20** |
+| renglón | 54 px | interlínea **27** |
+| de un párrafo al siguiente | 108 px | margen **27**, un renglón entero |
+| subtítulo | mancha 24, renglón 64 | **24 / 32** en negrita |
+| margen lateral | mancha desde x = 33 | **16** |
 
-**Y sin justificar y sin partir palabras**, que es lo que hay en sus capturas y
-en el lector. El short justificaba y partía con guiones; las dos cosas se
-hicieron cuando el texto iba en cajas más estrechas, y en bandera sobran.
+Lo que costaba era el cuerpo. La mancha de una línea —lo que ocupa de alto una
+fila de letras sin palos ni colas— se mide en una captura: en las suyas son 20
+píxeles. Se pintó la misma pantalla nuestra a 19, 20 y 21 y salió 19, 20 y 21.
+O sea que su cuerpo es 20 y el nuestro era 19: ese 5 % es lo que él veía.
+
+**Y se ha cambiado también el lector de los libros**, no solo los shorts. Él
+pidió «siempre de ese tamaño, todo igual», y el 19 de allí venía de una
+captura de otro día: el lector de Headway tiene su propio mando de tamaño, así
+que dos tandas suyas no miden lo mismo. Las de referencia son las últimas, y
+están en `referencia/lector-headway/` con las medidas apuntadas.
+
+### En puntos y no en `cqw`
+
+El primer intento fue en `cqw`, y por eso la letra del short escalaba con el
+ancho del móvil: 4,55cqw daba 17 en un móvil de 375 y 19,6 en uno de 430. En
+el lector es fija, y tiene que serlo aquí también. La caja de la pantalla
+sigue escalando; la letra, no.
+
+**Y sin justificar y sin partir palabras**, que es lo que hay en sus capturas.
+El short justificaba y partía con guiones; las dos cosas se hicieron cuando el
+texto iba en cajas más estrechas, y en bandera sobran.
 
 ### `scripts/reparte.mjs`: el texto llena la pantalla hasta abajo
 
@@ -160,27 +174,19 @@ sobra al acabar el texto cae entero en la última y a veces son dos renglones:
 eso no se lee como un final, se lee como una avería. Se prueba cada corte de
 las dos últimas y gana el que iguala más los dos huecos.
 
-**Y EL SOBRANTE SE REPARTE ENTRE LOS PÁRRAFOS.** Cortando por frases, la
-pantalla nunca queda al ras: sobra lo que ocupara la frase que no cabía.
-Pablo, la tercera vuelta: *«que ajuste el margen de abajo con el texto en
-todas las páginas; puedes poner una frase seguida de otra para ajustar bien
-abajo, pero que quede todo bien hasta abajo del todo sin cortar palabras ni
-texto»*.
+**Y EL SOBRANTE SE QUEDA ABAJO, PERO ES POCO.** Cortando por frases la pantalla
+no puede quedar exactamente al ras: sobra lo que ocupara la frase que no cabía.
 
-Lo que se hace con ese sobrante es lo que hace un libro de papel desde hace
-quinientos años: **justificar en vertical**. No se estira la letra ni se
-aprieta el interlineado —eso rompería lo otro que pidió, que la letra mida lo
-mismo que en el libro—: se reparte el hueco entre los blancos que ya existen,
-los que separan un párrafo del siguiente. El primer renglón sigue arriba del
-todo, el último cae en el margen de abajo, y por el medio los párrafos
-respiran un poco más. Son tres líneas de CSS —`justify-content:
-space-between`— y no hay que calcular nada.
+Se probó a repartir ese sobrante entre los párrafos —justificación vertical,
+que es lo que hace un libro de papel— y funcionaba, pero rompía lo otro: el
+blanco entre párrafos salía de 51 puntos donde en la referencia son 27. Pablo
+lo vio en cuanto lo publiqué. Manda la referencia.
 
-Lo que sí hace falta es que a **ninguna** pantalla le sobre mucho, porque el
-hueco ya no se queda abajo, se ve en medio. Por eso el reparto dejó de llenar
-cada pantalla hasta el tope: entre todos los repartos que usan el mínimo de
-pantallas, elige el que deja el sobrante más parejo. De las dieciocho, ahora
-**ninguna pasa de cuatro renglones y medio** y la mayoría anda por uno o dos.
+Así que el blanco entre párrafos es fijo y lo que sobra se queda abajo. Lo que
+sí se puede es que sobre POCO, y de eso se encarga el reparto: entre todos los
+que usan el mínimo de pantallas, elige el que deja el sobrante más parejo,
+penalizándolo al cuadrado. De las diecinueve pantallas, **la mayoría se queda a
+uno o dos renglones del borde y ninguna pasa de cinco y medio**.
 
 ### «El tamaño del texto no está igual»: era el simulador, no la letra
 

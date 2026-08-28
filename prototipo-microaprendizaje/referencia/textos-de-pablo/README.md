@@ -15,7 +15,7 @@ texto solo».
 | fichero | secciones | palabras | pantallas en la app |
 |---|---|---|---|
 | `cuanto-le-queda-al-sol.md` | 5 | 1.156 | 10 |
-| `por-que-bostezamos.md` | 4 | 861 | 8 |
+| `por-que-bostezamos.md` | 4 | 861 | 9 |
 
 **Su norma de maquetación, que es la que manda sobre estos textos** (viene en
 el `LEEME.md`):
