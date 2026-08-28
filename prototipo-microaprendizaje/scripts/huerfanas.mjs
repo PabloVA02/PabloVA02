@@ -11,8 +11,10 @@
         de un párrafo partido, tiene que traer al menos dos renglones; y lo
         mismo con el último si es la cabeza de uno. Y ningún subtítulo se queda
         el último de su pantalla.
-     2. NINGUNA PANTALLA CON SCROLL. `scrollHeight > clientHeight` en la caja
-        de texto es la señal de que el reparto se ha equivocado.
+     2. NI UNA PALABRA RECORTADA. La caja puede desbordarse hasta dos
+        renglones a propósito —es la tolerancia del punto final, y esos
+        renglones caen en el margen de pie—, pero nadie puede recortarlos: si
+        el texto pasa del borde de quien recorta, se pierde en silencio.
      3. LOS MÁRGENES, IDÉNTICOS EN TODAS. «La distancia del texto al borde
         inferior tiene que ser exactamente la misma en la primera página y en
         la última.» Se mide del suelo de la caja de texto al borde de la hoja,
@@ -97,9 +99,28 @@ for (let h = 0; h < Number(process.argv[2] ?? 4); h++) {
           entra: dePar(pri) && esCola(pri) ? renglones(pri) : null,
           sale: dePar(ult) && esCabeza(ult) ? renglones(ult) : null,
           rotuloAlPie: ult.tagName === "H3",
-          /* Un renglón de más es la tolerancia que pidió Pablo, no scroll:
-             la caja no recorta y esa línea cae dentro del margen de pie. */
-          scroll: cuerpo.scrollHeight - cuerpo.clientHeight > (parseFloat(getComputedStyle(cuerpo).lineHeight) || 26) + 1,
+          /* PASARSE DE LA CAJA NO ES UN FALLO: es la tolerancia que pidió
+             Pablo para que la página acabe en punto, y esos renglones caen
+             dentro del margen de pie, que está dimensionado para ellos. Lo
+             que sí es un fallo es que alguien los RECORTE —durante un rato
+             los recortaba `.muro-hoja-cuerpo` y el lector perdía las últimas
+             palabras sin enterarse— o que se pasen tanto que ya no quepan.
+
+             Así que en vez de contar el desbordamiento se busca al primer
+             antepasado que recorta y se mira si el texto le llega. */
+          recortado: (() => {
+            const fin = ult.getBoundingClientRect().bottom;
+            for (let e = cuerpo; e && e !== document.body; e = e.parentElement) {
+              const o = getComputedStyle(e).overflow;
+              if (o === "visible") continue;
+              const r = e.getBoundingClientRect();
+              return fin > r.bottom + 0.5 ? Math.round(fin - r.bottom) : 0;
+            }
+            return 0;
+          })(),
+          /* Y el tope: dos renglones, ni uno más. Si el reparto se pasa de
+             ahí es que se le ha ido la mano, aunque nadie lo recorte. */
+          estirado: +((cuerpo.scrollHeight - cuerpo.clientHeight) / (parseFloat(getComputedStyle(cuerpo).lineHeight) || 26)).toFixed(2),
           /* El margen: del suelo de la caja de texto al borde de la hoja. */
           /* Sin redondear: la maqueta resuelve en fracciones de punto y dos
              pantallas idénticas pueden dar 156,56 y 156,76. Redondeando salía
@@ -125,7 +146,8 @@ for (let h = 0; h < Number(process.argv[2] ?? 4); h++) {
     if (f.entra !== null && f.entra < 2) malas.push(`p${i + 1} empieza con ${f.entra} renglón: «${f.primeras}…»`);
     if (f.sale !== null && f.sale < 2) malas.push(`p${i + 1} acaba con ${f.sale} renglón`);
     if (f.rotuloAlPie) malas.push(`p${i + 1} acaba en un subtítulo suelto`);
-    if (f.scroll) malas.push(`p${i + 1} TIENE SCROLL`);
+    if (f.recortado) malas.push(`p${i + 1} SE LE RECORTAN ${f.recortado} puntos de texto`);
+    if (f.estirado > 2.1) malas.push(`p${i + 1} se estira ${f.estirado} renglones, y el tope son 2`);
     if (f.lados[0] !== f.lados[1]) malas.push(`p${i + 1} no tiene el mismo margen a los dos lados: ${f.lados.join(" y ")}`);
     if (f.margen < f.arriba) malas.push(`p${i + 1} tiene el margen de abajo (${f.margen}) menor que el de arriba (${f.arriba})`);
     if (Math.abs(f.alto - llenas[0].alto) > 0.01) malas.push(`p${i + 1} tiene la caja de texto de otro alto: ${f.alto} contra ${llenas[0].alto}`);
@@ -144,6 +166,6 @@ await nav.close();
 console.log(
   fallos
     ? `\n${fallos} fallos`
-    : "\nNi una palabra suelta, ni una pantalla con scroll, y el mismo margen en todas.",
+    : "\nNi una palabra suelta, ni una recortada, y el mismo margen en todas.",
 );
 process.exit(fallos ? 1 : 0);

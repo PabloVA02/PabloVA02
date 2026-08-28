@@ -10519,23 +10519,19 @@ button {
   --cuerpo: 5.27cqw;
   --renglon: calc(var(--cuerpo) * 1.3);
   color: #f4f2ee;
-  /* CON GUIONES, COMO UN LIBRO. Pablo, el 28 de agosto: «redacta como un libro
-     normal y corriente, con guiones si la palabra no cabe».
+  /* SIN PARTIR PALABRAS. Se probó lo contrario y Pablo lo tumbó en cuanto lo
+     vio: «nada, olvídalo, no pongas guiones, hazlo como las capturas que te
+     pasé de Headway». En sus capturas no hay ni un guion, y manda eso.
 
-     Estuvieron apagados un tiempo porque en las capturas de Headway que él
-     mandó no había ni un guion, y en bandera —sin justificar— no hacen falta
-     para evitar huecos. Pero manda lo que dijo después, y además tiene razón
-     para esta letra: con renglones de 36 caracteres, una palabra de doce
-     empuja media línea al siguiente renglón y el borde derecho se queda hecho
-     una sierra. Un libro parte y punto.
+     Lo que sí queda de aquella vuelta es el problema que los guiones tapaban:
+     el borde derecho en bandera se queda irregular. Se resuelve por el otro
+     lado —eligiendo mejor DÓNDE cortar la página, en el punto final— y no
+     rompiendo palabras. Ver `finDeFrase` en `Shorts.tsx`.
 
-     No hace falta `auto`: `src/silabas.ts` ya mete un guion blando en cada
-     sílaba de cada palabra, así que el navegador solo tiene que hacerle caso, y
-     eso es el valor por defecto. Partir por donde parte el español y no por
-     donde adivine el diccionario del móvil —que ni siquiera está en todos— es
-     mejor de las dos maneras. */
-  hyphens: manual;
-  -webkit-hyphens: manual;
+     `none` apaga las dos cosas a la vez: la partición automática y los guiones
+     blandos que `silabas.ts` ya trae metidos en el texto. */
+  hyphens: none;
+  -webkit-hyphens: none;
 }
 /* Un renglón entero de blanco entre párrafos, que es lo que hay en sus
    capturas: 108 píxeles de un párrafo al siguiente, 54 de renglón y 54 de
@@ -10735,7 +10731,7 @@ button {
      pantalla vacío». Está contado en la hoja de paginado. */
   --margen-lado: 16px;
   --margen-arriba: max(16cqw, 60px);
-  --margen-abajo: max(21cqw, 80px);
+  --margen-abajo: max(25cqw, 96px);
   padding: var(--margen-arriba) var(--margen-lado) calc(var(--margen-abajo) + var(--barra));
   /* Para que el indicador y los botones se coloquen contra el borde de la hoja
      sin salirse de ella. */
@@ -11004,6 +11000,23 @@ button {
    pero el texto lo escribe una persona y esto no depende de que se acuerde. */
 .muro-hoja-cuerpo { overflow: hidden; }
 
+/* SALVO EN LAS PÁGINAS DE TEXTO, y esto costó encontrarlo. El cinturón de
+   arriba recorta EXACTAMENTE a la altura de la caja, y el reparto puede
+   pasarse de esa altura a propósito: uno o dos renglones, para que la página
+   acabe en punto y no a mitad de frase. Con el recorte puesto, esos renglones
+   se calculaban, se daban por buenos y NO SE PINTABAN: el lector veía la
+   página cortada en «y por tanto» y las palabras que faltaban no aparecían
+   tampoco en la siguiente, porque el reparto ya las había dado por puestas.
+   Texto perdido, sin aviso, y una comprobación que decía que todo estaba bien
+   porque miraba el DOM y no la pantalla.
+
+   Así que aquí el cinturón se sube un piso: lo pone `.muro-hoja`, que recorta
+   contra el borde de la hoja entera y no contra el suelo del texto. Entre uno
+   y otro está el margen de pie, que es justo donde tienen que caber esos
+   renglones de más. Que quepan lo comprueba `scripts/puntofinal.mjs`, que mide
+   el fondo del texto contra el indicador de página. */
+.muro-hoja[data-forma="pagina"] .muro-hoja-cuerpo { overflow: visible; }
+
 /* ---- El sitio de la barra de pestañas ----
    La hoja se reserva 64 puntos abajo para la barra de la app. Se escribe como
    variable porque estaba sumado a mano en dos sitios —el `padding` normal y
@@ -11223,7 +11236,16 @@ button {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: calc(var(--barra) + 22px);
+  /* PEGADO A LA BARRA, y es lo que pidió Pablo al añadir lo del punto final:
+     «el número de página debe estar más abajo para que no choque». La página
+     puede alargarse hasta dos renglones para acabar en punto, y esos renglones
+     crecen hacia el margen; con el indicador a 22 de la barra se los comía.
+
+     A 4 quedan once puntos de aire en la peor página de las 62 —«El conductor
+     no se marea nunca», la 2, que se estira los dos renglones enteros— y
+     todavía quince por debajo hasta la barra de pestañas. Los once no son de
+     cálculo: los mide `scripts/puntofinal.mjs` en la pantalla de verdad. */
+  bottom: calc(var(--barra) + 4px);
   text-align: center;
   font-family: var(--sans);
   font-size: 13px;
@@ -11253,7 +11275,7 @@ button {
   position: absolute;
   left: var(--margen-lado);
   right: var(--margen-lado);
-  bottom: calc(var(--barra) + 10px);
+  bottom: calc(var(--barra) + 6px);
   display: flex;
   align-items: center;
   gap: 2.6cqw;

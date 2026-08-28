@@ -32,10 +32,11 @@ import p_por_que_vuelan_los_aviones_es_falso from "../../portadas/por-que-vuelan
 export const CURIOSIDADES: Short[] = [
   {
     id: "la-costra-no-esta-curando-nada",
-    titulo: "La costra no está curando nada",
+    titulo: "Cómo cicatrizan las heridas",
     categoria: "Cuerpo humano",
     color: "var(--clay)",
     /* Serie «como-cicatrizan-las-heridas», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La costra no está curando nada» */
     encargo: "Un puño cerrado visto de cerca, con las costras oscuras de dos heridas recientes en los nudillos.",
     fotos: [
       {
@@ -148,10 +149,11 @@ export const CURIOSIDADES: Short[] = [
   },
   {
     id: "la-gravedad-no-es-una-fuerza",
-    titulo: "La gravedad no es una fuerza",
+    titulo: "Cómo funciona la gravedad",
     categoria: "Ciencia",
     color: "var(--plum)",
     /* Serie «como-funciona-la-gravedad», número 3. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La gravedad no es una fuerza» */
     encargo: "Decenas de líneas finas en rojo, magenta y violeta sobre negro, girando en espiral hacia un punto oscuro.",
     fotos: [
       {
@@ -277,10 +279,11 @@ export const CURIOSIDADES: Short[] = [
   },
   {
     id: "al-sol-le-quedan-cinco-mil-millones",
-    titulo: "Al Sol le quedan cinco mil millones de años. A nosotros, mil",
+    titulo: "Cuánto de vida le queda al Sol",
     categoria: "Ciencia",
     color: "var(--ochre)",
     /* Serie «cuanto-le-queda-al-sol», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Al Sol le quedan cinco mil millones de años. A nosotros, mil» */
     encargo: "El disco del Sol en amarillo cálido, con la corona erizada de arcos brillantes alrededor del ecuador.",
     fotos: [
       {
@@ -388,10 +391,11 @@ export const CURIOSIDADES: Short[] = [
   },
   {
     id: "el-bostezo-no-tiene-que-ver-con-el-oxigeno",
-    titulo: "El bostezo no tiene nada que ver con el oxígeno",
+    titulo: "Por qué bostezamos",
     categoria: "Cuerpo humano",
     color: "var(--clay)",
     /* Serie «por-que-bostezamos», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El bostezo no tiene nada que ver con el oxígeno» */
     encargo: "Un gato atigrado bostezando con la boca muy abierta, visto de perfil.",
     fotos: [
       {
@@ -495,10 +499,11 @@ export const CURIOSIDADES: Short[] = [
   },
   {
     id: "te-ensenaron-mal-como-se-forma-una-nube",
-    titulo: "Te enseñaron mal cómo se forma una nube",
+    titulo: "Por qué llueve",
     categoria: "Naturaleza",
     color: "var(--slate)",
     /* Serie «por-que-llueve», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Te enseñaron mal cómo se forma una nube» */
     encargo: "Gotas de lluvia cubriendo un cristal, con un taxi amarillo desenfocado detrás.",
     fotos: [
       {
@@ -601,10 +606,11 @@ export const CURIOSIDADES: Short[] = [
   },
   {
     id: "el-picante-no-es-un-sabor",
-    titulo: "El picante no es un sabor",
+    titulo: "Por qué pica el picante",
     categoria: "Cuerpo humano",
     color: "var(--clay)",
     /* Serie «por-que-pica-el-picante», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El picante no es un sabor» */
     encargo: "Cientos de chiles rojos alargados extendidos para secarse, llenando la imagen entera.",
     fotos: [
       {
@@ -718,10 +724,11 @@ export const CURIOSIDADES: Short[] = [
   },
   {
     id: "la-leche-cortada-es-queso-a-medio-empezar",
-    titulo: "La leche cortada es queso a medio empezar",
+    titulo: "Por qué se corta la leche",
     categoria: "Cocina",
     color: "var(--sage)",
     /* Serie «por-que-se-corta-la-leche», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «La leche cortada es queso a medio empezar» */
     encargo: "Una jarra de cristal llena de leche sobre una tabla de madera, con luz suave de ventana.",
     fotos: [
       {
@@ -844,10 +851,11 @@ export const CURIOSIDADES: Short[] = [
   },
   {
     id: "el-conductor-no-se-marea-nunca",
-    titulo: "El conductor no se marea nunca, y eso lo explica todo",
+    titulo: "Por qué te mareas en el coche",
     categoria: "Cuerpo humano",
     color: "var(--teal)",
     /* Serie «por-que-te-mareas-en-el-coche», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «El conductor no se marea nunca, y eso lo explica todo» */
     encargo: "Un coche blanco antiguo detenido en una carretera recta que cruza una llanura seca, en tonos sepia.",
     fotos: [
       {
@@ -958,10 +966,11 @@ export const CURIOSIDADES: Short[] = [
   },
   {
     id: "en-invierno-estamos-mas-cerca-del-sol",
-    titulo: "En invierno estamos más cerca del Sol que en verano",
+    titulo: "Por qué tenemos estaciones",
     categoria: "Planeta Tierra",
     color: "var(--sage)",
     /* Serie «por-que-tenemos-estaciones», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «En invierno estamos más cerca del Sol que en verano» */
     encargo: "Una rama de hojas amarillas de otoño contra el cielo, con las copas verdes de los pinos al fondo.",
     fotos: [
       {
@@ -1085,10 +1094,11 @@ export const CURIOSIDADES: Short[] = [
   },
   {
     id: "tiritar-desperdiciar-energia",
-    titulo: "Tiritar consiste en desperdiciar energía a propósito",
+    titulo: "Por qué tiritamos",
     categoria: "Cuerpo humano",
     color: "var(--slate)",
     /* Serie «por-que-tiritamos», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Tiritar consiste en desperdiciar energía a propósito» */
     encargo: "Hojas cubiertas de escarcha blanca en primer plano, con la hierba helada difuminada detrás.",
     fotos: [
       {
@@ -1207,10 +1217,11 @@ export const CURIOSIDADES: Short[] = [
   },
   {
     id: "por-que-vuelan-los-aviones-es-falso",
-    titulo: "Lo que te enseñaron sobre por qué vuelan los aviones es falso",
+    titulo: "Por qué vuelan los aviones",
     categoria: "Ciencia",
     color: "var(--teal)",
     /* Serie «por-que-vuelan-los-aviones», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Lo que te enseñaron sobre por qué vuelan los aviones es falso» */
     encargo: "Ocho reactores de la Patrouille de France en formación cerrada, dejando estelas de humo.",
     fotos: [
       {

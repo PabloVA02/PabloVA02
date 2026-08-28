@@ -9,27 +9,32 @@ description: Las reglas de cómo se pagina una pantalla de texto en Curva — al
 
 **Que se lea como un libro normal y corriente.** Lo dijo Pablo el 28 de agosto,
 después de una tarde de reglas cada vez más finas: «redacta como un libro
-normal y corriente, con guiones si la palabra no cabe, y con margen arriba y
-abajo suficiente para que la visión del lector sea agradable; si tienes normas
-anteriores o lo que sea, bórralas».
+normal y corriente, con margen arriba y abajo suficiente para que la visión del
+lector sea agradable; si tienes normas anteriores o lo que sea, bórralas».
 
 Así que antes de leer nada más, esto es lo que tiene que pasar:
 
 1. **Márgenes cómodos y siempre los mismos.** Hoy, en un móvil de 375: 60 de
-   cabeza, 16 a cada lado, 80 de pie sobre la barra de pestañas. Iguales en
+   cabeza, 16 a cada lado, 96 de pie sobre la barra de pestañas. Iguales en
    todas las pantallas del short.
-2. **Con guiones.** `src/silabas.ts` mete un guion blando en cada sílaba y la
-   hoja los obedece con `hyphens: manual`. Sin ellos, con renglones de 36
-   caracteres, el borde derecho se queda hecho una sierra.
+2. **SIN GUIONES, y que cada pantalla acabe en punto.** Media hora antes se
+   había hecho lo contrario y él lo tumbó en cuanto lo vio: «nada, olvídalo, no
+   pongas guiones, hazlo como las capturas que te pasé de Headway». En sus
+   capturas no hay ni un guion. El borde derecho irregular —que es lo que
+   tapaban los guiones— se arregla por el otro lado: eligiendo mejor DÓNDE se
+   corta la página. «El texto realmente intenta siempre que cada página acabe
+   con un punto; puedes alargar más el margen o puedes acortarlo, pero es
+   importante que se intente que acabe con el punto que mejor convenga.»
 3. **Cada pantalla, llena.** Ninguna acaba con más de tres renglones de hueco
    salvo por una razón declarada.
-4. **Ni una palabra suelta al cambiar de pantalla**, y ninguna con scroll.
+4. **Ni una palabra suelta al cambiar de pantalla, y ni una recortada.**
 
-Las tres comprobaciones que dicen si eso se cumple:
+Las cuatro comprobaciones que dicen si eso se cumple:
 
     node scripts/huecos.mjs      hueco por pantalla, con su razón
-    node scripts/huerfanas.mjs   líneas sueltas, scroll y márgenes
+    node scripts/huerfanas.mjs   líneas sueltas, texto recortado y márgenes
     node scripts/rayos.mjs       ⚡ partidos; tiene que dar 0
+    node scripts/puntofinal.mjs  cuántas acaban en punto; hoy 55 de 60 (92 %)
 
 Lo que viene debajo es el detalle y, sobre todo, **las trampas en las que ya se
 ha caído**. No son reglas nuevas: son el porqué de las de arriba, y están para
@@ -189,13 +194,22 @@ que quedaban, y no se parte». Los que se cierran sin llenar son, casi todos, un
 rayo que no cabe; el resto, párrafos que no se parten por no dejar una línea
 suelta.
 
-Ese hueco **no lo puede llenar nada**. El texto es lineal: si el párrafo de
-arriba cede renglones, esos renglones bajan con el rayo y el hueco crece, no
-mengua. Así que no hay que buscarle solución — está aceptado a cambio de no
-cortar nunca una conclusión por la mitad.
+Ese hueco **no lo puede llenar nada moviendo texto**. El texto es lineal: si el
+párrafo de arriba cede renglones, esos renglones bajan con el rayo y el hueco
+crece, no mengua.
+
+**Pero sí lo llena estirar la pantalla, y eso costó cuatro de cinco.** Un ⚡ que
+no cabe por veinte puntos no hay que empujarlo entero a la siguiente: puede
+pasarse de la caja lo mismo que se pasa un párrafo por acabar en punto —hasta
+dos renglones, que caen en el margen de pie y están medidos para caber ahí—.
+No es partirlo, que es lo que Pablo prohibió; es dejar que la caja del rayo
+asome sobre su propio margen. Con eso, de las cinco pantallas que pasaban de
+tres renglones de hueco por culpa del ⚡ o del 💡 queda **una**, y con cuatro
+renglones en vez de diez. Está en `parteBloque`, en la rama de los bloques que
+no se parten.
 
     node scripts/rayos.mjs      cuenta rayos partidos; tiene que dar 0
-    node scripts/huerfanas.mjs  líneas sueltas, scroll y márgenes; 0 fallos
+    node scripts/huerfanas.mjs  líneas sueltas, texto recortado y márgenes; 0 fallos
 
 El segundo lleva el criterio de aceptación que puso Pablo: «ninguna página
 puede tener scroll vertical, y la distancia del texto al borde inferior tiene
@@ -312,6 +326,49 @@ la imagen.** La mancha de una línea —lo que ocupa de alto una fila de letras
 sin palos ni colas— se ve en una captura, y comparándola con la nuestra a 19,
 20 y 21 sale el número exacto. Así se encontró que su cuerpo era 20 y el
 nuestro 19, después de tres discusiones.
+
+## La trampa más cara de todas: alguien recortaba el texto
+
+**`.muro-hoja-cuerpo` tenía `overflow: hidden` y recortaba EXACTAMENTE a la
+altura de la caja.** Llevaba ahí desde antes de que existiera la paginación,
+puesto como cinturón para que una portada larga no se pintara encima del
+«Seguir», y en cuanto el reparto empezó a pasarse de la caja a propósito se
+convirtió en un agujero negro: los renglones de la tolerancia se calculaban, se
+daban por colocados y **no se pintaban**. El lector veía la pantalla cortada en
+«y por tanto» y esas palabras no aparecían tampoco en la siguiente, porque el
+reparto ya las había dado por puestas. Texto perdido, sin un aviso.
+
+Lo peor no fue el fallo, fue que **todas las comprobaciones decían que estaba
+bien**: miraban el DOM, y en el DOM el párrafo estaba entero y acababa en
+punto. Se vio mirando una captura al lado del número.
+
+Dos cosas para no repetirlo:
+
+- El cinturón vive en `.muro-hoja`, que recorta contra el borde de la hoja
+  entera. Entre el suelo del texto y ese borde está el margen de pie, que es
+  justo donde tienen que caber los renglones de más. `.muro-hoja-cuerpo` de las
+  páginas de texto va en `overflow: visible`.
+- **Cuando una comprobación mida algo que se ve, que mida lo que se ve.**
+  `huerfanas.mjs` ya no cuenta desbordamiento —desbordar es lo que se quiere—:
+  busca al primer antepasado que recorta y comprueba que el texto no le llega.
+
+## Cuánto margen de pie pide la tolerancia, con los números
+
+El margen de pie no es un gusto, es una cuenta. En un móvil de 375 el renglón
+mide 25,7 y la página puede estirarse dos, o sea 51,4 puntos que crecen hacia
+abajo. El indicador ocupa 17 puntos a partir de `--barra` + 4. Así que:
+
+    96 de margen − 51,4 de estirón − 21 del indicador = 23 de aire
+
+Medido en la pantalla, la peor de las 60 —«Por qué te mareas en el coche», la
+2, que se estira los dos renglones enteros— deja **9 puntos** entre el fondo del
+texto y la caja del indicador, que con el interlineado de los dos son unos 14 a
+la vista. Lo mide `puntofinal.mjs` y sale con código 1 si alguna pisa.
+
+**Y el margen no se sube «por si acaso»: cada punto de margen es un punto menos
+de H.** Estuvo en 112 y daba 89 % de páginas acabadas en punto con H = 576; a
+96 da 92 % con H = 592. Más margen no es más seguro, es menos texto y —lo que
+Pablo ve primero— más blanco al final de las páginas que no se estiran.
 
 ## Dos trampas de medida que costaron una ronda cada una
 

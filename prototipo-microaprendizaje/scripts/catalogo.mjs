@@ -50,6 +50,43 @@ const COLOR = {
   "por-que-se-corta-la-leche": "var(--sage)",
   "por-que-no-puedes-hacerte-cosquillas": "var(--plum)",
 };
+/* EL TÍTULO DEL SHORT ES EL DE SU SERIE, y esto lo pidió Pablo el 28 de
+   agosto: «cambia a los títulos que estaban antes: cuánto le queda al Sol,
+   cómo llueve, por qué se corta la leche, todos los títulos de antes».
+
+   Sus `.md` traen en la cabecera el titular de CADA PARTE —«La costra no está
+   curando nada», «El picante no es un sabor»—, que es una afirmación
+   discutible y está muy bien escrita, pero es el titular de un capítulo, no el
+   nombre del tema. Puesto en la portada y en el muro, la lista de shorts
+   dejaba de poder leerse de un vistazo: doce afirmaciones largas seguidas, y
+   ninguna diciendo de qué va. `MOLDE.md` ya lo tenía escrito desde antes —«el
+   título pregunta o nombra la cosa, tres a seis palabras»—; lo que faltaba era
+   aplicarlo a los textos nuevos.
+
+   Los títulos son literalmente los de antes: salen del catálogo anterior a
+   `ed7a454`, que es lo que él quiere recuperar. La clave es la carpeta, que ya
+   venía nombrada así en su propio envío.
+
+   El titular de cada parte NO se pierde: sigue en su `.md`, sale escrito aquí
+   como comentario de cada short, y es el que valdrá el día que las partes 2, 3
+   y 4 tengan portada y haya que distinguirlas. */
+const SERIE = {
+  "cuanto-le-queda-al-sol": "Cuánto de vida le queda al Sol",
+  "como-funciona-la-gravedad": "Cómo funciona la gravedad",
+  "como-cicatrizan-las-heridas": "Cómo cicatrizan las heridas",
+  "por-que-llueve": "Por qué llueve",
+  "por-que-bostezamos": "Por qué bostezamos",
+  "por-que-vuelan-los-aviones": "Por qué vuelan los aviones",
+  "por-que-tiritamos": "Por qué tiritamos",
+  "por-que-pica-el-picante": "Por qué pica el picante",
+  "por-que-te-mareas-en-el-coche": "Por qué te mareas en el coche",
+  "por-que-tenemos-estaciones": "Por qué tenemos estaciones",
+  "por-que-se-corta-la-leche": "Por qué se corta la leche",
+  /* Serie nueva del 28 de agosto: no estaba en el catálogo viejo, así que el
+     título se escribe con la misma regla que los otros once. */
+  "por-que-no-puedes-hacerte-cosquillas": "Por qué no puedes hacerte cosquillas",
+};
+
 /* El pie y el texto alternativo de cada fotografía. Van aquí y no en la
    cabecera de Pablo porque son de la imagen, no del texto: cambian cuando se
    cambia la foto y no cuando se reescribe el short. */
@@ -101,6 +138,11 @@ for (const d of readdirSync(TEXTOS).sort()) {
 }
 function f_es_md(n) { return n.endsWith(".md") && n !== "FORMATO.md"; }
 
+/** El título que se pinta: el de la serie si la hay, y si no el suyo. */
+function tituloDe(t) {
+  return SERIE[t.cabecera.serie] ?? t.titulo;
+}
+
 const dentro = [];
 const fuera = [];
 for (const ruta of rutas) {
@@ -138,10 +180,11 @@ for (const t of dentro) {
   const f = FOTOS[t.id] ?? {};
   L.push("  {");
   L.push(`    id: ${JSON.stringify(t.id)},`);
-  L.push(`    titulo: ${JSON.stringify(t.titulo)},`);
+  L.push(`    titulo: ${JSON.stringify(tituloDe(t))},`);
   L.push(`    categoria: ${JSON.stringify(c.categoria ?? "Ciencia")},`);
   L.push(`    color: ${JSON.stringify(COLOR[c.serie] ?? "var(--ochre)")},`);
   if (c.serie) L.push(`    /* Serie «${c.serie}», número ${c.orden}. Se entiende suelto. */`);
+  if (tituloDe(t) !== t.titulo) L.push(`    /* Su titular, el que trae el .md: «${t.titulo}» */`);
   L.push(`    encargo: ${JSON.stringify(f.alt ?? t.titulo)},`);
   L.push("    fotos: [");
   L.push("      {");
@@ -178,3 +221,18 @@ console.log(L.join("\n"));
 
 console.error(`\n${dentro.length} shorts dentro · ${fuera.length} esperando portada:`);
 for (const t of fuera) console.error(`   ${t.id}.avif      ${t.titulo.slice(0, 52)}`);
+
+/* Y EL AVISO DE LOS TÍTULOS REPETIDOS. Hoy no hay ninguno porque de cada serie
+   solo tiene portada la primera parte, pero en cuanto entre una segunda habrá
+   dos shorts llamados «Por qué llueve» en el mismo muro y no se distinguirán.
+   No se arregla solo, hay que decidirlo con Pablo, así que esto lo canta. */
+const porTitulo = new Map();
+for (const t of dentro) {
+  const k = tituloDe(t);
+  porTitulo.set(k, [...(porTitulo.get(k) ?? []), t.id]);
+}
+const repes = [...porTitulo].filter(([, ids]) => ids.length > 1);
+if (repes.length) {
+  console.error(`\n✗ ${repes.length} títulos repetidos en el muro:`);
+  for (const [k, ids] of repes) console.error(`   «${k}»  ->  ${ids.join(", ")}`);
+}

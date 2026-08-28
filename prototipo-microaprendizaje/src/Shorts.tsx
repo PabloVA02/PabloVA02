@@ -367,6 +367,27 @@ function espacios(el: HTMLElement): { nodo: Text; off: number }[] {
   return cortes;
 }
 
+/* CUÁNTO SE PUEDE ESTIRAR O ENCOGER UNA PÁGINA PARA ACABAR EN PUNTO.
+
+   Pablo, el 28 de agosto: «el texto realmente intenta siempre que cada página
+   acabe con un punto; puedes alargar más el margen o puedes acortarlo, pero es
+   importante que se intente que acabe con el punto que mejor convenga».
+
+   Un renglón hacia delante y dos hacia atrás. Hacia delante poco, porque ese
+   renglón se sale de la caja y crece sobre el margen de pie: uno cabe —el
+   margen está dimensionado para él, ver el CSS— y dos ya chocarían con el
+   indicador de página. Hacia atrás se puede más, porque lo único que cuesta es
+   blanco, pero tampoco mucho: dos renglones de hueco por acabar en punto está
+   bien, cinco ya es un agujero. */
+const ESTIRA = 2;
+const ENCOGE = 2;
+
+/** ¿El carácter que hay justo antes de este corte cierra una frase? */
+function finDeFrase(texto: string): boolean {
+  const t = texto.replace(/[\s\u00AD]+$/, "");
+  return /[.!?…»”)]$/.test(t) && !/\b(?:Sr|Sra|Dr|Dra|etc|a\.C|d\.C|EE\.UU)\.$/i.test(t);
+}
+
 /**
  * Las dos mitades de un bloque cortado por el hueco número `k`.
  *
@@ -494,6 +515,50 @@ function cortaHastaLlenar(
      entero baja a la pantalla siguiente. */
   const arriba = renglonesDeTrozo(mejor[0]);
   if (arriba < RENGLONES_MINIMOS) return null;
+
+  /* QUE LA PÁGINA ACABE EN PUNTO, si se puede sin pagarlo caro.
+   *
+   * El corte que llena la página cae casi siempre a mitad de frase, y eso es
+   * lo que hace que se lea mal: la última línea se corta en «pudiera tirar» y
+   * el «de ella» se va solo a la página siguiente. Así que, de todos los
+   * cortes que cierran una frase, se coge el que menos se aparte del que
+   * llenaba: hasta un renglón por delante —se sale de la caja, y el margen de
+   * pie está hecho para ese renglón— y hasta dos por detrás, que solo cuestan
+   * blanco. Si no hay ninguno en esa ventana, se queda el que llenaba.
+   *
+   * Empatando, gana el de delante: la página se ve llena y la frase entera. */
+  /* Cuáles de los cortes caen detrás de un punto. Se mira el carácter anterior
+     en el propio nodo de texto, no clonando el trozo: clonar doscientas veces
+     por párrafo para preguntar por una letra cuesta más que todo el reparto. */
+  const cortes = espacios(el);
+  const puntos: number[] = [];
+  for (let i = 0; i < cortes.length; i++) {
+    const { nodo, off } = cortes[i];
+    let antes = (nodo.textContent ?? "").slice(Math.max(0, off - 12), off);
+    if (!antes && i > 0) antes = (cortes[i - 1].nodo.textContent ?? "").slice(-12);
+    if (finDeFrase(antes)) puntos.push(i);
+  }
+  if (puntos.length) {
+    let elegido: [string, string] | null = null;
+    let mejorCoste = Infinity;
+    for (const i of puntos) {
+      const t = trozo(el, entero, i);
+      if (!t) continue;
+      const lineas = renglonesDeTrozo(t[0]);
+      const delta = lineas - arriba;
+      if (delta > ESTIRA || delta < -ENCOGE) continue;
+      if (lineas < RENGLONES_MINIMOS) continue;
+      if (renglonesDeTrozo(t[1]) < RENGLONES_MINIMOS) continue;
+      /* El coste es cuánto se aparta; a igual distancia, mejor estirar. */
+      const coste = Math.abs(delta) * 2 + (delta < 0 ? 1 : 0);
+      if (coste < mejorCoste) { mejorCoste = coste; elegido = t; }
+    }
+    if (elegido) {
+      el.innerHTML = entero;
+      if (elegido[1].length < entero.trim().length) return elegido;
+    }
+  }
+  el.innerHTML = entero;
 
   /* Y si abajo se queda una línea suelta —la palabra sola que no quiere—, se
      sube el corte un renglón: se vuelve a buscar el trozo más largo que ocupe
@@ -846,7 +911,24 @@ function parteBloque(
      La cita SÍ se parte: puede medir quince renglones y no cabría en ninguna
      pantalla empezada. */
   const dentro = b.b === "cita" ? el.querySelector("p") : b.b === "parrafo" ? el : null;
-  if (!dentro) return null;
+  if (!dentro) {
+    /* PERO SÍ SE ESTIRAN, y esto es lo que cierra los agujeros de diez
+       renglones. Un ⚡ que no cabe por veinte puntos se iba entero a la
+       pantalla siguiente y dejaba media pantalla en blanco detrás: el hueco
+       que más se ve de toda la app, y el único que no tenía ninguna de las
+       tres excepciones que puso Pablo. Pero no hay que partirlo para
+       arreglarlo —eso él lo prohibió— sino dejar que se pase de la caja lo
+       mismo que se pasa un párrafo por acabar en punto: hasta dos renglones,
+       que caen en el margen de pie y están medidos para caber ahí.
+
+       El renglón que manda es el del cuerpo y no el del bloque: lo que hay
+       que llenar es un margen de la hoja, no de la caja del rayo. */
+    const padre = el.parentElement;
+    const renglon = padre ? parseFloat(getComputedStyle(padre).lineHeight) || 0 : 0;
+    if (renglon > 0 && desbordaPor() > 0 && desbordaPor() <= ESTIRA * renglon + 0.5)
+      return "cabe-justo";
+    return null;
+  }
   const trozos = cortaHastaLlenar(dentro as HTMLElement, desborda, desbordaPor);
   if (trozos === "cabe-justo") return "cabe-justo";
   if (!trozos) return null;
