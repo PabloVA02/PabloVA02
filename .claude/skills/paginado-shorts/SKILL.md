@@ -111,7 +111,7 @@ arriba cede renglones, esos renglones bajan con el rayo y el hueco crece, no
 mengua. Así que no hay que buscarle solución — está aceptado a cambio de no
 cortar nunca una conclusión por la mitad.
 
-    node scripts/_rayos.mjs      cuenta rayos partidos; tiene que dar 0
+    node scripts/rayos.mjs      cuenta rayos partidos; tiene que dar 0
 
 ## El listón, y cómo se comprueba
 
