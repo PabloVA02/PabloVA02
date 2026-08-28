@@ -6,13 +6,140 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 
 | | hecho | queda |
 |---|---|---|
-| temas con el texto de Pablo | **10** | los diez del 28 de agosto |
-| de esos, con foto de portada | **4** | faltan seis |
+| shorts con el texto de Pablo | **35** | los 35 del 28 de agosto, en doce series |
+| de esos, **vivos en la app** | **11** | los otros 24 esperan portada |
 | libros en el catálogo | 418 | |
-| libros con resumen escrito a mano | **400** | 18 para el catálogo entero |
+| libros con resumen escrito a mano | **339** | 79 para el catálogo entero |
 | cubiertas dibujadas por Pablo | **309** | 109 para el catálogo entero |
 | emoticonos de las metas | 11 de 16 | Pablo manda los cinco que faltan |
 | resúmenes antiguos generados | 0 | 0 |
+
+Los números se sacan así, y **se vuelven a sacar antes de escribirlos aquí**:
+
+    node scripts/revisa-shorts.mjs                 shorts vivos
+    node scripts/catalogo.mjs > /dev/null          dentro / esperando portada
+    grep -c '^  "' src/libros/paginas.ts           libros con resumen
+    ls cubiertas-originales | wc -l                cubiertas de Pablo
+
+El de los resúmenes estuvo puesto en 400 durante un día y era falso: son 339 y
+lo han sido desde antes del 27 de agosto —comprobado con `git show` sobre tres
+commits—, así que no se perdió ninguno, se escribió mal el número. Un dato
+inventado en este documento es peor que no tenerlo: la siguiente sesión lo lee
+como cierto y no lo vuelve a mirar.
+
+## LOS TREINTA Y CINCO SHORTS Y EL PUNTO FINAL — 28 de agosto de 2026, noche
+
+Es el estado de HOY. Lo de debajo —«Diez temas y el paginado en tiempo real»—
+es de esta misma tarde y sigue explicando POR QUÉ está hecho así, pero sus
+números y sus nombres de carpeta ya no valen.
+
+### De dónde salen los shorts
+
+Pablo escribe los textos en `.md` con cabecera y los manda en carpetas por
+serie. Están en **`referencia/textos-de-pablo/shorts-28ago/`**, doce carpetas y
+35 ficheros, y el formato lo escribió él: `referencia/textos-de-pablo/FORMATO.md`.
+
+    node scripts/catalogo.mjs > src/historias/curiosidades.ts
+
+lee TODOS los `.md` y escribe el catálogo entero. **`curiosidades.ts` no se
+edita a mano.** Entran solo los que tienen su portada en `portadas/<id>.avif`
+—regla de Pablo: «quita el resto de shorts que tienen la portada genérica,
+elimínalos»— y el guion imprime al final los que faltan con el nombre de imagen
+que espera cada uno.
+
+### Los once que están vivos, con sus títulos
+
+**El título de un short es el de su SERIE, no el titular de la parte.** Lo pidió
+él esta noche: «cambia a los títulos que estaban antes: cuánto le queda al Sol,
+cómo llueve, por qué se corta la leche, todos los títulos de antes». Sus `.md`
+traen en la cabecera el titular de cada parte —«La costra no está curando
+nada»—, que está muy bien escrito pero es el titular de un capítulo: doce
+seguidos en el muro y la lista deja de poder leerse. `MOLDE.md` ya lo tenía
+escrito desde antes: «el título pregunta o nombra la cosa, tres a seis
+palabras». La tabla de títulos por serie está en `scripts/catalogo.mjs`, al
+lado de la de colores, y avisa si dos shorts vivos acaban llamándose igual.
+
+| serie | título | partes | vivas |
+|---|---|---|---|
+| `como-cicatrizan-las-heridas` | Cómo cicatrizan las heridas | 3 | 1 |
+| `como-funciona-la-gravedad` | Cómo funciona la gravedad | 4 | 1 |
+| `cuanto-le-queda-al-sol` | Cuánto de vida le queda al Sol | 4 | 1 |
+| `por-que-bostezamos` | Por qué bostezamos | 3 | 1 |
+| `por-que-llueve` | Por qué llueve | 4 | 1 |
+| `por-que-pica-el-picante` | Por qué pica el picante | 2 | 1 |
+| `por-que-se-corta-la-leche` | Por qué se corta la leche | 3 | 1 |
+| `por-que-te-mareas-en-el-coche` | Por qué te mareas en el coche | 2 | 1 |
+| `por-que-tenemos-estaciones` | Por qué tenemos estaciones | 2 | 1 |
+| `por-que-tiritamos` | Por qué tiritamos | 2 | 1 |
+| `por-que-vuelan-los-aviones` | Por qué vuelan los aviones | 3 | 1 |
+| `por-que-no-puedes-hacerte-cosquillas` | Por qué no puedes hacerte cosquillas | 2 | **0** |
+| `sueltos` | — (el del oro, sin serie) | 1 | **0** |
+
+De cada serie solo tiene portada la primera parte. **En cuanto entre una
+segunda habrá dos shorts llamados igual en el mismo muro**, y eso hay que
+decidirlo con Pablo, no resolverlo por cuenta propia: `catalogo.mjs` lo canta
+por la salida de error.
+
+Las cuatro primeras portadas que faltan: `la-manzana-de-newton.avif`,
+`el-olor-de-la-lluvia.avif`, `tu-cerebro-apaga-tus-propias-cosquillas.avif` y
+`todo-el-oro-choque-de-dos-estrellas.avif`.
+
+### Que cada pantalla acabe en punto
+
+Lo pidió así: «el texto realmente intenta siempre que cada página acabe con un
+punto; puedes alargar más el margen o puedes acortarlo, pero es importante que
+se intente que acabe con el punto que mejor convenga». Y media hora antes había
+tumbado los guiones: «nada, olvídalo, no pongas guiones, hazlo como las
+capturas que te pasé de Headway».
+
+De todos los cortes que cierran una frase se coge el que menos se aparta del
+que llenaba la página: **hasta dos renglones por delante y dos por detrás**.
+Los de delante crecen sobre el margen de pie, que está dimensionado para ellos.
+Salen **55 de 60 pantallas acabadas en punto, el 92 %**; las cinco que no
+pueden es porque el párrafo no tiene ningún punto a menos de dos renglones.
+
+**El margen de pie está en 96 y el indicador de página en `--barra` + 4.** Los
+números están medidos, no elegidos: a 112 salía el 89 % con la caja de texto en
+576, y a 96 sale el 92 % con la caja en 592. Más margen no es más seguro, es
+menos texto y más blanco al final de las páginas que no se estiran, que es
+justo lo que él ve primero. La cuenta entera está en la hoja de paginado.
+
+### Y el fallo que se comía texto sin avisar
+
+`.muro-hoja-cuerpo` llevaba un `overflow: hidden` de antes de que existiera la
+paginación —un cinturón para que una portada larga no se pintara encima del
+«Seguir»— y **recortaba exactamente a la altura de la caja**. En cuanto el
+reparto empezó a pasarse de esa altura a propósito, los renglones de la
+tolerancia se calculaban, se daban por colocados y no se pintaban: la pantalla
+se veía cortada en «y por tanto» y esas palabras no salían tampoco en la
+siguiente, porque el reparto ya las había dado por puestas.
+
+Lo peor no fue el fallo: fue que **todas las comprobaciones decían que estaba
+bien**, porque miraban el árbol de la página y allí el párrafo estaba entero y
+acababa en punto. Se vio poniendo una captura al lado del número.
+
+El cinturón vive ahora en `.muro-hoja`, que recorta contra el borde de la hoja
+entera y deja libre el margen de pie. Y `huerfanas.mjs` ya no cuenta
+desbordamiento —desbordar es lo que se quiere— sino que busca al primer
+antepasado que recorta y comprueba que el texto no le llega.
+
+### Las cuatro comprobaciones, y hay que pasarlas todas
+
+    npx vite build && npx vite preview --port 4173 &
+    node scripts/huecos.mjs      hueco por pantalla, con su razón
+    node scripts/huerfanas.mjs   líneas sueltas, texto recortado y márgenes
+    node scripts/rayos.mjs       ⚡ partidos; tiene que dar 0
+    node scripts/puntofinal.mjs  cuántas acaban en punto, y si alguna pisa
+
+Hoy: 0 palabras sueltas, 0 recortadas, 0 rayos partidos, 92 % de puntos
+finales, y **una sola** pantalla con más de tres renglones de hueco —un 💡 que
+no cabe y no se parte, que es regla suya—.
+
+El ⚡ y el 💡 siguen sin partirse nunca, pero desde esta noche **sí se
+estiran**: uno que no cabe por veinte puntos se pasa de la caja como un
+párrafo en vez de irse entero a la pantalla siguiente. Con eso, de cinco
+pantallas con hueco grande por su culpa queda una, y con cuatro renglones en
+vez de diez.
 
 ## DIEZ TEMAS Y EL PAGINADO EN TIEMPO REAL — 28 de agosto de 2026, tarde
 
@@ -86,10 +213,16 @@ Y lo que evita que vuelva a pasar: **el alto ya no se calcula**. La caja del
 texto lleva `flex: 1`, el layout resuelve el hueco y se lee su altura ya
 renderizada. Cero aritmética.
 
-**El pie de la última pantalla también ocupa.** Lleva los dos botones y el
-«siguiente short», unos cien puntos. Paginada con el alto de las demás, el
-texto se metía debajo y aparecía scroll. La hoja de medir lleva una copia
-inerte del pie y se leen las dos alturas.
+**El pie de la última pantalla también ocupaba, y ya no.** Llevaba los dos
+botones y el «siguiente short», unos cien puntos, y paginada con el alto de las
+demás el texto se metía debajo y aparecía scroll; la hoja de medir llevaba una
+copia inerte del pie para leer las dos alturas. **Nada de eso queda**: los
+botones se compactaron en una fila de 44 y viven DENTRO del margen de pie, en
+`position: absolute`, así que no le quitan sitio a nadie y la caja de texto
+mide exactamente lo mismo en la primera pantalla y en la última —que es el
+criterio de aceptación que puso Pablo—. El «siguiente short» se cayó: el gesto
+vertical ya lo cuenta el muro y no valía cuarenta puntos de margen en TODAS las
+pantallas. La copia inerte del pie se ha borrado de la hoja gemela.
 
 **El que reparte es `usePaginas`, en `src/Shorts.tsx`.** Dentro de cada
 pantalla se monta una **hoja gemela invisible** —misma clase, mismos rellenos,
@@ -111,6 +244,11 @@ reglas.
 bloques. Sin medir nada: eso es de la app.
 
 ### Los diez temas
+
+**Esta tabla es de la tarde y ya no vale.** Esa noche Pablo mandó los 35 de
+`shorts-28ago/` y estos diez se quedaron atrás; los títulos, sin embargo, son
+los que él quiso recuperar por la noche, así que aquí están las palabras
+exactas. El estado de verdad es el de la sección de arriba.
 
 Los originales están en `referencia/textos-de-pablo/28-agosto-tarde/`.
 
@@ -536,6 +674,14 @@ superconjunto, y se vuelve a publicar.
 El tamaño manda: el tope de publicación son 16 MB. Con 223 libros y 757 shorts,
 `--tope 1.6` se pasa; con `--tope 1.2`, `--ancho 240` y `--calidad 0.55` el
 `movil.html` sale por debajo de 15 MB.
+
+**El 28 de agosto por la noche va por 15,4 MB**, y de eso 14,3 son las
+cubiertas dibujadas en base64. Queda medio mega de aire. Las once portadas
+nuevas caben porque `movil.mjs` las reescribe a 900 de ancho **solo para el
+simulador** —3,8 MB a 1,9—, dejando intactos los AVIF de `portadas/`. Cuando el
+número se acerque a 16 lo siguiente que hay que apretar son las cubiertas, no
+las portadas: `--cubiertas-ancho 296 --cubiertas-calidad 0.74` es lo que hay
+hoy y baja de 17,6 MB a 4,9.
 
 Las órdenes para rehacerlo están en el README, en «Verlo sin instalar nada».
 Con el caché de fotos lleno —`fotos-cache/`, que ya no vive en `/tmp`
