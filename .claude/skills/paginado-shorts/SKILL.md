@@ -39,7 +39,12 @@ parezca razonable, manda esto.
    una en una y tarda ocho pruebas en vez de doscientas—. Es preferible partir
    un párrafo a dejar la página medio vacía. Las listas se parten entre puntos,
    y si no cabe ni el primero, por dentro de ese punto; la continuación se pinta
-   sin la bolita, igual que el rayo partido se pinta sin el icono.
+   sin la bolita. Las citas se parten por su párrafo, y la firma se va siempre
+   con la mitad de abajo.
+5 bis. **EL ⚡ NO SE PARTE NUNCA.** Orden de Pablo, 28 de agosto: «nunca cortes
+   los textos que tienen un rayito azul». Cuando un rayo no quepa, baja entero
+   a la pantalla siguiente y el hueco se queda. Estuvo partiéndose y se quitó a
+   sabiendas de lo que cuesta: ver abajo.
 6. **Un título no se separa de su primer párrafo** y **el ⚡ no se queda suelto
    sin nada delante**, **pero ninguna de las dos se paga a cualquier precio**:
    si arreglarlo deja más de un cuarto de pantalla en blanco, no se arregla.
@@ -92,6 +97,21 @@ entre 590 y 679 —un 13 % de los casos, tres temas de diez— hay que partirlo:
 penúltima se llena a 590 y se ve a 679, así que se queda con 89 puntos de hueco.
 No hay manera de evitarlo mientras los botones vayan dentro del flujo de la
 última pantalla; la única salida sería sacarlos de ahí.
+
+## Lo que cuesta no partir el ⚡, con el número delante
+
+La regla 5 bis tiene precio y hay que saberlo antes de proponer «llenar más».
+El día que se puso, medido sobre quince temas: **de 3 pantallas intermedias con
+hueco de dos renglones o más se pasó a 15, de 80.** Todas por lo mismo, y el
+diario lo dice con esas palabras: «no cabía un rayo de 128 en los 63 que
+quedaban, y no se parte».
+
+Ese hueco **no lo puede llenar nada**. El texto es lineal: si el párrafo de
+arriba cede renglones, esos renglones bajan con el rayo y el hueco crece, no
+mengua. Así que no hay que buscarle solución — está aceptado a cambio de no
+cortar nunca una conclusión por la mitad.
+
+    node scripts/_rayos.mjs      cuenta rayos partidos; tiene que dar 0
 
 ## El listón, y cómo se comprueba
 

@@ -7263,13 +7263,25 @@ button {
   hyphenate-limit-chars: 6 3 3;
 }
 
-/* El título, en una sola línea siempre. Lo pidió Pablo sin excepción. Aquí va
-   la mitad que se puede escribir en CSS —que no parta y que obedezca a la
-   escala que le calcula useUnaLinea—; la otra mitad es la medida, que hay que
-   hacer con el título ya pintado porque depende de la letra del móvil. */
+/* El título, en una sola línea siempre que se pueda. Lo pidió Pablo sin
+   excepción, y la excepción llegó con sus propios títulos: «Al Sol le quedan
+   cinco mil millones de años. A nosotros, mil» no cabe en una línea en un
+   móvil ni encogiéndolo a la mitad, y salía cortado por el marco. Así que
+   `useUnaLinea` mide y, cuando una línea obligaría a dejar el cartel
+   ilegible, le pone `data-envuelve` y esto lo deja partir.
+
+   Aquí va la mitad que se puede escribir en CSS —que no parta y que obedezca a
+   la escala calculada—; la otra mitad es la medida, que hay que hacer con el
+   título ya pintado porque depende de la letra del móvil. */
 .muro-hoja h2 {
   white-space: nowrap;
   font-size: calc(4.4cqw * var(--encoge, 1));
+}
+/* Y envuelto: `balance` reparte los renglones en vez de dejar el último con
+   una palabra suelta, que en un cartel de tres líneas se ve mucho. */
+.muro-hoja h2[data-envuelve="true"] {
+  white-space: normal;
+  text-wrap: balance;
 }
 
 /* Pantallas bajas: que el texto no llegue nunca a pisar el «Seguir».
@@ -11054,7 +11066,10 @@ button {
   font-family: var(--titular);
   font-size: calc(11cqw * var(--encoge, 1));
   font-weight: 500;
-  line-height: 1.04;
+  /* 1,04 estaba pensado para una línea, donde el interlineado no se ve.
+     Envuelto en tres, ese valor pega los renglones y las tildes de uno tocan
+     las mayúsculas del de abajo. */
+  line-height: 1.08;
   letter-spacing: -0.018em;
   text-transform: none;
   color: var(--ink);

@@ -13,11 +13,18 @@ import portadaGravedad from "../../portadas/como-funciona-la-gravedad.avif";
 /* ==========================================================================
    CURIOSIDADES — el texto lo escribe Pablo, aquí se maqueta
 
-   Doce temas. Diez llegaron el 28 de agosto de 2026 por la tarde y dos —«Cómo
-   funciona la gravedad» y «Por qué se corta la leche»— esa misma noche. Los
-   originales, tal como los mandó, están en `referencia/textos-de-pablo/`, y
-   este fichero se arma con `scripts/temas.mjs` leyéndolos: un `diff` contra
-   ellos dice en un segundo si aquí falta o sobra algo.
+   Quince temas, todos del 28 de agosto de 2026. Los originales, tal como los
+   mandó, están en `referencia/textos-de-pablo/`, y este fichero se arma con
+   `scripts/temas.mjs` leyéndolos: un `diff` contra ellos dice en un segundo si
+   aquí falta o sobra algo.
+
+   «CUÁNTO LE QUEDA AL SOL» YA NO EXISTE: son cuatro. Era el tema más largo de
+   todos —diez pantallas— y Pablo lo partió esa misma noche en los cuatro que
+   llevan `sol-` delante. Es su propia regla: un short cuenta UNA sorpresa, y
+   aquel contaba cuatro. Repartido así, cada una compite en el muro con su
+   gancho y se termina en tres deslizamientos en vez de en nueve. La fotografía
+   de la corona solar se queda con el primero, que es el que abre el asunto;
+   los otros tres van con su `encargo` hasta que tengan la suya.
 
    NO HAY PÁGINAS AQUÍ, y es lo importante. La historia viene en una tirada de
    bloques seguidos y quien la reparte en pantallas es la app, midiendo el
@@ -56,8 +63,8 @@ import portadaGravedad from "../../portadas/como-funciona-la-gravedad.avif";
 
 export const CURIOSIDADES: Short[] = [
   {
-    id: "cuanto-le-queda-al-sol",
-    titulo: "Cuánto le queda al Sol",
+    id: "sol-dos-relojes",
+    titulo: "Al Sol le quedan cinco mil millones de años. A nosotros, mil",
     categoria: "Ciencia",
     color: "var(--ochre)",
     encargo: "El disco solar entero en ultravioleta, con la corona erizada de arcos.",
@@ -75,50 +82,83 @@ export const CURIOSIDADES: Short[] = [
     ],
     soloPortada: true,
     textoDePablo: true,
-    /* La imagen que pide su texto para DENTRO del tema, todavía sin hacer:
-       IMAGEN — sección «Antes de apagarse, el Sol se volverá enorme». Comparación de tamaño a escala: el Sol de hoy, minúsculo, dentro de la silueta del Sol */
     bloques: [
       {
         b: "rotulo",
         texto:
-          "El Sol tiene mucho más tiempo por delante que nosotros",
+          "Son dos relojes distintos y el nuestro corre más rápido",
       },
       {
         b: "parrafo",
         texto:
           "¿Alguna vez has mirado al Sol y te has preguntado cuánto tiempo le queda? La mayoría " +
-          "de nosotros damos por sentado que estará ahí siempre, o al menos durante tanto tiempo " +
-          "que no merece la pena pensarlo. Y en parte es cierto: a nuestra estrella le quedan " +
-          "unos cinco mil millones de años por delante.",
+          "de nosotros damos por sentado que estará ahí siempre, o al menos tanto tiempo que no " +
+          "merece la pena pensarlo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y en parte es cierto: a nuestra estrella le quedan unos cinco mil millones de años por " +
+          "delante.",
       },
       {
         b: "parrafo",
         texto:
           "Pero hay un detalle que lo cambia todo. La Tierra habitable, este planeta con agua " +
-          "líquida y con plantas y animales, tiene un plazo mucho más corto: alrededor de mil " +
-          "millones de años. Cinco veces menos. Son dos relojes distintos, y el nuestro corre " +
-          "mucho más rápido.",
+          "líquida y con plantas y animales, tiene un plazo mucho más corto: <strong>alrededor de " +
+          "mil millones de años.</strong> Cinco veces menos.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "No es el mismo reloj. Nuestro plazo se agota mucho antes de que a la estrella le " +
+          "ocurra absolutamente nada.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "La vida en la Tierra se acaba cinco veces antes que el Sol. No compartimos su " +
+          "calendario.",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "El motivo es que el Sol se está volviendo más brillante",
       },
       {
         b: "parrafo",
         texto:
           "Para entender por qué, hay que aceptar algo que cuesta: el Sol no es una bombilla de " +
-          "intensidad fija. Se está volviendo más <strong>brillante</strong>, y lleva haciéndolo " +
-          "desde el día mismo en que se encendió.",
+          "intensidad fija. Lleva volviéndose más brillante desde el día mismo en que se " +
+          "encendió.",
       },
       {
         b: "parrafo",
         texto:
-          "El motivo está en su centro. Allí dentro el hidrógeno se fusiona en helio, y el helio " +
-          "resultante ocupa menos espacio que el hidrógeno del que procede, así que el núcleo se " +
-          "va comprimiendo poco a poco bajo su propio peso.",
+          "¿Y por qué le pasa eso? <strong>Es simple:</strong> en su centro el hidrógeno se " +
+          "fusiona en helio, y el helio resultante ocupa menos espacio que el hidrógeno del que " +
+          "procede. Así que el núcleo se va comprimiendo poco a poco bajo su propio peso.",
       },
       {
         b: "parrafo",
         texto:
-          "Al comprimirse se calienta, al calentarse fusiona más deprisa, y al fusionar más " +
-          "deprisa alumbra más. Es un bucle que se alimenta a sí mismo y para el que no existe " +
+          "Al comprimirse se calienta. Al calentarse fusiona más deprisa. Y al fusionar más " +
+          "deprisa, alumbra más. Es un bucle que se alimenta a sí mismo y para el que no existe " +
           "ningún freno posible.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Falta poco más de un diez por ciento de brillo para que la Tierra deje de ser " +
+          "habitable. Y ese diez por ciento llega dentro de unos mil millones de años.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "¿Sabías que…? Cuando se formó la Tierra, el Sol brillaba un treinta por ciento menos " +
+          "que hoy. Con aquella estrella más apagada y esta misma atmósfera, la temperatura media " +
+          "del planeta sería de siete grados bajo cero. La vida no empezó bajo un sol como el " +
+          "nuestro, sino bajo uno mucho más tibio.",
       },
       {
         b: "rayo",
@@ -126,39 +166,40 @@ export const CURIOSIDADES: Short[] = [
           "El Sol no necesita morir para acabar con la vida en la Tierra. Le basta con seguir " +
           "haciendo exactamente lo que lleva haciendo desde el principio.",
       },
-      {
-        b: "parrafo",
-        texto:
-          "¿Sabías que…? Cuando se formó la Tierra, el Sol brillaba un treinta por ciento menos " +
-          "que hoy. Si pusiéramos nuestro planeta actual, con esta misma atmósfera, bajo aquella " +
-          "estrella más apagada, la temperatura media sería de siete grados bajo cero y estaría " +
-          "congelado de polo a polo.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "La vida no empezó bajo un sol como el nuestro, sino bajo uno mucho más tibio, y lleva " +
-          "cuatro mil quinientos millones de años con la calefacción subiendo despacio.",
-      },
+    ],
+  },
+  {
+    id: "sol-no-llegara-por-fuego",
+    titulo: "El final de la vida en la Tierra no llegará por fuego, sino por asfixia",
+    categoria: "Ciencia",
+    color: "var(--sage)",
+    encargo: "Un bosque a contraluz con la hoja seca en primer plano: lo que se apaga primero son las plantas, no la piedra.",
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
       {
         b: "rotulo",
         texto:
-          "El final no llegará por fuego, sino por asfixia",
+          "Las primeras en caer serán las plantas",
       },
       {
         b: "parrafo",
         texto:
           "Cuando pensamos en el final de la vida en la Tierra, casi todos imaginamos lo mismo: " +
-          "un planeta reseco, los océanos hirviendo y todo achicharrado bajo un sol implacable. " +
+          "un planeta reseco, los océanos hirviendo y todo achicharrado bajo un sol implacable.",
+      },
+      {
+        b: "parrafo",
+        texto:
           "Es una imagen poderosa, pero llega mucho más tarde de lo que creemos. Lo primero que " +
-          "ocurre es bastante más silencioso, y las primeras en caer serán las plantas.",
+          "ocurre es bastante más silencioso.",
       },
       {
         b: "parrafo",
         texto:
           "El mecanismo es indirecto, y por eso resulta tan difícil de anticipar. A medida que el " +
-          "Sol calienta, la roca de los continentes se erosiona más deprisa, y esa erosión " +
-          "consume dióxido de carbono del aire.",
+          "Sol calienta —y lleva calentándose desde que se encendió— la roca de los continentes " +
+          "se erosiona más deprisa. Y esa erosión consume dióxido de carbono del aire.",
       },
       {
         b: "parrafo",
@@ -172,24 +213,14 @@ export const CURIOSIDADES: Short[] = [
         b: "parrafo",
         texto:
           "El problema es que las plantas necesitan ese mismo CO₂ para hacer la " +
-          "<strong>fotosíntesis</strong>. Es, literalmente, su comida. Y llega un punto en que el " +
-          "termostato ha limpiado el aire de carbono hasta un nivel en el que ya no pueden seguir " +
-          "alimentándose. Con ellas se cae todo lo que depende de ellas, que en tierra firme es " +
-          "prácticamente todo.",
+          "<strong>fotosíntesis</strong>. Es, literalmente, su comida.",
       },
       {
         b: "parrafo",
         texto:
-          "El cálculo clásico sitúa ese momento dentro de unos mil millones de años. Sin embargo, " +
-          "trabajos recientes lo alargan hasta cerca de mil ochocientos millones y, de paso, " +
-          "cambian la causa de la muerte: las plantas no llegarían a quedarse sin comida, sino " +
-          "que se detendrían de puro calor, por encima de los sesenta y cinco grados.",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Los océanos hierven bastante más tarde, aunque para entonces ya no quedará nadie para " +
-          "verlo.",
+          "Llega un punto en que el termostato ha limpiado el aire de carbono hasta un nivel en " +
+          "el que ya no pueden seguir alimentándose. Y con ellas se cae todo lo que depende de " +
+          "ellas, que en tierra firme es prácticamente todo.",
       },
       {
         b: "rayo",
@@ -200,21 +231,68 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "rotulo",
         texto:
-          "Antes de apagarse, el Sol se volverá enorme",
+          "Cuándo ocurre, y por qué la fecha se ha movido",
       },
       {
         b: "parrafo",
         texto:
-          "Todo lo anterior ocurrirá con un Sol todavía normal, en plena forma. Su propio final " +
-          "llega mucho después, y no se parece en nada a apagarse.",
+          "El cálculo clásico sitúa ese momento dentro de unos mil millones de años.",
       },
       {
         b: "parrafo",
         texto:
-          "Cuando por fin agote el hidrógeno de su núcleo, el Sol hará justo lo contrario: se " +
-          "hinchará. Se convertirá en una <strong>gigante roja</strong> de unas doscientas " +
-          "cincuenta y seis veces su tamaño actual, lo que significa que su superficie llegará " +
-          "más lejos de donde ahora mismo orbita la Tierra.",
+          "Sin embargo, trabajos recientes lo alargan hasta cerca de mil ochocientos millones y, " +
+          "de paso, cambian la causa de la muerte. Según esos modelos, las plantas no llegarían a " +
+          "quedarse sin comida: se detendrían de puro calor, por encima de los sesenta y cinco " +
+          "grados.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Los océanos hierven bastante más tarde, aunque para entonces ya no quedará nadie para " +
+          "verlo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Merece la pena quedarse con el orden, que es lo contrario de lo que sugiere la " +
+          "intuición. Primero se apaga la fotosíntesis. Después desaparece la vida en tierra. Y " +
+          "solo mucho después llega el fuego que todos imaginábamos primero.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "El planeta no arderá con vida dentro. Para cuando lleguen los océanos hirviendo, hará " +
+          "cientos de millones de años que no queda nadie.",
+      },
+    ],
+  },
+  {
+    id: "sol-la-tierra-casi-escapa",
+    titulo: "Cuando el Sol se hinche, la Tierra estará a punto de escapar",
+    categoria: "Ciencia",
+    color: "var(--clay)",
+    encargo: "Un sol enorme y rojo ocupando media pantalla, con el filo de un planeta pequeño recortado contra él.",
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Primero se convertirá en una gigante roja",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Cuando el Sol agote por fin el hidrógeno de su núcleo, hará justo lo contrario de " +
+          "apagarse: se hinchará.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Se convertirá en una <strong>gigante roja</strong> de unas doscientas cincuenta y seis " +
+          "veces su tamaño actual, lo que significa que su superficie llegará más lejos de donde " +
+          "ahora mismo orbita la Tierra.",
       },
       {
         b: "parrafo",
@@ -237,29 +315,28 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "rotulo",
         texto:
-          "La Tierra estará a punto de escapar",
-      },
-      {
-        b: "parrafo",
-        texto:
-          "Aquí ocurre algo que parece escrito por un guionista, y es la parte más fascinante de " +
-          "toda la historia.",
+          "Y aquí ocurre algo que parece escrito por un guionista",
       },
       {
         b: "parrafo",
         texto:
           "Para poder hincharse tanto, el Sol tiene que soltar lastre. Perderá alrededor de un " +
           "tercio de su masa, expulsada al espacio en forma de un viento lento y continuo durante " +
-          "millones de años. Y menos masa significa menos gravedad: su agarre sobre los planetas " +
-          "se irá aflojando poco a poco.",
+          "millones de años.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Y menos masa significa menos gravedad: su agarre sobre los planetas se irá aflojando " +
+          "poco a poco.",
       },
       {
         b: "parrafo",
         texto:
           "Así que las órbitas se abren. La Tierra empezará a alejarse, empujada hacia fuera por " +
           "la propia decadencia de la estrella que viene a devorarla. Y aquí está lo interesante: " +
-          "ese efecto, por sí solo, bastaría para salvarla. La órbita crecería lo justo para " +
-          "quedar por fuera del Sol hinchado.",
+          "<strong>ese efecto, por sí solo, bastaría para salvarla.</strong> La órbita crecería " +
+          "lo justo para quedar por fuera del Sol hinchado.",
       },
       {
         b: "parrafo",
@@ -291,15 +368,14 @@ export const CURIOSIDADES: Short[] = [
         b: "parrafo",
         texto:
           "Pero modelos más recientes calculan que ese tirón hacia dentro es más débil de lo que " +
-          "se creía, y devuelven a la Tierra a la lista de supervivientes. La cuestión no está " +
-          "resuelta.",
+          "se creía, y devuelven a la Tierra a la lista de supervivientes.",
       },
       {
         b: "parrafo",
         texto:
-          "La incertidumbre simplemente se ha mudado de sitio: ahora depende de cuánta masa " +
-          "pierda exactamente el Sol, que es justo lo que todavía no sabemos medir bien en " +
-          "estrellas como la nuestra.",
+          "La cuestión no está resuelta. La incertidumbre simplemente se ha mudado de sitio: " +
+          "ahora depende de cuánta masa pierda exactamente el Sol, que es justo lo que todavía no " +
+          "sabemos medir bien en estrellas como la nuestra.",
       },
       {
         b: "rayo",
@@ -307,22 +383,33 @@ export const CURIOSIDADES: Short[] = [
           "Sabemos con precisión la fecha de la cita entre el Sol y la Tierra. Todavía no sabemos " +
           "cómo termina.",
       },
+    ],
+  },
+  {
+    id: "sol-ninguna-se-ha-apagado",
+    titulo: "Todavía no se ha apagado del todo ninguna estrella",
+    categoria: "Ciencia",
+    color: "var(--slate)",
+    encargo: "Una brasa casi apagada en la oscuridad, con el punto de luz todavía dentro. Macro, sin fondo.",
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
       {
         b: "rotulo",
         texto:
-          "Lo que quede seguirá enfriándose más tiempo del que lleva existiendo el universo",
+          "Lo que quedará del Sol seguirá enfriándose sin terminar nunca",
       },
       {
         b: "parrafo",
         texto:
-          "De lo que no hay ninguna duda es de lo que quedará al final.",
+          "Cuando el Sol acabe de deshacerse, dejará atrás su propio corazón: una bola de materia " +
+          "comprimida, más o menos del tamaño de la Tierra, con la masa de media estrella metida " +
+          "dentro.",
       },
       {
         b: "parrafo",
         texto:
-          "Cuando el Sol termine de deshacerse, dejará atrás su propio corazón: una bola de " +
-          "materia comprimida, más o menos del tamaño de la Tierra, con la masa de media estrella " +
-          "metida dentro. Es lo que los astrónomos llaman una <strong>enana blanca</strong>.",
+          "Es lo que los astrónomos llaman una <strong>enana blanca</strong>.",
       },
       {
         b: "parrafo",
@@ -334,16 +421,33 @@ export const CURIOSIDADES: Short[] = [
       {
         b: "parrafo",
         texto:
-          "Y se enfría tan despacio que todavía no ha terminado ninguna. En todo el universo " +
-          "observable no existe una sola enana blanca apagada del todo, sencillamente porque el " +
-          "universo no lleva existiendo el tiempo suficiente para que a ninguna le haya dado " +
-          "tiempo.",
+          "¿Y cuánto tarda en enfriarse del todo una enana blanca? <strong>Es simple: más de lo " +
+          "que lleva existiendo el universo.</strong>",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En todo el universo observable no existe ni una sola enana blanca apagada por " +
+          "completo. No es que sean raras: es que no ha pasado tiempo suficiente desde el " +
+          "principio de todo para que a ninguna le haya dado tiempo a terminar.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Las estrellas más antiguas que se formaron, hace miles de millones de años, siguen ahí " +
+          "fuera enfriándose todavía. Todas.",
       },
       {
         b: "parrafo",
         texto:
           "El Sol acabará siendo una brasa. Una brasa que seguirá ahí, cada vez más tenue, mucho " +
           "después de que se hayan apagado todas las cosas que hoy sabemos nombrar.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "En todo el universo observable no hay una sola enana blanca apagada del todo. El " +
+          "universo no lleva existiendo el tiempo suficiente.",
       },
     ],
   },

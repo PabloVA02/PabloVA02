@@ -675,25 +675,28 @@ function parteBloque(b: Bloque, el: HTMLElement, desborda: () => boolean): [Bloq
     ];
   }
 
-  /* Un párrafo se parte por sí mismo; un rayo y una cita, por el párrafo de
-     dentro, para no perder la caja. La continuación se pinta sin el icono del
-     rayo ni la comilla de apertura de la cita: ya salieron arriba.
+  /* EL RAYO NO SE PARTE NUNCA. Orden de Pablo del 28 de agosto: «nunca cortes
+     los textos que tienen un rayito azul». Y tiene razón: la caja del ⚡ es la
+     conclusión de la pantalla, una frase que se lee de un golpe, y partida en
+     dos deja media idea colgando al pie y la otra media abriendo la siguiente
+     sin el icono que dice de qué va.
 
-     Y LA FIRMA DE UNA CITA SE VA CON LA COLA. Una cita partida deja arriba la
-     mitad del texto y abajo la otra mitad con el «— Fulano»: firmar el trozo
-     de arriba diría que la cita acaba ahí, y firmar los dos, que son dos
-     citas. */
-  const dentro = b.b === "rayo" || b.b === "cita" ? el.querySelector("p") : b.b === "parrafo" ? el : null;
+     Estuvo partiéndose hasta hoy, y se hizo por un motivo real: era la última
+     causa de pantallas a medias —«no cabía un rayo de 135 y quedaban 58»— y
+     ese hueco no lo puede llenar nada más. Se acepta el cambio a sabiendas y
+     manda esto: antes que un rayo cortado, el hueco. Cuando un rayo no quepa,
+     baja entero a la pantalla siguiente.
+
+     La cita SÍ se sigue partiendo, por el párrafo de dentro: no lleva rayito y
+     puede medir quince renglones, que no caben en ninguna pantalla empezada. Y
+     LA FIRMA SE VA CON LA COLA: firmar el trozo de arriba diría que la cita
+     acaba ahí, y firmar los dos, que son dos citas. */
+  const dentro = b.b === "cita" ? el.querySelector("p") : b.b === "parrafo" ? el : null;
   if (!dentro) return null;
   const trozos = cortaHastaLlenar(dentro as HTMLElement, desborda);
   if (!trozos) return null;
   /* Igual que con la lista: la caja se queda con la cabeza puesta. */
   (dentro as HTMLElement).innerHTML = trozos[0];
-  if (b.b === "rayo")
-    return [
-      b.sigue ? { b: "rayo", texto: trozos[0], sigue: true } : { b: "rayo", texto: trozos[0] },
-      { b: "rayo", texto: trozos[1], sigue: true },
-    ];
   if (b.b === "cita")
     return [
       b.sigue ? { b: "cita", texto: trozos[0], sigue: true } : { b: "cita", texto: trozos[0] },
@@ -1289,22 +1292,65 @@ function PaginaShort({
  * trabajo que queda pendiente en el molde—. Con un título corto no se toca
  * nada y sale a su tamaño.
  */
+/* EL SUELO DE UNA LÍNEA. Por debajo de esto, el titular deja de ser un cartel
+   y pasa a ser letra pequeña: en un móvil de 375 son unos veinticinco puntos.
+   Cuando un título no cabe en una línea sin bajar de aquí, se envuelve. */
+const SUELO_UNA_LINEA = 0.62;
+/* Y envuelto, hasta tres renglones. Si ni así cabe, se encoge, pero nunca por
+   debajo de esto: antes cuatro renglones que un cartel ilegible. */
+const RENGLONES_TITULAR = 3;
+const SUELO_ENVUELTO = 0.45;
+
+/**
+ * EL TITULAR DE LA PORTADA, LO MÁS GRANDE QUE QUEPA.
+ *
+ * Se pinta a 11cqw y se encoge hasta que entra, midiendo con el título YA
+ * pintado: lo que decide si cabe no es cuántas letras hay sino cuánto miden en
+ * ESTE móvil, con ESTA letra.
+ *
+ * EN UNA LÍNEA SIEMPRE QUE SE PUEDA, que es lo que pidió Pablo. Pero «siempre»
+ * se escribió cuando los títulos eran «Por qué llueve», y el 28 de agosto
+ * llegaron los suyos partidos del Sol: «Al Sol le quedan cinco mil millones de
+ * años. A nosotros, mil», cincuenta y nueve letras. En una línea eso no cabe
+ * en un móvil ni encogiéndolo a la mitad —salía cortado por el marco, que es
+ * lo único que no puede pasar—, así que la regla se lee como lo que quería
+ * decir: un cartel se compone en una línea mientras la línea se lea.
+ *
+ * Por debajo de `SUELO_UNA_LINEA` se envuelve, se equilibran los renglones con
+ * `text-wrap: balance` y se sigue encogiendo hasta que quepa en tres.
+ */
 function useUnaLinea(texto: string) {
   const ref = useRef<HTMLHeadingElement>(null);
   useLayoutEffect(() => {
     const e = ref.current;
     if (!e) return;
     const ajusta = () => {
+      /* Siempre se empieza de cero: si se midiera sobre la escala anterior, un
+         título que ha crecido no volvería a subir nunca. */
+      e.removeAttribute("data-envuelve");
       e.style.setProperty("--encoge", "1");
       const cabe = e.clientWidth;
+      if (cabe <= 0) return;
       const mide = e.scrollWidth;
-      /* El suelo baja del 0,78 al 0,42 porque el titular ya no parte de 4,4cqw
-         sino de 11: en la portada-cartel el título se pinta lo más grande que
-         quepa en una línea, así que un título corto sale enorme y uno largo
-         aterriza más o menos donde estaba antes. Con el suelo viejo, un título
-         de treinta letras se salía del marco. */
-      if (mide > cabe && cabe > 0)
-        e.style.setProperty("--encoge", String(Math.max(0.42, cabe / mide)));
+      if (mide <= cabe) return;
+
+      const escala = cabe / mide;
+      if (escala >= SUELO_UNA_LINEA) {
+        e.style.setProperty("--encoge", String(escala));
+        return;
+      }
+
+      /* No cabe en una línea sin quedarse ilegible: se envuelve y se busca la
+         escala más grande que entre en tres renglones. De 0,04 en 0,04, que
+         son cinco medidas como mucho y cada una es una relectura de la
+         maqueta, no un cálculo. */
+      e.setAttribute("data-envuelve", "true");
+      const renglon = () => parseFloat(getComputedStyle(e).lineHeight) || 1;
+      for (let s = SUELO_UNA_LINEA; s >= SUELO_ENVUELTO - 0.001; s -= 0.04) {
+        e.style.setProperty("--encoge", String(s));
+        if (Math.round(e.scrollHeight / renglon()) <= RENGLONES_TITULAR) return;
+      }
+      e.style.setProperty("--encoge", String(SUELO_ENVUELTO));
     };
     ajusta();
     const ro = new ResizeObserver(ajusta);
