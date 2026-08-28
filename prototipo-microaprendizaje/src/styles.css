@@ -10385,7 +10385,31 @@ button {
   line-height: 1.42;
   text-align: left;
 }
+/* EL TEXTO SE REPARTE HASTA EL BORDE DE ABAJO.
+ *
+ * Pablo, el 28 de agosto, después de dos vueltas: «que ajuste el margen de
+ * abajo con el texto en todas las páginas; puedes poner una frase seguida de
+ * otra para ajustar bien abajo, pero que quede todo bien hasta abajo del todo,
+ * sin cortar palabras ni texto».
+ *
+ * Cortando por frases, la pantalla nunca queda al ras: sobra lo que ocupe la
+ * frase que no cabía. Lo que se hace con ese sobrante es lo que hace un libro
+ * de papel desde hace quinientos años —JUSTIFICAR EN VERTICAL—: no se estira
+ * la letra ni se aprieta el interlineado, se reparte el hueco entre los
+ * blancos que ya existen, los que separan un párrafo del siguiente. El primer
+ * renglón sigue arriba del todo, el último cae en el margen de abajo, y por el
+ * medio los párrafos respiran un poco más.
+ *
+ * Son tres líneas de CSS y no hay que calcular nada: `space-between` reparte
+ * lo que sobre entre los huecos que haya. Lo que sí hace falta es que el
+ * reparto en pantallas deje huecos PEQUEÑOS y parecidos —si a una pantalla le
+ * sobran siete renglones y tiene dos párrafos, el blanco de en medio se ve—, y
+ * de eso se encarga `scripts/reparte.mjs`. */
 .muro-hoja[data-sinfoto="true"] .short-cuerpo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   color: #f4f2ee;
   /* SIN PARTIR PALABRAS. El short parte con guiones —`src/silabas.ts` mete
      guiones blandos y la hoja pone `hyphens: auto`—, y se hizo cuando el texto

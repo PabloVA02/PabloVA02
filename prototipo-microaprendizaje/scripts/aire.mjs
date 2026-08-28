@@ -10,8 +10,10 @@
      palabras   las del párrafo y las del rayo, si lo lleva
      ajuste     1 = la letra va a su tamaño. Menos de 1 = ha tenido que
                 encoger para caber, y eso es una pantalla que hay que partir
-     aire       renglones vacíos entre lo último escrito y el borde de abajo.
-                Negativo = SE SALE. Más de ocho = se lee como un olvido
+     aire       renglones que sobran, medidos SIN la justificación vertical:
+                es el hueco que la pantalla va a repartir entre los párrafos.
+                Negativo = se sale. Más de seis = el blanco entre párrafos se
+                va a notar, y hay que repartir mejor en `reparte.mjs`
 
    Medido sin banda de imagen —las historias de `soloPortada`— caben unas 190
    palabras, o 165 si la pantalla lleva rayo.
@@ -78,9 +80,18 @@ for (const n of cuales) {
       if (!texto) return { portada: true };
       /* Desde el 28 de agosto por la tarde el rayo va DENTRO del cuerpo, como
          un bloque más —igual que en el lector de los resúmenes—, así que ya
-         no hay que medirlo aparte: el borde de abajo del cuerpo es el borde
-         de abajo de lo último escrito, sea un párrafo o sea el rayo. */
-      const ultimo = texto.getBoundingClientRect().bottom;
+         no hay que medirlo aparte.
+
+         Y la pantalla JUSTIFICA EN VERTICAL: reparte lo que sobra entre los
+         párrafos, así que el último bloque cae siempre en el margen de abajo
+         y preguntarle dónde acaba daría cero siempre. Lo que se mide aquí es
+         el alto natural, apilado desde arriba, que es lo que dice si el texto
+         cabe. Se apaga el reparto mientras se mide y se vuelve a poner. */
+      const antes = texto.style.justifyContent;
+      texto.style.justifyContent = "flex-start";
+      const hijo = texto.lastElementChild;
+      const ultimo = hijo ? hijo.getBoundingClientRect().bottom : texto.getBoundingClientRect().bottom;
+      texto.style.justifyContent = antes;
       const tope = hoja.getBoundingClientRect().bottom - parseFloat(getComputedStyle(hoja).paddingBottom);
       const linea = parseFloat(getComputedStyle(texto).lineHeight) || 24;
       return {
@@ -104,7 +115,7 @@ for (const n of cuales) {
       `   ${String(p).padStart(2)}  ${String(r.palabras).padStart(3)} pal` +
       `  ajuste ${r.ajuste.padEnd(5)}  aire ${String(r.aire).padStart(5)}` +
       (r.rayo ? "  rayo" : "      ") +
-      (r.aire < 0 ? "  ← SE SALE" : r.ajuste !== "1" ? "  ← encoge" : r.aire > 8 ? "  · mucho hueco" : ""),
+      (r.aire < 0 ? "  ← SE SALE" : r.ajuste !== "1" ? "  ← encoge" : r.aire > 6 ? "  · mucho hueco que repartir" : ""),
     );
   }
 }

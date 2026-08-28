@@ -160,9 +160,27 @@ sobra al acabar el texto cae entero en la última y a veces son dos renglones:
 eso no se lee como un final, se lee como una avería. Se prueba cada corte de
 las dos últimas y gana el que iguala más los dos huecos.
 
-Resultado: de las dieciocho pantallas, **once quedan a menos de tres renglones
-del borde** y ninguna pasa de siete y medio. Las más holgadas son las dos del
-final de cada tema, que es donde el texto se acaba.
+**Y EL SOBRANTE SE REPARTE ENTRE LOS PÁRRAFOS.** Cortando por frases, la
+pantalla nunca queda al ras: sobra lo que ocupara la frase que no cabía.
+Pablo, la tercera vuelta: *«que ajuste el margen de abajo con el texto en
+todas las páginas; puedes poner una frase seguida de otra para ajustar bien
+abajo, pero que quede todo bien hasta abajo del todo sin cortar palabras ni
+texto»*.
+
+Lo que se hace con ese sobrante es lo que hace un libro de papel desde hace
+quinientos años: **justificar en vertical**. No se estira la letra ni se
+aprieta el interlineado —eso rompería lo otro que pidió, que la letra mida lo
+mismo que en el libro—: se reparte el hueco entre los blancos que ya existen,
+los que separan un párrafo del siguiente. El primer renglón sigue arriba del
+todo, el último cae en el margen de abajo, y por el medio los párrafos
+respiran un poco más. Son tres líneas de CSS —`justify-content:
+space-between`— y no hay que calcular nada.
+
+Lo que sí hace falta es que a **ninguna** pantalla le sobre mucho, porque el
+hueco ya no se queda abajo, se ve en medio. Por eso el reparto dejó de llenar
+cada pantalla hasta el tope: entre todos los repartos que usan el mínimo de
+pantallas, elige el que deja el sobrante más parejo. De las dieciocho, ahora
+**ninguna pasa de cuatro renglones y medio** y la mayoría anda por uno o dos.
 
 ### «El tamaño del texto no está igual»: era el simulador, no la letra
 

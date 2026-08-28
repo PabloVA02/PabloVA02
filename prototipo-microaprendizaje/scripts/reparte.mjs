@@ -192,24 +192,43 @@ async function aire(html) {
        falsearía la medida: se mide siempre a tamaño natural. */
     vis.style.setProperty("--ajuste", "1");
     cuerpo.innerHTML = h;
+    /* Y SIN LA JUSTIFICACIÓN VERTICAL. La pantalla reparte lo que sobra entre
+       los párrafos —`justify-content: space-between`—, así que el último
+       bloque cae SIEMPRE en el margen de abajo y preguntarle dónde acaba
+       devolvería cero siempre. Lo que hay que medir es el alto natural del
+       texto, apilado desde arriba, que es lo que decide cuánto cabe. Se apaga
+       mientras se mide y se vuelve a poner. */
+    const antes = cuerpo.style.justifyContent;
+    cuerpo.style.justifyContent = "flex-start";
+    const ultimo = cuerpo.lastElementChild;
+    const fondo = ultimo ? ultimo.getBoundingClientRect().bottom : cuerpo.getBoundingClientRect().top;
+    cuerpo.style.justifyContent = antes;
     const tope = hoja.getBoundingClientRect().bottom - parseFloat(getComputedStyle(hoja).paddingBottom);
     const linea = parseFloat(getComputedStyle(cuerpo).lineHeight) || 24;
-    return (tope - cuerpo.getBoundingClientRect().bottom) / linea;
+    return (tope - fondo) / linea;
   }, html);
 }
 
-/* --- 3. El reparto: cada pantalla, hasta el borde -------------------------
+/* --- 3. El reparto -------------------------------------------------------
 
-   Se avanza por átomos y se pregunta al navegador. Como cada pantalla lleva
-   entre cien y doscientas palabras, preguntar una por una serían miles de
-   viajes: se busca por bisección —cuánto cabe entre lo que ya sé que cabe y
-   lo que sé que no— y salen unos siete por pantalla.
+   Dos pasos, y el segundo es el que importa desde que la pantalla justifica
+   en vertical.
 
-   Los dos remates, después de saber dónde se corta:
-   · si el corte deja un subtítulo de último átomo, se retrocede hasta antes
-     del subtítulo;
-   · si deja un rayo o un subtítulo partido por la mitad —no puede pasar,
-     porque son átomos enteros— se retrocedería igual. */
+   PRIMERO, QUÉ CABE. Para cada frase se mide hasta dónde se puede llegar sin
+   salirse. Como una pantalla lleva entre seis y doce frases, preguntar una a
+   una serían miles de viajes al navegador: se dobla hacia arriba y luego se
+   busca por bisección, y salen unos siete por pantalla.
+
+   DESPUÉS, CÓMO SE REPARTE. Llenar cada pantalla hasta el tope —lo primero
+   que se probó— deja las primeras al ras y la última con lo que sobre, y eso
+   ahora se nota el doble: el hueco no se queda abajo, se reparte entre los
+   párrafos, así que una pantalla a la que le sobren siete renglones abre un
+   blanco visible en medio. Lo que hace falta es que a NINGUNA le sobre mucho.
+
+   Así que, entre todos los repartos que usan el mínimo de pantallas, se elige
+   el que reparte el sobrante más parejo, penalizando el hueco al cuadrado:
+   con el cuadrado, 3+3+3 gana a 0+1+8. Es el mismo criterio con el que se
+   parten los renglones de un párrafo, aplicado a pantallas. */
 
 const trozos = atomos(lista);
 const M = trozos.length;
@@ -218,63 +237,52 @@ async function cabeHasta(desde, hasta) {
   return (await aire(conGuiones(aHtml(trozos.slice(desde, hasta))))) >= 0;
 }
 
-const paginas = [];
-let desde = 0;
-while (desde < M) {
-  /* Bisección: `bien` es el último final que sé que cabe, `mal` el primero
-     que sé que no. */
-  let bien = desde + 1;
-  let mal = M + 1;
-  /* Primero se dobla hacia arriba, para no empezar la bisección en 1..M
-     cuando una pantalla son doscientos átomos de dos mil. */
-  let salto = 32;
-  while (bien + salto <= M && (await cabeHasta(desde, bien + salto))) {
+/** Para cada frase, todos los finales de pantalla posibles, con su hueco. */
+const cabe = [];
+for (let i = 0; i < M; i++) {
+  /* Hasta dónde llega, por bisección. */
+  let bien = i + 1;
+  let salto = 16;
+  while (bien + salto <= M && (await cabeHasta(i, bien + salto))) {
     bien += salto;
     salto *= 2;
   }
-  mal = Math.min(M + 1, bien + salto);
+  let mal = Math.min(M + 1, bien + salto);
   while (mal - bien > 1) {
     const medio = Math.floor((bien + mal) / 2);
-    if (await cabeHasta(desde, medio)) bien = medio;
+    if (await cabeHasta(i, medio)) bien = medio;
     else mal = medio;
   }
-  let hasta = bien;
-  /* Un subtítulo no cierra una pantalla. */
-  while (hasta > desde + 1 && trozos[hasta - 1].tipo === "rotulo") hasta--;
-  paginas.push(trozos.slice(desde, hasta));
-  desde = hasta;
-}
-
-/* LA HUÉRFANA DEL FINAL. Llenando hasta el borde, lo que sobra al terminar el
-   texto cae entero en la última pantalla, y a veces son dos renglones: una
-   pantalla con dos renglones y el resto vacío no se lee como un final, se lee
-   como una avería.
-
-   Cuando pasa, se reparte el final entre las ÚLTIMAS N pantallas por igual, y
-   se prueba con dos, tres y cuatro: gana la que deja el hueco más pequeño en
-   la peor de ellas. Con dos salían dos pantallas a medias; con tres o cuatro,
-   el final baja despacio, que es como acaba un capítulo. */
-async function aireDe(p) {
-  return aire(conGuiones(aHtml(p)));
-}
-
-if (paginas.length >= 2 && (await aireDe(paginas[paginas.length - 1])) > 8) {
-  const juntas = [...paginas[paginas.length - 2], ...paginas[paginas.length - 1]];
-  let mejor = null;
-  /* Se prueba cada corte y gana el que iguala más los dos huecos, sin que
-     ninguna de las dos se salga. Se reparten DOS y no tres: con tres, el hueco
-     dejaba de estar al final y aparecía en medio de la tirada, que es peor.
-     Un final que baja en dos pantallas se lee como un final. */
-  for (let k = 1; k < juntas.length; k++) {
-    const a = await aireDe(juntas.slice(0, k));
-    if (a < 0) continue;
-    const b = await aireDe(juntas.slice(k));
-    if (b < 0) continue;
-    const dif = Math.abs(a - b);
-    if (!mejor || dif < mejor.dif) mejor = { k, dif };
+  const suyas = [];
+  for (let j = i + 1; j <= bien; j++) {
+    /* Un subtítulo no cierra una pantalla: un título con nada debajo es un
+       renglón colgando. */
+    if (trozos[j - 1].tipo === "rotulo") continue;
+    suyas.push({ j, aire: await aire(conGuiones(aHtml(trozos.slice(i, j)))) });
   }
-  if (mejor) paginas.splice(-2, 2, juntas.slice(0, mejor.k), juntas.slice(mejor.k));
+  if (!suyas.length) suyas.push({ j: i + 1, aire: 0 });
+  cabe.push(suyas);
 }
+
+/** Mínimo número de pantallas desde la frase i. */
+const cuantas = new Array(M + 1).fill(Infinity);
+cuantas[M] = 0;
+for (let i = M - 1; i >= 0; i--)
+  for (const { j } of cabe[i]) cuantas[i] = Math.min(cuantas[i], 1 + cuantas[j]);
+
+/** Con ese número fijo, el reparto de hueco más parejo. */
+const coste = new Array(M + 1).fill(Infinity);
+const salta = new Array(M + 1).fill(-1);
+coste[M] = 0;
+for (let i = M - 1; i >= 0; i--)
+  for (const { j, aire: a } of cabe[i]) {
+    if (1 + cuantas[j] !== cuantas[i]) continue;
+    const c = a * a + coste[j];
+    if (c < coste[i]) { coste[i] = c; salta[i] = j; }
+  }
+
+const paginas = [];
+for (let i = 0; i < M; i = salta[i]) paginas.push(trozos.slice(i, salta[i]));
 
 const medidas = [];
 for (const p of paginas) medidas.push(+(await aire(conGuiones(aHtml(p)))).toFixed(1));
