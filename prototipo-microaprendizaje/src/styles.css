@@ -10585,12 +10585,23 @@ button {
   bottom: auto;
   padding: 12.5cqw 5.8cqw 10cqw;
   font-size: 2.45cqw;
-  color: color-mix(in srgb, #f2ece1 56%, transparent);
-  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
+  /* EL PIE TIENE QUE LEERSE TAMBIÉN SOBRE UNA FOTO CLARA.
+     Estaba calculado contra la del Sol, que arriba es negra, y con eso
+     bastaba: letra al 56 % y un velo flojo. La portada de la lluvia —gotas
+     sobre un cielo gris de monzón— lo dejó al descubierto: sobre un gris
+     claro, un blanco a medio gas con una sombra suave desaparece, y el pie no
+     es decoración. Es la atribución que exige la licencia CC BY, o sea la
+     única línea de la portada que NO puede quedar bonita a costa de no leerse.
+     Así que la letra sube a opaca y la sombra se dobla —una corta y dura para
+     dibujar el contorno, otra ancha y difusa para separarla del fondo—, y el
+     velo apenas se toca: lo que resuelve el contraste es la sombra, que solo
+     se nota debajo de las letras, y no oscurecer un tercio de la fotografía. */
+  color: color-mix(in srgb, #f2ece1 82%, transparent);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.92), 0 0 16px rgba(0, 0, 0, 0.55);
   background: linear-gradient(
     to bottom,
-    rgba(6, 6, 8, 0.5) 0%,
-    rgba(6, 6, 8, 0.24) 40%,
+    rgba(6, 6, 8, 0.52) 0%,
+    rgba(6, 6, 8, 0.26) 40%,
     transparent 78%
   );
 }

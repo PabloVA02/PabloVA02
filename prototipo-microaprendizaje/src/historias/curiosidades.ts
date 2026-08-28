@@ -125,4 +125,103 @@ export const CURIOSIDADES: Short[] = [
       },
     ],
   },
+
+  /* LAS TRES SIGUIENTES SON PORTADA Y NADA MÁS, Y ESO ES LO QUE SE PIDIÓ.
+
+     Pablo, el 28: «ponme la portada así pero de ahora en varios temas: por
+     qué los aviones vuelan, por qué llueve, por qué bostezamos. No pongas el
+     texto, que eso te lo paso yo ahora; solo quiero ver la portada. Ten en
+     cuenta que la portada debe ser bonita, de buena calidad y que se ajuste
+     bien a los límites de imagen que tenemos, para que no salga muy cortada y
+     quede fea».
+
+     Así que `paginas` va vacía a propósito. No falta nada: falta su texto, y
+     lo escribe él.
+
+     CÓMO SE HAN ELEGIDO LAS TRES FOTOGRAFÍAS, que es la parte que pidió.
+     El marco de la portada es la pantalla entera —375x812, o sea 0,46 de
+     proporción—, que es una vertical muy estrecha. Una foto apaisada normal,
+     de 3:2, pierde ahí el setenta por ciento de su ancho, y eso no se ve
+     mirando la foto: se ve después, ya recortada y fea. De modo que ninguna
+     de estas se ha juzgado entera. Se han bajado las candidatas y se han
+     mirado YA RECORTADAS al marco de verdad, con `scripts/recorte.mjs`, que
+     se ha escrito para esto. Sobre las quince que se probaron, mandan tres
+     cosas: que el asunto caiga dentro de la columna central, que quede sitio
+     arriba para el título sin taparle nada, y que del original queden más de
+     mil píxeles de ancho después del recorte, para que en una pantalla de
+     tres veces la densidad siga sin verse blanda. */
+  {
+    id: "por-que-vuelan-los-aviones",
+    titulo: "Por qué vuelan los aviones",
+    categoria: "Ciencia",
+    color: "var(--slate)",
+    encargo: "El ala desde la ventanilla, entera y limpia, sobre el azul de crucero.",
+    fotos: [
+      {
+        /* De las cinco candidatas de avión era la única con las dos cosas: el
+           ala entrando en diagonal por abajo, que deja todo el cielo libre
+           para el título, y 4160x3120, o sea 1441 píxeles de ancho después de
+           recortar. El 747 visto desde tierra era más espectacular y se quedó
+           fuera por eso: 2200 de ancho no dan más que 693 recortados. */
+        archivo: "Airplane wing sky and clouds.jpg",
+        autor: "El ala de un avión de línea en vuelo de crucero, agosto de 2016. Fotografía de Tobias1984.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Airplane_wing_sky_and_clouds.jpg",
+        foco: "50% 50%",
+        alt: "El ala gris de un avión cruzando en diagonal la parte baja de la imagen, con el azul intenso del cielo arriba y un manto de nubes blancas al fondo.",
+      },
+    ],
+    paginas: [],
+  },
+  {
+    id: "por-que-llueve",
+    titulo: "Por qué llueve",
+    categoria: "Ciencia",
+    color: "var(--teal)",
+    encargo: "Las gotas en el cristal, con la ciudad desenfocada detrás.",
+    fotos: [
+      {
+        /* Las nubes de tormenta se probaron primero y todas fallaban igual:
+           recortadas a una vertical estrecha se quedan en una franja de cielo
+           gris sin nada dentro. Esta tiene el asunto repartido por toda la
+           altura —gotas arriba, gotas abajo— así que el recorte no le quita
+           nada, y además es literalmente el tema: agua que se ha condensado
+           sobre una superficie fría. Mumbai, la llegada del monzón. */
+        archivo: "Rain Droplets.jpg",
+        autor: "Gotas de lluvia en una ventana durante la llegada del monzón a Bombay, junio de 2016. Fotografía de Tony5875.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Rain_Droplets.jpg",
+        foco: "50% 50%",
+        alt: "Un cristal cubierto de gotas de lluvia de todos los tamaños, con los edificios de una ciudad desenfocados al otro lado.",
+      },
+    ],
+    paginas: [],
+  },
+  {
+    id: "por-que-bostezamos",
+    titulo: "Por qué bostezamos",
+    categoria: "Cuerpo humano",
+    color: "var(--ochre)",
+    encargo: "Un bostezo entero, de perfil, ocupando la pantalla.",
+    fotos: [
+      {
+        /* Un gato y no una persona a propósito: el bostezo lo hacen todos los
+           vertebrados, hasta los peces, y esa es media respuesta a la
+           pregunta del título. Puesta ya la foto en el marco, es además la
+           que mejor cae: el original es vertical (2136x3216), el perfil se
+           queda entero en la columna central y arriba sobra cielo para el
+           título. La otra finalista era el autorretrato bostezando de Joseph
+           Ducreux, de 1783, que es dominio público y precioso; se quedó fuera
+           porque un óleo al lado de la fotografía del Sol cambia el tono de
+           la sección. */
+        archivo: "Tabby cat-yawning-01.jpg",
+        autor: "Un gato atigrado bostezando, abril de 2008. Fotografía de Hisashi.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Tabby_cat-yawning-01.jpg",
+        foco: "50% 40%",
+        alt: "Un gato atigrado de perfil con la boca abierta de par en par en mitad de un bostezo, los colmillos y la lengua a la vista y el fondo desenfocado.",
+      },
+    ],
+    paginas: [],
+  },
 ];

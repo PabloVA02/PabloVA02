@@ -157,8 +157,16 @@ export type Short = {
    * como mucho: en dos líneas de portada no cabe más.
    */
   titulo: string;
-  /** La frase que remata el título en la portada. Una sola, en voz alta. */
-  gancho: string;
+  /**
+   * La frase que remata el título. Una sola, en voz alta.
+   *
+   * Desde el 27 de agosto la portada NO la pinta —lleva la fotografía y el
+   * título y nada más—, así que una historia a la que todavía no le ha
+   * llegado el texto no tiene gancho que poner. De ahí que sea opcional: es
+   * preferible que falte a que esté puesta una frase de relleno que luego
+   * nadie se acuerde de cambiar.
+   */
+  gancho?: string;
   categoria: string;
   /**
    * Marca las que son UN DATO y no una historia.
@@ -192,14 +200,21 @@ export type Short = {
   fotos?: (Foto | undefined)[];
   /** Qué imagen le toca a esta historia. Es el pie y es el encargo. */
   encargo: string;
-  /** Texto de la portada, debajo de la foto. Unas 60 palabras. */
-  entrada: string;
+  /** Texto de la portada, debajo de la foto. Unas 60 palabras.
+      Opcional por lo mismo que `gancho`: tampoco se pinta ya en la portada. */
+  entrada?: string;
   /** Siempre tres. La forma es la misma en todas las historias. */
   /* Entre dos y cinco. Eran tres clavadas, y obligaba a estirar los temas
      que se agotan en dos y a comprimir los que piden cuatro: la horquilla la
      decide el tema, no la plantilla. El tope existe para que un short siga
      siendo un short. */
-  paginas: [Pagina, Pagina] | [Pagina, Pagina, Pagina]
+  /* Y VACÍA TAMBIÉN VALE, que es la portada sola esperando su texto.
+     Pablo, el 28: «ponme la portada así pero de ahora en varios temas […] no
+     pongas el texto, que eso te lo paso yo ahora». Una lista vacía dice
+     exactamente eso —la imagen y el título están elegidos, el texto no ha
+     llegado— y lo dice en el sitio donde se va a mirar. La alternativa era
+     dejar tres páginas de relleno, y el relleno se queda. */
+  paginas: [] | [Pagina, Pagina] | [Pagina, Pagina, Pagina]
     | [Pagina, Pagina, Pagina, Pagina] | [Pagina, Pagina, Pagina, Pagina, Pagina];
 };
 
@@ -224,8 +239,8 @@ export type Short = {
 export function minutosDe(short: Short): number {
   const cuenta = (t: string) => t.replace(/<[^>]+>/g, "").split(/\s+/).filter(Boolean).length;
   const palabras =
-    cuenta(short.entrada) +
-    cuenta(short.gancho) +
+    cuenta(short.entrada ?? "") +
+    cuenta(short.gancho ?? "") +
     short.paginas.reduce((t, p) => t + cuenta(p.texto), 0);
   return Math.max(1, Math.round(palabras / 200));
 }

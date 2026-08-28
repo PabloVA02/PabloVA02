@@ -559,7 +559,13 @@ function PaginaShort({
   });
 
   const portada = paso === 0;
-  const ultima = paso === total - 1;
+  /* La última es la que lleva los dos botones y el aviso de que la siguiente
+     historia va abajo. Una portada SIN TEXTO todavía es a la vez la primera y
+     la última —solo hay una pantalla—, y con esa cuenta se le pintaban encima
+     «Guardar», «Compartir» y «Siguiente short», que es justo lo que Pablo
+     pidió quitar de la portada: la imagen y el título, nada más. Así que sin
+     páginas no hay última: hay cartel. */
+  const ultima = paso === total - 1 && short.paginas.length > 0;
 
   return (
     <section
@@ -654,7 +660,11 @@ function PaginaShort({
           {/* El pie, exactamente como en la maqueta aprobada: en la portada
               solo "Seguir"; en las dos de en medio, nada; y en la ultima los
               dos botones y el aviso de que la siguiente historia va abajo. */}
-          {portada && (
+          {/* «Seguir» solo si hay algo detrás. Una portada sin texto todavía
+              —las que esperan lo que escriba Pablo— tenía la flecha animada
+              prometiendo una pantalla siguiente que no existe, y el dedo se
+              iba a por ella y no pasaba nada. */}
+          {portada && short.paginas.length > 0 && (
             <span className="muro-tirar">
               Seguir
               <motion.span
@@ -715,18 +725,21 @@ function PaginaShort({
           Hay un tramo por página, no uno por pantalla: en la portada aún no
           se ha leído nada y la barra está entera vacía, que es como está en
           la maqueta. */}
-      <div className="muro-tramos" aria-hidden>
-        {short.paginas.map((_, i) => (
-          <span key={i} className="muro-tramo">
-            <motion.span
-              className="muro-tramo-relleno"
-              initial={false}
-              animate={{ scaleX: i < paso ? 1 : 0 }}
-              transition={springTight}
-            />
-          </span>
-        ))}
-      </div>
+      {/* Y sin páginas no hay barra: quedaba una franja vacía flotando. */}
+      {short.paginas.length > 0 && (
+        <div className="muro-tramos" aria-hidden>
+          {short.paginas.map((_, i) => (
+            <span key={i} className="muro-tramo">
+              <motion.span
+                className="muro-tramo-relleno"
+                initial={false}
+                animate={{ scaleX: i < paso ? 1 : 0 }}
+                transition={springTight}
+              />
+            </span>
+          ))}
+        </div>
+      )}
     </section>
   );
 }

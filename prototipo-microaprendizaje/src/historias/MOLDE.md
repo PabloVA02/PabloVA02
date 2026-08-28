@@ -437,9 +437,51 @@ el 42 %. «Por qué llueve» sale enorme y «Por qué vuelan los aviones» aterr
 más pequeño. Es como se compone un cartel: manda el ancho de la página. La
 regla de Pablo se mantiene, **una línea y nunca dos**.
 
-**El `gancho` y la `entrada` se siguen escribiendo y ya no se pintan aquí.**
-Hacen falta para las listas y el buscador. El texto de la historia va en las
+**El `gancho` y la `entrada` ya no se pintan aquí**, y desde el 28 de agosto
+son opcionales: una portada a la que todavía no le ha llegado el texto no
+tiene gancho que poner, y es mejor que falte a que haya una frase de relleno
+que luego nadie se acuerda de cambiar. El texto de la historia va en las
 páginas, que es donde se lee.
+
+### Elegir la fotografía de una portada — 28 de agosto
+
+La portada es la pantalla entera: **375×812, o sea 0,46 de proporción**. Es
+una vertical muy estrecha, y eso decide qué foto sirve mucho antes que el
+gusto. Una apaisada normal de 3:2 pierde ahí **el setenta por ciento de su
+ancho**.
+
+Así que **ninguna candidata se juzga entera**. Se bajan y se miran ya
+recortadas al marco de verdad:
+
+    node scripts/recorte.mjs hoja.png "File:Una.jpg" "File:Otra.jpg" …
+
+Tres cosas mandan, en este orden:
+
+1. **Que el asunto caiga dentro de la columna central.** Las nubes de tormenta
+   son el ejemplo de manual de lo que falla: recortadas a una vertical
+   estrecha se quedan en una franja de cielo gris sin nada dentro. Ganó una
+   ventana con gotas, que tiene asunto repartido de arriba abajo y por eso el
+   recorte no le quita nada.
+2. **Que arriba sobre aire para el título**, y sin taparle nada. El ala del
+   avión entra en diagonal por abajo y deja todo el cielo libre.
+3. **Que después de recortar queden más de mil píxeles de ancho.** Es lo que
+   hace falta para que en una pantalla de tres veces la densidad no se vea
+   blanda. Por esto se cayó el Boeing 747 con sus estelas, que era la más
+   espectacular: 2200 de ancho solo dan 693 recortados.
+
+Y una cuarta que no es de encuadre: **el pie tiene que leerse sobre la foto**.
+Es la atribución que exige la CC BY, o sea la única línea de la portada que no
+puede quedar bonita a costa de no verse. Sobre una foto clara se resuelve con
+sombra —doble, una corta y dura y otra ancha y difusa—, nunca oscureciendo la
+imagen.
+
+### `paginas: []` — la portada sola, esperando texto
+
+Es una forma válida de short y significa lo que dice: la fotografía y el
+título están elegidos, el texto no ha llegado. No pinta la barra de tramos, ni
+el «Seguir» —no hay adónde seguir—, ni los botones del final: su única
+pantalla no es la última de nada. Es un cartel. `revisa-shorts.mjs` las cuenta
+aparte en vez de soltarles tres avisos por historia.
 
 ## 15. Lo que se ve en pantalla
 

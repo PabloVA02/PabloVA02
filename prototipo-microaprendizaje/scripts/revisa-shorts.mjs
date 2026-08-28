@@ -72,6 +72,7 @@ let fallos = 0;
 let flojos = 0;
 let titulosLargos = 0;
 let fotosDudosas = 0;
+let sinTexto = 0;
 let total = 0;
 const aviso = (id, texto) => { console.log(`  ✗ ${id}: ${texto}`); fallos++; };
 /* Un aviso flojo no tumba el validador: señala trabajo pendiente de las tandas
@@ -88,6 +89,16 @@ for (const ruta of ficheros) {
   for (const b of bloques) {
     const id = b.slice(0, b.indexOf('"'));
     total++;
+
+    /* PORTADA SOLA, ESPERANDO SU TEXTO. Desde el 28 de agosto un short puede
+       estar a medias a propósito: `paginas: []` significa que la fotografía y
+       el título ya están elegidos y que el texto lo escribe Pablo. Sin esto,
+       cada una de esas portadas soltaba tres avisos —entrada de cero
+       palabras, no sitúa en el tiempo, cero páginas— que no señalan nada que
+       arreglar, y tres avisos falsos por historia son la manera segura de que
+       el validador deje de leerse. Se le mira lo que SÍ tiene: el título, la
+       ficha de la foto y el pie. */
+    const soloPortada = /paginas: \[\],/.test(b);
 
     const titulo = /titulo: "((?:[^"\\]|\\.)*)"/.exec(b)?.[1] ?? "";
     /* Regla 14: el título golpea, no resume. Y regla nueva de Pablo, sin
@@ -128,8 +139,9 @@ for (const ruta of ficheros) {
        La horquilla es 48-66. Por debajo de 48 la portada deja hueco; por
        encima de 66 la letra empieza a encoger, y entonces esa historia se lee
        más pequeña que la de al lado. */
-    if (ne < 44 || ne > 72) aviso(id, `entrada de ${ne} palabras (48-66)`);
-    if (ne >= 44 && ne < 48) flojo(id, `entrada de ${ne} palabras: deja hueco abajo (unas 56)`);
+    if (!soloPortada && (ne < 44 || ne > 72)) aviso(id, `entrada de ${ne} palabras (48-66)`);
+    if (!soloPortada && ne >= 44 && ne < 48)
+      flojo(id, `entrada de ${ne} palabras: deja hueco abajo (unas 56)`);
 
     /* Y los pies de foto, que también tienen medida. Van SOBRE la imagen desde
        el 27 de agosto, apoyados en el degradado con el que la banda se
@@ -141,6 +153,11 @@ for (const ruta of ficheros) {
     for (const [i, pie] of [...b.matchAll(/autor:\n?\s+"((?:[^"\\]|\\.)*)"/g)].entries())
       if (pie[1].length > 140)
         flojo(id, `pie de foto ${i + 1} de ${pie[1].length} letras: tres renglones (tope 140)`);
+
+    /* Y aquí se para si es una portada sin texto: todo lo que viene debajo
+       —la entrada, las páginas, la terminología, la medida de las frases— se
+       mide sobre un texto que todavía no existe. */
+    if (soloPortada) { sinTexto++; continue; }
 
     const paginas = [...b.matchAll(/rotulo: "([^"]*)",\n\s+texto:\n\s+"((?:[^"\\]|\\.)*)"/g)];
 
@@ -340,6 +357,7 @@ for (const ruta of ficheros) {
 }
 
 console.log(`\n${total} shorts revisados · ${fallos} avisos`
+  + (sinTexto ? ` · ${sinTexto} ${sinTexto === 1 ? "es portada sola, esperando texto" : "son portadas solas, esperando texto"}` : "")
   + (flojos ? ` · ${flojos} ${flojos === 1 ? "aviso leve" : "avisos leves"}` : "")
   + (titulosLargos ? ` · ${titulosLargos} títulos que no caben en una línea` : "")
   + (fotosDudosas ? ` · ${fotosDudosas} fotos con la licencia sin justificar` : ""));

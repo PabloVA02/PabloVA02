@@ -7,6 +7,7 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 | | hecho | queda |
 |---|---|---|
 | shorts escritos | **0** | el muro espera el texto de Pablo, ver abajo |
+| portadas de short listas, sin texto | **3** | aviones, lluvia y bostezo |
 | libros en el catálogo | 418 | |
 | libros con resumen escrito a mano | **400** | 18 para el catálogo entero |
 | cubiertas dibujadas por Pablo | **309** | 109 para el catálogo entero |
@@ -45,6 +46,57 @@ manda un texto del sol o de la lluvia, lo primero es mirar allí.
 **La maqueta NO se ha tocado y está lista**: banda de imagen elástica, sin
 rótulos, una sola medida de letra, el pie de foto sobre la imagen. Todo lo
 que se decidió hoy sigue en pie; lo único que falta es texto.
+
+## TRES PORTADAS SIN TEXTO — 28 de agosto de 2026
+
+Pablo, esa mañana:
+
+> «Ponme la portada así pero de ahora en varios temas: por qué los aviones
+> vuelan, por qué llueve, por qué bostezamos. No pongas el texto, que eso te
+> lo paso yo ahora; solo quiero ver la portada. Ten en cuenta que la portada
+> debe ser bonita, de buena calidad y que se ajuste bien a los límites de
+> imagen que tenemos, para que no salga muy cortada y quede fea.»
+
+Están las tres en `curiosidades.ts` con **`paginas: []`**, que a partir de hoy
+es una forma válida de short y significa exactamente esto: la fotografía y el
+título están elegidos, el texto no ha llegado. No hace falta rellenar con nada
+mientras tanto, y el relleno es lo que se queda.
+
+Lo que cambia una portada sin texto respecto de un short entero: no pinta la
+barra de tramos, no pinta el «Seguir» —no hay adónde seguir— y no pinta
+«Guardar / Compartir / Siguiente short», porque su única pantalla no es la
+última de nada. Es un cartel.
+
+**`scripts/recorte.mjs`, y esto es lo que resuelve el encargo.** La portada es
+la pantalla entera: 375×812, o sea 0,46 de proporción. Una foto apaisada
+normal de 3:2 pierde ahí **el setenta por ciento de su ancho**, y eso no se ve
+mirando la foto en Commons: se ve después, ya metida, cortada y fea. La hoja
+de contacto de siempre (`contacto.mjs`) enseña la franja de la banda de
+imagen, que es otra cosa. Así que:
+
+    node scripts/recorte.mjs hoja.png "File:Una.jpg" "File:Otra.jpg" …
+
+baja las candidatas y las enseña **ya recortadas al marco de la portada**, con
+la original en pequeño debajo para saber cuánto se ha perdido. Se juzga el
+recorte y no la foto que uno se imagina.
+
+**Las tres reglas con que se eligieron**, de quince candidatas probadas:
+
+1. el asunto tiene que caer dentro de la columna central estrecha;
+2. arriba tiene que sobrar aire para el título, sin taparle nada;
+3. después de recortar tienen que quedar **más de mil píxeles de ancho**, para
+   que en una pantalla de tres veces la densidad no se vea blanda.
+
+Por la tercera se cayó el Boeing 747 visto desde tierra con sus estelas, que
+era la más espectacular de las cinco de avión: 2200 de ancho solo dan 693
+recortados.
+
+**Y el pie de foto se arregló de paso.** Estaba calculado contra la portada
+del Sol, que arriba es negra: letra al 56 % y una sombra floja. Sobre el gris
+claro del monzón de Bombay desaparecía, y el pie no es decoración —es la
+atribución que exige la CC BY—. Ahora va casi opaco con doble sombra, y el
+velo apenas se ha tocado: lo que da el contraste es la sombra, que solo se
+nota debajo de las letras y no oscurece un tercio de la fotografía.
 
 ### Lo que se aprendió escribiendo los cuatro, y que manda sobre los próximos
 
@@ -110,6 +162,7 @@ primer short de cada fichero, en el orden en que están listados.
 | `scripts/choque.mjs` | que el texto no tape el «Seguir» en un móvil bajo |
 | `scripts/fotos-al-vuelo.mjs` | sirve las fotos al navegador de pruebas |
 | `scripts/revisa-shorts.mjs` | el molde, con `--flojos` para lo pendiente |
+| `scripts/recorte.mjs` | las candidatas **ya recortadas al marco de la portada** |
 
 **Chromium no llega a Commons desde aquí**: el proxy le corta la conexión. Por
 eso existe `fotos-al-vuelo.mjs`, que las baja con curl y se las entrega. Sin

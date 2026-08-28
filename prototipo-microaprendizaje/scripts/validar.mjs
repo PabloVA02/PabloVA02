@@ -40,7 +40,12 @@ const LIMITES = {
   pagina: { min: 75, max: 145 },
   historia: { min: 300, max: 480 },
   /** Los cinco acentos del sistema visual. No hay más colores. */
-  colores: ["var(--clay)", "var(--ochre)", "var(--sage)", "var(--plum)", "var(--slate)"],
+  /* Los cinco acentos de la paleta, más el teal, que entró en agosto de 2026
+     como noveno acento para Deportes y que en el muro hace falta: con cinco,
+     dos shorts seguidos de ciencia repiten color y la barra de tramos parece
+     la misma historia. Los tonos están en `src/styles.css`. */
+  colores: ["var(--clay)", "var(--ochre)", "var(--sage)", "var(--plum)", "var(--slate)",
+            "var(--teal)"],
 };
 
 /** Lectura media en español, palabras por minuto, para el cálculo de tiempo. */
@@ -98,15 +103,28 @@ for (const s of SHORTS) {
   if (!/[:,]/.test(s.titulo) && palabras(s.titulo) > 5)
     avi("el título no nombra un sujeto delante («Sujeto: promesa»)");
 
-  const g = s.gancho.length;
-  if (g < LIMITES.gancho.min || g > LIMITES.gancho.max)
-    err(`gancho de ${g} caracteres (entre ${LIMITES.gancho.min} y ${LIMITES.gancho.max})`);
+  /* PORTADA SOLA. Desde el 28 de agosto un short puede estar a medias a
+     propósito —foto y título elegidos, el texto lo escribe Pablo— y eso se
+     dice con `paginas: []`. A esas no se les puede pedir gancho, entrada ni
+     páginas: no es que estén mal escritas, es que todavía no están escritas. */
+  const soloPortada = s.paginas.length === 0;
 
-  const e = palabras(s.entrada);
-  if (e < LIMITES.entrada.min || e > LIMITES.entrada.max)
-    err(`entrada de ${e} palabras (entre ${LIMITES.entrada.min} y ${LIMITES.entrada.max})`);
+  if (!soloPortada) {
+    const g = (s.gancho ?? "").length;
+    if (g < LIMITES.gancho.min || g > LIMITES.gancho.max)
+      err(`gancho de ${g} caracteres (entre ${LIMITES.gancho.min} y ${LIMITES.gancho.max})`);
 
-  if (s.paginas.length !== 3) err(`tiene ${s.paginas.length} páginas y son siempre 3`);
+    const e = palabras(s.entrada ?? "");
+    if (e < LIMITES.entrada.min || e > LIMITES.entrada.max)
+      err(`entrada de ${e} palabras (entre ${LIMITES.entrada.min} y ${LIMITES.entrada.max})`);
+
+    /* Y las páginas son las que pida el tema. Aquí seguía escrito «son siempre
+       3», que dejó de ser verdad el 27 de agosto: la horquilla la fija
+       `shorts.ts` y `revisa-shorts.mjs`, y son de dos a cinco. */
+    if (s.paginas.length < 2 || s.paginas.length > 5)
+      err(`tiene ${s.paginas.length} páginas (entre 2 y 5)`);
+  }
+
   if (!LIMITES.colores.includes(s.color)) err(`color «${s.color}» fuera de la paleta`);
   if (!s.categoria) err("sin categoría");
 
@@ -145,11 +163,14 @@ for (const s of SHORTS) {
     }
   });
 
-  if (golpes === 0) avi("ninguna página tiene golpe: cifra o frase, al menos uno");
+  if (golpes === 0 && !soloPortada)
+    avi("ninguna página tiene golpe: cifra o frase, al menos uno");
 
-  const total = palabras(s.entrada) + s.paginas.reduce((n, p) => n + palabras(p.texto), 0);
-  if (total < LIMITES.historia.min || total > LIMITES.historia.max)
-    err(`${total} palabras en total (entre ${LIMITES.historia.min} y ${LIMITES.historia.max})`);
+  if (!soloPortada) {
+    const total = palabras(s.entrada ?? "") + s.paginas.reduce((n, p) => n + palabras(p.texto), 0);
+    if (total < LIMITES.historia.min || total > LIMITES.historia.max)
+      err(`${total} palabras en total (entre ${LIMITES.historia.min} y ${LIMITES.historia.max})`);
+  }
 }
 
 /* --- Duplicados entre historias: con 500 es cuestión de tiempo --- */
@@ -163,8 +184,8 @@ for (const s of SHORTS) {
 
 /* --- Resumen --- */
 
-const totales = SHORTS.map(
-  (s) => palabras(s.entrada) + s.paginas.reduce((n, p) => n + palabras(p.texto), 0),
+const totales = SHORTS.filter((s) => s.paginas.length).map(
+  (s) => palabras(s.entrada ?? "") + s.paginas.reduce((n, p) => n + palabras(p.texto), 0),
 );
 /* Con el muro vacío no hay media que sacar, y dividir entre cero imprime
    «NaN palabras de media · NaN min», que parece una avería del validador
