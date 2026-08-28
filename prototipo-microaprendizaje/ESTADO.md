@@ -24,8 +24,8 @@ comprobar dentro de un mes que lo que hay en el código dice lo que él escribi�
 
 | | secciones suyas | palabras | pantallas |
 |---|---|---|---|
-| Cuánto le queda al Sol | 5 | 1.156 | 10 |
-| Por qué bostezamos | 4 | 861 | 8 |
+| Cuánto le queda al Sol | 5 | 1.156 | 9 |
+| Por qué bostezamos | 4 | 861 | 7 |
 
 **De su texto no se ha tocado nada.** Ni una palabra cambiada, quitada ni
 añadida. Lo único que se decide al maquetar es POR DÓNDE SE PARTE, que es
@@ -47,7 +47,8 @@ recorta el texto». Los cortes caen siempre entre párrafos suyos.
 3. **Vuelve la caja del rayo**, porque sus textos la traen: un destacado por
    tarjeta, marcado con `> ⚡`. Es la misma caja que la de los resúmenes —sin
    recuadro, el icono y la sangría— y no la chapa con filete de la maqueta
-   vieja. Lo que la separa del párrafo es el aire.
+   vieja. Lo que la separa del párrafo es el aire. Va DENTRO del texto, como un
+   bloque más, no pegada al pie de la pantalla: ver el reparto, más abajo.
 4. **Párrafos y listas dentro de una pantalla.** El cuerpo pasó de `<p>` a
    `<div>`: sus textos vienen en párrafos y a veces con viñetas, y las dos
    cosas son etiquetas de bloque que dentro de un `<p>` el navegador cierra
@@ -65,13 +66,61 @@ encoger y cuántos renglones vacíos quedan debajo. **Sin banda de imagen caben
 unas 178 palabras, o 165 si la pantalla lleva rayo.** Las dieciocho pantallas
 de los dos temas caben a su tamaño, con `ajuste: 1` en todas.
 
-### LO ÚNICO EN QUE SU LEEME Y ÉL NO COINCIDEN: los rótulos
+### LOS SUBTÍTULOS SÍ SE PINTAN, y son los del libro
 
-Su fichero trae un título por tarjeta. El 27 por la noche pidió lo contrario:
-«elimina los títulos esos de cada pantalla, no me gustan, estamos siempre
-limitados al texto que poner». Manda lo último que dijo **sobre la pantalla**,
-así que sus títulos se guardan en `rotulo` —donde le sirven de esqueleto a
-quien revise— y no se pintan. Encenderlos es una línea en `CuerpoPagina`.
+Esa misma tarde: *«dentro de los textos que te pasé hay subtítulos que deberás
+marcar y poner un poco más grande, como los que ponemos en los libros; copia
+el tipo de letra que tenemos puesto ahí, hazlo todo como está en los libros
+exactamente igual»*.
+
+Es `.lee-rotulo`, el subtítulo del lector de resúmenes, traducido a `cqw`
+conservando **la proporción con el párrafo**, que es lo que de verdad se copia:
+
+| | libro | short |
+|---|---|---|
+| párrafo | 19 pt | 4,55cqw |
+| subtítulo | 21 pt (1,105×) | 5,03cqw (1,105em) |
+| margen | 6 arriba, 22 abajo | 0,32em y 1,16em |
+| letra | serifa, peso 700, blanco | igual |
+
+Sin justificar, aunque el párrafo sí lo vaya: en un renglón de cuatro palabras
+la justificación reparte todo el sobrante entre tres huecos y salía «Antes  de
+apagarse,  el». Un titular se alinea a la izquierda y lo que le da la forma es
+`text-wrap: balance`. Lo mismo con la caja del rayo, que además va sangrada y
+en columna más estrecha.
+
+(Los rótulos estuvieron unas horas guardados y sin pintar, porque el 27 por la
+noche había pedido «elimina los títulos esos de cada pantalla». Aquello era
+sobre unos rótulos míos de dos palabras que solo etiquetaban; los suyos son
+afirmaciones completas y son parte del texto.)
+
+### `scripts/reparte.mjs`: el texto llena la pantalla hasta abajo
+
+En el mismo mensaje: *«el texto debe bajar hasta abajo, en muchas páginas hay
+un montón de hueco, debes ajustarlo hasta abajo del todo para que quede mejor
+y más bonito»*.
+
+A ojo no se puede: lo que cabe no depende de las palabras sino de cómo caen
+los renglones, y eso solo lo sabe el navegador. Así que el guion abre la app,
+mete cada bloque en una pantalla de verdad y pregunta si se sale.
+
+    npx vite build && python3 -m http.server 4173 --directory dist &
+    node --experimental-strip-types scripts/reparte.mjs \
+         referencia/textos-de-pablo/cuanto-le-queda-al-sol.md > /tmp/corte.json
+
+**Y no llena hasta reventar**, que fue el primer intento y quedaba peor: dejaba
+las primeras al borde y la última con once renglones vacíos. Entre todos los
+repartos que usan el MÍNIMO de pantallas, elige el que deja el hueco más
+parejo, penalizando el aire al cuadrado. Es el criterio con el que se parten
+los renglones de un párrafo justificado, aplicado a pantallas.
+
+Lo que eso permite —y es lo que hace que quepa— es que **una pantalla acabe
+una sección y empiece la siguiente**, con el subtítulo en medio, igual que una
+página de un libro de papel. Para eso el rayo tuvo que dejar de ir pegado al
+pie y pasar a ser un bloque más del flujo.
+
+Resultado: el Sol pasa de 10 pantallas a 9 y los bostezos de 8 a 7, y el hueco
+que queda debajo va de 0,7 a 7,9 renglones en vez de 1 a 16.
 
 ## CÓMO SE TRABAJABA HASTA AQUÍ — 27 de agosto de 2026, por la noche
 
@@ -259,6 +308,7 @@ tres avisos en una sola visita.
 | `scripts/revisa-shorts.mjs` | el molde, con `--flojos` para lo pendiente |
 | `scripts/recorte.mjs` | las candidatas **ya recortadas al marco de la portada** |
 | `scripts/aire.mjs` | si cada pantalla cabe, y cuánto hueco deja debajo |
+| `scripts/reparte.mjs` | parte un texto de Pablo en pantallas llenas hasta abajo |
 
 Aquí ponía que `buscar` filtraba «solo con sello» y no es verdad: filtra por
 `filetype:bitmap` y nada más. El sello de calidad —Quality image, Featured

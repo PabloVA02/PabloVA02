@@ -74,19 +74,18 @@ for (const n of cuales) {
       if (!hoja) return null;
       const texto = vis.querySelector(".short-cuerpo");
       if (!texto) return { portada: true };
-      /* Lo último escrito es el rayo si lo hay, y si no el párrafo. Medir
-         siempre desde el párrafo daba el rayo por aire y salían cuatro
-         renglones de hueco donde no había ninguno. */
-      const idea = vis.querySelector(".short-idea");
-      const ultimo = (idea ?? texto).getBoundingClientRect().bottom;
+      /* Desde el 28 de agosto por la tarde el rayo va DENTRO del cuerpo, como
+         un bloque más —igual que en el lector de los resúmenes—, así que ya
+         no hay que medirlo aparte: el borde de abajo del cuerpo es el borde
+         de abajo de lo último escrito, sea un párrafo o sea el rayo. */
+      const ultimo = texto.getBoundingClientRect().bottom;
       const tope = hoja.getBoundingClientRect().bottom - parseFloat(getComputedStyle(hoja).paddingBottom);
       const linea = parseFloat(getComputedStyle(texto).lineHeight) || 24;
-      const cuenta = (e) => (e ? e.innerText.split(/\s+/).filter(Boolean).length : 0);
       return {
-        palabras: cuenta(texto) + cuenta(idea),
+        palabras: texto.innerText.split(/\s+/).filter(Boolean).length,
         ajuste: getComputedStyle(vis).getPropertyValue("--ajuste").trim() || "1",
         aire: +((tope - ultimo) / linea).toFixed(1),
-        rayo: !!idea,
+        rayo: !!texto.querySelector("blockquote.rayo"),
       };
     });
     if (!r) break;

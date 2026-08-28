@@ -14,8 +14,8 @@ texto solo».
 
 | fichero | secciones | palabras | pantallas en la app |
 |---|---|---|---|
-| `cuanto-le-queda-al-sol.md` | 5 | 1.156 | 10 |
-| `por-que-bostezamos.md` | 4 | 861 | 8 |
+| `cuanto-le-queda-al-sol.md` | 5 | 1.156 | 9 |
+| `por-que-bostezamos.md` | 4 | 861 | 7 |
 
 **Su norma de maquetación, que es la que manda sobre estos textos** (viene en
 el `LEEME.md`):
@@ -31,10 +31,13 @@ el `LEEME.md`):
 
 ## Lo único que se decide al maquetar: por dónde se parte
 
-Los cortes van siempre ENTRE párrafos suyos, nunca dentro de uno, y se
-eligen midiendo en el móvil de verdad con `node scripts/aire.mjs`: sin banda
-de imagen caben unas 178 palabras por pantalla, o 165 si lleva rayo.
+Los cortes van siempre ENTRE bloques suyos, nunca dentro de uno, y no los
+elige nadie a ojo: los calcula `scripts/reparte.mjs` midiendo en la app de
+verdad. Mete cada bloque en una pantalla real, pregunta si se sale, y entre
+todos los repartos que usan el mínimo de pantallas elige el que deja el hueco
+más parejo. Antes de escribir nada comprueba que ningún bloque se ha perdido,
+repetido ni movido de sitio.
 
-El guion que hizo el reparto comprueba dos cosas antes de escribir nada: que
-cada párrafo aparece exactamente una vez —ninguno perdido, ninguno repetido— y
-que hay tantos rayos colocados como traía el texto.
+Una pantalla puede acabar una sección y empezar la siguiente, con el subtítulo
+en medio: es lo que hace una página de un libro de papel, y es lo que permite
+llenarlas hasta abajo.

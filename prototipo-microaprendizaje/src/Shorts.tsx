@@ -978,24 +978,32 @@ function CuerpoPagina({ pagina }: { pagina: Pagina }) {
      sigue escribiendo porque le sirve de esqueleto al que redacta, pero el
      lector no lo ve.
 
-     CON RAYO OTRA VEZ, Y NO ES VOLVER ATRÁS. El «golpe de abajo» se quitó en
-     la misma tanda que el rótulo, y con razón: lo ponía yo, era una frase
-     sacada del párrafo de al lado y repetía lo que el lector acababa de leer.
-     Lo que vuelve es otra cosa. Pablo manda el texto ya con sus rayos
-     marcados —«insight destacado de esa tarjeta; va en recuadro aparte, se
-     puede compartir solo; una por tarjeta»— y son la conclusión de la
-     pantalla, escrita a propósito para sostenerse suelta. Es la misma caja
-     del rayo que llevan los resúmenes de los libros, y aquí se pinta igual:
-     sin recuadro, solo el icono y la sangría, que es como está en la
-     referencia. Lo que la separa es el aire. */
+     LO QUE SE PINTA AHORA ES UNA PÁGINA DE LIBRO, y es literal. Pablo, el 28
+     de agosto: «dentro de los textos que te pasé hay subtítulos que deberás
+     marcar y poner un poco más grande, como los que ponemos en los libros;
+     copia el tipo de letra que tenemos puesto ahí, hazlo todo como está en
+     los libros exactamente igual».
+
+     Así que `texto` ya no es un párrafo: es la tirada de bloques de esta
+     pantalla, en HTML, con las mismas cuatro piezas que el lector de los
+     resúmenes —subtítulo, párrafo, lista y caja del rayo— y con la misma
+     hoja de estilos traducida a `cqw`. El rótulo dejó de estar en `rotulo`
+     porque en una página puede haber DOS: la que acaba una sección y empieza
+     la siguiente lleva el subtítulo en medio, exactamente como una página de
+     un libro de papel.
+
+     Y el destacado dejó de ir pegado al pie por lo mismo. Iba al final de la
+     pantalla, así que una sección solo podía acabar donde acababa la página;
+     con el rayo dentro del flujo, el texto puede llenar hasta abajo y la
+     sección siguiente empieza donde le toca. Que es lo otro que pidió Pablo
+     en el mismo mensaje: «el texto debe bajar hasta abajo, en muchas páginas
+     hay un montón de hueco». */
   return (
     <div className="short-pagina">
-      {/* Un `div` y no un `p`, desde el 28 de agosto. El texto que manda Pablo
-          viene en párrafos y a veces con una lista dentro, y los dos son
-          etiquetas de bloque: metidas en un `<p>` el navegador cierra el
-          párrafo por su cuenta antes de abrirlas y el resto del texto se queda
-          fuera del elemento que mide `useAjusteDeTexto`. Con `div`, los `<p>`
-          van dentro y las listas también. */}
+      {/* Un `div` y no un `p`. Los bloques de dentro —`h3`, `p`, `ul`,
+          `blockquote`— son todos de bloque, y metidos en un `<p>` el navegador
+          lo cierra por su cuenta antes de abrirlos: el resto del texto se
+          quedaba fuera del elemento que mide `useAjusteDeTexto`. */}
       <motion.div
         className="short-cuerpo"
         custom={2}
@@ -1004,32 +1012,7 @@ function CuerpoPagina({ pagina }: { pagina: Pagina }) {
         animate="shown"
         dangerouslySetInnerHTML={{ __html: conGuiones(pagina.texto) }}
       />
-      {pagina.destacado?.tipo === "frase" && (
-        <motion.div
-          className="short-idea"
-          custom={3}
-          variants={enterVariants}
-          initial="hidden"
-          animate="shown"
-        >
-          <span className="short-idea-rayo" aria-hidden>
-            <RayoIdea />
-          </span>
-          <p>{pagina.destacado.frase}</p>
-        </motion.div>
-      )}
     </div>
-  );
-}
-
-/* El mismo rayo que la caja de los resúmenes, `Lector.tsx`. Se redibuja aquí
-   en vez de importarse porque allí es una función privada del lector y
-   sacarla a `glyphs.tsx` movería un fichero que no toca esta tanda. */
-function RayoIdea() {
-  return (
-    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden>
-      <path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z" fill="currentColor" />
-    </svg>
   );
 }
 

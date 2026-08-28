@@ -10491,6 +10491,42 @@ button {
   color: color-mix(in srgb, var(--acento, var(--ochre)) 88%, var(--ink));
 }
 
+/* ---- 5a bis. EL SUBTÍTULO, EXACTAMENTE EL DE LOS LIBROS -----------------
+   Pablo: «hazlo todo como está en los libros exactamente igual».
+
+   Y eso es `.lee-rotulo`, que es el subtítulo del lector de resúmenes. Sus
+   medidas están en puntos porque aquella pantalla no escala; esta sí, así que
+   se traducen a `cqw` conservando LA PROPORCIÓN CON EL PÁRRAFO, que es lo que
+   de verdad se copia:
+
+     libro   párrafo 19 · subtítulo 21 · margen 6 arriba, 22 abajo
+     aquí    párrafo 4,55cqw · subtítulo 21/19 = 5,03cqw
+             margen 6/19 = 0,32em arriba, 22/19 = 1,16em abajo
+
+   El resto va igual que allí: la serifa, el peso 700 y el blanco puro, que es
+   lo que lo separa del párrafo —#f4f2ee en el libro, `--ink` aquí— sin tener
+   que hacerlo mucho más grande. */
+.short-cuerpo h3 {
+  margin: 0.32em 0 1.16em;
+  font-family: var(--serifa);
+  font-size: 1.105em;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #fff;
+  /* SIN JUSTIFICAR, como en el libro. El párrafo de esta pantalla sí va
+     justificado y el subtítulo heredaba esa alineación: en un renglón de
+     cuatro palabras, justificar reparte todo el sobrante entre tres huecos y
+     salía «Antes  de  apagarse,  el» con dedos de separación. Un titular se
+     alinea a la izquierda siempre, y lo que le da la forma es `balance`, que
+     reparte las palabras entre sus renglones en vez de dejar el último con
+     una suelta. */
+  text-align: left;
+  text-wrap: balance;
+}
+/* Salvo el primero de la pantalla, que no tiene nada encima de lo que
+   separarse: su margen de arriba dejaba el bloque descolgado del techo. */
+.short-cuerpo > h3:first-child { margin-top: 0; }
+
 /* ---- 5b. La caja del rayo ----------------------------------------------
    El destacado de cada pantalla, que en el texto de Pablo va marcado con un
    rayo y es «una por tarjeta».
@@ -10511,26 +10547,40 @@ button {
    el párrafo; el rayo es la conclusión de la pantalla y encogerlo con el
    resto lo dejaría más pequeño que el cuerpo justo donde tiene que pesar
    más. */
-.short-idea {
+.short-cuerpo blockquote.rayo {
   display: flex;
-  gap: 3.4cqw;
-  margin-top: 5.6cqw;
+  gap: 0.68em;
+  margin: 1.37em 0 1.58em;
+  padding-left: 0.42em;
 }
-.short-idea-rayo {
+.short-cuerpo blockquote.rayo:last-child { margin-bottom: 0; }
+/* El icono va de máscara y no de `<svg>` dentro del texto: así el color sale
+   de la hoja de estilos —el mismo azul del rayo de los resúmenes— y el
+   generador que arma el HTML no tiene que escribir un trazado dentro de una
+   cadena. El dibujo es el de `Lector.tsx`, punto por punto. */
+.short-cuerpo blockquote.rayo::before {
+  content: "";
   flex: none;
-  margin-top: 0.6cqw;
-  color: #2f9bff;
+  width: 1em;
+  height: 1em;
+  margin-top: 0.22em;
+  background: #2f9bff;
+  -webkit-mask: var(--rayo-glifo) center / contain no-repeat;
+  mask: var(--rayo-glifo) center / contain no-repeat;
 }
-.short-idea-rayo svg { display: block; width: 4.8cqw; height: 4.8cqw; }
-.short-idea p {
+.short-cuerpo blockquote.rayo p {
   margin: 0;
-  font-family: var(--serifa);
-  font-size: 4.55cqw;
-  line-height: 1.42;
-  font-weight: 600;
-  letter-spacing: -0.006em;
-  color: var(--ink);
+  font-weight: 700;
+  color: #fff;
+  /* Tampoco se justifica, por lo mismo y por una razón de más: la caja va
+     sangrada y con el icono al lado, así que su columna es más estrecha que
+     la del párrafo y los huecos de la justificación se notan el doble. En el
+     libro (`.lee-idea p`) tampoco va justificada. */
+  text-align: left;
   text-wrap: pretty;
+}
+:root {
+  --rayo-glifo: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M13 2 4 14h6l-1 8 9-12h-6l1-8z' fill='black'/></svg>");
 }
 
 .muro-entrada::first-letter { font-size: 2.97em; }

@@ -193,6 +193,11 @@ for (const s of SHORTS) {
       if (p.destacado.tipo === "frase" && palabras(p.destacado.frase) > 34)
         avi(`página ${n}: la frase destacada es demasiado larga para leerse de golpe`);
     }
+    /* Y desde el 28 de agosto por la tarde el rayo va DENTRO del texto, como
+       un bloque más, para que una sección pueda acabar a media pantalla y la
+       siguiente empezar debajo —que es lo que permite llenar la pantalla
+       hasta abajo—. Así que se cuenta de las dos maneras. */
+    golpes += (p.texto.match(/blockquote class="rayo"/g) ?? []).length;
   });
 
   if (golpes === 0 && !soloPortada)
