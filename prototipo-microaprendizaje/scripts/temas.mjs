@@ -24,6 +24,8 @@
      párrafo           un bloque `parrafo`
      • viñeta          se juntan en un bloque `lista`
      > ⚡ …            un bloque `rayo`
+     > ❞ …            una cita textual; la línea `> — Autor` que va detrás es
+                      su firma y se pega a ella, no es un párrafo aparte
      > 🖼️ …            NO es texto: es el encargo de una imagen. Se guarda
                        aparte, en `encargos`, y no se pinta.
      **negrita**       <strong>;  *cursiva* → <em>
@@ -57,6 +59,25 @@ export function leeTema(ruta) {
       if (l.startsWith("•")) { vinetas.push(l.slice(1).trim()); continue; }
       cierraLista();
       if (l.startsWith("> ⚡")) { bloques.push({ b: "rayo", texto: marcas(l.slice(3).trim()) }); continue; }
+      /* UNA CITA TEXTUAL, que no es lo mismo que un rayo. El rayo es la
+         conclusión de la pantalla, escrita por nosotros; la cita son las
+         palabras de otro, entrecomilladas y firmadas. Llegaron el 28 de agosto
+         con «Cómo funciona la gravedad» —el «no invento hipótesis» de
+         Newton— y con «Por qué se corta la leche». */
+      if (/^>\s*❞/.test(l)) {
+        bloques.push({ b: "cita", texto: marcas(l.replace(/^>\s*❞\s*/, "").trim()) });
+        continue;
+      }
+      /* La firma va en su propia línea, detrás de la cita, y NO es un párrafo:
+         se pega a la cita que acaba de salir. Si llegara suelta —sin cita
+         delante— se deja como párrafo, que es lo menos malo. */
+      if (/^>\s*—/.test(l)) {
+        const ultimo = bloques[bloques.length - 1];
+        if (ultimo?.b === "cita" && !ultimo.autor) {
+          ultimo.autor = marcas(l.replace(/^>\s*—\s*/, "").trim());
+          continue;
+        }
+      }
       /* El encargo de imagen no es texto de la historia: es una nota para
          quien la ilustre. Se guarda y no se pinta. */
       if (/^>\s*🖼/.test(l)) {

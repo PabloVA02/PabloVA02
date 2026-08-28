@@ -10565,6 +10565,43 @@ button {
    normales —27— y eso le añadía un renglón de aire por dentro de la caja, así
    que debajo del rayo quedaba el doble de blanco que entre dos párrafos. El
    aire que le toca lo pone la propia caja. */
+/* ---- LA CITA TEXTUAL --------------------------------------------------
+   Las palabras de otro, y por eso no se parece al rayo. El rayo es la
+   conclusión de la pantalla, escrita en nuestra voz, y va con su icono y en
+   claro; la cita es de quien la dijo, así que va en cursiva, sangrada tras una
+   línea fina y firmada debajo. Llegaron el 28 de agosto con el «no invento
+   hipótesis» de Newton y con la de Clifton Fadiman sobre el queso.
+
+   Todo en proporción a `--cuerpo`, como el resto de la hoja. */
+.muro-hoja[data-sinfoto="true"] .short-cuerpo blockquote.cita {
+  margin: 0 0 var(--renglon);
+  padding-left: calc(var(--cuerpo) * 0.9);
+  border-left: 2px solid color-mix(in srgb, currentColor 26%, transparent);
+}
+/* Y EL MARGEN DE ABAJO A CERO CUANDO ES LO ÚLTIMO, con la especificidad
+   suficiente para ganarle a la regla de arriba. Es la misma trampa que costó
+   una ronda con el rayo: `… .short-cuerpo > :last-child` pierde contra
+   `… .short-cuerpo blockquote.cita`, que lleva un elemento de más, y esos 26
+   puntos de margen fantasma salían de la cuenta del reparto. */
+.muro-hoja[data-sinfoto="true"] .short-cuerpo > blockquote.cita:last-child { margin-bottom: 0; }
+.muro-hoja[data-sinfoto="true"] .short-cuerpo blockquote.cita p {
+  margin: 0;
+  font-style: italic;
+  font-weight: 400;
+}
+/* La firma: ni en cursiva —ya lo está la cita— ni del mismo tamaño. Con la
+   raya delante puesta desde aquí, para que el texto del bloque sea solo el
+   nombre y el reparto no tenga que saber nada de rayas. */
+.muro-hoja[data-sinfoto="true"] .short-cuerpo blockquote.cita cite {
+  display: block;
+  margin-top: calc(var(--renglon) * 0.34);
+  font-style: normal;
+  font-size: 0.84em;
+  line-height: 1.3;
+  color: color-mix(in srgb, currentColor 70%, transparent);
+}
+.muro-hoja[data-sinfoto="true"] .short-cuerpo blockquote.cita cite::before { content: "— "; }
+
 /* Y la frase del rayo tampoco va en blanco puro: `#fff` sobre este fondo
    deslumbra, y Pablo lo pidió por escrito —«color de texto ligeramente por
    debajo del blanco puro sobre el fondo oscuro, para que no deslumbre»—. Este

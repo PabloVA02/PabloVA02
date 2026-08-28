@@ -64,6 +64,57 @@ en que se escriben los libros y las trampas del contenedor. También se lee.
 Los otros documentos cerrados: `DISENO.md` (la pantalla de lectura),
 `FOTOS.md` (de dónde salen las imágenes), `src/historias/MOLDE.md` (los shorts).
 
+## Lo tercero bis: Portadas — calidad y almacenamiento
+
+Lo puso Pablo el 28 de agosto y **se aplica siempre a partir de ahora**, a toda
+portada nueva. El guion que lo hace todo es
+`prototipo-microaprendizaje/scripts/portadas.mjs`.
+
+### Calidad: manda la imagen, no el peso
+
+- **Proporción vertical 9:16** y **1440 px de ancho** —o sea 1440 × 2560—, que
+  es la resolución nativa del móvil más exigente del mercado.
+- **AVIF calidad 65** como formato principal.
+- **WebP calidad 85** de respaldo, para lo que no admita AVIF.
+- **Sin límite estricto de peso.** Lo normal serán 300-500 kB y está bien.
+- **El nombre, idéntico al del tema**: `como-funciona-la-gravedad.md` →
+  `como-funciona-la-gravedad.avif`.
+
+### Almacenamiento
+
+- Las imágenes **no se empaquetan dentro de la app**: van en **Cloudflare R2** y
+  se bajan cuando hacen falta.
+- En los datos de cada tema se guarda **la URL** de la portada, no una ruta.
+- La app **cachea** cada imagen en el dispositivo tras la primera descarga.
+- **Solo los diez primeros temas llevan la portada empaquetada**, para que la
+  pantalla de entrada se vea al instante aunque la conexión vaya lenta.
+
+**Y una excepción que no es negociable: el simulador que Pablo abre.** Los dos
+artefactos son un solo fichero HTML con la política de seguridad cerrada, y ahí
+una imagen servida desde R2 **no carga**: no es que tarde, es que el navegador
+la bloquea sin decir nada. Así que `scripts/movil.mjs` sigue empotrando las
+portadas en el paquete del simulador, y R2 vale para la app de verdad. Las dos
+cosas conviven: el dato de cada tema lleva la URL, y `urlFoto` prefiere la
+empotrada cuando existe.
+
+### Qué va al repositorio y qué no
+
+- **`originales/`** → los archivos sin procesar. Está en el `.gitignore`:
+  **nunca se commitean y nunca se borran.**
+- **`assets/portadas.csv`** → una fila por imagen, con nombre de archivo,
+  fuente, URL original, licencia y fecha de descarga. **Se commitea y se
+  actualiza siempre.** Es la prueba de que cada imagen se obtuvo legalmente, y
+  sin su fila una portada no entra.
+- **El guion de procesado y subida**, `scripts/portadas.mjs`.
+
+### Al terminar cada tanda, se le dice a Pablo
+
+Cuántas imágenes se procesaron, **su peso medio**, y **si alguna quedó por
+debajo de 1440 px de ancho** porque el original no daba para más. Eso último lo
+imprime el guion solo, y es lo que hay que mirar antes de dar una tanda por
+buena: una portada estirada desde un original pequeño se ve mal en un móvil
+bueno, y es mejor cambiar de imagen que subirla.
+
 ## Lo cuarto: al terminar CUALQUIER cambio
 
 1. **Rehacer el simulador y publicarlo** en el artefacto de siempre —el enlace

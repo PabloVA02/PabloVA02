@@ -675,10 +675,15 @@ function parteBloque(b: Bloque, el: HTMLElement, desborda: () => boolean): [Bloq
     ];
   }
 
-  /* Un párrafo se parte por sí mismo; un rayo, por el párrafo de dentro, para
-     no perder la caja ni el icono. La continuación se pinta sin icono: el rayo
-     ya salió en la pantalla anterior. */
-  const dentro = b.b === "rayo" ? el.querySelector("p") : b.b === "parrafo" ? el : null;
+  /* Un párrafo se parte por sí mismo; un rayo y una cita, por el párrafo de
+     dentro, para no perder la caja. La continuación se pinta sin el icono del
+     rayo ni la comilla de apertura de la cita: ya salieron arriba.
+
+     Y LA FIRMA DE UNA CITA SE VA CON LA COLA. Una cita partida deja arriba la
+     mitad del texto y abajo la otra mitad con el «— Fulano»: firmar el trozo
+     de arriba diría que la cita acaba ahí, y firmar los dos, que son dos
+     citas. */
+  const dentro = b.b === "rayo" || b.b === "cita" ? el.querySelector("p") : b.b === "parrafo" ? el : null;
   if (!dentro) return null;
   const trozos = cortaHastaLlenar(dentro as HTMLElement, desborda);
   if (!trozos) return null;
@@ -688,6 +693,11 @@ function parteBloque(b: Bloque, el: HTMLElement, desborda: () => boolean): [Bloq
     return [
       b.sigue ? { b: "rayo", texto: trozos[0], sigue: true } : { b: "rayo", texto: trozos[0] },
       { b: "rayo", texto: trozos[1], sigue: true },
+    ];
+  if (b.b === "cita")
+    return [
+      b.sigue ? { b: "cita", texto: trozos[0], sigue: true } : { b: "cita", texto: trozos[0] },
+      { b: "cita", texto: trozos[1], autor: b.autor, sigue: true },
     ];
   return [{ b: "parrafo", texto: trozos[0] }, { b: "parrafo", texto: trozos[1] }];
 }
@@ -1501,6 +1511,13 @@ export function htmlDeBloques(bloques: Bloque[]): string {
       if (b.b === "parrafo") return `<p>${conGuiones(b.texto)}</p>`;
       if (b.b === "lista")
         return `<ul${b.sigue ? ' data-sigue="true"' : ""}>${b.puntos.map((t) => `<li>${conGuiones(t)}</li>`).join("")}</ul>`;
+      if (b.b === "cita")
+        return (
+          `<blockquote class="cita"${b.sigue ? ' data-sigue="true"' : ""}>` +
+          `<p>${conGuiones(b.texto)}</p>` +
+          (b.autor ? `<cite>${conGuiones(b.autor)}</cite>` : "") +
+          `</blockquote>`
+        );
       return `<blockquote class="rayo"${b.sigue ? ' data-sigue="true"' : ""}><p>${conGuiones(b.texto)}</p></blockquote>`;
     })
     .join("");
@@ -1520,6 +1537,13 @@ function PintaBloque({ b }: { b: Bloque }) {
             <li key={i} dangerouslySetInnerHTML={{ __html: conGuiones(t) }} />
           ))}
         </ul>
+      );
+    case "cita":
+      return (
+        <blockquote className="cita" data-sigue={b.sigue ? "true" : undefined}>
+          <p dangerouslySetInnerHTML={{ __html: conGuiones(b.texto) }} />
+          {b.autor ? <cite dangerouslySetInnerHTML={{ __html: conGuiones(b.autor) }} /> : null}
+        </blockquote>
       );
     case "rayo":
       return (

@@ -59,6 +59,22 @@ type FotoComun = {
   /** Descripción para quien no ve la imagen. */
   alt: string;
   /**
+   * LA PORTADA ALOJADA, cuando la hay: su URL pública en Cloudflare R2.
+   *
+   * Es la regla de almacenamiento que puso Pablo el 28 de agosto —está entera
+   * en el `CLAUDE.md`—: las portadas no viajan dentro de la app, se bajan
+   * cuando hacen falta, y en los datos del tema se guarda la URL, no una ruta.
+   * Las escribe `scripts/portadas.mjs --sube` y quedan también en
+   * `assets/portadas.csv`.
+   *
+   * Convive con las otras dos procedencias y pierde contra las dos: manda la
+   * copia empotrada si la hay —el simulador que abre Pablo es un solo HTML con
+   * la política de seguridad cerrada, y ahí una imagen de R2 no carga, la
+   * bloquea el navegador sin decir nada—, y si no, la que venga en el paquete.
+   * R2 es para la app de verdad. Ver `urlFoto`.
+   */
+  alojada?: string;
+  /**
    * Solo para fotografías de un cuerpo redondo —un planeta, una luna—: dónde
    * cae el disco dentro de la imagen, en porcentaje.
    *
@@ -116,12 +132,16 @@ export function urlFoto(foto: Foto, ancho = 1400) {
   // pregunta por `archivo` y no por `local` porque `archivo` es el campo
   // obligatorio de su variante, y es el único que discrimina la unión.
   if (foto.archivo === undefined) return foto.local;
+  // Y si la portada está alojada en R2, esa es la buena: es lo que dice la
+  // regla de almacenamiento. Va DESPUÉS de la empotrada —que se mira justo
+  // abajo— porque en un visor sin salida a la red R2 no existe.
   // Un visor que no deja salir a la red —el simulador de móvil que se publica
   // como artefacto tiene esa política— deja las fotos empotradas en esta
   // tabla antes de arrancar la app. Si el fichero está ahí, se usa; si no, se
   // pide a Commons como siempre. `scripts/movil.mjs` es quien la rellena.
   const empotrada = (globalThis as Record<string, any>).__FOTOS?.[foto.archivo];
   if (empotrada) return empotrada as string;
+  if (foto.alojada) return foto.alojada;
   const nombre = encodeURIComponent(foto.archivo.replace(/ /g, "_"));
   return `https://commons.wikimedia.org/wiki/Special:FilePath/${nombre}?width=${ancho}`;
 }
@@ -156,6 +176,18 @@ export type Bloque =
   | { b: "parrafo"; texto: string }
   /** Una lista de viñetas. Se parte entre puntos, nunca dentro de uno. */
   | { b: "lista"; puntos: string[]; sigue?: true }
+  /**
+   * Una cita textual: las palabras de otro, con su firma.
+   *
+   * No es un rayo. El rayo es la conclusión de la pantalla, escrita por
+   * nosotros y en nuestra voz; la cita es de quien la dijo, va entrecomillada
+   * y lleva `autor` debajo. Llegaron el 28 de agosto con el «no invento
+   * hipótesis» de Newton.
+   *
+   * `sigue` marca la mitad de abajo de una cita partida entre dos pantallas:
+   * se pinta sin la comilla de apertura, que ya salió en la anterior.
+   */
+  | { b: "cita"; texto: string; autor?: string; sigue?: true }
   /** La caja del rayo: la conclusión de la sección. Nunca abre página.
    *  `sigue` marca la CONTINUACIÓN de un rayo que no cabía entero y se partió
    *  entre dos pantallas: pinta la caja sin el icono, porque el rayo ya salió
@@ -273,7 +305,9 @@ export type Short = {
 
 /** El texto plano de un bloque, para contar palabras y para leerlo en alto. */
 export function textoDeBloque(b: Bloque): string {
-  return b.b === "lista" ? b.puntos.join(" ") : b.texto;
+  if (b.b === "lista") return b.puntos.join(" ");
+  if (b.b === "cita") return b.autor ? `${b.texto} — ${b.autor}` : b.texto;
+  return b.texto;
 }
 
 /**

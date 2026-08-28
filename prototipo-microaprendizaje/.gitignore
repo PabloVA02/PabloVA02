@@ -38,3 +38,15 @@ hoja-cubiertas.html
 # la entrada, así que la compilación siguiente empaquetaba su propio resultado.
 shorts.html
 dist-shorts/
+
+# LOS ORIGINALES DE LAS PORTADAS: los archivos sin procesar, tal como llegan.
+# Regla de Pablo del 28 de agosto —está en el `CLAUDE.md`—: nunca se commitean
+# y nunca se borran. No van al repositorio porque son cientos de megas de los
+# que solo sale un AVIF de 200 kB, y se quedan en disco porque el día que
+# cambie el formato de salida o la resolución de los móviles hay que volver a
+# procesarlos desde ahí en vez de salir otra vez a buscarlos.
+#
+# Lo que SÍ va al repositorio es `assets/portadas.csv`, con una fila por
+# imagen: de dónde salió, con qué licencia y cuándo. Es la prueba de que cada
+# portada se obtuvo legalmente, y sin su fila una portada no entra.
+originales/
