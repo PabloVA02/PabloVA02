@@ -4884,6 +4884,19 @@ button {
 }
 .plan-precio strong { color: var(--ink); font-weight: 760; }
 
+/* El precio de siempre, tachado, al lado del de la vuelta. Va más flojo que
+   el texto que lo rodea a propósito: lo que tiene que leerse primero es lo que
+   se paga hoy, y el tachado está para dar la medida del descuento, no para
+   competir con él. La raya la pone el navegador con el `<s>`; aquí solo se
+   ajusta su grosor, que por defecto sale demasiado fina sobre un cuerpo de
+   13,5 y parece un renglón mal pintado. */
+.plan-antes {
+  margin-left: 2px;
+  color: color-mix(in srgb, var(--ink-soft) 72%, transparent);
+  text-decoration-thickness: 1.5px;
+  font-variant-numeric: tabular-nums;
+}
+
 .plan-fechas {
   margin: 12px 0 0;
   padding: 0;

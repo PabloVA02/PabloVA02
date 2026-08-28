@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { GlyphBack, GlyphCandado, GlyphTick } from "./glyphs";
 import { spring, springPop, springSoft } from "./motion";
+import { DESCUENTO_VUELTA } from "./Suscripcion";
 
 /* ==========================================================================
    El alta y el pago.
@@ -44,6 +45,12 @@ import { spring, springPop, springSoft } from "./motion";
 const PRECIO_ANUAL = 23.99;
 const DIAS_PRUEBA = 7;
 const AVISO_ANTES = 2;
+
+/* El precio de la vuelta sale del descuento que anuncia la tarjeta del perfil,
+   no de un número escrito aquí otra vez. Ver `DESCUENTO_VUELTA` en
+   `Suscripcion.tsx`: si un día pasa a ser el 30 %, cambia en los dos sitios a
+   la vez o no cambia en ninguno. Se redondea a céntimo. */
+const PRECIO_VUELTA = Math.round(PRECIO_ANUAL * (1 - DESCUENTO_VUELTA / 100) * 100) / 100;
 
 const euros = (n: number) => n.toFixed(2).replace(".", ",") + " €";
 
@@ -128,11 +135,23 @@ export function Checkout({
   reducido,
   onVolver,
   onListo,
+  vuelta = false,
 }: {
   reducido: boolean;
   onVolver: () => void;
   /** Con qué correo se ha quedado la cuenta, para saludar luego. */
   onListo: (correo: string) => void;
+  /**
+   * Si viene del aviso de suscripción caducada, con su descuento.
+   *
+   * NO ES UN ADORNO: la tarjeta del perfil le promete un tanto por ciento, y
+   * una caja que después le enseñara «7 días gratis · 23,99 €/año» estaría
+   * desmintiéndola en la pantalla siguiente. Y los días gratis tampoco: la
+   * prueba es para quien no conoce esto, y este ya ha pagado un año entero.
+   * Así que con `vuelta` el bloque del plan cambia de las tres líneas de la
+   * prueba al precio de hoy, con el de siempre tachado al lado.
+   */
+  vuelta?: boolean;
 }) {
   const [fase, setFase] = useState<Fase>("correo");
   const [correo, setCorreo] = useState("");
@@ -152,6 +171,9 @@ export function Checkout({
   const marca = marcaDe(numero);
   const cobro = enDias(DIAS_PRUEBA);
   const aviso = enDias(DIAS_PRUEBA - AVISO_ANTES);
+  /* La vuelta no tiene prueba, así que su fecha no es la del cobro: es la de
+     la renovación, dentro de un año. */
+  const renueva = enDias(365);
 
   const tarjetaLista =
     luhn(numero) &&
@@ -254,25 +276,55 @@ export function Checkout({
         >
           <div className="plan-fila">
             <span className="plan-nombre">Curva completo</span>
-            <span className="plan-gratis">{DIAS_PRUEBA} días gratis</span>
+            <span className="plan-gratis">
+              {vuelta ? `−${DESCUENTO_VUELTA} %` : `${DIAS_PRUEBA} días gratis`}
+            </span>
           </div>
-          <p className="plan-precio">
-            Hoy pagas <strong>0 €</strong> · después {euros(PRECIO_ANUAL)}/año
-          </p>
-          <ul className="plan-fechas">
-            <li>
-              <span className="plan-punto" data-hoy />
-              Hoy empieza tu semana completa
-            </li>
-            <li>
-              <span className="plan-punto" />
-              El {fechaLarga(aviso)} te avisamos de que quedan {AVISO_ANTES} días
-            </li>
-            <li>
-              <span className="plan-punto" />
-              El {fechaLarga(cobro)} se cobra {euros(PRECIO_ANUAL)}, salvo que canceles
-            </li>
-          </ul>
+          {vuelta ? (
+            <>
+              {/* El precio de hoy, con el de siempre tachado al lado: es la
+                  manera de que el descuento se vea en euros y no solo en tanto
+                  por ciento, que es lo que prometía la tarjeta del perfil. */}
+              <p className="plan-precio">
+                Hoy pagas <strong>{euros(PRECIO_VUELTA)}</strong>{" "}
+                <s className="plan-antes">{euros(PRECIO_ANUAL)}</s> · un año completo
+              </p>
+              <ul className="plan-fechas">
+                <li>
+                  <span className="plan-punto" data-hoy />
+                  Vuelves ahora mismo, con tu racha y lo que llevabas leído
+                </li>
+                <li>
+                  <span className="plan-punto" />
+                  El descuento es del primer año; después, {euros(PRECIO_ANUAL)}
+                </li>
+                <li>
+                  <span className="plan-punto" />
+                  El {fechaLarga(renueva)} se renueva, salvo que canceles antes
+                </li>
+              </ul>
+            </>
+          ) : (
+            <>
+              <p className="plan-precio">
+                Hoy pagas <strong>0 €</strong> · después {euros(PRECIO_ANUAL)}/año
+              </p>
+              <ul className="plan-fechas">
+                <li>
+                  <span className="plan-punto" data-hoy />
+                  Hoy empieza tu semana completa
+                </li>
+                <li>
+                  <span className="plan-punto" />
+                  El {fechaLarga(aviso)} te avisamos de que quedan {AVISO_ANTES} días
+                </li>
+                <li>
+                  <span className="plan-punto" />
+                  El {fechaLarga(cobro)} se cobra {euros(PRECIO_ANUAL)}, salvo que canceles
+                </li>
+              </ul>
+            </>
+          )}
         </motion.section>
 
         {/* 2. La cartera: un toque y no hay que escribir nada */}
@@ -526,14 +578,26 @@ export function Checkout({
           whileTap={puedePagar ? { scale: 0.98 } : {}}
           transition={springPop}
         >
-          {enviando ? <Puntos /> : `Empezar los ${DIAS_PRUEBA} días gratis`}
+          {enviando
+            ? <Puntos />
+            : vuelta
+              ? `Volver por ${euros(PRECIO_VUELTA)}`
+              : `Empezar los ${DIAS_PRUEBA} días gratis`}
         </motion.button>
+        {/* Y la nota de debajo dice lo que pasa HOY, que en la vuelta es lo
+            contrario que en la prueba: aquí sí se cobra, y esconderlo detrás
+            de un «hoy no se te cobra nada» heredado de la otra mitad sería la
+            clase de letra pequeña que esta pantalla existe para no tener. */}
         <p className="checkout-nota">
-          Hoy no se te cobra nada · Cancela cuando quieras
+          {vuelta
+            ? "Se cobra hoy · Cancela cuando quieras"
+            : "Hoy no se te cobra nada · Cancela cuando quieras"}
         </p>
       </div>
 
-      <AnimatePresence>{fase === "listo" && <Hecho cartera={cartera} reducido={reducido} />}</AnimatePresence>
+      <AnimatePresence>
+        {fase === "listo" && <Hecho cartera={cartera} reducido={reducido} vuelta={vuelta} />}
+      </AnimatePresence>
     </motion.div>
   );
 }
@@ -579,7 +643,11 @@ function Puntos() {
  * El cierre. El visto se DIBUJA, no aparece: un trazo que se completa se lee
  * como «hecho», y un icono que hace pop se lee como «mira, un icono».
  */
-function Hecho({ cartera, reducido }: { cartera: "apple" | "google" | null; reducido: boolean }) {
+function Hecho({ cartera, reducido, vuelta }: {
+  cartera: "apple" | "google" | null;
+  reducido: boolean;
+  vuelta: boolean;
+}) {
   return (
     <motion.div
       className="hecho"
@@ -626,7 +694,7 @@ function Hecho({ cartera, reducido }: { cartera: "apple" | "google" | null; redu
         animate={{ opacity: 1, y: 0 }}
         transition={reducido ? { duration: 0.01 } : { ...springSoft, delay: 0.5 }}
       >
-        Ya está. Tienes {DIAS_PRUEBA} días
+        {vuelta ? "Ya está. Vuelves a tenerlo todo" : `Ya está. Tienes ${DIAS_PRUEBA} días`}
         {cartera ? " y no has escrito ni una tecla" : ""}.
       </motion.p>
     </motion.div>

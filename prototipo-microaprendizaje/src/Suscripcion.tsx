@@ -19,9 +19,11 @@ import { GlyphClose } from "./glyphs";
    AVISO y no otra sección de la columna, y es la única pieza del perfil que
    se lee así. Se cierra con la equis, igual que la suya.
 
-   DOS VARIANTES, PORQUE SON DOS PERSONAS DISTINTAS. Al que nunca ha pagado
+   TRES VARIANTES, PORQUE SON TRES PERSONAS DISTINTAS. Al que nunca ha pagado
    hay que decirle qué se lleva; al que canceló, ya lo sabe —lo ha tenido— y
-   lo que hay que decirle es que su sitio sigue guardado. Prometerle «libros
+   lo que hay que decirle es que su sitio sigue guardado; y al que se le ha
+   caducado sin querer hay que decirle que se ha quedado fuera y ponérselo
+   fácil, que es la única de las tres que lleva oferta. Prometerle «libros
    ilimitados» a quien acaba de dejar de pagarlos es no haberse enterado de
    nada. Cambian el símbolo, las dos líneas del titular, el lema y el botón;
    la caja es la misma.
@@ -131,7 +133,14 @@ function TarjetaRota() {
 }
 
 /** Quién está mirando la tarjeta. Sale del estado de la app. */
-export type EstadoPago = "nuevo" | "cancelado";
+export type EstadoPago = "nuevo" | "cancelado" | "caducado";
+
+/** El descuento de la vuelta, en tanto por ciento.
+ *
+ *  Vive aquí porque la tarjeta lo dice y la caja lo cobra, y son dos ficheros:
+ *  escrito dos veces, el día que se cambie el número se cambiará en uno solo y
+ *  la app prometerá una cosa y cobrará otra. */
+export const DESCUENTO_VUELTA = 45;
 
 const TEXTOS: Record<EstadoPago, {
   Sello: () => ReactElement;
@@ -168,6 +177,38 @@ const TEXTOS: Record<EstadoPago, {
     bajo: "Vuelve hoy",
     lema: "Te guardamos la racha y lo que llevabas. Sigue donde lo dejaste.",
     boton: "Recuperar mi suscripción",
+  },
+  /* LA TERCERA, Y ES OTRA PERSONA MÁS. Pablo mandó el 28 de agosto la captura
+     de Headway con esta: «Tu acceso Premium / ha expirado», y debajo un 45 %
+     de descuento. La pidió tal cual: «pon esto para cuando la suscripción ha
+     terminado en un usuario».
+
+     NO ES LA DE «CANCELADO» CON OTRAS PALABRAS, aunque las dos hablen con
+     alguien que ya pagó. Cancelar es una decisión: te fuiste, y lo que hay
+     que decirte es que tu sitio sigue ahí. Caducar es un accidente —se acabó
+     el año, o falló el cobro—, y a quien no decidió irse no se le pide que
+     «vuelva»: se le dice que se ha quedado fuera sin querer y se le pone
+     fácil entrar. De ahí que esta sea la única de las tres que trae una
+     oferta encima.
+
+     EL DIBUJO ES EL MISMO PASE ROTO que el de cancelado, y está bien que lo
+     sea: en los dos casos lo que hay roto es el pase. Lo que cambia es de
+     quién es la culpa, y eso lo dicen las palabras, no el icono.
+
+     Y NO DICE EL PRECIO, que es la regla de esta tarjeta desde el principio:
+     una tarjeta que vende promete, no explica tarifas. El 45 % sí va, porque
+     un descuento sin número no es un descuento; los euros están una pantalla
+     más allá, en la caja, y salen del mismo `DESCUENTO_VUELTA` de aquí
+     arriba. */
+  caducado: {
+    Sello: TarjetaRota,
+    /* «Caducado» y no «expirado». Los dos se entienden, y el suyo es el calco
+       del inglés; el nuestro es la palabra que lleva toda la vida diciendo en
+       castellano que a algo se le ha pasado la fecha. */
+    alto: "Tu acceso completo",
+    bajo: "ha caducado",
+    lema: `No pierdas la racha ni lo que llevabas leído. Vuelve con un ${DESCUENTO_VUELTA} % de descuento.`,
+    boton: `Continuar con el ${DESCUENTO_VUELTA} %`,
   },
 };
 

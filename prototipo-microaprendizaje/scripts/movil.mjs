@@ -90,6 +90,16 @@ const muroDemo = MURO ? JSON.parse(readFileSync(MURO, "utf8")) : null;
 /* En qué pantalla abre. El simulador de siempre abre en la biblioteca; el
    mirador de shorts, en el muro. */
 const PANTALLA = arg("--pantalla", "inicio");
+/* En qué punto del pago arranca. Vale «nuevo», «cancelado» y «caducado», y
+   sirve para poder mirar los tres avisos del perfil desde el artefacto, que no
+   tiene URL donde escribir `?pago=`. Al de CADUCADO no se llega jugando —una
+   suscripción caduca en un servidor que aquí no existe—, así que sin esto ese
+   aviso no se puede ver publicado. Ver `PAGO_INICIAL` en `src/App.tsx`.
+
+   Y arrancar en «caducado» no quita nada: desde ahí se paga y se llega a
+   «activo», y desde «activo» se cancela y se llega a «cancelado». Al revés no
+   funciona: desde «nuevo» los otros dos no se alcanzan. */
+const PAGO = arg("--pago", "");
 /* El rótulo de la página. Los dos simuladores salen de este mismo script y no
    pueden decir lo mismo: uno es la app entera y el otro es solo el muro con
    las fotografías a calidad de verdad. Un mirador que se presenta como «la app
@@ -532,6 +542,7 @@ document.documentElement.lang = "es";
    página se quedaba en un mirador de shorts. Desde la biblioteca se llega al
    muro con una pestaña, y del muro se vuelve como en la app. */
 window.__PANTALLA = ${JSON.stringify(PANTALLA)};
+${PAGO ? `window.__PAGO = ${JSON.stringify(PAGO)};` : ""}
 ${muroDemo ? `
 /* Las historias que van delante, las mismas de las que se han empotrado las
    fotografías. Ver \`scripts/muro-demo.mjs\`. */

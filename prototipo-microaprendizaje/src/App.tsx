@@ -108,6 +108,27 @@ function colorDeTema(categoria: string): string {
 const SUSCRITO_INICIAL =
   typeof window !== "undefined" && new URLSearchParams(window.location.search).has("suscrito");
 
+/* En qué punto del pago se arranca, para poder mirar los tres avisos del
+   perfil sin tener que llegar a ellos jugando.
+ *
+ *  `?pago=cancelado` y `?pago=caducado`. A «cancelado» se llega solo —pagando
+ *  y cancelando desde los ajustes—, pero a CADUCADO no se puede llegar desde
+ *  dentro de la app y no es un olvido: una suscripción caduca porque pasa el
+ *  tiempo o porque falla un cobro, y las dos cosas ocurren en un servidor que
+ *  aquí no existe. Sin este parámetro, ese aviso estaría escrito y no habría
+ *  manera de verlo, que es exactamente cómo se congela una pantalla sin que
+ *  nadie se entere. Es el mismo apaño que `?p=`, `?leidas=` y `?temas=`. */
+const PAGO_INICIAL: "nuevo" | "cancelado" | "caducado" | "activo" = (() => {
+  if (SUSCRITO_INICIAL) return "activo";
+  if (typeof window === "undefined") return "nuevo";
+  /* `__PAGO` es para el simulador que se publica como artefacto, que no tiene
+     URL donde escribir un parámetro. Misma pareja que `__PANTALLA` y `?p=`, y
+     por el mismo motivo. */
+  const v = (globalThis as Record<string, any>).__PAGO
+    ?? new URLSearchParams(window.location.search).get("pago");
+  return v === "cancelado" || v === "caducado" ? v : "nuevo";
+})();
+
 /* Atajo para mirar una pantalla suelta sin pasar por el onboarding entero:
    ?p=shorts abre directamente el muro. Sirve para revisar el diseño en el
    navegador y para las capturas, y no molesta a nadie: sin el parámetro la
@@ -217,13 +238,12 @@ export default function App() {
       Los dos arrancan con historial de ejemplo, como la racha: un perfil a
       cero no enseña ni el arco lleno a medias ni el contador subiendo, que es
       justo lo que hay que ver. Al leer suben de verdad. */
-  /* En qué punto está con el pago. Son tres y no dos porque el aviso del
+  /* En qué punto está con el pago. Son cuatro y no dos porque el aviso del
      perfil le habla distinto a cada uno: al que nunca ha pagado hay que
-     decirle qué se lleva, y al que canceló —que ya lo sabe— que su sitio
-     sigue guardado. Ver `Suscripcion.tsx`. */
-  const [pago, setPago] = useState<"nuevo" | "cancelado" | "activo">(
-    SUSCRITO_INICIAL ? "activo" : "nuevo",
-  );
+     decirle qué se lleva; al que canceló —que ya lo sabe— que su sitio sigue
+     guardado; y al que se le ha caducado sin querer, que se ha quedado fuera,
+     con la oferta de vuelta. Ver `Suscripcion.tsx`. */
+  const [pago, setPago] = useState<"nuevo" | "cancelado" | "caducado" | "activo">(PAGO_INICIAL);
   const suscrito = pago === "activo";
   const [minutosHoy, setMinutosHoy] = useState(6.5);
   const [meta, setMeta] = useState(15);
@@ -398,7 +418,11 @@ export default function App() {
             <Checkout
               key="alta"
               reducido={!!reducido}
-              onVolver={() => setPantalla("pago")}
+              vuelta={pago === "caducado"}
+              /* Y si ha entrado saltándose la pantalla de la prueba, atrás no
+                 puede llevarle a ella: le devolvería al sitio donde nunca
+                 estuvo. Vuelve al perfil, que es de donde salió. */
+              onVolver={() => setPantalla(pago === "caducado" ? "perfil" : "pago")}
               /* Aquí se paga, y aquí se enciende la suscripción. Es el único
                  sitio de la app donde se hace, igual que en la de verdad. */
               onListo={() => {
@@ -493,12 +517,21 @@ export default function App() {
               racha={RACHA}
               suscrito={suscrito}
               minutosTotales={minutosTotales}
-              /* A quien canceló se le habla distinto: ya sabe lo que había.
-                 Ver `Suscripcion.tsx`. */
-              estadoPago={pago === "cancelado" ? "cancelado" : "nuevo"}
+              /* A quien canceló y a quien se le ha caducado se les habla
+                 distinto: los dos saben ya lo que había. Ver
+                 `Suscripcion.tsx`. */
+              estadoPago={pago === "activo" ? "nuevo" : pago}
               /* A la caja, que es donde se paga de verdad. La pantalla de
-                 «oferta» es el regalo con descuento y no da de alta. */
-              onSuscribirse={() => setPantalla("pago")}
+                 «oferta» es el regalo con descuento y no da de alta.
+
+                 Y AL QUE VUELVE CON DESCUENTO SE LE SALTA LA PANTALLA DE LA
+                 PRUEBA. Esa pantalla es la semana gratis contada día a día, y
+                 no es para él por dos motivos: ya conoce esto —pagó un año
+                 entero— y su tarjeta acaba de prometerle un tanto por ciento,
+                 no siete días. Llevarle allí sería desmentirse en la pantalla
+                 siguiente, así que va derecho a la caja, que es la que sabe
+                 enseñar el precio con descuento. */
+              onSuscribirse={() => setPantalla(pago === "caducado" ? "alta" : "pago")}
               record={RECORD}
               temas={temasDe(terminados)}
               minutosHoy={minutosHoy}

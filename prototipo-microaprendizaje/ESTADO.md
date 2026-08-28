@@ -151,6 +151,45 @@ si ocupa una línea o dos, y eso cambia cuántas palabras caben debajo.
 Se va **en orden de lectura**, el de `intercala()` en `src/shorts.ts`: el
 primer short de cada fichero, en el orden en que están listados.
 
+## EL AVISO DE SUSCRIPCIÓN CADUCADA — 28 de agosto de 2026
+
+Pablo mandó la captura de Headway —«Tu acceso Premium / ha expirado», con un
+45 % de descuento— y dijo: *«pon esto para cuando la suscripción ha terminado
+en un usuario»*.
+
+La tarjeta del perfil (`Suscripcion.tsx`) tenía dos variantes y ahora tiene
+tres: **nuevo**, **cancelado** y **caducado**. No es la de cancelado con otras
+palabras: cancelar es una decisión y caducar es un accidente, y a quien no
+decidió irse no se le pide que vuelva. Por eso es la única de las tres que
+lleva oferta encima.
+
+**El descuento es de verdad y llega hasta la caja**, que era la parte que
+podía quedar mal: una tarjeta que promete un 45 % y una caja que después
+enseña «7 días gratis · 23,99 €/año» se desmiente sola en la pantalla
+siguiente. Así que:
+
+· `DESCUENTO_VUELTA` vive en `Suscripcion.tsx` y lo lee `Checkout.tsx`. Está
+  escrito una vez: si un día es el 30 %, cambia en los dos sitios o en
+  ninguno.
+· El que vuelve **se salta la pantalla de la prueba** y va derecho a la caja.
+  Esa pantalla es la semana gratis contada día a día, y ya pagó un año.
+· La caja en modo vuelta enseña 13,19 € con 23,99 € tachado al lado, el botón
+  dice «Volver por 13,19 €» y la nota de abajo dice «Se cobra hoy», no «hoy no
+  se te cobra nada».
+
+**Cómo verlo.** Al aviso de caducado NO se llega jugando, y no es un olvido:
+una suscripción caduca porque pasa el tiempo o porque falla un cobro, y las
+dos cosas ocurren en un servidor que aquí no existe. Se entra por parámetro:
+
+    ?pago=caducado          en el navegador
+    node scripts/movil.mjs --pago caducado …     en el artefacto
+
+El artefacto publicado hoy arranca en «caducado», y **eso no quita nada**:
+desde ahí se paga y se llega a «activo», y desde «activo» se cancela en los
+ajustes y se llega a «cancelado». Al revés no funciona — desde «nuevo» los
+otros dos no se alcanzan —, así que arrancar aquí es lo que deja ver los
+tres avisos en una sola visita.
+
 ## Herramientas
 
 | | |
