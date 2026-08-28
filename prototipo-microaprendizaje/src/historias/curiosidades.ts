@@ -39,6 +39,13 @@ import portadaGravedad from "../../portadas/como-funciona-la-gravedad.avif";
    un guion que abría un navegador; funcionaba y estaba mal, porque unas
    páginas medidas en un móvil de 375 no valen en uno de 430.
 
+   Y DESDE EL 28 DE AGOSTO POR LA NOCHE, los `.md` llegan con cabecera: entre
+   dos `---` van `titulo`, `categoria`, `serie`, `orden`, `portada`,
+   `credito_portada` y `frase_portada`. El formato lo escribió Pablo y está en
+   `referencia/textos-de-pablo/FORMATO.md`. El identificador del tema sale de
+   `portada` sin extensión —si él dice cómo se llama la imagen, así se llama el
+   tema—, y por eso los cuatro del Sol se llaman como se llaman.
+
    CÓMO SE LEE SU FORMATO
 
      # Título          `titulo`
@@ -48,6 +55,9 @@ import portadaGravedad from "../../portadas/como-funciona-la-gravedad.avif";
      > ⚡ …            bloque `rayo`
      > ❞ …            bloque `cita`: las palabras de otro, no las nuestras. La
                        línea `> — Autor` de debajo es su firma y va en `autor`.
+     > 💡 …            bloque `dato`: el «¿Sabías que…?» al margen. No es un
+                       rayo; va en el hilo del texto y solo se le colorea la
+                       apertura.
      > 🖼️ …            NO es texto: es el encargo de una imagen para dentro.
                        Va en `encargos` y no se pinta.
      **negrita**       <strong>;  *cursiva* → <em>
@@ -63,10 +73,11 @@ import portadaGravedad from "../../portadas/como-funciona-la-gravedad.avif";
 
 export const CURIOSIDADES: Short[] = [
   {
-    id: "sol-dos-relojes",
+    id: "al-sol-le-quedan-cinco-mil-millones",
     titulo: "Al Sol le quedan cinco mil millones de años. A nosotros, mil",
     categoria: "Ciencia",
     color: "var(--ochre)",
+    /* Serie «cuanto-le-queda-al-sol», número 1 de cuatro. Se entiende suelto. */
     encargo: "El disco solar entero en ultravioleta, con la corona erizada de arcos.",
     fotos: [
       {
@@ -153,7 +164,7 @@ export const CURIOSIDADES: Short[] = [
           "habitable. Y ese diez por ciento llega dentro de unos mil millones de años.",
       },
       {
-        b: "parrafo",
+        b: "dato",
         texto:
           "¿Sabías que…? Cuando se formó la Tierra, el Sol brillaba un treinta por ciento menos " +
           "que hoy. Con aquella estrella más apagada y esta misma atmósfera, la temperatura media " +
@@ -169,10 +180,11 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
-    id: "sol-no-llegara-por-fuego",
+    id: "el-final-no-llegara-por-fuego",
     titulo: "El final de la vida en la Tierra no llegará por fuego, sino por asfixia",
     categoria: "Ciencia",
     color: "var(--sage)",
+    /* Serie «cuanto-le-queda-al-sol», número 2 de cuatro. Se entiende suelto. */
     encargo: "Un bosque a contraluz con la hoja seca en primer plano: lo que se apaga primero son las plantas, no la piedra.",
     soloPortada: true,
     textoDePablo: true,
@@ -268,13 +280,16 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
-    id: "sol-la-tierra-casi-escapa",
+    id: "cuando-el-sol-se-hinche",
     titulo: "Cuando el Sol se hinche, la Tierra estará a punto de escapar",
     categoria: "Ciencia",
     color: "var(--clay)",
+    /* Serie «cuanto-le-queda-al-sol», número 3 de cuatro. Se entiende suelto. */
     encargo: "Un sol enorme y rojo ocupando media pantalla, con el filo de un planeta pequeño recortado contra él.",
     soloPortada: true,
     textoDePablo: true,
+    /* La imagen que pide su texto para DENTRO del tema, todavía sin hacer:
+       IMAGEN — comparación de tamaño a escala: el Sol de hoy, minúsculo, dentro de la silueta del Sol convertido en gigante roja, con la órbita actual de la Tierra marcada como una circunferencia que queda por dentro. La cifra de 256 veces no se siente leída; dibujada, sí. Diagrama propio en SVG. */
     bloques: [
       {
         b: "rotulo",
@@ -386,10 +401,11 @@ export const CURIOSIDADES: Short[] = [
     ],
   },
   {
-    id: "sol-ninguna-se-ha-apagado",
+    id: "todavia-no-se-ha-apagado-ninguna",
     titulo: "Todavía no se ha apagado del todo ninguna estrella",
     categoria: "Ciencia",
     color: "var(--slate)",
+    /* Serie «cuanto-le-queda-al-sol», número 4 de cuatro. Se entiende suelto. */
     encargo: "Una brasa casi apagada en la oscuridad, con el punto de luz todavía dentro. Macro, sin fondo.",
     soloPortada: true,
     textoDePablo: true,

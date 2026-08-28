@@ -10577,6 +10577,25 @@ button {
    normales —27— y eso le añadía un renglón de aire por dentro de la caja, así
    que debajo del rayo quedaba el doble de blanco que entre dos párrafos. El
    aire que le toca lo pone la propia caja. */
+/* ---- EL DATO CURIOSO ---------------------------------------------------
+   El «¿Sabías que…?». Pablo lo dejó a criterio en su `FORMATO.md` —«puede ir
+   como párrafo normal o con estilo propio»— y dijo lo que NO es: «no es un
+   insight». Así que no lleva caja, ni icono, ni sangría: se queda en el hilo
+   del texto, con las mismas medidas que un párrafo, y lo único que cambia es
+   que su apertura va en el color del tema.
+
+   Es a propósito que se note poco. Un dato al margen que grita compite con el
+   rayo, que es el que tiene que cerrar la sección; y estos párrafos llevaban
+   sin marca ninguna desde que llegaron, así que subir el tono de golpe habría
+   cambiado el ritmo de todas las pantallas sin que nadie lo pidiera. */
+.muro-hoja[data-sinfoto="true"] .short-cuerpo p.dato {
+  color: color-mix(in srgb, currentColor 88%, transparent);
+}
+.muro-hoja[data-sinfoto="true"] .short-cuerpo .dato-abre {
+  color: var(--acento, var(--ochre));
+  font-weight: 700;
+}
+
 /* ---- LA CITA TEXTUAL --------------------------------------------------
    Las palabras de otro, y por eso no se parece al rayo. El rayo es la
    conclusión de la pantalla, escrita en nuestra voz, y va con su icono y en

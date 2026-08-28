@@ -1,3 +1,13 @@
+---
+titulo: "Al Sol le quedan cinco mil millones de años. A nosotros, mil"
+categoria: "Ciencia"
+serie: "cuanto-le-queda-al-sol"
+orden: 1
+portada: "al-sol-le-quedan-cinco-mil-millones.avif"
+credito_portada: "La corona solar en ultravioleta: doscientas tomas de la sonda Solar Orbiter cosidas en una, 9 de marzo de 2025. Agencia Espacial Europea."
+frase_portada: ""
+---
+
 # Al Sol le quedan cinco mil millones de años. A nosotros, mil
 
 
@@ -24,6 +34,6 @@ Al comprimirse se calienta. Al calentarse fusiona más deprisa. Y al fusionar m�
 
 Falta poco más de un diez por ciento de brillo para que la Tierra deje de ser habitable. Y ese diez por ciento llega dentro de unos mil millones de años.
 
-¿Sabías que…? Cuando se formó la Tierra, el Sol brillaba un treinta por ciento menos que hoy. Con aquella estrella más apagada y esta misma atmósfera, la temperatura media del planeta sería de siete grados bajo cero. La vida no empezó bajo un sol como el nuestro, sino bajo uno mucho más tibio.
+> 💡 ¿Sabías que…? Cuando se formó la Tierra, el Sol brillaba un treinta por ciento menos que hoy. Con aquella estrella más apagada y esta misma atmósfera, la temperatura media del planeta sería de siete grados bajo cero. La vida no empezó bajo un sol como el nuestro, sino bajo uno mucho más tibio.
 
 > ⚡ El Sol no necesita morir para acabar con la vida en la Tierra. Le basta con seguir haciendo exactamente lo que lleva haciendo desde el principio.

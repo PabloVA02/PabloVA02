@@ -1,3 +1,13 @@
+---
+titulo: "Todavía no se ha apagado del todo ninguna estrella"
+categoria: "Ciencia"
+serie: "cuanto-le-queda-al-sol"
+orden: 4
+portada: "todavia-no-se-ha-apagado-ninguna.avif"
+credito_portada: ""
+frase_portada: ""
+---
+
 # Todavía no se ha apagado del todo ninguna estrella
 
 

@@ -1,3 +1,13 @@
+---
+titulo: "Cuando el Sol se hinche, la Tierra estará a punto de escapar"
+categoria: "Ciencia"
+serie: "cuanto-le-queda-al-sol"
+orden: 3
+portada: "cuando-el-sol-se-hinche.avif"
+credito_portada: ""
+frase_portada: ""
+---
+
 # Cuando el Sol se hinche, la Tierra estará a punto de escapar
 
 
@@ -6,6 +16,8 @@
 Cuando el Sol agote por fin el hidrógeno de su núcleo, hará justo lo contrario de apagarse: se hinchará.
 
 Se convertirá en una **gigante roja** de unas doscientas cincuenta y seis veces su tamaño actual, lo que significa que su superficie llegará más lejos de donde ahora mismo orbita la Tierra.
+
+> 🖼️ IMAGEN — comparación de tamaño a escala: el Sol de hoy, minúsculo, dentro de la silueta del Sol convertido en gigante roja, con la órbita actual de la Tierra marcada como una circunferencia que queda por dentro. La cifra de 256 veces no se siente leída; dibujada, sí. Diagrama propio en SVG.
 
 Mercurio será el primero en desaparecer. Venus le seguirá unos dos millones y medio de años después. Y un millón de años más tarde le tocará el turno a nuestra órbita, dentro de siete mil quinientos noventa millones de años.
 

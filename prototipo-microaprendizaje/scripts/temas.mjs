@@ -19,6 +19,18 @@
 
    QUÉ SE LEE DE SU FORMATO
 
+     Desde el 28 de agosto por la noche los `.md` llegan con CABECERA, entre
+     dos `---` al principio, y ahí va lo que no es texto: `titulo`,
+     `categoria`, `serie`, `orden`, `portada`, `credito_portada` y
+     `frase_portada`. Está descrito en `referencia/textos-de-pablo/FORMATO.md`,
+     que lo escribió él. Los ficheros viejos no la llevan y siguen leyéndose:
+     si no hay cabecera, se saca lo que se pueda del cuerpo.
+
+     El identificador del tema sale de `portada` sin extensión, no del nombre
+     del fichero. Es la regla de las portadas del `CLAUDE.md` —«el nombre,
+     idéntico al del tema»— leída al revés: si él dice cómo se llama la imagen,
+     así se llama el tema.
+
      # Título          el título del tema
      ## Sección        un bloque `rotulo`
      párrafo           un bloque `parrafo`
@@ -26,6 +38,10 @@
      > ⚡ …            un bloque `rayo`
      > ❞ …            una cita textual; la línea `> — Autor` que va detrás es
                       su firma y se pega a ella, no es un párrafo aparte
+     > 💡 …            un dato curioso al margen, de los que empiezan por
+                       «¿Sabías que…?». Bloque `dato`. NO es un rayo: el rayo
+                       es la conclusión de la sección y este es una nota
+                       lateral, así que no lleva su caja ni su icono.
      > 🖼️ …            NO es texto: es el encargo de una imagen. Se guarda
                        aparte, en `encargos`, y no se pinta.
      **negrita**       <strong>;  *cursiva* → <em>
@@ -38,9 +54,23 @@ const marcas = (t) =>
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/(?<!\*)\*([^*]+?)\*(?!\*)/g, "<em>$1</em>");
 
+/* La cabecera, si la hay. No se usa un analizador de YAML entero porque aquí
+   no hay YAML: son siete líneas de `clave: "valor"` sin anidar ni listas. */
+function leeCabecera(md) {
+  const m = /^---\n([\s\S]*?)\n---\n/.exec(md);
+  if (!m) return [{}, md];
+  const campos = {};
+  for (const linea of m[1].split("\n")) {
+    const c = /^(\w+):\s*(.*)$/.exec(linea.trim());
+    if (!c) continue;
+    campos[c[1]] = c[2].replace(/^"(.*)"$/, "$1").trim();
+  }
+  return [campos, md.slice(m[0].length)];
+}
+
 export function leeTema(ruta) {
-  const md = readFileSync(ruta, "utf8");
-  const titulo = /^# (.+)$/m.exec(md)?.[1]?.trim() ?? "";
+  const [cabecera, md] = leeCabecera(readFileSync(ruta, "utf8"));
+  const titulo = cabecera.titulo || /^# (.+)$/m.exec(md)?.[1]?.trim() || "";
   const bloques = [];
   const encargos = [];
   let vinetas = [];
@@ -59,6 +89,15 @@ export function leeTema(ruta) {
       if (l.startsWith("•")) { vinetas.push(l.slice(1).trim()); continue; }
       cierraLista();
       if (l.startsWith("> ⚡")) { bloques.push({ b: "rayo", texto: marcas(l.slice(3).trim()) }); continue; }
+      /* EL DATO CURIOSO. Es un párrafo con una marca, no una caja: Pablo lo
+         dejó a criterio —«puede ir como párrafo normal o con estilo propio»— y
+         lo que NO es, lo dice él mismo: «no es un insight». Así que se queda
+         donde estaba, en el hilo del texto, y lo único que cambia es que su
+         «¿Sabías que…?» se pinta en el color del tema. */
+      if (/^>\s*💡/.test(l)) {
+        bloques.push({ b: "dato", texto: marcas(l.replace(/^>\s*💡\s*/, "").trim()) });
+        continue;
+      }
       /* UNA CITA TEXTUAL, que no es lo mismo que un rayo. El rayo es la
          conclusión de la pantalla, escrita por nosotros; la cita son las
          palabras de otro, entrecomilladas y firmadas. Llegaron el 28 de agosto
@@ -88,7 +127,12 @@ export function leeTema(ruta) {
     }
   }
   cierraLista();
-  return { id: basename(ruta, ".md"), titulo, bloques, encargos };
+  /* El id sale de `portada` sin extensión; sin cabecera, del nombre del
+     fichero, que es como se leían los de antes. */
+  const id = cabecera.portada
+    ? cabecera.portada.replace(/\.[a-z0-9]+$/i, "")
+    : basename(ruta, ".md");
+  return { id, titulo, bloques, encargos, cabecera };
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

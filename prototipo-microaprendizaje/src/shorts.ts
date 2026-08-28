@@ -188,6 +188,18 @@ export type Bloque =
    * se pinta sin la comilla de apertura, que ya salió en la anterior.
    */
   | { b: "cita"; texto: string; autor?: string; sigue?: true }
+  /**
+   * Un dato curioso al margen, de los que empiezan por «¿Sabías que…?».
+   *
+   * NO es un rayo, y Pablo lo dejó escrito en su `FORMATO.md`: «no es un
+   * insight». El rayo es la conclusión de la sección y va en su caja con el
+   * icono; esto es una nota lateral que se lee de pasada. Así que se queda en
+   * el hilo del texto, con las mismas medidas que un párrafo, y lo único que
+   * lo distingue es que su «¿Sabías que…?» va en el color del tema.
+   *
+   * Se parte entre pantallas como cualquier párrafo.
+   */
+  | { b: "dato"; texto: string; sigue?: true }
   /** La caja del rayo: la conclusión de la sección. Nunca abre página.
    *  `sigue` marca la CONTINUACIÓN de un rayo que no cabía entero y se partió
    *  entre dos pantallas: pinta la caja sin el icono, porque el rayo ya salió

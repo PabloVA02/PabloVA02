@@ -46,6 +46,25 @@ Lo mínimo, para que nada se escriba mal ni por descuido:
 - **El texto viejo autogenerado se BORRA** al reescribir un libro. Apartado
   2 quater.
 
+## Lo primero bis: cómo llegan los temas escritos
+
+Desde el 28 de agosto por la noche, los `.md` que manda Pablo traen **cabecera**
+entre dos `---` —`titulo`, `categoria`, `serie`, `orden`, `portada`,
+`credito_portada`, `frase_portada`— y marcas propias en el cuerpo: `> ⚡` para
+el insight, `> ❞` para una cita, `> 💡` para el «¿Sabías que…?» y `> 🖼️` para
+un encargo de imagen que **no se pinta nunca**.
+
+**El formato lo escribió él y está en
+`prototipo-microaprendizaje/referencia/textos-de-pablo/FORMATO.md`.** Se lee
+antes de meter un tema nuevo. Lo lee `scripts/temas.mjs`, y de ahí sale todo:
+el identificador del tema es el de `portada` sin extensión, porque si él dice
+cómo se llama la imagen, así se llama el tema.
+
+Una advertencia sobre ese fichero: su última sección, «Reglas de maquetado»,
+pide una **franja inferior de 56 pt** con indicador de página y chevron. Se hizo
+y Pablo la quitó al verla —«déjalo como estaba antes, que estaba mucho mejor»—.
+Manda lo que dijo después. Está contado en la hoja de paginado.
+
 ## LO SEGUNDO, Y TAMPOCO SE NEGOCIA: cómo se pagina una pantalla
 
 **Antes de tocar la maqueta de un short, el reparto del texto en pantallas o

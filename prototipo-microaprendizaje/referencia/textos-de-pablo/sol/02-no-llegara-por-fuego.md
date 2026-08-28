@@ -1,3 +1,13 @@
+---
+titulo: "El final de la vida en la Tierra no llegará por fuego, sino por asfixia"
+categoria: "Ciencia"
+serie: "cuanto-le-queda-al-sol"
+orden: 2
+portada: "el-final-no-llegara-por-fuego.avif"
+credito_portada: ""
+frase_portada: ""
+---
+
 # El final de la vida en la Tierra no llegará por fuego, sino por asfixia
 
 

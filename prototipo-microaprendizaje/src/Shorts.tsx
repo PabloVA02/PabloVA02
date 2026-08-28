@@ -753,7 +753,8 @@ function parteBloque(b: Bloque, el: HTMLElement, desborda: () => boolean): [Bloq
      puede medir quince renglones, que no caben en ninguna pantalla empezada. Y
      LA FIRMA SE VA CON LA COLA: firmar el trozo de arriba diría que la cita
      acaba ahí, y firmar los dos, que son dos citas. */
-  const dentro = b.b === "cita" ? el.querySelector("p") : b.b === "parrafo" ? el : null;
+  const dentro =
+    b.b === "cita" ? el.querySelector("p") : b.b === "parrafo" || b.b === "dato" ? el : null;
   if (!dentro) return null;
   const trozos = cortaHastaLlenar(dentro as HTMLElement, desborda);
   if (!trozos) return null;
@@ -763,6 +764,11 @@ function parteBloque(b: Bloque, el: HTMLElement, desborda: () => boolean): [Bloq
     return [
       b.sigue ? { b: "cita", texto: trozos[0], sigue: true } : { b: "cita", texto: trozos[0] },
       { b: "cita", texto: trozos[1], autor: b.autor, sigue: true },
+    ];
+  if (b.b === "dato")
+    return [
+      b.sigue ? { b: "dato", texto: trozos[0], sigue: true } : { b: "dato", texto: trozos[0] },
+      { b: "dato", texto: trozos[1], sigue: true },
     ];
   return [{ b: "parrafo", texto: trozos[0] }, { b: "parrafo", texto: trozos[1] }];
 }
@@ -1612,6 +1618,24 @@ function CuerpoPagina({ bloques }: { bloques: Bloque[] }) {
  * los repondría en cualquier re-render, en mitad de la medida. Con el HTML
  * puesto de una vez, React no vuelve a mirar ahí dentro.
  */
+/**
+ * El «¿Sabías que…?» de un dato, marcado para poder pintarlo en el color del
+ * tema. Solo la primera mitad de un dato partido lo lleva: la de abajo empieza
+ * a media frase y ahí no hay nada que abrir.
+ *
+ * Se hace con una expresión sobre el HTML ya compuesto y no partiendo la
+ * cadena antes, porque `conGuiones` mete guiones blandos dentro de las
+ * palabras: buscar «¿Sabías que…?» en el texto crudo funcionaría y en el
+ * compuesto no, y lo que llega a la pantalla es el compuesto.
+ */
+function abreDato(html: string, sigue?: true): string {
+  if (sigue) return html;
+  return html.replace(
+    /^((?:¿|&iquest;)[\s\S]{0,40}?\?)/,
+    '<span class="dato-abre">$1</span>',
+  );
+}
+
 export function htmlDeBloques(bloques: Bloque[]): string {
   return bloques
     .map((b) => {
@@ -1619,6 +1643,8 @@ export function htmlDeBloques(bloques: Bloque[]): string {
       if (b.b === "parrafo") return `<p>${conGuiones(b.texto)}</p>`;
       if (b.b === "lista")
         return `<ul${b.sigue ? ' data-sigue="true"' : ""}>${b.puntos.map((t) => `<li>${conGuiones(t)}</li>`).join("")}</ul>`;
+      if (b.b === "dato")
+        return `<p class="dato"${b.sigue ? ' data-sigue="true"' : ""}>${abreDato(conGuiones(b.texto), b.sigue)}</p>`;
       if (b.b === "cita")
         return (
           `<blockquote class="cita"${b.sigue ? ' data-sigue="true"' : ""}>` +
@@ -1645,6 +1671,14 @@ function PintaBloque({ b }: { b: Bloque }) {
             <li key={i} dangerouslySetInnerHTML={{ __html: conGuiones(t) }} />
           ))}
         </ul>
+      );
+    case "dato":
+      return (
+        <p
+          className="dato"
+          data-sigue={b.sigue ? "true" : undefined}
+          dangerouslySetInnerHTML={{ __html: abreDato(conGuiones(b.texto), b.sigue) }}
+        />
       );
     case "cita":
       return (
