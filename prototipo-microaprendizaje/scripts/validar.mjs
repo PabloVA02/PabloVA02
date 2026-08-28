@@ -125,7 +125,7 @@ for (const s of SHORTS) {
      propósito —foto y título elegidos, el texto lo escribe Pablo— y eso se
      dice con `paginas: []`. A esas no se les puede pedir gancho, entrada ni
      páginas: no es que estén mal escritas, es que todavía no están escritas. */
-  const soloPortada = s.paginas.length === 0;
+  const soloPortada = s.bloques.length === 0;
 
   if (!soloPortada) {
     /* El gancho y la entrada solo se miden SI ESTÁN. Dejaron de ser
@@ -141,16 +141,16 @@ for (const s of SHORTS) {
     if (e && (e < LIMITES.entrada.min || e > LIMITES.entrada.max))
       err(`entrada de ${e} palabras (entre ${LIMITES.entrada.min} y ${LIMITES.entrada.max})`);
 
-    /* Y las páginas son las que pida el TEXTO. Aquí seguía escrito «son
-       siempre 3», que dejó de ser verdad el 27 de agosto, y luego «entre 2 y
-       5», que dejó de serlo el 28: el primer texto de Pablo pide nueve
-       pantallas y el segundo ocho. Queda el suelo —menos de dos no es una
-       historia— y un aviso a partir de catorce, que no es un límite sino una
-       pregunta: si un tema pide más de catorce pantallas, puede que sean dos
-       temas. */
-    if (s.paginas.length < 2) err(`tiene ${s.paginas.length} páginas (mínimo 2)`);
-    if (s.paginas.length > 14)
-      avi(`${s.paginas.length} pantallas: ¿no serán dos temas en vez de uno?`);
+    /* AQUÍ YA NO SE CUENTAN PÁGINAS, y es a propósito. Las páginas las cuenta
+       la app al repartir y dependen del móvil: un tema que en un teléfono
+       ocupa nueve pantallas ocupa siete en uno grande, y las dos cosas están
+       bien. Ver `.claude/skills/paginado-shorts/SKILL.md`, regla 3.
+       
+       Lo que sí se puede pedir es que la historia tenga cuerpo: menos de seis
+       bloques no es un tema, y más de sesenta probablemente son dos. */
+    if (s.bloques.length < 6) err(`tiene ${s.bloques.length} bloques (mínimo 6)`);
+    if (s.bloques.length > 60)
+      avi(`${s.bloques.length} bloques: ¿no serán dos temas en vez de uno?`);
   }
 
   if (!LIMITES.colores.includes(s.color)) err(`color «${s.color}» fuera de la paleta`);
@@ -173,38 +173,38 @@ for (const s of SHORTS) {
   }
 
   let golpes = 0;
-  s.paginas.forEach((p, i) => {
+  let rotulos = 0;
+  s.bloques.forEach((b, i) => {
     const n = i + 1;
-    /* Sin regla de rótulo: ver `LIMITES`. Lo único que se le pide es existir,
-       porque le sirve de esqueleto a quien revise el texto. */
-    if (!p.rotulo) avi(`la página ${n} no tiene rótulo`);
-
-    const w = palabras(p.texto);
-    if (w < LIMITES.pagina.min || w > LIMITES.pagina.max)
-      err(`página ${n}: ${w} palabras (entre ${LIMITES.pagina.min} y ${LIMITES.pagina.max})`);
-
-    if (p.destacado) {
-      golpes++;
-      if (p.destacado.tipo === "cifra" && !p.destacado.unidad)
-        err(`página ${n}: la cifra no lleva unidad`);
-      /* El tope sube de 16 a 34 palabras. Los rayos que manda Pablo van de 21
-         a 30 y están escritos para sostenerse sueltos —«se puede compartir
-         solo», dice su nota—, así que son frases enteras y no lemas. */
-      if (p.destacado.tipo === "frase" && palabras(p.destacado.frase) > 34)
-        avi(`página ${n}: la frase destacada es demasiado larga para leerse de golpe`);
+    if (b.b === "rotulo") {
+      rotulos++;
+      if (!b.texto.trim()) err(`el bloque ${n} es un subtítulo vacío`);
+      /* Un subtítulo tiene que llevar algo detrás: la regla 5 del paginado
+         dice que no se separa de su primer párrafo, y para eso hace falta que
+         exista. */
+      if (!s.bloques[i + 1] || s.bloques[i + 1].b === "rotulo")
+        err(`el subtítulo ${n} no tiene párrafo detrás`);
     }
-    /* Y desde el 28 de agosto por la tarde el rayo va DENTRO del texto, como
-       un bloque más, para que una sección pueda acabar a media pantalla y la
-       siguiente empezar debajo —que es lo que permite llenar la pantalla
-       hasta abajo—. Así que se cuenta de las dos maneras. */
-    golpes += (p.texto.match(/blockquote class="rayo"/g) ?? []).length;
+    if (b.b === "rayo") {
+      golpes++;
+      /* Y el rayo no abre pantalla —regla 5—, así que necesita algo delante. */
+      if (i === 0) err("la historia empieza por un rayo, y el rayo cierra, no abre");
+      /* Los que manda Pablo van de 21 a 30 palabras y están escritos para
+         sostenerse sueltos. Por encima de 34 deja de ser una frase que se
+         pueda compartir. */
+      if (palabras(b.texto) > 34) avi(`el rayo ${n} es demasiado largo para leerse de golpe`);
+    }
+    if (b.b === "parrafo" && !b.texto.trim()) err(`el bloque ${n} es un párrafo vacío`);
+    if (b.b === "lista" && !b.puntos.length) err(`el bloque ${n} es una lista vacía`);
   });
+  if (!soloPortada && !rotulos) avi("la historia no tiene ni un subtítulo");
 
   if (golpes === 0 && !soloPortada)
     avi("ninguna página tiene golpe: cifra o frase, al menos uno");
 
   if (!soloPortada) {
-    const total = palabras(s.entrada ?? "") + s.paginas.reduce((n, p) => n + palabras(p.texto), 0);
+    const total = palabras(s.entrada ?? "") +
+      s.bloques.reduce((n, b) => n + palabras(b.b === "lista" ? b.puntos.join(" ") : b.texto), 0);
     if (total < LIMITES.historia.min)
       err(`${total} palabras en total (mínimo ${LIMITES.historia.min})`);
   }
@@ -221,8 +221,9 @@ for (const s of SHORTS) {
 
 /* --- Resumen --- */
 
-const totales = SHORTS.filter((s) => s.paginas.length).map(
-  (s) => palabras(s.entrada ?? "") + s.paginas.reduce((n, p) => n + palabras(p.texto), 0),
+const totales = SHORTS.filter((s) => s.bloques.length).map(
+  (s) => palabras(s.entrada ?? "") +
+    s.bloques.reduce((n, b) => n + palabras(b.b === "lista" ? b.puntos.join(" ") : b.texto), 0),
 );
 /* Con el muro vacío no hay media que sacar, y dividir entre cero imprime
    «NaN palabras de media · NaN min», que parece una avería del validador

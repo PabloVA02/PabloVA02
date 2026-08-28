@@ -210,7 +210,7 @@ button {
   /* En un movil ocupa la pantalla entera. El tope solo existe para que en un
      ordenador no se estire a lo ancho de un monitor. */
   width: min(100vw, 430px);
-  height: min(100svh, 932px);
+  height: min(100dvh, 932px);
   min-height: 600px;
   overflow: hidden;
   isolation: isolate;
@@ -7176,15 +7176,25 @@ button {
       no se estire de lado a lado de un monitor, no para recortar telefonos:
       ahora solo se aplica cuando la ventana es mas ancha que cualquier
       telefono. Debajo de eso, la pantalla entera, mida lo que mida. */
+/* Y EL ALTO ES `dvh`, no `vh` ni `svh`. Lo pidió Pablo con el paginado:
+   «cada página ocupa exactamente el alto visible, 100dvh menos la barra de
+   pestañas menos env(safe-area-inset-bottom); nada de 100vh».
+
+   `vh` cuenta la barra de direcciones del navegador aunque no esté, así que
+   la última línea se iba debajo del borde. `svh` es lo contrario —el alto
+   mínimo, con la barra siempre puesta— y dejaba una franja muerta abajo
+   cuando la barra se escondía. `dvh` es el alto que hay AHORA, y con el
+   reparto calculándose al vuelo esto ya se puede usar: cuando cambia, las
+   pantallas se vuelven a repartir solas. */
 .shell {
   width: 100vw;
-  height: 100svh;
+  height: 100dvh;
   min-height: 0;
 }
 @media (min-width: 520px) {
   .shell {
     width: min(100vw, 430px);
-    height: min(100svh, 932px);
+    height: min(100dvh, 932px);
     min-height: 600px;
   }
 }
@@ -10498,9 +10508,47 @@ button {
      abajo, el sitio justo de la barra de pestañas y nada más: el texto tiene
      que llegar hasta ella, que es lo que pidió Pablo. Los 6,4cqw que había de
      colchón sobre la barra eran veinticuatro puntos de nada. */
-  padding: 13cqw 16px calc(14px + var(--barra, 64px));
+  /* El alto útil es este relleno restado a la pantalla, y de aquí lo lee el
+     repartidor: abajo, la barra de pestañas MÁS el área segura del móvil —la
+     franja de la rayita en los que no tienen botón—. Sin sumarla, en un
+     iPhone la última línea queda debajo del gesto de inicio. */
+  --medidor-lado: 16px;
+  padding: 13cqw 16px calc(14px + var(--barra, 64px) + env(safe-area-inset-bottom, 0px));
+  /* Regla 2: dentro de un tema no hay scroll. El gesto vertical cambia de
+     short y el horizontal pasa de página; una barra de scroll aquí sería la
+     señal de que el reparto se ha equivocado. */
+  overflow: hidden;
 }
 .muro-hoja[data-sinfoto="true"] .short-cuerpo { margin-top: 0; }
+
+/* LA HOJA DE MEDIR: la pantalla de texto otra vez, invisible, con la historia
+   entera dentro. Ver el comentario de `Shorts.tsx`.
+
+   `visibility: hidden` y no `display: none` ni `opacity: 0`: lo primero deja
+   de calcular la maqueta —alturas de cero— y lo tercero seguiría capturando
+   toques. Así se calcula todo, no se ve nada y no estorba.
+
+   `contain: layout paint` corta cualquier repintado que salga de aquí: es una
+   caja que existe solo para preguntarle su tamaño. */
+/* El selector va con las tres piezas a propósito: la hoja de verdad se coloca
+   con `.muro-hoja[data-forma="pagina"] { position: relative; inset: auto }`, y
+   con un solo `.muro-medidor` esa regla ganaba por especificidad. La gemela
+   medía entonces 6.725 puntos de alto —la historia entera— y el reparto salía
+   de una sola pantalla. */
+.muro-hoja.muro-medidor[data-forma="pagina"] {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  visibility: hidden;
+  pointer-events: none;
+  contain: layout paint;
+}
+/* Y su texto no cuelga del pie ni se recorta: se mide entero, apilado desde
+   arriba. La hoja de verdad sí lo recorta. */
+.muro-hoja.muro-medidor .short-cuerpo {
+  margin-top: 0;
+  overflow: visible;
+}
 
 /* En las pantallas bajas ceden los suelos, y en el mismo orden de siempre:
    la fotografía antes que el texto. */

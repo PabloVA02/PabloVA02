@@ -55,14 +55,13 @@ function historiasDe(fichero) {
     /* Cuántas páginas tiene, para saber cuántas fotografías le tocan. Desde el
        27 de agosto las páginas las decide el tema —dos, tres o cuatro—, así
        que «completa» ya no son cuatro fotos: es una por pantalla. */
-    const paginas = [...t.matchAll(/rotulo:\s*"/g)].length;
-    /* Y las que llevan `soloPortada` están completas con UNA. Desde el 28 de
-       agosto la fotografía de esas historias es solo la de la portada: las
-       páginas van sin banda de imagen. Sin esto, el filtro de abajo les pedía
-       una por pantalla y dejaba fuera del mirador justamente las dos que
-       tienen el texto de Pablo. */
-    const solo = /soloPortada:\s*true/.test(t);
-    if (id) fuera.push({ id, fotos, paginas: solo ? 0 : paginas });
+    /* CUÁNTAS FOTOS LE HACEN FALTA. Desde el 28 de agosto por la tarde una
+       historia no tiene páginas escritas: tiene bloques, y las páginas las
+       reparte la app midiendo el móvil. Así que ya no se puede pedir «una foto
+       por pantalla»; lo que se pide es la de la portada, que es la única que
+       lleva una historia de `soloPortada`. */
+    const paginas = 0;
+    if (id) fuera.push({ id, fotos, paginas });
   }
   return fuera;
 }

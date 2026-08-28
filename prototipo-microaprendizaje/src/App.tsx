@@ -601,8 +601,10 @@ export default function App() {
             // tarjetas leídas, que es lo que ve el perfil.
             <MuroShorts
               key="shorts"
-              onLeido={(s, m) => {
-                setLeidas((n) => n + s.paginas.length + 1);
+              onLeido={(_s, m) => {
+                /* Las pantallas de un short ya no son un número escrito: dependen del
+                   móvil. Lo que se cuenta es la historia, una. */
+                setLeidas((n) => n + 1);
                 setMinutosHoy((n) => n + m);
                 setMinutosTotales((n) => n + m);
               }}

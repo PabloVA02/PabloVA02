@@ -33,7 +33,9 @@ Hay además un detalle que remata el asunto. Los fetos bostezan dentro del úter
 
 Entonces, ¿qué pasa realmente cuando bostezas? La explicación que más fuerza ha ganado en los últimos años es también la más inesperada: **el bostezo sirve para enfriarte el cerebro.**
 
-El cerebro es un órgano caro. Consume una enorme cantidad de energía, genera mucho calor como consecuencia, y solo funciona bien dentro de un margen de temperatura bastante estrecho. La hipótesis **termorreguladora** propone que el bostezo es, literalmente, un sistema de refrigeración: al abrir la mandíbula del todo se estiran los músculos de la cara y aumenta el flujo de sangre hacia la cabeza, entra de golpe una bocanada de aire más fresco que el cuerpo, y de paso se ventilan los senos nasales.
+El cerebro es un órgano caro. Consume una enorme cantidad de energía, genera mucho calor como consecuencia, y solo funciona bien dentro de un margen de temperatura bastante estrecho.
+
+La hipótesis **termorreguladora** propone que el bostezo es, literalmente, un sistema de refrigeración: al abrir la mandíbula del todo se estiran los músculos de la cara y aumenta el flujo de sangre hacia la cabeza, entra de golpe una bocanada de aire más fresco que el cuerpo, y de paso se ventilan los senos nasales.
 
 Suena inventado, pero las pruebas se van acumulando:
 
@@ -45,7 +47,11 @@ Suena inventado, pero las pruebas se van acumulando:
 
 • La frecuencia de bostezos aumenta con la temperatura ambiente, pero se desploma cuando el aire de fuera se acerca a la temperatura corporal. Tiene sentido: si el aire ya no está más frío que tú, ventilar no sirve de nada.
 
-¿Sabías que…? El estudio más grande que se ha hecho jamás sobre el tema analizó 1.291 bostezos de 101 especies distintas, entre mamíferos y aves. Encontró que cuanto mayor es el cerebro de un animal, y cuantas más neuronas tiene, más dura su bostezo. Un mamífero de cerebro medio bosteza unos 3,4 segundos; un ave, apenas 1,5. Encaja exactamente con lo que predice la teoría: un cerebro más grande necesita más tiempo de ventilación.
+¿Sabías que…? El estudio más grande que se ha hecho jamás sobre el tema analizó 1.291 bostezos de 101 especies distintas, entre mamíferos y aves. Encontró que cuanto mayor es el cerebro de un animal, y cuantas más neuronas tiene, más dura su bostezo.
+
+Un mamífero de cerebro medio bosteza unos 3,4 segundos; un ave, apenas 1,5. Encaja exactamente con lo que predice la teoría: un cerebro más grande necesita más tiempo de ventilación.
+
+> 🖼️ **IMAGEN — sección «La hipótesis más sólida...».** Cuatro o cinco animales ordenados por tamaño de cerebro (ave pequeña, gato, humano, elefante) con la duración de su bostezo al lado en segundos. Es un dato numérico y en gráfico se lee de un vistazo; en texto se olvida. Diagrama propio, estilo tabla visual.
 
 > ⚡ Cuanto más grande es el cerebro de un animal, más largo es su bostezo. Es una de las pruebas más elegantes de que bostezar sirve para enfriarlo.
 
@@ -58,7 +64,9 @@ Y conviene entender que el contagio no es un detalle del primer misterio, sino u
 
 La pista que más se maneja apunta a lo social. El contagio es bastante más fuerte entre personas cercanas —familia, pareja, amigos— que entre desconocidos, lo que sugiere que está enganchado a los mecanismos de empatía y de sincronización dentro de un grupo.
 
-Y en mayo de 2026 llegó el dato más desconcertante hasta la fecha. Un equipo publicó en *Current Biology* un experimento con 38 embarazadas en el tercer trimestre: les pusieron vídeos de gente bostezando mientras observaban al feto por ecografía. El 64 % de las madres bostezó viendo los vídeos. Y alrededor del 53 % de los fetos bostezó después, normalmente al minuto y medio de haberlo hecho su madre.
+Y en mayo de 2026 llegó el dato más desconcertante hasta la fecha. Un equipo publicó en *Current Biology* un experimento con 38 embarazadas en el tercer trimestre: les pusieron vídeos de gente bostezando mientras observaban al feto por ecografía.
+
+El 64 % de las madres bostezó viendo los vídeos. Y alrededor del 53 % de los fetos bostezó después, normalmente al minuto y medio de haberlo hecho su madre.
 
 Es un estudio pequeño, y los propios autores admiten que no saben cómo ocurre —¿por el movimiento?, ¿por alguna señal hormonal?— ni si esos bostezos prenatales sirven para algo en absoluto.
 

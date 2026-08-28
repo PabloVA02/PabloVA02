@@ -133,14 +133,31 @@ export type Destacado =
   /** La frase que hace girar la historia. */
   | { tipo: "frase"; frase: string };
 
-export type Pagina = {
-  /** Rótulo corto, dos o tres palabras: le da al ojo dónde agarrarse. */
-  rotulo: string;
-  /** El bloque. Entre 90 y 115 palabras, que es lo que mide el muro entero;
-      admite <strong> y <em>. */
-  texto: string;
-  destacado?: Destacado;
-};
+/**
+ * UN BLOQUE DE TEXTO, y de estos se hace una historia.
+ *
+ * La historia NO viene repartida en páginas. Viene en una tirada de bloques
+ * seguidos y la app la reparte al pintar, midiendo el móvil de quien lee: es
+ * la regla 3 de `.claude/skills/paginado-shorts/SKILL.md`, y la puso Pablo el
+ * 28 de agosto —«divide el contenido en páginas midiendo en tiempo de
+ * ejecución… corta cuando el siguiente párrafo no quepa»—.
+ *
+ * Antes había un guion que abría un navegador, medía y escribía las páginas
+ * aquí dentro. Funcionaba y estaba mal: unas páginas calculadas en un móvil de
+ * 375 no valen en uno de 430, ni cuando alguien sube el tamaño de letra del
+ * sistema, ni al girar el teléfono.
+ *
+ * Son las cuatro piezas del lector de resúmenes, ni una más:
+ */
+export type Bloque =
+  /** El subtítulo de una sección. Nunca se queda solo al final de una página. */
+  | { b: "rotulo"; texto: string }
+  /** Un párrafo. Admite `<strong>` y `<em>`. */
+  | { b: "parrafo"; texto: string }
+  /** Una lista de viñetas. Se parte entre puntos, nunca dentro de uno. */
+  | { b: "lista"; puntos: string[] }
+  /** La caja del rayo: la conclusión de la sección. Nunca abre página. */
+  | { b: "rayo"; texto: string };
 
 export type Short = {
   id: string;
@@ -241,29 +258,20 @@ export type Short = {
      que se agotan en dos y a comprimir los que piden cuatro: la horquilla la
      decide el tema, no la plantilla. El tope existe para que un short siga
      siendo un short. */
-  /* CUÁNTAS PÁGINAS: LAS QUE PIDA EL TEXTO, Y VACÍA TAMBIÉN VALE.
+  /**
+   * EL TEXTO ENTERO, EN BLOQUES SEGUIDOS. Vacío = la portada sola, esperando.
    *
-   * Vacía es la portada sola esperando su texto. Pablo, el 28: «ponme la
-   * portada así pero de ahora en varios temas […] no pongas el texto, que eso
-   * te lo paso yo ahora». Una lista vacía dice exactamente eso —la imagen y
-   * el título están elegidos, el texto no ha llegado— y lo dice en el sitio
-   * donde se va a mirar. La alternativa era dejar páginas de relleno, y el
-   * relleno se queda.
-   *
-   * ESTO ERA UNA TUPLA DE DOS A CINCO, y dejó de valer esa misma tarde. Los
-   * dos primeros textos que mandó Pablo traen cinco y cuatro secciones de
-   * entre 124 y 305 palabras cada una, y su nota de maquetación es
-   * terminante: «ni una tarjeta debe requerir scroll interno: si no cabe, se
-   * parte, nunca se recorta el texto». Partiendo donde el texto respira salen
-   * ocho y siete pantallas. Con el tope en cinco, la única manera de cumplir
-   * era recortarle el texto, que es justo lo que prohíbe.
-   *
-   * El tope se va, entonces, porque quien manda es el texto. Lo que queda es
-   * un mínimo de dos —menos que eso no es una historia— y un aviso del
-   * validador a partir de doce, que no es un límite sino una pregunta: si un
-   * tema pide más de doce pantallas, a lo mejor son dos temas. */
-  paginas: Pagina[];
+   * No hay número de páginas escrito en ninguna parte: las cuenta la app al
+   * repartir, y depende del móvil. Un tema que en un teléfono ocupa nueve
+   * pantallas ocupa siete en uno grande, y las dos cosas están bien.
+   */
+  bloques: Bloque[];
 };
+
+/** El texto plano de un bloque, para contar palabras y para leerlo en alto. */
+export function textoDeBloque(b: Bloque): string {
+  return b.b === "lista" ? b.puntos.join(" ") : b.texto;
+}
 
 /**
  * Minutos de lectura de UNA historia.
@@ -288,7 +296,7 @@ export function minutosDe(short: Short): number {
   const palabras =
     cuenta(short.entrada ?? "") +
     cuenta(short.gancho ?? "") +
-    short.paginas.reduce((t, p) => t + cuenta(p.texto), 0);
+    short.bloques.reduce((t, b) => t + cuenta(textoDeBloque(b)), 0);
   return Math.max(1, Math.round(palabras / 200));
 }
 

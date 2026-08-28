@@ -99,7 +99,7 @@ for (const ruta of ficheros) {
        arreglar, y tres avisos falsos por historia son la manera segura de que
        el validador deje de leerse. Se le mira lo que SÍ tiene: el título, la
        ficha de la foto y el pie. */
-    const soloPortada = /paginas: \[\],/.test(b);
+    const soloPortada = !/bloques: \[\s*\n\s*\{/.test(b);
 
     /* Y LO QUE ESCRIBE PABLO NO SE MIDE CON EL MOLDE. Este guion comprueba
        cómo escribo yo: la entrada de 48 a 66 palabras, situar en el tiempo, la

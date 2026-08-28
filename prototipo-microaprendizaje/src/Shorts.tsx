@@ -9,7 +9,7 @@ import {
   type MotionValue,
   type PanInfo,
 } from "framer-motion";
-import { SHORTS, urlFoto, type Foto, type Pagina, type Short } from "./shorts";
+import { SHORTS, urlFoto, type Bloque, type Foto, type Short } from "./shorts";
 import { conGuiones } from "./silabas";
 import { PORTADAS } from "./portadas";
 import { Cartel } from "./Cartel";
@@ -321,6 +321,172 @@ function respaldoDe(short: Short) {
 }
 
 /* --------------------------------------------------------------------------
+   EL REPARTO EN PANTALLAS, MEDIDO EN EL MÓVIL DE QUIEN LEE
+
+   Las siete reglas están en `.claude/skills/paginado-shorts/SKILL.md` y las
+   puso Pablo el 28 de agosto de 2026. Esto es su cumplimiento.
+
+   CÓMO SE MIDE. Se pinta la historia entera —todos sus bloques seguidos— en un
+   contenedor invisible que tiene EXACTAMENTE el mismo ancho y la misma
+   tipografía que la pantalla de verdad, se pregunta a cada bloque cuánto ocupa
+   —su alto más el margen que arrastra— y se van acumulando hasta que el
+   siguiente no cabe.
+
+   Medir así y no calcular: la altura de un párrafo depende de dónde parta cada
+   renglón, y eso solo lo sabe el navegador. Con la tipografía del sistema
+   cambiada, o el teléfono girado, las alturas son otras y el reparto también.
+
+   DÓNDE NO SE PUEDE CORTAR
+   · dentro de un bloque, nunca;
+   · entre un subtítulo y su primer párrafo: un título solo al pie de una
+     pantalla no dice nada;
+   · justo antes de un rayo: es la conclusión de lo que se acaba de leer, y
+     abriendo pantalla se queda huérfano.
+
+   Y SI UN BLOQUE NO CABE ÉL SOLO en una pantalla entera, no se parte y no se
+   encoge: se avisa por consola con el nombre del tema, que es lo que pidió
+   Pablo, y se deja en su pantalla. La salida buena es que él parta el párrafo
+   en el texto, y eso no lo puede hacer el código.
+   -------------------------------------------------------------------------- */
+
+/** Cuánto ocupa cada bloque, ya pintado, incluyendo el margen que arrastra. */
+function altosDe(caja: HTMLElement): number[] {
+  const hijos = Array.from(caja.children) as HTMLElement[];
+  return hijos.map((e, i) => {
+    const s = getComputedStyle(e);
+    const margen = i === hijos.length - 1 ? 0 : parseFloat(s.marginBottom) || 0;
+    return e.getBoundingClientRect().height + margen;
+  });
+}
+
+/**
+ * Reparte los bloques en pantallas que quepan en `alto`.
+ *
+ * `avisa` se llama con el índice del bloque que no cabe él solo. Es la regla 7
+ * y es la única que no se puede resolver desde aquí.
+ */
+export function reparteBloques(
+  bloques: Bloque[],
+  altos: number[],
+  alto: number,
+  avisa?: (i: number) => void,
+): number[][] {
+  /* Medio punto de holgura: las alturas vienen con decimales del navegador y
+     sin esto un bloque que cabe justo se iba a la pantalla siguiente. */
+  const cabeEn = (suma: number) => suma <= alto + 0.5;
+  const suma = (lista: number[]) => lista.reduce((t, k) => t + altos[k], 0);
+
+  const paginas: number[][] = [];
+  let actual: number[] = [];
+
+  for (let i = 0; i < bloques.length; i++) {
+    if (actual.length && !cabeEn(suma(actual) + altos[i])) {
+      /* No cabe: se cierra la pantalla. Antes se miran los dos bordes.
+
+         · el último bloque de la que se cierra no puede ser un subtítulo;
+         · el primero de la que se abre no puede ser un rayo.
+
+         Se arregla devolviendo bloques del final de esta a la siguiente. Nunca
+         se vacía la pantalla: si para cumplir la regla habría que dejarla sin
+         nada, manda que quepa. */
+      const devueltos: number[] = [];
+      while (actual.length > 1) {
+        const cierraConRotulo = bloques[actual[actual.length - 1]].b === "rotulo";
+        const abreConRayo = (devueltos.length ? bloques[devueltos[0]] : bloques[i]).b === "rayo";
+        if (!cierraConRotulo && !abreConRayo) break;
+        devueltos.unshift(actual.pop()!);
+      }
+      /* Y si lo devuelto no deja sitio para el bloque que venía, se deshace:
+         que quepa es antes que quedar bonito. */
+      if (!cabeEn(suma(devueltos) + altos[i])) {
+        actual.push(...devueltos);
+        devueltos.length = 0;
+      }
+      paginas.push(actual);
+      actual = devueltos;
+    }
+
+    /* Regla 7: no cabe ni él solo en una pantalla entera. No se parte y no se
+       encoge —las dos cosas están prohibidas—: se avisa con el nombre del tema
+       para que Pablo lo parta en el texto. */
+    if (!actual.length && !cabeEn(altos[i])) avisa?.(i);
+
+    actual.push(i);
+  }
+  if (actual.length) paginas.push(actual);
+  return paginas;
+}
+
+/**
+ * El reparto vivo: mide, reparte y vuelve a hacerlo cuando cambia algo.
+ *
+ * Devuelve las pantallas y la caja invisible donde se mide. La caja va dentro
+ * de la propia pantalla —no en el `body`— para heredar el ancho, la letra y
+ * todo lo que dependa del contenedor.
+ */
+function usePaginas(short: Short) {
+  const medidor = useRef<HTMLDivElement>(null);
+  const [paginas, setPaginas] = useState<number[][]>(() =>
+    short.bloques.length ? [short.bloques.map((_, i) => i)] : [],
+  );
+
+  useLayoutEffect(() => {
+    const caja = medidor.current;
+    if (!caja || !short.bloques.length) return;
+
+    let ultimo = "";
+    const mide = () => {
+      /* El alto útil de la pantalla es el de la hoja menos sus rellenos, y el
+         relleno de abajo ya lleva dentro la barra de pestañas y el área
+         segura. Se lee del elemento, no de una constante: así vale igual en un
+         móvil con muesca que en uno sin ella. */
+      const hoja = caja.parentElement;
+      if (!hoja) return;
+      const s = getComputedStyle(hoja);
+      const alto =
+        hoja.getBoundingClientRect().height -
+        (parseFloat(s.paddingTop) || 0) -
+        (parseFloat(s.paddingBottom) || 0);
+      if (alto <= 0) return;
+
+      const altos = altosDe(caja);
+      const nuevas = reparteBloques(short.bloques, altos, alto, (i) => {
+        const b = short.bloques[i];
+        console.warn(
+          `[Curva] «${short.titulo}»: este bloque no cabe entero en una pantalla ` +
+            `y no se puede cortar. Pártelo en el texto.\n   ` +
+            (b.b === "lista" ? b.puntos.join(" · ") : b.texto).replace(/<[^>]+>/g, "").slice(0, 120) +
+            "…",
+        );
+      });
+      /* Solo se vuelve a pintar si el reparto ha cambiado de verdad: un
+         `resize` de un punto no tiene por qué mover nada. */
+      const firma = JSON.stringify(nuevas);
+      if (firma === ultimo) return;
+      ultimo = firma;
+      setPaginas(nuevas);
+    };
+
+    mide();
+    /* Se recalcula cuando cambia el ancho de la caja —girar el teléfono— y
+       cuando cambia su alto medido, que es lo que pasa al subir el tamaño de
+       letra del sistema. El observador vigila la caja de medir, que reacciona
+       a las dos cosas. Regla 6. */
+    const ojo = new ResizeObserver(() => mide());
+    ojo.observe(caja);
+    if (caja.parentElement) ojo.observe(caja.parentElement);
+    window.addEventListener("orientationchange", mide);
+    document.fonts?.ready.then(mide).catch(() => {});
+    return () => {
+      ojo.disconnect();
+      window.removeEventListener("orientationchange", mide);
+    };
+  }, [short]);
+
+  return { paginas, medidor };
+}
+
+/* --------------------------------------------------------------------------
    El pase
    -------------------------------------------------------------------------- */
 
@@ -485,7 +651,10 @@ function PaginaShort({
   /** Si el último gesto fue un arrastre, el `click` que viene detrás sobra. */
   const arrastro = useRef(false);
 
-  const total = short.paginas.length + 1;
+  /* Las pantallas de esta historia, calculadas midiendo. Ver `usePaginas` y
+     `.claude/skills/paginado-shorts/SKILL.md`. */
+  const { paginas, medidor } = usePaginas(short);
+  const total = paginas.length + 1;
 
   // Un solo valor de gesto para toda la historia: el texto va pegado al dedo.
   // La foto ya no se mueve en contra —el parallax le cambiaba el encuadre a
@@ -571,7 +740,7 @@ function PaginaShort({
      «Guardar», «Compartir» y «Siguiente short», que es justo lo que Pablo
      pidió quitar de la portada: la imagen y el título, nada más. Así que sin
      páginas no hay última: hay cartel. */
-  const ultima = paso === total - 1 && short.paginas.length > 0;
+  const ultima = paso === total - 1 && paginas.length > 0;
 
   return (
     <section
@@ -671,7 +840,7 @@ function PaginaShort({
               {portada ? (
                 <Portada short={short} />
               ) : (
-                <CuerpoPagina pagina={short.paginas[paso - 1]} />
+                <CuerpoPagina bloques={(paginas[paso - 1] ?? []).map((i) => short.bloques[i])} />
               )}
             </motion.div>
           </AnimatePresence>
@@ -683,7 +852,7 @@ function PaginaShort({
               —las que esperan lo que escriba Pablo— tenía la flecha animada
               prometiendo una pantalla siguiente que no existe, y el dedo se
               iba a por ella y no pasaba nada. */}
-          {portada && short.paginas.length > 0 && (
+          {portada && paginas.length > 0 && (
             <span className="muro-tirar">
               Seguir
               <motion.span
@@ -744,10 +913,38 @@ function PaginaShort({
           Hay un tramo por página, no uno por pantalla: en la portada aún no
           se ha leído nada y la barra está entera vacía, que es como está en
           la maqueta. */}
+      {/* LA HOJA DE MEDIR: una copia exacta de la pantalla de texto, invisible,
+          con la historia ENTERA dentro. De aquí salen las alturas de cada
+          bloque y de aquí sale el alto útil de la pantalla, leídos del
+          elemento y no de una constante.
+
+          Es una hoja gemela y no una caja cualquiera porque lo que se mide
+          tiene que medirse en las mismas condiciones: el mismo ancho, los
+          mismos rellenos, la misma tipografía. `inset: 0` sobre la pantalla la
+          hace del tamaño de la de verdad —sin banda de imagen, la hoja ocupa
+          la pantalla entera—.
+
+          Va SIEMPRE montada, también en la portada: el número de pantallas
+          hace falta antes de entrar, para pintar la barra de tramos y para
+          saber si hay algo detrás del «Seguir».
+
+          `visibility: hidden` y no `display: none`: lo segundo no calcula la
+          maqueta y devolvería alturas de cero. `aria-hidden` para que quien
+          escuche la pantalla no oiga el tema dos veces. */}
+      {short.bloques.length > 0 && (
+        <div className="muro-hoja muro-medidor" data-forma="pagina" data-sinfoto="true" aria-hidden>
+          <div className="short-cuerpo" ref={medidor}>
+            {short.bloques.map((b, i) => (
+              <PintaBloque key={i} b={b} />
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* Y sin páginas no hay barra: quedaba una franja vacía flotando. */}
-      {short.paginas.length > 0 && (
+      {paginas.length > 0 && (
         <div className="muro-tramos" aria-hidden>
-          {short.paginas.map((_, i) => (
+          {paginas.map((_, i: number) => (
             <span key={i} className="muro-tramo">
               <motion.span
                 className="muro-tramo-relleno"
@@ -964,55 +1161,53 @@ function Portada({ short }: { short: Short }) {
    ojo aprende dónde está cada cosa una vez y ya no vuelve a buscarla.
    -------------------------------------------------------------------------- */
 
-function CuerpoPagina({ pagina }: { pagina: Pagina }) {
-  /* SIN RÓTULO. Lo quitó Pablo el 27 de agosto por la noche, y con un motivo
-     que no era de gusto: «estamos siempre limitados al texto que poner».
-     Tenía razón dos veces. Ocupaba un renglón y su margen —unos cuarenta
-     puntos de los que tiene la pantalla— y, peor, obligaba a que cada página
-     fuera una cosa titulable, o sea a trocear la explicación en apartados
-     cuando lo que él quiere es que se lea de corrido.
+function CuerpoPagina({ bloques }: { bloques: Bloque[] }) {
+  /* Lo que se pinta es una página de libro: las mismas cuatro piezas que el
+     lector de resúmenes —subtítulo, párrafo, lista y caja del rayo— con sus
+     medidas. Pablo, el 28 de agosto: «hazlo todo como está en los libros
+     exactamente igual».
 
-     Lo que hacía el rótulo lo hace ahora la primera frase, que es donde
-     debería haber estado siempre: cada página abre nombrando de qué va —regla
-     11 del molde— y de paso enlaza con la anterior. El campo `rotulo` se
-     sigue escribiendo porque le sirve de esqueleto al que redacta, pero el
-     lector no lo ve.
-
-     LO QUE SE PINTA AHORA ES UNA PÁGINA DE LIBRO, y es literal. Pablo, el 28
-     de agosto: «dentro de los textos que te pasé hay subtítulos que deberás
-     marcar y poner un poco más grande, como los que ponemos en los libros;
-     copia el tipo de letra que tenemos puesto ahí, hazlo todo como está en
-     los libros exactamente igual».
-
-     Así que `texto` ya no es un párrafo: es la tirada de bloques de esta
-     pantalla, en HTML, con las mismas cuatro piezas que el lector de los
-     resúmenes —subtítulo, párrafo, lista y caja del rayo— y con la misma
-     hoja de estilos traducida a `cqw`. El rótulo dejó de estar en `rotulo`
-     porque en una página puede haber DOS: la que acaba una sección y empieza
-     la siguiente lleva el subtítulo en medio, exactamente como una página de
-     un libro de papel.
-
-     Y el destacado dejó de ir pegado al pie por lo mismo. Iba al final de la
-     pantalla, así que una sección solo podía acabar donde acababa la página;
-     con el rayo dentro del flujo, el texto puede llenar hasta abajo y la
-     sección siguiente empieza donde le toca. Que es lo otro que pidió Pablo
-     en el mismo mensaje: «el texto debe bajar hasta abajo, en muchas páginas
-     hay un montón de hueco». */
+     Y NO SABE CUÁNTAS PÁGINAS HAY. Recibe los bloques que le tocan a esta
+     pantalla y los pinta; quién decide dónde se corta es `reparteBloques`, que
+     mide el móvil de quien lee. Ver `.claude/skills/paginado-shorts/SKILL.md`. */
   return (
     <div className="short-pagina">
-      {/* Un `div` y no un `p`. Los bloques de dentro —`h3`, `p`, `ul`,
-          `blockquote`— son todos de bloque, y metidos en un `<p>` el navegador
-          lo cierra por su cuenta antes de abrirlos: el resto del texto se
-          quedaba fuera del elemento que mide `useAjusteDeTexto`. */}
       <motion.div
         className="short-cuerpo"
         custom={2}
         variants={enterVariants}
         initial="hidden"
         animate="shown"
-        dangerouslySetInnerHTML={{ __html: conGuiones(pagina.texto) }}
-      />
+      >
+        {bloques.map((b, i) => (
+          <PintaBloque key={i} b={b} />
+        ))}
+      </motion.div>
     </div>
   );
+}
+
+/** Un bloque, pintado. Es la misma tabla que `PintaBloque` del lector. */
+function PintaBloque({ b }: { b: Bloque }) {
+  switch (b.b) {
+    case "rotulo":
+      return <h3 dangerouslySetInnerHTML={{ __html: conGuiones(b.texto) }} />;
+    case "parrafo":
+      return <p dangerouslySetInnerHTML={{ __html: conGuiones(b.texto) }} />;
+    case "lista":
+      return (
+        <ul>
+          {b.puntos.map((t, i) => (
+            <li key={i} dangerouslySetInnerHTML={{ __html: conGuiones(t) }} />
+          ))}
+        </ul>
+      );
+    case "rayo":
+      return (
+        <blockquote className="rayo">
+          <p dangerouslySetInnerHTML={{ __html: conGuiones(b.texto) }} />
+        </blockquote>
+      );
+  }
 }
 

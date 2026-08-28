@@ -46,7 +46,17 @@ Lo mínimo, para que nada se escriba mal ni por descuido:
 - **El texto viejo autogenerado se BORRA** al reescribir un libro. Apartado
   2 quater.
 
-## Lo segundo: dónde estamos y cómo se trabaja
+## LO SEGUNDO, Y TAMPOCO SE NEGOCIA: cómo se pagina una pantalla
+
+**Antes de tocar la maqueta de un short, el reparto del texto en pantallas o
+cualquier medida de letra, se lee `.claude/skills/paginado-shorts/SKILL.md`.**
+
+Son siete reglas que puso Pablo el 28 de agosto después de cinco vueltas sobre
+lo mismo: el alto exacto de la pantalla, nada de scroll dentro de un tema, el
+reparto calculado en tiempo de ejecución y no por un guion, los cortes solo
+entre párrafos, y qué hacer cuando un párrafo no cabe —avisar, no cortarlo—.
+
+## Lo tercero: dónde estamos y cómo se trabaja
 
 `prototipo-microaprendizaje/ESTADO.md` — el estado real, los scripts, el orden
 en que se escriben los libros y las trampas del contenedor. También se lee.
@@ -54,7 +64,7 @@ en que se escriben los libros y las trampas del contenedor. También se lee.
 Los otros documentos cerrados: `DISENO.md` (la pantalla de lectura),
 `FOTOS.md` (de dónde salen las imágenes), `src/historias/MOLDE.md` (los shorts).
 
-## Lo tercero: al terminar CUALQUIER cambio
+## Lo cuarto: al terminar CUALQUIER cambio
 
 1. **Rehacer el simulador y publicarlo** en el artefacto de siempre —el enlace
    está en `ESTADO.md`—, porque `movil.html` es lo único que Pablo ve.

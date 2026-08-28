@@ -6,209 +6,80 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 
 | | hecho | queda |
 |---|---|---|
-| shorts con el texto de Pablo | **2** | el Sol y los bostezos |
-| portadas de short listas, sin texto | **2** | aviones y lluvia |
+| temas con el texto de Pablo | **10** | los diez del 28 de agosto |
+| de esos, con foto de portada | **4** | faltan seis |
 | libros en el catálogo | 418 | |
 | libros con resumen escrito a mano | **400** | 18 para el catálogo entero |
 | cubiertas dibujadas por Pablo | **309** | 109 para el catálogo entero |
 | emoticonos de las metas | 11 de 16 | Pablo manda los cinco que faltan |
 | resúmenes antiguos generados | 0 | 0 |
 
-## LLEGÓ EL PRIMER TEXTO DE PABLO — 28 de agosto de 2026
+## DIEZ TEMAS Y EL PAGINADO EN TIEMPO REAL — 28 de agosto de 2026, tarde
 
-Un zip con dos temas y su LEEME: *«aquí tienes el texto de dos temas; elimina
-las imágenes de esos temas menos las de la portada y pones el texto solo»*.
-Están montados y publicados. El original de los `.md` está guardado en
-**`referencia/textos-de-pablo/`**, con su README: es la única manera de
-comprobar dentro de un mes que lo que hay en el código dice lo que él escribió.
+Pablo mandó diez temas y, con ellos, **siete requisitos de maquetación**. Están
+copiados enteros en **`.claude/skills/paginado-shorts/SKILL.md`** y **hay que
+leerlos antes de tocar nada de esto**. En resumen:
 
-| | secciones suyas | palabras | pantallas |
-|---|---|---|---|
-| Cuánto le queda al Sol | 5 | 1.156 | 10 |
-| Por qué bostezamos | 4 | 861 | 9 |
+1. Cada página ocupa el alto visible: `100dvh` menos la barra menos
+   `env(safe-area-inset-bottom)`. Nunca `100vh`.
+2. `overflow: hidden`. Dentro de un tema no hay scroll.
+3. **El reparto se calcula al pintar**, midiendo en un contenedor oculto.
+4. El corte cae siempre entre párrafos.
+5. Un título no se separa de su primer párrafo; el rayo no abre página.
+6. Se recalcula al girar el móvil o al cambiar el tamaño de letra del sistema.
+7. Si un párrafo no cabe entero, **no se corta**: se avisa por consola con el
+   nombre del tema para que lo parta él.
 
-**De su texto no se ha tocado nada.** Ni una palabra cambiada, quitada ni
-añadida. Lo único que se decide al maquetar es POR DÓNDE SE PARTE, que es
-decisión de maqueta y no de redacción, y se toma siguiendo su propia regla:
-«ni una tarjeta debe requerir scroll interno: si no cabe, se parte, nunca se
-recorta el texto». Los cortes caen siempre entre párrafos suyos.
+### Lo que eso cambió por dentro
 
-### Lo que ha habido que cambiar en la app para que quepa
+**`curiosidades.ts` ya no tiene páginas.** Cada historia es una tirada de
+bloques —`rotulo`, `parrafo`, `lista`, `rayo`— y el número de pantallas no está
+escrito en ninguna parte: depende del móvil. Un tema que en un teléfono ocupa
+doce pantallas ocupa nueve en uno grande, y las dos cosas están bien.
 
-1. **`soloPortada: true`** — la fotografía es solo la de la portada y las
-   páginas van SIN banda de imagen. No basta con dejar una foto: `fotoDe()`
-   reparte la de la portada a las pantallas que no tienen la suya, así que
-   una historia con una sola foto la enseñaría diez veces. Y quitando la banda
-   es de donde sale el sitio: se comía entre el 26 y el 36 % del alto.
-2. **Se acabó el tope de páginas.** Eran de dos a cinco, que era la medida de
-   cuando los shorts los escribía yo. Con el tope puesto, la única manera de
-   montar 1.156 palabras era recortarle el texto, que es lo que él prohíbe.
-   Queda el suelo de dos y un aviso a partir de catorce.
-3. **Vuelve la caja del rayo**, porque sus textos la traen: un destacado por
-   tarjeta, marcado con `> ⚡`. Es la misma caja que la de los resúmenes —sin
-   recuadro, el icono y la sangría— y no la chapa con filete de la maqueta
-   vieja. Lo que la separa del párrafo es el aire. Va DENTRO del texto, como un
-   bloque más, no pegada al pie de la pantalla: ver el reparto, más abajo.
-4. **Párrafos y listas dentro de una pantalla.** El cuerpo pasó de `<p>` a
-   `<div>`: sus textos vienen en párrafos y a veces con viñetas, y las dos
-   cosas son etiquetas de bloque que dentro de un `<p>` el navegador cierra
-   por su cuenta.
-5. **`textoDePablo: true`** — `revisa-shorts.mjs` NO mide esas historias. Ese
-   guion comprueba el MOLDE, que es cómo escribo yo, y pasárselo a un texto
-   suyo es corregirle por la espalda. Lo suyo se comprueba en otro sitio:
-   `validar.mjs` mira lo que no es redacción y `scripts/aire.mjs` mide en el
-   móvil que ninguna pantalla se salga.
+**El que reparte es `usePaginas`, en `src/Shorts.tsx`.** Dentro de cada
+pantalla se monta una **hoja gemela invisible** —misma clase, mismos rellenos,
+misma tipografía— con la historia entera dentro. De ahí salen las alturas de
+cada bloque y el alto útil, leídos del elemento y no de una constante. Un
+`ResizeObserver` sobre esa hoja vuelve a repartir cuando cambia algo.
 
-### `scripts/aire.mjs`, que es el que decide los cortes
+Va montada **también en la portada**, porque el número de pantallas hace falta
+antes de entrar: para la barra de tramos y para saber si hay algo detrás del
+«Seguir».
 
-Dice, pantalla por pantalla, cuántas palabras lleva, si la letra ha tenido que
-encoger y cuántos renglones vacíos quedan debajo. **Sin banda de imagen caben
-unas 178 palabras, o 165 si la pantalla lleva rayo.** Las dieciocho pantallas
-de los dos temas caben a su tamaño, con `ajuste: 1` en todas.
+**Se han borrado `scripts/reparte.mjs` y `scripts/aire.mjs`.** Repartían el
+texto en páginas fijas midiendo en un navegador y las escribían en el código.
+Funcionaban y estaban mal por la regla 3: no saben nada del móvil de quien lee.
+Si algún día vuelve a aparecer algo así, es que alguien se saltó la hoja de
+reglas.
 
-### LOS SUBTÍTULOS SÍ SE PINTAN, y son los del libro
+**Y el nuevo es `scripts/temas.mjs`**, que lee los `.md` de Pablo y escribe los
+bloques. Sin medir nada: eso es de la app.
 
-Esa misma tarde: *«dentro de los textos que te pasé hay subtítulos que deberás
-marcar y poner un poco más grande, como los que ponemos en los libros; copia
-el tipo de letra que tenemos puesto ahí, hazlo todo como está en los libros
-exactamente igual»*.
+### Los diez temas
 
-Es `.lee-rotulo`, el subtítulo del lector de resúmenes, traducido a `cqw`
-conservando **la proporción con el párrafo**, que es lo que de verdad se copia:
+Los originales están en `referencia/textos-de-pablo/28-agosto-tarde/`.
 
-| | libro | short |
+| | palabras | foto de portada |
 |---|---|---|
-| párrafo | 19 pt | 4,55cqw |
-| subtítulo | 21 pt (1,105×) | 5,03cqw (1,105em) |
-| margen | 6 arriba, 22 abajo | 0,32em y 1,16em |
-| letra | serifa, peso 700, blanco | igual |
+| Cuánto le queda al Sol | 1.374 | sí |
+| Por qué bostezamos | 1.060 | sí |
+| Por qué vuelan los aviones | 1.091 | sí |
+| Por qué llueve | 1.085 | sí |
+| Por qué tiritamos | 756 | **falta** |
+| Por qué pica el picante | 865 | **falta** |
+| Por qué se te arrugan los dedos en el agua | 803 | **falta** |
+| Por qué te mareas en el coche | 774 | **falta** |
+| Por qué tenemos estaciones | 905 | **falta** |
+| Cómo cicatrizan las heridas | 870 | **falta** |
 
-Sin justificar, aunque el párrafo sí lo vaya: en un renglón de cuatro palabras
-la justificación reparte todo el sobrante entre tres huecos y salía «Antes  de
-apagarse,  el». Un titular se alinea a la izquierda y lo que le da la forma es
-`text-wrap: balance`. Lo mismo con la caja del rayo, que además va sangrada y
-en columna más estrecha.
+Las seis sin foto enseñan el cartel de color, que es para lo que existe, y
+llevan su `encargo` escrito. **Hay que buscarles portada**, con
+`scripts/recorte.mjs` para juzgar el recorte.
 
-(Los rótulos estuvieron unas horas guardados y sin pintar, porque el 27 por la
-noche había pedido «elimina los títulos esos de cada pantalla». Aquello era
-sobre unos rótulos míos de dos palabras que solo etiquetaban; los suyos son
-afirmaciones completas y son parte del texto.)
-
-### La letra: 20 sobre 27, y un renglón entero entre párrafos
-
-**Es la medida de sus capturas, sacada en píxeles.** Estuvo en 19 unas horas
-—copiada del lector, que a su vez venía de una captura vieja— y Pablo lo dijo
-tres veces hasta que dejé de mirar números de CSS y me puse a medir las
-imágenes:
-
-| | en sus capturas | en la app |
-|---|---|---|
-| mancha de una línea | 20 px a doble densidad | cuerpo **20** |
-| renglón | 54 px | interlínea **27** |
-| de un párrafo al siguiente | 108 px | margen **27**, un renglón entero |
-| subtítulo | mancha 24, renglón 64 | **24 / 32** en negrita |
-| margen lateral | mancha desde x = 33 | **16** |
-
-Lo que costaba era el cuerpo. La mancha de una línea —lo que ocupa de alto una
-fila de letras sin palos ni colas— se mide en una captura: en las suyas son 20
-píxeles. Se pintó la misma pantalla nuestra a 19, 20 y 21 y salió 19, 20 y 21.
-O sea que su cuerpo es 20 y el nuestro era 19: ese 5 % es lo que él veía.
-
-**Y se ha cambiado también el lector de los libros**, no solo los shorts. Él
-pidió «siempre de ese tamaño, todo igual», y el 19 de allí venía de una
-captura de otro día: el lector de Headway tiene su propio mando de tamaño, así
-que dos tandas suyas no miden lo mismo. Las de referencia son las últimas, y
-están en `referencia/lector-headway/` con las medidas apuntadas.
-
-### En puntos y no en `cqw`
-
-El primer intento fue en `cqw`, y por eso la letra del short escalaba con el
-ancho del móvil: 4,55cqw daba 17 en un móvil de 375 y 19,6 en uno de 430. En
-el lector es fija, y tiene que serlo aquí también. La caja de la pantalla
-sigue escalando; la letra, no.
-
-**Y sin justificar y sin partir palabras**, que es lo que hay en sus capturas.
-El short justificaba y partía con guiones; las dos cosas se hicieron cuando el
-texto iba en cajas más estrechas, y en bandera sobran.
-
-### `scripts/reparte.mjs`: el texto llena la pantalla hasta abajo
-
-En el mismo mensaje: *«el texto debe bajar hasta abajo, en muchas páginas hay
-un montón de hueco, debes ajustarlo hasta abajo del todo para que quede mejor
-y más bonito»*.
-
-A ojo no se puede: lo que cabe no depende de las palabras sino de cómo caen
-los renglones, y eso solo lo sabe el navegador. Así que el guion abre la app,
-mete cada bloque en una pantalla de verdad y pregunta si se sale.
-
-    npx vite build && python3 -m http.server 4173 --directory dist &
-    node --experimental-strip-types scripts/reparte.mjs \
-         referencia/textos-de-pablo/cuanto-le-queda-al-sol.md > /tmp/corte.json
-
-**CORTA POR FRASES.** Repartiendo por párrafos enteros, la última pantalla de
-cada sección se quedaba con lo que sobrara —de cinco a ocho renglones de
-hueco—, porque un párrafo de ochenta palabras entra entero o no entra.
-
-Se probó primero por PALABRAS y Pablo lo paró: *«cortar no me refiero en ese
-sentido; que lo ajustes en el sentido de por ejemplo "Mercurio será el primero
-en desaparecer." y lo que viene después lo pasas a la siguiente página; no
-cortes las palabras: aproxímalo, y cuando haya un punto o algo pues pasas a la
-siguiente página con el resto del texto»*. Y tiene razón: por palabras la
-pantalla quedaba al ras, pero a mitad de frase, y una frase partida entre dos
-pantallas obliga a recordar cómo empezaba.
-
-Así que el corte cae **siempre después de un punto**. Se pierde lo que ocupe
-la frase que no cabía —dos o tres renglones— y a cambio cada pantalla acaba
-donde acaba una idea. **No se pierde ni se recorta nada: continúa.**
-
-Lo que no se parte nunca es un subtítulo ni una caja del rayo —son piezas de
-una sola cosa— y un subtítulo tampoco cierra una pantalla, que sería un título
-con nada debajo.
-
-Se mide en **375 × 812**, el móvil de sus capturas y el más pequeño de los
-tres. Calculado en el grande, en el pequeño el texto se saldría y el ajuste
-automático lo encogería, que es justo lo que él no quiere.
-
-**El final se reparte entre las dos últimas.** Llenando hasta el borde, lo que
-sobra al acabar el texto cae entero en la última y a veces son dos renglones:
-eso no se lee como un final, se lee como una avería. Se prueba cada corte de
-las dos últimas y gana el que iguala más los dos huecos.
-
-**Y EL SOBRANTE SE QUEDA ABAJO, PERO ES POCO.** Cortando por frases la pantalla
-no puede quedar exactamente al ras: sobra lo que ocupara la frase que no cabía.
-
-Se probó a repartir ese sobrante entre los párrafos —justificación vertical,
-que es lo que hace un libro de papel— y funcionaba, pero rompía lo otro: el
-blanco entre párrafos salía de 51 puntos donde en la referencia son 27. Pablo
-lo vio en cuanto lo publiqué. Manda la referencia.
-
-Así que el blanco entre párrafos es fijo y lo que sobra se queda abajo. Lo que
-sí se puede es que sobre POCO, y de eso se encarga el reparto: entre todos los
-que usan el mínimo de pantallas, elige el que deja el sobrante más parejo,
-penalizándolo al cuadrado. De las diecinueve pantallas, **la mayoría se queda a
-uno o dos renglones del borde y ninguna pasa de cinco y medio**.
-
-### «El tamaño del texto no está igual»: era el simulador, no la letra
-
-Pablo lo dijo dos veces el 28, y la segunda con las medidas ya copiadas del
-lector. Se midieron las tres cosas en píxeles, sobre sus propias capturas y
-sobre las nuestras:
-
-| | salto de renglón | altura de la mancha |
-|---|---|---|
-| su captura de Headway | 54 px (27 css) | 20 px |
-| nuestro lector de libros | 54 px (27 css) | 19 px |
-| nuestra pantalla de short | 54 px (27 css) | 19 px |
-
-O sea que la letra medía ya exactamente lo mismo. **Lo que no medía igual era
-el teléfono entero**: esta página encoge el simulador para que quepa en la
-ventana, y en un móvil la ventana no da los 844 de alto, así que se ve al 75 %
-u 80 %. Comparado contra una captura hecha a tamaño real, todo parece más
-pequeño —y también los libros, que están dentro del mismo simulador—.
-
-Por eso el simulador tiene ahora un botón, **«Ver a tamaño real»**: deja el
-teléfono a escala 1 y se desplaza la página para verlo entero. Es la única
-manera de comparar una captura con otra.
+**Y cada tema trae, en `encargos`, una imagen para DENTRO** que Pablo describió
+en su texto con `> 🖼️`. No se pintan todavía: hoy la fotografía es solo de la
+portada. Están guardadas para cuando toque.
 
 ## CÓMO SE TRABAJABA HASTA AQUÍ — 27 de agosto de 2026, por la noche
 
@@ -414,8 +285,7 @@ tres avisos en una sola visita.
 | `scripts/fotos-al-vuelo.mjs` | sirve las fotos al navegador de pruebas |
 | `scripts/revisa-shorts.mjs` | el molde, con `--flojos` para lo pendiente |
 | `scripts/recorte.mjs` | las candidatas **ya recortadas al marco de la portada** |
-| `scripts/aire.mjs` | si cada pantalla cabe, y cuánto hueco deja debajo |
-| `scripts/reparte.mjs` | parte un texto de Pablo en pantallas llenas hasta abajo |
+| `scripts/temas.mjs` | de los `.md` de Pablo a los bloques de `curiosidades.ts` |
 
 Aquí ponía que `buscar` filtraba «solo con sello» y no es verdad: filtra por
 `filetype:bitmap` y nada más. El sello de calidad —Quality image, Featured
