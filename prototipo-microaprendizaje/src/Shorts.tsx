@@ -777,57 +777,68 @@ function parteBloque(
      puntos del final hasta que la caja deja de desbordar. */
   if (b.b === "lista") {
     const entero = el.innerHTML;
+    const li = (t: string) => `<li>${conGuiones(t)}</li>`;
+    const conSigue = (puntos: string[]) =>
+      b.sigue ? { b: "lista" as const, puntos, sigue: true as const } : { b: "lista" as const, puntos };
+
+    /* 1) CUÁNTOS PUNTOS ENTEROS CABEN. Se van quitando del final hasta que la
+       caja deja de desbordar. */
     let n = b.puntos.length - 1;
     for (; n >= 1; n--) {
-      el.innerHTML = b.puntos.slice(0, n).map((t) => `<li>${conGuiones(t)}</li>`).join("");
+      el.innerHTML = b.puntos.slice(0, n).map(li).join("");
       if (!desborda()) break;
     }
-    /* Y SI NO CABE NI EL PRIMER PUNTO, se parte por dentro, igual que un
-       párrafo. Una lista de estas mide quinientos ochenta puntos y un punto
-       solo pasa de cien: sin esto, la lista entera se iba a la pantalla
-       siguiente y dejaba ciento veintinueve puntos de hueco —casi cinco
-       renglones— en «Por qué vuelan los aviones». La continuación se pinta sin
-       la bolita, que ya salió en la pantalla anterior. */
+    if (n < 0) n = 0;
+
+    /* 2) Y DEL SIGUIENTE, LO QUE QUEPA POR RENGLONES. Sin esto, una lista se
+       partía solo entre puntos y la pantalla se cerraba con el hueco de un
+       punto entero: en «La costra no está curando nada» eran once renglones,
+       porque sus viñetas miden cinco y seis líneas. La regla de Pablo no
+       distingue: «cada página se llena hasta H; si un párrafo no cabe entero
+       se parte y se mete todo lo que quepa», y una viñeta es un párrafo con
+       bolita delante. Se parte con las mismas dos líneas mínimas a cada lado. */
+    if (n < b.puntos.length) {
+      el.innerHTML = b.puntos.slice(0, n + 1).map(li).join("");
+      const ultimo = el.lastElementChild as HTMLElement | null;
+      const trozos = ultimo ? cortaHastaLlenar(ultimo, desborda, desbordaPor) : null;
+      /* «Cabe justo» aquí significa que los n+1 puntos se pasan por un renglón,
+         NO que quepa la lista entera: devolverlo tal cual hacía que `reparte`
+         colocara los puntos que faltaban y la pantalla acababa con scroll. Se
+         traduce a lo que de verdad quiere decir: entran n+1 puntos. */
+      if (trozos === "cabe-justo") {
+        if (n + 1 >= b.puntos.length) { el.innerHTML = entero; return "cabe-justo"; }
+        el.innerHTML = b.puntos.slice(0, n + 1).map(li).join("");
+        return [conSigue(b.puntos.slice(0, n + 1)), { b: "lista", puntos: b.puntos.slice(n + 1) }];
+      }
+      if (trozos) {
+        el.innerHTML = [...b.puntos.slice(0, n), trozos[0]].map(li).join("");
+        return [
+          conSigue([...b.puntos.slice(0, n), trozos[0]]),
+          { b: "lista", puntos: [trozos[1], ...b.puntos.slice(n + 1)], sigue: true },
+        ];
+      }
+    }
+
+    /* 3) Y si no cabía ni el primer punto, se parte por dentro de ese. */
     if (n < 1) {
-      el.innerHTML = `<li>${conGuiones(b.puntos[0])}</li>`;
+      el.innerHTML = li(b.puntos[0]);
       const uno = el.firstElementChild as HTMLElement | null;
       const trozos = uno ? cortaHastaLlenar(uno, desborda, desbordaPor) : null;
       if (trozos && trozos !== "cabe-justo") {
         uno!.innerHTML = trozos[0];
         return [
-          b.sigue ? { b: "lista", puntos: [trozos[0]], sigue: true } : { b: "lista", puntos: [trozos[0]] },
+          conSigue([trozos[0]]),
           { b: "lista", puntos: [trozos[1], ...b.puntos.slice(1)], sigue: true },
         ];
       }
       el.innerHTML = entero;
       return null;
     }
-    /* Se queda pintada la cabeza, no la lista entera: lo que hay en la caja al
-       cerrar la pantalla tiene que ser lo que va en la pantalla, o el diario
-       mide otra cosa —decía «sobran -114»— y el hueco que se comprueba para
-       las reglas de borde sería falso. */
-    return [
-      b.sigue ? { b: "lista", puntos: b.puntos.slice(0, n), sigue: true } : { b: "lista", puntos: b.puntos.slice(0, n) },
-      { b: "lista", puntos: b.puntos.slice(n) },
-    ];
+
+    el.innerHTML = b.puntos.slice(0, n).map(li).join("");
+    return [conSigue(b.puntos.slice(0, n)), { b: "lista", puntos: b.puntos.slice(n) }];
   }
 
-  /* EL RAYO NO SE PARTE NUNCA. Orden de Pablo del 28 de agosto: «nunca cortes
-     los textos que tienen un rayito azul». Y tiene razón: la caja del ⚡ es la
-     conclusión de la pantalla, una frase que se lee de un golpe, y partida en
-     dos deja media idea colgando al pie y la otra media abriendo la siguiente
-     sin el icono que dice de qué va.
-
-     Estuvo partiéndose hasta hoy, y se hizo por un motivo real: era la última
-     causa de pantallas a medias —«no cabía un rayo de 135 y quedaban 58»— y
-     ese hueco no lo puede llenar nada más. Se acepta el cambio a sabiendas y
-     manda esto: antes que un rayo cortado, el hueco. Cuando un rayo no quepa,
-     baja entero a la pantalla siguiente.
-
-     La cita SÍ se sigue partiendo, por el párrafo de dentro: no lleva rayito y
-     puede medir quince renglones, que no caben en ninguna pantalla empezada. Y
-     LA FIRMA SE VA CON LA COLA: firmar el trozo de arriba diría que la cita
-     acaba ahí, y firmar los dos, que son dos citas. */
   /* NI EL ⚡ NI EL 💡 SE PARTEN. Lo del rayo venía de antes; lo del dato lo
      añadió Pablo el 28 de agosto: «> ⚡ y > 💡 nunca se parten; si no caben
      enteros, van enteros a la página siguiente». Los dos son una nota cerrada
@@ -1192,6 +1203,12 @@ function PaginaShort({
   return (
     <section
       className="muro-pagina"
+      /* El id del short, en el DOM. No lo usa la app: lo usan los
+         comprobadores, para cruzar lo que se ve con el informe que deja el
+         reparto en `window.__PAGINFO`. Sin esto había que adivinar de quién
+         era cada informe por el orden en que se montaron los shorts, y con el
+         muro virtualizado ese orden no es el del muro. */
+      data-short={short.id}
       data-indice={indice}
       style={{ ["--acento" as string]: short.color }}
     >

@@ -51,20 +51,16 @@ for (let h = 0; h < Number(process.argv[2] ?? 12); h++) {
     if (!vis) return null;
     /* El id del short sale del índice de la página en el muro, que es el mismo
        orden en el que están escritos. */
-    const todas = [...document.querySelectorAll(".muro-pagina")];
     return {
       titulo: vis.querySelector("h2")?.textContent ?? "?",
       n: vis.querySelectorAll(".muro-tramo").length,
-      indice: todas.indexOf(vis),
+      /* El id lo pinta la app en `data-short` justamente para esto. */
+      id: vis.dataset.short,
       informes: window.__PAGINFO ?? {},
     };
   });
   if (!cab?.n) continue;
-  /* Se busca el informe cuyo número de pantallas coincide y que no se haya
-     gastado ya. Con el id sería más directo, pero el muro no lo pinta. */
-  const claves = Object.keys(cab.informes);
-  const clave = claves[h] ?? claves.find((k) => cab.informes[k].length === cab.n);
-  const informe = cab.informes[clave] ?? [];
+  const informe = cab.informes[cab.id] ?? [];
   console.log(`\n${cab.titulo}`);
   for (let p = 1; p <= cab.n; p++) {
     const v = informe[p - 1];
@@ -83,7 +79,7 @@ for (let h = 0; h < Number(process.argv[2] ?? 12); h++) {
             ? `✓ excepción: ${excepcion}`
             : excepcion
               ? `⚠ ${excepcion} — no está en la lista de tres`
-              : "✗ SIN EXCEPCIÓN"),
+              : `✗ SIN EXCEPCIÓN — se cerró porque ${v.porque || "(no dice)"}`),
     );
   }
 }
