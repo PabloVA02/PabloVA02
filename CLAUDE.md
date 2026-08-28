@@ -118,8 +118,14 @@ empotrada cuando existe.
 
 ### Qué va al repositorio y qué no
 
-- **`originales/`** → los archivos sin procesar. Está en el `.gitignore`:
-  **nunca se commitean y nunca se borran.**
+- **`originales/`** → los archivos sin procesar. **Nunca se borran**, y —al
+  revés de lo que decía la primera versión de esta regla— **sí se commitean**.
+  El motivo está entero en el `.gitignore`: esto no corre en el ordenador de
+  Pablo, corre en un contenedor que se recicla al terminar la sesión, así que
+  «no commitear» aquí no significa «se quedan en disco», significa «se borran
+  esta noche». El día que esté montado R2 se mueven allí y vuelve la regla
+  original. Una portada retirada no se tira: se va a `originales/retirados/`,
+  donde el guion no la vuelve a procesar.
 - **`assets/portadas.csv`** → una fila por imagen, con nombre de archivo,
   fuente, URL original, licencia y fecha de descarga. **Se commitea y se
   actualiza siempre.** Es la prueba de que cada imagen se obtuvo legalmente, y

@@ -63,6 +63,12 @@ const CALIDAD = Number(arg("--calidad", 0.74));
    Así el producto conserva la calidad y el simulador cabe. */
 const CUB_ANCHO = Number(arg("--cubiertas-ancho", 480));
 const CUB_CALIDAD = Number(arg("--cubiertas-calidad", 0.82));
+/* Y las portadas de los temas, que desde el 28 de agosto viajan dentro del
+   paquete como AVIF de 1440 —ver el `CLAUDE.md`—. En el simulador no caben a
+   ese tamaño: once portadas son casi tres megas de AVIF, y en base64 se van a
+   cuatro. Aquí se reescriben más pequeñas, igual que las cubiertas. */
+const POR_ANCHO = Number(arg("--portadas-ancho", 900));
+const POR_CALIDAD = Number(arg("--portadas-calidad", 0.8));
 /* De dónde sale la app compilada. Por defecto `dist-uno`, que lleva los libros
    dentro; `dist-artefacto` los deja como trozos aparte y libera siete megas
    para fotografías. Se coge el trozo de entrada, no el primero por orden. */
@@ -339,6 +345,44 @@ if (cubiertas.length) {
     `\n  ${cubiertas.length} cubiertas a ${CUB_ANCHO} de ancho · ` +
       `${mb(antes)} → ${mb(despues)}`,
   );
+}
+
+/* LAS PORTADAS DE LOS TEMAS, por lo mismo y con el mismo método.
+   
+   Van en el paquete como AVIF de 1440 × 2560 porque es lo que dice la regla de
+   portadas y es lo que necesita la app de verdad. Aquí no: el simulador es un
+   solo HTML con un tope de dieciséis megas, y once portadas a ese tamaño lo
+   revientan —se comprobó, 17,2 MB—. Así que para el simulador se reescriben a
+   `--portadas-ancho`, que a 900 sigue siendo el doble de la pantalla del móvil
+   dibujado.
+   
+   Salen en WebP y no en AVIF porque el lienzo del navegador no sabe escribir
+   AVIF. Da igual: los ficheros de verdad, los que van a R2 y a la app, se
+   quedan en `portadas/` intactos. Esto es solo la copia del escaparate. */
+const portadas = [...js.matchAll(/data:image\/avif;base64,[A-Za-z0-9+/=]+/g)].map((m) => m[0]);
+if (portadas.length) {
+  const antes = portadas.reduce((s, c) => s + c.length, 0);
+  const nav3 = await chromium.launch({ executablePath: process.env.CHROMIUM ?? "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
+  const hoja3 = await nav3.newPage();
+  const cambios = new Map();
+  for (const fuente of portadas) {
+    const nueva = await hoja3.evaluate(async ([fuente, ancho, calidad]) => {
+      const img = new Image();
+      img.src = fuente;
+      try { await img.decode(); } catch { return null; }
+      const lienzo = document.createElement("canvas");
+      const escala = Math.min(1, ancho / img.naturalWidth);
+      lienzo.width = Math.round(img.naturalWidth * escala);
+      lienzo.height = Math.round(img.naturalHeight * escala);
+      lienzo.getContext("2d").drawImage(img, 0, 0, lienzo.width, lienzo.height);
+      return lienzo.toDataURL("image/webp", calidad);
+    }, [fuente, POR_ANCHO, POR_CALIDAD]);
+    if (nueva && nueva.length < fuente.length) cambios.set(fuente, nueva);
+  }
+  await nav3.close();
+  for (const [vieja, nueva] of cambios) js = js.split(vieja).join(nueva);
+  const despues = portadas.reduce((s, c) => s + (cambios.get(c) ?? c).length, 0);
+  console.log(`  ${portadas.length} portadas a ${POR_ANCHO} de ancho · ${mb(antes)} → ${mb(despues)}`);
 }
 
 /* -- 4. El teléfono ------------------------------------------------------- */

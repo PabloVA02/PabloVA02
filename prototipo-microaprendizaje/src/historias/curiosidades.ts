@@ -9,6 +9,17 @@ import type { Short } from "../shorts";
    recortado a 9:16 desde un original cuadrado de 5000. Al lado queda su
    respaldo en WebP, que es el que irá a R2 para los navegadores sin AVIF. */
 import portadaGravedad from "../../portadas/como-funciona-la-gravedad.avif";
+/* Y las siete de la tanda del 28 de agosto por la noche, todas de Pexels y
+   todas procesadas por `scripts/portadas.mjs`: 1440 × 2560, AVIF 65. Van
+   empotradas por lo mismo que la de la gravedad —el artefacto bloquea las
+   imágenes de fuera— y su procedencia está en `assets/portadas.csv`. */
+import portadaTiritamos from "../../portadas/por-que-tiritamos.avif";
+import portadaEstaciones from "../../portadas/por-que-tenemos-estaciones.avif";
+import portadaMareas from "../../portadas/por-que-te-mareas-en-el-coche.avif";
+import portadaLeche from "../../portadas/por-que-se-corta-la-leche.avif";
+import portadaPicante from "../../portadas/por-que-pica-el-picante.avif";
+import portadaCicatrices from "../../portadas/como-cicatrizan-las-heridas.avif";
+import portadaLluvia from "../../portadas/por-que-llueve.avif";
 
 /* ==========================================================================
    CURIOSIDADES — el texto lo escribe Pablo, aquí se maqueta
@@ -944,12 +955,11 @@ export const CURIOSIDADES: Short[] = [
     encargo: "Las gotas en el cristal, con la ciudad desenfocada detrás.",
     fotos: [
       {
-        archivo: "Rain Droplets.jpg",
-        autor: "Gotas de lluvia en una ventana durante la llegada del monzón a Bombay, junio de 2016. Fotografía de Tony5875.",
-        licencia: "CC BY-SA 4.0",
-        fuente: "https://commons.wikimedia.org/wiki/File:Rain_Droplets.jpg",
-        foco: "50% 50%",
-        alt: "Un cristal cubierto de gotas de lluvia de todos los tamaños, con los edificios de una ciudad desenfocados al otro lado.",
+        local: portadaLluvia,
+        autor: "Fotografía de Sara Mazin, en Pexels.",
+        licencia: "Pexels License",
+        fuente: "https://www.pexels.com/photo/19860993/",
+        alt: "Gotas de lluvia cubriendo un cristal, con un taxi amarillo desenfocado detrás.",
       },
     ],
     soloPortada: true,
@@ -1185,6 +1195,15 @@ export const CURIOSIDADES: Short[] = [
     categoria: "Cuerpo humano",
     color: "var(--slate)",
     encargo: "Alguien tiritando de frío, envuelto en una manta, con el vaho de la respiración.",
+    fotos: [
+      {
+        local: portadaTiritamos,
+        autor: "Fotografía de Anzhela Svyrydiuk, en Pexels.",
+        licencia: "Pexels License",
+        fuente: "https://www.pexels.com/photo/29023988/",
+        alt: "Hojas cubiertas de escarcha blanca en primer plano, con la hierba helada difuminada detrás.",
+      },
+    ],
     soloPortada: true,
     textoDePablo: true,
     /* La imagen que pide su texto para DENTRO del tema, todavía sin hacer:
@@ -1349,6 +1368,15 @@ export const CURIOSIDADES: Short[] = [
     categoria: "Cuerpo humano",
     color: "var(--clay)",
     encargo: "Un montón de chiles rojos muy de cerca, brillantes, llenando la pantalla.",
+    fotos: [
+      {
+        local: portadaPicante,
+        autor: "Fotografía de MacShamim, en Pexels.",
+        licencia: "Pexels License",
+        fuente: "https://www.pexels.com/photo/31464525/",
+        alt: "Cientos de chiles rojos alargados extendidos para secarse, llenando la imagen entera.",
+      },
+    ],
     soloPortada: true,
     textoDePablo: true,
     /* La imagen que pide su texto para DENTRO del tema, todavía sin hacer:
@@ -1693,6 +1721,15 @@ export const CURIOSIDADES: Short[] = [
     categoria: "Cuerpo humano",
     color: "var(--sage)",
     encargo: "El paisaje pasando borroso por la ventanilla de un coche en marcha.",
+    fotos: [
+      {
+        local: portadaMareas,
+        autor: "Fotografía de Elif, en Pexels.",
+        licencia: "Pexels License",
+        fuente: "https://www.pexels.com/photo/17729653/",
+        alt: "Un coche blanco antiguo detenido en una carretera recta que cruza una llanura seca, en tonos sepia.",
+      },
+    ],
     soloPortada: true,
     textoDePablo: true,
     /* La imagen que pide su texto para DENTRO del tema, todavía sin hacer:
@@ -1853,6 +1890,15 @@ export const CURIOSIDADES: Short[] = [
     categoria: "Ciencia",
     color: "var(--ochre)",
     encargo: "El mismo árbol o el mismo paisaje en dos estaciones, o la Tierra inclinada sobre su órbita.",
+    fotos: [
+      {
+        local: portadaEstaciones,
+        autor: "Fotografía de Canan Cetin, en Pexels.",
+        licencia: "Pexels License",
+        fuente: "https://www.pexels.com/photo/29343620/",
+        alt: "Una rama de hojas amarillas de otoño contra el cielo, con las copas verdes de los pinos al fondo.",
+      },
+    ],
     soloPortada: true,
     textoDePablo: true,
     /* La imagen que pide su texto para DENTRO del tema, todavía sin hacer:
@@ -2045,6 +2091,15 @@ export const CURIOSIDADES: Short[] = [
     categoria: "Cuerpo humano",
     color: "var(--plum)",
     encargo: "Una cicatriz vieja en la piel, de cerca y con luz rasante.",
+    fotos: [
+      {
+        local: portadaCicatrices,
+        autor: "Fotografía de MART PRODUCTION, en Pexels.",
+        licencia: "Pexels License",
+        fuente: "https://www.pexels.com/photo/7699367/",
+        alt: "Un puño cerrado visto de cerca, con las costras oscuras de dos heridas recientes en los nudillos.",
+      },
+    ],
     soloPortada: true,
     textoDePablo: true,
     /* La imagen que pide su texto para DENTRO del tema, todavía sin hacer:
@@ -2524,6 +2579,15 @@ export const CURIOSIDADES: Short[] = [
     categoria: "Ciencia",
     color: "var(--sage)",
     encargo: "Un chorro de leche cortada cayendo en un vaso, con los grumos separándose del suero a contraluz.",
+    fotos: [
+      {
+        local: portadaLeche,
+        autor: "Fotografía de Ly, en Pexels.",
+        licencia: "Pexels License",
+        fuente: "https://www.pexels.com/photo/8183877/",
+        alt: "Una jarra de cristal llena de leche sobre una tabla de madera, con luz suave de ventana.",
+      },
+    ],
     soloPortada: true,
     textoDePablo: true,
     /* La imagen que pide su texto para DENTRO del tema, todavía sin hacer:

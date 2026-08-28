@@ -39,14 +39,24 @@ hoja-cubiertas.html
 shorts.html
 dist-shorts/
 
-# LOS ORIGINALES DE LAS PORTADAS: los archivos sin procesar, tal como llegan.
-# Regla de Pablo del 28 de agosto —está en el `CLAUDE.md`—: nunca se commitean
-# y nunca se borran. No van al repositorio porque son cientos de megas de los
-# que solo sale un AVIF de 200 kB, y se quedan en disco porque el día que
-# cambie el formato de salida o la resolución de los móviles hay que volver a
-# procesarlos desde ahí en vez de salir otra vez a buscarlos.
+# LOS ORIGINALES DE LAS PORTADAS: SÍ VAN AL REPOSITORIO, Y ES A PROPÓSITO.
 #
-# Lo que SÍ va al repositorio es `assets/portadas.csv`, con una fila por
-# imagen: de dónde salió, con qué licencia y cuándo. Es la prueba de que cada
-# portada se obtuvo legalmente, y sin su fila una portada no entra.
-originales/
+# La regla de Pablo del 28 de agosto decía «en el .gitignore, nunca se
+# commitean, nunca se borran», y estuvo así media tarde. Está mal AQUÍ, y no
+# por gusto: esto no corre en su ordenador, corre en un contenedor que se
+# recicla en cuanto la sesión termina. En una máquina de verdad «no
+# commitear» significa «se quedan en disco»; aquí significa «se borran esta
+# noche». O sea que la regla, escrita tal cual, destruye justo lo que
+# pretendía proteger.
+#
+# Él lo pidió con estas palabras al mandar la segunda tanda: «guárdalas las
+# originales en algún lado, haz una buena gestión, guárdalas en algún sitio o
+# lo que sea». El único sitio que sobrevive al contenedor es el repositorio.
+#
+# Cuándo dejar de commitearlas: el día que esté montado Cloudflare R2. Ahí
+# viven mejor —no engordan el `.git` y no hay que clonarlas para compilar—, y
+# entonces se vuelve a poner `originales/` aquí abajo y se sube el histórico.
+# Mientras no exista ese sitio, el repositorio es el sitio.
+#
+# Lo que pesan hoy: unos treinta megas de fotografía en bruto. El `.git` ya
+# anda por seiscientos, así que no es lo que lo hace grande.

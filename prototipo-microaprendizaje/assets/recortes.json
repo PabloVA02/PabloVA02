@@ -1,0 +1,5 @@
+{
+  "_": "Solo los temas donde el recorte automático no acierta. x/y es dónde está el motivo en tanto por uno; zoom acerca. Lo lee scripts/portadas.mjs.",
+  "por-que-te-mareas-en-el-coche": { "x": 0.16, "y": 0.62 },
+  "por-que-se-corta-la-leche": { "x": 0.56, "y": 0.52, "zoom": 1.3 }
+}

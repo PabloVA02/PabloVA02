@@ -16,9 +16,12 @@
         portada de `como-funciona-la-gravedad.md`. No hay tabla intermedia
         porque no hace falta y porque una tabla se desincroniza.
      2. La recorta a 9:16 y la lleva a 1440 × 2560, que es la pantalla del
-        móvil más exigente que hay. El recorte va por `attention`, que es el
-        que busca la zona con más detalle en vez de dar por hecho que el
-        motivo está en el centro.
+        móvil más exigente que hay. Por defecto el recorte va por `attention`,
+        que busca la zona con más detalle en vez de dar por hecho que el motivo
+        está en el centro. Acierta casi siempre y falla cuando el motivo es
+        pequeño y está descentrado: en la foto del coche eligió el cielo y dejó
+        el coche partido por el borde. Para esos casos está
+        `assets/recortes.json`, donde se le dice a mano dónde mirar.
      3. Escribe `portadas/<id>.avif` a calidad 65 y `portadas/<id>.webp` a 85.
         AVIF es el principal; WebP existe para lo que no admita AVIF.
      4. Actualiza `assets/portadas.csv`, que es lo que prueba que cada imagen
@@ -49,6 +52,7 @@ const AQUI = fileURLToPath(new URL("..", import.meta.url));
 const ORIGINALES = join(AQUI, "originales");
 const SALIDA = join(AQUI, "portadas");
 const CSV = join(AQUI, "assets", "portadas.csv");
+const RECORTES = join(AQUI, "assets", "recortes.json");
 
 /* Las tres medidas de la regla, juntas y en un solo sitio. */
 const ANCHO = 1440;
@@ -59,8 +63,14 @@ const WEBP = 85;
 const COLUMNAS = [
   "archivo", "tema", "fuente", "url_original", "licencia", "autor",
   "descargada", "procesada", "ancho_original", "alto_original",
-  "avif_kb", "webp_kb", "url_publica", "aviso",
+  "avif_kb", "webp_kb", "url_publica", "aviso", "notas",
 ];
+
+/* `aviso` lo escribe el guion en cada pasada y `notas` NO SE TOCA NUNCA: es
+   donde va lo que sabe la persona y no el programa —que una licencia está sin
+   confirmar, que la URL no se ha podido abrir, que la imagen es un reemplazo—.
+   Estuvieron en la misma columna media hora y la segunda pasada del guion se
+   llevó por delante lo escrito a mano. */
 
 /* ---- el CSV: se lee entero, se actualiza por filas y se vuelve a escribir --
    Es un CSV a mano y no una dependencia porque son catorce columnas sin comas
@@ -106,6 +116,36 @@ function escribeCsv(filas) {
   writeFileSync(CSV, [COLUMNAS.join(","), ...cuerpo].join("\n") + "\n", "utf8");
 }
 
+/* ---- el encuadre a mano ---------------------------------------------------
+   `assets/recortes.json` es opcional y solo lleva los temas donde el recorte
+   automático no acierta. Dos formas por tema:
+
+     "por-que-te-mareas-en-el-coche": { "x": 0.22, "y": 0.7 }
+     "por-que-se-corta-la-leche":     { "x": 0.55, "y": 0.5, "zoom": 1.35 }
+
+   `x` e `y` son dónde está el motivo, en tanto por uno sobre la imagen
+   entera, y ahí se centra la ventana 9:16. `zoom` acerca: 1,35 coge una
+   ventana un 35 % más pequeña, o sea que se ve más grande. Sin `zoom` se coge
+   la ventana más grande que cabe, que es lo que conserva más resolución. */
+const encuadres = existsSync(RECORTES) ? JSON.parse(readFileSync(RECORTES, "utf8")) : {};
+
+/** La ventana 9:16 que hay que sacar de la imagen, centrada en el foco y sin
+ *  salirse de los bordes. */
+function ventana(meta, foco) {
+  const zoom = Math.max(1, foco.zoom ?? 1);
+  const escala = Math.min(meta.width / ANCHO, meta.height / ALTO) / zoom;
+  const width = Math.min(Math.round(ANCHO * escala), meta.width);
+  const height = Math.min(Math.round(ALTO * escala), meta.height);
+  const centra = (medida, total, donde) =>
+    Math.min(Math.max(Math.round(total * donde - medida / 2), 0), total - medida);
+  return {
+    width,
+    height,
+    left: centra(width, meta.width, foco.x ?? 0.5),
+    top: centra(height, meta.height, foco.y ?? 0.5),
+  };
+}
+
 /* ---- el procesado ------------------------------------------------------- */
 async function procesa(ruta, tema) {
   const original = sharp(ruta, { failOn: "none" });
@@ -119,14 +159,17 @@ async function procesa(ruta, tema) {
     : meta.width;
 
   mkdirSync(SALIDA, { recursive: true });
-  const base = sharp(ruta, { failOn: "none" }).resize(ANCHO, ALTO, {
-    fit: "cover",
-    /* `attention` y no `centre`: busca la zona de más detalle. En una portada
-       vertical sacada de una imagen apaisada, el centro geométrico suele ser
-       cielo o pared. */
-    position: sharp.strategy.attention,
-    withoutEnlargement: false,
-  });
+  const foco = encuadres[tema];
+  const base = foco
+    ? sharp(ruta, { failOn: "none" }).extract(ventana(meta, foco)).resize(ANCHO, ALTO)
+    : sharp(ruta, { failOn: "none" }).resize(ANCHO, ALTO, {
+        fit: "cover",
+        /* `attention` y no `centre`: busca la zona de más detalle. En una
+           portada vertical sacada de una imagen apaisada, el centro
+           geométrico suele ser cielo o pared. */
+        position: sharp.strategy.attention,
+        withoutEnlargement: false,
+      });
   const avif = join(SALIDA, `${tema}.avif`);
   const webp = join(SALIDA, `${tema}.webp`);
   await base.clone().avif({ quality: AVIF, effort: 6 }).toFile(avif);
@@ -216,6 +259,7 @@ for (const f of fuentes) {
   console.log(
     `${tema.padEnd(34)} ${String(r.avif_kb).padStart(4)} kB avif · ` +
       `${String(r.webp_kb).padStart(4)} kB webp · original ${r.ancho_original}×${r.alto_original}` +
+      (encuadres[tema] ? " · encuadre a mano" : "") +
       (r.corta ? `  ← se queda en ${r.util} px de ancho` : ""),
   );
 }
