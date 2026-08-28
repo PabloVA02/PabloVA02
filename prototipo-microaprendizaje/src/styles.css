@@ -10519,14 +10519,23 @@ button {
   --cuerpo: 5.27cqw;
   --renglon: calc(var(--cuerpo) * 1.3);
   color: #f4f2ee;
-  /* SIN PARTIR PALABRAS. El short parte con guiones —`src/silabas.ts` mete
-     guiones blandos y la hoja pone `hyphens: auto`—, y se hizo cuando el texto
-     iba justificado: sin partir, una palabra larga abría un hueco de dedos en
-     mitad del renglón. En bandera ya no hace falta, y en las capturas que
-     mandó Pablo no hay ni un guion. `none` apaga las dos cosas a la vez, la
-     automática y los guiones blandos que ya trae el texto. */
-  hyphens: none;
-  -webkit-hyphens: none;
+  /* CON GUIONES, COMO UN LIBRO. Pablo, el 28 de agosto: «redacta como un libro
+     normal y corriente, con guiones si la palabra no cabe».
+
+     Estuvieron apagados un tiempo porque en las capturas de Headway que él
+     mandó no había ni un guion, y en bandera —sin justificar— no hacen falta
+     para evitar huecos. Pero manda lo que dijo después, y además tiene razón
+     para esta letra: con renglones de 36 caracteres, una palabra de doce
+     empuja media línea al siguiente renglón y el borde derecho se queda hecho
+     una sierra. Un libro parte y punto.
+
+     No hace falta `auto`: `src/silabas.ts` ya mete un guion blando en cada
+     sílaba de cada palabra, así que el navegador solo tiene que hacerle caso, y
+     eso es el valor por defecto. Partir por donde parte el español y no por
+     donde adivine el diccionario del móvil —que ni siquiera está en todos— es
+     mejor de las dos maneras. */
+  hyphens: manual;
+  -webkit-hyphens: manual;
 }
 /* Un renglón entero de blanco entre párrafos, que es lo que hay en sus
    capturas: 108 píxeles de un párrafo al siguiente, 54 de renglón y 54 de
@@ -10725,8 +10734,8 @@ button {
      cuatro puntos restados dos veces, y fue lo que le hizo ver «un tercio de
      pantalla vacío». Está contado en la hoja de paginado. */
   --margen-lado: 16px;
-  --margen-arriba: 13cqw;
-  --margen-abajo: max(19cqw, 72px);
+  --margen-arriba: max(16cqw, 60px);
+  --margen-abajo: max(21cqw, 80px);
   padding: var(--margen-arriba) var(--margen-lado) calc(var(--margen-abajo) + var(--barra));
   /* Para que el indicador y los botones se coloquen contra el borde de la hoja
      sin salirse de ella. */

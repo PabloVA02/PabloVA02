@@ -5,9 +5,35 @@ description: Las reglas de cómo se pagina una pantalla de texto en Curva — al
 
 # Cómo se pagina una pantalla de texto
 
-Las puso Pablo el 28 de agosto de 2026, después de cinco vueltas sobre lo
-mismo. **No se negocian y no se olvidan.** Si algo de aquí choca con lo que
-parezca razonable, manda esto.
+## Lo que se quiere, en una frase
+
+**Que se lea como un libro normal y corriente.** Lo dijo Pablo el 28 de agosto,
+después de una tarde de reglas cada vez más finas: «redacta como un libro
+normal y corriente, con guiones si la palabra no cabe, y con margen arriba y
+abajo suficiente para que la visión del lector sea agradable; si tienes normas
+anteriores o lo que sea, bórralas».
+
+Así que antes de leer nada más, esto es lo que tiene que pasar:
+
+1. **Márgenes cómodos y siempre los mismos.** Hoy, en un móvil de 375: 60 de
+   cabeza, 16 a cada lado, 80 de pie sobre la barra de pestañas. Iguales en
+   todas las pantallas del short.
+2. **Con guiones.** `src/silabas.ts` mete un guion blando en cada sílaba y la
+   hoja los obedece con `hyphens: manual`. Sin ellos, con renglones de 36
+   caracteres, el borde derecho se queda hecho una sierra.
+3. **Cada pantalla, llena.** Ninguna acaba con más de tres renglones de hueco
+   salvo por una razón declarada.
+4. **Ni una palabra suelta al cambiar de pantalla**, y ninguna con scroll.
+
+Las tres comprobaciones que dicen si eso se cumple:
+
+    node scripts/huecos.mjs      hueco por pantalla, con su razón
+    node scripts/huerfanas.mjs   líneas sueltas, scroll y márgenes
+    node scripts/rayos.mjs       ⚡ partidos; tiene que dar 0
+
+Lo que viene debajo es el detalle y, sobre todo, **las trampas en las que ya se
+ha caído**. No son reglas nuevas: son el porqué de las de arriba, y están para
+no repetir una tarde entera de medir.
 
 ## Las ocho reglas
 
