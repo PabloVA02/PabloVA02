@@ -198,6 +198,39 @@ export type Short = {
    * funcionando: se queda la misma las cuatro pantallas, como hasta ahora.
    */
   fotos?: (Foto | undefined)[];
+  /**
+   * La fotografía es SOLO de la portada: las páginas van sin banda de imagen,
+   * con el texto ocupando la pantalla entera.
+   *
+   * Pablo, el 28 de agosto, al mandar el texto de los dos primeros temas:
+   * «elimina las imágenes de esos temas menos las de la portada y pones el
+   * texto solo». No basta con dejar `fotos` con una: `fotoDe()` reparte la de
+   * la portada a las pantallas que no tienen la suya —se hizo a propósito,
+   * porque repetir la buena era mejor que enseñar el cartel generado—, así
+   * que una historia con una sola foto la enseñaría en las diez pantallas.
+   * Esto dice lo contrario y lo dice explícitamente.
+   *
+   * Y no es solo quitar: sin banda de imagen la hoja se queda con la pantalla
+   * entera, que es de donde sale el sitio para los textos largos. La banda se
+   * comía entre el 26 y el 36 % del alto.
+   */
+  soloPortada?: true;
+  /**
+   * El texto de esta historia lo ha escrito Pablo.
+   *
+   * Sirve para una cosa concreta: `scripts/revisa-shorts.mjs` no la mide. Ese
+   * guion comprueba el MOLDE, que es cómo escribo YO —la entrada de 48 a 66
+   * palabras, situar en el tiempo, la longitud de cada pantalla, el
+   * vocabulario—, y aplicárselo a un texto suyo es corregirle por la espalda,
+   * que es justo lo que `MOLDE.md` prohíbe. Sus textos van con su propia
+   * norma, que viene escrita en el LEEME de cada zip.
+   *
+   * Lo que SÍ se les comprueba es todo lo que no es redacción: que la ficha
+   * de la foto tenga autor y licencia, que el color esté en la paleta, que el
+   * título quepa en una línea y que ninguna pantalla se salga. De eso se
+   * encargan `validar.mjs`, `coteja-fotos.mjs` y `scripts/aire.mjs`.
+   */
+  textoDePablo?: true;
   /** Qué imagen le toca a esta historia. Es el pie y es el encargo. */
   encargo: string;
   /** Texto de la portada, debajo de la foto. Unas 60 palabras.
@@ -208,14 +241,28 @@ export type Short = {
      que se agotan en dos y a comprimir los que piden cuatro: la horquilla la
      decide el tema, no la plantilla. El tope existe para que un short siga
      siendo un short. */
-  /* Y VACÍA TAMBIÉN VALE, que es la portada sola esperando su texto.
-     Pablo, el 28: «ponme la portada así pero de ahora en varios temas […] no
-     pongas el texto, que eso te lo paso yo ahora». Una lista vacía dice
-     exactamente eso —la imagen y el título están elegidos, el texto no ha
-     llegado— y lo dice en el sitio donde se va a mirar. La alternativa era
-     dejar tres páginas de relleno, y el relleno se queda. */
-  paginas: [] | [Pagina, Pagina] | [Pagina, Pagina, Pagina]
-    | [Pagina, Pagina, Pagina, Pagina] | [Pagina, Pagina, Pagina, Pagina, Pagina];
+  /* CUÁNTAS PÁGINAS: LAS QUE PIDA EL TEXTO, Y VACÍA TAMBIÉN VALE.
+   *
+   * Vacía es la portada sola esperando su texto. Pablo, el 28: «ponme la
+   * portada así pero de ahora en varios temas […] no pongas el texto, que eso
+   * te lo paso yo ahora». Una lista vacía dice exactamente eso —la imagen y
+   * el título están elegidos, el texto no ha llegado— y lo dice en el sitio
+   * donde se va a mirar. La alternativa era dejar páginas de relleno, y el
+   * relleno se queda.
+   *
+   * ESTO ERA UNA TUPLA DE DOS A CINCO, y dejó de valer esa misma tarde. Los
+   * dos primeros textos que mandó Pablo traen cinco y cuatro secciones de
+   * entre 124 y 305 palabras cada una, y su nota de maquetación es
+   * terminante: «ni una tarjeta debe requerir scroll interno: si no cabe, se
+   * parte, nunca se recorta el texto». Partiendo donde el texto respira salen
+   * ocho y siete pantallas. Con el tope en cinco, la única manera de cumplir
+   * era recortarle el texto, que es justo lo que prohíbe.
+   *
+   * El tope se va, entonces, porque quien manda es el texto. Lo que queda es
+   * un mínimo de dos —menos que eso no es una historia— y un aviso del
+   * validador a partir de doce, que no es un límite sino una pregunta: si un
+   * tema pide más de doce pantallas, a lo mejor son dos temas. */
+  paginas: Pagina[];
 };
 
 /**

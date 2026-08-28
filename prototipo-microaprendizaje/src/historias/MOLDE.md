@@ -1,3 +1,17 @@
+> **AVISO, 28 de agosto de 2026.** Desde este día el texto de los shorts lo
+> escribe Pablo y llega en `.md` con su propia norma, que viene en el LEEME de
+> cada zip y está copiada en `referencia/textos-de-pablo/README.md`.
+>
+> **Todo lo que hay debajo es para lo que escribo YO.** Con un texto suyo no se
+> usa: pasarle esta regla encima es corregirle por la espalda, que es lo que
+> este mismo documento prohíbe. Sus historias van marcadas con
+> `textoDePablo: true` y `scripts/revisa-shorts.mjs` las salta.
+>
+> Lo único que se decide al maquetar un texto suyo es **por dónde se parte en
+> pantallas**, y eso lo manda su regla: «ni una tarjeta debe requerir scroll
+> interno: si no cabe, se parte, nunca se recorta el texto». Los cortes van
+> siempre entre párrafos suyos y se eligen midiendo con `scripts/aire.mjs`.
+
 # El molde de un short
 
 Aprobado sobre el de Julio César. Todo short nuevo se escribe contra esta

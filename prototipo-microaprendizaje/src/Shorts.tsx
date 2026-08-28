@@ -303,6 +303,12 @@ function fotoDe(short: Short, paso: number) {
      se escriben todas, las tres pantallas de dentro se quedaban con el cartel
      generado: un círculo plano detrás de una fotografía de la corona solar.
      Repetir la buena es peor que tener cuatro, y mucho mejor que eso. */
+  /* Salvo que la historia diga que la fotografía es solo de la portada. Ese
+     reparto se hizo para que una historia con una imagen la enseñara en las
+     cuatro pantallas en vez de enseñar tres carteles generados, y sigue
+     valiendo para esas. Para las que traen `soloPortada` sería lo contrario
+     de lo que piden: la misma foto diez veces seguidas. */
+  if (short.soloPortada && paso > 0) return undefined;
   return short.fotos?.[paso] ?? short.foto ?? short.fotos?.[0];
 }
 
@@ -610,6 +616,13 @@ function PaginaShort({
             página. Todo eso recortaba el cuadro por su cuenta, y Pablo pidió
             que la foto se vea como la pasa. Aquí es lo que es: recortada al
             alto de la banda y centrada donde diga su foco. */}
+        {/* Y en una historia de solo portada, las páginas no llevan banda: no
+            es que la banda se quede vacía, es que no está. Dejarla habría
+            pintado el cartel generado —un círculo de color— en cada pantalla,
+            que es más ruido que una foto repetida; y sobre todo, quitándola la
+            hoja se queda con la pantalla entera, que es de donde sale el sitio
+            para los textos largos de Pablo. */}
+        {(portada || !short.soloPortada) && (
         <div className="muro-foto" data-portada={portada}>
           <Fotografia
             foto={fotoDe(short, paso)}
@@ -630,8 +643,14 @@ function PaginaShort({
               deja de interrumpir. */}
           <p className="muro-credito">{fotoDe(short, paso)?.autor ?? short.encargo}</p>
         </div>
+        )}
 
-        <motion.div className="muro-hoja" data-forma={portada ? "portada" : "pagina"} style={{ x: xHoja }}>
+        <motion.div
+          className="muro-hoja"
+          data-forma={portada ? "portada" : "pagina"}
+          data-sinfoto={!portada && !!short.soloPortada}
+          style={{ x: xHoja }}
+        >
           <AnimatePresence mode="wait" custom={sentido}>
             <motion.div
               key={paso}
@@ -957,10 +976,27 @@ function CuerpoPagina({ pagina }: { pagina: Pagina }) {
      debería haber estado siempre: cada página abre nombrando de qué va —regla
      11 del molde— y de paso enlaza con la anterior. El campo `rotulo` se
      sigue escribiendo porque le sirve de esqueleto al que redacta, pero el
-     lector no lo ve. */
+     lector no lo ve.
+
+     CON RAYO OTRA VEZ, Y NO ES VOLVER ATRÁS. El «golpe de abajo» se quitó en
+     la misma tanda que el rótulo, y con razón: lo ponía yo, era una frase
+     sacada del párrafo de al lado y repetía lo que el lector acababa de leer.
+     Lo que vuelve es otra cosa. Pablo manda el texto ya con sus rayos
+     marcados —«insight destacado de esa tarjeta; va en recuadro aparte, se
+     puede compartir solo; una por tarjeta»— y son la conclusión de la
+     pantalla, escrita a propósito para sostenerse suelta. Es la misma caja
+     del rayo que llevan los resúmenes de los libros, y aquí se pinta igual:
+     sin recuadro, solo el icono y la sangría, que es como está en la
+     referencia. Lo que la separa es el aire. */
   return (
     <div className="short-pagina">
-      <motion.p
+      {/* Un `div` y no un `p`, desde el 28 de agosto. El texto que manda Pablo
+          viene en párrafos y a veces con una lista dentro, y los dos son
+          etiquetas de bloque: metidas en un `<p>` el navegador cierra el
+          párrafo por su cuenta antes de abrirlas y el resto del texto se queda
+          fuera del elemento que mide `useAjusteDeTexto`. Con `div`, los `<p>`
+          van dentro y las listas también. */}
+      <motion.div
         className="short-cuerpo"
         custom={2}
         variants={enterVariants}
@@ -968,7 +1004,32 @@ function CuerpoPagina({ pagina }: { pagina: Pagina }) {
         animate="shown"
         dangerouslySetInnerHTML={{ __html: conGuiones(pagina.texto) }}
       />
+      {pagina.destacado?.tipo === "frase" && (
+        <motion.div
+          className="short-idea"
+          custom={3}
+          variants={enterVariants}
+          initial="hidden"
+          animate="shown"
+        >
+          <span className="short-idea-rayo" aria-hidden>
+            <RayoIdea />
+          </span>
+          <p>{pagina.destacado.frase}</p>
+        </motion.div>
+      )}
     </div>
+  );
+}
+
+/* El mismo rayo que la caja de los resúmenes, `Lector.tsx`. Se redibuja aquí
+   en vez de importarse porque allí es una función privada del lector y
+   sacarla a `glyphs.tsx` movería un fichero que no toca esta tanda. */
+function RayoIdea() {
+  return (
+    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden>
+      <path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z" fill="currentColor" />
+    </svg>
   );
 }
 

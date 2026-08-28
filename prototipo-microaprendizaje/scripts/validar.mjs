@@ -36,9 +36,27 @@ const LIMITES = {
      propósito, como dice el molde, para no marcar de golpe las que aún no se
      han pasado a la medida nueva. */
   entrada: { min: 40, max: 110 },
-  rotulo: { max: 5 },
-  pagina: { min: 75, max: 145 },
-  historia: { min: 300, max: 480 },
+  /* EL RÓTULO YA NO TIENE MEDIDA, y por dos motivos a la vez. Uno: no se
+     pinta desde el 27 de agosto —«estamos siempre limitados al texto que
+     poner»—, así que no ocupa renglón y no puede pasarse de largo. Dos: desde
+     el 28 lo escribe Pablo, y en su formato el título de cada tarjeta es una
+     afirmación completa —«El final no llegará por fuego, sino por asfixia»—,
+     no una etiqueta de dos palabras. Medirlo con la regla vieja marcaba las
+     diecisiete páginas suyas y no señalaba nada. */
+  /* LA MEDIDA DE UNA PÁGINA es lo que cabe en la pantalla, y eso lo mide
+     `scripts/_mide.mjs` en el móvil de verdad; esto solo pone los extremos.
+     Sin banda de imagen —las historias de `soloPortada`— caben unas 190
+     palabras, o 165 si la pantalla lleva rayo. El suelo baja de 75 a 45: hay
+     pantallas legítimamente cortas, como el «¿Sabías que…?» del Sol, que es
+     un aparte y se sostiene solo. */
+  pagina: { min: 45, max: 195 },
+  /* Y LA HISTORIA ENTERA YA NO TIENE TOPE. Eran 300-480 palabras, o sea los
+     dos minutos de cuando los shorts los escribía yo con tres páginas fijas.
+     El primer texto que mandó Pablo trae mil ciento cincuenta y seis, y su
+     nota es terminante: «si no cabe, se parte, nunca se recorta el texto». Un
+     tope aquí solo podría cumplirse recortándoselo. Lo que queda es el suelo,
+     que sigue diciendo algo: por debajo de 300 no es una historia. */
+  historia: { min: 300 },
   /** Los cinco acentos del sistema visual. No hay más colores. */
   /* Los cinco acentos de la paleta, más el teal, que entró en agosto de 2026
      como noveno acento para Deportes y que en el muro hace falta: con cinco,
@@ -110,19 +128,29 @@ for (const s of SHORTS) {
   const soloPortada = s.paginas.length === 0;
 
   if (!soloPortada) {
+    /* El gancho y la entrada solo se miden SI ESTÁN. Dejaron de ser
+       obligatorios el 28 de agosto: la portada no los pinta —lleva la
+       fotografía y el título y nada más— y los textos que manda Pablo no
+       traen ni uno ni otra, porque su primera tarjeta hace de entrada. Lo que
+       no vale es escribirlos mal, y eso sí se sigue midiendo. */
     const g = (s.gancho ?? "").length;
-    if (g < LIMITES.gancho.min || g > LIMITES.gancho.max)
+    if (g && (g < LIMITES.gancho.min || g > LIMITES.gancho.max))
       err(`gancho de ${g} caracteres (entre ${LIMITES.gancho.min} y ${LIMITES.gancho.max})`);
 
     const e = palabras(s.entrada ?? "");
-    if (e < LIMITES.entrada.min || e > LIMITES.entrada.max)
+    if (e && (e < LIMITES.entrada.min || e > LIMITES.entrada.max))
       err(`entrada de ${e} palabras (entre ${LIMITES.entrada.min} y ${LIMITES.entrada.max})`);
 
-    /* Y las páginas son las que pida el tema. Aquí seguía escrito «son siempre
-       3», que dejó de ser verdad el 27 de agosto: la horquilla la fija
-       `shorts.ts` y `revisa-shorts.mjs`, y son de dos a cinco. */
-    if (s.paginas.length < 2 || s.paginas.length > 5)
-      err(`tiene ${s.paginas.length} páginas (entre 2 y 5)`);
+    /* Y las páginas son las que pida el TEXTO. Aquí seguía escrito «son
+       siempre 3», que dejó de ser verdad el 27 de agosto, y luego «entre 2 y
+       5», que dejó de serlo el 28: el primer texto de Pablo pide nueve
+       pantallas y el segundo ocho. Queda el suelo —menos de dos no es una
+       historia— y un aviso a partir de catorce, que no es un límite sino una
+       pregunta: si un tema pide más de catorce pantallas, puede que sean dos
+       temas. */
+    if (s.paginas.length < 2) err(`tiene ${s.paginas.length} páginas (mínimo 2)`);
+    if (s.paginas.length > 14)
+      avi(`${s.paginas.length} pantallas: ¿no serán dos temas en vez de uno?`);
   }
 
   if (!LIMITES.colores.includes(s.color)) err(`color «${s.color}» fuera de la paleta`);
@@ -147,8 +175,9 @@ for (const s of SHORTS) {
   let golpes = 0;
   s.paginas.forEach((p, i) => {
     const n = i + 1;
-    if (palabras(p.rotulo) > LIMITES.rotulo.max)
-      avi(`el rótulo de la página ${n} tiene más de ${LIMITES.rotulo.max} palabras`);
+    /* Sin regla de rótulo: ver `LIMITES`. Lo único que se le pide es existir,
+       porque le sirve de esqueleto a quien revise el texto. */
+    if (!p.rotulo) avi(`la página ${n} no tiene rótulo`);
 
     const w = palabras(p.texto);
     if (w < LIMITES.pagina.min || w > LIMITES.pagina.max)
@@ -158,7 +187,10 @@ for (const s of SHORTS) {
       golpes++;
       if (p.destacado.tipo === "cifra" && !p.destacado.unidad)
         err(`página ${n}: la cifra no lleva unidad`);
-      if (p.destacado.tipo === "frase" && palabras(p.destacado.frase) > 16)
+      /* El tope sube de 16 a 34 palabras. Los rayos que manda Pablo van de 21
+         a 30 y están escritos para sostenerse sueltos —«se puede compartir
+         solo», dice su nota—, así que son frases enteras y no lemas. */
+      if (p.destacado.tipo === "frase" && palabras(p.destacado.frase) > 34)
         avi(`página ${n}: la frase destacada es demasiado larga para leerse de golpe`);
     }
   });
@@ -168,8 +200,8 @@ for (const s of SHORTS) {
 
   if (!soloPortada) {
     const total = palabras(s.entrada ?? "") + s.paginas.reduce((n, p) => n + palabras(p.texto), 0);
-    if (total < LIMITES.historia.min || total > LIMITES.historia.max)
-      err(`${total} palabras en total (entre ${LIMITES.historia.min} y ${LIMITES.historia.max})`);
+    if (total < LIMITES.historia.min)
+      err(`${total} palabras en total (mínimo ${LIMITES.historia.min})`);
   }
 }
 

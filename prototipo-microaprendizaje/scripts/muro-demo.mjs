@@ -56,7 +56,13 @@ function historiasDe(fichero) {
        27 de agosto las páginas las decide el tema —dos, tres o cuatro—, así
        que «completa» ya no son cuatro fotos: es una por pantalla. */
     const paginas = [...t.matchAll(/rotulo:\s*"/g)].length;
-    if (id) fuera.push({ id, fotos, paginas });
+    /* Y las que llevan `soloPortada` están completas con UNA. Desde el 28 de
+       agosto la fotografía de esas historias es solo la de la portada: las
+       páginas van sin banda de imagen. Sin esto, el filtro de abajo les pedía
+       una por pantalla y dejaba fuera del mirador justamente las dos que
+       tienen el texto de Pablo. */
+    const solo = /soloPortada:\s*true/.test(t);
+    if (id) fuera.push({ id, fotos, paginas: solo ? 0 : paginas });
   }
   return fuera;
 }

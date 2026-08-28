@@ -73,6 +73,7 @@ let flojos = 0;
 let titulosLargos = 0;
 let fotosDudosas = 0;
 let sinTexto = 0;
+let dePablo = 0;
 let total = 0;
 const aviso = (id, texto) => { console.log(`  ✗ ${id}: ${texto}`); fallos++; };
 /* Un aviso flojo no tumba el validador: señala trabajo pendiente de las tandas
@@ -99,6 +100,25 @@ for (const ruta of ficheros) {
        el validador deje de leerse. Se le mira lo que SÍ tiene: el título, la
        ficha de la foto y el pie. */
     const soloPortada = /paginas: \[\],/.test(b);
+
+    /* Y LO QUE ESCRIBE PABLO NO SE MIDE CON EL MOLDE. Este guion comprueba
+       cómo escribo yo: la entrada de 48 a 66 palabras, situar en el tiempo, la
+       longitud de cada pantalla, el vocabulario, el punto final. Desde el 28
+       de agosto los textos los manda él con su propia norma —la trae el LEEME
+       de cada zip— y pasarle esta regla encima es corregirle por la espalda,
+       que es lo que `MOLDE.md` prohíbe expresamente.
+       
+       Hay además un motivo material: sus textos ocupan varias líneas de
+       fuente concatenadas con `+`, y las expresiones de aquí leen una sola.
+       Medidos así, sus párrafos salían de catorce palabras y el guion cantaba
+       cuarenta avisos falsos, incluido «nombres propios poco conocidos:
+       Entonces, Suena, Enfriar». Un validador que miente cuarenta veces deja
+       de leerse, y entonces tampoco avisa cuando algo va mal de verdad.
+       
+       Lo suyo se comprueba en otro sitio y de otra manera: `validar.mjs` lee
+       los datos ya compilados y mira lo que no es redacción, y
+       `scripts/aire.mjs` mide en el móvil que ninguna pantalla se salga. */
+    if (/textoDePablo:\s*true/.test(b)) { dePablo++; continue; }
 
     const titulo = /titulo: "((?:[^"\\]|\\.)*)"/.exec(b)?.[1] ?? "";
     /* Regla 14: el título golpea, no resume. Y regla nueva de Pablo, sin
@@ -357,6 +377,7 @@ for (const ruta of ficheros) {
 }
 
 console.log(`\n${total} shorts revisados · ${fallos} avisos`
+  + (dePablo ? ` · ${dePablo} con el texto de Pablo, que no se mide con el molde` : "")
   + (sinTexto ? ` · ${sinTexto} ${sinTexto === 1 ? "es portada sola, esperando texto" : "son portadas solas, esperando texto"}` : "")
   + (flojos ? ` · ${flojos} ${flojos === 1 ? "aviso leve" : "avisos leves"}` : "")
   + (titulosLargos ? ` · ${titulosLargos} títulos que no caben en una línea` : "")

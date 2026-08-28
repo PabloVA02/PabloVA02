@@ -10356,6 +10356,31 @@ button {
   min-height: 0;
 }
 
+/* ---- LA PÁGINA SIN FOTOGRAFÍA -------------------------------------------
+   Cuando la historia lleva `soloPortada`, las páginas de dentro no tienen
+   banda de imagen: no es que quede vacía, es que no se pinta. Entonces la
+   hoja es lo único que hay en la columna y tiene que quedarse con todo.
+
+   `flex: 1 1 auto` y no `0 1 auto`, para que la hoja se quede con la columna
+   entera en vez de medir lo que mida su texto y dejar el resto en blanco.
+
+   Y ARRIBA, NO ABAJO. En las páginas con foto el texto cuelga del pie
+   —`.short-cuerpo { margin-top: auto }`— porque encima tiene la fotografía,
+   que es la que sube o baja. Sin fotografía ese margen automático empuja el
+   párrafo al suelo y deja media pantalla vacía por arriba, que es la mitad
+   que sí se mira. Aquí el texto empieza arriba y el aire que sobre queda
+   debajo del rayo, que es donde se lee como final y no como olvido.
+
+   El aire de arriba lo pone ella, que antes se lo daba la fotografía: sin
+   nada encima, la primera línea empezaba pegada al filo de la pantalla, por
+   debajo del hueco de la cámara. 13cqw es lo mismo que se reservó para el pie
+   de la portada por el mismo motivo. */
+.muro-hoja[data-sinfoto="true"] {
+  flex: 1 1 auto;
+  padding-top: 13cqw;
+}
+.muro-hoja[data-sinfoto="true"] .short-cuerpo { margin-top: 0; }
+
 /* En las pantallas bajas ceden los suelos, y en el mismo orden de siempre:
    la fotografía antes que el texto. */
 @media (max-height: 700px) {
@@ -10434,6 +10459,79 @@ button {
 
 .muro-entrada,
 .short-cuerpo { font-size: calc(var(--medida, 4.55cqw) * var(--ajuste, 1)); }
+
+/* Los párrafos de dentro. El texto de Pablo viene en párrafos y hay que
+   respetarlos: son suyos y marcan dónde respira. El aire entre ellos es medio
+   renglón —no uno entero— porque en una pantalla de móvil un párrafo cada
+   cincuenta palabras con salto completo se lee como una lista de frases
+   sueltas en vez de como una explicación seguida. */
+.short-cuerpo p { margin: 0 0 0.72em; }
+.short-cuerpo p:last-child { margin-bottom: 0; }
+
+/* Y las listas. Van con sangría francesa y el punto fuera del renglón, que es
+   como están en el texto que llega: el punto marca dónde empieza cada cosa y
+   las líneas siguientes se alinean con la primera letra, no con el punto.
+   Se pinta con `::before` y no con el `list-style` del navegador para poder
+   ponerle el color del acento sin teñir también el texto. */
+.short-cuerpo ul {
+  margin: 0 0 0.72em;
+  padding: 0;
+  list-style: none;
+}
+.short-cuerpo li {
+  position: relative;
+  margin-bottom: 0.5em;
+  padding-left: 3.6cqw;
+}
+.short-cuerpo li:last-child { margin-bottom: 0; }
+.short-cuerpo li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: color-mix(in srgb, var(--acento, var(--ochre)) 88%, var(--ink));
+}
+
+/* ---- 5b. La caja del rayo ----------------------------------------------
+   El destacado de cada pantalla, que en el texto de Pablo va marcado con un
+   rayo y es «una por tarjeta».
+
+   ES LA MISMA CAJA QUE LA DE LOS RESÚMENES (`.lee-idea`) Y NO OTRA COSA
+   PARECIDA: sin recuadro, solo el icono a la izquierda y la sangría, y lo que
+   la separa del párrafo es el aire. Aquí hubo un `.short-destacado` con
+   fondo, filete y esquinas redondeadas —está unas siete mil líneas más
+   arriba, de la maqueta vieja— y no se reutiliza a propósito: una chapa con
+   borde dentro de una pantalla que ya es una tarjeta se lee como una tarjeta
+   dentro de otra. En el resumen el rayo se sostiene con aire, y aquí también.
+
+   Lo único que cambia respecto de la del resumen son las medidas, que van en
+   `cqw` porque esta pantalla escala con el ancho del teléfono y aquella no.
+   El azul es el mismo, #2f9bff: es el color del rayo en toda la app.
+
+   NO ENCOGE CON `--ajuste`. Cuando un texto se pasa de largo, lo que cede es
+   el párrafo; el rayo es la conclusión de la pantalla y encogerlo con el
+   resto lo dejaría más pequeño que el cuerpo justo donde tiene que pesar
+   más. */
+.short-idea {
+  display: flex;
+  gap: 3.4cqw;
+  margin-top: 5.6cqw;
+}
+.short-idea-rayo {
+  flex: none;
+  margin-top: 0.6cqw;
+  color: #2f9bff;
+}
+.short-idea-rayo svg { display: block; width: 4.8cqw; height: 4.8cqw; }
+.short-idea p {
+  margin: 0;
+  font-family: var(--serifa);
+  font-size: 4.55cqw;
+  line-height: 1.42;
+  font-weight: 600;
+  letter-spacing: -0.006em;
+  color: var(--ink);
+  text-wrap: pretty;
+}
 
 .muro-entrada::first-letter { font-size: 2.97em; }
 

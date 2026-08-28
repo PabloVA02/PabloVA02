@@ -1,66 +1,70 @@
 import type { Short } from "../shorts";
 
 /* ==========================================================================
-   Curiosidades. VACÍO A PROPÓSITO, ESPERANDO EL TEXTO DE PABLO.
+   CURIOSIDADES — el texto lo escribe Pablo, aquí se maqueta
 
-   El 27 de agosto por la noche cambiamos de manera de trabajar, y esto no es
-   un borrado: es el hueco donde va lo siguiente.
+   Los dos primeros llegaron el 28 de agosto de 2026 en un zip, con su LEEME:
+   «aquí tienes el texto de dos temas; elimina las imágenes de esos temas
+   menos las de la portada y pones el texto solo».
 
-   Pablo: «vamos a hacer una cosa mejor: primero te preparo yo el texto y te
-   lo paso; por lo tanto quita las imágenes y, en base al texto, ponemos las
-   imágenes».
+   QUÉ SE HA HECHO CON SU TEXTO: NADA. Ni una palabra cambiada, ni una
+   quitada, ni una añadida. Lo único que se ha decidido aquí es POR DÓNDE SE
+   PARTE en pantallas, que es una decisión de maqueta y no de redacción, y se
+   ha tomado siguiendo su propia instrucción: «ni una tarjeta debe requerir
+   scroll interno: si no cabe, se parte, nunca se recorta el texto». Los
+   cortes caen siempre entre párrafos suyos, nunca dentro de uno.
 
-   POR QUÉ ES MEJOR, Y NO SOLO DISTINTO. Hasta ahora yo escribía y luego
-   buscaba fotografías que ilustraran lo escrito, y ese orden tiene un vicio
-   escondido: cuando una foto buena no aparece, la tentación es torcer el
-   texto hacia la foto que sí existe. Con el texto cerrado antes de abrir
-   Commons, el texto manda y la fotografía obedece. Es el mismo orden que ya
-   pedía `MOLDE.md` para las pantallas —«primero se cuenta la historia lo
-   mejor posible, y después se ajusta»— llevado un paso más atrás.
+   Un guion en Python leyó los dos `.md`, los partió por la lista de cortes
+   escrita a mano y comprobó dos cosas antes de escribir esto: que cada
+   párrafo aparece EXACTAMENTE UNA VEZ —ninguno perdido, ninguno repetido— y
+   que los rayos colocados son tantos como los que traía el texto.
 
-   QUÉ HAY QUE HACER CUANDO LLEGUE EL TEXTO DE PABLO
+   CÓMO SE LEE SU FORMATO AQUÍ
 
-   1. Se lee entero y se corta en pantallas por donde deje algo colgando. El
-      número de páginas es un resultado, no una decisión previa.
-   2. Se pasa por `MOLDE.md`: la respuesta primero, frases de quince a
-      veinticinco palabras, ninguna de más de treinta y cinco, los términos
-      explicados en la frase en que aparecen, tres cifras por pantalla como
-      mucho. Si algo choca con lo que escribió Pablo, MANDA LO QUE ESCRIBIÓ
-      PABLO: se le dice y se le pregunta, no se le corrige por la espalda.
-   3. Una fotografía por pantalla, buscada YA con el texto delante, y cada
-      una tiene que enseñar algo que su párrafo no puede. Hoja de contacto
-      antes de elegir: `scripts/foto.mjs buscar` y `scripts/contacto.mjs`.
-   4. Ficha con autor y licencia comprobados, nunca de memoria:
-      `node scripts/foto.mjs ficha "File:…"`.
+     # Título        → `titulo`, tal cual, sin frase de apoyo
+     ## Sección      → `rotulo`. Ver abajo: se guarda y NO se pinta
+     párrafo         → `<p>` dentro de `texto`
+     • viñeta        → `<li>` dentro de un `<ul>`
+     **negrita**     → `<strong>`;  *cursiva* → `<em>`
+     > rayo          → `destacado`, la caja del rayo al pie de su pantalla
+     ¿Sabías que…?   → un párrafo más, y va solo en su pantalla
 
-   LO QUE HABÍA AQUÍ, POR SI HACE FALTA RESCATARLO. Cuatro shorts escritos y
-   reescritos durante el día —«¿Cuánto le queda al sol?», «Por qué llueve»,
-   «Por qué vuelan los aviones» y «Por qué el mar es salado»—, con sus quince
-   fotografías de Commons ya fichadas. Están enteros en el commit `931c152`, y
-   sus fotografías siguen siendo buenas aunque el texto cambie:
+   LOS RÓTULOS SE GUARDAN Y NO SE PINTAN, y hay que decirlo porque es lo único
+   en lo que su LEEME y una instrucción anterior suya no coinciden. Su fichero
+   trae un título por tarjeta; el 27 por la noche pidió justo lo contrario:
+   «elimina los títulos esos de cada pantalla, no me gustan, estamos siempre
+   limitados al texto que poner». Manda lo último que dijo sobre la pantalla,
+   así que se guardan en `rotulo` —donde le sirven de esqueleto a quien
+   revise— y no se ven. Encenderlos es una línea en `CuerpoPagina`.
 
-       git show 931c152:prototipo-microaprendizaje/src/historias/curiosidades.ts
+   Y LA FOTOGRAFÍA, SOLO EN LA PORTADA: es `soloPortada: true`. Las páginas de
+   dentro no llevan banda de imagen, y de ahí sale el sitio para textos de
+   ciento cuarenta palabras.
 
-   La maqueta no se ha tocado y sigue lista: banda de imagen elástica, sin
-   rótulos, la letra a una sola medida. En cuanto haya texto, se ve.
+   LAS FUENTES que da su LEEME, para que no se pierdan con la conversación:
+   · Sol — Quanta Magazine (luminosidad) · Schröder y Smith 2008, MNRAS 386,
+     155 (gigante roja y engullimiento) · Esseldeurs et al. vía Space.com ·
+     arXiv 2409.10714 (extensión de la biosfera).
+   · Bostezos — Gallup y Gallup, Frontiers in Neuroscience 2012 (hipótesis
+     termorreguladora y experimentos de Provine) · Communications Biology
+     2021, s42003-021-02019-y (1.291 bostezos de 101 especies) · Current
+     Biology, mayo de 2026, vía Smithsonian (contagio prenatal).
+
+   LAS OTRAS DOS —«Por qué vuelan los aviones» y «Por qué llueve»— siguen con
+   la portada puesta y `paginas: []`, esperando su texto.
    ========================================================================== */
 
-/* UNA SOLA HISTORIA, Y ES UNA MUESTRA. Está aquí para poder mirar la portada
-   nueva —fotografía a sangre y el título encima, sin nada más—, que es lo que
-   Pablo pidió el 27 por la noche: «pon la imagen y el título solo, de momento,
-   y las demás páginas con el texto». Sin una historia dentro no hay portada
-   que juzgar.
-
-   Sale del commit 931c152 tal cual, texto y fotografías. En cuanto llegue el
-   texto de Pablo, esta se sustituye: el suyo manda. */
 export const CURIOSIDADES: Short[] = [
   {
-    id: "al-sol-le-queda-media-vida",
-    titulo: "¿Cuánto le queda al sol?",
-    gancho:
-      "No se apagará como una bombilla: se hinchará hasta tragarse la órbita de la Tierra.",
+    id: "cuanto-le-queda-al-sol",
+    /* El título es el suyo, letra por letra. El que había —«¿Cuánto le queda
+       al sol?»— lo escribí yo en agosto y era una pregunta; el suyo afirma
+       menos y promete igual, y sobre todo es el que él eligió. */
+    titulo: "Cuánto le queda al Sol",
     categoria: "Ciencia",
     color: "var(--ochre)",
+    soloPortada: true,
+    textoDePablo: true,
     encargo: "El disco solar entero en ultravioleta, con la corona erizada de arcos.",
     fotos: [
       {
@@ -73,83 +77,318 @@ export const CURIOSIDADES: Short[] = [
         foco: "50% 50%",
         alt: "El disco del Sol en amarillo cálido, con la corona erizada de arcos brillantes alrededor del ecuador y una franja oscura cerca del polo sur.",
       },
-      /* Las tres de dentro las puse yo y son provisionales hasta que Pablo
-         mande las suyas. Las tres pasan el examen de la foto: cada una enseña
-         justo lo que cuenta su página. */
-      {
-        archivo: "NSF’s Inouye Solar Telescope First Light (NSO-DKIST-firstlight-full).jpg",
-        autor:
-          "Cada celda de gas hirviendo del Sol mide como un país. Telescopio Solar Inouye, 2020. NSO/NSF/AURA.",
-        licencia: "CC BY 4.0",
-        fuente:
-          "https://commons.wikimedia.org/wiki/File:NSF%E2%80%99s_Inouye_Solar_Telescope_First_Light_(NSO-DKIST-firstlight-full).jpg",
-        foco: "50% 50%",
-        alt: "La superficie del Sol vista muy de cerca: celdas doradas apretadas como panales, separadas por surcos oscuros.",
-      },
-      {
-        archivo: "The Blue Marble, AS17-148-22727.jpg",
-        autor:
-          "La Tierra entera iluminada, fotografiada por la tripulación del Apolo 17 camino de la Luna el 7 de diciembre de 1972. NASA.",
-        licencia: "Public domain",
-        fuente: "https://commons.wikimedia.org/wiki/File:The_Blue_Marble,_AS17-148-22727.jpg",
-        foco: "50% 50%",
-        alt: "La Tierra sobre el negro del espacio, con África y la Antártida a la vista bajo remolinos de nubes blancas.",
-      },
-      {
-        archivo: "NGC7293 (2004).jpg",
-        autor:
-          "La nebulosa de la Hélice: lo que dejó al morir una estrella como el Sol. Hubble, 2004. NASA y ESA.",
-        licencia: "Public domain",
-        fuente: "https://commons.wikimedia.org/wiki/File:NGC7293_(2004).jpg",
-        foco: "50% 50%",
-        alt: "Un anillo enorme de gas azul y anaranjado sobre el fondo negro del espacio, con un punto blanco diminuto en el centro.",
-      },
     ],
-    entrada:
-      "Al Sol le queda más o menos la mitad: lleva ardiendo cuatro mil seiscientos millones de años y tiene cuerda para otros cinco mil. En una vida humana, cuarenta y tantos. Lo sabemos desde 1938, cuando el físico Hans Bethe explicó de qué vive. Pero lo inquietante no es cuándo se apagará, sino cuándo dejará de servirnos.",
+    /* Las tres de dentro —la superficie granulada del Inouye, la Tierra del
+       Apolo 17 y la nebulosa de la Hélice— se han ido de aquí porque Pablo
+       pidió que se fueran, no porque fueran malas. Están enteras, con su ficha
+       y su licencia comprobadas, en el commit 04fd2c2:
+           git show 04fd2c2:prototipo-microaprendizaje/src/historias/curiosidades.ts */
     paginas: [
       {
-        rotulo: "Un fuego que engorda",
+        rotulo: "El Sol tiene mucho más tiempo por delante que nosotros",
         texto:
-          "Para saber cuánto le queda hay que saber qué quema, y no es fuego. En el centro del Sol la presión es tan bestia que los núcleos de hidrógeno se aplastan unos contra otros hasta fundirse en helio. Cada fusión suelta un golpe de energía que tarda cien mil años en abrirse camino hasta la superficie. Lo que importa es la ceniza: el helio pesa más que el hidrógeno, se va acumulando en el centro y lo aprieta todavía más, así que el horno quema cada vez más fuerte. El Sol de hoy alumbra un tercio más que el que vio nacer a la Tierra. Y sigue subiendo. Ese engorde tan lento parece inofensivo, pero es una cuenta atrás.",
+          "<p>¿Alguna vez has mirado al Sol y te has preguntado cuánto tiempo le queda? La " +
+          "mayoría de nosotros damos por sentado que estará ahí siempre, o al menos durante tanto " +
+          "tiempo que no merece la pena pensarlo. Y en parte es cierto: a nuestra estrella le " +
+          "quedan unos cinco mil millones de años por delante.</p><p>Pero hay un detalle que lo " +
+          "cambia todo. La Tierra habitable, este planeta con agua líquida y con plantas y " +
+          "animales, tiene un plazo mucho más corto: alrededor de mil millones de años. Cinco " +
+          "veces menos. Son dos relojes distintos, y el nuestro corre mucho más rápido.</p>",
       },
       {
-        rotulo: "Nos toca antes",
+        rotulo: "El Sol tiene mucho más tiempo por delante que nosotros",
         texto:
-          "Y la cuenta atrás no acaba donde uno pensaría. Al Sol le quedan cinco mil millones de años, pero a nosotros nos queda la quinta parte. Dentro de unos mil millones, ese brillo de más bastará para que los océanos empiecen a evaporarse en serio. Y aquí viene la parte fea: el vapor de agua atrapa calor. Cuanta más agua suba al cielo, más se calentará todo, y cuanto más se caliente, más agua subirá. La Tierra no va a arder. Se va a secar, girando tan tranquila alrededor de un sol que desde fuera seguirá pareciendo amable. De todo el tiempo que este planeta tenía para la vida, cuatro quintas partes ya han pasado.",
+          "<p>Para entender por qué, hay que aceptar algo que cuesta: el Sol no es una bombilla " +
+          "de intensidad fija. Se está volviendo más <strong>brillante</strong>, y lleva " +
+          "haciéndolo desde el día mismo en que se encendió.</p><p>El motivo está en su centro. " +
+          "Allí dentro el hidrógeno se fusiona en helio, y el helio resultante ocupa menos " +
+          "espacio que el hidrógeno del que procede, así que el núcleo se va comprimiendo poco a " +
+          "poco bajo su propio peso. Al comprimirse se calienta, al calentarse fusiona más " +
+          "deprisa, y al fusionar más deprisa alumbra más. Es un bucle que se alimenta a sí mismo " +
+          "y para el que no existe ningún freno posible.</p>",
+        destacado: {
+          tipo: "frase",
+          frase:
+            "El Sol no necesita morir para acabar con la vida en la Tierra. Le basta con seguir " +
+            "haciendo exactamente lo que lleva haciendo desde el principio.",
+        },
       },
       {
-        rotulo: "El último acto",
+        rotulo: "El Sol tiene mucho más tiempo por delante que nosotros",
         texto:
-          "Lo que viene después ya no es problema nuestro: es un espectáculo. Cuando el núcleo agote el hidrógeno, el Sol hará algo que suena contradictorio: el centro se encogerá y las capas de fuera se hincharán muchísimo. Se convertirá en una gigante roja que se tragará a Mercurio y a Venus. Con la Tierra la cosa está tan justa que puede acabar de las dos maneras. Al final soltará sus capas al espacio y quedará el corazón desnudo, una brasa del tamaño de nuestro planeta que se irá enfriando durante billones de años. Para entonces hará muchísimo que aquí abajo no queda nadie a quien alumbrar.",
+          "<p>¿Sabías que…? Cuando se formó la Tierra, el Sol brillaba un treinta por ciento " +
+          "menos que hoy. Si pusiéramos nuestro planeta actual, con esta misma atmósfera, bajo " +
+          "aquella estrella más apagada, la temperatura media sería de siete grados bajo cero y " +
+          "estaría congelado de polo a polo. La vida no empezó bajo un sol como el nuestro, sino " +
+          "bajo uno mucho más tibio, y lleva cuatro mil quinientos millones de años con la " +
+          "calefacción subiendo despacio.</p>",
+      },
+      {
+        rotulo: "El final no llegará por fuego, sino por asfixia",
+        texto:
+          "<p>Cuando pensamos en el final de la vida en la Tierra, casi todos imaginamos lo " +
+          "mismo: un planeta reseco, los océanos hirviendo y todo achicharrado bajo un sol " +
+          "implacable. Es una imagen poderosa, pero llega mucho más tarde de lo que creemos. Lo " +
+          "primero que ocurre es bastante más silencioso, y las primeras en caer serán las " +
+          "plantas.</p><p>El mecanismo es indirecto, y por eso resulta tan difícil de anticipar. " +
+          "A medida que el Sol calienta, la roca de los continentes se erosiona más deprisa, y " +
+          "esa erosión consume dióxido de carbono del aire. Se trata de una reacción química que " +
+          "lleva miles de millones de años funcionando como el termostato del planeta: cuanto más " +
+          "calor hace, más rápido trabaja, y más CO₂ retira de la atmósfera. Es, en buena medida, " +
+          "lo que nos ha mantenido templados todo este tiempo.</p>",
+      },
+      {
+        rotulo: "El final no llegará por fuego, sino por asfixia",
+        texto:
+          "<p>El problema es que las plantas necesitan ese mismo CO₂ para hacer la " +
+          "<strong>fotosíntesis</strong>. Es, literalmente, su comida. Y llega un punto en que el " +
+          "termostato ha limpiado el aire de carbono hasta un nivel en el que ya no pueden seguir " +
+          "alimentándose. Con ellas se cae todo lo que depende de ellas, que en tierra firme es " +
+          "prácticamente todo.</p><p>El cálculo clásico sitúa ese momento dentro de unos mil " +
+          "millones de años. Sin embargo, trabajos recientes lo alargan hasta cerca de mil " +
+          "ochocientos millones y, de paso, cambian la causa de la muerte: las plantas no " +
+          "llegarían a quedarse sin comida, sino que se detendrían de puro calor, por encima de " +
+          "los sesenta y cinco grados. Los océanos hierven bastante más tarde, aunque para " +
+          "entonces ya no quedará nadie para verlo.</p>",
+        destacado: {
+          tipo: "frase",
+          frase:
+            "El mismo termostato que ha mantenido templada a la Tierra durante miles de millones " +
+            "de años es lo que acabará dejando a las plantas sin nada que respirar.",
+        },
+      },
+      {
+        rotulo: "Antes de apagarse, el Sol se volverá enorme",
+        texto:
+          "<p>Todo lo anterior ocurrirá con un Sol todavía normal, en plena forma. Su propio " +
+          "final llega mucho después, y no se parece en nada a apagarse.</p><p>Cuando por fin " +
+          "agote el hidrógeno de su núcleo, el Sol hará justo lo contrario: se hinchará. Se " +
+          "convertirá en una <strong>gigante roja</strong> de unas doscientas cincuenta y seis " +
+          "veces su tamaño actual, lo que significa que su superficie llegará más lejos de donde " +
+          "ahora mismo orbita la Tierra.</p><p>Mercurio será el primero en desaparecer. Venus le " +
+          "seguirá unos dos millones y medio de años después. Y un millón de años más tarde le " +
+          "tocará el turno a nuestra órbita, dentro de siete mil quinientos noventa millones de " +
+          "años.</p><p>Lo que no está tan claro es qué se va a encontrar ahí cuando llegue.</p>",
+        destacado: {
+          tipo: "frase",
+          frase:
+            "El Sol no se irá apagando poco a poco. Antes de eso crecerá hasta ser más grande que " +
+            "la órbita en la que hoy gira la Tierra.",
+        },
+      },
+      {
+        rotulo: "La Tierra estará a punto de escapar",
+        texto:
+          "<p>Aquí ocurre algo que parece escrito por un guionista, y es la parte más fascinante " +
+          "de toda la historia.</p><p>Para poder hincharse tanto, el Sol tiene que soltar lastre. " +
+          "Perderá alrededor de un tercio de su masa, expulsada al espacio en forma de un viento " +
+          "lento y continuo durante millones de años. Y menos masa significa menos gravedad: su " +
+          "agarre sobre los planetas se irá aflojando poco a poco.</p><p>Así que las órbitas se " +
+          "abren. La Tierra empezará a alejarse, empujada hacia fuera por la propia decadencia de " +
+          "la estrella que viene a devorarla. Y aquí está lo interesante: ese efecto, por sí " +
+          "solo, bastaría para salvarla. La órbita crecería lo justo para quedar por fuera del " +
+          "Sol hinchado.</p>",
+      },
+      {
+        rotulo: "La Tierra estará a punto de escapar",
+        texto:
+          "<p>Sin embargo, hay una segunda fuerza tirando en sentido contrario. La gigante roja " +
+          "levantará mareas sobre la Tierra, igual que la Luna las levanta hoy sobre nuestros " +
+          "océanos, y esas mareas frenarán al planeta y lo irán arrastrando hacia dentro. Además, " +
+          "para entonces la atmósfera exterior del Sol llegará tan lejos que la Tierra tendrá que " +
+          "atravesarla, rozando y perdiendo velocidad.</p><p>Dos fuerzas opuestas, y el desenlace " +
+          "depende de cuál de las dos gane por muy poco.</p><p>El cálculo más citado, publicado " +
+          "en 2008, concluye que ganan las mareas: la Tierra sería engullida medio millón de años " +
+          "antes de que el Sol alcance su tamaño máximo. Medio millón de años, después de haber " +
+          "aguantado siete mil quinientos millones. Por muy poco.</p>",
+      },
+      {
+        rotulo: "La Tierra estará a punto de escapar",
+        texto:
+          "<p>Pero modelos más recientes calculan que ese tirón hacia dentro es más débil de lo " +
+          "que se creía, y devuelven a la Tierra a la lista de supervivientes. La cuestión no " +
+          "está resuelta. La incertidumbre simplemente se ha mudado de sitio: ahora depende de " +
+          "cuánta masa pierda exactamente el Sol, que es justo lo que todavía no sabemos medir " +
+          "bien en estrellas como la nuestra.</p>",
+        destacado: {
+          tipo: "frase",
+          frase:
+            "Sabemos con precisión la fecha de la cita entre el Sol y la Tierra. Todavía no " +
+            "sabemos cómo termina.",
+        },
+      },
+      {
+        rotulo: "Lo que quede seguirá enfriándose más tiempo del que lleva existiendo el universo",
+        texto:
+          "<p>De lo que no hay ninguna duda es de lo que quedará al final.</p><p>Cuando el Sol " +
+          "termine de deshacerse, dejará atrás su propio corazón: una bola de materia comprimida, " +
+          "más o menos del tamaño de la Tierra, con la masa de media estrella metida dentro. Es " +
+          "lo que los astrónomos llaman una <strong>enana blanca</strong>.</p><p>Ahí ya no se " +
+          "fusiona nada. No hay motor, no hay combustible, no queda absolutamente nada por " +
+          "quemar. Lo único que hará durante el resto del tiempo es enfriarse, muy " +
+          "despacio.</p><p>Y se enfría tan despacio que todavía no ha terminado ninguna. En todo " +
+          "el universo observable no existe una sola enana blanca apagada del todo, sencillamente " +
+          "porque el universo no lleva existiendo el tiempo suficiente para que a ninguna le haya " +
+          "dado tiempo.</p><p>El Sol acabará siendo una brasa. Una brasa que seguirá ahí, cada " +
+          "vez más tenue, mucho después de que se hayan apagado todas las cosas que hoy sabemos " +
+          "nombrar.</p>",
       },
     ],
   },
-
-  /* LAS TRES SIGUIENTES SON PORTADA Y NADA MÁS, Y ESO ES LO QUE SE PIDIÓ.
-
-     Pablo, el 28: «ponme la portada así pero de ahora en varios temas: por
-     qué los aviones vuelan, por qué llueve, por qué bostezamos. No pongas el
-     texto, que eso te lo paso yo ahora; solo quiero ver la portada. Ten en
-     cuenta que la portada debe ser bonita, de buena calidad y que se ajuste
-     bien a los límites de imagen que tenemos, para que no salga muy cortada y
-     quede fea».
-
-     Así que `paginas` va vacía a propósito. No falta nada: falta su texto, y
-     lo escribe él.
-
-     CÓMO SE HAN ELEGIDO LAS TRES FOTOGRAFÍAS, que es la parte que pidió.
-     El marco de la portada es la pantalla entera —375x812, o sea 0,46 de
-     proporción—, que es una vertical muy estrecha. Una foto apaisada normal,
-     de 3:2, pierde ahí el setenta por ciento de su ancho, y eso no se ve
-     mirando la foto: se ve después, ya recortada y fea. De modo que ninguna
-     de estas se ha juzgado entera. Se han bajado las candidatas y se han
-     mirado YA RECORTADAS al marco de verdad, con `scripts/recorte.mjs`, que
-     se ha escrito para esto. Sobre las quince que se probaron, mandan tres
-     cosas: que el asunto caiga dentro de la columna central, que quede sitio
-     arriba para el título sin taparle nada, y que del original queden más de
-     mil píxeles de ancho después del recorte, para que en una pantalla de
-     tres veces la densidad siga sin verse blanda. */
+  {
+    id: "por-que-bostezamos",
+    titulo: "Por qué bostezamos",
+    categoria: "Cuerpo humano",
+    color: "var(--ochre)",
+    soloPortada: true,
+    textoDePablo: true,
+    encargo: "Un bostezo entero, de perfil, ocupando la pantalla.",
+    fotos: [
+      {
+        /* Un gato y no una persona a propósito: el bostezo lo hacen todos los
+           vertebrados, y eso es media respuesta a la pregunta del título. Su
+           texto lo dice en la primera frase —«lo hacen las aves, los reptiles
+           y todos los mamíferos»—, así que la portada ya no es solo bonita:
+           es lo primero que cuenta. */
+        archivo: "Tabby cat-yawning-01.jpg",
+        autor: "Un gato atigrado bostezando, abril de 2008. Fotografía de Hisashi.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Tabby_cat-yawning-01.jpg",
+        foco: "50% 40%",
+        alt: "Un gato atigrado de perfil con la boca abierta de par en par en mitad de un bostezo, los colmillos y la lengua a la vista y el fondo desenfocado.",
+      },
+    ],
+    paginas: [
+      {
+        rotulo: "Bostezamos todos los días y nadie sabe por qué",
+        texto:
+          "<p>¿Cuántas veces has bostezado hoy? Seguramente más de las que recuerdas. Es uno de " +
+          "los comportamientos más extendidos que existen: lo hacen las aves, los reptiles y " +
+          "todos los mamíferos, y nosotros empezamos a hacerlo mucho antes de nacer.</p><p>Y sin " +
+          "embargo, no sabemos para qué sirve.</p><p>No es una forma de hablar ni una " +
+          "exageración. Después de décadas de estudios, la ciencia todavía no tiene una respuesta " +
+          "con consenso. Hay hipótesis, algunas bastante sólidas, pero ninguna se ha impuesto del " +
+          "todo. Es de esas cosas que hacemos a diario y que siguen siendo, en el sentido literal " +
+          "de la palabra, un misterio.</p><p>Lo que sí sabemos con certeza es que buena parte de " +
+          "lo que nos han contado sobre el bostezo es falso.</p>",
+        destacado: {
+          tipo: "frase",
+          frase:
+            "Bostezamos desde antes de nacer y lo compartimos con casi todos los animales de " +
+            "sangre caliente, pero seguimos sin saber para qué sirve.",
+        },
+      },
+      {
+        rotulo: "La explicación del oxígeno lleva décadas desmentida",
+        texto:
+          "<p>Si le preguntas a cualquiera por qué bostezamos, te dirá lo mismo: porque al cuerpo " +
+          "le falta oxígeno y el bostezo sirve para coger una bocanada grande de aire. Es la " +
+          "respuesta que se enseña en los colegios y la que repite casi todo el mundo. También es " +
+          "la que se desmontó hace décadas.</p><p>El psicólogo Robert Provine hizo el experimento " +
+          "evidente. Si la teoría fuese cierta, respirar aire cargado de oxígeno debería reducir " +
+          "los bostezos, y respirar aire con más dióxido de carbono debería dispararlos. Probó " +
+          "las dos cosas.</p><p>No pasó nada. Ni el oxígeno extra los redujo, ni el CO₂ los " +
+          "aumentó. Después lo intentó con ejercicio físico, que duplica el ritmo respiratorio, y " +
+          "el resultado fue el mismo: la gente respiraba el doble y bostezaba exactamente igual " +
+          "que antes.</p>",
+      },
+      {
+        rotulo: "La explicación del oxígeno lleva décadas desmentida",
+        texto:
+          "<p>La conclusión es incómoda pero clara. El bostezo y la respiración funcionan por " +
+          "mecanismos distintos, y uno no está ahí para arreglar al otro.</p><p>Hay además un " +
+          "detalle que remata el asunto. Los fetos bostezan dentro del útero, cuando sus pulmones " +
+          "todavía no funcionan y el oxígeno les llega por el cordón umbilical. Difícilmente " +
+          "pueden estar cogiendo aire.</p>",
+        destacado: {
+          tipo: "frase",
+          frase:
+            "Respirar oxígeno puro no reduce los bostezos, y respirar dióxido de carbono no los " +
+            "aumenta. Bostezar no tiene nada que ver con el aire que te falta.",
+        },
+      },
+      {
+        rotulo: "La hipótesis más sólida es que el bostezo funciona como un radiador",
+        texto:
+          "<p>Entonces, ¿qué pasa realmente cuando bostezas? La explicación que más fuerza ha " +
+          "ganado en los últimos años es también la más inesperada: <strong>el bostezo sirve para " +
+          "enfriarte el cerebro.</strong></p><p>El cerebro es un órgano caro. Consume una enorme " +
+          "cantidad de energía, genera mucho calor como consecuencia, y solo funciona bien dentro " +
+          "de un margen de temperatura bastante estrecho. La hipótesis " +
+          "<strong>termorreguladora</strong> propone que el bostezo es, literalmente, un sistema " +
+          "de refrigeración: al abrir la mandíbula del todo se estiran los músculos de la cara y " +
+          "aumenta el flujo de sangre hacia la cabeza, entra de golpe una bocanada de aire más " +
+          "fresco que el cuerpo, y de paso se ventilan los senos nasales.</p>",
+      },
+      {
+        rotulo: "La hipótesis más sólida es que el bostezo funciona como un radiador",
+        texto:
+          "<p>Suena inventado, pero las pruebas se van acumulando:</p><ul><li>Enfriar la frente " +
+          "reduce los bostezos contagiosos. Respirar por la nariz, que también baja la " +
+          "temperatura del cerebro, los reduce igual.</li><li>En ratas, la temperatura cerebral " +
+          "sube justo antes del bostezo y baja inmediatamente después.</li><li>En personas con " +
+          "bostezos excesivos, la temperatura oral cae unos 0,4 grados tras el " +
+          "episodio.</li><li>La frecuencia de bostezos aumenta con la temperatura ambiente, pero " +
+          "se desploma cuando el aire de fuera se acerca a la temperatura corporal. Tiene " +
+          "sentido: si el aire ya no está más frío que tú, ventilar no sirve de nada.</li></ul>",
+      },
+      {
+        rotulo: "La hipótesis más sólida es que el bostezo funciona como un radiador",
+        texto:
+          "<p>¿Sabías que…? El estudio más grande que se ha hecho jamás sobre el tema analizó " +
+          "1.291 bostezos de 101 especies distintas, entre mamíferos y aves. Encontró que cuanto " +
+          "mayor es el cerebro de un animal, y cuantas más neuronas tiene, más dura su bostezo. " +
+          "Un mamífero de cerebro medio bosteza unos 3,4 segundos; un ave, apenas 1,5. Encaja " +
+          "exactamente con lo que predice la teoría: un cerebro más grande necesita más tiempo de " +
+          "ventilación.</p>",
+        destacado: {
+          tipo: "frase",
+          frase:
+            "Cuanto más grande es el cerebro de un animal, más largo es su bostezo. Es una de las " +
+            "pruebas más elegantes de que bostezar sirve para enfriarlo.",
+        },
+      },
+      {
+        rotulo: "El contagio es un misterio aparte",
+        texto:
+          "<p>Hay una segunda cosa rara en los bostezos, y es que se pegan. Probablemente hayas " +
+          "bostezado ya una o dos veces leyendo esto. Basta con ver a alguien bostezar, o con " +
+          "oírlo, o incluso con leer la palabra, para que se dispare la respuesta.</p><p>Y " +
+          "conviene entender que el contagio no es un detalle del primer misterio, sino un " +
+          "misterio distinto. Aunque bostezar sirva para enfriar tu cerebro, eso no explica en " +
+          "absoluto por qué el bostezo de otra persona tendría que enfriar el tuyo.</p><p>La " +
+          "pista que más se maneja apunta a lo social. El contagio es bastante más fuerte entre " +
+          "personas cercanas —familia, pareja, amigos— que entre desconocidos, lo que sugiere que " +
+          "está enganchado a los mecanismos de empatía y de sincronización dentro de un " +
+          "grupo.</p>",
+      },
+      {
+        rotulo: "El contagio es un misterio aparte",
+        texto:
+          "<p>Y en mayo de 2026 llegó el dato más desconcertante hasta la fecha. Un equipo " +
+          "publicó en <em>Current Biology</em> un experimento con 38 embarazadas en el tercer " +
+          "trimestre: les pusieron vídeos de gente bostezando mientras observaban al feto por " +
+          "ecografía. El 64 % de las madres bostezó viendo los vídeos. Y alrededor del 53 % de " +
+          "los fetos bostezó después, normalmente al minuto y medio de haberlo hecho su " +
+          "madre.</p><p>Es un estudio pequeño, y los propios autores admiten que no saben cómo " +
+          "ocurre —¿por el movimiento?, ¿por alguna señal hormonal?— ni si esos bostezos " +
+          "prenatales sirven para algo en absoluto.</p><p>Así que la situación, resumida, es " +
+          "esta: hacemos algo constantemente, empezamos a hacerlo antes de nacer, se nos contagia " +
+          "de los demás, y seguimos sin saber por qué ninguna de las tres cosas.</p>",
+        destacado: {
+          tipo: "frase",
+          frase:
+            "El contagio del bostezo empieza antes de nacer. Los fetos bostezan poco después de " +
+            "que lo haga su madre, y nadie sabe todavía cómo.",
+        },
+      },
+    ],
+  },
+  /* Y las dos que solo tienen portada, esperando el texto de Pablo. Se
+     eligieron sus fotografías el 28 de agosto por la mañana, juzgando cada
+     candidata YA RECORTADA al marco de la portada con `scripts/recorte.mjs`:
+     375x812 es 0,46 de proporción, y una apaisada normal pierde ahí el setenta
+     por ciento de su ancho. */
   {
     id: "por-que-vuelan-los-aviones",
     titulo: "Por qué vuelan los aviones",
@@ -193,33 +432,6 @@ export const CURIOSIDADES: Short[] = [
         fuente: "https://commons.wikimedia.org/wiki/File:Rain_Droplets.jpg",
         foco: "50% 50%",
         alt: "Un cristal cubierto de gotas de lluvia de todos los tamaños, con los edificios de una ciudad desenfocados al otro lado.",
-      },
-    ],
-    paginas: [],
-  },
-  {
-    id: "por-que-bostezamos",
-    titulo: "Por qué bostezamos",
-    categoria: "Cuerpo humano",
-    color: "var(--ochre)",
-    encargo: "Un bostezo entero, de perfil, ocupando la pantalla.",
-    fotos: [
-      {
-        /* Un gato y no una persona a propósito: el bostezo lo hacen todos los
-           vertebrados, hasta los peces, y esa es media respuesta a la
-           pregunta del título. Puesta ya la foto en el marco, es además la
-           que mejor cae: el original es vertical (2136x3216), el perfil se
-           queda entero en la columna central y arriba sobra cielo para el
-           título. La otra finalista era el autorretrato bostezando de Joseph
-           Ducreux, de 1783, que es dominio público y precioso; se quedó fuera
-           porque un óleo al lado de la fotografía del Sol cambia el tono de
-           la sección. */
-        archivo: "Tabby cat-yawning-01.jpg",
-        autor: "Un gato atigrado bostezando, abril de 2008. Fotografía de Hisashi.",
-        licencia: "CC BY-SA 2.0",
-        fuente: "https://commons.wikimedia.org/wiki/File:Tabby_cat-yawning-01.jpg",
-        foco: "50% 40%",
-        alt: "Un gato atigrado de perfil con la boca abierta de par en par en mitad de un bostezo, los colmillos y la lengua a la vista y el fondo desenfocado.",
       },
     ],
     paginas: [],

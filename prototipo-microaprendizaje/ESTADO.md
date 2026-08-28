@@ -6,18 +6,77 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 
 | | hecho | queda |
 |---|---|---|
-| shorts escritos | **0** | el muro espera el texto de Pablo, ver abajo |
-| portadas de short listas, sin texto | **3** | aviones, lluvia y bostezo |
+| shorts con el texto de Pablo | **2** | el Sol y los bostezos |
+| portadas de short listas, sin texto | **2** | aviones y lluvia |
 | libros en el catálogo | 418 | |
 | libros con resumen escrito a mano | **400** | 18 para el catálogo entero |
 | cubiertas dibujadas por Pablo | **309** | 109 para el catálogo entero |
 | emoticonos de las metas | 11 de 16 | Pablo manda los cinco que faltan |
 | resúmenes antiguos generados | 0 | 0 |
 
-## EL MURO ESPERA EL TEXTO DE PABLO — 27 de agosto de 2026, por la noche
+## LLEGÓ EL PRIMER TEXTO DE PABLO — 28 de agosto de 2026
 
-**No hay ninguna historia escrita, y es a propósito.** `curiosidades.ts` está
-vacío esperando. Pablo cambió la manera de trabajar al final del día:
+Un zip con dos temas y su LEEME: *«aquí tienes el texto de dos temas; elimina
+las imágenes de esos temas menos las de la portada y pones el texto solo»*.
+Están montados y publicados. El original de los `.md` está guardado en
+**`referencia/textos-de-pablo/`**, con su README: es la única manera de
+comprobar dentro de un mes que lo que hay en el código dice lo que él escribió.
+
+| | secciones suyas | palabras | pantallas |
+|---|---|---|---|
+| Cuánto le queda al Sol | 5 | 1.156 | 10 |
+| Por qué bostezamos | 4 | 861 | 8 |
+
+**De su texto no se ha tocado nada.** Ni una palabra cambiada, quitada ni
+añadida. Lo único que se decide al maquetar es POR DÓNDE SE PARTE, que es
+decisión de maqueta y no de redacción, y se toma siguiendo su propia regla:
+«ni una tarjeta debe requerir scroll interno: si no cabe, se parte, nunca se
+recorta el texto». Los cortes caen siempre entre párrafos suyos.
+
+### Lo que ha habido que cambiar en la app para que quepa
+
+1. **`soloPortada: true`** — la fotografía es solo la de la portada y las
+   páginas van SIN banda de imagen. No basta con dejar una foto: `fotoDe()`
+   reparte la de la portada a las pantallas que no tienen la suya, así que
+   una historia con una sola foto la enseñaría diez veces. Y quitando la banda
+   es de donde sale el sitio: se comía entre el 26 y el 36 % del alto.
+2. **Se acabó el tope de páginas.** Eran de dos a cinco, que era la medida de
+   cuando los shorts los escribía yo. Con el tope puesto, la única manera de
+   montar 1.156 palabras era recortarle el texto, que es lo que él prohíbe.
+   Queda el suelo de dos y un aviso a partir de catorce.
+3. **Vuelve la caja del rayo**, porque sus textos la traen: un destacado por
+   tarjeta, marcado con `> ⚡`. Es la misma caja que la de los resúmenes —sin
+   recuadro, el icono y la sangría— y no la chapa con filete de la maqueta
+   vieja. Lo que la separa del párrafo es el aire.
+4. **Párrafos y listas dentro de una pantalla.** El cuerpo pasó de `<p>` a
+   `<div>`: sus textos vienen en párrafos y a veces con viñetas, y las dos
+   cosas son etiquetas de bloque que dentro de un `<p>` el navegador cierra
+   por su cuenta.
+5. **`textoDePablo: true`** — `revisa-shorts.mjs` NO mide esas historias. Ese
+   guion comprueba el MOLDE, que es cómo escribo yo, y pasárselo a un texto
+   suyo es corregirle por la espalda. Lo suyo se comprueba en otro sitio:
+   `validar.mjs` mira lo que no es redacción y `scripts/aire.mjs` mide en el
+   móvil que ninguna pantalla se salga.
+
+### `scripts/aire.mjs`, que es el que decide los cortes
+
+Dice, pantalla por pantalla, cuántas palabras lleva, si la letra ha tenido que
+encoger y cuántos renglones vacíos quedan debajo. **Sin banda de imagen caben
+unas 178 palabras, o 165 si la pantalla lleva rayo.** Las dieciocho pantallas
+de los dos temas caben a su tamaño, con `ajuste: 1` en todas.
+
+### LO ÚNICO EN QUE SU LEEME Y ÉL NO COINCIDEN: los rótulos
+
+Su fichero trae un título por tarjeta. El 27 por la noche pidió lo contrario:
+«elimina los títulos esos de cada pantalla, no me gustan, estamos siempre
+limitados al texto que poner». Manda lo último que dijo **sobre la pantalla**,
+así que sus títulos se guardan en `rotulo` —donde le sirven de esqueleto a
+quien revise— y no se pintan. Encenderlos es una línea en `CuerpoPagina`.
+
+## CÓMO SE TRABAJABA HASTA AQUÍ — 27 de agosto de 2026, por la noche
+
+Pablo cambió la manera de trabajar al final de ese día, y sigue siendo la de
+ahora:
 
 > «Vamos a hacer una cosa mejor: primero te preparo yo el texto y te lo paso;
 > por lo tanto quita las imágenes y, en base al texto, ponemos las imágenes.»
@@ -27,25 +86,22 @@ cuando una foto buena no aparecía la tentación era torcer el texto hacia la
 foto que sí existía. Con el texto cerrado antes de abrir Commons, manda el
 texto.
 
-**Qué hacer cuando llegue su texto**: está escrito en la cabecera de
-`src/historias/curiosidades.ts`, paso por paso. En resumen: cortarlo en
-pantallas por donde deje algo colgando, pasarlo por `MOLDE.md` sin
-corregirle nada por la espalda, y buscar una fotografía por pantalla con el
-texto ya delante.
+**Qué hacer cuando llegue el siguiente**: está escrito arriba y, con más
+detalle, en la cabecera de `src/historias/curiosidades.ts`. En resumen:
+guardar el original en `referencia/textos-de-pablo/`, cortarlo entre sus
+párrafos midiendo con `scripts/aire.mjs`, y NO pasarlo por el molde —eso es
+para lo que escribo yo—.
 
-**Lo que había, por si hay que rescatarlo.** Durante el día se escribieron y
-reescribieron cuatro shorts —el sol, la lluvia, los aviones y el mar— con
-quince fotografías de Commons ya fichadas, y se afinó la maqueta hasta
-dejarla como está. Todo eso vive en el commit `931c152`:
+**Lo que se borró aquel día, por si hay que rescatarlo.** Se escribieron y
+reescribieron cuatro shorts míos —el sol, la lluvia, los aviones y el mar—
+con quince fotografías de Commons ya fichadas. El texto se tiró al llegar el
+suyo; las fotografías siguen siendo buenas:
 
     git show 931c152:prototipo-microaprendizaje/src/historias/curiosidades.ts
 
-Las fotografías siguen siendo buenas aunque el texto cambie, así que si Pablo
-manda un texto del sol o de la lluvia, lo primero es mirar allí.
-
-**La maqueta NO se ha tocado y está lista**: banda de imagen elástica, sin
-rótulos, una sola medida de letra, el pie de foto sobre la imagen. Todo lo
-que se decidió hoy sigue en pie; lo único que falta es texto.
+Y las tres de dentro del Sol —la superficie del Inouye, la Tierra del Apolo 17
+y la nebulosa de la Hélice—, que se quitaron el 28 porque Pablo pidió solo
+portada, están en el commit `04fd2c2`.
 
 ## TRES PORTADAS SIN TEXTO — 28 de agosto de 2026
 
@@ -194,7 +250,7 @@ tres avisos en una sola visita.
 
 | | |
 |---|---|
-| `scripts/foto.mjs` | buscar (solo con sello), todo, categoria, ficha, ver |
+| `scripts/foto.mjs` | buscar, todo, categoria, ficha, ver |
 | `scripts/coteja-fotos.mjs` | que el código diga la verdad de cada imagen |
 | `scripts/cabe.mjs` | si un título entra en una línea |
 | `scripts/hueco.mjs` | cuánto aire queda bajo el texto de las portadas |
@@ -202,6 +258,16 @@ tres avisos en una sola visita.
 | `scripts/fotos-al-vuelo.mjs` | sirve las fotos al navegador de pruebas |
 | `scripts/revisa-shorts.mjs` | el molde, con `--flojos` para lo pendiente |
 | `scripts/recorte.mjs` | las candidatas **ya recortadas al marco de la portada** |
+| `scripts/aire.mjs` | si cada pantalla cabe, y cuánto hueco deja debajo |
+
+Aquí ponía que `buscar` filtraba «solo con sello» y no es verdad: filtra por
+`filetype:bitmap` y nada más. El sello de calidad —Quality image, Featured
+picture— es un filtro del buscador de Commons en la web, y es el que le sirve
+a Pablo cuando busca fotografías él: **License en «All licenses»** —todas las
+de Commons nos valen y la licencia la comprueba `foto.mjs ficha`—, **Image
+size en «Large»** —la portada recorta a 0,46 de proporción y hace falta ancho
+de sobra— y **Community Assessments en «Quality image»**, que es el sello que
+la propia comunidad le pone a las fotografías técnicamente buenas.
 
 **Chromium no llega a Commons desde aquí**: el proxy le corta la conexión. Por
 eso existe `fotos-al-vuelo.mjs`, que las baja con curl y se las entrega. Sin
