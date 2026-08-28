@@ -11126,6 +11126,65 @@ button {
 }
 
 
+/* ---- LA FRANJA DE ABAJO ------------------------------------------------
+   Cincuenta y seis puntos de aire entre el final del texto y la barra de
+   pestañas, con el número de pantalla a un lado y la flecha al otro. Los pidió
+   Pablo el 28 de agosto, y con dos trabajos: dar aire —el texto llegaba pegado
+   a la barra— y avisar de que hay más páginas, que era lo único que no se
+   descubría del lector.
+
+   `flex: none` y alto fijo: es lo que hace que se le descuente del cuerpo, que
+   va con `flex: 1`. Ver el comentario del JSX.
+
+   SOBRIA Y FINA, NO UNA BARRA DE BOTONES. Es literal: «su trabajo es dar aire
+   y avisar de que hay más, no llamar la atención». Así que ni fondo, ni línea
+   de separación, ni recuadro alrededor de la flecha: dos signos tenues en los
+   extremos y el resto, aire. */
+.muro-franja {
+  flex: none;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  /* Ni un punto de relleno lateral: se alinean con el texto, que es lo que los
+     ata a la página en vez de dejarlos flotando. La hoja ya pone sus 16. */
+  padding: 0;
+  user-select: none;
+}
+/* El «3 / 7». En la de palo seco y no en la de leer: es un dato de interfaz,
+   no texto de la historia, y con remates competiría con el párrafo de arriba.
+   Las cifras, tabulares, para que el número no baile de ancho al pasar de la
+   9 a la 10. */
+.muro-franja-n {
+  font-family: var(--sans);
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  font-variant-numeric: tabular-nums;
+  color: color-mix(in srgb, currentColor 42%, transparent);
+}
+/* La flecha: del tamaño del dedo para poder pulsarla, pero dibujada pequeña.
+   El área de toque se estira con relleno hacia dentro, no agrandando el signo:
+   así se puede acertar sin que se vea un botón. */
+.muro-franja-mas {
+  font-family: var(--sans);
+  font-size: 19px;
+  line-height: 1;
+  padding: 12px 0 12px 20px;
+  background: none;
+  border: 0;
+  color: color-mix(in srgb, currentColor 52%, transparent);
+  cursor: pointer;
+  transition: color 0.18s ease, transform 0.18s ease;
+}
+.muro-franja-mas:hover,
+.muro-franja-mas:focus-visible {
+  color: color-mix(in srgb, currentColor 84%, transparent);
+  transform: translateX(2px);
+}
+/* Y la copia de la franja en la hoja de medir: inerte, como el pie. */
+.muro-franja-medida .muro-franja-mas { pointer-events: none; }
+
 /* La copia del pie dentro de la hoja de medir: sirve para leer cuánto sitio le
    quita a la última pantalla y no se ve nunca —la hoja entera es invisible—.
    Los botones van como `span` inertes, con la misma clase, para que midan lo
