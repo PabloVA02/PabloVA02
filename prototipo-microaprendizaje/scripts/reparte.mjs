@@ -1,28 +1,29 @@
 /* ==========================================================================
-   REPARTE EN PANTALLAS UN TEXTO DE PABLO, LLENÁNDOLAS HASTA ABAJO
+   REPARTE EN PANTALLAS UN TEXTO DE PABLO, LLENÁNDOLAS HASTA EL BORDE
 
        node --experimental-strip-types scripts/reparte.mjs \
             referencia/textos-de-pablo/cuanto-le-queda-al-sol.md > /tmp/corte.json
 
-   POR QUÉ EXISTE. Los cortes los elegía yo a ojo, mirando cuántas palabras
-   tenía cada párrafo, y salían pantallas medio vacías. Pablo, el 28 de
-   agosto: «el texto debe bajar hasta abajo; en muchas páginas hay un montón
-   de hueco, debes ajustarlo hasta abajo del todo para que quede mejor y más
-   bonito».
+   POR QUÉ EXISTE. Los cortes los elegía yo a ojo y salían pantallas medio
+   vacías. Pablo, el 28 de agosto: «el texto no está ajustado abajo; me da
+   igual que el texto se corte, pero debe estar ajustado abajo, y que quede
+   todo ajustado abajo, todas las páginas».
 
-   A ojo no se puede: lo que cabe no depende de las palabras sino de cómo
-   caen los renglones, y eso solo lo sabe el navegador. Así que esto abre la
-   app de verdad, mete el HTML candidato en una pantalla de verdad y pregunta
-   si se sale. Va añadiendo bloques mientras quepan y cierra la pantalla en el
-   último que entró. Es el mismo reparto que hace un libro de papel.
+   A ojo no se puede: lo que cabe no depende de las palabras sino de cómo caen
+   los renglones, y eso solo lo sabe el navegador. Así que esto abre la app de
+   verdad, mete el HTML candidato en una pantalla de verdad y pregunta si se
+   sale.
 
-   DOS REGLAS QUE NO SON DE MEDIDA
-   · Un subtítulo nunca se queda de último bloque de una pantalla: un título
-     con nada debajo es un renglón colgando. Se pasa a la siguiente.
-   · Y una pantalla no puede quedarse en un solo bloque si ese bloque es el
-     subtítulo. Esto no llega a pasar por lo anterior, y está por si acaso.
+   Y CORTA POR PALABRAS, NO POR PÁRRAFOS, que es lo que cambió el 28 por la
+   tarde. Repartiendo por bloques enteros, la última pantalla de cada sección
+   se quedaba con lo que sobrara: de siete renglones de hueco para arriba.
+   Ahora un párrafo puede terminar a media pantalla y seguir en la siguiente,
+   igual que en un libro de papel, y entonces TODAS llegan al borde. El texto
+   no se pierde ni se recorta: continúa.
 
-   El texto no se toca: los cortes van SIEMPRE entre bloques de Pablo.
+   Lo que no se parte nunca es un subtítulo ni una caja del rayo —son piezas
+   de una sola cosa— y un subtítulo tampoco se queda de último bloque de una
+   pantalla, que sería un título con nada debajo.
 
    Antes hay que construir y servir:
      npx vite build && python3 -m http.server 4173 --directory dist &
@@ -76,6 +77,66 @@ function bloques(md) {
 }
 
 const md = readFileSync(RUTA, "utf8");
+
+/* --- 1 bis. Los bloques, en ÁTOMOS ---------------------------------------
+
+   Un átomo es lo más pequeño que se puede dejar en una pantalla sin que el
+   corte quede mal:
+
+     · de un párrafo, cada palabra
+     · de una lista, cada punto
+     · un subtítulo o un rayo, enteros
+
+   Cada átomo sabe volver a montarse en HTML junto con los suyos, y ese es
+   todo el truco: la pantalla es una tirada de átomos y el HTML se arma al
+   final, cerrando y reabriendo el `<p>` o el `<ul>` en los cortes. */
+function atomos(lista) {
+  const fuera = [];
+  for (const [i, b] of lista.entries()) {
+    if (b.tipo === "parrafo") {
+      const dentro = b.html.replace(/^<p>|<\/p>$/g, "");
+      for (const palabra of dentro.split(" "))
+        fuera.push({ de: i, tipo: "parrafo", pieza: palabra, seccion: b.seccion });
+    } else if (b.tipo === "lista") {
+      for (const punto of b.html.replace(/^<ul>|<\/ul>$/g, "").split("</li>").filter(Boolean))
+        fuera.push({ de: i, tipo: "lista", pieza: punto + "</li>", seccion: b.seccion });
+    } else {
+      fuera.push({ de: i, tipo: b.tipo, pieza: b.html, seccion: b.seccion });
+    }
+  }
+  return fuera;
+}
+
+/** De vuelta a HTML: los átomos seguidos del mismo bloque se juntan. */
+function aHtml(trozo) {
+  let salida = "";
+  let abierto = null;
+  let acumulado = [];
+  const cierra = () => {
+    if (!abierto) return;
+    salida += abierto === "parrafo"
+      ? `<p>${acumulado.join(" ")}</p>`
+      : `<ul>${acumulado.join("")}</ul>`;
+    abierto = null;
+    acumulado = [];
+  };
+  let ultimoDe = null;
+  for (const a of trozo) {
+    if (a.tipo === "parrafo" || a.tipo === "lista") {
+      if (abierto && (abierto !== a.tipo || ultimoDe !== a.de)) cierra();
+      abierto = a.tipo;
+      ultimoDe = a.de;
+      acumulado.push(a.pieza);
+    } else {
+      cierra();
+      salida += a.pieza;
+      ultimoDe = a.de;
+    }
+  }
+  cierra();
+  return salida;
+}
+
 const lista = bloques(md);
 const titulo = /^# (.+)$/m.exec(md)?.[1] ?? "";
 
@@ -84,7 +145,13 @@ const titulo = /^# (.+)$/m.exec(md)?.[1] ?? "";
 const nav = await chromium.launch({
   executablePath: process.env.CHROMIUM ?? "/opt/pw-browsers/chromium-1194/chrome-linux/chrome",
 });
-const pag = await nav.newPage({ viewport: { width: 390, height: 844 } });
+/* SE MIDE EN EL MÓVIL MÁS PEQUEÑO, no en el más cómodo. 375x812 es el de las
+   capturas que manda Pablo; el mirador se ve a 390 y la app llega a 430. Si el
+   reparto se calcula en el grande, en el pequeño el texto se sale y el ajuste
+   automático lo encoge, que es justo lo que él no quiere —la letra tiene que
+   medir lo mismo que en el libro—. Calculado en el pequeño, en los otros dos
+   sobra un renglón escaso y no se nota. */
+const pag = await nav.newPage({ viewport: { width: 375, height: 812 } });
 await pag.goto("http://127.0.0.1:4173/?p=shorts", { waitUntil: "networkidle" });
 await pag.waitForTimeout(2200);
 /* A una pantalla de texto: la portada no tiene `.short-cuerpo` donde medir. */
@@ -110,89 +177,110 @@ async function aire(html) {
   }, html);
 }
 
-/* --- 3. El reparto ---------------------------------------------------------
+/* --- 3. El reparto: cada pantalla, hasta el borde -------------------------
 
-   NO ES «METER HASTA QUE REVIENTE», que fue el primer intento y quedaba peor
-   que lo que había: llenaba las primeras hasta el borde y dejaba la última con
-   once renglones vacíos. Se llena por igual, que es lo que pidió Pablo.
+   Se avanza por átomos y se pregunta al navegador. Como cada pantalla lleva
+   entre cien y doscientas palabras, preguntar una por una serían miles de
+   viajes: se busca por bisección —cuánto cabe entre lo que ya sé que cabe y
+   lo que sé que no— y salen unos siete por pantalla.
 
-   Son dos pasos. Primero se mide, para cada bloque, hasta dónde se puede
-   llegar sin salirse: eso da todas las pantallas POSIBLES. Después, entre
-   todos los repartos que usan ese mismo número de pantallas —el mínimo—, se
-   elige el que reparte el hueco más parejo, penalizando el aire al cuadrado:
-   con el cuadrado, un reparto de 4+4+4 gana a uno de 0+1+11, que es
-   exactamente la diferencia que se ve en pantalla.
+   Los dos remates, después de saber dónde se corta:
+   · si el corte deja un subtítulo de último átomo, se retrocede hasta antes
+     del subtítulo;
+   · si deja un rayo o un subtítulo partido por la mitad —no puede pasar,
+     porque son átomos enteros— se retrocedería igual. */
 
-   Es el mismo criterio con el que se parten los renglones de un párrafo
-   justificado, aplicado a pantallas en vez de a líneas. */
+const trozos = atomos(lista);
+const M = trozos.length;
 
-const N = lista.length;
-/** Para cada bloque, hasta dónde llega una pantalla que empiece ahí. */
-const cabe = [];
-for (let i = 0; i < N; i++) {
-  const suyas = [];
-  for (let j = i + 1; j <= N; j++) {
-    const sobra = await aire(conGuiones(lista.slice(i, j).map((b) => b.html).join("")));
-    if (sobra < 0) break;
-    /* Un subtítulo nunca cierra una pantalla: un título con nada debajo es un
-       renglón colgando. */
-    if (lista[j - 1].tipo === "rotulo") continue;
-    suyas.push({ j, aire: sobra });
-  }
-  /* Si ni el primer bloque cabe —no pasa hoy, pero pasaría con un párrafo
-     larguísimo— se mete igual y que el ajuste de texto lo encoja. */
-  if (!suyas.length) suyas.push({ j: i + 1, aire: 0 });
-  cabe.push(suyas);
+async function cabeHasta(desde, hasta) {
+  return (await aire(conGuiones(aHtml(trozos.slice(desde, hasta))))) >= 0;
 }
 
-/** Mínimo número de pantallas desde el bloque i. */
-const cuantas = new Array(N + 1).fill(Infinity);
-cuantas[N] = 0;
-for (let i = N - 1; i >= 0; i--)
-  for (const { j } of cabe[i]) cuantas[i] = Math.min(cuantas[i], 1 + cuantas[j]);
-
-/** Con ese número fijo, el reparto de hueco más parejo. */
-const coste = new Array(N + 1).fill(Infinity);
-const salta = new Array(N + 1).fill(-1);
-coste[N] = 0;
-for (let i = N - 1; i >= 0; i--)
-  for (const { j, aire: a } of cabe[i]) {
-    if (1 + cuantas[j] !== cuantas[i]) continue;
-    const c = a * a + coste[j];
-    if (c < coste[i]) { coste[i] = c; salta[i] = j; }
-  }
-
 const paginas = [];
-for (let i = 0; i < N; i = salta[i]) paginas.push(lista.slice(i, salta[i]));
+let desde = 0;
+while (desde < M) {
+  /* Bisección: `bien` es el último final que sé que cabe, `mal` el primero
+     que sé que no. */
+  let bien = desde + 1;
+  let mal = M + 1;
+  /* Primero se dobla hacia arriba, para no empezar la bisección en 1..M
+     cuando una pantalla son doscientos átomos de dos mil. */
+  let salto = 32;
+  while (bien + salto <= M && (await cabeHasta(desde, bien + salto))) {
+    bien += salto;
+    salto *= 2;
+  }
+  mal = Math.min(M + 1, bien + salto);
+  while (mal - bien > 1) {
+    const medio = Math.floor((bien + mal) / 2);
+    if (await cabeHasta(desde, medio)) bien = medio;
+    else mal = medio;
+  }
+  let hasta = bien;
+  /* Un subtítulo no cierra una pantalla. */
+  while (hasta > desde + 1 && trozos[hasta - 1].tipo === "rotulo") hasta--;
+  paginas.push(trozos.slice(desde, hasta));
+  desde = hasta;
+}
+
+/* LA HUÉRFANA DEL FINAL. Llenando hasta el borde, lo que sobra al terminar el
+   texto cae entero en la última pantalla, y a veces son dos renglones: una
+   pantalla con dos renglones y el resto vacío no se lee como un final, se lee
+   como una avería.
+
+   Cuando pasa, se reparte el final entre las ÚLTIMAS N pantallas por igual, y
+   se prueba con dos, tres y cuatro: gana la que deja el hueco más pequeño en
+   la peor de ellas. Con dos salían dos pantallas a medias; con tres o cuatro,
+   el final baja despacio, que es como acaba un capítulo. */
+async function aireDe(p) {
+  return aire(conGuiones(aHtml(p)));
+}
+
+if (paginas.length >= 2 && (await aireDe(paginas[paginas.length - 1])) > 8) {
+  const juntas = [...paginas[paginas.length - 2], ...paginas[paginas.length - 1]];
+  let mejor = null;
+  /* Se prueba cada corte y gana el que iguala más los dos huecos, sin que
+     ninguna de las dos se salga. Se reparten DOS y no tres: con tres, el hueco
+     dejaba de estar al final y aparecía en medio de la tirada, que es peor.
+     Un final que baja en dos pantallas se lee como un final. */
+  for (let k = 1; k < juntas.length; k++) {
+    const a = await aireDe(juntas.slice(0, k));
+    if (a < 0) continue;
+    const b = await aireDe(juntas.slice(k));
+    if (b < 0) continue;
+    const dif = Math.abs(a - b);
+    if (!mejor || dif < mejor.dif) mejor = { k, dif };
+  }
+  if (mejor) paginas.splice(-2, 2, juntas.slice(0, mejor.k), juntas.slice(mejor.k));
+}
 
 const medidas = [];
-for (const p of paginas) medidas.push(+(await aire(conGuiones(p.map((b) => b.html).join("")))).toFixed(1));
+for (const p of paginas) medidas.push(+(await aire(conGuiones(aHtml(p)))).toFixed(1));
 await nav.close();
 
-/* --- 4. Comprobación: ni un bloque perdido ni repetido -------------------- */
+/* --- 4. Comprobación: ni una palabra perdida, repetida ni movida ---------- */
 const puestos = paginas.flat();
-if (puestos.length !== lista.length)
-  throw new Error(`${puestos.length} bloques repartidos de ${lista.length}`);
-for (const [i, b] of puestos.entries())
-  if (b.html !== lista[i].html) throw new Error(`el bloque ${i} se ha movido de sitio`);
+if (puestos.length !== M) throw new Error(`${puestos.length} átomos repartidos de ${M}`);
+for (const [i, a] of puestos.entries())
+  if (a.pieza !== trozos[i].pieza) throw new Error(`el átomo ${i} se ha movido de sitio`);
 
 const palabras = (h) => h.replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length;
 for (const [i, p] of paginas.entries())
   console.error(
-    `  ${String(i + 1).padStart(2)}  ${String(palabras(p.map((b) => b.html).join(" "))).padStart(3)} pal` +
-    `  aire ${String(medidas[i]).padStart(5)}  ${p.map((b) => b.tipo[0]).join("")}`,
+    `  ${String(i + 1).padStart(2)}  ${String(palabras(aHtml(p))).padStart(3)} pal` +
+    `  aire ${String(medidas[i]).padStart(5)}`,
   );
 console.error(`${titulo}: ${paginas.length} pantallas`);
 
 process.stdout.write(JSON.stringify({
   titulo,
   paginas: paginas.map((p) => ({
-    /* El rótulo se sigue guardando aunque ahora vaya pintado dentro del HTML:
-       le sirve de esqueleto a quien revise, y `validar.mjs` lo pide. En una
+    /* El rótulo se sigue guardando aunque vaya pintado dentro del HTML: le
+       sirve de esqueleto a quien revise, y `validar.mjs` lo pide. En una
        pantalla que empieza a media sección es el de la sección que viene
        arrastrando. */
     rotulo: p[0].seccion,
-    bloques: p.map((b) => b.tipo),
-    html: p.map((b) => b.html).join(""),
+    html: aHtml(p),
   })),
 }, null, 1));

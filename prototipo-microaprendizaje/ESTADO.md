@@ -24,8 +24,8 @@ comprobar dentro de un mes que lo que hay en el código dice lo que él escribi�
 
 | | secciones suyas | palabras | pantallas |
 |---|---|---|---|
-| Cuánto le queda al Sol | 5 | 1.156 | 9 |
-| Por qué bostezamos | 4 | 861 | 7 |
+| Cuánto le queda al Sol | 5 | 1.156 | 10 |
+| Por qué bostezamos | 4 | 861 | 8 |
 
 **De su texto no se ha tocado nada.** Ni una palabra cambiada, quitada ni
 añadida. Lo único que se decide al maquetar es POR DÓNDE SE PARTE, que es
@@ -94,6 +94,29 @@ noche había pedido «elimina los títulos esos de cada pantalla». Aquello era
 sobre unos rótulos míos de dos palabras que solo etiquetaban; los suyos son
 afirmaciones completas y son parte del texto.)
 
+### La letra, la del libro. En puntos y no en `cqw`
+
+Pablo, el 28 por la tarde, con veintitantas capturas de su lector: *«el tamaño
+del texto y de todo eso te he dicho que sea igual que como hacemos nosotros en
+los libros; tienes que hacerlo exactamente así»*.
+
+Tenía razón y el motivo era `cqw`. La medida del short escalaba con el ancho
+del móvil —4,55cqw— y la del libro es fija: en el suyo, de 375, el short medía
+17 y el libro 19. Ahora las páginas de texto llevan las medidas del lector
+copiadas en puntos:
+
+| | libro | short |
+|---|---|---|
+| párrafo | 19 / 27, margen 22 | igual |
+| subtítulo | 21 / 1,3, peso 700, #fff | igual |
+| lista | 19, sangría 17, hueco 12 | igual |
+| rayo | 19, sangría 8, margen 26 y 30 | igual |
+| margen lateral | 16 | igual |
+
+**Y sin justificar y sin partir palabras**, que es lo que hay en sus capturas y
+en el lector. El short justificaba y partía con guiones; las dos cosas se
+hicieron cuando el texto iba en cajas más estrechas, y en bandera sobran.
+
 ### `scripts/reparte.mjs`: el texto llena la pantalla hasta abajo
 
 En el mismo mensaje: *«el texto debe bajar hasta abajo, en muchas páginas hay
@@ -108,19 +131,31 @@ mete cada bloque en una pantalla de verdad y pregunta si se sale.
     node --experimental-strip-types scripts/reparte.mjs \
          referencia/textos-de-pablo/cuanto-le-queda-al-sol.md > /tmp/corte.json
 
-**Y no llena hasta reventar**, que fue el primer intento y quedaba peor: dejaba
-las primeras al borde y la última con once renglones vacíos. Entre todos los
-repartos que usan el MÍNIMO de pantallas, elige el que deja el hueco más
-parejo, penalizando el aire al cuadrado. Es el criterio con el que se parten
-los renglones de un párrafo justificado, aplicado a pantallas.
+**Y CORTA POR PALABRAS, NO POR PÁRRAFOS.** Es el cambio del 28 por la tarde y
+lo pidió él con todas las letras: *«me da igual que el texto se corte, pero
+debe estar ajustado abajo, y que quede todo ajustado abajo, todas las
+páginas»*. Repartiendo por bloques enteros, la última pantalla de cada sección
+se quedaba con lo que sobrara —de cinco a ocho renglones de hueco—, porque un
+párrafo de ochenta palabras entra entero o no entra. Ahora un párrafo puede
+terminar a media pantalla y seguir en la siguiente, como en un libro de papel,
+y entonces todas llegan al borde. **No se pierde ni se recorta nada: continúa.**
 
-Lo que eso permite —y es lo que hace que quepa— es que **una pantalla acabe
-una sección y empiece la siguiente**, con el subtítulo en medio, igual que una
-página de un libro de papel. Para eso el rayo tuvo que dejar de ir pegado al
-pie y pasar a ser un bloque más del flujo.
+Lo que no se parte nunca es un subtítulo ni una caja del rayo —son piezas de
+una sola cosa— y un subtítulo tampoco cierra una pantalla, que sería un título
+con nada debajo.
 
-Resultado: el Sol pasa de 10 pantallas a 9 y los bostezos de 8 a 7, y el hueco
-que queda debajo va de 0,7 a 7,9 renglones en vez de 1 a 16.
+Se mide en **375 × 812**, el móvil de sus capturas y el más pequeño de los
+tres. Calculado en el grande, en el pequeño el texto se saldría y el ajuste
+automático lo encogería, que es justo lo que él no quiere.
+
+**El final se reparte entre las dos últimas.** Llenando hasta el borde, lo que
+sobra al acabar el texto cae entero en la última y a veces son dos renglones:
+eso no se lee como un final, se lee como una avería. Se prueba cada corte de
+las dos últimas y gana el que iguala más los dos huecos.
+
+Resultado: **de las dieciocho pantallas, catorce quedan a menos de un renglón
+y medio del borde**; las que se quedan cortas son las dos del final de cada
+tema, que es donde el texto se acaba.
 
 ## CÓMO SE TRABAJABA HASTA AQUÍ — 27 de agosto de 2026, por la noche
 

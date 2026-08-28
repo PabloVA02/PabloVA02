@@ -14,8 +14,8 @@ texto solo».
 
 | fichero | secciones | palabras | pantallas en la app |
 |---|---|---|---|
-| `cuanto-le-queda-al-sol.md` | 5 | 1.156 | 9 |
-| `por-que-bostezamos.md` | 4 | 861 | 7 |
+| `cuanto-le-queda-al-sol.md` | 5 | 1.156 | 10 |
+| `por-que-bostezamos.md` | 4 | 861 | 8 |
 
 **Su norma de maquetación, que es la que manda sobre estos textos** (viene en
 el `LEEME.md`):
@@ -31,9 +31,11 @@ el `LEEME.md`):
 
 ## Lo único que se decide al maquetar: por dónde se parte
 
-Los cortes van siempre ENTRE bloques suyos, nunca dentro de uno, y no los
-elige nadie a ojo: los calcula `scripts/reparte.mjs` midiendo en la app de
-verdad. Mete cada bloque en una pantalla real, pregunta si se sale, y entre
+Los cortes los calcula `scripts/reparte.mjs` midiendo en la app de verdad, y
+desde el 28 por la tarde caen DONDE HAGA FALTA, incluso a media frase: Pablo
+lo pidió así —«me da igual que el texto se corte, pero debe estar ajustado
+abajo»—. Un párrafo que no cabe entero termina a media pantalla y sigue en la
+siguiente, como en un libro de papel. No se pierde ni se recorta nada. Mete cada bloque en una pantalla real, pregunta si se sale, y entre
 todos los repartos que usan el mínimo de pantallas elige el que deja el hueco
 más parejo. Antes de escribir nada comprueba que ningún bloque se ha perdido,
 repetido ni movido de sitio.

@@ -29,7 +29,9 @@ import { sirveFotos } from "./fotos-al-vuelo.mjs";
 const nav = await chromium.launch({
   executablePath: process.env.CHROMIUM ?? "/opt/pw-browsers/chromium-1194/chrome-linux/chrome",
 });
-const pag = await nav.newPage({ viewport: { width: 390, height: 844 } });
+/* En el mismo móvil en el que se calcula el reparto, 375x812, que es el de las
+   capturas de Pablo y el más pequeño de los tres. Ver `scripts/reparte.mjs`. */
+const pag = await nav.newPage({ viewport: { width: 375, height: 812 } });
 await sirveFotos(pag);
 await pag.goto("http://127.0.0.1:4173/?p=shorts", { waitUntil: "networkidle" });
 await pag.waitForTimeout(2500);
@@ -62,7 +64,7 @@ for (const n of cuales) {
   for (let p = 0; p < 24; p++) {
     if (p) {
       /* Tocar a la derecha avanza de página, igual que en `mirar.mjs`. */
-      await pag.mouse.click(390 * 0.8, 844 * 0.55);
+      await pag.mouse.click(375 * 0.8, 812 * 0.55);
       await pag.waitForTimeout(650);
     }
     const r = await pag.evaluate(() => {

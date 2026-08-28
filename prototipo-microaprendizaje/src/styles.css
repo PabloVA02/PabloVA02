@@ -10356,6 +10356,72 @@ button {
   min-height: 0;
 }
 
+/* ---- LA PÁGINA DE TEXTO ES UNA PÁGINA DEL LIBRO -------------------------
+   Pablo, el 28 de agosto: «el tamaño del texto y de todo eso te he dicho que
+   sea igual que como hacemos nosotros en los libros; te paso ejemplos, tienes
+   que hacerlo exactamente así».
+
+   Así que aquí no hay medidas nuevas: son las del lector de resúmenes
+   (`.lee-parrafo`, `.lee-rotulo`, `.lee-lista`, `.lee-idea`), copiadas EN
+   PUNTOS y no en `cqw`. Eso es lo que significa «igual»: en el libro el texto
+   mide 19 en un móvil de 375 y 19 en uno de 430, y con `cqw` medía 17 en el
+   suyo y 19,6 en otro. La caja de la pantalla sigue escalando; la letra, no.
+
+     párrafo    19 / 27, margen 22 abajo, #f4f2ee
+     subtítulo  21 / 1,3, peso 700, #fff, margen 6 y 22
+     lista      19 / 1,42, sangría 17, hueco 12
+     rayo       19 / 1,42, #fff, sangría 8, hueco 13, margen 26 y 30
+     margen lateral 16, que es el del lector
+
+   Y SIN JUSTIFICAR. El párrafo del short iba justificado y el del libro no;
+   las capturas que mandó Pablo son las suyas, y en todas el texto va en
+   bandera. Justificado, además, pelea con lo otro que pidió —llenar hasta
+   abajo—: al repartir el sobrante entre las palabras, dos páginas con el
+   mismo número de renglones no ocupan lo mismo. */
+.muro-hoja[data-sinfoto="true"] .short-cuerpo,
+.muro-hoja[data-sinfoto="true"] .short-cuerpo p,
+.muro-hoja[data-sinfoto="true"] .short-cuerpo li {
+  font-size: 19px;
+  line-height: 1.42;
+  text-align: left;
+}
+.muro-hoja[data-sinfoto="true"] .short-cuerpo {
+  color: #f4f2ee;
+  /* SIN PARTIR PALABRAS. El short parte con guiones —`src/silabas.ts` mete
+     guiones blandos y la hoja pone `hyphens: auto`—, y se hizo cuando el texto
+     iba justificado: sin partir, una palabra larga abría un hueco de dedos en
+     mitad del renglón. En bandera ya no hace falta, y en las capturas que
+     mandó Pablo no hay ni un guion. `none` apaga las dos cosas a la vez, la
+     automática y los guiones blandos que ya trae el texto. */
+  hyphens: none;
+  -webkit-hyphens: none;
+}
+.muro-hoja[data-sinfoto="true"] .short-cuerpo p { margin: 0 0 22px; }
+.muro-hoja[data-sinfoto="true"] .short-cuerpo p:last-child { margin-bottom: 0; }
+.muro-hoja[data-sinfoto="true"] .short-cuerpo h3 {
+  margin: 6px 0 22px;
+  font-size: 21px;
+  line-height: 1.3;
+}
+.muro-hoja[data-sinfoto="true"] .short-cuerpo ul { margin: 0 0 22px; }
+.muro-hoja[data-sinfoto="true"] .short-cuerpo li {
+  margin-bottom: 12px;
+  padding-left: 17px;
+}
+.muro-hoja[data-sinfoto="true"] .short-cuerpo blockquote.rayo {
+  gap: 13px;
+  margin: 26px 0 30px;
+  padding-left: 8px;
+}
+.muro-hoja[data-sinfoto="true"] .short-cuerpo blockquote.rayo::before {
+  width: 19px;
+  height: 19px;
+  margin-top: 4px;
+}
+/* En el libro la frase del rayo va del mismo peso que el párrafo: lo que la
+   separa es el icono, la sangría y el aire, no la negrita. */
+.muro-hoja[data-sinfoto="true"] .short-cuerpo blockquote.rayo p { font-weight: 400; }
+
 /* ---- LA PÁGINA SIN FOTOGRAFÍA -------------------------------------------
    Cuando la historia lleva `soloPortada`, las páginas de dentro no tienen
    banda de imagen: no es que quede vacía, es que no se pinta. Entonces la
@@ -10377,7 +10443,12 @@ button {
    de la portada por el mismo motivo. */
 .muro-hoja[data-sinfoto="true"] {
   flex: 1 1 auto;
-  padding-top: 13cqw;
+  /* Los márgenes del lector de resúmenes: 16 a los lados. Arriba se queda el
+     hueco de la cámara —el libro tiene su barra ahí y esta pantalla no— y
+     abajo, el sitio justo de la barra de pestañas y nada más: el texto tiene
+     que llegar hasta ella, que es lo que pidió Pablo. Los 6,4cqw que había de
+     colchón sobre la barra eran veinticuatro puntos de nada. */
+  padding: 13cqw 16px calc(14px + var(--barra, 64px));
 }
 .muro-hoja[data-sinfoto="true"] .short-cuerpo { margin-top: 0; }
 
