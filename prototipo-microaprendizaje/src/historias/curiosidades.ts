@@ -387,17 +387,39 @@ export const CURIOSIDADES: Short[] = [
     encargo: "El ala desde la ventanilla, entera y limpia, sobre el azul de crucero.",
     fotos: [
       {
-        /* De las cinco candidatas de avión era la única con las dos cosas: el
-           ala entrando en diagonal por abajo, que deja todo el cielo libre
-           para el título, y 4160x3120, o sea 1441 píxeles de ancho después de
-           recortar. El 747 visto desde tierra era más espectacular y se quedó
-           fuera por eso: 2200 de ancho no dan más que 693 recortados. */
-        archivo: "Airplane wing sky and clouds.jpg",
-        autor: "El ala de un avión de línea en vuelo de crucero, agosto de 2016. Fotografía de Tobias1984.",
-        licencia: "CC BY-SA 3.0",
-        fuente: "https://commons.wikimedia.org/wiki/File:Airplane_wing_sky_and_clouds.jpg",
-        foco: "50% 50%",
-        alt: "El ala gris de un avión cruzando en diagonal la parte baja de la imagen, con el azul intenso del cielo arriba y un manto de nubes blancas al fondo.",
+        /* LA ELIGIÓ PABLO, el 28 de agosto, y es mejor que la que había. Trae
+           los tres sellos de Commons a la vez —imagen de calidad, imagen
+           destacada en la Wikipedia inglesa e imagen del día el 14 de julio de
+           2024— y, lo que aquí decide, es VERTICAL: 3059x3642. Recortada al
+           marco de la portada quedan 1682 píxeles de ancho, que es holgado.
+
+           La de antes —el ala desde la ventanilla, de Tobias1984— era buena y
+           sigue en el commit 65c758d por si hace falta.
+
+           EL FOCO NO ES EL CENTRO. La formación cruza en diagonal y el título
+           se apoya abajo sobre su velo; centrada, los aviones de abajo quedan
+           debajo del titular y los de arriba se van fuera. Subido al 38 % la
+           formación entera cae en la mitad de arriba y el título se queda
+           sobre cielo limpio.
+
+           LA LICENCIA NO ES CREATIVE COMMONS. Commons la llama «Attribution» y
+           detrás hay una plantilla propia, {{Konflikty.pl}}: uso libre con
+           UNA condición, que se diga que la imagen sale de konflikty.pl.
+           (Avisar al autor «se agradece pero no es obligatorio», dice.) Por
+           eso el pie nombra a los dos, al fotógrafo y al sitio: sin
+           «Konflikty.pl» estaríamos incumpliéndola.
+
+           El campo `licencia` dice «Attribution» y no la condición, porque
+           `coteja-fotos.mjs` lo compara letra por letra con lo que responde
+           Commons: si aquí se escribe una explicación, esa comprobación deja
+           de poder hacerse. La condición se cumple donde tiene que cumplirse,
+           que es en el pie que se publica. */
+        archivo: "Patrouille de France Radom 3 1.JPG",
+        autor: "La Patrouille de France en el festival aéreo de Radom, 28 de agosto de 2011. Fotografía de Łukasz Golowanow, Konflikty.pl.",
+        licencia: "Attribution",
+        fuente: "https://commons.wikimedia.org/wiki/File:Patrouille_de_France_Radom_3_1.JPG",
+        foco: "50% 38%",
+        alt: "Nueve reactores de la patrulla acrobática francesa volando en formación cerrada contra un cielo azul pálido, con las estelas de humo azul, blanco y rojo cruzando la imagen.",
       },
     ],
     paginas: [],

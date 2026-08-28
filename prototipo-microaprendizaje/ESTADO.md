@@ -216,6 +216,25 @@ nota debajo de las letras y no oscurece un tercio de la fotografía.
 · **Ninguna frase de más de 35 palabras**, media entre 15 y 20. Lo comprueba
   `revisa-shorts.mjs`, y en la última tanda cazó seis.
 
+## CÓMO ME PASA PABLO UNA FOTOGRAFÍA — 28 de agosto de 2026
+
+Preguntó si valía con pegar la dirección de la miniatura de Commons. **Vale**,
+y es la manera más cómoda: de una dirección como
+
+    …/thumb/6/65/Patrouille_de_France_Radom_3_1.JPG/960px-…JPG?utm_source=…
+
+sale el nombre del fichero, y con el nombre se pide a Commons **el original a
+tamaño completo** con su autor y su licencia. La miniatura de 960 no se usa
+nunca. También valen el nombre a secas y la dirección de la página del fichero.
+
+**Y la licencia se comprueba siempre, aunque la foto la elija él.** Esta es el
+ejemplo de por qué: Commons la llama «Attribution» y detrás hay una plantilla
+propia, `{{Konflikty.pl}}`, que pide una cosa concreta —que se diga que la
+imagen sale de konflikty.pl—. Dando por hecho que era Creative Commons
+habríamos publicado un pie incompleto. El campo `licencia` guarda lo que
+responde Commons, letra por letra, porque `coteja-fotos.mjs` lo compara; la
+condición se cumple en el pie, que es donde se publica.
+
 ## LO PRIMERO: la foto tiene que ser bonita
 
 Es la petición más repetida de Pablo y la que más veces se ha incumplido:
