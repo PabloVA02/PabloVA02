@@ -1313,6 +1313,13 @@ Los cuatro sitios, y qué va en cada uno:
    `mcp__Google_Drive__create_file` pasando el texto entero; para binarios
    grandes no sirve.
 
+   **Y SIN CONVERTIR: `disableConversionToGoogleType: true`.** Sin esa bandera
+   el conector convierte un `text/markdown` en documento de Google, y entonces
+   `fileSize` vale 1 —los ficheros nativos de Google no tienen tamaño— así que
+   la comprobación de abajo deja de servir justo cuando más falta hace. Pasó el
+   28 de agosto por la noche: se subió, se vio el 1, se volvió a subir con la
+   bandera y salió 2.519, y el convertido se mandó a la papelera.
+
    **Y hay que comprobar el tamaño después de subir.** El `ESTADO.md` que hay
    allí del 27 por la mañana pesa 8,5 kB y el de verdad pesa 50: se subió un
    resumen, no el documento, y por fuera no se distingue —tiene el mismo
@@ -1320,6 +1327,19 @@ Los cuatro sitios, y qué va en cada uno:
    no tener copia. La manera de saberlo es un `wc -c` del fichero local y
    mirar el `fileSize` que devuelve la llamada: el `MOLDE.md` subido ese día
    da 24.012 en los dos sitios, y por eso se sabe que está entero.
+   **Lo que hay hoy en esa carpeta, con su tamaño:** `MOLDE.md` de 24.012 (el
+   de verdad ya son 35.165), `REDACCION.md` de 48.834 del 22 de agosto (el de
+   verdad son 54.643), y una nota nueva del 28 por la noche —«Curva, dónde está
+   cada copia»— que dice el commit, los dos artefactos y los tamaños de los
+   cinco documentos, para poder comprobar cualquier copia de un vistazo. Esa
+   nota está escrita de cero, no copiada, que es la única manera de que sea
+   exacta.
+
+   Y el fichero de 8,5 kB que se llamaba «ESTADO.md — Curva, 27 de agosto» se
+   ha **renombrado** a «RESUMEN PARCIAL, NO es el ESTADO.md». Estaba mintiendo
+   por el nombre, que es el fallo del que avisa el párrafo de arriba, y
+   renombrarlo cuesta una llamada.
+
 3. **El chat con Pablo.** Un `tar.gz` de la fuente enviado por el chat es la
    copia que sobrevive a todo, porque queda en su dispositivo. **La lista de
    exclusiones ha crecido y hay que respetarla entera**, porque cada una de
@@ -1330,8 +1350,19 @@ Los cuatro sitios, y qué va en cada uno:
            --exclude=fotos-cache --exclude=movil.html --exclude=shorts.html \
            --exclude='prototipo-microaprendizaje/referencia' \
            --exclude='prototipo-microaprendizaje/cubiertas-originales' \
+           --exclude='prototipo-microaprendizaje/originales' \
            --exclude='prototipo-microaprendizaje/docs' --exclude='*.mp4' \
-           -czf <ruta>/curva-<fecha>.tar.gz prototipo-microaprendizaje CLAUDE.md
+           -czf <ruta>/curva-<fecha>.tar.gz prototipo-microaprendizaje CLAUDE.md .claude
+
+   **`originales/` se excluye desde el 28 de agosto por la noche**, y es la
+   única exclusión que NO es de una carpeta reconstruible: son las fotografías
+   sin procesar que manda Pablo. Con ellas el paquete pasa de 27 a 58 MB, que
+   por el chat ya no va, y están enteras en GitHub —commiteadas a propósito,
+   ver el `.gitignore`—. Si algún día GitHub deja de ser la copia buena, esta
+   exclusión se cae la primera.
+
+   **Y `.claude` entra**, que antes no: ahí vive la hoja de paginado, y es tan
+   difícil de reconstruir como el `REDACCION.md`.
 
    El 27 de agosto salían 19 MB. Sin excluir `cubiertas-originales` (44 MB de
    PNG archivados) son 35, y sin excluir además `docs/` son 80. Los 19 que
