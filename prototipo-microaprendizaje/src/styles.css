@@ -10675,10 +10675,61 @@ button {
      franja de la rayita en los que no tienen botón—. Sin sumarla, en un
      iPhone la última línea queda debajo del gesto de inicio. */
   --medidor-lado: 16px;
-  /* Abajo: la barra —que ya lleva dentro el área segura— y EL RESPIRO, que es
-     un número puesto a mano y no el residuo de una cuenta. Veinte puntos: lo
-     justo para que la última línea no toque la barra. */
-  padding: 13cqw 16px calc(20px + var(--barra));
+
+  /* ---- LOS MÁRGENES, COMO LOS DE UN LIBRO --------------------------------
+     Pablo, el 28 de agosto: «olvida cualquier regla anterior sobre franjas
+     reservadas o alturas fijas en la parte de abajo; quiero los márgenes de un
+     libro normal y corriente, nada más». Y las cuatro condiciones:
+
+       · el mismo a izquierda y a derecha;
+       · el de abajo igual o algo mayor que el de arriba, nunca menor;
+       · fijos e idénticos en TODAS las páginas del short —ni calculados por
+         página ni recortados para que quepa una línea más—;
+       · el indicador de página dentro del margen de abajo, sin añadir alto.
+
+     Que sean idénticos en todas las páginas es lo que más cambia por dentro:
+     antes la última tenía menos sitio, porque los botones de «Guardar» iban en
+     el flujo y empujaban al texto. Eso obligaba al reparto a saber cuál era la
+     última pantalla para medirla distinta, con una copia del pie en la hoja de
+     medir y una regla que no convergía. Ahora los botones van DENTRO del
+     margen de abajo, como el indicador, así que la caja de texto mide lo mismo
+     en la primera y en la última y todo aquello sobra.
+
+     EL DE ABAJO SALE DE LOS BOTONES, y la cifra está medida, no elegida. El
+     bloque de «Guardar / Compartir / Siguiente short» mide 87 puntos y se apoya
+     8 por encima de la barra, así que su borde de arriba queda a 159 del suelo
+     de la hoja. La caja de texto acaba a `margen + barra`. Para que los botones
+     no toquen el texto ni en una última pantalla llena:
+
+         margen + 64 ≥ 159 + respiro     →     margen ≥ 95 + respiro
+
+     Con 116 quedan veinte puntos de aire. Con los cien de la primera versión
+     los botones pisaban el texto por dos puntos y medio: no se veía porque
+     aquella última pantalla iba medio vacía, y se habría visto el día que una
+     llegara llena.
+
+     Sale un margen de pie que es 2,2 veces el de cabeza. En un libro eso es
+     normal —el de pie siempre es el mayor— y aquí además es obligado: es el
+     precio de que los botones vivan dentro del margen en vez de empujar al
+     texto. Si alguna vez se quiere más estrecho, lo que hay que encoger son los
+     botones, no el margen.
+
+     El `max` es para los móviles estrechos: a 31cqw un iPhone SE daría 99 y los
+     botones no cabrían.
+
+     Y EL ÁREA SEGURA SE SUMA UNA VEZ, NO DOS. Está dentro de `--barra`
+     —`calc(64px + env(safe-area-inset-bottom))`— y de ahí sale sumada al
+     margen, que es lo que él pidió. Volver a sumarla aquí es exactamente el
+     doble descuento del que ya salió una vez: en su iPhone son treinta y
+     cuatro puntos restados dos veces, y fue lo que le hizo ver «un tercio de
+     pantalla vacío». Está contado en la hoja de paginado. */
+  --margen-lado: 16px;
+  --margen-arriba: 13cqw;
+  --margen-abajo: max(31cqw, 116px);
+  padding: var(--margen-arriba) var(--margen-lado) calc(var(--margen-abajo) + var(--barra));
+  /* Para que el indicador y los botones se coloquen contra el borde de la hoja
+     sin salirse de ella. */
+  position: relative;
   /* Regla 2: dentro de un tema no hay scroll. El gesto vertical cambia de
      short y el horizontal pasa de página; una barra de scroll aquí sería la
      señal de que el reparto se ha equivocado. */
@@ -10972,9 +11023,13 @@ button {
    mucho que allí pusiera veinte. Se tardó una medición en verlo y es
    exactamente la clase de choque que Pablo describió: «un padding inferior
    sumado encima de lo que ya lo incluía». */
+/* El mismo relleno de abajo para la hoja de verdad y para la gemela de medir,
+   con la especificidad suficiente para ganarle a las reglas de `[data-forma]`.
+   Sin esto la gemela mediría con otro margen y el reparto saldría de otra
+   pantalla. */
 .muro-hoja[data-forma="pagina"][data-sinfoto="true"]:not(.muro-medidor),
 .muro-hoja[data-forma="pagina"][data-sinfoto="true"].muro-medidor {
-  padding-bottom: calc(20px + var(--barra));
+  padding-bottom: calc(var(--margen-abajo) + var(--barra));
 }
 
 /* El muro cuando no hay ninguna historia escrita. Existe desde el 27 de
@@ -11144,6 +11199,46 @@ button {
   color: color-mix(in srgb, var(--ink) 72%, transparent);
 }
 
+
+/* ---- EL INDICADOR DE PÁGINA, DENTRO DEL MARGEN DE ABAJO ----------------
+   «Va dentro del margen inferior, centrado. No añade espacio extra por debajo:
+   ocupa margen que ya existía.» Por eso va en posición absoluta: sacado del
+   flujo, no le quita ni un punto al texto, y el margen que ya estaba ahí es su
+   sitio. Se apoya justo encima de la barra de pestañas.
+
+   Sobrio a propósito. No es un control, es una nota al pie: dice por dónde vas
+   y no pide que la mires. Las cifras, tabulares, para que el número no baile
+   de ancho al pasar de la 9 a la 10. */
+.muro-indice {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc(var(--barra) + 22px);
+  text-align: center;
+  font-family: var(--sans);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  font-variant-numeric: tabular-nums;
+  color: color-mix(in srgb, currentColor 38%, transparent);
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Y LOS BOTONES DE LA ÚLTIMA, en ese mismo margen y por el mismo motivo.
+   Estuvieron en el flujo hasta hoy, empujando al texto hacia arriba, y eso
+   hacía que la última pantalla tuviera menos sitio que las demás. Aquí abajo
+   no empujan nada, y la caja de texto mide lo mismo en la primera y en la
+   última, que es lo que Pablo puso como comprobación. */
+.muro-hoja[data-sinfoto="true"] .muro-pie-final {
+  position: absolute;
+  left: var(--margen-lado);
+  right: var(--margen-lado);
+  bottom: calc(var(--barra) + 8px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
 
 /* La copia del pie dentro de la hoja de medir: sirve para leer cuánto sitio le
    quita a la última pantalla y no se ve nunca —la hoja entera es invisible—.

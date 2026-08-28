@@ -105,18 +105,48 @@ penúltima se llena a 590 y se ve a 679, así que se queda con 89 puntos de huec
 No hay manera de evitarlo mientras los botones vayan dentro del flujo de la
 última pantalla; la única salida sería sacarlos de ahí.
 
-## La franja de abajo se probó y NO se queda
+## Los márgenes son de libro, y son los mismos en TODAS las páginas
 
-El 28 de agosto se pidió una franja de 56 puntos entre el texto y la barra de
-pestañas, con el «3 / 7» a un lado y una flecha al otro, para dar aire y para
-que el gesto horizontal se descubriera. Se hizo, se midió y Pablo la quitó al
-verla: **«déjalo como estaba antes, que estaba mucho mejor; lo que no quiero es
-que haya palabras sueltas por cambiar de página, es lo único que no quiero»**.
+Pablo, el 28 de agosto, después de probar y descartar la franja reservada:
+«olvida cualquier regla anterior sobre franjas reservadas o alturas fijas en la
+parte de abajo; quiero los márgenes de un libro normal y corriente». Con cuatro
+condiciones: el mismo a los dos lados, el de abajo igual o mayor que el de
+arriba, **fijos e idénticos en todas las páginas del short** —ni calculados por
+página ni recortados para que quepa una línea más— y el indicador de página
+dentro del margen de abajo, sin añadir alto.
 
-Queda escrito por dos motivos. Uno, que la idea era razonable y va a volver a
-ocurrírsele a alguien: no se vuelve a montar sin preguntar. Y dos, que de esa
-tanda solo sobrevive la regla 5 ter, así que el problema del gesto horizontal
-que no se descubre **sigue abierto** y habrá que resolverlo de otra manera.
+Hoy, en un móvil de 375: **49 de cabeza, 16 a cada lado, 116 de pie** sobre la
+barra de pestañas. La caja de texto mide **583 exactos en las 109 pantallas de
+los quince temas**.
+
+**Esto ha borrado el caso especial más caro que tenía el reparto.** Los botones
+de «Guardar / Compartir / Siguiente short» iban en el flujo y le quitaban
+ochenta y nueve puntos a la última pantalla, así que había que medirla distinta:
+una copia inerte del pie en la hoja de medir, y una regla —«es la última si todo
+lo que queda cabe sin el pie»— que no convergía. Ahora los botones viven DENTRO
+del margen de pie, en posición absoluta, y no empujan a nadie. `reparte` ya no
+sabe ni le importa cuál es la última.
+
+**El margen de pie sale de los botones, no del gusto.** Miden 87 puntos y se
+apoyan 8 sobre la barra, o sea que su borde de arriba queda a 159 del suelo de
+la hoja; la caja de texto acaba a `margen + barra`. Para que no se toquen ni en
+una última pantalla llena hace falta `margen ≥ 95 + respiro`. Con 100 se
+solapaban por dos puntos y medio. Si algún día se quiere el pie más estrecho,
+**lo que hay que encoger son los botones**, no el margen.
+
+**Y el área segura se suma una vez, no dos.** Está dentro de `--barra`
+—`calc(64px + env(safe-area-inset-bottom))`— y de ahí sale sumada al margen,
+que es lo que él pidió. Volver a sumarla en el relleno de la hoja es el doble
+descuento de la sección de arriba.
+
+## Medir una maqueta animada: espera a que pare
+
+El texto entra subiendo catorce puntos con un muelle. Midiendo a los 430 ms el
+margen salía entre 172,9 y 174,5 en pantallas que son idénticas, y el criterio
+de aceptación fallaba por una diferencia que no existía. Lo que NO se anima es
+el alto de la caja, y ese salía exacto en todas: cuando dos medidas de lo mismo
+no coinciden, sospecha de la animación antes que de la maqueta.
+`scripts/huerfanas.mjs` espera 1,1 s y comprueba las dos cosas.
 
 ## Lo que cuesta no partir el ⚡, con el número delante
 
@@ -125,7 +155,8 @@ Las reglas 5 bis y 5 ter tienen precio y hay que saberlo antes de proponer
 
     sin ninguna de las dos     3 pantallas de 80 con hueco de 2+ renglones
     sin partir el ⚡           15 de 80
-    + viudas y huérfanas       ver `scripts/llenado.mjs`
+    + viudas y huérfanas       21 de 80
+    + márgenes de libro        26 de 94
 
 El diario dice por qué, con esas palabras: «no cabía un rayo de 128 en los 63
 que quedaban, y no se parte». Los que se cierran sin llenar son, casi todos, un
@@ -138,7 +169,11 @@ mengua. Así que no hay que buscarle solución — está aceptado a cambio de no
 cortar nunca una conclusión por la mitad.
 
     node scripts/rayos.mjs      cuenta rayos partidos; tiene que dar 0
-    node scripts/huerfanas.mjs  palabras sueltas al cambiar de pantalla; 0
+    node scripts/huerfanas.mjs  líneas sueltas, scroll y márgenes; 0 fallos
+
+El segundo lleva el criterio de aceptación que puso Pablo: «ninguna página
+puede tener scroll vertical, y la distancia del texto al borde inferior tiene
+que ser exactamente la misma en la primera página y en la última».
 
 ## El listón, y cómo se comprueba
 

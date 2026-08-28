@@ -527,9 +527,9 @@ function cortaHastaLlenar(
 function reparte(
   caja: HTMLElement,
   bloques: Bloque[],
-  ops: { avisa?: (b: Bloque) => void; pie?: HTMLElement | null } = {},
+  ops: { avisa?: (b: Bloque) => void } = {},
 ): Bloque[][] {
-  const { avisa, pie = null } = ops;
+  const { avisa } = ops;
   /* El diario del reparto, apagado. Se enciende con `window.__PAGDEBUG = true`
      en la consola y dice, pantalla por pantalla, cuánto se ha llenado y qué
      bloque fue el que no cupo. */
@@ -570,35 +570,16 @@ function reparte(
      bloque devuelve la cola al montón, y puede tocar partirla otra vez. */
   const cola: Bloque[] = [...bloques];
 
-  /* EL PIE DE LA ÚLTIMA PANTALLA, PUESTO MIENTRAS SE LLENA. En la última están
-     los botones de «Seguir», que le quitan ochenta y nueve puntos al texto. Se
-     enseña la copia inerte antes de empezar esa pantalla y la caja, que es
-     `flex: 1`, encoge sola: se llena con el hueco que de verdad va a tener.
-     Sin esto, la última se llenaba con el alto de las demás y el texto se metía
-     debajo de los botones, con una barra de scroll donde no puede haberla.
+  /* YA NO HAY QUE SABER CUÁL ES LA ÚLTIMA PANTALLA, y aquí había cincuenta
+     líneas para averiguarlo. Los botones de «Guardar» iban en el flujo y le
+     quitaban ochenta y nueve puntos a la última, así que esa había que
+     medirla distinta: una copia inerte del pie en la hoja de medir, y una
+     regla —«es la última si todo lo que queda cabe sin el pie»— que no
+     convergía y dejaba la última con scroll.
 
-     CUÁL ES LA ÚLTIMA SE DECIDE AQUÍ, PANTALLA A PANTALLA: es la última si todo
-     lo que queda cabría en ella sin el pie, porque entonces al llenarla se
-     acaba el texto y los botones tienen que ir dentro. Se pregunta pintando lo
-     que queda en la caja vacía y mirando si desborda; una medida más, ninguna
-     resta.
-
-     Decidirlo de antemano —contar las pantallas de una pasada y decirle a la
-     siguiente cuál era la última— no funciona, y es lo que dejaba la última con
-     scroll: con el pie puesto la n sobraba texto y salían n+1 pantallas; con
-     n+1, la n volvía a caber entera y salían n otra vez. Se quedaba oscilando y
-     terminaba con la última llenada como si no llevara pie. */
-  const esLaUltima = (): boolean => {
-    if (!pie) return false;
-    pie.style.display = "none";
-    caja.innerHTML = htmlDeBloques(cola);
-    const cabe = caja.scrollHeight <= caja.clientHeight;
-    caja.innerHTML = "";
-    return cabe;
-  };
-  const ajustaPie = () => {
-    if (pie) pie.style.display = esLaUltima() ? "" : "none";
-  };
+     Desde que los márgenes son de libro —fijos e idénticos en todas las
+     páginas, con los botones dentro del margen de abajo— la caja de texto
+     mide lo mismo en todas. No hay caso especial que resolver. */
 
   const cierra = (porque = "") => {
     if (actual.length) {
@@ -610,11 +591,9 @@ function reparte(
       actual = [];
     }
     caja.innerHTML = "";
-    ajustaPie();
   };
 
   caja.innerHTML = "";
-  ajustaPie();
 
   /* El tope es el cinturón: cada vuelta o coloca un bloque o parte uno, y las
      dos cosas avanzan, así que el bucle termina. Si algún día no lo hiciera,
@@ -674,7 +653,18 @@ function reparte(
       devueltos.unshift(actual.pop()!);
       caja.removeChild(caja.lastElementChild!);
     }
-    if (devueltos.length && hueco() > caja.clientHeight * 0.25) {
+    /* EL TOPE DEL 25 % NO VALE PARA EL RÓTULO. Pablo, el 28 de agosto y sin
+       matices: «un ## nunca se queda solo al final de una página; si debajo
+       del subtítulo no caben al menos 2 líneas de su primer párrafo, el
+       subtítulo entero pasa a la página siguiente». Nunca es nunca, así que
+       cuando lo que se devuelve es un subtítulo se devuelve cueste lo que
+       cueste el hueco. El tope sigue en pie para lo demás.
+
+       Las dos líneas de su párrafo salen solas de `RENGLONES_MINIMOS`: si
+       debajo del subtítulo no cabían dos renglones, el párrafo no se partió,
+       así que el subtítulo quedó el último y entra por aquí. */
+    const devuelveRotulo = devueltos.some((d) => d.b === "rotulo");
+    if (devueltos.length && !devuelveRotulo && hueco() > caja.clientHeight * 0.25) {
       for (const d of devueltos) { actual.push(d); pinta(d); }
       devueltos.length = 0;
     }
@@ -686,7 +676,6 @@ function reparte(
     );
   }
   cierra();
-  if (pie) pie.style.display = "none";
   return paginas;
 }
 
@@ -781,7 +770,6 @@ function parteBloque(b: Bloque, el: HTMLElement, desborda: () => boolean): [Bloq
  */
 function usePaginas(short: Short) {
   const medidor = useRef<HTMLDivElement>(null);
-  const piePrueba = useRef<HTMLDivElement>(null);
   const [paginas, setPaginas] = useState<Bloque[][]>(() =>
     short.bloques.length ? [short.bloques] : [],
   );
@@ -813,10 +801,10 @@ function usePaginas(short: Short) {
         );
       };
 
-      /* Y EL REPARTO, DE UNA SOLA PASADA. La copia inerte del pie va con él:
-         `reparte` decide en cada pantalla si es la última y lo enseña o lo
-         esconde, y la caja encoge sola. Ver `esLaUltima`. */
-      const nuevas = reparte(cuerpo, short.bloques, { avisa: avisar, pie: piePrueba.current });
+      /* Y EL REPARTO, DE UNA SOLA PASADA Y SIN CASOS ESPECIALES: desde que los
+         márgenes son de libro, todas las pantallas tienen el mismo alto de
+         texto y no hay una última que medir aparte. */
+      const nuevas = reparte(cuerpo, short.bloques, { avisa: avisar });
 
       cuerpo.innerHTML = "";
       midiendo = false;
@@ -848,7 +836,7 @@ function usePaginas(short: Short) {
     };
   }, [short]);
 
-  return { paginas, medidor, piePrueba };
+  return { paginas, medidor };
 }
 
 /* --------------------------------------------------------------------------
@@ -1018,7 +1006,7 @@ function PaginaShort({
 
   /* Las pantallas de esta historia, calculadas midiendo. Ver `usePaginas` y
      `.claude/skills/paginado-shorts/SKILL.md`. */
-  const { paginas, medidor, piePrueba } = usePaginas(short);
+  const { paginas, medidor } = usePaginas(short);
   const total = paginas.length + 1;
 
   // Un solo valor de gesto para toda la historia: el texto va pegado al dedo.
@@ -1230,8 +1218,18 @@ function PaginaShort({
             </span>
           )}
 
+          {/* EL INDICADOR DE PÁGINA. Va en todas las pantallas de texto menos la
+              última, que en su sitio lleva los botones. Los dos viven DENTRO
+              del margen de abajo, en posición absoluta, así que no le quitan
+              ni un punto al texto: el margen que ocupan ya estaba ahí. */}
+          {!portada && !ultima && paginas.length > 0 && (
+            <p className="muro-indice" aria-hidden>
+              {paso} / {paginas.length}
+            </p>
+          )}
+
           {ultima && (
-            <>
+            <div className="muro-pie-final">
               <div className="muro-acciones">
                 <motion.button
                   className="muro-accion"
@@ -1267,7 +1265,7 @@ function PaginaShort({
                   ↓
                 </motion.span>
               </span>
-            </>
+            </div>
           )}
         </motion.div>
       </motion.div>
@@ -1303,20 +1301,9 @@ function PaginaShort({
             ref={medidor}
             dangerouslySetInnerHTML={{ __html: htmlDeBloques(short.bloques) }}
           />
-          {/* Y EL PIE, que solo sale en la ÚLTIMA pantalla y le quita sitio al
-              texto. Sin medirlo, la última se paginaba con el alto de las
-              demás y el texto se metía debajo de los botones: en «Por qué
-              vuelan los aviones» la última pantalla tenía 675 puntos de texto
-              en 575 de hueco, y aparecía una barra de scroll donde no puede
-              haberla. Aquí va una copia inerte, y `mide()` la enseña y la
-              esconde para leer las DOS alturas: la normal y la de la última. */}
-          <div className="muro-pie-medida" ref={piePrueba}>
-            <div className="muro-acciones">
-              <span className="muro-accion">Guardar</span>
-              <span className="muro-accion">Compartir</span>
-            </div>
-            <span className="muro-tirar">Siguiente short</span>
-          </div>
+          {/* Aquí iba una copia inerte del pie, para medir cuánto sitio le
+              quitaba a la última pantalla. Ya no hace falta: los botones viven
+              dentro del margen de abajo y no le quitan sitio a nadie. */}
         </div>
       )}
 
