@@ -145,11 +145,59 @@ O sea que la medición estaba bien y el fallo era de lógica: los bloques eran
 indivisibles y una pantalla se quedaba en 523 de 675 porque el párrafo que
 venía pedía 162 y quedaban 152. Fallaba por diez píxeles.
 
+## El tamaño de letra lo mandan los caracteres por renglón
+
+Pablo, el 28 de agosto, al cambiar la tipografía del lector de temas:
+
+> «Criterio de verificación, esto es lo que manda: una línea completa de texto
+> debe contener entre 35 y 40 caracteres. Compruébalo contando caracteres en
+> una línea real renderizada, no fiándote del valor en puntos. Si salen más de
+> 45, la letra se ha quedado pequeña: súbela. Si salen menos de 30, bájala. El
+> valor en pt es orientativo porque depende de la fuente y de la densidad de
+> pantalla; los caracteres por línea no.»
+
+    node scripts/renglon.mjs [ancho] [cuántos temas]
+
+Cuenta caracteres en renglones pintados de verdad, en varios temas, y sale con
+código 1 si la media se sale de 35-40. **Dos cosas que no se cuentan**: el
+guion blando que mete `silabas.ts` —está en la cadena y no en la pantalla, y
+contándolo salían 39 caracteres donde en el renglón hay 34— y el último renglón
+de cada párrafo, que acaba donde acaba la frase.
+
+**Y por eso el cuerpo va en `cqw` y no en puntos.** La pantalla es el
+contenedor de consulta, así que en un móvil más ancho la letra crece en la
+misma proporción y los caracteres por renglón se quedan quietos: medido a 320,
+375, 390 y 430, la media va de 36,1 a 37,3.
+
+De ahí sale también que **todas las medidas de la hoja son proporcionales**:
+`--cuerpo` y `--renglon` se declaran una vez en `.short-cuerpo` y de ahí salen
+el aire entre párrafos, el subtítulo, la sangría de las listas y el hueco del
+rayo. Cuando eran números sueltos en puntos, cambiar el cuerpo obligaba a
+tocarlos uno a uno, y el que se olvidara dejaba de medir un renglón.
+
+## La letra: la manda el tercer punto, no el primero
+
+Pablo pidió Literata «y, si da problemas, Source Serif 4, Newsreader o
+Vollkorn», y con tres condiciones: local y no de un CDN, para cuerpo y títulos,
+y **con cifras de estilo antiguo**. Literata falla la tercera: lo que sirve
+Google no trae `onum` y sus diez cifras son de caja alta. Source Serif 4 y
+Newsreader, igual. Es Vollkorn, que las trae de serie. Los números y el cómo
+están en `src/fuentes/README.md`.
+
+Va metida en el CSS en base64, no como fichero: el simulador que él abre es un
+solo `movil.html` y un `url()` a un fichero aparte no existiría allí. Y con
+`font-display: block`, porque el reparto se mide con la letra puesta.
+
 ## Las medidas del texto no se inventan: se miden
 
 Están en `referencia/lector-headway/README.md`, sacadas en píxeles de las
-capturas de Pablo. Hoy: cuerpo 20, interlínea 27, un renglón entero (27) de
-blanco entre párrafos, subtítulo 24/32 en negrita, margen lateral 16.
+capturas de Pablo. Hoy, en un móvil de 375: Vollkorn de 19,8, interlínea 1,3
+—25,7—, un renglón entero de blanco entre párrafos, subtítulo un 22 % mayor
+—24,1— en negrita, margen lateral 16.
+
+Y el subtítulo NO crece más que eso. Pablo: «no los hagas más grandes; la
+jerarquía la da el peso, no el tamaño. Un título solo un 20 % mayor que el
+cuerpo se ve más cuidado y deja más sitio para el texto».
 
 **Cuando diga que el tamaño no es igual, no se discute mirando el CSS: se mide
 la imagen.** La mancha de una línea —lo que ocupa de alto una fila de letras

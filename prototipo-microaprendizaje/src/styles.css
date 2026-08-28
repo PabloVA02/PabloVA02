@@ -1,3 +1,5 @@
+@import "./fuentes.css";
+
 /* ==========================================================================
    Sistema visual — una sola fuente de verdad para color, escala y ritmo.
    Cambiar la paleta es cambiar estas cinco variables de acento.
@@ -6832,6 +6834,20 @@ button {
     "Noto Serif", "Times New Roman", serif;
   --sans: "Avenir Next", Avenir, "Segoe UI Variable Display", "Segoe UI",
     system-ui, -apple-system, "Helvetica Neue", sans-serif;
+
+  /* Y LA LETRA DE LEER LOS TEMAS, que esta sí se descarga —va dentro del CSS,
+     en `fuentes.css`—. Pablo pidió Literata el 28 de agosto, «y si da
+     problemas, Source Serif 4, Newsreader o Vollkorn». Literata da uno, y es
+     justo el de su tercer punto: lo que sirve Google no trae cifras de estilo
+     antiguo. Sus diez cifras suben a 714 sobre una mayúscula de 700 y ninguna
+     baja de la línea, o sea todas de caja alta. Source Serif 4 y Newsreader,
+     igual. Vollkorn es la única de las cuatro que las trae, y encima de serie:
+     lo que lleva como característica opcional es `lnum`, para volver a las de
+     caja alta. Está en `scripts/fuente-lectura.py`, con los números.
+
+     Detrás va la lista de siempre, por si el `@font-face` fallara. */
+  --lectura: "Vollkorn", "Iowan Old Style", Charter, "Bitstream Charter",
+    Georgia, "Noto Serif", serif;
 }
 
 /* ---- la pantalla: es el contenedor contra el que se mide todo ---- */
@@ -10426,11 +10442,43 @@ button {
 .muro-hoja[data-sinfoto="true"] .short-cuerpo,
 .muro-hoja[data-sinfoto="true"] .short-cuerpo p,
 .muro-hoja[data-sinfoto="true"] .short-cuerpo li {
-  font-size: 20px;
-  /* En puntos y no en proporción: 27 exactos, que es lo que mide el renglón en
-     sus capturas. Con 1,42 sobre 20 saldrían 28,4 y el texto iría creciendo un
-     punto por pantalla. */
-  line-height: 27px;
+  /* LA LETRA DE LEER, y no la serifa del sistema. Pablo, el 28 de agosto: «usa
+     Literata para el cuerpo y los títulos; es una serifa libre diseñada por
+     Google específicamente para lectura larga en pantalla», con Vollkorn entre
+     las alternativas. Es Vollkorn, por las cifras: ver `--lectura`. Va cargada
+     desde el propio proyecto, en `fuentes.css`, no desde un CDN. */
+  font-family: var(--lectura);
+
+  /* EL TAMAÑO NO LO MANDA EL NÚMERO, LO MANDAN LOS CARACTERES POR RENGLÓN.
+     Él lo dejó dicho: «el valor en pt es orientativo porque depende de la
+     fuente y de la densidad de pantalla; los caracteres por línea no. Una
+     línea completa debe contener entre 35 y 40 caracteres».
+
+     Partió de 20,5. Se comprueba con
+     `node scripts/renglon.mjs`, que cuenta caracteres en renglones pintados
+     de verdad, no en el CSS.
+
+     Y va en `cqw` para que escale con el ancho del teléfono: la pantalla es el
+     contenedor de consulta, así que en un móvil más ancho la letra crece en la
+     misma proporción y los caracteres por renglón se quedan donde están. */
+  font-size: var(--cuerpo);
+
+  /* En proporción, 1,3, que es lo que pidió. Antes eran 27 puntos clavados
+     porque el cuerpo también era fijo; ahora que el cuerpo escala con la
+     pantalla, el renglón tiene que escalar con él. */
+  line-height: 1.3;
+
+  /* LAS CIFRAS, DE ESTILO ANTIGUO. Es lo que hace que un «1783» dentro de un
+     párrafo parezca de libro y no de interfaz: los números suben y bajan como
+     las minúsculas en vez de ir todos a la altura de las mayúsculas.
+
+     En Vollkorn son las de serie, así que esta línea no enciende nada: está
+     para que quede dicho, y para que si algún día se cambia de letra por una
+     que las lleve como opción —con la característica `onum`— siga saliendo lo
+     mismo sin tener que acordarse. Lo que NO puede aparecer aquí es
+     `lining-nums`: eso las apagaría. */
+  font-variant-numeric: oldstyle-nums;
+
   /* En bandera: en sus capturas no hay ni un renglón justificado. */
   text-align: left;
 }
@@ -10450,6 +10498,14 @@ button {
  * el texto de modo que a ninguna pantalla le sobre más de un par de renglones,
  * que sobre veintiséis no se ve. */
 .muro-hoja[data-sinfoto="true"] .short-cuerpo {
+  /* LAS DOS MEDIDAS DE LAS QUE SALE TODO LO DEMÁS. Se declaran aquí una vez y
+     el resto de la hoja las lee: el aire entre párrafos, el subtítulo, la
+     sangría de las listas y el hueco del rayo. Antes eran números sueltos en
+     puntos —27 aquí, 24 allá, 14 más abajo— y cambiar el cuerpo obligaba a
+     tocarlos uno por uno; peor, si se olvidaba uno, el aire dejaba de medir un
+     renglón y la pantalla se llenaba mal. */
+  --cuerpo: 5.27cqw;
+  --renglon: calc(var(--cuerpo) * 1.3);
   color: #f4f2ee;
   /* SIN PARTIR PALABRAS. El short parte con guiones —`src/silabas.ts` mete
      guiones blandos y la hoja pone `hyphens: auto`—, y se hizo cuando el texto
@@ -10462,8 +10518,9 @@ button {
 }
 /* Un renglón entero de blanco entre párrafos, que es lo que hay en sus
    capturas: 108 píxeles de un párrafo al siguiente, 54 de renglón y 54 de
-   aire. */
-.muro-hoja[data-sinfoto="true"] .short-cuerpo p { margin: 0 0 27px; }
+   aire. Ahora en proporción al cuerpo, no en puntos, porque el cuerpo escala
+   con el ancho del teléfono y el aire tiene que escalar con él. */
+.muro-hoja[data-sinfoto="true"] .short-cuerpo p { margin: 0 0 var(--renglon); }
 .muro-hoja[data-sinfoto="true"] .short-cuerpo > :last-child { margin-bottom: 0; }
 /* Y EL ÚLTIMO DE VERDAD, SEA QUIEN SEA. La regla de arriba se la comían dos
    selectores más específicos: la caja del rayo —`… .short-cuerpo
@@ -10475,20 +10532,27 @@ button {
    590. Aquí van los dos casos con la especificidad suficiente para ganar. */
 .muro-hoja[data-sinfoto="true"] .short-cuerpo > blockquote.rayo:last-child { margin-bottom: 0; }
 .muro-hoja[data-sinfoto="true"] .short-cuerpo li:last-child { margin-bottom: 0; }
+/* EL SUBTÍTULO: UN 22 % MAYOR QUE EL CUERPO, Y SE ACABÓ. Pablo: «no los hagas
+   más grandes; la jerarquía la da el peso, no el tamaño. Un título solo un
+   20 % mayor que el cuerpo se ve más cuidado y deja más sitio para el texto».
+   Sobre 20,5 eso son los 25 que él midió. La negrita sale del eje `wght` de
+   Literata, que llega hasta 700 en el mismo fichero. */
 .muro-hoja[data-sinfoto="true"] .short-cuerpo h3 {
-  margin: 0 0 27px;
-  font-size: 24px;
-  line-height: 32px;
+  margin: 0 0 var(--renglon);
+  font-family: var(--lectura);
+  font-size: calc(var(--cuerpo) * 1.22);
+  line-height: 1.28;
+  font-weight: 700;
 }
-.muro-hoja[data-sinfoto="true"] .short-cuerpo ul { margin: 0 0 27px; }
+.muro-hoja[data-sinfoto="true"] .short-cuerpo ul { margin: 0 0 var(--renglon); }
 .muro-hoja[data-sinfoto="true"] .short-cuerpo li {
-  margin-bottom: 14px;
-  padding-left: 17px;
+  margin-bottom: calc(var(--renglon) * 0.52);
+  padding-left: calc(var(--cuerpo) * 0.85);
 }
 .muro-hoja[data-sinfoto="true"] .short-cuerpo blockquote.rayo {
-  gap: 13px;
-  margin: 0 0 27px;
-  padding-left: 8px;
+  gap: calc(var(--cuerpo) * 0.65);
+  margin: 0 0 var(--renglon);
+  padding-left: calc(var(--cuerpo) * 0.4);
 }
 .muro-hoja[data-sinfoto="true"] .short-cuerpo blockquote.rayo::before {
   width: 20px;
@@ -10501,9 +10565,15 @@ button {
    normales —27— y eso le añadía un renglón de aire por dentro de la caja, así
    que debajo del rayo quedaba el doble de blanco que entre dos párrafos. El
    aire que le toca lo pone la propia caja. */
+/* Y la frase del rayo tampoco va en blanco puro: `#fff` sobre este fondo
+   deslumbra, y Pablo lo pidió por escrito —«color de texto ligeramente por
+   debajo del blanco puro sobre el fondo oscuro, para que no deslumbre»—. Este
+   sigue siendo más claro que el cuerpo, que es lo que le toca a la conclusión
+   de la pantalla, pero ya no es el blanco de la pantalla encendida. */
 .muro-hoja[data-sinfoto="true"] .short-cuerpo blockquote.rayo p {
   margin: 0;
   font-weight: 400;
+  color: #f8f5f0;
 }
 
 /* ---- LA PÁGINA SIN FOTOGRAFÍA -------------------------------------------
