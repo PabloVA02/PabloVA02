@@ -10465,6 +10465,16 @@ button {
    aire. */
 .muro-hoja[data-sinfoto="true"] .short-cuerpo p { margin: 0 0 27px; }
 .muro-hoja[data-sinfoto="true"] .short-cuerpo > :last-child { margin-bottom: 0; }
+/* Y EL ÚLTIMO DE VERDAD, SEA QUIEN SEA. La regla de arriba se la comían dos
+   selectores más específicos: la caja del rayo —`… .short-cuerpo
+   blockquote.rayo`, que lleva una clase de más— y el punto de una lista. El
+   rayo se quedaba entonces con sus 27 puntos de margen debajo aunque fuera lo
+   último de la pantalla, y esos 27 puntos salían de la cuenta del reparto: por
+   eso «no cabía un rayo de 108 en los 77 que quedaban» cuando un renglón mide
+   27. Se ve en el diario: con una sola palabra dentro, la caja se iba a 594 de
+   590. Aquí van los dos casos con la especificidad suficiente para ganar. */
+.muro-hoja[data-sinfoto="true"] .short-cuerpo > blockquote.rayo:last-child { margin-bottom: 0; }
+.muro-hoja[data-sinfoto="true"] .short-cuerpo li:last-child { margin-bottom: 0; }
 .muro-hoja[data-sinfoto="true"] .short-cuerpo h3 {
   margin: 0 0 27px;
   font-size: 24px;
@@ -10570,11 +10580,18 @@ button {
   pointer-events: none;
   contain: layout paint;
 }
-/* Y su texto no cuelga del pie ni se recorta: se mide entero, apilado desde
-   arriba. La hoja de verdad sí lo recorta. */
+/* Y SU TEXTO SE RECORTA IGUAL QUE EL DE VERDAD. Aquí está la pieza que hace
+   funcionar el reparto: con `overflow: hidden` la caja tiene un alto fijo —el
+   que le da `flex: 1`— y `scrollHeight` empieza a decir cuánto mide lo que hay
+   dentro. La pregunta «¿desborda?» es entonces `scrollHeight > clientHeight`,
+   una comparación de dos números que da el navegador, sin restar la barra ni
+   el área segura ni ningún relleno. Con `overflow: visible` —como estaba, para
+   medir la historia entera de una vez— la caja crecía con el texto, nunca
+   desbordaba, y el reparto tenía que calcular alturas: por ahí se colaron los
+   tres fallos de aritmética. */
 .muro-hoja.muro-medidor .short-cuerpo {
   margin-top: 0;
-  overflow: visible;
+  overflow: hidden;
 }
 
 /* En las pantallas bajas ceden los suelos, y en el mismo orden de siempre:
@@ -10998,3 +11015,8 @@ button {
    misma sangría, sin el icono. Se esconde con `visibility` y no quitándolo,
    para que el texto siga alineado con el de la pantalla anterior. */
 .short-cuerpo blockquote.rayo[data-sigue="true"]::before { visibility: hidden; }
+
+/* Y lo mismo con el primer punto de una lista que viene partida de la pantalla
+   anterior: la bolita ya salió allí, así que aquí se esconde y el texto sigue
+   alineado con el de arriba. */
+.short-cuerpo ul[data-sigue="true"] > li:first-child::before { visibility: hidden; }

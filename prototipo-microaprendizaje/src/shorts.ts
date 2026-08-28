@@ -155,7 +155,7 @@ export type Bloque =
   /** Un párrafo. Admite `<strong>` y `<em>`. */
   | { b: "parrafo"; texto: string }
   /** Una lista de viñetas. Se parte entre puntos, nunca dentro de uno. */
-  | { b: "lista"; puntos: string[] }
+  | { b: "lista"; puntos: string[]; sigue?: true }
   /** La caja del rayo: la conclusión de la sección. Nunca abre página.
    *  `sigue` marca la CONTINUACIÓN de un rayo que no cabía entero y se partió
    *  entre dos pantallas: pinta la caja sin el icono, porque el rayo ya salió
