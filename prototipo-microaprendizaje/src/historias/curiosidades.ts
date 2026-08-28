@@ -74,7 +74,7 @@ import portadaGravedad from "../../portadas/como-funciona-la-gravedad.avif";
 export const CURIOSIDADES: Short[] = [
   {
     id: "al-sol-le-quedan-cinco-mil-millones",
-    titulo: "Al Sol le quedan cinco mil millones de años. A nosotros, mil",
+    titulo: "Cuánto de vida le queda al Sol",
     categoria: "Ciencia",
     color: "var(--ochre)",
     /* Serie «cuanto-le-queda-al-sol», número 1 de cuatro. Se entiende suelto. */

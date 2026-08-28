@@ -1,5 +1,5 @@
 ---
-titulo: "Al Sol le quedan cinco mil millones de años. A nosotros, mil"
+titulo: "Cuánto de vida le queda al Sol"
 categoria: "Ciencia"
 serie: "cuanto-le-queda-al-sol"
 orden: 1
@@ -8,7 +8,7 @@ credito_portada: "La corona solar en ultravioleta: doscientas tomas de la sonda 
 frase_portada: ""
 ---
 
-# Al Sol le quedan cinco mil millones de años. A nosotros, mil
+# Cuánto de vida le queda al Sol
 
 
 ## Son dos relojes distintos y el nuestro corre más rápido
