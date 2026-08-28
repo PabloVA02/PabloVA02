@@ -448,6 +448,34 @@ body.simulador {
 .sim-area { display: flex; justify-content: center; width: 100%; }
 .sim-escalador { transform-origin: top center; }
 
+/* EL BOTÓN DE TAMAÑO REAL, y no es un adorno.
+ *
+ * Esta página encoge el teléfono para que quepa entero en la ventana, y en un
+ * móvil la ventana no da los 844 de alto: el simulador se ve al 75 % u 80 %.
+ * Eso está bien para mirar la maqueta y está MAL para juzgar el tamaño de la
+ * letra, que es lo que Pablo compara contra las capturas de su lector, hechas
+ * a tamaño real. El 28 de agosto acabó diciendo «el tamaño del texto no está
+ * igual» cuando el texto medía exactamente lo mismo, 19 sobre 27, y lo que no
+ * medía igual era el teléfono entero.
+ *
+ * Con el botón, el escalador se queda en 1 y el teléfono se sale de la
+ * ventana: se desplaza la página para verlo. Es la única manera de comparar
+ * una captura con otra. */
+.sim-boton {
+  display: inline-block;
+  margin: 0 0 10px;
+  padding: 7px 14px;
+  border: 1px solid var(--marco-filo, #3a3a3a);
+  border-radius: 999px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.sim-boton[data-real="true"] { border-color: var(--marco-acento, #cfa059); }
+#sim-cuenta { display: block; }
+
 .sim-telefono {
   position: relative;
   width: 407px; height: 844px;
@@ -525,7 +553,10 @@ body.simulador {
   </div>
 </div>
 
-<p class="sim-pie" id="sim-pie">${cuenta}</p>
+<p class="sim-pie" id="sim-pie">
+  <button type="button" id="sim-tamano" class="sim-boton">Ver a tamaño real</button>
+  <span id="sim-cuenta">${cuenta}</span>
+</p>
 
 <script>
 document.body.classList.add("simulador");
@@ -559,7 +590,14 @@ window.__FOTOS = ${JSON.stringify(Object.fromEntries(tabla))};
   var area = escalador.parentElement;
   var rotulo = document.querySelector(".sim-rotulo");
   var pie = document.getElementById("sim-pie");
+  var boton = document.getElementById("sim-tamano");
+  var real = false;
   function encajar() {
+    if (real) {
+      escalador.style.transform = "none";
+      area.style.height = "844px";
+      return;
+    }
     var ocupado = rotulo.offsetHeight + pie.offsetHeight + 96;
     var alto = Math.max(320, window.innerHeight - ocupado);
     var ancho = area.clientWidth || 407;
@@ -567,6 +605,12 @@ window.__FOTOS = ${JSON.stringify(Object.fromEntries(tabla))};
     escalador.style.transform = "scale(" + escala + ")";
     area.style.height = 844 * escala + "px";
   }
+  boton.addEventListener("click", function () {
+    real = !real;
+    boton.textContent = real ? "Ajustar a la ventana" : "Ver a tamaño real";
+    boton.setAttribute("data-real", String(real));
+    encajar();
+  });
   window.addEventListener("resize", encajar);
   encajar();
   setTimeout(encajar, 60);

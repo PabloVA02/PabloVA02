@@ -131,14 +131,21 @@ mete cada bloque en una pantalla de verdad y pregunta si se sale.
     node --experimental-strip-types scripts/reparte.mjs \
          referencia/textos-de-pablo/cuanto-le-queda-al-sol.md > /tmp/corte.json
 
-**Y CORTA POR PALABRAS, NO POR PÁRRAFOS.** Es el cambio del 28 por la tarde y
-lo pidió él con todas las letras: *«me da igual que el texto se corte, pero
-debe estar ajustado abajo, y que quede todo ajustado abajo, todas las
-páginas»*. Repartiendo por bloques enteros, la última pantalla de cada sección
-se quedaba con lo que sobrara —de cinco a ocho renglones de hueco—, porque un
-párrafo de ochenta palabras entra entero o no entra. Ahora un párrafo puede
-terminar a media pantalla y seguir en la siguiente, como en un libro de papel,
-y entonces todas llegan al borde. **No se pierde ni se recorta nada: continúa.**
+**CORTA POR FRASES.** Repartiendo por párrafos enteros, la última pantalla de
+cada sección se quedaba con lo que sobrara —de cinco a ocho renglones de
+hueco—, porque un párrafo de ochenta palabras entra entero o no entra.
+
+Se probó primero por PALABRAS y Pablo lo paró: *«cortar no me refiero en ese
+sentido; que lo ajustes en el sentido de por ejemplo "Mercurio será el primero
+en desaparecer." y lo que viene después lo pasas a la siguiente página; no
+cortes las palabras: aproxímalo, y cuando haya un punto o algo pues pasas a la
+siguiente página con el resto del texto»*. Y tiene razón: por palabras la
+pantalla quedaba al ras, pero a mitad de frase, y una frase partida entre dos
+pantallas obliga a recordar cómo empezaba.
+
+Así que el corte cae **siempre después de un punto**. Se pierde lo que ocupe
+la frase que no cabía —dos o tres renglones— y a cambio cada pantalla acaba
+donde acaba una idea. **No se pierde ni se recorta nada: continúa.**
 
 Lo que no se parte nunca es un subtítulo ni una caja del rayo —son piezas de
 una sola cosa— y un subtítulo tampoco cierra una pantalla, que sería un título
@@ -153,9 +160,31 @@ sobra al acabar el texto cae entero en la última y a veces son dos renglones:
 eso no se lee como un final, se lee como una avería. Se prueba cada corte de
 las dos últimas y gana el que iguala más los dos huecos.
 
-Resultado: **de las dieciocho pantallas, catorce quedan a menos de un renglón
-y medio del borde**; las que se quedan cortas son las dos del final de cada
-tema, que es donde el texto se acaba.
+Resultado: de las dieciocho pantallas, **once quedan a menos de tres renglones
+del borde** y ninguna pasa de siete y medio. Las más holgadas son las dos del
+final de cada tema, que es donde el texto se acaba.
+
+### «El tamaño del texto no está igual»: era el simulador, no la letra
+
+Pablo lo dijo dos veces el 28, y la segunda con las medidas ya copiadas del
+lector. Se midieron las tres cosas en píxeles, sobre sus propias capturas y
+sobre las nuestras:
+
+| | salto de renglón | altura de la mancha |
+|---|---|---|
+| su captura de Headway | 54 px (27 css) | 20 px |
+| nuestro lector de libros | 54 px (27 css) | 19 px |
+| nuestra pantalla de short | 54 px (27 css) | 19 px |
+
+O sea que la letra medía ya exactamente lo mismo. **Lo que no medía igual era
+el teléfono entero**: esta página encoge el simulador para que quepa en la
+ventana, y en un móvil la ventana no da los 844 de alto, así que se ve al 75 %
+u 80 %. Comparado contra una captura hecha a tamaño real, todo parece más
+pequeño —y también los libros, que están dentro del mismo simulador—.
+
+Por eso el simulador tiene ahora un botón, **«Ver a tamaño real»**: deja el
+teléfono a escala 1 y se desplaza la página para verlo entero. Es la única
+manera de comparar una captura con otra.
 
 ## CÓMO SE TRABAJABA HASTA AQUÍ — 27 de agosto de 2026, por la noche
 

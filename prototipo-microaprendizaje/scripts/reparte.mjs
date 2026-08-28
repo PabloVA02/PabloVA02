@@ -83,20 +83,41 @@ const md = readFileSync(RUTA, "utf8");
    Un átomo es lo más pequeño que se puede dejar en una pantalla sin que el
    corte quede mal:
 
-     · de un párrafo, cada palabra
+     · de un párrafo, cada FRASE
      · de una lista, cada punto
      · un subtítulo o un rayo, enteros
+
+   POR FRASES Y NO POR PALABRAS, que es lo que corrigió Pablo el 28 de agosto:
+   «cortar no me refiero en ese sentido; que lo ajustes en el sentido de por
+   ejemplo "Mercurio será el primero en desaparecer." y lo que viene después lo
+   pasas a la siguiente página; tiene que estar ajustado abajo, pero no cortes
+   las palabras: aproxímalo, y cuando haya un punto o algo pues pasas a la
+   siguiente página con el resto del texto».
+
+   Por palabras la pantalla quedaba al ras, pero cortando a mitad de frase, y
+   una frase partida entre dos pantallas obliga a recordar cómo empezaba. Por
+   frases se pierde algún renglón —lo que ocupe la frase que no cabe— y a
+   cambio cada pantalla acaba donde acaba una idea.
 
    Cada átomo sabe volver a montarse en HTML junto con los suyos, y ese es
    todo el truco: la pantalla es una tirada de átomos y el HTML se arma al
    final, cerrando y reabriendo el `<p>` o el `<ul>` en los cortes. */
+
+/** Un párrafo, en frases. Corta después de punto, interrogación, exclamación
+ *  o puntos suspensivos, admitiendo lo que suele ir pegado detrás —comillas,
+ *  paréntesis, una etiqueta que se cierra— y solo si viene un espacio: así
+ *  «1.291 bostezos» y «0,4 grados» no se parten por el punto del millar. */
+function frases(texto) {
+  return texto.split(/(?<=[.!?…][»"')\]]?(?:<\/(?:strong|em)>)?)\s+/).filter(Boolean);
+}
+
 function atomos(lista) {
   const fuera = [];
   for (const [i, b] of lista.entries()) {
     if (b.tipo === "parrafo") {
       const dentro = b.html.replace(/^<p>|<\/p>$/g, "");
-      for (const palabra of dentro.split(" "))
-        fuera.push({ de: i, tipo: "parrafo", pieza: palabra, seccion: b.seccion });
+      for (const frase of frases(dentro))
+        fuera.push({ de: i, tipo: "parrafo", pieza: frase, seccion: b.seccion });
     } else if (b.tipo === "lista") {
       for (const punto of b.html.replace(/^<ul>|<\/ul>$/g, "").split("</li>").filter(Boolean))
         fuera.push({ de: i, tipo: "lista", pieza: punto + "</li>", seccion: b.seccion });
