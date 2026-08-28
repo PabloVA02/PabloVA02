@@ -37,6 +37,35 @@ bloques —`rotulo`, `parrafo`, `lista`, `rayo`— y el número de pantallas no 
 escrito en ninguna parte: depende del móvil. Un tema que en un teléfono ocupa
 doce pantallas ocupa nueve en uno grande, y las dos cosas están bien.
 
+### El reparto llena las pantallas: parte por renglón, no por bloque
+
+Primera versión: cortar solo entre bloques enteros. Pablo la devolvió con el
+método para diagnosticarla, y con razón —«añade logs que impriman la altura
+disponible, la altura medida de cada párrafo y el acumulado; enséñame esos
+números antes de dar nada por bueno»—. Los números descartaron sus dos
+sospechas y señalaron la de verdad:
+
+    DISPONIBLE 675,3 · ancho de la caja de medir 343 · ancho de la real 343
+    fuentes loaded · 20px/27px "Iowan Old Style" en las dos
+    alturas 64, 216, 189, 135, 162… todas múltiplos de 27, el renglón
+    pantalla 1: 64+27+216+27+189 = 523 · el siguiente pedía 162 y quedaban 152
+
+O sea: la medición era exacta y el fallo era que **un párrafo entra entero o no
+entra**. Fallaba por diez píxeles y dejaba el 23 % de la pantalla en blanco.
+
+Ahora, cuando el siguiente no cabe, **se parte por renglón completo**: se
+buscan por bisección las posiciones de espacio del párrafo y se mide con un
+`Range`, que devuelve un rectángulo por renglón pintado. Nunca a mitad de
+palabra. Las listas se parten entre puntos. Y la regla de que el rayo no abra
+pantalla dejó de pagarse a cualquier precio: si arreglarla deja la pantalla por
+debajo del 80 %, no se arregla.
+
+    node scripts/llenado.mjs
+
+dice el llenado de cada pantalla y falla por debajo del 80 %. Hoy, de las diez
+historias: **todas las pantallas entre el 81 % y el 100 %** salvo la última de
+cada tema, que es donde el texto se acaba.
+
 **El que reparte es `usePaginas`, en `src/Shorts.tsx`.** Dentro de cada
 pantalla se monta una **hoja gemela invisible** —misma clase, mismos rellenos,
 misma tipografía— con la historia entera dentro. De ahí salen las alturas de
@@ -286,6 +315,7 @@ tres avisos en una sola visita.
 | `scripts/revisa-shorts.mjs` | el molde, con `--flojos` para lo pendiente |
 | `scripts/recorte.mjs` | las candidatas **ya recortadas al marco de la portada** |
 | `scripts/temas.mjs` | de los `.md` de Pablo a los bloques de `curiosidades.ts` |
+| `scripts/llenado.mjs` | cuánto se llena cada pantalla, y falla por debajo del 80 % |
 
 Aquí ponía que `buscar` filtraba «solo con sello» y no es verdad: filtra por
 `filetype:bitmap` y nada más. El sello de calidad —Quality image, Featured

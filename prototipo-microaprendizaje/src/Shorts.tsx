@@ -349,99 +349,268 @@ function respaldoDe(short: Short) {
    en el texto, y eso no lo puede hacer el código.
    -------------------------------------------------------------------------- */
 
-/** Cuánto ocupa cada bloque, ya pintado, incluyendo el margen que arrastra. */
-function altosDe(caja: HTMLElement): number[] {
-  const hijos = Array.from(caja.children) as HTMLElement[];
-  return hijos.map((e, i) => {
-    const s = getComputedStyle(e);
-    const margen = i === hijos.length - 1 ? 0 : parseFloat(s.marginBottom) || 0;
-    return e.getBoundingClientRect().height + margen;
-  });
+/** El margen entre dos bloques: el de abajo del primero. */
+function margenDe(e: HTMLElement): number {
+  return parseFloat(getComputedStyle(e).marginBottom) || 0;
 }
 
 /**
- * Reparte los bloques en pantallas que quepan en `alto`.
+ * DÓNDE CORTAR UN PÁRRAFO PARA QUE QUEPAN `renglones` RENGLONES.
  *
- * `avisa` se llama con el índice del bloque que no cabe él solo. Es la regla 7
- * y es la única que no se puede resolver desde aquí.
+ * Devuelve las dos mitades en HTML, o `null` si no se puede partir ahí.
+ *
+ * El corte cae SIEMPRE en un hueco entre palabras, así que nunca parte una
+ * palabra: se prueban solo las posiciones donde hay un espacio. Y se elige la
+ * última que sigue cabiendo, medida con un `Range` sobre el párrafo ya
+ * pintado: `getClientRects()` devuelve un rectángulo por renglón, así que
+ * contar rectángulos es contar renglones de verdad, con la letra de verdad y
+ * el ancho de verdad. No hay cuentas de caracteres por línea.
+ *
+ * Se buscan por bisección: un párrafo de doscientas palabras se resuelve en
+ * ocho medidas.
  */
-export function reparteBloques(
-  bloques: Bloque[],
-  altos: number[],
-  alto: number,
-  avisa?: (i: number) => void,
-): number[][] {
-  /* Medio punto de holgura: las alturas vienen con decimales del navegador y
-     sin esto un bloque que cabe justo se iba a la pantalla siguiente. */
-  const cabeEn = (suma: number) => suma <= alto + 0.5;
-  const suma = (lista: number[]) => lista.reduce((t, k) => t + altos[k], 0);
+function parteParrafo(el: HTMLElement, renglones: number): [string, string] | null {
+  if (renglones < 2) return null;
 
-  const paginas: number[][] = [];
-  let actual: number[] = [];
+  /* Todas las posiciones donde se puede cortar: los espacios. */
+  const cortes: { nodo: Text; off: number }[] = [];
+  const paseo = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+  let n: Node | null;
+  while ((n = paseo.nextNode())) {
+    const t = n.textContent ?? "";
+    for (let k = 0; k < t.length; k++) if (t[k] === " ") cortes.push({ nodo: n as Text, off: k });
+  }
+  if (cortes.length < 4) return null;
+
+  const r = document.createRange();
+  const cuantos = (i: number) => {
+    r.setStart(el, 0);
+    r.setEnd(cortes[i].nodo, cortes[i].off);
+    return r.getClientRects().length;
+  };
+  /* Cuántos renglones tiene entero. Si el corte que se pide dejaría una sola
+     línea al empezar la pantalla siguiente —una huérfana—, NO se renuncia a
+     partir: se corta dos renglones antes. Renunciar era lo que dejaba una
+     pantalla al 70 %: cabían seis de siete renglones y, por no dejar uno
+     suelto, no se partía ninguno. */
+  r.selectNodeContents(el);
+  const total = r.getClientRects().length;
+  if (total < 4) return null;
+  const corte = Math.min(renglones, total - 2);
+  if (corte < 2) return null;
+
+  /* Bisección: el último corte que sigue cabiendo en `renglones`. */
+  let bien = -1;
+  let lo = 0;
+  let hi = cortes.length - 1;
+  while (lo <= hi) {
+    const medio = (lo + hi) >> 1;
+    if (cuantos(medio) <= corte) { bien = medio; lo = medio + 1; }
+    else hi = medio - 1;
+  }
+  if (bien < 0) return null;
+
+  const caja = document.createElement("div");
+  r.setStart(el, 0);
+  r.setEnd(cortes[bien].nodo, cortes[bien].off);
+  caja.appendChild(r.cloneContents());
+  const cabeza = caja.innerHTML.trim();
+  caja.innerHTML = "";
+  r.setStart(cortes[bien].nodo, cortes[bien].off);
+  r.setEnd(el, el.childNodes.length);
+  caja.appendChild(r.cloneContents());
+  const cola = caja.innerHTML.trim();
+  if (!cabeza || !cola) return null;
+  return [cabeza, cola];
+}
+
+/**
+ * REPARTE LA HISTORIA EN PANTALLAS, LLENANDO CADA UNA.
+ *
+ * Llenado voraz: se van metiendo bloques mientras quepan, y solo se cierra la
+ * pantalla cuando el siguiente no entra. El margen cuenta solo ENTRE bloques,
+ * no debajo del último: el de abajo cae en el margen de la hoja y contarlo era
+ * perder un renglón por pantalla.
+ *
+ * Y CUANDO EL SIGUIENTE NO CABE ENTERO, SE PARTE POR RENGLÓN COMPLETO. Es la
+ * corrección que trajo Pablo el 28 de agosto con los números delante: cortando
+ * solo entre párrafos, una pantalla se quedaba en 523 puntos de 675 porque el
+ * párrafo que venía pedía 162 y quedaban 152. «Es preferible partirlo a dejar
+ * la página medio vacía; nunca a mitad de palabra.»
+ *
+ * Se parte solo si quedan **dos renglones a cada lado**: una línea suelta al
+ * final de una pantalla o al principio de la siguiente es lo que en imprenta
+ * se llama viuda o huérfana, y se ve peor que el hueco.
+ */
+function reparte(caja: HTMLElement, bloques: Bloque[], alto: number, avisa?: (i: number) => void): Bloque[][] {
+  const hijos = Array.from(caja.children) as HTMLElement[];
+  /* El diario del reparto, apagado. Se enciende con `window.__PAGDEBUG = true`
+     en la consola y dice, pantalla por pantalla, cuánto se ha llenado y qué
+     bloque fue el que no cupo. Es lo que hace falta para responder a «esta
+     página se queda medio vacía» con un número en vez de con una opinión. */
+    const diario = (globalThis as Record<string, unknown>).__PAGDEBUG
+      ? (...t: unknown[]) => console.debug("[pag]", ...t)
+      : () => {};
+  diario(`alto disponible ${alto.toFixed(1)}`);
+  const paginas: Bloque[][] = [];
+  let actual: Bloque[] = [];
+  let llevo = 0;
+  /* Dónde está un bloque en la lista de ahora. `bloques` se rehace al partir un
+     párrafo, así que buscarlo en la lista de partida devolvería otro sitio. */
+  const indice = (b: Bloque) => bloques.indexOf(b);
+
+  const cierra = (porque = "") => {
+    if (!actual.length) return;
+    diario(
+      `pantalla ${paginas.length + 1}: ${actual.length} bloques · ${llevo.toFixed(0)}/${alto.toFixed(0)} ` +
+        `= ${Math.round((llevo / alto) * 100)} %` + (porque ? ` · cerrada porque ${porque}` : ""),
+    );
+    paginas.push(actual);
+    actual = [];
+    llevo = 0;
+  };
 
   for (let i = 0; i < bloques.length; i++) {
-    if (actual.length && !cabeEn(suma(actual) + altos[i])) {
-      /* No cabe: se cierra la pantalla. Antes se miran los dos bordes.
+    const el = hijos[i];
+    if (!el) continue;
+    const h = el.getBoundingClientRect().height;
+    const margen = actual.length ? margenDe(hijos[i - 1]) : 0;
 
-         · el último bloque de la que se cierra no puede ser un subtítulo;
-         · el primero de la que se abre no puede ser un rayo.
-
-         Se arregla devolviendo bloques del final de esta a la siguiente. Nunca
-         se vacía la pantalla: si para cumplir la regla habría que dejarla sin
-         nada, manda que quepa. */
-      const devueltos: number[] = [];
-      while (actual.length > 1) {
-        const cierraConRotulo = bloques[actual[actual.length - 1]].b === "rotulo";
-        const abreConRayo = (devueltos.length ? bloques[devueltos[0]] : bloques[i]).b === "rayo";
-        if (!cierraConRotulo && !abreConRayo) break;
-        devueltos.unshift(actual.pop()!);
-      }
-      /* Y si lo devuelto no deja sitio para el bloque que venía, se deshace:
-         que quepa es antes que quedar bonito. */
-      if (!cabeEn(suma(devueltos) + altos[i])) {
-        actual.push(...devueltos);
-        devueltos.length = 0;
-      }
-      paginas.push(actual);
-      actual = devueltos;
+    if (llevo + margen + h <= alto + 0.5) {
+      actual.push(bloques[i]);
+      llevo += margen + h;
+      continue;
     }
 
-    /* Regla 7: no cabe ni él solo en una pantalla entera. No se parte y no se
-       encoge —las dos cosas están prohibidas—: se avisa con el nombre del tema
-       para que Pablo lo parta en el texto. */
-    if (!actual.length && !cabeEn(altos[i])) avisa?.(i);
+    /* No cabe entero. Si se puede partir, se parte: lo que quepa aquí y el
+       resto abre la pantalla siguiente. */
+    const b = bloques[i];
+    const hueco = alto - llevo - margen;
+    const renglon = parseFloat(getComputedStyle(el).lineHeight) || 27;
+    const caben = Math.floor((hueco + 0.5) / renglon);
 
-    actual.push(i);
+    /* UNA LISTA SE PARTE ENTRE PUNTOS, nunca dentro de uno. Es el equivalente
+       de partir un párrafo por renglones, y hace falta por lo mismo: las
+       listas de estos temas miden 474 y 582 puntos, así que una sola no cabía
+       en ninguna pantalla empezada y dejaba la anterior al 68 %. */
+    if (b.b === "lista") {
+      const puntos = Array.from(el.children) as HTMLElement[];
+      let cabenAqui = 0;
+      let suma = 0;
+      for (const li of puntos) {
+        const alto1 = li.getBoundingClientRect().height + (parseFloat(getComputedStyle(li).marginBottom) || 0);
+        if (suma + alto1 > hueco + 0.5) break;
+        suma += alto1;
+        cabenAqui++;
+      }
+      /* Un punto solo a un lado no vale: es la misma huérfana de antes. */
+      if (cabenAqui >= 1 && b.puntos.length - cabenAqui >= 1 && cabenAqui < b.puntos.length) {
+        actual.push({ b: "lista", puntos: b.puntos.slice(0, cabenAqui) });
+        llevo = alto;
+        cierra(`la lista se partió en ${cabenAqui} de ${b.puntos.length} puntos`);
+        bloques = [...bloques.slice(0, i), { b: "lista", puntos: b.puntos.slice(cabenAqui) }, ...bloques.slice(i + 1)];
+        el.innerHTML = b.puntos.slice(cabenAqui).map((t) => `<li>${t}</li>`).join("");
+        i--;
+        continue;
+      }
+    }
+
+    if (b.b === "parrafo" && caben >= 2) {
+      const trozos = parteParrafo(el, caben);
+      /* Y la cola tiene que ser más corta que el original: si no, partir no
+         avanza y el reparto entraría en bucle. No debería pasar nunca —el
+         corte cae siempre antes del final— y esta línea es el cinturón. */
+      if (trozos && trozos[1].length < (b.texto.length || 0)) {
+        actual.push({ b: "parrafo", texto: trozos[0] });
+        /* La cabeza ocupa lo que quepa, así que la pantalla queda llena: se
+           apunta para que el diario no diga 77 % donde hay un 93 %. */
+        llevo = alto;
+        cierra("el párrafo se partió por renglones");
+        /* La cola vuelve al mismo sitio del bucle: puede que tampoco quepa
+           entera y haya que partirla otra vez. */
+        bloques = [...bloques.slice(0, i), { b: "parrafo", texto: trozos[1] }, ...bloques.slice(i + 1)];
+        el.innerHTML = trozos[1];
+        i--;
+        continue;
+      }
+    }
+
+    /* No se ha podido partir: se cierra la pantalla y el bloque abre la
+       siguiente. Antes, las dos reglas de borde: un subtítulo no cierra
+       pantalla y un rayo no la abre. */
+    const devueltos: Bloque[] = [];
+    const antes = llevo;
+    while (actual.length > 1) {
+      const cierraConRotulo = actual[actual.length - 1].b === "rotulo";
+      const abreConRayo = (devueltos.length ? devueltos[0] : b).b === "rayo";
+      if (!cierraConRotulo && !abreConRayo) break;
+      const fuera = actual.pop()!;
+      devueltos.unshift(fuera);
+      const j = indice(fuera);
+      llevo -= (j > 0 ? margenDe(hijos[j - 1]) : 0) + hijos[j].getBoundingClientRect().height;
+    }
+    /* Y LA REGLA DE BORDE NO SE PAGA A CUALQUIER PRECIO. Devolver el párrafo
+       anterior para que el rayo no abra pantalla dejaba una pantalla al 60 %:
+       cuarenta por ciento de hueco por evitar que una caja de tres renglones
+       empiece arriba. Pablo puso el listón: «si ves páginas con más de un 20 %
+       de hueco y todavía quedaban bloques, la lógica sigue mal». Así que si el
+       arreglo deja la pantalla por debajo del 80 %, no se hace. */
+    if (devueltos.length && llevo < alto * 0.8) {
+      actual.push(...devueltos);
+      devueltos.length = 0;
+      llevo = antes;
+    }
+    cierra(
+      `no cabía un ${b.b} de ${h.toFixed(0)} y quedaban ${hueco.toFixed(0)}` +
+        (b.b === "parrafo" ? ` (solo ${caben} renglones, hacen falta 2)` : " (no se parte)") +
+        (devueltos.length ? ` · devueltos ${devueltos.length} al empezar la siguiente` : ""),
+    );
+    for (const d of devueltos) {
+      const j = indice(d);
+      actual.push(d);
+      llevo += (actual.length > 1 ? margenDe(hijos[j - 1]) : 0) + hijos[j].getBoundingClientRect().height;
+    }
+
+    /* Y si no cabe ni él solo en una pantalla vacía, y encima no se ha podido
+       partir, se avisa: lo tiene que arreglar el texto. */
+    if (!actual.length && h > alto + 0.5) avisa?.(i);
+    actual.push(b);
+    llevo += (actual.length > 1 ? margenDe(hijos[i - 1]) : 0) + h;
   }
-  if (actual.length) paginas.push(actual);
+  cierra();
   return paginas;
 }
 
 /**
- * El reparto vivo: mide, reparte y vuelve a hacerlo cuando cambia algo.
+ * EL REPARTO VIVO: mide, reparte, y vuelve a hacerlo cuando cambia algo.
  *
- * Devuelve las pantallas y la caja invisible donde se mide. La caja va dentro
- * de la propia pantalla —no en el `body`— para heredar el ancho, la letra y
- * todo lo que dependa del contenedor.
+ * Devuelve las pantallas ya hechas —bloques de verdad, alguno partido— y la
+ * referencia de la caja donde se mide.
  */
 function usePaginas(short: Short) {
   const medidor = useRef<HTMLDivElement>(null);
-  const [paginas, setPaginas] = useState<number[][]>(() =>
-    short.bloques.length ? [short.bloques.map((_, i) => i)] : [],
+  const [paginas, setPaginas] = useState<Bloque[][]>(() =>
+    short.bloques.length ? [short.bloques] : [],
   );
 
   useLayoutEffect(() => {
     const caja = medidor.current;
     if (!caja || !short.bloques.length) return;
-
+    let vivo = true;
     let ultimo = "";
+    /* El HTML de partida, para devolver la caja a su estado antes de cada
+       medida: `reparte` reescribe el párrafo que parte, y si no se repone, la
+       segunda pasada mediría lo que dejó la primera. Se calcula, no se lee del
+       DOM: leerlo después de una medida devolvería el estado a medias. */
+    const html = htmlDeBloques(short.bloques);
+
     const mide = () => {
-      /* El alto útil de la pantalla es el de la hoja menos sus rellenos, y el
-         relleno de abajo ya lleva dentro la barra de pestañas y el área
-         segura. Se lee del elemento, no de una constante: así vale igual en un
-         móvil con muesca que en uno sin ella. */
-      const hoja = caja.parentElement;
+      if (!vivo || !medidor.current) return;
+      const cuerpo = medidor.current;
+      const hoja = cuerpo.parentElement;
       if (!hoja) return;
+      /* El alto útil se lee del elemento: la hoja menos sus rellenos, y el de
+         abajo ya lleva dentro la barra de pestañas y el área segura. */
       const s = getComputedStyle(hoja);
       const alto =
         hoja.getBoundingClientRect().height -
@@ -449,35 +618,39 @@ function usePaginas(short: Short) {
         (parseFloat(s.paddingBottom) || 0);
       if (alto <= 0) return;
 
-      const altos = altosDe(caja);
-      const nuevas = reparteBloques(short.bloques, altos, alto, (i) => {
+      cuerpo.innerHTML = html;
+      const nuevas = reparte(cuerpo, short.bloques, alto, (i) => {
         const b = short.bloques[i];
         console.warn(
-          `[Curva] «${short.titulo}»: este bloque no cabe entero en una pantalla ` +
-            `y no se puede cortar. Pártelo en el texto.\n   ` +
+          `[Curva] «${short.titulo}»: este bloque no cabe en una pantalla y no se ha ` +
+            `podido partir por renglones. Pártelo en el texto.\n   ` +
             (b.b === "lista" ? b.puntos.join(" · ") : b.texto).replace(/<[^>]+>/g, "").slice(0, 120) +
             "…",
         );
       });
-      /* Solo se vuelve a pintar si el reparto ha cambiado de verdad: un
-         `resize` de un punto no tiene por qué mover nada. */
       const firma = JSON.stringify(nuevas);
       if (firma === ultimo) return;
       ultimo = firma;
       setPaginas(nuevas);
     };
 
-    mide();
-    /* Se recalcula cuando cambia el ancho de la caja —girar el teléfono— y
-       cuando cambia su alto medido, que es lo que pasa al subir el tamaño de
-       letra del sistema. El observador vigila la caja de medir, que reacciona
-       a las dos cosas. Regla 6. */
+    /* SE MIDE CON LA LETRA YA CARGADA. Con la de respaldo del sistema las
+       alturas son otras y el reparto sale mal: entre una serifa y la de palo
+       seco de reserva hay renglones de diferencia en un párrafo largo. */
+    if (document.fonts?.status === "loaded") mide();
+    document.fonts?.ready.then(mide).catch(() => mide());
+    /* Y si no hay API de fuentes, se mide igual en el cuadro siguiente. */
+    requestAnimationFrame(mide);
+
+    /* Regla 6: se rehace al girar el móvil y al cambiar el tamaño de letra del
+       sistema. Lo primero cambia el ancho de la hoja; lo segundo, el alto de lo
+       medido. El observador ve las dos cosas. */
     const ojo = new ResizeObserver(() => mide());
     ojo.observe(caja);
     if (caja.parentElement) ojo.observe(caja.parentElement);
     window.addEventListener("orientationchange", mide);
-    document.fonts?.ready.then(mide).catch(() => {});
     return () => {
+      vivo = false;
       ojo.disconnect();
       window.removeEventListener("orientationchange", mide);
     };
@@ -840,7 +1013,7 @@ function PaginaShort({
               {portada ? (
                 <Portada short={short} />
               ) : (
-                <CuerpoPagina bloques={(paginas[paso - 1] ?? []).map((i) => short.bloques[i])} />
+                <CuerpoPagina bloques={paginas[paso - 1] ?? []} />
               )}
             </motion.div>
           </AnimatePresence>
@@ -933,18 +1106,18 @@ function PaginaShort({
           escuche la pantalla no oiga el tema dos veces. */}
       {short.bloques.length > 0 && (
         <div className="muro-hoja muro-medidor" data-forma="pagina" data-sinfoto="true" aria-hidden>
-          <div className="short-cuerpo" ref={medidor}>
-            {short.bloques.map((b, i) => (
-              <PintaBloque key={i} b={b} />
-            ))}
-          </div>
+          <div
+            className="short-cuerpo"
+            ref={medidor}
+            dangerouslySetInnerHTML={{ __html: htmlDeBloques(short.bloques) }}
+          />
         </div>
       )}
 
       {/* Y sin páginas no hay barra: quedaba una franja vacía flotando. */}
       {paginas.length > 0 && (
         <div className="muro-tramos" aria-hidden>
-          {paginas.map((_, i: number) => (
+          {paginas.map((_: Bloque[], i: number) => (
             <span key={i} className="muro-tramo">
               <motion.span
                 className="muro-tramo-relleno"
@@ -1185,6 +1358,27 @@ function CuerpoPagina({ bloques }: { bloques: Bloque[] }) {
       </motion.div>
     </div>
   );
+}
+
+/**
+ * Los bloques en HTML, para la caja de medir.
+ *
+ * Se pinta con `dangerouslySetInnerHTML` y no con componentes a propósito:
+ * `reparte` REESCRIBE ese HTML mientras mide —cuando parte un párrafo, deja
+ * dentro la cola para volver a medirla—, y si React fuera dueño de esos hijos
+ * los repondría en cualquier re-render, en mitad de la medida. Con el HTML
+ * puesto de una vez, React no vuelve a mirar ahí dentro.
+ */
+export function htmlDeBloques(bloques: Bloque[]): string {
+  return bloques
+    .map((b) => {
+      if (b.b === "rotulo") return `<h3>${conGuiones(b.texto)}</h3>`;
+      if (b.b === "parrafo") return `<p>${conGuiones(b.texto)}</p>`;
+      if (b.b === "lista")
+        return `<ul>${b.puntos.map((t) => `<li>${conGuiones(t)}</li>`).join("")}</ul>`;
+      return `<blockquote class="rayo"><p>${conGuiones(b.texto)}</p></blockquote>`;
+    })
+    .join("");
 }
 
 /** Un bloque, pintado. Es la misma tabla que `PintaBloque` del lector. */

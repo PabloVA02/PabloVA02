@@ -9,7 +9,7 @@ Las puso Pablo el 28 de agosto de 2026, después de cinco vueltas sobre lo
 mismo. **No se negocian y no se olvidan.** Si algo de aquí choca con lo que
 parezca razonable, manda esto.
 
-## Las siete reglas
+## Las ocho reglas
 
 1. **Cada página ocupa exactamente el alto visible**: `100dvh` menos la barra
    de pestañas menos `env(safe-area-inset-bottom)`. **Nunca `100vh`** —en un
@@ -22,22 +22,64 @@ parezca razonable, manda esto.
    páginas fijas. Se renderizan los párrafos en un contenedor oculto con el
    mismo ancho y la misma tipografía, se acumulan alturas, y se corta cuando el
    siguiente no quepa.
-4. **El corte cae SIEMPRE entre párrafos, nunca dentro de uno.**
-5. **Un título no se separa de su primer párrafo**, y **el bloque ⚡ no empieza
-   página**: es la conclusión de lo que se acaba de leer, y suelto arriba no
-   dice nada.
-6. **Se recalcula al cambiar la orientación o el tamaño de letra del sistema.**
-7. **Si un párrafo suelto no cabe entero en una página, NO SE CORTA.** Se avisa
-   por consola con el nombre del tema para que Pablo lo parta en el texto.
+4. **Llenado voraz: se meten bloques mientras quepan.** Solo se cierra la
+   página cuando el siguiente no entra. El margen cuenta **entre** bloques, no
+   debajo del último.
+5. **Si el siguiente no cabe entero, se parte POR RENGLÓN COMPLETO.** Nunca a
+   mitad de palabra. Es preferible partir un párrafo a dejar la página medio
+   vacía. Las listas se parten entre puntos.
+6. **Un título no se separa de su primer párrafo** y **el ⚡ no empieza
+   página** —es la conclusión de lo que se acaba de leer—, **pero esa regla no
+   se paga a cualquier precio**: si arreglarlo deja la página por debajo del
+   80 %, no se arregla.
+7. **Se recalcula al cambiar la orientación o el tamaño de letra del sistema.**
+8. **Si un bloque no cabe ni él solo y tampoco se puede partir**, se avisa por
+   consola con el nombre del tema para que Pablo lo arregle en el texto.
 
-## Por qué la 7 es la importante
+## El listón, y cómo se comprueba
 
-Es la única que no se puede resolver desde el código. Un párrafo más alto que
-la pantalla solo tiene dos salidas: partirlo —y entonces se lee media frase y
-se pasa página— o encogerlo —y entonces esa pantalla tiene otra letra que las
-demás—. Las dos están prohibidas por las reglas de arriba. La salida buena es
-que el texto cambie, y el texto lo escribe Pablo: por eso el aviso lleva el
-nombre del tema.
+> «Una página bien paginada debe quedar prácticamente llena. Si al terminar ves
+> páginas con más de un 20 % de hueco sobrante y todavía quedaban bloques por
+> colocar, la lógica sigue mal.»
+
+    npx vite build && python3 -m http.server 4173 --directory dist &
+    node scripts/llenado.mjs
+
+Dice el porcentaje de llenado de cada pantalla y sale con código 1 si alguna se
+queda corta. La última de cada tema no cuenta: ahí ya no quedan bloques.
+
+Y si hace falta ver POR QUÉ una se queda corta, el reparto lleva su propio
+diario: `window.__PAGDEBUG = true` en la consola y dice, pantalla por pantalla,
+cuánto se llenó y qué bloque fue el que no cupo.
+
+## Antes de tocar la lógica, MIDE
+
+Pablo lo dejó escrito y tenía razón las tres veces:
+
+> «Primero, diagnostica. Añade logs que impriman la altura disponible
+> calculada, la altura medida de cada párrafo y el acumulado en cada
+> iteración. Enséñame esos números antes de dar nada por bueno. Si las alturas
+> medidas son mucho mayores que las reales, el problema está en la medición.»
+
+Las dos causas que hay que descartar antes de tocar el algoritmo:
+
+- **La fuente.** Se mide solo con `document.fonts.ready` cumplido. Medir con
+  la de respaldo del sistema y pintar con la serifa da alturas de otro texto.
+- **El contenedor de medición.** Tiene que tener EXACTAMENTE el mismo ancho de
+  contenido, `font-family`, `font-size`, `line-height`, `letter-spacing` y
+  margen entre párrafos. Unos píxeles de diferencia y el texto envuelve
+  distinto. Por eso se mide en una **hoja gemela** con la misma clase y los
+  mismos rellenos, no en una caja aparte.
+
+La primera vez que se midió salió esto, y sirvió para descartar las dos:
+
+    DISPONIBLE 675,3 · ancho de la caja 343 · ancho de la real 343
+    fuentes loaded · 20px/27px "Iowan Old Style" en las dos
+    alturas: 64, 216, 189, 135, 162… todas múltiplos de 27, el renglón
+
+O sea que la medición estaba bien y el fallo era de lógica: los bloques eran
+indivisibles y una pantalla se quedaba en 523 de 675 porque el párrafo que
+venía pedía 162 y quedaban 152. Fallaba por diez píxeles.
 
 ## Las medidas del texto no se inventan: se miden
 
