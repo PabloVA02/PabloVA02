@@ -28,6 +28,7 @@ import p_la_unica_especie_que_se_sonroja from "../../portadas/la-unica-especie-q
 import p_el_picante_no_es_un_sabor from "../../portadas/el-picante-no-es-un-sabor.avif";
 import p_el_picor_lo_pones_tu from "../../portadas/el-picor-lo-pones-tu.avif";
 import p_un_patinador_no_derrite_el_hielo from "../../portadas/un-patinador-no-derrite-el-hielo.avif";
+import p_no_solo_cuando_estan_contentos from "../../portadas/no-solo-cuando-estan-contentos.avif";
 import p_la_leche_cortada_es_queso_a_medio_empezar from "../../portadas/la-leche-cortada-es-queso-a-medio-empezar.avif";
 import p_el_pan_duro_no_se_ha_secado from "../../portadas/el-pan-duro-no-se-ha-secado.avif";
 import p_no_es_falta_de_riego from "../../portadas/no-es-falta-de-riego.avif";
@@ -52,7 +53,7 @@ import p_por_que_vuelan_los_aviones_es_falso from "../../portadas/por-que-vuelan
    reparte en pantallas es la app, midiendo el móvil de quien lee. Es la
    regla 3 de `.claude/skills/paginado-shorts/SKILL.md`.
 
-   Hoy entran 37 de 106: solo los que tienen portada.
+   Hoy entran 38 de 106: solo los que tienen portada.
    ========================================================================== */
 
 export const CURIOSIDADES: Short[] = [
@@ -3103,6 +3104,125 @@ export const CURIOSIDADES: Short[] = [
           "medir experimentalmente la presión real que ejerce el filo de un patín sobre el hielo, " +
           "en vez de suponerla, y precisamente por eso su número resultó tan incómodo para la " +
           "explicación que él mismo estaba comprobando.",
+      },
+    ],
+  },
+  {
+    id: "no-solo-cuando-estan-contentos",
+    titulo: "Por qué ronronean los gatos",
+    categoria: "Naturaleza",
+    color: "var(--plum)",
+    /* Serie «por-que-ronronean-los-gatos», número 1. Se entiende suelto. */
+    /* Su titular, el que trae el .md: «Un gato también ronronea mientras se muere» */
+    encargo: "Un gato también ronronea mientras se muere",
+    fotos: [
+      {
+        local: p_no_solo_cuando_estan_contentos,
+        autor: "",
+        licencia: "Pexels License",
+        alt:
+          "Un gato también ronronea mientras se muere",
+      },
+    ],
+    soloPortada: true,
+    textoDePablo: true,
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El ronroneo no significa lo que damos por hecho",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La traducción que hacemos todos del ronroneo es inmediata: el gato está a gusto. Lo " +
+          "acaricias, arranca ese motor y das por hecho que es su manera de decir que está " +
+          "contento. Y en muchísimos casos lo está, así que la lectura funciona el noventa por " +
+          "ciento del tiempo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "El problema es el otro diez por ciento, y es el que obliga a replantearlo todo. Los " +
+          "veterinarios llevan décadas observando gatos que ronronean en situaciones que no " +
+          "tienen nada de placenteras. Ronronean cuando están heridos. Ronronean en la consulta, " +
+          "asustados y con el pulso disparado. Las gatas ronronean mientras paren. Y ronronean, y " +
+          "esto es lo que más impresiona a quien lo ha visto, mientras se están muriendo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Si un mismo sonido aparece cuando el animal está tumbado al sol y también cuando está " +
+          "agonizando, entonces ese sonido no puede significar «estoy contento». Tiene que " +
+          "significar otra cosa, o no significar nada concreto y ser más bien un mecanismo que se " +
+          "activa en circunstancias muy distintas.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "La hipótesis que se maneja es que sea algo así como una forma de autorregulación: un " +
+          "comportamiento que el gato despliega en situaciones de alta demanda, sea buena o mala, " +
+          "para calmarse a sí mismo. Encajaría con que aparezca en el placer y en el dolor, que " +
+          "son dos estados opuestos en lo emocional y parecidos en lo fisiológico.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Si el mismo sonido aparece tumbado al sol y agonizando, no puede querer decir «estoy " +
+          "contento».",
+      },
+      {
+        b: "rotulo",
+        texto:
+          "Y en 2023 se descubrió que ni siquiera sabíamos cómo lo hacen",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Lo más desconcertante de este tema es que hasta hace muy poco tampoco estaba resuelto " +
+          "el mecanismo, que parecería la parte fácil.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Durante unos cincuenta años, la explicación aceptada fue que el ronroneo lo produce el " +
+          "propio cerebro del gato mandando pulsos rítmicos a los músculos de la laringe, que se " +
+          "contraen y se relajan entre veinte y treinta veces por segundo. Un oscilador neuronal, " +
+          "es decir, un metrónomo dentro del sistema nervioso ordenando cada ciclo. Encajaba con " +
+          "que el sonido sea tan regular y con que el gato pueda ronronear mientras respira en " +
+          "las dos direcciones.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "En 2023, un equipo dirigido por Christian Herbst publicó en <em>Current Biology</em> " +
+          "un resultado que descoloca esa explicación. Trabajando con laringes de gato aisladas, " +
+          "sin ningún nervio conectado y por tanto sin ninguna orden posible del cerebro, " +
+          "consiguieron que produjeran sonidos a frecuencias de ronroneo. Sin pulsos, sin " +
+          "músculos contrayéndose a ritmo, sin metrónomo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Al mirar la anatomía con detalle encontraron una estructura que puede explicarlo: unas " +
+          "almohadillas de tejido incrustadas en las cuerdas vocales, que aumentan su masa y les " +
+          "permiten vibrar a frecuencias bajísimas, de veinte a treinta hercios. Es un mecanismo " +
+          "pasivo, más parecido al de la voz humana muy grave que a un músculo latiendo.",
+      },
+      {
+        b: "parrafo",
+        texto:
+          "Conviene decir que el hallazgo no cierra el asunto: demuestra que la laringe " +
+          "<strong>puede</strong> hacerlo sola, no que en un gato vivo se haga exactamente así, y " +
+          "los propios autores señalan que el cuadro sigue incompleto. Pero deja una situación " +
+          "curiosa: llevamos milenios conviviendo con este animal y seguimos discutiendo cómo " +
+          "produce su sonido más característico.",
+      },
+      {
+        b: "rayo",
+        texto:
+          "Una laringe de gato desconectada de todo nervio produce ronroneo. Cincuenta años de " +
+          "explicación se quedaron cojos en 2023.",
       },
     ],
   },

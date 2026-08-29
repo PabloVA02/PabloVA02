@@ -7,7 +7,7 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 | | hecho | queda |
 |---|---|---|
 | shorts con el texto de Pablo | **106** | en 46 series |
-| de esos, **vivos en la app** | **37** | los otros 69 esperan portada |
+| de esos, **vivos en la app** | **38** | los otros 68 esperan portada |
 | libros en el catálogo | 418 | |
 | libros con resumen escrito a mano | **339** | 79 para el catálogo entero |
 | cubiertas dibujadas por Pablo | **309** | 109 para el catálogo entero |
@@ -26,6 +26,79 @@ lo han sido desde antes del 27 de agosto —comprobado con `git show` sobre tres
 commits—, así que no se perdió ninguno, se escribió mal el número. Un dato
 inventado en este documento es peor que no tenerlo: la siguiente sesión lo lee
 como cierto y no lo vuelve a mirar.
+
+## LA RESOLUCIÓN, A TOPE — 29 de agosto, noche
+
+> «Que se vean lo mejor que se puede, la máxima resolución que te pase, pues
+> esa, o la máxima que permitan los mejores móviles del mundo y los que
+> vendrán; que se vea a una calidad espléndida. Si hay alguna que no es de esa
+> calidad me lo dices y no la pones.»
+
+Son dos instrucciones y hacían falta **dos números**, no uno:
+
+| | | por qué |
+|---|---|---|
+| **techo** | 2160 px de ancho | 2160 × 3840, el vertical de 4K. El móvil más fino que se vende, el Xperia 1, tiene 1644; el iPhone Pro Max, 1320. Margen para los que vengan sin guardar lo que nadie va a ver. |
+| **suelo** | 1644 px | Lo que ese Xperia necesita para enseñarla píxel a píxel. Por debajo se estira y se nota. |
+
+Y entre medias, **lo que dé el original, sin estirarlo nunca**. Es la primera
+mitad de su frase: si una foto da 1800 útiles, la portada sale a 1800. Antes se
+redimensionaba siempre al objetivo, así que un original pequeño salía inflado y
+solo se avisaba por consola.
+
+**39 portadas · 944 kB de media · 28 llegan al techo.** El peso se ha
+cuadruplicado —eran 262 kB— y es a propósito: «prioriza la imagen sobre el
+peso». Si algún día pesa demasiado en datos móviles, bajar el techo a 1644
+—el ancho exacto del mejor móvil— deja la mitad sin diferencia visible hoy.
+
+### Las cinco que no llegan al suelo
+
+Están para decidir, y **la decisión es de Pablo**: «me lo dices y no la pones».
+
+| portada | sale a | le faltan | qué es |
+|---|---|---|---|
+| `por-que-vuelan-los-aviones-es-falso` | 1286 | 358 | un 22 % de estirón, se ve |
+| `erizar-un-pelaje-que-ya-no-tienes` | 1406 | 238 | un 15 %, se nota poco |
+| `el-cafe-no-te-da-energia` | 1540 | 104 | un 7 %, difícil de ver |
+| `el-bostezo-no-tiene-que-ver-con-el-oxigeno` | 1626 | **18** | indistinguible |
+
+**Y una sexta que se arregló sola**: `la-leche-cortada` salía a 1513 no por la
+foto sino **por el zoom del encuadre a mano**, que estaba en 1,3. Acercarse
+recorta, y lo recortado ya no está para la salida. Bajándolo a 1,15 pasa a
+1711 y el encuadre sigue valiendo. Conviene recordarlo: **un zoom en
+`recortes.json` cuesta resolución**, y el guion ya lo descuenta al calcular.
+
+### Y catorce fotografías más, guardadas
+
+Llegaron por la noche. Una entra —`Gato.jpg`, 2955 × 3694, que sustituye al
+AVIF de 900 px y desbloquea «Por qué ronronean los gatos»—. **Las otras trece
+esperan en `originales/sin-asignar/`** con su inventario medido en el README de
+ahí: diez dan la talla y esperan texto —aurora, mar, glaciar, luna, estrellas,
+galaxia, arcoíris, rayo, cohete, cuánto le queda a la Luna— y tres no llegan al
+suelo: `BombaAtómica` (645), `VenasAzules` (1326) y `CopoDeNieve` (1458).
+
+`VenasAzules` es un caso distinto y vale la pena entenderlo: la foto es grande
+—2648 × 2358— pero **casi cuadrada**, y al recortarla a 9:16 se queda en 1326.
+No es mala imagen, es que no tiene forma de portada. Y bloquea un short que ya
+está escrito.
+
+**El `Gato.avif` viejo se ha ido a `originales/retirados/`** como
+`Gato-900px.avif`. Retirada no es borrada: ahí el guion no la vuelve a procesar
+y el archivo sigue.
+
+### Cómo queda
+
+38 shorts vivos de 106 escritos, 195 pantallas:
+
+    huerfanas   0 palabras sueltas, 0 recortadas, mismo margen en todas
+    puntofinal  186 de 195 acaban en punto (95 %)
+    rayos       74 rayos pintados, 0 partidos
+    huecos      4 pantallas pasan de 3 renglones, por un ⚡ o un 💡
+
+Y los simuladores, cada vez más justos: `movil.html` 15,9 MB con las portadas a
+**600** —bajaron de 900 a 700, a 620 y ahora a 600 en un día— y `shorts.html`
+12,1 MB con ellas a **1300**, que ya no es el 1440 de antes. La siguiente tanda
+no cabe: toca `--cubiertas-ancho` y, después, dejar shorts fuera del escaparate.
 
 ## CIENTO SEIS SHORTS, TREINTA Y SIETE VIVOS — 29 de agosto, tarde
 
